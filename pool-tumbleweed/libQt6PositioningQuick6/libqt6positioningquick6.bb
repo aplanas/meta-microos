@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6PositioningQuick6-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "04f9f380865de4f1149c9117a1982b8e334ad40ddd49010da1a0e8cd159faf439f02f7f2a116f4faae3e47be7c0a92eb0dcf0ed0689f8d0ffff1ed1661f0c2b3"
+RPM_NAME = "libQt6PositioningQuick6-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "2e9325373feb4f0bd0a4a39e492391c0eb3033c4f5e05ca7d771b0042c6c891a2eb0a4465b5251581afc1daa8652b7be6c9c22941dc7069f7003f3a3b96b8709"
 
 RPROVIDES:${PN} += "libQt6PositioningQuick.so.6 \
 libQt6PositioningQuick6"

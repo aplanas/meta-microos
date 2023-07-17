@@ -14,10 +14,10 @@ Feature Highlights: \
  * Financial Calculations."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception | SUSE-GPL-3.0-with-openssl-exception"
 
-PV = "4.14"
+PV = "5.3"
 
-RPM_NAME = "gnucash-4.14-1.4.aarch64.rpm"
-RPM_HASH = "2e94a1f26aad4620c7a833bed5ce9ed7995a63c3acf0ee16fba5b1aac1a612661176f8ba7a54afb642e3156ea0e4ededcde5483b7947f0edb1a4a3db14163468"
+RPM_NAME = "gnucash-5.3-1.1.aarch64.rpm"
+RPM_HASH = "df05b23bbfbbb0da2549d0aab0ff00f4e216652ec0b2522361279b6b358ba5d7e926061f8e514a939db7d242b06f106653750c4ba5663acafa8004fa8669300b"
 
 RPROVIDES:${PN} += "config-gnucash \
 gnucash \
@@ -30,6 +30,8 @@ libgnc-csv-export.so \
 libgnc-csv-import.so \
 libgnc-customer-import.so \
 libgnc-engine.so \
+libgnc-expressions-guile.so \
+libgnc-expressions.so \
 libgnc-generic-import.so \
 libgnc-gnome-search.so \
 libgnc-gnome-utils.so \

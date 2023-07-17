@@ -8,10 +8,10 @@ For managing secret key files, the Portable Symmetric Key Container \
 This subpackage contains the headers for this library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.6.7"
+PV = "2.6.8"
 
-RPM_NAME = "libpskc-devel-2.6.7-3.5.aarch64.rpm"
-RPM_HASH = "53121c0613c444056761250ea403f53f647ecced244d7e04eaa92bc87c747c6d3d3af9def5e77817398f08e433a8c2e251c664409d8eea85a012fcdc7b8c89c1"
+RPM_NAME = "libpskc-devel-2.6.8-1.1.aarch64.rpm"
+RPM_HASH = "6f3e365da198c1053d0780428af4986d96882ff3ed15d4462f6d2cdcc81afe21f5655e8385ac8efc7269eb350a8a4de78e8943a3e831d1a2fb3c157d0dec0553"
 
 RPROVIDES:${PN} += "libpskc-devel \
 pkgconfig-libpskc"

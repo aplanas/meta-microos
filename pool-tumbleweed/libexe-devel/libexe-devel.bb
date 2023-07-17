@@ -8,8 +8,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20210424"
 
-RPM_NAME = "libexe-devel-20210424-4.9.aarch64.rpm"
-RPM_HASH = "21a7a54236f1740f10e5e3db6899b7ed8bc02a4f893743ec4d8da50f447e6c36d7bfefce718cc5f167989d34c128ef982f2bad65cb8f26b255057dfe689fee57"
+RPM_NAME = "libexe-devel-20210424-4.10.aarch64.rpm"
+RPM_HASH = "93d6b82cf31ee805308c9928630796739b2ebb06e5a9c5c12c2f4557e57223d9e07ee98b7aa496bebae335ee68ea96955bfe31f6b1d1ce39b1e7b4a71a873d8c"
 
 RPROVIDES:${PN} += "libexe-devel \
 pkgconfig-libexe"

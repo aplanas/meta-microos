@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.3-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-speech-docs-qch-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "4797ec4aaefaa62e0936d9dfab3d80e89bb475c8da8d7dd09e735702844e49716f5aaeff4a850418feaf09430a8a9ee2f5d6e8a7f40a33d9abd720778b8468f2"
+RPM_NAME = "qt6-speech-docs-qch-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "eb76b9d23b561d7ae7aaa18950dff8fd8a3d1de748eb53fc15c8a9c11f8dfb1df93de8fca06a5d335565778f32428a9eca4862868333989aaabb990b5cbadae6"
 
 RPROVIDES:${PN} += "qt6-speech-docs-qch"
 

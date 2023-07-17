@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-wayland-examples-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "93d743b43b5a813afe8e09dd9c0764d155c47c644f12f734205a0aa332d986b67cce000cb3c4a3752d05aaa6c80f6c817d95548a274fec1c20ddb0bdec5096c9"
+RPM_NAME = "qt6-wayland-examples-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "ede272ad010e8471b9b985683a3b6095711d489bd73778b71ec266bf499a7a53d6ad9fe145b43196d2c55d1f48cc5ac2d42b4771964843bb6a5864fd731dc0ef"
 
 RPROVIDES:${PN} += "libexampleshellplugin.so \
 qt6-wayland-examples"

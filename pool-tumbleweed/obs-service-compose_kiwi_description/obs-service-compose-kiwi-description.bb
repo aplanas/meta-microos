@@ -6,15 +6,15 @@ more given git repositories that contain keg-recipes source tree. It supports \
 auto-generation of change log files from commit history."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.0.3"
+PV = "2.1.0"
 
-RPM_NAME = "obs-service-compose_kiwi_description-2.0.3-1.2.noarch.rpm"
-RPM_HASH = "496b1e770aefee234e3a1a4e54ed04385a2839ca1e4e0eef4e5509aa26dfc1837a6ce789895bd8c28c980589b188bfaba4f4a792d97ea5bb5b6f876d304ecd92"
+RPM_NAME = "obs-service-compose_kiwi_description-2.1.0-1.1.noarch.rpm"
+RPM_HASH = "0b822888a25156d1a5260333c31c573fbfd2e678bab1b99de18f72514e7949c093cb950d221915bdd12fadc9530f7f9f8584d356cc463c8758ca9f0931d645a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-compose-kiwi-description"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 git \
 python3-kiwi-keg"
 

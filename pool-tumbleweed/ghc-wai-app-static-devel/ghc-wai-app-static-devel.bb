@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "3.1.7.4"
 
-RPM_NAME = "ghc-wai-app-static-devel-3.1.7.4-2.7.aarch64.rpm"
-RPM_HASH = "5738e3891f28df2cead4d6480cbc1c35b0e24cf5714b7b923121244afa43997312f14440dbce51b1df46965ef999ca6b0fbec646f8938a4bd8e2971d11eadc42"
+RPM_NAME = "ghc-wai-app-static-devel-3.1.7.4-2.8.aarch64.rpm"
+RPM_HASH = "37833af932d6afa7f0be22b199e9813c97acbbff953fbdd5fb763dc8f6cf933eeea586c3f30d8651f96fce2ec00e01c8bb9704241e6dab01ef847415fa18745b"
 
-RPROVIDES:${PN} += "ghc-devel-wai-app-static-3.1.7.4-DlFhTXkOZ8ZEEfx67nS2tW \
+RPROVIDES:${PN} += "ghc-devel-wai-app-static-3.1.7.4-AZD11N92jseJEftpoR1SbX \
 ghc-wai-app-static-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -34,8 +34,8 @@ ghc-devel-transformers-0.5.6.2 \
 ghc-devel-unix-compat-0.6-79KxxZMmklx25hsmeEnenN \
 ghc-devel-unordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E \
 ghc-devel-wai-3.2.3-B6oJGZed88IFIvDpwN5I7x \
-ghc-devel-wai-extra-3.1.13.0-3pmfL93b8iXAmoBQvHdwGU \
-ghc-devel-warp-3.3.25-7qOcByHeVpuMAFF4vrupa \
+ghc-devel-wai-extra-3.1.13.0-LFtqIngDY3AAQ1a5w3zKO8 \
+ghc-devel-warp-3.3.25-EsJVhH2AisSK67jSo7D0GP \
 ghc-devel-zlib-0.6.3.0-GaFaUl6t8QzEoHIQXsottk \
 ghc-wai-app-static"
 

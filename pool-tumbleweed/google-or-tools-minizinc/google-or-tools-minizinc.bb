@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "9.6"
 
-RPM_NAME = "google-or-tools-minizinc-9.6-1.2.aarch64.rpm"
-RPM_HASH = "796c64147f27ce498240c6eb65f3e2d989541d2319594944429ba8feee7ff6e9fb3556e7bc5d56bb23d5f245d3fe8bb11786233208ce378c815a5ea85fa2547a"
+RPM_NAME = "google-or-tools-minizinc-9.6-2.1.aarch64.rpm"
+RPM_HASH = "58d6a6fac50ce8115f22d6ae4fad63f5a1fa0d47cdf6fea9e7867c2a62709e9ca6afa3e13883910ebaccbc461e8e045a6f29882a5cc423c78633d1a767e9bcc9"
 
 RPROVIDES:${PN} += "google-or-tools-minizinc"
 

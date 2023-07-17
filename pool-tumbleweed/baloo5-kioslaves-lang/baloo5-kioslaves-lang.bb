@@ -2,10 +2,10 @@ SUMMARY = "Translations for package baloo5-kioslaves"
 DESCRIPTION = "Provides translations for the 'baloo5-kioslaves' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-3.0-only"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "baloo5-kioslaves-lang-5.107.0-1.1.noarch.rpm"
-RPM_HASH = "1a6ae595a1f7720745e6af723d40ccfc7abbc62020bacd2db70cbacc6e1c87b540d683009c2e82ced21fbc0539d232e1882ab64e21072ef5cda66f563c844f21"
+RPM_NAME = "baloo5-kioslaves-lang-5.108.0-1.1.noarch.rpm"
+RPM_HASH = "b43933e62872c8829ecac12343a63767f9a7260beae61bbb3024fad9a89be237fd8b3c24b259d7821e05b7da8d1cc6a90e95c909ee2f95869b080adcd32f9ac2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "baloo5-kioslaves-lang \
@@ -21,6 +21,7 @@ locale-baloo5-kioslaves-da \
 locale-baloo5-kioslaves-de \
 locale-baloo5-kioslaves-el \
 locale-baloo5-kioslaves-en-GB \
+locale-baloo5-kioslaves-eo \
 locale-baloo5-kioslaves-es \
 locale-baloo5-kioslaves-et \
 locale-baloo5-kioslaves-eu \

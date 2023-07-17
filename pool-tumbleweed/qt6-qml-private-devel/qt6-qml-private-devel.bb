@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-qml-private-devel-6.5.1-1.3.aarch64.rpm"
-RPM_HASH = "553ca599564f8c474635d9af1174f1e6ed3d697dd1f6cead1d5688931fa8b1fdea3a8e1d745bed44c0b2c3f7468e64d899ec88e1f20a192f7782502fbf2337bf"
+RPM_NAME = "qt6-qml-private-devel-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "c440e845948cd86e696ed0a38427f59c9f748e860ea70bbce6f084e6873f89adaf7c3114ae2ae696a368d762db3e746ece35ec444e3669a0ef0eb8cef5226c28"
 
 RPROVIDES:${PN} += "qt6-qml-private-devel"
 

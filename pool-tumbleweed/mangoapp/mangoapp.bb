@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.6.9~1"
 
-RPM_NAME = "mangoapp-0.6.9~1-1.2.aarch64.rpm"
-RPM_HASH = "c2944d4bdb903bbc72c980b9b06aec8c85e4aba9235c0f6d68b163a36808800af5d7d4fcbe02fc466764d8f9f9ddc928598503798a5b0d592cf459a189ce2094"
+RPM_NAME = "mangoapp-0.6.9~1-1.3.aarch64.rpm"
+RPM_HASH = "6b34c4b3fccd25f5e64c7ae9195775390a5890f781fd4f1926101db68a9189e700576d42a26c845e9adafd467b59e99fccb5cf8b1c95188552205c10c80c1eaf"
 
 RPROVIDES:${PN} += "mangoapp"
 
@@ -18,7 +18,7 @@ libfmt.so.9 \
 libgcc-s.so.1 \
 libglfw.so.3 \
 libm.so.6 \
-libspdlog.so.1.11 \
+libspdlog.so.1.12 \
 libstdc++.so.6 \
 mangohud"
 

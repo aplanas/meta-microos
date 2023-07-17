@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 QLogic network drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230620"
+PV = "20230707"
 
-RPM_NAME = "kernel-firmware-qlogic-20230620-1.1.noarch.rpm"
-RPM_HASH = "6462bd8366ffe0f631ff4fbde5ede0c4029191f3a13f3c153297d13299614dc77ed046d54f16b6405c399698fd7111fb9a952a5d73f8282aee44d99aaec8a1bd"
+RPM_NAME = "kernel-firmware-qlogic-20230707-1.1.noarch.rpm"
+RPM_HASH = "62e059e5a00be7fe90f8a046cc1b9297cfc7e1ab99bc1327485bfe9e0ccff31dcf2af8229e968c7b0daa2b34613d320df90f765424ef39489e358e894f82e6f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-cbfw-3.2.5.1.bin \

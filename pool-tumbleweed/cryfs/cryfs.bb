@@ -9,8 +9,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "0.11.3"
 
-RPM_NAME = "cryfs-0.11.3-2.3.aarch64.rpm"
-RPM_HASH = "fb40df99044d582e8fb5ea144cbf490a56db44a0dfaffd90bd8882522d2849c5e460d634927d984c47bbf5eb373d889454037ada3ba0b16a463f01c39a7240d6"
+RPM_NAME = "cryfs-0.11.3-2.4.aarch64.rpm"
+RPM_HASH = "eabda62114e9ad27dabd14ee25419efb3b3737c326b3df5a8cd97e8154ec7f4222829b187469de1a6a3a23f5db0844e54d8512f7029f269628a40ec4704e399a"
 
 RPROVIDES:${PN} += "cryfs"
 
@@ -26,7 +26,7 @@ libfuse.so.2 \
 libgcc-s.so.1 \
 libgomp.so.1 \
 libm.so.6 \
-libspdlog.so.1.11 \
+libspdlog.so.1.12 \
 libstdc++.so.6"
 
 inherit rpm

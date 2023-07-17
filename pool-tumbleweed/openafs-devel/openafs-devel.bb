@@ -11,10 +11,10 @@ caching, disconnected operations, replication for higher availability \
 and load balancing, and ACLs. This package contains the OpenAFS server."
 LICENSE = "IPL-1.0"
 
-PV = "1.8.9"
+PV = "1.8.10"
 
-RPM_NAME = "openafs-devel-1.8.9-4.6.aarch64.rpm"
-RPM_HASH = "430ee4ccf6115281a40facc06b6d7d4611408eea11b12d20438cb6d3a558ca4a7974503171198c39522f9cefc48112879c98bb34700361cfdb4203a5e74efa2a"
+RPM_NAME = "openafs-devel-1.8.10-1.1.aarch64.rpm"
+RPM_HASH = "cd85d8a6a96beea80bb1933afe4b25cb93d931443c470d23090660a298472bc56e1afa8626097864fbb62e6d3d49e00c83647120f680874adb26eef664a1b28b"
 
 RPROVIDES:${PN} += "openafs-devel \
 perl-AFS--ukernel \

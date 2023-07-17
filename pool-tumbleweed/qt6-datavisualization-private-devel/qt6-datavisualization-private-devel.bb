@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-datavisualization-private-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "c79b33fa4bdcc47383b1d77ba0bf9d3881314f966fdc2cca8be905988ae61590f233def11eb0f6dedc51effd74075edfb9cf74417a1578a16bfea41e9c983773"
+RPM_NAME = "qt6-datavisualization-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "d30dfa3da98b837dc12909b17938db36a6eeec53cae86f1cf5004eb79852af153f71f6fa8df33d1dc803e8b88b1227f84f8c290935c8a7b9e314aa6cd515d131"
 
 RPROVIDES:${PN} += "qt6-datavisualization-private-devel"
 

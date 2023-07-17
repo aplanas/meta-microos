@@ -7,10 +7,10 @@ The libgthread library provides a portable way to write multi-threaded \
 software."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.76.3"
+PV = "2.76.4"
 
-RPM_NAME = "libgthread-2_0-0-2.76.3-1.1.aarch64.rpm"
-RPM_HASH = "2133ffbb12fe5cfc619ce759a6a850a9fc148e628c85bf85fdf7abfa7e702cbddc574af62a42e5cafcdcd1a4480b8d6ef4e0af9f17de0d305c8c3c54bdc334b6"
+RPM_NAME = "libgthread-2_0-0-2.76.4-1.1.aarch64.rpm"
+RPM_HASH = "74e2750d1e5f9fc82919401b864d359ec2987db359d8a3d285fb792afcb5962b0a7dfe0e68a84069af1ec4cdc54d68900b21c06fc63e9e3190ec5fa66ab44f09"
 
 RPROVIDES:${PN} += "libgthread-2-0-0 \
 libgthread-2.0.so.0"

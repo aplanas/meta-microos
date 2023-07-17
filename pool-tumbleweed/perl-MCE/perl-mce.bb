@@ -6,10 +6,10 @@ that model by adding the ability to chunk the next n elements from the \
 input stream to the next available worker."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.887"
+PV = "1.888"
 
-RPM_NAME = "perl-MCE-1.887-1.1.noarch.rpm"
-RPM_HASH = "b2505376a46bfc39b43d8c87cb8d21df75b1d12c74e65841ec31f6fd991bf980d4f623795573de158348e291c12a471b92faa095d991a0c80ff064fe05f36e00"
+RPM_NAME = "perl-MCE-1.888-1.1.noarch.rpm"
+RPM_HASH = "4359a930329458702111a7000036108907c535a36ee3e8c80ef3a195d3d4cb717cce389b9f0ae6fb1739630330a046c6f0072d9c744d2b351dfe25bd6278e518"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MCE \

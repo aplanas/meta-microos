@@ -2,10 +2,10 @@ SUMMARY = "Translations for package sakura"
 DESCRIPTION = "Provides translations for the 'sakura' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.8.5"
+PV = "3.8.7"
 
-RPM_NAME = "sakura-lang-3.8.5-1.4.noarch.rpm"
-RPM_HASH = "fd3b2a8c7828339823c1d859a66f64dc10e0e8573d8262f08aafab17d737f97d8a28cffe098abe692b50b313dbd49648effaab266ed9359f4a014ceaa4f64d19"
+RPM_NAME = "sakura-lang-3.8.7-1.1.noarch.rpm"
+RPM_HASH = "a84c41a6d3d4635c18b4e19ff78de1efe975ecff05aa418fcd2eb1f18f1e29ac731d44ee506cd844211cb616b3d5f73c299a76726fe4ff62e03e22885ad99db3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-sakura-ca \
@@ -25,6 +25,7 @@ locale-sakura-pt \
 locale-sakura-pt-BR \
 locale-sakura-ru \
 locale-sakura-sv \
+locale-sakura-tr \
 locale-sakura-uk \
 locale-sakura-zh-CN \
 sakura-lang \

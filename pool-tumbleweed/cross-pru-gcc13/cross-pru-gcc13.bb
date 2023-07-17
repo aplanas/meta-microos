@@ -2,10 +2,10 @@ SUMMARY = "The GNU Compiler Collection targeting pru"
 DESCRIPTION = "The GNU Compiler Collection as a cross-compiler targeting pru."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7364"
+PV = "13.1.1+git7552"
 
-RPM_NAME = "cross-pru-gcc13-13.1.1+git7364-1.2.aarch64.rpm"
-RPM_HASH = "07af221a74e4e28595e55542a906457e06fe4b5005902df7f24621e842a0741dd027529621036375e4e23d00b81d2c0006cbedfcfb82b84d44395ec61c4a1d39"
+RPM_NAME = "cross-pru-gcc13-13.1.1+git7552-1.1.aarch64.rpm"
+RPM_HASH = "2122f10a3a5d02abbd376a480ca9a61ba601009cc5496d296bae8ad8f8c249b66c2676cbdb9bf37a1ba230c059d78b8dde3ed8028748db56aa12a5e8ea3a1d5a"
 
 RPROVIDES:${PN} += "cross-pru-gcc13 \
 pru-gcc"

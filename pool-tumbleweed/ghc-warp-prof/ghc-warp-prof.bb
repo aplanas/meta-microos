@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "3.3.25"
 
-RPM_NAME = "ghc-warp-prof-3.3.25-1.7.aarch64.rpm"
-RPM_HASH = "c75d557d76eb71b6f08f07bc27849fa51df3b505b006b96b935a1e6e8ccf40f264b2c577a9a2157fb84d693b38fdc8f3bab383edcd631eb0dad1ecb59114e7da"
+RPM_NAME = "ghc-warp-prof-3.3.25-1.9.aarch64.rpm"
+RPM_HASH = "11f8951fc1e8860fe49afad13a370cfb545084311e9ecf19bf6b142543cb6332de67560acb47f55a2ddc701a215008ec4ff5e8a578ee52b5978866fab95c5f63"
 
-RPROVIDES:${PN} += "ghc-prof-warp-3.3.25-7qOcByHeVpuMAFF4vrupa \
+RPROVIDES:${PN} += "ghc-prof-warp-3.3.25-EsJVhH2AisSK67jSo7D0GP \
 ghc-warp-prof"
 
 RDEPENDS:${PN} += "ghc-prof-array-0.5.4.0 \
@@ -21,7 +21,7 @@ ghc-prof-ghc-prim-0.9.0 \
 ghc-prof-hashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt \
 ghc-prof-http-date-0.0.11-IfCBGXPFiMuIKzFtOTNgnD \
 ghc-prof-http-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6 \
-ghc-prof-http2-3.0.3-COVYRU9DHikEztQPG0mdmy \
+ghc-prof-http2-3.0.3-C8jMo1PWq0Httjut7cZnE \
 ghc-prof-iproute-1.7.12-IhoklPQYItb8qGu1G3vmcD \
 ghc-prof-network-3.1.4.0-FvtFepOtuCUH79FCWyNxIc \
 ghc-prof-recv-0.1.0-5l0GOJwksOA59K6H5tIdgO \

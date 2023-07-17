@@ -6,10 +6,10 @@ a large variety of equipment and a large galaxy to explore. The game is \
 open-ended, letting you proceed at your own pace."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.10.5"
+PV = "0.10.6"
 
-RPM_NAME = "naev-0.10.5-1.2.aarch64.rpm"
-RPM_HASH = "ae784ca15dd7545794d802f0143a503c2c8b65ba96d1ce0602607f13cb805c56c23bbb1185efbeaf6188592d96cdd538b7059994f4adc44a75fe83a229a2a3a5"
+RPM_NAME = "naev-0.10.6-1.1.aarch64.rpm"
+RPM_HASH = "9d13332507da9b2d45c661db590ae22212d245964a3954bcb5fdcdf67a32ed23629abf8dcfa31334b7354224a1d233690de314a347e6a9543a39f60ec78aad8b"
 
 RPROVIDES:${PN} += "naev"
 

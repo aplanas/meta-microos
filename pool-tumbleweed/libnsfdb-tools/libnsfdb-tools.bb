@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20210419"
 
-RPM_NAME = "libnsfdb-tools-20210419-3.7.aarch64.rpm"
-RPM_HASH = "ae725086dfde31d0df270831736422802b29ec5df6f9fc58bf399c80853bccd08964ae982f4511ce80c897ee288cad4596ff1c46db37697cce4249a0e2e0db71"
+RPM_NAME = "libnsfdb-tools-20210419-3.8.aarch64.rpm"
+RPM_HASH = "c5d267060b79c326bc49c679d5793cfb8dccb2c2a5c2ff50e3de5632f274f93ff8d74db2a2238aaa349b3e8903643614832f3625977ec1a77da2f441deef6e32"
 
 RPROVIDES:${PN} += "libnsfdb-tools"
 

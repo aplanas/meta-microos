@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-waylandeglcompositorhwintegration-private-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "e81ddb59bf8da06baebb6a8c1f0c013fbea97e458d4025b22448089c119271c73e5e039e6d9f148e2a167a9cc54ad56ef978981aa5e59391f43e32afe9cb3a9f"
+RPM_NAME = "qt6-waylandeglcompositorhwintegration-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "afb69b9467f2aac80d9e11a8391931ec8acc5e976529800294303fbee0a8fbcbff1e10b179a4100dde2385cb1f83f1e007eafbbbf84809c8f37616423557827b"
 
 RPROVIDES:${PN} += "cmake-Qt6WaylandEglCompositorHwIntegrationPrivate \
 qt6-waylandeglcompositorhwintegration-private-devel"

@@ -12,8 +12,8 @@ LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
 PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5Gui5-5.15.10+kde129-1.1.aarch64.rpm"
-RPM_HASH = "89272bea78d50148fc3e8b7ff72fc85b04b7c33a2b01c329f374cb0851c4f2615181b80bb44128136f256c4ac3cd7257d4a1de58c5c936e7bc3a9bc195f1a916"
+RPM_NAME = "libQt5Gui5-5.15.10+kde129-2.1.aarch64.rpm"
+RPM_HASH = "d45141aaa9cb9048e22ba912f82c96904c30652a0fc2a762dfa0f29a4a3f5b00434f0bb1418b89033a9cdfefc3a9428ef87f6600430359ab26052c8b0e0e41d0"
 
 RPROVIDES:${PN} += "libQt5EglFSDeviceIntegration.so.5 \
 libQt5EglFsKmsSupport.so.5 \

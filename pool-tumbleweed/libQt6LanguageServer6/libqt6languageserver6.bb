@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | GPL-2.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6LanguageServer6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "dbe4af01f0f873d39582923878d698746ddf2010c0952c4d30ecb445a2a501ba75cc5418a8b59b80f08fc726188ef2881ee4f6b7700a6a2dd467be772b5de9ea"
+RPM_NAME = "libQt6LanguageServer6-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "a952de21bd3f637e91e785a1c872841fb7d398ae115915cb297c662fd3dbc0fb25dd810e14573e065b7e0d17d1d398582e0f04e99721840c15e092e8f2f67829"
 
 RPROVIDES:${PN} += "libQt6LanguageServer.so.6 \
 libQt6LanguageServer6"

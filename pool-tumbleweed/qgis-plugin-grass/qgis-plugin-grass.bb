@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.30.3"
 
-RPM_NAME = "qgis-plugin-grass-3.30.3-1.1.aarch64.rpm"
-RPM_HASH = "4822513b57b687b7ce4c1f968e4ab2c72ca7b86c41df9a935d9361f819b6256c881296e52a81de1c6dd05ef59eb0c46cb2a7beb6b6b6c7b6e09f003c8f33b44c"
+RPM_NAME = "qgis-plugin-grass-3.30.3-2.1.aarch64.rpm"
+RPM_HASH = "6609a745d3036951fd722534f7cd56340abc01d90286b8e18a065d5009efaa793208955afee353be46c9526a5fcaf7a57b1d02859aff84ae005bf267c7618e96"
 
 RPROVIDES:${PN} += "libplugin-grass8.so \
 libprovider-grass8.so \

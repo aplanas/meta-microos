@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "9.6"
 
-RPM_NAME = "google-or-tools-9.6-1.2.aarch64.rpm"
-RPM_HASH = "4a8a0461c1ec47c8994b790e204bfb563ea9794655c7c7f7db8e20a830f9565e7b32002c15b11c8187d568401b3ea7f8dc74fa5e4f0f4ddf374d164d2469f2c1"
+RPM_NAME = "google-or-tools-9.6-2.1.aarch64.rpm"
+RPM_HASH = "8f04f9993c6ccdf6a6d4f3514c1539ab439761ba2fb7f07b3801883421af8083f54aa2b152396295ae2201c2e9012b1964de9008ef8202020ccdf9baf8f29c96"
 
 RPROVIDES:${PN} += "google-or-tools"
 
@@ -36,7 +36,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libortools.so.9 \
-libprotobuf-3.21.12.so \
+libprotobuf.so.23.4.0 \
 libstdc++.so.6"
 
 inherit rpm

@@ -10,10 +10,10 @@ This package also has the interface with the almost all functions and \
 variables which are documented in the GNU Readline/History Library Manual."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.45"
+PV = "1.46"
 
-RPM_NAME = "perl-Term-ReadLine-Gnu-1.45-1.3.aarch64.rpm"
-RPM_HASH = "e1f354f3617a6b20cf99e3968cd71461d193b6f68b21383ce47f951eb77b875e092dfc6d7705cc1e0bdca01ae2f192443a1a6f864e9b37a993fe20bae4b4606f"
+RPM_NAME = "perl-Term-ReadLine-Gnu-1.46-1.1.aarch64.rpm"
+RPM_HASH = "11186c35b95f73f7e9a139807ba4358136505090aaedfd6f770eb4a3932f40a4988953668b9080efbfdbef273acc4dd7c730801164f105c72e375e33b7ca1871"
 
 RPROVIDES:${PN} += "perl-Term--ReadLine--Gnu \
 perl-Term--ReadLine--Gnu--AU \

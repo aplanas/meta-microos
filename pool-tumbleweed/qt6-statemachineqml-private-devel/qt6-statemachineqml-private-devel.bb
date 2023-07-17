@@ -5,13 +5,11 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-statemachineqml-private-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "b52fb94a3d0ddbec9d070614bcb2ba58365d788dec62b990751d6608bcb2afb3e63af231d06e8360ed43970673349a457d6f77fe022c6dbd7dd67c60de9e170e"
+RPM_NAME = "qt6-statemachineqml-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "4f74a113bb8a9bd4e2d56f60896e6ccaa5722f1626df1f6abcde3a81389fa7dbf867fd8acccc2b8ed1366f20e364e83aa3dda68d7ef3a1bce429a8a1001f60ff"
 
 RPROVIDES:${PN} += "qt6-statemachineqml-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6StateMachineQml \
-qt6-core-private-devel \
-qt6-gui-private-devel"
+RDEPENDS:${PN} += "cmake-Qt6StateMachineQml"
 
 inherit rpm

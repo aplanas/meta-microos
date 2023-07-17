@@ -2,10 +2,10 @@ SUMMARY = "Translations for package dar"
 DESCRIPTION = "Provides translations for the 'dar' package."
 LICENSE = "SUSE-GPL-2.0+-with-openssl-exception"
 
-PV = "2.7.9"
+PV = "2.7.10"
 
-RPM_NAME = "dar-lang-2.7.9-1.1.noarch.rpm"
-RPM_HASH = "f7f821e64f68905aa5c21cb90de88a9ef73927d9b83b283b215084aaf580de7bb73b8dcf36ce0184ee31ae274c6ae429bd2bb20a153582b423146d731b1c5892"
+RPM_NAME = "dar-lang-2.7.10-1.1.noarch.rpm"
+RPM_HASH = "3975c9207652f516bdbeb08d8bc986863ef55955f9fba0dde8900bf71e99614368647210959d04a45d1b90a16474b3adb10c6ae73ecb974c1fc02386f6445e91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dar-lang \

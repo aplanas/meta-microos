@@ -6,14 +6,14 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.3.7"
 
-RPM_NAME = "HyperKitty-web-uwsgi-1.3.7-1.1.noarch.rpm"
-RPM_HASH = "5eedfa57b1daa49c9240ff64fe360a9937a1ac7d091300605473abae18a4db30e352b19d03ed4eb9ffbaf56ce602426a7fb91a6017f470f376cd24e32c82fc1a"
+RPM_NAME = "HyperKitty-web-uwsgi-1.3.7-2.1.noarch.rpm"
+RPM_HASH = "0908be7b21a90547e513d5f52fcd1661af2e6ab6d54f32a5276ded0473a983b89e96a9ae9a8271c171a150bee6fbbdc4caa979647a18a188c055b780e23c8f15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "HyperKitty-web-uwsgi \
 config-HyperKitty-web-uwsgi"
 
 RDEPENDS:${PN} += "HyperKitty-web \
-python39-uwsgi-python3"
+python311-uwsgi-python3"
 
 inherit rpm

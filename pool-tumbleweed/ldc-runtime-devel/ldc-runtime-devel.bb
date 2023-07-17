@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the druntime development files necessary fo
 with LDC."
 LICENSE = "Artistic-1.0 & BSD-3-Clause"
 
-PV = "1.32.0"
+PV = "1.32.2"
 
-RPM_NAME = "ldc-runtime-devel-1.32.0-1.2.aarch64.rpm"
-RPM_HASH = "f50e514c7d03ce632176593783d807d75e21e817e7078048eb3dfa5abd01ca17a6a9e56da4c215f105fdb7f890d6003694531a9d29369e6c5d485378493c87ff"
+RPM_NAME = "ldc-runtime-devel-1.32.2-1.1.aarch64.rpm"
+RPM_HASH = "dca2e62e7d1d0534beb57ced99e323c0da24db999acf3298c313d34c7101e6899d75d775a221ea22c7e7eacf1f002bc34255c93681cd62ca630e2ddaaa18aa95"
 
 RPROVIDES:${PN} += "ldc-runtime-devel"
 

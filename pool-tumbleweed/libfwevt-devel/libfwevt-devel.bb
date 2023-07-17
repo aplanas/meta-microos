@@ -7,8 +7,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20230410"
 
-RPM_NAME = "libfwevt-devel-20230410-1.3.aarch64.rpm"
-RPM_HASH = "8097e040c266b943729436cf8ee4dd3ac85e868ba6e6e841eb11422609a26a5bf9b373bc4d0ace13a0b8e2737c2f88bb8e8acaa197e931046b7c7f810429a63d"
+RPM_NAME = "libfwevt-devel-20230410-1.4.aarch64.rpm"
+RPM_HASH = "b488dd75fbdc54c71be286f37eeedf57a1ed749b3ab1272ba0d25f86d65eec259c50a695e5f48948b9cff4abff5cb5c1b8e4fb46e1866799d334c89ad8564502"
 
 RPROVIDES:${PN} += "libfwevt-devel \
 pkgconfig-libfwevt"

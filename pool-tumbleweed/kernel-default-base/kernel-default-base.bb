@@ -2,8 +2,8 @@ SUMMARY = "The Standard Kernel - base modules"
 DESCRIPTION = "The standard kernel for both uniprocessor and multiprocessor systems. \
  \
  \
-Source Timestamp: 2023-06-22 03:53:43 +0000 \
-GIT Revision: 0df701dd2c208f4843cf219b4b26b533ada9bd34 \
+Source Timestamp: 2023-07-10 10:03:25 +0000 \
+GIT Revision: b97b89494481f3409297e494e466bdd42b1311ab \
 GIT Branch: stable \
 This package contains only the base modules, required in all installs. \
  \
@@ -12,21 +12,21 @@ kernel-default-devel, sources in kernel-source, and \
 debug information in kernel-default-debuginfo."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.9"
+PV = "6.4.2"
 
-RPM_NAME = "kernel-default-base-6.3.9-1.1.28.1.aarch64.rpm"
-RPM_HASH = "66c74bb394870bd6817cd8b2fefa8ea3d759fc5171a68f805a7ecb66997ef78946b0fbb7ab16ee0472f85ec1530cb048436117a2472090221e162031eef07d19"
+RPM_NAME = "kernel-default-base-6.4.2-1.1.28.2.aarch64.rpm"
+RPM_HASH = "47bafc39c5ce2cb211909788402c8d938a36ede6ac4d65af0041e7511e6907749539e713bbba55d1f3ce0fc96b231a5c31ccd37b025ce43025ed2824c9cb2599"
 
 RPROVIDES:${PN} += "kernel \
 kernel-base \
 kernel-default \
-kernel-default-6.3.9-1 \
+kernel-default-6.4.2-1 \
 kernel-default-aarch64 \
 kernel-default-base \
-kernel-default-base-srchash-0df701dd2c208f4843cf219b4b26b533ada9bd34 \
+kernel-default-base-srchash-b97b89494481f3409297e494e466bdd42b1311ab \
 kernel-preempt \
 kernel-preempt-aarch64 \
-kernel-srchash-0df701dd2c208f4843cf219b4b26b533ada9bd34 \
+kernel-srchash-b97b89494481f3409297e494e466bdd42b1311ab \
 kernel-uname-r \
 kmod-8139cp.ko \
 kmod-8139too.ko \
@@ -65,14 +65,10 @@ kmod-algif-aead.ko \
 kmod-algif-hash.ko \
 kmod-algif-rng.ko \
 kmod-algif-skcipher.ko \
-kmod-altera-edac.ko \
-kmod-altera-sysmgr.ko \
 kmod-am53c974.ko \
 kmod-amba-pl010.ko \
 kmod-amba-pl011.ko \
 kmod-ansi-cprng.ko \
-kmod-apple-m1-cpu-pmu.ko \
-kmod-apple-pmgr-pwrstate.ko \
 kmod-aria-generic.ko \
 kmod-arm-cci.ko \
 kmod-arm-ccn.ko \
@@ -82,7 +78,6 @@ kmod-arp-tables.ko \
 kmod-arpt-mangle.ko \
 kmod-arptable-filter.ko \
 kmod-asn1-decoder.ko \
-kmod-asymmetric-keys.ko \
 kmod-async-memcpy.ko \
 kmod-async-pq.ko \
 kmod-async-raid6-recov.ko \
@@ -98,11 +93,8 @@ kmod-axg-aoclk.ko \
 kmod-axg.ko \
 kmod-backlight.ko \
 kmod-bcm2835-mailbox.ko \
-kmod-bcm2835-pm.ko \
-kmod-bcm2835-power.ko \
 kmod-bcm84881.ko \
 kmod-bfq.ko \
-kmod-binfmt-elf.ko \
 kmod-binfmt-misc.ko \
 kmod-binfmt-script.ko \
 kmod-blake2b-generic.ko \
@@ -116,7 +108,6 @@ kmod-brcmstb-gisb.ko \
 kmod-brd.ko \
 kmod-bridge.ko \
 kmod-bsg.ko \
-kmod-btree.ko \
 kmod-btrfs.ko \
 kmod-button.ko \
 kmod-camellia-generic.ko \
@@ -138,7 +129,6 @@ kmod-cifs-arc4.ko \
 kmod-cifs-md4.ko \
 kmod-cifs.ko \
 kmod-clk-apmixed.ko \
-kmod-clk-bm1880.ko \
 kmod-clk-cpu-dyndiv.ko \
 kmod-clk-cpumux.ko \
 kmod-clk-dualdiv.ko \
@@ -147,9 +137,26 @@ kmod-clk-imx-lpcg-scu.ko \
 kmod-clk-imx-scu.ko \
 kmod-clk-imx8mm.ko \
 kmod-clk-imx8mn.ko \
+kmod-clk-imx8mp-audiomix.ko \
 kmod-clk-imx8mp.ko \
 kmod-clk-imx8mq.ko \
 kmod-clk-mpll.ko \
+kmod-clk-mt2712-apmixedsys.ko \
+kmod-clk-mt2712-bdp.ko \
+kmod-clk-mt2712-img.ko \
+kmod-clk-mt2712-jpgdec.ko \
+kmod-clk-mt2712-mfg.ko \
+kmod-clk-mt2712-mm.ko \
+kmod-clk-mt2712-vdec.ko \
+kmod-clk-mt2712-venc.ko \
+kmod-clk-mt2712.ko \
+kmod-clk-mt6765-audio.ko \
+kmod-clk-mt6765-cam.ko \
+kmod-clk-mt6765-img.ko \
+kmod-clk-mt6765-mipi0a.ko \
+kmod-clk-mt6765-mm.ko \
+kmod-clk-mt6765-vcodec.ko \
+kmod-clk-mt6765.ko \
 kmod-clk-mt6779-aud.ko \
 kmod-clk-mt6779-cam.ko \
 kmod-clk-mt6779-img.ko \
@@ -163,11 +170,98 @@ kmod-clk-mt6795-apmixedsys.ko \
 kmod-clk-mt6795-infracfg.ko \
 kmod-clk-mt6795-pericfg.ko \
 kmod-clk-mt6795-topckgen.ko \
+kmod-clk-mt6797-img.ko \
+kmod-clk-mt6797-mm.ko \
+kmod-clk-mt6797-vdec.ko \
+kmod-clk-mt6797-venc.ko \
+kmod-clk-mt6797.ko \
+kmod-clk-mt7622-apmixedsys.ko \
+kmod-clk-mt7622-aud.ko \
+kmod-clk-mt7622-eth.ko \
+kmod-clk-mt7622-hif.ko \
+kmod-clk-mt7622-infracfg.ko \
+kmod-clk-mt7622.ko \
+kmod-clk-mt7981-apmixed.ko \
+kmod-clk-mt7981-infracfg.ko \
+kmod-clk-mt7981-topckgen.ko \
+kmod-clk-mt7986-apmixed.ko \
+kmod-clk-mt7986-eth.ko \
+kmod-clk-mt7986-infracfg.ko \
+kmod-clk-mt7986-topckgen.ko \
+kmod-clk-mt8167-apmixedsys.ko \
+kmod-clk-mt8167-aud.ko \
+kmod-clk-mt8167-img.ko \
+kmod-clk-mt8167-mfgcfg.ko \
+kmod-clk-mt8167-mm.ko \
+kmod-clk-mt8167-vdec.ko \
+kmod-clk-mt8167.ko \
 kmod-clk-mt8173-apmixedsys.ko \
 kmod-clk-mt8173-infracfg.ko \
 kmod-clk-mt8173-mm.ko \
 kmod-clk-mt8173-pericfg.ko \
 kmod-clk-mt8173-topckgen.ko \
+kmod-clk-mt8183-apmixedsys.ko \
+kmod-clk-mt8183-audio.ko \
+kmod-clk-mt8183-cam.ko \
+kmod-clk-mt8183-img.ko \
+kmod-clk-mt8183-ipu-adl.ko \
+kmod-clk-mt8183-ipu-conn.ko \
+kmod-clk-mt8183-ipu0.ko \
+kmod-clk-mt8183-ipu1.ko \
+kmod-clk-mt8183-mfgcfg.ko \
+kmod-clk-mt8183-mm.ko \
+kmod-clk-mt8183-vdec.ko \
+kmod-clk-mt8183-venc.ko \
+kmod-clk-mt8183.ko \
+kmod-clk-mt8186-apmixedsys.ko \
+kmod-clk-mt8186-imp-iic-wrap.ko \
+kmod-clk-mt8186-infra-ao.ko \
+kmod-clk-mt8186-mcu.ko \
+kmod-clk-mt8186-mdp.ko \
+kmod-clk-mt8186-mfg.ko \
+kmod-clk-mt8186-mm.ko \
+kmod-clk-mt8186-topckgen.ko \
+kmod-clk-mt8186-vdec.ko \
+kmod-clk-mt8186-venc.ko \
+kmod-clk-mt8188-adsp-audio26m.ko \
+kmod-clk-mt8188-apmixedsys.ko \
+kmod-clk-mt8188-cam.ko \
+kmod-clk-mt8188-ccu.ko \
+kmod-clk-mt8188-img.ko \
+kmod-clk-mt8188-imp-iic-wrap.ko \
+kmod-clk-mt8188-infra-ao.ko \
+kmod-clk-mt8188-ipe.ko \
+kmod-clk-mt8188-mfg.ko \
+kmod-clk-mt8188-peri-ao.ko \
+kmod-clk-mt8188-topckgen.ko \
+kmod-clk-mt8188-vdec.ko \
+kmod-clk-mt8188-vdo0.ko \
+kmod-clk-mt8188-vdo1.ko \
+kmod-clk-mt8188-venc.ko \
+kmod-clk-mt8188-vpp0.ko \
+kmod-clk-mt8188-vpp1.ko \
+kmod-clk-mt8188-wpe.ko \
+kmod-clk-mt8192-apmixedsys.ko \
+kmod-clk-mt8192-aud.ko \
+kmod-clk-mt8192-cam.ko \
+kmod-clk-mt8192-img.ko \
+kmod-clk-mt8192-imp-iic-wrap.ko \
+kmod-clk-mt8192-ipe.ko \
+kmod-clk-mt8192-mdp.ko \
+kmod-clk-mt8192-mfg.ko \
+kmod-clk-mt8192-mm.ko \
+kmod-clk-mt8192-msdc.ko \
+kmod-clk-mt8192-scp-adsp.ko \
+kmod-clk-mt8192-vdec.ko \
+kmod-clk-mt8192-venc.ko \
+kmod-clk-mt8192.ko \
+kmod-clk-mt8195-apmixedsys.ko \
+kmod-clk-mt8195-infra-ao.ko \
+kmod-clk-mt8195-peri-ao.ko \
+kmod-clk-mt8195-topckgen.ko \
+kmod-clk-mt8516-apmixedsys.ko \
+kmod-clk-mt8516-aud.ko \
+kmod-clk-mt8516.ko \
 kmod-clk-mtk.ko \
 kmod-clk-mux.ko \
 kmod-clk-pll.ko \
@@ -177,7 +271,6 @@ kmod-cls-bpf.ko \
 kmod-cmac.ko \
 kmod-cmd-db.ko \
 kmod-cn.ko \
-kmod-compat-binfmt-elf.ko \
 kmod-configfs.ko \
 kmod-configs.ko \
 kmod-cpufreq-ondemand.ko \
@@ -276,9 +369,7 @@ kmod-fcrypt.ko \
 kmod-firmware-class.ko \
 kmod-fixed-phy.ko \
 kmod-font.ko \
-kmod-freq-table.ko \
 kmod-fscache.ko \
-kmod-fsl-ifc.ko \
 kmod-fsl-linflexuart.ko \
 kmod-fsl-lpuart.ko \
 kmod-fuse.ko \
@@ -296,12 +387,9 @@ kmod-glob.ko \
 kmod-governor-passive.ko \
 kmod-governor-simpleondemand.ko \
 kmod-gpio-generic.ko \
-kmod-gpio-imx-scu.ko \
 kmod-gpio-mxc.ko \
 kmod-gpio-pca953x.ko \
 kmod-gpio-pl061.ko \
-kmod-gpio-poweroff.ko \
-kmod-gpio-restart.ko \
 kmod-gpio-tegra.ko \
 kmod-grace.ko \
 kmod-gre.ko \
@@ -309,6 +397,7 @@ kmod-gxbb-aoclk.ko \
 kmod-gxbb.ko \
 kmod-hctr2.ko \
 kmod-hed.ko \
+kmod-hid-bpf.ko \
 kmod-hid-generic.ko \
 kmod-hid-hyperv.ko \
 kmod-hid.ko \
@@ -327,24 +416,23 @@ kmod-hv-storvsc.ko \
 kmod-hv-utils.ko \
 kmod-hv-vmbus.ko \
 kmod-hwmon.ko \
-kmod-hwspinlock-core.ko \
 kmod-hyperv-keyboard.ko \
 kmod-i2c-core.ko \
 kmod-i2c-designware-core.ko \
 kmod-i2c-designware-platform.ko \
 kmod-i2c-sprd.ko \
 kmod-i6300esb.ko \
-kmod-icc-core.ko \
 kmod-imx-earlycon.ko \
 kmod-imx-scu.ko \
 kmod-imx-weim.ko \
 kmod-imx.ko \
+kmod-imx8m-blk-ctrl.ko \
+kmod-imx8mp-blk-ctrl.ko \
 kmod-imx93-blk-ctrl.ko \
 kmod-inet-diag.ko \
 kmod-input-core.ko \
 kmod-input-leds.ko \
 kmod-interconnect-qcom.ko \
-kmod-ioasid.ko \
 kmod-iova.ko \
 kmod-ip-gre.ko \
 kmod-ip-set-bitmap-ip.ko \
@@ -413,17 +501,11 @@ kmod-iptable-mangle.ko \
 kmod-iptable-nat.ko \
 kmod-iptable-raw.ko \
 kmod-iptable-security.ko \
-kmod-ipu-idmac.ko \
 kmod-ipv6.ko \
-kmod-irq-al-fic.ko \
 kmod-irq-bcm7038-l1.ko \
 kmod-irq-brcmstb-l2.ko \
-kmod-irq-ls-scfg-msi.ko \
-kmod-irq-mbigen.ko \
 kmod-irq-meson-gpio.ko \
 kmod-irq-mvebu-pic.ko \
-kmod-irq-renesas-irqc.ko \
-kmod-irq-renesas-rzg2l.ko \
 kmod-irqbypass.ko \
 kmod-iscsi-boot-sysfs.ko \
 kmod-iscsi-ibft.ko \
@@ -441,7 +523,6 @@ kmod-ledtrig-default-on.ko \
 kmod-libaes.ko \
 kmod-libahci.ko \
 kmod-libata.ko \
-kmod-libblake2s.ko \
 kmod-libceph.ko \
 kmod-libchacha.ko \
 kmod-libchacha20poly1305.ko \
@@ -460,7 +541,6 @@ kmod-llc.ko \
 kmod-lockd.ko \
 kmod-loop.ko \
 kmod-lrw.ko \
-kmod-ltc2952-poweroff.ko \
 kmod-lz4-compress.ko \
 kmod-lz4-decompress.ko \
 kmod-lz4.ko \
@@ -471,7 +551,6 @@ kmod-lzo-decompress.ko \
 kmod-lzo-rle.ko \
 kmod-lzo.ko \
 kmod-mbcache.ko \
-kmod-mctp.ko \
 kmod-md4.ko \
 kmod-md5.ko \
 kmod-mdio-devres.ko \
@@ -497,11 +576,8 @@ kmod-mq-deadline.ko \
 kmod-msm-serial.ko \
 kmod-mtk-eint.ko \
 kmod-mtk-iommu.ko \
-kmod-mtk-mmsys.ko \
-kmod-mtk-mutex.ko \
 kmod-mtk-regulator-coupler.ko \
 kmod-mtk-smi.ko \
-kmod-mv-xor-v2.ko \
 kmod-mx3fb.ko \
 kmod-mxc-clk.ko \
 kmod-n-null.ko \
@@ -561,7 +637,6 @@ kmod-nfnetlink.ko \
 kmod-nfs-acl.ko \
 kmod-nfs-layout-flexfiles.ko \
 kmod-nfs-layout-nfsv41-files.ko \
-kmod-nfs-ssc.ko \
 kmod-nfs.ko \
 kmod-nfsd.ko \
 kmod-nfsv2.ko \
@@ -611,7 +686,6 @@ kmod-nls-iso8859-1.ko \
 kmod-nls-utf8.ko \
 kmod-nsh.ko \
 kmod-ntb.ko \
-kmod-nvmem-core.ko \
 kmod-nvmem-zynqmp-nvmem.ko \
 kmod-odroid-go-ultra-poweroff.ko \
 kmod-of-mdio.ko \
@@ -622,7 +696,6 @@ kmod-oid-registry.ko \
 kmod-openvswitch.ko \
 kmod-overlay.ko \
 kmod-owl-uart.ko \
-kmod-packing.ko \
 kmod-pcbc.ko \
 kmod-pci-aardvark.ko \
 kmod-pci-host-common.ko \
@@ -634,7 +707,6 @@ kmod-pcie-altera.ko \
 kmod-pcie-kirin.ko \
 kmod-pcie-mediatek.ko \
 kmod-pcrypt.ko \
-kmod-pinctrl-amd.ko \
 kmod-pinctrl-bcm2835.ko \
 kmod-pinctrl-imx.ko \
 kmod-pinctrl-imx8dxl.ko \
@@ -657,16 +729,10 @@ kmod-pinctrl-meson8-pmx.ko \
 kmod-pinctrl-msm.ko \
 kmod-pinctrl-mt6765.ko \
 kmod-pinctrl-mt6779.ko \
-kmod-pinctrl-mt8188.ko \
-kmod-pinctrl-mt8192.ko \
-kmod-pinctrl-mt8365.ko \
 kmod-pinctrl-mtk-common-v2.ko \
 kmod-pinctrl-paris.ko \
 kmod-pinctrl-rockchip.ko \
-kmod-pinctrl-rzg2l.ko \
-kmod-pinctrl-rzv2m.ko \
-kmod-pinctrl-s700.ko \
-kmod-pinctrl-s900.ko \
+kmod-pinctrl-s32g2.ko \
 kmod-pinctrl-scu.ko \
 kmod-pinctrl-single.ko \
 kmod-pinctrl-sprd-sc9860.ko \
@@ -674,12 +740,10 @@ kmod-pinctrl-sprd.ko \
 kmod-pinctrl-zynqmp.ko \
 kmod-pkcs7-message.ko \
 kmod-pkcs8-key-parser.ko \
-kmod-pldmfw.ko \
 kmod-poly1305-generic.ko \
 kmod-poly1305-neon.ko \
 kmod-polyval-ce.ko \
 kmod-polyval-generic.ko \
-kmod-power-supply.ko \
 kmod-pps-core.ko \
 kmod-pretimeout-noop.ko \
 kmod-processor.ko \
@@ -689,21 +753,18 @@ kmod-ptp-kvm.ko \
 kmod-ptp.ko \
 kmod-public-key.ko \
 kmod-pwc-rzv2m.ko \
-kmod-qcom-ebi2.ko \
 kmod-qcom-geni-se.ko \
 kmod-qcom-geni-serial.ko \
 kmod-qcom-ipcc.ko \
 kmod-qcom-pdc.ko \
 kmod-qcom-rpmh.ko \
 kmod-qcom-scm.ko \
-kmod-qcom-ssc-block-bus.ko \
 kmod-qemu-fw-cfg.ko \
 kmod-quota-tree.ko \
 kmod-quota-v1.ko \
 kmod-quota-v2.ko \
 kmod-raid6-pq.ko \
 kmod-raid6test.ko \
-kmod-raspberrypi-power.ko \
 kmod-raspberrypi.ko \
 kmod-rational.ko \
 kmod-raw-diag.ko \
@@ -711,23 +772,17 @@ kmod-rbd.ko \
 kmod-regmap-i2c.ko \
 kmod-regmap-mmio.ko \
 kmod-regmap-spi.ko \
-kmod-regulator-poweroff.ko \
-kmod-remoteproc.ko \
-kmod-renesas-cpg-mssr.ko \
 kmod-reset-berlin.ko \
 kmod-reset-brcmstb-rescal.ko \
 kmod-reset-imx7.ko \
 kmod-reset-meson.ko \
-kmod-reset-microchip-sparx5.ko \
 kmod-reset-qcom-aoss.ko \
 kmod-reset-raspberrypi.ko \
 kmod-reset.ko \
-kmod-restart-poweroff.ko \
 kmod-rfkill.ko \
 kmod-rmd160.ko \
 kmod-rng-core.ko \
 kmod-rng.ko \
-kmod-rockchip-mailbox.ko \
 kmod-roles.ko \
 kmod-rpmhpd.ko \
 kmod-rpmsg-core.ko \
@@ -742,7 +797,6 @@ kmod-rtc-pl031.ko \
 kmod-rtc-rv8803.ko \
 kmod-rtc-xgene.ko \
 kmod-rtc-zynqmp.ko \
-kmod-rzg2l-cpg.ko \
 kmod-samsung-tty.ko \
 kmod-sch-ingress.ko \
 kmod-scmi-core.ko \
@@ -763,9 +817,7 @@ kmod-serial-mctrl-gpio.ko \
 kmod-serio.ko \
 kmod-serpent-generic.ko \
 kmod-sg.ko \
-kmod-sh-cmt.ko \
 kmod-sh-sci.ko \
-kmod-sh-tmu.ko \
 kmod-sha1-ce.ko \
 kmod-sha1-generic.ko \
 kmod-sha2-ce.ko \
@@ -776,7 +828,6 @@ kmod-sha3-generic.ko \
 kmod-sha512-arm64.ko \
 kmod-sha512-ce.ko \
 kmod-sha512-generic.ko \
-kmod-simple-pm-bus.ko \
 kmod-simpledrm.ko \
 kmod-skcipher.ko \
 kmod-sm2-generic.ko \
@@ -794,6 +845,7 @@ kmod-sm4.ko \
 kmod-snd-pcm.ko \
 kmod-snd-timer.ko \
 kmod-snd.ko \
+kmod-soc-imx8m.ko \
 kmod-soundcore.ko \
 kmod-spi-fsl-lib.ko \
 kmod-spi-fsl-spi.ko \
@@ -811,13 +863,11 @@ kmod-sun50i-a64-ccu.ko \
 kmod-sun50i-h6-ccu.ko \
 kmod-sun50i-h6-r-ccu.ko \
 kmod-sun50i-h616-ccu.ko \
-kmod-sun50i-iommu.ko \
 kmod-sun8i-de2-ccu.ko \
 kmod-sun8i-h3-ccu.ko \
 kmod-sun8i-r-ccu.ko \
 kmod-sunrpc.ko \
 kmod-sunxi-ccu.ko \
-kmod-sunxi-sram.ko \
 kmod-sym53c8xx.ko \
 kmod-syscopyarea.ko \
 kmod-sysfillrect.ko \
@@ -827,16 +877,9 @@ kmod-tcp-cubic.ko \
 kmod-tcp-diag.ko \
 kmod-tcrypt.ko \
 kmod-tegra-aconnect.ko \
-kmod-tegra-ahb.ko \
-kmod-tegra-mc.ko \
 kmod-tegra-tcu.ko \
-kmod-tegra124-cpufreq.ko \
-kmod-tegra186-emc.ko \
-kmod-tegra194-cbb.ko \
 kmod-tegra20-apb-dma.ko \
-kmod-tegra234-cbb.ko \
 kmod-thermal.ko \
-kmod-timer-tegra186.ko \
 kmod-tpm-crb.ko \
 kmod-tpm-tis-core.ko \
 kmod-tpm-tis.ko \
@@ -851,7 +894,6 @@ kmod-typec-ucsi.ko \
 kmod-typec.ko \
 kmod-ucs2-string.ko \
 kmod-ucsi-acpi.ko \
-kmod-udmabuf.ko \
 kmod-udp-diag.ko \
 kmod-udp-tunnel.ko \
 kmod-uhci-hcd.ko \
@@ -868,7 +910,6 @@ kmod-ums-realtek.ko \
 kmod-ums-sddr09.ko \
 kmod-ums-sddr55.ko \
 kmod-ums-usbat.ko \
-kmod-unicode.ko \
 kmod-unix-diag.ko \
 kmod-unix.ko \
 kmod-usb-common.ko \
@@ -920,7 +961,6 @@ kmod-vsock-diag.ko \
 kmod-vsock-loopback.ko \
 kmod-vsock.ko \
 kmod-vxlan.ko \
-kmod-watch-queue.ko \
 kmod-watchdog.ko \
 kmod-wireguard.ko \
 kmod-wp512.ko \
@@ -1024,13 +1064,11 @@ kmod-xz-dec.ko \
 kmod-zbud.ko \
 kmod-zlib-deflate.ko \
 kmod-zlib-inflate.ko \
-kmod-zpool.ko \
 kmod-zsmalloc.ko \
 kmod-zstd-common.ko \
 kmod-zstd-compress.ko \
 kmod-zstd-decompress.ko \
 kmod-zstd.ko \
-kmod-zswap.ko \
 kmod-zynqmp-ipi-mailbox.ko \
 multiversion-kernel"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Qualcomm device drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230620"
+PV = "20230707"
 
-RPM_NAME = "kernel-firmware-qcom-20230620-1.1.noarch.rpm"
-RPM_HASH = "97669b5219dc07e7a4547c0087b4e0804bd2921cbc701b87b0b49268c7436cbaecfe878473112e999e3c73288670dea579a7eb0ab823f704e35f80ba989ec92f"
+RPM_NAME = "kernel-firmware-qcom-20230707-1.1.noarch.rpm"
+RPM_HASH = "7893c354b78d7f6685302d25d8f8a207f9d461bb76162ba7430f947af88a65bb59bcab39ef731ff5161cf922ba2eeff9e62d664e1a4ee39656ff38506cda0c88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-a300-pfp.fw \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-platformsupport-private-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "47d9d81ff2394f6c1b78bf33d3ff22110dd9f6bfaaf3ff03cbacd2981bee029e814de3ffecffcb0415f06abc4c7be44f7717589c75d575543b85f63c25505743"
+RPM_NAME = "qt6-platformsupport-private-devel-6.5.1-4.1.aarch64.rpm"
+RPM_HASH = "48abbc1ddbe4ae6778f3be539373e35b71cf1ad7d525aa32ffacda20444b936fc0be8ec174095734b3700e13ae2ed0deb86720f99a889138a1b532e09ded18ad"
 
 RPROVIDES:${PN} += "qt6-platformsupport-private-devel"
 

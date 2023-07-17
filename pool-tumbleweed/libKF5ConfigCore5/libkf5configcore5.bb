@@ -5,10 +5,10 @@ KConfigCore and KConfigGui. \
 KConfigCore provides access to the configuration files themselves."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5ConfigCore5-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "d2feb14f28319acaaa62cb087083f089eef540c2115f212feb598cd2625a4a667861d0f4b16b3481adfa02d3a0dc0167c2678781cccf133a690eff660be7a921"
+RPM_NAME = "libKF5ConfigCore5-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "c493d738513ac91a4a9432695a41a8f053a166a9ba318e58a6ff22b859c2d234939da76c75abcb2dc102bac652d01b06a3a5f2a35682652f6144f15db5c683cf"
 
 RPROVIDES:${PN} += "libKF5ConfigCore.so.5 \
 libKF5ConfigCore5"

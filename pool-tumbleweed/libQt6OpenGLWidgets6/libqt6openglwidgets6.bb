@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6OpenGLWidgets6-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "1340118e85c052165c74f3cc8ed0e3a769d7803b0dfee1eff74c6cd02db6088cd19d7b40ddd1c31f31b7b3dc3c3b0ebf77eb735b497e09f3780bf7a3b48acf34"
+RPM_NAME = "libQt6OpenGLWidgets6-6.5.1-4.1.aarch64.rpm"
+RPM_HASH = "66caeeea73b7e5f2dbd8df874cdb7973d8896cb06017cd08e79a9aefeb4c4aa15a81ccf3bdb2be1b2e61e45a6701a088c39122b8e6515d2098dcd48a28b90b90"
 
 RPROVIDES:${PN} += "libQt6OpenGLWidgets.so.6 \
 libQt6OpenGLWidgets6"

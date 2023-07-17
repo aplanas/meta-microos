@@ -3,10 +3,10 @@ DESCRIPTION = "KNotifyConfig provides a configuration dialog for desktop notific
 can be embedded in your application."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5NotifyConfig5-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "52be634312cbc6f8832f3622f813ebd3105bb1adb2358b008b0dc4e595e03fcf3efe81e2c79ad0e666e3e571e2e68ea16dc5e5f0e28294a892f05717a5c10aaf"
+RPM_NAME = "libKF5NotifyConfig5-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "2551faa5fafdf9bd9927c9863e5c2d5cc6e408f751ab53a40713638c096c5330b57b2c3866a1bcdb7074b428ff926371074b221d80e7a99ef296b191db900b88"
 
 RPROVIDES:${PN} += "libKF5NotifyConfig.so.5 \
 libKF5NotifyConfig5"

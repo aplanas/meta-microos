@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "3.2.0"
 
-RPM_NAME = "python310-graphql-relay-3.2.0-1.6.noarch.rpm"
-RPM_HASH = "ffa50f8bdf51039f8fd413eeb9f349513c4f6c4dc0c54a5020404fcb811c639515d86cff07cd68310aca6933c09015a1218306a1beb1daae1a480ba0974b4e27"
+RPM_NAME = "python310-graphql-relay-3.2.0-2.1.noarch.rpm"
+RPM_HASH = "e3414fab49324a6faf94c1aec89757e04ca191980dca0713f684ed01c93551e2a4937340a224d6b0776f25b2f6bb3b931518eea245d94dee31fdcdc5ea4e1d0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-graphql-relay \

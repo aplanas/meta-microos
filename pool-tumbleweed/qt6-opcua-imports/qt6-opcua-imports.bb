@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-opcua-imports-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "3927e7222fcae18bd9b4a9aae93d10bf0f2ff5e823c0bc96fb393048e1d7ece3efd8b31538d69abea1750661d1a7e0a23dd22fd47b916b21a0c68560d4bb819b"
+RPM_NAME = "qt6-opcua-imports-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "61d5f4c5e96bc318571f896debd58f6769f14f545a09ac97e94c9e8f68180a7622925cd28e0294b72fadfe8ccbd83b67412f4ed7a040d17d7742a830e3284d16"
 
 RPROVIDES:${PN} += "libdeclarativeopcuaplugin.so \
 qt6-opcua-imports"

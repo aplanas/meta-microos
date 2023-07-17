@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.1.13.0"
 
-RPM_NAME = "ghc-wai-extra-doc-3.1.13.0-2.7.noarch.rpm"
-RPM_HASH = "ad8634971e2e8b7aa2a98e0782814a4d3822770f848192f7ef9f8516bce130e1f44fb7cbb5308dc52d6eb2493a6d57ca9900155b2071c9feb59ba6e26ddd326f"
+RPM_NAME = "ghc-wai-extra-doc-3.1.13.0-2.9.noarch.rpm"
+RPM_HASH = "16c66f89a7a64de1893f3dd142afa919c9cf0959807ccc477e966f05eb14465c8c1e3d0a528769772d59e4a83abef6236d84e86016a9d8a9c0a6c3fbda4f0621"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-wai-extra-doc"

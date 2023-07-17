@@ -2,10 +2,10 @@ SUMMARY = "Qt wrapper around the ModemManager libraries"
 DESCRIPTION = "Qt5 wrapper for ModemManager DBus API."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5ModemManagerQt6-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "8ea3aec0f450875015370ec0c36907da3f16dd27c7c5d8d1b95efc10d0896842866e569fef0f8bf326a40d99f4546e0101fa5d7a1aadabf3e7eae050ee62660d"
+RPM_NAME = "libKF5ModemManagerQt6-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "a2ee38a9a81fec05b20892476d6cd021f17486d2ef2260700e5db01b38eb13e83a91e888018e94bb3372381875eca558f0f74305a34e23804664e0cd70676ccc"
 
 RPROVIDES:${PN} += "libKF5ModemManagerQt.so.6 \
 libKF5ModemManagerQt6"

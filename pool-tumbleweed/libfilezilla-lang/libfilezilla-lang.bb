@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libfilezilla"
 DESCRIPTION = "Provides translations for the 'libfilezilla' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.42.2"
+PV = "0.44.0"
 
-RPM_NAME = "libfilezilla-lang-0.42.2-1.1.noarch.rpm"
-RPM_HASH = "cb21ce3c39a927a218dedd2069b137dc86d2f24be2ba34e9bb638d1a183c99985aac0909d585150388f84c42f7a61671fe95b44611921d1cf28e1899be428b3c"
+RPM_NAME = "libfilezilla-lang-0.44.0-1.1.noarch.rpm"
+RPM_HASH = "1943c60e86009e3a43de8882d45f78926d963af62ca86e5cbca507aaafab836ff5a3251c057ee89141d51739668eeba6e11aa64cb06ad0d526e477b7c8ff84f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libfilezilla-lang \

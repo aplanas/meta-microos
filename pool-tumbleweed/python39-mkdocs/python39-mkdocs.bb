@@ -4,10 +4,10 @@ Documentation source files are written in Markdown, and configured \
 with a single YAML configuration file."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.4.2"
+PV = "1.4.3"
 
-RPM_NAME = "python39-mkdocs-1.4.2-2.1.noarch.rpm"
-RPM_HASH = "69754b5e70a8814a0183e5a11ef7c03f68558a5eb1ff67e72c98249a69d7c5cdb6e173a6fb7b1779a4028801c9da5bc80570a1c6f8458fbd5b3275c3597f290a"
+RPM_NAME = "python39-mkdocs-1.4.3-1.1.noarch.rpm"
+RPM_HASH = "c88e0f0aedd1de60afd07431d2296de7ae5dc396baa144fa73df04aa68d308a338d6ca717c0f1212034d04dcb2a794e9c7b48a82570287f2e6491a1d50899a1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mkdocs \

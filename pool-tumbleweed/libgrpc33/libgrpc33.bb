@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.56.0"
 
-RPM_NAME = "libgrpc33-1.56.0-1.2.aarch64.rpm"
-RPM_HASH = "e823d46b6daf8990c3c8d24d603c06e0c129931c8088376b43c1022b5f842469a050e8bd9d56220dd2786f50b964a9ba973ca95e1fc34cfcd718c2fdee2b491e"
+RPM_NAME = "libgrpc33-1.56.0-1.3.aarch64.rpm"
+RPM_HASH = "f287398592aa3c4c74d6e207da89a8385c8f1ca89c655a59e3d08a45de93ce77172f0bf2cfc3df511bf12f07bfe2a1857328b2b08cec2b186a53fb9c9b2ecddd"
 
 RPROVIDES:${PN} += "libaddress-sorting.so.33 \
 libgpr.so.33 \

@@ -7,10 +7,10 @@ management. \
 This package contains the C++ bindings."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.20.0"
+PV = "1.21.0"
 
-RPM_NAME = "libgpgmepp6-1.20.0-1.3.aarch64.rpm"
-RPM_HASH = "9cace98622e1e561955e1112b9ee6eb8d1871ff8acc4ccebd897e210736be33b65c8499eb0ba8b2faa0d38d2492e65c29d11a97e4428286f5c97d12023c0f5ce"
+RPM_NAME = "libgpgmepp6-1.21.0-1.1.aarch64.rpm"
+RPM_HASH = "4febb12dcffd53ac26096022cd38bc9eb7fb5f56e84f89a976a2378b83d7900e175b1fc12bd683ad64400d6b9a79edf6c1f6df0920f5918bc63f62f11bb4e386"
 
 RPROVIDES:${PN} += "libgpgmepp.so.6 \
 libgpgmepp6"

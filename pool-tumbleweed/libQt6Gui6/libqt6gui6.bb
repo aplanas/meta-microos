@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6Gui6-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "e9d0d6d64d6c3e4b68473b04b43e54783a9e1f92f77f324433becb134d2d25f3dd631897a5b085b094237853b14b01c034d4a7ee2ce9e385bf870aa6e25a2af2"
+RPM_NAME = "libQt6Gui6-6.5.1-4.1.aarch64.rpm"
+RPM_HASH = "bb70397a551ee1e496dcedf2908237092f8cb2e203e7843f25139e9fce19f0076349762943ca68c6746356c1798ebbbaf30028a6168834edd05bd9175052c7e7"
 
 RPROVIDES:${PN} += "libQt6EglFSDeviceIntegration.so.6 \
 libQt6EglFsKmsGbmSupport.so.6 \

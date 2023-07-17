@@ -3,10 +3,10 @@ DESCRIPTION = "*cpanspec* will generate a spec file to build a rpm from a CPAN-s
 module distribution."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.83.00.1674496263.ba76ec9"
+PV = "1.84.00.1688930749.8cd1dcd"
 
-RPM_NAME = "cpanspec-1.83.00.1674496263.ba76ec9-1.2.noarch.rpm"
-RPM_HASH = "acbb6491f43f13c8530543fc47ef8899cf89b343df159b8b5ce439dbae6d4111ca590287e153f4a123fe77f959075624e8349f483b2857b29382092db7e4b238"
+RPM_NAME = "cpanspec-1.84.00.1688930749.8cd1dcd-1.1.noarch.rpm"
+RPM_HASH = "4c4124a8b3496bccea3a2ad034d646e8d8666b07decc2128fc86ab4020c6499241766168cd7724ef8f38f9cfc47c036b1ae26eb28fa66ee3b69fd59f27e617d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cpanspec \

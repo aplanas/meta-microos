@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for KSJEmbed, which provides a method of bindin
 JavaScript objects to QObjects, so applications can be scripted."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kjsembed-devel-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "0473909c34a759478d9343070e5184232593d7cca3253e26a844960334d23599caee2d03a943027126b20042d92adc0d2db66997f388bf2b88c4481f208c40e2"
+RPM_NAME = "kjsembed-devel-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "6de4d656cd2b89b5c3201491f542e59028050ab05be3b8cff68415081f0ad060a06b96837207b24e44e042ca68ca8eabe989ca1aab6d84f374ca71b34aea5e9a"
 
 RPROVIDES:${PN} += "cmake-KF5JsEmbed \
 kjsembed-devel"

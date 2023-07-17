@@ -8,10 +8,10 @@ Their behavior coincides with NumPy when array dimensions are regular and \
 generalizes when they're not."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.2.4"
+PV = "2.3.1"
 
-RPM_NAME = "python39-awkward-2.2.4-1.1.noarch.rpm"
-RPM_HASH = "2fd512cf4852dd0592883df1232df6c33897496969ae734a962a716f55ce4a35f25668a702cbf59fe74ae8d3e401e337ea3ef8c09136e68295102d17528022e5"
+RPM_NAME = "python39-awkward-2.3.1-1.1.noarch.rpm"
+RPM_HASH = "6535d1e59219ca4d40072654ffa46d2cfd3d80e0ff733459dc43bcea0e373615196e7bece841940314133b138053ebadac60f75ab6c6d15cc3a0eac69d7f6216"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-awkward \

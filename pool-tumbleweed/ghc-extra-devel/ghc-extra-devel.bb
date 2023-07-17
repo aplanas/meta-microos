@@ -2,12 +2,12 @@ SUMMARY = "Haskell extra library development files"
 DESCRIPTION = "This package provides the Haskell extra library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.7.13"
+PV = "1.7.14"
 
-RPM_NAME = "ghc-extra-devel-1.7.13-1.2.aarch64.rpm"
-RPM_HASH = "86c4fa947fd1eadb6649c92393d3aa3fea34baa4b57d13135b45de539081fa68186d94dfe7fdc68a3cde84247e6e7bd8246af47bb5275cc97f592584d6f1e475"
+RPM_NAME = "ghc-extra-devel-1.7.14-1.1.aarch64.rpm"
+RPM_HASH = "d91b9aece196134643367a46ea1e232514c0b566de010b7bd2adb3dea03a2e35a82f9ac1e204e7fc8ac48bfffcdb3ab91c27dc906a68e7fa4e8250173901393e"
 
-RPROVIDES:${PN} += "ghc-devel-extra-1.7.13-CLIQu72ADU8JHmf7UWoQG4 \
+RPROVIDES:${PN} += "ghc-devel-extra-1.7.14-BoqGpItPSHp5TXSaJGSPpo \
 ghc-extra-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

@@ -7,8 +7,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20221022"
 
-RPM_NAME = "libevt-devel-20221022-3.11.aarch64.rpm"
-RPM_HASH = "d0cce654c1dda415cfa5b9d726f0a185c92961c635b9828c12114ca4b31f7191d3a33da9d5370e6924a40ab884ee45b6a255a3dae0b3096244ef54390fcaaaef"
+RPM_NAME = "libevt-devel-20221022-3.12.aarch64.rpm"
+RPM_HASH = "18d2f2f2b59c241fc2c2f7295583d748d07f8c2930484c9a1ae03e5bee54290cbcb430ce4124273e9d2c86663a7790960aea0a171e509fd9df9201ef97756c75"
 
 RPROVIDES:${PN} += "libevt-devel \
 pkgconfig-libevt"

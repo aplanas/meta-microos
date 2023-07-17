@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt63DRender6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "a76693018cbd2c8d77cd558b16a97245a9cc52173b1d0107fbbe980bb3c4bf5df8157fef77c9fd07d8882fb0508300177d47e7e870ea05021157d9e325229bb4"
+RPM_NAME = "libQt63DRender6-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "afbaff5128f2b6b58f5e29ebd7bafed13b0edd1221a53bbecfc8faf6357697df9f8830b2d778f416aeab419af2faf8af96d51fe1f34fab953339758ca75d14ed"
 
 RPROVIDES:${PN} += "libQt63DRender.so.6 \
 libQt63DRender6 \

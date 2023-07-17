@@ -3,10 +3,10 @@ DESCRIPTION = "KNotification is used to notify the user of an event. It covers f
 persistent events. Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "knotifications-devel-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "bb894ef4126559d37da0c2d3a1e9eb329bcb8913c330e4481026f7b420f9ab0a821767850758c18ff9d0f9f89e6dcbecb438f9a4ee6c4ea4724d5886985a665b"
+RPM_NAME = "knotifications-devel-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "50fed3e04b30d20aa35826818dd37f6e61cbef8cb6761adfe1ba85406eb272e79eb2bc0b793e0a51f1f2a4b49e7f94d04397f4292b3f107619c5c20f4f762c75"
 
 RPROVIDES:${PN} += "cmake-KF5Notifications \
 knotifications-devel"

@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quickeffects-private-devel-6.5.1-1.3.aarch64.rpm"
-RPM_HASH = "a5618f9d0e27b020e1671a5d0c2223bdbd32dc95d2e9acb4c46c03c6d3c22b1fa48a5b1ecce00581965943bf766a885fbdd964604e93cd2c215d85c1701e7cec"
+RPM_NAME = "qt6-quickeffects-private-devel-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "cb7555a6ae4f3d9302f696d9cbb4aee3b6a12be414b8287c198a14e67aa0c4c34d6def828bdbbbb1c0c68bd978159ac55a1aaa0e4582358be1fe525e0e7e8dff"
 
 RPROVIDES:${PN} += "cmake-Qt6QuickEffectsPrivate \
 qt6-quickeffects-private-devel"

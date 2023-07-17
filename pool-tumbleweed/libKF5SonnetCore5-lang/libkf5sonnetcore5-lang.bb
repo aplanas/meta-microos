@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5SonnetCore5"
 DESCRIPTION = "Provides translations for the 'libKF5SonnetCore5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5SonnetCore5-lang-5.107.0-1.1.noarch.rpm"
-RPM_HASH = "d8cd274c8b3f436cf114caadee34da58660c46a80391e2ba0e42922601c4af7f2777ad73ebee133e38b477c988b94e83955cd5264bda51578c3c7d56a7efc6fa"
+RPM_NAME = "libKF5SonnetCore5-lang-5.108.0-1.1.noarch.rpm"
+RPM_HASH = "f0b4fdb6ef709144150329118e0a5c966c3f3b41bfe9c671b5120f7635b0b07f72b3b23957821a675c024352d8c78f3acfe12108fdfc5b16e856419c656ae72c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5SonnetCore5-lang \

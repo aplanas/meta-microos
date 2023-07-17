@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.7.0"
 
-RPM_NAME = "aardvark-dns-1.7.0-1.1.aarch64.rpm"
-RPM_HASH = "28a8b568fbe726e16ff7b741cde3092919b5fd74146948b211682482f7dbe95f5aea50dc259e9e855e51e26cc488d402708b9b1d7aa7e9febfed050f4d5a353e"
+RPM_NAME = "aardvark-dns-1.7.0-2.1.aarch64.rpm"
+RPM_HASH = "7293452267c91566d94aa3c974e04db1d6dff023095ad16ac669c5df06915e3dd93b74b8312a8fd2c3b0829accda80430d5737b3d6256122607fd8dcd9aa5ec6"
 
 RPROVIDES:${PN} += "aardvark-dns"
 

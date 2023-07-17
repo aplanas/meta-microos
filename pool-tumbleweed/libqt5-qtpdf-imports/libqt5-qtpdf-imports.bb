@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | GPL-2.0-only | GPL-3.0-only"
 
 PV = "5.15.14"
 
-RPM_NAME = "libqt5-qtpdf-imports-5.15.14-1.3.aarch64.rpm"
-RPM_HASH = "90e206ae641d88d87a5bba2f6332891d3c6913c233913588378a68fbbde3bbc9a372be041e92ee8189f912fd500cbb793bc059c84aaf15a043cc007221d811df"
+RPM_NAME = "libqt5-qtpdf-imports-5.15.14-1.4.aarch64.rpm"
+RPM_HASH = "d905db544e28bf84f83d6169b20103c5d928258cb93d6c8b96eb6e02305215be85bf317ec240aec127110280cbf2043f1531996f0e265f98a336c0d906b31e94"
 
 RPROVIDES:${PN} += "libpdfplugin.so \
 libqt5-qtpdf-imports \

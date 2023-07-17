@@ -14,10 +14,10 @@ automatically initialized from the configuration and automatically propagate \
 their changes to their respective configuration files. Development files."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kconfig-devel-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "7759bab025baa3ed0e38000e0f29879912e2974bcd2662f83a11b66e4e4d132e57196ce2671a92d9b9ab3adca7dfc3665f9f952d49f0dddbc0ea6ce6358509e5"
+RPM_NAME = "kconfig-devel-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "4d9da9297a542a905c72f5c7a36747cb1db81f19e2db7c6cb64dd59e89db5788a4f089e70bd28be88fbb9af8d50849237af265f9902fe1240947a98b385600f0"
 
 RPROVIDES:${PN} += "cmake-KF5Config \
 kconfig-devel"

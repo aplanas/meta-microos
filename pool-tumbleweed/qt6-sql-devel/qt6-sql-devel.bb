@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-sql-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "43be54f247b431f109b8fe138acd180e91987055fda5aafe87f9b6b96f105db6aa5fbfd13f902b29fd2c018e526abababc61beb0fc4327a747223297b6439346"
+RPM_NAME = "qt6-sql-devel-6.5.1-4.1.aarch64.rpm"
+RPM_HASH = "58117f1f86dc53ccd8f0b287c0490f342d9f8d29e0710b1988b5f79d8d783f24e082012c57e384729ace8859a97115e1603de0f83f46363225f16f9812343619"
 
 RPROVIDES:${PN} += "cmake-Qt6Sql \
 pkgconfig-Qt6Sql \

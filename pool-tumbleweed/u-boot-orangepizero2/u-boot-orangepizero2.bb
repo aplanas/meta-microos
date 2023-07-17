@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains the firmware for the orangepizero2 platform."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.04"
+PV = "2023.07"
 
-RPM_NAME = "u-boot-orangepizero2-2023.04-2.2.aarch64.rpm"
-RPM_HASH = "c51064ffa9f1ef19c1954928151cda575c1e1572a3e73c8f13ddb0d3335918a6b8af324faf6a32cd95984d0a4a38bebc26061e4b529cec8e33008b2058d06c62"
+RPM_NAME = "u-boot-orangepizero2-2023.07-1.1.aarch64.rpm"
+RPM_HASH = "a38b4b9c0a0f091d84b15753c6fda6a2da503cf519b8f9b845521b08c0cfe75ebbd23da2ebf7014585a25ae878b7d5a74e472db2ac4be5fd906d3954af13fc4c"
 
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-orangepizero2"

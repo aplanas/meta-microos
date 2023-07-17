@@ -20,8 +20,8 @@ LICENSE = "GPL-3.0"
 
 PV = "2.8.8"
 
-RPM_NAME = "ueberzugpp-2.8.8-1.1.aarch64.rpm"
-RPM_HASH = "2745d8fb60ead751a8042d21b2b5d42953fd3e60f374f6962cdfa60791399a468746ec0496de933c4cf23c327b9fa92541cd12b45e191386f9da30e7a183aeb9"
+RPM_NAME = "ueberzugpp-2.8.8-1.2.aarch64.rpm"
+RPM_HASH = "e54548dd00280f513444892d476c98d9f2dae5f65a6d4fdc4179b25d96b29566dbf21fe23cddc4d9f6af669f61774958c7c40787d8af67e66b93ec55928ff2f2"
 
 RPROVIDES:${PN} += "ueberzugpp"
 
@@ -38,7 +38,7 @@ libopencv-imgcodecs.so.407 \
 libopencv-imgproc.so.407 \
 libopencv-videoio.so.407 \
 libsixel.so.1 \
-libspdlog.so.1.11 \
+libspdlog.so.1.12 \
 libstdc++.so.6 \
 libtbb.so.12 \
 libvips-cpp.so.42 \

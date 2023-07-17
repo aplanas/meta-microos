@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-qt5compat-imports-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "d0be4c76ddf5ec189ddb97de517e5fd4d529e48a2a5dfa55f1508f224a5efd0cdd39b9fce8caf87df042115d5985027981cd3bcad4b0865ac323d773c6f861de"
+RPM_NAME = "qt6-qt5compat-imports-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "054deb07108dfe7ce15ebae71e33159523b16b1bf0e39ae55969b3a030594fc5439955d6235fe7e1ee3ba7f968f6b9dfaed504c848d597702e9a62fa43e245ed"
 
 RPROVIDES:${PN} += "libqtgraphicaleffectsplugin.so \
 libqtgraphicaleffectsprivateplugin.so \

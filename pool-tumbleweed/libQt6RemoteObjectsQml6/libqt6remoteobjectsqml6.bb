@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6RemoteObjectsQml6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "a54d49e656ceafe30424b353b9bdbbafd67b666c1ea2269a008ea60cb5182b31a22837ffd0aaaa518df3fbd87346076d7a291a3f9a5ee4d0371bc34b057aa494"
+RPM_NAME = "libQt6RemoteObjectsQml6-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "49d9f9fe8400112ac11ca24609517cd15a3f0e24b3947863fd2f0574997fa0f7be3c5580b4bca66b198f55800a1a676a662fe56d60171ce7e1d319d1bf7c944d"
 
 RPROVIDES:${PN} += "libQt6RemoteObjectsQml.so.6 \
 libQt6RemoteObjectsQml6"

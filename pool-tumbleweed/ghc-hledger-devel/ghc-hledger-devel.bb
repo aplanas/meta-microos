@@ -4,10 +4,10 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.28"
 
-RPM_NAME = "ghc-hledger-devel-1.28-2.8.aarch64.rpm"
-RPM_HASH = "cb80486d5094a78f77b9d00695ed03f49d4ef0c80b0ca571bdc1afbece223103a98f2c4e0a34b2eaa289a5a97dc6259281207edfca24deda533db7a01f04c285"
+RPM_NAME = "ghc-hledger-devel-1.28-3.1.aarch64.rpm"
+RPM_HASH = "6215c1013b687ae318aacb32267895cb34c8ff684f02bec98ada7b8b307b1d3b391c5c5b3352d922c6bb4c93bdfed47e595115948e8ff6827f42cb36ec911b1d"
 
-RPROVIDES:${PN} += "ghc-devel-hledger-1.28-G4K7iDA3K7P4WFfMvlr4fV \
+RPROVIDES:${PN} += "ghc-devel-hledger-1.28-LMGraoAEV376eBGXHCUD0u \
 ghc-hledger-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -22,12 +22,12 @@ ghc-devel-cmdargs-0.10.22-JxALoPeruUH3tSM40P8Mx \
 ghc-devel-containers-0.6.7 \
 ghc-devel-data-default-0.7.1.1-5iNQUD7GKkTDiLEyJaqXSy \
 ghc-devel-directory-1.3.7.1 \
-ghc-devel-extra-1.7.13-CLIQu72ADU8JHmf7UWoQG4 \
+ghc-devel-extra-1.7.14-BoqGpItPSHp5TXSaJGSPpo \
 ghc-devel-filepath-1.4.2.2 \
 ghc-devel-githash-0.1.7.0-99BBKgCWJJUA6aWVuD3QRz \
 ghc-devel-hashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt \
 ghc-devel-haskeline-0.8.2 \
-ghc-devel-hledger-lib-1.28-AhrPRGlKIk9KakxoHPe5CV \
+ghc-devel-hledger-lib-1.28-KVtwO74sgvi1hMRwtb8EwS \
 ghc-devel-lucid-2.11.20230408-4Nhfi0FKLIn9BurrsHVz0w \
 ghc-devel-math-functions-0.3.4.2-9rV4yQVX6xI3LaPo90WsZk \
 ghc-devel-megaparsec-9.3.1-Lptmv1Cc41nKt1ZYt8kXVr \

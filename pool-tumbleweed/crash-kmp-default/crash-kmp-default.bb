@@ -11,14 +11,14 @@ Authors: \
     David Anderson <anderson@redhat.com>"
 LICENSE = "GFDL-1.2-only & GPL-3.0-or-later"
 
-PV = "8.0.3_k6.3.9_1"
+PV = "8.0.3_k6.4.2_1"
 
-RPM_NAME = "crash-kmp-default-8.0.3_k6.3.9_1-1.9.aarch64.rpm"
-RPM_HASH = "0c8deaf6100486fcfce37040bee1f69e7b8b41268ccaec942c6e8970459c00182d62fbdfa08cc1f90cd2f6c0632d1578a34875ff8e8c45227b169a413b966dd0"
+RPM_NAME = "crash-kmp-default-8.0.3_k6.4.2_1-1.10.aarch64.rpm"
+RPM_HASH = "c6c75736665b0a1806db0416dde797539d386d961b546db441096e3b5ef549fe2928abb5f6d2550415294d3c80b09a6d301f4cb1e15c9412717ac3f9a2cccddf"
 
 RPROVIDES:${PN} += "crash-kmp \
 crash-kmp-default \
-crash-kmp-default-k6.3.9-1 \
+crash-kmp-default-k6.4.2-1 \
 kmod-crash.ko \
 multiversion-kernel"
 

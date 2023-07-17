@@ -22,8 +22,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.0~rc2"
 
-RPM_NAME = "clementine-1.4.0~rc2-1.14.aarch64.rpm"
-RPM_HASH = "ab7224e4ee9077f601ff4c64a742dd6578e287ebd9a4029acaaa368054ed9e1cbaf4ce9982dec8de6fe9967a8aad67b39ca02fd588e10bba66126bd5dd9f6415"
+RPM_NAME = "clementine-1.4.0~rc2-2.1.aarch64.rpm"
+RPM_HASH = "3347bb0f4c7c4ad34d355d6fdd11d7f4b866458c95ee7a933eb6b362fe7baddcba9d791a6e70701fb749cf95f752fbd878dcbbad06e22e430d107195e71958a6"
 
 RPROVIDES:${PN} += "clementine \
 clementine-kde"
@@ -59,7 +59,7 @@ libm.so.6 \
 libmtp.so.9 \
 libmygpo-qt5.so.1 \
 libprojectM.so.3 \
-libprotobuf-3.21.12.so \
+libprotobuf.so.23.4.0 \
 libpulse.so.0 \
 libqxtglobalshortcut.so.0 \
 libsqlite3.so.0 \

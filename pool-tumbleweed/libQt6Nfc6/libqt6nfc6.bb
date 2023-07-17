@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6Nfc6-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "5b4d8f3fe4d115cf39eb07aa96d08b67504e6acdce43eab94d1f3a3f46293769a0bbc4531ef9cfb773c8fbf3815161c50caf68a425b6e2c95175ad3b17e550de"
+RPM_NAME = "libQt6Nfc6-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "a086e690fedfd41d124562beac96ea2f4589585d162740bfb73f88f94a408832ec1e938696567181965899a419677e030bee1d0ef58e0cf589913465d68b69f4"
 
 RPROVIDES:${PN} += "libQt6Nfc.so.6 \
 libQt6Nfc6"

@@ -4,10 +4,10 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.1.3"
 
-RPM_NAME = "ghc-pandoc-devel-3.1.3-1.3.aarch64.rpm"
-RPM_HASH = "bc25b7f376d9fc0ec967fa49ab3f93e583b39d551ff0be361c314265e4ba3e3387b28282eeef4be2ff34fbd4190561ae58d9b675cf7754c56854ffa4a6431bd5"
+RPM_NAME = "ghc-pandoc-devel-3.1.3-1.5.aarch64.rpm"
+RPM_HASH = "59ab227c030fc3a79bf317f2a6a9434906de1e3db475abe2528441c5f8d30bd90b37de74a604ffe0bf873dd19fdae806a38f19b58ba24193387eca43fe656cb2"
 
-RPROVIDES:${PN} += "ghc-devel-pandoc-3.1.3-5ecWWg0ojZ38IHcxSTWJz4 \
+RPROVIDES:${PN} += "ghc-devel-pandoc-3.1.3-IvLrz4YIivMLuf8ZxaBxIb \
 ghc-pandoc-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -16,7 +16,7 @@ ghc-devel-Glob-0.10.2-5tAj3lHfg0h9Pb5bOpMg4R \
 ghc-devel-JuicyPixels-3.3.8-BQPF2mBCFFj3rGPaZ8nrGS \
 ghc-devel-SHA-1.6.4.4-CTRZ9m1gmyY35Z2xnCckJW \
 ghc-devel-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
-ghc-devel-aeson-pretty-0.8.9-ANiMUyahKok8eMC9BUYvO0 \
+ghc-devel-aeson-pretty-0.8.10-8JRVLG9BqWz7B95FOCRy0B \
 ghc-devel-array-0.5.4.0 \
 ghc-devel-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \
 ghc-devel-base-4.17.1.0 \
@@ -66,11 +66,11 @@ ghc-devel-split-0.2.3.5-u3oGLAiW7JJbxIffWSCWf \
 ghc-devel-syb-0.7.2.3-J0Qw7O8gTR0DSXObDhEt8i \
 ghc-devel-tagsoup-0.14.8-KqOLe3dJpuA4KsHZJW2cTn \
 ghc-devel-temporary-1.3-9rLWZg49Shk3gKExST32p \
-ghc-devel-texmath-0.12.8-JGsJwuKtD7b26p8DVW0WBw \
+ghc-devel-texmath-0.12.8-2W1fkH7eNmw4E7l7odwRHx \
 ghc-devel-text-2.0.2 \
 ghc-devel-text-conversions-0.3.1.1-CkkBRqT3R5g4PO0QywmUQS \
 ghc-devel-time-1.12.2 \
-ghc-devel-typst-0.1.0.0-3VBCZ4Q02O47LMJn0K0CF8 \
+ghc-devel-typst-0.1.0.0-KYQhPlbAv2KGc3iiEDbU9A \
 ghc-devel-unicode-collation-0.1.3.4-LMKRbY0RRBBKxwMiir45sP \
 ghc-devel-unicode-transforms-0.4.0.1-EKt5KzAvdneBwqiDZWg9HO \
 ghc-devel-unix-2.7.3 \
@@ -78,7 +78,7 @@ ghc-devel-vector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp \
 ghc-devel-xml-1.3.14-BBPDUWQuUpt3QYOr4h6J5g \
 ghc-devel-xml-conduit-1.9.1.3-JDYavYDcwLN29rDQLTOOon \
 ghc-devel-xml-types-0.3.8-7guWdy0cJxZLf8pjB1j9Fb \
-ghc-devel-yaml-0.11.11.1-3T1xu4983kFHb1qERRZhqW \
+ghc-devel-yaml-0.11.11.2-4GYYolDKkXn5x4zdb9DA59 \
 ghc-devel-zip-archive-0.4.3-DcfDtoW5uCpFhVU7PDyRvn \
 ghc-devel-zlib-0.6.3.0-GaFaUl6t8QzEoHIQXsottk \
 ghc-pandoc"

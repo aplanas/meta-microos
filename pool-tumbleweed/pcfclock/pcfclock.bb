@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.44"
 
-RPM_NAME = "pcfclock-0.44-269.32.aarch64.rpm"
-RPM_HASH = "5a1f3404b25295bf1d45f84a1105c6fefda681fa77f749bcfcf97fe2804158d27af93330ed66ecb89a614e650c6b79496791cedacbefabe4ef44b38b11c2d6b0"
+RPM_NAME = "pcfclock-0.44-269.33.aarch64.rpm"
+RPM_HASH = "fc217a2334d06d240f4e8f811572ddc046620dc8c7884cb2253aa5b827413e010d406e0e2b950c60314b8ab6ddc19b4269c8dccf3e2aabf065ea4719d568076e"
 
 RPROVIDES:${PN} += "pcfclock"
 

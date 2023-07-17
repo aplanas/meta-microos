@@ -2,10 +2,10 @@ SUMMARY = "Development files for sispmctl"
 DESCRIPTION = "Development files for the GEMBIRD Silver Shield PM device."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.10"
+PV = "4.11"
 
-RPM_NAME = "sispmctl-devel-4.10-1.2.aarch64.rpm"
-RPM_HASH = "c20bd13f003a1854eb9de7278b2a07b505bc48735e8c8d00761bb83f72336e9afbe2fa1f1fe4a888a93fd4229f7738bf89cefdaa2dec9148834f074c0544bc8e"
+RPM_NAME = "sispmctl-devel-4.11-1.1.aarch64.rpm"
+RPM_HASH = "08130efedc6d8f324356cbc3b4e68b5622c535c82de48124ec5a9e35237bb10db2367f9bd332d9f7c0213de4c429d24bf75e18f95105db4d3abc0b81c88783ee"
 
 RPROVIDES:${PN} += "sispmctl-devel"
 

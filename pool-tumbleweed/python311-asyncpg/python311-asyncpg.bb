@@ -5,10 +5,10 @@ DESCRIPTION = "A fast PostgreSQL Database Client Library for Python/asyncio. \
 PostgreSQL and Python/asyncio with clean implementation"
 LICENSE = "Apache-2.0"
 
-PV = "0.27.0"
+PV = "0.28.0"
 
-RPM_NAME = "python311-asyncpg-0.27.0-2.1.aarch64.rpm"
-RPM_HASH = "3002d4a6a744a7fe87d98896632db48bd1485a2c0abfb415163d90781b3db2ae0445f53728fc5c30e27faa2c2ec236ee501ed973c7e34024ea43e509abb3956a"
+RPM_NAME = "python311-asyncpg-0.28.0-1.1.aarch64.rpm"
+RPM_HASH = "4119fd3d41f5082642597c21ed52940d166149047bcceab5290992444572f4e23ed2e0f8cc787534b99183754a61a582f72e081a77d91269014923ed7b34e11a"
 
 RPROVIDES:${PN} += "python3-asyncpg \
 python3.11dist-asyncpg \

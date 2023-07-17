@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-bundledphysx-devel-static-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "0c27bfe5e6b940e04b698463821a8eeb2c5093096b0673cb55d2eefc4404cd16840ab205c03c062beee21f712e5d0e9204d41e4a74d12a0385739a267841f5e0"
+RPM_NAME = "qt6-bundledphysx-devel-static-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "128a3329b9f7fe664ec3fdf0b5c0d1419f573172bf4e4420d418833ec6b2b3d145786baa8dac8484ad4ee42f82606aed2fb9176f2571339b9500de96e0753e64"
 
 RPROVIDES:${PN} += "cmake-Qt6BundledPhysX \
 qt6-bundledphysx-devel-static"

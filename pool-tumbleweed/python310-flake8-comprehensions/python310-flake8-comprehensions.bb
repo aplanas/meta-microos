@@ -2,10 +2,10 @@ SUMMARY = "A flake8 plugin to help you write better list/set/dict comprehensions
 DESCRIPTION = "A flake8 plugin that helps you write better list/set/dict comprehensions."
 LICENSE = "ISC"
 
-PV = "3.13.0"
+PV = "3.14.0"
 
-RPM_NAME = "python310-flake8-comprehensions-3.13.0-1.1.noarch.rpm"
-RPM_HASH = "da53ce1ce97e9c44efc621dd3073705d34ee77720618d9b635de0916b16fba06714437e28b37dace9e291e512066181f83555bf0aa3f6e0c0e51a32c94e775ac"
+RPM_NAME = "python310-flake8-comprehensions-3.14.0-1.1.noarch.rpm"
+RPM_HASH = "e6213a24578398125967cd8e0ceca4b1a3cc7143da9259ccd8ec790bb19d1c7ee3ffa4bb94c6d68989c52f0b73ab30385b577c6d67f69e354b78278f41f98add"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-flake8-comprehensions \

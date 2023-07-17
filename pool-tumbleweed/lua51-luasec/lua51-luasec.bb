@@ -4,10 +4,10 @@ It takes an already established TCP connection and creates a secure \
 session between the peers."
 LICENSE = "MIT"
 
-PV = "1.2.0"
+PV = "1.3.1"
 
-RPM_NAME = "lua51-luasec-1.2.0-2.3.aarch64.rpm"
-RPM_HASH = "ff0486340ec2ce2df53e291814a70fe195a978f4b2a2a3dcb13dce6c397448d2df03381747a3771de73a5976e8ac8c646947d25673b191c8ae7f20e1bcd7d6d6"
+RPM_NAME = "lua51-luasec-1.3.1-1.1.aarch64.rpm"
+RPM_HASH = "c7c867a0e9825fa7e3a816359bb36fd226b3bf38b1259dea780a5ece3fcd61a8a99a1bed2043dc0b36a682bd73ccf3f9e595a0f32df2e4ee493a2b984ab3457e"
 
 RPROVIDES:${PN} += "lua51-luasec"
 

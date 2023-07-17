@@ -8,16 +8,16 @@ transmitter is located near to Frankfurt/Main and covers a radius of \
 more than 1500 kilometers."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.44_k6.3.9_1"
+PV = "0.44_k6.4.2_1"
 
-RPM_NAME = "pcfclock-kmp-default-0.44_k6.3.9_1-269.32.aarch64.rpm"
-RPM_HASH = "2232126b7eca3d002352120d05c734937bda2c085a0d1a20e723ca2cb7a5d49c1e5ffae8f4ce8ffe28fe340fd84db8b93572e58a4b201a67d482ce3a379feabd"
+RPM_NAME = "pcfclock-kmp-default-0.44_k6.4.2_1-269.33.aarch64.rpm"
+RPM_HASH = "083e137b099c0c98a893db022089dbb81b4e0ffc2f2703879084618657b93298ef6be9c22b28a63f4cd178805412d6f4c34dba991d5017292c50534699dd4332"
 
 RPROVIDES:${PN} += "kmod-pcfclock.ko \
 multiversion-kernel \
 pcfclock-kmp \
 pcfclock-kmp-default \
-pcfclock-kmp-default-k6.3.9-1"
+pcfclock-kmp-default-k6.4.2-1"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \

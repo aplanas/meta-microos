@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.56.0"
 
-RPM_NAME = "libgrpc1_56-1.56.0-1.2.aarch64.rpm"
-RPM_HASH = "862d8bc9f1ddca3292fcdd2ca9fcdbc7f9490299c1bef69f745b910d191f354d1da64e2bf0bfa974e253d8d0c54be85212bd07279d8a0421009bd0a906decacc"
+RPM_NAME = "libgrpc1_56-1.56.0-1.3.aarch64.rpm"
+RPM_HASH = "6460edeaa96807c03441edff4bd8a6c3f73242bfbb68e0c873c3dae4eaf844d706b2f885d639ef4023fb147125a729700dce40f12e86b18d81810659e7463045"
 
 RPROVIDES:${PN} += "libgrpc-authorization-provider.so.1.56 \
 libgrpc-plugin-support.so.1.56 \
@@ -33,8 +33,8 @@ libabsl-time.so.2301.0.0 \
 libc.so.6 \
 libgcc-s.so.1 \
 libgpr.so.33 \
-libprotobuf.so.23.3.0 \
-libprotoc.so.23.3.0 \
+libprotobuf.so.23.4.0 \
+libprotoc.so.23.4.0 \
 libre2.so.10 \
 libstdc++.so.6 \
 libupb.so.33 \

@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.0.1"
 
-RPM_NAME = "python310-aniso8601-9.0.1-2.3.noarch.rpm"
-RPM_HASH = "77aba6e7d64abc2ed7da794f5b4fc4610fc87c7b85c1c2c3a405462fc6efec4991d8bd8c639ff0f55ac3bae683c1421bbea01df69409c6ed256b4535f7bf99a9"
+RPM_NAME = "python310-aniso8601-9.0.1-3.1.noarch.rpm"
+RPM_HASH = "78333946764abff822a35a6be86da89fcd812944d90f7ec1acbbbeaf9773b34da14caa929e39801eb2fdc0a9a2a976efb5f2e0ed7a44b8ed75f54205d34f1c49"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-aniso8601 \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-qmllocalstorage-private-devel-6.5.1-1.3.aarch64.rpm"
-RPM_HASH = "50bb2ce0e0c8d4a0172308ec709769796d05c4de903b4c9daa4f9c0ea6ed7afa8c5dd32a4c25aabcc7799cbe8cd7a4ba1d0c67e17133ecd94a609ef889b47252"
+RPM_NAME = "qt6-qmllocalstorage-private-devel-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "c878660071bc5fa691ea361200302e5327d36184e7f2efd552585ec4cb2d54b984b203491ad87a38f069d99b5f76dcd6a21c6c95cc779178cb3da503bee7ddb2"
 
 RPROVIDES:${PN} += "qt6-qmllocalstorage-private-devel"
 

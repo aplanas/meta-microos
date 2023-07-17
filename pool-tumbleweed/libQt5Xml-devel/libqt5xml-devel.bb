@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
 PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5Xml-devel-5.15.10+kde129-1.1.aarch64.rpm"
-RPM_HASH = "35b4e456b0f6c41f879376c57dd3c4100040a9f3fe8fb9a723681e3522b88ffe6d2817e4fd2d9e0d1504acc80e28302676f0e3945f7e228653ceda407add9ada"
+RPM_NAME = "libQt5Xml-devel-5.15.10+kde129-2.1.aarch64.rpm"
+RPM_HASH = "e51a242f2a74e31cc7c79d7b468ebf172f49450a17b7b96954e1e1fe014528db3af26954bedda3af72bea51e96aeed120e77bb13879ceacff698863e85a34e23"
 
 RPROVIDES:${PN} += "cmake-Qt5Xml \
 libQt5Xml-devel \

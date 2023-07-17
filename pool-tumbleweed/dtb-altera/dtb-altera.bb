@@ -2,10 +2,10 @@ SUMMARY = "Altera based arm64 systems"
 DESCRIPTION = "Device Tree files for Altera based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.9"
+PV = "6.4.2"
 
-RPM_NAME = "dtb-altera-6.3.9-1.1.aarch64.rpm"
-RPM_HASH = "75f9f105d7fb6454cfacbbf0023ee7007552547606d3b488dc7725d1d4f0b6af55b0b13f605dcfc42e5d3e716d9e324d4713711cef34e513cf5f7ffc6124e481"
+RPM_NAME = "dtb-altera-6.4.2-1.1.aarch64.rpm"
+RPM_HASH = "8024307aab0306e44536c3bcda4cf5ea22fc7ac86e772cf376019749337805bf1e88939bf6190f4114afa2a2ffb09528f5471444b9bbc86aef97ec81998651b6"
 
 RPROVIDES:${PN} += "dtb-altera \
 multiversion-dtb"

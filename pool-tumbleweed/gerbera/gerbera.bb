@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.12.1"
 
-RPM_NAME = "gerbera-1.12.1-2.2.aarch64.rpm"
-RPM_HASH = "17b330372bf9a031540d4c30aa5aba950da6b49d9a246471963af2b9517356da496a10cc43ba8ee66ad66be4a758b5c6520ed9aa3749cacd7aa932a48c8e908c"
+RPM_NAME = "gerbera-1.12.1-2.3.aarch64.rpm"
+RPM_HASH = "eac369ad22cd20ac114681475931370d517c3211a4110bf12915a51a860a00fcd1ea9f808611005d3c4f285ee9994a96c464904dc4a87cdf718c3c339b5287c8"
 
 RPROVIDES:${PN} += "config-gerbera \
 gerbera"
@@ -29,7 +29,7 @@ libixml.so.11 \
 libmagic.so.1 \
 libmatroska.so.7 \
 libpugixml.so.1 \
-libspdlog.so.1.11 \
+libspdlog.so.1.12 \
 libsqlite3.so.0 \
 libstdc++.so.6 \
 libtag.so.1 \

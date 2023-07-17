@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.3-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-lottie-docs-qch-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "2a39595e69b97c134753263bf3e33e925a0b31195bf4738842ddf632d834fd26dab6df180e8c53a6d675599d58901457dbe61e8cd5b3d6245fc05d3eba5f985d"
+RPM_NAME = "qt6-lottie-docs-qch-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "bf9545d941aa906b71cc05c737fd86c239cf942e76e22e569ae5322da076e7ddee88515a97c35b24455915f9b8ca9a6a7120d4d12f2b3bd1ea006c91e2c23893"
 
 RPROVIDES:${PN} += "qt6-lottie-docs-qch"
 

@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quickwidgets-devel-6.5.1-1.3.aarch64.rpm"
-RPM_HASH = "867d8c274859e0e9a55520d612fd7a7c014dff9b544d8aa29561b798c5908140acc3a8632190a2fcf62da3151f71418b33d4cfe6c17c231ba1d553d35b802038"
+RPM_NAME = "qt6-quickwidgets-devel-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "615258a3d1956f11ace7432eb482916962938c2300947e995d21fabd535c07ad0a015abc077e645f8a8c35f0068ed510a32faa30144a178b4cb54ad5590191e1"
 
 RPROVIDES:${PN} += "cmake-Qt6QuickWidgets \
 pkgconfig-Qt6QuickWidgets \
@@ -21,7 +21,6 @@ pkgconfig-Qt6Core \
 pkgconfig-Qt6Gui \
 pkgconfig-Qt6Qml \
 pkgconfig-Qt6Quick \
-pkgconfig-Qt6Widgets \
-qt6-opengl-private-devel"
+pkgconfig-Qt6Widgets"
 
 inherit rpm

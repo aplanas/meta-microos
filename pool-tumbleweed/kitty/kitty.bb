@@ -5,15 +5,14 @@ true-color, OpenType ligatures, mouse protocol, focus tracking, \
 bracketed paste and so on, and which can be controlled by scripts."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.28.1"
+PV = "0.29.0"
 
-RPM_NAME = "kitty-0.28.1-1.4.aarch64.rpm"
-RPM_HASH = "ec821ef2e5c46f21e296d9cc437af187bb1911ec1ab4bc24dba8097149457e3f818cf8e6cf20d6a9c4aa8a46d9cd5889a4628da82f17e2870e61a890de82283f"
+RPM_NAME = "kitty-0.29.0-1.1.aarch64.rpm"
+RPM_HASH = "50cd540575ff1d16b5eb8e652a1d6c8d6f2dc8212c6cec76ccb453a42f4aabde5db96ef836f0cbb991715e079f99b3a452e0c219a7bc573f72a1d8b2200165ff"
 
 RPROVIDES:${PN} += "kitty"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libX11-xcb.so.1 \
 libX11.so.6 \
 libc.so.6 \

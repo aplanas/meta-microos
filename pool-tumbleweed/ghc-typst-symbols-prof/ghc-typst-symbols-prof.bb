@@ -2,12 +2,12 @@ SUMMARY = "Haskell typst-symbols profiling library"
 DESCRIPTION = "This package provides the Haskell typst-symbols profiling library."
 LICENSE = "MIT"
 
-PV = "0.1.0.1"
+PV = "0.1.2"
 
-RPM_NAME = "ghc-typst-symbols-prof-0.1.0.1-1.3.aarch64.rpm"
-RPM_HASH = "b85d8b7d2cb651fe1cfff9b602e95cd5a32f623cbc55c97f738ee03b31c42feac1b05ba7448a92b81ca947b10898721c4a9f551e94a74ca265127d3fbc82d689"
+RPM_NAME = "ghc-typst-symbols-prof-0.1.2-1.1.aarch64.rpm"
+RPM_HASH = "52f3892dfab9b36a10cdb0e379157d63beef6e71a4b3376a52dacac9b2a245066391628231a127efd464e8a3b0c90f4533c49b5465a77df32ebcf47527c32900"
 
-RPROVIDES:${PN} += "ghc-prof-typst-symbols-0.1.0.1-68asM8ctSWGeebFauBl8u \
+RPROVIDES:${PN} += "ghc-prof-typst-symbols-0.1.2-6B3ZvJm94WZ4qfFjRZShld \
 ghc-typst-symbols-prof"
 
 RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \

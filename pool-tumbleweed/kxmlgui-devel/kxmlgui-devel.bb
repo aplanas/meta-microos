@@ -5,10 +5,10 @@ in the application code. The framework supports merging of multiple \
 description for example for integrating actions from plugins. Development files."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kxmlgui-devel-5.107.0-1.2.aarch64.rpm"
-RPM_HASH = "fd680dfa353b2b96ddc95558ec4748c1c84433c7f2991833a838a49896930b08e38766275f9a4621abbae9ea3b0fe3c716723454022b729a8577ff737eab47b0"
+RPM_NAME = "kxmlgui-devel-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "be3243319f69b611478feacb9138e03fbc390363078568a2d5ffcdd9d4d70e410ff91654ba48ae2babacfc733ad5c3d12cbdcb5f6388a902c0b45f1780958b70"
 
 RPROVIDES:${PN} += "cmake-KF5XmlGui \
 kxmlgui-devel"

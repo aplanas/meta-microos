@@ -4,11 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.2"
 
-RPM_NAME = "ghc-fast-logger-3.1.2-1.7.aarch64.rpm"
-RPM_HASH = "53b5c99bdd98fa8750e3b7059b72e88fd503764e69e77a0ba2981a27fcdbfb8932560f330f1f7219eaa4cdb14ddb4a1be48c6e8a8d09eeb5d02c3b91540ac6ce"
+RPM_NAME = "ghc-fast-logger-3.1.2-1.10.aarch64.rpm"
+RPM_HASH = "3912af37cb9a638986c2ec1e77fb946f4a8eb817c6209e038b6d3deedd57c6df4bb65842f2ebe782c1b99cdd1f630e4d7fc521b4be3ba41173f35d368dbac9d4"
 
 RPROVIDES:${PN} += "ghc-fast-logger \
-libHSfast-logger-3.1.2-B9zh4yvWMU69CA1ZW1MVtN-ghc9.4.5.so"
+libHSfast-logger-3.1.2-FrZhfcoVNTvDFmA3ecjq8Q-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSauto-update-0.1.6-CObek7rRQnGB5D6p02bNzQ-ghc9.4.5.so \
@@ -31,7 +31,7 @@ libHStext-2.0.2-ghc9.4.5.so \
 libHStime-1.12.2-ghc9.4.5.so \
 libHSunix-2.7.3-ghc9.4.5.so \
 libHSunix-compat-0.6-79KxxZMmklx25hsmeEnenN-ghc9.4.5.so \
-libHSunix-time-0.4.9-DrdwBL0FLhc5jN9Hujlou0-ghc9.4.5.so \
+libHSunix-time-0.4.10-LpZG5YAXe572FFFZnKOLQq-ghc9.4.5.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

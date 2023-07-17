@@ -2,10 +2,10 @@ SUMMARY = "GNU Modula-2 Compiler"
 DESCRIPTION = "This package contains a Modula-2 compiler."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7364"
+PV = "13.1.1+git7552"
 
-RPM_NAME = "gcc13-m2-13.1.1+git7364-1.2.aarch64.rpm"
-RPM_HASH = "79ec7467554854805af80d33e1ac118074e5bfc1fef6804723954256d3613dddf1a1f864cad81393c108ae2cd5bfa21f15bcf5bdf023f9c359b1a19e62b2b168"
+RPM_NAME = "gcc13-m2-13.1.1+git7552-1.1.aarch64.rpm"
+RPM_HASH = "5c7adfec177747518fa244722632a95ecadcb105f34ed71345c09730156e32108c52b0866863949e49df20d251c41d94552887121a3cc90f7dbba57ab1e319e2"
 
 RPROVIDES:${PN} += "gcc13-m2"
 

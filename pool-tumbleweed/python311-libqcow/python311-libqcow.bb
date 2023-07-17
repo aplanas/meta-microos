@@ -6,8 +6,8 @@ LICENSE = "GFDL-1.1-or-later & LGPL-3.0-or-later & GFDL-1.3-or-later"
 
 PV = "20221124"
 
-RPM_NAME = "python311-libqcow-20221124-3.13.aarch64.rpm"
-RPM_HASH = "89aa562b7c32af6e4e1fc6d17637871e1542e2646f174a350052418b3202835d9c0d274e324f4653619e7d784edbdb52a4f2473351828e7b8b91965d04602b95"
+RPM_NAME = "python311-libqcow-20221124-3.14.aarch64.rpm"
+RPM_HASH = "c510a3ed2b9699bcc8b7c9a23b3ca5a9b6fa1c42be953917f1cd81e6b32a498d25ed3dd6eb5fdc8fe23ab3cf9125de9d8446316b5e1674aad49dbfddc912e70e"
 
 RPROVIDES:${PN} += "python3-libqcow \
 python311-libqcow"

@@ -2,10 +2,10 @@ SUMMARY = "Python wrapper for the Cloudflare v4 API"
 DESCRIPTION = "Python wrapper for the Cloudflare Client API v4."
 LICENSE = "MIT"
 
-PV = "2.11.1"
+PV = "2.11.6"
 
-RPM_NAME = "python311-cloudflare-2.11.1-1.1.noarch.rpm"
-RPM_HASH = "ebc8f86000109940733ba6203a65ba3383bca76a8e858286ffc15bc03a71484a8a7c1dc53d5e6a0d7ccdeaf70703a9f8ac3cfc6c0a04accf7ebe55b4d85f90ca"
+RPM_NAME = "python311-cloudflare-2.11.6-1.1.noarch.rpm"
+RPM_HASH = "8135fc7f448f6130c7df288b5c6df32628a6981c591698312f488921b64d59a97b3d1b9ede9b6de427227864de4283acbd051d789d4452c70de04dc33f1c8f06"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-cloudflare \

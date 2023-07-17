@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6LabsWavefrontMesh6-6.5.1-1.3.aarch64.rpm"
-RPM_HASH = "9df1b1fbf465271538d0bd4003dc962b8cc33f31c4d95c02e67228ec88b540820281d7e50421a9a92e9c209ecbcf409ad2c26a8491efa86374e168916b2dec69"
+RPM_NAME = "libQt6LabsWavefrontMesh6-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "d4834b9d41cd5e41ba952f1f4fe87538283a525f52daf542a6ff50971946624470273dbfbd07751cae4a106ae9f27c612fed9c87181a3c05a9f0ddcfda42f619"
 
 RPROVIDES:${PN} += "libQt6LabsWavefrontMesh.so.6 \
 libQt6LabsWavefrontMesh6"

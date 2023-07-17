@@ -2,12 +2,12 @@ SUMMARY = "Haskell persistent library development files"
 DESCRIPTION = "This package provides the Haskell persistent library development files."
 LICENSE = "MIT"
 
-PV = "2.14.5.0"
+PV = "2.14.5.1"
 
-RPM_NAME = "ghc-persistent-devel-2.14.5.0-1.7.aarch64.rpm"
-RPM_HASH = "5f68276fd3844f4e5c7a2a153e274295ace1d4a01675183656c688ef2f506952b9537003024472ff24080312fab620bd7c7521aaa2f83ef6e9dd72a73f7b1805"
+RPM_NAME = "ghc-persistent-devel-2.14.5.1-1.3.aarch64.rpm"
+RPM_HASH = "d9d3d52d7f922ec9f26dd14ce61cfc4e1029e3bc527089f840f1f3163faeaf5b86f64a2e3c5ea4fbabc4909adcb3268a69e01921f2b8e23fb77e0dd1921573e8"
 
-RPROVIDES:${PN} += "ghc-devel-persistent-2.14.5.0-9uJ7TxdgaWz5Ow6lrik7k2 \
+RPROVIDES:${PN} += "ghc-devel-persistent-2.14.5.1-8aZiHAHWity6p3rqRx3MdJ \
 ghc-persistent-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -21,10 +21,10 @@ ghc-devel-bytestring-0.11.4.0 \
 ghc-devel-conduit-1.3.5-EjJ71P6EbmSGTrvJLquwgr \
 ghc-devel-containers-0.6.7 \
 ghc-devel-deepseq-1.4.8.0 \
-ghc-devel-fast-logger-3.1.2-B9zh4yvWMU69CA1ZW1MVtN \
+ghc-devel-fast-logger-3.1.2-FrZhfcoVNTvDFmA3ecjq8Q \
 ghc-devel-http-api-data-0.5-V3iAwM0FHG5XKNP6QkA7J \
 ghc-devel-lift-type-0.1.1.1-2p47b0Ftg8mEbzaiZ22oeB \
-ghc-devel-monad-logger-0.3.40-G052AHl2mRW3aPPonmcvVW \
+ghc-devel-monad-logger-0.3.40-JON4xqa3KWj1ClCWFJbFYV \
 ghc-devel-mtl-2.2.2 \
 ghc-devel-path-pieces-0.2.1-7L2E0FvnHzn1hGutNz0iw4 \
 ghc-devel-resource-pool-0.4.0.0-CALzen0PV047R0s78YnQuW \

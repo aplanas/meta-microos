@@ -15,10 +15,10 @@ location as KDELibs4Support, although it may be sufficient to set the \
 KDEDIRS environment variable correctly."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kssl-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "e8769c4c99a707fa026f967bbac856b5e7f57b28393e8a6d80efef7fa17faa3f3c5eebc2025b9ffe35bcb9ac4044b08cbb31f3644b498b4351a79baeb0b53a2f"
+RPM_NAME = "kssl-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "f7b78568d4128aed0e5ddb2fbd15a10997b724523f1984b10b785f6228ee0098d2ef34018e3151c86dd3504d77e55a40d12804fddee97b87c6e8110f096f17aa"
 
 RPROVIDES:${PN} += "kssl"
 

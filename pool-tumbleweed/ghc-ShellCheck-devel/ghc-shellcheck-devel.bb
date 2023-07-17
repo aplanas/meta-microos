@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.0"
 
-RPM_NAME = "ghc-ShellCheck-devel-0.9.0-2.6.aarch64.rpm"
-RPM_HASH = "274f8bff196ab9749bf8023422eb7d3a542fc9016a75771f8ef07ef0a091deae9ef92d4f4a406251dae39a2585c6ac79ec1b1fa22454b96efeafb83bf8bdf97e"
+RPM_NAME = "ghc-ShellCheck-devel-0.9.0-2.7.aarch64.rpm"
+RPM_HASH = "0a9ae6d6b2d6ca280d7f20412e65da6287739385abadb3cfe8709c8a822c11d7cbe200b5648b9304a578a2e91110be2e5acfa2581ec2ae7e90308e0bbb1e3a6a"
 
 RPROVIDES:${PN} += "ghc-ShellCheck-devel \
 ghc-devel-ShellCheck-0.9.0-LWMFFJLMPa51QWRCVvm68p"

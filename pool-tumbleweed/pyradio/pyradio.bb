@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.9.2.11"
 
-RPM_NAME = "pyradio-0.9.2.11-1.1.noarch.rpm"
-RPM_HASH = "3599aafc7c33111ac01c74b67d0af48dedc4100a4aa71ffc0c854d1d2f3598b81a16746b902082de50074b2b56c72cbfad0135a5aa05e930ea2b14497b8160a2"
+RPM_NAME = "pyradio-0.9.2.11-2.1.noarch.rpm"
+RPM_HASH = "e6f1bea7277486094c37b76128aff8d5d199430a9b8c7d05d2e5e9ec26e6b0f0bd32085634d35c0e55bee0686ea04aa29fcd98ded5766231543da709958defaa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pyradio \
@@ -15,6 +15,7 @@ python3.11dist-pyradio \
 python3dist-pyradio"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-python-abi"
+python-abi \
+python3-rich"
 
 inherit rpm

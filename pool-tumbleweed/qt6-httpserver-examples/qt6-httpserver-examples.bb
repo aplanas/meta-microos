@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-httpserver-examples-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "69a71a53465486506ba39f4fb2fe1d9916ca84478e02e9e31f715fcb34078e669d62072abe8cd73e740574523aeb8aa092926875322868452b21ee87550bafb7"
+RPM_NAME = "qt6-httpserver-examples-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "4f761dc708a54dd06fb8a041e0054a0e7ede417b5d435a238533c8df8ceb3f23fd22dc6c82eed0b35e557dbeb779aae1bed532fc683d9f10736a6f34e58a9fe1"
 
 RPROVIDES:${PN} += "qt6-httpserver-examples"
 

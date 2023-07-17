@@ -5,11 +5,14 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-httpserver-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "899c540db510cd14101fae2b11bfef8e4ab32d4600a91a71b097f500e52232b949e730dee54b0232d7acf2fca92b001badab470b4b1be6c362fb14f6d3519851"
+RPM_NAME = "qt6-httpserver-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "bfee677828559d2de26f89062fa34d34e8dabf80d9fa75d0652d6cb5623512df0b4ab874bf6f01479eb5ba38c103a8181615db25caa8826b5e04a4248af84184"
 
 RPROVIDES:${PN} += "qt6-httpserver-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6HttpServer"
+RDEPENDS:${PN} += "cmake-Qt6HttpServer \
+qt6-core-private-devel \
+qt6-network-private-devel \
+qt6-websockets-private-devel"
 
 inherit rpm

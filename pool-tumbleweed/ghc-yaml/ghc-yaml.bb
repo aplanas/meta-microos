@@ -3,13 +3,13 @@ DESCRIPTION = "README and API documentation are available at \
 <https://www.stackage.org/package/yaml>."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.11.11.1"
+PV = "0.11.11.2"
 
-RPM_NAME = "ghc-yaml-0.11.11.1-1.2.aarch64.rpm"
-RPM_HASH = "312a99a374092485f84f26fa45ae03f56917df7780f8e175328c4c7375ec24691899a7b0555f8d0bec157a4a2982b7f0547984a35428bb024b062658bb680d6d"
+RPM_NAME = "ghc-yaml-0.11.11.2-1.1.aarch64.rpm"
+RPM_HASH = "1cf73a8c2814fe35c1fad24f9fca1b49b9fe9d9ffd7bf0b01ebb39f7d6f7099e4476901ec04260afa2cbd888aa020bade72ce96a14b7804afac84dd8f9b15a22"
 
 RPROVIDES:${PN} += "ghc-yaml \
-libHSyaml-0.11.11.1-3T1xu4983kFHb1qERRZhqW-ghc9.4.5.so"
+libHSyaml-0.11.11.2-4GYYolDKkXn5x4zdb9DA59-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV-ghc9.4.5.so \
 libHSQuickCheck-2.14.3-6dq2izV8oSq1BobaDA598X-ghc9.4.5.so \

@@ -2,10 +2,10 @@ SUMMARY = "Libraries for sispmctl"
 DESCRIPTION = "Libraries for the GEMBIRD Silver Shield PM device."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.10"
+PV = "4.11"
 
-RPM_NAME = "libsispmctl0-4.10-1.2.aarch64.rpm"
-RPM_HASH = "0b90dab1e0b5fc29b7aede78a20adf421140b7b7e91d7ac799ea4d01a3bd64bba5a671f596c11530f92a6fb4aecdd475d46cb8f3803fb8145914df11a178808b"
+RPM_NAME = "libsispmctl0-4.11-1.1.aarch64.rpm"
+RPM_HASH = "e7e42ab5a9586d27d1585879e0ec8f910f9336984b64ca2fb5c95373281297ded0cde2528978602dece5d1b0b02d9bf33845abf0dfd658cf985ae672d7efc145"
 
 RPROVIDES:${PN} += "libsispmctl.so.0 \
 libsispmctl0"

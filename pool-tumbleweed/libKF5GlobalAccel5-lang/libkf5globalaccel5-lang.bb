@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5GlobalAccel5"
 DESCRIPTION = "Provides translations for the 'libKF5GlobalAccel5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5GlobalAccel5-lang-5.107.0-1.1.noarch.rpm"
-RPM_HASH = "99f120f1beab66623f35c33f9380cb240f3db34181cea735c78ffcf279020f078fd2650fdc3b210b79dc156fb6734f7fd15a24b0e436c5395bd79ee9a70a7406"
+RPM_NAME = "libKF5GlobalAccel5-lang-5.108.0-1.1.noarch.rpm"
+RPM_HASH = "0b139933d371dd5be30370990348f13d2ecde1f7da31132773019436815a696dde9744abd66d3d92816315ba4be2cdf73505a533edd9447ef0ebfbc27d25a946"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5GlobalAccel5-lang \

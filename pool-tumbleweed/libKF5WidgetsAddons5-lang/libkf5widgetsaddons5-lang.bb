@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5WidgetsAddons5"
 DESCRIPTION = "Provides translations for the 'libKF5WidgetsAddons5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5WidgetsAddons5-lang-5.107.0-1.1.noarch.rpm"
-RPM_HASH = "c8a428fb03d16e1a3de2f5ab8f0f616cb59fd3118978974deafcb362858f39b3dbced315fd726b91337499b3d038a1dc634004a8691aff5e945db359f892e1d0"
+RPM_NAME = "libKF5WidgetsAddons5-lang-5.108.0-1.1.noarch.rpm"
+RPM_HASH = "98f17d3cb1ef93a1ed57176102ee5e3d1edd2e9f88ec7326903a2d6ff35508a56cfcf6d180d39e1ceec6a18b0a35957153a5cf40f5b9e8a1768097f664244cbb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5WidgetsAddons5-lang \

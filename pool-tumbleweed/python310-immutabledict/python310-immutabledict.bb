@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "2.2.5"
 
-RPM_NAME = "python310-immutabledict-2.2.5-1.1.noarch.rpm"
-RPM_HASH = "2c59d929a99f3716a3da8108b0b6f989d82ff2c0d68135108c9aa316f00135ec6d10c1a71bc25bb2ffd2cf7e33c5a8ce635502a6b3d3fba5221561f590cbb6ef"
+RPM_NAME = "python310-immutabledict-2.2.5-2.1.noarch.rpm"
+RPM_HASH = "732f551bc54aebd0e04256056cd71cf32f87e53a0f7bd29fdc59a90b70772f20af02f40b01fcc0ee3a2c7c090d4e7ad2d97db9af4cb1fdbac2ca676ba0c59083"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-immutabledict \

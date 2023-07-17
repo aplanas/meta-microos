@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-charts-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "87ff43f721e227f9a2efe571ce5f16dc2d2fe69980a4d03b2559f1c9a087581889c1232d733ad76e5fd6e9e0283cf4fba03c7d9faeb32784ff9797e0ae20265e"
+RPM_NAME = "qt6-charts-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "04578be96beae5d9c9e6b5b8500735bc010c8ae5966a98d136639cf1b5a8bff74beb614286b8b3dd68507e1d1fa6bae78a1b14a22c6a0435509076a7ac9a5e3a"
 
 RPROVIDES:${PN} += "cmake-Qt6Charts \
 pkgconfig-Qt6Charts \

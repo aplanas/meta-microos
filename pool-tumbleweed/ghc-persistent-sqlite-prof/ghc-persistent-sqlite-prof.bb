@@ -4,11 +4,11 @@ LICENSE = "MIT"
 
 PV = "2.13.1.1"
 
-RPM_NAME = "ghc-persistent-sqlite-prof-2.13.1.1-2.7.aarch64.rpm"
-RPM_HASH = "593e803647e60bf09b39adff0909978ee0bb61a80dd24f840292022d40a5fe7d74eb7c3083830c1673e9eb69200ea49931e5fe5af6df16c63f238c10f2c6789a"
+RPM_NAME = "ghc-persistent-sqlite-prof-2.13.1.1-2.9.aarch64.rpm"
+RPM_HASH = "52a6a7aca06d7e1c0ee1c7c658c284cdc146a0229262f1fd186172b1213b48d965f2be5ba1334c29158a0d5d9cd21b9bad72f939fee323aa8da090a0302e4ca5"
 
 RPROVIDES:${PN} += "ghc-persistent-sqlite-prof \
-ghc-prof-persistent-sqlite-2.13.1.1-86NT3YIJqhfIXbP1CwbNXp"
+ghc-prof-persistent-sqlite-2.13.1.1-GtSlQBuMraaA2Y4InNAjBl"
 
 RDEPENDS:${PN} += "ghc-persistent-sqlite-devel \
 ghc-prof-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
@@ -17,9 +17,9 @@ ghc-prof-bytestring-0.11.4.0 \
 ghc-prof-conduit-1.3.5-EjJ71P6EbmSGTrvJLquwgr \
 ghc-prof-containers-0.6.7 \
 ghc-prof-microlens-th-0.4.3.13-4M5tTOX0ioLGTMiKBp6v2C \
-ghc-prof-monad-logger-0.3.40-G052AHl2mRW3aPPonmcvVW \
+ghc-prof-monad-logger-0.3.40-JON4xqa3KWj1ClCWFJbFYV \
 ghc-prof-mtl-2.2.2 \
-ghc-prof-persistent-2.14.5.0-9uJ7TxdgaWz5Ow6lrik7k2 \
+ghc-prof-persistent-2.14.5.1-8aZiHAHWity6p3rqRx3MdJ \
 ghc-prof-resource-pool-0.4.0.0-CALzen0PV047R0s78YnQuW \
 ghc-prof-resourcet-1.2.6-69eF6Rrz9wX13sOJF59GPv \
 ghc-prof-text-2.0.2 \

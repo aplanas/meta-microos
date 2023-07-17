@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-opcua-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "d7ab1d9b4db18ffbaee2b3dc0af5335cc51dc4ce90cc1f055b0b517eda89d94e86dbdbf25aaf7edc53f583a5c4a1b64ba35acd9c69e6564eb8a2fa909b4d992f"
+RPM_NAME = "qt6-opcua-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "50e3749f48403f74c4559017e9657dc64feb764d9d13d02bd1b40c3dcea6053bc8520e82334f4eb4dd0282839374e1354c5d354e0f543149553bec65302fcdda"
 
 RPROVIDES:${PN} += "libopen62541-backend.so \
 qt6-opcua"

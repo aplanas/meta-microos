@@ -4,10 +4,10 @@ code, text, binary files, archives, compressed files, documents and use \
 fuzzy search."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.12.1"
+PV = "3.12.2"
 
-RPM_NAME = "ugrep-3.12.1-1.1.aarch64.rpm"
-RPM_HASH = "aed8ca744782bf8d9167df92c96f8345544f4cb221dfc326b8c08d84f2b0e3288b9506abd4b4729238b2734c4e6d8e0aa659afcf6f3ce4799dfc9a5af093f491"
+RPM_NAME = "ugrep-3.12.2-1.1.aarch64.rpm"
+RPM_HASH = "69ef99fd9faba5badf140caeafb01b7f289b5583e7d580df42384b0afd95a13a79de362bb0aedc750711a758a2d175a320807eb6b58e172d79f60908431834b7"
 
 RPROVIDES:${PN} += "ugrep"
 

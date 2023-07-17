@@ -3,10 +3,10 @@ DESCRIPTION = "hwdata contains various hardware identification and configuration
 such as the pci.ids and usb.ids databases."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.371"
+PV = "0.372"
 
-RPM_NAME = "hwdata-0.371-1.1.noarch.rpm"
-RPM_HASH = "a0be103d08fc9ee22747813d80e8d4bcf00d805abeaf7ce1e894fb17400a0c1614a35c589363a442627d38fc1bd58313b5d1be1b42a97bb71c3eb0d3b6343fcf"
+RPM_NAME = "hwdata-0.372-1.1.noarch.rpm"
+RPM_HASH = "756532edc036d99ac6da84dcadef80de31c913cf804c6a65569dfbbea1743677a013470a4c0a9270fb1e1f65473c2e5b45f2ab0a33e45de9a9f74d84968b47eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hwdata \

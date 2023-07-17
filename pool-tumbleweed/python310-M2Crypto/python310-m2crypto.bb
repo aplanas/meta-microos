@@ -9,10 +9,10 @@ server. S/MIME. ZServerSSL: A HTTPS server for Zope. ZSmime: An S/MIME \
 messenger for Zope."
 LICENSE = "MIT"
 
-PV = "0.38.0"
+PV = "0.39.0"
 
-RPM_NAME = "python310-M2Crypto-0.38.0-6.6.aarch64.rpm"
-RPM_HASH = "5d971a9ab906f4135582b07750645580dfa1e6f669064897502220ea85708b5a1ec9fa69f0806e8e4058ca1e4c4cb40051907aebbdb35523a66652e6263ce64c"
+RPM_NAME = "python310-M2Crypto-0.39.0-1.1.aarch64.rpm"
+RPM_HASH = "175072d954aefb4d6e905ec193551600fe47bba9b339e24428b18a110ea294d7eb43507689bb5a47d4c3ef7e2d8cbbdc709c37c05d0b2a4934c91e1ed3a5e6a1"
 
 RPROVIDES:${PN} += "python3.10dist-m2crypto \
 python310-M2Crypto \

@@ -9,10 +9,10 @@ Remote code is fetched and cached on first execution, and only \
 updated with the --reload flag."
 LICENSE = "MIT"
 
-PV = "1.34.3"
+PV = "1.35.0"
 
-RPM_NAME = "deno-1.34.3-2.1.aarch64.rpm"
-RPM_HASH = "0a0feeaa9c5764cfa3075b2f039e0163214ad244a813274ce3afb26d419957260f737c586698ac6cd5d546c258b84449253bdece3930050218d1b84821758e86"
+RPM_NAME = "deno-1.35.0-1.1.aarch64.rpm"
+RPM_HASH = "114a3cf15adada091abe592d1adb681c00134bcd006e4580e1b5cafb5646b33def8a85dc112aa470606a55e54e7991f7f23689bbff1ad0c7d5271324d06cabd7"
 
 RPROVIDES:${PN} += "bundled-rust-crate-Inflector \
 bundled-rust-crate-adler \
@@ -108,6 +108,8 @@ bundled-rust-crate-deno-net \
 bundled-rust-crate-deno-node \
 bundled-rust-crate-deno-npm \
 bundled-rust-crate-deno-ops \
+bundled-rust-crate-deno-proc-macro-rules \
+bundled-rust-crate-deno-proc-macro-rules-macros \
 bundled-rust-crate-deno-runtime \
 bundled-rust-crate-deno-semver \
 bundled-rust-crate-deno-task-shell \
@@ -370,6 +372,8 @@ bundled-rust-crate-string-cache \
 bundled-rust-crate-string-cache-codegen \
 bundled-rust-crate-string-enum \
 bundled-rust-crate-strsim \
+bundled-rust-crate-strum \
+bundled-rust-crate-strum-macros \
 bundled-rust-crate-subtle \
 bundled-rust-crate-swc-atoms \
 bundled-rust-crate-swc-bundler \

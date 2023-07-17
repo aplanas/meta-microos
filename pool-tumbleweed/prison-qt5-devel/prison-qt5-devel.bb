@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for prison, a barcode abstraction layer library
 uniform access to generation of barcodes with data."
 LICENSE = "MIT"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "prison-qt5-devel-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "cb423f6ce6cdefa20a6f0eaa245433e3ce2bded67d2dfbf9d1e4b2c504c91861750d97865d5b6b6bba3b3c2cda076dcecb365210744782376bced46b1b53d81f"
+RPM_NAME = "prison-qt5-devel-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "95a6811a2ae2fa4722a861bf512c6544af074150f926b36370e5d6321061fd0be06d2fc4385ced6559703acf77c2134d0be548431f38b9eae2a97298b38424e2"
 
 RPROVIDES:${PN} += "cmake-KF5Prison \
 prison-qt5-devel"

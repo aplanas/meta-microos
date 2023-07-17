@@ -2,12 +2,12 @@ SUMMARY = "WebViewer plugin for Orthanc"
 DESCRIPTION = "WebViewer plugin for Orthanc"
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "1.13"
+PV = "1.14"
 
-RPM_NAME = "orthanc-dicomweb-1.13-1.3.aarch64.rpm"
-RPM_HASH = "0bf3a0229a916c97f826ea1d244d7acde558555534cea77579ac5f09327a2f1e408c8ed65fc677c03ecc5ab6034b4bfeeaef8eba51b6379fb7547b8ba854aa40"
+RPM_NAME = "orthanc-dicomweb-1.14-1.1.aarch64.rpm"
+RPM_HASH = "cae99c4be6a8420e1781249420dfd8bc4afaa8fbf7fa49da615d6457ce230c30e0aec71413e7ec235737560c37adfe1d113dd272bcfb7846760db9cc09171c2d"
 
-RPROVIDES:${PN} += "libOrthancDicomWeb.so.1.13 \
+RPROVIDES:${PN} += "libOrthancDicomWeb.so.1.14 \
 orthanc-dicomweb"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \

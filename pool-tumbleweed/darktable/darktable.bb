@@ -4,10 +4,10 @@ digital negatives in a database and can show them through a zoomable \
 lighttable. It also enables developing raw images and enhance them."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.4.0"
+PV = "4.4.1"
 
-RPM_NAME = "darktable-4.4.0-1.2.aarch64.rpm"
-RPM_HASH = "1975aa0f9962034a75820c475f97fb564b9bf806bc48ef11718aa36121cd320582dc43612610816df3ea35074f8eaa56f8cec294050813424c4b5094eecfa15d"
+RPM_NAME = "darktable-4.4.1-1.1.aarch64.rpm"
+RPM_HASH = "87b820321d7d704ea1d24d73cee4b017facb2c80fc7ee63933f2c775a44cbd3630b4e4ede6e94507bba5d1043aae20bfa8fe85272f6652ef7c190aef670901c7"
 
 RPROVIDES:${PN} += "darktable \
 darktable-docs \

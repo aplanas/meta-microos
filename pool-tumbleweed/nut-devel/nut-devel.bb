@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "nut-devel-2.8.0-3.1.aarch64.rpm"
-RPM_HASH = "42dcdde4b892ccc9f46fa663bc57cb45a4f370766dd0e2a2695efd7ea44bf9f45785eabcf73b55b7b280b5f937ee6694eb8b2bba4572af186078e465a652e8b6"
+RPM_NAME = "nut-devel-2.8.0-4.1.aarch64.rpm"
+RPM_HASH = "3bcf01e9845cbb0daed74712f8db8176eef0673ee87eff47ec2e8a2129b90a038058e20bb9056b2a16c3625c06ce343f5882515719d6c578593eb640e37bcf7f"
 
 RPROVIDES:${PN} += "nut-devel \
 pkgconfig-libnutclient \

@@ -3,10 +3,10 @@ DESCRIPTION = "KConfigQml provides QtQuick bindings to KConfig, which allows usi
 QML."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5ConfigQml5-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "005d43c4c704641bc1afec1ea56b1102b7d0068006688c251da316f2a6032c29e12451a1e12aaf5a35fdd79daec9c9e56b984c60239b0b44c5a902b6f5820a53"
+RPM_NAME = "libKF5ConfigQml5-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "359ddbcae301d2601ff249baf0d3ce7f31eb3a6905d84971edcb482e5844210eec5731b10a7fc54b1b77e29b6768467184a438c55fc9a7f3ddf7ee80dd2f2997"
 
 RPROVIDES:${PN} += "libKF5ConfigQml.so.5 \
 libKF5ConfigQml5"

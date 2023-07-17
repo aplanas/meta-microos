@@ -5,10 +5,10 @@ KDE Platform 4 'kdeui' library, you will find many of its classes here. \
 Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kwidgetsaddons-devel-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "eebb520387819802bf633aff3e3a8f1c265426e8db63df12050d24bd1f3c62d09638589b1872781fc1090d6194da573eb882609aede870281f658df10901d3ac"
+RPM_NAME = "kwidgetsaddons-devel-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "77defb4702e207d801971fe7e7e158bbe8e8b56bf58158b80be457078cf5bcf34b69928c4a783bcc52b9e65d94895fdee6e70230cf0aaabf99d5ad2bf68cc985"
 
 RPROVIDES:${PN} += "cmake-KF5WidgetsAddons \
 kwidgetsaddons-devel"

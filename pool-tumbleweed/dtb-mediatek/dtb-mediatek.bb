@@ -2,10 +2,10 @@ SUMMARY = "MediaTek based arm64 systems"
 DESCRIPTION = "Device Tree files for MediaTek based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.9"
+PV = "6.4.2"
 
-RPM_NAME = "dtb-mediatek-6.3.9-1.1.aarch64.rpm"
-RPM_HASH = "ad37f942aac72c3322f54b45a109f6ba3659a9aaa2eb96d2fcfb85438e54374be10f8b41995720ae378ea79e48de7a76ba0f5b2ba69fc1a72856182b27031634"
+RPM_NAME = "dtb-mediatek-6.4.2-1.1.aarch64.rpm"
+RPM_HASH = "258c9e30bc5fa723b7124ea6cd5c7ff0c1a215e5c9cc142f125f42316bb6288a16dae112b3d506af2f72cd382a96477b578a848c12b76cac7c8dccd649aee225"
 
 RPROVIDES:${PN} += "dtb-mediatek \
 multiversion-dtb"

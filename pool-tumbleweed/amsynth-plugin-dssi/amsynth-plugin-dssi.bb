@@ -24,8 +24,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.13.2"
 
-RPM_NAME = "amsynth-plugin-dssi-1.13.2-1.5.aarch64.rpm"
-RPM_HASH = "deef0edea3dd6f054b86431fee4e2445e05d224e0c1dbda7a49df08ff7b1a33feb73dc1079cabf991944948fa2c0115b75cbe37730a7d7aa6e40778300c5d6e1"
+RPM_NAME = "amsynth-plugin-dssi-1.13.2-1.6.aarch64.rpm"
+RPM_HASH = "360da8c89c4a6789e6686cdd083aa3ad3f02e30db02d8dc52835188ebf54388400dbc5744619e5c7b1b8e7465149648f03a51c403a21dc98a5f81629b7f7517f"
 
 RPROVIDES:${PN} += "amsynth-plugin-dssi"
 

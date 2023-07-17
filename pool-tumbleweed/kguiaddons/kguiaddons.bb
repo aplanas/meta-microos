@@ -3,10 +3,10 @@ DESCRIPTION = "The KDE GUI addons provide utilities for graphical user interface
 of colors, fonts, text, images, keyboard input."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kguiaddons-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "2b11b75f2d07fea91d98ae65488779254cd7cc62831242293f549c19bdf138322f2342da333a1f7e24e9a06533f01b5f5b005d6dc5f8aaf2f3e49edcb0542b9c"
+RPM_NAME = "kguiaddons-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "19c202e11ca11e9563e11d85c69a8f60cb3a94cc5f1fd931a1f5d86f66445adc534ed608fce9d8648ed7d9ea3c16deba5822101fae220f0526d94d013bc1c415"
 
 RPROVIDES:${PN} += "kguiaddons"
 

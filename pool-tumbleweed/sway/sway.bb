@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.8.1"
 
-RPM_NAME = "sway-1.8.1-2.2.aarch64.rpm"
-RPM_HASH = "dc9c89467c96f50995efa84b389cb28ef5f35385d5664722123a12d35dba4f318ca38b08b624e598035aabd34d46db4b6764dcae4b1255bad695438ceec795a9"
+RPM_NAME = "sway-1.8.1-3.1.aarch64.rpm"
+RPM_HASH = "b8bbf4c37ca92a95ff5b73493f3499a014d5104045c75bd0ff355b9d84a0594009d373eaa4d3733074881c397e926f3031a25a86d8c209720c5faeba88e875c4"
 
 RPROVIDES:${PN} += "sway"
 
@@ -29,7 +29,6 @@ libwlroots.so.11 \
 libxcb-icccm.so.4 \
 libxcb.so.1 \
 libxkbcommon.so.0 \
-sway-branding \
-xdg-desktop-portal-wlr"
+sway-branding"
 
 inherit rpm

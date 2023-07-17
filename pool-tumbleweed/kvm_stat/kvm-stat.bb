@@ -5,10 +5,10 @@ KVM debugfs files or the vm tracepoints and outputs them as a curses ui or \
 simple text."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.9"
+PV = "6.4.2"
 
-RPM_NAME = "kvm_stat-6.3.9-22.24.noarch.rpm"
-RPM_HASH = "03d212140743086be547667f1e17f3690f91eee4a3998a93623a2c996b33099ca18dd5f66afa85b6dcd4bf998ea289733fdddd0d20f2a454328a4204a901f3c8"
+RPM_NAME = "kvm_stat-6.4.2-22.25.noarch.rpm"
+RPM_HASH = "2c8b99bcbac87ff807ca695c97520ddd19549439dc61449ba2d6f0aacba113aa903386afc3279e7f101d5174e6da41ae1db4319c3102ff2186c3c524c2ada358"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kvm-stat"

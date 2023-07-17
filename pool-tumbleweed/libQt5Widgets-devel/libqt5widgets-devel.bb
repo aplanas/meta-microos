@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
 PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5Widgets-devel-5.15.10+kde129-1.1.aarch64.rpm"
-RPM_HASH = "b88be1e62398d28f81ec9559f337236888c1f790c6718243a19fbf5270f480a864fa6889ab116cb26222e5d40ef9ced6da47fd8ce112dc81aa167c377dc625d9"
+RPM_NAME = "libQt5Widgets-devel-5.15.10+kde129-2.1.aarch64.rpm"
+RPM_HASH = "955cc22899c5b066c8d587f6e77a1ac22925c9cb7e4c46ee42fe6f86fbd9077e0e07144a13c8086d74d82c312689657398efd01b77d42dcc82daac3f6a604b50"
 
 RPROVIDES:${PN} += "cmake-Qt5Widgets \
 libQt5Widgets-devel \

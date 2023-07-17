@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.6.2.1"
 
-RPM_NAME = "ghc-yesod-doc-1.6.2.1-2.7.noarch.rpm"
-RPM_HASH = "ea02ba2ae9d8bf9c9ee3ce37f35d8ae8d4bc6c51b24c63f2dc6fe231ac76ce51c307103aff6a467891c9e5eb3bc0caad171b9d0f2013e342312796feef817455"
+RPM_NAME = "ghc-yesod-doc-1.6.2.1-2.9.noarch.rpm"
+RPM_HASH = "6519aeab86bc628d6a564026299837a6b04b648eb9b0f46b70b09a7f8607ba0a7da37c9c065bd9cb7964f9380c4ea339b61e76bc62bb7eb6fa74713da16503ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-yesod-doc"

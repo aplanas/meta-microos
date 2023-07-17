@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "5.15.10+kde0"
 
-RPM_NAME = "libqt5-qtgraphicaleffects-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "c5d3c074d2232cda07284e111db6e3a77077869bf1bfd141e48b537f8081fa4e3c3bfd78d0f9c7f2d8c1742bfb44ba52a8cc323e9b30d446db60948299ea5510"
+RPM_NAME = "libqt5-qtgraphicaleffects-5.15.10+kde0-2.1.aarch64.rpm"
+RPM_HASH = "32a8c7102d182b153c7e3b653b1874d462585aac38d20c36362862decc7ebfd688dba8779a50e423a2ca8111c415538164e1db1556dddde02fe8964033490725"
 
 RPROVIDES:${PN} += "libqt5-qtgraphicaleffects \
 libqtgraphicaleffectsplugin.so \

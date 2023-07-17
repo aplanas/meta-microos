@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.39"
 
-RPM_NAME = "libuuid1-2.39-1.1.aarch64.rpm"
-RPM_HASH = "e2657d4bddb04d0c959d03ed7624aeaeb7e8cac8d250f7f7c7ba210b2be72ee4f4d66f951d191ffaabdac92d0a60666e5f7a4ef557332f1c056d3f5962773df3"
+RPM_NAME = "libuuid1-2.39-2.1.aarch64.rpm"
+RPM_HASH = "dd77a579d94544f582345bb41a4beafbb00aecfc058eb78d9bf56537be203c9527575fa88097292c41e456772276ad7784fba16150767b3e8308bf15f3072569"
 
 RPROVIDES:${PN} += "libuuid--uuid-generate-time-cont \
 libuuid.so.1 \

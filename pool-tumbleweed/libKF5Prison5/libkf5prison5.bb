@@ -3,10 +3,10 @@ DESCRIPTION = "Prison is a barcode abstraction layer library providing \
 uniform access to generation of barcodes with data."
 LICENSE = "MIT"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5Prison5-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "ef3839ddbe4aa1e03721b4471d1383b7bf5e1b9fbe5575dc1fdf52480f4aa2c2488c9fb3cbf62c7e6e41065745c8d7a4a150c5bce64f95557a93af98508e1d3c"
+RPM_NAME = "libKF5Prison5-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "7c0ab7a0a08626f66f85bae53cc553df6d45ea155be13e574ca7fd6efee7e31afbf0cd5fd88b73b05592d241b349d596a1d9291fad8208e1c86dbff918f9935f"
 
 RPROVIDES:${PN} += "libKF5Prison.so.5 \
 libKF5Prison5 \

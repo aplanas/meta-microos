@@ -17,20 +17,20 @@ Some of the main features are: \
  * Drag&Drop support."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.64.0"
+PV = "3.65.0"
 
-RPM_NAME = "filezilla-3.64.0-1.1.aarch64.rpm"
-RPM_HASH = "a96aa1e07ef8d3983d1354cd719791b258a21340f3139db75cfdedbecea76f10570c8fa38351022d3690feb49d606bcdc3a902ac9d853d91185f198592356750"
+RPM_NAME = "filezilla-3.65.0-1.1.aarch64.rpm"
+RPM_HASH = "0c9f54dc5250a723a6c26338b7175aeb66ad2b52f2e27f62a7d094fed22522f002c9fc8936ed6850e7874263ef1cafbc9b089e07e06e2331afe2086ec4003724"
 
 RPROVIDES:${PN} += "filezilla \
-libfzclient-commonui-private-3.64.0.so \
-libfzclient-private-3.64.0.so"
+libfzclient-commonui-private-3.65.0.so \
+libfzclient-private-3.65.0.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdbus-1.so.3 \
-libfilezilla.so.36 \
+libfilezilla.so.40 \
 libgcc-s.so.1 \
 libgdk-x11-2.0.so.0 \
 libgobject-2.0.so.0 \

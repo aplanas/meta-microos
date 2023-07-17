@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-remoteobjectsqml-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "149e8be04426f4b4c827e45da78a12aa57378f699d939073197ff48859a6085ed2c6ebea96ebf3e7281c98f0cabf93c43100449506cca7139033fa5b59d0792b"
+RPM_NAME = "qt6-remoteobjectsqml-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "2ece3f79004fa24b1ab81356b1fde09000ce1bf3fda07f778d26efb31597565aff5dfbbc580829c92d0a0fd29f029be7c3320844d698ea936a49e8ce0fadfff4"
 
 RPROVIDES:${PN} += "cmake-Qt6RemoteObjectsQml \
 pkgconfig-Qt6RemoteObjectsQml \

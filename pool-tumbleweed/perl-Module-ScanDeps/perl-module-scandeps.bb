@@ -27,10 +27,10 @@ Please see App::Packer::Frontend for detailed explanation on the structure \
 returned by 'get_files'."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.31"
+PV = "1.32"
 
-RPM_NAME = "perl-Module-ScanDeps-1.31-1.10.aarch64.rpm"
-RPM_HASH = "0450e5aee41954b532c1e4e2b53c3aaeb0f16c8723bfec138db1993134134b2753a019f188de9fe7e4ae6342413083a1957e1de1e1cc0f553f64e6d088e04d53"
+RPM_NAME = "perl-Module-ScanDeps-1.32-1.1.aarch64.rpm"
+RPM_HASH = "70ada4f749f6fdff9ac00c2d14be45c5394192bdc8b512bf465049812998a859190f4acae8a44ca75f4d706838caf957115a0ae9057997069a50fdbd60c7af3a"
 
 RPROVIDES:${PN} += "perl-Module--ScanDeps \
 perl-Module--ScanDeps--Cache \

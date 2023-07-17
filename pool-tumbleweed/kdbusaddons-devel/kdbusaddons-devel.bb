@@ -3,10 +3,10 @@ DESCRIPTION = "KDBusAddons provides convenience classes on top of QtDBus, as wel
 create KDED modules. Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kdbusaddons-devel-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "15253200d81240096b036b4aafc6307c1dd19f068af9fbb363a8c655abfa89490c92641029abefd07465e482a06263ecb22277155b08238d59415ae5ab900149"
+RPM_NAME = "kdbusaddons-devel-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "83e3bab95711fbe1586578002aebd8df7e60ae785d94accdf7fdf96a0392f4998c87518476f34fc32dd9c833d35b46d6ee8438e7989b45282e7d2f4b8a09d891"
 
 RPROVIDES:${PN} += "cmake-KF5DBusAddons \
 kdbusaddons-devel"

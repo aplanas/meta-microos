@@ -2,13 +2,13 @@ SUMMARY = "Haskell foldl profiling library"
 DESCRIPTION = "This package provides the Haskell foldl profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.14"
+PV = "1.4.15"
 
-RPM_NAME = "ghc-foldl-prof-1.4.14-2.6.aarch64.rpm"
-RPM_HASH = "5cdb6e749958401c4011e369fc38d3b58438cae0fdd7a543be692f49b36740c6f123ffac2dfc51f3365507bdf54aa8cbb7a6d2493282aa1771f4a45ef122d057"
+RPM_NAME = "ghc-foldl-prof-1.4.15-1.1.aarch64.rpm"
+RPM_HASH = "c7fb60422e7b70cbce0033270338cd5c67e50b6089c654414a62afd6ca514aaa092fb86e5ef25d82a424e2109fa2352fb092dba2aada653a44ef0b81e17d07fe"
 
 RPROVIDES:${PN} += "ghc-foldl-prof \
-ghc-prof-foldl-1.4.14-6AA7lw3dsEK1uUeCGro40c"
+ghc-prof-foldl-1.4.15-F8c77skQAn4DvWPbyzbRUi"
 
 RDEPENDS:${PN} += "ghc-foldl-devel \
 ghc-prof-base-4.17.1.0 \

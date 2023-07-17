@@ -5,11 +5,17 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quick3dassetutils-private-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "996231f27a8a6a3948f200807dcdff198c6a56cd191b66bc3f35d9d36df4d361594236eec9363972e5eb6a6e83cd2f1f07e0f97ddc60e872096de26cb202f417"
+RPM_NAME = "qt6-quick3dassetutils-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "cb3aedc9d129ee683d70c95c422ec1cb9df149589ecfb13d239f45152a7b5aff01da6c4b320b4045aca105a26ac9dca8bcb13cc5524ba45df09c24ba45937cb5"
 
 RPROVIDES:${PN} += "qt6-quick3dassetutils-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6Quick3DAssetUtils"
+RDEPENDS:${PN} += "cmake-Qt6Quick3DAssetUtils \
+qt6-core-private-devel \
+qt6-gui-private-devel \
+qt6-quick3d-private-devel \
+qt6-quick3dassetimport-private-devel \
+qt6-quick3druntimerender-private-devel \
+qt6-quicktimeline-private-devel"
 
 inherit rpm

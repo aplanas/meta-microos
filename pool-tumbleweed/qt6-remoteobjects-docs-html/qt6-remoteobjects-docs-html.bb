@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.3-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-remoteobjects-docs-html-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "c4eb9c083fa6582c82b4810afed74219be9b0a3451158958d264e172353845ce72d095cd4f710b9c93aa47cdae75c333b4115bc6afd60c8618cb6f5026ad2a2f"
+RPM_NAME = "qt6-remoteobjects-docs-html-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "0e0f0fec31d02ce14e0c0afd794100c3a2e0255d545da9bcad1cfdf7c4cac3e300a96ea5dd4cf656b9b8270f32511231fc51ad243e89b691e249253bc2379ef1"
 
 RPROVIDES:${PN} += "qt6-remoteobjects-docs-html"
 

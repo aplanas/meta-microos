@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 AMDGPU graphics driver."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230620"
+PV = "20230707"
 
-RPM_NAME = "kernel-firmware-amdgpu-20230620-1.1.noarch.rpm"
-RPM_HASH = "a626eabb3f00e21f525194a7ec3c293c1366d0d3a097354348bb18f3688c0cb5be88328c6e5f706919ba1fa513712f0ac60ff2f2b9f0e6f749b5a3ec02909600"
+RPM_NAME = "kernel-firmware-amdgpu-20230707-1.1.noarch.rpm"
+RPM_HASH = "1e696cbb9c6db34c6485e42a9660cb63f2f8b28e9e2882bfe07e447a7fa5b864ad27612a11954fbd9252ff3039639af284df2bb569e311e340720752d143db18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-amdgpu/aldebaran-mec.bin \

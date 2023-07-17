@@ -9,10 +9,10 @@ task list manager, an equation editor, a tray icon, and support for \
 version control."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.75.1"
+PV = "0.75.2"
 
-RPM_NAME = "zim-0.75.1-2.3.noarch.rpm"
-RPM_HASH = "d7aa107e173a5959841eca273f750eacc14c3e52f6e92815a8a5a136aa9b22c760cfa79bf596f20cbc60af2e201d02e6da824afa72db48241fe8d8cf2b31187b"
+RPM_NAME = "zim-0.75.2-1.1.noarch.rpm"
+RPM_HASH = "4eab7b03bce96be447292c931646322277de9a8cba0c6f33f249a09b2d2e8331033685bb59bde516ffb194fa010debdbd059417f00315f7958fa72626ad8055b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist-zim \

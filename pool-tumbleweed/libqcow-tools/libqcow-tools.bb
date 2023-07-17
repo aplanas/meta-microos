@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221124"
 
-RPM_NAME = "libqcow-tools-20221124-3.13.aarch64.rpm"
-RPM_HASH = "bb3afce68b129af1549414af201a3c168d8c8b7ce2e5b3bc971bd2c443a567b57360a0e2760ae25decc72aef3e263fca2664710c3a695e24f7a034f9833a179a"
+RPM_NAME = "libqcow-tools-20221124-3.14.aarch64.rpm"
+RPM_HASH = "7f6b6da8c3f1a3f86cb1edac5c1b1316d0ed53dfba1e8140be5c92acef6d9881955a7a233adfa5c34e0ac16fae62abee9f8358fe2084bd1fce659f3d6621e370"
 
 RPROVIDES:${PN} += "libqcow-tools"
 

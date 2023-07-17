@@ -7,10 +7,10 @@ changes to the package source will be reflected in the package visible to \
 Python, without needing a reinstall."
 LICENSE = "MIT"
 
-PV = "0.3"
+PV = "0.4"
 
-RPM_NAME = "python311-editables-0.3-2.2.noarch.rpm"
-RPM_HASH = "f7397cebd08b5df49c9325224c8a331629b15c65048a199f9443947cf81680f433ffa883b2f9bdaf96dff8fdb87a667dd05ea182cfee84c4b367aa6c254d9dba"
+RPM_NAME = "python311-editables-0.4-1.1.noarch.rpm"
+RPM_HASH = "f16d2c282bc5fb8196897a92ba8915071ff096e9612fa88cb8c259cb5144824506428d719278428e6d4e620c81c0d4f5b6530817017cda5809dd672cae758681"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-editables \

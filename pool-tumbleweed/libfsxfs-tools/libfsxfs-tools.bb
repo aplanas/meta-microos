@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20220829"
 
-RPM_NAME = "libfsxfs-tools-20220829-3.10.aarch64.rpm"
-RPM_HASH = "a552fb36f2e9fa53dc15c583baf16cd783bfada0288c51344708581f62566e1f468ceeb536923e3d2bf551867176ae39465a5056b7cdbf970b0266e10cb213f9"
+RPM_NAME = "libfsxfs-tools-20220829-3.11.aarch64.rpm"
+RPM_HASH = "b7d3ace54e51e853b62eb9aa35ccf43edb0029a05bcbd67cb8472b3b1c265339be62dd87301a324f6f21569305418cc513a07c7c8d0dad83bd5da7a98fa45623"
 
 RPROVIDES:${PN} += "libfsxfs-tools"
 

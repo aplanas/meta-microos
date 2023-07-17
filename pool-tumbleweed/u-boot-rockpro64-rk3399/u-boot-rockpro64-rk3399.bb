@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains the firmware for the rockpro64-rk3399 platform."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.04"
+PV = "2023.07"
 
-RPM_NAME = "u-boot-rockpro64-rk3399-2023.04-2.2.aarch64.rpm"
-RPM_HASH = "7bdd0b52439a4d0e04f3c5f00a424ca4af882666e9f447b22717e04afacc9e61298bc556a5f640f47dae6b5cd1756f1442ff4d58179a694fad411777557dfad6"
+RPM_NAME = "u-boot-rockpro64-rk3399-2023.07-1.1.aarch64.rpm"
+RPM_HASH = "3c8c35ea0fb8da72bc6eca3aa605629f0aa9322639528cb08ee2bb99981ff6b5e4508f498e66096b415e8bb53a23fc42c16dd617815aa33899fc7a24f51e5ae8"
 
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-rockpro64-rk3399"

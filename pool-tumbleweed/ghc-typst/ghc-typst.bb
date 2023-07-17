@@ -6,11 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0.0"
 
-RPM_NAME = "ghc-typst-0.1.0.0-1.2.aarch64.rpm"
-RPM_HASH = "b94064f87b0c0c4dc92baf7c0026f3c09e428f553366c7c2b3f2c67d6ba675cf857f1133a0865ce6c4b7a1c74efeb2c79c6085e88ac2ba50c27603e832785e34"
+RPM_NAME = "ghc-typst-0.1.0.0-1.5.aarch64.rpm"
+RPM_HASH = "671862d9d71bf9e4e5b524b1ca4ab57542af854f8f33f2157896ee8a2f280a25e083f1ae5c3331ebc1613bd6f452c04dc34c3c6ec212ce946b9617f3f7be5229"
 
 RPROVIDES:${PN} += "ghc-typst \
-libHStypst-0.1.0.0-3VBCZ4Q02O47LMJn0K0CF8-ghc9.4.5.so"
+libHStypst-0.1.0.0-KYQhPlbAv2KGc3iiEDbU9A-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV-ghc9.4.5.so \
 libHSOnly-0.1-ETd5YCT0TwGLbN8rgpgTS8-ghc9.4.5.so \
@@ -88,7 +88,7 @@ libHStime-compat-1.9.6.1-2Pu0F2MmAuC1LEapOv1K82-ghc9.4.5.so \
 libHStransformers-0.5.6.2-ghc9.4.5.so \
 libHStransformers-compat-0.7.2-7jAnhjvxTABIymoNGHTOwd-ghc9.4.5.so \
 libHStyped-process-0.2.11.0-AJYHFlIHznQBMeAWc6SvCO-ghc9.4.5.so \
-libHStypst-symbols-0.1.0.1-68asM8ctSWGeebFauBl8u-ghc9.4.5.so \
+libHStypst-symbols-0.1.2-6B3ZvJm94WZ4qfFjRZShld-ghc9.4.5.so \
 libHSunix-2.7.3-ghc9.4.5.so \
 libHSunliftio-core-0.2.1.0-AEtYfdyUWlJCLfz2d4hPbj-ghc9.4.5.so \
 libHSunordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E-ghc9.4.5.so \
@@ -99,7 +99,7 @@ libHSvector-stream-0.1.0.0-C5Yyq3DPEhXAQSqkM8V92s-ghc9.4.5.so \
 libHSwitherable-0.4.2-JTGjjCVsQ4I7ks3qsHWAEH-ghc9.4.5.so \
 libHSxml-conduit-1.9.1.3-JDYavYDcwLN29rDQLTOOon-ghc9.4.5.so \
 libHSxml-types-0.3.8-7guWdy0cJxZLf8pjB1j9Fb-ghc9.4.5.so \
-libHSyaml-0.11.11.1-3T1xu4983kFHb1qERRZhqW-ghc9.4.5.so \
+libHSyaml-0.11.11.2-4GYYolDKkXn5x4zdb9DA59-ghc9.4.5.so \
 libHSzlib-0.6.3.0-GaFaUl6t8QzEoHIQXsottk-ghc9.4.5.so \
 libc.so.6 \
 libgmp.so.10 \

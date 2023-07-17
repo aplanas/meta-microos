@@ -4,10 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.2"
 
-RPM_NAME = "ghc-fast-logger-devel-3.1.2-1.7.aarch64.rpm"
-RPM_HASH = "6ba97de169f8d2cc99cf3e15676f390d51e9f31b597366e074638e019ae7dbea2c0dc09e7e465c0b3a599ad9798124fff67ada6c93d4f83c0b6c267d47e9ed40"
+RPM_NAME = "ghc-fast-logger-devel-3.1.2-1.10.aarch64.rpm"
+RPM_HASH = "013e8dfd28c7ae0b880c55d848b6affa4a77fd34577de5cc24a910d35b9d6e81f5ae21aa45d73249d923cf9944daebde6c461bf395a40a134930e275b58085ea"
 
-RPROVIDES:${PN} += "ghc-devel-fast-logger-3.1.2-B9zh4yvWMU69CA1ZW1MVtN \
+RPROVIDES:${PN} += "ghc-devel-fast-logger-3.1.2-FrZhfcoVNTvDFmA3ecjq8Q \
 ghc-fast-logger-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -21,7 +21,7 @@ ghc-devel-easy-file-0.2.5-Eune3nGPx4BABAmiN3TyxF \
 ghc-devel-filepath-1.4.2.2 \
 ghc-devel-text-2.0.2 \
 ghc-devel-unix-compat-0.6-79KxxZMmklx25hsmeEnenN \
-ghc-devel-unix-time-0.4.9-DrdwBL0FLhc5jN9Hujlou0 \
+ghc-devel-unix-time-0.4.10-LpZG5YAXe572FFFZnKOLQq \
 ghc-fast-logger"
 
 inherit rpm

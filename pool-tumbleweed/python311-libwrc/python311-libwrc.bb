@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230318"
 
-RPM_NAME = "python311-libwrc-20230318-1.4.aarch64.rpm"
-RPM_HASH = "28e680c1de3c5c88990cd0dc24db6698113f6b892288e6b123e5be4c26eb63909a6b536b04fd135721bea7e8ef19a0d768be2eb2798db2f619fc0657b7051179"
+RPM_NAME = "python311-libwrc-20230318-1.5.aarch64.rpm"
+RPM_HASH = "06ad782152e9fac00e93f7cdda9db503ab07af498e86fee88cdc8a29a115486e993ec6e1c420e0bd17c152ba03c7556097a43af1660008790ec3316aaf7d1f32"
 
 RPROVIDES:${PN} += "python3-libwrc \
 python311-libwrc"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.3"
 
-RPM_NAME = "pass-import-3.3-1.6.noarch.rpm"
-RPM_HASH = "ec46383fc92f7fa0461559d9e15efd96217a836ad72a8cf30f4d6137bca5a7e76b40b83abb9ac8d2f4db469516255679e3c5ff3e3fb379c357f6700b2acb6440"
+RPM_NAME = "pass-import-3.3-1.7.noarch.rpm"
+RPM_HASH = "9661f59e0e1bbff5a588b2a0af92b0938931ba0bff0d476dca00c7a66d7fa64da9c56335401fcb897127adf095a8c9363199d1200afff8ab783be7dc8085fb9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pass-import \

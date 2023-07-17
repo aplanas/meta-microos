@@ -3,27 +3,25 @@ DESCRIPTION = "Scikit-image is a collection of algorithms for image processing i
 It is available free of charge and free of restriction."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.19.3"
+PV = "0.21.0"
 
-RPM_NAME = "python311-scikit-image-0.19.3-1.10.aarch64.rpm"
-RPM_HASH = "fb5feef266e6d32177e5e7f1978e2943ecf9af34ff94e00220d875433ec523981f4761d49dd8a86f33348951823f80f9bb5b5a94fcf469907bedc9dcbc35cb74"
+RPM_NAME = "python311-scikit-image-0.21.0-1.1.aarch64.rpm"
+RPM_HASH = "a54bdbd4acce9b05914c3b5e92044f8efc9e0e16e7cba2e32422bb7f278db41025d20d591f9ea7da02c9a1ba53a7db22ae20e1fe5c5c4887e53a6e74d343fcfe"
 
 RPROVIDES:${PN} += "python3-scikit-image \
 python3.11dist-scikit-image \
 python311-scikit-image \
 python3dist-scikit-image"
 
-RDEPENDS:${PN} += "/usr/bin/python3.11 \
-/usr/bin/sh \
-ld-linux-aarch64.so.1 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libgcc-s.so.1 \
-libgomp.so.1 \
+libm.so.6 \
 libstdc++.so.6 \
 python-abi \
 python311-Pillow \
 python311-PyWavelets \
 python311-imageio \
+python311-lazy-loader \
 python311-networkx \
 python311-numpy \
 python311-packaging \

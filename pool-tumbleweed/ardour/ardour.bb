@@ -13,15 +13,16 @@ controller, such as the Mackie Digital 8 Bus mixer and many other \
 modern digital mixers."
 LICENSE = "GPL-3.0-only"
 
-PV = "7.4.0"
+PV = "7.5.0"
 
-RPM_NAME = "ardour-7.4.0-1.2.aarch64.rpm"
-RPM_HASH = "f03f694447df24c3d0db1457d07f88ba69baf7a21bfded25f7f5ce8a1f19b54166c9cb5a949d0e0178903c52c7fc3d997096d0846ef1aca1e568dd275a234515"
+RPM_NAME = "ardour-7.5.0-1.1.aarch64.rpm"
+RPM_HASH = "ce92f1a877588e308229c9aca7a22d8a9ef22ab1345bb27cb6251af2cebd398a8bd5acd81f3070f31b9d55b80d110f009a4e383396906f027331f3da02e9dd71"
 
 RPROVIDES:${PN} += "ardour \
 config-ardour \
 libalsa-audiobackend.so \
 libardour-cc121.so \
+libardour-console1.so \
 libardour-contourdesign.so \
 libardour-faderport.so \
 libardour-faderport16.so \

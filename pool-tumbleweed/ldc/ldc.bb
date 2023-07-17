@@ -5,10 +5,10 @@ features, but profits from LLVM's superior optimizing and code generation \
 capabilities."
 LICENSE = "Artistic-1.0 & BSD-3-Clause"
 
-PV = "1.32.0"
+PV = "1.32.2"
 
-RPM_NAME = "ldc-1.32.0-1.2.aarch64.rpm"
-RPM_HASH = "ed429aec4a924208d4d7ed9e7df605d748381c207c7a7e45fc94360a46683de5ae40132caaa2b9baa7ebf1036b6f34641f68132fe4cd6070bd03fb34b654f5ad"
+RPM_NAME = "ldc-1.32.2-1.1.aarch64.rpm"
+RPM_HASH = "e5805ecde7ac55fac42ef2d7c28dc8709ab00c02845bee7a57ad932fb152d2bcb55bd4fd71957b1094644b1f8deb921debd96ba1c9f7dc950b01a79d87d3fc24"
 
 RPROVIDES:${PN} += "config-ldc \
 ldc"

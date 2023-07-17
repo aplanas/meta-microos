@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "nut-doc-images-2.8.0-3.1.noarch.rpm"
-RPM_HASH = "3a90b6b3b5a29b0798e5f23288d7d3325275241c6c2647665175aa870682bd89a7649740531b9e97cdd25e387c5e33ac9a4c9317dc7b5a0602b5ff8cd49f5871"
+RPM_NAME = "nut-doc-images-2.8.0-4.1.noarch.rpm"
+RPM_HASH = "ee78b535ea23ce50f298bbffeeba59ec5d39e8fccb73c0cce1317644a8c8aa3fe0cdf3244e59c58e1a773334ecb0223a255df4c62f2a7f14a2923238d5de2f63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nut-doc-images"

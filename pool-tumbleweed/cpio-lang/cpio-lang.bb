@@ -2,10 +2,10 @@ SUMMARY = "Translations for package cpio"
 DESCRIPTION = "Provides translations for the 'cpio' package."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.13"
+PV = "2.14"
 
-RPM_NAME = "cpio-lang-2.13-5.5.noarch.rpm"
-RPM_HASH = "450e62d884e279eff72e39f0f3c0332c4cd7eb825b55250ae5ef880dc76ae9af81f6c08319ffb7b1a38b9d13cec2b47e5b9ec5b77353c3f79a70828ebe2b1b60"
+RPM_NAME = "cpio-lang-2.14-1.1.noarch.rpm"
+RPM_HASH = "78845efbeeda486bffad56c051aada466ff90be378b943abf12afbdcb20e393fc6c8fa36f3935ef425eb2c41130102b9af93198574fffd7c3aade7c91dac263b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cpio-lang \
@@ -22,6 +22,7 @@ locale-cpio-hu \
 locale-cpio-id \
 locale-cpio-it \
 locale-cpio-ja \
+locale-cpio-ka \
 locale-cpio-ko \
 locale-cpio-nl \
 locale-cpio-pl \

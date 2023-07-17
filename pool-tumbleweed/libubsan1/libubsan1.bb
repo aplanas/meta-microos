@@ -3,10 +3,10 @@ DESCRIPTION = "The runtime library needed to run programs compiled with the \
 -fsanitize=undefined option of the GNU Compiler Collection (GCC)."
 LICENSE = "MIT"
 
-PV = "13.1.1+git7364"
+PV = "13.1.1+git7552"
 
-RPM_NAME = "libubsan1-13.1.1+git7364-1.2.aarch64.rpm"
-RPM_HASH = "b9682036043bcf93bf1198e57bd3e9ce6e8ca813948cd39c369e769472ce8a076f4fccb0515fd4eb70bfdb863f6a8b637be0db6e7d2a77acfa9b41915d597e83"
+RPM_NAME = "libubsan1-13.1.1+git7552-1.1.aarch64.rpm"
+RPM_HASH = "623bec6bef409a3129d057992c3ff74c6ba4d6451243ccca9520c23ad75f5ae637002c5e54b567e7ebc4d0ab0740368d2b9473cf4ac4a850275fdadbf77b86ad"
 
 RPROVIDES:${PN} += "libubsan.so.1 \
 libubsan1"

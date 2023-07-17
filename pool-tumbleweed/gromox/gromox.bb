@@ -14,8 +14,8 @@ LICENSE = "AGPL-3.0-or-later & GPL-2.0-only & GPL-3.0-or-later"
 
 PV = "2.10"
 
-RPM_NAME = "gromox-2.10-1.2.aarch64.rpm"
-RPM_HASH = "f84449cf112ce58a7a6c12a6d6cd045c717d92d4da7732557b56898e8572cd18e9b8093f7fb60e923ddfe74bb2565ac17218c8dfe8a61278eabdf699a65895d7"
+RPM_NAME = "gromox-2.10-1.3.aarch64.rpm"
+RPM_HASH = "9f154811f95c668b693a040a4de398014c655240159864d9837df0ea3e513c42e3cc8ab91a410eb6b7e7e5cfa5160751d9fffed679b8865bab31aa64b29447df"
 
 RPROVIDES:${PN} += "bundled-tzcode \
 gromox \

@@ -3,10 +3,10 @@ DESCRIPTION = "Use this package to install munin scripts that allow to monitor s
 statistics."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1688565452.efc15ea"
+PV = "4.6.1689162874.c51d4b9"
 
-RPM_NAME = "openQA-munin-4.6.1688565452.efc15ea-1.1.aarch64.rpm"
-RPM_HASH = "118513f21083ec339c80e3db1ca2316b678d0b1cf76a8cc37b0d198f2cdc3c2c1be0310bc0a2667a3ce7d92c2af30124896291fb851811a4a2716741156b44a2"
+RPM_NAME = "openQA-munin-4.6.1689162874.c51d4b9-1.1.aarch64.rpm"
+RPM_HASH = "8cc88909503c7233f5194d6ed8e55a7ebe5b4fb756eeffc8a43e61a6acdd340e659705f5389db1c2a763677802bd3130710c754dd997af8dff164a9c41f90706"
 
 RPROVIDES:${PN} += "config-openQA-munin \
 openQA-munin"

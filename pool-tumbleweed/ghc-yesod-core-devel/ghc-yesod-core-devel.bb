@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "1.6.24.2"
 
-RPM_NAME = "ghc-yesod-core-devel-1.6.24.2-1.7.aarch64.rpm"
-RPM_HASH = "4070c10d1432a251ddf364887c845dcf8f2c052bfdfcd5e5b4aa60ce0349cbb41096a7f621e481a80c2d3b58b376549a1e65e00cd5766954101071eda6fa0f00"
+RPM_NAME = "ghc-yesod-core-devel-1.6.24.2-1.8.aarch64.rpm"
+RPM_HASH = "aa7d810350fb882065da2739bd304349862b973b23c5ff3ed4bb2e28d3b6cb942f6620c86eb7473dc4e513f7fdf9205ab24838eb81f0cec1580008dbf6245f84"
 
-RPROVIDES:${PN} += "ghc-devel-yesod-core-1.6.24.2-8wK3xEIlG3CBsmvalvvZaH \
+RPROVIDES:${PN} += "ghc-devel-yesod-core-1.6.24.2-7isfGP7hc9NLFaHQAgg8t \
 ghc-yesod-core-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -27,10 +27,10 @@ ghc-devel-containers-0.6.7 \
 ghc-devel-cookie-0.4.6-Dg4BNZOQbFj7M1J2IgDFKE \
 ghc-devel-deepseq-1.4.8.0 \
 ghc-devel-entropy-0.4.1.10-HkaMHQZP8nyRj15panvtP \
-ghc-devel-fast-logger-3.1.2-B9zh4yvWMU69CA1ZW1MVtN \
+ghc-devel-fast-logger-3.1.2-FrZhfcoVNTvDFmA3ecjq8Q \
 ghc-devel-http-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6 \
 ghc-devel-memory-0.18.0-8CsggfkyXReDSMbRoae4Yp \
-ghc-devel-monad-logger-0.3.40-G052AHl2mRW3aPPonmcvVW \
+ghc-devel-monad-logger-0.3.40-JON4xqa3KWj1ClCWFJbFYV \
 ghc-devel-mtl-2.2.2 \
 ghc-devel-parsec-3.1.16.1 \
 ghc-devel-path-pieces-0.2.1-7L2E0FvnHzn1hGutNz0iw4 \
@@ -47,9 +47,9 @@ ghc-devel-unliftio-0.2.25.0-DN1mY49M6dHDqA19Vm4lY3 \
 ghc-devel-unordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E \
 ghc-devel-vector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp \
 ghc-devel-wai-3.2.3-B6oJGZed88IFIvDpwN5I7x \
-ghc-devel-wai-extra-3.1.13.0-3pmfL93b8iXAmoBQvHdwGU \
-ghc-devel-wai-logger-2.4.0-HFZNBDhfTBI6FWxvAW2OQE \
-ghc-devel-warp-3.3.25-7qOcByHeVpuMAFF4vrupa \
+ghc-devel-wai-extra-3.1.13.0-LFtqIngDY3AAQ1a5w3zKO8 \
+ghc-devel-wai-logger-2.4.0-JuVFE6hpBhqDKHgP60Zmqn \
+ghc-devel-warp-3.3.25-EsJVhH2AisSK67jSo7D0GP \
 ghc-devel-word8-0.1.3-9uGjviso2af8K0EP8UmxRD \
 ghc-yesod-core"
 

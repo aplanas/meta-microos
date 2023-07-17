@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains documentation for U-Boot firmware."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.04"
+PV = "2023.07"
 
-RPM_NAME = "u-boot-rpi4-doc-2023.04-2.2.aarch64.rpm"
-RPM_HASH = "6c4e5ee438f90faaa274b5759499f00d1856d0e84bb642bcce88d4dbe5b6818e02105f4c2a49d033e5f3ea2baf096a95289341e9786dbc3123d0021394d14067"
+RPM_NAME = "u-boot-rpi4-doc-2023.07-1.1.aarch64.rpm"
+RPM_HASH = "b28bd174caa1eb16e2fdb57ec1e1728fe92b1469267e89b66be6cc6020b4657fb3e00ea86ea12f84100e06cf028a4ff89ffd061e2dd6e603def24cd4862aa62d"
 
 RPROVIDES:${PN} += "u-boot-rpi4-doc"
 

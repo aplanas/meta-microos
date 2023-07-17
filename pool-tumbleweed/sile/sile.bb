@@ -7,10 +7,10 @@ from the ground up using modern technologies and borrowing some ideas from \
 graphical systems such as InDesign."
 LICENSE = "MIT"
 
-PV = "0.14.9"
+PV = "0.14.10"
 
-RPM_NAME = "sile-0.14.9-1.2.aarch64.rpm"
-RPM_HASH = "263006ae6c21fd336b3d76bd045996bd92f6726878ef194f55ca14ca667362ba4bec0660b703b54dcf03e2990e5daffa640b59bc79c3d6930cba7ab57ffa554a"
+RPM_NAME = "sile-0.14.10-1.1.aarch64.rpm"
+RPM_HASH = "74d0acd3bff2a51cff9610cdca6a59d57a9fe05ca2c02ca4c323eea82bc825cac40fa177b4b8f656bc98a638c6d397de665f240576800389c17137c53f977713"
 
 RPROVIDES:${PN} += "sile"
 

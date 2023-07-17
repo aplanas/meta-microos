@@ -8,10 +8,10 @@ Another option to solve the same problem might be the darktable-chart module \
 from the darktable package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.4.0"
+PV = "4.4.1"
 
-RPM_NAME = "darktable-tools-basecurve-4.4.0-1.2.aarch64.rpm"
-RPM_HASH = "21a2b6b747afc55bd4820682ef3b46fb83a490094b9205d919b5a29a358f5e593ac1787d9c36f6dfd055e26108fcb862906d7a8d59d2d736fe37a7c6cc32f700"
+RPM_NAME = "darktable-tools-basecurve-4.4.1-1.1.aarch64.rpm"
+RPM_HASH = "cb472feb255671d3671580cb2a57b413030fadf62d0199770a495d61eaa8b61611eef20e456d7c88141d925bfb473b022b2f118de7ab3c26205efc1c26060d49"
 
 RPROVIDES:${PN} += "darktable-tools-basecurve"
 

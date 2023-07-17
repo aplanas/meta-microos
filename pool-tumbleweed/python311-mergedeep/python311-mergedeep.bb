@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.3.4"
 
-RPM_NAME = "python311-mergedeep-1.3.4-2.9.noarch.rpm"
-RPM_HASH = "9b810bc320c6eba49ea43567a19add3810e96fad50eafb49a2daf98da06116bbee8bc7d9e0704f8dbbd6fb612bd073f4bc5916ac6f9b5fc08b0a5bbb6a9c5f7c"
+RPM_NAME = "python311-mergedeep-1.3.4-3.1.noarch.rpm"
+RPM_HASH = "a1a853a0f3ad48fb7087eb08630a237af4bcb3fcdc4fad9255f3e60d6aa3708fcc344aff5f84462585ac48b9403f7f0dd5b60d57c1e543270060188b7d3591d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-mergedeep \

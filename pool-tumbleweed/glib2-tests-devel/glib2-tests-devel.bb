@@ -3,10 +3,10 @@ DESCRIPTION = "The glib2-tests-devel package contains tests that can be used to 
 the functionality of the installed glib2 package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.76.3"
+PV = "2.76.4"
 
-RPM_NAME = "glib2-tests-devel-2.76.3-1.1.aarch64.rpm"
-RPM_HASH = "0d1c496ab52a34a9b85257be60b98c75da6941a5c7402e1057f7aa22b4a94df38a41eb87d7be3ccf006fcdca41394c18e3ad65e7decec53dee40aeab56696420"
+RPM_NAME = "glib2-tests-devel-2.76.4-1.1.aarch64.rpm"
+RPM_HASH = "148b2696df738996c83bfd3273bdaf5f3351a8b677a17d6ec370bb835dedffe12c2b5645da7dd1c4055022c9eaa1ba68bf7177cf6c8cc36169aa2ab83b3bf11a"
 
 RPROVIDES:${PN} += "glib2-tests \
 glib2-tests-devel \

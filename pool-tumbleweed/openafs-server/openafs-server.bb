@@ -12,10 +12,10 @@ and load balancing, and ACLs. This package contains the static \
 libraries and header files needed to develop applications for OpenAFS."
 LICENSE = "IPL-1.0"
 
-PV = "1.8.9"
+PV = "1.8.10"
 
-RPM_NAME = "openafs-server-1.8.9-4.6.aarch64.rpm"
-RPM_HASH = "e38dd89674b7be7dee1cd69a47eb68d98fec13ae6b2b375f28760e63a8bdd844bbc14218683fca4f3467befc821fa3c9c95cb2c161a1c06b4fd2a95a2334efc8"
+RPM_NAME = "openafs-server-1.8.10-1.1.aarch64.rpm"
+RPM_HASH = "b40cd85c2ff5568ca18acb62127828b163b0d02f71b5cbcdf227a26f4f2b69a3f8c44295539237a76c7b8e7038788de606667339c718aab1023f0e98725e9864"
 
 RPROVIDES:${PN} += "openafs-server"
 

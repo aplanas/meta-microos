@@ -11,10 +11,10 @@ caching, disconnected operations, replication for higher availability \
 and load balancing, and ACLs. This package contains the OpenAFS client."
 LICENSE = "IPL-1.0"
 
-PV = "1.8.9"
+PV = "1.8.10"
 
-RPM_NAME = "openafs-client-1.8.9-4.6.aarch64.rpm"
-RPM_HASH = "cd1107c6895208e0e01da0c0163de78f1c456b16ba39c128813ad9d98434696686f92de7c0057d5563e2a65e1cafc095ba50b333340c8f2c002f653da9495cf3"
+RPM_NAME = "openafs-client-1.8.10-1.1.aarch64.rpm"
+RPM_HASH = "9b9bdb598023771382350302dce02af7e55566bdd57525e9f6898eb144c8ffb3c33b6e1fa74786737a89bd28a4a2151d3efa52747550e11e842c2586b0fdcb44"
 
 RPROVIDES:${PN} += "config-openafs-client \
 openafs-client"

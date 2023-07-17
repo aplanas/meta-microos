@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5Parts5"
 DESCRIPTION = "Provides translations for the 'libKF5Parts5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5Parts5-lang-5.107.0-1.1.noarch.rpm"
-RPM_HASH = "10b2f864c800d54ed0f0cf5ed1a63b5d8a00d69cd6aecf8c49a662f04992df3f5c5bffd20ec66e60d5ca08a06f8f2d95a9298742d69b04933be089b451533473"
+RPM_NAME = "libKF5Parts5-lang-5.108.0-1.1.noarch.rpm"
+RPM_HASH = "632ee7e9eb6aee30558be2370024a69f05d315be2378163e5de0f5dc73a33a372e5888b00ea3d59a0d6bf7db9895c93355514cbef8f0a2cbb5e33aa6e0c553dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5Parts5-lang \

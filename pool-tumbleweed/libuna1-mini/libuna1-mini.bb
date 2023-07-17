@@ -3,10 +3,10 @@ DESCRIPTION = "libuna is a library to support Unicode and ASCII (byte string) \
 conversions."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230702"
+PV = "20230710"
 
-RPM_NAME = "libuna1-mini-20230702-1.1.aarch64.rpm"
-RPM_HASH = "fb3957b8e77153de15212aca28ee0a7eb40be8832eda1ccd53dccabdd0a9235abe394f368386b39e7c09a8a87d52189c10c8a64873aa090e2bcde85707533246"
+RPM_NAME = "libuna1-mini-20230710-1.1.aarch64.rpm"
+RPM_HASH = "7f6e079311e5ab3e836f5191c5781bf87cee067081f6b552e32b406abbf8c613eb19da2f97dbfd8d3f012317a53b9572a50b28e49d821922fd5b1afbe5ac6f0f"
 
 RPROVIDES:${PN} += "libuna.so.1 \
 libuna1-mini"

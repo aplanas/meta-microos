@@ -4,10 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.19.2"
 
-RPM_NAME = "ghc-servant-server-devel-0.19.2-2.7.aarch64.rpm"
-RPM_HASH = "ded355342df0ac2de1345754652b7777c022a053be4a39a482fbe9e1d7c4af2e5c9d1c0c359a8febe4587682594ed162b58ce7f1217ba2950de2098e4ecb4a1f"
+RPM_NAME = "ghc-servant-server-devel-0.19.2-2.8.aarch64.rpm"
+RPM_HASH = "9438e657ca1c3e9f14cf7950c4049f75601e72f201953abfb16f2d771aaf7228026f89164c5fe88703ebfd1d8f52eb481ed382dfc26db1b5949a8a7fc13cd507"
 
-RPROVIDES:${PN} += "ghc-devel-servant-server-0.19.2-4FIb8LV7jij3EgayMId9y \
+RPROVIDES:${PN} += "ghc-devel-servant-server-0.19.2-45Ad5DaXbfZ3KJksjW89lv \
 ghc-servant-server-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -36,7 +36,7 @@ ghc-devel-text-2.0.2 \
 ghc-devel-transformers-0.5.6.2 \
 ghc-devel-transformers-base-0.4.6-AlF1op8b8qY6wTtsY0MGEp \
 ghc-devel-wai-3.2.3-B6oJGZed88IFIvDpwN5I7x \
-ghc-devel-wai-app-static-3.1.7.4-DlFhTXkOZ8ZEEfx67nS2tW \
+ghc-devel-wai-app-static-3.1.7.4-AZD11N92jseJEftpoR1SbX \
 ghc-devel-word8-0.1.3-9uGjviso2af8K0EP8UmxRD \
 ghc-servant-server"
 

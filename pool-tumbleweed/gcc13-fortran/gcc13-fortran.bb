@@ -2,10 +2,10 @@ SUMMARY = "The GNU Fortran Compiler and Support Files"
 DESCRIPTION = "This is the Fortran compiler of the GNU Compiler Collection (GCC)."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7364"
+PV = "13.1.1+git7552"
 
-RPM_NAME = "gcc13-fortran-13.1.1+git7364-1.2.aarch64.rpm"
-RPM_HASH = "4da3d3d52dc2e388cfde5a4fe8a833097b0c3c318be691a3c0b872d3feb1204bb15cfcbb2688709435e7af089021087d2d8372cd4617bbf245800e4987fc4fff"
+RPM_NAME = "gcc13-fortran-13.1.1+git7552-1.1.aarch64.rpm"
+RPM_HASH = "60666728373feedc151a54636cde93e0e6339d2c821492f59b94c91b315e51a83d289d6dd82899db46e6088fa8391e6e3b17447956cc90db36e371bb627a4908"
 
 RPROVIDES:${PN} += "gcc13-fortran"
 

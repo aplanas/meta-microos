@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.56.0"
 
-RPM_NAME = "grpc-devel-1.56.0-1.2.aarch64.rpm"
-RPM_HASH = "5a350984cf6c93b3982104e9b433304af134fdbf8b027ac88dcb40c72407ff11515313a0af035ba1eb8426127e12dcb9c92003d6fd8000aabcebcb2e96757952"
+RPM_NAME = "grpc-devel-1.56.0-1.3.aarch64.rpm"
+RPM_HASH = "f410e2d30dbab1976ceeaf8e18396bed4b586b726477998231b7fa5266efdf0fefcf6764cf8bfb7c0da4a4cbf8559b2dd3acb61dcd49916d17df1348bda5143f"
 
 RPROVIDES:${PN} += "cmake-gRPC \
 grpc-devel \
@@ -26,8 +26,8 @@ libgrpc++1-56 \
 libgrpc-plugin-support.so.1.56 \
 libgrpc1-56 \
 libgrpc33 \
-libprotobuf.so.23.3.0 \
-libprotoc.so.23.3.0 \
+libprotobuf.so.23.4.0 \
+libprotoc.so.23.4.0 \
 libstdc++.so.6 \
 libupb33 \
 pkgconfig-absl-any-invocable \

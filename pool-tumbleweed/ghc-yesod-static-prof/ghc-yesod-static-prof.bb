@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "1.6.1.0"
 
-RPM_NAME = "ghc-yesod-static-prof-1.6.1.0-4.7.aarch64.rpm"
-RPM_HASH = "c6ac6a0be36cc8837f2323963aa42c4c0378b5b94c866bbdbf33d988abd1ce5a9f8754a0235c471e0469a685346545c003c9c74c1bcfcfec0bd5696046b060cf"
+RPM_NAME = "ghc-yesod-static-prof-1.6.1.0-4.8.aarch64.rpm"
+RPM_HASH = "253fc294fc9db5dd4f5d8384174d8e4ce38bd3a60c7e1d2ed993670a9d60b06254194be59c80a091a6b487aca7c62783d9c36e438ad7380a007495f848f6f81a"
 
-RPROVIDES:${PN} += "ghc-prof-yesod-static-1.6.1.0-3rycIwv9kXlEsdAWxJe6c9 \
+RPROVIDES:${PN} += "ghc-prof-yesod-static-1.6.1.0-7sOCu9e43JeQSJul3Untm \
 ghc-yesod-static-prof"
 
 RDEPENDS:${PN} += "ghc-prof-async-2.2.4-Is3H7ZPNMkM5reIoCaqYrF \
@@ -37,8 +37,8 @@ ghc-prof-transformers-0.5.6.2 \
 ghc-prof-unix-compat-0.6-79KxxZMmklx25hsmeEnenN \
 ghc-prof-unordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E \
 ghc-prof-wai-3.2.3-B6oJGZed88IFIvDpwN5I7x \
-ghc-prof-wai-app-static-3.1.7.4-DlFhTXkOZ8ZEEfx67nS2tW \
-ghc-prof-yesod-core-1.6.24.2-8wK3xEIlG3CBsmvalvvZaH \
+ghc-prof-wai-app-static-3.1.7.4-AZD11N92jseJEftpoR1SbX \
+ghc-prof-yesod-core-1.6.24.2-7isfGP7hc9NLFaHQAgg8t \
 ghc-yesod-static-devel"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "17.89"
 
-RPM_NAME = "installation-images-MicroOS-17.89-1.31.aarch64.rpm"
-RPM_HASH = "9ef6f50aa084dab5b6cfed4f837d81fbdebd721627ae0c199926b0253df0cbdcc95fbf5af3362f34b691386056bc3b5bf7a3e232388e6cea595149f3b1c8b6b7"
+RPM_NAME = "installation-images-MicroOS-17.89-1.40.aarch64.rpm"
+RPM_HASH = "0afa9bbf5bfd1ed4a511242ad54ce355f1761426669845f89b16c655dfdb86a8a4e12260aac5ba61fe709fad406b36b07c547410f0d3c7adc80851bbfff8a870"
 
 RPROVIDES:${PN} += "installation-images \
 installation-images-MicroOS"

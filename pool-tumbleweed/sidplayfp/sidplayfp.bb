@@ -3,10 +3,10 @@ DESCRIPTION = "A player for playing SID music modules originally created on the 
 and compatibles."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.4.1"
+PV = "2.5.0"
 
-RPM_NAME = "sidplayfp-2.4.1-1.2.aarch64.rpm"
-RPM_HASH = "7b8e61837cc2fd1606f0ae3be7578e58f3dd860ac19a75a79e7e63706d9c58e66fde98b57ee4f0932551dcb056fe9e4551feefb6af1389d634cf0d2b8c051707"
+RPM_NAME = "sidplayfp-2.5.0-1.1.aarch64.rpm"
+RPM_HASH = "8ec9a749d63dc7b44cb353898a9a9b2413b00909649d5e92964e31114868de868708c01ef0ecf61476f39084fd90b3c4e7a8a14e268fb6ec3f59b808dbbfb84f"
 
 RPROVIDES:${PN} += "sidplayfp"
 

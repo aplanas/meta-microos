@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20210417"
 
-RPM_NAME = "libfsclfs-devel-20210417-3.5.aarch64.rpm"
-RPM_HASH = "80d1ca7c47f56628c4462f6913caa5eeaadb7881620b9fc4d83ad376bc29693aaae8e8235d3f0b5ff7d5cb71b1f635c7832aeea79c723c32386ab475dfdb0c8f"
+RPM_NAME = "libfsclfs-devel-20210417-3.6.aarch64.rpm"
+RPM_HASH = "5fcb6b3a6fb8e62811369949a27141eedbc0065f85fda2a90f16b95afce8165b38e1b2ea613865341e328816cbaa92b3b82bc9f347a3b30383277d663239c081"
 
 RPROVIDES:${PN} += "libfsclfs-devel \
 pkgconfig-libfsclfs"

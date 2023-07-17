@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-declarative-imports-6.5.1-1.3.aarch64.rpm"
-RPM_HASH = "3a75b4b5000547e8d5ef8bfced80ed358a7c254ca5706efe648f41ef09969cd05394abcb8fd777e070313d763c390b0b59aaffcc0c66468e2695149cc2791b9a"
+RPM_NAME = "qt6-declarative-imports-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "149d69ea26aa3151a571f06b499ba95d6d3c90e31c1e3c689cfbb4b738614b18c4bc2c368f3eebcf7a855e203c18d650d1e390b6019732a7a3c65422cf97a8a4"
 
 RPROVIDES:${PN} += "libeffectsplugin.so \
 liblabsanimationplugin.so \

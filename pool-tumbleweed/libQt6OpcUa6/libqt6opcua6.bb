@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6OpcUa6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "1549347e39d4102b5d4651bc01c0b7f6487976d7096861273c74698cce9cdc8bbf5ab4b17295de9644814d498fafd64ecab3d233ba9588d292905c3daf9db9d1"
+RPM_NAME = "libQt6OpcUa6-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "d90017aa11ac55ec4047e6970ece16c54905fd82c8a713bb865458f88aed20161176a6cc16b3bfb6f25537d4a91506aa17f4c5c52be666ba0b931d15d10f093a"
 
 RPROVIDES:${PN} += "libQt6OpcUa.so.6 \
 libQt6OpcUa6"

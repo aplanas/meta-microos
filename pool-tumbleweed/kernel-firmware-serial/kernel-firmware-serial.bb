@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 various serial drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230620"
+PV = "20230707"
 
-RPM_NAME = "kernel-firmware-serial-20230620-1.1.noarch.rpm"
-RPM_HASH = "ddad18969a11e96bc161c2755aa8012fdf4a83fa60f5ef25e732db605e24a190b7a5d139c1cca7cf291268dfdb1c354e72a99e2a82c53edf4c4da70224f8e238"
+RPM_NAME = "kernel-firmware-serial-20230707-1.1.noarch.rpm"
+RPM_HASH = "cc77dfb1126924404b646f46556ab7b5ab6e754be3b40d24e4cd2fcae8d816505c62b2c20348d0ffcdb28317f102af541ceb4c4c3475341c010689af9e9e3d3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-edgeport/boot.fw \

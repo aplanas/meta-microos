@@ -4,10 +4,10 @@ of the focused window. Unlike regular shortcuts, the application's window \
 does not need focus for them to be activated."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kglobalaccel5-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "7666e1ad80e916ab5e5d721d3271020467b8914109bab43f03d16b5854e303c6adf7fcd1ef0b57bd441bfcc97577785c7e160bac6b728df7ce29bf7f82827147"
+RPM_NAME = "kglobalaccel5-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "afd1d5f17c5c24ffd9d2272a6440da00ba256809fa09a30522310d1239e10866fbd8641f97e118f35d8d3e0f37c5e6663d0149a9284b5eb2fad3a6d0e7f171cc"
 
 RPROVIDES:${PN} += "kglobalaccel5"
 

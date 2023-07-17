@@ -7,10 +7,10 @@ management. \
 This package contains the bindings to use the library in Qt 5 C++ applications."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.20.0"
+PV = "1.21.0"
 
-RPM_NAME = "libqgpgme-devel-1.20.0-1.2.aarch64.rpm"
-RPM_HASH = "92055ca9be7e0eeb360117a2d38de0826359785879b72f412351dd2304ce180051f28eb36a7c8d60d11d6a9d005888656f85c70f2c06cb4965b15eb94de22975"
+RPM_NAME = "libqgpgme-devel-1.21.0-1.1.aarch64.rpm"
+RPM_HASH = "cf414b928e5036e1feb31c78e9f21d2f919109beddcec0c4264d41a7e2fc65045497b638e3e13cfeb4841761a7e0c4e75311c774718a170d64517b131be16689"
 
 RPROVIDES:${PN} += "cmake-QGpgme \
 libqgpgme-devel"

@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.3-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-opcua-docs-html-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "d4dab1b1dd49baf36969edd87e75cdc6fec9de028d7cafe471023dbc2697f676f309d2abfe2372f3c47fe5070ac45253cb0a3efb455b4bb433a1cf02d2bb9b18"
+RPM_NAME = "qt6-opcua-docs-html-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "de94a076be82f0acbea3536adb9495c014c70369824b51ab7db79d04f55bd216429ea2a641ff123d533d2d4d2d98967f426e962ae7c92436e5aa4f1688d24ebb"
 
 RPROVIDES:${PN} += "qt6-opcua-docs-html"
 

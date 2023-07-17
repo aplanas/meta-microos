@@ -2,10 +2,10 @@ SUMMARY = "Parsing Expression Grammars For Lua"
 DESCRIPTION = "LPeg is a new pattern-matching library for Lua, based on Parsing Expression Grammars (PEGs)."
 LICENSE = "MIT"
 
-PV = "1.0.2"
+PV = "1.1.0"
 
-RPM_NAME = "lua54-lpeg-1.0.2-6.3.aarch64.rpm"
-RPM_HASH = "a7a647fa43e6988bbc021866482587ff67edd6c8e021da939ae1ea4d07e118ea486a08451dc389d7c01e598b563f506c35e874adc205563f2d4b27be4bf8233c"
+RPM_NAME = "lua54-lpeg-1.1.0-1.1.aarch64.rpm"
+RPM_HASH = "aa5c51e8a35e3d4c01b01642cf66c6c53c82a3ab756fae1ae875c4e88da17751ea3d2b95065099e5fff418cdddcec4b5ea85a4c3ef985df29e50e8f59cff0144"
 
 RPROVIDES:${PN} += "lua-lpeg \
 lua54-LPeg \

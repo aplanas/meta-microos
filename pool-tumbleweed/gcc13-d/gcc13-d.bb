@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a D compiler and associated development \
 files based on the GNU GCC technology."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7364"
+PV = "13.1.1+git7552"
 
-RPM_NAME = "gcc13-d-13.1.1+git7364-1.2.aarch64.rpm"
-RPM_HASH = "a75ce36eba58b838adf298f07c3a9adf359f7bf7c804db60f362952ff8673bd2f5d0196fe64956e807816c137e29e65a59090e37e79f8f05fd6d2d39245cd8af"
+RPM_NAME = "gcc13-d-13.1.1+git7552-1.1.aarch64.rpm"
+RPM_HASH = "00f23ac31b1fafee0140b1241be5f423ec3e36cbd67ceb03272b21702f2209071a8507ae583bf4f29331dbc018ef0a35bdf154164e7bdc3c201ab63827f6723d"
 
 RPROVIDES:${PN} += "gcc13-d"
 

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.56.0"
 
-RPM_NAME = "grpc-source-1.56.0-1.2.noarch.rpm"
-RPM_HASH = "bd7735820b995e3c3e47944a540fab79bf7c7c9cf3cc09ccf2acf03d03d0b09721b91dd66d8d42527a608a3d715c2e65cb0966e30f51ce746a82176217ff8854"
+RPM_NAME = "grpc-source-1.56.0-1.3.noarch.rpm"
+RPM_HASH = "ba0a01a1d00205fbe4fe0f50f52a86ec90b42b54158df0d379526c349066a17b6151ddb3a9b7a7701e4ab0a4b1deac996ab85c982b07e17b3625b17541f57710"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grpc-source"

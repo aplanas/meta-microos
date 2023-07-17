@@ -2,10 +2,10 @@ SUMMARY = "The GNU C++ Compiler"
 DESCRIPTION = "This package contains the GNU compiler for C++."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7364"
+PV = "13.1.1+git7552"
 
-RPM_NAME = "gcc13-c++-13.1.1+git7364-1.2.aarch64.rpm"
-RPM_HASH = "4a84ab1cc955e1c9827ac06eb577e3e74a433ddc06dd59283d0d86116527d90e23b355d2ea5f8f920e7263d4168b5a8ec5d953567b8300a7a300b301612fd37b"
+RPM_NAME = "gcc13-c++-13.1.1+git7552-1.1.aarch64.rpm"
+RPM_HASH = "d7d31518fe397685f48f0d45dc24c9873803471c974a7249c25d680e19d6988181b738bb6d1378f32ca29ae565bc1b50d1f95ac976e24760f4b5ed380cf3c8e2"
 
 RPROVIDES:${PN} += "gcc13-c++"
 

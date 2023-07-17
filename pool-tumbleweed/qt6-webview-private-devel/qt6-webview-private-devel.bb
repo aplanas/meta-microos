@@ -5,12 +5,13 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-webview-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "77261d3288dd8ae8da2af9f9737a106f76cf4d7f498b9ce5b7477ccef68d844172323c902c6fa3d0fac1bdef4b55439da17a323f388444f29d63981d6a680c79"
+RPM_NAME = "qt6-webview-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "8c09a83ab3cf71959b0d7cf41ec5c99f8fdc64a50361c2a086a75db2d78e3818ed4a77574a3fe8802918334370fb46f3fc19c285c3f31d25cff8c240ea4aab72"
 
 RPROVIDES:${PN} += "qt6-webview-private-devel"
 
 RDEPENDS:${PN} += "cmake-Qt6WebView \
+qt6-core-private-devel \
 qt6-gui-private-devel"
 
 inherit rpm

@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-uitools-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "5a282ee14abfcc04c99641e437513248db19515861e023d414fe0df0e909fc03b082be29c931707ae2d4cb95ea5c3f41b5eca7c9022799916300a350532baf3b"
+RPM_NAME = "qt6-uitools-private-devel-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "bcf1b46b23dcb1a2b849f3436e63377851dd979f92062dfaee8ed8f0e74ce61cf5f32536bcaaefdfadf486ae26ca89974b8e2290ee59489ac3a164221840150d"
 
 RPROVIDES:${PN} += "qt6-uitools-private-devel"
 

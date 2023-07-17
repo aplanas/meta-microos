@@ -8,8 +8,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20230319"
 
-RPM_NAME = "libregf-devel-20230319-1.5.aarch64.rpm"
-RPM_HASH = "33bda32cd816b069cb748461b48e68116588bbfe3c1b14c2b4b0f3b2842077c09f431eeccc69bffc44a34c563c0d226cbbfd0c49fc96e0c0e19b81fc378bf898"
+RPM_NAME = "libregf-devel-20230319-1.6.aarch64.rpm"
+RPM_HASH = "585a53ce31194f5f32226ef2321b399e2e162df8b16716ff69f878abfc3fed5d75cb59011e6b119f980c16900ed3c2e073af8163c9713ed6d283d9fe6ff9faad"
 
 RPROVIDES:${PN} += "libregf-devel \
 pkgconfig-libregf"

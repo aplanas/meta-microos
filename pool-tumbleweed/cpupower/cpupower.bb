@@ -3,10 +3,10 @@ DESCRIPTION = "This tool accesses the Linux kernel's processor power subsystems 
 like CPU frequency switching (cpufreq) or CPU sleep states (cpuidle)."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.9"
+PV = "6.4.2"
 
-RPM_NAME = "cpupower-6.3.9-4.15.aarch64.rpm"
-RPM_HASH = "146be34f09931b8d180ad5ceb74cf3b0ecf074f6f355dc481ff82104778f46ce00c9c099a1d0b4da6aba718b6616349a9a83c4e52657b441a6c80f581f0c8dbc"
+RPM_NAME = "cpupower-6.4.2-4.16.aarch64.rpm"
+RPM_HASH = "3da9ccebf6be9ccd3d69d8cefe0a0fbba333148e51156dee45eea6757cb116f395afa34ce362d45c09ff8186b7f093630904c4be10de48e39d5f8e6065c41b07"
 
 RPROVIDES:${PN} += "cpupower"
 

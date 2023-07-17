@@ -2,13 +2,13 @@ SUMMARY = "Haskell persistent profiling library"
 DESCRIPTION = "This package provides the Haskell persistent profiling library."
 LICENSE = "MIT"
 
-PV = "2.14.5.0"
+PV = "2.14.5.1"
 
-RPM_NAME = "ghc-persistent-prof-2.14.5.0-1.7.aarch64.rpm"
-RPM_HASH = "a91b6fadb3232052e797a1cc7e578ffa15d57853915652d32f3b8743d15350d389fddaca090f22441879acf533f5299bb01d715449d2451380655b4921943da6"
+RPM_NAME = "ghc-persistent-prof-2.14.5.1-1.3.aarch64.rpm"
+RPM_HASH = "b364814134d4367aa86759398b531dfaaa8937c1b58e7b43fdf61ccf52bb7de6e10259f2c1f3d5fea025d7de66be0c234684b5272d7ac0a592b736bf5c216a3b"
 
 RPROVIDES:${PN} += "ghc-persistent-prof \
-ghc-prof-persistent-2.14.5.0-9uJ7TxdgaWz5Ow6lrik7k2"
+ghc-prof-persistent-2.14.5.1-8aZiHAHWity6p3rqRx3MdJ"
 
 RDEPENDS:${PN} += "ghc-persistent-devel \
 ghc-prof-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
@@ -20,10 +20,10 @@ ghc-prof-bytestring-0.11.4.0 \
 ghc-prof-conduit-1.3.5-EjJ71P6EbmSGTrvJLquwgr \
 ghc-prof-containers-0.6.7 \
 ghc-prof-deepseq-1.4.8.0 \
-ghc-prof-fast-logger-3.1.2-B9zh4yvWMU69CA1ZW1MVtN \
+ghc-prof-fast-logger-3.1.2-FrZhfcoVNTvDFmA3ecjq8Q \
 ghc-prof-http-api-data-0.5-V3iAwM0FHG5XKNP6QkA7J \
 ghc-prof-lift-type-0.1.1.1-2p47b0Ftg8mEbzaiZ22oeB \
-ghc-prof-monad-logger-0.3.40-G052AHl2mRW3aPPonmcvVW \
+ghc-prof-monad-logger-0.3.40-JON4xqa3KWj1ClCWFJbFYV \
 ghc-prof-mtl-2.2.2 \
 ghc-prof-path-pieces-0.2.1-7L2E0FvnHzn1hGutNz0iw4 \
 ghc-prof-resource-pool-0.4.0.0-CALzen0PV047R0s78YnQuW \

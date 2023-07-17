@@ -8,10 +8,10 @@ first class Unicode support and much more for you to discover. \
 Take a look at our excellent documentation in Mojolicious::Guides!"
 LICENSE = "Artistic-2.0"
 
-PV = "9.32"
+PV = "9.33"
 
-RPM_NAME = "perl-Mojolicious-9.32-1.2.noarch.rpm"
-RPM_HASH = "e93646cd0c1485e6768f36c45784627cb0b0c7ec75616905ca4c06050a26ccc230b1f9183c9f6a8b219ba1d82bc90d9acd23a509fe73e624ef02871a770dd4b9"
+RPM_NAME = "perl-Mojolicious-9.33-1.1.noarch.rpm"
+RPM_HASH = "d5602e3918de2d20305027f1ec839b0a4580a9353da969966e567544bed037d797956da0ddb638e04ef1b00b10adc05477cb98cb35c1f4ca5a6c6b697b147ef3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojo \

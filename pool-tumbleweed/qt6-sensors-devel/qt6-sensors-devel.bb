@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-sensors-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "62b4273c5b9a860d6312133e62387e7b5ecb08a9bb2049a9f10c617e010da9f0118cc3812b78001242c99060aafde71d0aa1014c825f4b2a1ed64e166af0e1f3"
+RPM_NAME = "qt6-sensors-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "7e133068f8ed4e6f1c07b12c87acec76da550b49039a3e6061fb9672b9b42575e6e3b2db5393fe9da7a9c31967375f3dfc78b24737dca12fc3e581ca73ed3bb9"
 
 RPROVIDES:${PN} += "cmake-Qt6Sensors \
 pkgconfig-Qt6Sensors \

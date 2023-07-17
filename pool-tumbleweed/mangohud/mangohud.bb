@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.6.9~1"
 
-RPM_NAME = "mangohud-0.6.9~1-1.2.aarch64.rpm"
-RPM_HASH = "2cef8db64e8df553c0edb9294cfce3ace24509855e78969a0e613dc6a5df6376ad0ea5a849d9ea24eab6003dc6a80bcf92b35a7c92c75c3c35deb5b5c4633328"
+RPM_NAME = "mangohud-0.6.9~1-1.3.aarch64.rpm"
+RPM_HASH = "5b3793cb14eef25c001a8e0409020dfe29a42a00268aa25d1fab22929baf61484857bf2bb1582de06e35c1f70c5c268a1a8e5b80b6dd5e773c61d0c9f3c6b368"
 
 RPROVIDES:${PN} += "bundled-ImGui \
 bundled-Vulkan-Headers-sdk \
@@ -20,7 +20,7 @@ libc.so.6 \
 libfmt.so.9 \
 libgcc-s.so.1 \
 libm.so.6 \
-libspdlog.so.1.11 \
+libspdlog.so.1.12 \
 libstdc++.so.6"
 
 inherit rpm

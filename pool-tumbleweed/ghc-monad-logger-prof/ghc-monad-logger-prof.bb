@@ -4,11 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.3.40"
 
-RPM_NAME = "ghc-monad-logger-prof-0.3.40-1.2.aarch64.rpm"
-RPM_HASH = "29094e15c2fa7cd77558a856d4f09c58ce92ba91f47d3ce478ad6cec8338ed08d03e9fa215bf95ab3d2e1c415707f6ba2a3baea2af5ae64742a8759f724b4f19"
+RPM_NAME = "ghc-monad-logger-prof-0.3.40-1.4.aarch64.rpm"
+RPM_HASH = "02061a53adb38f38117e06be4f9060630227293b00aee2323f8e44429eb4c4044091be9bdc40ce109bce94f5828f8358c0bb475d1d0de2fb271e0cf5839b69da"
 
 RPROVIDES:${PN} += "ghc-monad-logger-prof \
-ghc-prof-monad-logger-0.3.40-G052AHl2mRW3aPPonmcvVW"
+ghc-prof-monad-logger-0.3.40-JON4xqa3KWj1ClCWFJbFYV"
 
 RDEPENDS:${PN} += "ghc-monad-logger-devel \
 ghc-prof-base-4.17.1.0 \
@@ -16,7 +16,7 @@ ghc-prof-bytestring-0.11.4.0 \
 ghc-prof-conduit-1.3.5-EjJ71P6EbmSGTrvJLquwgr \
 ghc-prof-conduit-extra-1.3.6-1ns4btxv78gDsSQyRueTL2 \
 ghc-prof-exceptions-0.10.5 \
-ghc-prof-fast-logger-3.1.2-B9zh4yvWMU69CA1ZW1MVtN \
+ghc-prof-fast-logger-3.1.2-FrZhfcoVNTvDFmA3ecjq8Q \
 ghc-prof-lifted-base-0.2.3.12-2PslaVNAATq3HzvkpdIGSo \
 ghc-prof-monad-control-1.0.3.1-YXA6op7GEFFtfFxLr4pzX \
 ghc-prof-monad-loops-0.4.3-J6SAcCDTGblA6407vWEwF9 \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-declarative-examples-6.5.1-1.3.aarch64.rpm"
-RPM_HASH = "7e836da0939ef2210084f5bd26eb97cf7ffe0e21c396de892e8948ff0bd033d1db4e62b7c41c0adf5ff5dd478b2ce743b61f9afe0c50e1ff1618b72fa24ebc0b"
+RPM_NAME = "qt6-declarative-examples-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "7f29da8b70802c27763c72ec45c69d770adb3890c48f20c61fbe03c59633450b0cd997f7f69f7a88c8be5340bd6ca501ae5c8fd5035fb68f8444311353a13df1"
 
 RPROVIDES:${PN} += "libMyStyle.so \
 libaffectors-shared.so \

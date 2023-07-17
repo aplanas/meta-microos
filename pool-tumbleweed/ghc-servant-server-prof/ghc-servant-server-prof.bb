@@ -4,10 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.19.2"
 
-RPM_NAME = "ghc-servant-server-prof-0.19.2-2.7.aarch64.rpm"
-RPM_HASH = "ba81efc3daa031f2fa9be6cdd51274ce155dd1ae6dca392671240fc12ad0177849dd15d862be338c06e711802259928e132ee3297326d4232dcaff65169615cc"
+RPM_NAME = "ghc-servant-server-prof-0.19.2-2.8.aarch64.rpm"
+RPM_HASH = "fa4e36527944b79fb0aa935adf044b875f1c7f4e8d4fba26fb45e52407546b9307a038fe0d47250a168364a723496ab59902f3824f9b1f34f64d4b0728cdd320"
 
-RPROVIDES:${PN} += "ghc-prof-servant-server-0.19.2-4FIb8LV7jij3EgayMId9y \
+RPROVIDES:${PN} += "ghc-prof-servant-server-0.19.2-45Ad5DaXbfZ3KJksjW89lv \
 ghc-servant-server-prof"
 
 RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
@@ -34,7 +34,7 @@ ghc-prof-text-2.0.2 \
 ghc-prof-transformers-0.5.6.2 \
 ghc-prof-transformers-base-0.4.6-AlF1op8b8qY6wTtsY0MGEp \
 ghc-prof-wai-3.2.3-B6oJGZed88IFIvDpwN5I7x \
-ghc-prof-wai-app-static-3.1.7.4-DlFhTXkOZ8ZEEfx67nS2tW \
+ghc-prof-wai-app-static-3.1.7.4-AZD11N92jseJEftpoR1SbX \
 ghc-prof-word8-0.1.3-9uGjviso2af8K0EP8UmxRD \
 ghc-servant-server-devel"
 

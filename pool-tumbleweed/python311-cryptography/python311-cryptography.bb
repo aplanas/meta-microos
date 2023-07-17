@@ -10,10 +10,10 @@ symmetric ciphers, message digests and key derivation \
 functions."
 LICENSE = "Apache-2.0 | BSD-3-Clause"
 
-PV = "41.0.1"
+PV = "41.0.2"
 
-RPM_NAME = "python311-cryptography-41.0.1-1.1.aarch64.rpm"
-RPM_HASH = "cb04173cb2f7cfe3d718187b11b8ded8dd98058b55784c2dac84f9aaba8133b9c582d6628e68e044db813c01246ace27c74a38a85510f7a711f5889c2088c039"
+RPM_NAME = "python311-cryptography-41.0.2-1.1.aarch64.rpm"
+RPM_HASH = "dc11394156398b881250563dee4edc589a2e6490ec62b3f2e7182b96c3863782f772d1b84a7a03258332a3c169709091426e3ab2172ee85a437084548c513cde"
 
 RPROVIDES:${PN} += "python3-cryptography \
 python3.11dist-cryptography \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quick3dutils-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "e80988b54a0f5e4a264e8b07ec255c725ba74040b28f8a45ca865d71e8f4970578927d943fad84cdeaa3a74d538ca0398ca3a4e4fdaf983f96a42ace212b607e"
+RPM_NAME = "qt6-quick3dutils-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "81d4e7e8e933a5e7ff9c2cf82d5889feaf404c12c4c4502080e1d6aa3087ebf2f95e0aa510989173f49931e9cfcb8a94b7a5c26a5bb8483200583eac1c76e04d"
 
 RPROVIDES:${PN} += "cmake-Qt6Quick3DUtils \
 pkgconfig-Qt6Quick3DUtils \
@@ -13,9 +13,9 @@ qt6-quick3dutils-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake-Qt6Gui \
+cmake-Qt6Quick \
 libQt6Quick3DUtils6 \
 pkgconfig-Qt6Core \
-pkgconfig-Qt6Gui \
-qt6-quick-private-devel"
+pkgconfig-Qt6Gui"
 
 inherit rpm

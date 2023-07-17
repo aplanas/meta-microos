@@ -6,8 +6,8 @@ LICENSE = "GFDL-1.1-or-later & LGPL-3.0-or-later & GFDL-1.3-or-later"
 
 PV = "20221031"
 
-RPM_NAME = "python311-libbde-20221031-3.12.aarch64.rpm"
-RPM_HASH = "04ca4fec72f60ffbb50c1cbfb3daa08a403bebddd052c3340b18a6de53b544d77dfa1e7f274749806e39c9ef793f7fa45ccb118b82242f436264b656db5e83ae"
+RPM_NAME = "python311-libbde-20221031-3.13.aarch64.rpm"
+RPM_HASH = "83669e34f3ade5c8a79d69532a0cc67d246d1b9f664551988e90131f44eb1f566b6a7e2a6320848470340b6d6646dc491ee7ec64beff1d849f315fb4359e3fb4"
 
 RPROVIDES:${PN} += "python3-libbde \
 python311-libbde"

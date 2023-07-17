@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quick3dphysics-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "0d41627465bc4503cca28190b654be1e02c2b23b2dcaaaf94bdbd6a37894f62fd9ffec344ee01aa0f218b7b07923bd564487924eb2e91526918993e287ae6ce2"
+RPM_NAME = "qt6-quick3dphysics-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "cff505a0dc825af0db2114d8dab1fbec0b7a9eda8ef17a80d6410f087c685848196ff39af29a0ac32d910402062905a5ae6d83b32e8c9f00b497128e88613d4b"
 
 RPROVIDES:${PN} += "cmake-Qt6Quick3DPhysics \
 pkgconfig-Qt6Quick3DPhysics \

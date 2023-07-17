@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.3-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-base-docs-qch-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "8d1d8c2820019e1ce975ca9081cbf24d5742534cd2b4ec900ffa33fd060d887c0da7bdef05574bd3def0253dfae5f297706034fc39d4c4cf9cc0db1a05edf2e5"
+RPM_NAME = "qt6-base-docs-qch-6.5.1-4.1.aarch64.rpm"
+RPM_HASH = "12ddea1a6ab30478d6252132f99f901dc789e38dc2ad1d385209bc33eecbbb6f3152674e1d6ef51af42094c53165379f6d0a81828a916509c7a06be61dd5e982"
 
 RPROVIDES:${PN} += "qt6-base-docs-qch"
 

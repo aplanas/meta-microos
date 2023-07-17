@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "3.3.6"
 
-RPM_NAME = "ghc-warp-tls-devel-3.3.6-1.6.aarch64.rpm"
-RPM_HASH = "98deabbf50541c734d6500548b572f808aba24f17ee57bdf15ab99a9843b8ae63d97810887d4808815980fa4c30a6a0981b58b9928cd8522217d5f78fc4bbd65"
+RPM_NAME = "ghc-warp-tls-devel-3.3.6-1.7.aarch64.rpm"
+RPM_HASH = "c7c34a0897988f104b08217a29a596f7315ed12015174a38b6ee2b71d94a77cb85f18e70d4473f8e16c831c3e4d31a2b2438a1bac4d0bb4fb04a19413cfaacca"
 
-RPROVIDES:${PN} += "ghc-devel-warp-tls-3.3.6-84GlfJc6pctLoCFIjkFOFZ \
+RPROVIDES:${PN} += "ghc-devel-warp-tls-3.3.6-BIAYbi0ylEQD1wDWwu7oKA \
 ghc-warp-tls-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -23,7 +23,7 @@ ghc-devel-tls-1.6.0-GPxmmQRGk0xt2NkvZcJeD \
 ghc-devel-tls-session-manager-0.0.4-H4ntEZmH6lq6RcNU9soHmP \
 ghc-devel-unliftio-0.2.25.0-DN1mY49M6dHDqA19Vm4lY3 \
 ghc-devel-wai-3.2.3-B6oJGZed88IFIvDpwN5I7x \
-ghc-devel-warp-3.3.25-7qOcByHeVpuMAFF4vrupa \
+ghc-devel-warp-3.3.25-EsJVhH2AisSK67jSo7D0GP \
 ghc-warp-tls"
 
 inherit rpm

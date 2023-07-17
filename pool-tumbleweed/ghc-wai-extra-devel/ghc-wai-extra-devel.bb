@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "3.1.13.0"
 
-RPM_NAME = "ghc-wai-extra-devel-3.1.13.0-2.7.aarch64.rpm"
-RPM_HASH = "759e69297d752a2c7fd7d48304c89db93aba2b6ddec9180689dfd75d123dd044701cc8dbc7eda41f31ac5d78571d760939eec6d30ead35e0c7b04e5619f15c6e"
+RPM_NAME = "ghc-wai-extra-devel-3.1.13.0-2.9.aarch64.rpm"
+RPM_HASH = "67f61b43ef033b199e7205f0701ff9bdd027cb53072a66fadb94109ab85e92b3506cea62954eb477ef7073ffd546f6d0eff15bc14772273a22285c880c843597"
 
-RPROVIDES:${PN} += "ghc-devel-wai-extra-3.1.13.0-3pmfL93b8iXAmoBQvHdwGU \
+RPROVIDES:${PN} += "ghc-devel-wai-extra-3.1.13.0-LFtqIngDY3AAQ1a5w3zKO8 \
 ghc-wai-extra-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -24,7 +24,7 @@ ghc-devel-containers-0.6.7 \
 ghc-devel-cookie-0.4.6-Dg4BNZOQbFj7M1J2IgDFKE \
 ghc-devel-data-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ \
 ghc-devel-directory-1.3.7.1 \
-ghc-devel-fast-logger-3.1.2-B9zh4yvWMU69CA1ZW1MVtN \
+ghc-devel-fast-logger-3.1.2-FrZhfcoVNTvDFmA3ecjq8Q \
 ghc-devel-http-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6 \
 ghc-devel-iproute-1.7.12-IhoklPQYItb8qGu1G3vmcD \
 ghc-devel-network-3.1.4.0-FvtFepOtuCUH79FCWyNxIc \
@@ -36,8 +36,8 @@ ghc-devel-transformers-0.5.6.2 \
 ghc-devel-unix-2.7.3 \
 ghc-devel-vault-0.3.1.5-1nJxIV9kR8e5L3ZIpYZHc \
 ghc-devel-wai-3.2.3-B6oJGZed88IFIvDpwN5I7x \
-ghc-devel-wai-logger-2.4.0-HFZNBDhfTBI6FWxvAW2OQE \
-ghc-devel-warp-3.3.25-7qOcByHeVpuMAFF4vrupa \
+ghc-devel-wai-logger-2.4.0-JuVFE6hpBhqDKHgP60Zmqn \
+ghc-devel-warp-3.3.25-EsJVhH2AisSK67jSo7D0GP \
 ghc-devel-word8-0.1.3-9uGjviso2af8K0EP8UmxRD \
 ghc-wai-extra"
 

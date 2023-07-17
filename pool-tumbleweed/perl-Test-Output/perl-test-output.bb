@@ -7,10 +7,10 @@ Likewise, Capture::Tiny provides a much more robust capture mechanism \
 without than the original Test::Output::Tie."
 LICENSE = "Artistic-2.0"
 
-PV = "1.033"
+PV = "1.034"
 
-RPM_NAME = "perl-Test-Output-1.033-1.11.noarch.rpm"
-RPM_HASH = "de0642314178ababf43b062f385d8f29eb62f74fa1fc5b83fb5c4e5b212dd84317460cef5558aa6851430940eefb9fe5d7567c06d9fe3e0764530d18e3063dab"
+RPM_NAME = "perl-Test-Output-1.034-1.1.noarch.rpm"
+RPM_HASH = "653204472486dceb47657d847386e48eb424e50b60620ee35040a99754b90371a4821ba769ddcd8af9c5baa250dce60e730eafd10d05449d24324132b1599b14"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Output \

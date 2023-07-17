@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "8.13.15"
 
-RPM_NAME = "libphonenumber-devel-8.13.15-1.2.aarch64.rpm"
-RPM_HASH = "2f1787d96f72fa9510e391a828996d1b6804abd17847e36ea6884e416503a470567e7da4c771f3c42a2f8324e01ef7b4025a23862cbcc18032028cc87f72ff2a"
+RPM_NAME = "libphonenumber-devel-8.13.15-1.3.aarch64.rpm"
+RPM_HASH = "6e468c538c486d0bf89d73d3e428af5751a69e3cee59194d3ac5bd2229d86a99324bd9aceb174dcce390820bcd6548cc762fddc1ea25c87568ebb7844e0b2ce8"
 
 RPROVIDES:${PN} += "cmake-libphonenumber \
 libphonenumber-devel"

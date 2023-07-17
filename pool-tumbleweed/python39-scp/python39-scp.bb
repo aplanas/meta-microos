@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.14.4"
 
-RPM_NAME = "python39-scp-0.14.4-1.6.noarch.rpm"
-RPM_HASH = "159ac1b4dbc37617e274e1e98695fa759759ee031ca9385e79d5f61690f6f74cff9975c1564bf3313f2b0c6f9d8d1d0437a8361a9cc27a6315682e91ff470be9"
+RPM_NAME = "python39-scp-0.14.4-2.1.noarch.rpm"
+RPM_HASH = "779ab3af2501f5bc6ea5d6b195fedd35746fbc5c9334a036d339a4dcd0b77cf54f1f17bf3a9690c0eaba8d26014d057cdf3ec818fd697eb0381ed161a68ff1d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-scp \

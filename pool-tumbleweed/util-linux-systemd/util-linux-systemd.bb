@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.39"
 
-RPM_NAME = "util-linux-systemd-2.39-1.1.aarch64.rpm"
-RPM_HASH = "ba79db92635ebf83992da152ec3b2744bbc6997ec815d72d2d29052b3fe5cab7f2fd61fa6cd26aca7b92937d8f03934fd4f1da37c4312fda73bfa67a4f8c4197"
+RPM_NAME = "util-linux-systemd-2.39-2.1.aarch64.rpm"
+RPM_HASH = "f19498b78bdedbbcf4b0b37cc6cc3d1c7b008f895ce4172d390fe3f4f3a4fc8ead74ac7659de98d66de0679d4b6fca0305dfb85e17dc462e344305a08fce7ec1"
 
 RPROVIDES:${PN} += "/usr/bin/logger \
 util-linux-systemd"

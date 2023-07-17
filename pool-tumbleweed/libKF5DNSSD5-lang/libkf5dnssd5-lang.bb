@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5DNSSD5"
 DESCRIPTION = "Provides translations for the 'libKF5DNSSD5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5DNSSD5-lang-5.107.0-1.1.noarch.rpm"
-RPM_HASH = "9dc969af09c99c8453de18d905dc5f81301b4b5b494eaacfc4007e40ae5796ed903f449ef8c44e7cd4efafc208af65f3084744820a63b97c1ad3329b92638258"
+RPM_NAME = "libKF5DNSSD5-lang-5.108.0-1.1.noarch.rpm"
+RPM_HASH = "981b3414d04dbb0d5ae44149243faf4c54c297a36dd1852a44d1a7d532c0ac52e9edcf72bd41765e1b1aae90d708d04c8948fb30549c686fa0ef2bd9258fa5d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5DNSSD5-lang \

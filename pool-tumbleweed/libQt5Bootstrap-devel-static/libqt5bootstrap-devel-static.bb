@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
 PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5Bootstrap-devel-static-5.15.10+kde129-1.1.aarch64.rpm"
-RPM_HASH = "c39055c0333da2e5bd5e6d183dce90781d11ab458950393538a54397171adc075ae27488718122a832e24c4c022b1be073cd738962ded9b46facdeb01c03cc68"
+RPM_NAME = "libQt5Bootstrap-devel-static-5.15.10+kde129-2.1.aarch64.rpm"
+RPM_HASH = "33d63c4820e1ae27214e0b76e8dc2cc484c54b390a454e37fbf32f78579829e030f1e0389650e00148fdcff8c031b24e6afeacdc91ffaf53a608f2f21bee0840"
 
 RPROVIDES:${PN} += "libQt5Bootstrap-devel-static"
 

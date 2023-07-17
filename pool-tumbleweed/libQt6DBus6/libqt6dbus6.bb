@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6DBus6-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "cee866a95e34d7237a28ae00db9cca4218a0a02824c11b7319c600d31b80b67f883c32aff66e494c0648b1f2b6c5bcd899ad50b899865ae79af8ce2e4f5313fa"
+RPM_NAME = "libQt6DBus6-6.5.1-4.1.aarch64.rpm"
+RPM_HASH = "117524447cefec08b50e866f519bd9ed91cb34d97fdc09c31b8eb7de8ba6f86c526beef953297489f515ae67ee75b10f51e082c9257104e818bcfb43b66b3058"
 
 RPROVIDES:${PN} += "libQt6DBus.so.6 \
 libQt6DBus6"

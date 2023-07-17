@@ -7,8 +7,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20220105"
 
-RPM_NAME = "libcdirectory-devel-20220105-2.6.aarch64.rpm"
-RPM_HASH = "a8b64290ba6bc30912869e17941604417f42039d9e1083fffdb6049c8e9b026eace5902e3cae1d8e9d833986d24ba8683c315eb1128ec511222d78bf9d623b7c"
+RPM_NAME = "libcdirectory-devel-20220105-2.7.aarch64.rpm"
+RPM_HASH = "a55a31d225c2357d34349f3c46b0bc161568294358721b4116ecb1ac33f5e9b6b6e35c99ea161e1833d1fdf9499100f069d474a23264d2270bb90218ce458a49"
 
 RPROVIDES:${PN} += "libcdirectory-devel \
 pkgconfig-libcdirectory"

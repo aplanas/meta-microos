@@ -16,8 +16,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.12.1"
 
-RPM_NAME = "orthanc-1.12.1-1.1.aarch64.rpm"
-RPM_HASH = "71f86063f54ff15fc0188e10a690e67c6b5347d113e7a22089381f7a3f7db578e593bea3be0404ec27fd7ca4aff5911d7fae49678bbcab403a6385b45f4dd3bd"
+RPM_NAME = "orthanc-1.12.1-1.2.aarch64.rpm"
+RPM_HASH = "cdec0a4eb85a1f0bef09a14cec6ac5de877282357866588bb1cf92858e16b060c1194b83dcff065da8a11ea045365ab88bbd2baf47864ec00e2722ea4f5d4bb1"
 
 RPROVIDES:${PN} += "config-orthanc \
 libConnectivityChecks.so.1.12.1 \
@@ -54,7 +54,7 @@ liblua5.1.so.5 \
 liboflog.so.17 \
 libofstd.so.17 \
 libpng16.so.16 \
-libprotobuf.so.23.3.0 \
+libprotobuf.so.23.4.0 \
 libpugixml.so.1 \
 libsqlite3.so.0 \
 libstdc++.so.6 \

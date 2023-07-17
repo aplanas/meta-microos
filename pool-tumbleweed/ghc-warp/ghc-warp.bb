@@ -6,11 +6,11 @@ LICENSE = "MIT"
 
 PV = "3.3.25"
 
-RPM_NAME = "ghc-warp-3.3.25-1.7.aarch64.rpm"
-RPM_HASH = "a17b21ada7e24d0625b53e83eb14c46e6b34503f11baa0e38ebbdfa2dc6142fdcb9fe4d6919c2f8b7381e024aa1d8bdf96572d45f54515fc57da6c33aa35262c"
+RPM_NAME = "ghc-warp-3.3.25-1.9.aarch64.rpm"
+RPM_HASH = "62518b889b1425a18f105c0d22255f0c97d17da611ed983e8ada563f4e71b2befc105526b4d13962e3d3b23a620d091c5eb446fb2b529b724a6376b7ecaee6bf"
 
 RPROVIDES:${PN} += "ghc-warp \
-libHSwarp-3.3.25-7qOcByHeVpuMAFF4vrupa-ghc9.4.5.so"
+libHSwarp-3.3.25-EsJVhH2AisSK67jSo7D0GP-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSappar-0.1.8-JYpyJYPkUOgKorqU8WSWRv-ghc9.4.5.so \
 libHSarray-0.5.4.0-ghc9.4.5.so \
@@ -41,7 +41,7 @@ libHShashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt-ghc9.4.5.so \
 libHShourglass-0.2.12-3PFbUFQLMNb8Ad2s9SU5p3-ghc9.4.5.so \
 libHShttp-date-0.0.11-IfCBGXPFiMuIKzFtOTNgnD-ghc9.4.5.so \
 libHShttp-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6-ghc9.4.5.so \
-libHShttp2-3.0.3-COVYRU9DHikEztQPG0mdmy-ghc9.4.5.so \
+libHShttp2-3.0.3-C8jMo1PWq0Httjut7cZnE-ghc9.4.5.so \
 libHSinteger-gmp-1.1-ghc9.4.5.so \
 libHSinteger-logarithms-1.0.3.1-Hm9v2fsfG1DA5soPSLssZu-ghc9.4.5.so \
 libHSiproute-1.7.12-IhoklPQYItb8qGu1G3vmcD-ghc9.4.5.so \
@@ -71,7 +71,7 @@ libHStime-manager-0.0.0-49hD2RcPrUEG8anOiBePCj-ghc9.4.5.so \
 libHStransformers-0.5.6.2-ghc9.4.5.so \
 libHSunix-2.7.3-ghc9.4.5.so \
 libHSunix-compat-0.6-79KxxZMmklx25hsmeEnenN-ghc9.4.5.so \
-libHSunix-time-0.4.9-DrdwBL0FLhc5jN9Hujlou0-ghc9.4.5.so \
+libHSunix-time-0.4.10-LpZG5YAXe572FFFZnKOLQq-ghc9.4.5.so \
 libHSunliftio-0.2.25.0-DN1mY49M6dHDqA19Vm4lY3-ghc9.4.5.so \
 libHSunliftio-core-0.2.1.0-AEtYfdyUWlJCLfz2d4hPbj-ghc9.4.5.so \
 libHSunordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E-ghc9.4.5.so \

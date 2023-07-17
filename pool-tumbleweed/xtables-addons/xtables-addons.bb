@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later"
 
 PV = "3.24"
 
-RPM_NAME = "xtables-addons-3.24-1.9.aarch64.rpm"
-RPM_HASH = "97772a0713593e3c571c6c7fb44af09d8ee64cbcf2792952af6c3e677e6fd018b1b5854b31cc05e93294c486dc3d709d4bbccf32e8013f8f46757c243b4d0718"
+RPM_NAME = "xtables-addons-3.24-1.10.aarch64.rpm"
+RPM_HASH = "a33b5af2c44b749199229153c942c10b219eeb1afd2ea587dafe75127cf0ef432bb8fef2a6a6547a364476d2ac8535f24fd57dddd4efe4fadb6b68a5a7729fbc"
 
 RPROVIDES:${PN} += "libxt-ACCOUNT-cl.so.1 \
 libxt-ACCOUNT.so \

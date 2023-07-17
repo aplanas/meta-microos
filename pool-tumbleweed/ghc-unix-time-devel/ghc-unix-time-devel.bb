@@ -2,12 +2,12 @@ SUMMARY = "Haskell unix-time library development files"
 DESCRIPTION = "This package provides the Haskell unix-time library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.9"
+PV = "0.4.10"
 
-RPM_NAME = "ghc-unix-time-devel-0.4.9-1.6.aarch64.rpm"
-RPM_HASH = "430019a6902adde3b15cd3fccd0dd4b8f25dfaa36c75e9e78386157e2a98af2e359708e143ca406211220c7aca2f0cf558290d2a85900279f7eafb6b279b5e22"
+RPM_NAME = "ghc-unix-time-devel-0.4.10-1.1.aarch64.rpm"
+RPM_HASH = "01656b594b2115e66bfc5459161e45a08979f145d8a62766142260f7ad92c58786e60179330ffe229b060e4971045b623627e56f79d9902f62cff9e6aca765ed"
 
-RPROVIDES:${PN} += "ghc-devel-unix-time-0.4.9-DrdwBL0FLhc5jN9Hujlou0 \
+RPROVIDES:${PN} += "ghc-devel-unix-time-0.4.10-LpZG5YAXe572FFFZnKOLQq \
 ghc-unix-time-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

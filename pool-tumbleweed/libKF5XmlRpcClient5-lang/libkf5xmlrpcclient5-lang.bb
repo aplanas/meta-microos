@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5XmlRpcClient5"
 DESCRIPTION = "Provides translations for the 'libKF5XmlRpcClient5' package."
 LICENSE = "BSD-2-Clause"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5XmlRpcClient5-lang-5.107.0-1.1.noarch.rpm"
-RPM_HASH = "47c52d5358c7eb76934a15ce4986da7670b5f2dfb61f44bec362139ecc6bbc14c9c485f754660c482815795abfaf512aaf9329bf8264d74efc0b77a60fe86ec7"
+RPM_NAME = "libKF5XmlRpcClient5-lang-5.108.0-1.1.noarch.rpm"
+RPM_HASH = "1c1c749fe4bcea5bc277f507f9b65cef4fab87a5c1ac5d9d76408c4ff7602449bf743b8480826694d98a9df7b0d91da8b34b79b465d2d19c8015184dc30006fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5XmlRpcClient5-lang \

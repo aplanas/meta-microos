@@ -2,12 +2,12 @@ SUMMARY = "Haskell yaml library development files"
 DESCRIPTION = "This package provides the Haskell yaml library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.11.11.1"
+PV = "0.11.11.2"
 
-RPM_NAME = "ghc-yaml-devel-0.11.11.1-1.2.aarch64.rpm"
-RPM_HASH = "b668c7e474368bf5d96542a117ad413c96d597800d09b7839c1c60912ca7c600a13e199cfc001c1dca9367da6a057fd958f2d1c91106ddce5bfe5751e51ec091"
+RPM_NAME = "ghc-yaml-devel-0.11.11.2-1.1.aarch64.rpm"
+RPM_HASH = "362ea6adadbc321d5d09285eeb944fcc167a12208e7ca32df06118d7699fd5df566d6365290a8ffd6766ef9aca57ecbbc8d053e1595c5992f659c92610bead3a"
 
-RPROVIDES:${PN} += "ghc-devel-yaml-0.11.11.1-3T1xu4983kFHb1qERRZhqW \
+RPROVIDES:${PN} += "ghc-devel-yaml-0.11.11.2-4GYYolDKkXn5x4zdb9DA59 \
 ghc-yaml-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

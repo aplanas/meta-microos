@@ -2,10 +2,10 @@ SUMMARY = "HiSilicon based arm64 systems"
 DESCRIPTION = "Device Tree files for HiSilicon based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.9"
+PV = "6.4.2"
 
-RPM_NAME = "dtb-hisilicon-6.3.9-1.1.aarch64.rpm"
-RPM_HASH = "8ea71e1b48449952c037f83c1fc932c02d452e8e38d6c3869ac24b4d1916b97c1c0ed7a2e3e434aeecf52483ef484550c0b311a54aad454f01ac825e3988296e"
+RPM_NAME = "dtb-hisilicon-6.4.2-1.1.aarch64.rpm"
+RPM_HASH = "a34609aa5e2a67ed84b8fc3069e36c73bc8896693b3453e690d2087beca2ab33be2c6c9bd7d911f426e58fb662bb73d31bead798358fd3ecbcda25cceafd87cb"
 
 RPROVIDES:${PN} += "dtb-hisilicon \
 dtb-hisilicon64 \

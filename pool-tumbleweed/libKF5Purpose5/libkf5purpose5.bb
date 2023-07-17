@@ -8,10 +8,10 @@ can receive all the information they need. \
 This package contains the core library files of the package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5Purpose5-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "ed9b07ca641e8fb92c48de1c40a1589931a59a1afea823d216015fb4efd032e00d460e00d202ccb7352e1be7a560c745c3f9be856813e77bbc17fc35d66b9fc5"
+RPM_NAME = "libKF5Purpose5-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "5ba0386bcf8892edf84e3c19ade855f998d583d7a3391cb074bf28b0384b7c69eb844ffd02e413e616c07abf24f3f641231d3714277376defadcbe3f5167c4c6"
 
 RPROVIDES:${PN} += "libKF5Purpose.so.5 \
 libKF5Purpose5"

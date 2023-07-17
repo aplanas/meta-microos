@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.10.6.0"
 
-RPM_NAME = "libgnuradio-3_10_6-3.10.6.0-4.3.aarch64.rpm"
-RPM_HASH = "c887c29e92b6a4d42289a4f2592ff5b9ac033c9de5e9b1b336a586e1015472ae626bb6bbf8ee277f2a67b59c2f1a02300c359672da1b49848349668722faba9f"
+RPM_NAME = "libgnuradio-3_10_6-3.10.6.0-4.4.aarch64.rpm"
+RPM_HASH = "458319316227c002e9d49fdad2ce6ea0a9bf5f69abb7dee7a63a1059f35296b409f7a0439b3e57e7751930258efa1e5c0bacc3ace3546dc56d3a081d38eed73b"
 
 RPROVIDES:${PN} += "libgnuradio-3-10-6 \
 libgnuradio-analog.so.3.10.6 \
@@ -63,7 +63,7 @@ libm.so.6 \
 libportaudio.so.2 \
 libqwt-qt5.so.6.2 \
 libsndfile.so.1 \
-libspdlog.so.1.11 \
+libspdlog.so.1.12 \
 libstdc++.so.6 \
 libthrift-0.17.0.so \
 libuhd.so.4.4.0 \

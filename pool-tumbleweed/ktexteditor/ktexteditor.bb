@@ -3,10 +3,10 @@ DESCRIPTION = "KTextEditor provides a text editor component that can be embedded
 applications, either as a KPart or using the KF5::TextEditor library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "ktexteditor-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "f10ede600ba8158e5fe5e0c0bc4f57f9fc5835a4d456c2e35213316e2cef5082d4fff411ac982904b7cca914f590f9530fc4aa53f78e985901fc2fbf97f51d2c"
+RPM_NAME = "ktexteditor-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "a7c2c3302c6c7cc700d94d01b9c105952bc54e2aa9c705e747e98db84a1612ed8baf3c35ab630e7b6625bbea344fbf2da1d206b6c930bb4dab3ea9384857adcd"
 
 RPROVIDES:${PN} += "ktexteditor \
 libKF5TextEditor.so.5"

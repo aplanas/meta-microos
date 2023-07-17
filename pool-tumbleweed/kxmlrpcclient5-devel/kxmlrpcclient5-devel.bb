@@ -2,10 +2,10 @@ SUMMARY = "Library containing simple XML-RPC Client support: Build Environment"
 DESCRIPTION = "Library containing simple XML-RPC Client support. Development files."
 LICENSE = "BSD-2-Clause"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kxmlrpcclient5-devel-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "474a48288d22d15ae9648a56dcf5e2b28107e78a4884b53df7c35abfb31b6b95663fa18afa57e9824201ee3f5085ea8207d38633b3fbf77a6ba1d9ef0aa1da11"
+RPM_NAME = "kxmlrpcclient5-devel-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "cb4a58d1294829da2a31c821cc94ec16ac815cccb458b857d7ff7a27923939dc0a8f18e76ba75adf7094b510ddf3d76386a2921704a9ad6e16f3b6da1ca55112"
 
 RPROVIDES:${PN} += "cmake-KF5XmlRpcClient \
 kxmlrpcclient5-devel"

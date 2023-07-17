@@ -2,10 +2,10 @@ SUMMARY = "Perl extension to access the unix process table"
 DESCRIPTION = "Perl interface to the unix process table."
 LICENSE = "(Artistic-1.0 | GPL-1.0-or-later) & GPL-2.0-only"
 
-PV = "0.635"
+PV = "0.636"
 
-RPM_NAME = "perl-Proc-ProcessTable-0.635-1.2.aarch64.rpm"
-RPM_HASH = "772d2b9b2a1f0cba206a862b1b676e1881256f198c7a0881cb2e674d9f453cf3e387e33431a0ff6978bb2dd3547d95c265c24f488b58d63e9be6ba7d3eb30b63"
+RPM_NAME = "perl-Proc-ProcessTable-0.636-1.1.aarch64.rpm"
+RPM_HASH = "bce54ed23063e4b4632e69de141e1ee9188396df9250e41b32c92631f1a4c7d2166f00c3945ba9353d061e6d44b63b499f5bac0bcf8ed8abb5504fa407f68bf3"
 
 RPROVIDES:${PN} += "perl-Proc--Killall \
 perl-Proc--Killfam \

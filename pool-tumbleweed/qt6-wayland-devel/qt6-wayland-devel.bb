@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-wayland-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "7dca5df676cd9be12da02c37fa734f1884b79a910b0bb486b93e8c017bbe925d7dcaa07159aa9e2496d6a71775c6f090ae72ddaae91114842d4ba6155b39e2b4"
+RPM_NAME = "qt6-wayland-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "3a56afa212ce199ce368f6dcd920e3ca91484c83039e935b095bcfc2f577143693fcbe38f7410080cf084adc50344280d68f01370f2f1603ce1ccfacdc982d07"
 
 RPROVIDES:${PN} += "qt6-wayland-devel"
 

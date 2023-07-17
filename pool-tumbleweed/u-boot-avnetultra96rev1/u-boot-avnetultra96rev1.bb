@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains the firmware for the avnetultra96rev1 platform."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.04"
+PV = "2023.07"
 
-RPM_NAME = "u-boot-avnetultra96rev1-2023.04-2.2.aarch64.rpm"
-RPM_HASH = "a7022fb2e37f9c318685db147b5e1c93c913c498b58842235927975ffe25a34be45425043ebce41123f9d15ddf5bc9db64b6bb0e2ea419a91a8ffed7d1b0d66b"
+RPM_NAME = "u-boot-avnetultra96rev1-2023.07-1.1.aarch64.rpm"
+RPM_HASH = "43d02374dad9dbe355b221e567ce04d83cadaecfeeb4187710b9a9d787c50a5be295407d73d7c0d15183f39fdc56d310379d0e1df884f6826ef9b14badf0b134"
 
 RPROVIDES:${PN} += "u-boot-avnetultra96rev1 \
 u-boot-loader"

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.07"
 
-RPM_NAME = "uucp-xinetd-1.07-4.4.aarch64.rpm"
-RPM_HASH = "f65a2d27559f87360acf549557f588537668b11a21ca9705111aee0a9b5d293d1fe2d89ee3e100f1031494587a5ed78958911663cf1d54223be654ab9e80fd88"
+RPM_NAME = "uucp-xinetd-1.07-5.1.aarch64.rpm"
+RPM_HASH = "93536844c389d899aaf1d69ce6fcc01b7c3f7857e887eb9fe7f39f6be41c2f8ae0caa995b32f4a6944904e2864fc68550e66840cfedc94e480513ea31e52f624"
 
 RPROVIDES:${PN} += "config-uucp-xinetd \
 uucp-xinetd"

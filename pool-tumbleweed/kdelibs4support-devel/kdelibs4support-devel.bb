@@ -15,10 +15,10 @@ location as KDELibs4Support, although it may be sufficient to set the \
 KDEDIRS environment variable correctly. Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kdelibs4support-devel-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "7828bf236fdcf026184392ff4458f540f8d27c605d520f9d3016669300a96b15676492c3c8c2db8fbe97b2e26d2c3b98946184857d7c4d54ba6e02f690148c19"
+RPM_NAME = "kdelibs4support-devel-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "856dda3023ff928f863b51fd7dfbec130040cd14b35e1c61b721fa89e78878a64824d310ca6a2c9555b6ae915bf0bc9f7dcef499cdb806306bdc8c0ab5b72237"
 
 RPROVIDES:${PN} += "cmake-KF5KDE4Support \
 cmake-KF5KDELibs4Support \

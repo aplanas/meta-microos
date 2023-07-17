@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnucash"
 DESCRIPTION = "Provides translations for the 'gnucash' package."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception | SUSE-GPL-3.0-with-openssl-exception"
 
-PV = "4.14"
+PV = "5.3"
 
-RPM_NAME = "gnucash-lang-4.14-1.4.noarch.rpm"
-RPM_HASH = "b4d57ac9ce825b996c494e42540081ba0bc32c6acbfb7f494ab8c029b8f8887f87f19b5f9de45a8edd656a1d55b8a0dd11f3c186d16d62005965d18781cfc575"
+RPM_NAME = "gnucash-lang-5.3-1.1.noarch.rpm"
+RPM_HASH = "ec5094a7ae166a7e0df0eed6516ec8eaeabd390a23b58a2dc218b4a24a41507fb0dc2e9c84fba1ec1028dcac8ddcbf9172be143a86a050a86d16b79d3500bb27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnucash-lang \

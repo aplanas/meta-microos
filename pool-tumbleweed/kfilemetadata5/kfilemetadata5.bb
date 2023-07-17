@@ -2,10 +2,10 @@ SUMMARY = "Library for extracting Metadata"
 DESCRIPTION = "A library for extracting file metadata."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-3.0-only"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kfilemetadata5-5.107.0-1.2.aarch64.rpm"
-RPM_HASH = "57d3bd68d2372f32628dd7668a13f3a08324f6256e1fc2ff7680470dc57ba98bb436c0e89b70cdb2c2f96021e6423440f18893b043e473840d3e267ad823d37c"
+RPM_NAME = "kfilemetadata5-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "de06f875bcf0c7eea759ba9e0eb6491cfd6f833019aea375aad081cc18938103689bee28094fde8f6e9e2fe040d39392334da8af7ea97ebf29abe75596747916"
 
 RPROVIDES:${PN} += "kfilemetadata5 \
 libKF5FileMetaData.so.3"

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-sql-postgresql-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "3252f64f33a8dab0be1add768cbcb184bdba4cc15be5f59ce4033241b02950cbd50cb3bc719dcdc1d6b2ed60d9b490045f8cb3eb6814571c98e2e0cf66abacf3"
+RPM_NAME = "qt6-sql-postgresql-6.5.1-4.1.aarch64.rpm"
+RPM_HASH = "15318ba3d109b78c0cb7a4c047689e7769b6004bf8c9496de67c4a2af1802661b0a434345b9c1af59112480a9e74d1538bdb7adf05779d1c1f678cb648a459e4"
 
 RPROVIDES:${PN} += "libqsqlpsql.so \
 qt6-sql-postgresql"

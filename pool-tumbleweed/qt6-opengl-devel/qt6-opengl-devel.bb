@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-opengl-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "8e4f5ffe013bbb315ad71d0c563772de936e552b22f0daf125294ac8d376a079b9b911fb69f9479ca06d24c90b8497776995984827b704c2f80b11cb734b4459"
+RPM_NAME = "qt6-opengl-devel-6.5.1-4.1.aarch64.rpm"
+RPM_HASH = "5cdaaaa3e7a89a2ae6bab53cfad583f91ec607d4e2c9341b316d67020561f3ddbd5b738dac51ae9e1c20bfad517dadf0e9ad6a6e4dbac4a92b6fcf2a6b309e08"
 
 RPROVIDES:${PN} += "cmake-Qt6OpenGL \
 pkgconfig-Qt6OpenGL \

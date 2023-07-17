@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-network-tls-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "ad28a4b80b7b3592e7d20544fb5d64f89eefd2c6af423a4541bbef33eae7225e901819cd8ed6802bb193f3481e5a0c6e102ff637b856094db59bd40169e68028"
+RPM_NAME = "qt6-network-tls-6.5.1-4.1.aarch64.rpm"
+RPM_HASH = "332413ed4932fb3bfb2c4fb8e14a824a2a312984ec2b6c27622172d17cbe9f925fb3035ccc671b311427f00fd81c6b732a74ea228a2b1ff5a2356400d3cf4bb5"
 
 RPROVIDES:${PN} += "libqcertonlybackend.so \
 libqopensslbackend.so \

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "9.6"
 
-RPM_NAME = "python3-ortools-9.6-1.2.aarch64.rpm"
-RPM_HASH = "7f691011b52eaa2b8619eb63b743544f130661b6b9bd7814d6eaea534c471e0a8558a15bb48e09d936525ab505295c8488f4300acf8f9fead7c436e441b20891"
+RPM_NAME = "python3-ortools-9.6-2.1.aarch64.rpm"
+RPM_HASH = "04d487fcf2aeb04f91bd9c25c216116d059fd1c053b5bc4bcfeeb378dac6f85f3412a03d2e7edbaf65f8025fdf8a59a3c6a08e12dd09456732b8d2532378decb"
 
 RPROVIDES:${PN} += "python3-ortools \
 python3.11dist-ortools \
@@ -30,7 +30,7 @@ libabsl-time.so.2301.0.0 \
 libc.so.6 \
 libgcc-s.so.1 \
 libortools.so.9 \
-libprotobuf-3.21.12.so \
+libprotobuf.so.23.4.0 \
 libstdc++.so.6 \
 python-abi \
 python3-absl-py \

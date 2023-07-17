@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-chartsqml-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "7882fb56f49eb6575295604c0cf064b3d24525aaeb8c9815dc51533b88beb79657fa25c08dc0cb838054ca636d5b6022da8d779e3ccd8880787c2726d9d1a0a9"
+RPM_NAME = "qt6-chartsqml-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "d5677fee36b43fa77abd152be33d3db029c71e7d793084f022ee7c84490d35c9a92e7474cfad2dace49a826a3f05410e7f3e01afc2fd93cde15a7495e43d4872"
 
 RPROVIDES:${PN} += "qt6-chartsqml-private-devel"
 

@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-uitools-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "af543309c8d8575e40ab056e966072291a3a6d18d80ed8e65f3544b2d5b664fa58166cdacfa7e6c83856261704cf6fa78271125b70375d7a7e62c9b7b5058c08"
+RPM_NAME = "qt6-uitools-devel-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "6d98053b046f054dede529bbfe76669a17aef5148eebd147c56eb3542a8e6f22043832f2b57f67b4a9c7c070f692e15234a052b4b0b6e2de484e7bc17a5f079c"
 
 RPROVIDES:${PN} += "cmake-Qt6UiTools \
 pkgconfig-Qt6UiTools \

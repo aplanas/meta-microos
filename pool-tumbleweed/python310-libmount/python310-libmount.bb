@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.39"
 
-RPM_NAME = "python310-libmount-2.39-1.1.aarch64.rpm"
-RPM_HASH = "2147dcafc6706a6866200d8116d36b01041d08a3c1bf5cefd3ab15e0987afcbcb06ae901c231ac978405698010ae0fecd6ae7e24a826db12ad4a8aabbb6b3aae"
+RPM_NAME = "python310-libmount-2.39-2.1.aarch64.rpm"
+RPM_HASH = "1a750236f40717119b0fb37858cf67c4b920d4b9f6f05f57f1bd3b93cfb78389925b1d9977c2352474e17800570c10de4fda30ce792aa350b9106c1b4712b028"
 
 RPROVIDES:${PN} += "python310-libmount"
 

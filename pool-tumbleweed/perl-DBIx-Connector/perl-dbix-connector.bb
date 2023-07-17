@@ -12,10 +12,10 @@ You might be familiar with Apache::DBI and with the DBI's \
 does a much better job. How is it different? I'm glad you asked!"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.58"
+PV = "0.59"
 
-RPM_NAME = "perl-DBIx-Connector-0.58-1.3.noarch.rpm"
-RPM_HASH = "63f502a86d72991ba3113518d18e55bd324ade16959ddbed8e07a3dfa23e2a5fa42e4b15f1cd524eb1c023b1e97aa70c5d633b36fb19c3a8f7c648b991a49036"
+RPM_NAME = "perl-DBIx-Connector-0.59-1.1.noarch.rpm"
+RPM_HASH = "b8e1d908ac5555c8359cb32e6786b799cecd8f9e644855077a941c2ade9673ff2ca2f2042688867fbe92f4e16fbdeb4aa997e1c2da1d3b8d7f6b9c703d808967"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DBIx--Connector \

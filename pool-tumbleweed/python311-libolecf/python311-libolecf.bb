@@ -6,8 +6,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20221024"
 
-RPM_NAME = "python311-libolecf-20221024-3.8.aarch64.rpm"
-RPM_HASH = "b61f91a844fd63a23e8c417e94bebba1e7f73669c4a00f01d610e0f2034aa01eb7d5fd13236eb47dd6dc4fb6faf6f7690421d438c4cc193dfb60817cd11bc95f"
+RPM_NAME = "python311-libolecf-20221024-3.9.aarch64.rpm"
+RPM_HASH = "5a26b6cf73a75846fff2ed9f98c21268fdb67c2d90216dcbb8b2abd0517da2bd1af84be897983c707b19c6161eb95372fd6803459c6d3dc861172613646eb5c6"
 
 RPROVIDES:${PN} += "python3-libolecf \
 python311-libolecf"

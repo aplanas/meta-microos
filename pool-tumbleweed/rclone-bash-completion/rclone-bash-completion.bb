@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.63.0"
 
-RPM_NAME = "rclone-bash-completion-1.63.0-1.1.noarch.rpm"
-RPM_HASH = "197b3d89a37193c28cb146e2933ad47d565d1b4e2e483a1ee274979c57ff55b97ef88232edb4d6fdc9d5c3cf49c4b6cf849b61a7b5864e219db265c0a1dccd0a"
+RPM_NAME = "rclone-bash-completion-1.63.0-2.1.noarch.rpm"
+RPM_HASH = "d27042d715495c9a470a89ffa2fb554296b605beb24ec3d7ca02d0a24e4dece6e8a243a9fbd6be40572c3302a8644da01ae1b2582b21f8021724b58c7cf66b9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rclone-bash-completion"

@@ -10,13 +10,13 @@ also reexport 'Data.List'. Users are recommended to replace 'Data.List' imports 
 with 'Data.List.Extra' if they need the extra functionality."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.7.13"
+PV = "1.7.14"
 
-RPM_NAME = "ghc-extra-1.7.13-1.2.aarch64.rpm"
-RPM_HASH = "518d805c7b3cd7db29cd79fc44aba9c3319b11adecf5e55b928cad580daf6aa2927508eabb3d8dd3a5b9ff1e80f2cd2d02ba4a94db96002af8aa6a5a75b9b86d"
+RPM_NAME = "ghc-extra-1.7.14-1.1.aarch64.rpm"
+RPM_HASH = "dcfb99a74681d99e9bf736121f93639a36603dcd1c721f47f28cb3bf675c85d6d9a1df975bff2448b23b9a6296e39356bbcff1473d39eb5416526a759f04c855"
 
 RPROVIDES:${PN} += "ghc-extra \
-libHSextra-1.7.13-CLIQu72ADU8JHmf7UWoQG4-ghc9.4.5.so"
+libHSextra-1.7.14-BoqGpItPSHp5TXSaJGSPpo-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \

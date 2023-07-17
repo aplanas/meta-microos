@@ -11,10 +11,10 @@ directly. This is not necessary a good idea, unless you know what you are \
 doing."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "6.22"
+PV = "6.23"
 
-RPM_NAME = "perl-Net-HTTP-6.22-1.8.noarch.rpm"
-RPM_HASH = "e8c89d24ba45f9fcfe68431011b73d01e8fecbc0be9d5f508003e05591c2ce4b1ae9288c3646b538830018392b2cc7d0322226201d7fd9d6a7fbd1d1ade41ff4"
+RPM_NAME = "perl-Net-HTTP-6.23-1.1.noarch.rpm"
+RPM_HASH = "e0aa457c2499b4f1691c317fdb6ba78ed68f632ca842e0622399d321dbc655dc4da5762ce7bc02ecfc14c0f5dadc6492adc518639066fffa095dae292a1a6af7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--HTTP \

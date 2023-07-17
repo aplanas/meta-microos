@@ -2,10 +2,10 @@ SUMMARY = "Include files for libcpupower"
 DESCRIPTION = "Include files for C/C++ development with libcpupower."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.9"
+PV = "6.4.2"
 
-RPM_NAME = "cpupower-devel-6.3.9-4.15.aarch64.rpm"
-RPM_HASH = "a0d59f14446232ed12fed415cac74d62c119f464f83a3bf43e024a729e8f801c1e17f160349da0ab83848d1f32dea6150ab47906ed8004998a7f67b5b1c82277"
+RPM_NAME = "cpupower-devel-6.4.2-4.16.aarch64.rpm"
+RPM_HASH = "048b21b7b219a3899a0d5e52d261e16788c03b9a9f2534103834a457bbcc03f42f6e63db801f615859aa04dbefe9972790f04cd357a15789c0444887e0144ce3"
 
 RPROVIDES:${PN} += "cpupower-devel"
 

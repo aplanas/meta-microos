@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-tools-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "fe9b412731459bef7dc3ba8c8185159da253039e6f9249962cd2fc4703b0ca5a100e1fce5739eb981d46fb26aea332b59d6d7a0c8185f4686dc65249313e8e48"
+RPM_NAME = "qt6-tools-devel-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "0a884bbd0e7b9d64872d00dce2c5e72f30e1082cc206893fe6bae50be4271398af38fba67cb7bff077e65d5d65cf11750492c564c9197d7e47917f83697e02bd"
 
 RPROVIDES:${PN} += "cmake-Qt6Tools \
 cmake-Qt6ToolsTools \

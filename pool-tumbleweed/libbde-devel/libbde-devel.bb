@@ -9,8 +9,8 @@ LICENSE = "GFDL-1.1-or-later & LGPL-3.0-or-later & GFDL-1.3-or-later"
 
 PV = "20221031"
 
-RPM_NAME = "libbde-devel-20221031-3.12.aarch64.rpm"
-RPM_HASH = "6d5ac9314ad01e26251ff44dcdf7ad1f1d7ba428d94d4948be8b991f9fe7f0c14be78d705edf23ce8abdfe89a8b9251a9741eb9a35d62e3f6146d48bdf594aa9"
+RPM_NAME = "libbde-devel-20221031-3.13.aarch64.rpm"
+RPM_HASH = "b165cb2c205b0805d097009f3d7c81a1fe7120ade6aa9c39099e8c472a485e978d4a786e2061a3ada861781d4ca26a6c16b2b2c1c8c7fadb551d64535005232d"
 
 RPROVIDES:${PN} += "libbde-devel \
 pkgconfig-libbde"

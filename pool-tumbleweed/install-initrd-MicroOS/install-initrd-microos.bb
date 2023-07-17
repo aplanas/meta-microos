@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "17.89"
 
-RPM_NAME = "install-initrd-MicroOS-17.89-1.31.aarch64.rpm"
-RPM_HASH = "ee7565f3dbcfc1afca081784b881b51fc19e9b1ae3d6d7f5f120b1344aa0355fe18d78a2714e20a43be200e55d82ed0d641810bf79328b5b2f28dff2d8a1d596"
+RPM_NAME = "install-initrd-MicroOS-17.89-1.40.aarch64.rpm"
+RPM_HASH = "cb0aeb4e123ed471f287d0e0f70e6183b1728a7b9d6015562aea2696f2f8fbf40a5e5cd6116cd33954e5425a702a1d74b696b265b91b3fea053a880dcde1c7a6"
 
 RPROVIDES:${PN} += "install-initrd \
 install-initrd-MicroOS"

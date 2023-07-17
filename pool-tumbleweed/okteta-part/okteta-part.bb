@@ -2,10 +2,10 @@ SUMMARY = "Hex Editor KParts plugin"
 DESCRIPTION = "Hex editing component for KParts"
 LICENSE = "GFDL-1.2-only & GPL-2.0-only"
 
-PV = "0.26.11"
+PV = "0.26.12"
 
-RPM_NAME = "okteta-part-0.26.11-1.1.aarch64.rpm"
-RPM_HASH = "27cb834425e2ea797978efcc0aac3ad762a43039d4340667f9131825e12edc4d036e892d97eb7a868322edbd92c329cb5081ad8f8b4434147677122c74ab753a"
+RPM_NAME = "okteta-part-0.26.12-1.1.aarch64.rpm"
+RPM_HASH = "f7e81c288b8d1f6fdb1b722aadda6fdca08a17b5f661d881304cecbd62fe6c04f20f8198cd4894e1d43f1e27eb62cf1d0d8dec591b20501070cead0c831e267b"
 
 RPROVIDES:${PN} += "okteta-part"
 

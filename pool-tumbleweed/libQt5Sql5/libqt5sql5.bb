@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
 PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5Sql5-5.15.10+kde129-1.1.aarch64.rpm"
-RPM_HASH = "0d212a54b3fb131fbbe721d1706a13b10a2cd8c8ef9d5ee34cb9bac51c9861eee7d81b25cdb53b834c004c76b951f391e8f4cae9b1d44eb63670e5fc7dca3609"
+RPM_NAME = "libQt5Sql5-5.15.10+kde129-2.1.aarch64.rpm"
+RPM_HASH = "29c0ca8970e7ff05a4292dcf25f27b47576030edff4bdbae036166c1d5d5f767a4a13de5b7d2661963795ee49fbf66df2ac8d3b8164cdbdb975adaff6a7871cb"
 
 RPROVIDES:${PN} += "libQt5Sql.so.5 \
 libQt5Sql5"

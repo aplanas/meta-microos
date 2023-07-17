@@ -7,10 +7,10 @@ management. \
 This package contains the Qt 5 bindings."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.20.0"
+PV = "1.21.0"
 
-RPM_NAME = "libqgpgme15-1.20.0-1.2.aarch64.rpm"
-RPM_HASH = "42c2473158f4136298210a83c608d3b5df47e734a826d9e663da84442456b58e01c6ddf45a3e1a3e85fbb6dbaf3f71cccebe0dcd57676429faef8ceda5e40008"
+RPM_NAME = "libqgpgme15-1.21.0-1.1.aarch64.rpm"
+RPM_HASH = "546f629d643cded10841e636f99c5bcb820ba72565569f92d01b206f02b165b80933e4f973909a0703b340b0531752066e4345a9e9743436eb9e8f19dde16cd9"
 
 RPROVIDES:${PN} += "libqgpgme.so.15 \
 libqgpgme15"

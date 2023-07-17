@@ -4,10 +4,10 @@ applications. It supports several different plugins, including \
 HSpell, Enchant, ASpell and HUNSPELL."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5SonnetUi5-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "350a430b85ec1251baa9fb745633fc28bc1fffd04b717e85df420d5a08fda26015eceba89c408fb9db8896a49882b1be75a433941f2fe48eaca67da7d3e949d6"
+RPM_NAME = "libKF5SonnetUi5-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "cb2cc28fe977df80b9cef87c108b8dfac3e77fae392ef3a9e51c7daeea9a153a146f13b640c72986642185727554a5f4685bf8b8195e02d2f34af448e9245297"
 
 RPROVIDES:${PN} += "libKF5SonnetUi.so.5 \
 libKF5SonnetUi5"

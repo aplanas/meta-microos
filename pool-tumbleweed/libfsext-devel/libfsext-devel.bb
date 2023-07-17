@@ -7,8 +7,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20230603"
 
-RPM_NAME = "libfsext-devel-20230603-1.4.aarch64.rpm"
-RPM_HASH = "0671dadb1e859d3910bd6cadfe632f9fe494731ec8af162bdfd56c147cdc22949180bc325d00b00238e88b3cd670b9bf91c314a2f72ef2570336cfd6ac1c77b2"
+RPM_NAME = "libfsext-devel-20230603-1.5.aarch64.rpm"
+RPM_HASH = "c2d8da5e86061e71408ea6a1c53af7cbb3a02b2eebbefa66c4e29339655b984fa3c7680fb2ac69f8a6101208cf1a473682912489e144b38b0fe595f8aa85577c"
 
 RPROVIDES:${PN} += "libfsext-devel \
 pkgconfig-libfsext"

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-bundledresonanceaudio-devel-static-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "38d66d5d3cb69adc3f9bf82204c608bc28abd5f0b63d5d8162db2d9170a0a68949cc941c897f78869f1a51cfae3d0ad46d70ce059074efcd4663a454e7dc0c07"
+RPM_NAME = "qt6-bundledresonanceaudio-devel-static-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "6ff751d52ca0be2c295dcc52bfd8d6453e4c76da0ffe9b5768a4cff53bc7f39db76a10cbda99bae5e6900720de2b62d970747d726200066c1f32e8056633c024"
 
 RPROVIDES:${PN} += "cmake-Qt6BundledResonanceAudio \
 qt6-bundledresonanceaudio-devel-static"

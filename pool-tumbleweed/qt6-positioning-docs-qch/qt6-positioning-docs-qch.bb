@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.3-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-positioning-docs-qch-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "d732dbc7b343b6590d5000744f111119c72c5da2b6a65378675be74a7a3d6f88d38a437d2416e8a00411ddb197e90a6879b81d86db24ae67739d58e3f4f1e2c2"
+RPM_NAME = "qt6-positioning-docs-qch-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "cca989e937045409eedbc203ea943cbceef9b380c675e6c7de381bffc914eaf86dbab441963057cc75140edf42ede5d9dee19477c126bee4f729d9457b20e6be"
 
 RPROVIDES:${PN} += "qt6-location-docs-qch \
 qt6-positioning-docs-qch"

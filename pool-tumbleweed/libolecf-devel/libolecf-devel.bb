@@ -7,8 +7,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20221024"
 
-RPM_NAME = "libolecf-devel-20221024-3.8.aarch64.rpm"
-RPM_HASH = "3093938df5bad4b5f43d5bbc9b2c4ff82b792453aad41f29b2586be4becf4d809069f2d39f9c6a01abee553b25265526f5a750c28504a8869f00932429fe454c"
+RPM_NAME = "libolecf-devel-20221024-3.9.aarch64.rpm"
+RPM_HASH = "2c6407ce02c9c7e61188a54cddf541795b409bc7e758a1eb9b8e18e17dae04a4848cb85092a5410eb6c1f8a05b1ffb208b161eaa8bf88b163b4c8b150d91ac98"
 
 RPROVIDES:${PN} += "libolecf-devel \
 pkgconfig-libolecf"

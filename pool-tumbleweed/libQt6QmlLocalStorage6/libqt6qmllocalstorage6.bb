@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6QmlLocalStorage6-6.5.1-1.3.aarch64.rpm"
-RPM_HASH = "1b829b9131b572c6d623df94cb0630cf74257c3ed7b858c382ec3c386043e4d82fe8b23fc4d5f5055d15015cad0a0fbe6f725b7ac6a7b811a403d7d33b62e7cd"
+RPM_NAME = "libQt6QmlLocalStorage6-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "4e671f771e4eb200c0766fd68696165abb062d0fc75cc25a66dbfae1f83003f67e54ac27715e1daf05277a5374ac75f3bd8cfcb551d194865ec31963c9d983ae"
 
 RPROVIDES:${PN} += "libQt6QmlLocalStorage.so.6 \
 libQt6QmlLocalStorage6"

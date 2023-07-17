@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.4.0"
 
-RPM_NAME = "ghc-wai-logger-doc-2.4.0-2.5.noarch.rpm"
-RPM_HASH = "48ab9bcb6beb7cd3fe4af6660adb4450915c14027eedd0f14792f10d53d2e8042cf5c438da868a2f3fc6d35551aa10a4e4ab69f6274eaeea40a5756fe85d06ff"
+RPM_NAME = "ghc-wai-logger-doc-2.4.0-2.6.noarch.rpm"
+RPM_HASH = "1b16701130368653f6207b9b86664a8cae5b31f70c92788e888348d893fd1279fc02653f09db7bc19f535e82672680ea30902687022bd98722486637a92f176a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-wai-logger-doc"

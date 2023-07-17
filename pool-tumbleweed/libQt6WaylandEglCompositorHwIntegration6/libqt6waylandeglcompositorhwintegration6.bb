@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6WaylandEglCompositorHwIntegration6-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "2fb3bb6df1d42b09d1dfec991d16d2472cce2e778d7e26a56537da8f5e975df9e42aeb55d2d4263536b41a1c88821187a07f348b5c161edb72e2a25c8bca5f6e"
+RPM_NAME = "libQt6WaylandEglCompositorHwIntegration6-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "489b80f372647726513379939a1b5417fd494c6336116d8c9c2b81072fea3406bbd889781d3c17c9acc695cce400cddf023a887da621f690eb439288ca910dd9"
 
 RPROVIDES:${PN} += "libQt6WaylandEglCompositorHwIntegration.so.6 \
 libQt6WaylandEglCompositorHwIntegration6"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6Coap6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "1fb1a6337d5a78a2790e0c045a26a87f42596f244140289047c1567e6d663e708e258ce9eb64f0d1519d30525eb5edcbba75198dded6bb7a79dc784f2a7fc1e0"
+RPM_NAME = "libQt6Coap6-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "f5353559eb7d7efdafb97c541464862d2bbde62b63da4639cbd064bf366877b79f319ac237d30ed226d09238fff4ed95116d14f9f215b2cc4d9bcdfa786f9b13"
 
 RPROVIDES:${PN} += "libQt6Coap.so.6 \
 libQt6Coap6"

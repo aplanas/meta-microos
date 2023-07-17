@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-wayland-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "71aa4ef07f8d2baae287837c3412337d60a97327cf9bd35b533b79057beb14eebdeb9638113c44ba3f2175f23188289472cf142542c861065b55d70d4253c2db"
+RPM_NAME = "qt6-wayland-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "0d6b4970688e2832d5969ec65289b36a9b8b364d83c43f1a22fedb2b6310f414acae32bf56f7691ec6abc1ad99c51a9a7db3f4ceb589900c7ea923f38c0a561d"
 
 RPROVIDES:${PN} += "libbradient.so \
 libdmabuf-server.so \

@@ -14,13 +14,13 @@ of pretty-printing. If you specify '-flib-only' like this \
 the command-line tool will NOT be installed."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.8.9"
+PV = "0.8.10"
 
-RPM_NAME = "ghc-aeson-pretty-0.8.9-4.3.aarch64.rpm"
-RPM_HASH = "00043d3076bb67a71a14aa338bfa8d522e58f454bd3ee485b2ffdb72dc2f69b9133f7279efc5a51baa546a0d0b8b474a17a8afafe74ebee05500a8379ba1b79c"
+RPM_NAME = "ghc-aeson-pretty-0.8.10-1.1.aarch64.rpm"
+RPM_HASH = "3164b9295c6390478bb269aaea51af15da19302056bc916f5fa471b6bb717199b06dde1cc4f4a7bb009345607e15e3f24d7d9494e2e52ffb83768aa9b0f717b6"
 
 RPROVIDES:${PN} += "ghc-aeson-pretty \
-libHSaeson-pretty-0.8.9-ANiMUyahKok8eMC9BUYvO0-ghc9.4.5.so"
+libHSaeson-pretty-0.8.10-8JRVLG9BqWz7B95FOCRy0B-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV-ghc9.4.5.so \
 libHSQuickCheck-2.14.3-6dq2izV8oSq1BobaDA598X-ghc9.4.5.so \

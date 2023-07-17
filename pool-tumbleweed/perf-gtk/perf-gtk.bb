@@ -2,10 +2,10 @@ SUMMARY = "Gtk browser for perf-report"
 DESCRIPTION = "A GTK2 frontend for perf-report. (Use `perf report --gtk`.)"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.9"
+PV = "6.4.2"
 
-RPM_NAME = "perf-gtk-6.3.9-80.8.aarch64.rpm"
-RPM_HASH = "9b4dd2077058be2507fa272413ccae7665ecb02c387a21b58aea03f7695af300eadced169b7dde13f4c445b891665f44863c6433902ad78e9f1c898b6a562542"
+RPM_NAME = "perf-gtk-6.4.2-80.9.aarch64.rpm"
+RPM_HASH = "8c0e35cb84c1d1006588a407b95c505b49eadbbd65cf037f953dcb35700053974fc3657acd9d2c26a003ce5d0e6b37fcfdf045ee5b58b0465fc78a08b50f0f6e"
 
 RPROVIDES:${PN} += "libperf-gtk.so \
 perf-gtk"

@@ -38,10 +38,10 @@ See http://www.openswartz.com/2007/09/06/standard-logging-api/ for the \
 original post proposing this module."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.715"
+PV = "1.716"
 
-RPM_NAME = "perl-Log-Any-1.715-1.2.noarch.rpm"
-RPM_HASH = "5d7563422c409279e1015c100fdb80e222b81c4b8c20bd2fc796cc905ba27bc12250fcd08c2dbd3d833b5a03378767621c6931676660253af50748cd9ed8daee"
+RPM_NAME = "perl-Log-Any-1.716-1.1.noarch.rpm"
+RPM_HASH = "568c28236f0809a174525c3383dba3e8ac20f2da6a7f090ca753e0cf0b0ec8db01f1027d0fdf910edcc0d66b2e236a8b57d47a8591660e57e4cf64ac9d3d9232"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Log--Any \

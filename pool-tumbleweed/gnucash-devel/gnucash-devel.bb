@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides all the necessary files for development of 
 a personal finance manager."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception | SUSE-GPL-3.0-with-openssl-exception"
 
-PV = "4.14"
+PV = "5.3"
 
-RPM_NAME = "gnucash-devel-4.14-1.4.aarch64.rpm"
-RPM_HASH = "05adb62a045301160e92ac68c8834056ed0dfaca5bba67cb515c8999281ac249d1a82b1e5a5e1d8b20b6a2fd415a0e016df133481e81eb90fec01595e1f55c29"
+RPM_NAME = "gnucash-devel-5.3-1.1.aarch64.rpm"
+RPM_HASH = "de78bc4579c8a63fb78065b7f1add4513bf71d6be2d29557060187cda91f25ae40254b0e2b58e2d959b1cd670a1017fbd71248c93c0945b00502a1dca93da935"
 
 RPROVIDES:${PN} += "gnucash-devel"
 

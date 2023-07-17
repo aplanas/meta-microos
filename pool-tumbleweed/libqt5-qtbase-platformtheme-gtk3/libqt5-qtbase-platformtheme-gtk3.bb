@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
 PV = "5.15.10+kde129"
 
-RPM_NAME = "libqt5-qtbase-platformtheme-gtk3-5.15.10+kde129-1.1.aarch64.rpm"
-RPM_HASH = "8365a66a01db9688045fe89166d4483efdc4279096fd687de1e2281a5d0184213d38baddba424f488d5d9c53149c550d9070172340ce4b747f0edb94ff0d3326"
+RPM_NAME = "libqt5-qtbase-platformtheme-gtk3-5.15.10+kde129-2.1.aarch64.rpm"
+RPM_HASH = "1c9bd7f8988616ebf021f1ee8782899ef0b19436b27b00a6b301dcf308d6151316c5b5b706f989e843e98538866005530c438a611dd63e3d17d885ec8b94f324"
 
 RPROVIDES:${PN} += "libqgtk3.so \
 libqt5-qtbase-platformtheme-gtk3"

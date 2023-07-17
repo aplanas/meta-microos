@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6DesignerComponents6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "fe03e1d53f2162e29771cd20e231616673614eeae12a64328c766d0e4eac902b746af070cffd85ffb9fb678a32122b442a5cd69482e3bcf7d5bebd1b2692036c"
+RPM_NAME = "libQt6DesignerComponents6-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "a8e87e79c30e3633914feab065d581e38e004348102ebfdf7bcd53a42203910edfe951d83aaf40f3b9b9f38381e38cb00c73f4f5c1348f6513569ba9111b1f0d"
 
 RPROVIDES:${PN} += "libQt6DesignerComponents.so.6 \
 libQt6DesignerComponents6"

@@ -2,10 +2,10 @@ SUMMARY = "Keep detailed records of the performance of your Django code"
 DESCRIPTION = "Keep detailed records of the performance of your Django code."
 LICENSE = "MIT"
 
-PV = "4.23.0"
+PV = "4.24.0"
 
-RPM_NAME = "python311-django-perf-rec-4.23.0-1.1.noarch.rpm"
-RPM_HASH = "d2ef090ffa4ae1226b233f72d7b9b79fcdb68931db3bc5a87bd995f0ad5352efbf4819e6bf8a4092c29e499f3a8708b10bafc4ef30c8a324a8de96764d8e2777"
+RPM_NAME = "python311-django-perf-rec-4.24.0-1.1.noarch.rpm"
+RPM_HASH = "728d82e95bb74e37969f21ee64b0b0909df25959aa230b3838879c23e18905599793c193d056e5a1e3801351bce06852f06ec11f86ac18a22271b60c69b74176"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-perf-rec \

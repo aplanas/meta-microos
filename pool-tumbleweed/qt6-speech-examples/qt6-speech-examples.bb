@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-speech-examples-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "286171422a8f1d0beb15d5e84d0dac1ed53decd696069daafad9e854efdd59709c4ab370ad7ca381e048c1c8a7c7943aa72e8d138ee505d9956dce9fbae2be93"
+RPM_NAME = "qt6-speech-examples-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "117213d3cc112b945917afc300db8eac65d45c17c6b743103ff005490291daed2d898a2001b9594e2329988ac1d1a3c241e659b97a468780efdaf0f03699529d"
 
 RPROVIDES:${PN} += "qt6-speech-examples"
 

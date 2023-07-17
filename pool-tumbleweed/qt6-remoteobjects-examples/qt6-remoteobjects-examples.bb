@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-remoteobjects-examples-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "2d3269b467ac8235c98f5cb4232fa90b74f4ad101140fac26ab19533a9978abf643177d47e7214ccc4905009d4fa36f91ce58eacba3aeb9ecb68f7a280d34070"
+RPM_NAME = "qt6-remoteobjects-examples-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "c8d1df8c56a0b7a3ca9036c6fc788b75844b47717360fe554464bcb786891ae51050a5fe86dfd1cfbea475320ac94b5d47e64b8a7e7ff982c2f0189d6055bb7e"
 
 RPROVIDES:${PN} += "libqmlqrotimeexampleplugin.so \
 qt6-remoteobjects-examples"

@@ -6,8 +6,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20230606"
 
-RPM_NAME = "python39-libfsntfs-20230606-1.4.aarch64.rpm"
-RPM_HASH = "bfac78873b22443413772e631554755dd100a6e9b0ab66e553a1017bcaac120dc7dbf33ae2f67b775d19afa915baa697b9acbdabb17771373773a76afe3c538a"
+RPM_NAME = "python39-libfsntfs-20230606-1.5.aarch64.rpm"
+RPM_HASH = "bdaf38ef7872add3b0fa56544c508213a0750dae8d1e4a23a713b60db2fa7a4c6d493dfda2fc8d243f9d4b137bcc68642265be73a85b12703d1ef04403401bdf"
 
 RPROVIDES:${PN} += "python39-libfsntfs"
 

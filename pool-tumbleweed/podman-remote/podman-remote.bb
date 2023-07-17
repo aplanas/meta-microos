@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.5.1"
 
-RPM_NAME = "podman-remote-4.5.1-1.2.aarch64.rpm"
-RPM_HASH = "cd84e9e9df1c6ef9d9440f6abf4a025beac9854b51d6348ca5219bb836a86b779c1384ae4f8e748548335bbe0621a1b270fc8df144cf90b41dc99a88ea40127e"
+RPM_NAME = "podman-remote-4.5.1-2.1.aarch64.rpm"
+RPM_HASH = "099bcce6301d9d3ec44d155b10eba04cfc8562e06687e8ef575f1b84336234f58fab2ecee309f90f0bfb72d665f42f4ec29c1dad6b966cebf3413e3239f4c6c6"
 
 RPROVIDES:${PN} += "podman-/usr/bin/podman-remote \
 podman-remote"

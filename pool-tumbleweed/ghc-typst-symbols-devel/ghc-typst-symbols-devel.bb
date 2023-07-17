@@ -2,12 +2,12 @@ SUMMARY = "Haskell typst-symbols library development files"
 DESCRIPTION = "This package provides the Haskell typst-symbols library development files."
 LICENSE = "MIT"
 
-PV = "0.1.0.1"
+PV = "0.1.2"
 
-RPM_NAME = "ghc-typst-symbols-devel-0.1.0.1-1.3.aarch64.rpm"
-RPM_HASH = "3f6294afbdbf496425e64070d5550b5574f105de550a262b1792948fe10b188b05d4403c1e21d813f3b14ad53b810395f445ccc3996246ec3c3486b7e99725c0"
+RPM_NAME = "ghc-typst-symbols-devel-0.1.2-1.1.aarch64.rpm"
+RPM_HASH = "e4833b7f296488d58dd7b8868f1fd8e3a686b4ca74b4d9797721c3896d0938cb3c55dac42d0fc0adc9c97661e3ee0704287da704e9d2ae204943c0d5989cf7b8"
 
-RPROVIDES:${PN} += "ghc-devel-typst-symbols-0.1.0.1-68asM8ctSWGeebFauBl8u \
+RPROVIDES:${PN} += "ghc-devel-typst-symbols-0.1.2-6B3ZvJm94WZ4qfFjRZShld \
 ghc-typst-symbols-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

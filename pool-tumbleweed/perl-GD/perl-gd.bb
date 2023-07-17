@@ -1,14 +1,14 @@
-SUMMARY = "Perl interface to the gd2 graphics library"
+SUMMARY = "Perl interface to the libgd graphics library"
 DESCRIPTION = "*GD.pm* is a Perl interface to Thomas Boutell's gd graphics library \
 (version 2.01 or higher; see below). GD allows you to create color drawings \
 using a large number of graphics primitives, and emit the drawings as PNG \
 files."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.76"
+PV = "2.78"
 
-RPM_NAME = "perl-GD-2.76-2.2.aarch64.rpm"
-RPM_HASH = "efac72c5036848ce0454664ff1b9682940344caea966c4e1b025d420d54cf04d4d79f8820147aa34836f3961465a846b7a931087bd01998c210db7c3e9c611f4"
+RPM_NAME = "perl-GD-2.78-1.1.aarch64.rpm"
+RPM_HASH = "78562daf8c1b1a5f3269b30b7651aacd223d2c7a12602446659d5ffc91c93c3217a196438bd283149d267aed8f3b7770d8af57f86818a1ebfe780df3c7e2f044"
 
 RPROVIDES:${PN} += "perl-GD \
 perl-GD--Group \

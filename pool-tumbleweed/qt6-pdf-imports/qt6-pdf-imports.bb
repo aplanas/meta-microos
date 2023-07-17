@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-pdf-imports-6.5.1-1.3.aarch64.rpm"
-RPM_HASH = "e690825e7ae4a56b4ea24d2b36bfec70a46ad236a62e52923fd8f448486312f3486bd6aeab459b6d00149f9798100217a9289c4b207cca523e48004f68200cb3"
+RPM_NAME = "qt6-pdf-imports-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "fa2883d66b4f6ae42503fafa7b3900d0ac82091146915ce3c010abe88f09b04041b6cafc1d17457f9477c3a881c523b28cf9d633857a22ca5d210ee9d86d24ef"
 
 RPROVIDES:${PN} += "libpdfquickplugin.so \
 qt6-pdf-imports \

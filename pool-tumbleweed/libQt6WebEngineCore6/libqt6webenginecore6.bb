@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6WebEngineCore6-6.5.1-1.3.aarch64.rpm"
-RPM_HASH = "6803a79fd679b05ae6301c262402c3b2652b2e11f0c5f7c1ee582dd543bd321b1621f099c331ad17de73a6bf188fd91c5134475715c2abe4256c42766db7c201"
+RPM_NAME = "libQt6WebEngineCore6-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "93d83d37a1073de141672b5292c7b54cc87bd7d2ffda73c50dc043031badd8080adc02e11d79ba47217a98f6c023409513dbbb5d14d7a516ddce78422c470c2c"
 
 RPROVIDES:${PN} += "libQt6WebEngineCore.so.6 \
 libQt6WebEngineCore6"

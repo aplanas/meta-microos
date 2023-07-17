@@ -3,10 +3,10 @@ DESCRIPTION = "Locale data for the GNU Compiler Collection (GCC) to give error m
 in the current locale."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7364"
+PV = "13.1.1+git7552"
 
-RPM_NAME = "gcc13-locale-13.1.1+git7364-1.2.aarch64.rpm"
-RPM_HASH = "f11cc3a33eeb0d870efae5c56234ecf0c885d2ce794cccc98b1328944e54d0d910d7c305e89444be5ed9605df8af9c4bcc1f418ed62fca5d25a05d0b8e4ac124"
+RPM_NAME = "gcc13-locale-13.1.1+git7552-1.1.aarch64.rpm"
+RPM_HASH = "774eb23b6a2cfee56f15c783d72f4771b3f0d5d4cb2792497530bd740caca0a25c67f2f3f27f2f8f1a63dd93696f554e8d7c60e7fd1ea1806d897a4662173ced"
 
 RPROVIDES:${PN} += "gcc13-locale \
 locale-gcc13-be \

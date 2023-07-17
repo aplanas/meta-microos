@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6TextToSpeech6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "482ac3f25f1bfbc89bd6e36e7e0969c4becd692c57c2e5b9f63aab454e972e42709d7ea9e858ca5701e903af49f5a681f1f9c4b3d8366375fa24c2d6a410e5d0"
+RPM_NAME = "libQt6TextToSpeech6-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "77940e258084fc0211afe9e69fad3278423dbeeed6813d59905d49eef543bccfe14913ae0d4a5582bcd9e7371fd213deac9fe67b4510d04532a4a8cfc540edee"
 
 RPROVIDES:${PN} += "libQt6TextToSpeech.so.6 \
 libQt6TextToSpeech6"

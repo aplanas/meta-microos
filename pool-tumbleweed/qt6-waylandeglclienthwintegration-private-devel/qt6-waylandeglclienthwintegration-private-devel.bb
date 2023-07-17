@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-waylandeglclienthwintegration-private-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "2a8f83b00e311d86c2861c1689057c270fac1e6d4a5d8756851701325bbe84b422a6f01617f0091f42822d79fa9abc6298e343ce9d42bcf87b62010b5d0c8619"
+RPM_NAME = "qt6-waylandeglclienthwintegration-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "02ce2ba2ef7a82dcbed58f77b019a710d572aa09d764d674563a4e3659b4cd865a96e1fed54a482bea346b3d9127f1d8fbbe50aa19959c94b31535daa50a2054"
 
 RPROVIDES:${PN} += "cmake-Qt6WaylandEglClientHwIntegrationPrivate \
 qt6-waylandeglclienthwintegration-private-devel"

@@ -13,10 +13,10 @@ Authors: \
     Ian Pratt <ian.pratt@cl.cam.ac.uk>"
 LICENSE = "GPL-2.0-only"
 
-PV = "4.17.1_04"
+PV = "4.17.1_06"
 
-RPM_NAME = "xen-tools-domU-4.17.1_04-1.2.aarch64.rpm"
-RPM_HASH = "43befe6d7d2fcde478313ed6f1b6a553d84bdbe45e7836895f655c3f351c4f22ef8947dcd0d11eb4b420bb27594f0c1b7749119fbe3ae0839852010327b425a8"
+RPM_NAME = "xen-tools-domU-4.17.1_06-1.1.aarch64.rpm"
+RPM_HASH = "6590e1c95f3abf294b3033eab39bce26fa5685d169d753634b085702755f296412c24b959747513f9ffe5949fa265eef5978be38398aa451660aa436673b12dc"
 
 RPROVIDES:${PN} += "config-xen-tools-domU \
 xen-tools-domU"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-3dquickanimation-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "81a4cd898aa0e37789d275c4756265a88453de13b550f04e9b1aadd4c7fa762e20a589bbe7bba9fb5c65eed2e8761d2cfc93e6f9a7b650ceb9d0071eaee7a84b"
+RPM_NAME = "qt6-3dquickanimation-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "0a21c35b27eb999277609dd2e810bd8e5f2016be8478c0e9b62755aa3babe8bfe26ce14965e2bbe4160b25ac39b84dd28b73d43eaf636c6edbe255b65a1cf9df"
 
 RPROVIDES:${PN} += "cmake-Qt63DQuickAnimation \
 pkgconfig-Qt63DQuickAnimation \

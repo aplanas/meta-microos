@@ -5,13 +5,13 @@ Derived folds still traverse the container just once and are often as efficient 
 as hand-written folds."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.14"
+PV = "1.4.15"
 
-RPM_NAME = "ghc-foldl-1.4.14-2.6.aarch64.rpm"
-RPM_HASH = "fe237e192e2f820472827cbcd5ff029d47eff28959909c263a3198e9b30aff41165c968f0b3d7fde816b1539acf8d3a98f3e1719efdb13ad85095128647b839f"
+RPM_NAME = "ghc-foldl-1.4.15-1.1.aarch64.rpm"
+RPM_HASH = "e31c9ffec5c8b19b201cde452448ae5406a1ecf7700724bf19c3114410a1718060344a4bc43e82d3e0504b5c199ca30d4c5826ae6a19d7379145a22c161e0b93"
 
 RPROVIDES:${PN} += "ghc-foldl \
-libHSfoldl-1.4.14-6AA7lw3dsEK1uUeCGro40c-ghc9.4.5.so"
+libHSfoldl-1.4.15-F8c77skQAn4DvWPbyzbRUi-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so \
 libHSarray-0.5.4.0-ghc9.4.5.so \

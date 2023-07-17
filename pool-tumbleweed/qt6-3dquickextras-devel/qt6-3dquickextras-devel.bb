@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-3dquickextras-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "d542d81b09410684c2a5dc786e0eeae28777636a69e4d0ada766cd05fd1d8759809a6c6bb30c23b2adea3b26738c53bb8a560d779b6c1f5b68341f643d82a4c9"
+RPM_NAME = "qt6-3dquickextras-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "81ad5e809b7cd25e962d3bbaf30a0a4c36cbedb921fdcb397a8ad8683eebf397df096e6e88315d14380f5a3806f33ec2f69559dcd987c3c1e1c7b229b87e9370"
 
 RPROVIDES:${PN} += "cmake-Qt63DQuickExtras \
 pkgconfig-Qt63DQuickExtras \
@@ -15,6 +15,7 @@ RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake-Qt63DCore \
 cmake-Qt63DExtras \
 cmake-Qt63DInput \
+cmake-Qt63DLogic \
 cmake-Qt63DQuick \
 cmake-Qt63DRender \
 cmake-Qt6Gui \

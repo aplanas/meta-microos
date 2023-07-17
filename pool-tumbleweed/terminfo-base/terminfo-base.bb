@@ -5,10 +5,10 @@ contains information about any known terminal. The ncurses library \
 makes use of this database to use terminals correctly."
 LICENSE = "MIT"
 
-PV = "6.4.20230617"
+PV = "6.4.20230701"
 
-RPM_NAME = "terminfo-base-6.4.20230617-15.1.aarch64.rpm"
-RPM_HASH = "e248b499c11776b4b51f67752ac982524e2bd48f7864065be8b1a465c2d98e2925a25344782d4981775c21c427197714a3b4c2d2b6121c7d2c0299b34e7c6404"
+RPM_NAME = "terminfo-base-6.4.20230701-16.1.aarch64.rpm"
+RPM_HASH = "6e5e8f427e4a410f789f204713d431a8d36ddef7d8a4cd70e4a5ce396be9b7ddc65175b3c91ef7afa251234bd1a7df19312a753d147c61322a0d9d1e87d69b06"
 
 RPROVIDES:${PN} += "config-terminfo-base \
 ncurses-/usr/share/tabset \

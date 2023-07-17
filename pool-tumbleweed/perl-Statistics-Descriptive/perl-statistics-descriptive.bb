@@ -16,10 +16,10 @@ Many of the methods (both Sparse and Full) cache values so that subsequent \
 calls with the same arguments are faster."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "3.0800"
+PV = "3.0801"
 
-RPM_NAME = "perl-Statistics-Descriptive-3.0800-1.13.noarch.rpm"
-RPM_HASH = "265f09376f6d548af450492ad3229515007bd1f23cb64a3eb6d5ea5584636a2fc79933c9dc843778eca35fc477b7e0756ec9c632adcc44533090682d8d9d5ed1"
+RPM_NAME = "perl-Statistics-Descriptive-3.0801-1.1.noarch.rpm"
+RPM_HASH = "0a7b2a0939ed5b8ab1ad622eb34d600bb6f7f7233ebd8047711582ea3cd125372b74e9939e211c6aba76af58cba0900f70d56ee7db02be3e8f1c3db2d2d859ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Statistics--Descriptive \

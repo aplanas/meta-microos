@@ -6,10 +6,10 @@ For a higher level parsing/language tool (i.e., a nicer interface to \
 Arpeggio) see textX"
 LICENSE = "MIT"
 
-PV = "2.0.0"
+PV = "2.0.2"
 
-RPM_NAME = "python39-Arpeggio-2.0.0-3.5.noarch.rpm"
-RPM_HASH = "61e3865847a9bde07caf2202e1e2d1e122e80ba5eb52a88659f12def67f6b0b2d259bc8430ce5902487cd1dd1a298544b0fa86dbdcfe50685ed252cda8dbfc1f"
+RPM_NAME = "python39-Arpeggio-2.0.2-1.1.noarch.rpm"
+RPM_HASH = "d2a1bc933d71e925a03f14dd3a7efb74f5514d92064fcaf9aa25059d627fdccbb703debf67af4a304a0fb442719d312bf6c3ab2409fe4640305ea12b6d18638f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-arpeggio \

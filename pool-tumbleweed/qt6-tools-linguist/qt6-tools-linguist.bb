@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-tools-linguist-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "bb343cf39c3b240333a05d9e363fc4c280a413dfe5e94ae50a8183115f61aee85218cc2a8e36a69ea7932d04cade9e8fb23f30205f0eedebe847f99cfcb8a232"
+RPM_NAME = "qt6-tools-linguist-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "3d969fe69e6791a7d61d44922e0ef22687b2e93864cf073f91f5fd2949c8a550493cb3769a25d93927a48b89ecfd07d4c511c4df3ddb8896a28800315af4b462"
 
 RPROVIDES:${PN} += "qt6-tools-linguist"
 

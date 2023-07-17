@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.3-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-virtualkeyboard-docs-qch-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "be13224db16373366e5ccc7d94d0fc0b5fa3201d1dc5ad97baf46e61fb23b201cba6038acf7885dd873fbef1b79186112137a4f5163e357d76802233092fed8f"
+RPM_NAME = "qt6-virtualkeyboard-docs-qch-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "d6d3a57a7568c540a60dc4ab60f0292b349d337db092cb04c4ecafb610510f141a50a5d12787e23dc40445122cb19fb35d95932d0a6d64982b9c632602c8a27f"
 
 RPROVIDES:${PN} += "qt6-virtualkeyboard-docs-qch"
 

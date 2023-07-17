@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
 PV = "5.15.10+kde129"
 
-RPM_NAME = "libqt5-qtbase-private-headers-devel-5.15.10+kde129-1.1.noarch.rpm"
-RPM_HASH = "e5c1e2c3293e43aae66ce685e46c0964bff5fd6a19f848b88bb26e4345bb844c0cca1389db80d570fd025687acc7d83bb7349526155042bca3047f9c9952a71b"
+RPM_NAME = "libqt5-qtbase-private-headers-devel-5.15.10+kde129-2.1.noarch.rpm"
+RPM_HASH = "3d116ede9b25891846400d28084ba9e008af74fc1863f5a5a081748bc884d6f3046829585c979afbc5513ca6e52ebcb92e5c02b6c18b5992f719e62b9ea0b6ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qtbase-private-headers-devel"

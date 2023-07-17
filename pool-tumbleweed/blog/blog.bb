@@ -7,10 +7,10 @@ buffer is used to hold the information for writing it to an existing \
 logging file."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.26"
+PV = "2.27"
 
-RPM_NAME = "blog-2.26-2.3.aarch64.rpm"
-RPM_HASH = "61bc03f72ec494d6bf21964e88ad5c2bebf14db4382682176ece59d8b18cc73738b59c5880d7ef8f0c5922fa65e6229dfda4ad543facff3ee00e1dc7d5ba3013"
+RPM_NAME = "blog-2.27-1.1.aarch64.rpm"
+RPM_HASH = "a3ad2c5ae9d598451f0fe1e954910693e75e05b2217247b15f5bcaa7024009b670bd85437b8be4827dec50af6715d131d02840d583f79cf8e4f73a5d4cf0a642"
 
 RPROVIDES:${PN} += "/sbin/isserial \
 blog \

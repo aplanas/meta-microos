@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
 PV = "5.15.10+kde129"
 
-RPM_NAME = "libqt5-qtbase-common-devel-5.15.10+kde129-1.1.aarch64.rpm"
-RPM_HASH = "c575b612f225dd8dd9aa2671282d0cbad171d6d779096c7014be9f953b1c37ae0b05ee3eef1c5d0e1597151c84ded40862043ae04a50020ff91fa561b6781386"
+RPM_NAME = "libqt5-qtbase-common-devel-5.15.10+kde129-2.1.aarch64.rpm"
+RPM_HASH = "406442de9a3906acbaf796496dd1d293cdbe1b9f3aa60cc7aca7615cf7399561d50fb876e34f00a43cf0e4b7f33435f4302b7f059e4748885c687b55b965bbac"
 
 RPROVIDES:${PN} += "libqt5-qtbase-common-devel \
 rpm-macro--libqt5-archdatadir \

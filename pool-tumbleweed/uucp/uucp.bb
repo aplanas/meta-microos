@@ -19,8 +19,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.07"
 
-RPM_NAME = "uucp-1.07-4.4.aarch64.rpm"
-RPM_HASH = "0340db3a5eb7e3fe7e5506e96b5a04640422d8060cf126d44009f8904a71c268a06661d75e74a764e425458bcf019f40f3c51392d2f3ac97edda807869222e5c"
+RPM_NAME = "uucp-1.07-5.1.aarch64.rpm"
+RPM_HASH = "ebcbc87576425e4a65765293303ed702973d854723f3d7fb636b5c0be615ad9389ee2e724bb8bcfea68eef9430b0c2afad4fb4a92b289a639b44d875cb6f5143"
 
 RPROVIDES:${PN} += "config-uucp \
 uucp"
@@ -32,7 +32,6 @@ fileutils \
 group-uucp \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-liblockdev.so.1 \
 libnss-usrfiles2 \
 logrotate \
 netcfg \

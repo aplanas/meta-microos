@@ -4,19 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.11"
 
-RPM_NAME = "python310-libusbsio-2.1.11-1.1.aarch64.rpm"
-RPM_HASH = "475c0b253ffe0f1e4e9960aae9c69e45b0c9cd6f0c0c0e2ee810cff9e295d4749b20653b58082ae4d96bdb0eebf0e882a096ae4a5cae4a787277227c1c9c019a"
+RPM_NAME = "python310-libusbsio-2.1.11-2.1.aarch64.rpm"
+RPM_HASH = "95cddd6dd50615c7477b521101530c1cae685adda92253b5b9c15a0a113e69a26609d508c768dfcfa6a8957242d79e7d83fc3edb817dcd63620f0a68fe18007f"
 
 RPROVIDES:${PN} += "libusbsio.so \
 python3.10dist-libusbsio \
 python310-libusbsio \
 python3dist-libusbsio"
 
-RDEPENDS:${PN} += "libc.so.6 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 libudev.so.1 \
-libudev.so.1-LIBUDEV-183 \
-libusb-1.0.so.0 \
-python-abi \
-rtld-GNU-HASH"
+python-abi"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 various sound drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230620"
+PV = "20230707"
 
-RPM_NAME = "kernel-firmware-sound-20230620-1.1.noarch.rpm"
-RPM_HASH = "f68ab2a676fe86a6bb8d5dab3ae31953e4eb28ac9a1d38b891ebe1e31fcd1b323a139b89ec3019cf0ae430e6052b4ff3c95817448ccb75c78dae33c9af5af292"
+RPM_NAME = "kernel-firmware-sound-20230707-1.1.noarch.rpm"
+RPM_HASH = "a36987a78f5e2cfb8de26f5169d9c0bbe1f10d6e380376563bed0003678e8d9b24e4d9e7af95bfba40519f157755accf610e4fec7700bb352de3346b3447c955"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-cirrus/cs35l41-dsp1-spk-cali-103c896e-l0.bin \
@@ -392,6 +392,7 @@ firmware-mediatek/sof/sof-mt8186.ldc \
 firmware-mediatek/sof/sof-mt8186.ri \
 firmware-mediatek/sof/sof-mt8195.ldc \
 firmware-mediatek/sof/sof-mt8195.ri \
+firmware-qcom/sc8280xp/LENOVO/21BX/audioreach-tplg.bin \
 firmware-sb16/alaw-main.csp \
 firmware-sb16/ima-adpcm-capture.csp \
 firmware-sb16/ima-adpcm-init.csp \

@@ -4,10 +4,10 @@ drivers.  This package is provided only for compatibility with older kernels \
 that do not support the compressed format."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230620"
+PV = "20230707"
 
-RPM_NAME = "kernel-firmware-20230620-1.1.noarch.rpm"
-RPM_HASH = "6302ffb2b00295383f010b76e19e7d57fada2f788ee99e187fd4a5217c054d16f555543df2608683acc0ec3f2efe0e6778856d0e313daf4132fa195da48badf7"
+RPM_NAME = "kernel-firmware-20230707-1.1.noarch.rpm"
+RPM_HASH = "c516dafb9f86b2efe2626b72a51be1873783e6da1d3fb6ca0830e26ff9e5de57ede526063f8c5407c89ae4ec02846cfdf38c54d186e4a51a2ff0f68d12f9da81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "3-model-a-plus.txt) \
@@ -1644,7 +1644,7 @@ firmware-intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq \
 firmware-intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq \
 firmware-intel/ibt-hw-37.8.bseq \
 firmware-intel/ice/ddp-comms/ice-comms-1.3.40.0.pkg \
-firmware-intel/ice/ddp-wireless-edge/ice-wireless-edge-1.3.7.0.pkg \
+firmware-intel/ice/ddp-wireless-edge/ice-wireless-edge-1.3.10.0.pkg \
 firmware-intel/ice/ddp/ice-1.3.30.0.pkg \
 firmware-intel/ice/ddp/ice.pkg \
 firmware-intel/ipu3-fw.bin \
@@ -1738,6 +1738,7 @@ firmware-iwlwifi-so-a0-gf-a0-77.ucode \
 firmware-iwlwifi-so-a0-gf-a0-78.ucode \
 firmware-iwlwifi-so-a0-gf-a0-79.ucode \
 firmware-iwlwifi-so-a0-gf-a0-81.ucode \
+firmware-iwlwifi-so-a0-gf-a0-83.ucode \
 firmware-iwlwifi-so-a0-gf-a0.pnvm \
 firmware-iwlwifi-so-a0-gf4-a0-72.ucode \
 firmware-iwlwifi-so-a0-gf4-a0-73.ucode \
@@ -1746,6 +1747,7 @@ firmware-iwlwifi-so-a0-gf4-a0-77.ucode \
 firmware-iwlwifi-so-a0-gf4-a0-78.ucode \
 firmware-iwlwifi-so-a0-gf4-a0-79.ucode \
 firmware-iwlwifi-so-a0-gf4-a0-81.ucode \
+firmware-iwlwifi-so-a0-gf4-a0-83.ucode \
 firmware-iwlwifi-so-a0-gf4-a0.pnvm \
 firmware-iwlwifi-so-a0-hr-b0-72.ucode \
 firmware-iwlwifi-so-a0-hr-b0-73.ucode \
@@ -1766,6 +1768,7 @@ firmware-iwlwifi-ty-a0-gf-a0-77.ucode \
 firmware-iwlwifi-ty-a0-gf-a0-78.ucode \
 firmware-iwlwifi-ty-a0-gf-a0-79.ucode \
 firmware-iwlwifi-ty-a0-gf-a0-81.ucode \
+firmware-iwlwifi-ty-a0-gf-a0-83.ucode \
 firmware-iwlwifi-ty-a0-gf-a0.pnvm \
 firmware-kaweth/new-code-fix.bin \
 firmware-kaweth/new-code.bin \
@@ -2646,6 +2649,7 @@ firmware-qcom/leia-pfp-470.fw \
 firmware-qcom/leia-pm4-470.fw \
 firmware-qcom/sc8280xp/LENOVO/21BX/adspr.jsn \
 firmware-qcom/sc8280xp/LENOVO/21BX/adspua.jsn \
+firmware-qcom/sc8280xp/LENOVO/21BX/audioreach-tplg.bin \
 firmware-qcom/sc8280xp/LENOVO/21BX/battmgr.jsn \
 firmware-qcom/sc8280xp/LENOVO/21BX/cdspr.jsn \
 firmware-qcom/sc8280xp/LENOVO/21BX/qcadsp8280.mbn \

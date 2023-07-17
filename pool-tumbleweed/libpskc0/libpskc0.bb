@@ -6,10 +6,10 @@ For managing secret key files, the Portable Symmetric Key Container \
 (PSKC) format described in RFC6030 is supported."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.6.7"
+PV = "2.6.8"
 
-RPM_NAME = "libpskc0-2.6.7-3.5.aarch64.rpm"
-RPM_HASH = "5f2b9e0868f21674425d99ae561f32930fa35e3610ae4291023419ea62a818c376c935a175fcad1edaf6ad745f5202eb804c5d0964d88656515e1f794a1694d3"
+RPM_NAME = "libpskc0-2.6.8-1.1.aarch64.rpm"
+RPM_HASH = "50eb8ca8ff65325bc1caa5dc0cbc5300896b1fa4bef1d69f5c9d65fae30f2e6d1e04a5ceb72069205dbe16e6fd5445ddcc8ab1be4391face19ef15a6b2f0c025"
 
 RPROVIDES:${PN} += "libpskc.so.0 \
 libpskc0"

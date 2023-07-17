@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains the firmware for the poplar platform."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.04"
+PV = "2023.07"
 
-RPM_NAME = "u-boot-poplar-2023.04-2.2.aarch64.rpm"
-RPM_HASH = "b65858f58ea8f43e92f3261940662ca0f97b267f6e21de5483998088d832c4006547f033678f4bb0be9416b67b7ab1b824dfc5fd040537947281f5f6432682a4"
+RPM_NAME = "u-boot-poplar-2023.07-1.1.aarch64.rpm"
+RPM_HASH = "7411063234b99de941a894d2a6393c1ef198fa7e195903e90884f70c8ee84e4f3284318686a09fced4d22763abbe8304f24ddbb645c1fc7198fb2d22a1b87d90"
 
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-poplar"

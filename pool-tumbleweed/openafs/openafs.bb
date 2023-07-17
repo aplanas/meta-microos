@@ -11,10 +11,10 @@ caching, disconnected operations, replication for higher availability \
 and load balancing, and ACLs."
 LICENSE = "IPL-1.0"
 
-PV = "1.8.9"
+PV = "1.8.10"
 
-RPM_NAME = "openafs-1.8.9-4.6.aarch64.rpm"
-RPM_HASH = "eaf5caeaad1a23d4b6c25c0e709e8354b2e61873e23ec311ad38dd9383933f1b13b7b154b8e247368328c1c3a81ced8352449d1cbbe77d3a380ae4b0b9d3507b"
+RPM_NAME = "openafs-1.8.10-1.1.aarch64.rpm"
+RPM_HASH = "0b1532bca9d07879628ed5aa8e2aec41ec85ca309f9cf4bf02d8b630ede4755136e80a619defc92346d525ac57504e5c8060c69cf1949d021df946567e3aeedb"
 
 RPROVIDES:${PN} += "config-openafs \
 libafshcrypto.so.2 \

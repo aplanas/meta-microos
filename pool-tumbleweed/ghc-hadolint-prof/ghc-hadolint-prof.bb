@@ -4,11 +4,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.12.0"
 
-RPM_NAME = "ghc-hadolint-prof-2.12.0-1.8.aarch64.rpm"
-RPM_HASH = "775b6d47ccd9803a14d984ad7dc324b42719e3750aa6fa923ca33137646e4ad80694ca8b0a2a7038c2d5ec1484fbcf52d442cd2f9b7d0398f8d7bc37fcae03ad"
+RPM_NAME = "ghc-hadolint-prof-2.12.0-1.9.aarch64.rpm"
+RPM_HASH = "b5f722a01298cb1d0a938fad6506e3c367c5950fff2c7ad56b12e0a75d3a3bf1cbd181cb4189c6a210e66cf7719e5626e41a701fe2a1c81f813bd702162d8220"
 
 RPROVIDES:${PN} += "ghc-hadolint-prof \
-ghc-prof-hadolint-2.12.0-48fxNqFFUC1B7dRYbVUu2N"
+ghc-prof-hadolint-2.12.0-1THaMYBFYkn6QWtKlYYvCN"
 
 RDEPENDS:${PN} += "ghc-hadolint-devel \
 ghc-prof-Cabal-3.8.1.0 \
@@ -25,7 +25,7 @@ ghc-prof-deepseq-1.4.8.0 \
 ghc-prof-directory-1.3.7.1 \
 ghc-prof-email-validate-2.3.2.18-8MZFHS3GPuQLNTYP4EPLHD \
 ghc-prof-filepath-1.4.2.2 \
-ghc-prof-foldl-1.4.14-6AA7lw3dsEK1uUeCGro40c \
+ghc-prof-foldl-1.4.15-F8c77skQAn4DvWPbyzbRUi \
 ghc-prof-gitrev-1.3.1-CQYGfdCfGPeA3DF217wQTZ \
 ghc-prof-ilist-0.4.0.1-KsvLIKFcqVNEl2m4LjZZwM \
 ghc-prof-language-docker-11.0.0-6yi9Nm1hnNl1NYn66IUrp7 \

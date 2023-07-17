@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "20230617"
 
-RPM_NAME = "libfsapfs-devel-20230617-1.3.aarch64.rpm"
-RPM_HASH = "0695b047d6e34065d6c2eb324726609f0fe7db47182413a3b6dcf2f47781df2656257e14ce732c8a82a1549e181f9b25616927f233d52d096edd2ee3dbff6af4"
+RPM_NAME = "libfsapfs-devel-20230617-1.4.aarch64.rpm"
+RPM_HASH = "e766b1280adb63d5858264cd779a0eb222a423c2fa39e8063d4ebc34dd07b540aa3d72e721b0faaebc422b5bec8156bda27d8dee1df0e373bcf13c8e161e17a1"
 
 RPROVIDES:${PN} += "libfsapfs-devel \
 pkgconfig-libfsapfs"

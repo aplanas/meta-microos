@@ -10,16 +10,16 @@ currently can use OpenMP, Pthreads and CUDA as backend programming models. \
 This package contains the development files of kokkos."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.0.01"
+PV = "4.1.00"
 
-RPM_NAME = "kokkos-devel-4.0.01-1.2.aarch64.rpm"
-RPM_HASH = "a5717b91a1f3a4ebcaa303edfbc306aacd198ed948f31af6b2195663b71aaa97201768c6cf75d5b19f58bcead0b3bf2565b7d94c7d23394e5e39da779ef72544"
+RPM_NAME = "kokkos-devel-4.1.00-1.1.aarch64.rpm"
+RPM_HASH = "990da7921a67ed9e5fc1da81a9bbc843619f83c1b01bc525d59488d40584146e3151f0cb82c42389326a04500b84cd9c9044ebe5426210a000df1fe22967990f"
 
 RPROVIDES:${PN} += "cmake-Kokkos \
 kokkos-devel"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 hwloc-devel \
-libkokkos-4-0"
+libkokkos-4-1"
 
 inherit rpm

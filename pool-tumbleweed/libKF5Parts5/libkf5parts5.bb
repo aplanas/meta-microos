@@ -4,10 +4,10 @@ elaborate widgets with a user-interface defined in terms of actions \
 (menu items, toolbar icons)."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5Parts5-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "7c7250eeb6d2cc264f3e8a9cddc1cdcb22188a61f84351090b82bf647f87eb79f61f49c246fbb475c0fb5a7a6280eb4d59cd3984131ce78623272689d4874fd9"
+RPM_NAME = "libKF5Parts5-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "e73b2d9c6e1e78f3cceab1607cb5e19a53e54dd8da4b54af7530e372cc966bd38c9f993f9e113eb30be54fcf43c9ba9e6f69638398f80e4a4467f7fdb9703929"
 
 RPROVIDES:${PN} += "libKF5Parts.so.5 \
 libKF5Parts5"

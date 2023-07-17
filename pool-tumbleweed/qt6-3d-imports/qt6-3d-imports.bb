@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-3d-imports-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "39bd72ac4b4f71e12641773a450c568df5b5c3c353cab030f7590d28ea96ad0179579d5e45dd40b1db262452a0245e293b1a6546f40aab14fb8a085c9f132a71"
+RPM_NAME = "qt6-3d-imports-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "7e182abda95b94d6e5964699edbcd717c3c656f30d9f8e0c76f7935edc2e5e3af31cabe2514a8fc84ccce3cab582e6dd68001461fa86a4637dfe541468350f23"
 
 RPROVIDES:${PN} += "libqtquickscene2dplugin.so \
 libqtquickscene3dplugin.so \

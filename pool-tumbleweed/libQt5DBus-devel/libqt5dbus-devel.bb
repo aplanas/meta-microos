@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
 PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5DBus-devel-5.15.10+kde129-1.1.aarch64.rpm"
-RPM_HASH = "e394a1c6c8a0c70644d571d7ca2d834227cb37664214cd695de0a39c9a0a420ac54385a9b3108da8b996af38dbb44eb8e9eca6e08310d4660380f4e3219bcbd7"
+RPM_NAME = "libQt5DBus-devel-5.15.10+kde129-2.1.aarch64.rpm"
+RPM_HASH = "fe661e5e94e55a03844a6df730cf6a4a5f35b4dbbd0a03a4d7f0a33cb68852e4f007e02f5b275ed905b83ba5966f980e7bbef0c978c7ace11778a4687bce76b7"
 
 RPROVIDES:${PN} += "cmake-Qt5DBus \
 libQt5DBus-devel \

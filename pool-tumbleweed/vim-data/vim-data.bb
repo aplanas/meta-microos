@@ -4,8 +4,8 @@ LICENSE = "Vim"
 
 PV = "9.0.1632"
 
-RPM_NAME = "vim-data-9.0.1632-1.1.noarch.rpm"
-RPM_HASH = "37b6666a1fda544b5d3e29c33089ac640ea21d22e37cbce6ec3723516c7bc065a4db3037cd24bfdf8bc92c7dbe94dd9a7b86b82e85919e82ed1c7830fe65b989"
+RPM_NAME = "vim-data-9.0.1632-2.1.noarch.rpm"
+RPM_HASH = "0401eac02f52f643c634d84b956e7ba28b99d59f60f6f7a44cca56a7d76c78557f5f363768c0f3c112ff42e07e254f76fb850e22d38a264fd93efa6c6c88229d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-data \

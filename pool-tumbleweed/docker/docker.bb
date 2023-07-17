@@ -8,10 +8,10 @@ web deployments, database clusters, continuous deployment systems, private PaaS,
 service-oriented architectures, etc."
 LICENSE = "Apache-2.0"
 
-PV = "24.0.2_ce"
+PV = "24.0.4_ce"
 
-RPM_NAME = "docker-24.0.2_ce-2.1.aarch64.rpm"
-RPM_HASH = "5c763481b4a3c53d850aa8a2c1fdc212aea19a858d894380b6cffd3ac0f402c276d103eac0568ab10b347e506020d403f54ddba5ae3290d6dc8f85f3a3313f31"
+RPM_NAME = "docker-24.0.4_ce-1.1.aarch64.rpm"
+RPM_HASH = "1f5dfb072a6bae6a6c1a6fdf8c4ba84f5379d870e0c469144c1eaf520926cfd5c04752fc4d6de4fa4f36b4ea1ac7c0edef75c3d69e0c7fb43e0674c2b480c7d3"
 
 RPROVIDES:${PN} += "config-docker \
 docker \

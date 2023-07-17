@@ -2,10 +2,10 @@ SUMMARY = "Java Bindings for Google Protocol Buffers"
 DESCRIPTION = "This package contains the Java bindings for Google Protocol Buffers."
 LICENSE = "BSD-3-Clause"
 
-PV = "23.3"
+PV = "23.4"
 
-RPM_NAME = "protobuf-java-23.3-5.1.aarch64.rpm"
-RPM_HASH = "43adef4a506675037fcdaa3f2e84ccdd2629264863b1b33ea999ab6869d9cca45ab9830bdfe815d518183845b1f4a425427b5488315b71a08bf83cc7befb5ab2"
+RPM_NAME = "protobuf-java-23.4-6.1.aarch64.rpm"
+RPM_HASH = "94ab6ffb9b3431d691fb7655932fa15b5279e07f09557e27503d8d5f2f2af55a346be547bcbf7afc56f01af04a87b7307dec35e6b6d6bb94952a186446a7d53f"
 
 RPROVIDES:${PN} += "mvn-com.google.protobuf-protobuf-bom-pom- \
 mvn-com.google.protobuf-protobuf-java \

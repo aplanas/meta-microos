@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6MultimediaQuick6-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "ffc16429c7a1100b9434a35a069bd06637a4c34fc3b88da34c82da489f02ff4964f19ef80f4d0710853e2acbdda39d4f2ade98d6266141bca9ea9044c9b993cd"
+RPM_NAME = "libQt6MultimediaQuick6-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "31e9baffc3b7edab8dc628be295d9636df4b72b5322108ed9fe74f51e0b1f09c7c7559f0ff8dbb738bf410ee45bd47acfb1bbb66e9d04dc7a9cffc98a401b854"
 
 RPROVIDES:${PN} += "libQt6MultimediaQuick.so.6 \
 libQt6MultimediaQuick6"

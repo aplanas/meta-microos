@@ -6,10 +6,10 @@ KDE Plasma workspace. \
 Applications do not need to link to this directly."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "frameworkintegration-plugin-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "b07e8ac7803fc5fa0b48f47671097f98aff55d945f79ff69c6e1b370902d34c812178cf39b0a27c00ef8dad01a22e959571a21f0068cc4c49afa24a68a49a622"
+RPM_NAME = "frameworkintegration-plugin-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "f1df5106041d9ccb68a7d5421543ce9bf748f5e5331c79a694aec7d902a46330c58ef1bd10c3e9fa80a2a8e2ac6d1cdfa1e4d18c804b088806fd0840e9355f66"
 
 RPROVIDES:${PN} += "frameworkintegration-plugin"
 

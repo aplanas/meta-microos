@@ -2,10 +2,10 @@ SUMMARY = "Automatically upgrade your Django projects"
 DESCRIPTION = "Automatically upgrade your Django projects."
 LICENSE = "MIT"
 
-PV = "1.13.0"
+PV = "1.14.0"
 
-RPM_NAME = "python310-django-upgrade-1.13.0-1.4.noarch.rpm"
-RPM_HASH = "022a77c147ac39aef5e671ecc1f64c8e07484c922d5ec13bc9bab3a9879903aa69d9d9791617e50997485e4df2e00970a2e609c19a0dc80fc3f7542518175c03"
+RPM_NAME = "python310-django-upgrade-1.14.0-1.1.noarch.rpm"
+RPM_HASH = "a7914b32770dad4d8aac474b9540193fc623b42b2482d12aceeb156a0cfc7daf2d5d5ab5e2760878171def742e2c0aa7f53d21efbdbdab10d44f991dfbf81ce7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-django-upgrade \

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.0"
 
-RPM_NAME = "python311-opentracing-2.4.0-4.4.noarch.rpm"
-RPM_HASH = "6b397eebb57bc3d5395b095ea62b1a7918824ca2e4e4e80c3d9a750cf5963dde439c57972c31854c6cdaea9ed9b34e60854ea875ff3a0e81d4016eb47a82b0ea"
+RPM_NAME = "python311-opentracing-2.4.0-5.1.noarch.rpm"
+RPM_HASH = "55d812a7c05001cee1422d46e65ab8bec2192fd0378a1cb14d550eb62571635f0161a00ea457f82f60f9ed52b11057f62c8a65c9158266494a3e2b56384d74a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-opentracing \

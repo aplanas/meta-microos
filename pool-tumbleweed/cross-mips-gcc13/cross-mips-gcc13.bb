@@ -5,10 +5,10 @@ Note this is only useful for building freestanding things like the \
 kernel since it fails to include target libraries and headers."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7364"
+PV = "13.1.1+git7552"
 
-RPM_NAME = "cross-mips-gcc13-13.1.1+git7364-1.2.aarch64.rpm"
-RPM_HASH = "fde43fb018df82bd635e0ba2fc0de3a7b206b95be34ce796da7ef06450a6c1292044c68d5b56ac5005bffd6c0b9a59ef5b8a1c1fc2a23bc708d62b59e508279c"
+RPM_NAME = "cross-mips-gcc13-13.1.1+git7552-1.1.aarch64.rpm"
+RPM_HASH = "332fb63c5a86ddf01fc56a155d72b2686d6f3506c599faae1bea2e7aac0536741f5d731b145e3d15e7ad7f797830a65ee2e0b00840de0c82626e139c9edc6c80"
 
 RPROVIDES:${PN} += "cross-mips-gcc13"
 

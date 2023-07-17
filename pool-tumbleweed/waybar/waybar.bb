@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.9.19"
 
-RPM_NAME = "waybar-0.9.19-1.1.aarch64.rpm"
-RPM_HASH = "e085f6fb9a09f23b872e8292b82810e702fc0fc7b1957c656636991c4b7d7aa9a4fa3d7f50969d8da33b865b3603eed1fb23cb7ed5b9a2872c418d2833100468"
+RPM_NAME = "waybar-0.9.19-1.2.aarch64.rpm"
+RPM_HASH = "da5e64ec156a0606489a11f8f6d6db4d470d9aa3175078440ae8644bc5b32707da17424944b39430c42a179641b5757210d3200a833661810f478d263c6c4116"
 
 RPROVIDES:${PN} += "waybar"
 
@@ -41,7 +41,7 @@ libplayerctl.so.2 \
 libpulse.so.0 \
 libsigc-2.0.so.0 \
 libsndio.so.7.1 \
-libspdlog.so.1.11 \
+libspdlog.so.1.12 \
 libstdc++.so.6 \
 libudev.so.1 \
 libupower-glib.so.3 \

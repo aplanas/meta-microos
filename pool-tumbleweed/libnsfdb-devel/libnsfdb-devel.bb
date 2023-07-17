@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20210419"
 
-RPM_NAME = "libnsfdb-devel-20210419-3.7.aarch64.rpm"
-RPM_HASH = "a5e45665fa4b31c959830dec2293a752d5c662ea8b05234768d0dea88762996fc9a5124c22a6482d5d7ff58dbe2cd71cf4be4f581797f9391e9affd293ac427a"
+RPM_NAME = "libnsfdb-devel-20210419-3.8.aarch64.rpm"
+RPM_HASH = "a2f6eecf1f97bed4a14e6ccfa86d05334f2593d2df02d91e0fe59815e16b4beccc053439a3cff3ce109a589527ea68e7d7b2b93e3716c68f88017ce70f5b2531"
 
 RPROVIDES:${PN} += "libnsfdb-devel \
 pkgconfig-libnsfdb"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-commander"
 DESCRIPTION = "Provides translations for the 'gnome-commander' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.16.0"
+PV = "1.16.1"
 
-RPM_NAME = "gnome-commander-lang-1.16.0-2.4.noarch.rpm"
-RPM_HASH = "ce6eb137c32e8467eeb07425f570667effae0d915493080f4da8fa0eadbb6dd05f02821b90bbc9a7620b1f901e5d9aefc9ac89749773fb66dffc12fcb6ab7d0f"
+RPM_NAME = "gnome-commander-lang-1.16.1-1.1.noarch.rpm"
+RPM_HASH = "6df2138cd9593e668e6316e6c465c68ac7cf6c81986558b67a6afb3033a01c2416ba658b50b81fcf444d278d3fe8e26febd5fa963500f4c69d624c9b70d589da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-commander-lang \

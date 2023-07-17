@@ -5,11 +5,11 @@ LICENSE = "MIT"
 
 PV = "2.13.1.1"
 
-RPM_NAME = "ghc-persistent-sqlite-2.13.1.1-2.7.aarch64.rpm"
-RPM_HASH = "890f653c6f2b498b65188a161eb741a8e67c5a8f079d16d32b38475ae63b881f5c19e6e46b6221449b983823c82705e2430438e76452ccf447ce9df9be78f738"
+RPM_NAME = "ghc-persistent-sqlite-2.13.1.1-2.9.aarch64.rpm"
+RPM_HASH = "5625478607179f0acb4b768c98aad40b15ff1316941a49e8cef2167d8cda37891e01d36d3a81a065591e51280a1eb834219c6daf1dfc1cce7d68ca9913ed1b7c"
 
 RPROVIDES:${PN} += "ghc-persistent-sqlite \
-libHSpersistent-sqlite-2.13.1.1-86NT3YIJqhfIXbP1CwbNXp-ghc9.4.5.so"
+libHSpersistent-sqlite-2.13.1.1-GtSlQBuMraaA2Y4InNAjBl-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libHSOneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV-ghc9.4.5.so \
@@ -50,7 +50,7 @@ libHSdistributive-0.6.2.1-GisXwtVaDTaDcC79Nunm79-ghc9.4.5.so \
 libHSdlist-1.0-BmTLN13CmmLQvuHz7BjP9-ghc9.4.5.so \
 libHSeasy-file-0.2.5-Eune3nGPx4BABAmiN3TyxF-ghc9.4.5.so \
 libHSexceptions-0.10.5-ghc9.4.5.so \
-libHSfast-logger-3.1.2-B9zh4yvWMU69CA1ZW1MVtN-ghc9.4.5.so \
+libHSfast-logger-3.1.2-FrZhfcoVNTvDFmA3ecjq8Q-ghc9.4.5.so \
 libHSfilepath-1.4.2.2-ghc9.4.5.so \
 libHSfoldable1-classes-compat-0.1-JP9wXcYYGsT10VsvIV9rpl-ghc9.4.5.so \
 libHSgenerically-0.1.1-9IDkuVjdBOA27Mdybf3GBx-ghc9.4.5.so \
@@ -68,7 +68,7 @@ libHSlifted-base-0.2.3.12-2PslaVNAATq3HzvkpdIGSo-ghc9.4.5.so \
 libHSmicrolens-0.4.13.1-ARwI8t2x86cAxRs56XPcG1-ghc9.4.5.so \
 libHSmicrolens-th-0.4.3.13-4M5tTOX0ioLGTMiKBp6v2C-ghc9.4.5.so \
 libHSmonad-control-1.0.3.1-YXA6op7GEFFtfFxLr4pzX-ghc9.4.5.so \
-libHSmonad-logger-0.3.40-G052AHl2mRW3aPPonmcvVW-ghc9.4.5.so \
+libHSmonad-logger-0.3.40-JON4xqa3KWj1ClCWFJbFYV-ghc9.4.5.so \
 libHSmonad-loops-0.4.3-J6SAcCDTGblA6407vWEwF9-ghc9.4.5.so \
 libHSmono-traversable-1.0.15.3-IT8tyCr3vQLKgjlccagv2S-ghc9.4.5.so \
 libHSmtl-2.2.2-ghc9.4.5.so \
@@ -76,7 +76,7 @@ libHSnetwork-3.1.4.0-FvtFepOtuCUH79FCWyNxIc-ghc9.4.5.so \
 libHSold-locale-1.0.0.7-B5o2Qz0CVVSCB1XGw7OfzR-ghc9.4.5.so \
 libHSold-time-1.1.0.3-6MrxIvEBZcaI0p7TDiYNU1-ghc9.4.5.so \
 libHSpath-pieces-0.2.1-7L2E0FvnHzn1hGutNz0iw4-ghc9.4.5.so \
-libHSpersistent-2.14.5.0-9uJ7TxdgaWz5Ow6lrik7k2-ghc9.4.5.so \
+libHSpersistent-2.14.5.1-8aZiHAHWity6p3rqRx3MdJ-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \
 libHSprimitive-0.7.4.0-AeB0oysC3TAJw9tDpuX8hq-ghc9.4.5.so \
 libHSprocess-1.6.16.0-ghc9.4.5.so \
@@ -110,7 +110,7 @@ libHStransformers-compat-0.7.2-7jAnhjvxTABIymoNGHTOwd-ghc9.4.5.so \
 libHStyped-process-0.2.11.0-AJYHFlIHznQBMeAWc6SvCO-ghc9.4.5.so \
 libHSunix-2.7.3-ghc9.4.5.so \
 libHSunix-compat-0.6-79KxxZMmklx25hsmeEnenN-ghc9.4.5.so \
-libHSunix-time-0.4.9-DrdwBL0FLhc5jN9Hujlou0-ghc9.4.5.so \
+libHSunix-time-0.4.10-LpZG5YAXe572FFFZnKOLQq-ghc9.4.5.so \
 libHSunliftio-0.2.25.0-DN1mY49M6dHDqA19Vm4lY3-ghc9.4.5.so \
 libHSunliftio-core-0.2.1.0-AEtYfdyUWlJCLfz2d4hPbj-ghc9.4.5.so \
 libHSunordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E-ghc9.4.5.so \

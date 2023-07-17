@@ -3,11 +3,10 @@ DESCRIPTION = "Breeze-icons is a freedesktop.org compatible icon theme. \
 This contains the Breeze (non-dark) icons in a QResource file, used by Kexi."
 LICENSE = "LGPL-3.0-only"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "breeze5-icons-rcc-5.107.0-1.1.noarch.rpm"
-RPM_HASH = "50e745b52b7c0c0cc553c41da253ca510ef594df1ea72e0a4d8419e1cf22d30c7fcfbf3984d78a745a69211d38e58b4994f9312fac7509db0528d21e4d17e2ca"
-REPO_ARCH = "noarch"
+RPM_NAME = "breeze5-icons-rcc-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "fc2b24cbcd2fe5abf194dd4cca2f267b23a79a389b5f51c5d333da665cdbbcd264816f94e336e83b61587db9de4fbabfe3f3cc37535469de8d3bcdacf9b2fe36"
 
 RPROVIDES:${PN} += "breeze5-icons-rcc"
 

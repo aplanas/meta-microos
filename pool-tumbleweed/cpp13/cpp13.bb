@@ -3,10 +3,10 @@ DESCRIPTION = "This Package contains just the preprocessor that is used by the X
 packages."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7364"
+PV = "13.1.1+git7552"
 
-RPM_NAME = "cpp13-13.1.1+git7364-1.2.aarch64.rpm"
-RPM_HASH = "4fd0652fcdc60f76b5d24334b33e9da7d450cb617a2cecb024ca6277c2e77f8084e42d1f73c02e83ca4e942ced0aab002f7b34f59557c075529156c369bc90a2"
+RPM_NAME = "cpp13-13.1.1+git7552-1.1.aarch64.rpm"
+RPM_HASH = "926ce394b5f74f0ed34b7cd64691372d033dc534cddb12dbbade198605a5d6b91d65e91a57fbe960b3919e72d52ab15fd365dba5801bc385897fa379a6714938"
 
 RPROVIDES:${PN} += "cpp13"
 

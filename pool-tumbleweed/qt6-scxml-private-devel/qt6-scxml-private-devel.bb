@@ -5,12 +5,12 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-scxml-private-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "32530e2e1795aaa98a111b5da7a17252a6d4c4e358d0da0ec438251902ce8224eeee726910cda83366b1c614d1fb2d55912e29faeafb167bbdfad63790436089"
+RPM_NAME = "qt6-scxml-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "b0b1defeb05f243ee5577ffafbe5817cc3b2fe7d64055a0437060469306b722907ea6a6904e0e0af1056752ce2dd59c291acd52121198cc0ee159743683e801a"
 
 RPROVIDES:${PN} += "qt6-scxml-private-devel"
 
 RDEPENDS:${PN} += "cmake-Qt6Scxml \
-qt6-qml-private-devel"
+qt6-core-private-devel"
 
 inherit rpm

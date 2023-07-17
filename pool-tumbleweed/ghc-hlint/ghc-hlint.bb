@@ -4,11 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.5"
 
-RPM_NAME = "ghc-hlint-3.5-1.7.aarch64.rpm"
-RPM_HASH = "89082200a4a056254c0e8804dc38c559728b8ac58a395dedba26f9f3032279bba847ad80bc6676c4fa6b475a78f820b28b0da2a1ffa342db0253997b88ada0a3"
+RPM_NAME = "ghc-hlint-3.5-1.10.aarch64.rpm"
+RPM_HASH = "9d5875a89ad940efc08af3ee017dc0291af105620a77323b705ee68bfeb294914c6a670f1543a766769f3100e864f1276851bf91d03c1627b5d0823518377013"
 
 RPROVIDES:${PN} += "ghc-hlint \
-libHShlint-3.5-6P3DyV4yxDzirbNOiekZM-ghc9.4.5.so"
+libHShlint-3.5-D3vZjbXvhdOGKD9r4srBmV-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV-ghc9.4.5.so \
 libHSQuickCheck-2.14.3-6dq2izV8oSq1BobaDA598X-ghc9.4.5.so \
@@ -48,10 +48,10 @@ libHSdirectory-1.3.7.1-ghc9.4.5.so \
 libHSdistributive-0.6.2.1-GisXwtVaDTaDcC79Nunm79-ghc9.4.5.so \
 libHSdlist-1.0-BmTLN13CmmLQvuHz7BjP9-ghc9.4.5.so \
 libHSexceptions-0.10.5-ghc9.4.5.so \
-libHSextra-1.7.13-CLIQu72ADU8JHmf7UWoQG4-ghc9.4.5.so \
+libHSextra-1.7.14-BoqGpItPSHp5TXSaJGSPpo-ghc9.4.5.so \
 libHSfile-embed-0.0.15.0-LJLaBgMyS4K2tBVYbzJ0uw-ghc9.4.5.so \
 libHSfilepath-1.4.2.2-ghc9.4.5.so \
-libHSfilepattern-0.1.3-CFBsL0RN2YG3tR2tZTKdgo-ghc9.4.5.so \
+libHSfilepattern-0.1.3-ZuemUYkhwGA1RPuLxzdA9-ghc9.4.5.so \
 libHSfoldable1-classes-compat-0.1-JP9wXcYYGsT10VsvIV9rpl-ghc9.4.5.so \
 libHSgenerically-0.1.1-9IDkuVjdBOA27Mdybf3GBx-ghc9.4.5.so \
 libHSghc-bignum-1.3-ghc9.4.5.so \
@@ -104,7 +104,7 @@ libHSvector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp-ghc9.4.5.so \
 libHSvector-algorithms-0.9.0.1-BIFHuMvuTIO1lWGrhqtqm6-ghc9.4.5.so \
 libHSvector-stream-0.1.0.0-C5Yyq3DPEhXAQSqkM8V92s-ghc9.4.5.so \
 libHSwitherable-0.4.2-JTGjjCVsQ4I7ks3qsHWAEH-ghc9.4.5.so \
-libHSyaml-0.11.11.1-3T1xu4983kFHb1qERRZhqW-ghc9.4.5.so \
+libHSyaml-0.11.11.2-4GYYolDKkXn5x4zdb9DA59-ghc9.4.5.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6 \

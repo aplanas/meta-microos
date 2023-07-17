@@ -22,8 +22,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.12.8"
 
-RPM_NAME = "texmath-0.12.8-1.2.aarch64.rpm"
-RPM_HASH = "0ac85ae26577615dc597d017074c7364d2c0d72afdfdb76a8e5ed9978bd2f1a11aa05c2dfb602a743fdcb0745cdad5f911fb589db869eb3a4e7ac8a5e0babbc3"
+RPM_NAME = "texmath-0.12.8-1.3.aarch64.rpm"
+RPM_HASH = "9bd9bb8f47c521d91a7159d61068e8430c94161ce821c0e2534e4e41f90401eba23f96f5dd40a502701ceb70fd0c3ea770ce45ed6157f2f3812b96a881106220"
 
 RPROVIDES:${PN} += "texmath"
 

@@ -6,8 +6,8 @@ LICENSE = "GFDL-1.3-only & LGPL-3.0-or-later"
 
 PV = "20221027"
 
-RPM_NAME = "python39-libscca-20221027-3.10.aarch64.rpm"
-RPM_HASH = "33c9b53da0091dce11ad95a7c8f951f1e57f1a4f5743bbb5ccc0c74e25c5ed0baca2cb7ddc8897bb323120e2db6cdc9bb678eae3d8403bf4e501435e906dfc98"
+RPM_NAME = "python39-libscca-20221027-3.11.aarch64.rpm"
+RPM_HASH = "b9e925fdb8c48753c40661f13a47ecbea820a4b4f4e559f52432d8d7072c127033be7448c6d8f252e8d67392b3fa49c326737fe56b633560d81bfe86c62a02dd"
 
 RPROVIDES:${PN} += "python39-libscca"
 

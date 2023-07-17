@@ -3,10 +3,10 @@ DESCRIPTION = "Solid is a device integration framework.  It provides a way of qu
 interacting with hardware independently of the underlying operating system."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5Solid5-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "37ae1c4eefd36c3fe4b81e50c83092b5b6b737d5faedebabb2b4786db140be8004b196aef77c64aea5a40947e6870d4fdead0603b6bad7ab09ffa904c07f56f1"
+RPM_NAME = "libKF5Solid5-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "6f33ab5dd2fcc739b03dede65f1d7069051a78b1873350c5b08e0a0f1aa7354b2876952a2c8ad20283a02089ab019e8f1c01e85028ddb7a5bc813a61df2d8bd0"
 
 RPROVIDES:${PN} += "libKF5Solid.so.5 \
 libKF5Solid5"

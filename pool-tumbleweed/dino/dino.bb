@@ -8,10 +8,10 @@ a plug-in API, so that developers can easily add new optional \
 features."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.4.2"
+PV = "0.4.3"
 
-RPM_NAME = "dino-0.4.2-1.3.aarch64.rpm"
-RPM_HASH = "90b5794a519feaad9bec14486b7d274b3f41011acd86d7fe1e1f2143ad57e72ac6db579b55d043a7d95c363307452eea1ccde9db093fc7cb6ff989742461a95b"
+RPM_NAME = "dino-0.4.3-1.1.aarch64.rpm"
+RPM_HASH = "a53d7b60b4e5ad456eaf0c3fc4b7904b3fc4399a917c88b636a335ab6a67e1893dc88cddfcf039591672f71778e61ff4401625d0dc23896b13917101b962e32c"
 
 RPROVIDES:${PN} += "dino \
 dino-plugin-http-upload \

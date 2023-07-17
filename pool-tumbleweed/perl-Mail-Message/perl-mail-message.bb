@@ -1,4 +1,4 @@
-SUMMARY = "General message object"
+SUMMARY = "Processing MIME messages"
 DESCRIPTION = "A 'Mail::Message' object is a container for MIME-encoded message \
 information, as defined by RFC2822. Everything what is not specificaly \
 related to storing the messages in mailboxes (folders) is implemented in \
@@ -6,10 +6,10 @@ this class. Methods which are related to folders is implemented in the \
 Mail::Box::Message extension."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "3.012"
+PV = "3.013"
 
-RPM_NAME = "perl-Mail-Message-3.012-1.8.noarch.rpm"
-RPM_HASH = "5b792f8bd954fcf29b73cf50eb90c1f7f99c1544dd2b212d8619f4fb15e4acac9588d161704276cc63fa4524aec0b0bd189354187d45bb2b9058e33079784869"
+RPM_NAME = "perl-Mail-Message-3.013-1.1.noarch.rpm"
+RPM_HASH = "f4e00304ff922a6acb6949ad1aa1a20e3a90900935718e235ff220d5bc8067e97fafaa7e430c20414ce476b68ad757ac621313fbb8b608c93c7c84da0018a799"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mail--Box--FastScalar \

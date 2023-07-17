@@ -3,10 +3,10 @@ DESCRIPTION = "Library to access the Windows Shell Item format for the libyal fa
 libyal is typically used in digital forensic tools."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230114"
+PV = "20230710"
 
-RPM_NAME = "libfwsi1-20230114-1.7.aarch64.rpm"
-RPM_HASH = "36e703923361cebc0ffb7235af3032b975de4aff7c4f819386a79b58eef87434b299b57515b9f297c391853a26d2c62e900a6b5851b8f5a0de20962eaf0341c5"
+RPM_NAME = "libfwsi1-20230710-1.1.aarch64.rpm"
+RPM_HASH = "c8d549e44bf80c9441cd8748f6b82b8846748f3013b9adc01b76e553b4e51fcc8608fec5d8c4efabfbe97679d2a1e0e9af37252b1cf3cb6954c790ed093a3f82"
 
 RPROVIDES:${PN} += "libfwsi.so.1 \
 libfwsi1"

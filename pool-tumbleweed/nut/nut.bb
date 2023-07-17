@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "nut-2.8.0-3.1.aarch64.rpm"
-RPM_HASH = "fe9a10e8d0dc024975bb850a80f1a648b7feaff6ae08310047dabc329a1ab5982d8f203eaebbef991026831ffb4bd6f3e861d45326b20a51cfa71410fb2fbba3"
+RPM_NAME = "nut-2.8.0-4.1.aarch64.rpm"
+RPM_HASH = "aab7b0a9ded0e988e2841b488e66661cb7d784a5b4361774c0413c174f07b8ace281b2839d700576b64ba7ce3808210367a5ec0c1a7596a25daffb9cd757499b"
 
 RPROVIDES:${PN} += "config-nut \
 nut \

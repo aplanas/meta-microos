@@ -18,10 +18,10 @@ combination of hardware configuration, installation options and variant of the \
 operating system."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1688565452.efc15ea"
+PV = "4.6.1689162874.c51d4b9"
 
-RPM_NAME = "openQA-4.6.1688565452.efc15ea-1.1.aarch64.rpm"
-RPM_HASH = "ef57e4d44608b7e272ff463204d1b5f3f4b7be2d7e9afefcc0fb6ed2bf6d9211157f9cfca1cde29480d550e3ae2214034c7e09c0fbe98d627dfe61f7c9b259f8"
+RPM_NAME = "openQA-4.6.1689162874.c51d4b9-1.1.aarch64.rpm"
+RPM_HASH = "63ab5b031dd2d901455a8f80da0556b4315b716ea047d1b3ed5600bc5ef7fa158d78bb54dd02314e8fc37dffd43e9d36561c32c7840fdf0e3f3c910a901a361e"
 
 RPROVIDES:${PN} += "config-openQA \
 group-geekotest \

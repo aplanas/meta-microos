@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230212"
 
-RPM_NAME = "libewf3-20230212-2.7.aarch64.rpm"
-RPM_HASH = "b4672c45eeb271b3203cfd5bde089a3ece6fd07072aa226e2e607a5d6f5cf8e9a59ac882fdedaaa4c81a13c26abce4d3bfde41ff86802335dc041a154e4fcde9"
+RPM_NAME = "libewf3-20230212-2.8.aarch64.rpm"
+RPM_HASH = "62e5a8d273c88f14f60b40737a3a02dd0a4ebefe16094c89e3b5e3928d1365157ecf51f1be0b8e2fc6b68730862525dca4ae09808cfe101e903774e577d4facf"
 
 RPROVIDES:${PN} += "libewf.so.3 \
 libewf3"

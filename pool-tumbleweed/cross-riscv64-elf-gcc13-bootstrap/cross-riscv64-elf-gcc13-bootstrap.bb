@@ -9,10 +9,10 @@ This is a package that is necessary for bootstrapping another package \
 only, it is not intended for any other use."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7364"
+PV = "13.1.1+git7552"
 
-RPM_NAME = "cross-riscv64-elf-gcc13-bootstrap-13.1.1+git7364-1.2.aarch64.rpm"
-RPM_HASH = "87514522047b32344ffc19bc80d1271adbeb62dd500089fa8d18c1736fa5c812b30a652b59a66d2ee7de928fe65334137032b4adaf9a60db6b78acc3a209fd7a"
+RPM_NAME = "cross-riscv64-elf-gcc13-bootstrap-13.1.1+git7552-1.1.aarch64.rpm"
+RPM_HASH = "af6b5565341fe41e0279c856c63bc86e0b1c70bc651e4fb5ce42ef1f82b165695284e37d601aea679d0d99bdd47cce7b4541b03d045c9020a8f8b54f47375065"
 
 RPROVIDES:${PN} += "cross-riscv64-elf-gcc13-bootstrap \
 riscv64-elf-gcc"

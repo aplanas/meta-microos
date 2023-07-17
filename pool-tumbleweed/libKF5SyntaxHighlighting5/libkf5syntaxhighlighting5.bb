@@ -3,10 +3,10 @@ DESCRIPTION = "This is a tier1/functional version of the Kate syntax highlightin
 It's not tied to a particular output format or editor engine."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-only & GPL-2.0-or-later & GPL-3.0-only & MIT & BSD-3-Clause & Artistic-1.0"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5SyntaxHighlighting5-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "6d3a000f21ccd3e2f9b3af088287f656511a66e3b03030ffe99451bbccba67d1aeb4aaeea98ecf40c34b80fac8aeb8f0dde9fb3c9c5bd5387dba3f238775b42a"
+RPM_NAME = "libKF5SyntaxHighlighting5-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "fb7410062dc0a8dc99a3f94fe9cfc3b7e143d385b983b1a7b9cbe360bbdda25c272280cc6ac541669e8a97d7a368d4786ad0f99a4fabd9e70b11b61e0c312216"
 
 RPROVIDES:${PN} += "libKF5SyntaxHighlighting.so.5 \
 libKF5SyntaxHighlighting5"

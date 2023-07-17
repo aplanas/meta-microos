@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains documentation for U-Boot firmware."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.04"
+PV = "2023.07"
 
-RPM_NAME = "u-boot-geekbox-doc-2023.04-2.2.aarch64.rpm"
-RPM_HASH = "1024702171cefb15d656dfac88b7ee01d0c60a3e9b7baeeaf40635e8ba48f49cfd070927b5bd3450b2b0895cb5da09c7a5a5d7ee5f930dccf10d78c2999c4f9b"
+RPM_NAME = "u-boot-geekbox-doc-2023.07-1.1.aarch64.rpm"
+RPM_HASH = "e78d5eecd1224a576f2833b54877a18f340e9109a670489b43010cc6f2de65d149a83aa477acf0ff362989ad52b9be54ddf1f58a59305bfdd15f8e58545ba5c1"
 
 RPROVIDES:${PN} += "u-boot-geekbox-doc"
 

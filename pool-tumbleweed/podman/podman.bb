@@ -9,10 +9,11 @@ LICENSE = "Apache-2.0"
 
 PV = "4.5.1"
 
-RPM_NAME = "podman-4.5.1-1.2.aarch64.rpm"
-RPM_HASH = "57d2bba757651a0bdba997d94aec7ce233067ccf3b4f3218427c69720e90c7e938cf24fedb00bef89ec33be8d00774053a65d91f657661af21d3792ad1f43fc4"
+RPM_NAME = "podman-4.5.1-2.1.aarch64.rpm"
+RPM_HASH = "12604f498336a51982b28dbd86c1952d599a5f4887bda560b209de1d951bc4e6f2b34dffb159d5d66a5181a1cbfc0b18ae44376727fc19eba6fb445b049bed23"
 
-RPROVIDES:${PN} += "podman"
+RPROVIDES:${PN} += "podman \
+podman-cni-config"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 catatonit \

@@ -4,10 +4,10 @@ It stores requests in a database for admins to see, \
 it can also be used to get statistics on who is online etc."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.6.2"
+PV = "1.6.3"
 
-RPM_NAME = "python39-django-request-1.6.2-1.6.noarch.rpm"
-RPM_HASH = "aa5045e5776c4d95cca651bce5bd5873982afd26afad9cbb50597b4c45a4035ae430c9c7e72191f17a6e074cfe27adc570dfbd6a7b95d054216202daf726e053"
+RPM_NAME = "python39-django-request-1.6.3-1.1.noarch.rpm"
+RPM_HASH = "5dd12adc344e9b9ce582326e51d409571f5248219ef0ab1dc77905aa28fd413d6583f2fdd21649880e2247d5cec22873d5744ea3f9069557078edfe2652e141c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-request \

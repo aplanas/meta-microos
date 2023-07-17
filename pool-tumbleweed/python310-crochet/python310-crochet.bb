@@ -4,10 +4,10 @@ threaded applications like Flask or Django to use the Twisted networking \
 framework."
 LICENSE = "MIT"
 
-PV = "2.0.0"
+PV = "2.1.1"
 
-RPM_NAME = "python310-crochet-2.0.0-1.10.noarch.rpm"
-RPM_HASH = "94bef6e778de4bf5bfe7e4f4fa6bbee910aa1250e3f5fa5cb874201d763ed834db887b68a9cae721ca459bf85685230fd5ea0f58bf17e4c0ab54349a81353b0d"
+RPM_NAME = "python310-crochet-2.1.1-1.1.noarch.rpm"
+RPM_HASH = "a6351a0ae132f20acd13a63372af256c5436950adc72a49df792e23bebe10073dd9ab9e9083ce467e91b3d564be66bd2b2a5daba7689b60b314460cbe8244cd7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-crochet \

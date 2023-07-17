@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-charts-examples-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "0929733c43df9c31c1e2eab2f75495c707a1a0a20443014daff1fb0b48f20722e2a8e1b836be5338567183655f0c3a902b6efcb3ee4275f94a01dc2027fbc243"
+RPM_NAME = "qt6-charts-examples-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "7950f9f9df7218405cd3fddfc51e6f304e5d9622c78089195179bdf32d42a5dfcb0b45bc2c1fc86d7fea10fe2deac254e3f7a95e77affd8c22cb30f848b9ffe3"
 
 RPROVIDES:${PN} += "qt6-charts-examples"
 

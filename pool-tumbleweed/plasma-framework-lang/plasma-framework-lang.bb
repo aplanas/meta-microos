@@ -2,10 +2,10 @@ SUMMARY = "Translations for package plasma-framework"
 DESCRIPTION = "Provides translations for the 'plasma-framework' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "plasma-framework-lang-5.107.0-1.1.noarch.rpm"
-RPM_HASH = "74663d9a2f604f56b3a8ce7fb95e80c898e5f49a49c193397793573016b4811a783987bdebf0b697cb0329a9c9d12abeab6fb044d7d0c23c5d15099de40cd5cc"
+RPM_NAME = "plasma-framework-lang-5.108.0-1.1.noarch.rpm"
+RPM_HASH = "619113355c894692d72ebac7119fe25181adf5d4156cf0fcabd95396a41b7553a08cff390647513a99f59ae5740ce9d90e5ef9161cc61b10bfa2d93b964390ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plasma-framework-ar \

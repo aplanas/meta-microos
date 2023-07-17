@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.30.3"
 
-RPM_NAME = "qgis-3.30.3-1.1.aarch64.rpm"
-RPM_HASH = "1c214bbbbd9550762a1f11a81edc27287057575e3e6e1ce2f82dd485cf025f29e48c4c7afd746414c6b39b304494bb3fe15893fc4ec7e706025d2b7aad30451e"
+RPM_NAME = "qgis-3.30.3-2.1.aarch64.rpm"
+RPM_HASH = "02c3f7b448db9f4803b9ed240f8788d8320370d3e52429600c399369b763c625b372bdf4856f21b6153b905271ea71aef8bd21a4c38c9ad4be1cd74ed4225c16"
 
 RPROVIDES:${PN} += "libauthmethod-apiheader.so \
 libauthmethod-awss3.so \
@@ -85,7 +85,7 @@ libQt5Svg.so.5 \
 libQt5Widgets.so.5 \
 libQt5Xml.so.5 \
 libc.so.6 \
-libexiv2.so.27 \
+libexiv2.so.28 \
 libexpat.so.1 \
 libfcgi.so.0 \
 libgcc-s.so.1 \
@@ -98,7 +98,7 @@ libpdal-base.so.13 \
 libpdal-util.so.13 \
 libpq.so.5 \
 libproj.so.25 \
-libprotobuf-lite-3.21.12.so \
+libprotobuf-lite.so.23.4.0 \
 libpython3.11.so.1.0 \
 libqca-qt5.so.2 \
 libqscintilla2-qt5.so.15 \

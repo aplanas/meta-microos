@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains the firmware for the odroid-c4 platform."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.04"
+PV = "2023.07"
 
-RPM_NAME = "u-boot-odroid-c4-2023.04-2.2.aarch64.rpm"
-RPM_HASH = "9a15819637082e64398f4efb9bc8d664f2e765cf5517ff0457e5b2be724ef1ec7f643995adf8be744ff11bb4729b3bb3c01d1aa8ad0ad3251e6effdc295675e1"
+RPM_NAME = "u-boot-odroid-c4-2023.07-1.1.aarch64.rpm"
+RPM_HASH = "6c35efbd912a8a3571ffb5e9949a47ed7b3a622a7ea25ff241c7ef020ae5f858e30a6d16de220cc535b974027729c289488db4ac53340c4517729cc6dce24de0"
 
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-odroid-c4"

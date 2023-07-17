@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20220120"
 
-RPM_NAME = "libfvalue-devel-20220120-3.6.aarch64.rpm"
-RPM_HASH = "57d139ff8df5dfc236c60af312c051c8d81d502b656a94ff32e5946c5d80d47caf5a6550ac6ca293c499712cde393dfbdcf680ddf7d8019af1ff70a1473d0904"
+RPM_NAME = "libfvalue-devel-20220120-3.7.aarch64.rpm"
+RPM_HASH = "49e6cd6c263202c7ae513f2b8ced1efb5f930688ae8aff42a3fef82b7417045ae5a6e7fcb816582123da22cb701dfd22de3eb9127d4bdbd37f9e5df0ac8b4631"
 
 RPROVIDES:${PN} += "libfvalue-devel \
 pkgconfig-libfvalue"

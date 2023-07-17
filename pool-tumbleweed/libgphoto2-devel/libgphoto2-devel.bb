@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.5.30"
 
-RPM_NAME = "libgphoto2-devel-2.5.30-2.2.aarch64.rpm"
-RPM_HASH = "37b7309e2d9340788422fd6edbf9d6449571239e8c09c63703923b3b4b2b40f39d16794ef4ed6c89268d2ac8675661ca3104daff0c300cbf2040b25787f5a8a2"
+RPM_NAME = "libgphoto2-devel-2.5.30-3.1.aarch64.rpm"
+RPM_HASH = "16b0fa0ca0c6b53dbdb564507174e8b9735f8108c0cc6a75ff27f2f6c731a279d1961cfb9f80c671e653ed160f81aea39b0ed9ceb5fc45aacdbf69339f994f92"
 
 RPROVIDES:${PN} += "libgphoto2-devel \
 pkgconfig-libgphoto2 \

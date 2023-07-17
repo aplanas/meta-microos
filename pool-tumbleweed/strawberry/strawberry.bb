@@ -24,8 +24,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.18"
 
-RPM_NAME = "strawberry-1.0.18-1.2.aarch64.rpm"
-RPM_HASH = "6a5ffd6c0bfce5d246950b26cbceddd49bda5d79a9c567a09bb363b0430bf3b1902a4ce8723fbbe4e8d421b8b62d29f1ff32a5a13e90c1066005ed7e0d6b194c"
+RPM_NAME = "strawberry-1.0.18-1.3.aarch64.rpm"
+RPM_HASH = "c9fca605799e23afe865d76db1ebdfc12409eb88bbda14d4fcd50936f91e9d4f3fe7a798d606b18f99b6bbbca0cb880e00ee16603a83770a5605b6980a0067e7"
 
 RPROVIDES:${PN} += "strawberry"
 
@@ -59,7 +59,7 @@ libicui18n.so.73 \
 libicuuc.so.73 \
 libm.so.6 \
 libmtp.so.9 \
-libprotobuf.so.23.3.0 \
+libprotobuf.so.23.4.0 \
 libpulse.so.0 \
 libsqlite3.so.0 \
 libstdc++.so.6 \

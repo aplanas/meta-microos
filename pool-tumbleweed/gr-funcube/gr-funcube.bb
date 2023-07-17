@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.10.0.rc3"
 
-RPM_NAME = "gr-funcube-3.10.0.rc3-1.2.aarch64.rpm"
-RPM_HASH = "af4df57af45b20f12bee47d3fb92b2bfa473fa8cf2f69d4786529dbab22599f0f9a3b6303853c8b22080734d7c485188ef270f17de1e6eedaeb6f56f023a2f7b"
+RPM_NAME = "gr-funcube-3.10.0.rc3-1.3.aarch64.rpm"
+RPM_HASH = "3a30398634ce30f38ca6192af6328e816cb0400cb0b9c0d025129b6f79d1265e8fb5de3918f5839341138d1208a25edeeafd8e52a79e89ca41ff3015428bc02b"
 
 RPROVIDES:${PN} += "gr-funcube"
 

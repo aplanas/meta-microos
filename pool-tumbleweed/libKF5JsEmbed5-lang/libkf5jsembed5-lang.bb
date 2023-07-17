@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5JsEmbed5"
 DESCRIPTION = "Provides translations for the 'libKF5JsEmbed5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5JsEmbed5-lang-5.107.0-1.1.noarch.rpm"
-RPM_HASH = "d14c798c520f0ac8037ecc22a688c02cd9817bdb040bab99fcc0e11e35a74d4f8fad3ac5a8a685e52f152673729a2bce72ab83f40cab1086b70249a8725090c6"
+RPM_NAME = "libKF5JsEmbed5-lang-5.108.0-1.1.noarch.rpm"
+RPM_HASH = "36b39bbe9b8ead017f2718a8735c495d2d2e412515648dac3eaf14bd2ba593c2fe42ca6494c0a892a83e6d78264dd38cf04d76d952302c34d213a334f54e536d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5JsEmbed5-lang \

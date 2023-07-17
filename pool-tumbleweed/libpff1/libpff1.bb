@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230325"
 
-RPM_NAME = "libpff1-20230325-1.7.aarch64.rpm"
-RPM_HASH = "e6047e7345b7f5a420ba05f7d18be47a4b7432bf6961aa2eebb0b31ea5a696b644bbf715473a6d11c2303e2a283cd23cd36642e2e37022af9203a86455c25710"
+RPM_NAME = "libpff1-20230325-1.8.aarch64.rpm"
+RPM_HASH = "a7bc882f1e799c5bd4ae0d5bea27c78fff9fff7dffef8c6fa60b510acb81250a8d8c0eddd0df9de731f8dc3e21c44ac0355e23587024dde1e1d9c982245e6c70"
 
 RPROVIDES:${PN} += "libpff.so.1 \
 libpff1"

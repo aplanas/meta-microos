@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6Quick3DPhysicsHelpers6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "e2ed8242ce9c4dae5c385e1615be44951405713fb2a3a7e0b7ed8d900dae87c88248baba19bbcd1d525a85db628f789ee880fa82dde7632b2cf66363cc74a71e"
+RPM_NAME = "libQt6Quick3DPhysicsHelpers6-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "655901111b282dec2fa4dd079b50fdbfec9325f8e471ca72c277670f3cb9b8832326acdb964cb1197f0ebc0ebbab5fbc0fcd3be35044e889261ab111b4b203df"
 
 RPROVIDES:${PN} += "libQt6Quick3DPhysicsHelpers.so.6 \
 libQt6Quick3DPhysicsHelpers6"

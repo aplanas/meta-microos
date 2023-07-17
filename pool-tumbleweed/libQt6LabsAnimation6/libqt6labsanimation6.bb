@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6LabsAnimation6-6.5.1-1.3.aarch64.rpm"
-RPM_HASH = "b260e0e7a6666292f9166665643f3d30280d53fa7e4a45ccf41036fcfc80018236562ab030530bb4f082a2f68c8b46226d54eccbe2ca9d5589561e329cee0736"
+RPM_NAME = "libQt6LabsAnimation6-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "dc83939ef1a93c1725770c486a515851cac49d0925116b2e4fb185019e2d5475b92d7269b1c0482d3fb489c828dab94ba85f5bb3f2662c6ba4fbb38219d6a7d7"
 
 RPROVIDES:${PN} += "libQt6LabsAnimation.so.6 \
 libQt6LabsAnimation6"

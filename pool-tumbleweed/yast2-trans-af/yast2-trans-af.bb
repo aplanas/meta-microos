@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Afrikaans Translations"
 DESCRIPTION = "YaST2 - Translations for Afrikaans."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230630.ccfa6add46"
+PV = "84.87.20230708.d1de37aed1"
 
-RPM_NAME = "yast2-trans-af-84.87.20230630.ccfa6add46-1.1.noarch.rpm"
-RPM_HASH = "ee205f68ff0ae15f165c14f394a19275969d5bbabbc62b6d8bd11fae0ce7289f6ecb66884b0ddb31467b0819c5fc9eb12c303e44299d518ae30a2e70c23ab043"
+RPM_NAME = "yast2-trans-af-84.87.20230708.d1de37aed1-1.1.noarch.rpm"
+RPM_HASH = "ce92bf30e27362edf6f7d3e9e5f752c972d6c25c7834c0e8b0d0894988d55f593aeb72ebfa7e23247b28b04e5327fca5262e48d3c9eeafef8ab07eb566aec1e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-af \

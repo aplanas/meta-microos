@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.3-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-declarative-docs-html-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "99f7f52dc14abcbdeecc70aa43f719546464a8cddbfbc521bf2b24a571dee16a96ce2f3d5542d37b0957f40aa8ee880a71859bc66276e2a6a0ad14c02aa2de25"
+RPM_NAME = "qt6-declarative-docs-html-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "fa7eb81e626215ce51b172abcc736db7b2837a94b39c3e9a31fc6247d68192817efcf9bbf6bb8291dc475fffe7afebceeccbaaf28c24bfb46dd09026b0719432"
 
 RPROVIDES:${PN} += "qt6-declarative-docs-html \
 qt6-quickcontrols2-docs-html"

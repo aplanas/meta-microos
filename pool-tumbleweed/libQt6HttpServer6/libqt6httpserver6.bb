@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6HttpServer6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "6aaaf9c878d61d1c73353aa7655ccccd11efc5cc4a0303a412f8e60b1b44330b64b642ff1060f48f6e25a872d48490bf32a561b2564f94adc345581fe57deff0"
+RPM_NAME = "libQt6HttpServer6-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "58a04bd372bb9a4607120ed74ec3208282df1c08c64223e0441a7afb5217abe4bb48b772a368076ceab45dd3df7554fd795fa72b15730c4e59918308ac407763"
 
 RPROVIDES:${PN} += "libQt6HttpServer.so.6 \
 libQt6HttpServer6"

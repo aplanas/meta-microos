@@ -4,10 +4,10 @@ DESCRIPTION = "This framework contains two main components: \
 * The kwalletd used to safely store the passwords on KDE work spaces."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kwallet-tools-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "ce5061384db46681ea606cfc754383af87c021bd32b02d1dc9949c9d28fc2fc3c2e64ca0fc038bfbe51a67a22da83e6381a2223566fc5ca64a54e531a1f250fb"
+RPM_NAME = "kwallet-tools-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "6871587c2dab2aa83850ef26941901d7aece917851762cfd2e1c7ab15abc366cb2558ef25bc445dae3ac1f6ead8a8764ad6d77ccc7ecb7da774ee892c07a99b5"
 
 RPROVIDES:${PN} += "kwallet-tools"
 

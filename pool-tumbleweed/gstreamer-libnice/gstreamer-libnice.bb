@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only | MPL-1.1"
 
 PV = "0.1.21"
 
-RPM_NAME = "gstreamer-libnice-0.1.21-2.1.aarch64.rpm"
-RPM_HASH = "e4a9f1f61a61886d88fc3956af562315611f52ff631a73ec82190e9af2691e379f35729dcde9e8ca61fb2f80dd8a63ee580c5d6e7f305db0d41091c1c9d9e8ce"
+RPM_NAME = "gstreamer-libnice-0.1.21-3.1.aarch64.rpm"
+RPM_HASH = "1e13f1423f419a9a2bcfcee1ebf39ddc2c925368749857371d6cc3c4414fe4fcb37568bf45f132814d0185e162b45a4f9f16acb1a267cfe9eec5c0334044b93b"
 
 RPROVIDES:${PN} += "gstreamer-libnice \
 gstreamer1 \

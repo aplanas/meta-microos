@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.10.6.0"
 
-RPM_NAME = "gnuradio-3.10.6.0-4.3.aarch64.rpm"
-RPM_HASH = "0b642955e427857fad4a2573e2887382b3e93cb7d37b1369e2f993f76aacf566b2264e902529cc945abd7a2494501bd4baa57766b147b35c11b0b930a80e16a9"
+RPM_NAME = "gnuradio-3.10.6.0-4.4.aarch64.rpm"
+RPM_HASH = "d369d3532d7ade1e5c71d9ee09d71f50c9a2cb649ac57c1c85953f25b74a8ab8998a6e3140eb70865a6b1c6f63b1f076d4130aef382cfd75b1f8b2418a795232"
 
 RPROVIDES:${PN} += "config-gnuradio \
 gnuradio"
@@ -47,7 +47,7 @@ libgnuradio-vocoder.so.3.10.6 \
 libgnuradio-wavelet.so.3.10.6 \
 libgnuradio-zeromq.so.3.10.6 \
 libm.so.6 \
-libspdlog.so.1.11 \
+libspdlog.so.1.12 \
 libstdc++.so.6 \
 libuhd.so.4.4.0 \
 libvolk.so.3.0 \

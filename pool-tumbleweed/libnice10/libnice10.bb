@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only | MPL-1.1"
 
 PV = "0.1.21"
 
-RPM_NAME = "libnice10-0.1.21-2.1.aarch64.rpm"
-RPM_HASH = "e137daa8532327cab368fb78eb636b545288f962cb17b2445bb835dc71e7d8a2ba8706141bd9f88db479d8b6673e5abf77e4ddc217e483c63804dbc6bd978eba"
+RPM_NAME = "libnice10-0.1.21-3.1.aarch64.rpm"
+RPM_HASH = "c0a2d43d726016a473b131e29fc97ce5818275bbaed4b0dea92ecff8e81c6b6b5bbddc874a85578942c87b8adb1841f3fbd85b456bc36d87dc896a1708f1bbca"
 
 RPROVIDES:${PN} += "libnice.so.10 \
 libnice10"

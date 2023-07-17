@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
 PV = "2.40.3"
 
-RPM_NAME = "WebKitGTK-4.0-lang-2.40.3-1.1.noarch.rpm"
-RPM_HASH = "f972571bcefd07ca5c0c0d90ed292a5702488f168c57eac68349169c14d9072e1f93d0041890e52120e4851cd0038fd7e65205a4a648b1a1d0ac2eef1e9a63f7"
+RPM_NAME = "WebKitGTK-4.0-lang-2.40.3-2.1.noarch.rpm"
+RPM_HASH = "bb71c4eec8c94af3bea4d0c3cd6e005660c5af786814d9e680abab207a10ea2b62ff6b04bafc0f7e8d0fc366fb77fb4c234dd7f1bf0389738cd06ecf677e1d2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "WebKitGTK-4.0-lang \

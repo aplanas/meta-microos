@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.3-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-scxml-docs-html-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "9009a9b7ecb3b3a4f3d2c9303cb9ac400888e2c13ad8b43ba49def5e3a0876db33babbea54b7bac964c88109c6c3a6beba5e7ea6104ec84b6d13ff34e07c51c3"
+RPM_NAME = "qt6-scxml-docs-html-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "8e4d893fe8a144e280cbb48d04ce58e716696af04a2fd205f194c1b4a6166d6eb6d2c43cb7168d6f26649c27f11a3f2ad83547faf266d86b6402c47f49fbdb64"
 
 RPROVIDES:${PN} += "qt6-scxml-docs-html"
 

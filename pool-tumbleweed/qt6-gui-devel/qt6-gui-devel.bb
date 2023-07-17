@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-gui-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "030c3fc16bee51f8a4dcc824be0c7c76a9692b201eda7ed37255c74c805b1500c3b580252bbfd379c4a8198507889ed6b07317bd4f0162d236041a7431b622f1"
+RPM_NAME = "qt6-gui-devel-6.5.1-4.1.aarch64.rpm"
+RPM_HASH = "9d55c1571c480b0338413c5314f6cc2ad548d67ac00f0c388aa5440c3aad38e6b386c30ff6f1708865f02e18f510dee985052d8689306d14b274f5dcab13e179"
 
 RPROVIDES:${PN} += "cmake-Qt6Gui \
 cmake-Qt6GuiTools \

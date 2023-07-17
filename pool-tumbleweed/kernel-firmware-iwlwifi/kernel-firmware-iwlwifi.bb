@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Intel wireless drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230620"
+PV = "20230707"
 
-RPM_NAME = "kernel-firmware-iwlwifi-20230620-1.1.noarch.rpm"
-RPM_HASH = "500d882f74ccca473f1a6195382d574f4141c794f71bd04876651e7f620e28e2a2325f28c15db5a16dd88722709b4a4b65422459bf52bdf659ccaa38812ea17d"
+RPM_NAME = "kernel-firmware-iwlwifi-20230707-1.1.noarch.rpm"
+RPM_HASH = "4d617b7fe6e9d86e9e1499affc8e3ac8c250ce34bf31b86a89b6eb6daeeec54406b80156f3a9892287c257740a7d2dca329bd0f68b20637cfd00418207e79a0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-iwlwifi-100-5.ucode \
@@ -94,6 +94,7 @@ firmware-iwlwifi-so-a0-gf-a0-77.ucode \
 firmware-iwlwifi-so-a0-gf-a0-78.ucode \
 firmware-iwlwifi-so-a0-gf-a0-79.ucode \
 firmware-iwlwifi-so-a0-gf-a0-81.ucode \
+firmware-iwlwifi-so-a0-gf-a0-83.ucode \
 firmware-iwlwifi-so-a0-gf-a0.pnvm \
 firmware-iwlwifi-so-a0-gf4-a0-72.ucode \
 firmware-iwlwifi-so-a0-gf4-a0-73.ucode \
@@ -102,6 +103,7 @@ firmware-iwlwifi-so-a0-gf4-a0-77.ucode \
 firmware-iwlwifi-so-a0-gf4-a0-78.ucode \
 firmware-iwlwifi-so-a0-gf4-a0-79.ucode \
 firmware-iwlwifi-so-a0-gf4-a0-81.ucode \
+firmware-iwlwifi-so-a0-gf4-a0-83.ucode \
 firmware-iwlwifi-so-a0-gf4-a0.pnvm \
 firmware-iwlwifi-so-a0-hr-b0-72.ucode \
 firmware-iwlwifi-so-a0-hr-b0-73.ucode \
@@ -122,6 +124,7 @@ firmware-iwlwifi-ty-a0-gf-a0-77.ucode \
 firmware-iwlwifi-ty-a0-gf-a0-78.ucode \
 firmware-iwlwifi-ty-a0-gf-a0-79.ucode \
 firmware-iwlwifi-ty-a0-gf-a0-81.ucode \
+firmware-iwlwifi-ty-a0-gf-a0-83.ucode \
 firmware-iwlwifi-ty-a0-gf-a0.pnvm \
 iwl100-ucode \
 iwl1000-ucode \

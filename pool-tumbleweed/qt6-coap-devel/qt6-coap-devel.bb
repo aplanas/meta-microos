@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-coap-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "bbad74c8ddac4d2ec04031bd057bdf3cc16612beb13f7136d391942cfe5326f0eb40b7a0423861d065ea9ffefdf54a682e273efbd51f5c7cac4861b4db0998dd"
+RPM_NAME = "qt6-coap-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "e15b0a844d06ea16bc71f17fd77d8ac452360e17685e7eb97c9c8ef7a7a39bed9eadf7107e3c02e413316e2a8ca4017eb2409807761d411ce7072955f42beab2"
 
 RPROVIDES:${PN} += "cmake-Qt6Coap \
 pkgconfig-Qt6Coap \

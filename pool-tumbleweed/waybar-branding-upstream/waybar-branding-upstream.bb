@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.9.19"
 
-RPM_NAME = "waybar-branding-upstream-0.9.19-1.1.noarch.rpm"
-RPM_HASH = "f9e90453d75647fba0b968e46da8e1f9b005c1c454de84c9e75255fcae9ee07247c3b59a06ff11822db3da27a26f5061215473d8609574d9bb6f642505d29c40"
+RPM_NAME = "waybar-branding-upstream-0.9.19-1.2.noarch.rpm"
+RPM_HASH = "f27a27acddb37e04fbf0bf13b0bca1012949874701d0d20722ebe8f335580964bb32876bf8bd8a04b64596d08f3e7effcd12ad1ee88d0c36c296d8e660264aed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-waybar-branding-upstream \

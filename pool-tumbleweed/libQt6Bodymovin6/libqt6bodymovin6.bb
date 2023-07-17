@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6Bodymovin6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "466841d3ebf74977ef45d506861884060179eea594b1c79d3911848636c30aba39488ed82e4bb85bf173e0e97229d13e7f959224302c748048eab83ff569a329"
+RPM_NAME = "libQt6Bodymovin6-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "b7bcdbd82b455df04ef0fafa1b676ce48e72b9566b9c241f11fef8ae538e3e4b6eadd55cf0cfdf11ceeab067dbed61969c6aaa0268a8650f8d629e8ed8e2e45c"
 
 RPROVIDES:${PN} += "libQt6Bodymovin.so.6 \
 libQt6Bodymovin6"

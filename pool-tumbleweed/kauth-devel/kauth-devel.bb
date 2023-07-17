@@ -3,10 +3,10 @@ DESCRIPTION = "KAuth is a framework to let applications perform actions as a pri
 Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kauth-devel-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "39eb15ac9a5f36ef6eb3c72f790b2e334912ea0646d3dfc5bfc59c96d5a08d4cd5f50dac717a60493b04544d6ccc0d91d841450a60ec7eddaa56478ad9fb0f04"
+RPM_NAME = "kauth-devel-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "73dc88bf86052ffd802569a76919ca94b56bb6ea8a52e3757f7fae4bfd6035fd0f221b12dc6adbe42cc22e9cb1f1125a25842ff7a31a777dd3d6c03b5e11091e"
 
 RPROVIDES:${PN} += "cmake-KF5Auth \
 kauth-devel"

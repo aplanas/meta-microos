@@ -5,10 +5,10 @@ This package contains files that allow using knotification in QtQuick based \
 applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "knotifications-imports-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "e5867979c15fb6381fecfb991a3e9b5d35d309c312d107a8df8688f9a44296c021a5bde500a8dc7cb99cf72cefeec61f160c61828dbb0f86290dd8569faf4931"
+RPM_NAME = "knotifications-imports-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "b44862c53b0c4c72686ee970fabecb244563d04e762d76593c1097174567ccbd02e70f8911d60cefe5e313f5b6c14a0aa0ef1228b54333ffec7deb0add1b8f78"
 
 RPROVIDES:${PN} += "knotifications-imports \
 libknotificationqmlplugin.so \

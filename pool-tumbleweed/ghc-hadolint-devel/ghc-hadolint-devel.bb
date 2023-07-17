@@ -4,10 +4,10 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.12.0"
 
-RPM_NAME = "ghc-hadolint-devel-2.12.0-1.8.aarch64.rpm"
-RPM_HASH = "316ebf71d2d5977a2875c867679ead603351303d66cdc94edbe2e06b2e5d2f53b8d5f3c4828b312f058cc24ef484a92d4e15103285b355d620f813c02f279113"
+RPM_NAME = "ghc-hadolint-devel-2.12.0-1.9.aarch64.rpm"
+RPM_HASH = "51abc5a89d91023fe7b07aaf136948b27939460a2ddbb6a3596546114002538712c37d99e8fce9e3a2ca775893aa682023f0af2815e86f4dd6824b3fe547273c"
 
-RPROVIDES:${PN} += "ghc-devel-hadolint-2.12.0-48fxNqFFUC1B7dRYbVUu2N \
+RPROVIDES:${PN} += "ghc-devel-hadolint-2.12.0-1THaMYBFYkn6QWtKlYYvCN \
 ghc-hadolint-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -26,7 +26,7 @@ ghc-devel-deepseq-1.4.8.0 \
 ghc-devel-directory-1.3.7.1 \
 ghc-devel-email-validate-2.3.2.18-8MZFHS3GPuQLNTYP4EPLHD \
 ghc-devel-filepath-1.4.2.2 \
-ghc-devel-foldl-1.4.14-6AA7lw3dsEK1uUeCGro40c \
+ghc-devel-foldl-1.4.15-F8c77skQAn4DvWPbyzbRUi \
 ghc-devel-gitrev-1.3.1-CQYGfdCfGPeA3DF217wQTZ \
 ghc-devel-ilist-0.4.0.1-KsvLIKFcqVNEl2m4LjZZwM \
 ghc-devel-language-docker-11.0.0-6yi9Nm1hnNl1NYn66IUrp7 \

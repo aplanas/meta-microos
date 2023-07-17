@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-statemachineqml-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "b15c99ba8f9cad230c0bd1596178c32bd8b8d66c5e8b10c195a872216427b1f4c1707ea53eeafecf62f548f523af7b9785efbd4cb82fd1e4a815d6f7ae94b053"
+RPM_NAME = "qt6-statemachineqml-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "25fafc9b2adc5b8f8cd560945253967bcb04c51e29dd27d467d5be0bcd9a0532b002ef46022d0be9caa61429220a68cc8932db30efe3b4ec57e84be24feb5daf"
 
 RPROVIDES:${PN} += "cmake-Qt6StateMachineQml \
 pkgconfig-Qt6StateMachineQml \

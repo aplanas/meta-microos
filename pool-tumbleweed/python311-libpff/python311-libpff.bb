@@ -7,8 +7,8 @@ LICENSE = "GFDL-1.1-or-later & LGPL-3.0-or-later & GFDL-1.3-or-later"
 
 PV = "20230325"
 
-RPM_NAME = "python311-libpff-20230325-1.7.aarch64.rpm"
-RPM_HASH = "bae4702dd29735036f83a9df03aebe706809beda43bf449e225fefbc237b516eb8fec51cf5ca6cb8db763cc027ef9aa8700754fe46e921078e1f6ed8e88b2583"
+RPM_NAME = "python311-libpff-20230325-1.8.aarch64.rpm"
+RPM_HASH = "18730c80db87b54691df458588d52ae050813fc86f3c88845f94787092dfa2f884eb1c98310f7c663823b000807652096c38ba58bea589d05231140870375f14"
 
 RPROVIDES:${PN} += "python3-libpff \
 python311-libpff"

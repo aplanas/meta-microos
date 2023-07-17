@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.2.1"
 
-RPM_NAME = "python311-graphene-3.2.1-2.4.noarch.rpm"
-RPM_HASH = "53e5706e5f7bfdb9057bc7df97bc2dde1534470d6803c40932387e8ecc2021169f6743c0eeebaf3aa01b2c5ba19a5666150e1aaef5f3f452484050cd23c8c813"
+RPM_NAME = "python311-graphene-3.2.1-3.1.noarch.rpm"
+RPM_HASH = "a93523586993a389144a34fc26adfe2bb32dc61ec65c65549e4d67bba750ba662398622bd8b4b32d214fd8dcfefc1caa71ccc09b1e8eb86305d2e3256ca0dc81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-graphene \

@@ -2,10 +2,10 @@ SUMMARY = "Zsh Completion for flux2-cli"
 DESCRIPTION = "zsh command line completion support for flux2-cli."
 LICENSE = "Apache-2.0"
 
-PV = "2.0.0"
+PV = "2.0.1"
 
-RPM_NAME = "flux2-cli-zsh-completion-2.0.0-1.1.noarch.rpm"
-RPM_HASH = "4850e49b63c5cdfbc44367edfb991002f899ecec495155dace1f2f45504c333e84d0feef24847ee0b7f893798b3beb499a21b6d1bcadef34a62f718b48942329"
+RPM_NAME = "flux2-cli-zsh-completion-2.0.1-1.1.noarch.rpm"
+RPM_HASH = "9b690a3f685bd99385ae8c7909131f946aac70629b99fd897290134d1aa119742137105aba0fc1f21348f7bd78f6eb164afcd0dd5b93f5d8f7086e69d2e92c50"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flux2-cli-zsh-completion"

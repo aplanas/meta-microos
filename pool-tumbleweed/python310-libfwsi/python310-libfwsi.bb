@@ -3,10 +3,10 @@ DESCRIPTION = "Library to access the Windows Shell Item format for the libyal fa
 libyal is typically used in digital forensic tools."
 LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
-PV = "20230114"
+PV = "20230710"
 
-RPM_NAME = "python310-libfwsi-20230114-1.7.aarch64.rpm"
-RPM_HASH = "168497504cfbcd8f0fbc54ce1ab2a68e7b8c1a4623f66f6de44d6be3a41626669ea720e34dbd125657b3458bf7f9b96f88e356b19bc17753121a9697b461b4f5"
+RPM_NAME = "python310-libfwsi-20230710-1.1.aarch64.rpm"
+RPM_HASH = "bd2a6cb030028592e7aa188f9af27e5952b88a7f84d517c7ce892cf7693e5b73263d82974f9dad65e3360b75f34961f00aff69526c3ca364705f8b748565fb63"
 
 RPROVIDES:${PN} += "python310-libfwsi"
 
@@ -16,6 +16,7 @@ libcerror.so.1 \
 libclocale.so.1 \
 libfguid.so.1 \
 libfwsi.so.1 \
+libuna.so.1 \
 python-abi"
 
 inherit rpm

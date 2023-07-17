@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-webenginequick-devel-6.5.1-1.3.aarch64.rpm"
-RPM_HASH = "8e85ea3ed3d141c6c113fb22022a80daa29bceb0a809f52dbe59fc40b6d7f3c8b50957bc8ce06efa964f335e279391e36ec0f3c7b43e859e0ec7333bf53992c3"
+RPM_NAME = "qt6-webenginequick-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "73bb0d122e070c8fac7aeb11dd3d90ea194b93dd425ed36fe7c4a74263d864f0a884d1dbf15d02fd3bc2806f4581d4dd7b0c7d99c2b80f921281a0d750588b60"
 
 RPROVIDES:${PN} += "cmake-Qt6WebEngineQuick \
 cmake-Qt6WebEngineQuickDelegatesQml \
@@ -14,7 +14,9 @@ pkgconfig-Qt6WebEngineQuickDelegatesQml \
 qt6-webenginequick-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
+cmake-Qt6Gui \
 cmake-Qt6Qml \
+cmake-Qt6Quick \
 cmake-Qt6WebEngineCore \
 libQt6WebEngineQuick6 \
 pkgconfig-Qt6Core \

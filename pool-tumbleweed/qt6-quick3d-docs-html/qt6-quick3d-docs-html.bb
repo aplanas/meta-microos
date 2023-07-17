@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.3-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quick3d-docs-html-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "328245e89aef2510db9e20d341b4a287233fb6e9fcf95a6777eef737f76ce078e4ef0681a5528fb2f24c5ea9723d212b3962538fc9f1013834d2020979162cb4"
+RPM_NAME = "qt6-quick3d-docs-html-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "fd4d946067fb7f31a5f1b32ba428947da557b79df77ad1fa01f86d0a79b6d19b25e461554a4d5578b376750474dbf6cb6ce8c4a485303868339c9a02a1cf2d61"
 
 RPROVIDES:${PN} += "qt6-quick3d-docs-html"
 

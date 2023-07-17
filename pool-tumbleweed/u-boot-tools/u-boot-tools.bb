@@ -4,10 +4,10 @@ This package contains: \
 mkimage- a tool that creates kernel bootable images for U-Boot."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.04"
+PV = "2023.07"
 
-RPM_NAME = "u-boot-tools-2023.04-2.2.aarch64.rpm"
-RPM_HASH = "c53bf4e63363e5e0c05f866e3f6743239751df4523d2588be0670bbad8280acaaf769307c25fb13303d8d81d20c41cb157a33c5a528d920fc648e9fa392d1c28"
+RPM_NAME = "u-boot-tools-2023.07-1.1.aarch64.rpm"
+RPM_HASH = "7f61463f3ebefa5b4d190de010da46800034f25a9352c905d979a27896e6dbd045a625559cef9ceeb0bc948ca412755e99d16025fbe6c492b390ee1fe0b2c289"
 
 RPROVIDES:${PN} += "u-boot-tools"
 

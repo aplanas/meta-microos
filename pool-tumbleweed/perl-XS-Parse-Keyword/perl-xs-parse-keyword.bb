@@ -11,10 +11,10 @@ evolving and subject to change. Later versions may break ABI compatibility, \
 requiring changes or at least a rebuild of any module that depends on it."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.33"
+PV = "0.34"
 
-RPM_NAME = "perl-XS-Parse-Keyword-0.33-1.4.aarch64.rpm"
-RPM_HASH = "2244ada6b7d70c43e3fe50601cc900627988f1beab8a0549864dde7ec41080109b9990d2f40e6cf0924f821c414b114286149dc71f18e06b4940183b4054efc0"
+RPM_NAME = "perl-XS-Parse-Keyword-0.34-1.1.aarch64.rpm"
+RPM_HASH = "9b3fde9c066fc6118e6320809d98021a903e5fe4f4ff2af366e7d572fa1820e828915046c6ec3d44ed9a0054febd7198acd0fcd182d4e5d0aa385e90699cf9a1"
 
 RPROVIDES:${PN} += "perl-XS--Parse--Infix \
 perl-XS--Parse--Infix--Builder \

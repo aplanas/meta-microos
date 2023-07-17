@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.5"
 
-RPM_NAME = "ghc-hlint-doc-3.5-1.7.noarch.rpm"
-RPM_HASH = "5686ff09fe452d1232ae2037345354ac8d182a6a9eec0c0aba3a4cb22871e73372f749ba6ee3f2ef320159950099474b6c68ada183cb20c5a344d62809f38036"
+RPM_NAME = "ghc-hlint-doc-3.5-1.10.noarch.rpm"
+RPM_HASH = "512fd19a9113ed8f249ee08527b08df8feba530ca6f7fc24f109b6dc39a40cdc16d51d270be46a1a5958eac2b39f90ee2d43915b33ec4f09a2cfb468aab26825"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-hlint-doc"

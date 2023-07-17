@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.56.0"
 
-RPM_NAME = "libgrpc++1_56-1.56.0-1.2.aarch64.rpm"
-RPM_HASH = "8cd704e84fa61a78a118ff4c7dcf4ce894b7b4ab26ea62d87ebc5d1df11ebb7c0f9eb1f5c03c544f9b99d8837a5951636bc9e43a681db21cd6eaf1263d09be0d"
+RPM_NAME = "libgrpc++1_56-1.56.0-1.3.aarch64.rpm"
+RPM_HASH = "6186284f282219381b4a9324808f4dee84094ff7d8a01b867353b92cf7e67edacc75589048eab79d35d9296952ab879f034522d41284349250a50db0a14e33b2"
 
 RPROVIDES:${PN} += "libgrpc++-alts.so.1.56 \
 libgrpc++-error-details.so.1.56 \
@@ -35,7 +35,7 @@ libgcc-s.so.1 \
 libgpr.so.33 \
 libgrpc-unsecure.so.33 \
 libgrpc.so.33 \
-libprotobuf.so.23.3.0 \
+libprotobuf.so.23.4.0 \
 libstdc++.so.6 \
 libupb.so.33"
 

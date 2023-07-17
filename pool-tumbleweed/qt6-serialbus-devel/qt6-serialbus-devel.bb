@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | GPL-2.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-serialbus-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "738cc5bb5cc872a78c127df682938f70b0e179f312d07857e8be5625e99670ac9665d7a8f1bc587aa4b8998eec823977c5b6a5539ea5244d6f3b788292ddeb45"
+RPM_NAME = "qt6-serialbus-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "b372837ff85dc3a2140dfcefd43fb187d39e255a47a474e2c8c05308be98149df7e7116493248d1d6f386b159c1b4514ff074fff9aaa78720b0f68e492f7684e"
 
 RPROVIDES:${PN} += "cmake-Qt6SerialBus \
 pkgconfig-Qt6SerialBus \

@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Vietnamese Translations"
 DESCRIPTION = "YaST2 - Translations for Vietnamese."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230630.ccfa6add46"
+PV = "84.87.20230708.d1de37aed1"
 
-RPM_NAME = "yast2-trans-vi-84.87.20230630.ccfa6add46-1.1.noarch.rpm"
-RPM_HASH = "5afeb0a3a501214d7f46ecaa335dbd411e6fdc4c4a8a6b04d7f0f277e512ac4a366f5b6f371ad5bffc5f4121cf2499daca299c964fd55f6ad17a5f16c4164352"
+RPM_NAME = "yast2-trans-vi-84.87.20230708.d1de37aed1-1.1.noarch.rpm"
+RPM_HASH = "9262cb60c10dc70b0f0a91c985db7d2fe4af4a0c725a40a7d3e32f7392e9dc2d3705b01486bc190b1a1d1be3023fb25e6089f478087ae7ae33dfb2b5016fd580"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-vi \

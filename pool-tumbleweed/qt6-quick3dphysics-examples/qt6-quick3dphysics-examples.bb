@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quick3dphysics-examples-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "9072e937d3a88c91f20f269d950e4534604d6a190a12fe4b39b3ce06235a47140c1faebb8bf0c2f66da7852106eecae3b8071474a052b1e5be481b6699510eb4"
+RPM_NAME = "qt6-quick3dphysics-examples-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "c00f5d8d687563385c2a62698cd045e1734b8eedf008bf3964aea4d24f909f91d0cd94a6b95b74ea04f5a597567d9c7b9ab8649d683bee1411d141b403cbd8a2"
 
 RPROVIDES:${PN} += "qt6-quick3dphysics-examples"
 

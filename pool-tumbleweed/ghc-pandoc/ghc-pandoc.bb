@@ -23,12 +23,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.1.3"
 
-RPM_NAME = "ghc-pandoc-3.1.3-1.3.aarch64.rpm"
-RPM_HASH = "3208ad676be3bac696c323138982338ce4c6bb907013598b27320f9fd18359b34f04f1d0a9161394098dc5052d361c213cec8f761adc86b5605e0d59be9d6553"
+RPM_NAME = "ghc-pandoc-3.1.3-1.5.aarch64.rpm"
+RPM_HASH = "9064d2e21e2d80317b818242d3e1843c2b8f0ac2a6d3b42d12ae4815d6711e9ba9589118d9df6bea6f289b24f130934c85ab7c4397f305982e0b701d42659940"
 
 RPROVIDES:${PN} += "ghc-pandoc \
-libHSpandoc-3.1.3-5ecWWg0ojZ38IHcxSTWJz4-ghc9.4.5.so \
-libHSpandoc-3.1.3-KZifERN8HNyEKa03sDY3cX-xml-light-ghc9.4.5.so"
+libHSpandoc-3.1.3-Azpj6t6N0K33PpNoCn46n6-xml-light-ghc9.4.5.so \
+libHSpandoc-3.1.3-IvLrz4YIivMLuf8ZxaBxIb-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSGlob-0.10.2-5tAj3lHfg0h9Pb5bOpMg4R-ghc9.4.5.so \
 libHSJuicyPixels-3.3.8-BQPF2mBCFFj3rGPaZ8nrGS-ghc9.4.5.so \
@@ -38,7 +38,7 @@ libHSQuickCheck-2.14.3-6dq2izV8oSq1BobaDA598X-ghc9.4.5.so \
 libHSSHA-1.6.4.4-CTRZ9m1gmyY35Z2xnCckJW-ghc9.4.5.so \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so \
 libHSaeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov-ghc9.4.5.so \
-libHSaeson-pretty-0.8.9-ANiMUyahKok8eMC9BUYvO0-ghc9.4.5.so \
+libHSaeson-pretty-0.8.10-8JRVLG9BqWz7B95FOCRy0B-ghc9.4.5.so \
 libHSansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3-ghc9.4.5.so \
 libHSansi-terminal-types-0.11.5-9ffXWswmNhoANlpnF2SnhR-ghc9.4.5.so \
 libHSappar-0.1.8-JYpyJYPkUOgKorqU8WSWRv-ghc9.4.5.so \
@@ -160,7 +160,7 @@ libHStagged-0.8.7-CYOhX22Df3PFW5V1S0dOJa-ghc9.4.5.so \
 libHStagsoup-0.14.8-KqOLe3dJpuA4KsHZJW2cTn-ghc9.4.5.so \
 libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
 libHStemporary-1.3-9rLWZg49Shk3gKExST32p-ghc9.4.5.so \
-libHStexmath-0.12.8-JGsJwuKtD7b26p8DVW0WBw-ghc9.4.5.so \
+libHStexmath-0.12.8-2W1fkH7eNmw4E7l7odwRHx-ghc9.4.5.so \
 libHStext-2.0.2-ghc9.4.5.so \
 libHStext-conversions-0.3.1.1-CkkBRqT3R5g4PO0QywmUQS-ghc9.4.5.so \
 libHStext-short-0.1.5-82jy4M6AvoMDwlCMY2Ykx2-ghc9.4.5.so \
@@ -175,8 +175,8 @@ libHStls-1.6.0-GPxmmQRGk0xt2NkvZcJeD-ghc9.4.5.so \
 libHStransformers-0.5.6.2-ghc9.4.5.so \
 libHStransformers-compat-0.7.2-7jAnhjvxTABIymoNGHTOwd-ghc9.4.5.so \
 libHStyped-process-0.2.11.0-AJYHFlIHznQBMeAWc6SvCO-ghc9.4.5.so \
-libHStypst-0.1.0.0-3VBCZ4Q02O47LMJn0K0CF8-ghc9.4.5.so \
-libHStypst-symbols-0.1.0.1-68asM8ctSWGeebFauBl8u-ghc9.4.5.so \
+libHStypst-0.1.0.0-KYQhPlbAv2KGc3iiEDbU9A-ghc9.4.5.so \
+libHStypst-symbols-0.1.2-6B3ZvJm94WZ4qfFjRZShld-ghc9.4.5.so \
 libHSunicode-collation-0.1.3.4-LMKRbY0RRBBKxwMiir45sP-ghc9.4.5.so \
 libHSunicode-data-0.4.0.1-IPznodd4J0BGoSZPR6u4lO-ghc9.4.5.so \
 libHSunicode-transforms-0.4.0.1-EKt5KzAvdneBwqiDZWg9HO-ghc9.4.5.so \
@@ -197,7 +197,7 @@ libHSx509-validation-1.6.12-Ei5K1SyMjWXHl76z2VlUEo-ghc9.4.5.so \
 libHSxml-1.3.14-BBPDUWQuUpt3QYOr4h6J5g-ghc9.4.5.so \
 libHSxml-conduit-1.9.1.3-JDYavYDcwLN29rDQLTOOon-ghc9.4.5.so \
 libHSxml-types-0.3.8-7guWdy0cJxZLf8pjB1j9Fb-ghc9.4.5.so \
-libHSyaml-0.11.11.1-3T1xu4983kFHb1qERRZhqW-ghc9.4.5.so \
+libHSyaml-0.11.11.2-4GYYolDKkXn5x4zdb9DA59-ghc9.4.5.so \
 libHSzip-archive-0.4.3-DcfDtoW5uCpFhVU7PDyRvn-ghc9.4.5.so \
 libHSzlib-0.6.3.0-GaFaUl6t8QzEoHIQXsottk-ghc9.4.5.so \
 libc.so.6 \

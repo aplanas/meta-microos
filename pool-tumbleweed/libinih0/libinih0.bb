@@ -5,10 +5,10 @@ compatible with Python's ConfigParser. \
 This package provides the library for use at runtime by applications using INIH."
 LICENSE = "BSD-3-Clause"
 
-PV = "56"
+PV = "57"
 
-RPM_NAME = "libinih0-56-1.5.aarch64.rpm"
-RPM_HASH = "28db40151c040c4a8ee4332982693c3dc1fb04a08e90b0d30eba7a891a94c9884b839872dfdad5e9b9e84eb995e39c15fc19a42b1d7d3259108252072a274683"
+RPM_NAME = "libinih0-57-1.1.aarch64.rpm"
+RPM_HASH = "4a05085830cc5953ed7eb0ff570a357a226f4d1fba98b1bed7b19b8a053934996801242271e72f97d21bcf67ff2ed554363ac82fe346c7d3dfe3ca5c492ffd92"
 
 RPROVIDES:${PN} += "libINIReader.so.0 \
 libinih.so.0 \

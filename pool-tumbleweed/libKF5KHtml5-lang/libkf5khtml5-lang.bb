@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5KHtml5"
 DESCRIPTION = "Provides translations for the 'libKF5KHtml5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5KHtml5-lang-5.107.0-1.1.noarch.rpm"
-RPM_HASH = "0358d1fcbc7b4e3d9d834ac8260b89b9320ff912ef65ae00532b594a570b3fdf5d58e51b8786f883a2889e92684898101c4cb83feee8e4d197c3ae9ada4e2469"
+RPM_NAME = "libKF5KHtml5-lang-5.108.0-1.1.noarch.rpm"
+RPM_HASH = "ed0a5709d27f98a6d8845d07b474a461e2a248e81eda728856ace3155f7f51ef7d62e7d4e4ae5a936a5e01320033c822dd4efbea81baf4eb9cbc840635232a3a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5KHtml5-lang \

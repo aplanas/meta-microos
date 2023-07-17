@@ -2,13 +2,13 @@ SUMMARY = "Unix time parser/formatter and utilities"
 DESCRIPTION = "Fast parser/formatter/utilities for Unix time."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.9"
+PV = "0.4.10"
 
-RPM_NAME = "ghc-unix-time-0.4.9-1.6.aarch64.rpm"
-RPM_HASH = "cef211d0e5ac986a1bd9e2486de315752579ad501797369d77c2a1ce633347e8ccedb60a5c6673e01c4a9d819b57c33301630e936a3036b9129e908424884f6f"
+RPM_NAME = "ghc-unix-time-0.4.10-1.1.aarch64.rpm"
+RPM_HASH = "2074557749227a58b82521316cdc490244d8cd8202b4c33d8311349745b0a8da9c7c33e99bf8ddaffea6e805a631cc54790bae59de49300be2f36b1b81a61ae3"
 
 RPROVIDES:${PN} += "ghc-unix-time \
-libHSunix-time-0.4.9-DrdwBL0FLhc5jN9Hujlou0-ghc9.4.5.so"
+libHSunix-time-0.4.10-LpZG5YAXe572FFFZnKOLQq-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libHSarray-0.5.4.0-ghc9.4.5.so \

@@ -5,10 +5,10 @@ the widgets provided by various KDE frameworks, as well as a utility \
 from ini-style description files. Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kdesignerplugin-devel-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "2c203a9b44147e76e145537548cbbd0eff3029c71b8cfbd79ffd35367ae9a08d504e703b8ef8653be7b6d81ba684ec9df6e91c909d1f9a5512decbbc7e91ff6b"
+RPM_NAME = "kdesignerplugin-devel-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "03a5f1ecfdc5d1232486e82e5fe8f71739e524fc140f6044cca4ff0f0a7d6525339c86f1ee0b70625c7139d4636f773015dfd40585f87e643b7921887915ee4a"
 
 RPROVIDES:${PN} += "cmake-KF5DesignerPlugin \
 kdesignerplugin-devel"

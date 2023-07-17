@@ -4,10 +4,10 @@ If installed, rpm uses this to generate Requires of .qml files \
 and Provides of QML modules."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.1"
+PV = "1.2"
 
-RPM_NAME = "qml-autoreqprov-1.1-2.6.noarch.rpm"
-RPM_HASH = "1a5ee82f4fa68d21c3919501bef1bf9bc7e8ab3022e7e64fe3c10557d387aa4e2ab6eab4423c4c68c8eeebab9e077b38c16f95e3c091ee5fab3b3d2f8eb51786"
+RPM_NAME = "qml-autoreqprov-1.2-1.1.noarch.rpm"
+RPM_HASH = "73b54cae0d47ac83e4557a618154d30150f81a9f81295362ab9e843871110c9afc84d3080dbb552e90b65da6b02b93eb3cc5468b930c771f100f6b1fe4f6e0c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qml-autoreqprov"

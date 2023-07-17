@@ -3,10 +3,10 @@ DESCRIPTION = "Particle provides a pythonic interface to the Particle Data Group
 particle data tables and particle identification codes."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.22.1"
+PV = "0.23.0"
 
-RPM_NAME = "python310-particle-0.22.1-1.1.noarch.rpm"
-RPM_HASH = "bc7bd9c1c076488aa6d0d07d0512180b17dbc171e9e6c49939ddfd5dee510ff67206fec9d3faa8b3358cbcfaef4f715207b1a6bb1c1a61d74971cc5c9ddc1b63"
+RPM_NAME = "python310-particle-0.23.0-1.1.noarch.rpm"
+RPM_HASH = "aaf3a43f1b584fb8608fad0eb85084536aa51809ac3e21f495bbfb2b4ed73292ce587f51a7aecaf042592957d10f2db82f50ac18d0c8961199d25775bda3dde9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-particle \

@@ -4,10 +4,10 @@ applications. It supports several different plugins, including \
 HSpell, Enchant, ASpell and HUNSPELL."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "sonnet-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "cbdf3318c7d9a3bdf12b2e4b1834d7863b4788b7aa400e5613105fa2ef8105f59b14a49b8792da33a7a21d2c4fa618fc9fdf50334c2d1d2172227e17eb74cc06"
+RPM_NAME = "sonnet-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "6a83ed1fbc7d82a1e309ff663d13f600559daf9a528b221ee2f1579c4bbafc48a1fc3a76147571003e84a12ba66163fd5230d4356360a05d5a5cc99ccb2d1573"
 
 RPROVIDES:${PN} += "sonnet"
 

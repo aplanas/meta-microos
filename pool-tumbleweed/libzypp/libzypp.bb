@@ -18,8 +18,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "17.31.15"
 
-RPM_NAME = "libzypp-17.31.15-1.2.aarch64.rpm"
-RPM_HASH = "044c6395b5b807cb99997fa65b6e49fcc254ada8a2b68e9b3aa5366a96e1fa4633ca654d09d1a2e6e7c24f0c1a25d702ab384c9b2619eba5670ba926573acbfa"
+RPM_NAME = "libzypp-17.31.15-1.3.aarch64.rpm"
+RPM_HASH = "7101cc5c4ec165885722e03863525e79d188f29b61ee6da4341faeb6f391a7099195f3c1a1b299bea6c54f647f3caadf51567f0dcdf263164922aac56155520e"
 
 RPROVIDES:${PN} += "config-libzypp \
 libzypp \
@@ -45,7 +45,7 @@ libcurl4 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \
 libgpgme.so.11 \
-libprotobuf-lite.so.23.3.0 \
+libprotobuf-lite.so.23.4.0 \
 libproxy.so.1 \
 librpm.so.9 \
 librpmio.so.9 \

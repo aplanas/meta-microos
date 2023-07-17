@@ -9,10 +9,10 @@ the system, it moves the log file to /var/log/boot.old and appends all log \
 messages upto to point at which the file systems becomes unavailable."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.26"
+PV = "2.27"
 
-RPM_NAME = "blog-plymouth-2.26-2.3.aarch64.rpm"
-RPM_HASH = "2c36cd7aec2a8b73c9cb03abbd708844363b3823d050d1a3319233e9b661325ddbf0a45ad9a84e59cb7343c12cfa2a0a0e8cd1ef54eb0a69606b9ae88ef6bec4"
+RPM_NAME = "blog-plymouth-2.27-1.1.aarch64.rpm"
+RPM_HASH = "71bbae9b6065a5288b046ed8f2123c571080549be4ded4e140d5dd12b59a203813f780047608efd3f207ff87b36b9f0c850d5acf07ec95507eeafcfce4c20895"
 
 RPROVIDES:${PN} += "blog-plymouth"
 

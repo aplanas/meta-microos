@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "1.6.24.2"
 
-RPM_NAME = "ghc-yesod-core-prof-1.6.24.2-1.7.aarch64.rpm"
-RPM_HASH = "eb1dc86c9859370d76e4f17535225dde3e6abb945504057017e4b66bbfab70d08161127091d4929e5099bd5463ed290d89f9ff492b7e1aaa23142932f352e7ee"
+RPM_NAME = "ghc-yesod-core-prof-1.6.24.2-1.8.aarch64.rpm"
+RPM_HASH = "fc0cab936e74c97015a7b389191ce24e69033b35147e3d4fc50e583b61b5d5cbf1db7f2ee43f6a5f7e1addeb6157dcf68656521582dc3b18ee3c6931eed199c6"
 
-RPROVIDES:${PN} += "ghc-prof-yesod-core-1.6.24.2-8wK3xEIlG3CBsmvalvvZaH \
+RPROVIDES:${PN} += "ghc-prof-yesod-core-1.6.24.2-7isfGP7hc9NLFaHQAgg8t \
 ghc-yesod-core-prof"
 
 RDEPENDS:${PN} += "ghc-prof-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
@@ -25,10 +25,10 @@ ghc-prof-containers-0.6.7 \
 ghc-prof-cookie-0.4.6-Dg4BNZOQbFj7M1J2IgDFKE \
 ghc-prof-deepseq-1.4.8.0 \
 ghc-prof-entropy-0.4.1.10-HkaMHQZP8nyRj15panvtP \
-ghc-prof-fast-logger-3.1.2-B9zh4yvWMU69CA1ZW1MVtN \
+ghc-prof-fast-logger-3.1.2-FrZhfcoVNTvDFmA3ecjq8Q \
 ghc-prof-http-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6 \
 ghc-prof-memory-0.18.0-8CsggfkyXReDSMbRoae4Yp \
-ghc-prof-monad-logger-0.3.40-G052AHl2mRW3aPPonmcvVW \
+ghc-prof-monad-logger-0.3.40-JON4xqa3KWj1ClCWFJbFYV \
 ghc-prof-mtl-2.2.2 \
 ghc-prof-parsec-3.1.16.1 \
 ghc-prof-path-pieces-0.2.1-7L2E0FvnHzn1hGutNz0iw4 \
@@ -45,9 +45,9 @@ ghc-prof-unliftio-0.2.25.0-DN1mY49M6dHDqA19Vm4lY3 \
 ghc-prof-unordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E \
 ghc-prof-vector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp \
 ghc-prof-wai-3.2.3-B6oJGZed88IFIvDpwN5I7x \
-ghc-prof-wai-extra-3.1.13.0-3pmfL93b8iXAmoBQvHdwGU \
-ghc-prof-wai-logger-2.4.0-HFZNBDhfTBI6FWxvAW2OQE \
-ghc-prof-warp-3.3.25-7qOcByHeVpuMAFF4vrupa \
+ghc-prof-wai-extra-3.1.13.0-LFtqIngDY3AAQ1a5w3zKO8 \
+ghc-prof-wai-logger-2.4.0-JuVFE6hpBhqDKHgP60Zmqn \
+ghc-prof-warp-3.3.25-EsJVhH2AisSK67jSo7D0GP \
 ghc-prof-word8-0.1.3-9uGjviso2af8K0EP8UmxRD \
 ghc-yesod-core-devel"
 

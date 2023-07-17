@@ -10,10 +10,10 @@ libraries; however, third-party software that wishes to perform AFS \
 authentication may link against them."
 LICENSE = "IPL-1.0"
 
-PV = "1.8.9"
+PV = "1.8.10"
 
-RPM_NAME = "openafs-authlibs-1.8.9-4.6.aarch64.rpm"
-RPM_HASH = "773902cc89e4c0ccfd55f57368955be991e474a5072c136f8aee3aaf5ad203513634d51ea2fb967fed9ece75aeadee4ccd44e813803f2ee0d5bc7404103e128c"
+RPM_NAME = "openafs-authlibs-1.8.10-1.1.aarch64.rpm"
+RPM_HASH = "b1f1264901338d25028c652586fcd9ad7a7c9c0bf39f5196efb8865299c5a54a03b70130a60fb2cfb7210f9738cb6d568cb46fccad8692a94627d7682d0a1f4b"
 
 RPROVIDES:${PN} += "libafsauthent.so.2 \
 libafsrpc.so.2 \

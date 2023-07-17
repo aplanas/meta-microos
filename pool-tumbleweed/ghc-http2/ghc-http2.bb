@@ -4,11 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.3"
 
-RPM_NAME = "ghc-http2-3.0.3-2.7.aarch64.rpm"
-RPM_HASH = "b80ca810baa2960110ca7c6d04245ae38fc3132cbb342a3315d09d64f16218790d3b875b302dfee760f0fc57862b182b570b9bff710d0750f4d2238123617239"
+RPM_NAME = "ghc-http2-3.0.3-2.10.aarch64.rpm"
+RPM_HASH = "100060a3a6c8f1fb84a86117d04c0e21f1b389c8d4e46105fca67e45cef61a5c889d44864fbead24cabfc51321339293b2b4fc8eb50dcafe2e9c58abc8cd5475"
 
 RPROVIDES:${PN} += "ghc-http2 \
-libHShttp2-3.0.3-COVYRU9DHikEztQPG0mdmy-ghc9.4.5.so"
+libHShttp2-3.0.3-C8jMo1PWq0Httjut7cZnE-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSasync-2.2.4-Is3H7ZPNMkM5reIoCaqYrF-ghc9.4.5.so \
@@ -38,7 +38,7 @@ libHStext-2.0.2-ghc9.4.5.so \
 libHStime-1.12.2-ghc9.4.5.so \
 libHStime-manager-0.0.0-49hD2RcPrUEG8anOiBePCj-ghc9.4.5.so \
 libHSunix-2.7.3-ghc9.4.5.so \
-libHSunix-time-0.4.9-DrdwBL0FLhc5jN9Hujlou0-ghc9.4.5.so \
+libHSunix-time-0.4.10-LpZG5YAXe572FFFZnKOLQq-ghc9.4.5.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

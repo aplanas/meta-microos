@@ -5,14 +5,14 @@ LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-wlshellintegration-private-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "2fb1d13e2404665344a8b01f3562a27a38753fabb75e374f3e140bc9a4c3444e8dc9f403ec6e96e9ce7ceda6d7fb2d1c31b8c0ff603c381806575044d01f4f9c"
+RPM_NAME = "qt6-wlshellintegration-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "f94800f04071c769c568eae726a18b7d88fd66b53913d702ab27c19fe4d0be8d4db43cd4affb36f0e85fe1fb5e55686d3cb33246f20db3e02311e1c119265874"
 
 RPROVIDES:${PN} += "cmake-Qt6WlShellIntegrationPrivate \
 qt6-wlshellintegration-private-devel"
 
-RDEPENDS:${PN} += "libQt6WlShellIntegration6 \
-qt6-gui-private-devel \
-qt6-waylandclient-private-devel"
+RDEPENDS:${PN} += "cmake-Qt6Gui \
+cmake-Qt6WaylandClient \
+libQt6WlShellIntegration6"
 
 inherit rpm

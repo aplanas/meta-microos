@@ -5,12 +5,14 @@ LICENSE = "LGPL-3.0-only | GPL-2.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-serialbus-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "f4f909fba89d19db18cf6432478579a10c80a49f6500a0f9f34a0bd193aa8ba8f30b0b70b9fb5a4f726d95f6e81b71cbd2a32bfa18b5976ea6a791414220d7a1"
+RPM_NAME = "qt6-serialbus-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "fcbe7f25208cc39d33bfd4a259cc319da5d5c4f594f048f8483c2e197b26acafa5856375f92819f722035b8d87314d36092abc3fbc0184d73943a21e976270ff"
 
 RPROVIDES:${PN} += "qt6-serialbus-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6SerialBus \
+RDEPENDS:${PN} += "cmake-Qt6Network \
+cmake-Qt6SerialBus \
+cmake-Qt6SerialPort \
 qt6-core-private-devel"
 
 inherit rpm

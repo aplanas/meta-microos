@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt63DQuickInput6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "dfbac90e905e3d14d359de25ee2d257741c6de721114e7010c0eb52c87e3fe17fb2319340c6373b18a1180889967077392fe24bf8e0e3440169b83641b5647e9"
+RPM_NAME = "libQt63DQuickInput6-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "e30c7b56cb44dbd92fd28dd4bd2124a5c86f36e749d72e39fd5b657e03c0966cadfd8bb19fa21a4f313782f665e4e6b40fb25a1ba58807e11d9781582ab01fe6"
 
 RPROVIDES:${PN} += "libQt63DQuickInput.so.6 \
 libQt63DQuickInput6"

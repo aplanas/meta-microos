@@ -2,10 +2,10 @@ SUMMARY = "CLI tool to convert a python project's  strings to f-strings"
 DESCRIPTION = "CLI tool to convert a python project's  strings to f-strings."
 LICENSE = "MIT"
 
-PV = "0.76"
+PV = "0.78"
 
-RPM_NAME = "python39-flynt-0.76-1.10.noarch.rpm"
-RPM_HASH = "f04436d363b38d664a4b955a5df0a47bbf27a7cbbde372cd8a6ffaa248a9103e84c37a606ce2271a74122fc773230ce2e33041190195eab26fb48385e86afe4a"
+RPM_NAME = "python39-flynt-0.78-1.1.noarch.rpm"
+RPM_HASH = "f8dc782741bbc35bc9ea9149471b67846eafbcb4938c6d4acb777c3eeee72c1ac7d8ca0d6c493b94c3288fd149c5ad738779722c93bf5f23dc8130f673476b89"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flynt \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-webengine-examples-6.5.1-1.3.aarch64.rpm"
-RPM_HASH = "f9ba3564ec96f92afbd7c8840268e64f9a16edbc108a07bfdedb36714478723cdfbd533920bc78b6fa2aefa377c2821f8ee3b6b7b3bcdf8ccdae667103f941ab"
+RPM_NAME = "qt6-webengine-examples-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "aea24e084e8365badbe643686ab199f019513c04346c9cf9b5c5d4351c645516f01dff97970cccca6fa583ad4060e37a801b2f94e49a47e9796c7d188157963a"
 
 RPROVIDES:${PN} += "qt6-webengine-examples"
 

@@ -5,13 +5,14 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quick3dutils-private-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "bf2cbd7eed306871227c32b6af00cb81b3cf3d460e77315b91b3ca49e3d177d844a8a3d16ffea18e716ac59f693385c0301af7e70f148df5393b71bedf8c87b1"
+RPM_NAME = "qt6-quick3dutils-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "a79315fdae0e468557a66d920c64397e0a933ecef01daaf360a0f7324a97b0dd4eb63e2d44cf2dc654d30ce90d238d071d20818aa1eedc6d77ced290dd7cf955"
 
 RPROVIDES:${PN} += "qt6-quick3dutils-private-devel"
 
 RDEPENDS:${PN} += "cmake-Qt6Quick3DUtils \
 qt6-core-private-devel \
-qt6-gui-private-devel"
+qt6-gui-private-devel \
+qt6-quick-private-devel"
 
 inherit rpm

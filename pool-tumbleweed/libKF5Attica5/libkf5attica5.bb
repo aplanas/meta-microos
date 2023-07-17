@@ -2,10 +2,10 @@ SUMMARY = "Open Collaboration Service client library - development files"
 DESCRIPTION = "Attica is a library to access Open Collaboration Service servers."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5Attica5-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "c8a90900d8d862863e7f1630794ba31f6f66347b8a1ac4b47ebd4002daee88b0bfaa32375e982067f8a9cabcb1c3b736ed79731f247c8df9f4de368ba238d475"
+RPM_NAME = "libKF5Attica5-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "6cf5d4ce7f745953df70a17786991a8baf0199f0c6b457b34303f63dcf6436dd01509e78be5677505104503ec578f52ab0a8e2c0d99b75d903f3a1dba4636c82"
 
 RPROVIDES:${PN} += "libKF5Attica.so.5 \
 libKF5Attica5"

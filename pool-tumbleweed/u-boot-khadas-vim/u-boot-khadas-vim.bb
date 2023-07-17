@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains the firmware for the khadas-vim platform."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.04"
+PV = "2023.07"
 
-RPM_NAME = "u-boot-khadas-vim-2023.04-2.2.aarch64.rpm"
-RPM_HASH = "f53496ffb22eeaaf3470f1dacc788be04f49702158cd1896aff667662da5a7072395992742147b69b8b92e3cc1ac1e76be94a0194ef072a844fa36ebbf678ab2"
+RPM_NAME = "u-boot-khadas-vim-2023.07-1.1.aarch64.rpm"
+RPM_HASH = "6dd2a66908f15d29dbbf5421ff4b9a1ab03edd4eb3b9cc6df4cf8424c5d9f29a189aaf2b5c0b58c5fcd631f7997e94a27f9d809b41d8b2f8441e559eddec9189"
 
 RPROVIDES:${PN} += "u-boot-khadas-vim \
 u-boot-loader"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.30.3"
 
-RPM_NAME = "qgis-devel-3.30.3-1.1.aarch64.rpm"
-RPM_HASH = "7b6ad0a3463a0e25dc8189352c20c2b1348bfa6e614ba5cfbea313a3b8fd277bbb9e08e88e43b69058a30352bff91818cff6eb70178c0441a7d8921f9cf9da42"
+RPM_NAME = "qgis-devel-3.30.3-2.1.aarch64.rpm"
+RPM_HASH = "05ae093e4812f2c1c03aa409a9e67b5f138dee56b465db062d8ba9f8dad3b01af27c8af7a137a5bdbb5a4d06312d3f16c57e14ea9660399dccbb20d71f1a2b91"
 
 RPROVIDES:${PN} += "qgis-devel"
 

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "9.6"
 
-RPM_NAME = "libortools9-9.6-1.2.aarch64.rpm"
-RPM_HASH = "4c5de08a21da1116ea4c8e1c558b30d940d17a59f9a76232c3dbd3df02a66304ca563d984e39e4dc242408a62dca09abd0cb1a0b1fb4cf5f629d437b30bd971b"
+RPM_NAME = "libortools9-9.6-2.1.aarch64.rpm"
+RPM_HASH = "fd34776f07113e9e941cfd7aad6492ae6e612e3b9dfb26eca120fd71e5725850d6c24becba6dd50931a332431d8c2a3536822a8aab26f7636545e2c8c0339626"
 
 RPROVIDES:${PN} += "libortools.so.9 \
 libortools9"
@@ -35,6 +35,7 @@ libabsl-random-internal-randen-slow.so.2301.0.0 \
 libabsl-random-internal-randen.so.2301.0.0 \
 libabsl-random-internal-seed-material.so.2301.0.0 \
 libabsl-raw-hash-set.so.2301.0.0 \
+libabsl-spinlock-wait.so.2301.0.0 \
 libabsl-status.so.2301.0.0 \
 libabsl-statusor.so.2301.0.0 \
 libabsl-str-format-internal.so.2301.0.0 \
@@ -46,7 +47,7 @@ libabsl-time.so.2301.0.0 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libprotobuf-3.21.12.so \
+libprotobuf.so.23.4.0 \
 libre2.so.10 \
 libstdc++.so.6 \
 libz.so.1"

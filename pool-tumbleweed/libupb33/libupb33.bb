@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.56.0"
 
-RPM_NAME = "libupb33-1.56.0-1.2.aarch64.rpm"
-RPM_HASH = "0bb8b96d996de5d5ff03eed3ebf5e517d6381b8bef8e137d7bd343010597c74aed97510a378b605fa4bb9aeca6f55ae791cd28a7fe17fef671d228feb5a14eaa"
+RPM_NAME = "libupb33-1.56.0-1.3.aarch64.rpm"
+RPM_HASH = "6923251303cce81755ceea14eca681d8fd86d4d3299bc6a84aae6311577149dae7369fc714841c7ba1befca15e0721f8e8736c2069b2b91d6c1aa0a62198c7c5"
 
 RPROVIDES:${PN} += "libupb.so.33 \
 libupb33"

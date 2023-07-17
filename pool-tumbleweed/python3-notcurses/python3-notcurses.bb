@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.9"
 
-RPM_NAME = "python3-notcurses-3.0.9-1.6.aarch64.rpm"
-RPM_HASH = "76174ceb9f36c7c4e115020c48bf0b47fd27303fbef3417824537a56d7234e6666774f5ab916da67ad7ed02cf14d059673501eb5859244dfe0a42e6b63ab45bc"
+RPM_NAME = "python3-notcurses-3.0.9-1.7.aarch64.rpm"
+RPM_HASH = "ed74631ae69be4145c001ba5d7ced75fd7ea5a8c80cfa833aa205ae77a1529c4e2299d62383e284d758ee52f58f7a326a85ee46c14dbe5e39581388fa1acde31"
 
 RPROVIDES:${PN} += "python3-notcurses \
 python3.11dist-notcurses \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6QuickDialogs2Utils6-6.5.1-1.3.aarch64.rpm"
-RPM_HASH = "1d14d728aa9110fa3c72a3953f7f58abfdc7e4d8e54155ad34942797e48a518c3c69123579b94285184c6c741e6cd558e5905e051a65577a90b3004982ac1bb1"
+RPM_NAME = "libQt6QuickDialogs2Utils6-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "5c98d9b4d26481e880c97283e442bce95073433b1fc217ac319ab29f16961e68c8f4c748a4c2851b99559e63c13bf98e1045a5d4214e2cbfacf5012a413096c4"
 
 RPROVIDES:${PN} += "libQt6QuickDialogs2Utils.so.6 \
 libQt6QuickDialogs2Utils6"

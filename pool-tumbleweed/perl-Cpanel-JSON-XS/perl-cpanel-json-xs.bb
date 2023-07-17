@@ -15,10 +15,10 @@ See MAPPING, below, on how Cpanel::JSON::XS maps perl values to JSON values \
 and vice versa."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "4.36"
+PV = "4.37"
 
-RPM_NAME = "perl-Cpanel-JSON-XS-4.36-1.4.aarch64.rpm"
-RPM_HASH = "fa83cfdf463228f5808d4b32dc08c13b57806893afa5579dd1fb7fdef06bf23f9d3fe998091b4658a9759011749b30b8eb847978b90639aa44c82518585fa915"
+RPM_NAME = "perl-Cpanel-JSON-XS-4.37-1.1.aarch64.rpm"
+RPM_HASH = "99424f6569ba2c302b91404db9a62d415fb9b9cce1c3fa1874dc1724e57b8e2a66771f6bad0949cc2500a0ee819954a5a3e3aa52fe4be60f8c4965b9c470b5f1"
 
 RPROVIDES:${PN} += "perl-Cpanel--JSON--XS \
 perl-Cpanel--JSON--XS--Type \

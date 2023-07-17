@@ -3,10 +3,10 @@ DESCRIPTION = "Use this package to install and enable a systemd service for nigh
 and rebooting the system if devel:openQA packages are stable."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1688565452.efc15ea"
+PV = "4.6.1689162874.c51d4b9"
 
-RPM_NAME = "openQA-auto-update-4.6.1688565452.efc15ea-1.1.aarch64.rpm"
-RPM_HASH = "2168794a513f02ce21cd2533099df31e6c0d5fbc52f2171d823b3ab601557e9fc22d82d899f89ef39cc63751f1155882b04ed1784d631ae3fee3693ad4f26679"
+RPM_NAME = "openQA-auto-update-4.6.1689162874.c51d4b9-1.1.aarch64.rpm"
+RPM_HASH = "3575421e2b1fb06b36a1488469eee448c53d8eb443e922b946ae01c7256cf5ba3dcb43b0d43455cf064d5071dd36bb2bd695343090a31603c3f2d3ff56020a07"
 
 RPROVIDES:${PN} += "openQA-auto-update"
 

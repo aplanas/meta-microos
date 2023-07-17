@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230318"
 
-RPM_NAME = "libesedb-tools-20230318-1.5.aarch64.rpm"
-RPM_HASH = "96c33376c6f34340a9673d62e5573db079df2b29cf4ba6a5e8cc16f7a51c7043ead1aabf95a3ec256e7fae8e215d4c93789decfc00ecdf0c0cb984dbb473845b"
+RPM_NAME = "libesedb-tools-20230318-1.6.aarch64.rpm"
+RPM_HASH = "d802e92eb70ce61b58c367f01e367ed8bd164fde63304bbdb52f1b6a0362231cad62c9f06941f3e2ef0e232334a628b803a40c397ffbbec428fa32cc1a29c3eb"
 
 RPROVIDES:${PN} += "libesedb-tools"
 

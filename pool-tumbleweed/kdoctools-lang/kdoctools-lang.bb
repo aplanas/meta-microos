@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kdoctools"
 DESCRIPTION = "Provides translations for the 'kdoctools' package."
 LICENSE = "LGPL-2.1-or-later & MIT"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kdoctools-lang-5.107.0-1.1.noarch.rpm"
-RPM_HASH = "55ef786e5225774d7cf43dcef89dce24eb7b04008c4ee7bb520c42936c49ed5c40b9f190c776c645956e7c8b786d8f6695faa118fbbbf5eb017b07e648106b33"
+RPM_NAME = "kdoctools-lang-5.108.0-1.1.noarch.rpm"
+RPM_HASH = "e9c00053310d0efcc0464cb50bc6158f656752380f73c1df243a6c77a73b8c519a1c73b9bd117ca4995ad7640cd354455332d26eb1d6c121aa19a26a4cb1c726"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdoctools-lang \

@@ -5,11 +5,14 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-3danimation-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "2eacf02aaa1aae5f80baddcd1d6df44aae3d1c6c14c40dcd8a916a68043a2192c5c849ef6fef7d3de133cc6b352666e923265ae41047ee9071a6e53df470dc06"
+RPM_NAME = "qt6-3danimation-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "51b4bd707993ba5f1cfd5fa54b456abefcef6a31d5bc292daaaa524c8bcaa3b86d2fe8158c2ec31f24c415872c3fb035647b7b7b31c4f07b3c9ecca0e206f285"
 
 RPROVIDES:${PN} += "qt6-3danimation-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt63DAnimation"
+RDEPENDS:${PN} += "cmake-Qt63DAnimation \
+qt6-3dcore-private-devel \
+qt6-3drender-private-devel \
+qt6-core-private-devel"
 
 inherit rpm

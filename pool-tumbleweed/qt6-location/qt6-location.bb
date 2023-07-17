@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-location-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "ea5fdb0dd1a23bfbeff80e6dd969f278d8fe13565dcdbf0054fbe5378d6b5f25a65bd9d59448df6248e36f9f5cd96d3fcdea99cbd6d4507c83ec0df9b8806e77"
+RPM_NAME = "qt6-location-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "ea299e513cdd7e64245ccb6794823529808043f873446eb4efb5ee2d7c75ea12ee4d2a689c289383bde012529d8be7739c60dea25fce7bae7dbc363ccdd16fe2"
 
 RPROVIDES:${PN} += "libdeclarative-locationplugin.so \
 libqtgeoservices-itemsoverlay.so \

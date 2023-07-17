@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | GPL-2.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-serialbus-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "4dfd85353e815fba99014510b074c7235c9ef40acbb21ca07851ae07454a485bce929679e2c4483a0612e7f66b336e14218176a3da404c2c051420d485e7bb8f"
+RPM_NAME = "qt6-serialbus-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "3c2d1e10b659217041d65b97fa77e14bd20fc3fd1045676be0f7fd6f47749e651b083876a69867adb574f128919825ce4f1305e1da80f0b108143528107eea73"
 
 RPROVIDES:${PN} += "libqtpassthrucanbus.so \
 libqtpeakcanbus.so \

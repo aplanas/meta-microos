@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-connectivity-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "f6f7adf31476ba169225a2276e7f3470696f0041c4a2a6bc1cb57b583f6fb4ece6bc9d4972d66bc871255107c980a2578d8c5ac12afb6029ae917bad91512217"
+RPM_NAME = "qt6-connectivity-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "200b8b5d795b9d607deafabb3b0b2c0bca695d474cf910fecb159f2cc5e31cdb0119a3fe51363870e3f61ba628e560bf08d3284f0c07dc48726ccc985338b393"
 
 RPROVIDES:${PN} += "qt6-connectivity"
 

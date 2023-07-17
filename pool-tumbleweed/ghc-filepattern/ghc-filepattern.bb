@@ -22,11 +22,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.3"
 
-RPM_NAME = "ghc-filepattern-0.1.3-2.7.aarch64.rpm"
-RPM_HASH = "07a689ff5656f3990025d1712f77e3df63383b33cbb42677f8349c697bc8fab767f804cd28758ebed5d77b130b21e17c94aab2545c0da3d0c8d965a908a33818"
+RPM_NAME = "ghc-filepattern-0.1.3-2.8.aarch64.rpm"
+RPM_HASH = "dae96ae791e6e04f192ac484df067cc6fce180276810b3b74b52f025c26d22512a4ca4167b4dae8ac2a2d48e0780c0dd2c06be92759f54b6632c322c4e71765f"
 
 RPROVIDES:${PN} += "ghc-filepattern \
-libHSfilepattern-0.1.3-CFBsL0RN2YG3tR2tZTKdgo-ghc9.4.5.so"
+libHSfilepattern-0.1.3-ZuemUYkhwGA1RPuLxzdA9-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \
@@ -34,7 +34,7 @@ libHSbytestring-0.11.4.0-ghc9.4.5.so \
 libHSclock-0.8.3-Bn4LVnP2KGzGGqLjq4BuLV-ghc9.4.5.so \
 libHSdeepseq-1.4.8.0-ghc9.4.5.so \
 libHSdirectory-1.3.7.1-ghc9.4.5.so \
-libHSextra-1.7.13-CLIQu72ADU8JHmf7UWoQG4-ghc9.4.5.so \
+libHSextra-1.7.14-BoqGpItPSHp5TXSaJGSPpo-ghc9.4.5.so \
 libHSfilepath-1.4.2.2-ghc9.4.5.so \
 libHSghc-bignum-1.3-ghc9.4.5.so \
 libHSghc-boot-th-9.4.5-ghc9.4.5.so \

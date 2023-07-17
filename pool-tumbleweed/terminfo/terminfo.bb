@@ -8,10 +8,10 @@ need this database -- a minimal /usr/share/terminfo tree for these \
 terminals is already included in the terminfo-base package."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "6.4.20230617"
+PV = "6.4.20230701"
 
-RPM_NAME = "terminfo-6.4.20230617-15.1.aarch64.rpm"
-RPM_HASH = "7508553414ce7c851110a46b8942b79b3e857832d8b3e45bc0b7f4056352e2a713654f185739ebb9eebacf754b036330f245fe7fd3de1be1cb209dda69eab180"
+RPM_NAME = "terminfo-6.4.20230701-16.1.aarch64.rpm"
+RPM_HASH = "46b4bc2bf04a8e95066fa12326d19e54f7b2c5375c23c519988958eae27e9037984c9f048705a3e48d1c80d8e27bb5f800e282f18fca4d3b91b0d2cdd201357f"
 
 RPROVIDES:${PN} += "terminfo"
 

@@ -11,10 +11,10 @@ messenger for Zope. \
 Documentation for the Crypto and SSL toolkit for Python"
 LICENSE = "MIT"
 
-PV = "0.38.0"
+PV = "0.39.0"
 
-RPM_NAME = "python-M2Crypto-doc-0.38.0-6.6.noarch.rpm"
-RPM_HASH = "319f1d63ca9ad2b2fe9667580e3f9172cc485fb075b960407558fab6c3fc8d51891586c30ec9193d4e863155b4a7b2f4b0f730ace4514e6b74b6a466fc41fd6d"
+RPM_NAME = "python-M2Crypto-doc-0.39.0-1.1.noarch.rpm"
+RPM_HASH = "2863f6691d1f5ac3a13642bef459e06b85c1ab52143fb9eea4a4f208bdf75ecab9df85797e664c015a48812eb6c7ec600c4705f0f9459bf4e50291ad851a949c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-M2Crypto-doc"

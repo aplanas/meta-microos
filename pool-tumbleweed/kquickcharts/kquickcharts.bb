@@ -7,10 +7,10 @@ which provides ways of using the GPU for rendering 2D shapes without loss of \
 quality."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kquickcharts-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "ee8d76f82b038ac773b227a39a3d7437fafd8af41370751ff8c8df41e9aa574524812c25195fe6bbea89f233e20b7ac6c6ec0d84279d129308e911b803c4aa24"
+RPM_NAME = "kquickcharts-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "72a300841adb4892a7fbf1d267b6ac58e5b05513a0e38a0b57323c9bcdabda7d2a7442ece7b30285089fb9958e183e287b5cec15881d6879c80e507ea42d8e34"
 
 RPROVIDES:${PN} += "kquickcharts \
 libQuickCharts.so \

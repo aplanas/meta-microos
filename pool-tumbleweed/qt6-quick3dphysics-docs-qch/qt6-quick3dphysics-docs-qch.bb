@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.3-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quick3dphysics-docs-qch-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "dd3d8af7d85689ff0734620d3330fee35abdb8ffbd5baf8635136c00e3affaad764dbc9757b4d54f0f78cfc3f89aba31fbeca89a97eef055f243f93d2db90844"
+RPM_NAME = "qt6-quick3dphysics-docs-qch-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "b6e0caaa63282a79503039a68b5c6c90f53f8494e812fd1fb8e9a406b0a3a43bf21869ceb6e4433ebd0400cea25e9ae2cdec64bda7e91e048dac062ddc087a28"
 
 RPROVIDES:${PN} += "qt6-quick3dphysics-docs-qch"
 

@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
 PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5PrintSupport-devel-5.15.10+kde129-1.1.aarch64.rpm"
-RPM_HASH = "5370f54602ffce7e9fe26920de9873a918a976510635132462dba3c99fa93f0a0c3b0d3735ea8889d1d7fc16adaf158a9b75b7e42706b231312ef675ad8e751c"
+RPM_NAME = "libQt5PrintSupport-devel-5.15.10+kde129-2.1.aarch64.rpm"
+RPM_HASH = "ca3e402024ca5d20d6ab9ca96f445533747120e0fcbcd74f2cf0dd0d687abc22cc312d184c12256f8c81aaacccc6eea9b6d58b45a0e1c5d12937860a0862da9c"
 
 RPROVIDES:${PN} += "cmake-Qt5PrintSupport \
 libQt5PrintSupport-devel \

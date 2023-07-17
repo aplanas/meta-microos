@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-3d-devel-6.5.1-1.1.noarch.rpm"
-RPM_HASH = "f797c1edae6ced964d5f8b57ad8e2bc3b0efe464daab1d55ae8d14e2cef02460211842b97e03bdd0997e9ab48e3f6b672071c68aa72599e360e9df0a2acbb42e"
+RPM_NAME = "qt6-3d-devel-6.5.1-2.1.noarch.rpm"
+RPM_HASH = "853d542f106b2a74672ec58d46542acd958b4ed7ad6a88ae231f49d712a18cb93af4c30ebb12cc4b028f8b82ad1b2e887583b109cfb3632fd04b412defaada65"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qt6-3d-devel"

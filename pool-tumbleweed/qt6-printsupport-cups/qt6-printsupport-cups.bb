@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-printsupport-cups-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "e71b76da88e9aa19f8000063a0f3575e46443583bf1456528264a68e42c7cc3451d67815830fba07ded2688b34887887102e1f00c57c65d39a4867b0a48636bc"
+RPM_NAME = "qt6-printsupport-cups-6.5.1-4.1.aarch64.rpm"
+RPM_HASH = "65befa7d2c07fd3420a87d47fdeec9f8a9faeeca0458eb38018fef761344ca72a5d4c86330eeb5346fd277a1cc031abcc9ffa5cae2f4770abf50d3ef1d4916be"
 
 RPROVIDES:${PN} += "libcupsprintersupport.so \
 qt6-printsupport-cups"

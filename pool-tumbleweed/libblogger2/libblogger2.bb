@@ -2,10 +2,10 @@ SUMMARY = "FIFO interface used by startproc"
 DESCRIPTION = "The libaray for the FIFO interface used by the LSB startproc command."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.26"
+PV = "2.27"
 
-RPM_NAME = "libblogger2-2.26-2.3.aarch64.rpm"
-RPM_HASH = "0c206880036ca16a7e87ed67802ccd22cafd2c9d262c323fcb8f7a8710a1e7ca5b6b73493b8539b6852a893aeae920254282d8138e4088ee0be3ba62f656c4d8"
+RPM_NAME = "libblogger2-2.27-1.1.aarch64.rpm"
+RPM_HASH = "7e9c54b8bf20e5997848cb443e585b880ea3b1e741ec8797bf8a9d937ee13492ec328f8011f253c06ae6f9b6aeaefff16a13c23e9c1973e4e9bf63bf067061bf"
 
 RPROVIDES:${PN} += "blog-/usr/lib64/libblogger.so.2 \
 libblogger.so.2 \

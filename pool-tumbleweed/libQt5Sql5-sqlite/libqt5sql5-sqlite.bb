@@ -11,8 +11,8 @@ LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
 PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5Sql5-sqlite-5.15.10+kde129-1.1.aarch64.rpm"
-RPM_HASH = "4d12356670dc746113174232ef28fce5d595a6ac4831b4b611ef33b8a39edc194fae8a3ab8ec042f48c5b096db7464cacc7f1b1f8f524de4fcfbf06bf0ab5582"
+RPM_NAME = "libQt5Sql5-sqlite-5.15.10+kde129-2.1.aarch64.rpm"
+RPM_HASH = "70a5940c54d9e3d0d086e95dc46440fdd6b268ae9a0879d70c7448a8595e73c11eb80d53f222721f46fe420e1ce88624ca99bce02991a38e86774b6506556385"
 
 RPROVIDES:${PN} += "libQt5Sql5-sqlite \
 libqsqlite.so \

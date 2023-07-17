@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20220105"
 
-RPM_NAME = "libcdirectory1-20220105-2.6.aarch64.rpm"
-RPM_HASH = "66bdecd9c699b4d49d2c1bccdfd716d4ef80cd05209cce99fc23cf5f06f11a8dea5a79598c390cfd0707522aa0724328aba99b783c116a6dd98bd65b53f16075"
+RPM_NAME = "libcdirectory1-20220105-2.7.aarch64.rpm"
+RPM_HASH = "956dc045e433eac08587d34110213d640a2374ad03e6cf9e3335d0214d3c110efaf7a9b3de1503081150336b83c84ccd949f91cb8e994cb43189acf926f3a310"
 
 RPROVIDES:${PN} += "libcdirectory.so.1 \
 libcdirectory1"

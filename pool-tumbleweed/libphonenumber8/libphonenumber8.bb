@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "8.13.15"
 
-RPM_NAME = "libphonenumber8-8.13.15-1.2.aarch64.rpm"
-RPM_HASH = "dceb5f63807f3db60ba5ef05b3a0389d5555559265dcc1e0e85983865dc9938ca0c06a92cefb8a21c3dd1e24d1f5734fe071d1a234c4aeb930b2f391c536ae06"
+RPM_NAME = "libphonenumber8-8.13.15-1.3.aarch64.rpm"
+RPM_HASH = "bb41b2934a3a6e667b41dcce8c9916219a98955412b8f87cbdd58249afe02d22faa5764fad6dd7f17b8ca8dd3c6814c57dec80e2af1b75c164fe0eb529d2046d"
 
 RPROVIDES:${PN} += "libphonenumber.so.8 \
 libphonenumber8"
@@ -23,7 +23,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libicui18n.so.73 \
 libicuuc.so.73 \
-libprotobuf.so.23.3.0 \
+libprotobuf.so.23.4.0 \
 libstdc++.so.6"
 
 inherit rpm

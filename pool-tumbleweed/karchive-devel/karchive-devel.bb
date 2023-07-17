@@ -6,10 +6,10 @@ If also provides transparent compression and decompression of data, like the \
 GZip format, via a subclass of QIODevice. Development files"
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "karchive-devel-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "9888368d9fb9b9e28d5868eff22f9b8c96b8b8cbf99f77e120e7492e0306fcebc86f4b9a70107d25d726ea9e8acf136a05af862c9052aa54459bcfbd6c9c9156"
+RPM_NAME = "karchive-devel-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "d7e2e69b72f63c0321c4763198c9b8a60e4f6049cc6817d9f6958c8983ad9b592cf96b0cd700a1bb2495d2f31749d54fea9bbeb9fcd60fc630bd5921722cf4f4"
 
 RPROVIDES:${PN} += "cmake-KF5Archive \
 karchive-devel"

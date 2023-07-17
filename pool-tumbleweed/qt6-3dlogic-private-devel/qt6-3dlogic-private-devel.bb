@@ -5,11 +5,14 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-3dlogic-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "f4506a19fe9b42dc49156a30d94d764781e3b81c7a539fea64673ce059562dc9af782797820f1f905d42f120f4d4ffec727b0fbdc59d21adb8d27474682ea6ae"
+RPM_NAME = "qt6-3dlogic-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "8e799f7123ab52203d7b2bcd32796da3bdabee5da6fa2c3c26b1541168cdc9da327dbb437d7cc6934b5d5350abdc30f7b5e1fae393e48656822d84a1f9717bd8"
 
 RPROVIDES:${PN} += "qt6-3dlogic-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt63DLogic"
+RDEPENDS:${PN} += "cmake-Qt63DLogic \
+qt6-3dcore-private-devel \
+qt6-core-private-devel \
+qt6-gui-private-devel"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "GNU info-pages for the GNU compiler collection covering both user
 and internals documentation."
 LICENSE = "GFDL-1.2-only"
 
-PV = "13.1.1+git7364"
+PV = "13.1.1+git7552"
 
-RPM_NAME = "gcc13-info-13.1.1+git7364-1.2.noarch.rpm"
-RPM_HASH = "4122a5f6b050996d8a34ef7c945ed6102b4b1b524ac2ba89c5f6b4a4cb85bdc046c332fb703e6a454e7059ee562b825832cc456ae82409b0c6bd5012707821aa"
+RPM_NAME = "gcc13-info-13.1.1+git7552-1.1.noarch.rpm"
+RPM_HASH = "1b18448d39cb977a851d4e578d3328f293f36cdd54c0480434efbe70587d54a1eb8f2ded4bcac066f5fbf3511be96f6cf1929036c073507225a57c53f119e3dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcc13-info"

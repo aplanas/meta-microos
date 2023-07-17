@@ -5,11 +5,12 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quickdialogs2utils-private-devel-6.5.1-1.3.aarch64.rpm"
-RPM_HASH = "289bb30321f48248ff6409308727a31384d56f7dbbed55e5475dc5ad60a4835f4c6ead335b29b7e0152cf087ab5fa68ad5add143b36ef1d6f0681ddd390a5046"
+RPM_NAME = "qt6-quickdialogs2utils-private-devel-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "4bfbf063b3d9987bf9a8d19581697339a3bed937f6020d2319780a4855c6fdf06540fce5c9bfdb87627ff7dc33b0557ba05ba59fba56a3aae0393590e3bce4c5"
 
 RPROVIDES:${PN} += "qt6-quickdialogs2utils-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6QuickDialogs2Utils"
+RDEPENDS:${PN} += "cmake-Qt6QuickDialogs2Utils \
+qt6-qmlmodels-private-devel"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "OBS Package Installer (CLI)"
 DESCRIPTION = "OBS Package Installer (CLI)"
 LICENSE = "GPL-3.0-only"
 
-PV = "3.0.0"
+PV = "3.1.0"
 
-RPM_NAME = "opi-3.0.0-1.1.noarch.rpm"
-RPM_HASH = "b6d55ebdea3a6a61c1d019439c81ebef69c2271c6e185cbb503ba1a61fb55a93b3d30dcc367d602b3c847f7dd0fda2aaa66f1fd850bfc938574366d4588e1764"
+RPM_NAME = "opi-3.1.0-1.1.noarch.rpm"
+RPM_HASH = "a43bd326ee6b8ee60acdacf74703521dee26da4742cc3e3edb96deaa3bf473866666d0c7a4185994ec4975b2b2870a02605202378188178288bebc1a79ad2a0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-opi \

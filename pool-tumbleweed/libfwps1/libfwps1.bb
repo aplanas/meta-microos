@@ -4,10 +4,10 @@ DESCRIPTION = "libfwps is a library for Windows Property Store data types. \
 Part of the libyal family of libraries."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230202"
+PV = "20230711"
 
-RPM_NAME = "libfwps1-20230202-1.7.aarch64.rpm"
-RPM_HASH = "ac6a82371cd4734947c71a951b1313d5db7571b1c1c489a187069d96b35c33fc21256848bae41c22613fcdda94d8add8b18fb89201533c28d919bdb5a2fc3fb8"
+RPM_NAME = "libfwps1-20230711-1.1.aarch64.rpm"
+RPM_HASH = "87411d84c28b675bda39afe4c356dbaa8aee292f29c52a5b254df63f532d59895b3670969edc7af919e2089798ff6acea269c49cb873615d4dfb92750b28ea1a"
 
 RPROVIDES:${PN} += "libfwps.so.1 \
 libfwps1"

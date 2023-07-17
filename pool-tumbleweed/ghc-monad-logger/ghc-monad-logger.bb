@@ -4,11 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.3.40"
 
-RPM_NAME = "ghc-monad-logger-0.3.40-1.2.aarch64.rpm"
-RPM_HASH = "6238ba460d10480aeca561f940580c611b3c24780d79e1451d1c23ba654cdb752d9a930b43e355362eca9acf441b72f752e269a831640317b42f3ac8b54d4f7a"
+RPM_NAME = "ghc-monad-logger-0.3.40-1.4.aarch64.rpm"
+RPM_HASH = "b94580281a7ae2b0cda1b4066dc96cedb20548e923ac0b2c7796f3adb5967191a0a881e22e37f13e916fe34344395129b75ebf574ce1244ce82aa370e8988b06"
 
 RPROVIDES:${PN} += "ghc-monad-logger \
-libHSmonad-logger-0.3.40-G052AHl2mRW3aPPonmcvVW-ghc9.4.5.so"
+libHSmonad-logger-0.3.40-JON4xqa3KWj1ClCWFJbFYV-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSasync-2.2.4-Is3H7ZPNMkM5reIoCaqYrF-ghc9.4.5.so \
@@ -27,7 +27,7 @@ libHSdeepseq-1.4.8.0-ghc9.4.5.so \
 libHSdirectory-1.3.7.1-ghc9.4.5.so \
 libHSeasy-file-0.2.5-Eune3nGPx4BABAmiN3TyxF-ghc9.4.5.so \
 libHSexceptions-0.10.5-ghc9.4.5.so \
-libHSfast-logger-3.1.2-B9zh4yvWMU69CA1ZW1MVtN-ghc9.4.5.so \
+libHSfast-logger-3.1.2-FrZhfcoVNTvDFmA3ecjq8Q-ghc9.4.5.so \
 libHSfilepath-1.4.2.2-ghc9.4.5.so \
 libHSghc-bignum-1.3-ghc9.4.5.so \
 libHSghc-boot-th-9.4.5-ghc9.4.5.so \
@@ -62,7 +62,7 @@ libHStransformers-compat-0.7.2-7jAnhjvxTABIymoNGHTOwd-ghc9.4.5.so \
 libHStyped-process-0.2.11.0-AJYHFlIHznQBMeAWc6SvCO-ghc9.4.5.so \
 libHSunix-2.7.3-ghc9.4.5.so \
 libHSunix-compat-0.6-79KxxZMmklx25hsmeEnenN-ghc9.4.5.so \
-libHSunix-time-0.4.9-DrdwBL0FLhc5jN9Hujlou0-ghc9.4.5.so \
+libHSunix-time-0.4.10-LpZG5YAXe572FFFZnKOLQq-ghc9.4.5.so \
 libHSunliftio-core-0.2.1.0-AEtYfdyUWlJCLfz2d4hPbj-ghc9.4.5.so \
 libHSunordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E-ghc9.4.5.so \
 libHSvector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp-ghc9.4.5.so \

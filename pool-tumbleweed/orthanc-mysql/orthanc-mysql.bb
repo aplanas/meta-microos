@@ -2,13 +2,13 @@ SUMMARY = "Database plugin for Orthanc"
 DESCRIPTION = "MySQL/mariadb Database plugin for Orthanc, replaces SQLite database"
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "4.3"
+PV = "5.1"
 
-RPM_NAME = "orthanc-mysql-4.3-1.16.aarch64.rpm"
-RPM_HASH = "f62cf54b73c023a38b80e3818ece4a3d2134e5fc3cc67a3d29e530f8f3c585c654330b90970912611b038d3cbbc181ab0ebfab50b1b8c852eea3c12bec119b90"
+RPM_NAME = "orthanc-mysql-5.1-1.1.aarch64.rpm"
+RPM_HASH = "b097f4a31f96959d4cfcd0e67f269013b0325ffa47bb3fcd75d7d13fcd5fd40b578e093aba53f3d5941e72a73ac498f98ba5a3b16a8e5edd1acc7fb411715462"
 
-RPROVIDES:${PN} += "libOrthancMySQLIndex.so.4.3 \
-libOrthancMySQLStorage.so.4.3 \
+RPROVIDES:${PN} += "libOrthancMySQLIndex.so.5.1 \
+libOrthancMySQLStorage.so.5.1 \
 orthanc-mysql"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
@@ -22,6 +22,7 @@ libcurl.so.4 \
 libgcc-s.so.1 \
 libjsoncpp.so.25 \
 libmariadb.so.3 \
+libprotobuf.so.23.4.0 \
 libstdc++.so.6 \
 mariadb \
 orthanc"

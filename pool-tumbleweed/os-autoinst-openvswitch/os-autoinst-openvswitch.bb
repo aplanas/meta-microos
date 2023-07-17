@@ -2,10 +2,10 @@ SUMMARY = "Openvswitch support for os-autoinst"
 DESCRIPTION = "This package contains openvswitch support for os-autoinst."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1688579291.d13a461"
+PV = "4.6.1688832263.576c710"
 
-RPM_NAME = "os-autoinst-openvswitch-4.6.1688579291.d13a461-1.1.aarch64.rpm"
-RPM_HASH = "871c9d7556d0b3eb587c071258f328140023ef351d68000d25bb8b186b5a42109f5db218ee11742d81e31fbe765da67ad9ae319a9cc947d6bdeca8413d105c1c"
+RPM_NAME = "os-autoinst-openvswitch-4.6.1688832263.576c710-1.1.aarch64.rpm"
+RPM_HASH = "acd5b4da9f02d2a488f38b8f0d145b0bbb96ad6611f8177bc5f58cff290b48cde3f388225a1414e0fc57023dd8b9a5d45e7c9a45f829a15a7a09c5b239aa07a4"
 
 RPROVIDES:${PN} += "config-os-autoinst-openvswitch \
 os-autoinst-openvswitch"

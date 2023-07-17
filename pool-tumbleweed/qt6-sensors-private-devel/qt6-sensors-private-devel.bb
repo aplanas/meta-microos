@@ -5,11 +5,12 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-sensors-private-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "e54474cecf396acafec8aa83da9d46ea8b4dc92fecb7a1f208f88b6149ecf12a7bcd5142fff7e938abe4b95e556bf0a2f2c2d54370fbdad8948fbdc9535d74a9"
+RPM_NAME = "qt6-sensors-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "d528f4b3e0b4ae7b8f3f9951a192b1038a6f68d08906d556b7fdb4db9ad1923249377200068c16fb2665c288f1c43f2c284d07a4babf019f9089fff2405bb4af"
 
 RPROVIDES:${PN} += "qt6-sensors-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6Sensors"
+RDEPENDS:${PN} += "cmake-Qt6Sensors \
+qt6-core-private-devel"
 
 inherit rpm

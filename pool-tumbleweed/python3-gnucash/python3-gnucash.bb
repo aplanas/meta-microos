@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the Python 3 bindings for development of Gn
 a personal finance manager."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception | SUSE-GPL-3.0-with-openssl-exception"
 
-PV = "4.14"
+PV = "5.3"
 
-RPM_NAME = "python3-gnucash-4.14-1.4.aarch64.rpm"
-RPM_HASH = "23509d04bdbcb8e3975d671eb57a49e924efe17a39ece0697b35f1b0fd118260057271b034beace800d14394b9658274d52920f1d47929c57f692d4becc265aa"
+RPM_NAME = "python3-gnucash-5.3-1.1.aarch64.rpm"
+RPM_HASH = "663f592d15d817b0dc08b068617026d91c38cc6e3e7d4bc6f2fd88fb2ded0b0c64fec9442af66faf6a9e22a89538107a4df05c2d6446a3c09b0003ee108eca22"
 
 RPROVIDES:${PN} += "python3-gnucash"
 

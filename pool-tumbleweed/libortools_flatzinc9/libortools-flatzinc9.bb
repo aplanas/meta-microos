@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "9.6"
 
-RPM_NAME = "libortools_flatzinc9-9.6-1.2.aarch64.rpm"
-RPM_HASH = "6dae704fb431d9777519ad480e4dc030ef173d74f1e24a8a047b7e66ea6038d9cc7831baec312a0a704617774f8b38bd8f965ffb2c4012a5357a849dfa77fe95"
+RPM_NAME = "libortools_flatzinc9-9.6-2.1.aarch64.rpm"
+RPM_HASH = "cb2bc17e18fd5de761766c050748016f38fb87014f03256dfec72d16d1372bdda74c3200bd91fd6a0ecb28610a105404055974566fbfbe3ebc5097a1dffc66a0"
 
 RPROVIDES:${PN} += "libortools-flatzinc.so.9 \
 libortools-flatzinc9"
@@ -27,7 +27,7 @@ libabsl-throw-delegate.so.2301.0.0 \
 libc.so.6 \
 libgcc-s.so.1 \
 libortools.so.9 \
-libprotobuf-3.21.12.so \
+libprotobuf.so.23.4.0 \
 libstdc++.so.6"
 
 inherit rpm

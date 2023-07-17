@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-positioning-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "7f383c8c12b3826f5b9b758f62ce9bbd960f4027385c40f94553168a10c81a951233898622910af7ba189222dc18abf114e11a981da9bd15c3b70a22f1985979"
+RPM_NAME = "qt6-positioning-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "249e5fa29417d753c915c87a9a1adf24e699062ccd8fbc344dd39a8c98945ef9975e116e16ca54addefd38413d0078a7ac596d86bee270e7a69a3085d47ce502"
 
 RPROVIDES:${PN} += "libqtposition-geoclue2.so \
 libqtposition-nmea.so \

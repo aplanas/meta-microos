@@ -8,10 +8,10 @@ This subpackage contains the headers needed for building applications \
 making use of libgpgmepp."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.20.0"
+PV = "1.21.0"
 
-RPM_NAME = "libgpgmepp-devel-1.20.0-1.3.aarch64.rpm"
-RPM_HASH = "f474d4c18a71bc586297ec950a1519a82ae447157d0e807ae82cb61df72a10dfe003ac6339e75fa3cc1c715ebc36c64eb9e7f8b6392952f317badb4e36dedb3c"
+RPM_NAME = "libgpgmepp-devel-1.21.0-1.1.aarch64.rpm"
+RPM_HASH = "2d04533adbe60e637a521e8c6b456d1839bb5cb58cedb4cbf86ba4d7fd723606c6ddf53b647c172745b0652c7d8ec8da6d71e81942af4636b62b9b78a88ef3df"
 
 RPROVIDES:${PN} += "libgpgmepp-devel"
 

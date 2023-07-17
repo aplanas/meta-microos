@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.3-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-connectivity-docs-html-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "288899c10957d242fd4fef1e3f5497a31be9de5360bc4e65478c1667ea217ba1afd30d56d95f4f74b9055b4dd7c777412d1a3016743583c4c9cc5897d3b747ce"
+RPM_NAME = "qt6-connectivity-docs-html-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "60b5f95572699e39ff84331c13cde3e3f9556954fd28bc1d3fab64849ec80fe1ddd4cd6d198a3341ced642ec6918449b48c91b5a4bd409411d83a32b2a540d20"
 
 RPROVIDES:${PN} += "qt6-connectivity-docs-html"
 

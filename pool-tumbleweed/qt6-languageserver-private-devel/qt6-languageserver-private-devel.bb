@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | GPL-2.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-languageserver-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "befc53d4066a9c7e241387374bca80a738f3b544c140a357832228548823327353f84bc91b48bf26251425dbda9f945c4669f177bc833941c4439552b1d187c0"
+RPM_NAME = "qt6-languageserver-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "8bfde45e68a19ce6083ac3c604cc63b752579f3c8cda67620b94ae169f9c5146c2f518f54b4792c3b04527d216385d79ede0f9608063cade75c81f70155a1e1f"
 
 RPROVIDES:${PN} += "cmake-Qt6LanguageServerPrivate \
 qt6-languageserver-private-devel"

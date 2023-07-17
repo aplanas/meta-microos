@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
 PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5PrintSupport-private-headers-devel-5.15.10+kde129-1.1.noarch.rpm"
-RPM_HASH = "f72728bd564a3973c68895ab52dd21763797f2a16878f391c6eb83eecb7c6d88dffdd70e652d00d8db2c8aa7a526b2f625b7b8badad9d0b506798994f3e8187c"
+RPM_NAME = "libQt5PrintSupport-private-headers-devel-5.15.10+kde129-2.1.noarch.rpm"
+RPM_HASH = "9f7ad27726cfba2feda5472d7beabb5312410e25804cfa6e885e616f84bc670054eb1c2aaa4540c1f6d8e5ccd1b9b6d02f693554b08a71aaa7c776c3a72ec2aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libQt5PrintSupport-private-headers-devel"

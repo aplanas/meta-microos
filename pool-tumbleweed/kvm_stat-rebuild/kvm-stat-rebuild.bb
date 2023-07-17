@@ -5,10 +5,10 @@ kernel-default is rebuilt in OBS. \
 There is no reason to install this package."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.9"
+PV = "6.4.2"
 
-RPM_NAME = "kvm_stat-rebuild-6.3.9-22.24.noarch.rpm"
-RPM_HASH = "001514373003062ab7bdc299d5f426303745b635bf745b37ed69ed4466dab7f50fc2b89780d926bb06b86e4623d9944c230d5c341a90c2475fc12ed5b80a1af2"
+RPM_NAME = "kvm_stat-rebuild-6.4.2-22.25.noarch.rpm"
+RPM_HASH = "1e4588043fae6f5bf5888c82d057242ce42d41fe575f1d30d0620b6c8df48fcbb7c708691a75e9480cd59ac4709cc5c2fe30375ec7ad97a55d661953cdd03440"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kvm-stat-rebuild"

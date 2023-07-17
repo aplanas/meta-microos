@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230408"
 
-RPM_NAME = "libfmapi-devel-20230408-1.3.aarch64.rpm"
-RPM_HASH = "23cc3bcb1cb4317e85f612f01dfa3e3f5168e962b05eaba9696abaf63eea22fb866b1f7cc2932e99a697eac06759a41612cbad783b3fc66fb37f939a62565ae5"
+RPM_NAME = "libfmapi-devel-20230408-1.4.aarch64.rpm"
+RPM_HASH = "b05a9f0b9dd773184b5c95404de268e50df19c941eddf19a5d67cfc0df1f2e4eb14c11d379fec1253fdd8d7bdd3b42d324731d9792a544bbfd8fde917d801f07"
 
 RPROVIDES:${PN} += "libfmapi-devel \
 pkgconfig-libfmapi"

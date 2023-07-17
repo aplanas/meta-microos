@@ -4,10 +4,10 @@ as well as a KProcess derived class for running child processes and \
 communicating with them using a pty."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5Pty5-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "208b3b5423062334427f2a13f3f1a4eb0bc06400ec8f8701406c8b2eb52d09ca285630c9c8cb74c1e123d8a80d326dd078e012f61f5e3b05878426d173a6654d"
+RPM_NAME = "libKF5Pty5-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "e0304a9a473fe799df9ffadfe7eba67ae60460d0517615b9c70d4ead9e69d65b49d0c6437c5694f378c64eab5dc73c380ac3c81f7054af08c191b1bc028c2efe"
 
 RPROVIDES:${PN} += "libKF5Pty.so.5 \
 libKF5Pty5"

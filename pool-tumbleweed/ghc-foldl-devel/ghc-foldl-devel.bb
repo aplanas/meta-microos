@@ -2,12 +2,12 @@ SUMMARY = "Haskell foldl library development files"
 DESCRIPTION = "This package provides the Haskell foldl library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.14"
+PV = "1.4.15"
 
-RPM_NAME = "ghc-foldl-devel-1.4.14-2.6.aarch64.rpm"
-RPM_HASH = "9f9479d0b0537846d4692450175b7f6e4634a56cd6f317ea038a12e2236ee5e91ee5cba29e13360120056b41ce9463b3268b848ebf1f48644a1365ed6eba66e2"
+RPM_NAME = "ghc-foldl-devel-1.4.15-1.1.aarch64.rpm"
+RPM_HASH = "a66d315cd146eae0692958baf3485c7398f61d8b83c43b1337c6f3dfc98959a8ab44cbd3e25ff553f4b1f212dadb4b6f90f6c95bf10db8607c7d3d5bd7f165e0"
 
-RPROVIDES:${PN} += "ghc-devel-foldl-1.4.14-6AA7lw3dsEK1uUeCGro40c \
+RPROVIDES:${PN} += "ghc-devel-foldl-1.4.15-F8c77skQAn4DvWPbyzbRUi \
 ghc-foldl-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

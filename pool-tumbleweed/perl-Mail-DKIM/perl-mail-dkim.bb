@@ -22,10 +22,10 @@ sorted, you can set $Mail::DKIM::SORTTAGS to a true value, and all created \
 headers will get sorted keys"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.20230212"
+PV = "1.20230630"
 
-RPM_NAME = "perl-Mail-DKIM-1.20230212-1.2.noarch.rpm"
-RPM_HASH = "b1feb5da0bed88f040f020fe7afb68d1bc87b47c4ffbdbecc4f6ec3e08954364d09afe66dea4f0cf5ad7179b201dfc7c89253f3b06a2e7e71033d5c366a3880f"
+RPM_NAME = "perl-Mail-DKIM-1.20230630-1.1.noarch.rpm"
+RPM_HASH = "f6248db06d3f29150fd3bc32571d8626f9b5fd86a196e19a058faaca4898c57adcd55da8a53b6826e7316f63ff86441e7891f9c93f0e804e7040997b232fd613"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mail--DKIM \
@@ -35,6 +35,7 @@ perl-Mail--DKIM--ARC--Signer \
 perl-Mail--DKIM--ARC--Verifier \
 perl-Mail--DKIM--Algorithm--Base \
 perl-Mail--DKIM--Algorithm--dk-rsa-sha1 \
+perl-Mail--DKIM--Algorithm--ed25519-sha256 \
 perl-Mail--DKIM--Algorithm--rsa-sha1 \
 perl-Mail--DKIM--Algorithm--rsa-sha256 \
 perl-Mail--DKIM--AuthorDomainPolicy \
@@ -67,6 +68,7 @@ perl-Mail-DKIM"
 
 RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
 perl-Crypt--OpenSSL--RSA \
+perl-Crypt--PK--Ed25519 \
 perl-Digest--SHA \
 perl-Mail--Address \
 perl-Mail--AuthenticationResults--Header--AuthServID \

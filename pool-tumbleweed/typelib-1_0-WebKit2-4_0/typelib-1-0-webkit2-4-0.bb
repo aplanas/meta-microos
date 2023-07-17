@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
 PV = "2.40.3"
 
-RPM_NAME = "typelib-1_0-WebKit2-4_0-2.40.3-1.1.aarch64.rpm"
-RPM_HASH = "ae140cc995438d7b7ceced885495d37eafde8c52ecb26e7a03a946ac21ade107958b1ae6c1ad2c23024b4e7596195163de5c8e10d100a7a7b89ec5ca6a9a24e5"
+RPM_NAME = "typelib-1_0-WebKit2-4_0-2.40.3-2.1.aarch64.rpm"
+RPM_HASH = "952bc082f93d275ba8ac8044f29775f48f915936eec2448fcca97f18bae7fe8428c5e9ae039ad71206e3927f93201f1109ef3d1ffb43ebc8f08a7a120973816d"
 
 RPROVIDES:${PN} += "typelib-1-0-WebKit2-4-0 \
 typelib-WebKit2"

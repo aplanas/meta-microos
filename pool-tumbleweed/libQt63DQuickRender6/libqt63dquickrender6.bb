@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt63DQuickRender6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "3d39b4a4e7bf9bbb1bde9d2fead7a725c48a0686492688028ab7d88cc466fe648d8d8ddced34a0c628ec1c355ae6a21e280ee9f749af167b93e58afc1a7e807a"
+RPM_NAME = "libQt63DQuickRender6-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "fc40c9795ad3b7d25c488f38a1bf6de1e015c0698b331fe258c970243438a1b0f6345a22a7a607c7834e2bc79510908986157f41dab65d06b47964c82a753ef6"
 
 RPROVIDES:${PN} += "libQt63DQuickRender.so.6 \
 libQt63DQuickRender6"

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
 PV = "2.40.3"
 
-RPM_NAME = "webkit2gtk3-soup2-minibrowser-2.40.3-1.1.aarch64.rpm"
-RPM_HASH = "53540dba6338d117f79f4088bfd5b9ca2fb4ed0c6ea58a315bb717100d6f952bb97def6a5ff908b80f8882d52d097652caa8bf343c6516b224ff5865ba8b72bf"
+RPM_NAME = "webkit2gtk3-soup2-minibrowser-2.40.3-2.1.aarch64.rpm"
+RPM_HASH = "b6c0acd7134953b6e33689c23ae4b5bab57d6e004c2c6697a8f7038dc92f1cbb653e610965b65fe2ad23baae6af17beeea7e51386c882173c779744d28f4938a"
 
 RPROVIDES:${PN} += "webkit2gtk3-soup2-minibrowser"
 

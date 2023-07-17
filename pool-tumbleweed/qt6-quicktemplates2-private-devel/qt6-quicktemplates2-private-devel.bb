@@ -5,11 +5,12 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quicktemplates2-private-devel-6.5.1-1.3.aarch64.rpm"
-RPM_HASH = "7efd5ff5fb56a2d82fa55aca18d5c195dfed08e7548d064ca4fefc43d59a498d65fa49bb051f5dec7efa617828dcca64a76e6c5b4511f1f51723c7eec55363bf"
+RPM_NAME = "qt6-quicktemplates2-private-devel-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "7e9ab3c4373a20b0553ba9d90a0da360d307b00931c6aab8b11d83d662f5036551f982edc19b5505e2adfaa64bbb5c891f15fefe5538791d3f8931d40a356763"
 
 RPROVIDES:${PN} += "qt6-quicktemplates2-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6QuickTemplates2"
+RDEPENDS:${PN} += "cmake-Qt6QuickTemplates2 \
+qt6-qmlmodels-private-devel"
 
 inherit rpm

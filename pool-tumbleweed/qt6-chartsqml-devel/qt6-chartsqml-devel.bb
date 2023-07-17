@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-chartsqml-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "9e7e7c055164cba4e5501f224c22b1a86b6d4847a461dcb3c341a3edc6bbc6e3d6a1053fb15cfa8a8d8dbb6f5e57778ab7a5fb778a031fc202ef7ea9c557bba3"
+RPM_NAME = "qt6-chartsqml-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "b6869c621150b3f85e320f97ab016a42cd56756fc5094866e37259dd3f54a0ba997a8054b84dc3bf4f7517c4ba3fcf81b8ecdabee91c615955a7548ff53921d4"
 
 RPROVIDES:${PN} += "cmake-Qt6ChartsQml \
 pkgconfig-Qt6ChartsQml \
@@ -13,6 +13,7 @@ qt6-chartsqml-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake-Qt6Charts \
+cmake-Qt6Gui \
 cmake-Qt6OpenGL \
 cmake-Qt6Qml \
 cmake-Qt6Quick \

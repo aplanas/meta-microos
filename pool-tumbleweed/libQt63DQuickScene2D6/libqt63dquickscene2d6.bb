@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt63DQuickScene2D6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "e0587b3fb0e78bb37e052b0ff90833468e37c68651ca4736871dc9df49b2a336590e0112fbe54697b9627f331241c732deadb2887b2485a9c6bda3fe5c96cc7d"
+RPM_NAME = "libQt63DQuickScene2D6-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "e5f04ceb86f3dd5de384dc6f24fd6286bb33de82f24b034d76f29e11b68dbd3fbcde251cc460764d21d514ab7e3be5308467ac5a7b7b77ad6a82d838310edb46"
 
 RPROVIDES:${PN} += "libQt63DQuickScene2D.so.6 \
 libQt63DQuickScene2D6 \

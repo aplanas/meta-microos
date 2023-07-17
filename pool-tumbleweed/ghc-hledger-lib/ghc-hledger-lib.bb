@@ -12,11 +12,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.28"
 
-RPM_NAME = "ghc-hledger-lib-1.28-2.7.aarch64.rpm"
-RPM_HASH = "9b491b3598d81ab4be41e43dcecca45a1b889ba0eda82f3277a9d639d367f30146b118f485cdf87aab9b3652d936a1650b1ca4fccc7956dd8da1a83c05ae3e10"
+RPM_NAME = "ghc-hledger-lib-1.28-3.1.aarch64.rpm"
+RPM_HASH = "7336070a55bc1457ae2fc0ac872a664bbc2655ad909ef21e85b6703cee824c3b71968640a006e77bda5406da15ba02b4589b3de8707be13f026d5365766a9673"
 
 RPROVIDES:${PN} += "ghc-hledger-lib \
-libHShledger-lib-1.28-AhrPRGlKIk9KakxoHPe5CV-ghc9.4.5.so"
+libHShledger-lib-1.28-KVtwO74sgvi1hMRwtb8EwS-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSDecimal-0.5.2-1qhxZ7R9Om3AQz2LFWOWmX-ghc9.4.5.so \
 libHSGlob-0.10.2-5tAj3lHfg0h9Pb5bOpMg4R-ghc9.4.5.so \
@@ -25,7 +25,7 @@ libHSOnly-0.1-ETd5YCT0TwGLbN8rgpgTS8-ghc9.4.5.so \
 libHSQuickCheck-2.14.3-6dq2izV8oSq1BobaDA598X-ghc9.4.5.so \
 libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so \
 libHSaeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov-ghc9.4.5.so \
-libHSaeson-pretty-0.8.9-ANiMUyahKok8eMC9BUYvO0-ghc9.4.5.so \
+libHSaeson-pretty-0.8.10-8JRVLG9BqWz7B95FOCRy0B-ghc9.4.5.so \
 libHSansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3-ghc9.4.5.so \
 libHSansi-terminal-types-0.11.5-9ffXWswmNhoANlpnF2SnhR-ghc9.4.5.so \
 libHSarray-0.5.4.0-ghc9.4.5.so \
@@ -65,7 +65,7 @@ libHSdlist-1.0-BmTLN13CmmLQvuHz7BjP9-ghc9.4.5.so \
 libHSdoclayout-0.4.0.1-9Y8Rw4EdBjz2IhzjzOiBy0-ghc9.4.5.so \
 libHSemojis-0.1.2-Gz9J6Rv977iEZp4TYp7wAm-ghc9.4.5.so \
 libHSexceptions-0.10.5-ghc9.4.5.so \
-libHSextra-1.7.13-CLIQu72ADU8JHmf7UWoQG4-ghc9.4.5.so \
+libHSextra-1.7.14-BoqGpItPSHp5TXSaJGSPpo-ghc9.4.5.so \
 libHSfile-embed-0.0.15.0-LJLaBgMyS4K2tBVYbzJ0uw-ghc9.4.5.so \
 libHSfilepath-1.4.2.2-ghc9.4.5.so \
 libHSfoldable1-classes-compat-0.1-JP9wXcYYGsT10VsvIV9rpl-ghc9.4.5.so \

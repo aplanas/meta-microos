@@ -7,10 +7,10 @@ This is static data, but newer versions of this module will be made \
 available as new releases of 'perl' are uploaded to CPAN."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "5.20230423"
+PV = "5.20230703"
 
-RPM_NAME = "perl-CPAN-Perl-Releases-5.20230423-1.2.noarch.rpm"
-RPM_HASH = "63eca0ba61ed9e951c53c9fa6cdc54511c903fdf44d2518ba224fd9c640de1c3821307aa429ede5fd27a2a38cc806e2e786b382d737c2cd3727ba20f74a5b7c6"
+RPM_NAME = "perl-CPAN-Perl-Releases-5.20230703-1.1.noarch.rpm"
+RPM_HASH = "e2649bbddfe5e031486ca7b1f74b57da40ca35f9828e990229f7b4f530c17a478a0f2f15dccaf6ecab503d1c5cd70a46e148847bf7aa23ca2ec4ae7ad69b29d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CPAN--Perl--Releases \

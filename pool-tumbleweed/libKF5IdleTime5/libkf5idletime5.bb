@@ -4,10 +4,10 @@ only for finding out about the current idle time of the PC, but also for getting
 notified upon idle time events, such as custom timeouts, or user activity."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5IdleTime5-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "83b94f6f65e38c4f9b37aa0f2f26189d149625173b1179147e85e82142374e2bc71c92caba5dbc06837405522c3588709754563f077273c2808efa776c53359b"
+RPM_NAME = "libKF5IdleTime5-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "2ddead61426a95b9a89157a9e051b190808fcbac0ec07cd82e777f24e2fa834156c836490cd5404d56ff3600b5a6aa5e8fc311b8f33ba98c652e03cdb05f295e"
 
 RPROVIDES:${PN} += "libKF5IdleTime.so.5 \
 libKF5IdleTime5"

@@ -5,11 +5,12 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-remoteobjects-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "647716183a97116102d076ac5b847a6cf0c9ce21c2c4608ce328078c4f53b46315983a5f2f5fa826332634035fc399dcc6ee2f0b2a0f8c55e2f3ecfe3c98ce54"
+RPM_NAME = "qt6-remoteobjects-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "bb81388ede7fe7956afcc84ebd83459e2b43a1482ff69b07f63ace904a3467fa06f870f76ce88cec91904cfe107af2d27b60e8142dd4dfcf324f6fb596cfe773"
 
 RPROVIDES:${PN} += "qt6-remoteobjects-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6RemoteObjects"
+RDEPENDS:${PN} += "cmake-Qt6RemoteObjects \
+qt6-core-private-devel"
 
 inherit rpm

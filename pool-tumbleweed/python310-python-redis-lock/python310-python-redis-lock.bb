@@ -2,10 +2,10 @@ SUMMARY = "Lock context manager implemented via redis SETNX/BLPOP"
 DESCRIPTION = "Lock context manager implemented via redis SETNX/BLPOP."
 LICENSE = "BSD-2-Clause"
 
-PV = "3.7.0"
+PV = "4.0.0"
 
-RPM_NAME = "python310-python-redis-lock-3.7.0-1.5.noarch.rpm"
-RPM_HASH = "4fc7e42ca1fe45dd47198ba5db918eae5c5378fc0d6b682b930f2507708b533beccb201bce3b8076925c974c39f0dc8c5f298dcb617280c420a4b9e6240272c2"
+RPM_NAME = "python310-python-redis-lock-4.0.0-1.1.noarch.rpm"
+RPM_HASH = "e041a0841636a3860ffc912765a3d29a7ecd384b48a51ab79baead4230b5f107d2796126e5bbf60ba271172a2593fe93805f0683b3de9435623b55c16ca530a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-python-redis-lock \

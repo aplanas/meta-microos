@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.3-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-serialbus-docs-qch-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "10c5d37f3dc0da268590ed46202a7deaa8bc0f78cd1aeff20e7f4152d4103d9415c1c64d535e05a2e24d8748cda29d2d7617558831c386b75219d14b1a50f253"
+RPM_NAME = "qt6-serialbus-docs-qch-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "7948a5fe17ed6af89bd26846c4d66f81294452cb0e684e0c6c91e5ac8badb616ff5099b12ffcd4130f36fa58ccce109ca0871ca0c0cf76c6a08ed5e7e20924c0"
 
 RPROVIDES:${PN} += "qt6-serialbus-docs-qch"
 

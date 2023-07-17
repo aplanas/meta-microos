@@ -4,10 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.3"
 
-RPM_NAME = "ghc-http2-devel-3.0.3-2.7.aarch64.rpm"
-RPM_HASH = "a11eb62c2d3eaa3bcdc7df1ced2f3a529ad1697e3a33e82bf32dd0a595625e959a9a7933c68e638dc8ec405577f921f5998c26b009c2861400e4ce02b870020d"
+RPM_NAME = "ghc-http2-devel-3.0.3-2.10.aarch64.rpm"
+RPM_HASH = "e0a2eea1e45548c92e9cfe1c6fc8698334a19ebfdf7eee3c3d2753827f5679ef42e817751ae84d9dbaa5af668c2091cc8d44a48024550b05640c735503477839"
 
-RPROVIDES:${PN} += "ghc-devel-http2-3.0.3-COVYRU9DHikEztQPG0mdmy \
+RPROVIDES:${PN} += "ghc-devel-http2-3.0.3-C8jMo1PWq0Httjut7cZnE \
 ghc-http2-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -24,7 +24,7 @@ ghc-devel-network-byte-order-0.1.6-9jNlcwvZjC3K8A2S0a4vrO \
 ghc-devel-psqueues-0.2.7.3-F3Vf47seRPn11NfFVgsy6O \
 ghc-devel-stm-2.5.1.0 \
 ghc-devel-time-manager-0.0.0-49hD2RcPrUEG8anOiBePCj \
-ghc-devel-unix-time-0.4.9-DrdwBL0FLhc5jN9Hujlou0 \
+ghc-devel-unix-time-0.4.10-LpZG5YAXe572FFFZnKOLQq \
 ghc-http2"
 
 inherit rpm

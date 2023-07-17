@@ -4,10 +4,10 @@ particular, it offers new paradigms for launching applications, accessing \
 documents, and organizing open windows in GNOME."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later"
 
-PV = "44.2"
+PV = "44.3"
 
-RPM_NAME = "gnome-shell-44.2-1.1.aarch64.rpm"
-RPM_HASH = "38c94554a1ac94d8cfa028c9327d82b02a36e8686aae95570a83df535ef2523d929d8fc347920858044e5fb274b2e5fecabc94cc1793cdc30a7788e69106dfde"
+RPM_NAME = "gnome-shell-44.3-1.1.aarch64.rpm"
+RPM_HASH = "c60b1ac9891448439b66d3f3b4f43e905a10b235cb6fecb7ca0f8f709f05d1ab923676a317a3c8fe954c789f308aea80f1cac26b8169545b7e0857e9ab286d50"
 
 RPROVIDES:${PN} += "dbus-org.freedesktop.Notifications \
 gnome-shell \

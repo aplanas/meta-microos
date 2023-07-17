@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains the firmware for the geekbox platform."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.04"
+PV = "2023.07"
 
-RPM_NAME = "u-boot-geekbox-2023.04-2.2.aarch64.rpm"
-RPM_HASH = "e936f29fb45b47e267872838c51950bdc5a17b45465b4eae3cd000e99f25347af22e51adfc418da89e77178f235a75e94c83811bd5aafbefd86687658b18683a"
+RPM_NAME = "u-boot-geekbox-2023.07-1.1.aarch64.rpm"
+RPM_HASH = "22d55a98f9280e0d160c455eabe275310a538b2eca5c8d9089de8556d6db43c7985b8920bdfb34cb404bca7ac775feb147bda9a1a298609692579416785c34e8"
 
 RPROVIDES:${PN} += "u-boot-geekbox \
 u-boot-loader"

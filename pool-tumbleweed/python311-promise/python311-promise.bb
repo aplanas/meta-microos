@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "python311-promise-2.3.0-4.3.noarch.rpm"
-RPM_HASH = "48dc7b1e9e090ca7b4c76bfb16d4fb6dadb5c8804529cbcbc771ed62c1a7781fec1ea892c9a5e61858e71b0806b25cc5051ccd7d903a22827f0fb8f7ead431c7"
+RPM_NAME = "python311-promise-2.3.0-5.1.noarch.rpm"
+RPM_HASH = "02574c54d9c255983de9ca5f7b58e8df6d954731e53410fa90c303d8046aa150053453176b4980a116ca35ed5d53b2333bacabe472ced614d800cf27548621da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-promise \

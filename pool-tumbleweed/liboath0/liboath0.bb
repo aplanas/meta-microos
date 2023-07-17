@@ -5,10 +5,10 @@ event-based HOTP algorithm (RFC4226) and the time-based TOTP algorithm \
 (RFC6238)."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.6.7"
+PV = "2.6.8"
 
-RPM_NAME = "liboath0-2.6.7-3.5.aarch64.rpm"
-RPM_HASH = "1eda55674bb881ae5be4314e003dde9f0b9b036b4916e504ee6e691d493361d578ed8c0493e35eea7c6433fca5272d63b22f027aa7659e961fc322850f7f8e68"
+RPM_NAME = "liboath0-2.6.8-1.1.aarch64.rpm"
+RPM_HASH = "d8029a4dc3bf9e14b6d4598b0b9610146b52e6612021c3b644d9666344bfa97bc00603897eaca1bb37b846f088198aa217ccbea624ca3cc5fa736419bfa94662"
 
 RPROVIDES:${PN} += "liboath.so.0 \
 liboath0"

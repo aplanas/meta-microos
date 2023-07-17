@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6ShaderTools6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "967d6f329817fe27cb5256f33c9cba8fbd4f6eea5d353b00ef20a111ea0616d4168a76b2a56490f7d9b6928914e43304886766fc2ac613f53dfbfeef20f77235"
+RPM_NAME = "libQt6ShaderTools6-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "4a21b71be6b8f44ffa76c0a12b95f523a9caa9c3f02ead9c8d90bde33e9d71b3434645073eaf82797f2391bf8aaa897a9ce12edb67f1a40b52062ed55f14ba2e"
 
 RPROVIDES:${PN} += "libQt6ShaderTools.so.6 \
 libQt6ShaderTools6"

@@ -7,10 +7,10 @@ will give some form of advice on how to fix issues or workaround firmware \
 issues."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.05.00"
+PV = "23.07.00"
 
-RPM_NAME = "fwts-23.05.00-1.2.aarch64.rpm"
-RPM_HASH = "82b2db8d07b09e1b662e25eae8ff94c238b6e0554e2a1b4c32bb7700caebaee4d2c852d3f7f505469f250235423cedb13cc4408ae9475feb90e8f6a116de77d4"
+RPM_NAME = "fwts-23.07.00-1.1.aarch64.rpm"
+RPM_HASH = "7a54712cbf449aea424018211639bbbeb056d79e8531ba54357538f122d9ce9bba21fc3dedb9712c084ad8dc1a0d5ace6b1bad90ad800ab3b99639250bd6bc51"
 
 RPROVIDES:${PN} += "fwts \
 libfwts.so.1 \

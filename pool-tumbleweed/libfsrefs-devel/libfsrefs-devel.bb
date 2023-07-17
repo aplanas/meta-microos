@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20210422"
 
-RPM_NAME = "libfsrefs-devel-20210422-3.5.aarch64.rpm"
-RPM_HASH = "80830855a53d1385138d58a3ddf88567c31ca39264199e2cd7952cbaf5fa850a9c6955d5a1293416b44acc41834f37520f89d0ce0f95865ffbff47434f97cac2"
+RPM_NAME = "libfsrefs-devel-20210422-3.6.aarch64.rpm"
+RPM_HASH = "8092ca422a37949e6f74d2309bc734744a0a56c661aba15231ac6be952d985d13b65faa335654823e5dc3e30d32a97b4fe02fa4a939ef6b7d654606a29ae4773"
 
 RPROVIDES:${PN} += "libfsrefs-devel \
 pkgconfig-libfsrefs"

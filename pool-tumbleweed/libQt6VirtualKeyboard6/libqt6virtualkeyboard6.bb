@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6VirtualKeyboard6-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "69a251ee121d3fab3b9a4ec4a035941451a94fe7c1b0d1fa7f006d95a3200553d73a558302de1c4ec0f1603493ae0e0069d2544b25b1233d3506862b8b335ecf"
+RPM_NAME = "libQt6VirtualKeyboard6-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "ff2f9478856e61f30112529cd8f7884269bc9e4c0e98b9fbb654a39e1ff9e675fabd4a84b9e6da22e526f347b4b03756df71f06e2f8e36c035dd06b8c0f826f1"
 
 RPROVIDES:${PN} += "libQt6VirtualKeyboard.so.6 \
 libQt6VirtualKeyboard6"

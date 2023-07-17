@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later"
 
 PV = "0.15.2"
 
-RPM_NAME = "libspice-server1-0.15.2-1.1.aarch64.rpm"
-RPM_HASH = "00bb82cff525ffeaf59ed62989ed4b8dc4ff74f7d9b6ee6b570942aeb08e358b9c7ffc87a0935eec12134ee4af760cf48fd4b1d3d7fe49f5654cf4a9f15d8142"
+RPM_NAME = "libspice-server1-0.15.2-2.1.aarch64.rpm"
+RPM_HASH = "08f32fd074ba38fd7c54498e64a4e9e0917fde69c5ad5c3c5003cf6913b038819becd885c882b2c1425afc11535a3ce59ba8f28a4940c6e4a0b130b327d908cc"
 
 RPROVIDES:${PN} += "libspice-server.so.1 \
 libspice-server1"

@@ -2,10 +2,10 @@ SUMMARY = "The standard C++ shared library"
 DESCRIPTION = "The standard C++ library, needed for dynamically linked C++ programs."
 LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
-PV = "13.1.1+git7364"
+PV = "13.1.1+git7552"
 
-RPM_NAME = "libstdc++6-13.1.1+git7364-1.2.aarch64.rpm"
-RPM_HASH = "856a1c6881e7dc16bb1e91529dd371e3e63a3738fc441e8c980afb44bfe845d61bd43b29a0a7c4b117a97386c11a468850685d4185353b64ae3bf8a5faf4f93d"
+RPM_NAME = "libstdc++6-13.1.1+git7552-1.1.aarch64.rpm"
+RPM_HASH = "b2f23b330ddbb42493196695b7f05d05e716bb16668fe6757218d04775ff1a382a73d57f90875b4e275ddedc7920773770c867c72ee656f8ccd1f876ddd448b4"
 
 RPROVIDES:${PN} += "libstdc++.so.6 \
 libstdc++6"

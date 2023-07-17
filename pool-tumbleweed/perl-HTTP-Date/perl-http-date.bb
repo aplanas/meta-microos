@@ -74,7 +74,8 @@ The function is able to parse the following formats: \
  'Feb  3  1994'      -- Unix 'ls -l' format \
  'Feb  3 17:03'      -- Unix 'ls -l' format \
  \
- '11-15-96  03:52PM' -- Windows 'dir' format \
+ '11-15-96  03:52PM'   -- Windows 'dir' format \
+ '11-15-1996  03:52PM' -- Windows 'dir' format with four-digit year \
  \
 The parser ignores leading and trailing whitespace. It also allow the \
 seconds to be missing and the month to be numerical in most formats. \
@@ -95,10 +96,10 @@ Same as time2str(), but returns a 'YYYY-MM-DD hh:mm:ssZ'-formatted string \
 representing Universal Time."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "6.05"
+PV = "6.06"
 
-RPM_NAME = "perl-HTTP-Date-6.05-1.15.noarch.rpm"
-RPM_HASH = "5e2b5044aa1e6289ef0223d070bf70bd956ee5a45f5c582c67087f0c09e8c74e1ad87755b48af518d5924ea5f92638198399299e05966548ce56a9e9a7aaf7d1"
+RPM_NAME = "perl-HTTP-Date-6.06-1.1.noarch.rpm"
+RPM_HASH = "3ffa64450870de8be6b7636289d54b39f2e4228bb9437a088af23e7bbae0cdba10cb9a2d65556914ce4b04d6c27d1d69549b6cff239f856625e7d5cbcb3df9f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Date \

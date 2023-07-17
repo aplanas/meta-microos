@@ -5,10 +5,10 @@ authentication systems. \
 This subpackage contains the header files for the HOTP/TOTP library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.6.7"
+PV = "2.6.8"
 
-RPM_NAME = "liboath-devel-2.6.7-3.5.aarch64.rpm"
-RPM_HASH = "65dbdc308825de0be30e22c85e99332f92c2fec4c01bc6563647c317586fea8d5a610603e736c69b8d2d1cef0b2017110d831bffde9d5c27083bb928fb80eb35"
+RPM_NAME = "liboath-devel-2.6.8-1.1.aarch64.rpm"
+RPM_HASH = "977713e9827cdbdd60b99ceb57f08639ac7a7d9ee9cf5fb7fd345c4dd8badfd4eef60d200fdf83db9da3858ddbaa1eba5e7e2c2318178a48a48126cdc6f8a2b8"
 
 RPROVIDES:${PN} += "liboath-devel \
 pkgconfig-liboath"

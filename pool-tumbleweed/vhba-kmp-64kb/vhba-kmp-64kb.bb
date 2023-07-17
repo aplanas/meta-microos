@@ -6,16 +6,16 @@ part of the userspace cdemu suite, CD/DVD-ROM device emulator for \
 Linux."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "20211218_k6.3.9_1"
+PV = "20211218_k6.4.2_1"
 
-RPM_NAME = "vhba-kmp-64kb-20211218_k6.3.9_1-3.11.aarch64.rpm"
-RPM_HASH = "8b4a3d0cf4b67adba527d5d2bc97526e4dade395b98257a30b47ed261beab5cd37596b0c55a561b6ecd006ff88ce496e7c84e999151a8121186c8f57d4f7e3c1"
+RPM_NAME = "vhba-kmp-64kb-20211218_k6.4.2_1-3.12.aarch64.rpm"
+RPM_HASH = "23a36b50cb1dcb981c69e17ddb6567801284c880a5448bbc284120d4b23c127dc1cb3c7b85bef2f44021f8fe6ab3485bb399e754772a9d842d70357a5eb73664"
 
 RPROVIDES:${PN} += "kmod-vhba.ko \
 multiversion-kernel \
 vhba-kmp \
 vhba-kmp-64kb \
-vhba-kmp-64kb-k6.3.9-1"
+vhba-kmp-64kb-k6.4.2-1"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \

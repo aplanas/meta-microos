@@ -4,10 +4,10 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.28"
 
-RPM_NAME = "ghc-hledger-lib-devel-1.28-2.7.aarch64.rpm"
-RPM_HASH = "c801d72e773c2f117bdd291927204816930827eccba2001c608b1dd7a9e0ae0bc1c135609dccb03ee1a089c1f774b681e0bd565522335afc7337d5509b6d882c"
+RPM_NAME = "ghc-hledger-lib-devel-1.28-3.1.aarch64.rpm"
+RPM_HASH = "aad447797fa746796941027cd752e5d7ccb5d02e9151209af8262fe123fd7fa8f76be9911b134b0f2e0c7577f0f03596c817b214456de12d623e7c7bf29bf5c9"
 
-RPROVIDES:${PN} += "ghc-devel-hledger-lib-1.28-AhrPRGlKIk9KakxoHPe5CV \
+RPROVIDES:${PN} += "ghc-devel-hledger-lib-1.28-KVtwO74sgvi1hMRwtb8EwS \
 ghc-hledger-lib-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -15,7 +15,7 @@ ghc-compiler \
 ghc-devel-Decimal-0.5.2-1qhxZ7R9Om3AQz2LFWOWmX \
 ghc-devel-Glob-0.10.2-5tAj3lHfg0h9Pb5bOpMg4R \
 ghc-devel-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
-ghc-devel-aeson-pretty-0.8.9-ANiMUyahKok8eMC9BUYvO0 \
+ghc-devel-aeson-pretty-0.8.10-8JRVLG9BqWz7B95FOCRy0B \
 ghc-devel-ansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3 \
 ghc-devel-array-0.5.4.0 \
 ghc-devel-base-4.17.1.0 \
@@ -30,7 +30,7 @@ ghc-devel-data-default-0.7.1.1-5iNQUD7GKkTDiLEyJaqXSy \
 ghc-devel-deepseq-1.4.8.0 \
 ghc-devel-directory-1.3.7.1 \
 ghc-devel-doclayout-0.4.0.1-9Y8Rw4EdBjz2IhzjzOiBy0 \
-ghc-devel-extra-1.7.13-CLIQu72ADU8JHmf7UWoQG4 \
+ghc-devel-extra-1.7.14-BoqGpItPSHp5TXSaJGSPpo \
 ghc-devel-file-embed-0.0.15.0-LJLaBgMyS4K2tBVYbzJ0uw \
 ghc-devel-filepath-1.4.2.2 \
 ghc-devel-hashtables-1.3.1-AhYwUdJr2hP9YbqppAld0p \

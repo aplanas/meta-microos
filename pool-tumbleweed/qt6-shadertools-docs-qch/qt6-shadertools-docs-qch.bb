@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.3-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-shadertools-docs-qch-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "47166000eec08cc3daebcc8aeb799d6f993f28e6bcd9cfebf2a9c79777b360c7d705c1b25c0988ae0f32fb1e35df6f5f8cb9a971b7bd66748d938e8a94a33765"
+RPM_NAME = "qt6-shadertools-docs-qch-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "f90cac25a0db4e4fd78997de7f5b93951fb24214e024606a57cd1c96c7ad5da934f5e594dfbfc67d29d64e17d6d267ce517cbd6829050981e9151c13cb034e44"
 
 RPROVIDES:${PN} += "qt6-shadertools-docs-qch"
 

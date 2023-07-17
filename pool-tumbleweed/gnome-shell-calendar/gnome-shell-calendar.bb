@@ -3,10 +3,10 @@ DESCRIPTION = "This package adds support for Evolution Calendar, such as appoint
 into GNOME Shell calendar."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later"
 
-PV = "44.2"
+PV = "44.3"
 
-RPM_NAME = "gnome-shell-calendar-44.2-1.1.aarch64.rpm"
-RPM_HASH = "b21c06e87e93cac259888bb26200ec48e7f2fbaf3a1c49d8f92e0f8a0b4b7be902d4bf49c5c2810d05bb7252ea8bb33bddcd0e5f2a8cc9332ecb0a1c75ebcb56"
+RPM_NAME = "gnome-shell-calendar-44.3-1.1.aarch64.rpm"
+RPM_HASH = "dfe2d065fe3c1e85e30017cc599fa5f04ba598269b6edd1deda2b084f2481ce79aa459eb21744f794e214cc9aabfc18ddb1f1d2737378eb9676c878caafce5d8"
 
 RPROVIDES:${PN} += "gnome-shell-calendar"
 

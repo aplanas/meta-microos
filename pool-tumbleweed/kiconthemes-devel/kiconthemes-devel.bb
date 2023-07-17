@@ -3,10 +3,10 @@ DESCRIPTION = "This library contains classes to improve the handling of icons \
 in applications using the KDE Frameworks. Development files."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kiconthemes-devel-5.107.0-1.2.aarch64.rpm"
-RPM_HASH = "d5e22a1fece21b5545f56ab1804c56331f89c3100d2435bacc58037efd13e01bc5bd164c12a8532e257c4e15ead20ddc8264676e237bd18187fe3f4730f9568b"
+RPM_NAME = "kiconthemes-devel-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "8b3836f432a6c3f009174ce639246eda1239f792d8cf97cf531366913a29ccadbcd8862a86804460e68f274236bdb8b9a1c6e7679de0b3ba0c9ec8ef4484ce12"
 
 RPROVIDES:${PN} += "cmake-KF5IconThemes \
 kiconthemes-devel"

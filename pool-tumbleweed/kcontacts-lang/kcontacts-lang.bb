@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kcontacts"
 DESCRIPTION = "Provides translations for the 'kcontacts' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kcontacts-lang-5.107.0-1.1.noarch.rpm"
-RPM_HASH = "e28cb5adcf7833555efef4d29b093aa3ec0c875d660ab2668e1dd38fa40b20aeac54c43fad3607f0172f95e8a61d5247b927d02dc384eabfa4d54159c140590a"
+RPM_NAME = "kcontacts-lang-5.108.0-1.1.noarch.rpm"
+RPM_HASH = "ff010fbc3c7ab92212f484087c9d062996ed6aed345bda4a72629f417523924d3c878eaf1bb01c7849ab18e31cf447b5cde9af2632acbf13c1e93178b03ebddc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kcontacts-lang \

@@ -1,12 +1,12 @@
 SUMMARY = "JSON encoder and decoder for Python"
 DESCRIPTION = "An ultrafast JSON encoder and decoder written in pure C with \
-bindings for Python 2.7 and 3.5+"
+bindings for Python 2.7 and 3.8+"
 LICENSE = "BSD-3-Clause"
 
-PV = "5.7.0"
+PV = "5.8.0"
 
-RPM_NAME = "python311-ujson-5.7.0-2.3.aarch64.rpm"
-RPM_HASH = "7db3545d5ecad58383bc4aedd40c2c6d21633649d3fd5eb7500b6c40c24666b18fc292fe6841ecd092a4ce187afc99d1853662c8a7428ebbba3c0e61e50592d5"
+RPM_NAME = "python311-ujson-5.8.0-1.1.aarch64.rpm"
+RPM_HASH = "ace0cfe248684c4e583f35dedeab39c9c52e46337610ccf8515d1298a0662cd43df9bd95f70c67fab8f746144ac481b54abe37e9c0bb31ad78677685752ad7e4"
 
 RPROVIDES:${PN} += "python3-ujson \
 python3.11dist-ujson \

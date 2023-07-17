@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.10.0.rc3"
 
-RPM_NAME = "libgnuradio-funcube3_10_0-3.10.0.rc3-1.2.aarch64.rpm"
-RPM_HASH = "2ea9a28d9e92bf31351ac9920793027d717e3a9bbb502a5d1e1e969fbeec3a8586a1781682cef8b8a5d6ca7d518c036ee33508604bf971a703bac92c94f0d95e"
+RPM_NAME = "libgnuradio-funcube3_10_0-3.10.0.rc3-1.3.aarch64.rpm"
+RPM_HASH = "94b56955018375ca99d238a354e4e66e84bf0052ba1d455e80a47c8983bc791a89c25c5d91d87317ad30ca54bf7b49991d99ccdb364121f91f86d449861499f8"
 
 RPROVIDES:${PN} += "libgnuradio-funcube.so.3.10.0 \
 libgnuradio-funcube3-10-0"
@@ -23,7 +23,7 @@ libgnuradio-blocks.so.3.10.6 \
 libgnuradio-pmt.so.3.10.6 \
 libgnuradio-runtime.so.3.10.6 \
 libhidapi-libusb.so.0 \
-libspdlog.so.1.11 \
+libspdlog.so.1.12 \
 libstdc++.so.6"
 
 inherit rpm

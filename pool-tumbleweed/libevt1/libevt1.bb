@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221022"
 
-RPM_NAME = "libevt1-20221022-3.11.aarch64.rpm"
-RPM_HASH = "4aee1ea7a7ad0963f20abce48766034c4f2e365097f8086601e39ea93c2501eabbe8a1bc55e99c64c097ab11502d5bd09ac145a4be011e5eb428d585fb63c01c"
+RPM_NAME = "libevt1-20221022-3.12.aarch64.rpm"
+RPM_HASH = "c983e93f00b5bc7eb134ffa12153b46a92262399b238a66d0948f8cfe22681432a63524bd32b795fd6aacbbed5c5b3d65cd9b636faedcdbc2ec2121ccc85c5e9"
 
 RPROVIDES:${PN} += "libevt.so.1 \
 libevt1"

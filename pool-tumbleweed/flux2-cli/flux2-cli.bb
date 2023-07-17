@@ -8,10 +8,10 @@ Flux v2 is constructed with the GitOps Toolkit, a set of composable APIs and spe
 Flux is a Cloud Native Computing Foundation (CNCF) project, used in production by various organisations and cloud providers."
 LICENSE = "Apache-2.0"
 
-PV = "2.0.0"
+PV = "2.0.1"
 
-RPM_NAME = "flux2-cli-2.0.0-1.1.aarch64.rpm"
-RPM_HASH = "21683f638c5505d81f809ecaf27db7ee4fe0280b676c634fb1587a505015924bc5ce599d36c8411a32c8304f7aa81d4f43e81d85f029e5fe41f89d21368a64e3"
+RPM_NAME = "flux2-cli-2.0.1-1.1.aarch64.rpm"
+RPM_HASH = "c8580d566d0312dde027a5a120ad99ad0842dd2bc54c9174290386f3aec348c4060d076b264168415021da5f780059f9a00de95b6b98213158a2256850e28633"
 
 RPROVIDES:${PN} += "flux2-cli"
 

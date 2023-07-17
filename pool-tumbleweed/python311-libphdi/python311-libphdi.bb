@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221025"
 
-RPM_NAME = "python311-libphdi-20221025-3.11.aarch64.rpm"
-RPM_HASH = "aabfc72f4a67f25bb9de902674e4a377760180c90d122a8ad60240defbf38bc4de5d1a16638f0c1894d482bd0a245b67f65d2b3b579873fc12d185007de0d10a"
+RPM_NAME = "python311-libphdi-20221025-3.12.aarch64.rpm"
+RPM_HASH = "6e2626df22b780888756be1b3eb13e9536012f582aaabe0d6960d46dbe4a1fcd76b17ed9a4e666c708ddf2244fc4b39b1667e09878cda95716e884d121d71936"
 
 RPROVIDES:${PN} += "python3-libphdi \
 python311-libphdi"

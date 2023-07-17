@@ -2,10 +2,10 @@ SUMMARY = "Amazon based arm64 systems"
 DESCRIPTION = "Device Tree files for Amazon based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3.9"
+PV = "6.4.2"
 
-RPM_NAME = "dtb-amazon-6.3.9-1.1.aarch64.rpm"
-RPM_HASH = "9798c78229b535c5e68464350ad573aed0ac14807e63f6c024ed8d7931faf53eb6ef64de1628f61c5ad45762895122a40799afdf37b3f21ab883ccf296e08c99"
+RPM_NAME = "dtb-amazon-6.4.2-1.1.aarch64.rpm"
+RPM_HASH = "b0aa4cb7ecf29a99877225a889560ac6b02af2f97f1af695754febab79feda77edc4ab5c1a68ddb25d5ff79785bc977b5986ce36504db32d6cee7ba7a085e1e5"
 
 RPROVIDES:${PN} += "dtb-al \
 dtb-amazon \

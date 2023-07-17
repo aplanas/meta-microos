@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-opcua-examples-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "9d040a9f50eea518108beb2ad0cb87f13b787559836117a1170d2ee37747dc28775c8a29500c12b39a9f3ac2580f14f7d563d63aa57705e09400027a2f9c0590"
+RPM_NAME = "qt6-opcua-examples-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "e04aa917f0bf98d9088c8679b977ccf3b80ddb19de6aa3fed968400e39270241b91d90e18bf7694c63e1a9e607d48bd24ecf26d8fe98b307136880701f66874c"
 
 RPROVIDES:${PN} += "qt6-opcua-examples"
 

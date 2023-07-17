@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "3.3.6"
 
-RPM_NAME = "ghc-warp-tls-prof-3.3.6-1.6.aarch64.rpm"
-RPM_HASH = "6d54dc29a1cfbf158a3cf3db620ba486592078293b939111d9248b7f43084962f868b859c03a69798c1fdafbf9fdfafa89f73c3bf1e11013122adeac36624674"
+RPM_NAME = "ghc-warp-tls-prof-3.3.6-1.7.aarch64.rpm"
+RPM_HASH = "a7eff9760a48650cb5895814dd49e0505ec7040ea49cde749fd74353e32427459dfd0d74228b8708edfc0e20470e6bb176078c1c778f916480a66039670c799c"
 
-RPROVIDES:${PN} += "ghc-prof-warp-tls-3.3.6-84GlfJc6pctLoCFIjkFOFZ \
+RPROVIDES:${PN} += "ghc-prof-warp-tls-3.3.6-BIAYbi0ylEQD1wDWwu7oKA \
 ghc-warp-tls-prof"
 
 RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
@@ -21,7 +21,7 @@ ghc-prof-tls-1.6.0-GPxmmQRGk0xt2NkvZcJeD \
 ghc-prof-tls-session-manager-0.0.4-H4ntEZmH6lq6RcNU9soHmP \
 ghc-prof-unliftio-0.2.25.0-DN1mY49M6dHDqA19Vm4lY3 \
 ghc-prof-wai-3.2.3-B6oJGZed88IFIvDpwN5I7x \
-ghc-prof-warp-3.3.25-7qOcByHeVpuMAFF4vrupa \
+ghc-prof-warp-3.3.25-EsJVhH2AisSK67jSo7D0GP \
 ghc-warp-tls-devel"
 
 inherit rpm

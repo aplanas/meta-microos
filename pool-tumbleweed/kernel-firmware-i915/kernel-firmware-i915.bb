@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Intel i915 graphics driver."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230620"
+PV = "20230707"
 
-RPM_NAME = "kernel-firmware-i915-20230620-1.1.noarch.rpm"
-RPM_HASH = "bf2560edd64a9f3b2b5ca62d2d2e420d52caef0a2f3c5ae7a74416926ed7df7beb611c0cc06d10dea8c12f2b0efec870b9798500ba32ff903b429a8617984855"
+RPM_NAME = "kernel-firmware-i915-20230707-1.1.noarch.rpm"
+RPM_HASH = "d10c4764fdf9a739fd160d4ad1c96b7fc96f6345bee150aa4f3179060cf19e0eabff6d37d73a0a2ff1ac7cf3e3c7a167183523eb2858e61f098729659e6c4d5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-i915/adlp-dmc-ver2-09.bin \

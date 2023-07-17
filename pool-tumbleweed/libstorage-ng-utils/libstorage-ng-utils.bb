@@ -2,10 +2,10 @@ SUMMARY = "Utils for libstorage-ng"
 DESCRIPTION = "This package contains utils for libstorage-ng."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.5.122"
+PV = "4.5.123"
 
-RPM_NAME = "libstorage-ng-utils-4.5.122-1.1.aarch64.rpm"
-RPM_HASH = "07d8749c7dcd81dcd0b448c7f4bbc329bb60cc87b048ab50f47585bb46247364ccd06d5fca999b2cd50a54f18480f6a69b80e8f794dc235427e6ab27f34e8090"
+RPM_NAME = "libstorage-ng-utils-4.5.123-1.1.aarch64.rpm"
+RPM_HASH = "6944b8f95c2580d15f18adf3204292deb4637c181e93b83313159d80f00bf59da4e1515cf684baa5ec673a3bb6fb84732588951c1a13a8589f7c7f6470587aeb"
 
 RPROVIDES:${PN} += "libstorage-ng-utils"
 

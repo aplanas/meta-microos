@@ -7,8 +7,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20210424"
 
-RPM_NAME = "python311-libexe-20210424-4.9.aarch64.rpm"
-RPM_HASH = "3ec05023e1af1921943caf93c098ffb2272997ba4b9d9ec7bdfe32cbe6447266950d92e2b41e38d8a6c0f4f893ce7b68e213f92bfdc05d25ddfb079ee6bba2c3"
+RPM_NAME = "python311-libexe-20210424-4.10.aarch64.rpm"
+RPM_HASH = "95b0456d654d3e6636880a03fcf8be2d98e6087abfe5c2d9285f14b0d1eaca5c9f01dbffa3f85e7b38df698d3db9d8836f70fce069719d64be0877638e6c80e8"
 
 RPROVIDES:${PN} += "python3-libexe \
 python311-libexe"

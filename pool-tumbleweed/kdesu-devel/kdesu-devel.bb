@@ -5,10 +5,10 @@ kdessh use it to interface with su and ssh respectively. \
 Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kdesu-devel-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "95dc655e570b4332f1caa7bcd4ccc0d737db7460c52ff1d3e74d6219884960d2793ba9de3dbf17b454c0afc8695d2df871e66e8a1bda98bd058e10f340c4d40c"
+RPM_NAME = "kdesu-devel-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "be27df2997ffa7c8cb8f408d48181f667655b218f920c41d4a362bddda21cd35d79ee3f8d423fecfa2caa3aca10a411ef202622b31acd5c3e40c8978ccde0e7b"
 
 RPROVIDES:${PN} += "cmake-KF5Su \
 kdesu-devel"

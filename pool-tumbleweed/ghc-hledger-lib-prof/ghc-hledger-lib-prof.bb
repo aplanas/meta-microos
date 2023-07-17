@@ -4,17 +4,17 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.28"
 
-RPM_NAME = "ghc-hledger-lib-prof-1.28-2.7.aarch64.rpm"
-RPM_HASH = "f8c3d3778e45d5e101c1586e3db8535aa5a49eb4af48a04cb46316d380a4d1e0d45ebf72087a61aca09a157f749f3e6ca481c7b59f68f9fbcee014aa7bb1a0a3"
+RPM_NAME = "ghc-hledger-lib-prof-1.28-3.1.aarch64.rpm"
+RPM_HASH = "c09da5d8cebfb51e139e7ed0f52e774b412e58057095a9be7d268ae49a9cccbaedf54eedc28335091c3ee5ac0aad1431b773d1942cf87d6fdb8c4e16ea45cf91"
 
 RPROVIDES:${PN} += "ghc-hledger-lib-prof \
-ghc-prof-hledger-lib-1.28-AhrPRGlKIk9KakxoHPe5CV"
+ghc-prof-hledger-lib-1.28-KVtwO74sgvi1hMRwtb8EwS"
 
 RDEPENDS:${PN} += "ghc-hledger-lib-devel \
 ghc-prof-Decimal-0.5.2-1qhxZ7R9Om3AQz2LFWOWmX \
 ghc-prof-Glob-0.10.2-5tAj3lHfg0h9Pb5bOpMg4R \
 ghc-prof-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
-ghc-prof-aeson-pretty-0.8.9-ANiMUyahKok8eMC9BUYvO0 \
+ghc-prof-aeson-pretty-0.8.10-8JRVLG9BqWz7B95FOCRy0B \
 ghc-prof-ansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3 \
 ghc-prof-array-0.5.4.0 \
 ghc-prof-base-4.17.1.0 \
@@ -29,7 +29,7 @@ ghc-prof-data-default-0.7.1.1-5iNQUD7GKkTDiLEyJaqXSy \
 ghc-prof-deepseq-1.4.8.0 \
 ghc-prof-directory-1.3.7.1 \
 ghc-prof-doclayout-0.4.0.1-9Y8Rw4EdBjz2IhzjzOiBy0 \
-ghc-prof-extra-1.7.13-CLIQu72ADU8JHmf7UWoQG4 \
+ghc-prof-extra-1.7.14-BoqGpItPSHp5TXSaJGSPpo \
 ghc-prof-file-embed-0.0.15.0-LJLaBgMyS4K2tBVYbzJ0uw \
 ghc-prof-filepath-1.4.2.2 \
 ghc-prof-hashtables-1.3.1-AhYwUdJr2hP9YbqppAld0p \

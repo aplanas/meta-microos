@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kded"
 DESCRIPTION = "Provides translations for the 'kded' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kded-lang-5.107.0-1.1.noarch.rpm"
-RPM_HASH = "b5dc95f99b0949a50802453c2f930588fa4ad3346477c728dcf60619d0a71e25ad61b02d66313b0754d837cfeb21366c4b7bd1d9199f65b22d67e0af5767ecf1"
+RPM_NAME = "kded-lang-5.108.0-1.1.noarch.rpm"
+RPM_HASH = "dad7eaa34c0fdae63cbccc10f9a53504133114965d33d3c32ff672d90f86c7aa4170e9dec49484a39c863a052c81c61bb0dd7540c4fb8b528018f52adc7f1f14"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kded-lang \

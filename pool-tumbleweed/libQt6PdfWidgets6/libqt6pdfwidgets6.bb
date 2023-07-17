@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6PdfWidgets6-6.5.1-1.3.aarch64.rpm"
-RPM_HASH = "48d4312c9b51f9d0aec0d8206b57046289be5d171725e7bb5bb17ea43c4aaae811f830107dbd02186849199b56bca54e75ab3c2886d00f03cc83fbb26808102d"
+RPM_NAME = "libQt6PdfWidgets6-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "05a063bf4969b1bbdcbad5e6b54037f9e3814f02690c1a948762d22b5ce250f611be222ba377529f86f170715536ddaf4fa8d6d70934e6709fc3d072134d1c98"
 
 RPROVIDES:${PN} += "libQt6PdfWidgets.so.6 \
 libQt6PdfWidgets6"

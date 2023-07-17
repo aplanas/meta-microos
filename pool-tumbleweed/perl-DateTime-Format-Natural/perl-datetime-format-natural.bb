@@ -4,10 +4,10 @@ strings. In addition, parsable date/time substrings may be extracted from \
 ordinary strings."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.16"
+PV = "1.17"
 
-RPM_NAME = "perl-DateTime-Format-Natural-1.16-1.2.noarch.rpm"
-RPM_HASH = "e8e5a55746c0588f596df0c80c75dd2e01c714383bcdf87b8b368f7fd5f9a6ee68f5a07bf466fdb3345aebe49c41f64998f0954756d34c76fe856cbfbc51578b"
+RPM_NAME = "perl-DateTime-Format-Natural-1.17-1.1.noarch.rpm"
+RPM_HASH = "20a9a14dc78858b2c74af6620f85e94d00da906b89adce14018d8db9b58b77d034595629e9e3735eb108b75ad82ee87c4cbf00e2d6e0f2522eaf936cb58d7049"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DateTime--Format--Natural \

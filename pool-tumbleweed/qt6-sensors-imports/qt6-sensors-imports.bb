@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-sensors-imports-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "aebd36fa2050b12dc29bc0980323506bfee5941b6d665fe101250073f7e95a54312696528ec2cc57e59162e6218442fe5d7fcf7bd4b4f9f5173f43ba59fde1d7"
+RPM_NAME = "qt6-sensors-imports-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "50181ab3c6a31392c54f6bd67d32eca86d36e93fc545e2bdc0be1762a43ff71bb498dd6c78f4c5564778c36f446329e1fa931446c61c81a17b3f9cf765a2ae4d"
 
 RPROVIDES:${PN} += "libsensorsquickplugin.so \
 qt6-sensors-imports"

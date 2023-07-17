@@ -3,10 +3,10 @@ DESCRIPTION = "KItemModels provides a set of item models extending the Qt model-
 provides support to use KItemModels with the QtQuick framework."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kitemmodels-imports-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "4ddc0c3210c91195ef813fd2a0fb7e278feddb1ee023d996355dfe4f4df20d564c804a31391000186c23182fadd52b5ddb3bdd1d3b9086bf597ae017fd595e31"
+RPM_NAME = "kitemmodels-imports-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "92968ca97fc2379dc24e93854ec7f3f6bd1b56f1cc95c4b2d043108f0ae151508c563a6773c8774126402adb250aabe0ed44ba8e6113d94ce2fa753bb688e0d7"
 
 RPROVIDES:${PN} += "kitemmodels-imports \
 libitemmodelsplugin.so \

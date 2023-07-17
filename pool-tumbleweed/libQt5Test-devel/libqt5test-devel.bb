@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
 PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5Test-devel-5.15.10+kde129-1.1.aarch64.rpm"
-RPM_HASH = "541caaa32bd170665f22ec1bc99add1c21dd3cb6e3baee12bc01c0b8a0987751a9311b3fcc2c56a78e2adcf8e446a8f2810a80d30db2f5f6eb9a3a4d8394bad6"
+RPM_NAME = "libQt5Test-devel-5.15.10+kde129-2.1.aarch64.rpm"
+RPM_HASH = "6d43bdcf0e842f5edcc074df304eb2644566eae92b762b8f0cef6fa7ac06feef5e097e2c7b9892e9d0d9e439b797911ea3f4973a9fc19e06ebf6648218086bc5"
 
 RPROVIDES:${PN} += "cmake-Qt5Test \
 libQt5Test-devel \

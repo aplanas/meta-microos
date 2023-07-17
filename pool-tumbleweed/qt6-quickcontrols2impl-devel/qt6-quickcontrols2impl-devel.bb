@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quickcontrols2impl-devel-6.5.1-1.3.aarch64.rpm"
-RPM_HASH = "7ae3ac43654f69c52138b6c6781abbb2aade63b746681a0d48ffe0e414408fdc67779dcec37e322f3cae5653c3a9bc408c1260b8d2d832e6ceeab624a4d1611b"
+RPM_NAME = "qt6-quickcontrols2impl-devel-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "55cf466b7ee0cfda2dee5fac6074b63c4a3d379626e5b312cc9494a3adf0e67c591f8702e1f51099b2c49ea9a43391dc3ce32be5c764cbd8b840c6205b74ba65"
 
 RPROVIDES:${PN} += "cmake-Qt6QuickControls2Impl \
 pkgconfig-Qt6QuickControls2Impl \
@@ -13,11 +13,12 @@ qt6-quickcontrols2impl-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake-Qt6Gui \
+cmake-Qt6Qml \
+cmake-Qt6Quick \
+cmake-Qt6QuickTemplates2 \
 libQt6QuickControls2Impl6 \
 pkgconfig-Qt6Core \
 pkgconfig-Qt6Gui \
-pkgconfig-Qt6Quick \
-qt6-qml-private-devel \
-qt6-quicktemplates2-private-devel"
+pkgconfig-Qt6Quick"
 
 inherit rpm

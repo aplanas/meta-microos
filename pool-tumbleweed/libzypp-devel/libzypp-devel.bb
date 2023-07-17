@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "17.31.15"
 
-RPM_NAME = "libzypp-devel-17.31.15-1.2.aarch64.rpm"
-RPM_HASH = "df49c1bfdccc478b71e8baf58da3ccd8778e3c545f21bd61adf89ebd0faacd960018d39a192eb045595804152a01f4124d7c22d9b30c3926ff980103cbd3a051"
+RPM_NAME = "libzypp-devel-17.31.15-1.3.aarch64.rpm"
+RPM_HASH = "3d62fa0f779739357540146eb2254fac459561cae78b0827c51f8496a185c2727badea936e4403939ed5d4dfb48392595d4f570a22295496a220be66f3018b0b"
 
 RPROVIDES:${PN} += "libzypp-devel \
 pkgconfig-libzypp \

@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20220925"
 
-RPM_NAME = "python311-libfsfat-20220925-3.11.aarch64.rpm"
-RPM_HASH = "58be9d020ea36d877eb54c0bc26c05b919f489ffea61db15152dcd704a87a0a0cf6a5ad6812bbeb011d0825c7f06af7610cb7fd090f73fcfc604a7671e903d76"
+RPM_NAME = "python311-libfsfat-20220925-3.12.aarch64.rpm"
+RPM_HASH = "c43a2c6051d7bb5223c615e4c7efea1b343b67fc34d86255a09f0bde12dd6e3f336fc517ab0c45da051157550b1e0105e2260cb18a737941ef8a6fa3f1160bc1"
 
 RPROVIDES:${PN} += "python3-libfsfat \
 python311-libfsfat"

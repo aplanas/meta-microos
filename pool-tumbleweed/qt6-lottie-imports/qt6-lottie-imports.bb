@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-lottie-imports-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "ef28152adf22378e3d3be4a5fa85484cc28b7f5c58269d50cb8e5c43598c76c508987919a535b8a1d3af4db818d32f757663ffbeffc860651083cb1652acdfb0"
+RPM_NAME = "qt6-lottie-imports-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "e9c7e81e9e9f1f53dc825a8e7bd2089ffff9144e2fb48d2b0a2ecb57dae3aa21b6ca2f5006265368a018d0208fd30aad3cf26629a10047d1b0dfc12a99cb9be9"
 
 RPROVIDES:${PN} += "liblottieqtplugin.so \
 qt6-lottie-imports"

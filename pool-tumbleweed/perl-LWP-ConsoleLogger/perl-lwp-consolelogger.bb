@@ -15,10 +15,10 @@ possible, so that you can easily toggle output on and off and otherwise \
 adjust how you deal with the output."
 LICENSE = "Artistic-2.0"
 
-PV = "1.000000"
+PV = "1.000001"
 
-RPM_NAME = "perl-LWP-ConsoleLogger-1.000000-1.3.noarch.rpm"
-RPM_HASH = "6b60fd7a65c5336a3eb771823b3b1cd278bc1ce351624902f347aca14cade77c2d0ea7b3e060c53e9610a5d177bcaf2d6e2a3f09735d931d84a8d23bdad368de"
+RPM_NAME = "perl-LWP-ConsoleLogger-1.000001-1.1.noarch.rpm"
+RPM_HASH = "5e105161c693ffe0fada34992bc83b5818bf96db4ab39d6a2a093eac0df27635c3b5c5d642dea48718f84badb4387dffc60f825b9b0bf44cad1043daa590e48a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-LWP--ConsoleLogger \

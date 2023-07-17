@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20221124"
 
-RPM_NAME = "python310-libvmdk-20221124-3.10.aarch64.rpm"
-RPM_HASH = "95218ea00e63c94aab4d73ad1a1dadb7e517f8e80e9b670dcfbafd048c1d0df3549ccd07c21285c2a530df18d04fd9e65bf6d992d475836f9e61098210c8e774"
+RPM_NAME = "python310-libvmdk-20221124-3.11.aarch64.rpm"
+RPM_HASH = "9f72003e42b47d888a5b575546624bec9dc0bf6efa39a173fdb8d3fe6355f2da7e6079c2559642e98afd4835638b0384d888f0beada96328a2b907befa535671"
 
 RPROVIDES:${PN} += "python310-libvmdk"
 

@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-remoteobjects-imports-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "720e15a23e0697ed795d74753960f379a5698ae2f3dacc32cff77dd45d8de10c19c052b29326e75585cb11091c13cc97fc0a80655915e26832a8b93ed7109b07"
+RPM_NAME = "qt6-remoteobjects-imports-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "3dc9065c7cf38630dc6a50c96578c9ce06d6767f93dcdc6c247d98adb8d679a6c677952504f49ded796e62d670d8d825b4e04beabfe7378e5fe3e223bf72094d"
 
 RPROVIDES:${PN} += "libdeclarative-remoteobjectsplugin.so \
 qt6-remoteobjects-imports"

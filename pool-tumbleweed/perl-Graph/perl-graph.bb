@@ -2,10 +2,10 @@ SUMMARY = "Graph data structures and algorithms"
 DESCRIPTION = "graph data structures and algorithms"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.9726"
+PV = "0.9727"
 
-RPM_NAME = "perl-Graph-0.9726-1.2.noarch.rpm"
-RPM_HASH = "1f5579e5ee7c47c79db406f7f702f2e5e1f6d82961333ef10233a773a0df1ac16a2398a20a025e79af24b1547c7376a128b458bdead63f752fb49c7d503610e0"
+RPM_NAME = "perl-Graph-0.9727-1.1.noarch.rpm"
+RPM_HASH = "a7de1a493cb7d5562a3cf97812dba0434bd122accb420831c389f8a850d1cd9db8008ddaa114d7003cef5e8f6e8373e58d558bb11463ead78ba9bcdc56a0a37f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Graph \

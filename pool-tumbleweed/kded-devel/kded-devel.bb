@@ -4,10 +4,10 @@ Some of these tasks are built in, others are started on demand. \
 Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kded-devel-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "61c43778ad750fcb3888028111b62625b83ebbcd59b4d59d8f1c35d7201f4d63d1a992d943d4b0b8ad4e5964aadf505ede408963970c8346858e36846fb7d022"
+RPM_NAME = "kded-devel-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "bbc854ade02ef5a4f1368f2821e5297a2b6bf7534ddf53640f4d0f4a202c7984d4247151a16ef0420dbfec50cf82179cfe4e4aeadd9e05870f071792ce461486"
 
 RPROVIDES:${PN} += "cmake-KDED \
 kded-devel"

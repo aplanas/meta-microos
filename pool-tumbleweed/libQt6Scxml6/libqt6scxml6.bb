@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "libQt6Scxml6-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "c58490f72dce3837a30f42e59da55e7f12bd7de35458cd9df245b97e06d03dbae1f2d64fccaa43d9e8a63b37f14060462f483babf9ccb11b6d3b2d16c61e2aad"
+RPM_NAME = "libQt6Scxml6-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "fb41b9feef79e2b5e40487b049009f955fd98f07e728f5ce094579a062d112c474a52def800a65e4c46f13ae0bdd01befc79f1e3203bf41eae853372c4b4ffac"
 
 RPROVIDES:${PN} += "libQt6Scxml.so.6 \
 libQt6Scxml6"

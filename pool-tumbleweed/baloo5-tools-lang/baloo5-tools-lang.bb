@@ -2,10 +2,10 @@ SUMMARY = "Translations for package baloo5-tools"
 DESCRIPTION = "Provides translations for the 'baloo5-tools' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-3.0-only"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "baloo5-tools-lang-5.107.0-1.1.noarch.rpm"
-RPM_HASH = "91db0aa8b900cf991d56319546d1485026bc0bbec15a9a3b2e320c422ce15bfbe1e9ce0dec1fb79efe34e95b337c58e6539cbdfbae4edc8cc10a0bffffbeabd0"
+RPM_NAME = "baloo5-tools-lang-5.108.0-1.1.noarch.rpm"
+RPM_HASH = "c514dcf6f2ab4d7d2392cdc35b1490b4bb56529db0dff40fe7dd5fdfbec23ba832fea6d67f40a87c6a71b43d8ef98a16b1a7868733c8e64e6b8b84176bf79a49"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "baloo5-tools-lang \

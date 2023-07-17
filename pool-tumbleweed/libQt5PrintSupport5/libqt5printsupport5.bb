@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
 PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5PrintSupport5-5.15.10+kde129-1.1.aarch64.rpm"
-RPM_HASH = "dfe0a14a7ee4c729b6cb3acf345bc6b0add37dd9e58e5abca21c1f761e0680b898767dec30f478d21aa7cf1d34a01d66e1f7671cee5e291006de354db7defb0f"
+RPM_NAME = "libQt5PrintSupport5-5.15.10+kde129-2.1.aarch64.rpm"
+RPM_HASH = "e2d920c7e9c61d334979e14a3a3048eab9a7fd66d15e86d3244927f7e977b7743244b42a3c1411ca5fa44ebbaa68fbc235fbdd6ce8335d85c08733e75fd00ba8"
 
 RPROVIDES:${PN} += "libQt5PrintSupport.so.5 \
 libQt5PrintSupport5 \

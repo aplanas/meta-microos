@@ -30,6 +30,9 @@ currently selected). The usual suspect here is '*STDERR': \
         carp $warning; \
     } \
  \
+Note that 'is_interactive' may return true in a Windows Scheduled Task. See \
+Github #6 (https://github.com/briandfoy/io-interactive/issues/6). \
+ \
 * 'interactive()' \
  \
 This subroutine returns '*STDOUT' if 'is_interactive' is true. If \
@@ -62,10 +65,10 @@ A 'busy' block is therefore useful to prevent attempts at input when the \
 program is busy at some non-interactive task."
 LICENSE = "Artistic-2.0"
 
-PV = "1.023"
+PV = "1.025"
 
-RPM_NAME = "perl-IO-Interactive-1.023-1.11.noarch.rpm"
-RPM_HASH = "e945e17d66ed09d3a1d438fe0eb4d5a425a604999aa805f10c267100094de7b5aba05db82da369564b5903534bccb135be0251eed1704ab9dcf1b02bbe8791c5"
+RPM_NAME = "perl-IO-Interactive-1.025-1.1.noarch.rpm"
+RPM_HASH = "d53deaa3fed511028fc91f523a710860c2e5b5610eaa38a4b4c2e3a11a8d521eee4e4472fb306520743f9ee26f1800083b5e58f3a571f956c70761009a08a69e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--Interactive \

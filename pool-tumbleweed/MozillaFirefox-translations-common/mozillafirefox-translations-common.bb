@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains several common languages for the user inter
 of Firefox."
 LICENSE = "MPL-2.0"
 
-PV = "115.0"
+PV = "115.0.1"
 
-RPM_NAME = "MozillaFirefox-translations-common-115.0-1.1.aarch64.rpm"
-RPM_HASH = "b9672824064980a49609e4308b98cc6e1aa1cfd2c9bd7a3b865729d425e8452c1c77dfc8df2b2e29031ba6f1e4dd4c7ed9a824f7a486d8bc11b21e01f7818bbb"
+RPM_NAME = "MozillaFirefox-translations-common-115.0.1-1.1.aarch64.rpm"
+RPM_HASH = "3cbbd099801a5e052e90653e44030267cf53b0c22f017fa890d7c6013600cddedcc917f42d881c54269534bf113a8bb92c6fa6f0d7d88570a56c1e93ef07ef54"
 
 RPROVIDES:${PN} += "MozillaFirefox-translations \
 MozillaFirefox-translations-common \

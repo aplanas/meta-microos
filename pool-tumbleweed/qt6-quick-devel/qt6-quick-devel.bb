@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-quick-devel-6.5.1-1.3.aarch64.rpm"
-RPM_HASH = "7ec657adb5450ad013451127611e4d584ab05f30e472723ffd5e619ba24b87cd0ebe3bfeaf990f27c16d4a3f69bebadc917c9ced3ea7371130255314f8722142"
+RPM_NAME = "qt6-quick-devel-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "3350ab958141c3ea060cb39bf34aa7a1c3d227f0929d0c8823c0a505cbe265c067ba30dee0200c0c4bab573b75da7642558973dd1728a1211247d6071d05a3bb"
 
 RPROVIDES:${PN} += "cmake-Qt6Quick \
 pkgconfig-Qt6Quick \

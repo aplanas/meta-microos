@@ -4,10 +4,10 @@ DESCRIPTION = "libfwps is a library for Windows Property Store data types. \
 Part of the libyal family of libraries."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230202"
+PV = "20230711"
 
-RPM_NAME = "python311-libfwps-20230202-1.7.aarch64.rpm"
-RPM_HASH = "c83ff211a976abb579f8b023c7a854f020083967bc7ce9a0d1b104b14f09902244069f3d6cd14e9ff29301d50ccbf70236cc4d0100326a424cfe7746136c6a2c"
+RPM_NAME = "python311-libfwps-20230711-1.1.aarch64.rpm"
+RPM_HASH = "8fcf182b5ff1707e286025d76e99537061d7f48f2a9f4a3a2496e3e5cf9de4bc168d68d3edd20b853151317886086e246e563f885c9bf1bcc22c6649897a3dc8"
 
 RPROVIDES:${PN} += "python3-libfwps \
 python311-libfwps"
@@ -17,6 +17,7 @@ libc.so.6 \
 libcerror.so.1 \
 libfguid.so.1 \
 libfwps.so.1 \
+libuna.so.1 \
 python-abi"
 
 inherit rpm

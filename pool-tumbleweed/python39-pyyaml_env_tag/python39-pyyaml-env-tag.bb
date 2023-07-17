@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.1"
 
-RPM_NAME = "python39-pyyaml_env_tag-0.1-2.16.noarch.rpm"
-RPM_HASH = "ce8afd59eff4c0b3beb25c27720fef4af30cc852a88bb3553ec7a49a799ee5cc1c5c98a49f73afa854b5ad25d2ff140a2609744ac780bf5bdb4ea2725019bb97"
+RPM_NAME = "python39-pyyaml_env_tag-0.1-3.1.noarch.rpm"
+RPM_HASH = "7f4534904939dbd2dc300b483684cfa28e84d0e9fbccf901939ef428fface951831124c5704e721be4c4fe7554025e0fff4123c5318c0b26f31ba05375f256ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyyaml-env-tag \

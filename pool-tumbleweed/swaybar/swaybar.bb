@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.8.1"
 
-RPM_NAME = "swaybar-1.8.1-2.2.aarch64.rpm"
-RPM_HASH = "a7b0897705323a66ddfec8effbb391cfd1f48488a0ba787f5cc9a8b36a60484fc3a5c7f37baa98e533bf7582c1ede4d8ee9913a4ae7aca006e21abba34060de7"
+RPM_NAME = "swaybar-1.8.1-3.1.aarch64.rpm"
+RPM_HASH = "795d635e6abfba43b08f9188ffa7b9389e9526392d00fe8afb4e8a47ea203350092e86b3e2cb9972181aa13c09ec538c0f3ca801a134002511575397be12ce37"
 
 RPROVIDES:${PN} += "swaybar"
 

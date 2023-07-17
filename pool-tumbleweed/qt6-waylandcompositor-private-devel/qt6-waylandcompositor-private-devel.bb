@@ -5,11 +5,15 @@ LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-waylandcompositor-private-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "bdc2c49336e23a493c0ea5e6b6f7f32ee77a1b89c9154de60764907f567e71a68b33628771acce68d535726780ac6444d1a227b1e79d2a20738c6d2ea2d8d112"
+RPM_NAME = "qt6-waylandcompositor-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "a9fac08722ae42380d0cbcdbf09f8c2262dab61e34f0391971188ef52d637b2803bb1f1d7b04a8f1b6334b1ef6b0a8a468702c47315272cc5c0edd41924b662a"
 
 RPROVIDES:${PN} += "qt6-waylandcompositor-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6WaylandCompositor"
+RDEPENDS:${PN} += "cmake-Qt6WaylandCompositor \
+qt6-core-private-devel \
+qt6-gui-private-devel \
+qt6-qml-private-devel \
+qt6-quick-private-devel"
 
 inherit rpm

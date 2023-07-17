@@ -2,10 +2,10 @@ SUMMARY = "Non-binary asset user-installable package managing framework"
 DESCRIPTION = "This framework lets applications to manage user installable packages of non-binary assets."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kpackage-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "3b0f555c2ffba9fe8778cf350f9dfb69944215e70e4d87901676f2222853690df6499bbc38c14e507b5060ac02410e3670947a6bba19e648707ddfd6e04f2eda"
+RPM_NAME = "kpackage-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "f594a3165a321a63ea925927e3ec1fcde73f17a350b80c0915c61670776162209946d8a8fdf1fc2f432c75914e765343f3d43798a74fd658157085825ed312b3"
 
 RPROVIDES:${PN} += "kpackage \
 libKF5Package.so.5"

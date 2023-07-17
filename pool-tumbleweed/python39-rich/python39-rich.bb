@@ -3,10 +3,10 @@ DESCRIPTION = "Render rich text, tables, progress bars, syntax highlighting, \
 markdown and more to the terminal."
 LICENSE = "MIT"
 
-PV = "13.4.1"
+PV = "13.4.2"
 
-RPM_NAME = "python39-rich-13.4.1-1.3.noarch.rpm"
-RPM_HASH = "d926088e5588f6341565b347fea64120a2577114e3e87f59fcd764d2e825949616fb564d574877c253198c47108cf537eeaa4abfd354ce7067cc5c0faabf3dc1"
+RPM_NAME = "python39-rich-13.4.2-1.1.noarch.rpm"
+RPM_HASH = "0416a67a1a40ca88d1e8dd16a5845ded29b06ee4b01667d527c3eabc51cebf1cc1bcca91b4033b42293bd9aee09eee476084bc2cbefeb0c35efe46f438bac321"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-rich \

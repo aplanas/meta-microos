@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-charts-imports-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "f2bf1e9f9c7c1b8cb670f43094d6d413978cc3ede88c74c8da514c62d8eb4638b85c0384fd9b9997e28ba8a6a049cee3e8b1a0a2eac5c9ace888dd93f7ec8951"
+RPM_NAME = "qt6-charts-imports-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "27e2e962057b8955533364e92ab2fd2d130d8b976c9b48312ff51a3ad356afc860e7fe86487c3508e4efc4a8daccb289efa5bc5bcf6bb1be22c69b1d82847979"
 
 RPROVIDES:${PN} += "libqtchartsqml2plugin.so \
 qt6-charts-imports"

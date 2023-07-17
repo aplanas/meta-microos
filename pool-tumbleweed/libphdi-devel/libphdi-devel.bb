@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221025"
 
-RPM_NAME = "libphdi-devel-20221025-3.11.aarch64.rpm"
-RPM_HASH = "e68c94ac3c06ea5a74fdadbc8ebdcb39c408c3051a0c173178caae9bb46670d0982c654bda7975e80d9649991336b70d0a8430b4487f18e8a85f817c540ad12d"
+RPM_NAME = "libphdi-devel-20221025-3.12.aarch64.rpm"
+RPM_HASH = "1b97a1c002d56d61321f18da97dfe84a57aa590af18ae2467fcc40d903230a0b299a28bfc0b1dd5aa4ced65cb840d8f61e09d17d24aa48c3a1aec3ba5bc88e00"
 
 RPROVIDES:${PN} += "libphdi-devel \
 pkgconfig-libphdi"

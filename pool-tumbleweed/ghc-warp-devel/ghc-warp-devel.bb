@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "3.3.25"
 
-RPM_NAME = "ghc-warp-devel-3.3.25-1.7.aarch64.rpm"
-RPM_HASH = "11888dc452fc2e77f06dbfcc7c3f2b0a436dbde1e823fbb1691295b911918fe0638918575da5c99dcddc4bb1f6565025679e4f98a0ddf20cf2de90a9d0227e03"
+RPM_NAME = "ghc-warp-devel-3.3.25-1.9.aarch64.rpm"
+RPM_HASH = "ca3114ee7db733ee92b6978841f694ef95bb52488e56f4718ac9521de3498c85ace544c3807eb0aa12cdc5f11ec7bd621ac6e0f624309dc1be2728f97300765e"
 
-RPROVIDES:${PN} += "ghc-devel-warp-3.3.25-7qOcByHeVpuMAFF4vrupa \
+RPROVIDES:${PN} += "ghc-devel-warp-3.3.25-EsJVhH2AisSK67jSo7D0GP \
 ghc-warp-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -23,7 +23,7 @@ ghc-devel-ghc-prim-0.9.0 \
 ghc-devel-hashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt \
 ghc-devel-http-date-0.0.11-IfCBGXPFiMuIKzFtOTNgnD \
 ghc-devel-http-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6 \
-ghc-devel-http2-3.0.3-COVYRU9DHikEztQPG0mdmy \
+ghc-devel-http2-3.0.3-C8jMo1PWq0Httjut7cZnE \
 ghc-devel-iproute-1.7.12-IhoklPQYItb8qGu1G3vmcD \
 ghc-devel-network-3.1.4.0-FvtFepOtuCUH79FCWyNxIc \
 ghc-devel-recv-0.1.0-5l0GOJwksOA59K6H5tIdgO \

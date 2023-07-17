@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains the firmware for the nanopc-t4-rk3399 platform."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.04"
+PV = "2023.07"
 
-RPM_NAME = "u-boot-nanopc-t4-rk3399-2023.04-2.2.aarch64.rpm"
-RPM_HASH = "02120c5af580bb8b8af6a4cdb4433c61c344dbe77edf9454f1d39e1ef0f0aa3a1635388b4f2375ce2938edeb4710680d17b4bd232a05afaeb44c2b05135bcdf1"
+RPM_NAME = "u-boot-nanopc-t4-rk3399-2023.07-1.1.aarch64.rpm"
+RPM_HASH = "129c000bc7fd757d13a38cd1d937bd6f661159bb9768bc7d64ac550d8a757571a279a6e26efac661a0461ff5893807595f47afea2afe482136100ab506888ccb"
 
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-nanopc-t4-rk3399"

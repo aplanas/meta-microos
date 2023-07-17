@@ -6,10 +6,10 @@ a main loop abstraction, and so on. \
 This package contains static versions of the GLib libraries."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.76.3"
+PV = "2.76.4"
 
-RPM_NAME = "glib2-devel-static-2.76.3-1.1.aarch64.rpm"
-RPM_HASH = "76e17075439e5dc8b82b51fb46c41a477529240acf2a903b27bb6361c1d2473a9067b407564d2c5c8d83e9a4a8ad34298291254a603493f8857a40d3c90d38ad"
+RPM_NAME = "glib2-devel-static-2.76.4-1.1.aarch64.rpm"
+RPM_HASH = "423607931deb277ca921b9630e9bc975c4145bfc275ff7110ae9c827fe990fb761b67dd96764f178cb5d4a1a39e192e4483298cfe0f4a06c206258c92e1b4a47"
 
 RPROVIDES:${PN} += "glib2-devel-static"
 

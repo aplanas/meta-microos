@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "nut-cgi-2.8.0-3.1.aarch64.rpm"
-RPM_HASH = "c1b25f4e10d6525552c2a02c5a24605bc5efe367a1fea115e1d5db0bd813d0af152e8a0a53f81eddfabca7001c0bf865bcef71feebf4b1038dcb757955810161"
+RPM_NAME = "nut-cgi-2.8.0-4.1.aarch64.rpm"
+RPM_HASH = "8cd55a21be461ab872201efc8ae1599295510b1b2682e0fa34c8768cdea9a826d101cf783951d611c72c78f489bacdae04284fbb3c79f6ccdfb2a9c4f06937c3"
 
 RPROVIDES:${PN} += "config-nut-cgi \
 nut-cgi"

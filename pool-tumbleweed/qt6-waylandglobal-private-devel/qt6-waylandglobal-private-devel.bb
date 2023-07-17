@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-waylandglobal-private-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "37eec68a1e34a7e7d3ed4d7d6e1759fb29c8d5fe810e7221ac97319613f5cbd31814d1650ba364e3d9aca1e2101d95b023ac9ebcd3556f842603c550d588fa16"
+RPM_NAME = "qt6-waylandglobal-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "849d6f918fa1a258cff57fb0faad88e3937ddd85f18e6ac8e2ffee06b40af1f182a9fba7d11861ddd4123c43d2ba69f60452dcde0bd049f22bae5ff0f682d8d2"
 
 RPROVIDES:${PN} += "cmake-Qt6WaylandGlobalPrivate \
 qt6-waylandglobal-private-devel"

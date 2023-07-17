@@ -5,14 +5,16 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-multimediaquick-private-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "784d6cc425de41e1aca1e95c5e4076392003f838dd22736f08530af0d5479e094e4ed1a8aa888e89bc728f42033b7926d2606c2a91cd3d5a5e08003fe707aba2"
+RPM_NAME = "qt6-multimediaquick-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "b5566394d73e8ba72dee4a319a5d809866b572a1b87cb98cec51cc1b16641beae50c8b6c2a3dd9313eb71017796af6288592f1b7f0c804cb9a647b12a5135389"
 
 RPROVIDES:${PN} += "cmake-Qt6MultimediaQuickPrivate \
 qt6-multimediaquick-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6Quick \
+RDEPENDS:${PN} += "cmake-Qt6Multimedia \
+cmake-Qt6Quick \
 libQt6MultimediaQuick6 \
-qt6-multimedia-private-devel"
+qt6-multimedia-private-devel \
+qt6-quick-private-devel"
 
 inherit rpm

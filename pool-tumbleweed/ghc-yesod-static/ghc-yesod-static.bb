@@ -5,11 +5,11 @@ LICENSE = "MIT"
 
 PV = "1.6.1.0"
 
-RPM_NAME = "ghc-yesod-static-1.6.1.0-4.7.aarch64.rpm"
-RPM_HASH = "1112f7a26e5278218ff2f07f6fbcc7c47183504d88be00ac7c947e1f80a578a559fafc8a8d5c44fac7e65e13e2e85596b7fcd386291b29c4f02628f4f864914d"
+RPM_NAME = "ghc-yesod-static-1.6.1.0-4.8.aarch64.rpm"
+RPM_HASH = "412b1e6adec1c326e6ba92f6df2b78c6345234259b8890bcdd3bd58996142614dc4982e9389f19bc5430e89f4b7ffd32c106a9c8e0a03cf991a8811f46a99315"
 
 RPROVIDES:${PN} += "ghc-yesod-static \
-libHSyesod-static-1.6.1.0-3rycIwv9kXlEsdAWxJe6c9-ghc9.4.5.so"
+libHSyesod-static-1.6.1.0-7sOCu9e43JeQSJul3Untm-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSHUnit-1.6.2.0-iqxwhcxJRu7EJOd1Mnwmb-ghc9.4.5.so \
 libHSOneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV-ghc9.4.5.so \
@@ -76,7 +76,7 @@ libHSdlist-1.0-BmTLN13CmmLQvuHz7BjP9-ghc9.4.5.so \
 libHSeasy-file-0.2.5-Eune3nGPx4BABAmiN3TyxF-ghc9.4.5.so \
 libHSentropy-0.4.1.10-HkaMHQZP8nyRj15panvtP-ghc9.4.5.so \
 libHSexceptions-0.10.5-ghc9.4.5.so \
-libHSfast-logger-3.1.2-B9zh4yvWMU69CA1ZW1MVtN-ghc9.4.5.so \
+libHSfast-logger-3.1.2-FrZhfcoVNTvDFmA3ecjq8Q-ghc9.4.5.so \
 libHSfile-embed-0.0.15.0-LJLaBgMyS4K2tBVYbzJ0uw-ghc9.4.5.so \
 libHSfilepath-1.4.2.2-ghc9.4.5.so \
 libHSfoldable1-classes-compat-0.1-JP9wXcYYGsT10VsvIV9rpl-ghc9.4.5.so \
@@ -89,7 +89,7 @@ libHShjsmin-0.2.1-E05vLEwNeV76Uzm2zhD4uI-ghc9.4.5.so \
 libHShourglass-0.2.12-3PFbUFQLMNb8Ad2s9SU5p3-ghc9.4.5.so \
 libHShttp-date-0.0.11-IfCBGXPFiMuIKzFtOTNgnD-ghc9.4.5.so \
 libHShttp-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6-ghc9.4.5.so \
-libHShttp2-3.0.3-COVYRU9DHikEztQPG0mdmy-ghc9.4.5.so \
+libHShttp2-3.0.3-C8jMo1PWq0Httjut7cZnE-ghc9.4.5.so \
 libHSindexed-traversable-0.1.2.1-1XiSi5jKFt6BqKufaNXxBs-ghc9.4.5.so \
 libHSindexed-traversable-instances-0.1.1.2-5OovVMCdJKzAImUo6B0vBJ-ghc9.4.5.so \
 libHSinteger-gmp-1.1-ghc9.4.5.so \
@@ -100,7 +100,7 @@ libHSlifted-base-0.2.3.12-2PslaVNAATq3HzvkpdIGSo-ghc9.4.5.so \
 libHSmemory-0.18.0-8CsggfkyXReDSMbRoae4Yp-ghc9.4.5.so \
 libHSmime-types-0.1.1.0-IrWGRRDe33Y1D55h7nh7fm-ghc9.4.5.so \
 libHSmonad-control-1.0.3.1-YXA6op7GEFFtfFxLr4pzX-ghc9.4.5.so \
-libHSmonad-logger-0.3.40-G052AHl2mRW3aPPonmcvVW-ghc9.4.5.so \
+libHSmonad-logger-0.3.40-JON4xqa3KWj1ClCWFJbFYV-ghc9.4.5.so \
 libHSmonad-loops-0.4.3-J6SAcCDTGblA6407vWEwF9-ghc9.4.5.so \
 libHSmono-traversable-1.0.15.3-IT8tyCr3vQLKgjlccagv2S-ghc9.4.5.so \
 libHSmtl-2.2.2-ghc9.4.5.so \
@@ -152,7 +152,7 @@ libHStransformers-compat-0.7.2-7jAnhjvxTABIymoNGHTOwd-ghc9.4.5.so \
 libHStyped-process-0.2.11.0-AJYHFlIHznQBMeAWc6SvCO-ghc9.4.5.so \
 libHSunix-2.7.3-ghc9.4.5.so \
 libHSunix-compat-0.6-79KxxZMmklx25hsmeEnenN-ghc9.4.5.so \
-libHSunix-time-0.4.9-DrdwBL0FLhc5jN9Hujlou0-ghc9.4.5.so \
+libHSunix-time-0.4.10-LpZG5YAXe572FFFZnKOLQq-ghc9.4.5.so \
 libHSunliftio-0.2.25.0-DN1mY49M6dHDqA19Vm4lY3-ghc9.4.5.so \
 libHSunliftio-core-0.2.1.0-AEtYfdyUWlJCLfz2d4hPbj-ghc9.4.5.so \
 libHSunordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E-ghc9.4.5.so \
@@ -163,14 +163,14 @@ libHSvector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp-ghc9.4.5.so \
 libHSvector-algorithms-0.9.0.1-BIFHuMvuTIO1lWGrhqtqm6-ghc9.4.5.so \
 libHSvector-stream-0.1.0.0-C5Yyq3DPEhXAQSqkM8V92s-ghc9.4.5.so \
 libHSwai-3.2.3-B6oJGZed88IFIvDpwN5I7x-ghc9.4.5.so \
-libHSwai-app-static-3.1.7.4-DlFhTXkOZ8ZEEfx67nS2tW-ghc9.4.5.so \
-libHSwai-extra-3.1.13.0-3pmfL93b8iXAmoBQvHdwGU-ghc9.4.5.so \
-libHSwai-logger-2.4.0-HFZNBDhfTBI6FWxvAW2OQE-ghc9.4.5.so \
-libHSwarp-3.3.25-7qOcByHeVpuMAFF4vrupa-ghc9.4.5.so \
+libHSwai-app-static-3.1.7.4-AZD11N92jseJEftpoR1SbX-ghc9.4.5.so \
+libHSwai-extra-3.1.13.0-LFtqIngDY3AAQ1a5w3zKO8-ghc9.4.5.so \
+libHSwai-logger-2.4.0-JuVFE6hpBhqDKHgP60Zmqn-ghc9.4.5.so \
+libHSwarp-3.3.25-EsJVhH2AisSK67jSo7D0GP-ghc9.4.5.so \
 libHSwitherable-0.4.2-JTGjjCVsQ4I7ks3qsHWAEH-ghc9.4.5.so \
 libHSword8-0.1.3-9uGjviso2af8K0EP8UmxRD-ghc9.4.5.so \
 libHSx509-1.7.7-LWFKTxQvdZ8EaEcgjVF4la-ghc9.4.5.so \
-libHSyesod-core-1.6.24.2-8wK3xEIlG3CBsmvalvvZaH-ghc9.4.5.so \
+libHSyesod-core-1.6.24.2-7isfGP7hc9NLFaHQAgg8t-ghc9.4.5.so \
 libHSzlib-0.6.3.0-GaFaUl6t8QzEoHIQXsottk-ghc9.4.5.so \
 libc.so.6 \
 libgmp.so.10 \

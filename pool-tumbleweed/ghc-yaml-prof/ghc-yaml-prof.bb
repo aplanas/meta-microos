@@ -2,12 +2,12 @@ SUMMARY = "Haskell yaml profiling library"
 DESCRIPTION = "This package provides the Haskell yaml profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.11.11.1"
+PV = "0.11.11.2"
 
-RPM_NAME = "ghc-yaml-prof-0.11.11.1-1.2.aarch64.rpm"
-RPM_HASH = "436759f85776103476997aed9717d4b54023da35335e2594bb8e8821f01b4e2fad5e6e1df73acc89bc0369f8668e8a1f36af14df64778724e9a75d1ed43e3c4e"
+RPM_NAME = "ghc-yaml-prof-0.11.11.2-1.1.aarch64.rpm"
+RPM_HASH = "a5b19740060982905623107537db30b3f596bf9c6dbc4e823658e0842aa300075f38de244fd0605fe0a936b890d598617658b525ebf1f2a1195f604c7ed3655d"
 
-RPROVIDES:${PN} += "ghc-prof-yaml-0.11.11.1-3T1xu4983kFHb1qERRZhqW \
+RPROVIDES:${PN} += "ghc-prof-yaml-0.11.11.2-4GYYolDKkXn5x4zdb9DA59 \
 ghc-yaml-prof"
 
 RDEPENDS:${PN} += "ghc-prof-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \

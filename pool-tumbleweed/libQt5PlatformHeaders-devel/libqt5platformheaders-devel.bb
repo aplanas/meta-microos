@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
 PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5PlatformHeaders-devel-5.15.10+kde129-1.1.aarch64.rpm"
-RPM_HASH = "7ade0fcb5b1dde0e598a7b5a175960436b06e7f8a1b80153df2ee6c4c332f155456aff02628476ff2ef5c85056c6cf81c9033ee27681be8df0c73cf88eaf02b2"
+RPM_NAME = "libQt5PlatformHeaders-devel-5.15.10+kde129-2.1.aarch64.rpm"
+RPM_HASH = "be5aa43f6e49057a1b06b5edf6648511160d1589e388f25a879260a5b3fa8564b2d371ccf0719854099a15eea2b5304987d339595ea8cbd6f2e7593c34d4e7b8"
 
 RPROVIDES:${PN} += "libQt5PlatformHeaders-devel"
 

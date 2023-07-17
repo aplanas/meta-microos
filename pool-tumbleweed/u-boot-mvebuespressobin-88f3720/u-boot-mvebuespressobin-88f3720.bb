@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains the firmware for the mvebuespressobin-88f3720 platform."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.04"
+PV = "2023.07"
 
-RPM_NAME = "u-boot-mvebuespressobin-88f3720-2023.04-2.2.aarch64.rpm"
-RPM_HASH = "1c01ea2c69a7b400e22f74f2125b55c5c21801fe2fdff6cfee58b75d09634aac2d2414f6053ce57399f1b824c83b4cfbe40cfe1152ce8b9460356047322aa12f"
+RPM_NAME = "u-boot-mvebuespressobin-88f3720-2023.07-1.1.aarch64.rpm"
+RPM_HASH = "6aaac2807fe91e7b8e86bd36b68f0df76455457337091119b95856c6dbf958d217465f2b6ea6530d74c8453c040f3dea8233541f8ec3a94b67dfc54bafeac20d"
 
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-mvebuespressobin-88f3720"

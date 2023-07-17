@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-location-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "392a95560d40a96b889087865b7797e0eb183af1fee0ebaf9aa4dd506aa8f04037e2f6b345a333f8d1e3a62c53ea57785a118d45caf073f59eb532aa6f02dbb9"
+RPM_NAME = "qt6-location-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "191fe392bb47de9ff711765f891df20102e09f4fcc01f27346dac59debaca14f2a0888fe0a324dce2908b2c44ba85e4a91d5a2f2afc5fae813137ae0fc14e820"
 
 RPROVIDES:${PN} += "cmake-Qt6Location \
 pkgconfig-Qt6Location \
@@ -13,14 +13,14 @@ qt6-location-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake-Qt6Gui \
-cmake-Qt6Network \
 cmake-Qt6Positioning \
 cmake-Qt6PositioningQuick \
+cmake-Qt6Qml \
+cmake-Qt6Quick \
 cmake-Qt6QuickShapesPrivate \
 libQt6Location6 \
 pkgconfig-Qt6Core \
 pkgconfig-Qt6Positioning \
-pkgconfig-Qt6PositioningQuick \
-qt6-quick-private-devel"
+pkgconfig-Qt6PositioningQuick"
 
 inherit rpm

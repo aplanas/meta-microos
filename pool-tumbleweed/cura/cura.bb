@@ -10,8 +10,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "4.13.1"
 
-RPM_NAME = "cura-4.13.1-2.3.noarch.rpm"
-RPM_HASH = "409d77c45d29f4a0d24cb5e36f7975bd34adb99a49bd996d4d7fc7389cd05a5f8b917b14c6618a6815cae02b0bde901bc3ffbdb2e1579259d3ec9e2cb9148d27"
+RPM_NAME = "cura-4.13.1-2.4.noarch.rpm"
+RPM_HASH = "ae997fa0b6333aaa1be4a9adadb78683caf3dab7e3f6d47c51aa4102de0045c1066b7cb092a1aed0d58aa8a98027beed38f36894f934c1396fc339da29c2c68b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cura"

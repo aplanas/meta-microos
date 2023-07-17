@@ -4,18 +4,18 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.1.3"
 
-RPM_NAME = "ghc-pandoc-prof-3.1.3-1.3.aarch64.rpm"
-RPM_HASH = "c5fe4d244128f7f5d62db44115f34af2f8ff4d0e70d7520c0a222ffdcba6386555e39db6b545c4b9adcf77ada1735f33f7bd03d5071e5a760ea472d81407bd72"
+RPM_NAME = "ghc-pandoc-prof-3.1.3-1.5.aarch64.rpm"
+RPM_HASH = "19660cc2b3864d00cd79e2384a3e2912206dcb3b39bffe936a91cf0dc8bd403623eb3e90f2a1f2138f067eed4c6b681db5f926170d89dad688a8c3b35f6dbeff"
 
 RPROVIDES:${PN} += "ghc-pandoc-prof \
-ghc-prof-pandoc-3.1.3-5ecWWg0ojZ38IHcxSTWJz4"
+ghc-prof-pandoc-3.1.3-IvLrz4YIivMLuf8ZxaBxIb"
 
 RDEPENDS:${PN} += "ghc-pandoc-devel \
 ghc-prof-Glob-0.10.2-5tAj3lHfg0h9Pb5bOpMg4R \
 ghc-prof-JuicyPixels-3.3.8-BQPF2mBCFFj3rGPaZ8nrGS \
 ghc-prof-SHA-1.6.4.4-CTRZ9m1gmyY35Z2xnCckJW \
 ghc-prof-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
-ghc-prof-aeson-pretty-0.8.9-ANiMUyahKok8eMC9BUYvO0 \
+ghc-prof-aeson-pretty-0.8.10-8JRVLG9BqWz7B95FOCRy0B \
 ghc-prof-array-0.5.4.0 \
 ghc-prof-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \
 ghc-prof-base-4.17.1.0 \
@@ -65,17 +65,17 @@ ghc-prof-split-0.2.3.5-u3oGLAiW7JJbxIffWSCWf \
 ghc-prof-syb-0.7.2.3-J0Qw7O8gTR0DSXObDhEt8i \
 ghc-prof-tagsoup-0.14.8-KqOLe3dJpuA4KsHZJW2cTn \
 ghc-prof-temporary-1.3-9rLWZg49Shk3gKExST32p \
-ghc-prof-texmath-0.12.8-JGsJwuKtD7b26p8DVW0WBw \
+ghc-prof-texmath-0.12.8-2W1fkH7eNmw4E7l7odwRHx \
 ghc-prof-text-2.0.2 \
 ghc-prof-text-conversions-0.3.1.1-CkkBRqT3R5g4PO0QywmUQS \
 ghc-prof-time-1.12.2 \
-ghc-prof-typst-0.1.0.0-3VBCZ4Q02O47LMJn0K0CF8 \
+ghc-prof-typst-0.1.0.0-KYQhPlbAv2KGc3iiEDbU9A \
 ghc-prof-unicode-collation-0.1.3.4-LMKRbY0RRBBKxwMiir45sP \
 ghc-prof-unicode-transforms-0.4.0.1-EKt5KzAvdneBwqiDZWg9HO \
 ghc-prof-unix-2.7.3 \
 ghc-prof-vector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp \
 ghc-prof-xml-1.3.14-BBPDUWQuUpt3QYOr4h6J5g \
-ghc-prof-yaml-0.11.11.1-3T1xu4983kFHb1qERRZhqW \
+ghc-prof-yaml-0.11.11.2-4GYYolDKkXn5x4zdb9DA59 \
 ghc-prof-zip-archive-0.4.3-DcfDtoW5uCpFhVU7PDyRvn \
 ghc-prof-zlib-0.6.3.0-GaFaUl6t8QzEoHIQXsottk"
 

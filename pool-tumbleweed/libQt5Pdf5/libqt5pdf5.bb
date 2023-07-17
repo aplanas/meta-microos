@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | GPL-2.0-only | GPL-3.0-only"
 
 PV = "5.15.14"
 
-RPM_NAME = "libQt5Pdf5-5.15.14-1.3.aarch64.rpm"
-RPM_HASH = "4af8b1a03f0db05e996b45d5358b2e99fa1a82aa9b02ae1846d616faef0827f3b69df6fe7a695244465d648101e1958c38b7d0c865a15c583481e5c7d2f371b8"
+RPM_NAME = "libQt5Pdf5-5.15.14-1.4.aarch64.rpm"
+RPM_HASH = "38fdd5dfcec33b65726b6b9148aed486cbfdf48604a2943023eb7447bce73b629fe5e8cbf770f57c8bfb95a48dbfb4d112e89bc84da4bff8d6b232f83cf7cee9"
 
 RPROVIDES:${PN} += "libQt5Pdf.so.5 \
 libQt5Pdf5 \

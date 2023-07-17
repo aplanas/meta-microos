@@ -3,10 +3,10 @@ DESCRIPTION = "KSJEmbed provides a method of binding JavaScript objects to QObje
 so you can script your applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5JsEmbed5-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "183de51ed2de0a946e88acbedbe9415755fdeaa09850df97f55d02bc2cf44cf5ab93a0c900a4ce0c7508407dbc41261d2b197cde8df6ff9c72f7246246c8f420"
+RPM_NAME = "libKF5JsEmbed5-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "641a9cd519a916d5295b4b6f2e34ead4a34d6d4b01613e9f354e8a467905219d363133ff8c55f55aa027addfa614c450bf7294d5e6eb00b01272ccdc08b6ba20"
 
 RPROVIDES:${PN} += "libKF5JsEmbed.so.5 \
 libKF5JsEmbed5"

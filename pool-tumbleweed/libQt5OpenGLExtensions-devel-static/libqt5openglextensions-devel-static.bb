@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
 PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5OpenGLExtensions-devel-static-5.15.10+kde129-1.1.aarch64.rpm"
-RPM_HASH = "5f59a3e1d013a71c1b2e9e918fc273bf51223caef921c45a2e4e6b2b6cdd77b915ef97b44d175a0a46dc9000e0bd30d3a4afff52baba34f930ce2fa279ac990e"
+RPM_NAME = "libQt5OpenGLExtensions-devel-static-5.15.10+kde129-2.1.aarch64.rpm"
+RPM_HASH = "49fa98efd10ac5400e96f5dcb584c79092a06bc1dfa346832f0fbf7898d79a1924478bc7a5c0eae2980fb26fef787f73db7f7f0665a8eba89fd74d2192643018"
 
 RPROVIDES:${PN} += "cmake-Qt5OpenGLExtensions \
 libQt5OpenGLExtensions-devel-static \

@@ -3,10 +3,10 @@ DESCRIPTION = "KDBusAddons provides convenience classes on top of QtDBus, as wel
 create KDED modules. Aditional CLI tools."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kdbusaddons-tools-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "edb809b8c74e9dc9e31b639e24df53e263dcf27e58ecfb1c90677906825d1087458e8f45f786d765c4ee57584915ed9f335493420e905d4cbb34b3974d187350"
+RPM_NAME = "kdbusaddons-tools-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "6692cacbdac1edca01cc91b902b42702f59c3c4af65b3bdd0aeabbc1fbe800454b1b9eae54b5283406dbf462dafaa071e3cbf27d4163f06792be557749676a40"
 
 RPROVIDES:${PN} += "kdbusaddons-tools"
 

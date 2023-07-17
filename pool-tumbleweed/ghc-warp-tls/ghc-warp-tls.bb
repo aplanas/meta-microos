@@ -6,11 +6,11 @@ LICENSE = "MIT"
 
 PV = "3.3.6"
 
-RPM_NAME = "ghc-warp-tls-3.3.6-1.6.aarch64.rpm"
-RPM_HASH = "32d5fecf89a46fb24850d86d0e1af9484f3947df17430ee576806ec0f5dc16e76f86370a4d8a7481707cddb77bbea6b98026eee75cc4b5a8490423e8a8794f52"
+RPM_NAME = "ghc-warp-tls-3.3.6-1.7.aarch64.rpm"
+RPM_HASH = "0abd0a0f36354f681405f45122f2c4c4739899e03355026bc05fa7fb3b5082a526f87d9db3527813d919ea123c45c27323da214f12635e9aa15f4235a7307701"
 
 RPROVIDES:${PN} += "ghc-warp-tls \
-libHSwarp-tls-3.3.6-84GlfJc6pctLoCFIjkFOFZ-ghc9.4.5.so"
+libHSwarp-tls-3.3.6-BIAYbi0ylEQD1wDWwu7oKA-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSappar-0.1.8-JYpyJYPkUOgKorqU8WSWRv-ghc9.4.5.so \
 libHSarray-0.5.4.0-ghc9.4.5.so \
@@ -44,7 +44,7 @@ libHShashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt-ghc9.4.5.so \
 libHShourglass-0.2.12-3PFbUFQLMNb8Ad2s9SU5p3-ghc9.4.5.so \
 libHShttp-date-0.0.11-IfCBGXPFiMuIKzFtOTNgnD-ghc9.4.5.so \
 libHShttp-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6-ghc9.4.5.so \
-libHShttp2-3.0.3-COVYRU9DHikEztQPG0mdmy-ghc9.4.5.so \
+libHShttp2-3.0.3-C8jMo1PWq0Httjut7cZnE-ghc9.4.5.so \
 libHSinteger-gmp-1.1-ghc9.4.5.so \
 libHSinteger-logarithms-1.0.3.1-Hm9v2fsfG1DA5soPSLssZu-ghc9.4.5.so \
 libHSiproute-1.7.12-IhoklPQYItb8qGu1G3vmcD-ghc9.4.5.so \
@@ -76,13 +76,13 @@ libHStls-session-manager-0.0.4-H4ntEZmH6lq6RcNU9soHmP-ghc9.4.5.so \
 libHStransformers-0.5.6.2-ghc9.4.5.so \
 libHSunix-2.7.3-ghc9.4.5.so \
 libHSunix-compat-0.6-79KxxZMmklx25hsmeEnenN-ghc9.4.5.so \
-libHSunix-time-0.4.9-DrdwBL0FLhc5jN9Hujlou0-ghc9.4.5.so \
+libHSunix-time-0.4.10-LpZG5YAXe572FFFZnKOLQq-ghc9.4.5.so \
 libHSunliftio-0.2.25.0-DN1mY49M6dHDqA19Vm4lY3-ghc9.4.5.so \
 libHSunliftio-core-0.2.1.0-AEtYfdyUWlJCLfz2d4hPbj-ghc9.4.5.so \
 libHSunordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E-ghc9.4.5.so \
 libHSvault-0.3.1.5-1nJxIV9kR8e5L3ZIpYZHc-ghc9.4.5.so \
 libHSwai-3.2.3-B6oJGZed88IFIvDpwN5I7x-ghc9.4.5.so \
-libHSwarp-3.3.25-7qOcByHeVpuMAFF4vrupa-ghc9.4.5.so \
+libHSwarp-3.3.25-EsJVhH2AisSK67jSo7D0GP-ghc9.4.5.so \
 libHSword8-0.1.3-9uGjviso2af8K0EP8UmxRD-ghc9.4.5.so \
 libHSx509-1.7.7-LWFKTxQvdZ8EaEcgjVF4la-ghc9.4.5.so \
 libHSx509-store-1.6.9-KWawLwgFfWnohDCwWLuXH-ghc9.4.5.so \

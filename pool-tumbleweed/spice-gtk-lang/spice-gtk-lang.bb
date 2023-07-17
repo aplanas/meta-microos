@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.42"
 
-RPM_NAME = "spice-gtk-lang-0.42-1.5.noarch.rpm"
-RPM_HASH = "677b142a0b11d55d384faecdd567eb786358ce6c14a584fcb7797dc3ef6c1e9f1dbcdb33b0e332a14d8c274a0b7b164c652f831359797bd9f1130f183e58cab4"
+RPM_NAME = "spice-gtk-lang-0.42-2.1.noarch.rpm"
+RPM_HASH = "7ff85ba9ec8a5eed3a004ef7390e2177645aa0d33baf6fd4924bc4cafaad7dc734e1939adcdbbf5f6b2c764f3ad1450246942f5075e91a65f6014390c74a0e54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-spice-gtk-cs \

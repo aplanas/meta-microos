@@ -2,10 +2,10 @@ SUMMARY = "The GNU Compiler Collection targeting arm-none"
 DESCRIPTION = "The GNU Compiler Collection as a cross-compiler targeting arm-none."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7364"
+PV = "13.1.1+git7552"
 
-RPM_NAME = "cross-arm-none-gcc13-13.1.1+git7364-1.2.aarch64.rpm"
-RPM_HASH = "2c7762a06a3e1c563d6fc733f3b48a7100b627b24bc5c2b1b2dd2e0ba76f55cbfddd3d593e0706a6990229b89c40bcc105f85a1246b5440ae8f65b715c046344"
+RPM_NAME = "cross-arm-none-gcc13-13.1.1+git7552-1.1.aarch64.rpm"
+RPM_HASH = "78853e58d2af2f37b7847522932b95ac24174eb7f45f8751bbdc5055bfa54ab69167bd8b62a34505d2429e028b87735797e6d3f6995fc261cbd8d4ccee3e86a5"
 
 RPROVIDES:${PN} += "arm-none-eabi-gcc \
 cross-arm-none-gcc13"

@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "3.1.7.4"
 
-RPM_NAME = "ghc-wai-app-static-prof-3.1.7.4-2.7.aarch64.rpm"
-RPM_HASH = "44dfe62c95720d1beb3823ac98031666fbba029f73284b359a510e69520fc03e607b6832a068fdb30390dbd15d1968eb91437b76b61ebe80ec0dd46b3ccb3aa1"
+RPM_NAME = "ghc-wai-app-static-prof-3.1.7.4-2.8.aarch64.rpm"
+RPM_HASH = "6f3f5bbf0d7924ef37eb6c11f6cb34a3d8f00607747e10e4291e33e6e7ac9f75877861bd34916a020dcdb3713441a59a8c8f3e1d3e4389c0bbdce82d7bd842cf"
 
-RPROVIDES:${PN} += "ghc-prof-wai-app-static-3.1.7.4-DlFhTXkOZ8ZEEfx67nS2tW \
+RPROVIDES:${PN} += "ghc-prof-wai-app-static-3.1.7.4-AZD11N92jseJEftpoR1SbX \
 ghc-wai-app-static-prof"
 
 RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
@@ -32,8 +32,8 @@ ghc-prof-transformers-0.5.6.2 \
 ghc-prof-unix-compat-0.6-79KxxZMmklx25hsmeEnenN \
 ghc-prof-unordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E \
 ghc-prof-wai-3.2.3-B6oJGZed88IFIvDpwN5I7x \
-ghc-prof-wai-extra-3.1.13.0-3pmfL93b8iXAmoBQvHdwGU \
-ghc-prof-warp-3.3.25-7qOcByHeVpuMAFF4vrupa \
+ghc-prof-wai-extra-3.1.13.0-LFtqIngDY3AAQ1a5w3zKO8 \
+ghc-prof-warp-3.3.25-EsJVhH2AisSK67jSo7D0GP \
 ghc-prof-zlib-0.6.3.0-GaFaUl6t8QzEoHIQXsottk \
 ghc-wai-app-static-devel"
 

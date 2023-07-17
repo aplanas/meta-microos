@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | GPL-2.0-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-jsonrpc-private-devel-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "4123f23cf53296969578c545b8b99d04369034265a8ca84286d2d3f785488c10ae5c2f839994276e94035d62d2dd1e352cb47de25ec5953b56a2fd8207444e4e"
+RPM_NAME = "qt6-jsonrpc-private-devel-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "3ac308a23d34feec81e9c3c9af468a426fa0b282ac5da5a4a41bf5827e9ce8496645046f7938d3113bd128f629ab64259207b51269dd3c7a18493b3513caa8e4"
 
 RPROVIDES:${PN} += "cmake-Qt6JsonRpcPrivate \
 qt6-jsonrpc-private-devel"

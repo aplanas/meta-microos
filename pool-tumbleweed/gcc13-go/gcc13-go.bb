@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a Go compiler and associated development \
 files based on the GNU GCC technology."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7364"
+PV = "13.1.1+git7552"
 
-RPM_NAME = "gcc13-go-13.1.1+git7364-1.2.aarch64.rpm"
-RPM_HASH = "953f43a91702f39a7ef56850921996417bbb3548b460f67ba6b9aeaca984f9c875f5eb407a5b1fca088b935bc275ed04d1514a03f104dc5f06e4002a54fc3977"
+RPM_NAME = "gcc13-go-13.1.1+git7552-1.1.aarch64.rpm"
+RPM_HASH = "ef180572d0ffca7dd39c2d7d887b5b9e0cd144cf7298c13ae84f71bd13fac7fc43a438f10522aa6d11a65029c0d0c99e0148aa8b678e99e639aed737035b61bd"
 
 RPROVIDES:${PN} += "gcc13-go"
 

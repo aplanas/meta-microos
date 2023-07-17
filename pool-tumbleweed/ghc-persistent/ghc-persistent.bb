@@ -3,13 +3,13 @@ DESCRIPTION = "Hackage documentation generation is not reliable. For up to date 
 please see: <http://www.stackage.org/package/persistent>."
 LICENSE = "MIT"
 
-PV = "2.14.5.0"
+PV = "2.14.5.1"
 
-RPM_NAME = "ghc-persistent-2.14.5.0-1.7.aarch64.rpm"
-RPM_HASH = "f694ef9f08b2173326d85e0ded7c8245075f8d42c5e106dc3354154e2b02175fad260e1715f627c4b516b0b560981d13bac023dafd0d49bc0ff5a2ee28697eb9"
+RPM_NAME = "ghc-persistent-2.14.5.1-1.3.aarch64.rpm"
+RPM_HASH = "77d419c62641803a5769c323d2cf283e6e87991579e743e50412edc9bbe8fa65179ea96835a3e7c7a7a05c105de254f73ebe087eb44811a64d83e2a80fef53e7"
 
 RPROVIDES:${PN} += "ghc-persistent \
-libHSpersistent-2.14.5.0-9uJ7TxdgaWz5Ow6lrik7k2-ghc9.4.5.so"
+libHSpersistent-2.14.5.1-8aZiHAHWity6p3rqRx3MdJ-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV-ghc9.4.5.so \
 libHSQuickCheck-2.14.3-6dq2izV8oSq1BobaDA598X-ghc9.4.5.so \
@@ -49,7 +49,7 @@ libHSdistributive-0.6.2.1-GisXwtVaDTaDcC79Nunm79-ghc9.4.5.so \
 libHSdlist-1.0-BmTLN13CmmLQvuHz7BjP9-ghc9.4.5.so \
 libHSeasy-file-0.2.5-Eune3nGPx4BABAmiN3TyxF-ghc9.4.5.so \
 libHSexceptions-0.10.5-ghc9.4.5.so \
-libHSfast-logger-3.1.2-B9zh4yvWMU69CA1ZW1MVtN-ghc9.4.5.so \
+libHSfast-logger-3.1.2-FrZhfcoVNTvDFmA3ecjq8Q-ghc9.4.5.so \
 libHSfilepath-1.4.2.2-ghc9.4.5.so \
 libHSfoldable1-classes-compat-0.1-JP9wXcYYGsT10VsvIV9rpl-ghc9.4.5.so \
 libHSgenerically-0.1.1-9IDkuVjdBOA27Mdybf3GBx-ghc9.4.5.so \
@@ -65,7 +65,7 @@ libHSinteger-logarithms-1.0.3.1-Hm9v2fsfG1DA5soPSLssZu-ghc9.4.5.so \
 libHSlift-type-0.1.1.1-2p47b0Ftg8mEbzaiZ22oeB-ghc9.4.5.so \
 libHSlifted-base-0.2.3.12-2PslaVNAATq3HzvkpdIGSo-ghc9.4.5.so \
 libHSmonad-control-1.0.3.1-YXA6op7GEFFtfFxLr4pzX-ghc9.4.5.so \
-libHSmonad-logger-0.3.40-G052AHl2mRW3aPPonmcvVW-ghc9.4.5.so \
+libHSmonad-logger-0.3.40-JON4xqa3KWj1ClCWFJbFYV-ghc9.4.5.so \
 libHSmonad-loops-0.4.3-J6SAcCDTGblA6407vWEwF9-ghc9.4.5.so \
 libHSmono-traversable-1.0.15.3-IT8tyCr3vQLKgjlccagv2S-ghc9.4.5.so \
 libHSmtl-2.2.2-ghc9.4.5.so \
@@ -106,7 +106,7 @@ libHStransformers-compat-0.7.2-7jAnhjvxTABIymoNGHTOwd-ghc9.4.5.so \
 libHStyped-process-0.2.11.0-AJYHFlIHznQBMeAWc6SvCO-ghc9.4.5.so \
 libHSunix-2.7.3-ghc9.4.5.so \
 libHSunix-compat-0.6-79KxxZMmklx25hsmeEnenN-ghc9.4.5.so \
-libHSunix-time-0.4.9-DrdwBL0FLhc5jN9Hujlou0-ghc9.4.5.so \
+libHSunix-time-0.4.10-LpZG5YAXe572FFFZnKOLQq-ghc9.4.5.so \
 libHSunliftio-0.2.25.0-DN1mY49M6dHDqA19Vm4lY3-ghc9.4.5.so \
 libHSunliftio-core-0.2.1.0-AEtYfdyUWlJCLfz2d4hPbj-ghc9.4.5.so \
 libHSunordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E-ghc9.4.5.so \

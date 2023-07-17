@@ -6,10 +6,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libuna."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230702"
+PV = "20230710"
 
-RPM_NAME = "libuna-mini-devel-20230702-1.1.aarch64.rpm"
-RPM_HASH = "37c66b38a782cc6df177e5bba338da351143821bbcd72f58702a40357f817de72626e5161dbe6bbe4133960cea44e62ca291d21f6b69b9ca102fe5bfa112d7f6"
+RPM_NAME = "libuna-mini-devel-20230710-1.1.aarch64.rpm"
+RPM_HASH = "9d0f28c51332d06133409b898c6bd0e479faa6e3667be7a69c6c19fe631f9ffabe8bc17e4ba1efca8d4e030c4b1e6d105be652e92d53dfe18c92987d66d17098"
 
 RPROVIDES:${PN} += "libuna-mini-devel \
 pkgconfig-libuna"

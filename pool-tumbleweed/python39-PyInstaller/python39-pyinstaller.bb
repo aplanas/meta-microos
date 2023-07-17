@@ -4,10 +4,10 @@ package. The user can run the packaged app without installing a Python \
 interpreter or any modules."
 LICENSE = "GPL-2.0-only"
 
-PV = "5.6.2"
+PV = "5.13.0"
 
-RPM_NAME = "python39-PyInstaller-5.6.2-2.3.aarch64.rpm"
-RPM_HASH = "a198458f980d5f5fa4b2cf9116e28b504f07ea315e128718662eba0c98d09aeb2c53ff7fe9f48025f7245c9d4786a4744aae8bf137622d147e2a59805d27d000"
+RPM_NAME = "python39-PyInstaller-5.13.0-1.1.aarch64.rpm"
+RPM_HASH = "255de1d4ab1f1da2922df103a79d1584a57b0e27ec247c29974fc8dedee6e44b5a4d9806f43eb6fca5933c84df91c8971e34b6aae06c0f8fd88689e0f724cf0e"
 
 RPROVIDES:${PN} += "python3.9dist-pyinstaller \
 python39-PyInstaller \
@@ -19,9 +19,9 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libz.so.1 \
 python-abi \
+python39-altgraph \
 python39-devel \
-python39-macholib \
-python39-pefile \
+python39-pyinstaller-hooks-contrib \
 python39-setuptools \
 update-alternatives"
 

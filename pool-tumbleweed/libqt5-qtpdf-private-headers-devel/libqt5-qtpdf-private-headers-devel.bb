@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-only | GPL-2.0-only | GPL-3.0-only"
 
 PV = "5.15.14"
 
-RPM_NAME = "libqt5-qtpdf-private-headers-devel-5.15.14-1.3.noarch.rpm"
-RPM_HASH = "cb19e5ef2bd4054532a210f57366ff0fe97dc276f2e0b6c9c2c8604a80d1479744ffd3a5d7093846a4675219fe3fde5c72827a6f810119629ec91ce169a80108"
+RPM_NAME = "libqt5-qtpdf-private-headers-devel-5.15.14-1.4.noarch.rpm"
+RPM_HASH = "c61bc6662dcff63ee0c30f6ba4cb8f1a476d5bf1f48fb35b71d21c073dec71b50cf7f061edb83c5b20406932055595745956ad82510cd24fb0d79e776ee8ea7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qtpdf-private-headers-devel"

@@ -5,10 +5,10 @@ encryption, decryption, signing, signature verification, and key \
 management. It uses GnuPG as its back-end."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.20.0"
+PV = "1.21.0"
 
-RPM_NAME = "gpgme-1.20.0-1.3.aarch64.rpm"
-RPM_HASH = "98e74dc7b1b63889bd54083dd4243739132ed3d313003d11123671d70067ede0f2c1b666aa947e7db5fa9782672b53de5444dd117a76674ff1716d04b5a6b0f4"
+RPM_NAME = "gpgme-1.21.0-1.1.aarch64.rpm"
+RPM_HASH = "87821c41751f5fd2b874363e06c9cf8798be4b1cd682f4701d2e0d5f1ba1c033c8d68eb93fb2b6232f4e32ac20d0a239c75cf99994f4c75ff3bc009208acf99c"
 
 RPROVIDES:${PN} += "gpgme"
 

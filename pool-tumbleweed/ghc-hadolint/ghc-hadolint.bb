@@ -4,11 +4,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.12.0"
 
-RPM_NAME = "ghc-hadolint-2.12.0-1.8.aarch64.rpm"
-RPM_HASH = "4cc71cd09b7d2eac1054f571e9a5394f52a87f069732bab05121f84120bbdac646323920f268427d44f04730febd4b2e2da2337b21258ad212217a84fd341318"
+RPM_NAME = "ghc-hadolint-2.12.0-1.9.aarch64.rpm"
+RPM_HASH = "2ca695c9a0403fabd4b35d11d1412148fff3411630644031360483a7977f071b6bb1f7e77c61d6cf57c1cc066bdfc8dcab39ed743625ed5ba2ccaff255b8effa"
 
 RPROVIDES:${PN} += "ghc-hadolint \
-libHShadolint-2.12.0-48fxNqFFUC1B7dRYbVUu2N-ghc9.4.5.so"
+libHShadolint-2.12.0-1THaMYBFYkn6QWtKlYYvCN-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSCabal-3.8.1.0-ghc9.4.5.so \
 libHSCabal-syntax-3.8.1.0-ghc9.4.5.so \
@@ -56,7 +56,7 @@ libHSexceptions-0.10.5-ghc9.4.5.so \
 libHSfgl-5.8.0.0-1euDADByC3LGFbnFGelVpn-ghc9.4.5.so \
 libHSfilepath-1.4.2.2-ghc9.4.5.so \
 libHSfoldable1-classes-compat-0.1-JP9wXcYYGsT10VsvIV9rpl-ghc9.4.5.so \
-libHSfoldl-1.4.14-6AA7lw3dsEK1uUeCGro40c-ghc9.4.5.so \
+libHSfoldl-1.4.15-F8c77skQAn4DvWPbyzbRUi-ghc9.4.5.so \
 libHSgenerically-0.1.1-9IDkuVjdBOA27Mdybf3GBx-ghc9.4.5.so \
 libHSghc-bignum-1.3-ghc9.4.5.so \
 libHSghc-boot-th-9.4.5-ghc9.4.5.so \

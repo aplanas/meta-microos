@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-virtualkeyboard-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "7e48c0410de829f44bcc7248fe0d121014b612761e332782b5208cf276584e7aac7d3973d2405ea0e4fc53d726a2600e8901463c0a1050a33c944a58814bdadf"
+RPM_NAME = "qt6-virtualkeyboard-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "1161d082b163170397ea1ddb91bec03b9b068e9755f3b1773f6698dae8c5ae861abc88beeea77b42d4136a138e99b3412a5bb99e2330ff20ddde5663852d5f99"
 
 RPROVIDES:${PN} += "libqtvirtualkeyboardplugin.so \
 qt6-virtualkeyboard"

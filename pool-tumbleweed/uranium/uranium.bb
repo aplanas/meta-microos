@@ -4,17 +4,17 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "4.13.1"
 
-RPM_NAME = "uranium-4.13.1-2.3.noarch.rpm"
-RPM_HASH = "85b15f3a03a64050fc81d69476682a8afdec3363adb792a08a8c490db31fb3558d1c5bc5a3c73a1c6fa4ca54c3bdd4ad41780ab06adf5f964c5829442e34d556"
+RPM_NAME = "uranium-4.13.1-2.4.noarch.rpm"
+RPM_HASH = "316da5fc8fe5ccf7d242d86a42d653e3ee4efeb0436039c9686347909bf1a7c0e19d165e7d3a5305f0ba228105ddc500c4f0540e501851a77f3779c7fff8fe2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qt5qmlimport-UM.1 \
 uranium"
 
 RDEPENDS:${PN} += "python-abi \
-python3.10dist-arcus \
-python3.10dist-cryptography \
-python3.10dist-shapely \
+python3.11dist-arcus \
+python3.11dist-cryptography \
+python3.11dist-shapely \
 qt5qmlimport-QtGraphicalEffects.1 \
 qt5qmlimport-QtQml.2 \
 qt5qmlimport-QtQuick.2 \

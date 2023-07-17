@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains the firmware for the nanopia64 platform."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.04"
+PV = "2023.07"
 
-RPM_NAME = "u-boot-nanopia64-2023.04-2.2.aarch64.rpm"
-RPM_HASH = "16bb0737967758527245ea06c83b90bd897564f08f3ad4addc6713756a449d332a555e3ff54b5488227021c446b6267bbc22af128f9aa330dc22ac40cb050948"
+RPM_NAME = "u-boot-nanopia64-2023.07-1.1.aarch64.rpm"
+RPM_HASH = "87346f84a83e0f9b5bf3de4e74394bb03b7bad16e37bb83141b604ed0bcd92bf80b869213b465d5a813499b8e8539f920d41f9bbed5735cdf9cea5521c381958"
 
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-nanopia64"

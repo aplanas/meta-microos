@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20210429"
 
-RPM_NAME = "libagdb1-20210429-3.7.aarch64.rpm"
-RPM_HASH = "aba3fc6fc1fc981a48e0941dcf2f5a6a599427b4ebdba770d3ef2362419dcec8a2e7e34f5c26ced2c3b4a26f2e10723c7609a5fce85b7e3219cb049586e2b9b5"
+RPM_NAME = "libagdb1-20210429-3.8.aarch64.rpm"
+RPM_HASH = "f1a5072cd882c6e963c4242e6b5a2786aeba4ccfcfd924295643d5a2308a0f4f18e5212ee7d78304da2306adc188f592846b13ef3200a7474fad613ab0a27d16"
 
 RPROVIDES:${PN} += "libagdb.so.1 \
 libagdb1"

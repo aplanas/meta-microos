@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230606"
 
-RPM_NAME = "libfsntfs1-20230606-1.4.aarch64.rpm"
-RPM_HASH = "1c80dd1fce9ef194990f89b45b282ffd09ba27d9c1e4650228bbf41c2963e3fea1bac6e5cbdc9217b78a4f7b61ffe6e3ff521add3f0fa27b8fc3360cdadf4b45"
+RPM_NAME = "libfsntfs1-20230606-1.5.aarch64.rpm"
+RPM_HASH = "dd94459b87317a80c08e51195e7d07a931cb02e9aa18859fb2fddb0c2f8bcabc49f4f66952cd69bedd29bde9ee1899bb2ef467dee593b86753dc03cfb5b67e15"
 
 RPROVIDES:${PN} += "libfsntfs.so.1 \
 libfsntfs1"

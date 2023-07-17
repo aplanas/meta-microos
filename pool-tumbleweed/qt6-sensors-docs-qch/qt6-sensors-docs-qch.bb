@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.3-or-later"
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-sensors-docs-qch-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "b6212af2325288e848b2c3f04e5e0d9f57c522582961c7994bea6a1278896b40b3659a0c36f04f1db084318483b825a5d81a2f41986221f8504d3cba3bd2144f"
+RPM_NAME = "qt6-sensors-docs-qch-6.5.1-2.1.aarch64.rpm"
+RPM_HASH = "26a39ead5d0d0b0400b8f69aeb774d361bcbe881f60e0116a2032a4013b0c614565310df569626f42b638c92071b419ad180de72d2d872dab201f238c2a5531a"
 
 RPROVIDES:${PN} += "qt6-sensors-docs-qch"
 

@@ -1,11 +1,12 @@
 SUMMARY = "PAM module to store login and logout of users"
-DESCRIPTION = "The libwtmpdb provides various interfaces to read, write or modify the wtmpdb database."
+DESCRIPTION = "The libwtmpdb provides various interfaces to read, write or modify \
+the wtmpdb database."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.7.0"
+PV = "0.7.1"
 
-RPM_NAME = "libwtmpdb0-0.7.0-1.1.aarch64.rpm"
-RPM_HASH = "2d79d5d03884430afb5d45d81f0ac1df4729001ba8f10e96a5edfad8c2d8eed03d445d48d5f338fca96cb88b1accd2f7584b713283979a654fb8646b55296dda"
+RPM_NAME = "libwtmpdb0-0.7.1-1.1.aarch64.rpm"
+RPM_HASH = "5099e1b899d1f6749ba0797613ab255709445e269e2741ddbd8e49684e631268a9acf838900e6356d896dd4dd25b76a0bb532013364a77da08e1ac4a6be83872"
 
 RPROVIDES:${PN} += "libwtmpdb.so.0 \
 libwtmpdb0"

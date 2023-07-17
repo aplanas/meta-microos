@@ -2,10 +2,10 @@ SUMMARY = "Haskell yaml library documentation"
 DESCRIPTION = "This package provides the Haskell yaml library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.11.11.1"
+PV = "0.11.11.2"
 
-RPM_NAME = "ghc-yaml-doc-0.11.11.1-1.2.noarch.rpm"
-RPM_HASH = "1b7ad2aee7f6915b8978d32b729a286b079994a08e49230071b1756993d0bbe574531a1b2b3ccb26cb30d91b57b52e88afd42af0bbe59c341cb9cbdbd3c8c2c1"
+RPM_NAME = "ghc-yaml-doc-0.11.11.2-1.1.noarch.rpm"
+RPM_HASH = "9fcce4bbaa7b8859c813ced2b5044397c6061ce7ae68dc441e75b4ce31a656c4c20173fbfab736877fa66a686725332f43a0971449f4d63d42aeca0a1f45213a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-yaml-doc"

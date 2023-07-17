@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "1.6.1.0"
 
-RPM_NAME = "ghc-yesod-static-devel-1.6.1.0-4.7.aarch64.rpm"
-RPM_HASH = "68cf1fc281411c71dd29946c01eaece68b231e860623b7c3a6914653911cb971c9818ea25fecba75a2d290a8b81d2d87373f918c1a375ea46120a75fa564da3c"
+RPM_NAME = "ghc-yesod-static-devel-1.6.1.0-4.8.aarch64.rpm"
+RPM_HASH = "76886af6a0aa4f4fae3e234c1c5627e06b5099c9faf43f8b5c7c9276af650210f9c824c97d02fec18a953c714b936630ef26d3d9348ef64c26bb19f0e88666a6"
 
-RPROVIDES:${PN} += "ghc-devel-yesod-static-1.6.1.0-3rycIwv9kXlEsdAWxJe6c9 \
+RPROVIDES:${PN} += "ghc-devel-yesod-static-1.6.1.0-7sOCu9e43JeQSJul3Untm \
 ghc-yesod-static-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -39,8 +39,8 @@ ghc-devel-transformers-0.5.6.2 \
 ghc-devel-unix-compat-0.6-79KxxZMmklx25hsmeEnenN \
 ghc-devel-unordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E \
 ghc-devel-wai-3.2.3-B6oJGZed88IFIvDpwN5I7x \
-ghc-devel-wai-app-static-3.1.7.4-DlFhTXkOZ8ZEEfx67nS2tW \
-ghc-devel-yesod-core-1.6.24.2-8wK3xEIlG3CBsmvalvvZaH \
+ghc-devel-wai-app-static-3.1.7.4-AZD11N92jseJEftpoR1SbX \
+ghc-devel-yesod-core-1.6.24.2-7isfGP7hc9NLFaHQAgg8t \
 ghc-yesod-static"
 
 inherit rpm

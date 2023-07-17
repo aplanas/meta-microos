@@ -11,10 +11,10 @@ notices them. Note that abbreviations are case sensitive, so 'Mrs.' is \
 recognised but not 'mrs.'"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.33"
+PV = "0.34"
 
-RPM_NAME = "perl-Lingua-EN-Sentence-0.33-1.4.noarch.rpm"
-RPM_HASH = "3b24116d4035a0f6b88db0f913da31c1911695b8d22e70513f79ae5d0357db2c4f35f3fd4696137f6636404e698bf3fa66612d8ac02463cbafc6b7d975b35ee4"
+RPM_NAME = "perl-Lingua-EN-Sentence-0.34-1.1.noarch.rpm"
+RPM_HASH = "b430c0c5915b76a0ff889153823ca7da1b01551f6ab9972e1394d413a858e87dbbdd72b4c88ddedd87649f94989ec5af4e7aaf79128c6a85abb36a58b5766eae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Lingua--EN--Sentence \

@@ -6,10 +6,10 @@ KDE Plasma workspace. \
 Applications do not need to link to this directly."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "libKF5Style5-5.107.0-1.1.aarch64.rpm"
-RPM_HASH = "6ac4dcfed35ed357e1a6aa6fef7ef89cca04703f2aba78990cce95121e4a3f6b3bce9264bb649e326f2594cd7b1a4a60bcb01918327322b0d2906476689e9d1d"
+RPM_NAME = "libKF5Style5-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "63d871b0df1ba841e78920e175bb2720bff09b660e3794ad62d015ba8e01ff76f86714e2aa3bfe460bdf1a1ed678acdb8ba22ca20fd5df705e1885a158f67a28"
 
 RPROVIDES:${PN} += "libKF5Style.so.5 \
 libKF5Style5"

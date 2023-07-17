@@ -2,10 +2,10 @@ SUMMARY = "KDeclarative tools"
 DESCRIPTION = "KDeclarative provides integration of QML and KDE workspaces."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.107.0"
+PV = "5.108.0"
 
-RPM_NAME = "kdeclarative-tools-5.107.0-1.2.aarch64.rpm"
-RPM_HASH = "64c5aae89cd5d8df96ba8c35c7cdc055fa389f8bfa4bf3a592e819c8a9b7ed3220f2764e182efeee4c95fb3c42c3e62e2edf14aaada1bc66b32e0bd86f7cbe89"
+RPM_NAME = "kdeclarative-tools-5.108.0-1.1.aarch64.rpm"
+RPM_HASH = "56aeafb8dad0fcbaafe42463fb282122613ec5eb573bed4ca92cabc74a42ee84067fc85430f20d16afdf43fb6819dd89c8e5fa252fda98fa7d4cb8747e336783"
 
 RPROVIDES:${PN} += "kdeclarative-tools"
 

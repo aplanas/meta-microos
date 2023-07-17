@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
 PV = "5.15.10+kde129"
 
-RPM_NAME = "libQt5Network5-5.15.10+kde129-1.1.aarch64.rpm"
-RPM_HASH = "277cb3e36a940a9e50c456e6a4192f5592e941ccbd36fc32de867cb7d34de9706678ddbadd51f7826c7df3fc0e0b69381f237eaee979a87c5c550d21e4c674f1"
+RPM_NAME = "libQt5Network5-5.15.10+kde129-2.1.aarch64.rpm"
+RPM_HASH = "7748d3046e4216fd8369c60158e39ae1bee4d780a6abebaab189dfd2bbcfa28fcf4df4d93e800a45cbff7c7b3bbad1f1cdba3d170a253f1cee472dad7067703a"
 
 RPROVIDES:${PN} += "libQt5Network.so.5 \
 libQt5Network5 \

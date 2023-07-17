@@ -2,10 +2,10 @@ SUMMARY = "Python Bindings for Google Protocol Buffers"
 DESCRIPTION = "This package contains the Python bindings for Google Protocol Buffers."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.23.3"
+PV = "4.23.4"
 
-RPM_NAME = "python310-protobuf-4.23.3-5.1.aarch64.rpm"
-RPM_HASH = "c6c0c5b30bcd64b1dd2bf956edb9191a21408dc02d9773f4bcd267f977257d3c081f1ec3af913fea3fa5e5f0149072bd18231eb698a837e1a5ef21644efde416"
+RPM_NAME = "python310-protobuf-4.23.4-6.1.aarch64.rpm"
+RPM_HASH = "049bccdc1d26e30c81ec304968eb5e65a0f56970c759ad6311f89c383b76d51e8af2921d9d7de13596a886e8c439df231d8fe72a25d511aa93ef0d8a0dcd156a"
 
 RPROVIDES:${PN} += "python3.10dist-protobuf \
 python310-protobuf \

@@ -15,10 +15,10 @@ completion. Additional discuss of errors is contained below in the ERROR \
 HANDLING section."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "20230309"
+PV = "20230701"
 
-RPM_NAME = "perl-Perl-Tidy-20230309-1.2.noarch.rpm"
-RPM_HASH = "481bfb27e378f7903038d22e0f550bb002a444e910e41e4ee73be3d5d5af999ba7bd7d76a86a1ae4e2c5747956dec740232a2f3e0838479fbeb8ebc1d2fc09e1"
+RPM_NAME = "perl-Perl-Tidy-20230701-1.1.noarch.rpm"
+RPM_HASH = "cefe5155c96a76c66d9d39de1a6cd7279b643589ae2d23ce55687a7ce90a3465421221936190eb486a0771e25fe27dfcbeb1ecf57470c60d5082c4d2c2deb3a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Perl--Tidy \

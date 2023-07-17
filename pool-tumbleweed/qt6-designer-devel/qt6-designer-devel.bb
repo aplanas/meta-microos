@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with
 
 PV = "6.5.1"
 
-RPM_NAME = "qt6-designer-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "d910b379c264e55d9788158fbe5ab4fa776d7cc6dad66c72395c744b0bb5dba256a833c4812c7423524e2987effe746d291757e18a3fb9b656d8aa41eb944d52"
+RPM_NAME = "qt6-designer-devel-6.5.1-3.1.aarch64.rpm"
+RPM_HASH = "d446577ea89e4f6343512574ce002cfd8965e08484bcf10a749d88c88e4932913004b4fba68226440e418267f76c8e0e54a13579ab2297b89977f7d98e869f8c"
 
 RPROVIDES:${PN} += "cmake-Qt6Designer \
 cmake-Qt6UiPlugin \
@@ -15,6 +15,7 @@ qt6-designer-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake-Qt6Gui \
+cmake-Qt6OpenGL \
 cmake-Qt6OpenGLWidgets \
 cmake-Qt6Widgets \
 cmake-Qt6Xml \
