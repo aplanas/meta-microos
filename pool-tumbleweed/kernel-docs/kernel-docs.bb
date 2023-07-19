@@ -1,19 +1,19 @@
 SUMMARY = "Kernel Documentation"
 DESCRIPTION = "A few basic documents from the current kernel sources. \
  \
-Source Timestamp: 2023-07-10 10:03:25 +0000 \
-GIT Revision: b97b89494481f3409297e494e466bdd42b1311ab \
+Source Timestamp: 2023-07-11 06:23:11 +0000 \
+GIT Revision: 5ab030f1f07fd96746960bce337ec62fc11b6a9a \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.2"
+PV = "6.4.3"
 
-RPM_NAME = "kernel-docs-6.4.2-1.1.noarch.rpm"
-RPM_HASH = "946945d68ac9ca8c849e6105026c7012d18a47a4b73c3437b338e66a87ffd85b8176799e47f30976058b73d7901f5f04c5943ae8400d21ff762d5d3c03c51dec"
+RPM_NAME = "kernel-docs-6.4.3-1.1.noarch.rpm"
+RPM_HASH = "ba86a7425ac0732a728eac138e11c9c5d0104d9431516fee45a37c8b0ebb16f6b0cdd34eb59b7635f22b1a8be9ba965b5e4eb34f8f87d5d6e39adce55cffe3ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kernel-docs \
-kernel-docs-srchash-b97b89494481f3409297e494e466bdd42b1311ab"
+kernel-docs-srchash-5ab030f1f07fd96746960bce337ec62fc11b6a9a"
 
 RDEPENDS:${PN} += ""
 

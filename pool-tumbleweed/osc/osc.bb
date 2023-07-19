@@ -1,15 +1,15 @@
 SUMMARY = "Command-line client for the Open Build Service"
-DESCRIPTION = "OpenSUSE Commander is a command-line client for the Open Build Service. \
+DESCRIPTION = "openSUSE Commander is a command-line client for the Open Build Service. \
  \
 See http://en.opensuse.org/openSUSE:OSC, as well as \
 http://en.opensuse.org/openSUSE:Build_Service_Tutorial \
 for a general introduction."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1.4"
+PV = "1.2.0"
 
-RPM_NAME = "osc-1.1.4-1.2.noarch.rpm"
-RPM_HASH = "62e65053ecc3200414e10c97a96ded3fea2dd90035063c5904331695fb7c6ac2dd38ac8dbe752e75a76f91b981d767d25ddb2df7638c991c20c819c3c3f7e433"
+RPM_NAME = "osc-1.2.0-1.1.noarch.rpm"
+RPM_HASH = "321a3082b10e7cccfb94645f6ce8c6e6d4cf4cf90b6009120d37018eaf720828a84cd0ab55a5e5a62dd39837f3f039dcd32801068b1e3a2edf9afe7cb913c91b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "osc \

@@ -5,10 +5,10 @@ is complementary to auto-update which also reboots the system and does updates \
 regardless of whether devel:openQA contains updates."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1689162874.c51d4b9"
+PV = "4.6.1689265095.7be7504"
 
-RPM_NAME = "openQA-continuous-update-4.6.1689162874.c51d4b9-1.1.aarch64.rpm"
-RPM_HASH = "3df311b4170f96086b1b05d0ebc0b01ae14228f14e0d6bd838011ecc03578b58248b7eefc5ffd5bbe04e0e5b8fdec88f5121dfff59de48ac93bd6b76c789d55c"
+RPM_NAME = "openQA-continuous-update-4.6.1689265095.7be7504-1.1.aarch64.rpm"
+RPM_HASH = "17649d1b0122e99dbeccd878e24fbb730a7ce885e55887038624b1fa7a798302a9e278b687a2810cfd795b3bec9121c9046b42b23f3dc9c6b0e07f94116f262b"
 
 RPROVIDES:${PN} += "openQA-continuous-update"
 

@@ -2,10 +2,10 @@ SUMMARY = "Keylime verifier service"
 DESCRIPTION = "Subpackage of keylime for verifier service."
 LICENSE = "Apache-2.0 & MIT"
 
-PV = "7.2.5"
+PV = "7.3.0"
 
-RPM_NAME = "keylime-verifier-7.2.5-1.3.noarch.rpm"
-RPM_HASH = "64f3c2248582cdedb566320fcf8525df8d4e1b857f926b8ccf8183691a6ed6e3d22ea24add7c657e8aed137b68602d6724a73922acb95160a70ce114aed58931"
+RPM_NAME = "keylime-verifier-7.3.0-1.1.noarch.rpm"
+RPM_HASH = "ceedecf85151ddb58f2665c71ffd3861a9a41a664ce63b523306b990585ca02b86cc9853dae429c2db815a3594e0e86e015272106d17d3a1ce0832b4cb54b839"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keylime-verifier"

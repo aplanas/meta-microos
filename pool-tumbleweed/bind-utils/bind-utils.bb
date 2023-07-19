@@ -7,8 +7,8 @@ LICENSE = "MPL-2.0"
 
 PV = "9.18.16"
 
-RPM_NAME = "bind-utils-9.18.16-2.1.aarch64.rpm"
-RPM_HASH = "c4aab7de397b9ccfbe7b888e581b73454c30097f2d75130b86e3aa5fca659aad0c269d395386d5b5985ae3cfdace0ef59c1e72af7285095c3f2de8a55228a131"
+RPM_NAME = "bind-utils-9.18.16-3.1.aarch64.rpm"
+RPM_HASH = "b18524c6b8f7f41058cef249269a66d023bc78b3afb1b2689b3279dec3c7d527a85cd70b6104e7a542d3061987d9fe9cfdbd71bce627f12e56406b19d26ea4c6"
 
 RPROVIDES:${PN} += "bind-utils \
 bind9-utils \
@@ -28,6 +28,7 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
+libfstrm.so.0 \
 libgssapi-krb5.so.2 \
 libidn2.so.0 \
 libjemalloc.so.2 \
@@ -35,6 +36,7 @@ libjson-c.so.5 \
 libkrb5.so.3 \
 libmaxminddb.so.0 \
 libnghttp2.so.14 \
+libprotobuf-c.so.1 \
 libssl.so.3 \
 libuv.so.1 \
 libuv1 \

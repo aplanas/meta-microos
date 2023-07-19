@@ -10,10 +10,10 @@ This is due to the fact that both synchronous and asynchronous implementations o
 pipeline must be supported independently."
 LICENSE = "MIT"
 
-PV = "1.27.1"
+PV = "1.28.0"
 
-RPM_NAME = "python310-azure-core-1.27.1-1.2.noarch.rpm"
-RPM_HASH = "4e3f8626fad03777ba47baefee270e72ac9632ce4304ee851918dbf7d2ba22586b5665e6e8329ff7d064dde2ece38950340955699b2ca0431d99d4befa8c4360"
+RPM_NAME = "python310-azure-core-1.28.0-1.1.noarch.rpm"
+RPM_HASH = "0833ba6b864415a8346dea9b3e3db827ec1563c1f85920b62e7ce46462ee5f292b69c715ddac3607e8b91664f0de038653df7be8f82c8ee7733d0421b2848d94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-azure-core \

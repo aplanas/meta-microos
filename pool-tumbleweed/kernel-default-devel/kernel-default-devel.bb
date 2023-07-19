@@ -3,15 +3,15 @@ DESCRIPTION = "This package contains files necessary for building kernel modules
 kernel module packages) against the default flavor of the kernel. \
  \
  \
-Source Timestamp: 2023-07-10 10:03:25 +0000 \
-GIT Revision: b97b89494481f3409297e494e466bdd42b1311ab \
+Source Timestamp: 2023-07-11 06:23:11 +0000 \
+GIT Revision: 5ab030f1f07fd96746960bce337ec62fc11b6a9a \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.2"
+PV = "6.4.3"
 
-RPM_NAME = "kernel-default-devel-6.4.2-1.1.aarch64.rpm"
-RPM_HASH = "42538202c1fec4ce61cd8195c271ad40516fe5c5e96da5365cdea734840dab0cc7d104454469dd3f796eed9ccb78c837970336fdbe1abf57a9ef5cfca3519deb"
+RPM_NAME = "kernel-default-devel-6.4.3-1.1.aarch64.rpm"
+RPM_HASH = "b0359066234fa2a0a2ad7b80bfd5b8eb1ee68cf7fd3423750bbbce77d82ee0a106c02458241c2e4e6002f8600fc573f9ee408d71ac49f404687665ce402fc9ba"
 
 RPROVIDES:${PN} += "kernel-default-devel \
 kernel-preempt-devel \

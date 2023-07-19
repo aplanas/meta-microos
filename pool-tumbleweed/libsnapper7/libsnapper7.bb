@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.10.5"
 
-RPM_NAME = "libsnapper7-0.10.5-1.1.aarch64.rpm"
-RPM_HASH = "d472621e6238d39089474c3d7699002e88ab5ad2f5b5aee8e684c6fcd24ceae1f10a8a129f363433c094322dc79afceba577f34064e1e9de5d5545d89225a5a7"
+RPM_NAME = "libsnapper7-0.10.5-2.1.aarch64.rpm"
+RPM_HASH = "52da56cfd62c0496e9de6b0c57899acf594fb6963a969df3329aafd6af79d57d7fc7b900f0c5f8ff7e3ab30fc2b1ac210dd7fe5c6d138af699401336aa300146"
 
 RPROVIDES:${PN} += "libsnapper.so.7 \
 libsnapper7"

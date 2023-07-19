@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.50.1"
 
-RPM_NAME = "libguestfs-winsupport-1.50.1-3.3.aarch64.rpm"
-RPM_HASH = "b7f31efe94ce21e8a2f1ad5024eb3e25e2db658688eee7934fbf846582f47939f71c7fc398073f8e8c2b4a2b41deae222213af57e7238ba4726e0a936debc1df"
+RPM_NAME = "libguestfs-winsupport-1.50.1-4.1.aarch64.rpm"
+RPM_HASH = "3728459ad24d74822d35aef6a1c8a87978889b50c871f0ce5de75bf3ebcc7bf27b0961e3b6fa1722670c40f367cd76bcfa4c45b86798b93ecf395a0e0494d3aa"
 
 RPROVIDES:${PN} += "guestfs-winsupport \
 libguestfs-winsupport"

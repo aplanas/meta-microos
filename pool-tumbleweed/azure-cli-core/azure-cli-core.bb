@@ -2,10 +2,10 @@ SUMMARY = "Microsoft Azure CLI Core Module"
 DESCRIPTION = "Microsoft Azure CLI Core Module"
 LICENSE = "MIT"
 
-PV = "2.49.0"
+PV = "2.50.0"
 
-RPM_NAME = "azure-cli-core-2.49.0-1.2.noarch.rpm"
-RPM_HASH = "92a3a73906c6f275be13a18b929d50daf1ecdaee9c52da70c7cfd06d0f5639078eb70fa2b4a5442669699d74d6d31af6a6231b6f543fdd458ec2d7d1e4c400c8"
+RPM_NAME = "azure-cli-core-2.50.0-1.1.noarch.rpm"
+RPM_HASH = "90ad09f58a562dc7209431832e1d6ec5db9f540ec0570154c27c2ac3ec9f06fc4710c58eeb08f61906f1894d6fe0a0bfd8ac824e0b48cf01b42a8884cffa0935"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "azure-cli-core \

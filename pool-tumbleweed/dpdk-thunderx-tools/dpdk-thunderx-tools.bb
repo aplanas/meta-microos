@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-2.1-only"
 
 PV = "22.11.1"
 
-RPM_NAME = "dpdk-thunderx-tools-22.11.1-2.9.aarch64.rpm"
-RPM_HASH = "e72e7a5dfbf58b95e657281ee6cc909c06fe7caac371983015d7429d80f242c54854e63ba4b81dee3c92b3884de699033b20423b80de9d4079a235db325f056a"
+RPM_NAME = "dpdk-thunderx-tools-22.11.1-2.10.aarch64.rpm"
+RPM_HASH = "d64bbb63599c4606aedee39b548f82158baef077e7c0baa66808b8409bff374debaed01789f2d4d087e33c3b0fe828a233c8ed00e09f526b212444b90afe617e"
 
 RPROVIDES:${PN} += "dpdk-any-tools \
 dpdk-thunderx-tools"

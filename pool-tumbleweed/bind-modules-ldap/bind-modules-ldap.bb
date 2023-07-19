@@ -5,8 +5,8 @@ LICENSE = "MPL-2.0"
 
 PV = "9.18.16"
 
-RPM_NAME = "bind-modules-ldap-9.18.16-2.1.aarch64.rpm"
-RPM_HASH = "a9ab238f826837f12684dbf87f552ff06216185b49bd5b12ec4a4f49cb591d7402fa2110523e177724f9901eb06d0c20342e70d9258c40fefe80d412c76c4f2e"
+RPM_NAME = "bind-modules-ldap-9.18.16-3.1.aarch64.rpm"
+RPM_HASH = "fe95a65915be6a72862ea43450a20983bfabe0a16a17bb88e06d7bd9c95cd5dedc18dab6386e33f8a72aa215c3ebe9fe46b0f6633f446f02339e3fad4df58e3a"
 
 RPROVIDES:${PN} += "bind-modules-ldap"
 

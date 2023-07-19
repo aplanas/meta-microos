@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn14428"
 
-RPM_NAME = "texlive-mkgrkindex-bin-2023.20230311.svn14428-92.1.aarch64.rpm"
-RPM_HASH = "34f735b3cebac9c50faace2a6462d8ce6610290f4219065a2424f54301a9d12b383b06c566b83afc297304eaba687e64cffb880d83712452e695ef915e164493"
+RPM_NAME = "texlive-mkgrkindex-bin-2023.20230311.svn14428-93.1.aarch64.rpm"
+RPM_HASH = "274e0f3d33a30713995dcdff7a1d6d96e0d4835a428c8d4e044ccd9fece0678859405fcb9c6049fa805b0f5aeaa93acdd62c9f52d797adba24c704bd0475f3ec"
 
 RPROVIDES:${PN} += "texlive-mkgrkindex-bin"
 

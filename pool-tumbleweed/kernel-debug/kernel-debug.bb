@@ -3,24 +3,24 @@ DESCRIPTION = "This kernel has several debug facilities enabled that hurt perfor
 Only use this kernel when investigating problems. \
  \
  \
-Source Timestamp: 2023-07-10 10:03:25 +0000 \
-GIT Revision: b97b89494481f3409297e494e466bdd42b1311ab \
+Source Timestamp: 2023-07-11 06:23:11 +0000 \
+GIT Revision: 5ab030f1f07fd96746960bce337ec62fc11b6a9a \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.2"
+PV = "6.4.3"
 
-RPM_NAME = "kernel-debug-6.4.2-1.1.aarch64.rpm"
-RPM_HASH = "ba4eef65fe350e3d1ff1599a2ba2e2447515695f5d5684a3748912f9a7047277c362e8b39282fb7e04b3fc6d3991d9789cbe1e0a86da7826918b7898c587faf9"
+RPM_NAME = "kernel-debug-6.4.3-1.1.aarch64.rpm"
+RPM_HASH = "0008dc78ae8080ab89682dc5916d8dd26261485a4bf4bc618c9bef1968a5c1c5c3c18e095931f16c0dfed60e931b7cecd9a73e30234c8b97252308e7b3a75fc0"
 
 RPROVIDES:${PN} += "kernel \
 kernel-base \
 kernel-debug \
-kernel-debug-6.4.2-1 \
+kernel-debug-6.4.3-1 \
 kernel-debug-aarch64 \
-kernel-debug-base-srchash-b97b89494481f3409297e494e466bdd42b1311ab \
-kernel-debug-srchash-b97b89494481f3409297e494e466bdd42b1311ab \
-kernel-srchash-b97b89494481f3409297e494e466bdd42b1311ab \
+kernel-debug-base-srchash-5ab030f1f07fd96746960bce337ec62fc11b6a9a \
+kernel-debug-srchash-5ab030f1f07fd96746960bce337ec62fc11b6a9a \
+kernel-srchash-5ab030f1f07fd96746960bce337ec62fc11b6a9a \
 kernel-uname-r \
 kmod-3c59x.ko \
 kmod-3w-9xxx.ko \

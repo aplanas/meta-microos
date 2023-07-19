@@ -3,10 +3,10 @@ DESCRIPTION = "The Python keyring lib provides a way to access the system keyrin
 from python. It can be used in any application that needs safe password storage."
 LICENSE = "MIT"
 
-PV = "23.13.1"
+PV = "24.2.0"
 
-RPM_NAME = "python311-keyring-23.13.1-2.3.noarch.rpm"
-RPM_HASH = "0e557c5d7156fafa0b523f61aa2ffcb7edd4ed9eb861f4d8bcb94b013c8f3e8392df929aa9a851b716232a4fdd5fa91a82bb769a5f6361f1c6afb12c97b4ef22"
+RPM_NAME = "python311-keyring-24.2.0-1.1.noarch.rpm"
+RPM_HASH = "bda97a7f58d5cf436e8ef6030742c43d51f53028fc2a0fbc1612d9f514a8b3c228470967a472566e14e0dcde0715f59112bc98d2811105ce7cfb9b1d735c260d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-keyring \

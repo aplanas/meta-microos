@@ -6,8 +6,8 @@ LICENSE = "ClArtistic | GPL-2.0-or-later"
 
 PV = "9.4.0"
 
-RPM_NAME = "perl-Sys-Virt-9.4.0-1.2.aarch64.rpm"
-RPM_HASH = "3307bcdcf80d5f0b4554d3b49326e9d6444f8bda45edb408bb097718a2cf54fb1b91bf4614fa38ba49f2a754ec9fa80b7aa15724820b35596cfea22ae096fbce"
+RPM_NAME = "perl-Sys-Virt-9.4.0-2.1.aarch64.rpm"
+RPM_HASH = "26d42ab6a6a8b397348a73dc1ff0a7a25e6f89069cc040ce80e281ee05e6f15251146168f48f5b9205d32a959297c8540754162abaae9b5129caa42df9821abd"
 
 RPROVIDES:${PN} += "perl-Sys--Virt \
 perl-Sys--Virt--Domain \

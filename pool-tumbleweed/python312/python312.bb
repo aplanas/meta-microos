@@ -13,10 +13,10 @@ python3-tk), legacy UNIX database bindings (python3-dbm), and the IDLE \
 development environment (python3-idle)."
 LICENSE = "Python-2.0"
 
-PV = "3.12.0b3"
+PV = "3.12.0b4"
 
-RPM_NAME = "python312-3.12.0b3-1.1.aarch64.rpm"
-RPM_HASH = "fa616c8f39c9447a8a8543ca28436d6111c9110caa769870ebc00f24191ddc3a216ab00846d1931796bfccfde8c3a5c5f14be79e7c0e72529772d118b6237160"
+RPM_NAME = "python312-3.12.0b4-1.1.aarch64.rpm"
+RPM_HASH = "89acfb614fad15a1e54af812d8fe6acf4f636412996ac0012b0714be489aec080284865a153be3fd34bbbece342ecca3c7cd24edd1fce8d479206f76831cd227"
 
 RPROVIDES:${PN} += "python312 \
 python312-readline \

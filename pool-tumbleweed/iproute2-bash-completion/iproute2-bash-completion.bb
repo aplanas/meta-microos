@@ -2,10 +2,10 @@ SUMMARY = "Bash completion for iproute"
 DESCRIPTION = "bash command line completion support for iproute."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.3"
+PV = "6.4"
 
-RPM_NAME = "iproute2-bash-completion-6.3-1.2.aarch64.rpm"
-RPM_HASH = "58b492145005ddbcb379ff62e3a1607a6e49212cb06a43a9a12d55ce39d8dd7b0f750e5b06cab258c1596b9dee3e2988e5822872e614828bf4ec78ed715443c9"
+RPM_NAME = "iproute2-bash-completion-6.4-1.1.aarch64.rpm"
+RPM_HASH = "0566dfefb4900d897866fff7731f35c38e1997526a38aaa883a04234a0b8132b8ff41e434e0ef27c23584b6d8da66446b95ecca570fc243d9a080fe72ffff150"
 
 RPROVIDES:${PN} += "iproute2-bash-completion"
 

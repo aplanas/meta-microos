@@ -2,10 +2,10 @@ SUMMARY = "AMQP 10 Client Library for Python"
 DESCRIPTION = "AMQP 1.0 Client Library for Python"
 LICENSE = "MIT"
 
-PV = "1.6.4"
+PV = "1.6.5"
 
-RPM_NAME = "python311-uamqp-1.6.4-1.7.aarch64.rpm"
-RPM_HASH = "5a208e40383e5c67ce04f4f5ac75e5e81c0b5fad6db40850f280769ddc9cb1ac1ecd34efeb974c0e9267ad2852a9bdc54b71fbdfd381e425091052c993309063"
+RPM_NAME = "python311-uamqp-1.6.5-1.1.aarch64.rpm"
+RPM_HASH = "058d83de9cb46a7b6253dcfc9d30d1c53b8ca829fba1e300cae6af88e47a0b54bbf06cbe0eca9c6cb7535bbac13032f51652f00e7a16f6832e0e0af1d1cb3c04"
 
 RPROVIDES:${PN} += "python3-uamqp \
 python3.11dist-uamqp \

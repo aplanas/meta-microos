@@ -7,10 +7,10 @@ For documentation consult the online documentation at \
 http://boto3.readthedocs.org/en/latest/"
 LICENSE = "Apache-2.0"
 
-PV = "1.26.153"
+PV = "1.28.2"
 
-RPM_NAME = "python310-boto3-1.26.153-1.1.noarch.rpm"
-RPM_HASH = "5505bd15d32b0a1ce7506ee134c3d525ceb69a654568bfd6db163febca817f6b1d22b4f9034ef4a36d8f0bd5eb3a937051d445048ed7968f62fbeb8c1da809c5"
+RPM_NAME = "python310-boto3-1.28.2-1.1.noarch.rpm"
+RPM_HASH = "6ad0857754433c828c7b7c25c710d5c1458159c1130e815c9b334d3c43948d4531025fe3cfb4d24d1331ffca80ee432094631abc01cd5930adac7717f031d675"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-boto3 \

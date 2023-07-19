@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.50.1"
 
-RPM_NAME = "libguestfs-xfs-1.50.1-3.3.aarch64.rpm"
-RPM_HASH = "f7b6d3f4586709b694fc79dcd1b3203c7ee2f2eba82b05ef7dd9f2edcdf65a41a0f3035f6b8689f0f83aafa2e8ecd10b8ece6abbfd66714227dc211399878782"
+RPM_NAME = "libguestfs-xfs-1.50.1-4.1.aarch64.rpm"
+RPM_HASH = "4df8492533f47d44468aaca932f28b740037a161973b90d23b3c0fbeeb959627760c65e0b65147be16cbc7c8624755a4bc321cf84d70c860b45281c3617b01f6"
 
 RPROVIDES:${PN} += "libguestfs-xfs"
 

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn23661"
 
-RPM_NAME = "texlive-mathspic-bin-2023.20230311.svn23661-92.1.aarch64.rpm"
-RPM_HASH = "b15d374750f52062fdd86defa23acaf9dfe151aabdcdf460da959407c4ea1bbdb7303fde16e4c01d678d435e8e4f925ca8e2d1dbec5f89cd8a8a7be4a77ca986"
+RPM_NAME = "texlive-mathspic-bin-2023.20230311.svn23661-93.1.aarch64.rpm"
+RPM_HASH = "dc4409407df20983581682d02ae8f0385f612aa7c476d9d3155368137bae9605bab48ba93f768b7769a02ee5bdee8e4a03a054ebe5d1e753f8491f3ba41ebffb"
 
 RPROVIDES:${PN} += "texlive-mathspic-bin"
 

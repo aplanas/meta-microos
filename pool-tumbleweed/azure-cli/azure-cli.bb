@@ -2,10 +2,10 @@ SUMMARY = "Microsoft Azure CLI 2.0"
 DESCRIPTION = "Microsoft Azure CLI 2.0 Command Line Utilities"
 LICENSE = "MIT"
 
-PV = "2.49.0"
+PV = "2.50.0"
 
-RPM_NAME = "azure-cli-2.49.0-1.2.noarch.rpm"
-RPM_HASH = "ec71293690d93da99a6e64a346792e797a101b2e1e6fb89e51431ef5bf8e0a0d0b340a672ed70214e4db772cc98780af2f22a09bde395fd7c00ae157d58a7f60"
+RPM_NAME = "azure-cli-2.50.0-1.1.noarch.rpm"
+RPM_HASH = "7ff58861ce73373a406ba997bebb719d731c7c36943cdcccb19f52d9709a09d3d9021639a3e6c03a2676c97b5fcb83c041d8b2e3d55557ea01efa03116d68b04"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "azure-cli \

@@ -7,10 +7,10 @@ contains extensions that were not, or are not yet, accepted in the \
 main kernel/iptables packages."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later"
 
-PV = "3.24_k6.4.2_1"
+PV = "3.24_k6.4.3_1"
 
-RPM_NAME = "xtables-addons-kmp-64kb-3.24_k6.4.2_1-1.10.aarch64.rpm"
-RPM_HASH = "85520c6ff2de472e369c4c70a118b44b58667d18e26e62055f1fa07e10aed69d3fce6fbd354b05c7d9851b1c736a482bc6839c2e072431235b5b6e561e000f8e"
+RPM_NAME = "xtables-addons-kmp-64kb-3.24_k6.4.3_1-1.11.aarch64.rpm"
+RPM_HASH = "1d01d5dd7cfea8db20a7d5e0ec508fa1a34c0e78d7084f4ae4c71cc95c2e61fc9c3fbe63d946e07c79e828b1de61b51896a0efc6a470b69f263f2837a4711f59"
 
 RPROVIDES:${PN} += "kmod-compat-xtables.ko \
 kmod-xt-ACCOUNT.ko \
@@ -39,7 +39,7 @@ kmod-xt-quota2.ko \
 multiversion-kernel \
 xtables-addons-kmp \
 xtables-addons-kmp-64kb \
-xtables-addons-kmp-64kb-k6.4.2-1"
+xtables-addons-kmp-64kb-k6.4.3-1"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \

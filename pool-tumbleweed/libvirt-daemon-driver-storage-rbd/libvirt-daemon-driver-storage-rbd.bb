@@ -3,10 +3,10 @@ DESCRIPTION = "The storage driver backend adding implementation of the storage A
 volumes using the ceph protocol."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.4.0"
+PV = "9.5.0"
 
-RPM_NAME = "libvirt-daemon-driver-storage-rbd-9.4.0-3.1.aarch64.rpm"
-RPM_HASH = "ad0d87731930faf6b2cf8310e43e15cf043a1eb441acf05924368678c15814a56cf22605102cc33231357c7bbeadc8490530df2fcdd63a2740b785e2889ca9fd"
+RPM_NAME = "libvirt-daemon-driver-storage-rbd-9.5.0-1.1.aarch64.rpm"
+RPM_HASH = "f5fd6f73c649a11d586928f793e74080ae1d6a2e613b12f8ddd75f5c3b01a2d37fd9bb66dc38ba1a39fa1c2cacb36d8ab98922cf8c55ff6df108a7f411a11582"
 
 RPROVIDES:${PN} += "libvirt-daemon-driver-storage-rbd \
 libvirt-storage-backend-rbd.so"

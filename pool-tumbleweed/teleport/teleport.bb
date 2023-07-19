@@ -10,10 +10,10 @@ On the server-side, Teleport is a single binary which enables convenient secure 
 * Networked servers"
 LICENSE = "Apache-2.0"
 
-PV = "13.2.0"
+PV = "13.2.1"
 
-RPM_NAME = "teleport-13.2.0-1.1.aarch64.rpm"
-RPM_HASH = "e8f540e1b6c324248175d001d6ae02cac92408133314d7aa0c7c5f29604b1c1246ecc4d75c74b904d2cdb573bbcfaf192aca69b2f7de4e841c8b2ea43e071a3b"
+RPM_NAME = "teleport-13.2.1-1.1.aarch64.rpm"
+RPM_HASH = "35ec29d251625858c21d27ee26301130831ee32ce062ee253bcf7b57ef3bf07d217a36cd7275afef777efb7df16d6bb6f397d58ce3798f3c7570499287a4e264"
 
 RPROVIDES:${PN} += "config-teleport \
 teleport"

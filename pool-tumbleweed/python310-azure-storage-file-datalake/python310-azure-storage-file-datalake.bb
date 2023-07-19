@@ -11,17 +11,18 @@ This includes: \
    (HNS) accounts."
 LICENSE = "MIT"
 
-PV = "12.11.0"
+PV = "12.12.0"
 
-RPM_NAME = "python310-azure-storage-file-datalake-12.11.0-1.3.noarch.rpm"
-RPM_HASH = "6904e5a53aaa95ea3cb0e8fe69072b3dea21827cf14bb4112236f34f179b672081489e94f39fb22f7f8d710b16b1593dd12e5403c30d0f6fe57ca53ffa999e88"
+RPM_NAME = "python310-azure-storage-file-datalake-12.12.0-1.1.noarch.rpm"
+RPM_HASH = "fee5ace07f13e491f502e129e06fb996eabd2f03b82f06f69e7e0730ab7072da45bb11f5ec5ceecf087e0a63e4016f757a4fd25753e00a95ee92c1625215db99"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-azure-storage-file-datalake \
 python310-azure-storage-file-datalake \
 python3dist-azure-storage-file-datalake"
 
-RDEPENDS:${PN} += "python-abi \
+RDEPENDS:${PN} += "-python310-typing-extensions >= 4.3.0 \
+python-abi \
 python310-azure-core \
 python310-azure-nspkg \
 python310-azure-storage-blob \

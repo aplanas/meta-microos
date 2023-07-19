@@ -5,8 +5,8 @@ LICENSE = "SUSE-Matplotlib"
 
 PV = "3.6.3"
 
-RPM_NAME = "python311-matplotlib-tk-3.6.3-2.3.aarch64.rpm"
-RPM_HASH = "73b5615e33432d3073643ef9af1b9f3f257cc60c12c6294279402a494b09cda38823815efac64ad2397f54964cddb5b10ff20f7de2b5f03f346454d84a86992d"
+RPM_NAME = "python311-matplotlib-tk-3.6.3-3.1.aarch64.rpm"
+RPM_HASH = "e8552cc64ca40804e90bdecb8b9571678e3e40af3861cc8d1993179b86d31936ddec2f3f25c47396d7f60ee816dc863aac630562e5ce62ab88e3da459ad969da"
 
 RPROVIDES:${PN} += "python3-matplotlib-tk \
 python311-matplotlib-tk"

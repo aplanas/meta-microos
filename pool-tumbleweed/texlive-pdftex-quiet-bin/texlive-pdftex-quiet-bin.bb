@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn49140"
 
-RPM_NAME = "texlive-pdftex-quiet-bin-2023.20230311.svn49140-92.1.aarch64.rpm"
-RPM_HASH = "6e3d6642cd76678ed5f88e9bc65d075fda7290f4b92cd11063cb9d49fc3be3554432676d5ee7a8b0eabac8cf5f7ffd33e588159a5b191a07f9c66661fd9c189e"
+RPM_NAME = "texlive-pdftex-quiet-bin-2023.20230311.svn49140-93.1.aarch64.rpm"
+RPM_HASH = "e4c8837e92930700eedb4e5ee6de1f3a7cd23e167f1bfcfe5347b2ff9843161d1ede6d2f8cf749b3870300c3c6e37cff106d403f2230113a082f7b1c59040040"
 
 RPROVIDES:${PN} += "texlive-pdftex-quiet-bin"
 

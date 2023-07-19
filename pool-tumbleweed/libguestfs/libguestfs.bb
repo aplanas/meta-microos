@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.50.1"
 
-RPM_NAME = "libguestfs-1.50.1-3.3.aarch64.rpm"
-RPM_HASH = "6739ed3aceb6355ca8ba5278452b7220177908c73bd337117ff343e99c57d54aba9ab9e40537f84071c285d87b2271b140223de1d6a06c46b716f38f0193c316"
+RPM_NAME = "libguestfs-1.50.1-4.1.aarch64.rpm"
+RPM_HASH = "8e95fda822e125eb5697d37c5dc9136da5a8e27b743167f3de56ec135518b0c70556e4eab5fe34e449cce6bf57d737ef160af274f0cdc8336e0a83bfb50b00c9"
 
 RPROVIDES:${PN} += "config-libguestfs \
 libguestfs"
@@ -22,12 +22,12 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libconfig.so.11 \
 libfuse.so.2 \
+libguestfs-appliance \
 libguestfs.so.0 \
 libm.so.6 \
 libreadline.so.8 \
 libtinfo.so.6 \
 libtirpc.so.3 \
-libxml2.so.2 \
-supermin"
+libxml2.so.2"
 
 inherit rpm

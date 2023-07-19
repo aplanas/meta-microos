@@ -4,10 +4,10 @@ from a live CD/DVD/USB environment to a hard disk. It includes a graphical \
 installation program based on Qt 5. Calamares can replace YaST2 Live Installer."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.2.36"
+PV = "3.2.62"
 
-RPM_NAME = "calamares-3.2.36-1.20.aarch64.rpm"
-RPM_HASH = "7c3e3cdc7e26c3c4aae5f87f72ef2213b405b9cfe09a93b60bd660857c629f1abf0880aa77ab98f1e06f0a895dc55cc34a8be089eee6d5ce2f00f1ce0ef63997"
+RPM_NAME = "calamares-3.2.62-1.1.aarch64.rpm"
+RPM_HASH = "3ab593c9a10633ba6e3ec2694262a0a90ca8d3c7cbf6d1ce312fa4bf50031654ea5903c6aca5417cecee84728d762c6ddbf0c748208dbe9aed217175dec40ee0"
 
 RPROVIDES:${PN} += "calamares \
 calamares-libs3 \
@@ -19,11 +19,15 @@ libcalamares-job-hostinfo.so \
 libcalamares-job-initcpio.so \
 libcalamares-job-initramfs.so \
 libcalamares-job-luksbootkeyfile.so \
+libcalamares-job-luksopenswaphookcfg.so \
 libcalamares-job-machineid.so \
 libcalamares-job-preservefiles.so \
 libcalamares-job-removeuser.so \
 libcalamares-job-shellprocess.so \
+libcalamares-job-umount.so \
+libcalamares-job-zfs.so \
 libcalamares-viewmodule-finished.so \
+libcalamares-viewmodule-finishedq.so \
 libcalamares-viewmodule-interactiveterminal.so \
 libcalamares-viewmodule-keyboard.so \
 libcalamares-viewmodule-keyboardq.so \
@@ -34,15 +38,17 @@ libcalamares-viewmodule-netinstall.so \
 libcalamares-viewmodule-notesqml.so \
 libcalamares-viewmodule-oemid.so \
 libcalamares-viewmodule-packagechooser.so \
+libcalamares-viewmodule-packagechooserq.so \
 libcalamares-viewmodule-partition.so \
 libcalamares-viewmodule-summary.so \
+libcalamares-viewmodule-summaryq.so \
 libcalamares-viewmodule-tracking.so \
 libcalamares-viewmodule-users.so \
 libcalamares-viewmodule-usersq.so \
 libcalamares-viewmodule-welcome.so \
 libcalamares-viewmodule-welcomeq.so \
-libcalamares.so.3.2.36 \
-libcalamaresui.so.3.2.36"
+libcalamares.so.3.2.62 \
+libcalamaresui.so.3.2.62"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/sh \
@@ -62,7 +68,6 @@ kpmcore \
 ld-linux-aarch64.so.1 \
 libKF5CoreAddons.so.5 \
 libKF5Parts.so.5 \
-libKF5Service.so.5 \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \
 libQt5Gui.so.5 \
@@ -80,7 +85,7 @@ libgcc-s.so.1 \
 libkpmcore.so.12 \
 libm.so.6 \
 libparted.so.2 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 libyaml-cpp.so.0.7 \
 ntfsprogs \

@@ -2,10 +2,10 @@ SUMMARY = "A follow the mouse X demo"
 DESCRIPTION = "Xeyes watches what you do and reports to the Boss."
 LICENSE = "X11"
 
-PV = "1.2.0"
+PV = "1.3.0"
 
-RPM_NAME = "xeyes-1.2.0-2.2.aarch64.rpm"
-RPM_HASH = "f94ffa408c1f7d8a5bae9b2fd74bdbaeadbd26a867f8e4f859900b14f9ee7b57601dc5e34bc0a2cf3319cab4970797b2372f1cf3685cbe48bf08fc9587667f3c"
+RPM_NAME = "xeyes-1.3.0-1.1.aarch64.rpm"
+RPM_HASH = "251e39925df2a5d28dd66b3c49a02ce6dd9a06e915244feaefecae125774dae7f74da8ff0a2aa226e4323e392d0bc31ac318bc8c1c7cdf7953dd98247c935774"
 
 RPROVIDES:${PN} += "xeyes"
 

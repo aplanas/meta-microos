@@ -4,14 +4,14 @@ that multiple kernel driver versions can be installed, one for each \
 installed kernel."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "9.0.30~1+git.8e9c0812_k6.4.2_1"
+PV = "9.0.30~1+git.8e9c0812_k6.4.3_1"
 
-RPM_NAME = "drbd-kmp-64kb-9.0.30~1+git.8e9c0812_k6.4.2_1-8.17.aarch64.rpm"
-RPM_HASH = "b65a208350fff34fbced4816207e5aaf4df5a6fdd1158f7f4dcd021cb13f3382ae145793a5c509328aa3af44f03d85ed861f237b7405c6065bd1ed8109930706"
+RPM_NAME = "drbd-kmp-64kb-9.0.30~1+git.8e9c0812_k6.4.3_1-8.18.aarch64.rpm"
+RPM_HASH = "0b4a34b0cdb983bf14d8d4e06be2f406b41103e867f5de0bd57aecbe7208f970a258eba4a19b4a3129dc645cb7188cfa178d54662349efc0d9b4ebeda47109be"
 
 RPROVIDES:${PN} += "drbd-kmp \
 drbd-kmp-64kb \
-drbd-kmp-64kb-k6.4.2-1 \
+drbd-kmp-64kb-k6.4.3-1 \
 kmod-drbd-transport-tcp.ko \
 kmod-drbd.ko \
 multiversion-kernel"

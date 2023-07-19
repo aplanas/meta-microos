@@ -2,10 +2,10 @@ SUMMARY = "KF5 extension for mediainfo-gui"
 DESCRIPTION = "KF5 context menu extension for mediainfo-gui."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.06"
+PV = "23.07"
 
-RPM_NAME = "kf5-mediainfo-23.06-1.1.aarch64.rpm"
-RPM_HASH = "dc5277ba52601698fe5ec9e1955e7365ab3b4f18994da95069561ba4c0e3cd9a08f1da84b4b93bc41ddcf3a1d56d6e9aa1f20807ecbad49737edae005ec5c797"
+RPM_NAME = "kf5-mediainfo-23.07-1.1.aarch64.rpm"
+RPM_HASH = "6f0304f83672dc00c8a76adf2518883470cc097be09fc0ddfc17045270f1b5d6999fddef3b46ac9ff83afe7f2a71101e90ca3d739d713fdf22e78823c2cebccf"
 
 RPROVIDES:${PN} += "kde4-mediainfo \
 kf5-mediainfo"

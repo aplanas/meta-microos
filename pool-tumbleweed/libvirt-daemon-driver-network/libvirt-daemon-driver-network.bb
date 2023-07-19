@@ -4,10 +4,10 @@ an implementation of the virtual network APIs using the Linux \
 bridge capabilities."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.4.0"
+PV = "9.5.0"
 
-RPM_NAME = "libvirt-daemon-driver-network-9.4.0-3.1.aarch64.rpm"
-RPM_HASH = "8df111cdcaeee62659e3bbc34cffbdcf9cd8cea557495414c6ff7f4aecf458c78106905f455356fb5c88120589f84ce76678eaa62c7f6b23b161aac58499e539"
+RPM_NAME = "libvirt-daemon-driver-network-9.5.0-1.1.aarch64.rpm"
+RPM_HASH = "517ed06ff93b5af40788b1aed4fbf1cc4c66ac13fec09427b3a773580de9c8dc5703e895ad3e89dd9e1d560bddd76dfa633413ff4885b5bef093b2de9747f459"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-driver-network \
 libvirt-daemon-driver-network \

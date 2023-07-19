@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.02.122+94.4bd41a3"
 
-RPM_NAME = "plymouth-branding-upstream-22.02.122+94.4bd41a3-5.1.noarch.rpm"
-RPM_HASH = "afa085c539c854f7198ec96c470311a925c3d7c62ab5393438ef39837bf401fb2d82cf82e54d16fa279169e30691e3fd5ac02dcd7b8f54060092e6ac42a824f8"
+RPM_NAME = "plymouth-branding-upstream-22.02.122+94.4bd41a3-6.1.noarch.rpm"
+RPM_HASH = "551eaa6bfe893ed12bd76fbe54dcde4b657ede248c7ea6df0dca9b214c53ee1fddd9d9cdd2516d849a3680ea5aa9545e6a8abd67e3ad71f37e21356503403351"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plymouth-branding \

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn66079"
 
-RPM_NAME = "texlive-platex-bin-2023.20230311.svn66079-92.1.aarch64.rpm"
-RPM_HASH = "7ce3d35d41fcc1c5692937a5d2db93fb425bc46dd078bc2f1915e35e0526e65a7854b4bae067ee357ceb3a1c6fb3c9c85a09a6c38feb775b936ef2135f00070c"
+RPM_NAME = "texlive-platex-bin-2023.20230311.svn66079-93.1.aarch64.rpm"
+RPM_HASH = "6d80b68cbf071d191f3a50649f944ba59953a541cf76ae4c3af1126dcc49eebe5f32bbf4cb08ed07f01bf85466e249c4acee43b60d856030f791f2b2dc2874ec"
 
 RPROVIDES:${PN} += "texlive-platex-bin"
 

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.50.1"
 
-RPM_NAME = "libguestfs-devel-1.50.1-3.3.aarch64.rpm"
-RPM_HASH = "eb6670fe54a751ebe3c93f6e8d549fe52c0f4fd6b1bf97609b0d4e257387e2f4f349ef1e0071646e60c336f457fd6803ad160045e22f9e8e620055f6bda6230f"
+RPM_NAME = "libguestfs-devel-1.50.1-4.1.aarch64.rpm"
+RPM_HASH = "01ffea9aaebcb73e4fde2d4db5d16f289ed986505abe064a5d323610a9983c30a8427c8f17e8ac7e12e9dbbe066a3eb58142b53eb9b2212d3c19ba5ff54396e7"
 
 RPROVIDES:${PN} += "libguestfs-devel \
 pkgconfig-libguestfs"

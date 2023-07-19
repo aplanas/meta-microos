@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.1"
 
-RPM_NAME = "python310-evdev-1.6.1-1.6.aarch64.rpm"
-RPM_HASH = "622a769d6ce5902089b17f84223d47ef60c22b845b7d628e66c1a2548744e76cce55c5f340bfacace5a66b98f5bdf8a99f1e90ece7ab5ca5c4d3fbc0965cbeeb"
+RPM_NAME = "python310-evdev-1.6.1-2.1.aarch64.rpm"
+RPM_HASH = "3ea2bd1567c57df927a52fe1b82bccac27e781e80f9ab25c402c4dc813015996ebb3409c3ee75a42c34621f9ebc61a1684c299f54dba121534c6d534e34a096b"
 
 RPROVIDES:${PN} += "python3.10dist-evdev \
 python310-evdev \

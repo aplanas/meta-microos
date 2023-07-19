@@ -3,10 +3,10 @@ DESCRIPTION = "The virt-exportserver package provides an http server for kubevir
 serve the data of VirtualMachineExport resource in different formats"
 LICENSE = "Apache-2.0"
 
-PV = "0.59.2"
+PV = "1.0.0"
 
-RPM_NAME = "kubevirt-virt-exportserver-0.59.2-2.1.aarch64.rpm"
-RPM_HASH = "92162ee72e14caa99bf85d89c304dfbf5dc2d51a1ebb952630e42edd92345d0225c0e10f62fd7c977a7bc9500dc5908d156b17bc82b88de427c062c58a291b8e"
+RPM_NAME = "kubevirt-virt-exportserver-1.0.0-1.1.aarch64.rpm"
+RPM_HASH = "e5471c961ed186f28c69ae0a532d1057f874b9c88810a3a97f176672d6a4e3ef49cb1a8a3be4b876a1ea61f01d907ed82dbbc487a8a977fcab02f43a33d4488f"
 
 RPROVIDES:${PN} += "kubevirt-virt-exportserver"
 

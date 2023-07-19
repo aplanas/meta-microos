@@ -3,10 +3,10 @@ DESCRIPTION = "The storage driver backend adding implementation of the storage A
 host devices."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.4.0"
+PV = "9.5.0"
 
-RPM_NAME = "libvirt-daemon-driver-storage-scsi-9.4.0-3.1.aarch64.rpm"
-RPM_HASH = "7a4b3c264d6e3dd55cc0d05e508aa7041403bc7dba7501900d185cb457e345383f673b25fedc2f2e516ee1eecfd7f072398529fcee6ce5e8464c11f8b129af87"
+RPM_NAME = "libvirt-daemon-driver-storage-scsi-9.5.0-1.1.aarch64.rpm"
+RPM_HASH = "dbc193587e3bbe86475bd714126f4d3cd9e41a48389f828bcfbc1b5e524045f6fcba43d6b42992c94e2bb417e1c17adbadabc751a1903d129f07e1dae0656aa5"
 
 RPROVIDES:${PN} += "libvirt-daemon-driver-storage-scsi \
 libvirt-storage-backend-scsi.so"

@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & LGPL-2.1-or-later-with-GCC-excepti
 
 PV = "2.37"
 
-RPM_NAME = "glibc-devel-2.37-4.4.aarch64.rpm"
-RPM_HASH = "5ab2bc24e41bfaf79e403a6c2cac9ae14b72b09903f2f3f3713316ef13a8a6cdabc9c965cc4de410952d9ab64ab7da4eb59b9fe2406b62e987fd93fb55066420"
+RPM_NAME = "glibc-devel-2.37-5.1.aarch64.rpm"
+RPM_HASH = "2e96c0e71f2b3afdfbc84ce4cd39035055e47155a9eadb6efc8a4cdc01c73ea63c9f3a458ba55b06cc33cb6ab41ae50de4119763bb2a665ee4ccedd61c9ebead"
 
 RPROVIDES:${PN} += "epoll \
 glibc-devel"

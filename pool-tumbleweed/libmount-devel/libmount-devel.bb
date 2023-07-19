@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.39"
 
-RPM_NAME = "libmount-devel-2.39-2.1.aarch64.rpm"
-RPM_HASH = "51fd349fd0e0085e898a9f34f27430c1f9eb4f9d69982dd10a09f4bca61dc29abaae8597c66f3d35acf8b5f1c4318e939f5f2394582bb4d277a8c52296e14507"
+RPM_NAME = "libmount-devel-2.39-3.1.aarch64.rpm"
+RPM_HASH = "3fd0e56be4a7fec5e958957c0a0b6c94955aaa307cc34dc7b9f057e57d45a112a77db20811867f32c5bbe1eddaa634746d46f103f188844544b1370a0baf14e4"
 
 RPROVIDES:${PN} += "libmount-devel \
 pkgconfig-mount"

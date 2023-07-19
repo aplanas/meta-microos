@@ -2,15 +2,14 @@ SUMMARY = "Redfish C Client Library"
 DESCRIPTION = "libRedfish is a C client library that allows for Creation of Entities (POST), Read of Entities (GET), Update of Entities (PATCH), Deletion of Entities (DELETE), running Actions (POST), receiving events, and providing some basic query abilities."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.3.6.4+git.a0788d4"
+PV = "1.3.7.1+git.74758f1"
 
-RPM_NAME = "libredfish-1.3.6.4+git.a0788d4-1.2.aarch64.rpm"
-RPM_HASH = "b70e18e498f0d6af0ebaf085e8a26dc396751cc299a09e93782469993785cb6fe06f4af87ed73e650ca60513521aa120454f6307c0449db7f55f06c2502375e3"
+RPM_NAME = "libredfish-1.3.7.1+git.74758f1-1.1.aarch64.rpm"
+RPM_HASH = "7a61b12e9727e1d542810002400ec20ac8f50f824cbbdcee0d6cc1c28f2bf3cf8f2c199baecb5ee383817173a19f3bbce97c6b955726606f1c1fdbcf74ef6042"
 
 RPROVIDES:${PN} += "libredfish"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libredfish.so.1 \
 readline"
 

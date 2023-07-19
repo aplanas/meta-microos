@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn44515"
 
-RPM_NAME = "texlive-dviinfox-bin-2023.20230311.svn44515-92.1.aarch64.rpm"
-RPM_HASH = "4c7b228eb0ace4468d7a0892852afdd79f9011eb2ac069c0b81675d84e755932be627bbadb4f275894e62df28565a53fee6c5b472f9dfb7d60a1949c055e8ff7"
+RPM_NAME = "texlive-dviinfox-bin-2023.20230311.svn44515-93.1.aarch64.rpm"
+RPM_HASH = "4cf35b259b9c4797a8cf440ce25c3ddc2e6091c3d5531031f9a1dfdb0ea9dfa4ccfa4cf3704a29d6d1b8db7022f88b51d8464185a2f09ba8f9149d25315377b2"
 
 RPROVIDES:${PN} += "texlive-dviinfox-bin"
 

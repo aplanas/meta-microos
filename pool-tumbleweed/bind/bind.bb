@@ -7,8 +7,8 @@ LICENSE = "MPL-2.0"
 
 PV = "9.18.16"
 
-RPM_NAME = "bind-9.18.16-2.1.aarch64.rpm"
-RPM_HASH = "2a6521bc3414fd8e861861df00345db9d73bb6175ee1fde82173376025d28b32f0af81a3d228cf25b789185adb8ac5be6a2e909d9333d53ff93fa04548c04dda"
+RPM_NAME = "bind-9.18.16-3.1.aarch64.rpm"
+RPM_HASH = "33f6cf6ca7295a61b9f63d4a7a430f682ec8560e96e28f63cb1f1f49caf1d87292e623e13fe9941018d269959152b344da9bd7bdf0c4f6a78b4894e21c7a0671"
 
 RPROVIDES:${PN} += "bind \
 bind8 \
@@ -31,6 +31,7 @@ libc.so.6 \
 libcap.so.2 \
 libcrypto.so.3 \
 libdns-9.18.16.so \
+libfstrm.so.0 \
 libisc-9.18.16.so \
 libisccc-9.18.16.so \
 libisccfg-9.18.16.so \
@@ -38,6 +39,7 @@ libjson-c.so.5 \
 libmaxminddb.so.0 \
 libnghttp2.so.14 \
 libns-9.18.16.so \
+libprotobuf-c.so.1 \
 libuv.so.1 \
 libxml2.so.2 \
 libz.so.1 \

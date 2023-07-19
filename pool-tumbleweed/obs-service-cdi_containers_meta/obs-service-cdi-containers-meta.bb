@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.56.0"
 
-RPM_NAME = "obs-service-cdi_containers_meta-1.56.0-1.5.aarch64.rpm"
-RPM_HASH = "996eef040b8fb5e127e937f0510add727000b2987d078a7080ede795e57e7889afc0fcf609ebe544395ea6457e21e1a1f468adf5c6f8938294229ca91f867b4c"
+RPM_NAME = "obs-service-cdi_containers_meta-1.56.0-2.1.aarch64.rpm"
+RPM_HASH = "664712c18fd2fd14b0472c3e328f0f9dbfa81cbc304dc87688a74a85fbcc5ca5abeae3cf9208e1463f9e6de41f607405482f4fdb90de0bcf386a70eaac22c4f6"
 
 RPROVIDES:${PN} += "obs-service-cdi-containers-meta"
 

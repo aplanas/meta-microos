@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.50.1"
 
-RPM_NAME = "libguestfs-man-pages-ja-1.50.1-3.3.noarch.rpm"
-RPM_HASH = "57ab72cf6517b5efca9cb194f842cd52bf3ad1af0a1c342436857c06424a0fcdbf772142fbad8fff116633225d70c8c84d994b9aa34e04c2131d00ecff4b524f"
+RPM_NAME = "libguestfs-man-pages-ja-1.50.1-4.1.noarch.rpm"
+RPM_HASH = "24575f32e398a7c6b561ec9cc3415b3a4804b9dcbc5fab951c8093a0453a7e0f7605dea4219cf690c230731fe42e982b76123e138be0d6ef75202321192c822c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libguestfs-man-pages-ja"

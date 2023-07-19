@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "5.2.0"
 
-RPM_NAME = "python3-nemo-5.2.0-3.6.aarch64.rpm"
-RPM_HASH = "0b823d9e2b4f532e5aa4944cc654d2090ba35935edf1234c04201e14d5d838e6909b740e812cb918d4ee67aa5ca97b2052f1b0d249a9574b8da9a7ba3a6b7bb5"
+RPM_NAME = "python3-nemo-5.2.0-4.1.aarch64.rpm"
+RPM_HASH = "341d0ff7eb352a3c4bdf1ad810725cb8a20d37a02c0da7a5c1870f6b992700deca431c0e1f783fb9d47ed67d4eb81f0d202b44698acd290ad4561de431e18f30"
 
 RPROVIDES:${PN} += "libnemo-python.so \
 nemo-python \

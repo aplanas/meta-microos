@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kphotoalbum"
 DESCRIPTION = "Provides translations for the 'kphotoalbum' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.10.0"
+PV = "5.11.0"
 
-RPM_NAME = "kphotoalbum-lang-5.10.0-2.1.noarch.rpm"
-RPM_HASH = "8ad352ed08c89c143578842c515d8ef9ce8bad301a55182a7f33f9b92488bbc1b55ab3f1b3f74c8a836c03fe923257ac5c1d4fef18a0623562b873a7e4fa8da3"
+RPM_NAME = "kphotoalbum-lang-5.11.0-1.1.noarch.rpm"
+RPM_HASH = "54804d91e6bdf82f5bfe28dbe22b33d5c9ab8674f210ba25a5ab8da42f603a0b1036ebe13c5fdb12001efc00f5f4ab9616648614d16b3eb5ded314e5f641e599"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kphotoalbum-lang \

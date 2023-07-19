@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & MIT & LGPL-2.1-or-later"
 
 PV = "2.37"
 
-RPM_NAME = "glibc-locale-2.37-4.4.aarch64.rpm"
-RPM_HASH = "d81c0bb2602fe9ca0d609ed3888ed3241ec8997e0c61f90be6a52865221c0f52ae39cb9450445fddde6f5f9f1d1dd040ceb6450197df2109ab6683d866d149fa"
+RPM_NAME = "glibc-locale-2.37-5.1.aarch64.rpm"
+RPM_HASH = "252198af2ed3eff64fa1942c0cfe4907fb93c2837f8df5721dd97084fa15ce9fcef8404da6fff5897795056b8116f75408bede9a85bd7e58c29a47b81d8c4e44"
 
 RPROVIDES:${PN} += "glibc-locale \
 locale-glibc-aa-DJ \

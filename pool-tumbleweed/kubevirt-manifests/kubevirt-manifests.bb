@@ -3,10 +3,10 @@ DESCRIPTION = "This contains the built YAML manifests used to install kubevirt i
 kubernetes installation with kubectl apply."
 LICENSE = "Apache-2.0"
 
-PV = "0.59.2"
+PV = "1.0.0"
 
-RPM_NAME = "kubevirt-manifests-0.59.2-2.1.aarch64.rpm"
-RPM_HASH = "2c57caf773c197bfad5f26e8b6bac9dcdbbea5d4e9bb9ec318831f2f408d1ecb25c73cb5075e9c50bded7430892893d37113e1f1d344e51d4587321d03ff00da"
+RPM_NAME = "kubevirt-manifests-1.0.0-1.1.aarch64.rpm"
+RPM_HASH = "58beecd573e597168b903a8d977311380405094c46298dd9f68c4f63d52f11b987ac6f28b4cd62db79309c4a7beb8626fce1bdf9a03b0731d3ce7b2e8d860188"
 
 RPROVIDES:${PN} += "kubevirt-manifests"
 

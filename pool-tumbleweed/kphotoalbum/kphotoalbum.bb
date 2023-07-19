@@ -5,10 +5,10 @@ in less than 5 seconds, let that be an image with a special person, \
 an image from a special place, or even both."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.10.0"
+PV = "5.11.0"
 
-RPM_NAME = "kphotoalbum-5.10.0-2.1.aarch64.rpm"
-RPM_HASH = "ccbc8e7e0dbdbd89df399168cf2dd941e909c175079c21f0a4b4f30d04fdc47815e55c98841616c238e11e836c4d02e9eba141e860047caa1980e78f482a7bea"
+RPM_NAME = "kphotoalbum-5.11.0-1.1.aarch64.rpm"
+RPM_HASH = "aeb07c78522dec9182a5f3e88a49dd78c4cac18a5950574e76e22cb8fa1311bcbcb5b29ad82135d70d37b2d9b30e638fca6a7f941dce18f0956ad931bd259bf5"
 
 RPROVIDES:${PN} += "kphotoalbum \
 libkpabase.so \

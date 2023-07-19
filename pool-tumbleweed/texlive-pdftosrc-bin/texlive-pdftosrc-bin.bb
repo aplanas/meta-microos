@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn65877"
 
-RPM_NAME = "texlive-pdftosrc-bin-2023.20230311.svn65877-92.1.aarch64.rpm"
-RPM_HASH = "3b510a3f8fbc0c4693528eb977d89f6b0a08eca3f596efdcf79b89cf778b09fc3490b53951aa248e6a9b3b39d895e1069d2552cf4df0becb34977fd2aad791c7"
+RPM_NAME = "texlive-pdftosrc-bin-2023.20230311.svn65877-93.1.aarch64.rpm"
+RPM_HASH = "d1d584424cd2cd9e70dba065831627ba2a2923fe63065255f95a277f1fb0e3ef6f355219af1d30798b732c904cd5757899d249ce189cf855b9e5da1cd52066cd"
 
 RPROVIDES:${PN} += "texlive-pdftools-bin-/usr/bin/pdftosrc \
 texlive-pdftosrc-bin"

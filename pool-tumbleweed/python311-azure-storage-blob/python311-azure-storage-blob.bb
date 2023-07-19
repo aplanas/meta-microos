@@ -11,10 +11,10 @@ Blob storage is ideal for: \
 * Storing data for analysis by an on-premises or Azure-hosted service"
 LICENSE = "MIT"
 
-PV = "12.16.0"
+PV = "12.17.0"
 
-RPM_NAME = "python311-azure-storage-blob-12.16.0-2.3.noarch.rpm"
-RPM_HASH = "eb4a2101963c31dbc56304433f260a74faaf54dbdb462faba180026a7a702365bc08b3c446182df527dafdbeeb7ab8bdef4fc60da465440aade10faef212e152"
+RPM_NAME = "python311-azure-storage-blob-12.17.0-1.1.noarch.rpm"
+RPM_HASH = "0868eec9cee5df1e8ed5a7ea02e62c33195b4a599224b49efc875cb9cce8e31a26894cd681c8a0c33f39f03056592604dee77f0d23b9c5de90a532dc9e3c4c7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-storage-blob \
@@ -22,7 +22,8 @@ python3.11dist-azure-storage-blob \
 python311-azure-storage-blob \
 python3dist-azure-storage-blob"
 
-RDEPENDS:${PN} += "python-abi \
+RDEPENDS:${PN} += "-python311-typing-extensions >= 4.3.0 \
+python-abi \
 python311-azure-common \
 python311-azure-core \
 python311-azure-nspkg \

@@ -5,24 +5,24 @@ kernel for systems that were installed when the default kernel was still \
 configured with 64kb page size granule. \
  \
  \
-Source Timestamp: 2023-07-10 10:03:25 +0000 \
-GIT Revision: b97b89494481f3409297e494e466bdd42b1311ab \
+Source Timestamp: 2023-07-11 06:23:11 +0000 \
+GIT Revision: 5ab030f1f07fd96746960bce337ec62fc11b6a9a \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.2"
+PV = "6.4.3"
 
-RPM_NAME = "kernel-64kb-6.4.2-1.1.aarch64.rpm"
-RPM_HASH = "4a647934d275fb3f7a8bca85a52c8ec7e799912f8dd2c6fc2ef25c825f983778c514fc4fef769d89b0ca13d69b8148ebfd85668440b2c4a668abe0257448319f"
+RPM_NAME = "kernel-64kb-6.4.3-1.1.aarch64.rpm"
+RPM_HASH = "d16e243b624d62871f7dd8b9ce7195935b6ae8a18b0f25b1a068f35da8c08f917fafd45e2fdc79ebb0b5dac2642aa8852660397a3c567adca6ea1f15af2d6aa6"
 
 RPROVIDES:${PN} += "kernel \
 kernel-64kb \
-kernel-64kb-6.4.2-1 \
+kernel-64kb-6.4.3-1 \
 kernel-64kb-aarch64 \
-kernel-64kb-base-srchash-b97b89494481f3409297e494e466bdd42b1311ab \
-kernel-64kb-srchash-b97b89494481f3409297e494e466bdd42b1311ab \
+kernel-64kb-base-srchash-5ab030f1f07fd96746960bce337ec62fc11b6a9a \
+kernel-64kb-srchash-5ab030f1f07fd96746960bce337ec62fc11b6a9a \
 kernel-base \
-kernel-srchash-b97b89494481f3409297e494e466bdd42b1311ab \
+kernel-srchash-5ab030f1f07fd96746960bce337ec62fc11b6a9a \
 kernel-uname-r \
 kmod-3c59x.ko \
 kmod-3w-9xxx.ko \

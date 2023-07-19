@@ -6,10 +6,10 @@ tunnels, bridges, packet transformations (IPsec, etc.), and Quality \
 of Service."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3"
+PV = "6.4"
 
-RPM_NAME = "iproute2-6.3-1.2.aarch64.rpm"
-RPM_HASH = "823e90e0d1d13cbf077d972eaffa0eab773972ed19cf335fd48caee6ab10c08d3ed9c1634ce6ba3bae99a1d4f952c5043c5b438c02627c236a95fc342942ad07"
+RPM_NAME = "iproute2-6.4-1.1.aarch64.rpm"
+RPM_HASH = "528463a9ccad11f5d91753be2dde06c1d8f4b771e5ec3c119dfebd0e8cc0522c69869b41844782cd37871538438f72c70e1639457b36bf508a5195095959e546"
 
 RPROVIDES:${PN} += "/sbin/ip \
 config-iproute2 \

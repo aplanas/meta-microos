@@ -3,10 +3,10 @@ DESCRIPTION = "Server side daemon providing functionality previously provided by
 the monolithic libvirtd"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.4.0"
+PV = "9.5.0"
 
-RPM_NAME = "libvirt-daemon-proxy-9.4.0-3.1.aarch64.rpm"
-RPM_HASH = "9bddd26ddd5bcffa387e0cf40b810646e93eb0ef79d776f3514d336991bdf616a70b3df1161771be468cfd52065905ca30d749a2bac21feba8366748524f6237"
+RPM_NAME = "libvirt-daemon-proxy-9.5.0-1.1.aarch64.rpm"
+RPM_HASH = "bdb7fbf286780f8ea9e1fdd7465bd1085d959d8e21ffb4a6c356995e6d4309e29c149746e9e2535c0de58635bfc2f372caaae7ba1d16b7f4e64efb7fdcc74759"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-proxy \
 libvirt-daemon-proxy"

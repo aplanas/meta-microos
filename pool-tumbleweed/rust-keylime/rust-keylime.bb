@@ -3,10 +3,10 @@ DESCRIPTION = "Rust implementation of keylime agent. Keylime is system integrity
 monitoring system."
 LICENSE = "Apache-2.0 & MIT"
 
-PV = "0.2.1+git.1685699835.3c9d17c"
+PV = "0.2.2+git.1689256829.3d2b627"
 
-RPM_NAME = "rust-keylime-0.2.1+git.1685699835.3c9d17c-2.1.aarch64.rpm"
-RPM_HASH = "90eb382b8c161f1f956509a71627fd5602db93ce3e48c6dfe237e6771462056864cc765af2febd76e7ad4a3e5aef75322186fd519bd17aca9bfa2fd155597299"
+RPM_NAME = "rust-keylime-0.2.2+git.1689256829.3d2b627-1.1.aarch64.rpm"
+RPM_HASH = "9d37b5aff68501d31d8e4605f5c4ffd60c78bf959f6100cbd464216d34a68e3fcfa1ec1ce24d6fe86423effc5246bd5e0a42801d1e21e8d9097913ffc0db94a6"
 
 RPROVIDES:${PN} += "bundled-rust-crate-actix-codec \
 bundled-rust-crate-actix-http \
@@ -21,6 +21,10 @@ bundled-rust-crate-actix-web \
 bundled-rust-crate-actix-web-codegen \
 bundled-rust-crate-ahash \
 bundled-rust-crate-aho-corasick \
+bundled-rust-crate-anstream \
+bundled-rust-crate-anstyle \
+bundled-rust-crate-anstyle-parse \
+bundled-rust-crate-anstyle-query \
 bundled-rust-crate-async-trait \
 bundled-rust-crate-atty \
 bundled-rust-crate-autocfg \
@@ -36,8 +40,10 @@ bundled-rust-crate-cexpr \
 bundled-rust-crate-cfg-if \
 bundled-rust-crate-clang-sys \
 bundled-rust-crate-clap \
+bundled-rust-crate-clap-builder \
 bundled-rust-crate-clap-derive \
 bundled-rust-crate-clap-lex \
+bundled-rust-crate-colorchoice \
 bundled-rust-crate-compress-tools \
 bundled-rust-crate-config \
 bundled-rust-crate-convert-case \
@@ -82,6 +88,7 @@ bundled-rust-crate-idna \
 bundled-rust-crate-indexmap \
 bundled-rust-crate-io-lifetimes \
 bundled-rust-crate-ipnet \
+bundled-rust-crate-is-terminal \
 bundled-rust-crate-itoa \
 bundled-rust-crate-keylime \
 bundled-rust-crate-keylime-agent \
@@ -111,7 +118,6 @@ bundled-rust-crate-once-cell \
 bundled-rust-crate-openssl \
 bundled-rust-crate-openssl-macros \
 bundled-rust-crate-openssl-sys \
-bundled-rust-crate-os-str-bytes \
 bundled-rust-crate-parking-lot \
 bundled-rust-crate-parking-lot-core \
 bundled-rust-crate-paste \
@@ -119,6 +125,9 @@ bundled-rust-crate-pathdiff \
 bundled-rust-crate-peeking-take-while \
 bundled-rust-crate-percent-encoding \
 bundled-rust-crate-pest \
+bundled-rust-crate-pest-derive \
+bundled-rust-crate-pest-generator \
+bundled-rust-crate-pest-meta \
 bundled-rust-crate-picky-asn1 \
 bundled-rust-crate-picky-asn1-der \
 bundled-rust-crate-picky-asn1-x509 \
@@ -127,8 +136,6 @@ bundled-rust-crate-pin-utils \
 bundled-rust-crate-pkg-config \
 bundled-rust-crate-ppv-lite86 \
 bundled-rust-crate-pretty-env-logger \
-bundled-rust-crate-proc-macro-error \
-bundled-rust-crate-proc-macro-error-attr \
 bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-quick-error \
 bundled-rust-crate-quote \
@@ -151,6 +158,7 @@ bundled-rust-crate-serde-derive \
 bundled-rust-crate-serde-json \
 bundled-rust-crate-serde-urlencoded \
 bundled-rust-crate-sha1 \
+bundled-rust-crate-sha2 \
 bundled-rust-crate-shlex \
 bundled-rust-crate-signal-hook \
 bundled-rust-crate-signal-hook-registry \
@@ -165,13 +173,13 @@ bundled-rust-crate-synstructure \
 bundled-rust-crate-target-lexicon \
 bundled-rust-crate-tempfile \
 bundled-rust-crate-termcolor \
-bundled-rust-crate-textwrap \
 bundled-rust-crate-thiserror \
 bundled-rust-crate-thiserror-impl \
 bundled-rust-crate-time \
 bundled-rust-crate-tinyvec \
 bundled-rust-crate-tinyvec-macros \
 bundled-rust-crate-tokio \
+bundled-rust-crate-tokio-macros \
 bundled-rust-crate-tokio-openssl \
 bundled-rust-crate-tokio-util \
 bundled-rust-crate-toml \
@@ -188,6 +196,7 @@ bundled-rust-crate-unicode-ident \
 bundled-rust-crate-unicode-normalization \
 bundled-rust-crate-unicode-xid \
 bundled-rust-crate-url \
+bundled-rust-crate-utf8parse \
 bundled-rust-crate-uuid \
 bundled-rust-crate-version-check \
 bundled-rust-crate-want \

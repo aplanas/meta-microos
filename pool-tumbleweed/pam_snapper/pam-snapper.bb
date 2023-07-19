@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.10.5"
 
-RPM_NAME = "pam_snapper-0.10.5-1.1.aarch64.rpm"
-RPM_HASH = "8391e9d0fb979c227394df17a9d94bc9b81961294a6c81e6717db1a68747746c6d87e25236db594f66b6939ee8059ccbd57488be268396b91d945c7ebe59d3c4"
+RPM_NAME = "pam_snapper-0.10.5-2.1.aarch64.rpm"
+RPM_HASH = "cfa3d59664676fc20d757cf393dcccfc4156b05f4c0ee78e59ad7e4958bdd3a437f004dcb8bdbec7d1124e2b4a0c6f20e945b0387215ee49e2ef579f91ac8b9c"
 
 RPROVIDES:${PN} += "pam-snapper"
 

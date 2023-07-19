@@ -14,17 +14,18 @@ Azure file shares can be used to: \
    diagnostic share, and Dev/Test/Debug tools"
 LICENSE = "MIT"
 
-PV = "12.12.0"
+PV = "12.13.0"
 
-RPM_NAME = "python39-azure-storage-file-share-12.12.0-1.4.noarch.rpm"
-RPM_HASH = "6df3c165a0671ebe7aca3527df0f30856b66ba3c6f77113083ec84f2be634408a63f2031e6dbc21b140323d786dd60aca3971b9f4162049d12aac3a5b1f5583b"
+RPM_NAME = "python39-azure-storage-file-share-12.13.0-1.2.noarch.rpm"
+RPM_HASH = "d93ff63d3c3c08ed6bf6d9ed02a0c2b609d91626cd530fb774e74ae8d23914c7cf2680ee2c7209a7e490360de962fc166a281b529a7fe22347725d3e27131870"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-storage-file-share \
 python39-azure-storage-file-share \
 python3dist-azure-storage-file-share"
 
-RDEPENDS:${PN} += "python-abi \
+RDEPENDS:${PN} += "-python39-typing-extensions >= 4.3.0 \
+python-abi \
 python39-azure-core \
 python39-azure-nspkg \
 python39-azure-storage-nspkg \

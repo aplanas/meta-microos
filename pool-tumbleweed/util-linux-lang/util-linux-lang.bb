@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.39"
 
-RPM_NAME = "util-linux-lang-2.39-2.1.noarch.rpm"
-RPM_HASH = "043618639e9f3d6f98d07eaa7463a0057b2ae47ce2214c338ebab226839ae2357db3eb14b22386d0af9924310d9c78bf4e0ca672c80b9928499518eeacae1201"
+RPM_NAME = "util-linux-lang-2.39-3.1.noarch.rpm"
+RPM_HASH = "9bcfa5a697464f8dade6c3d502b88d478b6923ea18c74b2973d652f68c491807cac56a844c0bf854b4c043da960e351749542e2e7d139df4a92c4a5ca275897e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-util-linux-ca \

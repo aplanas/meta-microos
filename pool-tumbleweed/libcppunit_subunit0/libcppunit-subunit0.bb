@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | BSD-3-Clause"
 
 PV = "1.4.2"
 
-RPM_NAME = "libcppunit_subunit0-1.4.2-2.4.aarch64.rpm"
-RPM_HASH = "1e71986b946c81f6aef2b102c7fe771c49631e7d93728625033252cd6dd6a6a1e77584049e536a6b3ba04fc1d3f51ed5857c47239143800ff355ba29991fd05e"
+RPM_NAME = "libcppunit_subunit0-1.4.2-3.1.aarch64.rpm"
+RPM_HASH = "800727ac03c7b26dfbb6fdbce4004dd9771bb427d16c5088cf3ec5e8208c4efda39c1f26ac3ab64be828e2e0861e377431829495f8828a402a633f6ddfcecd5b"
 
 RPROVIDES:${PN} += "libcppunit-subunit.so.0 \
 libcppunit-subunit0"

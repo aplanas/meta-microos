@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.39"
 
-RPM_NAME = "uuidd-2.39-2.1.aarch64.rpm"
-RPM_HASH = "bded790f26cafad037b66f4c2cd05daed5de0f62b249a5c0e55ffb483c0582c5493f6a8998cc8719d3dedb58004eaf98f937d39dc7b6bea4eb495a553a089a05"
+RPM_NAME = "uuidd-2.39-3.1.aarch64.rpm"
+RPM_HASH = "2ae2085601657130d0a32f19490cca679a5d8908deb042376572855c6e5e90c4f85605db015eb9e9af197176129013a3221afb672a8a24a5de53ccc20346c10d"
 
 RPROVIDES:${PN} += "uuid-runtime \
 uuidd"

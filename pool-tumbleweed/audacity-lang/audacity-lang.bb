@@ -4,8 +4,8 @@ LICENSE = "CC-BY-3.0 & GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "3.3.3"
 
-RPM_NAME = "audacity-lang-3.3.3-1.1.noarch.rpm"
-RPM_HASH = "f8d8b4c836b15711f52055b6546748f9e3a747d5ad637e4dca36e95f989a16957b084c8d85ff1b903751cfe4475ae9b375e5e90b6c321d729761f6dc51890195"
+RPM_NAME = "audacity-lang-3.3.3-2.1.noarch.rpm"
+RPM_HASH = "889f5211c1954b92b36058ec0ad5628eea5459f8d7de8f06766e789ffc6b61b8d498e913b7fba2b2a3d9530161b97f1170fe775a2239aba2495b4ef9857cf6f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "audacity-lang \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contain shared resources for openQA web-frontend and
 openQA workers."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1689162874.c51d4b9"
+PV = "4.6.1689265095.7be7504"
 
-RPM_NAME = "openQA-common-4.6.1689162874.c51d4b9-1.1.aarch64.rpm"
-RPM_HASH = "eec1269709c296cce7194a78416858c6204c0788a931d42149fd28547c292b75111a23532115b46fdaedb0d76f4c25f120866debc79eed2944f214dd616659bd"
+RPM_NAME = "openQA-common-4.6.1689265095.7be7504-1.1.aarch64.rpm"
+RPM_HASH = "607741e9895b69141c3ad9b4638f3ecf5e77efe3ebfca122e5fc48efbf082b9e14140f89d6a13395a37af81027d9a92c90bf5108499fe97ef928532103e6c82e"
 
 RPROVIDES:${PN} += "openQA-common \
 perl-OpenQA \

@@ -3,10 +3,10 @@ DESCRIPTION = "Server side daemon and driver required to manage the virtualizati
 capabilities of LXC"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.4.0"
+PV = "9.5.0"
 
-RPM_NAME = "libvirt-daemon-lxc-9.4.0-3.1.aarch64.rpm"
-RPM_HASH = "704ed7d6e8da35176798e13d05d52717fd9561321c7b855f6ccec8a2b9502c85bb8f101d8ba073a51e25818ed859162f40e167e754122cd301754dcf0236ba10"
+RPM_NAME = "libvirt-daemon-lxc-9.5.0-1.1.aarch64.rpm"
+RPM_HASH = "f76505ecdfeb2c73092366200a83e880a6c0b3f0f97070d8e3fbd653360a87ae73be1cbe5f71948a0ee7458195444c558cd349fe0bee6e23a2d4ad2d55424a89"
 
 RPROVIDES:${PN} += "libvirt-daemon-lxc"
 

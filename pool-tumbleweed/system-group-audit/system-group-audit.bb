@@ -2,10 +2,10 @@ SUMMARY = "System group 'audit'"
 DESCRIPTION = "This package contains the system group 'audit' for read access to logs."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.0.9"
+PV = "3.1.1"
 
-RPM_NAME = "system-group-audit-3.0.9-1.5.aarch64.rpm"
-RPM_HASH = "c0c4a0b055198949c933c045ce404de6db5a761e8e8e9de27916c73ee0c004129a8e9927d7f55268022d2c6cf3481a4a612a553e9d075e2f367e36b3f82f9772"
+RPM_NAME = "system-group-audit-3.1.1-1.1.aarch64.rpm"
+RPM_HASH = "39edf26a85ed776c263587457c35d1bb365272c4c50ce7d796f2981b66a01af83f0c7cf855f106022004245eb7583a94d82ca67025914666ee11c6345ffa35e2"
 
 RPROVIDES:${PN} += "group-audit \
 system-group-audit"

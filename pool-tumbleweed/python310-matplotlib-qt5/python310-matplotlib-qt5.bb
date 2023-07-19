@@ -5,8 +5,8 @@ LICENSE = "SUSE-Matplotlib"
 
 PV = "3.6.3"
 
-RPM_NAME = "python310-matplotlib-qt5-3.6.3-2.3.aarch64.rpm"
-RPM_HASH = "4b17268c0d34bae799c7370ec5b771350c4525aae362a7ff74acb869a4fff0f2bcfa8635ee1047dee25b0c0910cac92f9aae690a3d35458edb901bbcd0277019"
+RPM_NAME = "python310-matplotlib-qt5-3.6.3-3.1.aarch64.rpm"
+RPM_HASH = "f99b9660e8cf3fd4d9b39bbacad0e89471a5d1ef07a6aa21ed3fdf2296c2430c1cbacb3f0f429f4c176032d3b07e1df464d93d325de313ae7bc63c35789422c6"
 
 RPROVIDES:${PN} += "python310-matplotlib-qt-shared \
 python310-matplotlib-qt5"

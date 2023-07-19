@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.2.0"
 
-RPM_NAME = "syslog-ng-geoip-4.2.0-2.2.aarch64.rpm"
-RPM_HASH = "50305a4728d7df2d39375a580155a9b4bfd5ccdb60e39afc74d781c0c2472337133a4b0096cea7a686eb5694c843851ada5a5c333d9f4bed49e1e81343f8ecba"
+RPM_NAME = "syslog-ng-geoip-4.2.0-3.1.aarch64.rpm"
+RPM_HASH = "b20f60f5de8e5bcb2fb854addcecb980b98b65fa628283d34109a5d554f893ddd8420d16affc6f8086bdd548d168a5354e6b1e24e91e20cc2577deca2613f581"
 
 RPROVIDES:${PN} += "syslog-ng-geoip"
 

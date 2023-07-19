@@ -6,8 +6,8 @@ LICENSE = "GFDL-1.1-only"
 
 PV = "2.37"
 
-RPM_NAME = "glibc-info-2.37-4.4.noarch.rpm"
-RPM_HASH = "9485fa3dd2328c6ce99fe07ade69a9b4f8c1bdbdd3abff3e0f21c77aa5fd8817f4415918c2aaa0a9688d1654060d815918994337deb27ba55a651a083c77dbfa"
+RPM_NAME = "glibc-info-2.37-5.1.noarch.rpm"
+RPM_HASH = "ab7e37384646860cf87c744614026353fa9bf5bf33bcb0bb5a852abc6f3a9cbc8511b244dfae20bf37ea55860712bdd432637bcef95883ff31e866f7befc5833"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glibc-info"

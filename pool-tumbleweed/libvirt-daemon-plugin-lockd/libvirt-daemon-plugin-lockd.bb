@@ -3,10 +3,10 @@ DESCRIPTION = "A client-side plugin that implements disk locking using POSIX fcn
 locks via communication with the virtlockd daemon"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.4.0"
+PV = "9.5.0"
 
-RPM_NAME = "libvirt-daemon-plugin-lockd-9.4.0-3.1.aarch64.rpm"
-RPM_HASH = "1442c567a7521972d589dc065be4e89f82cd5d76e58622829e6bd2c1e5ed62b8743c47ba8e863848631f169997c96f0f38892f6717910b21d1d73ded5797e215"
+RPM_NAME = "libvirt-daemon-plugin-lockd-9.5.0-1.1.aarch64.rpm"
+RPM_HASH = "f760bcdb48d0285b20a7c42b7d8608e9d9037bac07bdcc952f17cbe3116823488626481f93c540ad84fc532646acbbbd5e23e87932db56eddfdc3c08f7669a2f"
 
 RPROVIDES:${PN} += "libvirt-daemon-plugin-lockd"
 

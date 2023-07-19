@@ -2,10 +2,10 @@ SUMMARY = "Rawtherapee fork with masks and simplified UI"
 DESCRIPTION = "A free, open-source, cross-platform raw image processing program. ART is a derivative of the popular RawTherapee, trading a bit of customization and control over various processing parameters for a simpler and (hopefully) easier to use interface, while still maintaining the power and quality of RawTherapee."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.20"
+PV = "1.20.1"
 
-RPM_NAME = "ART-1.20-1.3.aarch64.rpm"
-RPM_HASH = "ed519e5c1351599f162f2ab0b8ff2040d6074701b6dc53930f6a7f9ed2eefab7a13bb6c4866e922c17a40aa854b3dae79f158782f9cda6579f1ab2d75e3bb733"
+RPM_NAME = "ART-1.20.1-1.1.aarch64.rpm"
+RPM_HASH = "b4820e69e399af5ae589dac209db0d92da8079a20c26ed6966576661168f9ae29514ae78ae0b19172feb127e74ee260bf39a61d26f5af4b8c1a5ce45b6450d16"
 
 RPROVIDES:${PN} += "ART \
 librtengine.so"

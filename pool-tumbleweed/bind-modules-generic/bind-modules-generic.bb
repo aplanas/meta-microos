@@ -10,8 +10,8 @@ LICENSE = "MPL-2.0"
 
 PV = "9.18.16"
 
-RPM_NAME = "bind-modules-generic-9.18.16-2.1.aarch64.rpm"
-RPM_HASH = "7987109e674c97afaa2dd41fc6604427db4e1941fd25a8baca73941341ec51a68bfe95012238343d6f8e176f44e64c29ed077d42aa6e86eebdf5583c19c2e0c1"
+RPM_NAME = "bind-modules-generic-9.18.16-3.1.aarch64.rpm"
+RPM_HASH = "e15234caaa56c1dfb87710422307797ca5ac113826dfaeda21213c7ac6a201882e2137aba9a0248975c6fd638fe899e16848939aa84955982fa81bba445cbe53"
 
 RPROVIDES:${PN} += "bind-modules-generic"
 

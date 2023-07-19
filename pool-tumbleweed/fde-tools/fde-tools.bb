@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.6.5"
 
-RPM_NAME = "fde-tools-0.6.5-2.1.aarch64.rpm"
-RPM_HASH = "8021bac5be57def4d84ae119acd196dd86abbe68446ce57b014a3f8c5646843e7e8fff259ad397f90d792de6e96475ccc950637b3e53102b75ac3d62c5d6388f"
+RPM_NAME = "fde-tools-0.6.5-3.1.aarch64.rpm"
+RPM_HASH = "5b1805ac0c08f87116bb86f75df7ed7d56a0d060968ffd59548146d528c8aec265f8d5c8e394ac29757c73f52546864c8dcabb2a9417a187fa535758be073654"
 
 RPROVIDES:${PN} += "fde-tools \
 libcryptsetup-token-grub-tpm2.so"

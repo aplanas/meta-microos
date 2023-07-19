@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "nemo-extension-compare-5.2.0-3.6.noarch.rpm"
-RPM_HASH = "a4932c9ca2868815459772df39d423c4f9d20bf71585f902d5a4d2a8e61d803d70c5c490fc5ede6dd10f27191f7c51420b2efda6b6ca83c91c3728dca4e793af"
+RPM_NAME = "nemo-extension-compare-5.2.0-4.1.noarch.rpm"
+RPM_HASH = "001adedd2bc0494f92641e7ca72beca8503cf745f4558ab94736c9956771464f4740aeeb82bef74bdbbd5efc0df84b746c1e0cbb4ed6d1e3bcd901c8df4a5fb7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-compare \

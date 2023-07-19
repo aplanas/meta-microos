@@ -5,10 +5,10 @@ MediaInfo supplies technical and tag information about a video or \
 audio file."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.06"
+PV = "23.07"
 
-RPM_NAME = "mediainfo-gui-23.06-1.1.aarch64.rpm"
-RPM_HASH = "181fa41bc1c95898b4b723aeffd1a1543f5e046de66a9dcb2b5bb4b6938ee472179618816e34a5364afa921dc15fd704889c5edfbdee61e680577d09877b14c6"
+RPM_NAME = "mediainfo-gui-23.07-1.1.aarch64.rpm"
+RPM_HASH = "d523bfca37ca41f5d29da52a314acc14b3f45f4692ee2c8611a67397f4087dad441525f9571907bfc40982075ae2e01f2342785a4cb8577759f23fe6359699a5"
 
 RPROVIDES:${PN} += "MediaInfo-gui \
 mediainfo-gui"

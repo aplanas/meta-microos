@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.37"
 
-RPM_NAME = "nscd-2.37-4.4.aarch64.rpm"
-RPM_HASH = "6b3bd7dd47c0b68ae41cb96ae332ebf3f759e14530e915e4d68d355cf1f3a4035b1c8533777da398801def2d42b17dcf0fcff2e2b038d33c8ab33f67f0445e7d"
+RPM_NAME = "nscd-2.37-5.1.aarch64.rpm"
+RPM_HASH = "9824c14255118c0ae35a8e6b73b4663dd948f81298ff9a7d1250c670f31e211474d29c29090ed1ffd6f915498247161c6aae9b6a3721817ba5840ad52df55153"
 
 RPROVIDES:${PN} += "config-nscd \
 glibc-/usr/sbin/nscd \

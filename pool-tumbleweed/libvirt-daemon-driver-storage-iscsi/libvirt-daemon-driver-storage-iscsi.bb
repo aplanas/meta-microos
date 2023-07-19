@@ -3,10 +3,10 @@ DESCRIPTION = "The storage driver backend adding implementation of the storage A
 volumes using the host iscsi stack."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.4.0"
+PV = "9.5.0"
 
-RPM_NAME = "libvirt-daemon-driver-storage-iscsi-9.4.0-3.1.aarch64.rpm"
-RPM_HASH = "2fdf172c80acefbba11496ed1c684c14d7b307ac907638e7858590b1710e445a5e6f9b584fb9d7b43cd2d073142204538ab8d3693f934aa5b310ef20b539c5f3"
+RPM_NAME = "libvirt-daemon-driver-storage-iscsi-9.5.0-1.1.aarch64.rpm"
+RPM_HASH = "cbf4a6996333de41dacff747c2b013c2d3423f9001172b895d49a6295bbc8dc8a41954119ebe56adeff28142eceb186f65e6bc7b89a2514987fbe2b3f32671b1"
 
 RPROVIDES:${PN} += "libvirt-daemon-driver-storage-iscsi \
 libvirt-storage-backend-iscsi.so"

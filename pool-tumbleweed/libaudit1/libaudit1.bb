@@ -3,10 +3,10 @@ DESCRIPTION = "The libaudit package contains the shared libraries needed for \
 applications to use the audit framework."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.0.9"
+PV = "3.1.1"
 
-RPM_NAME = "libaudit1-3.0.9-1.5.aarch64.rpm"
-RPM_HASH = "5de54a9ebe983b3ccbf7ea961148fac7a3a24b33148be7137ac0c0beddd1f01dfde037dd3d2e1077eaa994afc6b0f8a14ed104f0322be78df9a81c4cd47cf1d1"
+RPM_NAME = "libaudit1-3.1.1-1.1.aarch64.rpm"
+RPM_HASH = "acae50e61679b2f0cf2f99147af29274a2a6a61b40b46af5515c7bad60648a30985582fc07a9240a9e2e69a0b3b3ffb780480821b2657e46ba7046202604bfc1"
 
 RPROVIDES:${PN} += "audit-libs \
 config-libaudit1 \

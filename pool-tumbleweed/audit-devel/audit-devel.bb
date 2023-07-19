@@ -4,10 +4,10 @@ needed for developing applications that need to use the audit framework \
 libraries."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.0.9"
+PV = "3.1.1"
 
-RPM_NAME = "audit-devel-3.0.9-1.5.aarch64.rpm"
-RPM_HASH = "8b5501512baec63f29653de31d9e3e0bfc8b566261a9e4aba3e122d561dd51f160a899c09a29cec4fc2a65f96eb11e3e244e49d926e3d7d3be278b4c9561df67"
+RPM_NAME = "audit-devel-3.1.1-1.1.aarch64.rpm"
+RPM_HASH = "06e15806f1b886d1f0d1fed32782d8fbb745562f908d82e9007e7eda1ecfd545b4920c47db4039669bcd78de6b87a408e38375d0b04c3acd148e9843eb16621e"
 
 RPROVIDES:${PN} += "audit-devel \
 pkgconfig-audit \

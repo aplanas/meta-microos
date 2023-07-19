@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.2.0"
 
-RPM_NAME = "syslog-ng-sql-4.2.0-2.2.aarch64.rpm"
-RPM_HASH = "4440f54d2f781e2a5f078eb3f8d29b7b8abf429b6e75d108d6694d8b9fb804cd82438d1ec9db409d90dad8531c4bf665668d46f41a207acc68e9f3ab7928bb19"
+RPM_NAME = "syslog-ng-sql-4.2.0-3.1.aarch64.rpm"
+RPM_HASH = "1c6a00384ddf54fe32e4b4eddf3b8d48fa2b450681df0adf640ceb89a061030bbd33374673f01862fec3ca9462b494ac17b5c4f6eba07856b3b2c852055883c3"
 
 RPROVIDES:${PN} += "syslog-ng-sql"
 

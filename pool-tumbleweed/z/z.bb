@@ -3,10 +3,10 @@ DESCRIPTION = "Z is a frontend for the compress/uncompress, gzip, bzip2, tar, an
 utilities to compress and uncompress files and directories."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.7.3"
+PV = "2.7.4"
 
-RPM_NAME = "z-2.7.3-1.8.noarch.rpm"
-RPM_HASH = "2d9604a163fb0815884e2ceb5691580b625fccdc5e7e4fce266fa3992007e1a7dcefbed691090469a81d08a0f9ee9c3f3ddc48fcd16c3caac5a56cbfa341de80"
+RPM_NAME = "z-2.7.4-1.1.noarch.rpm"
+RPM_HASH = "a3302d7753509fff3af1d144fef3501453137b55eb38edc13edf6d51424c81f8d8cc491bec0f9157ddc54d61ff2887775c23f24ea4a082792e71f485245d4c6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "z"

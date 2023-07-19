@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.5.8"
 
-RPM_NAME = "python3-ara-1.5.8-1.5.noarch.rpm"
-RPM_HASH = "c829de11f63d792905e9f81d10f785d3e2656151ea6eca012287e022153853edc633b3fb1e8c1687c57ad6b7d0f1ad670ec87b3382890d0ee4edeb185f624ecd"
+RPM_NAME = "python3-ara-1.5.8-2.1.noarch.rpm"
+RPM_HASH = "282ecca0f6a52c0d4cbbb13c22f3bbd6ab19d76421baedf5ae6536fc7c914adab0b9d8613a5773943cf9205af02a35741deb8e3a69e8bca920237835a14400fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ara \

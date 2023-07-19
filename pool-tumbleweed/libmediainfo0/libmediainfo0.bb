@@ -24,10 +24,10 @@ Container formats that are supported: \
 This package contains the shared library for MediaInfo(-gui)."
 LICENSE = "BSD-2-Clause"
 
-PV = "23.06"
+PV = "23.07"
 
-RPM_NAME = "libmediainfo0-23.06-1.1.aarch64.rpm"
-RPM_HASH = "30109f42d2125eb9b3cedefaca0578deaaf812cac3ac8883ec6c5c94440315ae5ed0fa77087f92966de480d5447c91da58adf2ac12fad8108c215b3dcef74c2c"
+RPM_NAME = "libmediainfo0-23.07-1.1.aarch64.rpm"
+RPM_HASH = "e59853a72a74037e89cc3d4cfb67cca1b23b71e4db4ec663894f8089bd1b1db069c567a50e152f18da993406ca829a5fa9d2165a5e1edc395d1948f8788b237d"
 
 RPROVIDES:${PN} += "libmediainfo.so.0 \
 libmediainfo0"

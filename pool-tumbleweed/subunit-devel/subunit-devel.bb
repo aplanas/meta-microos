@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | BSD-3-Clause"
 
 PV = "1.4.2"
 
-RPM_NAME = "subunit-devel-1.4.2-2.4.aarch64.rpm"
-RPM_HASH = "0190b33b1f0dc2d54a91dad2a9b29a7ed882821a534da3057b998de5d29b2496761914a7776d691b1516fd409c951b011cec75890cfccadc76d80a8d5573c9bb"
+RPM_NAME = "subunit-devel-1.4.2-3.1.aarch64.rpm"
+RPM_HASH = "65a216e4b997b6719fe5d0f049faceed7c6bf59dad950f49b7c324d881da16c0ef931f1b88e13d118dc9349115d5354f1b99ad0000fd7ab8e37fd09fc7b8f0d6"
 
 RPROVIDES:${PN} += "pkgconfig-libsubunit \
 subunit-devel"

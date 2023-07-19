@@ -6,8 +6,8 @@ LICENSE = "MPL-2.0"
 
 PV = "9.18.16"
 
-RPM_NAME = "bind-doc-9.18.16-2.1.noarch.rpm"
-RPM_HASH = "d0da1e09449c2aee4714ab5406986f0902c92b21a7be05a08fe851bf727eb19777aeb10762eebb4932c17e615c6cc77890e70c450328c628b3586ba190a4dea1"
+RPM_NAME = "bind-doc-9.18.16-3.1.noarch.rpm"
+RPM_HASH = "e1a22c61d62c16b97a3f8529b97c45defac1b568a1cc2e326c5efc94ec00fff96fd8c81c488fbdc7a6de9ba44912d0a7db3c6eee65019740acdbb314b9753905"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bind-doc"

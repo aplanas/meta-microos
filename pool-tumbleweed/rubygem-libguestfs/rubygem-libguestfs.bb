@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.50.1"
 
-RPM_NAME = "rubygem-libguestfs-1.50.1-3.3.aarch64.rpm"
-RPM_HASH = "50ae2d8cc54192b459744b19a7f5c95937cafd032efc43b7e02addc78ff4147f198ce3e10bac27a1f0381c1de3a378097127b19d90c7a311d14df97a7665f0e2"
+RPM_NAME = "rubygem-libguestfs-1.50.1-4.1.aarch64.rpm"
+RPM_HASH = "2fc45ffd2f5d4ec4f3b656fb708d6e7f7364e1eb7d0c30ba065bef918b6faf634e16894ecc7b31e3743ac09d0a40035f2fbeb5d6dd1015bdafba72a31241b827"
 
 RPROVIDES:${PN} += "rubygem-libguestfs"
 

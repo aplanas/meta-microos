@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "17.89"
 
-RPM_NAME = "tftpboot-installation-openSUSE-MicroOS-aarch64-17.89-1.40.noarch.rpm"
-RPM_HASH = "2af8428fd8bebbd36d9ab0b3186f2a06b08c16f5f0a2d9a334804e41224a7e9835b4bf0862872460266344079390831581a3dbcb7c889127be119e128da56bc4"
+RPM_NAME = "tftpboot-installation-openSUSE-MicroOS-aarch64-17.89-1.46.noarch.rpm"
+RPM_HASH = "72b1f1695998c4088eeb1711b6431b0c99b1a6d36bcc77d4b30d9e3fab40776a5416cddc6dd4b3232c4fd50386fcb1527681e5a58ee4c592a9944c3bb713137e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tftpboot-installation-openSUSE-MicroOS-aarch64"

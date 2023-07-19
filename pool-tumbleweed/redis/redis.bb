@@ -7,10 +7,10 @@ side union, intersection, difference between sets, and so forth. Redis supports 
 different kind of sorting abilities."
 LICENSE = "BSD-3-Clause"
 
-PV = "7.0.11"
+PV = "7.0.12"
 
-RPM_NAME = "redis-7.0.11-2.2.aarch64.rpm"
-RPM_HASH = "7ded6b9b63e262530d43197936c76c91f227a626bfe53e6f288238358c43aefb701790089b085f62933f23e8d2e3bd93d3094d17a4fa164caf205b103a223b2b"
+RPM_NAME = "redis-7.0.12-1.1.aarch64.rpm"
+RPM_HASH = "5a4ac08dcf661e38025b5c12ddcea1ee937d19b0092d8628f3ab11a4d7b42d7f026e302d5102ba04eea11ee8a1da70128478e2f7408d4507125915e5bfc2a0c9"
 
 RPROVIDES:${PN} += "config-redis \
 group-redis \

@@ -2,10 +2,10 @@ SUMMARY = "Python interface for AWS"
 DESCRIPTION = "A low-level interface to a growing number of Amazon Web Services."
 LICENSE = "Apache-2.0"
 
-PV = "1.29.163"
+PV = "1.31.2"
 
-RPM_NAME = "python39-botocore-1.29.163-1.1.noarch.rpm"
-RPM_HASH = "22abbe00ac70bd5e0c7a5e3d425514a7f444b2098e14adf03166cf2272273eb2677684a81e28da23622796ff3ed4df3d9c04ceabc19a734d3e5457be063eff82"
+RPM_NAME = "python39-botocore-1.31.2-1.1.noarch.rpm"
+RPM_HASH = "f42df7731a445c7f38bf6dfc5ff0d9493a1872be5f6f66af0437a23819c88efc6dd8648508188baaaeb838b1825f517c8632c6778815f4afdc154c21b1776b8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-botocore \

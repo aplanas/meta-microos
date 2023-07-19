@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "8.0.3"
 
-RPM_NAME = "crash-devel-8.0.3-1.10.aarch64.rpm"
-RPM_HASH = "8a903c0b993096a56475f4a98d3bafbf75e1adc6f5f4beaef7e5b7fbca27982cafe4d2a1cbc28d16779d0b31db33b2da2f6b29bdccd3292338bc3aace79c81e3"
+RPM_NAME = "crash-devel-8.0.3-1.11.aarch64.rpm"
+RPM_HASH = "774a3427aa855b0029562536ecc17992bb2439f69c1f059b16ba37fb39a0325bbdaeb4f892ed66f0f9911ae00989a5e6cf05af65bff61c71545134152bf209f3"
 
 RPROVIDES:${PN} += "crash-devel"
 

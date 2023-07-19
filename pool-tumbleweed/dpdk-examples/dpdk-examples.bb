@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-2.1-only"
 
 PV = "22.11.1"
 
-RPM_NAME = "dpdk-examples-22.11.1-2.9.aarch64.rpm"
-RPM_HASH = "edce64431990aafc59820b82383494b75f1e9269688dc470df6786cf532b5c4958c5b78910af53971e9bd082a235bf174d9d16f0af2c620d8493e3271c4de2b3"
+RPM_NAME = "dpdk-examples-22.11.1-2.10.aarch64.rpm"
+RPM_HASH = "42108bb9ab8fe726c1df330a773a12e101fe5897c3d750ad157e2faf0fe85ac6ec6678ce0b088707c41f604550aba3f55ab29f09f3e512feb2b71c6b17c64d79"
 
 RPROVIDES:${PN} += "dpdk-any-examples \
 dpdk-examples"

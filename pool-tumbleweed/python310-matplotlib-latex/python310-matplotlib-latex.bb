@@ -5,8 +5,8 @@ LICENSE = "SUSE-Matplotlib"
 
 PV = "3.6.3"
 
-RPM_NAME = "python310-matplotlib-latex-3.6.3-2.3.noarch.rpm"
-RPM_HASH = "963354a18699a599ca62742fc4d09192a742993acd5ea81b27673f044716482811cb66faf3a23be8814aecd5dae0bdb483a72e556fba287d65b2a270bdd8246c"
+RPM_NAME = "python310-matplotlib-latex-3.6.3-3.1.noarch.rpm"
+RPM_HASH = "03dc5de4823ee5e50dd81b1d8bbbd1d449d83d3e7d733c33f862df0bdcfda6628d6b8cd09b920edf47841c0b8cc73c653b97950f1896ba7c1bc8b5e086ee1cc1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python310-matplotlib-latex"

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.02.122+94.4bd41a3"
 
-RPM_NAME = "plymouth-theme-spinfinity-22.02.122+94.4bd41a3-5.1.noarch.rpm"
-RPM_HASH = "bba251a0dcc5aa0b57176a4804947106c1e6da54e2e8de40c35d924a217ae525bf722f454df8409204d8b6dcb2c1fd6cb540ca74084fd1a352f8bfa314b2ebcc"
+RPM_NAME = "plymouth-theme-spinfinity-22.02.122+94.4bd41a3-6.1.noarch.rpm"
+RPM_HASH = "a405bedcf56d75de033d4d8937df9b5ed15fa318148f510a981590e86d03194f327ee8153bbb6454dfcb2f24cfe4dc8a85bede65c780ce5e2be1134a966f0f3a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plymouth-theme-spinfinity"

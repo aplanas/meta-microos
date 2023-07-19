@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only & MIT"
 
 PV = "2.13.9"
 
-RPM_NAME = "lttng-modules-2.13.9-1.8.aarch64.rpm"
-RPM_HASH = "8ed9e6876546cc0009da3409994dc6fdce344baa15a7c8fb643a22ff8c58f2a5d4975075fdcfcadbc01e9b532824c436dab8f0ed51039488674f741314451b11"
+RPM_NAME = "lttng-modules-2.13.9-1.9.aarch64.rpm"
+RPM_HASH = "2ead60d534c059a323ea75af62cc8f4e6e3ec1ec342f8e24c3538dac3940aff649b6d4fceb721ae10aba73d9994f7b52b8730a07c9f1b4efbfb614d307cb8dfe"
 
 RPROVIDES:${PN} += "lttng-modules"
 

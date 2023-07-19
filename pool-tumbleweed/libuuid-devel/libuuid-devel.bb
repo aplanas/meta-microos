@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.39"
 
-RPM_NAME = "libuuid-devel-2.39-2.1.aarch64.rpm"
-RPM_HASH = "8a274ac5a21d1480819760819f1445d5c8a91d4aa2fee8cedb93fac211fe2d02024cb5f83551358d79c425860ca39c2bda66e098ffdd51141296b4bf278eb74d"
+RPM_NAME = "libuuid-devel-2.39-3.1.aarch64.rpm"
+RPM_HASH = "7a263d8ab69bb3c4b104a4c8ea8a3caba252bf41782f3ccb6f6d956d2903a4b195f845330cd246cddafd3ee2de123f6b4bba145508a161853137671bd9ed51a1"
 
 RPROVIDES:${PN} += "libuuid-devel \
 pkgconfig-uuid"

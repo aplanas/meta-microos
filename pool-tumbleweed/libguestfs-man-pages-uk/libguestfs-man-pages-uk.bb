@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.50.1"
 
-RPM_NAME = "libguestfs-man-pages-uk-1.50.1-3.3.noarch.rpm"
-RPM_HASH = "9cd3596e97af189e8474b921b328aedcb6390f986d0e71f0fa9afd8e7f39ca8b0e71e4f4a6ad47a1c6d8aa3cfc2cad7b77fbae14faa8424f390bd9fc260e1eef"
+RPM_NAME = "libguestfs-man-pages-uk-1.50.1-4.1.noarch.rpm"
+RPM_HASH = "da287790799614594b98d285e41c1f89e37f56558f655397317282b7c4260b64fef64ad7f106eb2a31c19f93d539ab6772fd7f9a79b4c695a910b288faa8eacf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libguestfs-man-pages-uk"

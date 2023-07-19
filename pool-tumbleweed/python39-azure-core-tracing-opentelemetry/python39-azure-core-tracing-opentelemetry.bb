@@ -2,10 +2,10 @@ SUMMARY = "Azure Core Tracing OpenTelemetry client library for Python"
 DESCRIPTION = "Azure Core Tracing OpenTelemetry client library for Python"
 LICENSE = "MIT"
 
-PV = "1.0.0b9"
+PV = "1.0.0b10"
 
-RPM_NAME = "python39-azure-core-tracing-opentelemetry-1.0.0b9-1.10.noarch.rpm"
-RPM_HASH = "731d9eb4463e7717560eb7426fa66886c769d5c9234cb03350f7a50304767d4300a01322c9e040ac14d349f6a5f2f725f2eb17142945826d3f07449accde6ca1"
+RPM_NAME = "python39-azure-core-tracing-opentelemetry-1.0.0b10-1.1.noarch.rpm"
+RPM_HASH = "dbdfbacadfd93c2802c79a3f383fd91be5ea4472a9a118411c349acff9d2f89d6156f2751336feefee3dd207bf2ad2130a21b635753287d97ad4031f693e131b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-core-tracing-opentelemetry \

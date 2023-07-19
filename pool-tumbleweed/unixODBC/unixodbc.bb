@@ -5,15 +5,16 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.3.11"
 
-RPM_NAME = "unixODBC-2.3.11-2.5.aarch64.rpm"
-RPM_HASH = "3fb6484e3b09a7df7ac92bae2f2b67e452f2e4af92760d8621a794e2174b33b7a74fdeb0b518845c49e2c5d708b8cd6e9ba615755453eb0bf4fd374a6e150067"
+RPM_NAME = "unixODBC-2.3.11-3.1.aarch64.rpm"
+RPM_HASH = "594da4f1ff7227fa906423dae9b35636fca97e0b5dd4abe39f32d3b8d0208604dcaa2563282ced842d7f2404ad006d0dcef75c719104880f5bac5d2a24d76369"
 
 RPROVIDES:${PN} += "config-unixODBC \
 libnn.so.1 \
 libtemplate.so.1 \
 unixODBC"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "glibc-locale-base \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
 libltdl.so.7 \
 libodbc.so.2 \

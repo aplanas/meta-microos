@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.02.122+94.4bd41a3"
 
-RPM_NAME = "plymouth-plugin-tribar-22.02.122+94.4bd41a3-5.1.aarch64.rpm"
-RPM_HASH = "18c21bf8ade23d0303b4af8feefed98a8446461f3fa345a0d4e3fa6f78c53b404101b9073a94f5ea014a95d6447cfccec734f4a191f863395126283eb796801e"
+RPM_NAME = "plymouth-plugin-tribar-22.02.122+94.4bd41a3-6.1.aarch64.rpm"
+RPM_HASH = "3871765e8f516b72c2758bdd53b3ebe568e8bafae082d97f493e890d934219029e535eb99c534bc4cb4e3a1b3a13b821a9ee3442178cc9e84dcdf61253b409dd"
 
 RPROVIDES:${PN} += "plymouth-plugin-tribar"
 

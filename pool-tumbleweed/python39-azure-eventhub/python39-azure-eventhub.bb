@@ -19,10 +19,10 @@ Hubs events and may be used to: \
    your ecosystem, then publish the transformed events to a new stream for consumers to observe."
 LICENSE = "MIT"
 
-PV = "5.11.2"
+PV = "5.11.3"
 
-RPM_NAME = "python39-azure-eventhub-5.11.2-1.3.noarch.rpm"
-RPM_HASH = "579b8f90594a11bbb5b1c7be47d9f90b46adbe1f9a30e0f4c956549e9deb023146910fe0c66f6bcde50c0d43cc996f69e594b77ebe33bb6ca4cc4360bdb4906a"
+RPM_NAME = "python39-azure-eventhub-5.11.3-1.1.noarch.rpm"
+RPM_HASH = "4c73d5bddf42e0557e7855424db7fa06f9040bcf7d88403512c29d530e6b65650ee45f55431f16c3f2ccd1516c2b6f9e2949113eb41dbc5659ba054030685a1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-eventhub \

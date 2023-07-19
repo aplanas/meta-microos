@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later & SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "2.6.1"
 
-RPM_NAME = "cryptsetup-ssh-2.6.1-2.1.aarch64.rpm"
-RPM_HASH = "2cab21057b03923b6f6be8095cdc778518ab8f6f411b1c0001d2486061a0f6e47a737757cb84948ef22d222f32bd48b7689887c39ec14d2c6590af60aa60a70e"
+RPM_NAME = "cryptsetup-ssh-2.6.1-3.1.aarch64.rpm"
+RPM_HASH = "bf87657c421af42d2f345b7f9a358f487d13c23723c44a1b89fad84e4f4f4be6f6725bf1ee56e2ffcfb95e5d5c847114962771fccf792549f71fdcf44232c511"
 
 RPROVIDES:${PN} += "cryptsetup-ssh \
 libcryptsetup-token-ssh.so"

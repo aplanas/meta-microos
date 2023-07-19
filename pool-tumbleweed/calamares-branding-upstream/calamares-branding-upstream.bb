@@ -5,10 +5,10 @@ Meanwhile configuration files adopted to work with openSUSE and SUSE \
 based custom appliances."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.2.36"
+PV = "3.2.62"
 
-RPM_NAME = "calamares-branding-upstream-3.2.36-1.20.noarch.rpm"
-RPM_HASH = "8a0a1a59bb386087306ce9af3ef18ee9c88552ed13a5090b0e32b5304cbe155481ec3181f379777371d353de63afcd8b3f394da0c6277fb694c6ee02c66c3360"
+RPM_NAME = "calamares-branding-upstream-3.2.62-1.1.noarch.rpm"
+RPM_HASH = "08a34a90eff35c514a0ae1a149ee029f39e3a647788bbdc686628efd0397fb96d2bc7c01e6225a112233d1b4aed701a4dae9cca93a33c48b7d91b9f754213d3a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "calamares-branding \

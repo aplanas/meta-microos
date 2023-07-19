@@ -10,10 +10,10 @@ Use the client library for Azure Container Registry to: \
  * Delete images and artifacts, repositories and tags"
 LICENSE = "MIT"
 
-PV = "1.1.0"
+PV = "1.2.0"
 
-RPM_NAME = "python311-azure-containerregistry-1.1.0-1.2.noarch.rpm"
-RPM_HASH = "0ae794b85f65b3221120af9260f4ed0264307bb4ce204d66e84e54042be5b7c2bb116c3c91481a7e6c852c404ded5fd0326033e6b041b0fe66cca9d034bfce08"
+RPM_NAME = "python311-azure-containerregistry-1.2.0-1.1.noarch.rpm"
+RPM_HASH = "afc8cd1362b745aca24e95d96d140f0bfe8251ab0947f1e13a5a551218c7e948bcb5f6c79f5ba29891a7f3174777f89ef4382edc3bb12b4be56556a6df175712"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-containerregistry \

@@ -2,10 +2,10 @@ SUMMARY = "A Wayland-native application launcher, similar to rofi's drun mode"
 DESCRIPTION = "A Wayland-native application launcher, similar to rofi's drun mode."
 LICENSE = "MIT"
 
-PV = "1.9.1"
+PV = "1.9.2"
 
-RPM_NAME = "fuzzel-1.9.1-2.2.aarch64.rpm"
-RPM_HASH = "97358ac33e4bef36aca4e240614d412c9adeca1dc2c5c2373c067e8a3c185a418bc81c6fa1fa580f1d51dd669fc940c11cd3458c3981fd74b6d22124ec6abf8b"
+RPM_NAME = "fuzzel-1.9.2-1.1.aarch64.rpm"
+RPM_HASH = "edbae1caa4dedb94e1d45b8b152c46bb9e73496d0b1ad9c40151e90b10c6e9c68ec3f2f5738fd7a01705f238f72322f6dd61117aa22a666b78648e9059b5870c"
 
 RPROVIDES:${PN} += "config-fuzzel \
 fuzzel"

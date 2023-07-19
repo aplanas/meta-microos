@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.02.122+94.4bd41a3"
 
-RPM_NAME = "plymouth-devel-22.02.122+94.4bd41a3-5.1.aarch64.rpm"
-RPM_HASH = "664f6da5b42df6f0c03b2b977dafaef7bf6c621dfa9c461ac4b6754cef2d5cbf7012b07b0482b00d9b3278cf60b0a84df38d331c7b8728b0f048224b4f87a72d"
+RPM_NAME = "plymouth-devel-22.02.122+94.4bd41a3-6.1.aarch64.rpm"
+RPM_HASH = "ee6f77ce63ad71cb90e6f6a79ccec5461a813c1f1bd7cbdbe0752e9708b2232a262c3c12675a0c1fce4213455eadf531b19c63ba2aea8cd1475240e439e32880"
 
 RPROVIDES:${PN} += "pkgconfig-ply-boot-client \
 pkgconfig-ply-splash-core \

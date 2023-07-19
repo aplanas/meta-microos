@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn34971"
 
-RPM_NAME = "texlive-getmap-bin-2023.20230311.svn34971-92.1.aarch64.rpm"
-RPM_HASH = "00571544ccd03ab1613801c859bfd38554e2e9d8faf41892dd88a7cace7b982c3870e1d5bee1cee060e56226269a8e238ae1a2cd17c9849a174ae3bfc914dccc"
+RPM_NAME = "texlive-getmap-bin-2023.20230311.svn34971-93.1.aarch64.rpm"
+RPM_HASH = "b05cb01d8a95431311d4ad7f8577973d9fa023fe898a3b12556ef97bbe90f11040c1e7efcd8bd9f1b150385a8a02a7bfb6889bc4e4ec20bf98a1096c2f2c83da"
 
 RPROVIDES:${PN} += "texlive-getmap-bin"
 

@@ -2,8 +2,8 @@ SUMMARY = "The Standard Kernel - base modules"
 DESCRIPTION = "The standard kernel for both uniprocessor and multiprocessor systems. \
  \
  \
-Source Timestamp: 2023-07-10 10:03:25 +0000 \
-GIT Revision: b97b89494481f3409297e494e466bdd42b1311ab \
+Source Timestamp: 2023-07-11 06:23:11 +0000 \
+GIT Revision: 5ab030f1f07fd96746960bce337ec62fc11b6a9a \
 GIT Branch: stable \
 This package contains only the base modules, required in all installs. \
  \
@@ -12,21 +12,21 @@ kernel-default-devel, sources in kernel-source, and \
 debug information in kernel-default-debuginfo."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.2"
+PV = "6.4.3"
 
-RPM_NAME = "kernel-default-base-6.4.2-1.1.28.2.aarch64.rpm"
-RPM_HASH = "47bafc39c5ce2cb211909788402c8d938a36ede6ac4d65af0041e7511e6907749539e713bbba55d1f3ce0fc96b231a5c31ccd37b025ce43025ed2824c9cb2599"
+RPM_NAME = "kernel-default-base-6.4.3-1.1.28.3.aarch64.rpm"
+RPM_HASH = "bb5c3b5603f3f9ff155ba85a3cefc7fc47ee067431054957293f61e2776c456cb105098339bc4603bac4018d6c1fd68434f5e37511d9996186794ef4d1877be4"
 
 RPROVIDES:${PN} += "kernel \
 kernel-base \
 kernel-default \
-kernel-default-6.4.2-1 \
+kernel-default-6.4.3-1 \
 kernel-default-aarch64 \
 kernel-default-base \
-kernel-default-base-srchash-b97b89494481f3409297e494e466bdd42b1311ab \
+kernel-default-base-srchash-5ab030f1f07fd96746960bce337ec62fc11b6a9a \
 kernel-preempt \
 kernel-preempt-aarch64 \
-kernel-srchash-b97b89494481f3409297e494e466bdd42b1311ab \
+kernel-srchash-5ab030f1f07fd96746960bce337ec62fc11b6a9a \
 kernel-uname-r \
 kmod-8139cp.ko \
 kmod-8139too.ko \

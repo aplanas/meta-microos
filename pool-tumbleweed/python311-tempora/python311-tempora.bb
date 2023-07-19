@@ -7,10 +7,10 @@ Modules include: \
 * schedule contains an event scheduler."
 LICENSE = "MIT"
 
-PV = "5.2.2"
+PV = "5.5.0"
 
-RPM_NAME = "python311-tempora-5.2.2-1.3.noarch.rpm"
-RPM_HASH = "60edf76c1cba9b4e07915b502d157812d18ce04c4d7e1dd0c5ac34a37e0681f46a61ec8b58ba22d535f91e12684f53a4f59357c26b293d1bf897d23b0bb98065"
+RPM_NAME = "python311-tempora-5.5.0-1.1.noarch.rpm"
+RPM_HASH = "4988bd040e310eea4c2f1be7f3ee52ae2af3cf765bf51f0a32472d44b24fca66e24bb94e02eaf44f864ba16fbbe10af681cf1c1834e78d52061d4f3dccfa1c2c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tempora \

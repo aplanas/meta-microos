@@ -8,8 +8,8 @@ LICENSE = "CC-BY-3.0 & GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "3.3.3"
 
-RPM_NAME = "audacity-3.3.3-1.1.aarch64.rpm"
-RPM_HASH = "c3bd13acf5c599b4ee679f67c952a886316c0c49940e9f8428d346c5bf047622f9d09ea6fe8e35ac0e9f9d46ad4405200ff9a115167c2551c178adf732c858e7"
+RPM_NAME = "audacity-3.3.3-2.1.aarch64.rpm"
+RPM_HASH = "eaa4d9eedc4e9b2ba9acb453c01ef7bb8bb09577f1f7673c51f9bee21e083e43d74dbc0648e53fdfc826bbbb136b8f952e10d307a79cd7bf025e68f8239c3fd4"
 
 RPROVIDES:${PN} += "audacity \
 audacity-plugins \

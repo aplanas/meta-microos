@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn56984"
 
-RPM_NAME = "texlive-hyperxmp-bin-2023.20230311.svn56984-92.1.aarch64.rpm"
-RPM_HASH = "6044237564baf93ff9457a7ca591f993c2fbdd66f5ace459a076f4d5ed3f2bdb038320dd9e146cc7a28f98e46a42d90e70078b41caaaad6b122e51fb79500ea2"
+RPM_NAME = "texlive-hyperxmp-bin-2023.20230311.svn56984-93.1.aarch64.rpm"
+RPM_HASH = "526b3b96929e9ddad749baf591ab98bc2ad553afca57f2b9e1b3e9c3cf0562d3df307060ee9bf5f5c44742da3714e30d697e0be26bc8ffbda3ccda95629a3966"
 
 RPROVIDES:${PN} += "texlive-hyperxmp-bin"
 

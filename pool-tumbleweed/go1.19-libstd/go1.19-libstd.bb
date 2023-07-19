@@ -2,10 +2,10 @@ SUMMARY = "Go compiled shared library libstd.so"
 DESCRIPTION = "Go standard library compiled to a dynamically loadable shared object libstd.so"
 LICENSE = "BSD-3-Clause"
 
-PV = "1.19.10"
+PV = "1.19.11"
 
-RPM_NAME = "go1.19-libstd-1.19.10-1.1.aarch64.rpm"
-RPM_HASH = "9c4d027a489dc3e46c74a0ceaf7162dd7070f6f34f046a29126b4618782bd5257d0f1c32d776b3267ab7514cb27fd496b4f4214b560e7a7415fa6237d2d360a5"
+RPM_NAME = "go1.19-libstd-1.19.11-1.1.aarch64.rpm"
+RPM_HASH = "6462e1e0ea9d4f96c7aa8efb54739529a71982fe113b9247a4b0447c7ea397b2d99fb89132669e16963b4a396237a55486ebdd1a057be8d4bb9538c80c64caa0"
 
 RPROVIDES:${PN} += "go-libstd \
 go1.19-libstd \

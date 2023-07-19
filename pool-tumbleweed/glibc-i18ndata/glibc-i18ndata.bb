@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & MIT"
 
 PV = "2.37"
 
-RPM_NAME = "glibc-i18ndata-2.37-4.4.noarch.rpm"
-RPM_HASH = "e28732a329c825edbf972a4bc661ea1f098b89702217c0bd48cb4e4a27116a273979d0142855aa05c5c23d83f0b76c3472a68066cfc1efbbfa40debdfd922eab"
+RPM_NAME = "glibc-i18ndata-2.37-5.1.noarch.rpm"
+RPM_HASH = "b1584adbde1dfbe7dbf7f95c237d3a7983d93647a2456a6cc90e94ddae49da75759200a0cfc920c23927bdebb718bf4a7af8e533aeba3abdc45c0dbed67ed7a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glibc-i18ndata"

@@ -12,8 +12,8 @@ LICENSE = "IPL-1.0"
 
 PV = "1.8.10"
 
-RPM_NAME = "openafs-fuse_client-1.8.10-1.1.aarch64.rpm"
-RPM_HASH = "0c071e7de17e1136a1af5420b82db7a2a8b625dd2594120b1988c4be6641339cb29c5768e1b2df4172a7866cb47c677f709dae95eb0a4150b924cd739ee5efa3"
+RPM_NAME = "openafs-fuse_client-1.8.10-1.2.aarch64.rpm"
+RPM_HASH = "d96adeb8784903e6ee35a4924551e420d8f194ff77f5b0f4e1729d4a10571ac7281590978a62402469c6ff011056edff4a5da9cb72072c19d5d2aad8fed0a28e"
 
 RPROVIDES:${PN} += "config-openafs-fuse-client \
 openafs-fuse-client"

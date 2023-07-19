@@ -2,10 +2,10 @@ SUMMARY = "Controller for kubevirt"
 DESCRIPTION = "The virt-controller package provides a controller for kubevirt"
 LICENSE = "Apache-2.0"
 
-PV = "0.59.2"
+PV = "1.0.0"
 
-RPM_NAME = "kubevirt-virt-controller-0.59.2-2.1.aarch64.rpm"
-RPM_HASH = "03f7b621357725ab44caa7f8d796754f7839a0be526e669fbc248a621239a6ffcb1d73b149216bd9c9c4899db9579ca8ae9b93df7b8aa1c1c8f6a3ca9c066e1a"
+RPM_NAME = "kubevirt-virt-controller-1.0.0-1.1.aarch64.rpm"
+RPM_HASH = "e85306a559a4e746b29e89f091968e5e0ea664137e1ba0dd149ce22225be80c0d3c5d2b40e58bc8098776d4810a5834c1d4c592de7b8559f47b10b42c731fde9"
 
 RPROVIDES:${PN} += "kubevirt-virt-controller"
 

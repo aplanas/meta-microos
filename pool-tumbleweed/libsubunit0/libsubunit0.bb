@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | BSD-3-Clause"
 
 PV = "1.4.2"
 
-RPM_NAME = "libsubunit0-1.4.2-2.4.aarch64.rpm"
-RPM_HASH = "5d9f909cbaf2d0d4cd51d125f8bfe209c97fb1ecd408e941f331c3ab3a24487711a369d262f5f90521cc8fc404dbf93ecd9a1a19327f43ac0f08df1b208db9f5"
+RPM_NAME = "libsubunit0-1.4.2-3.1.aarch64.rpm"
+RPM_HASH = "83faf22f52c50f4101d794f2f466b8fce7d02bddf355dffd79747b4a47feb75962969e12a5dfd10fe4e2c510aaa88659bb4a92fea7f5a6848997f3429d386797"
 
 RPROVIDES:${PN} += "libsubunit.so.0 \
 libsubunit0"

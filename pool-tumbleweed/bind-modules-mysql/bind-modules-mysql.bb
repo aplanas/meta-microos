@@ -10,8 +10,8 @@ LICENSE = "MPL-2.0"
 
 PV = "9.18.16"
 
-RPM_NAME = "bind-modules-mysql-9.18.16-2.1.aarch64.rpm"
-RPM_HASH = "a090ffbb1b86f07d22fae336508bca916911bf147b21cc7f84e6ef90914db38549d2882ebc05392dd9460668faaa3c73f8338ed6ba69136e3d4d2c6409677668"
+RPM_NAME = "bind-modules-mysql-9.18.16-3.1.aarch64.rpm"
+RPM_HASH = "3bdf38e926175f59bb93ca721acd4e22de6dfe801dfd15a3ead65e29c2c1106ed984688a3a1e53d56e57f14ba1fdeaa12e6928e28c411754bad5980346de31ce"
 
 RPROVIDES:${PN} += "bind-modules-mysql"
 

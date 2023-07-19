@@ -2,10 +2,10 @@ SUMMARY = "Server side daemon for managing logs"
 DESCRIPTION = "Server side daemon used to manage logs from virtual machine consoles"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.4.0"
+PV = "9.5.0"
 
-RPM_NAME = "libvirt-daemon-log-9.4.0-3.1.aarch64.rpm"
-RPM_HASH = "a0268dfd6885db5e9966cbb11acb9f3bc3ae64fca47c55ff77f40ea77c3d49a941f558823796e46bbc50b65c58ee1e4e8e8ad5e4a53ecee1e7d21fe70dfa5750"
+RPM_NAME = "libvirt-daemon-log-9.5.0-1.1.aarch64.rpm"
+RPM_HASH = "b8562f0a122ce4cdb609f5a2f154a10f870a960e83959b12523b2dbad3132e9e71812a26af420d4519790b4248957bc5ce4637390cb683a3f2237f7efffa7a53"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-log \
 libvirt-daemon-log"

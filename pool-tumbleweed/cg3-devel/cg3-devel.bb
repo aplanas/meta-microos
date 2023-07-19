@@ -8,10 +8,10 @@ This subpackage contains the files needed to build programs \
 that want to use VISL CG-3."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.3.9"
+PV = "1.4.5"
 
-RPM_NAME = "cg3-devel-1.3.9-1.5.aarch64.rpm"
-RPM_HASH = "81768ece96a3da763f50eef14f578a374822b613032c433000e002c1d244371db798b73944b58224fa70cb8f6b646c8a7efbb6511666ffdcfb9d78d353c324f7"
+RPM_NAME = "cg3-devel-1.4.5-1.1.aarch64.rpm"
+RPM_HASH = "41ce13a5d818a49bbb4f59aa8f8b7e090e60ddd25361f0afb4a7e6e606d9eae6e40f17b6bc7c27c3a4ac6e1e461732767451420623e5501cdcee9816b58fd5a6"
 
 RPROVIDES:${PN} += "cg3-devel \
 pkgconfig-cg3"

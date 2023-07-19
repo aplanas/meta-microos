@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn13663"
 
-RPM_NAME = "texlive-fragmaster-bin-2023.20230311.svn13663-92.1.aarch64.rpm"
-RPM_HASH = "52264985f7814061478dca80d30dee0e7008a60bda6419b26fea1a79e9a5382f1b8aecd9c35b6f6e7d0798f698c2d6047c29ff41ad499736ef62a15824458510"
+RPM_NAME = "texlive-fragmaster-bin-2023.20230311.svn13663-93.1.aarch64.rpm"
+RPM_HASH = "cfee02c27f62d60e1afa382e25d51923ed0ab7c0453c3d35fee940650a7b4cfcc73f943855075ab60ebfa4026fb13b6e1ef6f03d5e2bd1c3419de605bdebe80b"
 
 RPROVIDES:${PN} += "texlive-fragmaster-bin"
 

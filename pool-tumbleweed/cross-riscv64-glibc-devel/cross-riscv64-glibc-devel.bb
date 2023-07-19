@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & LGPL-2.1-or-later-with-GCC-excepti
 
 PV = "2.37"
 
-RPM_NAME = "cross-riscv64-glibc-devel-2.37-4.4.noarch.rpm"
-RPM_HASH = "3c9a14933609ba9e97f1f0baeee42bfd111822f4db5276129825fae56d2b8a5f84e1010bc8922cbd50627389ff3e06ff68ce664b481dad764bc9dbc60aba18d8"
+RPM_NAME = "cross-riscv64-glibc-devel-2.37-5.1.noarch.rpm"
+RPM_HASH = "bbec5a2f4c22ae17caf90ff76dd0264f5e7a29383eb26d2a77498e5a8e52f4438416715da4a05d1818026f548f1582cc842bce91526f722705239cc26deec823"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cross-riscv64-glibc-devel"

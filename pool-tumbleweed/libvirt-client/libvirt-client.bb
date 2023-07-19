@@ -3,10 +3,10 @@ DESCRIPTION = "The client binaries needed to access the virtualization \
 capabilities of recent versions of Linux (and other OSes)."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.4.0"
+PV = "9.5.0"
 
-RPM_NAME = "libvirt-client-9.4.0-3.1.aarch64.rpm"
-RPM_HASH = "6f9b642f0a9cd6c0a2317ac17bb239c1766f4ce7dcd417b0d6ad252f82ee6d5852e0536a1517e29f4d14587f04209e70c3235a0f5bda8f5d9865b67dd6b96580"
+RPM_NAME = "libvirt-client-9.5.0-1.1.aarch64.rpm"
+RPM_HASH = "069f7b865b76cf0ee1578a87b249dd623833bee503224dce4e3e4f918cf36c2435323dab49d86f9f546a99cbc8f5880872525cc156064fa909cc20b3d82142a7"
 
 RPROVIDES:${PN} += "libvirt-client"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "You only need this package if you have a local postgresql server 
 next to the webui."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1689162874.c51d4b9"
+PV = "4.6.1689265095.7be7504"
 
-RPM_NAME = "openQA-local-db-4.6.1689162874.c51d4b9-1.1.aarch64.rpm"
-RPM_HASH = "731d6092611918a6765f7f3a7bcc54e5f80d78941e7a3b9ab90698d4ba4bc8c3c0e4175ba7b6c6489a96a914f7230f429a769f2d424ac36c032919b3730ae3bf"
+RPM_NAME = "openQA-local-db-4.6.1689265095.7be7504-1.1.aarch64.rpm"
+RPM_HASH = "31bbd2dadb2c6be882bd139f2b5ef51846cd94111d852024cad9aeccb732968306733ce5400eb9a8405a797749b25f64f9df05fe8344bd87f6d694263468ee29"
 
 RPROVIDES:${PN} += "openQA-local-db"
 

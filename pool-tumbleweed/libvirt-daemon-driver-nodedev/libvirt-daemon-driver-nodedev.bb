@@ -4,10 +4,10 @@ an implementation of the node device APIs using the udev \
 capabilities."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.4.0"
+PV = "9.5.0"
 
-RPM_NAME = "libvirt-daemon-driver-nodedev-9.4.0-3.1.aarch64.rpm"
-RPM_HASH = "a086e7e13e542a359bd68fab01d58493257f8ff1b551ebdefc17ccada697b16eb69fd0352d846bc9a373e4fd4e3b01bdc682064a8fe917d9e979dcd7eea0d350"
+RPM_NAME = "libvirt-daemon-driver-nodedev-9.5.0-1.1.aarch64.rpm"
+RPM_HASH = "d5ea0a27070f68ee6e458d22e2326aa5b1bc1985dda60006758811da1d3dee23e7e9c1cc9265e00acdf1adeccd64bd90b2c1372c0883185df071025f14801e5c"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-driver-nodedev \
 libvirt-daemon-driver-nodedev \

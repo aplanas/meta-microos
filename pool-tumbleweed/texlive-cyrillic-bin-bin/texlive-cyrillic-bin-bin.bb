@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn53554"
 
-RPM_NAME = "texlive-cyrillic-bin-bin-2023.20230311.svn53554-92.1.aarch64.rpm"
-RPM_HASH = "4247e3f933b946d73d449bcc3b4b17536009842edb9d6027fd34caaef378cc60b513f282fefe6738c82f450d677526877caf20d9b1f34badd1233221fd879435"
+RPM_NAME = "texlive-cyrillic-bin-bin-2023.20230311.svn53554-93.1.aarch64.rpm"
+RPM_HASH = "85d635e00d2c8605338afcc1568fbc1dc998f96da019dc516fc750db9f52df81ccf0d30840f2cadfac373678930e17aafc01028eca87b722e0faa5e205f7e351"
 
 RPROVIDES:${PN} += "texlive-cyrillic-bin-bin"
 

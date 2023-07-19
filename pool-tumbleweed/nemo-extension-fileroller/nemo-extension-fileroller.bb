@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "nemo-extension-fileroller-5.2.0-3.6.aarch64.rpm"
-RPM_HASH = "3aae2f4dfce81d5b669190d9edb71626028237fa8ff203ac20564663233421f9b3f6cfa9d1492a8d7b3d6eb030839bba6d9250794acb493c0d0176952d084b95"
+RPM_NAME = "nemo-extension-fileroller-5.2.0-4.1.aarch64.rpm"
+RPM_HASH = "18d9dd723e2a4613dacad9b917b6ee4131e9312c4f2e10d3dfb52b13238c9c3aca14f941ca218cc675d92963ea2a4df49685e85d9e4a8f38c9eb9afd908e75bb"
 
 RPROVIDES:${PN} += "libnemo-fileroller.so \
 nemo-extension-fileroller \

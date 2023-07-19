@@ -2,10 +2,10 @@ SUMMARY = "Translations for package cpupower"
 DESCRIPTION = "Provides translations for the 'cpupower' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.2"
+PV = "6.4.3"
 
-RPM_NAME = "cpupower-lang-6.4.2-4.16.noarch.rpm"
-RPM_HASH = "1820f6244fc46864c8024512d81062a7b7078d605fa037aa52ba1b90f42b510d129a6f1f3c1f966f46a4d3893ca7e4918d5f646ad7f79f4dca303db8ff725b3a"
+RPM_NAME = "cpupower-lang-6.4.3-4.17.noarch.rpm"
+RPM_HASH = "858d1f978bb814a66091028d257ec57f0569516095e1eabf7c42d4aac03cea5c3d2e0e7abdf2649d5d2b5fdf135a3d4d9649c6478777634e80d1eacaa59a20fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cpupower-lang \

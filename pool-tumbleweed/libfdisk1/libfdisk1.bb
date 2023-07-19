@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.39"
 
-RPM_NAME = "libfdisk1-2.39-2.1.aarch64.rpm"
-RPM_HASH = "bc21dfd69c5f76470f65a36629bb7dc910793820146a21f94d8802cc56b99af4814d8cfb39f734631231a777003d7bb0c0a3dedd29f4742076de495bcd8bd71b"
+RPM_NAME = "libfdisk1-2.39-3.1.aarch64.rpm"
+RPM_HASH = "2cb38a3ef4fa029396fe23d101ea7e98dc56ce8010be989c30177d393d7e40180f0ce85b8d893128885d93652c2ca27821a12dd016002dafdc38a32d19150adb"
 
 RPROVIDES:${PN} += "libfdisk.so.1 \
 libfdisk1"

@@ -2,10 +2,10 @@ SUMMARY = "Default configuration files for the libvirtd daemon"
 DESCRIPTION = "Default configuration files for setting up NAT based networking"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.4.0"
+PV = "9.5.0"
 
-RPM_NAME = "libvirt-daemon-config-network-9.4.0-3.1.aarch64.rpm"
-RPM_HASH = "a39a3dfa79ca61cbfae0bd89486727e9cfe1f466aec1a5dcd1beb822c8158c605f8129ef514773fdf518c483e2346a40554d092a93bd2806c2e177777090d312"
+RPM_NAME = "libvirt-daemon-config-network-9.5.0-1.1.aarch64.rpm"
+RPM_HASH = "523cb68aac543787e2b411482e097f40245c4af9c3377b188031a916b2f8646edf83b2c226ef79f0c8ade26f98183ff92f54529411d93fc257e8c82233094f1e"
 
 RPROVIDES:${PN} += "libvirt-daemon-config-network"
 

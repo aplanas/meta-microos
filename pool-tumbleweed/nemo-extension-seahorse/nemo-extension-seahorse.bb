@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "nemo-extension-seahorse-5.2.0-3.6.aarch64.rpm"
-RPM_HASH = "8b6be71595c16f2752ba0b671982c21fb9622ff9a37161af5be95bc57ba5713cc6f042faaae7b1e645b2187937392a52173320074877e60768724675ae000478"
+RPM_NAME = "nemo-extension-seahorse-5.2.0-4.1.aarch64.rpm"
+RPM_HASH = "2e37a4b53c28f7282baa032ac3ee8cc8b17c88699e2e90a43e97733efc013d4fabae59bb357d593f224a5d72d004dfc702b54aae9a9851be1c0e8e0926e79a16"
 
 RPROVIDES:${PN} += "libnemo-image-converter.so \
 libnemo-seahorse.so \

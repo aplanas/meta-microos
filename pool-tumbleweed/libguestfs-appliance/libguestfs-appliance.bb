@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.50.1"
 
-RPM_NAME = "libguestfs-appliance-1.50.1-3.3.aarch64.rpm"
-RPM_HASH = "9d9c0fc13cf8e2b28be5e534cd173f88614fbefc6a4f28c403410916a7a8555ad19a2ad2f2a2eb24be76b90072909aea9a677cd6b3c5a4f8a9e6c8fe21c590d8"
+RPM_NAME = "libguestfs-appliance-1.50.1-4.1.aarch64.rpm"
+RPM_HASH = "d0194ded183f00bebb62c0a750c55812abdb8ec99958d3094b245909ab9b23fb78859faa9121522b6da91cbaf7d5d6affb23bada7579c81bf618ee847bba5a3a"
 
 RPROVIDES:${PN} += "guestfs-data \
 libguestfs-appliance"
@@ -17,6 +17,7 @@ libcap2 \
 libguestfs0 \
 libhivex0 \
 libpcre1 \
-qemu-tools"
+qemu-tools \
+supermin"
 
 inherit rpm

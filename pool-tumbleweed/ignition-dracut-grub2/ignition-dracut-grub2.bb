@@ -4,10 +4,10 @@ DESCRIPTION = "GRUB2 configuration which sets ignition.firstboot based on \
 which creates firstboot_happened after the first boot."
 LICENSE = "Apache-2.0"
 
-PV = "2.15.0"
+PV = "2.16.2"
 
-RPM_NAME = "ignition-dracut-grub2-2.15.0-2.5.aarch64.rpm"
-RPM_HASH = "464a5479edf553c5d6418fb1c32eba5c74c582785896c4432f6dd70c35a4e64b15fbf0eddf1bb2576b8c2507b7fc2d7b3ae7cfba0e9261c102be29387dad7d62"
+RPM_NAME = "ignition-dracut-grub2-2.16.2-1.1.aarch64.rpm"
+RPM_HASH = "06c0bae92d581202ad11d8ef3f870e2e0cbab6b66f7a9c9a154ddb681b5d43e7158d58d8ad2a48749976bb68e89c4d5508af3bec802a3330fe648b12ad6e6732"
 
 RPROVIDES:${PN} += "ignition-dracut-grub2"
 

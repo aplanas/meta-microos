@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.56.0"
 
-RPM_NAME = "containerized-data-importer-operator-1.56.0-1.5.aarch64.rpm"
-RPM_HASH = "f257b8850665c7e48ae0a6e549d34eb9dc3b003aa50835ca63c370e667c220c3e06da0648d7624b810a686b434e66bb3ac63a28a20cd20f06529cbb84d4f0806"
+RPM_NAME = "containerized-data-importer-operator-1.56.0-2.1.aarch64.rpm"
+RPM_HASH = "699905baa3dbc29afbc37f43c410eac9e54b94f071fb77f0d55cab26d6cdda28df21bc7cb485041dc25ca363c58b94b0309c05b71931f97974ea3197362f950e"
 
 RPROVIDES:${PN} += "containerized-data-importer-operator"
 

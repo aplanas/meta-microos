@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.2.0"
 
-RPM_NAME = "syslog-ng-devel-4.2.0-2.2.aarch64.rpm"
-RPM_HASH = "fed0d6b102b07b4a941979b7877e552f76e119a747e698ec6a1dbe7e1d8c6b2fc400a7205992165a0f77969fd3f6d80233da9e71d5c6d1778840fd9763e07096"
+RPM_NAME = "syslog-ng-devel-4.2.0-3.1.aarch64.rpm"
+RPM_HASH = "6a0bf5793cf070c6e7cb81d86cf99e7ebba22ba5b24d52016b210495a916f212cd96878840c7cdd35d0301fa406b47dae5c29c983f513ae0b0d8beeb9c98fba9"
 
 RPROVIDES:${PN} += "libevtlog-devel \
 pkgconfig-syslog-ng \

@@ -3,10 +3,10 @@ DESCRIPTION = "The libwireshark library provides the network packet dissection s
 developed by the Wireshark project."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "4.0.6"
+PV = "4.0.7"
 
-RPM_NAME = "libwireshark16-4.0.6-3.1.aarch64.rpm"
-RPM_HASH = "6d69418c83909f939caed672808e974b5dc9d2ef99aeb592cb3503e103be820616d7b65630c3bc0ad086afa1d38b4d5d32bcbe59d3c77b0ca61383f0f2cd4e3c"
+RPM_NAME = "libwireshark16-4.0.7-1.1.aarch64.rpm"
+RPM_HASH = "b17d1ed43298b39a36a25dd7a80fd8718f8c7b26b10a28fc6d7f87d401ab9dd329b66b4723979a2aa6d47d435a8f99a468243f701debf175826eaf9d49d7d6df"
 
 RPROVIDES:${PN} += "libwireshark.so.16 \
 libwireshark16"

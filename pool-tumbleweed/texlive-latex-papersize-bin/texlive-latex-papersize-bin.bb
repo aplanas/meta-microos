@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn42296"
 
-RPM_NAME = "texlive-latex-papersize-bin-2023.20230311.svn42296-92.1.aarch64.rpm"
-RPM_HASH = "24028ca826bb7dd17c48b349c39de8b366bbf039945746e833004af34c61358dce495a8fe9ef1d4044894ab9b6acdc8a112a855ddccdf1de85ef3c334f485b99"
+RPM_NAME = "texlive-latex-papersize-bin-2023.20230311.svn42296-93.1.aarch64.rpm"
+RPM_HASH = "f385c55e589c7cc69f3e022620685498dd7f28138915637f98294bea3c7e5e22a6bdf92658ea3468f99ce69cbf0fac30a48f805092267cfd2536c2bf55d0c07e"
 
 RPROVIDES:${PN} += "texlive-latex-papersize-bin"
 

@@ -9,10 +9,10 @@ Remote code is fetched and cached on first execution, and only \
 updated with the --reload flag."
 LICENSE = "MIT"
 
-PV = "1.35.0"
+PV = "1.35.1"
 
-RPM_NAME = "deno-1.35.0-1.1.aarch64.rpm"
-RPM_HASH = "114a3cf15adada091abe592d1adb681c00134bcd006e4580e1b5cafb5646b33def8a85dc112aa470606a55e54e7991f7f23689bbff1ad0c7d5271324d06cabd7"
+RPM_NAME = "deno-1.35.1-1.1.aarch64.rpm"
+RPM_HASH = "00031d8545bab3b7b972ead947b8a9f5a72f0680974723a52a5ac8a9ff528149dd0c4a1f889149384c4f81ab82ace944c6cf3594b1f30ae2ca0841aadf9b517d"
 
 RPROVIDES:${PN} += "bundled-rust-crate-Inflector \
 bundled-rust-crate-adler \
@@ -45,6 +45,7 @@ bundled-rust-crate-base64 \
 bundled-rust-crate-base64-simd \
 bundled-rust-crate-base64ct \
 bundled-rust-crate-better-scoped-tls \
+bundled-rust-crate-bincode \
 bundled-rust-crate-bit-set \
 bundled-rust-crate-bit-vec \
 bundled-rust-crate-bitflags \

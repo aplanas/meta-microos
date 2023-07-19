@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.85.2"
 
-RPM_NAME = "matrix-synapse-1.85.2-1.2.aarch64.rpm"
-RPM_HASH = "e70fc0fb18584bcff0cdf851ce06017d74cc34f00798852213baa2871ae9c369ca87c0e3633fcbcbbf83dfb640190acd6ecf9289c2e6be94c4a23a70c37a70c5"
+RPM_NAME = "matrix-synapse-1.85.2-1.3.aarch64.rpm"
+RPM_HASH = "5d03117b0872213c89ed87e5ac1b1fd9d45316b01fbf6841c78a689919a54206b18be669ed0f83c4694d2ff9a273a3114e8832321aedfdea983e013d9009a4fd"
 
 RPROVIDES:${PN} += "config-matrix-synapse \
 group-synapse \

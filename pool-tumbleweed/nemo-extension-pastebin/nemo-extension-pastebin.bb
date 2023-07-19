@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "nemo-extension-pastebin-5.2.0-3.6.noarch.rpm"
-RPM_HASH = "cd1228cdfe919fad520452135f8d27c2c4b91e30d7b015aa3d225cf71e382fefc76053e92e4fb3b1305e9907f939d4e3ec8e49910eb61dd27bd2e752731c8767"
+RPM_NAME = "nemo-extension-pastebin-5.2.0-4.1.noarch.rpm"
+RPM_HASH = "8902146a9e51872274391837c549d0c4a519a19a4cba54a6275c4c48d1c05dfbcf1377796396ab0ca60a72fdfef4898e8847071062ca4a6e765fa5ed608767d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-extension-pastebin \

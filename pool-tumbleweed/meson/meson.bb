@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.1"
 
-RPM_NAME = "meson-1.1.1-1.4.noarch.rpm"
-RPM_HASH = "7fe4caf8bf6e4ee1c729b57c69028b93119ebcb04fd45995b7c7a268215663c67ea1ec368fc83b59acca102a339484fcea09664d7ba319cee11e0fc11178f33e"
+RPM_NAME = "meson-1.1.1-2.1.noarch.rpm"
+RPM_HASH = "be636183a423fcb89a39044df7442c74d2681bbc33ae8d22644dde7d2092e4539b71de72072a98ecaf9e70b0223f52a7e7df1c32ef22d954ac3d6f86c98ed710"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "meson \
@@ -22,9 +22,8 @@ rpm-macro-meson-build \
 rpm-macro-meson-install \
 rpm-macro-meson-test"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 ninja \
-python-abi \
-python3-base"
+python-abi"
 
 inherit rpm

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.5.0+20230705.ea8c76ff"
 
-RPM_NAME = "crmsh-scripts-4.5.0+20230705.ea8c76ff-1.1.noarch.rpm"
-RPM_HASH = "20d2eb1f86c34a9eabb33367184de01a797733b84f12b4a00ad347406bbd793ee6af56adb3e28684509baa2acaae34eeffcef0231536eb411058943e2529d2c3"
+RPM_NAME = "crmsh-scripts-4.5.0+20230705.ea8c76ff-2.1.noarch.rpm"
+RPM_HASH = "e2b41050523a84aaf9f55f809690b0fd18e8ba04b84262469b05ff0607bc67806c9d03aa4edbf61a13e704e9d14b0a52c67b2cdf5ba9b87de9d4f4d905d3950a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "crmsh-scripts"

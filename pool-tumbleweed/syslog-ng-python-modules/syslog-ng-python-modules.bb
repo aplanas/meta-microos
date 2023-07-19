@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.2.0"
 
-RPM_NAME = "syslog-ng-python-modules-4.2.0-2.2.aarch64.rpm"
-RPM_HASH = "bfbe519fb2e8a54ad36ae62beb85f8ec61b740252f2f8fc195dbf31cea2f82e6f096a7d5db93d80df097799a4725272f7c2f26998457b842ff36ea236f79ef60"
+RPM_NAME = "syslog-ng-python-modules-4.2.0-3.1.aarch64.rpm"
+RPM_HASH = "8d257a34564f1859c545b7ab2facfa118e8a7baca7a16fc0def4b0299324421a35755665fb90f233b8110496d8eabd04dbade6b9a07c134a9a4efb8837099307"
 
 RPROVIDES:${PN} += "syslog-ng-python-modules"
 

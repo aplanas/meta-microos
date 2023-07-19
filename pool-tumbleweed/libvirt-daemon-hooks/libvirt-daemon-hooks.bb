@@ -2,10 +2,10 @@ SUMMARY = "Hook scripts for the libvirtd daemon"
 DESCRIPTION = "Default hook scripts for the libvirt daemon"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.4.0"
+PV = "9.5.0"
 
-RPM_NAME = "libvirt-daemon-hooks-9.4.0-3.1.aarch64.rpm"
-RPM_HASH = "ad468f4377b3fd1eb1de1bef1ad4400af421fead3ec7630b82eb1c9e0815c26ba1faeb55448d95ca06347c7a57fcd4db0694fe57b1ea3142a7afd81eba437989"
+RPM_NAME = "libvirt-daemon-hooks-9.5.0-1.1.aarch64.rpm"
+RPM_HASH = "99d97ab643b9b301acd47fdffd7a062c405825d198242240e1caa6393414f653923912e744fd447a31461ce7fb6cf2705397806e7f98c99bdde861d17991e0f5"
 
 RPROVIDES:${PN} += "libvirt-daemon-hooks"
 

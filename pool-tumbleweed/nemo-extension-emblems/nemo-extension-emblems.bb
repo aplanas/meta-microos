@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.2.0"
 
-RPM_NAME = "nemo-extension-emblems-5.2.0-3.6.noarch.rpm"
-RPM_HASH = "48185c14d1cbca5bf0d4191096b11429aa49e6809a8e888bde279c6f330225080387804e373af28e95fe7129bc7447222c79b04393a67491f5ca52c2aad77d40"
+RPM_NAME = "nemo-extension-emblems-5.2.0-4.1.noarch.rpm"
+RPM_HASH = "f1e6bf086caba0adeea20f02a820c77e3b4757376373eb14c5189e0c1d7fa140b121cf04e9b7ed67be6c55bbb4321bfcdd009a8fd4cda24c5ac6601608772b32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nemo-emblems \

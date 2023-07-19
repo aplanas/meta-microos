@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.50.1"
 
-RPM_NAME = "perl-Sys-Guestfs-1.50.1-3.3.aarch64.rpm"
-RPM_HASH = "db016616bd12b8e0e4b7bd9b5bb2f097aab2abd43b89542025e99cb5d2247472e64231e4e8a9c7aad907082d6a10fafd51390286a77fdc6080f6372770effd21"
+RPM_NAME = "perl-Sys-Guestfs-1.50.1-4.1.aarch64.rpm"
+RPM_HASH = "a501c1ca3960fc2bda3f2a4a814528d60a9515684061ea23800eff8d7f64fa7db6489f042b3e79e210d8e84a550b376266f695bd732222283399e7e1375c77fa"
 
 RPROVIDES:${PN} += "perl-Sys--Guestfs \
 perl-Sys-Guestfs"

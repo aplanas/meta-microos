@@ -2,10 +2,10 @@ SUMMARY = "Libvirt plugin for Name Service Switch"
 DESCRIPTION = "libvirt plugin for NSS for translating domain names into IP addresses."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.4.0"
+PV = "9.5.0"
 
-RPM_NAME = "libvirt-nss-9.4.0-3.1.aarch64.rpm"
-RPM_HASH = "f678ae0ce91ba2deecb36b3898699cd48c8185e1e3cdff992226d4fb30ff7d3f69976927d84d4a21d60f0feb4ecd749808a095f9aab85cdbee54666af0fe792b"
+RPM_NAME = "libvirt-nss-9.5.0-1.1.aarch64.rpm"
+RPM_HASH = "82530bfdb1485eada1bf456c74496b021d73ab1d6e8d6216f763644b925d593921909809c1d6aae9b87c47478a6b6c449b13b2d48e004e0aa3095fcae7bd03a9"
 
 RPROVIDES:${PN} += "libnss-libvirt-guest.so.2 \
 libnss-libvirt.so.2 \
