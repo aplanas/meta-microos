@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.3.8.2"
 
-RPM_NAME = "ghc-http-conduit-2.3.8.2-1.2.aarch64.rpm"
-RPM_HASH = "8849827ca03067b71fc9c9e38f6133977cae172d9f377acb8da65a510dbfac8300e34cade8eff117475e68b7023b7785f99c54d1afd9e5bf9d4e2d2064f18961"
+RPM_NAME = "ghc-http-conduit-2.3.8.2-2.1.aarch64.rpm"
+RPM_HASH = "1683405c64ac099e31d6fc57157e6208edfe7e2074fbe7657ce8d6b4c3db1b3461ef74a2a8d2c652eb44b7223a075747facec006c9b3b2a312887d255ce91d79"
 
 RPROVIDES:${PN} += "ghc-http-conduit \
 libHShttp-conduit-2.3.8.2-8tllEf20Pfc53Ypql5ryYG-ghc9.4.5.so"

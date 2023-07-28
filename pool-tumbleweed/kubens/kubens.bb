@@ -8,10 +8,10 @@ USAGE: \
   kubens -c, --current      : show the current namespace"
 LICENSE = "Apache-2.0"
 
-PV = "0.9.4"
+PV = "0.9.5"
 
-RPM_NAME = "kubens-0.9.4-1.5.noarch.rpm"
-RPM_HASH = "e602802d44b38995b558fa5b4e99a9be03778d237b5a207206b2973f5ee64b88e6e687f48c38a8f92d2978eb32829bad88b1965ed12e94e81676241bc9af63bf"
+RPM_NAME = "kubens-0.9.5-1.1.noarch.rpm"
+RPM_HASH = "38f828d9dd854b4eaaa654b82829507e2eda07d5717efa0689e479d1842d68ef29947b71bef5379d75e32fea785c3238617b21ad1676e1d2159572858b3e4776"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubens"

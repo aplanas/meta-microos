@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.3"
 
-RPM_NAME = "python3-smbus-4.3-2.1.aarch64.rpm"
-RPM_HASH = "16431d83636478a9adfb2f47a1051cb71982175d0139d7d681b8568901533be34e749987b7ea50f1a6b403401f5ff56e398f82b1d795a2feda03e9318d11d504"
+RPM_NAME = "python3-smbus-4.3-3.1.aarch64.rpm"
+RPM_HASH = "0b2870a0e3db2bcfa411fac08b2b2db02566138d5fe6603b85eaf79b42d1fdb1b282c12f521a20a9692d5a76a58dce7330ebad8bc2f42015f8061f82695dd537"
 
 RPROVIDES:${PN} += "python3-smbus \
 python3.11dist-smbus \

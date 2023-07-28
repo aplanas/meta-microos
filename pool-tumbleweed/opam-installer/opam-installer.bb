@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
 PV = "2.1.5"
 
-RPM_NAME = "opam-installer-2.1.5-1.2.aarch64.rpm"
-RPM_HASH = "015895424feb4eb6c45a74f09ef906c79955178214fd53fb9861105f95a490acc8ee04fd4ecb6a533fb73f750ea2f6a18313d3c1939eb584169b37bbe99432fb"
+RPM_NAME = "opam-installer-2.1.5-1.3.aarch64.rpm"
+RPM_HASH = "a4d6c6053dacb6f7888fdd127f326e205ee1e441943fe0dc4013699b4698eaf55d9213879e13619597a8093d378db094606a7977ec82bd4a26f379af4c260ee3"
 
 RPROVIDES:${PN} += "opam-installer"
 

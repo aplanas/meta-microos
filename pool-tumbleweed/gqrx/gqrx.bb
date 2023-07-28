@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.16"
 
-RPM_NAME = "gqrx-2.16-1.2.aarch64.rpm"
-RPM_HASH = "8524362af4ae48f318c51679d2e2a1438c1dab39432cb6341c090c5b813b6b385299a5c9fbc741a23266b680f77130bd5e639aa8ebce28ebb3cf148b0ce75c2d"
+RPM_NAME = "gqrx-2.16-1.3.aarch64.rpm"
+RPM_HASH = "b2d8656292c24bd4bb50960753c3d6df108ee4568bdf0e9c4d2e13cbaeeea7027a531d4af2a17a2c5917f9b6119b1bc9b6bbd43f490afdc3260c5c89e087144b"
 
 RPROVIDES:${PN} += "gqrx"
 
@@ -20,15 +20,15 @@ libQt5Svg.so.5 \
 libQt5Widgets.so.5 \
 libc.so.6 \
 libgcc-s.so.1 \
-libgnuradio-analog.so.3.10.6 \
-libgnuradio-blocks.so.3.10.6 \
-libgnuradio-digital.so.3.10.6 \
-libgnuradio-fft.so.3.10.6 \
-libgnuradio-filter.so.3.10.6 \
-libgnuradio-network.so.3.10.6 \
+libgnuradio-analog.so.3.10.7 \
+libgnuradio-blocks.so.3.10.7 \
+libgnuradio-digital.so.3.10.7 \
+libgnuradio-fft.so.3.10.7 \
+libgnuradio-filter.so.3.10.7 \
+libgnuradio-network.so.3.10.7 \
 libgnuradio-osmosdr.so.0.2.0 \
-libgnuradio-pmt.so.3.10.6 \
-libgnuradio-runtime.so.3.10.6 \
+libgnuradio-pmt.so.3.10.7 \
+libgnuradio-runtime.so.3.10.7 \
 libm.so.6 \
 libpulse-simple.so.0 \
 libpulse.so.0 \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.12.8"
 
-RPM_NAME = "ghc-texmath-doc-0.12.8-1.3.noarch.rpm"
-RPM_HASH = "4f19fad9b2a6324d7564f4ef232ef28d926cce6bc57f18874516b5a64337281d0aad6459c3e8cfd5e49f3919d6e56c44438d76546a356fa864c6584dc0b83ad1"
+RPM_NAME = "ghc-texmath-doc-0.12.8-1.4.noarch.rpm"
+RPM_HASH = "a3383df1586b606108cf2329b167bbf293b5cc76fa91714286ec99421681ec9cc82608e26b818be040f684b49d0ede9ace046a0adbf2becb3ee469a4b9a0a43f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-texmath-doc"

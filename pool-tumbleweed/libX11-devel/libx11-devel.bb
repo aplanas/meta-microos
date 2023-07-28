@@ -12,10 +12,10 @@ This package contains the development headers for the library found \
 in libX11-6 and libX11-xcb1."
 LICENSE = "MIT"
 
-PV = "1.8.5"
+PV = "1.8.6"
 
-RPM_NAME = "libX11-devel-1.8.5-2.1.aarch64.rpm"
-RPM_HASH = "25a42706fdabc2ed902963801fcd3fc6e6edb68088ab3bee57d871bd0572cbcaaf79bf8fe73ae81e2d6129c34db3f7b1918106ba180879de4eeb8b4e2059ea78"
+RPM_NAME = "libX11-devel-1.8.6-1.1.aarch64.rpm"
+RPM_HASH = "4b899dbe2d8146b552788acbb6e029c5b629cda887f33ce4cb775d2e9c8f1a53e7c573a0e83692796ddd77fad3745a076abf0203da228693ad768c889a0cf160"
 
 RPROVIDES:${PN} += "libX11-devel \
 pkgconfig-x11 \

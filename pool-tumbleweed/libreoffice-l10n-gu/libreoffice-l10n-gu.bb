@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
 PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-l10n-gu-7.5.4.2-1.3.noarch.rpm"
-RPM_HASH = "ba3bd046ae5c060c9b8dfd2b06c180553df3c39e16d9515aa2eb48198cbe465a5fa28f1c2ea30b8211b4be3566d3834951ee80ad1fed283b2f754bd5bcfa7986"
+RPM_NAME = "libreoffice-l10n-gu-7.5.4.2-1.5.noarch.rpm"
+RPM_HASH = "3e1296f52a9c675653d656503183a7efc0c81703a47b3e783bbed08180f80f3af40d6976f82d6a67f7b54d6ef650ab6021035b5c76402ab923a6d64bf365b4b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-gu \

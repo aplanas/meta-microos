@@ -7,10 +7,10 @@ studios all over the world, and is also incorporated into several commercial \
 products."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.4.12.0"
+PV = "2.4.13.0"
 
-RPM_NAME = "OpenImageIO-2.4.12.0-1.2.aarch64.rpm"
-RPM_HASH = "a4eb7d9e0791f054ca0f4898cb9d78a10277ee37f5cb8457dd88296675dabdb7bbb1e6394f68df5118861b634bb9ea37c86c0c210d7acf516b2bdf63842a28b2"
+RPM_NAME = "OpenImageIO-2.4.13.0-1.1.aarch64.rpm"
+RPM_HASH = "0064f15a5be7e203663e9562e57148f3b230065fe4b3d818d7b076ca536039e23ad4271266f1b34dc3bdb48f692f0ff44f86a15ae408b9383d01a259c9991fc8"
 
 RPROVIDES:${PN} += "OpenImageIO"
 

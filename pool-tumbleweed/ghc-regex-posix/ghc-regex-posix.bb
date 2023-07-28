@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.96.0.1"
 
-RPM_NAME = "ghc-regex-posix-0.96.0.1-3.6.aarch64.rpm"
-RPM_HASH = "71b58a8f187ee549584635973303a844931329ca2653b59dea1f318ad51874178af740bbc04f02bb870d8c82436e3d247d98e4bb27fd21ba8223dd9bfd6654ce"
+RPM_NAME = "ghc-regex-posix-0.96.0.1-4.1.aarch64.rpm"
+RPM_HASH = "5b48b3764a975db684517fc5b3e75cf5adf695fd5ef9ff45392e8b951d1a1fb4db54279a492121cc0515b7f274189e50bcc20692414d10235b7798c742f14fb1"
 
 RPROVIDES:${PN} += "ghc-regex-posix \
 libHSregex-posix-0.96.0.1-Db56rsDUom23lFxliY5wt1-ghc9.4.5.so"

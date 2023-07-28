@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
 PV = "7.5.4.2"
 
-RPM_NAME = "libreofficekit-devel-7.5.4.2-1.3.aarch64.rpm"
-RPM_HASH = "a3b924276f4043f694cacaa0d404384aa2220ea9586064bd51509dfa7ce78036d2d0a21e8874bde51b9d93ae02d154bc1c22d6802da5ec46ad34192b0513ac1d"
+RPM_NAME = "libreofficekit-devel-7.5.4.2-1.5.aarch64.rpm"
+RPM_HASH = "2394fd3b72028d10d14f50ecd23570bf17e57a1e9c1178c533a3634251a64a533ff53c5fcc8ff447fb5077824a1ab22fc96945650ce5526bc2b68178b97375ae"
 
 RPROVIDES:${PN} += "libreofficekit-devel"
 

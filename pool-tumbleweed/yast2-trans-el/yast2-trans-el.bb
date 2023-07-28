@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Greek Translations"
 DESCRIPTION = "YaST2 - Translations for Greek."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230708.d1de37aed1"
+PV = "84.87.20230714.966688ddd0"
 
-RPM_NAME = "yast2-trans-el-84.87.20230708.d1de37aed1-1.1.noarch.rpm"
-RPM_HASH = "6923a9748be0a315c84fb6be72033c79a43fd1cb0b278ea2c57d0dabb19aa127889b168066cf4763536e07c9f75eeff5d1310b765fb2a311785d9ca1f990f5da"
+RPM_NAME = "yast2-trans-el-84.87.20230714.966688ddd0-1.1.noarch.rpm"
+RPM_HASH = "1c495369b102145e8d369861b3af63cb80e3431f52e4d51c428f4acb37e072edfe13a956110f75d4ffbb64fb48a519e8d1097710c4cdba4569deb430fe704943"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-el \

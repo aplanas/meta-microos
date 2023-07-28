@@ -19,10 +19,10 @@ For more details on the available options to run the extended testsuite, please 
 refer to /usr/lib/systemd/tests/integration-tests/README.testsuite."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "253.5"
+PV = "253.7"
 
-RPM_NAME = "systemd-testsuite-253.5-5.1.aarch64.rpm"
-RPM_HASH = "268580ca8fb482793e8834911302a71a2e0f486a8e83b367a9bef98265a6d3895219893b5a4d4f2a76452709e92538a14793e696270ae526bd2d78f3040899d6"
+RPM_NAME = "systemd-testsuite-253.7-1.2.aarch64.rpm"
+RPM_HASH = "ecadaba7a7baf0e883f0bae4d0e14da1d4db5ecf59a488c960b5adc4236b1594fa31d866dfedd49caf32383b3d1b57c5e97013a65b9ab9d7f19e128d05ec32ec"
 
 RPROVIDES:${PN} += "systemd-testsuite"
 

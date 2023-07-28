@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "1.7.4"
 
-RPM_NAME = "ghc-yesod-form-devel-1.7.4-1.9.aarch64.rpm"
-RPM_HASH = "d0e0f0e5ab69505f191c500b00cd4f8b04e631bcd4cd19f4d4fc72c68b5903d5e8d6cb5560d82248de18d89e23baae35719a8720d518900324afea65adb29d8f"
+RPM_NAME = "ghc-yesod-form-devel-1.7.4-1.11.aarch64.rpm"
+RPM_HASH = "7d962dd72d1ccaea4b00fcd80b0c3215497a68e81a962a23db50801a267ac69f0ed03c0d82748512772e872df6662756c0a17abc583b27d14b3e76b669ea9d65"
 
-RPROVIDES:${PN} += "ghc-devel-yesod-form-1.7.4-9SavUh7G36AKe86TvxSRtJ \
+RPROVIDES:${PN} += "ghc-devel-yesod-form-1.7.4-A4NJLliFfnZ1tqLIO9QkD9 \
 ghc-yesod-form-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -32,8 +32,8 @@ ghc-devel-time-1.12.2 \
 ghc-devel-transformers-0.5.6.2 \
 ghc-devel-wai-3.2.3-B6oJGZed88IFIvDpwN5I7x \
 ghc-devel-xss-sanitize-0.3.7.2-FCgYumvpQn8Hd22tbbEcXW \
-ghc-devel-yesod-core-1.6.24.2-7isfGP7hc9NLFaHQAgg8t \
-ghc-devel-yesod-persistent-1.6.0.8-Jui070TDUWhEJxvpNjmjRf \
+ghc-devel-yesod-core-1.6.24.3-FuwsWoOUEyTCufqnix4g5P \
+ghc-devel-yesod-persistent-1.6.0.8-A587fdCgueU2UmsZUmFzaX \
 ghc-yesod-form"
 
 inherit rpm

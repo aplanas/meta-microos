@@ -7,10 +7,10 @@ Docker Compose V2 is a major version bump release of Docker Compose. It has been
 For a smooth transition from legacy docker-compose 1.xx, please consider installing compose-switch to translate docker-compose ... commands into Compose V2's docker compose .... . Also check V2's --compatibility flag."
 LICENSE = "Apache-2.0"
 
-PV = "2.19.1"
+PV = "2.20.2"
 
-RPM_NAME = "docker-compose-2.19.1-1.1.aarch64.rpm"
-RPM_HASH = "121c37360c84d3dd6f7ceb71dcdeb9dec0da7b4b8bb3cdead8a25a25d4bd3f9527cf514701e6514044c0cde2e077054f18e7979a2bd40a2ec7883ebe376de6a2"
+RPM_NAME = "docker-compose-2.20.2-1.1.aarch64.rpm"
+RPM_HASH = "11b1ed97289f5e23696ca56b69fb17fad1ab145c50bdf0503b592ab87d0177283ade2d9832f5c1d348ee50333950fe4c344911748309634696aa0546de060fd2"
 
 RPROVIDES:${PN} += "docker-compose"
 

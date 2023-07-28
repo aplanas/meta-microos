@@ -3,17 +3,17 @@ DESCRIPTION = "This program compiles web pages containing embedded C++ code into
 that can be used with the HTTP server from the POCO Net library."
 LICENSE = "BSL-1.0"
 
-PV = "1.12.2"
+PV = "1.12.4"
 
-RPM_NAME = "poco-cpspc-1.12.2-1.5.aarch64.rpm"
-RPM_HASH = "24208d07aed0b3ff36dc9a961d390931f18e508f3123eb9b46f75106855296751b72903b2a60b9da9a09e91948867208b849944690d283d4a02a4f3f1bac3c03"
+RPM_NAME = "poco-cpspc-1.12.4-1.1.aarch64.rpm"
+RPM_HASH = "81c9d1b8d68e7c15d4e4c71e51e6091fe5ead3e14d53a1af4e7e733dc67881a6d7ba430aa319a3cbcbb2b6db241b65aaf608949075e8e4035d7150a2ae8ce8c8"
 
 RPROVIDES:${PN} += "poco-cpspc"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libPocoFoundation.so.92 \
-libPocoNet.so.92 \
-libPocoUtil.so.92 \
+libPocoFoundation.so.94 \
+libPocoNet.so.94 \
+libPocoUtil.so.94 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6"

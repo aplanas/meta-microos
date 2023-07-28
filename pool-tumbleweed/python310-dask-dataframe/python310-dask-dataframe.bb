@@ -20,8 +20,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2023.5.1"
 
-RPM_NAME = "python310-dask-dataframe-2023.5.1-2.3.noarch.rpm"
-RPM_HASH = "aa5adcf0ff5b77cbf9898752d9c22a8100ec81782354d0320780de479abfcc485d7e65bcf7505fff4bf9be35c1ce306577ec9072454d2762ab2d1b4351a8d74e"
+RPM_NAME = "python310-dask-dataframe-2023.5.1-2.4.noarch.rpm"
+RPM_HASH = "9306f78222610fc1c8f2ab8c5e336ee33e2418bb0e5cad4ff4b7a4e17f980adc6385aa96ad9b106d16abf7a6b3d8cfb38118f0f54a920936ca30d399ca74d4e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python310-dask-dataframe"

@@ -2,10 +2,10 @@ SUMMARY = "QEMU persistent reservation helper"
 DESCRIPTION = "This package provides a helper utility for SCSI persistent reservations."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.2"
+PV = "8.0.3"
 
-RPM_NAME = "qemu-pr-helper-8.0.2-2.1.aarch64.rpm"
-RPM_HASH = "dc0b27b75a0f5bd6895eea9fde7a46d932096573021cadbbbe77a90454607c6e4ad50d87e08302af600057dc42296d71732dce4d0905f8e494b251bae5b75803"
+RPM_NAME = "qemu-pr-helper-8.0.3-1.1.aarch64.rpm"
+RPM_HASH = "db01183e48ab1b5980f72c7268624a0c93ef4daf836cbe83aa95b1fecee05f6aeabfc331ced11a5816f1130dd8077d525467ddd663640f016092e21adc096a74"
 
 RPROVIDES:${PN} += "qemu-pr-helper"
 

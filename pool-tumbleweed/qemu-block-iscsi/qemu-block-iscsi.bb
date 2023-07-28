@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a module for accessing network-based image 
 iSCSI network connection from qemu-img tool and QEMU system emulation."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.2"
+PV = "8.0.3"
 
-RPM_NAME = "qemu-block-iscsi-8.0.2-2.1.aarch64.rpm"
-RPM_HASH = "a7be870505e20924cb1cd95037c67752cd6ad8b041bc22b0128f6da4c1aae42dac2b136858311f239a7300fc22ba1fedd0155f95f16ca14884a6989ea43556ad"
+RPM_NAME = "qemu-block-iscsi-8.0.3-1.1.aarch64.rpm"
+RPM_HASH = "46376238dc2a5a17cd2d423ce9fe606639d6ccff757fe13d9bceba98049123de82d0c55b1f2e2607b86d1b7c7079c8fde73c7d3e593e14caa1ac84b2f02bb69f"
 
 RPROVIDES:${PN} += "qemu-block-iscsi"
 

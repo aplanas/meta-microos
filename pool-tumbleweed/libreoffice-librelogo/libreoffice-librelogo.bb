@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
 PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-librelogo-7.5.4.2-1.3.aarch64.rpm"
-RPM_HASH = "efd209d36b638cc6a4fa6bf9da43ce31c7bba631bd970d678b02d4d51926bfb39e2f494f09779a4f2c6c81ca430c740381f62fac16606dd4121d58232c464fc5"
+RPM_NAME = "libreoffice-librelogo-7.5.4.2-1.5.aarch64.rpm"
+RPM_HASH = "e7645738c4b8ef3d733f143ee8e6268c116714ba165038c7c8b05a1d1aa736fa4832fbc18fee69748a0acef70a7bf3777280acfad8a7c81507b3035888267b5b"
 
 RPROVIDES:${PN} += "libreoffice-librelogo"
 

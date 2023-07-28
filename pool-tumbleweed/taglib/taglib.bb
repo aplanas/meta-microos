@@ -7,10 +7,10 @@ This package contains built examples which manipulate tags from the \
 command line."
 LICENSE = "LGPL-2.1-or-later & MPL-1.1"
 
-PV = "1.13"
+PV = "1.13.1"
 
-RPM_NAME = "taglib-1.13-1.4.aarch64.rpm"
-RPM_HASH = "5a4520302232d3cc502b28b3938a67df20878b51f76a36c5af4cdf95a4897077004df701c75381f205091f4c75458439bbc3e5e48971defdee41ecf99e0bf898"
+RPM_NAME = "taglib-1.13.1-1.1.aarch64.rpm"
+RPM_HASH = "cc2735123e52f28352cbd5c742b2a9a0d20364393d4d239df653df73f4896fe7525598aa38621873784ebc05575b59645dec323bf9669f9f3841109e2854b0a3"
 
 RPROVIDES:${PN} += "taglib"
 

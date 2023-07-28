@@ -3,13 +3,13 @@ DESCRIPTION = "This library provides some useful extensions to core commonmark s
 quotes, definition lists, tables, footnotes, math, and more."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.3.4"
+PV = "0.2.3.5"
 
-RPM_NAME = "ghc-commonmark-extensions-0.2.3.4-1.7.aarch64.rpm"
-RPM_HASH = "3e3986d2e18c8063939c644fb651cd60a032a9e1dd8b19681ffde41795206eedde248be0ac0166d0263fc32c977a2011f9ea0bd3e0933e9028493c166ab4b44e"
+RPM_NAME = "ghc-commonmark-extensions-0.2.3.5-1.1.aarch64.rpm"
+RPM_HASH = "42f9763ba5bf54ad40a2cc9166ce440934936989e5af7d58d1cddf9d86370ca99b832232ee0f721db93aeaa3d643fb907393cdd743b3f7fe6177c457748e6555"
 
 RPROVIDES:${PN} += "ghc-commonmark-extensions \
-libHScommonmark-extensions-0.2.3.4-lgOKfz42TuIWz23FZS91J-ghc9.4.5.so"
+libHScommonmark-extensions-0.2.3.5-GeNUJwJZ0WZ7BXjQ8SYvXo-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSbase-4.17.1.0-ghc9.4.5.so \

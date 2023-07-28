@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.15.3"
 
-RPM_NAME = "shadowsocks-rust-1.15.3-2.1.aarch64.rpm"
-RPM_HASH = "5c47f53d679b6cd4cc851bd7f7f256974f4fea37ec3284ae63f47b43d2463cec3060ba5feed72138be366f914389fdb5d9f586648a817f9a6f59d2c9d055a885"
+RPM_NAME = "shadowsocks-rust-1.15.3-2.2.aarch64.rpm"
+RPM_HASH = "135afc4ba3455f148669315516cd0cce10e7227373b78cb38243048d73f2422fee29a9075ec763142098a4f7fdfe9ec47c05d19de9c154d664ee1ddcaf03076b"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aead \
 bundled-rust-crate-aes \

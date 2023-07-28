@@ -6,10 +6,10 @@ This package provides a module with the support for logging into MySQL \
 databases."
 LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
-PV = "8.2212.0"
+PV = "8.2306.0"
 
-RPM_NAME = "rsyslog-module-mysql-8.2212.0-2.5.aarch64.rpm"
-RPM_HASH = "925001afaf61598ff266b0c960b658cf259b175e35c941ff917992e1070357735f57386609ea2e27beaf074858d2bd7292c2b91e5d9b1cdd7159f9b410a95c4b"
+RPM_NAME = "rsyslog-module-mysql-8.2306.0-1.1.aarch64.rpm"
+RPM_HASH = "4abebd10243a76451bbef0438b8d12c732bdc1739f79fefbfe702cadcd4b0f09d682134af970b8462e743b9c7dd7aa5e544b1f9f8ec8242ff4e780adb4ad13f1"
 
 RPROVIDES:${PN} += "config-rsyslog-module-mysql \
 rsyslog-module-mysql"

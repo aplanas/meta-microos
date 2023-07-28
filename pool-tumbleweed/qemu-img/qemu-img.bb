@@ -2,10 +2,10 @@ SUMMARY = "QEMU disk image utility"
 DESCRIPTION = "This package provides command line tools for manipulating disk images."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.2"
+PV = "8.0.3"
 
-RPM_NAME = "qemu-img-8.0.2-2.1.aarch64.rpm"
-RPM_HASH = "9a60880776fd77f5aa5604ec75721756ec1f6f609e13929b1535b7f463d893c4e2fff8b89161b69ff3e761a48686baca68cb49474bd572ed32a635e07ac448cc"
+RPM_NAME = "qemu-img-8.0.3-1.1.aarch64.rpm"
+RPM_HASH = "639cae6f35f411636e25e2dd85b754e69b625b9402779a717324e2a331b6ac379eb122b169043f4160ed60d6413d0f4678be5c80e42ae24f73bec2853acea608"
 
 RPROVIDES:${PN} += "qemu-img"
 

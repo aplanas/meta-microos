@@ -15,10 +15,10 @@ stdune \
 xdg"
 LICENSE = "MIT"
 
-PV = "3.8.3"
+PV = "3.9.1"
 
-RPM_NAME = "ocaml-dune-devel-3.8.3-1.1.aarch64.rpm"
-RPM_HASH = "1edbf35aa6985b0ef81bf63e62865662d4046ade2afeaab453c1bec9d9f88c4e0d75ac414bb46b2f6a17640144394de1974c33b6d23bf1e2db3116b51cfde41b"
+RPM_NAME = "ocaml-dune-devel-3.9.1-1.1.aarch64.rpm"
+RPM_HASH = "a6fecaa15d2163401bffed5487e7c89ca8c4b8a8ae45a7dca634321215fe9fc2280ef6b1ba04d99fc90bbffc0ede0aa912b4398c6032893164d7db6999021534"
 
 RPROVIDES:${PN} += "ocaml-Build-info \
 ocaml-Build-info-- \
@@ -94,7 +94,6 @@ ocaml-Dune-site-plugins--Meta-parser \
 ocaml-Dune-site-plugins--Plugins \
 ocaml-Dune-site-private \
 ocaml-Dyn \
-ocaml-Ocaml-config \
 ocaml-Ocamlc-loc \
 ocaml-Ocamlc-loc-- \
 ocaml-Ocamlc-loc--Lexer \
@@ -152,6 +151,8 @@ ocaml-Stdune--Option \
 ocaml-Stdune--Or-exn \
 ocaml-Stdune--Path \
 ocaml-Stdune--Path-intf \
+ocaml-Stdune--Per-item \
+ocaml-Stdune--Per-item-intf \
 ocaml-Stdune--Pid \
 ocaml-Stdune--Platform \
 ocaml-Stdune--Poly \
@@ -196,7 +197,6 @@ ocamlfind-dune-private-libs \
 ocamlfind-dune-private-libs.dune-re \
 ocamlfind-dune-private-libs.dune-section \
 ocamlfind-dune-private-libs.meta-parser \
-ocamlfind-dune-private-libs.ocaml-config \
 ocamlfind-dune-rpc \
 ocamlfind-dune-rpc.private \
 ocamlfind-dune-site \
@@ -284,7 +284,6 @@ ocamlx-Dune-site-plugins--Meta-parser \
 ocamlx-Dune-site-plugins--Plugins \
 ocamlx-Dune-site-private \
 ocamlx-Dyn \
-ocamlx-Ocaml-config \
 ocamlx-Ocamlc-loc \
 ocamlx-Ocamlc-loc-- \
 ocamlx-Ocamlc-loc--Lexer \
@@ -342,6 +341,8 @@ ocamlx-Stdune--Option \
 ocamlx-Stdune--Or-exn \
 ocamlx-Stdune--Path \
 ocamlx-Stdune--Path-intf \
+ocamlx-Stdune--Per-item \
+ocamlx-Stdune--Per-item-intf \
 ocamlx-Stdune--Pid \
 ocamlx-Stdune--Platform \
 ocamlx-Stdune--Poly \
@@ -406,6 +407,7 @@ ocaml-Stdlib--Complex \
 ocaml-Stdlib--Digest \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Filename \
+ocaml-Stdlib--Float \
 ocaml-Stdlib--Format \
 ocaml-Stdlib--Fun \
 ocaml-Stdlib--Hashtbl \
@@ -456,6 +458,7 @@ ocamlx-Stdlib--Bytes \
 ocamlx-Stdlib--BytesLabels \
 ocamlx-Stdlib--Char \
 ocamlx-Stdlib--Filename \
+ocamlx-Stdlib--Float \
 ocamlx-Stdlib--Format \
 ocamlx-Stdlib--Fun \
 ocamlx-Stdlib--Hashtbl \

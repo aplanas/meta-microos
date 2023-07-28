@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.11"
 
-RPM_NAME = "vim-plugin-airline-0.11-55.1.noarch.rpm"
-RPM_HASH = "6d94bf92ef9bbf1792297c94618d888f35dce3e46641e360c1d09bd5a6680fc4ddc019e142ec20d95fd6a0574b88a37391c3ce5f3fba9f9c43cdaa4ab30a21c2"
+RPM_NAME = "vim-plugin-airline-0.11-56.1.noarch.rpm"
+RPM_HASH = "68789295399a08db446b3591584841db71e6111bfa6f4508eb700f6a49ad4a4e98e1a7ee7972b38df3eab0bae2cd5ee5a490d5637fec14bacec9600783d626e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-airline"

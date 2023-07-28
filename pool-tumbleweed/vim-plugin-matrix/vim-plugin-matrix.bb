@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.10"
 
-RPM_NAME = "vim-plugin-matrix-1.10-55.1.noarch.rpm"
-RPM_HASH = "c75483ac8524e28b551d3e50d3c1acd345efec3886bab841e7bde4fc9f15a081e3156ea3858b3ac30e44e1bbf686102f68fb63da51b745f6f6beb88a6323efdd"
+RPM_NAME = "vim-plugin-matrix-1.10-56.1.noarch.rpm"
+RPM_HASH = "4fef176007378b2ec283b4d85c52f992d11987dbae4432d81b39e4b5da4d8d17ecf6c7a6bbfc634d9b01af04fad135590bd59abfdf8e7339d088d36a4cb18ca6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-matrix"

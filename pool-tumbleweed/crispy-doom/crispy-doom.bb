@@ -3,10 +3,10 @@ DESCRIPTION = "Crispy Doom is a limit-removing enhanced-resolution Doom source p
 based on Chocolate Doom."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.12.0"
+PV = "6.0"
 
-RPM_NAME = "crispy-doom-5.12.0-1.2.aarch64.rpm"
-RPM_HASH = "70d7af5152a7c09a96862bcdbb59a9a9d957f19985fb72cb6be3d04044e7d958dcd7f1353bbf47f07b205ca172a06f2e031629f271e280ae8a381e8a6df4141a"
+RPM_NAME = "crispy-doom-6.0-1.1.aarch64.rpm"
+RPM_HASH = "56281b23074af14a17b4039fcd19d569dc03ac20668d672e17818429bd44f4f05298a20224ddb0642f27e7356eacdd43e638b0037958493c51dee866bfd9679c"
 
 RPROVIDES:${PN} += "crispy-doom \
 crispy-heretic \
@@ -19,6 +19,7 @@ libSDL2-2.0.so.0 \
 libSDL2-mixer-2.0.so.0 \
 libSDL2-net-2.0.so.0 \
 libc.so.6 \
+libfluidsynth.so.3 \
 libm.so.6 \
 libpng16.so.16 \
 libsamplerate.so.0 \

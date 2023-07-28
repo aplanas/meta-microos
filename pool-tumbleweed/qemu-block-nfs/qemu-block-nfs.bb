@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a module for directly accessing nfs based i
 for QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.2"
+PV = "8.0.3"
 
-RPM_NAME = "qemu-block-nfs-8.0.2-2.1.aarch64.rpm"
-RPM_HASH = "d3295d54c0509eaff0aa70309902618b54de20a585297900c3c12fe0fedf3df712c1eecbfacce18472b356bba68742dd1c9d21cd8d7d9a62e4d919daba353953"
+RPM_NAME = "qemu-block-nfs-8.0.3-1.1.aarch64.rpm"
+RPM_HASH = "d9429d4f3d0bd12dac9969c31f92bf5accb04e85d2c6db070571de7349bd3d626b2d43302f845660e795718f8633f39f9a751b6935c513e8d6eaf24165876a3f"
 
 RPROVIDES:${PN} += "qemu-block-nfs"
 

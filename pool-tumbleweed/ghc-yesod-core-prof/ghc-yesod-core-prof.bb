@@ -2,12 +2,12 @@ SUMMARY = "Haskell yesod-core profiling library"
 DESCRIPTION = "This package provides the Haskell yesod-core profiling library."
 LICENSE = "MIT"
 
-PV = "1.6.24.2"
+PV = "1.6.24.3"
 
-RPM_NAME = "ghc-yesod-core-prof-1.6.24.2-1.8.aarch64.rpm"
-RPM_HASH = "fc0cab936e74c97015a7b389191ce24e69033b35147e3d4fc50e583b61b5d5cbf1db7f2ee43f6a5f7e1addeb6157dcf68656521582dc3b18ee3c6931eed199c6"
+RPM_NAME = "ghc-yesod-core-prof-1.6.24.3-1.2.aarch64.rpm"
+RPM_HASH = "b1edc84df4f8fc49e505cd0bd05218fcd1a2307d8934ea0e281f126bd6b808f73d50fd8d78a83c6a4171bf98ab130772a7e1d07b50173d85dcaf34c53a6529b6"
 
-RPROVIDES:${PN} += "ghc-prof-yesod-core-1.6.24.2-7isfGP7hc9NLFaHQAgg8t \
+RPROVIDES:${PN} += "ghc-prof-yesod-core-1.6.24.3-FuwsWoOUEyTCufqnix4g5P \
 ghc-yesod-core-prof"
 
 RDEPENDS:${PN} += "ghc-prof-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
@@ -18,7 +18,7 @@ ghc-prof-blaze-markup-0.8.2.8-1rqnOPcdOmIw0iYwB3Kqc \
 ghc-prof-bytestring-0.11.4.0 \
 ghc-prof-case-insensitive-1.2.1.0-AumZoR4Lds63HJj8OQwHY3 \
 ghc-prof-cereal-0.5.8.3-LNsxCTyOF85AKtb4iLTs8f \
-ghc-prof-clientsession-0.9.1.2-LlqL6bYAJ8NAeAYS4avg1k \
+ghc-prof-clientsession-0.9.2.0-4cx1ifSXftyKQDB0RGxUDf \
 ghc-prof-conduit-1.3.5-EjJ71P6EbmSGTrvJLquwgr \
 ghc-prof-conduit-extra-1.3.6-1ns4btxv78gDsSQyRueTL2 \
 ghc-prof-containers-0.6.7 \

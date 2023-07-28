@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.2.1"
 
-RPM_NAME = "calligra-lang-3.2.1-7.19.aarch64.rpm"
-RPM_HASH = "b29a29cb4ed923f66caa71eb3e81c74d7890fa32e4779e9193b777f0cc0f8d7ad51e8030c0e2d3ed91008031672a043d2b1a1d61c74b1a95ee51d39a54e5c330"
+RPM_NAME = "calligra-lang-3.2.1-7.20.aarch64.rpm"
+RPM_HASH = "b52a3a0816839f487fb5317e408c341bebac03dbd30e9ff00939d40b79a44e6f1e21dbe9c6b04e5844c3c6291ec832525a003a4d91c4a62f8a2b13b11e4b3514"
 
 RPROVIDES:${PN} += "calligra-l10n-bs \
 calligra-l10n-ca \

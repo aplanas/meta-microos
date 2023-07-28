@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.0.18"
 
-RPM_NAME = "python311-django-eremaea2-2.0.18-1.3.noarch.rpm"
-RPM_HASH = "bcd9d260ba933647814a1f15073bcc077935614219e3f546cdb2b2a537522a207a3a80b8cd9bc7aef89b2efa0e319bb58ae4b1ac76db260f9b702bd94cadae29"
+RPM_NAME = "python311-django-eremaea2-2.0.18-2.1.noarch.rpm"
+RPM_HASH = "8f4c5c956b155f23dee5b65ba93b8c470011c9fe154c68b37a688326b49e75676183122adc362719292de9f91acdd53f2253ac8eaa67c5fd2251608a0e4c0365"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-eremaea2 \
@@ -21,7 +21,7 @@ python-abi \
 python311-Django \
 python311-cmdln \
 python311-djangorestframework \
-python311-magic \
+python311-python-magic \
 python311-requests \
 python311-requests-toolbelt \
 update-alternatives"

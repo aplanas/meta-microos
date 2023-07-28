@@ -2,10 +2,10 @@ SUMMARY = "Material theme for mkdocs"
 DESCRIPTION = "Material theme for mkdocs"
 LICENSE = "MIT"
 
-PV = "9.1.18"
+PV = "9.1.19"
 
-RPM_NAME = "python39-mkdocs-material-9.1.18-1.1.noarch.rpm"
-RPM_HASH = "7b6e3d2b8c4500046e6942a25ab7aef39b29f2e7a2a041431c2bc84f4c10aa7a409e183992843674deda3c133ee6a854ee33c3ff4f6038aa66afc0a5373c9b7c"
+RPM_NAME = "python39-mkdocs-material-9.1.19-1.1.noarch.rpm"
+RPM_HASH = "1a619a27ac7500227e0b8e38f8d524c82bbf9cc327607f709b3bdfebaf38f4515746192e58e8137498ff96b76a93e032509361094f19d7410df1eeb6babc14e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-mkdocs-material \

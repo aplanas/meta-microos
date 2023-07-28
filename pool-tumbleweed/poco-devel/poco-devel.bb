@@ -3,10 +3,10 @@ DESCRIPTION = "C++ class libraries and frameworks for building \
 network- and Internet-based applications."
 LICENSE = "BSL-1.0"
 
-PV = "1.12.2"
+PV = "1.12.4"
 
-RPM_NAME = "poco-devel-1.12.2-1.5.aarch64.rpm"
-RPM_HASH = "fd061dd4d20ce8a5c26653ce5448b3438a6041eff8f3dcd71479a425f2d71bc18ca0322b8fc28031586851f5d444ac0210fb1e0e69a33f8e7b6a167dd8cb86b6"
+RPM_NAME = "poco-devel-1.12.4-1.1.aarch64.rpm"
+RPM_HASH = "5889f9567fe0dcafed5000b6ad86d31d8023bfe299ad36c62dd5ea7f0f4ae3de67723c7b5463d37052ea5d924f8d77ba004281c5ab3bb3a26d6127865c06ae40"
 
 RPROVIDES:${PN} += "cmake-Poco \
 cmake-PocoActiveRecord \
@@ -33,28 +33,28 @@ libpoco-devel \
 poco-devel"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libPocoCppParser92 \
-libPocoCrypto92 \
-libPocoData92 \
-libPocoDataMySQL92 \
-libPocoDataODBC92 \
-libPocoDataSQLite92 \
-libPocoEncodings92 \
-libPocoFoundation.so.92 \
-libPocoFoundation92 \
-libPocoJSON92 \
-libPocoJWT92 \
-libPocoMongoDB92 \
-libPocoNet92 \
-libPocoNetSSL92 \
-libPocoPDF92 \
-libPocoPrometheus92 \
-libPocoRedis92 \
-libPocoUtil.so.92 \
-libPocoUtil92 \
-libPocoXML.so.92 \
-libPocoXML92 \
-libPocoZip92 \
+libPocoCppParser94 \
+libPocoCrypto94 \
+libPocoData94 \
+libPocoDataMySQL94 \
+libPocoDataODBC94 \
+libPocoDataSQLite94 \
+libPocoEncodings94 \
+libPocoFoundation.so.94 \
+libPocoFoundation94 \
+libPocoJSON94 \
+libPocoJWT94 \
+libPocoMongoDB94 \
+libPocoNet94 \
+libPocoNetSSL94 \
+libPocoPDF94 \
+libPocoPrometheus94 \
+libPocoRedis94 \
+libPocoUtil.so.94 \
+libPocoUtil94 \
+libPocoXML.so.94 \
+libPocoXML94 \
+libPocoZip94 \
 libc.so.6 \
 libexpat-devel \
 libgcc-s.so.1 \

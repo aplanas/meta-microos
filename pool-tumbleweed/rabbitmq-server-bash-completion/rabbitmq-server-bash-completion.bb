@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "3.12.0"
 
-RPM_NAME = "rabbitmq-server-bash-completion-3.12.0-1.2.noarch.rpm"
-RPM_HASH = "b6328d6bc4489ff38f39d25f0ffea8d418c74361b388ca37006cc9d5889803d01920424ffb81423fa4d93df3b784682435bb71ba10af4ec4400842e8c0356db6"
+RPM_NAME = "rabbitmq-server-bash-completion-3.12.0-2.1.noarch.rpm"
+RPM_HASH = "f83b30a439136978e55d7abb5fd19b0f648812f27ac729abcc431705add7326fe886a36da74fbb98a4321dec8db01023fa343f2578bc4dce12fcd12322f8b8d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rabbitmq-server-bash-completion"

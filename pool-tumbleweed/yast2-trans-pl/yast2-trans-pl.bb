@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Polish Translations"
 DESCRIPTION = "YaST2 - Translations for Polish."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230708.d1de37aed1"
+PV = "84.87.20230714.966688ddd0"
 
-RPM_NAME = "yast2-trans-pl-84.87.20230708.d1de37aed1-1.1.noarch.rpm"
-RPM_HASH = "b7c8c8a5ca7f9bafaec847a43ba9bc3e7ecc6f773460d96e108843dfd2861228be52022acde481141d4346d5bfa78c54831b0b1169396ec62aa64ebb2e62d150"
+RPM_NAME = "yast2-trans-pl-84.87.20230714.966688ddd0-1.1.noarch.rpm"
+RPM_HASH = "afa4382216884e47fc5da76689f23ddb5c9f0273a277aa088dc6bc801cd8b1aa336bf22bc05b43652e8cee7b0552fd6558384cf8e63d33d1828cf246db70b62b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-pl \

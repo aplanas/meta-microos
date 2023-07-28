@@ -4,10 +4,10 @@ DESCRIPTION = "Gathering data from multiple services has become a ubiquitous tas
 apiron provides declarative, structured configuration of services and endpoints with a unified interface for interacting with them."
 LICENSE = "MIT"
 
-PV = "7.0.0"
+PV = "7.1.0.post3"
 
-RPM_NAME = "python39-apiron-7.0.0-1.5.noarch.rpm"
-RPM_HASH = "4e7770a8059144e29392f5934d24a25f00e5843f72dfd5fc8fbcb33d67f16039ab1c3b4d61cce9d7fb9025bcb4a36c775388fdc6211789f6f3ac026abb5d6479"
+RPM_NAME = "python39-apiron-7.1.0.post3-1.1.noarch.rpm"
+RPM_HASH = "ef101c63922c36ca2521c566d1f073127852b4694a018fa165f3136246c62dddd18d672bdd577ccfc80b5cf87a07da7502df02b332bd396d2b72a96fccba8d4c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-apiron \

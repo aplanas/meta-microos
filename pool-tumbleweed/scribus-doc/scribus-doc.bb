@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.8"
 
-RPM_NAME = "scribus-doc-1.5.8-4.14.aarch64.rpm"
-RPM_HASH = "d55e75c2cf95f429683fade8c58af74650469ad9fb0ae3bafa6aef34dc06e89983136006a74785e21eb867aba418f881f4ee27f67b814fb5fb3b7ccfc553a0c3"
+RPM_NAME = "scribus-doc-1.5.8-4.15.aarch64.rpm"
+RPM_HASH = "c36e7284034a2ac29c4abbbeef8267e0e1667ad0e4d9d5a228cd9c422bfe6c27023a8b37685dd400407cac4f1061e60003d689f3e324ffe06b97d7761bce1441"
 
 RPROVIDES:${PN} += "scribus-doc"
 

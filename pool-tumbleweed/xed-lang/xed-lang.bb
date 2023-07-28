@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xed"
 DESCRIPTION = "Provides translations for the 'xed' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.2.8"
+PV = "3.4.3"
 
-RPM_NAME = "xed-lang-3.2.8-1.4.noarch.rpm"
-RPM_HASH = "a31046a716123aa657c1a704977bc773bf2a30145a2e6b843cfb047ac911b4aba47c370ee0d4af64fe7764d6648023ba95e2b5c01f8ebb10d4c2e0a4fb20ff9d"
+RPM_NAME = "xed-lang-3.4.3-1.1.noarch.rpm"
+RPM_HASH = "badd8bfa1c99df6179779c3c579698b6f76b99b9675c9a83776308967615e16ea9794b270ebaffb0d100a8a202e58c5fa16fbf8edbf6e65270a5ed330bfeff5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xed-af \

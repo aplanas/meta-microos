@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Indonesian Translations"
 DESCRIPTION = "YaST2 - Indonesian Translations."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230708.d1de37aed1"
+PV = "84.87.20230714.966688ddd0"
 
-RPM_NAME = "yast2-trans-id-84.87.20230708.d1de37aed1-1.1.noarch.rpm"
-RPM_HASH = "a18979920da6c5c006de5f274cc9a01976c183cf79e9052a16b389440831de066ec9262a0f041386f7601815e02ef6d5fffe45380dc992734be24e967beec520"
+RPM_NAME = "yast2-trans-id-84.87.20230714.966688ddd0-1.1.noarch.rpm"
+RPM_HASH = "29f22bc191edb80b9bc32a10e800457c5db99688aa36bf515e7dc770ab170c59113a909acc2d396d3fdb8be5b368fa1a405627c16e5b79fdd3e5e17373ec2a7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-id \

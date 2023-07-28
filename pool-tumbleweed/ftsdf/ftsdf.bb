@@ -3,10 +3,10 @@ DESCRIPTION = "Signed Distance Fields viewer \
 This tool is part of the FreeType project"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.13.0"
+PV = "2.13.1"
 
-RPM_NAME = "ftsdf-2.13.0-4.2.aarch64.rpm"
-RPM_HASH = "a712d0f342741a14bbe4d8003cbf971a7c3c13ee8eb34b735ea0105153be75b8c3419c616a4d2ee3263375513a306a167c988d9e099a7d7170af5fef213ece63"
+RPM_NAME = "ftsdf-2.13.1-1.1.aarch64.rpm"
+RPM_HASH = "39eeea2821fe933f6b47767f802ff32cc73e9b06973894eb5285bccfaa3418d168910b76308496104df4acd0621f5a7bf4fb5a46b8830daea96844a61035c178"
 
 RPROVIDES:${PN} += "ftsdf"
 

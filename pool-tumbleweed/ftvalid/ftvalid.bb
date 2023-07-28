@@ -3,10 +3,10 @@ DESCRIPTION = "Layout table validator \
 This tool is part of the FreeType project"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.13.0"
+PV = "2.13.1"
 
-RPM_NAME = "ftvalid-2.13.0-4.2.aarch64.rpm"
-RPM_HASH = "75c720b39e88191611b172fd2cd453ad62021a0799bedc88f7c96329cf7151c7f6a8f65c8e4583babb1fbdd946a3e9b96723acdd736ae2d73a6cd7c3811f478a"
+RPM_NAME = "ftvalid-2.13.1-1.1.aarch64.rpm"
+RPM_HASH = "4741571fd3ddbb1165e2b805f0bc528f4f548f8fa6753d75c9fcf10d54ab462af489b3b1810630542746a254c83dbd8b2c5196a68602fe58332c5745f2d17355"
 
 RPROVIDES:${PN} += "ftvalid"
 

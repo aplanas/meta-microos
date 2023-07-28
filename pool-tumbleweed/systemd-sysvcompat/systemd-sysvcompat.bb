@@ -9,10 +9,10 @@ relies on such scripts, this package should not be needed at all. \
 Please note that the content of this package is considered as deprecated."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "253.5"
+PV = "253.7"
 
-RPM_NAME = "systemd-sysvcompat-253.5-5.1.aarch64.rpm"
-RPM_HASH = "56e20a4f14939f2c740c3fe2c2f93f763c878e4b756d1be7e7d3e946b4db1dc8a66ad832c92b4c26c865b4c61bd5b52a73b53022d249cdb57daf02f85e3dbb36"
+RPM_NAME = "systemd-sysvcompat-253.7-1.2.aarch64.rpm"
+RPM_HASH = "81643398ba6f03ee0ea35c75d773df16c2934abf90477130e14c1ce3f1bc16c69a6517c174a4bfab5c3648fceb670528ec7820d038a0133b3dc6172fab1eb1ce"
 
 RPROVIDES:${PN} += "systemd-sysvcompat \
 systemd-sysvinit-/usr/sbin/runlevel \

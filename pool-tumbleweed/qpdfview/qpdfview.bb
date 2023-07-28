@@ -20,8 +20,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.0"
 
-RPM_NAME = "qpdfview-0.5.0-1.4.aarch64.rpm"
-RPM_HASH = "0d043702b8e6ded960cd00c4e1360660aeea941f94e64a23208a86f5fb0400a9f83e7c331c51eebd578746a0e5145d063fa191f2e080e721bd72c551ba193a19"
+RPM_NAME = "qpdfview-0.5.0-2.1.aarch64.rpm"
+RPM_HASH = "126337de0278f24b1fc73e3bc03e9948ea87bcead49965344efa7b63cb2d50ffb63c3929dcc6a59dda27e21259cb6f04d6cef67256ef12efda5ab8f11f0b92fc"
 
 RPROVIDES:${PN} += "qpdfview"
 

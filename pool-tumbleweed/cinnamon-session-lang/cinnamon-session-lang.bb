@@ -2,10 +2,10 @@ SUMMARY = "Translations for package cinnamon-session"
 DESCRIPTION = "Provides translations for the 'cinnamon-session' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.8.0"
+PV = "5.8.2"
 
-RPM_NAME = "cinnamon-session-lang-5.8.0-1.1.noarch.rpm"
-RPM_HASH = "8aea83faab73a9d4cb9b90b0e504a32a892237425bccadd14fd10b9eeeec5b16758b39d5b85317a3923cbb7dfa7cb39e96b51f8cc4443e57a136b5ebe460d8b4"
+RPM_NAME = "cinnamon-session-lang-5.8.2-1.1.noarch.rpm"
+RPM_HASH = "fbe68f6c20e8fddc9b27f88cc192def9acc001a1c30f745f2e6c750bef2fa3bd9cc42bda3052adb9cfbb04f479399ce09109837bed9549ce2c843a08868fff47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cinnamon-session-lang \

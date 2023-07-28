@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the QEMU guest agent. It is installed in th
 to provide information and control at the guest OS level."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.2"
+PV = "8.0.3"
 
-RPM_NAME = "qemu-guest-agent-8.0.2-2.1.aarch64.rpm"
-RPM_HASH = "61580abea83af8a232cdd9ac802c2a9cf50957801c95efdf955070c049138d294ba81cbbe73cd2c135f4a78d264a997d37916c2725794452222a326b0e20d0ac"
+RPM_NAME = "qemu-guest-agent-8.0.3-1.1.aarch64.rpm"
+RPM_HASH = "b9692c97ef1d0c071533ce5714e7b8f43e7dd67f9c00ae481c16e9a67935ede558352a1b58d799be5e4ecc698f9ac2cf17b969bcfceeadcfbb7868ed3f37f161"
 
 RPROVIDES:${PN} += "qemu-guest-agent"
 

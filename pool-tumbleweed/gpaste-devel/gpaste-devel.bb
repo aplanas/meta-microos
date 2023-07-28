@@ -5,10 +5,10 @@ This package provides the development files for the library managing \
 clipboard history."
 LICENSE = "BSD-2-Clause"
 
-PV = "43.2+6"
+PV = "44.1"
 
-RPM_NAME = "gpaste-devel-43.2+6-2.2.aarch64.rpm"
-RPM_HASH = "6cdcddfba5916bb80cac5d0074cfd7be63f47152af6685ae9261ddef2d08fc62ea6e84c30b6b24268fea25106f71a1cef4d5b1f20c2da3628ae3117f73a1a72b"
+RPM_NAME = "gpaste-devel-44.1-1.1.aarch64.rpm"
+RPM_HASH = "b3d8fa207a0e9c002e4068748cfa5d963089883296f44e4eecdc7b71bcfec2d4a742e1fd769358b7fb709e75b18d9bcad630b5e54c2f81e1868cfe0b50f18462"
 
 RPROVIDES:${PN} += "gpaste-devel \
 pkgconfig-gpaste-2 \

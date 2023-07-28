@@ -4,10 +4,10 @@ DESCRIPTION = "jsonschema is an implementation of the JSON Schema specification 
 This subpackage provides the [format-nongpl] extra"
 LICENSE = "MIT"
 
-PV = "4.18.3"
+PV = "4.18.4"
 
-RPM_NAME = "python39-jsonschema-format-nongpl-4.18.3-1.1.noarch.rpm"
-RPM_HASH = "bff3db9060535a7a93898998dabef3b737af6125c10bcb87d51d812f6c06f696a8073b017b9935b99b0f1222c392722561b68d7cf03451a8fa0a1fd7310ca5bd"
+RPM_NAME = "python39-jsonschema-format-nongpl-4.18.4-1.2.noarch.rpm"
+RPM_HASH = "e865e9902a4142fe07ac877e5b9d1b00135f4ee192587298fbc178966536c43370cf90429c378544ef78642ec68f5c4e7f9f630c49bbbf476f57fe6c41d9e7b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-jsonschema-format-nongpl"

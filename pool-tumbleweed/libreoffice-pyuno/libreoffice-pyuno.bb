@@ -13,8 +13,8 @@ LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
 PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-pyuno-7.5.4.2-1.3.aarch64.rpm"
-RPM_HASH = "916405539009058e6d0c12379c5760252f2936f2f252396ca6f11f62a4bd56134bb26070dc5fa0fc53873ef370256a8d3385b69e852784d87a18e4457ef60cc5"
+RPM_NAME = "libreoffice-pyuno-7.5.4.2-1.5.aarch64.rpm"
+RPM_HASH = "9e4eecd744d93b79be5eaec97540456adc8591d7f914c5a459edd4c2e9435c1dd8b046bc5f33b54ffe92668d2403778ab4d101104021bf4896892162c9a2aab9"
 
 RPROVIDES:${PN} += "config-libreoffice-pyuno \
 libpythonloaderlo.so \

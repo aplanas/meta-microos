@@ -3,10 +3,10 @@ DESCRIPTION = "HarfBuzz is an OpenType text shaping engine. \
 This package contains the ICU library."
 LICENSE = "MIT"
 
-PV = "7.3.0"
+PV = "8.0.1"
 
-RPM_NAME = "libharfbuzz-icu0-7.3.0-1.2.aarch64.rpm"
-RPM_HASH = "e054206658b5e62cf347f16455ec9e7820b8137bf258c25be1c066c5cff6804616fc021fcf9c2ac27d0d92e6ed26461c12d0e4bd9b8c27dd56a7c287cc6e0399"
+RPM_NAME = "libharfbuzz-icu0-8.0.1-1.1.aarch64.rpm"
+RPM_HASH = "3f90b7895e392fce9f899256ede6e75f84d2bd4a403f3dd0e88906f460d2973f260190aeba58f4d19a011061fafb483e04015cab28b463f42434b196083220fa"
 
 RPROVIDES:${PN} += "libharfbuzz-icu.so.0 \
 libharfbuzz-icu0"

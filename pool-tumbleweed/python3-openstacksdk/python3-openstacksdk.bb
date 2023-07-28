@@ -8,10 +8,10 @@ documentation, examples, and tools. \
 This package contains the Python 3.x module"
 LICENSE = "Apache-2.0"
 
-PV = "1.0.1"
+PV = "1.3.1"
 
-RPM_NAME = "python3-openstacksdk-1.0.1-1.4.noarch.rpm"
-RPM_HASH = "bf33e3da81d9d8d2beb8b4a9c78d0363a03d88cd11fc3da306061191e5060a33ec60ed837807d8b4c30d2253543828e6498eda8edb885b609c1aa9f43bad61a9"
+RPM_NAME = "python3-openstacksdk-1.3.1-1.1.noarch.rpm"
+RPM_HASH = "617dc2311407e345f3ef3cf6d480c1adb2ac080e08827d08b046fd7e48b469c1634e3b52524bc9bb9c8ec175c7d397c5a579d349dc4ce2e4d53b6b1c9c78b352"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-openstacksdk \

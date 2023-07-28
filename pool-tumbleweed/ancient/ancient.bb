@@ -11,10 +11,10 @@ corner cases where it is not entirely reliable due to weaknesses in the \
 old format used."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.0.0"
+PV = "2.1.0"
 
-RPM_NAME = "ancient-2.0.0-1.4.aarch64.rpm"
-RPM_HASH = "0b3a5c40b1f716bab48c967df570b86b9e26da63f43fbd0f3b2075e0e6d564f716784107dae01ee4fd8f9271663de112f9d2b1b7fe63f6af41e091baa13dd1e7"
+RPM_NAME = "ancient-2.1.0-1.1.aarch64.rpm"
+RPM_HASH = "e9c991d6e23c70546cff4e1d6c188221162446bbadd35ee3e3325772f0a2794c00d0323c9a2aa7c98da8300a4fb009ab9c2ae0ec467b1ad844dae074ce5e0617"
 
 RPROVIDES:${PN} += "ancient"
 

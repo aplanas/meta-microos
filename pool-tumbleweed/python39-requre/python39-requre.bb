@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.8.2"
 
-RPM_NAME = "python39-requre-0.8.2-1.6.noarch.rpm"
-RPM_HASH = "73504e0612426e6be3f05c50534879655b51414b477d4a7da7e2595a5e0e529998aff77ccfbfa84ff2554f43aae7ae0c1be29bf9863571984e0a8b54167bf791"
+RPM_NAME = "python39-requre-0.8.2-2.1.noarch.rpm"
+RPM_HASH = "da79fa2811bf03a5f7c268a656d73fb32fc7fd394ecc321a5abed489dc7bccc6cb3c4d49a6ecf48d008adc04b80d0fd90f14918aa58b9bbdbd68744ee95d8d52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-requre \
@@ -19,6 +19,7 @@ python-abi \
 python39-GitPython \
 python39-PyYAML \
 python39-click \
-python39-requests"
+python39-requests \
+update-alternatives"
 
 inherit rpm

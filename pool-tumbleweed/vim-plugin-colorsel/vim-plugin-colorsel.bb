@@ -5,8 +5,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "20110107"
 
-RPM_NAME = "vim-plugin-colorsel-20110107-55.1.noarch.rpm"
-RPM_HASH = "67e11ad0fc9027992f4a1b465956df33f18ec4d4c013a698e83a397cc78edf0813059be60b55fd956660a68764d33e1108b3556ccbe08361f9ea44684a1cc32f"
+RPM_NAME = "vim-plugin-colorsel-20110107-56.1.noarch.rpm"
+RPM_HASH = "b6e46140414a7867bc74fc659ae710b28aec8273d3b87250a9dee747c442b790e7bd29f6a8d99b7b04df9d839eb18272bea5156e40e9517ca27dbe7c2281934e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-colorsel"

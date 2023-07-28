@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "7.3"
 
-RPM_NAME = "smartmontools-7.3-3.4.aarch64.rpm"
-RPM_HASH = "795cbacdd73763c0a0d6e1a1e067e18598cbbe27acf1d32d266152ea2659bb32355f586ca335a28af7262908186347161c7da5851fa00cac810603c193404f75"
+RPM_NAME = "smartmontools-7.3-4.1.aarch64.rpm"
+RPM_HASH = "15f940248a464068feac9ce74fa0954eb6eabe280e3756124fa25eca43fe0cb47609aa228a8034a5cd5594308a59c7dad6203040a755596ec419d6de31c35788"
 
 RPROVIDES:${PN} += "config-smartmontools \
 smartmontools"

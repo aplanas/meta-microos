@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "17.89"
 
-RPM_NAME = "skelcd-installer-MicroOS-17.89-1.46.aarch64.rpm"
-RPM_HASH = "79ed33a04089538adf70649ec18a41e5f6fce5a5eea61159f557830d15fd711341d81fb3f7adeb975c5204205b0b83892b06cbb2d265a654857276f9fdf2d33f"
+RPM_NAME = "skelcd-installer-MicroOS-17.89-1.56.aarch64.rpm"
+RPM_HASH = "f62bca3ebc4e5f9ebb5a236f5ed01cd2c94e7847653afa4202149ea22da5e35f85e33896d08948e1b0c55eaf8d0f30712b28785625e5f2dd976cb9e8d0ec0230"
 
 RPROVIDES:${PN} += "skelcd-installer \
 skelcd-installer-MicroOS"

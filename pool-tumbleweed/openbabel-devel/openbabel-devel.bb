@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.1.1"
 
-RPM_NAME = "openbabel-devel-3.1.1-1.5.aarch64.rpm"
-RPM_HASH = "49c2edbfd4a7549c709c72059aef32ae58ad54de5967f626e2d202b1ee8b9f0c69f6e3569d7eacb5613424e35914add72e8d7374ab576527d6b794e4b57550aa"
+RPM_NAME = "openbabel-devel-3.1.1-2.1.aarch64.rpm"
+RPM_HASH = "f171a9e3df7469963b3260a5ed928d57df2c766df08e05161f0519eb77250da74d62ff9efdc67a0839577a0ea03d89fdf57a7a6a4f67aa84920b2dabd4487605"
 
 RPROVIDES:${PN} += "cmake-OpenBabel3 \
 libopenbabel-devel \

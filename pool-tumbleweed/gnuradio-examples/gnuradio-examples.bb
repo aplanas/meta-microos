@@ -8,10 +8,10 @@ performance wireless devices into software problems. \
 This package contains some examples of using GNU Radio."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.10.6.0"
+PV = "3.10.7.0"
 
-RPM_NAME = "gnuradio-examples-3.10.6.0-4.4.aarch64.rpm"
-RPM_HASH = "8d3bc641399b319f18966faf6ae8864288c396cc171686b813ae3d385b6b29a9ef027c3379efa7f248b9d8355b4359e5e1441e75ab32a4c67652bfa75f9d1a8f"
+RPM_NAME = "gnuradio-examples-3.10.7.0-1.1.aarch64.rpm"
+RPM_HASH = "b8d3d95e7cc7bed5fd02cebcf82b7c427e9e703745efe91969ab7c6da6522fa9cf39cc715f12841d292e73f915f02a92c86e30b663900614457ee0ccbdbd5a3b"
 
 RPROVIDES:${PN} += "gnuradio-examples"
 
@@ -24,13 +24,13 @@ libboost-program-options.so.1.82.0 \
 libc.so.6 \
 libfmt.so.9 \
 libgcc-s.so.1 \
-libgnuradio-analog.so.3.10.6 \
-libgnuradio-audio.so.3.10.6 \
-libgnuradio-blocks.so.3.10.6 \
-libgnuradio-pmt.so.3.10.6 \
-libgnuradio-qtgui.so.3.10.6 \
-libgnuradio-runtime.so.3.10.6 \
-libgnuradio-uhd.so.3.10.6 \
+libgnuradio-analog.so.3.10.7 \
+libgnuradio-audio.so.3.10.7 \
+libgnuradio-blocks.so.3.10.7 \
+libgnuradio-pmt.so.3.10.7 \
+libgnuradio-qtgui.so.3.10.7 \
+libgnuradio-runtime.so.3.10.7 \
+libgnuradio-uhd.so.3.10.7 \
 libspdlog.so.1.12 \
 libstdc++.so.6 \
 libuhd.so.4.4.0"

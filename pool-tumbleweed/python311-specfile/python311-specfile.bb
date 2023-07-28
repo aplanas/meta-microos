@@ -2,10 +2,10 @@ SUMMARY = "A library for parsing and manipulating RPM spec files"
 DESCRIPTION = "A library for parsing and manipulating RPM spec files."
 LICENSE = "MIT"
 
-PV = "0.18.0"
+PV = "0.20.0"
 
-RPM_NAME = "python311-specfile-0.18.0-1.3.noarch.rpm"
-RPM_HASH = "a062d4487066f0a50679db027e487e45fe3b64aabe0087a97d9d126d703b799a879440d7da5a6714b97775a161a7c7b85e524934fa10b03b399ab38fbaddcd08"
+RPM_NAME = "python311-specfile-0.20.0-1.1.noarch.rpm"
+RPM_HASH = "ffe4c535dd294da8e181c52574f116f2989ec7d798888376c2b314b4ed4696980b7c8f4673af7dc4b8183fe20bc9514ce352a923abe4869c30b58b0effe2e9f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-specfile \

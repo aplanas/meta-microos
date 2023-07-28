@@ -4,10 +4,10 @@ ligatures, font fallback and true color. It features dynamic color schemes, hype
 and multiplex terminal panes."
 LICENSE = "(Apache-2.0 | MIT) & BSD-3-Clause & (0BSD | MIT | Apache-2.0) & (Apache-2.0 | BSL-1.0) & (Apache-2.0 | BSL-1.0 | MIT) & (Apache-2.0 | MIT) & (Apache-2.0 | MIT) & (Apache-2.0 | MIT | BSD-2-Clause) & (Apache-2.0 | MIT | Zlib) & (Apache-2.0 | MIT | Zlib) & (MIT | Unlicense) & (Apache-2.0 | Zlib | MIT) & Apache-2.0 & BSD-2-Clause & BSD-3-Clause & CC0-1.0 & ISC & LGPL-2.1-only & MIT & MPL-2.0 & WTFPL & Zlib & MIT"
 
-PV = "20230408.112425.69ae8472"
+PV = "20230712.072601.f4abf8fd"
 
-RPM_NAME = "wezterm-20230408.112425.69ae8472-2.1.aarch64.rpm"
-RPM_HASH = "a261111df331a29cb9512937b1edf61a04c98097bbdb23a5b14aa8c71218779694dbc93f630e3a352ee85067a8b21c296457b6284185a22d9ebf3a182aafb727"
+RPM_NAME = "wezterm-20230712.072601.f4abf8fd-1.1.aarch64.rpm"
+RPM_HASH = "0bdfa165cffee9bff6fb780733b666997ac8eb2f0c4e6c9c330e4a7ad5c0eb6877a83fde4a5cd94e8a6f584f5672405a2596f97a83c2d0d17ec658edd7209887"
 
 RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
 bundled-rust-crate-adler \
@@ -44,7 +44,6 @@ bundled-rust-crate-bit-field \
 bundled-rust-crate-bit-set \
 bundled-rust-crate-bit-vec \
 bundled-rust-crate-bitflags \
-bundled-rust-crate-block \
 bundled-rust-crate-block-buffer \
 bundled-rust-crate-blocking \
 bundled-rust-crate-bstr \
@@ -68,7 +67,6 @@ bundled-rust-crate-color-funcs \
 bundled-rust-crate-color-quant \
 bundled-rust-crate-colorchoice \
 bundled-rust-crate-colorgrad \
-bundled-rust-crate-com-rs \
 bundled-rust-crate-concurrent-queue \
 bundled-rust-crate-config \
 bundled-rust-crate-cpufeatures \
@@ -84,7 +82,6 @@ bundled-rust-crate-csscolorparser \
 bundled-rust-crate-darling \
 bundled-rust-crate-darling-core \
 bundled-rust-crate-darling-macro \
-bundled-rust-crate-dashmap \
 bundled-rust-crate-deltae \
 bundled-rust-crate-derivative \
 bundled-rust-crate-dhat \
@@ -103,6 +100,7 @@ bundled-rust-crate-enumflags2 \
 bundled-rust-crate-enumflags2-derive \
 bundled-rust-crate-env-bootstrap \
 bundled-rust-crate-env-logger \
+bundled-rust-crate-equivalent \
 bundled-rust-crate-euclid \
 bundled-rust-crate-event-listener \
 bundled-rust-crate-exr \
@@ -136,7 +134,6 @@ bundled-rust-crate-futures-task \
 bundled-rust-crate-futures-timer \
 bundled-rust-crate-futures-util \
 bundled-rust-crate-fuzzy-matcher \
-bundled-rust-crate-fxhash \
 bundled-rust-crate-generic-array \
 bundled-rust-crate-gethostname \
 bundled-rust-crate-getopts \
@@ -150,14 +147,12 @@ bundled-rust-crate-glow \
 bundled-rust-crate-governor \
 bundled-rust-crate-gpu-alloc \
 bundled-rust-crate-gpu-alloc-types \
-bundled-rust-crate-gpu-allocator \
 bundled-rust-crate-gpu-descriptor \
 bundled-rust-crate-gpu-descriptor-types \
 bundled-rust-crate-guillotiere \
 bundled-rust-crate-half \
 bundled-rust-crate-harfbuzz \
 bundled-rust-crate-hashbrown \
-bundled-rust-crate-hassle-rs \
 bundled-rust-crate-hdrhistogram \
 bundled-rust-crate-heck \
 bundled-rust-crate-hex \
@@ -283,13 +278,11 @@ bundled-rust-crate-promise \
 bundled-rust-crate-pulldown-cmark \
 bundled-rust-crate-pure-rust-locales \
 bundled-rust-crate-qoi \
-bundled-rust-crate-quanta \
 bundled-rust-crate-quick-xml \
 bundled-rust-crate-quote \
 bundled-rust-crate-rand \
 bundled-rust-crate-rand-chacha \
 bundled-rust-crate-rand-core \
-bundled-rust-crate-range-alloc \
 bundled-rust-crate-rangeset \
 bundled-rust-crate-ratelim \
 bundled-rust-crate-raw-window-handle \
@@ -429,11 +422,11 @@ bundled-rust-crate-wezterm-open-url \
 bundled-rust-crate-wezterm-ssh \
 bundled-rust-crate-wezterm-term \
 bundled-rust-crate-wezterm-toast-notification \
+bundled-rust-crate-wezterm-version \
 bundled-rust-crate-wgpu \
 bundled-rust-crate-wgpu-core \
 bundled-rust-crate-wgpu-hal \
 bundled-rust-crate-wgpu-types \
-bundled-rust-crate-widestring \
 bundled-rust-crate-winapi \
 bundled-rust-crate-window \
 bundled-rust-crate-window-funcs \
@@ -442,6 +435,7 @@ bundled-rust-crate-x11 \
 bundled-rust-crate-xcb \
 bundled-rust-crate-xcb-imdkit \
 bundled-rust-crate-xcursor \
+bundled-rust-crate-xdg-home \
 bundled-rust-crate-xkbcommon \
 bundled-rust-crate-xml-rs \
 bundled-rust-crate-yasna \

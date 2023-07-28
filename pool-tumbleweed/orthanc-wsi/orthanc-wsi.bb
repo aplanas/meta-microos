@@ -5,12 +5,12 @@ DESCRIPTION = "The Orthanc project provides three official tools to support DICO
 - Another command-line tool that converts a DICOM series stored inside Orthanc, to a standard hierarchical TIFF image."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "1.1"
+PV = "2.0"
 
-RPM_NAME = "orthanc-wsi-1.1-2.12.aarch64.rpm"
-RPM_HASH = "777fb4029c54ca42e41b7ed0df02329e8ed3f7e53c580b64198651621a06e171c50b58fb76c184236a6fa22467d76c1b5c27615aedcc41af2af617402f6ef2d0"
+RPM_NAME = "orthanc-wsi-2.0-1.1.aarch64.rpm"
+RPM_HASH = "c9a953cfb7b708fb50c2259b532e76be287e2709b1ffc96f624fab0aac5410c1c8447c8cb448ab4b3523740fe3aee7f90fc19839f3de29e5c70c91d8527b202b"
 
-RPROVIDES:${PN} += "libOrthancWSI.so.1.1 \
+RPROVIDES:${PN} += "libOrthancWSI.so.2.0 \
 orthanc-wsi"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \

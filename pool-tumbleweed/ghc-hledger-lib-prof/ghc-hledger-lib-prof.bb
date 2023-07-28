@@ -4,11 +4,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.28"
 
-RPM_NAME = "ghc-hledger-lib-prof-1.28-3.1.aarch64.rpm"
-RPM_HASH = "c09da5d8cebfb51e139e7ed0f52e774b412e58057095a9be7d268ae49a9cccbaedf54eedc28335091c3ee5ac0aad1431b773d1942cf87d6fdb8c4e16ea45cf91"
+RPM_NAME = "ghc-hledger-lib-prof-1.28-3.2.aarch64.rpm"
+RPM_HASH = "b6c538c1ff39b4eb53c81c4892b6d324f8b2f7d424c50c35816db7ec8b4ea7817f2e4b7036e8ee18ed625ffad2d8eafe734e9c891aaf39f32dc44ae4df3c92fa"
 
 RPROVIDES:${PN} += "ghc-hledger-lib-prof \
-ghc-prof-hledger-lib-1.28-KVtwO74sgvi1hMRwtb8EwS"
+ghc-prof-hledger-lib-1.28-8CRsXBZZAO2KJcvUK9hqic"
 
 RDEPENDS:${PN} += "ghc-hledger-lib-devel \
 ghc-prof-Decimal-0.5.2-1qhxZ7R9Om3AQz2LFWOWmX \
@@ -29,7 +29,7 @@ ghc-prof-data-default-0.7.1.1-5iNQUD7GKkTDiLEyJaqXSy \
 ghc-prof-deepseq-1.4.8.0 \
 ghc-prof-directory-1.3.7.1 \
 ghc-prof-doclayout-0.4.0.1-9Y8Rw4EdBjz2IhzjzOiBy0 \
-ghc-prof-extra-1.7.14-BoqGpItPSHp5TXSaJGSPpo \
+ghc-prof-extra-1.7.14-9MsHIUa0FAo4DKg07m0mTc \
 ghc-prof-file-embed-0.0.15.0-LJLaBgMyS4K2tBVYbzJ0uw \
 ghc-prof-filepath-1.4.2.2 \
 ghc-prof-hashtables-1.3.1-AhYwUdJr2hP9YbqppAld0p \

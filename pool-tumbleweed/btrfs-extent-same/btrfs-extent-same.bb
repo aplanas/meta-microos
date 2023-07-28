@@ -2,10 +2,10 @@ SUMMARY = "Debug/Test tool to exercise the btrfs out-of-band deduplication ioctl
 DESCRIPTION = "Debug/Test tool to exercise a btrfs ioctl for deduplicating file regions."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.11.3"
+PV = "0.12"
 
-RPM_NAME = "btrfs-extent-same-0.11.3-1.8.aarch64.rpm"
-RPM_HASH = "601f11e99d832aadbdc91a78e6713297ead67137c3ca4e8e2d9b10858f410eccd4f076a3a5a68d346a556b8339a1443fc89df7ec3169c9b18aaab078c0be9637"
+RPM_NAME = "btrfs-extent-same-0.12-1.1.aarch64.rpm"
+RPM_HASH = "5185e9f850bd86fa141606a0dd187968b311b1a1af116fd36903618a8cf95b694f74c7b3edf44704d560791cbcc5a9a6899640d5c1dfe6bb782378170f584c02"
 
 RPROVIDES:${PN} += "btrfs-extent-same"
 

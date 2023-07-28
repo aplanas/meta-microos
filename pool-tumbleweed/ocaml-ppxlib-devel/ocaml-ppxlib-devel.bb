@@ -3,10 +3,10 @@ DESCRIPTION = "The ocaml-ppxlib-devel package contains libraries and signature f
 developing applications that use ocaml-ppxlib."
 LICENSE = "MIT"
 
-PV = "0.29.1"
+PV = "0.30.0"
 
-RPM_NAME = "ocaml-ppxlib-devel-0.29.1-3.2.aarch64.rpm"
-RPM_HASH = "1d8bb5408a6cf77b78a273377d7565e5c8473a78ce1e4791f01e4dff6fe134b1091f4c5517a8d82995305d9421d0ae6e6c81863b9687ec9564959a15d27b10d3"
+RPM_NAME = "ocaml-ppxlib-devel-0.30.0-1.1.aarch64.rpm"
+RPM_HASH = "9aa4e79e465abbacc8cd2f5f96659cfad032c2019df1a25dc6fb614f158347513c1a1d03e46b41e6e556502c5e918a1189cf7f9fb455b525e2f6728f03e075e8"
 
 RPROVIDES:${PN} += "ocaml-Astlib \
 ocaml-Astlib-- \
@@ -24,6 +24,7 @@ ocaml-Astlib--Ast-412 \
 ocaml-Astlib--Ast-413 \
 ocaml-Astlib--Ast-414 \
 ocaml-Astlib--Ast-500 \
+ocaml-Astlib--Ast-501 \
 ocaml-Astlib--Ast-metadata \
 ocaml-Astlib--Config \
 ocaml-Astlib--Keyword \
@@ -55,6 +56,8 @@ ocaml-Astlib--Migrate-413-414 \
 ocaml-Astlib--Migrate-414-413 \
 ocaml-Astlib--Migrate-414-500 \
 ocaml-Astlib--Migrate-500-414 \
+ocaml-Astlib--Migrate-500-501 \
+ocaml-Astlib--Migrate-501-500 \
 ocaml-Astlib--Parse \
 ocaml-Astlib--Pprintast \
 ocaml-Astlib--Stdlib0 \
@@ -141,6 +144,7 @@ ocamlx-Astlib--Ast-412 \
 ocamlx-Astlib--Ast-413 \
 ocamlx-Astlib--Ast-414 \
 ocamlx-Astlib--Ast-500 \
+ocamlx-Astlib--Ast-501 \
 ocamlx-Astlib--Ast-metadata \
 ocamlx-Astlib--Config \
 ocamlx-Astlib--Keyword \
@@ -172,6 +176,8 @@ ocamlx-Astlib--Migrate-413-414 \
 ocamlx-Astlib--Migrate-414-413 \
 ocamlx-Astlib--Migrate-414-500 \
 ocamlx-Astlib--Migrate-500-414 \
+ocamlx-Astlib--Migrate-500-501 \
+ocamlx-Astlib--Migrate-501-500 \
 ocamlx-Astlib--Parse \
 ocamlx-Astlib--Pprintast \
 ocamlx-Astlib--Stdlib0 \

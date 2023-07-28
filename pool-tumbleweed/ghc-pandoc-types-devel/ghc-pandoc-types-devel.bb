@@ -2,12 +2,12 @@ SUMMARY = "Haskell pandoc-types library development files"
 DESCRIPTION = "This package provides the Haskell pandoc-types library development files."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.23"
+PV = "1.23.0.1"
 
-RPM_NAME = "ghc-pandoc-types-devel-1.23-1.6.aarch64.rpm"
-RPM_HASH = "7c016c7d0d1915258075b02892ca94f6bd02797878a9fd5d51386deeea7db81034026fb5b538ab7167b519c875e97ee3ae3c1a3e1feaa2ec8571ef72d7271f47"
+RPM_NAME = "ghc-pandoc-types-devel-1.23.0.1-1.1.aarch64.rpm"
+RPM_HASH = "5660abd6717307b39ad9bfd2f3e268b6a7a4f329e02e31b3363108813d3ff4a1f38897b7028d173bd301d3457aa567b6223847a45b1f894608ac3a8d51f43ca0"
 
-RPROVIDES:${PN} += "ghc-devel-pandoc-types-1.23-4C1nzwOnt973xRAA9sp531 \
+RPROVIDES:${PN} += "ghc-devel-pandoc-types-1.23.0.1-EcvZluXpPb0J10kJC4UfRg \
 ghc-pandoc-types-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

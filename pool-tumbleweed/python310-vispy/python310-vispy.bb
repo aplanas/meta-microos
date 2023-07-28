@@ -3,10 +3,10 @@ DESCRIPTION = "Vispy is an interactive 2D/3D data visualization library. It leve
 Processing Units through the OpenGL library to display large datasets."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.12.2"
+PV = "0.13.0"
 
-RPM_NAME = "python310-vispy-0.12.2-1.4.aarch64.rpm"
-RPM_HASH = "1a5ad00f262195eaeaf6dacf435085c402730366f40f63c0e323f2ad300e02480cd1ddc8073809c54c04f3b2909a5c4b1d4e2e0a48373e6df8b26e587911a98b"
+RPM_NAME = "python310-vispy-0.13.0-1.1.aarch64.rpm"
+RPM_HASH = "0e97ee729070ff8ee3d60ce7e1d77c75fbd2213fd18b6639b59fa87f21552828e48dd702f01543cfbf17954606b60cb4e3f9cc004c69d795f862adc2c92cf013"
 
 RPROVIDES:${PN} += "python3.10dist-vispy \
 python310-vispy \

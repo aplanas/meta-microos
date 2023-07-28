@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.4"
 
-RPM_NAME = "ghc-tls-session-manager-doc-0.0.4-4.3.noarch.rpm"
-RPM_HASH = "083c72b94d346e79698900e2c14c0b01e08500a6f0d2b376fcf5eb8da6c743557638c2834a1de9ac54d067c1a978479829b4978d9632df20962e93918cca1155"
+RPM_NAME = "ghc-tls-session-manager-doc-0.0.4-4.4.noarch.rpm"
+RPM_HASH = "d6ac2184c396348b4322bb469849ddb3060dbc2b4fbe2249f0e57e858a3613f179daf70d3e58057125c66c4a912f0e6eb7bbbf30affd031797945f752fe837bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-tls-session-manager-doc"

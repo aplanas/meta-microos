@@ -4,10 +4,10 @@ initramfs with dracut, which does an integrity check of the kernel \
 and its cryptography during startup."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "059+suse.447.g9d1fc722"
+PV = "059+suse.476.g5e324584"
 
-RPM_NAME = "dracut-fips-059+suse.447.g9d1fc722-1.1.aarch64.rpm"
-RPM_HASH = "877ac42756c5d8b3eee156cf84cf62dac6de4995eab9a6e9fc17c757c6348413d773722aa81c2ca20fa58512f5036520adcb6ebed2b88f5ca31b0ebb8052eb05"
+RPM_NAME = "dracut-fips-059+suse.476.g5e324584-1.1.aarch64.rpm"
+RPM_HASH = "db6b90dcc99e55365e633b0d622df1288ea022b41fa86f0d0ade35a1abc443450aae95f6096667e783d6396e98a77322e62f22c56ab06bcd3b6c04eb949aaff0"
 
 RPROVIDES:${PN} += "config-dracut-fips \
 dracut-fips"

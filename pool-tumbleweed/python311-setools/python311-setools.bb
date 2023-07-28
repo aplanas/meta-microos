@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "4.4.2"
 
-RPM_NAME = "python311-setools-4.4.2-1.2.aarch64.rpm"
-RPM_HASH = "b14a542309a547ba91461b592f1e4c5c57284bc1ee2265e6b20a41149f957218fc038258599e16f04d65ed910e3c48721157be9dc26bfa3a86cac96ffcf0910b"
+RPM_NAME = "python311-setools-4.4.2-2.1.aarch64.rpm"
+RPM_HASH = "79d7e459d1411eaee112caea570bc01efa058d94e3cd54507009dd921f5f0cb83f082743038789003ebf826820bb3e73199869d4e6d070f6e208ecd7743da7bf"
 
 RPROVIDES:${PN} += "python-setools \
 python3-setools \
@@ -19,6 +19,7 @@ libc.so.6 \
 libselinux.so.1 \
 libsepol.so.2 \
 python-abi \
-python3"
+python3 \
+python3-setuptools"
 
 inherit rpm

@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.21"
 
-RPM_NAME = "gdcm-applications-3.0.21-1.8.aarch64.rpm"
-RPM_HASH = "d389f2d1592d002c34a6241ef4eeac1b1c98efd61eaeac398e041685a127901cc540b50ea6193ff419b11c2088a30ac1d07bb797a61aacedbcd8e1f41db4b41a"
+RPM_NAME = "gdcm-applications-3.0.21-1.9.aarch64.rpm"
+RPM_HASH = "bfd80a20001074596de49efd9b94825a3a2f1862bbad500908edd4b6e968f339ee287949e6a2d1f8407254979801fc9b5eb5d06c609773b3da90c8f358f47f1f"
 
 RPROVIDES:${PN} += "gdcm-applications"
 
@@ -20,7 +20,7 @@ libgdcmDSED.so.3.0 \
 libgdcmIOD.so.3.0 \
 libgdcmMEXD.so.3.0 \
 libgdcmMSFF.so.3.0 \
-libpoppler.so.129 \
+libpoppler.so.130 \
 libstdc++.so.6 \
 libxml2.so.2 \
 libz.so.1"

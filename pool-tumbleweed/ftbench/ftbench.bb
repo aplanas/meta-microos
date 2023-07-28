@@ -3,10 +3,10 @@ DESCRIPTION = "Run FreeType benchmarks \
 This tool is part of the FreeType project"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.13.0"
+PV = "2.13.1"
 
-RPM_NAME = "ftbench-2.13.0-4.2.aarch64.rpm"
-RPM_HASH = "c617cde5c33b4612a221073ee52285bba051bb684156d9318b84745f1ed6339bd4488f4fdf111a32219fb4937e662a35396a5b610afacf2f257adc275e5180d1"
+RPM_NAME = "ftbench-2.13.1-1.1.aarch64.rpm"
+RPM_HASH = "9d238c45426435f0ec9741fd1f60ef1977b289dabd98597cf7898bc06eaabc5d10abecf880dcc256b4fd459c0357f10a649b6d19d94fa4aae40dceb832cfc653"
 
 RPROVIDES:${PN} += "ftbench"
 

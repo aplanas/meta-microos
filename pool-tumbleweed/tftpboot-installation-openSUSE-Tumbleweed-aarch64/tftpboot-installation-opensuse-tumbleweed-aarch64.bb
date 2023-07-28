@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "17.89"
 
-RPM_NAME = "tftpboot-installation-openSUSE-Tumbleweed-aarch64-17.89-1.47.noarch.rpm"
-RPM_HASH = "1f5e9b775cf495c744965945bbaa91aa5f55296dfa0dbf41492ec183bc98c43fcf772a87ab7fe6420dec0ba4bee7cd61c5ed532256ccb02ec6af2ef4434ce285"
+RPM_NAME = "tftpboot-installation-openSUSE-Tumbleweed-aarch64-17.89-1.57.noarch.rpm"
+RPM_HASH = "5b3d3fb0ba83a90f59df132a5a4973d99de771b3e35b05beba82d66cee023d54ee59b598e0504cfd226cd33a4f1a6bdafc80894f015ad55caca843a685d0ba07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tftpboot-installation-openSUSE-Tumbleweed-aarch64"

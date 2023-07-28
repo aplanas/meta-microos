@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.2.2"
 
-RPM_NAME = "inkscape-1.2.2-3.3.aarch64.rpm"
-RPM_HASH = "6fd77d6567a59e23292539e9ed19408bed59d402749ad17670b42b37777037d1d0d87a7e695add579f0136e3a7b1f2e24dc21501ddde7328efb6a5c377c10c18"
+RPM_NAME = "inkscape-1.2.2-3.4.aarch64.rpm"
+RPM_HASH = "5a26328fff3e3de74a22b2a4a8ca26cc17f24fc8a1619b29a81bd2732170b88fcd858f388725a46ebc8065c3e4ac5c4d30eff49b0e06b13b83b3276657d0fde6"
 
 RPROVIDES:${PN} += "inkscape \
 libinkscape-base.so"
@@ -51,7 +51,7 @@ libpangoft2-1.0.so.0 \
 libpangomm-1.4.so.1 \
 libpng16.so.16 \
 libpoppler-glib.so.8 \
-libpoppler.so.129 \
+libpoppler.so.130 \
 libpotrace.so.0 \
 libreadline.so.8 \
 librevenge-0.0.so.0 \

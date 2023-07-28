@@ -4,10 +4,10 @@ DESCRIPTION = "libscca is a library to access the Windows Prefetch File (PF) for
 Note that this project currently only focuses on the analysis of the format."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221027"
+PV = "20230716"
 
-RPM_NAME = "libscca1-20221027-3.11.aarch64.rpm"
-RPM_HASH = "cd3b4c76fd777870c32f5091f01f08994c6ad55afb9e0ccae28561fd788d40e62853dd76db6195b1654dda00834bb49bce305b1e5dab7ef572b4efbd3ccfe900"
+RPM_NAME = "libscca1-20230716-1.1.aarch64.rpm"
+RPM_HASH = "2f99ceb401906f77c70242b7d529813b3d653692064adcc967bc8d5d87f8c31bd0876da54c79dfbe36354d0be4ef4f246b5259f9456721d0e0e51299e65e5ffc"
 
 RPROVIDES:${PN} += "libscca.so.1 \
 libscca1"

@@ -4,10 +4,10 @@ thousands of language pairs. The Google Cloud Translation API lets websites \
 and programs integrate with Google Cloud Translation programmatically."
 LICENSE = "Apache-2.0"
 
-PV = "3.11.1"
+PV = "3.11.2"
 
-RPM_NAME = "python311-google-cloud-translate-3.11.1-1.1.noarch.rpm"
-RPM_HASH = "030626d888c8fd67af098d7232c7e693041272913f22fc72325b0310d63d79a9db7b2c64091372d1cf02051397508bf7102ac7cfa9234b6eac4a475a04dcc9cd"
+RPM_NAME = "python311-google-cloud-translate-3.11.2-1.1.noarch.rpm"
+RPM_HASH = "cbfb11fe72f24f5d3063e07414d98c29819f21f92b310c24093c2fdecf9765454e5283f39d83af551a674cdf281079cdf502e8146b83b5f7f02385d300bdb1d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-google-cloud-translate \

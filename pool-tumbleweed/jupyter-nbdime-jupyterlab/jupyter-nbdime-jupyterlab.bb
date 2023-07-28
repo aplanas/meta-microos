@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.0"
 
-RPM_NAME = "jupyter-nbdime-jupyterlab-2.2.0-12.3.noarch.rpm"
-RPM_HASH = "e720e5f6b4b33f822c65c11a7ce82b13f9180203e93647590c8d93dec8be4316a3e6887171c2811750b143a8c2bcf6666848f14757311aa447f5717e19a8b4a5"
+RPM_NAME = "jupyter-nbdime-jupyterlab-2.2.0-13.1.noarch.rpm"
+RPM_HASH = "13c23c47800f4b26222f5b6497faee8ad2ef7a4ddf07d763c28c2573f3910e13d208781f610bf65c2aeacb250e48b4e2f9f8f59446449a036cc487f3e6cd7c9e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-nbdime-jupyterlab"

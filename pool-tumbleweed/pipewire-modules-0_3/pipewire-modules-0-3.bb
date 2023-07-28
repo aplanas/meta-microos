@@ -10,10 +10,10 @@ The framework is used to build a modular daemon that can be configured to: \
    such as the gnome-shell screencast API."
 LICENSE = "MIT"
 
-PV = "0.3.72"
+PV = "0.3.74"
 
-RPM_NAME = "pipewire-modules-0_3-0.3.72-1.1.aarch64.rpm"
-RPM_HASH = "7ecaeb284d20bd4ca105b3eb4892053f9b13240e87a77c0047133d48866d365f079b244b4c84d5e676c58d3ebb3469b14075817861d3cd2569530ebab8d854a8"
+RPM_NAME = "pipewire-modules-0_3-0.3.74-1.1.aarch64.rpm"
+RPM_HASH = "de1aa49bac2b48e4798b6cb10c256e27494bfd93136724fcafdf62d42488a383277174cdf345b9030d1c8c318b61afec46b1efa1c2febd500bc0bce0d7793608"
 
 RPROVIDES:${PN} += "libpipewire-module-access.so \
 libpipewire-module-adapter.so \
@@ -24,6 +24,8 @@ libpipewire-module-combine-stream.so \
 libpipewire-module-echo-cancel.so \
 libpipewire-module-fallback-sink.so \
 libpipewire-module-ffado-driver.so \
+libpipewire-module-filter-chain-lv2.so \
+libpipewire-module-filter-chain-sofa.so \
 libpipewire-module-filter-chain.so \
 libpipewire-module-jack-tunnel.so \
 libpipewire-module-jackdbus-detect.so \

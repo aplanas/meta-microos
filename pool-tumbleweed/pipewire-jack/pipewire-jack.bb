@@ -4,10 +4,10 @@ use the JACK implementation based on PipeWire instead of the original \
 JACK libraries."
 LICENSE = "MIT"
 
-PV = "0.3.72"
+PV = "0.3.74"
 
-RPM_NAME = "pipewire-jack-0.3.72-1.1.aarch64.rpm"
-RPM_HASH = "45b871999748f4623616b6a59c297cf4226757ab731534a50db2b05d97d193ef6e53cfb3a56cdabf651ce95dcd46fd2713188c20be7e630ba88557d11ddf77e3"
+RPM_NAME = "pipewire-jack-0.3.74-1.1.aarch64.rpm"
+RPM_HASH = "55b7594f02734be010a4276191c04d886c77fbaeb85757f841b29da0d990556ca26a16ce2bcc7bb00405a606e2360e283e10394d0343990fd2aa6024e8069fde"
 
 RPROVIDES:${PN} += "config-pipewire-jack \
 jack-daemon \

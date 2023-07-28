@@ -6,10 +6,10 @@ to physical translation, Xen mappings and more. \
 This package contains the libkdumpfile library."
 LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
-PV = "0.5.1+git3.g97c716a"
+PV = "0.5.2"
 
-RPM_NAME = "libkdumpfile10-0.5.1+git3.g97c716a-3.2.aarch64.rpm"
-RPM_HASH = "f55ac2c4352d0b9440abb770ed986a0bfac296b6ec3b4c34ea3be67991a2c6a50fa362b2432a94bf08a4be22998076558bef1b0a52bfbe0dc1a137ca053a5b97"
+RPM_NAME = "libkdumpfile10-0.5.2-1.1.aarch64.rpm"
+RPM_HASH = "4084f56e9afb348376a7170d2aa8aa7991f42d6da6bf2dd7cf058234862f54943b0c3f4096556750a7a059593df27a8b1118b267e42e555edf42834d43e1e479"
 
 RPROVIDES:${PN} += "libkdumpfile.so.10 \
 libkdumpfile10"

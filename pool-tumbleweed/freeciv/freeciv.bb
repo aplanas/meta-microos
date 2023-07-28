@@ -9,16 +9,16 @@ To start a new game, first start the server 'civserver,' then start the \
 client 'civclient'. Have fun!"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.0.7"
+PV = "3.0.8"
 
-RPM_NAME = "freeciv-3.0.7-1.2.aarch64.rpm"
-RPM_HASH = "4ef48f4bbb2ffbed1b4021db4913641fb5057a490fc53ff5bf69538387ecffaf94127f262a97fbb89c44338273d60825cf2cc4203ccee4a1336292c08afdb979"
+RPM_NAME = "freeciv-3.0.8-1.1.aarch64.rpm"
+RPM_HASH = "09f4d0bb0c0beb12918a8e3b8a0156e38225747ee4dabf1a7a7829aba0a4b577546cbede4c1811f5ce56c9a2405086716abe22acb08b2a3bf7acee50255ac747"
 
 RPROVIDES:${PN} += "config-freeciv \
 freeciv"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-freeciv-client-3.0.7 \
+freeciv-client-3.0.8 \
 ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \

@@ -7,10 +7,10 @@ This package contains the Iosevka SS14 typeface (monospace, JetBrains Mono \
 style)."
 LICENSE = "OFL-1.1"
 
-PV = "24.1.4"
+PV = "25.0.1"
 
-RPM_NAME = "iosevka-ss14-fonts-24.1.4-1.1.noarch.rpm"
-RPM_HASH = "3889256ea15ab3118cc9fd430b05f5312abe7046e204a9ad71318d883c021eb33e1cb432df302c935b15f1580b1a1c183138b254b549e3d5a360641c45a5f0d2"
+RPM_NAME = "iosevka-ss14-fonts-25.0.1-1.1.noarch.rpm"
+RPM_HASH = "c0c376e11a632ed6003d0f0e524d78eb9380fde86809bbbabc94aee74550c2abf9350b9c01a1f7b94f85db95608041cca7949b0f821714d9a01cda9a90b9f6bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-ss14-fonts"

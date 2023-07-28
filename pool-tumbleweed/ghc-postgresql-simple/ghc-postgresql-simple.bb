@@ -2,13 +2,13 @@ SUMMARY = "Mid-Level PostgreSQL client library"
 DESCRIPTION = "Mid-Level PostgreSQL client library, forked from mysql-simple."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.6.5"
+PV = "0.6.5.1"
 
-RPM_NAME = "ghc-postgresql-simple-0.6.5-3.7.aarch64.rpm"
-RPM_HASH = "56e6675c4397461bf27078d86275ba632e6e2ebd648d3fba77447920325368460c4db52f2ec41d25da1beab4bc49ab238c6cd1ddcdb3f2c42940e81449c30249"
+RPM_NAME = "ghc-postgresql-simple-0.6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "1fc8fe42d9957422171744151faad18e3d6a080f92c2b19c8ef490d654c9a1e48ed0eecd30df18b39c925c0a8bc694a736639f4b30c02f92f294e3edcaddbb59"
 
 RPROVIDES:${PN} += "ghc-postgresql-simple \
-libHSpostgresql-simple-0.6.5-Hs6HLIsgF4F9HSVLUQJif0-ghc9.4.5.so"
+libHSpostgresql-simple-0.6.5.1-1Mr3UW7Sqm2LauK5jyfZE3-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV-ghc9.4.5.so \
 libHSOnly-0.1-ETd5YCT0TwGLbN8rgpgTS8-ghc9.4.5.so \

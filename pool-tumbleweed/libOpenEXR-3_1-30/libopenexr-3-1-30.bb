@@ -5,10 +5,10 @@ Industrial Light & Magic for use in computer imaging applications. \
 This package contains shared library libOpenEXR"
 LICENSE = "BSD-3-Clause"
 
-PV = "3.1.7"
+PV = "3.1.9"
 
-RPM_NAME = "libOpenEXR-3_1-30-3.1.7-1.2.aarch64.rpm"
-RPM_HASH = "7a34bbcf49dda1bc6091c9280c2e9422310627b0494fddc2846ac6c9b469996dbaf426c824717d6a3cf58bbecd7db56609d6ba2f756f3663113fe12138806b9b"
+RPM_NAME = "libOpenEXR-3_1-30-3.1.9-2.1.aarch64.rpm"
+RPM_HASH = "9dc4bada8f70a2eb50efbca2d94b4f762cae180178a6bf55019ec88e7a50be72924c4d3a7954eec6c3e26694dee6d6ca962cb9927cc8e8d49d5496334fb59b54"
 
 RPROVIDES:${PN} += "libOpenEXR-3-1-30 \
 libOpenEXR-3-1.so.30"

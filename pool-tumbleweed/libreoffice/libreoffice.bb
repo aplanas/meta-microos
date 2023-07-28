@@ -28,8 +28,8 @@ LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
 PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-7.5.4.2-1.3.aarch64.rpm"
-RPM_HASH = "3068a4ffb5fe9f0a9d0407a5f8b6fa7ca3e991da9c8a835dcd8659fad5e931d21b88c47e53f0cbe3a502614731eba56c418fdd0210116587ed617513ce8f65e6"
+RPM_NAME = "libreoffice-7.5.4.2-1.5.aarch64.rpm"
+RPM_HASH = "b486c3a3edffc9740f133f04b1cbfad23255c867424b62161450a99cc46c8a955bf5f0df49474cb1ce006ee0e28d0496a3e2bef0c01aca55c210bce6f4ff9ae3"
 
 RPROVIDES:${PN} += "config-libreoffice \
 libLanguageToollo.so \

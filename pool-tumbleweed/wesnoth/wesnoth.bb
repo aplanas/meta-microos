@@ -6,10 +6,10 @@ types of attacks. Units gain experience and advance levels, and are \
 carried over from one scenario to the next campaign."
 LICENSE = "EPL-1.0 & GPL-2.0-or-later"
 
-PV = "1.17.16"
+PV = "1.17.17"
 
-RPM_NAME = "wesnoth-1.17.16-1.2.aarch64.rpm"
-RPM_HASH = "9ec7c74bf9350504b44d6d5bc2652ced299b896d15903aa0faaeb2a1fe43d787b8f4bca2a266210066d79a34e88c4139b8a8ca931201925c650e889b519375a0"
+RPM_NAME = "wesnoth-1.17.17-1.1.aarch64.rpm"
+RPM_HASH = "2e44f03377d7fc25734238926c0106d8e1a9aa2a8d38cc3991a362c08f2b16b3eed92f3dc9fa4114b3f07c8c4069072a32e9bc899d6efd0bed2b3198a76d57ff"
 
 RPROVIDES:${PN} += "wesnoth"
 

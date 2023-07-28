@@ -3,10 +3,10 @@ DESCRIPTION = "rpmlint is a tool to check common errors on RPM packages. Binary 
 source packages can be checked."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.4.0+git20230602.89901a92"
+PV = "2.4.0+git20230713.dfa31c7"
 
-RPM_NAME = "rpmlint-2.4.0+git20230602.89901a92-1.2.noarch.rpm"
-RPM_HASH = "ca4abf9104135044d3ea7be17669c807882297c0dd3573c841158c36f4fc84838db70511d51b360dcc317ba7f0390634b5257522d62a0f6197d22e54e8435a21"
+RPM_NAME = "rpmlint-2.4.0+git20230713.dfa31c7-1.1.noarch.rpm"
+RPM_HASH = "b39bf4a6d23f354d8689a50f816cd2c14586ee387641208d8c617512fb46694fce78dd7de505ec09e5dccf5ee49cca92ee08dfc0474778c9732b51802fe941da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-rpmlint \

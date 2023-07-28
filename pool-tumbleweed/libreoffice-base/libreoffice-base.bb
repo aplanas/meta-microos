@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
 PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-base-7.5.4.2-1.3.aarch64.rpm"
-RPM_HASH = "ff45431df073a5ba9b4e3b46a1b8f39025f7416c924b029adb62670b0f5f4bdd7d66d3aacf642921d0cdd8a419d656aad96e288dd6fb0ae73ddbf8ec5d18f41b"
+RPM_NAME = "libreoffice-base-7.5.4.2-1.5.aarch64.rpm"
+RPM_HASH = "44ed1a34eee0b6fdcd7ce76c2ea84a6b836e04811c63fbeb82a8a069de8b9ee7c70514a584f0c0fae249af2f9b7641f3eb8fb6e7a34e1706cc9bcce4119a63b7"
 
 RPROVIDES:${PN} += "libabplo.so \
 libdbplo.so \

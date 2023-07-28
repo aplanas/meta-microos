@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.1"
 
-RPM_NAME = "ghc-cprng-aes-prof-0.6.1-4.3.aarch64.rpm"
-RPM_HASH = "fe5a4f3aaf79c40ff76995c1cae917c9e9fd65ab87957ce36e8aef22b4e7a27caed7b1d7e5df6ff02085b478964029fd50f273390b186d829d006cc55b0904a2"
+RPM_NAME = "ghc-cprng-aes-prof-0.6.1-5.1.aarch64.rpm"
+RPM_HASH = "2920506bbd04cfd30ab62f416738dc2dbd47c58816907c8a2860ee71bb26c0954322cdf088e491d3a25ae91427be9e05b8a4d9d5a8ccae09837ffb076a2792ec"
 
 RPROVIDES:${PN} += "ghc-cprng-aes-prof \
 ghc-prof-cprng-aes-0.6.1-57mLrS8iLhhDpycOALP7vk"

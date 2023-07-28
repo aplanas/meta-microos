@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "7.1.0"
 
-RPM_NAME = "neofetch-7.1.0-1.9.noarch.rpm"
-RPM_HASH = "d9ff03ec76dba183651f5c01e47fb23355ec47ceaca9c7acad1867c5dc4ca68e9c755b3125918f70fb5c414130d7de6ebea425f8dc353fb5142095990992e9af"
+RPM_NAME = "neofetch-7.1.0-2.1.noarch.rpm"
+RPM_HASH = "be94536d32afbe20e25705c02453701587157aff8deecbfb771ae1ebf83219d5ee7046e1325ef5fe2bfa3d166125c4b99fdeb77bf316e444be27e26839ce0226"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "neofetch"

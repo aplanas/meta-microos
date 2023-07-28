@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.6"
 
-RPM_NAME = "typelib-1_0-Colord-1_0-1.4.6-2.4.aarch64.rpm"
-RPM_HASH = "20f0532c14e6c46214a9e8beb58150f33eed8daf287a922de1057e13ab54c806afd2e35912955751b4a61439ded16ad474b9761aaff15a94fe63886fbc1646a2"
+RPM_NAME = "typelib-1_0-Colord-1_0-1.4.6-3.1.aarch64.rpm"
+RPM_HASH = "9d2d56d83ace7f0546db9344d1a78fb8f07b9402a73bf6f0f35c8e8807695ec5ce1f9a6eb3c1ee1b355508f6f933051744df645da44727d6fcaaa2faebefdb8e"
 
 RPROVIDES:${PN} += "typelib-1-0-Colord-1-0 \
 typelib-Colord"

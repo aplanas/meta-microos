@@ -2,10 +2,10 @@ SUMMARY = "HTML documentation for systemd"
 DESCRIPTION = "The HTML documentation for systemd."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "253.5"
+PV = "253.7"
 
-RPM_NAME = "systemd-doc-253.5-5.1.aarch64.rpm"
-RPM_HASH = "f0ca3dc778241edcf6f11369865068a37fc22dacf41312aabf0785dd440e159638ee9ae8962899c9705e84c277cab8cf8da8be3211166c16c061e91d91e41fa1"
+RPM_NAME = "systemd-doc-253.7-1.2.aarch64.rpm"
+RPM_HASH = "8cf759e94952dddf989995260ac3cdcffe940b58ddbf18c261d5bcfafc6ec8730255c8636477b76cc906955f3587f104f396dd5cab719d97398fd261f5925ac4"
 
 RPROVIDES:${PN} += "systemd-doc"
 

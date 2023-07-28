@@ -5,10 +5,10 @@ common helpers (e.g. base ``Client`` classes) used by all of the \
 ``google-cloud-*`` packages."
 LICENSE = "Apache-2.0"
 
-PV = "2.3.2"
+PV = "2.3.3"
 
-RPM_NAME = "python311-google-cloud-core-2.3.2-1.5.noarch.rpm"
-RPM_HASH = "120859772a0016a7341f079eadf0d69c90d39c0cb5d2def354566ac91bd94160043c9e4b22fc29f9024eccb73d0ae7d40dd796d9e3547dcdd1894bf52805a40b"
+RPM_NAME = "python311-google-cloud-core-2.3.3-1.1.noarch.rpm"
+RPM_HASH = "619aef265349e4451b969f8a756469ce1340f82b8ed5b81af94c20f4c7bdfa786d9e3451cf65c57efb8ed6f99e2e7728df7546babd66cc1d443e9bf86d3eaac5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-google-cloud-core \

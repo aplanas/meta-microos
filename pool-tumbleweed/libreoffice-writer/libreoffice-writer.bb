@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
 PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-writer-7.5.4.2-1.3.aarch64.rpm"
-RPM_HASH = "cd514cc9e057394a676821174915000ced85f34db42a7be0f281945f06b6f423cc19ebf6cfc5aed5641ec04140fcac23d4f64359746656c1b7531ec9e1747c56"
+RPM_NAME = "libreoffice-writer-7.5.4.2-1.5.aarch64.rpm"
+RPM_HASH = "6b89c31d9781d8ec592b3f46c59842f436427179c8496b8de2d05c71e25fb1b8960e1a3459c366ba934c4b4f50dc547022ca28f8d77eb1f3b23896deae155c6b"
 
 RPROVIDES:${PN} += "libhwplo.so \
 liblwpftlo.so \

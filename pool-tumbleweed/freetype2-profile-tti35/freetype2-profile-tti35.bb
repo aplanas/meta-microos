@@ -6,10 +6,10 @@ This broke the work of full hinting. This optional package with a bash profile \
 that will switch the TrueType Interpreter to the old version 35."
 LICENSE = "FTL & GPL-2.0-only"
 
-PV = "2.13.0"
+PV = "2.13.1"
 
-RPM_NAME = "freetype2-profile-tti35-2.13.0-4.1.noarch.rpm"
-RPM_HASH = "b0e476273797471dad3613f158f96680087274eef787484d0a615cb10b1ac287e2679103e6e358727df89c56c7c8bac9e6a6e53e8d6c48a8cb49cd8e3857f10c"
+RPM_NAME = "freetype2-profile-tti35-2.13.1-1.1.noarch.rpm"
+RPM_HASH = "b513070c6d5ec64f97ac318f2c57ac90b076bfff744517460ef5f050ff43c8d039349564db0c1f79ec308d8a8be7d875455406239bef05aefece0c0c4c562b80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-freetype2-profile-tti35 \

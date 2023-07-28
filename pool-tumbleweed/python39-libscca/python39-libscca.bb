@@ -4,10 +4,10 @@ DESCRIPTION = "Library and tools to access the Windows Prefetch File (PF) format
 Note that this project currently only focuses on the analysis of the format."
 LICENSE = "GFDL-1.3-only & LGPL-3.0-or-later"
 
-PV = "20221027"
+PV = "20230716"
 
-RPM_NAME = "python39-libscca-20221027-3.11.aarch64.rpm"
-RPM_HASH = "b9e925fdb8c48753c40661f13a47ecbea820a4b4f4e559f52432d8d7072c127033be7448c6d8f252e8d67392b3fa49c326737fe56b633560d81bfe86c62a02dd"
+RPM_NAME = "python39-libscca-20230716-1.1.aarch64.rpm"
+RPM_HASH = "bb494ca045019c2ac70bb5eff14185da071191fc959f158ab66a4fa8a38ccbb50a34ceb8a30f071ffa058339e424606bd6b0d48277b4a164f4a88b5943f1ab2a"
 
 RPROVIDES:${PN} += "python39-libscca"
 
@@ -16,6 +16,7 @@ libbfio.so.1 \
 libc.so.6 \
 libcerror.so.1 \
 libscca.so.1 \
+libuna.so.1 \
 python-abi"
 
 inherit rpm

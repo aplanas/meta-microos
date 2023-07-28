@@ -8,8 +8,8 @@ LICENSE = "ISC"
 
 PV = "2.1.0"
 
-RPM_NAME = "libyajl-devel-2.1.0-7.2.aarch64.rpm"
-RPM_HASH = "d1e2ef735104aaf25c74006f2f2cef3e538d23b62e53a72a8063bd46a5e48a82bca7115e25d6a2c5dbc6cdf31242c1957e81d2e2b93baeeab58c77a23cd159b8"
+RPM_NAME = "libyajl-devel-2.1.0-8.1.aarch64.rpm"
+RPM_HASH = "3ab12ffb00b5f1796dde706cc04a425ba952d88e88f4ec2b274e20309fb89e3b47473c4fdb3fc5e0b79467d616f847015dc80155fd15947fddb1a98b8445407f"
 
 RPROVIDES:${PN} += "libyajl-devel \
 pkgconfig-yajl"

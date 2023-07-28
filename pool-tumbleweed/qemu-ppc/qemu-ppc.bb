@@ -9,10 +9,10 @@ virtualization. \
 This package provides ppc and ppc64 emulation."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.2"
+PV = "8.0.3"
 
-RPM_NAME = "qemu-ppc-8.0.2-2.1.aarch64.rpm"
-RPM_HASH = "1a42747241df4acb724064cec4c6f89c7dcfbf1bd31e18e8babd00df570580686a2dc6c509e62b8d54180c6d8a2fe4c28c8f4516570f9bab723cf238107a7302"
+RPM_NAME = "qemu-ppc-8.0.3-1.1.aarch64.rpm"
+RPM_HASH = "38988d33eabac51b847898cfc3d3dc40bd39c7c77f7de71051612e661a780225d80c1573589c18a19691323bc38cded125bec16f7703fe38d22138751ae044d0"
 
 RPROVIDES:${PN} += "qemu-ppc"
 

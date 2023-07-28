@@ -2,10 +2,10 @@ SUMMARY = "Haskell skylighting library documentation"
 DESCRIPTION = "This package provides the Haskell skylighting library documentation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.13.3"
+PV = "0.13.4"
 
-RPM_NAME = "ghc-skylighting-doc-0.13.3-1.2.noarch.rpm"
-RPM_HASH = "500db32ea8a1174cff23dfa6be823381f0da895369bb3a81f9d1d86a6b1240c5d2a131eebd0ad79227cbfc891cdf093fc0935d02f592f855cfcc31e3a7c1faaf"
+RPM_NAME = "ghc-skylighting-doc-0.13.4-1.1.noarch.rpm"
+RPM_HASH = "b14659a90a9def6e496ca26cac2255d967089c68bcad6f00b87776ffd934d78d9b1e79246aa6859f7c4c3540c964fb9623c5b89e9ad996fda22c564ed5607295"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-skylighting-doc"

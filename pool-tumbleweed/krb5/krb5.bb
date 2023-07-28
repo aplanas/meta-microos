@@ -4,10 +4,10 @@ which can improve network security by eliminating the insecure \
 practice of clear text passwords."
 LICENSE = "MIT"
 
-PV = "1.20.1"
+PV = "1.21.1"
 
-RPM_NAME = "krb5-1.20.1-6.2.aarch64.rpm"
-RPM_HASH = "ab99de7aae61bb139476db55e935f3db268a0b73b5b5f00a1439b47bf31d68afec3708dc898a1af62c2745abe62141a5c4f8b3ad8d9f29f1173ea25cca249d09"
+RPM_NAME = "krb5-1.21.1-1.1.aarch64.rpm"
+RPM_HASH = "fe662fc8e06af4e52d69d7d5879dbb2c8f0505671de109ec2fd308269808c7b053caf671d287f904a3ab0c63fc5b76a950c13159f2905f718d267e9fa64939a5"
 
 RPROVIDES:${PN} += "config-krb5 \
 krb5 \

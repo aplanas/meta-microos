@@ -6,10 +6,10 @@ rules may name a device node, create additional symlinks to the node, \
 call tools to initialize a device, or load needed kernel modules."
 LICENSE = "GPL-2.0-only"
 
-PV = "253.5"
+PV = "253.7"
 
-RPM_NAME = "udev-253.5-5.1.aarch64.rpm"
-RPM_HASH = "2f6040f9135524666dfb86f3ff0b1e1dd3b74704bbb93f113d1429e5c3644dcd182cf89df6d26306bde1359477bc5ca00bed62e943e91354b1a59c2cbacfc357"
+RPM_NAME = "udev-253.7-1.2.aarch64.rpm"
+RPM_HASH = "f00573a7697431b5e2b47a21be3d6cfb904e7080c247d5ff83ff264358b341b84c0c1cea7242422d49d2a5125564eba0c8d0471c76b842e13075f1d89f64761e"
 
 RPROVIDES:${PN} += "config-udev \
 libcryptsetup-token-systemd-fido2.so \
@@ -30,6 +30,7 @@ libc.so.6 \
 libcrypto.so.3 \
 libcryptsetup.so.12 \
 libkmod.so.2 \
+libm.so.6 \
 libp11-kit.so.0 \
 libsystemd-shared-253.so \
 sed \

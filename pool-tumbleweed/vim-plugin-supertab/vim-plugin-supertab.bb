@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1"
 
-RPM_NAME = "vim-plugin-supertab-2.1-55.1.noarch.rpm"
-RPM_HASH = "9835df7b399d3f8ad3fed2aa1d8e5e37c3e7cb9078564fbd972101aacbf44d483c6e50fb1eebd3742c679f7e4d48ca6881ec2b24301ca0dabfd0b942ec5c7bb5"
+RPM_NAME = "vim-plugin-supertab-2.1-56.1.noarch.rpm"
+RPM_HASH = "6ed35c109816f1bf7914652647a43f44b41da95a29ad125c5d805934c089227e0c260742467b8cb936c9b6fa755d1b35d149f69959296654ca289691f3279bbd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-supertab"

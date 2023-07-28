@@ -2,10 +2,10 @@ SUMMARY = "A Python Matrix client library, designed according to sans I/O princi
 DESCRIPTION = "A Python Matrix client library, designed according to sans I/O principles."
 LICENSE = "ISC"
 
-PV = "0.19.0"
+PV = "0.20.2"
 
-RPM_NAME = "python310-matrix-nio-0.19.0-1.13.noarch.rpm"
-RPM_HASH = "94f26d823870db83fc953b91fb37d39bfb47ecb9adcc33d2e8ae2c929013957eb80570f3390bade5967f4114a524eacd76bbfc8605c9e291473c23a262a74b7c"
+RPM_NAME = "python310-matrix-nio-0.20.2-1.1.noarch.rpm"
+RPM_HASH = "99b9179697df28d683e286cd28dda14aacff618b56e18946868f2c2be9a51994d305a0e0c97aaa01579738fb0ca578b4a1a0552eac748a8f486dccdead717dfd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-matrix-nio \

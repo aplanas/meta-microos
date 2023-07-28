@@ -3,10 +3,10 @@ DESCRIPTION = "Multiple masters font viewer \
 This tool is part of the FreeType project"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.13.0"
+PV = "2.13.1"
 
-RPM_NAME = "ftmulti-2.13.0-4.2.aarch64.rpm"
-RPM_HASH = "454a57732148bd00a0d37e343a1c9f52b4312ecc1b1620c8050fb4ea430d767812c2219996c86dc421a952f7f42ec5be28434cbbacb6f6f3d04d51f6ad7f2a99"
+RPM_NAME = "ftmulti-2.13.1-1.1.aarch64.rpm"
+RPM_HASH = "696d4d442bf67678c1a7cd53119f376d8a5580aaa76df82d652ff93f96213ae8bdb9b20cab24d1c64f3d485b4df53f0684147dfb2e971529195b337c0c277b7b"
 
 RPROVIDES:${PN} += "ftmulti"
 

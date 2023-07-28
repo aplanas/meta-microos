@@ -6,10 +6,10 @@ curves) and other entities like matrices, polynomials, \
 power series, algebraic numbers, and transcendental functions."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.15.3"
+PV = "2.15.4"
 
-RPM_NAME = "pari-gp-2.15.3-1.2.aarch64.rpm"
-RPM_HASH = "f177629ed3c8424f9aab8d794b220b20655993ee68cf4155bace20bef507645dc9d251d5fa9902e19d48f9a9eaa26b80b576df54b1ca2049da0ce0c3f6540f08"
+RPM_NAME = "pari-gp-2.15.4-1.1.aarch64.rpm"
+RPM_HASH = "4bae2443e3323d5a42390cb0b260fbdebc9a77591ac5376b60c22fcfdcf64386d0c89187593d3f4b007cb7a39434daa11410aaaa4c18f1a3b4d067a7d7ebbdbe"
 
 RPROVIDES:${PN} += "config-pari-gp \
 pari-gp \

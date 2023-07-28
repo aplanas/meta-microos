@@ -5,10 +5,10 @@ the built-in ctypes module to interface with SDL2, and provides simple \
 Python classes and wrappers for common SDL2 functionality."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "0.9.14"
+PV = "0.9.16"
 
-RPM_NAME = "python310-PySDL2-0.9.14-2.5.noarch.rpm"
-RPM_HASH = "68ea499a72959115870eec695595ea634409936d1bd55583aed908e4456e71da48e19e8a7d52217c704a5650058ef9a3f87376130e6194247cce6f33442f94e7"
+RPM_NAME = "python310-PySDL2-0.9.16-1.1.noarch.rpm"
+RPM_HASH = "75245b879ee99dfb2716c3ece8a5f36e4b14af7d5e2d4f07f3e0e9e3e7ac366d9df659ae0df09f9c738008751d830e1996396098515aa59a01e632fa53374ff1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-pysdl2 \

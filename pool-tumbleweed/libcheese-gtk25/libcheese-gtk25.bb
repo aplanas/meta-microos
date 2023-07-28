@@ -6,10 +6,10 @@ This package contains a library providing widgets to allow third \
 party applications to include parts of cheese functionality."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0.1"
+PV = "44.1"
 
-RPM_NAME = "libcheese-gtk25-44.0.1-1.2.aarch64.rpm"
-RPM_HASH = "aca58b6a01c8eeedc50274df0fa919cbd176daae3060351ba20476c8b4ba2980df2dc11669c73e6df4ee957fbbfb150640c5d97d045d5dae29ed2802fe1ffd9a"
+RPM_NAME = "libcheese-gtk25-44.1-1.1.aarch64.rpm"
+RPM_HASH = "2f7e10c6367347c22e2cebb39baadb227bdcec1c0d3b241e508e63ea5e8944dad39e589f72f5da81531be993194917ffe2c59e2f166079bd701291ece6d4d28d"
 
 RPROVIDES:${PN} += "libcheese-gtk.so.25 \
 libcheese-gtk25"

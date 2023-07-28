@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only | LGPL-3.0-or-later"
 
 PV = "11.0"
 
-RPM_NAME = "libgfxdr0-11.0-3.1.aarch64.rpm"
-RPM_HASH = "2cfdfdb566a2fd5e5cf3c495f6def605aa67055da80b1f280d00e9bfe45f8bc832e66c7489d22270fc76d5e5802bf16f30ec918fefc5c78f87ddd8d3bdf843ff"
+RPM_NAME = "libgfxdr0-11.0-4.1.aarch64.rpm"
+RPM_HASH = "519557756b603bb8f8f414d10fe89ce0adcff111e72abdf3cb62f54496e087c57a95fefcb4a1b983b01550b22241816f1672b0b550c79345d073cf02d9e25f72"
 
 RPROVIDES:${PN} += "libgfxdr.so.0 \
 libgfxdr0"

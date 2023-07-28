@@ -2,10 +2,10 @@ SUMMARY = "Libraries and headers for CharLS"
 DESCRIPTION = "This package contains libraries and headers for CharLS."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.4.1"
+PV = "2.4.2"
 
-RPM_NAME = "CharLS-devel-2.4.1-1.4.aarch64.rpm"
-RPM_HASH = "9dda8d56bbdcb5709b39bc0fd6aa5065bcdd053b3dc94e261b9f2adbede93619790fd3d79c0e3aa682bc7c9662554fc9e3916d7996c95060120e54136f9fb87e"
+RPM_NAME = "CharLS-devel-2.4.2-1.1.aarch64.rpm"
+RPM_HASH = "79c5d343ada17f5e69b2b2e6a959d95688ca5480093c31e298ddcee898842c2740ea308f95edd23dc89e20789a7de8eee9a105c8efdb31f622d3f1246266c3ff"
 
 RPROVIDES:${PN} += "CharLS-devel \
 cmake-charls \

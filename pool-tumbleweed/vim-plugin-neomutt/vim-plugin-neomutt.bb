@@ -6,8 +6,8 @@ LICENSE = "Vim"
 
 PV = "20220612"
 
-RPM_NAME = "vim-plugin-neomutt-20220612-55.1.noarch.rpm"
-RPM_HASH = "7d1704bd47dcbb5ffed5916903af021f5e16b516283c7c83d0f2b596ab5aa3c39a4d5804564efe5804dfa8251b0602531ef40649c797b28cc60b45f1a2688d5e"
+RPM_NAME = "vim-plugin-neomutt-20220612-56.1.noarch.rpm"
+RPM_HASH = "4e71d39f61efbaa6f8cb530ac8083f40a4c90d7281926ba440a00801cfa066053346d99e7aa95dcbaf44c32efa57d56bd538b39da37de73973a3f857b77e87cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-neomutt"

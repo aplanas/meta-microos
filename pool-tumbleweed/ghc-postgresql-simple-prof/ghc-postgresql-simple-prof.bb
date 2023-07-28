@@ -2,13 +2,13 @@ SUMMARY = "Haskell postgresql-simple profiling library"
 DESCRIPTION = "This package provides the Haskell postgresql-simple profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.6.5"
+PV = "0.6.5.1"
 
-RPM_NAME = "ghc-postgresql-simple-prof-0.6.5-3.7.aarch64.rpm"
-RPM_HASH = "10cc1bba87467bf34a8f87708f4c46ed22fab48cae4106e2a078aad9379cc46f30418cf4c5ef6102e9a3ed55861665f7f9bc5b5cb91358f11c87cfb55bff17f0"
+RPM_NAME = "ghc-postgresql-simple-prof-0.6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "814f4699b6fdd875d7777d236967f873543aade6fd19b6e4af3785a8fe101052ba2478fbea3468cb4c84702c5d26cbc97e70d41f40148fb38ed56eca5095a9ad"
 
 RPROVIDES:${PN} += "ghc-postgresql-simple-prof \
-ghc-prof-postgresql-simple-0.6.5-Hs6HLIsgF4F9HSVLUQJif0"
+ghc-prof-postgresql-simple-0.6.5.1-1Mr3UW7Sqm2LauK5jyfZE3"
 
 RDEPENDS:${PN} += "ghc-postgresql-simple-devel \
 ghc-prof-Only-0.1-ETd5YCT0TwGLbN8rgpgTS8 \

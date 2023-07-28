@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Hindi Translations"
 DESCRIPTION = "YaST2 - Translations for Hindi."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230708.d1de37aed1"
+PV = "84.87.20230714.966688ddd0"
 
-RPM_NAME = "yast2-trans-hi-84.87.20230708.d1de37aed1-1.1.noarch.rpm"
-RPM_HASH = "02d20e8d0f109b4cf15efdae0ed9df6de4efdda6af592b43959de78cdd53aa4a5903219f9d0d77a00e1f204ca9d2904288d0959d68d822e13d712d7709b02286"
+RPM_NAME = "yast2-trans-hi-84.87.20230714.966688ddd0-1.1.noarch.rpm"
+RPM_HASH = "699c2f34e77eee405499751242a240d0d9741831f33f7a3501ab95ff06d51cb644d8e50cb0efa69370501776fd287629212d5dab23822724b953d7c2bc3098ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-hi \

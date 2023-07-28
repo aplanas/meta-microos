@@ -4,10 +4,10 @@ supports a command history, auto-completion, keyboard-shortcut focus grabbing an
 opening URLs."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.0.1"
+PV = "2.0.3"
 
-RPM_NAME = "xfce4-verve-plugin-2.0.1-1.11.aarch64.rpm"
-RPM_HASH = "c04502b1616c8c1e71ef6af27e09b7549dab64762cc12163dbc153311f73df09d3942920366c270f55ef3aec5c4531ed6b98b123b451fae93a60905c0b6e7ee7"
+RPM_NAME = "xfce4-verve-plugin-2.0.3-1.1.aarch64.rpm"
+RPM_HASH = "ce859542269f13c768bf70b8c1cdf97957ba639deb8675f2341f591bd4b06689dd37bdbca151f38fe0341574e5c5fba4edecc0115c5edaba2f9d6412408bc0bb"
 
 RPROVIDES:${PN} += "libverve.so \
 xfce4-panel-plugin-verve \
@@ -21,7 +21,7 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
-libpcre.so.1 \
+libpcre2-8.so.0 \
 libxfce4panel-2.0.so.4 \
 libxfce4ui-2.so.0 \
 libxfce4util.so.7 \

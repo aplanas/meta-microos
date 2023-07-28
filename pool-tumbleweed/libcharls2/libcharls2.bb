@@ -5,10 +5,10 @@ matches JPEG 2000 compression ratios. In terms of speed, CharLS outperforms \
 open source and commercial JPEG LS implementations."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.4.1"
+PV = "2.4.2"
 
-RPM_NAME = "libcharls2-2.4.1-1.4.aarch64.rpm"
-RPM_HASH = "9921d6cb5fb922994b94b6d15d12b8ef22a5ecbd72bb198e19797f382aab1cd61d9128e89cacba5f53b0eeab59c38fb126adb135c05a347c195db0eaca87644a"
+RPM_NAME = "libcharls2-2.4.2-1.1.aarch64.rpm"
+RPM_HASH = "c232d036460d0ccb7aead02e7b04d25c5f933f65f44e2ae61dfcb7bf49277c917932035e364b5eca56b1d80a9e71fddb439eb7743406d22ab4d64316c0a75fa8"
 
 RPROVIDES:${PN} += "libcharls.so.2 \
 libcharls2"

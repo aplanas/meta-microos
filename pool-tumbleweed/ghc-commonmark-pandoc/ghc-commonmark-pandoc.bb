@@ -4,11 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.1.3"
 
-RPM_NAME = "ghc-commonmark-pandoc-0.2.1.3-2.4.aarch64.rpm"
-RPM_HASH = "024f58a36c64189a84e8dbe16745995dbfa8322fcb63e08905f053309af5c2b7e101f9142fe8ef12554e917a9506e397fb896cf283cfc39fa171a3ea4e3765ca"
+RPM_NAME = "ghc-commonmark-pandoc-0.2.1.3-2.5.aarch64.rpm"
+RPM_HASH = "45af91d183ce99c0d493f7c7a86dc766d832e3fd0c6cf817a8471b9112380dc62b3ca49350ce333f1a46964184c509c9cf0c182347186afe2dc6bae30c54fccc"
 
 RPROVIDES:${PN} += "ghc-commonmark-pandoc \
-libHScommonmark-pandoc-0.2.1.3-HVNPkFgx18RJMldDwlSrf3-ghc9.4.5.so"
+libHScommonmark-pandoc-0.2.1.3-5icm69shxRz6xfjspkSdL7-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV-ghc9.4.5.so \
 libHSQuickCheck-2.14.3-6dq2izV8oSq1BobaDA598X-ghc9.4.5.so \
@@ -26,7 +26,7 @@ libHSbifunctors-5.5.15-7mn3oj93MLM2f6K5DVlnRL-ghc9.4.5.so \
 libHSbinary-0.8.9.1-ghc9.4.5.so \
 libHSbytestring-0.11.4.0-ghc9.4.5.so \
 libHScommonmark-0.2.3-I1mjDgOYrWfJTVx5dvVv0G-ghc9.4.5.so \
-libHScommonmark-extensions-0.2.3.4-lgOKfz42TuIWz23FZS91J-ghc9.4.5.so \
+libHScommonmark-extensions-0.2.3.5-GeNUJwJZ0WZ7BXjQ8SYvXo-ghc9.4.5.so \
 libHScomonad-5.0.8-9UnH7KDg5138z3eBCPM7y4-ghc9.4.5.so \
 libHScontainers-0.6.7-ghc9.4.5.so \
 libHScontravariant-1.5.5-K71YSUvfKnA5wfNaE05Lao-ghc9.4.5.so \
@@ -48,7 +48,7 @@ libHSindexed-traversable-instances-0.1.1.2-5OovVMCdJKzAImUo6B0vBJ-ghc9.4.5.so \
 libHSinteger-logarithms-1.0.3.1-Hm9v2fsfG1DA5soPSLssZu-ghc9.4.5.so \
 libHSmtl-2.2.2-ghc9.4.5.so \
 libHSnetwork-uri-2.6.4.2-4kNQnaE9heqEL1mH8FE5xH-ghc9.4.5.so \
-libHSpandoc-types-1.23-4C1nzwOnt973xRAA9sp531-ghc9.4.5.so \
+libHSpandoc-types-1.23.0.1-EcvZluXpPb0J10kJC4UfRg-ghc9.4.5.so \
 libHSparsec-3.1.16.1-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \
 libHSprimitive-0.7.4.0-AeB0oysC3TAJw9tDpuX8hq-ghc9.4.5.so \

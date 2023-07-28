@@ -5,8 +5,8 @@ LICENSE = "MPL-2.0"
 
 PV = "3.12.0"
 
-RPM_NAME = "rabbitmq-server-3.12.0-1.2.aarch64.rpm"
-RPM_HASH = "edf6f784900468789cab1e733176410adf39238a3fc8a4dfdda675f0173b183b03f937eeca0eb016753fdca9640b4c90d681782ef0aa22a3bb67308ef8dd42f9"
+RPM_NAME = "rabbitmq-server-3.12.0-2.1.aarch64.rpm"
+RPM_HASH = "3b6f5671dd8aadd34a5664376bae542c556b20ed5759dab1918433013dd84b69a4b0592b7cd9128453c5ad2572f12da48aec429857117d60a9a93eb1747ce48c"
 
 RPROVIDES:${PN} += "AMQP-server \
 config-rabbitmq-server \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
 PV = "2.1.5"
 
-RPM_NAME = "opam-devel-2.1.5-1.2.aarch64.rpm"
-RPM_HASH = "129da53b935f6d7897b922ba752684c466786bd7d19ae5e32479d5dd01b27772acf4da0da0b10e186692606eb7bdc0abb4f1e44c79afaa960904c39f47f33b4e"
+RPM_NAME = "opam-devel-2.1.5-1.3.aarch64.rpm"
+RPM_HASH = "4126711d445cc15c99dfdfacedbb3ffe89b18947076bbeae91b789403da5cb881c5e198b5bf7c5df6ce50dc701b97731f307396fe35a391a8413c91f0ef2a08d"
 
 RPROVIDES:${PN} += "ocaml-Opam-admin-top \
 ocaml-OpamACL \

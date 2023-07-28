@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
 PV = "7.5.4.2"
 
-RPM_NAME = "libreofficekit-7.5.4.2-1.3.aarch64.rpm"
-RPM_HASH = "6d5ecea2eb806ac77b82e251636e32ed481e1c9a9a966c933d835453e7a5b0abcdb4a2f37f7b38860070f7d7f6a5d2edfae9ff5704357b38a09cf274eed2ed3f"
+RPM_NAME = "libreofficekit-7.5.4.2-1.5.aarch64.rpm"
+RPM_HASH = "4f8aabdfbd816c3d8ee3217d446887ff95f8509838f2158a31d2ce9cede3c1da0f3488160fddfadc6d98ee9d09af5b664c26870a6361e9ebeffc19ced059a86b"
 
 RPROVIDES:${PN} += "libreofficekit \
 typelib-LOKDocView"

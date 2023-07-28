@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-only | LGPL-3.0-or-later"
 
 PV = "11.0"
 
-RPM_NAME = "glusterfs-11.0-3.1.aarch64.rpm"
-RPM_HASH = "2c146e64784dfae3bef99297c335f0f4a8a5483ed32e4e14eff690e5efc93c8c331fca775cc11fd2b2adbd811adb081c5e3682b55ef23b20522030c767d27bda"
+RPM_NAME = "glusterfs-11.0-4.1.aarch64.rpm"
+RPM_HASH = "f1b0f1610b5ea475a600e7fea48c91132b0d40ab90220f46d0e4b05de62aef2c9bef6a5896f22c25a0c903bb4da584b123a27ad0e60d351b48155ad8992d5097"
 
 RPROVIDES:${PN} += "config-glusterfs \
 glusterfs"

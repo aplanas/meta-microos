@@ -5,10 +5,10 @@ package. \
 This package provides additional documentation for rsyslog."
 LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
-PV = "8.2212.0"
+PV = "8.2306.0"
 
-RPM_NAME = "rsyslog-doc-8.2212.0-2.5.aarch64.rpm"
-RPM_HASH = "35f1bbabb7692fc758fc4807cac2d23ade7856bacbf189e1cce94fd7d3006526494852ce19b5b6b4aa2f16db93893f96bf07d6ad15ae3369a087588b6458f367"
+RPM_NAME = "rsyslog-doc-8.2306.0-1.1.aarch64.rpm"
+RPM_HASH = "ca97f1aaf385f28dd1667892049cfbe932884a44495540727896bba381a63c0e474db3cd39b7b4e4285abed9453e64086ac145191034d2c8848f32c4757d8103"
 
 RPROVIDES:${PN} += "rsyslog-doc"
 

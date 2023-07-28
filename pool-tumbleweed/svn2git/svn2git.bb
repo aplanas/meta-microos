@@ -3,10 +3,10 @@ DESCRIPTION = "Tool to convert an SVN repository to Git based on a custom writte
 order to properly migrate all branches and tags."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.0.16"
+PV = "1.0.18"
 
-RPM_NAME = "svn2git-1.0.16-1.22.aarch64.rpm"
-RPM_HASH = "7185d919c8c75e4efb1dcca01964395d212deb71f7488ccd411fef4321bff25421f9f9ef158ba90e971a5b8ac3b5d106d4e094a73b70c54f3cd9e92a2c09c85c"
+RPM_NAME = "svn2git-1.0.18-1.1.aarch64.rpm"
+RPM_HASH = "c48c4ddd63e70226d762e617dc1c66d02095530909db3777e674d2dbeb321669ff10434b2d8ae0e015afa07bfd2858c1b7b2959a2119f75960e79d09fe36ac2e"
 
 RPROVIDES:${PN} += "svn2git"
 

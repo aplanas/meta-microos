@@ -2,13 +2,13 @@ SUMMARY = "Haskell clock library development files"
 DESCRIPTION = "This package provides the Haskell clock library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.8.3"
+PV = "0.8.4"
 
-RPM_NAME = "ghc-clock-devel-0.8.3-2.2.aarch64.rpm"
-RPM_HASH = "4d5306986b53791c64e4c861cba2fa705e263a02c8bc440437d569c86e1c4c4f7b29248a8992400a30abeab019463c60657a731edad89a67bb9faefde32068cc"
+RPM_NAME = "ghc-clock-devel-0.8.4-1.1.aarch64.rpm"
+RPM_HASH = "d4c4b2ab1a2fbf842d3971c01d3fef8575db965155409b71c1d3f8ab685b45bfab208cf55946a1b5e61c9fed53aba538e249acc5d3b75c49cc62d6aea1338faf"
 
 RPROVIDES:${PN} += "ghc-clock-devel \
-ghc-devel-clock-0.8.3-Bn4LVnP2KGzGGqLjq4BuLV"
+ghc-devel-clock-0.8.4-Kk7SFw4SNhZ8ktwfjRIPil"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-clock \

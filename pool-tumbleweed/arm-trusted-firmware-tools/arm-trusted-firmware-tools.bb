@@ -12,14 +12,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.8.6"
 
-RPM_NAME = "arm-trusted-firmware-tools-2.8.6-1.2.aarch64.rpm"
-RPM_HASH = "11a626fa3133c986250d71bd5189a9b1925cd0941d7493af14be17cea6bc5f2f2014556eb144905c44afb28682c9811a42fd88e5e8cc844f883a51f084b5d224"
+RPM_NAME = "arm-trusted-firmware-tools-2.8.6-1.3.aarch64.rpm"
+RPM_HASH = "6c911eb04359a8c012332606be45cfa7ed9bef20e4e4c1499c2f6e1ac4788bf38e98549f3bba7cd96fc98fd3b77cbf21a19c7962d666c54f28c7aeeca9716874"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-tools"
 
 RDEPENDS:${PN} += "libc.so.6 \
 libcrypto.so.3 \
-libcryptopp.so.8.7.0 \
+libcryptopp.so.8.8.0 \
 libgcc-s.so.1 \
 libstdc++.so.6"
 

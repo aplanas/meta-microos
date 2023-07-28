@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.19.1"
 
-RPM_NAME = "ghc-servant-0.19.1-2.6.aarch64.rpm"
-RPM_HASH = "ca37a68d4693244c86958acbf3482f099a6192a5f9f47305bec3e70a8b686cbc05395d96d4d7f723d9fafdf3d5c83f039a487d5ae37b089fdfc86e5288fabaac"
+RPM_NAME = "ghc-servant-0.19.1-3.1.aarch64.rpm"
+RPM_HASH = "d59892330e1e689c0a16a53de0fa0b11a671b348ea396cd65da22c6962609d3c19553774fcace6d1757794d440926ae08ba6991e3ac5356140c10f2386a7c761"
 
 RPROVIDES:${PN} += "ghc-servant \
 libHSservant-0.19.1-6G8iD3Z75czL6ryOAXMC67-ghc9.4.5.so"

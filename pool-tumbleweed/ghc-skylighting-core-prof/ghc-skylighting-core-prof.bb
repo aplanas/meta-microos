@@ -2,12 +2,12 @@ SUMMARY = "Haskell skylighting-core profiling library"
 DESCRIPTION = "This package provides the Haskell skylighting-core profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.13.3"
+PV = "0.13.4"
 
-RPM_NAME = "ghc-skylighting-core-prof-0.13.3-1.2.aarch64.rpm"
-RPM_HASH = "50679327b9b4c9b30f910afb302aa6cf18c8720fe7e342ad336c399794764bed649f82f1de5aba9c09ca322448a047e567366e555838ed5b6612fb2c989d19f6"
+RPM_NAME = "ghc-skylighting-core-prof-0.13.4-1.1.aarch64.rpm"
+RPM_HASH = "29194638594201507e3c17b79858dd6e822e4cc5cd8df5ed7fca1635b6daad46fc015e99d2e1bab9918c740de2cdd3cec7303dc4e3915e3ef38e1c62e8e1272b"
 
-RPROVIDES:${PN} += "ghc-prof-skylighting-core-0.13.3-9hBRKYwyArU4OdEqV8LbQv \
+RPROVIDES:${PN} += "ghc-prof-skylighting-core-0.13.4-ILWFndoUOH7DzXIN7Ztglj \
 ghc-skylighting-core-prof"
 
 RDEPENDS:${PN} += "ghc-prof-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \

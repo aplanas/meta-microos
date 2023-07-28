@@ -5,10 +5,10 @@ LICENSE = "MIT"
 
 PV = "0.2.2"
 
-RPM_NAME = "ghc-pandoc-lua-marshal-devel-0.2.2-1.7.aarch64.rpm"
-RPM_HASH = "7f1267acc64de2a5b9cefd5aadd999b0e3216e6370cfa7b3102bc8f9d1f69ce17682ce37d0de114e19895848ab7b9b9d35171724171b7aba971be6b68182156c"
+RPM_NAME = "ghc-pandoc-lua-marshal-devel-0.2.2-1.8.aarch64.rpm"
+RPM_HASH = "e1bafd74aded085145abb613af18679d9db12b9e8b7c52bba0595a653acb738d1a87bc2d0ff9f8ceabaf768e8a6b59be6fbeb403e2cdaf1c939e52eb2f80f58e"
 
-RPROVIDES:${PN} += "ghc-devel-pandoc-lua-marshal-0.2.2-sn2ZVEcWlgDOuaBIv7GGF \
+RPROVIDES:${PN} += "ghc-devel-pandoc-lua-marshal-0.2.2-FczgTsDU3sCHicuhmGSmSB \
 ghc-pandoc-lua-marshal-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -22,7 +22,7 @@ ghc-devel-hslua-2.3.0-AU21dADSMqd8jVkw5fw6gb \
 ghc-devel-hslua-list-1.1.1-9l63Ku7u96Z6i2wKz0R57A \
 ghc-devel-hslua-marshalling-2.3.0-1lHdh994uwdEmrYudOnEBq \
 ghc-devel-lua-2.3.1-16mGxirchUh4T3oJJYdFzu \
-ghc-devel-pandoc-types-1.23-4C1nzwOnt973xRAA9sp531 \
+ghc-devel-pandoc-types-1.23.0.1-EcvZluXpPb0J10kJC4UfRg \
 ghc-devel-safe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds \
 ghc-devel-text-2.0.2 \
 ghc-pandoc-lua-marshal"

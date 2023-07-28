@@ -5,10 +5,10 @@ number of sounds each with any number of channels and can be customized \
 and extended using guile and guile-gtk."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.4"
+PV = "23.5"
 
-RPM_NAME = "snd-23.4-1.1.aarch64.rpm"
-RPM_HASH = "9e2ab7d7dd2e04ff2cfd4c68f650901dece9fe8f7087714faf704e4e14037998244768cd2a00971663e2e274316ae91de068c491c03d0bf21c789718677f2dc4"
+RPM_NAME = "snd-23.5-1.1.aarch64.rpm"
+RPM_HASH = "4a55dd21cd8891bd546d2b4181018360abf1794376b7900ad86768eb90b6b0e56b6bb24ce45d4ff7ca66adefb3d662920da92ddd73015d14969638fe0762cfa4"
 
 RPROVIDES:${PN} += "snd"
 

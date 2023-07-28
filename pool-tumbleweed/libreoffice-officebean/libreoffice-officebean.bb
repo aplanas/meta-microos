@@ -17,8 +17,8 @@ LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
 PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-officebean-7.5.4.2-1.3.aarch64.rpm"
-RPM_HASH = "3fc5eb663d8f6af474f94959aeb147e9f6fdca844930d6c3b7d24face9b5fd64c013c233ad5f89e58f7ac26d0fd71c2c7ef3d9134f62ba26fe8b5aeafe16e076"
+RPM_NAME = "libreoffice-officebean-7.5.4.2-1.5.aarch64.rpm"
+RPM_HASH = "3589f018629b81d167f847e08ac2d93de12b3be9b1179168d0e55f70e5e74508bf1d4985e7908ca6d647f750f5afce0ce9c1cae2c6c50d5a4e491beecc8bf973"
 
 RPROVIDES:${PN} += "libofficebean.so \
 libreoffice-officebean"

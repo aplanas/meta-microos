@@ -4,10 +4,10 @@ collecting additions of directories. In the end it presents a tree of all \
 directories ever having existed in the repository."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.7.1"
+PV = "1.7.2"
 
-RPM_NAME = "python311-svneverever-1.7.1-1.5.noarch.rpm"
-RPM_HASH = "5d173a4bde62f1f70d9854fab1e44f97a48e7404c740c16489113b6107f7fe790ac4b0d41f7057be226ce225cab6ddc4a2c3cb79acf0749d4438c341042d37bb"
+RPM_NAME = "python311-svneverever-1.7.2-1.1.noarch.rpm"
+RPM_HASH = "df52e8861537658ec458269e22ded699c47622946149ce73205f9ea22d44098c876ca63155fd4defae2791bd20073266bd61b1dc475695bdaad901bdf54f1d7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-svneverever \

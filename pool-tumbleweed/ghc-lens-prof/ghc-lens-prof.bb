@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "5.2.2"
 
-RPM_NAME = "ghc-lens-prof-5.2.2-1.6.aarch64.rpm"
-RPM_HASH = "3813657227abc1d21941e9c7db9192ab951558ba391834956d1ff890b2d5714e56c105dd79d6f50ddefcfdef80b9b804507655d3329dd3070be94798c4295025"
+RPM_NAME = "ghc-lens-prof-5.2.2-2.1.aarch64.rpm"
+RPM_HASH = "116f9a925f39b2b5482f738f2d1eb248c2641a6b77f42e361ea29f1e66a40975d22504e10a95a3e603867cea9ba34d785a1b446f6caa48c71a12e196fd9bf4de"
 
 RPROVIDES:${PN} += "ghc-lens-prof \
 ghc-prof-lens-5.2.2-1olZqltPpYqDYPXthdjXjf"

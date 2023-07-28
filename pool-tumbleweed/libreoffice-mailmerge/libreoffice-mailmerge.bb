@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
 PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-mailmerge-7.5.4.2-1.3.aarch64.rpm"
-RPM_HASH = "eab4e8266119a765c7992340841b2c64889417249e7fc1620f4c1a9cd3e9a5904f5b339132dac44002b9dbbb2540788ec1138b7db7b3f3ced8607d2dc3553265"
+RPM_NAME = "libreoffice-mailmerge-7.5.4.2-1.5.aarch64.rpm"
+RPM_HASH = "b9a7c2cce689f642a79ea1c71062e049f64a0caf015dae88095aa91fdc05c4911f134b5b4d2dd07e8baada7e61d0c9b71070996ef3fdc76e48b411d86299315e"
 
 RPROVIDES:${PN} += "libreoffice-mailmerge"
 

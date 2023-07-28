@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "kubevirt-pr-helper-conf-1.0.0-1.1.aarch64.rpm"
-RPM_HASH = "6ad4c3c0cee5c17166220876079214c1a4b54535805cfd323e37fb02e94e803925a50f86cd0117bed29692082c02921edaff185e1c6b981a60a23637730e3ac3"
+RPM_NAME = "kubevirt-pr-helper-conf-1.0.0-2.1.aarch64.rpm"
+RPM_HASH = "19e2d385533b9bee17504711bbad843e480df292db5f3aaa4130ab6bb1c1b0b646de7af605cfa9aa1b0abf26d6c0c84551461bce6aa797d13fc9c1bfa439a80d"
 
 RPROVIDES:${PN} += "kubevirt-pr-helper-conf"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a module for accessing network-based image 
 SSH network connection from qemu-img tool and QEMU system emulation."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.2"
+PV = "8.0.3"
 
-RPM_NAME = "qemu-block-ssh-8.0.2-2.1.aarch64.rpm"
-RPM_HASH = "bb8559a9178e4e52ca1e27b013f4c1f51d35238371fc364faeb7ec57e33df3c8157330b5eb4fb6d9c36671ca44629b4c44cbebdd345b0ae6da679e2448968a0c"
+RPM_NAME = "qemu-block-ssh-8.0.3-1.1.aarch64.rpm"
+RPM_HASH = "a86d06f330064a18db98b24b73ebe9f941b0c0e94c3579d51cd6f72d835b1df02232d8be140a5e9c69fa4f01633bb33dd20b13993b9c60d09306da0e25bc2c0f"
 
 RPROVIDES:${PN} += "qemu-block-ssh"
 

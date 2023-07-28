@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Bulgarian Translations"
 DESCRIPTION = "YaST2 - Translations for Bulgarian."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230708.d1de37aed1"
+PV = "84.87.20230714.966688ddd0"
 
-RPM_NAME = "yast2-trans-bg-84.87.20230708.d1de37aed1-1.1.noarch.rpm"
-RPM_HASH = "7d08f8f703efb4242b81be8d1bea3a94e1b54acb7da4088cf1e182ee89ff8e2aac6ae79aea9b61252a65ec166c43eebc9782900aa9d7a5a40e0fe15597fc15e5"
+RPM_NAME = "yast2-trans-bg-84.87.20230714.966688ddd0-1.1.noarch.rpm"
+RPM_HASH = "a277d473062c39b52328b05919fe5803238ae829c0c3c28a88e96641c6d6f8d1f8b39dcff126ee2523dbdb0758a81ea6ccd764488af2f7bd6cec443388cb7f1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-bg \

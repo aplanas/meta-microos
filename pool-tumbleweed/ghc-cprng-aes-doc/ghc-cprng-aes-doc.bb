@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.1"
 
-RPM_NAME = "ghc-cprng-aes-doc-0.6.1-4.3.noarch.rpm"
-RPM_HASH = "c8a9c2c2caab0d815511d2938468d3da84dbf2b51066b703a374b0e9aee3636b1818fbda3e95294f31f8ae491f22fed21c75418da0a6ce38346b6fe85f10af30"
+RPM_NAME = "ghc-cprng-aes-doc-0.6.1-5.1.noarch.rpm"
+RPM_HASH = "b437a28cb9dabb6726d0590d2188872fda417c2f2434daf80aee4eafd2d9228a29dd5808349822cd7fb47d38becfe26248e3f6493bd681ddb8e5d0f0087e6c91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-cprng-aes-doc"

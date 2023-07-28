@@ -2,10 +2,10 @@ SUMMARY = "Development files for taglib"
 DESCRIPTION = "This package contains development files for taglib."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.13"
+PV = "1.13.1"
 
-RPM_NAME = "libtag-devel-1.13-1.4.aarch64.rpm"
-RPM_HASH = "c3fd09895b37387c0499200b85085f3dc277705571492ad3e0af441406c903f42aef120987ea66e9b634c5a855cc4324dde3d1862d959f2fd317e926e5efcabc"
+RPM_NAME = "libtag-devel-1.13.1-1.1.aarch64.rpm"
+RPM_HASH = "3b8d73f10e1a3d4bf4b6b1e659c3b215c372d69435c0ab6f044c69230170f83f8b5d199d6ce284bb547ef977bf42fb85e77a494c8bd7d0d2bb88eef61ef76c3c"
 
 RPROVIDES:${PN} += "libtag-devel \
 pkgconfig-taglib \

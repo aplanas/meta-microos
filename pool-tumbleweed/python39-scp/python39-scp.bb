@@ -4,10 +4,10 @@ scp protocol. This is the protocol as referenced from the openssh scp program, \
 and has only been tested with this implementation."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.14.4"
+PV = "0.14.5"
 
-RPM_NAME = "python39-scp-0.14.4-2.1.noarch.rpm"
-RPM_HASH = "779ab3af2501f5bc6ea5d6b195fedd35746fbc5c9334a036d339a4dcd0b77cf54f1f17bf3a9690c0eaba8d26014d057cdf3ec818fd697eb0381ed161a68ff1d2"
+RPM_NAME = "python39-scp-0.14.5-1.1.noarch.rpm"
+RPM_HASH = "75719d83baeea7ea03464507c31f2aca897496df561fcda13d05ad950581eca3b68f2fbd5f19f47674c2ab983c8eb0021b9f4e475e744fa125beea83185b080b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-scp \

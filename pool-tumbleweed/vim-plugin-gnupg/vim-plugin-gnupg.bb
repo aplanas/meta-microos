@@ -9,8 +9,8 @@ LICENSE = "GPL-1.0-or-later"
 
 PV = "2.7.1"
 
-RPM_NAME = "vim-plugin-gnupg-2.7.1-55.1.noarch.rpm"
-RPM_HASH = "793c52dbe8a34e2d03f8bbe43181c89bba15faccb0dc159fef075911cc543e8a31bce4642a6aad1aa6386535c53fb31c4710a7f19274c6a9526ab3a0f4d8179d"
+RPM_NAME = "vim-plugin-gnupg-2.7.1-56.1.noarch.rpm"
+RPM_HASH = "39068a378a3926981c8bf12e5806961dfb719aad0a8c5d209953ff44bc37ba2bbe644cbeb561a59743e8d1b90d5222aae8bfe49be2b2772f19e2e63510c24881"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-gnupg"

@@ -8,10 +8,10 @@ protected syslog relay chains while at the same time being very easy to \
 setup for the novice user."
 LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
-PV = "8.2212.0"
+PV = "8.2306.0"
 
-RPM_NAME = "rsyslog-8.2212.0-2.5.aarch64.rpm"
-RPM_HASH = "d77dc7f7313e6948698a98b7992988c7d7b7005dfd8fbf88b8c248e24af48f7691a1055ee83ee00d03cbaffb74ff2763c3806c8cbeb174db9a8e3f0af42751b8"
+RPM_NAME = "rsyslog-8.2306.0-1.1.aarch64.rpm"
+RPM_HASH = "d9108a815bf77158dc7d3772d0affdf64b15d7e1d061f349cd84d60004703c18fad2c594d43ce9e68d1c36542e54e5ca0691729fe8ef40fedc32684902a25d1b"
 
 RPROVIDES:${PN} += "config-rsyslog \
 rsyslog \

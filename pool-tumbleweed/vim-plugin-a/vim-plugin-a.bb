@@ -7,8 +7,8 @@ LICENSE = "ISC"
 
 PV = "2.18"
 
-RPM_NAME = "vim-plugin-a-2.18-55.1.noarch.rpm"
-RPM_HASH = "fa14e373b19ede9a66fcd036eb760efab39cdfb1a567ee3878eadd1e20f782eded9054bda71073f84ee831ca43df7e61a1d527e4667ef94387ee886451ded608"
+RPM_NAME = "vim-plugin-a-2.18-56.1.noarch.rpm"
+RPM_HASH = "c391524e5830cf4e3e78cf666a1bd8ba98552a34f627d7a7cd17dbcd38009da993b5d5df54ef25d7b8135446efafa5388741b0b3bbe3446673a5c6a2cec37926"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-a"

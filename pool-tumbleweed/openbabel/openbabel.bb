@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.1.1"
 
-RPM_NAME = "openbabel-3.1.1-1.5.aarch64.rpm"
-RPM_HASH = "7ba34d7c3b5d0a86fb750ef3d3ec3f4fdeaf296fff077eec00dd64ebbe024cde021983c91a33a2f2d8df644b75f4b43c123db48f801fda3f6f58c15e6844dc87"
+RPM_NAME = "openbabel-3.1.1-2.1.aarch64.rpm"
+RPM_HASH = "3802f765addb00238e2500f3c97d48e6aecc3d7501cede672b7d07f7b388a6de6ae5c2a0d481fc57574e1b5ae306607367a88faf480b48d1dd8533863cd4d63b"
 
 RPROVIDES:${PN} += "openbabel"
 

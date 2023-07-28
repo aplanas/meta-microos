@@ -4,11 +4,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.8.1"
 
-RPM_NAME = "ghc-citeproc-prof-0.8.1-2.7.aarch64.rpm"
-RPM_HASH = "110af7db80a04a48197755a15a693edea9e8f36254780c5b8b388e437b9c129bd6e7633c9798f803b5d14b345afd491f67e6e81663a74301ad27a716e3cab393"
+RPM_NAME = "ghc-citeproc-prof-0.8.1-2.8.aarch64.rpm"
+RPM_HASH = "df4c80967f2bb09fe5fe66ba012bcb4eb2e4a82423a7c89ef3c972c10f54b544c7835b373b5f1f2e906620ac3cb2093039cee5b04b2d6af224e1434341aeb8ff"
 
 RPROVIDES:${PN} += "ghc-citeproc-prof \
-ghc-prof-citeproc-0.8.1-Ex3LMLw4y9Q5nAZv8bt8hk"
+ghc-prof-citeproc-0.8.1-IdWRS5bkx4mHz8SxZquXUQ"
 
 RDEPENDS:${PN} += "ghc-citeproc-devel \
 ghc-prof-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
@@ -20,7 +20,7 @@ ghc-prof-containers-0.6.7 \
 ghc-prof-data-default-0.7.1.1-5iNQUD7GKkTDiLEyJaqXSy \
 ghc-prof-file-embed-0.0.15.0-LJLaBgMyS4K2tBVYbzJ0uw \
 ghc-prof-filepath-1.4.2.2 \
-ghc-prof-pandoc-types-1.23-4C1nzwOnt973xRAA9sp531 \
+ghc-prof-pandoc-types-1.23.0.1-EcvZluXpPb0J10kJC4UfRg \
 ghc-prof-safe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds \
 ghc-prof-scientific-0.3.7.0-D5F2vql7x79Dy9hx72OES1 \
 ghc-prof-text-2.0.2 \

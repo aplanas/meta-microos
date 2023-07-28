@@ -6,10 +6,10 @@ run-time reflection. It feels like a dynamic language but has the speed and \
 safety of a static language."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.21rc2"
+PV = "1.21rc3"
 
-RPM_NAME = "go1.21-1.21rc2-1.1.aarch64.rpm"
-RPM_HASH = "37f8b1dba4d66619c35e125664928c626a3d4aa272d666e3342df4b3c89bc0eb68a3673e317fb3207405e7808f75f4be5d0080c65d0fb137568e463070a0409a"
+RPM_NAME = "go1.21-1.21rc3-1.1.aarch64.rpm"
+RPM_HASH = "36421ae7d318aee6f3549a92eca836a3070e47be2d814e51af4b014b863f73bb39b1c9a5ce3033795cdc027b6498f6e9b23d4948a94d53970bb9906c7c4da61b"
 
 RPROVIDES:${PN} += "config-go1.21 \
 go \

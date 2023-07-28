@@ -2,10 +2,10 @@ SUMMARY = "Python Bindings for OpenImageIO"
 DESCRIPTION = "This package contains python bindings for OpenImageIO."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.4.12.0"
+PV = "2.4.13.0"
 
-RPM_NAME = "python3-OpenImageIO-2.4.12.0-1.2.aarch64.rpm"
-RPM_HASH = "1f69d7dfa0aced5e97f92d908dbbe8469c5079c01b75c48a925cc81ee263097bcc048f370700c3462ea605dec3ccaed2c9335217c0eed6537dcc590184ee64a4"
+RPM_NAME = "python3-OpenImageIO-2.4.13.0-1.1.aarch64.rpm"
+RPM_HASH = "103538f570b751377964c7c2c67b1914d020fa86a8a1aaed0a3285205ad348ed9c07e199dba5d0f4f8231357cb781534195dbd26d1d52af4a526eae036aba9a8"
 
 RPROVIDES:${PN} += "python3-OpenImageIO"
 

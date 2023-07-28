@@ -2,10 +2,10 @@ SUMMARY = "C library implementing the Javascript Object Signing and Encryption (
 DESCRIPTION = "C library implementing the Javascript Object Signing and Encryption (JOSE)"
 LICENSE = "MIT"
 
-PV = "0.6.1"
+PV = "0.6.2.2"
 
-RPM_NAME = "libcjose0-0.6.1-4.2.aarch64.rpm"
-RPM_HASH = "aa19ea65c637d920df651a4925d1baf4e0083f5c1a823588066016b210b380b382210bd346b8c6f758b2bf8817377eef7bc5878551a7cf9132fa9b60e287c6ac"
+RPM_NAME = "libcjose0-0.6.2.2-1.1.aarch64.rpm"
+RPM_HASH = "e4aba0fd4e864143784665c9b27ea1e3f919a01bd967136e714e8db021402e6d19f73c94b25810125bff2e640368839430757b9922c25ea6069b142bd0604eb1"
 
 RPROVIDES:${PN} += "libcjose.so.0 \
 libcjose0"

@@ -2,10 +2,10 @@ SUMMARY = "A composable build system for OCaml"
 DESCRIPTION = "This package provides the dune binary and the documentation."
 LICENSE = "MIT"
 
-PV = "3.8.3"
+PV = "3.9.1"
 
-RPM_NAME = "ocaml-dune-3.8.3-1.1.aarch64.rpm"
-RPM_HASH = "abdd4b155fa2fe29715a3e8a7a862af2d66fcc3c48b905fe7a2a1e6e834d584a13b7b650fdefcaf0a9d6beb37fd89003ee9d6e5336fe61328e8f1943f8adb142"
+RPM_NAME = "ocaml-dune-3.9.1-1.1.aarch64.rpm"
+RPM_HASH = "fe89fd3e3380098c26a4e6cecd0c6c0fb2040ba1f4472e03b45c1c385a5b0c27c74e1a44136c8eb639ad9552c000c26adfd88daaffec329d886f9b9613f07754"
 
 RPROVIDES:${PN} += "ocaml-dune \
 ocaml-dune-bootstrap \

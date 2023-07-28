@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.21"
 
-RPM_NAME = "gdcm-examples-3.0.21-1.8.aarch64.rpm"
-RPM_HASH = "c645ffbd51a5813120caf9375d8dd8ced50e507f5682a68249a2d9114bc77092c9e90dba2ac8a49969a97147c78df5517173c548bf2ad4bcf2d419d7e05590b7"
+RPM_NAME = "gdcm-examples-3.0.21-1.9.aarch64.rpm"
+RPM_HASH = "e361b3235f2afd88a81f599be708b72c2928ca53b8af47738a5bfcf0501eea0938515cd28bf01a5a6948d3d4db62b50b35fcf91cbf57c3904ce777559b899a6c"
 
 RPROVIDES:${PN} += "gdcm-examples"
 

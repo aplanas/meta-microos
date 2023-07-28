@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.21"
 
-RPM_NAME = "python3-gdcm-3.0.21-1.8.aarch64.rpm"
-RPM_HASH = "f73969be9ffbb9f27f16a5b84b74ba8b693e8fbd07fec6f8dc95ac9736d1f8853b289a26ac8ce2cb1f8097ac9c64de7832e55cbb6d2fbbcf610433be992b7d35"
+RPM_NAME = "python3-gdcm-3.0.21-1.9.aarch64.rpm"
+RPM_HASH = "44d6810fdf4322a2493616feeb070840013c069feb6a611aeb272d2e8a3cfceb1d2f92496ea1af735c20635de5624ad224b4efb2d52304782d0b0bea63c5b088"
 
 RPROVIDES:${PN} += "python3-gdcm"
 

@@ -2,12 +2,12 @@ SUMMARY = "Qt client for freeciv"
 DESCRIPTION = "Freeciv executable using Qt library"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.0.7"
+PV = "3.0.8"
 
-RPM_NAME = "freeciv-qt-3.0.7-1.2.aarch64.rpm"
-RPM_HASH = "81332ca4697c0e97a8bf7ebc12c760127359943c5e6d01a03ab1535e9cc0e181fd3abeaa2cbcafc0881ac237c39526bd48b8e1fe4835af88786debaf3be21df6"
+RPM_NAME = "freeciv-qt-3.0.8-1.1.aarch64.rpm"
+RPM_HASH = "9f2c823080066a0be45b0c0b392c762be130ebc53c67b20a95fdf2f5403a67600f9cde007fde2a1c83213515f384e0bf951cfe0b0554c3b607dec33e99611d9a"
 
-RPROVIDES:${PN} += "freeciv-client-3.0.7 \
+RPROVIDES:${PN} += "freeciv-client-3.0.8 \
 freeciv-qt"
 
 RDEPENDS:${PN} += "freeciv \

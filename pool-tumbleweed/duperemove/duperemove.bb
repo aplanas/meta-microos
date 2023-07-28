@@ -4,10 +4,10 @@ console. It also has the option to deduplicate extents on those file \
 systems which support the Linux extent-same ioctl."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.11.3"
+PV = "0.12"
 
-RPM_NAME = "duperemove-0.11.3-1.8.aarch64.rpm"
-RPM_HASH = "28b4b1c1d77c502d494bdb95d89ff385693e172f246132c10cc3436c190623fb394c346804f3cee5be408546c4842acc8ccca23fc64e8b8456561ce98ae06652"
+RPM_NAME = "duperemove-0.12-1.1.aarch64.rpm"
+RPM_HASH = "d9fa90b8a66938f4c4e65c5c70a09e971f827470990e82b65fb55a167739e7924c2c08fa13d455afe14ed844b9291a649dc85fc722d2249dcb2a9f604e98b345"
 
 RPROVIDES:${PN} += "duperemove"
 

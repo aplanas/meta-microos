@@ -5,10 +5,10 @@ Vorbis comments and ID3 tags and Vorbis comments in FLAC, MPC, Speex, WavPack \
 TrueAudio, WAV, AIFF, MP4 and ASF files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.13"
+PV = "1.13.1"
 
-RPM_NAME = "libtag_c0-1.13-1.4.aarch64.rpm"
-RPM_HASH = "5c794f6869d5185ff04a7add17d51748b076783687ca6ee76974e2eb50f9d0319baa1f174c336048d634c1a8aa97b34db6e16d1716f714139fd072fbd47b2dd2"
+RPM_NAME = "libtag_c0-1.13.1-1.1.aarch64.rpm"
+RPM_HASH = "0d22010c2ca3e96081d70425b3cf8f65bf30eac8da7174af74865baa978f34a82fac603345b8138bc4c4b86fe0383ffd337192ccea20b7fd164de60d50089813"
 
 RPROVIDES:${PN} += "libtag-c.so.0 \
 libtag-c0"

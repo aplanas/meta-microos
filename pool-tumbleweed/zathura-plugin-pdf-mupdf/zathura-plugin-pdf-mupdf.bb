@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "0.4.0"
 
-RPM_NAME = "zathura-plugin-pdf-mupdf-0.4.0-3.3.aarch64.rpm"
-RPM_HASH = "df9022bea471de685d5a38270585a9d0049ce770eb715a6ac8072762974dd82984d987a0a7f7f0edb12f3299ac405eb94cc4082ba9290c4615dfbc27309136ce"
+RPM_NAME = "zathura-plugin-pdf-mupdf-0.4.0-4.1.aarch64.rpm"
+RPM_HASH = "2b8f40042dd3cf9e5b0f6bd3ed61173c0ca3beb8a171aee4f5eedbccf537c1a2782214620672b9c4c8e5c0070e101b049d4c607499dc977084ff10a9eed47aff"
 
 RPROVIDES:${PN} += "libpdf-mupdf.so \
 zathura-pdf-mupdf-plugin \

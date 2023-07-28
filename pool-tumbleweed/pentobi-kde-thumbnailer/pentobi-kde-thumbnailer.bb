@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a KDE plugin to display thumbnails of \
 Pentobi game files."
 LICENSE = "GPL-3.0-only"
 
-PV = "23.0"
+PV = "23.1"
 
-RPM_NAME = "pentobi-kde-thumbnailer-23.0-1.3.aarch64.rpm"
-RPM_HASH = "e9581a7de6e91916430104dd5ce660f7d6aad5a55de69a5013643c6242774971f09ec189a6d49318a77eee1d9e2735c34f2eff16892bad04ce0f606d7bea6b17"
+RPM_NAME = "pentobi-kde-thumbnailer-23.1-1.1.aarch64.rpm"
+RPM_HASH = "840c4ca94d1057b7792da51c9079326c7be9ed92999e25e4ecbd6709339f56ff85f471086c9d8eacb71baef40a8aa131ee6c84c0e14f38acf7ec28a4334952ec"
 
 RPROVIDES:${PN} += "pentobi-kde-thumbnailer"
 

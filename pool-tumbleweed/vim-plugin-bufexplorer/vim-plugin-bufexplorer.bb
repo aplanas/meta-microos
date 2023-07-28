@@ -14,10 +14,10 @@ buffer is already in another tab, bufexplorer can switch to that tab \
 automatically for you if you would like."
 LICENSE = "BSD-3-Clause"
 
-PV = "7.4.25"
+PV = "7.4.26"
 
-RPM_NAME = "vim-plugin-bufexplorer-7.4.25-55.1.noarch.rpm"
-RPM_HASH = "35e905a7326af86ae5d4fd1f697c817c5c40bdce98961090e0ef81d36bd3027ef6a7906b9506a5519524adaf0964dc7396c7d4c9a016b6cd443df436440110fd"
+RPM_NAME = "vim-plugin-bufexplorer-7.4.26-56.1.noarch.rpm"
+RPM_HASH = "f07e631e963cdd4316088cc1a8b82a93601f2b2a03da383a5f4e41a53df0d5a4195f0d8cece05ae93845e8b45a3efc1240dfb9af7ff0b832114959838ae35610"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-bufexplorer"

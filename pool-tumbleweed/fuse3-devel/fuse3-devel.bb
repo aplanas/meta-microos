@@ -7,10 +7,10 @@ With fuse-devel, users can compile and install other user space file \
 systems."
 LICENSE = "BSD-2-Clause & GPL-2.0-only & LGPL-2.1-only"
 
-PV = "3.15.0"
+PV = "3.15.1"
 
-RPM_NAME = "fuse3-devel-3.15.0-1.1.aarch64.rpm"
-RPM_HASH = "444f7f234d15a3bec8f5da246031a4aa0ee90601007fb854e4f1163dcc7a9aa377d95bd5a0138e5d7c33deed0383c570f8758ad30457e4ea144c8103baa92902"
+RPM_NAME = "fuse3-devel-3.15.1-1.1.aarch64.rpm"
+RPM_HASH = "e382db2247a3ede4273bae1b784161f568cc4f6749ff50d16aa06029a9b8d3e15de391db989f741dc1834ba1f7771eeb899b98917d1ac74410c6c3371cd49328"
 
 RPROVIDES:${PN} += "fuse3-devel \
 pkgconfig-fuse3"

@@ -5,10 +5,10 @@ Industrial Light & Magic for use in computer imaging applications. \
 This package contains documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.1.7"
+PV = "3.1.9"
 
-RPM_NAME = "openexr-doc-3.1.7-1.2.aarch64.rpm"
-RPM_HASH = "53cdaa5bc00fbfad1bdd92a5c75dd88e416010ae810f9c544edbb702322f53cee945e39d2d89afde55cb4f79737756bdc4aa70fe6ef23f3fbbb1d7be4ffa6d90"
+RPM_NAME = "openexr-doc-3.1.9-2.1.aarch64.rpm"
+RPM_HASH = "ebd0de11b4ca83100350e0837e7547e72cd4abd047ad6da457bfd228ead058ba0cec71f527ddfbc93ee0b1fcd9a9a24d8b94baa748df95342faeed5d9229eb70"
 
 RPROVIDES:${PN} += "OpenEXR-doc \
 openexr-doc"

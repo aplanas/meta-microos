@@ -3,12 +3,12 @@ DESCRIPTION = "This package provides the Haskell postgresql-simple library devel
 files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.6.5"
+PV = "0.6.5.1"
 
-RPM_NAME = "ghc-postgresql-simple-devel-0.6.5-3.7.aarch64.rpm"
-RPM_HASH = "6ad5eb911461b4ec426532e7195057ddba6c483719a7fbf8e5b17ef7d2ee9776288679244bd66916998eefdf2340a5a4d690409f5bb82b3eb16ca21b1071ba73"
+RPM_NAME = "ghc-postgresql-simple-devel-0.6.5.1-1.1.aarch64.rpm"
+RPM_HASH = "f288eaf63830fae77926b5249d3448a652b6f3f0575dcbe32f35621a854585979d31203dd4084e5960797d3d33afcab8c4d7419dd5cc5a82a328aacf86ce4620"
 
-RPROVIDES:${PN} += "ghc-devel-postgresql-simple-0.6.5-Hs6HLIsgF4F9HSVLUQJif0 \
+RPROVIDES:${PN} += "ghc-devel-postgresql-simple-0.6.5.1-1Mr3UW7Sqm2LauK5jyfZE3 \
 ghc-postgresql-simple-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

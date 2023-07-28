@@ -3,13 +3,13 @@ DESCRIPTION = "This package provides the Haskell commonmark-extensions library d
 files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.3.4"
+PV = "0.2.3.5"
 
-RPM_NAME = "ghc-commonmark-extensions-devel-0.2.3.4-1.7.aarch64.rpm"
-RPM_HASH = "d6c5c516a5c185c9f915c876f2055c2bb2f8e4e8c5abdcd404a0abab8a2a4c4c51ccc44b4629b2b1b7b78e984f386c8083ce01fb27abce4f2dfb0bd6c58cf961"
+RPM_NAME = "ghc-commonmark-extensions-devel-0.2.3.5-1.1.aarch64.rpm"
+RPM_HASH = "6a17773b515c28d87585efc6064abf71268dbe5bcda7d50869d98b9f2fb1d297a913d1be8a709e52aa3b7dcb9681ca24c059f73b4915c57100f81a93010d0323"
 
 RPROVIDES:${PN} += "ghc-commonmark-extensions-devel \
-ghc-devel-commonmark-extensions-0.2.3.4-lgOKfz42TuIWz23FZS91J"
+ghc-devel-commonmark-extensions-0.2.3.5-GeNUJwJZ0WZ7BXjQ8SYvXo"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-commonmark-extensions \

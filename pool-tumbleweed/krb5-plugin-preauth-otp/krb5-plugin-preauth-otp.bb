@@ -4,10 +4,10 @@ which can improve network security by eliminating the insecure \
 practice of cleartext passwords. This package includes a OTP plugin."
 LICENSE = "MIT"
 
-PV = "1.20.1"
+PV = "1.21.1"
 
-RPM_NAME = "krb5-plugin-preauth-otp-1.20.1-6.2.aarch64.rpm"
-RPM_HASH = "d000f0abd77974a7ac07b6e37716ae074ced4f3dae7c7411c752ac0fecae82defa1a26d5a207c02da658369c05073fce1187521dc565cb9945bc0e68f2c48b50"
+RPM_NAME = "krb5-plugin-preauth-otp-1.21.1-1.1.aarch64.rpm"
+RPM_HASH = "bb2b5d8a1a3b664c40eecd0ebe7b486df8fbe5279828207ff10f1a76a44db3b3a271ef4f70da68697b0e3df6ea2176994465f06a28799eb9f7ee30e4aa81702c"
 
 RPROVIDES:${PN} += "krb5-plugin-preauth-otp"
 

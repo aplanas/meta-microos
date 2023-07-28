@@ -7,10 +7,10 @@ keyboard. It also includes a number of keyboard controls designed to \
 make keyboards more accessible to people with physical impairments."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "2.38"
+PV = "2.39"
 
-RPM_NAME = "xkeyboard-config-2.38-2.1.noarch.rpm"
-RPM_HASH = "ee915cdb1d2f62af3edc2eda33326a86583e6607bfb7570c2b3d28fb96f80026d09b95c8b7aa1605ddc0c1f6858e468c4519d56acdb52021f6552203632763d7"
+RPM_NAME = "xkeyboard-config-2.39-1.1.noarch.rpm"
+RPM_HASH = "2ae3fe3bb8928a412df9e0964fe7e0e9d4842ad6974d81040bd678961d076fb300315740db1f62ca4d62fda6aa8da49d07a21dab818846b5903dad5b028c22bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig-xkeyboard-config \

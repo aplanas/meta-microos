@@ -5,10 +5,10 @@ package. \
 This module provides Reliable Event Logging Protocol support."
 LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
-PV = "8.2212.0"
+PV = "8.2306.0"
 
-RPM_NAME = "rsyslog-module-relp-8.2212.0-2.5.aarch64.rpm"
-RPM_HASH = "b3f46c786451a6fc6da44bfd6fee143a01f69fd93fe8a1ccebaa1cc90ce3060e58543750088de0494200980a4ba6cfd703daee26a29808fe7974b35588f579a9"
+RPM_NAME = "rsyslog-module-relp-8.2306.0-1.1.aarch64.rpm"
+RPM_HASH = "6a2e11e571c4aeaa02781cc21003ce0b8a7886d581d793bde1a87c5500410063a2b1556548903bf87992c6f1366ffe42b9febc2470a170232db6ca6b2dfc3afe"
 
 RPROVIDES:${PN} += "rsyslog-module-relp"
 

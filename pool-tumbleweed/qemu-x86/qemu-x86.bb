@@ -9,10 +9,10 @@ virtualization. \
 This package provides i386 and x86_64 emulation."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.2"
+PV = "8.0.3"
 
-RPM_NAME = "qemu-x86-8.0.2-2.1.aarch64.rpm"
-RPM_HASH = "cfecb033332191419579fd872159b052c1fcc86c9fd3bab823aac73761daed50f7cc5a49e40d50acae8098fe0b90c4189c0cb34c99d9a4988e6be2398685286d"
+RPM_NAME = "qemu-x86-8.0.3-1.1.aarch64.rpm"
+RPM_HASH = "c1313f2557156c11bc82bc115275c1c07131bdf47d13637cb834c7a04ad4ddd655691bc6f7ef3ca80b9953b58e35138e8398e88e0f90f0a100a28cda58a37b1d"
 
 RPROVIDES:${PN} += "qemu-x86"
 

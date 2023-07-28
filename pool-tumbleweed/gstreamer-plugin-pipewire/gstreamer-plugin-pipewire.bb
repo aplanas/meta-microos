@@ -4,10 +4,10 @@ DESCRIPTION = "PipeWire is a server and user space API to deal with multimedia p
 This package provides the gstreamer plugin."
 LICENSE = "MIT"
 
-PV = "0.3.72"
+PV = "0.3.74"
 
-RPM_NAME = "gstreamer-plugin-pipewire-0.3.72-1.1.aarch64.rpm"
-RPM_HASH = "0ba94b642550f2de1c968b7194e842665d9ab61fce706f261a2311be39544c2946eaeb1532aa091c32bd25924611bd75aa63a971047ff64f6f811b66f10e895d"
+RPM_NAME = "gstreamer-plugin-pipewire-0.3.74-1.1.aarch64.rpm"
+RPM_HASH = "5bc7e138410d9d1b5f3a26b570eed97531a79862bc2de4ab46c2e0e5f997d46c91ecc923cb54f0e79686fc015ec41eedb01b724b2e251e739c9ff927d83984a1"
 
 RPROVIDES:${PN} += "gstreamer-plugin-pipewire \
 gstreamer1 \

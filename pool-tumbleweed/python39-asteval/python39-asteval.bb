@@ -10,10 +10,10 @@ Expressions can be compiled into ast node for later evaluation, \
 using the values in the symbol table current at evaluation time."
 LICENSE = "MIT"
 
-PV = "0.9.29"
+PV = "0.9.31"
 
-RPM_NAME = "python39-asteval-0.9.29-1.5.noarch.rpm"
-RPM_HASH = "f9a78b9e53a4a92dfe068cdfb05690937d665cd6f5c3cbea9488c544c986a589316f8d13dbff8318e3fe3238c6a232582c31dfd80a53681de6c50adf9097681f"
+RPM_NAME = "python39-asteval-0.9.31-1.1.noarch.rpm"
+RPM_HASH = "6a7b60b93f20104798bb698874644f01c38acf0b301203cd0e0882f1d85f748aeb206e0267877ebf86f26fefc33c8e6ee49e8cdbf75ecc3af2c91055a4625873"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-asteval \

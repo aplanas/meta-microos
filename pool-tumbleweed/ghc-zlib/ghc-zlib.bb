@@ -11,8 +11,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.6.3.0"
 
-RPM_NAME = "ghc-zlib-0.6.3.0-2.6.aarch64.rpm"
-RPM_HASH = "19d323b7748d811bb34c89465f46fbf85f791c2a617a2d570c84fb6a73d9f31b6dace2ad56a6e86b71ee6ab268726689af0ce6c0c7411663eadcc962f5e20efe"
+RPM_NAME = "ghc-zlib-0.6.3.0-3.1.aarch64.rpm"
+RPM_HASH = "ecc621c49d3bcd10affdf1be7dbb2b03dbfebbe95e0f44d45073397b6b46a13686237b940dc054137090a5511b9f6e8484e9c42f0e9f07be1e1ad762c30cf977"
 
 RPROVIDES:${PN} += "ghc-zlib \
 libHSzlib-0.6.3.0-GaFaUl6t8QzEoHIQXsottk-ghc9.4.5.so"

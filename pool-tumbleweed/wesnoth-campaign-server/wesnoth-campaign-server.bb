@@ -3,10 +3,10 @@ DESCRIPTION = "The campaign server acts as a simple download server, much like f
 provide a collection of Wesnoth campaigns to players."
 LICENSE = "EPL-1.0 & GPL-2.0-or-later"
 
-PV = "1.17.16"
+PV = "1.17.17"
 
-RPM_NAME = "wesnoth-campaign-server-1.17.16-1.2.aarch64.rpm"
-RPM_HASH = "e0bff9aeac3df39687fb57d0ff93057ea8c87a7aaf8396ed491b22aaef7a177f117ec56418f16ca14aefef773b417bf65438b58c46ec5475d0626011f117f103"
+RPM_NAME = "wesnoth-campaign-server-1.17.17-1.1.aarch64.rpm"
+RPM_HASH = "d624c07bb101f7c259a9d01cbeb69f8ba8d3ba67ce0916c5f291bd2439b70157d7a4ff75b5d561207eb39915471f588c1b0757e2dbf32d7ff28dd9d954906c0b"
 
 RPROVIDES:${PN} += "wesnoth-campaign-server"
 

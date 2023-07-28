@@ -26,8 +26,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.9.3"
 
-RPM_NAME = "mlterm-sdl2-3.9.3-1.1.aarch64.rpm"
-RPM_HASH = "f14e1264f863358a774e199a04cc68dead39cc8dd5d5e5b1ea34fd2b158d3ca06d8795ba58d5d269741cde010fa5d11fa696e3bf56a338e6e7fb69450d9ddb66"
+RPM_NAME = "mlterm-sdl2-3.9.3-2.1.aarch64.rpm"
+RPM_HASH = "69b4379fa6dd2213bc0f3ff41dcb136dee17bf9add9f42da6097ee3a0ae3a900fc7092c8b21c8abbe3e571228782bd4ae9b973cdab8e5d52797100b42599cffa"
 
 RPROVIDES:${PN} += "libim-kbd-sdl2.so \
 libim-skk-sdl2.so \

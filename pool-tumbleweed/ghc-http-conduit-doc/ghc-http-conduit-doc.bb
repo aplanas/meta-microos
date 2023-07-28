@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.3.8.2"
 
-RPM_NAME = "ghc-http-conduit-doc-2.3.8.2-1.2.noarch.rpm"
-RPM_HASH = "9d554ed4dfecbffa3cde83816e0680fa27dbd7eb95813bdf1316874ce110332267d4e926056652fa1c858b38920c4894b17eb3f69a3979352343a62d7c114b92"
+RPM_NAME = "ghc-http-conduit-doc-2.3.8.2-2.1.noarch.rpm"
+RPM_HASH = "00dafe0f233465500bd96d3330cc42312b287b35d69ff132560b278d738f9de3339041e86e50f4f13f4e7fdd655651e8fea2e86f132bd515ee95a3f9518c3b7c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-http-conduit-doc"

@@ -5,10 +5,10 @@ package. \
 This module provides support to output to an ElasticSearch database."
 LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
-PV = "8.2212.0"
+PV = "8.2306.0"
 
-RPM_NAME = "rsyslog-module-elasticsearch-8.2212.0-2.5.aarch64.rpm"
-RPM_HASH = "9b3652f104da8c28213d8a8cf9f8e75946c9c69de60ee66a7282652af873e032c5839350ce1da0e3815e48f8a7b86f4e3075701e818186d556a2faf4f120a7df"
+RPM_NAME = "rsyslog-module-elasticsearch-8.2306.0-1.1.aarch64.rpm"
+RPM_HASH = "e00baf0b15defb88e3cedf2f14502aa0c07ab0b4c116023783d7d7e4c67f69ca89c02e0b4569632a7eb0df6d914adc36c91191bdfcc06f1086f2600624a173a0"
 
 RPROVIDES:${PN} += "rsyslog-module-elasticsearch"
 

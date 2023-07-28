@@ -4,10 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.5"
 
-RPM_NAME = "ghc-hlint-devel-3.5-1.10.aarch64.rpm"
-RPM_HASH = "6ad44de56904414e7299f74c7120026fe6f00735732c76f3e6f093613e20d05a2257c055eb95a8a1c0692a36768e156e8622bb6ca08248936d6cf0b1881a4687"
+RPM_NAME = "ghc-hlint-devel-3.5-1.11.aarch64.rpm"
+RPM_HASH = "c6b4bd56f3625ab0497a8c15663bc693c0fceb35606594ad97c974736a749e2dd216deb86968ebabb8f45a93b5f46d015fe8cbd4804049e90c4f41ef6a38db3f"
 
-RPROVIDES:${PN} += "ghc-devel-hlint-3.5-D3vZjbXvhdOGKD9r4srBmV \
+RPROVIDES:${PN} += "ghc-devel-hlint-3.5-5lu6ClZadMNAojOvKUNcWt \
 ghc-hlint-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -22,10 +22,10 @@ ghc-devel-cpphs-1.20.9.1-FT5N79IhkR98KU1k959mgj \
 ghc-devel-data-default-0.7.1.1-5iNQUD7GKkTDiLEyJaqXSy \
 ghc-devel-deriving-aeson-0.2.9-H4zgwfPBYrUGAqouOy9tcC \
 ghc-devel-directory-1.3.7.1 \
-ghc-devel-extra-1.7.14-BoqGpItPSHp5TXSaJGSPpo \
+ghc-devel-extra-1.7.14-9MsHIUa0FAo4DKg07m0mTc \
 ghc-devel-file-embed-0.0.15.0-LJLaBgMyS4K2tBVYbzJ0uw \
 ghc-devel-filepath-1.4.2.2 \
-ghc-devel-filepattern-0.1.3-ZuemUYkhwGA1RPuLxzdA9 \
+ghc-devel-filepattern-0.1.3-3YAZmlhLkyq9JKYM4OPVoZ \
 ghc-devel-ghc-lib-parser-9.4.5.20230430-3l319oISrwg5O8XOrKFn5M \
 ghc-devel-ghc-lib-parser-ex-9.4.0.0-csIofWAAh3CX4OvchqGS5 \
 ghc-devel-hscolour-1.24.4-B0NmEhYuPI790UQrsiXLka \

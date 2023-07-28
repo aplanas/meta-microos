@@ -12,10 +12,10 @@ Some of its features include: \
 This package provides the PipeWire replacement libraries for libjack."
 LICENSE = "MIT"
 
-PV = "0.3.72"
+PV = "0.3.74"
 
-RPM_NAME = "pipewire-libjack-0_3-0.3.72-1.1.aarch64.rpm"
-RPM_HASH = "f4809541e589f2fad0f0b2de85be4f9fb677597fc7a0d6be4397f1c38850abeca370917bf3d01f8caf984284d0527c7c4c19f28bf19f931892ee5c585a78baa4"
+RPM_NAME = "pipewire-libjack-0_3-0.3.74-1.1.aarch64.rpm"
+RPM_HASH = "bf99fac221ee810aa7cab929b200e1450d06771713fc570f85f1c0ea05b856621e6e6b9e0a9ce471decd2061742848105f15634698a004b2d9c25797aa2c30b5"
 
 RPROVIDES:${PN} += "libjack.so.0 \
 libjacknet.so.0 \

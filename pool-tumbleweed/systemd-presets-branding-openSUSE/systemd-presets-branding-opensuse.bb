@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "12.2"
 
-RPM_NAME = "systemd-presets-branding-openSUSE-12.2-22.1.noarch.rpm"
-RPM_HASH = "436f729b00a045e08691430f882b789bb0f143b5487ee80a8165ec1be51868f1ab5869eddedcc65b627a3028aa3708eb48d385c7c38bd011bc81ed4f79099f64"
+RPM_NAME = "systemd-presets-branding-openSUSE-12.2-23.1.noarch.rpm"
+RPM_HASH = "23f2acd0d2aa43f7a6e15590a928f311325b58c411e378d0484a12fc2a53aabd95a456bc88b8b0a640290a85a6012776708840c0b7f210ef10188b97d500a6d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemd-presets-branding \

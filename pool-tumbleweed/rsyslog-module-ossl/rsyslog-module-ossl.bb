@@ -6,10 +6,10 @@ This module provides the ability for TLS encrypted TCP logging using \
 the OpenSSL library."
 LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
-PV = "8.2212.0"
+PV = "8.2306.0"
 
-RPM_NAME = "rsyslog-module-ossl-8.2212.0-2.5.aarch64.rpm"
-RPM_HASH = "c7b96b717d859fe697104616e3b389e0f24477c2c098e114151ea1efe2a0379a6883b69ca2f15b954b5bf5b7156733741028286309613b81ac7111af87e9c8c2"
+RPM_NAME = "rsyslog-module-ossl-8.2306.0-1.1.aarch64.rpm"
+RPM_HASH = "06a74edbc5f18778be77b35c968f63177e9951da1abfffebf56cd3c6a38388d7f4128ab3310f905739780c79ad19cfb717b6bb18685f36e5564bf662c4e3617f"
 
 RPROVIDES:${PN} += "rsyslog-module-ossl"
 

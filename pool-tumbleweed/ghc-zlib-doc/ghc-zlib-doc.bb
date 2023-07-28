@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.6.3.0"
 
-RPM_NAME = "ghc-zlib-doc-0.6.3.0-2.6.noarch.rpm"
-RPM_HASH = "bd0b17c43de9c5d89813703f2c3560d44bf6b41bc7349c33776b7b9a187163b5b8586541a63bf42e633524891c2196ddfeca371292510d7fc4a6a48b90779c1e"
+RPM_NAME = "ghc-zlib-doc-0.6.3.0-3.1.noarch.rpm"
+RPM_HASH = "364244c8f99f287599cb5cd4fbbc0f554b1af1f18ae803b5bf269b4646646b726b7fae572dac9440296ac8bc290b0b7d1fee7cd5b4f75fc86172736f441c46e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-zlib-doc"

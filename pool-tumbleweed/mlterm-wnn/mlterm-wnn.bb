@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.9.3"
 
-RPM_NAME = "mlterm-wnn-3.9.3-1.1.aarch64.rpm"
-RPM_HASH = "412b492ce141c482867430af194a7da1fb37099d996edd6af09eb11c33e5b19f28f9887474db366b0549f3141f0d7c68fdcba6af1256cc847b54dec798e56616"
+RPM_NAME = "mlterm-wnn-3.9.3-2.1.aarch64.rpm"
+RPM_HASH = "68caa54ed3b71acd45d08f92bd7ab19bcdca188afd173b16181449ad47b0f5b7d0e328a188cef42291b0d78b3738ed7c4e807a5586e127acc71e6667a22056cf"
 
 RPROVIDES:${PN} += "libim-wnn-sdl2.so \
 libim-wnn-wl.so \

@@ -8,10 +8,10 @@ This package contains all necessary python modules to use libkdumpfile via \
 the Python interpreter."
 LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
-PV = "0.5.1+git3.g97c716a"
+PV = "0.5.2"
 
-RPM_NAME = "python310-libkdumpfile-0.5.1+git3.g97c716a-3.2.aarch64.rpm"
-RPM_HASH = "b0f75aff3136d33796103cefdd47cff92548392bae438662d5b33f2a4ff586749a5fc25ed56e535e9afbcecc333d7b46334111f708fcbb5fc3871e8b66e6ae92"
+RPM_NAME = "python310-libkdumpfile-0.5.2-1.1.aarch64.rpm"
+RPM_HASH = "c2b2de2c3efaf2a96ee8eab5139f096c964c3bd5767fcf393cf0446c23420c7fff5b6b75bb6ae8b55f48566577598a02b01944644479bf9c074c8863b94fb172"
 
 RPROVIDES:${PN} += "python3.10dist-libkdumpfile \
 python310-libkdumpfile \

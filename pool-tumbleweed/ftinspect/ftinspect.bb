@@ -4,10 +4,10 @@ control over virtually all rendering parameters \
 This tool is part of the FreeType project"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.13.0"
+PV = "2.13.1"
 
-RPM_NAME = "ftinspect-2.13.0-4.2.aarch64.rpm"
-RPM_HASH = "f0df9ad947634c1d939fabeb7bf0a5b582b8518d9a078a7732e86ae4dc997518964ad1584e89bf4d21f5eae0eb00ba9bef2060797201ff0583c3b4a53f1a31a5"
+RPM_NAME = "ftinspect-2.13.1-1.1.aarch64.rpm"
+RPM_HASH = "d4146545150083df34c5defe4a8660ad2679b2b84d950e1386d71caf6588cc3c6d70a005a7425d63113108deb739cc49b30b17c4b1bd83ceb11dd3bda52e1639"
 
 RPROVIDES:${PN} += "ftinspect"
 

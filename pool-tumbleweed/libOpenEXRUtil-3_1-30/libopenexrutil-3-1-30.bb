@@ -5,10 +5,10 @@ Industrial Light & Magic for use in computer imaging applications. \
 This package contains shared library libOpenEXRUtil"
 LICENSE = "BSD-3-Clause"
 
-PV = "3.1.7"
+PV = "3.1.9"
 
-RPM_NAME = "libOpenEXRUtil-3_1-30-3.1.7-1.2.aarch64.rpm"
-RPM_HASH = "13c8a195453f4ededf726a6c4d67d7c6e7c75021bca98b0e35f489c4940069074a7c0b09f931dd06ebde9a34908230d568d344b6c4d4ccbef42a5f8b6ec8825d"
+RPM_NAME = "libOpenEXRUtil-3_1-30-3.1.9-2.1.aarch64.rpm"
+RPM_HASH = "1bf0f885b8cbda23dfad3d92aaeb549b8b6a291b806c3a247bc189dda84c475e7d87cdd4a48e87f98c412738a508ac0d00e85565b56f8ed15799e8e1969f46cb"
 
 RPROVIDES:${PN} += "libOpenEXRUtil-3-1-30 \
 libOpenEXRUtil-3-1.so.30"

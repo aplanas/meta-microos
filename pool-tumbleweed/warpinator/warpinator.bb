@@ -2,10 +2,10 @@ SUMMARY = "Share files across the LAN"
 DESCRIPTION = "Warpinator is a simple app that allows users to share files across the LAN."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.6.3"
+PV = "1.6.4"
 
-RPM_NAME = "warpinator-1.6.3-1.2.noarch.rpm"
-RPM_HASH = "e0b16fd10e066a925995d608a91e1bea0fe99f6f2a64c23821bab781540c259799509e2717e48b4840add77659a89b1e0f75ad6b87af7f7e2ddc65948651960f"
+RPM_NAME = "warpinator-1.6.4-1.1.noarch.rpm"
+RPM_HASH = "6dc8316c69a22cd17901748032a4e17e286b19d54e9f894371a64bf383d515a952b0bc5b5dd91e38f8e1efbbdc268ecbf1fa08d5449d97abc0564e081df73cd2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "warpinator"

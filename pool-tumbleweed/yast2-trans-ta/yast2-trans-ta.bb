@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Tamil Translations"
 DESCRIPTION = "YaST2 - Tamil translations."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230708.d1de37aed1"
+PV = "84.87.20230714.966688ddd0"
 
-RPM_NAME = "yast2-trans-ta-84.87.20230708.d1de37aed1-1.1.noarch.rpm"
-RPM_HASH = "f671189970fa78c4aa2032bcf37fc99bf3296ab1f5fad2c05d846ad3ce246537d06bd3892c6c9d68ff861b3d9d6eea8298dfac9888fa4a8a11921f3ad8203418"
+RPM_NAME = "yast2-trans-ta-84.87.20230714.966688ddd0-1.1.noarch.rpm"
+RPM_HASH = "438d69da2a72f8b7adf01569b217cd5d343e8dbf25083d6e3cceec0ac1ab8ca6600a0c59734d29dd57374e22b3ed20ce9e01ea578d74de2ef9a5ab04bc99ad06"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-ta \

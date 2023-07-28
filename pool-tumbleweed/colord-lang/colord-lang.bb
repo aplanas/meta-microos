@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.6"
 
-RPM_NAME = "colord-lang-1.4.6-2.4.noarch.rpm"
-RPM_HASH = "afbbe8618e7b2257930d16d7866b2eac05651c35c38038218e685bd394738792c6821fcd2df653e5246170f3b28d01c62d594bcf27644e98cf1f713e9c29e554"
+RPM_NAME = "colord-lang-1.4.6-3.1.noarch.rpm"
+RPM_HASH = "2a3a8e60c344165738b852b7b6a23d5106fb64d6d1828ff3e27216779481ce638980bd911d6f30b33df2156eafa9f4dbe3a1e218e08e41444305faea64e40a93"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "colord-lang \

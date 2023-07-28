@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "23.04.3"
 
-RPM_NAME = "libKPim5Itinerary5-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "9d6aca79669f7dade33876ee9c58fdb8b1c6e4ba99baff4984ce88ec2b8b297d5a05cd13724d0f1b0fcc0f74434697158f2fe928fe6de144d0e0d46956a6abaa"
+RPM_NAME = "libKPim5Itinerary5-lang-23.04.3-1.2.noarch.rpm"
+RPM_HASH = "5d7ab0ad375c6ec42b545bed4a67d403e202c31c951d9770b6970179f24b6671100357633932f3e100623744e66d9fe1ca5a5ba30a0b1ae5baeb4a463ed7fcc7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKPim5Itinerary5-lang \

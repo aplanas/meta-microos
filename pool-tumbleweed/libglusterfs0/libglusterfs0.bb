@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only | LGPL-3.0-or-later"
 
 PV = "11.0"
 
-RPM_NAME = "libglusterfs0-11.0-3.1.aarch64.rpm"
-RPM_HASH = "db8df703fbca2f55ebf4751311c065b28a2477663e509c2b9d7aca8e110d2805d20691eed67393e41f5926a7a8b9ac65becf9cf4763fce7b1a097b92adcef93e"
+RPM_NAME = "libglusterfs0-11.0-4.1.aarch64.rpm"
+RPM_HASH = "6236ee00b0d88a82180816f7dd8648d3f38f1218e97556dfdf1e45c5f676812ff7de08830d01eca121d0c496c1c3904dbc5413d7f7a3177ee9bd5e588e2d67ee"
 
 RPROVIDES:${PN} += "libglusterfs.so.0 \
 libglusterfs0"

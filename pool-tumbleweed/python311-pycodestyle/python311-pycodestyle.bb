@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "2.10.0"
 
-RPM_NAME = "python311-pycodestyle-2.10.0-5.3.noarch.rpm"
-RPM_HASH = "9f64461002f63958b23e3b762c6eef2a609bc2aec2d9f4d2770a6783363b4d6f58d446dc4f9bf17b4c6c8b119533984e2df08b53a7e4fb5351c6c9cd2742bc2c"
+RPM_NAME = "python311-pycodestyle-2.10.0-6.1.noarch.rpm"
+RPM_HASH = "ed9927652e0e24df7b7bf445aeb367ae94b0ae12d191dddfc9516cf11a9329a135d17e771d39f0911f11d25a1219a5ab9c69d76e9b7962624ed03151719d7323"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pep8 \

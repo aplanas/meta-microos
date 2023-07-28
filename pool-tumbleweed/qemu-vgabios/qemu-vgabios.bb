@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "1.16.2_3_gd478f380"
 
-RPM_NAME = "qemu-vgabios-1.16.2_3_gd478f380-2.1.noarch.rpm"
-RPM_HASH = "0690d6222b34713ae7e938f1ac40e771a158bcb32e72189d85acf9efcb40fc433adb29c7c29b98539d9e873de1bfe98a5f133598c177fb631ca0ea9f77d3a56c"
+RPM_NAME = "qemu-vgabios-1.16.2_3_gd478f380-1.1.noarch.rpm"
+RPM_HASH = "5608685b4d35b3944a236ee60b5167a8e088ca39636a2ecf6eba790683915a391c6091af60b1eeae972ba1f4aad1511b916077863758fe0966a5f3914f15e0b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-vgabios"

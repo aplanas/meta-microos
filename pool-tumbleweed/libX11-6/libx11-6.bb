@@ -9,10 +9,10 @@ network. Xlib is a C subroutine library that application programs \
 stream connection."
 LICENSE = "MIT"
 
-PV = "1.8.5"
+PV = "1.8.6"
 
-RPM_NAME = "libX11-6-1.8.5-2.1.aarch64.rpm"
-RPM_HASH = "6c15765a2cdbf2e9dda46b2865bde3b52d573006d1ac435fe83684bd8c10077353ecd1d9e240ab978555c0f9776efd89bcaa3b4cf0be1981a485a4c66779398c"
+RPM_NAME = "libX11-6-1.8.6-1.1.aarch64.rpm"
+RPM_HASH = "c812f66056d118fc0b04f0914a1d4c46b495996ceae832ba3ddce65e0d8c9f37c822b1db5c871253f5a2de362407614a7db65d555e0fb5df548ed1729a3164f1"
 
 RPROVIDES:${PN} += "libX11-6 \
 libX11.so.6 \

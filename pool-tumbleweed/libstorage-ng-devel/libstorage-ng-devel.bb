@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains header files and documentation for developi
 libstorage-ng."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.5.123"
+PV = "4.5.127"
 
-RPM_NAME = "libstorage-ng-devel-4.5.123-1.1.aarch64.rpm"
-RPM_HASH = "2bab1ff804e6e8f1c621518f9eedc48d0d57c05531af9de6eec4b2cf641fc98772920268e4da164b204c1b66062b6b68e44bb6cbf4956f607d22ec094def3b10"
+RPM_NAME = "libstorage-ng-devel-4.5.127-1.1.aarch64.rpm"
+RPM_HASH = "20ac5cb4b8604a1dcad1c3318821f6fb0db5ea4892d649587c03f9a5376266bdd3e5af745cd90003b76451296337a21841793d4fbd45d52e9245b0e2c22fca38"
 
 RPROVIDES:${PN} += "libstorage-ng-devel"
 

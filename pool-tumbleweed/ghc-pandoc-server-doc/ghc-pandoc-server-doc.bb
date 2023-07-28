@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.1.0.1"
 
-RPM_NAME = "ghc-pandoc-server-doc-0.1.0.1-1.3.noarch.rpm"
-RPM_HASH = "62adff5c06facce19c6b0281370d266b1815b317fc9178963c93c677455a832e2bd5837daeded606016d5b7999c73ca8ced9ce08e91208528896baaee7c77f48"
+RPM_NAME = "ghc-pandoc-server-doc-0.1.0.1-1.4.noarch.rpm"
+RPM_HASH = "cacd759112846df895c42cdc2155d539c5b71b98a37ed82a5ec0115d481efe1ab9cd8d364b2c4990dadad608dcbe9c521b5e6d710dd490fbe7b9936fd8454e81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-pandoc-server-doc"

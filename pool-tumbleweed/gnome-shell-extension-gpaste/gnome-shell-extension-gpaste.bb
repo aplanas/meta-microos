@@ -5,10 +5,10 @@ This GNOME Shell extension adds a clipboard item in the status \
 menu, and provides the ability to copy/paste text."
 LICENSE = "BSD-2-Clause"
 
-PV = "43.2+6"
+PV = "44.1"
 
-RPM_NAME = "gnome-shell-extension-gpaste-43.2+6-2.2.noarch.rpm"
-RPM_HASH = "f9dd47618388eb553e7692f5c78b516d90006aace088774bbb79786ccf0c61ab424f944ce06956abb4c2b906c3ae3235693537e8a6eeccb5a5accb183c7be613"
+RPM_NAME = "gnome-shell-extension-gpaste-44.1-1.1.noarch.rpm"
+RPM_HASH = "800505c796889c5081e21db41b8c182d18403655a7c926b6e20dd391c86ac1628950700c27b9c056e3813efb53c3318c8bb6f19f0c2c2a67d2eff77c3f7d1630"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-extension-gpaste"

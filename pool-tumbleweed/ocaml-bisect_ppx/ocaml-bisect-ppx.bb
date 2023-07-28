@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.8.2"
 
-RPM_NAME = "ocaml-bisect_ppx-2.8.2-2.2.aarch64.rpm"
-RPM_HASH = "dd3c596996c21544a3c1085777f0038e37762d7f686b4c744f9cab2ec6551df7d53e9163720e54baa12bbcd21ee650af9dd6567b88f007e72726eb2d06e5a6f0"
+RPM_NAME = "ocaml-bisect_ppx-2.8.2-2.3.aarch64.rpm"
+RPM_HASH = "bceb3fe58fae8b6e95487a5d644215efbf422a16eaf1a991352abf6e5f71749784e8eda5b7347f798b15a107c0ba5ebdeef58d00a657a4c3e44e03faaec14f4a"
 
 RPROVIDES:${PN} += "ocaml-bisect-ppx"
 

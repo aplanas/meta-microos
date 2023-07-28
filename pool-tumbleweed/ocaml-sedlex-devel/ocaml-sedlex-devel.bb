@@ -3,25 +3,34 @@ DESCRIPTION = "The ocaml-sedlex-devel package contains libraries and signature f
 developing applications that use ocaml-sedlex."
 LICENSE = "MIT"
 
-PV = "3.1"
+PV = "3.2"
 
-RPM_NAME = "ocaml-sedlex-devel-3.1-3.2.aarch64.rpm"
-RPM_HASH = "c6d3db331e6f6ed41cc2017c5000c865ed8ee48d77431fdf2838e5a730e773e338368c9692c3d8b9217901436f86133e577b258abfcf43a406cec635638c81f2"
+RPM_NAME = "ocaml-sedlex-devel-3.2-1.1.aarch64.rpm"
+RPM_HASH = "35f45be5bf645372ba98907baea7f5c35850ac9593c29233ee1ed782d25c0d3bbe9936fcb28d5fc671228f6cbdff02ddb56d4f8a19597627cbc6d5b46adcf16c"
 
 RPROVIDES:${PN} += "ocaml-Sedlex-ppx \
+ocaml-Sedlex-ppx--Iso \
 ocaml-Sedlex-ppx--Ppx-sedlex \
 ocaml-Sedlex-ppx--Sedlex \
 ocaml-Sedlex-ppx--Sedlex-cset \
 ocaml-Sedlex-ppx--Unicode \
+ocaml-Sedlex-ppx--Xml \
+ocaml-Sedlex-utils \
+ocaml-Sedlex-utils--Cset \
 ocaml-Sedlexing \
 ocaml-sedlex-devel \
 ocamlfind-sedlex \
 ocamlfind-sedlex.ppx \
+ocamlfind-sedlex.utils \
 ocamlx-Sedlex-ppx \
+ocamlx-Sedlex-ppx--Iso \
 ocamlx-Sedlex-ppx--Ppx-sedlex \
 ocamlx-Sedlex-ppx--Sedlex \
 ocamlx-Sedlex-ppx--Sedlex-cset \
 ocamlx-Sedlex-ppx--Unicode \
+ocamlx-Sedlex-ppx--Xml \
+ocamlx-Sedlex-utils \
+ocamlx-Sedlex-utils--Cset \
 ocamlx-Sedlexing"
 
 RDEPENDS:${PN} += "libc.so.6 \
@@ -42,6 +51,7 @@ ocaml-Astlib--Ast-412 \
 ocaml-Astlib--Ast-413 \
 ocaml-Astlib--Ast-414 \
 ocaml-Astlib--Ast-500 \
+ocaml-Astlib--Ast-501 \
 ocaml-Astlib--Location \
 ocaml-Astlib--Longident \
 ocaml-Astlib--Parse \

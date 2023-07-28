@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.4"
 
-RPM_NAME = "irssi-devel-1.4.4-2.3.aarch64.rpm"
-RPM_HASH = "bc660f8ff93f393526580b69da42af6a52ebf911aca098ac6d84182abc8e8e7bed915028e01deb4410c05113202053ccf41e2f88d5f2845305d25af035bead14"
+RPM_NAME = "irssi-devel-1.4.4-3.1.aarch64.rpm"
+RPM_HASH = "f521eeb9bb0ea0cd0cfb9e5a8c691af8a2a0e77121fd538cd6c027ba8958f03b8a1e4995bb0979e0ab232a77fb59ddd362798959627787175ca86f9d6c84f061"
 
 RPROVIDES:${PN} += "irssi-devel \
 pkgconfig-irssi-1"

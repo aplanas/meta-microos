@@ -4,10 +4,10 @@ DESCRIPTION = "GPaste is a clipboard management daemon with DBus interface. \
 This package provides a library for managing clipboard history."
 LICENSE = "BSD-2-Clause"
 
-PV = "43.2+6"
+PV = "44.1"
 
-RPM_NAME = "libgpaste2-0-43.2+6-2.2.aarch64.rpm"
-RPM_HASH = "69e50abf24d7ff68b440c433051541047c438f1f73a8bdb68110691fbf58644754c58b5661f7ef8cc01ed57edf3198bd6921e9031c4abfb7fbcc96b2d1e6200b"
+RPM_NAME = "libgpaste2-0-44.1-1.1.aarch64.rpm"
+RPM_HASH = "6af43e5e3866e3651a4573b3e6ca2044087dce91878fe9eec9e4a8d2eb80455e5820d5f2287b5c80316c0c2405a583bf0a7afc2b288fd7e8ba8aa8200cfdbbca"
 
 RPROVIDES:${PN} += "libgpaste-2.so.0 \
 libgpaste2-0"

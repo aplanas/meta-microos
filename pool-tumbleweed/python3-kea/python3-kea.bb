@@ -2,10 +2,10 @@ SUMMARY = "Python interface to Kea DHCP server"
 DESCRIPTION = "Python3 interface to ISC Kea DHCP server."
 LICENSE = "MPL-2.0"
 
-PV = "2.2.0"
+PV = "2.4.0"
 
-RPM_NAME = "python3-kea-2.2.0-2.6.aarch64.rpm"
-RPM_HASH = "37b43636418adf403e49590f5c365c61408b622bd730cd403c0c31604bc7e9dc1822e16b3086693e903f348669fa4ef47e3070160cb858380042f82f029d62ec"
+RPM_NAME = "python3-kea-2.4.0-1.1.aarch64.rpm"
+RPM_HASH = "860791f73290cf41653a328c45bf9cdc914f440da6f0474112a686a1e1beca3043c7dc0162a94f1d143bc8b927e66a005ba39b37bab6162eda8b72e6645f6bab"
 
 RPROVIDES:${PN} += "python3-kea"
 

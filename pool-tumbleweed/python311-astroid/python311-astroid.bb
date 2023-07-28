@@ -12,10 +12,10 @@ scopes. Furthermore, astroid builds partial trees by inspecting living \
 objects."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.15.5"
+PV = "2.15.6"
 
-RPM_NAME = "python311-astroid-2.15.5-1.3.noarch.rpm"
-RPM_HASH = "ad80211efd90ea2eb83ab90b91d4b03e022dfc6542b5675e06dc5aa9d1ac3b7aa8fe66f6404f63e9d73a06ea86e45e3c21b579701938a1f72a00f784b8ba9e72"
+RPM_NAME = "python311-astroid-2.15.6-1.1.noarch.rpm"
+RPM_HASH = "6589fdd9aa3f2388127330caafbc077b22a8ed63dc848b19e5638d6947e7365b6eb23b7f245a4550f8eae487ea3cca20afd406cdfffa125fab72bc791359f7e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-astroid \

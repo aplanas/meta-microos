@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.4.2"
 
-RPM_NAME = "setools-console-4.4.2-1.2.aarch64.rpm"
-RPM_HASH = "409f09901116227b7e1792eb81ee9aefca9ca16e3ab475ba5e60a8a4fae768d3f2ad9d27058f9e8443b6af62761f305edd3c55528de54c7ffb4d51e97c5f4176"
+RPM_NAME = "setools-console-4.4.2-2.1.aarch64.rpm"
+RPM_HASH = "e391bf4c1e6a5ab12a2d273c828e2679c78ef9cf01ea5bc745db46863f2b6f60aa8cd4e62f59ee1d89382be85805d1e6fa21207c1d1be708ea9af67be639a9f9"
 
 RPROVIDES:${PN} += "setools-console"
 

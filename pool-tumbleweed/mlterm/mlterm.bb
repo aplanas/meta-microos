@@ -29,8 +29,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.9.3"
 
-RPM_NAME = "mlterm-3.9.3-1.1.aarch64.rpm"
-RPM_HASH = "c15fb7e6cef4824ea3d35ab2154f177eb4010b788b5b62a481bb3f4153940ad090b34e6842826f7d3c644627ade42c710ee7a93317483c9fbfd7df7deb284e26"
+RPM_NAME = "mlterm-3.9.3-2.1.aarch64.rpm"
+RPM_HASH = "70d6ae4be4259b760f749c9ef1e14fd5253aeb07fe8e38368c3e2b43072fb7597a420858f1c8741a79bb9f8cb9f87f7d7d3564ce7144a566e885db63d12ce0ee"
 
 RPROVIDES:${PN} += "config-mlterm \
 libathena.so \

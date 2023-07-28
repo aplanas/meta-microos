@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.3.0"
 
-RPM_NAME = "ghc-cabal-plan-devel-0.7.3.0-1.2.aarch64.rpm"
-RPM_HASH = "a6d4a9fa4c9fed0a1e703d5611099fbbd9c74764ee48846f138b65bbeb944986342ed5c3880a90e805b62ef71d161523a9ceb11e2a08890604b637c765c0ac95"
+RPM_NAME = "ghc-cabal-plan-devel-0.7.3.0-2.1.aarch64.rpm"
+RPM_HASH = "92c8ffb35c38225dcb6d863aefe973ab5e43cad88395a3c012cc3807eed84a43e679ef08d245ece0cf88c5b35289bb53dba3435cfd4b47b976ee07b2261af1c5"
 
 RPROVIDES:${PN} += "ghc-cabal-plan-devel \
 ghc-devel-cabal-plan-0.7.3.0-6cjqkAQfbyh3TLSGEHoT4c"

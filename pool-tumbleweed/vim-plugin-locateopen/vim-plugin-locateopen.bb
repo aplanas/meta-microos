@@ -12,8 +12,8 @@ LICENSE = "Vim"
 
 PV = "1.3"
 
-RPM_NAME = "vim-plugin-locateopen-1.3-55.1.noarch.rpm"
-RPM_HASH = "254f5840f03fa4081c3c3bc1184ec6fce6e37ce042e45aed6a15b3f438a5940a2326ffa3541f7f60f187b0e0d87495c19318c81a070e4e1c7dfe3fbcf13bebe5"
+RPM_NAME = "vim-plugin-locateopen-1.3-56.1.noarch.rpm"
+RPM_HASH = "2cc7410c8cd7866729ac233b99156259890a483b9eb153bbc4443fb4ac780b655d7f602f6a3c4a3ab7a7ff304a54c1229a9079945b0ae1666eb7705e86bf6d94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-locateopen"

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.9.3"
 
-RPM_NAME = "mlterm-ibus-3.9.3-1.1.aarch64.rpm"
-RPM_HASH = "6b064886dd6fd5f2926aecc609664fc0e3c379f72a0fe831f3061001f420efdb3cf8dd139cf894dd7a76be831e04e2c242e5275217f9175a3e93f298159a3d54"
+RPM_NAME = "mlterm-ibus-3.9.3-2.1.aarch64.rpm"
+RPM_HASH = "a55e479e36849717ff4c1e0f3fe72370c67f5cd48e1732a3a8bb36949b72d059ee392dabcc31c1616a05ff00005c42bebb9cd0a465a235e30ba0d98909139f00"
 
 RPROVIDES:${PN} += "libim-ibus-sdl2.so \
 libim-ibus-wl.so \

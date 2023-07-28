@@ -7,10 +7,10 @@ This package contains the Iosevka SS02 typeface (monospace, Anonymous Pro \
 style)."
 LICENSE = "OFL-1.1"
 
-PV = "24.1.4"
+PV = "25.0.1"
 
-RPM_NAME = "iosevka-ss02-fonts-24.1.4-1.1.noarch.rpm"
-RPM_HASH = "b6c494573e95e4cb249de782ec15532497a68bd3ff05a4790f6630f6586ee91bf87b1afd93966768b77c710a51c8a39b5c76431298e1be987bff2dc88bff7a75"
+RPM_NAME = "iosevka-ss02-fonts-25.0.1-1.1.noarch.rpm"
+RPM_HASH = "5dab50eda6322dbea7b729035a6243adf59a75f2ee98c8e748e4a6b9ba45fbf566aef55b7ae9e9c26f3b84fd4a0b2578ffbeca852bd8940b74242517a8c6cbce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-ss02-fonts"

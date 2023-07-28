@@ -17,8 +17,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.1"
 
-RPM_NAME = "ghc-cprng-aes-0.6.1-4.3.aarch64.rpm"
-RPM_HASH = "46fe42bec1511c41d1b0eb67bdd5f569d95cb458924d2fbb0935d13ab8546b3a3cce57bba72c53c81bfe13f5b2e306635300d441744af2f079b6edd7ff64a090"
+RPM_NAME = "ghc-cprng-aes-0.6.1-5.1.aarch64.rpm"
+RPM_HASH = "a74f701f3cc55090644734467780f0fcca4f8d14e64df263d67a9e2c2f886c9e15e2da87f1802cad92ed1b77b3b5fff08397faead61b67c81a31cf076f879c9d"
 
 RPROVIDES:${PN} += "ghc-cprng-aes \
 libHScprng-aes-0.6.1-57mLrS8iLhhDpycOALP7vk-ghc9.4.5.so"

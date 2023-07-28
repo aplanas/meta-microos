@@ -6,10 +6,10 @@ This package provides the GObject Introspection bindings for the \
 libcheese library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0.1"
+PV = "44.1"
 
-RPM_NAME = "typelib-1_0-Cheese-3_0-44.0.1-1.2.aarch64.rpm"
-RPM_HASH = "6998b9cf29baee03e340401b3d4fd6cf0f3a047615e81322f2f6d7c64a02e37ccc5396cd6100a6ac382e480803c5279655d5d371f756e2cb9f3c3cbda51fcfc5"
+RPM_NAME = "typelib-1_0-Cheese-3_0-44.1-1.1.aarch64.rpm"
+RPM_HASH = "fa36f2f5d081c3b1e299ce2cffce73c7d26292721315ebed92d844ce264bd8f13ab4cf663ece10d17ff9504ac6cdf9d8082b27c7eef25865f10f2fd0619eb5a3"
 
 RPROVIDES:${PN} += "typelib-1-0-Cheese-3-0 \
 typelib-Cheese"

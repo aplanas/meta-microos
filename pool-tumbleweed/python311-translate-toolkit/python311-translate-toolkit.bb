@@ -18,10 +18,10 @@ Also part of the Toolkit are Python programs to create word counts, merge \
 translations and perform various checks on translation files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.8.6"
+PV = "3.9.2"
 
-RPM_NAME = "python311-translate-toolkit-3.8.6-1.4.noarch.rpm"
-RPM_HASH = "2ce31727ffc43554a42a736a1628f3e5314c9ab5011fa461000ca690f229a354eb49836dc2381ad20270ad576cdbcb558beb236bbb70ae21a09f6df132f049b4"
+RPM_NAME = "python311-translate-toolkit-3.9.2-1.1.noarch.rpm"
+RPM_HASH = "e49b639995354946c79fbdd51669b975a7ab1807810c8299cfd21c5bdbfddd1e7a457920ca150dff46748fbdc140ca960054581e6613170d44fd831cd27afc0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-translate-toolkit \

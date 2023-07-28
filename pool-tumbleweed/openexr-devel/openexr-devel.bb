@@ -5,10 +5,10 @@ Industrial Light & Magic for use in computer imaging applications. \
 This package contains header files."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
-PV = "3.1.7"
+PV = "3.1.9"
 
-RPM_NAME = "openexr-devel-3.1.7-1.2.aarch64.rpm"
-RPM_HASH = "37317ecbcd322b5a228d6f53cdcd251c6180bb0ba006d968dc9eb3bf0c3c7cdbb1e463d83bbae90927069caae03f944580fa202846f12d760f77629f5ffc9f86"
+RPM_NAME = "openexr-devel-3.1.9-2.1.aarch64.rpm"
+RPM_HASH = "f6b362cfa2f25fb040dbee9ef669af747f48573fa902c3dc3ed6a5175f948168715fe018aeb48aec7a5ecd0bab08077b3a6c197d40e3f6c60d22e295ccc95631"
 
 RPROVIDES:${PN} += "OpenEXR-devel \
 cmake-OpenEXR \

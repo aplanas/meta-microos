@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.5"
 
-RPM_NAME = "vim-plugin-calendar-2.5-55.1.noarch.rpm"
-RPM_HASH = "5a1c0ef72b32b031f2c7690a2f9623b7983a219407246f401bae2be5095e9b9be21cb3dba74b680ca6371eeb94cfb688f940ebfa76c20da60e1fc6e1b2c07780"
+RPM_NAME = "vim-plugin-calendar-2.5-56.1.noarch.rpm"
+RPM_HASH = "2b17f144b0b4ecb7a31dfb38a3ad1c98604fc193596da432861644908b552f2dc3a6daa323cc68dede84cecdc1a047861cc40115430f6ef41e962091f6f4d568"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-calendar"

@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "1.7.4"
 
-RPM_NAME = "ghc-yesod-form-prof-1.7.4-1.9.aarch64.rpm"
-RPM_HASH = "e5bfe03e87893529104b0e7cea8ef02ba83476a32823be09da4b38c50dce924a2ef4ef02a3bc17aca7589b266073d6d1ea8ae57cd5837232bf0cbb5a31485e48"
+RPM_NAME = "ghc-yesod-form-prof-1.7.4-1.11.aarch64.rpm"
+RPM_HASH = "266b1ced06040becef90341ce2ddd0560371e70efc635f8b706620b8628bdbbc6eef47837782ae9d31884a90344617b79304cff817c72e7bc523fb46cb282c73"
 
-RPROVIDES:${PN} += "ghc-prof-yesod-form-1.7.4-9SavUh7G36AKe86TvxSRtJ \
+RPROVIDES:${PN} += "ghc-prof-yesod-form-1.7.4-A4NJLliFfnZ1tqLIO9QkD9 \
 ghc-yesod-form-prof"
 
 RDEPENDS:${PN} += "ghc-prof-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
@@ -30,8 +30,8 @@ ghc-prof-time-1.12.2 \
 ghc-prof-transformers-0.5.6.2 \
 ghc-prof-wai-3.2.3-B6oJGZed88IFIvDpwN5I7x \
 ghc-prof-xss-sanitize-0.3.7.2-FCgYumvpQn8Hd22tbbEcXW \
-ghc-prof-yesod-core-1.6.24.2-7isfGP7hc9NLFaHQAgg8t \
-ghc-prof-yesod-persistent-1.6.0.8-Jui070TDUWhEJxvpNjmjRf \
+ghc-prof-yesod-core-1.6.24.3-FuwsWoOUEyTCufqnix4g5P \
+ghc-prof-yesod-persistent-1.6.0.8-A587fdCgueU2UmsZUmFzaX \
 ghc-yesod-form-devel"
 
 inherit rpm

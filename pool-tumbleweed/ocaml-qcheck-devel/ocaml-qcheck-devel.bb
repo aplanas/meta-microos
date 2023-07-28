@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.21.1"
 
-RPM_NAME = "ocaml-qcheck-devel-0.21.1-1.1.aarch64.rpm"
-RPM_HASH = "1ff5cb70abe234e12a69eb2ff5928276ba116b3418c55ed3927feedce3b72584911c0d1918947c67532e78af940978988fbddf1060859e06c20fb6a637e83af5"
+RPM_NAME = "ocaml-qcheck-devel-0.21.1-1.2.aarch64.rpm"
+RPM_HASH = "1c0306a77e6ff9ca81797a10992c1dc3be468c7c514e6a99cc7f63aa50e5ce4cedcc62d5c47497a26a82b9f1d947e9be56fe98391b74e4082b040c0f4a8c0e13"
 
 RPROVIDES:${PN} += "ocaml-Ppx-deriving-qcheck \
 ocaml-Ppx-deriving-qcheck-- \
@@ -53,6 +53,7 @@ ocaml-Astlib--Ast-412 \
 ocaml-Astlib--Ast-413 \
 ocaml-Astlib--Ast-414 \
 ocaml-Astlib--Ast-500 \
+ocaml-Astlib--Ast-501 \
 ocaml-Astlib--Location \
 ocaml-Astlib--Longident \
 ocaml-Astlib--Parse \

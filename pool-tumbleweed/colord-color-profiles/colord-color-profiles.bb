@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.6"
 
-RPM_NAME = "colord-color-profiles-1.4.6-2.4.aarch64.rpm"
-RPM_HASH = "3c8512d3b9c180b9360ff2df40ed60dedf647bfd6259ac3fb97f8baa699cf736d0417aaa72a691e6faec58fd651efab1b8d6acbf1209e36315eaf0bfbdfcb656"
+RPM_NAME = "colord-color-profiles-1.4.6-3.1.aarch64.rpm"
+RPM_HASH = "c52dc9cad700e5572dceba918a8ae9d450843b3fedac36c3a6bb4a739c1e7b798bafdb4386b20d1b732711d2858672309e614b8cb99d8586c56f4af5a058019a"
 
 RPROVIDES:${PN} += "colord-color-profiles \
 shared-color-profiles"

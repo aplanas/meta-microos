@@ -2,10 +2,10 @@ SUMMARY = "Haskell postgresql-simple library documentation"
 DESCRIPTION = "This package provides the Haskell postgresql-simple library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.6.5"
+PV = "0.6.5.1"
 
-RPM_NAME = "ghc-postgresql-simple-doc-0.6.5-3.7.noarch.rpm"
-RPM_HASH = "ed3cd0972725bf17d8207c87c4f8481e75000531c60de9dd85823ef8dfa8e98bda45d20e7a150d5ef63515fb9b598b2239838f244a61808689006eb57bcf5bb8"
+RPM_NAME = "ghc-postgresql-simple-doc-0.6.5.1-1.1.noarch.rpm"
+RPM_HASH = "989857f165b42f625addc089c9e806a89eac45ec7b7b548c37562d036ca56c674bd20a80ddf9efb0d4e8bf512cb229065f1ba2707c7fb782fb26e1343ed2d233"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-postgresql-simple-doc"

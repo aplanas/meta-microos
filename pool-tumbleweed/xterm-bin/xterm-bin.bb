@@ -3,10 +3,10 @@ DESCRIPTION = " \
 This package contains the basic X.Org terminal program."
 LICENSE = "MIT"
 
-PV = "382"
+PV = "384"
 
-RPM_NAME = "xterm-bin-382-1.1.aarch64.rpm"
-RPM_HASH = "aca75ef5936cd77b7c55d73aaf847d6f7a4eae7cb2a013adc42dd3b0278daedd37362817d78fdfcea13c7eeb8435b0c713a7621b5d3a98722c3d3d73bd9f16b1"
+RPM_NAME = "xterm-bin-384-1.1.aarch64.rpm"
+RPM_HASH = "3cf44fafefcae9456936eec06955f180b301e1e07b18c7adea3c7083e1401cc5472c455ad012064e340e71fdeb43475b5f7325caa3dc4564ea11821899cf8100"
 
 RPROVIDES:${PN} += "font--lang=aa \
 font--lang=af \

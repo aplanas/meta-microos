@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "30"
 
-RPM_NAME = "libkmod2-30-5.1.aarch64.rpm"
-RPM_HASH = "42de7ad5e224505235e3263c49a6295bd7f0bbf6726f192d7a25797f59d65373d1941253f54e4852f108c2a75a84e31c069c69bcdae27d03528c8650a6fe135d"
+RPM_NAME = "libkmod2-30-6.1.aarch64.rpm"
+RPM_HASH = "434e158568aeb5c2af9c6bed50d771a8b2f9c58b4dca5006a429874fb9754e71135afa185870f2a91f96ed02044d7bcdbaa6190ce1dd0efba463f49f4b47eae9"
 
 RPROVIDES:${PN} += "libkmod.so.2 \
 libkmod2"

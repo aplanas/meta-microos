@@ -5,10 +5,10 @@ This package provides the GObject Introspection bindings for the library \
 managing clipboard history."
 LICENSE = "BSD-2-Clause"
 
-PV = "43.2+6"
+PV = "44.1"
 
-RPM_NAME = "typelib-1_0-GPasteGtk-3-43.2+6-2.2.aarch64.rpm"
-RPM_HASH = "d9bc5a674bbf517268ab81ab3df02414c1a8a908701d326323fd1c2dd13d434fe7f156b7ccfd690fc8a3e5f42c1119fcdbcfa6c248b48a99d2d90686566d64bf"
+RPM_NAME = "typelib-1_0-GPasteGtk-3-44.1-1.1.aarch64.rpm"
+RPM_HASH = "044a3fd01350290b5d7cecf3de902a65101585be025aa7a068ad38872d11ebf7f2336810f01d86328a0cd53f6cd310ad9c3c0e09dbdbafb3be47fa6868d8bb1e"
 
 RPROVIDES:${PN} += "typelib-1-0-GPasteGtk-3 \
 typelib-GPasteGtk"

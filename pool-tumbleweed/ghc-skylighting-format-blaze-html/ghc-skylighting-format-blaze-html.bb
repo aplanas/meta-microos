@@ -4,11 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.1"
 
-RPM_NAME = "ghc-skylighting-format-blaze-html-0.1.1-2.4.aarch64.rpm"
-RPM_HASH = "0aacc9ef389cfe4fa37ce1f292477f76616369e31e36de843877fc9b3d64079ae03cfc617adacd67463c09b60684a9266babfe0ab7b7c0ee8ad3c28abb1185b4"
+RPM_NAME = "ghc-skylighting-format-blaze-html-0.1.1-2.5.aarch64.rpm"
+RPM_HASH = "a2c672ba939babe588a9d4fe8f2d4407a6c51143ba0030cf023aeff9f7076a020faa3d6602a964a52ef09069c0fdaeb732b95bc19afa0b26c22681e29d3e6dcd"
 
 RPROVIDES:${PN} += "ghc-skylighting-format-blaze-html \
-libHSskylighting-format-blaze-html-0.1.1-F12UWgv4wxWHCG1WBLqTVs-ghc9.4.5.so"
+libHSskylighting-format-blaze-html-0.1.1-2S5li2Ic3P8IXVFqKrjQNX-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV-ghc9.4.5.so \
 libHSQuickCheck-2.14.3-6dq2izV8oSq1BobaDA598X-ghc9.4.5.so \
@@ -67,7 +67,7 @@ libHSsafe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds-ghc9.4.5.so \
 libHSscientific-0.3.7.0-D5F2vql7x79Dy9hx72OES1-ghc9.4.5.so \
 libHSsemialign-1.3-D9a6dNA89ZHcaXKxWN9Am-ghc9.4.5.so \
 libHSsemigroupoids-5.3.7-Ju2oK8NLhZKHdQ6h8GWNM1-ghc9.4.5.so \
-libHSskylighting-core-0.13.3-9hBRKYwyArU4OdEqV8LbQv-ghc9.4.5.so \
+libHSskylighting-core-0.13.4-ILWFndoUOH7DzXIN7Ztglj-ghc9.4.5.so \
 libHSsplit-0.2.3.5-u3oGLAiW7JJbxIffWSCWf-ghc9.4.5.so \
 libHSsplitmix-0.1.0.4-7e8CibdlMRLAGh7KO5VlFe-ghc9.4.5.so \
 libHSstm-2.5.1.0-ghc9.4.5.so \

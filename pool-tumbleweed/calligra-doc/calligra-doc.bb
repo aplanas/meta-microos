@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.2-only"
 
 PV = "3.2.1"
 
-RPM_NAME = "calligra-doc-3.2.1-7.19.noarch.rpm"
-RPM_HASH = "ac0724b3bc5356351d6582d4ba6584dd42bdc480b5bd56948c5d25c348c29802ad0742297a22a3bf1e28aede546bb6662b256c8da8432f8c1da41cdd94722143"
+RPM_NAME = "calligra-doc-3.2.1-7.20.noarch.rpm"
+RPM_HASH = "08f61e1952bbfde4aeb54d188a75bef18ad7c4e92435df08d23622af856bc3fdb6fd7c404601bb6bbabe084110d75f7c65fb6a3544cad9c3add63d5a519754b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "calligra-doc"

@@ -5,10 +5,10 @@ jq does - but it does support the most common operations and functions, and more
 is being added continuously."
 LICENSE = "MIT"
 
-PV = "4.33.3"
+PV = "4.34.2"
 
-RPM_NAME = "yq-4.33.3-1.3.aarch64.rpm"
-RPM_HASH = "5014c382cc6c976e194a1269863d67e3b9d4582b30a87b1f9fe4e77a0e7b38e7cd0594d1b8a862a089cb417267834e1a8d995693aaadbb34e1b7a7d580fad98c"
+RPM_NAME = "yq-4.34.2-1.1.aarch64.rpm"
+RPM_HASH = "8720e961d5a798a00df1b89e568c2ca83135c5e70d02c2b67499169f5bfd19c3f1f770dece13e62532149aad15c69b3ab5b63d89cec0fc9d55a2b92212fbb647"
 
 RPROVIDES:${PN} += "yq"
 

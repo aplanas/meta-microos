@@ -9,10 +9,10 @@ http://0pointer.net/blog/walkthrough-for-portable-services.html \
 https://systemd.io/PORTABLE_SERVICES"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "253.5"
+PV = "253.7"
 
-RPM_NAME = "systemd-portable-253.5-5.1.aarch64.rpm"
-RPM_HASH = "e12975e10b847643fd328fef0327eb5777d06686b02213da3d6a8b4b169d5b67cfc274619cd65c7675bbab841e453ec6f44a5079a9e858e5a5916f140316282f"
+RPM_NAME = "systemd-portable-253.7-1.2.aarch64.rpm"
+RPM_HASH = "0fb7993f802f92808ea8efac9a4f79e0eed075a580cd2ddc5abeec4d720922c425210a2370aa28ccdba768f49c8db6906bd60c1335fa4a6f5436d9ee27548c5a"
 
 RPROVIDES:${PN} += "systemd-portable"
 

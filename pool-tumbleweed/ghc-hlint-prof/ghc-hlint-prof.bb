@@ -4,11 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.5"
 
-RPM_NAME = "ghc-hlint-prof-3.5-1.10.aarch64.rpm"
-RPM_HASH = "ddcd5768f2783122ac0085b8c4bdf56e3d694e8be727bf769f7cf223bff964cdcb31912ff4d45294fb98af599916c8a48053a50eda73fc6c16ea63f3f9e318d7"
+RPM_NAME = "ghc-hlint-prof-3.5-1.11.aarch64.rpm"
+RPM_HASH = "a9ae646b6793a5ec191742beb54496529938ab8659b441b9e6c5e0232567fa1bb6fd90a36a82b58a9befc1dd62a8927572923c30a69267a5aa1bef6e83e3eb11"
 
 RPROVIDES:${PN} += "ghc-hlint-prof \
-ghc-prof-hlint-3.5-D3vZjbXvhdOGKD9r4srBmV"
+ghc-prof-hlint-3.5-5lu6ClZadMNAojOvKUNcWt"
 
 RDEPENDS:${PN} += "ghc-hlint-devel \
 ghc-prof-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
@@ -21,10 +21,10 @@ ghc-prof-cpphs-1.20.9.1-FT5N79IhkR98KU1k959mgj \
 ghc-prof-data-default-0.7.1.1-5iNQUD7GKkTDiLEyJaqXSy \
 ghc-prof-deriving-aeson-0.2.9-H4zgwfPBYrUGAqouOy9tcC \
 ghc-prof-directory-1.3.7.1 \
-ghc-prof-extra-1.7.14-BoqGpItPSHp5TXSaJGSPpo \
+ghc-prof-extra-1.7.14-9MsHIUa0FAo4DKg07m0mTc \
 ghc-prof-file-embed-0.0.15.0-LJLaBgMyS4K2tBVYbzJ0uw \
 ghc-prof-filepath-1.4.2.2 \
-ghc-prof-filepattern-0.1.3-ZuemUYkhwGA1RPuLxzdA9 \
+ghc-prof-filepattern-0.1.3-3YAZmlhLkyq9JKYM4OPVoZ \
 ghc-prof-ghc-lib-parser-9.4.5.20230430-3l319oISrwg5O8XOrKFn5M \
 ghc-prof-ghc-lib-parser-ex-9.4.0.0-csIofWAAh3CX4OvchqGS5 \
 ghc-prof-hscolour-1.24.4-B0NmEhYuPI790UQrsiXLka \

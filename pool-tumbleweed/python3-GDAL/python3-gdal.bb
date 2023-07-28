@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & MIT & SUSE-Public-Domain"
 
 PV = "3.6.3"
 
-RPM_NAME = "python3-GDAL-3.6.3-2.4.aarch64.rpm"
-RPM_HASH = "cb067492e180aa9850528c4287583cbd63328f3baaf84050c2c16f15db550a8a0ae2de13d6fdbdc4ff711ba64a9b18d847bdf3fdc1c5e8470a376c7a59f75c32"
+RPM_NAME = "python3-GDAL-3.6.3-2.6.aarch64.rpm"
+RPM_HASH = "cb981a18a0934450937f8e1946cd75d3850f4b1fb6aa065a46f4d03ebd06c0e5bcd2263784c0634820a66c0ba1e2d7eec73911ac3f11721a5c451d5c8ed551fd"
 
 RPROVIDES:${PN} += "python3-GDAL \
 python3-gdal \

@@ -5,10 +5,10 @@ practice of clear text passwords. This package contains the LDAP \
 database plugin."
 LICENSE = "MIT"
 
-PV = "1.20.1"
+PV = "1.21.1"
 
-RPM_NAME = "krb5-plugin-kdb-ldap-1.20.1-6.2.aarch64.rpm"
-RPM_HASH = "bb11675ba737e1e0c612e25caf0e6a382a4df19ec53f7e7f8d8775ec3e64398dce4086dd19155e4b6e9f3aadde9dfcb4a2cea91a6cbbfb6859de9821d35c49b8"
+RPM_NAME = "krb5-plugin-kdb-ldap-1.21.1-1.1.aarch64.rpm"
+RPM_HASH = "b8b79e30bc4dadfc12314bc7d81b97c977d5da12ddb7e4fee1679357fcc43f812861957e7f803c69e8f4e19c283c0ab36effd890b2bfa3fc943e2c9fdbac6d40"
 
 RPROVIDES:${PN} += "config-krb5-plugin-kdb-ldap \
 krb5-plugin-kdb-ldap \

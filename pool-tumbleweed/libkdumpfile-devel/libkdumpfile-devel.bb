@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop applications that require libkdumpfile."
 LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
-PV = "0.5.1+git3.g97c716a"
+PV = "0.5.2"
 
-RPM_NAME = "libkdumpfile-devel-0.5.1+git3.g97c716a-3.2.aarch64.rpm"
-RPM_HASH = "678776031d12440e3c981b6d96aac23e03f666e81187e767dbcb6b6a5842aa6ed2252a2d8015c33741ead85829e9809675f364c3a6484f6f71587244ddd6330a"
+RPM_NAME = "libkdumpfile-devel-0.5.2-1.1.aarch64.rpm"
+RPM_HASH = "e3d8e21e40597e0aa47816806bf79d2f3051886c4ab3b846c14f1328d5e87171569a85c40078360d389387c193c8c5740206b2338f7c0f5fbf494a91e508aa2d"
 
 RPROVIDES:${PN} += "libkdumpfile-devel \
 pkgconfig-libkdumpfile"

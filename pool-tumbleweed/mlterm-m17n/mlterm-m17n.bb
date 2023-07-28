@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.9.3"
 
-RPM_NAME = "mlterm-m17n-3.9.3-1.1.aarch64.rpm"
-RPM_HASH = "37dd58c191e44a189ae3002e221da43fbe0583a1404e5b5b54021997ac65a20f1e3d877d0b82186debb89c1f760dae437501d1419a36982180bb8d4bdb082e1f"
+RPM_NAME = "mlterm-m17n-3.9.3-2.1.aarch64.rpm"
+RPM_HASH = "3a95bf671b5edfa111ed02b572b9e49997e1bf5cd893def0c650d074585b6d55a76c0d389ee4ea32d338377849793d16689dffd893474780121c1b6a711aba69"
 
 RPROVIDES:${PN} += "libim-m17nlib-sdl2.so \
 libim-m17nlib-wl.so \

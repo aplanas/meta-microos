@@ -4,10 +4,10 @@ Ansible callback plugin and provides an API to integrate this data in \
 tools and interfaces."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.5.8"
+PV = "1.6.1"
 
-RPM_NAME = "python3-ara-1.5.8-2.1.noarch.rpm"
-RPM_HASH = "282ecca0f6a52c0d4cbbb13c22f3bbd6ab19d76421baedf5ae6536fc7c914adab0b9d8613a5773943cf9205af02a35741deb8e3a69e8bca920237835a14400fd"
+RPM_NAME = "python3-ara-1.6.1-1.1.noarch.rpm"
+RPM_HASH = "d2d868e6a8edfc24628d5b91d75353f4b3d4c2ee85c6585aa72734636f9776bb901be8ac62a6ae785cc76f7d04e2940f06fd3e01f255a5367bc3e40f92c6fb6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ara \

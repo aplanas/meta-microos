@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.23.0"
 
-RPM_NAME = "python311-jupyterlab-server-openapi-2.23.0-1.3.noarch.rpm"
-RPM_HASH = "f300ad70acf263ac6e561c1c5773a4e60e67b2afc9fea3b22cfd1b39e7b412a71671d5c83d3f75e74f35b28d622021c7da90be1a223bf6ce09878ef450d2e2f5"
+RPM_NAME = "python311-jupyterlab-server-openapi-2.23.0-1.4.noarch.rpm"
+RPM_HASH = "dc5e5da24696583bd3470bc6500f2f809e7e10d371f73778e5605ccf3e9a56529374a6eb627543e19f4d6fb3c2d13e7410665b9a1e50a05654feb9cc882f3f78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jupyterlab-server-openapi \

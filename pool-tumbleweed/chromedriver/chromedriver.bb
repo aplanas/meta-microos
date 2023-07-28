@@ -2,10 +2,10 @@ SUMMARY = "WebDriver for Google Chrome/Chromium"
 DESCRIPTION = "WebDriver is an open source tool for automated testing of webapps across many browsers. It provides capabilities for navigating to web pages, user input, JavaScript execution, and more. ChromeDriver is a standalone server which implements WebDriver's wire protocol for Chromium. It is being developed by members of the Chromium and WebDriver teams."
 LICENSE = "BSD-3-Clause"
 
-PV = "114.0.5735.198"
+PV = "115.0.5790.98"
 
-RPM_NAME = "chromedriver-114.0.5735.198-1.1.aarch64.rpm"
-RPM_HASH = "b7c7908ae5f571070b9d4d565a067e8f5526d41734879ae2b49e764283dac8f3903301f99ebf38201e72b69e12fbbdff2ed75086caccec6cb3a34bf188dc615e"
+RPM_NAME = "chromedriver-115.0.5790.98-1.1.aarch64.rpm"
+RPM_HASH = "2aa979c2d93eb56145095d468ffa54799cf6c16f8dbbb9cf54f2f5520afd1cfb7bdbb72ac31422803df469da7fb59dd4ec8013dc0d2a6deb26e820c495d3172e"
 
 RPROVIDES:${PN} += "chromedriver"
 

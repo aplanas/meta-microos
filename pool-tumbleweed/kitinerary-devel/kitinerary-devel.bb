@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "23.04.3"
 
-RPM_NAME = "kitinerary-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "844182a863bc2ddb9eb06df66cef1e634c83eb07fcda1eff522372e84eb89184777256fea55b1f3ac93a83e27befd8e3a60da1432682d1582081e748922e3127"
+RPM_NAME = "kitinerary-devel-23.04.3-1.2.aarch64.rpm"
+RPM_HASH = "1e51ec58a7920b8f8c4f874cc1f9e0c1b25befbea33216b6a892db8e9c7c9c85cef241155885a66dc4fefad9e31b8f702dde88e4ed57f4284dcc6af840c6da2a"
 
 RPROVIDES:${PN} += "cmake-KPim5Itinerary \
 cmake-KPimItinerary \

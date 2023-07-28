@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.9.3"
 
-RPM_NAME = "mlterm-common-3.9.3-1.1.aarch64.rpm"
-RPM_HASH = "bff1bab0f6e9c01a1c460b3ddf8893bee780da7bb7ea00f7891f3cfab00af318330289c8d791bda3d77c9c2d5104f707c46c3d798e3da5cd70e0f59d4e482e68"
+RPM_NAME = "mlterm-common-3.9.3-2.1.aarch64.rpm"
+RPM_HASH = "0ab13ead48933818228854904b24563b4b41e36e6237da12a96f80bc3b5af959867e5988d4c1dc1eacde9a3bd5b76275f73318165c29cc197c1ef02af07bfd96"
 
 RPROVIDES:${PN} += "libctl-bidi.so \
 libctl-iscii.so \

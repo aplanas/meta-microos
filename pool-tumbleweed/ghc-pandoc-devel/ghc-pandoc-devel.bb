@@ -4,10 +4,10 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.1.3"
 
-RPM_NAME = "ghc-pandoc-devel-3.1.3-1.5.aarch64.rpm"
-RPM_HASH = "59ab227c030fc3a79bf317f2a6a9434906de1e3db475abe2528441c5f8d30bd90b37de74a604ffe0bf873dd19fdae806a38f19b58ba24193387eca43fe656cb2"
+RPM_NAME = "ghc-pandoc-devel-3.1.3-2.1.aarch64.rpm"
+RPM_HASH = "475b76c1fca4b29841f97c56b69ef409f4dc34b797e0b5d330f24d60041ea8ce46ef5bf5dcd769896c4c09cae8477645ea7e9bb5a1ed6cd22aae05d7a81774ab"
 
-RPROVIDES:${PN} += "ghc-devel-pandoc-3.1.3-IvLrz4YIivMLuf8ZxaBxIb \
+RPROVIDES:${PN} += "ghc-devel-pandoc-3.1.3-ImQr97Zc2bP55LDbAec3vO \
 ghc-pandoc-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -26,10 +26,10 @@ ghc-devel-blaze-html-0.9.1.2-38lyFDueaN76YOL6QIMVAR \
 ghc-devel-blaze-markup-0.8.2.8-1rqnOPcdOmIw0iYwB3Kqc \
 ghc-devel-bytestring-0.11.4.0 \
 ghc-devel-case-insensitive-1.2.1.0-AumZoR4Lds63HJj8OQwHY3 \
-ghc-devel-citeproc-0.8.1-Ex3LMLw4y9Q5nAZv8bt8hk \
+ghc-devel-citeproc-0.8.1-IdWRS5bkx4mHz8SxZquXUQ \
 ghc-devel-commonmark-0.2.3-I1mjDgOYrWfJTVx5dvVv0G \
-ghc-devel-commonmark-extensions-0.2.3.4-lgOKfz42TuIWz23FZS91J \
-ghc-devel-commonmark-pandoc-0.2.1.3-HVNPkFgx18RJMldDwlSrf3 \
+ghc-devel-commonmark-extensions-0.2.3.5-GeNUJwJZ0WZ7BXjQ8SYvXo \
+ghc-devel-commonmark-pandoc-0.2.1.3-5icm69shxRz6xfjspkSdL7 \
 ghc-devel-connection-0.3.1-E1TQ2BFmXua7xK5tzqGZX7 \
 ghc-devel-containers-0.6.7 \
 ghc-devel-data-default-0.7.1.1-5iNQUD7GKkTDiLEyJaqXSy \
@@ -52,7 +52,7 @@ ghc-devel-mime-types-0.1.1.0-IrWGRRDe33Y1D55h7nh7fm \
 ghc-devel-mtl-2.2.2 \
 ghc-devel-network-3.1.4.0-FvtFepOtuCUH79FCWyNxIc \
 ghc-devel-network-uri-2.6.4.2-4kNQnaE9heqEL1mH8FE5xH \
-ghc-devel-pandoc-types-1.23-4C1nzwOnt973xRAA9sp531 \
+ghc-devel-pandoc-types-1.23.0.1-EcvZluXpPb0J10kJC4UfRg \
 ghc-devel-parsec-3.1.16.1 \
 ghc-devel-pretty-1.1.3.6 \
 ghc-devel-pretty-show-1.10-IA5YnfAP5DqIvEIFfcZVdd \
@@ -60,13 +60,13 @@ ghc-devel-process-1.6.16.0 \
 ghc-devel-random-1.2.1.1-I0wUgAAbf0g3qHR3e8uT0o \
 ghc-devel-safe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds \
 ghc-devel-scientific-0.3.7.0-D5F2vql7x79Dy9hx72OES1 \
-ghc-devel-skylighting-0.13.3-KhN5DzrcPQALN95CsO2kAp \
-ghc-devel-skylighting-core-0.13.3-9hBRKYwyArU4OdEqV8LbQv \
+ghc-devel-skylighting-0.13.4-5T99F0BkgIQGejRNYUpHqn \
+ghc-devel-skylighting-core-0.13.4-ILWFndoUOH7DzXIN7Ztglj \
 ghc-devel-split-0.2.3.5-u3oGLAiW7JJbxIffWSCWf \
 ghc-devel-syb-0.7.2.3-J0Qw7O8gTR0DSXObDhEt8i \
 ghc-devel-tagsoup-0.14.8-KqOLe3dJpuA4KsHZJW2cTn \
 ghc-devel-temporary-1.3-9rLWZg49Shk3gKExST32p \
-ghc-devel-texmath-0.12.8-2W1fkH7eNmw4E7l7odwRHx \
+ghc-devel-texmath-0.12.8-2ewx8lB0RHk1Ql4916ePbT \
 ghc-devel-text-2.0.2 \
 ghc-devel-text-conversions-0.3.1.1-CkkBRqT3R5g4PO0QywmUQS \
 ghc-devel-time-1.12.2 \

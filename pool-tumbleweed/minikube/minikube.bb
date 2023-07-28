@@ -4,10 +4,10 @@ runs a single-node Kubernetes cluster inside a VM on your machine for \
 users looking to try out Kubernetes or develop with it day-to-day."
 LICENSE = "Apache-2.0"
 
-PV = "1.30.1"
+PV = "1.31.0"
 
-RPM_NAME = "minikube-1.30.1-1.3.aarch64.rpm"
-RPM_HASH = "1842a2c4489fe773444386c1fa201b21bee9fb91e7bc974d135c91818d1d4fb1e7aa0d46f9f1bf0078eb01ec11699cd28acd8632b25448a7d9cc713217c67bd6"
+RPM_NAME = "minikube-1.31.0-1.1.aarch64.rpm"
+RPM_HASH = "9682014abd91f6cbb6c4ee52dba83f0dce5e70fcc42e390f0d811daccb3e61bd317bb7f7285c1782514c693424a5e11c570150ae614510617fe5efcb320cdb8b"
 
 RPROVIDES:${PN} += "minikube"
 

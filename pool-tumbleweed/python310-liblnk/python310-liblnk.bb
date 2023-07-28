@@ -2,10 +2,10 @@ SUMMARY = "Library and tools to access the Windows Shortcut File (LNK) format"
 DESCRIPTION = "liblnk is a library and tools to access Windows Shortcut File (LNK) format files."
 LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
-PV = "20230205"
+PV = "20230716"
 
-RPM_NAME = "python310-liblnk-20230205-1.8.aarch64.rpm"
-RPM_HASH = "c5291bc5c5fa230d1279ba8b8d5206b47f037ff994a17ef68545e138f276b7b9d2228aae109ef97cb8ee762510fc3200ceb453a6030d1fc4e5c6d9af6ffbd880"
+RPM_NAME = "python310-liblnk-20230716-1.1.aarch64.rpm"
+RPM_HASH = "b880d6e32a2fc15377888bd3a3287de27353531aeb7a08ff4dc18956f1aaec296625ce63d5b99d7ccbbe2dd1b9c226cb03451580de2546c7d4597b6d6a2489ed"
 
 RPROVIDES:${PN} += "python310-liblnk"
 
@@ -16,6 +16,7 @@ libcerror.so.1 \
 libclocale.so.1 \
 libfguid.so.1 \
 liblnk.so.1 \
+libuna.so.1 \
 python-abi"
 
 inherit rpm

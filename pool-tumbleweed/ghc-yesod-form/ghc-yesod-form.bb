@@ -8,11 +8,11 @@ LICENSE = "MIT"
 
 PV = "1.7.4"
 
-RPM_NAME = "ghc-yesod-form-1.7.4-1.9.aarch64.rpm"
-RPM_HASH = "d4c0cf364ba2858fab384fcfa78939df1e2e8bcfe22c5d0a8721942b98b0ce12e4e78a5bf026e0f07d10bcc61d687e2648b995078aba82bc5e51b38fed4cc3f9"
+RPM_NAME = "ghc-yesod-form-1.7.4-1.11.aarch64.rpm"
+RPM_HASH = "36f66d9ff3558fb0639c93d27f8fb04fadc87cac075ad155cb8fd5d21730a72c56e7f6fd992a539f8a1e2a69185c3aa9b07e55d49c94b372416c07a9f64a4a4e"
 
 RPROVIDES:${PN} += "ghc-yesod-form \
-libHSyesod-form-1.7.4-9SavUh7G36AKe86TvxSRtJ-ghc9.4.5.so"
+libHSyesod-form-1.7.4-A4NJLliFfnZ1tqLIO9QkD9-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSHUnit-1.6.2.0-iqxwhcxJRu7EJOd1Mnwmb-ghc9.4.5.so \
 libHSOneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV-ghc9.4.5.so \
@@ -51,8 +51,7 @@ libHSbytestring-0.11.4.0-ghc9.4.5.so \
 libHScall-stack-0.4.0-K9VxYWjBEvtITBfD6bL7Dk-ghc9.4.5.so \
 libHScase-insensitive-1.2.1.0-AumZoR4Lds63HJj8OQwHY3-ghc9.4.5.so \
 libHScereal-0.5.8.3-LNsxCTyOF85AKtb4iLTs8f-ghc9.4.5.so \
-libHScipher-aes-0.2.11-AUtsAMArdsjvHtn454bNK-ghc9.4.5.so \
-libHSclientsession-0.9.1.2-LlqL6bYAJ8NAeAYS4avg1k-ghc9.4.5.so \
+libHSclientsession-0.9.2.0-4cx1ifSXftyKQDB0RGxUDf-ghc9.4.5.so \
 libHScolour-2.3.6-7jQe2xj5Lsa5MbX38iH7Ln-ghc9.4.5.so \
 libHScomonad-5.0.8-9UnH7KDg5138z3eBCPM7y4-ghc9.4.5.so \
 libHSconduit-1.3.5-EjJ71P6EbmSGTrvJLquwgr-ghc9.4.5.so \
@@ -60,10 +59,7 @@ libHSconduit-extra-1.3.6-1ns4btxv78gDsSQyRueTL2-ghc9.4.5.so \
 libHScontainers-0.6.7-ghc9.4.5.so \
 libHScontravariant-1.5.5-K71YSUvfKnA5wfNaE05Lao-ghc9.4.5.so \
 libHScookie-0.4.6-Dg4BNZOQbFj7M1J2IgDFKE-ghc9.4.5.so \
-libHScprng-aes-0.6.1-57mLrS8iLhhDpycOALP7vk-ghc9.4.5.so \
 libHScrypto-api-0.13.3-9orTVpCmnZz79j7elcs5GE-ghc9.4.5.so \
-libHScrypto-cipher-types-0.0.9-9ncnLpjReeQDgkKFRi4kUz-ghc9.4.5.so \
-libHScrypto-random-0.0.9-60vlsiR41hHGmZ9VjOCRvw-ghc9.4.5.so \
 libHScryptonite-0.30-cxpuRFsDaEEZnBeTxvUaJ-ghc9.4.5.so \
 libHScss-text-0.1.3.0-21S5OjTqOp19taDQmfqmQs-ghc9.4.5.so \
 libHSdata-default-0.7.1.1-5iNQUD7GKkTDiLEyJaqXSy-ghc9.4.5.so \
@@ -126,7 +122,6 @@ libHSresource-pool-0.4.0.0-CALzen0PV047R0s78YnQuW-ghc9.4.5.so \
 libHSresourcet-1.2.6-69eF6Rrz9wX13sOJF59GPv-ghc9.4.5.so \
 libHSsafe-exceptions-0.1.7.4-8XVKrMBchTjCLhdcvBwBNb-ghc9.4.5.so \
 libHSscientific-0.3.7.0-D5F2vql7x79Dy9hx72OES1-ghc9.4.5.so \
-libHSsecuremem-0.1.10-14D6arGPELi9Mzd7V4Fyfu-ghc9.4.5.so \
 libHSsemialign-1.3-D9a6dNA89ZHcaXKxWN9Am-ghc9.4.5.so \
 libHSsemigroupoids-5.3.7-Ju2oK8NLhZKHdQ6h8GWNM1-ghc9.4.5.so \
 libHSsetenv-0.1.1.3-5NpDWBw9aN36gdxnY8UI9x-ghc9.4.5.so \
@@ -177,8 +172,8 @@ libHSwitherable-0.4.2-JTGjjCVsQ4I7ks3qsHWAEH-ghc9.4.5.so \
 libHSword8-0.1.3-9uGjviso2af8K0EP8UmxRD-ghc9.4.5.so \
 libHSx509-1.7.7-LWFKTxQvdZ8EaEcgjVF4la-ghc9.4.5.so \
 libHSxss-sanitize-0.3.7.2-FCgYumvpQn8Hd22tbbEcXW-ghc9.4.5.so \
-libHSyesod-core-1.6.24.2-7isfGP7hc9NLFaHQAgg8t-ghc9.4.5.so \
-libHSyesod-persistent-1.6.0.8-Jui070TDUWhEJxvpNjmjRf-ghc9.4.5.so \
+libHSyesod-core-1.6.24.3-FuwsWoOUEyTCufqnix4g5P-ghc9.4.5.so \
+libHSyesod-persistent-1.6.0.8-A587fdCgueU2UmsZUmFzaX-ghc9.4.5.so \
 libHSzlib-0.6.3.0-GaFaUl6t8QzEoHIQXsottk-ghc9.4.5.so \
 libc.so.6 \
 libgmp.so.10 \

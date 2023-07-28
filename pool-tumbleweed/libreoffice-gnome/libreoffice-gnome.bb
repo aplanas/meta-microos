@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
 PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-gnome-7.5.4.2-1.3.aarch64.rpm"
-RPM_HASH = "dfe4f75195c9812a16f51c6fe11cbb1a386ab5306df4bb91bebb433fc00ec862ed5719ba00f6c652a2c1b7aac9df396156ef98ed2daa7b4f9a494fc1596fd17e"
+RPM_NAME = "libreoffice-gnome-7.5.4.2-1.5.aarch64.rpm"
+RPM_HASH = "18fe1a8294cdf1a5e5dba1c23d286320cf4b76b621316db204c265ef54b017722c6b25e52f77ab5a461100d40fc31ea5d8cafd0cd5ea9bdaecc61b92151fa141"
 
 RPROVIDES:${PN} += "libevoablo.so \
 liblosessioninstalllo.so \

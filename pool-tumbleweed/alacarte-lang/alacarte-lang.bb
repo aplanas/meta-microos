@@ -2,10 +2,10 @@ SUMMARY = "Translations for package alacarte"
 DESCRIPTION = "Provides translations for the 'alacarte' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.44.2"
+PV = "3.44.3"
 
-RPM_NAME = "alacarte-lang-3.44.2-1.4.noarch.rpm"
-RPM_HASH = "11d5a61bc79bdc509b403d1e99c2199b1e17f456b761b4becd45623f603ae54d5bbcfce84f77e06f7fc0dc593cc6d27111bafae037bb9562379e0114044ccb65"
+RPM_NAME = "alacarte-lang-3.44.3-1.1.noarch.rpm"
+RPM_HASH = "48dc0bfe7de9fa1874d1dbe7e6580c1cc04ebfc09a2aa98476c176965646a9057dbab9fee36d0fafbaf69249f2db52c35608379bd34fc9e5dbd0a587b4205ec9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "alacarte-lang \

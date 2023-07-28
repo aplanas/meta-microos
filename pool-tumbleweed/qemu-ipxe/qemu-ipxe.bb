@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "1.0.0+"
 
-RPM_NAME = "qemu-ipxe-1.0.0+-2.1.noarch.rpm"
-RPM_HASH = "28ef4600bc976d2e15ab93082c8e6c36359543e10d5136a789985d19e64eb1ad7d51879738f555811b90c7af36a40bb8d317088821a00239dfca44a1262bc605"
+RPM_NAME = "qemu-ipxe-1.0.0+-1.1.noarch.rpm"
+RPM_HASH = "9958d0e60574771d91d07c65539f05add720283fcd78da3f086319358765ff6ea03ba262f8b28b681f939d1cbfc0902df22c1c7f6ef68d475b19ead0527d424d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-ipxe"

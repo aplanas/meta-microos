@@ -2,10 +2,10 @@ SUMMARY = "USB smartcard support for QEMU"
 DESCRIPTION = "This package contains a modules for USB smartcard support for QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.2"
+PV = "8.0.3"
 
-RPM_NAME = "qemu-hw-usb-smartcard-8.0.2-2.1.aarch64.rpm"
-RPM_HASH = "57cb027e55f8e184829349bb2e8c03eac50c14e382c4dc1e469d142487d3d05a8da87fd16e0fceebb4a786b02fc201e21309f9b6032b6d5529b595ce30f8b34d"
+RPM_NAME = "qemu-hw-usb-smartcard-8.0.3-1.1.aarch64.rpm"
+RPM_HASH = "0c384c9afacc7c56af31f83979d78a37e494ae569cdacc8d51d60f4bd2b04da77885fefc96fa6f42d33576590402198ed3611cbc9e446270c952c7c5cfb01107"
 
 RPROVIDES:${PN} += "qemu-hw-usb-smartcard"
 

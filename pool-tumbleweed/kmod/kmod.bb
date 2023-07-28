@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "30"
 
-RPM_NAME = "kmod-30-5.1.aarch64.rpm"
-RPM_HASH = "630170a0de6c4159daed0a6467089005cb7d46e03dc7a9eb2ad453b8d564a95c5ebbb2ce62f157b6f290fd0ef428e1fc4debbb41f9ca3ffeabd97d4986eae44f"
+RPM_NAME = "kmod-30-6.1.aarch64.rpm"
+RPM_HASH = "afff48a0dee676f4163fb45ec136d855b25ccb46e87201c687e00cc55607d36a747a7a5ea0a2a9a49a4cd40f741954d1ca1eedec2dc0dae43c95079e755f399b"
 
 RPROVIDES:${PN} += "/sbin/modprobe \
 kmod \

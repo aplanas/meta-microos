@@ -4,10 +4,10 @@ DESCRIPTION = "MinIO Client is a replacement for ls, cp, mkdir, diff and rsync c
 Please note: In contrast to upstream this package provides the executable as `minio-client`."
 LICENSE = "AGPL-3.0-only"
 
-PV = "20230711T233044Z"
+PV = "20230718T210538Z"
 
-RPM_NAME = "minio-client-20230711T233044Z-1.1.aarch64.rpm"
-RPM_HASH = "24ab8997f2b3110f43e8306b01df5ab48fd31918eb3e6aed72aac87df0e96292e234b79bc5d13eb527353a1d3387981c943a451960e903d5c42c58465ed7c927"
+RPM_NAME = "minio-client-20230718T210538Z-1.1.aarch64.rpm"
+RPM_HASH = "02901b8673a84ca799e2ec3c617deb1e47884564c4ab07c8e1093fba3d24af2012b2c4bfd47496ce39ebabd6752ffdbad29d418105a2dba706dd372c95f5a9ee"
 
 RPROVIDES:${PN} += "minio-client"
 

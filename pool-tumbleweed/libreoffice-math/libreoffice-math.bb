@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
 PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-math-7.5.4.2-1.3.aarch64.rpm"
-RPM_HASH = "9bd28de2f5f1df2abb0eb9cb605b51180ab695b8d7561fb80c1bba186e9ce626b04fb1ef8b01e408c6658d63a46a280fae3150e8192f125c5b07b2be9ade5a2d"
+RPM_NAME = "libreoffice-math-7.5.4.2-1.5.aarch64.rpm"
+RPM_HASH = "5bbe55c83e1e9dc73a96e9f82e928a081fa785d7661dacdbdda78c7eab9d4baab9869e7330b85e15d08457205afef89de125ed119bca3af4ea93e143ab502229"
 
 RPROVIDES:${PN} += "libreoffice-math \
 libsmdlo.so \

@@ -7,10 +7,10 @@ This package contains the Iosevka SS15 typeface (monospace, IBM Plex Mono \
 style)."
 LICENSE = "OFL-1.1"
 
-PV = "24.1.4"
+PV = "25.0.1"
 
-RPM_NAME = "iosevka-ss15-fonts-24.1.4-1.1.noarch.rpm"
-RPM_HASH = "f48dd2c76539c032511a335ff25c9270c4afacd32d7cffa9d1516632f75df0002f3710afbc1c6f70979ccd2e04d0f74d16db559653cfe7ce94bd19ad71140912"
+RPM_NAME = "iosevka-ss15-fonts-25.0.1-1.1.noarch.rpm"
+RPM_HASH = "f9c3844e9b2bcc28a9006f4b9b055c8654335fef6b418b161a0a415bb1dbb990cdbf30e7fd64f103aa99f197534f9fd9b81ccd604dd5d4a3f6772ba2e2b2f2fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-ss15-fonts"

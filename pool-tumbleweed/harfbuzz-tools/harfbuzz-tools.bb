@@ -3,10 +3,10 @@ DESCRIPTION = "HarfBuzz is an OpenType text shaping engine. \
 This package provides a set of tools for HarfBuzz."
 LICENSE = "MIT"
 
-PV = "7.3.0"
+PV = "8.0.1"
 
-RPM_NAME = "harfbuzz-tools-7.3.0-1.2.aarch64.rpm"
-RPM_HASH = "03c763868cca36bfd968fdc76f995796e6bc4400f8e45fd7fa33735da78d34323908b34f89093f8c7ec331e58aed98918d520467eac253c408e2b45392640392"
+RPM_NAME = "harfbuzz-tools-8.0.1-1.1.aarch64.rpm"
+RPM_HASH = "7ecd1f79edce2b9192af86e003f6bf8c8e57a58570d243da241e672e634502b936fc2defa3be0b57091eeb53cc208f9d5c3be972efa935a77e9d4bd5df25e1f0"
 
 RPROVIDES:${PN} += "harfbuzz-tools"
 

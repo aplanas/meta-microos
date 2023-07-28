@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.9.3"
 
-RPM_NAME = "mlterm-scim-3.9.3-1.1.aarch64.rpm"
-RPM_HASH = "9a6d2f517659cacfd01276d7d792d2caacf2fdb16aefda2290988b438c3d86d65df86a6121898bdefb1e344821cfd1b9dc61e33c5c4c7d5fe7b195c0ca0aa3ba"
+RPM_NAME = "mlterm-scim-3.9.3-2.1.aarch64.rpm"
+RPM_HASH = "4e2957246396bc4bec69fdbda3010fdb548f712dc90a2c43aa10618701b14e0a117b9fd1bdd42342ca67e1dc58eda212ce4cb7a52c643a008b9df32f473817fa"
 
 RPROVIDES:${PN} += "libim-scim.so \
 locale-scim-ja;ko;ar;he \

@@ -3,14 +3,14 @@ DESCRIPTION = "Icinga 2 IDO mysql database backend. Compatible with Icinga 1.x \
 IDOUtils schema >= 1.12"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.13.7"
+PV = "2.13.8"
 
-RPM_NAME = "icinga2-ido-mysql-2.13.7-1.5.aarch64.rpm"
-RPM_HASH = "744086d3e4745903067a53a730ee5245d30e31e5e50c3b493e57ede746818d0bde916c62fcf4789532c0dd61484ccea66f359e5aaa5fed65ce66fef9c1e4867b"
+RPM_NAME = "icinga2-ido-mysql-2.13.8-1.1.aarch64.rpm"
+RPM_HASH = "447227712a8e25431f799a2ccb7a36a3f374d0cff635a9e403a19768279170a3e9ddf4c8feead5cc57dc882b1a0c59964f1d6fea584720df9fe2d330db09d984"
 
 RPROVIDES:${PN} += "config-icinga2-ido-mysql \
 icinga2-ido-mysql \
-libmysql-shim.so.2.13.7"
+libmysql-shim.so.2.13.8"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 icinga2-bin \

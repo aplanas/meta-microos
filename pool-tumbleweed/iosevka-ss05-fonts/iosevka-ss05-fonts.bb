@@ -6,10 +6,10 @@ preparing technical documents. \
 This package contains the Iosevka SS05 typeface (monospace, Fira Mono style)."
 LICENSE = "OFL-1.1"
 
-PV = "24.1.4"
+PV = "25.0.1"
 
-RPM_NAME = "iosevka-ss05-fonts-24.1.4-1.1.noarch.rpm"
-RPM_HASH = "e8f22e5f0f4ef41e22d82de1e128c75e74fbbd5c255ea47d76675989367420db2412705e063ed263a4683406f88b17d48ed54951b6353d2af52c31deffaa9e2a"
+RPM_NAME = "iosevka-ss05-fonts-25.0.1-1.1.noarch.rpm"
+RPM_HASH = "57f0265f524d39b5b298bb05b321b5a9395386f071351c2e166506dd77a2ce27f40b8e3d985009c6fd7dbf9b14eb21adabb98395cd69f23a38594764c86ed3ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-ss05-fonts"

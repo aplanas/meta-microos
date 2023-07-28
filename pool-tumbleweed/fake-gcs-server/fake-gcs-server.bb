@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.45.2"
 
-RPM_NAME = "fake-gcs-server-1.45.2-1.1.aarch64.rpm"
-RPM_HASH = "83ffedce8cf0ac06468beafbb4a9e6ffea1a3d163ce8f29a39385bac7ed88edae7a607c6718007459599f6f4c96d472c97d39216a48e793e866b39106d0e308b"
+RPM_NAME = "fake-gcs-server-1.45.2-2.1.aarch64.rpm"
+RPM_HASH = "cf9a05ef695640946862d265ef0067fc579aabd3b4976246a2e45bfaf3d6140e64509df4aa5914e0d68d98b7eac33f537c561338d4f68d7fb1f3cc720c7b4216"
 
 RPROVIDES:${PN} += "fake-gcs-server"
 

@@ -2,13 +2,13 @@ SUMMARY = "Haskell commonmark-extensions profiling library"
 DESCRIPTION = "This package provides the Haskell commonmark-extensions profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.3.4"
+PV = "0.2.3.5"
 
-RPM_NAME = "ghc-commonmark-extensions-prof-0.2.3.4-1.7.aarch64.rpm"
-RPM_HASH = "71d75b6e539e7162819b4287716aa88b978286a2fc5b4cce3d38d85c7e7ba49f6ec7318a603116eb8b403128bebbfc59bdad4c46ad81f33d21c36b1855926ba5"
+RPM_NAME = "ghc-commonmark-extensions-prof-0.2.3.5-1.1.aarch64.rpm"
+RPM_HASH = "0d09b7cf335fbe6ff005c986d3df0f957d9282c30891bb692d2a5bd4e9d38de41e0f9509202ff097e7edb6787d54df54f0f975e3075e79e8c4250b37b59c12d2"
 
 RPROVIDES:${PN} += "ghc-commonmark-extensions-prof \
-ghc-prof-commonmark-extensions-0.2.3.4-lgOKfz42TuIWz23FZS91J"
+ghc-prof-commonmark-extensions-0.2.3.5-GeNUJwJZ0WZ7BXjQ8SYvXo"
 
 RDEPENDS:${PN} += "ghc-commonmark-extensions-devel \
 ghc-prof-base-4.17.1.0 \

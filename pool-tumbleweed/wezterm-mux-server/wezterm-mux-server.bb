@@ -2,10 +2,10 @@ SUMMARY = "Multiplexer server for wezterm"
 DESCRIPTION = "Multiplexer server for wezterm for running on a headless system."
 LICENSE = "(Apache-2.0 | MIT) & BSD-3-Clause & (0BSD | MIT | Apache-2.0) & (Apache-2.0 | BSL-1.0) & (Apache-2.0 | BSL-1.0 | MIT) & (Apache-2.0 | MIT) & (Apache-2.0 | MIT) & (Apache-2.0 | MIT | BSD-2-Clause) & (Apache-2.0 | MIT | Zlib) & (Apache-2.0 | MIT | Zlib) & (MIT | Unlicense) & (Apache-2.0 | Zlib | MIT) & Apache-2.0 & BSD-2-Clause & BSD-3-Clause & CC0-1.0 & ISC & LGPL-2.1-only & MIT & MPL-2.0 & WTFPL & Zlib & MIT"
 
-PV = "20230408.112425.69ae8472"
+PV = "20230712.072601.f4abf8fd"
 
-RPM_NAME = "wezterm-mux-server-20230408.112425.69ae8472-2.1.aarch64.rpm"
-RPM_HASH = "e0b5c153e113bc81ef286a23ef7c0e10ba2c8d9fd5803d806f83f2b69f7629c4c8bc1551003bdbe54f1aa4da131a1308aed8ec32433ade91912fdfbe01b7aa98"
+RPM_NAME = "wezterm-mux-server-20230712.072601.f4abf8fd-1.1.aarch64.rpm"
+RPM_HASH = "f05aa5426fdde3d37ca370cc2ec681909f801e1d7da97f6a24e6c125cb6b86d690d6abc3cb882e6bedb9641c1899912653843a78c0b371ef078bb6a4109ca168"
 
 RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
 bundled-rust-crate-adler \
@@ -79,6 +79,7 @@ bundled-rust-crate-either \
 bundled-rust-crate-enum-display-derive \
 bundled-rust-crate-env-bootstrap \
 bundled-rust-crate-env-logger \
+bundled-rust-crate-equivalent \
 bundled-rust-crate-euclid \
 bundled-rust-crate-event-listener \
 bundled-rust-crate-exr \
@@ -106,6 +107,7 @@ bundled-rust-crate-futures-lite \
 bundled-rust-crate-futures-macro \
 bundled-rust-crate-futures-sink \
 bundled-rust-crate-futures-task \
+bundled-rust-crate-futures-timer \
 bundled-rust-crate-futures-util \
 bundled-rust-crate-generic-array \
 bundled-rust-crate-gethostname \
@@ -113,6 +115,7 @@ bundled-rust-crate-getrandom \
 bundled-rust-crate-gif \
 bundled-rust-crate-gimli \
 bundled-rust-crate-git2 \
+bundled-rust-crate-governor \
 bundled-rust-crate-half \
 bundled-rust-crate-hashbrown \
 bundled-rust-crate-heck \
@@ -171,7 +174,9 @@ bundled-rust-crate-mux-lua \
 bundled-rust-crate-names \
 bundled-rust-crate-nanorand \
 bundled-rust-crate-nix \
+bundled-rust-crate-no-std-compat \
 bundled-rust-crate-nom \
+bundled-rust-crate-nonzero-ext \
 bundled-rust-crate-notify \
 bundled-rust-crate-num \
 bundled-rust-crate-num-bigint \
@@ -226,6 +231,7 @@ bundled-rust-crate-rand \
 bundled-rust-crate-rand-chacha \
 bundled-rust-crate-rand-core \
 bundled-rust-crate-rangeset \
+bundled-rust-crate-ratelim \
 bundled-rust-crate-rayon \
 bundled-rust-crate-rayon-core \
 bundled-rust-crate-rcgen \
@@ -315,6 +321,7 @@ bundled-rust-crate-walkdir \
 bundled-rust-crate-weezl \
 bundled-rust-crate-wezterm-bidi \
 bundled-rust-crate-wezterm-blob-leases \
+bundled-rust-crate-wezterm-client \
 bundled-rust-crate-wezterm-color-types \
 bundled-rust-crate-wezterm-config-derive \
 bundled-rust-crate-wezterm-dynamic \
@@ -326,6 +333,7 @@ bundled-rust-crate-wezterm-mux-server-impl \
 bundled-rust-crate-wezterm-open-url \
 bundled-rust-crate-wezterm-ssh \
 bundled-rust-crate-wezterm-term \
+bundled-rust-crate-wezterm-version \
 bundled-rust-crate-winapi \
 bundled-rust-crate-winnow \
 bundled-rust-crate-yasna \

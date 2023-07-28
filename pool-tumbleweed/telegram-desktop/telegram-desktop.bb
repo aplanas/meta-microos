@@ -6,27 +6,23 @@ always immediately published, whereas its server-side code is closed-source and 
 The service also provides APIs to independent developers."
 LICENSE = "GPL-3.0-only"
 
-PV = "4.8.1"
+PV = "4.8.4"
 
-RPM_NAME = "telegram-desktop-4.8.1-1.3.aarch64.rpm"
-RPM_HASH = "3e3ac810191852fdcc0940fb5bf3bb1a2d8b74be77d92fa1531e16afa71bab8b5e33b103a676a65ec09fb854c33e35c73dcc89efae1643d714bd66409b8bcda7"
+RPM_NAME = "telegram-desktop-4.8.4-1.1.aarch64.rpm"
+RPM_HASH = "30172bed48eb11b8d468fb510f31db8012a0f9e89ca04c817c4a51bcd38e4cf6e2c483d6476d0058057d00335b3f892ef6cbd30526f4e151d4adeda87c396730"
 
 RPROVIDES:${PN} += "telegram-desktop"
 
 RDEPENDS:${PN} += "hicolor-icon-theme \
 icu \
+ld-linux-aarch64.so.1 \
 libQt6Core.so.6 \
-libQt6Core5Compat.so.6 \
 libQt6DBus.so.6 \
 libQt6Gui.so.6 \
 libQt6Network.so.6 \
 libQt6OpenGL.so.6 \
 libQt6OpenGLWidgets.so.6 \
-libQt6Qml.so.6 \
-libQt6Quick.so.6 \
-libQt6QuickWidgets.so.6 \
 libQt6Svg.so.6 \
-libQt6WaylandCompositor.so.6 \
 libQt6Widgets.so.6 \
 libX11.so.6 \
 libXcomposite.so.1 \
@@ -40,7 +36,7 @@ libavfilter.so.9 \
 libavformat.so.60 \
 libavutil.so.58 \
 libc.so.6 \
-libcrypto.so.3 \
+libcrypto.so.1.1 \
 libgcc-s.so.1 \
 libgio-2.0.so.0 \
 libgiomm-2.68.so.1 \
@@ -55,15 +51,14 @@ libm.so.6 \
 libminizip.so.1 \
 libopenal.so.1 \
 libopus.so.0 \
-libprotobuf-lite-3.21.12.so \
+libprotobuf-lite.so.23.4.0 \
 librnnoise.so.0 \
 libsigc-3.0.so.0 \
-libssl.so.3 \
+libssl.so.1.1 \
 libstdc++.so.6 \
 libswresample.so.4 \
 libswscale.so.7 \
 libvpx.so.8 \
-libwayland-client.so.0 \
 libxcb-keysyms.so.1 \
 libxcb-record.so.0 \
 libxcb-screensaver.so.0 \

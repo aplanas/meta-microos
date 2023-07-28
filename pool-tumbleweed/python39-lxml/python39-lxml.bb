@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
 PV = "4.9.2"
 
-RPM_NAME = "python39-lxml-4.9.2-7.3.aarch64.rpm"
-RPM_HASH = "2f16de399b800eba0ff5901da1819147a04c0df1bc6549fa782e46662d2116d729d37b92153bfdf7157b5672e6840091350154e2fd57bcbc24bd6489dc0fe805"
+RPM_NAME = "python39-lxml-4.9.2-8.1.aarch64.rpm"
+RPM_HASH = "822334ea1bff2be6aeba60b439b12c70be6b2d47c12735e870db74c697f7608b1a062dc2a1ac7973643da46afa25b55306f1b1b0b7ace72018da56a6d2314fe7"
 
 RPROVIDES:${PN} += "python3.9dist-lxml \
 python39-lxml \

@@ -7,10 +7,12 @@ LICENSE = "MPL-2.0"
 
 PV = "3.12.0"
 
-RPM_NAME = "erlang-rabbitmq-client-3.12.0-1.2.aarch64.rpm"
-RPM_HASH = "e3ace988c49be313d6ff00d7606275aa900ea888420d8518ea0720aaf75552f1e83e2e9acb29d56c32345aa8e5c00c3154596e642a855453cf13a937a858cf5b"
+RPM_NAME = "erlang-rabbitmq-client-3.12.0-2.1.aarch64.rpm"
+RPM_HASH = "02d45914aec063d4e5896913d1b5a7a7c7644a25ba843963e705f1dae5bdf1f926a427b023b4ee0214f894c55e494085218449631893d825a98cfea2815eb33a"
 
-RPROVIDES:${PN} += "erlang-gen-server2 \
+RPROVIDES:${PN} += "erlang-amqp-client \
+erlang-gen-server2 \
+erlang-rabbit-common \
 erlang-rabbitmq-client"
 
 RDEPENDS:${PN} += "erlang"

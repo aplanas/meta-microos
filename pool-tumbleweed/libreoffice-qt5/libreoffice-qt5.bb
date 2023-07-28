@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
 PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-qt5-7.5.4.2-1.3.aarch64.rpm"
-RPM_HASH = "c05694d51f06cdb4432c4f1cb7f1a570ae309a5e9a811700acbcb7d068c682be11e8cbba8ad5d84c4a4f910915b4b1a409c373667a961607ceb9ff8f2b09ac01"
+RPM_NAME = "libreoffice-qt5-7.5.4.2-1.5.aarch64.rpm"
+RPM_HASH = "1275f99a4706473de3d71484ed64764e7247e70d3693e7cd0aad6d421546c9e66552a3ae46d2cd7f2f260876720e9243993e953dc4555f31f92a775885467733"
 
 RPROVIDES:${PN} += "libkf5be1lo.so \
 libreoffice-kde4 \

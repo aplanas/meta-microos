@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.1.1"
 
-RPM_NAME = "python3-openbabel-3.1.1-1.5.aarch64.rpm"
-RPM_HASH = "f620ec94dd31ec02be7329049821be3163f03c6ffa7b65a4a25c090e64ce97e0403aec9cbc2e75f44c19b34fe010b7e0416fb18ec1d81f4f09ee484c44b76551"
+RPM_NAME = "python3-openbabel-3.1.1-2.1.aarch64.rpm"
+RPM_HASH = "f69737471e2437fd5076b3df5e793d440db08092c40171c4e9f2bfdfe6acab724d921dd60e0559920bd4201aa8868824d6d8e44d96cda8c25ff3a53507c0164e"
 
 RPROVIDES:${PN} += "python3-openbabel"
 

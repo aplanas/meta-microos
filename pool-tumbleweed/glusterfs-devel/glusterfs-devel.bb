@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only | LGPL-3.0-or-later"
 
 PV = "11.0"
 
-RPM_NAME = "glusterfs-devel-11.0-3.1.aarch64.rpm"
-RPM_HASH = "30f72cfb7f4e917dec427e3ac47646de45b68874ac247eaf5177c31a45213f84342f3979d0e4e0143746e55dca00b24033fb6d93ea8d2fb28d6b4eb36dd4bb9a"
+RPM_NAME = "glusterfs-devel-11.0-4.1.aarch64.rpm"
+RPM_HASH = "ae21af7f6de6239d56fe5a17c05e519616ee14bac3e56eff0535f8512110b7b6bf337443cf3e63e09e421636cd77c57efd4df3d6b07648e56203c35c57a4fa00"
 
 RPROVIDES:${PN} += "glusterfs-devel \
 pkgconfig-glusterfs-api \

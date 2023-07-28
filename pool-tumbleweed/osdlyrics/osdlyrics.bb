@@ -6,10 +6,10 @@ lyrics scroll from bottom to top. OSD Lyrics can download lyrics from the \
 network automatically."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.5.13"
+PV = "0.5.14"
 
-RPM_NAME = "osdlyrics-0.5.13-1.4.aarch64.rpm"
-RPM_HASH = "2c54fade9105598047b3b36149107be68e037fc0a2a711b4f9ba3f995526a35a9093a373c3b634055907d032800606cfb2acb5255538c65422cc9b5ed15f018a"
+RPM_NAME = "osdlyrics-0.5.14-1.1.aarch64.rpm"
+RPM_HASH = "e7ff6098df22e38b6cf072b72bbdb5615a2cae2189aec7796c63fbe6343a600d01de45203b6af0f934facf76e3a3581ec7d0fe5fc9b269390bf9db55e4cbe01d"
 
 RPROVIDES:${PN} += "osdlyrics"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "Simple glyph viewer \
 This tool is part of the FreeType project"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.13.0"
+PV = "2.13.1"
 
-RPM_NAME = "ftview-2.13.0-4.2.aarch64.rpm"
-RPM_HASH = "eed62e87270fcea130e50b10ad5cd673b1efcc8cfd3ccdf5e74f17ada1080f0a3874ad17d815fa11890573781a9fa119ba9e2fe52239152bb59503cae9c91eec"
+RPM_NAME = "ftview-2.13.1-1.1.aarch64.rpm"
+RPM_HASH = "526779372ca1831375e29f265688f07f65858965d2d522819e5fad75e87f0ea0bd0e553941d4a49b5b54fb7e9eb1db8a6721bf0b58a669b0ecd9d6cfe189c477"
 
 RPROVIDES:${PN} += "ftview"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.9.3"
 
-RPM_NAME = "mlterm-uim-3.9.3-1.1.aarch64.rpm"
-RPM_HASH = "4f7c7b970987b75fe4945a914db54e5a5ab5eae4205ce085114369c7bc50c56b877bd7a590acbc671fd2fa360977c0547f4ac0ed3bd4f78ea3bd56375e926c76"
+RPM_NAME = "mlterm-uim-3.9.3-2.1.aarch64.rpm"
+RPM_HASH = "b47170488e83727eb3ff618c63b4095c171d881333decd240012b2fe0ec7cf238e7f855689bed86dff2f96f5238c35a40b57dab229fcc1862e88f3bf1165070b"
 
 RPROVIDES:${PN} += "libim-uim-sdl2.so \
 libim-uim-wl.so \

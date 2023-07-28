@@ -2,10 +2,10 @@ SUMMARY = "QXL display support for QEMU"
 DESCRIPTION = "This package contains a module for QXL display support for QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.2"
+PV = "8.0.3"
 
-RPM_NAME = "qemu-hw-display-qxl-8.0.2-2.1.aarch64.rpm"
-RPM_HASH = "5b504a137d0044f82abe75316b72db093fdb541b1fb4d75692cc00d3e7dd1fa3a43274f72f09ba35c4887f5201b9c8fc23eefbad1e9331ed76f568c0716ce982"
+RPM_NAME = "qemu-hw-display-qxl-8.0.3-1.1.aarch64.rpm"
+RPM_HASH = "7c89997898ef5b06efd3ba6151dd93b4f48e84ed2e87a7718279255e3b0544ece5f8e814dc520da253c5e06be8b8daeadc3e68cd2c2a5968ce08e4c2521f852e"
 
 RPROVIDES:${PN} += "qemu-hw-display-qxl"
 

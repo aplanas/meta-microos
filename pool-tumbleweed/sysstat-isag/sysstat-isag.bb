@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "12.6.2"
 
-RPM_NAME = "sysstat-isag-12.6.2-2.1.aarch64.rpm"
-RPM_HASH = "40eda3b7f5f386a1fa17b3b3b9d43e5a6009ad4de5cca31ff09f996ad860d1ed75691827dd55fea6d6c4c98db70c47b90b1f1b4e64001c94587b83fdd67c2264"
+RPM_NAME = "sysstat-isag-12.6.2-3.1.aarch64.rpm"
+RPM_HASH = "222a77ec804741089de3c6a70622317b4d6ac116a0c64bdb110649d818d20c3dff3467ec8452f236196ddc3c8361580560b24132001013a2ab5f5e387490f5e1"
 
 RPROVIDES:${PN} += "sysstat-isag"
 

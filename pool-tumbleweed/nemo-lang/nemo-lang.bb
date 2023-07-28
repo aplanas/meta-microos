@@ -2,10 +2,10 @@ SUMMARY = "Translations for package nemo"
 DESCRIPTION = "Provides translations for the 'nemo' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.8.0"
+PV = "5.8.2"
 
-RPM_NAME = "nemo-lang-5.8.0-1.1.noarch.rpm"
-RPM_HASH = "106c4192fefc6c7a0b27669f7ec7a30df26148d374cfc718adc2060c08bb44a0f2ef970e4baab737c398fbf00cf9b74c57df6077aae6cbc8cb044c0a864e15cd"
+RPM_NAME = "nemo-lang-5.8.2-1.1.noarch.rpm"
+RPM_HASH = "330e68dc87671c2854789dc92814ca4dc604a7e6a949a4595b89354b8123e71863fe3ae6515c04791cc51c70b6384668c98bab03f1e0c47e5949eccfb1add2db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-nemo-af \

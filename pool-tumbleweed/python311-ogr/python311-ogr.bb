@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.45.0"
 
-RPM_NAME = "python311-ogr-0.45.0-1.1.noarch.rpm"
-RPM_HASH = "fce3f6fe89fd0b879837003d937b88053000191c94e472341e59f960cbeb059c640c46a3f076824e0677c2c5c38d4f78f5d5a0aea50936b7d25de74be07f1cc4"
+RPM_NAME = "python311-ogr-0.45.0-2.1.noarch.rpm"
+RPM_HASH = "bec939b3ac596dd0a80b93ce8d25bc7a443b77e1c7103f6e1f5691e5b14d6c85bdc07f48eb038b9478e0c1f1c94d7a1a2a85695304dae585826caca0ea42dbfc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ogr \

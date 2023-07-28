@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "1.6.1.0"
 
-RPM_NAME = "ghc-yesod-static-devel-1.6.1.0-4.8.aarch64.rpm"
-RPM_HASH = "76886af6a0aa4f4fae3e234c1c5627e06b5099c9faf43f8b5c7c9276af650210f9c824c97d02fec18a953c714b936630ef26d3d9348ef64c26bb19f0e88666a6"
+RPM_NAME = "ghc-yesod-static-devel-1.6.1.0-4.10.aarch64.rpm"
+RPM_HASH = "3bab561c21b52cf5f397ed82627fbd2442bc737658fbd1ee9a9ecdff628bf7a488b801cb66f23262c27796ce3fda42f9f0005dfadbe41395e6ccab40f942d576"
 
-RPROVIDES:${PN} += "ghc-devel-yesod-static-1.6.1.0-7sOCu9e43JeQSJul3Untm \
+RPROVIDES:${PN} += "ghc-devel-yesod-static-1.6.1.0-KMUnFH476ObEVlTwTWx9Ty \
 ghc-yesod-static-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -40,7 +40,7 @@ ghc-devel-unix-compat-0.6-79KxxZMmklx25hsmeEnenN \
 ghc-devel-unordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E \
 ghc-devel-wai-3.2.3-B6oJGZed88IFIvDpwN5I7x \
 ghc-devel-wai-app-static-3.1.7.4-AZD11N92jseJEftpoR1SbX \
-ghc-devel-yesod-core-1.6.24.2-7isfGP7hc9NLFaHQAgg8t \
+ghc-devel-yesod-core-1.6.24.3-FuwsWoOUEyTCufqnix4g5P \
 ghc-yesod-static"
 
 inherit rpm

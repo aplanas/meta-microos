@@ -10,8 +10,8 @@ LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
 PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-filters-optional-7.5.4.2-1.3.aarch64.rpm"
-RPM_HASH = "e4eb0ec98e87236b6ac24ebb11fe82750ca8eec4907f34f44ef1ace50cb93904ad8d8b07694609c5c13cea5c06c89cd464c508233263c2e5963f63ce59227753"
+RPM_NAME = "libreoffice-filters-optional-7.5.4.2-1.5.aarch64.rpm"
+RPM_HASH = "f5777a59d512542cec6aa3f5354e9ea86b9657bbaa4e872ff4f7c2239e1b410ec8e2762a78bd1338bd9d1a6e02e46f53bd111d1e39084ea89dac59d7c6bdf5ba"
 
 RPROVIDES:${PN} += "libreoffice-filters-optional"
 

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.8.6"
 
-RPM_NAME = "arm-trusted-firmware-2.8.6-1.2.aarch64.rpm"
-RPM_HASH = "9f51eab0a6c66763381b57a1aad0b4e8d6748c542a79ebbd549a39fee6adab85466fa04e5cfda2757f893de572e6c4305c6da23bbd45f6188dc1da603d7b6ced"
+RPM_NAME = "arm-trusted-firmware-2.8.6-1.3.aarch64.rpm"
+RPM_HASH = "c970e9961a72ccb1378e346a69f56cfa77f225dee13f51fd36704320906f0a77470b8d251701773b6243f039ae1e03eaf9c620f9062d9d09109e10d18669f4db"
 
 RPROVIDES:${PN} += "arm-trusted-firmware"
 

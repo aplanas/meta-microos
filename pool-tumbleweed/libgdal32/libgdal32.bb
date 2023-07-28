@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & MIT & SUSE-Public-Domain"
 
 PV = "3.6.3"
 
-RPM_NAME = "libgdal32-3.6.3-2.4.aarch64.rpm"
-RPM_HASH = "589273a284e027e47f1b620ca9fcf09fa9bd983f3aa2946848a2ba29dccc71235427bbdbdfd78e77f04a962be921ec1bfbe3cde39737e1b4fb2227134a98f31a"
+RPM_NAME = "libgdal32-3.6.3-2.6.aarch64.rpm"
+RPM_HASH = "216046b63e22ef13ad538a12a105251e769434bad2580b499a559ac31815f985b6c78bc4401aa8219d7e5227a3abf0c4f3b13be43a49f197751649b426c2f83b"
 
 RPROVIDES:${PN} += "libgdal.so.32 \
 libgdal32"
@@ -20,7 +20,7 @@ libOpenEXR-3-1.so.30 \
 libarmadillo.so.12 \
 libc.so.6 \
 libcrypto.so.3 \
-libcryptopp.so.8.7.0 \
+libcryptopp.so.8.8.0 \
 libcurl.so.4 \
 libdeflate.so.0 \
 libexpat.so.1 \
@@ -44,7 +44,7 @@ libodbcinst.so.2 \
 libopenjp2.so.7 \
 libpcre2-8.so.0 \
 libpng16.so.16 \
-libpoppler.so.129 \
+libpoppler.so.130 \
 libpq.so.5 \
 libproj.so.25 \
 libspatialite.so.7 \

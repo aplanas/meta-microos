@@ -3,10 +3,10 @@ DESCRIPTION = "The libzimg-devel package contains libraries and header files for
 developing applications that use libzimg2."
 LICENSE = "WTFPL"
 
-PV = "3.0.4"
+PV = "3.0.5"
 
-RPM_NAME = "zimg-devel-3.0.4-1.6.aarch64.rpm"
-RPM_HASH = "aaf531235a535c04395bc59cb662b160afd88eb93e571949656789ab6d35874f8ef33bdaeec61e4a2a3ab879a22f86db2a33e77ed66f2a45f87c5e091855595d"
+RPM_NAME = "zimg-devel-3.0.5-1.1.aarch64.rpm"
+RPM_HASH = "41157a51dc9d9c2ffeaeaa4fb5a95bfa2c70fe2397cf1097e27ca351b5d64de5b0d75fb2e78ccfa8bd9b7397bf6b93cdfc52defde78b9e92d5f58a585ad7e9d0"
 
 RPROVIDES:${PN} += "pkgconfig-zimg \
 zimg-devel"

@@ -3,10 +3,10 @@ DESCRIPTION = "Cross-platform implementation of the Language Server Protocol pro
 The server may be used with any editor that implements the Language Server Protocol."
 LICENSE = "( 0BSD | MIT | Apache-2.0 ) & ( Apache-2.0 | BSL-1.0 ) & ( Apache-2.0 | MIT ) & ( Apache-2.0 | Apache-2.0 | MIT ) & ( CC0-1.0 | Artistic-2.0 ) & ( MIT | Apache-2.0 | Zlib ) & ( MIT | Zlib | Apache-2.0 ) & ( Unlicense | MIT ) & ( Zlib | Apache-2.0 | MIT ) & Apache-2.0 & BSD-3-Clause & GPL-3.0 & GPL-3.0+ & ISC & MIT & MPL-2.0 & MPL-2.0+ & GPL-3.0"
 
-PV = "5.5.1"
+PV = "5.7.0"
 
-RPM_NAME = "texlab-5.5.1-1.2.aarch64.rpm"
-RPM_HASH = "7d7333ce2b2ff850c05a2e6b26b2acb54d8a450a53cb0d47f8b60da47cf6c58c8671d4576f4d07f3bfe95e71f5cca021f7250c04a29f19994505d10f0686de9e"
+RPM_NAME = "texlab-5.7.0-1.1.aarch64.rpm"
+RPM_HASH = "8821fe52db2fe51bb0177af62ea8881ae438e9fbfa2099a48b90dd0f9543b3188329adb3c2a4e9792354830a3fdae150bc7b2e6251caf4227ede97ebb444d4d4"
 
 RPROVIDES:${PN} += "bundled-rust-crate-adler \
 bundled-rust-crate-aho-corasick \
@@ -74,7 +74,6 @@ bundled-rust-crate-miniz-oxide \
 bundled-rust-crate-mio \
 bundled-rust-crate-notify \
 bundled-rust-crate-num-cpus \
-bundled-rust-crate-num-integer \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-once-cell \
 bundled-rust-crate-option-ext \

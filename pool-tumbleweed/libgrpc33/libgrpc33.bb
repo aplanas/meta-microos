@@ -4,10 +4,10 @@ HTTP/2 with support for synchronous and asynchronous calls. gRPC uses \
 Protocol Buffers as the Interface Definition Language by default."
 LICENSE = "Apache-2.0"
 
-PV = "1.56.0"
+PV = "1.56.2"
 
-RPM_NAME = "libgrpc33-1.56.0-1.3.aarch64.rpm"
-RPM_HASH = "f287398592aa3c4c74d6e207da89a8385c8f1ca89c655a59e3d08a45de93ce77172f0bf2cfc3df511bf12f07bfe2a1857328b2b08cec2b186a53fb9c9b2ecddd"
+RPM_NAME = "libgrpc33-1.56.2-1.1.aarch64.rpm"
+RPM_HASH = "5d4dd5d6f95ab2fd5515fd0ebe3b2182139239c71eb08318d6c862659943fd763f73b85762607562acba7fe0ea3554d0cb4a43b70de2669a8d0c7b16308e7285"
 
 RPROVIDES:${PN} += "libaddress-sorting.so.33 \
 libgpr.so.33 \

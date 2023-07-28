@@ -4,10 +4,10 @@ which can improve network security by eliminating the insecure \
 practice of cleartext passwords. This package includes a SPAKE plugin."
 LICENSE = "MIT"
 
-PV = "1.20.1"
+PV = "1.21.1"
 
-RPM_NAME = "krb5-plugin-preauth-spake-1.20.1-6.2.aarch64.rpm"
-RPM_HASH = "6b124b73dbdb7c10f6e96151b004466d6d4f2598646fdebf031a3d2960c80edec388dc48ec5d8029df246201057a6b676538c5c20549379fb013bd2f8f819295"
+RPM_NAME = "krb5-plugin-preauth-spake-1.21.1-1.1.aarch64.rpm"
+RPM_HASH = "4dfdf09ea43bde9e5a1adba027996b4031334c50b2e839672080d564914c6302892855c1f2a2fdb3c0c2e7013302cb835a1d0656cce442926f127d34fd84c619"
 
 RPROVIDES:${PN} += "krb5-plugin-preauth-spake"
 

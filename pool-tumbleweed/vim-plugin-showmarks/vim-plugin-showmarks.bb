@@ -9,8 +9,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2.3"
 
-RPM_NAME = "vim-plugin-showmarks-2.3-55.1.noarch.rpm"
-RPM_HASH = "3aedd8c28f266d5d065a4f28df4c4e6da594ab337fd14f61bae3943855a5ab93f74f6f27e22b72b09c28de990d8fcaf79dd5d7d06427df1d10b9fa2b7ec2a2dd"
+RPM_NAME = "vim-plugin-showmarks-2.3-56.1.noarch.rpm"
+RPM_HASH = "2fe31e2b472d138c8cfba3ba7638bea605b7d5c884c6f68a65aab7b4ce5b23ebf5c0e0b6b7a376dc35ed5b7726d8526f99ffe2505dd7fd1e2e8e1d3e4d98cfb4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-showmarks"

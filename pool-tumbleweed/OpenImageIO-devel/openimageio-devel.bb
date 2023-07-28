@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides development libraries and headers needed to
 software using OpenImageIO."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.4.12.0"
+PV = "2.4.13.0"
 
-RPM_NAME = "OpenImageIO-devel-2.4.12.0-1.2.aarch64.rpm"
-RPM_HASH = "aa629518a51cb1446529f3ff2dd5d371528bdcadee9f337c955758311745aff54ff4edae9fa29ec71d4bf0bedb8ab5cd8709b3b328819dea658953bc29d29692"
+RPM_NAME = "OpenImageIO-devel-2.4.13.0-1.1.aarch64.rpm"
+RPM_HASH = "80e7aeef4f9fda1f53469f8b9ca281891d76bdeb4d851eeeb76a17fee99367ca11214c2f00237e2d5ae739bdddd2fef5bb868ded1bfee887df5220989c3d3b6d"
 
 RPROVIDES:${PN} += "OpenImageIO-devel \
 cmake-OpenImageIO \

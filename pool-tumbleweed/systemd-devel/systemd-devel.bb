@@ -3,10 +3,10 @@ DESCRIPTION = "Development headers and files for libsystemd and libudev librarie
 developing and building applications linking to these libraries."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "253.5"
+PV = "253.7"
 
-RPM_NAME = "systemd-devel-253.5-5.1.aarch64.rpm"
-RPM_HASH = "e0787e88bfe9e3aa3d235c8f94dcb67cdec3b8a9a053af9eb6ef42f0b0e59f68433624009203d64a92843a1f829ff442521163e62e11663dffd96973aa9fd2af"
+RPM_NAME = "systemd-devel-253.7-1.2.aarch64.rpm"
+RPM_HASH = "6d9b504379063768b1263fcbafc9a4b4b93fe06dc647c00d65c9e8f243dc982ef4a1f94b804a6e034285c269a014a4010803b0637d4b34256eac72135e89a094"
 
 RPROVIDES:${PN} += "libudev-devel \
 pkgconfig-libsystemd \

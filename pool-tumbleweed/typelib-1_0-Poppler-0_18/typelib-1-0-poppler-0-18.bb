@@ -5,16 +5,16 @@ developed by Derek Noonburg of Glyph and Cog, LLC. \
 This package provides the GObject Introspection bindings for Poppler."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "23.06.0"
+PV = "23.07.0"
 
-RPM_NAME = "typelib-1_0-Poppler-0_18-23.06.0-1.1.aarch64.rpm"
-RPM_HASH = "458133147b663eddbfa12ed112df62aea1a4db1037012cc720f20be813b379e9f6ee243ebd017fd94dd76368640d59445573d52058fcf6ee66576e10a0e76736"
+RPM_NAME = "typelib-1_0-Poppler-0_18-23.07.0-1.1.aarch64.rpm"
+RPM_HASH = "cfb7bd7c05e94b74e1e13b3b8c5e1e543af325b62219f9bd89765453b86cff17949d4bbf4715f592cf5a30615b91799faf8e652baf75b7d503b136161137a83d"
 
 RPROVIDES:${PN} += "typelib-1-0-Poppler-0-18 \
 typelib-Poppler"
 
 RDEPENDS:${PN} += "libpoppler-glib.so.8 \
-libpoppler.so.129 \
+libpoppler.so.130 \
 typelib-GLib \
 typelib-GObject \
 typelib-Gio \

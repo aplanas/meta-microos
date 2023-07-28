@@ -5,8 +5,8 @@ LICENSE = "ISC"
 
 PV = "0.9.0"
 
-RPM_NAME = "ocaml-fmt-devel-0.9.0-1.12.aarch64.rpm"
-RPM_HASH = "23db977af0258eca9a43c58bd38147ae3a10753467484bb490ad8f6c33786f1830cea04a0b2733c47778adf352f796cb07d855a803e2f3ac6188763f6758dbbf"
+RPM_NAME = "ocaml-fmt-devel-0.9.0-1.13.aarch64.rpm"
+RPM_HASH = "acd436c7bd8f4a2952bf3c0380f51db9bdd39e66177cf808f429bc4d2559899fc73b2cac4f2a34ddf3918fd43e8586113b70c36d42dc488f26e4b82362df9ec2"
 
 RPROVIDES:${PN} += "ocaml-Fmt \
 ocaml-Fmt-cli \

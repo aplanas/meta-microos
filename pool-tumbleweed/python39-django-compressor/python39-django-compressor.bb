@@ -4,10 +4,10 @@ in a Django templates into cacheable static files by using the 'compress' \
 template tag."
 LICENSE = "Apache-2.0 & BSD-3-Clause & MIT"
 
-PV = "4.3.1"
+PV = "4.4"
 
-RPM_NAME = "python39-django-compressor-4.3.1-2.1.noarch.rpm"
-RPM_HASH = "323aff916c6a1fcb0edf440bd3a166c715218b755994888b677bccc960c4f86d023844b93995103934896dca067ad1bcaa06575706c2c97fd53df6697c1680d2"
+RPM_NAME = "python39-django-compressor-4.4-1.1.noarch.rpm"
+RPM_HASH = "c0da2d7749abf09ea4aa6ff3ca7d0445cffc70e0bc3d5fc7590e047f28ad778fe44d2bde5baf523850e76e9ece928a07e90edcc89582eb2e2011c751ab073a18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-django-compressor \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the GObject library libgudev, which provide
 access to udev device information."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "237"
+PV = "238"
 
-RPM_NAME = "libgudev-1_0-0-237-3.1.aarch64.rpm"
-RPM_HASH = "00e24e895aa28ab7c3bc6986f2070d0886bfb682b6f7f9c7750914fc0a26896fadeb42c866f4dfae459ab786145cf9154d0effe149e58ee404c35bd1d0f579f5"
+RPM_NAME = "libgudev-1_0-0-238-1.1.aarch64.rpm"
+RPM_HASH = "99a917663435574821b02e6ceb174cc9139f5bb0b13ec92af5c04d2c4686f8043f388e0f9bd2a98fde7cc92255b6214dcb106be1f83a314237b2726ebfb031d2"
 
 RPROVIDES:${PN} += "libgudev-1-0-0 \
 libgudev-1.0.so.0"

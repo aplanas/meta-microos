@@ -6,10 +6,10 @@ that it turns the digital modulation schemes used in today's high \
 performance wireless devices into software problems."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.10.6.0"
+PV = "3.10.7.0"
 
-RPM_NAME = "gnuradio-3.10.6.0-4.4.aarch64.rpm"
-RPM_HASH = "d369d3532d7ade1e5c71d9ee09d71f50c9a2cb649ac57c1c85953f25b74a8ab8998a6e3140eb70865a6b1c6f63b1f076d4130aef382cfd75b1f8b2418a795232"
+RPM_NAME = "gnuradio-3.10.7.0-1.1.aarch64.rpm"
+RPM_HASH = "d8bcf45cda922a03aa91169ea6e0fb6fd726691c876215481f6a5da7c8b384494517afab2a77a3ad049ce8cd0e6873f3c5721e644e17db3a179993bc932d363f"
 
 RPROVIDES:${PN} += "config-gnuradio \
 gnuradio"
@@ -24,28 +24,28 @@ libc.so.6 \
 libfmt.so.9 \
 libgcc-s.so.1 \
 libgmp.so.10 \
-libgnuradio-analog.so.3.10.6 \
-libgnuradio-audio.so.3.10.6 \
-libgnuradio-blocks.so.3.10.6 \
-libgnuradio-channels.so.3.10.6 \
-libgnuradio-digital.so.3.10.6 \
-libgnuradio-dtv.so.3.10.6 \
-libgnuradio-fec.so.3.10.6 \
-libgnuradio-fft.so.3.10.6 \
-libgnuradio-filter.so.3.10.6 \
-libgnuradio-iio.so.3.10.6 \
-libgnuradio-network.so.3.10.6 \
-libgnuradio-pdu.so.3.10.6 \
-libgnuradio-pmt.so.3.10.6 \
-libgnuradio-qtgui.so.3.10.6 \
-libgnuradio-runtime.so.3.10.6 \
-libgnuradio-soapy.so.3.10.6 \
-libgnuradio-trellis.so.3.10.6 \
-libgnuradio-uhd.so.3.10.6 \
-libgnuradio-video-sdl.so.3.10.6 \
-libgnuradio-vocoder.so.3.10.6 \
-libgnuradio-wavelet.so.3.10.6 \
-libgnuradio-zeromq.so.3.10.6 \
+libgnuradio-analog.so.3.10.7 \
+libgnuradio-audio.so.3.10.7 \
+libgnuradio-blocks.so.3.10.7 \
+libgnuradio-channels.so.3.10.7 \
+libgnuradio-digital.so.3.10.7 \
+libgnuradio-dtv.so.3.10.7 \
+libgnuradio-fec.so.3.10.7 \
+libgnuradio-fft.so.3.10.7 \
+libgnuradio-filter.so.3.10.7 \
+libgnuradio-iio.so.3.10.7 \
+libgnuradio-network.so.3.10.7 \
+libgnuradio-pdu.so.3.10.7 \
+libgnuradio-pmt.so.3.10.7 \
+libgnuradio-qtgui.so.3.10.7 \
+libgnuradio-runtime.so.3.10.7 \
+libgnuradio-soapy.so.3.10.7 \
+libgnuradio-trellis.so.3.10.7 \
+libgnuradio-uhd.so.3.10.7 \
+libgnuradio-video-sdl.so.3.10.7 \
+libgnuradio-vocoder.so.3.10.7 \
+libgnuradio-wavelet.so.3.10.7 \
+libgnuradio-zeromq.so.3.10.7 \
 libm.so.6 \
 libspdlog.so.1.12 \
 libstdc++.so.6 \

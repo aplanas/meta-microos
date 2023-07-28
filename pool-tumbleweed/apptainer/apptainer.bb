@@ -3,10 +3,10 @@ DESCRIPTION = "Singularity provides functionality to make portable \
 containers that can be used across host environments."
 LICENSE = "BSD-3-Clause-LBNL"
 
-PV = "1.1.8"
+PV = "1.1.9"
 
-RPM_NAME = "apptainer-1.1.8-1.4.aarch64.rpm"
-RPM_HASH = "0313780650a91e6d76e94e0fe9221fc4ddbe072e3c151223671098b4d35f8983dc6a0ba34874a6b9e80e166278ba13f7e2733e8c337ce67e416b43121e619123"
+RPM_NAME = "apptainer-1.1.9-1.1.aarch64.rpm"
+RPM_HASH = "0d3473d9c5a00c6f5dec911acd9c0d0f146b9944d82477acce1768d9967a3ba1e50886514ae10f5d5fa0cc541b1915b31fbb612576b0ebe4994e650e0ec95696"
 
 RPROVIDES:${PN} += "apptainer \
 config-apptainer \

@@ -2,13 +2,13 @@ SUMMARY = "Haskell pandoc-types profiling library"
 DESCRIPTION = "This package provides the Haskell pandoc-types profiling library."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.23"
+PV = "1.23.0.1"
 
-RPM_NAME = "ghc-pandoc-types-prof-1.23-1.6.aarch64.rpm"
-RPM_HASH = "f1487486421c870a14fd5cf71812dbb34adfeca8738fcbc42f04c884162db81fa0c0d723cdbd61b851ff5ae632ece95eb786fccb94b98fd94ce71c5fe44a990b"
+RPM_NAME = "ghc-pandoc-types-prof-1.23.0.1-1.1.aarch64.rpm"
+RPM_HASH = "3239e8ae9c5ba79509432673cfac86c9cf9ec5153ba4efe15c7dd35553834ed513fe89473cf809cb287c7d6800ba93eeea77db9371e8b1cbeb0ac2e817722d56"
 
 RPROVIDES:${PN} += "ghc-pandoc-types-prof \
-ghc-prof-pandoc-types-1.23-4C1nzwOnt973xRAA9sp531"
+ghc-prof-pandoc-types-1.23.0.1-EcvZluXpPb0J10kJC4UfRg"
 
 RDEPENDS:${PN} += "ghc-pandoc-types-devel \
 ghc-prof-QuickCheck-2.14.3-6dq2izV8oSq1BobaDA598X \

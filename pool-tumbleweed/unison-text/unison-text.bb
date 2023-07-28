@@ -8,10 +8,10 @@ separately, then brought up to date by propagating the changes in each \
 replica to the other."
 LICENSE = "GPL-3.0+"
 
-PV = "2.53.2"
+PV = "2.53.3"
 
-RPM_NAME = "unison-text-2.53.2-1.2.aarch64.rpm"
-RPM_HASH = "59e9a3a4b9a3a13c76ef0d2ab070d0338a6536a20af3818e15ac0d8e88ba19646221b96cd34d77666594f12acfcb2d0ac025b68943defde1034fbe6d3d79ae94"
+RPM_NAME = "unison-text-2.53.3-1.1.aarch64.rpm"
+RPM_HASH = "43bcd83609e668840e3fd73916537bd626d75c0e185f9cd0719c6e153dc00b788b1e4aa538afa04f5c13e8522d75ffd61b5a034ece32c49fb62224f2a12a224d"
 
 RPROVIDES:${PN} += "unison-text"
 

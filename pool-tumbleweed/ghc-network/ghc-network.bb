@@ -22,8 +22,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.4.0"
 
-RPM_NAME = "ghc-network-3.1.4.0-1.3.aarch64.rpm"
-RPM_HASH = "3a0ccbaeb7a3e9048824339df1249fbf25bf40df5205b7834fdd5e8e74d1317ab0f7bd1944aafe99c8c1a19134d938d7a883c89b464db15248d1facb57d18430"
+RPM_NAME = "ghc-network-3.1.4.0-2.1.aarch64.rpm"
+RPM_HASH = "81a9ea4bffa858a71da3d0f9a77c4673c598c5c9ea9d1927614f966bdbacc29d8553181a7f80acc510ab940ac313fd03b23d3664bde0cb67beea057260d71b8e"
 
 RPROVIDES:${PN} += "ghc-network \
 libHSnetwork-3.1.4.0-FvtFepOtuCUH79FCWyNxIc-ghc9.4.5.so"

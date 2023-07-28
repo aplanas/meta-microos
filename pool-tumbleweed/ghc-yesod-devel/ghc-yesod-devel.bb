@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "1.6.2.1"
 
-RPM_NAME = "ghc-yesod-devel-1.6.2.1-2.9.aarch64.rpm"
-RPM_HASH = "4a5a5b899388dd2fb7e8da5956f295742109da77b651d244585894423f240796dc2c227d130bf08f4544975a4197a1248acd4fa7672c7648a2b0487c520d114b"
+RPM_NAME = "ghc-yesod-devel-1.6.2.1-2.11.aarch64.rpm"
+RPM_HASH = "5049e3606f5ed3cd51471d9c2d6d8baf5e7997eb6c39f3c1219e8599e376febe37a4d22ee038dc94f111ec939b1cf25b0e973b591dfc801b552bebd1d8aae96f"
 
-RPROVIDES:${PN} += "ghc-devel-yesod-1.6.2.1-D8HbgYeltFYIG1lP9trVdf \
+RPROVIDES:${PN} += "ghc-devel-yesod-1.6.2.1-GnVZ7sz1eQh1lEH2dI3IH7 \
 ghc-yesod-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -32,9 +32,9 @@ ghc-devel-wai-extra-3.1.13.0-LFtqIngDY3AAQ1a5w3zKO8 \
 ghc-devel-wai-logger-2.4.0-JuVFE6hpBhqDKHgP60Zmqn \
 ghc-devel-warp-3.3.25-EsJVhH2AisSK67jSo7D0GP \
 ghc-devel-yaml-0.11.11.2-4GYYolDKkXn5x4zdb9DA59 \
-ghc-devel-yesod-core-1.6.24.2-7isfGP7hc9NLFaHQAgg8t \
-ghc-devel-yesod-form-1.7.4-9SavUh7G36AKe86TvxSRtJ \
-ghc-devel-yesod-persistent-1.6.0.8-Jui070TDUWhEJxvpNjmjRf \
+ghc-devel-yesod-core-1.6.24.3-FuwsWoOUEyTCufqnix4g5P \
+ghc-devel-yesod-form-1.7.4-A4NJLliFfnZ1tqLIO9QkD9 \
+ghc-devel-yesod-persistent-1.6.0.8-A587fdCgueU2UmsZUmFzaX \
 ghc-yesod"
 
 inherit rpm

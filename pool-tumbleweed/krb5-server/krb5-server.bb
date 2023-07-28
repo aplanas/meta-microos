@@ -5,10 +5,10 @@ practice of cleartext passwords. This package includes the kdc, kadmind \
 and more."
 LICENSE = "MIT"
 
-PV = "1.20.1"
+PV = "1.21.1"
 
-RPM_NAME = "krb5-server-1.20.1-6.2.aarch64.rpm"
-RPM_HASH = "fe825aaffc2d605a11d24dd77af37e2560063af8d8b42ecabb7adaa5b0f076ae7bcf82c0ceb7184e26edb3cbb20873b8a32ff2e3c04577b6fb0d10ab7dd445e1"
+RPM_NAME = "krb5-server-1.21.1-1.1.aarch64.rpm"
+RPM_HASH = "97464960339dfdf6e9f9cf8b5cb5e1ab9354ee91b38ada6be98479dba9d04bf2ee3de8f6038f5ade4be23ffdcce34753a9d005ed2d6320f03d992cef2ae9700c"
 
 RPROVIDES:${PN} += "config-krb5-server \
 krb5-server"

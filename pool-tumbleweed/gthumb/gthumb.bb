@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.12.2"
 
-RPM_NAME = "gthumb-3.12.2-4.1.aarch64.rpm"
-RPM_HASH = "94737425b63a76a368b726617ec0399d145466cb22f02a4ab650628b98f237bcf02b0bc1b5b20ef9993ffe6e4f83cd5017dd147ebef079a2a4e71b635a6294f4"
+RPM_NAME = "gthumb-3.12.2-5.1.aarch64.rpm"
+RPM_HASH = "2dd6fa17cab8a344401b6e8c74c0e2dadef3efe0b67812fa9fad1d6e8fc6994c493ffff99196c4e5db22927cd5b217aa24b0aeb7750b0b6ea5a30ca47eec0dfe"
 
 RPROVIDES:${PN} += "gthumb \
 lib23hq.so \
@@ -74,6 +74,8 @@ libgstvideo-1.0.so.0 \
 libgtk-3.so.0 \
 libheif.so.1 \
 libjpeg.so.8 \
+libjxl-threads.so.0.8 \
+libjxl.so.0.8 \
 liblcms2.so.2 \
 libm.so.6 \
 libpango-1.0.so.0 \

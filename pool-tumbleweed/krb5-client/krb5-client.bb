@@ -5,10 +5,10 @@ practice of cleartext passwords. This package includes some required \
 client programs, like kinit, kadmin, ..."
 LICENSE = "MIT"
 
-PV = "1.20.1"
+PV = "1.21.1"
 
-RPM_NAME = "krb5-client-1.20.1-6.2.aarch64.rpm"
-RPM_HASH = "7b0d7128a4767ed6b946f56a42c93f577aa5486182a73cc7f30f5ba8278eb4657269e0fa76ed0fc74b6e47817042c08254f887bc426b7273ff2033fa892c9a4c"
+RPM_NAME = "krb5-client-1.21.1-1.1.aarch64.rpm"
+RPM_HASH = "d8785ddf009ae79ef85d4054a9a99491e3f0cc2c6587474977864c51a1170a5312fb3aa82c24ac37f06d0fec48cacb8004dd8eb06f67b719d9498318298c7b0c"
 
 RPROVIDES:${PN} += "krb5-client"
 

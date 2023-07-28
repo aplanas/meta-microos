@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.5.1"
 
-RPM_NAME = "python310-poetry-1.5.1-1.3.noarch.rpm"
-RPM_HASH = "c526e0241aac5120fb01317339e30e9e0ac0c479ab4f8c47ecb28e4f7aed652507f4f51c27f1a21e69d5e4ccec76b60c350f383602b2b25c995a21eff1eb72ec"
+RPM_NAME = "python310-poetry-1.5.1-1.4.noarch.rpm"
+RPM_HASH = "2cc479c585f5246dbeecc44c6fc5b10d7464554dec571b2c85e2ff9bb6dcf19ba454b0530c62418c07dea5ec581f795b0946ec9938afa878b6d021af36967b46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-poetry \

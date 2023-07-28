@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "4.3"
 
-RPM_NAME = "libi2c0-devel-4.3-2.1.aarch64.rpm"
-RPM_HASH = "b3ae017c9f8bd13674df54ff5e9885babbc00daade822513f5822aebc0955cc4b9c2794f6bb1650e25712da4b15cbb49745c1cce4f0b7e52f17a4d9be4a09946"
+RPM_NAME = "libi2c0-devel-4.3-3.1.aarch64.rpm"
+RPM_HASH = "0534d45abc5faccf931798b35c8e4d92ccd99e6674f4eeaf6916f307e1cc06c64e78896863f0e715b547d8525f88edd2229465c4d18fb3eef43116cdfc865c79"
 
 RPROVIDES:${PN} += "/usr/include/i2c/smbus.h \
 libi2c0-devel"

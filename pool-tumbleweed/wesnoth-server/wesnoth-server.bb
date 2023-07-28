@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the server program hosting multiplayer game
 Battle for Wesnoth."
 LICENSE = "EPL-1.0 & GPL-2.0-or-later"
 
-PV = "1.17.16"
+PV = "1.17.17"
 
-RPM_NAME = "wesnoth-server-1.17.16-1.2.aarch64.rpm"
-RPM_HASH = "4911920f5b2f998932872801159d1f163163d1c04b3561b283c473d1b7dede9858e86d9c513c49939f8d42f111a3237193db8d008f9f52e441f3b69cb7cc48de"
+RPM_NAME = "wesnoth-server-1.17.17-1.1.aarch64.rpm"
+RPM_HASH = "c07461b9ff7b813aad9747d25196a8d833559f4d605f1022f6ad62fbd7a0065ed3fc25c8200c3077b2f93ffd942459020b6a98257781ec021ff23382d19108b6"
 
 RPROVIDES:${PN} += "wesnoth-server"
 

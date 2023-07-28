@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.1.3"
 
-RPM_NAME = "ghc-commonmark-pandoc-doc-0.2.1.3-2.4.noarch.rpm"
-RPM_HASH = "a3a1517d589b72044cdded7e239e9cda817da0f8760b02d499443c62c017b1f0c8b17a4db7fc43d41183cf181a2fdd36a5c64ba7dcb9649c0cb28f944bb5bb8a"
+RPM_NAME = "ghc-commonmark-pandoc-doc-0.2.1.3-2.5.noarch.rpm"
+RPM_HASH = "ad2aa2497b2a0f335c406b0e126c2c2c226ab437466ce10612ea665d66cb34ec35d4c307b85984756c1e1f14972782a55983d65bdd7f649aa687ec0c8aec137d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-commonmark-pandoc-doc"

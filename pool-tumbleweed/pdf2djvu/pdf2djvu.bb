@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.9.19"
 
-RPM_NAME = "pdf2djvu-0.9.19-3.9.aarch64.rpm"
-RPM_HASH = "365cc9e3d229fa94557a1a6906b5c775a719a3854e6909ed350654272dfc1df526b29c5a1e2b898d62b35a994684c39f6d63e82fed86a913c7cc4829ebbec2d5"
+RPM_NAME = "pdf2djvu-0.9.19-3.10.aarch64.rpm"
+RPM_HASH = "264c3aa8389cc044a1a919e6fd62844fc28db8eb3e309842e812c1379f48ab7c28040313a9419a78e449ff4f1f9542fc4105f6ad33add9941d8f43d390155535"
 
 RPROVIDES:${PN} += "pdf2djvu"
 
@@ -21,7 +21,7 @@ libexiv2.so.28 \
 libgcc-s.so.1 \
 libgomp.so.1 \
 libm.so.6 \
-libpoppler.so.129 \
+libpoppler.so.130 \
 libstdc++.so.6 \
 libuuid.so.1"
 

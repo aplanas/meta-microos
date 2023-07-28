@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "kubevirt-virt-exportproxy-1.0.0-1.1.aarch64.rpm"
-RPM_HASH = "681e163b69135425558b685702e66ed7e2a2130ac7ca43be3124dee0b80be0554b8cc1f0116d7a58045787c842689a770740da8781a14d648adf97f594864fe4"
+RPM_NAME = "kubevirt-virt-exportproxy-1.0.0-2.1.aarch64.rpm"
+RPM_HASH = "83d84e246c979aaf0014c0f186302667cc10f1dc4e09d57617a2f7c7767252f135970d3e59d59b04c5aa3322b272282ec0dce24dcf802f4a0be2ccc0269593c7"
 
 RPROVIDES:${PN} += "kubevirt-virt-exportproxy"
 

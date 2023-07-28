@@ -3,10 +3,10 @@ DESCRIPTION = "HarfBuzz is an OpenType text shaping engine. \
 This package contains the GObject library."
 LICENSE = "MIT"
 
-PV = "7.3.0"
+PV = "8.0.1"
 
-RPM_NAME = "libharfbuzz-gobject0-7.3.0-1.2.aarch64.rpm"
-RPM_HASH = "93e7f26033d0ef6d9bd1e7aa5630ca7dd1441fcd27b1762aa1ac967687a6e7e682e0e5b4743214d34a590669d417f45238ad602c8a3bfa7a6d30fa70bb75948f"
+RPM_NAME = "libharfbuzz-gobject0-8.0.1-1.1.aarch64.rpm"
+RPM_HASH = "326cd053c3574f18978b38c87efcb5f3edc8bf59d135cba6eeba22614fb8856cf1acd1a64b299245b5418576859e7e2831c279e5fd2e2396eeda2e2116e0639f"
 
 RPROVIDES:${PN} += "libharfbuzz-gobject.so.0 \
 libharfbuzz-gobject0"

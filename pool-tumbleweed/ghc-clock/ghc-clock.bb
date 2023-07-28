@@ -47,13 +47,13 @@ on 2021-01-16. \
 * 'PackagingOnly' changes are made for quality assurance reasons."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.8.3"
+PV = "0.8.4"
 
-RPM_NAME = "ghc-clock-0.8.3-2.2.aarch64.rpm"
-RPM_HASH = "61dd8df8201f2c3ee6680b3357e82837a82f4f8afc90656769b33cff92285fade648a545829b6db506bcfc1d429f0575dfbf76c01483e1e34a10f981a0738c8d"
+RPM_NAME = "ghc-clock-0.8.4-1.1.aarch64.rpm"
+RPM_HASH = "e622525fca407b08090d00025a1e71d4e232c9538030a826fdb1ea8156b04996e92379eab4c27751da649b6cdd9d37d23786dd74d4e3c5ea8979d2ed2c8760c6"
 
 RPROVIDES:${PN} += "ghc-clock \
-libHSclock-0.8.3-Bn4LVnP2KGzGGqLjq4BuLV-ghc9.4.5.so"
+libHSclock-0.8.4-Kk7SFw4SNhZ8ktwfjRIPil-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so \
 libHSghc-bignum-1.3-ghc9.4.5.so \

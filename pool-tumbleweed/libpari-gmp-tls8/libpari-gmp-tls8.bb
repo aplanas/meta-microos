@@ -9,10 +9,10 @@ power series, algebraic numbers, and transcendental functions. \
 This package contains shared library for the PARI CAS."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.15.3"
+PV = "2.15.4"
 
-RPM_NAME = "libpari-gmp-tls8-2.15.3-1.2.aarch64.rpm"
-RPM_HASH = "d07fdcffa6d0d840d2d4f9e8acc96ae80ee94b19f3d3a0ee22165f67755477af98f617e1d6791eff22f4dded9de5f694e9b588cb1ceec9a2bd9ae4f71ddcd473"
+RPM_NAME = "libpari-gmp-tls8-2.15.4-1.1.aarch64.rpm"
+RPM_HASH = "82b0b484fad69412a6726827585269bea29afdf34fc6620a7b8d9d8f68c6353ce78445389e62f376d4e94682ddd7c78a3937b0fa6448d08308877457679c61e9"
 
 RPROVIDES:${PN} += "libpari-gmp \
 libpari-gmp-tls.so.8 \

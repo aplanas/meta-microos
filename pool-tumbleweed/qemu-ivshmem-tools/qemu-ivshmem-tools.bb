@@ -5,10 +5,10 @@ protocol specification documented in docs/specs/ivshmem-spec.txt in QEMU source 
 code."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.2"
+PV = "8.0.3"
 
-RPM_NAME = "qemu-ivshmem-tools-8.0.2-2.1.aarch64.rpm"
-RPM_HASH = "a693955d83da8d17ce7917e6dfa8034854cae2a84299516797987e2a79909b3fbada5eceaa0f5a94207846c497be2cb5313316fdcd34dbae1cc87d6365eebf6e"
+RPM_NAME = "qemu-ivshmem-tools-8.0.3-1.1.aarch64.rpm"
+RPM_HASH = "c37fe1017afd951ef0d9b1b3153355da1930cb76237f0f57efce7eda76f93bc2790961d9efd8503058df740ebad62fbb8c60c1e858db7b937ff382d18f3f0058"
 
 RPROVIDES:${PN} += "qemu-ivshmem-tools"
 

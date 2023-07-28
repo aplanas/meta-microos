@@ -2,10 +2,10 @@ SUMMARY = "Fish Completion for skaffold"
 DESCRIPTION = "Fish command line completion support for skaffold."
 LICENSE = "Apache-2.0"
 
-PV = "2.6.1"
+PV = "2.6.2"
 
-RPM_NAME = "skaffold-fish-completion-2.6.1-1.1.noarch.rpm"
-RPM_HASH = "e1ff15a80798999f9a55f3f8f3236bca3a6aa0afc14785dd7ea4954ef119d4fe02bd73cf720ac6e1cd16d6552f3d530938adc326e21ed98f199b8769ac58ea31"
+RPM_NAME = "skaffold-fish-completion-2.6.2-1.1.noarch.rpm"
+RPM_HASH = "1be5615f01c3160d218803eccdf9c04b0ff8ac5cbb02a9f303fe484c56ea77afbbd19ab293d4f5da6fe5506e9beb821e890fafbac7a3b4727e8b9a0fcac893aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "skaffold-fish-completion"

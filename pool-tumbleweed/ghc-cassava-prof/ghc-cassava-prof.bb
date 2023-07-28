@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.3.0"
 
-RPM_NAME = "ghc-cassava-prof-0.5.3.0-2.6.aarch64.rpm"
-RPM_HASH = "a3c8f4392fcca08d26814de920cbaa37a94568e8d0954e457b1e36670fc1ba3686cd66ab13fce650217408b513bee3392bb2ff87ed355e1711671a95795d0230"
+RPM_NAME = "ghc-cassava-prof-0.5.3.0-3.1.aarch64.rpm"
+RPM_HASH = "4a26d4b073e5112275b96948bfdaedbcce4ea007f4525c424623cb296349475aee7e94d121088a9952eefa68b1224e98eafa33d4f95e6eef4eb800125794b088"
 
 RPROVIDES:${PN} += "ghc-cassava-prof \
 ghc-prof-cassava-0.5.3.0-6nKMpykUjDPH1yduUJ1iAD"

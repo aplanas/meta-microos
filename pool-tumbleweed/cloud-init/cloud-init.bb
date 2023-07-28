@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0"
 
 PV = "23.1"
 
-RPM_NAME = "cloud-init-23.1-1.4.aarch64.rpm"
-RPM_HASH = "e3b2df18e65a30a3d172621b708a3e5f5a5320aca62aa4877b787fda948acf81da7727cff1ad3d54bf1cbf92f1524fc71914db43a94c7d8efc019305c6a17dec"
+RPM_NAME = "cloud-init-23.1-2.1.aarch64.rpm"
+RPM_HASH = "d75c85aec0d6f158f6326b1b54b53b691856c6b1d27854b4ba906651e9c5d9f3774c41a374292d89e2c8645ddb55d6d87a2523eae8284964a9a172bdf93b837d"
 
 RPROVIDES:${PN} += "cloud-init \
 config-cloud-init \
@@ -34,7 +34,6 @@ python3-netifaces \
 python3-oauthlib \
 python3-pyserial \
 python3-requests \
-python3-responses \
 python3-serial \
 python3-setuptools \
 python3-xml \

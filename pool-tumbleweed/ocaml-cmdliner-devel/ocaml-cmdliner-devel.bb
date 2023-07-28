@@ -3,10 +3,10 @@ DESCRIPTION = "The ocaml-cmdliner-devel package contains libraries and signature
 developing applications that use ocaml-cmdliner."
 LICENSE = "ISC"
 
-PV = "1.1.1"
+PV = "1.2.0"
 
-RPM_NAME = "ocaml-cmdliner-devel-1.1.1-1.10.aarch64.rpm"
-RPM_HASH = "137cd59fa077a9287735c2679fb6454831b04eeb0b3a0c53dede67460fda8e5866627183556e30399326ba151e8b7c774ff4d7263c0ace50cad63cce78496573"
+RPM_NAME = "ocaml-cmdliner-devel-1.2.0-1.1.aarch64.rpm"
+RPM_HASH = "938d9bd5331408786c8658155b58389cfb48b2e8bb705545ffd7207a4fc246429b2f82a92ac85d46c45433ec286bcbae9537fbfe2b9ad942e0b1e659e8258708"
 
 RPROVIDES:${PN} += "ocaml-Cmdliner \
 ocaml-Cmdliner-arg \

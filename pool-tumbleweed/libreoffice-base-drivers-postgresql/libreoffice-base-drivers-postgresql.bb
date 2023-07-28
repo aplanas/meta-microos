@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
 PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-base-drivers-postgresql-7.5.4.2-1.3.aarch64.rpm"
-RPM_HASH = "5f6792cdeca2edd23f649c56f8b6b6978bd0b9fe62bc3e8a182606a31c65ea38a4b2c3325ebe1d36ca21ad130de3e3ae0418a5bebfd6daaad428cc4e47172d52"
+RPM_NAME = "libreoffice-base-drivers-postgresql-7.5.4.2-1.5.aarch64.rpm"
+RPM_HASH = "8f074d2f0ff0b9d3fe4c93972b7c35831055a69b9b62d1f6e8e8596b478008e1673cee3f492ec3fd8f9c9fefc9cdde98a3fa74b37fef830662729c53cbf2ef49"
 
 RPROVIDES:${PN} += "libpostgresql-sdbc-impllo.so \
 libpostgresql-sdbclo.so \

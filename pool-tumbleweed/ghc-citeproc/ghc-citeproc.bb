@@ -6,11 +6,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.8.1"
 
-RPM_NAME = "ghc-citeproc-0.8.1-2.7.aarch64.rpm"
-RPM_HASH = "c7022abbec90009d802cd59398d75ba5e29610fed86251ad77b76a75970b0072502d79c4f19d15a3c771ad5e7cc68e67019d9b5d666275efb98db691b4b19512"
+RPM_NAME = "ghc-citeproc-0.8.1-2.8.aarch64.rpm"
+RPM_HASH = "4d8bb45ec2a7c1e56bab0a67631ade2676f01bd5b8422c90e54879be2b197310a4db5deff2ed83d64c0ce7b7af5710c35941229c8b3e28713930c4558b818414"
 
 RPROVIDES:${PN} += "ghc-citeproc \
-libHSciteproc-0.8.1-Ex3LMLw4y9Q5nAZv8bt8hk-ghc9.4.5.so"
+libHSciteproc-0.8.1-IdWRS5bkx4mHz8SxZquXUQ-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV-ghc9.4.5.so \
 libHSQuickCheck-2.14.3-6dq2izV8oSq1BobaDA598X-ghc9.4.5.so \
@@ -64,7 +64,7 @@ libHSmono-traversable-1.0.15.3-IT8tyCr3vQLKgjlccagv2S-ghc9.4.5.so \
 libHSmtl-2.2.2-ghc9.4.5.so \
 libHSnetwork-3.1.4.0-FvtFepOtuCUH79FCWyNxIc-ghc9.4.5.so \
 libHSold-locale-1.0.0.7-B5o2Qz0CVVSCB1XGw7OfzR-ghc9.4.5.so \
-libHSpandoc-types-1.23-4C1nzwOnt973xRAA9sp531-ghc9.4.5.so \
+libHSpandoc-types-1.23.0.1-EcvZluXpPb0J10kJC4UfRg-ghc9.4.5.so \
 libHSparsec-3.1.16.1-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \
 libHSprimitive-0.7.4.0-AeB0oysC3TAJw9tDpuX8hq-ghc9.4.5.so \

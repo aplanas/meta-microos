@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.2.1"
 
-RPM_NAME = "calligra-karbon-3.2.1-7.19.aarch64.rpm"
-RPM_HASH = "1072b0a15a2a2973f81c8b7129fd483fd85a9c84a37c0634fb39dde61f97bb49f3e715ff3bdde1404303e825488abced234b6701347cd0302040d8137b3e87cc"
+RPM_NAME = "calligra-karbon-3.2.1-7.20.aarch64.rpm"
+RPM_HASH = "6749fb70677cbfb0a90afb36d33042af67572efa2eec9d219dd5421b035b1b51607dd41cb4f4f79f527077eafd5b90cca4f58b3bae6ddb37eaa667e759de7bc1"
 
 RPROVIDES:${PN} += "calligra-karbon \
 libkarboncommon.so.17 \
@@ -41,7 +41,7 @@ libkowidgetutils.so.17 \
 libkundo2.so.17 \
 libm.so.6 \
 libpigmentcms.so.17 \
-libpoppler.so.129 \
+libpoppler.so.130 \
 librevenge-0.0.so.0 \
 librevenge-stream-0.0.so.0 \
 libstdc++.so.6 \

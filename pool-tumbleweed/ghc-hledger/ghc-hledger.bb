@@ -4,11 +4,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.28"
 
-RPM_NAME = "ghc-hledger-1.28-3.1.aarch64.rpm"
-RPM_HASH = "d8e840ff1572025ebd827e95032bcb0d0e89a68965c451eeda8af49ff1a011e2e64ba12da493a170d247760ece979d936ba15fc732c2da299f8b71ace11e5373"
+RPM_NAME = "ghc-hledger-1.28-3.2.aarch64.rpm"
+RPM_HASH = "04d639bc5e9f341cc4cee2288b84ae3a69aad9a86febf800a8ca44212ef87a17d6020e691532ce0abeb826c56123f5922abfa8502445574d6c62acad4411d87e"
 
 RPROVIDES:${PN} += "ghc-hledger \
-libHShledger-1.28-LMGraoAEV376eBGXHCUD0u-ghc9.4.5.so"
+libHShledger-1.28-6xu5mKG0SdnGvrDCbce5sU-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSDecimal-0.5.2-1qhxZ7R9Om3AQz2LFWOWmX-ghc9.4.5.so \
 libHSDiff-0.4.1-CiDqeLEcsRQOQjfgZOPVP-ghc9.4.5.so \
@@ -39,7 +39,7 @@ libHScall-stack-0.4.0-K9VxYWjBEvtITBfD6bL7Dk-ghc9.4.5.so \
 libHScase-insensitive-1.2.1.0-AumZoR4Lds63HJj8OQwHY3-ghc9.4.5.so \
 libHScassava-0.5.3.0-6nKMpykUjDPH1yduUJ1iAD-ghc9.4.5.so \
 libHScassava-megaparsec-2.0.4-HU3QoIYvAPIHgP080eBDPM-ghc9.4.5.so \
-libHSclock-0.8.3-Bn4LVnP2KGzGGqLjq4BuLV-ghc9.4.5.so \
+libHSclock-0.8.4-Kk7SFw4SNhZ8ktwfjRIPil-ghc9.4.5.so \
 libHScmdargs-0.10.22-JxALoPeruUH3tSM40P8Mx-ghc9.4.5.so \
 libHScolour-2.3.6-7jQe2xj5Lsa5MbX38iH7Ln-ghc9.4.5.so \
 libHScomonad-5.0.8-9UnH7KDg5138z3eBCPM7y4-ghc9.4.5.so \
@@ -60,7 +60,7 @@ libHSdlist-1.0-BmTLN13CmmLQvuHz7BjP9-ghc9.4.5.so \
 libHSdoclayout-0.4.0.1-9Y8Rw4EdBjz2IhzjzOiBy0-ghc9.4.5.so \
 libHSemojis-0.1.2-Gz9J6Rv977iEZp4TYp7wAm-ghc9.4.5.so \
 libHSexceptions-0.10.5-ghc9.4.5.so \
-libHSextra-1.7.14-BoqGpItPSHp5TXSaJGSPpo-ghc9.4.5.so \
+libHSextra-1.7.14-9MsHIUa0FAo4DKg07m0mTc-ghc9.4.5.so \
 libHSfile-embed-0.0.15.0-LJLaBgMyS4K2tBVYbzJ0uw-ghc9.4.5.so \
 libHSfilepath-1.4.2.2-ghc9.4.5.so \
 libHSfoldable1-classes-compat-0.1-JP9wXcYYGsT10VsvIV9rpl-ghc9.4.5.so \
@@ -72,7 +72,7 @@ libHSgithash-0.1.7.0-99BBKgCWJJUA6aWVuD3QRz-ghc9.4.5.so \
 libHShashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt-ghc9.4.5.so \
 libHShashtables-1.3.1-AhYwUdJr2hP9YbqppAld0p-ghc9.4.5.so \
 libHShaskeline-0.8.2-ghc9.4.5.so \
-libHShledger-lib-1.28-KVtwO74sgvi1hMRwtb8EwS-ghc9.4.5.so \
+libHShledger-lib-1.28-8CRsXBZZAO2KJcvUK9hqic-ghc9.4.5.so \
 libHShtml-1.0.1.2-U7qWIp0bJwCnAFPlj3UZy-ghc9.4.5.so \
 libHSindexed-traversable-0.1.2.1-1XiSi5jKFt6BqKufaNXxBs-ghc9.4.5.so \
 libHSindexed-traversable-instances-0.1.1.2-5OovVMCdJKzAImUo6B0vBJ-ghc9.4.5.so \

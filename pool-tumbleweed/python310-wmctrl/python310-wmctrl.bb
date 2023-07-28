@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.4"
 
-RPM_NAME = "python310-wmctrl-0.4-2.4.noarch.rpm"
-RPM_HASH = "ae5da9d95b6fc359822109be770e50065790b4599dc1876c65f8eafbc495347c7ef13e9fb6a3ac18c27c0113b99fffb3bde0d568dcba635e8fd16af176c4e60e"
+RPM_NAME = "python310-wmctrl-0.4-2.5.noarch.rpm"
+RPM_HASH = "1fb778ff93dc85a000207f33aa35ec7ec3669f74d555583c1f8126d95afe50f99f7818c7ca9b0cf21d94a1513b5dfd4e68ed9498d131d48eca013bd42a6835b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-wmctrl \

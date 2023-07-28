@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "0.83"
 
-RPM_NAME = "vim-plugin-snipmate-0.83-55.1.noarch.rpm"
-RPM_HASH = "9d398a40ed6f3d31af459e8029a1eeed159df2ed098f72bfe623ed3f7992bef5f5d6277853e3fa851dd2c5bd7f11627d256cf7a6c1b67ce137a43dc9fe93bebf"
+RPM_NAME = "vim-plugin-snipmate-0.83-56.1.noarch.rpm"
+RPM_HASH = "961667f24a31589fcd5a0048f1616026c210eeda975451bc89bc221bf07266d7bab63ea7b5e1263511919caff1ae8f9334da3b94f2f6e786859c824df4933743"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-snipmate"

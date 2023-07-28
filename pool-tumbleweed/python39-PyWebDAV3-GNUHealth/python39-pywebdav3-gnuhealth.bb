@@ -9,10 +9,10 @@ can be run as daemon. \
 Port from Andrew Leech PyWebDAV3 library to Support GNU Health."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.10.3"
+PV = "0.12.0"
 
-RPM_NAME = "python39-PyWebDAV3-GNUHealth-0.10.3-1.19.noarch.rpm"
-RPM_HASH = "55f32658562427ad16f36afebac9b8c4b64be16eff30e7174b7cad86c6d8acb5042119de85ab3fe8695d2d11f0fd907569fe6c32f255c9866b4fe4ce27c4311c"
+RPM_NAME = "python39-PyWebDAV3-GNUHealth-0.12.0-1.1.noarch.rpm"
+RPM_HASH = "89c5861c11ed374cd3a655d3183ffe592be164e4edcedf5e1d1458f1251c99e92e25b08ae02d62122d5fdb4c74b272e921a6516ecbd62c10f8c6864876e6cd48"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pywebdav3-gnuhealth \

@@ -6,10 +6,10 @@ developers can use WebP to compress, archive and distribute digital \
 images more efficiently."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.3.0"
+PV = "1.3.1"
 
-RPM_NAME = "libwebpdecoder3-1.3.0-2.1.aarch64.rpm"
-RPM_HASH = "9cfec718471dffcf4171b4c567816f0f0c773d3c5477245b1b4a88c1cda6321bbee649a1d0ed18ad4a7108285d1ca95de9d88c48818e7e5bf30cb0b88904e726"
+RPM_NAME = "libwebpdecoder3-1.3.1-1.1.aarch64.rpm"
+RPM_HASH = "1625f7b3abfd33b8dd9f90fc1bb6dd26663d08a4fe24cf3e08239a3af7730f824bf7ba14d8b82f4a8fba26a5529856bd28c210dd85d49666287d0eaaf1a5f121"
 
 RPROVIDES:${PN} += "libwebpdecoder.so.3 \
 libwebpdecoder3"

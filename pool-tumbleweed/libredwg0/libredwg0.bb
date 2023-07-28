@@ -3,10 +3,10 @@ DESCRIPTION = "GNU LibreDWG is a C library to handle DWG files. It can replace t
 OpenDWG libraries. DWG is the native file format of AutoCAD."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.12.5"
+PV = "0.12.5.5907"
 
-RPM_NAME = "libredwg0-0.12.5-3.5.aarch64.rpm"
-RPM_HASH = "fa008178cf5804854b56a9de08f29b29ac820998a118178081fff718ec3c4b165d5c35fea8e28e92b4dc75296f8076c74240968ae03165ede68d9f67c0e74568"
+RPM_NAME = "libredwg0-0.12.5.5907-1.1.aarch64.rpm"
+RPM_HASH = "ee2d17b5db6e3834069ab0a78c15c71dd80c88bcc265a936bed95793117be3b53ede367f28092b70a0f1f8a2c5fc4395a0d8e5db7b4ae37521e091a40addad6e"
 
 RPROVIDES:${PN} += "libredwg.so.0 \
 libredwg0"

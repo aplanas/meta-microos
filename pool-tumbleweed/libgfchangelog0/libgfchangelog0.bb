@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-only | LGPL-3.0-or-later"
 
 PV = "11.0"
 
-RPM_NAME = "libgfchangelog0-11.0-3.1.aarch64.rpm"
-RPM_HASH = "3c6a3c4f9f44af2fa4059fd71e2e2a603294a76196532ea5ea1e62d15ad2581a86ee7b22c6f3526b2d24a3239b7b6337636aab69f2f7b5345d54e08057db3694"
+RPM_NAME = "libgfchangelog0-11.0-4.1.aarch64.rpm"
+RPM_HASH = "64d3c3c1451cb0ba480a095c5e65b96f5cb1560dddbbebaca71ae1862efcaf958305b411f8ddbf420a6e9bd7cd666dc4dd232cd254be4566fdeceef0b8d315df"
 
 RPROVIDES:${PN} += "libgfchangelog.so.0 \
 libgfchangelog0"

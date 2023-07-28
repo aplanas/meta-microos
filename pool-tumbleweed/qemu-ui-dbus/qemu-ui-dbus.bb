@@ -2,10 +2,10 @@ SUMMARY = "D-Bus based UI support for QEMU"
 DESCRIPTION = "This package contains a module for doing D-Bus based UI for QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.2"
+PV = "8.0.3"
 
-RPM_NAME = "qemu-ui-dbus-8.0.2-2.1.aarch64.rpm"
-RPM_HASH = "ef8cd24ebd64b4f21bf1a44d38453eeff09672e179caf2c51599df85e7b5c1b762213a08a1d8ab48fd05cadb845e984c49f8d5023cb065c038bd4526c0801ced"
+RPM_NAME = "qemu-ui-dbus-8.0.3-1.1.aarch64.rpm"
+RPM_HASH = "f8d1b218f782cde0960145f6db3d6948287caa2b034000389ceff71fbb212ffd6cc488afe257c1443d31a61848fc8d2c7cf4a91035d39dd025046a0ef1906efa"
 
 RPROVIDES:${PN} += "qemu-ui-dbus"
 

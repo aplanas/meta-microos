@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
 PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-gdb-pretty-printers-7.5.4.2-1.3.noarch.rpm"
-RPM_HASH = "6a59937f9a90810156c8d2c7ea6fac3a642362cb39650dd4bc141e33d84d59019f6c5f3fc6ed5820951b3a0c676954cc976f1e251dd922bc0b9c4026190f08dd"
+RPM_NAME = "libreoffice-gdb-pretty-printers-7.5.4.2-1.5.noarch.rpm"
+RPM_HASH = "89db2e6b352d5469c28cafe6b194e9c92cabd3956b23241c348f07ebe15aea74b3f8e8d4dd83400cd43f7c9ce60a28fd7a1b5326d48671635acceef5b5fa030f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-gdb-pretty-printers"

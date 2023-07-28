@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
 PV = "0.28.0"
 
-RPM_NAME = "exiv2-lang-0.28.0-1.1.noarch.rpm"
-RPM_HASH = "b88bf7a0b3fd1b2a7c5eb1e51982ffc83dfae30f116e69b965597f8cc9bfdbea7e888c883a73f1606582c698a89ef3a99635b95ed2b7af33d00edb9a2cad1d8d"
+RPM_NAME = "exiv2-lang-0.28.0-2.1.noarch.rpm"
+RPM_HASH = "f3aa385ad55990ff7f7494114af6c81517ae6c55b2eb77fbd65ada557d8ba52c66e81cd1e8b32fe81e4067a49494ceca62ddfc5600178f0d5b6ee02e73223822"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "exiv2-lang \

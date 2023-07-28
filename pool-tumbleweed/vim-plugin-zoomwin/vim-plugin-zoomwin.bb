@@ -8,8 +8,8 @@ LICENSE = "Vim"
 
 PV = "24"
 
-RPM_NAME = "vim-plugin-zoomwin-24-55.1.noarch.rpm"
-RPM_HASH = "d8974cf313cf06918037d6f2147958c75c525a469bb4e2a7b39777dd17186f0f41aced84c51881510c9d1cc152c25b5ae3154f0a806f2b44cff4c949b9b23e83"
+RPM_NAME = "vim-plugin-zoomwin-24-56.1.noarch.rpm"
+RPM_HASH = "15dc48d255d09932b35d63ff108ca165960436dbb4f745a62c5ef074ce14e9415e16c5f0a9d47607428a397ac4b905835c3090471875439e0f932711174c06ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-zoomwin"

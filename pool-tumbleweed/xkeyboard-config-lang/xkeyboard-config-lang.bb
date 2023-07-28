@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xkeyboard-config"
 DESCRIPTION = "Provides translations for the 'xkeyboard-config' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "2.38"
+PV = "2.39"
 
-RPM_NAME = "xkeyboard-config-lang-2.38-2.1.noarch.rpm"
-RPM_HASH = "0e14bd11ebebc7895db0bcd2241fd6cbfe686f922e1ac171ec31640c0b0cd5271f69377988b7178f65ef6d29d20e37c64051cb51ea0cc2a5be7d45f9013f8edc"
+RPM_NAME = "xkeyboard-config-lang-2.39-1.1.noarch.rpm"
+RPM_HASH = "08e2a33d03e30542c60112f1bc8b46d278ea458c20d060bf02a27a9d5000d9fbfa1e108573351cd12c8fc1e64cdb213d239f60288cdeb203647fada79209d7d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xkeyboard-config-af \

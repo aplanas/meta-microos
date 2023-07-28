@@ -18,13 +18,13 @@ Pandoc documents. \
 'Pandoc' structure to and from JSON."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.23"
+PV = "1.23.0.1"
 
-RPM_NAME = "ghc-pandoc-types-1.23-1.6.aarch64.rpm"
-RPM_HASH = "b33e7bdaf8935ca1910baad476ab78f25f5c9c4ffb463ad46ecd52a1302d864ecdff46beb7cb19aea352f76c7edcd2084d68f337244a60dfd45aaae142a6cd7b"
+RPM_NAME = "ghc-pandoc-types-1.23.0.1-1.1.aarch64.rpm"
+RPM_HASH = "f8bf5f6b3a0fc0b39c8ea207107f5c67a73c6785cb6bee2ac95f94dc5e7af75b519780b3c423f893b7fac6a9f67d80beaac400b74022caf77d19800bbc188300"
 
 RPROVIDES:${PN} += "ghc-pandoc-types \
-libHSpandoc-types-1.23-4C1nzwOnt973xRAA9sp531-ghc9.4.5.so"
+libHSpandoc-types-1.23.0.1-EcvZluXpPb0J10kJC4UfRg-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV-ghc9.4.5.so \
 libHSQuickCheck-2.14.3-6dq2izV8oSq1BobaDA598X-ghc9.4.5.so \

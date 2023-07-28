@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.1"
 
-RPM_NAME = "vim-plugin-searchcomplete-1.1-55.1.noarch.rpm"
-RPM_HASH = "f09c0838caf4054f275607378f4dfd91a386535f65dfb0f2f5b613066a3e0bfbe8824e5ed7dfc52ac8f5cd35c66dced206580fd76b49465312f10c88aec0ef3a"
+RPM_NAME = "vim-plugin-searchcomplete-1.1-56.1.noarch.rpm"
+RPM_HASH = "687eb209abe578918bd479c1237dda23c76e23b3868e83df07dae3358fb8916f25a56e58043cf42b1a806245208cfca9b7eb4ac1a0d19b66eb196cadef35fb4a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-searchcomplete"

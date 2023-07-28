@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Czech Translations"
 DESCRIPTION = "YaST2 - Czech translations."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230708.d1de37aed1"
+PV = "84.87.20230714.966688ddd0"
 
-RPM_NAME = "yast2-trans-cs-84.87.20230708.d1de37aed1-1.1.noarch.rpm"
-RPM_HASH = "80819776d6d252f88c963659048e4abe2d222b3039f08d35558a3e985722cfcbfa10977233a7ff561081e66a0e1a396d6f9fe9b838d67dc27ef93f0c92c6a3b0"
+RPM_NAME = "yast2-trans-cs-84.87.20230714.966688ddd0-1.1.noarch.rpm"
+RPM_HASH = "88fb87c377cbc316e5b0eef0f142bfdcfd747e9ef7c78b8e3333e2a14252a9e5c3bdbd070579c7779d803659ffb16543227b666ae6a8e7f9eae45bac6121edaf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-cs \

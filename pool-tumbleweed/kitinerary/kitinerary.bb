@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "23.04.3"
 
-RPM_NAME = "kitinerary-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "3bfd44a09a1cf2ac3f01544ddcc27f12e168311f86b7de4b8e225ff629903e6f2c74b60387b30129aad17c98468700935b787f89abfe30cd873c575e942ed1d8"
+RPM_NAME = "kitinerary-23.04.3-1.2.aarch64.rpm"
+RPM_HASH = "7127e2b0793417b3e9f0062b6d85b66e4d1ad1f91d19d4982cf1244c2afa6d4577a049eede2bea4ff8b8c069cd5845e3ff764040c69b4e8937372ca5a1ee7f5f"
 
 RPROVIDES:${PN} += "kitinerary"
 

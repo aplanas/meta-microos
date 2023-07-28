@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "5.2.1"
 
-RPM_NAME = "ocaml-ppx_deriving-devel-5.2.1-2.2.aarch64.rpm"
-RPM_HASH = "201f8bb3513b203a887a73afd50a8e187bea51c16df6d418a5949da7ecb9df3e79777d541801a39badff931d0bf7d9bba6562493e04dc108be243f5520a7a0a9"
+RPM_NAME = "ocaml-ppx_deriving-devel-5.2.1-2.3.aarch64.rpm"
+RPM_HASH = "cd6b0f81da225816f6fd9274450eae7b34f67f727dfbe77eccaff778fa81d8aa111e1e8740d5b6d444817f19a3f22fc8e9a0b1e47591ef6852b0174cf4b4aa85"
 
 RPROVIDES:${PN} += "ocaml-Ppx-deriving \
 ocaml-Ppx-deriving-create \
@@ -65,6 +65,7 @@ ocaml-Astlib--Ast-412 \
 ocaml-Astlib--Ast-413 \
 ocaml-Astlib--Ast-414 \
 ocaml-Astlib--Ast-500 \
+ocaml-Astlib--Ast-501 \
 ocaml-Astlib--Location \
 ocaml-Astlib--Longident \
 ocaml-Astlib--Parse \

@@ -2,10 +2,10 @@ SUMMARY = "Translation files for freeciv"
 DESCRIPTION = "Translation files for freeciv main package and clients."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.0.7"
+PV = "3.0.8"
 
-RPM_NAME = "freeciv-lang-3.0.7-1.2.noarch.rpm"
-RPM_HASH = "e531d63a1124e8ccc275c6a681c6f0076933a299ad3ea16169d7de9756ea8ee9ba47c7cdc8f8f4ab6ebfb5a26ff43ccc758f8ce51b2c914e912be94c2573dd16"
+RPM_NAME = "freeciv-lang-3.0.8-1.1.noarch.rpm"
+RPM_HASH = "a0bed1007146fc5f4d2d10b49816754bd22284d50609ca5f7b0b9dc444d3c5f1e39d7595367e6a65c2b68a9958330ee733cb2566c39d4bc456f40a6c093ffcd7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "freeciv-lang \

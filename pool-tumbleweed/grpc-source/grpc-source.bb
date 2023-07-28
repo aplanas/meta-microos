@@ -2,10 +2,10 @@ SUMMARY = "Source code of gRPC"
 DESCRIPTION = "This subpackage contains source code of the gRPC reference implementation."
 LICENSE = "Apache-2.0"
 
-PV = "1.56.0"
+PV = "1.56.2"
 
-RPM_NAME = "grpc-source-1.56.0-1.3.noarch.rpm"
-RPM_HASH = "ba0a01a1d00205fbe4fe0f50f52a86ec90b42b54158df0d379526c349066a17b6151ddb3a9b7a7701e4ab0a4b1deac996ab85c982b07e17b3625b17541f57710"
+RPM_NAME = "grpc-source-1.56.2-1.1.noarch.rpm"
+RPM_HASH = "41c5e4c0803bd612d65d0fd4b1268ca40c49c5a86866aa0907ba280ff250b6b64cbb9f9d8f6710f4f4dc056bb22ff1021e4d081c64796d3fb60676327e3172b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grpc-source"

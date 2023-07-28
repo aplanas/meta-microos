@@ -5,10 +5,10 @@ LICENSE = "MIT"
 
 PV = "1.6.0.8"
 
-RPM_NAME = "ghc-yesod-persistent-devel-1.6.0.8-2.8.aarch64.rpm"
-RPM_HASH = "f0567620bcf4a32b61e9214c9d71fc18d82eb7cfeea171a0862aa31197e213aac7ad402e24197129663fba95b64af959a470e00eeda6a0f5d5ffb84b16feae53"
+RPM_NAME = "ghc-yesod-persistent-devel-1.6.0.8-2.10.aarch64.rpm"
+RPM_HASH = "be72004f59ee7b48f93511f63fe03a8dc283ace5bc76043cbc8fddc303507bc82afba05b28c67a11f34cc35fabc1280db7fdc9f40edadbd78e7d6d8c71bd114f"
 
-RPROVIDES:${PN} += "ghc-devel-yesod-persistent-1.6.0.8-Jui070TDUWhEJxvpNjmjRf \
+RPROVIDES:${PN} += "ghc-devel-yesod-persistent-1.6.0.8-A587fdCgueU2UmsZUmFzaX \
 ghc-yesod-persistent-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -20,7 +20,7 @@ ghc-devel-persistent-2.14.5.1-8aZiHAHWity6p3rqRx3MdJ \
 ghc-devel-resource-pool-0.4.0.0-CALzen0PV047R0s78YnQuW \
 ghc-devel-resourcet-1.2.6-69eF6Rrz9wX13sOJF59GPv \
 ghc-devel-transformers-0.5.6.2 \
-ghc-devel-yesod-core-1.6.24.2-7isfGP7hc9NLFaHQAgg8t \
+ghc-devel-yesod-core-1.6.24.3-FuwsWoOUEyTCufqnix4g5P \
 ghc-yesod-persistent"
 
 inherit rpm

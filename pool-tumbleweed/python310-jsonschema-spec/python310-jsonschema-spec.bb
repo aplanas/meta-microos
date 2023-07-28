@@ -2,20 +2,19 @@ SUMMARY = "JSONSchema Spec with object-oriented paths"
 DESCRIPTION = "JSONSchema Spec with object-oriented paths."
 LICENSE = "Apache-2.0"
 
-PV = "0.1.6"
+PV = "0.2.3"
 
-RPM_NAME = "python310-jsonschema-spec-0.1.6-1.1.noarch.rpm"
-RPM_HASH = "4a5e0406f28eed6e7166705934342e28dfb397532875ad34e150f5ddcf2684d176cbe738f27399d29e3e7a57b30a98030ea91d39e8b9ea0b567c2a422661ccf0"
+RPM_NAME = "python310-jsonschema-spec-0.2.3-1.1.noarch.rpm"
+RPM_HASH = "63a840c408092d10a95bbe5423e6a397319e4e63684a215d149b7b70c3d1f908519f6736b162cf27dba095c62e673d443cf1d4a03cffe9e1886e6cfd0a3c9a39"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-jsonschema-spec \
 python310-jsonschema-spec \
 python3dist-jsonschema-spec"
 
-RDEPENDS:${PN} += "-python310-jsonschema >= 4.0.0 with python310-jsonschema < 4.18 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python310-PyYAML \
 python310-pathable \
-python310-typing-extensions"
+python310-referencing"
 
 inherit rpm

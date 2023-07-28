@@ -4,17 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.3"
 
-RPM_NAME = "ghc-filepattern-devel-0.1.3-2.8.aarch64.rpm"
-RPM_HASH = "687c9347e8485351b15141c4576cdd538142344159cef03f47ff063bbb23b366b8b350571f73cc73b973ecc9007cc77f7f6424f637bbe1a33c4bee5f738e1d55"
+RPM_NAME = "ghc-filepattern-devel-0.1.3-2.9.aarch64.rpm"
+RPM_HASH = "df8f9788293033f249f537597d870f90361c8d7be61c7ebfb0f0e8bf61ee0e6ae5c5c0b54d243d0152e654bdd520063a56189cd3523bfb760dac069904439a8e"
 
-RPROVIDES:${PN} += "ghc-devel-filepattern-0.1.3-ZuemUYkhwGA1RPuLxzdA9 \
+RPROVIDES:${PN} += "ghc-devel-filepattern-0.1.3-3YAZmlhLkyq9JKYM4OPVoZ \
 ghc-filepattern-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.1.0 \
 ghc-devel-directory-1.3.7.1 \
-ghc-devel-extra-1.7.14-BoqGpItPSHp5TXSaJGSPpo \
+ghc-devel-extra-1.7.14-9MsHIUa0FAo4DKg07m0mTc \
 ghc-devel-filepath-1.4.2.2 \
 ghc-filepattern"
 

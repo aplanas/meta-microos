@@ -5,10 +5,10 @@ Different levels of playing strength are available. Pentobi can \
 save and load games along with comments and move variations."
 LICENSE = "GPL-3.0-only"
 
-PV = "23.0"
+PV = "23.1"
 
-RPM_NAME = "pentobi-23.0-1.3.aarch64.rpm"
-RPM_HASH = "5858b3dc4b1d42ceec124d313ff1d942f7ffe96b6f7013272abc4c55317441ecf218f9fb659ce14efc34e8807e9ea00d6b1bf80345bd8d68675f416398c48d0a"
+RPM_NAME = "pentobi-23.1-1.1.aarch64.rpm"
+RPM_HASH = "7378364f1c6a2553ecabe16a220efd65a0b99c8cb554e4f9da0602b61e58c8ed4e950046271262d1de779acc8bc50419b8999464d1ecb8e8f4b19ff9f1f01a26"
 
 RPROVIDES:${PN} += "pentobi"
 

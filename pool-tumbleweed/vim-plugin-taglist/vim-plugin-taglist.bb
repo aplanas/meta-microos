@@ -6,8 +6,8 @@ LICENSE = "ISC"
 
 PV = "4.6"
 
-RPM_NAME = "vim-plugin-taglist-4.6-55.1.noarch.rpm"
-RPM_HASH = "4565330c59fcf8a5d1429e7caedcd78a99928c26fb23ec9c19370e9290b48175cca35f725d3c1058a707c8315487399492350999e5853ebf3274adcb3e35f47c"
+RPM_NAME = "vim-plugin-taglist-4.6-56.1.noarch.rpm"
+RPM_HASH = "224fcf50421f6f5291fb6f9969130ba610b4760df596441b859e44d6dd12c29375ffbd557a38b48a9eae7533965329b6238e900380e173004ec92557b97f8ab7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-taglist"

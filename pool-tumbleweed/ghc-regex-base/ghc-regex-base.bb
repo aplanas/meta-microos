@@ -18,8 +18,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.94.0.2"
 
-RPM_NAME = "ghc-regex-base-0.94.0.2-3.6.aarch64.rpm"
-RPM_HASH = "8edbc89f696d9871c448571c1e089755d93a283cbbacbc0b73dd8766abfd109370486c64f45c24b190fe90cc52f829d28fe770da686bbe4377068c785cef141d"
+RPM_NAME = "ghc-regex-base-0.94.0.2-4.1.aarch64.rpm"
+RPM_HASH = "5496c1ed7a397a5c1bdb25d08faee578e928a3443b06b7146cb5dc9345db5c09e1530c208b48ad9a8a2e469bf77a95037e672066b6cd41a9e6a1d19684b619f1"
 
 RPROVIDES:${PN} += "ghc-regex-base \
 libHSregex-base-0.94.0.2-8EhYuxSr6UD5zE7cP6wrkq-ghc9.4.5.so"

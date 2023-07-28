@@ -10,10 +10,10 @@ Main Features of FanFicFare: \
     - Ability to update already downloaded book"
 LICENSE = "GPL-3.0-only"
 
-PV = "4.21.0"
+PV = "4.25.0"
 
-RPM_NAME = "python39-fanficfare-4.21.0-2.4.noarch.rpm"
-RPM_HASH = "da6c6e93d39894f90a633bd554be8ca906848cf4bce7d67c10fe46187f83cec53900e26b2366f0077f2bfacb973e847601eb5b53b431edc7ec6ea241110dae4d"
+RPM_NAME = "python39-fanficfare-4.25.0-1.1.noarch.rpm"
+RPM_HASH = "0ba64b1fd0c0776d99d884353de6c7c69ff4e943f68c516840765efaf4b9b870dc8434562725d70cee769971d061f4a9373a5fd9ef923a8f969cf25e2b865f14"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-fanficfare \
@@ -23,13 +23,15 @@ python3dist-fanficfare"
 RDEPENDS:${PN} += "/usr/bin/python3.9 \
 /usr/bin/sh \
 python-abi \
+python39-Brotli \
 python39-beautifulsoup4 \
 python39-chardet \
 python39-cloudscraper \
 python39-html2text \
 python39-html5lib \
+python39-requests \
 python39-requests-file \
-python39-setuptools \
+python39-urllib3 \
 update-alternatives"
 
 inherit rpm

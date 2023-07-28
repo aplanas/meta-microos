@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the shared library for the decompression ro
 for ancient formats."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.0.0"
+PV = "2.1.0"
 
-RPM_NAME = "libancient2-2.0.0-1.4.aarch64.rpm"
-RPM_HASH = "e0fa8f37b66fadcecc50f828a1d9e274cbd3820323fab8732f6fffc3101ff63bed6caf8873ab21edf828cef8efe61e81867cd3be4fa7994f7d85442e692e4e5e"
+RPM_NAME = "libancient2-2.1.0-1.1.aarch64.rpm"
+RPM_HASH = "844277e411ecdd73f002b779cc6f098129a034721fd26c9b803a94ec526435fe54537aa61d8eb83a7dace528f71e2799a3fb0a060b2f30c5434a9fa0aeb8f3d4"
 
 RPROVIDES:${PN} += "libancient.so.2 \
 libancient2"

@@ -10,10 +10,10 @@ This application is continuation of project called AntiMicro, \
 which was later abandoned and revived by juliagoda."
 LICENSE = "GPL-3.0-or-later & Zlib"
 
-PV = "3.3.3"
+PV = "3.3.4"
 
-RPM_NAME = "antimicrox-3.3.3-1.4.aarch64.rpm"
-RPM_HASH = "2694ca09cbb262c717443ee0bda1cc6f4168c756efd1df61b0f68fbb70f9b930ea718ead3f5b78e65a7a71e3015f6ed419f61e72c86cd0f81cff52754b8c0c5e"
+RPM_NAME = "antimicrox-3.3.4-1.1.aarch64.rpm"
+RPM_HASH = "73086b4546fdd592a34681cce2f1e6fafe4462389fe54c80369202a7c01c9e669eb8b30f84d994d7922b80ad0b3158f6e3ccaaf46c0f04a5e2307f83dc7402b4"
 
 RPROVIDES:${PN} += "antimicrox"
 

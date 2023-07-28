@@ -6,11 +6,11 @@ LICENSE = "MIT"
 
 PV = "3.3.6"
 
-RPM_NAME = "ghc-warp-tls-3.3.6-1.7.aarch64.rpm"
-RPM_HASH = "0abd0a0f36354f681405f45122f2c4c4739899e03355026bc05fa7fb3b5082a526f87d9db3527813d919ea123c45c27323da214f12635e9aa15f4235a7307701"
+RPM_NAME = "ghc-warp-tls-3.3.6-1.8.aarch64.rpm"
+RPM_HASH = "edb3fed2112aeeb85133d64a818d156ba72b8b829e59489839cb6342d9bad93503eda431f3c9f11cc050377b510cf8086bd0e1755fc678a3a305770f69a0837b"
 
 RPROVIDES:${PN} += "ghc-warp-tls \
-libHSwarp-tls-3.3.6-BIAYbi0ylEQD1wDWwu7oKA-ghc9.4.5.so"
+libHSwarp-tls-3.3.6-6emvz7T7HmGIqf2xAyfin8-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSappar-0.1.8-JYpyJYPkUOgKorqU8WSWRv-ghc9.4.5.so \
 libHSarray-0.5.4.0-ghc9.4.5.so \
@@ -29,7 +29,7 @@ libHSbyteorder-1.0.4-3C2mbNH4DNU4EJIfEbmhBl-ghc9.4.5.so \
 libHSbytestring-0.11.4.0-ghc9.4.5.so \
 libHScase-insensitive-1.2.1.0-AumZoR4Lds63HJj8OQwHY3-ghc9.4.5.so \
 libHScereal-0.5.8.3-LNsxCTyOF85AKtb4iLTs8f-ghc9.4.5.so \
-libHSclock-0.8.3-Bn4LVnP2KGzGGqLjq4BuLV-ghc9.4.5.so \
+libHSclock-0.8.4-Kk7SFw4SNhZ8ktwfjRIPil-ghc9.4.5.so \
 libHScontainers-0.6.7-ghc9.4.5.so \
 libHScryptonite-0.30-cxpuRFsDaEEZnBeTxvUaJ-ghc9.4.5.so \
 libHSdata-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ-ghc9.4.5.so \
@@ -72,7 +72,7 @@ libHStext-2.0.2-ghc9.4.5.so \
 libHStime-1.12.2-ghc9.4.5.so \
 libHStime-manager-0.0.0-49hD2RcPrUEG8anOiBePCj-ghc9.4.5.so \
 libHStls-1.6.0-GPxmmQRGk0xt2NkvZcJeD-ghc9.4.5.so \
-libHStls-session-manager-0.0.4-H4ntEZmH6lq6RcNU9soHmP-ghc9.4.5.so \
+libHStls-session-manager-0.0.4-E4DLe19pSesGogH0zlyp57-ghc9.4.5.so \
 libHStransformers-0.5.6.2-ghc9.4.5.so \
 libHSunix-2.7.3-ghc9.4.5.so \
 libHSunix-compat-0.6-79KxxZMmklx25hsmeEnenN-ghc9.4.5.so \

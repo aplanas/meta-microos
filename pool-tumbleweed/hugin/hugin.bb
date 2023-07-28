@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2022.0.0"
 
-RPM_NAME = "hugin-2022.0.0-1.8.aarch64.rpm"
-RPM_HASH = "a9d64be4a159a85a57d471a72aee00a2a7334a4efa1cacf2b3cae7c3dfbb5a1d245c343c89597fb3fa943f411eebea7dbdeed15c9b60eb7bbdafce671cac7c9d"
+RPM_NAME = "hugin-2022.0.0-2.1.aarch64.rpm"
+RPM_HASH = "2aba49e7d522277ab9429e4a54a0efb2bc0e61b0fc616216c8de1c5efe686c4ca2a37f153e0aa1432156925a94402418a7fe64e5cf1939d83a5642f10398685b"
 
 RPROVIDES:${PN} += "hugin \
 libceleste.so.0.0 \
@@ -32,7 +32,7 @@ libX11.so.6 \
 libblas.so.3 \
 libboost-filesystem.so.1.82.0 \
 libc.so.6 \
-libexiv2.so.27 \
+libexiv2.so.28 \
 libfftw3.so.3 \
 libgcc-s.so.1 \
 libgomp.so.1 \

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.4"
 
-RPM_NAME = "irssi-1.4.4-2.3.aarch64.rpm"
-RPM_HASH = "2000fecfbdd3c783c05c269dac279b935bc19efa44b08e9b23c4fc0c288aa2ed587b8ecc85af27d3d19f87f40a7bb51c86bd7b7d35b91cfa90187f3dc9afebd5"
+RPM_NAME = "irssi-1.4.4-3.1.aarch64.rpm"
+RPM_HASH = "6a673f6557a944f567ef5e4388faa6bdb41920e43fe710fc174181db0e1eae2f8c8a4c1a1c029063a5bf8425e6f1e0bb87e9a671a940ce1af1e8b82be6da2fa1"
 
 RPROVIDES:${PN} += "irssi \
 libfe-perl.so \

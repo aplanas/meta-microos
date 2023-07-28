@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.9"
 
-RPM_NAME = "ghc-crypto-random-prof-0.0.9-5.6.aarch64.rpm"
-RPM_HASH = "4ef2611b160da02625694569327e3203cd8a0559ddf77d9654f689f228fed6413f9ea68a7313a31b17b144a3f0663cd3534a5937c88d0dd5c6c5a989c0ba864f"
+RPM_NAME = "ghc-crypto-random-prof-0.0.9-6.1.aarch64.rpm"
+RPM_HASH = "e39a8cf902923c0c358e261e42be5df2ec238e9f311ef3802b568d608ffb211ecb38e92affba864dcc6b5fab26a1db9fdbd5d3ae68a8f3cdf94a198b31f4ca72"
 
 RPROVIDES:${PN} += "ghc-crypto-random-prof \
 ghc-prof-crypto-random-0.0.9-60vlsiR41hHGmZ9VjOCRvw"

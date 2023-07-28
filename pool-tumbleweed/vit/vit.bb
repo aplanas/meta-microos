@@ -12,10 +12,10 @@ Features: \
  * Intelligent sub-project indenting"
 LICENSE = "MIT"
 
-PV = "2.3.0"
+PV = "2.3.1"
 
-RPM_NAME = "vit-2.3.0-1.2.noarch.rpm"
-RPM_HASH = "13bb2da0871dac0bb4d66c04072d51267b8b3951ee22ed6cc22cc8a22dc39671645df1e0c8c7c987c509dc229f75c6cfdcc93b242bb0973c1fd465fefe1921dc"
+RPM_NAME = "vit-2.3.1-1.1.noarch.rpm"
+RPM_HASH = "ebe28fdcef6b21ecad2b78fa2864d2b013c4dd9c5c4532ba6d4e03cf51aa147581f63a4e48e3ce42f0507b1803aee70fee90f797dc765713ffdf30092f928605"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist-vit \

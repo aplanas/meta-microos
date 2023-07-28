@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.23.0"
 
-RPM_NAME = "python39-jupyterlab-server-2.23.0-1.3.noarch.rpm"
-RPM_HASH = "151eab1063e08830ca4228e4757f26f56321a3912e9878f048b62675aa33356669fce594c57655901bd7ddf2a2a2d65c95a19ffb0e84473d1382f8b7eb4bd993"
+RPM_NAME = "python39-jupyterlab-server-2.23.0-1.4.noarch.rpm"
+RPM_HASH = "a753b0b3003edbc98989bff99fdfb3a8f5d3160a2a71dcebf367439bf707aa3dbda180c1dde73351d1563960c942a3f194c118ba29718f4a6281d68cf49902d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jupyterlab-server \

@@ -2,10 +2,10 @@ SUMMARY = "Thin wrapper for Terraform for working with multiple Terraform module
 DESCRIPTION = "Terragrunt is a thin wrapper for Terraform that provides extra tools for keeping your Terraform configurations DRY, working with multiple Terraform modules, and managing remote state."
 LICENSE = "MIT"
 
-PV = "0.48.1"
+PV = "0.48.3"
 
-RPM_NAME = "terragrunt-0.48.1-1.1.aarch64.rpm"
-RPM_HASH = "a8522479be2c3ffaeeec05e43d909fa6e9ac4e1d38010e87b3c2fa1352d70609fecb5b35303e6364d62bb6db888d360a588fa28378e84614d7c79ce6777f4035"
+RPM_NAME = "terragrunt-0.48.3-1.1.aarch64.rpm"
+RPM_HASH = "573fd56ddf9b0ab22bfdf32db41d31b85d0ab5a67a1fdb7e086643b9466ddeca43a5a73e71b69c8839b2f69a9f8187c01b75e8d374ac7d1d856f75b17a73cece"
 
 RPROVIDES:${PN} += "terragrunt"
 

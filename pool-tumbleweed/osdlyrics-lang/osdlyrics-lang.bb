@@ -2,10 +2,10 @@ SUMMARY = "Translations for package osdlyrics"
 DESCRIPTION = "Provides translations for the 'osdlyrics' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.5.13"
+PV = "0.5.14"
 
-RPM_NAME = "osdlyrics-lang-0.5.13-1.4.noarch.rpm"
-RPM_HASH = "8a089ecd9ac9a2a9bacd4752293f6170c09498a14b729aafec61a957c42ae5263c3fd95cbf9273bbb6e50840aa9ca49d186f91d6c344f90be702c7dd24a63516"
+RPM_NAME = "osdlyrics-lang-0.5.14-1.1.noarch.rpm"
+RPM_HASH = "3892cd53e376d846c780ed0b71c42d46d9123af658fb2e7f462ad2100bb7df328e3a477e3986944f3fe14013454530bee4068b227ca7762e7aa5626ac6061d92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-osdlyrics-cs \

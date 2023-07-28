@@ -5,11 +5,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.4"
 
-RPM_NAME = "ghc-tls-session-manager-0.0.4-4.3.aarch64.rpm"
-RPM_HASH = "efc3647a3ed989f806786b119b083070017d867bfb3a1e1ccabd9a1863076afa0440c2cb405451686643b4178441b486fe0c7e51dc475d879e70d3354ad1a649"
+RPM_NAME = "ghc-tls-session-manager-0.0.4-4.4.aarch64.rpm"
+RPM_HASH = "b66028835eaa178fe78b8854e2c8938d92d749c35a2deea3d1b68b60fe608f65db9384412d109a314c7ae615918fb4fc319cdc3be84b742b2181255651a1bb5d"
 
 RPROVIDES:${PN} += "ghc-tls-session-manager \
-libHStls-session-manager-0.0.4-H4ntEZmH6lq6RcNU9soHmP-ghc9.4.5.so"
+libHStls-session-manager-0.0.4-E4DLe19pSesGogH0zlyp57-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
 libHSasn1-encoding-0.9.6-Cdk8qspuM85LY571XnsXDt-ghc9.4.5.so \
@@ -22,7 +22,7 @@ libHSbasement-0.0.16-J8UFRjmsTYU7wBgfpjdWQn-ghc9.4.5.so \
 libHSbinary-0.8.9.1-ghc9.4.5.so \
 libHSbytestring-0.11.4.0-ghc9.4.5.so \
 libHScereal-0.5.8.3-LNsxCTyOF85AKtb4iLTs8f-ghc9.4.5.so \
-libHSclock-0.8.3-Bn4LVnP2KGzGGqLjq4BuLV-ghc9.4.5.so \
+libHSclock-0.8.4-Kk7SFw4SNhZ8ktwfjRIPil-ghc9.4.5.so \
 libHScontainers-0.6.7-ghc9.4.5.so \
 libHScryptonite-0.30-cxpuRFsDaEEZnBeTxvUaJ-ghc9.4.5.so \
 libHSdata-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ-ghc9.4.5.so \

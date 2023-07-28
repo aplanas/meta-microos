@@ -4,10 +4,10 @@ continued access to an expiring data value while a single thread generates a \
 new value."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.2.1"
+PV = "1.2.2"
 
-RPM_NAME = "python3-dogpile.cache-1.2.1-1.2.noarch.rpm"
-RPM_HASH = "8bcf42d9f27d8300ed510f3c751e8e1da987798c506a9c3859721e08ef7091ccd5bd6c5478bf30846603b948bbf0de76d7dc671207aa7fa9a07213e0f5dc3d34"
+RPM_NAME = "python3-dogpile.cache-1.2.2-1.1.noarch.rpm"
+RPM_HASH = "2d28db49951f8c02d0a2f6b7a50a8ac670143046be60e6afbf8dbffca6656f86339fd193721905f893abf3ef77e625841870286b9353eca4dde6597f1d20f5f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dogpile.cache \

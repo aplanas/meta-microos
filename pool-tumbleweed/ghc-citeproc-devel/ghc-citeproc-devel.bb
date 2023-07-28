@@ -4,11 +4,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.8.1"
 
-RPM_NAME = "ghc-citeproc-devel-0.8.1-2.7.aarch64.rpm"
-RPM_HASH = "a9acea8f3afc0b241e4185ea605e5b54f3dd795b92c12712fb33e7fff1192d65ec6f5c57167e10f53f6ab0e1a3beff5e630f7bc976ac9d3a6daef38cffe8f03e"
+RPM_NAME = "ghc-citeproc-devel-0.8.1-2.8.aarch64.rpm"
+RPM_HASH = "7c961cf578c8c5e72aa8346084619eec0b36084f01df64cd9b1ab3e863177d7ca2da0313b3caff9f30ca16968e145c20e9d7cd97f76174e975cac64610718b57"
 
 RPROVIDES:${PN} += "ghc-citeproc-devel \
-ghc-devel-citeproc-0.8.1-Ex3LMLw4y9Q5nAZv8bt8hk"
+ghc-devel-citeproc-0.8.1-IdWRS5bkx4mHz8SxZquXUQ"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-citeproc \
@@ -22,7 +22,7 @@ ghc-devel-containers-0.6.7 \
 ghc-devel-data-default-0.7.1.1-5iNQUD7GKkTDiLEyJaqXSy \
 ghc-devel-file-embed-0.0.15.0-LJLaBgMyS4K2tBVYbzJ0uw \
 ghc-devel-filepath-1.4.2.2 \
-ghc-devel-pandoc-types-1.23-4C1nzwOnt973xRAA9sp531 \
+ghc-devel-pandoc-types-1.23.0.1-EcvZluXpPb0J10kJC4UfRg \
 ghc-devel-safe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds \
 ghc-devel-scientific-0.3.7.0-D5F2vql7x79Dy9hx72OES1 \
 ghc-devel-text-2.0.2 \

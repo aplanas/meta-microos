@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage provides common directories, and the UID and GUID
 among Icinga 2 related packages."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.13.7"
+PV = "2.13.8"
 
-RPM_NAME = "icinga2-common-2.13.7-1.5.aarch64.rpm"
-RPM_HASH = "d441885cc5c784c605c045db97949546fda3b6a551ee735538ef68083b0607891c7b4ffb4fdb1d5647222b83674478094e9778abd49344bb199552a9d1374be9"
+RPM_NAME = "icinga2-common-2.13.8-1.1.aarch64.rpm"
+RPM_HASH = "0a8cabb21873f81cdc4b8acc1e2d2894df7158905724194b589f911565155d3a9b00157fe9cfe6c1b064a2aca2dfb0dd73d5326790d4b666adc751896302a8eb"
 
 RPROVIDES:${PN} += "group-icinga \
 group-icingacmd \

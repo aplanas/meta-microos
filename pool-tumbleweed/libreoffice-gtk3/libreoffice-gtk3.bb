@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
 PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-gtk3-7.5.4.2-1.3.aarch64.rpm"
-RPM_HASH = "59417fdbfc358ddc9c84efad0f02f3b04d4c859fd8bd7cc99e8eccc76a1ff9030fc328af5d8bbcbd635e6d75149d5b6f71dfa0dd9d41784a313647a6aff2cbe5"
+RPM_NAME = "libreoffice-gtk3-7.5.4.2-1.5.aarch64.rpm"
+RPM_HASH = "29ed305149cfb8c70f9ca5e4a2c94eb68ee912cc2a534cb144d43ca6e4e8863858afc887b1d0346b9077be062153e9882d0e7b97a2c853e4a1c7be5f0773a650"
 
 RPROVIDES:${PN} += "libreoffice-gtk3 \
 libvclplug-gtk3lo.so"

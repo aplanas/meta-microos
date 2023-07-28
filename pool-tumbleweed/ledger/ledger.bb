@@ -5,10 +5,10 @@ flashy UI, but for those who want unparalleled reporting access to their \
 data there are few alternatives."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.2.1"
+PV = "3.3.2"
 
-RPM_NAME = "ledger-3.2.1-3.17.aarch64.rpm"
-RPM_HASH = "a4376a826327b1cffeb1e67ec2f36c3b42a91d2f0b13412a405ed77c4a8e29cb694642ecb39a0463de98eed2391db43d103b15dc68e74f070d32b98f5cfa51e6"
+RPM_NAME = "ledger-3.3.2-1.1.aarch64.rpm"
+RPM_HASH = "a0f1c2b64224b87c492311d08b27005f3604151262070929ab115aeb29ef91386b9c9c35a2247176f9955d33a1711edcb09b3e6409c0f7de37b9be6b8de245db"
 
 RPROVIDES:${PN} += "ledger"
 

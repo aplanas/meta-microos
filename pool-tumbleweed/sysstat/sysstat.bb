@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "12.6.2"
 
-RPM_NAME = "sysstat-12.6.2-2.1.aarch64.rpm"
-RPM_HASH = "3d6a92110979423b9e3e05f67a4e8b977681c8ea4bfd78c7b672f49e95526fd536ea92ccd40113b74ae42dd3d195175de574af5c062df78861df9e6cf9a33410"
+RPM_NAME = "sysstat-12.6.2-3.1.aarch64.rpm"
+RPM_HASH = "df38f955bb126d83ef2d4c5f9fc37752fe3e61578642c0f405c46a18ece82de63a3657922e606de6a7f63ab6f327e0789e05f802755a68d917d0448932aea784"
 
 RPROVIDES:${PN} += "config-sysstat \
 sysstat"

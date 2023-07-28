@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.14.4"
 
-RPM_NAME = "ghc-attoparsec-0.14.4-3.6.aarch64.rpm"
-RPM_HASH = "7d31d1a56088f88bfa69f2f87a9299a2fdb28551224d83085e24e86426c64128914cd1251b3238d552441832d0777810eb1b0a87c7b2e6cb1b0384fc814d605c"
+RPM_NAME = "ghc-attoparsec-0.14.4-4.1.aarch64.rpm"
+RPM_HASH = "a2fea034a94ac9284972bc0a8e3471174cb0b7fcf2f104d1d395e3efcd483bd5cba17c134bb68d13b7f55baec16ae4f4f8f2846aff257b5361b4249b50851f79"
 
 RPROVIDES:${PN} += "ghc-attoparsec \
 libHSattoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3-ghc9.4.5.so \

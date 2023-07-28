@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
 PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-impress-7.5.4.2-1.3.aarch64.rpm"
-RPM_HASH = "ccce380b51504820877b6aee92a6487a2b99885b5e46941a636cef0ce93090f17e0ec1ea9f2c45fc77d01e6c14379ca22743e0dac30fd75e20a1525cca646b4e"
+RPM_NAME = "libreoffice-impress-7.5.4.2-1.5.aarch64.rpm"
+RPM_HASH = "94b07afee022b3138b9661f33a1ea6c69a39a1018aaad94af82ad10f9160d1e33363224444a8e8b896076aa82b7c1e7c4527425826b6f99e6c9e61fcaac14e79"
 
 RPROVIDES:${PN} += "libOGLTranslo.so \
 libPresentationMinimizerlo.so \

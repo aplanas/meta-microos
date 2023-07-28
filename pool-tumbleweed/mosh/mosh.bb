@@ -9,19 +9,21 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "mosh-1.4.0-1.9.aarch64.rpm"
-RPM_HASH = "a24b57288195a0dc2d16fb1a3c998b440ad0249ee43aeb0dfe677c39043f8662e92dbb45c12e8a84e5883ece035771d390c3f79afc0d5ffa9a63127bf7b0bacf"
+RPM_NAME = "mosh-1.4.0-2.1.aarch64.rpm"
+RPM_HASH = "2c290d912ea2f5a429c560b34c0e6c266ef81e0d581bddddc35f843b2daf6be7bbc7ebc3a6abd057e3ffeb08069fb64cc5b19e471f0f99303114c1949318e202"
 
 RPROVIDES:${PN} += "config-mosh \
 mosh"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
+libabsl-log-internal-check-op.so.2301.0.0 \
+libabsl-log-internal-message.so.2301.0.0 \
 libc.so.6 \
 libcrypto.so.3 \
 libgcc-s.so.1 \
 libm.so.6 \
-libprotobuf-3.21.12.so \
+libprotobuf.so.23.4.0 \
 libstdc++.so.6 \
 libtinfo.so.6 \
 libutempter.so.0 \

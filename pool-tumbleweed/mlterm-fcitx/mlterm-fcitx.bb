@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.9.3"
 
-RPM_NAME = "mlterm-fcitx-3.9.3-1.1.aarch64.rpm"
-RPM_HASH = "8787aa72abbe52154a12ff22360df41c47597575c3f1cd022ed490b152e905441e7a932ae6cb06f95e15ee4a758c7fcc9e72dd1e3e6a4c5df78e9b8c8e3edbdd"
+RPM_NAME = "mlterm-fcitx-3.9.3-2.1.aarch64.rpm"
+RPM_HASH = "e340754bf8b2ee3c1ff5791b53f2cc4d0c35b59fc32343f89218bac0ddced83863cc5175e825df6754941941e4e0ac5239006327c0a966859ddd20f74f7e5d57"
 
 RPROVIDES:${PN} += "libim-fcitx-sdl2.so \
 libim-fcitx-wl.so \

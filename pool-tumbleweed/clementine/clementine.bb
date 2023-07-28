@@ -22,8 +22,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.0~rc2"
 
-RPM_NAME = "clementine-1.4.0~rc2-2.1.aarch64.rpm"
-RPM_HASH = "3347bb0f4c7c4ad34d355d6fdd11d7f4b866458c95ee7a933eb6b362fe7baddcba9d791a6e70701fb749cf95f752fbd878dcbbad06e22e430d107195e71958a6"
+RPM_NAME = "clementine-1.4.0~rc2-2.2.aarch64.rpm"
+RPM_HASH = "4f92908ed999d9652e16a850c238e894ca8a3b9be7de7ae634a0a5bf3820aeecd7e3e6991a0bf4a865be00c61b320a2766ff0630612b29392c1b8baab3a1b6f3"
 
 RPROVIDES:${PN} += "clementine \
 clementine-kde"
@@ -42,7 +42,7 @@ libasound.so.2 \
 libc.so.6 \
 libcdio.so.19 \
 libchromaprint.so.1 \
-libcryptopp.so.8.7.0 \
+libcryptopp.so.8.8.0 \
 libfftw3.so.3 \
 libgcc-s.so.1 \
 libgio-2.0.so.0 \

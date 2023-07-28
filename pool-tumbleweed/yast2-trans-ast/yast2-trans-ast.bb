@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Asturian Translations"
 DESCRIPTION = "YaST2 - Translations for Asturian."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230708.d1de37aed1"
+PV = "84.87.20230714.966688ddd0"
 
-RPM_NAME = "yast2-trans-ast-84.87.20230708.d1de37aed1-1.1.noarch.rpm"
-RPM_HASH = "571e33a3bd2358fc59c9495b6a27b6dc83f0d822a3f3b2d0f7d770925d3d380548b146752a4cc2fe90d4331d58bd7a1866b01a093769b0600532768e167baa22"
+RPM_NAME = "yast2-trans-ast-84.87.20230714.966688ddd0-1.1.noarch.rpm"
+RPM_HASH = "621d5c482710d06a19607d71476e6560d306c770f924bb2b1ec930e3eec62744f61c2fe4291330479bef0177617cccfd0db31c6e0904745be3791f6a7b4654a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-ast \

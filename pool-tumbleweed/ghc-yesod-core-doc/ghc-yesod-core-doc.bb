@@ -2,10 +2,10 @@ SUMMARY = "Haskell yesod-core library documentation"
 DESCRIPTION = "This package provides the Haskell yesod-core library documentation."
 LICENSE = "MIT"
 
-PV = "1.6.24.2"
+PV = "1.6.24.3"
 
-RPM_NAME = "ghc-yesod-core-doc-1.6.24.2-1.8.noarch.rpm"
-RPM_HASH = "7dd94b2b1c977126198634cd6dd2e27b411e5679cacfef5858c64c1de6fe32935b4bba9926df40b4763bdbad23c77b5b8fdfe60864dd624ea3e64aa0d060bfa3"
+RPM_NAME = "ghc-yesod-core-doc-1.6.24.3-1.2.noarch.rpm"
+RPM_HASH = "5f2e5800185b788d83eca6a48656fd096b24b4dd6e7bd6c88ca64595a2857d1f862cd9656b34da57d687a7bf06f636fc3b07766125a0c9ceccdf07e157e89dbc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-yesod-core-doc"

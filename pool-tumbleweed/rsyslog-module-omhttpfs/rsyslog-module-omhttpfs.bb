@@ -5,10 +5,10 @@ package. \
 This module provides support to output to HDFS via HTTP."
 LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
-PV = "8.2212.0"
+PV = "8.2306.0"
 
-RPM_NAME = "rsyslog-module-omhttpfs-8.2212.0-2.5.aarch64.rpm"
-RPM_HASH = "405bf820844348251ec6314488bc1cb962d6b2f3ad8281bcca1405bc29920fe92e868e14ace38df6008191cd80dc16a4e03cfa3a618ec611b2e128b2cbf9bf36"
+RPM_NAME = "rsyslog-module-omhttpfs-8.2306.0-1.1.aarch64.rpm"
+RPM_HASH = "4bed35660938e0b1b641e46319ad7d9b5504ba622f7b77b09074967316055c3357c63ea9294b4c3d295d0e749f060abb8aed28f475b46568041109039b2d48bc"
 
 RPROVIDES:${PN} += "rsyslog-module-omhttpfs"
 

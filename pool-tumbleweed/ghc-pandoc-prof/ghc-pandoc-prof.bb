@@ -4,11 +4,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.1.3"
 
-RPM_NAME = "ghc-pandoc-prof-3.1.3-1.5.aarch64.rpm"
-RPM_HASH = "19660cc2b3864d00cd79e2384a3e2912206dcb3b39bffe936a91cf0dc8bd403623eb3e90f2a1f2138f067eed4c6b681db5f926170d89dad688a8c3b35f6dbeff"
+RPM_NAME = "ghc-pandoc-prof-3.1.3-2.1.aarch64.rpm"
+RPM_HASH = "9b67aa0a28d63352513a77c7e5283ab6c3091d66f3f52c276a9ad49862fdf6b6c7f40c965de0a897b249eec1ae80dd2b18987fcfde8a4304c4db65a46ca7c284"
 
 RPROVIDES:${PN} += "ghc-pandoc-prof \
-ghc-prof-pandoc-3.1.3-IvLrz4YIivMLuf8ZxaBxIb"
+ghc-prof-pandoc-3.1.3-ImQr97Zc2bP55LDbAec3vO"
 
 RDEPENDS:${PN} += "ghc-pandoc-devel \
 ghc-prof-Glob-0.10.2-5tAj3lHfg0h9Pb5bOpMg4R \
@@ -25,10 +25,10 @@ ghc-prof-blaze-html-0.9.1.2-38lyFDueaN76YOL6QIMVAR \
 ghc-prof-blaze-markup-0.8.2.8-1rqnOPcdOmIw0iYwB3Kqc \
 ghc-prof-bytestring-0.11.4.0 \
 ghc-prof-case-insensitive-1.2.1.0-AumZoR4Lds63HJj8OQwHY3 \
-ghc-prof-citeproc-0.8.1-Ex3LMLw4y9Q5nAZv8bt8hk \
+ghc-prof-citeproc-0.8.1-IdWRS5bkx4mHz8SxZquXUQ \
 ghc-prof-commonmark-0.2.3-I1mjDgOYrWfJTVx5dvVv0G \
-ghc-prof-commonmark-extensions-0.2.3.4-lgOKfz42TuIWz23FZS91J \
-ghc-prof-commonmark-pandoc-0.2.1.3-HVNPkFgx18RJMldDwlSrf3 \
+ghc-prof-commonmark-extensions-0.2.3.5-GeNUJwJZ0WZ7BXjQ8SYvXo \
+ghc-prof-commonmark-pandoc-0.2.1.3-5icm69shxRz6xfjspkSdL7 \
 ghc-prof-connection-0.3.1-E1TQ2BFmXua7xK5tzqGZX7 \
 ghc-prof-containers-0.6.7 \
 ghc-prof-data-default-0.7.1.1-5iNQUD7GKkTDiLEyJaqXSy \
@@ -51,7 +51,7 @@ ghc-prof-mime-types-0.1.1.0-IrWGRRDe33Y1D55h7nh7fm \
 ghc-prof-mtl-2.2.2 \
 ghc-prof-network-3.1.4.0-FvtFepOtuCUH79FCWyNxIc \
 ghc-prof-network-uri-2.6.4.2-4kNQnaE9heqEL1mH8FE5xH \
-ghc-prof-pandoc-types-1.23-4C1nzwOnt973xRAA9sp531 \
+ghc-prof-pandoc-types-1.23.0.1-EcvZluXpPb0J10kJC4UfRg \
 ghc-prof-parsec-3.1.16.1 \
 ghc-prof-pretty-1.1.3.6 \
 ghc-prof-pretty-show-1.10-IA5YnfAP5DqIvEIFfcZVdd \
@@ -59,13 +59,13 @@ ghc-prof-process-1.6.16.0 \
 ghc-prof-random-1.2.1.1-I0wUgAAbf0g3qHR3e8uT0o \
 ghc-prof-safe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds \
 ghc-prof-scientific-0.3.7.0-D5F2vql7x79Dy9hx72OES1 \
-ghc-prof-skylighting-0.13.3-KhN5DzrcPQALN95CsO2kAp \
-ghc-prof-skylighting-core-0.13.3-9hBRKYwyArU4OdEqV8LbQv \
+ghc-prof-skylighting-0.13.4-5T99F0BkgIQGejRNYUpHqn \
+ghc-prof-skylighting-core-0.13.4-ILWFndoUOH7DzXIN7Ztglj \
 ghc-prof-split-0.2.3.5-u3oGLAiW7JJbxIffWSCWf \
 ghc-prof-syb-0.7.2.3-J0Qw7O8gTR0DSXObDhEt8i \
 ghc-prof-tagsoup-0.14.8-KqOLe3dJpuA4KsHZJW2cTn \
 ghc-prof-temporary-1.3-9rLWZg49Shk3gKExST32p \
-ghc-prof-texmath-0.12.8-2W1fkH7eNmw4E7l7odwRHx \
+ghc-prof-texmath-0.12.8-2ewx8lB0RHk1Ql4916ePbT \
 ghc-prof-text-2.0.2 \
 ghc-prof-text-conversions-0.3.1.1-CkkBRqT3R5g4PO0QywmUQS \
 ghc-prof-time-1.12.2 \

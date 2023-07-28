@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.8.2"
 
-RPM_NAME = "ocaml-bisect_ppx-devel-2.8.2-2.2.aarch64.rpm"
-RPM_HASH = "6f2c113d64a71182d9183ee5cfd0b1a29ec5532cf901b296d4884f48aa06a848ecaeedc7c9d340562ee61160d15d9fb59dbd7a7473cf7c04034d50e9dc34d1eb"
+RPM_NAME = "ocaml-bisect_ppx-devel-2.8.2-2.3.aarch64.rpm"
+RPM_HASH = "566e91cae19166cb84f5af170f0dce945e0e375f1724e817379c4eecba843fed29eef37c90a4cbfe6d620f54a4e44cd3a6738f58fdad2eef3f46d41efb2a42ad"
 
 RPROVIDES:${PN} += "ocaml-Bisect \
 ocaml-Bisect--Runtime \
@@ -51,6 +51,7 @@ ocaml-Astlib--Ast-412 \
 ocaml-Astlib--Ast-413 \
 ocaml-Astlib--Ast-414 \
 ocaml-Astlib--Ast-500 \
+ocaml-Astlib--Ast-501 \
 ocaml-Astlib--Location \
 ocaml-Astlib--Longident \
 ocaml-Astlib--Parse \

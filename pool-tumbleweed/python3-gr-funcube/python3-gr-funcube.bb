@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.10.0.rc3"
 
-RPM_NAME = "python3-gr-funcube-3.10.0.rc3-1.3.aarch64.rpm"
-RPM_HASH = "0c7b26aa1d9ed2045bec442f43226c0f92bf9b4324281b4eda05d60d9b06923338fc9db3464ebdfb5e9714029357134eeff28aaf842509e39236bd58479ae8fd"
+RPM_NAME = "python3-gr-funcube-3.10.0.rc3-1.4.aarch64.rpm"
+RPM_HASH = "96c35a06779620b2ca470819f7188fc2c1b336d722e8b8ac4f6d1509fa31dea9eca86b97f0760ad1b045775644408890fece07681008ad9e3f3e601a75e98abe"
 
 RPROVIDES:${PN} += "python3-gr-funcube"
 
@@ -17,7 +17,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libgnuradio-funcube.so.3.10.0 \
 libgnuradio-funcube3-10-0 \
-libgnuradio-runtime.so.3.10.6 \
+libgnuradio-runtime.so.3.10.7 \
 libstdc++.so.6 \
 python-abi"
 

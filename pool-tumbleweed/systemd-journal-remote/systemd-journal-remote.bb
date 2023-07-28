@@ -8,10 +8,10 @@ This package contains systemd-journal-gatewayd, \
 systemd-journal-remote, and systemd-journal-upload."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "253.5"
+PV = "253.7"
 
-RPM_NAME = "systemd-journal-remote-253.5-5.1.aarch64.rpm"
-RPM_HASH = "01a58bbfdbd459d3982b953482ab7c5263e989b916daca90f2f363a81a7dcd57285c09b8f0d33cf34e417a125b976ee0460915148a70e2f9f2a2989fb0fe571f"
+RPM_NAME = "systemd-journal-remote-253.7-1.2.aarch64.rpm"
+RPM_HASH = "b5d95df36c5c634fe41ea7ed884ad46cde0bd9d16f0193904073e5d53ce52a866c1a8f5fe45b04f2927ee98438b005df1ea4ee9b96f73fb9f936fb19acf7de09"
 
 RPROVIDES:${PN} += "config-systemd-journal-remote \
 systemd-journal-remote"

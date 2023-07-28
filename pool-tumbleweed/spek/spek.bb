@@ -12,14 +12,15 @@ Features: \
   * Adjustable spectral density range"
 LICENSE = "GPL-3.0-only"
 
-PV = "0.8.4"
+PV = "0.8.5"
 
-RPM_NAME = "spek-0.8.4-2.3.aarch64.rpm"
-RPM_HASH = "96d15d47d5250f960ac8361bb78a7cfef07f76fb57c370d77eaf7858142cbc0d57d9ab3f50c6d63d0b54aeae33a49619a3cfc9ef2aabb8fe8eb205a512562e7c"
+RPM_NAME = "spek-0.8.5-1.1.aarch64.rpm"
+RPM_HASH = "b1b40eaae254b660f85f58409f1ccd942fb0a6b445bc5f8ec49b81d0d4d963306b22401d4e6f05b8051eac139b286f99943c93255095553b4ce727eb89a05b3e"
 
 RPROVIDES:${PN} += "spek"
 
-RDEPENDS:${PN} += "libavcodec.so.59 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libavcodec.so.59 \
 libavformat.so.59 \
 libavutil.so.57 \
 libc.so.6 \

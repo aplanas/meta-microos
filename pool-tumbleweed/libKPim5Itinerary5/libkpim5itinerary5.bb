@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "23.04.3"
 
-RPM_NAME = "libKPim5Itinerary5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "670e64488fc8b9baf27e09516f07bdbee5137a4be5f895f5a24fe51f9e36d73290d15762e4b4fab4c13338e109f9d7be9d003f348bf0a94e3eb512322afa9f3f"
+RPM_NAME = "libKPim5Itinerary5-23.04.3-1.2.aarch64.rpm"
+RPM_HASH = "19dd80a6ce661966e62864f4602f95895867bb9639c981afab3a184916ac8349db136bf14e7542e9e0cd6d53787480a7a3d59a38744c375639060a0eb2125c9c"
 
 RPROVIDES:${PN} += "libKPim5Itinerary.so.5 \
 libKPim5Itinerary5"
@@ -31,7 +31,7 @@ libcrypto.so.3 \
 libgcc-s.so.1 \
 libm.so.6 \
 libphonenumber.so.8 \
-libpoppler.so.129 \
+libpoppler.so.130 \
 libstdc++.so.6 \
 libxml2.so.2 \
 libz.so.1"

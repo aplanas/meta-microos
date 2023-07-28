@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
 PV = "4.9.2"
 
-RPM_NAME = "python-lxml-doc-4.9.2-7.3.noarch.rpm"
-RPM_HASH = "a48a5c7fc6f264294714f3ab29c7eb693d1c0f7f2b7d2e43d2f5376d77a7d715686476dfcdc49befc5ad4fa1f2663149a8e71caae28746f5fead3e18ef57943f"
+RPM_NAME = "python-lxml-doc-4.9.2-8.1.noarch.rpm"
+RPM_HASH = "7d0871faf9305ab010d021ea0a29e61fa256596483c0b2192d337983f353a8facaa245721c611d3926cfca8091e1f8ec21b56520130cf73245002f8981744ccd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-lxml-doc"

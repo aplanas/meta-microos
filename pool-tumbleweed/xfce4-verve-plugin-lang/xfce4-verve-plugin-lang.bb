@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-verve-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-verve-plugin' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.0.1"
+PV = "2.0.3"
 
-RPM_NAME = "xfce4-verve-plugin-lang-2.0.1-1.11.noarch.rpm"
-RPM_HASH = "2d3eb4d5cb4298595564c9a3b41d5e3c4948fdecad05c9fa0dcd75fa1186670520b6d056f75cf96855b0cdee9edaf5c91cc866edaffb93b1d5d87fe888f25940"
+RPM_NAME = "xfce4-verve-plugin-lang-2.0.3-1.1.noarch.rpm"
+RPM_HASH = "b86cce36173c071346a03da3926982df0583d301e96db5f6f85503d72baad87aa6b0c605323b5c7f83422e4c779a378eeb73c16fe91bec2c8b7b31f2ea486b0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-verve-plugin-ar \
@@ -22,6 +22,7 @@ locale-xfce4-verve-plugin-en-CA \
 locale-xfce4-verve-plugin-en-GB \
 locale-xfce4-verve-plugin-eo \
 locale-xfce4-verve-plugin-es \
+locale-xfce4-verve-plugin-et \
 locale-xfce4-verve-plugin-eu \
 locale-xfce4-verve-plugin-fi \
 locale-xfce4-verve-plugin-fr \

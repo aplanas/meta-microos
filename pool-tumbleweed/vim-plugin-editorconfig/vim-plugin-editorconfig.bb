@@ -11,8 +11,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.1.1"
 
-RPM_NAME = "vim-plugin-editorconfig-1.1.1-55.1.noarch.rpm"
-RPM_HASH = "e7ed77ca1d5d1d91945b19adf8e7a8421956f6e2b0767fa407a486424ce19672cec6fc3f4e1b58aec0e758a331f37c15737c9f4050199f7484c791c0b6661aa1"
+RPM_NAME = "vim-plugin-editorconfig-1.1.1-56.1.noarch.rpm"
+RPM_HASH = "107c26e2a32d9c4ec11a78098fca28e65b36839f3cd8c0eac2badd4e1330e2dddf3e5c0218c6f2a71c65cc0fce5dd5238f733b132768eb97389fad87bb9a693c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-editorconfig"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.0+20161020"
 
-RPM_NAME = "vim-plugin-file-line-1.0+20161020-55.1.noarch.rpm"
-RPM_HASH = "0dceccdd95de326f89e35a356504265a4a582c4016f09bb95f0b6baf00fdb05aa96700f177e9b6dea5059f51a98d36ea5490d48adfc594d298dce6235b388532"
+RPM_NAME = "vim-plugin-file-line-1.0+20161020-56.1.noarch.rpm"
+RPM_HASH = "2a302640d16f53f701c490a0b1aeb85ca1edb29ca59a70c679edde2ee3fb0b8c1dbc7427fa07c9b2c4cd59674cb0b7916182ff46decd3da1cbb88f7861f701f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-file-line"

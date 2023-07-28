@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.2.8"
 
-RPM_NAME = "ghc-blaze-markup-0.8.2.8-5.6.aarch64.rpm"
-RPM_HASH = "b8fff3f78189762e0997511a6721bf657fcdd8fcaf2f7a487d651786ea97b9244af996833cf34b35e8b10b8ab6469602d8930911f14ee950fa39227f6a65e1a3"
+RPM_NAME = "ghc-blaze-markup-0.8.2.8-6.1.aarch64.rpm"
+RPM_HASH = "82db7c928d4c8790d165bb45e31f410bc78fb0ec58b5f31a7ea43fe7079723f9840faf1e9c5455868ec32fafaae4cee312887c6ed326d27da843c4c10d8064f1"
 
 RPROVIDES:${PN} += "ghc-blaze-markup \
 libHSblaze-markup-0.8.2.8-1rqnOPcdOmIw0iYwB3Kqc-ghc9.4.5.so"

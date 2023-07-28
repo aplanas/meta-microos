@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains libraries and header files for developin
 applications that want to make use of the gRPC reference implementation."
 LICENSE = "Apache-2.0"
 
-PV = "1.56.0"
+PV = "1.56.2"
 
-RPM_NAME = "grpc-devel-1.56.0-1.3.aarch64.rpm"
-RPM_HASH = "f410e2d30dbab1976ceeaf8e18396bed4b586b726477998231b7fa5266efdf0fefcf6764cf8bfb7c0da4a4cbf8559b2dd3acb61dcd49916d17df1348bda5143f"
+RPM_NAME = "grpc-devel-1.56.2-1.1.aarch64.rpm"
+RPM_HASH = "2ba7a598a58791f346be5045b6d1cac0f37bfa9a4d0927215e0b4cf9c5576c349fbff21fb9dd259258f1b8550a4b720ed6883010200b6866a09788a76c0c5e8f"
 
 RPROVIDES:${PN} += "cmake-gRPC \
 grpc-devel \

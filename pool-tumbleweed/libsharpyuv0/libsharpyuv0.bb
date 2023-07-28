@@ -2,10 +2,10 @@ SUMMARY = "Library for sharpening YUV option in WebP"
 DESCRIPTION = "Library that provides the sharpening YUV option for better WebP images."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.3.0"
+PV = "1.3.1"
 
-RPM_NAME = "libsharpyuv0-1.3.0-2.1.aarch64.rpm"
-RPM_HASH = "938c9498c4c48c05f11b5c62413c9ec5b0a9ed786160a76c57da92c64536698cfbddec5f396df2c238478f4de088f80bba607ddc47f5041f63658ee4c953ce34"
+RPM_NAME = "libsharpyuv0-1.3.1-1.1.aarch64.rpm"
+RPM_HASH = "c49e87ab0caa0d2b3d8bf8a97cbac7536ea49e78c429d15532b058e830901c658d4e98a0233490b8e0a000730f031fbb9b2990f751164efec7d4cb2690901073"
 
 RPROVIDES:${PN} += "libsharpyuv.so.0 \
 libsharpyuv0"

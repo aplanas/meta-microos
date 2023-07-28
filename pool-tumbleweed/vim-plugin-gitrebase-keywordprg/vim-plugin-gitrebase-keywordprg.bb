@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1"
 
-RPM_NAME = "vim-plugin-gitrebase-keywordprg-1-55.1.noarch.rpm"
-RPM_HASH = "b684195a22f03bb5e68c6dc8a9211585156c9758d0aa8d35a0f7ff5fa3fa0da7e64d48aba88652eb7a179d2dbb99fde19548d4d96d98c84f05219034bea6321d"
+RPM_NAME = "vim-plugin-gitrebase-keywordprg-1-56.1.noarch.rpm"
+RPM_HASH = "5887c784b78905ab6de7f6b2afed9750d56c7d8323957d9bacb0f925e4af1eef5be7fd2917f970c31c4dcbeafa24a15cda753ed0489ede71a7e9d6cc118816b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-gitrebase-keywordprg"

@@ -3,10 +3,10 @@ DESCRIPTION = "KVM driver for docker-machine which is using libvirt for setting 
 virtual machines with Docker."
 LICENSE = "Apache-2.0"
 
-PV = "1.30.1"
+PV = "1.31.0"
 
-RPM_NAME = "docker-machine-driver-kvm2-1.30.1-1.3.aarch64.rpm"
-RPM_HASH = "96b9be4e740cb218fd88ee7be427f7dd80986435e68ab05b2e96999df435919861b808980751e02eadd1b219416173a0a932c4e28c40021f1af3c21d5727c670"
+RPM_NAME = "docker-machine-driver-kvm2-1.31.0-1.1.aarch64.rpm"
+RPM_HASH = "d310656f24ccdaafb718ea62463e277096a0c90b80a606a1657b790f2acf0f96df2b4cfdd275adb333ef4dd6414f82c0e9f96a1df8c57289e61ed48ff457273b"
 
 RPROVIDES:${PN} += "docker-machine-driver-kvm2"
 

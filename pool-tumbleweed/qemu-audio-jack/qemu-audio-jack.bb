@@ -2,10 +2,10 @@ SUMMARY = "JACK based audio support for QEMU"
 DESCRIPTION = "This package contains a module for JACK based audio support for QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.2"
+PV = "8.0.3"
 
-RPM_NAME = "qemu-audio-jack-8.0.2-2.1.aarch64.rpm"
-RPM_HASH = "c275f1f6f174e726fea68001cb387a97f996c7a60783bf625d2c936d2ee47bfd4d1b85579ff32cd99673b06471809908333d50af2c4548ba261de7c5f26be426"
+RPM_NAME = "qemu-audio-jack-8.0.3-1.1.aarch64.rpm"
+RPM_HASH = "5b0ef8c0dca6a8a697e58eb8cbea8b4ad912e51b723d7ab9c143771b971cd413ca068b69d6c60c15115af7012555597648fa63f78693c04ac8833d9ae07fdea0"
 
 RPROVIDES:${PN} += "qemu-audio-jack"
 

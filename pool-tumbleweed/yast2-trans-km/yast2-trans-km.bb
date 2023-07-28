@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Khmer Translations"
 DESCRIPTION = "YaST2 - Translations for Khmer."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230708.d1de37aed1"
+PV = "84.87.20230714.966688ddd0"
 
-RPM_NAME = "yast2-trans-km-84.87.20230708.d1de37aed1-1.1.noarch.rpm"
-RPM_HASH = "6e1bc5efb96448c1c6fab0f4c10bc44141ef403daac724cb46de5d12e08e7ba480370b2f616cea271984a537222ded2fbf0d8b0f90a63620445bf4f1b8911764"
+RPM_NAME = "yast2-trans-km-84.87.20230714.966688ddd0-1.1.noarch.rpm"
+RPM_HASH = "87c4976a19d8b29f8b355f8ff311aed68e6a0ed83b2a1c7acd3ec33129ba71a1b287ff4b705b9ab9ef368b920c9ff6c01318e220999540583b68c94869d03646"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-km \

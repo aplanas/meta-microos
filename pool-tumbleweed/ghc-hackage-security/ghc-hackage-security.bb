@@ -18,8 +18,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.2.3"
 
-RPM_NAME = "ghc-hackage-security-0.6.2.3-2.1.aarch64.rpm"
-RPM_HASH = "3bd9625bb58000786da860ff9e840b9f9ba5d75688f0c39d5d41f754dbf348ebe88057fd7afa7babfab97ed3333f2b15038bad2f798f36766f344263c6d9df35"
+RPM_NAME = "ghc-hackage-security-0.6.2.3-3.1.aarch64.rpm"
+RPM_HASH = "213f7a8dc381fe27bf57130af5b540be218f4feae4396a07dfb20534f5c24fe31e292cffe42d1c896f004c0a57f011c128651fd9aa3784f47b558c15efe01d8c"
 
 RPROVIDES:${PN} += "ghc-hackage-security \
 libHShackage-security-0.6.2.3-BVLL0begiUMDlGngVjOMXt-ghc9.4.5.so"

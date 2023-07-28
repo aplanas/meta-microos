@@ -2,10 +2,10 @@ SUMMARY = "An OpenType text shaping engine"
 DESCRIPTION = "HarfBuzz is an OpenType text shaping engine."
 LICENSE = "MIT"
 
-PV = "7.3.0"
+PV = "8.0.1"
 
-RPM_NAME = "libharfbuzz0-7.3.0-1.2.aarch64.rpm"
-RPM_HASH = "fab5a0144d1f757b95be9fdce52360a25b8f363f08bfe09d89e374ce3200cd877032856883dbfc556bd0320ca4210c09c4ab711cf403124af0e48b3e1283cc75"
+RPM_NAME = "libharfbuzz0-8.0.1-1.1.aarch64.rpm"
+RPM_HASH = "6d76ed2d364151514b4de5ec2e73df06bf1315e19d52e78081e5ea1d74f60898a43fbb03278684e171579d3edbf38480f42290d3e314fb5a225cde7da2c739c2"
 
 RPROVIDES:${PN} += "libharfbuzz.so.0 \
 libharfbuzz0"

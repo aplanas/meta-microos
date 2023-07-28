@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.0"
 
-RPM_NAME = "qpdfview-plugin-djvu-0.5.0-1.4.aarch64.rpm"
-RPM_HASH = "45800d862f1b5d098cdf8ae7e9c0931e0c814cf893e89b8d054807dcde8aeb401c03eefb2d7b4837b64c3d172520eb860f1d8a0a16f2db44e2245e585c1a4317"
+RPM_NAME = "qpdfview-plugin-djvu-0.5.0-2.1.aarch64.rpm"
+RPM_HASH = "4b6362bb2348ed0aa2b378b86500a0d4b0749499f18e96c6966269a8e65d81e640a61e4e9c68ec21dbced0a8fedcd9ed3a4fd937d0656e548f7a8ef9318239fd"
 
 RPROVIDES:${PN} += "libqpdfview-djvu.so \
 qpdfview-plugin-djvu"

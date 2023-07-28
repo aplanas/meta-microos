@@ -2,10 +2,10 @@ SUMMARY = "Translations for package cinnamon"
 DESCRIPTION = "Provides translations for the 'cinnamon' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.8.0"
+PV = "5.8.2"
 
-RPM_NAME = "cinnamon-lang-5.8.0-1.1.noarch.rpm"
-RPM_HASH = "c6779c5f8a80ce50cbb970b6700344d809ee61312787b6f6d96d18440a57e79712edf3e0b43517a021de73f35bbd54f9327716605caad4538e97ba98827c2aaa"
+RPM_NAME = "cinnamon-lang-5.8.2-1.1.noarch.rpm"
+RPM_HASH = "a47d94784753033d7fcc6b04f1317165f7b817b382fbfd3a4c4eb9dc3909e7c9dc8592598682adee6448c48aeea67c7d904c94c2a464e83e654f8c887a44d077"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cinnamon-lang \
@@ -17,6 +17,7 @@ locale-cinnamon-az \
 locale-cinnamon-be \
 locale-cinnamon-bg \
 locale-cinnamon-bn \
+locale-cinnamon-br \
 locale-cinnamon-bs \
 locale-cinnamon-ca \
 locale-cinnamon-ca@valencia \

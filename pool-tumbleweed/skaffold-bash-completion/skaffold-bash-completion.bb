@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for skaffold"
 DESCRIPTION = "Bash command line completion support for skaffold."
 LICENSE = "Apache-2.0"
 
-PV = "2.6.1"
+PV = "2.6.2"
 
-RPM_NAME = "skaffold-bash-completion-2.6.1-1.1.noarch.rpm"
-RPM_HASH = "82d111dac6ae47e6973ac04c089c6f81a0b820fb7a2c00801306ecd250d1dad7f8d01234ef596796b63212285d83fcb90602781c8ece90ca6942a6a9e398a9e8"
+RPM_NAME = "skaffold-bash-completion-2.6.2-1.1.noarch.rpm"
+RPM_HASH = "48232d23fe6e5fcbd6b86522b86ba06f0f9e4a1bfba43ba38547a705aab4935fdb3004dc682e14cfecb130de51bf0ef80207da3ed58e4ce8a4036e7cc5bb2b87"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "skaffold-bash-completion"

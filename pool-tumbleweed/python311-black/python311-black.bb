@@ -10,10 +10,10 @@ start and end with '# fmt: off' and '# fmt: on', respectively. It \
 also recognizes YAPF's block comments to the same effect."
 LICENSE = "MIT"
 
-PV = "23.3.0"
+PV = "23.7.0"
 
-RPM_NAME = "python311-black-23.3.0-3.1.noarch.rpm"
-RPM_HASH = "03cc9b94a117b91b39ac9db128023e1143a657b66721390a973f4d01d67a7250cb1fe3d068aa04b5975b45d1dc02547088b4c11013a887e475121d9c1280f6ef"
+RPM_NAME = "python311-black-23.7.0-1.1.noarch.rpm"
+RPM_HASH = "c3ad0fc7bee82d97ea92227b77bccceb925932467cba5eb1a19310c6d17758afc8520af6e6d02923c77fbba5ba9a8078ccab5acaa1e1fecfdce9bda7ffd804d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-black \

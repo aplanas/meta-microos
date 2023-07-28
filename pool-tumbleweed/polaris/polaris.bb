@@ -9,10 +9,10 @@ Polaris can be run in three different modes: \
 * As a command-line tool, so you can test local YAML files, e.g. as part of a CI/CD process."
 LICENSE = "Apache-2.0"
 
-PV = "8.3.0"
+PV = "8.4.0"
 
-RPM_NAME = "polaris-8.3.0-1.1.aarch64.rpm"
-RPM_HASH = "98379948427acca3f0d4e72806974e2515a0d60f35f9dd75d939c2d04cb8ac122a359880238cde3d9a081caf97faec394e0705eae6bc19121ab4764b80c7a92e"
+RPM_NAME = "polaris-8.4.0-1.1.aarch64.rpm"
+RPM_HASH = "48254ec459a6114b518f21ef1d599222e840f9d475c1cf21ea12fec7f457c962e9b93c52cae39bbd1ac6bcf03d47ab32cb3bd3d42b19956d913d3c8fd4924456"
 
 RPROVIDES:${PN} += "polaris"
 

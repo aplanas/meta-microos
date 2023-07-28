@@ -6,10 +6,10 @@ preparing technical documents. \
 This package contains the Iosevka SS16 typeface (monospace, PT Mono style)."
 LICENSE = "OFL-1.1"
 
-PV = "24.1.4"
+PV = "25.0.1"
 
-RPM_NAME = "iosevka-ss16-fonts-24.1.4-1.1.noarch.rpm"
-RPM_HASH = "80c9f3f2fca3c549056cb6474d4af4c5b19efc16c32f51f8241fb5ea079c811fc4bec05f9a37c5ab75256e081287e1d28ec9a53a45a7e9fa0cd1df9eb42b7b8a"
+RPM_NAME = "iosevka-ss16-fonts-25.0.1-1.1.noarch.rpm"
+RPM_HASH = "be5826df92e85cd860f37f09f962d0b3f80947240a58808986d913836f2793065c542141debf902fcc179b180cd896d63061bb3e80f95d3b49171e9ffd6820a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-ss16-fonts"

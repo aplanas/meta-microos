@@ -2,10 +2,10 @@ SUMMARY = "Python library to communicate with Redfish based systems"
 DESCRIPTION = "Sushy is a Python library to communicate with `Redfish` based systems."
 LICENSE = "Apache-2.0"
 
-PV = "4.4.2"
+PV = "4.5.0"
 
-RPM_NAME = "python3-sushy-4.4.2-1.3.noarch.rpm"
-RPM_HASH = "c9a6e9735067d025e008759362723605f89dce10329f9daf56e9e19b51c232cc262831bf6b3580b0ab5345aa038a171f7944bca817a2bf706a3373e851956fde"
+RPM_NAME = "python3-sushy-4.5.0-1.1.noarch.rpm"
+RPM_HASH = "7f240f677fdf560963a82199007c0ed3866ef6501016c1945dfcb08556dcda6dfac4f58d62630c75582418833be4e19e6d616fb5c414f6fb74ca49f38268e424"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sushy \

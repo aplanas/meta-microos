@@ -6,10 +6,10 @@ This package contains common data that is used by the cheese libraries, \
 like schemas."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0.1"
+PV = "44.1"
 
-RPM_NAME = "libcheese-common-44.0.1-1.2.noarch.rpm"
-RPM_HASH = "203e0cc7c5d779eb250482657ea8c90d85c1bee102afcbaf7e0c98cd2098412fc34abf4475867088fec2ce2e7c965f982d8a5ebbfd348ef2a7b62cb08049b1c9"
+RPM_NAME = "libcheese-common-44.1-1.1.noarch.rpm"
+RPM_HASH = "d3b2e92992befbd1d1bfd3fa11b5a8e1ac7153c99d9571eab72d454a750a94a74b956a2682cafbc5bfb9dac707b07235ea2972eaf0d38c2d4a77fca86a8790b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libcheese-common"

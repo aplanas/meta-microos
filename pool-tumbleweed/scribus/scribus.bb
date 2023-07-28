@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.8"
 
-RPM_NAME = "scribus-1.5.8-4.14.aarch64.rpm"
-RPM_HASH = "593e19a10c7c77d39715113fe9b11cc8cbc61d27298453b82e090026137db5534c088515b6b88f9d5ec97905865ad0b5c76ef9cf6fde5ab9264a9d2e26d8f469"
+RPM_NAME = "scribus-1.5.8-4.15.aarch64.rpm"
+RPM_HASH = "6582d7ea8bd542f9836008d1f9165245627cd929558c091a2c7a156884afc222595e05f3d09db96523f729e9d3424993c715f0e4d792c78ccc041f30e1b74fcc"
 
 RPROVIDES:${PN} += "libMARKDOWNimplugin.so \
 libbarcodegenerator.so \
@@ -110,7 +110,7 @@ libmspub-0.1.so.1 \
 libpagemaker-0.0.so.0 \
 libpng16.so.16 \
 libpodofo.so.0.9.8 \
-libpoppler.so.129 \
+libpoppler.so.130 \
 libpython3.11.so.1.0 \
 libqxp-0.0.so.0 \
 librevenge-0.0.so.0 \

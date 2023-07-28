@@ -6,10 +6,10 @@ TrueType font library. \
 It also contains a small tutorial for using that library."
 LICENSE = "FTL & GPL-2.0-only"
 
-PV = "2.13.0"
+PV = "2.13.1"
 
-RPM_NAME = "freetype2-devel-2.13.0-4.1.aarch64.rpm"
-RPM_HASH = "1ac10fb8c044e8d0f707c46d255d5d9d965697dd6a1a5821aa8e5520c6c6a2a193e30d36c1f1f82d82d33287007bc631ab557b9f1980a93388bc9fa45cfbccbd"
+RPM_NAME = "freetype2-devel-2.13.1-1.1.aarch64.rpm"
+RPM_HASH = "8ea931b74a8666bb0f48647193f2144a7c79cc5a82be314c232d1ba8aa44a735a868d50ec19af7b43c0ec931a4526aed3390f6fea37de28cc11c5dd1e5c2c371"
 
 RPROVIDES:${PN} += "freetype-devel \
 freetype2-devel \

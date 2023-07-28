@@ -3,10 +3,10 @@ DESCRIPTION = "Cheese is an application to take photos and videos with your webc
 with fun graphical effects."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0.1"
+PV = "44.1"
 
-RPM_NAME = "libcheese8-44.0.1-1.2.aarch64.rpm"
-RPM_HASH = "b436ef0ec96c1b1b6938110c685c09192cf60268ad87a882e6347a19638ed462a682512d829843a20e04802c0ed97769e8675c488415fe2ade0bf6b72d797c49"
+RPM_NAME = "libcheese8-44.1-1.1.aarch64.rpm"
+RPM_HASH = "32b68d5ab4e0fe57ca3451bbec209a2f77b3c2d8e83d3bb99ce3689225fa1697bf616372d5f6121efb1f8f3260150da52635aebf7a9ca511443715b4cae36b38"
 
 RPROVIDES:${PN} += "libcheese.so.8 \
 libcheese8"

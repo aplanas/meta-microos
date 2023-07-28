@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
 PV = "0.28.0"
 
-RPM_NAME = "libexiv2-28-0.28.0-1.1.aarch64.rpm"
-RPM_HASH = "de63efb3986844b1d840a0d6bc0d99db60ec3e6a1e9b8d15cec635ade846de67fa830f66b7d45cb9e58181f20a4fc81a9bd665c60d039239cfa8dc00b7893cb0"
+RPM_NAME = "libexiv2-28-0.28.0-2.1.aarch64.rpm"
+RPM_HASH = "6aa2187c8671f170b3171e144592f07c4e9eb622cb3dd527061cd84ca072fc850208af1f3a3bf1ff89bb98f2f9a5fce2bed1e4429addacbaaf62647a44e79870"
 
 RPROVIDES:${PN} += "libexiv2-28 \
 libexiv2.so.28"

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "17.89"
 
-RPM_NAME = "skelcd-installer-openSUSE-17.89-1.47.aarch64.rpm"
-RPM_HASH = "65584bac5a3b1530815f8078a75624b3d8a355269423f8e01b646b9552e714cffc6418ab0527033b2765ab0a6c1473f3c6fafa061913df58140a28ac44e22e12"
+RPM_NAME = "skelcd-installer-openSUSE-17.89-1.57.aarch64.rpm"
+RPM_HASH = "28ec14d7c8d28525a7f0292d545c613a07216a3963edf0fc05e929a33192aa2584713e25048cf9fc88dc8b566298142f525c78f6a601d12cebc1f20a9e4a7d79"
 
 RPROVIDES:${PN} += "skelcd-installer \
 skelcd-installer-openSUSE"

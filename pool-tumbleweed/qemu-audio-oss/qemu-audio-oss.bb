@@ -2,10 +2,10 @@ SUMMARY = "OSS based audio support for QEMU"
 DESCRIPTION = "This package contains a module for OSS based audio support for QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.2"
+PV = "8.0.3"
 
-RPM_NAME = "qemu-audio-oss-8.0.2-2.1.aarch64.rpm"
-RPM_HASH = "cf0a8772b58d9a53654f19bebd450d9e93b181bafdb667e51947a0ce5740ae631331bd8022dbf18219df9d7565f7609dfeae477cbea3c480fe4bbf7f69dc4683"
+RPM_NAME = "qemu-audio-oss-8.0.3-1.1.aarch64.rpm"
+RPM_HASH = "59bc16028390802bb2e8702dcb1fad2ca5cd22b072b23af47bb750c7dd91868bd435796406c15e4a2dbd61e5b35b79742c11e5df8859126d4156e11794ee0fe9"
 
 RPROVIDES:${PN} += "qemu-audio-oss"
 

@@ -10,10 +10,10 @@ includes support for spell checking, comparing files, viewing VCS \
 ChangeLogs, and adjusting indentation levels."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.2.8"
+PV = "3.4.3"
 
-RPM_NAME = "xed-3.2.8-1.4.aarch64.rpm"
-RPM_HASH = "b0af2d2697e882e2e9c3f20b625332d2c0b98884b689667f26bc9efc8462da936fa4d3f77602914edf68c5627ed1e2caa5c45ecd85a2995bd9391417a0bf0cd5"
+RPM_NAME = "xed-3.4.3-1.1.aarch64.rpm"
+RPM_HASH = "be026ca6788cbf804b9ed75b0e7d9ed73ed94cd94b188d5567caf2d00daf14e892820bf3e78db395973197d3deacec4cfdc477be8f441befea63f999707ab619"
 
 RPROVIDES:${PN} += "libdocinfo.so \
 libfilebrowser.so \

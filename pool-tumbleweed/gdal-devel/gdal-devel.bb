@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & MIT & SUSE-Public-Domain"
 
 PV = "3.6.3"
 
-RPM_NAME = "gdal-devel-3.6.3-2.4.aarch64.rpm"
-RPM_HASH = "94eef9540712017fb39c0fb9dd3d0c64c26930d4a0958dc7e0e48e770c411c39d993c0cc5281328723a45d819ad6c5aeb47eb4486d727deffdac76ef5e81fd9d"
+RPM_NAME = "gdal-devel-3.6.3-2.6.aarch64.rpm"
+RPM_HASH = "35b3213172a7606facd21359bfe644e124c4fa81a00215afea888a3f463afb90968226384aade2496eca1509ff2ce9d1d7da7ecac74b96b3736b9364a401cb73"
 
 RPROVIDES:${PN} += "cmake-GDAL \
 gdal-devel \

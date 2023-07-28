@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
 PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-sdk-7.5.4.2-1.3.aarch64.rpm"
-RPM_HASH = "58f4a71c97f71115e39cf11a1825403e31eafa79540a2af475130d293b1292f7ef3092c9a7010d654d61c0290c75d803643c280eb3c58c909586792907bfe7ab"
+RPM_NAME = "libreoffice-sdk-7.5.4.2-1.5.aarch64.rpm"
+RPM_HASH = "c8335c8a1b9ed271c35e4371c54cb628188dd49c0329ec5daba0786dccb82fbd10038871ca3f8d596c5dd9acb2336a417b056299b64772219365950c2b771add"
 
 RPROVIDES:${PN} += "libreoffice-sdk \
 libreoffice-ure-devel"

@@ -2,12 +2,12 @@ SUMMARY = "Gtk3 client for freeciv"
 DESCRIPTION = "Freeciv executable using Gtk3 library"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.0.7"
+PV = "3.0.8"
 
-RPM_NAME = "freeciv-gtk3-3.0.7-1.2.aarch64.rpm"
-RPM_HASH = "9123beaddb61b418978fb50d03edc768ba5fbde64dcbdbc1336a4275a7bb30f593be3699ceb3fe287a8b634f9e0a749edcf58f40df0906b9d6dc7453ab85722e"
+RPM_NAME = "freeciv-gtk3-3.0.8-1.1.aarch64.rpm"
+RPM_HASH = "b9b837c3d8678141ad1acd9b416309abdb655f154ca0af5b6e8e995ab68051635107a921da66a0d5fde694b7819266b5c32480c4ac7c401789a8af05408cec04"
 
-RPROVIDES:${PN} += "freeciv-client-3.0.7 \
+RPROVIDES:${PN} += "freeciv-client-3.0.8 \
 freeciv-gtk3"
 
 RDEPENDS:${PN} += "freeciv \

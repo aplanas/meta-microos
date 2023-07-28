@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.1.1"
 
-RPM_NAME = "libopenbabel7-3.1.1-1.5.aarch64.rpm"
-RPM_HASH = "6d79f934e6577ce5035f5211b450f0b3bbf7f2175099c0a835fb1b180c9e8f60ba09c82921cc9698fb1c195fc684fcfa0ef1c799aae38df83eea86eed652ea08"
+RPM_NAME = "libopenbabel7-3.1.1-2.1.aarch64.rpm"
+RPM_HASH = "7e589f1a88650f448019c009da5425f9e0923ddd192dba69dd8c433c6e4e502c3e75652c68169541cacd40b63488f120dcd678e0e2e4e0912bdc78aab629d2c9"
 
 RPROVIDES:${PN} += "libopenbabel.so.7 \
 libopenbabel7"

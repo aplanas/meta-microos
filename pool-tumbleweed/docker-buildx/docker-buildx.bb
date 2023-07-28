@@ -11,10 +11,10 @@ Key features: \
 - In-container driver support (both Docker and Kubernetes)"
 LICENSE = "Apache-2.0"
 
-PV = "0.11.1"
+PV = "0.11.2"
 
-RPM_NAME = "docker-buildx-0.11.1-1.1.aarch64.rpm"
-RPM_HASH = "6cc64edbf75858c28fa3f8fd05af283e52cafd03c10f58385b0573f474106e93e6eab1e35647e4326d19f87c9630282f3394950e67963823c812e5b4f4b0b542"
+RPM_NAME = "docker-buildx-0.11.2-1.1.aarch64.rpm"
+RPM_HASH = "6d612d669739985f05a1c2d55d02f6388314b654ea598e2b52818c6e19c9e8bc0f18680ae474a5145bf6524169e4e1034444bbf1505fe270e97b56088a074af0"
 
 RPROVIDES:${PN} += "docker-buildx"
 

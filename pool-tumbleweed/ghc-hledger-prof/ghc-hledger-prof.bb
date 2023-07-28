@@ -4,11 +4,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.28"
 
-RPM_NAME = "ghc-hledger-prof-1.28-3.1.aarch64.rpm"
-RPM_HASH = "1efb2a4dcf48b19a8aa1edc4555f74ee3a1814a94535236453af454ca16c176b99beee136a7e2ba8335ae3aaf031e69eac4f23dc69eea9cfab1d620bcc205912"
+RPM_NAME = "ghc-hledger-prof-1.28-3.2.aarch64.rpm"
+RPM_HASH = "df28d27fefb0c058f333c09d73f46e200eb5d4909d144bc691bfc6bd6bfe310b94fb23eb4ea24db08104de3edb24cf9496a07c62cdfc376670b707b3ab661f92"
 
 RPROVIDES:${PN} += "ghc-hledger-prof \
-ghc-prof-hledger-1.28-LMGraoAEV376eBGXHCUD0u"
+ghc-prof-hledger-1.28-6xu5mKG0SdnGvrDCbce5sU"
 
 RDEPENDS:${PN} += "ghc-hledger-devel \
 ghc-prof-Decimal-0.5.2-1qhxZ7R9Om3AQz2LFWOWmX \
@@ -21,12 +21,12 @@ ghc-prof-cmdargs-0.10.22-JxALoPeruUH3tSM40P8Mx \
 ghc-prof-containers-0.6.7 \
 ghc-prof-data-default-0.7.1.1-5iNQUD7GKkTDiLEyJaqXSy \
 ghc-prof-directory-1.3.7.1 \
-ghc-prof-extra-1.7.14-BoqGpItPSHp5TXSaJGSPpo \
+ghc-prof-extra-1.7.14-9MsHIUa0FAo4DKg07m0mTc \
 ghc-prof-filepath-1.4.2.2 \
 ghc-prof-githash-0.1.7.0-99BBKgCWJJUA6aWVuD3QRz \
 ghc-prof-hashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt \
 ghc-prof-haskeline-0.8.2 \
-ghc-prof-hledger-lib-1.28-KVtwO74sgvi1hMRwtb8EwS \
+ghc-prof-hledger-lib-1.28-8CRsXBZZAO2KJcvUK9hqic \
 ghc-prof-lucid-2.11.20230408-4Nhfi0FKLIn9BurrsHVz0w \
 ghc-prof-math-functions-0.3.4.2-9rV4yQVX6xI3LaPo90WsZk \
 ghc-prof-megaparsec-9.3.1-Lptmv1Cc41nKt1ZYt8kXVr \

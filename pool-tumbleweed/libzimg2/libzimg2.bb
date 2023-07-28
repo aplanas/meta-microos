@@ -3,10 +3,10 @@ DESCRIPTION = "The 'z' image library implements the commonly required image proc
 basics of scaling, colorspace conversion, and depth conversion."
 LICENSE = "WTFPL"
 
-PV = "3.0.4"
+PV = "3.0.5"
 
-RPM_NAME = "libzimg2-3.0.4-1.6.aarch64.rpm"
-RPM_HASH = "61a79fa65286c71390bf2962c32539607a89c5e7f1fd74f9f280007de563a09bf801990fc1677f9936d87a0d0a9b8347bb1f2d9d24300190f69b335d494e1315"
+RPM_NAME = "libzimg2-3.0.5-1.1.aarch64.rpm"
+RPM_HASH = "c5fc1e12cf88d802c11e0f47347ed534ed1ea021ecb6ee4ea79e909824b4d7770d44a7174a7a2dccb6a7a502dbb09fd79ac8b7d70b5303baa234fb8c2b6525df"
 
 RPROVIDES:${PN} += "libzimg.so.2 \
 libzimg2"

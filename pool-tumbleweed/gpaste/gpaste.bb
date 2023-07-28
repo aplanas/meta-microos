@@ -2,10 +2,10 @@ SUMMARY = "Clipboard management system for GNOME"
 DESCRIPTION = "GPaste is a clipboard management daemon with DBus interface."
 LICENSE = "BSD-2-Clause"
 
-PV = "43.2+6"
+PV = "44.1"
 
-RPM_NAME = "gpaste-43.2+6-2.2.aarch64.rpm"
-RPM_HASH = "7b6b2569b35ea29652fd913041c16245e67dd2faf0ca574ee1e5c3f3da6d3ca87b923179dbe75f201a0db59c3459513454c1a33f97efd24dc083c0aa401b4028"
+RPM_NAME = "gpaste-44.1-1.1.aarch64.rpm"
+RPM_HASH = "7f47e903ea9e658793ef5f6fc958bcb7f23dcaa1f8bf7ba3fd7f89f6f12634d55a28e189f2c12d8e87d72559f6fc64aca497be70d4bf070f4bbda8c6db0db4f6"
 
 RPROVIDES:${PN} += "gpaste"
 

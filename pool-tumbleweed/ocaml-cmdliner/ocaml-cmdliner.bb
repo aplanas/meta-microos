@@ -8,10 +8,10 @@ generation. It supports programs with single or multiple commands and respects \
 most of the POSIX and GNU conventions."
 LICENSE = "ISC"
 
-PV = "1.1.1"
+PV = "1.2.0"
 
-RPM_NAME = "ocaml-cmdliner-1.1.1-1.10.aarch64.rpm"
-RPM_HASH = "ea90d516436eb9f4857d9a565e9f3760a83866738e69451247c0bcf9efe46fb3d4d020cc5363ad910ef51fb136cb16581d8904669ec211cc7750d1bb9f7cc879"
+RPM_NAME = "ocaml-cmdliner-1.2.0-1.1.aarch64.rpm"
+RPM_HASH = "76f36995e99792bca0599b123bb87be69807acf70d5b72df483c2c0b756dcd3f10f74efd4d622930a920da90d3d24553ef0854aba2219d4f36698730af07a926"
 
 RPROVIDES:${PN} += "ocaml-cmdliner"
 

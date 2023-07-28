@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Dutch Translations"
 DESCRIPTION = "YaST2 - Translations for Dutch."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230708.d1de37aed1"
+PV = "84.87.20230714.966688ddd0"
 
-RPM_NAME = "yast2-trans-nl-84.87.20230708.d1de37aed1-1.1.noarch.rpm"
-RPM_HASH = "19ebc675de4a11dd8edb017ebf83a9599d7b237d372f938ae71a901d4a3b5380ec5c2e13dc006a6527ef97b5f0ebebda1d1cfb21a11eaf9598ba15f8bcc930d5"
+RPM_NAME = "yast2-trans-nl-84.87.20230714.966688ddd0-1.1.noarch.rpm"
+RPM_HASH = "52391b5896c882f7e0e0a342480e34a896c0c04568b45dba8bd49c23c264a8ede13307aef9cd9576cd0ed7f528350828eec966057c28fbac2f59dad754f2fb60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-nl \

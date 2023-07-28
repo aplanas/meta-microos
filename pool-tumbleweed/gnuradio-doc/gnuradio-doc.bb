@@ -8,10 +8,10 @@ performance wireless devices into software problems. \
 This package contains documentation for GNU Radio."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.10.6.0"
+PV = "3.10.7.0"
 
-RPM_NAME = "gnuradio-doc-3.10.6.0-4.4.noarch.rpm"
-RPM_HASH = "433f6c2288a8612c2875e83813d8a9ec1b4844dac4a99cb6ec27e45bdc3b2c07ef2a7a73ee0a33676ff0983ef6e4082971700e46e0f74d4556706d508cbf3a24"
+RPM_NAME = "gnuradio-doc-3.10.7.0-1.1.noarch.rpm"
+RPM_HASH = "53feb17ad9259208fd801a1ef179a1ff0132848212faf228c2304733d18162166e09a2c2f4e0dccf2c997a3d56661d411b4b583ccf63e70ab4e41f66fc819e3a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnuradio-doc"

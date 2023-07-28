@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.19.1"
 
-RPM_NAME = "ghc-servant-prof-0.19.1-2.6.aarch64.rpm"
-RPM_HASH = "1efca3b7ee0ea65cb32e2f0f4e731c4150cf3ee8d9e38f8dbf8bb87a1128142e1dceb27b3b2cee1491e70045dbb7e8d3bba277fd88e4c8200699373514d3bab7"
+RPM_NAME = "ghc-servant-prof-0.19.1-3.1.aarch64.rpm"
+RPM_HASH = "13c8ad40b15a3c37bbee4deb2a36fedc767b037a6d6750735d3185ecc60961e498cd40373be6fcbb479a389c1081e80fb0a0d65c1501a33d954263ce423cbc89"
 
 RPROVIDES:${PN} += "ghc-prof-servant-0.19.1-6G8iD3Z75czL6ryOAXMC67 \
 ghc-servant-prof"

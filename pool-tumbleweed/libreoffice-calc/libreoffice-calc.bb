@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
 PV = "7.5.4.2"
 
-RPM_NAME = "libreoffice-calc-7.5.4.2-1.3.aarch64.rpm"
-RPM_HASH = "ed502b358db3bc145653e3c3a1e0c8c5bf039dcf82dfb78a35a40d05efc7ac9dccad3cc02a3888a5a11c4d514646efd0bb32bdf77b8aef665f43b5913f1eb3b0"
+RPM_NAME = "libreoffice-calc-7.5.4.2-1.5.aarch64.rpm"
+RPM_HASH = "0b4ab4b7afac37cc0cd6bcf87443e4866006aa66fcf75ea7e4aee5443b45235f58b329cd955ebf954cdb0447260248018cd69f92ff0dcbb87bdbb9f050b4bbe5"
 
 RPROVIDES:${PN} += "libanalysislo.so \
 libcalclo.so \

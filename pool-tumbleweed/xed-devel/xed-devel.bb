@@ -10,10 +10,10 @@ includes support for spell checking, comparing files, viewing VCS \
 ChangeLogs, and adjusting indentation levels."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.2.8"
+PV = "3.4.3"
 
-RPM_NAME = "xed-devel-3.2.8-1.4.aarch64.rpm"
-RPM_HASH = "87680b7d7a56570468075576c99e8f5834d0ce486c79b79cceaafa161c4043474353d3f1c5a65caee0445e98e757e289a27fef30963184db508b4c9b339406ba"
+RPM_NAME = "xed-devel-3.4.3-1.1.aarch64.rpm"
+RPM_HASH = "8928605ebb75d96bb95e89b83eebb44c53d1a5011008e672ad7bc649677d7e1d734245e294b854763bec883eb424873db1c9ac9db1e3444e835b5e1756717306"
 
 RPROVIDES:${PN} += "pkgconfig-xed \
 xed-devel"

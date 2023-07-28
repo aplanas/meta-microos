@@ -4,11 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.5"
 
-RPM_NAME = "ghc-hlint-3.5-1.10.aarch64.rpm"
-RPM_HASH = "9d5875a89ad940efc08af3ee017dc0291af105620a77323b705ee68bfeb294914c6a670f1543a766769f3100e864f1276851bf91d03c1627b5d0823518377013"
+RPM_NAME = "ghc-hlint-3.5-1.11.aarch64.rpm"
+RPM_HASH = "e630f6a78a5086378b99dfb2ebbf519e94d81706a11053f0fb40e3f5cead7a765f5aae4cf4ea79a86257a0a28ebb00aabaa4fbe77cf2d2f65dbcf5572a1bab78"
 
 RPROVIDES:${PN} += "ghc-hlint \
-libHShlint-3.5-D3vZjbXvhdOGKD9r4srBmV-ghc9.4.5.so"
+libHShlint-3.5-5lu6ClZadMNAojOvKUNcWt-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV-ghc9.4.5.so \
 libHSQuickCheck-2.14.3-6dq2izV8oSq1BobaDA598X-ghc9.4.5.so \
@@ -28,7 +28,7 @@ libHSbifunctors-5.5.15-7mn3oj93MLM2f6K5DVlnRL-ghc9.4.5.so \
 libHSbinary-0.8.9.1-ghc9.4.5.so \
 libHSbitvec-1.1.4.0-FzBtDnbj1qCBVRHTrZUOXy-ghc9.4.5.so \
 libHSbytestring-0.11.4.0-ghc9.4.5.so \
-libHSclock-0.8.3-Bn4LVnP2KGzGGqLjq4BuLV-ghc9.4.5.so \
+libHSclock-0.8.4-Kk7SFw4SNhZ8ktwfjRIPil-ghc9.4.5.so \
 libHScmdargs-0.10.22-JxALoPeruUH3tSM40P8Mx-ghc9.4.5.so \
 libHScolour-2.3.6-7jQe2xj5Lsa5MbX38iH7Ln-ghc9.4.5.so \
 libHScomonad-5.0.8-9UnH7KDg5138z3eBCPM7y4-ghc9.4.5.so \
@@ -48,10 +48,10 @@ libHSdirectory-1.3.7.1-ghc9.4.5.so \
 libHSdistributive-0.6.2.1-GisXwtVaDTaDcC79Nunm79-ghc9.4.5.so \
 libHSdlist-1.0-BmTLN13CmmLQvuHz7BjP9-ghc9.4.5.so \
 libHSexceptions-0.10.5-ghc9.4.5.so \
-libHSextra-1.7.14-BoqGpItPSHp5TXSaJGSPpo-ghc9.4.5.so \
+libHSextra-1.7.14-9MsHIUa0FAo4DKg07m0mTc-ghc9.4.5.so \
 libHSfile-embed-0.0.15.0-LJLaBgMyS4K2tBVYbzJ0uw-ghc9.4.5.so \
 libHSfilepath-1.4.2.2-ghc9.4.5.so \
-libHSfilepattern-0.1.3-ZuemUYkhwGA1RPuLxzdA9-ghc9.4.5.so \
+libHSfilepattern-0.1.3-3YAZmlhLkyq9JKYM4OPVoZ-ghc9.4.5.so \
 libHSfoldable1-classes-compat-0.1-JP9wXcYYGsT10VsvIV9rpl-ghc9.4.5.so \
 libHSgenerically-0.1.1-9IDkuVjdBOA27Mdybf3GBx-ghc9.4.5.so \
 libHSghc-bignum-1.3-ghc9.4.5.so \

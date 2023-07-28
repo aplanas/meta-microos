@@ -3,10 +3,10 @@ DESCRIPTION = "fcft is a font loading and glyph rasterization library built on-t
 of FontConfig, FreeType2 and pixman."
 LICENSE = "MIT"
 
-PV = "3.1.5"
+PV = "3.1.6"
 
-RPM_NAME = "libfcft4-3.1.5-1.4.aarch64.rpm"
-RPM_HASH = "3cc3bb3d0dd4cb271bf3093aa330fbd8c2e4462dc498005f63fb22828ac186e5a09d4f5dde0fbba2e4aac0749040de3718fb379de88b4f7a13c89ef6de6c4e9d"
+RPM_NAME = "libfcft4-3.1.6-1.1.aarch64.rpm"
+RPM_HASH = "707b27ae5c89e58ed1a4242c8376bb97c7526d274bd506a8dce0a3995f58d4d650d9eda1ca617778c37a9b99bca6465b33f2742d8c63370cc7197d755dd876ba"
 
 RPROVIDES:${PN} += "libfcft.so.4 \
 libfcft4"

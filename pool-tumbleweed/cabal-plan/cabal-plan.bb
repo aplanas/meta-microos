@@ -32,8 +32,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.3.0"
 
-RPM_NAME = "cabal-plan-0.7.3.0-1.2.aarch64.rpm"
-RPM_HASH = "cea00096fc6804c9ea33e2b5fdccdb6a74313d27c50b7f784285936a71ea7c756c714fcc54ab72300b1c8a786bcedb060d54cb2bb8c8056d8f7313c9bd878907"
+RPM_NAME = "cabal-plan-0.7.3.0-2.1.aarch64.rpm"
+RPM_HASH = "1664ffdd68f22f414b0af6094f74cdbc58c57ae42080bb12fe9b209716c9f7b96196ef9219212848fca6c46cbab16ed852bae62fb074b5635c5f483174a69fb5"
 
 RPROVIDES:${PN} += "cabal-plan"
 

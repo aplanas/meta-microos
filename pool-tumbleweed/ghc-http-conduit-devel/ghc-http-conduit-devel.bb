@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.3.8.2"
 
-RPM_NAME = "ghc-http-conduit-devel-2.3.8.2-1.2.aarch64.rpm"
-RPM_HASH = "d5c79abfc7a7b92cbbc2ea7c78f31ed10d47964861d24e4262f5cd085acbc5f50212b303486edb114b675b039f8dea1d709d915ccde427a6233eceb1fbddfe5a"
+RPM_NAME = "ghc-http-conduit-devel-2.3.8.2-2.1.aarch64.rpm"
+RPM_HASH = "172925cde64a44fe3b19626e68298747fffc15d6398dd55e96f128c4970baf7295121670ce34bcd6d895eb71792259fa4c92259ff411d50cb06d360474f82a46"
 
 RPROVIDES:${PN} += "ghc-devel-http-conduit-2.3.8.2-8tllEf20Pfc53Ypql5ryYG \
 ghc-http-conduit-devel"

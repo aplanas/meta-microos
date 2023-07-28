@@ -5,10 +5,10 @@ The validator can be used as python module and from console: \
     $ jsonschema --instance sample.json sample.schema"
 LICENSE = "MIT"
 
-PV = "4.18.3"
+PV = "4.18.4"
 
-RPM_NAME = "python311-jsonschema-4.18.3-1.1.noarch.rpm"
-RPM_HASH = "fcff7b662c93880725ff15e4c3490c41682b931157b98a299008b9e7f57b12b464aed56d8db2e9b0ef92dac8541452be1b7326ce5c8c86d1ea4d9e86fc73b451"
+RPM_NAME = "python311-jsonschema-4.18.4-1.2.noarch.rpm"
+RPM_HASH = "349e3602143f2fa313391d7f5fdc26d48a7312e83d19d440f850c24e50167d4b3cd91ac6256bb060db3028ff8ce2d0ec3bc0c93dda6ac0c751bb6ebc620b2d15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jsonschema \

@@ -6,10 +6,10 @@ suseconnect-ng reduces the size of its runtime dependencies compared to the \
 replaced SUSEConnect."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.1.0~git2.f42b4b2a060e"
+PV = "1.2.0~git0.abd0fec"
 
-RPM_NAME = "suseconnect-ng-1.1.0~git2.f42b4b2a060e-1.1.aarch64.rpm"
-RPM_HASH = "6d7f5aca2dda7c497dbe4df775f801406c47af2ed0c9f29523e7b8bbe13d5bae635915a76b3e670b3a2e9b4d3455449592d98ec8a31b5fc8a3e2380ab98b1df4"
+RPM_NAME = "suseconnect-ng-1.2.0~git0.abd0fec-1.1.aarch64.rpm"
+RPM_HASH = "ba0f98c64a971ae2b4694d2cd893a6a53b5f75d9f27eb80bc9b2914dbdc7c543a0162c52c8ce7cd037634a76a0db1fb570e09d6514965e809bee56b48702aa16"
 
 RPROVIDES:${PN} += "SUSEConnect \
 suseconnect-ng \

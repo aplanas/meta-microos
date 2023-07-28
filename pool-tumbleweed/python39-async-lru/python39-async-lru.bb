@@ -5,10 +5,10 @@ result in 1 call to the wrapped function, with all awaits receiving the result o
 call when it completes."
 LICENSE = "MIT"
 
-PV = "2.0.2"
+PV = "2.0.3"
 
-RPM_NAME = "python39-async-lru-2.0.2-1.3.noarch.rpm"
-RPM_HASH = "3d3c65dad0fda62aad7dbdae35edc5746f5deea75bada51e937623e0cc98dbdfa8132e35c4527220e0ef2f355a8a810c77a2f94c9f5a48412ed009d73503be07"
+RPM_NAME = "python39-async-lru-2.0.3-1.1.noarch.rpm"
+RPM_HASH = "992edc1d0c50a5a314409463bf11c7b8fa0528886d08c22afa09137746e252a68772be0b711230d648f64e5bab65de804e2931c77c36b1bbb20a9a02ce9eb899"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-async-lru \

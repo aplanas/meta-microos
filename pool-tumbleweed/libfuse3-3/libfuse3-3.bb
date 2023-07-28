@@ -7,10 +7,10 @@ application that links with libfuse. libfuse provides a C API over \
 the raw kernel interface."
 LICENSE = "BSD-2-Clause & GPL-2.0-only & LGPL-2.1-only"
 
-PV = "3.15.0"
+PV = "3.15.1"
 
-RPM_NAME = "libfuse3-3-3.15.0-1.1.aarch64.rpm"
-RPM_HASH = "e509184810eefdd02414968ce4c9423276a6c08f086507de869ddc7ef74a71f4884d33a12c1840c7b6d09f70a667543b67d8c3ff00796d8bda0e1c175c5d79c3"
+RPM_NAME = "libfuse3-3-3.15.1-1.1.aarch64.rpm"
+RPM_HASH = "079fd367fd2b7adbe7f90242a79c03a4c7cb0f23ebdbdc87fa319a4d80d24bed63431ea530a5e6f164f910369e37a52bbe16e188bda60a3519357858dccfb765"
 
 RPROVIDES:${PN} += "libfuse3-3 \
 libfuse3.so.3"

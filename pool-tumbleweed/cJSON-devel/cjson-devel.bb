@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libcjson."
 LICENSE = "MIT"
 
-PV = "1.7.15"
+PV = "1.7.16"
 
-RPM_NAME = "cJSON-devel-1.7.15-1.8.aarch64.rpm"
-RPM_HASH = "484c249fac57dbe0c34d08852f143a2bfd63c872dd40718be13e415d526832ce1dfabb83dec8538ca08e538856b675d504eb5f730b09213dd6ebf0e60b6d0f59"
+RPM_NAME = "cJSON-devel-1.7.16-1.1.aarch64.rpm"
+RPM_HASH = "2a1d822ccb1890cd71a17f4d5485e6642eb2e26a76257b65b7d9947b5b3a9af6a5e95a4e6602295336aab514d175435fde5134a7ba11d2a51040cc148a934fb1"
 
 RPROVIDES:${PN} += "cJSON-devel \
 cmake-cJSON \

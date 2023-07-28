@@ -2,10 +2,10 @@ SUMMARY = "A glossy Matrix collaboration client - desktop"
 DESCRIPTION = "A glossy Matrix collaboration client - desktop"
 LICENSE = "Apache-2.0"
 
-PV = "1.11.34"
+PV = "1.11.36"
 
-RPM_NAME = "element-desktop-1.11.34-1.1.aarch64.rpm"
-RPM_HASH = "d2b7f8338ab662054cb63b56fc2a1291a54af434177a0815d804f790a7e59ff9d10cd4bc5d8ee8341a1e8980db0611f31f124aac6752b3e5f61a5e28941d35db"
+RPM_NAME = "element-desktop-1.11.36-1.1.aarch64.rpm"
+RPM_HASH = "616f5e908ca3e56c79d496506fb02f7265ef3d3c0d907be3bb57d61f5377ef0a85dbb0aa352c5273fd40a3af64ec72a32472c5ced696b469a0013a39f08d4e07"
 
 RPROVIDES:${PN} += "config-element-desktop \
 element-desktop"

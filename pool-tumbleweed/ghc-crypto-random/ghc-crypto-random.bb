@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.9"
 
-RPM_NAME = "ghc-crypto-random-0.0.9-5.6.aarch64.rpm"
-RPM_HASH = "71b53dc54402a9dc599a3a7bafd5c1a7c11fefaec38f7659893b0da7eec94b8b061852f1c034feb2de156a9563f562fc01e643ca9bbfabdbcb9d6c89e5e9ff7f"
+RPM_NAME = "ghc-crypto-random-0.0.9-6.1.aarch64.rpm"
+RPM_HASH = "a228132fbb7059fef2b6738a1f66302f720c1c7d828a98dcbe05fa9144c1b5c04c929bb45a1b31b2049fbddae0154886dd627409ac3aa2acd0f035970a51c770"
 
 RPROVIDES:${PN} += "ghc-crypto-random \
 libHScrypto-random-0.0.9-60vlsiR41hHGmZ9VjOCRvw-ghc9.4.5.so"

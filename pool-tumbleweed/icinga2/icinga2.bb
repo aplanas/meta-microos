@@ -2,10 +2,10 @@ SUMMARY = "Network monitoring application"
 DESCRIPTION = "Meta package for Icinga 2 Core, DB IDO and Web."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.13.7"
+PV = "2.13.8"
 
-RPM_NAME = "icinga2-2.13.7-1.5.aarch64.rpm"
-RPM_HASH = "e0dd7d2007746fb646e97a065d27b427d86adbc1447cc42fb50f428dab5f47ce525625e52e954ec7cb2872fc1019af868292650811472d25b08f4c9b8aba6123"
+RPM_NAME = "icinga2-2.13.8-1.1.aarch64.rpm"
+RPM_HASH = "2089f32f9c74b133a4085b8a246d1a340c603b107373db504b63c7d5552129ca35c77f6beea41f53c69b15528ea3c04b904d0da9e12b51ab1d472c0c3103ea8b"
 
 RPROVIDES:${PN} += "config-icinga2 \
 icinga2"

@@ -8,8 +8,8 @@ LICENSE = "ISC"
 
 PV = "2.1.0"
 
-RPM_NAME = "libyajl-devel-static-2.1.0-7.2.aarch64.rpm"
-RPM_HASH = "2647fa9ffb8cab8df28cdeba67f140fd9ee225da14ed8b23d23872faa8dc6fc74145063e18eda0ae25035ae5ce5caeec76b427f99f8a9ad711f8565f62243b3d"
+RPM_NAME = "libyajl-devel-static-2.1.0-8.1.aarch64.rpm"
+RPM_HASH = "7c5acaea7393d9049e5a5a8110401f88cb1d6792575560dc5061300de8e047caa39b604fd01be1920fd16bc22ab96c134b552a50199a4cf01d368a3c66e4b5d5"
 
 RPROVIDES:${PN} += "libyajl-devel-static"
 

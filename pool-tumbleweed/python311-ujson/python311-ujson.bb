@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.8.0"
 
-RPM_NAME = "python311-ujson-5.8.0-1.1.aarch64.rpm"
-RPM_HASH = "ace0cfe248684c4e583f35dedeab39c9c52e46337610ccf8515d1298a0662cd43df9bd95f70c67fab8f746144ac481b54abe37e9c0bb31ad78677685752ad7e4"
+RPM_NAME = "python311-ujson-5.8.0-2.1.aarch64.rpm"
+RPM_HASH = "44d0574fd025003b2fd3c0cd7b70e3b7fdf350b7591c8eb81898de7ad18c59aabc8c6d4cde3ad35ae55b796277a89341dce37ed59e3479d64b95eb2a60fce40d"
 
 RPROVIDES:${PN} += "python3-ujson \
 python3.11dist-ujson \

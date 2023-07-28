@@ -12,10 +12,10 @@ Papirus-Dark \
 Papirus-Light"
 LICENSE = "GPL-3.0-only"
 
-PV = "20230301"
+PV = "20230601"
 
-RPM_NAME = "papirus-icon-theme-20230301-1.1.noarch.rpm"
-RPM_HASH = "d0885c0e7adefb139ac4077546a056855ffbd908d0fb4a522f8cc137340f5206aa160277704d17d55af404c22e4bcca9820237402d66ae30961c53da6bffbf54"
+RPM_NAME = "papirus-icon-theme-20230601-1.1.noarch.rpm"
+RPM_HASH = "7c0accb6befbf05a683a08912992e266339625e961bf73bb35e18645c3199a2c89965afd2d1f241e88deb11211ca58fddf636bdd35353eef2ee943c743c791c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "papirus-icon-theme"

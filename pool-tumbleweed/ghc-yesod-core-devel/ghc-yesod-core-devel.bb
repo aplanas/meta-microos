@@ -2,12 +2,12 @@ SUMMARY = "Haskell yesod-core library development files"
 DESCRIPTION = "This package provides the Haskell yesod-core library development files."
 LICENSE = "MIT"
 
-PV = "1.6.24.2"
+PV = "1.6.24.3"
 
-RPM_NAME = "ghc-yesod-core-devel-1.6.24.2-1.8.aarch64.rpm"
-RPM_HASH = "aa7d810350fb882065da2739bd304349862b973b23c5ff3ed4bb2e28d3b6cb942f6620c86eb7473dc4e513f7fdf9205ab24838eb81f0cec1580008dbf6245f84"
+RPM_NAME = "ghc-yesod-core-devel-1.6.24.3-1.2.aarch64.rpm"
+RPM_HASH = "5ef242f7563dff68a966338d46529f413cbc45396caea618acd9423fa8e7d1b61b255279bcb2baa822a7df2eae332a6a4d0e5e3d861801e7ab97c629eff9cb4d"
 
-RPROVIDES:${PN} += "ghc-devel-yesod-core-1.6.24.2-7isfGP7hc9NLFaHQAgg8t \
+RPROVIDES:${PN} += "ghc-devel-yesod-core-1.6.24.3-FuwsWoOUEyTCufqnix4g5P \
 ghc-yesod-core-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -20,7 +20,7 @@ ghc-devel-blaze-markup-0.8.2.8-1rqnOPcdOmIw0iYwB3Kqc \
 ghc-devel-bytestring-0.11.4.0 \
 ghc-devel-case-insensitive-1.2.1.0-AumZoR4Lds63HJj8OQwHY3 \
 ghc-devel-cereal-0.5.8.3-LNsxCTyOF85AKtb4iLTs8f \
-ghc-devel-clientsession-0.9.1.2-LlqL6bYAJ8NAeAYS4avg1k \
+ghc-devel-clientsession-0.9.2.0-4cx1ifSXftyKQDB0RGxUDf \
 ghc-devel-conduit-1.3.5-EjJ71P6EbmSGTrvJLquwgr \
 ghc-devel-conduit-extra-1.3.6-1ns4btxv78gDsSQyRueTL2 \
 ghc-devel-containers-0.6.7 \

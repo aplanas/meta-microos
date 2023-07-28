@@ -4,11 +4,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.0.1"
 
-RPM_NAME = "ghc-pandoc-lua-engine-0.2.0.1-1.5.aarch64.rpm"
-RPM_HASH = "a5a5e86997a4f726a89c6bbc2490ef0e370847f3815badb5e7f7aa287060128d4c0b4225972c5687583a00f2f12a68a447f2a0d1a0649e5c6d318b7f248b800d"
+RPM_NAME = "ghc-pandoc-lua-engine-0.2.0.1-1.6.aarch64.rpm"
+RPM_HASH = "cbf7f2dd7468211577660b1d7f7c201cf110f0ee3209e5c7a374849e02aa705dcee134f7b2297d4fc202fc2fa2e26d9250c488d1f8e72ed1297b2c370a98f1b3"
 
 RPROVIDES:${PN} += "ghc-pandoc-lua-engine \
-libHSpandoc-lua-engine-0.2.0.1-r8UvTKtSPM6mmqNwEzvu1-ghc9.4.5.so"
+libHSpandoc-lua-engine-0.2.0.1-5sUPoxcrHZ3FzfN1da4tRi-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSGlob-0.10.2-5tAj3lHfg0h9Pb5bOpMg4R-ghc9.4.5.so \
 libHSJuicyPixels-3.3.8-BQPF2mBCFFj3rGPaZ8nrGS-ghc9.4.5.so \
@@ -49,11 +49,11 @@ libHSbytestring-0.11.4.0-ghc9.4.5.so \
 libHScase-insensitive-1.2.1.0-AumZoR4Lds63HJj8OQwHY3-ghc9.4.5.so \
 libHScassava-0.5.3.0-6nKMpykUjDPH1yduUJ1iAD-ghc9.4.5.so \
 libHScereal-0.5.8.3-LNsxCTyOF85AKtb4iLTs8f-ghc9.4.5.so \
-libHSciteproc-0.8.1-Ex3LMLw4y9Q5nAZv8bt8hk-ghc9.4.5.so \
+libHSciteproc-0.8.1-IdWRS5bkx4mHz8SxZquXUQ-ghc9.4.5.so \
 libHScolour-2.3.6-7jQe2xj5Lsa5MbX38iH7Ln-ghc9.4.5.so \
 libHScommonmark-0.2.3-I1mjDgOYrWfJTVx5dvVv0G-ghc9.4.5.so \
-libHScommonmark-extensions-0.2.3.4-lgOKfz42TuIWz23FZS91J-ghc9.4.5.so \
-libHScommonmark-pandoc-0.2.1.3-HVNPkFgx18RJMldDwlSrf3-ghc9.4.5.so \
+libHScommonmark-extensions-0.2.3.5-GeNUJwJZ0WZ7BXjQ8SYvXo-ghc9.4.5.so \
+libHScommonmark-pandoc-0.2.1.3-5icm69shxRz6xfjspkSdL7-ghc9.4.5.so \
 libHScomonad-5.0.8-9UnH7KDg5138z3eBCPM7y4-ghc9.4.5.so \
 libHSconduit-1.3.5-EjJ71P6EbmSGTrvJLquwgr-ghc9.4.5.so \
 libHSconduit-extra-1.3.6-1ns4btxv78gDsSQyRueTL2-ghc9.4.5.so \
@@ -127,10 +127,10 @@ libHSnetwork-3.1.4.0-FvtFepOtuCUH79FCWyNxIc-ghc9.4.5.so \
 libHSnetwork-uri-2.6.4.2-4kNQnaE9heqEL1mH8FE5xH-ghc9.4.5.so \
 libHSold-locale-1.0.0.7-B5o2Qz0CVVSCB1XGw7OfzR-ghc9.4.5.so \
 libHSordered-containers-0.2.3-2vvzHwtaKIjK7BBzxceSWT-ghc9.4.5.so \
-libHSpandoc-3.1.3-Azpj6t6N0K33PpNoCn46n6-xml-light-ghc9.4.5.so \
-libHSpandoc-3.1.3-IvLrz4YIivMLuf8ZxaBxIb-ghc9.4.5.so \
-libHSpandoc-lua-marshal-0.2.2-sn2ZVEcWlgDOuaBIv7GGF-ghc9.4.5.so \
-libHSpandoc-types-1.23-4C1nzwOnt973xRAA9sp531-ghc9.4.5.so \
+libHSpandoc-3.1.3-ImQr97Zc2bP55LDbAec3vO-ghc9.4.5.so \
+libHSpandoc-3.1.3-IzkHpxfVqJp7Y4A5yupAQ8-xml-light-ghc9.4.5.so \
+libHSpandoc-lua-marshal-0.2.2-FczgTsDU3sCHicuhmGSmSB-ghc9.4.5.so \
+libHSpandoc-types-1.23.0.1-EcvZluXpPb0J10kJC4UfRg-ghc9.4.5.so \
 libHSparsec-3.1.16.1-ghc9.4.5.so \
 libHSpem-0.2.4-7ofxEvI1NwqKqDFtfJ1pS-ghc9.4.5.so \
 libHSpretty-1.1.3.6-ghc9.4.5.so \
@@ -145,12 +145,12 @@ libHSsafe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds-ghc9.4.5.so \
 libHSscientific-0.3.7.0-D5F2vql7x79Dy9hx72OES1-ghc9.4.5.so \
 libHSsemialign-1.3-D9a6dNA89ZHcaXKxWN9Am-ghc9.4.5.so \
 libHSsemigroupoids-5.3.7-Ju2oK8NLhZKHdQ6h8GWNM1-ghc9.4.5.so \
-libHSskylighting-0.13.3-KhN5DzrcPQALN95CsO2kAp-ghc9.4.5.so \
-libHSskylighting-core-0.13.3-9hBRKYwyArU4OdEqV8LbQv-ghc9.4.5.so \
-libHSskylighting-format-ansi-0.1-7wsekCwokAw5Lqh6kWpqBT-ghc9.4.5.so \
-libHSskylighting-format-blaze-html-0.1.1-F12UWgv4wxWHCG1WBLqTVs-ghc9.4.5.so \
-libHSskylighting-format-context-0.1.0.2-9kgX49cteJhG5oRziiwfwa-ghc9.4.5.so \
-libHSskylighting-format-latex-0.1-8E2kKavCeIp7J2nfRBTdHs-ghc9.4.5.so \
+libHSskylighting-0.13.4-5T99F0BkgIQGejRNYUpHqn-ghc9.4.5.so \
+libHSskylighting-core-0.13.4-ILWFndoUOH7DzXIN7Ztglj-ghc9.4.5.so \
+libHSskylighting-format-ansi-0.1-Bs7UZk06X7gCvm9EWhhFHl-ghc9.4.5.so \
+libHSskylighting-format-blaze-html-0.1.1-2S5li2Ic3P8IXVFqKrjQNX-ghc9.4.5.so \
+libHSskylighting-format-context-0.1.0.2-DaN7b6FAIhw69Ip8uy59f9-ghc9.4.5.so \
+libHSskylighting-format-latex-0.1-KUWKzkdJqvB1foV6pwv6yZ-ghc9.4.5.so \
 libHSsocks-0.6.1-8gBEgerYb38E7aCOOcHCwN-ghc9.4.5.so \
 libHSsplit-0.2.3.5-u3oGLAiW7JJbxIffWSCWf-ghc9.4.5.so \
 libHSsplitmix-0.1.0.4-7e8CibdlMRLAGh7KO5VlFe-ghc9.4.5.so \
@@ -162,7 +162,7 @@ libHStagged-0.8.7-CYOhX22Df3PFW5V1S0dOJa-ghc9.4.5.so \
 libHStagsoup-0.14.8-KqOLe3dJpuA4KsHZJW2cTn-ghc9.4.5.so \
 libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
 libHStemporary-1.3-9rLWZg49Shk3gKExST32p-ghc9.4.5.so \
-libHStexmath-0.12.8-2W1fkH7eNmw4E7l7odwRHx-ghc9.4.5.so \
+libHStexmath-0.12.8-2ewx8lB0RHk1Ql4916ePbT-ghc9.4.5.so \
 libHStext-2.0.2-ghc9.4.5.so \
 libHStext-conversions-0.3.1.1-CkkBRqT3R5g4PO0QywmUQS-ghc9.4.5.so \
 libHStext-short-0.1.5-82jy4M6AvoMDwlCMY2Ykx2-ghc9.4.5.so \

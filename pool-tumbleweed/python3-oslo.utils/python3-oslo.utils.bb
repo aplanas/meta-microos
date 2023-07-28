@@ -5,10 +5,10 @@ such as encoding, exception handling, string manipulation, and time handling. \
 This package contains the Python 3.x module."
 LICENSE = "Apache-2.0"
 
-PV = "6.1.0"
+PV = "6.2.0"
 
-RPM_NAME = "python3-oslo.utils-6.1.0-1.4.noarch.rpm"
-RPM_HASH = "16b661532a0dd00f65fcd3ec5ae5ae0588dfbcb1c4a245f38ec51f4813a7c4e615028b8047b5887afc78b8e9613eeac1f8ffe6fe3a068eea6963c61f748d4bb3"
+RPM_NAME = "python3-oslo.utils-6.2.0-1.1.noarch.rpm"
+RPM_HASH = "c06227c5c0cca2c9e1c651dbf5336bdc012d1b96fca0b0dbe10f85a711d6650f3df3cbdfaf57b118e7f06ce535b6f20a7273f29f56ca66cb2a557994c51ab3c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.utils \
