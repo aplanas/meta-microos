@@ -8,12 +8,15 @@ SRC_URI[sha512sum] = "${RPM_HASH}"
 
 S = "${WORKDIR}/unrpm"
 
+# Drop subpackages, as defined in bitbake.conf
+PACKAGES = "${PN}"
 FILES:${PN} += "*"
 
 # QA complains that binaries are already stripped
 INSANE_SKIP:${PN} += "already-stripped"
 
-# Do not build extra packages (document better)
+# Prevents the default dependencies (like glibc) to be automatically
+# added to DEPENDS
 INHIBIT_DEFAULT_DEPS = "1"
     
 do_install () {
