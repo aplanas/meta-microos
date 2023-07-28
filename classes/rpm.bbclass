@@ -18,7 +18,10 @@ INSANE_SKIP:${PN} += "already-stripped"
 # Prevents the default dependencies (like glibc) to be automatically
 # added to DEPENDS
 INHIBIT_DEFAULT_DEPS = "1"
-    
+
+# Make sure that sysroot gets deployed with all relevant directories
+SYSROOT_DIRS += "${libdir}64 ${base_libdir}64"
+
 do_install () {
     cp -a ${S}/* ${D}
     # The fetch task calls rpm2cpio.sh under the normal user.  Should
