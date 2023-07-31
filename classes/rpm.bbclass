@@ -19,8 +19,11 @@ INSANE_SKIP:${PN} += "already-stripped"
 # added to DEPENDS
 INHIBIT_DEFAULT_DEPS = "1"
 
-# Make sure that sysroot gets deployed with all relevant directories
-SYSROOT_DIRS += "${libdir}64 ${base_libdir}64"
+# Make sure that sysroot gets deployed with all relevant directories.
+# Do not include ${base_libdir}64, as this is converted as a directory
+# by the filesystem package, and the link should be created as a
+# preparation task in the glibc recipe.
+SYSROOT_DIRS += "${libdir}64"
 
 do_install () {
     cp -a ${S}/* ${D}
