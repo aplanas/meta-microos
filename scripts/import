@@ -1,0 +1,147 @@
+#!/usr/bin/env python3
+"""Import a package from pool-tumbleweed into MicroOS"""
+import argparse
+import glob
+import pathlib
+import re
+import sys
+
+# Fixed list to simplify the parser
+RECIPES = (
+    pathlib.Path("recipes-core"),
+    pathlib.Path("recupes-devtools"),
+    pathlib.Path("recipes-microos"),
+)
+
+
+# Runtime providers {"dep": "name"}
+rprovides = {}
+# Runtime dependencies {"name": ["dep",]}
+rdepends = {}
+
+# Translate a recipe name into a directory name {"name": "dir"}
+rdir = {}
+
+
+def parse_recipe(recipe):
+    with recipe.open() as f:
+        name = recipe.stem
+        content = f.read()
+        rp = re.search(r'RPROVIDES:\$\{PN\} \+= "([^"]*)"', content, re.DOTALL)
+        if not rp:
+            print(f"Error parsing RPROVIDES in {recipe}")
+            rp = ()
+        else:
+            rp = rp.groups()[0].replace("\\\n", "").split()
+
+        rd = re.search(r'RDEPENDS:\$\{PN\} \+= "([^"]*)"', content, re.DOTALL)
+        if not rd:
+            print(f"Error parsing RDEPENDS in {recipe}")
+            rd = ()
+        else:
+            rd = rd.groups()[0].replace("\\\n", "").split()
+
+    return (name, rp, rd)
+
+
+def parse_recipes(recipes, populate_rdir=False):
+    # Currectly Path.glob do not follow symlinks (the cpython paths
+    # seems already merged for 3.12)
+    print(f"Reading recipes from {recipes}...")
+    for recipe in glob.glob(f"{recipes}/**/*.bb"):
+        recipe = pathlib.Path(recipe)
+        name, rp, rd = parse_recipe(recipe)
+        for p in rp:
+            rprovides.setdefault(p, set()).add(name)
+        rdepends[name] = rd
+        if populate_rdir:
+            rdir[name] = recipe.parent.name
+
+
+def closure(package, microos_packages, preferred):
+    to_check_packages = [package]
+    new_packages = set()
+
+    while to_check_packages:
+        package = to_check_packages.pop()
+        if package in microos_packages or package in new_packages:
+            continue
+
+        new_packages.add(package)
+        rds = rdepends[package]
+        for rd in rds:
+            pkgs = rprovides.get(rd, set())
+            if len(pkgs) == 1:
+                to_check_packages.append(list(pkgs)[0])
+            elif len(pkgs) > 1:
+                for pkg in pkgs:
+                    if (
+                        pkg in preferred
+                        or pkg in microos_packages
+                        or pkg in new_packages
+                    ):
+                        to_check_packages.append(pkg)
+                        break
+                else:
+                    print(
+                        f"Dependency {rd} is provided by more than one package: {pkgs}"
+                    )
+                    sys.exit(-1)
+
+    return new_packages
+
+
+def import_package(package, microos_packages, preferred, pool_dir, recipes_dir):
+    new_packages = closure(package, microos_packages, preferred)
+    print(
+        f"New packages will be added in MicroOS ({recipes_dir}): {sorted(new_packages)}"
+    )
+    for package in new_packages:
+        try:
+            (recipes_dir / rdir[package]).symlink_to(
+                ".." / pool_dir / rdir[package], target_is_directory=True
+            )
+        except FileExistsError:
+            pass
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Syncronize MicroOS repository")
+    parser.add_argument(
+        "-p",
+        "--pool",
+        default="pool-tumbleweed",
+        type=pathlib.Path,
+        help="Pool of Yocto packages that represent all Tumbleweed (default: pool-tumbleweed)",
+    )
+    parser.add_argument(
+        "-r",
+        "--recipes",
+        default="recipes-devtools",
+        type=pathlib.Path,
+        help="Yocto recipe directory to link the package (default: recipes-devtools)",
+    )
+    parser.add_argument(
+        "--preferred",
+        nargs="*",
+        default=[],
+        help="Preferred packages or recipes when there are multiple options",
+    )
+    parser.add_argument("package", help="Package to import into MicroOS")
+
+    args = parser.parse_args()
+
+    # Read all the recipes that are part of MicroOS
+    for recipes in RECIPES:
+        parse_recipes(recipes)
+
+    # Get the list of package names, as they are already
+    # imported
+    microos_packages = set(rdepends.keys())
+
+    # Read all the recipes from the pool
+    parse_recipes(args.pool, populate_rdir=True)
+
+    import_package(
+        args.package, microos_packages, args.preferred, args.pool, args.recipes
+    )
