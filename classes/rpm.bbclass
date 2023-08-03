@@ -8,6 +8,10 @@ SRC_URI[sha512sum] = "${RPM_HASH}"
 
 S = "${WORKDIR}/unrpm"
 
+# Remove pkgconfig from RDEPENDS.  One option is to do that during the
+# ".bb" generation (microos script). See providers.inc.
+RDEPENDS:${PN}:remove = "pkgconfig"
+
 # Drop subpackages, as defined in bitbake.conf
 PACKAGES = "${PN}"
 FILES:${PN} = "/*"

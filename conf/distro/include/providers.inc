@@ -32,3 +32,14 @@ PREFERRED_RPROVIDER_systemd-default-settings-branding ?= "systemd-default-settin
 PREFERRED_RPROVIDER_systemd-presets-branding ?= "systemd-presets-branding-microos"
 PREFERRED_PROVIDER_zlib ?= "libz1"
 PREFERRED_RPROVIDER_zlib ?= "libz1"
+
+# pkconfig is defined in Poky, prefer pkgconf wrapper from MicroOS.
+# But this can be a mistake, as the -native version should be required
+# by libtools, so the strategy should be to reference in the RPM a
+# "different" pkgconfig.
+#
+# Another option can be remove the pkgconfig from RDEPENDS direcly, as
+# done in the rpm.bbclass
+#
+# SKIP_RECIPE[pkgconfig] = "Using MicroOS package"
+# PREFERRED_PROVIDER_pkgconfig ?= "pkgconf-pkg-config"
