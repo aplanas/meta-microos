@@ -6,10 +6,10 @@ This package implements an easy to use interface for these \
 symbols."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.4svn54080"
+PV = "2023.209.2.4svn54080"
 
-RPM_NAME = "texlive-wasysym-2023.201.2.4svn54080-53.1.noarch.rpm"
-RPM_HASH = "dcd2e1c82f6ede6dbbaff61b1e82003f33e5af986852726271b42c186185b8e0d7b9ee4b14e463b1c5335dcd5caf4a5380579bc5a6921dd0d85d356d745225aa"
+RPM_NAME = "texlive-wasysym-2023.209.2.4svn54080-54.1.noarch.rpm"
+RPM_HASH = "3a42d93c7d658346d4307efbd553b9198c02217b2a56fa2c9b1b6d3fb5526f29944ddb44c33eb7159c309c549a80552552bd913de04055c20a81db29e7abac93"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uwasy.fd \

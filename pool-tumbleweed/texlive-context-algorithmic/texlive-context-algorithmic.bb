@@ -3,10 +3,10 @@ DESCRIPTION = "Support for typesetting algorithms (a port of the LaTeX package \
 algorithmic, which was a predecessor of algorithmicx)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn47085"
+PV = "2023.209.svn47085"
 
-RPM_NAME = "texlive-context-algorithmic-2023.204.svn47085-54.1.noarch.rpm"
-RPM_HASH = "81db696fb2a0139f05ab5a4f14cdab062d690f0af446324b87eaea9e06398f1ac8dc7bfcb83d0e1490275bcc7585556a01e92947f5e78756f61ab94bafe85c6f"
+RPM_NAME = "texlive-context-algorithmic-2023.209.svn47085-55.1.noarch.rpm"
+RPM_HASH = "96c3776fa7f2caa197d448b731f55bd2405b07b7e50578ff362ec3d4b49cb32609d268396d422c0b3c0011fa604ff8704fce3a37f6a0f58a981193e01000d7ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-algorithmic"

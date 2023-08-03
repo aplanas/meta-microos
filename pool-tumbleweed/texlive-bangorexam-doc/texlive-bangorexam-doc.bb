@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bangorexam"
 DESCRIPTION = "This package includes the documentation for texlive-bangorexam"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5.0svn65140"
+PV = "2023.209.1.5.0svn65140"
 
-RPM_NAME = "texlive-bangorexam-doc-2023.201.1.5.0svn65140-53.1.noarch.rpm"
-RPM_HASH = "3037cf9e62e1a12881722d88ce90011dcd6a0fda14e08a802553625a6815e226b2db0056e804b4799761bd7029955195fa112b25c0513a3fb2e9512fde42a7c8"
+RPM_NAME = "texlive-bangorexam-doc-2023.209.1.5.0svn65140-54.1.noarch.rpm"
+RPM_HASH = "95926dbd2b6aa7175c5deb733cc4b5de94430de95671f0f1d073a5a202b1a8269457994c753ac357a336f1a1cc51af005c4580c0fb33477dfea5315816075a8b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bangorexam-doc"

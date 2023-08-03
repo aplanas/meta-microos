@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bbold"
 DESCRIPTION = "This package includes the documentation for texlive-bbold"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.1.01svn17187"
+PV = "2023.209.1.01svn17187"
 
-RPM_NAME = "texlive-bbold-doc-2023.201.1.01svn17187-53.1.noarch.rpm"
-RPM_HASH = "0fbba2cec5bfdfc3ed535ba5f4f1b608265287dca92af459b5fae2859fad9cbedc93b383ceae3c54fd1ece1e63669f47d4a311a26a43e52b31384bd75ab4c6d4"
+RPM_NAME = "texlive-bbold-doc-2023.209.1.01svn17187-54.1.noarch.rpm"
+RPM_HASH = "2cf448a2c5ff7c79009a80ee2bd9a0c5bd718ad044f5639a559028c57ea977b71795970eef2603865719f6dda797e4d75dd95a59c5686f97d34d3093448626e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bbold-doc"

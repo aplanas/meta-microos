@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hanzibox"
 DESCRIPTION = "This package includes the documentation for texlive-hanzibox"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.3.0svn63062"
+PV = "2023.209.2.3.0svn63062"
 
-RPM_NAME = "texlive-hanzibox-doc-2023.201.2.3.0svn63062-53.2.noarch.rpm"
-RPM_HASH = "f34507a7198de7b0364f2b1e00b024bd2b1f7bade65a52674511e324f25944d1ab5ca792c14bf36e8acfa6fe163752a7b62a19c97912c088f2fcf88e0a0e6f14"
+RPM_NAME = "texlive-hanzibox-doc-2023.209.2.3.0svn63062-54.1.noarch.rpm"
+RPM_HASH = "f781bd3efbfc4d7de84dec5ac62feff2839ced8a5586e8515d46e1602baa08cc9205a5078a5495de1583767dae1fe354ddbe04d16dbea8d727d415b3941d4e34"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-hanzibox-doc-zh \

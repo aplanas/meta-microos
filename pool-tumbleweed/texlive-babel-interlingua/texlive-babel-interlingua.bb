@@ -7,10 +7,10 @@ vocabulary of Spanish/Portuguese, English, Italian and French, \
 with some normalisation of spelling."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6svn30276"
+PV = "2023.209.1.6svn30276"
 
-RPM_NAME = "texlive-babel-interlingua-2023.201.1.6svn30276-53.1.noarch.rpm"
-RPM_HASH = "75b7b5f69aa7f80cef73a4d30d2690ea64f3b6472225cde29abab783703002e7ed06178e0ff7d7e0b5d9fd4b1004658496178efd875f20dcad097e2cdb9e4d40"
+RPM_NAME = "texlive-babel-interlingua-2023.209.1.6svn30276-54.1.noarch.rpm"
+RPM_HASH = "521eafa472d54228eb849b10faca67ded9f095dac02c91cf626ec59e5022eddf8001b2905004f066aa7afc545bd166b6c45b8c6bcaa9277f9e7d02d93e5b3653"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-interlingua.ldf \

@@ -8,10 +8,10 @@ and to 'clone' the standard environments, to create new \
 environments with counters of their own."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.9svn51423"
+PV = "2023.209.3.9svn51423"
 
-RPM_NAME = "texlive-enumitem-2023.201.3.9svn51423-53.2.noarch.rpm"
-RPM_HASH = "c6317fbf9c22b583213f3721641f3dc4a79c35f2727ba0a55d0a92b8ffb343103d606c84538f80667286710e9b25bc4bee422a81dfeca0c09abbabe1df6a4736"
+RPM_NAME = "texlive-enumitem-2023.209.3.9svn51423-54.1.noarch.rpm"
+RPM_HASH = "b613434930daea9224b8df4184cdaa6685e9d472db14319f2fe4e49f4899dbb66fbc6c38fc54c9dc0fdf2834c39b46920c0ee10660172c5ffc576b7aaffbf28b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-enumitem.sty \

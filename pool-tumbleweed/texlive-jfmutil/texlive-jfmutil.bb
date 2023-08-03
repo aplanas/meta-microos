@@ -10,10 +10,10 @@ conversion between VF files alone and files in the 'ZVP0 \
 format', which is a subset of the ZVP format."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3.3svn60987"
+PV = "2023.209.1.3.3svn60987"
 
-RPM_NAME = "texlive-jfmutil-2023.201.1.3.3svn60987-55.1.noarch.rpm"
-RPM_HASH = "706a3834678d9b6be87ea246709172049b9b771cbb42f92e14f740cbb9417296aeb9fdfa1bcf9d360f55a5ad0732228fa8c731c137c591f9d56106bbff9e7be5"
+RPM_NAME = "texlive-jfmutil-2023.209.1.3.3svn60987-56.1.noarch.rpm"
+RPM_HASH = "26e1734acc0af895bc55e6a5ff5bb477815f4e5a0fc5962f998a2155bdc74cdea98dcf24cd71a8558865486d0321a58ea4c460fbfd7cc5a3f90bbdee35692439"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jfmutil"

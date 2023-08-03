@@ -11,10 +11,10 @@ TeX format: LaTeX. TeX engine: pTeX or upTeX. DVIware: \
 dvipdfmx. Prerequisite packages: atbegshi."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.9asvn66064"
+PV = "2023.209.1.9asvn66064"
 
-RPM_NAME = "texlive-pxchfon-2023.201.1.9asvn66064-53.2.noarch.rpm"
-RPM_HASH = "30cd4ed937db828c85e117948f25053e12c480f10029d654bb090c184b8b98c46dd90e0910aa77697c45b8fedca03ca4786960f83d23f524763142870e2af055"
+RPM_NAME = "texlive-pxchfon-2023.209.1.9asvn66064-54.1.noarch.rpm"
+RPM_HASH = "fd61b2c2af2e71ec22af8331df3bd70ad71aa84d19468afb2f479fcf1c5ce31c28de91ab84a6a69d459a83f17ad11e8368b42c19861e7113f137f721c4490a08"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cfjam-r-l0j.tfm \

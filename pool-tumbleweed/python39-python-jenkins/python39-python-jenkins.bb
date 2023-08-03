@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.8.0"
 
-RPM_NAME = "python39-python-jenkins-1.8.0-1.1.noarch.rpm"
-RPM_HASH = "07d44fc2c6c1aecd8101c3c3d66663da951bdf6ff278c1258987a9d539bb13256f6f03a6ec06eb332ce4c35bea35a4fb5f11fa4924a612fa92dc23ae5f39452f"
+RPM_NAME = "python39-python-jenkins-1.8.0-2.1.noarch.rpm"
+RPM_HASH = "307259209b0834001d3b275d28f4a7e3cb57a47486b5ac74d8dfd1a478abcf9677b1b721707dbbe9b02dc4bf69c64d8e8e04777f3b72409a4d8d0ae917c76137"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-jenkins \
@@ -21,6 +21,7 @@ RDEPENDS:${PN} += "python-abi \
 python39-multi-key-dict \
 python39-pbr \
 python39-requests \
-python39-six"
+python39-six \
+python39-urllib3"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "LaTeX package for automatic definite articles for Hungarian"
 DESCRIPTION = "LaTeX package for automatic definite articles for Hungarian"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.03svn39029"
+PV = "2023.209.1.03svn39029"
 
-RPM_NAME = "texlive-nevelok-2023.201.1.03svn39029-54.1.noarch.rpm"
-RPM_HASH = "8a888db51a65577488181d8780113e2295d49aec8af64b65e202fddc9947c75f366533b0398f9cb7c1a89b5cf73cba44e6597d7b6ba73d1718ed6289ef2b3fe8"
+RPM_NAME = "texlive-nevelok-2023.209.1.03svn39029-55.1.noarch.rpm"
+RPM_HASH = "a219aa8e570a2baba8aa4214f80974c98060f50dd688454679f3dfa134cf6653f3b37923bd9347434a21415c9fe6bddb0c901f1271aa9bbc41ed4e9570f2bdd7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nevelok.sty \

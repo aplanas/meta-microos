@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.12.0"
 
-RPM_NAME = "onnx-backend-test-1.12.0-2.10.aarch64.rpm"
-RPM_HASH = "e5ed361fdd4d07024180db0af24e522f6eeba588a31b8b9a93b11317d809cdb75a96b465d1b5f79a6a9dee504e3abe402d1bf771a60aee08cdb67b344402757e"
+RPM_NAME = "onnx-backend-test-1.12.0-3.1.aarch64.rpm"
+RPM_HASH = "03198c84c836693d3e6bca7cc9f71c78cef31743568bf6e2ab5e54c5c8c8c81a21d5adbee0e6625231e3fc2a4a8947f974f32a866efe4c84cefa13c611b6a1d8"
 
 RPROVIDES:${PN} += "onnx-backend-test"
 

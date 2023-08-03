@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-truncate"
 DESCRIPTION = "This package includes the documentation for texlive-truncate"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.3.6svn18921"
+PV = "2023.209.3.6svn18921"
 
-RPM_NAME = "texlive-truncate-doc-2023.201.3.6svn18921-52.1.noarch.rpm"
-RPM_HASH = "d0da05e432a063468119c2e89d0a1250c46fc2468ec39bd52acd5474f34e977d23d6a38cc30a25ce657552198e91eb2aac549c20112bbd07e25741a039604a47"
+RPM_NAME = "texlive-truncate-doc-2023.209.3.6svn18921-53.1.noarch.rpm"
+RPM_HASH = "24b7f879d2e910f73eaf6870787235919f6f207afecd44ef1288e19699d36d9abacfda479f1488963db47d51f739b6940258c7b1b795cc2b9a484fef2e7132e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-truncate-doc"

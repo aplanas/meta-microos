@@ -2,10 +2,10 @@ SUMMARY = "Configuration files for LaTeX-related formats"
 DESCRIPTION = "The latexconfig package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn53525"
+PV = "2023.209.svn53525"
 
-RPM_NAME = "texlive-latexconfig-2023.201.svn53525-54.1.noarch.rpm"
-RPM_HASH = "354178cf157048adac53309fc54b987719e4099c96f5bff4be0f33b44338260a60495760b72d9b60ac6a96ba54eed53767a10667302d8d217809090d82fa2ea0"
+RPM_NAME = "texlive-latexconfig-2023.209.svn53525-55.1.noarch.rpm"
+RPM_HASH = "9c899aa3e93997b5e54fb6825a5bcfda323d8cbf7d417445d10a0e288baa4d78cb61953591ea1fd805de4bfd98cf34a9f1ee921f3a9f80cb5ecde4bad187b2ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-epstopdf-sys.cfg \

@@ -3,10 +3,10 @@ DESCRIPTION = " \
 Development files for Linux Studio Plugins"
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.2.7"
+PV = "1.2.8"
 
-RPM_NAME = "lsp-plugins-devel-1.2.7-1.2.aarch64.rpm"
-RPM_HASH = "d936d149c1b060c65a78a822f93be2cdf553afb74c6b9837a0dc49c9e2c1816a7edbab895daced9d95ef7ebd8b5d5e3e2c4c2b8d45edfd7ce98f443d15c2c4c5"
+RPM_NAME = "lsp-plugins-devel-1.2.8-1.1.aarch64.rpm"
+RPM_HASH = "e72f3c3ca0327a500cd08ea96b24941af2f23a35fefea1e70640e30d2f5cf2b9dd298d6ecb9024b69919843e60ba24eb4d708baf10f345bd18df2121a010d033"
 
 RPROVIDES:${PN} += "lsp-plugins-devel \
 pkgconfig-lsp-r3d-glx-lib"

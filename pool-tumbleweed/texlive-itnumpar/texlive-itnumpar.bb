@@ -6,10 +6,10 @@ for spelling out numbers in Italian words, both in cardinal and \
 in ordinal form."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-itnumpar-2023.201.1.0svn15878-55.1.noarch.rpm"
-RPM_HASH = "1735210ecdba659c9804819726b725002324bf218121770ac9979fe93057034e174fc78a45553df7610c3ffee620513374e99a95a90391944523eb16fc5d1bdf"
+RPM_NAME = "texlive-itnumpar-2023.209.1.0svn15878-56.1.noarch.rpm"
+RPM_HASH = "28000c5df41539d91406d723aff0a34bd5b72e7e48a66a68e0a097242267dc378a5433941f86f3568825a44c64018e7e18c0421f6d79f91446ba202907d93ecf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-itnumpar.sty \

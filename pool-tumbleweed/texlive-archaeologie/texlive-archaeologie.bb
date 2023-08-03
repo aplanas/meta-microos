@@ -5,10 +5,10 @@ are available to change and adjust the outcome according to \
 one's own preferences."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.4.5svn57090"
+PV = "2023.209.2.4.5svn57090"
 
-RPM_NAME = "texlive-archaeologie-2023.201.2.4.5svn57090-54.1.noarch.rpm"
-RPM_HASH = "a958679f8bac2c4d2787ab58cc46f472703aa4bdbf87ac048006bb70d34d413c58b4eb8cb1b3df4e1b79ccc212d692f6d1a4567eb781b8229648cb64c925cc36"
+RPM_NAME = "texlive-archaeologie-2023.209.2.4.5svn57090-55.1.noarch.rpm"
+RPM_HASH = "7bc0c17a1acdceca79272118e76615b9d733763918ad11a0c5eb23f09fdb5e49e800c56cda2a0bf7a2eeeefd74c6380327d53aab1560e92d4f4c5a1a8313fe66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-archaeologie.bbx \

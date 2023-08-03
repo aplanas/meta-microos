@@ -4,10 +4,10 @@ document, to make lists of such items, and to cross-reference \
 to them."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.142svn17746"
+PV = "2023.209.2.142svn17746"
 
-RPM_NAME = "texlive-todo-2023.201.2.142svn17746-52.1.noarch.rpm"
-RPM_HASH = "7eb36e38f6d79a80dfcd8f05e166124a68efec4e1002d6421dbd515437240d5e7d4389cfbcec592645255bb914014d7a5377c87c6ec8a31feb8f9f93a79ac027"
+RPM_NAME = "texlive-todo-2023.209.2.142svn17746-53.1.noarch.rpm"
+RPM_HASH = "14c22e5f1f5265d2bb99df5802d6856b0cf6c57717e41ae85b67b63d2bb17a5dc31afa468d2e556cd1ab61e8fa409bb67037232438b39c0c4cfb5bc73d356a23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-todo.sty \

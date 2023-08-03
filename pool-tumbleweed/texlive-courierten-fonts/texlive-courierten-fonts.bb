@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-courierten"
 DESCRIPTION = "The  separated fonts package for texlive-courierten"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.svn55436"
+PV = "2023.209.svn55436"
 
-RPM_NAME = "texlive-courierten-fonts-2023.204.svn55436-54.1.noarch.rpm"
-RPM_HASH = "c1d1fd26b832a5d77a0aa25badc1d660fe82e9aaba8847d68ae4747298f16b510de61b7f05e9e49394c9b403f9e338f49954d1732b55a3294b07d7ecd126f5be"
+RPM_NAME = "texlive-courierten-fonts-2023.209.svn55436-55.1.noarch.rpm"
+RPM_HASH = "551403443035a2cc4a5218164e15c175a51835db8fce7398efc998b96a7484755dc44716b7fbbdde7b3c7963f6b42df20bea7526368c109cb137a096a29fc760"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-courierten-fonts \

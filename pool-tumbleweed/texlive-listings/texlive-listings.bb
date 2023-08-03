@@ -15,10 +15,10 @@ listings are also available, using either \\lstinline|...| or \
 command)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.9svn66222"
+PV = "2023.209.1.9svn66222"
 
-RPM_NAME = "texlive-listings-2023.201.1.9svn66222-54.1.noarch.rpm"
-RPM_HASH = "a094eeb4a2e2bb4d51b553f8670e25283626eca875b914f2812398f8725291eb6a12f5d1ebee1894f03641a85df46a0034e2ac2b2226017b8651221a8edd7555"
+RPM_NAME = "texlive-listings-2023.209.1.9svn66222-55.1.noarch.rpm"
+RPM_HASH = "4ecfe9a03747f37d9c29729c77e3bb14a6e7db10db574b046e43c395d92a2f432421d7c78a419212cb690d9db221ea76d43aa14015cf37aeb4cf79eb4d63bcc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-listings.cfg \

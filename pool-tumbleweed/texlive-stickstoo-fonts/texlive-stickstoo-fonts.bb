@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-stickstoo"
 DESCRIPTION = "The  separated fonts package for texlive-stickstoo"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.035svn60793"
+PV = "2023.209.1.035svn60793"
 
-RPM_NAME = "texlive-stickstoo-fonts-2023.201.1.035svn60793-57.1.noarch.rpm"
-RPM_HASH = "a9b30fc2c63b9d51bb92ea397ba295840bedc74aaa909c6f8b5e9ec2e4776f8ff9d99b6d9b3521692dc1255b2ebc8e19bb52207a6f1869ae8bd875977c7943c1"
+RPM_NAME = "texlive-stickstoo-fonts-2023.209.1.035svn60793-58.1.noarch.rpm"
+RPM_HASH = "122fa2cd6ae475af84ddee65701690866f2c44bf56c33b206db6da751cfeb960761ab36a7abe6785f704d300f6cd8ed05a5bef5062933854444e8b301b9a608c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

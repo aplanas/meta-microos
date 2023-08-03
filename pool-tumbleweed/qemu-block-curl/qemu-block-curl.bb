@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.3"
 
-RPM_NAME = "qemu-block-curl-8.0.3-1.1.aarch64.rpm"
-RPM_HASH = "d8874c6cd10f0a7604cda13c77d8c107045f9d46e965d099c46cebcb0dec040a032111be2ce591dc41e458ec619d7442619cf859a118bb4dc1f338978ca5991a"
+RPM_NAME = "qemu-block-curl-8.0.3-2.1.aarch64.rpm"
+RPM_HASH = "a9668f808916fbd54425528abc5a8572932bd4e373b84fa5b5c5f2bf1679a362c32fccdc779947335041772d948210644c31f5b098369caa1b59f8374a354c4f"
 
 RPROVIDES:${PN} += "qemu-block-curl"
 

@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.1"
 
-RPM_NAME = "python310-html5lib-1.1-4.3.noarch.rpm"
-RPM_HASH = "c988cf2844a4f9eb39a5bb8c569a4d57adb0af17cd3d6d65de63b3f4eaeaf18effd4c5c1564cd74392822e57e23396eeb0065fe204d3e2bea0301625f50d46d7"
+RPM_NAME = "python310-html5lib-1.1-5.1.noarch.rpm"
+RPM_HASH = "ffe2f7d800d8a9fe8e19fbfe24125978269c9e7004fa6fb330970be3fea9722ab102dbdfc17b0425f67ec4fb0eaa81dbf35b34ef00e88f4f22e49be8072cc03a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-html5lib \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-circ"
 DESCRIPTION = "This package includes the documentation for texlive-circ"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.1svn62977"
+PV = "2023.209.1.1svn62977"
 
-RPM_NAME = "texlive-circ-doc-2023.201.1.1svn62977-53.1.noarch.rpm"
-RPM_HASH = "c3d151d766622075cf9446a5f6cfe1431d142cc4047dfc7b6f8e327d862342c8f1cf8c7815f23ef5e774a1db93fe2fb25ad89de5747880cd82661c460aba9a53"
+RPM_NAME = "texlive-circ-doc-2023.209.1.1svn62977-54.1.noarch.rpm"
+RPM_HASH = "6af7dacfc2fec12dd102d8d547363c378caa4d0e2e817948ecefbc60403551797f315e7726a0e6fd0ebf68df88ce2e796721b505cd6ea8dce6a58c5ce9c0564c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-circ-doc"

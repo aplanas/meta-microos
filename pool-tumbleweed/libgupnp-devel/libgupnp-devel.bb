@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6.4"
 
-RPM_NAME = "libgupnp-devel-1.6.4-1.1.aarch64.rpm"
-RPM_HASH = "b059271c07a630de71698ab41cf06334d22d6ecf28f52131f8a05ad85ed56614f6a2218b33215695d64244cac1718ca2ad725bd801bc8c396649d03b17395102"
+RPM_NAME = "libgupnp-devel-1.6.4-2.1.aarch64.rpm"
+RPM_HASH = "434fbf04d86312b1878b744665a23e31a08c340a93f6f295fbb6344644b8031a8cb1794217d208066822cb8da7057d86f2ddeef5b4aa8e7af26febf53c76aa3f"
 
 RPROVIDES:${PN} += "libgupnp-devel \
 pkgconfig-gupnp-1.6"

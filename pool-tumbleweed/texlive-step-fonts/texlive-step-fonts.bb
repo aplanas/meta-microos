@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-step"
 DESCRIPTION = "The  separated fonts package for texlive-step"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.2.0.5svn57307"
+PV = "2023.209.2.0.5svn57307"
 
-RPM_NAME = "texlive-step-fonts-2023.201.2.0.5svn57307-57.1.noarch.rpm"
-RPM_HASH = "a9c59b374e8006600c272259c038bf58e73a2b8a13d257502d0c597cdd1c9503bdc34d0de68bfbf02232348f9ae15a53efbda96d03db87bc9654cb01b71b4639"
+RPM_NAME = "texlive-step-fonts-2023.209.2.0.5svn57307-58.1.noarch.rpm"
+RPM_HASH = "6defd527e49eb5fcadb532a9e6d4753d7eb860187230e72cc53b293d0cdea22f36df92a643266275be2450422d019f032bc0e8aeaf788701b8ecca622ac9ef71"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-step-fonts \

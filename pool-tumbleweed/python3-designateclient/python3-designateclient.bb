@@ -6,12 +6,12 @@ LICENSE = "Apache-2.0"
 
 PV = "4.5.0"
 
-RPM_NAME = "python3-designateclient-4.5.0-1.4.noarch.rpm"
-RPM_HASH = "e376148b6a75c229b47d592f7ebd7f9db16b9205c774fa5676f05bb6b1da01909082a7fd87c0c391bfcb73d6378aeb4d36ef2a826994ff9ea3bf774e8c4911e3"
+RPM_NAME = "python3-designateclient-4.5.0-1.5.noarch.rpm"
+RPM_HASH = "46d88e3ef10f1a6b61a59d70d05b3090f05f63fc9c52bffb65f9ceab41c590d6232ced0c07cbe5d26f1ecf303e79cdfdc94153ac20a5036b9255038b0c31fb03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-designateclient \
-python3.10dist-python-designateclient \
+python3.11dist-python-designateclient \
 python3dist-python-designateclient"
 
 RDEPENDS:${PN} += "python-abi \

@@ -5,10 +5,10 @@ change to the styles themselves. The package is largely used \
 nowadays in its adaptation for working with Babel."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-abstyles-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "301509013049d3cd606f2ec3a7cd53ee7e9b2766f68641e65850db5ef8fe1e227444224a0411ceb93ce3363f3f6de0f77b105742fcab422e16a6c58073dfa06c"
+RPM_NAME = "texlive-abstyles-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "3efcf1b4603a6f3780a9dd4520f853bf6f34f6d3952d26815526e29deed8c5a38c8bd6b0022a589142377a760cc150567739078fb8d591ee999a9e84b9447037"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-apreambl.tex \

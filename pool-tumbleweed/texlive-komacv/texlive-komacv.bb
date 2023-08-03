@@ -4,10 +4,10 @@ choose between different styles, and may adjust settings to \
 tune the output."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.2svn57721"
+PV = "2023.209.1.1.2svn57721"
 
-RPM_NAME = "texlive-komacv-2023.201.1.1.2svn57721-55.1.noarch.rpm"
-RPM_HASH = "400eadb896e36216fec349d762f7f89675c5671964fcc8d83a954863c818a10b39cd84b5b48b143cc1e4b5f8028c0c0eed1adcf5d11722496ee8c40a4f8bbcf9"
+RPM_NAME = "texlive-komacv-2023.209.1.1.2svn57721-56.1.noarch.rpm"
+RPM_HASH = "88062b891fc1fcf51cef6313e890695a53ba2349f25b2a4c76dbb8ced9571e3beac3de2324a8c749e25d91395e1b569a3c6b21348b4ead1a2cb9568353eea7f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-komacv-casual.sty \

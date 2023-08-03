@@ -11,10 +11,10 @@ for config files and environment variables, so this module extends argparse to \
 add these features"
 LICENSE = "MIT"
 
-PV = "1.5.5"
+PV = "1.7"
 
-RPM_NAME = "python39-ConfigArgParse-1.5.5-1.1.noarch.rpm"
-RPM_HASH = "981be41e2aa4caba3176af541f2b6e60a7133799a7a2ae007bc816d02bc3ad359093e35d99531646655419447c35e0c09995182d6d32a03e4f71ba8dd52d5ee7"
+RPM_NAME = "python39-ConfigArgParse-1.7-1.1.noarch.rpm"
+RPM_HASH = "efa230b505684592becb8deb0e63099e1fc1d8f843800771e62010555a8adfa870dca3b8e0347a2e98de659eb02654d71a9075c4df37d9b7992cdf2abc5e0149"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-configargparse \

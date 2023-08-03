@@ -2,10 +2,10 @@ SUMMARY = "Examples for the qt6-grpc modules"
 DESCRIPTION = "Examples for the qt6-grpc modules."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-grpc-examples-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "43f651b8e8f31c5f930f5c853d0d685fbb33331142c7f60d726dc556143f91c76245d43b5691273e47d6d8369656702ee1f17219e89968a02a32010de1483dab"
+RPM_NAME = "qt6-grpc-examples-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "a85c1b9c2c63c1c41e25aee17de039f84f880a639f90665ab6f3885c06b0b291f59d9eaca3a786d0b7133807dee9405161a4e924289461a069aaab17a4170d1f"
 
 RPROVIDES:${PN} += "libprotobuf-sensors.so \
 qt6-grpc-examples"

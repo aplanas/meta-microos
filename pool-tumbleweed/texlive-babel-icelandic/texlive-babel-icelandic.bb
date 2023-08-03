@@ -4,10 +4,10 @@ of Icelandic in babel. Some shortcuts are defined, as well as \
 translations to Icelandic of standard 'LaTeX names'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn51551"
+PV = "2023.209.1.3svn51551"
 
-RPM_NAME = "texlive-babel-icelandic-2023.201.1.3svn51551-53.1.noarch.rpm"
-RPM_HASH = "42f5a3870c5017ef7be156dbdfde8e21724e1d669dc28dc4d8f3f96948c9d9a2e6fecd683e6867093caaa76be7382660b69dd7e45eb365de3e229c27d384c6df"
+RPM_NAME = "texlive-babel-icelandic-2023.209.1.3svn51551-54.1.noarch.rpm"
+RPM_HASH = "eea854d2acb8c7ab2a4ba2d74bdbd9db21fbc2d778f258200be4b99fac774ff147bb8c327ef5ba87225d7fd7be10c046092e9900753261fa3e4902914529ef5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-icelandic.ldf \

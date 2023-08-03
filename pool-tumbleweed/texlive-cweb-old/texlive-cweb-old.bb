@@ -2,10 +2,10 @@ SUMMARY = "Package cweb-old"
 DESCRIPTION = "The cweb-old package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.svn49271"
+PV = "2023.209.svn49271"
 
-RPM_NAME = "texlive-cweb-old-2023.204.svn49271-54.1.noarch.rpm"
-RPM_HASH = "b4711bb4965e73e786b5285e4881d5525dc0f1f107214a1e44148ba3b8afaf4144afedd81409e719571167fb7715cc054b018e040dbadb75dea700cf21f39c12"
+RPM_NAME = "texlive-cweb-old-2023.209.svn49271-55.1.noarch.rpm"
+RPM_HASH = "fc0526d5d0843bafa23ac2dee53c481eea1d83ae0123326ff11bce1ce3896c901c9e36733909f95221b06bd37830c50743728a8ab6c78df414168b005839b5f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdfXcwebmac.tex \

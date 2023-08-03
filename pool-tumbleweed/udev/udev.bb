@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "253.7"
 
-RPM_NAME = "udev-253.7-1.2.aarch64.rpm"
-RPM_HASH = "f00573a7697431b5e2b47a21be3d6cfb904e7080c247d5ff83ff264358b341b84c0c1cea7242422d49d2a5125564eba0c8d0471c76b842e13075f1d89f64761e"
+RPM_NAME = "udev-253.7-2.1.aarch64.rpm"
+RPM_HASH = "b45936a9413e127ad0ac9443be9df35c2b462a427f12e5d0137e90c87527cefbea07c13cbf95d39ed384afc54d7929f7b9c0f3737b0e92f846c761d9b770fa5a"
 
 RPROVIDES:${PN} += "config-udev \
 libcryptsetup-token-systemd-fido2.so \

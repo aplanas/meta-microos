@@ -12,10 +12,10 @@ commands are (themselves) entirely expandable. The packages \
 rely on packages plainpkg, and stacklet"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.r0.11asvn38875"
+PV = "2023.209.r0.11asvn38875"
 
-RPM_NAME = "texlive-commado-2023.201.r0.11asvn38875-53.1.noarch.rpm"
-RPM_HASH = "df359991646747d4456b8395611ba57d2e018d026c0a4cdc715d449185391ed655dc22cfbe48731b99f51b0b8a8cd92cd8564592000576baa883a7dbffa1ffac"
+RPM_NAME = "texlive-commado-2023.209.r0.11asvn38875-54.1.noarch.rpm"
+RPM_HASH = "ed9540ebf35a89fdec825b6ee6894fdc5383b851b2730406bcd909acb2945bf2bb39f809be5033c4955e0294d432e746d2f51df9d9defa5c7e0794f0a4be64ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-commado.sty \

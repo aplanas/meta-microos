@@ -5,10 +5,10 @@ column indices and these can be used in formulas to generate \
 values in other cells."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5svn50147"
+PV = "2023.209.0.0.5svn50147"
 
-RPM_NAME = "texlive-spreadtab-2023.201.0.0.5svn50147-57.1.noarch.rpm"
-RPM_HASH = "1130aa7fdc9f79ed11abae988dc444afb468a90e315e5648013881584ecb96d36fa70066986ccf144fcc5dc13d76244ac95bc426d7900b588b0bc3982e893cc0"
+RPM_NAME = "texlive-spreadtab-2023.209.0.0.5svn50147-58.1.noarch.rpm"
+RPM_HASH = "3f7d36fe2377508ac885daf6608b86fe213cd49b5855f1d087235e4cfb8e74ae69508f06065269dda68a3bfa8fe71c9c60e12a0fe15a9b59eab0e5533ae7b91e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-spreadtab.sty \

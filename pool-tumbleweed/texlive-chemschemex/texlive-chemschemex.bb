@@ -4,10 +4,10 @@ chemical schemes, and also offers automatic structure \
 referencing."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn46723"
+PV = "2023.209.1.2svn46723"
 
-RPM_NAME = "texlive-chemschemex-2023.201.1.2svn46723-53.1.noarch.rpm"
-RPM_HASH = "51d56de38b455ae1a7104bddea7711e64392fceccfbebdab9bbe6cab76f66f00d30f3904b3fde76d795f05a34a1f4abbd06e47020ba28eace3f055e33d587440"
+RPM_NAME = "texlive-chemschemex-2023.209.1.2svn46723-54.1.noarch.rpm"
+RPM_HASH = "43d1d1b2f1c4c0eb1b98d4df692936262d6f9a80a20d17a01a2a4f70944bb53d3ef0769f534fdd9c3ab6d2e17caf46eea2fb150f938dd7523465ee2f3e959a7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chemschemex.sty \

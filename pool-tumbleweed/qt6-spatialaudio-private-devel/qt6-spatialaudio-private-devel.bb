@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6SpatialAudio that 
 ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-spatialaudio-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "06de86c6869d31fd38d774ac486484e8332a9bc2afc20ce94cdc9250168c27d0ffd48c05a2f18fb6c22ad4ab755d7d88736c1e352b9706294de18dd5815e9a6b"
+RPM_NAME = "qt6-spatialaudio-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "3dc0a8856844b132909a026d0c2da3ebf744c4064bd9513ac34f7520567b45c9d2a092a8288435e84f1e737aa0252cb7402480c5d73bf718aacfdcf468cb2a8b"
 
 RPROVIDES:${PN} += "qt6-spatialaudio-private-devel"
 

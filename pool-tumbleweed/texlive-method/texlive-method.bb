@@ -4,10 +4,10 @@ and variable declarations. It supports declarations in German, \
 French and English."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0bsvn17485"
+PV = "2023.209.2.0bsvn17485"
 
-RPM_NAME = "texlive-method-2023.201.2.0bsvn17485-54.1.noarch.rpm"
-RPM_HASH = "86ff524b12fcfb484b6c43d94c994c103d756cd6b60528ffb0ea1ca843cdf939491cc5fee102b0b622f69d9c73673134614867f8a06d567bb7e5a957225a7c24"
+RPM_NAME = "texlive-method-2023.209.2.0bsvn17485-55.1.noarch.rpm"
+RPM_HASH = "e39df9d9c2fd7760fe66c3003a90c5549c2f0453a79b046944a3a8659387af9bb0004248ddc1dc97f5ce38069aefb227f236692b39156b020e9137bb018bdfeb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-method.sty \

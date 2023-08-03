@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-grotesq"
 DESCRIPTION = "The  separated fonts package for texlive-grotesq"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn35859"
+PV = "2023.209.svn35859"
 
-RPM_NAME = "texlive-grotesq-fonts-2023.201.svn35859-53.2.noarch.rpm"
-RPM_HASH = "264dc15e6df0488dc8fb5221f65922458130092e65833240cb2db7b58a0eebb54d9ff912960dcb10b07f3b4daf02b1479b71863382c2f3402d13a9a131cd061b"
+RPM_NAME = "texlive-grotesq-fonts-2023.209.svn35859-54.1.noarch.rpm"
+RPM_HASH = "942b9b73bef5c92b89d12dfa5fd1c7a546cdd2ca6f62bae1854346279d9adfe526a8ddc5d4d06c9c1367d6b462c4d4b86bfe8fb4fadd284e3d4ffd822c3653e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Quick library"
 DESCRIPTION = "The Qt 6 Quick library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6Quick6-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "9edc04ce5da2d958c1006837b4f1fb5021a794f9570c2dbcfab291437c78462fcd06dea8cc9675a3719ebb758eeacc315424d71f5e7b3941a30d6889bac9b848"
+RPM_NAME = "libQt6Quick6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "f58603c78b380263f20cc34185d0273797f0fccc1d98d05b3cbc1b55978e67a96a07b581026fc189b470142584c4f26cd71d0a7160d7ed7ff28d8fb7f4e88b82"
 
 RPROVIDES:${PN} += "libQt6Quick.so.6 \
 libQt6Quick6"

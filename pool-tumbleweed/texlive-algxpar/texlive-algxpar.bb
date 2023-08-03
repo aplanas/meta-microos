@@ -3,10 +3,10 @@ DESCRIPTION = "This package extends the package algorithmicx to support long \
 text which spans over multiple lines."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.91svn56006"
+PV = "2023.209.0.0.91svn56006"
 
-RPM_NAME = "texlive-algxpar-2023.201.0.0.91svn56006-54.1.noarch.rpm"
-RPM_HASH = "c399218c3fbcb13aa7986204daf802ea6b4a291fa990c8aed16538eda56766a9b2a5c330b6380f54a5ddffc76fd40d1cc709648f1b8db924ea950f8e61cb8681"
+RPM_NAME = "texlive-algxpar-2023.209.0.0.91svn56006-55.1.noarch.rpm"
+RPM_HASH = "1a0386151b6fa0de76acf9ac5c0b31c772bcf92b7ee96e08c88275e57442010a00d9072d60e72921d4bd991c35bb02ffc1216e67fecc021c9378d0215033b7ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-algxpar.sty \

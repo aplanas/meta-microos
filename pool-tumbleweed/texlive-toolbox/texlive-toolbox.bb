@@ -7,10 +7,10 @@ splitting; controlled expansion; redefinition of macros; and \
 concatenated macro names; macros for text replacement."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.5.1svn32260"
+PV = "2023.209.5.1svn32260"
 
-RPM_NAME = "texlive-toolbox-2023.201.5.1svn32260-52.1.noarch.rpm"
-RPM_HASH = "90aadf467c89eca9bacb348b0b08cdd6b1e6576d0289bc770e1d276378957081d2008666bf998a16a14f11c59fd5c00423612d398a074fb5fe5492753efbc3e5"
+RPM_NAME = "texlive-toolbox-2023.209.5.1svn32260-53.1.noarch.rpm"
+RPM_HASH = "97e8cad2caf580d3b6ab0380613711bd9f2b85d99308100fd6640590f0c1cf17f46c8d2b11ce29b1e3706b3e17a166f74536dc6970019340beac3f05af635d26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-toolbox.sty \

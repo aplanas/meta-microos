@@ -10,10 +10,10 @@ single chess symbols and simple diagrams. The documentation \
 contains also a section about installation of chess fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2asvn19440"
+PV = "2023.209.1.2asvn19440"
 
-RPM_NAME = "texlive-chessfss-2023.201.1.2asvn19440-53.1.noarch.rpm"
-RPM_HASH = "136a1e1fdc7e74b0fa269572a71194814a0adb416a2644dca1e0badc7fc567d189d8b583498e97ada3f400807984f9781359aa28fb1efb62bb12849f5ea97752"
+RPM_NAME = "texlive-chessfss-2023.209.1.2asvn19440-54.1.noarch.rpm"
+RPM_HASH = "e199229f20797502adf430463722279521939f6fc66e84bff602d260f59cfd8a82994c886bee635b5a105b6a446327b50cf0c2104a220e23cb2e8c0cd49090be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chess-board-example-enc.enc \

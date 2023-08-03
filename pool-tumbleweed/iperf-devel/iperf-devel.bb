@@ -7,10 +7,10 @@ other parameters. \
 This package contains development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.13"
+PV = "3.14"
 
-RPM_NAME = "iperf-devel-3.13-1.2.aarch64.rpm"
-RPM_HASH = "c3ef4ed01d26de17598fb1bf7a2c30efc652e8ce35ac8d70d4c66d17f75906ad25350d0089a328466d4608d96d970e04ee832972d560a5300799b776a13694a9"
+RPM_NAME = "iperf-devel-3.14-1.1.aarch64.rpm"
+RPM_HASH = "cacb55ddf00dc7a6702c045248459271282cd6a1f7a62b5df87d9147a79d2f1cf0810531ef856c192f58138f91ae48478225d82415e20d60ab7bfb00ca398d7a"
 
 RPROVIDES:${PN} += "iperf-devel"
 

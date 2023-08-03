@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a class for typesetting publications of \
 the Association for Computing Machinery (ACM)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.88svn64967"
+PV = "2023.209.1.88svn64967"
 
-RPM_NAME = "texlive-acmart-2023.201.1.88svn64967-54.1.noarch.rpm"
-RPM_HASH = "5573450633d7c92e0b1241dcd518b70b57b9d5ea37017bc12d95204d232aa52563c2fdf564ad720e72327bdd220fa888b2694bc8cc7a6ca3e33ec9ed4e729a2f"
+RPM_NAME = "texlive-acmart-2023.209.1.88svn64967-55.1.noarch.rpm"
+RPM_HASH = "f5160eb37d5d9883283435719a4ef2ed8b2c512aec8a85d4c693386547a8409a173bf8ea21fe271011595cc49f15fc34955e5978badfa1568fe996844688c55e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-acmart.cls \

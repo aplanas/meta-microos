@@ -5,10 +5,10 @@ class). It also provides macros designed to optimise the \
 process of producing a thesis."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5.5svn61770"
+PV = "2023.209.1.5.5svn61770"
 
-RPM_NAME = "texlive-bangorcsthesis-2023.201.1.5.5svn61770-53.1.noarch.rpm"
-RPM_HASH = "b9c48bda8fa46d6e2d000a398649bc5f36c8ebfc00df0fa07aecf824e1e6db50ec6cba5d51a82359c85ce7271a6f079b046e0ee56b6a5152d78d6cd11be02423"
+RPM_NAME = "texlive-bangorcsthesis-2023.209.1.5.5svn61770-54.1.noarch.rpm"
+RPM_HASH = "e4ef43d60163c1eea74d74f9a335b10a8cdb8e0e08c460db5fcdb606f37b9f77f26128ccaa0261878bcec3380e46c29dca95a7f7e8a35155fd7c4963137c24a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bangorcsthesis.cls \

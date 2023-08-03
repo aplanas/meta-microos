@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fbox"
 DESCRIPTION = "This package includes the documentation for texlive-fbox"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.06svn62126"
+PV = "2023.209.0.0.06svn62126"
 
-RPM_NAME = "texlive-fbox-doc-2023.201.0.0.06svn62126-52.1.noarch.rpm"
-RPM_HASH = "e111c9579d255c198bdcfcf9c9ce2bb0ce9a07f2e16390c24a93084b2d12787de9ec89e3a806e08b9ae7d86af90572182d759dc473efbb6a164ceb4eef5a66ce"
+RPM_NAME = "texlive-fbox-doc-2023.209.0.0.06svn62126-53.1.noarch.rpm"
+RPM_HASH = "f06dff66893c370aff752ae36cda34fbb712a16269ca7b251ddc9ba76b60b218326427aa5566ee8a4ff2b272bdd815a4a7d59a0a7e9912ec82f0404165604bd2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fbox-doc"

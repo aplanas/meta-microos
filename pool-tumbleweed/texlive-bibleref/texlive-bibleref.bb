@@ -4,10 +4,10 @@ to parts of the Christian bible, in a number of well-defined \
 formats. It depends on ifthen, fmtcount, and amsgen."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.25svn55626"
+PV = "2023.209.1.25svn55626"
 
-RPM_NAME = "texlive-bibleref-2023.201.1.25svn55626-53.1.noarch.rpm"
-RPM_HASH = "2b650003a0ba97efc7678b5e264fbf02a75f4dfa5e1be9924798012aa3d79e83e0a52334bfe49b474920c347d0c28b8e8975d742997ddd50ccc7c3490807982e"
+RPM_NAME = "texlive-bibleref-2023.209.1.25svn55626-54.1.noarch.rpm"
+RPM_HASH = "0966939f120683ad51a852045fb2fd5a979132470ea3631a909f1ce14d331e7cf88641cdd6565f460a49b921288d94404cfb3d21865d746cf5f0e9c28b0f976f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bibleref-xidx.sty \

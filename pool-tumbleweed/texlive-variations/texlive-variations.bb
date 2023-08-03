@@ -4,10 +4,10 @@ variations of functions according to French usage. These macros \
 may be used by both LaTeX and plain TeX users."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.3svn15878"
+PV = "2023.209.0.0.3svn15878"
 
-RPM_NAME = "texlive-variations-2023.201.0.0.3svn15878-53.1.noarch.rpm"
-RPM_HASH = "d11cf75458bec19b7cf1d22b8443a324eb231cc31b674891e5000012eabfc4e8c1e89be3748b0202aa43efa88ea8e6f5202dde117e2ffe4b0c299a63ca5486c7"
+RPM_NAME = "texlive-variations-2023.209.0.0.3svn15878-54.1.noarch.rpm"
+RPM_HASH = "fb31b9fb7c261c7ce5fd22e946b96c8e05232d18fa4faa620c2542c94d3f19bc3e1ba490f0ef24cea232d546d562e07da10ed35013844af445bc87fcf6d9859c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-variations.sty \

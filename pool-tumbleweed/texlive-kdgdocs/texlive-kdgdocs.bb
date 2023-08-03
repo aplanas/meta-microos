@@ -6,10 +6,10 @@ replaces the original kdgcoursetext package (now removed from \
 the archive)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn24498"
+PV = "2023.209.1.0svn24498"
 
-RPM_NAME = "texlive-kdgdocs-2023.201.1.0svn24498-55.1.noarch.rpm"
-RPM_HASH = "bf421d7f7f93368561c6197dff2e560b5844fdb95ff002f65e61524049b1e836e71b54fc925510cac4c1bb77360c37e35b25f10cdb6d46817cb5c7ea2b0c16af"
+RPM_NAME = "texlive-kdgdocs-2023.209.1.0svn24498-56.1.noarch.rpm"
+RPM_HASH = "8e4fca3056f193240c1a5bfa365c06ebd59feb530373a6b0ff8a0b8c7f090928ed4c1ebe7fe63c172ecae62e9afe065da0af6717bc501b190ac554a51bacc81e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-kdgcoursetext.cls \

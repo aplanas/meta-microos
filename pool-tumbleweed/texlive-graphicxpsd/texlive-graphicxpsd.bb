@@ -4,10 +4,10 @@ for the graphicx package with the sips (Darwin/macOS) or \
 convert (ImageMagick) command."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn57341"
+PV = "2023.209.1.2svn57341"
 
-RPM_NAME = "texlive-graphicxpsd-2023.201.1.2svn57341-53.2.noarch.rpm"
-RPM_HASH = "906eeafb0cceeaba5c761be8800528df91760e2ca517b4a85d9b89cde44d24d26563a1032f36bd7bf75cd3e88e310344d875a80e2293b7ff9fb7cf3c36e044c3"
+RPM_NAME = "texlive-graphicxpsd-2023.209.1.2svn57341-54.1.noarch.rpm"
+RPM_HASH = "e95aad04821537ec9b70bb1dc7d69800dd6c8fcc8823d80b524db197aad55b133806d49e7d63867cd3592ceed5225b9132a531df3f3a8ef0d7902391cc5c1cf4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-graphicxpsd.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Configuration files for xmltex and pdfxmltex"
 DESCRIPTION = "The xmltexconfig package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn45845"
+PV = "2023.209.svn45845"
 
-RPM_NAME = "texlive-xmltexconfig-2023.201.svn45845-52.2.noarch.rpm"
-RPM_HASH = "32869c2f80fc7a988540e874990f9adb15efc4ff84318ed8f0b9cc125d03d6c58b06ec269c0d7731c8c1f230eff1ac70688280f7b3e84469cd1b6d7357895074"
+RPM_NAME = "texlive-xmltexconfig-2023.209.svn45845-53.1.noarch.rpm"
+RPM_HASH = "10a114bd67b2734cac8c9c22844dcc3727110dc16386f6dda599773016c9f629d33ecbc92fd63997026a9996a3e11163724c0e9208cd2522f689fda7a0db7241"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xmltexconfig"

@@ -4,10 +4,10 @@ of Piedmontese in babel. Some shortcuts are defined, as well as \
 translations to Piedmontese of standard 'LaTeX names'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn30282"
+PV = "2023.209.1.0svn30282"
 
-RPM_NAME = "texlive-babel-piedmontese-2023.201.1.0svn30282-53.1.noarch.rpm"
-RPM_HASH = "5da140139aa75ca3c684406ba2d42a4875a5b96410043312a58b95c059e2761f7dd55f0519fc1bd3aa41799ae5e56e02774c90ca640bda255dcf364b7efe4fac"
+RPM_NAME = "texlive-babel-piedmontese-2023.209.1.0svn30282-54.1.noarch.rpm"
+RPM_HASH = "f741f29179538900fe395a05e0892197d825826bbcac9591aea5475639197f815e0609be185197484df4061ef1196b2ea1f9f78e7ccfbbd692b8c17795aea898"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-piedmontese.ldf \

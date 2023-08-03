@@ -11,8 +11,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.3"
 
-RPM_NAME = "qemu-s390x-8.0.3-1.1.aarch64.rpm"
-RPM_HASH = "2d68c099fd71e40311edc08273575276c7e394618170797cefda80bd0ca21690f46ebd1f7e304c84c74005c489df9a27ac1a8120fb7602995eb391fd7bd7ed10"
+RPM_NAME = "qemu-s390x-8.0.3-2.1.aarch64.rpm"
+RPM_HASH = "ab3dfa6df726c430609b3aef1fa9a83fc20c9e2277620ef5746bb7d296dbce62bcb6cd2bc588288cc88c3f1cb7bbe937f5a6b5d382c49d6e5a9839a1774845eb"
 
 RPROVIDES:${PN} += "qemu-s390 \
 qemu-s390x"

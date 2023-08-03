@@ -11,10 +11,10 @@ This package contains clients for making secure connections to Secure \
 Shell servers."
 LICENSE = "BSD-2-Clause & MIT"
 
-PV = "9.3p1"
+PV = "9.3p2"
 
-RPM_NAME = "openssh-clients-9.3p1-1.2.aarch64.rpm"
-RPM_HASH = "e8e56ba320317168599278ac4f93c9b5b242c469c5d6840eb18ab5e7bc36ed968b85d58ed1b43837dd5c88a9e737f8dc02ddc36217b5899693d6535bdc01c237"
+RPM_NAME = "openssh-clients-9.3p2-1.1.aarch64.rpm"
+RPM_HASH = "034e5e59fd38e67714bedc7e2d08e8d7f124bca28495b8b3378c64ac48ad074072907e5e1d9a3afbcb9054b91e3ec680b1df226e3316ade4255e8f6daeaaa63b"
 
 RPROVIDES:${PN} += "openssh-/usr/bin/ssh \
 openssh-clients"

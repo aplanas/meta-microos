@@ -12,10 +12,10 @@ Shou Ce Li You Wan Zheng De Wen Yang Lie Biao Yi Ji Shi Yong \
 Fan Li ."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54191"
+PV = "2023.209.svn54191"
 
-RPM_NAME = "texlive-pgfornament-han-2023.201.svn54191-51.1.noarch.rpm"
-RPM_HASH = "c88882e1e3292bead9e2b093b575625e3c45b0f14de055e327362e6161d595e07a20ba07a49fbca04d7396ca9194f82751b727a403099b5b8c9b2244372dc239"
+RPM_NAME = "texlive-pgfornament-han-2023.209.svn54191-52.1.noarch.rpm"
+RPM_HASH = "c87059db8a333b59efce3a26c9beddffc72727510b6feda9b77da0c41b93ffec737d036fd98f091682a487c28a436649271c71fe4939324e3f0275f5744e7b7c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamerthemeHeavenlyClouds.sty \

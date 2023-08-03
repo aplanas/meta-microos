@@ -6,10 +6,10 @@ bandwidth, it determines the frequencies, decay constants, amplitudes, \
 and phases of those sinusoids."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.1"
+PV = "1.4.2"
 
-RPM_NAME = "harminv-1.4.1-1.19.aarch64.rpm"
-RPM_HASH = "5d4856e5d1d03811c2183148793e96507d96f4560e64f49a9b2dc3366bc732da7a5d890e9a14d1acbc6d31fcb7986f862e1b24537612c6ffc75d1d5bb3d69cfb"
+RPM_NAME = "harminv-1.4.2-1.1.aarch64.rpm"
+RPM_HASH = "24192d528a9377f9ebaa2739e45d851050a12d517e07b987f844bdfebc35bd79eb6900ef43e3d5a415eb6b9e7226e15812d92ed412359c63a8a37979c8406270"
 
 RPROVIDES:${PN} += "harminv"
 

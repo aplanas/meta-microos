@@ -5,10 +5,10 @@ meant to be used together with XCharter Opentype Text fonts \
 documents."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.36svn65686"
+PV = "2023.209.0.0.36svn65686"
 
-RPM_NAME = "texlive-xcharter-math-2023.201.0.0.36svn65686-52.2.noarch.rpm"
-RPM_HASH = "ced25fc4c2686af2caa75b3c76d0d826d683468073b79f7b1be0abdbda143dabd6a627313f7c02366cbdec5fc4b0eb3995baad480762323f5b38258cdad328e6"
+RPM_NAME = "texlive-xcharter-math-2023.209.0.0.36svn65686-53.1.noarch.rpm"
+RPM_HASH = "08324a4918144b234a0fce2eef1597836d011defd8d94ac9ba7c4ba66dc6105beafce2b8b2fc7f70fc62c48c93dc4c881174dc5dcb81a536683a9506d657d505"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xcharter-otf.sty \

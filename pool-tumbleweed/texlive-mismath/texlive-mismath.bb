@@ -8,10 +8,10 @@ small matrices, displaymath in double columns for long \
 calculations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.7svn66391"
+PV = "2023.209.2.7svn66391"
 
-RPM_NAME = "texlive-mismath-2023.201.2.7svn66391-54.1.noarch.rpm"
-RPM_HASH = "fe734da348b7dde3873004ebadd4bb5fd17fd4bb797a49d8a1bca166b4b2bbce570397ba28c7dd2d0eb0d4dbd4aa448c85cd17ff72714f6c3a9af3e2602dc9df"
+RPM_NAME = "texlive-mismath-2023.209.2.7svn66391-55.1.noarch.rpm"
+RPM_HASH = "403470db155e15bc68a3164931676654ac25e8f250d69ff156009e9d8faba11a7c6ddfb06f201da10143edbfe5825e98a5915294d7b178c692d84327f945e2a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mismath.sty \

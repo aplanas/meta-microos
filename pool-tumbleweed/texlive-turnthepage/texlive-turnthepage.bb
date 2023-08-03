@@ -4,10 +4,10 @@ odd-numbered pages (except the last). This is a common \
 convention for examination papers and the like."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3asvn29803"
+PV = "2023.209.1.3asvn29803"
 
-RPM_NAME = "texlive-turnthepage-2023.201.1.3asvn29803-52.1.noarch.rpm"
-RPM_HASH = "56c579bed766787b161158c5eeae67dbd193228e4474e1f9d690195dc173057163764af937cd41b68298a1483207e830d4b9ab7e3291fba316ea231ce9bff2df"
+RPM_NAME = "texlive-turnthepage-2023.209.1.3asvn29803-53.1.noarch.rpm"
+RPM_HASH = "6010fc82873ee7ed1a99f5032115224c755a814077c254e432e8fc9171ae0c33f3a907ce7d1996c495108bc6e3bd2042d0ba3c0f8d07cd3bc35d8fb29c22ed12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-turnpageetex.sty \

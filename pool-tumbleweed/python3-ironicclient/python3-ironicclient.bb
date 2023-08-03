@@ -9,12 +9,12 @@ LICENSE = "Apache-2.0"
 
 PV = "5.1.0"
 
-RPM_NAME = "python3-ironicclient-5.1.0-1.3.noarch.rpm"
-RPM_HASH = "9b197d4f09c2bb69d0fb75e77d55fa6b07524256c544f4e3bc58e45df40393429eb007cfe448ce68960af0c54ce9cfb4816fe5683e92b8aa34e75bb8d1e205ed"
+RPM_NAME = "python3-ironicclient-5.1.0-1.4.noarch.rpm"
+RPM_HASH = "4685ef5aeed439cd544385adbae92bc80b0a2eb214874d9cd5392a6feb79c00f8c1cf4c97b107ee14ad3942b5dafbb20d3981ef037cabda50c52b0be1d0f98eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ironicclient \
-python3.10dist-python-ironicclient \
+python3.11dist-python-ironicclient \
 python3dist-python-ironicclient"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

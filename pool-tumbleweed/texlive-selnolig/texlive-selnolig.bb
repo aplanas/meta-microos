@@ -19,10 +19,10 @@ package requires use of a recent LuaLaTeX format (for example \
 those from TeX Live 2012 or 2013, or MiKTeX 2.9)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.302svn38721"
+PV = "2023.209.0.0.302svn38721"
 
-RPM_NAME = "texlive-selnolig-2023.201.0.0.302svn38721-53.1.noarch.rpm"
-RPM_HASH = "1260aeaad8d2bae8a370f0fa75d009af9a72a8d92c129d05e603065683991d173e80faec849216fd13a9b120ff0f95fce6bffd086598fd8d4e8a7047d53895cd"
+RPM_NAME = "texlive-selnolig-2023.209.0.0.302svn38721-54.1.noarch.rpm"
+RPM_HASH = "d4c0dc57d219250ac392e00a757dab4ad8a1c985cda50ebe31be33eef2f8e1eb87a2bf9c975d7f21d0ee13290c4473d359139625d307155f52363eedf8cb6754"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-selnolig-english-hyphex.sty \

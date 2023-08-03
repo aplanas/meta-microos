@@ -6,10 +6,10 @@ with Plain TeX; its syntax derives from that of the \\hbox, \
 \\hrule, etc., TeX primitives."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn23567"
+PV = "2023.209.1.0svn23567"
 
-RPM_NAME = "texlive-getoptk-2023.201.1.0svn23567-52.1.noarch.rpm"
-RPM_HASH = "70b3e4e1c4a32b9ec7310c3cbe32583097526a3b2e07719933f7b8ff2a8ab5726de099481aa99a9ac5fae8f36280802dea36ac5fc9978719c69c15340f082dab"
+RPM_NAME = "texlive-getoptk-2023.209.1.0svn23567-53.1.noarch.rpm"
+RPM_HASH = "8ad4c8ce0c6b341f5dd45b238fa7cab7f34974c8d150378e89fcc947c9794a8db10d562b7db5646ca804513c72a744bf2076dbe9e315abf835021bb0d1641750"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-getoptk.tex \

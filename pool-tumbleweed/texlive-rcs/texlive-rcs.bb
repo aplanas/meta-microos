@@ -13,10 +13,10 @@ documentation of the implementation, style information for \
 AUC-TeX, and test cases."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-rcs-2023.201.svn15878-53.2.noarch.rpm"
-RPM_HASH = "c88dcc929da632bdeff66f55373e4f77d1ad90ef652feb1c533090cf14bd300b422d8286253637891419fbca7e9e12c866a41f10c6b65bca861de462751e90cc"
+RPM_NAME = "texlive-rcs-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "1acfff2eeefb9283e0f41c0b36c043feeeda39acb557cabd2395862d16293c4171f3d6baf393bd67b8e82cb1337d6b9d7b682344bc1e97bb66dd8e351ce6dae4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rcs.sty \

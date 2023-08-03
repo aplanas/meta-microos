@@ -4,10 +4,10 @@ diagrams known as 'railroad' diagrams. The package was \
 originally distributed as part of the schule bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.8.2svn56685"
+PV = "2023.209.0.0.8.2svn56685"
 
-RPM_NAME = "texlive-syntaxdi-2023.201.0.0.8.2svn56685-57.1.noarch.rpm"
-RPM_HASH = "433ea49d39a672dd7c34e9bcb63b735b99aaea81b155148891e52448e1129c729f92ccd3fba27c99e63066fadb7e60012817a01eb1199ca2e75bdf74ab3306c2"
+RPM_NAME = "texlive-syntaxdi-2023.209.0.0.8.2svn56685-58.1.noarch.rpm"
+RPM_HASH = "a9034dc5943ca55af656338b45f98da2cf0730aca5faa4787d99bd309785f6ee8fbb56a80a6810fc9040918e6b6ef7b22e802a39952c23398f6432dc62a69bf4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-syntaxdi.sty \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.06"
 
-RPM_NAME = "grub2-branding-upstream-2.06-53.3.aarch64.rpm"
-RPM_HASH = "69622f3c70829632e993a0d91721fd18a02945ed58b690b4b1d99ba69b6b637cc38f935b86fce1816157ebbf0cd96d3918cc3719cf8a467194837978523af474"
+RPM_NAME = "grub2-branding-upstream-2.06-54.1.aarch64.rpm"
+RPM_HASH = "36c555cab90bc15703a790f0fb0d0bab690d755141b72e12a3263dd9597133c0048e6bdb546661ef563e188a1b930e33e44fe5263034e56c443768f25eac3bb8"
 
 RPROVIDES:${PN} += "grub2-branding-upstream"
 

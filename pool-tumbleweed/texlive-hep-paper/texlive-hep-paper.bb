@@ -9,10 +9,10 @@ hep-paper package, without optional arguments, in addition to \
 the article class."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1svn64917"
+PV = "2023.209.2.1svn64917"
 
-RPM_NAME = "texlive-hep-paper-2023.201.2.1svn64917-53.2.noarch.rpm"
-RPM_HASH = "e4d4af85f555e2a09c7c3840aea82515a1eb0cbf48606ad691f43b45171257aabe88bce09bb4daed2e5ab35b14bef0beecd0c8689e5be67f7ac191b0a33296c4"
+RPM_NAME = "texlive-hep-paper-2023.209.2.1svn64917-54.1.noarch.rpm"
+RPM_HASH = "eaf6c8d89b1bcd1c8dc45fdc83d38ea04dacacce20ed234895a3400b39be61d9d093e6739e6ff3fed47c111b40dc27833ec584095d4795e5a374a222f1e05111"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hep-paper.sty \

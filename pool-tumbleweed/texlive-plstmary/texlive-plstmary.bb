@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides commands to produce all the symbols of the \
 St Mary's Road fonts, in a Plain TeX environment."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.0.0.5csvn31088"
+PV = "2023.209.0.0.5csvn31088"
 
-RPM_NAME = "texlive-plstmary-2023.201.0.0.5csvn31088-52.1.noarch.rpm"
-RPM_HASH = "56f30f554d426539f585208503201d4631eaf23e567254255733bb7e8edda62ba1d40738879b7d86c516596e2a00b83812086cb1ed28d9868097c4e2143585a0"
+RPM_NAME = "texlive-plstmary-2023.209.0.0.5csvn31088-53.1.noarch.rpm"
+RPM_HASH = "b441fe2f0f8090661f9037007f415569c330db39b9bb8dd8cbafc622c9f76f558534d412d5429019cb7dcb929bbcf1f2169f2d544963eed7485786d38de1d0a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-stmary.tex \

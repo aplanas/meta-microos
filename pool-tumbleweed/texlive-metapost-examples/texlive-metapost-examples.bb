@@ -5,10 +5,10 @@ intricate (uncommon geometric transformations, fractals, \
 bitmap, etc)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-metapost-examples-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "e8b1505b624c8de01b24bf28d28888091b0f05d2de4a29a90575c1758d07568b2ddb8be0df0b9a5deb7b472288b025a23a92bd1130ebcb8b3565d327624d54d7"
+RPM_NAME = "texlive-metapost-examples-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "fe1f859b34c158c419396e65a0cc0c6c02ec8f194c5201c631d05ad61706de57b0a176d675b3d238bf7a197b1a5e87e7905e7d332841433a0ad7c391cda59693"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metapost-examples"

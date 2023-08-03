@@ -15,10 +15,10 @@ package is dependent on e-TeX, and requires the author's \
 etoolbox package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.5.2nsvn64389"
+PV = "2023.209.5.2nsvn64389"
 
-RPM_NAME = "texlive-csquotes-2023.204.5.2nsvn64389-54.1.noarch.rpm"
-RPM_HASH = "601d266a33716f8b992fb0c638876cbba5dd8ad20cbff9236b574af44fb9081a9e473e839423d34f6da3aa0d8b316fa882295ab350662173198e62dc80b9a702"
+RPM_NAME = "texlive-csquotes-2023.209.5.2nsvn64389-55.1.noarch.rpm"
+RPM_HASH = "be05a15ea37a11ac9c215ac8e945fb30bf2fa6554ab9d52a75adc859d2ac69dde171cbcb3a26c697336908af4443a430a5bf3a216cf7a0835548eaa41c136eff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-csq-compat.def \

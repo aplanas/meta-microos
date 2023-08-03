@@ -6,8 +6,8 @@ LICENSE = "AGPL-3.0-only"
 
 PV = "9.56.1"
 
-RPM_NAME = "ghostscript-x11-9.56.1-4.1.aarch64.rpm"
-RPM_HASH = "25e601170bb8a11fe78ac2df6e7dcc7f8e0e20cc04392726befd1bb04739e6174972d7e7d16b8541af7db8e9fe81f20d368a710c004fda1e4c5558f2f3981601"
+RPM_NAME = "ghostscript-x11-9.56.1-5.1.aarch64.rpm"
+RPM_HASH = "06eccc73b76fc924307d49ec5a7d0ccf69c5752bada0e50fa3b67a8614cc959719aefa9b2ba1d4bd2cdaaf3672b50249b314e1e7e6df30806542e0b159a85592"
 
 RPROVIDES:${PN} += "ghostscript-x11"
 

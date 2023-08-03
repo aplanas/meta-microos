@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-librebaskerville"
 DESCRIPTION = "The  separated fonts package for texlive-librebaskerville"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64421"
+PV = "2023.209.svn64421"
 
-RPM_NAME = "texlive-librebaskerville-fonts-2023.201.svn64421-54.1.noarch.rpm"
-RPM_HASH = "9d8b69b40827be6e3710f2518738695a10a02608521bf13a982acb229f912838092da46c2ad9e04fd39b366b203cdc8e8a017965ee5e1e5f65f60ebac56ab502"
+RPM_NAME = "texlive-librebaskerville-fonts-2023.209.svn64421-55.1.noarch.rpm"
+RPM_HASH = "979d531ba98f65809a026664422539e898b860b136e0e346e2437a95cbee934dafc55909a33ef0fc3be151e5e35a48936e3762aae36541ffd881d60b04301753"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-librebaskerville-fonts \

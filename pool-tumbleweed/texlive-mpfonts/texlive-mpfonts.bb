@@ -13,10 +13,10 @@ reading, and should probably only be used for printing. Note: \
 do NOT add the map file to updmap!"
 LICENSE = "SUSE-TeX"
 
-PV = "2023.201.svn54512"
+PV = "2023.209.svn54512"
 
-RPM_NAME = "texlive-mpfonts-2023.201.svn54512-54.1.noarch.rpm"
-RPM_HASH = "f5e8cfde71667ebfff50f274d6ea6d7746fd92f334e7e22944320ae1512098e296463d267d664c1167de14f6b514837115ff152abd22cdb28c47f2f9f7a665d4"
+RPM_NAME = "texlive-mpfonts-2023.209.svn54512-55.1.noarch.rpm"
+RPM_HASH = "9c903ccffe46f5c16f19b1387bbcba27223aa7fd312440b8679bee7c482ba05f8a5c8e974832c5c9cc0d4f975f058ff73cc2bb8d4200305dcc0f7a13d1d8f8e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mpfonts.map \

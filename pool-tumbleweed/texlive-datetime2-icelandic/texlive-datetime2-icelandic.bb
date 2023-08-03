@@ -5,10 +5,10 @@ currently unmaintained. Please see the README for the procedure \
 to follow if you want to take over the maintenance."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn65213"
+PV = "2023.209.1.2svn65213"
 
-RPM_NAME = "texlive-datetime2-icelandic-2023.201.1.2svn65213-52.1.noarch.rpm"
-RPM_HASH = "f0027f6ef452298ca8a44b76b8d5db87a31fb6235f1daeafc8a3ed1ffd8dd64a91c631bb1d19a0a9249c4ec09eb19dcf6fddacd567218d25d35d0340bb9946c0"
+RPM_NAME = "texlive-datetime2-icelandic-2023.209.1.2svn65213-53.1.noarch.rpm"
+RPM_HASH = "f2c9444778cc399262fb3c0c3950ec306c6c175336510abc4f12d03b38302be79f81413aa7cbde0e1c81df524ca3467d2608935b51d09d002210167737cda50e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-icelandic-ascii.ldf \

@@ -6,10 +6,10 @@ similar visual representation for node lists as the UNIX tree \
 command for a folder structure."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.2.1svn65298"
+PV = "2023.209.2.2.1svn65298"
 
-RPM_NAME = "texlive-nodetree-2023.201.2.2.1svn65298-54.1.noarch.rpm"
-RPM_HASH = "51ef42aaf453b3b2467b57d8bed3c4e8891b60d1d341edf2f6303690c5545714dcabbe540721d929621894895eb715aafef09e5d38a0450741e7612fb13cf1c5"
+RPM_NAME = "texlive-nodetree-2023.209.2.2.1svn65298-55.1.noarch.rpm"
+RPM_HASH = "3f4f3581251663be9529aea3500417a3c09d54b13cbab1e5ad1206598bf9c4ebb73af5e0ef54122a3c247ec44794faa695408993bb749815a58aff52e3ad56fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nodetree-embed.sty \

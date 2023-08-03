@@ -2,10 +2,10 @@ SUMMARY = "Installation Image Files for MicroOS"
 DESCRIPTION = "Files needed for MicroOS installation media."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "17.89"
+PV = "17.90"
 
-RPM_NAME = "installation-images-MicroOS-17.89-1.56.aarch64.rpm"
-RPM_HASH = "f8cf2fe61b7a866da22cdb30662d70791a5a7b0d1dc8cccad529a4f864a8de527caafbb556acaf8da1586fb031f36eda91f990d0cfe6691523d028c59daac48b"
+RPM_NAME = "installation-images-MicroOS-17.90-1.26.aarch64.rpm"
+RPM_HASH = "383b397ee47c97711666350dcfac0bab458905d8f90cb49e80c441a9f44717031ce67a4f381388de00e751c8d4fcd4cab3b2a4e7dfa8912455b7485d34ebc132"
 
 RPROVIDES:${PN} += "installation-images \
 installation-images-MicroOS"

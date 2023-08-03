@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.5.0"
 
-RPM_NAME = "libvirt-daemon-hooks-9.5.0-1.1.aarch64.rpm"
-RPM_HASH = "99d97ab643b9b301acd47fdffd7a062c405825d198242240e1caa6393414f653923912e744fd447a31461ce7fb6cf2705397806e7f98c99bdde861d17991e0f5"
+RPM_NAME = "libvirt-daemon-hooks-9.5.0-2.1.aarch64.rpm"
+RPM_HASH = "05e4d1b4cd6cc56f5ff6dbe89d4ffe8f3cc068bf178ace8825a8eba7d6d4cb546659618989253828f9fbca9bbb8b998ea18a5f6411a5fa2352ed812f36580ab4"
 
 RPROVIDES:${PN} += "libvirt-daemon-hooks"
 

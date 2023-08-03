@@ -9,10 +9,10 @@ are all written in Portuguese, the language of the target \
 audience."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn64634"
+PV = "2023.209.1.2svn64634"
 
-RPM_NAME = "texlive-unbtex-2023.201.1.2svn64634-53.1.noarch.rpm"
-RPM_HASH = "74fc2b5a4df2d2b55263d1bd954d416fe1ff8f5767179b83f244a137b211aef87b0c80945e7d4eb75903b2301b0696b0ee36c2b4394d1acb83aef42534ab7c56"
+RPM_NAME = "texlive-unbtex-2023.209.1.2svn64634-54.1.noarch.rpm"
+RPM_HASH = "bad3032eb4441051f999b2cd23fdd0d905e59d67bf198ffadafbc565769d58f5492c7ec05ab620d6bd50ad259d498e1aadb3ebbc2134236692c5503cb99158bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-unbtex.cls \

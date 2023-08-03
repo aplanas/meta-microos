@@ -8,12 +8,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.5.0"
 
-RPM_NAME = "python3-monascaclient-2.5.0-1.5.noarch.rpm"
-RPM_HASH = "9e5d33a4cf02536ec6f653bb59485542fce412ed9522ee30741a0a15ee1cfc85aa8d4610887ad00a3acaa277a0d2b1123f1f8572d8cb5275b543f80dd5bbbc4d"
+RPM_NAME = "python3-monascaclient-2.5.0-1.6.noarch.rpm"
+RPM_HASH = "8cced9f37a465309dac4cf39751805536513ceeb6faba8ed1d36d3fa31536bc41d4cf9608fb83ce0151b8364954c87daff8c68243d264e639becacf504eb0cc3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-monascaclient \
-python3.10dist-python-monascaclient \
+python3.11dist-python-monascaclient \
 python3dist-python-monascaclient"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

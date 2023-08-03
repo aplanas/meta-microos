@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-starfont"
 DESCRIPTION = "This package includes the documentation for texlive-starfont"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.2svn19982"
+PV = "2023.209.1.2svn19982"
 
-RPM_NAME = "texlive-starfont-doc-2023.201.1.2svn19982-57.1.noarch.rpm"
-RPM_HASH = "f33d8c382271ebb8c13304323eeb6e09cc586ab2ae6e123ceee4a721499ac1c47afeb380bccc724f5ceff29c2d1dd3d2dfcd2cd36fcc8150d8dec24a073d2078"
+RPM_NAME = "texlive-starfont-doc-2023.209.1.2svn19982-58.1.noarch.rpm"
+RPM_HASH = "71bcd1b7f117ceb6bb95bdc3245f5258608dca64baaece04d992c9b323f45c5ccb65beb6029694e57b1fe71b524fac06fcd2711cb7f98a4972bda5a8b7447d9d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-starfont-doc"

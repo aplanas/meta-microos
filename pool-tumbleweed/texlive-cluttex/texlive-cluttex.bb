@@ -10,10 +10,10 @@ set. Furthermore, cluttex can watch input files for changes \
 (using an external program)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.5.1svn60964"
+PV = "2023.209.0.0.5.1svn60964"
 
-RPM_NAME = "texlive-cluttex-2023.201.0.0.5.1svn60964-53.1.noarch.rpm"
-RPM_HASH = "e58f4b3de88bf6680fa656ac9528c808f8b38c972fd533f71706788c39a92a97fed8366ba5ddbb9d992117fa71991eb75066bf57610872d0dc5f1bdd033eb136"
+RPM_NAME = "texlive-cluttex-2023.209.0.0.5.1svn60964-54.1.noarch.rpm"
+RPM_HASH = "3db293a176f9ea9bc23753117632c17a05a3239fbee530f62c1bb2e576aa4acc400976f91916f8ed9f26b11e3682b93bb9d602111290f8f130988f32eec27a71"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cluttex"

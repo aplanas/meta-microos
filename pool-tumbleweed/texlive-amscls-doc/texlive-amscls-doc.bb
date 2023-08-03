@@ -14,10 +14,10 @@ information about the structure of and interaction between the \
 various components."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn46110"
+PV = "2023.209.svn46110"
 
-RPM_NAME = "texlive-amscls-doc-2023.201.svn46110-54.1.noarch.rpm"
-RPM_HASH = "73c57c7028df3e55569470ee1b490ffe186d5c389d47e8d9f2fb9a0836eac79f455f53a2400338e484ecdd1cff35fa482134d69583d4c6bc679a995b9c295788"
+RPM_NAME = "texlive-amscls-doc-2023.209.svn46110-55.1.noarch.rpm"
+RPM_HASH = "3dac320f5111267573b3dd3ab1723c49ef20bc716b50277b725788688aee530e07569a14900dfad3150211f16f025292a3d6699beb2b2a3635e10a6ad8aa9bd2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-amscls-doc"

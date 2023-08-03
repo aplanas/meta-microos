@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-frcursive"
 DESCRIPTION = "The  separated fonts package for texlive-frcursive"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn24559"
+PV = "2023.209.svn24559"
 
-RPM_NAME = "texlive-frcursive-fonts-2023.201.svn24559-52.1.noarch.rpm"
-RPM_HASH = "6acf252df4d89813be82ff9b8a44cf4397be913a60544bb98bbb9f80d741ac157ad9d9b6e60346957d0216f3bd7126e2d851f0bfc4dc65591e707bedc0b73e6f"
+RPM_NAME = "texlive-frcursive-fonts-2023.209.svn24559-53.1.noarch.rpm"
+RPM_HASH = "d4e13bc11b7e5645b8af455542d7313342bfb9dda15c1af880e8f308d9d30373555fbf7839c672ecd916d3ef12751c523221c16bd16c0a65e621f4d55793862b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

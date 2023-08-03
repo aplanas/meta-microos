@@ -6,10 +6,10 @@ provides an interactive environment including a debugger, a statistical \
 profiler, a code coverage tool, and many other extensions."
 LICENSE = "BSD-3-Clause & SUSE-Public-Domain"
 
-PV = "2.3.6"
+PV = "2.3.7"
 
-RPM_NAME = "sbcl-2.3.6-1.2.aarch64.rpm"
-RPM_HASH = "9b0ba8333ca56b0673b3c36dc5febd6553de52395d2a34cd3b7a0b5bdfca25eb79eaf0ca8f4d89a0e50736e9bc6190a08748452103d0ef49bb82be82db33734e"
+RPM_NAME = "sbcl-2.3.7-1.1.aarch64.rpm"
+RPM_HASH = "f17bd519bdc06a5c93bc470e26ad13736ba4023f92e8c67b80abc2b8551d69c18cb03e1658d98af16212ab4499694b4819ab3e928ca11ebe6c0abd60b3398b78"
 
 RPROVIDES:${PN} += "sbcl"
 

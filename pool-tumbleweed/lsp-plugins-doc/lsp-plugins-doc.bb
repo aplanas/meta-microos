@@ -2,10 +2,10 @@ SUMMARY = "Linux Studio Plugins Documentation"
 DESCRIPTION = "Documentation for Linux Studio Plugins Project"
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.2.7"
+PV = "1.2.8"
 
-RPM_NAME = "lsp-plugins-doc-1.2.7-1.2.noarch.rpm"
-RPM_HASH = "10220d3194e2906cd7d5e6228cc95f11ba3ff09e062e25b9b33f9db36adfef523edf40ce5de84b38fe826bcd08562a5dbe672ee44e87e3202d04d8f6cf9437fa"
+RPM_NAME = "lsp-plugins-doc-1.2.8-1.1.noarch.rpm"
+RPM_HASH = "25f77be9f81630b9e15689885863eff9e1e207cb11578d6ffd76e15f4783d4637e1995bf99646940ab70800972ec16686a160acc077e7afd474c928b75f0cf5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lsp-plugins-doc"

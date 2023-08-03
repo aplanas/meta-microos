@@ -4,10 +4,10 @@ typeset independently with page numbers in sequence, as if they \
 were a single document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-pagecont-2023.201.1.0svn15878-51.1.noarch.rpm"
-RPM_HASH = "f336870c5d7a476e41b9698a6cc08d9cda60fdf13949eacb033f5a5d627d654ac2ed565f18cda2a508efa65f8e0dc9664b1648a61108dabe5a18a690de6ae55c"
+RPM_NAME = "texlive-pagecont-2023.209.1.0svn15878-52.1.noarch.rpm"
+RPM_HASH = "bbe9012cf716072ce2957b2cc9949b2a72f741c28867ab83c735ca53519d815bc5affb08ddb721dd2e16aecad2e022c454c3b2a6bfc5653280c830fea91e7b0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pagecont.sty \

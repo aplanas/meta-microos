@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-aesupp"
 DESCRIPTION = "The  separated fonts package for texlive-aesupp"
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.201.1svn58253"
+PV = "2023.209.1svn58253"
 
-RPM_NAME = "texlive-aesupp-fonts-2023.201.1svn58253-54.1.noarch.rpm"
-RPM_HASH = "e69bf04d585bdfca778a60893214c4e18749f021ee28c856be4b04a3f0c3352d6e2481bcd7a9604bf8ccad94f808aa6a4782dee9d711c7dcf6fe0cc0d70410f9"
+RPM_NAME = "texlive-aesupp-fonts-2023.209.1svn58253-55.1.noarch.rpm"
+RPM_HASH = "9f36aeed4d54a2cb835815a2e2d0de28defb6b955af99831ebac68bfa1c04cf0bf530f2b6464835cac4a1d66f1a713c3b7a0d37d7c7be07944d4b8769edb52c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-aesupp-fonts \

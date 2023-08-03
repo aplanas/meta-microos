@@ -9,10 +9,10 @@ Libertinus Math: an OpenType math font for use in OpenType \
 math-capable applications like LuaTeX, XeTeX or MS Word 2007+."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.7.040svn57948"
+PV = "2023.209.7.040svn57948"
 
-RPM_NAME = "texlive-libertinus-fonts-2023.201.7.040svn57948-54.1.noarch.rpm"
-RPM_HASH = "afada2d93f4ccc2964afdae0d748a51d6f1d2943bc32dae04cf48f03537106f9cad84dd3f77eaf223c106cf980e1199182a8f471f30ff559d67a6f7a1e7e4c16"
+RPM_NAME = "texlive-libertinus-fonts-2023.209.7.040svn57948-55.1.noarch.rpm"
+RPM_HASH = "61a5758b52d969c1ca883118018058526097af4b555341f5e3fc74c0f9afc491e106b1f68aee3c296a22617ad655221bd7b8fe7ecc94d8ca221377e8275a7f45"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-libertinus-fonts"

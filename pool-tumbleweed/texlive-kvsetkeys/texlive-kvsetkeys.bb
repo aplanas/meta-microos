@@ -6,10 +6,10 @@ with unknown options. Active commas and equal signs may be used \
 braces are removed from the values."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.19svn64632"
+PV = "2023.209.1.19svn64632"
 
-RPM_NAME = "texlive-kvsetkeys-2023.201.1.19svn64632-55.1.noarch.rpm"
-RPM_HASH = "3a4db108700dca9023c76b0f01e1f9fe66f3e01ead5599fd0a7d0db94057e39fb35068d647a209aa9e20e26008bd47bfe4dd7bc57af21bf69b8243586e8de8dc"
+RPM_NAME = "texlive-kvsetkeys-2023.209.1.19svn64632-56.1.noarch.rpm"
+RPM_HASH = "889c6c68dbb20db3b38c643cdb0adca77c7cd0af0502bc658aaa57e9f1e267d0a5458ad1cbc15132cb03680103dbc6889c410e70ccfa8703723bb8f24cbc490d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-kvsetkeys.sty \

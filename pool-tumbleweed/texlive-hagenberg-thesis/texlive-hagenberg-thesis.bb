@@ -6,10 +6,10 @@ comprehensive tutorials (in English and German) with detailed \
 instructions and authoring guidelines."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65819"
+PV = "2023.209.svn65819"
 
-RPM_NAME = "texlive-hagenberg-thesis-2023.201.svn65819-53.2.noarch.rpm"
-RPM_HASH = "0bdf038a9066d1f4828bd67b491dca3754f9f203259a30db087332ed0e09819f45e9f9c9e1876f422150a534072d61cdff08acd99835771bc5af4dab2afb594b"
+RPM_NAME = "texlive-hagenberg-thesis-2023.209.svn65819-54.1.noarch.rpm"
+RPM_HASH = "9f303d4925166cfb70d42168ec411fad10bafd44ff059f50bf55d6ff0555ee494cc7baa2ad64da69e4d8625de558c5ab6fcf4b1045e594a20e455dc00b89de4d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hgb.sty \

@@ -4,10 +4,10 @@ customizable styles are provided. The class comes with no \
 documentation, but a worked example offers some guidance."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.0.0.2svn34577"
+PV = "2023.209.0.0.2svn34577"
 
-RPM_NAME = "texlive-cv4tw-2023.204.0.0.2svn34577-54.1.noarch.rpm"
-RPM_HASH = "be269e657af47b206e49fb84fad04122d8bf70033193f17a96b3f3a192eee842d93b69409defa910b01ffce76485be36c44e605dd80eec752552220449f0439c"
+RPM_NAME = "texlive-cv4tw-2023.209.0.0.2svn34577-55.1.noarch.rpm"
+RPM_HASH = "1e2acf13226d66f0ef9bb92a4220142c82fb4a9c691a199815701e9869d56c0415b22d3c401ba741b294b494c5df4936a05339bfbf835cb49b3c7094b756e308"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cv4tw-scheme.sty \

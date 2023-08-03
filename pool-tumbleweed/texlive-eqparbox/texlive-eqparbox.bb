@@ -12,10 +12,10 @@ in eqparbox's documentation. Various derivatives of \\eqparbox \
 are also provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.1svn45215"
+PV = "2023.209.4.1svn45215"
 
-RPM_NAME = "texlive-eqparbox-2023.201.4.1svn45215-53.2.noarch.rpm"
-RPM_HASH = "60276c815e661238736dd75745b35c9424add7de3dc8506c5d178cc17f13f834bec0ec4754d7c8292a5f94961e850ababafcad48fd767ed9e0c3fbd0a8925b90"
+RPM_NAME = "texlive-eqparbox-2023.209.4.1svn45215-54.1.noarch.rpm"
+RPM_HASH = "1c64671a5710add2355bc35ec0a668361b677ccdfbd8cc194298cdeb3d52f5b0bfdc7df77c08ff6a7dd4eee6335f80400f3c3dbe98423be4a35245a5dcb43f35"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eqparbox.sty \

@@ -4,10 +4,10 @@ colors and overprinting are supported. It requires xcolor, and \
 supports pdfTeX and LuaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn50585"
+PV = "2023.209.1.3svn50585"
 
-RPM_NAME = "texlive-colorspace-2023.201.1.3svn50585-53.1.noarch.rpm"
-RPM_HASH = "2006702c8a4f72807e6f9ce5406ac621fd68f657caa02563e5caed26a6a639c765275951c21bb14a3fd4be1ea1469546cb02f9bc7315f08ade71e468f9f8e959"
+RPM_NAME = "texlive-colorspace-2023.209.1.3svn50585-54.1.noarch.rpm"
+RPM_HASH = "37f8ccb4160926c27c37b6d57701b6097da08954cb88f51cf83837036081ec1bf7f7ff2f17be7c0024b34c9d5de5fef8dc65c6532f4c78eaef9e9a01882f77f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-colorspace.sty \

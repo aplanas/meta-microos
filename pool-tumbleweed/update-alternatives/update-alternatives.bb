@@ -10,10 +10,10 @@ make a good choice of editor to invoke if the user has not specified a \
 particular preference."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.21.8"
+PV = "1.21.22"
 
-RPM_NAME = "update-alternatives-1.21.8-2.2.aarch64.rpm"
-RPM_HASH = "83c1cabe6072afaaab62dfe0e92f731edf98c53cff92cce244e0a6d8e7d535f16efe58adfe6421d791cecb6d93961499731cc44150c78c83f9a57b50e513875b"
+RPM_NAME = "update-alternatives-1.21.22-1.1.aarch64.rpm"
+RPM_HASH = "cb03cda9146bd37aa85cfabf3da6b83e0b4933f56c0a3598465dc49ca9ee03dec79f823f82922e36755496e5a207d2a31a889acf01cf7674ef6865252c72d1ae"
 
 RPROVIDES:${PN} += "alternatives \
 update-alternatives"

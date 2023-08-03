@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 ImageFormat Plugins"
 DESCRIPTION = "Plugins for additional image formats: TIFF, MNG, TGA, WEBP, WBMP"
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-imageformats-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "1b87b4352c6036027c66314785865e86e9a01cad1fe7eed86ba472987751d1bbd8e6513481a71b5e2af17d51183878c5ca2bc401c87f10eb47312436549628dd"
+RPM_NAME = "qt6-imageformats-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "8c12f97743b819b21e6dee912fef57074d890db0bd9d78b10fdbb7de07fec9b1fe79d01015d3da5837b34ac34be1bfcfffe1b648733979d70c6182a944973deb"
 
 RPROVIDES:${PN} += "libqicns.so \
 libqmng.so \

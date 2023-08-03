@@ -3,10 +3,10 @@ DESCRIPTION = "This is the type example package for typesetting scholarly \
 critical editions."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.3.17svn61719"
+PV = "2023.209.3.17svn61719"
 
-RPM_NAME = "texlive-edmac-2023.201.3.17svn61719-53.2.noarch.rpm"
-RPM_HASH = "b8e7475af8f6207f228cda89854af835959d4b089b526664e6601ca28e299b660e57324bf463677230cb0a78fb827e72db1902279dff854bb56b5fc4ef55ded5"
+RPM_NAME = "texlive-edmac-2023.209.3.17svn61719-54.1.noarch.rpm"
+RPM_HASH = "965c6b7eb46c175f8e83338b4ce7ce091e1c9482194bca3ea3f42da3b2afc9602118c19779617bb2d705fc4ebd91fecadc5a4f44aed30a83e9ef5ae40dd5511b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-edmac.tex \

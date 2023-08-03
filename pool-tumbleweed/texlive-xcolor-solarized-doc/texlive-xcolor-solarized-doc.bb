@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xcolor-solarized"
 DESCRIPTION = "This package includes the documentation for texlive-xcolor-solarized"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4svn61719"
+PV = "2023.209.0.0.4svn61719"
 
-RPM_NAME = "texlive-xcolor-solarized-doc-2023.201.0.0.4svn61719-52.2.noarch.rpm"
-RPM_HASH = "e6118e0c7708a40f82a9f4c0a9ab52ce9c5bb7815d16a324e29b0bfaea444aae806fc8371220d64bdc2af828e0aadba3446d63e85460b2b77ffc924c60f50cd6"
+RPM_NAME = "texlive-xcolor-solarized-doc-2023.209.0.0.4svn61719-53.1.noarch.rpm"
+RPM_HASH = "d967128b50a2ccd97431c9177a8f00961ce6505e66903ccef753d56e208050f7af2aad56e13f423366a66ae98fe85c615637e51dc70031ce5c3a9cc200a31e9d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xcolor-solarized-doc"

@@ -12,10 +12,10 @@ the PGF/TikZ bundle). This package replaces datetime.sty which \
 is now obsolete."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.1.5.7svn63102"
+PV = "2023.209.1.5.7svn63102"
 
-RPM_NAME = "texlive-datetime2-2023.204.1.5.7svn63102-54.1.noarch.rpm"
-RPM_HASH = "46267078828b631f474ac61aeda3953278dfa03c909504cc6cfb358b77c26ff6f5ae43b11d6cbebc94406fcbdecd08c0dced8225e7aadfb4ac728824732d9add"
+RPM_NAME = "texlive-datetime2-2023.209.1.5.7svn63102-55.1.noarch.rpm"
+RPM_HASH = "0a2906352c3170ac8568156e8cd3cb9933467dcdf9f5c7d5e542a5508a2b1af6cb377e0bb3f3473f63f4805f5606a5d9a7164eebba1cf9f6a9046eaab237fc37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-calc.sty \

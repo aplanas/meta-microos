@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-complexity"
 DESCRIPTION = "This package includes the documentation for texlive-complexity"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.81asvn45322"
+PV = "2023.209.0.0.81asvn45322"
 
-RPM_NAME = "texlive-complexity-doc-2023.201.0.0.81asvn45322-53.1.noarch.rpm"
-RPM_HASH = "a7a8ca365e84c3f8c6942a5b71e2a901bdf41f56fe7df241898b81315045466c28a2fa278b28155a9a552595cb38a4c7b1ae4c6dac0e585b755ec1d58277b878"
+RPM_NAME = "texlive-complexity-doc-2023.209.0.0.81asvn45322-54.1.noarch.rpm"
+RPM_HASH = "c53a3ad94cfc79451e1fd6d7a2327fc83deb3ce92d1d25cc3a39755f5c54a7f2d8a9394bd3dce36576fea342babafff226c284c6b48d2526a5323fe16ada43e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-complexity-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-accanthis"
 DESCRIPTION = "The  separated fonts package for texlive-accanthis"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn64844"
+PV = "2023.209.svn64844"
 
-RPM_NAME = "texlive-accanthis-fonts-2023.201.svn64844-54.1.noarch.rpm"
-RPM_HASH = "a6081e26a81e515f0894eac55cd167bd9a578375e572c8f9e398c177b210ee3761fd01fa29e2f5017e26130cb102816d4a625d9312ef51a1f9be729ebbbaa9d8"
+RPM_NAME = "texlive-accanthis-fonts-2023.209.svn64844-55.1.noarch.rpm"
+RPM_HASH = "1709c535f28f3848ea043ed698b543eefea68f2ce1d93591446363cbbad17d82bc3551ee6457d79f5736db558df068247b4412acdad7d563079255581c0df5e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-accanthis-fonts \

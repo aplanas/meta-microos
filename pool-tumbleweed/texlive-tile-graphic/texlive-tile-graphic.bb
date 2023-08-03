@@ -5,10 +5,10 @@ be written separately to individual PDF files, or packaged into \
 a single PDF file."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn55325"
+PV = "2023.209.svn55325"
 
-RPM_NAME = "texlive-tile-graphic-2023.201.svn55325-52.1.noarch.rpm"
-RPM_HASH = "7213d7f9d9026785d67007de933e3ac35c4d0f382bf1d5376ddc87516249ba06b2205fda1dba754197eeb68f433bb703e4c655f05944a3b1585e064abb751419"
+RPM_NAME = "texlive-tile-graphic-2023.209.svn55325-53.1.noarch.rpm"
+RPM_HASH = "e4a675e404121e1544cdb364a8ed110c2777f0620800f5c9a4b7628a81f8018edeb563576c204b51bcbaddbe56cb98ee582e1a6ee960ae6b0c9280cc9c88e818"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tile-graphic.sty \

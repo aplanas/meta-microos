@@ -6,10 +6,10 @@ Type Design. Fira Sans is available in eleven weights with \
 corresponding italics: light, regular, medium, bold, ..."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.4.3svn64422"
+PV = "2023.209.4.3svn64422"
 
-RPM_NAME = "texlive-fira-2023.201.4.3svn64422-52.1.noarch.rpm"
-RPM_HASH = "518e4783ba7b106f50768df5c191aa0f0f531094de94ba17aeeee6274778c5d8b2883e6b951b8e3a66acacf63b71b8a108e82e5bd23943ebc13853e3cad09956"
+RPM_NAME = "texlive-fira-2023.209.4.3svn64422-53.1.noarch.rpm"
+RPM_HASH = "3bfce7b06323204f4e3b5d7e92cf39492706ada358a321137bf1e151767330b726ac31750b9b435ef2a731012399d79e0d5e3914f0d3cd98f2a4626114f4aafd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-FiraMono-Bold-sup-lgr--base.tfm \

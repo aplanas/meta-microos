@@ -2,10 +2,10 @@ SUMMARY = "JsonRpc 2.0 protocol implementation"
 DESCRIPTION = "JsonRpc 2.0 protocol implementation for Qt6."
 LICENSE = "LGPL-3.0-only | GPL-2.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6JsonRpc6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "dab4f18ffa4226d662a145236ba06f60f20263c6daea819251bdcff0889c4583d93d846e9da056a5672df7ec3bd7de95e2b5ca5f66034829d657b365d4aa27d3"
+RPM_NAME = "libQt6JsonRpc6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "5e8096dbe2a9ec43dd95ad0a56ef954391fdf3c400efb179688dfceb455191f79e6178396a4727aab7205e98e90bbbcea269662ee08c14b037ffb17e1a61d21b"
 
 RPROVIDES:${PN} += "libQt6JsonRpc.so.6 \
 libQt6JsonRpc6"

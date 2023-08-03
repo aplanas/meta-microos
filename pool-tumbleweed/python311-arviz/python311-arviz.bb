@@ -4,10 +4,10 @@ functions for posterior analysis, data storage, model checking, comparison and \
 diagnostics."
 LICENSE = "Apache-2.0"
 
-PV = "0.16.0"
+PV = "0.16.1"
 
-RPM_NAME = "python311-arviz-0.16.0-1.1.noarch.rpm"
-RPM_HASH = "ffb9219da98ad51c11c382030cd7ef8ed006dab9e5fe457aa8a253d8bace0a26d469ca6b2ad8fce8d489cf7c27c7038fc56d49930168a4b5a9bdfc2b7f15c414"
+RPM_NAME = "python311-arviz-0.16.1-1.1.noarch.rpm"
+RPM_HASH = "2337dcef03913fd0f392ef42b582fcd4ab4fa11bd6e9a2fdf7d2a964a6134a50d163beb732509898cd286fb41f8e5de73b61433cf7c5997b0d3d5fd14758e5a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-arviz \

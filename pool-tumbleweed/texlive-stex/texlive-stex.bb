@@ -5,10 +5,10 @@ leaving the document format, essentially turning it into a \
 document format for mathematical knowledge management (MKM)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.2.0svn64383"
+PV = "2023.209.3.2.0svn64383"
 
-RPM_NAME = "texlive-stex-2023.201.3.2.0svn64383-57.1.noarch.rpm"
-RPM_HASH = "6fc9b27d2dc75923f9c375568fdda16f8d0517ff5fa85ede54ad245a6293705f4f3bd919435029ba7993d9381d044a7054f2cb9fe3ca8d88ce1630762e8bf501"
+RPM_NAME = "texlive-stex-2023.209.3.2.0svn64383-58.1.noarch.rpm"
+RPM_HASH = "95bef67dca504b3b9ee53331483b56e8632d042308a9c1ce3c3d8e8a81d6fb5ce98b4dcdb3c646b7d733f4cfd9e2de1e4b1f7908e59c241fca22f235751c79ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamerthemesTeX.sty \

@@ -2,10 +2,10 @@ SUMMARY = "TeX Live manual (Spanish)"
 DESCRIPTION = "The texlive-es package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66059"
+PV = "2023.209.svn66059"
 
-RPM_NAME = "texlive-texlive-es-2023.201.svn66059-54.1.noarch.rpm"
-RPM_HASH = "f9246ff60a327684f6a8ad535209569f3ca76c8feef33ab24c4353bf478c72c2d58e21f3ee4015cf4b424b35d2cc60b0e50ae4d47e8f448c8819e0092cf86b56"
+RPM_NAME = "texlive-texlive-es-2023.209.svn66059-55.1.noarch.rpm"
+RPM_HASH = "a34a59fb0d6eb5c4a8cfe84fecfc2c20ab0896e29ac929439b9a43005a869d15c6ed61d1c5a1e747672b8861d795f770fc37eba4adf6dd2a8c9f088760f6c02d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texlive-es"

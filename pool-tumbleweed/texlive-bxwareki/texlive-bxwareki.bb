@@ -9,10 +9,10 @@ later, where the Japanese calendar is really a Gregorian \
 calendar with a different notation of years."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.6svn51286"
+PV = "2023.209.0.0.6svn51286"
 
-RPM_NAME = "texlive-bxwareki-2023.201.0.0.6svn51286-52.1.noarch.rpm"
-RPM_HASH = "d10561fe50ede2bed580868bc427e009f90beed54eeadced3b1e5a46891c5d31e4d332def924ac41a194d6d581e21fb19fff3928079c8bfe8ec8c6a67782ccd5"
+RPM_NAME = "texlive-bxwareki-2023.209.0.0.6svn51286-53.1.noarch.rpm"
+RPM_HASH = "324f5a2908d1e7800f1fdd74ae58c2706406caf47ca43727ec977433edd856eec3aeded7e24c5f3fd02ffc62cd4782b2e9d6a6fb835a89c3c3023a3aa314c4ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bxwareki-cd.def \

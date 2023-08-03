@@ -11,10 +11,10 @@ l3kernel and l3packages, and the amsmath and mathtools \
 packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0.0svn61283"
+PV = "2023.209.2.0.0svn61283"
 
-RPM_NAME = "texlive-numerica-2023.201.2.0.0svn61283-54.1.noarch.rpm"
-RPM_HASH = "0b27364063e870f6d672b63884186fdf3eb494fa2491a626ea75352611db6dbc37a353de30a66bb598205d055588a16a43bf15789d3aed03ea663277047d7888"
+RPM_NAME = "texlive-numerica-2023.209.2.0.0svn61283-55.1.noarch.rpm"
+RPM_HASH = "2e1ce7db5ce8ee154c4956b0197967597614b4fdd1b9c929431f94414442c6cacccdce1e194a39f681606525a34d7aeb436f33009d2d0f5273853b4edfd0edea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-numerica.sty \

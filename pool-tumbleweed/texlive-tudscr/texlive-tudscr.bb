@@ -24,10 +24,10 @@ twocolumn layout, and a comprehensive user documentation as \
 well as several tutorials."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.06osvn64085"
+PV = "2023.209.2.06osvn64085"
 
-RPM_NAME = "texlive-tudscr-2023.201.2.06osvn64085-52.1.noarch.rpm"
-RPM_HASH = "4c19e4ff6dd4c5f410d650b9fd8eadedfbdb1e3b11acb7c34eed13bfd23ea10060472ee51758f7147621ffa330c5981ada39bb6095f055568cc23c15a0aa8252"
+RPM_NAME = "texlive-tudscr-2023.209.2.06osvn64085-53.1.noarch.rpm"
+RPM_HASH = "bfc05c2b0319b14f47922560e277ece197786740b59f047b0410b00443a30c62c039ed3fe04d08bcdc51feed1f5882a07fd7f65d5be49d6f6c7966cb56969988"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fix-tudscrfonts.sty \

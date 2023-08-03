@@ -6,10 +6,10 @@ LaTeX packages: geometry, graphicx, ifpdf, keyval, iflang, and, \
 optionnaly, babel-dutch."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.0svn62143"
+PV = "2023.209.3.0svn62143"
 
-RPM_NAME = "texlive-rutitlepage-2023.201.3.0svn62143-53.1.noarch.rpm"
-RPM_HASH = "141de322e7a5162ed8d9bc7e5bce7d45c0776e45cb4163b59bf1c9d77ba5a7ac41290bab7b81968d30244d923632c835548ec9ece7afc6a9a1add9a9e3d2958b"
+RPM_NAME = "texlive-rutitlepage-2023.209.3.0svn62143-54.1.noarch.rpm"
+RPM_HASH = "bc77836334b3c5d1f83b28e3ad1c6af09f3d23e03c1a208bffcceff3ae57c6bf5ceff2b12253751135c88647f2c6c22e16235e612bba15769c0a9de7238bde7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rutitlepage.sty \

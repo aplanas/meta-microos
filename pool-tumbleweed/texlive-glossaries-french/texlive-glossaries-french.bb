@@ -2,10 +2,10 @@ SUMMARY = "French language module for glossaries package"
 DESCRIPTION = "French language module for glossaries package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn42873"
+PV = "2023.209.1.1svn42873"
 
-RPM_NAME = "texlive-glossaries-french-2023.201.1.1svn42873-53.2.noarch.rpm"
-RPM_HASH = "ee21a1a7161833e5fb3d6f6d9f86a61461b70b8458e56ec5bab69c5f150f500dda7837ded0497461449a72c0b21c66998c1239369ded5dfb4d77f12e65043793"
+RPM_NAME = "texlive-glossaries-french-2023.209.1.1svn42873-54.1.noarch.rpm"
+RPM_HASH = "27884b1564f7e068a0941c8cbf3a38edfc868437c88620bf2a7c71494d194bdf5953fc86394b53809c0ec8263c7cab7cbcaf26c374754dd768c884cd03ffc7aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-glossaries-french.ldf \

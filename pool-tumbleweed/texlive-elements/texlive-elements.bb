@@ -6,10 +6,10 @@ defined for the elements up to the atomic number 112. This \
 package is a spin-off of the package bohr by the same author."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4svn61792"
+PV = "2023.209.0.0.4svn61792"
 
-RPM_NAME = "texlive-elements-2023.201.0.0.4svn61792-53.2.noarch.rpm"
-RPM_HASH = "f9843755f58438538b9c76fbbcbc2c750c36308831fd77939dccecad0bc375bed65b6c9d1655b227dcbf285f3a1fb3a372f829ec072fc5557ee4ac910f4b2b5f"
+RPM_NAME = "texlive-elements-2023.209.0.0.4svn61792-54.1.noarch.rpm"
+RPM_HASH = "63f5ae2ed2292736348efc5b8afd661708571731e82ac7a139a2e40b85f0de3ff62d5cf1c924663e1751316608a1fc8b2aa8c22714565761481314214755ec44"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-elements-names-brazil.def \

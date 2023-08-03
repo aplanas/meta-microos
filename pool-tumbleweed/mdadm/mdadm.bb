@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.2"
 
-RPM_NAME = "mdadm-4.2-8.2.aarch64.rpm"
-RPM_HASH = "ab2ff8d1b31cd721e4702a0e69d94dfeb8aaaa8c2cfbf3b55b925b5bc5bc87dc0333444cd08ae9541bab94b14f3a851b74ad91423fe9b0f740998962f3b5a473"
+RPM_NAME = "mdadm-4.2-9.1.aarch64.rpm"
+RPM_HASH = "8d8884df729be80a299efa9569917f7308e46f5d6e12bf5a8238d8ca4a50fc8b7e84270e7ef95dc1aab2d87bd50c57eb9d220b065b317bc59b4847213dc38b8a"
 
 RPROVIDES:${PN} += "mdadm"
 

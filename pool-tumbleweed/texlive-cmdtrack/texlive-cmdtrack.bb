@@ -9,10 +9,10 @@ will be printed in the TeX log, for example: 'mdash was used on \
 line 25'; 'ndash was never used'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn28910"
+PV = "2023.209.svn28910"
 
-RPM_NAME = "texlive-cmdtrack-2023.201.svn28910-53.1.noarch.rpm"
-RPM_HASH = "cae49d29179e40685d8d46d782ab1885c2e6fde1fee3c302dafa77dc3529f203c4f95f942dcdef543066a962a9779554f623c9d3d8e3901626e3781294a19dae"
+RPM_NAME = "texlive-cmdtrack-2023.209.svn28910-54.1.noarch.rpm"
+RPM_HASH = "40dbe5973aefe842a9b886afff0aa1c30377e9c40b76da7feba807c48e8755839f1ee1aa9f9d1f597b250a33928fb107c1e9ca5edd97eaaf27b228a5dd34bd9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmdtrack.sty \

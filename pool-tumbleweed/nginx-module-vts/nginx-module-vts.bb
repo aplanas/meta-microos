@@ -5,10 +5,10 @@ This is similar to the live activity monitoring of nginx plus. The built-in html
 is also taken from the demo page of old version."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.1.18+g41"
+PV = "0.2.2"
 
-RPM_NAME = "nginx-module-vts-0.1.18+g41-1.9.aarch64.rpm"
-RPM_HASH = "17f6a4cdc8664ad287ecf7cf96ea269990fc9a9aba554b410bedbfcd7655795d016c7cecdce05982b41ef3ffd3474a513f351b298d8ce3bd7bdc5a9640027e0d"
+RPM_NAME = "nginx-module-vts-0.2.2-1.1.aarch64.rpm"
+RPM_HASH = "376118ac412fbc17f0ed1b0c8300b032950f60b41b3a67adfc32d608bdc3af26f544eb07f5cc6b2e9794ff78c853363eb045df16368585da18abd414991853e5"
 
 RPROVIDES:${PN} += "nginx-module-vts"
 

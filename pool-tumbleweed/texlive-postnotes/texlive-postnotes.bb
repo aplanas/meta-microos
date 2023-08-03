@@ -11,10 +11,10 @@ more elaborate ones can be built. When hyperref is loaded, \
 postnotes provides hyperlinked notes, including back links."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2.3svn66019"
+PV = "2023.209.0.0.2.3svn66019"
 
-RPM_NAME = "texlive-postnotes-2023.201.0.0.2.3svn66019-52.1.noarch.rpm"
-RPM_HASH = "1c39b232a27547c71bfa1dd59c625589f1959031cfe6bf9dedb313f141f71ed2cf5a0fe920d88fdc03a320dc1cb486d759e32709e469d5bb02a3ab88f579b519"
+RPM_NAME = "texlive-postnotes-2023.209.0.0.2.3svn66019-53.1.noarch.rpm"
+RPM_HASH = "4de0bd751f183021105fd78127bd0cce53be82939f2edf94b39033cf7714752b56112f572043b6d679870ae1a82caddd23fcb41697eeab5a5d1de26516566533"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-postnotes.sty \

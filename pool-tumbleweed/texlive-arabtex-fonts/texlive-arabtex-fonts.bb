@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-arabtex"
 DESCRIPTION = "The  separated fonts package for texlive-arabtex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.17svn64260"
+PV = "2023.209.3.17svn64260"
 
-RPM_NAME = "texlive-arabtex-fonts-2023.201.3.17svn64260-54.1.noarch.rpm"
-RPM_HASH = "bd3499008fd193149b0e72ee449cbf237ffb863ee19f959483b39edbec4e899e70dff24828e316eb4e7900abd64bacd4b2601cbf192a9ac93a9164ac8590ecb0"
+RPM_NAME = "texlive-arabtex-fonts-2023.209.3.17svn64260-55.1.noarch.rpm"
+RPM_HASH = "0b5f1bae4c88900213337292c0068d9274fe25c9c233a5d787e1dcf7b0678b227561a637e3d2c7ab7d3c67ff8fce7c2d98a7f12969668414b55733093c8a43e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

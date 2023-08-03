@@ -5,10 +5,10 @@ will be available in the next run of LaTeX. The package honours \
 options that apply to feynmp."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn30223"
+PV = "2023.209.1.1svn30223"
 
-RPM_NAME = "texlive-feynmp-auto-2023.201.1.1svn30223-52.1.noarch.rpm"
-RPM_HASH = "c90c554c202a31fb766e3ecee323e0404b66f035ed68fb2a3f3e587d7872f93fd36c2790198780c0ff12a3cffc30ed136dc2fc31e2dd8878e3b987a2731b4c2f"
+RPM_NAME = "texlive-feynmp-auto-2023.209.1.1svn30223-53.1.noarch.rpm"
+RPM_HASH = "8ffbc594254e4087c33ee602d97f3969b495cddaef32f811b33bb745268786105787dd5d4a1add51eedff645959adf3062bd88dbad37dad8a4703881aa90c50e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-feynmp-auto.sty \

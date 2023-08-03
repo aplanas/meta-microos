@@ -10,10 +10,10 @@ theorem, problems, example, solution and other environments, \
 all of which are in Bangla."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn55475"
+PV = "2023.209.0.0.2svn55475"
 
-RPM_NAME = "texlive-latexbangla-2023.201.0.0.2svn55475-54.1.noarch.rpm"
-RPM_HASH = "949966e2b7f773064bd0cfa3656b6cf512a195b386d338d2b7feeaba9aa1ca4611bdc86795e098f935c8d0a13a99754f96f44e0f7cd72ab76acdfc311b5e8cd0"
+RPM_NAME = "texlive-latexbangla-2023.209.0.0.2svn55475-55.1.noarch.rpm"
+RPM_HASH = "ee726d2f3df94b370977ba0ad99cb589cc029e00163ede94e76d538d6f0153674f896eb3bc2aca2d63d0650f68a1c778a51766a59972ad002c12bcc2f8d6ef12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-latexbangla.sty \

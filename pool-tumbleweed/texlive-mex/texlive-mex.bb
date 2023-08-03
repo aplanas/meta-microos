@@ -6,10 +6,10 @@ hyphenation rules for the Polish language and sources of \
 formats."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.201.1.05asvn58661"
+PV = "2023.209.1.05asvn58661"
 
-RPM_NAME = "texlive-mex-2023.201.1.05asvn58661-54.1.noarch.rpm"
-RPM_HASH = "471c1445badab8f6b7b25ab11027f0cab9cd1a642478796784a989ab51738243db92f7b80f4fe5bc4602ab215e98f368c945588bc12ba9e6c82416fc62c28fa9"
+RPM_NAME = "texlive-mex-2023.209.1.05asvn58661-55.1.noarch.rpm"
+RPM_HASH = "a7daa01bafc12486b5c9a40cdad64246abfe49d2d3336ecb34fab39e93f46c9444c760bed8d0f315a3cb7e76ed223f22aad4ff8d7af32c2a9f2277080f5afc3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-mex \

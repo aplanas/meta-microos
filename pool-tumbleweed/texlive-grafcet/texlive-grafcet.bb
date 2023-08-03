@@ -6,10 +6,10 @@ de permettre le trace de grafcet selon la norme EN 60848 a \
 partir de Pgf/TikZ."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3.5svn22509"
+PV = "2023.209.1.3.5svn22509"
 
-RPM_NAME = "texlive-grafcet-2023.201.1.3.5svn22509-53.2.noarch.rpm"
-RPM_HASH = "36f5c1d3c23b908c8f93acb58ff686ca285f0c36a675722d0dd6d819223c6a4984a5a7cea7d2a72bbc942e8ef336610628df850b53c69eb6ee4e116a5ed10f06"
+RPM_NAME = "texlive-grafcet-2023.209.1.3.5svn22509-54.1.noarch.rpm"
+RPM_HASH = "6aa2464d9508bb2dd18728bf69429f189d2a78696d30ff779782a3e5837a50a7d365061174c3577e73e352930c0f230eb68402c889f5b404053a6c4cbf5dba6d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-grafcet.sty \

@@ -5,10 +5,10 @@ command which connects two liftarms and an environment to \
 describe a construction."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn62981"
+PV = "2023.209.2.0svn62981"
 
-RPM_NAME = "texlive-liftarm-2023.201.2.0svn62981-54.1.noarch.rpm"
-RPM_HASH = "1a73a3329367535b243ef2157fa8a5a95d4996d198abe20060cb582d50911b511d84e32e90a7758ce6a563ad3d38aa10d7f327443e4a6996492c4c5fb04623a4"
+RPM_NAME = "texlive-liftarm-2023.209.2.0svn62981-55.1.noarch.rpm"
+RPM_HASH = "fda70d8f85a8e67954d175ae127843dcaa2df55d130b9c74a03a696905ded41d973d24615ba0250261de54861e201177fe454416c0ac399ea9c87891fe3f62ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-liftarm.sty \

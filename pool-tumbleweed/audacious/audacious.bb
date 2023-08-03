@@ -7,12 +7,13 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.3.1"
 
-RPM_NAME = "audacious-4.3.1-1.1.aarch64.rpm"
-RPM_HASH = "6670f049ba66cd2a2db28bd130a14b91e201ccfc8f179f2415683c540356ece31001bf110592596b9c72622f18c889ce4a636b408b38a5b605ab156f701e1754"
+RPM_NAME = "audacious-4.3.1-2.1.aarch64.rpm"
+RPM_HASH = "01ff2949e9c70249fc4a3545275d0b827dbf404a613de54e14d11d0a7dc9c7ebf04f1fd4383155f7321eb80f9cde669f541a9f31b4465a5d16ed1c4dfb2fab9c"
 
 RPROVIDES:${PN} += "audacious"
 
 RDEPENDS:${PN} += "audacious-plugins \
+cmake-Qt6Svg \
 ld-linux-aarch64.so.1 \
 libaudcore.so.5 \
 libc.so.6 \

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-auncial-new"
 DESCRIPTION = "The  separated fonts package for texlive-auncial-new"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn62977"
+PV = "2023.209.2.0svn62977"
 
-RPM_NAME = "texlive-auncial-new-fonts-2023.201.2.0svn62977-53.1.noarch.rpm"
-RPM_HASH = "49254c9c9b80a30bf605eab37a38f9467be2345c17fda1bed365988ac8f6b46321142eb794cc85b353b9d8505326a110e73dafc1af0fd52b429296dab568a6d7"
+RPM_NAME = "texlive-auncial-new-fonts-2023.209.2.0svn62977-54.1.noarch.rpm"
+RPM_HASH = "dd2c12a362e0e7a6fb330fb52f3334652d6ab66625256a8b15eacd57ada3d091c5ae0122b8d42dcbcfcf07f503bf4716033405582dd50358c02c158f3f34fafe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

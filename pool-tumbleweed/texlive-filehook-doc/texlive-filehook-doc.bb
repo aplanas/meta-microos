@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-filehook"
 DESCRIPTION = "This package includes the documentation for texlive-filehook"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.8bsvn64822"
+PV = "2023.209.0.0.8bsvn64822"
 
-RPM_NAME = "texlive-filehook-doc-2023.201.0.0.8bsvn64822-52.1.noarch.rpm"
-RPM_HASH = "160b2a823ca49b7068e1abb56d7a4796a54e524aea5c819c47ac7c1fea7fa7dcfc89a63c36eac3cecd93d317396f5bd2b1c12c485dcdacfdc6cd78fa1e97574b"
+RPM_NAME = "texlive-filehook-doc-2023.209.0.0.8bsvn64822-53.1.noarch.rpm"
+RPM_HASH = "366720f7d1bee206034ac7cf785fed5e54d7df78ab6f0deeeaac8a580247be6b39b5e95ddb7717c4bca99248781bdc6fa6fb31e28a2dd395a45426aad0cebdc8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-filehook-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ketcindy"
 DESCRIPTION = "This package includes the documentation for texlive-ketcindy"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.20191225.0svn58661"
+PV = "2023.209.20191225.0svn58661"
 
-RPM_NAME = "texlive-ketcindy-doc-2023.201.20191225.0svn58661-55.1.noarch.rpm"
-RPM_HASH = "c33335c4792641b29417871570df2c832c75a7b8d7b0531b1e5e0e5d3a3751628fa3fbaaff578023611234e182147ec942afc0c35f9d0bbfe6f7229b6ab3297c"
+RPM_NAME = "texlive-ketcindy-doc-2023.209.20191225.0svn58661-56.1.noarch.rpm"
+RPM_HASH = "a71139da761090170dd853d889937ec4606ab5fed47afebfc7befa875fbe1b8e5ca13aa48f8f2d0640e954c83787a504a54f32d81cea08af91c479aabf69bd0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-ketcindy-doc-ja \

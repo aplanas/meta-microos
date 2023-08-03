@@ -5,10 +5,10 @@ compound numbers. The package requires LaTeX3 packages expl3 \
 the l3packages bundle)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3asvn57490"
+PV = "2023.209.1.3asvn57490"
 
-RPM_NAME = "texlive-chemnum-2023.201.1.3asvn57490-53.1.noarch.rpm"
-RPM_HASH = "ca10d628451a6ba83466cf9828fab30cc2f0a5e6adc064d3faa73e55d4116b27af7045acec8e0d4de9bc2d34c4d7304004a7be6ee0f7aa9d053f3a1a3816ecfb"
+RPM_NAME = "texlive-chemnum-2023.209.1.3asvn57490-54.1.noarch.rpm"
+RPM_HASH = "04a8e700eee34dc05886bee8f0b1cc1cc30f8d232786f4ef33a5742ccc1fe1542868be1dea8996b7f233537db9702f29c115f6990d4661109e43fc56afd83ee8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chemnum.sty \

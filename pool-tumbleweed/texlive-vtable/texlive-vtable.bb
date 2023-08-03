@@ -6,10 +6,10 @@ commands \\setMultiColRow, \\setMultiColumn, \\setMultiRow and \
 environment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn51126"
+PV = "2023.209.1.0svn51126"
 
-RPM_NAME = "texlive-vtable-2023.201.1.0svn51126-53.1.noarch.rpm"
-RPM_HASH = "e1dfffd8565aaee26c9a9e5b1ff50502f05cdca923ec17c6c1fd3dfe19d2038465844c47190207b3c95f5af1e9ca959bbed062ffd2c5fe6c937aa29147b27041"
+RPM_NAME = "texlive-vtable-2023.209.1.0svn51126-54.1.noarch.rpm"
+RPM_HASH = "f5da59531482dbecfbaee137ef0faeef4a588dd95f187350ae9848a66625d026031bbc2346dbe414f7ef5c91197cfac9c664ae3cf36739686c4fe4b91e0407a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-vtable.sty \

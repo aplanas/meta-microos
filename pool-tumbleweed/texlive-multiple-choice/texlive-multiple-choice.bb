@@ -6,10 +6,10 @@ packed and redistributed it under the name of the \
 multiple-choice package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn63722"
+PV = "2023.209.0.0.2svn63722"
 
-RPM_NAME = "texlive-multiple-choice-2023.201.0.0.2svn63722-54.1.noarch.rpm"
-RPM_HASH = "da13168fb504af8d86c43fea3d2c39c0eee5d431d8d3b67a1ea30226d2a5f0b0937b7d81c3001537a9fde2661182b59704290f5c8eeda9c02d6d235d3158b36b"
+RPM_NAME = "texlive-multiple-choice-2023.209.0.0.2svn63722-55.1.noarch.rpm"
+RPM_HASH = "85de13db54701cf718d6bdb9dab747c517f3f1b96c6feac571075eba86d4fb958ce1e595492ee101b3b872299ebe6c79178daa287691138c672ff58501cfbaaf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-multiple-choice.sty \

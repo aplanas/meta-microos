@@ -3,10 +3,10 @@ DESCRIPTION = "The sanskrit-t1 font package provides Type 1 version of Charles \
 Wikner's skt font series for the Sanskrit language."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn55475"
+PV = "2023.209.svn55475"
 
-RPM_NAME = "texlive-sanskrit-t1-2023.201.svn55475-53.1.noarch.rpm"
-RPM_HASH = "8e00fb278254b28c160710bfac399aecbf1fa26080cce18c3b38ae0f8612b05dde550e8f0022d4768b785b8507b207e21198a803cc7dd2c9a35338caed1e4622"
+RPM_NAME = "texlive-sanskrit-t1-2023.209.svn55475-54.1.noarch.rpm"
+RPM_HASH = "7009649ecc5a50ed992cf36ef6e1a2d1744e8e40a58592169268c908c8d27d5eea6ec9140b97651ff89eda1a604b486fb127b639ee5fe8636932bd1d819a023e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-skt.map \

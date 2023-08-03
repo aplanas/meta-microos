@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for weave-gitops"
 DESCRIPTION = "Bash command line completion support for weave-gitops."
 LICENSE = "MPL-2.0"
 
-PV = "0.27.0"
+PV = "0.28.0"
 
-RPM_NAME = "weave-gitops-bash-completion-0.27.0-1.1.noarch.rpm"
-RPM_HASH = "6b88fb78b0c960c136a8eb9f59dd777821161b4fd895d02bae39d06f08acc2a23e1b126f1543600b316d7a562dc0a5947006ea04c1392e7c5d5334dcdbe12e6d"
+RPM_NAME = "weave-gitops-bash-completion-0.28.0-1.1.noarch.rpm"
+RPM_HASH = "83ea46e03a28f65af0348e14340adf6d8f17013ec75d85c728a1e0faaf2745ffab4f8ab71e2fad6a855d81f2afc8dd61f473d289613c78e5ef22f840fb68cfae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "weave-gitops-bash-completion"

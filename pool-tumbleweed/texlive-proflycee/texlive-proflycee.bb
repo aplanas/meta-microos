@@ -7,10 +7,10 @@ create an xcas-windows-like; \\CodePythonLstFichier to create \
 code presentation and code execution with pythontex."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.5.4svn66581"
+PV = "2023.209.2.5.4svn66581"
 
-RPM_NAME = "texlive-proflycee-2023.201.2.5.4svn66581-52.1.noarch.rpm"
-RPM_HASH = "92a5afba012c6505dfbd3e182cf20847daf79e81ef212d3ca1c84b0c0c1178ed096f5580280937a85520929ee6313b8d29782d3ebc7c20e3bd1a15fde7100d6d"
+RPM_NAME = "texlive-proflycee-2023.209.2.5.4svn66581-53.1.noarch.rpm"
+RPM_HASH = "a007e8445bafe16c393316c75c6744db055cd73b546c2fa4007bfacaa0520e64d1604ce9c4d2f9cf2155f5dd85bf08d64a771f68e1dda9e5735986eb8ac5406d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ProfLycee-old.sty \

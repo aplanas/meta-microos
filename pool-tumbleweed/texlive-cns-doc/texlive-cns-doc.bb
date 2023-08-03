@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cns"
 DESCRIPTION = "This package includes the documentation for texlive-cns"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.4.2.0svn45677"
+PV = "2023.209.4.2.0svn45677"
 
-RPM_NAME = "texlive-cns-doc-2023.201.4.2.0svn45677-53.1.noarch.rpm"
-RPM_HASH = "00ce010a146b021e1c109c6b82fed278603d739b9a46192432a8facafb4e91499199e0c7de90312ac55b6700ecdc9879956a4f86a88ded856e4cc45641a248f7"
+RPM_NAME = "texlive-cns-doc-2023.209.4.2.0svn45677-54.1.noarch.rpm"
+RPM_HASH = "ab3cd2d36bf27c960a73e67aa157a92769cd2065a10cb31cdabdf5a0dbf7ed4d6db15863a022b4bfd643c6cc6690ad95a440c5fb0068ba944c82aabd3485e7b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cns-doc"

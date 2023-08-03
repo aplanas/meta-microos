@@ -5,10 +5,10 @@ these elements, using pgf/TikZ. The package also requires the \
 makeshape package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.3svn36572"
+PV = "2023.209.3.3svn36572"
 
-RPM_NAME = "texlive-flowchart-2023.201.3.3svn36572-52.1.noarch.rpm"
-RPM_HASH = "96b2bdd168be1293a68ad759a96713173b2ba46faa190880c2febc44b566a4afdb37b2223c7a61a937b8b9b57096f3dc819da7d462fad141db9617c15e193755"
+RPM_NAME = "texlive-flowchart-2023.209.3.3svn36572-53.1.noarch.rpm"
+RPM_HASH = "d04c60e7b9a2fdc1504c546ab2e875c7cbf4a76baf715b4f921aa9ba683c6c7f118bf86a66e83a2a4a76c98df8dfb48312aecce2eaab05c683032d8a4f7bd208"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-flowchart.sty \

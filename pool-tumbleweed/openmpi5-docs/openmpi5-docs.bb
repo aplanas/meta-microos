@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.0.0"
 
-RPM_NAME = "openmpi5-docs-5.0.0-2.4.aarch64.rpm"
-RPM_HASH = "7a1f664a57fe5571c72afb3da24c3e02b9b5d1803dd7455cf3bca026854ba7e7683bf80aabbb8cd29d22c91dfd476accc8896d86801838304a3cb17079e5cbfb"
+RPM_NAME = "openmpi5-docs-5.0.0-3.1.aarch64.rpm"
+RPM_HASH = "7f5f7f77c15fab2c995ed52a6601367a2f88f5f0e29204ff60e10385c87aedb191b59d0db7ccc171ef03f7174aeac2597bd41fc8528b836fdc58178aeedce9f5"
 
 RPROVIDES:${PN} += "openmpi5-docs"
 

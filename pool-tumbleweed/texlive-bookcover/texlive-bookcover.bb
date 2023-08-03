@@ -2,10 +2,10 @@ SUMMARY = "A class for book covers and dust jackets"
 DESCRIPTION = "This class helps typesetting book covers and dust jackets."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.5svn65394"
+PV = "2023.209.3.5svn65394"
 
-RPM_NAME = "texlive-bookcover-2023.201.3.5svn65394-52.1.noarch.rpm"
-RPM_HASH = "0689c9d6e75a50b1ee66de5b241af0640d1274c9465ca008136df4cc98eede69a8e70bd437f255e0d6bf38865559f671f38d8bdb8c054824656ca19801df9b65"
+RPM_NAME = "texlive-bookcover-2023.209.3.5svn65394-53.1.noarch.rpm"
+RPM_HASH = "679cd9662f78857a4ae79a9821481e714150e9fd56cce2364135a6f8fac5e0613e128c1c03e89cf09600aa2443a05b76f70960861eebeab01342d7b27b3512e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bookcover.cls \

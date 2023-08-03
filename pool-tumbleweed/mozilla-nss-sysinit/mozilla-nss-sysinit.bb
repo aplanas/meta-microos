@@ -7,8 +7,8 @@ LICENSE = "MPL-2.0"
 
 PV = "3.90"
 
-RPM_NAME = "mozilla-nss-sysinit-3.90-1.1.aarch64.rpm"
-RPM_HASH = "5c2b727decc8c50549b8e6e681657ff6eaa7e69b912b4746eee387f3cafd6d0707d3b9b7d80c7d6ab1b4da6354ef9ce8c379272e1c024ddb6707bbd78a7a408f"
+RPM_NAME = "mozilla-nss-sysinit-3.90-2.1.aarch64.rpm"
+RPM_HASH = "bed0eb38e893214f4c5af96e56542d511ed1660e871cf1eb210544e4cbfbfdf369bd790de375db92813b82ecac437238a52ebbffc75ce0861be818765e60eb10"
 
 RPROVIDES:${PN} += "config-mozilla-nss-sysinit \
 libnsssysinit.so \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the kernel, initrd and installation images 
 to install SUSE CaaS Platform with PXE boot/tftpboot on x86-64."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "17.89"
+PV = "17.90"
 
-RPM_NAME = "tftpboot-installation-openSUSE-Tumbleweed-aarch64-17.89-1.57.noarch.rpm"
-RPM_HASH = "5b3d3fb0ba83a90f59df132a5a4973d99de771b3e35b05beba82d66cee023d54ee59b598e0504cfd226cd33a4f1a6bdafc80894f015ad55caca843a685d0ba07"
+RPM_NAME = "tftpboot-installation-openSUSE-Tumbleweed-aarch64-17.90-1.24.noarch.rpm"
+RPM_HASH = "a1054593c1a2e43fa0e37ceab54d4c204b8172fffa43490f8917c0883d2cdf0a95dcc103a4705368aa59fa2470321acb9850e5cc8f13d6f7aeee14eb03fa5e81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tftpboot-installation-openSUSE-Tumbleweed-aarch64"

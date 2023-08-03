@@ -6,10 +6,10 @@ GoToR, Named). The bookmarks are generated in the first compile \
 run. Package hyperref uses two runs."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.29svn56885"
+PV = "2023.209.1.29svn56885"
 
-RPM_NAME = "texlive-bookmark-2023.201.1.29svn56885-52.1.noarch.rpm"
-RPM_HASH = "bb3a0da7e195359b5344ac96846489eae20d82fc007b9875cc3efb8c7f8857b517ceb8468668787422272ebe7bc1e93277570fd023ccfa455a5eec785a7241b6"
+RPM_NAME = "texlive-bookmark-2023.209.1.29svn56885-53.1.noarch.rpm"
+RPM_HASH = "0181fa270c5cdaaa8f8a3f9a862637cf3ae0f29290c5c02412dc802103f5382e07f17d48758fc1c865a3b632002ca98f956c796fb25b50fff717a6ca0f85eb39"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bkm-dvipdfm-2019-12-03.def \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-graphbox"
 DESCRIPTION = "This package includes the documentation for texlive-graphbox"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn46360"
+PV = "2023.209.1.1svn46360"
 
-RPM_NAME = "texlive-graphbox-doc-2023.201.1.1svn46360-53.2.noarch.rpm"
-RPM_HASH = "be3f9b6978294e835e7bff4a6202bfbfa45ad8e2941fca5ad9a321e2340c05592ae45296b1aa1cbd18ea8505e7b05c63ee6231d535a927251f0233615db9600c"
+RPM_NAME = "texlive-graphbox-doc-2023.209.1.1svn46360-54.1.noarch.rpm"
+RPM_HASH = "02e038fd23e45bdfd6b6d57c9688db37dba75ec3726d724077661dbd1ec6a6e268ad4ca51435537b3c6d19eef1d8e8bf94cea3721e20c77b95a32af1f317cb1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-graphbox-doc"

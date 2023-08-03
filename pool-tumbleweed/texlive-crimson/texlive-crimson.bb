@@ -10,10 +10,10 @@ Text). Support for small caps and old-style numerals is still \
 version of the package."
 LICENSE = "OFL-1.1"
 
-PV = "2023.204.svn64559"
+PV = "2023.209.svn64559"
 
-RPM_NAME = "texlive-crimson-2023.204.svn64559-54.1.noarch.rpm"
-RPM_HASH = "d1bb2e8b2ccb789daca7d84aef3f41c8366c0f031af2c73200b0c0729bd130f03552068d91162187647201f3f2d7f157718478ae3ffdcc5d6f16defdc282c113"
+RPM_NAME = "texlive-crimson-2023.209.svn64559-55.1.noarch.rpm"
+RPM_HASH = "8516eedd533afc8400fb038633aedc09ea830abec5ba771c537c4f50bf356482b9b1e6a2d170fcbd643d9d8a06c298fe681f27830a2b2c17bc9a68905a64fe27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Crimson-Bold-tlf-ly1--base.tfm \

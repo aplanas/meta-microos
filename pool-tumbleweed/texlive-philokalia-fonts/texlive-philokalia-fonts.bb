@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-philokalia"
 DESCRIPTION = "The  separated fonts package for texlive-philokalia"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn45356"
+PV = "2023.209.1.2svn45356"
 
-RPM_NAME = "texlive-philokalia-fonts-2023.201.1.2svn45356-51.1.noarch.rpm"
-RPM_HASH = "b95b490618f7efde94bf79aa7f26675c0265358f2ae4a6197cd01f499881a00e22c291d048fba4bac5d5b71912dfeb6f1927a718e207727fcfdf543b23aebef5"
+RPM_NAME = "texlive-philokalia-fonts-2023.209.1.2svn45356-52.1.noarch.rpm"
+RPM_HASH = "674424466b99624432044ee2e31c56efd4d087eded7f7edaf1fecacf6c79dfb7090de21b4621e422ef3c9600047cfe32be9c09734b123e58155142491485978c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=el \

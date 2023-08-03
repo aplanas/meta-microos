@@ -4,10 +4,10 @@ characters and PSTricks graphics, like lines, curves, plots, \
 ..."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.12svn15878"
+PV = "2023.209.0.0.12svn15878"
 
-RPM_NAME = "texlive-pst-light3d-2023.201.0.0.12svn15878-52.1.noarch.rpm"
-RPM_HASH = "44fbe9a7b8882b7ebbbb8a83904edbb5cc7e041c9d598838b12a0510a3088e5134883399490f98c6bdd4119db582512774efb9d75e0f21cbae816cf613251d4e"
+RPM_NAME = "texlive-pst-light3d-2023.209.0.0.12svn15878-53.1.noarch.rpm"
+RPM_HASH = "9371f747c6a0472ccc9e7fccd61086d41b36b361151958d0e36239711ca2d0ae6fff45a59706c66bdd0eb7434011eb37ad5e26230957340c9ac668aec26dc4e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-light3d.sty \

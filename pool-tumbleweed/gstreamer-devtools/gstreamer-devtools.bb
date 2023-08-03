@@ -13,10 +13,10 @@ lib. The third way of using it is to write your own application that \
 links and uses libgstvalidate."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "gstreamer-devtools-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "8d88267bd87ab6a9d14fcc3ff23a53b3f95e1389cbe4399d7a3390d55207464e1391242867f7c5ed0a53b76e62b696a048346e9b728e38ef9143bc056712534e"
+RPM_NAME = "gstreamer-devtools-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "e634f79ada7a37fdc87b0022d85c80efa540487e09fcc4a4c680a2249ca82278c3e1aaa2315855d6ed81df0fef97a0e7eeb3b026a4385ef36731aba16e0d3003"
 
 RPROVIDES:${PN} += "gstreamer-devtools \
 gstreamer-validate"

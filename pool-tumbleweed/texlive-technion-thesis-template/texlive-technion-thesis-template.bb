@@ -3,10 +3,10 @@ DESCRIPTION = "This is a template for writing a thesis according to the \
 Technion specifications."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn49889"
+PV = "2023.209.1.0svn49889"
 
-RPM_NAME = "texlive-technion-thesis-template-2023.201.1.0svn49889-54.1.noarch.rpm"
-RPM_HASH = "f4de9296a5499cebc1e19e58ae5e2dfc5c52dfb3149fb7610979d1f1c266385cf5d17f556c40b702327f42e7d9d27231570946b764481e7148ad3d66c10baf3a"
+RPM_NAME = "texlive-technion-thesis-template-2023.209.1.0svn49889-55.1.noarch.rpm"
+RPM_HASH = "5614a4ccb5fccc82e2710f77704dfe3833e18b3216ee30c2647ed5903291a234e9358bec6d702427dd71a797a87c79a2952102695d588048c49e68c3def0af66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-technionThesis.cls \

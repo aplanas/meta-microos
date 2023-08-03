@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-subfloat"
 DESCRIPTION = "This package includes the documentation for texlive-subfloat"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.14svn29349"
+PV = "2023.209.2.14svn29349"
 
-RPM_NAME = "texlive-subfloat-doc-2023.201.2.14svn29349-57.1.noarch.rpm"
-RPM_HASH = "7deb254f76f58891e52061d6f41b5bf78272289d333f35ba246d22012d54f59b5ebb1bb1a2a174277d38c86ad770e53af29eedf272eea42e1b3b0def87a93f8c"
+RPM_NAME = "texlive-subfloat-doc-2023.209.2.14svn29349-58.1.noarch.rpm"
+RPM_HASH = "a00dc28e94cf1b4b1d5fa9330d2a437b273f0cbc834667a7803447bd770398cac621665e3281846d9e70fb022083dce3b3a6865121e7cf915c166e3ba4b3199e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-subfloat-doc"

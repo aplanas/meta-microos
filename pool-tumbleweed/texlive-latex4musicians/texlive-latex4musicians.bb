@@ -5,10 +5,10 @@ symbols, song lyrics, guitar chords diagrams, lead sheets, \
 music excerpts, guitar tablatures, multi-page scores."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "2023.201.1.0.1svn49759"
+PV = "2023.209.1.0.1svn49759"
 
-RPM_NAME = "texlive-latex4musicians-2023.201.1.0.1svn49759-54.1.noarch.rpm"
-RPM_HASH = "885642ef1ff6aa1d258f21dd718a7fc454d61d668f3103415977da367459315241e5122544716d3717211ea99f2e57ec08826355d1285b7c8ae26f519404f6e4"
+RPM_NAME = "texlive-latex4musicians-2023.209.1.0.1svn49759-55.1.noarch.rpm"
+RPM_HASH = "180c49a211406263caf87ee9d7699d997fe88a842941f43bc9d65f625f25ab7a5368b82ab1384e2bcfb63409bd72412f5c0c2a3a01010832e31f7559c5631cad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex4musicians"

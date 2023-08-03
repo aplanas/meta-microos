@@ -4,10 +4,10 @@ indicates the real author of a work, when published in a \
 pseudepigraphic name."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.7.1asvn45865"
+PV = "2023.209.2.7.1asvn45865"
 
-RPM_NAME = "texlive-biblatex-realauthor-2023.201.2.7.1asvn45865-53.1.noarch.rpm"
-RPM_HASH = "391b293c85e262e81385d6fbe9900d9b30f5b3eb649a151900285462f14ccf9a90a3f30a649a1d49a9f59b13b8af86f87b3886b1229fad1433d240979f844cb2"
+RPM_NAME = "texlive-biblatex-realauthor-2023.209.2.7.1asvn45865-54.1.noarch.rpm"
+RPM_HASH = "7bbd9203ad4aaa892164a7b09dfcb50b05311c36ae183cc672ab3610f13a7d6ee1a22c5583de31abbaea25bd060937ddf208f8d49ce6dadb8180d09b210ceb3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-realauthor.bbx \

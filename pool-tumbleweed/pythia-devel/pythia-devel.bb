@@ -7,10 +7,10 @@ This package provides the header and source files for development with \
 pythia."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "8.307"
+PV = "8.310"
 
-RPM_NAME = "pythia-devel-8.307-1.15.aarch64.rpm"
-RPM_HASH = "084ae8702aa5ca4904976aaae4dceef8522d22a3c88cdfa16fca6e25a18ba3f1d93a58b878a53e12e3103a62a493a4909f45c08f3fcca27c462e858c444cb47b"
+RPM_NAME = "pythia-devel-8.310-1.1.aarch64.rpm"
+RPM_HASH = "6fc131e2dd1e094d57975852ad20658476b4243856a87a376d260ab09535e98a73c60f5ef6b7d7184d1afea17ece7cffbcad30bc8a7bcc44cfc0512b4942c0cd"
 
 RPROVIDES:${PN} += "config-pythia-devel \
 pythia-devel"

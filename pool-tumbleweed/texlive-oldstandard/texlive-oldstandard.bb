@@ -13,10 +13,10 @@ as XeTeX and LuaTeX, as well as traditional engines such as TeX \
 and pdfTeX."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.2.6svn64464"
+PV = "2023.209.2.6svn64464"
 
-RPM_NAME = "texlive-oldstandard-2023.201.2.6svn64464-54.1.noarch.rpm"
-RPM_HASH = "f41801164c1b239b9a7ed26d730a7544e7baabf7dd2f71aba2d91b46a510cd4019840545b337abdde55889cd00e54895044987f15ea7d8870231958f79fd8a35"
+RPM_NAME = "texlive-oldstandard-2023.209.2.6svn64464-55.1.noarch.rpm"
+RPM_HASH = "1f71054c27c625a45a2be00086513b7e668c6f37e7bb6be1307f3d94f43eb0d99ab3d836090b30cc81fa22d60a938a414b059c86c0a482c0ab2f023c7c1c9105"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LGROldStandard-Sup.fd \

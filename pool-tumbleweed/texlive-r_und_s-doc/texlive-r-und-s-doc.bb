@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-r_und_s"
 DESCRIPTION = "This package includes the documentation for texlive-r_und_s"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3isvn15878"
+PV = "2023.209.1.3isvn15878"
 
-RPM_NAME = "texlive-r_und_s-doc-2023.201.1.3isvn15878-53.2.noarch.rpm"
-RPM_HASH = "1106c3fda5f34cd5713991eec99f9d2b70cc45505cd888cf7a6b54a5e526435ed2dd3a83d13b307287e11148dc1c67af13bf69067c816c661af2b5bb7fd86103"
+RPM_NAME = "texlive-r_und_s-doc-2023.209.1.3isvn15878-54.1.noarch.rpm"
+RPM_HASH = "4b5bb27894c7c29710479a617faeacab0a304b7cf8b5c99aa08c75a70624aa4451481e91fa7496f8ce4927a040b3b218783ad3df814674ecc69e6b84e4588b2b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-r-und-s-doc"

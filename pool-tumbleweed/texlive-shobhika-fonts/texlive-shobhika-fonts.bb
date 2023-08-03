@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-shobhika"
 DESCRIPTION = "The  separated fonts package for texlive-shobhika"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.05svn50555"
+PV = "2023.209.1.05svn50555"
 
-RPM_NAME = "texlive-shobhika-fonts-2023.201.1.05svn50555-53.1.noarch.rpm"
-RPM_HASH = "69ad20391a66785d5c84525be4bb42d9e5b015193ad99f617d51983110e1aa4509b9c3997f89b153e981dd082d4dc7e4867b6b75e1145a9b23b7dd5e513a7edb"
+RPM_NAME = "texlive-shobhika-fonts-2023.209.1.05svn50555-54.1.noarch.rpm"
+RPM_HASH = "445ebf77b6f211eeb796a1bc7a3b27ad30e1ec0c8fc26a9a6e0a9cf4a5c498b3c1991f5f9945140272109c1f050071443c8159730f4ad69c0212513ccc06bff2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

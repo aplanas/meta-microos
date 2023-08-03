@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cclicenses"
 DESCRIPTION = "This package includes the documentation for texlive-cclicenses"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-cclicenses-doc-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "e8195cdbf33345b2a297c6157c6b14a70f6b921cbbd37aaeac5f1b35c0696217ebd16820148b0512510e7b2da89a2e3c9d28a50c312219dd9d300a04d68b3041"
+RPM_NAME = "texlive-cclicenses-doc-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "9165cd9d6e261d53f92ac995ff13d1f56e896a12f5070aa91a4e8be8e707af00f63184aaac7b4d0fdec0d4481976437c192e05439f9dc9f0a1e55f2ac2576595"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cclicenses-doc"

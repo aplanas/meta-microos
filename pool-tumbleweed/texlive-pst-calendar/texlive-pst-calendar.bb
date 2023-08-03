@@ -7,10 +7,10 @@ calendars in French German and English, but the documentation \
 is not available in English."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.48svn60480"
+PV = "2023.209.0.0.48svn60480"
 
-RPM_NAME = "texlive-pst-calendar-2023.201.0.0.48svn60480-52.1.noarch.rpm"
-RPM_HASH = "6d0bd1a5c5a0ff9d943dda9ef0fed5ac86b45fc40d5d0a6f356d889fe06503b6abd35888fffdbbe2d8bd5cabee4d4115abf675cbde8e779ce5e508abd2221cda"
+RPM_NAME = "texlive-pst-calendar-2023.209.0.0.48svn60480-53.1.noarch.rpm"
+RPM_HASH = "b7e16a3ab1cc7483941f61aa15af2630cf45d85c8bf63b6d2dd144f92bd3086bec827c4a87df9f2971f613fdf8f71b742f8239422114e259696f02942d6bbaa9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-calendar.sty \

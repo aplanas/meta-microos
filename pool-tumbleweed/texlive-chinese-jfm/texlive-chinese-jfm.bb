@@ -6,10 +6,10 @@ horizontal and vertical writing mode in Simplified/Traditional \
 Chinese or Japanese fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.1svn57758"
+PV = "2023.209.1.1.1svn57758"
 
-RPM_NAME = "texlive-chinese-jfm-2023.201.1.1.1svn57758-53.1.noarch.rpm"
-RPM_HASH = "afa96d0fb89ecf9dbcd2ad245a7533bdfa73236be9ecb277c6f1fcd1485d9e1408225084abed86f58dfa1296615ff8cf6b48079a9f96e9692809bfe9ffce493f"
+RPM_NAME = "texlive-chinese-jfm-2023.209.1.1.1svn57758-54.1.noarch.rpm"
+RPM_HASH = "7101ed4bbe0607b5c3395da220ba12e10b275337787c24ade75d7e4e303892ac830184b89645f1bb9323c7e604fbb7ef5183cfba753bcff4df67e974e80a7aeb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chinese-jfm"

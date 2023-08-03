@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-librebodoni"
 DESCRIPTION = "The  separated fonts package for texlive-librebodoni"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64431"
+PV = "2023.209.svn64431"
 
-RPM_NAME = "texlive-librebodoni-fonts-2023.201.svn64431-54.1.noarch.rpm"
-RPM_HASH = "a27bb32da1eabf4f015811d6dba8e7932d4013504d3937080f92b58442d0ad71d49f47000368ff03d88512724cc872be93aed694fd929d1a6475ba448d9db61b"
+RPM_NAME = "texlive-librebodoni-fonts-2023.209.svn64431-55.1.noarch.rpm"
+RPM_HASH = "8bafa2da57948b90f9144475de256e67fb4e0e8310c41b045cf54bcf167154deaa597b3c8c3981f07b700d29c61842d1bcc17270551615c9c718db94aef5101b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-librebodoni-fonts \

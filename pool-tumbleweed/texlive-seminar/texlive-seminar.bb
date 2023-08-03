@@ -10,10 +10,10 @@ seminar distribution relies on the xcomment package, which was \
 once part of the bundle, but now has a separate existence."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.63asvn59801"
+PV = "2023.209.1.63asvn59801"
 
-RPM_NAME = "texlive-seminar-2023.201.1.63asvn59801-53.1.noarch.rpm"
-RPM_HASH = "ec606b2069e23cb7e22036abcb7de454191a6db798d4467cb21ff1eec67fd6dc8108a5d65b3625776e9b78a2a652615ed536167dfcf2ac1cf374481ec8859e24"
+RPM_NAME = "texlive-seminar-2023.209.1.63asvn59801-54.1.noarch.rpm"
+RPM_HASH = "981384d6735e64996a7f06952cd494f5f65e506d369537a991b1629b94a9be18f5a4409231153cde3f2e5df84b6cc565859a6bcb434c2577dbafb0716985c6dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-npsfont.sty \

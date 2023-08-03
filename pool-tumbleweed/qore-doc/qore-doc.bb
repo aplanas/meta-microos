@@ -7,10 +7,10 @@ This package provides the HTML documentation for the Qore programming language \
 and also for user modules delivered with Qore and also example programs."
 LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later | MIT"
 
-PV = "1.13.0"
+PV = "1.16.1"
 
-RPM_NAME = "qore-doc-1.13.0-1.6.noarch.rpm"
-RPM_HASH = "f12493759e72829202c5c05b50f5bf94975c0c4558a676abfbabd9a5a6e9545f6f456c8574aa6bb0495c40df633bd157a5e7a935d9df92dd65d02ed89c41c6cd"
+RPM_NAME = "qore-doc-1.16.1-1.1.noarch.rpm"
+RPM_HASH = "f1b4243124fae26d56a4e5b3b4ea4ccac3a1955c004f68f81f831f698ad1669bec68932abfdfc2217d462cbe645bb82e05e4cb3e6bca642c4ed1417d2aac8a3e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qore-doc"

@@ -15,10 +15,10 @@ users who don't yet have access to the latest version of the \
 fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.2svn17859"
+PV = "2023.209.2.2svn17859"
 
-RPM_NAME = "texlive-fontch-2023.201.2.2svn17859-52.1.noarch.rpm"
-RPM_HASH = "1a6aafc0936ca93c4db10089fe85d0f3a7824b629515ef445ad70957b180cc8f388d12fe7e071b167df4b94df2e43966d92a374c83e34cbaa88cc608301fab5a"
+RPM_NAME = "texlive-fontch-2023.209.2.2svn17859-53.1.noarch.rpm"
+RPM_HASH = "858d32726f0451ac8c89b11f61defe0fbde1393f583e0a8043616e273cbf9f91da3695f8ae998b85b36168b5798921f3b9a2f1ebfe696944a5663797c6992197"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-DSmac.tex \

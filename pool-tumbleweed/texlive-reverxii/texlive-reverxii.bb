@@ -4,10 +4,10 @@ program that plays Reversi. (The program incorporates some \
 primitive AI.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn63753"
+PV = "2023.209.svn63753"
 
-RPM_NAME = "texlive-reverxii-2023.201.svn63753-53.2.noarch.rpm"
-RPM_HASH = "1b69b0f6c0c07dfa046a3dd82ca164f33ea370e29b74010e615eb6355389d65b01851f832e0208dbad9ec01197f8cfbfc1671ad81546527c916649f3827bb5b7"
+RPM_NAME = "texlive-reverxii-2023.209.svn63753-54.1.noarch.rpm"
+RPM_HASH = "4ba63b7c3eccf306ce36f7c99184878ee52acbe4d9044e2f32806af5e32c19d94d8a14ff8c9a93e5eaf108f2c035c2f3dc2b3d61a668de58ec67d93a916f1757"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-reverxii.tex \

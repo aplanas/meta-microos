@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-tex-gyre-math"
 DESCRIPTION = "The  separated fonts package for texlive-tex-gyre-math"
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.201.svn41264"
+PV = "2023.209.svn41264"
 
-RPM_NAME = "texlive-tex-gyre-math-fonts-2023.201.svn41264-54.1.noarch.rpm"
-RPM_HASH = "1d4bf0fa2bb046cd9b8b67d010fd834de7d2f2f311b3fed9dd328c2381b307aae5f415ff7caa8d647424f52c4df4f01fc635ff4c1ac7b3ab8883e8862a01701c"
+RPM_NAME = "texlive-tex-gyre-math-fonts-2023.209.svn41264-55.1.noarch.rpm"
+RPM_HASH = "7e91d9c52f81784e1e99a5779e6a6816dc01204de623e3103c071aa5b3a11fe86c9398cc317a42bbd1210bd37a2e0ebe456ece24933de896d33761c2612bda42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

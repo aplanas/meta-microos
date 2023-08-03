@@ -3,10 +3,10 @@ DESCRIPTION = "This module contains a wrapper that allows GStreamer applications
 written in Python."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "gstreamer-plugin-python-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "4f3c0e54c3c6d0151a9cea0b252af9b32f593644a72aebb28a53d5be312d7c43176acb7a61b81577b66150b7fddf4fcb473bf834e5b33a745bbc52e31f2b955b"
+RPM_NAME = "gstreamer-plugin-python-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "b4962566c813b978cb436ac5459f437c204871e76b55098df23e117b089fdbfa4c27ba0df2c1cc0c1164f660febecd437c168a4eed16b8b132354f467730db14"
 
 RPROVIDES:${PN} += "gstreamer-plugin-python \
 libgstpython.so"

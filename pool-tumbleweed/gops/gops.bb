@@ -5,10 +5,10 @@ additional information such as the current stack trace, Go version, memory stats
 etc. It is possible to use gops tool both in local and remote mode."
 LICENSE = "BSD-3-Clause-Clear"
 
-PV = "0.3.25"
+PV = "0.3.27"
 
-RPM_NAME = "gops-0.3.25-1.7.aarch64.rpm"
-RPM_HASH = "3207fa3f9120a4722664f4e3ae3fb4a70f83d457a8b79008c28d759de1474f7ac6c0ac50b0fd7d8adb0b1e148a8a1f27d29ef13fe9c91a679dcae5c33ead0440"
+RPM_NAME = "gops-0.3.27-1.1.aarch64.rpm"
+RPM_HASH = "58534efd1487acbd3ce4606e9abd63b380aa9356d279a8b89b9ebccadf711d7ab64bcde127c380abfeab2f3434a642240a82a05e839c57a54724a3a4e2e26b67"
 
 RPROVIDES:${PN} += "gops"
 

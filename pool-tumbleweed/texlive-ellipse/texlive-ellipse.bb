@@ -3,10 +3,10 @@ DESCRIPTION = "Draw ellipses and elliptical arcs using the standard LaTeX2e \
 picture environment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn39025"
+PV = "2023.209.1.0svn39025"
 
-RPM_NAME = "texlive-ellipse-2023.201.1.0svn39025-53.2.noarch.rpm"
-RPM_HASH = "135586bcc14177a02162b53965f39cc218f08c631df644da2cdd04eee8d725cf4faa919daf8fd5f88b4c3d4c2ba9f4cf4092bcb52f33ff15adfb52b01d760a6d"
+RPM_NAME = "texlive-ellipse-2023.209.1.0svn39025-54.1.noarch.rpm"
+RPM_HASH = "d2ffd25a25046a6f50a0dd12087edb6d673e5cba0254b08423fa1af3e746718a2c50ee1a47ec2cbc036f8bc5302524654a5a7f92f47d74a69e45068f2971e567"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ellipse.sty \

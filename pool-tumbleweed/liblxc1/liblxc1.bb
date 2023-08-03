@@ -2,10 +2,10 @@ SUMMARY = "LXC container runtime library"
 DESCRIPTION = "This package provides the LXC container runtime library."
 LICENSE = "LGPL-2.1-only"
 
-PV = "5.0.2"
+PV = "5.0.3"
 
-RPM_NAME = "liblxc1-5.0.2-1.2.aarch64.rpm"
-RPM_HASH = "d90708d54b6ae3172efb2f400a3020166374733db00d85670606ca43b4a90a03b0be8a1e008a8c77a6b6d243275e9ff53511dbbace56867074a822177d4fed1a"
+RPM_NAME = "liblxc1-5.0.3-1.1.aarch64.rpm"
+RPM_HASH = "6dd3905e16cfbbe0f45f681d1c9605ba3412e5b602e2c932f25711fe9304d2047ba5bde45bc8aefb984286c271c62b5fb70f0aea05d7a18f3c2bfcdbd371677f"
 
 RPROVIDES:${PN} += "config-liblxc1 \
 liblxc.so.1 \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-eepic"
 DESCRIPTION = "This package includes the documentation for texlive-eepic"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.1esvn15878"
+PV = "2023.209.1.1esvn15878"
 
-RPM_NAME = "texlive-eepic-doc-2023.201.1.1esvn15878-53.2.noarch.rpm"
-RPM_HASH = "7cb473c71243edffaba320bd24a18c486b54cf998fe0f0827fc2d07384cd35080c41b8e0e86ba525c76debad816d38a6bbcf2b5a24dd9d8103553444c9c0f091"
+RPM_NAME = "texlive-eepic-doc-2023.209.1.1esvn15878-54.1.noarch.rpm"
+RPM_HASH = "517d5a31503ebdebb7fcd9b5c8325d4f11a0c53f77dd400778b57e22b7306d4c242b4dd0780c802850186520e6dc4bda0f07ff162ac246339bf17f2f637fa51f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eepic-doc"

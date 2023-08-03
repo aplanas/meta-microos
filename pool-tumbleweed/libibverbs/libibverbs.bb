@@ -26,10 +26,10 @@ Device-specific plug-in ibverbs userspace drivers are included: \
 - libvmw_pvrdma: VMware paravirtual RDMA device"
 LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
-PV = "45.0"
+PV = "47.0"
 
-RPM_NAME = "libibverbs-45.0-1.2.aarch64.rpm"
-RPM_HASH = "db2402ab13e28b7635e03bb030b7e3c1293dae18a8615244fee0b2c898e2da379140c1c7b84ef80e1d938c1a07668126d06f951642fa5da7e79f900ffeef6a26"
+RPM_NAME = "libibverbs-47.0-1.1.aarch64.rpm"
+RPM_HASH = "32a57521f25fa8b106fcccf9ca3928259c21f6d77b4347936554dfdf7913bdec1fdf622097434d2f6d2efe4c795f5ad3f4ae417dc486d816debccb9464fcde6a"
 
 RPROVIDES:${PN} += "config-libibverbs \
 libbnxt-re-rdmav34.so \

@@ -11,10 +11,10 @@ the package just changes the way LaTeX makes use of the current \
 ones."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn18787"
+PV = "2023.209.svn18787"
 
-RPM_NAME = "texlive-cmsd-2023.201.svn18787-53.1.noarch.rpm"
-RPM_HASH = "df934720df3600159d0bf75703231b1d553df415a438c83ef6bafa4942cece3da66a7505db6ad2660b5e805f2ad7963bfa92c5cee7705aeca350effb3cc7111b"
+RPM_NAME = "texlive-cmsd-2023.209.svn18787-54.1.noarch.rpm"
+RPM_HASH = "085ffe9a419663c67e4753bf94473d19ea3fe67dd2c5e9fbe0947cfb84c076596c3420b0bbfc8df0581d9336911a007b061f6fe5dbac572ae16f2fa75f52074b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmsd.sty \

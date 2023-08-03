@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-jnuexam"
 DESCRIPTION = "This package includes the documentation for texlive-jnuexam"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn56867"
+PV = "2023.209.1.0svn56867"
 
-RPM_NAME = "texlive-jnuexam-doc-2023.201.1.0svn56867-55.1.noarch.rpm"
-RPM_HASH = "13295060956750f5708b9256be0e63218efc111f56fe26578fc93ef7846022f5470e43c974bae3a79a9f3f6dd04c2a2bed2d44471d24fe7cc80f9a9f87a7f119"
+RPM_NAME = "texlive-jnuexam-doc-2023.209.1.0svn56867-56.1.noarch.rpm"
+RPM_HASH = "bd7e86d6ba54632df8c6b3172bfe2bf59588a4a6547e23f9fc753698e0396f60cb63914a77827dc7f374b930d867aea8c9858d0311c4da417ac6a32a740b4d2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-jnuexam-doc-zh \

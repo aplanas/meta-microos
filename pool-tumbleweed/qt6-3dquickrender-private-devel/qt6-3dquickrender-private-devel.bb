@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt63DQuickRender that
 any ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-3dquickrender-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "4347281e487455a356e84b95b642d8cb75853c92217775771224fe0ecc11e59081e604802a1f3ce5cd2f51dad5ff1b88ffab0039a5561c5ced27084b48f1b704"
+RPM_NAME = "qt6-3dquickrender-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "7d29073bf17d03e0d32d0c9f47263aed6063d254ad5edddbc0041e7176a15a32229e50b57a32da671f4e7c077abf5b4485ac85e093d369a1f8a0b6e9365ea5b8"
 
 RPROVIDES:${PN} += "qt6-3dquickrender-private-devel"
 

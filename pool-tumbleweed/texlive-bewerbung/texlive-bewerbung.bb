@@ -7,10 +7,10 @@ to the German authorities. The data for these applications can \
 be maintained in a simple CSV file."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn61632"
+PV = "2023.209.1.3svn61632"
 
-RPM_NAME = "texlive-bewerbung-2023.201.1.3svn61632-53.1.noarch.rpm"
-RPM_HASH = "5868fba1b2f45b15d8b9096ddb98e5ae1e3cf6e688a395cf90945a6949eca0978a526c0826dfba45bb5cb8a8448f53fd5061ebb03dcb28515891c6ae8e646d03"
+RPM_NAME = "texlive-bewerbung-2023.209.1.3svn61632-54.1.noarch.rpm"
+RPM_HASH = "ed607fb4e1bc9040313e13ed0c5aeff55252d2426489924d94444585270c943afad0cf2954b8af997c30cb4af30e828a37f1209686471d3eef3bb04fc67f8263"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-argetabelle.cls \

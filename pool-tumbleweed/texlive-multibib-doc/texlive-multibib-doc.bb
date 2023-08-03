@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-multibib"
 DESCRIPTION = "This package includes the documentation for texlive-multibib"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4svn15878"
+PV = "2023.209.1.4svn15878"
 
-RPM_NAME = "texlive-multibib-doc-2023.201.1.4svn15878-54.1.noarch.rpm"
-RPM_HASH = "46d5c1df12f85d478044732d232a8fe82a422ffe88a53a7c7c064a21a5ab9a363e36d3f23223262d1235937dc6ff8b8b0da136822d752d78d9e1d46999c15a8d"
+RPM_NAME = "texlive-multibib-doc-2023.209.1.4svn15878-55.1.noarch.rpm"
+RPM_HASH = "ec0535cf1b5d05ae16f85a2a3ffdfa064ef37f9a22e25fa8db248806d4d679d509772a623396280f0bf39507a33138f9ec5bc937884f70978d0f151952ad3343"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-multibib-doc"

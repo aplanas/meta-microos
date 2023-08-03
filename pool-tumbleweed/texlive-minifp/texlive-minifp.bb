@@ -9,10 +9,10 @@ decimal places. In addition, the package provides a stack-based \
 programing environment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.96svn32559"
+PV = "2023.209.0.0.96svn32559"
 
-RPM_NAME = "texlive-minifp-2023.201.0.0.96svn32559-54.1.noarch.rpm"
-RPM_HASH = "f783aa3556e953675177de9bea0222c60eb1c6d74bbd7897a0e89e1e5fb0d44118584282a720122fa9b23924221b3a2f32d645feb915357f02f85863ef9b1e5b"
+RPM_NAME = "texlive-minifp-2023.209.0.0.96svn32559-55.1.noarch.rpm"
+RPM_HASH = "e615ec6bddedd9429c3330120764ff93d47c7b40fef7e2ece2f0e928c26579c0a763a6ea19c9d5fd0a1e7b97a0d130c3b7f42409219c2cd344004aef8575aaf8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mfpextra.tex \

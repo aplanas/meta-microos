@@ -8,10 +8,10 @@ with highlighted words using several colors,so they see what is \
 considered as word, header etc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn59817"
+PV = "2023.209.1.1svn59817"
 
-RPM_NAME = "texlive-optexcount-2023.201.1.1svn59817-54.1.noarch.rpm"
-RPM_HASH = "0fdef58db6d517db82be81205c5fae596df6089754f6b235b1a73dd8e4e8f2d82124d705a7933e90f740d4ba309cbca0315ef3d24154e69b1635e9e256d58f60"
+RPM_NAME = "texlive-optexcount-2023.209.1.1svn59817-55.1.noarch.rpm"
+RPM_HASH = "d1b81746485cac2df654d43655d71ec82386af20e0960123d4da8783b0cf5c61d525522d7db7ee44adeef1b0bc399da815010c183f86eb2f7df206dc5aafd2ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-optexcount"

@@ -5,10 +5,10 @@ of the author's packages tkz-base, tkz-euclide, tkz-fct, \
 tkz-linknodes, and tkz-tab."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.45csvn66115"
+PV = "2023.209.1.45csvn66115"
 
-RPM_NAME = "texlive-tkz-doc-2023.201.1.45csvn66115-52.1.noarch.rpm"
-RPM_HASH = "c10ee059b93f711abb43060ab625e73814545816882cf4a04d9864e5cd3f067d88cc6efb6a2cb3c21f756c31589af98c3e6aa66e4e2cbcf6392ee1806a092aee"
+RPM_NAME = "texlive-tkz-doc-2023.209.1.45csvn66115-53.1.noarch.rpm"
+RPM_HASH = "0d470cdabfcf723c7a3f055032eabb63b81d1ba427ad0973ddc0bcbc6c6a0681a8ab3ee97f0eb3aa93f1a571da60b8170757d70ac02ffff6e07a37690e962ea6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tkz-doc"

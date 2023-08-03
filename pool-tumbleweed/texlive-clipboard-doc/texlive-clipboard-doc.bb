@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-clipboard"
 DESCRIPTION = "This package includes the documentation for texlive-clipboard"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn47747"
+PV = "2023.209.0.0.3svn47747"
 
-RPM_NAME = "texlive-clipboard-doc-2023.201.0.0.3svn47747-53.1.noarch.rpm"
-RPM_HASH = "3b4c65964b6cc83bc313526f387e9c68271d981be72480950b1c5360f4cf4341aa6a07fc8ef25af3f543e44289aaa7b5fde83fdd68d30066069d977f14aff0d3"
+RPM_NAME = "texlive-clipboard-doc-2023.209.0.0.3svn47747-54.1.noarch.rpm"
+RPM_HASH = "55913a1c106906d3e7bbbbf381f2e7706e549a1b3a8a50d4188300db9657bccccae6cac182832e6430e3db15a7fa9244d33de183ab082a4b747af6d0998d9268"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-clipboard-doc"

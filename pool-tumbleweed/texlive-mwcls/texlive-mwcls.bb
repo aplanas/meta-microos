@@ -12,10 +12,10 @@ styles have variants for normal, opening, closing, and blank \
 pages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.75svn44352"
+PV = "2023.209.0.0.75svn44352"
 
-RPM_NAME = "texlive-mwcls-2023.201.0.0.75svn44352-54.1.noarch.rpm"
-RPM_HASH = "a2898f77fba3f1cb11e179b14e05f646f27c0681b49113c5561fc34f47895298757b9b1b67d6719e98af09787eb003128d827eab9cb4c97e82b903cad0b20fcd"
+RPM_NAME = "texlive-mwcls-2023.209.0.0.75svn44352-55.1.noarch.rpm"
+RPM_HASH = "9e8e7de0397d5f0c7ff1db4386b68c25826a7e392564858196f10bcb87cce21979e77b11f7b00d87d1d63b315786133fbc113e24d549d904a57b427165400e9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mw10.clo \

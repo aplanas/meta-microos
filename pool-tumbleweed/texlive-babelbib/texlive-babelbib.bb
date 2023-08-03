@@ -7,10 +7,10 @@ the user. In addition, the package supports commands to change \
 the typography of the bibliographies."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.34svn57349"
+PV = "2023.209.1.34svn57349"
 
-RPM_NAME = "texlive-babelbib-2023.201.1.34svn57349-53.1.noarch.rpm"
-RPM_HASH = "0be2223b82ac210d12906ee50ae5b6c3b04e97ab185c97e85c75eab6654680235c049f24ab32dd455187be1f89c043934993b9b92baa21f1b0c62b65da8cbb98"
+RPM_NAME = "texlive-babelbib-2023.209.1.34svn57349-54.1.noarch.rpm"
+RPM_HASH = "738a4314ddfb4483c986ae3cf6acf8f303c257ce9a464085459675ceb70bbfeb92db4cefaf3c4f71b086f7b631911dc0ef626d539e098507f1db411138c1a430"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-babelbib.sty \

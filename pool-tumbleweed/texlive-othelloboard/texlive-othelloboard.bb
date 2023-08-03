@@ -6,10 +6,10 @@ Automated board or transcript creation, from plain text formats \
 standard to WZebra (and other programs) is also supported."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn23714"
+PV = "2023.209.1.2svn23714"
 
-RPM_NAME = "texlive-othelloboard-2023.201.1.2svn23714-54.1.noarch.rpm"
-RPM_HASH = "43e2051de5297879a2bcd85dd2853e23c5bcce54adb2bfed17102a5b61a8d3d4379ca7feae6ed3d730d97c4a7a66065d35507ab1bea57cd65bbef909d4aeea11"
+RPM_NAME = "texlive-othelloboard-2023.209.1.2svn23714-55.1.noarch.rpm"
+RPM_HASH = "65aebd4f84d9e2f17094e9d9f68e05b4f84a340e293d74ea5f6725118f865b40272db60b4a6cbc8ab7f59a7ae75a82ef2f5e3018abf4a4156db0a26e175217fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-othelloboard.sty \

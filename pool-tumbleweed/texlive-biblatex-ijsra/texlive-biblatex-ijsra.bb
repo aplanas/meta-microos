@@ -3,10 +3,10 @@ DESCRIPTION = "BibLaTeX style used for the journal International Journal of \
 Student Research in Archaeology."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn41634"
+PV = "2023.209.0.0.1svn41634"
 
-RPM_NAME = "texlive-biblatex-ijsra-2023.201.0.0.1svn41634-53.1.noarch.rpm"
-RPM_HASH = "4de3bfbb3f9cbbb6e839d5e7c9773d7e425a3f847a6866a0e37425304808c955b22d2817247bd06bcbb5512affeaf77797770e8031d85f130f34d7c61b6e18ee"
+RPM_NAME = "texlive-biblatex-ijsra-2023.209.0.0.1svn41634-54.1.noarch.rpm"
+RPM_HASH = "abd5d5ea24e9ecca7a796433a850e95f8e398044ed818e7b047152f1c949a556f1d00f66fcdda8215ad9b645742c550dc679aa76d96b0c30b85cb788ddf649e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ijsra.bbx \

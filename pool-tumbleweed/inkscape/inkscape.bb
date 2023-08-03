@@ -4,15 +4,15 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.2.2"
 
-RPM_NAME = "inkscape-1.2.2-3.4.aarch64.rpm"
-RPM_HASH = "5a26328fff3e3de74a22b2a4a8ca26cc17f24fc8a1619b29a81bd2732170b88fcd858f388725a46ebc8065c3e4ac5c4d30eff49b0e06b13b83b3276657d0fde6"
+RPM_NAME = "inkscape-1.2.2-3.5.aarch64.rpm"
+RPM_HASH = "1702f1b58a664bb4719966ad23e1e32d33552bfdea4f5db3dcbad8682d4328c2a09766b17113d8c74f4400a54e28e3d93ee83abc725dd36c4c9c8bf142632f1a"
 
 RPROVIDES:${PN} += "inkscape \
 libinkscape-base.so"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-lib2geom.so.1.2.0 \
+lib2geom.so.1.3.0 \
 libGraphicsMagick++-Q16.so.12 \
 libX11.so.6 \
 libatkmm-1.6.so.1 \

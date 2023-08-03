@@ -12,8 +12,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.9.17"
 
-RPM_NAME = "python39-base-3.9.17-1.1.aarch64.rpm"
-RPM_HASH = "45596bdce2518fc50cc02b35759e3e461ecaef00fd1327e5af488ca5fb907ce226b53c80d09ca5752d259b159d3543708e046a4def0503b0540ef27f37aeceb3"
+RPM_NAME = "python39-base-3.9.17-3.1.aarch64.rpm"
+RPM_HASH = "462f71cbd320007121f794480c2ae7e8c3b8d2d5f3d406fd6c0c142a5986683bf178fc9c67e9ff0d11770d29485ef3552511a1cd91ee643fe52d08085fd86319"
 
 RPROVIDES:${PN} += "python-abi \
 python39-asyncio \

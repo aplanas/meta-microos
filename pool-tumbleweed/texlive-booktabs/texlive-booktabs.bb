@@ -6,10 +6,10 @@ this context. From version 1.61, the package offers longtable \
 compatibility."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.61803398svn53402"
+PV = "2023.209.1.61803398svn53402"
 
-RPM_NAME = "texlive-booktabs-2023.201.1.61803398svn53402-52.1.noarch.rpm"
-RPM_HASH = "04e681642d2561ef56627d6729b0f67efcdf40dd5be59dea447ce2817680b6e46b79a7eef50aeb5a372252cd3b554a7adfe2e2529bc3848f91f2feb0113c4319"
+RPM_NAME = "texlive-booktabs-2023.209.1.61803398svn53402-53.1.noarch.rpm"
+RPM_HASH = "7a7a7aba99d45bfd64a421d697cc063c85512fc3cd95b278da96e26cf34462c326e2d9b1dbf287c1434d0eeb367e1fef44a6bd4ba662878a23a612b9dce7cb37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-booktabs.sty \

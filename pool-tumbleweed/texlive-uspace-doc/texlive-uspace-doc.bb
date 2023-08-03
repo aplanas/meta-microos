@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-uspace"
 DESCRIPTION = "This package includes the documentation for texlive-uspace"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.05svn63123"
+PV = "2023.209.0.0.05svn63123"
 
-RPM_NAME = "texlive-uspace-doc-2023.201.0.0.05svn63123-53.1.noarch.rpm"
-RPM_HASH = "645ce2e7e6f84e515f75452bd929a02d5b2f16ac121f7748beaf8dd201312039d313b2873b3f737596d13ac7999218bc491c5a5d549bdc610a01545e160a3d75"
+RPM_NAME = "texlive-uspace-doc-2023.209.0.0.05svn63123-54.1.noarch.rpm"
+RPM_HASH = "511f6f34e79f7246617cc3be649b004873bb0dff61d945b991aa7d7ccfbaccdc7d40605d610cb80630f22c3c680eeb2d9e67529a36d288362e596a3d469bf3ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-uspace-doc"

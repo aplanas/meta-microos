@@ -5,10 +5,10 @@ currently unmaintained. Please see the README for the procedure \
 to follow if you want to take over the maintenance."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn47356"
+PV = "2023.209.1.1svn47356"
 
-RPM_NAME = "texlive-datetime2-esperanto-2023.201.1.1svn47356-52.1.noarch.rpm"
-RPM_HASH = "1a3dcd879b242e029c17643dacf2220dc2d6aca9e78a855067070420678890920542bdf82d7f9171848f6c6be6fb330b3f401c14f3543ba47158682d3469e100"
+RPM_NAME = "texlive-datetime2-esperanto-2023.209.1.1svn47356-53.1.noarch.rpm"
+RPM_HASH = "1b2769fc9667363aba2b54300f6c8b98c99d3128bfb30c2af993a7360262098fe48b5c5f1c62e2ee7080da08714d5eaa20bec2f5921ce1cbc844eac751f3879d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-esperanto-ascii.ldf \

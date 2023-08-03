@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-only | GPL-2.0-only | GPL-3.0-only"
 
 PV = "5.15.14"
 
-RPM_NAME = "libqt5-qtwebengine-private-headers-devel-5.15.14-1.4.noarch.rpm"
-RPM_HASH = "a19fb4fe3974f3aa42a8fc6e21c9c9e09b822d660e5954f7181a5738e86d10e21a52459278cd3c9f818c60218307fce26dd4ecdbacfc03fb1186d1cbda800e6c"
+RPM_NAME = "libqt5-qtwebengine-private-headers-devel-5.15.14-2.1.noarch.rpm"
+RPM_HASH = "a68c8bd8695d9d9f0620c3c87b7ffd9d0b6ef97b3427ad44a20b2a2446b6f5c03b8e87ccd631fb705d375968ddb2c8875917eff0eb022a30e4036e590d7683ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libqt5-qtwebengine-private-headers-devel"

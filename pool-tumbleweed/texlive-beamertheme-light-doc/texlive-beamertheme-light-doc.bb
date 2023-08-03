@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-beamertheme-light"
 DESCRIPTION = "This package includes the documentation for texlive-beamertheme-light"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.0svn49867"
+PV = "2023.209.1.0svn49867"
 
-RPM_NAME = "texlive-beamertheme-light-doc-2023.201.1.0svn49867-53.1.noarch.rpm"
-RPM_HASH = "cd30bcc7ea2b5771a9d48a1351b4d3ebf61487a0c20b581131ecf84d7640386c85e052153a47bf20db99cf9092bac59404ddfd96f812f2f582d0131be8e08bf7"
+RPM_NAME = "texlive-beamertheme-light-doc-2023.209.1.0svn49867-54.1.noarch.rpm"
+RPM_HASH = "3a489300403d772bd1edea0789f884828294891a8941b0512736fd54794889fc11fbc031732a8b9ac8fcc4592ddabb3dbee07188f9b95f8687418ea324ef4045"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamertheme-light-doc"

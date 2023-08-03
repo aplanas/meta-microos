@@ -7,10 +7,10 @@ requires the fancyhdr, needspace, ifthen, and endnotes \
 packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6svn43750"
+PV = "2023.209.1.6svn43750"
 
-RPM_NAME = "texlive-endheads-2023.201.1.6svn43750-53.2.noarch.rpm"
-RPM_HASH = "55f64708de71cf906a62f667b74c7843f4db6ffdd8d1f7e717a18c20a8a205ec802ff4306710c5a9c07e6f4540c4d27bcda44782aad96936d1babfe846e6264c"
+RPM_NAME = "texlive-endheads-2023.209.1.6svn43750-54.1.noarch.rpm"
+RPM_HASH = "b1601d0ee12cb84e56c95ee8063f3bd2d5cab023c8c696442821b694244b69bf00c7dccaa3d4a1d5b39dacb505db818363b6b684c7e8c3bf8c708d41054a8953"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-endheads.sty \

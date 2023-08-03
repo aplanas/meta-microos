@@ -3,10 +3,10 @@ DESCRIPTION = "This LaTeX package uses TikZ to draw parameterized 2D robot \
 arms, for example to be used in educational material."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn63116"
+PV = "2023.209.0.0.1svn63116"
 
-RPM_NAME = "texlive-robotarm-2023.201.0.0.1svn63116-53.2.noarch.rpm"
-RPM_HASH = "ceb66d6dc8713f390aed1862e7477cb525a4211c72470273fb488d3faf4352d6f87bece0cfa81d809f8d225f2846c4cc93e5a77f5121333d5bc70aff3b124fd0"
+RPM_NAME = "texlive-robotarm-2023.209.0.0.1svn63116-54.1.noarch.rpm"
+RPM_HASH = "04f8bc6f41b85a8d74fd020bbe7f91722e079122d3febaaaf6be70850ea6a709e4df70713999a8c8ce8766a41493fdc20fd6004d96645acaf134c13a5e368596"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-robotarm.sty \

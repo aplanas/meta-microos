@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-twoinone"
 DESCRIPTION = "This package includes the documentation for texlive-twoinone"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn17024"
+PV = "2023.209.svn17024"
 
-RPM_NAME = "texlive-twoinone-doc-2023.201.svn17024-52.1.noarch.rpm"
-RPM_HASH = "d334a0bf3e7dbe9bece89ac972103c9f1a9fd0cc0729d8156874bd2879bd8ceec12e0dfad7c8565f0a5d8cb00a864e91c2cfebbe10f030e2fbe1945267901c4b"
+RPM_NAME = "texlive-twoinone-doc-2023.209.svn17024-53.1.noarch.rpm"
+RPM_HASH = "fbce614cfacb18f89ccd00c8e941e09e9d63fe7e33aad33a872881f47ae315303bc546a1cc634cb6970a841eaea3a32dc00e3a52cb0a57cb938fd659c9ad4a13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-twoinone-doc"

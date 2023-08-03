@@ -17,10 +17,10 @@ specification of the clues (if they're necessary). The author \
 considers this style both 'natural' and robust."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.1.11svn64375"
+PV = "2023.209.1.11svn64375"
 
-RPM_NAME = "texlive-crossword-2023.204.1.11svn64375-54.1.noarch.rpm"
-RPM_HASH = "a54453925ad05503a1bd5e33955d79958ca09cbb639c8b3a829ece1d26a3c88d733f4d5d0a45fbb25b712184ccdfb50a1f42e036295af1bc85d289d353142897"
+RPM_NAME = "texlive-crossword-2023.209.1.11svn64375-55.1.noarch.rpm"
+RPM_HASH = "14085514633fbc5188bd95bddfe0a7abaad1932b0223e85350ae9a66e2ffbb810b5ffb4f682586e1d1c86e7be387a4bd05056f464a80d887c2aef8f1213f926e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cwpuzzle.sty \

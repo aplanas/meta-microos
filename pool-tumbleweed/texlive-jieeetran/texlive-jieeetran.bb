@@ -4,10 +4,10 @@ trying to cite Japanese articles in the Institute of Electrical \
 and Electronics Engineers (IEEE) format."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.19svn65642"
+PV = "2023.209.0.0.19svn65642"
 
-RPM_NAME = "texlive-jieeetran-2023.201.0.0.19svn65642-55.1.noarch.rpm"
-RPM_HASH = "65a0fed708c592cbc6f9d9f8ffd002d28dadbfd8c8bca65e0fda85380ccc564e585e2894ae7aa0158e82afd5ab2a28c55075cb9429bbe5d96815edd4b268a7f4"
+RPM_NAME = "texlive-jieeetran-2023.209.0.0.19svn65642-56.1.noarch.rpm"
+RPM_HASH = "d7584160396c1d5a23f3396f24188609c0dd73d3ac01adb4536d0a11668624b3abc672edd0addb99bf46937b3046e06c174ecb1523f816839a94eeea328f10b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jieeetran"

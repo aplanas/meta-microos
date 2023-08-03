@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
 PV = "3.1.6"
 
-RPM_NAME = "apparmor-abstractions-3.1.6-1.1.noarch.rpm"
-RPM_HASH = "9692f0c50625165e1941a240317622f53c64b4c4de404824a9c02e42a3f93b0082ca7ff247245a8e0ba84d386b97eee9fbc838f14025fcbfc12cfd5a9c00cccb"
+RPM_NAME = "apparmor-abstractions-3.1.6-2.1.noarch.rpm"
+RPM_HASH = "76975e60494e84f0e7564fd8ce5cfff0c5510349d8d8a82ab4b922cb7e4ee60f561f74c2bfe6a1cb063ab29e36fe399fa1336ede0f223ad47861ed0a978a55f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apparmor-abstractions \

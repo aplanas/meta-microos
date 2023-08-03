@@ -2,10 +2,10 @@ SUMMARY = "Examples for the qt6-websockets modules"
 DESCRIPTION = "Examples for the qt6-websockets modules."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-websockets-examples-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "91cf1981d07e2051033cecb5e19289208c940cae35baa6a12f13336156ceea6abc7b85b0effea7c0916de0b91b0ae501ad6e1f55dd3437f3b03bec7e20b4aea8"
+RPM_NAME = "qt6-websockets-examples-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "362655bff9df6063929c437db76d2fb9374a2d055902e859472d7a143ff3801ddab7860f9039c25c1f545d1c80c4dce24e7a62bd718bd6d83e7aaf012a00609f"
 
 RPROVIDES:${PN} += "qt6-websockets-examples"
 

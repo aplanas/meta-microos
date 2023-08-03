@@ -5,10 +5,10 @@ and the like. It can easily be used for creating exercises, \
 too."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1.1svn48255"
+PV = "2023.209.0.0.1.1svn48255"
 
-RPM_NAME = "texlive-handin-2023.201.0.0.1.1svn48255-53.2.noarch.rpm"
-RPM_HASH = "4c35e38e0e2e1e2b8fa52c4038faaf0ee46818f4df9044c2d60a9d66df3af028a50755a19ad2634f35ae01c0a6df86c1236a8738fd7aa1204f710f1a36b1c33a"
+RPM_NAME = "texlive-handin-2023.209.0.0.1.1svn48255-54.1.noarch.rpm"
+RPM_HASH = "40b0dd131e9a6c22c6389f5adb8c5b90245ada14b62b0436e177a171969b74fc06f778b8054bd6d43c403c347680fef25a8593f9714c1a1bb1a1a9bced7082d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-handin.sty \

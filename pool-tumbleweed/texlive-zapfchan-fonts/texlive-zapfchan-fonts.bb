@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-zapfchan"
 DESCRIPTION = "The  separated fonts package for texlive-zapfchan"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn61719"
+PV = "2023.209.svn61719"
 
-RPM_NAME = "texlive-zapfchan-fonts-2023.201.svn61719-52.2.noarch.rpm"
-RPM_HASH = "0791440ef499f31cb634edbda2972226acf140ff787ab03fd0618975d12fba2885fd2ef31aca04430e40d0253a99673a379c217bca41fb5b7c4faf4995d28bbe"
+RPM_NAME = "texlive-zapfchan-fonts-2023.209.svn61719-53.1.noarch.rpm"
+RPM_HASH = "c8b95538fa13d59ebf5ddc5ca2e9a49a6bf0af602fdf8412b2923498ff28c49a052d433dbf7a9bc27609e4b46d78f946bbd2473446697a36cf64c1d7a6338673"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

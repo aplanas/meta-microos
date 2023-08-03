@@ -5,10 +5,10 @@ incrementing and decrementing a date. Leap years and the \
 Gregorian calendar reform are considered."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.0.0.03svn61761"
+PV = "2023.209.0.0.03svn61761"
 
-RPM_NAME = "texlive-datenumber-2023.204.0.0.03svn61761-54.1.noarch.rpm"
-RPM_HASH = "b0d59b7f326dc047605206ed945d8ea5b3e9caab4636bd0a39f0c0745fcef214bc4617847367542df1b359a01b106507e84c4aeb68f21fddd9726110bf486a24"
+RPM_NAME = "texlive-datenumber-2023.209.0.0.03svn61761-55.1.noarch.rpm"
+RPM_HASH = "1cc4d14a44cc11f6970ae013eb7a1a6ea04ff92960bb8f456876f0ed8ae1de8f26144cc409a8cdf7c1f21aa72878297ed472fffe4f5724285084d3ef3ed3c627"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datenumber.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Qml library - Development files"
 DESCRIPTION = "Development files for the Qt 6 Qml library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-qml-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "548533d985b6992084a0e091d530da1ba5e302ccd16956ae4b37203d3ef5fe2a96e2416baf4d6374221b9e1f61bfedc0d53024cb93b8d894b524346524abf143"
+RPM_NAME = "qt6-qml-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "2e7de08606c0a9b6cb83c47d340ef178f6e91da7e06fe92bdf405e1f630e22990b94e8f3bd752d14294e3d4ed38abc82aec0f76a10ecf80f22163fea283c329d"
 
 RPROVIDES:${PN} += "cmake-Qt6Qml \
 cmake-Qt6QmlImportScanner \

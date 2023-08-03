@@ -10,10 +10,10 @@ etc. The package requires and loads l3keys2e, xparse, array, \
 amsmath, pgfcore, and the module shapes of PGF."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.6.16svn66461"
+PV = "2023.209.6.16svn66461"
 
-RPM_NAME = "texlive-nicematrix-2023.201.6.16svn66461-54.1.noarch.rpm"
-RPM_HASH = "db03794da2c0f4dc4c7ac27a9107f2067264443ee64bedf21685904d2170d2e10fd111081d39e91a6307ca0b1697224c6f576f83cbdcaa31c870b5c61fed6901"
+RPM_NAME = "texlive-nicematrix-2023.209.6.16svn66461-55.1.noarch.rpm"
+RPM_HASH = "fab26e9d86bf2ad94a72b56088d810b0932ffa2e62b5a5979ce9fe0638b7290749b973927d02b0f2c2206a523d66d8cd6894e86a5a0fa35f056d38d4dacddcc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nicematrix.sty \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.5.0"
 
-RPM_NAME = "libvirt-daemon-config-nwfilter-9.5.0-1.1.aarch64.rpm"
-RPM_HASH = "530a5d42436a6e0703d7a0df52a2fcf8d0476c75afb0c32ce0972bee42fd3007e5a0834692d81899e317debb289222f6b25c828b3109e4fa92f6772cc2d2f0b1"
+RPM_NAME = "libvirt-daemon-config-nwfilter-9.5.0-2.1.aarch64.rpm"
+RPM_HASH = "90e520ca53155cb3de8b3d4adc42c783077fd8a330e7e559684c072c3535c8f13b95a2d2eb56c89db8c44fca4dcee3e98375520728cd481f55c6ff76292045bf"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-config-nwfilter \
 libvirt-daemon-config-nwfilter"

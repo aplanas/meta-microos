@@ -19,10 +19,10 @@ a series of classes to simplify the creation of many kind of \
 editing-related applications."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "gstreamer-editing-services-devel-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "cd7f8c59f6d462781299a928a1c1dd923133911e1ff84ab88cadfaf6157be22ed2ee1a5c99d58b7e6bebeeade0ddb07d139137a6e9727f11939f70d1f5f8ff62"
+RPM_NAME = "gstreamer-editing-services-devel-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "1f6ea3d72b2c484aafbfe069877ea1a214aabb981fbf5078bda00c6bab0eefc4cf1ec8375b4694e21ebe651daa8ff55aa3554e52e02237785c1a7bdd81f1e283"
 
 RPROVIDES:${PN} += "gstreamer-editing-services-devel \
 pkgconfig-gst-editing-services-1.0"

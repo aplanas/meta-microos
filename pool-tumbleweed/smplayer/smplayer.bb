@@ -8,10 +8,10 @@ movie again will resume at the same point it was left, and with the \
 same chosen audio track, subtitles and volume level."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "22.7.0"
+PV = "23.6.0"
 
-RPM_NAME = "smplayer-22.7.0-1.6.aarch64.rpm"
-RPM_HASH = "fdf7c95e513d695a59e9e510e2a1922d8db7da11d0885bbb76bd21995b48eb77974a8e3ef109544ea57efae7a77464e7de563de163bd12b7942475c6815b7c91"
+RPM_NAME = "smplayer-23.6.0-1.1.aarch64.rpm"
+RPM_HASH = "43aeed73bf4315d2b66ccee68106ef7aa4b6b460bdd3cbfc6cfe550f84d5f02f4adb7653fa75c1c7bbba99ba2381b6a33cb9e7cd6aed279fb0926b27fc8b864a"
 
 RPROVIDES:${PN} += "smplayer"
 

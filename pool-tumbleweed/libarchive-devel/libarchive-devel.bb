@@ -10,10 +10,10 @@ and 6. \
 This package contains the development files."
 LICENSE = "BSD-2-Clause"
 
-PV = "3.6.2"
+PV = "3.7.0"
 
-RPM_NAME = "libarchive-devel-3.6.2-1.5.aarch64.rpm"
-RPM_HASH = "85aff0382137a4fd12a0e65d0c7645fac2fbd9a11b770bd1c25cf054cf765fe753a00f4b6299557fbfc65822946d0de024412e3c0cd4eca41ba1e447e92419dd"
+RPM_NAME = "libarchive-devel-3.7.0-1.1.aarch64.rpm"
+RPM_HASH = "734cc910c50a0adbd8144041ce186bb961f21f10be6168cfa10e537b789c3d68e463a7c403f37eccbcb4dbacb694bd1adaa55af1c036c4badaf5c07f1933e578"
 
 RPROVIDES:${PN} += "libarchive-devel \
 pkgconfig-libarchive"

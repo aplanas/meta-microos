@@ -4,10 +4,10 @@ execution stack (typically to illustrate assembly language \
 notions). The code is written on top of TikZ."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn28582"
+PV = "2023.209.svn28582"
 
-RPM_NAME = "texlive-drawstack-2023.201.svn28582-52.1.noarch.rpm"
-RPM_HASH = "9f8caafdff1a8a075efa33e47dc8478e7d156f5eb70565cc1b6ab93045a51699502a8226f31f3749bcf69040b46c9a526eeba63d30d6b24a83436b99117959a7"
+RPM_NAME = "texlive-drawstack-2023.209.svn28582-53.1.noarch.rpm"
+RPM_HASH = "5d11c60cdc3fc4bf8a62fdf43ca9ced97d8a5f218c4559e87c2298e5fcb0cd75d833c21e62539dc4424be0790023cfb65e4ce7583182677846f177d17e184aa4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-drawstack.sty \

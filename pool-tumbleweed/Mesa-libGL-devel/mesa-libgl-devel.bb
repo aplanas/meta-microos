@@ -7,10 +7,10 @@ This package includes headers and static libraries for compiling \
 programs with Mesa."
 LICENSE = "MIT"
 
-PV = "23.1.3"
+PV = "23.1.4"
 
-RPM_NAME = "Mesa-libGL-devel-23.1.3-353.1.aarch64.rpm"
-RPM_HASH = "5b9e4738a2c448f0d2dc1dbc2108057c1b327369b9525e6ff05e2b54ffa81c2eb9acb33f1d8df7189f85af5927d2fcc9b672d0de8dd45ef0821d1d9e6422cae4"
+RPM_NAME = "Mesa-libGL-devel-23.1.4-354.1.aarch64.rpm"
+RPM_HASH = "4000b910c52cc39e9f14123a6bd9b1056a594952e601b4d15e2b1a987ab128e5c9ee08a8541f6c2e6d045d3ac2876d7c573cc8c8384769f6c30e873c314c8f5b"
 
 RPROVIDES:${PN} += "Mesa-libGL-devel \
 pkgconfig-gl"

@@ -11,10 +11,10 @@ the documentation for examples. This package requires expl3, \
 fp, xfp, xcolor, pstricks and pst-all."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65501"
+PV = "2023.209.svn65501"
 
-RPM_NAME = "texlive-pst-flags-2023.201.svn65501-52.1.noarch.rpm"
-RPM_HASH = "82c8c65f22bcd27403d72e20ef7d1b55fd706e0442cd0ed61ca7a52c12e6c4994f3a14334f30181214217d15872e7749f77cac6d1e75655ae2ee73bd496149fb"
+RPM_NAME = "texlive-pst-flags-2023.209.svn65501-53.1.noarch.rpm"
+RPM_HASH = "14f123b1924e198bf0fbbd3d554f1313d6f3bdd4f14f0affc4c909cc06881c760c73726d1712a410d31d8890e30ad723391b38cfd5617effadea2ffda5cf2c0a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-Albania-flag-seal.tex \

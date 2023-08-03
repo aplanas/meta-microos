@@ -6,10 +6,10 @@ included graphic. LaTeX commands can be placed on the graphic \
 at defined positions; a grid for orientation is available."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn53889"
+PV = "2023.209.1.3svn53889"
 
-RPM_NAME = "texlive-overpic-2023.201.1.3svn53889-51.1.noarch.rpm"
-RPM_HASH = "cc518b433f8931fb820ad5d819e867766508acbdf0f512e120b19e5da484e48641680df62c68c12515c2597abd27e683c2d22a25eb023f394d9b8af5c2ca9e5d"
+RPM_NAME = "texlive-overpic-2023.209.1.3svn53889-52.1.noarch.rpm"
+RPM_HASH = "40cf620e9414fa4cae4903a0d6082fb4b2322a53c3634d3f37ab8aa3aabbd7c71f2c2914a3b0c06420376b7c824ea128dbd2066274530ba4acf42b335e4a6320"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-overpic.sty \

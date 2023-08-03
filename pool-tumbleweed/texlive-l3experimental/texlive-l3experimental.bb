@@ -17,10 +17,10 @@ reference point; xgalley, which controls boxes receiving text \
 for typesetting."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65621"
+PV = "2023.209.svn65621"
 
-RPM_NAME = "texlive-l3experimental-2023.201.svn65621-55.1.noarch.rpm"
-RPM_HASH = "3dfea2378947e4fc460dc5dc98abce052b1e31d886af14f22da8692bd1b5ef425442c96cda16138a73aaeec69c29c79521233e66bbe1f4a0ba254b49001bf9d3"
+RPM_NAME = "texlive-l3experimental-2023.209.svn65621-56.1.noarch.rpm"
+RPM_HASH = "9c4ccff3a39cb8eaf6745bb40eb88a0e4b6cb15195e614d1086f820d5262e670cd5f90a8e0b7b5d8876e4154e6c0d17754653912eb587c265f6be954b4affd1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-l3benchmark.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-delimtxt"
 DESCRIPTION = "This package includes the documentation for texlive-delimtxt"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn16549"
+PV = "2023.209.svn16549"
 
-RPM_NAME = "texlive-delimtxt-doc-2023.201.svn16549-52.1.noarch.rpm"
-RPM_HASH = "86ee2d31b95ae837b23d4bbb878bb4e59b3c01b280756ccaff07afa0856d3b7340e1ffc1eac3e5369ce0e8fe851f481cd2ef7ae9d401b6aef3f02500dff8d2ab"
+RPM_NAME = "texlive-delimtxt-doc-2023.209.svn16549-53.1.noarch.rpm"
+RPM_HASH = "a128aed72a541b8c73a4a642d828ef9337ccc7ad4f72c01b28df6cd62fab350d7793c21a401efa5a274297eecc1b885347bc55885b477d4edb05d49c2fa972cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-delimtxt-doc"

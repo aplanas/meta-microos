@@ -13,10 +13,10 @@ LaTeX, to generate a nice solution book. The code of the \
 package was derived (in large part) from fancyvrb."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4svn48977"
+PV = "2023.209.1.4svn48977"
 
-RPM_NAME = "texlive-exsol-2023.201.1.4svn48977-52.1.noarch.rpm"
-RPM_HASH = "2c8007700cb8f6a2e3f133a3522d67e0a3a70da615232db629c913c93571af83423900ff0aeba6c0297ffbb0af6b66d0f20c724c067d78f83e3e1dc70a850b2a"
+RPM_NAME = "texlive-exsol-2023.209.1.4svn48977-53.1.noarch.rpm"
+RPM_HASH = "478b89a47eedd6218c97b6967040db632f8990bb0a5cc85ffe2e7623f5f75d00adcc1732dc0cd9681a666cf6b306b095725b2a3e98697693adbbd05da82c91e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-exsol.sty \

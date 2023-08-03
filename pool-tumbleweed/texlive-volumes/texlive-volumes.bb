@@ -7,10 +7,10 @@ index entries etc. are kept consistent throughout the input \
 file."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-volumes-2023.201.1.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "62393878f1593c4c75612ffed8ccffe4321833464ca36a2fbd11cc1bf86d67ff82c5d98eb0d1c2b0c4ae499905fea25f8338346a61eb242d62a34bf3af1c2662"
+RPM_NAME = "texlive-volumes-2023.209.1.0svn15878-54.1.noarch.rpm"
+RPM_HASH = "6e7284c867b3ffa9768d781678c61ead8e54f6d0697521f0e2e94eb00ace07511d38e6ba9aa4631c56fdf2a019c345c9afaa0beb6b9f8f7211c1f04fc2a244d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nowtoaux.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-copyrightbox"
 DESCRIPTION = "This package includes the documentation for texlive-copyrightbox"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.0.0.1svn24829"
+PV = "2023.209.0.0.1svn24829"
 
-RPM_NAME = "texlive-copyrightbox-doc-2023.204.0.0.1svn24829-54.1.noarch.rpm"
-RPM_HASH = "a3049cf7dfebe5c4fd13969c768eba73800b1a8e546688103fa701a54b35cf80fe92f47e9830d66b8bfe1bae4ef0bdd8cdffcf41d958a039587b7ff510c07457"
+RPM_NAME = "texlive-copyrightbox-doc-2023.209.0.0.1svn24829-55.1.noarch.rpm"
+RPM_HASH = "cebcfc703d8938fcdceec1e65b6a27fee1ac31144d730a18143e47cfc3cee5e8080ea3bc2936e94f5aadc8830b444b2b9aef987fb05b845a088546a810b7a1d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-copyrightbox-doc"

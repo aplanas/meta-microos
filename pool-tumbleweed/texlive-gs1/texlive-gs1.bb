@@ -3,10 +3,10 @@ DESCRIPTION = "The (LaTeX3) package typesets EAN-8 and EAN-13 barcodes, using \
 the facilities of the rule-D package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.23svn59620"
+PV = "2023.209.23svn59620"
 
-RPM_NAME = "texlive-gs1-2023.201.23svn59620-53.2.noarch.rpm"
-RPM_HASH = "782741901eaf52adcaa6cc33a5fde940a4f6d9fbf0da2c4920ea29c584ddc96f3e87283fe2d43b4f01bb87363c1666e1ddb234363a1682e0f8c9c746d176aa22"
+RPM_NAME = "texlive-gs1-2023.209.23svn59620-54.1.noarch.rpm"
+RPM_HASH = "718ae19c3e99695bd7299794d821238dc8ccca05978b9afdc72c7ef0d0b1f451e8f77beaff08fa7a5268705fea7d2d5e7e7eacd68717a225d892cc769d2f046a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-GS1.sty \

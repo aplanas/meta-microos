@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-physics"
 DESCRIPTION = "This package includes the documentation for texlive-physics"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn28590"
+PV = "2023.209.1.3svn28590"
 
-RPM_NAME = "texlive-physics-doc-2023.201.1.3svn28590-51.1.noarch.rpm"
-RPM_HASH = "faaf9aa45c612e942947be792c8a68266ba2b1e3586748781cafc8ef7d054a0577c47dadc718cd2583a5120d807f3e70be93e7ed77aed381b62361fa3bf0226b"
+RPM_NAME = "texlive-physics-doc-2023.209.1.3svn28590-52.1.noarch.rpm"
+RPM_HASH = "ef80a53de1f18d566caae5f872b25e1a8c7b994ea8084af94fc598039c90862da8848864b68d22e3a1c382e7291e926e273e362a756f49cf77ac3101e4b74da2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-physics-doc"

@@ -16,10 +16,10 @@ code in a more future-proof fashion. I'll coordinate this with \
 the core LaTeX Team once I have more solid ideas.'"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0.3svn55777"
+PV = "2023.209.2.0.3svn55777"
 
-RPM_NAME = "texlive-accessibility-2023.201.2.0.3svn55777-54.1.noarch.rpm"
-RPM_HASH = "beeea18461b43b8d32f3c18ada4e19b09764dcbe8268487ff3eae29902039678c9b63a36c16ee002d3119e2f56e8a01548f3787424428c0677373304d17166c5"
+RPM_NAME = "texlive-accessibility-2023.209.2.0.3svn55777-55.1.noarch.rpm"
+RPM_HASH = "32d2b9917294d0c2931f810c2431abe240e25b571f3a13ded4514de0c8e9ea394f9707a0232ca42aededbf822cc0acf2c94c01c94ac24ab10cbbbd4a1333078a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-accessibility.sty \

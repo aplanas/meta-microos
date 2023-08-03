@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-knitting"
 DESCRIPTION = "This package includes the documentation for texlive-knitting"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.0svn50782"
+PV = "2023.209.3.0svn50782"
 
-RPM_NAME = "texlive-knitting-doc-2023.201.3.0svn50782-55.1.noarch.rpm"
-RPM_HASH = "a7e30c83cde6b5f196c960b7c80465516c375fa1a3183f20d83f1b115b8d62b48e47faa3fc1deff9105082a4bc99fa015acedbdba7cee0e63b248cef8d34173c"
+RPM_NAME = "texlive-knitting-doc-2023.209.3.0svn50782-56.1.noarch.rpm"
+RPM_HASH = "4e8d738a47fdb34516624ec0a8a148acbcd32ad609801a1907f82d1832abf93884378ff002ec900ba8f094b0e17662cb36690675883f09632c91e97e9e599283"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-knitting-doc"

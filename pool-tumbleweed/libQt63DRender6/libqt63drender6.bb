@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 3DRender library"
 DESCRIPTION = "The Qt 6 3DRender library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt63DRender6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "afbaff5128f2b6b58f5e29ebd7bafed13b0edd1221a53bbecfc8faf6357697df9f8830b2d778f416aeab419af2faf8af96d51fe1f34fab953339758ca75d14ed"
+RPM_NAME = "libQt63DRender6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "012b0b1c2e82a1ed900e055ef093d97c133243c3e36f29dfd80fdc780b5720f5276b0b4c8749841e9ce757f0d01f61af600eabf9368ff857928e45edb49a0f53"
 
 RPROVIDES:${PN} += "libQt63DRender.so.6 \
 libQt63DRender6 \

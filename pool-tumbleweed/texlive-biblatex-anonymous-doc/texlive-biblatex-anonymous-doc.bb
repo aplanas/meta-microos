@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-biblatex-anonymous"
 DESCRIPTION = "This package includes the documentation for texlive-biblatex-anonymous"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.6.2svn48548"
+PV = "2023.209.2.6.2svn48548"
 
-RPM_NAME = "texlive-biblatex-anonymous-doc-2023.201.2.6.2svn48548-53.1.noarch.rpm"
-RPM_HASH = "65e29e1813fdf98d5ddf5380d3a349292948d01d15c2bfb7712da9c57366437e3ecabc1a716f8c112727535333d3b34a92f50ed30c7b762442192fb41b543dae"
+RPM_NAME = "texlive-biblatex-anonymous-doc-2023.209.2.6.2svn48548-54.1.noarch.rpm"
+RPM_HASH = "e37e687094fb4040f76c3179c7cda6fae1715716572da5cf230a6df3dcc426966a9cd3fb339bc292a552a1addb1d1087c9578188549c3939fc1dedcbc791dcba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biblatex-anonymous-doc"

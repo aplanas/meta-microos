@@ -10,10 +10,10 @@ information such as the label and scaling factor into these \
 boxes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn17483"
+PV = "2023.209.svn17483"
 
-RPM_NAME = "texlive-miniplot-2023.201.svn17483-54.1.noarch.rpm"
-RPM_HASH = "c71417d93a74bb7ecf988a0a3acd0361fcc1b5ce94a229c74b1151f9c787058bb45e3176209e32b1d7cdac1e6cb9396682619ee55f35597db96c6a400d72d49c"
+RPM_NAME = "texlive-miniplot-2023.209.svn17483-55.1.noarch.rpm"
+RPM_HASH = "9b981334d54b75d09b20ad58c217c6ff9210c6a66d53c82cdfcd2b20ff1df706c674690be5710f2a47ff3e9e281090dfb75ae9caa843d3d5a3679319da503f42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-miniplot.sty \

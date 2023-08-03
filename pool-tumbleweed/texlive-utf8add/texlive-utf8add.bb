@@ -7,10 +7,10 @@ characters for easier access to math in LaTeX, however making \
 the LaTeX input less readable."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn61074"
+PV = "2023.209.svn61074"
 
-RPM_NAME = "texlive-utf8add-2023.201.svn61074-53.1.noarch.rpm"
-RPM_HASH = "40d60f322850159d1cd69201b5ff45cf5ec88001cd05ef1700094c5d54005898857db0740283ac6e16d6f11f8e47c57b326d5017f86f1660ca1cbb015471ec44"
+RPM_NAME = "texlive-utf8add-2023.209.svn61074-54.1.noarch.rpm"
+RPM_HASH = "9f959635a00a217d45af1d6775b62dcc624e24fae1af2fc6bd102a6198c2c3d42325ea8b72b4f50b132b2f10af46512c79f0e93cd0a73b76ed444bdd84812124"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-utf8add.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-glossaries-danish"
 DESCRIPTION = "This package includes the documentation for texlive-glossaries-danish"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn35665"
+PV = "2023.209.1.0svn35665"
 
-RPM_NAME = "texlive-glossaries-danish-doc-2023.201.1.0svn35665-53.2.noarch.rpm"
-RPM_HASH = "7163f73da8e5619e0a4ba462c6b8ffd8b34c00ff7b9e8746eff7d52ead9e329d4bac69b11bf2effdba5f28b63893451b22259a962c5f70dcbf90edfc6f2f6f8d"
+RPM_NAME = "texlive-glossaries-danish-doc-2023.209.1.0svn35665-54.1.noarch.rpm"
+RPM_HASH = "c74a964ec179aa856da4510e00bc821467d91e35ddaaa4b1022049bbd877e590b73ccac9f3122b64bc3b11f3aa7370c674caebce50684e958ceaedd37060fab6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-glossaries-danish-doc"

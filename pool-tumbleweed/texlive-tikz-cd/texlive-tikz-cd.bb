@@ -9,10 +9,10 @@ match closely the arrows present in the Computer Modern \
 typeface."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn59133"
+PV = "2023.209.1.0svn59133"
 
-RPM_NAME = "texlive-tikz-cd-2023.201.1.0svn59133-54.1.noarch.rpm"
-RPM_HASH = "6cfebb2a212723532d554dad64113fb19d3acff8e577d73b80948046617e37ea775eb51c00318cb10e12449cb0516a6bdc3ebd515113b750c15f5602a422318b"
+RPM_NAME = "texlive-tikz-cd-2023.209.1.0svn59133-55.1.noarch.rpm"
+RPM_HASH = "d779472c2f8906d81b9b76f290ac65c200233f349204d6ed2a869e3acc43572e01de6755c95c91b045bccdcb1daaa0071b0893ec72ea3bc279b0fc53c55ebbbf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikz-cd.sty \

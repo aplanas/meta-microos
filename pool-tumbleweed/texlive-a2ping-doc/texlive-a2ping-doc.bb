@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-a2ping"
 DESCRIPTION = "This package includes the documentation for texlive-a2ping"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.84psvn52964"
+PV = "2023.209.2.84psvn52964"
 
-RPM_NAME = "texlive-a2ping-doc-2023.201.2.84psvn52964-54.1.noarch.rpm"
-RPM_HASH = "aff106da294637c75f9815fadcbc4592bcef75d219fc98439df592e0b207dc7b4350e4d4562fe26989f87d957a5e71ab43dcccee40f19fd31d57a24c2cab573f"
+RPM_NAME = "texlive-a2ping-doc-2023.209.2.84psvn52964-55.1.noarch.rpm"
+RPM_HASH = "389ea01f5984d23a06c68f474eba228783feee3db586281d1e44fa22deb5be357d8267bb499ad125167b44908df03e968750c78d4d4367e771acbc8c6705336a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-a2ping.1 \

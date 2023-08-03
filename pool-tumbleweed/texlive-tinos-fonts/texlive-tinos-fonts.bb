@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-tinos"
 DESCRIPTION = "The  separated fonts package for texlive-tinos"
 LICENSE = "Apache-1.0"
 
-PV = "2023.201.svn64504"
+PV = "2023.209.svn64504"
 
-RPM_NAME = "texlive-tinos-fonts-2023.201.svn64504-52.1.noarch.rpm"
-RPM_HASH = "805f94196c8f5e28cbe2ff922ca9f9509627203c8607bcf428e638d4a87c0a57a171c9d92f32d49e2152c52d04c8906413d96cf5c5bd67461aacad51843fc57a"
+RPM_NAME = "texlive-tinos-fonts-2023.209.svn64504-53.1.noarch.rpm"
+RPM_HASH = "bc95d35b9572b0850d7ac3c72e7c170c52e63112b578a3c94fbe8c2d538551db59031438eeb25d337ddd19325610c611258f12bb4280420c892b5ea1bb9ccd1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-tinos-fonts \

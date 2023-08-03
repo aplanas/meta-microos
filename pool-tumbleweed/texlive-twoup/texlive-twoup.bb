@@ -8,10 +8,10 @@ preliminaries and gives advice on how to use the PostScript \
 tools."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn15878"
+PV = "2023.209.1.3svn15878"
 
-RPM_NAME = "texlive-twoup-2023.201.1.3svn15878-52.1.noarch.rpm"
-RPM_HASH = "bb67b83f9a8bfc33e7683e8741aa0ba09b96b3cbaa57fdfe2383f27e5a3621c6e04367c8f20f792e08be297e50d6bb32ce143a4f3db7b527553e6127f2e0fa30"
+RPM_NAME = "texlive-twoup-2023.209.1.3svn15878-53.1.noarch.rpm"
+RPM_HASH = "f09e6425d300410036383296bde9d93d7bbfe60599a9b68f7bbc8cf4990a6b0d43cab07b307de3f1f251b467353079b08bdafb0fefd6d9084b2432b5a63b551c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-twoup.sty \

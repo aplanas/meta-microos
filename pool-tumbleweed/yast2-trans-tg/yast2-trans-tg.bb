@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Tajik Translations"
 DESCRIPTION = "YaST2 - Tajik translations."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230714.966688ddd0"
+PV = "84.87.20230729.64eca7e0a1"
 
-RPM_NAME = "yast2-trans-tg-84.87.20230714.966688ddd0-1.1.noarch.rpm"
-RPM_HASH = "e87c360b62f6122055ecaa78744d8ba0b64b63bddc40a1859388a140c943752913260ee5081355f8e71ed36fb789b31c08d10cbf0784d04f9db8d2e655842882"
+RPM_NAME = "yast2-trans-tg-84.87.20230729.64eca7e0a1-1.1.noarch.rpm"
+RPM_HASH = "d97407ebd2dd14a03c9c132a2c2e7f3e68f3923c704d2d464f314a145fc7806dcc20297ff302cc6044f04af419cf96052d95fc7be5ed9b76ea93f62963d9b300"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-tg \

@@ -11,10 +11,10 @@ created with the package. A graphical interface for use of the \
 dinbrief is provided in the dinbrief-GUI bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-dinbrief-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "1d95dc74c76f1ac24a9ad0f82b045384aa0ac04317399f18788090c69c46878e700c260e20e74c2e89a63493943860194a5b0f4f00b41c7b4f5d8f4791f0693a"
+RPM_NAME = "texlive-dinbrief-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "0213b3312619ecaaf09aab2387a8ae13205eb0d5102e51cd332df062e11df8fd5e27ef4480223a25db91fd50a29062c24663aff0dfb2977719c3f35ab7640c9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dinbrief.cfg \

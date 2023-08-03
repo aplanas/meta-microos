@@ -8,10 +8,10 @@ the two other signals. Lissajous diagrams (XY-mode) can also be \
 obtained."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.82svn15878"
+PV = "2023.209.2.82svn15878"
 
-RPM_NAME = "texlive-pst-osci-2023.201.2.82svn15878-52.1.noarch.rpm"
-RPM_HASH = "328415965d37c0a62966c934efadaa619c932a030f396c781b1779c1199605557ad7e90eed8b418a23916c6b3e667da9a0e3280a8e8ab664052b83e582af30dd"
+RPM_NAME = "texlive-pst-osci-2023.209.2.82svn15878-53.1.noarch.rpm"
+RPM_HASH = "307e5dac81d5003c6afdc2de13bbee8556700d823e21ad45a9630274d881914b0aee5f012e9c17e3c07b4d464ee51894aa1f2553b187d1200f681f0df9d5b344"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-osci.sty \

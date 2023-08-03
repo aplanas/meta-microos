@@ -9,10 +9,10 @@ geometry, graphicx, mathrsfs, mathtools, stmaryrd, textcomp, \
 tikz-cd, xcolor, and xparse."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.1svn59693"
+PV = "2023.209.2.1svn59693"
 
-RPM_NAME = "texlive-zbmath-review-template-2023.201.2.1svn59693-52.2.noarch.rpm"
-RPM_HASH = "18da89e82549f24b7465e117b94c391f6927a6c7c207fc6e04e05076726a1d0aabe580213fd652f6b711a6c820b2ba7a8f01aea81d84d7ec6a7cdc6e21970439"
+RPM_NAME = "texlive-zbmath-review-template-2023.209.2.1svn59693-53.1.noarch.rpm"
+RPM_HASH = "4e80f086819514858e4164f0c9407c1e17ff7c06bb471e479cb20511095bb6634f1f5a6cfbb50c6cfebfad5ae691d947b584082d6b1715124978a053e31cf942"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zb-basics.sty \

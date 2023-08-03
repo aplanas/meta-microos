@@ -7,10 +7,10 @@ background color, while \\fgraphicxbox does the same thing, but \
 also draws a colored frame around the box."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn32630"
+PV = "2023.209.1.0svn32630"
 
-RPM_NAME = "texlive-graphicxbox-2023.201.1.0svn32630-53.2.noarch.rpm"
-RPM_HASH = "90792d5db3d31524cba49e5f09245451a10fbb05aafaa483dcf0fc8c1b253d2dff39e91596f9cc6f01aa52d5cda2d3e1d909ce06dd1ba0725e903f94e6c5724a"
+RPM_NAME = "texlive-graphicxbox-2023.209.1.0svn32630-54.1.noarch.rpm"
+RPM_HASH = "774c500524f7e24d933390839ca3991060137e0d998e8dfeef8614b5c9700bc7720c2dbf17afcdb4f896804d6271164eb0994235c35c2676451f636ee142fc26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-graphicxbox.sty \

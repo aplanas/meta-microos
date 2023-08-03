@@ -4,10 +4,10 @@ antiprism, which is a semiregular polyhedron constructed with \
 2-gons and triangles."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.02svn46643"
+PV = "2023.209.0.0.02svn46643"
 
-RPM_NAME = "texlive-pst-antiprism-2023.201.0.0.02svn46643-52.1.noarch.rpm"
-RPM_HASH = "30c6df61b6d717ba71873a114b28bbc82571ece53187e280711bad0583a17958dd6306dfde7db72bdad2d89306cbb5280b6b2ee1ff5027631092cd52e2f32420"
+RPM_NAME = "texlive-pst-antiprism-2023.209.0.0.02svn46643-53.1.noarch.rpm"
+RPM_HASH = "ac47cabcc4f78c36c63c495a8728fd4737e25291540538c4e51f741e39322187931e1301023b9675c323143781ec1f1985b60b934079e8a42a379f5090e75726"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-antiprism.sty \

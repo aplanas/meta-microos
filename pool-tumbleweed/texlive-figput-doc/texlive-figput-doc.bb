@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-figput"
 DESCRIPTION = "This package includes the documentation for texlive-figput"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.90svn63957"
+PV = "2023.209.0.0.90svn63957"
 
-RPM_NAME = "texlive-figput-doc-2023.201.0.0.90svn63957-52.1.noarch.rpm"
-RPM_HASH = "7865a1f3ef462851c45a981c7255042cf0c073c8371b49ebac15471012586e961fdc660a353989fa785aa03996046b55c73eddaff521bdf8a2f6d251298da105"
+RPM_NAME = "texlive-figput-doc-2023.209.0.0.90svn63957-53.1.noarch.rpm"
+RPM_HASH = "16461bb7d4464217ff771cb58ed29550d1ca4ad928c77a719fb85f9d0015cf5f1edf98b70fe0a069dbfb244385bcb16dfd01396c4097ad592ebb86d774711575"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-figput-doc"

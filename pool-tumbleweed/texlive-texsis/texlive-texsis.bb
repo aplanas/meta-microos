@@ -17,10 +17,10 @@ physicists, but others may also find it useful. It is \
 completely compatible with Plain TeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.18svn45678"
+PV = "2023.209.2.18svn45678"
 
-RPM_NAME = "texlive-texsis-2023.201.2.18svn45678-54.1.noarch.rpm"
-RPM_HASH = "37e64b1edb92baa5703c33846ad0869e47173d947b41629044a91495709e7e353189ff4f2254d076fc3bb82b3c73eefad4a2621f40a5eb22c731a1e7154510e8"
+RPM_NAME = "texlive-texsis-2023.209.2.18svn45678-55.1.noarch.rpm"
+RPM_HASH = "4de41cd150c03d648cbae921044dff8b343c42ed7257e43733b43acc917ff56df1d769704f314e7f998a8b1f91ea7649f5dcafb5723648cb5c96a737b23ebcba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-TXSconts.tex \

@@ -6,15 +6,16 @@ all those based on the Marlin, Prusa, Sprinter and Repetier firmware. \
 It also works with Mach3, LinuxCNC and Machinekit controllers."
 LICENSE = "AGPL-3.0-only"
 
-PV = "2.5.2"
+PV = "2.6.0"
 
-RPM_NAME = "PrusaSlicer-2.5.2-1.3.aarch64.rpm"
-RPM_HASH = "2125c7152f702f6619287a8e4870d00278ac09a70be727937c074467c300a4e9b22b8b80256cafb759550481aee72c41eb7652d4290d4271bfae143e5d2b87d0"
+RPM_NAME = "PrusaSlicer-2.6.0-1.1.aarch64.rpm"
+RPM_HASH = "4212e3eb515b8b8e5f7fa44d3c28d1e35e9ba32d814f6913678dc0aa7e47502abcce9a17aa416d7c0cdaafcce538eef5bf6dbf713147b4e1602897461178b50f"
 
 RPROVIDES:${PN} += "PrusaSlicer"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libGL.so.1 \
+libGLEW.so.2.2 \
 libTKBRep.so.7.7 \
 libTKLCAF.so.7.7 \
 libTKMath.so.7.7 \
@@ -26,13 +27,13 @@ libTKernel.so.7.7 \
 libboost-chrono.so.1.82.0 \
 libboost-filesystem.so.1.82.0 \
 libboost-iostreams.so.1.82.0 \
-libboost-locale.so.1.82.0 \
 libboost-log.so.1.82.0 \
 libboost-thread.so.1.82.0 \
 libc.so.6 \
 libcurl.so.4 \
 libdbus-1.so.3 \
 libexpat.so.1 \
+libfontconfig.so.1 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \
 libgmp.so.10 \
@@ -41,16 +42,18 @@ libgtk-x11-2.0.so.0 \
 libjpeg.so.8 \
 libm.so.6 \
 libmpfr.so.6 \
+libnanosvgrast.so.0 \
 libnlopt.so.0 \
 libopenvdb.so.9.0 \
 libpng16.so.16 \
+libqhull-r.so.8.0 \
 libstdc++.so.6 \
 libtbb.so.12 \
-libwx-baseu-suse.so.3.0.5 \
-libwx-gtk2u-adv-suse.so.3.0.5 \
-libwx-gtk2u-core-suse.so.3.0.5 \
-libwx-gtk2u-gl-suse.so.3.0.5 \
-libwx-gtk2u-html-suse.so.3.0.5 \
+libtbbmalloc.so.2 \
+libwx-baseu-suse.so.9.0.0 \
+libwx-gtk2u-core-suse.so.9.0.0 \
+libwx-gtk2u-gl-suse.so.9.0.0 \
+libwx-gtk2u-html-suse.so.9.0.0 \
 noto-sans-fonts"
 
 inherit rpm

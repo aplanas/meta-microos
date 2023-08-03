@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-mirror"
 DESCRIPTION = "This package includes the documentation for texlive-pst-mirror"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.02svn60506"
+PV = "2023.209.1.02svn60506"
 
-RPM_NAME = "texlive-pst-mirror-doc-2023.201.1.02svn60506-52.1.noarch.rpm"
-RPM_HASH = "7fdc1afb7f93194992691d24b89f139621f989b152ee8c0c173921213a0265ea8a17f431f931052e20c00ce3caa4230fa67eb5ac5b3917863abb62389dcfc325"
+RPM_NAME = "texlive-pst-mirror-doc-2023.209.1.02svn60506-53.1.noarch.rpm"
+RPM_HASH = "86912abc78aabdce92c718dcef9a4c552c55541ff50bddabbe170fd3efff9a81e5887efb046e6fceef6ba5effc2104921a1fbabf61b0d21fd882709a13b7ef66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pst-mirror-doc-fr \

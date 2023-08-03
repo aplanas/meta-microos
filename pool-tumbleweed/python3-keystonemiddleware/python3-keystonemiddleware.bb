@@ -7,14 +7,14 @@ does not expose any CLI or Python API features. \
 This package contains the Python 3.x module"
 LICENSE = "Apache-2.0"
 
-PV = "10.2.0"
+PV = "10.4.0"
 
-RPM_NAME = "python3-keystonemiddleware-10.2.0-1.2.noarch.rpm"
-RPM_HASH = "4c36599e73bea4ea53f1fbb09d863a90a48308b27faca5101aaa3b6d742a7703d31a3d25ef2325c6bdf6e219648224f0ed0ecc8e7b381c9be1d108216d80b3ec"
+RPM_NAME = "python3-keystonemiddleware-10.4.0-1.1.noarch.rpm"
+RPM_HASH = "ba4435ec7b8bd60054544ce3af89aca830ac8bc707572c626c754d0abdd5e201cecc62d23fb76625e0a007b5c1765e2823243737368881f77caf5dbd186d96ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-keystonemiddleware \
-python3.10dist-keystonemiddleware \
+python3.11dist-keystonemiddleware \
 python3dist-keystonemiddleware"
 
 RDEPENDS:${PN} += "python-abi \

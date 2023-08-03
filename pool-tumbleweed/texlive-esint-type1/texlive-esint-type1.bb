@@ -7,10 +7,10 @@ files can be generated from the Metafont sources obtained by \
 following the instructions in the normal way."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-esint-type1-2023.201.svn15878-53.2.noarch.rpm"
-RPM_HASH = "8badf924379627685c02b51517ba3455fbc71c81e475efb94011da3db782b7e4ba7c2ef3b8e8b4ae1497bfa92b2e6e1d81dc250146f29e7a4fa9a494eef6fde4"
+RPM_NAME = "texlive-esint-type1-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "eb907f22b1c5df4e2aeb3d8b52d2fcd3e0cec179c7fdc7e342812797cc55b0c595b2413a025a3ecf61b2ea4a8c9dc34c36cde5cd1f548af019dc47c6dded1ac2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-esint.map \

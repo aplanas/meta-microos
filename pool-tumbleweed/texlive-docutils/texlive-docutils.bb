@@ -6,10 +6,10 @@ configuration option, e.g. rst2latex --stylesheet=docutils \
 exampledocument.txt"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.svn56594"
+PV = "2023.209.svn56594"
 
-RPM_NAME = "texlive-docutils-2023.201.svn56594-52.1.noarch.rpm"
-RPM_HASH = "d98bc80bec0bf7901fbfc2c8d4281cd47a1ea23682c58595a3406068d27326d024efba6891c4920b489dea0b215bda1ffc852f7f7af8efb6949000c4cf83534d"
+RPM_NAME = "texlive-docutils-2023.209.svn56594-53.1.noarch.rpm"
+RPM_HASH = "3e0fb3032e954c4728517a624d89815b8ccec16cab18e218c6eaf8441ca77991a9fd47decc9b1c08f0c5eef81ed7e629d99bf99ca51600f4fba60f4de2be1ef0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-docutils.sty \

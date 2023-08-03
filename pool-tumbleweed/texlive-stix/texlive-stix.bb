@@ -5,10 +5,10 @@ package is considered obsolete. See stix2-otf and stix2-type1 \
 instead."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.1.3svn54512"
+PV = "2023.209.1.1.3svn54512"
 
-RPM_NAME = "texlive-stix-2023.201.1.1.3svn54512-57.1.noarch.rpm"
-RPM_HASH = "9b21f28d3e2fb5603db1034d5ecdf80541e97241edcc9ea72b1238cd2f05da2065e9c8ea848d08e2bcd14b98f2f54157708ca08d780aaf33b59971352f752e20"
+RPM_NAME = "texlive-stix-2023.209.1.1.3svn54512-58.1.noarch.rpm"
+RPM_HASH = "1db8a0e853e4ac70a4bc86963f1aedb7f7c26dacdee4db6243c499d740263d52b52b630e5cb080191adb31b1dbcce171fe8ae52fb43a9721f9d75f8ea88ae21a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ls1stix.fd \

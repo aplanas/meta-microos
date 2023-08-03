@@ -5,10 +5,10 @@ provides options to customize the highlighted source code \
 output using fancyvrb."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.7svn65252"
+PV = "2023.209.2.7svn65252"
 
-RPM_NAME = "texlive-minted-2023.201.2.7svn65252-54.1.noarch.rpm"
-RPM_HASH = "d6c6ccae3988f22d6d386dc2ca2bc6241b23016a804f34169cc5ab605f6efc5dfe05b075f2f758ef90047586cb1029289882b7f7ddcf3c0e8a4c3df14b7c0bb5"
+RPM_NAME = "texlive-minted-2023.209.2.7svn65252-55.1.noarch.rpm"
+RPM_HASH = "d6dea3eef7d97d163fa5d7e55c04a34161a3f8aafe58ac65b9d41a530232b4ebb1fd57edbdfdf189cfa68533e4d5769d5e175969ff7a38933334f095d6a4439b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-minted.sty \

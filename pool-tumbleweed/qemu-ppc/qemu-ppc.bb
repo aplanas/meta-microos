@@ -11,8 +11,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.3"
 
-RPM_NAME = "qemu-ppc-8.0.3-1.1.aarch64.rpm"
-RPM_HASH = "38988d33eabac51b847898cfc3d3dc40bd39c7c77f7de71051612e661a780225d80c1573589c18a19691323bc38cded125bec16f7703fe38d22138751ae044d0"
+RPM_NAME = "qemu-ppc-8.0.3-2.1.aarch64.rpm"
+RPM_HASH = "eac01ba896512b02107250be9997f25bcc6b81610482f29b5080d4e95104adafcaa4e8574a1428c2cee77fe134e9a9cbeb41fa551f1ffe97d8850fad7e19671b"
 
 RPROVIDES:${PN} += "qemu-ppc"
 

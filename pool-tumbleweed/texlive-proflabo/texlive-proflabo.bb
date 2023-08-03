@@ -3,10 +3,10 @@ DESCRIPTION = "This package was developed to help French chemistry teachers to \
 create drawings (using TikZ) for laboratory stuff."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn63147"
+PV = "2023.209.1.0svn63147"
 
-RPM_NAME = "texlive-proflabo-2023.201.1.0svn63147-52.1.noarch.rpm"
-RPM_HASH = "6742372cd6c9120ba09b07d3ce64a343252f1289491c264f66c24dfe3dd123670a9059069ecd1b033b83e5f66a021445e32ee277dd745bae480cbeff4d0407a6"
+RPM_NAME = "texlive-proflabo-2023.209.1.0svn63147-53.1.noarch.rpm"
+RPM_HASH = "5ba6240dcde22936a29b3a7668be01e1b41b64986ff9a46a5bf14fcc6f9c4494e9fac607f2ea0087c2ee0d05f8ccaa006390975675b6bec0e1b7fc800284756e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ProfLabo.sty \

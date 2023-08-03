@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-japanese"
 DESCRIPTION = "This package includes the documentation for texlive-babel-japanese"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn57733"
+PV = "2023.209.svn57733"
 
-RPM_NAME = "texlive-babel-japanese-doc-2023.201.svn57733-53.1.noarch.rpm"
-RPM_HASH = "8ddcaa8ea27bab0a62db49b5a891d5a3e1a0912456420dd6c43711e19d9893cb8badf6f36dffd355c7b77c9b3d8c6d0eecaeb7addca57c03898955b368b27373"
+RPM_NAME = "texlive-babel-japanese-doc-2023.209.svn57733-54.1.noarch.rpm"
+RPM_HASH = "e0fb62982283978d3143ad0a2818da8820e9aca06abc01c6dda7170204d76ca70f73e0cc17e1f858259c4068b6ff89783e42d90dbb12159e85a5a0992eda34df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ja) \

@@ -16,10 +16,10 @@ package name is biblatex-ms. It requires the use of the \
 multiscript version of biber (biber-ms)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.0_1svn66480"
+PV = "2023.209.4.0_1svn66480"
 
-RPM_NAME = "texlive-biblatex-ms-2023.201.4.0_1svn66480-53.1.noarch.rpm"
-RPM_HASH = "aff5064e024f3754b32ed955d369ec29aeac223fdbb7a09601d3471406489c6d0567d79dfd68259cf0ba28103e96b5a8334c5707abdb19fc1ddc4a6e9155258b"
+RPM_NAME = "texlive-biblatex-ms-2023.209.4.0_1svn66480-54.1.noarch.rpm"
+RPM_HASH = "7d27065c87ab5cb2378bb504a993e584d7cc2dc594e0cadd99eeb3752cb551ea27d717241ac547381b315100f1da6dd68d1f02570c60307d2ca613f88947b4d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-UKenglish-ms.lbx \

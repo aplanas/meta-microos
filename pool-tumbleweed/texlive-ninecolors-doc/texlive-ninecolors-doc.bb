@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ninecolors"
 DESCRIPTION = "This package includes the documentation for texlive-ninecolors"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2022dsvn62006"
+PV = "2023.209.2022dsvn62006"
 
-RPM_NAME = "texlive-ninecolors-doc-2023.201.2022dsvn62006-54.1.noarch.rpm"
-RPM_HASH = "1184f64ec177bc9b92fc3407b99bfafb259a84fd1d21aefe13a5a17e7f71349fc3125b46486ab5be26b1bbc3ae10adb3dda9e4ed382271c9721f42e684f13beb"
+RPM_NAME = "texlive-ninecolors-doc-2023.209.2022dsvn62006-55.1.noarch.rpm"
+RPM_HASH = "d8edccb1f754892c66b5cdf496cd65956b911cd2778ef41216700e519fec2509593fcaf5bd3165038f10bc0d8df98ec3820ebbcf0955b069db6dc1b2b891532b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ninecolors-doc"

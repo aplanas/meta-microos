@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.0.18"
 
-RPM_NAME = "libvlccore9-3.0.18-7.3.aarch64.rpm"
-RPM_HASH = "ff95401a1da18dcb7e4c0279312b55194d5869a683736f8e2c400bd24007966125439a507a6deed96c41b0a55f7a611d6989e1e21ec6dd92134cdb62937e7fa7"
+RPM_NAME = "libvlccore9-3.0.18-8.1.aarch64.rpm"
+RPM_HASH = "ecaa604cc7f0871c8e972046ae415989ef36ce869ed3609d0673d62f44bf201672db963810671866eb51a4a9f03c589163bc78d3117dbc70cc061f966d0e555c"
 
 RPROVIDES:${PN} += "libvlccore.so.9 \
 libvlccore9"

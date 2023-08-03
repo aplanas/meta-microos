@@ -11,10 +11,10 @@ of dances in the show. [1] There are lots of references for the \
 One True Way to format a script. Naturally, none of them agree."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.1svn54758"
+PV = "2023.209.3.1svn54758"
 
-RPM_NAME = "texlive-musical-2023.201.3.1svn54758-54.1.noarch.rpm"
-RPM_HASH = "5ce8eeb142d03d9f71ca849c58b5c1883f71edca9ac98c0046a8616e94eff66906552036ab861c2a268b398b26f12170281b817a8098204115399e1ad080047d"
+RPM_NAME = "texlive-musical-2023.209.3.1svn54758-55.1.noarch.rpm"
+RPM_HASH = "3b0a52ca9fe2c452c7bde5f970042a5022ce7e1206faba11a4edae717e67dba2b531761f50f0ae8bfb2e4eeaccde3b6cb7003cf6f570c112f74a51d41f990fbe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-musical.sty \

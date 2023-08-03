@@ -4,10 +4,10 @@ document large figures that do not fit into a single page. A \
 single user macro is defined to handle all five display modes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.9.20svn63255"
+PV = "2023.209.0.0.9.20svn63255"
 
-RPM_NAME = "texlive-swfigure-2023.201.0.0.9.20svn63255-57.1.noarch.rpm"
-RPM_HASH = "63b1202d88e209f8d27f9033c521866862d38f73b2db35a5615ceb9bb630d366d2d6d70b09755288855d334a72453f0651549debc371326d72d8d1ac50138627"
+RPM_NAME = "texlive-swfigure-2023.209.0.0.9.20svn63255-58.1.noarch.rpm"
+RPM_HASH = "aa4ffeefb696ae780a4955eedecd6737937705550f1b53f604d59f6d9129ffb68c0eacf548ed4b75e70069b8d602c07be1e0a18baa97783b7401d802c44571d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-swfigure.sty \

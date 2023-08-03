@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fontaxes"
 DESCRIPTION = "This package includes the documentation for texlive-fontaxes"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0esvn55920"
+PV = "2023.209.1.0esvn55920"
 
-RPM_NAME = "texlive-fontaxes-doc-2023.201.1.0esvn55920-52.1.noarch.rpm"
-RPM_HASH = "91daeeb1c7c838fa8411c9550d7f18eeb373bad8641ef6c5d32e903dabc7cf3b93f5c953d9371734986b1688ede84666a1f7dfdd708c7789c231ea05b58b936d"
+RPM_NAME = "texlive-fontaxes-doc-2023.209.1.0esvn55920-53.1.noarch.rpm"
+RPM_HASH = "bd902e659c9ddd773bf02c3b45bd424bfd4dfd3a5c773b2b02338d364dd8c447c3a91c2e48b4d805255fb2129e540a0502e157ba2df99af8d7314bd411b542e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fontaxes-doc"

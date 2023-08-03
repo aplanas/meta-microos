@@ -8,10 +8,10 @@ printf function) to performing otherwise complex token-list \
 manipulation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3.1svn52641"
+PV = "2023.209.0.0.3.1svn52641"
 
-RPM_NAME = "texlive-withargs-2023.201.0.0.3.1svn52641-53.1.noarch.rpm"
-RPM_HASH = "12fe3e8e95e4758416197f08ef4908a502010c99cec9009b7725257fe90f28044cff957c3dbdaac6fa7a9964ff7de5af71de05f721a8141eab4281012b3dbaef"
+RPM_NAME = "texlive-withargs-2023.209.0.0.3.1svn52641-54.1.noarch.rpm"
+RPM_HASH = "331d0ec896b217ab54a48134420c254f699026dd1fe1baa60682002016ef827b347deb9e7186db2e9a837bee028f061a86caba7ccf63257d60193784e3f28c5c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-withargs-dry.sty \

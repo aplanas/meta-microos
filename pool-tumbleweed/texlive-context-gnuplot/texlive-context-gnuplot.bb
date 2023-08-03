@@ -5,10 +5,10 @@ and includes the resulting graphic directly into the document. \
 See the ConTeXt Garden package page for further details."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn47085"
+PV = "2023.209.svn47085"
 
-RPM_NAME = "texlive-context-gnuplot-2023.204.svn47085-54.1.noarch.rpm"
-RPM_HASH = "8eec8a6058c328c292b5760c3ab8b47e76fe84e607e12c715a0b41e6b67c31805255d168d35bee575ceb239a0bea4fae9be25bc688707af6e3ee137a5bdd078e"
+RPM_NAME = "texlive-context-gnuplot-2023.209.svn47085-55.1.noarch.rpm"
+RPM_HASH = "41f47e4b9e49c259f53284e44a50e2deb06d6edc4aaffd0508f61b7c8b902d8d37d77ffa10f0e2ee23bc6df69c1c77f28c903237cf9c76d87fe8ec034160141f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-gnuplot"

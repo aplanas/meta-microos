@@ -13,10 +13,10 @@ pagelayout class also integrates the Pgf/TikZ and tcolorbox \
 LaTeX packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.4svn66392"
+PV = "2023.209.1.0.4svn66392"
 
-RPM_NAME = "texlive-pagelayout-2023.201.1.0.4svn66392-51.1.noarch.rpm"
-RPM_HASH = "971bb012965ae804a3f4d805bf1d7f7ec4049727dcce1ddc74ce8bed27947a00b252bb1a36df57ddf3998eedce90030c7280409d3ef76299e6e4e6bf2f9d9fec"
+RPM_NAME = "texlive-pagelayout-2023.209.1.0.4svn66392-52.1.noarch.rpm"
+RPM_HASH = "36c73a59d0b0cc272cdcaa784c6e43925e749b3192c754ce36a74b3d6842413ed2d72101e2cb26395812a2a8050efa95163e327ddaf299f9c8cf602dac9e1df0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pagelayout.cls \

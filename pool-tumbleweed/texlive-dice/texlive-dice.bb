@@ -3,10 +3,10 @@ DESCRIPTION = "A Metafont font that can produce die faces in 2D or with \
 various 3D effects."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn28501"
+PV = "2023.209.svn28501"
 
-RPM_NAME = "texlive-dice-2023.201.svn28501-52.1.noarch.rpm"
-RPM_HASH = "a54d666284364339d99eae4db880c604b860283f077658d5cb6e7de0333dc48cad9bf4e655bd780028680c2e58e09acd2a1912d8c1c4c816bf3fee3a1541d252"
+RPM_NAME = "texlive-dice-2023.209.svn28501-53.1.noarch.rpm"
+RPM_HASH = "a06e512cdd2d36da38fa1e9d094845379916ae57d6e2959cacf48b71cc258df67dacbb95763c37d7c0bc581a46203de093195f7b378391215d0bbd0aa27883c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dice3d.tfm \

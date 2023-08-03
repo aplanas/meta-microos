@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tsvtemplate"
 DESCRIPTION = "This package includes the documentation for texlive-tsvtemplate"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2022_1.0svn65333"
+PV = "2023.209.2022_1.0svn65333"
 
-RPM_NAME = "texlive-tsvtemplate-doc-2023.201.2022_1.0svn65333-52.1.noarch.rpm"
-RPM_HASH = "f83c6d702160a1e3827acdf2433b1c334dba59d301be1ee9df0eec7545a8bec91398bda90765e5b91666d0d66fd4957c7890512a2010e56d9c0f8a1d63c8c3e0"
+RPM_NAME = "texlive-tsvtemplate-doc-2023.209.2022_1.0svn65333-53.1.noarch.rpm"
+RPM_HASH = "c23043fbaa014edf0296972fbbb60f6bda46447d30e834f4b28aee7a13821236449e80f20862346e5201b0e4e1036658c96104e808570b949db0f5400c4683e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tsvtemplate-doc"

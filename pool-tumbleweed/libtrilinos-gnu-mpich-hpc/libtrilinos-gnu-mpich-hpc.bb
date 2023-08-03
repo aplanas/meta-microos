@@ -1,17 +1,17 @@
-SUMMARY = "Dependency package for libtrilinos_13_2_0-gnu-mpich-hpc"
+SUMMARY = "Dependency package for libtrilinos_14_0_0-gnu-mpich-hpc"
 DESCRIPTION = "trilinos: A collection of libraries of numerical algorithms \
-The package libtrilinos-gnu-mpich-hpc provides the dependency to get binary package libtrilinos_13_2_0-gnu-mpich-hpc. \
-When this package gets updated it installs the latest version of trilinos_13_2_0-gnu-mpich-hpc."
+The package libtrilinos-gnu-mpich-hpc provides the dependency to get binary package libtrilinos_14_0_0-gnu-mpich-hpc. \
+When this package gets updated it installs the latest version of trilinos_14_0_0-gnu-mpich-hpc."
 LICENSE = "LGPL-2.0-only"
 
-PV = "13.2.0"
+PV = "14.0.0"
 
-RPM_NAME = "libtrilinos-gnu-mpich-hpc-13.2.0-5.3.aarch64.rpm"
-RPM_HASH = "9fda0fb35c90f3e5157bbe2e9c3128fd7bcc2a094a55e05ab027589436899b880ce54ebebd1dc8181993e5c02734304fe63dc7dbde536d034f16b2be024dd320"
+RPM_NAME = "libtrilinos-gnu-mpich-hpc-14.0.0-1.1.aarch64.rpm"
+RPM_HASH = "67a961688025c63ddcb811e17c1afdc835594249f821eb99e9c07c5053665bb2bab85c786a2bffe01eef25b132f6ac1c5a5453e5f49b4b26c70db4b34950a090"
 
 RPROVIDES:${PN} += "libtrilinos-gnu-mpich-hpc"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-libtrilinos-13-2-0-gnu-mpich-hpc"
+libtrilinos-14-0-0-gnu-mpich-hpc"
 
 inherit rpm

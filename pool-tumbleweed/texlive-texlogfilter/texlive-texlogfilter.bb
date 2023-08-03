@@ -7,10 +7,10 @@ warnings, such as box or references/citations warnings. It's \
 also possible to add custom filter patterns."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn62792"
+PV = "2023.209.1.1svn62792"
 
-RPM_NAME = "texlive-texlogfilter-2023.201.1.1svn62792-54.1.noarch.rpm"
-RPM_HASH = "be43ae724231480ed83d45075626a050e097e7ffe9d15308feb1a4137164e0f34c1b3d7656e6d1f8ce70c56deba61d33e9a81bda5c082c88f92b68e5b1df9116"
+RPM_NAME = "texlive-texlogfilter-2023.209.1.1svn62792-55.1.noarch.rpm"
+RPM_HASH = "4941ec7dfb5d69de832aad1872608f6533b3296447fb010ae00d1d9cb285c5b3c2500c28016437c2704d25404eeb1ca30ccd3436e4dcc0bae60be7ca15cca669"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texlogfilter"

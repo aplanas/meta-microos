@@ -7,10 +7,10 @@ difficulty, so that users need not learn two sets of accent \
 commands."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn59715"
+PV = "2023.209.svn59715"
 
-RPM_NAME = "texlive-tabbing-2023.201.svn59715-57.1.noarch.rpm"
-RPM_HASH = "6c65cd104af039501069d1118e8a272ae9a42cb9afced295f3a951f543e9be52532825d5babb7fb98a9a8789ccb45636b934b330ea6d2d1add74bd70f96b716a"
+RPM_NAME = "texlive-tabbing-2023.209.svn59715-58.1.noarch.rpm"
+RPM_HASH = "edcb0857befe3b645b5f6c72d88281d5a3b973c5a841d0647d7881ab7a64ec72c30997015901e865e0441198428b130477b90e57b31bb6240038c49b2758507f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Tabbing.sty \

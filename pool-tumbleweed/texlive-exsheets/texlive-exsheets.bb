@@ -15,10 +15,10 @@ bugfix releases. However, new features will not be added any \
 more."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.21ksvn52227"
+PV = "2023.209.0.0.21ksvn52227"
 
-RPM_NAME = "texlive-exsheets-2023.201.0.0.21ksvn52227-52.1.noarch.rpm"
-RPM_HASH = "4339258afc581f2762fa589d4e0ec175fb1bbb374e703393768aa160a380876e2169441e0a5b6f5e10131bc5e292d517e21d166be09b72669a87a79ddce6269d"
+RPM_NAME = "texlive-exsheets-2023.209.0.0.21ksvn52227-53.1.noarch.rpm"
+RPM_HASH = "5c1ffc7563a997ea01198522cc4e14130bfadbf999408a81659969ee1bf7d3ccaa6a275b4c59011379f9e9b933ae24238da83185ccf056c4c4706fd389662888"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-exsheets-configurations.cfg \

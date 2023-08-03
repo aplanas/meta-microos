@@ -6,10 +6,10 @@ across lines and consistently formats phonemic examples, \
 orthographic examples, and more."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn30788"
+PV = "2023.209.1.0svn30788"
 
-RPM_NAME = "texlive-textglos-2023.201.1.0svn30788-54.1.noarch.rpm"
-RPM_HASH = "fdfb859e2f724fb2e51d2709833079576823ceb6764d22cc8dbd882828d0783512564a2f57c099828d99b8d2436e33520ec2651e19205bac22c161cbee9f8edd"
+RPM_NAME = "texlive-textglos-2023.209.1.0svn30788-55.1.noarch.rpm"
+RPM_HASH = "0ef5500a72442dfc322cb635e4942b37ebecde8f007834f20c8aa16d37f10f2421f195665e20b55b027ee44eb15c12b54f14505fd002d713e65e3567141d963f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-textglos.sty \

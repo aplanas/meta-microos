@@ -6,10 +6,10 @@ output directory to be used, but does no checking and may \
 therefore overwrite an important file if used injudiciously."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.06svn15878"
+PV = "2023.209.0.0.06svn15878"
 
-RPM_NAME = "texlive-verbatimcopy-2023.201.0.0.06svn15878-53.1.noarch.rpm"
-RPM_HASH = "b3c5c6c622b93bafd3c04a1ac37d6fcf66e6935284cb00aeb817d26e6429d2f19d55b0441daec25ffaaba516b35e9c85301d3488d13f67fc8cc3455181a1a8d8"
+RPM_NAME = "texlive-verbatimcopy-2023.209.0.0.06svn15878-54.1.noarch.rpm"
+RPM_HASH = "a43595c647055db91346c9d47d85ee87254d709609222507471a2dab2b1c6abc3b89a02724e24a5de5efa7603e7f3bddd5c69aed98e3dd162cf23ba2a1608764"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-verbatimcopy.sty \

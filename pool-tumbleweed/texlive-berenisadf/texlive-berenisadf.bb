@@ -5,10 +5,10 @@ files to use the fonts in TeXnANSI (LY1) and LaTeX standard T1 \
 and TS1 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.004svn32215"
+PV = "2023.209.1.004svn32215"
 
-RPM_NAME = "texlive-berenisadf-2023.201.1.004svn32215-53.1.noarch.rpm"
-RPM_HASH = "d60066c96a93ef74ba52d190b6bf877aa625a904cb069c0cd7beeb70436ea58584147ffb3152cbbbad0e69006fe445b5f437339a3789132aef9b25070133a4c7"
+RPM_NAME = "texlive-berenisadf-2023.209.1.004svn32215-54.1.noarch.rpm"
+RPM_HASH = "8246d0f33335434313490546a4b5514bbc05455e6e544f9e923fa1bdfda17ca41f501b00aebe110d5f4c15fe12c546dedf0b0ff3ac8df53c983ee9489e6efccb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-berenis.sty \

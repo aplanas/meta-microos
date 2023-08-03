@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-l3build"
 DESCRIPTION = "This package includes the documentation for texlive-l3build"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66471"
+PV = "2023.209.svn66471"
 
-RPM_NAME = "texlive-l3build-doc-2023.201.svn66471-55.1.noarch.rpm"
-RPM_HASH = "660d7cda20c30f57e74e0798ee685eb0f443b3ab1becac249c331c015957b3128ac3ddae914ac90e372482649eb5fb51ed72be849f191a1813332951b9f0bcf7"
+RPM_NAME = "texlive-l3build-doc-2023.209.svn66471-56.1.noarch.rpm"
+RPM_HASH = "aabe6da5eb5ca0dd2b519a7c259aeacbf42b9ee527ecc8feeeeaa2be65d975b4f1f8bb6cc03b11b20c2002f99e229c254f5f0373abaae16d9eb3bdf500f99c1c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-l3build.1 \

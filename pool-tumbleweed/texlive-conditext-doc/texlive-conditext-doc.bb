@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-conditext"
 DESCRIPTION = "This package includes the documentation for texlive-conditext"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5svn55387"
+PV = "2023.209.1.5svn55387"
 
-RPM_NAME = "texlive-conditext-doc-2023.201.1.5svn55387-53.1.noarch.rpm"
-RPM_HASH = "e86f000d1e453b809e46f0474bbce42487e0dd4aa3bb3eb8a7a48e4af5ec4db2fa132e9291e76322db1c685c30292709d445fba6c3a57116e6f3cacce72921e2"
+RPM_NAME = "texlive-conditext-doc-2023.209.1.5svn55387-54.1.noarch.rpm"
+RPM_HASH = "bd0569fb3a7a76010b2c02f2edb31ba0cbd262cac2841478b759b3fe0c56414479d7d0c53dc068b0ce938204c65e96a66e598e2ce7226ef37f8b7bf0d3fc4765"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-conditext-doc"

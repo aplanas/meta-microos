@@ -7,10 +7,10 @@ This package provides the shared libraries for the lhapdf6 bindings of \
 pythia."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "8.307"
+PV = "8.310"
 
-RPM_NAME = "libpythia8lhapdf6-8.307-1.15.aarch64.rpm"
-RPM_HASH = "5cf5b44fbc48c9ac07a685e629e5d67453f92e214f2c2390693c35478223a5a8c41aa148c6bbe6995d264d094a8a1dacd18c299d1f6c3769f3895952966e8f20"
+RPM_NAME = "libpythia8lhapdf6-8.310-1.1.aarch64.rpm"
+RPM_HASH = "a8c623875eba71c487640bf399b0598f3212420228623a2716efa998f6b0ac445d8e58b0c839e100648158ce3ee078b79fa4f4d9ef62708b440cc6b04cab9f10"
 
 RPROVIDES:${PN} += "libpythia8lhapdf6 \
 libpythia8lhapdf6.so"

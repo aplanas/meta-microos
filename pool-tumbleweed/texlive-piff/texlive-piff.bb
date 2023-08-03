@@ -6,10 +6,10 @@ number in one-page documents and time, which prints a 12-hour \
 format time."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn21894"
+PV = "2023.209.svn21894"
 
-RPM_NAME = "texlive-piff-2023.201.svn21894-51.1.noarch.rpm"
-RPM_HASH = "7824c93a56045e35a2b1ee73fbfa49a78a15e94b5c33c59e76292e3ff2754078ae7d477e3510774dfefa3ecf5a76885434d1ecbd3c9c756d0df71d5a375beb02"
+RPM_NAME = "texlive-piff-2023.209.svn21894-52.1.noarch.rpm"
+RPM_HASH = "608fe20f2ee3a093e4ac7d949f99d47339dbab2423fd54f22f3c818908132894595a29475c72a7965062532903d9ecbdadc14029d1d59afd451ea7f8ae3cb8ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-duplicat.sty \

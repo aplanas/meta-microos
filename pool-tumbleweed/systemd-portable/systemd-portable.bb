@@ -1,7 +1,6 @@
 SUMMARY = "Systemd tools for portable services"
-DESCRIPTION = "Systemd tools to manage portable services. The feature is still \
-considered experimental so the package might change  or vanish. \
-Use at own risk. \
+DESCRIPTION = "Systemd tools to manage portable services. The feature is still considered \
+experimental so the package might change or vanish.  Use at own risk. \
  \
 More information can be found online: \
  \
@@ -11,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "253.7"
 
-RPM_NAME = "systemd-portable-253.7-1.2.aarch64.rpm"
-RPM_HASH = "0fb7993f802f92808ea8efac9a4f79e0eed075a580cd2ddc5abeec4d720922c425210a2370aa28ccdba768f49c8db6906bd60c1335fa4a6f5436d9ee27548c5a"
+RPM_NAME = "systemd-portable-253.7-2.1.aarch64.rpm"
+RPM_HASH = "a8eadef76387d5d59d7dad32e64a05864de99cb387194c2c0be38157854387f9ba37de6ada5d540f9a580a286266a8095bbd9a6069c8d8daa041c0c34c30ea7f"
 
 RPROVIDES:${PN} += "systemd-portable"
 

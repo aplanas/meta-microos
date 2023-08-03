@@ -4,10 +4,10 @@ macros; it is provided as a LaTeX package. The interpreter \
 static scoping, dynamic typing, and eager evaluation."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.2.0svn38722"
+PV = "2023.209.2.0svn38722"
 
-RPM_NAME = "texlive-lisp-on-tex-2023.201.2.0svn38722-54.1.noarch.rpm"
-RPM_HASH = "f8d110b92132ed857ea9b1e595f70523b22fae27a2ee58f484c0402a8c5fa2787fae12deb55355198e4e939056afcd60280adb6cd22039b80169a2d4a6ba6cdb"
+RPM_NAME = "texlive-lisp-on-tex-2023.209.2.0svn38722-55.1.noarch.rpm"
+RPM_HASH = "6ae1935624404a5666a514549b13acb6e5fabeaccd3788f9c44e65905a3857e8299828164f10c475f61cdfd5684fccfb6959684d7d69b16f97cc87108bd91d2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lisp-arith.sty \

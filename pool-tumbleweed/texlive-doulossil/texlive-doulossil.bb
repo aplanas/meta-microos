@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the IPA font Doulos SIL in TrueType \
 format."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.1svn63255"
+PV = "2023.209.0.0.1svn63255"
 
-RPM_NAME = "texlive-doulossil-2023.201.0.0.1svn63255-52.1.noarch.rpm"
-RPM_HASH = "749a8a6296544a2d9f6e2080216c36e60ae74a19f23f510ffeae2b906467519fc3eea356eb8ef7a6dd5d2116aeeabe166d795bf83fef81d57f9dac1c8f536b3b"
+RPM_NAME = "texlive-doulossil-2023.209.0.0.1svn63255-53.1.noarch.rpm"
+RPM_HASH = "8cb7b8e1e8773217eb6a9c70746a1f4505ba02d651a98a10107ea4bfbc3f0d767ae878b6092d46ffe2714ca7dab96b0f42d878d2886817af0bf364a1a5d587e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-doulossil"

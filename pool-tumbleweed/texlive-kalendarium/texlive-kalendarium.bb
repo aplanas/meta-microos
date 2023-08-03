@@ -8,10 +8,10 @@ basis; these options also allow for the generation of date \
 strings according to different eras of the Classical period."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn48744"
+PV = "2023.209.1.0svn48744"
 
-RPM_NAME = "texlive-kalendarium-2023.201.1.0svn48744-55.1.noarch.rpm"
-RPM_HASH = "d019f792fbc617479593669817f90f710529d68496bb38c4486c69e8af9f9668e472555e811a63b3872782fe423274a27a86a9a561d201787836eff1abe64a3b"
+RPM_NAME = "texlive-kalendarium-2023.209.1.0svn48744-56.1.noarch.rpm"
+RPM_HASH = "020099b8aae1c6a78e0fade7a4c96ce047b19b5ccdce9cb6f6a2e92bdd8761ddc87be225615b254336c81fd859949935fd663f6aa6ceb32f26d6b2fa18a1ae3e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-kalendarium.sty \

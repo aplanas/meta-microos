@@ -3,10 +3,10 @@ DESCRIPTION = "Sans serif small caps and math fonts for use with Computer \
 Modern."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64661"
+PV = "2023.209.svn64661"
 
-RPM_NAME = "texlive-sansmathfonts-2023.201.svn64661-53.1.noarch.rpm"
-RPM_HASH = "d0876311b84ee79b8c7b6d7d6bba665b197ad40bc481e4019eee5b89ead144b6d1a047677d079aa38ceaf731fa1d91b221e76596d29da31d2e04a92eca2c9cab"
+RPM_NAME = "texlive-sansmathfonts-2023.209.svn64661-54.1.noarch.rpm"
+RPM_HASH = "802391f8a47287b6dd58bfe4a899c2fbafd1d7a2982166ff59f2ee75e3ae48c3f3d3ac6c76dd460195fc6beb8fb1e011bb773cf293f661b011248625cb29711b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmsmf10.tfm \

@@ -9,10 +9,10 @@ changes, authors, highlights or comments. A Python script is \
 provided for removing the changes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.2.1svn59950"
+PV = "2023.209.4.2.1svn59950"
 
-RPM_NAME = "texlive-changes-2023.201.4.2.1svn59950-52.1.noarch.rpm"
-RPM_HASH = "fe48d64f82ca9181fc31a92915929d129ac390c4465525e1d8a3d5f17c1cb0c8b8b40c89614bef93fa1cea7f05e0e6e6fc580d3b98e27bd7e39af08a0ee16c2c"
+RPM_NAME = "texlive-changes-2023.209.4.2.1svn59950-53.1.noarch.rpm"
+RPM_HASH = "86d6cee0831d4c4b1b41f6bedec99c116acf470b618bd030ccd8126b581005ff51359578d77711eb6ea0b826399abf80827795a793c83f4524704a3cea309881"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-changes.sty \

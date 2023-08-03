@@ -6,10 +6,10 @@ topographic maps to a scalebar in micrometres for an electron \
 microscope image."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-scalebar-2023.201.1.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "5dadd7e425dbeea210b04d6d6f6d79a4a40917cff9db232afd09b28a185471a64a745be6c63d78a2d648704009cafeefc0e19c7c24c5dd92554319ffe0a6c53a"
+RPM_NAME = "texlive-scalebar-2023.209.1.0svn15878-54.1.noarch.rpm"
+RPM_HASH = "0f2e459b4753d3df5d272cf82c949bcb0892349e0a1f5b1953ff575ebb63d48be9c610cc8642a1a63e4cb16bf315d9fdbf47602efa54edbba890de85ec2c3eb0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-scalebar.sty \

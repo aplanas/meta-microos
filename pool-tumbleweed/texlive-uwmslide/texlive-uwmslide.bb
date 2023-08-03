@@ -11,10 +11,10 @@ and uses Times Roman by default (originally, it was claimed, \
 for simple conversion to PDF format)."
 LICENSE = "Artistic-1.0"
 
-PV = "2023.201.svn27354"
+PV = "2023.209.svn27354"
 
-RPM_NAME = "texlive-uwmslide-2023.201.svn27354-53.1.noarch.rpm"
-RPM_HASH = "3efbf4c44855868f7843e695cb1d12ffde8e7f0d57eabd359b43296c417ba200982ce86075659cecb1904432494cc5048fbe8a8ce1d6582fe66a1317e0553b28"
+RPM_NAME = "texlive-uwmslide-2023.209.svn27354-54.1.noarch.rpm"
+RPM_HASH = "7f7723bf24c16340a0a60e9e43a2a712eca36e21057fed4fe59060b3ef6eb83d1f4b230c8106d4fd770a90f250fc1d9cd53711b31ecee82f9a8209c14e670dda"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uwmslide.cls \

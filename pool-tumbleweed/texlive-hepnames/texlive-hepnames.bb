@@ -11,10 +11,10 @@ main non-resonant particle names from heppennames with more \
 'friendly' names."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn35722"
+PV = "2023.209.2.0svn35722"
 
-RPM_NAME = "texlive-hepnames-2023.201.2.0svn35722-53.2.noarch.rpm"
-RPM_HASH = "9696da2f3f8774469e4d0a13b7fda902a474177b46ca141e42bf42a00368dcd1de972043f30407cf28d2f68690d7cdd844a53f1c24a7fa11b8bef86c425a123f"
+RPM_NAME = "texlive-hepnames-2023.209.2.0svn35722-54.1.noarch.rpm"
+RPM_HASH = "8620ce7c3caf0c62b8b90010158e96d42aab2c06b094f439be3bc2564832ebe35cfd12bbb5304d6d1e7e14392cc6e67efa9969a3b5448ea863b2d697c8b63a9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hepnames.sty \

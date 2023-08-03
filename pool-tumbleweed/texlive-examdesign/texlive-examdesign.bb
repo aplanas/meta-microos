@@ -13,10 +13,10 @@ true/false, multiple-choice, fill-in-the-blank, and short \
 answer/essay questions."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.101svn15878"
+PV = "2023.209.1.101svn15878"
 
-RPM_NAME = "texlive-examdesign-2023.201.1.101svn15878-52.1.noarch.rpm"
-RPM_HASH = "feb18e83d99cc2293c4277d0f54f0532c32c4aa1a76daeafc9e1f4396bacbdbf1952daeb12157a4ff168124791f6a9a64dd8467ad837f514c9b7b3a54c534bf2"
+RPM_NAME = "texlive-examdesign-2023.209.1.101svn15878-53.1.noarch.rpm"
+RPM_HASH = "57cb4e3e536a6edae1ea2dcc7b21469b36cf45bac089bb9ea998af5c17159464a002cd67d8627fb756154eabf20fef720b5d9a9ed7f61fc32efd10d65d1c1cc2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-examdesign.cls \

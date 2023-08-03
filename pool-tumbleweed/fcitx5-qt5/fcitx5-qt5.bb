@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later"
 
 PV = "5.0.17"
 
-RPM_NAME = "fcitx5-qt5-5.0.17-1.3.aarch64.rpm"
-RPM_HASH = "3bb9b6f607c5da736b19e10b735d6730f657a234a7be2c5099818a37d5bb8d49339b605370510eb09135ce33a81d6cf070f5b578f110d673eee35e75dac27710"
+RPM_NAME = "fcitx5-qt5-5.0.17-1.4.aarch64.rpm"
+RPM_HASH = "fc0348da931e5b46733519b7d9220cc5456dabc3d24ea51fe39b9ddd0f971fa5627900ede3852af23f0d39d0fc0c68f7cd80a4de4e622ace8b4b319bad0510a7"
 
 RPROVIDES:${PN} += "fcitx-qt5 \
 fcitx5-qt5 \

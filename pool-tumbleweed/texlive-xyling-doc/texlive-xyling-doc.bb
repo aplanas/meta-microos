@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xyling"
 DESCRIPTION = "This package includes the documentation for texlive-xyling"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn15878"
+PV = "2023.209.1.1svn15878"
 
-RPM_NAME = "texlive-xyling-doc-2023.201.1.1svn15878-52.2.noarch.rpm"
-RPM_HASH = "2549f7d2c223d04b2fb7951dc2d906fba8a160885fd4754371b908c7d5857890e93a1f42319a83b532ddd92b1cb69f78034b276f8e9a99112a4af8fea9124882"
+RPM_NAME = "texlive-xyling-doc-2023.209.1.1svn15878-53.1.noarch.rpm"
+RPM_HASH = "08dbdbd41de50b8c2b91f5b9ae9a5b4b32c224f55392cd870b6ee7bf82bd7e10bd5b89180dea61fe5c90b278d560bc486c4e8911af580cb0755145086960d3b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-xyling-doc-en \

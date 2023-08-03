@@ -2,10 +2,10 @@ SUMMARY = "Zsh Completion for fnott"
 DESCRIPTION = "Zsh command-line completion support for fnott"
 LICENSE = "MIT"
 
-PV = "1.4.0"
+PV = "1.4.1"
 
-RPM_NAME = "fnott-zsh-completion-1.4.0-2.1.noarch.rpm"
-RPM_HASH = "518262d9ed2f1be2e52cb71e5491019caa8dfe85e21b80e1bc5d74add473e799fe97f6469dfcae920ad361fee9eb1bbda09929d72ae86f0c206ccad78ae969d4"
+RPM_NAME = "fnott-zsh-completion-1.4.1-1.1.noarch.rpm"
+RPM_HASH = "7e33f5a090398fd9030ab0af91c8919ac042fb243877556def772e5653c3272bbe56d417ee1de8e0c1a753bdf880e3197ed6b31636abfcd0138f7a7d5b7147c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fnott-zsh-completion"

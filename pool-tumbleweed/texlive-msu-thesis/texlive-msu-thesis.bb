@@ -8,10 +8,10 @@ class is based on the memoir document class, and inherits the \
 functionality of that class."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.0bsvn65462"
+PV = "2023.209.4.0bsvn65462"
 
-RPM_NAME = "texlive-msu-thesis-2023.201.4.0bsvn65462-54.1.noarch.rpm"
-RPM_HASH = "eda82c070b87b3c55953f8501929eb6f7dc5f96690768bfa4728ac70d300f5ffbc8476fab9633e785e06b9f82fd8ad11b9095c5a6ba92f385ed258ebc60148d7"
+RPM_NAME = "texlive-msu-thesis-2023.209.4.0bsvn65462-55.1.noarch.rpm"
+RPM_HASH = "454ce8e1714c126a380f11a7e147f19b2b96fb3ee8731e822b7bbe3fe1965a3661c295642a587d56bb98d0d8826e52912b4242a34ff55a732b787254cd6bf4f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-msu-thesis.cls \

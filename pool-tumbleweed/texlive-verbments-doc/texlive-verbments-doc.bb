@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-verbments"
 DESCRIPTION = "This package includes the documentation for texlive-verbments"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn23670"
+PV = "2023.209.1.2svn23670"
 
-RPM_NAME = "texlive-verbments-doc-2023.201.1.2svn23670-53.1.noarch.rpm"
-RPM_HASH = "25aabba04ae6202919fac513c704dac74f7b6623dc37a073c30a37ed1c40f0eaff54033777d4c3b9c9a196a787a8648996ed871a55e674e646a8f141bc720587"
+RPM_NAME = "texlive-verbments-doc-2023.209.1.2svn23670-54.1.noarch.rpm"
+RPM_HASH = "10a68930ea1e8155e13157e042c1577ee7afd752835d77e0dbe98741199a89ca65ad6967a868afb7ba012c8f4d8c992e40fc4220e838316f98bec62502982675"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-verbments-doc"

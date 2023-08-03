@@ -2,10 +2,10 @@ SUMMARY = "Godot command line completion for Bash"
 DESCRIPTION = "Bash command line completion support for godot and godot-runner"
 LICENSE = "MIT"
 
-PV = "4.0.3"
+PV = "4.1.1"
 
-RPM_NAME = "godot-bash-completion-4.0.3-1.1.noarch.rpm"
-RPM_HASH = "8e977eeda5e10e361afca3c22b02f9e5ec451a751ede0848fcc1fce163afafb543cf3ecad29608cd3efba529b10e571da4296dfcf9045ebfb501b33900e778b3"
+RPM_NAME = "godot-bash-completion-4.1.1-1.1.noarch.rpm"
+RPM_HASH = "c3c894793004e404188ce8afe7d1a716d3144daf2016543019ec51739b43b6777466ae54610a90ae5ddfa5d98a55857bcd5815f7e1d68d10e3d3e21258cb52aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "godot-bash-completion"

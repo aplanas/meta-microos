@@ -3,10 +3,10 @@ DESCRIPTION = "Defines two pagestyles that provide underlined page heads in \
 LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.01svn15878"
+PV = "2023.209.1.01svn15878"
 
-RPM_NAME = "texlive-underlin-2023.201.1.01svn15878-53.1.noarch.rpm"
-RPM_HASH = "9f94b28c00ea73df84ca6f4f665d61ea7b81bb1cb5a6a17cb611f50a27bea447e26c99de793b43014f5b7a97fcf704a7c2638f62e7c556d49cdae654aa2c047c"
+RPM_NAME = "texlive-underlin-2023.209.1.01svn15878-54.1.noarch.rpm"
+RPM_HASH = "21d2c5fbf4e70a5654dc10a254c3c5c20dfc8a808e5c2c7dd44b853c036f6a14f1215349b6b8a9e9b986353364e7c375bf0011237ef3b5de223eedf3984363ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-underlin.sty \

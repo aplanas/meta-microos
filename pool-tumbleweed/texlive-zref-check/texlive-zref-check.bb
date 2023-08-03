@@ -12,10 +12,10 @@ means to easily set label targets to arbitrary places in the \
 text which can be referred to by \\zcheck."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3.2svn63845"
+PV = "2023.209.0.0.3.2svn63845"
 
-RPM_NAME = "texlive-zref-check-2023.201.0.0.3.2svn63845-52.2.noarch.rpm"
-RPM_HASH = "6299398bb934bdfe2b721ed07203f93e3daa107aa1f55f8da4ff976d3fc3ffff3507ad6b6047c2b949485dbc22e99711db6902192f11c76b69c0257dc846d23a"
+RPM_NAME = "texlive-zref-check-2023.209.0.0.3.2svn63845-53.1.noarch.rpm"
+RPM_HASH = "cbc05a15bf67b7883e543363808a2fd8ab7d60aaccb3b69afb540314bb20cb1431b93801ecc23c952b3f44e328c3a56a1b3810fe385007621de88d7b9b779a0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zref-check.sty \

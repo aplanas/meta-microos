@@ -4,10 +4,10 @@ string between different encodings. Both LaTeX and plain-TeX \
 are supported."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.12svn52982"
+PV = "2023.209.1.12svn52982"
 
-RPM_NAME = "texlive-stringenc-2023.201.1.12svn52982-57.1.noarch.rpm"
-RPM_HASH = "d2b4cd085f864d6f4260ca82b7ca58c70052cb0ee92babf8947902455522acd254f2b944e99a1bba0d05086788073497bbdd70cfb2ab3c79daf7cc7acf6999a2"
+RPM_NAME = "texlive-stringenc-2023.209.1.12svn52982-58.1.noarch.rpm"
+RPM_HASH = "ccee3b217187554bf4db45933bd50a953c16b12c9b298e79a449fe7e25dddc22ba0ecac6e398c3eee4e0885457354b74dda25ff1b22eebc70acc61b84cefbea3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-se-ascii-print.def \

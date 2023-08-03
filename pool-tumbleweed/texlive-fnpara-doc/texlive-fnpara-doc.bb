@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fnpara"
 DESCRIPTION = "This package includes the documentation for texlive-fnpara"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn25607"
+PV = "2023.209.svn25607"
 
-RPM_NAME = "texlive-fnpara-doc-2023.201.svn25607-52.1.noarch.rpm"
-RPM_HASH = "91169ab74989b781804bd52bafe56debd775012c0eb39c0876649f6cd67e11119b2733e71c64301602f0e964a2cf4f0b14342271946d917222178d7dec2b0433"
+RPM_NAME = "texlive-fnpara-doc-2023.209.svn25607-53.1.noarch.rpm"
+RPM_HASH = "4a4943ff04f8c40e940dfdf9653590f899e5f98113c6de21cf1b51d2ccf66c2405be73db291b1b50895e403d1ac78685479c9717532867fbe035c18a9399670d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fnpara-doc"

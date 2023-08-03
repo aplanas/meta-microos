@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-lm-math"
 DESCRIPTION = "The  separated fonts package for texlive-lm-math"
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.201.1.959svn36915"
+PV = "2023.209.1.959svn36915"
 
-RPM_NAME = "texlive-lm-math-fonts-2023.201.1.959svn36915-54.1.noarch.rpm"
-RPM_HASH = "61e2d07422d91babcfe36812f96bdcf47dc1af612aa3132e6dbd926530efc7df4a55e9be69456a813c53bfdf6840113199fbc03f97d9fda2c91c566c266014e8"
+RPM_NAME = "texlive-lm-math-fonts-2023.209.1.959svn36915-55.1.noarch.rpm"
+RPM_HASH = "827ba04e847aa98a795d1ddf3e783a13a17c9a0a67bff2179974a060ed0c257de46c7839922d7965f42c0bde9ee952cb4d8d39258899e13d71f6467f3539d08c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

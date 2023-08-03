@@ -8,10 +8,10 @@ the NASA database and from NIST). It also allows the user to \
 draw spectra using their own data."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.2.0svn66011"
+PV = "2023.209.2.2.0svn66011"
 
-RPM_NAME = "texlive-pgf-spectra-2023.201.2.2.0svn66011-51.1.noarch.rpm"
-RPM_HASH = "f1311e615905e215397a0476d937d41aee1e6497b0f07deb87008e675a623ccfa0889248036a2f2b1780b447f745f32f87372233125dff5bddd648442e93c3b8"
+RPM_NAME = "texlive-pgf-spectra-2023.209.2.2.0svn66011-52.1.noarch.rpm"
+RPM_HASH = "e1b63f7e7c64470c0f98dfc423aa3332df5fed8faf1eac910130b8827a2234369bd3c30e0fabf832f212f4c4a941784d77baa03d2dbafb625ae5bcf8d07682a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pgf-spectra.sty \

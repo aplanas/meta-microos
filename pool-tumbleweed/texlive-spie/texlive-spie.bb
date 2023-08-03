@@ -2,10 +2,10 @@ SUMMARY = "Support for formatting SPIE Proceedings manuscripts"
 DESCRIPTION = "A class and a BibTeX style are provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.25svn15878"
+PV = "2023.209.3.25svn15878"
 
-RPM_NAME = "texlive-spie-2023.201.3.25svn15878-57.1.noarch.rpm"
-RPM_HASH = "7955671dda24826ffde87194fc5a0cfe8b597498ecbdb1fc0c21a1874e064c2cddd928ba133b084b692f78910ecf9580cd24d3b07a0b80427901f4024fad826b"
+RPM_NAME = "texlive-spie-2023.209.3.25svn15878-58.1.noarch.rpm"
+RPM_HASH = "cb7fb7de3f59f424185fedcb70c3ba4eca677c9fda1f516e558ac859a60bbd48f1865a3998dde72be92fac90f6b8e40d187a768da674a93db03d372868baa2a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-spie.cls \

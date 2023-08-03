@@ -9,10 +9,10 @@ must be loaded manually. See ot1cmr.pfd for further \
 information."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn15878"
+PV = "2023.209.1.1svn15878"
 
-RPM_NAME = "texlive-plnfss-2023.201.1.1svn15878-52.1.noarch.rpm"
-RPM_HASH = "8a120bd3ecabf649fbbc1e79c830ff2c4c9db99b14c60e1d15c9157298bfd36c9ccf9046cdcae88fa5ce618e7e5e6a3ed068e9141000425c4e612d0e12dd2745"
+RPM_NAME = "texlive-plnfss-2023.209.1.1svn15878-53.1.noarch.rpm"
+RPM_HASH = "1f4e79203b6f38806e1d9c8f772f98a5ff2cf573381f6434d873c6d9803f13efea0023e17c387352205567647c0013cb94f20a625823dee6f743e1033350bccc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-MIKmathf.tex \

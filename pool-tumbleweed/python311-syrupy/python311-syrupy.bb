@@ -8,10 +8,10 @@ The most popular snapshot test plugin compatible with pytest has some core limit
 - Soundness: Snapshot tests should uncover even the most minute issues. Unlike other snapshot libraries, Syrupy will fail a test suite if a snapshot does not exist, not just on snapshot differences."
 LICENSE = "Apache-2.0"
 
-PV = "4.0.4"
+PV = "4.0.8"
 
-RPM_NAME = "python311-syrupy-4.0.4-1.1.noarch.rpm"
-RPM_HASH = "4f36e610119c3e2ef797bb35327aadfed1b9cd6b00b6b17a9874c90a33aeb038eec1aed80c86c338a3922a1913dd756475e40caa8632621ca50ba0de981d6192"
+RPM_NAME = "python311-syrupy-4.0.8-1.1.noarch.rpm"
+RPM_HASH = "b178a807bd084e9f6f28c48601b9da66f5c31b0e909ad3431ddb60cf074bf2f9d8ae2fe345958524f0689805057a9ddaeabf7d923bfeab75ed6861c5bd20b329"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-syrupy \

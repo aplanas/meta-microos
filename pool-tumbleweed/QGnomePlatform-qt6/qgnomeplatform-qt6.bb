@@ -6,8 +6,8 @@ LICENSE = "(GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only) & LGPL-2.1-or-later"
 
 PV = "0.9.1"
 
-RPM_NAME = "QGnomePlatform-qt6-0.9.1-1.2.aarch64.rpm"
-RPM_HASH = "36772157f6df0d210821c6a23c407aa04ff55aeea8739c097290e7c47fdc4dc41f1cd7e9f3c3d660d337680652463faaba9bfc7fe575c5f3f3fb32cac9a449da"
+RPM_NAME = "QGnomePlatform-qt6-0.9.1-1.3.aarch64.rpm"
+RPM_HASH = "50b4092f4c257c79b90efdfab1f9dd7f6d83324c68ece8b6bcb6f4ee4067e15f5c0e4543d7b190afad8adcd586c2284f0aadacfa1723ea797ba2137d512f959e"
 
 RPROVIDES:${PN} += "QGnomePlatform-qt6 \
 libqgnomeplatform6.so \

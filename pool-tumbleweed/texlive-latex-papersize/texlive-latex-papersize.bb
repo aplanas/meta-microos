@@ -7,10 +7,10 @@ the settings for various font and paper sizes. More details are \
 to be read in the script itself."
 LICENSE = "Apache-1.0"
 
-PV = "2023.201.1.63svn53131"
+PV = "2023.209.1.63svn53131"
 
-RPM_NAME = "texlive-latex-papersize-2023.201.1.63svn53131-55.1.noarch.rpm"
-RPM_HASH = "52b6ed3f6b95acf4f09f52a4e4041b3f0b468b8bdcd2e583481e8077ccb1f7382f9da7ced82959c99e30d00a89f1e5dbd669d4f38d67042ed1023b29622dd586"
+RPM_NAME = "texlive-latex-papersize-2023.209.1.63svn53131-56.1.noarch.rpm"
+RPM_HASH = "7ade9e18d4d7ee68853d8fb06840e30740e874de06e58c56eb77f19525827a3211b00337d028bced57b952fbbf43c60a92c8a1fdfd952466bacba26a16b6f63e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex-papersize"

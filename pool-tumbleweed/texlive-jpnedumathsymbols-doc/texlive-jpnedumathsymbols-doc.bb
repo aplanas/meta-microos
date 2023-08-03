@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-jpnedumathsymbols"
 DESCRIPTION = "This package includes the documentation for texlive-jpnedumathsymbols"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn63864"
+PV = "2023.209.1.1svn63864"
 
-RPM_NAME = "texlive-jpnedumathsymbols-doc-2023.201.1.1svn63864-55.1.noarch.rpm"
-RPM_HASH = "a38f3957c994d5a6a7848dea34dedce79d990fec317a1457d89f4254049298c8e3addee62d96e1bad5eeb045ab96fa0a429ba16532e8cf1155dfcca0ff23eaff"
+RPM_NAME = "texlive-jpnedumathsymbols-doc-2023.209.1.1svn63864-56.1.noarch.rpm"
+RPM_HASH = "8dde3b91f6c62d5f2341952ec2644399209feb38bf6456e69ba52d9b601567136366ea09c03563db30867dd7c0e68b99bdefe66381c8107041b54b0e88ded2bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ja) \

@@ -3,10 +3,10 @@ DESCRIPTION = "A document class for writing articles to the Journal of \
 Electrical Bioimpedance."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn21758"
+PV = "2023.209.1.2svn21758"
 
-RPM_NAME = "texlive-elbioimp-2023.201.1.2svn21758-53.2.noarch.rpm"
-RPM_HASH = "4a14a3edef0af80b5e954ce290a629a69f461b646c110e448c35c254db613c2f8e917d5cc0facce8661896662ce67438739ae98caddb35c229d59afb211f6f43"
+RPM_NAME = "texlive-elbioimp-2023.209.1.2svn21758-54.1.noarch.rpm"
+RPM_HASH = "f74a6f19657a6c6ff5814e4cbb37431114da166efd35d63d608c2d3589ce4aba1b7b18320b11c4691825393fab22baa96c21bb97bd113c32ac8857a98693a72a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-elbioimp.cls \

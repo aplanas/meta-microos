@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-subeqn"
 DESCRIPTION = "This package includes the documentation for texlive-subeqn"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0bsvn15878"
+PV = "2023.209.2.0bsvn15878"
 
-RPM_NAME = "texlive-subeqn-doc-2023.201.2.0bsvn15878-57.1.noarch.rpm"
-RPM_HASH = "45cf9764a1ff687055c061f7099e066bd0fd25ad6895e1f47dd8127e8fadda5166582112e6699a73d7ef3f625d2e92dfd542cd579d44d70b13765c72233cdece"
+RPM_NAME = "texlive-subeqn-doc-2023.209.2.0bsvn15878-58.1.noarch.rpm"
+RPM_HASH = "a27f21c831a4fbd39b756da416e969e62b054b451a55efcf95a35692dcc373405bdabaa5844b07bc29dd412106cb4795f341a758504bb10da14e23ea2b580d98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-subeqn-doc"

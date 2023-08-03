@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for rclone"
 DESCRIPTION = "Bash command line completion support for rclone."
 LICENSE = "MIT"
 
-PV = "1.63.0"
+PV = "1.63.1"
 
-RPM_NAME = "rclone-bash-completion-1.63.0-2.1.noarch.rpm"
-RPM_HASH = "d27042d715495c9a470a89ffa2fb554296b605beb24ec3d7ca02d0a24e4dece6e8a243a9fbd6be40572c3302a8644da01ae1b2582b21f8021724b58c7cf66b9a"
+RPM_NAME = "rclone-bash-completion-1.63.1-1.1.noarch.rpm"
+RPM_HASH = "344e90a3559200de34ef5c44c7faae06958e31afe1b55e6c19682c39830da1a9fb7dfc80b2bcc456aacc931cafe12a02a76fcd78a6184732b601340ad1ad57a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rclone-bash-completion"

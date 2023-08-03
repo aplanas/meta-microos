@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-doulossil"
 DESCRIPTION = "The  separated fonts package for texlive-doulossil"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.1svn63255"
+PV = "2023.209.0.0.1svn63255"
 
-RPM_NAME = "texlive-doulossil-fonts-2023.201.0.0.1svn63255-52.1.noarch.rpm"
-RPM_HASH = "2cf83d538b9cd212b810fc62436baf9ffa949fb80ab1cd189e7dad37bf7b457651e28beef5d9716ae4d0ece74f106f894268c8cd4e39c4ce5de633a5e21239b5"
+RPM_NAME = "texlive-doulossil-fonts-2023.209.0.0.1svn63255-53.1.noarch.rpm"
+RPM_HASH = "4369c50e744f206eab5a7d7cd016b0ff5c16a4eac9f99ec41010fa92b6faca211808c850b5d70c024c05c80d6b99f6e1326f2938e5fe6b28aac77e446e1fe7b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

@@ -5,10 +5,10 @@ belongs to the ko.TeX bundle. It depends on memoir and \
 kotex-utf to function."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.2.1svn66513"
+PV = "2023.209.3.2.1svn66513"
 
-RPM_NAME = "texlive-kotex-oblivoir-2023.201.3.2.1svn66513-55.1.noarch.rpm"
-RPM_HASH = "5d0d5b2cf5919fcbb8a1a069fd710d1e256baa41bf89bf9e0217aff877eaeeef5035e4b1582b4eb00511026db330f3204fb99fecdad8d2df12db3828a2407cd7"
+RPM_NAME = "texlive-kotex-oblivoir-2023.209.3.2.1svn66513-56.1.noarch.rpm"
+RPM_HASH = "3fd7c1489cc9791b19e046a0c6b28bc967a41a66a7772880bae3148ad01149135d9deca5ef3b7f855ea8cd6f3212a282a72c55e90486b3480854d461cbde16bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-10-5.sty \

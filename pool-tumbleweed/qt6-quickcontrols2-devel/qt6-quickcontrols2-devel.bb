@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 QuickControls2 library - Development files"
 DESCRIPTION = "Development files for the Qt 6 QuickControls2 library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-quickcontrols2-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "9c3eac8d6a012dcab9b580be2f82c9156399da8377869d95ce7393e5d16757cc7e593e88fdd08a2d836a15c49aa1ecbcf0da112052426a3af7d37ecb16c56bca"
+RPM_NAME = "qt6-quickcontrols2-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "fdec4cd99ed4827d7a30ca0e87f828b3aa132068bbdfa00742ddb5ef266f0202db8127e266ea82e95b6a767d15429b73b1ce6edd04258ddc04801a5e47aad776"
 
 RPROVIDES:${PN} += "cmake-Qt6QuickControls2 \
 pkgconfig-Qt6QuickControls2 \

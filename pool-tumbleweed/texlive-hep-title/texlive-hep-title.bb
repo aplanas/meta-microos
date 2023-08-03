@@ -4,10 +4,10 @@ classes with macros for a preprint, affiliation, editors, and \
 endorsers. The package is loaded with \\usepackage{hep-title}."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn64907"
+PV = "2023.209.1.1svn64907"
 
-RPM_NAME = "texlive-hep-title-2023.201.1.1svn64907-53.2.noarch.rpm"
-RPM_HASH = "9215bb0e09319f1a527201b15d43937ff8eec56cb5f1e2f09abaa47175829f7c213142b43ec6d9fe521d707c0d8e2b75fce65770c97dd2a389ee0edf9e53d196"
+RPM_NAME = "texlive-hep-title-2023.209.1.1svn64907-54.1.noarch.rpm"
+RPM_HASH = "1b594a8da54abb65f41bc4ab7b5757d71dd5e88679cb1d306f5ee2ee90380d9bf93f28ce0e4c84ad576f334f5986dad1de84661f46660c4df60fce263ec32ddb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hep-title.sty \

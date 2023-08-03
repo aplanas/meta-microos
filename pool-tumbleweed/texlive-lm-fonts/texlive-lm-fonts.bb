@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-lm"
 DESCRIPTION = "The  separated fonts package for texlive-lm"
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.201.2.005svn65956"
+PV = "2023.209.2.005svn65956"
 
-RPM_NAME = "texlive-lm-fonts-2023.201.2.005svn65956-54.1.noarch.rpm"
-RPM_HASH = "daa9ef224bb47de16e67fbedb987eb09c4961f9d5d97fc05c84192cf75498b8b25f61ecc2f8b02b937b13f185b8c39ee8b576eb0aa6e30a31e9cde74179c7134"
+RPM_NAME = "texlive-lm-fonts-2023.209.2.005svn65956-55.1.noarch.rpm"
+RPM_HASH = "4225ec00244964002a68a8d6e388e0d81a21332cd6d8679abba3a3bcadc3b8966595e95aad0e76b377cfeae9fc3b646b171b0e6d5b017efa22223e1a4f106c25"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-lm-fonts \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fixlatvian"
 DESCRIPTION = "This package includes the documentation for texlive-fixlatvian"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1asvn21631"
+PV = "2023.209.1asvn21631"
 
-RPM_NAME = "texlive-fixlatvian-doc-2023.201.1asvn21631-52.1.noarch.rpm"
-RPM_HASH = "1852f0fdc3508ce504f9b5147e27e56756087a373317757ae870c231b885490ec2732727429c501b4290bbfbc8f0226322a65de746f986cc8e923343c0d8ec7f"
+RPM_NAME = "texlive-fixlatvian-doc-2023.209.1asvn21631-53.1.noarch.rpm"
+RPM_HASH = "3d2597fb1b93d0823e7eb5714272a651bbb7944d0a24fb074e06821915e86663984ef5e0d5b713c08a84fa4dd1d94bd15c7d74a507e094188291c701203533b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-fixlatvian-doc-lv \

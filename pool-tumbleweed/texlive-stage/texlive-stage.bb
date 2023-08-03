@@ -3,10 +3,10 @@ DESCRIPTION = "Stage.cls is a LaTeX class for creating plays of any length in \
 a standard manuscript format for production and submission."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.03svn62929"
+PV = "2023.209.1.03svn62929"
 
-RPM_NAME = "texlive-stage-2023.201.1.03svn62929-57.1.noarch.rpm"
-RPM_HASH = "4e21d0f110440751e50f10938aeaef7eb71ace271137992456c61b8c9c92b700906d69c3ca3a8e78c01b4b0f463d51ce584db0f67d778d7b18e1acb85e0173df"
+RPM_NAME = "texlive-stage-2023.209.1.03svn62929-58.1.noarch.rpm"
+RPM_HASH = "afdf57e9a4ab9c73328aa50a81a4c2abe7c974a783012f5dbe235387bf28270dee792577316bc3cdcb8af5957cf7a202ad25867e5680df377a3d434cdec6ead6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-stage.cls \

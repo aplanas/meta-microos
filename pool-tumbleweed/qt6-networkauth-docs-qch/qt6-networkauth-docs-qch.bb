@@ -2,10 +2,10 @@ SUMMARY = "Documentation for qt6-networkauth in QCH format"
 DESCRIPTION = "This package contains documentation for qt6-networkauth in QCH format."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-networkauth-docs-qch-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "0df76bba76c0796a59cf0e937940c725b3c81a3eb9bbafd6084c9dcc2b0115e8bf23df6a5d742a600810e430006297ca80f4ff3bc1754f385ea57731d419a251"
+RPM_NAME = "qt6-networkauth-docs-qch-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "2943a38db8d154881bc84ec9b91c2339a5ca0dde251a4e02a4ff785147666b0abe6839eef93bc428ba1633b1224b9fa5859589a8814404b3271445994fe2c6aa"
 
 RPROVIDES:${PN} += "qt6-networkauth-docs-qch"
 

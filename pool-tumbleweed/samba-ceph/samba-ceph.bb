@@ -4,10 +4,10 @@ distributed file system. A Ceph CTDB lock helper binary is included so \
 that RADOS locks can be used for CTDB split-brain avoidance."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.3+git.303.c08b73d523c"
+PV = "4.18.5+git.313.c8e274c7852"
 
-RPM_NAME = "samba-ceph-4.18.3+git.303.c08b73d523c-1.2.aarch64.rpm"
-RPM_HASH = "5d562b35318a31e522bd15b28e6d9605670ff6828fd9e700c53e105119186df7c9d88fb1b6695c609bdfbfff24e925d1efe52da171beecfd57e84ea19a26365c"
+RPM_NAME = "samba-ceph-4.18.5+git.313.c8e274c7852-1.1.aarch64.rpm"
+RPM_HASH = "802010f7daedd3ad43da267d771b08c4869e4e5eb0aee7016d2a2935db14b8bcaab3f831793b173916e549b6b9e02c368e73bd97d986f20181c06ffbfc1c0701"
 
 RPROVIDES:${PN} += "samba-ceph"
 

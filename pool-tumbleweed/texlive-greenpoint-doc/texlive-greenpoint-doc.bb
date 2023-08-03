@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-greenpoint"
 DESCRIPTION = "This package includes the documentation for texlive-greenpoint"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-greenpoint-doc-2023.201.svn15878-53.2.noarch.rpm"
-RPM_HASH = "59aae2f797067f558e9d392405f3eef918afb0d67ff031f484c2c0feeb88889d566765c1336bab1da7cefec0b4776d2626b251a9718de452479b196907ed64ef"
+RPM_NAME = "texlive-greenpoint-doc-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "0d0f2d5ee83d3bc9cba724af87f5c1010f5a5d5b8cbdc52a78793cae90f45a9d7cb1b2d60a751b0cad71df34e2e3290a48ba3278e33b23dea4f5f00d7f8e5408"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-greenpoint-doc"

@@ -9,10 +9,10 @@ symbols are also included mainly to be used in presentations, \
 particularly with the beamer package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn64072"
+PV = "2023.209.1.3svn64072"
 
-RPM_NAME = "texlive-tikz-relay-2023.201.1.3svn64072-52.1.noarch.rpm"
-RPM_HASH = "c01ff347c08df969c4e22d206a5f579770d0b8559db051c0197fd74610ae63277570083717fcfd824457642a9451026fe75a82ab37e4e3d65155d763fd5498cd"
+RPM_NAME = "texlive-tikz-relay-2023.209.1.3svn64072-53.1.noarch.rpm"
+RPM_HASH = "88326287cb9de01a3e9dea80726ac865d91f68a351c5dd8131a27c32be0f4ea5fee8c5b35875bc258a65379f7cc8ee43f511c84a21c3be7bfd16baab6187ca24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzlibrarycircuits.ee.IEC.relay.code.tex \

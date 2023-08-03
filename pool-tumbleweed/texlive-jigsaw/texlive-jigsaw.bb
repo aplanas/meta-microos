@@ -5,10 +5,10 @@ shape, create tile patterns or automatically generate complete \
 jigsaws."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4svn66009"
+PV = "2023.209.0.0.4svn66009"
 
-RPM_NAME = "texlive-jigsaw-2023.201.0.0.4svn66009-55.1.noarch.rpm"
-RPM_HASH = "3776b5fc57f976dd1cdf922ac6c2afacabfbe9e0e3e029ffe3af78d0858ea09e9e3c6ebf408f505dd80458f9f006cf1516e620ff3b810a08dd0df4ead34c789b"
+RPM_NAME = "texlive-jigsaw-2023.209.0.0.4svn66009-56.1.noarch.rpm"
+RPM_HASH = "c286a064bb8e3aac680218440f2bc6442188c11eb7df70a730a43edd95b9299fa18ae4412c1a448bd8c3ac454a7cfc71f8fbe33268ca44f274e2273306703297"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jigsaw.sty \

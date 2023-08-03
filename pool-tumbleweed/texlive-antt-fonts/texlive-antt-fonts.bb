@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-antt"
 DESCRIPTION = "The  separated fonts package for texlive-antt"
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.201.2.08svn18651"
+PV = "2023.209.2.08svn18651"
 
-RPM_NAME = "texlive-antt-fonts-2023.201.2.08svn18651-54.1.noarch.rpm"
-RPM_HASH = "6b6c526bf688d446729741438072980a8ba219e8cc637f10cb7911fb6f51398cc0b81198b1a56c14efdb46a8b3fdcfd59e1dfb43563c2a9a01ab2daab21d120f"
+RPM_NAME = "texlive-antt-fonts-2023.209.2.08svn18651-55.1.noarch.rpm"
+RPM_HASH = "f4bcfd5ebfb73a52ec81a3abebd51036a4df4a6b3655ebd743b9e240bd63056f56b6171e280d024f107f324325bdcb85b1d8322966d795163e2db0ef396ee3e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-antt-fonts \

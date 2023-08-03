@@ -10,10 +10,10 @@ acmart.cls, the official Association of Computing Machinery \
 is carried out by simply changing one option and recompiling."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn55121"
+PV = "2023.209.1.0svn55121"
 
-RPM_NAME = "texlive-anonymous-acm-2023.201.1.0svn55121-54.1.noarch.rpm"
-RPM_HASH = "b5a1b4f32d30f25be77a592e58de050858e324ba60d7ece5804c8e70ad3668dbf001113c1b3e5196221c2369141319833851272021141dcf61e4e1670929ac45"
+RPM_NAME = "texlive-anonymous-acm-2023.209.1.0svn55121-55.1.noarch.rpm"
+RPM_HASH = "1c481aa03ea8ebcfd167b4ddc19fb3437411c1af68f8799aa1a916c164906b68b92abfe65283b7663786eade3b62862ba3ff44827bcf36c03d3e1fd61c19e155"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-anonymous-acm.sty \

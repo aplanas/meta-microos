@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.7.6"
 
-RPM_NAME = "appmenu-gtk2-module-0.7.6-1.6.aarch64.rpm"
-RPM_HASH = "fbf854d7331ee16a3be94d84ab8881f73893a245fe82553d9584afdbfc9110212dffacd97772c75f9742bd5ecca4e5923f6413e5a9341757bcc1dfe158c86a65"
+RPM_NAME = "appmenu-gtk2-module-0.7.6-2.1.aarch64.rpm"
+RPM_HASH = "70edbb6e92efa40a82ddd6c8376e078be47a86b4503b39b3d981554d2088fbf4d00621be725bfa2813759d8ba36e9227aa21246582ab406c17156528bc348151"
 
 RPROVIDES:${PN} += "appmenu-gtk \
 appmenu-gtk2-module \

@@ -5,8 +5,8 @@ LICENSE = "CC-BY-SA-3.0 & GPL-2.0-or-later & GPL-3.0-or-later & LGPL-3.0-or-late
 
 PV = "44.1"
 
-RPM_NAME = "gnome-builder-doc-44.1-1.4.noarch.rpm"
-RPM_HASH = "2e0951e94155a5407f1ce8f063a95e398881732ddd88501aceff0e28cb1a70b1d4c9d5778170079f265c0e13fdf6e82f0070e192465f119b29ec4dcbb1b2a1cf"
+RPM_NAME = "gnome-builder-doc-44.1-1.5.noarch.rpm"
+RPM_HASH = "be17854a7ce3987ced53b07e8a62bb8952b93e9dd44864c6a90820e8e683f045635cbf37ef3a8f444ba55a68ad7ed8c7569c245cab3cae075229daf3f977b64a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-builder-doc"

@@ -4,10 +4,10 @@ statistical presentations. An updated, but incompatible, \
 version of the package is available: statex2."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6svn20306"
+PV = "2023.209.1.6svn20306"
 
-RPM_NAME = "texlive-statex-2023.201.1.6svn20306-57.1.noarch.rpm"
-RPM_HASH = "e385bf905bcd1f7de94b70039389014088cf58bdd05a13974c8ccea4f538edad16ba7436023cd93b575ab3f0ce5ced44ea25f89eb2c56b574fd79c3cb8dfe846"
+RPM_NAME = "texlive-statex-2023.209.1.6svn20306-58.1.noarch.rpm"
+RPM_HASH = "60599984ed36dbd0e82702a3a2ae903145a33b36a243f05e314dd7ca75a784a821da7b86b807d201d3dbe58a8cbbaec2596d0c8e57c5e9b47c5023c6b6b836ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-statex.sty \

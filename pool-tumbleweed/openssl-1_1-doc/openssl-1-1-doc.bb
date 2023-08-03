@@ -5,8 +5,8 @@ LICENSE = "OpenSSL"
 
 PV = "1.1.1u"
 
-RPM_NAME = "openssl-1_1-doc-1.1.1u-4.1.noarch.rpm"
-RPM_HASH = "d29f704b1fccd37632e4eccb7533aebc67cb1e5babec14c19cb8007f3fc8e84046e1483d1a16ad4c8e08b0f9c1c6e6ab1ac5daaebaaa901342948757b3200053"
+RPM_NAME = "openssl-1_1-doc-1.1.1u-5.1.noarch.rpm"
+RPM_HASH = "bf0fd311572e6cb4aec670cf91d245f338f0adea3f6c9c60165292e0e7f9b3142b5a0c3be544ae468e836daa82755ee9baf2ae8299f5d70af0cccc98e7ec5369"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openssl-1-1-doc \

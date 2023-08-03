@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Intel-platform device drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230707"
+PV = "20230724"
 
-RPM_NAME = "kernel-firmware-intel-20230707-1.1.noarch.rpm"
-RPM_HASH = "b83fd78f5a27ba262fbadfe2bcf1d933aea70e4fe893db755728de0172e25aa5d32129e9b052d743c96e3d6a64546ae8428ca84cef05742a765e8c0f1de47e00"
+RPM_NAME = "kernel-firmware-intel-20230724-1.1.noarch.rpm"
+RPM_HASH = "7fc948444923a9463a43759df4ff79143ccc7bf9d1a324f03e1ef4ec6f6aa5fa2425057e40d9ca2c59e788149dcd40ba17ac5eef3886d69b1dc8d812cf5077d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-hfi1-dc8051.fw \

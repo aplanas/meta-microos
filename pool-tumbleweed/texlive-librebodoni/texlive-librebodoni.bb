@@ -4,10 +4,10 @@ Rodrigo Fuenzalida, based on the 19th century Morris Fuller \
 Benton's."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64431"
+PV = "2023.209.svn64431"
 
-RPM_NAME = "texlive-librebodoni-2023.201.svn64431-54.1.noarch.rpm"
-RPM_HASH = "01ca4955af1c6f36f9c6a777eb14a627b31a03f9e9d83dfee2c9a6831d186836dcefe5e39738d15032b474b4a1fb9ecee4b7b82b553e2d54d9226e45593981b1"
+RPM_NAME = "texlive-librebodoni-2023.209.svn64431-55.1.noarch.rpm"
+RPM_HASH = "95ccb0a5f6e5cbad3455ebe46d52ffcdd749619ed5198ae00b4965a8bb16e3cf153de50d1e0eec597d2d3f3a6e69a9c9b3353d21a6e7c9a9c23a96bc16672df3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1LibreBodoni-Inf.fd \

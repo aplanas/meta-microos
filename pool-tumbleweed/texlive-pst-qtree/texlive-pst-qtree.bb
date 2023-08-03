@@ -2,10 +2,10 @@ SUMMARY = "Simple syntax for trees"
 DESCRIPTION = "The package provides a qtree-like front end for PSTricks."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-pst-qtree-2023.201.svn15878-53.2.noarch.rpm"
-RPM_HASH = "bf36c0ade20cab633f8eeec946a769178579265c642196ea5abe42dc5008608141bb5b18f41c4b56a851365b4e64695a45a80f1dedefca4e1aad82f967978420"
+RPM_NAME = "texlive-pst-qtree-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "0e70af8e77bc23af5b62e1704328fd25186bc5ee3bf5c43906b2c12bae1353a31b6fb41557b5adf6058ccd004e9711cd65f8c915c3116c171729eb1254799cb2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-qtree.sty \

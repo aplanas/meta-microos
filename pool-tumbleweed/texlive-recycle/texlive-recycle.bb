@@ -4,10 +4,10 @@ in Adobe Type 1 format. It is accompanied by a trivial LaTeX \
 package to use the logo at various sizes."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-recycle-2023.201.svn15878-53.2.noarch.rpm"
-RPM_HASH = "9d1191ea1eb5054900e5a45fad91fbc7f51de9efe9aba7cdd6a3d3e4d9611eb27f5bb7874600febdaca8ee1912e4802643484bbbb5603b7ed75d3fb167010c27"
+RPM_NAME = "texlive-recycle-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "0815288d4a6fa03d99c70069c68c8af1012813cd57775f5e30fff2229c07a97424063b73fc17ad30f6127d528817403dc4d990fa522600e4ece7e4a3bbd943d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-recycle.map \

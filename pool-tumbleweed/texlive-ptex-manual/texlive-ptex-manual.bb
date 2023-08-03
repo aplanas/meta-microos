@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the Japanese pTeX manual. Feedback is \
 welcome!"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.svn66182"
+PV = "2023.209.svn66182"
 
-RPM_NAME = "texlive-ptex-manual-2023.201.svn66182-53.2.noarch.rpm"
-RPM_HASH = "7afff6d595a43340c9d252901ba593d392724ee5cab400c91d2a4ffa4b6b0eb7c6640007919de6f8f14c4d9b891b7fb25d3f3b024253deac29b92ebfd78144c5"
+RPM_NAME = "texlive-ptex-manual-2023.209.svn66182-54.1.noarch.rpm"
+RPM_HASH = "ea922fedeebcc8675d8637580cec596b1983e6db965069b2cf13abe13ef9995b02e23f0dfe72307b09148d5611207645849554467de11a4a474b9f7ed647ddd2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ptex-manual"

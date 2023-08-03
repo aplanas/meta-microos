@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-baekmuk"
 DESCRIPTION = "The  separated fonts package for texlive-baekmuk"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.2.1svn56915"
+PV = "2023.209.2.2.1svn56915"
 
-RPM_NAME = "texlive-baekmuk-fonts-2023.201.2.2.1svn56915-53.1.noarch.rpm"
-RPM_HASH = "5e9afd53ae46bef5f902a6303a88d950fdfb0a5764cab1e9b9c0e47b06383bee1a8fb44d8086daad274f562c4c2cbc3d7f7e383b70a2c9eb50ee08213a3b0eb1"
+RPM_NAME = "texlive-baekmuk-fonts-2023.209.2.2.1svn56915-54.1.noarch.rpm"
+RPM_HASH = "64a84b83ca87e035ca7346a17093fca5e0da124a19ab48dcae9a72e49d8f50e662d6ba81e474d20f241be672b4bd5d2f194029bf7b0276f866b64c5d60caa0af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=bg \

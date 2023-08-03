@@ -3,24 +3,24 @@ DESCRIPTION = "This kernel has several debug facilities enabled that hurt perfor
 Only use this kernel when investigating problems. \
  \
  \
-Source Timestamp: 2023-07-11 06:23:11 +0000 \
-GIT Revision: 5ab030f1f07fd96746960bce337ec62fc11b6a9a \
+Source Timestamp: 2023-07-25 04:42:30 +0000 \
+GIT Revision: 55520bc826c5b1d40857ed0536eb87438cb95192 \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.3"
+PV = "6.4.6"
 
-RPM_NAME = "kernel-debug-6.4.3-1.1.aarch64.rpm"
-RPM_HASH = "0008dc78ae8080ab89682dc5916d8dd26261485a4bf4bc618c9bef1968a5c1c5c3c18e095931f16c0dfed60e931b7cecd9a73e30234c8b97252308e7b3a75fc0"
+RPM_NAME = "kernel-debug-6.4.6-1.1.aarch64.rpm"
+RPM_HASH = "1c057d1368d2d65515023a757fc7cc2548f98c9936197a3aee028c7dcb024b85b9a309bc2dc2c0fb9e32b4064b9527b7148514fbfc58813206d2475ad3c57e79"
 
 RPROVIDES:${PN} += "kernel \
 kernel-base \
 kernel-debug \
-kernel-debug-6.4.3-1 \
+kernel-debug-6.4.6-1 \
 kernel-debug-aarch64 \
-kernel-debug-base-srchash-5ab030f1f07fd96746960bce337ec62fc11b6a9a \
-kernel-debug-srchash-5ab030f1f07fd96746960bce337ec62fc11b6a9a \
-kernel-srchash-5ab030f1f07fd96746960bce337ec62fc11b6a9a \
+kernel-debug-base-srchash-55520bc826c5b1d40857ed0536eb87438cb95192 \
+kernel-debug-srchash-55520bc826c5b1d40857ed0536eb87438cb95192 \
+kernel-srchash-55520bc826c5b1d40857ed0536eb87438cb95192 \
 kernel-uname-r \
 kmod-3c59x.ko \
 kmod-3w-9xxx.ko \
@@ -3274,7 +3274,6 @@ kmod-mos7840.ko \
 kmod-motorcomm.ko \
 kmod-motorola-cpcap.ko \
 kmod-mousedev.ko \
-kmod-moxa.ko \
 kmod-moxtet.ko \
 kmod-mp2629-adc.ko \
 kmod-mp2629-charger.ko \
@@ -6117,7 +6116,6 @@ kmod-sym53c8xx.ko \
 kmod-symbolserial.ko \
 kmod-synaptics-i2c.ko \
 kmod-synaptics-usb.ko \
-kmod-synclink-gt.ko \
 kmod-synopsys-edac.ko \
 kmod-syscon-reboot-mode.ko \
 kmod-syscopyarea.ko \

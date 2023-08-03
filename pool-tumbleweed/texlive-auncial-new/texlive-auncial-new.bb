@@ -11,10 +11,10 @@ bookhands. Access to the encoding is essential. The encoding \
 mainly follows the standard T1 encoding."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn62977"
+PV = "2023.209.2.0svn62977"
 
-RPM_NAME = "texlive-auncial-new-2023.201.2.0svn62977-53.1.noarch.rpm"
-RPM_HASH = "5167d36c99343029ec6895e1721befaa73aedb07b695b17d0735c4c0e7e28cd9ab05c7a7fdb1c325818f22c792c1058a76b5ada00261f0aab8633901a8c181a3"
+RPM_NAME = "texlive-auncial-new-2023.209.2.0svn62977-54.1.noarch.rpm"
+RPM_HASH = "f3e10263569c9b19dc5e777a76bb3fe6cf024872b9668a8bd3c279b9a3f7d8bac0bd6cd115255f41217d733b6616403a128b7d155e433be04e041dd683bab94c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-allauncl.sty \

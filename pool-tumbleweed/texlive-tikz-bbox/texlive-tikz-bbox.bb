@@ -6,10 +6,10 @@ general larger than the box that just contains the curve. This \
 library determines the exact bounding box of the curve."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn57444"
+PV = "2023.209.0.0.1svn57444"
 
-RPM_NAME = "texlive-tikz-bbox-2023.201.0.0.1svn57444-54.1.noarch.rpm"
-RPM_HASH = "416f5969ca0047efe8286fe9f51f7b5153e1bb7072ff97ee3d7cfc3699c665fdb3385af5218dca2a51b3e82c16d5d663be4fbaf7dbc904479b79c95f36773dc8"
+RPM_NAME = "texlive-tikz-bbox-2023.209.0.0.1svn57444-55.1.noarch.rpm"
+RPM_HASH = "1970d3ff386402d75a5e95d491ed41fd62d6d446269b9cf69fcd3759c3ef390808aa7444d57e860e3db500805e0f75f4bc449d17ce849a6155bfd0e20dd9b3d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pgflibrarybbox.code.tex \

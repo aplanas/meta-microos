@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains popular themes for the foot terminal emulat
 users an easy way to theme foot."
 LICENSE = "MIT"
 
-PV = "1.15.0"
+PV = "1.15.2"
 
-RPM_NAME = "foot-themes-1.15.0-1.1.noarch.rpm"
-RPM_HASH = "4a54a7f10e84a007b35baf780deec3e7702de5ee0e755f446865b5cb6e0823d93252f8bcac119423ad82e8710e70f3029dd46fe936480b455fbc2f555134bd9c"
+RPM_NAME = "foot-themes-1.15.2-1.1.noarch.rpm"
+RPM_HASH = "d6e18e4c2948bb5003acf6ce16089fdca7f8db39067b571d9e2870ea7e8aa4f0c5037edda6002291660e58640c8fe0695a6d0bd8e52e324bfff0786d7c93e64f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "foot-themes"

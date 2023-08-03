@@ -5,10 +5,10 @@ easy manipulation of equations involving brackets and allow \
 partial differentials to be expressed in an alternate form."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn35383"
+PV = "2023.209.1.2svn35383"
 
-RPM_NAME = "texlive-bropd-2023.201.1.2svn35383-52.1.noarch.rpm"
-RPM_HASH = "acb6825561861bd748bca9c3d827ea27026a5ec5b34e04070b5104985cf54579e147393d34fa17d62557a24bd422ee34a9d8890a904b358e0472f9de906d61fc"
+RPM_NAME = "texlive-bropd-2023.209.1.2svn35383-53.1.noarch.rpm"
+RPM_HASH = "2459d61f3653239442cea9542153bde9e147949b52f4f7d92e6409ef9e17b26e6fc145674f75b07113cea4fe8d2835e1d4b7a5c15cab51a1dbf0a241d128e9e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bropd.sty \

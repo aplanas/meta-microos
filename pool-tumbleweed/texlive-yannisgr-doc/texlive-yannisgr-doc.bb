@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-yannisgr"
 DESCRIPTION = "This package includes the documentation for texlive-yannisgr"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn22613"
+PV = "2023.209.svn22613"
 
-RPM_NAME = "texlive-yannisgr-doc-2023.201.svn22613-52.2.noarch.rpm"
-RPM_HASH = "0ad1fe751459b1c58a21676867b038db112ed16c863cad769dc62d4466685d78f5c746730fe553b8e444095c17d34988177d19151a2dfbf4b890c505c52a0a4b"
+RPM_NAME = "texlive-yannisgr-doc-2023.209.svn22613-53.1.noarch.rpm"
+RPM_HASH = "cdde74663b35cfc9dea4b330382f4be25a39cc187158b5af843ee73cfc11ee826bf20fe5004c4e7dd480b176b97998e3ad83ec15e67e58e08d0767ff4bd69a5f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yannisgr-doc"

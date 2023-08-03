@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-thesis-ekf"
 DESCRIPTION = "This package includes the documentation for texlive-thesis-ekf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.2svn60228"
+PV = "2023.209.4.2svn60228"
 
-RPM_NAME = "texlive-thesis-ekf-doc-2023.201.4.2svn60228-54.1.noarch.rpm"
-RPM_HASH = "fa9b7df3ea8988f90a4cdf8bdf9eda458dfcb9f057549394d581ea55e3225e0a7ebfcd93a786038d4e4fa6d4d20e21f927c72d2acaea8e01d221e706069eee47"
+RPM_NAME = "texlive-thesis-ekf-doc-2023.209.4.2svn60228-55.1.noarch.rpm"
+RPM_HASH = "7026f9449a2870d9d1c5f1452d073361acf81f32a03edf1720131da6ec0ce4941b65a3e7ed7e89fb7e04d831aa966591c1344848454461ec86fec42e028d9eb7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-thesis-ekf-doc-hu \

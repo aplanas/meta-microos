@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.5.0"
 
-RPM_NAME = "libvirt-daemon-driver-secret-9.5.0-1.1.aarch64.rpm"
-RPM_HASH = "a468ff80e974d0aada50a15ad07c306e88bfd5a6bfcd943a16648db3690c9048d42876c6990ade64c0698aabcc16a7db7130b6dfc75dd09086062946bc1276cc"
+RPM_NAME = "libvirt-daemon-driver-secret-9.5.0-2.1.aarch64.rpm"
+RPM_HASH = "8ea8c2f285e850422c10d0747db5ab4d0eb896f9ba0de8a905eeed50bd3643b6e937e2cbd1c4319ee5f7e714280f2c1b1d8e229bc6e7514a52a9910eee727295"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-driver-secret \
 libvirt-daemon-driver-secret \

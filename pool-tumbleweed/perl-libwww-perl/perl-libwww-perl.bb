@@ -2,10 +2,10 @@ SUMMARY = "The World-Wide Web library for Perl"
 DESCRIPTION = "The World-Wide Web library for Perl"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "6.71"
+PV = "6.720.0"
 
-RPM_NAME = "perl-libwww-perl-6.71-1.1.noarch.rpm"
-RPM_HASH = "79e3b8943471d16b6b0719925ebf94fdb45433f90e339649c1ae78392ebdd3b5148d94da23ddd6a0e5828d5f410d2374df844745ad9ee65fa444de00812666e9"
+RPM_NAME = "perl-libwww-perl-6.720.0-1.1.noarch.rpm"
+RPM_HASH = "0e1636f8d55f00f09556f92950762356e36dc65b757b07fd0e9a871ce70f05116fe6cd5cdd37b81770cd71746b105be4b30db625aec6ab0f69b7427ab7cbc243"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-LWP \

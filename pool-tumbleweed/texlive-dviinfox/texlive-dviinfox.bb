@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a perl script which prints information \
 about a DVI file. It also supports XeTeX XDV format."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.06svn59216"
+PV = "2023.209.1.06svn59216"
 
-RPM_NAME = "texlive-dviinfox-2023.201.1.06svn59216-53.2.noarch.rpm"
-RPM_HASH = "c9b198e9c8f0b89fd1241a0e0034086fde1f8e1f42cc4f7eeb68c5fb7704fe6537a94701d08d136abf13606cd90fc8c6df3c4a295584425da60eb8ed33bdfc2e"
+RPM_NAME = "texlive-dviinfox-2023.209.1.06svn59216-54.1.noarch.rpm"
+RPM_HASH = "1aaa141955e75f7221d2a4534cc93254119111bacd4c4338a22c353072a937c1b2d24b2667b1804e3e8b19448516f67a3aa91b18d4fdc73bed5ac4d82c5962ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dviinfox"

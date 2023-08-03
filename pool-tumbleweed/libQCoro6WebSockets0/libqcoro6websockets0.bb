@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.9.0"
 
-RPM_NAME = "libQCoro6WebSockets0-0.9.0-1.2.aarch64.rpm"
-RPM_HASH = "75752dded4f9fccf1cfedb977fe9440ec44147e5b26b58474538827f94ae27687cc00abcf534676acfc5f074bef029d7855ee09569b292868bff6e6c9534b6d4"
+RPM_NAME = "libQCoro6WebSockets0-0.9.0-1.3.aarch64.rpm"
+RPM_HASH = "2ca3d500485401cdd63cf308145e2fd9d3702934c65a93111dec91686a110b3ff0696e3917ffc915500e102dc249614ac8ccc0eb4a3006d8a4985dd1862a93b5"
 
 RPROVIDES:${PN} += "libQCoro6WebSockets.so.0 \
 libQCoro6WebSockets0"

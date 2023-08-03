@@ -6,10 +6,10 @@ lni-author-template.tex and edit it in your favorite LaTeX \
 editor."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.7svn58061"
+PV = "2023.209.1.7svn58061"
 
-RPM_NAME = "texlive-lni-2023.201.1.7svn58061-54.1.noarch.rpm"
-RPM_HASH = "0d372eb25e8259416cca1f25ae9343318c415f9252e2ff38f5eb2153dee12edeaf1874c7812ad898ab170dbc839a0485b882cd900cf3efdd79b4295fa8df16e5"
+RPM_NAME = "texlive-lni-2023.209.1.7svn58061-55.1.noarch.rpm"
+RPM_HASH = "edf4522074abed5add5609b89ae43e284a1d6be013478c3d39406d2f9f470b623128cd68f61e89305ccc399b3ee619c69139a54f89fe0f8021885206ed339587"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lni.cls \

@@ -3,10 +3,10 @@ DESCRIPTION = "This is the Italian translation of the Short Introduction to \
 LaTeX2e."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.6.2svn57038"
+PV = "2023.209.6.2svn57038"
 
-RPM_NAME = "texlive-lshort-italian-2023.201.6.2svn57038-54.1.noarch.rpm"
-RPM_HASH = "7deaedfafcdd82cd0df820652edc4f182198a950315dedc7424b45113e835d15239478514a0b1e80c31e424e94786275315adbba36791b75d45a3dbaf049272a"
+RPM_NAME = "texlive-lshort-italian-2023.209.6.2svn57038-55.1.noarch.rpm"
+RPM_HASH = "cab075049bcb2a4674ee35ba6a665896a97629aef3a27ce2db9e452916601477ddff4d9324ba0512aae86bb9f367921eeade0c586659457b255fb8cc5c38dfb8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lshort-italian"

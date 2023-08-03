@@ -19,10 +19,10 @@ distribution is the bbox program, an application to produce \
 Bounding Box values for rawppm or rawpbm format files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.70svn62856"
+PV = "2023.209.1.70svn62856"
 
-RPM_NAME = "texlive-ps2eps-2023.201.1.70svn62856-52.1.noarch.rpm"
-RPM_HASH = "b5a9ab08ba148839e82093bbbc6ae1aa7eb0f2a94b774ecac5f4d6e765ed2869e4faddfb3465eaabe696d93c81fa997efec3eff60713c5eadb29b457bf3ddab2"
+RPM_NAME = "texlive-ps2eps-2023.209.1.70svn62856-53.1.noarch.rpm"
+RPM_HASH = "d7ceb00b905d9cf69ae1feb26052e123806b1387f2f8d0181938dc656d32b9464c5eedec3d9c40b843602a2409fc16a4ff1f65900543ee72b09a0169e9733814"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ps2eps \

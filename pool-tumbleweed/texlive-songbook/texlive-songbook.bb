@@ -10,10 +10,10 @@ The package attempts to handle songs in multiple keys, as well \
 as songs in multiple languages."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.201.4.5svn18136"
+PV = "2023.209.4.5svn18136"
 
-RPM_NAME = "texlive-songbook-2023.201.4.5svn18136-57.1.noarch.rpm"
-RPM_HASH = "8ffedeac95b9da55d7cb77a94981429a6220d84ea43fb4d4d58d0212f4b8da4e2672f200c55d3d80a732b523fb920e9ca0acde6695147b3975fc371dbee5359e"
+RPM_NAME = "texlive-songbook-2023.209.4.5svn18136-58.1.noarch.rpm"
+RPM_HASH = "da096f12c8cea6d015f15a32924d94e7c77047966ddee9ea29ca72943b8de3a6af3e3cd2e19b2367972531e287347d12496a3c25d4cd838166d2bb16cae8602b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-conditionals.sty \

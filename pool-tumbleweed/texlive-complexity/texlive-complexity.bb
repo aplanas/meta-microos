@@ -8,10 +8,10 @@ ones). The package has no dependencies other than the standard \
 ifthen package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.81asvn45322"
+PV = "2023.209.0.0.81asvn45322"
 
-RPM_NAME = "texlive-complexity-2023.201.0.0.81asvn45322-53.1.noarch.rpm"
-RPM_HASH = "90f84c1fc08bedbcbe5fe617c5c2a1b508ebf42483d34a4f9717d189de033a6e3d20b82bec4b41e61a1fbf87544d822e712575dcf2119a0ceaec273a094c73cd"
+RPM_NAME = "texlive-complexity-2023.209.0.0.81asvn45322-54.1.noarch.rpm"
+RPM_HASH = "24465aef304aec9cbb39fecfd42422d4fb03cfc2ed4f98872fa1d643446c31374068c5487d9e400953d8666794883beebcb8ad13eb2a9b4c7d37d30d65e1e788"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-complexity.sty \

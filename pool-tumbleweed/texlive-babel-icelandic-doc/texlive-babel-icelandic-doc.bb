@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-icelandic"
 DESCRIPTION = "This package includes the documentation for texlive-babel-icelandic"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn51551"
+PV = "2023.209.1.3svn51551"
 
-RPM_NAME = "texlive-babel-icelandic-doc-2023.201.1.3svn51551-53.1.noarch.rpm"
-RPM_HASH = "4558bb6c7e7d4c3fb2d78c25681f79b10ff7d865caa5149020cf03fe16c050fd41caa755bcf4b25078e24ffa8d6f9475351bff8081df2caf6eca3135aa901c9e"
+RPM_NAME = "texlive-babel-icelandic-doc-2023.209.1.3svn51551-54.1.noarch.rpm"
+RPM_HASH = "42a4c204c39859aaf2cc3d861e8507c4626a796fedb5abb5e1e14cde1f93e6bb3f1a9d88f002aad352d69a819f04d6a59f175b908b2ca684e00674aa6c5fcf08"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-icelandic-doc"

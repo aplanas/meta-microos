@@ -2,10 +2,10 @@ SUMMARY = "The X Protocol"
 DESCRIPTION = "The pthread-stubs for X development"
 LICENSE = "MIT"
 
-PV = "0.4"
+PV = "0.5"
 
-RPM_NAME = "pthread-stubs-devel-0.4-1.16.aarch64.rpm"
-RPM_HASH = "1d43482dc8e8d332aabd4dcbb431355e6486c3f4a71021dc2e7b44c22626d51b8a90491ac38a672095be711c38acea62a20716f5091a021a09d59b735d2bd0c2"
+RPM_NAME = "pthread-stubs-devel-0.5-1.1.aarch64.rpm"
+RPM_HASH = "6a024cfdd8dcd189995b3cf81c7b3eec3655db7c84b2554323c91d51335827db3a8e293ae56525c02dbd47e8044ffc4da2ead5a17348c04c2248ed8815ba1762"
 
 RPROVIDES:${PN} += "pkgconfig-pthread-stubs \
 pthread-stubs-devel \

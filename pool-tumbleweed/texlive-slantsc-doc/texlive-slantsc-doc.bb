@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-slantsc"
 DESCRIPTION = "This package includes the documentation for texlive-slantsc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.11svn25007"
+PV = "2023.209.2.11svn25007"
 
-RPM_NAME = "texlive-slantsc-doc-2023.201.2.11svn25007-57.1.noarch.rpm"
-RPM_HASH = "e11ff7fb5ac5259617e2d461de257275db0ebe1e7ce8d398642543b7c94a70d36ebae3839a97d6aa6d0ec9d3ab551d9ac326a8acdf4391f2c10cbaeddff5edbb"
+RPM_NAME = "texlive-slantsc-doc-2023.209.2.11svn25007-58.1.noarch.rpm"
+RPM_HASH = "3bd9833bc37bdf62f29ed927d936a7b7cd2b1c61cbce0a5a5bfecfd0689101e5da06e11fadf783bb1c305bf2095f271ac0d23243c52640d2841b518002b3abdb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-slantsc-doc"

@@ -6,10 +6,10 @@ updates from the Japanese TeX Development Community, it is now \
 maintained as part of TeX Live."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.3.72svn66186"
+PV = "2023.209.3.72svn66186"
 
-RPM_NAME = "texlive-bibtexu-2023.201.3.72svn66186-53.1.noarch.rpm"
-RPM_HASH = "67a1524ca948bbad2d03b16fb8dab563acc6d69721fa3edb98fd523c86f4f19457446c42e639186c010ffc90079223da0b40fb7c796ea74f1e35ea65f31c1c26"
+RPM_NAME = "texlive-bibtexu-2023.209.3.72svn66186-54.1.noarch.rpm"
+RPM_HASH = "e86eab76a02c67c641bd8a17d4c5385744a8c3dfdeb2861cb207708e88a4fafbd15693ec677ea6211e25f5e6ee21f366eabe808f507c6d2c096e8c9dd9adf3ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-bibtexu.1 \

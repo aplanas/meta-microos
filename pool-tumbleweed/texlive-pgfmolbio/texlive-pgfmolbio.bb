@@ -4,10 +4,10 @@ texts. Currently, the package contains modules for drawing DNA \
 sequencing chromatograms and protein domain diagrams."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.21svn35152"
+PV = "2023.209.0.0.21svn35152"
 
-RPM_NAME = "texlive-pgfmolbio-2023.201.0.0.21svn35152-51.1.noarch.rpm"
-RPM_HASH = "99232aabf46691bebab1a4a2af86a0ed1c2cbf3257c7e80162d1c7d31238e314ffa7e448ed539d82c24967d0c1a10714da659854b1063fcc9b57b9024fa962f7"
+RPM_NAME = "texlive-pgfmolbio-2023.209.0.0.21svn35152-52.1.noarch.rpm"
+RPM_HASH = "8d697c61e0711201d8998b090606ec25090e5e3b5cfab7b1d1580806e83c93a42ab038af5fdef3658bde9cc56d51a6372f12931e42b2f8fe05467a2bde494bcf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pgfmolbio.chromatogram.tex \

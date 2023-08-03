@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hexgame"
 DESCRIPTION = "This package includes the documentation for texlive-hexgame"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-hexgame-doc-2023.201.1.0svn15878-53.2.noarch.rpm"
-RPM_HASH = "b47dbd2843a8b071ff34b953d516fdab65ab8e3b8260c14f77ac839ed37c459576dbd74517e6055bbf403d2fa3b97b52ba7a8b3e17160dacd151acad618e3f64"
+RPM_NAME = "texlive-hexgame-doc-2023.209.1.0svn15878-54.1.noarch.rpm"
+RPM_HASH = "9c7cfc2a10c43dbb3bbcfaa302614201bbafa268d11124a1efd3e6e4d4b3817c8fcd46d0d2f74567fca6ed485a7a189d36f090a81d63f066dab44ce1e243a78d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hexgame-doc"

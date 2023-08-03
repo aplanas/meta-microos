@@ -8,10 +8,10 @@ Harel-extensions for the Play-In/Play-Out approach (cf. the \
 manual)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-lsc-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "bff176cc7b05b6250002c9ac3d70f906d3513376e774f5fd2a81aab66f349d5776ea6e163f92a075adc2a0194d77a142a31b8ac27c5637109f2b178b67d4c828"
+RPM_NAME = "texlive-lsc-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "a28cd6507e48167d57033ce64f0e0f776bb890a1bbb6801954bb842be3faaaa7e3f1db1a2345d94ceed937995afcfd27c628ff13579180367879f694f5a95017"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lsc.sty \

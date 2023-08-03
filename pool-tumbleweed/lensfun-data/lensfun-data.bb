@@ -1,4 +1,4 @@
-SUMMARY = "Data files for lensfun/lensfun-devel"
+SUMMARY = "Data files for lensfun"
 DESCRIPTION = "The goal of the lensfun library is to provide a open source database \
 of photographic lenses and their characteristics. In the past there \
 was a effort in this direction (see http://www.epaperpress.com/ptlens/), \
@@ -16,10 +16,10 @@ transversal (also known as lateral) chromatic aberrations, vignetting \
 and colour contribution index of the lens."
 LICENSE = "CC-BY-SA-3.0 & LGPL-3.0-only"
 
-PV = "0.3.3"
+PV = "0.3.4"
 
-RPM_NAME = "lensfun-data-0.3.3-1.8.noarch.rpm"
-RPM_HASH = "93c2432df3ad61f8b204a49edce72e37a437aef99d8f560265d6861a4c6ebd94cea51c129b5d824adfd31e25517e629d94d1fdb0361738791aab35da1816ab00"
+RPM_NAME = "lensfun-data-0.3.4-1.1.noarch.rpm"
+RPM_HASH = "a0a430dacde35321c81eb4b22cecd6a585130287082c57aff8f7ec91dfe55cd6bbc456d6681338acf08bb6ec4feff15d796e3bfae1b7a5a5164970062505b756"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lensfun-data"

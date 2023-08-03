@@ -4,10 +4,10 @@ between different versions of a LaTeX file. Technically, it is \
 a wrapper around git and latexdiff."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.1.6.0svn54732"
+PV = "2023.209.1.6.0svn54732"
 
-RPM_NAME = "texlive-git-latexdiff-2023.201.1.6.0svn54732-52.1.noarch.rpm"
-RPM_HASH = "167569e6f0749093da6c9ff78a77f019093e11e1545c49cc0cbda6d7e0a59b8000b41d6c25608c86a61a811f6e66635c6817d80ddd9f4847aa600645cc0ccfdc"
+RPM_NAME = "texlive-git-latexdiff-2023.209.1.6.0svn54732-53.1.noarch.rpm"
+RPM_HASH = "c102e496234b85f22d9edb5ddcf427e9152f63fc8274d88f249585bd6de0ea32533b621daf548b13cbea1e09fcd58f72c4156fb14193354d6b1a0d73d2c57b03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-git-latexdiff"

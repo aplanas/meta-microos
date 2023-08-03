@@ -8,10 +8,10 @@ related eledpar package. The package is now superseded by \
 reledmac."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.24.12svn45418"
+PV = "2023.209.1.24.12svn45418"
 
-RPM_NAME = "texlive-eledmac-2023.201.1.24.12svn45418-53.2.noarch.rpm"
-RPM_HASH = "dca60bad253e1a13a06589e462be07a4cf7c2de50703300130c3523cfeae6f22bb8690987d12dba8d7aa4cc07472d003e9cfbf8b9d41ae5638c88ce384db38ce"
+RPM_NAME = "texlive-eledmac-2023.209.1.24.12svn45418-54.1.noarch.rpm"
+RPM_HASH = "c11b3f55d91d581f0bf8c7a308752f02a21ad2969f852dbc56df7f362842aee55f0377754ef58c562059c387390e34138d9d8bc8b69f912a02555ce40f2836e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eledmac.sty \

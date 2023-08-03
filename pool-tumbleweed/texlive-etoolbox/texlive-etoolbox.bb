@@ -11,10 +11,10 @@ nevertheless, the package will not modify any part of the LaTeX \
 kernel."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.5ksvn56554"
+PV = "2023.209.2.5ksvn56554"
 
-RPM_NAME = "texlive-etoolbox-2023.201.2.5ksvn56554-52.1.noarch.rpm"
-RPM_HASH = "f365390109a91c6d0e47a824244af7ed427a34bf4f08b64193ab731226257f524c94ded44266884365b2b88bb6e9a18da9534986fee600e42453f61cba90b0a6"
+RPM_NAME = "texlive-etoolbox-2023.209.2.5ksvn56554-53.1.noarch.rpm"
+RPM_HASH = "f6a8161149fea6804420faab3e2fe9c582fdf8583f9aa1e023c52a3265b6c61f82b89cb8975a8e603627022a94c968e2565c54757e40d64dc0ed74cf866223e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-etoolbox.def \

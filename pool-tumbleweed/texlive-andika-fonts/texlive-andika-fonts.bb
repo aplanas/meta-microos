@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-andika"
 DESCRIPTION = "The  separated fonts package for texlive-andika"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.6.101svn64540"
+PV = "2023.209.6.101svn64540"
 
-RPM_NAME = "texlive-andika-fonts-2023.201.6.101svn64540-54.1.noarch.rpm"
-RPM_HASH = "1b757cbd69f6077a6b605bc6b076525dab21f1eb7fbf2fc70c6feaaeb60cb4c727b4c2022bb102f2c3077dc42e15668f0de368aca6964c0e257650aa0a8c8622"
+RPM_NAME = "texlive-andika-fonts-2023.209.6.101svn64540-55.1.noarch.rpm"
+RPM_HASH = "94c64aa90468a8401fb43441d3e99b58d5b0a4c57cc5b7bb80677009dddc3eb0373bead150f5c757d553dba08c312af300887e858a50fef850e23c639f37667d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-andika-fonts \

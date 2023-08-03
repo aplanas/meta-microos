@@ -10,10 +10,10 @@ document source, and; listing environments may easily be \
 customised and extended."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.7svn24638"
+PV = "2023.209.0.0.7svn24638"
 
-RPM_NAME = "texlive-jvlisting-2023.201.0.0.7svn24638-55.1.noarch.rpm"
-RPM_HASH = "cfa181bc40f68040bffebe9246d32a5cf74cbd1516f8fa8045276b1d04abf70c4e7d446431d6ff5164b83045036bfebb58f6a5dab5fdd8bd3b7eea244d26b893"
+RPM_NAME = "texlive-jvlisting-2023.209.0.0.7svn24638-56.1.noarch.rpm"
+RPM_HASH = "302946cf79f82b7cbad9fc8d5d4bf2dd5dd8e69b1332dcb3ad9829ace621bfc5cdf4451e36e4191b63c532207d1eeffeb5b9bf6afe7138475babddb729dd231d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jvlisting.sty \

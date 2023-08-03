@@ -4,10 +4,10 @@ plugins as resource agents. These files were produced from help \
 pages of individual nagios plugins."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "4.12.0+git30.7fd7c8fa"
+PV = "4.12.0+git50.5c26404e"
 
-RPM_NAME = "monitoring-plugins-metadata-4.12.0+git30.7fd7c8fa-1.2.noarch.rpm"
-RPM_HASH = "3ce825809ea3d83ffbe6708c81603b5068d380ad25bdac6cdf8303ddfe33c46e6fc4d7abb097172544b24d1a40d5e294eebc669c7956b5fdc986a4281dffae6f"
+RPM_NAME = "monitoring-plugins-metadata-4.12.0+git50.5c26404e-1.1.noarch.rpm"
+RPM_HASH = "346dccd577d23dbd7a2bea9b57dcb0edfc4ee3a69dfa9e8f283aaaacd67051552e38e7569e7d2049102ddc73577b0515e732207ac03f6a481b710bd5e99fec72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-metadata \

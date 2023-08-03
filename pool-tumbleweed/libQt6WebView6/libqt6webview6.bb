@@ -4,10 +4,10 @@ including a full web browser stack, Qt WebView uses native APIs where \
 appropriate."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6WebView6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "ac3ababc9afa4409dc8f55c4f25c9b01fdbd42f9766ea54a6ed962db037d43c2236f47d77e7b245c731e40700e274db3d5c29fe3cec79f7144d95760c1cee4ae"
+RPM_NAME = "libQt6WebView6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "5c3b7d8fd1381bb61dfa49d3aefe9f73b2a6bc4393a78717e9849a74e405ca72b20b181699b84d242a27a5d0f8f04f599c9158a84354dfc2bb7263492b6543a4"
 
 RPROVIDES:${PN} += "libQt6WebView.so.6 \
 libQt6WebView6"

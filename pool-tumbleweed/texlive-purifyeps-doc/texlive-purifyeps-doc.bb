@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-purifyeps"
 DESCRIPTION = "This package includes the documentation for texlive-purifyeps"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn29725"
+PV = "2023.209.1.1svn29725"
 
-RPM_NAME = "texlive-purifyeps-doc-2023.201.1.1svn29725-53.2.noarch.rpm"
-RPM_HASH = "0f0a6f9a8e4f44198c140504dc2620510afece010f549d7c4950fb5db1fb87b83a91025584217a2d1bda27bed049e5d1e6be4d6079ae63b2a6df8618ce042c4e"
+RPM_NAME = "texlive-purifyeps-doc-2023.209.1.1svn29725-54.1.noarch.rpm"
+RPM_HASH = "8c66966a17f2e1a1cb984faf13599211cd9ee64cf8cd971d8bc9a1ac7d2418509a0d603df9d39b945756e517803b5fd181331bb9fc9f20fb57edbdac9fb79ec5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-purifyeps.1 \

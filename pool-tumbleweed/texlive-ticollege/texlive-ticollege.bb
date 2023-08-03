@@ -4,10 +4,10 @@ keys with the help of TikZ. It also provides commands to draw \
 the content of screens and of menu items."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn36306"
+PV = "2023.209.1.0svn36306"
 
-RPM_NAME = "texlive-ticollege-2023.201.1.0svn36306-54.1.noarch.rpm"
-RPM_HASH = "707b4174c901f6254dfc5625bf5989c13fd95747c9dd0a221c6eb2c7311e17df0e23e40a065cf32c0fea81656a449a64c66469472a5ddd9c2ba7c80f0175d390"
+RPM_NAME = "texlive-ticollege-2023.209.1.0svn36306-55.1.noarch.rpm"
+RPM_HASH = "13118c84a74ed1d19eccfa159c18d15aced61a8b589ddd504ee5cc10c35388e9c34face25dbc2b862717e53ca1d6b6351047461836d23885853db09b94b5679f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ticollege.sty \

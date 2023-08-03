@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-esrelation"
 DESCRIPTION = "This package includes the documentation for texlive-esrelation"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn37236"
+PV = "2023.209.svn37236"
 
-RPM_NAME = "texlive-esrelation-doc-2023.201.svn37236-52.1.noarch.rpm"
-RPM_HASH = "5657d1b88f893ec7cc9613b46a826f40944e5e2ef6abe4037533d818a45b0f271df87c0aedb34c3e78f83ad2b8fbb86ccc88bf3f207e1d133e40cc8d013c367d"
+RPM_NAME = "texlive-esrelation-doc-2023.209.svn37236-53.1.noarch.rpm"
+RPM_HASH = "450e3c619c662db025b124331dd3cf047f88f5a5851498b85e715b51d57cd22cdf28ebc1fbee3207496ad4c0f3b21abe6abba994f12ea6f6a7a97aaccca150d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-esrelation-doc"

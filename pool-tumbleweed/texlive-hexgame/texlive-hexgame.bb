@@ -5,10 +5,10 @@ This package defines an environment that enables the user to \
 draw such a game in a trivial way."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-hexgame-2023.201.1.0svn15878-53.2.noarch.rpm"
-RPM_HASH = "9605ef23cb5ee58046c6bf55d2b24058e2f78f2ee3aaa612f0ecfabe7570e8d776c8906ccebcbb94628d6dce3074bb7d16d93ece98dc2e743be3a9c61ba43f62"
+RPM_NAME = "texlive-hexgame-2023.209.1.0svn15878-54.1.noarch.rpm"
+RPM_HASH = "593c43ee7ad3393a96fc3f63c4d1b965ca4af42e8ef5dc007233a093703c91dce0a5d5aecce21bc5a942279321901f761c5e4b14e7c056c17659f358d6dc42f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hexgame.sty \

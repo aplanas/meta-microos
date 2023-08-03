@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-easyfig"
 DESCRIPTION = "This package includes the documentation for texlive-easyfig"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2asvn64967"
+PV = "2023.209.1.2asvn64967"
 
-RPM_NAME = "texlive-easyfig-doc-2023.201.1.2asvn64967-53.2.noarch.rpm"
-RPM_HASH = "6371504d88ce2599bc7762c35f707287d4d8d3004b210bde2d143d2b31afb9970b13f991601d002d44d2d566de6ed3f55936578fc0bea259ffc70c58f807a804"
+RPM_NAME = "texlive-easyfig-doc-2023.209.1.2asvn64967-54.1.noarch.rpm"
+RPM_HASH = "4fac31f235895415f1e6d1fefb89d2915d732ecd4d0cf6c8c74425fecdd6b206d911fe253f2efe0eec6b77093e322dea37baf50b6282bca959aafd58e47f6f10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-easyfig-doc"

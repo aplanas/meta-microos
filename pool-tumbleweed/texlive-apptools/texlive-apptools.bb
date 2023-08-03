@@ -6,10 +6,10 @@ conditional \\IfAppendix are provided to check if \\appendix has \
 already been called."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn28400"
+PV = "2023.209.1.0svn28400"
 
-RPM_NAME = "texlive-apptools-2023.201.1.0svn28400-54.1.noarch.rpm"
-RPM_HASH = "0bec00ce718b31434674b8db735e64d20c5f0ea97ac27785c17844fc0d87063d25f59448834a8f7f404278f10805f95d9a58a44ba7764b8233bfa9c784c5c6e5"
+RPM_NAME = "texlive-apptools-2023.209.1.0svn28400-55.1.noarch.rpm"
+RPM_HASH = "de4ffeed713daf1ea24303f2305ab9d85cb6d67748b37eabbc2bc6383c6c4057a4eb9a9db91e1c6782d78dceac9c40724febf8d98333e90e5972abb6dcfa89e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-apptools.sty \

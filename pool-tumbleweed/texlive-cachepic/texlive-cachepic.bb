@@ -6,10 +6,10 @@ interface, and a command line tool (written in lua) that \
 generates the external graphics."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn26313"
+PV = "2023.209.1.0svn26313"
 
-RPM_NAME = "texlive-cachepic-2023.201.1.0svn26313-52.1.noarch.rpm"
-RPM_HASH = "47fac0265ec73498e7b83222a755df787d1122a9e2a366c8d42fdcbbe3aaf7e41c634a564c9de84971705dfd2c7a8dae903a3bd11b84f06600f11044ef94ce1b"
+RPM_NAME = "texlive-cachepic-2023.209.1.0svn26313-53.1.noarch.rpm"
+RPM_HASH = "6abe40d74375580be111b1315a53161a1b2af623439b85d9e553983cf94604229630c3d6caa8c17fa122f6a6933cb4a724fafbb5f00db9078fc52971ccccafb7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cachepic.sty \

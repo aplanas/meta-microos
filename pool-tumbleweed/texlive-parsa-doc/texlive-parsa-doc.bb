@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-parsa"
 DESCRIPTION = "This package includes the documentation for texlive-parsa"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn54840"
+PV = "2023.209.1.3svn54840"
 
-RPM_NAME = "texlive-parsa-doc-2023.201.1.3svn54840-51.1.noarch.rpm"
-RPM_HASH = "45af77e12b380ce79cad6256ca11ffc78f370e9db4955832cdb2d3821f5dcc8185e5ddd5041348c021484f9ba73fde047171bde3d2e89d9a808d12a017148756"
+RPM_NAME = "texlive-parsa-doc-2023.209.1.3svn54840-52.1.noarch.rpm"
+RPM_HASH = "1f83e68cad10722201e42a84a2cda5d2e95857f011a42532c316a798b75511efc2c9dbe2ee499a35a28ee66a191270517cfd3a88338a262cb7130fd9599bf423"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-parsa-doc-fa \

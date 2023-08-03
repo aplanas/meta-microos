@@ -14,10 +14,10 @@ hence, TikZ. The package requires version 2.0.2 of Forest for \
 expected results and will not work with version 1."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.7_svn_8641svn52221"
+PV = "2023.209.0.0.7_svn_8641svn52221"
 
-RPM_NAME = "texlive-prooftrees-2023.201.0.0.7_svn_8641svn52221-52.1.noarch.rpm"
-RPM_HASH = "dbdac19136a002c8f121932d20158d80e9163df7c2e99d3d39fa779a91dd981fa731e329b9a176eaf224546836b804802019a422672237afd71920a61e7db6cb"
+RPM_NAME = "texlive-prooftrees-2023.209.0.0.7_svn_8641svn52221-53.1.noarch.rpm"
+RPM_HASH = "fbb2c786e4df90d9ce5d4c943428179aee1c97726229bce0c8b55345bb11cdf5770c342ba63b71de0e8a90c7903f05e34b819543b754cf8cecfe6f2ba1a2967f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-prooftrees.sty \

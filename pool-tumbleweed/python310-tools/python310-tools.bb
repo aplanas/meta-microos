@@ -5,8 +5,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.10.12"
 
-RPM_NAME = "python310-tools-3.10.12-1.2.aarch64.rpm"
-RPM_HASH = "e8968aa1dabc28604ea2c2f6c7f843de40fe337f1233b4f2709d5495201d593d165dbbe9396dad34227ca7eae5b50779c81b4ea93feb1b540404b1eff94219f1"
+RPM_NAME = "python310-tools-3.10.12-2.1.aarch64.rpm"
+RPM_HASH = "c14533778a709eda7756f99c55f67222cd51d12e44ca4c676d9631a37105b9eeb4c4bcb3a0f4d3378d0b024b7bba6878830fc51bcb41de412ecb3ef24694647e"
 
 RPROVIDES:${PN} += "python310-2to3 \
 python310-demo \

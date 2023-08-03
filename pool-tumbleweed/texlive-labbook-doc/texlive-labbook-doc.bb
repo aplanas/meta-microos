@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-labbook"
 DESCRIPTION = "This package includes the documentation for texlive-labbook"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-labbook-doc-2023.201.svn15878-55.1.noarch.rpm"
-RPM_HASH = "f2f4fadfd840e24edcd0a953ff8b5766bb3b05614a576dc94043ee9e55001519f56c90fed229aac3975569d74aab8d17c78a6c00403b75483c2e8a67d22f500c"
+RPM_NAME = "texlive-labbook-doc-2023.209.svn15878-56.1.noarch.rpm"
+RPM_HASH = "dc5bd94499a5c339060b3f00c536327e6c4b1fd8f7a1429ed38651aa0be1cb09ad40ddba471e8f31d0091147d7394058c7b2e1decc845174b4f96dc3eccb021b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-labbook-doc-de;en \

@@ -22,10 +22,10 @@ be partially widened, suitable if that extra space for an \
 equation is required."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.02svn63867"
+PV = "2023.209.1.02svn63867"
 
-RPM_NAME = "texlive-sidenotesplus-2023.201.1.02svn63867-53.1.noarch.rpm"
-RPM_HASH = "20a1877fd05671fc81f119a3604fe6f8f27f2f6bbdb1c5fe7ac99e20f372b2f2205b07b994650cd1981d5e24e041dba67a9675fdf1cbc4baa275ab5ee5724ec6"
+RPM_NAME = "texlive-sidenotesplus-2023.209.1.02svn63867-54.1.noarch.rpm"
+RPM_HASH = "c2bc54d7f3a989e926e08fa0e195ab8dbf6f96bdf663ff773c044fa8c30a408ec17065ee4aabb2bc3b623c98a775e72ed022a96aa5bccd18dbe83afe8f542536"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sidenotesplus.sty \

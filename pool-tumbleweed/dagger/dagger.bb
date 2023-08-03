@@ -6,10 +6,10 @@ Using Dagger, software teams can develop powerful CICD pipelines with minimal ef
 * Reduce CI lock-in. No more re-writing everything from scratch every 6 months."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.6.3"
+PV = "0.6.4"
 
-RPM_NAME = "dagger-0.6.3-1.1.aarch64.rpm"
-RPM_HASH = "087834ff5f552797d194a85ea33e7f665c4e208f9a24236e124dc12f16b84407d047c82b2f7388a8f45d1976fd55e700d322250dbea54a34e4bd9bb3acf77b98"
+RPM_NAME = "dagger-0.6.4-1.1.aarch64.rpm"
+RPM_HASH = "2c151c9f8b6f2c4dba885cd504f0310091da75493ffbe5c8ca8418028b720e11d2e103db22e3f98adb28154ab43ed221b35aa261620bd142a4b199e73cdd6807"
 
 RPROVIDES:${PN} += "dagger"
 

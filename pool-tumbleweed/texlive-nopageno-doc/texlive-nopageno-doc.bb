@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-nopageno"
 DESCRIPTION = "This package includes the documentation for texlive-nopageno"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn18128"
+PV = "2023.209.svn18128"
 
-RPM_NAME = "texlive-nopageno-doc-2023.201.svn18128-54.1.noarch.rpm"
-RPM_HASH = "412b53c9d1421911378a1b1dd30534c932f3a9a01de47f35a1184c855a83a4672f1a4d36ad1867261f92c63e45de6befa54fde6ab2707d4597c1c3ea32f7a861"
+RPM_NAME = "texlive-nopageno-doc-2023.209.svn18128-55.1.noarch.rpm"
+RPM_HASH = "0db195c3ee8a168bcd2352dde5c5609ae8ee5637306179be7e3cb55788facde8c709e9b96938af5484f5e018afdc1b0fa5c57ca5ca7c60668b39b6d85aa24492"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nopageno-doc"

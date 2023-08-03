@@ -3,12 +3,12 @@ DESCRIPTION = "This package provides the Haskell skylighting-core library develo
 files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.13.4"
+PV = "0.13.4.1"
 
-RPM_NAME = "ghc-skylighting-core-devel-0.13.4-1.1.aarch64.rpm"
-RPM_HASH = "7be6b5717102ed481e3081598938e4164c6643b92b56be4527826bc263c0f09fae749b4e113289af4a9125a7fb2f7c1b480cb849ba45f47cf5df51d80f49246e"
+RPM_NAME = "ghc-skylighting-core-devel-0.13.4.1-1.1.aarch64.rpm"
+RPM_HASH = "81a3bd5ccb5fd51731d1b549d139a845b7a3d1051712b07b762e0851bbfc59a7bfc5a390c4f7e949448629c9a438fa8f6e8af1c09646acc53834daff7c5e8ccd"
 
-RPROVIDES:${PN} += "ghc-devel-skylighting-core-0.13.4-ILWFndoUOH7DzXIN7Ztglj \
+RPROVIDES:${PN} += "ghc-devel-skylighting-core-0.13.4.1-6Bsu3Qo0E1u1DqUSYo1bSc \
 ghc-skylighting-core-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

@@ -7,10 +7,10 @@ is compatible with all LaTeX flavors, XeLaTeX or LuaLaTeX are \
 recommended for fontspec support."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5.5svn50991"
+PV = "2023.209.0.0.5.5svn50991"
 
-RPM_NAME = "texlive-brandeis-problemset-2023.201.0.0.5.5svn50991-52.1.noarch.rpm"
-RPM_HASH = "0024fe8811df9cca2f575c84bb4157e02dab887c63abe6d4792d3de96a8abbde92f704591d2a642ae4f291e3452320082e3ae27b7910e86ed9bfdeb7ece0dbd5"
+RPM_NAME = "texlive-brandeis-problemset-2023.209.0.0.5.5svn50991-53.1.noarch.rpm"
+RPM_HASH = "904c955b92f166e3283ec05476b808d5b52c1e7f45cc84893fb2eed48cf139e9232904bbb7000bf7c09339e2205347567826b5b2fe31e9c24282d0439b00cf47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-brandeis-problemset.cls \

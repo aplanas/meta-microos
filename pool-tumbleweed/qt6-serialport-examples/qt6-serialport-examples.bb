@@ -2,10 +2,10 @@ SUMMARY = "Examples for the qt6-serialport modules"
 DESCRIPTION = "Examples for the qt6-serialport modules."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-serialport-examples-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "85f87d6d8969bb616fb663d329019cfc71f3408ccc2e4225f0b0982d8fe943854fe621a32064dd717598cc13d63fd73d09080233bd11c9e2362094f8647de9df"
+RPM_NAME = "qt6-serialport-examples-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "2bffec3231b46d60be13483437d69ccb7001f88fec9859ffe951f6d0258ce0949f93ce5823b1d54f0190527216df28396e27d61abe9ade4fd1f74de571439002"
 
 RPROVIDES:${PN} += "qt6-serialport-examples"
 

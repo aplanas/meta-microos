@@ -7,10 +7,10 @@ places. It is suitable for computer-generated long formulae \
 with many terms."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn43337"
+PV = "2023.209.0.0.3svn43337"
 
-RPM_NAME = "texlive-autobreak-2023.201.0.0.3svn43337-53.1.noarch.rpm"
-RPM_HASH = "0f10b1a3833a4577f997e3b0c0c975203649e0ee75f76d86d7c50c5f44b00998842d34b4f073e3ed6e40d515a5034178c8c928650236cfd94ba32fff38a7003a"
+RPM_NAME = "texlive-autobreak-2023.209.0.0.3svn43337-54.1.noarch.rpm"
+RPM_HASH = "26f84b46afa94b58fe4a865777de93340d42529e5c67124d81fa3024de93e703a1772765b3e3026a854bf6b98cbc634f63b91ff6643d110257448cddd831ed92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-autobreak.sty \

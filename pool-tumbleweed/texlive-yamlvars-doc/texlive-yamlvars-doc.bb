@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-yamlvars"
 DESCRIPTION = "This package includes the documentation for texlive-yamlvars"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64949"
+PV = "2023.209.svn64949"
 
-RPM_NAME = "texlive-yamlvars-doc-2023.201.svn64949-52.2.noarch.rpm"
-RPM_HASH = "95f1f739b8667b9134cd6f00d1d1a0ef05c2155b24e2e2b7567973fdd7cabff2c29a07f8b3db541d5f84ca594c7a557bc9f374729a834fe486803144bcd437df"
+RPM_NAME = "texlive-yamlvars-doc-2023.209.svn64949-53.1.noarch.rpm"
+RPM_HASH = "11d147ddba23b496650b1ac9ba0cdbc76f489080e96e4fa419f47444fe342962077015d72f60a87886db999b686bc00a3ed1e1508e214e78a27d2f39224bc2ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yamlvars-doc"

@@ -11,10 +11,10 @@ added. For more details and usage examples, refer to the \
 package's github repository."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.8svn65588"
+PV = "2023.209.1.8svn65588"
 
-RPM_NAME = "texlive-runcode-2023.201.1.8svn65588-53.1.noarch.rpm"
-RPM_HASH = "df05e9e381f13168f8b5703093752eeaffff29acb80ab6ef6962110d6ba1e938fdd050a7a64b071386d7ecb640097a19541ccec9869655eea54cca97a815a1b1"
+RPM_NAME = "texlive-runcode-2023.209.1.8svn65588-54.1.noarch.rpm"
+RPM_HASH = "23a1a66f02617ce5b56cf8067932ff9592669d4284df1ad82d5b5a98c8c92a466eab716a2d804aae3490bbfc4157d67f7090b47264b6796931b5b2baa44ebfc9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-runcode.sty \

@@ -5,10 +5,10 @@ standard symbols as well as those from the amsfonts bundle and \
 the stmaryrd package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-qsymbols-2023.201.svn15878-53.2.noarch.rpm"
-RPM_HASH = "7e32425c2d35d846db252ee8366c5102c1e6491bf57c636d968ce67f66c3f78661cda10c7596259cfe1d20e1d495d6639eae6674beb02dc0c91571d1727578d9"
+RPM_NAME = "texlive-qsymbols-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "6a8f376d6ff92966391612f6f0f90d856a926a1b342c486bb8e3d4dd9247a557f504b4c83deba1d3675652a0daa6cc8b2c9cfdae93ddf1344c24f17a5bf14f27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-qsymbols.sty \

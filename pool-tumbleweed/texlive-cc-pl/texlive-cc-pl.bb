@@ -5,10 +5,10 @@ Concrete fonts. Adobe Type 1 versions of the fonts are \
 included."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.02.3svn58602"
+PV = "2023.209.1.02.3svn58602"
 
-RPM_NAME = "texlive-cc-pl-2023.201.1.02.3svn58602-52.1.noarch.rpm"
-RPM_HASH = "b6db1c9086bc02e442cbc5eb7fe0c8cc8bbaac153139ebd7e59c5353c7264a80378d6ac27de421ee500992d7f291ce0dc757e5f0f068aaaa0d0d6ea9fc192378"
+RPM_NAME = "texlive-cc-pl-2023.209.1.02.3svn58602-53.1.noarch.rpm"
+RPM_HASH = "5702a53906a17c520809c1846933a52172eb5c10592963779bd75de6f5f74472914615d03460ab6507549d61355bc73ef1138bfec95fdc67595f5d58431d0f9b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ccpl.map \

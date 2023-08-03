@@ -12,10 +12,10 @@ fancyhandout depends on the following other LaTeX packages: \
 csquotes, enumitem, etoolbox, fancyhdr, geometry, and xcolor."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn46411"
+PV = "2023.209.svn46411"
 
-RPM_NAME = "texlive-fancyhandout-2023.201.svn46411-52.1.noarch.rpm"
-RPM_HASH = "67daa27ff94636c91d4bee89162b0b71ddd43f377adc4fc552e3136e32941cba3a24cbf44facb7f5171938eec6f62ae51b7abc74c993c0bdfdd0f0eabf770e9d"
+RPM_NAME = "texlive-fancyhandout-2023.209.svn46411-53.1.noarch.rpm"
+RPM_HASH = "6f9a9045ff390e69500db558eed3d36861e9cf0cf6f6b6cb4a29596addd7acf0379736ece61911baffd6f4ce3c0be542cdfc51343e79f5b2a3f7420ad96f200a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fancyhandout.cls \

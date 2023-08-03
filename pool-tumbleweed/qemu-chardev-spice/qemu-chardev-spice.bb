@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.3"
 
-RPM_NAME = "qemu-chardev-spice-8.0.3-1.1.aarch64.rpm"
-RPM_HASH = "aef9e45f15fe9200f2ace46003b7116b2de2fe4347863489d8356b3b1c5724febae7bf0d6ec43b13fea2b553cbbbba2d43c23ff353c18cc48ec367edb2d9ced4"
+RPM_NAME = "qemu-chardev-spice-8.0.3-2.1.aarch64.rpm"
+RPM_HASH = "46d8a720e8031647c513a5eb7a8a592d125987db911a0f1e38e33db5640a844c4054faded12345173824fbb54b7bdd941304e233a3f1dfc0059f4d98bcbd6235"
 
 RPROVIDES:${PN} += "qemu-chardev-spice"
 

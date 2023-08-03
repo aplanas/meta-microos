@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the HTML documentation and example programs
 openldap module."
 LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later"
 
-PV = "1.2"
+PV = "1.2.3"
 
-RPM_NAME = "qore-openldap-module-doc-1.2-1.4.aarch64.rpm"
-RPM_HASH = "14227f36bd13ea2d6f590e44ee55c36c6bd8a46499f36653507eac749a4818fa0d33245c63de91c3c253095e5753ebee3af2fb5f0c8441612e4b48b1ed8b0f77"
+RPM_NAME = "qore-openldap-module-doc-1.2.3-2.1.aarch64.rpm"
+RPM_HASH = "b30a316360c73df05f1ed0c1e07c38354730bfd599d8608aad47ce6d1fff4255f22f7189901154a9d8217d026120b2362da513a7be0f8f75a852b73e3b05470b"
 
 RPROVIDES:${PN} += "qore-openldap-module-doc"
 

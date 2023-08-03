@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xtuthesis"
 DESCRIPTION = "This package includes the documentation for texlive-xtuthesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn47049"
+PV = "2023.209.1.0svn47049"
 
-RPM_NAME = "texlive-xtuthesis-doc-2023.201.1.0svn47049-52.2.noarch.rpm"
-RPM_HASH = "8f74a160640ca188ad023552bc84c1ccde3c5336d4d9f1f40ab6486b37136ad71929a00cdc80569353facc171028bf908f95c2d4cb650ab317a6612bb292fb12"
+RPM_NAME = "texlive-xtuthesis-doc-2023.209.1.0svn47049-53.1.noarch.rpm"
+RPM_HASH = "9499549861888a5c74007cc32cc68abe02cf2aa965b4a6211a8ee47c400d22d223798ca9e11dfe8840185e38eec06db307dd418e2de5216aac658e19ce64449c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-xtuthesis-doc-zh \

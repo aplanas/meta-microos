@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-firamath"
 DESCRIPTION = "The  separated fonts package for texlive-firamath"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.3.4svn56672"
+PV = "2023.209.0.0.3.4svn56672"
 
-RPM_NAME = "texlive-firamath-fonts-2023.201.0.0.3.4svn56672-52.1.noarch.rpm"
-RPM_HASH = "4fe15b9c5feced3470263d5f72fc04d5fe77605ce34a497550f22d812193f886d358914406742b45d42561276807109c4a1db64ce4fded67a1663720f8c5fce6"
+RPM_NAME = "texlive-firamath-fonts-2023.209.0.0.3.4svn56672-53.1.noarch.rpm"
+RPM_HASH = "6a0f7e2867a9aa8aa2eca629c6fb595072ed57ed8e7dda9038c76d730b3dfe84e3a34492648e652ddfc88c1839503877c952af23e56a325a6c2bb05b4a4ba120"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

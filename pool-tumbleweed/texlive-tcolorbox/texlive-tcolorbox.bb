@@ -10,10 +10,10 @@ parts. The package depends on the pgf, verbatim, environ, and \
 etoolbox packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.6.0.1svn65800"
+PV = "2023.209.6.0.1svn65800"
 
-RPM_NAME = "texlive-tcolorbox-2023.201.6.0.1svn65800-54.1.noarch.rpm"
-RPM_HASH = "7a95b5fed2896206b28b9d6165cb2616255a858826550d6687b0d55acf1acc21dba234b113243fe56eed88d4add906fd128160212523e5dc1d85bae3bf6c1bea"
+RPM_NAME = "texlive-tcolorbox-2023.209.6.0.1svn65800-55.1.noarch.rpm"
+RPM_HASH = "a6e823c862aab8a8c74e250d6884c734f84c6d639b40a948e02beac868639006b41780487136c5a1aa89987ea7c263d2e7f31410114f568fbc456d36014c13ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tcbbreakable.code.tex \

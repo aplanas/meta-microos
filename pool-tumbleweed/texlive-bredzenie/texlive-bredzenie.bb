@@ -5,10 +5,10 @@ paragraphs of pseudo-Polish generated with Hidden Markov Models \
 and Recurrent Neural Networks trained on a corpus of Polish."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn44371"
+PV = "2023.209.1.0svn44371"
 
-RPM_NAME = "texlive-bredzenie-2023.201.1.0svn44371-52.1.noarch.rpm"
-RPM_HASH = "15b309aa5a7250efec2b16d2aeee417040f36212b3d5eae199857786be0cfc49c97ed00ec40e816bf4acfde4cea546765eb46e4980b96482bdb7beacceefc934"
+RPM_NAME = "texlive-bredzenie-2023.209.1.0svn44371-53.1.noarch.rpm"
+RPM_HASH = "6014d107f9ab3e7a0d9311f47b190cbd676e998db498a2915ec6ee285ee59be97b599876218af8d1e9bd3fd0df3bad8a16c1e7cbd06e34444ffd7711d70cdd39"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bredzenie.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-easyfloats"
 DESCRIPTION = "This package includes the documentation for texlive-easyfloats"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.0svn57204"
+PV = "2023.209.1.0.0svn57204"
 
-RPM_NAME = "texlive-easyfloats-doc-2023.201.1.0.0svn57204-53.2.noarch.rpm"
-RPM_HASH = "1ee74f4c0282d7319222e8aaf618c6202ce8dd3c9006c790709d065e2d68bf751d2bc3eb5377b2f65db9f0968d91ee568b3edf3261478869abbc922c8fa5b216"
+RPM_NAME = "texlive-easyfloats-doc-2023.209.1.0.0svn57204-54.1.noarch.rpm"
+RPM_HASH = "78341989554bbe547549e2c88e32851b4d58449bca37c740de371b5264a5f8b22f29d2094c33eccf50dc679620997241d4d9dcf6a09b33f0e76f7a6d996e371e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-easyfloats-doc"

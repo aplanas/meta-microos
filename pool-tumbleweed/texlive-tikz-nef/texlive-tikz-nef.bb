@@ -8,10 +8,10 @@ connection net: network pnode: pass-through node rect: \
 rectification ensemble recurrent: recurrent connection"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn55920"
+PV = "2023.209.0.0.1svn55920"
 
-RPM_NAME = "texlive-tikz-nef-2023.201.0.0.1svn55920-52.1.noarch.rpm"
-RPM_HASH = "083410b69ce2ace1d0d07d1d5f00f9ffe11e6f8734a830dff4ad6db49e0b9c7a3229dc2b876ad7f32e3e5ce75036ab709b4649ad647a889a00c0bb3e68af5f62"
+RPM_NAME = "texlive-tikz-nef-2023.209.0.0.1svn55920-53.1.noarch.rpm"
+RPM_HASH = "9c95560c1fb306c3b097701a7d422d68b9c89922af33ae9c0abfdedc0948aa1af634bfd9d685de630484f3a28f6ff4df615fcd660938dabb9a2ad7570cd60206"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzlibrarynef.code.tex \

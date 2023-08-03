@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.9.2.0"
 
-RPM_NAME = "ghc-clientsession-prof-0.9.2.0-1.1.aarch64.rpm"
-RPM_HASH = "3cd9625e5c1a9d0e8cc681c484d5cb3379e36a3266029b350265ea6cae90898108fc6cef1bdaccd876cf5effadbacea29220689a9b3cd873f1d1a62d3187571a"
+RPM_NAME = "ghc-clientsession-prof-0.9.2.0-2.1.aarch64.rpm"
+RPM_HASH = "6a200c6aac60bb77a4248b93606ea13e8f56f9a48b7724f37408e40adb1e77cadddd3421722bebd7979247fb921375b0297907d566524c3a88b1e000424e8829"
 
 RPROVIDES:${PN} += "ghc-clientsession-prof \
 ghc-prof-clientsession-0.9.2.0-4cx1ifSXftyKQDB0RGxUDf"

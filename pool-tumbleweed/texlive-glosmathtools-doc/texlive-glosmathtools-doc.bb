@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-glosmathtools"
 DESCRIPTION = "This package includes the documentation for texlive-glosmathtools"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.0svn55920"
+PV = "2023.209.1.0.0svn55920"
 
-RPM_NAME = "texlive-glosmathtools-doc-2023.201.1.0.0svn55920-53.2.noarch.rpm"
-RPM_HASH = "4549bbc5cca024eb45458b96a65802e4f64c5be8c2e9df3a1e724a25ed412137aa99c70332c605671ab01d0841204a431869c0656b41bed1c3ddef254e92093e"
+RPM_NAME = "texlive-glosmathtools-doc-2023.209.1.0.0svn55920-54.1.noarch.rpm"
+RPM_HASH = "360df51013cd8d7d6a57632d5d8baede8af03f522578f961c429d43a3820150d3d917fb3b2869788fb9a5a4e70940251c9d17cb9a66e5b0aff03fe6de53aca3f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-glosmathtools-doc-fr \

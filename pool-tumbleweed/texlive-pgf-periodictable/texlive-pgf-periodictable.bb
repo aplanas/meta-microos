@@ -8,10 +8,10 @@ done in six languages: English, French, German, Portuguese \
 Compatible with pdfLaTeX, LuaLaTeX and XeLaTeX engines."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0.0svn66010"
+PV = "2023.209.2.0.0svn66010"
 
-RPM_NAME = "texlive-pgf-periodictable-2023.201.2.0.0svn66010-51.1.noarch.rpm"
-RPM_HASH = "72803db254b644ed46e5c928ccf7fc488ad42326a392f361b954e54a8d9ad55a2b119d1880581e739109eee8c9588a3f292d6324bd502af5ce0bcf913644d0a2"
+RPM_NAME = "texlive-pgf-periodictable-2023.209.2.0.0svn66010-52.1.noarch.rpm"
+RPM_HASH = "9a83587b249e7d85ca0782fa604df21ee02ff60aabde6cc0c182aaaab7ea618ebb9b13652d3f0efaacb420e4f56c2d68d6f16c12901de1959ffadb7f7775832f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pgf-PeriodicTable.sty \

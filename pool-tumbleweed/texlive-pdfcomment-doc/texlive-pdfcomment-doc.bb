@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pdfcomment"
 DESCRIPTION = "This package includes the documentation for texlive-pdfcomment"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.4asvn49047"
+PV = "2023.209.2.4asvn49047"
 
-RPM_NAME = "texlive-pdfcomment-doc-2023.201.2.4asvn49047-51.1.noarch.rpm"
-RPM_HASH = "129793d0fecc889616203f4f62882b856673b991859af5564f2d92d75b2b332b0b2a06d67fb6692a516b0da9dc5f192d6628bf5c3b7b3d10c5d07f3a8d699742"
+RPM_NAME = "texlive-pdfcomment-doc-2023.209.2.4asvn49047-52.1.noarch.rpm"
+RPM_HASH = "5c0f325e4b59f46e369ade43b4f7d8663bdd9c4b4fb6249dffa0c3f807558b4514cc2972c6bb0bc94bf85497959a9f04e74adc82d28134cf68dbd11ad93a4c97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pdfcomment-doc-en;de \

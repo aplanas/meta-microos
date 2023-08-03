@@ -7,10 +7,10 @@ However, others can use the package as well. Compatibility \
 between versions cannot be guaranteed, however."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn53858"
+PV = "2023.209.1.3svn53858"
 
-RPM_NAME = "texlive-rgltxdoc-2023.201.1.3svn53858-53.2.noarch.rpm"
-RPM_HASH = "0b6b72ede478350456d6c44d653e46ace6d21624976dae8291e4176f1638a27c2faf90e1e25d791a5eb4944305729493fdb7b7157557af510dd540d03f4fb38d"
+RPM_NAME = "texlive-rgltxdoc-2023.209.1.3svn53858-54.1.noarch.rpm"
+RPM_HASH = "003110a8f8436af2c951ac8c70320ac72b8f580d64ff07b5719e39ceae0b4ff330311d6962e040555069387df7846926fa42f88c443124089693905f9bb1a357"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rgltxdoc.sty \

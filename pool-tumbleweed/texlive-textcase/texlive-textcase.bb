@@ -14,10 +14,10 @@ is obsolete. You can use the standard \\MakeUppercase and \
 and \\MakeTextLowercase."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.03svn63868"
+PV = "2023.209.1.03svn63868"
 
-RPM_NAME = "texlive-textcase-2023.201.1.03svn63868-54.1.noarch.rpm"
-RPM_HASH = "669ca8592be77408bd6867cfb29d8a82c52136d5f6a8a6995e202e2807a2e44ce66a0a6b9d7db5614a5a21cf2de83ce85affbfc75108d0eb892f7f66fe87e4c6"
+RPM_NAME = "texlive-textcase-2023.209.1.03svn63868-55.1.noarch.rpm"
+RPM_HASH = "7705734eaff604119070a9eae809648355d554fa625f083ed6518033aeb05e5caa05568358c336105acff6d6683edcf71b5554cd31e0ea1101782759c754c339"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-textcase.sty \

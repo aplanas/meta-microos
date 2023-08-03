@@ -4,10 +4,10 @@ of TeX boxes (based on plain and pdfeTeX primitives). It was \
 initially inspired by trans.tex, remade to work with pdfTeX."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.2.4svn32809"
+PV = "2023.209.2.4svn32809"
 
-RPM_NAME = "texlive-pdf-trans-2023.201.2.4svn32809-51.1.noarch.rpm"
-RPM_HASH = "602e3dff3c7bb726149f056806074199109a884435ff894bc9b81132b83c725e534cfd5562d2eb554bb72f3242ec8dd9d9b67b9f655c018e1e141f4209660c2a"
+RPM_NAME = "texlive-pdf-trans-2023.209.2.4svn32809-52.1.noarch.rpm"
+RPM_HASH = "5db90b007a01350faeee8a271df72447b4a03c18aa61d2574ccbfc76a73a434f8044658034ea12524de3ac689cc0b88747ebf2e5d3882b54338cc78cb5f63094"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdf-trans.tex \

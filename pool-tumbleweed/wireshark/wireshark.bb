@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "4.0.7"
 
-RPM_NAME = "wireshark-4.0.7-1.1.aarch64.rpm"
-RPM_HASH = "4bad6e7b339ecf83189aa8dd7d159ac4a5696ab082f6be22dd366752ca71b86356ff3da3535366e1ba31b8659d07c77e502e77cff9320f9a1441d5ca27a9b47b"
+RPM_NAME = "wireshark-4.0.7-2.1.aarch64.rpm"
+RPM_HASH = "be2e2bc9d3f381ad26a74dd33c7daacecff7f13ed9c9d1e849b877bfa400349755e775af0418711506ab70ba991a4f3e33a61d584d34457197f8e12e7594f9fb"
 
 RPROVIDES:${PN} += "ethereal \
 group-wireshark \

@@ -6,10 +6,10 @@ compatible with pdf bookmarks. The package requires the suffix \
 package, which in turn requires that it runs under e-TeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.47svn54758"
+PV = "2023.209.1.47svn54758"
 
-RPM_NAME = "texlive-acronym-2023.201.1.47svn54758-54.1.noarch.rpm"
-RPM_HASH = "225261570224bda1eb944f09566918d397ecd72689141fca183630e7855b59562a230258ed44cdb3c36ff80759798f87151e6c0eebb425803158e3ee510546bf"
+RPM_NAME = "texlive-acronym-2023.209.1.47svn54758-55.1.noarch.rpm"
+RPM_HASH = "304bf97b228bf58ec818790e27410ef170662b6f2efe24866b912a9420f9d4dedd56de1741ee6139ddfc6d0e639376c4d9ad125b68ea30cc663b6f063c91c96f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-acronym.sty \

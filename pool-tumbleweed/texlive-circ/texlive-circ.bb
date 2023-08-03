@@ -9,10 +9,10 @@ pst-optic package, or the MetaPost makecirc package do the job \
 better."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.1svn62977"
+PV = "2023.209.1.1svn62977"
 
-RPM_NAME = "texlive-circ-2023.201.1.1svn62977-53.1.noarch.rpm"
-RPM_HASH = "15f680f77721a0d776429ddf31e70c3916c01a3e747e3c6b368ab67b9e13bb97bc3313d28eaca29e3bec0c847c95e0aeee3d0335d0b2adc40313b515387d14e6"
+RPM_NAME = "texlive-circ-2023.209.1.1svn62977-54.1.noarch.rpm"
+RPM_HASH = "1ada1ada7e2432a25a8824c7df87dd33c7c8de30f13179aa00932e3409eeadc5acc53374bfafe02ec7e05029d3497ba5b3dd4a94f943ed944cc1424150240049"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-basic.def \

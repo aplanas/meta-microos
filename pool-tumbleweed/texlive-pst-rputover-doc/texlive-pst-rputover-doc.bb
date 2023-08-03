@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-rputover"
 DESCRIPTION = "This package includes the documentation for texlive-pst-rputover"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn44724"
+PV = "2023.209.1.0svn44724"
 
-RPM_NAME = "texlive-pst-rputover-doc-2023.201.1.0svn44724-53.2.noarch.rpm"
-RPM_HASH = "c31f3d567253a65fba39ce5d0dd92a78836f1b84e40d6655adfbcd8d881ebb442292719a641c4fcc876165cc7d821a2301cf46e08e41bc11d15c114fbaf5f878"
+RPM_NAME = "texlive-pst-rputover-doc-2023.209.1.0svn44724-54.1.noarch.rpm"
+RPM_HASH = "2bace9297a589f005517f4663d1096488a91b8ef10fb132b7afd4632e268717c925c883d81de2eb5e04ff22164e571d7517006602a117b1e7a8e021bdfc67cf6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-rputover-doc"

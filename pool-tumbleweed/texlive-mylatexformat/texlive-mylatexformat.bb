@@ -7,10 +7,10 @@ developed from the work in mylatex, and eliminates many of the \
 limitations and problems of that package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.4svn21392"
+PV = "2023.209.3.4svn21392"
 
-RPM_NAME = "texlive-mylatexformat-2023.201.3.4svn21392-54.1.noarch.rpm"
-RPM_HASH = "4094b019f856f145034a7be05f2f631ef64b3a1dee86fff95010d5e525cc2647cb89637ec248e92e6e17583111523ba529544f244578b9a62089aae1ba2b97c8"
+RPM_NAME = "texlive-mylatexformat-2023.209.3.4svn21392-55.1.noarch.rpm"
+RPM_HASH = "6189b92e17afc9480b5c17da55691a47cb2275864482f61a1c4218f57269515ca38202d2f84bf76d79d187b1cb8c503d6018c79a36d33d2b77633cdc4d76f67e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mylatexformat"

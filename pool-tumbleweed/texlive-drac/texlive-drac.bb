@@ -8,10 +8,10 @@ previously defined with \\DeclareRobustActChar, in the same way \
 that \\renewcommand works for ordinary commands."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1svn15878"
+PV = "2023.209.1svn15878"
 
-RPM_NAME = "texlive-drac-2023.201.1svn15878-52.1.noarch.rpm"
-RPM_HASH = "9105038b4c28817ffefcd437d8231c02e13420cd7dfce3c392f0e15428343d4269e52ae6aed3b4ed361b23a16ca57a284527623167c18492c803a16a9c88be66"
+RPM_NAME = "texlive-drac-2023.209.1svn15878-53.1.noarch.rpm"
+RPM_HASH = "0a802b4708f4808d6ffb7fe50cdfbf5b2d2ce289f1cd0ebb710b8d2b71d29b84d721dc1e8c668d6aff29a322ea5408b8daf293eecaa2b1c74841b54c5ceab06e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-drac.sty \

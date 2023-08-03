@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-arabi"
 DESCRIPTION = "The  separated fonts package for texlive-arabi"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn44662"
+PV = "2023.209.1.1svn44662"
 
-RPM_NAME = "texlive-arabi-fonts-2023.201.1.1svn44662-54.1.noarch.rpm"
-RPM_HASH = "a6ad5877ec70dfad70c3ed5a41539604e45880706978e022ca9105c4404bf403e8a88badf66cf53134d50f8993df3799dc6e0be68200238b7d90152f3cedb733"
+RPM_NAME = "texlive-arabi-fonts-2023.209.1.1svn44662-55.1.noarch.rpm"
+RPM_HASH = "c8338d1fca1b06354b453a8a4911ff62b4831bd553377de4a977d267a60185306c2b6887e301808dd5d907e6fb4b2607aea59a9048cddabbc5cbba46b34b8c51"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

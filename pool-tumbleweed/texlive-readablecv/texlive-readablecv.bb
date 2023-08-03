@@ -4,10 +4,10 @@ attractive and highly readable CV which will lead to your CV \
 being read rather than disgarded."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.0svn61719"
+PV = "2023.209.3.0svn61719"
 
-RPM_NAME = "texlive-readablecv-2023.201.3.0svn61719-53.2.noarch.rpm"
-RPM_HASH = "6b27f749c30c8ece8126a2011004e07db1446d98c350ccc5cffb16c66106059787c0ff539eebf49bd7a824a84a79cbb1f0ae601a6209f08ad0d7128bbdce8907"
+RPM_NAME = "texlive-readablecv-2023.209.3.0svn61719-54.1.noarch.rpm"
+RPM_HASH = "f9e19ba5da56e37e011fcd0a5b4834a9f9ae11dacea92b63d0c31a93ca1a13fd34a22feb9304182d1f0e3dffa13341f5839e679096b9e5fce24c245d7edfae63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ReadableCV.cls \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dataref"
 DESCRIPTION = "This package includes the documentation for texlive-dataref"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.0.0.7svn62942"
+PV = "2023.209.0.0.7svn62942"
 
-RPM_NAME = "texlive-dataref-doc-2023.204.0.0.7svn62942-54.1.noarch.rpm"
-RPM_HASH = "75d9884ff5729db76a24ddcebd8a3499dd635b67331488c9657e269f095648495645951006240cbafcb44c7249266a7f702bafba02157d93bceb9f905417c8c4"
+RPM_NAME = "texlive-dataref-doc-2023.209.0.0.7svn62942-55.1.noarch.rpm"
+RPM_HASH = "323a3ef99ed859e8d40043c7ae90204cbfbe7ff7c4026b50bbea7da46af0d99d6833adfcf1f7c773f047e3db46ddf77eaa575708ce7d8f0ebfbff5a68448a008"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dataref-doc"

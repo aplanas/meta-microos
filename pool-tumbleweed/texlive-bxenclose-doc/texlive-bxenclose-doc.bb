@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bxenclose"
 DESCRIPTION = "This package includes the documentation for texlive-bxenclose"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn40213"
+PV = "2023.209.0.0.2svn40213"
 
-RPM_NAME = "texlive-bxenclose-doc-2023.201.0.0.2svn40213-52.1.noarch.rpm"
-RPM_HASH = "b4fa066fea7a17de098222d17a2127752372f0d79f1fc313950d97ef16a66e024cdfc03c720da2f3e9748fbcc087966d942626e71d67cabd00d4b373f45c49cd"
+RPM_NAME = "texlive-bxenclose-doc-2023.209.0.0.2svn40213-53.1.noarch.rpm"
+RPM_HASH = "e342deb4ad93328718eb20f92c8041b8a3bace7950b8461f2ed9c43c541d323868eab6d508f940cb89fd589392e0cc0756cd70ab0b4845e25518dcbcf71af4cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bxenclose-doc"

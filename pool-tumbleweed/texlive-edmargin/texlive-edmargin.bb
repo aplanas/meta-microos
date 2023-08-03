@@ -10,10 +10,10 @@ created on the fly. There are predefined endnote sections for \
 textual notes, emendations, and explanatory notes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn27599"
+PV = "2023.209.1.2svn27599"
 
-RPM_NAME = "texlive-edmargin-2023.201.1.2svn27599-53.2.noarch.rpm"
-RPM_HASH = "20b2fcd4afae5e47ad3539ad2be588faa58418119f41de398ce366c462403c4634eb23703b0873beaca62eb3f22ee1ded90b6111a6b5c727927e42d1bf7fc69e"
+RPM_NAME = "texlive-edmargin-2023.209.1.2svn27599-54.1.noarch.rpm"
+RPM_HASH = "ee375209d5da13b99684b3cc6c62cb1fdcef89446ca6920190be98f39b116869e5f6ec26d743e14c20567991d3fda57aa4b4c0b6cf8dc2bbffa8b222ad995cc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-edmargin.sty \

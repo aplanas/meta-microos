@@ -3,10 +3,10 @@ DESCRIPTION = "The class implements the format recommended by the Academy of \
 Motion Picture Arts and Sciences."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.6svn27223"
+PV = "2023.209.1.6svn27223"
 
-RPM_NAME = "texlive-screenplay-2023.201.1.6svn27223-53.1.noarch.rpm"
-RPM_HASH = "34d9852c1396be5c0f3275c93475cae6c1737ffff9b5ee5e1ed4cc60de648b22f170ebb7cbc4c2d8f6f7cee61151b6fe88d8f596208a2347a4bb57ff441126cd"
+RPM_NAME = "texlive-screenplay-2023.209.1.6svn27223-54.1.noarch.rpm"
+RPM_HASH = "7277754349b93eb67220bf928c265312ca0fcf9df793137ca78cb2e54d1ef520b2d1bec32a9c6842ce075edb44e5f080b79f55c52f432e56e19889536ebff125"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hardmarg.sty \

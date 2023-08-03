@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-gudea"
 DESCRIPTION = "The  separated fonts package for texlive-gudea"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.0.1svn57359"
+PV = "2023.209.0.0.0.1svn57359"
 
-RPM_NAME = "texlive-gudea-fonts-2023.201.0.0.0.1svn57359-53.2.noarch.rpm"
-RPM_HASH = "4d0e2e733ae6c594f57b0f565fe614b531268fcada2b4e3d5a100d067b272342f248c374b02fabc66b1d08163d3d3c947a970b3738cf6663c619b77a423c7793"
+RPM_NAME = "texlive-gudea-fonts-2023.209.0.0.0.1svn57359-54.1.noarch.rpm"
+RPM_HASH = "29b6c7c3a247b5c12b96d1ca0e5d5be62ba625303749d4814d8a2484153499d91529250d3479765d817f620cd225a9ff778c49e151108937e80333edeb0c472c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

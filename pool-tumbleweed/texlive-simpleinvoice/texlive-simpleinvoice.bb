@@ -5,10 +5,10 @@ different \\setPROPERTY commands, and an invoice is generated \
 automatically with the \\makeinvoice command."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn45673"
+PV = "2023.209.svn45673"
 
-RPM_NAME = "texlive-simpleinvoice-2023.201.svn45673-53.1.noarch.rpm"
-RPM_HASH = "30cbc5432f64fe9e8209c05002a118e25cc53bf81b30f0b08900293a3251622fa6e9711075803e3844b327276487534d5e3efdbe0b531b98fea8dc50eeec98b8"
+RPM_NAME = "texlive-simpleinvoice-2023.209.svn45673-54.1.noarch.rpm"
+RPM_HASH = "1a9d04ce9654d4ca0273a85a983102cfbae9efc0e5f19c2df68272b4dec2c95678271c56a780ce1d482c433d99c8ce57840ce162f3ba34d1f82669d0ba8995fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-simpleinvoice.sty \

@@ -6,10 +6,10 @@ format used in the textbook Language, Proof, and Logic by Dave \
 Barker-Plummer, Jon Barwise, and John Etchemendy."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.9svn31077"
+PV = "2023.209.0.0.9svn31077"
 
-RPM_NAME = "texlive-lplfitch-2023.201.0.0.9svn31077-54.1.noarch.rpm"
-RPM_HASH = "ac4700ab8b8ae988e7b19c34320fe67b52dfce37a2a33da77dffa445553b2d4e4fba5462008e39df1c4c6c105feede19a9b337121830a8482a265fa5f4328be7"
+RPM_NAME = "texlive-lplfitch-2023.209.0.0.9svn31077-55.1.noarch.rpm"
+RPM_HASH = "2e0b862402f9822f9c025345fbbe1993c2b017404f309b2101256db4c65c3b9931fee2f94c3081ea23228401ca37c32fa74267259542556600c07b6a98d947dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lplfitch.sty \

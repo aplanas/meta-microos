@@ -6,10 +6,10 @@ for the user to provide values for the range and a seed, and \
 for the name of the counter to be used."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn31474"
+PV = "2023.209.1.3svn31474"
 
-RPM_NAME = "texlive-lcg-2023.201.1.3svn31474-54.1.noarch.rpm"
-RPM_HASH = "9c3e268140f57c84bef2d4ddfbdb585d6d22366d55091242a777419a944bf3ad8ebca80814d04c1f76a0d7893f6055cd46f0b529566ab4f78d535317acfbb72c"
+RPM_NAME = "texlive-lcg-2023.209.1.3svn31474-55.1.noarch.rpm"
+RPM_HASH = "45228cfc6c48136fe84878bfc825e3ccaf41afbcfa4af08b9f2e2fd1c90499a6435a434641f12031184194a5345d46dcec97370f6d9ffcb4c8f2333780aa0e7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lcg.sty \

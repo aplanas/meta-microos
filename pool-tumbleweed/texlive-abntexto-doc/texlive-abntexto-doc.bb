@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-abntexto"
 DESCRIPTION = "This package includes the documentation for texlive-abntexto"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.2.0.0_alphasvn65705"
+PV = "2023.209.2.0.0_alphasvn65705"
 
-RPM_NAME = "texlive-abntexto-doc-2023.201.2.0.0_alphasvn65705-54.1.noarch.rpm"
-RPM_HASH = "d4a5b09e2fd91c5ac9f92ebdc295d34e91d0a87e690f3bd573b9ff8ceefa75b16abc6932c7c402f28344c32f40a5a0e82c66d237072a03ee306e1a523d67d9ac"
+RPM_NAME = "texlive-abntexto-doc-2023.209.2.0.0_alphasvn65705-55.1.noarch.rpm"
+RPM_HASH = "bf4f7b61f683fdec8892977eee58e67612b8d080c936e242d557da43a65ff0c1753e18660cb5ebafb518a280f1657c12e5dce4087ce8dc9dec9facbc74f25e2a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-abntexto-doc-pt-BR \

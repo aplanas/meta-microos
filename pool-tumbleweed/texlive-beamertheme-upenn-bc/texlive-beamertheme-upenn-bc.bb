@@ -10,10 +10,10 @@ any support for, these color themes. I give no warranty for the \
 code."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn29937"
+PV = "2023.209.1.0svn29937"
 
-RPM_NAME = "texlive-beamertheme-upenn-bc-2023.201.1.0svn29937-53.1.noarch.rpm"
-RPM_HASH = "5d8a4e81b19d2c67219b1c7905906cd0adf2b0fc403d480613c32897fe0ea3fa720bc3cde810958b427e0d7d1a655e8631aa849ab6c50d6078e14d10b0b7c30e"
+RPM_NAME = "texlive-beamertheme-upenn-bc-2023.209.1.0svn29937-54.1.noarch.rpm"
+RPM_HASH = "dc1c3696b366a8681e6dcc701c186d2a995c5acf8205929cd75f9998d40457576f001e56e4b5a9d64a70e822b4ee63c9ede6047d295295395a6ff69adaa92354"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemegoeagles.sty \

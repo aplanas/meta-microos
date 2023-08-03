@@ -8,10 +8,10 @@ pfb format. The bundle also includes a package that provides \
 some macros of philological interest."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn16666"
+PV = "2023.209.0.0.2svn16666"
 
-RPM_NAME = "texlive-cbcoptic-2023.201.0.0.2svn16666-52.1.noarch.rpm"
-RPM_HASH = "969143534772261e2c302c0f5a5e71f816106baac5a2ea0f97013adc146a028bf611d0bdeb2c2c15cf0b7eedb6b4c8e73ed0212a7600a382090863963c40e60f"
+RPM_NAME = "texlive-cbcoptic-2023.209.0.0.2svn16666-53.1.noarch.rpm"
+RPM_HASH = "33362d3221453391d170fe38df4ce978970bcf76794400391f5e05125f95425b4e7fecfb524a046ab1bc743ed80391ead0016847c4a1a8deb4d7b9db0a9a9158"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-copti.tfm \

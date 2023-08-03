@@ -8,10 +8,10 @@ your content. This is brought to life by Alegreya, one of the \
 Typographique Internationale (2011)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1.0svn66358"
+PV = "2023.209.2.1.0svn66358"
 
-RPM_NAME = "texlive-beamertheme-arguelles-2023.201.2.1.0svn66358-53.1.noarch.rpm"
-RPM_HASH = "f71aa722a31cf4cbb659e531ffddac081ab552f471f947087924292e4a6ad8da89515e020c9de54f40087d3d14f57b293582e6abcc95a203bb5e0e9476f62e3a"
+RPM_NAME = "texlive-beamertheme-arguelles-2023.209.2.1.0svn66358-54.1.noarch.rpm"
+RPM_HASH = "fc0ecc52cb3a8254e570b745cc57d048f40f077122ed89cf25e38b0642547c506fb1e4bd2d113d1487fb07f215b7b54c8566a87931f99cfe3affe3dd3a41cc6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemeArguelles.sty \

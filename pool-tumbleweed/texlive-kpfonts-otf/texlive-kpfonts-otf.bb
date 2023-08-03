@@ -12,10 +12,10 @@ AMS'; a full list of available symbols is provided, see the \
 'List of glyphs'."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.48svn65560"
+PV = "2023.209.0.0.48svn65560"
 
-RPM_NAME = "texlive-kpfonts-otf-2023.201.0.0.48svn65560-55.1.noarch.rpm"
-RPM_HASH = "9de05897f8ced1533dc44cc1d523e954885bc64bf5ddfd72d8c7a029859cd3d69989b04a9e5708b5c170a2107b8a0af159faf67910c6304467a925c9682e87e5"
+RPM_NAME = "texlive-kpfonts-otf-2023.209.0.0.48svn65560-56.1.noarch.rpm"
+RPM_HASH = "d91793c0cf552abb11cc10e8594c5572d24cad5ce7ade0229d28e79ab95c0d7bd542eb7cc4158398c72eb18c19b1c2f740890a0572a26ff4a3bf1ed1df3fcab4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-kpfonts-otf.sty \

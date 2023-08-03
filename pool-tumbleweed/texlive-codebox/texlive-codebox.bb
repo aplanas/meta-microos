@@ -7,10 +7,10 @@ are provided to add a comment at the bottom of the fancy box. \
 The package is based on tcolorbox, minted, and listings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.4svn61771"
+PV = "2023.209.1.0.4svn61771"
 
-RPM_NAME = "texlive-codebox-2023.201.1.0.4svn61771-53.1.noarch.rpm"
-RPM_HASH = "790eab0a1f10a5d96a9710e09e85e5bcbcacc91fb30988c29e557dd29eeb8351dbae800174f440c0f19e6fd7bef39c7281fb3dfa099c3000acbee38fee609e1f"
+RPM_NAME = "texlive-codebox-2023.209.1.0.4svn61771-54.1.noarch.rpm"
+RPM_HASH = "cdf86546bf030f9d1e5cffa9f7fd1179fb57bbc8eaf761ef20596eb4ddd169cb3125768e1bbc0209cb500ef27a23193a9c6111902dcbfedb140886a2a6e5b939"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-codebox.sty \

@@ -8,10 +8,10 @@ allowing the gist of the grammar to be understood from simply \
 looking at the source ConTeXt document."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn47085"
+PV = "2023.209.svn47085"
 
-RPM_NAME = "texlive-context-bnf-2023.204.svn47085-54.1.noarch.rpm"
-RPM_HASH = "0309d41fb1660086dcf25f45522435552d68f40befcadb966a7758565fe4f4c40f669a5a6588e477bc4f55a5184468c922fa6e480b8193cff74a7d8d56e3abcc"
+RPM_NAME = "texlive-context-bnf-2023.209.svn47085-55.1.noarch.rpm"
+RPM_HASH = "68e8322698db194831d2671b24a3bfbe1b16a5a27b4977a27693bdff47e082bebf8b8d7c6bb5ded9f41b330779d54a4f10a9fc382bbcb893d94a03ef0fc89789"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-t-bnf.tex \

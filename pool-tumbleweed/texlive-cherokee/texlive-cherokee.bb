@@ -12,10 +12,10 @@ do with expert attention (if you are interested, please contact \
 the CTAN team for details)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn21046"
+PV = "2023.209.svn21046"
 
-RPM_NAME = "texlive-cherokee-2023.201.svn21046-53.1.noarch.rpm"
-RPM_HASH = "d0d765e06b8ca8faccca7b5bd2fd206e8d31781fcf99aa4328548f1266fe5274727be5171a880e619436d20fe1aa530d9aee531cac9ae4d14104045ea29cab6a"
+RPM_NAME = "texlive-cherokee-2023.209.svn21046-54.1.noarch.rpm"
+RPM_HASH = "90881e70c0599bfd7237ced02c72e91d54a154fcb755e17e48734518658f78131f981f623f7ecb48292652daf52edb49242c889963736be8d8414cfb2cf19058"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cherokee.sty \

@@ -4,10 +4,10 @@ glyphs that supports latin, cyrillic, and greek. It comes \
 complete with LaTeX support."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.1svn54512"
+PV = "2023.209.1.1svn54512"
 
-RPM_NAME = "texlive-miama-2023.201.1.1svn54512-54.1.noarch.rpm"
-RPM_HASH = "a4ffa83f928ac1b21ffec7b63f0d8c0fa0f295aab1995abfe39d5d574d0b0d8b7ffaf7957c905ccfa22a3f7d7df6acd9894c2b5684b649a574cae989629fff32"
+RPM_NAME = "texlive-miama-2023.209.1.1svn54512-55.1.noarch.rpm"
+RPM_HASH = "27bbde28e17ea8899b60371d108b21b0d5f82ba0693b6a5e298226277a9f9cd31690d3b8b9c3253e9c7bfb69906c6b656c32e67903b908f55edada36af9d180a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lgr-miama.enc \

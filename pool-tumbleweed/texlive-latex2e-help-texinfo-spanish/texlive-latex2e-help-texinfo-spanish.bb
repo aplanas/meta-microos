@@ -8,10 +8,10 @@ separate package. All the other formats in the distribution are \
 derived from the Texinfo source, as usual."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65614"
+PV = "2023.209.svn65614"
 
-RPM_NAME = "texlive-latex2e-help-texinfo-spanish-2023.201.svn65614-54.1.noarch.rpm"
-RPM_HASH = "052013374846682922bf143b5c68043add52c1d28efb298b139cfedf2894e66baefcb4523985ee64368de43291f9b9be46df6a553b783a5fa236540ff561233b"
+RPM_NAME = "texlive-latex2e-help-texinfo-spanish-2023.209.svn65614-55.1.noarch.rpm"
+RPM_HASH = "271f0a3aee6dc8f11b28c86603181d9ab657dcf651f866654a6d3250e7334384ddddc1e0ecdf980e762f42a159dfb2c3037b9ccf188b8fa453bbb5a0c3cdcd02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex2e-help-texinfo-spanish"

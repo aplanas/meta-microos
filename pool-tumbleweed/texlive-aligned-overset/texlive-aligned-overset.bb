@@ -4,10 +4,10 @@ to be used as the alignment position for the amsmath aligned \
 math environments."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1.0svn47290"
+PV = "2023.209.0.0.1.0svn47290"
 
-RPM_NAME = "texlive-aligned-overset-2023.201.0.0.1.0svn47290-54.1.noarch.rpm"
-RPM_HASH = "ea882b6173d1cc3c4622f9a2fb494950d67b4154b33ded593ef4126402f64a89438c340ce2d63abd4641dd68adad2c80e119600cb7f343815a532665e0695720"
+RPM_NAME = "texlive-aligned-overset-2023.209.0.0.1.0svn47290-55.1.noarch.rpm"
+RPM_HASH = "ad2bf62b33f87ba627255b2dc20c7b18abb6cf1c03d2089147ee8cec13ba60a2eaa1f31a9e574a18673e7c3d67840149666d51c8d3b02de77c9b7931ddf91145"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-aligned-overset.sty \

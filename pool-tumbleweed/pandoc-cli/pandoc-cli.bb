@@ -3,10 +3,10 @@ DESCRIPTION = "Pandoc-cli provides a command-line executable that uses the pando
 convert between markup formats."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.1.1"
+PV = "0.1.1.1"
 
-RPM_NAME = "pandoc-cli-0.1.1-2.5.aarch64.rpm"
-RPM_HASH = "e68c77705fce210fe2815bb3e32b31fcdd7ab776035c5f9250166f3e465129c7839cc1e5b843340db2e8abff8d57a00e0130ef3f805489c5a6328693a3e21ebf"
+RPM_NAME = "pandoc-cli-0.1.1.1-1.1.aarch64.rpm"
+RPM_HASH = "c4f97493492290187866878c7d8ca03410bb4e3b895fd00e7bef398fcabc075700bc2c688d8da521252975403f95f2821bd34cf9f220680a41b12c49171bf8e4"
 
 RPROVIDES:${PN} += "pandoc \
 pandoc-cli"

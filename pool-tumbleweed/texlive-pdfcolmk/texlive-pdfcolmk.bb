@@ -14,10 +14,10 @@ documents that reference it. The documented source of the \
 original package is still available at the github repository."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn52912"
+PV = "2023.209.2.0svn52912"
 
-RPM_NAME = "texlive-pdfcolmk-2023.201.2.0svn52912-51.1.noarch.rpm"
-RPM_HASH = "91c86f2b9b553c84a7a23f3c0b4791453a8fefabf9d11adf9ad7f6c6354cf4767ad1b534623fc3a8a569559e70f2fac56f81d6e8aeda18edf1d9bfee8454b93c"
+RPM_NAME = "texlive-pdfcolmk-2023.209.2.0svn52912-52.1.noarch.rpm"
+RPM_HASH = "7299aed8a00ba553e458aa9ba8b61fcbe1e7f42655691c94242852cd775748e75f12c689bc65c2efb8ec4c7cfde0a1f362f71f3a3b97732a9a122ed2f75567da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdfcolmk.sty \

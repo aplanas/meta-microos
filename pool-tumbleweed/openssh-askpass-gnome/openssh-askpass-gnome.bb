@@ -4,10 +4,10 @@ for executing commands on a remote machine. This package contains a \
 GNOME-based passphrase dialog for OpenSSH."
 LICENSE = "BSD-2-Clause"
 
-PV = "9.3p1"
+PV = "9.3p2"
 
-RPM_NAME = "openssh-askpass-gnome-9.3p1-1.1.aarch64.rpm"
-RPM_HASH = "3400f7372810de7827b50c6ce231ec469708d0fdd1a64ddb2af08c886a68c8eaadde8b6a68b02c30b30ed37f1783f3776796c599a419c81149bf6e311a6f5efc"
+RPM_NAME = "openssh-askpass-gnome-9.3p2-1.1.aarch64.rpm"
+RPM_HASH = "250a711b6183b30c4734baf055813d715bccb083263e03e349ae6ace4ae4c246c6dc3a860d309848cde07aaed572e044cb53cfce12da9b4054969f0b458b8fd8"
 
 RPROVIDES:${PN} += "openssh-askpass-gnome"
 

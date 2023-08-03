@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-qcircuit"
 DESCRIPTION = "This package includes the documentation for texlive-qcircuit"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.6.0svn48400"
+PV = "2023.209.2.6.0svn48400"
 
-RPM_NAME = "texlive-qcircuit-doc-2023.201.2.6.0svn48400-53.2.noarch.rpm"
-RPM_HASH = "c968a29de827642bc0b579405690b1a3bfa89bb7f364b19bd29ed45c3f9e6d894a5c96ba07dac6e9e88da693a4cf03ef9225ebcc7dc21b45b61664777fe2dc23"
+RPM_NAME = "texlive-qcircuit-doc-2023.209.2.6.0svn48400-54.1.noarch.rpm"
+RPM_HASH = "78a85f0084f52cd445d0aa722001bb5331ec3c9f74d2cf15f856bb5c1fca68d71ff106b974b6a333e984a273bf2e21462e7e38810357210c0b5f7de8e49b190e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-qcircuit-doc"

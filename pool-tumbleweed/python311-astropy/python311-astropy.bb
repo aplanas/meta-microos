@@ -5,10 +5,10 @@ Python. It also provides an index for other astronomy packages and tools for \
 managing them."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.3"
+PV = "5.3.1"
 
-RPM_NAME = "python311-astropy-5.3-1.1.aarch64.rpm"
-RPM_HASH = "19d8b1fca8cb4330339fc428bf2bb7fc54111819da97a7d0b9b4a66454c978abcadcde4bff15f6e48753d7c2a26f5982a467d74dfc99e8301eb4cf0a5369cb89"
+RPM_NAME = "python311-astropy-5.3.1-1.1.aarch64.rpm"
+RPM_HASH = "59afaa34a2248fe049c3e7469fde4f6d1fe0e6c8e8da7f9201716924d9c0dd8caa08dce966df3b6579325c0c8cac36e0d9d906387a3c715003e09a724a2739f4"
 
 RPROVIDES:${PN} += "python3-astropy \
 python3.11dist-astropy \

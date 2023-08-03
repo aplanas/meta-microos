@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.9.0"
 
-RPM_NAME = "libQCoro6Network0-0.9.0-1.2.aarch64.rpm"
-RPM_HASH = "c4a505d872fe33166efaa80d4467001b5cf68869bc6fa4153fa1a98d8e8d00c826d8e42ab2f91ef4048a084b430212750a8b60200ecc5da8360edc2a7a43b093"
+RPM_NAME = "libQCoro6Network0-0.9.0-1.3.aarch64.rpm"
+RPM_HASH = "e6f0fb25ba01912696e1ebc9fa962abe863eea683e9675a4477d471160afeb4a8a0da42a0c30383959c064eab3bed32206abe61a69f9fd8941ce9661a536b468"
 
 RPROVIDES:${PN} += "libQCoro6Network.so.0 \
 libQCoro6Network0"

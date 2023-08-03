@@ -9,10 +9,10 @@ in FITS files. \
 This package contains some FITS image compression and decompression utilities."
 LICENSE = "ISC"
 
-PV = "4.2.0"
+PV = "4.3.0"
 
-RPM_NAME = "cfitsio-4.2.0-2.4.aarch64.rpm"
-RPM_HASH = "f0a543a22e86c870c68780a81e3bd910261d09223ed26694b028966ceb6643edcade9d6a7aa26e0537b4d58067897477ef073a9e2843b8e8931069d823c909e8"
+RPM_NAME = "cfitsio-4.3.0-1.1.aarch64.rpm"
+RPM_HASH = "a166adba4c451847bf3fbaaed4987127e61caf850bdd2c6ab9f7b47ecb99928958af04b8f7aa0464d32a5d0d73de29eb1f4ddbc7e2532eab6f6899b49eb446de"
 
 RPROVIDES:${PN} += "cfitsio"
 

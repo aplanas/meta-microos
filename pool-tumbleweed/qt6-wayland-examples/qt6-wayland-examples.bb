@@ -2,10 +2,10 @@ SUMMARY = "Examples for the qt6-wayland modules"
 DESCRIPTION = "Examples for the qt6-wayland modules."
 LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-wayland-examples-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "ede272ad010e8471b9b985683a3b6095711d489bd73778b71ec266bf499a7a53d6ad9fe145b43196d2c55d1f48cc5ac2d42b4771964843bb6a5864fd731dc0ef"
+RPM_NAME = "qt6-wayland-examples-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "0cd8c3be9fdfff2f396fcdb92f81b5063daaff72c1860f6ff27dc4b58d393980a431ee29ae0acb7aac6a9a264d8094cd6e2c85bf17afa1988b2797d4bfd5acd8"
 
 RPROVIDES:${PN} += "libexampleshellplugin.so \
 qt6-wayland-examples"

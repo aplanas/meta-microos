@@ -12,8 +12,8 @@ LICENSE = "ZPL-2.1"
 
 PV = "5.4"
 
-RPM_NAME = "python311-zope.hookable-5.4-4.3.aarch64.rpm"
-RPM_HASH = "e4343edda91ae84311cf1b7a6568ecbc430f74124203a2808058876189a7ab5609d1825947ab309587f49a69a17f7e018dd5f4ad834c96a8b06493c6e0b5148d"
+RPM_NAME = "python311-zope.hookable-5.4-5.1.aarch64.rpm"
+RPM_HASH = "b6c8ba4c14c1301072ca9e6767212641e3ded09177592f82899d5f3e0fd5686c0d9d6e0576e10f82043539c78a860a96f4f3113b4798604b1c8f42c225bf6d04"
 
 RPROVIDES:${PN} += "python3-zope.hookable \
 python3.11dist-zope.hookable \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xistercian"
 DESCRIPTION = "This package includes the documentation for texlive-xistercian"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn61366"
+PV = "2023.209.1.2svn61366"
 
-RPM_NAME = "texlive-xistercian-doc-2023.201.1.2svn61366-52.2.noarch.rpm"
-RPM_HASH = "13653e7fab79dd05f12a906a010275f6a0e5685681c0fede3744d3bcccedd7e9ad8a76fbea0d6c3befe726a6b187108ae1bd1bdc9b334c1f3f85a227d611f48a"
+RPM_NAME = "texlive-xistercian-doc-2023.209.1.2svn61366-53.1.noarch.rpm"
+RPM_HASH = "098118726b67663cd8c4f427c5f599ac1fcb974a42a514923eb5805b49f31da361fbd6c318a9798b571048267073442751959878feb15fb1c2b5b6d342f087be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xistercian-doc"

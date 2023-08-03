@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.4"
 
-RPM_NAME = "nvme-cli-2.4-1.2.aarch64.rpm"
-RPM_HASH = "e167f0f950214e340628555f8a3333e1085a55db1c71d3e6ca1fcf57b8a019cf81abb6ac5305fa77a9c1bb64feacb75cf565166ad0456f7f7a3a3df74e542620"
+RPM_NAME = "nvme-cli-2.4-2.1.aarch64.rpm"
+RPM_HASH = "35528204fb65c90f463b5a80bcbf5c10aee52ba2e2fbe88dd4d56cd62db7fdca9a5975a83762d7d03789494212901b9b677de9d3382fe05fae5a08c1a3de26b9"
 
 RPROVIDES:${PN} += "nvme-cli"
 

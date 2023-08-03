@@ -2,10 +2,10 @@ SUMMARY = "Development files for python3-pyside6"
 DESCRIPTION = "Python bindings for the Qt cross-platform application and UI framework"
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-2.0-only & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "python3-pyside6-devel-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "d96ce74b5652615b017a77268fbfae01e2f9e7223c73d41e504c6f2c8a8ad5112bda08dc9b769b8e3569ecd61aa6d5d36ab2fe1224d9cc848d92515161e36aee"
+RPM_NAME = "python3-pyside6-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "92f5eb1b2a35fc14f669d00b90b206efb23c7db95d371e52098986bff08e2178e87c9acb113d14d5febe3db6353e11a7d239cc8044fdaeaf0cd0c69539d87fcb"
 
 RPROVIDES:${PN} += "cmake-PySide6 \
 cmake-PySide6Qml \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnote"
 DESCRIPTION = "Provides translations for the 'gnote' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "44.0"
+PV = "44.1"
 
-RPM_NAME = "gnote-lang-44.0-1.2.noarch.rpm"
-RPM_HASH = "9da4fb9c597b9125c348a365282a0e635f169bc411daee5df96d6f5be2a28eb0c696f4798713a5d6649dd4f41b09a3c774561f94877d5d3b9fb79f884014a23e"
+RPM_NAME = "gnote-lang-44.1-1.1.noarch.rpm"
+RPM_HASH = "f0b7278e1bf2d344f6c569c3ca7e6e469f421adaa3d965de592c280bc6a19fc60f147b5fc92b03480a356fbf32d76a7a7039d864b604157c45155a50b527572b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnote-lang \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package helps to organize debates between multiple \
 reviewers of a paper within the text."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2.1svn64846"
+PV = "2023.209.0.0.2.1svn64846"
 
-RPM_NAME = "texlive-debate-2023.201.0.0.2.1svn64846-52.1.noarch.rpm"
-RPM_HASH = "4af9af33600f671eff8b33c88140b0d13165f73ce59ed51e4418507bf653a15c3549d6d78b221631f4b404b7464247b76e0107f5d38f190a51b9ade1c6df43bb"
+RPM_NAME = "texlive-debate-2023.209.0.0.2.1svn64846-53.1.noarch.rpm"
+RPM_HASH = "73aeffcec0a40981424910078d0e7b797a899eb5514787678aeb9e4c976f203c2af6e9c67b38e947454fc5bc138680dcb794bb12c0d171f5456ae3dc986a96b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-debate.sty \

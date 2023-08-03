@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pixelarttikz"
 DESCRIPTION = "This package includes the documentation for texlive-pixelarttikz"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1.0svn65649"
+PV = "2023.209.0.0.1.0svn65649"
 
-RPM_NAME = "texlive-pixelarttikz-doc-2023.201.0.0.1.0svn65649-51.1.noarch.rpm"
-RPM_HASH = "6e0f27e0d82a275df304203e9b046da275abc7bea4041c79882bc7b71f86a7f7dc9701b1dfd1604f8ea488e14e476930be40784445174b666a947dc2424e72f2"
+RPM_NAME = "texlive-pixelarttikz-doc-2023.209.0.0.1.0svn65649-52.1.noarch.rpm"
+RPM_HASH = "bc095b7996a4915ca4b1cd0deb8a66add1cb77d57291da43141c527bc7e4514a2563e3fc1ec6d1b90baf2f57dbe9f0844027d7a8c048dd8c2c12e5141d5abc4c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pixelarttikz-doc-fr \

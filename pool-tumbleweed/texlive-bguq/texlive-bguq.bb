@@ -8,10 +8,10 @@ used by other packages which implement the Begriffsschrift. An \
 included as an example of implementation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4svn27401"
+PV = "2023.209.0.0.4svn27401"
 
-RPM_NAME = "texlive-bguq-2023.201.0.0.4svn27401-53.1.noarch.rpm"
-RPM_HASH = "9e3f92f2a0beb63903c7e1ea0a0daa0f725f740eaedda8ba414069ff4f898cd60af510797292abdde4bbb7b17a272212a1b77e3e4a6f3ae18ab03bd414bc4e96"
+RPM_NAME = "texlive-bguq-2023.209.0.0.4svn27401-54.1.noarch.rpm"
+RPM_HASH = "d2d87b3a9a373c92f0e89357fe4b2cba63f03eadfeff730d4c654dd4b024e90f32cdb851ae6cb4f3477b2361fc5b79fa6d8916a535b30abc7d59d583bf914683"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Ubguq04.fd \

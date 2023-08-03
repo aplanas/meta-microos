@@ -7,10 +7,10 @@ the bars. For PDF output use a multi-pass mechansism such as \
 pst-pdf."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.19svn64182"
+PV = "2023.209.0.0.19svn64182"
 
-RPM_NAME = "texlive-pst-barcode-2023.201.0.0.19svn64182-52.1.noarch.rpm"
-RPM_HASH = "5ebf73da28d0ae6afece1a2ef8548900a685bf2bb32111052d5e6bf70ae17561c8dbc1418000fe7db8f6d3936e49731138ba673692d0d21d772e3694c41bfce6"
+RPM_NAME = "texlive-pst-barcode-2023.209.0.0.19svn64182-53.1.noarch.rpm"
+RPM_HASH = "6182be3832de53867a91ad4cbadc11b5a5dce79acf8e76bde4d911460d2b2cc9b16277144498e830b58e81809d50e9ecd6c27e8ae4ccf10833b9f81b0056946c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-barcode.sty \

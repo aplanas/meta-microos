@@ -6,10 +6,10 @@ elsewhere). Some shortcuts are defined, as well as translations \
 to Hebrew of standard 'LaTeX names'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.3hsvn30273"
+PV = "2023.209.2.3hsvn30273"
 
-RPM_NAME = "texlive-babel-hebrew-2023.201.2.3hsvn30273-53.1.noarch.rpm"
-RPM_HASH = "d25de00517c6e5523dbec50b85f6cafa21d7b5d4a1b49b7e3e080684ac4bd24c5ec39e391b0f909838c2a9dc20565fd569dd05d361bb9a8910fb1e504cb13cc7"
+RPM_NAME = "texlive-babel-hebrew-2023.209.2.3hsvn30273-54.1.noarch.rpm"
+RPM_HASH = "c4debbbf5401765acb87031c2e5dc31b5ec952b7a613ff97f826ea330b794cb1ff8798d9e9f94281d6e9113937ecb5a41c6f226a3cc6cc2edbd29cfbbf49ef51"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-8859-8.def \

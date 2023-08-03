@@ -7,10 +7,10 @@ distributed with the related ledpar and ledarab packages. The \
 package is now superseded by reledmac."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.19.4svn41811"
+PV = "2023.209.0.0.19.4svn41811"
 
-RPM_NAME = "texlive-ledmac-2023.201.0.0.19.4svn41811-54.1.noarch.rpm"
-RPM_HASH = "0376ee44fe5fbecd5cbcf24c8abe4bf2259742814494c69f9992fa94d03e94773ae80f3debeb8ec356028ad71fd5f716b1c3926b5e69cacd61c92ba511d2ef80"
+RPM_NAME = "texlive-ledmac-2023.209.0.0.19.4svn41811-55.1.noarch.rpm"
+RPM_HASH = "20670498e3b5a4623e0b2aeea7fb1aaf1e55a785eb1a6ce6853126d3126f3e000e5534c61466ef7807156ccccdea077a61dc5e13dd53e7a10aebe7d92129f07d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-afoot.sty \

@@ -4,10 +4,10 @@ from the amsfonts bundle, together with the LaTeX font \
 lcirclew10 and the font musix13 from musixtex."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-harmony-2023.201.svn15878-53.2.noarch.rpm"
-RPM_HASH = "51c14e600376edb68698a2fc35690664de98f737a35d27f25dcdd624382b9bc273429c2434fa8d96e97cf7f1a1fc1ef0143ce85dbc22021b5b8d5cd296329517"
+RPM_NAME = "texlive-harmony-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "c9575c03432f7dc167bf1233849cf33daeb3ed120d025ad9552236352b4f62435c65827e450e884f3e8d68e82fe37e48b144375a95872c27a037da0ae4fade48"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-harmony.sty \

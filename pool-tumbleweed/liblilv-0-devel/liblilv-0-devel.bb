@@ -5,8 +5,8 @@ LICENSE = "ISC"
 
 PV = "0.24.20"
 
-RPM_NAME = "liblilv-0-devel-0.24.20-1.2.aarch64.rpm"
-RPM_HASH = "1c164c09841333e6c0e46079a299d013f72ab27aca2295c96e1bb683e16cc0623c04075e23a572833ecc19765353cfc0a61c6fe97e497a43ea91c19410958dcd"
+RPM_NAME = "liblilv-0-devel-0.24.20-2.1.aarch64.rpm"
+RPM_HASH = "d500d9f048551b74e5dc5858f53f7d1a35d5b19618e0d60cd4dc17695c1ddcfe6f6a5da726bc712fb811ab4c7104409a6387f129bdac4e39ddb9dd1a6a410a0a"
 
 RPROVIDES:${PN} += "liblilv-0-devel \
 pkgconfig-lilv-0"

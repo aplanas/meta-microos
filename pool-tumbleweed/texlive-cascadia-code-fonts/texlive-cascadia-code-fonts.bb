@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-cascadia-code"
 DESCRIPTION = "The  separated fonts package for texlive-cascadia-code"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.0.1svn57478"
+PV = "2023.209.0.0.0.1svn57478"
 
-RPM_NAME = "texlive-cascadia-code-fonts-2023.201.0.0.0.1svn57478-52.1.noarch.rpm"
-RPM_HASH = "ab25c9360dea215614025b792925f2eb1dfde61e88692db0e6392b11c1ca687eb7444388cfbbb37c4afcdca11672e1dbe47d8cc31ed8676388eff93ad73a27f2"
+RPM_NAME = "texlive-cascadia-code-fonts-2023.209.0.0.0.1svn57478-53.1.noarch.rpm"
+RPM_HASH = "b83a3d1db062dea3b949869ef3d2205da4447c8aacfbe797c73c273adc73cdc0e0bbd2463a483a34c77c856f736e1cae6ac6fdbbb0a5cbcd3637589ddba0f2c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-cascadia-code-fonts \

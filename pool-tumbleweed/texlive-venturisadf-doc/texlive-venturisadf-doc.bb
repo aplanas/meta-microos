@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-venturisadf"
 DESCRIPTION = "This package includes the documentation for texlive-venturisadf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.005svn19444"
+PV = "2023.209.1.005svn19444"
 
-RPM_NAME = "texlive-venturisadf-doc-2023.201.1.005svn19444-53.1.noarch.rpm"
-RPM_HASH = "4af37584ab71f4ba0cbb3e1c5e56bbd97d1e4b18bc8b3fc6ea888b86c3101272789b21a1ee545d2172170bd9a2151558f68d27c20292b7ec7f7818acefa70d07"
+RPM_NAME = "texlive-venturisadf-doc-2023.209.1.005svn19444-54.1.noarch.rpm"
+RPM_HASH = "00353e1dff3816089381f582e7e11bb47caf855f3e53931f7a97aa4381d9438ec6e6c253a10090d2b6755f576ddd190d91af227b9f4df1adbb619e19f8547272"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-venturisadf-doc"

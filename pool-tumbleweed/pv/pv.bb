@@ -6,10 +6,10 @@ it has taken, how near to completion it is, and an estimate of how long it \
 will be until completion."
 LICENSE = "Artistic-2.0"
 
-PV = "1.6.20"
+PV = "1.7.24"
 
-RPM_NAME = "pv-1.6.20-1.8.aarch64.rpm"
-RPM_HASH = "41086f9270c38dbeb367420d25ac37bbd129c3fac9d6ab8832073f8ba8494df6dcc41002700bf0d49bed054597c3dcde98e58476d7d6b65950e8ec33d082c124"
+RPM_NAME = "pv-1.7.24-1.1.aarch64.rpm"
+RPM_HASH = "8b9de6e637d2c0358cb195ef5bfc9805c707716b05fcbf3bdf8f20dc5e019ce3a8a2afcd262d03662aaf985e0bc3d56143ad20c2d7734f700a201f2b4dbd2de8"
 
 RPROVIDES:${PN} += "pv"
 

@@ -4,11 +4,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.0.1"
 
-RPM_NAME = "ghc-pandoc-lua-engine-prof-0.2.0.1-1.6.aarch64.rpm"
-RPM_HASH = "0a056645610d1e386d00ba13d35b852f40415972b933955aa91df89392bee0082742bf612130eb2246b0a5152786e6c41fe9440a50a605d2e2f3f76ab7ea8c39"
+RPM_NAME = "ghc-pandoc-lua-engine-prof-0.2.0.1-1.7.aarch64.rpm"
+RPM_HASH = "407cbc8af43ea4dbf0e85ce7d2c3aa597976114f714c0c5eeb8e113e83f102366abdea527a52d11ce8f16aaf6db9ed6d3736237f3444586be0d719445d25cd3f"
 
 RPROVIDES:${PN} += "ghc-pandoc-lua-engine-prof \
-ghc-prof-pandoc-lua-engine-0.2.0.1-5sUPoxcrHZ3FzfN1da4tRi"
+ghc-prof-pandoc-lua-engine-0.2.0.1-2RA8DHDCMU13RV6aHXQ7Uf"
 
 RDEPENDS:${PN} += "ghc-pandoc-lua-engine-devel \
 ghc-prof-SHA-1.6.4.4-CTRZ9m1gmyY35Z2xnCckJW \
@@ -31,7 +31,7 @@ ghc-prof-hslua-module-zip-1.1.0-HbdBiDu9SYHDsbypcn78hx \
 ghc-prof-hslua-repl-0.1.1-Cn1WzYftAVL4Hlxy0N0ea1 \
 ghc-prof-lpeg-1.0.4-IadFjeA522fGKCuUXCvVP9 \
 ghc-prof-mtl-2.2.2 \
-ghc-prof-pandoc-3.1.3-ImQr97Zc2bP55LDbAec3vO \
+ghc-prof-pandoc-3.1.3-55OY79jb6yp7kweb38lcUZ \
 ghc-prof-pandoc-lua-marshal-0.2.2-FczgTsDU3sCHicuhmGSmSB \
 ghc-prof-pandoc-types-1.23.0.1-EcvZluXpPb0J10kJC4UfRg \
 ghc-prof-parsec-3.1.16.1 \

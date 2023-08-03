@@ -8,10 +8,10 @@ fields as well as suppressing some pdfTeX meta-data entries in \
 the resulting pdf."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn45985"
+PV = "2023.209.1.0svn45985"
 
-RPM_NAME = "texlive-pdfprivacy-2023.201.1.0svn45985-51.1.noarch.rpm"
-RPM_HASH = "f72aa7f1c6c62c592455e1c791f15bb86a2c005aec6bc32c99c9c156fec6a483747a8eec169ea6274441d6ca2cd8f9e1544bbd47a98f338524c6281c89e8b4b4"
+RPM_NAME = "texlive-pdfprivacy-2023.209.1.0svn45985-52.1.noarch.rpm"
+RPM_HASH = "78f168d84324012bb2ebe03e716cce112666544973379b83689afe745e5b36ef36637f9a1fa5c69f0d4a5a18b5ffca23f83855aed56dc0842f39554524cfa879"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdfprivacy.sty \

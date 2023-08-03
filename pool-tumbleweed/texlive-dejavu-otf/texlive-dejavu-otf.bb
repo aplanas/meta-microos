@@ -17,10 +17,10 @@ DejaVuSerifCondensed.ttf DejaVuSerif-Italic.ttf DejaVuSerif.ttf \
 texgyredejavu-math.otf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.04svn45991"
+PV = "2023.209.0.0.04svn45991"
 
-RPM_NAME = "texlive-dejavu-otf-2023.201.0.0.04svn45991-52.1.noarch.rpm"
-RPM_HASH = "6f627f9df8015ddfbcdce4f154c58c19a03730e88e4609a9e446dae29a9ad5a6e3a63dbfdfdf2dc10d862690ea4232bc5e4aaa21707e076a5cc886996fa04a33"
+RPM_NAME = "texlive-dejavu-otf-2023.209.0.0.04svn45991-53.1.noarch.rpm"
+RPM_HASH = "05239492d4777a0aa7d52c630e25d80eba2c6fbc47ff0450a89810f580ec48ee56730bec4c410276fb3916212539b336e63bb1330593902f25d0481b8b36c172"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dejavu-otf.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pxjahyper"
 DESCRIPTION = "This package includes the documentation for texlive-pxjahyper"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn66272"
+PV = "2023.209.1.3svn66272"
 
-RPM_NAME = "texlive-pxjahyper-doc-2023.201.1.3svn66272-53.2.noarch.rpm"
-RPM_HASH = "6d427979d742a5c0f7b94580b3887983d5d71d81de2cd56f5da586f2bc0c736c6576a8d2f440ccb8bb8d3eeee5caa5cc43a4b2193336ffeb3f7115471b820827"
+RPM_NAME = "texlive-pxjahyper-doc-2023.209.1.3svn66272-54.1.noarch.rpm"
+RPM_HASH = "4b1ef0423df3ce3919594c40d732393d8643527e616023bd67195ec3b72f4e3ba4bf574794a6d8b5bc491b48a774bf2fb9bd3287ba49af77e3ca95dfac3896c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pxjahyper-doc-ja \

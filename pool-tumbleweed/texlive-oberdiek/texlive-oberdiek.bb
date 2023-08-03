@@ -36,10 +36,10 @@ file; the .ins file necessary for installation is extracted by \
 running the .dtx file with Plain TeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65521"
+PV = "2023.209.svn65521"
 
-RPM_NAME = "texlive-oberdiek-2023.201.svn65521-54.1.noarch.rpm"
-RPM_HASH = "8b1e70f7fd91857423732e839b7b76720d0947646fc7881b21c5af92a5f5fe49cacaff8f3028ff0bbdc2d0af4ad95cfbf04fe7e9e7171e40e4e3556ab40775ac"
+RPM_NAME = "texlive-oberdiek-2023.209.svn65521-55.1.noarch.rpm"
+RPM_HASH = "d200da5bc983c62269aa6840a478be4255d929513924eb6fa14b76a0d62af7071d07613f978fd5c83b7a6e7793f75009da060da8f076fe230c48cb8d0fcec740"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-aliascnt.sty \

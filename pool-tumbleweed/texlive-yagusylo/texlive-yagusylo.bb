@@ -7,10 +7,10 @@ clashes that so commonly trouble those who load \
 symbol-packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn29803"
+PV = "2023.209.1.2svn29803"
 
-RPM_NAME = "texlive-yagusylo-2023.201.1.2svn29803-52.2.noarch.rpm"
-RPM_HASH = "0fa5dfe74c6a617edc3a3ce30c6922ddad3357c9f777f48ad0e2555791bc9502843724bf12853ca98bf770c9345fcf873d840dc1043b4eddabcd0ce4fb955928"
+RPM_NAME = "texlive-yagusylo-2023.209.1.2svn29803-53.1.noarch.rpm"
+RPM_HASH = "5e52f841b7cf5286764da49c4354a4445077fc9c3ebf96fc6b49e41ce9bb8fa26bd66a768fc4bfb7c682a301cd3ad4de11f32e7df555c2f4a4bfb3b603466298"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-yagusylo.cfg \

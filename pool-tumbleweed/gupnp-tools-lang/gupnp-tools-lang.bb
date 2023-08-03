@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.12.0"
 
-RPM_NAME = "gupnp-tools-lang-0.12.0-1.3.noarch.rpm"
-RPM_HASH = "b0b5c08f9360bf1ddc39cce89287aa822f1c5a61ab823d063df8886f950ad38e421e0a61f92a7104c55f92efe24ea7df2be75ab7d7c89a128723a7577c8cbd5b"
+RPM_NAME = "gupnp-tools-lang-0.12.0-2.1.noarch.rpm"
+RPM_HASH = "6df9f3e950246c2703438ac8a897fa64fe86a49638eb2b54dda57f17dd35932a85b03530e87398bff4b1185903698f90408dc9b57e98ba3fd102c552089f5d23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gupnp-tools-lang \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-snotez"
 DESCRIPTION = "This package includes the documentation for texlive-snotez"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.7svn61992"
+PV = "2023.209.0.0.7svn61992"
 
-RPM_NAME = "texlive-snotez-doc-2023.201.0.0.7svn61992-57.1.noarch.rpm"
-RPM_HASH = "b22221f4df7cd65a9a9ea769bb8b6b3840f984d2de555fdbdb0f1a1c4c3a16bbad9a1492ed1bdfb54b7182efe4913828ae6aa25e8762b8b59b1d532cc3adabff"
+RPM_NAME = "texlive-snotez-doc-2023.209.0.0.7svn61992-58.1.noarch.rpm"
+RPM_HASH = "a98245455ab953e5c26635e443c414b9506b87ed287f9bdc04f94edefd743e92a26b3debffe2cbb3c5f8f022d0844c08b1aa1ef8021733e989f6976fbd492324"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-snotez-doc"

@@ -9,10 +9,10 @@ Ghostscript with version 9.15 of Ghostscript; the dvips is only \
 available with that version (or later)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.6svn53052"
+PV = "2023.209.0.0.6svn53052"
 
-RPM_NAME = "texlive-accsupp-2023.201.0.0.6svn53052-54.1.noarch.rpm"
-RPM_HASH = "7039269c92ee4b79b65cdb3f02812ec7484f58b1f808339d0f6cfc4d2d6c4c556cef98b71e4c86a5250581084aab092a0bceea28373f40b5a9972e899f869fad"
+RPM_NAME = "texlive-accsupp-2023.209.0.0.6svn53052-55.1.noarch.rpm"
+RPM_HASH = "7a71dc8088d0bb4b965a1403300f13153adfe6e15765fedec616cc1eff6ab51c35da9f2dbafe8d25e7b87d5be264bd5195a2245b4dad09e08c532534d873460c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-accsupp-dvipdfm.def \

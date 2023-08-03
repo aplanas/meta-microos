@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6PdfQuick that do n
 ABI or API guarantees."
 LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-pdfquick-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "de0ab704e9e0a43f00d98600e6a56e708f5a5898436c50352f87fa7c3c102cf25db126b9f0f2403bc101c860c182b264d1db33d5aef3b2faf1460aea7e0e603f"
+RPM_NAME = "qt6-pdfquick-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "24e4245b3c7bbb9db4cd4c281513c57aeae9f8de26b1e9937ccdf874ee134d916a5780723ea4a9a4c4b5fbb3f1d3d1300d528f0b5b21199857ad110bfad86169"
 
 RPROVIDES:${PN} += "qt6-pdfquick-private-devel"
 

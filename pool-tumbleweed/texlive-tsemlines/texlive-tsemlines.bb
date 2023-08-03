@@ -6,10 +6,10 @@ orientation. The present package emulates the macro, using \
 TikZ."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.0svn23440"
+PV = "2023.209.1.0svn23440"
 
-RPM_NAME = "texlive-tsemlines-2023.201.1.0svn23440-52.1.noarch.rpm"
-RPM_HASH = "72778460da699ac9679e377077f50dbccd7a8b2451750f56572941a06acd8a356b68ad83be0029c3f06038a1348151005b9dd2abbe7816350b123ad1c414604b"
+RPM_NAME = "texlive-tsemlines-2023.209.1.0svn23440-53.1.noarch.rpm"
+RPM_HASH = "ae87e22058a4b3b03d092db06be894d25e2adb8ca5b589d4ddfb53f0d126ca0cd5955a5d5d5d113768c192c2025473d98c7d3dc93a73d155eabd35c490543c66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tsemlines.sty \

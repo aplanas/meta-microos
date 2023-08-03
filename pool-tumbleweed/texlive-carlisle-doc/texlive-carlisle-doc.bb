@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-carlisle"
 DESCRIPTION = "This package includes the documentation for texlive-carlisle"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn59577"
+PV = "2023.209.svn59577"
 
-RPM_NAME = "texlive-carlisle-doc-2023.201.svn59577-52.1.noarch.rpm"
-RPM_HASH = "4242b3cc4919d3aeb9e97152772aa3e2a5a66c8d8f2f8ebf77fc42dfe274c4367abc33686d1f0b8a6928ecb26e039590344f9eb1cb78e76d225c273e4248f7a8"
+RPM_NAME = "texlive-carlisle-doc-2023.209.svn59577-53.1.noarch.rpm"
+RPM_HASH = "d962b8c5b0938bc59cd93edfd13c7608da52dbab0534fac9e0c301049d306dbbc15dc94b651de8bedc6cddeab9cb47d33e40486f68b79df8221c978a6fe64aa8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-carlisle-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a language definition file that enables \
 support of Magyar (Hungarian) with babel."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5csvn49701"
+PV = "2023.209.1.5csvn49701"
 
-RPM_NAME = "texlive-babel-hungarian-2023.201.1.5csvn49701-53.1.noarch.rpm"
-RPM_HASH = "4bea9cfb4074f8803cd4ae14016c8633cc6843ba5527836fa67f6897f9048d79621cef0902f5e40d4de960e8738c055b2d144310a2d6da86da9e6ae934dae4e9"
+RPM_NAME = "texlive-babel-hungarian-2023.209.1.5csvn49701-54.1.noarch.rpm"
+RPM_HASH = "0a4634a0da22e08c444337d44321730067ffbae732dffe5ae951f137a1ec0362ffd81eff3ba1d1c7ce0c3711fadeecc377f9d61f9ec3c050e6702b4efe1df2dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-magyar.ldf \

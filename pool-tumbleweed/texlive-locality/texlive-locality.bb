@@ -5,10 +5,10 @@ mechanisms. The present release offers a preliminary view of \
 the package; not all of its facilities are working optimally"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn20422"
+PV = "2023.209.0.0.2svn20422"
 
-RPM_NAME = "texlive-locality-2023.201.0.0.2svn20422-54.1.noarch.rpm"
-RPM_HASH = "3454acae001fa73c545d5a16bab604df88c16615ce7f93a51de19a4b3105b9e68944ef20574888154af281d887248c4cb6e5ca41d0d6e75fe6525f57e96c5eeb"
+RPM_NAME = "texlive-locality-2023.209.0.0.2svn20422-55.1.noarch.rpm"
+RPM_HASH = "f44bb5d3ec2f43f7398fdc7149c5d9f9d718338e5bce4019e2e9c0e0f692a890a6a4fb719961584d16c8055cda6706d5a622ace9c57640324bb97e30148f9fe3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-locality.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "The Qt 6 Quick3DSpatialAudio library. \
 This library does not have any ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6Quick3DSpatialAudio6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "309b3e2a4a4c4ebf347964ec2b4d5f8d82462590062cf9ab6efbb5bc52169c69e35e286e388a4de53967b585de63c98a2d4555fcf796b47c921c6eca827e5887"
+RPM_NAME = "libQt6Quick3DSpatialAudio6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "f195f3822aa11ee2d84211f9731119c9bcb51f05f682309fc1f9dc7080463df5c67795cc74448a96e8a333d1f87acc379aa6556e5aeff03c09daefd318103e4b"
 
 RPROVIDES:${PN} += "libQt6Quick3DSpatialAudio.so.6 \
 libQt6Quick3DSpatialAudio6"

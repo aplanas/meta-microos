@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-oldstandard"
 DESCRIPTION = "The  separated fonts package for texlive-oldstandard"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.2.6svn64464"
+PV = "2023.209.2.6svn64464"
 
-RPM_NAME = "texlive-oldstandard-fonts-2023.201.2.6svn64464-54.1.noarch.rpm"
-RPM_HASH = "ec9f8b33f7b23562801c365b80f92561198ea72d3e25a27bb0f8f6af99e73faece27c76130c6cafcf35505b57839802281447f485725f43ee76ba057f5a5dd3e"
+RPM_NAME = "texlive-oldstandard-fonts-2023.209.2.6svn64464-55.1.noarch.rpm"
+RPM_HASH = "9e02f817c69b16d00caaad427a95c11b1d0cb960fb787ca7f4dc490dd7e7ef55e6ea665ba983c8fdec8c89b6cf3ed1b33bec461e2088aaa75933dc3e4ca42f53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-oldstandard-fonts \

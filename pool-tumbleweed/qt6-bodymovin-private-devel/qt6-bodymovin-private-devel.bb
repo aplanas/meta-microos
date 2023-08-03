@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6Bodymovin that do 
 ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-bodymovin-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "61863cb6ba6ed42851ea7b3241243c8c50ca352ef251b8749976bfab8adfb0aaa40ca29695d88748018e8ec5f638c3625652a1991b1d21470569f4ee5b4af5bc"
+RPM_NAME = "qt6-bodymovin-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "522f9b095a8462a9fbd44e228a31d76a7f48585727c7a2d63b08d8052bc4c54a86214980be9df79dd8295278cd072dd02bd729b22628a8ab5499243180f93cf6"
 
 RPROVIDES:${PN} += "cmake-Qt6BodymovinPrivate \
 qt6-bodymovin-devel \

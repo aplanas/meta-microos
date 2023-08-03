@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-nevelok"
 DESCRIPTION = "This package includes the documentation for texlive-nevelok"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.03svn39029"
+PV = "2023.209.1.03svn39029"
 
-RPM_NAME = "texlive-nevelok-doc-2023.201.1.03svn39029-54.1.noarch.rpm"
-RPM_HASH = "a0775e45876d51ece6d0457a19fd2b48490a9b4697af8332b222874604c5624e72d48815dab2aab34953f8e1c55587f65a0b0d223f099f60a82d1d1041ec3057"
+RPM_NAME = "texlive-nevelok-doc-2023.209.1.03svn39029-55.1.noarch.rpm"
+RPM_HASH = "1370724a492a1197ff1705cb813495a0ee63ef0a93d4775faed6f5b01b444e301c3175f69b1bbeeeea75d6c9900c37ea5030cdf6f5f6dcc99af7c59ffcfbfedf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nevelok-doc"

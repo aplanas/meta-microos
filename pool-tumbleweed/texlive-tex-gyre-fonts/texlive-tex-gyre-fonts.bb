@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-tex-gyre"
 DESCRIPTION = "The  separated fonts package for texlive-tex-gyre"
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.201.2.501svn65956"
+PV = "2023.209.2.501svn65956"
 
-RPM_NAME = "texlive-tex-gyre-fonts-2023.201.2.501svn65956-54.1.noarch.rpm"
-RPM_HASH = "d424b3819d9cd9c1af12b80176ea7c8fc89913cd1564ddebcc8caf3fbe8c89ce1107106ca52f355acb5044adb163396fdf3b6bb090bf1d1e8859aa7688d6b8f0"
+RPM_NAME = "texlive-tex-gyre-fonts-2023.209.2.501svn65956-55.1.noarch.rpm"
+RPM_HASH = "9beaab34ac48c83542d4ea9c7cf16a8424ee46080a75cc19a333c0115b34e89fc0f9d7c0908245d00e4dfea19701e028017ac5979809303da3deac1d43d5d62b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-tex-gyre-fonts \

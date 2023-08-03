@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.12.0"
 
-RPM_NAME = "python39-onnx-1.12.0-2.10.aarch64.rpm"
-RPM_HASH = "d59d831c8729ee714672eef337f485ce608e1db6648dbfdffdd38bc35c0495134c7419f5e873d37c16741a946bb252eb7320f0ad982545fbced8816014423db3"
+RPM_NAME = "python39-onnx-1.12.0-3.1.aarch64.rpm"
+RPM_HASH = "d34b1974050acf91d5511d6fdacc1f98b8af6ac135c3286aa43a0672a726ef48a105f7d18485edcf179fdf68dc31a5bdd301861870ab7d7974ee773349badc41"
 
 RPROVIDES:${PN} += "python3.9dist-onnx \
 python39-onnx \

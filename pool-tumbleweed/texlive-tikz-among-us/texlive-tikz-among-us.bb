@@ -4,10 +4,10 @@ environments. Some interesting uses alongside other packages \
 are also supported."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2.0svn60880"
+PV = "2023.209.1.2.0svn60880"
 
-RPM_NAME = "texlive-tikz-among-us-2023.201.1.2.0svn60880-54.1.noarch.rpm"
-RPM_HASH = "d2f363152cc4944c4cbe7ad8b7787cf8457bbb25818c0eca70c2479f565e52900cb7c78568cbe250f919473cd98cbef17c8d70f685e14211715c6dda90467588"
+RPM_NAME = "texlive-tikz-among-us-2023.209.1.2.0svn60880-55.1.noarch.rpm"
+RPM_HASH = "9cf693896656156bb5a6f2deca4bc9ced62f02c0886a44d6338ce146cfaca7062ce340b0f0e2bb1a8caa09ad5e5ec3c9e7aa3dd878dab10d30f07527a0e2f82e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikz-among-us-fancyhdr.sty \

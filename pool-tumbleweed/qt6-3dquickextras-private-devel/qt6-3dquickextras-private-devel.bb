@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt63DQuickExtras that
 any ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-3dquickextras-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "3e8a1d2f0401d676dac969ce31aa26f4513e66c59ac7043a9734b0da6e7373728e9106a638eb8f31a10c5734a83cd392478659b687c6f666c61742c8aad8c644"
+RPM_NAME = "qt6-3dquickextras-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "8718279acc20f0a875c85b15053f2ba55cc5e43c520b1bae3272248d1515ccc14f9decaf9fc3cd20c52c03c013a29e324c743832396b5d9b777cca6acb3006bf"
 
 RPROVIDES:${PN} += "qt6-3dquickextras-private-devel"
 

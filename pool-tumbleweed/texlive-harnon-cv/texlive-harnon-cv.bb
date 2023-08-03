@@ -3,10 +3,10 @@ DESCRIPTION = "The class offers another modern, neat, design, and provides a \
 simple means of adding an 'experience timeline'."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.0svn26543"
+PV = "2023.209.1.0svn26543"
 
-RPM_NAME = "texlive-harnon-cv-2023.201.1.0svn26543-53.2.noarch.rpm"
-RPM_HASH = "b460910220f0c83760ac1aab570991dc1fdba90b6d3f8be64b473e7eb4ea1f9fa68d279350cb198ea72457e3f85f30e7bde6606ee30c177c9c3f5e259c2aceb8"
+RPM_NAME = "texlive-harnon-cv-2023.209.1.0svn26543-54.1.noarch.rpm"
+RPM_HASH = "a5f16b91e99753c4c8318cd8132c494e7c47d525ae8e43e0f195fa4a7fc69c991ed94eeaeb8239e5e67961218c666d826e21651d3310455630a3e15927c136dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-harnon-cv.cls \

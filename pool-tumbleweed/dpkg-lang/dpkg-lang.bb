@@ -2,10 +2,10 @@ SUMMARY = "Translations for package dpkg"
 DESCRIPTION = "Provides translations for the 'dpkg' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.21.8"
+PV = "1.21.22"
 
-RPM_NAME = "dpkg-lang-1.21.8-2.2.noarch.rpm"
-RPM_HASH = "f056da94976704c3edc180a970cc76446153dffd02c283a90762456949ad1fac27d4d1a9ebb9abfd7e56fb6214ec9402499c721dfa426d010931f2b7c206301e"
+RPM_NAME = "dpkg-lang-1.21.22-1.1.noarch.rpm"
+RPM_HASH = "b29b3ccc6f7acf9ede26104920e3406f9eef908db9b3bd5c89f1bf143e2d845f62b7c730b25774ea9c67f9a55f9fdbfdfc839f8de43403631426817c0c03ad68"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dpkg-lang \

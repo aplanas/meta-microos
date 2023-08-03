@@ -7,10 +7,10 @@ is provided, along with a narrower version which may be useful \
 for rendering code."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.014svn58839"
+PV = "2023.209.1.014svn58839"
 
-RPM_NAME = "texlive-nimbus15-2023.201.1.014svn58839-54.1.noarch.rpm"
-RPM_HASH = "9e4265b7a9dd1102270d623dc4304da958372a87c9a55119d8712153362926a8eedc3615217e3b3d7918c3f224f549dd7b7eebffb31f4c37e9e05a46bcb32406"
+RPM_NAME = "texlive-nimbus15-2023.209.1.014svn58839-55.1.noarch.rpm"
+RPM_HASH = "003a718331b97370d6abaeb0a801ee860cb89346e3e6b1e6e1c838612bf119e6c4895a3045bde94255d0a6e95f2e19b76011eb873ed573c4a985c67d559b3f22"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LGRNimbuSans.fd \

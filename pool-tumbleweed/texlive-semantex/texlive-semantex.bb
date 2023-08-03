@@ -14,10 +14,10 @@ it at this point should be safe. Still, suggestions, ideas, and \
 bug reports are more than welcome!"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.525svn65679"
+PV = "2023.209.0.0.525svn65679"
 
-RPM_NAME = "texlive-semantex-2023.201.0.0.525svn65679-53.1.noarch.rpm"
-RPM_HASH = "5eee2410c5cd75603814d6442da36e148315e7359e888bf565e9fd08a48091369a8395c791d2770208f177858198b5e230c1311d19326a6e1b5e9809b5459ac7"
+RPM_NAME = "texlive-semantex-2023.209.0.0.525svn65679-54.1.noarch.rpm"
+RPM_HASH = "dbc3a875180e9ee2eb251eaf217df8c97e59f50c5ce9ddb07b2975d450c2d758ed4819c549dfe48d0e2e974c48078171ce336631fcf66752d28843874467bfe0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-semantex.sty \

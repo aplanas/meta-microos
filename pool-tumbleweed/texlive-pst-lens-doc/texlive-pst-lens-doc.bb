@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-lens"
 DESCRIPTION = "This package includes the documentation for texlive-pst-lens"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.02svn15878"
+PV = "2023.209.1.02svn15878"
 
-RPM_NAME = "texlive-pst-lens-doc-2023.201.1.02svn15878-52.1.noarch.rpm"
-RPM_HASH = "d2d8ec48460bf06701916c40a5e9847c8527fa292f8d613b8608943902e44718823c067cd4cb11c0f9b8a4921b505636b6b31e44d939bcb55486a08ca45dd716"
+RPM_NAME = "texlive-pst-lens-doc-2023.209.1.02svn15878-53.1.noarch.rpm"
+RPM_HASH = "f33ebcc5cdd0208722a25c32e2d6bd5f69929dc917d6f12eb7d1daccf9054a2911e798d828e0d6c55555be9111b7cf6bac90859ce603091dd9657bfd91a052c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-lens-doc"

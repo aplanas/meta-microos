@@ -7,10 +7,10 @@ conformant to the official guidelines of the GSEM Faculty for \
 writing PhD dissertations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.9.4svn56291"
+PV = "2023.209.0.0.9.4svn56291"
 
-RPM_NAME = "texlive-gsemthesis-2023.201.0.0.9.4svn56291-53.2.noarch.rpm"
-RPM_HASH = "791df2fcde03e75b6f4c5d8dbed5e3dc9e5fddc18999a2e446a30846cf729029778c1ee606aea3c44ae19c718b9a848adf472c667fae75db7d18bcae226b4b9f"
+RPM_NAME = "texlive-gsemthesis-2023.209.0.0.9.4svn56291-54.1.noarch.rpm"
+RPM_HASH = "290d24ce47254b36918b18e79787cec7203a6760e895dc53473607411f1edca1dc69009000cafdc1c3eefd7667e4de1dd740ed23834ea2fb363764b893744c88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gsemthesis.cls \

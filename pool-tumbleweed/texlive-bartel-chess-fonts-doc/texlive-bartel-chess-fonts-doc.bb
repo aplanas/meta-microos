@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bartel-chess-fonts"
 DESCRIPTION = "This package includes the documentation for texlive-bartel-chess-fonts"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn20619"
+PV = "2023.209.svn20619"
 
-RPM_NAME = "texlive-bartel-chess-fonts-doc-2023.201.svn20619-53.1.noarch.rpm"
-RPM_HASH = "623510d8c6461f8e174837aa2be29049517baddb73e7918ce3e8d79dc005599ee0741ee5e60c38e25b51db6b00cbbb7824432af417c8ea9b112edeeb6f74e4c9"
+RPM_NAME = "texlive-bartel-chess-fonts-doc-2023.209.svn20619-54.1.noarch.rpm"
+RPM_HASH = "edf1fef7a0307de27475ea0abe218ec9512fc663b469bfd09bb1822b5cb5e066d083758df8ace36f6781fef178c29fe102a220f216cb298ddc1696cb7eb0ff9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bartel-chess-fonts-doc"

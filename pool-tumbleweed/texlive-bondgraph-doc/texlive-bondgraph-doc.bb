@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bondgraph"
 DESCRIPTION = "This package includes the documentation for texlive-bondgraph"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn21670"
+PV = "2023.209.1.0svn21670"
 
-RPM_NAME = "texlive-bondgraph-doc-2023.201.1.0svn21670-52.1.noarch.rpm"
-RPM_HASH = "f2ad2358346739fdb68e0c7005f8db28e2ce6d7c77829a19c8ebc6b09519ac6a98cef20785ec9f60f23d39cc56a6926107e4610b14673c3d905dfbb252f91ab3"
+RPM_NAME = "texlive-bondgraph-doc-2023.209.1.0svn21670-53.1.noarch.rpm"
+RPM_HASH = "2dbdbd65e2efb381e50c0158c4f1d3737a28b38823702dbc23363d98e552b42d5f2127fde04f99107b6e844fdd47486c23360bcc6374aae0498d88bcb4da7f5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bondgraph-doc"

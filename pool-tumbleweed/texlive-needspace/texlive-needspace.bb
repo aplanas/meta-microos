@@ -4,10 +4,10 @@ vertical space. If there is not enough space between the \
 command and the bottom of the page, a new page will be started."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3dsvn29601"
+PV = "2023.209.1.3dsvn29601"
 
-RPM_NAME = "texlive-needspace-2023.201.1.3dsvn29601-54.1.noarch.rpm"
-RPM_HASH = "e41516481dcdb97f5b9633a1ddbabfdd06e6477cd89f7fa9433e9a87471acda5d25f7a77925b2bf9154301c85c8b66b74ab837d46e1fde00b7df06ecc896d236"
+RPM_NAME = "texlive-needspace-2023.209.1.3dsvn29601-55.1.noarch.rpm"
+RPM_HASH = "243cefd1ff04966a7a612e5dd0a4e4e241a54bbc66577fcb91d0a648b0857067559963eeca31cc5a912c76663dfe90a26759e5c2f42b04232cbb241d77f73504"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-needspace.sty \

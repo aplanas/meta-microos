@@ -5,10 +5,10 @@ be adjusted with respect to relative position and format, and \
 can be used in text and math mode."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.42svn64706"
+PV = "2023.209.1.42svn64706"
 
-RPM_NAME = "texlive-spbmark-2023.201.1.42svn64706-57.1.noarch.rpm"
-RPM_HASH = "8732769ee19b621b2119fe83f5669e20f5fa3a9c76700b4c45e189aac4b06eb8f4a540f3f2232519bed0a5354851066f37ac3d425052b6519aa11da8bec43638"
+RPM_NAME = "texlive-spbmark-2023.209.1.42svn64706-58.1.noarch.rpm"
+RPM_HASH = "735ef1f5bcb9f6e42d9b72471af172d7e2dff8bdcc415a8796baec86ef3e1be4b7cecff1892fb6217e4e3b2307e834a85d67fbec26631f01e111e85cb912a7fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-spbmark.sty \

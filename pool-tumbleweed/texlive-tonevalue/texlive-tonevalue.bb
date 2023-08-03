@@ -4,10 +4,10 @@ visualisations of tone values. Currently, unt's model is \
 implemented. Support for more models is planned."
 LICENSE = "Apache-1.0"
 
-PV = "2023.201.1.0svn60058"
+PV = "2023.209.1.0svn60058"
 
-RPM_NAME = "texlive-tonevalue-2023.201.1.0svn60058-52.1.noarch.rpm"
-RPM_HASH = "30ec0ccefc0572a8d3b30cbb42b4bcdec01f59200793bfa5062c2e64693a263d1c7f260d70071b0597405335ec64f4a535b56a7e47cd1a147279d4eb88f1dad3"
+RPM_NAME = "texlive-tonevalue-2023.209.1.0svn60058-53.1.noarch.rpm"
+RPM_HASH = "d2928b76798e8856f90141fce669b72a4a849711543563a27cacfb06d09089c58ebd4bf03c79fc8bd294a048f15072614d8c754b07fd40abd84d2573885ee8e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tonevalue.sty \

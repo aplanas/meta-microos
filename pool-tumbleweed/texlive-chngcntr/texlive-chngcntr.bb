@@ -4,10 +4,10 @@ reset when another is incremented) and \\counterwithout (which \
 unsets such a relationship)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1asvn47577"
+PV = "2023.209.1.1asvn47577"
 
-RPM_NAME = "texlive-chngcntr-2023.201.1.1asvn47577-53.1.noarch.rpm"
-RPM_HASH = "8da91fcd1a1f5a15502654f2b329d972b7bbdb93ab8a45d1ebeb778a8896fc30226411f80664f09cc817f591a7fd1d218d49b77928391f7596e70f4ecf24f858"
+RPM_NAME = "texlive-chngcntr-2023.209.1.1asvn47577-54.1.noarch.rpm"
+RPM_HASH = "5cd1bd9b4991d53f828a0728d5173cad5db8cf3b5a2dc671c171af4f2967331f1bcdcb819f43ace8206c077393e8944554758daa01addff7af1f506ff172189d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chngcntr.sty \

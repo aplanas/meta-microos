@@ -5,10 +5,10 @@ Hirwin Harendal. The font is suitable as an alternative to \
 fonts such as Adrian Frutiger's Univers and Frutiger."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn64505"
+PV = "2023.209.svn64505"
 
-RPM_NAME = "texlive-universalis-2023.201.svn64505-53.1.noarch.rpm"
-RPM_HASH = "f9cb7fabcae32157b8fc4f6446eb4d220e64aa7de303a673d0f468a5a59edb832638bec8d608a2e35e7462b2ad31a091b00eb0b555d4e34b5f927e760cde4d77"
+RPM_NAME = "texlive-universalis-2023.209.svn64505-54.1.noarch.rpm"
+RPM_HASH = "a6609a8b7f71f9bf29f35fa5e2bb4d289466cfd4e0f20c19289de43115ca358a5ee2383dbcf020d894feefeb8ec73572efb2fd203b7d07c5f01d812d27b52848"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1UniversalisADFStd-LF.fd \

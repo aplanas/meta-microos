@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.24"
 
-RPM_NAME = "python310-bpython-0.24-2.3.noarch.rpm"
-RPM_HASH = "83de2a6ebeec7449e8ddd62caedd66e3aa8ad76a799df4194bbb4e79f461cb70bd8f9303e7ebe78697d5beaa211afe42b12aff6b57f48f304e2e01bbe8486edc"
+RPM_NAME = "python310-bpython-0.24-3.1.noarch.rpm"
+RPM_HASH = "fd69bff47e6836c265c1cae6f62bc1d4ea11e12798be16c7f80a76fca0d3ead3dc5004419f440dbcc9ed1e0e7d9489fe30f13be1ed87e92b726270cb977f22de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-bpython \

@@ -3,10 +3,10 @@ DESCRIPTION = "Extracts the letters of a command's name (e.g., foo for command \
 \\foo), in a reliable way."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn15878"
+PV = "2023.209.1.1svn15878"
 
-RPM_NAME = "texlive-cmdstring-2023.201.1.1svn15878-53.1.noarch.rpm"
-RPM_HASH = "0ef175ccb1371c09315e55ba6afe1fed1bfbe35cfcdb9591171260f2e2c8b8c7100f21bdcfc6331f828c3d5f4a539cd0641270a4fe44efd9baa57c25e4461b46"
+RPM_NAME = "texlive-cmdstring-2023.209.1.1svn15878-54.1.noarch.rpm"
+RPM_HASH = "9df775a57a10701a0cf4400930f1d024dcb65b995875b37edccd329e2d67366fd25734e3c831490552d3dbe49e4f2276013da74bfba29ce2fa3cb3a69c00199e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmdstring.sty \

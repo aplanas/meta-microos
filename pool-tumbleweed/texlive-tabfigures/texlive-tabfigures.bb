@@ -8,10 +8,10 @@ figures may still be aligned in tabular style (for example, in \
 the table of contents)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn25202"
+PV = "2023.209.1.1svn25202"
 
-RPM_NAME = "texlive-tabfigures-2023.201.1.1svn25202-57.1.noarch.rpm"
-RPM_HASH = "8ac3f3d870fe9d59a4aa1cb79cb6cafb7199ae78f4d6b22f4d292bd8e564ebb8c1e7e059b62b79475e87713c2441c4f8f34a4e09003819dc3c6da2cf861376a7"
+RPM_NAME = "texlive-tabfigures-2023.209.1.1svn25202-58.1.noarch.rpm"
+RPM_HASH = "16960f9e9abb1231e2a2c7a285ec6ea39f357fc222c935ed4ac10ac25cabc98b5390f0f3d489b2af39116dae85c4a48bced31a962a295be2eb1f4157507aa157"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tabfigures.sty \

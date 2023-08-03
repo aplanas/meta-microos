@@ -4,10 +4,10 @@ complies with Marquette University Graduate School \
 requirements."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn64259"
+PV = "2023.209.1.1svn64259"
 
-RPM_NAME = "texlive-mugsthesis-2023.201.1.1svn64259-54.1.noarch.rpm"
-RPM_HASH = "e29049226102b2531ab9af18098841cc54ae869c6e2b0e5df6f294aee5b2ee9afde6b0e6d81d208781c03b7b352d46d48de98e111877673e45cb6181c181669a"
+RPM_NAME = "texlive-mugsthesis-2023.209.1.1svn64259-55.1.noarch.rpm"
+RPM_HASH = "f58c83c32b721dd427b3d7fb058e0ca87d41b0458e01f75c560c1fab34e903584a9ad760a2cda93b7d674a168a11da5656ef291ede50a050f2e762fae45e6f71"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mugsthesis.cls \

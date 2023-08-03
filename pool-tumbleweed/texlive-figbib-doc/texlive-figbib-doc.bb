@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-figbib"
 DESCRIPTION = "This package includes the documentation for texlive-figbib"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn19388"
+PV = "2023.209.svn19388"
 
-RPM_NAME = "texlive-figbib-doc-2023.201.svn19388-52.1.noarch.rpm"
-RPM_HASH = "5356668ec54d36c2bda7fee7754e158b94142bef0eed896566d55b0cc576746a17ae84b6f570c9b33623c7a06c37e9a2de9bcf18586dc321994e797988944112"
+RPM_NAME = "texlive-figbib-doc-2023.209.svn19388-53.1.noarch.rpm"
+RPM_HASH = "e98abd74ed53faf5ed313b2ed19b93adcf8ac4a43893ecd672551937d16f2cb6421c2ece17926197301f1fbd926d95bca93902f8a597376d76429f1aacc2e3bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-figbib-doc"

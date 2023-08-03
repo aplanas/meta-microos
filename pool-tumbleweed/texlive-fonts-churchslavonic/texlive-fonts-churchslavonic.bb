@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides Unicode-encoded OpenType fonts for Church \
 Slavonic which are intended for Unicode TeX engines only."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.2.2svn56350"
+PV = "2023.209.2.2svn56350"
 
-RPM_NAME = "texlive-fonts-churchslavonic-2023.201.2.2svn56350-52.1.noarch.rpm"
-RPM_HASH = "ae2c41c32305f71421515a725fb1c91dbf9063bc55ec46ef584920849136814760949ddc869f6e2bc360447cb7697af819096bae77cba0f6179321a0e53c404d"
+RPM_NAME = "texlive-fonts-churchslavonic-2023.209.2.2svn56350-53.1.noarch.rpm"
+RPM_HASH = "b71190aef6976abba2c7f5f4872a775f5b08f299506382bab8fe1f2718cc85551cea93ac9889f146883fdc9dc8bbf655afc9ac5261f8f8beef91da512f6ff5b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fonts-churchslavonic"

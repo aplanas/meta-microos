@@ -2,10 +2,10 @@ SUMMARY = "Development files for aravis"
 DESCRIPTION = "This package contains the development files for aravis"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.8.26"
+PV = "0.8.27"
 
-RPM_NAME = "libaravis-0_8-devel-0.8.26-1.2.aarch64.rpm"
-RPM_HASH = "4508c2726fc7c37655f933b8c38dcc0cc563849ef28d3ba149d3029a9a1cdd1fc3a87301119dc2ede617fe55d1431f91ad92cf2e4fbeca91f9b2419f0b20a3d5"
+RPM_NAME = "libaravis-0_8-devel-0.8.27-1.1.aarch64.rpm"
+RPM_HASH = "01f9954beb180a2e0cfbaab498de41384c5f25ed5ccd214f3bbea2125a428f014cd3d3712da0d4bf5a6a734b9c9aa8a3ac25cba81d40fa7587fe122c69014726"
 
 RPROVIDES:${PN} += "libaravis-0-8-devel \
 pkgconfig-aravis-0.8"

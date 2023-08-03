@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 SensorsQuick library - Development files"
 DESCRIPTION = "Development files for the Qt 6 SensorsQuick library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-sensorsquick-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "e70df90cf08f5f7a048a45e471ea64b9a034bb3cebeaad02739a056e033c199c7d91e07a89e2868c6f675b66b8e8a14bca3665147aa5148ddc08add1cc3d8072"
+RPM_NAME = "qt6-sensorsquick-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "b658cada5e092edb4f0095a5c173dbce8da2d804850dfda422eb58cfce6c72bff9e9c44cae1b0febee81692dd6077f2da274aaf2bb530fa55785f39e74640a6a"
 
 RPROVIDES:${PN} += "cmake-Qt6SensorsQuick \
 pkgconfig-Qt6SensorsQuick \

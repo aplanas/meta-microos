@@ -9,10 +9,10 @@ and Macros for votes and decisions (list of decisions). Support \
 for minutes in German, Dutch and English is provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.8fsvn42186"
+PV = "2023.209.1.8fsvn42186"
 
-RPM_NAME = "texlive-minutes-2023.201.1.8fsvn42186-54.1.noarch.rpm"
-RPM_HASH = "e5df4245f83def1c1fa788d8fa163d6dc57fbf919c613ee77b38210973f16db556c4f25d2f91dfdea35ae6b436c6317ed8bcd66a1503322314a194ec168e96f9"
+RPM_NAME = "texlive-minutes-2023.209.1.8fsvn42186-55.1.noarch.rpm"
+RPM_HASH = "03c3a1eef7ff9b8454bd2f82181ae55c654e8c96902be5518072a235c0dd16a2bb223053761b767d3eceab1be7c98eae8ddbf894112729e0e925cc5bb8c402fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-minutes.sty \

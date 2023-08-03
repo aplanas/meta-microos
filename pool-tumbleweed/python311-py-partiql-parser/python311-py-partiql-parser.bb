@@ -2,10 +2,10 @@ SUMMARY = "Pure Python PartiQL Parser"
 DESCRIPTION = "Pure Python PartiQL Parser"
 LICENSE = "MIT"
 
-PV = "0.3.4"
+PV = "0.3.5"
 
-RPM_NAME = "python311-py-partiql-parser-0.3.4-1.1.noarch.rpm"
-RPM_HASH = "7530afbddbe5a97870059f831bee30b88b114b31b868e883d3d0be737af10e2470ba2a855311b61011a8673c797be1cde149ad8f571ea9ae2426fd808ae9e39c"
+RPM_NAME = "python311-py-partiql-parser-0.3.5-1.1.noarch.rpm"
+RPM_HASH = "e8099a61e1a7a7ce5434c81ca37a9bfd858a884e686201d94cfdb00c505848d71d2aa3cbf85c59f958538755bb8fdb12bcacacfb77db186f68b883d65c6763f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-py-partiql-parser \

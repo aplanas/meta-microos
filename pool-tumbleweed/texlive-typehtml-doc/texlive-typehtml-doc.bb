@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-typehtml"
 DESCRIPTION = "This package includes the documentation for texlive-typehtml"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn17134"
+PV = "2023.209.svn17134"
 
-RPM_NAME = "texlive-typehtml-doc-2023.201.svn17134-52.1.noarch.rpm"
-RPM_HASH = "f68c1ae2fadc1174049eb1b043b24427fcd30ec59a597b57f5292a8df657aaa4278b94a481efd94009fbd004ae7193764473e3f6ce1e340b6400be78663fbef7"
+RPM_NAME = "texlive-typehtml-doc-2023.209.svn17134-53.1.noarch.rpm"
+RPM_HASH = "ec1f64ae048ad283f53159fedfbd50382c6dc22e8ea2beba28df090ca29b8eacea9a7b129c84c0554dd38d1b4f5761c520ab25abc401e82ecd1fc896ae1197dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-typehtml-doc"

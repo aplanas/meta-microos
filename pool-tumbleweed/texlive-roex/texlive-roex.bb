@@ -10,10 +10,10 @@ strokes. In mftoeps, Metafont writes PostScript code to a \
 log-file, from which it may be extracted by either TeX or AWK."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn45818"
+PV = "2023.209.svn45818"
 
-RPM_NAME = "texlive-roex-2023.201.svn45818-53.1.noarch.rpm"
-RPM_HASH = "3ab2cc88f278d88e31d9fc1b672b78f493ad9cf3f32dc20816b7048928bc989ebbddf027b05302052d59eb90dcddd473428cf987de520ee9e6d1c347daaa5337"
+RPM_NAME = "texlive-roex-2023.209.svn45818-54.1.noarch.rpm"
+RPM_HASH = "eed685609ee20e0ca15234a0bf0647af17c43af8230c98991a729c3b59f1761816c5637d942ce18755b762efbde2dcdedff9b949710c63549dfb4474e7ee58cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-roex"

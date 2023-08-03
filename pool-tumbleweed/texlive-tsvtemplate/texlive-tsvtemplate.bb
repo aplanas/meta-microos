@@ -4,10 +4,10 @@ and plain LuaTeX. It also supports (non-quoted) comma-separated \
 values, or indeed values separated by any character."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2022_1.0svn65333"
+PV = "2023.209.2022_1.0svn65333"
 
-RPM_NAME = "texlive-tsvtemplate-2023.201.2022_1.0svn65333-52.1.noarch.rpm"
-RPM_HASH = "6d427a8377325ee50c20c3bc2680ea7ac5e33fdb197c844947fdf38fc6a5ba582bf2c935b8c4ea9b779ef671068e8a9a7ce779352273384dbde87dfde69c8979"
+RPM_NAME = "texlive-tsvtemplate-2023.209.2022_1.0svn65333-53.1.noarch.rpm"
+RPM_HASH = "e04d3eb0e858d2465af98b543867e5c46e2b106a550cf52d966e2f260a8baf1cb394909bcdb7ad2c6baa9c63cae3db5ef54aa526331047c7491fe31ef6a4188c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tsvtemplate.sty \

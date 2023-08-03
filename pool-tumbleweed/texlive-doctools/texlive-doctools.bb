@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a collection of tools for use either in an \
 'ordinary' LaTeX document, or within a .dtx file."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn34474"
+PV = "2023.209.0.0.1svn34474"
 
-RPM_NAME = "texlive-doctools-2023.201.0.0.1svn34474-52.1.noarch.rpm"
-RPM_HASH = "efb43229ad3b6f4cc07da64085c9aceb68fc91e82f5a851cb10a8275030a151149f68abd1f8a11a1934927bc6965735ad6d54f2776179cadacf597e24e016ccb"
+RPM_NAME = "texlive-doctools-2023.209.0.0.1svn34474-53.1.noarch.rpm"
+RPM_HASH = "fd8a665ff6914ec63ad7c60bd4877213c03110a8a2efc2aec56aac475cd8ee209d5686b3e61451e4e5931ce8305b5ba046c72a71335efb6a7e447dd6276062b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-doctools.sty \

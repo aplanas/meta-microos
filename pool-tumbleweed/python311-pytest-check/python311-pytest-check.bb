@@ -2,10 +2,10 @@ SUMMARY = "A pytest plugin that allows multiple failures per test"
 DESCRIPTION = "A pytest plugin that allows multiple failures per test. A rewrite of pytest-expect"
 LICENSE = "MIT"
 
-PV = "1.0.5"
+PV = "2.2.0"
 
-RPM_NAME = "python311-pytest-check-1.0.5-1.10.noarch.rpm"
-RPM_HASH = "f7ba69fa2c30b6da9f84558fc75c2c38fd5bd27f1f1e4949188f7dc57847f1eecf69218ea4e1eac38830cb9f96a22f1f0eddd5500a128af06122c7d3e462a194"
+RPM_NAME = "python311-pytest-check-2.2.0-1.1.noarch.rpm"
+RPM_HASH = "089ecb13af3ba24731084c2f387823e56d85a6357f44690c3c2bcf22a578bf93ada70b25e01a6cf38133f6f1bf8a7bd9758519839a56b962eee94bd4d6153a17"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-check \

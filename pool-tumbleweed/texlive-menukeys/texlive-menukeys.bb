@@ -4,10 +4,10 @@ keyboard shortcuts automatically. There are several predefined \
 styles and one can define one's own styles in a flexible way."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6.2svn64314"
+PV = "2023.209.1.6.2svn64314"
 
-RPM_NAME = "texlive-menukeys-2023.201.1.6.2svn64314-54.1.noarch.rpm"
-RPM_HASH = "722113e685308bd1edce081ba5b742b4ecba8a0e00b3f609746e00da2169327c8872d2d3593f75b25613a3f02ea0de91fcbf6900809c684fc0e330c91ef4a485"
+RPM_NAME = "texlive-menukeys-2023.209.1.6.2svn64314-55.1.noarch.rpm"
+RPM_HASH = "ec1510719fa0cead60f684d85e8f71cfcf2c7944d1d138eba8e26f1e0c7043fa0feba43af96da4c895e61d7c0446c887af79b7d63c9a1c0cb206f1fa077de239"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-menukeys-2020-12-19.sty \

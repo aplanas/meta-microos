@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-poiretone"
 DESCRIPTION = "The  separated fonts package for texlive-poiretone"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64856"
+PV = "2023.209.svn64856"
 
-RPM_NAME = "texlive-poiretone-fonts-2023.201.svn64856-52.1.noarch.rpm"
-RPM_HASH = "8159cf091fff9c3b72f79ae6027e07e26b7c14b7c71e4eae416daced96dc10ee35341f5ff0355bd959df79926bc9be83488310600a5b67b25a426a89ac1c244c"
+RPM_NAME = "texlive-poiretone-fonts-2023.209.svn64856-53.1.noarch.rpm"
+RPM_HASH = "be87267cfc55a21d8bead31efde47e75e375077d585dec8ed629528403bec60ba923cf6d240766a678ca24db5e0344fafa485aed2a4361b44e99fc698a251854"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-poiretone-fonts \

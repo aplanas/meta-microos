@@ -10,10 +10,10 @@ utilities are provided as C source with Imakefiles, and an \
 MS-DOS version of dvibook is also provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn57972"
+PV = "2023.209.svn57972"
 
-RPM_NAME = "texlive-seetexk-2023.201.svn57972-53.1.noarch.rpm"
-RPM_HASH = "dfb8774fe045af81375646e5346a2bffa323b982ee4a311a60240173708eaeb85157a3e8c97b2456f00ac5e5d327dd2b10a649578b84e855a56b26d4fd3c3d45"
+RPM_NAME = "texlive-seetexk-2023.209.svn57972-54.1.noarch.rpm"
+RPM_HASH = "4022f60952efb840f0e42ab9ab8748679858a2d7f684203c5d55d2f21069c3f785421b60d748a1a1b270da8d9190e29c609781ad86e6d7bc2f487eb9d0861ac2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-dvibook.1 \

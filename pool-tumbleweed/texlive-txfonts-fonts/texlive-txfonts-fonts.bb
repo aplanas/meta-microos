@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-txfonts"
 DESCRIPTION = "The  separated fonts package for texlive-txfonts"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-txfonts-fonts-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "128fcfa38b15d541a959a1d7480ea823499d3e1839fc5c1ae8eaaaa2c212a4a62cfedbdb03cdbc385911f26bb0b0100d544aa6f7412bcb0e3b5af81499aa8a2b"
+RPM_NAME = "texlive-txfonts-fonts-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "15ed7a966b4751b3d669ca7d72c249256c4bdb212d95bfc1136035e93f936553f361247775a35af07fc9eb1b56928002032b2652ca5b9f849f67a283561ac420"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

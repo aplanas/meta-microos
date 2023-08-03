@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.34"
 
-RPM_NAME = "tar-doc-1.34-10.4.noarch.rpm"
-RPM_HASH = "23bc20eb6583bb9a8e061192b25aaf6db300b2c5c5733e617bdc30e4ff6a1dfc332998f4b03a9bbcfd18e5792b9e30fed24183abeb249e81462301b6657088d5"
+RPM_NAME = "tar-doc-1.34-11.1.noarch.rpm"
+RPM_HASH = "6a4bf965d014cc64263de2a176d399d61a18bfad1b7932e0bee18155fa85ca3bd57318380f09c31ed580514c32067818c8690e8e6447e8b46084e91f6acaf2b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tar-doc"

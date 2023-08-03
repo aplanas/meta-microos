@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-graphics-pln"
 DESCRIPTION = "This package includes the documentation for texlive-graphics-pln"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65187"
+PV = "2023.209.svn65187"
 
-RPM_NAME = "texlive-graphics-pln-doc-2023.201.svn65187-53.2.noarch.rpm"
-RPM_HASH = "79d5bee2ad722eb6b526a738655569f63cccd3a9e5fab69f792d5f8f6adb15a084186397c6e2ce06fffac3c4250d616ed63a78dff06912da8f4ba8b9e4661d54"
+RPM_NAME = "texlive-graphics-pln-doc-2023.209.svn65187-54.1.noarch.rpm"
+RPM_HASH = "d7b4f8262760a312f556c328932dd182bcdf5deac47e9275272bba230e86a777c4d10ac1f192dde6ae57f8933c315daea8acb4afc2a41041005de8a2c90b1d70"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-graphics-pln-doc"

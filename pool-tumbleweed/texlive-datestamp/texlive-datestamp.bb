@@ -4,10 +4,10 @@ and LuaLaTeX. As long as the aux file is not deleted/modified \
 the date-stamp generated with this package remains intact."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.0.0.3svn61719"
+PV = "2023.209.0.0.3svn61719"
 
-RPM_NAME = "texlive-datestamp-2023.204.0.0.3svn61719-54.1.noarch.rpm"
-RPM_HASH = "61270af1eeccfc0fb7c11be3376a9fef5323fa97d6bda257b1e7fbdadac28cfb7eaeb62d7e921950bc38f153a03691b79ba8dddeffaa41bec8e78af8f94e7034"
+RPM_NAME = "texlive-datestamp-2023.209.0.0.3svn61719-55.1.noarch.rpm"
+RPM_HASH = "ed53eef7adaf440ea23cbb46b256c4e471e95e344266f86edffb98c0fd409d65955ec093363c92a25b3b15e22b5d1d98b68e009b784d1fe4c96799f5efad7ba5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datestamp.sty \

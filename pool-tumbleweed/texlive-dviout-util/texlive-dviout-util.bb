@@ -2,10 +2,10 @@ SUMMARY = "Package dviout-util"
 DESCRIPTION = "The dviout-util package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66186"
+PV = "2023.209.svn66186"
 
-RPM_NAME = "texlive-dviout-util-2023.201.svn66186-53.2.noarch.rpm"
-RPM_HASH = "8ac1e0d5f6dcfdfe67e586802a58e5d3e613507edbdaf4b04a76d85f8ee80a0152c512d654cc032d1a62c3c6604f0393fa03a51adaed3ca8ba621801e68a6605"
+RPM_NAME = "texlive-dviout-util-2023.209.svn66186-54.1.noarch.rpm"
+RPM_HASH = "69abdc93c123c56d6e6d8b7f498943575cf7e4235464ce973aaa5ceb36f8a84e51a68c57050747ae3876644fe626181851b5d48c83a5b2a24be8781386877a4b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-chkdvifont.1 \

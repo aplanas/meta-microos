@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-carlito"
 DESCRIPTION = "The  separated fonts package for texlive-carlito"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64624"
+PV = "2023.209.svn64624"
 
-RPM_NAME = "texlive-carlito-fonts-2023.201.svn64624-52.1.noarch.rpm"
-RPM_HASH = "aca442dc6b0102a6a75c388152fe3d694b9d73a866dc994c80f46a908495977a23989d09fbe6154b8cfc283ab186b840dda4bd66e1d312006893d7d2b238b7c3"
+RPM_NAME = "texlive-carlito-fonts-2023.209.svn64624-53.1.noarch.rpm"
+RPM_HASH = "e1d0cf86032328e7aef042f8995784a1051ab971711ec73d34d668852271a62a6f5e46984efdaa78b9b39f44d8967cd9dab3670cfe9666c9de636c95fac163c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-carlito-fonts \

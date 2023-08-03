@@ -8,10 +8,10 @@ original, translations to English, German, French, and Persian \
 are provided, as well as an English transliteration."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.81svn57601"
+PV = "2023.209.1.81svn57601"
 
-RPM_NAME = "texlive-quran-2023.201.1.81svn57601-53.2.noarch.rpm"
-RPM_HASH = "fe44e9ea6f08714a01bc72d3cb9e7974fefc169346a3334e73017bd76f0c575e0e3cea02d1b79b926ce1dcce9ec26721cf8a685bd5cceaabd1b02af133e57dff"
+RPM_NAME = "texlive-quran-2023.209.1.81svn57601-54.1.noarch.rpm"
+RPM_HASH = "a04d40d4347247c85d199f194d2d054d57fd5f3975c5c52d1b22225247a1b9b254c78ee1402096c9083ccd4d23fbbf7b0c1eb32468c8750696ee9db4727ca732"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-quran-transde.def \

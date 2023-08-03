@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-newtxsf"
 DESCRIPTION = "The  separated fonts package for texlive-newtxsf"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.054svn59227"
+PV = "2023.209.1.054svn59227"
 
-RPM_NAME = "texlive-newtxsf-fonts-2023.201.1.054svn59227-54.1.noarch.rpm"
-RPM_HASH = "c4967cde5c690081581c410f3785935bfd7d4aa1e13f90a14a9782e736ae18584dea49fd372370c75d31a55baef79072eef6cfc5d8b5db1be9ff708f6dd4d543"
+RPM_NAME = "texlive-newtxsf-fonts-2023.209.1.054svn59227-55.1.noarch.rpm"
+RPM_HASH = "dc0f03870568aae3c41829a5b3e0a9847c40af04c2e0548f91c53ec45c64afda928949e6f902e46bd9e453fd26ffd785ccf76560ad729fc2fb3e9ecd6dfe43ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=fj \

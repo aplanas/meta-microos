@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tablists"
 DESCRIPTION = "This package includes the documentation for texlive-tablists"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.0esvn15878"
+PV = "2023.209.0.0.0esvn15878"
 
-RPM_NAME = "texlive-tablists-doc-2023.201.0.0.0esvn15878-54.1.noarch.rpm"
-RPM_HASH = "0fadaec1339fce98e3a199f0b63f4d961686bcfd3ccde0065f479e16cc1f4576c69b5e3dbae7194a854837803907bcce3ff80d2e68862a6fdfd8dcb524cb1baa"
+RPM_NAME = "texlive-tablists-doc-2023.209.0.0.0esvn15878-55.1.noarch.rpm"
+RPM_HASH = "a087ff86d1ac4736551936cba5de0d5774f2185b49be3ec1ef558bde4fb02d1c9577defeb1ef2e69b365e617020d8c0e89ee2b294ca2ba2ecb11087b6dd43816"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tablists-doc"

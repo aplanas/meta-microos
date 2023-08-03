@@ -4,10 +4,10 @@ creation, program execution, signal handling and process termination \
 (fork, waitpid, signal, WIF flags, etc.)"
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.7"
+PV = "8.2.8"
 
-RPM_NAME = "php8-pcntl-8.2.7-1.1.aarch64.rpm"
-RPM_HASH = "bc23cb5e973f84c9edc634dd4a7de75871001a4eab3320b9e307acfb9f7b243757ab85d970bf75bacb85ba1111cda8959c3b386f6a18578c9b73c7c04cea7ddd"
+RPM_NAME = "php8-pcntl-8.2.8-1.1.aarch64.rpm"
+RPM_HASH = "ffe0fecfc6aff9c85a918a695d752c9a9be362297177fb18a393e0945484026ebf466d62f1126fc7de3cb1b49de4c489209e443fb39fd713b7e3bfe053eef656"
 
 RPROVIDES:${PN} += "config-php8-pcntl \
 php-pcntl \

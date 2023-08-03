@@ -12,10 +12,10 @@ sequences of numerically-consecutive labels to a reference \
 range."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.21.4svn61719"
+PV = "2023.209.0.0.21.4svn61719"
 
-RPM_NAME = "texlive-cleveref-2023.201.0.0.21.4svn61719-53.1.noarch.rpm"
-RPM_HASH = "caa9fe557b9f19b1876df36d283ada466b52b658b935043e75c60ffb11a7e954c5ca3c751023c298c3867ca458ab4771e58153174d5145665cf18c0dfdd61326"
+RPM_NAME = "texlive-cleveref-2023.209.0.0.21.4svn61719-54.1.noarch.rpm"
+RPM_HASH = "dd08a399d34d387d9da503c6cb83bc0d124315cb3d006cfc9a26c9d882f57b0a6e80eae97bca5b2f9963386344461d3cbbee72add6fba0ca208c9e9c37c49cb6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cleveref.sty \

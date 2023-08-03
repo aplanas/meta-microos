@@ -6,10 +6,10 @@ Harendal. According to the designer, the fonts were inspired by \
 Gill Sans."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn64865"
+PV = "2023.209.svn64865"
 
-RPM_NAME = "texlive-gillius-2023.201.svn64865-52.1.noarch.rpm"
-RPM_HASH = "e937f5be804b04ae629848945c169872fa05c607df0f8dc0ef529c34b7bc4952e66ec92943138f2d989cecd785cde6df3d0ff4d316393bb8bac05d0953267ab4"
+RPM_NAME = "texlive-gillius-2023.209.svn64865-53.1.noarch.rpm"
+RPM_HASH = "edf94d555147cfbdba86fd1d8e6b22a0d2e7415d9bcf87bf28cfb4973432b958c541903b7736ee8f270b6af2e41758713f2d66132537619c26984a2314d1d8c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-GilliusADF-Bold-lf-ly1--base.tfm \

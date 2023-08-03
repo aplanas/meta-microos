@@ -15,10 +15,10 @@ different languages. The user can: \
 * do home schooling"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.7.5"
+PV = "4.8.1"
 
-RPM_NAME = "veyon-4.7.5-2.2.aarch64.rpm"
-RPM_HASH = "d2b373e0003b51bedfb8f6fd19d0d4defa50b8d0430d077a3da96012667805765b2f897e01784407f11f37fdd18cf759f80549c84c44ba002f337d617c3e8fbc"
+RPM_NAME = "veyon-4.8.1-1.1.aarch64.rpm"
+RPM_HASH = "af3e25e63d11fb691fb3490d420f8379d714cd92ab35dafb6fd0b8832f6632e5fe28cad9c90188e9399addad1d7b0bd27d8092fee66179f6eb0cbc596444beda"
 
 RPROVIDES:${PN} += "libkldap-light.so \
 libldap-common.so \

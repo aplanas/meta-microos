@@ -5,10 +5,10 @@ Computer Science (LNCS) and its related proceedings series \
 CCIS, LNBIP, LNICST, and IFIP AICT."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.22svn64299"
+PV = "2023.209.2.22svn64299"
 
-RPM_NAME = "texlive-llncs-2023.201.2.22svn64299-54.1.noarch.rpm"
-RPM_HASH = "ccabd7682c1a14894314e0ab144936225a0c48c726541a96f75c50860db38a9a1b6c65294a55e6b407516a510799de2b8ae776fb8b26d20c664256cd20e9c421"
+RPM_NAME = "texlive-llncs-2023.209.2.22svn64299-55.1.noarch.rpm"
+RPM_HASH = "c792318ffcaaaf29c22874f0de3e59c17779a7b003d62203a8f0cdfac8157da8b38742a71b0071368bb4107632f2963405c0a45a801d04a700643a7e67b61908"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-llncs.cls \

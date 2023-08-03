@@ -3,10 +3,10 @@ DESCRIPTION = "The pytest framework makes it easy to write small tests, yet scal
 complex functional testing for applications and libraries."
 LICENSE = "MIT"
 
-PV = "7.3.2"
+PV = "7.4.0"
 
-RPM_NAME = "python311-pytest-7.3.2-1.1.noarch.rpm"
-RPM_HASH = "29b858849fd70bbb0a7a1639d782ff25ebeb879dbe7dbe13f0adf51b50c2b739a884d56e046155766f415d885eb5765ee9bd2eb8afc2a10a4edc55598739c0ce"
+RPM_NAME = "python311-pytest-7.4.0-1.1.noarch.rpm"
+RPM_HASH = "9cb4da00eefdbf5af569205ed501c3874cd0ea30fdad7da262218b25956e2cc787f3cae9034aaec022f2ed5dd1e6395a85005773afa09f361dcd4da2d4b46c78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest \

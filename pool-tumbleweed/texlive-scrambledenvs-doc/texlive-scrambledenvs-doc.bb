@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-scrambledenvs"
 DESCRIPTION = "This package includes the documentation for texlive-scrambledenvs"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.0svn60615"
+PV = "2023.209.1.1.0svn60615"
 
-RPM_NAME = "texlive-scrambledenvs-doc-2023.201.1.1.0svn60615-53.1.noarch.rpm"
-RPM_HASH = "b8af6ddf4e86a66ae3cf3497c9826ee33820b9c01cfce38ecfd7884984d31f285275cc13e2349722d0b0a742bb10f608fd7939fc352cc7297e14808dc62a5b55"
+RPM_NAME = "texlive-scrambledenvs-doc-2023.209.1.1.0svn60615-54.1.noarch.rpm"
+RPM_HASH = "d7449be181769a85e7d1a68188a19bb37817066baab80b0fcb1e8fbf38303ebd38e5ef2958bc702aa87205dccb51efab35916806ab6cf083469ce2962c857f55"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scrambledenvs-doc"

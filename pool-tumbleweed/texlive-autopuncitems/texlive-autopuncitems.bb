@@ -5,10 +5,10 @@ automatically punctuate the items. It uses lua pattern matching \
 to modify the environment's contents."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn63045"
+PV = "2023.209.svn63045"
 
-RPM_NAME = "texlive-autopuncitems-2023.201.svn63045-53.1.noarch.rpm"
-RPM_HASH = "fef3d09ebe841080244206792d57e361586d90e7f2053d74419083ff54b756185be930507fcfef13153e0c759669126950a9596d85debf7c01513cfc7fc9185e"
+RPM_NAME = "texlive-autopuncitems-2023.209.svn63045-54.1.noarch.rpm"
+RPM_HASH = "05f7d868ccc56e8ffff5fcafd6b004540fd6fe3d297a9e6199640abde011ac0b2aff72bff3440ba8e575345c570c6625df97c5b15f2d1080fad36f9a4827af06"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-autopuncitems.sty \

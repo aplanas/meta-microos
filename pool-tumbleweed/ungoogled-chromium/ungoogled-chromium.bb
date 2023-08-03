@@ -2,10 +2,10 @@ SUMMARY = "Google's open source browser project"
 DESCRIPTION = "Chromium is the open-source project behind Google Chrome. We invite you to join us in our effort to help build a safer, faster, and more stable way for all Internet users to experience the web, and to create a powerful platform for developing a new generation of web applications."
 LICENSE = "BSD-3-Clause & LGPL-2.1-or-later"
 
-PV = "114.0.5735.198"
+PV = "115.0.5790.98"
 
-RPM_NAME = "ungoogled-chromium-114.0.5735.198-1.1.aarch64.rpm"
-RPM_HASH = "2bd385fed79000d4cff5118c419ee47adfb81c3f4d7b40ab336ddf88827c25130d3b984dc9bbe6303880508e7333e04d3724aa1958f82a2e989b3f83c798d132"
+RPM_NAME = "ungoogled-chromium-115.0.5790.98-1.1.aarch64.rpm"
+RPM_HASH = "36023479c3b0f86c7d7e318db797bcf50d51d83eac047b8a590648b69df521af56584aaac4fd69024ac4a0abc322937894e253cab72ebcef375016501d033db3"
 
 RPROVIDES:${PN} += "chromium-based-browser \
 chromium-browser \
@@ -20,6 +20,9 @@ libFLAC.so.12 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \
 libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libX11.so.6 \
 libXcomposite.so.1 \
 libXdamage.so.1 \

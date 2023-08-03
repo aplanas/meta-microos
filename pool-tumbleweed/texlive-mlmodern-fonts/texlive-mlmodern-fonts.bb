@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-mlmodern"
 DESCRIPTION = "The  separated fonts package for texlive-mlmodern"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn57458"
+PV = "2023.209.1.2svn57458"
 
-RPM_NAME = "texlive-mlmodern-fonts-2023.201.1.2svn57458-54.1.noarch.rpm"
-RPM_HASH = "4f9b7f7b74bc6f0c31623758bd540fb538863aad4dcb650f1fb0953e2c61f65bd441ea2b168ad1cc92ac9a61c96822cc5cc2669de22481d2b55b68427659bd75"
+RPM_NAME = "texlive-mlmodern-fonts-2023.209.1.2svn57458-55.1.noarch.rpm"
+RPM_HASH = "6307f2dc14dc2ad4715ce90d07ea07efad368749a772762caa2d93dd163f1fe138ee651f1d6804bd715c1ab6006c4cdad160c743b8ea85630358dfaabe81bf36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

@@ -4,10 +4,10 @@ German (and, more generally, Continental European) alternative \
 to such author-date styles as harvard and oxford."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-munich-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "3e565365b3f86b9ce82258ad361a477c81c46e9a9fa1b2fb9bcc2a40525287cd73fc7f9a31be5ddc05353c655e1698b57f172ebd17bad8b7dd1c19d1d2bace41"
+RPM_NAME = "texlive-munich-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "32e51034369f7e273d58c01c53747ae83c3142704c3690ce8ae29debb40d6e3d0ebe9d6f8bee19331ee79cc80a98bc5ea232ea280fa24c32f027e634f1fecb83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-munich"

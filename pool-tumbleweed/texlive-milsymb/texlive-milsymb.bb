@@ -7,10 +7,10 @@ custom non-standard symbols. Control measures are planned to be \
 included in a future release."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.02svn54361"
+PV = "2023.209.1.02svn54361"
 
-RPM_NAME = "texlive-milsymb-2023.201.1.02svn54361-54.1.noarch.rpm"
-RPM_HASH = "8986947dc035b4781d016e4101735ffffe7a13d93e2c21fbe2f7219d63779eae21f0e556154ffae6794159c05e48f6f7470095ea97e1154a305ae9a257b7dc52"
+RPM_NAME = "texlive-milsymb-2023.209.1.02svn54361-55.1.noarch.rpm"
+RPM_HASH = "86bd3339e01a6165fd4bda546d7e0f73f879df675f8afbb07141feb5d0a0895db442cbad6c5149a1992f2b76e36ec3e4624f7ccf3a4e7a2712a6c1bcfbbadf09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-milsymb.sty \

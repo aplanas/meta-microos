@@ -6,10 +6,10 @@ configuration. This package provides both a Python API for \
 creating agents as well as a collection of existing agents."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
-PV = "4.12.1+git.1682325255.86f77326"
+PV = "4.12.1+git.1690196437.64f62dbb"
 
-RPM_NAME = "fence-agents-4.12.1+git.1682325255.86f77326-2.1.aarch64.rpm"
-RPM_HASH = "87b7bbbfa9b37c7a98e0974dc627738d6281b6afcd5bebcbe441de41df040bfa06b995ad0f2736ac39e32c42f8ec2c64f7f56c14d2e5e6e8fab5a8b75cfa3de1"
+RPM_NAME = "fence-agents-4.12.1+git.1690196437.64f62dbb-1.1.aarch64.rpm"
+RPM_HASH = "de88d382cb15433aa8c7f37b93e7e6dce354c27ac1729a61117fe4870134abc64f83cbc8cabe4c25d0c7a6a57b3aa9fc2ebdfc06f4be60ccdc10e60f20ad782d"
 
 RPROVIDES:${PN} += "fence-agents"
 

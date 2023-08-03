@@ -3,10 +3,10 @@ DESCRIPTION = "Qt Quick Effect Maker is a hybrid editor for creating shader effe
 Quick applications and offers both a node editor and a code editor."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-quickeffectmaker-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "e3a11f99b83cd21eb52833eb9a9b78b2059de13cb4d4c435dd05a0488180e5bfe0d119629ff7b12bccb32ba87b622807921eeba4a5b8475d744a43c2a2da8244"
+RPM_NAME = "qt6-quickeffectmaker-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "a42681d9b11369c7312315954cbec507b13d3e7523e4ee95f79e20435570e8e5f270f2d194662bd0a12bd0ae4a36e3f072653677dba6ea8d98fd0b8ac954bab0"
 
 RPROVIDES:${PN} += "qt6-quickeffectmaker"
 

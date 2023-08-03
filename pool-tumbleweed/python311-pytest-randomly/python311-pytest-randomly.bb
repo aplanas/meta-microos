@@ -19,10 +19,10 @@ Features: \
      every test."
 LICENSE = "MIT"
 
-PV = "3.12.0"
+PV = "3.13.0"
 
-RPM_NAME = "python311-pytest-randomly-3.12.0-1.3.noarch.rpm"
-RPM_HASH = "ea69a17be42356387582d6d329d4c4043bea94028351e98159080283f6a1bd70d50de3ad504e8efa86b97d556623751d0b055e0df0762a4326898543ffdfef5d"
+RPM_NAME = "python311-pytest-randomly-3.13.0-1.1.noarch.rpm"
+RPM_HASH = "4da17234b19edb4b0a4e05ad058c8fd4bcfdd8783c444d35e7ab4820258aa390e261fe3f418a4749811f37aaa328ed19c89ff82163cceb227a6e3944da0abd3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-randomly \

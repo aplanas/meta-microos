@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-cpugraph-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-cpugraph-plugin' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.7"
+PV = "1.2.8"
 
-RPM_NAME = "xfce4-cpugraph-plugin-lang-1.2.7-1.4.noarch.rpm"
-RPM_HASH = "b2a0ea52c1dd4903b8aedec301480e7ad7ae38ce93cd6c9b0dc9d2d3346fb93c5545e60893671f0e6a382ea027d6e89e73a9c091b4060acae4427e4f7221018d"
+RPM_NAME = "xfce4-cpugraph-plugin-lang-1.2.8-1.1.noarch.rpm"
+RPM_HASH = "b6df592977a6d716f179e07e6b421345f007152ea2f7b92cb4521a4d7c0ea98df0e7f5bd7080148f8607becf28256611eb97d45be00d8fb5b2fb44592f1ae154"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-cpugraph-plugin-ar \
@@ -17,6 +17,7 @@ locale-xfce4-cpugraph-plugin-da \
 locale-xfce4-cpugraph-plugin-de \
 locale-xfce4-cpugraph-plugin-el \
 locale-xfce4-cpugraph-plugin-en-AU \
+locale-xfce4-cpugraph-plugin-en-CA \
 locale-xfce4-cpugraph-plugin-en-GB \
 locale-xfce4-cpugraph-plugin-es \
 locale-xfce4-cpugraph-plugin-et \

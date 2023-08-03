@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-gfsneohellenic"
 DESCRIPTION = "The  separated fonts package for texlive-gfsneohellenic"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.02svn63944"
+PV = "2023.209.1.02svn63944"
 
-RPM_NAME = "texlive-gfsneohellenic-fonts-2023.201.1.02svn63944-52.1.noarch.rpm"
-RPM_HASH = "292e8a0e35d339dc4aecf23216cce964077387d39cbf8bd47aa47a04ab1f3a4082487a19c3cdfaedbc31b316eff21489fe06cee3823a64e91e281a4f7e93d384"
+RPM_NAME = "texlive-gfsneohellenic-fonts-2023.209.1.02svn63944-53.1.noarch.rpm"
+RPM_HASH = "a97a5383ce1360d5de7684935ea0375727c6e540c5243908eee3f04820150db42309220cb1f82de538e64b0da3e8cf78e11f843bae3516cc355bffc9f448c2a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-gfsneohellenic-fonts \

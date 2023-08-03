@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gost"
 DESCRIPTION = "This package includes the documentation for texlive-gost"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2lsvn57616"
+PV = "2023.209.1.2lsvn57616"
 
-RPM_NAME = "texlive-gost-doc-2023.201.1.2lsvn57616-53.2.noarch.rpm"
-RPM_HASH = "a1bf4d0dd0ced42fe963266bb0843f7aca2f7cc33825e61a5d42ac68f2f2bb548e4eb4f49ee5a9d4c984d849dd24f31f327481ee2776bd41e70be62ffc15490b"
+RPM_NAME = "texlive-gost-doc-2023.209.1.2lsvn57616-54.1.noarch.rpm"
+RPM_HASH = "393bcc057c6294f810cd6cfff76a0860fef7580dde15a680080f484807fe699a4f1478dc1157ff9d5da6690aa8b1dd712766d1a26350ec41efa9c089ddd79294"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-gost-doc-en \

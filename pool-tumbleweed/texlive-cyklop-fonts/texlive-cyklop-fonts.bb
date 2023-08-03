@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-cyklop"
 DESCRIPTION = "The  separated fonts package for texlive-cyklop"
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.204.0.0.915svn18651"
+PV = "2023.209.0.0.915svn18651"
 
-RPM_NAME = "texlive-cyklop-fonts-2023.204.0.0.915svn18651-54.1.noarch.rpm"
-RPM_HASH = "014cd676896518aeec07fae37363cf9468b294ba30d7df61518d5a2efd307cbbb9d5cc9fab7a40b505f62d63a555c31ab5e48137f005223ccdc6dcfc3a01adb7"
+RPM_NAME = "texlive-cyklop-fonts-2023.209.0.0.915svn18651-55.1.noarch.rpm"
+RPM_HASH = "481349b2560369f3d2e5f038dff5ea6e58e5fbcccdc8d64ac2dbf24a552cc4930cfba0c71b9db40c2493654def912a8e87b7565891e886038f499205e2d725b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-cyklop-fonts \

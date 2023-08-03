@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-cormorantgaramond"
 DESCRIPTION = "The  separated fonts package for texlive-cormorantgaramond"
 LICENSE = "OFL-1.1"
 
-PV = "2023.204.3.601svn64411"
+PV = "2023.209.3.601svn64411"
 
-RPM_NAME = "texlive-cormorantgaramond-fonts-2023.204.3.601svn64411-54.1.noarch.rpm"
-RPM_HASH = "244b23cff8e5b8c86368aac6c2eed617c34e1b7553d28f191da83df5a1ff53a7411f7de97510d673555a277b02df1e06779229c5431e669a94272859381575a4"
+RPM_NAME = "texlive-cormorantgaramond-fonts-2023.209.3.601svn64411-55.1.noarch.rpm"
+RPM_HASH = "173683807435bd9b78e505e1f8c16bc6466b9cbed135c8fc774724fd8acf8294464f4229436edc37a33783f4982481e23723dd12fd54eea37fa0224435a05c69"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-cormorantgaramond-fonts \

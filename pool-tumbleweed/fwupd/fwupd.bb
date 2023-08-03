@@ -6,10 +6,10 @@ You can either use a GUI software manager like GNOME Software to view and apply 
 updates, the command line tool or the system D-Bus interface directly."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.8.16"
+PV = "1.8.17"
 
-RPM_NAME = "fwupd-1.8.16-2.1.aarch64.rpm"
-RPM_HASH = "177a4eac1c01d4af83d5696eea0fc0e6ef8bd43efdbcf7c6d8557f8b77cd008f06bd67c9284c9e5a2dd6796e6ddd75b012567023422b5e7e871fea32364b06ab"
+RPM_NAME = "fwupd-1.8.17-1.1.aarch64.rpm"
+RPM_HASH = "a897c7ce62f740ff1ebaa203c0d99720781ecd67bbc40399e5fbc715913a414826771aa48f380c348aae4674383fc75291de49c1167dddd260e358fd737df6fa"
 
 RPROVIDES:${PN} += "config-fwupd \
 dbxtool \

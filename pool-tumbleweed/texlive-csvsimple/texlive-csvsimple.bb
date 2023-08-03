@@ -8,10 +8,10 @@ sorting or data base storage. The package depends on etoolbox, \
 ifthen, pgfrcs, pgfkeys, and shellesc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.2.3.2svn64450"
+PV = "2023.209.2.3.2svn64450"
 
-RPM_NAME = "texlive-csvsimple-2023.204.2.3.2svn64450-54.1.noarch.rpm"
-RPM_HASH = "9acb5373c9328506347ce7080171febd39ac5000444579724e64886e9c0d6ea6dc6eb9f40a4afb0fdf3923cfe0f3d5b712ee0e8a41d0d2470d036f743bff0f69"
+RPM_NAME = "texlive-csvsimple-2023.209.2.3.2svn64450-55.1.noarch.rpm"
+RPM_HASH = "c5ce57147ffb05c9a3ea8b45167532e6ae81e363bddcb80023be91408627dceeceed85b8b74f192b792d46570e771525ada90c7a38ac2ca3837b0d0133b30009"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-csvsimple-l3.sty \

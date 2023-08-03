@@ -7,10 +7,10 @@ they have since been autotraced and reissued in Adobe Type 1 \
 format by Taco Hoekwater."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.201.1.002svn54512"
+PV = "2023.209.1.002svn54512"
 
-RPM_NAME = "texlive-mflogo-font-2023.201.1.002svn54512-54.1.noarch.rpm"
-RPM_HASH = "6416e832c43e16aeff8255c9960812787a09e69f06131b2a5cb801a49c61f1e7faf3adc262d7b5467f444b32106ec312693cf5a59fbff0414f3166559c845367"
+RPM_NAME = "texlive-mflogo-font-2023.209.1.002svn54512-55.1.noarch.rpm"
+RPM_HASH = "29c69babb2d8cdba2e1fce5886b5504e5da243a91d3c0a28b12a99ee8fbd3de9f3818ebd7f0c911560e070c32096879521f156114eb6267b3b32ac21919ca31b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mflogo.map \

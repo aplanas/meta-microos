@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "30"
 
-RPM_NAME = "libkmod-devel-30-6.1.aarch64.rpm"
-RPM_HASH = "bdd7ac683ccd8cbb8a04d5149347a83a05a7493ee3e826527754f2838c60eec91acf2a928a428b161fa7db099515d84e87f8511a85fc948f1d677593c01837b2"
+RPM_NAME = "libkmod-devel-30-7.1.aarch64.rpm"
+RPM_HASH = "84a918fbd024dfa2bf68b6562c9dfbf7ef5875c22f878efcc3017add94ba47801b4abb85ecbc8a9564718d242612d4886be6e1632d603dac8e0ed038594cf71d"
 
 RPROVIDES:${PN} += "libkmod-devel \
 pkgconfig-libkmod"

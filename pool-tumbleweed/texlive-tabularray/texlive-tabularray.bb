@@ -13,10 +13,10 @@ completely separate the content and style of the table, and the \
 style of the table can be completely set in keyval way."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2023asvn66276"
+PV = "2023.209.2023asvn66276"
 
-RPM_NAME = "texlive-tabularray-2023.201.2023asvn66276-54.1.noarch.rpm"
-RPM_HASH = "b174e3d1cf6aece85d5444263c8f6828bf1d0294588c1acaf0326324fa687c8451e60dfeabe3f60fc2a23efb37cedd9955e58168a8cf104e3ea83164b0568862"
+RPM_NAME = "texlive-tabularray-2023.209.2023asvn66276-55.1.noarch.rpm"
+RPM_HASH = "a9b923a762e7bc4575d9f68acb8131b76a0df23a72d299c9539d42d40e4623432eadbd9251996d8a1ecdddb7e4570ce883e03c34bfe61c34e1ea7acb17da9fc9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tabularray-2021.sty \

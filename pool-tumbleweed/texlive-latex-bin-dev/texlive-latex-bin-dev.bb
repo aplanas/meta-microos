@@ -2,10 +2,10 @@ SUMMARY = "LaTeX pre-release executables and formats"
 DESCRIPTION = "See the latex-base-dev package for information."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66186"
+PV = "2023.209.svn66186"
 
-RPM_NAME = "texlive-latex-bin-dev-2023.201.svn66186-55.1.noarch.rpm"
-RPM_HASH = "7dcb5e218bfe36fc2ba289c1e48c73b0f7460352d8f8d618fa92af639a630c3bf65a4ea8c21fbef240b5caeaa4dfa35fc9f4b0b575bb4d0d5ef0808858ebc644"
+RPM_NAME = "texlive-latex-bin-dev-2023.209.svn66186-56.1.noarch.rpm"
+RPM_HASH = "7449f471091400bf8d46e9f3c8fa05ecc9efdf11ce5da98b9292eec2f6350e09f697fc7b6ade62faf9d9c514d4dec53dd23a67ca7e423bb3892af01f0d4687b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-dvilualatex-dev.1 \

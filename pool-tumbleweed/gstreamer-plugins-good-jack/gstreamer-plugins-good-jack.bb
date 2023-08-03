@@ -2,10 +2,10 @@ SUMMARY = "Jack plugin for gstreamer-plugins-good"
 DESCRIPTION = "This package provides the jack plugin for gstreamer-plugins-good."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "gstreamer-plugins-good-jack-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "6ff12bfc69cd14a2f9963e1b337efd12de43a6db281828c050df331718410cf56fb977c3df4d1587dac1b9d4dd43f74439425c8cf14efc02c19fa955cfd67646"
+RPM_NAME = "gstreamer-plugins-good-jack-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "b53a8787dec7f6c1e51badda68333cfc4c82abf119a149b608494799088bc12058f852851e7212426a6212bd5a74bd3c1425b01efef81cf0e487aa12f53ecc6b"
 
 RPROVIDES:${PN} += "gstreamer-plugins-good-jack \
 gstreamer1 \

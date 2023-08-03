@@ -6,10 +6,10 @@ converts umlauts and the sharp-s to the short forms defined by \
 babel, e.g., 'a instead, if the text is typeset in German."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn24980"
+PV = "2023.209.1.0svn24980"
 
-RPM_NAME = "texlive-ginpenc-2023.201.1.0svn24980-52.1.noarch.rpm"
-RPM_HASH = "31fb7f227e4039364f70238bf5ef8a6fed768ec89f66b45c7ec1eb18661ce5950ba0767d2a29b6b4420f04c35d564b1703d91f459e2bb6c2b537d69f15316ece"
+RPM_NAME = "texlive-ginpenc-2023.209.1.0svn24980-53.1.noarch.rpm"
+RPM_HASH = "0f2798942d314c7ed5b9367c2cead4c65a23f33e5192c9b1ef1c5df20cfd8f70cdca34e368c1ad0e40827eb4f960a30e67a31954410f102bb3bddd7958d334fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ginpenc.sty \

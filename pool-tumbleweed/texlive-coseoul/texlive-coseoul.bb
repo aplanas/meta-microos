@@ -5,10 +5,10 @@ number of document-management scenarios in which such commands \
 are valuable."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.1.1svn23862"
+PV = "2023.209.1.1svn23862"
 
-RPM_NAME = "texlive-coseoul-2023.204.1.1svn23862-54.1.noarch.rpm"
-RPM_HASH = "7322f2d40b7c0c684c977de86c3f36ea88fe465b392434b4a6c4b16ce5f39ae6330fd1eb82cb24a9cbe421ff72568fd23595d613d9d8829277debfe4c3b202b9"
+RPM_NAME = "texlive-coseoul-2023.209.1.1svn23862-55.1.noarch.rpm"
+RPM_HASH = "a1a979d1f425e0a0b29440b233223db672554956baf1b9d8d2e31b4b0b3ab452d87a0e5b49f697007be7303762186d071d8a9fe872ca72730accd69b7d2b79b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-coseoul.sty \

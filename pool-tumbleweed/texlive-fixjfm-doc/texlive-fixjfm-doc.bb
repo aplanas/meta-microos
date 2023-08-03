@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fixjfm"
 DESCRIPTION = "This package includes the documentation for texlive-fixjfm"
 LICENSE = "SUSE-TeX"
 
-PV = "2023.201.0.0.8svn63967"
+PV = "2023.209.0.0.8svn63967"
 
-RPM_NAME = "texlive-fixjfm-doc-2023.201.0.0.8svn63967-52.1.noarch.rpm"
-RPM_HASH = "a50e74d9495f55deb765d23e1bd8831940ea380b17285e85db254b07dfffd0403d99115dd94bf28d6df34a74d7e26ff94e41766a30a8c30b5f841db03b01d046"
+RPM_NAME = "texlive-fixjfm-doc-2023.209.0.0.8svn63967-53.1.noarch.rpm"
+RPM_HASH = "d4fdf38417f46dde43d222fd28aefaedff3c8581f44278d2424913fffd4388e7a5a8ae60e2532055246594102b7937afb6002d20c79e3a66f3ba3330cab37cba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fixjfm-doc"

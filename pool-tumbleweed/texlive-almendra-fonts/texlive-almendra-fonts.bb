@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-almendra"
 DESCRIPTION = "The  separated fonts package for texlive-almendra"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64539"
+PV = "2023.209.svn64539"
 
-RPM_NAME = "texlive-almendra-fonts-2023.201.svn64539-54.1.noarch.rpm"
-RPM_HASH = "42c38ba6cd78a7e6702f64663015baae11a7bd45c14d170c5a1c39ad8a276a4af89eb15dfc6260ebfd5daaa6365423c76786f774391df6683254c00738225f82"
+RPM_NAME = "texlive-almendra-fonts-2023.209.svn64539-55.1.noarch.rpm"
+RPM_HASH = "a262ed23cefb7e6a604b62afa9703a8921968a0fbe53e7e876e52ab60501eb1dacd2b43f4c905c49d287ecafe662cb8a4bf7f7624539a939c494b510040aa332"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-almendra-fonts \

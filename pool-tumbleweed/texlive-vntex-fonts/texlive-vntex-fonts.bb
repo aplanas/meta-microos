@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-vntex"
 DESCRIPTION = "The  separated fonts package for texlive-vntex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.2.2svn62837"
+PV = "2023.209.3.2.2svn62837"
 
-RPM_NAME = "texlive-vntex-fonts-2023.201.3.2.2svn62837-53.1.noarch.rpm"
-RPM_HASH = "fd6b5ebae528819b1c0db71d7269c8bff30a9169e466c080690ff6976ee48415665cc5261b1bab2cf3262ac8270e860275777c304eed41273757c0c16dc37b9c"
+RPM_NAME = "texlive-vntex-fonts-2023.209.3.2.2svn62837-54.1.noarch.rpm"
+RPM_HASH = "94caa7e7e0d38d990066699cac3a44730a595b024c0416397b7bbd36a30a0918c05563b1ffc52ad3a07a39f30c54632602fa88a888cffb39a5aac63fd2ea7000"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

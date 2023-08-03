@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a language description file that enables \
 support of Friulan either with babel or with polyglossia."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn39861"
+PV = "2023.209.1.3svn39861"
 
-RPM_NAME = "texlive-babel-friulan-2023.201.1.3svn39861-53.1.noarch.rpm"
-RPM_HASH = "ffe8c78b726a9d8a941a7023aa27a9154b02a7e1c94bc3345883b5be08d37a2ffc10e92b7134cefa11020877084c89aa44fc1b73df27589d2225ebe14f4b8ef8"
+RPM_NAME = "texlive-babel-friulan-2023.209.1.3svn39861-54.1.noarch.rpm"
+RPM_HASH = "b13130dfa70f2e6f0015c57fd00c9ddddeaf9a1a33a46c558199e1d2d0de9b1bd16b104ed8c3701ecb315594fd59c7c1f7c202c155a18222e69d7686abf4e21a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-friulan.ldf \

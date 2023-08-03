@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "20230214"
 
-RPM_NAME = "libcontainers-common-20230214-7.1.noarch.rpm"
-RPM_HASH = "bd402220290edde2e4cf6887074edcd66d7cce12aa6d92c04972de72811bba074129db890f68dfe780bd6d7803fba9628ec4f01f4312bdc670b1b1dcf4e9384a"
+RPM_NAME = "libcontainers-common-20230214-8.1.noarch.rpm"
+RPM_HASH = "2e8893e9ad31269524b180996760ab128bce3b3523f98e04a1417b9ba3b4fe1655e5f741a99ec356ccd6cb1ab61c6bae9132c98f429843990995c01886630304"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-libcontainers-common \

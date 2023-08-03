@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-multilang"
 DESCRIPTION = "This package includes the documentation for texlive-multilang"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.9bsvn49065"
+PV = "2023.209.0.0.9bsvn49065"
 
-RPM_NAME = "texlive-multilang-doc-2023.201.0.0.9bsvn49065-54.1.noarch.rpm"
-RPM_HASH = "42aa0e0c4693b0d3589a36c4c7d5152a6b0be5a7e96c6225a668fff9fcd5cafe8f67f6addb4236cb900dbf6fae0fe0234987f30409cf5e43fa68e82a497964bb"
+RPM_NAME = "texlive-multilang-doc-2023.209.0.0.9bsvn49065-55.1.noarch.rpm"
+RPM_HASH = "eccae2f21c81fdba4cbe0d6fa8ddc5ce04d8c52219d606df4fcd083549e0a1db1e26a07ae9aeab8620ea00a2d2eb8b460870ea61ed6a4844b9b8b80deb498523"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-multilang-doc"

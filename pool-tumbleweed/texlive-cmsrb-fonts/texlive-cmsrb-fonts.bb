@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-cmsrb"
 DESCRIPTION = "The  separated fonts package for texlive-cmsrb"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.4.0svn54706"
+PV = "2023.209.4.0svn54706"
 
-RPM_NAME = "texlive-cmsrb-fonts-2023.201.4.0svn54706-53.1.noarch.rpm"
-RPM_HASH = "445a924eead6744a003cf07358bc6624814ba43e433e28c2c3a60e22fdfad6ae28bec39f6211f64b3347c2c135a62fcdb45423ac087cad9efbb2a3030e884228"
+RPM_NAME = "texlive-cmsrb-fonts-2023.209.4.0svn54706-54.1.noarch.rpm"
+RPM_HASH = "f69d39c5dee4423cae029df1597450e64458ac61394e2a2d11289b42513856cdff0b3a9b9882eb2c1310706e237ebb5861326943bf36f0403994cb395ee4787f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

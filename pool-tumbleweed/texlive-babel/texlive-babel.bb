@@ -11,10 +11,10 @@ pdfLaTeX, as well as with XeLaTeX and LuaLaTeX, out of the box. \
 A few even work with plain formats."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.86svn65823"
+PV = "2023.209.3.86svn65823"
 
-RPM_NAME = "texlive-babel-2023.201.3.86svn65823-53.1.noarch.rpm"
-RPM_HASH = "cb3662bb4a9dde95ac9d6a9017f9f421cb66c50c9e4ff02aa40397617f2c90a2fb577ea3e58f89a43b8db208a9ee26a53c3a44638e993441bf6f8d77e2b81b5a"
+RPM_NAME = "texlive-babel-2023.209.3.86svn65823-54.1.noarch.rpm"
+RPM_HASH = "6d21713f7ba9ca79bff58391f9e517ea9310bb5961049cba13d101c27098527a780cf33702806f473b8a82d7c475e69c277e7eaa3c225fa5fb5d97c1acd05637"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-UKenglish.sty \

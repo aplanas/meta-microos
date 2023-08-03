@@ -6,10 +6,10 @@ undesirable behaviour of the command as provided in LaTeX 2.09. \
 (Note that neither cite nor natbib make this mistake.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn21014"
+PV = "2023.209.svn21014"
 
-RPM_NAME = "texlive-breakcites-2023.201.svn21014-52.1.noarch.rpm"
-RPM_HASH = "4aaea3f8ce0ed55fd20d5b71284aabcc890b720e6b7227dae4fe3ba8df60905fc23e2d0bf85dd9f3f00161cf5cafe2b43159e8f6c6c354466b3a421977773add"
+RPM_NAME = "texlive-breakcites-2023.209.svn21014-53.1.noarch.rpm"
+RPM_HASH = "7d65d3b76b61295d3e4ea006d00ef7e2a5a53bdfdc1586a7673651f5277b0d3da73593dc6ea6c6c8690e0bc6ab4e39b73b3272072afe84f128970fea1a43c4e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-breakcites.sty \

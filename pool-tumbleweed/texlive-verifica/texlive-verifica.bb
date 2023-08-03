@@ -5,10 +5,10 @@ intended for Italian high school teachers, as the style is \
 probably more in line with Italian high school tests."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn56625"
+PV = "2023.209.1.3svn56625"
 
-RPM_NAME = "texlive-verifica-2023.201.1.3svn56625-53.1.noarch.rpm"
-RPM_HASH = "601fae0a81b29ce366dded4899558d44691568e49fe9d75450f6d458aa826de65d277cc0c19e51f4986c8859c39f9f1c82e9f4d3745b7eeefe1331ec8655172a"
+RPM_NAME = "texlive-verifica-2023.209.1.3svn56625-54.1.noarch.rpm"
+RPM_HASH = "a9779ebd1c4c5b167106ceadd8c325d81e7e4137e68b1aaf3ab2b193de5a166cf025bc97e092107c16b7d080c5c03c0d883eb1f48bb71dd55e66c6c1fff9c77f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-verifica.cls \

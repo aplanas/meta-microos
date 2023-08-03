@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-cm-lgc"
 DESCRIPTION = "The  separated fonts package for texlive-cm-lgc"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.5svn28250"
+PV = "2023.209.0.0.5svn28250"
 
-RPM_NAME = "texlive-cm-lgc-fonts-2023.201.0.0.5svn28250-53.1.noarch.rpm"
-RPM_HASH = "f61ddda4742400de72df6c0b483016576e9a2775abb8bc64379e420da8d019c9e54149325db4717677022e3097b2bdcab05df4b6e659fbdfa96bdb3c406c73a2"
+RPM_NAME = "texlive-cm-lgc-fonts-2023.209.0.0.5svn28250-54.1.noarch.rpm"
+RPM_HASH = "59e58216bcabe4fe45e2c13f114316b41158f924a8809aa91821d83cf5a2f1006357a9f833839d81747bb9b70d1dcd9029b814216be3ac9bfa680dfa7dc6c530"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

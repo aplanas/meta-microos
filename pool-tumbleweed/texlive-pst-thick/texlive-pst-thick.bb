@@ -3,10 +3,10 @@ DESCRIPTION = "The package supports drawing of very thick lines and curves in \
 PSTricks, with various fillings for the body of the lines."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn16369"
+PV = "2023.209.1.0svn16369"
 
-RPM_NAME = "texlive-pst-thick-2023.201.1.0svn16369-53.2.noarch.rpm"
-RPM_HASH = "7a397355f616dc7bb8e7e5f78252033bae0c1c8e7431bdec37e608618ce4f35b859509ccbab2cdfc780be4826c1b27150e6e09518bde6cb47b958bf923e28540"
+RPM_NAME = "texlive-pst-thick-2023.209.1.0svn16369-54.1.noarch.rpm"
+RPM_HASH = "609fbb7242db3be0dd6e1d8f7efbf0542501e0809cef1ec4c504c576ea8f1b30d41102ac700f3d9aee6c245a8f8e306b4fd9a7c1f83b134b8e60e40d43378ed4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-thick.sty \

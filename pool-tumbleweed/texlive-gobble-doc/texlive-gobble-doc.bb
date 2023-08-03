@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gobble"
 DESCRIPTION = "This package includes the documentation for texlive-gobble"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn64967"
+PV = "2023.209.0.0.2svn64967"
 
-RPM_NAME = "texlive-gobble-doc-2023.201.0.0.2svn64967-53.2.noarch.rpm"
-RPM_HASH = "b676974d2fef442078aa1d447dd0ebb455fc87e3649d04c6a6e1602c315c3c2b29d19b68f460a345f457e2a302ba8cf5deeac4eb2fe8fa78ea0716b88512c38f"
+RPM_NAME = "texlive-gobble-doc-2023.209.0.0.2svn64967-54.1.noarch.rpm"
+RPM_HASH = "a4edecf83184c11222aa4c1083babbe82b52b8d79e6acaeeb320857d1418693e9d142dc00691dcfc9b7caff09163ba215e29ec79e3d6ca78121a60ba0ccfc2a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gobble-doc"

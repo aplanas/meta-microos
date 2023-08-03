@@ -6,10 +6,10 @@ LaTeX source file. The package requires that the readprov \
 package is available."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.31svn29349"
+PV = "2023.209.0.0.31svn29349"
 
-RPM_NAME = "texlive-typeoutfileinfo-2023.201.0.0.31svn29349-52.1.noarch.rpm"
-RPM_HASH = "4b4c766d8063d317ee20a660ce4e135660e2019ce541c87e774e7d936ab26b730296a040c6cccb3b59f3d7d7bb29f42330b3e56c875a65b9b9b409d2c20a9176"
+RPM_NAME = "texlive-typeoutfileinfo-2023.209.0.0.31svn29349-53.1.noarch.rpm"
+RPM_HASH = "6db2dd8efaa5ef69cfb4f1cf30e02613374b3c4524f136ac5e201bab0a95be88c65d9afec719dcae6e5ba17e3f6efe5a440c1f040c0fba77e3abd9408966d38f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-typeoutfileinfo"

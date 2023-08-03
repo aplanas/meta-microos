@@ -8,10 +8,10 @@ Thumbnails and captions Varnish mask There is also support for \
 loading event marks from a CSV file."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3.1svn45568"
+PV = "2023.209.1.3.1svn45568"
 
-RPM_NAME = "texlive-wallcalendar-2023.201.1.3.1svn45568-53.1.noarch.rpm"
-RPM_HASH = "e7ab71985cd54bc0c688299df9f23198553d7c5f9828fff55c2e38916fbef6e0cc76f81cb16d2d0fd5a6f7175c8d9ba5f0f12e7713df0ebad1a120c72dc1242a"
+RPM_NAME = "texlive-wallcalendar-2023.209.1.3.1svn45568-54.1.noarch.rpm"
+RPM_HASH = "ea56e516998af837cc6e575ea3dd80c139500dd47a92d7d1921614c47f8fe7019ea48ec6db0400ee201d8dfa5a62c919c568cd6ba8ae1746a8989ef4e46cc913"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-wallcalendar-czech.tex \

@@ -4,10 +4,10 @@ colour scheme management, document layout, headings and \
 footers, front page layout, and other minor items."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn15878"
+PV = "2023.209.1.1svn15878"
 
-RPM_NAME = "texlive-bookest-2023.201.1.1svn15878-52.1.noarch.rpm"
-RPM_HASH = "44c21e019322be3a6925cc1ab722ff3212e8711bfa77d6b7ee0b1b4e8bd058fde87e974fd3f1e87a9fe1627d6cdd52fea702bf4a4ff1ad14de3a709fd87fd55a"
+RPM_NAME = "texlive-bookest-2023.209.1.1svn15878-53.1.noarch.rpm"
+RPM_HASH = "423f4ae6fab9a0fde45478f148c63ad9219ecd828ac06ea0c5fe2981da992a2164e8fa6866a71d9df51c34081581e993358bf9db6ba23a6389444a13858c8020"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bookest.cls \

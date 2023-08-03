@@ -8,10 +8,10 @@ of Typesetting', TUGboat 17(4) (1996) 385 and supports most of \
 LaTeX mathematical packages. See the documentation for details."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.1svn57173"
+PV = "2023.209.1.1.1svn57173"
 
-RPM_NAME = "texlive-rmathbr-2023.201.1.1.1svn57173-53.2.noarch.rpm"
-RPM_HASH = "5d2e470e7bc8f2315437c12445486344a93ded56d0732c12e4ff6a0db402bc3cc25ebfa26c2e9c1b8ecf50a5ab57b7fd8b936913394b66bc674537f68a6e83b9"
+RPM_NAME = "texlive-rmathbr-2023.209.1.1.1svn57173-54.1.noarch.rpm"
+RPM_HASH = "31382c1b12329f74fd4569b9962131a0ea4bda10266f334e9e5b7146642e15cfc8c05468572f08cf906d4bcdb0e538663649d35d55de170e4124879844e2aebd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rmathbr.sty \

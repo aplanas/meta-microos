@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xepersian-hm"
 DESCRIPTION = "This package includes the documentation for texlive-xepersian-hm"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1asvn56272"
+PV = "2023.209.1.1asvn56272"
 
-RPM_NAME = "texlive-xepersian-hm-doc-2023.201.1.1asvn56272-52.2.noarch.rpm"
-RPM_HASH = "413988f217578c1a815f06cf71a249f8dd2c3ff5cf89680196f73c7fff0e07a1513383b3672ce92591b633113812712b961aee7a92565ce2dfb83f6ccaffbee1"
+RPM_NAME = "texlive-xepersian-hm-doc-2023.209.1.1asvn56272-53.1.noarch.rpm"
+RPM_HASH = "70241823a338b6e9905c9475298ae85ee9a39a1c60e0f7bb45c255dc7c1f4696bc10cd4a97a57311b36748efbe831249e3d539e66c8736d66f2e3f4aac0e4b5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-xepersian-hm-doc-fa \

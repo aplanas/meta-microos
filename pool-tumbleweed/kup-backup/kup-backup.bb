@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-only & GPL-3.0-only"
 
 PV = "0.9.1"
 
-RPM_NAME = "kup-backup-0.9.1-2.6.aarch64.rpm"
-RPM_HASH = "143b1c260e9310c298ce0a7d6e5a39cebc9c2f03b813de18fef0f9e28d0b0fe8c35e97694cebf1821c13e43c251345bf22bec1bdbcef27573531e7438359ddd4"
+RPM_NAME = "kup-backup-0.9.1-2.7.aarch64.rpm"
+RPM_HASH = "c648b6c8f62cead8ca70f7880d6cc461aa8dfd305183236b2ac02b18d3fbeff81728d072fbb173e9523e4362fd0847923e1600179647e24dd0677187a61bf257"
 
 RPROVIDES:${PN} += "kup-backup \
 libkdeinit5-kup-daemon.so"
@@ -42,7 +42,7 @@ libQt5Network.so.5 \
 libQt5Widgets.so.5 \
 libc.so.6 \
 libgcc-s.so.1 \
-libgit2.so.1.6 \
+libgit2.so.1.7 \
 libstdc++.so.6 \
 qt5qmlimport-QtQuick.2 \
 qt5qmlimport-QtQuick.Layouts.1 \

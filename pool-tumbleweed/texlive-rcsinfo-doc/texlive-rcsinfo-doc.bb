@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-rcsinfo"
 DESCRIPTION = "This package includes the documentation for texlive-rcsinfo"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.11svn15878"
+PV = "2023.209.1.11svn15878"
 
-RPM_NAME = "texlive-rcsinfo-doc-2023.201.1.11svn15878-53.2.noarch.rpm"
-RPM_HASH = "532e1f2cdd4efdc76d0a8fe40f846d0f16508d9134d6402e32b263ffaa9ff87846577fd1a50c5b55832b15ff5e28251510db076f2d9198501c51a08d2119c7fe"
+RPM_NAME = "texlive-rcsinfo-doc-2023.209.1.11svn15878-54.1.noarch.rpm"
+RPM_HASH = "0200f065fa613b40155a07995b86886f95096a0b8ecb4a8fa9da88cc2d0627d196761cc2fbae6149936bd4e3c4e3c1639105a4c1a5cd01c6fdde58b65052c902"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-rcsinfo-doc"

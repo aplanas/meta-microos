@@ -16,10 +16,10 @@ formulation (it provides the core functionality for the \
 key-defining front ends of both expkv-cs and expkv-def)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65623"
+PV = "2023.209.svn65623"
 
-RPM_NAME = "texlive-expkv-bundle-2023.201.svn65623-52.1.noarch.rpm"
-RPM_HASH = "55852b063d73833fb6c108cf6dd82741785d2422d7f32587d3dc957c27f4799c9e7018254e666fc5409240846a043bdc684734a8f1c8cb1884ce9dd37798b457"
+RPM_NAME = "texlive-expkv-bundle-2023.209.svn65623-53.1.noarch.rpm"
+RPM_HASH = "9afec05a2f1e2d46fbcde8ac2c8de52a3ef87a30b88e8214c3b649a186beaee11ccabd3c2cd76bcc61836dc967ba73cd8c343b2a4c7e686f6f7e9ed485601398"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-expkv-cs.sty \

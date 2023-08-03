@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-gofonts"
 DESCRIPTION = "The  separated fonts package for texlive-gofonts"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64358"
+PV = "2023.209.svn64358"
 
-RPM_NAME = "texlive-gofonts-fonts-2023.201.svn64358-53.2.noarch.rpm"
-RPM_HASH = "7121ec426c9dbb4c1b86c79a102f09413b4bf1778c26e7e89457d99a0c6a5ac866a0470e03e5b45d3e7aa06d25a03b1259af81fddf0573d7c27681762ab5af55"
+RPM_NAME = "texlive-gofonts-fonts-2023.209.svn64358-54.1.noarch.rpm"
+RPM_HASH = "8b7ba40cd08fdb95d7450e680396a5ca6cfe4a79f24d12a5a2982dbb73f00125c54c13b676e42e205a31f3b745eaa8ff493efc60cffdc440a9755a7694f48734"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-gofonts-fonts \

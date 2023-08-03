@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 connectivity libraries - Development files"
 DESCRIPTION = "Development files for the Qt6 connectivity libraries."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-connectivity-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "9a9ea78a527ec8b4a3ae10108e9fcad2bb6fd9b0465c8aafc1112834c8c50e09dc61f95c469c715ecdd0fcc0e7f906607b99ce9941a1f76e694d74a4b285cf81"
+RPM_NAME = "qt6-connectivity-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "7fdd7cd70fbb31b2cad300d143f0b4778268cbaa68ce58d4cebf04795290746b35b4f8b12d091993c55ee106bdf917d4473554dd064148ef96cc36c115c0d8a5"
 
 RPROVIDES:${PN} += "cmake-Qt6Bluetooth \
 cmake-Qt6Nfc \

@@ -4,10 +4,10 @@ After including the package, all maths of the current document \
 is displayed with sans serif fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.8svn15878"
+PV = "2023.209.0.0.8svn15878"
 
-RPM_NAME = "texlive-sfmath-2023.201.0.0.8svn15878-53.1.noarch.rpm"
-RPM_HASH = "63e6331bdbf3d29d86a3c3b59d223154365be41f6fe6e7d05bc2941637082c60bab406db7673812c6bec411e558cfac6344bfc068aacd9f894dd3599942bfab5"
+RPM_NAME = "texlive-sfmath-2023.209.0.0.8svn15878-54.1.noarch.rpm"
+RPM_HASH = "69bbcbe9ef30ca359aca6633bdc0764cd6d9ecc905096a57815714611d48f1493232fa1ba5e1fc68a5b9fd90bfb372b0fe62176c7b11c95eb24a3b923b9eab0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sfmath.sty \

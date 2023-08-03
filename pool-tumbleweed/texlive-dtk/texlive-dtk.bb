@@ -6,10 +6,10 @@ be used by article writers to typeset a single article, as well \
 as to produce the complete journal."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.08nsvn65315"
+PV = "2023.209.2.08nsvn65315"
 
-RPM_NAME = "texlive-dtk-2023.201.2.08nsvn65315-52.1.noarch.rpm"
-RPM_HASH = "4a73eed23c60a52fe2e1482e006d79fad90ecb9d7eabb09228fe093018ead47057b5fa405eba29af59ec34ecf947d1a770e1e8ca20f2be73daa03fcd01fbd15b"
+RPM_NAME = "texlive-dtk-2023.209.2.08nsvn65315-53.1.noarch.rpm"
+RPM_HASH = "1ad8024fbb2b3117d6d95c5f7dd8f124da41909c53a2646c27435951525741680b8e8eb65df33814a5932531d907bea944be273ff73f3cda693e0d8ddbaddd84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dtk-author.clo \

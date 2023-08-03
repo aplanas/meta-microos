@@ -6,10 +6,10 @@ author of aguplus recommends that users switch to using the \
 official distribution."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6bsvn17156"
+PV = "2023.209.1.6bsvn17156"
 
-RPM_NAME = "texlive-aguplus-2023.201.1.6bsvn17156-54.1.noarch.rpm"
-RPM_HASH = "8848005abb337e050d8896f748a6371e2cfe52abb546ce854d7bc50346c345811dc22e77e4e67cd3387a2a36befcd45051f9a5056d7b9e14c948511927489225"
+RPM_NAME = "texlive-aguplus-2023.209.1.6bsvn17156-55.1.noarch.rpm"
+RPM_HASH = "2ce1c32ff9d27030112da9002e1ff5cadd04d1b0b3e35c9f714878c338a81bb3689cd1f63f794525bd78263c35375ba9fc477c92dc45d74623c94bec33799129"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-aguplus.cls \

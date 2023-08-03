@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ntgclass"
 DESCRIPTION = "This package includes the documentation for texlive-ntgclass"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1fsvn65522"
+PV = "2023.209.2.1fsvn65522"
 
-RPM_NAME = "texlive-ntgclass-doc-2023.201.2.1fsvn65522-54.1.noarch.rpm"
-RPM_HASH = "b7f382a2b5bf3c1e07d2c49ecb3ffd6d8e772f032134dc90edd1d7d32a0eb1944b97750a93027734dcef0144f4f9e7818c825c48877de3385d7a1ba6e77f3fa0"
+RPM_NAME = "texlive-ntgclass-doc-2023.209.2.1fsvn65522-55.1.noarch.rpm"
+RPM_HASH = "e078aaf8adfa1a6e6067e7fadd24c3d0dd60b9f36a5a8c2cf9668a8a76d052e375125b164437b7936982162828451194f8ca591072f055f8c435bf4170930b77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-ntgclass-doc-nl \

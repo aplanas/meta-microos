@@ -4,10 +4,10 @@ ConTeXt. Such a font may be found in the Computer Modern 'extra \
 bold' font set."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn47085"
+PV = "2023.209.svn47085"
 
-RPM_NAME = "texlive-context-cmttbf-2023.204.svn47085-54.1.noarch.rpm"
-RPM_HASH = "7e7e16e5249c69e470adb7b3b896563220711d03f9078d8f1ba74e7d38401cb54f80fb2598540071b181149c615e091888540b28e236fe1f3bd0cf460dab950d"
+RPM_NAME = "texlive-context-cmttbf-2023.209.svn47085-55.1.noarch.rpm"
+RPM_HASH = "ed5cca8879d36522774071282d89a82c86d84ee251ab514581e498b9c10fc88a02e7b4ab61b113f21d955bd98700fc9155ea35812eb3127b6ea7b3a7e9d067dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-t-cmttbf.tex \

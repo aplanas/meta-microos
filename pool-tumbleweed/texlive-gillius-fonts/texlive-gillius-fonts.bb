@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-gillius"
 DESCRIPTION = "The  separated fonts package for texlive-gillius"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn64865"
+PV = "2023.209.svn64865"
 
-RPM_NAME = "texlive-gillius-fonts-2023.201.svn64865-52.1.noarch.rpm"
-RPM_HASH = "f08f5d7b4a7cdc2ebfa5ac5f3e522cc1218d6f8f1f09172d05a631e92499474700d145a643cb0b0c48ce34722dd7a1199a57154a27be361826f41d8a45a459f2"
+RPM_NAME = "texlive-gillius-fonts-2023.209.svn64865-53.1.noarch.rpm"
+RPM_HASH = "4f04195893cbd2645ea47181b220bf031fa94b1f1109004b94939e0ab5f7bbc8681a101181eda003c6c336eb3f8704767392579af28319c5e56e24dad898c4e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-gillius-fonts \

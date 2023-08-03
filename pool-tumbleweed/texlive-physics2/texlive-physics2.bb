@@ -9,10 +9,10 @@ with similar entries; Double cross and double dot (binary) \
 operators for tensors."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1.1svn66115"
+PV = "2023.209.0.0.1.1svn66115"
 
-RPM_NAME = "texlive-physics2-2023.201.0.0.1.1svn66115-51.1.noarch.rpm"
-RPM_HASH = "a9da6fc801f040cc935aeacb7925c102054db78c6c48f761e771945a01275b0eb38ad3c0deb406249b57354dc24f1473cc867630ffff7a224e6a9b27d5257a54"
+RPM_NAME = "texlive-physics2-2023.209.0.0.1.1svn66115-52.1.noarch.rpm"
+RPM_HASH = "36289d79be19cac82286f0dda3d6dfd8536058769b0380d1575d0c88acdac356e81277275d9987473e622b2ed815d8451ee9b2887b89cc0f18f2366fe727242c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-phy-ab.braket.sty \

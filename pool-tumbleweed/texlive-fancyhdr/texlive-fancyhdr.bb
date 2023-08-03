@@ -5,10 +5,10 @@ constructing headers and footers, and for controlling their use \
 the heading style in use)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.1svn64977"
+PV = "2023.209.4.1svn64977"
 
-RPM_NAME = "texlive-fancyhdr-2023.201.4.1svn64977-52.1.noarch.rpm"
-RPM_HASH = "1e140554b368bd6d33ef9e774ea24d58e74456ad6ff03aa8da9adf3f5924e87f7d959a0a4773e674660bd6941747f0a719726ca105308d81ce2d00e86b34465b"
+RPM_NAME = "texlive-fancyhdr-2023.209.4.1svn64977-53.1.noarch.rpm"
+RPM_HASH = "006e48fd42a1c9e7665bfbd661a147882466de2297249c0a89f6b2333e9a07f08c646a07b94e0e720047124ec0311c6cedab2554a81980d386795c906fd38936"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-extramarks.sty \

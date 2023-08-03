@@ -3,10 +3,10 @@ DESCRIPTION = "A package to provide different types of arrow heads to be used \
 with MetaPost commands drawarrow and drawdblarrow commands."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.0.0.1svn39729"
+PV = "2023.209.0.0.1svn39729"
 
-RPM_NAME = "texlive-mparrows-2023.201.0.0.1svn39729-54.1.noarch.rpm"
-RPM_HASH = "45d3fa0d0d1d68d03c038c0637746f3f9fe833027afd81dfddde32e5bebd0dfaaea002898858aaed73ebb148f9f89414e2fbfd2d85c5791ce6c729c234f07457"
+RPM_NAME = "texlive-mparrows-2023.209.0.0.1svn39729-55.1.noarch.rpm"
+RPM_HASH = "b0e12ce34adc62d373261be208f590722af354ba47d88cb75ab3a5e3431c3ded9f61df39afb2f6f74d23c10a8dc672826be00d47a58ca130cb78bb5756b6102f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mparrows"

@@ -4,10 +4,10 @@ generation in Korean language typesetting. The files belong to \
 the ko.TeX bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1.0svn38727"
+PV = "2023.209.2.1.0svn38727"
 
-RPM_NAME = "texlive-kotex-utils-2023.201.2.1.0svn38727-55.1.noarch.rpm"
-RPM_HASH = "470292faa10c73a9aa4be9d8098587f7001bc234e87e2babf8ebacb8e402ebdda2f160cc698d61faeab249a02e2b6c8b16b6457a004d625839cac891cc4c7f1b"
+RPM_NAME = "texlive-kotex-utils-2023.209.2.1.0svn38727-56.1.noarch.rpm"
+RPM_HASH = "e91c97471b0bab3cc201d7662d00707f41bd5ea367fea1523fd8088d7732ebbc462f9cf651facfdd844f418826bcd3824a3bd5a0041e597c1b50c0c51110f8a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kotex-utils"

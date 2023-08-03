@@ -4,10 +4,10 @@ part. Such an operation is commonly used as 'mail merge' to \
 produce mail shots."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.2.01svn20677"
+PV = "2023.209.2.01svn20677"
 
-RPM_NAME = "texlive-textmerg-2023.201.2.01svn20677-54.1.noarch.rpm"
-RPM_HASH = "981c6bacb28ec500c5383f2e97bb1bb4a3674df7e3d90444b5eaab0f89fb5c9fcf44f724c5cf7009f1e6aa2daa118ed592c54331a41af850da0f5abad3a02386"
+RPM_NAME = "texlive-textmerg-2023.209.2.01svn20677-55.1.noarch.rpm"
+RPM_HASH = "b997b237e85ed6246d35c33b29613398d33bc40f9b26f0a6c0df26cef024cdccc5defab614ea24839870eb974bada2602045083170a518828cd0197de60848d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-textmerg.sty \

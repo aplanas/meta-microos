@@ -8,10 +8,10 @@ parrafos se han tomado con permiso de \
 https://www.chiquitoipsum.com/."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn66461"
+PV = "2023.209.0.0.1svn66461"
 
-RPM_NAME = "texlive-fistrum-2023.201.0.0.1svn66461-52.1.noarch.rpm"
-RPM_HASH = "36cbc0bf5f5410f2a79f88fb82f773020be00b656c186f0020162091c482caec3f7e07131b323b63d5328103c53553471f8b99316ff18f5cbfc47ffcd5e8f602"
+RPM_NAME = "texlive-fistrum-2023.209.0.0.1svn66461-53.1.noarch.rpm"
+RPM_HASH = "f911b521146c0228cb2f5f6af90dc251b5d851612f2415d566a3e9f3ffb91870616e7604bfb2c6557cf03743b14b3eaa8ea1de2d549a6dba46d75c26cfafa9aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fistrum.sty \

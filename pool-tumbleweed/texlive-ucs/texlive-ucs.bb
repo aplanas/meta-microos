@@ -11,10 +11,10 @@ had an alias 'unicode'; that alias has now been withdrawn, and \
 no package of that name now exists."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.3svn64114"
+PV = "2023.209.2.3svn64114"
 
-RPM_NAME = "texlive-ucs-2023.201.2.3svn64114-53.1.noarch.rpm"
-RPM_HASH = "5ad8e6780601ce093078643d0371e4f7e2e7afd324ba3b3304ad54b6e05f66ae313e14bb1919e2fff2c254650531504b264e976572ab0b719111946065953181"
+RPM_NAME = "texlive-ucs-2023.209.2.3svn64114-54.1.noarch.rpm"
+RPM_HASH = "a202a139061ef0ab0d4e4edd126fd16c341586ceb8e8a779b67941f6e89228a243571d237bbd924dc6e37000a8f3b9584440199b374613cc2b0122bf34783d6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-autofe.sty \

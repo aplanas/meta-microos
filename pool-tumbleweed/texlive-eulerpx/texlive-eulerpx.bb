@@ -6,10 +6,10 @@ it with the Palatino and Optima fonts, but it may work with \
 other combinations, too."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn63967"
+PV = "2023.209.1.0svn63967"
 
-RPM_NAME = "texlive-eulerpx-2023.201.1.0svn63967-52.1.noarch.rpm"
-RPM_HASH = "550990adf7daca739ce68304e8dd97231a72fb8c662655c6ac1001b61248d4df7736dc32bc7a24523a18976f8f6bde75270d555a74555d73959646b370faf0f0"
+RPM_NAME = "texlive-eulerpx-2023.209.1.0svn63967-53.1.noarch.rpm"
+RPM_HASH = "1c733a4356d1c959224ff4f119554fa9c4c9a145b2dc0d1559595ac877bb8c59f56597ae9f2c38409b6adae6ca71d192f22be37f96dcf1e180fb630f1a651ceb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eulerpx.sty \

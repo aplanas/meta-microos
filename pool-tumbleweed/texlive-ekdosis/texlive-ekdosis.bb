@@ -12,10 +12,10 @@ to various criteria: main edited text, variant readings, \
 translations or annotated borrowings between texts."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.4svn61113"
+PV = "2023.209.1.4svn61113"
 
-RPM_NAME = "texlive-ekdosis-2023.201.1.4svn61113-53.2.noarch.rpm"
-RPM_HASH = "99057c9a0352fbdae91036c499f3cd15d489564d6fe6d855c42b4805e933f00c32aa2bf635dd2ec8fc7eaec61529c20f0eedf3e767efe987d933f03d457b1a46"
+RPM_NAME = "texlive-ekdosis-2023.209.1.4svn61113-54.1.noarch.rpm"
+RPM_HASH = "b98122c946cd6aa8d1b9ebe9b49c0e3f859a4d4dad10e5581bdfece9565015760fd1ed4ed43e58ba5838925e192ca346a698c59d5660d3d1ee7ce63133988407"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ekdosis.sty \

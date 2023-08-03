@@ -4,10 +4,10 @@ which can be used to run any game developed with the Godot engine simply \
 by pointing to the location of the game's data package."
 LICENSE = "MIT"
 
-PV = "4.0.3"
+PV = "4.1.1"
 
-RPM_NAME = "godot-runner-4.0.3-1.1.aarch64.rpm"
-RPM_HASH = "a79d5a47f7ee0fcc34076cab8d44fd21fb2efb9e3523608d5cc903907cf2734ffb88f94e9ab3421ca5fef259a8ef6c34e2f11dece9c4ea32aece0387c3c43de2"
+RPM_NAME = "godot-runner-4.1.1-1.1.aarch64.rpm"
+RPM_HASH = "9857a9ced384bcdd2b0d5c90aac75e2bed0be8f83f7db80848c0dafd108a4d01c4dd2211a1d66afbfbbc14e05fbcc76cb0dccd660598bf0c12e7f25aa12a1407"
 
 RPROVIDES:${PN} += "godot-runner"
 
@@ -22,6 +22,8 @@ libXinerama.so.1 \
 libXrandr.so.2 \
 libXrender.so.1 \
 libasound.so.2 \
+libbrotlicommon.so.1 \
+libbrotlidec.so.1 \
 libc.so.6 \
 libdbus-1.so.3 \
 libfontconfig.so.1 \
@@ -41,7 +43,6 @@ libogg.so.0 \
 libpcre2-32.so.0 \
 libpng16.so.16 \
 libpulse.so.0 \
-libsharpyuv.so.0 \
 libspeechd.so.2 \
 libstdc++.so.6 \
 libtheora.so.0 \

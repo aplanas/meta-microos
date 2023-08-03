@@ -6,10 +6,10 @@ established utility abcm2ps) and hence to the format needed for \
 inclusion in your document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0bsvn41157"
+PV = "2023.209.2.0bsvn41157"
 
-RPM_NAME = "texlive-abc-2023.201.2.0bsvn41157-54.1.noarch.rpm"
-RPM_HASH = "deb2a325f6e2df103742633030ee140e416849fa30d1c1e062f02a0b1b8bb354814d370457ba4065e6a361515f25f8e0ca06ae9d9ecff2c4fe67749042d5f462"
+RPM_NAME = "texlive-abc-2023.209.2.0bsvn41157-55.1.noarch.rpm"
+RPM_HASH = "ef28eab6a5468acd2865034941e785589d5d8fecbe1662abd6772704267f192f62f880c5f4e238bdf63905c1d093a95de8a32d87881bdf74a7e93ce92fa9fb46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-abc.sty \

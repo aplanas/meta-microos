@@ -11,10 +11,10 @@ European research proposals. The packages depend on the \
 author's stex bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn40538"
+PV = "2023.209.svn40538"
 
-RPM_NAME = "texlive-proposal-2023.201.svn40538-52.1.noarch.rpm"
-RPM_HASH = "62482546658d4a4da8a22f91dcdb7771eb769701053c5afee35ae710b70f899a330e46bf35b757c70f4d016b316d373d3079de507fcd9cb3ad4cc4f85a9d62e8"
+RPM_NAME = "texlive-proposal-2023.209.svn40538-53.1.noarch.rpm"
+RPM_HASH = "af5f9804700dea8b3c86798857d08437b599c16e990ca2e9fae97867ed5784140e2b56c336194a708c7d3ce3b945ecf322d6e633e66524f557e171dafee0eef2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dfgpdata.sty \

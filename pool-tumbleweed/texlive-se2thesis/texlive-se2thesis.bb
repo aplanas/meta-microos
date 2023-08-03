@@ -11,10 +11,10 @@ recommendations regarding several aspects, for example, \
 recommending BibLaTeX for bibliographies."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1.0svn65645"
+PV = "2023.209.2.1.0svn65645"
 
-RPM_NAME = "texlive-se2thesis-2023.201.2.1.0svn65645-53.1.noarch.rpm"
-RPM_HASH = "ffe3717f6b425de2ea6826ef953adb724ff176e3467e4a558f4527815629a8bcaea9f9de20e60d132d25ca553961b39a62b953e8018fec62558c475a0b1578de"
+RPM_NAME = "texlive-se2thesis-2023.209.2.1.0svn65645-54.1.noarch.rpm"
+RPM_HASH = "a7c850053ad8edbc5d9bcc4928e9f1c0ff325c900c56d26a2e1187a10092b509b6bcb47fce332b808575098c2c9eb6004bb1b542125fffd9164da650bef4455d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-se2colors.sty \

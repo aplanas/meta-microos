@@ -7,10 +7,10 @@ most obvious difference is that the numerator and denominator's \
 sizes do not change in the \\faktor command."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1bsvn15878"
+PV = "2023.209.0.0.1bsvn15878"
 
-RPM_NAME = "texlive-faktor-2023.201.0.0.1bsvn15878-52.1.noarch.rpm"
-RPM_HASH = "b41f16d3dc77309d3c95ffc1743535304d7f861e272c1b8a139ff2849a19dca5fc3bd41d6d6d413b025c2a5929d9fb68f695b5a5bf80a96d3697f729ec875c4b"
+RPM_NAME = "texlive-faktor-2023.209.0.0.1bsvn15878-53.1.noarch.rpm"
+RPM_HASH = "1018012d07a7b52ecf60bac0d2c6c68bbc7a0f1f3317578f30fdc047359ca78f1ae730df96c830cf08026315ca83da5b485f3c7070d38b0563abed4a5b5b480c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-faktor.sty \

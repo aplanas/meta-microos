@@ -8,10 +8,10 @@ process of preparing the necessary ingredients for the exam. \
 Automatic calculation of total points."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65754"
+PV = "2023.209.svn65754"
 
-RPM_NAME = "texlive-exam-lite-2023.201.svn65754-52.1.noarch.rpm"
-RPM_HASH = "6d3fbfda18aba5c93caacc5bb6275fc12e6d25a161828ea924c5ed3e7ef397edab8f5baae6f0660f0e29b18e6724252b864ce07da522c317a88252a65983d3a3"
+RPM_NAME = "texlive-exam-lite-2023.209.svn65754-53.1.noarch.rpm"
+RPM_HASH = "056115aec948d5b9f2fbbd3b90c04b52d4085cba6f52dd65f7da3e7b05f0b5f7bbb70a459842e733ec8b2e0254ca683ad24382a234519dfa2b56109d29ee624a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-exam-lite.cls \

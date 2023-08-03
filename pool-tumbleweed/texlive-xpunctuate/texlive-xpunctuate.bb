@@ -7,10 +7,10 @@ which follow a similar procedure to that of \\xspace, and insert \
 punctuation if and only if it is necessary."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn26641"
+PV = "2023.209.1.0svn26641"
 
-RPM_NAME = "texlive-xpunctuate-2023.201.1.0svn26641-52.2.noarch.rpm"
-RPM_HASH = "3ab9224e8396dbcebc6e9f0b388209e11398cf7ed3e363c0da9a32818b86904ad90a126d77643ff8f5dfcc0faa357c644d504f74f1e5b5e552a17a88f282dd08"
+RPM_NAME = "texlive-xpunctuate-2023.209.1.0svn26641-53.1.noarch.rpm"
+RPM_HASH = "aa56cafad68a8d9462fd148a552fca3f3f26bd032033d7f726ccd3e5c259924d98e8df071ca89f637b6ab4e2598c3d490bc6aa33a39bd337b20fe8f79a014107"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xpunctuate.sty \

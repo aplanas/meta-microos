@@ -11,10 +11,10 @@ Perl 5 objects better, but it provides the power of metaclass programming \
 as well."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.2203"
+PV = "2.2206"
 
-RPM_NAME = "perl-Moose-2.2203-1.3.aarch64.rpm"
-RPM_HASH = "87d8cc7f92e2f13b4e8337efeaf5db88c6be3b6763c036de1e44a6cb5be92f49691fa775d4fdfb252f7b41f3a9b592a8239d92b6ce6e474bbdbad1e56350dc02"
+RPM_NAME = "perl-Moose-2.2206-1.1.aarch64.rpm"
+RPM_HASH = "27059e2bd048b70aa8e86f79b8172a1b72dce087506dbff1bb89ba05dc90725943084dbc7b232636acb6ac26032991b3cc902f96e9dd2d2468886ab909e682e6"
 
 RPROVIDES:${PN} += "perl-Class--MOP \
 perl-Class--MOP--Attribute \
@@ -41,6 +41,35 @@ perl-Class--MOP--Overload \
 perl-Class--MOP--Package \
 perl-Class-MOP \
 perl-Moose \
+perl-Moose--Cookbook \
+perl-Moose--Cookbook--Basics--BankAccount-MethodModifiersAndSubclassing \
+perl-Moose--Cookbook--Basics--BinaryTree-AttributeFeatures \
+perl-Moose--Cookbook--Basics--BinaryTree-BuilderAndLazyBuild \
+perl-Moose--Cookbook--Basics--Company-Subtypes \
+perl-Moose--Cookbook--Basics--DateTime-ExtendingNonMooseParent \
+perl-Moose--Cookbook--Basics--Document-AugmentAndInner \
+perl-Moose--Cookbook--Basics--Genome-OverloadingSubtypesAndCoercion \
+perl-Moose--Cookbook--Basics--HTTP-SubtypesAndCoercion \
+perl-Moose--Cookbook--Basics--Immutable \
+perl-Moose--Cookbook--Basics--Person-BUILDARGSAndBUILD \
+perl-Moose--Cookbook--Basics--Point-AttributesAndSubclassing \
+perl-Moose--Cookbook--Extending--Debugging-BaseClassRole \
+perl-Moose--Cookbook--Extending--ExtensionOverview \
+perl-Moose--Cookbook--Extending--Mooseish-MooseSugar \
+perl-Moose--Cookbook--Legacy--Debugging-BaseClassReplacement \
+perl-Moose--Cookbook--Legacy--Labeled-AttributeMetaclass \
+perl-Moose--Cookbook--Legacy--Table-ClassMetaclass \
+perl-Moose--Cookbook--Meta--GlobRef-InstanceMetaclass \
+perl-Moose--Cookbook--Meta--Labeled-AttributeTrait \
+perl-Moose--Cookbook--Meta--PrivateOrPublic-MethodMetaclass \
+perl-Moose--Cookbook--Meta--Table-MetaclassTrait \
+perl-Moose--Cookbook--Meta--WhyMeta \
+perl-Moose--Cookbook--Roles--ApplicationToInstance \
+perl-Moose--Cookbook--Roles--Comparable-CodeReuse \
+perl-Moose--Cookbook--Roles--Restartable-AdvancedComposition \
+perl-Moose--Cookbook--Snack--Keywords \
+perl-Moose--Cookbook--Snack--Types \
+perl-Moose--Cookbook--Style \
 perl-Moose--Deprecated \
 perl-Moose--Exception \
 perl-Moose--Exception--AccessorMustReadWrite \
@@ -272,6 +301,27 @@ perl-Moose--Exception--ValidationFailedForTypeConstraint \
 perl-Moose--Exception--WrapTakesACodeRefToBless \
 perl-Moose--Exception--WrongTypeConstraintGiven \
 perl-Moose--Exporter \
+perl-Moose--Intro \
+perl-Moose--Manual \
+perl-Moose--Manual--Attributes \
+perl-Moose--Manual--BestPractices \
+perl-Moose--Manual--Classes \
+perl-Moose--Manual--Concepts \
+perl-Moose--Manual--Construction \
+perl-Moose--Manual--Contributing \
+perl-Moose--Manual--Delegation \
+perl-Moose--Manual--Delta \
+perl-Moose--Manual--Exceptions \
+perl-Moose--Manual--Exceptions--Manifest \
+perl-Moose--Manual--FAQ \
+perl-Moose--Manual--MOP \
+perl-Moose--Manual--MethodModifiers \
+perl-Moose--Manual--MooseX \
+perl-Moose--Manual--Resources \
+perl-Moose--Manual--Roles \
+perl-Moose--Manual--Support \
+perl-Moose--Manual--Types \
+perl-Moose--Manual--Unsweetened \
 perl-Moose--Meta--Attribute \
 perl-Moose--Meta--Attribute--Native \
 perl-Moose--Meta--Attribute--Native--Trait \
@@ -395,6 +445,8 @@ perl-Moose--Meta--TypeConstraint--Role \
 perl-Moose--Meta--TypeConstraint--Union \
 perl-Moose--Object \
 perl-Moose--Role \
+perl-Moose--Spec--Role \
+perl-Moose--Unsweetened \
 perl-Moose--Util \
 perl-Moose--Util--MetaRole \
 perl-Moose--Util--TypeConstraints \

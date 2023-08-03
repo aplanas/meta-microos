@@ -2,10 +2,10 @@ SUMMARY = "Examples for the qt6-quickeffectmaker modules"
 DESCRIPTION = "Examples for the qt6-quickeffectmaker modules."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-quickeffectmaker-examples-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "dbe93e45a96bb7237291448ff0080016e8669311cc8be9992e99461980ab078417a3d2449663e4ad59040501cdf2944e3de902d7075d912900d014025cbe4291"
+RPM_NAME = "qt6-quickeffectmaker-examples-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "25afd333fb242f6b58b4f8bb5812e74dc17b6480f61459650a4a9298cd36b45743475d50c529259e6b03560de3283a177e012737c3aca288f5de81c7ec5f6089"
 
 RPROVIDES:${PN} += "qt6-quickeffectmaker-examples"
 

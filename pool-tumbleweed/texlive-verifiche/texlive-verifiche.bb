@@ -6,10 +6,10 @@ exercise 'Complete the Text' 'True or false' Closed questions \
 Open questions 'Find the error'"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.6.0svn64425"
+PV = "2023.209.6.0svn64425"
 
-RPM_NAME = "texlive-verifiche-2023.201.6.0svn64425-53.1.noarch.rpm"
-RPM_HASH = "8f69c6ad36533fa55100ba9688ec0e304b31e7dafb346af4e4ce9c17e8465d1b992ba5de5cfb3c98742e9c356a81d907903329ff522caafa519190f28eb5f3b9"
+RPM_NAME = "texlive-verifiche-2023.209.6.0svn64425-54.1.noarch.rpm"
+RPM_HASH = "799a7999a48acad9df8726bde3375615acfcbaddc99a0942ed69c9cab267446633b179359cdca3d7462945ae5bf8d557f13f0c47540a7a761876172fab4f3fa4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-verifiche.sty \

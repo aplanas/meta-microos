@@ -11,10 +11,10 @@ Chancery); URW Gothic L Book (substituting for Adobe's Avant \
 Garde); and URW Palladio L (substituting for Adobe's Palatino)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn61983"
+PV = "2023.209.svn61983"
 
-RPM_NAME = "texlive-avantgar-2023.201.svn61983-53.1.noarch.rpm"
-RPM_HASH = "85538633e8eac54ff47b5994b860cb028926bb9d56c59dfba92b6907b99fa9d052c616733c9e79598b4d45d677eb286903f36c2aa486a967439ff7f1cc17dce2"
+RPM_NAME = "texlive-avantgar-2023.209.svn61983-54.1.noarch.rpm"
+RPM_HASH = "c4e6370e0e1ff7e8d0d07e30f7680a5181bc1ecfa3097f6635022bb1ed32de450cb78ec4759edeefc7671c5e8025167e78b47b2bb37771935659e303ec5cd267"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-8ruag.fd \

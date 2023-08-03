@@ -10,10 +10,10 @@ experimenting with colors easier or give users choices as to \
 which theme they pick."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.0svn60119"
+PV = "2023.209.1.1.0svn60119"
 
-RPM_NAME = "texlive-palette-2023.201.1.1.0svn60119-51.1.noarch.rpm"
-RPM_HASH = "339d17c12b8f0a12476cb3ec3651c885df7ee1b58903d57d7aba345ffcf5c748e22f9aa15bea5ad95e207c8c6e4af0e5932cfa275503c03e0bcf7b982d2f6979"
+RPM_NAME = "texlive-palette-2023.209.1.1.0svn60119-52.1.noarch.rpm"
+RPM_HASH = "959a1b3052fde53ef73f7d6d4f86458c22e55778bdc8ea27492a91ba6395595be59ff298d2212a6bd5f0f420fd74f33768911021cceab2a6c38e5d784786a8cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-colorpalette.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ucharclasses"
 DESCRIPTION = "This package includes the documentation for texlive-ucharclasses"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.2.6svn64782"
+PV = "2023.209.2.6svn64782"
 
-RPM_NAME = "texlive-ucharclasses-doc-2023.201.2.6svn64782-53.1.noarch.rpm"
-RPM_HASH = "ca4676a2e650251bbd09289029368e719eeb50d0633ec2757392afaebb09b7ca1c767d3ace1fdeeb0a669f1bf754b028a6b79df6b5a19d2c1a1ac188965af16a"
+RPM_NAME = "texlive-ucharclasses-doc-2023.209.2.6svn64782-54.1.noarch.rpm"
+RPM_HASH = "679b050e55d8d46c685800404907a169e1e1bc69374fc5ec7e887cca1098f7fe9649577d934723bd9c306c758acfb37278cac285a04982a460775d7fdcbfe5ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ucharclasses-doc"

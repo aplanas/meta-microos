@@ -6,10 +6,10 @@ styles were generated using custom-bib and they are compatible \
 with natbib"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn38922"
+PV = "2023.209.1.1svn38922"
 
-RPM_NAME = "texlive-francais-bst-2023.201.1.1svn38922-52.1.noarch.rpm"
-RPM_HASH = "1e76cd99104f147e76d5abf2017f662d4a105a7cc9d85c5b6483080e9d89de4d34ec5e7b6d596c8ebfc3c18ce96ca49f83cba294e12bba8011ee39b35278e77f"
+RPM_NAME = "texlive-francais-bst-2023.209.1.1svn38922-53.1.noarch.rpm"
+RPM_HASH = "3f32192d37665b87fe529a4629c645554c4ae25fe5f138a7123f90e9b9629f7ca6a479cd0940a39d73df5d5f958f9fc1aea43e53ca62710f9721baa548e6237b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-francaisbst.tex \

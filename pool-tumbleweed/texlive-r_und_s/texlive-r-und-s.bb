@@ -7,10 +7,10 @@ chemistry. There are four packages, giving texts in German, \
 English, French and Dutch."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3isvn15878"
+PV = "2023.209.1.3isvn15878"
 
-RPM_NAME = "texlive-r_und_s-2023.201.1.3isvn15878-53.2.noarch.rpm"
-RPM_HASH = "9226005b50ff7dbb0b9d33d566a606d79a8dfe7641898a58537bb19153a728de1dd6c2710a57760fd9fb67c408833a281901ded8595e7e042cf9f85ff7070f83"
+RPM_NAME = "texlive-r_und_s-2023.209.1.3isvn15878-54.1.noarch.rpm"
+RPM_HASH = "7b73344db7c2bf765a4a76b90fe7dca7fde34257caaaa39b018fc7efe56dd9c7a23620fe75853767dd7e800808975f9193ecf17969065e614d99402cbdcad0f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eng-rs.sty \

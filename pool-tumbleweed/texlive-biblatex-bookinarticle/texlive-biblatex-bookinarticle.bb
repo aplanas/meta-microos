@@ -6,10 +6,10 @@ edition is provided in a @article, @incollection or in a \
 @thesis. The package is now superseded by biblatex-bookinother."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3.1asvn40323"
+PV = "2023.209.1.3.1asvn40323"
 
-RPM_NAME = "texlive-biblatex-bookinarticle-2023.201.1.3.1asvn40323-53.1.noarch.rpm"
-RPM_HASH = "940cbdf90ca24ae53ac527b7bbb60257e20241ae414eeb6635369b8f9c297e32bc82fae8e0d1fb6b5a3b06b5dd6409843000937922972e79706001626a6340c9"
+RPM_NAME = "texlive-biblatex-bookinarticle-2023.209.1.3.1asvn40323-54.1.noarch.rpm"
+RPM_HASH = "33f11f63c04dde76dac34bd4addcc051ecae4fc2d8af276122afdc8e77ba2025f78ce2c2fc6f93f013bba950d3033298ae468b363aa47d62ca679ce14e76ae28"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-biblatex-bookinarticle.sty \

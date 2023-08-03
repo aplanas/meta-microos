@@ -20,10 +20,10 @@ recent versions of the fontspec, expl3, xpackages, ucharcat and \
 lualatex-math packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.8qsvn61719"
+PV = "2023.209.0.0.8qsvn61719"
 
-RPM_NAME = "texlive-unicode-math-2023.201.0.0.8qsvn61719-53.1.noarch.rpm"
-RPM_HASH = "5be9ec055769acddde6cd5f04a6c3de06fa11d0426b2ffb2e79a6dce9cae446b98f3d62d65bfeab85da3b13871a7e862df4f70c69a47e0833dbef6fa6b302e22"
+RPM_NAME = "texlive-unicode-math-2023.209.0.0.8qsvn61719-54.1.noarch.rpm"
+RPM_HASH = "4a00670ff5b59a9a6a1cecdd7f1dc009d76558c3f2855af04ddb02455d0364bff860dfdf99f14205e49652efb5ea0673954e38b222c908c234c84f023defcbf4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-unicode-math-luatex.sty \

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "system-user-velociraptor-1.0.0-3.3.aarch64.rpm"
-RPM_HASH = "6281c92900403089142f19c6d6a4d775b03d46711ee7a238ccf0dc2a4b1a8704b95779fd77f8c514978c1e72061c95836402f86c3228f10110be9000c69560e3"
+RPM_NAME = "system-user-velociraptor-1.0.0-4.1.aarch64.rpm"
+RPM_HASH = "b63282828b4d26188d5690f3268fef63783846a5a030a558b364bf4b07800b372a6740ea80c050d4301569249e009f6641acc2f4b7df2773846f934b37dc75a6"
 
 RPROVIDES:${PN} += "group-velociraptor \
 system-user-velociraptor \

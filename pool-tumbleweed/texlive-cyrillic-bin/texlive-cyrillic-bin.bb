@@ -2,10 +2,10 @@ SUMMARY = "Cyrillic bibtex and makeindex"
 DESCRIPTION = "The cyrillic-bin package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.svn62517"
+PV = "2023.209.svn62517"
 
-RPM_NAME = "texlive-cyrillic-bin-2023.204.svn62517-54.1.noarch.rpm"
-RPM_HASH = "0b62ee65a66369cfbc4378359d7a63c8dd63b783169479f7f13ec16f515a7bd32f92fb7d28a737b26171a3213f409dbee964ea048475f4ff565efe4c6663b741"
+RPM_NAME = "texlive-cyrillic-bin-2023.209.svn62517-55.1.noarch.rpm"
+RPM_HASH = "b36aeae741049cd272ca122daa2f4893518ad87df1cb978ad3766dfd90ed1d5a8b7543d7297e231e67f3567f075469774bbbf4b6fdfdd57055a88588cb4d0c56"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cyrillic-bin"

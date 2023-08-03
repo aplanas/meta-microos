@@ -3,10 +3,10 @@ DESCRIPTION = "The source of the examples printed in the book, together with \
 necessary supporting files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn29349"
+PV = "2023.209.svn29349"
 
-RPM_NAME = "texlive-latex-web-companion-2023.201.svn29349-54.1.noarch.rpm"
-RPM_HASH = "7f6540c1e4615ba448af69ea7b13a88cb7d88b9c85176acc3627afef76838c1f3dc87a336d0920f545c6874a3ec2c012fbeab9bd7d8b3bd1384a3dc7463677d5"
+RPM_NAME = "texlive-latex-web-companion-2023.209.svn29349-55.1.noarch.rpm"
+RPM_HASH = "c2ddacc1c94998a41ebbd35d56e5b0a3975067d5fbe57ef38908409ae47d74f79deb651cbd0879ce7bdebee63ee01c8797c5ee8bc4f9325c09be396107832c35"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-SGMLS \

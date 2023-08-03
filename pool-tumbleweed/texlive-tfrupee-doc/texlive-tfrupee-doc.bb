@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tfrupee"
 DESCRIPTION = "This package includes the documentation for texlive-tfrupee"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.02svn20770"
+PV = "2023.209.1.02svn20770"
 
-RPM_NAME = "texlive-tfrupee-doc-2023.201.1.02svn20770-54.1.noarch.rpm"
-RPM_HASH = "a0a0b3015ec2ece9ce705d6f402c02712ea60a3932be9e40a1dc4bdba1f64ba867cc15cbf9a5857dc8a9ffc44d6d4d6599751ceb98fd6bad8f9309d6cdf75bd8"
+RPM_NAME = "texlive-tfrupee-doc-2023.209.1.02svn20770-55.1.noarch.rpm"
+RPM_HASH = "7f1e6366457aca33c54a291fdd385791caef5bc26c9ba190e25aa18a8cdf84556369da17e3076f122b6b8baf6a415ba859bb7189d64f03f8b8d6de05b02065c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tfrupee-doc"

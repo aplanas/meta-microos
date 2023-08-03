@@ -5,10 +5,10 @@ aeronautical scientists and engineers. Note that the package \
 supersedes the package ar"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn25243"
+PV = "2023.209.2.0svn25243"
 
-RPM_NAME = "texlive-aspectratio-2023.201.2.0svn25243-53.1.noarch.rpm"
-RPM_HASH = "5bd4558efedd85590b5ed288f7bc2ef70fc51e1cabe9cbb03cb07ea28599a6903ebaf27ea08c4b97c2051a3746bd541074d5f2342b8f25c0e5f851254aa487e0"
+RPM_NAME = "texlive-aspectratio-2023.209.2.0svn25243-54.1.noarch.rpm"
+RPM_HASH = "cc69b34b0b96164ae5cfbf2c351bc78b4786428e843a7b8424fe1ad8af84eb7e3ed82ba9e398d900069b432b1294ad6abfd1a999723fffb83e5ddcea551e0307"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-amarbi.tfm \

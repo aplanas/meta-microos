@@ -4,10 +4,10 @@ of the simple roots of any complex simple Lie algebra. It uses \
 the Dynkin diagrams package dynkin-diagrams."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn61719"
+PV = "2023.209.1.0svn61719"
 
-RPM_NAME = "texlive-lie-hasse-2023.201.1.0svn61719-54.1.noarch.rpm"
-RPM_HASH = "a32d8233c83b76ab83246b75ec1530731d3af32fecd0dd82d43573a879b9176b9ad0889019d1495a9f87365bfebf15621309f75e0f6fac9d0f769e7cd284d41c"
+RPM_NAME = "texlive-lie-hasse-2023.209.1.0svn61719-55.1.noarch.rpm"
+RPM_HASH = "14f1348a46054477eb0177b40de35122280933a1bb0af435f6c3f54fcfcbe420fe6b1ee168c4e9ab8874c000a8524b0dd91d7f1cc7b4145f63b29a362a422748"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lie-hasse.sty \

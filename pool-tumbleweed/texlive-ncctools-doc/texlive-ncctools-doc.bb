@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ncctools"
 DESCRIPTION = "This package includes the documentation for texlive-ncctools"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.5.3svn51810"
+PV = "2023.209.3.5.3svn51810"
 
-RPM_NAME = "texlive-ncctools-doc-2023.201.3.5.3svn51810-54.1.noarch.rpm"
-RPM_HASH = "aa63aded496f83fc0b61565a16b15bccf7e322bf24686f26662f486b41df69cd1e0917170e29ecc3d34896c6bce7d6d8c78eff16a964625671e62de60675acff"
+RPM_NAME = "texlive-ncctools-doc-2023.209.3.5.3svn51810-55.1.noarch.rpm"
+RPM_HASH = "f32d13808acf2a6fb844c3c443a6713d7340125a4d8c8c6ccdd87b3b660a0e90b35a58b325421d783cd300a66d59cdc5c8dbe0f37a055cafc23db129aefe602c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ncctools-doc"

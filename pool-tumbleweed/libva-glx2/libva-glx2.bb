@@ -5,10 +5,10 @@ The library loads a hardware dependendent driver. \
 This is the VA/GLX runtime library."
 LICENSE = "MIT"
 
-PV = "2.18.0"
+PV = "2.19.0"
 
-RPM_NAME = "libva-glx2-2.18.0-2.1.aarch64.rpm"
-RPM_HASH = "ee080e259ddfce60141f804bee1d26dc687b0d094b2f0f6ba94364c9dee5d535b19059af58dce7291c150e572d3d1e05761d846858a389e353aaf5d8fa0278e9"
+RPM_NAME = "libva-glx2-2.19.0-1.1.aarch64.rpm"
+RPM_HASH = "a35ecd42d335423a0158d4097fb9f8aa44cafc0bb6c8e28162c098fc92aa083cf35a8af70c71fc14869deb25dbfaf24db749bec1169e4b3f493052ecdae812a1"
 
 RPROVIDES:${PN} += "libva-glx.so.2 \
 libva-glx2"

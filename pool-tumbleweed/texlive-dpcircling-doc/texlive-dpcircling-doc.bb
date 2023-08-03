@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dpcircling"
 DESCRIPTION = "This package includes the documentation for texlive-dpcircling"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn54994"
+PV = "2023.209.1.0svn54994"
 
-RPM_NAME = "texlive-dpcircling-doc-2023.201.1.0svn54994-52.1.noarch.rpm"
-RPM_HASH = "0d04469c9c1bfd8d48a3d9eb6c7d872496ec4c31f70941fc4d7fa951db53a28f51b639282bfd5ce191377f84a2e106cfac5dab4727e91850cd40d5088b97f229"
+RPM_NAME = "texlive-dpcircling-doc-2023.209.1.0svn54994-53.1.noarch.rpm"
+RPM_HASH = "90a091b1c493f71ed3375684da9e82402e4ac8ef3b6db91128ac1e50c5c2aa0e4bb6c34035d43c3cd08451a681d85130ecd1de7c2907c07111f27c30000cddcb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dpcircling-doc"

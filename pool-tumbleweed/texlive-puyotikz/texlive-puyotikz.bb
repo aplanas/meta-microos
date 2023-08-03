@@ -6,10 +6,10 @@ and move planning markers. The package requires Python3 in \
 support of scripts driven by PythonTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.1svn57254"
+PV = "2023.209.1.0.1svn57254"
 
-RPM_NAME = "texlive-puyotikz-2023.201.1.0.1svn57254-53.2.noarch.rpm"
-RPM_HASH = "c84c1095ca0f96b6dc7caafe3f0992d82d40000af69f8e68c2e18a068352a2ae94b998a0a59e2d0c475079fa52c87e6350b980b18019888ed4b751caa319de4c"
+RPM_NAME = "texlive-puyotikz-2023.209.1.0.1svn57254-54.1.noarch.rpm"
+RPM_HASH = "db0902ca3bc5bc2c7be1db2cf7a5bcd3602c06a8792361aa9fe5e36c88ebdfebb973bf6bb54ae1e00b8203aee1c7d28cb8d9690a9e61949736894a4efa336d7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-puyotikz.sty \

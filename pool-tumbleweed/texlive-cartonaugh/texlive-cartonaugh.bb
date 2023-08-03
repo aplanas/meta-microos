@@ -9,10 +9,10 @@ The package needs LuaLaTeX and depends on TikZ, xparse, and \
 xstring."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn59938"
+PV = "2023.209.1.0svn59938"
 
-RPM_NAME = "texlive-cartonaugh-2023.201.1.0svn59938-52.1.noarch.rpm"
-RPM_HASH = "ce498d260c7ea31075c3c2c01282a57b1c35b907f37b00de87d141d781b8991f179e90ec0fa5cb9402bf8c9e8bb0a5b6555c7127bc9e88ca759f7120d015a589"
+RPM_NAME = "texlive-cartonaugh-2023.209.1.0svn59938-53.1.noarch.rpm"
+RPM_HASH = "e42f6c142b265be91bc11f5599a1e1c068f12314a33759560844793d32a19949fc5cb04f0142831b687556277352959e2d6620789d7fa11e8e522e30a8205b11"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cartonaugh.sty \

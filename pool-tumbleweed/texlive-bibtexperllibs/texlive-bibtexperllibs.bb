@@ -7,10 +7,10 @@ have been packaged here mostly for Boris Veytsman's BibTeX \
 suite, but can be used in any other Perl script."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.6svn57137"
+PV = "2023.209.1.6svn57137"
 
-RPM_NAME = "texlive-bibtexperllibs-2023.201.1.6svn57137-53.1.noarch.rpm"
-RPM_HASH = "49ea21eee2a14d417ce4ce07e340578e4b5ef9f21f44647de5349098c1f971391b788c848616fec5982ad71a834b5ad9f5dde5eec417e16bb2d38a498634b6c9"
+RPM_NAME = "texlive-bibtexperllibs-2023.209.1.6svn57137-54.1.noarch.rpm"
+RPM_HASH = "8819277b4d80023336138a0e355f63cd72c33f056d2e7fdb686b6044beaceca512c228219e43e9a6799c8ba71b3d8e7a291d1a530b25bbdb1b5fa471de75d134"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-BibTeX--Parser \

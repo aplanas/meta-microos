@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-frege"
 DESCRIPTION = "This package includes the documentation for texlive-frege"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.3svn27417"
+PV = "2023.209.1.3svn27417"
 
-RPM_NAME = "texlive-frege-doc-2023.201.1.3svn27417-52.1.noarch.rpm"
-RPM_HASH = "822c68527551da1be64267fd4f8a40575a0d7f35152f0d3c255a150dab6ea6278221ee1cdba14d6a13a76a5d0ed2122a8363f8b08fc01ebfd237844dedec7978"
+RPM_NAME = "texlive-frege-doc-2023.209.1.3svn27417-53.1.noarch.rpm"
+RPM_HASH = "d1a0395cbfdef63a6caece7d5b70dacddfb147594b1729e620e075e7b48145d6ad6facb8bdff322fca12874362f26610fe42dc4c81852c43264d6f82e2401d5c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-frege-doc"

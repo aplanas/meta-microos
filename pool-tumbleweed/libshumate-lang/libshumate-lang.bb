@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libshumate"
 DESCRIPTION = "Provides translations for the 'libshumate' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.0.4"
+PV = "1.0.5"
 
-RPM_NAME = "libshumate-lang-1.0.4-1.1.noarch.rpm"
-RPM_HASH = "735ee59ced361834949f7d5b5e73f5881b4df12e01b96e8ea095d63d6f09d62fd72657651179c6e5e5183b09fb442ab0608dc3d4ed64e6f50cc5a206cc603736"
+RPM_NAME = "libshumate-lang-1.0.5-1.1.noarch.rpm"
+RPM_HASH = "cc8ea87621c4ead392537ba5daa94668a3a737a1ec2a92954c2a7ac45e9cd65a8ad8fbff81be65b62a02c314089129288a5c0b16fe8ffbfd1d0fd304bcc50efc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libshumate-lang \

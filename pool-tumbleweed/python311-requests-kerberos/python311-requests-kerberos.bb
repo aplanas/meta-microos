@@ -6,8 +6,8 @@ LICENSE = "ISC"
 
 PV = "0.14.0"
 
-RPM_NAME = "python311-requests-kerberos-0.14.0-1.10.noarch.rpm"
-RPM_HASH = "634fd8349c2876f4287c163c088ce317addbf2fb6f7f202c5f6a7dbe89744fd1f24ee2a86268c9775ba1d5231600939f9a8593d3be90f9f9f59888d0874e088c"
+RPM_NAME = "python311-requests-kerberos-0.14.0-2.1.noarch.rpm"
+RPM_HASH = "92c0f7cbb417d6e8d611498e617cf5d7f2a24e6ce0da4155b1dfe276f6263f1662d53fc9099e0f090d8e78570e38d5d89bf81f83cb30b764b5bdcc0e128f4b6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-requests-kerberos \

@@ -7,10 +7,10 @@ the position of the object within the list (the index of the \
 item)."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.204.1.4svn63523"
+PV = "2023.209.1.4svn63523"
 
-RPM_NAME = "texlive-coollist-2023.204.1.4svn63523-54.1.noarch.rpm"
-RPM_HASH = "daf28d83f66ca0810af4a02b61332582b41c66b87f3de64bc6fed8167bed010284d7fd38710d9ccb0cfe8135494fec91e0709cb71c3c84fb6988aae783743331"
+RPM_NAME = "texlive-coollist-2023.209.1.4svn63523-55.1.noarch.rpm"
+RPM_HASH = "e2e312b4e6d5e987081a11bb8c42872baf1bad53b5db995ffd01d465d0f326fba8ca2e9bb61fd080e0f1231561fd206051b98717538696ebb27c6a194d0cdc0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-coollist.sty \

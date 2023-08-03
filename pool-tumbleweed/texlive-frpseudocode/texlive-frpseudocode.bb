@@ -5,10 +5,10 @@ translation of terms and words used in algorithms to make it \
 integrate seamlessly in a French written document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3.0svn56088"
+PV = "2023.209.0.0.3.0svn56088"
 
-RPM_NAME = "texlive-frpseudocode-2023.201.0.0.3.0svn56088-52.1.noarch.rpm"
-RPM_HASH = "3f70ecf70453f09c10bb37e3778c41a5a2d570c82ee20ef60ea2782a1c278617cab88c9d7b9e8b2bd1690b14341bc2dc64e8cc91d7686bccd37a7fde5b0875d4"
+RPM_NAME = "texlive-frpseudocode-2023.209.0.0.3.0svn56088-53.1.noarch.rpm"
+RPM_HASH = "2bc77c72f5fa644b5697601efd74638525efd9b2b86922210ef36df999e5f61561e6f41038c5eea0738616a3fd7799f638db6738f8a5efab4a33af02a42568d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-frpseudocode.sty \

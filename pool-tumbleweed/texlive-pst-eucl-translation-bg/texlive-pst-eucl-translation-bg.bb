@@ -3,10 +3,10 @@ DESCRIPTION = "The pst-eucl package documentation in Bulgarian language - \
 Euclidean Geometry with PSTricks."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3.2svn19296"
+PV = "2023.209.1.3.2svn19296"
 
-RPM_NAME = "texlive-pst-eucl-translation-bg-2023.201.1.3.2svn19296-52.1.noarch.rpm"
-RPM_HASH = "0ecc270a2ce38b4e04646551ad7a269bf37eb5e1f95c67109d3c68b18dfce53f97fc07831a4c252d3ed604a1ffa907d8fbdd9a4d02569882d10873c97bcbd779"
+RPM_NAME = "texlive-pst-eucl-translation-bg-2023.209.1.3.2svn19296-53.1.noarch.rpm"
+RPM_HASH = "f7427a49e24fee7310cdbcf068556c52386d2509d1d2b378d5b2fcbdd066f2f14e3f8fbd37b843c45293112f6212fcd44d4dee472f20d9a06382e3c1a99f9836"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-eucl-translation-bg"

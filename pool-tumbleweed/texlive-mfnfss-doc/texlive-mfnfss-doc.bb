@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mfnfss"
 DESCRIPTION = "This package includes the documentation for texlive-mfnfss"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn46036"
+PV = "2023.209.svn46036"
 
-RPM_NAME = "texlive-mfnfss-doc-2023.201.svn46036-54.1.noarch.rpm"
-RPM_HASH = "92b4f156253379c7a67e6f08f84ec45892dd1541d9ca0019423a2a1b3b329e644ba4f7e2e020a90073bec9efd9d46f5f32d3db226d91cfd3881e07b3d681c264"
+RPM_NAME = "texlive-mfnfss-doc-2023.209.svn46036-55.1.noarch.rpm"
+RPM_HASH = "3db25bf1a735e26ed601edd569000bd2cfb07d3284b3b794a5c58aa6ba023d07fe1675b3ed1de0ea25e884c4e05be5e21551e489805af0cad7af9401b2e7b89c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mfnfss-doc"

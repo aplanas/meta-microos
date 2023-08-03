@@ -6,10 +6,10 @@ tlcritical recovery scripts. The standalone installer is close, \
 but not the same; it's defined in 00texlive.installer."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66512"
+PV = "2023.209.svn66512"
 
-RPM_NAME = "texlive-texlive.infra-2023.201.svn66512-54.1.noarch.rpm"
-RPM_HASH = "56063696c730a7b9b4fc99b6e61178396f05531ce98377a339482224eb5a589dc80be07f561beccd60cfa175e456b279112aa7e62c4018ffefd9ba4a1870d879"
+RPM_NAME = "texlive-texlive.infra-2023.209.svn66512-55.1.noarch.rpm"
+RPM_HASH = "e2685bc9655f5f7f0f879c27c4ea4af2d65538603f3338e1a4e625486c61ba97878bbe28d450b759d8cba75542bd08343f253d9b90f3d2c7cbcacf76adee5b7b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-TeXLive--TLConfFile \

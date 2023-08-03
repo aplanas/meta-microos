@@ -2,10 +2,10 @@ SUMMARY = "Local resource monitor agent for Zabbix"
 DESCRIPTION = "The Zabbix agent monitors local resources and relays information to the server."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.0.17"
+PV = "6.0.19"
 
-RPM_NAME = "zabbix-agent-6.0.17-1.2.aarch64.rpm"
-RPM_HASH = "d823c4ab4176adbf47c51832bf5b8a8797ca9c934088516ca39f890eafe529b0f1c7d3604f43be5d4f271ed7d9d1e14a131d4305e082358b440eb61c653f44d3"
+RPM_NAME = "zabbix-agent-6.0.19-1.1.aarch64.rpm"
+RPM_HASH = "ffde9e65d2e2f61941526a36e59abc54e8496681f5eb7f9b67ed41e7a60ebe8c0ffb248e1869977e05f4d01f1fbf631066735a7dec141bbab2f0d073a95e1e83"
 
 RPROVIDES:${PN} += "config-zabbix-agent \
 zabbix-agent"

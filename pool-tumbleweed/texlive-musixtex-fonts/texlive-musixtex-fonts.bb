@@ -5,10 +5,10 @@ bundle renders the older (Type 1 fonts only) bundle \
 musixtex-t1fonts obsolete."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn65517"
+PV = "2023.209.svn65517"
 
-RPM_NAME = "texlive-musixtex-fonts-2023.201.svn65517-54.1.noarch.rpm"
-RPM_HASH = "5c5db17c62bca45105d2f804702ac7bcac4fd8d22700fccf5cd09affb304250cdfa43c48fa2b4fdc9822cc1164359084f76f4dd08634813ca5bc9e06bc26a2d3"
+RPM_NAME = "texlive-musixtex-fonts-2023.209.svn65517-55.1.noarch.rpm"
+RPM_HASH = "7ef8a8fa04b0881895161e3320d974e3300b0fdf9601dc2b6af421e4f18df6b2283fd59ef462092ab0aa57eca0798c7f4effd41706019f668bcb091431fb745b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-MuseJazzText.tfm \

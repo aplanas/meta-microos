@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-biblatex-philosophy"
 DESCRIPTION = "This package includes the documentation for texlive-biblatex-philosophy"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.9.8gsvn64414"
+PV = "2023.209.1.9.8gsvn64414"
 
-RPM_NAME = "texlive-biblatex-philosophy-doc-2023.201.1.9.8gsvn64414-53.1.noarch.rpm"
-RPM_HASH = "c00b0744bb3e6f862ab838dd5b360e23a88cb430c4e1a5685123f0283161b85eb9c1c97ec5f57294ed236c8a1cc9c4f3d514f72e4477947bfb61b22fc570aad2"
+RPM_NAME = "texlive-biblatex-philosophy-doc-2023.209.1.9.8gsvn64414-54.1.noarch.rpm"
+RPM_HASH = "cb2d4703dec59c13b912c029a9a3399274389993f76f708d5ef60d25a07f32bfadfca60b8eba51460c3de555709904923b86a90f5f8b770d4417a170d67b9bfc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biblatex-philosophy-doc"

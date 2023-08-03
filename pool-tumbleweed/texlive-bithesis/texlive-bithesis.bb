@@ -4,10 +4,10 @@ template for Beijing Institute of Technology dissertations, \
 including general undergraduate theses and master theses."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.4.2svn66366"
+PV = "2023.209.3.4.2svn66366"
 
-RPM_NAME = "texlive-bithesis-2023.201.3.4.2svn66366-52.1.noarch.rpm"
-RPM_HASH = "72f34f81315d0f5fea04de2fc447dffcc4bada3f246bcce16cce423e2056a2196b91da04b81381c2e2740f75bf2588182f98ce8219f1ab4c6d8b1e2d94cf1b8f"
+RPM_NAME = "texlive-bithesis-2023.209.3.4.2svn66366-53.1.noarch.rpm"
+RPM_HASH = "8b041c33cbc0ed8f72c3b5b27ff524dbcfad7f71a55f8e513ee1e427d77b979254fabc009cc526f6a6a7235332c8ec1e4b00605a3e460fbf912d5840d1e6d05c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bitart.cls \

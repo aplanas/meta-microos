@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-arphic"
 DESCRIPTION = "The  separated fonts package for texlive-arphic"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-arphic-fonts-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "6041d55d843f3dc7ecee5e3c41b6d13c241278ef3c19604dac404fabc6f430d713573d263fa86cc110f7cf90a9ca53f0a5c3e5fdb1157463d1c077eefe52dd2e"
+RPM_NAME = "texlive-arphic-fonts-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "b94c40f320ea053c5931808e11445e540fa2a0014136c55de029e86fd1a1becf8d0a1b87d84a112b81be905af527b4e0507ff23ab60691c1e70714cd33a7b7af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=bg \

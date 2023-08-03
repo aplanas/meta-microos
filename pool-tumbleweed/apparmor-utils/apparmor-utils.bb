@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
 PV = "3.1.6"
 
-RPM_NAME = "apparmor-utils-3.1.6-1.1.noarch.rpm"
-RPM_HASH = "deac315879ad9c9a23eea0b25a772629fe1cd1603ff8d1ff1b2b3a855eaa896d5445313b734f546bb105d0da01403b09dbe215cffdf0c5310b9727e69d5f59ed"
+RPM_NAME = "apparmor-utils-3.1.6-2.1.noarch.rpm"
+RPM_HASH = "4efbd0deb412acfd6829ee7ec12b01461323b185bf8c1c8bb144645379554d47e4d5a8f4f67ad0afe3d25d6017b05c50e3d62e7035c8f92b8444b2c39b06a3dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apparmor-utils \

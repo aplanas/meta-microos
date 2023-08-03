@@ -8,10 +8,10 @@ It can be extended by further plug-ins, for example, with qca-sasl for \
 SASL support."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.3.6"
+PV = "2.3.7"
 
-RPM_NAME = "qca-qt5-plugins-2.3.6-1.2.aarch64.rpm"
-RPM_HASH = "6bb2124348bd8036af9d2a78cb55f1eec74e63a63fd12acd9ace08db4019e62eb01df4d0ab1297a36e04b94252a27914b48b46dab719525fa04c4f4f2a0ec62d"
+RPM_NAME = "qca-qt5-plugins-2.3.7-1.1.aarch64.rpm"
+RPM_HASH = "3e6fa850937346514ef0870abaa97a6ee7187bbbcb222f60cb8977b962fa2e1ab6456db4beeafafafedeab5a60e7ce7f6375c9c2dda333a6779d3be2df20a518"
 
 RPROVIDES:${PN} += "libqca-cyrus-sasl.so \
 libqca-nss.so \

@@ -13,10 +13,10 @@ document, so that solutions may appear in a different section \
 of the same document as the problems they cover."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.05svn44783"
+PV = "2023.209.3.05svn44783"
 
-RPM_NAME = "texlive-probsoln-2023.201.3.05svn44783-52.1.noarch.rpm"
-RPM_HASH = "a953e25a0e3ac711c1e7885822a82dc83a6f90a187e517d8f62e68e5974f82d1437db368e73bb1b09caf10c551e928a90e1275f4ddf6b471737dd87fff08dbeb"
+RPM_NAME = "texlive-probsoln-2023.209.3.05svn44783-53.1.noarch.rpm"
+RPM_HASH = "eba25aee4830c517f208553c05dfa77c285143934833af5105b825b5eca2c30b025e53e4eeae9e5ed4ab703233b2c7241f94a17cc122a9c0dc9bf8df0ec9b6f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-probsoln.sty \

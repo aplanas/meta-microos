@@ -9,10 +9,10 @@ plug-ins. \
 This package provides various plugins written in Rust."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.10.9"
+PV = "0.10.11"
 
-RPM_NAME = "gstreamer-plugins-rs-0.10.9-1.1.aarch64.rpm"
-RPM_HASH = "d06f8807aa703dc33b52bfb04884fe6361c97e24ef63b34f8502569d133d7010acb6d2e338fae3606726f1eb5582fdb962904c41ae867bbfaa7fd2400915272c"
+RPM_NAME = "gstreamer-plugins-rs-0.10.11-1.1.aarch64.rpm"
+RPM_HASH = "06e1180aab524188f1b78d6b5d109b45130d93783730c9f29196b22c3ce6224f0a1753ce869b7b67e10726af43d4ba2d26c9b843cdf93cae7bb553a06e0e942b"
 
 RPROVIDES:${PN} += "gstreamer-plugins-rs \
 gstreamer1 \

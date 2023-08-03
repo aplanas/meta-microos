@@ -10,10 +10,10 @@ Johannes Braams), but it can be used together with the LaTeX \
 class options leqno and fleqn."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0bsvn15878"
+PV = "2023.209.2.0bsvn15878"
 
-RPM_NAME = "texlive-subeqn-2023.201.2.0bsvn15878-57.1.noarch.rpm"
-RPM_HASH = "b2613c8cde6b705c47de66eced2521b60878bfc539a9ff280f352a0a1d609500ebf3377242263a02b040a4c1f2e42fa44132d7384075a9c17637586ad0373400"
+RPM_NAME = "texlive-subeqn-2023.209.2.0bsvn15878-58.1.noarch.rpm"
+RPM_HASH = "e0b558b323288d3621b6c949248099a3adcad1dba36964e2346cf0ccbe80c7c87c018e8729858aae40a684707a77ccc901fa32c43b9b73cb69e3b553f137e5ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-subeqn.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-junicode"
 DESCRIPTION = "The  separated fonts package for texlive-junicode"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.0.2svn61719"
+PV = "2023.209.1.0.2svn61719"
 
-RPM_NAME = "texlive-junicode-fonts-2023.201.1.0.2svn61719-55.1.noarch.rpm"
-RPM_HASH = "de41f0fda8eb2324fdac2b14b070021776930584efdcf97eaf8c85111be7f26aa0074bc84f76675238e770c05a96d981360ba8291236aa1bd7be15e82670be09"
+RPM_NAME = "texlive-junicode-fonts-2023.209.1.0.2svn61719-56.1.noarch.rpm"
+RPM_HASH = "63bca70ea8333a69a1adb5c20cd7ee6a706bad627a5a3793d8f066abe1d856197364db9e94911a2443cd5b703177ef24f76a886977a2bb11166db8d04e2c1f71"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ctan-junicode-fonts \

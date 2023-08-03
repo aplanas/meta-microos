@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 various network drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230707"
+PV = "20230724"
 
-RPM_NAME = "kernel-firmware-network-20230707-1.1.noarch.rpm"
-RPM_HASH = "428cc0889475080c9f600ae23f1150ac07c01f696637ba77a96aa3aee396daf7e5904d80a520acf72ea6287a67eb77f4a9d3fc320818ab92a6c48375e17a6305"
+RPM_NAME = "kernel-firmware-network-20230724-1.1.noarch.rpm"
+RPM_HASH = "bd1b0b78e1035c4df68b5c1ab0a7aede5bf881dc27d75f21a7ea969f232e7c1c3caec8aed0510ad9d5735b26fce353da749047e2526ea19f26b9c0ea6a9808b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-3com/typhoon.bin \

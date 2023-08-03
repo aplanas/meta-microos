@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-josefin"
 DESCRIPTION = "This package includes the documentation for texlive-josefin"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64569"
+PV = "2023.209.svn64569"
 
-RPM_NAME = "texlive-josefin-doc-2023.201.svn64569-55.1.noarch.rpm"
-RPM_HASH = "d0d0fbbebe86b3e3df88da8b7367c87b370bd842fb5a61145096b0d6e35ca3ae3e475793fe21afacacf74f188b0e285fdc2cb1be046f99a9144b59293e995c40"
+RPM_NAME = "texlive-josefin-doc-2023.209.svn64569-56.1.noarch.rpm"
+RPM_HASH = "18b70ca265877478ea245b27f3972f1f19af324e096bd285678f3dd00ab9ae9bfb3c0416a1d5c095ec7ee119ae5e37a63555d98d246965aba9d1d831b2ff3997"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-josefin-doc"

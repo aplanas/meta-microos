@@ -5,10 +5,10 @@ values can be set for \\placetitle and change the formatting of \
 the content."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn47085"
+PV = "2023.209.svn47085"
 
-RPM_NAME = "texlive-context-title-2023.204.svn47085-54.1.noarch.rpm"
-RPM_HASH = "5114847af7582095b31f20346fbc7c9447c9f81299658a0f982424f55d2be8a3bfd29fcf79de99301e8a8282fa85ed2cad4f52d03dfef76d4038daa8bb7f294b"
+RPM_NAME = "texlive-context-title-2023.209.svn47085-55.1.noarch.rpm"
+RPM_HASH = "e8e021622562569ed59e2269b63efabe9e8c09bca6cd94ce0861cbf0c1710f9063e27fc19be4b4a406b922c8c08f8db7271b98ed397aace46f7efce3834a8751"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-title"

@@ -14,10 +14,10 @@ Live; documentation has arisen separately. Source code is \
 available from ctan:/systems/texlive/Source/."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66203"
+PV = "2023.209.svn66203"
 
-RPM_NAME = "texlive-xetex-2023.201.svn66203-52.2.noarch.rpm"
-RPM_HASH = "2697c806d699e6144b99e03f968be2a3d23f8e1f151095d2bb83ec3bd6738cdca07e74fb4610b3fb1e118b72725488d3d1df0cbd36603251fb2c518bdc1ad1cc"
+RPM_NAME = "texlive-xetex-2023.209.svn66203-53.1.noarch.rpm"
+RPM_HASH = "69deed86b6dff54a2f97b8e729813814920879ca0b423a08c70b391eb5298fb7d50d6671bfc7d4e0134b35d0224a20571c9aac9483a553cfe4ed52ace9fff1a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-qx-unicode.map \

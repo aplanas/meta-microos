@@ -2,10 +2,10 @@ SUMMARY = "Move floats to the top of the page"
 DESCRIPTION = "The topfloat package"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn19084"
+PV = "2023.209.svn19084"
 
-RPM_NAME = "texlive-topfloat-2023.201.svn19084-52.1.noarch.rpm"
-RPM_HASH = "9f3aea99239829ae33b2c7527c383fe6423cd0aa41f7fd31d323d6a091e74f20000eb2a1d0812579b1623943e0f3c42f0d37a2e007088a4d9e14f841a89154d8"
+RPM_NAME = "texlive-topfloat-2023.209.svn19084-53.1.noarch.rpm"
+RPM_HASH = "85e46ef2ed28f139056820ac1ec3aa90dff5cfa70fdfbc0d8cae3a3945a6870b3add7a813cd2ddc65608ceb5c0a5053ae00cf08562a5cf6b6b7cc01e33cc13b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-topfloat.sty \

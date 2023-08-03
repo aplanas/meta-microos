@@ -4,10 +4,10 @@ Structures. Support is limited to elements that support the \
 octet rule."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.0.0.1svn15878"
+PV = "2023.209.0.0.1svn15878"
 
-RPM_NAME = "texlive-lewis-2023.201.0.0.1svn15878-54.1.noarch.rpm"
-RPM_HASH = "4d702cd5f46aa797cfdc22d09cdeb12697e349fab6e2f87476bff35801a275340052dd902d480059a43179bdb5407a0ba104eb3478f7ed172255987eff68af72"
+RPM_NAME = "texlive-lewis-2023.209.0.0.1svn15878-55.1.noarch.rpm"
+RPM_HASH = "f4d8c55206cd9f9ed894fd083f77bc5492d0c54617e2ca849caaafbadb3313d584657e3ad275fca6fc84f435fb922cfafd675c152232e7ad23d6940e03260a08"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lewis.sty \

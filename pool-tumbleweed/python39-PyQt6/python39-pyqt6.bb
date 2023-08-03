@@ -2,10 +2,10 @@ SUMMARY = "Python bindings for Qt 6"
 DESCRIPTION = "PyQt is a set of Python bindings for the Qt framework."
 LICENSE = "GPL-3.0-only | SUSE-GPL-2.0-with-FLOSS-exception | NonFree"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "python39-PyQt6-6.5.0-2.2.aarch64.rpm"
-RPM_HASH = "fba0bb795d6734de9ea3a207d19a0f81762236249f3d933b3080f95eab11c88d4ed3614f2c041b62ec9e15abbe6112dce439af5e764299f8364c083a0e8beda6"
+RPM_NAME = "python39-PyQt6-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "9864304bd47e01e9151abaf3ac296fd09c7ac662ec4b9f06aaa59e11376169a807d2b699a937c626a6a8ddcd24d5b2d093c89dd6874b6854ea00f687d527f14f"
 
 RPROVIDES:${PN} += "libpy3.9qt6qmlplugin.so \
 python3.9dist-pyqt6 \

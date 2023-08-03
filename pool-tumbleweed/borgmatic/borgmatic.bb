@@ -7,10 +7,10 @@ rather than having to put them all on the command-line, and handles \
 common errors."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.7.15"
+PV = "1.8.0"
 
-RPM_NAME = "borgmatic-1.7.15-1.1.noarch.rpm"
-RPM_HASH = "30a61e072a2f000023940289816b166ddd680b8e7f86120bf0f4adb5c6019ba1ec225f9fc3dc75ad0e4256e43e0c05e63cdc43f651ac44f75216d8ebfcf3ddc5"
+RPM_NAME = "borgmatic-1.8.0-1.1.noarch.rpm"
+RPM_HASH = "1d651a2ecf8dbc9668f0668e4b2c4d714d1eb242ad2b99b89b387f529cad1b26889c21fb24d83e9c8753678984dc4d4dfcecec43619f2d935580b468f44987bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "borgmatic \

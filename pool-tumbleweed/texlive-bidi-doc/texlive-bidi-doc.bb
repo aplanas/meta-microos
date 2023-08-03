@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bidi"
 DESCRIPTION = "This package includes the documentation for texlive-bidi"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.39.7svn65572"
+PV = "2023.209.39.7svn65572"
 
-RPM_NAME = "texlive-bidi-doc-2023.201.39.7svn65572-53.1.noarch.rpm"
-RPM_HASH = "d7f7a90921b5299f52802ee371b4d811757a1c05d07e523df83c5868bebef1711284fb6d72a7cc5ef90cfb2e7523ad92d26ef5f9874839eab4d9813b3d247762"
+RPM_NAME = "texlive-bidi-doc-2023.209.39.7svn65572-54.1.noarch.rpm"
+RPM_HASH = "84252035afec23edbfdd4f25d5ca0c19bb87402c572efb18f50de836b8d1491a27a4976ef8fd9cff940ab83afa0c3a5e14b5706adfde1e0dd7f83a559a252ed0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bidi-doc"

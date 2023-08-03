@@ -3,10 +3,10 @@ DESCRIPTION = "This package is a conversion of the yinit font into OTF. \
 Original Metafont files for yinit are in the yinit package."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.0svn40207"
+PV = "2023.209.1.0svn40207"
 
-RPM_NAME = "texlive-yinit-otf-2023.201.1.0svn40207-52.2.noarch.rpm"
-RPM_HASH = "ab08ee9b407cd04ae9aba523fdb1a605ebe78a5a7465f95a726e50299486f14fd99e7bf042935d26465a1c85b3a56f50a6ea01df2e3dcbfc205a3b6fa7cb6260"
+RPM_NAME = "texlive-yinit-otf-2023.209.1.0svn40207-53.1.noarch.rpm"
+RPM_HASH = "fd76e9f44cfaec0dcc4e3c2d40441025f499711a8dc3b280f7d38a90f5dc1d9e445b0778f31b456ad5f5af6b37b22a6eec46191073de37d099dd27cff4792685"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yinit-otf"

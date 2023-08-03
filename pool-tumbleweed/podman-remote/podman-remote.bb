@@ -2,10 +2,10 @@ SUMMARY = "Client for managing podman containers remotely"
 DESCRIPTION = "This client allows controlling podman on a separate host, e.g. over SSH."
 LICENSE = "Apache-2.0"
 
-PV = "4.5.1"
+PV = "4.6.0"
 
-RPM_NAME = "podman-remote-4.5.1-2.1.aarch64.rpm"
-RPM_HASH = "099bcce6301d9d3ec44d155b10eba04cfc8562e06687e8ef575f1b84336234f58fab2ecee309f90f0bfb72d665f42f4ec29c1dad6b966cebf3413e3239f4c6c6"
+RPM_NAME = "podman-remote-4.6.0-1.1.aarch64.rpm"
+RPM_HASH = "c26b42f0120975f09011e5b1762abe61f4cbcef52e89211d353d2ecdb76a12f7298f954308bc2eda5829e5cacc2dd05f67278c6826cb7eb7294c885551b6713a"
 
 RPROVIDES:${PN} += "podman-/usr/bin/podman-remote \
 podman-remote"

@@ -3,10 +3,10 @@ DESCRIPTION = "Scikit-learn is a python module for machine learning built on top
 scipy."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.2.1"
+PV = "1.3.0"
 
-RPM_NAME = "python310-scikit-learn-1.2.1-2.3.aarch64.rpm"
-RPM_HASH = "7a83f2e1c43af6b8bf0c3e5f4528ecdaff5f26944171c994208b529f827d8b32ff19ff0336640c48d272113b61d14b96daafb44baf22c4dc19d2f968bae6089d"
+RPM_NAME = "python310-scikit-learn-1.3.0-1.1.aarch64.rpm"
+RPM_HASH = "df9eced7c3f5c43727d2758e8d8eb47bac42a15cbd2694479f50e19800e49bbc3d712c68437aab3df0e0bae7f6eb420462d31cf8aa8d458cd225517ab9aa756d"
 
 RPROVIDES:${PN} += "python3.10dist-scikit-learn \
 python310-scikit-learn \

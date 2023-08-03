@@ -11,10 +11,10 @@ tikzpagenodes, xcolor, and, optionally, microtype. Note: \
 'zebra' is the name of the package author's lab."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.8.0svn51554"
+PV = "2023.209.0.0.8.0svn51554"
 
-RPM_NAME = "texlive-zebra-goodies-2023.201.0.0.8.0svn51554-52.2.noarch.rpm"
-RPM_HASH = "ca00a72e230bb1034ce0ca469476cc61644f12fa6371c5c26a2c25c3d52f39b27e3096ad1e73c2e478f612aca78f8341a2b6a07d99a0569369940dc09e587c55"
+RPM_NAME = "texlive-zebra-goodies-2023.209.0.0.8.0svn51554-53.1.noarch.rpm"
+RPM_HASH = "3796f389985e0813991d4b341ac2aa06ebaa7203f198fbc6aaabb00ab25e3d03c7a70df717c4a3cbd42f854fcb0202f266d9334ac1e1ff0ff54fbe0a179f0ca2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zebra-goodies.sty \

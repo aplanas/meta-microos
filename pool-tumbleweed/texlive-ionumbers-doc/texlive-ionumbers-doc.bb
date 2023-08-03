@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ionumbers"
 DESCRIPTION = "This package includes the documentation for texlive-ionumbers"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.3.3svn33457"
+PV = "2023.209.0.0.3.3svn33457"
 
-RPM_NAME = "texlive-ionumbers-doc-2023.201.0.0.3.3svn33457-55.1.noarch.rpm"
-RPM_HASH = "2bc9ae29d63997957dc4f415e99c29689759e8dee8d52a6cd18fe06b13808de67c2c3018284135335fcea4e0e97d7751d864cdbc40fe7d58aec97a921ebcd47a"
+RPM_NAME = "texlive-ionumbers-doc-2023.209.0.0.3.3svn33457-56.1.noarch.rpm"
+RPM_HASH = "7545cf0ba22a934a6d9ecf795bde54dabf58d66e820e9440b00b7d5bac0855bd75492a9891fa760efc940860eb61f230525814792d631ca394649e271ef173a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ionumbers-doc"

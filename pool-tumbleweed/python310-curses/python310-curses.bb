@@ -5,8 +5,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.10.12"
 
-RPM_NAME = "python310-curses-3.10.12-1.1.aarch64.rpm"
-RPM_HASH = "aef2c456f9f788d86bdc93bb042e87ff17ccdfded0859ac04733d1e8e73650cecc7fdf0ee6002e32cbfec1fbf4a868327b352a6ed071572a763de47f3a1a5f8b"
+RPM_NAME = "python310-curses-3.10.12-2.1.aarch64.rpm"
+RPM_HASH = "b5b5efe30ae4771fac57111eeba6c9273f513f6dcd0457075055b78043d388936605a23eac25bf19c9315ee2105f59d928efb4cc69794da7830db190c8d4b3b6"
 
 RPROVIDES:${PN} += "python310-curses"
 

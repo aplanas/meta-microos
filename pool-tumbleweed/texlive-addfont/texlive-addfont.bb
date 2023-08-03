@@ -9,10 +9,10 @@ this package still requires some knowledge on how to use fonts \
 with LaTeX."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.1svn58559"
+PV = "2023.209.1.1svn58559"
 
-RPM_NAME = "texlive-addfont-2023.201.1.1svn58559-54.1.noarch.rpm"
-RPM_HASH = "6ed7e0c1d75bf0fe0f21526673b8235ca949cfd4c115dfcfa9341bc512cb921723f7746b73e4f26db7bf9ccf60c3cf3737bd306a254345c4cfb3fd90576f4821"
+RPM_NAME = "texlive-addfont-2023.209.1.1svn58559-55.1.noarch.rpm"
+RPM_HASH = "e70d41191d4288872153da92d9cd698aba8a02adc3fc9d845e95ec704fa36f08bdd7529d36d95a21930b7c04480605123e9d750880a037afd736d8e7e12d32a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-addfont.sty \

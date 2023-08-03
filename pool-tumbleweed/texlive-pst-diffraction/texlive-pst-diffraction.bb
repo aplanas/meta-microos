@@ -11,10 +11,10 @@ the wavelength of the light (the associated color will be \
 calculated by the package)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.03svn62977"
+PV = "2023.209.2.03svn62977"
 
-RPM_NAME = "texlive-pst-diffraction-2023.201.2.03svn62977-52.1.noarch.rpm"
-RPM_HASH = "6bf46321598d1ed23249fb7338fbe8b74b8ca292e1b5da16409033e244aa37d601857b3578f078dd5d04404c8060f68a2a721d2fadeaee17fec88910eee17997"
+RPM_NAME = "texlive-pst-diffraction-2023.209.2.03svn62977-53.1.noarch.rpm"
+RPM_HASH = "b8722e65cb1b9f51898d73445677eb95b0626b6acd9403a34a23b19ded035647a9611f9fb87a90afed91e111790ba3ae04ca3858fe78190ecbcb9c9568a76290"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-diffraction.sty \

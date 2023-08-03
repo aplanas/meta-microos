@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-algolrevived"
 DESCRIPTION = "This package includes the documentation for texlive-algolrevived"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.052svn56864"
+PV = "2023.209.1.052svn56864"
 
-RPM_NAME = "texlive-algolrevived-doc-2023.201.1.052svn56864-54.1.noarch.rpm"
-RPM_HASH = "682498c930675c98b644e7c3410e80a86dbd4bfa7eb64dfd44a0ef845a8c23b1b55aa6dfee81560222c2e82016d20f6ffc2dd2cf9b51c2f445267200d283281a"
+RPM_NAME = "texlive-algolrevived-doc-2023.209.1.052svn56864-55.1.noarch.rpm"
+RPM_HASH = "981b2df5cae137205606848e7f2ccaf22dc5305c13838b98d51c9bc15ee115c846a1f1b839261ca1089ff52d8d61832ab46ca0054e430447b597888d00a938e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-algolrevived-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Fallback CJK font support for xeCJK"
 DESCRIPTION = "The zxjafbfont package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn28539"
+PV = "2023.209.0.0.2svn28539"
 
-RPM_NAME = "texlive-zxjafbfont-2023.201.0.0.2svn28539-52.2.noarch.rpm"
-RPM_HASH = "f9d477c5e4f6326330313da751e9801e58a66e1a3cc70e095d34ba452c163bbfdaaf5ab992c0856d7508acbb29b686c24aeedcf3f61ffccecdf5339704391b3d"
+RPM_NAME = "texlive-zxjafbfont-2023.209.0.0.2svn28539-53.1.noarch.rpm"
+RPM_HASH = "ac0d2f3766fbc2ff29df05c7aca7fa31e097fef58a3a7fcdcd47e04272568d63e5fdd173d8cfd715d29d2e03eb291e765418a73673e0b18fe534c72d6da18437"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zxjafbfont.sty \

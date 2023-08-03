@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-menucard"
 DESCRIPTION = "This package includes the documentation for texlive-menucard"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn55643"
+PV = "2023.209.0.0.1svn55643"
 
-RPM_NAME = "texlive-menucard-doc-2023.201.0.0.1svn55643-54.1.noarch.rpm"
-RPM_HASH = "31dd0858b727bf254a3de87a68d6b713f5da4740819288d1e699ff4c845f73ead191aeb12262d1d816c15858fc944734e35ccd2ff5dc4550c9105156e6ea7271"
+RPM_NAME = "texlive-menucard-doc-2023.209.0.0.1svn55643-55.1.noarch.rpm"
+RPM_HASH = "afb1b52fed053dc33717859f57ab457b04000bcaff447ddcb3373f676540bee116121d13ddef7cf1bef6e9a23a00d163a6908cd87349aaba785ab818c4c87e8b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-menucard-doc"

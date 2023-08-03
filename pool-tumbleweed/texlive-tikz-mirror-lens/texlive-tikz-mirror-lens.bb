@@ -6,10 +6,10 @@ calculates the position and height of the image, and also \
 displays the notable rays."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.2svn65500"
+PV = "2023.209.1.0.2svn65500"
 
-RPM_NAME = "texlive-tikz-mirror-lens-2023.201.1.0.2svn65500-52.1.noarch.rpm"
-RPM_HASH = "cfc66908a13883abae5d86aca12bab131e5e6386bde8ecc5b13999b5bacc8e7dcf51dd60fde050c01a33cb12381bcfc8b2b7c48ea2aab0a57682b12651df4bb0"
+RPM_NAME = "texlive-tikz-mirror-lens-2023.209.1.0.2svn65500-53.1.noarch.rpm"
+RPM_HASH = "b4d146d1648c3d20d0acdec6f972a71c521bba249285649be9a222b6a78a938b1eb20c5bcfc025d4300c9454d4181b770ef195980029949a1fdebe5d7478ab7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikz-mirror-lens.sty \

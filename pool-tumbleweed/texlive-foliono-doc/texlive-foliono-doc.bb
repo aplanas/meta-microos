@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-foliono"
 DESCRIPTION = "This package includes the documentation for texlive-foliono"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.000svn58877"
+PV = "2023.209.1.000svn58877"
 
-RPM_NAME = "texlive-foliono-doc-2023.201.1.000svn58877-52.1.noarch.rpm"
-RPM_HASH = "547d71f44b32a29d999726f10f14779f67a50ff9953cd871721a00fbd5fdd506a32413f5fa0cb93cd3a9773a34ead1ab57a397167b62035f1952e6d9163745fc"
+RPM_NAME = "texlive-foliono-doc-2023.209.1.000svn58877-53.1.noarch.rpm"
+RPM_HASH = "b969bbd4e0500b2c3c538ea3e7bf2bdcb3bd1593429569b67fb8ffc7cd0371daa3e87e47564d2df2852586b3b94d22d987bbbd8d2f9aa2ebe0e5414eff3baad1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-foliono-doc"

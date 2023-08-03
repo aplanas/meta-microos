@@ -10,10 +10,10 @@ the package name). The package depends on array, expl3, \
 longtable, multirow, xparse, and zref-abspage."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3.2svn54758"
+PV = "2023.209.1.3.2svn54758"
 
-RPM_NAME = "texlive-topiclongtable-2023.201.1.3.2svn54758-52.1.noarch.rpm"
-RPM_HASH = "3dd9808f413aadf281085fe21fe80e595d7dc6aaf607e522c1a9ffd168871e6af2ce09db02cf1e9441caddc56187d5fc9531f226508dedfaef59b47cd8bf9898"
+RPM_NAME = "texlive-topiclongtable-2023.209.1.3.2svn54758-53.1.noarch.rpm"
+RPM_HASH = "f5abbadc712a58ca970ef0a7808bee6ac51b123f4628975de81db702792d9c142431fd0fecbe418c1b10689cca0403b82ca66125a141cd2975f181db26e1719b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-topiclongtable.sty \

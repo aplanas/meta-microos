@@ -2,10 +2,10 @@ SUMMARY = "A secure and free password manager for all of your devices"
 DESCRIPTION = "Bitwarden is a free and open-source password management service that stores sensitive information such as website credentials in an encrypted vault.  Bitwarden offers a cloud-hosted service as well as the ability to deploy the solution on-premises. This package provides the GUI client."
 LICENSE = "GPL-3.0-only & MIT & (Apache-2.0 | MIT)"
 
-PV = "2023.5.1"
+PV = "2023.7.1"
 
-RPM_NAME = "bitwarden-2023.5.1-1.1.aarch64.rpm"
-RPM_HASH = "bf48c5b28ed5c551fea39394cab93e804c5fb9a13171c5a181b66d93f96241a4e3307a188431fcd943d6debb4b2ed82cf384a27209aaf5d6ca3ee05d8206808f"
+RPM_NAME = "bitwarden-2023.7.1-1.1.aarch64.rpm"
+RPM_HASH = "03ec200bd1fb8c310230e07281f05e22df0628ae0bb1ae0750b8b0a741b9fa1a7d987d8d43850f8054b53b33338f77690d45803f1d80c4f8467d816665cdd1e4"
 
 RPROVIDES:${PN} += "bitwarden \
 bundled-rust-crate-aes \
@@ -31,6 +31,7 @@ bundled-rust-crate-futures-channel \
 bundled-rust-crate-futures-core \
 bundled-rust-crate-futures-executor \
 bundled-rust-crate-futures-io \
+bundled-rust-crate-futures-macro \
 bundled-rust-crate-futures-task \
 bundled-rust-crate-futures-util \
 bundled-rust-crate-generic-array \

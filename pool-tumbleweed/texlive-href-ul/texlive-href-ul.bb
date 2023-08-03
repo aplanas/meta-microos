@@ -3,10 +3,10 @@ DESCRIPTION = "This LaTeX package makes hyperlinks underscored, just like on \
 the web. The package uses hyperref and ulem."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3.0svn64880"
+PV = "2023.209.0.0.3.0svn64880"
 
-RPM_NAME = "texlive-href-ul-2023.201.0.0.3.0svn64880-53.2.noarch.rpm"
-RPM_HASH = "880f33e3a4a1cde6db2d2942b9b91c63ee2ddcf805fa92504009922fbb9a8e6c87b718d3d6ce7d48891d07b52e6d99359883762cf54a25964a07734689a22103"
+RPM_NAME = "texlive-href-ul-2023.209.0.0.3.0svn64880-54.1.noarch.rpm"
+RPM_HASH = "90c94f53f7f0853845680843644e80f742f6b4e50d32b64a1122e9ce650052c061f0031d1b61bcd49e5fa8f70237a30735b64365fd789b2f9f6fbed7874ce176"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-href-ul.sty \

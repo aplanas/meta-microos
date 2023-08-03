@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xetexfontinfo"
 DESCRIPTION = "This package includes the documentation for texlive-xetexfontinfo"
 LICENSE = "Apache-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-xetexfontinfo-doc-2023.201.svn15878-52.2.noarch.rpm"
-RPM_HASH = "514eecda85e6c20347e3253df2ff74cd71c654a6d90924c06e96a0a192078125027f8a18f555d2eb9c2defd4a63b8709f06288b8b465bc3de56cbdf7ff4af0ed"
+RPM_NAME = "texlive-xetexfontinfo-doc-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "0f2a32e854bf7a0ac3d4b48ab26766e1cf6a06b521ac6ab1c68ca7aa5f54be235315ab27acb29ae47674b7a730c426706d7c35bc320bb8d3efa2b17984958305"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xetexfontinfo-doc"

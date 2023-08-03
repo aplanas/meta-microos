@@ -4,10 +4,10 @@ to highlight the structure for the reader. Included are also \
 binary (executable) files for Windows, Ubuntu Linux, and macOS."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.3.20.3svn65937"
+PV = "2023.209.3.20.3svn65937"
 
-RPM_NAME = "texlive-latexindent-2023.201.3.20.3svn65937-54.1.noarch.rpm"
-RPM_HASH = "1ddbe782a3c67cce107de91e645d11f90b0e78dcc05fae12aa8421c9782c21b918887ecc4e16ca205f172dd48aaa10d61cb51c6cf83328cbaaf7255d6f8eb43b"
+RPM_NAME = "texlive-latexindent-2023.209.3.20.3svn65937-55.1.noarch.rpm"
+RPM_HASH = "2b99fbbfa3ab607c8313dbccb6b850a9f2440c24f3cdfd149412ec870ab561d91b2f9bf8da29b387d0c2435fabeb420667cb602d3047b0fc48ae16c46224e657"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-LatexIndent--AlignmentAtAmpersand \

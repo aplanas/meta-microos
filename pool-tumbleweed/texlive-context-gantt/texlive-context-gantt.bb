@@ -3,10 +3,10 @@ DESCRIPTION = "Gantt is a module for drawing Gantt charts via MetaPost or \
 PGF/TikZ."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.204.svn47085"
+PV = "2023.209.svn47085"
 
-RPM_NAME = "texlive-context-gantt-2023.204.svn47085-54.1.noarch.rpm"
-RPM_HASH = "6f8e2654e516d3b2a9e39d8029c86e399ac655a636e18b015aec74d481c5b2a8c07b87c70d0c0ba6ef4eaf5e8db614badd6ab383b17aa0787bbfd7058b137fe6"
+RPM_NAME = "texlive-context-gantt-2023.209.svn47085-55.1.noarch.rpm"
+RPM_HASH = "0574fb9863a33a211047df102f41cc700327ba28495d4185afd773aff0864fa10fe64277dc04fd4175c766111f6f6cd48c5b026bda55a2ba0073dad6e80e9469"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gantt-s-mp.tex \

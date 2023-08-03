@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-niceframe"
 DESCRIPTION = "This package includes the documentation for texlive-niceframe"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1csvn36086"
+PV = "2023.209.1.1csvn36086"
 
-RPM_NAME = "texlive-niceframe-doc-2023.201.1.1csvn36086-54.1.noarch.rpm"
-RPM_HASH = "d838143dbd24d844d5c8340634cce6075fe30fc48e1d4b1bf8dce6de4f581f84bea09558470e0de8d83e150abe414dfa6bd91271005410f174d66643a288c128"
+RPM_NAME = "texlive-niceframe-doc-2023.209.1.1csvn36086-55.1.noarch.rpm"
+RPM_HASH = "4f17dea7d03122bce2f7a4597aea2206fd1051f4c22a4f54779d537467ffb4cbc03722c65ce884f6b11f5ebbc74d2bef861f23b284ea2a7cd07d419b6bc46cc8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-niceframe-doc"

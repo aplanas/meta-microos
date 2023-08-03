@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-listbib"
 DESCRIPTION = "This package includes the documentation for texlive-listbib"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.2svn29349"
+PV = "2023.209.2.2svn29349"
 
-RPM_NAME = "texlive-listbib-doc-2023.201.2.2svn29349-54.1.noarch.rpm"
-RPM_HASH = "70af7145618dcb92dd5a1708222dd28d4b380620d1b4c0f3583e39fb1c4617e23873665be4202822c42372690381fc43ec3b8dcac1bd6f45c16808f04f8dff06"
+RPM_NAME = "texlive-listbib-doc-2023.209.2.2svn29349-55.1.noarch.rpm"
+RPM_HASH = "a527dc2f5df7af31795739fb65b604cc9f0434b8b8354a74627b27225c15a9d0c66c34594446c5597154cbc165af3bf78c965ec80c173f990435d7d54ac9a8f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-listbib-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-metafont"
 DESCRIPTION = "This package includes the documentation for texlive-metafont"
 LICENSE = "SUSE-TeX"
 
-PV = "2023.201.2.71828182svn66186"
+PV = "2023.209.2.71828182svn66186"
 
-RPM_NAME = "texlive-metafont-doc-2023.201.2.71828182svn66186-54.1.noarch.rpm"
-RPM_HASH = "aa4ef02d5c7543bb17d056924d78fd5417f94df4a506781fe58c548d9a141b3437dfd797b0388d403deade6a2c916b9dcbdddc24bfd970245d48cd30e51ee193"
+RPM_NAME = "texlive-metafont-doc-2023.209.2.71828182svn66186-55.1.noarch.rpm"
+RPM_HASH = "05768c481a88397069eef6014ec2cdab1a78c68f71ee09fbf4225873df6a8476a5ef633c286a05072312d772b39fc519447ca5174456b1c93491c52e7f2bdbf3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-inimf.1 \

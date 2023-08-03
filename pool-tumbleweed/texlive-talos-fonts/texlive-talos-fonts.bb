@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-talos"
 DESCRIPTION = "The  separated fonts package for texlive-talos"
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.201.1.0svn61820"
+PV = "2023.209.1.0svn61820"
 
-RPM_NAME = "texlive-talos-fonts-2023.201.1.0svn61820-54.1.noarch.rpm"
-RPM_HASH = "9c9a1dd2779538891fa8c5f33b16d5ed6198c9cd7f101668dcb71a272c256f4e87cbcf1370f8f9bbdff14e684bcd58882fbb1404225ba178c558963ec2d245f2"
+RPM_NAME = "texlive-talos-fonts-2023.209.1.0svn61820-55.1.noarch.rpm"
+RPM_HASH = "a570dc6746d8976cb541ab903fc6641bb48853d4e041c2cd407b74db8cc5bd6d518a0bcd56b065813261c4e9617e670edac568e133908a509b3958e132abf4aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=el \

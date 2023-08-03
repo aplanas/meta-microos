@@ -6,10 +6,10 @@ Theoretical Biology; otherwise it serves for the Journal of \
 Molecular Biology."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.30svn52717"
+PV = "2023.209.1.30svn52717"
 
-RPM_NAME = "texlive-jbact-2023.201.1.30svn52717-55.1.noarch.rpm"
-RPM_HASH = "d10138740bba2a8e569bd407253577c100194d1382ac389e08be62f6bd0e5a81b527de27d405f42b8710b2ab19925e6ddc56e6e7569a551db26b344d3bab0a93"
+RPM_NAME = "texlive-jbact-2023.209.1.30svn52717-56.1.noarch.rpm"
+RPM_HASH = "8043a88861a035fc83b4fc7af9bf8617eef2a2acad54664d475f737e9f42403275ef32818508175d7eeb7b9ee168f8024ad002840459582b91f51c7f8e945dfb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jbact"

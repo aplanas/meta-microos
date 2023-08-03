@@ -15,10 +15,10 @@ Authors: \
     Josef Reidinger <jreidinger@suse.cz>"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.14.61"
+PV = "1.14.62"
 
-RPM_NAME = "zypper-1.14.61-1.1.aarch64.rpm"
-RPM_HASH = "ceb1e07c323ca6ad2e710b9b7cae89273a3ed8a41b1f4d6201495b49d7740390c1cf6cc017d5050c8b0d4ca9a39ce4b7600f04aa429fe89912184d5402034a24"
+RPM_NAME = "zypper-1.14.62-1.1.aarch64.rpm"
+RPM_HASH = "98a6f22c8ed59574cca1e62ec346ed9088c8dc9278246f5dab86bb28a9b7740f28aa30518733947051c18914739bfb120e28f741ccd41cc33309a45cb4b49fad"
 
 RPROVIDES:${PN} += "config-zypper \
 y2pmsh \

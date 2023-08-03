@@ -4,11 +4,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.0.1"
 
-RPM_NAME = "ghc-pandoc-lua-engine-0.2.0.1-1.6.aarch64.rpm"
-RPM_HASH = "cbf7f2dd7468211577660b1d7f7c201cf110f0ee3209e5c7a374849e02aa705dcee134f7b2297d4fc202fc2fa2e26d9250c488d1f8e72ed1297b2c370a98f1b3"
+RPM_NAME = "ghc-pandoc-lua-engine-0.2.0.1-1.7.aarch64.rpm"
+RPM_HASH = "0390767132da73d3a8267c6d4120661f11ce6f9008e8074d2ca6648c2f0bc26208fdfb9a7d992e545f993220d8e7c0ed41026bf5b4a93f58987d3369894ab5a1"
 
 RPROVIDES:${PN} += "ghc-pandoc-lua-engine \
-libHSpandoc-lua-engine-0.2.0.1-5sUPoxcrHZ3FzfN1da4tRi-ghc9.4.5.so"
+libHSpandoc-lua-engine-0.2.0.1-2RA8DHDCMU13RV6aHXQ7Uf-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSGlob-0.10.2-5tAj3lHfg0h9Pb5bOpMg4R-ghc9.4.5.so \
 libHSJuicyPixels-3.3.8-BQPF2mBCFFj3rGPaZ8nrGS-ghc9.4.5.so \
@@ -127,8 +127,8 @@ libHSnetwork-3.1.4.0-FvtFepOtuCUH79FCWyNxIc-ghc9.4.5.so \
 libHSnetwork-uri-2.6.4.2-4kNQnaE9heqEL1mH8FE5xH-ghc9.4.5.so \
 libHSold-locale-1.0.0.7-B5o2Qz0CVVSCB1XGw7OfzR-ghc9.4.5.so \
 libHSordered-containers-0.2.3-2vvzHwtaKIjK7BBzxceSWT-ghc9.4.5.so \
-libHSpandoc-3.1.3-ImQr97Zc2bP55LDbAec3vO-ghc9.4.5.so \
-libHSpandoc-3.1.3-IzkHpxfVqJp7Y4A5yupAQ8-xml-light-ghc9.4.5.so \
+libHSpandoc-3.1.3-109Ci2XjWg17jSYmisWciX-xml-light-ghc9.4.5.so \
+libHSpandoc-3.1.3-55OY79jb6yp7kweb38lcUZ-ghc9.4.5.so \
 libHSpandoc-lua-marshal-0.2.2-FczgTsDU3sCHicuhmGSmSB-ghc9.4.5.so \
 libHSpandoc-types-1.23.0.1-EcvZluXpPb0J10kJC4UfRg-ghc9.4.5.so \
 libHSparsec-3.1.16.1-ghc9.4.5.so \
@@ -145,12 +145,12 @@ libHSsafe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds-ghc9.4.5.so \
 libHSscientific-0.3.7.0-D5F2vql7x79Dy9hx72OES1-ghc9.4.5.so \
 libHSsemialign-1.3-D9a6dNA89ZHcaXKxWN9Am-ghc9.4.5.so \
 libHSsemigroupoids-5.3.7-Ju2oK8NLhZKHdQ6h8GWNM1-ghc9.4.5.so \
-libHSskylighting-0.13.4-5T99F0BkgIQGejRNYUpHqn-ghc9.4.5.so \
-libHSskylighting-core-0.13.4-ILWFndoUOH7DzXIN7Ztglj-ghc9.4.5.so \
-libHSskylighting-format-ansi-0.1-Bs7UZk06X7gCvm9EWhhFHl-ghc9.4.5.so \
-libHSskylighting-format-blaze-html-0.1.1-2S5li2Ic3P8IXVFqKrjQNX-ghc9.4.5.so \
-libHSskylighting-format-context-0.1.0.2-DaN7b6FAIhw69Ip8uy59f9-ghc9.4.5.so \
-libHSskylighting-format-latex-0.1-KUWKzkdJqvB1foV6pwv6yZ-ghc9.4.5.so \
+libHSskylighting-0.13.4.1-CU1AlEko5yK2gCD1OmtnCm-ghc9.4.5.so \
+libHSskylighting-core-0.13.4.1-6Bsu3Qo0E1u1DqUSYo1bSc-ghc9.4.5.so \
+libHSskylighting-format-ansi-0.1-6378BOa13TnAAEhx7jAIGl-ghc9.4.5.so \
+libHSskylighting-format-blaze-html-0.1.1-96IxqoyNHvLGcjrkFPKZr9-ghc9.4.5.so \
+libHSskylighting-format-context-0.1.0.2-I1BZIYXYOqlBramxRueIsx-ghc9.4.5.so \
+libHSskylighting-format-latex-0.1-J2O8wjQxddL48jSKv998Ye-ghc9.4.5.so \
 libHSsocks-0.6.1-8gBEgerYb38E7aCOOcHCwN-ghc9.4.5.so \
 libHSsplit-0.2.3.5-u3oGLAiW7JJbxIffWSCWf-ghc9.4.5.so \
 libHSsplitmix-0.1.0.4-7e8CibdlMRLAGh7KO5VlFe-ghc9.4.5.so \

@@ -6,10 +6,10 @@ This package provides the GObject Introspection bindings for the \
 libgexiv2 library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.14.1"
+PV = "0.14.2"
 
-RPM_NAME = "typelib-1_0-GExiv2-0_10-0.14.1-2.1.aarch64.rpm"
-RPM_HASH = "e38253c8bcc2d08362772246578d1f188a97d8cd06d281e5e924ed5d4e4edff62e5b772bb0b7939df1763d5614422707cd27e9c7131495858ac277f97eae489f"
+RPM_NAME = "typelib-1_0-GExiv2-0_10-0.14.2-1.1.aarch64.rpm"
+RPM_HASH = "4215271e7dc9ce3a1efd4e68ae987c377e38855344c2f0b1c8ca21175c681ba1a45ddbf9f79959680fd410bf5fdea8d63f5f45f8802b272b93f3adbe25839cb5"
 
 RPROVIDES:${PN} += "typelib-1-0-GExiv2-0-10 \
 typelib-GExiv2"

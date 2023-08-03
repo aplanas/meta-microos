@@ -9,10 +9,10 @@ and Commands to create and use raw PDF objects. Navigator \
 requires texapi and yax, both version at least 1.03."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn41413"
+PV = "2023.209.1.1svn41413"
 
-RPM_NAME = "texlive-navigator-2023.201.1.1svn41413-54.1.noarch.rpm"
-RPM_HASH = "a2125e316a31e895e2d660d7265c8fa69275e3aacbf0d50cf759b61e226b0815fd1dacdd672b5bed7ec7bdcc1b218b9ca4e50bdcae00e3880866ed54237ba663"
+RPM_NAME = "texlive-navigator-2023.209.1.1svn41413-55.1.noarch.rpm"
+RPM_HASH = "e5e9161a5b9e2bbd52fac957ae150dc73b00146ca1d9c3ef5c9aca174ca4ebc19d1c17ce005cf52fd9b5970048d0c278e3f1a60a84eece19740d137a4f5b1085"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-navigator.sty \

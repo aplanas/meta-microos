@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.1.0"
 
-RPM_NAME = "python-ironicclient-doc-5.1.0-1.3.noarch.rpm"
-RPM_HASH = "6419018d019aa3997f6a51a589ad889cfc7756f2bff5811ed556d050f7025067a39c2c09c3f14c2bafacd3782e8d3394b008590fa2042a6da9d9d2939d40023f"
+RPM_NAME = "python-ironicclient-doc-5.1.0-1.4.noarch.rpm"
+RPM_HASH = "75f0513160ac2c69f639e0d2ed6d2d0376005f22aa096c00d58db67053246b74970931d66889e30588e3e888b2767d77edff3f1c2bdff061bb139b217e5526d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-ironicclient-doc"

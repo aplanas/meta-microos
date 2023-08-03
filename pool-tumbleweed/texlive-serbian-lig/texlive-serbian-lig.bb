@@ -3,10 +3,10 @@ DESCRIPTION = "The package suppresses fi and fl (and other ligatures) in \
 Serbian text written using Roman script."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn53127"
+PV = "2023.209.svn53127"
 
-RPM_NAME = "texlive-serbian-lig-2023.201.svn53127-53.1.noarch.rpm"
-RPM_HASH = "d3a8715885bf8b7229f57900aa054a84979a69209df1a5bd596a30865e2cc653ef1367997f7de706ff08b2f941f1a4b32f2fe3213c8fd213cea4f015abd87604"
+RPM_NAME = "texlive-serbian-lig-2023.209.svn53127-54.1.noarch.rpm"
+RPM_HASH = "96493ad7fd85272b48d8b4e49cd6655deb19e48b57782a16d35facbc3b8413770a701fd4354d3542a2b7824c84c14bbe93782c2d96b18cbbe643839e89aa34ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-serbian-lig.sty \

@@ -7,10 +7,10 @@ float environment). The package uses \\DeclareCaption to define \
 or table environments."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn17353"
+PV = "2023.209.svn17353"
 
-RPM_NAME = "texlive-captdef-2023.201.svn17353-52.1.noarch.rpm"
-RPM_HASH = "97fe8eeb2b5b8221b4b808ada9e0e3eea67d0f5e82f039599e33a8ccbbfcefbd8c0b866ada50918393b7a4752fa0efc11a36d0cf974ccc0397a64d875638884d"
+RPM_NAME = "texlive-captdef-2023.209.svn17353-53.1.noarch.rpm"
+RPM_HASH = "14ce25178ae48fca55277ae39c8fe8c51ba64dcb72e99d05f1dde076258744fa6f58f06b9bda5ecc77db499aa4a6fb927d6cddbea6a985bf9a8db36660a7d0f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-captdef.sty \

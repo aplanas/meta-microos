@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.4.1"
 
-RPM_NAME = "python311-pytest-console-scripts-1.4.1-1.2.noarch.rpm"
-RPM_HASH = "5e45a556c9b346915183b93c1412d5cd1fad1b99e5bba68f2772daf005697cf5892cee57fe792bd777f0146929b13aa3146e700a1780bc670ea502414a8c5dee"
+RPM_NAME = "python311-pytest-console-scripts-1.4.1-2.1.noarch.rpm"
+RPM_HASH = "06df862bae49f0584efc2cfc5c49ee69d6cad412d1ad9167dc764a4d8c1cd21dc56998700f0ec6504ae99664b451cf96ab2687dcebca1b8cb4c16b52526cc39f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-console-scripts \

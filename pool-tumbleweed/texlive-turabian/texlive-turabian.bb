@@ -4,10 +4,10 @@ Turabian-formatted projects. The class file supports citation \
 formatting conforming to the Turabian 8th Edition style guide."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1.0svn36298"
+PV = "2023.209.0.0.1.0svn36298"
 
-RPM_NAME = "texlive-turabian-2023.201.0.0.1.0svn36298-52.1.noarch.rpm"
-RPM_HASH = "272b3ecccf08f040e713b61a5ab69417c696543b10f42e63fc69a964f573bb474c83ba848fe838825e4ddefdae91040b63ebbc9bdc42c28193a8973134f7735d"
+RPM_NAME = "texlive-turabian-2023.209.0.0.1.0svn36298-53.1.noarch.rpm"
+RPM_HASH = "5610e96c630c1bdf6366ce8858b0a9ada10dcf8dc2cd03c7b6424bb92e2a8e85efff76d0ff7c3545b73a196879ac9fa3ba349c5f4782997be15ab3a2d5f17fa6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-turabian.cls \

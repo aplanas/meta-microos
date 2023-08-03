@@ -6,10 +6,10 @@ LuaLaTeX or XeLaTeX, support is available from the fontspec and \
 unicode-math packages."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.302svn55730"
+PV = "2023.209.1.302svn55730"
 
-RPM_NAME = "texlive-xits-2023.201.1.302svn55730-52.2.noarch.rpm"
-RPM_HASH = "c5d75e389dc581740518a0c73e949aca4cf8d988c3346341da0f7a74b75d4cdcdf27e23b1b342f3a39038e2345420d5d6f0e467147309ff0ca0e0704810e9d3f"
+RPM_NAME = "texlive-xits-2023.209.1.302svn55730-53.1.noarch.rpm"
+RPM_HASH = "e73770fade3b017bffca4b1e64d03580af65ede41c76063f47598f1deec35bf23be4604de4c54f55f04256f25c70499dfe9f0a4f5f9d73e7a71390e96cff5055"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xits"

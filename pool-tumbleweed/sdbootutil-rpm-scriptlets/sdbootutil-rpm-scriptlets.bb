@@ -2,14 +2,14 @@ SUMMARY = "dummy scriptlets for the kernel"
 DESCRIPTION = "Empty scriptlets to satisfy kernel dependencies"
 LICENSE = "MIT"
 
-PV = "1+git20230717.dac075e"
+PV = "1+git20230727.a0e666f"
 
-RPM_NAME = "sdbootutil-rpm-scriptlets-1+git20230717.dac075e-1.1.aarch64.rpm"
-RPM_HASH = "4b31e44cbf6db23d4e7002852974c216a8bb3576b0c72dbca1959ebc548639a03ca9bfba2b9b3d4093bc836455c260350b7a3b31bf6659bcb1bf0a50c263e875"
+RPM_NAME = "sdbootutil-rpm-scriptlets-1+git20230727.a0e666f-1.1.aarch64.rpm"
+RPM_HASH = "db0941b8ff4c40fad7380db844de12436351b3afb1c7c8bae09326bb4f859fd3f210ec5d88db172bb497cee42ca976e27a0493f67b3e44c56dbe971d3a226cf0"
 
 RPROVIDES:${PN} += "sdbootutil-rpm-scriptlets \
 suse-kernel-rpm-scriptlets"
 
-RDEPENDS:${PN} += "sdbootutil-filetriggers"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

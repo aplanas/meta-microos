@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-play"
 DESCRIPTION = "This package includes the documentation for texlive-play"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-play-doc-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "3faeb4e0c357fed3449dc02b78730f511553127d3dfc7b44ef3bc746a528573f0702caf22acd9a6cf563d2ff90612c759aa2910905402785eaf399056ff16eef"
+RPM_NAME = "texlive-play-doc-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "6a9bd7d26068c48ebdc7f215c65576cb9d959d0cbab71044db1385e013d4cc3feb164527dff99d72d9b066664d599ce77573fb642e91b7fe663a03ed2a29270f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-play-doc"

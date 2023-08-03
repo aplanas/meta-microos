@@ -6,10 +6,10 @@ slightly more difficult to test using normal testing tools. pytest-asyncio \
 provides useful fixtures and markers to make testing easier."
 LICENSE = "Apache-2.0"
 
-PV = "0.21.0"
+PV = "0.21.1"
 
-RPM_NAME = "python311-pytest-asyncio-0.21.0-1.3.noarch.rpm"
-RPM_HASH = "0fa7d2f086a00b774d4bc7312fc8f34112184e3b189e68cec9bf67d228bc6f5de5bd83d6bbc47ad70a3072da30627b35692d90012e6bb88216f250886999fea0"
+RPM_NAME = "python311-pytest-asyncio-0.21.1-1.1.noarch.rpm"
+RPM_HASH = "073b00b00fbf90a4e4d3bab08130eae32172c5c82283cfc0471620b3a752cd43423fb884cbabc8d8886637ac2913c2a4b7e61fe8ddbc43261f09da18a74b510b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-asyncio \

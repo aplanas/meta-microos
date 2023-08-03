@@ -18,8 +18,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.3.13"
 
-RPM_NAME = "q4wine-1.3.13-1.17.aarch64.rpm"
-RPM_HASH = "6f47036b728e6eda86c70f731ae9cbd35bef080a6a325daf2a24c6cb787677ab5771ef002efbdea403cc4d4243bfba168f0e096458bfbd42dd9654a4159d1d41"
+RPM_NAME = "q4wine-1.3.13-1.18.aarch64.rpm"
+RPM_HASH = "da514e4b815599813eb6ccd37d018224edb2106731a044e61a2463ed6b5605112c5246561f0d0ef2beb659f2767b0d17fdb1a6de577586f56a4b4c7b62d0116b"
 
 RPROVIDES:${PN} += "libq4wine-core.so \
 q4wine"

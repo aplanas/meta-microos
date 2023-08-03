@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a font with LuaLaTeX support for \
 describing card games."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2asvn54512"
+PV = "2023.209.1.2asvn54512"
 
-RPM_NAME = "texlive-hmtrump-2023.201.1.2asvn54512-53.2.noarch.rpm"
-RPM_HASH = "96f4092185432661dcded6fb8d00c1c00a2ff8fcaf284d3244f431734c702b032b0ba4cbc58ef08ac8d29815c87e8839107d4a2fcd3d8adcbeac87a5b924c858"
+RPM_NAME = "texlive-hmtrump-2023.209.1.2asvn54512-54.1.noarch.rpm"
+RPM_HASH = "c7b540629f97b7cf4a0dd76db1e7a049e9a2d426d74ce460364b4269509671c920330cfdd9593a23735a0c50f424331d862fb88b368f6c3c5d690d8b99c5a418"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hmtrump.sty \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "23.04.3"
 
-RPM_NAME = "kdeconnect-kde-zsh-completion-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "482f52835fbadf95375caccdcee5927b1e2263f73df00ace39eeb40af16a08701d07cf4df7264a0a6d01651f7cf7ed2fef7525d3d5b748fcae1c40adffbe2dfa"
+RPM_NAME = "kdeconnect-kde-zsh-completion-23.04.3-2.1.noarch.rpm"
+RPM_HASH = "5b563fbdb9eef26db64c4933b4d6e2dd5b126272559d62d90bf984c162c319f421295461d14120bf3ca01108c939a3eb6b42b660434f88083115eb765ae1cb5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdeconnect-kde-zsh-completion"

@@ -5,10 +5,10 @@ language semantics...). No MetaPost knowledge is needed to use \
 these macros."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.97svn29349"
+PV = "2023.209.0.0.97svn29349"
 
-RPM_NAME = "texlive-drv-2023.201.0.0.97svn29349-52.1.noarch.rpm"
-RPM_HASH = "15b8bbf208497feef68898a3de9b82c075412d1970006a286d257db7699a803d50db1080877e24d7603ca7ffafa3adaa271593d41ba2fd00c7083ed608653c53"
+RPM_NAME = "texlive-drv-2023.209.0.0.97svn29349-53.1.noarch.rpm"
+RPM_HASH = "397e85f8f469b5166d8ad438c45aff442b81b7cc784f86e2679bcd5c44cbaaa43b466646071a353886d950cc9f627bf963841365f70db2c05b14825083983f76"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-drv"

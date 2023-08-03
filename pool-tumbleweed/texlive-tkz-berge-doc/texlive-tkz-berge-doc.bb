@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tkz-berge"
 DESCRIPTION = "This package includes the documentation for texlive-tkz-berge"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn57485"
+PV = "2023.209.2.0svn57485"
 
-RPM_NAME = "texlive-tkz-berge-doc-2023.201.2.0svn57485-52.1.noarch.rpm"
-RPM_HASH = "9b728a81d0a6585d3c3b507672ba9e69be8fcfca09e82bf5847368ced8524eb085bca9b15fca41df23e6ff59e9c0042be85c0152fa96ff3551d21eb76cad1f5f"
+RPM_NAME = "texlive-tkz-berge-doc-2023.209.2.0svn57485-53.1.noarch.rpm"
+RPM_HASH = "aa1987ed069953a5e2a634f941869dfef76a9a5cc4c857b38f7238a956365a3623d9ca97c19c1255c7dca9f54646edf45a20f09abd2e2a7f1b7d508915f1227d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tkz-berge-doc"

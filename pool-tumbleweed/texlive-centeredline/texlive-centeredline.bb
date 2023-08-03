@@ -7,10 +7,10 @@ width exceeds the current linewidth will get properly centered \
 too."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn64672"
+PV = "2023.209.1.2svn64672"
 
-RPM_NAME = "texlive-centeredline-2023.201.1.2svn64672-52.1.noarch.rpm"
-RPM_HASH = "298b2cfd5709e8dbb66c6ba44c3371e3dc6cbcb8b4b926147b7f56d65c536e3b9bb797031bdfa7f704a5fb94893cd3132a59ffdf823f02af12d38e519e301a2d"
+RPM_NAME = "texlive-centeredline-2023.209.1.2svn64672-53.1.noarch.rpm"
+RPM_HASH = "9f69c38572073f8341b97ef2d82b6b15bc50ee1bd0a51260857f59bd384a48413b361d29d8b077d6dd08c09975b14ad663a0b4e1df94ad4d8f2a1da652bf947c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-centeredline.sty \

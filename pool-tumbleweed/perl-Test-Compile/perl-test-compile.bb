@@ -19,10 +19,10 @@ all Perl files in a module distribution: \
     $test->done_testing();"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "3.2.2"
+PV = "3.3.1"
 
-RPM_NAME = "perl-Test-Compile-3.2.2-1.2.noarch.rpm"
-RPM_HASH = "e3fb8104ade408ee24ce56ffbff588c076c4d4127a10e23dfa62f6c778db03782c614dac4f51ab65de87734ebea6737555259ce3bb296918578a3644a9d2519b"
+RPM_NAME = "perl-Test-Compile-3.3.1-1.1.noarch.rpm"
+RPM_HASH = "d282ca7d1ef857a2d9d00f7ee5fd6973a20b1e72edbb56440112babdee0a5ed1f7fc60a2b21057ebff771331b451d1f59b0d20ac4cc82480324a893f7e51ed00"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Compile \

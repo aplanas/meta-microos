@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-footmisc"
 DESCRIPTION = "This package includes the documentation for texlive-footmisc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.6.0dsvn62524"
+PV = "2023.209.6.0dsvn62524"
 
-RPM_NAME = "texlive-footmisc-doc-2023.201.6.0dsvn62524-52.1.noarch.rpm"
-RPM_HASH = "6e7e6e0b0101a7a0cae620b6aace187effc234e2fd0b90d41b37f0f042c46adfe1bfe757a9ee19ccdb733895160c205ac2de7c22de71b14544c764ff0a30e3c7"
+RPM_NAME = "texlive-footmisc-doc-2023.209.6.0dsvn62524-53.1.noarch.rpm"
+RPM_HASH = "9b69fe874079a309a50cb55f7e7a56b23f5f146bda8c72577426d2109942d8a5352109d02ed9dfcf8482f2e7ff6af6c4c24b7f7a9b71b43a21fd7c330f0cfb21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-footmisc-doc"

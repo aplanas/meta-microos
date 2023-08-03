@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-yhmath"
 DESCRIPTION = "The  separated fonts package for texlive-yhmath"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6svn54377"
+PV = "2023.209.1.6svn54377"
 
-RPM_NAME = "texlive-yhmath-fonts-2023.201.1.6svn54377-52.2.noarch.rpm"
-RPM_HASH = "22effb55a1c6ffe01590c03d81a6d5bd3e62d3d45854157c56ee68318078b05259d7c3782e6cb89e46b1de7e7899bc57d5c03092eccd7cf58d0fd9e5bde8d20a"
+RPM_NAME = "texlive-yhmath-fonts-2023.209.1.6svn54377-53.1.noarch.rpm"
+RPM_HASH = "5765b239a553a4902468dde63a2242bb69a925ee4348f6d2b5d4493ddeb1492fbb538690ad1b9fbdd3b017d5519fec1f3c7898dafe3080adf506120b057485c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

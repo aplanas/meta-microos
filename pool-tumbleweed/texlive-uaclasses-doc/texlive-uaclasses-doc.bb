@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-uaclasses"
 DESCRIPTION = "This package includes the documentation for texlive-uaclasses"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-uaclasses-doc-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "ab7586fdbbed5e01f28e4957089db105f9ca6491074cfdf9d1a3deade308a453a42d4037857e8d38287c20f9eec7f03fa4eed236fd5a9d479d00a10e3765bd25"
+RPM_NAME = "texlive-uaclasses-doc-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "eb96bdb44db7ca6b63572b979247063c1a9d8770bd8f399d157c7f31b22e8134d5241c6212738cca907b7a65001406bb7f4ec910773d3b6d180047ed53db29c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-uaclasses-doc"

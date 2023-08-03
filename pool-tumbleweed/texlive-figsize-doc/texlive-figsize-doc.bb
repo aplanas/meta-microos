@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-figsize"
 DESCRIPTION = "This package includes the documentation for texlive-figsize"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn18784"
+PV = "2023.209.0.0.1svn18784"
 
-RPM_NAME = "texlive-figsize-doc-2023.201.0.0.1svn18784-52.1.noarch.rpm"
-RPM_HASH = "7698ac99c8e6dbbeebbbc76f342492791dd7e4a42797db6ade77befc83204fd06b0486f6d6f6b66fc2b247a9d1ccbb4e84aaa4306b213bb48d2fb25d53ef1e61"
+RPM_NAME = "texlive-figsize-doc-2023.209.0.0.1svn18784-53.1.noarch.rpm"
+RPM_HASH = "c3e5f9ce5989b8bca878ae6aa7d473e0c48d3cbb1df021c39a7988bd74157aac10391e68d3abd23bb63a0f995dff4eb4d6539707bc1080057be24b2dd30da1a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-figsize-doc"

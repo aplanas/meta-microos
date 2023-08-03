@@ -8,10 +8,10 @@ package will eventually replace the chngpage package, which is \
 distributed with the package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0csvn15878"
+PV = "2023.209.1.0csvn15878"
 
-RPM_NAME = "texlive-changepage-2023.201.1.0csvn15878-52.1.noarch.rpm"
-RPM_HASH = "f4705e6fdcc14614b167f108ea37aeeb150c22ab8cdabcaecda10c0511d4ec5df325d738504ee7242171f1e80c34683f8d09d04fb4d46810b5df644a58151ba6"
+RPM_NAME = "texlive-changepage-2023.209.1.0csvn15878-53.1.noarch.rpm"
+RPM_HASH = "0de1c82bf2f452d6838e44246ee998ea15d93d3f3029101722ea2f3d0695887bfdad3d3acce1ac240a6d8f8f6d3f6ed104b3702534b1b4a4aee825cb01ac4f07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-changepage.sty \

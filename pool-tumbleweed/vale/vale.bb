@@ -13,10 +13,10 @@ style-be it a standard editorial style guide or a custom in-house set of rules \
 https://vale.sh/"
 LICENSE = "MIT"
 
-PV = "2.28.0"
+PV = "2.28.1"
 
-RPM_NAME = "vale-2.28.0-1.1.aarch64.rpm"
-RPM_HASH = "91565df8c58d30b6a0b84961e4ebe4b516fbf09bd6f027a99dc92b0d2fc3ea9e40faee064530bccb806d928e7497e6e6ddb752491a2325270b01dc054b1f417c"
+RPM_NAME = "vale-2.28.1-1.1.aarch64.rpm"
+RPM_HASH = "d0acffbd0ac4e896b69585a270f506b02f4c77102bbbc022ec181c2624bb8fd42b2037dca7dc126ada70592703f327e6c9e611ae5a33272b32d1e0080d821e25"
 
 RPROVIDES:${PN} += "vale"
 

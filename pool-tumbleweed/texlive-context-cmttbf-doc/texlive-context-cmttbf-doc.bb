@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-context-cmttbf"
 DESCRIPTION = "This package includes the documentation for texlive-context-cmttbf"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn47085"
+PV = "2023.209.svn47085"
 
-RPM_NAME = "texlive-context-cmttbf-doc-2023.204.svn47085-54.1.noarch.rpm"
-RPM_HASH = "c5b81bdf51199302ad33abe9c54af49ea845a47aa5767ae311e4d4ce858f4e152f77f0995b51894c6aa6b61b79d69cfc4ef362b5ae68c69be91f4e6c089e15d9"
+RPM_NAME = "texlive-context-cmttbf-doc-2023.209.svn47085-55.1.noarch.rpm"
+RPM_HASH = "ac3d821d9b735fe7853f6ae7cc7e353139e79a0312e885725d915fa9cff7b37dd4ad926c4b777905ee8546daa3536871d47caf8f6024575d6b63829898bd6443"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-cmttbf-doc"

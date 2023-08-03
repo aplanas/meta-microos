@@ -11,10 +11,10 @@ working. The fonts themselves are encoded to external \
 standards, and virtual fonts are provided for use with TeX."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.5svn28250"
+PV = "2023.209.0.0.5svn28250"
 
-RPM_NAME = "texlive-cm-lgc-2023.201.0.0.5svn28250-53.1.noarch.rpm"
-RPM_HASH = "e50056e2038e63d28056d2e65e69a8553ac0c7ac3e4c21966af862d98d92ddb3a2b37c0736cef13d2fea2b07dbcf67d37e9dd25819f52100fed780b812ec44d3"
+RPM_NAME = "texlive-cm-lgc-2023.209.0.0.5svn28250-54.1.noarch.rpm"
+RPM_HASH = "ec070da9f77792d60fda791038e00e78b78a7af536963b41be5d8ae9717a2c188221b06766d55a80321c345a78c57c5f4e5efe6d189d36b48b92ed28672dc906"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-8r-mod.enc \

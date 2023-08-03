@@ -10,10 +10,10 @@ part of the author's datetime package, but is now distributed \
 separately."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.07svn53912"
+PV = "2023.209.3.07svn53912"
 
-RPM_NAME = "texlive-fmtcount-2023.201.3.07svn53912-52.1.noarch.rpm"
-RPM_HASH = "cc9469d29da8f5f4f0a64834bc2914781ad5aa84958ada397d0a98460d71779f0ae1724e43296dd17d0776734d14fcd964852206aeefc05ff6ed383adf7e39a2"
+RPM_NAME = "texlive-fmtcount-2023.209.3.07svn53912-53.1.noarch.rpm"
+RPM_HASH = "886aa1de6957634d6f7326b1dfdf24bb502de0efb83b4b1d62cce0a68e578183bd67765fcf003cfcc58ba307338969c9ddc37a48a57d4fe16b19a77697a97aa1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fc-UKenglish.def \

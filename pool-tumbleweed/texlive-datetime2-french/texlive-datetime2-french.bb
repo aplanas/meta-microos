@@ -3,10 +3,10 @@ DESCRIPTION = "This module provides the 'french' style that can be set using \
 \\DTMsetstyle provided by datetime2.sty."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.03svn56393"
+PV = "2023.209.1.03svn56393"
 
-RPM_NAME = "texlive-datetime2-french-2023.201.1.03svn56393-52.1.noarch.rpm"
-RPM_HASH = "256b39229ef8a7a63ec36b46e1b9bbf48992bae16215369d3749f7592d94fc9238060e7f58eb16aef5041ad410c7d922cff125c9989df911ca64bf86e489203e"
+RPM_NAME = "texlive-datetime2-french-2023.209.1.03svn56393-53.1.noarch.rpm"
+RPM_HASH = "fc6d5eea63ca48e6d04ac5f35469b23349d6f832096f6db68d222f1896bdcfd9d370ff8e8de73fa4fb0b3747d3b62950c82b4d056d77659cc1d397e9dced36e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-french-ascii.ldf \

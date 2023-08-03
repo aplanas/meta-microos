@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.11.0"
 
-RPM_NAME = "python-castellan-doc-3.11.0-1.4.noarch.rpm"
-RPM_HASH = "7b73c4913e4ab1e4d2d37eade8aac14f81b844173ff2e7b5351e0a59a3e6c49b8dcf02212706875d305de058fc1aa0caf83f6040837c1750cc322c3aa2fa27c3"
+RPM_NAME = "python-castellan-doc-3.11.0-1.5.noarch.rpm"
+RPM_HASH = "461ec17b47d8baf1a4b4102d7a339d8969569195c7c958e20a44df0b57abdbd0c04939a5b8aa8f2343cc01b6ca4f14977fd668441f69d99bfd05a679b65f41bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-castellan-doc"

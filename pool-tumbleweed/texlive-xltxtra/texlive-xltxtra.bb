@@ -9,10 +9,10 @@ redefine \\showhyphens so it works correctly; and define two \
 extra commands: \\vfrac and \\namedglyph."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.7svn56594"
+PV = "2023.209.0.0.7svn56594"
 
-RPM_NAME = "texlive-xltxtra-2023.201.0.0.7svn56594-52.2.noarch.rpm"
-RPM_HASH = "656783685d201b2302e80ebaa946839a7a5d990566589e2cb372358676df10f5130f09e11ea7054def420b49ae3f65f5a40301b058f1129973c374c3f2b2adbb"
+RPM_NAME = "texlive-xltxtra-2023.209.0.0.7svn56594-53.1.noarch.rpm"
+RPM_HASH = "4084bf7222d403d5a6a30015027e1ace4b14be1986345c9cd04cc296655683c86f913f0edc53716c43c84c50aae0ddb81c9d7479efb83b1de5b139da71cb6656"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xltxtra.sty \

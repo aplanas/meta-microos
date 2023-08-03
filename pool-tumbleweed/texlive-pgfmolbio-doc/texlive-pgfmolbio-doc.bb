@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pgfmolbio"
 DESCRIPTION = "This package includes the documentation for texlive-pgfmolbio"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.21svn35152"
+PV = "2023.209.0.0.21svn35152"
 
-RPM_NAME = "texlive-pgfmolbio-doc-2023.201.0.0.21svn35152-51.1.noarch.rpm"
-RPM_HASH = "39efe1dc5f7e11e8701afc87ef22afbe64c7195c92387185bc05975d111d44ff9a68aa8b2dc914eeac558b1b5f6d2c4a2b5a9eaef78afb1da569c86157552a2d"
+RPM_NAME = "texlive-pgfmolbio-doc-2023.209.0.0.21svn35152-52.1.noarch.rpm"
+RPM_HASH = "8552a70712dac653fe7d0916b1f6132098d5f262d40e0271fee625e7237c5c17bc56af7b6b3d7c5f4ff9a241e1079169128d707f360e44efa36aa0321959b7f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pgfmolbio-doc"

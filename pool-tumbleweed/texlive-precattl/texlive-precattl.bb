@@ -3,10 +3,10 @@ DESCRIPTION = "Allow users to write code that contains tokens with unusual \
 catcodes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.0.0svn63967"
+PV = "2023.209.0.0.0.0svn63967"
 
-RPM_NAME = "texlive-precattl-2023.201.0.0.0.0svn63967-52.1.noarch.rpm"
-RPM_HASH = "bc3c180793b0b284c8c9180e4644712cf310ff19a229d1d92252c8d308a30a6df9ee9b717e35dc8b950417bd800519f6cffd34ff99ea81764870c73f5c013e36"
+RPM_NAME = "texlive-precattl-2023.209.0.0.0.0svn63967-53.1.noarch.rpm"
+RPM_HASH = "9af34fbe1f7ffe57581fa95497542ad6b524f0ab08a763e9a8562939aa0152bcd73620b079c101c20f3bcb3b02e6fee512035d2e94e3dcd3a9e9a6d33d205937"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-precattl.sty \

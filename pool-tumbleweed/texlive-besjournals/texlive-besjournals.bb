@@ -5,10 +5,10 @@ produced independently of the Society, and has no formal \
 approval by the BES."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn45662"
+PV = "2023.209.svn45662"
 
-RPM_NAME = "texlive-besjournals-2023.201.svn45662-53.1.noarch.rpm"
-RPM_HASH = "e855eb85f1bbc404319aba281d50f05cf1402156f605024a215f9bd6b2d94f79314466c9367c7dbe35ba13b363ceb96ae98184f4a7a464fd7a53e86fd8e499a4"
+RPM_NAME = "texlive-besjournals-2023.209.svn45662-54.1.noarch.rpm"
+RPM_HASH = "652bde43457de04fe09f11e288959a8b4462d35cf6050fe9878fd8880f5bb17e512903ba02f2b15ce51b2872679bac76c733893043e8efeddb137c5ab1e4dcb5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-besjournals"

@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides syntax highlighting for the Q# language, a \
 domain-specific language for quantum programming."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3.1901.1401svn49722"
+PV = "2023.209.0.0.3.1901.1401svn49722"
 
-RPM_NAME = "texlive-qsharp-2023.201.0.0.3.1901.1401svn49722-53.2.noarch.rpm"
-RPM_HASH = "04dc85ee772cce4fa9619b15c9c1d94eec5abc925ddea7db58f63b149d872bc637c39aaef810a5a8c25ac02bff2e2f7476b6d6cbf3c5b66708dae64ac77e92fa"
+RPM_NAME = "texlive-qsharp-2023.209.0.0.3.1901.1401svn49722-54.1.noarch.rpm"
+RPM_HASH = "62d2812ad3ebf96c87fc5f5d4a5b19d8a985bf615dac3835a665db0a560a748dec2c4e628f50da19454fe608a93591800aa2ea130539ee899c08636fe328e348"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-qsharp.sty \

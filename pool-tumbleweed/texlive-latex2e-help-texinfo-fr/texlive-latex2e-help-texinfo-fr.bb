@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a complete French translation of \
 latex2e-help-texinfo."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn64228"
+PV = "2023.209.svn64228"
 
-RPM_NAME = "texlive-latex2e-help-texinfo-fr-2023.201.svn64228-54.1.noarch.rpm"
-RPM_HASH = "93d8afc455199faf827dbe6b2c6936398a31b370af76f45decd36d3f6fdd29ab510746d027c41e01ea1ef534ebeef378a237c9ef3faab3712dea87ff5f5bb21f"
+RPM_NAME = "texlive-latex2e-help-texinfo-fr-2023.209.svn64228-55.1.noarch.rpm"
+RPM_HASH = "f8876da9c10a3aa426878963ae856564028985b142123082fee2da6def9c756235a59c3f946c81c8cfa3f027ad7593d29d6f484f597a65963af118bf51b4b8cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex2e-help-texinfo-fr"

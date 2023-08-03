@@ -6,10 +6,10 @@ Formerly part of the Japanese pLaTeX bundle, it now supports \
 all LaTeX engines."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.2.1svn53411"
+PV = "2023.209.2.1svn53411"
 
-RPM_NAME = "texlive-ascmac-2023.201.2.1svn53411-53.1.noarch.rpm"
-RPM_HASH = "b5a793c8a9c21ee02f09916e293b1798b8c9dcfc0ed193adb604d138271510e2a1dfd7694fd30d384e187bb243996262e9cc0c2f22f4b133a6bce2e2a2b47730"
+RPM_NAME = "texlive-ascmac-2023.209.2.1svn53411-54.1.noarch.rpm"
+RPM_HASH = "158f94b6781fee717ac4e87bb202bfdfa066c7b9826860903c8c95a7437449c09d5cf62c1d412a47846024d7f9da23ed3c5ae5b0e7053cf75f123b3dc122fb42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ascgrp.tfm \

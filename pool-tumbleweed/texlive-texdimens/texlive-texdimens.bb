@@ -4,10 +4,10 @@ usable both with Plain (\\input texdimens) and with LaTeX \
 (\\usepackage{texdimens})."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn61070"
+PV = "2023.209.1.1svn61070"
 
-RPM_NAME = "texlive-texdimens-2023.201.1.1svn61070-54.1.noarch.rpm"
-RPM_HASH = "6895b7e03b6ad38308cd48ec074b406e216d3ac5813604ae2f918e0808da028f81468b8150a4d3ecb67bf92e47330b780cf297530084b2880e3301c4f247e9c8"
+RPM_NAME = "texlive-texdimens-2023.209.1.1svn61070-55.1.noarch.rpm"
+RPM_HASH = "89fa46286a5c4e69fcb39ef364f744149291190c7d4823d3e29ec159fe192b9c79dbb2419adf4b8949d3dbd2061584d1e10bf29608ab171ab2db66aa8c1172cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-texdimens.sty \

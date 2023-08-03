@@ -4,10 +4,10 @@ teachers (and students) easy access to programming of drawings \
 with TikZ."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.2csvn66115"
+PV = "2023.209.4.2csvn66115"
 
-RPM_NAME = "texlive-tkz-base-2023.201.4.2csvn66115-52.1.noarch.rpm"
-RPM_HASH = "e2d435785b8801ae42e7d2140146a6c7edcad89798d185944f6abf95919bff124904ad659ed27a580dd9caa06b839f48365ca10d756c5082fbf1b76864ea25f3"
+RPM_NAME = "texlive-tkz-base-2023.209.4.2csvn66115-53.1.noarch.rpm"
+RPM_HASH = "da9a00be941edd4a21770a76f36f1f1255673efd3d5bbb6c41bab79ebea23d3e123d799ea98f0bb4d560d66da2713c55ff4ab9f5dece4698d2fc11462322bc18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tkz-base.cfg \

@@ -7,10 +7,10 @@ alphabets. The necessary user macros are defined for typsetting \
 common math symbols that require special ISO treatment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2.00svn60368"
+PV = "2023.209.1.2.00svn60368"
 
-RPM_NAME = "texlive-pm-isomath-2023.201.1.2.00svn60368-52.1.noarch.rpm"
-RPM_HASH = "7c72cc08e27c236b005efc191a072e1d22da9ba9319202416a827477957e6b8191e636f25d0d82e2306e7564c220a64a943145aaa317d7eccc0c0d46cbc889b2"
+RPM_NAME = "texlive-pm-isomath-2023.209.1.2.00svn60368-53.1.noarch.rpm"
+RPM_HASH = "cb3d096abe1dd458f808127ce779a35e79ec18b0a902d770a5614ea9586376703ceaeb45a02beb3eebb81158ca5029cf7163829783a6749697faebee99ea48ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pm-isomath.sty \

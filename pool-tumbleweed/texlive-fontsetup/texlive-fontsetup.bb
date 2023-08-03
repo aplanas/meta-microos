@@ -4,10 +4,10 @@ not wish to bother with details, with a special focus on \
 quality fonts supporting Mathematics."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.4svn65439"
+PV = "2023.209.1.4svn65439"
 
-RPM_NAME = "texlive-fontsetup-2023.201.1.4svn65439-52.1.noarch.rpm"
-RPM_HASH = "b3fd704ad81c566ae2b26cc8f6099ec5ba75ca57b3c64bb729596e5c1255c1de1446fc039d71ec9eb7b41fea898b6684b2e73b35f43e65c11a34c3914d7cb444"
+RPM_NAME = "texlive-fontsetup-2023.209.1.4svn65439-53.1.noarch.rpm"
+RPM_HASH = "ba1631726b6f360eaedfbf9899e6961e3b5d919d9cec840bea593fb7114866ab1bfecc5103ebe32770396e12cb76ff7046ecc55b47eb3bc8bec0a7a8c8dd1857"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fontsetup.sty \

@@ -11,10 +11,10 @@ This is a dummy package that pulls in both the client and server \
 components."
 LICENSE = "BSD-2-Clause & MIT"
 
-PV = "9.3p1"
+PV = "9.3p2"
 
-RPM_NAME = "openssh-9.3p1-1.2.aarch64.rpm"
-RPM_HASH = "29ffd97ef58f173d20cc0cb4c493a909d03ad72df7c360083b7bf6db0c6af67a6bf5b6acbf159efb614bfd98b3f493545f9fb7632093c9b1cfd86a530b291469"
+RPM_NAME = "openssh-9.3p2-1.1.aarch64.rpm"
+RPM_HASH = "5e3a145546f28a1f19de8e146e860c844cf37868063759343d91a08206970785f8bc3eedaef836262b042f0d727f9448b0a231be62d52cb28c4aa3e77ddcb7c6"
 
 RPROVIDES:${PN} += "openssh"
 

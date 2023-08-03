@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-fonts-tlwg"
 DESCRIPTION = "The  separated fonts package for texlive-fonts-tlwg"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.7.3svn60817"
+PV = "2023.209.0.0.7.3svn60817"
 
-RPM_NAME = "texlive-fonts-tlwg-fonts-2023.201.0.0.7.3svn60817-52.1.noarch.rpm"
-RPM_HASH = "c0e5ff1aaa172e23190f809f07d8379a1be1e86090ac0733f362ce88ebeab39950ce4d2d28e33a8066da2bfddebc3c7c8770a99e7cede859bcabca7c1387dbab"
+RPM_NAME = "texlive-fonts-tlwg-fonts-2023.209.0.0.7.3svn60817-53.1.noarch.rpm"
+RPM_HASH = "bc0ed36c3abb6d2af05e8cf91d71da2f8c576ed5ac992b6f963e864d35ba8e3d2851984d902295f1021226c94e36dac2c28f1b96040d6ac75f616826e0ad475f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-fonts-tlwg-fonts \

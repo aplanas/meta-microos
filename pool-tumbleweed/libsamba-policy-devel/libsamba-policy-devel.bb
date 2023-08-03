@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains libraries and header files for developin
 applications that want to make use of libsamba-policy."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.3+git.303.c08b73d523c"
+PV = "4.18.5+git.313.c8e274c7852"
 
-RPM_NAME = "libsamba-policy-devel-4.18.3+git.303.c08b73d523c-1.2.aarch64.rpm"
-RPM_HASH = "4b631e188c55f84f43fd8f13ebebf254fe70d29225ee11164dc3521b656d3ac7d9d252b452ca88686db97e65d5bdb25c1bb7fdb3411e763f4c8c905cc592db25"
+RPM_NAME = "libsamba-policy-devel-4.18.5+git.313.c8e274c7852-1.1.aarch64.rpm"
+RPM_HASH = "46ae19a5ee4cce7516d058eb5a26aea6f89204dcac29e129f080e5c61be85f13ec8ec8720557854ba95785bef2a249cb7e3a0b8b57f9fe337e8dffd293857828"
 
 RPROVIDES:${PN} += "libsamba-policy-devel"
 

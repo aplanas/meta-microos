@@ -2,10 +2,10 @@ SUMMARY = "Examples and more from Guide to LaTeX, by Kopka and Daly"
 DESCRIPTION = "The guide-to-latex package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn45712"
+PV = "2023.209.svn45712"
 
-RPM_NAME = "texlive-guide-to-latex-2023.201.svn45712-53.2.noarch.rpm"
-RPM_HASH = "6e9944f1d6cc9e37633b75f93cede0c23ac285846d2d8e8e4646314f2e218b27a08bf8d13168f3d4ca7d8ad40937a92409f1f7e4290b23cacd7fa7b953b5c4f7"
+RPM_NAME = "texlive-guide-to-latex-2023.209.svn45712-54.1.noarch.rpm"
+RPM_HASH = "9d403eafac662339dce247efe7070c81f4f3626ec0875d396933914de411be7eed195e6d00eb93c7893cba9a058ceb01ec8ce0783101dc2cdd459e8ebb617076"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-guide-to-latex"

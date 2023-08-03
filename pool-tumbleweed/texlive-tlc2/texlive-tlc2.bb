@@ -4,10 +4,10 @@ necessary supporting files. The book was published by \
 Addison-Wesley, 2004, ISBN 0-201-36299-6."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn26096"
+PV = "2023.209.svn26096"
 
-RPM_NAME = "texlive-tlc2-2023.201.svn26096-52.1.noarch.rpm"
-RPM_HASH = "db8184a1497cf877e164c6f36abfcf6be1f60f26a325f5c6da5fc3b40f772367e294ac7d160a23ddf8110129e6609e2324cc927815b119337cfde05f87fa7721"
+RPM_NAME = "texlive-tlc2-2023.209.svn26096-53.1.noarch.rpm"
+RPM_HASH = "401ff78fd115cfc36a75198b122fa151f9374a459d2e4e347ddf273a84149e824cede5f279c7a406894ff27a5a9be32797e695a12f39a4b647899fb53e016734"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tlc2"

@@ -12,10 +12,10 @@ them in the PDF as file attachment annotations (by using Scott \
 Pakin's package attachfile)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5svn52208"
+PV = "2023.209.1.5svn52208"
 
-RPM_NAME = "texlive-filecontentsdef-2023.201.1.5svn52208-52.1.noarch.rpm"
-RPM_HASH = "a856f1f27583f50b097311224208d69204291e7d9cc1ec5c8b2aacded5a27147451352172157a6b31e4dd2be35bb9503902d6ddb3ad634ba741e2381b60351d5"
+RPM_NAME = "texlive-filecontentsdef-2023.209.1.5svn52208-53.1.noarch.rpm"
+RPM_HASH = "677b5cb72ef1d97d4fb3445af439e975a91fd0770d5e2b22d1cf4405db9262375d45ed28f9d82e8b8051df12d6ad7069d5c7b1691bcc97c7192c95453aa0d95b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-filecontentsdef.sty \

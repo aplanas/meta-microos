@@ -11,10 +11,10 @@ diagrams of the current position automatically. For chess \
 fonts, the package uses the chessfss system."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2svn15878"
+PV = "2023.209.2svn15878"
 
-RPM_NAME = "texlive-texmate-2023.201.2svn15878-54.1.noarch.rpm"
-RPM_HASH = "e4566d2abdb7d4d08035b8063aa4cbb46e3decbe5596a9685705fb7e3a63fa05898c78afa37cf973049ce906718d36f17d708b506d81587b07afb5be763591e5"
+RPM_NAME = "texlive-texmate-2023.209.2svn15878-55.1.noarch.rpm"
+RPM_HASH = "9ec1cce6697b8c7f53ae0d113da022de86bd92873bcbaf5bdfa5596d5a33585b7bc091883b688f087e4413d6e73d2f1643320037c063c380caaf8302040494e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-texmate.sty \

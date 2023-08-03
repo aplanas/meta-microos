@@ -7,10 +7,10 @@ to package options, so need to redefine macros for these \
 changes."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn54252"
+PV = "2023.209.svn54252"
 
-RPM_NAME = "texlive-nth-2023.201.svn54252-54.1.noarch.rpm"
-RPM_HASH = "08e34c466a467dd192fa474e713e339efd5a1366f2af163d41a344270295aa487bb145aef5531beba27b18e017e6ea450775f04dc946f9d854bfeca9dc242c53"
+RPM_NAME = "texlive-nth-2023.209.svn54252-55.1.noarch.rpm"
+RPM_HASH = "0035eb610b849a1f9da9a3a0f74a537b95f317c0469db6f42d40958914c1453d4f30b88a9b89ee722fbfa107dd2bce45e7878d208fbc7476da6968cd1d2c3ab2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nth.sty \

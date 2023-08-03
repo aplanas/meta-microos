@@ -4,10 +4,10 @@ various industrial serial buses and protocols, such as CAN, ModBus, \
 and others."
 LICENSE = "LGPL-3.0-only | GPL-2.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6SerialBus6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "4d2edb23f5e59a98cc6b70714502313c18830218b5e3746b01ca415a16f10691a04a0df889397d1adbd35a273e46a9af89224ad1ce0b87d676225dfcd3524fe4"
+RPM_NAME = "libQt6SerialBus6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "2efe15f2e3a67f90f805ebe62bfc560fde94144e0063d22ad49aa5b7b3a721c5ebdfc9f9c81a0787c7d6f1a6028cd728aebfc6e9044eae53d442c43956e05355"
 
 RPROVIDES:${PN} += "libQt6SerialBus.so.6 \
 libQt6SerialBus6"

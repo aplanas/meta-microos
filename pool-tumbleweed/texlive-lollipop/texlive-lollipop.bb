@@ -13,10 +13,10 @@ Lollipop documents written in RTL languages (such as Persian) \
 is underway."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.07svn45678"
+PV = "2023.209.1.07svn45678"
 
-RPM_NAME = "texlive-lollipop-2023.201.1.07svn45678-54.1.noarch.rpm"
-RPM_HASH = "ff84f62198c418ddb406b4a8dd997ae0127d3ad7494d2157a9c2ec001bbb629c235bc1debab6f939596c68deaa243073a9b76667bdbcc4d5ab5d43bb94925550"
+RPM_NAME = "texlive-lollipop-2023.209.1.07svn45678-55.1.noarch.rpm"
+RPM_HASH = "662991701d2684f054dca875908dca50ce3c21dd1b7595f4f0fed0615ac7478f53d23ceb3e8c9faefe8d5ee97688b8fda15e31b99948101a91026bc862966522"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lollipop-define.tex \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 AMDGPU graphics driver."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230707"
+PV = "20230724"
 
-RPM_NAME = "kernel-firmware-amdgpu-20230707-1.1.noarch.rpm"
-RPM_HASH = "1e696cbb9c6db34c6485e42a9660cb63f2f8b28e9e2882bfe07e447a7fa5b864ad27612a11954fbd9252ff3039639af284df2bb569e311e340720752d143db18"
+RPM_NAME = "kernel-firmware-amdgpu-20230724-1.1.noarch.rpm"
+RPM_HASH = "8e9a049c1209946a4edfd5fa8cf9c94aa136523c25fa7834583f10148d9f0bf06df648ba7b2ea18d521f1651c76fec139b4c5166803bbdad3759567e943e26c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-amdgpu/aldebaran-mec.bin \
@@ -137,6 +137,13 @@ firmware-amdgpu/gc-11-0-2-mes.bin \
 firmware-amdgpu/gc-11-0-2-mes1.bin \
 firmware-amdgpu/gc-11-0-2-pfp.bin \
 firmware-amdgpu/gc-11-0-2-rlc.bin \
+firmware-amdgpu/gc-11-0-3-imu.bin \
+firmware-amdgpu/gc-11-0-3-me.bin \
+firmware-amdgpu/gc-11-0-3-mec.bin \
+firmware-amdgpu/gc-11-0-3-mes-2.bin \
+firmware-amdgpu/gc-11-0-3-mes1.bin \
+firmware-amdgpu/gc-11-0-3-pfp.bin \
+firmware-amdgpu/gc-11-0-3-rlc.bin \
 firmware-amdgpu/gc-11-0-4-imu.bin \
 firmware-amdgpu/gc-11-0-4-me.bin \
 firmware-amdgpu/gc-11-0-4-mec.bin \
@@ -355,6 +362,8 @@ firmware-amdgpu/polaris12-uvd.bin \
 firmware-amdgpu/polaris12-vce.bin \
 firmware-amdgpu/psp-13-0-0-sos.bin \
 firmware-amdgpu/psp-13-0-0-ta.bin \
+firmware-amdgpu/psp-13-0-10-sos.bin \
+firmware-amdgpu/psp-13-0-10-ta.bin \
 firmware-amdgpu/psp-13-0-11-ta.bin \
 firmware-amdgpu/psp-13-0-11-toc.bin \
 firmware-amdgpu/psp-13-0-4-ta.bin \
@@ -408,6 +417,7 @@ firmware-amdgpu/sdma-5-2-7.bin \
 firmware-amdgpu/sdma-6-0-0.bin \
 firmware-amdgpu/sdma-6-0-1.bin \
 firmware-amdgpu/sdma-6-0-2.bin \
+firmware-amdgpu/sdma-6-0-3.bin \
 firmware-amdgpu/si58-mc.bin \
 firmware-amdgpu/sienna-cichlid-ce.bin \
 firmware-amdgpu/sienna-cichlid-dmcub.bin \
@@ -422,6 +432,7 @@ firmware-amdgpu/sienna-cichlid-sos.bin \
 firmware-amdgpu/sienna-cichlid-ta.bin \
 firmware-amdgpu/sienna-cichlid-vcn.bin \
 firmware-amdgpu/smu-13-0-0.bin \
+firmware-amdgpu/smu-13-0-10.bin \
 firmware-amdgpu/smu-13-0-7.bin \
 firmware-amdgpu/stoney-ce.bin \
 firmware-amdgpu/stoney-me.bin \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-spie"
 DESCRIPTION = "This package includes the documentation for texlive-spie"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.25svn15878"
+PV = "2023.209.3.25svn15878"
 
-RPM_NAME = "texlive-spie-doc-2023.201.3.25svn15878-57.1.noarch.rpm"
-RPM_HASH = "c97086a68f5b437b19439404f79e4b633928754fb11812fd806e76630c926a51689e2f2a6b34978595a166ad162e07ed13072cef8c6c51b75388836984ff75f0"
+RPM_NAME = "texlive-spie-doc-2023.209.3.25svn15878-58.1.noarch.rpm"
+RPM_HASH = "4e963bddb279fa7655c71ba5ef18b00e34176b3d4823d13f366643e6526080923c90e8f4f269501aab10c20a1eaac0cbda55797d721019d887234274f33237ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-spie-doc"

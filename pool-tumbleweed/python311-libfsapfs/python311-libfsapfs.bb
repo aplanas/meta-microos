@@ -23,8 +23,8 @@ LICENSE = "LGPL-3.0-only"
 
 PV = "20230617"
 
-RPM_NAME = "python311-libfsapfs-20230617-1.4.aarch64.rpm"
-RPM_HASH = "27b770cce9eb743affcd37ba35d9d5458656561d35d3856f38cec86ab7ada7a2e9cc2e04a5881b1005ec63d803de29053f70c8768ec51f9bb577a6de071ee91f"
+RPM_NAME = "python311-libfsapfs-20230617-2.1.aarch64.rpm"
+RPM_HASH = "2c78102151abd842f292a1c6eae57c2c70671e2dacb4cb472601ab8dab2dad939b9965203f5976246d59034a6f7f8328035e62feb869f248f27fc3a077b604d4"
 
 RPROVIDES:${PN} += "python3-libfsapfs \
 python311-libfsapfs"

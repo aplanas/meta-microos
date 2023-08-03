@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-plantslabels"
 DESCRIPTION = "This package includes the documentation for texlive-plantslabels"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn29803"
+PV = "2023.209.1.0svn29803"
 
-RPM_NAME = "texlive-plantslabels-doc-2023.201.1.0svn29803-51.1.noarch.rpm"
-RPM_HASH = "331a36547f511556ff1671ee01825aa68566592addad9771fd23f5782a2fad460e8be804437b5c2b2b9c8cca9d46eda154c3435456d09af5ee52322d486909e5"
+RPM_NAME = "texlive-plantslabels-doc-2023.209.1.0svn29803-52.1.noarch.rpm"
+RPM_HASH = "3424f86a3b1857820e6cabf53339deee32d30fc6a35811e9b34c55ee770262306a8d3e20bcb913568ec8a2c0bcdfdfae8c404520bc614204d92472abb630c945"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-plantslabels-doc"

@@ -6,10 +6,10 @@ meet all current requirements and is updated whenever the \
 university guidelines change."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.2.1svn59809"
+PV = "2023.209.1.2.1svn59809"
 
-RPM_NAME = "texlive-bjfuthesis-2023.201.1.2.1svn59809-52.1.noarch.rpm"
-RPM_HASH = "36bca1ed287cef8d55086719f458d350dc9f324a8a17c5eda765c6d5c92af1352abed7e9cfa20f8d335473ef14293a8a2c4742f2ce086754eec7381c99012f00"
+RPM_NAME = "texlive-bjfuthesis-2023.209.1.2.1svn59809-53.1.noarch.rpm"
+RPM_HASH = "a8d2822ab5071d40f918af060565c7ee2690c7f890d9940555fe7681beee4bf1a99efaf2e0f870329acfa344cced382af2385b1c0c174903347a6eeb7f248e89"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bjfuthesis.cls \

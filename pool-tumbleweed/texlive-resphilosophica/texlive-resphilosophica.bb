@@ -4,10 +4,10 @@ journal Res Philosophica. This work was commissioned by the \
 Saint Louis University."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.35svn50935"
+PV = "2023.209.1.35svn50935"
 
-RPM_NAME = "texlive-resphilosophica-2023.201.1.35svn50935-53.2.noarch.rpm"
-RPM_HASH = "27a7cb4914fe15cc67c204885778d7e5dfb742c8e18458b77593eb4c1e01a85dc14d38552c935bea5dfc6e5893ac700d86b3d6da7d2e0ac71cd14769a3b514c1"
+RPM_NAME = "texlive-resphilosophica-2023.209.1.35svn50935-54.1.noarch.rpm"
+RPM_HASH = "0fc598b16a70b8d79b2cc77febb5075f7ce73db4c9be039ac7473bdcba531960f19b458d207810dd3c4dda4b2dc1bc30d19c71c05cf70eb281dcbc781fc0b1af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-resphilosophica.cls \

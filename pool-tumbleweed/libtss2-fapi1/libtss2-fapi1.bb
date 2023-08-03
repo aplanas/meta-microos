@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.0.1"
 
-RPM_NAME = "libtss2-fapi1-4.0.1-1.4.aarch64.rpm"
-RPM_HASH = "d5a2a897e1b304dd4305ee892766b4339d374b753b401b38eea9a5d2a8ceba89da9bebd46771d62244ae954fb365b63ffe4654b6df5ab73e26fa3c5e385094e5"
+RPM_NAME = "libtss2-fapi1-4.0.1-2.1.aarch64.rpm"
+RPM_HASH = "d89b1c8340db4dfaace2743dc3811ce004dd1535ee67d48d22d94c4e454669061e18669a4cf98c53ca1bc848530985d31d3ceb2ae2371a02a844382e7d0a5d15"
 
 RPROVIDES:${PN} += "libtss2-fapi.so.1 \
 libtss2-fapi1"

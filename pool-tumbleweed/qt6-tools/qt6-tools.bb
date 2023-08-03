@@ -5,10 +5,10 @@ development. \
 Included are Qt Designer (GUI design), QDbusViewer and more."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-tools-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "241f6a7997b74a3588c8b88699b8740a12fef2a56db5639d7de26f965f1e22d0a786eb46e8a04729e440e59a510df142773e8dae65db93f9b60704229350058d"
+RPM_NAME = "qt6-tools-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "c01b7eac329928a28b1f1fc99c7eeb706faaecc2bf5ad1575f6dfe2d4edc47061412d33bad59bd48062f8f226435065bb8536b703d63be6d5664bfcb2cbcfa95"
 
 RPROVIDES:${PN} += "qt6-tools"
 

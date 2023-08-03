@@ -42,10 +42,10 @@ other Test::Builder based testing modules. As the SYNOPSIS shows, another \
 testing module must be used as the basis for your test suite."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.69"
+PV = "0.700.0"
 
-RPM_NAME = "perl-Test-Differences-0.69-1.8.noarch.rpm"
-RPM_HASH = "a3f51ddfff6010993e54b04edbe39e54ee1c190ef54284419ee00e1f09039297393e165501edea1d4f822af19ceacce67f4f6e1495f04ccbdc32f63f02ab81d6"
+RPM_NAME = "perl-Test-Differences-0.700.0-1.1.noarch.rpm"
+RPM_HASH = "65cac8a9b0d909adc61db29eb125b9e9ad9d580b60451d302b7fb2dcbe503eb069b5e0c0591db4379e9f466eeb3db0dbc80c4ee7893f8c7becabf656aaa43305"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Differences \

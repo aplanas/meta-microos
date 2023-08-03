@@ -6,10 +6,10 @@ BibLaTeX with the appropriate option. A demonstration database \
 is provided to show how to format input for the style."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1ksvn64967"
+PV = "2023.209.1.1ksvn64967"
 
-RPM_NAME = "texlive-biblatex-gb7714-2015-2023.201.1.1ksvn64967-53.1.noarch.rpm"
-RPM_HASH = "d3d67248f9c5c0f7c70e782c89ac075d4c162ecc26e2c582cb6a47f3e956a3364024493feee6f3f9ecbe7b83fd404323a3bf276137656d2afe4a67cac957df57"
+RPM_NAME = "texlive-biblatex-gb7714-2015-2023.209.1.1ksvn64967-54.1.noarch.rpm"
+RPM_HASH = "4d72f2bad6a25bd95eb1906b1b52abecbab525800e0dbfa8193efab0db8a875d920087e2cd5faeb9f2dbe6f03b26ccf57bf06084b4d8f404e5ec5fa560bd0a94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chinese-erj.bbx \

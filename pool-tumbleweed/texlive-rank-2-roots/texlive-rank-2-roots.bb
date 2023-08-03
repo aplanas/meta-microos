@@ -6,10 +6,10 @@ lattices, and parabolic subgroups. Required packages are tikz, \
 etoolbox, expl3, pgfkeys, pgfopts, xparse, and xstring."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn61719"
+PV = "2023.209.1.0svn61719"
 
-RPM_NAME = "texlive-rank-2-roots-2023.201.1.0svn61719-53.2.noarch.rpm"
-RPM_HASH = "9e2c2019710524c2c7c18f9d4c65d1dccf96de7a48ca152ca507db098743cf94ca6c46c693ccade62329b90d9f148e0bfb9b7a780b5c7c44a64321790f790905"
+RPM_NAME = "texlive-rank-2-roots-2023.209.1.0svn61719-54.1.noarch.rpm"
+RPM_HASH = "7144fe2bdac546e23740d3360e3a28ce71d1ede77cac24f541617470fe45791a988241f008c8acdda72e3c444b4e49a9723777702e72cfe41cdb77e00e1d14d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rank-2-roots.sty \

@@ -5,10 +5,10 @@ command optionally puts a (possibly partial) frame around the \
 box, and allows setting the box background colour."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn33236"
+PV = "2023.209.1.0svn33236"
 
-RPM_NAME = "texlive-efbox-2023.201.1.0svn33236-53.2.noarch.rpm"
-RPM_HASH = "c0fbd15dcbc15b4eea34720ece5516722dd2ed9c20cdc14b79da099fa27ea24926a45a27e2202a810129f4c9143da283b68f15f830b76d86e01fe7d713c04f34"
+RPM_NAME = "texlive-efbox-2023.209.1.0svn33236-54.1.noarch.rpm"
+RPM_HASH = "37908cd00e4e39dff7514cdb63405a00a71a56831eedbabeb913c7d00551401ab4b88b94af3dff0b93677e2d3ec35e22c2e6d53a2cd7e23cd487f4d64d4df8e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-efbox.sty \

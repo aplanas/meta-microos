@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.42.3"
 
-RPM_NAME = "rygel-plugin-gstreamer-renderer-0.42.3-1.2.aarch64.rpm"
-RPM_HASH = "6798d942227442675fdd743cd732a3f3d7193e3214552b4729384fb063e56a88bda540e60abee3b68ac71607d9d0ecf89713948986f3c829541941b3d5bfb466"
+RPM_NAME = "rygel-plugin-gstreamer-renderer-0.42.3-2.1.aarch64.rpm"
+RPM_HASH = "f6ec38d0544d7f783e4d13c37a78a797fe6315a41a4da44f5e18b1153b60f4ddfb7c8c323b140160c0700595a1ef6362224ca1a2631b55378ef9f75e7afd95e2"
 
 RPROVIDES:${PN} += "librygel-playbin.so \
 rygel-plugin-gstreamer-renderer"

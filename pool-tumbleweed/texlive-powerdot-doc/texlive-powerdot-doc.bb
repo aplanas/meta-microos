@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-powerdot"
 DESCRIPTION = "This package includes the documentation for texlive-powerdot"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.7svn59272"
+PV = "2023.209.1.7svn59272"
 
-RPM_NAME = "texlive-powerdot-doc-2023.201.1.7svn59272-52.1.noarch.rpm"
-RPM_HASH = "1d3baa784edc54d8a306510fbe9c06e323e4bc1cf3649fada811041e1516d80616dece38fd9e20efe50b10c1fa1549e078fece1a8424e6e7cc1065da0cc66a92"
+RPM_NAME = "texlive-powerdot-doc-2023.209.1.7svn59272-53.1.noarch.rpm"
+RPM_HASH = "d70ca3a88e36ca3a48682aba959407c08fac5116e300f60f51180a72e15b51445ca952af4a709665ce768878b641d1d1452d042d872232e74c03495c13f3c0f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-powerdot-doc-en;de \

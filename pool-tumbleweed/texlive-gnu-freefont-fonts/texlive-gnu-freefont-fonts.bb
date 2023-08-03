@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-gnu-freefont"
 DESCRIPTION = "The  separated fonts package for texlive-gnu-freefont"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn29349"
+PV = "2023.209.svn29349"
 
-RPM_NAME = "texlive-gnu-freefont-fonts-2023.201.svn29349-53.2.noarch.rpm"
-RPM_HASH = "21bd277d9ec429a9252f39c936c168ff801466f6f96e9b4f69df2b6e9a859715aa5ee1605c8031002171ae0603d29d791575831df7c389a038bf46312eeefa13"
+RPM_NAME = "texlive-gnu-freefont-fonts-2023.209.svn29349-54.1.noarch.rpm"
+RPM_HASH = "019afcf3663548bcfabb5011e2d92eac5f158a53e53aeafde342c774f94c23e9187258ee570e914ec81a1d536a231a5de3c7a4bc178d6a0830a68209ff7caec1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

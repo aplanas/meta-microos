@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-gfsbodoni"
 DESCRIPTION = "The  separated fonts package for texlive-gfsbodoni"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.01svn28484"
+PV = "2023.209.1.01svn28484"
 
-RPM_NAME = "texlive-gfsbodoni-fonts-2023.201.1.01svn28484-52.1.noarch.rpm"
-RPM_HASH = "2ff3da518528791cb6ecad521ebdef9970afaa2c2bba9e10a39507830be7c70fddeda85243c869e589dbd3f2e8db38ca5b9def1863ad5299dd37b844f34464b6"
+RPM_NAME = "texlive-gfsbodoni-fonts-2023.209.1.01svn28484-53.1.noarch.rpm"
+RPM_HASH = "d6321e92cb84102e96263cf701459ad8bdba11f6ede8314493d985e2e031667c00559c4edfa9f00925a2ec9317c5090fd288322ab32c75379fd8475b03c99421"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-gfsbodoni-fonts \

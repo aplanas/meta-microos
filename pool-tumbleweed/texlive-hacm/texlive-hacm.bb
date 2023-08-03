@@ -4,10 +4,10 @@ constructed language Arka. The bundle provides nine official \
 fonts, in Adobe Type 1 format."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn27671"
+PV = "2023.209.0.0.1svn27671"
 
-RPM_NAME = "texlive-hacm-2023.201.0.0.1svn27671-53.2.noarch.rpm"
-RPM_HASH = "aa3a275f1d1b4232627ca5bc1bfd6bacc68a09959db49d06444a08819315429bee90952932dd8e55a0ef16465aebef302466e268d9fca8678a4b4b0dfb862072"
+RPM_NAME = "texlive-hacm-2023.209.0.0.1svn27671-54.1.noarch.rpm"
+RPM_HASH = "4d84d443a8a3608f51b983329ccc7f31ccc2d5f523bd2bb24663a8f3dc0423be4816888c9db5b991567343538369769260a6a9be55eea2c3cd2c9f9066bf00f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-alblant.tfm \

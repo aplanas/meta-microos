@@ -10,10 +10,10 @@ user-defined PostScript procedures. Optionally, the computed \
 state vectors can be written as a table to a text file."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.18svn65096"
+PV = "2023.209.0.0.18svn65096"
 
-RPM_NAME = "texlive-pst-ode-2023.201.0.0.18svn65096-52.1.noarch.rpm"
-RPM_HASH = "cab604b543f782ba3565dde2b3a6059f3d2e7cf3a22c15a538e032cb6af445c02ed8dae7bbbce96e93e56d6b73353ae536efaf69475bcd6525c94af27d8a2b86"
+RPM_NAME = "texlive-pst-ode-2023.209.0.0.18svn65096-53.1.noarch.rpm"
+RPM_HASH = "24b093a321b5a37b27d7dbf630d48ebcc2556b226f3501dc26c65b62759512c5d65e4492552c83d12ca4237ab438565939c8d51daff86c425e011b34e4f5acdb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-ode.sty \

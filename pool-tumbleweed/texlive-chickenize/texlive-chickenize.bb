@@ -8,10 +8,10 @@ doing what its name says) could be useful in a 'normal' LuaTeX \
 document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn57325"
+PV = "2023.209.0.0.3svn57325"
 
-RPM_NAME = "texlive-chickenize-2023.201.0.0.3svn57325-53.1.noarch.rpm"
-RPM_HASH = "578180c25cf63a37e7bf747f191fad61dcdf39cacca3f7a4d9e0670706072cae2a2afe73225d777b67b93309e66226b33f9dc8ad89b33a4627d25b47eaa56d37"
+RPM_NAME = "texlive-chickenize-2023.209.0.0.3svn57325-54.1.noarch.rpm"
+RPM_HASH = "f5d5f52e6a00b6c8bda969ecd0e86d736b698924efa69eebef3501c82b041347c9109a1c1fc72c0a07b5b791e0c8c0fc189394e85f42238b4a238f21d8e823fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chickenize.sty \

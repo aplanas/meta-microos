@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-stix"
 DESCRIPTION = "This package includes the documentation for texlive-stix"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.1.3svn54512"
+PV = "2023.209.1.1.3svn54512"
 
-RPM_NAME = "texlive-stix-doc-2023.201.1.1.3svn54512-57.1.noarch.rpm"
-RPM_HASH = "0646126236ad73bee25ce03c7870b0a0c91d3325d3250571e8776d3e4ae3116737acdb0825431411160ebdf067ead2c9dcdc6fbd4feecee4c397003b07c8694f"
+RPM_NAME = "texlive-stix-doc-2023.209.1.1.3svn54512-58.1.noarch.rpm"
+RPM_HASH = "6efb86747b9471247e3d713e0f29609f9eab2074ad918c3010d5c73129259d98b9270b9741eabc28f10315fdaacd4f7dbfb89a0adbca81ddf2de16c831464750"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-stix-doc"

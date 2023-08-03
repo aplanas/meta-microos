@@ -6,10 +6,10 @@ distinct from that which is used in \\maketitle of the article \
 class, 'June 26, 2008', the 'US format'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.04svn15878"
+PV = "2023.209.1.04svn15878"
 
-RPM_NAME = "texlive-eukdate-2023.201.1.04svn15878-52.1.noarch.rpm"
-RPM_HASH = "edd53bf2c91c74a0e99d6c4fd4b8631372726c3f4f1eeab8bc77048bd29abf1ab711ec27734e9aed666d557495a3dfd72b19caceadcf4e0065a4955e97a8b6ff"
+RPM_NAME = "texlive-eukdate-2023.209.1.04svn15878-53.1.noarch.rpm"
+RPM_HASH = "7bd8a1cea6c938718e8fc07b91f88bbb4f836657be0df1c812501208d35083cd5eedcfe507d375b0143e898d0a48928ee389163e3131c569a286ad3393cc819a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eukdate.sty \

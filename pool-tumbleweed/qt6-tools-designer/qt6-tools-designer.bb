@@ -3,10 +3,10 @@ DESCRIPTION = "Qt Designer is a tool for designing and building graphical user i
 with Qt Widgets."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-tools-designer-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "6ed7f37fe54a36d03c055db0e9b0ef11070b34f9d0f35319ebcc22879a199c3a637d7dd8e01a7cface30b41c0cb8ab76dee7ac3357878f2fc8290451a5d854cc"
+RPM_NAME = "qt6-tools-designer-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "a6d6c2d8015dd904b49dee7a24827ec5ef33281d7255df3a07a699caa6ca622205e207b242ed1ece885cdb91ca5d4a893947abf3cd09158c4a4aa164332bcfa9"
 
 RPROVIDES:${PN} += "libcontainerextension.so \
 libcustomwidgetplugin.so \

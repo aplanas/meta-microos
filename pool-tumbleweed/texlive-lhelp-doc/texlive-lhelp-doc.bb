@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lhelp"
 DESCRIPTION = "This package includes the documentation for texlive-lhelp"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.0svn23638"
+PV = "2023.209.2.0svn23638"
 
-RPM_NAME = "texlive-lhelp-doc-2023.201.2.0svn23638-54.1.noarch.rpm"
-RPM_HASH = "568163d80074ec1e5041a05d1e87d0c7fd5554c18edeea99c45b0dcd5057a0d4921b29d34e03e39c911fa0fd5c94ef3001021356210af03021805a2b0d13415e"
+RPM_NAME = "texlive-lhelp-doc-2023.209.2.0svn23638-55.1.noarch.rpm"
+RPM_HASH = "e0d6b1fb6bcb2d40bd9296862177ec3d40e5fc91bf481cab2f7bdc80a1787b2c0a6ada57932585c5d4c948a1f54aee97b3aed8837be7fddda9ec859d4fa9213f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lhelp-doc"

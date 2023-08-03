@@ -6,10 +6,10 @@ package depends on pgfkeys, conditionals (which is distributed \
 as part of the songbook package), enumitem, and microtype."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn61719"
+PV = "2023.209.1.0svn61719"
 
-RPM_NAME = "texlive-epigraph-keys-2023.201.1.0svn61719-53.2.noarch.rpm"
-RPM_HASH = "46d3fedd45c9edc6d6fcc110627196bf08701b1520aeace27d895561dd12c8883747f77b22772f70552612cb052b91a23469d0322c6ae34acd3001b5573a59fd"
+RPM_NAME = "texlive-epigraph-keys-2023.209.1.0svn61719-54.1.noarch.rpm"
+RPM_HASH = "a49cdab38721b64c6a267e24cee0cf66506daad5ac0bb513c1f9b830fc0862abed629d06c2b18509550d86fd140b9bdcc76983f2a19c5606a827f23cfbcc00fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-epigraph-keys.sty \

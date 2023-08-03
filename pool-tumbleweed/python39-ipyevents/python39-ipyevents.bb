@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.1"
 
-RPM_NAME = "python39-ipyevents-2.0.1-5.5.noarch.rpm"
-RPM_HASH = "f21f8d1942dca7021cb14ab6abf101e349f80af23cacd01706c800c6d15b7418054a1b2bd14402508efb3337d3ab080b783556fd75d105ae7ffd487bf5323d52"
+RPM_NAME = "python39-ipyevents-2.0.1-5.6.noarch.rpm"
+RPM_HASH = "2b77c8498afdfbb398113d968a51e5389628973131c30b0a2fea4398c492dcd83e736fccf0a317519fa8effb31cb25bfffabeda30a7a19c796c74ec376fa07ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ipyevents \

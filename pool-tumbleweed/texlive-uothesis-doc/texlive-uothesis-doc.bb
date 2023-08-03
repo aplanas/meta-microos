@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-uothesis"
 DESCRIPTION = "This package includes the documentation for texlive-uothesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.5.6svn25355"
+PV = "2023.209.2.5.6svn25355"
 
-RPM_NAME = "texlive-uothesis-doc-2023.201.2.5.6svn25355-53.1.noarch.rpm"
-RPM_HASH = "853bfd9a7e920ea19990e3265f76ca2ce93b3037d4a42830daf68010b58cde31a46b620d92c631ce15c6f958979cbca0f6604869eb4a0786e8c4f9933f28099b"
+RPM_NAME = "texlive-uothesis-doc-2023.209.2.5.6svn25355-54.1.noarch.rpm"
+RPM_HASH = "0b8406f4fed7da39ea4dca1bea075fc1d69ad7157a0e59029b23ed599b9a5828dfefb163c44b3ee68605b7dd2bea1835cd4b2aca1313eb02a86abeb38ef2d1a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-uothesis-doc"

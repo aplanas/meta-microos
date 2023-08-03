@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-overlock"
 DESCRIPTION = "This package includes the documentation for texlive-overlock"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64495"
+PV = "2023.209.svn64495"
 
-RPM_NAME = "texlive-overlock-doc-2023.201.svn64495-51.1.noarch.rpm"
-RPM_HASH = "91af0aee91335b34ec09ff55a3b481b2e9eb94695e41fe5b67615522a05038231d3d60f909a685f980b39bfa6f17b4408fc9580d75ea1047534d4e4920165c6e"
+RPM_NAME = "texlive-overlock-doc-2023.209.svn64495-52.1.noarch.rpm"
+RPM_HASH = "68bbc2a4455644f8e2003d6350780ad002ef49db1ca98c675ce9cfe9b414831f9da456f0c71331c66d099fec0f4baebeff576b3347f83d5ef7856458ac7c9fe4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-overlock-doc"

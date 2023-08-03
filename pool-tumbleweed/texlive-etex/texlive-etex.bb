@@ -8,10 +8,10 @@ pdftex engine directly incorporates the e-TeX extensions. The \
 development source for e-TeX is the TeX Live source repository."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.201.svn66203"
+PV = "2023.209.svn66203"
 
-RPM_NAME = "texlive-etex-2023.201.svn66203-52.1.noarch.rpm"
-RPM_HASH = "9b5a02c6ee809120b23edee66a633271047f7be254ecfbaa20aa99d112a85691612155cdafdbe03e6303f76c1dba49f69e2c4040998efd977d0cb85bc6c5dfac"
+RPM_NAME = "texlive-etex-2023.209.svn66203-53.1.noarch.rpm"
+RPM_HASH = "6b20cf4a80fe15c2ecfc46fb9afa844e11a157c6f512e15e8492488c3eed560ea79aedf7687023943228277c3daa67102c499225544c1e2a0ebf00bb31936a96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xbmc10.tfm \

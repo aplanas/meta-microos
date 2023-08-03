@@ -4,10 +4,10 @@ This class and BibTeX style provide what seems to be necessary \
 to produce papers in a format acceptable to the publisher."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn21819"
+PV = "2023.209.1.0svn21819"
 
-RPM_NAME = "texlive-nature-2023.201.1.0svn21819-54.1.noarch.rpm"
-RPM_HASH = "a9fc03e772ed248e201395cb2d535517058936fd3e494955d88f36b0999c45564581a439a081c858e0339bb2e2b5986a59a16b90f98eb3c68d6d2ffe9e21ad3f"
+RPM_NAME = "texlive-nature-2023.209.1.0svn21819-55.1.noarch.rpm"
+RPM_HASH = "a77c2669868fca5aacb2793b8bcce3c0eb859d2081d35e9bc5ee71a7384a3e11844b186ef9b3d8b27aae9e123f21616283af22a6342662c6109fec6a634adbec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nature.cls \

@@ -7,10 +7,10 @@ requires the package TikZ and the TikZ libraries calc and \
 calendar."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4fsvn52890"
+PV = "2023.209.0.0.4fsvn52890"
 
-RPM_NAME = "texlive-tikz-kalender-2023.201.0.0.4fsvn52890-52.1.noarch.rpm"
-RPM_HASH = "c4741e0266b99fb180e799d3fc42c5a5038257d4ce3ae9b6ecf979c33d5652ef8e5a523be26feba229fbef09320c10b7698ab9c8582d7eec6a87a80630e928cc"
+RPM_NAME = "texlive-tikz-kalender-2023.209.0.0.4fsvn52890-53.1.noarch.rpm"
+RPM_HASH = "d1c581c1f3ed2f38d3d8d724edd493594f87b445725d5bede9739319462a875ab029a74c07c4cfac8c8f82cc509787b3018031694aef6d6e2adae0d081de166b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikz-kalender-translation.clo \

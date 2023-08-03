@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-unravel"
 DESCRIPTION = "This package includes the documentation for texlive-unravel"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3asvn59175"
+PV = "2023.209.0.0.3asvn59175"
 
-RPM_NAME = "texlive-unravel-doc-2023.201.0.0.3asvn59175-53.1.noarch.rpm"
-RPM_HASH = "2563d98dbf12286b57606c65274471a030e2f28481a8a73781cedb1b320fe8313b40196cc07da7656f18f83599cb1b3572ca0ece2e4dc344d9fc7b77aa2b49b1"
+RPM_NAME = "texlive-unravel-doc-2023.209.0.0.3asvn59175-54.1.noarch.rpm"
+RPM_HASH = "e96ab1a7d8bfdd95db0daaacfcabf3b600c6b542b662b3c65ece391103c5e5c468c84f9480e576f0cdb0b10e04cf2d9d7da96468707a139e5600d97873f9b7e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-unravel-doc"

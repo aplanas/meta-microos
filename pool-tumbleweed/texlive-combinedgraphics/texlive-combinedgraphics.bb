@@ -13,10 +13,10 @@ complete graphics (similar to \\includegraphics from the \
 graphicx package)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.2.2svn27198"
+PV = "2023.209.0.0.2.2svn27198"
 
-RPM_NAME = "texlive-combinedgraphics-2023.201.0.0.2.2svn27198-53.1.noarch.rpm"
-RPM_HASH = "b2bf18cf5902cd14fc7a3dc0a175a29edef585623d2fb6ad4383df8a3abf6672ff71fa9b460ff89c46436795fd9502b75443ce9170931cda83b39044e872f268"
+RPM_NAME = "texlive-combinedgraphics-2023.209.0.0.2.2svn27198-54.1.noarch.rpm"
+RPM_HASH = "84fb0479f836cccab904269402365e98ac6d08fa2796f3a291e49ea892dfaaf310d4607df7f69da8f9665d2e966071c2670d59e96d6951a5668aa396869568fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-combinedgraphics.sty \

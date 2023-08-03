@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-arvo"
 DESCRIPTION = "The  separated fonts package for texlive-arvo"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn57213"
+PV = "2023.209.svn57213"
 
-RPM_NAME = "texlive-arvo-fonts-2023.201.svn57213-53.1.noarch.rpm"
-RPM_HASH = "96005fdf847f9a0c2d46e06419d68c7f5cac1b52b863b7bd659467166f5ac974d6917d612c6c0f41eff0c96181a999f1ca057f2960c909baef53924b8fea7d5d"
+RPM_NAME = "texlive-arvo-fonts-2023.209.svn57213-54.1.noarch.rpm"
+RPM_HASH = "db6516bb1c5ed7904c53da6e84cc4d7ec54431ef2df5eb27f12a29d835d8b53cc0b114cb1ec41b77dc34566ab76daa45c3709786af66b9b19fcecf6d121c642e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

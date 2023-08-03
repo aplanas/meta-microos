@@ -5,10 +5,10 @@ There are LaTeX 2.09 documentstyle and LaTeX 2e class files for \
 both an 'old' and a 'new' version of g-brief."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.0.3svn50415"
+PV = "2023.209.4.0.3svn50415"
 
-RPM_NAME = "texlive-g-brief-2023.201.4.0.3svn50415-52.1.noarch.rpm"
-RPM_HASH = "2859d2b99a5b8a9c5f81bff09d3d1d44aa466f0ff1b62331307382a4e273053527813b3237a658a19fd5ccd07218d0f520b05d010c721730c4e5899caeaebb21"
+RPM_NAME = "texlive-g-brief-2023.209.4.0.3svn50415-53.1.noarch.rpm"
+RPM_HASH = "c2d6952c944334128c61293262df9bab060011a2c924ea644cdd08b140abb69b9d549ef8f0166c7543401125938d8ba6c65a98df663959ae0959c9aeb3b866af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-g-brief.cls \

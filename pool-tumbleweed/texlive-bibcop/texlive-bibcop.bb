@@ -7,10 +7,10 @@ standalone command line tool. The package does not work on \
 Windows."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.0.9svn65816"
+PV = "2023.209.0.0.0.9svn65816"
 
-RPM_NAME = "texlive-bibcop-2023.201.0.0.0.9svn65816-53.1.noarch.rpm"
-RPM_HASH = "e6c2f29c402e98780476bc92aea5154779d48530738b7134352eb55c3bd926b0117c053d86e74dae5418a222ad7cf0fde2984fe74d08f0a6a136a2be7d5a1eae"
+RPM_NAME = "texlive-bibcop-2023.209.0.0.0.9svn65816-54.1.noarch.rpm"
+RPM_HASH = "1acef9362e6233b668176e7ce5c6d4200546b25773f664662a9d18c574d57501a8134cf096ffe729ac84f66453dacede97d39e21a9a253135c64efd4fa4e46be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bibcop.sty \

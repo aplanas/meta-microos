@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sort-by-letters"
 DESCRIPTION = "This package includes the documentation for texlive-sort-by-letters"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn27128"
+PV = "2023.209.svn27128"
 
-RPM_NAME = "texlive-sort-by-letters-doc-2023.201.svn27128-57.1.noarch.rpm"
-RPM_HASH = "b75d5eddd5d2e6b1720ffa79f2f14a4b269c64d60aab875f72c40176f14723a3b22c229b262421132048ed71cbda0759da05333e335b752bedb451d03c3560f9"
+RPM_NAME = "texlive-sort-by-letters-doc-2023.209.svn27128-58.1.noarch.rpm"
+RPM_HASH = "fbe63b16e1071e00532c8fdfc06537f0a7233e230e7ef59a82bf8503743600f43d59f786524dd44df6ddcc0fda059953acc359b798efc0c10120ab4376aa63cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sort-by-letters-doc"

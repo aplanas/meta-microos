@@ -11,10 +11,10 @@ together. It builds on and interacts with TikZ, which brings an \
 enourmous flexibility for customization of individual circuit."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.7.3svn65933"
+PV = "2023.209.0.0.7.3svn65933"
 
-RPM_NAME = "texlive-yquant-2023.201.0.0.7.3svn65933-52.2.noarch.rpm"
-RPM_HASH = "4a20cbaefbdd45880018e4fada96cf2400ef15b34edc8c492d808950e6c3ec6d8a1169e08244ebbc42684d606a52102d3e96035eec13b3c7d050f919b9f690e2"
+RPM_NAME = "texlive-yquant-2023.209.0.0.7.3svn65933-53.1.noarch.rpm"
+RPM_HASH = "6896f7d93efef1e96265fa7374c8fa70516bb779ed8ef4d6336926d1f0b2b96f08cac6e6d78e2f6015274643df49b14333da6e2d40b6fc427580f087f8360bce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-yquant-circuit.tex \

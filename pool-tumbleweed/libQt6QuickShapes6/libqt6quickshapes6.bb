@@ -3,10 +3,10 @@ DESCRIPTION = "The Qt 6 QuickShapes library. \
 This library does not have any ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6QuickShapes6-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "83e3156c620a7c8144be929d4c3dd5ae872fd56cedb97ff602b038efaee7b07063479de5a30a96ae03ec794cfb88e13e43a147ac53024a71fe947b5f4556b40b"
+RPM_NAME = "libQt6QuickShapes6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "cf6a9a797edc106aa7b9491d89b7fb14a09f73062a119f87631d9d957da61dc852492c7718d67aeca041ea36593bd1cf6247429d71a56ebc4c21f6065c10b5e4"
 
 RPROVIDES:${PN} += "libQt6QuickShapes.so.6 \
 libQt6QuickShapes6"

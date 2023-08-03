@@ -6,10 +6,10 @@ levels. This makes it easy to bundle existing articles into a \
 compilation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.94svn21095"
+PV = "2023.209.0.0.94svn21095"
 
-RPM_NAME = "texlive-outliner-2023.201.0.0.94svn21095-54.1.noarch.rpm"
-RPM_HASH = "c0a844569be8345e54cc3a094c6d36eb01239b3619940f3f39c110818a71ee35941cef7652e7a04bea04f0f1d7007d66790dc5046b627918f379f27cdd1af7d8"
+RPM_NAME = "texlive-outliner-2023.209.0.0.94svn21095-55.1.noarch.rpm"
+RPM_HASH = "e2f578eb118268ae7cc25eff25af9cf9b9feb2f2d9dabbe847c226a9f9585159f49f0965b3ff63eef7f4b5cd2b93368a596a15058efdf016f8e75d5a2f51d96e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-outliner.sty \

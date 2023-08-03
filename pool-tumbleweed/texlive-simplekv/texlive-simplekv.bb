@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a simple key/value system for TeX and \
 LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2asvn64578"
+PV = "2023.209.0.0.2asvn64578"
 
-RPM_NAME = "texlive-simplekv-2023.201.0.0.2asvn64578-53.1.noarch.rpm"
-RPM_HASH = "35def20ff985aec58079035b1fc86ccc49500b51c0137b2453d40a975b1199094a42ed2a24fd9eea9b71c74aca9d8fd7565ac01121a5522cddb339afa8c28567"
+RPM_NAME = "texlive-simplekv-2023.209.0.0.2asvn64578-54.1.noarch.rpm"
+RPM_HASH = "6c52384c2813489fbacaa6a2e78f243ad35a3966a45fdb5000737d5d1be4ae5ee7008774bb90f5c4c1cb1d51ce7fbaaceabcf7ec96b0aa83962e33dbfc16dace"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-simplekv.sty \

@@ -4,10 +4,10 @@ when needed. An example would be when the integrand is a \
 matrix."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn29803"
+PV = "2023.209.svn29803"
 
-RPM_NAME = "texlive-bigints-2023.201.svn29803-53.1.noarch.rpm"
-RPM_HASH = "5eedf5d66d38ce2db211faf8df1aa9d82414625ce9c2a790c76a5a027cca2b005a2892a9c7ac905bf40580c2c8a0424d37234b69bec165fde8e0cf56bba806a1"
+RPM_NAME = "texlive-bigints-2023.209.svn29803-54.1.noarch.rpm"
+RPM_HASH = "bbdfd7fcc688fd1ed887ad7b07b795d89ea593010c8d8c1fbc82aa7d4c0ee90c1c7c11d48f195b1930a3030e27c875961e1c481c9ef54518b73d68ced2f7e38f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bigints.sty \

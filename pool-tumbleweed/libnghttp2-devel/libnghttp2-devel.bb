@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for usage with libnghttp2, which implements \
 Hypertext Transfer Protocol version 2."
 LICENSE = "MIT"
 
-PV = "1.54.0"
+PV = "1.55.1"
 
-RPM_NAME = "libnghttp2-devel-1.54.0-1.1.aarch64.rpm"
-RPM_HASH = "ebdc20be035792112674b9581a5485476ad2d0e227fecef9576bf2e3677cee4660a5770d9e12a46487ec919c92cdeb4bb8a0d1c047431e1286134d63a9290c6e"
+RPM_NAME = "libnghttp2-devel-1.55.1-1.1.aarch64.rpm"
+RPM_HASH = "19e17bb601d6d9f03ce4db856a99d9a42ce8c6ff2e8f5c92d43097ef29c833059b497ca19e1c538240ca91da5de74d1bf3b1c2bc5780f9e6d0628ce4c1655daa"
 
 RPROVIDES:${PN} += "libnghttp2-devel \
 nghttp2-devel \

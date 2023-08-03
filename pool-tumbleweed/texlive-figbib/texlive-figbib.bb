@@ -8,10 +8,10 @@ where to output the figures, either as usual float objects or \
 in a separate part at the end of your document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn19388"
+PV = "2023.209.svn19388"
 
-RPM_NAME = "texlive-figbib-2023.201.svn19388-52.1.noarch.rpm"
-RPM_HASH = "940564fea323c2ae8ed86c1859474e3f35f8a5641c2defae2bee36b1b41e74fcb52a194a4d6ac55b22ae78bbf49bfc97af1656c08cdc2ec25c8693727f14e660"
+RPM_NAME = "texlive-figbib-2023.209.svn19388-53.1.noarch.rpm"
+RPM_HASH = "a7fdb5ac869cc96a07cd9f8ec705609f90d2ed18d1ac25f26708d2cf804424355a882737f5cc8f1535fe601e7aa99e9ffa3180be714b7a48241002f187c20631"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-figbib.sty \

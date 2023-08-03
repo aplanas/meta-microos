@@ -2,10 +2,10 @@ SUMMARY = "OpenJDK 11 Runtime Environment"
 DESCRIPTION = "The OpenJDK 11 runtime environment."
 LICENSE = "Apache-1.1 & Apache-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
 
-PV = "11.0.19.0"
+PV = "11.0.20.0"
 
-RPM_NAME = "java-11-openjdk-11.0.19.0-1.2.aarch64.rpm"
-RPM_HASH = "fec5a6dc2216e47f4c90cb5dcb0d1e2e3cf6495f732a9a706efe297dbe029b6d38e033efdd2ca4a63d18ef37eadfc4e2a363d9403c2dd7c135d32507cfbe87fe"
+RPM_NAME = "java-11-openjdk-11.0.20.0-1.1.aarch64.rpm"
+RPM_HASH = "43e2f5124cf660a8fc2985c49968c0e6868ef9432e41e94b3f8d2f6e2f46606013d641c15f33cadef7d6f2d0e59f7cae1733231d75dd8312bbe614e8e6d119cf"
 
 RPROVIDES:${PN} += "java \
 java-10-openjdk \

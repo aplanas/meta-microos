@@ -4,10 +4,10 @@ It comes with modules for pipewire, alsa, backlight, and bluetooth. \
 Other modules can be found in the manpages of Waybar."
 LICENSE = "MIT"
 
-PV = "0.9.19"
+PV = "0.9.20"
 
-RPM_NAME = "waybar-0.9.19-1.2.aarch64.rpm"
-RPM_HASH = "da5e64ec156a0606489a11f8f6d6db4d470d9aa3175078440ae8644bc5b32707da17424944b39430c42a179641b5757210d3200a833661810f478d263c6c4116"
+RPM_NAME = "waybar-0.9.20-1.1.aarch64.rpm"
+RPM_HASH = "635789f9d2aed3ff568f2092a051ebd5e3cae4fec28e3cdca57e8dfb5c43b777234f16bbd5680e99c8c0a1770b0eecf3ba13fc315ec1363edf319695ec7398d2"
 
 RPROVIDES:${PN} += "waybar"
 

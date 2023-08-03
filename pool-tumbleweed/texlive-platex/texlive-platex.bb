@@ -4,10 +4,10 @@ and e-pTeX. This is a community edition forked from the \
 original ASCII edition (ptex-texmf-2.5)."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.svn66186"
+PV = "2023.209.svn66186"
 
-RPM_NAME = "texlive-platex-2023.201.svn66186-52.1.noarch.rpm"
-RPM_HASH = "d9da62c4a7feaaca7421b90c08fdcff55a1edd6e1798eb7710b02eda1a65aa03c970eabe346d6a8d842bbee0ed5cf97823f34c0e0b6984c26cc50a43c70b00a4"
+RPM_NAME = "texlive-platex-2023.209.svn66186-53.1.noarch.rpm"
+RPM_HASH = "71997be6d61fb66d1e33a50067104b52a0a2a54f2f174653a7253d94157d147089d432cec109528156d8ba49715e8b2490d0f28366e99008ce46c0e9563a28eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-exppl2e.sty \

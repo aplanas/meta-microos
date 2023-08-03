@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-clefval"
 DESCRIPTION = "This package includes the documentation for texlive-clefval"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn55985"
+PV = "2023.209.0.0.1svn55985"
 
-RPM_NAME = "texlive-clefval-doc-2023.201.0.0.1svn55985-53.1.noarch.rpm"
-RPM_HASH = "ae6b370e346ee84fa8eadc8326e836bd3869b54307e15feb7e3bf5da2e0e7cc264e02ba817cd677a95e22dcffc71e7bdad9f862f733ac717d1f32dfe9cb4ab6e"
+RPM_NAME = "texlive-clefval-doc-2023.209.0.0.1svn55985-54.1.noarch.rpm"
+RPM_HASH = "24f3b7ea93e87333b2f7eb7daa789cf8e02af24c18767764f647c59e8f2032cbfc083a28d4543dee3fe247cf1bdf9b8cabf3821ca468404812917bb200a596ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-clefval-doc-fr \

@@ -3,10 +3,10 @@ DESCRIPTION = "The package aims to streamline the work of typesetting, and to \
 provide the look and feel of harvmac for readers."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.2svn45081"
+PV = "2023.209.2.2svn45081"
 
-RPM_NAME = "texlive-chet-2023.201.2.2svn45081-53.1.noarch.rpm"
-RPM_HASH = "1d971d549d6b0b9e3b8e67260ed8580ec52e633ffa3dfa9ca15ba7d15279656e05c78929b4c2df0fa5df4a98825954419d7e40165de6d86620f4ef3615a2e1d8"
+RPM_NAME = "texlive-chet-2023.209.2.2svn45081-54.1.noarch.rpm"
+RPM_HASH = "6e32bf9cf83257f0277497bffe47479cfd20e571f248f6a7a25c97686ca005eba777682e61cbcff48f364d5d4575b9b696d1c1a497bd674486e640f9a8182d6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chet.sty \

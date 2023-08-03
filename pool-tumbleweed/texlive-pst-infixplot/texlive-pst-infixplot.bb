@@ -7,10 +7,10 @@ pst-plot for the beginner, providing macro commands that \
 convert natural mathematical expressions to PostScript syntax."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.11svn15878"
+PV = "2023.209.0.0.11svn15878"
 
-RPM_NAME = "texlive-pst-infixplot-2023.201.0.0.11svn15878-52.1.noarch.rpm"
-RPM_HASH = "19a29be47221088ef1a8242e4d45fffe663cb611b69f27f11a5e063fd92e0afbae5fd12e31f87864d297543c269da8302db42bd83a4f48498865fb0596680aa3"
+RPM_NAME = "texlive-pst-infixplot-2023.209.0.0.11svn15878-53.1.noarch.rpm"
+RPM_HASH = "9dd1d3fc3b9db9567ff655dc1400261ba29991b3a300cc18be83dfa75fa937eacdb4cce1bfb94d18adff3087d8a84a9245f1d051f83f659c9afee667f89875b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-infix-RPN.sty \

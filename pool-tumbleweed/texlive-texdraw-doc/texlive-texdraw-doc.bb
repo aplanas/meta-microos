@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-texdraw"
 DESCRIPTION = "This package includes the documentation for texlive-texdraw"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.v2r3svn64477"
+PV = "2023.209.v2r3svn64477"
 
-RPM_NAME = "texlive-texdraw-doc-2023.201.v2r3svn64477-54.1.noarch.rpm"
-RPM_HASH = "7f6eac2c5751aaf8c74e39a07df41df4380e75048fd410cec87b3df2c7e8eb54dd5ddf1090b1b51dbd23166cf4f641f7e0021219d48b21dd84aef3db70004436"
+RPM_NAME = "texlive-texdraw-doc-2023.209.v2r3svn64477-55.1.noarch.rpm"
+RPM_HASH = "fa98044dbdc8cee8434fa9df0c978e42c7511d8a2189e7499282d3f385e260aa317006e44c364435e3faa017edd0e3922ea757b1368194773dc741f575e77d92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texdraw-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 QuickDialogs2 library"
 DESCRIPTION = "The Qt 6 QuickDialogs2 library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6QuickDialogs2-6-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "9a4aef77b210553a028f2dd33d04c6de4cfbe19dd0a0ec1a8f7f18d62d69f002a5359b181f19c380e933c02b6544ffdaebdca3b1c6737ad0b37b773ccdcc9f80"
+RPM_NAME = "libQt6QuickDialogs2-6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "ed923a29fd614627dd3fbb8b09891d3e7aef04d94e609dd8ea03a72212e5c6a97ce948111b8a490634178eb80b45afb8d6e5db65dedb21793a97cc14eef3ed2a"
 
 RPROVIDES:${PN} += "libQt6QuickDialogs2-6 \
 libQt6QuickDialogs2.so.6"

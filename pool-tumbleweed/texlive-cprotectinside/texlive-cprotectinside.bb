@@ -3,10 +3,10 @@ DESCRIPTION = "This package extends the cprotect package to allow users to use \
 verbatim-like commands inside arbitrary parameters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.0.0.0.0svn63833"
+PV = "2023.209.0.0.0.0svn63833"
 
-RPM_NAME = "texlive-cprotectinside-2023.204.0.0.0.0svn63833-54.1.noarch.rpm"
-RPM_HASH = "fc26eee9b13141eccf0e747bf10d85a27726520015090fbe45837a63dce9c0104cba63d11fddef137a0515ecaba3a36677f8cb79e0342577fcdbabf220c3d74d"
+RPM_NAME = "texlive-cprotectinside-2023.209.0.0.0.0svn63833-55.1.noarch.rpm"
+RPM_HASH = "b94f4b14d37addf5a766a7ab6a06bca95b067f49de00e31620dcc00d7621e87f33a90a7708dd46c0bda2ae981852a145908c471436335a9271d090ffe4fb0be4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cprotectinside.sty \

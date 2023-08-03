@@ -8,10 +8,10 @@ styles with several standard elements, and optionally \
 additional elements."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1asvn64306"
+PV = "2023.209.1.1asvn64306"
 
-RPM_NAME = "texlive-uni-titlepage-2023.201.1.1asvn64306-53.1.noarch.rpm"
-RPM_HASH = "27390e8070e656015290de3ad610cbd0f0c0a09299cceed16875642728cd8a86d56f0ddcc006d53676fb13cb9b4b0c12ffe8310d72f709e4ad575676e4dfb9f0"
+RPM_NAME = "texlive-uni-titlepage-2023.209.1.1asvn64306-54.1.noarch.rpm"
+RPM_HASH = "0bfbc9bf255f0fda4c0115df7a6d51c2172dfcfc5594eecd2506ec98337ef9bcc35ac0b87feb0989e9bc1a012b5860467e761952754fc647edaecf59c3f9c757"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-title-DHBW.def \

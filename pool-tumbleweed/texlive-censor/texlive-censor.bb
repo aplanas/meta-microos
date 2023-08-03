@@ -7,10 +7,10 @@ unrestricted environment (for eventual transfer and completion \
 in the restricted environment)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.2svn63126"
+PV = "2023.209.4.2svn63126"
 
-RPM_NAME = "texlive-censor-2023.201.4.2svn63126-52.1.noarch.rpm"
-RPM_HASH = "c95725d7fdcfea7309f69c97424c8bf6f0f3a1ad19f6c58d7e636b5d4cb760fcb3925e96ee9b82f6bb8681f41927a8161bbd6c59598e632d74da12251a13a420"
+RPM_NAME = "texlive-censor-2023.209.4.2svn63126-53.1.noarch.rpm"
+RPM_HASH = "f994eb16d2b573ecf3b1cd18e20431aaa099b3ecb03e107912d3c5f2a9834575ac6f67bf4c853f858173300e1375bcdfc61aced3fc5ae023509b5c54cc880999"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-censor.sty \

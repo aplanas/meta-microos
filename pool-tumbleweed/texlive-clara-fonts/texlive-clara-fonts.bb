@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-clara"
 DESCRIPTION = "The  separated fonts package for texlive-clara"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn54512"
+PV = "2023.209.svn54512"
 
-RPM_NAME = "texlive-clara-fonts-2023.201.svn54512-53.1.noarch.rpm"
-RPM_HASH = "12447d86d6cf34775a68467eac2b18846fc80627ba6f79e78448dc439c71e3f4d6a41605ca24c4b77c0959dc80a4e2eb0018765ac9ab77636589e384cfbf4f35"
+RPM_NAME = "texlive-clara-fonts-2023.209.svn54512-54.1.noarch.rpm"
+RPM_HASH = "94c72dc61aa71873a72a2e2a0dd31d7063095ea96ec9e8da672541cfc839100a75e5a6e5a4204d3e6e6b13788253e2c29ae5b47b102d004d700dafc40d5bf354"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-clara-fonts \

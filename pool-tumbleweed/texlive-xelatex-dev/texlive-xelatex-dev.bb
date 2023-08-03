@@ -2,10 +2,10 @@ SUMMARY = "Package xelatex-dev"
 DESCRIPTION = "The xelatex-dev package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn62145"
+PV = "2023.209.svn62145"
 
-RPM_NAME = "texlive-xelatex-dev-2023.201.svn62145-52.2.noarch.rpm"
-RPM_HASH = "bfe5640a07ae2acf69f6b59f3ad43c080c7bc33c6f2087180677feaf62ca7c8f9f1bfe4ccc74d8b635fdeacf92c1522bfd89295bd8c68d69bc7f68ce1e5733f1"
+RPM_NAME = "texlive-xelatex-dev-2023.209.svn62145-53.1.noarch.rpm"
+RPM_HASH = "148a7af1f9e22da1e8aafa763344e0168537a400730d0e10eebdfed7173e656743eb433b7d4960ff02e3516eb462b2e435c1bcae71acef31a105900dbe742477"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xelatex-dev"

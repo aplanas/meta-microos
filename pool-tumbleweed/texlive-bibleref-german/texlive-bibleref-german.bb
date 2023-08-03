@@ -6,10 +6,10 @@ guidelines). In addition, the Vulgate (Latin bible) is \
 supported."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0asvn21923"
+PV = "2023.209.1.0asvn21923"
 
-RPM_NAME = "texlive-bibleref-german-2023.201.1.0asvn21923-53.1.noarch.rpm"
-RPM_HASH = "c0e91f03f8755c2e73f13bc60ce28d1a1bfc1efa010866612a5010c87b7b9589756ba36a67978cf670856430dea8a9b0846ac80cfe9cae6d72fbbc40f02e3a8f"
+RPM_NAME = "texlive-bibleref-german-2023.209.1.0asvn21923-54.1.noarch.rpm"
+RPM_HASH = "3fffc82e70e041817223ff78f0ae84e9db115aa5f9724bbd1eba389ec29fec4635122927f0b841e4849ed4dfa3a99e9f8617292eb5e105a77f356f1cd6f75adb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bibleref-german.sty \

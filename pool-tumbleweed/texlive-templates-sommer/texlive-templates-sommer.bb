@@ -5,10 +5,10 @@ Lehrstuhl Volkskunde an der Friedrich-Schiller-Universitat \
 Jena; - Psycho-Dipl.tex: for diploma theses in psychology."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-templates-sommer-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "46ed2bb40026e6ae83ed5cfc4296689693ac17b6e6e82f94a878b2ef3c4a87f4e6272fa515db0f45a04803c066389c2e94d48c9de9b80ea9d5afd916eff111a1"
+RPM_NAME = "texlive-templates-sommer-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "c0c8b85ff890b97769d746b101f34c4c19b99ddd61d7dfdbd91f9c6842d63611ab11e5f5eca9e0f4a94ca1499214c7f7a66ff9fc17601eb60616f88060f7b7e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-templates-sommer"

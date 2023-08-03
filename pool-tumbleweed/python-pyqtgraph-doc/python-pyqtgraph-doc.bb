@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.13.3"
 
-RPM_NAME = "python-pyqtgraph-doc-0.13.3-1.1.noarch.rpm"
-RPM_HASH = "69ec877d290c55f3841b487488ccf3f2ec9557eaa6a9e9d3f3f46378e61b9aef6d94ee94ea4184fc8a6b36fbab63d5ca477db331ecf356ba0764cccf63da910a"
+RPM_NAME = "python-pyqtgraph-doc-0.13.3-2.1.noarch.rpm"
+RPM_HASH = "3a94a453456b2c44b9512f840c05cb9c2643de77229f40c596bf96a4c0c43109af33be12da7d51d61c8efad9fb9c045407ec521260fbf0eb65539a64810744e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-pyqtgraph-doc \

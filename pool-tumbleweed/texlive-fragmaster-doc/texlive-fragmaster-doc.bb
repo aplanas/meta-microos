@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fragmaster"
 DESCRIPTION = "This package includes the documentation for texlive-fragmaster"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.6svn26313"
+PV = "2023.209.1.6svn26313"
 
-RPM_NAME = "texlive-fragmaster-doc-2023.201.1.6svn26313-52.1.noarch.rpm"
-RPM_HASH = "f5677ff3b54757bad9e782de0fa82c853d540decd92327f0c84a9240a8852737063695f7274eb1f0004703a5cfea8d9190075c87d8dbbbbcd64dd8d156bc6733"
+RPM_NAME = "texlive-fragmaster-doc-2023.209.1.6svn26313-53.1.noarch.rpm"
+RPM_HASH = "3626fe3e66da9f136050af50bc41c939bebbc80891cb0935d8d15675e76b5d0edd58e97aef426a0a9fac4dabf16bfd4e8102a30dbf032127374d936f68b2c9ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-fragmaster-doc-en;de \

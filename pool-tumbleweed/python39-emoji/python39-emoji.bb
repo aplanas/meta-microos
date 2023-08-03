@@ -22,10 +22,10 @@ By default, the language is English (``language='en'``). Further supported langa
 * Korean ('ko')"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.6.0"
+PV = "2.7.0"
 
-RPM_NAME = "python39-emoji-2.6.0-1.1.noarch.rpm"
-RPM_HASH = "44c3de20427cdac55c473787051969700b8140b16555ab1ea5affb72482c1dad468afb3583978c4cec34933a77eba2ec7272f4de817fd79cc593243d7d3f2acf"
+RPM_NAME = "python39-emoji-2.7.0-1.1.noarch.rpm"
+RPM_HASH = "afe612c984c644249d07188772aee05b312b3efe4a8a629deff59863d5b678f4343407e27ea2212cfebf0ec4ad3523f323f40ea8d3b7105a691e4683be8d1d8a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-emoji \

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-tipa"
 DESCRIPTION = "The  separated fonts package for texlive-tipa"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn29349"
+PV = "2023.209.1.3svn29349"
 
-RPM_NAME = "texlive-tipa-fonts-2023.201.1.3svn29349-52.1.noarch.rpm"
-RPM_HASH = "73cf0894579471b75c62e4755feb6db3d6cf7c8a1d72b4a0f7ba01b1d92ae36531328e9d82f6c6d8987c83e52e20d1bd11828e85841d475fe2d79c0703efbba0"
+RPM_NAME = "texlive-tipa-fonts-2023.209.1.3svn29349-53.1.noarch.rpm"
+RPM_HASH = "d3a3bcacbe9e5a607c3b1d479e34aea02ead49aae56e026c58843cadd5b985faf80d1ce186275c2cf9c3d51d32f4af43c1f9d7c7df359fa2a728737dc5e03d77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

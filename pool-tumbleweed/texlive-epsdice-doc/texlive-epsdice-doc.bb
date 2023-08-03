@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-epsdice"
 DESCRIPTION = "This package includes the documentation for texlive-epsdice"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1svn15878"
+PV = "2023.209.2.1svn15878"
 
-RPM_NAME = "texlive-epsdice-doc-2023.201.2.1svn15878-53.2.noarch.rpm"
-RPM_HASH = "7a9d016200cca8819880755edb806b77a5e4d05267ed99326f7151a0af1201b3937f30f1565d2692efc88c04936220bfeb4939312ac55c8366a086c86f499045"
+RPM_NAME = "texlive-epsdice-doc-2023.209.2.1svn15878-54.1.noarch.rpm"
+RPM_HASH = "0b13d53ce6ee0601f1d9806355c0775beddc4b7539239039b34d7be36d40c1e6add81ad86d6ab92606bc8190ce777bd11d920ade3fa2b2e4b0a70baea0f4ad09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-epsdice-doc"

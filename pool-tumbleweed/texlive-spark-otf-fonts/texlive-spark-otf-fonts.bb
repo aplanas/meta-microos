@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-spark-otf"
 DESCRIPTION = "The  separated fonts package for texlive-spark-otf"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.05asvn62481"
+PV = "2023.209.0.0.05asvn62481"
 
-RPM_NAME = "texlive-spark-otf-fonts-2023.201.0.0.05asvn62481-57.1.noarch.rpm"
-RPM_HASH = "5f08b490287b2ed345d6ff80166831ec070162d5659bfb2593e507d610d9fb8a404d62e407027db7265ae358f3f92a2dd7752f4505ef43b0e70ba8fb328a9b20"
+RPM_NAME = "texlive-spark-otf-fonts-2023.209.0.0.05asvn62481-58.1.noarch.rpm"
+RPM_HASH = "cb5eaeadb7e0d275591ba8c8f2baf14e1ab80ffb88f585101e1502c9134e9d712f57ee5534efe3cafcb02a362a2d270886e1ee3f7bbec7e324d1c6e80b6788ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

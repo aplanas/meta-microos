@@ -7,10 +7,10 @@ form of document that does not conform to the standard one or \
 two column layout."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.17svn35291"
+PV = "2023.209.1.17svn35291"
 
-RPM_NAME = "texlive-flowfram-2023.201.1.17svn35291-52.1.noarch.rpm"
-RPM_HASH = "0cc33e37c1032d8cc61cd5c5e408ed9cdc8328fdf7ec63bfc9a890963a610e637cd81680b5cb9ff47c26bcd486adfcd07f8dc9a426b952f030c43956f0cc9abc"
+RPM_NAME = "texlive-flowfram-2023.209.1.17svn35291-53.1.noarch.rpm"
+RPM_HASH = "fb9de2f4f75eaab81920cfafcdd9bcef14a1918743e115350ad4e37f2b22249d5f7eda5ff912c143b00d108138e285c9b5713c7f8e952c8f50b8ba0d5139733e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-flowfram.sty \

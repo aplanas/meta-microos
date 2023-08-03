@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tagpair"
 DESCRIPTION = "This package includes the documentation for texlive-tagpair"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn42138"
+PV = "2023.209.1.1svn42138"
 
-RPM_NAME = "texlive-tagpair-doc-2023.201.1.1svn42138-54.1.noarch.rpm"
-RPM_HASH = "db2c8efe2c21edb70d078873b4881c1abfea8ece86a8539f487cf78ae1d265f86cf3505b1d8ef468ee2e2195fc4abefe0d6fd7e594349897749c96bbf1959ac0"
+RPM_NAME = "texlive-tagpair-doc-2023.209.1.1svn42138-55.1.noarch.rpm"
+RPM_HASH = "4bdd1677a4b27af73df259213eb5f1afb92045e25c44072b492e0411a025c81d0f93adda61e884519028901a99ab8ea7d2c2ddfbbfa0df1e28b0aaaa8d3f6620"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tagpair-doc"

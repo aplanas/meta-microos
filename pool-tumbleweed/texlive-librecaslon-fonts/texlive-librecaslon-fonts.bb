@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-librecaslon"
 DESCRIPTION = "The  separated fonts package for texlive-librecaslon"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64432"
+PV = "2023.209.svn64432"
 
-RPM_NAME = "texlive-librecaslon-fonts-2023.201.svn64432-54.1.noarch.rpm"
-RPM_HASH = "c6e8a7bc0d9b2cd5d35a092a26d1b1cf20ecba49ffa0994722474a35f9706978bb64bfe6aac42d0a372a7ca29690ef74335d8bdff593913d02ba8a0c3c177e5c"
+RPM_NAME = "texlive-librecaslon-fonts-2023.209.svn64432-55.1.noarch.rpm"
+RPM_HASH = "50479cb080a3edfebbc1c754b274e5f8b2248b2060275e4043d7fc3da4358b3754ebe6ae839b876177263010b16d968b9b6ef4eeaff8b98074e6fcb5c39d5dc6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-librecaslon-fonts \

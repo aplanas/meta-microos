@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-extpfeil"
 DESCRIPTION = "This package includes the documentation for texlive-extpfeil"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4svn16243"
+PV = "2023.209.0.0.4svn16243"
 
-RPM_NAME = "texlive-extpfeil-doc-2023.201.0.0.4svn16243-52.1.noarch.rpm"
-RPM_HASH = "31a3428dbfea400f331b4cf386b32eea23fbd96f04a2985a5c1b2cca6433e4122d64f9e77401e7249b810aa6d82e0110a5618b835f013d72d4117f58d553f558"
+RPM_NAME = "texlive-extpfeil-doc-2023.209.0.0.4svn16243-53.1.noarch.rpm"
+RPM_HASH = "7ff19efb5847b84092ccde3484875cef77baf9cccc5d183849e1817223f4873825743324e2c555100cbf3b5f1b73fe4914bf8d7d970ca1cb78380f2c69142f50"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-extpfeil-doc-de \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package shotwell"
 DESCRIPTION = "Provides translations for the 'shotwell' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.32.1"
+PV = "0.32.2"
 
-RPM_NAME = "shotwell-lang-0.32.1-1.2.noarch.rpm"
-RPM_HASH = "87e9f34409f2890c35c47ca225aff1706b8ca09e9fb9cef70b297dd5d34521b3c020b678f5aa64ab2b65796079322dc0a86cadc0c70253f7fae1b5d87bd159bd"
+RPM_NAME = "shotwell-lang-0.32.2-1.1.noarch.rpm"
+RPM_HASH = "db841fa12ca7f4b0500321756db7b907140193828e53c3189f02c39afb3d8ebdd84a1ee5e234fc5d82024ea76529d0bb174776f4b9bb7f796062143c0da339ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-shotwell-af \

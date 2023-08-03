@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.7.6"
 
-RPM_NAME = "mate-applet-appmenu-0.7.6-1.6.aarch64.rpm"
-RPM_HASH = "0b93535c7cbd27e3368fb231dac774046c7ce401a0e22300a3464ec28b819660e37d4583738acc18a9cbcc8f54ca7f611652dd7315d5c5302e6173a787894dc9"
+RPM_NAME = "mate-applet-appmenu-0.7.6-2.1.aarch64.rpm"
+RPM_HASH = "f7622b88c36e5bf49185d727459b2e6a290e1f7049c39d7233ba70c4f6aec291c8f95476343fc40e7d59eb7988e96b71eb98a1300e1911f4d1a4f1f707f79206"
 
 RPROVIDES:${PN} += "libappmenu-mate.so \
 mate-applet-appmenu \

@@ -15,10 +15,10 @@ contains a XeLaTeX style file that makes it easier to achieve \
 the classic incunabula look."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.2.0svn61719"
+PV = "2023.209.2.0svn61719"
 
-RPM_NAME = "texlive-missaali-2023.201.2.0svn61719-54.1.noarch.rpm"
-RPM_HASH = "e1c28e026f5428f6fe0772dcae788ea9390e5d0602124ab348e19dc75bda5238c9e7a91c95ca2c8333a62835c24eecb913ab1cb28c49ccdf301599f4d24bd457"
+RPM_NAME = "texlive-missaali-2023.209.2.0svn61719-55.1.noarch.rpm"
+RPM_HASH = "47f08e46d0b0341a01d32c5c4cd1ac8abb91576120904cc40fd056ac6a01608c16fcce69c1ecf466ec285bba0d3617498adf73223e87eade2c9ec73091a83527"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-missaali.sty \

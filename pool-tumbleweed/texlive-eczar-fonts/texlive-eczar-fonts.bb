@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-eczar"
 DESCRIPTION = "The  separated fonts package for texlive-eczar"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.1svn57716"
+PV = "2023.209.0.0.1svn57716"
 
-RPM_NAME = "texlive-eczar-fonts-2023.201.0.0.1svn57716-53.2.noarch.rpm"
-RPM_HASH = "b0cdb7809fa3448a1e8e858aef5e914dbd657d9b93242106ac376da22697df09227bdb78c4666771764272fe063df055f7417fe416466402264785afd5a62ace"
+RPM_NAME = "texlive-eczar-fonts-2023.209.0.0.1svn57716-54.1.noarch.rpm"
+RPM_HASH = "fb455743e76e40eadb8eb38b662f7c4caf7c1704cbf49e869b9916faafdfc360c199928dc150a60b2649bd3673134554661db1ae055f8dc31223694fa0561da7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

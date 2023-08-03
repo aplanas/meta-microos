@@ -7,10 +7,10 @@ aid of suitable packages that provide capability of Japanese \
 typesetting."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.2.7asvn63011"
+PV = "2023.209.2.7asvn63011"
 
-RPM_NAME = "texlive-bxjscls-2023.201.2.7asvn63011-52.1.noarch.rpm"
-RPM_HASH = "47f26378a26b21fc98c887f9045f73fc3f9a4161f9a2e90b818ccd44e429f2f9ac979503a5f7edec86ad69f8e1f1946b1438d0adf66916c78eef4a00ef1cb0fc"
+RPM_NAME = "texlive-bxjscls-2023.209.2.7asvn63011-53.1.noarch.rpm"
+RPM_HASH = "7eb6cc5a7b1134c1252188ebebdf253c8e09036af858956ab683fa65096520134f656d90fbc464b0f7184f897f2d69f09060d5773d77d83b9b43b86ab61e2557"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bxjsarticle.cls \

@@ -7,10 +7,10 @@ provides many advanced features for manipulating and filtering the information \
 in FITS files."
 LICENSE = "ISC"
 
-PV = "4.2.0"
+PV = "4.3.0"
 
-RPM_NAME = "libcfitsio10-4.2.0-2.4.aarch64.rpm"
-RPM_HASH = "e5612b53f7e05767e1ba4e28bd6c2d694095a1d70416107faa6641f145d8ec8a27a89aea5d4af92ffad6879397e200e5cf5860a2d6e922b65e278349d9be2cc2"
+RPM_NAME = "libcfitsio10-4.3.0-1.1.aarch64.rpm"
+RPM_HASH = "51dc9e8b3e39b4f1109005143821eec97625a899365fe178c2625f1c0dcffcbe6eb419205b8c79f65f0ee3ab73d3a0cfdae3750f9edf26ccce5cc85d12f18cdc"
 
 RPROVIDES:${PN} += "libcfitsio.so.10 \
 libcfitsio10"

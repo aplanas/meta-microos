@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-robotarm"
 DESCRIPTION = "This package includes the documentation for texlive-robotarm"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn63116"
+PV = "2023.209.0.0.1svn63116"
 
-RPM_NAME = "texlive-robotarm-doc-2023.201.0.0.1svn63116-53.2.noarch.rpm"
-RPM_HASH = "8868105b3377d8c1dbba3b6997d784f1cb63f37e5b1464785e585856356f62d945cfef7be328ac2cea30d7aa5c4e5b43b27f669e0565362e2184a7eb2558f5eb"
+RPM_NAME = "texlive-robotarm-doc-2023.209.0.0.1svn63116-54.1.noarch.rpm"
+RPM_HASH = "6288f471d4969b9cf4d90dfccf09d907c1ae3f76edb7afbc60fc1909c7856299005ee76feda75672a1f034414b75e6af5a067e13df4c3324a9c4583e11daf974"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-robotarm-doc"

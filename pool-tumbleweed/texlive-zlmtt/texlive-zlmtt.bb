@@ -3,10 +3,10 @@ DESCRIPTION = "The package allows selection of Latin Modern Typewriter fonts \
 with scaling and access to all its features."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.032svn64076"
+PV = "2023.209.1.032svn64076"
 
-RPM_NAME = "texlive-zlmtt-2023.201.1.032svn64076-52.2.noarch.rpm"
-RPM_HASH = "c1c7ec44cd586fcdc43ae8265cdefdf1ebbc837a6844357900884496f63b15a18312ddc2a2f5b90175bc51125d64c4a22146e86f2ad7d0a709771fc9b7bfd4b7"
+RPM_NAME = "texlive-zlmtt-2023.209.1.032svn64076-53.1.noarch.rpm"
+RPM_HASH = "5b2e5d99fb099b57180b7e6fac2c7e1066087a6e7742d3c8488a4ca480a7c2baff8fbac3b8e5a5cdcc5bdb258034099b45bb04f4a5dc8ca5a1f64e82dbc0218b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-il2zlmtt.fd \

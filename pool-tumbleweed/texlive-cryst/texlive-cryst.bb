@@ -4,10 +4,10 @@ source. Instructions for use are available both in the README \
 file and (with a font diagram) in the documentation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-cryst-2023.204.svn15878-54.1.noarch.rpm"
-RPM_HASH = "ec6ef26f7b28dd1e839d246f82e12a05f9438b82b7de8f5f79c005091c7455998d36e551a0dbfa4c3dac393281b35bc778f11cc788f52f7f344516b8d6bacaa8"
+RPM_NAME = "texlive-cryst-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "aa3661f1d330a536a8fc5082b3083ac0c40eec80af5b7972de526f73fff0b64356affaad0c96865a3e4eebcc442de9baf06f47de4bae3bbed1c3c3b0bc1e2a6d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cryst.tfm \

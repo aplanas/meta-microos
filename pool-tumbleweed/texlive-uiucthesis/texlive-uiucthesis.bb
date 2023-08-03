@@ -4,10 +4,10 @@ described in the University's Handbook for Graduate Students \
 Preparing to Deposit."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.25svn15878"
+PV = "2023.209.2.25svn15878"
 
-RPM_NAME = "texlive-uiucthesis-2023.201.2.25svn15878-53.1.noarch.rpm"
-RPM_HASH = "b4797385e153be0f102d6043ef79b268233b95d0f402b4de3414f8be5eb32bbd9c6ccdd869f256b35e285b32ba3bfa3d47838428aea9035e9704742297027166"
+RPM_NAME = "texlive-uiucthesis-2023.209.2.25svn15878-54.1.noarch.rpm"
+RPM_HASH = "5211b78cbb5b78aa382a618d106b7bcefe67f0ce40af9eb33148cd9b462cbfe776bd88d10174005a442b16104d59fe640fab53374d681609417d100b3694089c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uiucthesis.cls \

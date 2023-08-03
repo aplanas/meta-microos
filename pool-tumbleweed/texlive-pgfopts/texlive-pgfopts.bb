@@ -8,10 +8,10 @@ kvoptions adds the same facility to the LaTeX standard keyval \
 package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1asvn56615"
+PV = "2023.209.2.1asvn56615"
 
-RPM_NAME = "texlive-pgfopts-2023.201.2.1asvn56615-51.1.noarch.rpm"
-RPM_HASH = "497d447a4ef1d62da40a6019ca394a49091d83924ddcfee280aad87d11c5399f0e6169a544f30f16a606d126167b6277676a25b17052ebccf5c7be16d7e29eaa"
+RPM_NAME = "texlive-pgfopts-2023.209.2.1asvn56615-52.1.noarch.rpm"
+RPM_HASH = "2f24925607a34ee677f9276c1992a803e5b4dfb8dcacf2f1721059007c0a71cd8a38fd60e18e8c642df776036ef96f79ceba1e3c9410d2ad6962c47656ff3479"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pgfopts.sty \

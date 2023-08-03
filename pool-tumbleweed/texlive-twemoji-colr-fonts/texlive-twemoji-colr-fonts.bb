@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-twemoji-colr"
 DESCRIPTION = "The  separated fonts package for texlive-twemoji-colr"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.7.0svn64854"
+PV = "2023.209.0.0.7.0svn64854"
 
-RPM_NAME = "texlive-twemoji-colr-fonts-2023.201.0.0.7.0svn64854-52.1.noarch.rpm"
-RPM_HASH = "e193c9f0eb3ca678058d57603a665632eea8d6c627b7e094621db9ef577aab21421dcb3fed373010da949cc47d63f6ca769996b10ff8c8a0d5dec61e96a714b3"
+RPM_NAME = "texlive-twemoji-colr-fonts-2023.209.0.0.7.0svn64854-53.1.noarch.rpm"
+RPM_HASH = "c7fb3a65fa6933aab8b9e6befad0ff03f4d214b912abee7a0322f3c1cd15f4a802b9d9ea3f03d7a2e3b30ccd23fd2f3bf48d2146cafb3e5b1e113e6ffcf9b3e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=und-zsye \

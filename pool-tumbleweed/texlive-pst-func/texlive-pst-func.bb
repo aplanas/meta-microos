@@ -20,10 +20,10 @@ rates; and implicit functions. The plots may be generated as \
 volumes of rotation about the X-axis, as well."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.99svn60933"
+PV = "2023.209.0.0.99svn60933"
 
-RPM_NAME = "texlive-pst-func-2023.201.0.0.99svn60933-52.1.noarch.rpm"
-RPM_HASH = "2d4f3176e77a70a3ec086640783a8ad5dc03bc5a97d2ee33f35b49d72e7320615974e56b0d573208cbb849d64d96cb23b32264c32105843c94731b45ef24e982"
+RPM_NAME = "texlive-pst-func-2023.209.0.0.99svn60933-53.1.noarch.rpm"
+RPM_HASH = "190ea64292074d5844ce16b8328899d14e2513fe15f64fba4859689d6d4cd17cc011cde75f6bdcd7a5caa5453c10505bca0177735e90ebf04cdbcf0b467eb687"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-func.sty \

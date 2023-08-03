@@ -2,10 +2,10 @@ SUMMARY = "Fake implementation of redis API for testing purposes"
 DESCRIPTION = "Fake implementation of redis API for testing purposes."
 LICENSE = "BSD-3-Clause & MIT"
 
-PV = "2.15.0"
+PV = "2.17.0"
 
-RPM_NAME = "python39-fakeredis-2.15.0-1.1.noarch.rpm"
-RPM_HASH = "a531486e3e0af37766ce41909ae9be6552cac81f99ee2e497e02fdc20a73e23ebbca9b85db289b0ee9e2585bc5be9c792d428bb1bf0ec591e121ec0e16ff39be"
+RPM_NAME = "python39-fakeredis-2.17.0-1.1.noarch.rpm"
+RPM_HASH = "05e4e8c1c4704b369d7c34dca5ae61e2972615341a89212154df644c7d3da6e713fc1a85334559aedd413b250ce9f80968b1bbac0efa5133a9bf12dfeeeff509"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-fakeredis \

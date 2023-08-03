@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-universalis"
 DESCRIPTION = "The  separated fonts package for texlive-universalis"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn64505"
+PV = "2023.209.svn64505"
 
-RPM_NAME = "texlive-universalis-fonts-2023.201.svn64505-53.1.noarch.rpm"
-RPM_HASH = "98a9bc251c00127aa4ee54554edf0948ea75ccf09f7d364f571f43b6fbbcc209557370f20fefcd7b713bb8eb2015b625a3fa5ec6f23bb4723dba9f4b4f0503ab"
+RPM_NAME = "texlive-universalis-fonts-2023.209.svn64505-54.1.noarch.rpm"
+RPM_HASH = "e22016116486e53088a74654f02b97768e8981a5ab0f35ab3e3b82b30f493abe9c0f0bdbf8c5b13bc4ef722eb36250c1241bb02f138cd85931df9b80ffcd730f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-universalis-fonts \

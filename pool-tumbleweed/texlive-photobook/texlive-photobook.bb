@@ -5,10 +5,10 @@ environments with reasonable defaults to help typeset, build \
 and print books mainly based on visual/image content."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.0.0.1.10svn66551"
+PV = "2023.209.0.0.1.10svn66551"
 
-RPM_NAME = "texlive-photobook-2023.201.0.0.1.10svn66551-51.1.noarch.rpm"
-RPM_HASH = "3230b6a793d12f2bbc949324effa6e5195b9bb10c0b1ca99dca8a31630f99e674c07e32d73b598e98a0cd22acc4a0d3531fbf876fc22e61d212969f5d81aab78"
+RPM_NAME = "texlive-photobook-2023.209.0.0.1.10svn66551-52.1.noarch.rpm"
+RPM_HASH = "71ddffd02c9116a8a095bb766ad91c4754caa2ea6f720683af75cf674267b7d4c73d977717962f99f817fc0e71fa71c12e9a74cbe36e13c6e5771cf3dd878ea9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-photobook.cls \

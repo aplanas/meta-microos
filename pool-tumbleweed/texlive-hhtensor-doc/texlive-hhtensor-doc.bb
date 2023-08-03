@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hhtensor"
 DESCRIPTION = "This package includes the documentation for texlive-hhtensor"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.61svn54080"
+PV = "2023.209.0.0.61svn54080"
 
-RPM_NAME = "texlive-hhtensor-doc-2023.201.0.0.61svn54080-53.2.noarch.rpm"
-RPM_HASH = "50395e58dcc7f11565cdd2693766f2a7d5c50c1618a19552613f05f9d768e89f17ca9c8a3058e91ef5831d76b65994bdde4359787bd08a57c94431b7369ece44"
+RPM_NAME = "texlive-hhtensor-doc-2023.209.0.0.61svn54080-54.1.noarch.rpm"
+RPM_HASH = "128e8b7ef0455a9afbe98a03d55921fe6fa8752576e12d7da27ea59dfd915e0bc1550d3c56798fb6b9c6db4bd3a57927a7a27f43e89d696389444e6bf58a5f9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hhtensor-doc"

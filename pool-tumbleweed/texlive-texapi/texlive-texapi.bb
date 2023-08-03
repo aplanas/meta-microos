@@ -9,10 +9,10 @@ e-TeX (and, should you want to compile its documentation, the \
 pitex package is also needed)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.04svn54080"
+PV = "2023.209.1.04svn54080"
 
-RPM_NAME = "texlive-texapi-2023.201.1.04svn54080-54.1.noarch.rpm"
-RPM_HASH = "edf0ec091940e1c3498edb0b19375a83c882583047bbf5b7d37d089aeec1d97002f401837c750a59a98f9891793e50f619b5e64daa5e75c463ffe40972ebd039"
+RPM_NAME = "texlive-texapi-2023.209.1.04svn54080-55.1.noarch.rpm"
+RPM_HASH = "13b175ef0848434e92696d821d7085caf232853698b2419cce6fe2caf32c870a06c3362290e6e06829477db0e18bddfba461dbd3a3b617b0e39212ee1c56fb28"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-texapi.tex \

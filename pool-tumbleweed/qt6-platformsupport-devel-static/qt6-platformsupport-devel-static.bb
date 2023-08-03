@@ -2,10 +2,10 @@ SUMMARY = "Qt PlatformSupport module"
 DESCRIPTION = "Qt PlatformSupport module."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-platformsupport-devel-static-6.5.1-4.1.aarch64.rpm"
-RPM_HASH = "745c07c3a8dcb95276a3aa7c54942631a32ee768e552de65a4152802682e6704b1fa37128052823fcf606f96046b74c32702323661eab9365c015f41630c98b4"
+RPM_NAME = "qt6-platformsupport-devel-static-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "434cda0f615000e27a2d4fd2c1a4b7f95d688d71fe3d821be812399529f029bcbb6ae0ca6f71cd1e83b1bb27a59b1becdc18446ed5769772fbdacb0d866523bd"
 
 RPROVIDES:${PN} += "cmake-Qt6DeviceDiscoverySupportPrivate \
 cmake-Qt6FbSupportPrivate \

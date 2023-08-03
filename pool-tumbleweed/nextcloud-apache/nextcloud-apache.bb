@@ -2,10 +2,10 @@ SUMMARY = "Apache configuration for nextcloud"
 DESCRIPTION = "This subpackage contains the Apache configuration files"
 LICENSE = "AGPL-3.0-only"
 
-PV = "26.0.3"
+PV = "26.0.4"
 
-RPM_NAME = "nextcloud-apache-26.0.3-1.1.noarch.rpm"
-RPM_HASH = "6fcb2e5eb9262a8cb721ff912f71128fa564575dd252d1ad794c027789ab67e41e7e1813d67872276649d36ee85c4eb85b84dd837815026b59ee15f83a79cdd2"
+RPM_NAME = "nextcloud-apache-26.0.4-1.1.noarch.rpm"
+RPM_HASH = "d2d7b8c9044004245ad09b3926f2dda2b31f06d27c54c1d682b7f74ca1f103c98918419675a065a75cfc7979d9547bbb13b20eb5e40fe4e2e7c00ced9e71c2ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-nextcloud-apache \

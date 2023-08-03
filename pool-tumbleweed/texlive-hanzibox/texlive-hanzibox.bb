@@ -8,10 +8,10 @@ for Chinese character learning plans, presentations, exercise \
 booklets and other documentation work."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.3.0svn63062"
+PV = "2023.209.2.3.0svn63062"
 
-RPM_NAME = "texlive-hanzibox-2023.201.2.3.0svn63062-53.2.noarch.rpm"
-RPM_HASH = "7292d032b8ee2d9fea6d4e1fd154b4dbcfe9ba4ef34a7c00d945fd9c106588f3800ee3574b96f868e44c4cf56362a9e9ae1d94a2e11834df46ea30e2da0925c3"
+RPM_NAME = "texlive-hanzibox-2023.209.2.3.0svn63062-54.1.noarch.rpm"
+RPM_HASH = "0c8ae6f08f7c6dc3f7bf011ec62f7c4bd004d257c702b07140a0eff017a190cd40ef823553eb8221bac82d9c5b0662ab99f27f4ea37e537b87164f477b23561e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hanzibox.sty \

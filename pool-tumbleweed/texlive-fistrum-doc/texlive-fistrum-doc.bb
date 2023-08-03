@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fistrum"
 DESCRIPTION = "This package includes the documentation for texlive-fistrum"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn66461"
+PV = "2023.209.0.0.1svn66461"
 
-RPM_NAME = "texlive-fistrum-doc-2023.201.0.0.1svn66461-52.1.noarch.rpm"
-RPM_HASH = "1e5fb6816c257b66e8c7dd1148b6a5e0d3ead02da214c06061f4bf09f9c8192948d662bf2a3e9b9cea290cd4aacb19f3e0df2940c1de8778633e65329d58ff13"
+RPM_NAME = "texlive-fistrum-doc-2023.209.0.0.1svn66461-53.1.noarch.rpm"
+RPM_HASH = "796e3b346d313747ec7c830b39d3c8db2d25f5f57fe15b88a5430973e4869ebbf0fac002ca7a3ff225f7ad5f315374c432bf2f5a2ec03226776b466ffedd5ecd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fistrum-doc"

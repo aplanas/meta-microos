@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-na-position"
 DESCRIPTION = "This package includes the documentation for texlive-na-position"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn55559"
+PV = "2023.209.1.2svn55559"
 
-RPM_NAME = "texlive-na-position-doc-2023.201.1.2svn55559-54.1.noarch.rpm"
-RPM_HASH = "631835b5018e14d4f14c65c056d0565e9b7268fec82c7856ade6d9d9258d87716872bcf93b321cae6a7387657a5feadfa59acb67fe9612ac9c005d1da8c17dbf"
+RPM_NAME = "texlive-na-position-doc-2023.209.1.2svn55559-55.1.noarch.rpm"
+RPM_HASH = "e52a39d546018dfe25943cf52e6711a72bc337a227c3b8b15f4f46cb0dd6991fdff02b8d93cd7bd4424c0cf1095637feddb1999c6334d249c5b1e5d5179e60e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-na-position-doc-ar \

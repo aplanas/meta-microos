@@ -5,8 +5,8 @@ LICENSE = "MPL-2.0"
 
 PV = "3.90"
 
-RPM_NAME = "mozilla-nss-tools-3.90-1.1.aarch64.rpm"
-RPM_HASH = "98d54ed06d7aa8135a3b333ee0f5286756dbd95c8c3d6728bd43842ac3064b85ceb5faa012cd3b4a48d0f37a3ee9ad61651af3be74e4b90eff9d9a8337cfcbad"
+RPM_NAME = "mozilla-nss-tools-3.90-2.1.aarch64.rpm"
+RPM_HASH = "eb72dcc6648de3eb06e558261b67b0e2f978c4d0adc1f604f07ac4da27c99813f5dcd15f744f8aac1869de77e1abaf10c8f98073d3213cf295699080a4a21dce"
 
 RPROVIDES:${PN} += "mozilla-nss-tools"
 

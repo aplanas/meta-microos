@@ -2,10 +2,10 @@ SUMMARY = "Qt6 WebEngineWidgets library"
 DESCRIPTION = "The Qt6 WebEngineWidgets library."
 LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6WebEngineWidgets6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "01b069f5d8defdcaa3b653ea64da31009516eb1e2acb3f70999886ffa5cecee371628af0f6b0193a40551b89e24d88d4060f88cf7b71117ea1f222a538442d29"
+RPM_NAME = "libQt6WebEngineWidgets6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "4cf4ddd689474e68bfe165397abaa7d1e1482cde6069d4612068734fe84e53afab49546379dd5d4eb11135c4c2239f6914854b79426ae588937f4de869739391"
 
 RPROVIDES:${PN} += "libQt6WebEngineWidgets.so.6 \
 libQt6WebEngineWidgets6"

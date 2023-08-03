@@ -7,10 +7,10 @@ different formats and 'several-authors-books' fitting the \
 conditions of the aforementioned publishers."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn59333"
+PV = "2023.209.1.2svn59333"
 
-RPM_NAME = "texlive-sr-vorl-2023.201.1.2svn59333-57.1.noarch.rpm"
-RPM_HASH = "70bda2b0d51dfbbda272c1fb705c8ac9bd996629acde06dd36bdb09e534fc640815b0414150fcf50948e21c802ac3dd1d4cb7b1e470ee130c55ef66cf62b9818"
+RPM_NAME = "texlive-sr-vorl-2023.209.1.2svn59333-58.1.noarch.rpm"
+RPM_HASH = "4b840e05bdf7f44cb66451678325baa46ac86209a415f1872395804dc5b046986cd988c0daf737c81311ca7cc7c4b8a425eccf38ba74c522e4dafec1eaa1e24f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sr-vorl.cls \

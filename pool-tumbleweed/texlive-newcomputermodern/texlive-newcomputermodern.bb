@@ -7,10 +7,10 @@ Computer Modern, it provides a Book weight for heavier \
 printing."
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.201.4.4svn66327"
+PV = "2023.209.4.4svn66327"
 
-RPM_NAME = "texlive-newcomputermodern-2023.201.4.4svn66327-54.1.noarch.rpm"
-RPM_HASH = "7e1977ae623fd30964ef1826d57c6a8a08f9d669f2704ef6da7f6d1e724ff1022b1269013e59544dc0acafc95789c26f0feb64a1c5d9e31708f343589683784b"
+RPM_NAME = "texlive-newcomputermodern-2023.209.4.4svn66327-55.1.noarch.rpm"
+RPM_HASH = "109a6872d95759f5f36fe2ac327e35b30bcb95b790a2eabe69ba6538ab0a508565551bed5534b3b078ffc0b5d19f45416c380085ec97cd5cd85076ae59d583f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-newcomputermodern.sty \

@@ -4,10 +4,10 @@ adheres to the formatting guidelines of Brandeis University \
 Graduate School of Arts and Sciences (GSAS)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.13svn61215"
+PV = "2023.209.3.13svn61215"
 
-RPM_NAME = "texlive-brandeis-dissertation-2023.201.3.13svn61215-52.1.noarch.rpm"
-RPM_HASH = "a1f716ae04154d184e3ec9c66829878358b39c758067becb07b6a117d7a64a1aee2a99ccb9c578614a77db2821d1cc8d3ee0953726d36bfbddbda0e9fa738fd5"
+RPM_NAME = "texlive-brandeis-dissertation-2023.209.3.13svn61215-53.1.noarch.rpm"
+RPM_HASH = "10cf19d36c49fba78d987d39be239a1265e252a4547a657e7f1a62fdcfa84abaa897b686aba8425df32c30c36ea235fe46785b81dc78465be6028e7a5ae7efb9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-brandeis-dissertation.cls \

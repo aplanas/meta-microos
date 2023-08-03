@@ -11,19 +11,19 @@ programming language. \
     * Twisted binding"
 LICENSE = "BSD-2-Clause"
 
-PV = "4.4.12"
+PV = "5.0.28"
 
-RPM_NAME = "python310-pysnmp-4.4.12-2.15.noarch.rpm"
-RPM_HASH = "245a1502ef0365afe8d7697eea159d8f8fd8c649a51867edd32ab3de961500c55ba0e69fe3fa15d7974852fa280aa0606fb1c5be84b0e98e673d069ae98512fd"
+RPM_NAME = "python310-pysnmp-5.0.28-1.1.noarch.rpm"
+RPM_HASH = "087b1729e68a73e1c6417012d990d034e844db43441737ef3cd9b8f9acdee86ba9e131d4763c7c0c0bdfc42b97480f02ccac5f9c338ff39bfd6a56a1b338d057"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.10dist-pysnmp \
+RPROVIDES:${PN} += "python3.10dist-pysnmp-lextudio \
 python310-pysnmp \
-python3dist-pysnmp"
+python3dist-pysnmp-lextudio"
 
 RDEPENDS:${PN} += "python-abi \
 python310-pyasn1 \
-python310-pycryptodome \
-python310-pysmi"
+python310-pysmi \
+python310-pysnmpcrypto"
 
 inherit rpm

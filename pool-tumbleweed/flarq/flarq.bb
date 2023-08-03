@@ -5,10 +5,10 @@ transmitting and receiving frames of ARQ data via Fldigi. The interaction \
 between Flarq and Fldigi requires no operator intervention."
 LICENSE = "GPL-3.0-only"
 
-PV = "4.1.26"
+PV = "4.1.27"
 
-RPM_NAME = "flarq-4.1.26-1.4.aarch64.rpm"
-RPM_HASH = "266e0b1d705171fb41295a63822295c0e7b6e1e37b9db30b19c2b080a74458ec162d02658f43d62125b9e1b15e510b378af4a0bc6dc4586842f5d5b9632b7232"
+RPM_NAME = "flarq-4.1.27-1.1.aarch64.rpm"
+RPM_HASH = "d64001800e2e6bd6a8df22fd5ad9a62240764126002bd4a4b9cf2e053f98e4102d340b456b9ecd317ffa9fd9c4b37e49c7b1252c2c7a58ebfc60942cbbf1dfd2"
 
 RPROVIDES:${PN} += "flarq"
 

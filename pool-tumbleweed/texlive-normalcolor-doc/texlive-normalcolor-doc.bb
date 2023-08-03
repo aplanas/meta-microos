@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-normalcolor"
 DESCRIPTION = "This package includes the documentation for texlive-normalcolor"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.r11svn40125"
+PV = "2023.209.r11svn40125"
 
-RPM_NAME = "texlive-normalcolor-doc-2023.201.r11svn40125-54.1.noarch.rpm"
-RPM_HASH = "2753d4c5372e07fcb141f67851c3d062f7e8d1911f8069bd94cb0ed2316409771d00dd735f11f9cb352c160e881cf7fb1c2f3b07ccdb155a811b1b512f6780ef"
+RPM_NAME = "texlive-normalcolor-doc-2023.209.r11svn40125-55.1.noarch.rpm"
+RPM_HASH = "87eb15841ba6eda2e144781ed5eb7d7562252d96dbba3989dfda21755231432735d2e885cd6879e4c2d636c89d4b124c765529cefecabfbc6d6a3879cd64f1c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-normalcolor-doc"

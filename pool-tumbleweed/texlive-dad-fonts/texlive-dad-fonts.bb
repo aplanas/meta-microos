@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-dad"
 DESCRIPTION = "The  separated fonts package for texlive-dad"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.1.2svn54191"
+PV = "2023.209.1.2svn54191"
 
-RPM_NAME = "texlive-dad-fonts-2023.204.1.2svn54191-54.1.noarch.rpm"
-RPM_HASH = "81488d9bf3eb3b7bfeda22cb3dccc956592dce2f567afd738bf5e9115821a430cd4d2fe6a910857f1bacb309a722ce15a26b92865ec1c6d66381c93fe9207e55"
+RPM_NAME = "texlive-dad-fonts-2023.209.1.2svn54191-55.1.noarch.rpm"
+RPM_HASH = "2e1c7a70f1a66a16c44569f2fcd894646c65ec0e1accd68c69ccd668aaac0ea714a145fbb25fe4b8b5dab61b7eac9c130af86a00349693c42fe828a0897c3b54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=ar \

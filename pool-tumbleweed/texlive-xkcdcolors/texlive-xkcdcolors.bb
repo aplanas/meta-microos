@@ -8,10 +8,10 @@ same name to the same color. This package makes the collected \
 color names usable with LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.1svn54512"
+PV = "2023.209.1.0.1svn54512"
 
-RPM_NAME = "texlive-xkcdcolors-2023.201.1.0.1svn54512-52.2.noarch.rpm"
-RPM_HASH = "1c6ff1949077f6a6a50220bcd0b2a4a80e79df4c216a93a8300c4986af0e05ab58dc5d64ec46d27ad37f76acc27716d827b7881148a85ba9bf0f8c768cbd6a00"
+RPM_NAME = "texlive-xkcdcolors-2023.209.1.0.1svn54512-53.1.noarch.rpm"
+RPM_HASH = "db209e03a7b0585b669cb9a57c2dd85d7ed162e49b3661a275be926efad7a52343240889c839bcde0690d5f3675e321431910fc6b0ac377015e0f4b11d54cb87"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xkcdcolors.sty \

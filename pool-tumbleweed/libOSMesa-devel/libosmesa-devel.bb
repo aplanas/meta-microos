@@ -4,10 +4,10 @@ off-screen buffer using the OpenGL API without having to create a \
 rendering context on an X Server. It uses a pure software renderer."
 LICENSE = "MIT"
 
-PV = "23.1.3"
+PV = "23.1.4"
 
-RPM_NAME = "libOSMesa-devel-23.1.3-353.1.aarch64.rpm"
-RPM_HASH = "189225c4f1b9b948cbf7ece3e230ef3a6f81485f96a2716156ce7af45f78ea2ffbe8bdc86751c9b8e4821adecc3f4042c883c17a277fbe1af7e4e7de08e7bbe8"
+RPM_NAME = "libOSMesa-devel-23.1.4-354.1.aarch64.rpm"
+RPM_HASH = "b28f5d3f1437f3c5207cfd943ec09be2ef4a37806ee7cf8ab8c4ba8b0ae70947ef5d99c5d96229d06f01da8756af10e185eb1cb91e809342a52c8fe854f8cbcd"
 
 RPROVIDES:${PN} += "libOSMesa-devel \
 pkgconfig-osmesa"

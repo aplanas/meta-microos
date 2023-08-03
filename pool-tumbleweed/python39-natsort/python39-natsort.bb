@@ -4,10 +4,10 @@ DESCRIPTION = "Natsort provides a function natsorted that helps sort lists \
 sorting based on meaning and not computer code point)."
 LICENSE = "MIT"
 
-PV = "8.2.0"
+PV = "8.4.0"
 
-RPM_NAME = "python39-natsort-8.2.0-2.3.noarch.rpm"
-RPM_HASH = "a3e4368c7845a24a86db776560b49a9a5ddf604e0d04f05e8f53b20ceefa7346a49a3c79fc0c9f3543e84d39b12743d34c02066dd2d60d1fadb1a792866dad0e"
+RPM_NAME = "python39-natsort-8.4.0-1.1.noarch.rpm"
+RPM_HASH = "a6c9768cb2029ebe7d7369340546b2656c403baaace98e06c948fcaeb899edc9bbbf22a105b4c8e5f5c433534f32d47d80542a4044e7da4d5151949d5cbbccc7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-natsort \

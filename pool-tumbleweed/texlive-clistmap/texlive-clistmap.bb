@@ -4,10 +4,10 @@ templates whose job is to partition LaTeX3 clists and map \
 differentiatedly across its components."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn61811"
+PV = "2023.209.1.2svn61811"
 
-RPM_NAME = "texlive-clistmap-2023.201.1.2svn61811-53.1.noarch.rpm"
-RPM_HASH = "20724db8a138b629cb89d3e050e1b48b9e4c8de4897fd79fe367ac19e5a7f62808bf9bccfaa25adaeb4d60b57e4f32b1045b8ca31ed175744d1e288d3b4d3c38"
+RPM_NAME = "texlive-clistmap-2023.209.1.2svn61811-54.1.noarch.rpm"
+RPM_HASH = "88053dd1e7472ee69511ad0b777d63d66959ec8e2f7dc6329f699487095b2decbe20e1c6f29e5dc904d337144cc87ab2402ec043672514bfd15a2335bee2f2c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-clistmap.sty \

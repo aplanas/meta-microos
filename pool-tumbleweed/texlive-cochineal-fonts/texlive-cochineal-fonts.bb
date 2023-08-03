@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-cochineal"
 DESCRIPTION = "The  separated fonts package for texlive-cochineal"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.077svn62063"
+PV = "2023.209.1.077svn62063"
 
-RPM_NAME = "texlive-cochineal-fonts-2023.201.1.077svn62063-53.1.noarch.rpm"
-RPM_HASH = "6fabee30c1184f10117d04fed81c5c4f6f6f61dd84604834fc9e12ea2b6405b8ad32dd99efb67b5a823fd3890d03c3e00bd066b5be6ff47a6acc6b41f6f13857"
+RPM_NAME = "texlive-cochineal-fonts-2023.209.1.077svn62063-54.1.noarch.rpm"
+RPM_HASH = "6a3f9b8a42e28ac62c7a1eed50af5886b6d977650ce3c68fa57f2615ad2711aad70a0e272b07648adb186e27adc4653a2ef516f09ff4f6a2a0654224c17e50c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-cochineal-fonts \

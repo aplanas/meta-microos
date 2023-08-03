@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-wallcalendar"
 DESCRIPTION = "This package includes the documentation for texlive-wallcalendar"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3.1svn45568"
+PV = "2023.209.1.3.1svn45568"
 
-RPM_NAME = "texlive-wallcalendar-doc-2023.201.1.3.1svn45568-53.1.noarch.rpm"
-RPM_HASH = "0b69671ab019d75ffccc3b717a89cf27d000dbcfe70f42d5c742537ccdd32db944a55bd376e438b1d89a4fe9875e9bd689b9e429191e02d6c7fdc9a97236d575"
+RPM_NAME = "texlive-wallcalendar-doc-2023.209.1.3.1svn45568-54.1.noarch.rpm"
+RPM_HASH = "8ac2a70fb09891c634baa19e09db25efabf59a98d8e8bba3cb587ac05e762bc4540f7c7a8ff06a060bfd7de14dbecb69cf9c4e66a55905f4e634c3f65ccd8141"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-wallcalendar-doc"

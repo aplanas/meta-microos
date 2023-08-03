@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Multimedia library - Development files"
 DESCRIPTION = "Development files for the Qt 6 Multimedia library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-multimedia-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "fa5bfe6f5595c0be44b31e988b228ed2fc6db36784f264b848a8e86929cceccf0c63992062cda089d6de8b6dceed635ddde1d6b4255b832d7c7fc68e33cffeb6"
+RPM_NAME = "qt6-multimedia-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "d36259f70c61cbcabbded760835d2cb452cd03abdf56fc4b204c9cad76f828d3b52cf55435003cbda7ff784aded9cdc15fd6bb2e881eb278b612a5a63b773191"
 
 RPROVIDES:${PN} += "cmake-Qt6Multimedia \
 pkgconfig-Qt6Multimedia \

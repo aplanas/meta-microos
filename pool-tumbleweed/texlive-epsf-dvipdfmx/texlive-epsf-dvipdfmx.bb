@@ -6,10 +6,10 @@ anything except the origin (0,0) for the lower-left of its \
 bounding box."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.2014svn35575"
+PV = "2023.209.2014svn35575"
 
-RPM_NAME = "texlive-epsf-dvipdfmx-2023.201.2014svn35575-53.2.noarch.rpm"
-RPM_HASH = "5555f6361c53eb05578f02e493a10f34fd806df717eb7e554592f9709f42d3c7d75a2e3ea63f354bbf938ff1362e76cecae3d920f2230286e9429a370a9ea5ae"
+RPM_NAME = "texlive-epsf-dvipdfmx-2023.209.2014svn35575-54.1.noarch.rpm"
+RPM_HASH = "40dac07b9e8ae41679dfa9db4f9a30c4fe9fc8b42f63a51495c95db5ce30cadba70a94c3cb8904039ed33b56fb4e5bf78c802b6a3e5e3ef5ef8fb0228db6a9eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-epsf-dvipdfmx.tex \

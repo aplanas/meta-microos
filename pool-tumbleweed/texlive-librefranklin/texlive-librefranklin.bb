@@ -4,10 +4,10 @@ DESCRIPTION = "Libre Franklin is an interpretation and expansion based on the \
 Impallari, Rodrigo Fuenzalida and Nhung Nguyen."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64441"
+PV = "2023.209.svn64441"
 
-RPM_NAME = "texlive-librefranklin-2023.201.svn64441-54.1.noarch.rpm"
-RPM_HASH = "cc5e06e4dc7708cfe91101e4ba4904abb2514df5a10ead14bfce3b97629e40e31130fcac39570ea7a237edc76f76f85b7a54e68ad63751a321c3bd5ca8c633a1"
+RPM_NAME = "texlive-librefranklin-2023.209.svn64441-55.1.noarch.rpm"
+RPM_HASH = "8c656a18bc1da2a5f879819848365f332e00d3569128e642f8c982fb88cbfd63a8706f660230987be44d6f6cc5223a53512330f6db612d160e3b5ffa0b2391d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LGRLibreFranklin-Sup.fd \

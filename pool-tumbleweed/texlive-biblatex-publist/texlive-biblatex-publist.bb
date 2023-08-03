@@ -7,10 +7,10 @@ author's own name from author or editor data. At least version \
 3.4 of biblatex is required."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.2svn66273"
+PV = "2023.209.2.2svn66273"
 
-RPM_NAME = "texlive-biblatex-publist-2023.201.2.2svn66273-53.1.noarch.rpm"
-RPM_HASH = "9d6c336c03c77c2d99af89bcc4a76996b030816e53f82ae70de92ad63b80eafb6eb1bc993a078720ef6d955fead853f8ee1147d5e8e09a9ff06cd20cd54f20a7"
+RPM_NAME = "texlive-biblatex-publist-2023.209.2.2svn66273-54.1.noarch.rpm"
+RPM_HASH = "cddd404faa09efc8fcfcdf324ef61170e924d4521e25da22076fce2c0e3dd40dea991347055dbe8d1c0218a1aad14283ac41796e79413d9be0dc342901c98ee5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-publist.bbx \

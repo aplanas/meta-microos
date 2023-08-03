@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.1"
 
-RPM_NAME = "python39-pytest-curio-1.0.1-1.10.noarch.rpm"
-RPM_HASH = "e402469868345950eb4cfcb2d3c4264077a4a91449e9d90aa918c4cda3e232b1fd504aa178a2b443155c3df5dc14937a86839e07e5d7ce04a839a702faf3af14"
+RPM_NAME = "python39-pytest-curio-1.0.1-2.1.noarch.rpm"
+RPM_HASH = "73156b4a5f0494fd7c76bf764b76b28d79859d4f779819a90b8e1b8a51538fd04b34f3bfd9ecf8e3a6c243cccde3445cd3dabc2d881aacb30217e96a47d5c4f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-curio \

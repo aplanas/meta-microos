@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-quotchap"
 DESCRIPTION = "This package includes the documentation for texlive-quotchap"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.3svn56926"
+PV = "2023.209.1.3svn56926"
 
-RPM_NAME = "texlive-quotchap-doc-2023.201.1.3svn56926-53.2.noarch.rpm"
-RPM_HASH = "f6f40f6c49ed838afac749f3e678eefecb73090b0b084714f9ac2d5b7b453dfeffb03d8c2971f75d7c1481075e83cb85e4ec7cc609fff52d0b8963fb84ac046a"
+RPM_NAME = "texlive-quotchap-doc-2023.209.1.3svn56926-54.1.noarch.rpm"
+RPM_HASH = "100791522fb33ae19519b345861dd26c203c64e81b6f6c86822238018b40059b1064709b5738a0ae25bf8cd86c5d617401ca50425716e9237cec367a2a917a10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-quotchap-doc"

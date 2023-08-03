@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides an additional 'end of proof' sign. The \
 command's name is \\wasserdicht."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn55643"
+PV = "2023.209.svn55643"
 
-RPM_NAME = "texlive-endofproofwd-2023.201.svn55643-53.2.noarch.rpm"
-RPM_HASH = "f46344b37c0c5a5742068387dc606ef74622fcacbbd0dedf680dbe6cd0858531675d9fb8ed1b146b1b351ae59d80d2662918d53fddb4817ea60dee1216588eb8"
+RPM_NAME = "texlive-endofproofwd-2023.209.svn55643-54.1.noarch.rpm"
+RPM_HASH = "195049e1fa2b5a9d1521546dc6761945b4b9b85736c93c08c0f3fac211219a3452f3fdca89b951920e102815c7720fd3a6a1c634f053a2c1c6ec36bb413cfb97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-endofproofwd.sty \

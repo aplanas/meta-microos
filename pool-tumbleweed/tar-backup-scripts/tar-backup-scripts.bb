@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.34"
 
-RPM_NAME = "tar-backup-scripts-1.34-10.4.noarch.rpm"
-RPM_HASH = "69a04e2afdba9b7b16579ecddf3e782bfc33e6dac599ce2aec9499788074dd1b41dbfe8b158ff4eb6b476a7c6fbcc2d994b43eba947d4888add1d8ecac574cab"
+RPM_NAME = "tar-backup-scripts-1.34-11.1.noarch.rpm"
+RPM_HASH = "1f6fc79546465457883f3d6ebae1baf572e4e1b785ca731d2576d9b69aab3af97554a6aef2db17b2192ac5aeef14bd9894ad1b6f041dbd26aa9c1202117e6803"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-tar-backup-scripts \

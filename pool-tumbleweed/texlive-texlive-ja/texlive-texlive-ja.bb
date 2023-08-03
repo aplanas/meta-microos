@@ -2,10 +2,10 @@ SUMMARY = "TeX Live manual (Japanese)"
 DESCRIPTION = "The texlive-ja package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66482"
+PV = "2023.209.svn66482"
 
-RPM_NAME = "texlive-texlive-ja-2023.201.svn66482-54.1.noarch.rpm"
-RPM_HASH = "cf76ab8bf590f63afcc224f728eb3b3e42e80200c1321273e444bee1bddfa4313b7f2f1dd6e51d067acfc0d3975ad0a713c644a613ad7eff5c01ff04d56b17ce"
+RPM_NAME = "texlive-texlive-ja-2023.209.svn66482-55.1.noarch.rpm"
+RPM_HASH = "d3d67103cb7dee9da53238ccaf2cbca1b5099fd22af3c2db70971eaf7e004e6bbf3b0eb16b566333f504a0db92409640eed252d155f3f1aefbf1c9718eb637f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texlive-ja"

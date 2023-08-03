@@ -3,10 +3,10 @@ DESCRIPTION = "libucm is a standalone non-unloadable library which installs hook
 for virtual memory changes in the current process."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.14.0"
+PV = "1.14.1"
 
-RPM_NAME = "libucm-devel-1.14.0-1.2.aarch64.rpm"
-RPM_HASH = "a6fd24e3a86d69d8756494f34eeec3c7fd3c1e8a4313b70f6baf5a96c619d0c9c421a3c315ea0dbef058ad58498329d48da5611df6d079a3b030a5cd87cf71a2"
+RPM_NAME = "libucm-devel-1.14.1-1.1.aarch64.rpm"
+RPM_HASH = "498a6c3336ce8dc5d5a8e54e89b0a6bba1a6077fc045f99ad4037f2f7415c070120b4d695cfa204481ef96a32413adc1c8065b61dc0a8d23b44febced1735e71"
 
 RPROVIDES:${PN} += "libucm-devel"
 

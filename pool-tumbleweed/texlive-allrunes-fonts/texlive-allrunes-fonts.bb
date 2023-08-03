@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-allrunes"
 DESCRIPTION = "The  separated fonts package for texlive-allrunes"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1.1svn42221"
+PV = "2023.209.2.1.1svn42221"
 
-RPM_NAME = "texlive-allrunes-fonts-2023.201.2.1.1svn42221-54.1.noarch.rpm"
-RPM_HASH = "cb3380a5ac508ef21e07d246a04536b77e7a79df0652b2b59473232b11f112730a5ed904e7fc28b6a95ad3671ffac343d6a359c83716322d89d9f7ed19cdf69a"
+RPM_NAME = "texlive-allrunes-fonts-2023.209.2.1.1svn42221-55.1.noarch.rpm"
+RPM_HASH = "526136d786d23eda1c3c6c194a53f6450342cd74aee8604d53b44ae829aeb6eefd8f8a4dc56d2584f7b437bf5595725c897c2969ca3030540ec8af5633a6f1a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

@@ -7,10 +7,10 @@ command, so it conflicts with packages that do the same. \
 Examples are the classes paper.cls and thesis.cls."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.0svn17262"
+PV = "2023.209.1.0svn17262"
 
-RPM_NAME = "texlive-excludeonly-2023.201.1.0svn17262-52.1.noarch.rpm"
-RPM_HASH = "a801c65c00fbb73f39550c4a8731ef7a05ad8de357823418c02c276290920e23ba0e73e97e3cd310c5ebf92bb01149e973b0be0972da616dc1d148a2e56d9820"
+RPM_NAME = "texlive-excludeonly-2023.209.1.0svn17262-53.1.noarch.rpm"
+RPM_HASH = "7abfbfad43735c55142d1f9c1a099d8d184e869f4e2ae18e73f475b2527936bc8c0e77c52bd4840633751da9c5f756ffc1bc69ae83ec6f454d3e16abbcda0cbd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-excludeonly.sty \

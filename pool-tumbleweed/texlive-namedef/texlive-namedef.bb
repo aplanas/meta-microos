@@ -9,10 +9,10 @@ definitions. A usual definition reads: \\def\\SayHello#1{Hello, \
 figure out the numbering of the parameters for you."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn55881"
+PV = "2023.209.1.0svn55881"
 
-RPM_NAME = "texlive-namedef-2023.201.1.0svn55881-54.1.noarch.rpm"
-RPM_HASH = "90269a5368eb11ee226278c778ac1d2c380bb0885d65e71d6caf0b3bb2cbec3b8050c3583f38fd77c8a901ae999ce726539074a0fffd0460883a84ac0f4b2e3b"
+RPM_NAME = "texlive-namedef-2023.209.1.0svn55881-55.1.noarch.rpm"
+RPM_HASH = "fdea30c84706644c6c70a13e77171843448da6db60fa6dd8a70f3c7165fcc462d5d31e63b9780dd9d807e26f8850832eed7bf89b5d083fba8e4b42a4969e298a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-namedef.sty \

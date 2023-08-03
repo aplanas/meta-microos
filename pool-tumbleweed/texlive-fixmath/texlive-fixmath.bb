@@ -14,10 +14,10 @@ be part of the was bundle, but has now become a package in its \
 own right."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.9.1svn64648"
+PV = "2023.209.0.0.9.1svn64648"
 
-RPM_NAME = "texlive-fixmath-2023.201.0.0.9.1svn64648-52.1.noarch.rpm"
-RPM_HASH = "bbd8d9ad74f1a33642dc5597e235ed78b0897b54f6811e2d2dfb7131573275f1c7d7157079fe0286d2f8e466845c3b8efa38548b21b33b450970d40786f80c48"
+RPM_NAME = "texlive-fixmath-2023.209.0.0.9.1svn64648-53.1.noarch.rpm"
+RPM_HASH = "0e8521e69842e6e571a7c2557e3d86797457f1d36402f90e2b84a3a961a7997376177caec12b7d2538eaab15f0494a93d173a3e9e3a54b21277b5ef1ee7147f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fixmath.sty \

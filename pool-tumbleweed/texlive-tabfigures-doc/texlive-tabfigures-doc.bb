@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tabfigures"
 DESCRIPTION = "This package includes the documentation for texlive-tabfigures"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn25202"
+PV = "2023.209.1.1svn25202"
 
-RPM_NAME = "texlive-tabfigures-doc-2023.201.1.1svn25202-57.1.noarch.rpm"
-RPM_HASH = "cf4031a4077970a67f9f4bf1c0ca4c297f8354d7c2ef604c0eef4ff44329942d90bcac8d65da4cb11878d3acf7848c9e4a2d6e261969f4e26df409f81ca693a2"
+RPM_NAME = "texlive-tabfigures-doc-2023.209.1.1svn25202-58.1.noarch.rpm"
+RPM_HASH = "16b7367996c33629a28279053d382ca17777db7cc7428fc81497084c28c502e623b7d0989323862b8a4a54859b2e09a648c392513d83b10afb8ce6239f2f8be4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tabfigures-doc"

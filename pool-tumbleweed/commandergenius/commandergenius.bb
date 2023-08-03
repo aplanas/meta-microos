@@ -5,10 +5,10 @@ Keen Vorticon (1-3) and Galaxy (3½-6) series. \
 It has 4-player cooperative mode and six difficulty modes."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.2.0"
+PV = "3.4.0"
 
-RPM_NAME = "commandergenius-3.2.0-2.2.aarch64.rpm"
-RPM_HASH = "8ecc0a3a129ef9835b6844cac6d871dbeaa27589e7fd656111167ee5647d4cc8411ef11e15b641dbf000a6e533d010b3e74bb4c9e799aa6e579f05968c0fff2a"
+RPM_NAME = "commandergenius-3.4.0-1.1.aarch64.rpm"
+RPM_HASH = "f443a692ebd09cfc97478e05cadcafbed62ed83e42daa360ad7c21e27661032c29f73d40952d75ffc4cf90ff6941d9acb6261c4bc01496e03b5c4f108f1e5ccb"
 
 RPROVIDES:${PN} += "commandergenius"
 

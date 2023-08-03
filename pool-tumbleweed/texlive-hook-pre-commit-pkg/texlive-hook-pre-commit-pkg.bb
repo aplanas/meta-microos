@@ -14,10 +14,10 @@ printed between % and \\begin{macrocode} or \\end{macrocode}. \\cs \
 argument must not start with a backslash."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.1.2svn41378"
+PV = "2023.209.1.1.2svn41378"
 
-RPM_NAME = "texlive-hook-pre-commit-pkg-2023.201.1.1.2svn41378-53.2.noarch.rpm"
-RPM_HASH = "1f2924e04a34dfe2ef25b443ca492fda89c8323a49b61185945a2360d3f76d9e6ff4dfaec3f9521000d15993835a20f0264828742797554f5382bc26c537a684"
+RPM_NAME = "texlive-hook-pre-commit-pkg-2023.209.1.1.2svn41378-54.1.noarch.rpm"
+RPM_HASH = "6b4520f7d46f655a528dbb8c7342f6cc0d5bc13d673a68353705b9ab7d44115ad53cc683968a3e2ec883a063ea394b07d8777f24513f5370d527a6bf40f43e2c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hook-pre-commit-pkg"

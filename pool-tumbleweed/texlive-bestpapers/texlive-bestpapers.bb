@@ -13,10 +13,10 @@ the Consumer Financial Protection Bureau, United States \
 Treasury. This package is in the public domain."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.0svn38708"
+PV = "2023.209.1.0svn38708"
 
-RPM_NAME = "texlive-bestpapers-2023.201.1.0svn38708-53.1.noarch.rpm"
-RPM_HASH = "55d20d184df8823acebfc8c2099130574d5b2d224d6f20ec417cf093c4818ea1656671f96af57b1cb1d53aaecc03a062ae8ecf5837490b312bf1c221e57e2de6"
+RPM_NAME = "texlive-bestpapers-2023.209.1.0svn38708-54.1.noarch.rpm"
+RPM_HASH = "d1b1516427a583141850b390aa1dbef328a9530a47ce63822fff0768f81408a43b59d0cf109c98fef4a8a1ade5071591a2e71d1b71ec04feeffbf92a01d1b90c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bestpapers"

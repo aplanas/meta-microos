@@ -4,10 +4,10 @@ terms in equations and add annotation labels using TikZ. It \
 should work with pdfLaTeX as well as LuaLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2.0svn65851"
+PV = "2023.209.0.0.2.0svn65851"
 
-RPM_NAME = "texlive-annotate-equations-2023.201.0.0.2.0svn65851-54.1.noarch.rpm"
-RPM_HASH = "9c4d3501f1a0b6917d381f64a153cce1176bdc9ffd1bcf3c4a618ea0e20f254fbe9ae06a8ca9a5152037c0f4cbd6ec2b81c269bc7f0a2a924528722bdfbf35fc"
+RPM_NAME = "texlive-annotate-equations-2023.209.0.0.2.0svn65851-55.1.noarch.rpm"
+RPM_HASH = "70a8ff77c39ee4a92924ab4313d6edae52f60308dfd4cafdcf15f6361a41c4b03375ca5c85ff36bc23d123c4c5744a0068211afb2cc7e562b91bccc98351d919"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-annotate-equations.sty \

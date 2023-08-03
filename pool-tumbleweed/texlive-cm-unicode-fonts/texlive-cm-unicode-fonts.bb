@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-cm-unicode"
 DESCRIPTION = "The  separated fonts package for texlive-cm-unicode"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.7.0svn58661"
+PV = "2023.209.0.0.7.0svn58661"
 
-RPM_NAME = "texlive-cm-unicode-fonts-2023.201.0.0.7.0svn58661-53.1.noarch.rpm"
-RPM_HASH = "9785492ef5fc3665a734b2b9fdd923180d45511fa4f5ad407e8549ce685130123f0d009b17fda0b71daaac9857d4d8b6d454424990c30df42d9ed3c394b7f37f"
+RPM_NAME = "texlive-cm-unicode-fonts-2023.209.0.0.7.0svn58661-54.1.noarch.rpm"
+RPM_HASH = "a8fba4df47b20002327f0de1a2726b10e417d50eeba35854e38a6937dbf23f5895e2ecbdc0970d544d55f9c29e96a71de60a3c5eb7fac0edf9d22422e17e9ab1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-cm-unicode-fonts \

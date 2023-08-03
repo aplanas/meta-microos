@@ -4,10 +4,10 @@ macro. It requires e-TeX. Both LaTeX and plain TeX are \
 supported."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.8svn53084"
+PV = "2023.209.1.8svn53084"
 
-RPM_NAME = "texlive-catchfile-2023.201.1.8svn53084-52.1.noarch.rpm"
-RPM_HASH = "88fd5d63ef97db41d11701b41794234e2d978a21b2c5ccea66a25531780752229776ebf44e215656e3b4653260d9667190efd4b577d81cd78040bcc39002b54a"
+RPM_NAME = "texlive-catchfile-2023.209.1.8svn53084-53.1.noarch.rpm"
+RPM_HASH = "3fd59274f1b80dbce131a0ce14a452de744a2cde1fbbeaf146864eac3275c440cb8e9d350ad82fefe882b80588c8243b475a796d48a47da08f6d86df5f7bf488"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-catchfile.sty \

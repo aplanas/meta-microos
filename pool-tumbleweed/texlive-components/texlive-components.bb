@@ -3,10 +3,10 @@ DESCRIPTION = "An introduction to the components and files users of TeX may \
 encounter."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn63184"
+PV = "2023.209.svn63184"
 
-RPM_NAME = "texlive-components-2023.201.svn63184-53.1.noarch.rpm"
-RPM_HASH = "f4b9faa9db91d027928273ac1bd66106ce5f6b5831dac6d5d556222e62b4154abca0d8546aec415100c3c2196afae2ed48cfe55f08e63097cb7801e24734eec8"
+RPM_NAME = "texlive-components-2023.209.svn63184-54.1.noarch.rpm"
+RPM_HASH = "a84f2556b4b8e0ec430ab1da6bc254ed4294da25c395eeaa66f14a5ce1b19fd38b0d3f02dc40be603472058a175d1518a2363733d08a25978f618f75f6f4d78e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-components"

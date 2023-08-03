@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-oswald"
 DESCRIPTION = "The  separated fonts package for texlive-oswald"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn60784"
+PV = "2023.209.svn60784"
 
-RPM_NAME = "texlive-oswald-fonts-2023.201.svn60784-54.1.noarch.rpm"
-RPM_HASH = "49301ad901734df7daa203dc71468e00802f44b807729bcda5244a4988c81ad4a9829b71f95c353d10610f0af78bc27b25fe64ec60fa0bb245368a5d11cc9fde"
+RPM_NAME = "texlive-oswald-fonts-2023.209.svn60784-55.1.noarch.rpm"
+RPM_HASH = "5ffc2a366fb6085bfcce4da51d1915a2bb818ea1343c45e367d329cd95f0c37d878a7278d29aa16586cbe5661d832323f79ebfde51093060a5489ca7416d9b77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

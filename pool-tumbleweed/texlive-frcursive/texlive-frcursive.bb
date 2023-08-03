@@ -5,10 +5,10 @@ converted to Adobe Type 1 format. LaTeX support (NFFS fd files, \
 and a package) and font maps are provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn24559"
+PV = "2023.209.svn24559"
 
-RPM_NAME = "texlive-frcursive-2023.201.svn24559-52.1.noarch.rpm"
-RPM_HASH = "6bc007196d706aceae30f7689ce45fd7d698510085fd1516cd42db40b074f9881123c62aa1fefe0e79c2a0eefb68fdadbe0dd4d4a7ead39d7694360dbf61ae8b"
+RPM_NAME = "texlive-frcursive-2023.209.svn24559-53.1.noarch.rpm"
+RPM_HASH = "f36c9efd09e761c6f1347215eeb0abc8ddf6b96c8545f3bda26404342d93770480f72926e5aa7b4dfecdae460cd8b6bb1459ef9163d20dd12ccd732f4998c636"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-frca10.tfm \

@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "253.7"
 
-RPM_NAME = "systemd-sysvcompat-253.7-1.2.aarch64.rpm"
-RPM_HASH = "81643398ba6f03ee0ea35c75d773df16c2934abf90477130e14c1ce3f1bc16c69a6517c174a4bfab5c3648fceb670528ec7820d038a0133b3dc6172fab1eb1ce"
+RPM_NAME = "systemd-sysvcompat-253.7-2.1.aarch64.rpm"
+RPM_HASH = "51fad68d5f5564176af81e5c09979c27ebce32689731ad090f017a69e28fa9ca2f1bec1c1c867acbbf0e3679dfbaebeddb069ead282fb24ce7d5559c4c4b8531"
 
 RPROVIDES:${PN} += "systemd-sysvcompat \
 systemd-sysvinit-/usr/sbin/runlevel \

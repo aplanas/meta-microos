@@ -12,10 +12,10 @@ adding numbers for pitch analysis, one or two octaves, and \
 others."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn61719"
+PV = "2023.209.1.0svn61719"
 
-RPM_NAME = "texlive-xpiano-2023.201.1.0svn61719-52.2.noarch.rpm"
-RPM_HASH = "60e5c5cc3e1bed10dbf533599db78a8cf36d4e7d07ba8c381021944414a1adf3567c2694c30e93287b1773149dc969396f93ef96349efaac59e7ef02bbd0e380"
+RPM_NAME = "texlive-xpiano-2023.209.1.0svn61719-53.1.noarch.rpm"
+RPM_HASH = "c70be79e1cad367f2af300dc22c20052cf0ebd5b4e58da34aaa546ed3b5e5a6a646a8d1c90f2e1e70c3d33bdbfe64e7833ac8e1de55e1d261c503fb4aaa6c42f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xpiano.sty \

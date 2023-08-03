@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-accsupp"
 DESCRIPTION = "This package includes the documentation for texlive-accsupp"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.6svn53052"
+PV = "2023.209.0.0.6svn53052"
 
-RPM_NAME = "texlive-accsupp-doc-2023.201.0.0.6svn53052-54.1.noarch.rpm"
-RPM_HASH = "ee33aa5027125b4bd52406e12c35c0d5472205617bf1166141ee0ca02ba5433f8298791d36aa1e76e17de0615290476920187c4fe706e890214e9df9ced25311"
+RPM_NAME = "texlive-accsupp-doc-2023.209.0.0.6svn53052-55.1.noarch.rpm"
+RPM_HASH = "b0042b92cd147471595e15ea0a0b81e1fbb91e552f187b0f0a49a4cd79c61dcb3c3dd08a7f8865f559ac0bc2815f81cc7c14921f4d08585f3c8aa4b89e514bb6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-accsupp-doc"

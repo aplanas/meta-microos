@@ -9,10 +9,10 @@ repositories. All new repositories should use this version of \
 the package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0.7svn38913"
+PV = "2023.209.2.0.7svn38913"
 
-RPM_NAME = "texlive-gitinfo2-2023.201.2.0.7svn38913-53.2.noarch.rpm"
-RPM_HASH = "c11e461aa33800acadc7c0256da8fee5872d646fe6d46e3ef7568cc765bbdc6d4fd8a92e239a9d8c661019577dfcf5f89cc1f7a57d6bfc5a402de9d5e7e3fa95"
+RPM_NAME = "texlive-gitinfo2-2023.209.2.0.7svn38913-54.1.noarch.rpm"
+RPM_HASH = "6359b0ab41dd5ac9525f865dcdf22552795969d954a81c678b0cf2962185b198c43c896bd781ae9bc344f7301d660d4cda9bc23df17944c0ec4df2c9e62c863d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gitexinfo.sty \

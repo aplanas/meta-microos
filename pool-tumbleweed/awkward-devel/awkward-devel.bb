@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "21"
 
-RPM_NAME = "awkward-devel-21-1.1.aarch64.rpm"
-RPM_HASH = "9ce3fcc364f582bcec51221bbd60eda86df01c92042fbdd64f433d9aaf2af80cc978214271d70b03c37db4a9af5862f304858b2976f0262a908a946896d7cec7"
+RPM_NAME = "awkward-devel-21-2.1.aarch64.rpm"
+RPM_HASH = "39bc518fad3918da2a9c73f366255d4f4dea295302f1b2bfa9a948032f8f3dbe1016a5c46b13a59f75d2e10e23b639491c75b1e9e24efff75777d8c9964d6301"
 
 RPROVIDES:${PN} += "awkward-devel \
 cmake-awkward-headers"

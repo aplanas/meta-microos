@@ -13,10 +13,10 @@ TeX -- it should not be processed without Knuth's direct \
 permission."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.201.3.141592653svn66186"
+PV = "2023.209.3.141592653svn66186"
 
-RPM_NAME = "texlive-tex-2023.201.3.141592653svn66186-54.1.noarch.rpm"
-RPM_HASH = "476a8273a261953440b9a11be2e80bf02de8dbbcdcde49ed888c8bc3e67d9291e5d2e614e2c825ba5c0a37c2e03051bada0539838c578cc76f09b72e9728d4d6"
+RPM_NAME = "texlive-tex-2023.209.3.141592653svn66186-55.1.noarch.rpm"
+RPM_HASH = "a3aee5dec439e874ce8c721f8762eef6c9e574ccea0705102292f6b31ad4f4d3d919cb351b45b6adcecc046e99ee738a9b17dbeee7553768ed275fa373d23029"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-initex.1 \

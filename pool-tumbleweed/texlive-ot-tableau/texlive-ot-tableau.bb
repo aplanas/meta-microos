@@ -8,10 +8,10 @@ package requires xstring, amssymb, bbding, suffix, colortbl, \
 rotating, hhline (optionally), arydshln, and tipa (optionally)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn59318"
+PV = "2023.209.svn59318"
 
-RPM_NAME = "texlive-ot-tableau-2023.201.svn59318-54.1.noarch.rpm"
-RPM_HASH = "adec41b0a7a2c5c96e1b16fd1b8d3eb307f6eca3bc6d18b5228a9bc3b671cc7ffde8781a5473a51ec8a17ac2a4a06555e323a58c1c03ffe82b7ac0c0c7c21c7e"
+RPM_NAME = "texlive-ot-tableau-2023.209.svn59318-55.1.noarch.rpm"
+RPM_HASH = "30f1612807acbdb872dd8997de15b36ec9723a04ed83425a985973ff7b2d867db5d8ac2227910408461dd05d4e182a5065f7f901e6546c2eceab4836cc1dc374"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ot-tableau.sty \

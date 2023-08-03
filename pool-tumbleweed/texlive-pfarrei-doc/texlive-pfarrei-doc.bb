@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pfarrei"
 DESCRIPTION = "This package includes the documentation for texlive-pfarrei"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.r36svn31934"
+PV = "2023.209.r36svn31934"
 
-RPM_NAME = "texlive-pfarrei-doc-2023.201.r36svn31934-51.1.noarch.rpm"
-RPM_HASH = "a53d53dc16b4bb995464a2099ca06dca7b4b086718690ac5375d47c3a261c6af0a6816f4e97c46c7b9023a7a4036f66ed5f69e3b48522146953210ad9c137b75"
+RPM_NAME = "texlive-pfarrei-doc-2023.209.r36svn31934-52.1.noarch.rpm"
+RPM_HASH = "a8449909f99fa240c9f74397d7e207a69a9a45e7e89138fb56faebcc765e2e9020deaea3129b86bb958101d7d723d126391f886051e9c89a51444ff570b82b7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pfarrei-doc-de \

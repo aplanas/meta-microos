@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides BibLaTeX support for citations in the \
 format specified by the MLA handbook."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1asvn62138"
+PV = "2023.209.2.1asvn62138"
 
-RPM_NAME = "texlive-biblatex-mla-2023.201.2.1asvn62138-53.1.noarch.rpm"
-RPM_HASH = "81873bb8e911818eed398c7688fe3120de9b33e02f7d400666af5bd9862fefab229f6076de3964eb21b93a9a8444f172a6380f2393d55e52cb4b233262a49764"
+RPM_NAME = "texlive-biblatex-mla-2023.209.2.1asvn62138-54.1.noarch.rpm"
+RPM_HASH = "9a5c53664201b9199305eb1c7e9714bf47542bf0996e7b30f17e9ed04af6763165b475f6a2030a7f6728572a901466ddf2eb41a1a598b78f03dbbedc09b94f81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-american-mla.lbx \

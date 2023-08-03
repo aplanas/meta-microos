@@ -2,10 +2,10 @@ SUMMARY = "Documentation for qt6-location in HTML format"
 DESCRIPTION = "This package contains documentation for qt6-location in HTML format."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-location-docs-html-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "f4eb356a4cf9888f8dde775a0bc4963738745fad6bd340bca895848a165221bd57fad4a956edfbb13f003ccd7099e3d30260132224d1acc9cd64c9ce3c99d5bc"
+RPM_NAME = "qt6-location-docs-html-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "348f609e28b95b61f795731a61a8823f5eec0712e2a9d936f1eb02e01ca546968c03730f29820a5a833bbc24380314fea6af2293a545b0bedde11f47c0b1d72a"
 
 RPROVIDES:${PN} += "qt6-location-docs-html"
 

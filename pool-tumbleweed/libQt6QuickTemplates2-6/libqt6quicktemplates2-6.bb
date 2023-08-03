@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 QuickTemplates2 library"
 DESCRIPTION = "The Qt 6 QuickTemplates2 library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6QuickTemplates2-6-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "57f0c19656c87bc822752fa0454e8ef0f32c9719efd54651b9b0af6f419ea66824facf9c5fe439eee4cf90a73d42a6c309a7787e36dfc69517d6c31be1a7eef1"
+RPM_NAME = "libQt6QuickTemplates2-6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "a2c59282e3bd2a017a039c17d3bf0c4a61ab0d5b4b6a6ffa91bd81e2708c2134026457550c704f99902ef795f87093af4f0b7522c2e3067a93515372e8fc6f42"
 
 RPROVIDES:${PN} += "libQt6QuickTemplates2-6 \
 libQt6QuickTemplates2.so.6"

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides templates and a sty file for generating \
 invoices for Belgian non-profit organizations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.1svn50010"
+PV = "2023.209.1.0.1svn50010"
 
-RPM_NAME = "texlive-modeles-factures-belges-assocs-2023.201.1.0.1svn50010-54.1.noarch.rpm"
-RPM_HASH = "b1d10cd39e0377820dc564800bf81c257b088a7b5f8b1cba5b8c3b9412d1d03fb377374df6d5feaa33302ed2c841f06f50c2171da5662890b86dbe138fb49fb2"
+RPM_NAME = "texlive-modeles-factures-belges-assocs-2023.209.1.0.1svn50010-55.1.noarch.rpm"
+RPM_HASH = "54bd9abb63edd2c69137f4e70cdd1b41eb2cff9e856a91ea899dd19790a56a18afba497b6ba706e28a488dde190d88877234fe524cecefdceef5a27682bf5340"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-modeles-factures-belges-associations.sty \

@@ -5,10 +5,10 @@ package is distributed with the bigdelim and bigstrut packages, \
 which can be used to advantage with \\multirow cells."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.8svn58396"
+PV = "2023.209.2.8svn58396"
 
-RPM_NAME = "texlive-multirow-2023.201.2.8svn58396-54.1.noarch.rpm"
-RPM_HASH = "a9a260461542a98f2c4c4c47326f5c8fc34cc08232b1be6bcfd1c378d2f2f8e8ff2287ac093ae4c9f9b50ca30427f668f7ab7b08dd44fe703b94b5df3a645342"
+RPM_NAME = "texlive-multirow-2023.209.2.8svn58396-55.1.noarch.rpm"
+RPM_HASH = "4c6f27c765b897452a00bab4c33c6d5564985da4f40298b6fbd13c250399bd26fdc1b22907659bd64a9e363415dce3663cc971824dd64aa16f7a1103649adf53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bigdelim.sty \

@@ -6,10 +6,10 @@ Also we have a variant of \\newcommand which uses these macros \
 to check for optional arguments."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn15878"
+PV = "2023.209.0.0.3svn15878"
 
-RPM_NAME = "texlive-exp-testopt-2023.201.0.0.3svn15878-52.1.noarch.rpm"
-RPM_HASH = "ca037176758810717eb8261a2df02630b47e13714316f8349b51387e6eec146acb063dfc8d4ada2d3b2af44a7e1a1c583bc77bf734814480dcee84b8066c110d"
+RPM_NAME = "texlive-exp-testopt-2023.209.0.0.3svn15878-53.1.noarch.rpm"
+RPM_HASH = "ad38ebb83ce803a7331ad1d9635cdbaf616ff16f21e7322754f3f3e0e8a7c127eb81bd62d73eae309ce81ecbfddddedb5c011587f7693e425548b8c330080469"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-exp-testopt.sty \

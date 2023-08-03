@@ -4,10 +4,10 @@ style of the American Institute of Chemical Engineers Journal \
 (or AIChE Journal or AIChE J or AIChEJ)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-aichej-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "35f085d83609e8ebaa78920a15e4eaa878f94ff9c41831f6a7e4fe17a230ea11cabced7f7f758b08155095da4d16d2c0c492c32a23a49ca59cc048f1f7d2b554"
+RPM_NAME = "texlive-aichej-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "1bed8dc60070404d19e56344c28e14f9ccbc92664a0ab09e183900ee53faa469624713906250081f3c6addc7545232a349196b6e7308786cd823ef50886de4f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-aichej"

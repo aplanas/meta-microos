@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-floatrow"
 DESCRIPTION = "This package includes the documentation for texlive-floatrow"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3bsvn15878"
+PV = "2023.209.0.0.3bsvn15878"
 
-RPM_NAME = "texlive-floatrow-doc-2023.201.0.0.3bsvn15878-52.1.noarch.rpm"
-RPM_HASH = "5c333f4d176e828874296c304b97bd086e38c7747b7fc5804b2ed6998e09e5e90fdd090b7a5e378d3b5d36bf1461ae0533f3f58808de5e595fe2c1d89ada85d7"
+RPM_NAME = "texlive-floatrow-doc-2023.209.0.0.3bsvn15878-53.1.noarch.rpm"
+RPM_HASH = "c0ccb8a92532c3592fa7aae18b4b9e4761b47f1c3540536547dcc51167a0aa4c55c30bb1ae3e3b28155ce68810f799370924049d5671b394edc4b4e4fabc1bae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-floatrow-doc-ru;en \

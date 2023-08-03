@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-grfpaste"
 DESCRIPTION = "This package includes the documentation for texlive-grfpaste"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn17354"
+PV = "2023.209.0.0.2svn17354"
 
-RPM_NAME = "texlive-grfpaste-doc-2023.201.0.0.2svn17354-53.2.noarch.rpm"
-RPM_HASH = "96160b9bcb5e1eb6a4356a16a6f947efcbcc6cab9c39e2c77d07a1ea6cb84ce40f576a63c828e92b7cfc1bc6f3bbb9f8ea8f4ae2cad0934e767dc4b587136f1b"
+RPM_NAME = "texlive-grfpaste-doc-2023.209.0.0.2svn17354-54.1.noarch.rpm"
+RPM_HASH = "2f9234a3d566ced4f383ae7247b7cbbf3a0b838d06fb1e442eacb0940209c05a91fade35f3443d6661ed2bee7c48c708926663a5c299144b8484599e99864c3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-grfpaste-doc"

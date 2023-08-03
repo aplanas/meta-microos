@@ -14,10 +14,10 @@ Russian and Spanish typesetting, and also use more beautiful \
 fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66434"
+PV = "2023.209.svn66434"
 
-RPM_NAME = "texlive-minimalist-2023.201.svn66434-54.1.noarch.rpm"
-RPM_HASH = "8385e318e83751ee528c73f21b5c0bf50cf5cbac31a5db3bac9a067465e8504c379bca87a5be6bd4c1aa9e8e6bbd409a9fed00ba3202b8acf4bacd347e0d94f6"
+RPM_NAME = "texlive-minimalist-2023.209.svn66434-55.1.noarch.rpm"
+RPM_HASH = "a521cd5625a1aa5ed16386370722af7666d818d2b3ed3c3eb1975019a2e11f51368352145e9ee28a3be82503de1848bc312d3aaf359e3f9945ded0a34761f6b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-minimalist-classical.sty \

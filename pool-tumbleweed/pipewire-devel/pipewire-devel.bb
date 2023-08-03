@@ -4,10 +4,10 @@ DESCRIPTION = "PipeWire is a server and user space API to deal with multimedia p
 This package provides all the necessary files for development with PipeWire"
 LICENSE = "MIT"
 
-PV = "0.3.74"
+PV = "0.3.76"
 
-RPM_NAME = "pipewire-devel-0.3.74-1.1.aarch64.rpm"
-RPM_HASH = "1cac4b05be595caa4c88110c5d67cde280c2e95b3934b90ba663c2b6538ce06a333073cbd890bd063b94b6927dca28c9701ffb41e5bc9f91e46cc86718e00984"
+RPM_NAME = "pipewire-devel-0.3.76-1.1.aarch64.rpm"
+RPM_HASH = "ee1edb6f85f857be69d00e3db3e0fc8ef28c82a839de8ef66e47a9b4fd7d3ebbbb619e41b13f280ff2d887a9ad128f6578eeb99de8dfca9a5d9eea599930e5c7"
 
 RPROVIDES:${PN} += "pipewire-devel \
 pkgconfig-libpipewire-0.3 \

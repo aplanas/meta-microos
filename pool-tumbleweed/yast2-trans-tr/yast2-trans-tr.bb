@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Turkish Translations"
 DESCRIPTION = "YaST2 - Translations for Turkish."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230714.966688ddd0"
+PV = "84.87.20230729.64eca7e0a1"
 
-RPM_NAME = "yast2-trans-tr-84.87.20230714.966688ddd0-1.1.noarch.rpm"
-RPM_HASH = "68b372b33f4919bac19266a431ffd933fea4129ab22a8a68570e66f0ba1d53871b2ee7fa38ed1629ea1280a1325ceea9b506d402c7b91bb28010f2640627d317"
+RPM_NAME = "yast2-trans-tr-84.87.20230729.64eca7e0a1-1.1.noarch.rpm"
+RPM_HASH = "21088319783750254c59e49b466715851fa4ab6461f87597c19cbca018498f5098c1e4af14802562c6d35f4bd5997cd358a013bde8b40afde4aa5d52c2a532be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-tr \

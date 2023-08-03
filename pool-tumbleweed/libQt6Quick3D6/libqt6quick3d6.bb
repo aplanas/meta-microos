@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Quick3D library"
 DESCRIPTION = "The Qt 6 Quick3D library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6Quick3D6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "7c290792fb4c64215408f5b9b5644c908040833e29951e53b19aee7b1701d079ede444557d220718255d5a106652bdef26c0b61fdfcddfb5ddce42df169d5408"
+RPM_NAME = "libQt6Quick3D6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "c4516a94d8dc54091b5fc32467a3c4cd8fab32e30b29d958da2efb5489ae27416b00d099d6d111456765ab1aad9d1c6184b3ce9f336da83bfee4878f7a69a923"
 
 RPROVIDES:${PN} += "libQt6Quick3D.so.6 \
 libQt6Quick3D6"

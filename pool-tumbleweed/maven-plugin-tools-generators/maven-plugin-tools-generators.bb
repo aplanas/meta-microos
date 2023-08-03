@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.6.0"
 
-RPM_NAME = "maven-plugin-tools-generators-3.6.0-5.2.noarch.rpm"
-RPM_HASH = "017e29fcd871dc6ae7d057a40bd7bcaf2f959e7a6b42ed0c627a1d176964f05ca2a8825ebd4e79eea828c12eccf920d4dc976bec88d979cd145c3aaf8db0209d"
+RPM_NAME = "maven-plugin-tools-generators-3.6.0-6.1.noarch.rpm"
+RPM_HASH = "53d493832b6bdb4b2e23692030c365f59498a03d2844997487bc58ae8e26e72dc5f62df0c6569bc5c47c387bae7283c0bce0e7c72b8a4cef58cbdfd1b12eb8cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-plugin-tools-generators \
@@ -15,7 +15,6 @@ mvn-org.apache.maven.plugin-tools-maven-plugin-tools-generators-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-net.sf.jtidy-jtidy \
 mvn-org.apache.maven-maven-model \
 mvn-org.apache.maven.plugin-tools-maven-plugin-tools-api \
 mvn-org.apache.maven.reporting-maven-reporting-api \

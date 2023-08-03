@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-octavo"
 DESCRIPTION = "This package includes the documentation for texlive-octavo"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn15878"
+PV = "2023.209.1.2svn15878"
 
-RPM_NAME = "texlive-octavo-doc-2023.201.1.2svn15878-54.1.noarch.rpm"
-RPM_HASH = "6e7194f54b45f4bc423726744b895f9921f12c916365e2b4ce6d6245fe25dace8db408db4b8540dbf628f1297f630352a88b074f877a604ac0840b89320bd83d"
+RPM_NAME = "texlive-octavo-doc-2023.209.1.2svn15878-55.1.noarch.rpm"
+RPM_HASH = "61ac3cb82f91bc6c8b05b6320235fae918cf85587744707a21168acb5cd004bb4e785852f3d03965cf9ce6464e5add62f52dc82d74d8010228aa354e82273caf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-octavo-doc"

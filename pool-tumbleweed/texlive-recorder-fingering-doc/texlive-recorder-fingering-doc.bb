@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-recorder-fingering"
 DESCRIPTION = "This package includes the documentation for texlive-recorder-fingering"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1bsvn66008"
+PV = "2023.209.1.1bsvn66008"
 
-RPM_NAME = "texlive-recorder-fingering-doc-2023.201.1.1bsvn66008-53.2.noarch.rpm"
-RPM_HASH = "c990cd7cc9e13d43f4c1b4d495c507f047ee5c21917fe9df9c0cec36dfce72f77df172035b146b035e3d7ce4707c37a115a1ea5d5e46c52569c2b70302879189"
+RPM_NAME = "texlive-recorder-fingering-doc-2023.209.1.1bsvn66008-54.1.noarch.rpm"
+RPM_HASH = "2799c434e18cee212937a20eebc79fb1d876baedb2b75772a81ebca3b0ebae702214fd696b2372e753944ee5bbfb9cab5ee10e43bc93f5dc10cb2ef80edfd72f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-recorder-fingering-doc"

@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "5.5.0"
 
-RPM_NAME = "python311-tempora-5.5.0-1.1.noarch.rpm"
-RPM_HASH = "4988bd040e310eea4c2f1be7f3ee52ae2af3cf765bf51f0a32472d44b24fca66e24bb94e02eaf44f864ba16fbbe10af681cf1c1834e78d52061d4f3dccfa1c2c"
+RPM_NAME = "python311-tempora-5.5.0-2.1.noarch.rpm"
+RPM_HASH = "e6714cc13f9eb174a87fcd5c99915cf97bcb8d8a01384e502560990206dd06be6712ab94a166ffda3a17d5b83016b271e08a4136d91718b4a10cda1e74c78a22"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tempora \

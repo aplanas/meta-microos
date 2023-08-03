@@ -7,10 +7,10 @@ the square. It also handles the song structure by showing the \
 bar count and the repetitions of the patterns."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn49569"
+PV = "2023.209.1.1svn49569"
 
-RPM_NAME = "texlive-chordbars-2023.201.1.1svn49569-53.1.noarch.rpm"
-RPM_HASH = "e10177a2d6a741f4d9402492badac1c2574c903b372f38847f48eff3274b5c19b71d5243f6f889e4e043055bd063a160eff85e722b3d599697ffe0ea841a5e26"
+RPM_NAME = "texlive-chordbars-2023.209.1.1svn49569-54.1.noarch.rpm"
+RPM_HASH = "e2f554831ecfcdc9a8d45a4adf851c5e4fb13ce059ce7d89ac233634128678d21f12397ab1b001c72bf0a6ec744ad4b5fefe19d328c885acf542b688bfb414aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chordbars.sty \

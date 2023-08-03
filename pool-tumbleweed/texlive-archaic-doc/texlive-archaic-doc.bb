@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-archaic"
 DESCRIPTION = "This package includes the documentation for texlive-archaic"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn38005"
+PV = "2023.209.svn38005"
 
-RPM_NAME = "texlive-archaic-doc-2023.201.svn38005-54.1.noarch.rpm"
-RPM_HASH = "b8dc0d0c607537a5333fe58de23e536ee86751404a1cb336a5b0e92b30ed7fa5707f177123b165c1dacf9078acfb3b4303f01dd1ac08ff057d22a971ae4b065b"
+RPM_NAME = "texlive-archaic-doc-2023.209.svn38005-55.1.noarch.rpm"
+RPM_HASH = "67b77aec0bf8b38b2011e05edcde5261b002a04fd68746f2c8361386cd78624b331b6795266362a9aacdea7b8a9fc2cfabba7535df0f36a1c615409c393efe35"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-archaic-doc"

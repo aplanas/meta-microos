@@ -4,10 +4,10 @@ bussproofs.sty; specifically, it allows for typesetting of \
 entire (sub)deductions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4svn51299"
+PV = "2023.209.0.0.4svn51299"
 
-RPM_NAME = "texlive-bussproofs-extra-2023.201.0.0.4svn51299-52.1.noarch.rpm"
-RPM_HASH = "91e2f9b0d8b60431f7c79d39bd36c886136e2cb2e223696d1f650cf6ed5e8fcdcd989e68bdcd38d25db217d8a13fe2a318d1649d9074a6ca41a9c5058e4c015f"
+RPM_NAME = "texlive-bussproofs-extra-2023.209.0.0.4svn51299-53.1.noarch.rpm"
+RPM_HASH = "f5d1ada24575a63512c63326ddcfda9a7e254cc076f8202f26efb77bdd2912e7d9eeaaefaace1e2d35f480cedc0fac09a09735596509eeec724e2207bd75203e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bussproofs-extra.sty \

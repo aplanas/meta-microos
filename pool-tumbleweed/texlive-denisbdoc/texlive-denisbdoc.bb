@@ -2,10 +2,10 @@ SUMMARY = "A personal dirty package for documenting packages"
 DESCRIPTION = "A personal dirty package for documenting packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.9.4svn66137"
+PV = "2023.209.0.0.9.4svn66137"
 
-RPM_NAME = "texlive-denisbdoc-2023.201.0.0.9.4svn66137-52.1.noarch.rpm"
-RPM_HASH = "fd1e7ebddcfd1ff9f2270e2fcbc0b5b7e3e9a86444c6847ee2681ddb97c6c24e15de083f1a726fcb3edb696a5fd2ef8c3d3d0c774bd0209c265d72c8e07e2f01"
+RPM_NAME = "texlive-denisbdoc-2023.209.0.0.9.4svn66137-53.1.noarch.rpm"
+RPM_HASH = "f1ea21579bf86f6012616071a1ae718dc09eabd3c15de7dedf865ea26ca86b7bf3aa690cdecf1a2d4a3297adc2ea94861df5329678b3c63807b725bbef2273e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-denisbdoc.sty \

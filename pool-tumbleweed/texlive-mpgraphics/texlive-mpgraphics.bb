@@ -7,10 +7,10 @@ feature of current TeX distributions, so that the whole process \
 is automatic and the end user is saved the tiresome processing."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn29776"
+PV = "2023.209.0.0.3svn29776"
 
-RPM_NAME = "texlive-mpgraphics-2023.201.0.0.3svn29776-54.1.noarch.rpm"
-RPM_HASH = "67a7b8beb86e5e2c156218b633b895ebe6fec7db0aea6f9631e1a90bc5ac79898802bebb2351f47bd798166e8658b684b7edf8261eb45ec2a4d53c987d295d35"
+RPM_NAME = "texlive-mpgraphics-2023.209.0.0.3svn29776-55.1.noarch.rpm"
+RPM_HASH = "84c3941d44e4f3abf91346c2c995c5952cb7e72f8ca2ceda31c5a4ab3f4ba02384301332d85fe7b5c636f5242428c7608f6e5dad79ba6944ae9a518607115031"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mpgraphics.sty \

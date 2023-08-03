@@ -14,10 +14,10 @@ using japanese-otf. So pxjodel is really about japanese-otf's \
 singing, although some sense of word-play is intended."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn64072"
+PV = "2023.209.0.0.3svn64072"
 
-RPM_NAME = "texlive-pxjodel-2023.201.0.0.3svn64072-53.2.noarch.rpm"
-RPM_HASH = "638e1eb21f42b823588fc648edd640729f995bd9dbb9f03243ff28131955eb78115db6b9d8a50fc9d685fe37ecae0daad0313fa2599d9f7f0398fb546108be75"
+RPM_NAME = "texlive-pxjodel-2023.209.0.0.3svn64072-54.1.noarch.rpm"
+RPM_HASH = "50d0981e94ecf7a4b17ffcfa245e7b2db470d3324e688525ed9581c694a7c37aa1a338944d9c130fa662dc1770d8cfbe13a6c685a6e9a32195cdcb4c8b83359d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jodhgothb-hq.tfm \

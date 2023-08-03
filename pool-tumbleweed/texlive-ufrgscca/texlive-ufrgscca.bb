@@ -7,10 +7,10 @@ composed of a main class, ufrgscca, and a set of auxiliary \
 packages, some of which can be used independently."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.8svn65661"
+PV = "2023.209.1.0.8svn65661"
 
-RPM_NAME = "texlive-ufrgscca-2023.201.1.0.8svn65661-53.1.noarch.rpm"
-RPM_HASH = "2d8f86a6e932ded2710aefcd36a40616df27677c511eda834bb64c160e804dfa22b6685e38460920eeb8471e13b2bda4e9a8912e433d14c0940e21d7e8dac945"
+RPM_NAME = "texlive-ufrgscca-2023.209.1.0.8svn65661-54.1.noarch.rpm"
+RPM_HASH = "c931728159d67c0f88609a840dcf00b0e3b5d0b03f496d45ad4e4a44125c0a830d82ebc0969bbdd3482fb1ecb6ba944a27b7831d5741e38f1e3a344a501827c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ufrgscca-abnt.sty \

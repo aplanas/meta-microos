@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-vhistory"
 DESCRIPTION = "This package includes the documentation for texlive-vhistory"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.8.0svn61719"
+PV = "2023.209.1.8.0svn61719"
 
-RPM_NAME = "texlive-vhistory-doc-2023.201.1.8.0svn61719-53.1.noarch.rpm"
-RPM_HASH = "d5ea9b617de15a5f59a9bf51f98aae123f5e5b0a200bb5d9e6af962d395b8651aa270dfe3e642351cd0581e2abda09ff915b2f08b740e9686abba669eb7c53ed"
+RPM_NAME = "texlive-vhistory-doc-2023.209.1.8.0svn61719-54.1.noarch.rpm"
+RPM_HASH = "40e43c8b30c5d1de8e3d1f9e06331549a0a2e83f1d97e3df7bb09c3585ffdd7c35458fbef69e19f467bda05be488902929b93b6ba16ddd7c7399051a36e1ec1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-vhistory-doc-de \

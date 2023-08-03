@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pbibtex-base"
 DESCRIPTION = "This package includes the documentation for texlive-pbibtex-base"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.svn66085"
+PV = "2023.209.svn66085"
 
-RPM_NAME = "texlive-pbibtex-base-doc-2023.201.svn66085-51.1.noarch.rpm"
-RPM_HASH = "f791cdfdbb60a991f95d0f6ee1061d8ff5227cc87af6ed41520a3feb7fe4e20d334ec99494fe332bb3f057301d4fbf815a098bbb61ead698d673a307f8d63372"
+RPM_NAME = "texlive-pbibtex-base-doc-2023.209.svn66085-52.1.noarch.rpm"
+RPM_HASH = "9ea6afe8745a4b6477526b902424e2314a2407cfeac94a71d554c16fa8d02911d6967408a37e7ee2449091c5fe4e62af4d898ba9e6741a2d7daebfe8dbcfc4c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pbibtex-base-doc"

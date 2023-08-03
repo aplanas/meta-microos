@@ -5,24 +5,24 @@ kernel for systems that were installed when the default kernel was still \
 configured with 64kb page size granule. \
  \
  \
-Source Timestamp: 2023-07-11 06:23:11 +0000 \
-GIT Revision: 5ab030f1f07fd96746960bce337ec62fc11b6a9a \
+Source Timestamp: 2023-07-25 04:42:30 +0000 \
+GIT Revision: 55520bc826c5b1d40857ed0536eb87438cb95192 \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.3"
+PV = "6.4.6"
 
-RPM_NAME = "kernel-64kb-6.4.3-1.1.aarch64.rpm"
-RPM_HASH = "d16e243b624d62871f7dd8b9ce7195935b6ae8a18b0f25b1a068f35da8c08f917fafd45e2fdc79ebb0b5dac2642aa8852660397a3c567adca6ea1f15af2d6aa6"
+RPM_NAME = "kernel-64kb-6.4.6-1.1.aarch64.rpm"
+RPM_HASH = "924c5904f34898939f3bf42bee046448c04c4bfb1692b4e75ba2363592fedfe93ed2b2d45f4e1973e423b77bad6a00623d2cf944ffb63aadb5e7257b719589d8"
 
 RPROVIDES:${PN} += "kernel \
 kernel-64kb \
-kernel-64kb-6.4.3-1 \
+kernel-64kb-6.4.6-1 \
 kernel-64kb-aarch64 \
-kernel-64kb-base-srchash-5ab030f1f07fd96746960bce337ec62fc11b6a9a \
-kernel-64kb-srchash-5ab030f1f07fd96746960bce337ec62fc11b6a9a \
+kernel-64kb-base-srchash-55520bc826c5b1d40857ed0536eb87438cb95192 \
+kernel-64kb-srchash-55520bc826c5b1d40857ed0536eb87438cb95192 \
 kernel-base \
-kernel-srchash-5ab030f1f07fd96746960bce337ec62fc11b6a9a \
+kernel-srchash-55520bc826c5b1d40857ed0536eb87438cb95192 \
 kernel-uname-r \
 kmod-3c59x.ko \
 kmod-3w-9xxx.ko \
@@ -3273,7 +3273,6 @@ kmod-mos7840.ko \
 kmod-motorcomm.ko \
 kmod-motorola-cpcap.ko \
 kmod-mousedev.ko \
-kmod-moxa.ko \
 kmod-moxtet.ko \
 kmod-mp2629-adc.ko \
 kmod-mp2629-charger.ko \
@@ -6114,7 +6113,6 @@ kmod-sym53c8xx.ko \
 kmod-symbolserial.ko \
 kmod-synaptics-i2c.ko \
 kmod-synaptics-usb.ko \
-kmod-synclink-gt.ko \
 kmod-synopsys-edac.ko \
 kmod-syscon-reboot-mode.ko \
 kmod-syscopyarea.ko \

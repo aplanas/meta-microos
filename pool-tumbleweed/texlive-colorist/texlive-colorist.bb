@@ -13,10 +13,10 @@ Japanese, Portuguese (European and Brazilian), Russian and \
 Spanish typesetting, and also use more beautiful fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66434"
+PV = "2023.209.svn66434"
 
-RPM_NAME = "texlive-colorist-2023.201.svn66434-53.1.noarch.rpm"
-RPM_HASH = "62f4c693aa19de2e0f08fab12f846315571fcbbaff316beb802a73beb9d02ca7953687b0b026ee026ff9700ab70f6e2f276990e7bbb19df3b5183b63070489ac"
+RPM_NAME = "texlive-colorist-2023.209.svn66434-54.1.noarch.rpm"
+RPM_HASH = "c3a30a4e8b24e98e03e63e5cc79f6fb9bb50ae9cf7bbe80fc8abdf4eb9415272133f7819f1b0c2f5ae915a4238d83301f60d9eb8b3e519ed3f0500f5a6980ce5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-colorart.cls \

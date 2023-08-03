@@ -4,10 +4,10 @@ PMX and MusiXTeX processing. This package supports Windows, \
 MacOS and Linux systems."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn57972"
+PV = "2023.209.svn57972"
 
-RPM_NAME = "texlive-xml2pmx-2023.201.svn57972-52.2.noarch.rpm"
-RPM_HASH = "c30ab60230a252edf94ddbc53685ecb22badd36a045f8417510837d00eb6836db8f4305dafe981595bfad330b3af7cba8cd4ddcaeac72fa57b8d7a016b5b3df1"
+RPM_NAME = "texlive-xml2pmx-2023.209.svn57972-53.1.noarch.rpm"
+RPM_HASH = "deb214f74a6adbe17a4bed004a7ca6831f95066ea74135a27a3671317beaa0bde431ee39f83edee6364b20952ebe651e2e46d27f2c24a10c6b15685ee2960129"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-xml2pmx.1 \

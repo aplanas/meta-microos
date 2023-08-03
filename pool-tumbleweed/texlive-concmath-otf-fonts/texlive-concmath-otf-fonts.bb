@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-concmath-otf"
 DESCRIPTION = "The  separated fonts package for texlive-concmath-otf"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.25svn65683"
+PV = "2023.209.0.0.25svn65683"
 
-RPM_NAME = "texlive-concmath-otf-fonts-2023.201.0.0.25svn65683-53.1.noarch.rpm"
-RPM_HASH = "77a6d38884962049705fa7372e50d1291303e347bcc9eab302e710be5f4fb4e73c4b179dd92f4708346de269a23b2ee886c9cf914b58ca7b6b8018ba27c159c9"
+RPM_NAME = "texlive-concmath-otf-fonts-2023.209.0.0.25svn65683-54.1.noarch.rpm"
+RPM_HASH = "c1f6b571550e80a4a107952469a5286a47ae52b2793429cbba119a5ca951db002b2d0a09d143a46941ca9ef77ace2db297d0075db99c9f5075825403cbd1a865"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=fj \

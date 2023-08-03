@@ -3,10 +3,10 @@ DESCRIPTION = "The bundle provides implementations of the 'traditional' BibTeX \
 styles (plain, abbrev, unsrt and alpha) with BibLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5svn58169"
+PV = "2023.209.0.0.5svn58169"
 
-RPM_NAME = "texlive-biblatex-trad-2023.201.0.0.5svn58169-53.1.noarch.rpm"
-RPM_HASH = "8bc70fe91c6358e482fda80b2984196bdbf7d85f948a1f7d120dd12cea33b5f59c009036bb950d687ff3471969b790d465333388ce7eb5615a07aa29bcfb529b"
+RPM_NAME = "texlive-biblatex-trad-2023.209.0.0.5svn58169-54.1.noarch.rpm"
+RPM_HASH = "13aa3c6663c2dccac6b847e196f712e73c07086b80db3634c0772932abd3ae75b3bb58a3b56fe308fa0f22549e78c1d2710d0793fe52041a0ff9a2b3aa324e92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-trad-abbrv.bbx \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-quicktype"
 DESCRIPTION = "This package includes the documentation for texlive-quicktype"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn42183"
+PV = "2023.209.0.0.1svn42183"
 
-RPM_NAME = "texlive-quicktype-doc-2023.201.0.0.1svn42183-53.2.noarch.rpm"
-RPM_HASH = "65293889f8db029aeb072ec62ee157c8130a9b09572d8abe16c1edfd94fa18d2bef102b2389dbcd051397252d663d9e682270e971824a544ef72437bab4c320f"
+RPM_NAME = "texlive-quicktype-doc-2023.209.0.0.1svn42183-54.1.noarch.rpm"
+RPM_HASH = "02780b9ab0135fb476ea70a87e5578b463dd0efd1781cf4784772e2f111f80d1ede84ce4d3998b40584cbd7f0ff4d65de713656209d488d36bc584fa4533afbd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-quicktype-doc"

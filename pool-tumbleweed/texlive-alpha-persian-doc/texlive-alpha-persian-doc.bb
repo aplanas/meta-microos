@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-alpha-persian"
 DESCRIPTION = "This package includes the documentation for texlive-alpha-persian"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn66115"
+PV = "2023.209.1.3svn66115"
 
-RPM_NAME = "texlive-alpha-persian-doc-2023.201.1.3svn66115-54.1.noarch.rpm"
-RPM_HASH = "40fc9f602b07ce20160cfd3f1600bb61586774f08f7c28526374ad2fc53ebb9f0d823e0e2cb11e0c461b1a03b7d2057298e1b499427ae8800ff16475fd67d616"
+RPM_NAME = "texlive-alpha-persian-doc-2023.209.1.3svn66115-55.1.noarch.rpm"
+RPM_HASH = "1497d7c462590c263e5e483fdc325d4a0687a3b024de62641a81eb33eb21d82504953107be52a225a0f2e580aeec571f5071f1c2e5f3b5313eaf5c64b3855b2a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-alpha-persian-doc-fa \

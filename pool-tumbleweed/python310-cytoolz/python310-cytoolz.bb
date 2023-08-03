@@ -4,10 +4,10 @@ performance utility functions for iterables, functions, and \
 dictionaries."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.12.1"
+PV = "0.12.2"
 
-RPM_NAME = "python310-cytoolz-0.12.1-1.6.aarch64.rpm"
-RPM_HASH = "f8fb808801753e9efa9d6998bff7d4da03a0e6116270f4c877e9e00101cc2085cad927106c0c113fcf4fcbef3e04c68ebb67c008918ab696ce726e6a31ecd2b0"
+RPM_NAME = "python310-cytoolz-0.12.2-1.1.aarch64.rpm"
+RPM_HASH = "6c4585036cd0c8032e56e5a936a7ac8877f22bd9ae6fc76a9bf52a9a410b0bb6140aa8c7ffba8fd7f1c9c169e1c7111103a6e5881718ee2ef0c0a0a70026bd2b"
 
 RPROVIDES:${PN} += "python3.10dist-cytoolz \
 python310-cytoolz \

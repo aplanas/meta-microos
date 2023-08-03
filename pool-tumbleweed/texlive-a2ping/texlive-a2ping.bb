@@ -12,10 +12,10 @@ output is often more compatible and better embeddable than its \
 input."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.84psvn52964"
+PV = "2023.209.2.84psvn52964"
 
-RPM_NAME = "texlive-a2ping-2023.201.2.84psvn52964-54.1.noarch.rpm"
-RPM_HASH = "eee228e2755377a5af9548d7004c017184bc817f7526ea5c0f998dfc5f82a98452b7bba55226065831e5639ef53a328c62dd354d6881c891723a1bd34340442f"
+RPM_NAME = "texlive-a2ping-2023.209.2.84psvn52964-55.1.noarch.rpm"
+RPM_HASH = "213f0a92d0a13b22d20782331c9db0794d29e1f9b1b049eee35ee5ac8e6132649ebb6e08cc5bd4a9681c56da63eef7389636aeaf7fa67746ecea6c5f6d68d71c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-a2ping"

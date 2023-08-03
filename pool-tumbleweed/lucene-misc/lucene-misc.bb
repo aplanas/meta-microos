@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "8.5.0"
 
-RPM_NAME = "lucene-misc-8.5.0-3.5.aarch64.rpm"
-RPM_HASH = "bbbf595133c05cdb948e029adb65c800b7e9a6bb632de6ded1729020692cc91cbf0b266e2bac1ad81ab234243c7dc3ff7e46c24e518f2245d075ee2fa8f946fc"
+RPM_NAME = "lucene-misc-8.5.0-4.1.aarch64.rpm"
+RPM_HASH = "0983ebe7d4481d5452e77b5685fd366ac44b6dfcddcc837fb4d2980220f2e2b67437e4e0189f08e21460668c728b628fe964e4af03dbb82a3e0d1a7f06b48e6e"
 
 RPROVIDES:${PN} += "lucene-misc \
 mvn-org.apache.lucene-lucene-misc \

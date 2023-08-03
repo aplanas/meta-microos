@@ -4,10 +4,10 @@ draw wheelcharts with TikZ. It provides several options to \
 customize the wheelcharts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn64373"
+PV = "2023.209.1.0svn64373"
 
-RPM_NAME = "texlive-wheelchart-2023.201.1.0svn64373-53.1.noarch.rpm"
-RPM_HASH = "e65b955abe3fbae56816b23bea4fe34d5696139858876bac7c4c036aa4c91a04bab4f119e30459b271b0160cb8431195e7586977ccf7af7ab874074119dc9531"
+RPM_NAME = "texlive-wheelchart-2023.209.1.0svn64373-54.1.noarch.rpm"
+RPM_HASH = "8450335d5bb69eaee7f0fbf129644698fc3c6ac3046f0302df705f6e70932a9f1442fb6e5a5ee0b2998d18a4ae3d9e27ea09cb02262ea817304b29e7a66aacec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-wheelchart.sty \

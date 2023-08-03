@@ -6,10 +6,10 @@ http://www.w3c.org). \
 This package provides the GObject Introspection bindings for librsvg."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "2.56.1"
+PV = "2.56.3"
 
-RPM_NAME = "typelib-1_0-Rsvg-2_0-2.56.1-3.1.aarch64.rpm"
-RPM_HASH = "0d1e3b66dfe0994234d7f2cee88b03bad8b31f063653db11d9bb82a25fc4a9c05874da959821e4c3e8f37a8dda0220a8db16712a529865dd5ce489e6407af7ff"
+RPM_NAME = "typelib-1_0-Rsvg-2_0-2.56.3-1.1.aarch64.rpm"
+RPM_HASH = "463d5171b1039bd363f9593bb27f604be65b03a45fe4f9049b28202503931e86fabd6db4fa81611d757ff1ad04f5e4e9f7013562fbfe64402bf19469bc9d6a71"
 
 RPROVIDES:${PN} += "typelib-1-0-Rsvg-2-0 \
 typelib-Rsvg"

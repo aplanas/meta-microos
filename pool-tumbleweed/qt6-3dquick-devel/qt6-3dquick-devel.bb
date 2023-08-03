@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt 6 3DQuick library"
 DESCRIPTION = "Development files for the Qt 6 3DQuick library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-3dquick-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "5e439ab694bfb85e8f407cca9cc424565d44a0b33e8477c678eeb9b2b93684230c95c5c4f0b4c99e00390f2d3bd63ebd184d07446c5833adb788b6a2ef93de8f"
+RPM_NAME = "qt6-3dquick-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "2a735c286fca08b6600b6b1fa5717922cfc6181cae60fdaeef5453633cd33a8290e4af34e8f9cb31fa773310efbf2b6901b3de70e833674a5cbe667226a0e9d4"
 
 RPROVIDES:${PN} += "cmake-Qt63DQuick \
 pkgconfig-Qt63DQuick \

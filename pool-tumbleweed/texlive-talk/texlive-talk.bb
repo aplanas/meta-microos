@@ -19,10 +19,10 @@ slide styles (greybars.sty). Contributions from people who are \
 artistically more gifted than the author are more than welcome!"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn42428"
+PV = "2023.209.1.1svn42428"
 
-RPM_NAME = "texlive-talk-2023.201.1.1svn42428-54.1.noarch.rpm"
-RPM_HASH = "1c6a43ab56cd1391e4e875a5f08707d1f3933083f242294810088fa4f205c605205f46578a8a73b2817027b98b32c31f99797ab90f2f35a6e4e6c83847898400"
+RPM_NAME = "texlive-talk-2023.209.1.1svn42428-55.1.noarch.rpm"
+RPM_HASH = "80a2610635f25f5e5aab9d36b7eba202f80a681e6cebe139407736cdcd94538219b99b2760cda446e90b13224134338c127f438f532b994a367a5ed616616e65"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sidebars.sty \

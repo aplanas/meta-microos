@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-yfonts-t1"
 DESCRIPTION = "The  separated fonts package for texlive-yfonts-t1"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn36013"
+PV = "2023.209.1.0svn36013"
 
-RPM_NAME = "texlive-yfonts-t1-fonts-2023.201.1.0svn36013-52.2.noarch.rpm"
-RPM_HASH = "0760f55f1ce4bf3518b6ed0d28772f359453dd526dfedaf5b1486016ee4fbcdf738c228d04c220440918177424071f00a18253c84f794b82e3a5da9875b9b7b3"
+RPM_NAME = "texlive-yfonts-t1-fonts-2023.209.1.0svn36013-53.1.noarch.rpm"
+RPM_HASH = "79f71337030f3c02d61ffe7924f7ab579e2f6e23e94033624953c198540fe4c393907605443a22624b9841f701a3fba4e85a936a117e5be865a74f5896c94ee7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

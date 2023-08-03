@@ -4,10 +4,10 @@ da Universidade do Porto (FEUP) Faculty of Engineering \
 University of Porto."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.0svn30962"
+PV = "2023.209.4.0svn30962"
 
-RPM_NAME = "texlive-feupphdteses-2023.201.4.0svn30962-52.1.noarch.rpm"
-RPM_HASH = "fa2ac0ecba997ae01fb02c1ab6e0bf5a9370b27b2980ef2a111b4d3d1fc5910b2f78ea54b480e8a20b96ebce7cda615224659926be0f4a6894f8704e6c901bf3"
+RPM_NAME = "texlive-feupphdteses-2023.209.4.0svn30962-53.1.noarch.rpm"
+RPM_HASH = "a565076459eb14b4ded179f2523c64c3e797d220edab7b3a316adb566f9ef4175a4998f97287b0724961c313581d5639945f4662b9985bd83ee3e6a4236a8bb8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-feupphdteses.sty \

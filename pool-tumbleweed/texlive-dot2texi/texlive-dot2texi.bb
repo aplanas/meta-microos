@@ -7,10 +7,10 @@ code relies on the TikZ and PGF package or the PSTricks \
 package. The process is automated if shell escape is enabled."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.3.0svn26237"
+PV = "2023.209.3.0svn26237"
 
-RPM_NAME = "texlive-dot2texi-2023.201.3.0svn26237-52.1.noarch.rpm"
-RPM_HASH = "f968a3b7d83f7dc8ebfb3a8ebd2412ed76ab9d419efd00add054c8b2eb3d9de82e13ab448c8221422c94f789d573e94ed13ad937ee78199f11ed5e48be055cf4"
+RPM_NAME = "texlive-dot2texi-2023.209.3.0svn26237-53.1.noarch.rpm"
+RPM_HASH = "81d9ade8f2d2f898761114cc30cc5def9f912f8d7ec5e691d6d7fba27e22ca400e00c8190cd1600d0010548f0ecbede1e9c173f2a651ce02809819d67f2a1960"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dot2texi.sty \

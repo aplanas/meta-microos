@@ -3,10 +3,10 @@ DESCRIPTION = "A summary of available resources providing (or merely \
 discussing) documentation of PicTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn24927"
+PV = "2023.209.svn24927"
 
-RPM_NAME = "texlive-doc-pictex-2023.201.svn24927-52.1.noarch.rpm"
-RPM_HASH = "e9647390fc2cfc559e0d00748aabe2b7ce4b63c83e6bda7d2f9c24368bad577b0f5ac404b930c9e1dc548e428c3d1125b206b5a354b82a94de4c005bd020c334"
+RPM_NAME = "texlive-doc-pictex-2023.209.svn24927-53.1.noarch.rpm"
+RPM_HASH = "88b5dcd3f1b40b7d38829fbb62bafe6eede868d235b38fd48fc95bc60df0ea3642d4162b4fccb1ba216fb8ceb5605f548cc48a35cd2f2b206fc038b89ff2e9ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-doc-pictex"

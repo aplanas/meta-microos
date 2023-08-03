@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-french"
 DESCRIPTION = "This package includes the documentation for texlive-babel-french"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.5qsvn66513"
+PV = "2023.209.3.5qsvn66513"
 
-RPM_NAME = "texlive-babel-french-doc-2023.201.3.5qsvn66513-53.1.noarch.rpm"
-RPM_HASH = "ea72dbada02047e40d9ebdd0975efc9c92af380fac54023ba51e8874e86cbcdae5ceab5373f56cf0ea6e1ae8576e2f8d89c08b1359c323bd728f3200126b1b07"
+RPM_NAME = "texlive-babel-french-doc-2023.209.3.5qsvn66513-54.1.noarch.rpm"
+RPM_HASH = "656a263484ab4d4a16f3abec4eed3681a2f9f3bb7d7a819f9e9332adfe3ded7d3cd27d83fa45fd1a2a6b2a7671be9c34d2d45b0a9f5bfd710aa99f6777f14a75"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-babel-french-doc-fr \

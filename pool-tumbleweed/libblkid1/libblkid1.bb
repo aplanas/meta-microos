@@ -2,10 +2,10 @@ SUMMARY = "Filesystem detection library"
 DESCRIPTION = "Library for filesystem detection."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.39"
+PV = "2.39.1"
 
-RPM_NAME = "libblkid1-2.39-3.1.aarch64.rpm"
-RPM_HASH = "49fadb854cecb8bba43ca89596e3a70fff6159d3ccfc8b6b6d3a70e19437ba84e3435d1dbb04754452e0fdf2ce1c782dba3a79206b716a9f2cd8759d281de2a0"
+RPM_NAME = "libblkid1-2.39.1-1.1.aarch64.rpm"
+RPM_HASH = "7b60a624d8c0489dbc6bb474bc7a9ee14c0b296d88c0db647d67751f84afab6f5a40938b64b62489a6c58245bc34890fae4cf859368601399570e6610d559e54"
 
 RPROVIDES:${PN} += "libblkid.so.1 \
 libblkid1"

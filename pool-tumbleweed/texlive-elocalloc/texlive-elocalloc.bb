@@ -3,10 +3,10 @@ DESCRIPTION = "Local allocation macros, with names taken from etex.sty but \
 with implementation based on the LaTeX 2015 allocation macros."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.03svn42712"
+PV = "2023.209.0.0.03svn42712"
 
-RPM_NAME = "texlive-elocalloc-2023.201.0.0.03svn42712-53.2.noarch.rpm"
-RPM_HASH = "0f80f4d757c1cb5f3e88adb307c25846a5cf37150566d554d62f333faadfee980b32f9396abef0ab4cba2f386fd20950f8dbe59a6bd5acbb15056087f62e7c34"
+RPM_NAME = "texlive-elocalloc-2023.209.0.0.03svn42712-54.1.noarch.rpm"
+RPM_HASH = "b4a77b297510bfec21534b1573646ace231e755ce8bd9e8ed96d880cd1538c459294594afb49ae0dafcceaa277b744a04d5c373d58862fb62e2fedbdc876f389"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-elocalloc.sty \

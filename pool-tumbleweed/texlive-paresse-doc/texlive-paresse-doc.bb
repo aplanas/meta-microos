@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-paresse"
 DESCRIPTION = "This package includes the documentation for texlive-paresse"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.5.0.2svn59228"
+PV = "2023.209.5.0.2svn59228"
 
-RPM_NAME = "texlive-paresse-doc-2023.201.5.0.2svn59228-51.1.noarch.rpm"
-RPM_HASH = "774dbbcc29945eb5b692201503c590d6e8180a9db5e9e7a222dc12f8eebd74a045b08855f616e76cd92857d3a4a79af41237c99b2a3395d3334bac497d6aa98a"
+RPM_NAME = "texlive-paresse-doc-2023.209.5.0.2svn59228-52.1.noarch.rpm"
+RPM_HASH = "66417e0a33ccf1b8efaed8bb7392044a57b40c4df4645143d9d555f691c41651bb6333664b2e64e1884b31e7a5938a2f667e8d439b3211377553d70e501aadf2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-paresse-doc-fr \

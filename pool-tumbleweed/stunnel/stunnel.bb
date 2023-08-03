@@ -4,10 +4,10 @@ any changes in the programs' code. Its architecture is optimized for security, p
 scalability (including load-balancing), making it suitable for large deployments."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.69"
+PV = "5.70"
 
-RPM_NAME = "stunnel-5.69-2.2.aarch64.rpm"
-RPM_HASH = "f81a206bb8f968c84ce965dafb9e48d414388b719c91e0c5779ff65c3e3ca24113115217dafa32c6deb3c5beb741ed100f74333824dc03f86b63c09aca995c7a"
+RPM_NAME = "stunnel-5.70-1.1.aarch64.rpm"
+RPM_HASH = "c684fb30e4d0bbd5906358aacb59e6836720c7f01b5dc7787c1b40fb9cf82c2f04f311660ed3f0efbe919b085bcd69e76f29e40dae0f8834799882dda314d09f"
 
 RPROVIDES:${PN} += "config-stunnel \
 libstunnel.so \

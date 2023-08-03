@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-feyn"
 DESCRIPTION = "This package includes the documentation for texlive-pst-feyn"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.01svn48781"
+PV = "2023.209.0.0.01svn48781"
 
-RPM_NAME = "texlive-pst-feyn-doc-2023.201.0.0.01svn48781-52.1.noarch.rpm"
-RPM_HASH = "7e58f69ab62b89a2d83b5b5a66151799d36ac055f19cc7089951a83a9ccfc66bd03fe2bb05f58fdb62dbf5ee7ca8408141b81d0859646a723d0fceafa07a4c71"
+RPM_NAME = "texlive-pst-feyn-doc-2023.209.0.0.01svn48781-53.1.noarch.rpm"
+RPM_HASH = "39d1f68ebf74b16d3eed72d951bdf4e26e3927e73d9a0f6d2109c4db8d38f609ff4ac405b992adf91ae41292a63ffeaf8e90b4d8bd74d76e9b4254bd8cdc5b72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-feyn-doc"

@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Macedonian Translations"
 DESCRIPTION = "YaST2 - Translations for Macedonian."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230714.966688ddd0"
+PV = "84.87.20230729.64eca7e0a1"
 
-RPM_NAME = "yast2-trans-mk-84.87.20230714.966688ddd0-1.1.noarch.rpm"
-RPM_HASH = "3218d7c0de4413b1ad2012559aa79bbd5bf6d4ef4929a1edf0dac3c3e28cb080b784ef92b5a0d2d8a43aa2259a12cdacced7d283bd0a6bd3ff829beae8e2a8e4"
+RPM_NAME = "yast2-trans-mk-84.87.20230729.64eca7e0a1-1.1.noarch.rpm"
+RPM_HASH = "6c8732278ff520cdec6ac6829e81bcc8483943bf6cb4795f4457b5b46731bbdf5ffa98e12551221ddd8db31b63389fa1705bc75af9a6e3d2af514a7ac601424b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-mk \

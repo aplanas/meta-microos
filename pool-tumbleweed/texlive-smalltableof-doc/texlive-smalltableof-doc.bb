@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-smalltableof"
 DESCRIPTION = "This package includes the documentation for texlive-smalltableof"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn20333"
+PV = "2023.209.svn20333"
 
-RPM_NAME = "texlive-smalltableof-doc-2023.201.svn20333-57.1.noarch.rpm"
-RPM_HASH = "194730311a7241d27e0b57bcc0108c8d969f618e4341a91a78442bb7b90a02424ec710d2fb31490925d29430c1bbbf169ad57935b29ead856e29011de77f53cd"
+RPM_NAME = "texlive-smalltableof-doc-2023.209.svn20333-58.1.noarch.rpm"
+RPM_HASH = "9ca379fa845e0d92b323ed62dd1abbbfe630327bf7b149f46f2e375f25c378d861fd975ca6d8791d033fd5992edd1d30abc37e051d2d87e4303c0f05af68dd96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-smalltableof-doc-fr \

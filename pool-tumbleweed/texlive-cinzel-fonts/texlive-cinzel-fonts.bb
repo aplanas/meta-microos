@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-cinzel"
 DESCRIPTION = "The  separated fonts package for texlive-cinzel"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64550"
+PV = "2023.209.svn64550"
 
-RPM_NAME = "texlive-cinzel-fonts-2023.201.svn64550-53.1.noarch.rpm"
-RPM_HASH = "b85dca1449a95180f8d3154c2698326ebf75e0bf9d4a06cdb391fffb9c1465338e40cf846cac094e682c2ff46f2b6f88531509ffd6b551a5f79723f3ccc75007"
+RPM_NAME = "texlive-cinzel-fonts-2023.209.svn64550-54.1.noarch.rpm"
+RPM_HASH = "e8513983d42fcb2a085bb82c0953c61b102f4c3d8df6be059ea7cd0ba9ef1195ed58e1c5826f13f5e54948cd5df02bd8ba5d5b1de9ac0abd3de9b5fee8e4a001"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-cinzel-fonts \

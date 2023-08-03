@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.4.9"
 
-RPM_NAME = "aubio-tools-0.4.9-9.1.aarch64.rpm"
-RPM_HASH = "4d076470340b34292f8fd414603bd4139bd7ee07976b76157afc35a1201a2da3dae7778bc7a49701da6b94a4b8e93f01a0fd54df3edbc47efe8c5ebf59c1a445"
+RPM_NAME = "aubio-tools-0.4.9-10.1.aarch64.rpm"
+RPM_HASH = "618939b25ad32439e72f21137bc9e306fbc77292b14e35d2cfb32afc11bd8738e92b04f75ed91255460fce91f61095c0565bcb50aa3f878f184134b23d4e24e7"
 
 RPROVIDES:${PN} += "aubio-tools"
 

@@ -4,10 +4,10 @@ This package allows you to use those roman numbers as page \
 number."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn36236"
+PV = "2023.209.1.0svn36236"
 
-RPM_NAME = "texlive-romanbarpagenumber-2023.201.1.0svn36236-53.1.noarch.rpm"
-RPM_HASH = "a16d3824f5a39cc0cde3a9cf78020858ebe3389bee1c1a9bb8bfb961b6e12ec9fe194069e9bcd09fda812c3b9f30aacd3ddca17fe6b06237d069857202a816b8"
+RPM_NAME = "texlive-romanbarpagenumber-2023.209.1.0svn36236-54.1.noarch.rpm"
+RPM_HASH = "421b26af0dfe7f72e0873a11d6e225a49515f1e9e1cf344bcd295bd910483eea82652f0fb45bd8f2a08239819bed515a8b766d8aa5cee7dd07bda29b259161a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-romanbarpagenumber.sty \

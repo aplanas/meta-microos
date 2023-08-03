@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.9.0"
 
-RPM_NAME = "qcoro-qt6-devel-0.9.0-1.2.aarch64.rpm"
-RPM_HASH = "dca4f16f8820aaa28994edc9ca1d3892bd4eeafb7f0a17083e2bb277c69ad5b20b37fdfbf858980f04b6a7a7e0dfeb45f89eb7aad7f049eee1d38ce601b73e6f"
+RPM_NAME = "qcoro-qt6-devel-0.9.0-1.3.aarch64.rpm"
+RPM_HASH = "84e91e9524e90578c493df317e9c8bedcde63358fb211c1beeb6a6e08d3a5cf18bf0a957e64f04a603679ffc402062f6d6f8dc11e7f443f3f79ec9b5fb4945c0"
 
 RPROVIDES:${PN} += "cmake-QCoro6 \
 cmake-QCoro6Core \

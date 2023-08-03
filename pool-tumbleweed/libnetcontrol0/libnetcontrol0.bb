@@ -14,8 +14,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.3.2"
 
-RPM_NAME = "libnetcontrol0-0.3.2-1.9.aarch64.rpm"
-RPM_HASH = "0505864c8222e0805cf43247a63882ea3a88a9e43d716f819ad48081cc07200e1f09f994b527e859aa444d3874a6b0b292d03665f8d96cc9de96ea154dc6f40c"
+RPM_NAME = "libnetcontrol0-0.3.2-2.1.aarch64.rpm"
+RPM_HASH = "24dcb2fa2c9fa44006a6ec5b02c4a681b916078182293e13a82ce2d713cfd79a83ef4443081c2ae1fc67809bfbec3ddddaf8c648644427ed2f75c549d1013eff"
 
 RPROVIDES:${PN} += "libnetcontrol.so.0 \
 libnetcontrol0"

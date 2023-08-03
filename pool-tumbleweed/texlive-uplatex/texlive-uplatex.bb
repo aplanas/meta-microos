@@ -4,10 +4,10 @@ This is a community edition syncing with platex. The bundle \
 depends on platex."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.svn66186"
+PV = "2023.209.svn66186"
 
-RPM_NAME = "texlive-uplatex-2023.201.svn66186-53.1.noarch.rpm"
-RPM_HASH = "14754f3ad57241667ca561f32e94a4abaf976843e783d39a6df31cd24cec1ba401df0c3c6dc5faf38352ecf9c089fef983a0964ba82c7612a04800c0c66dd571"
+RPM_NAME = "texlive-uplatex-2023.209.svn66186-54.1.noarch.rpm"
+RPM_HASH = "f75b26a558a2146396f392897ee030e6a3ea74982336b914e6b35e823289e990bdfb7f4c68ba2da8d9a855057839c8cc6dbd03c931274edc3f336b0e5918f65e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jt2gt.fd \

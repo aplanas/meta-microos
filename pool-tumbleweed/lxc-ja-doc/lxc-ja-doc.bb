@@ -2,10 +2,10 @@ SUMMARY = "Japanese documentation for lxc"
 DESCRIPTION = "Japanese language man pages for lxc."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.0.2"
+PV = "5.0.3"
 
-RPM_NAME = "lxc-ja-doc-5.0.2-1.2.noarch.rpm"
-RPM_HASH = "3e84f3f8e3fb759177ff415fe136269e0fe537570888a0a042cf3532b56bd2bea5a8d9195993c6448119edfb2bbe88ee265da9f669252ef980bf2bb0e34e8288"
+RPM_NAME = "lxc-ja-doc-5.0.3-1.1.noarch.rpm"
+RPM_HASH = "c613c739325c4551dc83464ad8a9b908956e34dc5a8ddcf0b133e8d3e02d8c9e3ae0118f5a811df7d7bc3619be8a812713d5a5e77fc3e61c9f6693e0decd6470"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxc-ja-doc"

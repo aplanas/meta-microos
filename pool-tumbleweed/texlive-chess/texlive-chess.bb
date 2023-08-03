@@ -5,10 +5,10 @@ and notation support), texmate (for alternative notation \
 support), or chessfss (for flexible font choices)."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.2svn20582"
+PV = "2023.209.1.2svn20582"
 
-RPM_NAME = "texlive-chess-2023.201.1.2svn20582-53.1.noarch.rpm"
-RPM_HASH = "116af0f2b1cdd3f6cd5849243e38116d735fd8b2b3fb4eff53991213d6fe94cc4491717f221ed3050fbf5541a5c91bb0b24dba1c4cb6409ea59cea6ca88ab608"
+RPM_NAME = "texlive-chess-2023.209.1.2svn20582-54.1.noarch.rpm"
+RPM_HASH = "f1fe02ff59ee10bd9e7f32405a7dcc1d0d50c11f686569da60dcf0dc038d09214171808c2efc58c1fe5e87e50cf9ceb4a346fd6b702d08e7573ed5e1751e684c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chess.sty \

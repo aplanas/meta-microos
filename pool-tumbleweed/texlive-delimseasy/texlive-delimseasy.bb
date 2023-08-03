@@ -7,10 +7,10 @@ likelihood of incomplete delimeter pairs and typically use \
 fewer characters than the LaTeX default."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn39589"
+PV = "2023.209.2.0svn39589"
 
-RPM_NAME = "texlive-delimseasy-2023.201.2.0svn39589-52.1.noarch.rpm"
-RPM_HASH = "dd540489d5d76ab78c478ca63bc9474e135a63673a2cb4f04d5d63c5aa135edc6cf297afd3c5f2f0e1f67d2d3854dc8a4cbb3c1d2f71451a2ccc099c8852c4e0"
+RPM_NAME = "texlive-delimseasy-2023.209.2.0svn39589-53.1.noarch.rpm"
+RPM_HASH = "d897110361e8ba4bc59a48ab8e1751390a8d933eff3b76c7d14eee95dcccab2b885047c68e87f0b3afa65321c4c4205b31db56b35a9125db1c52e7203cf26c0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-delimseasy.sty \

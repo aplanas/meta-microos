@@ -6,10 +6,10 @@ This package contains a search provider to enable GNOME Shell to get \
 search results from documents."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "44.0"
+PV = "44.1"
 
-RPM_NAME = "gnome-shell-search-provider-gnote-44.0-1.2.noarch.rpm"
-RPM_HASH = "806d6a67f3f1da660c3d763f7cbc45e2c4c16077d78bb04400c1c85b809eeebeaabca8b909e6ded8ec8e38873f39c110c81c9f036422977b4cd044757360bc83"
+RPM_NAME = "gnome-shell-search-provider-gnote-44.1-1.1.noarch.rpm"
+RPM_HASH = "f38d16950856806e38cb4b8294f3202194b730f260891dd37135182827141eb4638c2ac56746d89d6740a6a03d26349a29868e4f23057bde2dacb671037b6666"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-gnote"

@@ -4,10 +4,10 @@ packages okumacro and okuverb. These classes are designed to \
 work under ASCII Corporation's Japanese TeX system ptex."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.svn66093"
+PV = "2023.209.svn66093"
 
-RPM_NAME = "texlive-jsclasses-2023.201.svn66093-55.1.noarch.rpm"
-RPM_HASH = "8ae2ab76a2ee9186dda90144bfc2cd11bf433fcf2d5234802190b1b88ac834a99f355e07703f892299c61f7e28167f018dae4af46702f5b56244cf856b6c4b08"
+RPM_NAME = "texlive-jsclasses-2023.209.svn66093-56.1.noarch.rpm"
+RPM_HASH = "23f4e60e7dfc4b57daec8644fd45b115dbe5046af972fb3051ca65423d03278eb97737b839e7d47e0f77d3ed48ff5922f89a5822a2fa8b66635d34dcda56944a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jsarticle.cls \

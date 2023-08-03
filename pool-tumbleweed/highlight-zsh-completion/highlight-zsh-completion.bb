@@ -2,10 +2,10 @@ SUMMARY = "Zsh completion for highlight"
 DESCRIPTION = "This package provides Zsh command-line completion support for highlight."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.6"
+PV = "4.7"
 
-RPM_NAME = "highlight-zsh-completion-4.6-1.1.noarch.rpm"
-RPM_HASH = "922facf6e23167f7ce126fb41a655bc1b8687fd7c5963d809213b516393cb8efe769cec84d3cf1d862fd2fc65752e1c934952a7ebf20431bb9dd4e186de4b3c5"
+RPM_NAME = "highlight-zsh-completion-4.7-1.1.noarch.rpm"
+RPM_HASH = "d76f014d9ca12da107886aa32903e57c5e8eebff5f6434bb8ebdd8e6d3a8a928ebe255f9f26ebddd93a91d0ca3ba7065609d65fb60740e7b4ddf5e85cba6a819"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "highlight-zsh-completion"

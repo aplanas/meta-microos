@@ -6,10 +6,10 @@ This package contains a library that can other apps use to utilize the mpv \
 features."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.35.1+git.20230315.e1727553"
+PV = "0.36.0+git.20230723.60a26324"
 
-RPM_NAME = "libmpv2-0.35.1+git.20230315.e1727553-1.5.aarch64.rpm"
-RPM_HASH = "68c17eae944acc2f7c6bd1a1ff5d807b423a6780fe17bbb8294b34641681214f9d16c2ed8231a95ab677f5be975d727e9144c712948a684d0daa0645624adb73"
+RPM_NAME = "libmpv2-0.36.0+git.20230723.60a26324-1.1.aarch64.rpm"
+RPM_HASH = "da82b38e09dc04b25228ff23a0ea036e6bb89bbabe63cf0b890373393cc95e650d66bb49ac4e08ef44e8806814a47d309d2637c77d5d304d2274d8ee89700dcd"
 
 RPROVIDES:${PN} += "libmpv.so.2 \
 libmpv2"

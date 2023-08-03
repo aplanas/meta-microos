@@ -3,10 +3,10 @@ DESCRIPTION = "Files needed to develop applications using the library for filesy
 detection."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.39"
+PV = "2.39.1"
 
-RPM_NAME = "libblkid-devel-static-2.39-3.1.aarch64.rpm"
-RPM_HASH = "afd853191dd376c6e9b07672e04f436cbbfecd2ef361c70d0953605162b224919245c617947fd5b4092ea8f4d4233705e45027c9ff46890e94a6d3ff8e573823"
+RPM_NAME = "libblkid-devel-static-2.39.1-1.1.aarch64.rpm"
+RPM_HASH = "4e2383a49490506ab5dea1469aa19a042a38e8a43595a5411d50b6cdad9bbfac8f0e83253c886ab5010e75d5225552eecc0c440716c66833495f48501ebf8b4e"
 
 RPROVIDES:${PN} += "libblkid-devel-static"
 

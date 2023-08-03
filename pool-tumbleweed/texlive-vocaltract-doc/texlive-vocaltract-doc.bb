@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-vocaltract"
 DESCRIPTION = "This package includes the documentation for texlive-vocaltract"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1svn25629"
+PV = "2023.209.1svn25629"
 
-RPM_NAME = "texlive-vocaltract-doc-2023.201.1svn25629-53.1.noarch.rpm"
-RPM_HASH = "b389d8710e65eda4e153d0c83728ade4ea361c604bbfe866e3b439d5493136e186f40787f2f633575a6dff529084c56e533adb0f6a49468e29da93ce6347d1c9"
+RPM_NAME = "texlive-vocaltract-doc-2023.209.1svn25629-54.1.noarch.rpm"
+RPM_HASH = "da6577deca0cf427989eb9c7f78c0af3f069052ccca9b170901ce6ccaa00c32d8b47fea8dd16abca21fd4337821001f2ff4b8f145a6f2e95d3039c4a18b50b7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-vocaltract-doc"

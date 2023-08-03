@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-dozenal"
 DESCRIPTION = "The  separated fonts package for texlive-dozenal"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.7.2svn47680"
+PV = "2023.209.7.2svn47680"
 
-RPM_NAME = "texlive-dozenal-fonts-2023.201.7.2svn47680-52.1.noarch.rpm"
-RPM_HASH = "3acb8c524691cca459e8feafb8cc28df9b89de2cc85d2f9f4a534334db779c4dcba0b6d8b6d05939d9ea8c24d4ae1bb5495a09a9f05792a2edefc5965765988a"
+RPM_NAME = "texlive-dozenal-fonts-2023.209.7.2svn47680-53.1.noarch.rpm"
+RPM_HASH = "12c7436ed53752d54c0f1e3cd7928a1c921f6a91f289b023826df640c807d61453b51c0d0206a67fc8cb6ae02e6b8cbcbbef912ff2f9530ce331f065f2673c58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=fj \

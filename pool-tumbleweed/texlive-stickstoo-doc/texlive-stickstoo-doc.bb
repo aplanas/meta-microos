@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-stickstoo"
 DESCRIPTION = "This package includes the documentation for texlive-stickstoo"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.035svn60793"
+PV = "2023.209.1.035svn60793"
 
-RPM_NAME = "texlive-stickstoo-doc-2023.201.1.035svn60793-57.1.noarch.rpm"
-RPM_HASH = "89bd4b2f43953803133f648663791e0d4b55526daab54dc185bc3ce3f1925a37297dfb2c7971d526d5b06036c497aa92881e8c2a833dd15a3e3e8d27d8245f1c"
+RPM_NAME = "texlive-stickstoo-doc-2023.209.1.035svn60793-58.1.noarch.rpm"
+RPM_HASH = "b181b00266d35509035f3211078488f1a0be527f427fad5d33ece86fcaea8554b3a059ddbe3afaad4acfe713bfa3939fbea8c4688578d38ffb02635e50eedda5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-stickstoo-doc"

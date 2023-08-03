@@ -14,10 +14,10 @@ from Adobe-Japan1, because mapping setups from non-Unicode JFMs \
 to such physical fonts are difficult to prepare."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.6svn64072"
+PV = "2023.209.0.0.6svn64072"
 
-RPM_NAME = "texlive-pxufont-2023.201.0.0.6svn64072-53.2.noarch.rpm"
-RPM_HASH = "9fb0b90fe77c07d2d040b819351ab727410a1efd7fdc3e5e95c94ded1f85730f884f280a15eb3c739c45534f57dff0d6ecd495adc0b0d7c7fd9e92a895992a91"
+RPM_NAME = "texlive-pxufont-2023.209.0.0.6svn64072-54.1.noarch.rpm"
+RPM_HASH = "40f8ded1a7e2faf630b28d73231bf3f1409ca53eb2c68e4b7d921da58f9e5e43ea22cf9b7c30b82f9622af0c341c2c61983fef5a61b799d85820ed5f14571c21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pxufont-ruby.sty \

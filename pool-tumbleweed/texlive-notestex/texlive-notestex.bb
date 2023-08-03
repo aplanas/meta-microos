@@ -6,10 +6,10 @@ offer easy support for marginnotes along with a reliable and \
 legible formatting structure."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn45396"
+PV = "2023.209.1.0svn45396"
 
-RPM_NAME = "texlive-notestex-2023.201.1.0svn45396-54.1.noarch.rpm"
-RPM_HASH = "619678428d567ac913c806b688ee12a3fb7ea68b0740677eed0c5da71fd0e2c2ca53168bae724eaa64254e3ccf658b85827f195bac5b7db627b7996c40680069"
+RPM_NAME = "texlive-notestex-2023.209.1.0svn45396-55.1.noarch.rpm"
+RPM_HASH = "76a9498a07d5f4b943beb24012c35d210f9f9971c90465191a1c26d0a117a3b09f11abef36be6defe61a369e48a2bfb86e650bac7ec62d7e476cbc815a29b8b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-NotesTeX.sty \

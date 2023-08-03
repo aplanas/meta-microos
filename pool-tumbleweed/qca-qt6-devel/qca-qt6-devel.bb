@@ -4,10 +4,10 @@ including a library and a plugin for using all supported capabilities \
 of openssl, like SSL/TLS, X509, RSA, SHA1, MD5, Blowfish, 3DES and AES."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.3.6"
+PV = "2.3.7"
 
-RPM_NAME = "qca-qt6-devel-2.3.6-1.2.aarch64.rpm"
-RPM_HASH = "46f999a4c8a8b16117a14a7b034d2d775fe33615c7b7496ef59f880cf8e35aecd0f92dc0a6471352e37c6295bf52944afe292ae4f9b108f820a31d1f3c2d9afb"
+RPM_NAME = "qca-qt6-devel-2.3.7-1.1.aarch64.rpm"
+RPM_HASH = "395f9f6882aab4a48986cc674db0bdd7897d63cf5aa61cf39b54559077a0881224a057187a8c9bd8c1eca20c25fa938f3ba1f40eda6dab2186f8193ee18edf16"
 
 RPROVIDES:${PN} += "cmake-Qca-qt6 \
 qca-qt6-devel"

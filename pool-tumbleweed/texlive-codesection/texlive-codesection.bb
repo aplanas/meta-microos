@@ -7,10 +7,10 @@ based on whether sections of code in a preamble of a template \
 are executed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn34481"
+PV = "2023.209.0.0.1svn34481"
 
-RPM_NAME = "texlive-codesection-2023.201.0.0.1svn34481-53.1.noarch.rpm"
-RPM_HASH = "f7ee0868a5c3930fe45ea2c15d91d045e28cb94dc5a47625667aa289157a08c1c1b9a2a4aaba596a84ebe942579dd9541551d3e5f9be4274187e50794bd37f3b"
+RPM_NAME = "texlive-codesection-2023.209.0.0.1svn34481-54.1.noarch.rpm"
+RPM_HASH = "7634b9c391a9dde6c0c1a73d1f4f955ceebcacaa2f08b2f759b80597c9376bb9782c442bf5ab9977f114b80684356356d93a333563a4a5142f3b51594468d8a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-codesection.sty \

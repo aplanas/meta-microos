@@ -8,10 +8,10 @@ define the join conditions explicitly, to bridge the gap between database and \
 domain."
 LICENSE = "MIT"
 
-PV = "2.0.16"
+PV = "2.0.19"
 
-RPM_NAME = "python311-SQLAlchemy-2.0.16-1.1.aarch64.rpm"
-RPM_HASH = "1e4927c7d98c34170f689413f32c131d59b12ce755e0f2af638e7a0f1e628608ff5e6c6c58a0d82b48e9d97dda503857e7586e622547d74009040147945697c2"
+RPM_NAME = "python311-SQLAlchemy-2.0.19-1.1.aarch64.rpm"
+RPM_HASH = "21beaf0fff57bbeef0afc72fdb232155e5588b608944837dac0192328dc100ce0574dd538a1bc64730e43288b184310dad56f0291d014b131128b07530553d29"
 
 RPROVIDES:${PN} += "python3-SQLAlchemy \
 python3-sqlalchemy \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-noto-emoji"
 DESCRIPTION = "This package includes the documentation for texlive-noto-emoji"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.2.034svn62950"
+PV = "2023.209.2.034svn62950"
 
-RPM_NAME = "texlive-noto-emoji-doc-2023.201.2.034svn62950-54.1.noarch.rpm"
-RPM_HASH = "f4425f35342eabaf2650eb288100503b0393033723f4642677bb1244088f2d5705901418f28436efcd5e63cff2b462f0f2a6ea184a3bcb58a9fdbfdb94a2974c"
+RPM_NAME = "texlive-noto-emoji-doc-2023.209.2.034svn62950-55.1.noarch.rpm"
+RPM_HASH = "aeb57f6c6f4996a7b8213beb5c17467d68ab42deb8e1f6957641f305f31dffaa8a62c8cc4294daa2debfc62f4f840897850d972cc4ae29e343b47795f24cf4e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-noto-emoji-doc"

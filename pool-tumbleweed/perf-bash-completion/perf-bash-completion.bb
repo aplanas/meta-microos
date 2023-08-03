@@ -2,10 +2,10 @@ SUMMARY = "Bash completion for perf"
 DESCRIPTION = "bash command line completion support for perf."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.3"
+PV = "6.4.6"
 
-RPM_NAME = "perf-bash-completion-6.4.3-80.10.aarch64.rpm"
-RPM_HASH = "5828bcdf91d1f485663f22510d2310f22f59d03f084de4e505700be338d3744a23ddc3e842a0ce92027b3b7519c449824e9c009b5663dbb17c1b145f496beee0"
+RPM_NAME = "perf-bash-completion-6.4.6-80.12.aarch64.rpm"
+RPM_HASH = "e5f4ad0267300e1008437b7916181a8a3da24f006aac9397301c07999d021c375ba2e49bb81a645a4dec7874d9329a599236fa8afc33d365263036131b7a0a4c"
 
 RPROVIDES:${PN} += "perf-bash-completion"
 

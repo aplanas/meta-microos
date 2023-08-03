@@ -7,10 +7,10 @@ not a float of itself; but you can place it in a table or a \
 table* environment, if necessary."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn17383"
+PV = "2023.209.svn17383"
 
-RPM_NAME = "texlive-threeparttable-2023.201.svn17383-54.1.noarch.rpm"
-RPM_HASH = "fa23e4d20685986260e9fa50f07a0be864a5b6dc951a71fbee4a1a281e3dd922a8172b4b8c94d8a03becf1081848f50258d74ee0f2fd0bc2085dc1ad125cf5a3"
+RPM_NAME = "texlive-threeparttable-2023.209.svn17383-55.1.noarch.rpm"
+RPM_HASH = "026af5353490f5d8dac7fdd2561e0a9d50f10ee2e235ed361e4d5e1112ba5674fb4e6c6981dce8755e8b0e0b10c5a0306736c3899441f66df04dc153d2de9ec4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-3parttable.sty \

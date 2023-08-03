@@ -7,10 +7,10 @@ described in terms of its objects and its arrows (morphism), \
 positioned in a Cartesian coordinate system."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.5.0.0svn30206"
+PV = "2023.209.5.0.0svn30206"
 
-RPM_NAME = "texlive-dcpic-2023.201.5.0.0svn30206-52.1.noarch.rpm"
-RPM_HASH = "7acdaa324b47fe57c00bb0e896aa1589510113bd654fb7bceff8edb209164eb7531d6a55ec13a2661b1242f1e01146b0f9fc36dcb9689365ab40b2e4113fa57e"
+RPM_NAME = "texlive-dcpic-2023.209.5.0.0svn30206-53.1.noarch.rpm"
+RPM_HASH = "e08033f7d725ee403bc21b95bbd43e3edb62f210956bbdfc7e6d0c7324477d5ecdead6058710c95d7889f379a4ab1e6dfda7aad6f76b2b680c2c17d6c150f086"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dcpic.sty \

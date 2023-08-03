@@ -8,14 +8,14 @@ limited, but growing. At your option, PSPP will produce statistical \
 reports in ASCII, PostScript, PDF, HTML, SVG, or OpenDocument formats."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.4.1"
+PV = "1.6.2"
 
-RPM_NAME = "pspp-1.4.1-3.14.aarch64.rpm"
-RPM_HASH = "4a015e706bb59ad090141e44995753653357dc0605b71b12ce6888f2fa86a5e106d9af2cb679981ae2c1cfab2b2578c116497597d583519d614fa35057223a6a"
+RPM_NAME = "pspp-1.6.2-1.1.aarch64.rpm"
+RPM_HASH = "66b47cd928e98d757decc2d42c1aec495b6754bf6c9e66ec538ca8391f5b6bf120ff6adfaa95f0431d9ef811dd0c1d4b2bf6af74a7278759f02e22639a9268e8"
 
 RPROVIDES:${PN} += "config-pspp \
-libpspp-1.4.1.so \
-libpspp-core-1.4.1.so \
+libpspp-1.6.2.so \
+libpspp-core-1.6.2.so \
 pspp"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -33,7 +33,7 @@ libgsl.so.27 \
 libgslcblas.so.0 \
 libgthread-2.0.so.0 \
 libgtk-3.so.0 \
-libgtksourceview-3.0.so.1 \
+libgtksourceview-4.so.0 \
 libharfbuzz.so.0 \
 libm.so.6 \
 libpango-1.0.so.0 \

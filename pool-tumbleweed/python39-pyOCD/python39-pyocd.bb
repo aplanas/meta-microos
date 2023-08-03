@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.22.0"
 
-RPM_NAME = "python39-pyOCD-0.22.0-2.15.noarch.rpm"
-RPM_HASH = "c6a9b7974dff65ff4667a05bab42546fbe676ec5c53988d1d853f83ca1a1abbb9fb5df02277089b241624a0c30a2bc8f0fa381978e2279201277a4c0c2ded71d"
+RPM_NAME = "python39-pyOCD-0.22.0-3.1.noarch.rpm"
+RPM_HASH = "517491c878e182f7dcabb2aaff8d8d31a2720de9eee819a78a63645383427284c15376a0e4d89f6e9c28f5d51e62365ba829fdb1203eca9f2502109c96c27f49"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyocd \

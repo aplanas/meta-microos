@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-polexpr"
 DESCRIPTION = "This package includes the documentation for texlive-polexpr"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.8.7asvn63337"
+PV = "2023.209.0.0.8.7asvn63337"
 
-RPM_NAME = "texlive-polexpr-doc-2023.201.0.0.8.7asvn63337-52.1.noarch.rpm"
-RPM_HASH = "bed375196d0901da083f10666c7c2b6ad03b0943980c9fe20798bd25330be69e253fa180e337ff54ac3691e90d4528a3bcfc77e239c65c3c6ccb125668206d40"
+RPM_NAME = "texlive-polexpr-doc-2023.209.0.0.8.7asvn63337-53.1.noarch.rpm"
+RPM_HASH = "99e64c0ad15acf1b6fc91d120b0e02add44acf5ae35603ba402922200f0912c73c7ac2b1deca5c213030ce73a2a14784a9e4c270f2d1cd71abfe53a7a8d7d2b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-polexpr-doc"

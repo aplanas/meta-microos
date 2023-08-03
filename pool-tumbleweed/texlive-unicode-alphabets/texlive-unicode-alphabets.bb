@@ -10,10 +10,10 @@ enable transcription and display of medieval and other \
 documents."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66225"
+PV = "2023.209.svn66225"
 
-RPM_NAME = "texlive-unicode-alphabets-2023.201.svn66225-53.1.noarch.rpm"
-RPM_HASH = "f9e33fbd052d3f93218c7a9dfdea7fdb7da84e67b9d4c8a1f0ea30fed6374b7fc4a40cb6a7cec8be0df8408333c808e9f16da197ba0858b0f6bf48071e1528ef"
+RPM_NAME = "texlive-unicode-alphabets-2023.209.svn66225-54.1.noarch.rpm"
+RPM_HASH = "e8150caa5d4a07e7a26a15ed663422a9479aff9586df19a27e67270909e0330b4d76aaaab829cc9e6d301be83b7e49523814dae0d974738f5775c3ea0547ef9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-unicode-alphabets.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "The package allows data, text (including (La)TeX commands or \
 environments) to be formatted into a array which may be split."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn30991"
+PV = "2023.209.1.0svn30991"
 
-RPM_NAME = "texlive-nox-2023.201.1.0svn30991-54.1.noarch.rpm"
-RPM_HASH = "62d5277584255472d0ec2125861ed8eebdf598daa3729042841a65e9c7f9de018c3f5ba11297ae0e14276f4a2e4dd53396fb4eddb7afdbd5fb23cecd8a44339e"
+RPM_NAME = "texlive-nox-2023.209.1.0svn30991-55.1.noarch.rpm"
+RPM_HASH = "07a260d5e73a5d749ffbf8f9ba64cdc14c127fb2ee5646c0dcc7373da7f585545ef0739fe25ec4ce1c2a2cb479ab6242466ac25119ea6e3d3d6fefb22aad61fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nox.sty \

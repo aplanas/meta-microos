@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-kvsetkeys"
 DESCRIPTION = "This package includes the documentation for texlive-kvsetkeys"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.19svn64632"
+PV = "2023.209.1.19svn64632"
 
-RPM_NAME = "texlive-kvsetkeys-doc-2023.201.1.19svn64632-55.1.noarch.rpm"
-RPM_HASH = "7459e70a319c6a6b6f840223de7083a1bfb284a5621e3e7a952f100cb1561198ad4a6d1ac87ab08cba64725a94ea0023b2271217fdb59422f8a76d51552ddc1d"
+RPM_NAME = "texlive-kvsetkeys-doc-2023.209.1.19svn64632-56.1.noarch.rpm"
+RPM_HASH = "b034b707a2f28845caa8fcea848b30165c2bd107a64d5dde466a1617785239bd007c8f2eb78d742070f0f7dae6dc7ccd2d4227b090b1d28aca3297198673bb86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-kvsetkeys-doc-en \

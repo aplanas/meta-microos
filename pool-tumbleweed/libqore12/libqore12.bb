@@ -7,16 +7,16 @@ This package provides the qore library required for all clients using qore \
 functionality."
 LICENSE = "GPL-2.0-or-later | LGPL-2.0-or-later | MIT"
 
-PV = "1.13.0"
+PV = "1.16.1"
 
-RPM_NAME = "libqore12-1.13.0-1.6.aarch64.rpm"
-RPM_HASH = "44607ed73d68f4d1dd709dda09d0bbf7c16d2c4e2621835c2996a2bfde6c4776344e2c97503b6ea71bee87188e1b0e53288f0be15ce4e2d20e07d7256c3bf221"
+RPM_NAME = "libqore12-1.16.1-1.1.aarch64.rpm"
+RPM_HASH = "853f75fea88134fa1b554f5575fab9d3e45976988c96025d282f00474774a6c4d387b4348aa9ef54074510cb7bf341ef49ea35c90d3c78894b35da535c641817"
 
 RPROVIDES:${PN} += "libqore.so.12 \
 libqore12 \
 qore-module-abi"
 
-RDEPENDS:${PN} += "/sbin/ldconfig \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libbz2.so.1 \
 libc.so.6 \

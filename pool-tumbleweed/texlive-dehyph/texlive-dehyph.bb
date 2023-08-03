@@ -10,10 +10,10 @@ hyphenation patterns for the German language package it is \
 possible to make pdfLaTeX use the new German patterns as well."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn48599"
+PV = "2023.209.svn48599"
 
-RPM_NAME = "texlive-dehyph-2023.201.svn48599-52.1.noarch.rpm"
-RPM_HASH = "841512dc51a8de56cfe877296cc69b29def1abba136ea0e3627f1c24a2d231e2c442de8c5622c75b4aba1389464a5beec8c40e18b7defc9b1d4e53761f1c31d5"
+RPM_NAME = "texlive-dehyph-2023.209.svn48599-53.1.noarch.rpm"
+RPM_HASH = "4ce92d53e2653317ebb8174b637cc412c8463c2014f1edae82d33ef00025255fc0a2fa26ca1caecde0046af674b76500270a54ad0ea250029ab338bf0e45ef09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dehyphn.tex \

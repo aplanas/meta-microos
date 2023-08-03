@@ -12,10 +12,10 @@ first run of any document is inevitably just as slow as with \
 any similar package)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5esvn46393"
+PV = "2023.209.1.5esvn46393"
 
-RPM_NAME = "texlive-pstool-2023.201.1.5esvn46393-53.2.noarch.rpm"
-RPM_HASH = "d9f5dcfcec2ffc3724a98e8c6cfa129cdbd27630c1d91fb9180c65eb24ec15e19f21703fb06c8106a2cdbde0c8aa85dfec799dfa06fddc4ba046487484f16f4f"
+RPM_NAME = "texlive-pstool-2023.209.1.5esvn46393-54.1.noarch.rpm"
+RPM_HASH = "731f8c3cc0ae4ec491a6a8736b5f9e98e4433273eb39b7f81b188b7dd2629bf0a2077e9573ceb0f0bf44ff71c90292f967fc48f741b660102ee6f6da878433a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pstool.sty \

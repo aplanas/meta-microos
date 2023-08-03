@@ -5,10 +5,10 @@ Research Papers, Theses, and Dissertations: Chicago Style for \
 Students and Researchers' (9th edition)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn58561"
+PV = "2023.209.svn58561"
 
-RPM_NAME = "texlive-turabian-formatting-2023.201.svn58561-52.1.noarch.rpm"
-RPM_HASH = "f2cd35feea055e3e4b32febbb5e899ac091488b452afbdbfeba2969e4748b263017b7e3e9b0a90836bfa79f876c26eb04ac4e6c9723f789087771ef725c9daa9"
+RPM_NAME = "texlive-turabian-formatting-2023.209.svn58561-53.1.noarch.rpm"
+RPM_HASH = "f0ac998a147c88659822bf4b80ba76b77a754af87fb9112d8b39235711e0a09d24dcb35b318f31aa093665bbcaadbbde8cea967c834571ccd7c82fa56b9770b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-turabian-formatting.sty \

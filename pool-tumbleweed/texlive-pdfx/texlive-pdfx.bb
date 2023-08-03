@@ -4,10 +4,10 @@ standards-compliant PDF documents with pdfTeX, LuaTeX and \
 XeTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6.3svn50338"
+PV = "2023.209.1.6.3svn50338"
 
-RPM_NAME = "texlive-pdfx-2023.201.1.6.3svn50338-51.1.noarch.rpm"
-RPM_HASH = "434dff016140edf4b3410a42ee0b850edb297d04757ce8fbc65d6e47cd1174ae92168a06a683e6fcb3e30de348bae5f0b1bed239a0aaeee2dc86ab7af804bf26"
+RPM_NAME = "texlive-pdfx-2023.209.1.6.3svn50338-52.1.noarch.rpm"
+RPM_HASH = "de072db6d40db1be64f55ca3766f9515b4c43294a366dc00f9020a74413988a465ab21dc38e2cfda5c44265146de2d9767831f06e1b8ff870c72fac107c56fee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-8bit.def \

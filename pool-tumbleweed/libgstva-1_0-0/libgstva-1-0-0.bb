@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "libgstva-1_0-0-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "16722652a16fcc4456ddade753d846afd92f8faf7f8ccea35273edbf1c0b3a22b5cc7e684b9173a856e7d0dba91ca6f1887591cfa8e592236d0ae95edd783744"
+RPM_NAME = "libgstva-1_0-0-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "636573bfbff1f77b21618655807fa92fb46e76593befe1cce25262f7e117db58422639a26a060be615c247d72a3581f68c2cdda4c933c847b492af1fd4ef9329"
 
 RPROVIDES:${PN} += "libgstva-1-0-0 \
 libgstva-1.0.so.0"

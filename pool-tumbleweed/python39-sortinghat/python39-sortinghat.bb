@@ -24,27 +24,40 @@ to store the identities obtained into its database, and later merge them \
 into unique identities (and maybe affiliate them)."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.7.23"
+PV = "0.12.0"
 
-RPM_NAME = "python39-sortinghat-0.7.23-1.5.noarch.rpm"
-RPM_HASH = "f891ac76fa767712a64a4c245070f640f419f4bd312672914f2eb689d90b66661649fb64d98229e58bf5b7f9cf66a6c1c5d3a0c2f4b2ac550588f28e460d27af"
+RPM_NAME = "python39-sortinghat-0.12.0-1.1.noarch.rpm"
+RPM_HASH = "047c26158a3382f3cd0cce563c8de09724f19211bee57dcea584bf789c6e63604aa313b321ea2d463f30340e2b0a341d259ec1ea59d3ad5890aab5dd6c48f9b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sortinghat \
 python39-sortinghat \
 python3dist-sortinghat"
 
-RDEPENDS:${PN} += "/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/python3.9 \
 /usr/bin/sh \
 python-abi \
+python39-Django \
 python39-Jinja2 \
+python39-PyJWT \
 python39-PyMySQL \
 python39-PyYAML \
 python39-SQLAlchemy \
+python39-click \
+python39-django-cors-headers \
+python39-django-graphql-jwt \
+python39-django-rq \
+python39-django-treebeard \
+python39-graphene \
+python39-graphene-django \
+python39-grimoirelab-toolkit \
+python39-mysqlclient \
 python39-pandas \
 python39-python-dateutil \
 python39-requests \
-python39-urllib3 \
+python39-rq \
+python39-sgqlc \
 update-alternatives"
 
 inherit rpm

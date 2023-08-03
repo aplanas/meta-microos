@@ -12,10 +12,10 @@ gstreamer-plugins-good because: \
 - there are possible licensing issues with the code."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "gstreamer-plugins-ugly-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "ad43a804435181de85f04f6ed72f10f7c549cdd13e556459639d32226df90fadfacfeceeeacb351c015dc1cc52b6bff7bccf2ab2d3440ea05771771e7728fb42"
+RPM_NAME = "gstreamer-plugins-ugly-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "8439552225befc0ae546eb9b96c05bb429556ed75cf06ebdb5286afa1b0ac4c416a77d227df8b6f4e422d5647ab1f963cf6b61ea4952514b6008693783b877e2"
 
 RPROVIDES:${PN} += "gst-plugins-ugly \
 gstreamer-plugins-ugly \

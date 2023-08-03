@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-frimurer"
 DESCRIPTION = "The  separated fonts package for texlive-frimurer"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1svn56704"
+PV = "2023.209.1svn56704"
 
-RPM_NAME = "texlive-frimurer-fonts-2023.201.1svn56704-52.1.noarch.rpm"
-RPM_HASH = "fd05025f2bb5b4cf7a2c8a87648d6e2573b0af410f73c21a0abe137b7815e6ea08ca9c3a457492ff2693e75a1af14d0f931416af7fc8664f64dc0856a9cf08cb"
+RPM_NAME = "texlive-frimurer-fonts-2023.209.1svn56704-53.1.noarch.rpm"
+RPM_HASH = "207a5abc593b631a06354268066ea5e1398d37cc33218bd4c350b6c273dd69fa8b01e684a1b95fb0f9e0ef6a59d82ef594b9669f24bebf81e33d364a07ca7400"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

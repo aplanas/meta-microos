@@ -2,10 +2,10 @@ SUMMARY = "Enumitem documentation, in German"
 DESCRIPTION = "This is a translation of the manual for enumitem."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn24196"
+PV = "2023.209.svn24196"
 
-RPM_NAME = "texlive-translation-enumitem-de-2023.201.svn24196-52.1.noarch.rpm"
-RPM_HASH = "c1d52070a8a03f8c99349eaaa3bd1013c6cdc498537eb6bb36c13343b59c8e803335428adb8ddb841238cc861e192e4204bbdb29eb99687df6a162c5f32ef0fc"
+RPM_NAME = "texlive-translation-enumitem-de-2023.209.svn24196-53.1.noarch.rpm"
+RPM_HASH = "41d09e189607a087f0ddd46416dd1abd9901e0dfc30ed88da128b1f11567b33c78faee4a77bd0e3d2806732758353c97fc6a2124a50b7917fe8eca350b05fbce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-translation-enumitem-de"

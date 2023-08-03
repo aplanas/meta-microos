@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-eolang"
 DESCRIPTION = "This package includes the documentation for texlive-eolang"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.12.1svn66274"
+PV = "2023.209.0.0.12.1svn66274"
 
-RPM_NAME = "texlive-eolang-doc-2023.201.0.0.12.1svn66274-53.2.noarch.rpm"
-RPM_HASH = "7385d9d591e099959b2f95cb312dfca677b5b2fa0b5879b8edfd40c1cf0f511d5a3c94292ba1f87b9ae74b0ec95d8fc481c1a030ce448c5c80096e3540ab38a3"
+RPM_NAME = "texlive-eolang-doc-2023.209.0.0.12.1svn66274-54.1.noarch.rpm"
+RPM_HASH = "5b65b8a0457f3bb7b2cee7f0d58f7b78a00415566362a273706ac326e6c8c8f44d490fbf760e5a402802745480b2de458541113e9dc998c0e237f44bd155be48"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eolang-doc"

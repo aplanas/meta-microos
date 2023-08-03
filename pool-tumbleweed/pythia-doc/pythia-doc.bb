@@ -6,10 +6,10 @@ incoming particles. \
 This package provides documentation for development with pythia."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "8.307"
+PV = "8.310"
 
-RPM_NAME = "pythia-doc-8.307-1.15.aarch64.rpm"
-RPM_HASH = "d66015b20062a36ebd3a43152bad28ffd29c200ea98a37bd742ce24c16d4ed73b0d9e3c8dd84d2ccab84d29ea8d9e488076af86d493958d430717f86c4ef3776"
+RPM_NAME = "pythia-doc-8.310-1.1.aarch64.rpm"
+RPM_HASH = "9ab6421855d335995626f50d096e7f4d82ced79039ee8051682eff8c886456dd8e61c9619705a3ae8e83d28c66be34b3f2c354aaf65372886f0b09794374b50f"
 
 RPROVIDES:${PN} += "pythia-doc"
 

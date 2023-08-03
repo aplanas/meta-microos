@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-alphalph"
 DESCRIPTION = "This package includes the documentation for texlive-alphalph"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.6svn53087"
+PV = "2023.209.2.6svn53087"
 
-RPM_NAME = "texlive-alphalph-doc-2023.201.2.6svn53087-54.1.noarch.rpm"
-RPM_HASH = "22c66e2c61c371f5ce32a6925b03d4f74c95fd48358b04d12414409424e32888fe814a00264143822f1dd8a0470376a25d1caa3dfb21782304ccba85a5c97bfb"
+RPM_NAME = "texlive-alphalph-doc-2023.209.2.6svn53087-55.1.noarch.rpm"
+RPM_HASH = "149e38bf22773553aac8eb226c30438886aae014076282ff9e006760caccc25f8513d826faa00676499b695aec5270c01513c48cf265ef670a938a6bedcf59eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-alphalph-doc"

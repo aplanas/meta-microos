@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-authoraftertitle"
 DESCRIPTION = "This package includes the documentation for texlive-authoraftertitle"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn55889"
+PV = "2023.209.1.0svn55889"
 
-RPM_NAME = "texlive-authoraftertitle-doc-2023.201.1.0svn55889-53.1.noarch.rpm"
-RPM_HASH = "80271444988f49ae8edcbd39f25bdbb91c25580be81dcaa8b6862fd66accdc36bb64bab2cb4fd620123fe96729b955e625dd3a49c10bbcfc4f1c1609b708c094"
+RPM_NAME = "texlive-authoraftertitle-doc-2023.209.1.0svn55889-54.1.noarch.rpm"
+RPM_HASH = "adbf0b8d648a33a920b562d4ff08e2f25666020170a58aa1be3e690cea5cc17b08f04f982d5f73db71930001f6b002327092f44e9b8caf9bf44fb77b4c1248f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-authoraftertitle-doc"

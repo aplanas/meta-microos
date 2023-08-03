@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-basque"
 DESCRIPTION = "This package includes the documentation for texlive-babel-basque"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0fsvn30256"
+PV = "2023.209.1.0fsvn30256"
 
-RPM_NAME = "texlive-babel-basque-doc-2023.201.1.0fsvn30256-53.1.noarch.rpm"
-RPM_HASH = "c4b662ce4447e4479254f3584e5c1d36e11ce075a052be56c81d24b52ef118b807d061c94f0ac63eb3ab0e11aa048401d08978ed2380e44149b1f49fc71d257f"
+RPM_NAME = "texlive-babel-basque-doc-2023.209.1.0fsvn30256-54.1.noarch.rpm"
+RPM_HASH = "0714f3b9d7a23c670d6baa4a312208c98ac826b851c734459460bf93e2aa2859d30ddf307ef25938a9acf86c65c3392b12eb81cd72c4d3b384958f5a978e500a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-basque-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides the means to draw pie (and variant) \
 charts, using PGF/TikZ."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.7svn63603"
+PV = "2023.209.0.0.7svn63603"
 
-RPM_NAME = "texlive-pgf-pie-2023.201.0.0.7svn63603-51.1.noarch.rpm"
-RPM_HASH = "51a99ae4c9370f96d18e8466ce96f765ca60aff1639fe0080a8b748b4127a0d9907fcd7ec19031b9097c97b1bdb468ae360d4737784e6aa9cead0a00b99d2bf9"
+RPM_NAME = "texlive-pgf-pie-2023.209.0.0.7svn63603-52.1.noarch.rpm"
+RPM_HASH = "003a1c1cd8141abaff1b735ab5da0fdd05abc8913c418a9fa6f1d7d1b4471ca3f5e5db480ebe3781dae2a95afb68f2a4235f00074e9541f66f4ae1028eb2d3c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pgf-pie.sty \

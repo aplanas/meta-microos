@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.2.0"
 
-RPM_NAME = "xmvn-mojo-4.2.0-2.2.noarch.rpm"
-RPM_HASH = "83d553984a075ae5beb7e0b773cf4f15dbc5940802b6b3662c96ebd14849c092a7e6b9194de31462491a79bc8ce47490ac57043a841fbae4f9d6b61e6d1b235f"
+RPM_NAME = "xmvn-mojo-4.2.0-3.1.noarch.rpm"
+RPM_HASH = "c123583f164de738046eea276bea484bf6f770fc44f4f1b7bb672e4f4d4fae1df7fa3e87e7d1c25a014875f4500bf06fd68a4186110e71077dcfe0477f4f8d15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.fedoraproject.xmvn-xmvn-mojo \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.4"
 
-RPM_NAME = "nvme-cli-regress-script-2.4-1.2.noarch.rpm"
-RPM_HASH = "4666b53500bdd56c182167ccf1b7a4e47cc0c639f74fc5956c0593fa3991f1c7402c59ec29716ea685af43ddc816cf7629f0100fe1ee3de867dec6b8ad614d66"
+RPM_NAME = "nvme-cli-regress-script-2.4-2.1.noarch.rpm"
+RPM_HASH = "d941b9d936a9a62a4b07a40e4387c3b6088a2a72b24543fd870391fc65555082c95427d458bc788833db551819ce35a528107bebb27b7dbd00131931b764ec20"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nvme-cli-regress-script"

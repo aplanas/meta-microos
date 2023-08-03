@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dashundergaps"
 DESCRIPTION = "This package includes the documentation for texlive-dashundergaps"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.2.0hsvn58150"
+PV = "2023.209.2.0hsvn58150"
 
-RPM_NAME = "texlive-dashundergaps-doc-2023.204.2.0hsvn58150-54.1.noarch.rpm"
-RPM_HASH = "1d951b39b60463710a942a8c00d033e9d4a3f29f49e20fdf7e3d4ca606455a5d003042b0f91b1a7b804c9b384ae40e535e08672801e96bedba944016756e8fd0"
+RPM_NAME = "texlive-dashundergaps-doc-2023.209.2.0hsvn58150-55.1.noarch.rpm"
+RPM_HASH = "6cf5e4f5880dc5a8c1793b1ee6ad084f0105268fe3ad69b9645d46eed60e68d4a07a79078007a359bbb5627791bcac3b5d02941a31a5c82e029985dd36e55087"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dashundergaps-doc"

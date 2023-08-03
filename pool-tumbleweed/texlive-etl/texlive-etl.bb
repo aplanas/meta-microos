@@ -13,10 +13,10 @@ for document authors; it only contains expl3 functions intended \
 for programmers."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn60998"
+PV = "2023.209.0.0.3svn60998"
 
-RPM_NAME = "texlive-etl-2023.201.0.0.3svn60998-52.1.noarch.rpm"
-RPM_HASH = "859b292065b1da4eda43850897148f9a03a93e6e63fe32f6a4db0bce9db556f9ba8b413cdbde06077fdc4ff4df754fbd7707bfd7dceeb96baa92fbfb43800087"
+RPM_NAME = "texlive-etl-2023.209.0.0.3svn60998-53.1.noarch.rpm"
+RPM_HASH = "447b15962c42b38e34af1119ddc2fd180adbfedd8c1aff4c4683bfaba8cf5bb164b52cadfee5ca871359a7363eb1426c57759faa1d0a4055e33546b6e352f203"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-etl.sty \

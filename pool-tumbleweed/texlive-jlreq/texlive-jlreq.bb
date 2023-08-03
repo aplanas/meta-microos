@@ -5,10 +5,10 @@ JFM (Japanese font metric) files for LuaTeX-ja / pLaTeX / \
 upLaTeX are provided."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.svn66362"
+PV = "2023.209.svn66362"
 
-RPM_NAME = "texlive-jlreq-2023.201.svn66362-55.1.noarch.rpm"
-RPM_HASH = "86adf92b27544f4d951d8b7c9076676f65becd05323c23462e31c57a044cdb9591860f616a26ed3f9143665b6c02cf97d092e7550449aa5faa6845ebf017b88a"
+RPM_NAME = "texlive-jlreq-2023.209.svn66362-56.1.noarch.rpm"
+RPM_HASH = "62bfc16a948d874b5bbbb10b3fa23076769d855adcb9a6b1c1550ba454a858a3cedfaf94b7b371879de2a509a2284bed29da2153eebc1fb4b358ca67219ff842"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bjlreq-v.tfm \

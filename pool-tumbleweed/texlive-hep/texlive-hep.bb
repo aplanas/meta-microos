@@ -4,10 +4,10 @@ selection of others that are useful in High Energy Physics \
 papers, etc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-hep-2023.201.1.0svn15878-53.2.noarch.rpm"
-RPM_HASH = "50b253105fbbbef4988c926806a668ca1b0a5b381f1c2104aa33d90df38b3cdead78d381af4625ad10afb39c66d64533be1a88391487be975e9b6ae62d0663c9"
+RPM_NAME = "texlive-hep-2023.209.1.0svn15878-54.1.noarch.rpm"
+RPM_HASH = "68f6a0cda27056d64a6bed5fd8f4f74cb8019eee8b68062e8b23d1618c89b62f583f76dbaa07f4534562e9397058337325152ed1f5246fdd51ee46511dbb8136"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hep.sty \

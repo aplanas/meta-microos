@@ -3,10 +3,10 @@ DESCRIPTION = "Font information needed to load the cmmi and cmmib fonts for \
 use to produce oldstyle numbers."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn15878"
+PV = "2023.209.0.0.2svn15878"
 
-RPM_NAME = "texlive-oldstyle-2023.201.0.0.2svn15878-54.1.noarch.rpm"
-RPM_HASH = "c4366849afcf6db8207f18643433a358e74ea013b5d7d0723ceef0b364b6557a8fb87014d5d1f23d0882805fd456198085e1ffa698b55e7ad059b4b4edc39141"
+RPM_NAME = "texlive-oldstyle-2023.209.0.0.2svn15878-55.1.noarch.rpm"
+RPM_HASH = "a74c76f824403b523df0ff0a9074b3c581393fd1ad8f8fc7158f7ef87014c64faebd872d319305cc68c8db9bf0679e9296d7e6594a71db41c31798a1bfd23b0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Ucmm.fd \

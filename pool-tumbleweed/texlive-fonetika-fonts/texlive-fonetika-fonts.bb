@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-fonetika"
 DESCRIPTION = "The  separated fonts package for texlive-fonetika"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn21326"
+PV = "2023.209.svn21326"
 
-RPM_NAME = "texlive-fonetika-fonts-2023.201.svn21326-52.1.noarch.rpm"
-RPM_HASH = "983c475bc49156555fb53b3b059cae31b59ac2f2c014461062467726966f7d57ea063bf8b5b21cb48cf6bc184bbbcef9bf66b665ae841fc65e682aac939b9333"
+RPM_NAME = "texlive-fonetika-fonts-2023.209.svn21326-53.1.noarch.rpm"
+RPM_HASH = "a8a0cde7c2753df9c60dd517c0b7c11bd1c768e8ee84800c16e3477b1dd375d0ee7f85e4557c2f6ac93bb0b31899353d5d5a7d20f1944d0cd9d75ceac91db0e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-fonetika-fonts \

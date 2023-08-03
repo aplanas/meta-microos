@@ -4,10 +4,10 @@ from the left margin of the paragraph. If the typesetting \
 position is already further along, \\tabto starts a new line."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-tabto-generic-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "e6a1dbc7d0d381b35a487434ed5a803b56b517e82ed18b46bfffe10fcd14691da9bfd97b82d39b1009f54724db728a1dd0eda2ae71ed7f4de030472e1e442be5"
+RPM_NAME = "texlive-tabto-generic-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "91e1a32f6eabc987381ab05f7b6814b2695c56ff11bb5050b532d75b257424d95006b3b2c4ff775aa6d6128a88efdbe66e93fa09f2d066c06f4937b25854aed1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tabto.tex \

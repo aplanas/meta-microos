@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-psnfss"
 DESCRIPTION = "This package includes the documentation for texlive-psnfss"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.9.3svn54694"
+PV = "2023.209.9.3svn54694"
 
-RPM_NAME = "texlive-psnfss-doc-2023.201.9.3svn54694-52.1.noarch.rpm"
-RPM_HASH = "483da3342de5660fe6b394113e2f56f6b18c770d47695cc89b8fb45003b3d40dcf1131a838a2d47d7867b5be918057a7ec9edb2ec8780775107a426bb6babcfa"
+RPM_NAME = "texlive-psnfss-doc-2023.209.9.3svn54694-53.1.noarch.rpm"
+RPM_HASH = "546166466edc25e6f0be6be5a372d08c9409ba5f5b9cc4ffba47f76db79af8bb7449d2fdbedf38fc5321369a737498d4aa95bd10b85376c43c79080e2d754dd5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-psnfss-doc"

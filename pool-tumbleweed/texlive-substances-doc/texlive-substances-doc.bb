@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-substances"
 DESCRIPTION = "This package includes the documentation for texlive-substances"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2asvn40989"
+PV = "2023.209.0.0.2asvn40989"
 
-RPM_NAME = "texlive-substances-doc-2023.201.0.0.2asvn40989-57.1.noarch.rpm"
-RPM_HASH = "c8c0be65663585546f091cf3c997661feeb51bf4274f9e258775f4d40c6e221a2b6714410efc8c24063b468476e911648386fe693b2fd302f6263bfe6e31b0cf"
+RPM_NAME = "texlive-substances-doc-2023.209.0.0.2asvn40989-58.1.noarch.rpm"
+RPM_HASH = "412a997c7072339f36ba25b5862721f98938f67543798459855b3d47dde016a8e73483c4112af62edee4a2f4d0c236efefbe76c97173e1e2c1eaf830a2a440d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-substances-doc"

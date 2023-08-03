@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mweights"
 DESCRIPTION = "This package includes the documentation for texlive-mweights"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn53520"
+PV = "2023.209.svn53520"
 
-RPM_NAME = "texlive-mweights-doc-2023.201.svn53520-54.1.noarch.rpm"
-RPM_HASH = "f795b60cec06dc8515cd09b19475907c963ae2229fc7225c70c54be692eb6749efc81ee31e621e58caab2da97e4ecd987f62284494402d8ce6188a1c770b7359"
+RPM_NAME = "texlive-mweights-doc-2023.209.svn53520-55.1.noarch.rpm"
+RPM_HASH = "89450126179627bacac83a06fabf1ef90276ce051f68c95d7c692def1ed7c4c166024c0ba084846efd6b1f8b4564dafcbba82abc564e48b71744dd4b989fd868"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mweights-doc"

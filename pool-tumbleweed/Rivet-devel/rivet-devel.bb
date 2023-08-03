@@ -11,10 +11,10 @@ development of future theory models. \
 This package provides the source files for development with Rivet."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.1.7"
+PV = "3.1.8"
 
-RPM_NAME = "Rivet-devel-3.1.7-1.2.aarch64.rpm"
-RPM_HASH = "db7e9bb070edced672c81bf9b5eec1b0f97a2d2f816ee6c29611b26772785b57aaded75258f9173bfa03e241b2cafb40a446109202c9909f8dcb6696bb8f97a0"
+RPM_NAME = "Rivet-devel-3.1.8-1.1.aarch64.rpm"
+RPM_HASH = "91cccfbc4e9e50da677e38e8ac11ceb00ea8378bc0e4f66f0a9fff9011cf67eaead40e99170173108c3a2c7dda0080688ffe798a041d5b2a17020f79da2ece97"
 
 RPROVIDES:${PN} += "Rivet-devel \
 pkgconfig-rivet"
@@ -23,6 +23,6 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/pkg-config \
 Rivet-data \
 YODA-devel \
-libRivet-3-1-7"
+libRivet-3-1-8"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-alegreya"
 DESCRIPTION = "The  separated fonts package for texlive-alegreya"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64384"
+PV = "2023.209.svn64384"
 
-RPM_NAME = "texlive-alegreya-fonts-2023.201.svn64384-54.1.noarch.rpm"
-RPM_HASH = "bd9bf4913f635c587bdd5017075b0845c975d0cab959f8c51eede296ea4dedea75fa8d14e456618c5560fa0340af56efcf83d1c13f47e7b78b444234837b1f28"
+RPM_NAME = "texlive-alegreya-fonts-2023.209.svn64384-55.1.noarch.rpm"
+RPM_HASH = "3d4683a779cb60b46299980bbe1429a20c970c20fa890db7520373d919b097ff0f057650ff4765dbc4aa7403b33bc13772242c7387398a1202bd9ccd83398931"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-alegreya-fonts \

@@ -10,10 +10,10 @@ intended to be used to automatically translate more than a few \
 words."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.12dsvn59412"
+PV = "2023.209.1.12dsvn59412"
 
-RPM_NAME = "texlive-translator-2023.201.1.12dsvn59412-52.1.noarch.rpm"
-RPM_HASH = "68fe6b4607cb05b1aac95e9ebfa273cf0d61f6aa576af8e47b7fa5b79580cf90f1feed2ec40284bf9c40893d8ee86ffd7858ae4c617de81772ae3c596ed006a7"
+RPM_NAME = "texlive-translator-2023.209.1.12dsvn59412-53.1.noarch.rpm"
+RPM_HASH = "874cc726e27dfd92e6d46dabb9ecb1f19ed2a86ac62eecc7ee48dd01f9eba72bb4161d1544727c062e7a4e21b66d3cc317daa4adfe5b365a8429d1fac219fe94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-translator.sty \

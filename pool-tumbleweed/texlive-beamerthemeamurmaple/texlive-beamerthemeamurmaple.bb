@@ -5,10 +5,10 @@ However, if you like this theme, and if you want to ask for or \
 make improvements, don't hesitate to write to me!"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn65698"
+PV = "2023.209.1.2svn65698"
 
-RPM_NAME = "texlive-beamerthemeamurmaple-2023.201.1.2svn65698-53.1.noarch.rpm"
-RPM_HASH = "8158b6d81136ede1fe718317931d0568467bd738394f7f5dee162c45092bee0a25fe0fe952fa2a3391828a7b6d1f6a6cf28cc3e3f92cecc78489abb394f0de5e"
+RPM_NAME = "texlive-beamerthemeamurmaple-2023.209.1.2svn65698-54.1.noarch.rpm"
+RPM_HASH = "de8a655a517e3460ff03f4a23fe2573b6766e593b3961c911540d3d73a9d4fe9da267dfcb130b46255cbf51d4d28e96a365a7f8c66a5e32654fef04fdc081824"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamerthemeAmurmaple.sty \

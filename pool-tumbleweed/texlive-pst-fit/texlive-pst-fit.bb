@@ -4,10 +4,10 @@ Power Functions; exp Function; Log_{10} and Log_e functions; \
 Recip; Kings Law data; Gaussian; and 4th order Polynomial"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.02svn45109"
+PV = "2023.209.0.0.02svn45109"
 
-RPM_NAME = "texlive-pst-fit-2023.201.0.0.02svn45109-52.1.noarch.rpm"
-RPM_HASH = "7863d8f728dac9ae9404f9a1924a6308353148f99b15dbaf7d134a88f9f24ad0cbd15a1f0a9d9442505b29a99d619d1cc37347f10bce7e6bb448bda3d90b5602"
+RPM_NAME = "texlive-pst-fit-2023.209.0.0.02svn45109-53.1.noarch.rpm"
+RPM_HASH = "13eefbf46b480e98012e8c277dab7f7c4acfc7d1737db131d2adc551b4d779263c660d50099ee7db9a67b37c49f5ea4c99c9fc446bc4b14f4e1bb0c826d05991"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-fit.sty \

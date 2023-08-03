@@ -10,10 +10,10 @@ MIDI input nor Audio output facilities included in the library. You need to \
 provide your own input/output."
 LICENSE = "Apache-2.0"
 
-PV = "3.6.11"
+PV = "3.6.12"
 
-RPM_NAME = "libsonivox3-3.6.11-1.4.aarch64.rpm"
-RPM_HASH = "1a39c433fa3e3525bf4d2a41c7e8e358ae975ed3097142e1fe423169842f0a30cabb3df0e8d37ba87279305b9f9ccbfba67f94c8191c3c8d4ff29e5fe90c70c0"
+RPM_NAME = "libsonivox3-3.6.12-1.1.aarch64.rpm"
+RPM_HASH = "8fa7a714a5f0a6ea09072a314a86cafe521265f56da32026b8796ccfd516864b727477b1c3be6c234a9ff5cfdf63eb8c6bf384fb0e36087dfde21f0bebff4531"
 
 RPROVIDES:${PN} += "libsonivox.so.3 \
 libsonivox3"

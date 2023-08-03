@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-milsymb"
 DESCRIPTION = "This package includes the documentation for texlive-milsymb"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.02svn54361"
+PV = "2023.209.1.02svn54361"
 
-RPM_NAME = "texlive-milsymb-doc-2023.201.1.02svn54361-54.1.noarch.rpm"
-RPM_HASH = "7cb62ddf30bb1376fff42a6bffd79d4346afdec2bc94f26dd88a2425d36616158d9e36e7f3152b70962bce0ca5caa9a943ce988c7a8d0bd64caf7f7a6d83252c"
+RPM_NAME = "texlive-milsymb-doc-2023.209.1.02svn54361-55.1.noarch.rpm"
+RPM_HASH = "a2ebc473489fe1af340441a0e0b4adaac1861c05a05cdfad10d4a8006796cc905bde16db269debb14fb661e188f1dcc5ccad87d8279de9427a1e62ffdc661743"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-milsymb-doc"

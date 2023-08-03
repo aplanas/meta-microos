@@ -5,10 +5,10 @@ for dissertations and theses as laid out in the Fall 2010 UO \
 graduate school student manual."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.5.6svn25355"
+PV = "2023.209.2.5.6svn25355"
 
-RPM_NAME = "texlive-uothesis-2023.201.2.5.6svn25355-53.1.noarch.rpm"
-RPM_HASH = "73de3a823c24727ff126434bcbf9449eafc0d7c5b91042ce839465e020c097d086ef26191a09664a4844755f5ef9c1ac845ebeb257155a85e1b9e2f378d33a12"
+RPM_NAME = "texlive-uothesis-2023.209.2.5.6svn25355-54.1.noarch.rpm"
+RPM_HASH = "3cd879efb45a5f3198fefd060e4ecd53ea2175ba701cc46fa06113f12a421fea123f997315b2a0b69ea1a745984a0ef9da2060f57cd599c8d3d2f3ba5776beee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uothesis.cls \

@@ -6,10 +6,10 @@ applications, or simply mentioning multiple pages that share \
 something in common."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.0.1svn65251"
+PV = "2023.209.1.0.1svn65251"
 
-RPM_NAME = "texlive-hereapplies-2023.201.1.0.1svn65251-53.2.noarch.rpm"
-RPM_HASH = "9ab08ee0c355d7ea81a3d98590a356c03c2dab591a6ad7b03d4ee0f10f2d2cf3f275f766a5ae002d7e234b951f87cd0cc9007c5ea5f3a82b1b6b277928263c3b"
+RPM_NAME = "texlive-hereapplies-2023.209.1.0.1svn65251-54.1.noarch.rpm"
+RPM_HASH = "05f7dda429eaef8ab19abab53551a2aa4d9ce1f8deef9593a9aa01cd2c8bfd2f687ffbc97781c3cc7fb44f6d97b9d81be80f16ebd875676623a2e81024813a14"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hereapplies.sty \

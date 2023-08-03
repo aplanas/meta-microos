@@ -6,10 +6,10 @@ This package contains the FUSE (file system in user space) \
 XRootD mount tool."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "5.5.5"
+PV = "5.6.1"
 
-RPM_NAME = "xrootd-fuse-5.5.5-1.1.aarch64.rpm"
-RPM_HASH = "50bae6a17f642ac3b3a8397bf4a436461f7c39d17a2e155495efabef9e4f44deea385e62df1443b08df8ac00c7c14fc94193f0927f1d6c83f5abfbff4cc2f3d6"
+RPM_NAME = "xrootd-fuse-5.6.1-1.1.aarch64.rpm"
+RPM_HASH = "3e41e4ed83ba761cb30021cae9648635fe3eb772bfcb409728442284a6705f494df12baf726f3e4c5ab92e1049bbe7467d66718f59744d9d36c8cf6e10ec1798"
 
 RPROVIDES:${PN} += "xrootd-fuse"
 

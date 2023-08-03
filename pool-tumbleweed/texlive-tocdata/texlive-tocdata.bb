@@ -15,10 +15,10 @@ koma-script, and with titletoc, tocloft, tocbasic, and \
 tocstyle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.05svn65451"
+PV = "2023.209.2.05svn65451"
 
-RPM_NAME = "texlive-tocdata-2023.201.2.05svn65451-52.1.noarch.rpm"
-RPM_HASH = "0a16ad79ff9d895a6f3ffe43dae4b80f10ef156c4b471a419b7046bb7e8e6e52c2c5853c02ad3ff3cb691279c6b8df1a058c0d26f21cd99fbad53356291a4fe3"
+RPM_NAME = "texlive-tocdata-2023.209.2.05svn65451-53.1.noarch.rpm"
+RPM_HASH = "de028806425ad988f459d77a243ab657455c22ca271c6bfc750dd489857e7bd0aa15c485fb61f9516bd5ae81dec1f911b9bc014488e432e60137b0057e578394"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tocdata.sty \

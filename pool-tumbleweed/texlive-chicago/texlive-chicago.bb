@@ -5,10 +5,10 @@ package (to LaTeX 2.09 conventions) is also provided. The style \
 was derived from the newapa style."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-chicago-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "279e2c87f286e532194f0f14fd861d7e5d65d24e21ed24e6d424b42aa3393e4d77f8e6b404278bd5a6187da26a19b703122109aacedcbcb28d88950433190e14"
+RPM_NAME = "texlive-chicago-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "babef9b41b7604b40ade48601490fc6a516e9239f25fdcb4e9d7efa0d8fbe8d12c69d191f363570b3795f54de84a0a184fbd279246c2bbe20d6cd4014be9b3d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chicago.sty \

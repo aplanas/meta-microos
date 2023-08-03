@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-studenthandouts"
 DESCRIPTION = "This package includes the documentation for texlive-studenthandouts"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn43516"
+PV = "2023.209.1.0svn43516"
 
-RPM_NAME = "texlive-studenthandouts-doc-2023.201.1.0svn43516-57.1.noarch.rpm"
-RPM_HASH = "c82c271e057dba513439031d844b3fbc934e6ffc9386eabc5fc0f8e709d0721ddafa2b5795effa546dc36e3cdc46290d563496cc6998a463b21d45dd5ce35d9f"
+RPM_NAME = "texlive-studenthandouts-doc-2023.209.1.0svn43516-58.1.noarch.rpm"
+RPM_HASH = "d24ee2b138f746ffb50aa35e375cf761b3ef68548e153877b80480737c30490b752ddf292c3e126d61a746d8b956ff77026a24407bae3aaea8d0cea425481f74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-studenthandouts-doc"

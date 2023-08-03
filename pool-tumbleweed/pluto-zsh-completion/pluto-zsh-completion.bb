@@ -2,10 +2,10 @@ SUMMARY = "Zsh Completion for pluto"
 DESCRIPTION = "Zsh command line completion support for pluto."
 LICENSE = "Apache-2.0"
 
-PV = "5.18.1"
+PV = "5.18.2"
 
-RPM_NAME = "pluto-zsh-completion-5.18.1-1.1.noarch.rpm"
-RPM_HASH = "6e0d11956f36802421f01cf69feb1f8d5d1ef1ba2b6afc3b2aab9308217298da209486585218a4bf7e809323a18deecc4f09f49f5258cd3117bd796554ab2e82"
+RPM_NAME = "pluto-zsh-completion-5.18.2-1.1.noarch.rpm"
+RPM_HASH = "43b9fd39709bfa703520f226933e8d9df9270a8d55d3ffaaf640f7cb60cd0388f201c0569dfdf71ac0a315156e03ac71613766c9137184c082b5e238352d09f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pluto-zsh-completion"

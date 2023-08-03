@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-montex"
 DESCRIPTION = "The  separated fonts package for texlive-montex"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.ivu.04.092svn29349"
+PV = "2023.209.ivu.04.092svn29349"
 
-RPM_NAME = "texlive-montex-fonts-2023.201.ivu.04.092svn29349-54.1.noarch.rpm"
-RPM_HASH = "c1d31dc9ec9635c0e88f208ffdbf2e7752ef50a29b94ae6d9160decb563295e9189d4d70ded94118164269cc955b147798f83eb0e85191e8ac36bd1cc3f9220e"
+RPM_NAME = "texlive-montex-fonts-2023.209.ivu.04.092svn29349-55.1.noarch.rpm"
+RPM_HASH = "129316288825fe4fd4d0ee4539c48283fafe3edfd36d80ef8f6a48bc5850fbcc196633a94558ee788a95c0378250e4866bcb145fc05635bbaa51302b24b93edc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

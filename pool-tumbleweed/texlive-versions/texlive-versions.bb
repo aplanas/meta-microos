@@ -5,10 +5,10 @@ does the same, but corrects, improves, and extends it in both \
 implementation and function."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.55svn21921"
+PV = "2023.209.0.0.55svn21921"
 
-RPM_NAME = "texlive-versions-2023.201.0.0.55svn21921-53.1.noarch.rpm"
-RPM_HASH = "08cdf0823e6cd72f2d7a69c6bc89534fc9566d246335e7cc5e24dbc65515318b87f82356f9221fb1122d35569a697a8788f457c14f34bd195f8d769de06b5124"
+RPM_NAME = "texlive-versions-2023.209.0.0.55svn21921-54.1.noarch.rpm"
+RPM_HASH = "8443575d13f16ee869ade14c2e1d5e89dff858351af3ef0553e688f6f69027d19e67de91a443f0b4b241f62a6f92a67b3db94838c7f522aacf24f8bbf709a0c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-versions.sty \

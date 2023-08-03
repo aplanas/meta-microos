@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 NXP Management Complex bus driver."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230707"
+PV = "20230724"
 
-RPM_NAME = "kernel-firmware-dpaa2-20230707-1.1.noarch.rpm"
-RPM_HASH = "c03feeb702224f7e5570e7f487ddfef2116f3cc3b3dd16e0aa007d2499512f09d3693028f286cef12811f7c4693519e8d821d1dc0313bc1265da57fb0ae4f955"
+RPM_NAME = "kernel-firmware-dpaa2-20230724-1.1.noarch.rpm"
+RPM_HASH = "0c9b965b46c5b73b61afa76072b7d477adf58c3161aaef229c6287a23a2bda7354450a34f695251465bb4763936bc92098f81d2a5121f493511dc4c3934c599d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-dpaa2/mc/mc-10.10.0-ls1088a.itb \

@@ -16,10 +16,10 @@ follow a consistent naming scheme making them easy to use and \
 understand."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn63850"
+PV = "2023.209.1.2svn63850"
 
-RPM_NAME = "texlive-derivative-2023.201.1.2svn63850-52.1.noarch.rpm"
-RPM_HASH = "dc86caaa9f0e555a2d2eff9b203dfdbfeb5b00f639c70474eb6097349b65ed4ea8b082f8013bf46f543b094a00dc8bd06694928012ec717358c350c5d0637c70"
+RPM_NAME = "texlive-derivative-2023.209.1.2svn63850-53.1.noarch.rpm"
+RPM_HASH = "54e4373fb4b3cb10b29d51345bd0400336634f1e9ebc7d65e7f046b4cae160e625f815e2094af7435117f32083dc145203cf7e83e4fa6a5717869d2594c2f1f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-derivative.sty \

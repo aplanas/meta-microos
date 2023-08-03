@@ -6,10 +6,10 @@ Python library. \
 Lexicon was designed to be used in automation, specifically letsencrypt."
 LICENSE = "MIT"
 
-PV = "3.11.7"
+PV = "3.12.0"
 
-RPM_NAME = "python39-dns-lexicon-3.11.7-2.1.noarch.rpm"
-RPM_HASH = "2c9599021fd2517d305822b00350944b55057c7d2bb23fafd342ba492bd8047cce44088b1dda7bd1fe1b10ef36c1d7608ce2b84053e1e1b725f47be48b4ae443"
+RPM_NAME = "python39-dns-lexicon-3.12.0-1.1.noarch.rpm"
+RPM_HASH = "e4264a1ea6a6c1e87ee2d4bba4d46323bac36197a1893c73822604b4de15bcd3d953db415f70a851e4615ea74b4c5a8a51066dd8bc6653c49ecd5849b6a8b816"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-dns-lexicon \

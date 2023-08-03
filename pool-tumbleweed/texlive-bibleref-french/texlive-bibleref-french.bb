@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides translations and alternative typesetting \
 conventions for use of bibleref in French."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.3.3svn53138"
+PV = "2023.209.2.3.3svn53138"
 
-RPM_NAME = "texlive-bibleref-french-2023.201.2.3.3svn53138-53.1.noarch.rpm"
-RPM_HASH = "51436d91b9e9acc1cc1d54122a9ef7e75ce9b06c5a2f6981d6d28e4af129f5d5549afe9ceed6a07939e9b29ba7a401c40c23efbe70d46c38374deaf124d6a5aa"
+RPM_NAME = "texlive-bibleref-french-2023.209.2.3.3svn53138-54.1.noarch.rpm"
+RPM_HASH = "f49cfc0b1b04d40bae7c310d6120bd1d8f02b6eb8b716e4d3ac2a486e47dd841ae89903ea0f99068292f2b9f2cd8c688c51650408e7c1d32b93bf4012ea395e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bibleref-french.sty \

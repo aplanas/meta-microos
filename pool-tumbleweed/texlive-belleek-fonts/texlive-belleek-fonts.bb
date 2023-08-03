@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-belleek"
 DESCRIPTION = "The  separated fonts package for texlive-belleek"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn66115"
+PV = "2023.209.svn66115"
 
-RPM_NAME = "texlive-belleek-fonts-2023.201.svn66115-53.1.noarch.rpm"
-RPM_HASH = "23abc9de71ec45eaab4995670af88a5656bcc13c9468b4e4a0444424e867f9251102e64e393d53a59170e2afc1c2f5918020e7afe1e7e1cd8a4f464562e9c386"
+RPM_NAME = "texlive-belleek-fonts-2023.209.svn66115-54.1.noarch.rpm"
+RPM_HASH = "b894bb6beaba98aa9bffd420431d62bd6177087f063382ee77c9ee42d168de5d91d3d05544db78b570f5e1af5ee2b8734e4d24ad056cd6b341c04ae17a574828"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-belleek-fonts \

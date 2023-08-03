@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-skeyval"
 DESCRIPTION = "This package includes the documentation for texlive-skeyval"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn30560"
+PV = "2023.209.1.3svn30560"
 
-RPM_NAME = "texlive-skeyval-doc-2023.201.1.3svn30560-57.1.noarch.rpm"
-RPM_HASH = "bdb552f917c0e7b8591083e7e2ca8e7c08859c5b24c91bb8312a250724e831e4fdece336ce4c64661a36f5b9f9cd3d454a77cce2749740580d02025b718708f1"
+RPM_NAME = "texlive-skeyval-doc-2023.209.1.3svn30560-58.1.noarch.rpm"
+RPM_HASH = "3241c1746a6429a2cb3faf85bd681e05f52c9955e352741ccc90f8b105d7c1e1672c5392b92b8d756d065f7c32dc4f9043c62f8fc67c6a6c513e2dd883188a82"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-skeyval-doc"

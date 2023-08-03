@@ -6,10 +6,10 @@ second defines macros related to PBC, M-nets and B(PN) models; \
 and a third that combines the other two."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn39165"
+PV = "2023.209.svn39165"
 
-RPM_NAME = "texlive-petri-nets-2023.201.svn39165-51.1.noarch.rpm"
-RPM_HASH = "c513d960b4c5d1b1733a763c9a2a7349284e3134d58a41acd0f16584f2a4c51e35f5056c1b1ca92595fb024c0ae7b373de3a6aab3bd08fb3e4a3b07666229f82"
+RPM_NAME = "texlive-petri-nets-2023.209.svn39165-52.1.noarch.rpm"
+RPM_HASH = "95c16454be19e6396bd9fbe080beaaeaea5cef3b7dbd51f8f266e0fc302e7ad3f397f561b3941a780e5f21c1fc57db5847f3d5febe1717443800ba06ca65835f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pndraw.sty \

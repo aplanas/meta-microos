@@ -2,10 +2,10 @@ SUMMARY = "TeX Live manual (Polish)"
 DESCRIPTION = "The texlive-pl package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66576"
+PV = "2023.209.svn66576"
 
-RPM_NAME = "texlive-texlive-pl-2023.201.svn66576-54.1.noarch.rpm"
-RPM_HASH = "23da6a8f3100cd5e81d9d8e51b1f4d6447c814d780b227207544de6351adf6dac3804a218e271c48365318cf9cd34353ba8160c94d70c4490d90071afe2593f9"
+RPM_NAME = "texlive-texlive-pl-2023.209.svn66576-55.1.noarch.rpm"
+RPM_HASH = "000580d289e4135348992a64c4414a75f55448e4ab9f2e5c110147387189b84f7174599fc1ae7bab2e489afbcc0b05a8df9acfdb6769f7abda954fdf42139995"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texlive-pl"

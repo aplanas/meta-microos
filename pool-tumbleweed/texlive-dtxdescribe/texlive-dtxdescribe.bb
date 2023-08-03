@@ -21,10 +21,10 @@ file types, internet objects, the names of certain programs, a \
 number of logos, and inline dashes and slashes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.07svn65445"
+PV = "2023.209.1.07svn65445"
 
-RPM_NAME = "texlive-dtxdescribe-2023.201.1.07svn65445-52.1.noarch.rpm"
-RPM_HASH = "b00eea0db79d838c8dfe6fa5edd65d8b348a0a0b08f3f4e7d717795548ad3ddb29223ac5800bec4020a517cc12917912436423058c359e3b908b739ff1130fb9"
+RPM_NAME = "texlive-dtxdescribe-2023.209.1.07svn65445-53.1.noarch.rpm"
+RPM_HASH = "ac633460b3907cfdbdfd822caa330ccdb579ecb1b73b172db8cb180c006c6a59346b0eb811eee3f6e9fa6263524916260e6261df0814f96e8f6e23a726e6d5ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dtxdescribe.sty \

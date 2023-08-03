@@ -5,10 +5,10 @@ package introduces mathematical equation representation in \
 Japanese education."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn63864"
+PV = "2023.209.1.1svn63864"
 
-RPM_NAME = "texlive-jpnedumathsymbols-2023.201.1.1svn63864-55.1.noarch.rpm"
-RPM_HASH = "5461669ef626d3bfbf9dc6997ab78042a7f239a89c5a03a949477ad63bce7f125c4720e9975d40cb67ffbd7d2e9221537e8dc08af41a89078d8db51a182291ae"
+RPM_NAME = "texlive-jpnedumathsymbols-2023.209.1.1svn63864-56.1.noarch.rpm"
+RPM_HASH = "fcc04d37ae12ecf0dea27aaae69e4a55398be2d204d0ad090d83b56b17c14c5547bb3877dbde419f7f68f9bbee6145389cf16dd35a2daea7fa48377bfa2edbc6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jpnedumathsymbols.sty \

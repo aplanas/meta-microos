@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-context-simpleslides"
 DESCRIPTION = "This package includes the documentation for texlive-context-simpleslides"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn63903"
+PV = "2023.209.svn63903"
 
-RPM_NAME = "texlive-context-simpleslides-doc-2023.204.svn63903-54.1.noarch.rpm"
-RPM_HASH = "2f40afafd1053612a6a9736ac3372c7d4121bd14e0dc17f6bc9bd4f2bd9cb0d592fc7e243b579d759756df1ac7db1a4467d4bf3ea0c61da649917d02cb081355"
+RPM_NAME = "texlive-context-simpleslides-doc-2023.209.svn63903-55.1.noarch.rpm"
+RPM_HASH = "d00cb48d6ac68198ad066779a82535840d06bf22eb5bede38c2cb7027362d9919902ca9da0da8b4e5f323e1fb1d831941220ada71ebc8d7e91b14e0d5bc4a4da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-simpleslides-doc"

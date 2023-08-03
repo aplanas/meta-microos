@@ -6,10 +6,10 @@ order to use that font. The file AAA_readme.tex fully describes \
 the package and sample.tex illustrates its use."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn28363"
+PV = "2023.209.svn28363"
 
-RPM_NAME = "texlive-brushscr-2023.201.svn28363-52.1.noarch.rpm"
-RPM_HASH = "3191a164162df074a31d59a21391e2a288e413a114488b25427e4c408bf11aa98874670130da578c071f75d2395ac103e7a8085d05690c8f4b28d3ebf942a415"
+RPM_NAME = "texlive-brushscr-2023.209.svn28363-53.1.noarch.rpm"
+RPM_HASH = "fbd677461b0d0dd4ee00d9c13297546e71f08894391e9831a31bad11912cdb9e8ccf40ab7963a7076a6926bf852bef0cc46465d1af237d8f766ab3b5c4a27e83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pbsi.map \

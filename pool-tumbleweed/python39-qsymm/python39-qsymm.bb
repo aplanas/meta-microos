@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.3.0"
 
-RPM_NAME = "python39-qsymm-1.3.0-2.10.noarch.rpm"
-RPM_HASH = "6ab8ff566f4ea55d14199d8ab8ea025503830d82591e63dba5db47d1942ffd830b93fd013917bcf011526955edee8687690dc23c5c37f7850f73d2636dee31b1"
+RPM_NAME = "python39-qsymm-1.3.0-3.1.noarch.rpm"
+RPM_HASH = "82c727ced1dd7109569d43804a0ebbfc5125f3278228c2cbc6178eaa6f4ed7ef15722b762897c9fb650305d050c0481a8beadd09261fa6424cc7ffea4b5bb601"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-qsymm \

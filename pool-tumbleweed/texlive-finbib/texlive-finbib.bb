@@ -2,10 +2,10 @@ SUMMARY = "A Finnish version of plain.bst"
 DESCRIPTION = "The finbib package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-finbib-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "26f7959e5c06413c9c68051b1b279177567e0d3cb0ac87e022e8c4ebf5989c5e8462819cb04d6e4b9af59d59028146695604868e42b9b5b12056df946e5102c2"
+RPM_NAME = "texlive-finbib-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "fa8d080567e045b55362737210dac8e928286686985adcfb8fd16d9efb4276f1942a0c303f05c611eff9e959aa362cf8f4b9d76beb036010599af0aad8f002dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-finbib"

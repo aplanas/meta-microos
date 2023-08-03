@@ -5,8 +5,8 @@ LICENSE = "CC-BY-SA-3.0 & GPL-2.0-or-later & GPL-3.0-or-later & LGPL-3.0-or-late
 
 PV = "44.1"
 
-RPM_NAME = "gnome-builder-44.1-1.4.aarch64.rpm"
-RPM_HASH = "e621bff5d30428de4068f14439a260273e81172f0bec6154099d8417dfaebad65624a7044acdfdc496c2f4be654b6f8d3fc6014d5a44e652aea2de473a22659d"
+RPM_NAME = "gnome-builder-44.1-1.5.aarch64.rpm"
+RPM_HASH = "6ba3f1e987b8a3d71a1d7aa3ad97dc7eae42838019650066d31d833421c74575d6f7b428af13af900424d084b8a37f2f587646201d42832271a4bd1f224b15b7"
 
 RPROVIDES:${PN} += "gnome-builder \
 pkgconfig-gnome-builder-44.1 \
@@ -30,7 +30,7 @@ libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
 libgirepository-1.0.so.1 \
 libgit2-glib-1.0.so.0 \
-libgit2.so.1.6 \
+libgit2.so.1.7 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-4.so.1 \

@@ -4,10 +4,10 @@ For XeLaTeX and LuaLaTeX users the original OpenType fonts are \
 used. The entire font family is included."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.4svn42629"
+PV = "2023.209.1.4svn42629"
 
-RPM_NAME = "texlive-raleway-2023.201.1.4svn42629-53.2.noarch.rpm"
-RPM_HASH = "88d1e16d0ade899a2f718a2ef942c1942f4782cd0e1b6c2408a310a727b4fa8c4d3e6af0c38b089a2ad1422551a9c081f5a2f76b4405fe0aab5238b5a7e92668"
+RPM_NAME = "texlive-raleway-2023.209.1.4svn42629-54.1.noarch.rpm"
+RPM_HASH = "748f91db98e058f99275924740c96db70397f682c22e17c59f4a900d0b03f61112307eca6fd40bbe59ed368a20747776e6c1600a6e352571c2796be17c1daaac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1Raleway-TLF.fd \

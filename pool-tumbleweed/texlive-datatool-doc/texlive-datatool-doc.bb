@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-datatool"
 DESCRIPTION = "This package includes the documentation for texlive-datatool"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.2.32svn52663"
+PV = "2023.209.2.32svn52663"
 
-RPM_NAME = "texlive-datatool-doc-2023.204.2.32svn52663-54.1.noarch.rpm"
-RPM_HASH = "b0128864ff8f68dbb7a44393fbd498ad2e0eb2b5355a8101c858fccba9b92775c0d10047da44bc9e4e09314c0d298bb76bf2cac5b0be7a7598c2170c1f5ac98c"
+RPM_NAME = "texlive-datatool-doc-2023.209.2.32svn52663-55.1.noarch.rpm"
+RPM_HASH = "69ccc410460944c06f05627f0c2c111f45b6db0cd51c7f4f061f990980020498b61232769dce7488b7de6330e77f438a5d165e9ea3b1a436581cfe100ea76c09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-datatool-doc"

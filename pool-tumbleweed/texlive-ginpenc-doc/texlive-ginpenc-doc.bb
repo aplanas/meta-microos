@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ginpenc"
 DESCRIPTION = "This package includes the documentation for texlive-ginpenc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn24980"
+PV = "2023.209.1.0svn24980"
 
-RPM_NAME = "texlive-ginpenc-doc-2023.201.1.0svn24980-52.1.noarch.rpm"
-RPM_HASH = "390537ac499f9abecd7afe8ef3d0ce425d925146d8c739f0f3e95eb80b286bc786bd21a95bd2b3f615986a7dd415942d8b293833c5f0b632b31f24fb8c9361ad"
+RPM_NAME = "texlive-ginpenc-doc-2023.209.1.0svn24980-53.1.noarch.rpm"
+RPM_HASH = "92fa8f1f1d9aeb84d6ba035eff49096d38f74a382c58205f86026b75ed3b6a785424edc5d79c19df273caa2bbc9e6a0a7a2900eb57f46eafce7fd8266d16c68c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ginpenc-doc"

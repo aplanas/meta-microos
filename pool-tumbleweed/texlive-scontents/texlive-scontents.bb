@@ -5,10 +5,10 @@ verbatim) can be used as many times as desired in the document, \
 additionally can be written to external files if desired."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn62902"
+PV = "2023.209.2.0svn62902"
 
-RPM_NAME = "texlive-scontents-2023.201.2.0svn62902-53.1.noarch.rpm"
-RPM_HASH = "0ae311ecffa18c58ff73316f879fa6e9e5b40bccead6a2d3699e6b038fedc7d1f2b5fae259c3a21f5b2bb1f538565f5e7a71399a3508a0811b36e800c069bf1e"
+RPM_NAME = "texlive-scontents-2023.209.2.0svn62902-54.1.noarch.rpm"
+RPM_HASH = "a39ce5c1ddd50b9d055229d30629d9b0deaa94b9cd5daf7f802e3e99605bfd042eb892951797aa75e2e1388edcbb0c47c045d2e0254584e71c9229cbbff5f28e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-scontents-code.tex \

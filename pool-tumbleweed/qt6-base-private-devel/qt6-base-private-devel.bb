@@ -3,10 +3,10 @@ DESCRIPTION = "This meta-package requires all the qt6-base development packages 
 have any ABI or API guarantees."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-base-private-devel-6.5.1-4.1.noarch.rpm"
-RPM_HASH = "db0d9ca031a42bbb76f5ac8d597278a06ff68aec567476ee08d432f3bc96e66b9cb43feaa4c83d9936c249563d71ed77a58a1d778cab33907ad5fe9ce1517f03"
+RPM_NAME = "qt6-base-private-devel-6.5.2-1.1.noarch.rpm"
+RPM_HASH = "0138a65f86d7cccd248d20f1d6260748476768cf7dae916bae5b127e2eb9cf5457ce7200c7b5eb15169ea2e80008069571605c0d1cee82252d8a18527817d061"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qt6-base-private-devel"

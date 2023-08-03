@@ -10,10 +10,10 @@ customizable, both globally and locally. The package is based \
 on zref's extensible referencing system."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3.6svn66021"
+PV = "2023.209.0.0.3.6svn66021"
 
-RPM_NAME = "texlive-zref-clever-2023.201.0.0.3.6svn66021-52.2.noarch.rpm"
-RPM_HASH = "18142ed3dc9150e6faa1db351eff61bf9feedb5cf28e41f9f7e77ec4fd1cfe5e7a956162ba50684195c1f02f899f13dd0eff8bd5e9f80161b40f7bc4049aac6a"
+RPM_NAME = "texlive-zref-clever-2023.209.0.0.3.6svn66021-53.1.noarch.rpm"
+RPM_HASH = "20eb9c2d125fffc32f9b3ec91f67e7bb0e3f09c3cdceb4cfc1a6a3e5fb099c8a8e2c08c56b285c7699a686a95d9e8eeb1ab8f486764f557580e3446a47f60afe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zref-clever.sty \

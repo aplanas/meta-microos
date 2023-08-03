@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-eqnalign"
 DESCRIPTION = "This package includes the documentation for texlive-eqnalign"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0asvn43278"
+PV = "2023.209.1.0asvn43278"
 
-RPM_NAME = "texlive-eqnalign-doc-2023.201.1.0asvn43278-53.2.noarch.rpm"
-RPM_HASH = "f156b602c3c7519c1943dd4972f34394d25554162663b409bec1c0dae57d9a71069febda48cabaa66c287b05db98e63d0d9259594ceb8612e4a1a2c15b311a35"
+RPM_NAME = "texlive-eqnalign-doc-2023.209.1.0asvn43278-54.1.noarch.rpm"
+RPM_HASH = "08478a097a78431c3669354e89a04a84728f3c5a23b4df1241bce8789c8e8d0fb25ce1f72e48963a329b398e114d7c9fd51720cf406b65854bbd32d4e3ce2ff0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eqnalign-doc"

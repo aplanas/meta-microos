@@ -4,10 +4,10 @@ guidelines. Currently it covers TeX Live. Other distributions \
 can be added if needed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1._june_2022svn63560"
+PV = "2023.209.2.1._june_2022svn63560"
 
-RPM_NAME = "texlive-tex-vpat-2023.201.2.1._june_2022svn63560-54.1.noarch.rpm"
-RPM_HASH = "2604789b8aecc9caec2d2264a3cc62fb033750e4ab4b9fde47442667a69afbe6aca3cf3a209f0d405cd71947874be85df14e07618ae2ae9302e147033e597d74"
+RPM_NAME = "texlive-tex-vpat-2023.209.2.1._june_2022svn63560-55.1.noarch.rpm"
+RPM_HASH = "20e7e66729b753ea2fdbcabdacb119e8eadc486e9f77e67824c75ae21666c748ebcb767c76c9c91dc100377fbb4d880120b43459ac92ab0aaad9536b180ba71b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tex-vpat"

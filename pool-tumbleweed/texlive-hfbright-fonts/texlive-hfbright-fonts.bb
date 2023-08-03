@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-hfbright"
 DESCRIPTION = "The  separated fonts package for texlive-hfbright"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn29349"
+PV = "2023.209.svn29349"
 
-RPM_NAME = "texlive-hfbright-fonts-2023.201.svn29349-53.2.noarch.rpm"
-RPM_HASH = "2a2bb5e84271ee35cc287fcfd4df18f3dead6b026bf6cc2dff2e559e96b93811741bfde80e62655d7732e8efa4ec1bf384cb8a2421ec2aa8108c8b84a8a766a3"
+RPM_NAME = "texlive-hfbright-fonts-2023.209.svn29349-54.1.noarch.rpm"
+RPM_HASH = "8cbe814e65774ff59e974e91fcf560f13f218df4f52d55271f572c0144f1fbe686b626671dede87a16ef7b8423ac228b47ef8377acb6bbba4e8eeda52f976c4b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=fj \

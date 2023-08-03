@@ -3,10 +3,10 @@ DESCRIPTION = "This PSTricks related package can create poker cards in various \
 manners."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.201.0.0.03bsvn65818"
+PV = "2023.209.0.0.03bsvn65818"
 
-RPM_NAME = "texlive-pst-poker-2023.201.0.0.03bsvn65818-53.2.noarch.rpm"
-RPM_HASH = "965398f2c9548c7ca8e35b636dd19fd5a5b2e8f7ce5f82574e17cb4eb732359fc706928380a8829374a2432c53dd0244bce8b42d310528602d94ce471d2d2e91"
+RPM_NAME = "texlive-pst-poker-2023.209.0.0.03bsvn65818-54.1.noarch.rpm"
+RPM_HASH = "10da136065a870e4a6f1b5021947133332fab6b1fe69c435b4c54c40e213d89259eb15fbdc204dc4e2d7b9c135b1d332569595ac07912c9b7407fc481b3c4010"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-poker.sty \

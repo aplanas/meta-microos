@@ -5,10 +5,10 @@ container. The list could be useful for spelling exceptions in \
 text editors that do not support TeX syntax."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.0.2svn24431"
+PV = "2023.209.0.0.0.2svn24431"
 
-RPM_NAME = "texlive-storecmd-2023.201.0.0.0.2svn24431-57.1.noarch.rpm"
-RPM_HASH = "33532ca8820dfc74957a823976effb52ea096a0ba7521d0b5646196d7138072f6492e9a6dd610958548ccc64eb20e2c4e5e3deccc3b3867285ff99ab05e73ee8"
+RPM_NAME = "texlive-storecmd-2023.209.0.0.0.2svn24431-58.1.noarch.rpm"
+RPM_HASH = "3b12f9058c77b82ade54c1d6c23ec088cc1831c0f7c7b716a0589f62eeb3cf5707120d8ab61371ac12984dd7563f718be62f9455751491ca648937db68fae323"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-storecmd.sty \

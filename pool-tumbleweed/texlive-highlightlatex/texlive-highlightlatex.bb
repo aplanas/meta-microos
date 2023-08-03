@@ -4,10 +4,10 @@ LaTeX. For this purpose it builds on the generic listings \
 package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn58392"
+PV = "2023.209.svn58392"
 
-RPM_NAME = "texlive-highlightlatex-2023.201.svn58392-53.2.noarch.rpm"
-RPM_HASH = "0b854d9999e3f6adf42b9872aac30bbdf96662a8e3b60097a7327f5f781a1172b20baea17f8338765814d8f490776ce37b22a854cd310c8c3202ac52e49fa399"
+RPM_NAME = "texlive-highlightlatex-2023.209.svn58392-54.1.noarch.rpm"
+RPM_HASH = "9458e554c792cdc0455c9d0231606b3f8afea035a62d545c9d73c82539e5a1750c6307193058c4a90aa6115844227d77adb38cb5320951ec6e222af3c7bedef4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-highlightlatex.sty \

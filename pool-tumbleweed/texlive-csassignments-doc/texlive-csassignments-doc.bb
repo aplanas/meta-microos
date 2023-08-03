@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-csassignments"
 DESCRIPTION = "This package includes the documentation for texlive-csassignments"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.1.0.2svn63992"
+PV = "2023.209.1.0.2svn63992"
 
-RPM_NAME = "texlive-csassignments-doc-2023.204.1.0.2svn63992-54.1.noarch.rpm"
-RPM_HASH = "94794781bd580c773c75318a7998d30d75200736225ae18236b4addb9dc5518e1986b8263735056a2080126140a8a1d99799e3dcfbe378aaa1bb30fb485e31cb"
+RPM_NAME = "texlive-csassignments-doc-2023.209.1.0.2svn63992-55.1.noarch.rpm"
+RPM_HASH = "a6fdddf5a6abf8400f4929a8aeb091d75c2f96a6ad2c5fcd3cc6c719d355ec143111bcb7f053ad0bb17edefda26e22760c158bcdd949895b68c6c4d188c351b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-csassignments-doc"

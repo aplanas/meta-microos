@@ -5,10 +5,10 @@ organize them in various ways, view them in full-window or fullscreen \
 mode, and export them to share with others."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.32.1"
+PV = "0.32.2"
 
-RPM_NAME = "shotwell-0.32.1-1.2.aarch64.rpm"
-RPM_HASH = "3dcb6b24fc5cb5032cebfba3da01a550921e6157d0a12e220eb44843f9424f730f87b2c1c5e982af57700b8cdc9717390dadbfce3baa6a47ccdf8ccba6f70ce4"
+RPM_NAME = "shotwell-0.32.2-1.1.aarch64.rpm"
+RPM_HASH = "77fd1cacca689d43c9288f9a50bf423fbb358309eff60ca6231bbfcf35d9cdb341ee03540829ba3757eef2fc6512b5651ce57518f8cc3d876607db82389788e5"
 
 RPROVIDES:${PN} += "libshotwell-authenticator.so.0 \
 libshotwell-plugin-common.so.0 \

@@ -5,10 +5,10 @@ sesamanuelTIKZ style to be used for TikZ pictures in the \
 sesamath book."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.6svn36613"
+PV = "2023.209.0.0.6svn36613"
 
-RPM_NAME = "texlive-sesamanuel-2023.201.0.0.6svn36613-53.1.noarch.rpm"
-RPM_HASH = "9b3041d9c32ff1d9b2338982c95642db0b6ba9acdc8d1690addf069a8788dba084ac76395a4aeec93fb8f15c857868a39a02c86ff3f1316a00bd4d55a7c2a511"
+RPM_NAME = "texlive-sesamanuel-2023.209.0.0.6svn36613-54.1.noarch.rpm"
+RPM_HASH = "7ee1070ef7489ace11f6824f5dce4bb8c236e1d58fc1e50ec70313d285bd8f1b00d9832034c7f02462a2244e51e19abeaa60251d6ae8cff79f5831e86f4e4e49"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sesamanuel.cls \

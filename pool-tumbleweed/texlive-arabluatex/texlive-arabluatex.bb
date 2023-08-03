@@ -14,10 +14,10 @@ editions and/or lexicons that can be searched, analyzed and \
 correlated in various ways."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.20svn54512"
+PV = "2023.209.1.20svn54512"
 
-RPM_NAME = "texlive-arabluatex-2023.201.1.20svn54512-54.1.noarch.rpm"
-RPM_HASH = "d42ad1c83dcf52b4986a7f46aec5fd62ea66c41af85be008d9f64064483a5841cd00a83e8a7a3985a2ff04eca07b03debfe0210f4d0c620b64d0e9bfec639626"
+RPM_NAME = "texlive-arabluatex-2023.209.1.20svn54512-55.1.noarch.rpm"
+RPM_HASH = "d50129a87baf82ba0a9f2ac87de3b9b40082c7e7d85a9b56f09c61a476451c48b77b4a6fc0c2ccf065bb9005d74f08ee05d7ec8250a42a071c8a0a0075115836"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-arabluatex-patch.sty \

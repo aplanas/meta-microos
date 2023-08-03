@@ -2,10 +2,10 @@ SUMMARY = "DigiKam plugins"
 DESCRIPTION = "Additional plugins for digiKam."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "8.0.0"
+PV = "8.1.0"
 
-RPM_NAME = "digikam-plugins-8.0.0-4.1.aarch64.rpm"
-RPM_HASH = "5ad99c8303028244b8f513f44aff42d8decdbeb70ee0b261be7ff743164f6a72379cf4a6416f3279d10d2b9f6ad4848e7ffa51eb5d1fd5734dc6e62f63a6a709"
+RPM_NAME = "digikam-plugins-8.1.0-1.1.aarch64.rpm"
+RPM_HASH = "f4c3c9cdac54af7de5943b133dcaf1ed8c4c046b11b9f0d86fa468bbffb67908c22ab2f8eb0ee07e81b3d002f539b14b41c11cf4d3b13663d24a4d31d245d63c"
 
 RPROVIDES:${PN} += "digikam-plugins"
 
@@ -37,9 +37,9 @@ libQt5Widgets.so.5 \
 libQt5Xml.so.5 \
 libQt5XmlPatterns.so.5 \
 libc.so.6 \
-libdigikamcore.so.8.0.0 \
-libdigikamdatabase.so.8.0.0 \
-libdigikamgui.so.8.0.0 \
+libdigikamcore.so.8.1.0 \
+libdigikamdatabase.so.8.1.0 \
+libdigikamgui.so.8.1.0 \
 libexslt.so.0 \
 libgcc-s.so.1 \
 libheif.so.1 \

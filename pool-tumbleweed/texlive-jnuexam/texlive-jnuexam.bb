@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides an exam class for Jinan University \
 (China)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn56867"
+PV = "2023.209.1.0svn56867"
 
-RPM_NAME = "texlive-jnuexam-2023.201.1.0svn56867-55.1.noarch.rpm"
-RPM_HASH = "9afa471fa32000af5ad11c906e9c712e973e823cae7f855ee7f6a057ac684a74a209c898ae1882bbaccc5a55de17480359b5275f7553a4629024168c77ab8f39"
+RPM_NAME = "texlive-jnuexam-2023.209.1.0svn56867-56.1.noarch.rpm"
+RPM_HASH = "36c34e592aded7dccb88af3aac693ee92eb3fab517651bae28c28699b7c4ee9a5067c83516a4b05d54cebca9cdb44394e1c00066525a94ba9bd3026aaef5f1e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jnuexam.cls \

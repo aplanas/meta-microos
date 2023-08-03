@@ -7,10 +7,10 @@ class is based on the NTG brief class by Victor Eijkhout, which \
 implements the NEN1026 standard."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.14svn59709"
+PV = "2023.209.1.14svn59709"
 
-RPM_NAME = "texlive-isodoc-2023.201.1.14svn59709-55.1.noarch.rpm"
-RPM_HASH = "3398e84ecfc5960f2417a24383eacc93d005cad15610d0047819263469b6a48fd0f74d3cfaf10f194400b59a9c652c95fce69139d9a357666b4d4dc36ebdb9b2"
+RPM_NAME = "texlive-isodoc-2023.209.1.14svn59709-56.1.noarch.rpm"
+RPM_HASH = "6a16c379597b569d5c388e67f19e26e048620b7f2262761f11aa1bc575ae31cd068bd5602f7aa922921566efb07a6934965a6f8fd2040d899e5e754ea32acb97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-isodoc.cls \

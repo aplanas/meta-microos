@@ -14,10 +14,10 @@ standard LaTeX. For an example of how rtkinenc is used, the \
 user may look at the tclldoc class."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn20003"
+PV = "2023.209.1.0svn20003"
 
-RPM_NAME = "texlive-rtkinenc-2023.201.1.0svn20003-53.1.noarch.rpm"
-RPM_HASH = "d2ba35fb1c0f15172242b7f0d43fb17834c3b0d72a9cbaa2a7bddb38e3fe0f63028c91b2cdd9539582740cafbf83edebad98dd801a72967a5785aa7386cff608"
+RPM_NAME = "texlive-rtkinenc-2023.209.1.0svn20003-54.1.noarch.rpm"
+RPM_HASH = "2868213f476aac5587dcb27e65d10b4fb969bd334d13b079ebee8cea998cfbce3beb27f7a0f2944fb98649b6ef497f842783d0d3463684e522e9a2310250792d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rtkinenc.sty \

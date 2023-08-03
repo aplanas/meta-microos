@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for kyverno"
 DESCRIPTION = "Bash command line completion support for kyverno."
 LICENSE = "Apache-2.0"
 
-PV = "1.10.1"
+PV = "1.10.2"
 
-RPM_NAME = "kyverno-bash-completion-1.10.1-1.1.noarch.rpm"
-RPM_HASH = "df8165e1a0fa99275e45b3911fdd0d8d96cf02de1b9cbbfb785e9a9459fc47219b4243ed264a79f57c694da8dace1414ad9578bd8a9bdeeab6494bc38a2acb15"
+RPM_NAME = "kyverno-bash-completion-1.10.2-1.1.noarch.rpm"
+RPM_HASH = "f5cdb6b85e6b41116a01b7d70b9e7c7da1d96059acdd6d8a585b706bb6f5ae4d9a2b461d81e86b2342745327323a5352e092dad8db578bc6b0f17c8aae77da6d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kyverno-bash-completion"

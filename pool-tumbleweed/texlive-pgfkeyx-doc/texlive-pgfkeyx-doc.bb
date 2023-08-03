@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pgfkeyx"
 DESCRIPTION = "This package includes the documentation for texlive-pgfkeyx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.0.1svn26093"
+PV = "2023.209.0.0.0.1svn26093"
 
-RPM_NAME = "texlive-pgfkeyx-doc-2023.201.0.0.0.1svn26093-51.1.noarch.rpm"
-RPM_HASH = "ce29fef78a235490fd181484e7afbf5b475b8ca8f68f13f369a121330f40e4285e4bb4e037f7c901154807e4e5cfbec7f4d423154a426b5b308678391ed094f3"
+RPM_NAME = "texlive-pgfkeyx-doc-2023.209.0.0.0.1svn26093-52.1.noarch.rpm"
+RPM_HASH = "fa859a188be4ddc164d8a0b6a46bc1d3efbfa4bc958c226b58577d822183fc73a3c1f452910571a75e9a40d0aae495187bbda4785d260491ee3860b2a723318c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pgfkeyx-doc"

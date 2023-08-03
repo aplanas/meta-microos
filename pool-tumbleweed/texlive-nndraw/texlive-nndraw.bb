@@ -3,10 +3,10 @@ DESCRIPTION = "With this package you can create fully connected neural \
 networks in a simple and efficient way."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn59674"
+PV = "2023.209.1.0svn59674"
 
-RPM_NAME = "texlive-nndraw-2023.201.1.0svn59674-54.1.noarch.rpm"
-RPM_HASH = "339724c700bd660d374194a67d22fb1237d97dd2368b05a3bf131c5dcb0735d62b8822a442319ed57331e6311f4518e0e410438bcddb4ee3fad9ccf786969c78"
+RPM_NAME = "texlive-nndraw-2023.209.1.0svn59674-55.1.noarch.rpm"
+RPM_HASH = "837139f74771e915dd2dd823bf47b32e83eb13b6aab41e52aceb796c4b9b560b76f6868b9f8486d1c30b16c8a6e47554f3ed4a69fa23d5f5f6909db54a6e0b7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nndraw.sty \

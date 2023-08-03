@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-xits"
 DESCRIPTION = "The  separated fonts package for texlive-xits"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.302svn55730"
+PV = "2023.209.1.302svn55730"
 
-RPM_NAME = "texlive-xits-fonts-2023.201.1.302svn55730-52.2.noarch.rpm"
-RPM_HASH = "9c91d96f61b17a1b01f50e816cc9cd0ee4abb080734f599228a751f42bc1830273b0cc05ebd0166e11101b3c8c30cfe6847495c52e2e1c2b91f2c88f5f4578e1"
+RPM_NAME = "texlive-xits-fonts-2023.209.1.302svn55730-53.1.noarch.rpm"
+RPM_HASH = "ce86468d635fc27c3a2d61f62ea11ed67d59775e6023a9ec6e1ac7c36998a9315716fc38c6d69841de748aea3b0f5320a3aacb7251f7b1b892932398c57251a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

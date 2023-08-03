@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-augie"
 DESCRIPTION = "The  separated fonts package for texlive-augie"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn61719"
+PV = "2023.209.svn61719"
 
-RPM_NAME = "texlive-augie-fonts-2023.201.svn61719-53.1.noarch.rpm"
-RPM_HASH = "06722409c53b1dd31aebb9398fea0d2c79459c40f7d0fad986b754ae6151050f5d56ee582dfc56f32b3cda6ee40610b77bdf1f2c39800c7a53b3d8eb5ad79fef"
+RPM_NAME = "texlive-augie-fonts-2023.209.svn61719-54.1.noarch.rpm"
+RPM_HASH = "29e532e5b7d50ff66020791a4966c73197432b1aea9a9f49dd722c62d9ab85f96b943d19e894ce897d490da629688297d2091bad94bebcf41f26a09b542c18f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

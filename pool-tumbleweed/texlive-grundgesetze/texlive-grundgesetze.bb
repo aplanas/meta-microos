@@ -4,10 +4,10 @@ Frege's concept-script in the style of his 'Grundgesetze der \
 Arithmetik' (Basic Laws of Arithmetic)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.03svn58997"
+PV = "2023.209.1.03svn58997"
 
-RPM_NAME = "texlive-grundgesetze-2023.201.1.03svn58997-53.2.noarch.rpm"
-RPM_HASH = "138e756032cf55ffd4613987820a8e24bf91b692c4ef5605784a9b125db7c22a6e51a0403344a9184c5cc601d6f4f91fa5b1bb9e78b3960c16a412279227cd29"
+RPM_NAME = "texlive-grundgesetze-2023.209.1.03svn58997-54.1.noarch.rpm"
+RPM_HASH = "1f21fd721c2bbb827fffa5fc4ff221eec8f469237bc9e62e3b333675e3a0709086f738451b711398ae3584694a07bc121f9d5435848a5e768d9b18407e815a5d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-grundgesetze.sty \

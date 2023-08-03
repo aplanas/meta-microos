@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-raleway"
 DESCRIPTION = "The  separated fonts package for texlive-raleway"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.4svn42629"
+PV = "2023.209.1.4svn42629"
 
-RPM_NAME = "texlive-raleway-fonts-2023.201.1.4svn42629-53.2.noarch.rpm"
-RPM_HASH = "2528e51f5a55d52b7733ed5480c6deca9ebf9d6d6e1a7e3087eba3edff2cfbc2d8a6b0a805610c7521c4be325a5ede4c3be7ffa83459c2e345732ac62b93ce7f"
+RPM_NAME = "texlive-raleway-fonts-2023.209.1.4svn42629-54.1.noarch.rpm"
+RPM_HASH = "11612432633abf4d528cdcf5d8839732614e20b032026bb8c3b5c14dc12fd5870046293150aeb9298c7196b556ab131fe82f1c8d9458932fcba69e103914700c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-raleway-fonts \

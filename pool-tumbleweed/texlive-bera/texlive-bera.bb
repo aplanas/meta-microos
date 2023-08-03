@@ -7,10 +7,10 @@ Support for use in LaTeX is also provided. The Bera family is a \
 repackaging, for use with TeX, of the Bitstream Vera family."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn20031"
+PV = "2023.209.svn20031"
 
-RPM_NAME = "texlive-bera-2023.201.svn20031-53.1.noarch.rpm"
-RPM_HASH = "6cb3185908a3649a7e2578780aaeff8cf1bf9f8d2ef6b56a1eafc5bbc3a61bc52bcf6feda30ff996bb252c17bcde2375e809870551500d719fdcecb958bf378f"
+RPM_NAME = "texlive-bera-2023.209.svn20031-54.1.noarch.rpm"
+RPM_HASH = "4a4d04f74bc512289774ae817dc6497f8e63e205fdf6205fc2f54ff4e55f4ce5081ab91b517b65f236bf74a1459b3744dfe648a661584e066e84ac66cf285584"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bera.map \

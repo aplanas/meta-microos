@@ -9,10 +9,10 @@ which is the same as other programming languages such as Lua. \
 In this way, it is rather easy to debug code too."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2023asvn65485"
+PV = "2023.209.2023asvn65485"
 
-RPM_NAME = "texlive-functional-2023.201.2023asvn65485-52.1.noarch.rpm"
-RPM_HASH = "5986e8c29b3779f220155e28ae4a6cca902ff773b2b50d396724151ae27ad02c9625fdbfef9dba3224af56d01def6fe4e4d095cafbf18e470e706e8db5a5a1bb"
+RPM_NAME = "texlive-functional-2023.209.2023asvn65485-53.1.noarch.rpm"
+RPM_HASH = "227cb709c33093e324bda1e7ab38e904da7948374173d3a5b1bd9c7092c165fc96947c14124853c76134d11f92f3e3095d7bbe9a65e74758bb4103405a31bdb0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-functional.sty \

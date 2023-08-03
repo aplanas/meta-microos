@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt6 WaylandCompositor library"
 DESCRIPTION = "Development files for the Qt6 WaylandCompositor library."
 LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-waylandcompositor-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "f4ba563746033915e7cc1487f22a6e888be79fd26828a1fe5897ea00228f94d6a0eafb8783e603ba005f9c27054bdb2ea8a0573f24b123646090d4dc12f96508"
+RPM_NAME = "qt6-waylandcompositor-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "7019e7d309e65496def87e553e25235e591b456a1a5159d8c9607a2ebbaff1b2e7be93904407196c418c6cf80092d28952f73a1089219e6886988dde660f6203"
 
 RPROVIDES:${PN} += "cmake-Qt6WaylandCompositor \
 pkgconfig-Qt6WaylandCompositor \

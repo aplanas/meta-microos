@@ -3,10 +3,10 @@ DESCRIPTION = "This LuaLaTeX package provides a YAML parser and some functions \
 to declare and define LaTeX definitions using YAML files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64949"
+PV = "2023.209.svn64949"
 
-RPM_NAME = "texlive-yamlvars-2023.201.svn64949-52.2.noarch.rpm"
-RPM_HASH = "7daa3cb32eaf948fe1e1dbef23e1da96635137d9f9bfc6fdde8115408a3aa6bfcb3420952397de4c57ab5c251c879b8bbf717039ce1fcc057399b2a34c81604c"
+RPM_NAME = "texlive-yamlvars-2023.209.svn64949-53.1.noarch.rpm"
+RPM_HASH = "a6c60383e9db2dabf2b16d497e229a9ac44d481c8195ca888c601e516b44e6579f308d453e59b42ea4f08fe64263d0e0a07aa232b69a4c99533f842ca3757258"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-yamlvars.sty \

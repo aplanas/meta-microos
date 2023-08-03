@@ -5,10 +5,10 @@ indenting a block, typesetting a compact list, placing two \
 boxes side by side with vertical adjustment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6svn66393"
+PV = "2023.209.1.6svn66393"
 
-RPM_NAME = "texlive-spacingtricks-2023.201.1.6svn66393-57.1.noarch.rpm"
-RPM_HASH = "8b8f4e51c17664dda54c14de42062b8c6a124895fbada539deabae63c1a2181359cd6d66e92c0d2310bc0fdabee70a68723090d97b9ac29a14084e30613e5667"
+RPM_NAME = "texlive-spacingtricks-2023.209.1.6svn66393-58.1.noarch.rpm"
+RPM_HASH = "aa9ae2b78401ee61c1e731bf539795f1a5f3ba297f2c5836b2e171072c5d78c2881eb91cac7a922dadd34e9713cc389091a321d2295ad858be08d2f3b9aab2f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-spacingtricks.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "diags provides IB diagnostic programs and scripts needed to diagn
 IB subnet."
 LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
-PV = "45.0"
+PV = "47.0"
 
-RPM_NAME = "infiniband-diags-45.0-1.2.aarch64.rpm"
-RPM_HASH = "4bcebe34fd0acdf5d1c5a4e7ac14af4cd840640ab6ff562bd13c0ab63204ed4bd852c5542f66ceed5c557549bcd413607636876b4b4ced0d17a075440445a387"
+RPM_NAME = "infiniband-diags-47.0-1.1.aarch64.rpm"
+RPM_HASH = "885e60e0ab57d0c35717d192541ea3c2d39fb470ab1f4721f70128b4ad0627d415a438c6e1dc1455bd4695ab06f32bd03f4cc31e49f1c49ae309f5886e1cbb8a"
 
 RPROVIDES:${PN} += "config-infiniband-diags \
 infiniband-diags"

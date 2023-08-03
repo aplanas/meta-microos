@@ -4,10 +4,10 @@ typographical rule forbidding a non-syllabic preposition alone \
 at the end of a line."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66186"
+PV = "2023.209.svn66186"
 
-RPM_NAME = "texlive-vlna-2023.201.svn66186-53.1.noarch.rpm"
-RPM_HASH = "c5bab17e7e50ef086ddc655570a63c83e8bf2f3d0c99e6511bcecffd7e8240ec8e38bf0f395905f75d122043e2d8fce080c840e547c2fc438d1d81b1b344ad9c"
+RPM_NAME = "texlive-vlna-2023.209.svn66186-54.1.noarch.rpm"
+RPM_HASH = "2cf5590b4a0fee4d4fa7f530cc3caa17370847b5fcb7d0da957396f0dfdfc40279b645cb70a59a8638afaa709c2f2be5925d82dc20c7b82d74f577ae905c0290"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-vlna.1 \

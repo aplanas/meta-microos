@@ -3,10 +3,10 @@ DESCRIPTION = "This is a Graphical User Interface for CMake, a cross-platform \
 build system."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.26.4"
+PV = "3.27.1"
 
-RPM_NAME = "cmake-gui-3.26.4-3.1.aarch64.rpm"
-RPM_HASH = "5dca61149419b5ddfc7ecb8a71226bc052bdfac5b213538be5bb2e535314c15e13f3395c7761116ddf44dd674eaaee8f38f663395c6ea40273d5d3afdfa7e65c"
+RPM_NAME = "cmake-gui-3.27.1-1.2.aarch64.rpm"
+RPM_HASH = "4ebe6b7206a46ea8f832a3dafe10422fcac423faebd078d2e001368fdb1130802facde2a5d422a0a56c1f3424277af3e0ec434d572b5a0b695360d8bf322bfcb"
 
 RPROVIDES:${PN} += "cmake-gui"
 
@@ -21,7 +21,7 @@ libcurl.so.4 \
 libgcc-s.so.1 \
 libjsoncpp.so.25 \
 libm.so.6 \
-librhash.so.0 \
+librhash.so.1 \
 libstdc++.so.6 \
 libuv.so.1 \
 libz.so.1"

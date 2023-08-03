@@ -3,10 +3,10 @@ DESCRIPTION = "The source files, PostScript and PDF files of the Bulgarian \
 translation of the 'Short Introduction to LaTeX 2e'."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-lshort-bulgarian-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "2f5ffe3b5022594d7f136f9caa1bab99f57887ac90d1f220f20e51ece356410eedaa80a992e077ea8c97607ce1487f992e96fc046d7b502f0debaced152c728f"
+RPM_NAME = "texlive-lshort-bulgarian-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "22fbc8d95b3fe5300d45eb5d1ee575d1249686491ac4de4bd96390e61f127c81060720a7558f8c93778b71e81f9f6afecf9f144345c3bf0b52ecc0dc649e6a87"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lshort-bulgarian"

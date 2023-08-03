@@ -4,10 +4,10 @@ box of text. The macros also provide for typesetting an empty \
 box of given dimensions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn18312"
+PV = "2023.209.1.0svn18312"
 
-RPM_NAME = "texlive-frame-2023.201.1.0svn18312-52.1.noarch.rpm"
-RPM_HASH = "3cea9e25c8d415ac9c8794d93550ed7efd0481e52e1ff64be7f042c6577c0abf8ab77f9fed16c037f11d394a0cde65b53e0d51f31a6d930285b0a3279c1033b4"
+RPM_NAME = "texlive-frame-2023.209.1.0svn18312-53.1.noarch.rpm"
+RPM_HASH = "35634b1408efea483acf26c55eba3ca12ef88c40672d1a324c071a6a08611343a5b1b63b06ea3a4135f01e465c161187f24292bbad5891fb1375e95330382ee4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-frame.sty \

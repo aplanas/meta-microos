@@ -9,10 +9,10 @@ Plain TeX. The only documentation available for the package is \
 contained in the zz*.dat files that accompany the TeX files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.17.7svn55862"
+PV = "2023.209.17.7svn55862"
 
-RPM_NAME = "texlive-zztex-2023.201.17.7svn55862-52.2.noarch.rpm"
-RPM_HASH = "39045727fbb28d0c60f56ee88f5b07467e4d06685920ddce3258f83be9c6371b57402c8e7acac9ed6ac0327b17b71e8837d0a57d90d00846c5b8d4ac30ede1b6"
+RPM_NAME = "texlive-zztex-2023.209.17.7svn55862-53.1.noarch.rpm"
+RPM_HASH = "f2602289144ab478efe81fff37b063cbff3e9e540e396635cc83a5e098577b098a21e72b04c377ab5fed7d77ec00ee6f326047ae13bb91c076c212e6e2ce7c2b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zzart.tex \

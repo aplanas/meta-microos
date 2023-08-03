@@ -4,10 +4,10 @@ Macros are provided that automatically add pinyin to Chinese \
 characters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.1svn66115"
+PV = "2023.209.3.1svn66115"
 
-RPM_NAME = "texlive-xpinyin-2023.201.3.1svn66115-52.2.noarch.rpm"
-RPM_HASH = "63df91b9e821ed05c1c665efd75da8faf49a9b4d11b8d3b9e0a36c51aa92691ea23d957024e59cdb6a3dbc4de01f176165a51f2bf805380e2f01561da1695da3"
+RPM_NAME = "texlive-xpinyin-2023.209.3.1svn66115-53.1.noarch.rpm"
+RPM_HASH = "be81be24493b677b18ac04bd99f2929ff9172c0976d72fddf74b13a32982f616f5773e015083691d9ef90c9338ab91716ee560f7ca0f73f52e087e2ba75be5dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xpinyin-database.def \

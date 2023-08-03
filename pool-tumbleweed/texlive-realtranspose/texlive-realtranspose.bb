@@ -4,10 +4,10 @@ by rotating the symbols 90 degrees. This is a hommage to the \
 realhats package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn56623"
+PV = "2023.209.1.1svn56623"
 
-RPM_NAME = "texlive-realtranspose-2023.201.1.1svn56623-53.2.noarch.rpm"
-RPM_HASH = "427b6bee2adcdd1409ec68d072597661aa361b080c5c2099b5a6c9698e8f15bc9c31cbf2e5a271246a544de429791c2e7d33cc0cd691ca8ffa64273ec85ac901"
+RPM_NAME = "texlive-realtranspose-2023.209.1.1svn56623-54.1.noarch.rpm"
+RPM_HASH = "a5235a16c3065d810b2becbe3b99edad11847ac54fb7f49d3b3c5ba8745d30d2f44df65be1f8231e6fcaa0454156ad04fbb24d138935b2e871c5bc44aafea70a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-realtranspose.sty \

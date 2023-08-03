@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bangla"
 DESCRIPTION = "This package includes the documentation for texlive-bangla"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1svn65786"
+PV = "2023.209.2.1svn65786"
 
-RPM_NAME = "texlive-bangla-doc-2023.201.2.1svn65786-53.1.noarch.rpm"
-RPM_HASH = "d90c097c6c2154ffabb01bb03e8085c7901e631edfdfd036826a012c8a07a0c017a1b111fab2f0f012504abba6d5a248f75b8e647654b1d5e15075924a79f79d"
+RPM_NAME = "texlive-bangla-doc-2023.209.2.1svn65786-54.1.noarch.rpm"
+RPM_HASH = "b7813029de34830d9e81d7796d20d1d567ae3ed0caa77017ab00542974907bdf8afab962e54d68d524ac1d959c84d10607e0ca63ac11bd0c04d55880104d3816"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bangla-doc"

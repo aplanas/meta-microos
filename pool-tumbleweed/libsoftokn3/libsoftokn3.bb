@@ -10,8 +10,8 @@ LICENSE = "MPL-2.0"
 
 PV = "3.90"
 
-RPM_NAME = "libsoftokn3-3.90-1.1.aarch64.rpm"
-RPM_HASH = "c263c6f460f690017dbf8683d8cb8dd796cba0ad80406bea9a97d0c2137a7fd9d7b8bcb4e342db445061914cafe9b6c428aa3680ee19b1575410f9b52dbd8c2b"
+RPM_NAME = "libsoftokn3-3.90-2.1.aarch64.rpm"
+RPM_HASH = "3140a90344bceaf1101cc0ac3a564e713a137b1abe41904bf9912c76d77a7233bbc5a855ed9cc9cb5f45eb8e8952b71dc9bf604c46944133b5e64825b8a6f2a5"
 
 RPROVIDES:${PN} += "libnssdbm3.so \
 libsoftokn3 \

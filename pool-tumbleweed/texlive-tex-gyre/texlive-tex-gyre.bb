@@ -27,10 +27,10 @@ The Thanh. There are companion maths fonts for several of these \
 designs, listed in the TeX Gyre Math package."
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.201.2.501svn65956"
+PV = "2023.209.2.501svn65956"
 
-RPM_NAME = "texlive-tex-gyre-2023.201.2.501svn65956-54.1.noarch.rpm"
-RPM_HASH = "214d5465faaf6ef504f5f9c442d1bf344f3bb53b30937d4850f90020e2c601e4f5ea22bfb37503ef3110a7d5c99b731caaa59c537f9f389d3180b41bc4cd3aed"
+RPM_NAME = "texlive-tex-gyre-2023.209.2.501svn65956-55.1.noarch.rpm"
+RPM_HASH = "14b36e2bde4d7c573b4c51bf9e5eb37360b11cbd74e503cf57ed5dd8897fa1d54ef787fcad7544e01c6c701a57b529cb7b65e7bc935c557f9f50a208a84ce6ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cs-qagb-sc.tfm \

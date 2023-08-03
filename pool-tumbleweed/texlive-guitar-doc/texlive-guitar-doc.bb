@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-guitar"
 DESCRIPTION = "This package includes the documentation for texlive-guitar"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6svn32258"
+PV = "2023.209.1.6svn32258"
 
-RPM_NAME = "texlive-guitar-doc-2023.201.1.6svn32258-53.2.noarch.rpm"
-RPM_HASH = "79b32ee24d0f21f4dba0fb13713d078884313bf687c1ba345ffbba8a03da72d0fcd5d7c5b8e5a85b4d3eebed50a360ccca5ee688bccd8ab77e78a76fb7edc87a"
+RPM_NAME = "texlive-guitar-doc-2023.209.1.6svn32258-54.1.noarch.rpm"
+RPM_HASH = "030995f6cd87a96ed8d2ac7596459eb98522f9dd4a364533f5cb9f243c3f397d54a9005f1069d01c74890c23b1eb8fda04f83aa9b325238587dc365036b8da12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-guitar-doc"

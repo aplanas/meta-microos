@@ -2,10 +2,10 @@ SUMMARY = "Marvell based arm64 systems"
 DESCRIPTION = "Device Tree files for Marvell based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.3"
+PV = "6.4.6"
 
-RPM_NAME = "dtb-marvell-6.4.3-1.1.aarch64.rpm"
-RPM_HASH = "6823f937c94c79d304a04d3ff04c75ff1f8d676c71ee85f7eca855061bb30a9f388953749d33c6ac068754922b1547ea044657e5fb3da4b5e499b2d98b021068"
+RPM_NAME = "dtb-marvell-6.4.6-1.1.aarch64.rpm"
+RPM_HASH = "47f9a181dafd5151624f085df195aa0c2afc72843a059c4c217401f8324a63e259b96b44627d8dcee68eeeed5949fe9f2f4f87f8b8f1f9972a1f95dbde3a12bc"
 
 RPROVIDES:${PN} += "dtb-marvell \
 multiversion-dtb"

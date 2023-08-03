@@ -14,10 +14,10 @@ done if the format file has not been built with the babel \
 mechanism."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.2.0svn64300"
+PV = "2023.209.3.2.0svn64300"
 
-RPM_NAME = "texlive-xgreek-2023.201.3.2.0svn64300-52.2.noarch.rpm"
-RPM_HASH = "55aa48e353124c457ca908dd344447e272cc271b35a0a3f6653044c37ac6b9b77f49f1d288bba4904eb58f93b3c9f3f9833e6f4aff8e92aff3340c1fd1bdf7a4"
+RPM_NAME = "texlive-xgreek-2023.209.3.2.0svn64300-53.1.noarch.rpm"
+RPM_HASH = "d7e2b325814ea05d35cf2f6841050580baa6b097c675c6d335cf559bf688ab8a7e21d49f9f16ca01b6d5ed181a894b3f9a3116dae18c43b48dcac3e61dade948"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xelistings.sty \

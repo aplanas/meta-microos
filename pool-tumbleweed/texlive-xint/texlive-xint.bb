@@ -23,10 +23,10 @@ used with Plain TeX, LaTeX, or (a priori) any other macro \
 format built upon TeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4msvn63562"
+PV = "2023.209.1.4msvn63562"
 
-RPM_NAME = "texlive-xint-2023.201.1.4msvn63562-52.2.noarch.rpm"
-RPM_HASH = "f1584a40ad0cb786da6ef1350ca6c8f188588864978329d616f4faa05bbfa992e60ac4f382213542fe7a871d7721b30295d3d987f1b5d38888393dbd78b0cc28"
+RPM_NAME = "texlive-xint-2023.209.1.4msvn63562-53.1.noarch.rpm"
+RPM_HASH = "c62636772c40bff9bda51821264eb3e5751787dbf2aff00815916de452343c7ff9e2b515578161f3445193234553d1afd4c115c1bec505eb919741d6395463b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xint.sty \

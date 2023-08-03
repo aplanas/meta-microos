@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-grayhints"
 DESCRIPTION = "This package includes the documentation for texlive-grayhints"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn49052"
+PV = "2023.209.svn49052"
 
-RPM_NAME = "texlive-grayhints-doc-2023.201.svn49052-53.2.noarch.rpm"
-RPM_HASH = "546141171291903a5b57ee98c4be2fbdc65d001a23ac7b4afc6e9f82fa18acaab8a3703d2faa2878c43bb6f81c72c4e84a45a5b1e919969aaf2dc1f3c0b1c36a"
+RPM_NAME = "texlive-grayhints-doc-2023.209.svn49052-54.1.noarch.rpm"
+RPM_HASH = "5734aba0e04e04a3eaec30b7a1916c2a6667f768edd168a7577ed22f32a1ab0c154c1197189f97753e96ccd1eeb38a1013ecec67deade7031bf33db25b21fd2b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-grayhints-doc"

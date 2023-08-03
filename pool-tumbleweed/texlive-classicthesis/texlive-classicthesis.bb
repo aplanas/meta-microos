@@ -6,10 +6,10 @@ using TeX. Included in the bundle are templates to make thesis \
 writing easier."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.4.6svn48041"
+PV = "2023.209.4.6svn48041"
 
-RPM_NAME = "texlive-classicthesis-2023.201.4.6svn48041-53.1.noarch.rpm"
-RPM_HASH = "dcc1942f3e84b7b74ef048e15f18b76b5721550086de76665c68e4e53a703582f3126d7149290f2e84ebf64edcc99569fd858105628fc28e9208f3ff40e40844"
+RPM_NAME = "texlive-classicthesis-2023.209.4.6svn48041-54.1.noarch.rpm"
+RPM_HASH = "d47a9874023d0a1626b4e17852157590435c64b47ec1d45f1ac0e0ce9f6ce6c002f1e4f152df052ef5cf5cbe684983ca2fc7867d3c983183c16407c35c679f0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-classicthesis-arsclassica.sty \

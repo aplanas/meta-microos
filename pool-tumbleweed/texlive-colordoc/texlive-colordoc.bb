@@ -9,10 +9,10 @@ provided, including a non-color option designed for printing \
 (which numbers delimiters and underlines new commands)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn18270"
+PV = "2023.209.svn18270"
 
-RPM_NAME = "texlive-colordoc-2023.201.svn18270-53.1.noarch.rpm"
-RPM_HASH = "a547bcc4068ca65df341c043955df9571317c3d1d57f4503bdcf09e05f4e30d24d565f5d0dc3f0a1091a8133753854d527918dcdc362a319b9e902e54ec380db"
+RPM_NAME = "texlive-colordoc-2023.209.svn18270-54.1.noarch.rpm"
+RPM_HASH = "190d464275bc5c85dfaf159299a444aa7e232ad598e8131d8409631879eea82d62ab20456ff96c9fdeffe9a97b8848dd5536f27241b8407bc627f1f924e407e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-colordoc.sty \

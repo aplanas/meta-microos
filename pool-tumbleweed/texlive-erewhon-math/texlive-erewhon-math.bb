@@ -3,10 +3,10 @@ DESCRIPTION = "OpenType version of the fourier Type1 fonts designed by Michel \
 Bovani."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.56svn65684"
+PV = "2023.209.0.0.56svn65684"
 
-RPM_NAME = "texlive-erewhon-math-2023.201.0.0.56svn65684-53.2.noarch.rpm"
-RPM_HASH = "c68da33fc3e867f7a9da886e42eb0275e06dde7ec540f3a02be5ff35e718d666afc788c4e13f33c5e1ec7312c0bada444d72be6ce992d9aa4c88d9f97306de00"
+RPM_NAME = "texlive-erewhon-math-2023.209.0.0.56svn65684-54.1.noarch.rpm"
+RPM_HASH = "eb57ab8d729341f84a5c145cc14e3e308e3f4810c243492bdaa781f6b825521d86008701874aa65a32c3b155cbc5fd3f8cc65724f857ca60d3055908616eb280"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fourier-otf.sty \

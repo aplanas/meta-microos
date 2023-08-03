@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-skb"
 DESCRIPTION = "This package includes the documentation for texlive-skb"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.52svn22781"
+PV = "2023.209.0.0.52svn22781"
 
-RPM_NAME = "texlive-skb-doc-2023.201.0.0.52svn22781-57.1.noarch.rpm"
-RPM_HASH = "b5f09025a3c73fd1781c7f51f4a1a95000ea92db3a9b7a951e3a9970139e3388d2780df50398fac8cd3787e34d13d82fddc58e87f7478681bd2a63c26e0e7ef3"
+RPM_NAME = "texlive-skb-doc-2023.209.0.0.52svn22781-58.1.noarch.rpm"
+RPM_HASH = "a34c44c1afe0b1296bbf2d46df9b26f539081a2466bd73d101dd3e556e0ef6330165c3725e5efbcf2f37ed9a211691f45f6a0c9400dbaa1239de378ff5cf2c2a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-skb-doc"

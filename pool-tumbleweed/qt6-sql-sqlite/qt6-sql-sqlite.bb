@@ -7,10 +7,10 @@ file, which must be set as the database name when opening a \
 connection."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-sql-sqlite-6.5.1-4.1.aarch64.rpm"
-RPM_HASH = "ab241ef5826585783778c9f0b9a8da46f0082d62eb701e5c866332fdea725c89143f6aa6d9dbb78f7354780e800fabdc055f662a6e0a23b06f0e1c75ffe5b9ca"
+RPM_NAME = "qt6-sql-sqlite-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "3453a3a8c7358bc2836f62ec5dda1cbfc1c0d084dbd2309bc9762f7450024bf96fa2d9a869c0e43ecea77606eaa568fa1fa72ce1c12edc37c876a6fc6a2823d9"
 
 RPROVIDES:${PN} += "libqsqlite.so \
 qt6-sql-sqlite"

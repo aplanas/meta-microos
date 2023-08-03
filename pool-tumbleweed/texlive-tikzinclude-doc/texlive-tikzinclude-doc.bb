@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tikzinclude"
 DESCRIPTION = "This package includes the documentation for texlive-tikzinclude"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn28715"
+PV = "2023.209.1.0svn28715"
 
-RPM_NAME = "texlive-tikzinclude-doc-2023.201.1.0svn28715-52.1.noarch.rpm"
-RPM_HASH = "10f85c71906a5e5ac7200783d9ec597712341b8f7d6dfa4f65e8fcd72115a8085b16397b8b47a4ca835ca472b15e42ae5f754dfbe019bd7ec65a46c40f729635"
+RPM_NAME = "texlive-tikzinclude-doc-2023.209.1.0svn28715-53.1.noarch.rpm"
+RPM_HASH = "419a36b9a7ede4f31ba3ea2092228fa3c42595a524c68401c4df628a847b713c9287872a66ef3b77f612ea7b98dfdea9334ddbcbea20b8a85c0b8a88999cb1c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikzinclude-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tabularcalc"
 DESCRIPTION = "This package includes the documentation for texlive-tabularcalc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn15878"
+PV = "2023.209.0.0.2svn15878"
 
-RPM_NAME = "texlive-tabularcalc-doc-2023.201.0.0.2svn15878-54.1.noarch.rpm"
-RPM_HASH = "49859de21ce617fe06f2f6aeb3c5ad252c6de686e137eb103242c75161fac818be04a42b996c728adf706d5cc8e14db2649fa0e4a3912102f38a34459daea67d"
+RPM_NAME = "texlive-tabularcalc-doc-2023.209.0.0.2svn15878-55.1.noarch.rpm"
+RPM_HASH = "8f709a49d39c84e1d1e6ff3906fff353e4f5eb4833be2f10c7ef695c5b2c3dc6966edc3283f8d3f9cd103178ae169efed960c128246d4896d025c4f29ac5b630"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-tabularcalc-doc-en;fr \

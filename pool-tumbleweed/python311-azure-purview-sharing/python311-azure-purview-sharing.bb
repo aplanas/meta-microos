@@ -2,10 +2,10 @@ SUMMARY = "Microsoft Azure Purview Sharing Client Library for Python"
 DESCRIPTION = "Microsoft Purview Share is a fully managed cloud service."
 LICENSE = "MIT"
 
-PV = "1.0.0~b2"
+PV = "1.0.0~b3"
 
-RPM_NAME = "python311-azure-purview-sharing-1.0.0~b2-1.3.noarch.rpm"
-RPM_HASH = "50a3b855cf60989f26f8434b2aacb8c56f1f76d870ced0848b4c311c8b26ebc167fa0fbb4b00c0a732110dfbc1aee948668f0c847a90968d7b67a54046d8015f"
+RPM_NAME = "python311-azure-purview-sharing-1.0.0~b3-1.1.noarch.rpm"
+RPM_HASH = "934aec473c34b76033c8154c1d21f34cc64add1977987cfc2d5989029a85d78bd2c6f495cac93215c857f695b574e349d78f5dcb8fff9c821931cff3789cbf42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-purview-sharing \

@@ -5,10 +5,10 @@ increasing. The package is noticeably more efficient than the \
 revnum package, which uses painfully many counters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn15878"
+PV = "2023.209.1.2svn15878"
 
-RPM_NAME = "texlive-etaremune-2023.201.1.2svn15878-52.1.noarch.rpm"
-RPM_HASH = "525d1b291f5eae6ea962dc8e531edf236839266a109df9bde4785a8921c34cb38718f91c9cff34dfb7ba05e46b10a4b1bed40f93c69732822a8b5135aed36de5"
+RPM_NAME = "texlive-etaremune-2023.209.1.2svn15878-53.1.noarch.rpm"
+RPM_HASH = "38a80079da61f4b90450179e0dead30f1a44721eaf3a569d8ce7186508b220dac3f1eb2df85d0315d71f3dbe5b8029ffcd1cd94328133ee939363801429cde9e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-etaremune.sty \

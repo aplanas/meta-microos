@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-ipaex-type1"
 DESCRIPTION = "The  separated fonts package for texlive-ipaex-type1"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5svn47700"
+PV = "2023.209.0.0.5svn47700"
 
-RPM_NAME = "texlive-ipaex-type1-fonts-2023.201.0.0.5svn47700-55.1.noarch.rpm"
-RPM_HASH = "2467ea0488fdcf7529a69fd666d1fdeae8f022f7457dac825344a03ffb3aa21e0e474e97983b40d4aac30370b09f095ac6321cad50b9e9ce10e5e46154b54b46"
+RPM_NAME = "texlive-ipaex-type1-fonts-2023.209.0.0.5svn47700-56.1.noarch.rpm"
+RPM_HASH = "6eb61fda6be1c7912e2feff2b5901bd318defc2ccd6d520254271ef3b834e93d6922597c11a135d4342a6dccc8d4e351fa3e1f54751fdb256c9f1a9a67fd8642"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

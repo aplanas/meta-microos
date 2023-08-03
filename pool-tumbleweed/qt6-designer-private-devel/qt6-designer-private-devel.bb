@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6Designer that do n
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-designer-private-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "ce43941fa883ea7fa3d776b9be27552ee44a9b4518d1a86d4ad3aaf30b0572868640093953104c95888a7e12f170a09450c19dcd576aa3ffb8b4c7bd7abb469f"
+RPM_NAME = "qt6-designer-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "c2be25e350e910f7f3239b5dff3b549cf0659ba498c781843394519edbcb8ca002f234ca964fed54881636a8f0c5e7c608f55aa322502b530341fd0fe7d85d79"
 
 RPROVIDES:${PN} += "qt6-designer-private-devel"
 

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.0"
 
-RPM_NAME = "python-senlinclient-doc-2.4.0-1.6.noarch.rpm"
-RPM_HASH = "36ab2b0ff310a0215292169a1dedc0b7450f2636b3682a0ef1c6427844fa39410a2a42323e9972dc8b707ef7e98e16133241cf0b4b37beb594d876b2eff34cf1"
+RPM_NAME = "python-senlinclient-doc-2.4.0-1.7.noarch.rpm"
+RPM_HASH = "411d6bfcc4e6d56da00a979353955604bec770188e34518da8ad64b0257dab830597b7dc0ca4336218a49f6cdf3a0596af62f2384a326ce3257a2bf0afbb5cec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-senlinclient-doc"

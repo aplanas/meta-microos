@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Protobuf library - Development files"
 DESCRIPTION = "Development files for the Qt 6 Protobuf library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-protobuf-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "08955a213f0c57634a88d73b43289d2022a47fee21c8b0c608530ce9b7ee6c3517c8ca91a97bc9a3ecee20fefbd0ba59b7e159da91b9b32a7193f20cc437fe1c"
+RPM_NAME = "qt6-protobuf-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "810eb705a3acc642a9ced40892943e90dff13e80affa3c04a9416029ab09967d751caec514f75eb1c7f5b597cc88274be7d441c421f8a4df436fd4702d5c2910"
 
 RPROVIDES:${PN} += "cmake-Qt6Protobuf \
 cmake-Qt6ProtobufTools \

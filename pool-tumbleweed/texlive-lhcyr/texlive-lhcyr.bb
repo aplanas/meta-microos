@@ -10,10 +10,10 @@ inputenc would do the job, for output via fontenc to one of the \
 T2 series of font encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn31795"
+PV = "2023.209.svn31795"
 
-RPM_NAME = "texlive-lhcyr-2023.201.svn31795-54.1.noarch.rpm"
-RPM_HASH = "486b7dbea66896bdbfcc95f30f43a7ef04ea5402c9f9e5abc7a68b05abc60d6b4752f8a7e8aca43388ea57fab1ac3e8a70b166b9e5bb071cb03813514243be05"
+RPM_NAME = "texlive-lhcyr-2023.209.svn31795-55.1.noarch.rpm"
+RPM_HASH = "159bb518e584ac728163de723642e87ad29c51c0f257317863804343e8791e253bc0b4cc6310e86cecb98af77dfb267da75f14aab6f36dedc6c5ade2a0e12022"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-karabas.tex \

@@ -8,13 +8,13 @@ modules based on the KDE XML definitions provided by the 'skylighting-core' \
 package. As a result this package is licensed under the GPL."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.13.4"
+PV = "0.13.4.1"
 
-RPM_NAME = "ghc-skylighting-0.13.4-1.1.aarch64.rpm"
-RPM_HASH = "1d8fc16390b85d2cf0d84671d2b3844ba2c5450539742761dc0049394878ef1725e9b173449eb16b4e82dfef537afea658469727432bbf428c5a98b1e4ae81a2"
+RPM_NAME = "ghc-skylighting-0.13.4.1-1.1.aarch64.rpm"
+RPM_HASH = "b9134dee007dae3369f140b9cffda847f38ccdaeaef25ff79fa638ac617fc62b7e13cfd2bb53d7c8e8232b2d6e1e046caa029f5c0c685fea564cf1140de4aa6c"
 
 RPROVIDES:${PN} += "ghc-skylighting \
-libHSskylighting-0.13.4-5T99F0BkgIQGejRNYUpHqn-ghc9.4.5.so"
+libHSskylighting-0.13.4.1-CU1AlEko5yK2gCD1OmtnCm-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libHSOneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV-ghc9.4.5.so \
@@ -76,11 +76,11 @@ libHSsafe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds-ghc9.4.5.so \
 libHSscientific-0.3.7.0-D5F2vql7x79Dy9hx72OES1-ghc9.4.5.so \
 libHSsemialign-1.3-D9a6dNA89ZHcaXKxWN9Am-ghc9.4.5.so \
 libHSsemigroupoids-5.3.7-Ju2oK8NLhZKHdQ6h8GWNM1-ghc9.4.5.so \
-libHSskylighting-core-0.13.4-ILWFndoUOH7DzXIN7Ztglj-ghc9.4.5.so \
-libHSskylighting-format-ansi-0.1-Bs7UZk06X7gCvm9EWhhFHl-ghc9.4.5.so \
-libHSskylighting-format-blaze-html-0.1.1-2S5li2Ic3P8IXVFqKrjQNX-ghc9.4.5.so \
-libHSskylighting-format-context-0.1.0.2-DaN7b6FAIhw69Ip8uy59f9-ghc9.4.5.so \
-libHSskylighting-format-latex-0.1-KUWKzkdJqvB1foV6pwv6yZ-ghc9.4.5.so \
+libHSskylighting-core-0.13.4.1-6Bsu3Qo0E1u1DqUSYo1bSc-ghc9.4.5.so \
+libHSskylighting-format-ansi-0.1-6378BOa13TnAAEhx7jAIGl-ghc9.4.5.so \
+libHSskylighting-format-blaze-html-0.1.1-96IxqoyNHvLGcjrkFPKZr9-ghc9.4.5.so \
+libHSskylighting-format-context-0.1.0.2-I1BZIYXYOqlBramxRueIsx-ghc9.4.5.so \
+libHSskylighting-format-latex-0.1-J2O8wjQxddL48jSKv998Ye-ghc9.4.5.so \
 libHSsplit-0.2.3.5-u3oGLAiW7JJbxIffWSCWf-ghc9.4.5.so \
 libHSsplitmix-0.1.0.4-7e8CibdlMRLAGh7KO5VlFe-ghc9.4.5.so \
 libHSstm-2.5.1.0-ghc9.4.5.so \

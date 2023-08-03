@@ -7,10 +7,10 @@ namely gcc-ada, gcc-c++, gcc-fortran, gcc-obj, gcc-obj-c++, gcc-go, \
 gcc-rust and gcc-m2."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7552"
+PV = "13.1.1+git7597"
 
-RPM_NAME = "gcc13-13.1.1+git7552-1.1.aarch64.rpm"
-RPM_HASH = "99e397992c57299034064513b3194b5f378669596f6d108b14abc19244c4276e38f6701ae49795fabb3bd9dfc5ebe7aac1a04ddbe54aac0bff4ea811f47b15d7"
+RPM_NAME = "gcc13-13.1.1+git7597-1.1.aarch64.rpm"
+RPM_HASH = "c7e501f583cb153d3bd53d35d54b8769d16197dcb1b1ad38bd74a16fc19f448eecf8f7e337e1890ab4b0542db09d68f407341b4365ccc686e8a9578b9e12ea83"
 
 RPROVIDES:${PN} += "gcc13 \
 liblto-plugin.so"

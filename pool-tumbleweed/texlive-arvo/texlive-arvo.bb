@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the Arvo family of fonts designed by \
 Anton Koovit, with support for LaTeX and pdfLaTeX."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn57213"
+PV = "2023.209.svn57213"
 
-RPM_NAME = "texlive-arvo-2023.201.svn57213-53.1.noarch.rpm"
-RPM_HASH = "36041ebff6dd7604c65f0ee9157f25dea9a9d3ef6c1b92d6b1e6ba8a7e26db46ee3c3f11bc0adc4e725aec6a8c452073134044b16641cbf3d914fec9270098f8"
+RPM_NAME = "texlive-arvo-2023.209.svn57213-54.1.noarch.rpm"
+RPM_HASH = "820d16d7a5bc275312257afb664df5a88f1a8e4d79aa309ed7bbc2a9a6c75c4128033c68100f3d8f78cd31c4e686cfb0483b295fcb74f9199e3c92c86839d29e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Arvo-Bold-tlf-ly1--base.tfm \

@@ -3,10 +3,10 @@ DESCRIPTION = "A class and style file that supports the typesetting of plays, \
 including options for line numbering."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-play-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "f0e9d641ba2eb7f9e00c40599676fbf5b54c93c3c6eed4a391c73ef2b102096234da043498737973377d13f7165a6f772c06bb1b9c736a9c18143b867fef9c8b"
+RPM_NAME = "texlive-play-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "22b668f9df8b946534f4dc09169a82828b46eb493a70f1d841c5ef495254906500c926f9b3f7ffa2f927a3700640194ad348fb011a3dffbb3470b55effb12c52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-play.cls \

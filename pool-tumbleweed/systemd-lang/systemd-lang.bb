@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "253.7"
 
-RPM_NAME = "systemd-lang-253.7-1.2.noarch.rpm"
-RPM_HASH = "0d6f84ffe6e6ef4eb19f252fbd123f0359cc9db8e0a8c823445faeb84a6d82447a9b5321d8cfe5e4eb58bd40f7f275a195c59f9325cc9d4e1221a91dad535e67"
+RPM_NAME = "systemd-lang-253.7-2.1.noarch.rpm"
+RPM_HASH = "9c80080db4e4542073b23c879631d6b394b5afe194c984117af018e4479b9bc1b42dc518021a6bbad18a90d3cfd9a7dd890fe270bdefb80182d37cef730378f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-systemd-be \

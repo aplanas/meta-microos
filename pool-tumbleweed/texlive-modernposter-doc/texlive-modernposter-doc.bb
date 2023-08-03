@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-modernposter"
 DESCRIPTION = "This package includes the documentation for texlive-modernposter"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.03.1svn47269"
+PV = "2023.209.1.03.1svn47269"
 
-RPM_NAME = "texlive-modernposter-doc-2023.201.1.03.1svn47269-54.1.noarch.rpm"
-RPM_HASH = "248e207f5461c3a3ffc4ff80018082d95760d2275cf49e1f49947a100550ed76a5acb8b5c613bb7075b141e9df94361ca5213a9bc5c9612aa1bb0e248ea3a4f9"
+RPM_NAME = "texlive-modernposter-doc-2023.209.1.03.1svn47269-55.1.noarch.rpm"
+RPM_HASH = "0723043ab92778f069844a0f916cdc440fdbdf73d6a88f89f8b6c3ee7adb6d89249f4206a9c27f5bf2a00d1fca6fd116dd2d521b05fa4ad07f201fed0cc3226e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-modernposter-doc"

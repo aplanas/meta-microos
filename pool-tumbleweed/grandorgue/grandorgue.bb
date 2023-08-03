@@ -2,14 +2,14 @@ SUMMARY = "Virtual Pipe Organ Software"
 DESCRIPTION = "GrandOrgue is a virtual pipe organ sample player application supporting a HW1 compatible file format."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.12.1"
+PV = "3.12.2"
 
-RPM_NAME = "grandorgue-3.12.1-1.1.aarch64.rpm"
-RPM_HASH = "0b045dd05291d10fb19cdb10db8c1cc23c038778bf5c0b85ff3558c8cc44c08d4445b656a83640b577b9a15b15d30e74c9f4ad4a84734b14d0cb919317bce81f"
+RPM_NAME = "grandorgue-3.12.2-1.1.aarch64.rpm"
+RPM_HASH = "0a283758005f1183918b9ce0b44cd67b2f59774c7399e763b90d5771ff9dad0d476b4e293b0acbfccba408f11c9e2942f959b0c6940ee5b92cf080fe64e684ea"
 
 RPROVIDES:${PN} += "grandorgue \
-libGrandOrgueCore.so.3.12.1 \
-libGrandOrgueImages.so.3.12.1"
+libGrandOrgueCore.so.3.12.2 \
+libGrandOrgueImages.so.3.12.2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \

@@ -4,10 +4,10 @@ This package provides specialized and re-defined macros to \
 simplify this task."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.02svn34393"
+PV = "2023.209.3.02svn34393"
 
-RPM_NAME = "texlive-bagpipe-2023.201.3.02svn34393-53.1.noarch.rpm"
-RPM_HASH = "7573c6e7e281dcef1278151ba45fe9eaf6aebabc382a42cb19d46b69f609db93d5b5a11b1626fd378001f04247150b0d106c822f5720e22766f3e7361af2752e"
+RPM_NAME = "texlive-bagpipe-2023.209.3.02svn34393-54.1.noarch.rpm"
+RPM_HASH = "86fa89033884dc29700267256b0f7f8f9e2ad08d7843f32b82c5cf5a776240906186aea35db53796dfd5890599af0c81f54dddba90c25df8a55eb91203113d8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bagpipe.tex \

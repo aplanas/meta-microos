@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-frletter"
 DESCRIPTION = "This package includes the documentation for texlive-frletter"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-frletter-doc-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "887e9fe5247a6db89bfbc7c8a7abb0968b0ff8b320546acaeda877e1007ba5c0b28a5bb65c882386a37dbb2b37e78ebca41db025f0a5c37598ea4afdc82ba678"
+RPM_NAME = "texlive-frletter-doc-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "0af0de39b6faef337864255a29348f267d874b402f3b7d49883b9d08a2c5270c2a45d0c65342c5bb74a9a0e63648208756b8b2ff57b7a8e57d66409bc8123d14"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-frletter-doc"

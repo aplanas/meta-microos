@@ -8,10 +8,10 @@ packages newtxmath, pxfonts, and TeXGyrePagella be installed \
 and their map files enabled."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.505svn61806"
+PV = "2023.209.1.505svn61806"
 
-RPM_NAME = "texlive-newpx-2023.201.1.505svn61806-54.1.noarch.rpm"
-RPM_HASH = "af81c05b24e4e81743aa0d946d1c7c05beea6956a88ac02e78ffde04fa6969c08ac2a5b393a2a248fdabc87fb8c57bdc5ea0fc4674f1e089801fd5855ea0fa05"
+RPM_NAME = "texlive-newpx-2023.209.1.505svn61806-55.1.noarch.rpm"
+RPM_HASH = "60c2d55db2b92ab8c4c953dc151630f6b953bf10a75ab6fa34a63436ef2ff507914133b5d5fdcc3060881efb6c491a258e6bf84cb10f2cba40cb1bdd03de47d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-NewPXBMI-gnu.tfm \

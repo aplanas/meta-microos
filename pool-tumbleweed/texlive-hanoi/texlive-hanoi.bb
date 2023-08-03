@@ -5,10 +5,10 @@ As a game it will solve the towers with (up to) 15 discs (with \
 15 discs, 32767 moves are needed)."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.20120101svn25019"
+PV = "2023.209.20120101svn25019"
 
-RPM_NAME = "texlive-hanoi-2023.201.20120101svn25019-53.2.noarch.rpm"
-RPM_HASH = "7f27b932d6457791ba6dd44bdeb3787c97dfd157763c1877a56b966e7bb6028b83e60c02f776a06347d10db6d1561c0e1faa81b842b0ec7b48d07af972356636"
+RPM_NAME = "texlive-hanoi-2023.209.20120101svn25019-54.1.noarch.rpm"
+RPM_HASH = "98519c84362e85e904f90dd695d9f1ae3bf2d14aa13c70a26aa5dfb1e0eb3d979d0acce2ecf709da34a5464cca296eb6ce62a6db093b3a2f74d26c6a0f00c4ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hanoi.tex \

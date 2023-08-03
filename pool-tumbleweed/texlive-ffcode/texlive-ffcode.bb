@@ -5,10 +5,10 @@ configuring them the right way, to ensure that code fragments \
 and code blocks look nicer."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.8.0svn65170"
+PV = "2023.209.0.0.8.0svn65170"
 
-RPM_NAME = "texlive-ffcode-2023.201.0.0.8.0svn65170-52.1.noarch.rpm"
-RPM_HASH = "e04bb6492957b976a702869947086ab24171182603889e4638e04b0674de464e6fb0125af7f2ed8b1b9766c453b2db3a7040b37c2e59e16d49eb64edd1142466"
+RPM_NAME = "texlive-ffcode-2023.209.0.0.8.0svn65170-53.1.noarch.rpm"
+RPM_HASH = "6feeed4e5c7267453ab36d22ded41479fe34b8981a47d63a09dfcd0c1a83b07fd5a574787ee9e4cb4f8e1cc2afa89a5c8de22cd86f264655dda027fa25fb947c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ffcode.sty \

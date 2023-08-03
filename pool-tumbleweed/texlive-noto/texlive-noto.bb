@@ -4,10 +4,10 @@ support for the NotoSerif, NotoSans and NotoSansMono families \
 of fonts, designed by Steve Matteson for Google."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64351"
+PV = "2023.209.svn64351"
 
-RPM_NAME = "texlive-noto-2023.201.svn64351-54.1.noarch.rpm"
-RPM_HASH = "42529fce4d263d6b0fc972625b8b5e63a4914054ecc0360d9a49a0edef59230904edeb93d96a3c7031b9a73012cd7144fdd8affee2e6ed5a1a8921aba896287c"
+RPM_NAME = "texlive-noto-2023.209.svn64351-55.1.noarch.rpm"
+RPM_HASH = "030a232b17443afdf8acf6e7fe0462cf47db1c7450aa2513c0b149eca4eea9556b4b09aa0ba7ff3ddac674dda824b5e21fa8e2c2caf1be3f9a90b6877ad3902a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LGRNotoSans-LF.fd \

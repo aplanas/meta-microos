@@ -11,10 +11,10 @@ back-ends are supported: pdfLaTeX, LuaLaTeX LaTeX - dvips - \
 ps2pdf/Distiller (Xe)LaTeX - (x)dvipdfmx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.18svn64049"
+PV = "2023.209.0.0.18svn64049"
 
-RPM_NAME = "texlive-xsavebox-2023.201.0.0.18svn64049-52.2.noarch.rpm"
-RPM_HASH = "98b612f05a480c724e40936b26887b1b02bd71b77d80751d50d6123a408a2a976b4e3296716f8f247273c044a73f75320745638ed31e088919ceb9db10520942"
+RPM_NAME = "texlive-xsavebox-2023.209.0.0.18svn64049-53.1.noarch.rpm"
+RPM_HASH = "3a8d91058462397f4b7545a65b4127cf9144b6e619b6e7c56af331a9f5ec2fdd7b49d84d1f7c8e135cb425146a8f8956591d0d3af150c092fb21a0fc1947f6ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xsavebox.sty \

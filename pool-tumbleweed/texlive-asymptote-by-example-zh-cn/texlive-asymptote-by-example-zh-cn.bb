@@ -2,10 +2,10 @@ SUMMARY = "Asymptote by example"
 DESCRIPTION = "This is a tutorial written in Simplified Chinese."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-asymptote-by-example-zh-cn-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "84510f25cc146956e183e15af050748b316b44efa02f5f3773bc414cfb03c87f0db4f573edb07345d47a41d1e393cff7b18ee5826ed46ada9bbc0af4c611bee3"
+RPM_NAME = "texlive-asymptote-by-example-zh-cn-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "27a63cd0b9296c6ef60bb2a1fc20b14193930f42db9dc4064032ea945afbe3e134ca7fe19d11d012353dc648a0f9e9027a670adc4d4346430c3c2e32fd1a12af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-asymptote-by-example-zh-cn"

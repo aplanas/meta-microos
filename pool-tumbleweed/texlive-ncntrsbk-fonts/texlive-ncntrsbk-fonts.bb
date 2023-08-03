@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-ncntrsbk"
 DESCRIPTION = "The  separated fonts package for texlive-ncntrsbk"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn61719"
+PV = "2023.209.svn61719"
 
-RPM_NAME = "texlive-ncntrsbk-fonts-2023.201.svn61719-54.1.noarch.rpm"
-RPM_HASH = "58c1870fbc95223af06c6c7b4e276b41d3e3ec52cfec3f0734ee294702a922267aa9a5449944aff7f74a4e4d79bf4f1a56eb4f5b50291d9c46dde38a4dae627a"
+RPM_NAME = "texlive-ncntrsbk-fonts-2023.209.svn61719-55.1.noarch.rpm"
+RPM_HASH = "dcae4d7eed5a2f9103d38495485377ad75c73505c9d3e9dbba0b66e1abb5696dad979336330830be6bf1602b8e8ee37d63e23b82fef4f03b596279139da4163b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

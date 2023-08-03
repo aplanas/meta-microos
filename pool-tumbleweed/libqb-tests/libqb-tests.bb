@@ -2,10 +2,10 @@ SUMMARY = "Test suite for libqb"
 DESCRIPTION = "The libqb-tests package contains the libqb test suite."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.0.7+20230607.06c8641"
+PV = "2.0.8+20230721.002171b"
 
-RPM_NAME = "libqb-tests-2.0.7+20230607.06c8641-1.1.aarch64.rpm"
-RPM_HASH = "63dd3fd5580fb60333a0c8213079e4bd37bc106f0629b8fdca6a3301f1d43556dbac682fe235e63eb1574bcb11342adcdf84117b34a233a996b0e5d001841bd0"
+RPM_NAME = "libqb-tests-2.0.8+20230721.002171b-1.1.aarch64.rpm"
+RPM_HASH = "5e931f2cee79e7d43e234f5f8fcb8fe08993e9c3a68587560ab4c534054223f14954ba850189e4e2a340b13b74ab839a5bc6160050ec01031b72a8b7a3d83554"
 
 RPROVIDES:${PN} += "libqb-tests"
 

@@ -7,12 +7,12 @@ LICENSE = "Apache-2.0"
 
 PV = "4.4.0"
 
-RPM_NAME = "python3-freezerclient-4.4.0-1.5.noarch.rpm"
-RPM_HASH = "7b434585cb83cce328be1e3a7a264f9b848243a2b4acd357be1606c13fb02ae0e74abe7bb23f8f9154606f6b43f5c301c1d8da41a0c7bfe960a1095dca7657da"
+RPM_NAME = "python3-freezerclient-4.4.0-1.6.noarch.rpm"
+RPM_HASH = "42b724e23950a8edbab014e12b635de272caf8bf1df5934b41cf558fbc752648f42f603dee06855a773569ef751563387adf2009e269804cedb3e7cf7fc77071"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-freezerclient \
-python3.10dist-python-freezerclient \
+python3.11dist-python-freezerclient \
 python3dist-python-freezerclient"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

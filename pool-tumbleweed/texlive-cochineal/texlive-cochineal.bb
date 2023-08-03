@@ -15,10 +15,10 @@ contemplate. The fonts are provided in OpenType and PostScript \
 formats."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.077svn62063"
+PV = "2023.209.1.077svn62063"
 
-RPM_NAME = "texlive-cochineal-2023.201.1.077svn62063-53.1.noarch.rpm"
-RPM_HASH = "6d17d6b7ed23cd5ae764c69f6287ebd51f362dfdf50d5ed9cca568c1e22c2061301b8561d498ac77b58879f9e06cef3c729eca8aac94edaaa906ce7d02c3df7c"
+RPM_NAME = "texlive-cochineal-2023.209.1.077svn62063-54.1.noarch.rpm"
+RPM_HASH = "6ea8c483fb2506199613c36b3e1ba835c929298031bd1b12d13c0df1501e65bc2d6cf8b3087a1334d6a10f9ee78b61d124f3d05d15d7decf4b59885780245deb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Cochineal-Bol-alph.tfm \

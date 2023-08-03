@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hitszthesis"
 DESCRIPTION = "This package includes the documentation for texlive-hitszthesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.2.1svn61073"
+PV = "2023.209.3.2.1svn61073"
 
-RPM_NAME = "texlive-hitszthesis-doc-2023.201.3.2.1svn61073-53.2.noarch.rpm"
-RPM_HASH = "b95b238b34dbac447fafed8707f80821825a7406edb4fad219e4c3d7019515b1043027db2d7f117d1f3c499e3c94fa171d86266fa53ebac8fbbacdd852be7778"
+RPM_NAME = "texlive-hitszthesis-doc-2023.209.3.2.1svn61073-54.1.noarch.rpm"
+RPM_HASH = "22b423cec7f4c6ba2c45651242ea2b0c2a173b7549a2b8ec330f80a34744f4429088615b93bc80331753fe56e6941f9a021a54aa00de231990cf4645c28f4ca0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-hitszthesis-doc-zh \

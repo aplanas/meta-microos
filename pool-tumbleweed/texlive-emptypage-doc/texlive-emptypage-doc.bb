@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-emptypage"
 DESCRIPTION = "This package includes the documentation for texlive-emptypage"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn18064"
+PV = "2023.209.1.2svn18064"
 
-RPM_NAME = "texlive-emptypage-doc-2023.201.1.2svn18064-53.2.noarch.rpm"
-RPM_HASH = "dcf3299a4bafc40eebbc21fe2bdf4b23fda7ceb858b22cc2b1a04597b6691562cb3131870a97a0ee748ea91320135befaf71e5c06abba76f345cf31ea948b27a"
+RPM_NAME = "texlive-emptypage-doc-2023.209.1.2svn18064-54.1.noarch.rpm"
+RPM_HASH = "cce4dde2aaf91d4dbd93113547efb324629d2bdf59666d3b98e8b2c7fc8206a55869dca046b349d3867f5e10697997e2ec66f26bf6f92ebd855e1ef97c7bb129"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-emptypage-doc"

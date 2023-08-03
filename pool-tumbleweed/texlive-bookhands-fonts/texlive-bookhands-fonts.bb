@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-bookhands"
 DESCRIPTION = "The  separated fonts package for texlive-bookhands"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn46480"
+PV = "2023.209.svn46480"
 
-RPM_NAME = "texlive-bookhands-fonts-2023.201.svn46480-52.1.noarch.rpm"
-RPM_HASH = "667c8f01fd5f42732f5bdc90f781a133390efa4317cdf4e4c3defcfe3fb92d62da7b50c1f31848a183f823c055d6b605f666665e53f6e106325a00c8c95b6369"
+RPM_NAME = "texlive-bookhands-fonts-2023.209.svn46480-53.1.noarch.rpm"
+RPM_HASH = "6246592f2b0675f57e4d5ecba59ad5a1a0348b0f72fe6760d58fc49ffe69bd18f7de47732a590ecadc5cf9db5f119161b9cecd132e8540ea434fe0fdf5656298"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

@@ -6,10 +6,10 @@ italicised, no abbreviation dots; only year, no month, at end \
 of reference; and DOI excluded, ISSN excluded."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-fbs-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "4958796b15a28ff207eaae5994304b6dc335625bbbe0078d0cbd07841972d2e7f7cbc631693bfe067514418f3775811c9d98d3fef0c572d218e4ce03fb91439b"
+RPM_NAME = "texlive-fbs-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "46a51f2787a35c049c0b09176e9997e430fb7fb092154260466e15b980d91ed738f3d614eb0b9e59632c787f144943a00e02778b460d064a84e8448349d540b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fbs"

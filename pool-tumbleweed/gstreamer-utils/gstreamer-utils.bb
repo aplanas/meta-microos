@@ -7,10 +7,10 @@ means that new data types or processing capabilities can be added by \
 installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "gstreamer-utils-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "d6f74dcc9452cf3792563d7aead69ab37c84d4e76110a773fb963627016a9e47be823f0b9209d164a4fe561531293d85dea005c3a4b3d78e0abf3d1f797c21f0"
+RPM_NAME = "gstreamer-utils-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "7b47303d0fbe53aba88c8898cb3e7f3761f0169e181a0a4a6f07ba9b66682879709be58840560b17caeedf3240dd17dda1dade8189b6fe351df4705a573482cc"
 
 RPROVIDES:${PN} += "gstreamer-/usr/bin/gst-launch-1.0 \
 gstreamer-utils \

@@ -13,10 +13,10 @@ to save the PDF version of a thesis in PDF/A-1b compliant mode \
 and with all the necessary metadata."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.6.4.06svn56276"
+PV = "2023.209.6.4.06svn56276"
 
-RPM_NAME = "texlive-toptesi-2023.201.6.4.06svn56276-52.1.noarch.rpm"
-RPM_HASH = "97590e96ec3bd5923831074d3be815eb14e9ee41446320d441ffc63baa52a3ea37d97ccb1bb7bff74574d71ce1cb85f711e94a884f5c251553dc57835a3e2789"
+RPM_NAME = "texlive-toptesi-2023.209.6.4.06svn56276-53.1.noarch.rpm"
+RPM_HASH = "60eebce346e41f4ddce8176e7d79a7b58c5a79723fac9ffb1dc838a289c67b0f5dc66950b00c1372e08bc6503910f3039895cdb5033a76da09fcd268227b192e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-topcoman.sty \

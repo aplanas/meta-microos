@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-placeat"
 DESCRIPTION = "This package includes the documentation for texlive-placeat"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1d1svn45145"
+PV = "2023.209.0.0.1d1svn45145"
 
-RPM_NAME = "texlive-placeat-doc-2023.201.0.0.1d1svn45145-51.1.noarch.rpm"
-RPM_HASH = "4568d08e24455fc5e9bf33aa1f0eca66bcef32df53297a10e2087017a866a33d7fe90a3b627dc1027b1707df0eda8eb8ab0da2c4804b1d75e0a41ca09edc4899"
+RPM_NAME = "texlive-placeat-doc-2023.209.0.0.1d1svn45145-52.1.noarch.rpm"
+RPM_HASH = "b2b0024cfb92b990b1af3e8d5243414144f581fd825b313aa9bab01bcd140b81a8f4f2d74b32decdb70e9d05b98fcdc8ee29f8739e5ae7c7b456a24f78a1c81b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-placeat-doc"

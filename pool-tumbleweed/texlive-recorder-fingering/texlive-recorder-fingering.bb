@@ -6,10 +6,10 @@ with methods to create and display alternate fingerings for \
 trills, etc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1bsvn66008"
+PV = "2023.209.1.1bsvn66008"
 
-RPM_NAME = "texlive-recorder-fingering-2023.201.1.1bsvn66008-53.2.noarch.rpm"
-RPM_HASH = "9fd47a1eba0fe3db1f3cd647f61a4982668bedc5d287c9ebd7189d796473cee48d98d19773ab98b62db2a1f306576472ee3de7e6755f8000e3c02f2f032f84c5"
+RPM_NAME = "texlive-recorder-fingering-2023.209.1.1bsvn66008-54.1.noarch.rpm"
+RPM_HASH = "faa29adfd4c9e679a122eb5d794aa8afd4659b53f86f4a0cccd5656f62c09042a4c30608c40f711b863d3928960c96e46e95e392eead9bbb2bf26e6560bad3f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-recorder-fingering.sty \

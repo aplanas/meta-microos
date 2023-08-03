@@ -5,10 +5,10 @@ evolutionary algorithms, multicriteria decision making and \
 similar fields."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-multiobjective-2023.201.1.0svn15878-54.1.noarch.rpm"
-RPM_HASH = "82f2c1fa54dc4ee7a6ae8bd2a1c0549c89e18a9b0ca751017d1cbce44a0c6d82eac58cd086632ff89e3891a61e53a7da3ccd3f46e1ee7e8d6dc90ab413646076"
+RPM_NAME = "texlive-multiobjective-2023.209.1.0svn15878-55.1.noarch.rpm"
+RPM_HASH = "c3f92c2665573b8a7573138ea62783f7edfce45a3b243db74dad2e6a4d7dca2ffc379f639380d3371cc4d074acaf9cb8dd1907a6dae1c38f162a558a4d20e6e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-multiobjective.sty \

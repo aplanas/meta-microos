@@ -5,10 +5,10 @@ five characters d, a, n, t, and e. dantelogo.sty provides an \
 interface for LuaLaTeX/XeLaTeX/pdfLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.0.0.03svn38599"
+PV = "2023.209.0.0.03svn38599"
 
-RPM_NAME = "texlive-dantelogo-2023.204.0.0.03svn38599-54.1.noarch.rpm"
-RPM_HASH = "671d4e4f019128350869e7f961214b43764c9b9c24285ee0d75b9aa5e8411971439dc6b8dfab1d62f4ae3f29a9c13818d7cd5d88f4f0d954b711042cf0bd8800"
+RPM_NAME = "texlive-dantelogo-2023.209.0.0.03svn38599-55.1.noarch.rpm"
+RPM_HASH = "31e6e825614005334491cfaa3842822c9010456035bd605d8153cbdcb6f7174555f6ca43eb0b05d1e87dbbd9b1b96e3e8ae656f7ae2b052da89a041934726b31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-DANTE-Bold--texnansx--base.tfm \

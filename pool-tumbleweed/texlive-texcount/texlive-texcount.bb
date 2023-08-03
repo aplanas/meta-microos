@@ -6,10 +6,10 @@ of the text have been counted. The package script is available \
 as a Web service via its home page."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.1.1svn49013"
+PV = "2023.209.3.1.1svn49013"
 
-RPM_NAME = "texlive-texcount-2023.201.3.1.1svn49013-54.1.noarch.rpm"
-RPM_HASH = "478d661dfd05c2d2bf9791f69b18111e396e435f21a80c297ae844e67d91919f3b9686c1c3ebe009b82f94944c7ee06dce3e42b523ca6616aa85495390cbc8a9"
+RPM_NAME = "texlive-texcount-2023.209.3.1.1svn49013-55.1.noarch.rpm"
+RPM_HASH = "97646330ab4e2a84fcb6e5e6d9e9187c33d961765ee814a5b25820a41d5efa03f4db9ca853e6a45435b319c9388d98eb9d618e21b5811d77a2657ac340d5f333"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texcount"

@@ -2,10 +2,10 @@ SUMMARY = "Gtksink plugin for gstreamer-plugins-good"
 DESCRIPTION = "This package provides the gtksink output plugin for gstreamer-plugins-good."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "gstreamer-plugins-good-gtk-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "b38b5bef0a174e64c625cda5ed94a875a9b8c9ececc52b3c3105129856d430e93a2ae16c8b500b3f1a670ec4de3aa1b816f7b543e5207d884d166650ad4422a8"
+RPM_NAME = "gstreamer-plugins-good-gtk-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "beda59af25352cff566e6c3e9f7e111212a33f793a9116baf6baa0b11368e9865814ca212d71ba0ea536421114233b76530504e9118e039edd44009c1ca49f46"
 
 RPROVIDES:${PN} += "gstreamer-plugins-good-gtk \
 gstreamer1 \

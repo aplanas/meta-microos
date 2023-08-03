@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-algolrevived"
 DESCRIPTION = "The  separated fonts package for texlive-algolrevived"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.052svn56864"
+PV = "2023.209.1.052svn56864"
 
-RPM_NAME = "texlive-algolrevived-fonts-2023.201.1.052svn56864-54.1.noarch.rpm"
-RPM_HASH = "fd0c307b967503958b8ec00ceccf9d796b7d0f6e9b7ae18b9111bdc5c97f3ea0fd323707e219436f14c1bb0e6b3b3157483ee06b44ada380ffca14386953d5cc"
+RPM_NAME = "texlive-algolrevived-fonts-2023.209.1.052svn56864-55.1.noarch.rpm"
+RPM_HASH = "4118ad662a740356279bc263e492515c1812ec2ba6510bd1ca1cde9422a93933f031e817594c88bb5e2b98540b1bb20f8ab1ff875c630cd47eb09256976e3e93"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-algolrevived-fonts \

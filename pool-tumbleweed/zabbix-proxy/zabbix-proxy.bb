@@ -2,10 +2,10 @@ SUMMARY = "System files for the Zabbix proxy"
 DESCRIPTION = "The Zabbix proxy component."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.0.17"
+PV = "6.0.19"
 
-RPM_NAME = "zabbix-proxy-6.0.17-1.2.aarch64.rpm"
-RPM_HASH = "0fb46429361f26dfbe5c1aa5d79620e65c658db40a7a5326a7d2833a2acb8d936a7e91e4c143c8daf095dd12822b75cf32beac620e05f2c57d6ddab10ff6f159"
+RPM_NAME = "zabbix-proxy-6.0.19-1.1.aarch64.rpm"
+RPM_HASH = "bea6ad214db01297f819bcc5e0bdef66889d762d87ffed92011745f5ecfcf4f3a96366c1f79017720a2d20c19f21b88741b048aef466a3bf84d81f287dd72152"
 
 RPROVIDES:${PN} += "config-zabbix-proxy \
 zabbix-proxy"

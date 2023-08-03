@@ -4,10 +4,10 @@ of Slovenian in babel. Several shortcuts are defined, as well \
 as translations to Slovenian of standard 'LaTeX names'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2nsvn57666"
+PV = "2023.209.1.2nsvn57666"
 
-RPM_NAME = "texlive-babel-slovenian-2023.201.1.2nsvn57666-53.1.noarch.rpm"
-RPM_HASH = "ccd15073f4e816b403e1867c550744df06874907e768d150c61446ca4f85f3f093dc0067fc0c32f1df1f3639e77a68906c1fd4a416266bb68741a78893a8b65a"
+RPM_NAME = "texlive-babel-slovenian-2023.209.1.2nsvn57666-54.1.noarch.rpm"
+RPM_HASH = "1eae06baf3be30ed64df995aee6f8e39f06a3bf480c752f6a0dd799fcff657781eb2dbf61654dde63ed4948136bb528586be74a4bf56beef22578ee96f7912b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-slovene.ldf \

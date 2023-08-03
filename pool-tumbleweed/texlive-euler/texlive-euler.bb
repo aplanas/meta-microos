@@ -8,10 +8,10 @@ the book 'Concrete Mathematics'. The text fonts for the \
 Concrete book are supported by the beton package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.5svn42428"
+PV = "2023.209.2.5svn42428"
 
-RPM_NAME = "texlive-euler-2023.201.2.5svn42428-52.1.noarch.rpm"
-RPM_HASH = "44ae5808c2e9174822b1ef118d37b792d0dc6a1f316c9895785cafd99df7f918c9192b6c4a3735cfd30e78c46b21b66adc34421f114e33473a7c783309e80ccd"
+RPM_NAME = "texlive-euler-2023.209.2.5svn42428-53.1.noarch.rpm"
+RPM_HASH = "efa8ac68d58c96b6ebe9387187ad89a2bd5083dec2d04077ca8fd566297f4786d9f054816a7a9033966c8144257cc8b2b655734f9822e2fc15c6934408bd4f47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-euler.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "This LaTeX package uses pdfcomment and bibentry to surround \
 natbib citations with PDF tooltips."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.1svn50449"
+PV = "2023.209.1.1svn50449"
 
-RPM_NAME = "texlive-xcpdftips-2023.201.1.1svn50449-52.2.noarch.rpm"
-RPM_HASH = "cb9428af06f8099387660f802e8bcea15f23f3ec8c0772406ea78de4949bd04f25c7cd663f5ea426277998e34ecfd44f4772cb7afca4e41807ce5188e88692b0"
+RPM_NAME = "texlive-xcpdftips-2023.209.1.1svn50449-53.1.noarch.rpm"
+RPM_HASH = "be28235c4837fa128d0e12ab8aaf3d2e26e08585eca62bf345d960f46fcf4cb1aba0b33f743f498fafb6709a4481c067d82e10ccfc08ef7197ba06afcf3c25ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xcpdftips.sty \

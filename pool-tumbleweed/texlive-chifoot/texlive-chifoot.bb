@@ -5,10 +5,10 @@ page are now marked with a full-sized number, rather than with \
 a superscript number."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn57312"
+PV = "2023.209.1.0svn57312"
 
-RPM_NAME = "texlive-chifoot-2023.201.1.0svn57312-53.1.noarch.rpm"
-RPM_HASH = "f0ebe47c2ab4a0ce0ece4438802941a1805de385ccfad8a5e6c8850f5165b43f0f892dc33cc05bc20fcee4f54b354c9994d6a47204c617eca14a2e7da8a0561a"
+RPM_NAME = "texlive-chifoot-2023.209.1.0svn57312-54.1.noarch.rpm"
+RPM_HASH = "306b4c8ae15cdff35bc7b287421b2f5975855a539409e7b81f622af3bc8362c7dcd21eefb92294e4f6018e2fa9829890bf92d3126070daf5da62a56856f50d3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chifoot.sty \

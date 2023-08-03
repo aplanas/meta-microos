@@ -6,10 +6,10 @@ than about 2018, although a warning is issued if the LaTeX \
 format file is dated with a date older than 1st January 2019."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.6.1.1svn66115"
+PV = "2023.209.6.1.1svn66115"
 
-RPM_NAME = "texlive-wrapfig2-2023.201.6.1.1svn66115-52.2.noarch.rpm"
-RPM_HASH = "6159e0464c2264f74be713dbd053241b8740d36b17894341ae2d92b20c00ced422015640e3a9a8ee2470ef925a062fa824235b90a29f35656eb7853138449c55"
+RPM_NAME = "texlive-wrapfig2-2023.209.6.1.1svn66115-53.1.noarch.rpm"
+RPM_HASH = "56cda65b677f90beb9e29ca9474e7c255920dfd6c16ba876415bc3e3556958d229fbcafb27b02469dd86d67d2f066d79f9a8b43f34e37a78dd536163145b5dd5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-wrapfig2.sty \

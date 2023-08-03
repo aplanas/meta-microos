@@ -5,10 +5,10 @@ scientific plots, but the potential user is allowed to use them \
 in other ways. This package uses TikZ and xcolor."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4svn44951"
+PV = "2023.209.1.4svn44951"
 
-RPM_NAME = "texlive-oplotsymbl-2023.201.1.4svn44951-54.1.noarch.rpm"
-RPM_HASH = "3943bb007102c2e35150b0e4f1b845dabf76867b8f1e0342f03d6b150bd91ae0e6734a3694ca97adff544379750c853d8434cab6ac06ac98d1f54b2892c13092"
+RPM_NAME = "texlive-oplotsymbl-2023.209.1.4svn44951-55.1.noarch.rpm"
+RPM_HASH = "27ce36612211c81daab8218c28b4978ba42151b5ac78b3b3d72e2633a6320f6064414535323227ebe9e790a423b45fedea7ade853bf77f34f186f6ff31647bfd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-oplotsymbl.sty \

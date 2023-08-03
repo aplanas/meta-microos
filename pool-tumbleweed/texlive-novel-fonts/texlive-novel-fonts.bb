@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-novel"
 DESCRIPTION = "The  separated fonts package for texlive-novel"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.80svn65848"
+PV = "2023.209.1.80svn65848"
 
-RPM_NAME = "texlive-novel-fonts-2023.201.1.80svn65848-54.1.noarch.rpm"
-RPM_HASH = "4091430b5a877fa0933c1d94b26fbe74cf3aea9980142de1d611e6bbcf2af5e62fb6dbe197275abfa1cf3d8246d89d057f160df9341d28f7888f45db04244231"
+RPM_NAME = "texlive-novel-fonts-2023.209.1.80svn65848-55.1.noarch.rpm"
+RPM_HASH = "e18687f7c0fa8b2f581fd6dcff4974e780b4d62b3b504911437f29268eb2aa6a838234ce6c3f98e6935317ff1cfa20bcfaa7bb7bc95cb7f0e00f332426c76f0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

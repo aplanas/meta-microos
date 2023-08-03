@@ -4,10 +4,10 @@ PostScript paths or Bezier curves, using the Bezier clipping \
 algorithm."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4svn33210"
+PV = "2023.209.0.0.4svn33210"
 
-RPM_NAME = "texlive-pst-intersect-2023.201.0.0.4svn33210-52.1.noarch.rpm"
-RPM_HASH = "e480dfa16efe6d4fc782edab2eb371fa86902a675420728db6324cacb67fff6e00e8cd7b88a01363b1c14ae7f76f4a52f4003c20d31b040bfd1a6696dfa48adf"
+RPM_NAME = "texlive-pst-intersect-2023.209.0.0.4svn33210-53.1.noarch.rpm"
+RPM_HASH = "62ecb5bf21194af88813fce6bf58d3e1a34f4d2e4b4dde509d7fcb6aeed504d080de0b72deddfc192cc5a8839b1aee7b104268aef0cb5b14fe5370a399f91445"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-intersect.sty \

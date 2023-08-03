@@ -3,10 +3,10 @@ DESCRIPTION = "The Qt 6 QmlCompiler library. \
 This library does not have any ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6QmlCompiler6-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "007218e4edfde364facc30565f7af9d971384298fdec6656caef28b4f7b2159c236a876cabe450a750ef6c22e6c2adb3348530544dc5cb0534adbee819dd3d7d"
+RPM_NAME = "libQt6QmlCompiler6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "f5eafc1b2de97d86194ef0e37b11cbc9ca5ac3ccb3a44c0a0dec0bd2742520a5a107766297ffd14be9b8207b20310ab8e4378b63e02cfdfa9b1437dc03b9ab05"
 
 RPROVIDES:${PN} += "libQt6QmlCompiler.so.6 \
 libQt6QmlCompiler6"

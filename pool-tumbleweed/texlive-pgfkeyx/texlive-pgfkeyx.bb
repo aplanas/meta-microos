@@ -7,10 +7,10 @@ The package also introduces handlers beyond those that pgfkeys \
 can offer."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.0.1svn26093"
+PV = "2023.209.0.0.0.1svn26093"
 
-RPM_NAME = "texlive-pgfkeyx-2023.201.0.0.0.1svn26093-51.1.noarch.rpm"
-RPM_HASH = "f75eefc43f852e9222b76380508a70fcc55c6e4f0fb0b05777d29b075752edcbc2f8aca23d4bbe9c90806b8a9a283693bb4a86974cfde593cf4590f38407ad85"
+RPM_NAME = "texlive-pgfkeyx-2023.209.0.0.0.1svn26093-52.1.noarch.rpm"
+RPM_HASH = "8e9539b8c4f993a3d3cd04d8cc77b5afad4df3c15334a42e05fd05a220d0348c3b5647040858071bc9eb997fe9138e4c54a0788b3cd755627097bb632af6f307"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pgfkeyx.sty \

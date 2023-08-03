@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-punknova"
 DESCRIPTION = "This package includes the documentation for texlive-punknova"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.003svn24649"
+PV = "2023.209.1.003svn24649"
 
-RPM_NAME = "texlive-punknova-doc-2023.201.1.003svn24649-53.2.noarch.rpm"
-RPM_HASH = "fe8b6aeec18c2a5903a85b7ca99bc558f3f6c629c9420009160eb881685afa6458ad4a778739d5b61cad53c11efb72999976ca6cb51a077128d9087bc782cb27"
+RPM_NAME = "texlive-punknova-doc-2023.209.1.003svn24649-54.1.noarch.rpm"
+RPM_HASH = "221b2113527f1bc31f25d666803621b31a5db87efb5270ec415b041ef11079e1dd6046d4db6c843f2cdf845c11f422be91aa491641a89721235bb197f3854dbd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-punknova-doc"

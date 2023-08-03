@@ -4,10 +4,10 @@ clear, fashion. The fonts are provided as Metafont source, and \
 in both OpenType and Adobe Type 1 formats."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn18651"
+PV = "2023.209.svn18651"
 
-RPM_NAME = "texlive-semaphor-2023.201.svn18651-53.1.noarch.rpm"
-RPM_HASH = "a05d4e954c9fc927f06e8ea5e371e2a83470b19275e0e611986720dbd9eff4d5b463edc33a21933cc528814538713e9973e952224fcc8cbe1c4719577c6d58a2"
+RPM_NAME = "texlive-semaphor-2023.209.svn18651-54.1.noarch.rpm"
+RPM_HASH = "b7dc9c0d3376e43197438de31093c0db77d8659c27dfdc79e306f13c8770b221fb812102004258d3f65205e3403a291688a044a490e8d6024bd737c97f6514c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-il2semaf.fd \

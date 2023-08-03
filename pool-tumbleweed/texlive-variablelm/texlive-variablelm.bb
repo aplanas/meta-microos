@@ -5,10 +5,10 @@ definitions and the corresponding style file. This mechanism is \
 useful in mixed text compositions, for example Japanese-Latin."
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.201.1.2svn60014"
+PV = "2023.209.1.2svn60014"
 
-RPM_NAME = "texlive-variablelm-2023.201.1.2svn60014-53.1.noarch.rpm"
-RPM_HASH = "365e60fa3825ddaa42721889889e99fd2a358e99a252b1cf51b3efd1f679ac132cb4f232d8b8f0e44b17dadff9ce5263e1229a755a50c17a38d6c21aa6ee31f5"
+RPM_NAME = "texlive-variablelm-2023.209.1.2svn60014-54.1.noarch.rpm"
+RPM_HASH = "e495e55e1bd899bd23cfd56b5c209e3eb40df43eddbc44915096a3b3f6aab37a92200dcce55343db90459d8ccb2dec48afb018e2e0e32902930c8904d4bafb6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-omlvlmm.fd \

@@ -9,10 +9,10 @@ even possible to use this package to insert PostScript files, \
 in addition to PDF files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5xsvn65319"
+PV = "2023.209.0.0.5xsvn65319"
 
-RPM_NAME = "texlive-pdfpages-2023.201.0.0.5xsvn65319-51.1.noarch.rpm"
-RPM_HASH = "63889d6673db2199eda6ea848df90ca328606ba050c34390401ba2ca81a2923c8aeebf8fa795588de089157f0b437d491e84597946a41e3ae8f66775188b1991"
+RPM_NAME = "texlive-pdfpages-2023.209.0.0.5xsvn65319-52.1.noarch.rpm"
+RPM_HASH = "c45d9adf678d7c36dc7270b1bbe0c4e9b00cf922701ed3552442e3fe97ca97fb5f0402658a6a6948b8b657aae85d835325cabfdfbd6a5dc938042aebf49ede6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdfpages.sty \

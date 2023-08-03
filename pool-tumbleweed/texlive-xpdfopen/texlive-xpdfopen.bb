@@ -7,10 +7,10 @@ and evince. This version derives from one written by Fabrice \
 Popineau for Microsoft operating systems."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.0.0.86svn65952"
+PV = "2023.209.0.0.86svn65952"
 
-RPM_NAME = "texlive-xpdfopen-2023.201.0.0.86svn65952-52.2.noarch.rpm"
-RPM_HASH = "f9fb574e443afd13e16a3a8bb214aff7983c2c5f7d9b6b0495636cce5b0d521d33ac82b165af9c0c1c92b8c3d01ea732a9e75cbd11a2ede0d63b14715f6d31ba"
+RPM_NAME = "texlive-xpdfopen-2023.209.0.0.86svn65952-53.1.noarch.rpm"
+RPM_HASH = "3f58efc8ef0eaa58453809e8ca3a082b185470693c8d1bb724549baa2bec663f7b4d1261b5250591c34c622a7ebf1d6e445d36afe5892443cf62ccbc0f695370"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-pdfclose.1 \

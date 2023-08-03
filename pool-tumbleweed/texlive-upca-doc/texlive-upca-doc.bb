@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-upca"
 DESCRIPTION = "This package includes the documentation for texlive-upca"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn22511"
+PV = "2023.209.svn22511"
 
-RPM_NAME = "texlive-upca-doc-2023.201.svn22511-53.1.noarch.rpm"
-RPM_HASH = "14a53791452359dc561508a9ab720dbdf39bdebbac2f05bf7c2c19e2aa2f932dcb9f7d57f19ac6267f67ebd3e50d40a248743ec11fbff19402d15b343d07c53f"
+RPM_NAME = "texlive-upca-doc-2023.209.svn22511-54.1.noarch.rpm"
+RPM_HASH = "686552158d4e90cb54b2369a18dc154c011560723e96bd041bd27d3f22a42b89201444f2a175050e9e207dabf99a868b66dbd2d26bedfd4ba75164b9b2c25bb8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-upca-doc"

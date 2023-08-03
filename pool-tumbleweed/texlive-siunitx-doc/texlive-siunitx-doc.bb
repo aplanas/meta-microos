@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-siunitx"
 DESCRIPTION = "This package includes the documentation for texlive-siunitx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.2.2svn66365"
+PV = "2023.209.3.2.2svn66365"
 
-RPM_NAME = "texlive-siunitx-doc-2023.201.3.2.2svn66365-57.1.noarch.rpm"
-RPM_HASH = "cdad10eb31c71ce4ba15f3a806736aa96945f55cad5343374eaf20f83da61c278af69c1c9091d06fa64d47913917f8a0ee6c2a7d643193c469db24264d7aa1aa"
+RPM_NAME = "texlive-siunitx-doc-2023.209.3.2.2svn66365-58.1.noarch.rpm"
+RPM_HASH = "9bd3c19fd7540a4885de85a55e17a70c3302181a03dcb9cc4e931f187aee6aaeb01e2fbcd9ea34d29067c2eccfc963029cc1bd012f80b138b75ad9d5174fbace"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-siunitx-doc"

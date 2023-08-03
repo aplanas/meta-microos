@@ -4,10 +4,10 @@ Picard Tagger focuses on album-oriented tagging as opposed to \
 track-based tagging."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.8.5"
+PV = "2.9"
 
-RPM_NAME = "picard-2.8.5-2.1.aarch64.rpm"
-RPM_HASH = "1a69b504b5cb15022515dbb499afd463639e7a38fffd2940cfa36bb60a4987e99cceec78aa14002d2c18ba880cc8afcb02318116d3d89bafa02b9455af5e670a"
+RPM_NAME = "picard-2.9-1.1.aarch64.rpm"
+RPM_HASH = "f0685da97418bf13d5f69651b526f2de8bd7308b0792b2280fc655508796b3e2a70868dde74d291f4259b355c3aab4bdc2278be3c2f61e952ec92982c79e4876"
 
 RPROVIDES:${PN} += "picard \
 python3.11dist-picard \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-latexindent"
 DESCRIPTION = "This package includes the documentation for texlive-latexindent"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.3.20.3svn65937"
+PV = "2023.209.3.20.3svn65937"
 
-RPM_NAME = "texlive-latexindent-doc-2023.201.3.20.3svn65937-54.1.noarch.rpm"
-RPM_HASH = "1386bcf8f3adb6accfffe6dd3e5c4b1d93cebc59eb37edbe084c2a75e01c24d4dc16faa0b0830edf238a25d4bb7ba4d2323072a9b2dd81e434fe5ebe75cff25b"
+RPM_NAME = "texlive-latexindent-doc-2023.209.3.20.3svn65937-55.1.noarch.rpm"
+RPM_HASH = "852054ec01ee1279c68e364c835eb5d6de55da82de5bacb60110a7cc7774f7eb716d1612e3febfb1cc5ef042d6969e10ea57608a6a40bb73c87b15e48db25fe9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latexindent-doc"

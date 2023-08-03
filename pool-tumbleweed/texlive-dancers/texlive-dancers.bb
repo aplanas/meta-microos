@@ -14,10 +14,10 @@ attention (if you are interested, please contact the CTAN team \
 for details)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.svn13293"
+PV = "2023.209.svn13293"
 
-RPM_NAME = "texlive-dancers-2023.204.svn13293-54.1.noarch.rpm"
-RPM_HASH = "891b9d32fb53cf28c3dfe5955308a4cebd31decf3e918d3074088e66ae92742fe0493781b6805162ba31e099eba0c14fc31f41b263f78862500707ccf042e71a"
+RPM_NAME = "texlive-dancers-2023.209.svn13293-55.1.noarch.rpm"
+RPM_HASH = "6b6d412fd4d1989dae796a340b1bbb3223813c6c10cbae1e568deadfe5f80b6fe447bf8d352f507e1f75f5c16a58c0b94b1074b75b226d8f2844d89d00557781"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dancers.tfm \

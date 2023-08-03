@@ -6,10 +6,10 @@ styles, apart from the Swedish translations. The styles do not \
 implement Swedish collation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-swebib-2023.201.svn15878-57.1.noarch.rpm"
-RPM_HASH = "9a01b0a81491177d35fc0ffab64a44f73ff5ba143b1a6784cbbce0b345c8cb3ae47b86fffb4feea2d8a987a97f0eda1bcbafe5539706908ca0bcedb4e8ecad2c"
+RPM_NAME = "texlive-swebib-2023.209.svn15878-58.1.noarch.rpm"
+RPM_HASH = "d54eb16b3113bc6da4441b414bfe10e02e2631d1e7ada1836a071dc139a1c9bc7a3a1549d570b6e944d6fa1686a5ccf63aaa30697c3ebd543f58adbafebcc126"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-swebib"

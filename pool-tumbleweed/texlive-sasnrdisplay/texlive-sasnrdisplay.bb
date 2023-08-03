@@ -6,10 +6,10 @@ projects. The package is also capable of overloading the Sweave \
 User Manual and SASweave packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.95svn63255"
+PV = "2023.209.0.0.95svn63255"
 
-RPM_NAME = "texlive-sasnrdisplay-2023.201.0.0.95svn63255-53.1.noarch.rpm"
-RPM_HASH = "574b7d1fd6a9c8ed0b6289fc26d4f814dd8131c4d4bb4b838709da9f119f24eaa4797a38b7501b5527429055eba32d31fc2d62fb411ce209501567bfb5010c45"
+RPM_NAME = "texlive-sasnrdisplay-2023.209.0.0.95svn63255-54.1.noarch.rpm"
+RPM_HASH = "bc9e544c30c38b59e5b04499435fd8c0a85038f6fb239230189f0a174fa3f709f0b687afde4537d236631c23b75d6bbbe7b93840f1b2ab0c0cc21bb5d908d48d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-SASnRdisplay.cfg \

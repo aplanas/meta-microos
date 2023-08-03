@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-diagbox"
 DESCRIPTION = "This package includes the documentation for texlive-diagbox"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.4svn54080"
+PV = "2023.209.2.4svn54080"
 
-RPM_NAME = "texlive-diagbox-doc-2023.201.2.4svn54080-52.1.noarch.rpm"
-RPM_HASH = "f13ad90f2337f712e1769cca8961ab43b68e3f33cc2012f60e066b2de47cf736bfbb1c57b0e14cf43419e826186f5ff3260304d64bede9829718b0922468a973"
+RPM_NAME = "texlive-diagbox-doc-2023.209.2.4svn54080-53.1.noarch.rpm"
+RPM_HASH = "2ea35bcbda313afbd5f8e70809369f80e485fdc9b7fa82faf173bd1b03f1e89db74392f223d6c9ba73da7d82bfb0aa3a6a86dde4b4e9eb6c65bd45b013dd3c16"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-diagbox-doc"

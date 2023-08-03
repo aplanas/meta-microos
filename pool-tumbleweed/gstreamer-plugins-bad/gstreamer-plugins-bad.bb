@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "gstreamer-plugins-bad-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "7bc06a7baa887d92f25917d0a6f19947ccc7d2699f95f65da6442f6f65cd106c5782862d92321d59bfdb694d4b1489404d3f856de1b8e0c6f225c0ca1b8f4023"
+RPM_NAME = "gstreamer-plugins-bad-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "1cf2062f69504131657e4707f776bed6ba04874d0439c32f18f2d8da33fd83b57f9fe19cec3052a9b5c007c8e7ab19c041063f606a46f1a648f9973ead7f2dfe"
 
 RPROVIDES:${PN} += "gst-plugins-bad \
 gstreamer-plugins-bad \

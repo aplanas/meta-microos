@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-semioneside"
 DESCRIPTION = "This package includes the documentation for texlive-semioneside"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.41svn15878"
+PV = "2023.209.0.0.41svn15878"
 
-RPM_NAME = "texlive-semioneside-doc-2023.201.0.0.41svn15878-53.1.noarch.rpm"
-RPM_HASH = "f31c63e3665d484764343c529fd12c6c417e7323bbb00598692f7a435c8e1063f9a3347c6b31724b22c1f76027598560b789086e690843cd1d32a205237360a3"
+RPM_NAME = "texlive-semioneside-doc-2023.209.0.0.41svn15878-54.1.noarch.rpm"
+RPM_HASH = "f0f0e514f1995bcc3ead6a767a15164998062cba05765451620038c8d21766366457c58e3b44d02bc60c1a120e2e4fbec89d4f2f2dbaf9a34353450598da9312"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-semioneside-doc"

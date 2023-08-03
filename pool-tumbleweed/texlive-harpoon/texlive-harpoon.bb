@@ -5,10 +5,10 @@ down. The covered object is provided as an argument to the \
 commands, so that they have the look of accent commands."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.0svn21327"
+PV = "2023.209.1.0svn21327"
 
-RPM_NAME = "texlive-harpoon-2023.201.1.0svn21327-53.2.noarch.rpm"
-RPM_HASH = "4543a8c5cfd3715a815ed67bcfc2b57c70ef1bd9b363e14ca6d485fd878c6179b3280239a0a2c234175d4b1d10a6d8544c3b6948d8945f103a00cb95b8249a09"
+RPM_NAME = "texlive-harpoon-2023.209.1.0svn21327-54.1.noarch.rpm"
+RPM_HASH = "91aad4cd97d6f68af607489e2ca5ffdac82b4ff6db9fb1659e99f62d42d28afa817d9271672ef362dc021cc5383a8e69386f673332a1ab494d9ed2cabba05b0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-harpoon.sty \

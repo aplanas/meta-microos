@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-dictsym"
 DESCRIPTION = "The  separated fonts package for texlive-dictsym"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn20031"
+PV = "2023.209.svn20031"
 
-RPM_NAME = "texlive-dictsym-fonts-2023.201.svn20031-52.1.noarch.rpm"
-RPM_HASH = "9142daa63b705ba83d41bf135f29664773591e7cfdd358062680f4f6a73b00e70bb2cd171ed6922f0fa1e0f2c1e6ffcd1fdbffd8d234c0ba5d0641522100fc88"
+RPM_NAME = "texlive-dictsym-fonts-2023.209.svn20031-53.1.noarch.rpm"
+RPM_HASH = "084332476d03020bb7b8c7e50aa6b9f00aafe709beab8fb106795f54db500a492ff8a7c16a03009f538d21c2b5c41d8448c927b79ca6c7c9860524c981cb8e2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.3"
 
-RPM_NAME = "qemu-hw-usb-redirect-8.0.3-1.1.aarch64.rpm"
-RPM_HASH = "6c6dd14e1c1cd9944878f57c5d2aae3bc782c623455ad8f93791ffeb64ce91635cb2905d2096e3ea32b99d8fd8c15e8827a700003c5ed8186f2aa447c8c3ac04"
+RPM_NAME = "qemu-hw-usb-redirect-8.0.3-2.1.aarch64.rpm"
+RPM_HASH = "4fa94f3c4b0cbd0d15dfa63f0e531b49b98390f3bdd5617b112833f8880dcf14d99c0ac50d0fb402ff08855fadd937573f0675988c770dcd0e56aa2da1f4d07c"
 
 RPROVIDES:${PN} += "qemu-hw-usb-redirect"
 

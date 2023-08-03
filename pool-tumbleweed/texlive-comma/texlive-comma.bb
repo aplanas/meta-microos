@@ -3,10 +3,10 @@ DESCRIPTION = "A flexible package that allows commas (or anything else) to be \
 inserted every three digits in a number, as in 1,234."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn18259"
+PV = "2023.209.1.2svn18259"
 
-RPM_NAME = "texlive-comma-2023.201.1.2svn18259-53.1.noarch.rpm"
-RPM_HASH = "dd29b8ad4e1507bcb064d3d4879c35eb6ea0e7241b478383d00f779d466ade5c8afb7e9b54a25bbef777f49b0c14415c942649516d5007ce7f991a097e8fff3f"
+RPM_NAME = "texlive-comma-2023.209.1.2svn18259-54.1.noarch.rpm"
+RPM_HASH = "e839432d7c3a9eaa51b277b4836cb9cab007a1b07f7d3863c2d1e9dfb0666b5b3cde223dd5cab3e3acf248b4a30e04ab4d380cb7862f7775a4ee9a451d7d4765"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-comma.sty \

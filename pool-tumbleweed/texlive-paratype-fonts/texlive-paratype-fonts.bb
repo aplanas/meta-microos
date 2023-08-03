@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-paratype"
 DESCRIPTION = "The  separated fonts package for texlive-paratype"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn32859"
+PV = "2023.209.svn32859"
 
-RPM_NAME = "texlive-paratype-fonts-2023.201.svn32859-51.1.noarch.rpm"
-RPM_HASH = "5ce001d2a3a6211f91b9ab837a72a3cc5a3c338fb535145ac5d35353e8b312bc67d86722c0218fafe68193803de21c19794a394d80aaa692faf4d459489811c7"
+RPM_NAME = "texlive-paratype-fonts-2023.209.svn32859-52.1.noarch.rpm"
+RPM_HASH = "c4066d7412422da96384ad1b4dfd80450276790048d32af63dc8340c3450b4d694a599ba1da84c3eacd55822790f1e0b14c84257abcf6743ae151195db5f6771"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-paratype-fonts \

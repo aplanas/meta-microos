@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.1.0"
 
-RPM_NAME = "wannier90-openmpi5-3.1.0-2.4.aarch64.rpm"
-RPM_HASH = "d20fb3078fab22125e86997efc103eca8caef1d01ed80b3c31380e316cd61874174a2050a5e8ebef7d5927acd8b91eedc19e4e2349dc0ccc197d05d0889dd9d2"
+RPM_NAME = "wannier90-openmpi5-3.1.0-2.5.aarch64.rpm"
+RPM_HASH = "b0796e71ff203ba15e7555b46b65e08c78f51c9efa7390e19918f8eb3b1a17de6c79b5cc0cd89e60ced3b8e7883dfd5d022279f4a103d7cad1c225fe4b0423e9"
 
 RPROVIDES:${PN} += "wannier90-openmpi5"
 
@@ -17,6 +17,6 @@ libc.so.6 \
 libgfortran.so.5 \
 liblapack.so.3 \
 libm.so.6 \
-libmpi-mpifh.so.80"
+libmpi-mpifh.so.40"
 
 inherit rpm

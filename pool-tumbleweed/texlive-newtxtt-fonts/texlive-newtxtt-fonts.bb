@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-newtxtt"
 DESCRIPTION = "The  separated fonts package for texlive-newtxtt"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.056svn54512"
+PV = "2023.209.1.056svn54512"
 
-RPM_NAME = "texlive-newtxtt-fonts-2023.201.1.056svn54512-54.1.noarch.rpm"
-RPM_HASH = "56ca732d0e9c742a960b61ad0f8d6682419316ef09679c149f3292b473038fd4855d62217499ecb50eedf509fb05fb9cd73418da9eba88e02eef54201470e3a5"
+RPM_NAME = "texlive-newtxtt-fonts-2023.209.1.056svn54512-55.1.noarch.rpm"
+RPM_HASH = "99c99613aa4181260076562ba47c58bdb02170d25a6b8096915cc70edf483616431a967bc8a712b2130e59afc5efb4a539f7b482bc376b9a0bb6dddba10227db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

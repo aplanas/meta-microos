@@ -6,10 +6,10 @@ documents that are principally written in Japanese, or \
 principally written in English or other Western languages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4svn63967"
+PV = "2023.209.1.4svn63967"
 
-RPM_NAME = "texlive-pxcjkcat-2023.201.1.4svn63967-53.2.noarch.rpm"
-RPM_HASH = "2281663a8fa9eb463b7160a36cad25b00d0335952c7bcb8bd7b0b67db45255d12585ff392bfe14100dfda38901b08709db4ed9420c4869b5400026719c2c3a32"
+RPM_NAME = "texlive-pxcjkcat-2023.209.1.4svn63967-54.1.noarch.rpm"
+RPM_HASH = "31d0fbeca42baf8a92e61d6cc3c88ab003ede3dc7dee97e3c727cecb2a361ede99a7faebb256b778db226b06f4b5685b74bd61cfc5e50e9a7762e6b40b57f53f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pxcjkcat.sty \

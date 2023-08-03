@@ -6,10 +6,10 @@ package writers. It defines macros for setting and maintaining \
 new colour stacks."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.7svn64469"
+PV = "2023.209.1.7svn64469"
 
-RPM_NAME = "texlive-pdfcol-2023.201.1.7svn64469-51.1.noarch.rpm"
-RPM_HASH = "44af44dde498cdaa171f7998dff861cfd0d9d4052e6851368789d34b4fa7e0d00a47970bac1041f9c7db83ddc53732c4a94cf1aedb8db90a3213d587fb1993ba"
+RPM_NAME = "texlive-pdfcol-2023.209.1.7svn64469-52.1.noarch.rpm"
+RPM_HASH = "8f8c85de0dcf61a407f39cfe69302cb32df44759847afa59c8f2cc2afe01bf18c8d1201699db1bc14fbaddddeb32c9831fbbae1b71058e0574e0dd57254c13de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdfcol.sty \

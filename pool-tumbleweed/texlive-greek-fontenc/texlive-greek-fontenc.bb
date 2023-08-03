@@ -4,10 +4,10 @@ definition files for Greek text font encodings for use with \
 fontenc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.2.1svn66513"
+PV = "2023.209.2.2.1svn66513"
 
-RPM_NAME = "texlive-greek-fontenc-2023.201.2.2.1svn66513-53.2.noarch.rpm"
-RPM_HASH = "0131b166c668f3ba35327e09b0d2002ffe44696200269f3566db933463ac4979e84d3325dcd675bb504d4c9f1894ab49debabbfb5f3dd6f5255ef305200f31bf"
+RPM_NAME = "texlive-greek-fontenc-2023.209.2.2.1svn66513-54.1.noarch.rpm"
+RPM_HASH = "01260d3e50f5bd2e58ea5ce4a8e1c9b9237b7a23a8d9a7d26ed2d5a0d930f4b6027f4ee3d76ddb491f6ccbd35ca31d53c6c2c523b92b575e7c075b77db45819b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-alphabeta-lgr.def \

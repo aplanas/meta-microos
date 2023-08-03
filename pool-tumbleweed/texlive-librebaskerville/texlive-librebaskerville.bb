@@ -6,10 +6,10 @@ but is also attractive as a text font. A BoldItalic variant has \
 been artificially generated."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64421"
+PV = "2023.209.svn64421"
 
-RPM_NAME = "texlive-librebaskerville-2023.201.svn64421-54.1.noarch.rpm"
-RPM_HASH = "e7b1df1dde6c8f3fa3b046ab146b162f997a68b566b6a3a10e385cd8eaa169e40d3afc6a6b6d5f4a95a24d39a718f0d1827929cee9dd6377191141439cb36e4e"
+RPM_NAME = "texlive-librebaskerville-2023.209.svn64421-55.1.noarch.rpm"
+RPM_HASH = "391e3941f4124e9566f1cb0b7b0bfa15b854a324c2e35ff0c4f319c235d7b0eb68eb4d296fd16d648486a109eb741fb141f24aba3bc62fbe64e522a287df80e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1LibreBskvl-LF.fd \

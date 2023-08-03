@@ -32,10 +32,10 @@ ifthen url Biber, babel / polyglossia, and csquotes 4.4 or \
 later are strongly recommended."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.19svn66403"
+PV = "2023.209.3.19svn66403"
 
-RPM_NAME = "texlive-biblatex-2023.201.3.19svn66403-53.1.noarch.rpm"
-RPM_HASH = "9fb520b99fc154f541f180a31cb3e46ab3f0dc2afd99c0fac646ffd228ef19700b2017b0795e11e6d6c31a3156b705047df6be9eb96212268456c2037457da16"
+RPM_NAME = "texlive-biblatex-2023.209.3.19svn66403-54.1.noarch.rpm"
+RPM_HASH = "57d1005f752ade6be4a213e9f24ef9b595d5213aad813ecb279f22fd0dca32a7f72331af94ace9aead02a08008e42551987d5f8d2fadbc95b39b85d2ba7d298a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-UKenglish.lbx \

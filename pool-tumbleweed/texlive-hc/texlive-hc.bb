@@ -4,10 +4,10 @@ the Koma-Script bundle and the seminar class. Includes hcart, \
 hcreport, hcletter, and hcslides."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-hc-2023.201.svn15878-53.2.noarch.rpm"
-RPM_HASH = "0a839ac481c87c194436eade235139982abc9d5d279f9c6eb4a01ce7acac58215b842baca19ef0f3ff3754ce72f57108c42bcde1eabd0c2751bc125bbfd65275"
+RPM_NAME = "texlive-hc-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "73a03ab6ab85f77560a0177005809b4711381476cc96c802a42d607af17f1931c30c05e124380452d368a32256016cb63753fec1b9f4ccf10231e891cf60d4ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hcart.cls \

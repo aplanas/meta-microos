@@ -2,10 +2,10 @@ SUMMARY = "Network information for QNetworkInformation"
 DESCRIPTION = "Plugin used to get network information such as the reachability, media type..."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-networkinformation-nm-6.5.1-4.1.aarch64.rpm"
-RPM_HASH = "2ec860f8e1af1835b8eefc1aa8e3b8381d65bcdf6c260c7c1ea7911f15f8bed4289258480422696774a5ea71948bd5ca6a1f1502757a3f9775816a983fc51f87"
+RPM_NAME = "qt6-networkinformation-nm-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "accd6f1d23366fa1d69d18a007102e8ea3802b41e8be6e63f1c09459e9f410adefeaeb1d8dccf6ab65bfabbee1b966e651ab00935f7c7038ab374f857d2593d0"
 
 RPROVIDES:${PN} += "libqnetworkmanager.so \
 qt6-network-informationbackends \

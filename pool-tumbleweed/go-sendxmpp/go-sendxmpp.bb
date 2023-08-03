@@ -2,10 +2,10 @@ SUMMARY = "A little tool to send messages to an XMPP contact or MUC"
 DESCRIPTION = "A little tool to send messages to an XMPP contact or MUC."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.6.0"
+PV = "0.6.1"
 
-RPM_NAME = "go-sendxmpp-0.6.0-1.1.aarch64.rpm"
-RPM_HASH = "58608fd83625fb2ff253a67cff9128c96c61cd7fc09c7b48dd3d06595f4554e27aaa2f73e6e4e5f0db9e809d5a55385b0d0c090011df95af37f9b5b03e7d785d"
+RPM_NAME = "go-sendxmpp-0.6.1-1.1.aarch64.rpm"
+RPM_HASH = "77f05d0ba85c781114a9899ccda1716b5c3c739178831103580be2363d4cb1633901405f3c9555d619b28b73b9a8dea45604105e73b37050f3ae194f837177e9"
 
 RPROVIDES:${PN} += "go-sendxmpp"
 

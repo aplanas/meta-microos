@@ -15,10 +15,10 @@ are provided. For use with the crop package \
 are provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2bsvn65843"
+PV = "2023.209.1.2bsvn65843"
 
-RPM_NAME = "texlive-pagecolor-2023.201.1.2bsvn65843-51.1.noarch.rpm"
-RPM_HASH = "650b25908064c6addca177fb5faceeb616ce3d19468260f9d19d669c0eb53ed6361427d16100fb6eebc8f4e82b9003dc292295199e3eac3babe3c84b7e4281ac"
+RPM_NAME = "texlive-pagecolor-2023.209.1.2bsvn65843-52.1.noarch.rpm"
+RPM_HASH = "9873979da896172d3bb5d6dcfd399eefda2776298d4da0b8db377ee4f9006e08a96102fda83f37cba2b0cc8d751189ad5dd278bccc17d375427d32dc83d5782b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pagecolor.sty \

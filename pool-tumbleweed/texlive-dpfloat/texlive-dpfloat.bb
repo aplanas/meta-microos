@@ -6,10 +6,10 @@ float will only be typeset on an even-numbered page, and the \
 two floats will appear side-by-side in a two-sided document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn17196"
+PV = "2023.209.svn17196"
 
-RPM_NAME = "texlive-dpfloat-2023.201.svn17196-52.1.noarch.rpm"
-RPM_HASH = "98631b776c56870acee0aa8b92706f690b5db048bffa6557f30b976ba08f8f219021f3bc0012a5194b7ad7d20bc7faa717376650f1aec594e562fd66c1a60ff7"
+RPM_NAME = "texlive-dpfloat-2023.209.svn17196-53.1.noarch.rpm"
+RPM_HASH = "e43fef27bfc0923ad6dfab56f1f70037c722123f775094651b225485faefede98486e658d2aeeca8f758ce7e1b5a678b2512578d1f87de95d7f2a0ab64a9eaa5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dpfloat.sty \

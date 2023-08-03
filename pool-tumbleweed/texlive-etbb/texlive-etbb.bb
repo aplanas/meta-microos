@@ -8,10 +8,10 @@ Sharp S with small caps version, along with macros to activate \
 these features in LaTeX. Both otf and pfb are provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.056svn61872"
+PV = "2023.209.1.056svn61872"
 
-RPM_NAME = "texlive-etbb-2023.201.1.056svn61872-52.1.noarch.rpm"
-RPM_HASH = "f0dc028dcceafe22857b8acf9a51a9bf9cc038612fcf11b48949384cbc801bfd6d411885add8d2581f7a6816ca3f888ca08a6296aaf9f071f5431e6c4d0bb6c2"
+RPM_NAME = "texlive-etbb-2023.209.1.056svn61872-53.1.noarch.rpm"
+RPM_HASH = "0c5c99cd2bc8eba695b33673620b19e4271938616acaa5bda0b73a71982991ef995a85d2b287101aa1e57907e687cdcc51ffb3517c9f5ef0d8edb3df7c8229b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ETbb-Bold-dnom-ly1--base.tfm \

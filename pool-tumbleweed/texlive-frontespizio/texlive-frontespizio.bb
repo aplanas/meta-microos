@@ -9,10 +9,10 @@ in Italian, as the style is probably apt only to theses in \
 Italy."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4asvn24054"
+PV = "2023.209.1.4asvn24054"
 
-RPM_NAME = "texlive-frontespizio-2023.201.1.4asvn24054-52.1.noarch.rpm"
-RPM_HASH = "38cdb20daec98eed7a8621a96a61431d4eeb424547b6f25d8f104ec0694095d8e95131a662d3341081232dd1a43f130dfda663f0d5852fea22151a0a3910fc9a"
+RPM_NAME = "texlive-frontespizio-2023.209.1.4asvn24054-53.1.noarch.rpm"
+RPM_HASH = "fb3dfc86796eaf8b52abb29f48975e2a8868c549d9f91c699c56cc7ae3ab3fa8fd5ada82e11172a72b044ee2edde7a7f22b488a8975f10a51ac61c01a7ee5265"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-frontespizio.sty \

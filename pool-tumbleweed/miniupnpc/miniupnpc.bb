@@ -3,10 +3,10 @@ DESCRIPTION = "The MiniUPnP project offers software which supports the UPnP Inte
 Device (IGD) specifications."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.2.4"
+PV = "2.2.5"
 
-RPM_NAME = "miniupnpc-2.2.4-1.6.aarch64.rpm"
-RPM_HASH = "3b2f65972cc2c091688d99c064eb896ba1fcbf48b00bdf7b12cf097d9ac9b5ef6ee6f1accd4af16ed1fdee989a0521fedef2751104fd3dcd33d282df3397f2b4"
+RPM_NAME = "miniupnpc-2.2.5-1.1.aarch64.rpm"
+RPM_HASH = "aa750b93b2541b669ea711366c8637eca5fbe496430211a1a7be04c02c03693d1d8dee1149c1890b45092ce2031f981e64983c00f7111350c482eb1b08caa09c"
 
 RPROVIDES:${PN} += "miniupnpc"
 

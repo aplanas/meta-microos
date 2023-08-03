@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-chivo"
 DESCRIPTION = "The  separated fonts package for texlive-chivo"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.2.2svn65029"
+PV = "2023.209.2.2svn65029"
 
-RPM_NAME = "texlive-chivo-fonts-2023.201.2.2svn65029-53.1.noarch.rpm"
-RPM_HASH = "82901d457c7e3f788a51242e0aa25e43c3b8ab11dc529bb0aaefc302704b8c0008aef18400f93e1e94be75bff0c068d79d5b30e062ec445917307abe2ae16d8b"
+RPM_NAME = "texlive-chivo-fonts-2023.209.2.2svn65029-54.1.noarch.rpm"
+RPM_HASH = "7a6d82c032fecff56511a06e179161108c521e23bce361db5636df13e731b5b597ad32021b257f9a26a3a6ddc41fbfd5ba76c21793c04f16745c5f0e95ffa595"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-chivo-fonts \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gradstudentresume"
 DESCRIPTION = "This package includes the documentation for texlive-gradstudentresume"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn38832"
+PV = "2023.209.svn38832"
 
-RPM_NAME = "texlive-gradstudentresume-doc-2023.201.svn38832-53.2.noarch.rpm"
-RPM_HASH = "bbf453811f9a849add4e6c8ef51c15a3d5c6ffeb99d71409e09fdeeab1652a9d4068978a17d464c1b7fc957c7b552a415eb6764f683ee0d09d637b21811d1ab0"
+RPM_NAME = "texlive-gradstudentresume-doc-2023.209.svn38832-54.1.noarch.rpm"
+RPM_HASH = "d364208e7d8240b8139a44e6c64de9a619b850be1967ab073dbb0c5454b70aac5aa75895bcc07047776abae7b8318917492b65f4709b9caaca62d04cf4bdccbd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gradstudentresume-doc"

@@ -17,10 +17,10 @@ figures placed vertically next to one larger figure. Subfloats \
 are supported by two environments."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.08svn65446"
+PV = "2023.209.2.08svn65446"
 
-RPM_NAME = "texlive-keyfloat-2023.201.2.08svn65446-55.1.noarch.rpm"
-RPM_HASH = "0cd5222be1feadf692c836415d47968b8e60a81514343f633d63dc36992c15c34e86785e0310f89231cd830c80fedc06da36df34fe8b7b54e815b630bea64b54"
+RPM_NAME = "texlive-keyfloat-2023.209.2.08svn65446-56.1.noarch.rpm"
+RPM_HASH = "f010e9c0102b20d5fa2c634c88506590715baeae4b3d5e12d023c64ae29f17dafbc9d2f487881d72fea0410e4ab744af6126ac141421db8dd1a16a0d4cdb37ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-keyfloat.sty \

@@ -6,10 +6,10 @@ lower when there is a superscript as well, but this can look \
 odd in some situations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn15878"
+PV = "2023.209.0.0.1svn15878"
 
-RPM_NAME = "texlive-subdepth-2023.201.0.0.1svn15878-57.1.noarch.rpm"
-RPM_HASH = "61fbf64adef6967af0762e086f9f612437b505e2b9629db20cfb7c3fc55eab55c91bbface7b3bec832d7cca78883c2e10ee3d55a7bdef31b93a19cce52591ccb"
+RPM_NAME = "texlive-subdepth-2023.209.0.0.1svn15878-58.1.noarch.rpm"
+RPM_HASH = "67cfbe172df04e0002e5a2fa72f722358a4a0cb362d21e5d20f152b9d677e87f99648e028dda743bf79e9cea57a4535b15cb77e20e1a3f1f85547aa3d28ab6f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-subdepth.sty \

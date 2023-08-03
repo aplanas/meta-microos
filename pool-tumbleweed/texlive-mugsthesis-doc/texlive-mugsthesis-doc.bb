@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mugsthesis"
 DESCRIPTION = "This package includes the documentation for texlive-mugsthesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn64259"
+PV = "2023.209.1.1svn64259"
 
-RPM_NAME = "texlive-mugsthesis-doc-2023.201.1.1svn64259-54.1.noarch.rpm"
-RPM_HASH = "d963fef5b6b63fc6c2e3bb99442fa6aedbce1e2d5cb6354740263caeb9c4d1f1b1ee316efa8a9025f51bb0aa2629542685610b0d25729bdb8867932a06b0bd21"
+RPM_NAME = "texlive-mugsthesis-doc-2023.209.1.1svn64259-55.1.noarch.rpm"
+RPM_HASH = "8541f26b86c06c6937d1f9504eeed8221ca37b574d145352a51382da19d0a6659c8eb981ecfca4427262744b592189f7c255b1776ec8710574dedea5dc6fdd90"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mugsthesis-doc"

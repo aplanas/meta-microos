@@ -10,10 +10,10 @@ generalizes beyond hints; one can create scrambled solutions as \
 well, etc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.0svn60615"
+PV = "2023.209.1.1.0svn60615"
 
-RPM_NAME = "texlive-scrambledenvs-2023.201.1.1.0svn60615-53.1.noarch.rpm"
-RPM_HASH = "b7261b476864e5b364d9a9a54638e8c20bdbfc908a8ecf0606583da1ed3f48d9d45a35c2d5b09e232d4a8c5bbe24344b3e26b9a63a09e977727cac6a8a805669"
+RPM_NAME = "texlive-scrambledenvs-2023.209.1.1.0svn60615-54.1.noarch.rpm"
+RPM_HASH = "e92c28a5912ca574a9c4c7402d29d0a197aa2022edb9f9cb7b887ac073eeadce217ddb5fa461d537a6c6016540a766113c1e9a6ec320b097300dad24223d159d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-scrambledenvs.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-aligned-overset"
 DESCRIPTION = "This package includes the documentation for texlive-aligned-overset"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1.0svn47290"
+PV = "2023.209.0.0.1.0svn47290"
 
-RPM_NAME = "texlive-aligned-overset-doc-2023.201.0.0.1.0svn47290-54.1.noarch.rpm"
-RPM_HASH = "d1835984130a7fbfaf1ea98fc63fcf3213472d8d73edb1dc57aa32e5c20d7a010f210d55b28c03e6404fc13b4d4bfa6d6793a2c966948764ffd5a5162e0bfbf3"
+RPM_NAME = "texlive-aligned-overset-doc-2023.209.0.0.1.0svn47290-55.1.noarch.rpm"
+RPM_HASH = "a31b81857c74b02c8bd46dee3d0dd3214f8030c0b82fb8b31b999db1fa33bcf1d9e3ec401a8af85f28caff358023509ce7228af448697a8370af35ef53552792"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-aligned-overset-doc"

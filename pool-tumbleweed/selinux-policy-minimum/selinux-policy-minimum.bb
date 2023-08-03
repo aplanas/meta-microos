@@ -2,10 +2,10 @@ SUMMARY = "SELinux minimum base policy"
 DESCRIPTION = "SELinux Reference policy minimum base module."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "20230622"
+PV = "20230728"
 
-RPM_NAME = "selinux-policy-minimum-20230622-1.1.noarch.rpm"
-RPM_HASH = "12a11f246771d2cc5653f6f821bea890e1df033005b6c0bd3c6b93297bf5890189dfd67c326b91966292a6f5d0f634b08ea60189dddd8351eec962f3755c2ba2"
+RPM_NAME = "selinux-policy-minimum-20230728-1.1.noarch.rpm"
+RPM_HASH = "ac5b094303ffafc8aa211b3d7e119e3a03f5bf5b95cc41660d95a99457949745d0cca7853b87073f76503d2c37a0668df81b69e68e623e973149befe1231a3cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-selinux-policy-minimum \

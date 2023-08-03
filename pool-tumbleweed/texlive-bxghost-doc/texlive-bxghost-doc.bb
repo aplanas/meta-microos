@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bxghost"
 DESCRIPTION = "This package includes the documentation for texlive-bxghost"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5.1svn66147"
+PV = "2023.209.0.0.5.1svn66147"
 
-RPM_NAME = "texlive-bxghost-doc-2023.201.0.0.5.1svn66147-52.1.noarch.rpm"
-RPM_HASH = "169473bc9b118a76da8544bb9cc33f25fb95fa50ea94304b13050869bcd1d6b3f6bf0656a454789ff9d3a0b4ffa672d5d2b5954df3d7ca3e38756384c68479a7"
+RPM_NAME = "texlive-bxghost-doc-2023.209.0.0.5.1svn66147-53.1.noarch.rpm"
+RPM_HASH = "bafb74a726f0a85413c36f7c9c4b3f38302298aec3ebbbb88e0919ba575e05faa174de61f45479d4f7e70a33edb611f54560bfdc7d44fe59b8ca818e8a5a558a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bxghost-doc"

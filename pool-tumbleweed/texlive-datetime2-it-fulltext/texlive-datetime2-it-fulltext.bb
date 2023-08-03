@@ -8,10 +8,10 @@ ifluatex. This package is the translation and adaptation of \
 datetime2-en-fulltext."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6svn54779"
+PV = "2023.209.1.6svn54779"
 
-RPM_NAME = "texlive-datetime2-it-fulltext-2023.201.1.6svn54779-52.1.noarch.rpm"
-RPM_HASH = "024f57acef9232b8dba222dc74a0a55e7a5289abba4ad668c8d5524bb01ed0d7999c71de1754e977d408baa51235b75db52beb655f7c498bc732f83c979ec3d9"
+RPM_NAME = "texlive-datetime2-it-fulltext-2023.209.1.6svn54779-53.1.noarch.rpm"
+RPM_HASH = "02c30a265fc999c5d2898c8f7e7a8b0727a832f124031b6aa392318ace1797c221a6be718fb8fa95e266d6ec05b74b90ce78152a80b278912b74e33bafcbf69e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-it-fulltext-ascii.ldf \

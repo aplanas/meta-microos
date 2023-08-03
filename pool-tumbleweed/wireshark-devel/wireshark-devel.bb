@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "4.0.7"
 
-RPM_NAME = "wireshark-devel-4.0.7-1.1.aarch64.rpm"
-RPM_HASH = "f5e33d7721e84390fc1ba68ea57ebb52cee848f3e92b863261d28e9c14d42c204713a106c0653241d0880a3cedf457ded111eaaaf30bc61cca09161cebd3b359"
+RPM_NAME = "wireshark-devel-4.0.7-2.1.aarch64.rpm"
+RPM_HASH = "05a44c0b32605cbe7600cd9d7de7b74bd61780bd3f5ab3c9fdf06141f1e27c65026dea48187a88403084f5330f85e5544a7f7b9fdafecec413ef4ed2fcc4e48f"
 
 RPROVIDES:${PN} += "ethereal-devel \
 pkgconfig-wireshark \

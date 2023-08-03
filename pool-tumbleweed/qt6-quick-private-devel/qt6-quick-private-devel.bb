@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6Quick that do not 
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-quick-private-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "83e62a63a17cb7b1e19de43df0543da7bf14919bc2be679426ad1f8c8c8397f6df96d200ad443560936b8381de9c58ef3263cfd2350aa82fe4353566b6a045fe"
+RPM_NAME = "qt6-quick-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "0dcd669a7f656a4cd4ce970a02fd3ec9041c1d4cd93a22581fa45443929558d5125c214478fc5a35659132a802af3f94188b53c7db25724d3731741930abdcb0"
 
 RPROVIDES:${PN} += "qt6-quick-private-devel"
 

@@ -5,10 +5,10 @@ LaTeX documents that contain multiple TeX files. The package is \
 based on the author's svn-multi package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1asvn64967"
+PV = "2023.209.0.0.1asvn64967"
 
-RPM_NAME = "texlive-rcs-multi-2023.201.0.0.1asvn64967-53.2.noarch.rpm"
-RPM_HASH = "621b78435b6c1d3e87936cf28afdecbc7c560fa90346de20f57708b61c0426ef915f4add8357b5b27eebcaa8df0efc1fb7246a2aaf17eabfc094b8ca6993048e"
+RPM_NAME = "texlive-rcs-multi-2023.209.0.0.1asvn64967-54.1.noarch.rpm"
+RPM_HASH = "9ca692397cac29caa2a84eccd0230753ad6837dc961f637b3606f0e591afcc7157f39a86bc6a28b2ec09a3fa1a996954d6e0cc9317a5b4e7f036ae4ae1952ff1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rcs-multi.sty \

@@ -5,10 +5,10 @@ note's content on a separate beamer frame shown by the command \
 back and forth between the two frames."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2.0svn55732"
+PV = "2023.209.1.2.0svn55732"
 
-RPM_NAME = "texlive-beamerappendixnote-2023.201.1.2.0svn55732-53.1.noarch.rpm"
-RPM_HASH = "2af913140eed8096453d863cf19d0e7e1db8a752979cf5f49b4d2c823323354c6120f0b7f61219b19c39df78339a8355e0352a5ef081127b86e750e4500c8a17"
+RPM_NAME = "texlive-beamerappendixnote-2023.209.1.2.0svn55732-54.1.noarch.rpm"
+RPM_HASH = "b7566d7a384059e0c1be4e647c8f08631f34c983cea95b17c917ee3f7a6e9c8b4a77bfe03c69cf3f5f6f915463ae06153c148885443251250b915b2aa67f71eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamerappendixnote.sty \

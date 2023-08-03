@@ -15,10 +15,10 @@ containing definitions (\\newglossaryentry etc.) to the .bib \
 format required by bib2gls."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.3.2svn65104"
+PV = "2023.209.3.2svn65104"
 
-RPM_NAME = "texlive-bib2gls-2023.201.3.2svn65104-53.1.noarch.rpm"
-RPM_HASH = "85c708f1d16c2315c9d80ee4c67ce6e8bdff4ec8d4898893fe195d8a5a11ae8a2a39ab9388b228725f4f1d4a92b86a344cedcf2c3438ab6744f0a82b274c229a"
+RPM_NAME = "texlive-bib2gls-2023.209.3.2svn65104-54.1.noarch.rpm"
+RPM_HASH = "61b2137405f73646a8e8d1c90a5f50ea40dbc58014141d9585bb6e52a479fe5251ed7d3ea1a94d187f3bff9d20bc89bc8b8a34986fae3e9a66de02b0975a8e97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bib2gls.jar \

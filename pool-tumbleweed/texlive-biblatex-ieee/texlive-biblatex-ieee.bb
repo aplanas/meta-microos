@@ -9,10 +9,10 @@ biblatex-ieee requires BibLaTeX 2.7 or later, and works with \
 both BibTeX and Biber as the database back-end."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3fsvn61243"
+PV = "2023.209.1.3fsvn61243"
 
-RPM_NAME = "texlive-biblatex-ieee-2023.201.1.3fsvn61243-53.1.noarch.rpm"
-RPM_HASH = "0c00f7ffeba52403ae29ddd41e3fe2fa4a434cfcad7787875c3508fd6a16daadb6c2d1a73d4853a81470f9797b72d9f0572b013f19ea0bdd406c0cf1df1492a9"
+RPM_NAME = "texlive-biblatex-ieee-2023.209.1.3fsvn61243-54.1.noarch.rpm"
+RPM_HASH = "86785ec493758868811f82b39a51986b1d51b929c612c583b7634b8b9d1c60657f49d3be6902aed3ac28ea263bf64cf7e266faccc456b8250406db4e018afecc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ieee-alphabetic.bbx \

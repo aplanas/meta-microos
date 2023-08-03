@@ -2,10 +2,10 @@ SUMMARY = "Pytest plugin for Django pluggable application testing"
 DESCRIPTION = "A pytest plugin to help with Django pluggable application testing."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.15.2"
+PV = "1.2.0"
 
-RPM_NAME = "python310-pytest-djangoapp-0.15.2-2.9.noarch.rpm"
-RPM_HASH = "b471f2b52b4d76a44485ba41c022174d868772b4ef6b8b0e61bb407fa1c55fe7eb3690cac9484dc68c90cf34798d62b8fbb409bfb21c4fde7fdba740e204b957"
+RPM_NAME = "python310-pytest-djangoapp-1.2.0-1.1.noarch.rpm"
+RPM_HASH = "91476eb11c46f3e83f49f929a3307bc79466521cd64a61862ef7c3b95f5ce436975e5c506f658bd9ffb9bbef07a532dc830abaacde6f9643e4d9df51a652828f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-pytest-djangoapp \

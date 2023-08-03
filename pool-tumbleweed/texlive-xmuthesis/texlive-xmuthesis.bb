@@ -2,10 +2,10 @@ SUMMARY = "XMU thesis style"
 DESCRIPTION = "This class is designed for XMU thesis's writing."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4.1svn56614"
+PV = "2023.209.0.0.4.1svn56614"
 
-RPM_NAME = "texlive-xmuthesis-2023.201.0.0.4.1svn56614-52.2.noarch.rpm"
-RPM_HASH = "2daefe3e15af60d547a0b594a18235d94c31bb119e24d80dc48d739b15ac839f69dca73ef53f64887401fbd6bab2929a8158adbfbc1657ba6e824dbd6de10de9"
+RPM_NAME = "texlive-xmuthesis-2023.209.0.0.4.1svn56614-53.1.noarch.rpm"
+RPM_HASH = "748594a3d993bdb5b284cec07803b33477aa69379dc291e6e79d14455e05bd6cc725e6b327c82980fd4d0c8ef9609387dbef8d36ba42a46f1f88a643a0c68181"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xmulogo.sty \

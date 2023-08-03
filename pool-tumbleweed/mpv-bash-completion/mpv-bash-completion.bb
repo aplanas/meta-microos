@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for mpv"
 DESCRIPTION = "Bash command line completion support for mpv."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.35.1+git.20230315.e1727553"
+PV = "0.36.0+git.20230723.60a26324"
 
-RPM_NAME = "mpv-bash-completion-0.35.1+git.20230315.e1727553-1.5.noarch.rpm"
-RPM_HASH = "33f226e2cbd697cd450e7d3d50623a2b14b816b5c617e4208d48a398ab5f8a9d000fc96f4d6cf7c99f018c4e9407c14bd8e93ec84756dee8ed2f34e446f83b6e"
+RPM_NAME = "mpv-bash-completion-0.36.0+git.20230723.60a26324-1.1.noarch.rpm"
+RPM_HASH = "ab8aee0df370b3c92711f51fd9fd53a3ef605cecb80201a4c33401801929a75f32108cf0571566651c500a76170f19829b75eb84d803b0ae0eecd1d45779b813"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mpv-bash-completion"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-metalogox"
 DESCRIPTION = "This package includes the documentation for texlive-metalogox"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.01svn65448"
+PV = "2023.209.1.01svn65448"
 
-RPM_NAME = "texlive-metalogox-doc-2023.201.1.01svn65448-54.1.noarch.rpm"
-RPM_HASH = "7bf66fb8fb2ca4bd8feae85d21deb0e6df01dc3e05c57cb146dc12a9d9243e19efb65ca176cd2cfda5af816a60e7c21804f576be2315476a1c2b0d3b2d8c6cfb"
+RPM_NAME = "texlive-metalogox-doc-2023.209.1.01svn65448-55.1.noarch.rpm"
+RPM_HASH = "50302efbcb7c0d7c887da67a0abaed1b75e8b0dfb5f54699452046e13936dcad7fd89bd7ba2c0d46f5003ef720157ff64b7f010b324d4a7aae74bcf88d98f8b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metalogox-doc"

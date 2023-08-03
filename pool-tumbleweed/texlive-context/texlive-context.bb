@@ -4,10 +4,10 @@ supports advanced interactive documents. See the ConTeXt garden \
 for a wealth of support information."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.svn66546"
+PV = "2023.209.svn66546"
 
-RPM_NAME = "texlive-context-2023.204.svn66546-54.1.noarch.rpm"
-RPM_HASH = "b061564b970cf73f8af9a4f3bbd7f702f48aab28fd1c58f951b4ef8189ee0f2c675380686bd29e74771383562263b91e8abc2b17ae9a4d45eb329abfb49de766"
+RPM_NAME = "texlive-context-2023.209.svn66546-55.1.noarch.rpm"
+RPM_HASH = "3f6432431af5b5c26c15eecab0ac5a67d5df89a02ed6d605cba4167419adcd14b42774d41454c012c9fa22ee720dac568b1c973ffeb43c710244e93e914b0614"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Tk--path-tre \

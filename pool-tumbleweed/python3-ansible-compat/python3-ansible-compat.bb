@@ -2,10 +2,10 @@ SUMMARY = "Compatibility shim for Ansible 2.9 and newer"
 DESCRIPTION = "Facilitate working with various versions of Ansible 2.9 and newer."
 LICENSE = "MIT"
 
-PV = "4.1.2"
+PV = "4.1.5"
 
-RPM_NAME = "python3-ansible-compat-4.1.2-1.2.noarch.rpm"
-RPM_HASH = "e21badb9a42eb84d31c5432b6d9e2067d92bb8738b118aedf8983108e31a888f4ee91b44142c2f983febf3dd8f8fe2537a52eac1d19a1ffb893c3109df4beeca"
+RPM_NAME = "python3-ansible-compat-4.1.5-1.1.noarch.rpm"
+RPM_HASH = "69b1ac1d6183be8546ad592c6c94bdcc53f8ba6a34c66c30fc2c80f9655bd03a059f8624a3133a81b931f412874532d65a10179bdca31fd151e6690d66e9c4e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ansible-compat \

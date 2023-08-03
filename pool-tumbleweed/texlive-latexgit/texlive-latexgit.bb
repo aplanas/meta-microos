@@ -5,10 +5,10 @@ to documentation authors and others to whom clear document \
 versioning is important."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn54811"
+PV = "2023.209.svn54811"
 
-RPM_NAME = "texlive-latexgit-2023.201.svn54811-54.1.noarch.rpm"
-RPM_HASH = "50ed6b369b4f845ff590e4a637df55aefa4d991b303084cdc2ab14fda00d2619ed531004ab76eeb07992a39d7c1b069e2200830cdbd71e7bf30c6632e0cca292"
+RPM_NAME = "texlive-latexgit-2023.209.svn54811-55.1.noarch.rpm"
+RPM_HASH = "f5ba9f142c0f8283b971951cdf9af2871fa76ab1ae8a3068cd938b67153d0bbd524a9f2d81e5e3b34b370b9565a1313deee7cda7ab4b009d689455de1a50a407"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-latexgit.sty \

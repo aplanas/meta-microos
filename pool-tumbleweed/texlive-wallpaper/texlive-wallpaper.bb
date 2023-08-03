@@ -5,10 +5,10 @@ provides simple commands to include effects such as tiling. An \
 example is provided, which works under both LaTeX and pdfLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.10svn15878"
+PV = "2023.209.1.10svn15878"
 
-RPM_NAME = "texlive-wallpaper-2023.201.1.10svn15878-53.1.noarch.rpm"
-RPM_HASH = "039e3a1271f5dae691b6ea1ea310607b905ee308e6e5110a826286a23c12733f5cf6bcea757e114f871b8f45a218ff1a25b135fba48042cb0115dbae2d53b1c4"
+RPM_NAME = "texlive-wallpaper-2023.209.1.10svn15878-54.1.noarch.rpm"
+RPM_HASH = "71e6261c20f24940ab85627daddc7e19299a7088e28dfc866c07bcf1f62ab23f3f55c7011655f0c008a5d9cdbcde1255ff62fe8298965bc336f2b968832794e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-wallpaper.sty \

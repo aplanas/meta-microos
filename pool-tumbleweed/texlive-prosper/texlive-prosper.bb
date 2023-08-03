@@ -10,10 +10,10 @@ supported (including some that mimic PowerPoint) and others are \
 being contributed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0hsvn33033"
+PV = "2023.209.1.0hsvn33033"
 
-RPM_NAME = "texlive-prosper-2023.201.1.0hsvn33033-52.1.noarch.rpm"
-RPM_HASH = "f5cb99a2bc4767f10563e033c84b5596d5d8bcba98c8beb6adfc6ebcd853650b0ce0b848e668bd0b32a1f8cb16ddf84b67a08846524f8a5ff4d7979702365383"
+RPM_NAME = "texlive-prosper-2023.209.1.0hsvn33033-53.1.noarch.rpm"
+RPM_HASH = "7fedf21956eb245cf6f654e8f48fad68d28dc2c546415f57af6c6dc5059fde699b166fc5db38f22d3567d32d0f5055bbd6fa25818dc5085d9d48e8f66e2a7eb8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-PPRalcatel.sty \

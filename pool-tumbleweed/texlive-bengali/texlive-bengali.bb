@@ -4,10 +4,10 @@ extensions to deal with the Bengali letters that are not in \
 Devanagari. The package also supports Assamese."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn55475"
+PV = "2023.209.svn55475"
 
-RPM_NAME = "texlive-bengali-2023.201.svn55475-53.1.noarch.rpm"
-RPM_HASH = "3619cd26192d5ba3add5d4614777b7599f043204a086337acc6edc7fb8c2365af09b6deb0979823222df17fcdb791a3716c9f3a26c9f9dc12d172f0d9488ee04"
+RPM_NAME = "texlive-bengali-2023.209.svn55475-54.1.noarch.rpm"
+RPM_HASH = "0281b8ac4a5e716ca59617c17907eb755defd3437a09fff34d64814f7d50131d34ff41a3b81b8ab620fdd90a4a3018401e655462d3fadb41218917edfdaa49e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beng.sty \

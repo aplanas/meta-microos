@@ -5,10 +5,10 @@ reports and homework for the bachelor's curriculum. NJUrepo \
 stands for Nanjing University versatile Report."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.2svn50492"
+PV = "2023.209.1.1.2svn50492"
 
-RPM_NAME = "texlive-njurepo-2023.201.1.1.2svn50492-54.1.noarch.rpm"
-RPM_HASH = "233b6064cf1e2120bb229a10cd228f6819ac56b00e5a8d31ce3c493caeeb6ce2ed611203b82521fd0d2c1ce6d1b474e0dedb2b54d40aea89ce1b6cb9b00d6ec3"
+RPM_NAME = "texlive-njurepo-2023.209.1.1.2svn50492-55.1.noarch.rpm"
+RPM_HASH = "6025d0c4f987c95ae7dd2016df61047cfefc3393099116485ed0226ac0fa7ace9e66d3dfb75276456627c48adf76e64052f9451a8e449382ca7181501ae15912"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-njurepo.cls \

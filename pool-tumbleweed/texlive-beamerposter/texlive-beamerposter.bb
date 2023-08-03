@@ -13,10 +13,10 @@ wide-screen (i.e. 1.78 aspect ratio); orientation may be \
 portrait or landscape; a 'debug mode' is provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.13svn54512"
+PV = "2023.209.1.13svn54512"
 
-RPM_NAME = "texlive-beamerposter-2023.201.1.13svn54512-53.1.noarch.rpm"
-RPM_HASH = "c903d326e76a9c93f3bfd5805ac6f7adcc75bb5906ddd537babe50ecba83037026abf6bc1ae142bce7c576e7f908e0b3a32bae78a7c4c91b9f19723ae2d1d642"
+RPM_NAME = "texlive-beamerposter-2023.209.1.13svn54512-54.1.noarch.rpm"
+RPM_HASH = "ed89fd0b6272a05680d1ada61e70c215a12dad95c125c5bae4ce8652e3d90222a77fbe86c5727dd8e397c23d0fb591f64916a44f91791afa73ca861ab1c402d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamerposter.sty \

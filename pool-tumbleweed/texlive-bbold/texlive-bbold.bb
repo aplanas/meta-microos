@@ -7,10 +7,10 @@ than you could reasonably imagine. See the blackboard sampler \
 for a feel for the font's appearance."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.1.01svn17187"
+PV = "2023.209.1.01svn17187"
 
-RPM_NAME = "texlive-bbold-2023.201.1.01svn17187-53.1.noarch.rpm"
-RPM_HASH = "33efe659df5493df28cb56990b56c8d18575c191b839ba40c9c776f9419e618c61e7fc78adf695b7f8e939d9003a27fcffdcc1855a47b2f15702a3a5bfeebcbe"
+RPM_NAME = "texlive-bbold-2023.209.1.01svn17187-54.1.noarch.rpm"
+RPM_HASH = "0056703e9982d98a5ea556c23a700368e82b5b6b6e356ca7419f8c28f4d24b069c3cecdc4dda26c2ce82a8126b30228502fbcc05e7b4be0c927d4b8df00337b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Ubbold.fd \

@@ -5,10 +5,10 @@ version of the fonts is available in the niceframe fonts \
 bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn27918"
+PV = "2023.209.1.0svn27918"
 
-RPM_NAME = "texlive-dingbat-2023.201.1.0svn27918-52.1.noarch.rpm"
-RPM_HASH = "7f9a3ae591e36a2f7f519fec05eb056ec8796db787fc16313caf3749c84995a65f723b59e163f0474f2d7f2e9b93596da7cfebaad7e6084c5f0be7602acd10a9"
+RPM_NAME = "texlive-dingbat-2023.209.1.0svn27918-53.1.noarch.rpm"
+RPM_HASH = "47c93c1c7a3766643385d7e8f8f87ee10e572fc9cf78fd556efea4f391ac406dee00307c752a4efb7b97d07f26aaa0788bd42475b600f4b9d143f794171a4906"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ark10.tfm \

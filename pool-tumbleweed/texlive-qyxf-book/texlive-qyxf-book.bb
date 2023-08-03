@@ -16,10 +16,10 @@ part and so on. Currently the template is only designed for \
 Chinese typesetting."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.1.0svn56319"
+PV = "2023.209.3.1.0svn56319"
 
-RPM_NAME = "texlive-qyxf-book-2023.201.3.1.0svn56319-53.2.noarch.rpm"
-RPM_HASH = "dd87220ca6ff864c5a9410578923d1d2d7a9ca583400e79ca5ac1cdcb7a70638168956cb51c3a077959aa85e54c3c05fb635d64c1170e3bd1fe5d3ee71a93ce1"
+RPM_NAME = "texlive-qyxf-book-2023.209.3.1.0svn56319-54.1.noarch.rpm"
+RPM_HASH = "200fa3875c895bd6eb092008c6a857d7694ef9eb9c43e9c0b647a606c769169a96abb66c625224ae9cdb560e3034b789762624924dd6003b0c3dc65092df609a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-qyxf-book.cls \

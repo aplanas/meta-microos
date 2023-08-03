@@ -6,10 +6,10 @@ the everyshi package and can use the scrtime package from the \
 koma-script bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.00svn57000"
+PV = "2023.209.2.00svn57000"
 
-RPM_NAME = "texlive-prelim2e-2023.201.2.00svn57000-52.1.noarch.rpm"
-RPM_HASH = "fcbbc461efbfaeb7806d87266bcfd2b39c980f80d70390c053cc1760332b0e0ceb79b319ba66005d63e631e8dcb78a55b1761007dc0019bf6f53a906c85e1dbd"
+RPM_NAME = "texlive-prelim2e-2023.209.2.00svn57000-53.1.noarch.rpm"
+RPM_HASH = "262ea3dafe2644f1fffa8896ccf966c262a7774e12c7c681558874d0ecde8bfc7aa9dc8d642ce14f805d6b2f2044ea257b52a486c1230e6888511c44181fcdf0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-prelim2e.sty \

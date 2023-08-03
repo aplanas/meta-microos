@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-threeparttablex"
 DESCRIPTION = "This package includes the documentation for texlive-threeparttablex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn34206"
+PV = "2023.209.0.0.3svn34206"
 
-RPM_NAME = "texlive-threeparttablex-doc-2023.201.0.0.3svn34206-54.1.noarch.rpm"
-RPM_HASH = "bd281b5262e6125b762a41ea61840e6158903e746dbd10e93781080e38ae8be0982f0f8f11276f1d653f3fbe9874fda093f3bbdbaff07390669e6b315ebce4f9"
+RPM_NAME = "texlive-threeparttablex-doc-2023.209.0.0.3svn34206-55.1.noarch.rpm"
+RPM_HASH = "9f03eff8b09485ca30dd70c502141d35a9f7e78e67416159deb22ada077cd73bf9c18171ffe8f697ab0194c2900d9b9de60f94cd4afb55729549fefed88a9171"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-threeparttablex-doc"

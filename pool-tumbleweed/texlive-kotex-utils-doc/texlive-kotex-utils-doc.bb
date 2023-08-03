@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-kotex-utils"
 DESCRIPTION = "This package includes the documentation for texlive-kotex-utils"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1.0svn38727"
+PV = "2023.209.2.1.0svn38727"
 
-RPM_NAME = "texlive-kotex-utils-doc-2023.201.2.1.0svn38727-55.1.noarch.rpm"
-RPM_HASH = "a0b4f4deb8af82ded9a732c3eae8e5f1bdffddd6862824c66ebdf8e4f9694986be016669ccad556b8d6f382245d5c4d9a7b71cd96527519f639bc639853aef12"
+RPM_NAME = "texlive-kotex-utils-doc-2023.209.2.1.0svn38727-56.1.noarch.rpm"
+RPM_HASH = "ee2e405458a88fcd1f074b9f751c1e6cd14a59ac1a5468855d0eb51ebc01bd4709a4a08f6e080824a14142bc8d58e1f77ffe4d11229f9841dd5aa399b036347d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kotex-utils-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-adforn"
 DESCRIPTION = "The  separated fonts package for texlive-adforn"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1bsvn54512"
+PV = "2023.209.1.1bsvn54512"
 
-RPM_NAME = "texlive-adforn-fonts-2023.201.1.1bsvn54512-54.1.noarch.rpm"
-RPM_HASH = "0dbc13163e09fcc8c8cbc2588a56b09556db0e0d3ee2b7da0d2c4577eb43e8c6bcb8ced66dec5cae7f8f4e709976bd932f9fe43a0c66343b2d7d3b24fbeae3ed"
+RPM_NAME = "texlive-adforn-fonts-2023.209.1.1bsvn54512-55.1.noarch.rpm"
+RPM_HASH = "27350b24b80a15617e6e1f78b7519f5e19006c639567b1144df18fec496118fa6ffe3b6a0339c68805ce3054b01d2c1403dc0ada15f25f851794449abea668ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=fj \

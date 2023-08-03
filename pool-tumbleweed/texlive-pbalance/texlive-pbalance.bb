@@ -6,10 +6,10 @@ it uses \\enlargethispage to make the left column shorter, \
 balancing the columns."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4.0svn64002"
+PV = "2023.209.1.4.0svn64002"
 
-RPM_NAME = "texlive-pbalance-2023.201.1.4.0svn64002-51.1.noarch.rpm"
-RPM_HASH = "d7a231b4a1fddeb24d0cd851bdfb75026b81bace0776f61a3bbed9417e4afc9d03dec6605ea98df4be5442ef7072718a625c157d173166ffb52431f9b27ab750"
+RPM_NAME = "texlive-pbalance-2023.209.1.4.0svn64002-52.1.noarch.rpm"
+RPM_HASH = "ae5eca497e459d426d798e5019d52fdb1c1d17e5c753fcd1f82c18d224315100b47d6f0aebf219003c611a882460e522ecfad4a0e017a2c63a7696ec2696814c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pbalance.sty \

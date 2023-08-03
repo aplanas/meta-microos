@@ -16,10 +16,10 @@ highlight non-ASCII characters, you must compile your source \
 with either XeTeX- or LuaTeX-based compilers."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.04svn61719"
+PV = "2023.209.1.04svn61719"
 
-RPM_NAME = "texlive-proofread-2023.201.1.04svn61719-52.1.noarch.rpm"
-RPM_HASH = "9a4e4b265b4d8d85a74835d780b1f857185ca2993c186214a23ec1401d0cdd722996a8fd540839c4add93f1c274120a07bf7346b9b1e0cdf0db8978e11fc65e9"
+RPM_NAME = "texlive-proofread-2023.209.1.04svn61719-53.1.noarch.rpm"
+RPM_HASH = "0c318ea19afe74cf4287d7339094d4b705c66d1f2b99063e5978115000af633c904d0669ca18bb7d034c22decaa30caece890d54a790a71d85bba6b31e2a1385"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-proofread.sty \

@@ -7,10 +7,10 @@ overlap; the lines never overlap either. Aesthetic and \
 customizable style."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn61155"
+PV = "2023.209.svn61155"
 
-RPM_NAME = "texlive-snaptodo-2023.201.svn61155-57.1.noarch.rpm"
-RPM_HASH = "add0709616bc3e89c95354ed2dc1eb8bd41b6b40de17ab7478379e1b8069636e9fd04a4a825edc45210e66c4adb10557d63fafaa521d7feec53e3c37cdce7e00"
+RPM_NAME = "texlive-snaptodo-2023.209.svn61155-58.1.noarch.rpm"
+RPM_HASH = "f424070846096019f79870ddf9e9b3845aa6239ba5abc77e2a3cff945c99244cd80baad5a9bf12eb76348d23e72dd9d9cfde1b3cea46de92a63953e00e43da7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-snaptodo.sty \

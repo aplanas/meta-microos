@@ -2,10 +2,10 @@ SUMMARY = "OpenJDK 8 Runtime Environment"
 DESCRIPTION = "The OpenJDK 8 runtime environment without audio and video support."
 LICENSE = "Apache-1.1 & Apache-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
 
-PV = "1.8.0.372"
+PV = "1.8.0.382"
 
-RPM_NAME = "java-1_8_0-openjdk-headless-1.8.0.372-1.2.aarch64.rpm"
-RPM_HASH = "92bdbb1dc918437d21aee17294a29e84bc29dec747a07432ea2727f0e9ace4c770fa5220c45ced8b1c7879d385580912c7654d87cfc89f051de4bdfb2f5daaaa"
+RPM_NAME = "java-1_8_0-openjdk-headless-1.8.0.382-1.1.aarch64.rpm"
+RPM_HASH = "2fb0666e3c449dc291f8d82aa51c8059dcf0e330ea9b45a31501d3278be17cb58db59ad5b8bd5945712bde5157904b8cf1597f5c623b26d40e0eb457adf189d9"
 
 RPROVIDES:${PN} += "config-java-1-8-0-openjdk-headless \
 jaas \

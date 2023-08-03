@@ -6,10 +6,10 @@ LaTeX. In addition, with option sansmath, it can function as a \
 standalone math font with sans serif Roman and Greek letters."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.2.0.2svn61751"
+PV = "2023.209.2.0.2svn61751"
 
-RPM_NAME = "texlive-libertinust1math-2023.201.2.0.2svn61751-54.1.noarch.rpm"
-RPM_HASH = "4bb6033856e7d7529058007ffa0346600cd7e4ae29dc049067fe73edfba9f905feb37dc5105e9ee7d6dea7fcf9be3f305a385c7efa9fc04faba59631881ac4c4"
+RPM_NAME = "texlive-libertinust1math-2023.209.2.0.2svn61751-55.1.noarch.rpm"
+RPM_HASH = "e5a69b4f94d3d3264ed562036982684a61b392b5ce1038332878f5bc370cc673673ebe501602bc6a46397d37f82f9c991f02dc5891d59feebb1b61a5b459e728"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-BDXsfmi-bol.tfm \

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-overlock"
 DESCRIPTION = "The  separated fonts package for texlive-overlock"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64495"
+PV = "2023.209.svn64495"
 
-RPM_NAME = "texlive-overlock-fonts-2023.201.svn64495-51.1.noarch.rpm"
-RPM_HASH = "3f640075ccf7a2fc1011156cf9a2252e412bc7034b30ef85a0723b360edc0372dcddb37806248f4b8a0457401e92dd2e6358cb517a905aacd673951ec165a0f0"
+RPM_NAME = "texlive-overlock-fonts-2023.209.svn64495-52.1.noarch.rpm"
+RPM_HASH = "8dfac15043ce02502dff8c3f1f3b052e4b89fc298776a180a8900065c4761d5da902ce86e35158ebf9cccb04eea1da6b8e1122250e88faa34095cdc343d9ffbe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-overlock-fonts \

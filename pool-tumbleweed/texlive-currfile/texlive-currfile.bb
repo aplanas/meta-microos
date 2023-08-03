@@ -12,10 +12,10 @@ including files to the root of the tree). The package \
 supersedes FiNK."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.0.0.8svn64673"
+PV = "2023.209.0.0.8svn64673"
 
-RPM_NAME = "texlive-currfile-2023.204.0.0.8svn64673-54.1.noarch.rpm"
-RPM_HASH = "9c8c501d2ed6243b45be66e7e09f46cecb3c48db81b1c352a6a6db1410b95fc1b6e177c38ee07f436fa6816207af702f00f46f12df724defd84ae679eed7773f"
+RPM_NAME = "texlive-currfile-2023.209.0.0.8svn64673-55.1.noarch.rpm"
+RPM_HASH = "5e13cf73acc212a45f78dd8ad35109cc61e7141127192ed0b3112b62d444548061a590648943095d8234339274e003b8028eae1dc3da27b74876dee967b17b56"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-currfile-abspath.sty \

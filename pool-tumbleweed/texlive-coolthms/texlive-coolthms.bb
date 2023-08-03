@@ -5,10 +5,10 @@ a'). The package extends the ntheorem and cleveref packages. \
 The package also provides other theorem markup commands."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.1.2svn29062"
+PV = "2023.209.1.2svn29062"
 
-RPM_NAME = "texlive-coolthms-2023.204.1.2svn29062-54.1.noarch.rpm"
-RPM_HASH = "2f13756aee1366670b37aa4478d6215fc826a72b9719cf2696a41f0e0320429f92ba93bdf2a2012fb9af94ecbe9ca62414b7c08f89a4785644678e9b9c8c4b62"
+RPM_NAME = "texlive-coolthms-2023.209.1.2svn29062-55.1.noarch.rpm"
+RPM_HASH = "ce1b35678de1f10a975b7d42266052f502d8ef45fb5da644ad36d252e83e3b2c07ebe7c5afbced06b4cb37cc5cdd694683afd516c487b12fc5510498ca433302"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-coolthms.sty \

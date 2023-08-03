@@ -7,10 +7,10 @@ The package can be combined with the myfilist package as \
 explained in the documentation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn27889"
+PV = "2023.209.0.0.2svn27889"
 
-RPM_NAME = "texlive-longnamefilelist-2023.201.0.0.2svn27889-54.1.noarch.rpm"
-RPM_HASH = "bc9510a11ad64b481d83ca75fb3d2df794bb511c69f955c56948c509958b1daacb9602704ce1fec58d8abf115154c33959f8445cce2fa775605e78f0fab2ba57"
+RPM_NAME = "texlive-longnamefilelist-2023.209.0.0.2svn27889-55.1.noarch.rpm"
+RPM_HASH = "ebdf7477379fb25c223b100464b045dfef358f67c8a72e9e5983ab98012a7b25ad351f57629dcefd5efe3aeadb930e4e499cc48192e85a787d8307b584894bca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-longnamefilelist.sty \

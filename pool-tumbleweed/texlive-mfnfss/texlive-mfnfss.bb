@@ -6,10 +6,10 @@ Neena Billawala. Note that support for the Pandora fonts is \
 also available via the pandora-latex package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn46036"
+PV = "2023.209.svn46036"
 
-RPM_NAME = "texlive-mfnfss-2023.201.svn46036-54.1.noarch.rpm"
-RPM_HASH = "c211b97e7982e22206eed2834914c40b1faf1f89fe169de993d0d2bf6f7ee8b9beccf381eca3a57f4d777e5f2a213f956d3aa94cb8a448c1f8f8452aca924ad1"
+RPM_NAME = "texlive-mfnfss-2023.209.svn46036-55.1.noarch.rpm"
+RPM_HASH = "86ac243d58bd917065e0f95d4a18b7390aa94ca97f8e11a16f17d9fa9cf05d483d155af9e73dae1113ea85dd5d2f6427103ea15b93becee6efc86cacdfbe61b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-oldgerm.sty \

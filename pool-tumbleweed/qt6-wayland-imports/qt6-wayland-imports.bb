@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Wayland QML files and plugins"
 DESCRIPTION = "QML files and plugins from the Qt 6 Wayland module"
 LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-wayland-imports-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "052968559c6f13deb65a0fc61e75076809406237ed779fd451226c6778d3a3106ca10c879578123b323706464a59cdad9b1c80f22ab0b77efd8547655003e81b"
+RPM_NAME = "qt6-wayland-imports-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "2efc69c2a92871667555b31f134474d4e6949c7c8b9025d54ed863623b092516812ec4ede1b516441af24c992b88fc789f4b2f1b8042ff2bccf0534a808ec564"
 
 RPROVIDES:${PN} += "libqwaylandcompositorplugin.so \
 libwaylandcompositoriviapplicationplugin.so \
@@ -18,6 +18,7 @@ libwaylandtexturesharingplugin.so \
 qt6-wayland-imports \
 qt6qmlimport-QtWayland.Client.TextureSharing.1 \
 qt6qmlimport-QtWayland.Compositor.1 \
+qt6qmlimport-QtWayland.Compositor.2 \
 qt6qmlimport-QtWayland.Compositor.6 \
 qt6qmlimport-QtWayland.Compositor.IviApplication.1 \
 qt6qmlimport-QtWayland.Compositor.IviApplication.6 \

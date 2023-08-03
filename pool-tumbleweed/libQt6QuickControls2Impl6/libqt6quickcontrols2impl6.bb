@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 QuickControls2Impl library"
 DESCRIPTION = "The Qt 6 QuickControls2Impl library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6QuickControls2Impl6-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "0866766a02b515039f3b62a6754273d93969949f1dea9660012f6943e13fade464680f28e2be795414f5189165631a1d3191eff8926f690e0eae5a085763919b"
+RPM_NAME = "libQt6QuickControls2Impl6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "eb9f73785144da57a69dca96fcf6a72676e0ef6389676026bd44ac762e0a2c5d3f6c89f50718e818dca3b0e261e9d10145b5341b85fa7a3f100912c28fb2fbc6"
 
 RPROVIDES:${PN} += "libQt6QuickControls2Impl.so.6 \
 libQt6QuickControls2Impl6"

@@ -6,10 +6,10 @@ The package also includes a LaTeX package which defines the \
 macro, pre-compiled tfm files, and documentation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4_subrfixsvn17265"
+PV = "2023.209.1.4_subrfixsvn17265"
 
-RPM_NAME = "texlive-eurosym-2023.201.1.4_subrfixsvn17265-52.1.noarch.rpm"
-RPM_HASH = "e272cbd6b0fd23c5ef33c98fbaa4e4518f02ef517cd76e934a04a371381d22fb0d3d4dfd8bd531e67961b4157f8d05a142b6069a16b3b4d81f746199f926f2a8"
+RPM_NAME = "texlive-eurosym-2023.209.1.4_subrfixsvn17265-53.1.noarch.rpm"
+RPM_HASH = "d3547661fe0264605cce4f0cebc4f9464094daced0c5cc6c0401a9d7f070d742e796b54d4ae80ff2a2ab8d8666360d1cbfdda18322b499a84cdded5ebcf3f6a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eurosym.map \

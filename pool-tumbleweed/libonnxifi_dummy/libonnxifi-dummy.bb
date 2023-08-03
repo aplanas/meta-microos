@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.12.0"
 
-RPM_NAME = "libonnxifi_dummy-1.12.0-2.10.aarch64.rpm"
-RPM_HASH = "e815e2ba3ead18874c8210fb3484c5949fe49448f5e091d77061b238b9b5e8ac3c305644f512ffe259c6db9ba320f61bd53893c2cd68a08c78de01c1a6481040"
+RPM_NAME = "libonnxifi_dummy-1.12.0-3.1.aarch64.rpm"
+RPM_HASH = "e486aa17d8efe5f13a3f6df13bade87d7210dce8f90980207c2d6500596cbf153ecaad840bc8d5a9439d492d0b1c28a4e550e20a6fde48fa38b81a9b9f7b7742"
 
 RPROVIDES:${PN} += "libonnxifi-dummy \
 libonnxifi-dummy.so \

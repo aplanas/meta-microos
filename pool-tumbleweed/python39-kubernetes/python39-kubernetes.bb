@@ -2,10 +2,10 @@ SUMMARY = "Kubernetes python client"
 DESCRIPTION = "Python client for kubernetes http://kubernetes.io/"
 LICENSE = "Apache-2.0"
 
-PV = "26.1.0"
+PV = "27.2.0"
 
-RPM_NAME = "python39-kubernetes-26.1.0-5.3.noarch.rpm"
-RPM_HASH = "e53ba028c56e33d11780c7851878cf3d3b1c2ccd567797b6e16a3f1cf7cd76ea1b248987a0494dd63eece212c0478786f44978f739831b7b17c55550806080c1"
+RPM_NAME = "python39-kubernetes-27.2.0-1.1.noarch.rpm"
+RPM_HASH = "514d8ac71023a1d212130414a9028353c1cff43fd3b20003bfd1921b64dd46a30f23e6309ee61d29cd9deb5cab514cbdfbd92321b64976f62920ad156ea4f2d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-kubernetes \

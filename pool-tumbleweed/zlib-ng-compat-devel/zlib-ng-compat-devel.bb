@@ -5,8 +5,8 @@ LICENSE = "Zlib"
 
 PV = "2.1.3"
 
-RPM_NAME = "zlib-ng-compat-devel-2.1.3-1.1.aarch64.rpm"
-RPM_HASH = "ea3b69eed3cbc382b2aa461685d38a44fbb53c2fc3468a5eca8d5a8be44c0662d4a20b723eaf46ec0cce6cf3f752d2b486895c7f3a4f4ef6d63dfe9e8b4caf65"
+RPM_NAME = "zlib-ng-compat-devel-2.1.3-2.1.aarch64.rpm"
+RPM_HASH = "ccc8b28a8a5960f9eb92b7d81097991663ff155021ed4b3c2b9eeff4a456a8cbb28374ab388dd1b280ddfe5b9909599db1dd0bd072dc32cb313a2b53dbe4deeb"
 
 RPROVIDES:${PN} += "pkgconfig-zlib \
 zlib-devel \

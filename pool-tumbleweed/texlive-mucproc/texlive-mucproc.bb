@@ -9,10 +9,10 @@ https://github.com/Blubu/mucproc/. This example fulfills the \
 formatting guidelines for MuC 2017."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.02svn43445"
+PV = "2023.209.1.02svn43445"
 
-RPM_NAME = "texlive-mucproc-2023.201.1.02svn43445-54.1.noarch.rpm"
-RPM_HASH = "3cf9d6e2d4daaf6886171a9fa791d30a6da7cb84b7f86d30d3936e7b52f225e43b9228f80d7c148f96abd33854b1cd639ebe9c562c0219f4d97a029357e4c4d9"
+RPM_NAME = "texlive-mucproc-2023.209.1.02svn43445-55.1.noarch.rpm"
+RPM_HASH = "dc8797efdb12aec0c81475c471db641e6e2ec13ace69e6516f9da138e994f87dccdb831e245886a1d4244a6eaad5a30742cecbdc832eead03b1e2a87dc1ab446"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mucfontsize10pt.clo \

@@ -16,8 +16,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.9.2"
 
-RPM_NAME = "lftp-4.9.2-2.11.aarch64.rpm"
-RPM_HASH = "fdc967451026ce4d81de65a6ed5809cceec803300580f39aa0d5a2e56d2610a85684a81dc2f9002cc2ab21421320c65ac0ba3688636165a00e3f676b1c1a00e6"
+RPM_NAME = "lftp-4.9.2-3.1.aarch64.rpm"
+RPM_HASH = "27e6afffc76de2b94b66a20c815e7f70202b5fba9bcb872875e9bec941d3e3c75a28af2d14b01cde2a3dbf267de396b67207829a945c112c0c9a221e3ff29ba2"
 
 RPROVIDES:${PN} += "config-lftp \
 lftp \

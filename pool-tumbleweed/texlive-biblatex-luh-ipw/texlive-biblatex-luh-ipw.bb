@@ -7,10 +7,10 @@ Institute of Political Science). The bundle depends on BibLaTeX \
 (version 1.1 at least) and cannot be used without it."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn32180"
+PV = "2023.209.0.0.3svn32180"
 
-RPM_NAME = "texlive-biblatex-luh-ipw-2023.201.0.0.3svn32180-53.1.noarch.rpm"
-RPM_HASH = "9a389ab868467338a69b2a441c473f38cd6d01013936de1f014ac79872f6b83ed8efbfa9fe8efd62871d3bc0adb2af10ac382a350f48d065f308326f3a4a9e07"
+RPM_NAME = "texlive-biblatex-luh-ipw-2023.209.0.0.3svn32180-54.1.noarch.rpm"
+RPM_HASH = "1109c9ee067525edea9f8f2d3d9116c269c2548e9880fce32f547dfc092d953b82ff345f5be50114d5a5c77d1bc8988a15080a8f48757fcd2fccf58c5d1f95ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-authoryear-luh-ipw.bbx \

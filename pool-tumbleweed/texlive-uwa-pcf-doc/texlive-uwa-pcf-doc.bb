@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-uwa-pcf"
 DESCRIPTION = "This package includes the documentation for texlive-uwa-pcf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.1svn64491"
+PV = "2023.209.1.0.1svn64491"
 
-RPM_NAME = "texlive-uwa-pcf-doc-2023.201.1.0.1svn64491-53.1.noarch.rpm"
-RPM_HASH = "0f16adb9636edc9e1ffde5b9570bc7f1d67e54bd3dfa3dea1652a0aaef76477f2778816c3f385805733c93755591d193ea6fe30a396509b0cbf499e49978ac1d"
+RPM_NAME = "texlive-uwa-pcf-doc-2023.209.1.0.1svn64491-54.1.noarch.rpm"
+RPM_HASH = "a35e556f2fd4ca5518d27cf7d1b7f62d65a0c12c696e9571f1231e7a15eca57c476a95efa5c9597272d046d3a7c7ef6337702ed016db9df5e716331ea1587c86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-uwa-pcf-doc"

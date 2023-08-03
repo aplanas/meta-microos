@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-electrum"
 DESCRIPTION = "The  separated fonts package for texlive-electrum"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.005_bsvn19705"
+PV = "2023.209.1.005_bsvn19705"
 
-RPM_NAME = "texlive-electrum-fonts-2023.201.1.005_bsvn19705-53.2.noarch.rpm"
-RPM_HASH = "bb02b5f72cbea693241770a2b9a0bd1cfa84db6a3046c9c82bb3f393e4be6a881502c7b6c3fa9fa82d691369c2a93db7ed8212febdce5bfa14b6d830633c0c46"
+RPM_NAME = "texlive-electrum-fonts-2023.209.1.005_bsvn19705-54.1.noarch.rpm"
+RPM_HASH = "1e1783f80d9709f35853e65d9e910bb5b92e364d14f8dcb5368f12ac3d21f92ad0d60387efc71191d88a51eb650d52bf4d80977f381cb9f8b4f29911510f62b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

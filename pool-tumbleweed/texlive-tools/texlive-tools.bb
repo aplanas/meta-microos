@@ -7,10 +7,10 @@ longtable, multicol, rawfonts, showkeys, somedefs, tabularx, \
 theorem, trace, varioref, verbatim, xr, and xspace."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64892"
+PV = "2023.209.svn64892"
 
-RPM_NAME = "texlive-tools-2023.201.svn64892-52.1.noarch.rpm"
-RPM_HASH = "0feec7d3818f5403bbe6196a8d20d5357ee0fa4dd769db69cc170c7a66fe97a42f7ceb1fee1c0451fafecf2e4386ae5307c30cc033308af256965b43314f4e5b"
+RPM_NAME = "texlive-tools-2023.209.svn64892-53.1.noarch.rpm"
+RPM_HASH = "0bfd73d007e1e4a94ec2b200f427d980e84aff020bf1ebeef3cb1f9bcf999c2c4b7c2fa4cbd408c78aff4a5e10c08d98dacf0e131093b6ce5a96b76bd836ecdc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-afterpage.sty \

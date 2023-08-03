@@ -6,10 +6,10 @@ is provided for use under LaTeX; the package supports the \
 what is loaded, for those who don't need the whole font."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn22027"
+PV = "2023.209.svn22027"
 
-RPM_NAME = "texlive-stmaryrd-2023.201.svn22027-57.1.noarch.rpm"
-RPM_HASH = "e644688cbb7abad92eaa016fcdb7316dd24510c520bed8cff5f6be254f9c8dd21424b4671a11ebf01e984b4c9045f00e637236bee29a4acd576c71dd066b0c5e"
+RPM_NAME = "texlive-stmaryrd-2023.209.svn22027-58.1.noarch.rpm"
+RPM_HASH = "384a50cd7c2b8cbf4d982dc2abf4e4c1c6eb55732fd0e8734baee5cd186be1b13f8a26239f275f064208f974ece67840968bc53424e79fe4b45cda003cd985b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Ustmry.fd \

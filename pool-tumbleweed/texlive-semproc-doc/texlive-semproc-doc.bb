@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-semproc"
 DESCRIPTION = "This package includes the documentation for texlive-semproc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn37568"
+PV = "2023.209.0.0.1svn37568"
 
-RPM_NAME = "texlive-semproc-doc-2023.201.0.0.1svn37568-53.1.noarch.rpm"
-RPM_HASH = "fc1cc41b6c83b8a65e33223f8ab75eda1c58726a90ad326d96ee9976892d0357a7bc31a10922f7897c33ced28cd6b68b3750658c9d0a126a71f72ee0a195c12e"
+RPM_NAME = "texlive-semproc-doc-2023.209.0.0.1svn37568-54.1.noarch.rpm"
+RPM_HASH = "5cdfbbeedd1baf7a722baeeb9766ce03c07eb268b17284174405e8d8388e53c0a22bf25e3efef9a33cb63607e146521c853c6c4ed597a68c995fd11fdacd380a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-semproc-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bussproofs"
 DESCRIPTION = "This package includes the documentation for texlive-bussproofs"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn54080"
+PV = "2023.209.1.1svn54080"
 
-RPM_NAME = "texlive-bussproofs-doc-2023.201.1.1svn54080-52.1.noarch.rpm"
-RPM_HASH = "0b269af446f42f091b2e17eb5927a6198b44d08fec3c32605f308b51e1ac07b73dec9d526b7b7381b56a05a035db7b33be135717ef06cde7a25805c45137046e"
+RPM_NAME = "texlive-bussproofs-doc-2023.209.1.1svn54080-53.1.noarch.rpm"
+RPM_HASH = "06ee8715ead65e2934bbb92a519da5feb34dfb813edee97184e6ade1c3234a7da95046013be864a00bfb1611cef526e98f52019c0c2020bd3234ea78e6539208"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bussproofs-doc"

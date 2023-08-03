@@ -6,10 +6,10 @@ KOMA-Script v3.33 scrlayer-fancyhdr was part of KOMA-Script \
 itself."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2.2svn63844"
+PV = "2023.209.0.0.2.2svn63844"
 
-RPM_NAME = "texlive-scrlayer-fancyhdr-2023.201.0.0.2.2svn63844-53.1.noarch.rpm"
-RPM_HASH = "9a08dc945abd43fc888162d0874150fb5048fd1452d1e40ed87da1f04c765a0b814acda5623d6f6bce4550f5a5296888aef31aa07325c78f5d829779c81de6ae"
+RPM_NAME = "texlive-scrlayer-fancyhdr-2023.209.0.0.2.2svn63844-54.1.noarch.rpm"
+RPM_HASH = "5bbac9c8b1475dd7e1b09cabdc781cef31583355467efc0ad5dc1cf0118dc51e14fcb34aad928f329967b60a3191e43d3bbb9f7ae69274c340a26d9c096f74fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-scrlayer-fancyhdr.sty \

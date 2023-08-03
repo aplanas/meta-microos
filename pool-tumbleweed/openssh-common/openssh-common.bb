@@ -11,10 +11,10 @@ This package contains common files for the Secure Shell server and \
 clients."
 LICENSE = "BSD-2-Clause & MIT"
 
-PV = "9.3p1"
+PV = "9.3p2"
 
-RPM_NAME = "openssh-common-9.3p1-1.2.aarch64.rpm"
-RPM_HASH = "02759d6d154cf2119dad74b7ff402152bab4ff28a804faa65f847f36b7d0b701e68489d8b65670c1bcd1a217bda62414b850c336e8dd3c550758cd7a8ab8c3fd"
+RPM_NAME = "openssh-common-9.3p2-1.1.aarch64.rpm"
+RPM_HASH = "b5d019e1b345f7635e1a8371160487a2e4c6fff4c04d1032935855c19a980ea39d72849a8a8c650deadcb80383e2eb2128b5930ce09d129a6ab5443b303e6ad8"
 
 RPROVIDES:${PN} += "openssh-common"
 

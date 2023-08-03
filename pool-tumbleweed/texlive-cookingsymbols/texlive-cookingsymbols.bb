@@ -4,10 +4,10 @@ gasstove, topheat, fanoven, gloves and dish symbol (among \
 others). The symbols are defined using Metafont."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.1.1svn35929"
+PV = "2023.209.1.1svn35929"
 
-RPM_NAME = "texlive-cookingsymbols-2023.204.1.1svn35929-54.1.noarch.rpm"
-RPM_HASH = "af936b99bc613e271f42540ee2f5fbe82184eb4c25aab08c77b1a402b42415a60a76c904d33016444fc654c18cabe3a2c371b8f249a629df631a9517622d459e"
+RPM_NAME = "texlive-cookingsymbols-2023.209.1.1svn35929-55.1.noarch.rpm"
+RPM_HASH = "df0981a8108f39f2002a386ff25b4e0fc090665d86a10a49bae79686aeccdad837e5b86f58d9b659fffc2dafcd17e73d1195fab82dd433fbe16ac216280b13a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cookingsymbols.sty \

@@ -6,10 +6,10 @@ documentation, and the macros are subject to change without \
 notice."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn24731"
+PV = "2023.209.svn24731"
 
-RPM_NAME = "texlive-pitex-2023.201.svn24731-51.1.noarch.rpm"
-RPM_HASH = "13ad65b386206795f37cbb26b987045712402ea3190ae363c241603495f56f2184cf24a1a05cd16ab8cf44865b4e3a65469f2d08cf8aa16399adea5fc81decf9"
+RPM_NAME = "texlive-pitex-2023.209.svn24731-52.1.noarch.rpm"
+RPM_HASH = "bf373f8f894eb4c65a73630d7e970d1fd732c35de8067f3200498cdd2c3f126135256515bec5aec66c6e5d13031cbf000c729f69ee041eec737ef2e4b4990626"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pitex.tex \

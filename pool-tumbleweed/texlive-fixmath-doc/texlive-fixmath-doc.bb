@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fixmath"
 DESCRIPTION = "This package includes the documentation for texlive-fixmath"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.9.1svn64648"
+PV = "2023.209.0.0.9.1svn64648"
 
-RPM_NAME = "texlive-fixmath-doc-2023.201.0.0.9.1svn64648-52.1.noarch.rpm"
-RPM_HASH = "1923efc5e40cc35523a35dc3c36f0e46a7426d246c0eb7bb35cd092778a2c1d9a2e14d2bacc5e7c984450e2b6b26bbd03ede7177c34ba915a86071904ac8fc94"
+RPM_NAME = "texlive-fixmath-doc-2023.209.0.0.9.1svn64648-53.1.noarch.rpm"
+RPM_HASH = "04c52d05e086bada1686f4a84eafec27f8f5534324d98c3571d15c74b78c67f03a89cade58dbbcab6cc80ccf978651b65da6f25d43e64fbb84b4573e0edfae05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fixmath-doc"

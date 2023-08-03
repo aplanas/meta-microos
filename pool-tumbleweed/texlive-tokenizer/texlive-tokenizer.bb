@@ -9,10 +9,10 @@ command is defined, which removes leading and trailing spaces \
 from its argument."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.0svn15878"
+PV = "2023.209.1.1.0svn15878"
 
-RPM_NAME = "texlive-tokenizer-2023.201.1.1.0svn15878-52.1.noarch.rpm"
-RPM_HASH = "65f4b1f33db8a069cad2601b8f1d14280452085838be82688365b3245110014906ab7cd32cf68f50bff4e38dd84b9990f586ba31479fc870885acef522ab45ce"
+RPM_NAME = "texlive-tokenizer-2023.209.1.1.0svn15878-53.1.noarch.rpm"
+RPM_HASH = "004ace7331c2c496b100d549b1f8beb6e4bc4bbaad85679541b2fe7743179febcdb0cfe322ca69c849dd659055663e6c3a53dfee1985ad41e1e800240c6eb9f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tokenizer.sty \

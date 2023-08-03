@@ -9,10 +9,10 @@ BibLaTeX (version 3.3 or higher) as well as etoolbox (version \
 1.5 or higher)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn42635"
+PV = "2023.209.1.2svn42635"
 
-RPM_NAME = "texlive-historische-zeitschrift-2023.201.1.2svn42635-53.2.noarch.rpm"
-RPM_HASH = "bd96f6a5adfcef05f2467a649adbc6f3bdb43f10eea1650c21e0ff9a6290d0812c13d59f809b393e5a7d35ae9ac5af59d8041a08999f76899f0410ae3dc4606c"
+RPM_NAME = "texlive-historische-zeitschrift-2023.209.1.2svn42635-54.1.noarch.rpm"
+RPM_HASH = "9199b7dcc966d998afd6186ed5ea1970266c9d024fac13a338f5bffa00f4ac173581abc01bf820cee5a9f5dedeb26c3dc0c290db38090618df909d7926e926c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-historische-zeitschrift.bbx \

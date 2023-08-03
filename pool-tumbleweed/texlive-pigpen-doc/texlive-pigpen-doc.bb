@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pigpen"
 DESCRIPTION = "This package includes the documentation for texlive-pigpen"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn15878"
+PV = "2023.209.0.0.2svn15878"
 
-RPM_NAME = "texlive-pigpen-doc-2023.201.0.0.2svn15878-51.1.noarch.rpm"
-RPM_HASH = "e27e908afce85cb78b3c6f45e7ac1b363759971324b116a4c40cde25040b98eea7e560d97bdab8525bf8c00cf43b9307c74a9c4f6ecf53b475fa2440eb2d7c61"
+RPM_NAME = "texlive-pigpen-doc-2023.209.0.0.2svn15878-52.1.noarch.rpm"
+RPM_HASH = "3105163ea9bb6fff65102e89309f0d2162bc83a9ccd267d06db479ac7c2845c6feb46845c4711255dfa2d9e50cb64d2ba28eea2e1d30084467fc0a2be98bbbc3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pigpen-doc"

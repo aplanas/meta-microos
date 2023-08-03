@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bxbase"
 DESCRIPTION = "This package includes the documentation for texlive-bxbase"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2asvn66115"
+PV = "2023.209.1.2asvn66115"
 
-RPM_NAME = "texlive-bxbase-doc-2023.201.1.2asvn66115-52.1.noarch.rpm"
-RPM_HASH = "a68324d808d2699d9d56a22d178949c0e08871623e17528bbdfadbae864d780927f0931ce4da45b7eea4f1ceaf8a63056750e9f6b3b50fc1e35e7ff73ca457e2"
+RPM_NAME = "texlive-bxbase-doc-2023.209.1.2asvn66115-53.1.noarch.rpm"
+RPM_HASH = "600390cd271b33c43537cd5eab7af56cb16ae40761b6712ccb6030b8785407fac47c6509d97a8d78fe11e40ae6bf7796c93a5b71e7cd4879d6a726a291f67429"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-bxbase-doc-ja \

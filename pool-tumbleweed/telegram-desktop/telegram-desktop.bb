@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "4.8.4"
 
-RPM_NAME = "telegram-desktop-4.8.4-1.1.aarch64.rpm"
-RPM_HASH = "30172bed48eb11b8d468fb510f31db8012a0f9e89ca04c817c4a51bcd38e4cf6e2c483d6476d0058057d00335b3f892ef6cbd30526f4e151d4adeda87c396730"
+RPM_NAME = "telegram-desktop-4.8.4-2.2.aarch64.rpm"
+RPM_HASH = "23fb90678267213460bb79979ddd9ee14f56eae012b674831e9da889011e8d9465295bdfde4c3a8bc0fc2af658120ae7f632f51a7d6600949bee30ba86a1bd92"
 
 RPROVIDES:${PN} += "telegram-desktop"
 

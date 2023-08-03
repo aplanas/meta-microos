@@ -3,10 +3,10 @@ DESCRIPTION = "Most questions were collected on the bbs.ctex.org forum, and \
 were answered in detail by the author."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "2023.204.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-ctex-faq-2023.204.svn15878-54.1.noarch.rpm"
-RPM_HASH = "2a49fa5c5284d9c67f35645e1c17be382388e64ffa7ebb7c10f41144513327fbdf7decc8a085a1f836f969c209457d4c66d00c63783ef03ebc25a98a72006fd1"
+RPM_NAME = "texlive-ctex-faq-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "383968c471af24885edce68c57dc4a8e39c68cda4e9829e2bb8338bd13bab19a75a845a7f5826674129044998cb591481170c17cda1e299439b79b4d57d8e24c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ctex-faq"

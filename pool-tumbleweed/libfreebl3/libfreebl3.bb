@@ -10,8 +10,8 @@ LICENSE = "MPL-2.0"
 
 PV = "3.90"
 
-RPM_NAME = "libfreebl3-3.90-1.1.aarch64.rpm"
-RPM_HASH = "dec2c9ed7a8071f881f4fbea45e6a7a10b6ed643fb2e811fd2d2e00900ccf33caf980289ff0629ea2475b176277fc35ede1387b8b4c8160ebe1b3b1a11a885ed"
+RPM_NAME = "libfreebl3-3.90-2.1.aarch64.rpm"
+RPM_HASH = "00b57a999f77dfe49787ff86cd92a69ffe82b7a1da03ce1226b1a5f0c9ed39b54c22b2a3026aeb3af5afa65b76b7bd870e231e8b87f06bbfaedea4fb36f177c1"
 
 RPROVIDES:${PN} += "libfreebl3 \
 libfreebl3-hmac \

@@ -3,10 +3,10 @@ DESCRIPTION = "This LaTeX package helps you write [?] -calculus formulas and \
 SODG graphs for the EO programming language."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.12.1svn66274"
+PV = "2023.209.0.0.12.1svn66274"
 
-RPM_NAME = "texlive-eolang-2023.201.0.0.12.1svn66274-53.2.noarch.rpm"
-RPM_HASH = "ad977cb0566a6fc950115db6bf8d2b36f88239165f82abf1ead9aecd51ea8dd923da5bb9d7fc028551b7940f5f9caf02d5dcf3bda9efac3454601c2e201d8f2f"
+RPM_NAME = "texlive-eolang-2023.209.0.0.12.1svn66274-54.1.noarch.rpm"
+RPM_HASH = "1e3afa14806b03d82f285b152d5432488d9eb6cd549fa8125bc04e4db835679d3595a769bdc1aa0cad6c500785592f5a3e4538626e730767073ece6bc582e7ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eolang.sty \

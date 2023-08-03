@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sugconf"
 DESCRIPTION = "This package includes the documentation for texlive-sugconf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn58752"
+PV = "2023.209.svn58752"
 
-RPM_NAME = "texlive-sugconf-doc-2023.201.svn58752-57.1.noarch.rpm"
-RPM_HASH = "a49f903f36f9d14e0b4a380b861c464a3a2dca942bfd87c336060a4512df7373b92b1f0150aea7fad27e1d14a7ac88ec645cbce64c3b29f7279ac1227b4b08d1"
+RPM_NAME = "texlive-sugconf-doc-2023.209.svn58752-58.1.noarch.rpm"
+RPM_HASH = "e7bef007d0204e443310a7673fe04212224f7b95bcfea185da34a6da201a856b2cf20c070f781696520a4ce08f9f6a4c4b66cf0acc8d8c6a1fc82d71fb5dbf23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sugconf-doc"

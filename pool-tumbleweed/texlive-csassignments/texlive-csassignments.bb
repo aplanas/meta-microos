@@ -8,10 +8,10 @@ aggregating points, and displaying a grading table, as well as \
 several macros for easier math mode usage."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.1.0.2svn63992"
+PV = "2023.209.1.0.2svn63992"
 
-RPM_NAME = "texlive-csassignments-2023.204.1.0.2svn63992-54.1.noarch.rpm"
-RPM_HASH = "e1c959f8bae1eef23feee6dd0e1a48bd6eb70e761cb9522a5f01c42b90467be456c9156bdf7168b50e6ea17a1db9f85c37955c97ba629cfd6f9fd7c8ee4e1f0e"
+RPM_NAME = "texlive-csassignments-2023.209.1.0.2svn63992-55.1.noarch.rpm"
+RPM_HASH = "5101970fa570e8691f4306f81157701d273f523e899ab6ff4180c5966bf722677ec5892a8246ec8d564786c9d0a1e09b50361ce99fb4144ef00e5b1ec4b95753"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-csassignments.cls \

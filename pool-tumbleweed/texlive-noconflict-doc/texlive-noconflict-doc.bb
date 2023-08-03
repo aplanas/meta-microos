@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-noconflict"
 DESCRIPTION = "This package includes the documentation for texlive-noconflict"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn30140"
+PV = "2023.209.1.0svn30140"
 
-RPM_NAME = "texlive-noconflict-doc-2023.201.1.0svn30140-54.1.noarch.rpm"
-RPM_HASH = "6daf4b2cdbaaeae30932a34c44376029aac54d1f9bfa953af78c5ef6d61dc2018650bcec7772bced9067132737d23773e47214e17797f09c8d6c89cd14af6557"
+RPM_NAME = "texlive-noconflict-doc-2023.209.1.0svn30140-55.1.noarch.rpm"
+RPM_HASH = "fbd9e1f55b18e24c16721e50f7d9b2e46b238f7e67842331bcfb292f71a2a3664037c13f54b6b51ff7b6802f62c639d9bb1fe1f7b97469a70864f0b3f132b0b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-noconflict-doc"

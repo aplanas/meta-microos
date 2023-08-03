@@ -7,10 +7,10 @@ Russian standard GOST 7.32-2017. But there are correctives to \
 be compatible with our local IU8 department requirements."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn61937"
+PV = "2023.209.1.2svn61937"
 
-RPM_NAME = "texlive-bmstu-iu8-2023.201.1.2svn61937-52.1.noarch.rpm"
-RPM_HASH = "17c54cc9d8c7ec76d2a0271953d1c40536764646d84eed15435b68ab62db34fa3314ec7c30b0e8e7984f62ab46e7169d0b24e6c77f72070147cf8e82b27e99fb"
+RPM_NAME = "texlive-bmstu-iu8-2023.209.1.2svn61937-53.1.noarch.rpm"
+RPM_HASH = "95f521885b5b8482297f905de07c3403bd3726d341f67f822fcfb4ceacd4f700fa36aae08009c568316d27343c75b6eb5bbdcd106dfabfc9b21918fffccee2c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-01-IU8-base.sty \

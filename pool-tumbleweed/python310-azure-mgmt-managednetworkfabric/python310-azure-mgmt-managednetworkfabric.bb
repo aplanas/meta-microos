@@ -4,21 +4,21 @@ DESCRIPTION = "This is the Microsoft Azure Managednetworkfabric Management Clien
 This package has been tested with Python 3.7+."
 LICENSE = "MIT"
 
-PV = "1.0.0~b1"
+PV = "1.0.0"
 
-RPM_NAME = "python310-azure-mgmt-managednetworkfabric-1.0.0~b1-1.1.noarch.rpm"
-RPM_HASH = "c005904a46d7f832395a49056957ff3e7b05515502743f4a141f28f997a469479b84415ce40062d7970e95f8f201bf348220f6bdb81f0866a550e36e7d1f7fc4"
+RPM_NAME = "python310-azure-mgmt-managednetworkfabric-1.0.0-1.1.noarch.rpm"
+RPM_HASH = "329dac818403bb73a10c08a1b711cb13ccb245753620086664e483a43c310b4eb5b04c7850305496f4fb1d8a6a0b55ed38e2fd785197339ce5cb7f9d8b46186d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-azure-mgmt-managednetworkfabric \
 python310-azure-mgmt-managednetworkfabric \
 python3dist-azure-mgmt-managednetworkfabric"
 
-RDEPENDS:${PN} += "python-abi \
-python310-azure-common \
-python310-azure-mgmt-core \
+RDEPENDS:${PN} += "-python310-azure-common >= 1.1 with python310-azure-common < 2.0.0 \
+-python310-azure-mgmt-core >= 1.3.2 with python310-azure-mgmt-core < 2.0.0 \
+-python310-isodate >= 0.6.1 with python310-isodate < 1.0.0 \
+python-abi \
 python310-azure-mgmt-nspkg \
-python310-azure-nspkg \
-python310-isodate"
+python310-azure-nspkg"
 
 inherit rpm

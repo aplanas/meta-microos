@@ -13,10 +13,10 @@ bibliography option is set to separate), environ, etoolbox, \
 fancyvrb, ifthen, and kvoptions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2.4svn64715"
+PV = "2023.209.1.2.4svn64715"
 
-RPM_NAME = "texlive-apxproof-2023.201.1.2.4svn64715-54.1.noarch.rpm"
-RPM_HASH = "5ece37c09b4beb13eec0047c3a186bbf696c016f27f1c6c0981de584e9b4cba5bf0116661bc728e28813b9d9eaa8ce69e770ac90f635c67d1488b0eb62e5c60b"
+RPM_NAME = "texlive-apxproof-2023.209.1.2.4svn64715-55.1.noarch.rpm"
+RPM_HASH = "f9f3fa39eeb793a908937605f5b3c3d5a81b79bbfd1fd9efac19d18b4caef047063ce2510626e037c08f39e08256ebdb92bde3f5a6dfdd6f619f900830e1953c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-apxproof.sty \

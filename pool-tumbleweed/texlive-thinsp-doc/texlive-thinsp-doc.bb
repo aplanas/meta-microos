@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-thinsp"
 DESCRIPTION = "This package includes the documentation for texlive-thinsp"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.2svn39669"
+PV = "2023.209.0.0.2svn39669"
 
-RPM_NAME = "texlive-thinsp-doc-2023.201.0.0.2svn39669-54.1.noarch.rpm"
-RPM_HASH = "fb95b7ef3ca106de5558d28d97a87ee66336dee3a551222dcae929aee7dec33aa3dec7d7026095f010099c101be23600c5b8cb0a1beac3c000d4ef05289110fe"
+RPM_NAME = "texlive-thinsp-doc-2023.209.0.0.2svn39669-55.1.noarch.rpm"
+RPM_HASH = "c869289cdc7c4b8400ff05a961b31128982da8426bf317b418d9d37b6b642ce2f2d14631469041f87c659fb17b6915f8a5c6afa11dcfad2d135d3fb6ce735069"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-thinsp-doc"

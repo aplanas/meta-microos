@@ -2,10 +2,10 @@ SUMMARY = "Gstreamer support for aravis"
 DESCRIPTION = "This package contains the gstreamer plugin for aravis."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.8.26"
+PV = "0.8.27"
 
-RPM_NAME = "gstreamer-plugin-aravis-0.8.26-1.2.aarch64.rpm"
-RPM_HASH = "aacabd0f7d71b3fb958d5cd207e7da2c6f841752767039518819d2d3a0622a759cd85a8e9f2229c56833d40bc6a8d6ebb053c4fecb5ae58ff2885afa37f3b209"
+RPM_NAME = "gstreamer-plugin-aravis-0.8.27-1.1.aarch64.rpm"
+RPM_HASH = "ebd6beab22cbf3273a3da5b6246d98284e4f31645e4701e132298c1d964a3545b4dd2ded96b4fcb3668f212db321c9d155b7c6d7b8da961275fb5dba6b5a0281"
 
 RPROVIDES:${PN} += "gstreamer-plugin-aravis \
 gstreamer1 \

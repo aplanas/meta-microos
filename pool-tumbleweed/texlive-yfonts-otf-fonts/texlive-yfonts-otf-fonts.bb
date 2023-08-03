@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-yfonts-otf"
 DESCRIPTION = "The  separated fonts package for texlive-yfonts-otf"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.43svn65030"
+PV = "2023.209.0.0.43svn65030"
 
-RPM_NAME = "texlive-yfonts-otf-fonts-2023.201.0.0.43svn65030-52.2.noarch.rpm"
-RPM_HASH = "43acaee732202325e63b5e43047562f0632de5e222322ee460b88df698d4062098e105be0fe352b46807828883717645bf5e2dfdd751e726accd20f0573ae02d"
+RPM_NAME = "texlive-yfonts-otf-fonts-2023.209.0.0.43svn65030-53.1.noarch.rpm"
+RPM_HASH = "87d3da93e3eb11ea824d667c33aebb85f2bf63ff87f8d7295f7594d27323acdb53d3b5ba97ad890e8b5b7badee8151cf5a09a8af22c43b1c5b1f345d6aa477ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=bi \

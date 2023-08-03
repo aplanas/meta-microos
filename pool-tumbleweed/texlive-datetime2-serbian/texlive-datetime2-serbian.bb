@@ -5,10 +5,10 @@ Cyrillic and Latin, Ekavian and Ijekavian variants of Serbian \
 date formats, regionalized and non-regionalized."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1.0svn52893"
+PV = "2023.209.2.1.0svn52893"
 
-RPM_NAME = "texlive-datetime2-serbian-2023.201.2.1.0svn52893-52.1.noarch.rpm"
-RPM_HASH = "5103f6289962e252c830db18f063a4a6e43d2c545e13eaf372ee4cc7fdfb0c911a41bb8852374171a8fc8ed6217748368dec499e8ee98342fe0f44604d736a4b"
+RPM_NAME = "texlive-datetime2-serbian-2023.209.2.1.0svn52893-53.1.noarch.rpm"
+RPM_HASH = "fe3805c0f6cf48830b750d2eab135e4041815797a7b2499d2c4325be7c09c58e26d4f571897cd995beeaad358cb306908ee5fcf38b531e917ed62923ba5aa8a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-serbian-base-ascii.ldf \

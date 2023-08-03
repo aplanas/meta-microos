@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-umich-thesis"
 DESCRIPTION = "This package includes the documentation for texlive-umich-thesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.20svn15878"
+PV = "2023.209.1.20svn15878"
 
-RPM_NAME = "texlive-umich-thesis-doc-2023.201.1.20svn15878-53.1.noarch.rpm"
-RPM_HASH = "43f5dc929510ae706f32997ade6b58777e7ece15c1553dd4a1516d94a01e748c7563e971ae461a9b9c13daf90045e6d7e68f73d64347ae0f902f6e240395a272"
+RPM_NAME = "texlive-umich-thesis-doc-2023.209.1.20svn15878-54.1.noarch.rpm"
+RPM_HASH = "a47cfcc8af95e0daf765dcfa404f0559fd46595fe03d4193f3e28b359da0720884a15cf1d1d841089bacead7b19f2ffc10ee3d484cfb3d01d6f51225e0462c31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-umich-thesis-doc"

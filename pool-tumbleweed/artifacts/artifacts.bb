@@ -12,10 +12,10 @@ expect it to be used, see the BlackHat presentation and Youtube video \
 from the GRR team."
 LICENSE = "Apache-2.0"
 
-PV = "20220429"
+PV = "20221219"
 
-RPM_NAME = "artifacts-20220429-3.2.noarch.rpm"
-RPM_HASH = "b6ae5fa772c3c21bae0e9429671f74aa917072b11b64528fe0d093b4ac7c3c8e1e250283d11e63f378e4b51c79850cddd0d33c435ab0faecfda6a78fa4c40d12"
+RPM_NAME = "artifacts-20221219-2.1.noarch.rpm"
+RPM_HASH = "c290535c2aab7c36352c44133a246c2cc87e616c5e888e818beab584cfc47e7ae8a9ed7f11c94417f76cc048a33b05209d56937e9dd5f3aee8b3da3546abc769"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "artifacts"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-nag"
 DESCRIPTION = "This package includes the documentation for texlive-nag"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.7svn24741"
+PV = "2023.209.0.0.7svn24741"
 
-RPM_NAME = "texlive-nag-doc-2023.201.0.0.7svn24741-54.1.noarch.rpm"
-RPM_HASH = "9b2c34fc8f3cf806be593c523eb6318ab9ecbfa527cc36a986709f0418dfa247c1279659d0173672a8b56020626c5fd4e40b00fba56a74a47ecee6ed4e54db89"
+RPM_NAME = "texlive-nag-doc-2023.209.0.0.7svn24741-55.1.noarch.rpm"
+RPM_HASH = "87b93d7a77c401d33d5c04e7bfc082d83b65e7b3425ceec35813d2a4c1f0820710721782cd6594a3e02b25b6d79a52c2e46b547f5a4b1d7ed807af37e82d3a67"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nag-doc"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "1.38"
 
-RPM_NAME = "geany-plugins-lang-1.38-3.6.noarch.rpm"
-RPM_HASH = "7ca265afda521d2e07537adef61caa2992a1354d712c5b1465dde78fff63078b5e13ca06149752b32a47d959f9843df7c13236fbdd0209c1aa42008ffbecf230"
+RPM_NAME = "geany-plugins-lang-1.38-3.7.noarch.rpm"
+RPM_HASH = "b821e70b0e56a66754d2f3b40d7ca97ac3b19cb07b4b5a1e61e3cb3012c5673ae917c289f2006869f5e219a899b5d48eed1ea1fa5a08071c6d807014fe3bdb7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "geany-plugins-lang \

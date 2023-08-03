@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fcolumn"
 DESCRIPTION = "This package includes the documentation for texlive-fcolumn"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4.1svn61855"
+PV = "2023.209.1.4.1svn61855"
 
-RPM_NAME = "texlive-fcolumn-doc-2023.201.1.4.1svn61855-52.1.noarch.rpm"
-RPM_HASH = "d3f2f048c34721775e64e85b5f18871ea08297014f6bd573baa76e2be78bf3bb25eec6f8e54ce102181b925e6a672d2a26d4c46a3a1cacbc8cb0d186fcd710b4"
+RPM_NAME = "texlive-fcolumn-doc-2023.209.1.4.1svn61855-53.1.noarch.rpm"
+RPM_HASH = "6f2750b09d7c656308e2748c261cded62c82047e594b14ad7db990654bcf8be9004e59b61aead46d17ebbd601ed4b00259298d396abb910988e539abcf407e78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fcolumn-doc"

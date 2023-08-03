@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Nepali Translations"
 DESCRIPTION = "YaST2 - Translations for Nepali."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230714.966688ddd0"
+PV = "84.87.20230729.64eca7e0a1"
 
-RPM_NAME = "yast2-trans-ne-84.87.20230714.966688ddd0-1.1.noarch.rpm"
-RPM_HASH = "219502d80ecd04ef377b7d3070e6dc779a64b87a0609e111a29c4c95707cd3ad903311d117399e1155b5b7733ff3b28417b46af4bb3d341cff4a4b351fe4f12c"
+RPM_NAME = "yast2-trans-ne-84.87.20230729.64eca7e0a1-1.1.noarch.rpm"
+RPM_HASH = "bda9c1ba3ff3c4b85bfbd8ab93a94ce5d7ca734c8ef810829b0166a43cf84a15db88fe0436182a2b12d64498fc44346f41a0736ff8565283a46e94420bed9fc2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-ne \

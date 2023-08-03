@@ -5,10 +5,10 @@ and feel (rounded/sharp corners, shadows and colours) will \
 automatically adapt to which other themes are loaded."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5svn64387"
+PV = "2023.209.0.0.5svn64387"
 
-RPM_NAME = "texlive-beamertheme-tcolorbox-2023.201.0.0.5svn64387-53.1.noarch.rpm"
-RPM_HASH = "53092a2a7098a45c312e3da9c834a705b5c57964975a2f099d40c9401b9706b1821090fa859a64989f8ad5f1fd580af01620e7b323ab2d5a24a23439b02f402f"
+RPM_NAME = "texlive-beamertheme-tcolorbox-2023.209.0.0.5svn64387-54.1.noarch.rpm"
+RPM_HASH = "95153db5ba076ebd9f80836ad38b6620b9ba19e6828328f38e1f7c6debbd6f50d64491d11fc862cb25a47041befc56d432344e51fc22654a050a7358ee520ee2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamerinnerthemetcolorbox.sty \

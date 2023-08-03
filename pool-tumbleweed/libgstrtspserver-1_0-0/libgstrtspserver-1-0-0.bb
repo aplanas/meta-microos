@@ -2,10 +2,10 @@ SUMMARY = "GStreamer-based RTSP server library"
 DESCRIPTION = "Library on top of GStreamer for building an RTSP server - Library files."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "libgstrtspserver-1_0-0-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "a9355f2f0b8191b8da9a4f8924c77beacc54d74f380cf7259e09e92d5ba51d957a8dcf2b6170c86648275b5c51ed1bf03b9f54c751d79a21cbc52ff7350acd2a"
+RPM_NAME = "libgstrtspserver-1_0-0-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "09015b7c49a043f6daabb606367045958bf1ca64a3f7e904feb2f2d6cee8d0202ccfc1986adaf2916c4487ab3b1a920ea0aa3af47a6d3affd8b1af20f2d8bbca"
 
 RPROVIDES:${PN} += "libgstrtspserver-1-0-0 \
 libgstrtspserver-1.0.so.0"

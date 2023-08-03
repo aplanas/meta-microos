@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6SerialBus that do 
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | GPL-2.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-serialbus-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "fcbe7f25208cc39d33bfd4a259cc319da5d5c4f594f048f8483c2e197b26acafa5856375f92819f722035b8d87314d36092abc3fbc0184d73943a21e976270ff"
+RPM_NAME = "qt6-serialbus-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "2a30f3fc7a1f6ae66835b346d4e8122619bc0dcd449f64c772c7c01387ff1e80c556a8a42cb3820de339a32c645cd57a6ad8650ad49c20930875e4dc605d438d"
 
 RPROVIDES:${PN} += "qt6-serialbus-private-devel"
 

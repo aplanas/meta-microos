@@ -12,10 +12,10 @@ to use an elatex command or equivalent). The package relies on \
 LaTeX 3 support from the l3kernel and l3packages bundles."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0msvn52231"
+PV = "2023.209.2.0msvn52231"
 
-RPM_NAME = "texlive-notes2bib-2023.201.2.0msvn52231-54.1.noarch.rpm"
-RPM_HASH = "70566b150afef1ad267cf9cdc0e90d9959ebc0c48455bd5ec379b0ea96e1b8466bc0dd689b445ac41515116b67b2f752726539854ac45bb8f0f70d88e0420227"
+RPM_NAME = "texlive-notes2bib-2023.209.2.0msvn52231-55.1.noarch.rpm"
+RPM_HASH = "112a05ff0e056882e666840265f5f9ec5064037b02fc65048709c2747a6a71f67ba101e27b15f13c5a8c0be0612e8a5b969466e02129e0c41f2139c5a23eda28"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-notes2bib.sty \

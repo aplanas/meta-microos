@@ -7,10 +7,10 @@ Moreover, it is possible to use BibLaTeX, while the original \
 moderncv-class is incompatible with BibLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5svn25025"
+PV = "2023.209.0.0.5svn25025"
 
-RPM_NAME = "texlive-koma-moderncvclassic-2023.201.0.0.5svn25025-55.1.noarch.rpm"
-RPM_HASH = "c06642342eb822a364000b8ebd1202d66746263c6f928e0555a1a34f78884e98b15e583137f5ed204926988381abff14d56c0a0b4aad435f19e654577df79dfb"
+RPM_NAME = "texlive-koma-moderncvclassic-2023.209.0.0.5svn25025-56.1.noarch.rpm"
+RPM_HASH = "00154d60464cc184301a5718f86911446cd24c9784ed4548672a7aad4229a7a5fa88cbe94647c9755cfd2840091ad08bdd7d349a6e868f9bf0a1a088a3531888"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-koma-moderncvclassic.sty \

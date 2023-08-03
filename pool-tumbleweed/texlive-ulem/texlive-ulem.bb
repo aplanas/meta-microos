@@ -8,10 +8,10 @@ through words) and crossing out (/// over words). The package \
 works with both Plain TeX and LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn53365"
+PV = "2023.209.svn53365"
 
-RPM_NAME = "texlive-ulem-2023.201.svn53365-53.1.noarch.rpm"
-RPM_HASH = "ea058571830084cd3da5638fdf3fa37c7f9be28d3c7165ebbeb83f38c686b6a9cd2aec61ca20876f53c50ec84c1e214c58bc709271687f0cbf5171a83af5dc2a"
+RPM_NAME = "texlive-ulem-2023.209.svn53365-54.1.noarch.rpm"
+RPM_HASH = "02d159e6bc53780c2c5201c9e77bbc53a1fe9ba0f093e1139826c993b8e60065473ff9c3a3d1c157aa5b27c6648ddb891130b4539a149b44055710a950c0da17"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ulem.sty \

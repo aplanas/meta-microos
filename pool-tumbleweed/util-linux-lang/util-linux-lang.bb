@@ -2,10 +2,10 @@ SUMMARY = "Translations for package util-linux"
 DESCRIPTION = "Provides translations for the 'util-linux' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.39"
+PV = "2.39.1"
 
-RPM_NAME = "util-linux-lang-2.39-3.1.noarch.rpm"
-RPM_HASH = "9bcfa5a697464f8dade6c3d502b88d478b6923ea18c74b2973d652f68c491807cac56a844c0bf854b4c043da960e351749542e2e7d139df4a92c4a5ca275897e"
+RPM_NAME = "util-linux-lang-2.39.1-1.1.noarch.rpm"
+RPM_HASH = "4c8d6875f45ee6c0be34ddf5b8a290e35f2582c569170c8c3f6b296415c497df5dc34fa6af7b8682c3dfb3d3ee998e5f8da4754c866e269236c3629d493dced7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-util-linux-ca \

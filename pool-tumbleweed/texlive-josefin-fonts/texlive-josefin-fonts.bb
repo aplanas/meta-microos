@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-josefin"
 DESCRIPTION = "The  separated fonts package for texlive-josefin"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64569"
+PV = "2023.209.svn64569"
 
-RPM_NAME = "texlive-josefin-fonts-2023.201.svn64569-55.1.noarch.rpm"
-RPM_HASH = "6f3debdf8402bba79cb17be766facc85626fa4309b149f5c2f08744fb0c288a8e8726cab058c397b06d46e4c435bbacd7904400ba75a00e126d525cd0e85ef99"
+RPM_NAME = "texlive-josefin-fonts-2023.209.svn64569-56.1.noarch.rpm"
+RPM_HASH = "b708d5dc032778e58947316ab3231f25687390fe2023227d6df0734125eded61df7f7cb25ef7f91a0c1249e363073c372703810025ac09adc317651237e72cb8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-josefin-fonts \

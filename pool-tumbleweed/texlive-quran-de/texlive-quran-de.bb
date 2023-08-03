@@ -4,10 +4,10 @@ translations of the Holy Quran. It adds three more German \
 translations to the quran package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn54191"
+PV = "2023.209.0.0.2svn54191"
 
-RPM_NAME = "texlive-quran-de-2023.201.0.0.2svn54191-53.2.noarch.rpm"
-RPM_HASH = "2d25eb35479efe0d51836cda25f0a98fac422f54ca2caec4e0adfa1de593e4bf499f6d77276132b44743dad6812079f68dcfc6849ec600cbea1665ec02498d3a"
+RPM_NAME = "texlive-quran-de-2023.209.0.0.2svn54191-54.1.noarch.rpm"
+RPM_HASH = "3865bfd252bf0f25f2fb38592d7e44e7b4efb5be286bdffb5477391e53e0dd053950f13c432da7953155e01e8a360ba27c2aa57bcf5ac2d5d66b0df20069a0aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-quran-de.sty \

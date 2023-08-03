@@ -7,10 +7,10 @@ texts, a tool for processing key-value structured lists, and \
 macros for typesetting a number as a German-language string."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-sauerj-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "734a3c316e54d6cda9d128310a6be66b256e3a851ac0140d72ef4bd1317e5b9bc17646b1df234a63fc573a85493a923f49f9e6ce851205d677b9e7901a779e3a"
+RPM_NAME = "texlive-sauerj-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "cc656b0d9bba3bbb955f8acb5e8e9279e6a84ecc3874ce5359c9d8b930d13625d51abe0afa0522a02086aed06fd41c16e81c3997bc42e3c4b0946432b950235b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-collect.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-overlays"
 DESCRIPTION = "This package includes the documentation for texlive-overlays"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.12svn57866"
+PV = "2023.209.2.12svn57866"
 
-RPM_NAME = "texlive-overlays-doc-2023.201.2.12svn57866-51.1.noarch.rpm"
-RPM_HASH = "336b59e646196114b082f99f091d6b26f9b234f5fd749729f0092f3cd6b634aee1d39372575f7cc273fb852eba3c9898ae69bdd7315aa08758cf7550b0d6dbbf"
+RPM_NAME = "texlive-overlays-doc-2023.209.2.12svn57866-52.1.noarch.rpm"
+RPM_HASH = "56d1f6d0d4d1cc2b3c679fddcba5c252de6567ad22d091d92857951c03a7ee5c2831b0540a1fa2a2a32ceed27598df00bbf196f9712ea81a6c728718b93dbb9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-overlays-doc"

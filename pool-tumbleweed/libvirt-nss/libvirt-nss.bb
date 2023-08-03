@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.5.0"
 
-RPM_NAME = "libvirt-nss-9.5.0-1.1.aarch64.rpm"
-RPM_HASH = "82530bfdb1485eada1bf456c74496b021d73ab1d6e8d6216f763644b925d593921909809c1d6aae9b87c47478a6b6c449b13b2d48e004e0aa3095fcae7bd03a9"
+RPM_NAME = "libvirt-nss-9.5.0-2.1.aarch64.rpm"
+RPM_HASH = "28173ee38fa9a12528355164e0aa3c4bb095dc9abe30a90764981932520e66dce7561082e1cc199418970e70f5074616cdf2a97e844e7b7686b5fbf835693ce9"
 
 RPROVIDES:${PN} += "libnss-libvirt-guest.so.2 \
 libnss-libvirt.so.2 \

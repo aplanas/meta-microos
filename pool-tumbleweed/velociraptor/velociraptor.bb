@@ -12,8 +12,8 @@ LICENSE = "AGPL-3.0-only"
 
 PV = "0.6.7.5~git81.01be570"
 
-RPM_NAME = "velociraptor-0.6.7.5~git81.01be570-3.3.aarch64.rpm"
-RPM_HASH = "5b515159c54293e924c56c2b807d22b2b130c3f36a71ff634604dcc495a1a0f18efbf38f73d9c3bbfe197e8a57e41dc3809c6782ac28da9632ea98ad9e075bb9"
+RPM_NAME = "velociraptor-0.6.7.5~git81.01be570-4.1.aarch64.rpm"
+RPM_HASH = "6d69a2d914810d9a207899500c219542422e8edb03b8f8eaffbeac0e28dcef3f3161b1a8bc4db4008fc8e1e8c22ebaf0c8560eefa2d7b657a3d4b6f8c5ff11ba"
 
 RPROVIDES:${PN} += "config-velociraptor \
 velociraptor"

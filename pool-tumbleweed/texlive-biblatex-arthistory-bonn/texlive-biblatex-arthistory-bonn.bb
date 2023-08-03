@@ -8,10 +8,10 @@ outcome according to one's own preferences. The style is \
 compatible with English and German."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn46637"
+PV = "2023.209.1.2svn46637"
 
-RPM_NAME = "texlive-biblatex-arthistory-bonn-2023.201.1.2svn46637-53.1.noarch.rpm"
-RPM_HASH = "dac3ca93986fdf870e461e232efc56c9d90ff3723c3efbe3f185bffce5744a86ddf1b7fd3baff84b86316df895201ddfdd6ca43f38e74596d986193197d45a96"
+RPM_NAME = "texlive-biblatex-arthistory-bonn-2023.209.1.2svn46637-54.1.noarch.rpm"
+RPM_HASH = "50697e32c15651b803bc5d4ffd9441b222e3e8e1439ff12fd38997cbb193be8e6215789cffdd8c20b3329ae708d370c80d6d57e6b68755ecf01d4eafd0b066a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-arthistory-bonn-english.lbx \

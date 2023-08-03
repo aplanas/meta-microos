@@ -5,10 +5,10 @@ font, in a LaTeX document. The package uses OpenType fonts, and \
 as a result must be compiled with LuaLaTeX or XeLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2.4svn56473"
+PV = "2023.209.0.0.2.4svn56473"
 
-RPM_NAME = "texlive-lilyglyphs-2023.201.0.0.2.4svn56473-54.1.noarch.rpm"
-RPM_HASH = "9d04a56229ed5b05790478e46a44cb6b67e9d180e59673e02d6b5ec4c55b83438326185bf4ace6adc89fc86b9e2f2b15873c91115a498896500c51a6d5151887"
+RPM_NAME = "texlive-lilyglyphs-2023.209.0.0.2.4svn56473-55.1.noarch.rpm"
+RPM_HASH = "be8fa3b949133331fbe4b30a633c9bc889ce5df8382f14cb6d02a3175b86f652297a46121c31514e0ac81d14b92e41984c7b4cfc36cb8225dee9255bd02260ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lilyglyphs.sty \

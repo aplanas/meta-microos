@@ -7,10 +7,10 @@ through arbitrary paths. Parameters, that specify the shapes of \
 nodes and the styles of edges, may be adjusted."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn19717"
+PV = "2023.209.0.0.3svn19717"
 
-RPM_NAME = "texlive-automata-2023.201.0.0.3svn19717-53.1.noarch.rpm"
-RPM_HASH = "a98df2dc31756d9f41d665da1f9776049266b994e7c577af5066bd564696913980e0c7db4421500623650ddfb30de480f4c678cd84c56bb044e81a5d8c8bbad5"
+RPM_NAME = "texlive-automata-2023.209.0.0.3svn19717-54.1.noarch.rpm"
+RPM_HASH = "e16fcae45cca601055d5efe3244375a62578453f56b994fc68cc89ca042f62bf32ded97ad761c353790c95319f9dc8f51ec2b022a8a8f62b18fd99c6f9821cf4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-automata"

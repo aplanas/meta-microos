@@ -5,10 +5,10 @@ firmware for Virtual Machines using the edk2 code base. \
 This package contains the tools from edk2."
 LICENSE = "BSD-2-Clause-Patent"
 
-PV = "202302"
+PV = "202305"
 
-RPM_NAME = "ovmf-tools-202302-3.1.aarch64.rpm"
-RPM_HASH = "8daafe008f61d49f7d6610ac57554407246f7fd4fa06a04d1f375819172c0b7c282b192f68790828bbc8a251bb83ff06d2d0dc0d4d70f50697dfc7339e32ee7d"
+RPM_NAME = "ovmf-tools-202305-1.1.aarch64.rpm"
+RPM_HASH = "5b793a0bac15a207c26084718c7b00e5f8a2083566e4f6d6957282d124c6b32dc9569d29956910e8ee31ffb22257a424bda95aa58851cc34a3c218d3acb8989a"
 
 RPROVIDES:${PN} += "ovmf-tools"
 

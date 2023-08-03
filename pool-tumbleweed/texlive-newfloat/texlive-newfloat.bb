@@ -5,10 +5,10 @@ which behave like the LaTeX standard foating environments \
 figure and table."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1lsvn52906"
+PV = "2023.209.1.1lsvn52906"
 
-RPM_NAME = "texlive-newfloat-2023.201.1.1lsvn52906-54.1.noarch.rpm"
-RPM_HASH = "1d246db6a10edcdc2b179480b9adc6f44217b89bef986b42f5a38b86695a305f62b67a5a997d0d6f66eb86fe9311b81b2eaa4b45fcc28802b86f23cbe8784ce0"
+RPM_NAME = "texlive-newfloat-2023.209.1.1lsvn52906-55.1.noarch.rpm"
+RPM_HASH = "37a3c375f0c8ba3897898d08f54b7d3891bc28de11d05d98d31333932f4e5ee72f24d836eb8ce2eca3b1def26c8f62585dc44e420ee9bcae8ecc21e9cd055e46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-newfloat.sty \

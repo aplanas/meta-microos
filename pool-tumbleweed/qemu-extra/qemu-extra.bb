@@ -13,8 +13,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.3"
 
-RPM_NAME = "qemu-extra-8.0.3-1.1.aarch64.rpm"
-RPM_HASH = "61ec39fd9596b289c14bd56baf5e47093689eec67f3d3823304dc7bbd2f1596447aab71a52df6a754f058a0e763f87b60203382f725609284b38b9fadaf2b5bb"
+RPM_NAME = "qemu-extra-8.0.3-2.1.aarch64.rpm"
+RPM_HASH = "41b54fed037c35acdd18d46717bf226dca3892d34dab14454a3ceae93a1b47e5d80e98c99d224e6e307dd9edfcbbc9a3b8f554c835509d850f2dfb3a69e9a9d6"
 
 RPROVIDES:${PN} += "qemu-extra"
 

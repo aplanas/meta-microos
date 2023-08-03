@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 UiTools library - Development files"
 DESCRIPTION = "Development files for the Qt6 UiTools library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-uitools-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "6d98053b046f054dede529bbfe76669a17aef5148eebd147c56eb3542a8e6f22043832f2b57f67b4a9c7c070f692e15234a052b4b0b6e2de484e7bc17a5f079c"
+RPM_NAME = "qt6-uitools-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "3a982832b3d729069934990dd3eeb8597a80135f6d13c237d17310d48d2cd8953147264cdcafe3b235436ac0c49371566522fecc778f4249e4c4dd8c123ed8db"
 
 RPROVIDES:${PN} += "cmake-Qt6UiTools \
 pkgconfig-Qt6UiTools \

@@ -7,10 +7,10 @@ will be rendered correctly depending on which package option \
 was selected. The system can also be changed mid-document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66115"
+PV = "2023.209.svn66115"
 
-RPM_NAME = "texlive-octave-2023.201.svn66115-54.1.noarch.rpm"
-RPM_HASH = "a2db0e0f572079b0d6ed57e47659906b078ab1eee0561651a0bfe3d494b605100fafad4f97a7b61c8d3f436fb2954797a2adae9984e6c4e4842c3900bca25824"
+RPM_NAME = "texlive-octave-2023.209.svn66115-55.1.noarch.rpm"
+RPM_HASH = "80a9b1e2b60abd3bcb26d35d4d17c16a3d448417108f4eef1adf5f16cb4933f687dd28653ebb7327b7a8a50a8fa53fde5f19b90996507b704b814eba7b7cefc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-octave.sty \

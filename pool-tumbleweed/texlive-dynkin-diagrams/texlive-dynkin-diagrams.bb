@@ -5,10 +5,10 @@ etoolbox, expl3, mathtools, pgfkeys, pgfopts, TikZ, xparse, and \
 xstring."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.1415926535897932svn58758"
+PV = "2023.209.3.1415926535897932svn58758"
 
-RPM_NAME = "texlive-dynkin-diagrams-2023.201.3.1415926535897932svn58758-53.2.noarch.rpm"
-RPM_HASH = "5653daa7df0a31d17b71dca01e252223e5d2aab93b9da8784c42fdbe0c1216be69bf6a55d1c38c399b96ad6c613aef9ab18250d6a498da16564690eeaad74b86"
+RPM_NAME = "texlive-dynkin-diagrams-2023.209.3.1415926535897932svn58758-54.1.noarch.rpm"
+RPM_HASH = "edee0b4e63c990315201961a89609829f538e0eade6697bfd84e1cffb12db25927bb5eaf38e1c304f510296ccab0d7216bcddeb25e019bdea48f6dda84990d02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dynkin-diagrams.sty \

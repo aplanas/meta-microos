@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-venturisadf"
 DESCRIPTION = "The  separated fonts package for texlive-venturisadf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.005svn19444"
+PV = "2023.209.1.005svn19444"
 
-RPM_NAME = "texlive-venturisadf-fonts-2023.201.1.005svn19444-53.1.noarch.rpm"
-RPM_HASH = "7db6f9009abdec10738b83e438d0e77bcc1ce5bbc3836ebd53d15c0fd97048dbd6b0b8dcba9a255f4214f4c469b02e0b7e2a2afd168347a88239f6ec7832d708"
+RPM_NAME = "texlive-venturisadf-fonts-2023.209.1.005svn19444-54.1.noarch.rpm"
+RPM_HASH = "be52199fd264f80d57080694abd605635086ae37f6d42ac9995b80c44fb947f6b6eb5c02269c9a63cd88a4ac21f52155b7ef9efa62835267fa49f48607932d94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

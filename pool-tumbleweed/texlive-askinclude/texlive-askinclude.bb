@@ -4,10 +4,10 @@ command. There is provision for answering 'same as last time' \
 or 'all files'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.7svn54725"
+PV = "2023.209.2.7svn54725"
 
-RPM_NAME = "texlive-askinclude-2023.201.2.7svn54725-53.1.noarch.rpm"
-RPM_HASH = "0c821abb319d089dfcbaab27cce35011d233ac0528d4d2af670a82c4b84360e55db21fc438bf9e3e07389c5d37f3de996b5d17a7f090060b9b3cd480a2c61038"
+RPM_NAME = "texlive-askinclude-2023.209.2.7svn54725-54.1.noarch.rpm"
+RPM_HASH = "65b828fe4cc423278fb48018b53169d8aee55fef929207f247d2420da51748e24e452eb5b79454306ef6935741676d76e0b64a247d510f6f07575b4ce898bcf6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-askinclude.sty \

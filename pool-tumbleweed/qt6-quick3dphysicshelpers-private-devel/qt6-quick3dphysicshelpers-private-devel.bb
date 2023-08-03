@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for the Qt 6 Quick3DPhysics private library. \
 This library does not have any ABI or API guarantees."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-quick3dphysicshelpers-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "b18b40306715ffbf14fd3a40b09bc8f714c50a377953466064fa6b7466f13cc9d4ac09a9e1c9bc2aa917b8b3113c37bbc99e92e781465a41372b9bf9454715ea"
+RPM_NAME = "qt6-quick3dphysicshelpers-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "ec075686a32758befdefad0b2be567a90c682066832cdbdd8952585ab34cfb826b3655c2ee0d1d873b27f9d9169c19c9786295d13bb87dcad35252be6b080c9c"
 
 RPROVIDES:${PN} += "cmake-Qt6Quick3DPhysicsHelpers \
 pkgconfig-Qt6Quick3DPhysicsHelpers \

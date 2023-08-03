@@ -3,10 +3,10 @@ DESCRIPTION = "The font covers an old Turkic script. It is provided as \
 Metafont source."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-orkhun-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "6f4548764f8fdbcb5ed29f9e95df9832d5891a97eb1733c06d938305df1d39b32e5ec64726a73d00a0fb279ab09170e9ad26125baeace6f24f45a98e534c4ab0"
+RPM_NAME = "texlive-orkhun-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "02c38ca574c69070daaaa5b3ef104b8deb5c59e75577c7884ac1e74d034227ce0f860cd62f5cda5611de2997fd5cfc3b38864ce9895e7c855e9aa9323634d3f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-orhant11.tfm \

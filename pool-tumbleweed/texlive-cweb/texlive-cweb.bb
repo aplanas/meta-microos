@@ -15,10 +15,10 @@ version and adding new features from CWEBbin. As of November \
 the package's github repository for more information."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.204.svn66186"
+PV = "2023.209.svn66186"
 
-RPM_NAME = "texlive-cweb-2023.204.svn66186-54.1.noarch.rpm"
-RPM_HASH = "c6b89002fbe405b6ff345826a4eadca70642df6e804e6f441093ac61fdc49c10954470c11b1491146b931696e9d2f6c7c4a9e001f8c2a8aa90c5a1beee223b6e"
+RPM_NAME = "texlive-cweb-2023.209.svn66186-55.1.noarch.rpm"
+RPM_HASH = "b0fbd7e811173a1b27232a18543e52a414c6820c479c3e76a4358ff472590b97ed38be3c9c6ce5ff13d5497dffaea4ab5fa902f5329c620e71ec1d390901603d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Xcwebmac.tex \

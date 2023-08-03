@@ -7,10 +7,10 @@ es moglich, beliebige deutsche Texte in diesen Schreibschriften \
 zu schreiben."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.5svn59388"
+PV = "2023.209.5svn59388"
 
-RPM_NAME = "texlive-schulschriften-2023.201.5svn59388-53.1.noarch.rpm"
-RPM_HASH = "9dc7f422de0e87adfd822259eeb565c0d9581c083e104ecb800750d954eb35ef6e24f7a465287577bd5cd4afe069b68faca8e67cca1377e96c2bd1f1c79f7f06"
+RPM_NAME = "texlive-schulschriften-2023.209.5svn59388-54.1.noarch.rpm"
+RPM_HASH = "16b23f493cbdb6507cef7103d723644ab6964ff5ac5f20883bbeb917291214c048654c3c13fef484bf261244dd085a93aa4d45d7b1f3dbebf02a9d224be8ef47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-schulschriften-lin.sty \

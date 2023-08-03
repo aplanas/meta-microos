@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-ektype-tanka"
 DESCRIPTION = "The  separated fonts package for texlive-ektype-tanka"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn63255"
+PV = "2023.209.0.0.2svn63255"
 
-RPM_NAME = "texlive-ektype-tanka-fonts-2023.201.0.0.2svn63255-53.2.noarch.rpm"
-RPM_HASH = "ee0fbdde506a58d46ab0673991b7a14d0368f11513e6bd4d9cdf610ff69555830fa06a83bf9a13bbe4cecc87cff59049b8ba7e348b396fc4472b7fb89e796ea2"
+RPM_NAME = "texlive-ektype-tanka-fonts-2023.209.0.0.2svn63255-54.1.noarch.rpm"
+RPM_HASH = "d00a097ebe16c9e046dc881b51197dd625d2b7053523d1b342cd6aa6cf0cf72b532621ea31fc7576c2b2684403baa7cd77ce987e6ae2973ede7e810a34c7aba8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

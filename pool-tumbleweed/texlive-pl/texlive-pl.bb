@@ -5,10 +5,10 @@ originally a part of the MeX distribution (and they are still \
 available that way)."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.09asvn58661"
+PV = "2023.209.1.09asvn58661"
 
-RPM_NAME = "texlive-pl-2023.201.1.09asvn58661-51.1.noarch.rpm"
-RPM_HASH = "75cf295596457413642119c24f94d8306c29efabc8d7d59fe6674e0008cccd0eb368279e76a2e94c0e5395e8bc24e64b9c414291d51b2621391f4b1666ed79c6"
+RPM_NAME = "texlive-pl-2023.209.1.09asvn58661-52.1.noarch.rpm"
+RPM_HASH = "802752b7ccbfca8360ef11e39699fe371d1cc9dde79786586e4d53a835a7c33752b977499db5f138cfcd389447549500e4da0e26c4f77b0ac20b0ee1bf850440"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-plb10.tfm \

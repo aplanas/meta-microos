@@ -11,10 +11,10 @@ provided to make reference names (including the standard \\label \
 command)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.8svn21472"
+PV = "2023.209.1.8svn21472"
 
-RPM_NAME = "texlive-enumitem-zref-2023.201.1.8svn21472-53.2.noarch.rpm"
-RPM_HASH = "b8c87c940740e0208452092128d9ddea52644dfc6cf017b0198035cf66e3dfc362fa5c02d7827acd9745374d38cd897bd2265126f6a032b3a1a7783928ed2585"
+RPM_NAME = "texlive-enumitem-zref-2023.209.1.8svn21472-54.1.noarch.rpm"
+RPM_HASH = "8ccc2ce019aaa749ce516d879f379cb9d058a94200f39c99112f76a2daeaed1ddbd319f1a21bc2dcaf9497fe59a98740cd2e559b3df4635608a32081de5694f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-enumitem-zref.sty \

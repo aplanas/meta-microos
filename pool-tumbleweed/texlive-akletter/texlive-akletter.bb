@@ -10,10 +10,10 @@ date-handling in the isodate package. The class supersedes an \
 earlier class called myletter."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5isvn15878"
+PV = "2023.209.1.5isvn15878"
 
-RPM_NAME = "texlive-akletter-2023.201.1.5isvn15878-54.1.noarch.rpm"
-RPM_HASH = "944e29bd8bdce21c7c1f281e60eebe50dbd4b89e0480d85b213081dd7b1ec30667faa885fe42b824877acb6e53911c0e0151b4439fd57bcf85f81970b012bec3"
+RPM_NAME = "texlive-akletter-2023.209.1.5isvn15878-55.1.noarch.rpm"
+RPM_HASH = "12be5dbb3496431c90189d47e856f2e9a4190631c29e62727b9a690f5b15e49055e5bf2bc56ab97ce2ff0252d341754de9679f5bf1c607d4abf0df2d459e7d51"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-akfax.cfg \

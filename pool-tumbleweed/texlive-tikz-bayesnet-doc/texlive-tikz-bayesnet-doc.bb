@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tikz-bayesnet"
 DESCRIPTION = "This package includes the documentation for texlive-tikz-bayesnet"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn38295"
+PV = "2023.209.0.0.1svn38295"
 
-RPM_NAME = "texlive-tikz-bayesnet-doc-2023.201.0.0.1svn38295-54.1.noarch.rpm"
-RPM_HASH = "0b4693a792e0dff1d43eae7ab7604d86df05896f3915adb554e2bc7146d9100d00bbb07c320558f577ce1dce89be61dd866563ae150cd460d967a2f9d8de9768"
+RPM_NAME = "texlive-tikz-bayesnet-doc-2023.209.0.0.1svn38295-55.1.noarch.rpm"
+RPM_HASH = "a13536494d5e2caf918f11cab038d6c42c8d9bbf5982f2158631969cd589f487c270df20f832e60a368f3757baa9ac7fb3896b857175d205124c83e700e1aa80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikz-bayesnet-doc"

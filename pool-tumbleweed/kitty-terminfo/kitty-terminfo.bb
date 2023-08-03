@@ -2,10 +2,10 @@ SUMMARY = "The terminfo file for the Kitty terminal"
 DESCRIPTION = "Provides 'xterm-kitty' terminfo file(s) for the Kitty terminal; this package can be installed on its own to provide file(s) instead of the full kitty package on remote systems."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.29.1"
+PV = "0.29.2"
 
-RPM_NAME = "kitty-terminfo-0.29.1-1.1.noarch.rpm"
-RPM_HASH = "5a57cb1613755ba34746f2c9672d3ded40d22f4eaeedb812bfa4992a8f43a3e291fd2889860528f2f628b2d67fb26dc1dbc50fb45e8c2f3bb194c4b475e7baea"
+RPM_NAME = "kitty-terminfo-0.29.2-1.1.noarch.rpm"
+RPM_HASH = "6f81a318c7f012f0a379eee4044a78caf625293ce3f807b018496f4f73763b21d02ee84dc43eb094663dbf071149d072e518dbf9c69fee1b572e26c9266eb87b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kitty-terminfo"

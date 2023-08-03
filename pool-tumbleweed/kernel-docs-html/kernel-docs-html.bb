@@ -1,15 +1,15 @@
 SUMMARY = "Kernel Documentation (HTML)"
 DESCRIPTION = "These are HTML documents built from the current kernel sources. \
  \
-Source Timestamp: 2023-07-11 06:23:11 +0000 \
-GIT Revision: 5ab030f1f07fd96746960bce337ec62fc11b6a9a \
+Source Timestamp: 2023-07-25 04:42:30 +0000 \
+GIT Revision: 55520bc826c5b1d40857ed0536eb87438cb95192 \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.3"
+PV = "6.4.6"
 
-RPM_NAME = "kernel-docs-html-6.4.3-1.1.noarch.rpm"
-RPM_HASH = "b8e2c46613715fd66c634b40ed2414e0c3420245af6c2d9e186090d9d2fc9f5af30429d1b908bdad4ca78be33f6edaa0bfd67540340065c2414aa547be75e21e"
+RPM_NAME = "kernel-docs-html-6.4.6-1.1.noarch.rpm"
+RPM_HASH = "8d24f4579a877d5eed6addf0ef2b924341cf9e23121558bd36b55aa35ea504dcbec245a925f6b4f5c218a3dc98b7b0114b527d6c336b70af6107e0ce51d9fe75"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kernel-docs-html"

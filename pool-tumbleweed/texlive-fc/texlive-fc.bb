@@ -5,10 +5,10 @@ modest set of glyph specifications. (A similar arrangement \
 appears in the ec and lh font bundles.)"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.4svn32796"
+PV = "2023.209.1.4svn32796"
 
-RPM_NAME = "texlive-fc-2023.201.1.4svn32796-52.1.noarch.rpm"
-RPM_HASH = "fb8ac973e485d8457fbd26c0492771a9d0252ca9abd2ef947e1d5701421bc05dfc516695e4ff9d783d786714b459f1640411ea18c51b274889a5d3e90d498840"
+RPM_NAME = "texlive-fc-2023.209.1.4svn32796-53.1.noarch.rpm"
+RPM_HASH = "29ff42be9dcde2225e093f188bb08243854cd372df2fe0db4c08d506d7cd407c75a950b999f0e4afd1863ed3ce65e931db10a0db78227eef61f5475e25ff4b75"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fcbx10.tfm \

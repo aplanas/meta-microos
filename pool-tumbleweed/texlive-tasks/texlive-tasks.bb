@@ -6,10 +6,10 @@ columns counting horizontally rather than vertically. This is \
 what the tasks package helps to achieve."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4asvn61541"
+PV = "2023.209.1.4asvn61541"
 
-RPM_NAME = "texlive-tasks-2023.201.1.4asvn61541-54.1.noarch.rpm"
-RPM_HASH = "5f9eff48642190fc53674ce0f071aef62f3fbb98559344c8a5063d15c7aa472fdf2b4f7307b5f7f5ecc2946416e6f1a41940bc3fe5783a4a2190b243f07bd15e"
+RPM_NAME = "texlive-tasks-2023.209.1.4asvn61541-55.1.noarch.rpm"
+RPM_HASH = "a2a0fa206abd2e5a2e5bebd0f8ddb604571461e467295be9244912f2199c819fecb3e274afbef4759c245f92e732385c1efeed126594bb38779303ce9f963465"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tasks.cfg \

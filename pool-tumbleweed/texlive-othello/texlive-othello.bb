@@ -3,10 +3,10 @@ DESCRIPTION = "A package (based on Kolodziejska's go), and fonts (as Metafont \
 source) are provided."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-othello-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "8d5d4532fbaea015eaa46b43337bf86f967b769e497c8a5229ce7db311e23d299874e60887a0ac5297bd2c1b04e4fa24d8dd75b61075af1e79f8883a87f09e51"
+RPM_NAME = "texlive-othello-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "800fd8c5a884c5ffa4d9817d972114a1b51310b1186619d56623425bdf2acbff8c33bfb3ff9b122974f6b23091e31d54686d3cff20e0ca92d6b4ff5dae323ddc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ot10.tfm \

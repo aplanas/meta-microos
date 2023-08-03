@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a script to scale pictures down to a \
 target resolution before creating a PDF document with pdfLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.32svn46617"
+PV = "2023.209.0.0.32svn46617"
 
-RPM_NAME = "texlive-pdflatexpicscale-2023.201.0.0.32svn46617-51.1.noarch.rpm"
-RPM_HASH = "7b9cb6493de54c3f8ec7af65af4636f7ea50910fe904a61e7ee9da4d9566093460a8105e31f8c9832bb6c3a8399ad27ee4e79f9a3f9e4b1f730640eeedcb575a"
+RPM_NAME = "texlive-pdflatexpicscale-2023.209.0.0.32svn46617-52.1.noarch.rpm"
+RPM_HASH = "e80bb13ca965620f4ba6670e54559b7d681b3875f58319b24fee39f3ed99d1826eef9da3626f584facf2b75ff4b3663b14b17ae886c852b7bedae31d5a570171"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdflatexpicscale"

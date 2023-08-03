@@ -9,10 +9,10 @@ as sectioning, per-part running marks, 'Question n continued' \
 catchwords, and so on. Readily configured local adaptation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4.0svn64674"
+PV = "2023.209.1.4.0svn64674"
 
-RPM_NAME = "texlive-exam-n-2023.201.1.4.0svn64674-52.1.noarch.rpm"
-RPM_HASH = "431809e76fcc9289d763908887e399dd4dfca3782cba9359f52f976a3b786158ca44be2725d3ace41b73db3f12e25871646b99214db77fd423887734380cb00c"
+RPM_NAME = "texlive-exam-n-2023.209.1.4.0svn64674-53.1.noarch.rpm"
+RPM_HASH = "89369b7434b15415208b13032af5727660b2ff5689ce2624d076c601d70b8eaa2d0de297987161039ed9e6014f68381bcded3f7dc0b97126ca0800823a0cf67b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-exam-n.cls \

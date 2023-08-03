@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-iwona"
 DESCRIPTION = "The  separated fonts package for texlive-iwona"
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.201.0.0.995bsvn19611"
+PV = "2023.209.0.0.995bsvn19611"
 
-RPM_NAME = "texlive-iwona-fonts-2023.201.0.0.995bsvn19611-55.1.noarch.rpm"
-RPM_HASH = "b5819628cdf1e2fcb6ca1d196eda73a08d56a4862447c25d27a3564412e2cb9ed2ef8b025e187476d856836680f38cfa127c34ff69ad4e128e11424343666a70"
+RPM_NAME = "texlive-iwona-fonts-2023.209.0.0.995bsvn19611-56.1.noarch.rpm"
+RPM_HASH = "46aa59c3a6198aa69e1a2f81b2faec4d0e1951413fd64638c99c3f265bb2abe6937f9fb9ed8641d1b1a39f73fb182585314d06c07500c63eb127cd9b26c30d30"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-iwona-fonts \

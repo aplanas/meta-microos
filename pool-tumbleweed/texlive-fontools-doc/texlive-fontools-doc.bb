@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fontools"
 DESCRIPTION = "This package includes the documentation for texlive-fontools"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn65706"
+PV = "2023.209.svn65706"
 
-RPM_NAME = "texlive-fontools-doc-2023.201.svn65706-52.1.noarch.rpm"
-RPM_HASH = "2b8db6f62239e1434cad83032289981cae9deef483501b3c4ead7c183015238d21cda44cf988fdc75bb5c5fb636283bbf7d93d061703572963aaf98e3f4ee3ec"
+RPM_NAME = "texlive-fontools-doc-2023.209.svn65706-53.1.noarch.rpm"
+RPM_HASH = "723d24a17b0296fb251bdbb7c1f658f6d802d700dc698b8bb30db95e7592f4bf0d44aeac485d666b35870626b845e44010a6bf2852694a7406062632066dc1c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-afm2afm.1 \

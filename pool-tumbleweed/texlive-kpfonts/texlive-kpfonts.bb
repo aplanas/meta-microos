@@ -16,10 +16,10 @@ though the fonts are very clearly different in appearance from \
 their parent."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.35svn65583"
+PV = "2023.209.3.35svn65583"
 
-RPM_NAME = "texlive-kpfonts-2023.201.3.35svn65583-55.1.noarch.rpm"
-RPM_HASH = "199a0f36e5e32ba7b505a544a5621d9f7f17f12f44e625fe31e3de77acce80ec0effcc05bd05227044a81d6f0e7951e950b9a7a6974b692fd6caa88d2cc7999c"
+RPM_NAME = "texlive-kpfonts-2023.209.3.35svn65583-56.1.noarch.rpm"
+RPM_HASH = "3b6dff9a8eeb07eaaf31d0ded5c8eb67d91c7fb40d2c01620c57551cfa8f658ec70a08bdc6c85f9c74b11f0aa5b7cb8004b19ecce8d49b96624f05739c93d5f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jkpbex.tfm \

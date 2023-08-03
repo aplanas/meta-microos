@@ -4,10 +4,10 @@ videos, datasets, and graphics with text pointers inside Git, while \
 storing the file contents on a remote server."
 LICENSE = "MIT"
 
-PV = "3.3.0"
+PV = "3.4.0"
 
-RPM_NAME = "git-lfs-3.3.0-1.6.aarch64.rpm"
-RPM_HASH = "c0aa0609a19d3eaebb0d1841adf1c333685570d7ac2c8d7db96d20bcf56f8d2fd9ec7c4edbbb04a4fabdf7cb5227bc6b4c115db33c1855ed5539f51d1f3edd5b"
+RPM_NAME = "git-lfs-3.4.0-1.1.aarch64.rpm"
+RPM_HASH = "919a0880c39ca3195ef4a9634983d5c8d15b009a985118c5949eefa429704c16bfa049fe44e372ff5bab4b53f2bc88112bd9f0e7d0caa83d4f30531683d9d586"
 
 RPROVIDES:${PN} += "git-lfs"
 

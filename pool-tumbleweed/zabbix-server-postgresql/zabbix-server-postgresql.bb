@@ -2,10 +2,10 @@ SUMMARY = "Zabbix server with PostgreSQL support"
 DESCRIPTION = "The Zabbix server compiled with PostgreSQL support."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.0.17"
+PV = "6.0.19"
 
-RPM_NAME = "zabbix-server-postgresql-6.0.17-1.2.aarch64.rpm"
-RPM_HASH = "7914d6faf609bc7836b1bdb7d3661f3b16137b17319ef75b2b452cddf6fbee7f2bf55dc8d8e22dd9c352bf4354bc3ce45bd1ca3e81f572d4526d0d57bcb3c509"
+RPM_NAME = "zabbix-server-postgresql-6.0.19-1.1.aarch64.rpm"
+RPM_HASH = "0aac9200d95498a67226543ae8d4f9d12a427e013bd6f9f75fd689c801883f139664c0a556fcdaf3ef2151b3688e5c6eef8a2a3d6d06e7f2edd09637f0420b98"
 
 RPROVIDES:${PN} += "zabbix \
 zabbix-server-binary \

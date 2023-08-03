@@ -3,10 +3,10 @@ DESCRIPTION = "The bundle constitutes a font (as Metafont source) and LaTeX \
 macros for its use within a document."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.2.0svn15878"
+PV = "2023.209.2.0svn15878"
 
-RPM_NAME = "texlive-casyl-2023.201.2.0svn15878-52.1.noarch.rpm"
-RPM_HASH = "45d4a341b44b2e78dbafc753d8cc2626550f8ad292cc436a99a55daa44b2334f6b9813c36a3c462c90741e4c8243291e28093b29f48b2605e7535e22cbee8ade"
+RPM_NAME = "texlive-casyl-2023.209.2.0svn15878-53.1.noarch.rpm"
+RPM_HASH = "a55d0697a3b1cdc3eac68608b5be27e5cb5233120f32b9570623f04833931e98d8399d9c9e7ac1cebf81e2adf408340df0df54f86ee5e6bea98efc73e2cb0919"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-casyll10.tfm \

@@ -4,10 +4,10 @@ High Availability environment for both Pacemaker and rgmanager \
 service managers."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later & GPL-3.0-or-later"
 
-PV = "4.12.0+git30.7fd7c8fa"
+PV = "4.12.0+git50.5c26404e"
 
-RPM_NAME = "resource-agents-4.12.0+git30.7fd7c8fa-1.2.aarch64.rpm"
-RPM_HASH = "f7537caa58d73fb01f425a4fb00c21a4c267115f07cf9ae65badd8cf801bd57a2826b8c6f8b0a8f15abdb3c1210304e12761b0a51ead05741bbd31922618e5b9"
+RPM_NAME = "resource-agents-4.12.0+git50.5c26404e-1.1.aarch64.rpm"
+RPM_HASH = "9a1e20b242e4f5895cbeb766d3c075d48506b6e22d7f8588ccec3de76d8ced045690c866f64cbabd199b163e52490b541ea5ea304d52589656d0978bfa98f930"
 
 RPROVIDES:${PN} += "aws-vpc-move-ip \
 config-resource-agents \

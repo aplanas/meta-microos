@@ -5,10 +5,10 @@ of an earlier (successful) package to use the facilities of the \
 xypic bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn38479"
+PV = "2023.209.svn38479"
 
-RPM_NAME = "texlive-barr-2023.201.svn38479-53.1.noarch.rpm"
-RPM_HASH = "724aca5cd9f682f84039aad4e7951a103aeb873579ce8b5a5df933dfde82fc465ccca38176ae3bfca477a7cc8773f1e8f1ccc1cf0f9ac5a48a2aabf6e5c29502"
+RPM_NAME = "texlive-barr-2023.209.svn38479-54.1.noarch.rpm"
+RPM_HASH = "e25547a6b4e3820f42cd9b7839404625d4b7c4a5a88a32759eb6352e5f9f18ae657776772c3e4a079a45f8fccb52d0f8c23338ff6761ff80ab27dd2f211df40c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-diagxy.tex \

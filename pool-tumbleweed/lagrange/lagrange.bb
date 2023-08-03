@@ -5,10 +5,10 @@ viewing, multiple tabs, visual themes, Unicode fonts, bookmarks, history, and \
 page outlines."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.16.5"
+PV = "1.16.6"
 
-RPM_NAME = "lagrange-1.16.5-1.1.aarch64.rpm"
-RPM_HASH = "8062911ea4ab5c33476e1d753f0952ccfcc24d15ec2e782dd8b40a6538bcf1cf2877c7a4ce261e1bc11de6454688041f9f01dcfb106fb5a2603dec90ba5786e3"
+RPM_NAME = "lagrange-1.16.6-1.1.aarch64.rpm"
+RPM_HASH = "4f65773deb233104031e548aac4342b7296bb04af48ba346f6de603b76587a43e882b33b4b9e09bd2a8f8e6baa2203a36e676da2910936b0868b3346580e8087"
 
 RPROVIDES:${PN} += "lagrange"
 

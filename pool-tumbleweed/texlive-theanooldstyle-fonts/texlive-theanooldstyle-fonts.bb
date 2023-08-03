@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-theanooldstyle"
 DESCRIPTION = "The  separated fonts package for texlive-theanooldstyle"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64519"
+PV = "2023.209.svn64519"
 
-RPM_NAME = "texlive-theanooldstyle-fonts-2023.201.svn64519-54.1.noarch.rpm"
-RPM_HASH = "509b8da77c0e4287e7b1d87dd098818e811ac84def3d369e38ea963d1cc46ac19ead89fdda179a148d023292a873d655627d320beb19c76bacbc987e27133dd4"
+RPM_NAME = "texlive-theanooldstyle-fonts-2023.209.svn64519-55.1.noarch.rpm"
+RPM_HASH = "0b5284fed157bf6d34c30fd1e39626587be3b342c897430a71c785465709254611365e1fc1d21de4a09b8a6a5a8319c333525a4f886a764e9f48b19e1713344b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-theanooldstyle-fonts \

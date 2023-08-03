@@ -5,10 +5,10 @@ inside a GstPipeline. In the end, fixing issues found by the tool will \
 ensure that all elements behave all together in the expected way."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "gstreamer-devtools-devel-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "86d96ccafbe16132d62b8419b16a9ff0526a9b7b6a47f89b8ac2c231d1cd0ed40474a97147a12742e2b8e21122be0f482cb7c1a76a9b17b99f415c841992cd1b"
+RPM_NAME = "gstreamer-devtools-devel-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "5eb5c0221747e4054c466ac53dc20410b1b09970b4f4629c0fd43caeac487fe47574450345c5c9e4d7ad0a0986b59b7af3fc7a88c7a9ec7826f55c3fe91f8386"
 
 RPROVIDES:${PN} += "gstreamer-devtools-devel \
 gstreamer-validate-devel \

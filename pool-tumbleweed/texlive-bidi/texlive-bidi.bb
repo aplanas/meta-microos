@@ -4,10 +4,10 @@ plain TeX and LaTeX. The package includes adaptations for use \
 with many other commonly-used packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.39.7svn65572"
+PV = "2023.209.39.7svn65572"
 
-RPM_NAME = "texlive-bidi-2023.201.39.7svn65572-53.1.noarch.rpm"
-RPM_HASH = "c9c51c14d0a2237b144b99800edcad705af414d41264cac59767b9d9eb28534afd21168853a58dd8d77bf0ea78f2598883df2d9fc9d749774aac44b2975f50fb"
+RPM_NAME = "texlive-bidi-2023.209.39.7svn65572-54.1.noarch.rpm"
+RPM_HASH = "eb775191d86863c122ba20d46dad5b2396225e4af9613242d2415bf66249eacf3885df8ef27fffa039f7bebbccf4e92e110eef8b329bb6da5d90d41b615fd9eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-adjmulticol-xetex-bidi.def \

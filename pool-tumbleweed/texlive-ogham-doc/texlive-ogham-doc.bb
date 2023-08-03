@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ogham"
 DESCRIPTION = "This package includes the documentation for texlive-ogham"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn24876"
+PV = "2023.209.svn24876"
 
-RPM_NAME = "texlive-ogham-doc-2023.201.svn24876-54.1.noarch.rpm"
-RPM_HASH = "c39caa0a36d7251d46b83971c863b9bcc60c3ec7ed2a83941566f41d2e60ed5a412e15e990159c73a4874c6825e893afb503ed7e6d0a1c46169abe37108c1dd8"
+RPM_NAME = "texlive-ogham-doc-2023.209.svn24876-55.1.noarch.rpm"
+RPM_HASH = "ec4adff9294acf8eadd2b57b7b93199334d6b8f15bf26c3273a991b8d5c127715a53936e1b41b1cbb9d577e3111f2e50882019fb339670c473fba0fc2e86b335"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ogham-doc"

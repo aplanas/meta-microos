@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-profcollege"
 DESCRIPTION = "This package includes the documentation for texlive-profcollege"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.99_z_fsvn66364"
+PV = "2023.209.0.0.99_z_fsvn66364"
 
-RPM_NAME = "texlive-profcollege-doc-2023.201.0.0.99_z_fsvn66364-52.1.noarch.rpm"
-RPM_HASH = "25e64021d58a3e5420a0d291f57ad764b0af17d996876236862a6c7fd958139dfff5f308779979a24c04690937b86d9dee419682e5f606bcf8a4c9ccf778a50b"
+RPM_NAME = "texlive-profcollege-doc-2023.209.0.0.99_z_fsvn66364-53.1.noarch.rpm"
+RPM_HASH = "0bdfcf7e949d529783c2c7f46368009fe2c9c226697a58f129eace598bb9ca6547f4994acce38d5a98ee65031e3cfc8bb9d4a3535afdf29882bd7e65d5c44395"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-profcollege-doc-fr \

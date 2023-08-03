@@ -5,10 +5,10 @@ oldstyle figures in all shapes. Includes OpenType and \
 PostScript fonts, as well as LaTeX support files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.076svn57080"
+PV = "2023.209.1.076svn57080"
 
-RPM_NAME = "texlive-baskervaldx-2023.201.1.076svn57080-53.1.noarch.rpm"
-RPM_HASH = "9232643ef2267fc83684f6eee32ac680e8a4a566a7cd06e0317a57e0397ac7da3fcdd90d9b7313713d1c868f9c31ac6697d13c07c0878acd9cd254e8f2f8f1b2"
+RPM_NAME = "texlive-baskervaldx-2023.209.1.076svn57080-54.1.noarch.rpm"
+RPM_HASH = "299cfaaac40c057813f43729baa41d6fbc6e20b89dd4357a8f1c455502423cb4d7017b1606fe61dd1fec1d5c80eb389e1e5bd5a31760a05a4bb1f639c1cf074f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Baskervaldx-Bol-lf-ly1--base.tfm \

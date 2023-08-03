@@ -4,10 +4,10 @@ categories and subcategories. It does not depend on BibTeX: any \
 bibliography may be split and reordered."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.17svn15878"
+PV = "2023.209.1.17svn15878"
 
-RPM_NAME = "texlive-splitbib-2023.201.1.17svn15878-57.1.noarch.rpm"
-RPM_HASH = "0888ba3e872e11fd7e9d80be215a7bf6bead83bf81570c43eb4043f82098ab8fd53e8d394991d195135888a72f94971259007ad595aae4ed510e5e33306c96b9"
+RPM_NAME = "texlive-splitbib-2023.209.1.17svn15878-58.1.noarch.rpm"
+RPM_HASH = "4f264e4a00beba2994cf44785fb5f9751933db430bcf79d4143776ab9aaeb2ef6ced1709dd5665a18034ef13d7d3685094f8a6ee195cb76b793568ccce726efc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-splitbib.sty \

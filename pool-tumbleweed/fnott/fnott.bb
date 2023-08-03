@@ -2,10 +2,10 @@ SUMMARY = "Lightweight notification daemon for Wayland"
 DESCRIPTION = "Lightweight notification daemon for Wayland."
 LICENSE = "MIT"
 
-PV = "1.4.0"
+PV = "1.4.1"
 
-RPM_NAME = "fnott-1.4.0-2.1.aarch64.rpm"
-RPM_HASH = "ed3915d59936b0b106c620a3ab8829390d4e008c3b0f87ef79b2c89c68259d172c80affdd31bce46a2e43ae4dacd7fd516b824bf58f791daea0626a1efd8c2a1"
+RPM_NAME = "fnott-1.4.1-1.1.aarch64.rpm"
+RPM_HASH = "1d6544c952ef3ad577d94009ee8d4d0fc103d820255b75747f0f75a12a3823b0f744b9f712d1a1626bf1e7a457131b446df0def9fea8929d037af655e840a891"
 
 RPROVIDES:${PN} += "fnott"
 

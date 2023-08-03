@@ -5,10 +5,10 @@ fonts with Computer Modern counterparts. The package is loaded \
 with \\usepackage{hep-font}."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn64900"
+PV = "2023.209.1.1svn64900"
 
-RPM_NAME = "texlive-hep-font-2023.201.1.1svn64900-53.2.noarch.rpm"
-RPM_HASH = "3578bcf59a716e7669212773fefa6c323930c7c42a17557adc38e2419d19f9af37bc97d4e10a99355f278605a253cdc2a3d1d55ae69bccdf1bbf51e6c9321e52"
+RPM_NAME = "texlive-hep-font-2023.209.1.1svn64900-54.1.noarch.rpm"
+RPM_HASH = "f2d7eebad7a39a14041bf26ace422d248cd8d1328fef3da0e2029614d4f5476e4c8251a6c8ef9004e194d93d3055ea73aea01c32d17c328cb7b7b987d7a991b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hep-font.sty \

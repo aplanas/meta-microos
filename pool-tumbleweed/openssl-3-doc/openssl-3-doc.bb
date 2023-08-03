@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.1"
 
-RPM_NAME = "openssl-3-doc-3.1.1-2.1.noarch.rpm"
-RPM_HASH = "c75d3e51650c946feda00a89720c898fd3450d1e2ef493850dfda1f180d0c208cee494cfd174eba8f8215349b9839931f5d4a595e5c53bb0bf53c2b4a36ea769"
+RPM_NAME = "openssl-3-doc-3.1.1-3.1.noarch.rpm"
+RPM_HASH = "c889a149071ded00c0038bbd4e145dbf8d42fb8ecf09b7ada6850b3b2f16c8f93c7053b9ab40ed09a653d0e19f243ef95e689838de6d9ec781f18a156f4764f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openssl-3-doc \

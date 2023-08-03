@@ -5,10 +5,10 @@ short and thus enables quickly specifying UML diagrams. Using \
 dot, PlantUML layouts the diagrams."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3.1svn55214"
+PV = "2023.209.0.0.3.1svn55214"
 
-RPM_NAME = "texlive-plantuml-2023.201.0.0.3.1svn55214-51.1.noarch.rpm"
-RPM_HASH = "38dccedd73e612226eeb20dbc398f66340fb92cc52c9fe519d67de32c67d10781cd3fefa6c4015d304ebb74d20f796297fbb84a320f36b610c700ecf7d01b44a"
+RPM_NAME = "texlive-plantuml-2023.209.0.0.3.1svn55214-52.1.noarch.rpm"
+RPM_HASH = "c40229977377358316a6c69b9e50d890b63f944e2c078e0dc09a0f1192a29546330fdf934bf8108f02a238c453589e3e912bb60dd4d9ea321ab53d530e3a1801"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-plantuml.sty \

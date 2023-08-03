@@ -4,10 +4,10 @@ is a redistribution derived from the upTeX distribution by \
 Takuji Tanaka."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.svn65657"
+PV = "2023.209.svn65657"
 
-RPM_NAME = "texlive-uptex-fonts-2023.201.svn65657-53.1.noarch.rpm"
-RPM_HASH = "8ad68849fced64af19446a31da60eea251d737a8ee21ee709f1eb3393c4f2f42460a950deec30440ff5e8682da1be1289c85460d3db9d49d517293a2c055dcf6"
+RPM_NAME = "texlive-uptex-fonts-2023.209.svn65657-54.1.noarch.rpm"
+RPM_HASH = "16e28ec06351fb77e993c3ed3d12c729f20551894fbfefe00f9a2f936e9c69b10203f6acea45f7f8ec6b129656931d18d0e4462d6239a81123fac343cd2d9a40"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-makejvf-upjis.cnf \

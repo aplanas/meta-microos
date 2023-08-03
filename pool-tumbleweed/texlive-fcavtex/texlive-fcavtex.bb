@@ -5,10 +5,10 @@ Jaboticabal UNESP) brazilian university, written based on the \
 institution rules for thesis publications."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn38074"
+PV = "2023.209.1.1svn38074"
 
-RPM_NAME = "texlive-fcavtex-2023.201.1.1svn38074-52.1.noarch.rpm"
-RPM_HASH = "922f44ea43ad3baaaf906c6d2e03079ad61de47476414fb5621f72ee77886eda5d933f261dbe26febb98046b381f8cd0e764b39fcd2091fd08b785ec4de26f39"
+RPM_NAME = "texlive-fcavtex-2023.209.1.1svn38074-53.1.noarch.rpm"
+RPM_HASH = "4fd33ae74c4fbf4cb015c400aae5333aacdd7a7aae445b1e07adaeb4da802edb4db87b6dc1abb28226b0c1b2e8f0fa9da9af173f81ed14f2a652bacbe1f6ffba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fcavtex.cls \

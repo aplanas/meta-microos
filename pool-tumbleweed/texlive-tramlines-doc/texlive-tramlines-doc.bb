@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tramlines"
 DESCRIPTION = "This package includes the documentation for texlive-tramlines"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.0svn65692"
+PV = "2023.209.1.1.0svn65692"
 
-RPM_NAME = "texlive-tramlines-doc-2023.201.1.1.0svn65692-52.1.noarch.rpm"
-RPM_HASH = "a03f68a2091b8402d86ee9318e1b207e6820ebeaa443628ec6ebbf4c3fc8dc8bb677b3f254677b81ceef627c05cc91f7057bfb3f00496dd9abb116643e3db239"
+RPM_NAME = "texlive-tramlines-doc-2023.209.1.1.0svn65692-53.1.noarch.rpm"
+RPM_HASH = "d8d6750ae593d8531aa1f2e6ebae4c798ed30d8b76b415955c6f3b49ba1c33a11743f31974e782c1d5a6a7052bf664f2e3cde4f88b34c7cb99c9cfa2ab9e6938"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tramlines-doc"

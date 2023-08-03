@@ -4,10 +4,10 @@ construction, maintenance and exploitation of an address \
 book-like database."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.20svn15878"
+PV = "2023.209.1.20svn15878"
 
-RPM_NAME = "texlive-directory-2023.201.1.20svn15878-52.1.noarch.rpm"
-RPM_HASH = "66076d7dd1e700fa1f20f1232c0f496c0b0383c77f0a145d5a2bdcc38fcd63a2275a724d737fee68763cbe2cbb22b7ab2aac996d4da7dd77faed2dc3de35e62e"
+RPM_NAME = "texlive-directory-2023.209.1.20svn15878-53.1.noarch.rpm"
+RPM_HASH = "0ad6c11ca630ce812cee41cf0617f8af76503bb2a945492d06b2b33bb179a484ba79fc0cb5023ea8b6b14e8c47b1edfe6799d2610b306c0d37360a04a52986cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-directory.sty \

@@ -4,10 +4,10 @@ LaTeX kernel to be stablised, whilst still allowing some \
 stability for adventorous users."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64892"
+PV = "2023.209.svn64892"
 
-RPM_NAME = "texlive-latex-lab-2023.201.svn64892-55.1.noarch.rpm"
-RPM_HASH = "b065b9970a767f7fd803640c25c91973f2b37486783bb320ade515f2fc697da09e794472476c1f8bc2a4aaa538523b887b2d0c5ff453ece96e2fbddbc02cf575"
+RPM_NAME = "texlive-latex-lab-2023.209.svn64892-56.1.noarch.rpm"
+RPM_HASH = "f621ef0990a9314b278244799c50761f70956a9ecd8f30bac478bacdcc3b6baafec04d6f4049ca92c0ed9df708aabd0fe1a5e537d157cf9b55c4f4a7870247ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-latex-lab-testphase-new-or.sty \

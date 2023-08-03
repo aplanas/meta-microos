@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 PositioningQuick library - Development files"
 DESCRIPTION = "Development files for the Qt 6 PositioningQuick library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-positioningquick-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "730b80b54b321703bbbeade1f4353526af618ad986ac1be62547f7902bc3e3fe86c9461fb0c9c156f1a62dc56be43c192564855d05cdb359719af6a867f40030"
+RPM_NAME = "qt6-positioningquick-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "a16d5a17f91ec0d88ee7eb00c31eb7a7ab899ef940a3741d26f1214d6bbfd4c55adefeb6af619ce07b3047f4b898aaad80aa902a12777c610b8276c10627a0d8"
 
 RPROVIDES:${PN} += "cmake-Qt6PositioningQuick \
 pkgconfig-Qt6PositioningQuick \

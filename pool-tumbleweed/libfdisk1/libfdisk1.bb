@@ -2,10 +2,10 @@ SUMMARY = "Filesystem detection library"
 DESCRIPTION = "Library for filesystem detection."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.39"
+PV = "2.39.1"
 
-RPM_NAME = "libfdisk1-2.39-3.1.aarch64.rpm"
-RPM_HASH = "2cb38a3ef4fa029396fe23d101ea7e98dc56ce8010be989c30177d393d7e40180f0ce85b8d893128885d93652c2ca27821a12dd016002dafdc38a32d19150adb"
+RPM_NAME = "libfdisk1-2.39.1-1.1.aarch64.rpm"
+RPM_HASH = "384c105ebab8fd943165c79612f85fb463773b6714d5a539a9a4ee117a0b03aa7246176f7c3332e8d2fbba680aeec80a7519f0be18bc5f32bebdbb9daea4876b"
 
 RPROVIDES:${PN} += "libfdisk.so.1 \
 libfdisk1"

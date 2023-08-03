@@ -5,10 +5,10 @@ package fixes these problems. The package requires xepersian \
 and l3keys2e."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1asvn56272"
+PV = "2023.209.1.1asvn56272"
 
-RPM_NAME = "texlive-xepersian-hm-2023.201.1.1asvn56272-52.2.noarch.rpm"
-RPM_HASH = "0941b1586056c95b8c28ae0a271ddd4fa3a61e27aec2f93ec860ce3d5d014d8929c4ff85f6c81ad0ed2aa09cf587dfa767d09899b7d5b5f89eed3de51c666bc0"
+RPM_NAME = "texlive-xepersian-hm-2023.209.1.1asvn56272-53.1.noarch.rpm"
+RPM_HASH = "86607dabd6bc44035b058886492e1ba9d15267ed5eef99481594545652b705bdd9d6d82655cd292029112556faab6b32edc2633664c35c20d873009e7eefad5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xepersian-hm-common-kashida.tex \

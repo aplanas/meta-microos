@@ -10,10 +10,10 @@ which 5 is 'translated' as 'v' and option 'upourv' whith which \
 the same 5 is given as 'u'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1svn29803"
+PV = "2023.209.1svn29803"
 
-RPM_NAME = "texlive-modroman-2023.201.1svn29803-54.1.noarch.rpm"
-RPM_HASH = "a3f2e15ff20e45d95c7c0616451b12377d2474987d760d6214c3c605ed1d447a3e57bb61b0305818a7e2cc1aded4edb1980214336d30b7b0da15f7d5a74f03f2"
+RPM_NAME = "texlive-modroman-2023.209.1svn29803-55.1.noarch.rpm"
+RPM_HASH = "8a7c728a63db2627b98305053791677c4a433008c756f6b82d2e0ef6157a17f65bd5e900d3ebc144af5767ca63d8be377a03ed8d04ae16f9cbd0b781bf37bfe4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-modroman.sty \

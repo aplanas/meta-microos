@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-undolabl"
 DESCRIPTION = "This package includes the documentation for texlive-undolabl"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0msvn65846"
+PV = "2023.209.1.0msvn65846"
 
-RPM_NAME = "texlive-undolabl-doc-2023.201.1.0msvn65846-53.1.noarch.rpm"
-RPM_HASH = "3b85ac7d975b0ab7e262961b1b79f0bd8a5f72b12f9f56072268c77cf9a1d135ef85d33ed9e748d6085370db05cc7482ab969e33b652189a0784806142dc734b"
+RPM_NAME = "texlive-undolabl-doc-2023.209.1.0msvn65846-54.1.noarch.rpm"
+RPM_HASH = "4e7d0589ed36e274e1814e6f16cc6300bc675e2dda1d6510a2e2da934a3f80b4bd2c520cd02c7c3603106606e4d38a2a1124fb4871d56294cee13b2132c52c38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-undolabl-doc"

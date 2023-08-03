@@ -5,10 +5,10 @@ files by themselves and to process the main file that includes \
 them, without making any changes to either."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.2svn56977"
+PV = "2023.209.2.2svn56977"
 
-RPM_NAME = "texlive-subfiles-2023.201.2.2svn56977-57.1.noarch.rpm"
-RPM_HASH = "f83a638a1ffa30a948dd128de62e7332a4953081df7d3fba961f13761fae3c0b8f4dfb3b76defe7ed40c55a90ae3916a0c953d16e0eca13813c6995623eadc8e"
+RPM_NAME = "texlive-subfiles-2023.209.2.2svn56977-58.1.noarch.rpm"
+RPM_HASH = "23880e0b8a609e62b664924b52f142996d1d14830dbaf0f67d0df45f8a7b5da644e2a6e662f028220470a038ae653f749838adb13d7ce76627f3c167168f465a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-subfiles.cls \

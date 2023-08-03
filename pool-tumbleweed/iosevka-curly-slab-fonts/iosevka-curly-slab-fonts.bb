@@ -7,10 +7,10 @@ This package contains the Iosevka Curly Slab typeface (curly style, \
 slab-serif)."
 LICENSE = "OFL-1.1"
 
-PV = "25.0.1"
+PV = "25.1.1"
 
-RPM_NAME = "iosevka-curly-slab-fonts-25.0.1-1.1.noarch.rpm"
-RPM_HASH = "a4b0f65e9130eb2a0f6fe29b7259f8cd9f0c00b208721d90a82730e6bcd26b62e8fb55aaeb5c45a21ac5d6598c77c30e2dbfd7f2324e8aed42cb5a489f0fa2db"
+RPM_NAME = "iosevka-curly-slab-fonts-25.1.1-1.1.noarch.rpm"
+RPM_HASH = "86a2c9e12437aa4ed38a940d5488bb5b4b6a18c815f0fcddf5bdde8990fb98e31f22d3f15a2def60391fa4a09a0bf0e7779c6aa661704802d3f5846c30fc119b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-curly-slab-fonts"

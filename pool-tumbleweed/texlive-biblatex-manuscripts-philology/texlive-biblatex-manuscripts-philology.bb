@@ -4,10 +4,10 @@ manuscript in classical philology, for example to prepare a \
 critical edition."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1.2svn53344"
+PV = "2023.209.2.1.2svn53344"
 
-RPM_NAME = "texlive-biblatex-manuscripts-philology-2023.201.2.1.2svn53344-53.1.noarch.rpm"
-RPM_HASH = "9682d67b966f9cac093ce3c239049a991b28f08e7c9a59027f5d4916a996ecf80c1c136911e761a28c26c08b6e52b716d144a0f97144529b081f8f2d1ff335c0"
+RPM_NAME = "texlive-biblatex-manuscripts-philology-2023.209.2.1.2svn53344-54.1.noarch.rpm"
+RPM_HASH = "610a352a5e331b8ce2a777dda2582727e30c160ef4e188291b17d013d90e926c3843c446b2aa49b72633494f7dd004ba958483a1efc29bd24ba2f84b1dc6e03f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-english-manuscripts.lbx \

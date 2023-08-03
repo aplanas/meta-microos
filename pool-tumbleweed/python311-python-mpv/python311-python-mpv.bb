@@ -4,10 +4,10 @@ It gives more or less full control of all features of the player, \
 just like the lua interface does."
 LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later"
 
-PV = "1.0.3"
+PV = "1.0.4"
 
-RPM_NAME = "python311-python-mpv-1.0.3-2.3.noarch.rpm"
-RPM_HASH = "6532142824cc42082b2d5789706e2c1b7c85f0efe16230900e953c262ce9a1cb0e3ad3c70df446a06dd852c40a3fe004d07e7a0e976a16a89254244f88f48683"
+RPM_NAME = "python311-python-mpv-1.0.4-1.1.noarch.rpm"
+RPM_HASH = "2f4456890b08bc2ad253545b2cc8daf717598e7a9deed47832eae0ad7a39683d0de7b44a725ebb5db02a9144aed24180c2ffc821f33fe0fb1eb91eeabdfe42ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-mpv \

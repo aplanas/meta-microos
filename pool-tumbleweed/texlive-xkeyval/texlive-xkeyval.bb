@@ -8,10 +8,10 @@ in documents where several packages define their own sets of \
 keys."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.9svn63616"
+PV = "2023.209.2.9svn63616"
 
-RPM_NAME = "texlive-xkeyval-2023.201.2.9svn63616-52.2.noarch.rpm"
-RPM_HASH = "163f71d13b1dac9ea33b599e0ebd28c496dcfd56651707a3bd09a73458b59ab129d19db49eb67afcd34cd8022579adb51bb47620bdc771f93db11fd0c433e768"
+RPM_NAME = "texlive-xkeyval-2023.209.2.9svn63616-53.1.noarch.rpm"
+RPM_HASH = "246be0b3cf78c5cdacbfdf7533c85390142cc77e6f0b02e6ec963dbc2a7bfd0cf3ea531e5e72bbeea69106f97862787dfca2395ccb80d3dfab4e59605655cb6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-keyval.tex \

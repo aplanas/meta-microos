@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-thumby"
 DESCRIPTION = "This package includes the documentation for texlive-thumby"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.1svn16736"
+PV = "2023.209.0.0.1svn16736"
 
-RPM_NAME = "texlive-thumby-doc-2023.201.0.0.1svn16736-54.1.noarch.rpm"
-RPM_HASH = "bd0c24d90dfab1ec8957677c749a4920b3746e95790127538065192c967f89aba809bb3975b7be71096588697b4fac6775a66a4e2dc50f2c6aea12fc110492fa"
+RPM_NAME = "texlive-thumby-doc-2023.209.0.0.1svn16736-55.1.noarch.rpm"
+RPM_HASH = "67f9bef50c535649aa6d4a9626df76eb26bfcf04043dc9f5aee18dad7fbc810b71c52d03ca57de576a5c97b9cce4b9923d268d8781d19cedc2cb958bf69680b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-thumby-doc"

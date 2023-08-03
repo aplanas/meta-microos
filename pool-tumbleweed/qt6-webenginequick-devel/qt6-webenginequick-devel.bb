@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt 6 WebEngineQuick library"
 DESCRIPTION = "Development files for the Qt 6 WebEngineQuick library."
 LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-webenginequick-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "73bb0d122e070c8fac7aeb11dd3d90ea194b93dd425ed36fe7c4a74263d864f0a884d1dbf15d02fd3bc2806f4581d4dd7b0c7d99c2b80f921281a0d750588b60"
+RPM_NAME = "qt6-webenginequick-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "d917733727f8c6f0d57747483b3a30e2d1eb2c334eeca544f9580ca3a384788177ee315d01a29f08abbee2bc90b1c6fceff85b7bbc19ba1fff84f714b03e1b9d"
 
 RPROVIDES:${PN} += "cmake-Qt6WebEngineQuick \
 cmake-Qt6WebEngineQuickDelegatesQml \

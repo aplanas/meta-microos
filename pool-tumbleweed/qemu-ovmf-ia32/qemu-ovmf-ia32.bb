@@ -6,10 +6,10 @@ This package contains UEFI rom images for exercising UEFI secure \
 boot in a qemu environment (IA32)"
 LICENSE = "BSD-2-Clause-Patent"
 
-PV = "202302"
+PV = "202305"
 
-RPM_NAME = "qemu-ovmf-ia32-202302-3.1.noarch.rpm"
-RPM_HASH = "98027acf7db79ae8299edc43f288078f146ac595a4b19b295b3f11b712993ce7fa735df2c13c6fd7175c6401afb93d672b8fafd98c7f54493b3387e19f9b29f3"
+RPM_NAME = "qemu-ovmf-ia32-202305-1.1.noarch.rpm"
+RPM_HASH = "fd4d04e754ef010aedf59acf60b6387ed2d862ee7c8beadbf7121f94f5ed21e9d57ddd2c359b9592d753871c31d6b83eef5764ee64ab0bc5393e4049fa384d24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-ovmf-ia32"

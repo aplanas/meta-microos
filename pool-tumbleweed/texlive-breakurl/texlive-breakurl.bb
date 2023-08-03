@@ -7,10 +7,10 @@ in one atomic piece. This package allows such line breaks in \
 the generated links."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.40svn29901"
+PV = "2023.209.1.40svn29901"
 
-RPM_NAME = "texlive-breakurl-2023.201.1.40svn29901-52.1.noarch.rpm"
-RPM_HASH = "2617cf12ff35d7ec5d21d4aa78f815517a56b8776b525421ae127005770722bbebc6ff6e843c880a578c1bf6ec8d986a858765621fa30e19a0bf9942df0af1a0"
+RPM_NAME = "texlive-breakurl-2023.209.1.40svn29901-53.1.noarch.rpm"
+RPM_HASH = "2a5f299ce4d26406ed423dbe220ba391d63eaaa582eb01bbf6ae57b6d3bd2c792054b89622b60aeb4e3edf94a26455acaa4a0dae7036c0daf02b57d0b30452ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-breakurl.sty \

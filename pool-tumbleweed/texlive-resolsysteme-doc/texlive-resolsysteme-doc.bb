@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-resolsysteme"
 DESCRIPTION = "This package includes the documentation for texlive-resolsysteme"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1.5svn66192"
+PV = "2023.209.0.0.1.5svn66192"
 
-RPM_NAME = "texlive-resolsysteme-doc-2023.201.0.0.1.5svn66192-53.2.noarch.rpm"
-RPM_HASH = "16c2a642c9637f7b5f84842f65f04b1871dcfadfd17a2df4cfb9dd1135ed9a7184bd9cecbcd3bdd1df1cb4c439784f3cc25f4febe427815bb3193f26580ed16f"
+RPM_NAME = "texlive-resolsysteme-doc-2023.209.0.0.1.5svn66192-54.1.noarch.rpm"
+RPM_HASH = "de5676b402b37db2ff756b0c9bc301cfafae9f9338d15029f77e4aee4e0b66001ebf96bace241c394ee2138ef6c6ee3c990357a632288f63e12b795e22f51c97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-resolsysteme-doc-fr \

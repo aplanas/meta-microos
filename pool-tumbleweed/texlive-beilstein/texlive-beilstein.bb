@@ -7,10 +7,10 @@ and tested to be suitable for submissions to the Beilstein \
 Journal of Nanotechnology."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1svn56193"
+PV = "2023.209.2.1svn56193"
 
-RPM_NAME = "texlive-beilstein-2023.201.2.1svn56193-53.1.noarch.rpm"
-RPM_HASH = "cfa8bb0f14175f095d561cdec96b12eed53e567e2fb0a0f2e0e426384838810af4259628885a9b78aca3a7adf9269cdf06fb0f67d7696fdbd54c37868699d29e"
+RPM_NAME = "texlive-beilstein-2023.209.2.1svn56193-54.1.noarch.rpm"
+RPM_HASH = "5eec5b1e2b7ea93476f522d0294ea6fab1047f5f5c3692ea1e2db11ef2bceaeed853a1b71b12839583ff7ea7a33e1a358b5c8243f140286fd0d90516bf812a22"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beilstein.cls \

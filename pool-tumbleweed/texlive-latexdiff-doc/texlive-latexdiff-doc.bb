@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-latexdiff"
 DESCRIPTION = "This package includes the documentation for texlive-latexdiff"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.3.3svn64980"
+PV = "2023.209.1.3.3svn64980"
 
-RPM_NAME = "texlive-latexdiff-doc-2023.201.1.3.3svn64980-54.1.noarch.rpm"
-RPM_HASH = "2d243d699744ebcc9ec3a13c4e4371c196a879ec3cccb53a4880091e1834512eaafda4c1d1527cc8ae3c1b58ab7755a13a498df2c50da7b4cf29e4ba498c1d41"
+RPM_NAME = "texlive-latexdiff-doc-2023.209.1.3.3svn64980-55.1.noarch.rpm"
+RPM_HASH = "b01a068b785bdfffd11667fa3cb85d10828afd17dea8e5ca80049c74c9a3acd88cb8ae52c44c3bcab91c78135418e6f0db5ceb3e2046f7d5d070296eac80adba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-latexdiff-vc.1 \

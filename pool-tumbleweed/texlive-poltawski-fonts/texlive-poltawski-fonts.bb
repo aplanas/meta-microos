@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-poltawski"
 DESCRIPTION = "The  separated fonts package for texlive-poltawski"
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.201.1.101svn20075"
+PV = "2023.209.1.101svn20075"
 
-RPM_NAME = "texlive-poltawski-fonts-2023.201.1.101svn20075-52.1.noarch.rpm"
-RPM_HASH = "98f173fb0bba006283ea0974f9b1bdb149f72c41c2487993e32f79e3848054d4779ce595c9153602ebaf70aaabc0eaa40420b99ae9d4e886f9124b2fd881d307"
+RPM_NAME = "texlive-poltawski-fonts-2023.209.1.101svn20075-53.1.noarch.rpm"
+RPM_HASH = "9bd7e8d9a34067687a8a05c940c77df8f2eaf08c63f9e106dc2b4f21eb576a0260f795766a72c023de1b65561bea9c768fa0ed843806e134a6d1e5410b1e9968"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-poltawski-fonts \

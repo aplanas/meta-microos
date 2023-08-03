@@ -6,10 +6,10 @@ hint of Art Deco and constructivism. There is currently just a \
 regular weight and an artificially emboldened bold."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64856"
+PV = "2023.209.svn64856"
 
-RPM_NAME = "texlive-poiretone-2023.201.svn64856-52.1.noarch.rpm"
-RPM_HASH = "ec01031122c5f528b2cc2e701cf526a114c12706a61ffdca3c166cdad2b4587869d79bc35119d774a4b52c850117ce69e8b4db84b8e7ec1b3e5a979b06d28aee"
+RPM_NAME = "texlive-poiretone-2023.209.svn64856-53.1.noarch.rpm"
+RPM_HASH = "6c1228091372a1ad6a35c328f7270bd0ef1a9b62c6e239ec8708fceafe8f2b987642f4191c42999179b5293d328f3f0758d6edb0c07fdfbbdfa02cdb8d85a3da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1PoiretOne-LF.fd \

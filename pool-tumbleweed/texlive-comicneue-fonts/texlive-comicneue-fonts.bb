@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-comicneue"
 DESCRIPTION = "The  separated fonts package for texlive-comicneue"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.2svn54891"
+PV = "2023.209.1.2svn54891"
 
-RPM_NAME = "texlive-comicneue-fonts-2023.201.1.2svn54891-53.1.noarch.rpm"
-RPM_HASH = "298593dde0fb510eefe48e0e697bc1d9284275de7d00a4aaa3a1daa02518ba340cb3872f7d7224ed5b40fcd001736bfc5e5b4979b2df56a951cbe19ee60c3a15"
+RPM_NAME = "texlive-comicneue-fonts-2023.209.1.2svn54891-54.1.noarch.rpm"
+RPM_HASH = "57d94b22f50dbd51d54c03f110248327ed32b6b1f10b67986503fb8ee15c744c6b15f13c814b0f004d785342314cecc372397e25c7cb5b41a47fc70fd422364d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-comicneue-fonts \

@@ -7,10 +7,10 @@ in the text. In this case, it also recognizes the \\include and \
 be 'retired' and Piotr Kubowicz's OpenDetex as its successor."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66186"
+PV = "2023.209.svn66186"
 
-RPM_NAME = "texlive-detex-2023.201.svn66186-52.1.noarch.rpm"
-RPM_HASH = "41bf16d167e490bea992685e2c43f5de8a893c949436259ffdcb6233137df4d93d178c02fa40b950a0962eb079f46d705e25ff214109c732977751178afee068"
+RPM_NAME = "texlive-detex-2023.209.svn66186-53.1.noarch.rpm"
+RPM_HASH = "00fb77b5a035c8961c4f8133748486d00888aa91fc6d92f81b3c9be5aa0818597cf4b9a37d96d4845b7a9703212afd1870e007c544242203bc8da76dcfd87c6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-detex.1 \

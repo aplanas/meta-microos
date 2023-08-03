@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "libgsturidownloader-1_0-0-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "b019c48a4213f7e26715da96cddc0d4b2159d031b6f942acad49840e2a804dcabeb9f5c0c7112a9b0c327e5bc04fe05f99347eea0741f5dff7792b2cd5e8f60f"
+RPM_NAME = "libgsturidownloader-1_0-0-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "dc722846736c24a2d06e8ac76970faf6b7ec4afe5b05ee5517f7c0faa83da85abb32139f8866249fcf88840ee3fc71ee5a5acee34b78db123beed3b8f0215f34"
 
 RPROVIDES:${PN} += "libgsturidownloader-1-0-0 \
 libgsturidownloader-1.0.so.0"

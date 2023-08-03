@@ -5,10 +5,10 @@ it will be loaded in any test file that is intended to be sent \
 to the LaTeX bug database as part of a bug report."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0nsvn63596"
+PV = "2023.209.1.0nsvn63596"
 
-RPM_NAME = "texlive-latexbug-2023.201.1.0nsvn63596-54.1.noarch.rpm"
-RPM_HASH = "3ae1f9f37f2f6341b78bd557d20c9e35353591dead1b501867c376d6d877ff532c416b4ac466e851302c1b8a692b511e9394f9e60fa1a532ba4a33c56f1caa33"
+RPM_NAME = "texlive-latexbug-2023.209.1.0nsvn63596-55.1.noarch.rpm"
+RPM_HASH = "e39bcf9127740314f11975105bf9ad576f1b264fb27c07ecb3d64dcaba06b5af58191de430f4209c47b14ce6b541a17f645648a20d60050a93bda4fc98d87393"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-latexbug.sty \

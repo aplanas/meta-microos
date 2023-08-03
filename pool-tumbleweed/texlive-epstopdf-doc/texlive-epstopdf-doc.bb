@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-epstopdf"
 DESCRIPTION = "This package includes the documentation for texlive-epstopdf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.31svn66461"
+PV = "2023.209.2.31svn66461"
 
-RPM_NAME = "texlive-epstopdf-doc-2023.201.2.31svn66461-53.2.noarch.rpm"
-RPM_HASH = "0740148ce8e10cfcd9e637b8d972ba0c0910eb166523cb0303105cb3e9592a01d1682cb636e09a828b7800daa40fd0f8077b729d7af2d4f956f4437833ec400a"
+RPM_NAME = "texlive-epstopdf-doc-2023.209.2.31svn66461-54.1.noarch.rpm"
+RPM_HASH = "66c26cff09e2da02b9f8ebe2fc2803c8f73181a75ee3ca21674c4a8d881514240030d55c7509d9067066e80b78ef5023a4ea4a26a53474574519ced9344162ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-epstopdf.1 \

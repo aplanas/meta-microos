@@ -6,10 +6,10 @@ support are involved. Escaping to text mode every time a comma \
 is used in math mode may slow down the compilation process."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn48474"
+PV = "2023.209.1.1svn48474"
 
-RPM_NAME = "texlive-textualicomma-2023.201.1.1svn48474-54.1.noarch.rpm"
-RPM_HASH = "a35ae36f69e8235b5d6473023be0c9f07c688c9db4db01da822ae60c7a4d98ba2edaca46e59b895d1e8a6fc6fd0793c4b73dae47025cf61a99103374d70096fc"
+RPM_NAME = "texlive-textualicomma-2023.209.1.1svn48474-55.1.noarch.rpm"
+RPM_HASH = "0873c3f1f7d557966946c2d5cbae3e7348f73127e3af804d211f265be43c29f4a8b99680656fc1f19fc30eb67d354b893ee7b7303f2091630af376ee8e74ffe5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-textualicomma.sty \

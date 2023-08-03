@@ -6,10 +6,10 @@ lot of styling facilities, to let you personalize the look and \
 feel of the graphs."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn54512"
+PV = "2023.209.1.2svn54512"
 
-RPM_NAME = "texlive-tikz-dependency-2023.201.1.2svn54512-54.1.noarch.rpm"
-RPM_HASH = "3be89f45546bf6e40f0e1508ef34d144370c99210ce16269d354b7e090aa3755e40dff7b7b47bc72d0b8df55f7c7a76a369c5e0165c23d371de4765d66b47699"
+RPM_NAME = "texlive-tikz-dependency-2023.209.1.2svn54512-55.1.noarch.rpm"
+RPM_HASH = "52df437d9c954aa5cf1e03bb38e22e39e712668b43c5fd804ca04da94a01f451a9f4948fb1b313f5aeb3a992f8480c1552708c9030b68e1cae2b9bb1b6fb8200"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pgfmanual.code.tex \

@@ -2,10 +2,10 @@ SUMMARY = "Qt6 Quick3DParticleEffects library - Development files"
 DESCRIPTION = "Development files for the Qt 6 Quick3DParticleEffects library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-quick3dparticleeffects-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "f418506234114e4dabb6fa6772513d6c688f6f68c594ee1767e540bf6abdf36da863cf100f16fbdf90af528e06693446c1124fe2f49163634480c3bc857ce7f9"
+RPM_NAME = "qt6-quick3dparticleeffects-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "39e91ecdf059f87f9ee40bb8a3cb31c3b10b47f9f9dd33ff63ac3d14e0babf53f67369203520893ecbc5353d90066c78f1b0115f0d658c1a224fdfe49adb3490"
 
 RPROVIDES:${PN} += "cmake-Qt6Quick3DParticleEffects \
 pkgconfig-Qt6Quick3DParticleEffects \

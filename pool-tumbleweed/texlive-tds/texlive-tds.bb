@@ -4,10 +4,10 @@ hierarchical file system, in a way that is well-defined, and is \
 readily implementable."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn64477"
+PV = "2023.209.1.1svn64477"
 
-RPM_NAME = "texlive-tds-2023.201.1.1svn64477-54.1.noarch.rpm"
-RPM_HASH = "c7df78d7b0bfc54c9d982de7c61ade54729ad7565fab0c0ef28a444f5ed373fe9b2cd9e90bdeeb8114800c9497f1654ea8274ebfb9f01b0449b32b0785cc10c3"
+RPM_NAME = "texlive-tds-2023.209.1.1svn64477-55.1.noarch.rpm"
+RPM_HASH = "02f977013ceab309357ced3a26ac47b3e43880236b49ef5aa34c307447c46ef68a203af86c1453556fb82ecc472d40dfdf8e447498deffd303f42905dfc389fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tds"

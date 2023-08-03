@@ -11,10 +11,10 @@ sections of such a file, in particular providing a 'text'-form \
 EPS file for use with (La)TeX."
 LICENSE = "Artistic-1.0"
 
-PV = "2023.201.1.2svn29752"
+PV = "2023.209.1.2svn29752"
 
-RPM_NAME = "texlive-dosepsbin-2023.201.1.2svn29752-52.1.noarch.rpm"
-RPM_HASH = "d951ce62cfa2b54c59918b71e487d27c242ad549745b9d34f78445f6df43686fc917ca95ea5a4db0ed5b83e7988307a45b16513cf28b44e3919721d0007574e9"
+RPM_NAME = "texlive-dosepsbin-2023.209.1.2svn29752-53.1.noarch.rpm"
+RPM_HASH = "c2e981ff23240d01b4dc1780f96b096967f7c104ed6f2408d9d17e499e4cb3da6a8aa4f20469ed0f21bc588e00fa9fbd32f54a7a29efb6fa2ecf55d8c306f575"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dosepsbin"

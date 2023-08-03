@@ -4,10 +4,10 @@ colours and decorations of the grids and the text in them. The \
 package uses TikZ for its graphical output."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.03svn32313"
+PV = "2023.209.1.03svn32313"
 
-RPM_NAME = "texlive-pas-crosswords-2023.201.1.03svn32313-51.1.noarch.rpm"
-RPM_HASH = "bf3f54ed1999a4b56794bca25f25667cce4e4039e2e33151867e4f1bf53b1bdd1ae4ca8641a69c2c904fdeb973c7fca287471a2d0a87a7d589a47f431aa5f043"
+RPM_NAME = "texlive-pas-crosswords-2023.209.1.03svn32313-52.1.noarch.rpm"
+RPM_HASH = "d1719669b0cdaae6944b490baa4a6c84bd90e761769ba0eb4f48dfb136fdb9cee8465d5f0be413ff7abaa7cedc0e8993578c7f0700964b544b9eef2d6727ca4f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pas-crosswords.sty \

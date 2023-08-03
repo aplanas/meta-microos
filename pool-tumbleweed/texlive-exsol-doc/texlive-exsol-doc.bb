@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-exsol"
 DESCRIPTION = "This package includes the documentation for texlive-exsol"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4svn48977"
+PV = "2023.209.1.4svn48977"
 
-RPM_NAME = "texlive-exsol-doc-2023.201.1.4svn48977-52.1.noarch.rpm"
-RPM_HASH = "ce7d6b3a30f3a82a35faf0eec807f0e7d60780419f97e8cf12422f14d2a65c884b9429159d2b0397423fc7b0cd6ca84b6d36b6d20e2782dd8d980b07f59f068a"
+RPM_NAME = "texlive-exsol-doc-2023.209.1.4svn48977-53.1.noarch.rpm"
+RPM_HASH = "2d4682c6a2e8938a30e9d1dc2fcd1811cbcd9897fd23a24737b76edd07fdd1413a7fd292605570430f1b7d1baed3eab6695ccee09be206fe7dd6af83c5be6341"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-exsol-doc"

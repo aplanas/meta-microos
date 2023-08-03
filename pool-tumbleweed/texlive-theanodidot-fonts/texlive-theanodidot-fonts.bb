@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-theanodidot"
 DESCRIPTION = "The  separated fonts package for texlive-theanodidot"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64518"
+PV = "2023.209.svn64518"
 
-RPM_NAME = "texlive-theanodidot-fonts-2023.201.svn64518-54.1.noarch.rpm"
-RPM_HASH = "fad9ba92ea89b8475bc871f58f326a41927f136b4c1283d8deb2b1351a11566a07fb6fd3d62db404c517a418bcaaa9a32b5ffb54e6ecad251306abbe22aebe42"
+RPM_NAME = "texlive-theanodidot-fonts-2023.209.svn64518-55.1.noarch.rpm"
+RPM_HASH = "7db89c8cde1c139ca7be3fd7080600fbd1e6a02abf4a7e8081fc8bc4bbd4f6ff626b31a741f04bc683f5131d9f62ee88d23866efee0cea8eab149d82af5303b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-theanodidot-fonts \

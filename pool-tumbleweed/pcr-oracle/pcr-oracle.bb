@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.4.6"
 
-RPM_NAME = "pcr-oracle-0.4.6-1.1.aarch64.rpm"
-RPM_HASH = "12b7753d2929785a45c3f8c3ea5fadece90e1bf897b3a30503756878a38c598b4041470959d8532585dcfd4972d667d88b71ed63c70788e0c3e36add693f7e1e"
+RPM_NAME = "pcr-oracle-0.4.6-2.1.aarch64.rpm"
+RPM_HASH = "7e07af71680e5c1069d7fa581af1d88471a6c4cd80519e2eba4863998cbd626a75a0e4d4af882bfa1b5e2c96a3924b78dca6629bc4bcd9d50c0992da792f9c23"
 
 RPROVIDES:${PN} += "pcr-oracle"
 
@@ -16,6 +16,7 @@ libc.so.6 \
 libcrypto.so.3 \
 libtss2-esys.so.0 \
 libtss2-mu.so.0 \
-libtss2-rc.so.0"
+libtss2-rc.so.0 \
+libtss2-tcti-device0"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sidecap"
 DESCRIPTION = "This package includes the documentation for texlive-sidecap"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.7asvn65618"
+PV = "2023.209.1.7asvn65618"
 
-RPM_NAME = "texlive-sidecap-doc-2023.201.1.7asvn65618-53.1.noarch.rpm"
-RPM_HASH = "3461f851cb8f72c0e4b972a6eda589b0d07cc8e4f9f74fa60d9c37d2b734f95fc474e7ef6cde6b024b4d43bd23f930f42106641d34649133d19029a81088d7f9"
+RPM_NAME = "texlive-sidecap-doc-2023.209.1.7asvn65618-54.1.noarch.rpm"
+RPM_HASH = "0eb779a2e5db9478f7a1b83b42a01d76269c1bf0aa9070461db741ed15bf68da4f527342eaf359a24bf91b278c77d46e8c034e39cbe0d5fd6b970655d0695279"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sidecap-doc"

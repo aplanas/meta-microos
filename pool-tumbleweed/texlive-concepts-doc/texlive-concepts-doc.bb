@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-concepts"
 DESCRIPTION = "This package includes the documentation for texlive-concepts"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.0.5_r1svn29020"
+PV = "2023.209.0.0.0.5_r1svn29020"
 
-RPM_NAME = "texlive-concepts-doc-2023.201.0.0.0.5_r1svn29020-53.1.noarch.rpm"
-RPM_HASH = "d370d658cb421572f34b31ce2c5fe348497497a4267953446e610d1d0d6e559d8c9f7d8d1c8895005bbccbebc6db30db730ed9edc0fbffa04323a30b20618ff4"
+RPM_NAME = "texlive-concepts-doc-2023.209.0.0.0.5_r1svn29020-54.1.noarch.rpm"
+RPM_HASH = "928a862c50cb37a737aedb1834674f3489e45306be0f4c635276a1a6a139ef98fb20eade60c56b7f50da20b0fe7b9d4c49fc4c4b960e08aed8d2a0e1c1bc18f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-concepts-doc"

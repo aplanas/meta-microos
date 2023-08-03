@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop applications that require these."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "2.56.1"
+PV = "2.56.3"
 
-RPM_NAME = "librsvg-devel-2.56.1-3.1.aarch64.rpm"
-RPM_HASH = "a38ebaa47d66c2fa555699fea85a02d5ad6fd3ec022712dbf3443c45ee7dbf3058b26dab051e7abf3775b52a0dbee86ae8902e3501f2d5b799bccd25cad5d659"
+RPM_NAME = "librsvg-devel-2.56.3-1.1.aarch64.rpm"
+RPM_HASH = "5d44cbc9579636cc17a8b10d47027d5e1d3b3f5e9ef7cac715f39e25c965cfb2fdb80e84be2a31952f11ea61727b297780134018febc81ee0cd839a3423f883a"
 
 RPROVIDES:${PN} += "librsvg-devel \
 librsvg2-devel \

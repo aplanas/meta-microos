@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-esint-type1"
 DESCRIPTION = "The  separated fonts package for texlive-esint-type1"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-esint-type1-fonts-2023.201.svn15878-53.2.noarch.rpm"
-RPM_HASH = "41e1813749932caf3390c419a880b2f9faf5399edf8372d5c2c09a688a953654ce2b114d2195bb07749e163442221267f427c89df4145d8b9104bdaa57a6bd88"
+RPM_NAME = "texlive-esint-type1-fonts-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "e1961874d853a66191f5322edc817f8e6e13f25d6f14d31d356e3977171064772a37c19d72cc2041789bd1db2d87918b02fce1c2127509b7cba50fb23f45369a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

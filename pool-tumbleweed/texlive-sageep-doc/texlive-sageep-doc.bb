@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sageep"
 DESCRIPTION = "This package includes the documentation for texlive-sageep"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-sageep-doc-2023.201.1.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "21bddba1f1acfbcb6e572276833eaf20b26aab9926d5fac4ce88b771999186de8c3ab2952735f797fe462c432110670cbe0b06203b27e3b01b71921022b047bc"
+RPM_NAME = "texlive-sageep-doc-2023.209.1.0svn15878-54.1.noarch.rpm"
+RPM_HASH = "c56845d549ff5fe1731c6f224d9a5a450fef14c8f43b3fbdfc26e1c7cf84b53d230d5dc3ee0d12175283978a7f58f2f90596afd00ee28e64453eb313b10af31e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sageep-doc"

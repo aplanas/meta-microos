@@ -5,10 +5,10 @@ The typical usage is to give access to file-based ones. \
 The XRootD (eXtended Root Daemon) server binaries."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "5.5.5"
+PV = "5.6.1"
 
-RPM_NAME = "xrootd-server-5.5.5-1.1.aarch64.rpm"
-RPM_HASH = "befc8ebc086e6a2ae793d8659dd550fc750a8a318c822ccad2210edbd328ab383d5d4af9b98cd33d8c0acbd91c60b1daf2e574dca7b212fb6216ceb81f58c7ec"
+RPM_NAME = "xrootd-server-5.6.1-1.1.aarch64.rpm"
+RPM_HASH = "8308203303bd334b3cd03e3a15d8b04ead95b9227b7f54748a14b57cc68ba0a1325d3039992ce03195cbce3d72f713236469c3c323fe0fda83a4b2a5adb391b7"
 
 RPROVIDES:${PN} += "config-xrootd-server \
 group-xrootd \

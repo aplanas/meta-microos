@@ -7,10 +7,10 @@ kerning value. By option the bars can be placed behind or in \
 front of the glyphs. The package requires LuaLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn63708"
+PV = "2023.209.0.0.1svn63708"
 
-RPM_NAME = "texlive-showkerning-2023.201.0.0.1svn63708-53.1.noarch.rpm"
-RPM_HASH = "e64e621cdfb2d0bfad9d53925b3b02baf8b893278947f37d030791ab0411f7e42eaa365ecb85c521b083bac8b8d880273cb031b816c7181da6e50ace5f0b2c6f"
+RPM_NAME = "texlive-showkerning-2023.209.0.0.1svn63708-54.1.noarch.rpm"
+RPM_HASH = "576e3f78f049843a45bdc1e63561cc43dda1b473e99c1edd14e0d96e8ef971a08faa5e2f9339ac2e6c53da0359e0b84066e2c07637989bc80442bba332420a37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-showkerning.sty \

@@ -4,10 +4,10 @@ oriented workflow that can export games to PC, Mobile and Web \
 platforms."
 LICENSE = "MIT"
 
-PV = "4.0.3"
+PV = "4.1.1"
 
-RPM_NAME = "godot-4.0.3-1.1.aarch64.rpm"
-RPM_HASH = "d56bee6c0f223155fb133b10662d7ee6ffc47bff9367b385b19b4078c6123c498b8bc15d321a513aec2a1b39b05cf610b1ac33ecfc7eec9f158633124f3fbb15"
+RPM_NAME = "godot-4.1.1-1.1.aarch64.rpm"
+RPM_HASH = "d818fdc49e1590b433615f897940040c591b0760555c84f25f95a327bd786c737029f9a440737d268c663c24793cc154bc7b3393d74ba5397886c184ee20915b"
 
 RPROVIDES:${PN} += "bundled-FastLZ \
 bundled-FastNoiseLite \
@@ -17,7 +17,6 @@ bundled-Tangent-Space-Normal-Maps \
 bundled-amd-fsr \
 bundled-astcenc \
 bundled-basis-universal \
-bundled-brotli \
 bundled-cvtt \
 bundled-doctest \
 bundled-embree \
@@ -34,6 +33,7 @@ bundled-minimp3 \
 bundled-minizip \
 bundled-msdfgen \
 bundled-noto-sans-fonts \
+bundled-nvapi \
 bundled-oidn \
 bundled-openxr \
 bundled-pcg \
@@ -65,6 +65,8 @@ libXinerama.so.1 \
 libXrandr.so.2 \
 libXrender.so.1 \
 libasound.so.2 \
+libbrotlicommon.so.1 \
+libbrotlidec.so.1 \
 libc.so.6 \
 libdbus-1.so.3 \
 libfontconfig.so.1 \
@@ -84,7 +86,6 @@ libogg.so.0 \
 libpcre2-32.so.0 \
 libpng16.so.16 \
 libpulse.so.0 \
-libsharpyuv.so.0 \
 libspeechd.so.2 \
 libstdc++.so.6 \
 libtheora.so.0 \

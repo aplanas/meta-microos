@@ -5,10 +5,10 @@ provides macros that support calculational proofs and \
 Dijkstra's 'guarded command language'."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-tex-ewd-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "62e88cdf5da249be6bdfb7795f5c57b7536885ceb3ea1255279264ba059394367e036d12f4883a641f0db0604448c9e468769fa688536143e12400b191d2b6dc"
+RPM_NAME = "texlive-tex-ewd-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "d3252e995e58ade15bb8e8dfbf4a54c3f4e2b2bed36e04544d620de8bf321b9fd0709320560669c7632781fdc556fa1cbb5bcf6f2d2f593318493d60274b4439"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dotnot.tex \

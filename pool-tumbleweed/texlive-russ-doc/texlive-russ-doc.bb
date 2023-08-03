@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-russ"
 DESCRIPTION = "This package includes the documentation for texlive-russ"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn25209"
+PV = "2023.209.svn25209"
 
-RPM_NAME = "texlive-russ-doc-2023.201.svn25209-53.1.noarch.rpm"
-RPM_HASH = "450703de49d9a258850c242b7e89c9ab83f05dee5eac01fb6518f9e4fd1a9010cbfe1584debbe2100b53693c16b49a5a1ad4a935043421b23651bc02186274c9"
+RPM_NAME = "texlive-russ-doc-2023.209.svn25209-54.1.noarch.rpm"
+RPM_HASH = "43c22025b204cb4b5403983f50c1deb776369bfe79f6a9760073f730391502419c8c413a389d2808a3b6eb11335f5caa4d2dcb1c59ba4c7aac038274712d0b80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-russ-doc-en;ru \

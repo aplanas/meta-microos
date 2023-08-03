@@ -9,10 +9,10 @@ LaTeX, or ConTeXt, or even plain TeX. Of course, LuaTeX must \
 always be used as the engine."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1.0svn65693"
+PV = "2023.209.0.0.1.0svn65693"
 
-RPM_NAME = "texlive-lparse-2023.201.0.0.1.0svn65693-54.1.noarch.rpm"
-RPM_HASH = "d191e3bb96f544f07c4a55f6275381caab89c9c4f16008994d7ff339020d128fdb856a5f886bd75eb57f0713cc3001d540d0f504b687a02c5883e392513b47b2"
+RPM_NAME = "texlive-lparse-2023.209.0.0.1.0svn65693-55.1.noarch.rpm"
+RPM_HASH = "41efd66f7d503741745beaecba64f9fb840281f3e0089fb442b0a2a46d939c2c3fe35221872829977a856b0d21f369ad0cab346265ce3164995c0757d1ca63ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lparse.sty \

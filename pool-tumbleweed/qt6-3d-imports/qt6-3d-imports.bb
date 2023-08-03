@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 3D Library - QML imports"
 DESCRIPTION = "Qt 6 3D QML imports."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-3d-imports-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "7e182abda95b94d6e5964699edbcd717c3c656f30d9f8e0c76f7935edc2e5e3af31cabe2514a8fc84ccce3cab582e6dd68001461fa86a4637dfe541468350f23"
+RPM_NAME = "qt6-3d-imports-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "5d37c3b4f7a48ae3886672b552b3027db803224b3feca8af2374342f1e4ed9ee73e5017ecf6082a6b2317c390f28a899248c5544f673a11d07d057fed64f5d27"
 
 RPROVIDES:${PN} += "libqtquickscene2dplugin.so \
 libqtquickscene3dplugin.so \

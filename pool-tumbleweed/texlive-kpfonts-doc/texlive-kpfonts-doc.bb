@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-kpfonts"
 DESCRIPTION = "This package includes the documentation for texlive-kpfonts"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.35svn65583"
+PV = "2023.209.3.35svn65583"
 
-RPM_NAME = "texlive-kpfonts-doc-2023.201.3.35svn65583-55.1.noarch.rpm"
-RPM_HASH = "024d7d259101d3c8805f48f0123a0ee72a1545ac4610b50a61f29ca54597ec8a82fea72d35a584d5c8f93b6f2b991fb1c48a9ed27d1d1335935441f02f6b464e"
+RPM_NAME = "texlive-kpfonts-doc-2023.209.3.35svn65583-56.1.noarch.rpm"
+RPM_HASH = "34a6216bfb8a722db200839a53bf63715439fd51a7ef6fcb73874a1a5078defd7707bb338baa3f74458a80f8b0ce9b756358f8cf136c3e4a4918100ebc6f6570"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-kpfonts-doc-en \

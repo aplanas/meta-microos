@@ -8,10 +8,10 @@ possible, so that most customisation methods can be applied \
 here as well."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.16svn63638"
+PV = "2023.209.0.0.16svn63638"
 
-RPM_NAME = "texlive-biblatex-ext-2023.201.0.0.16svn63638-53.1.noarch.rpm"
-RPM_HASH = "084591720deef6761609813663c9b51d1c0db9c3bcd9942978f63e4189a966b8b1b2c7cda2cbe16cdff476bd656027cc9cff565178c261d0c09a6d80c1d5227b"
+RPM_NAME = "texlive-biblatex-ext-2023.209.0.0.16svn63638-54.1.noarch.rpm"
+RPM_HASH = "228c0ce2d8eca1e37991fed9a9c1ed56b93fbd823c9875d950d10e6885166b4c112f3dce98469741123f7376a40bcbce76dc949c121a58889018e696669f1656"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-biblatex-ext-oa-doiapi.sty \

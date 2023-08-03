@@ -9,10 +9,10 @@ installed on your openwrt based router. \
 https://openwrt-luci-rpc.readthedocs.io"
 LICENSE = "Apache-2.0"
 
-PV = "1.1.12"
+PV = "1.1.16"
 
-RPM_NAME = "python39-openwrt-luci-rpc-1.1.12-2.4.noarch.rpm"
-RPM_HASH = "d2b3b0168e2c91d1179e3274feea0085e3e320902725bbbd0584f55d8c40689019a210edea65ea8c7df562eecece5beacb28548dd01bf053860715b7b6aa72ac"
+RPM_NAME = "python39-openwrt-luci-rpc-1.1.16-1.1.noarch.rpm"
+RPM_HASH = "3350e09381339f080df7e14a256a2588e7523c4affc343527934b51e5deaac1f852e24150869ca918dc314da0120309eb999df7fd342edc38cfa53384d8e0c17"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-openwrt-luci-rpc \

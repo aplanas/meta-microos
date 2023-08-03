@@ -2,10 +2,10 @@ SUMMARY = "Examples for the qt6-svg modules"
 DESCRIPTION = "Examples for the qt6-svg modules."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-svg-examples-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "d11ff9b5373cafb4adb14bee4d372630e94c06b5e2aa7eae2552624b10307d85bc1b5083e323fdec67aaea23197074fec64e7ea70922de9438afa41faba5fa06"
+RPM_NAME = "qt6-svg-examples-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "a861fbb5a5f7f40e9b867fc374392cf30984fb5ccb32f8c87d8bf62c7d4c5d00d71e3ee47e48789b0d595327b0d2eba2da125709915abce349aeadb2b4efdc44"
 
 RPROVIDES:${PN} += "qt6-svg-examples"
 

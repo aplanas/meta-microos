@@ -8,10 +8,10 @@ interacts with an external Perl script, to retrieve information \
 necessary for the required output."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.4dsvn64967"
+PV = "2023.209.2.4dsvn64967"
 
-RPM_NAME = "texlive-svn-multi-2023.201.2.4dsvn64967-57.1.noarch.rpm"
-RPM_HASH = "036dea4707cf7db169e1aae6dd74bb1ca2c581018a99ccdfa6b85027eaf039d2e4ba14b68dd549b5d19faecc5b37304927820f6359069fbf4fd5705f59018148"
+RPM_NAME = "texlive-svn-multi-2023.209.2.4dsvn64967-58.1.noarch.rpm"
+RPM_HASH = "b70209d878fabbbb0012768af0cccc0704d510da3b7ac5971e157ab1a7fba7647dc01a8f91465dd0b4b480dd7c3e57fe2625d6209cfe3cd7c2f4d59e2663fa4d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-svn-multi.sty \

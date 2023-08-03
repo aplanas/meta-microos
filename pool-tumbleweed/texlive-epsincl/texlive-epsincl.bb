@@ -3,10 +3,10 @@ DESCRIPTION = "The package facilitates including EPS files in MetaPost \
 figures; it makes use of (G)AWK."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.0.0.2svn29349"
+PV = "2023.209.0.0.2svn29349"
 
-RPM_NAME = "texlive-epsincl-2023.201.0.0.2svn29349-53.2.noarch.rpm"
-RPM_HASH = "6d290e7da9145e72c4792c8d0d3bed6dc71f1295aa2e2156a1e8921de853823dfb697155abf294362267d34180bada0277f9def508e58284d11044705f15b9a4"
+RPM_NAME = "texlive-epsincl-2023.209.0.0.2svn29349-54.1.noarch.rpm"
+RPM_HASH = "332e57a727cad371347b5163733163063c2e4285472c381b6840abc102a99a190f24378e1cc44f15e451103fa8b6cdc22362ae3ddc75d2dd0b85fb33db011ba1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-epsincl"

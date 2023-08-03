@@ -2,10 +2,10 @@ SUMMARY = "Examples for the qt6-coap modules"
 DESCRIPTION = "Examples for the qt6-coap modules."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-coap-examples-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "4ad6e2579333b6f57ff4aee4d8d8ab5f0e452c013346531bc5d1489fe7fa67b76e14bc20d3ccc549cf963b8537c3fca31ddb886eb0a1606d227093c09070e25f"
+RPM_NAME = "qt6-coap-examples-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "873ee68c8c50692fcf1988cf62bc6b5d5c34d7dd02407fc62fe276a7cac4e702a424934e31bb48a9ef4ed891a2047ba39eab1d047b31c48d5b670bb5d7035154"
 
 RPROVIDES:${PN} += "qt6-coap-examples"
 

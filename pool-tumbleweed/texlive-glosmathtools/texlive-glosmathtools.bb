@@ -11,10 +11,10 @@ ulthese class. The package itself depends on glossaries, \
 amsmath, amsfonts, and etoolbox."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.0svn55920"
+PV = "2023.209.1.0.0svn55920"
 
-RPM_NAME = "texlive-glosmathtools-2023.201.1.0.0svn55920-53.2.noarch.rpm"
-RPM_HASH = "d6ab73381a854c3e068b1297b292940df2bb21ae108a44b86f7d09e7dede0f16590ffff7928a641bd3176ecc5a03e32342197d12371d6c65634868afd65e1318"
+RPM_NAME = "texlive-glosmathtools-2023.209.1.0.0svn55920-54.1.noarch.rpm"
+RPM_HASH = "b121770df36c8bf1ee43825d303e054a3e83f4f6869c0c3adb1141c6f6ea66be98623d1c862677471cb51320414a572a49d2debdb769366e61ed706542684ade"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-glosmathtools.sty \

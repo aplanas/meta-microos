@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-tvz"
 DESCRIPTION = "This package includes the documentation for texlive-pst-tvz"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.01svn23451"
+PV = "2023.209.1.01svn23451"
 
-RPM_NAME = "texlive-pst-tvz-doc-2023.201.1.01svn23451-53.2.noarch.rpm"
-RPM_HASH = "993d508ffee28bcb160dbb95e77a97c4abf63ba2b5f33d2916e89bdad5c6351fbb1a162674af23fe11ea336a995948e52667f8641b25ad0bc749abf657cd7996"
+RPM_NAME = "texlive-pst-tvz-doc-2023.209.1.01svn23451-54.1.noarch.rpm"
+RPM_HASH = "c4d3bb71180bf05d61041a5d13139ce9a5fc165773623afdd1e5397ce3315f179f81f43a9326b6f2878ed5097b29c37bd068e87bdebc71d943bbb0c68b6de868"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-tvz-doc"

@@ -4,10 +4,10 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.1.3"
 
-RPM_NAME = "ghc-pandoc-devel-3.1.3-2.1.aarch64.rpm"
-RPM_HASH = "475b76c1fca4b29841f97c56b69ef409f4dc34b797e0b5d330f24d60041ea8ce46ef5bf5dcd769896c4c09cae8477645ea7e9bb5a1ed6cd22aae05d7a81774ab"
+RPM_NAME = "ghc-pandoc-devel-3.1.3-2.2.aarch64.rpm"
+RPM_HASH = "22c0b4ec58302e34c1cb12ad075007666cab84abcbd8a1d0ec17f37a1254c28c3f62c7e96cb506b76e6de3376f870c271fcd544ce74b586817cb2691a18f0395"
 
-RPROVIDES:${PN} += "ghc-devel-pandoc-3.1.3-ImQr97Zc2bP55LDbAec3vO \
+RPROVIDES:${PN} += "ghc-devel-pandoc-3.1.3-55OY79jb6yp7kweb38lcUZ \
 ghc-pandoc-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -60,8 +60,8 @@ ghc-devel-process-1.6.16.0 \
 ghc-devel-random-1.2.1.1-I0wUgAAbf0g3qHR3e8uT0o \
 ghc-devel-safe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds \
 ghc-devel-scientific-0.3.7.0-D5F2vql7x79Dy9hx72OES1 \
-ghc-devel-skylighting-0.13.4-5T99F0BkgIQGejRNYUpHqn \
-ghc-devel-skylighting-core-0.13.4-ILWFndoUOH7DzXIN7Ztglj \
+ghc-devel-skylighting-0.13.4.1-CU1AlEko5yK2gCD1OmtnCm \
+ghc-devel-skylighting-core-0.13.4.1-6Bsu3Qo0E1u1DqUSYo1bSc \
 ghc-devel-split-0.2.3.5-u3oGLAiW7JJbxIffWSCWf \
 ghc-devel-syb-0.7.2.3-J0Qw7O8gTR0DSXObDhEt8i \
 ghc-devel-tagsoup-0.14.8-KqOLe3dJpuA4KsHZJW2cTn \

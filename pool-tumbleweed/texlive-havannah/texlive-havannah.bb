@@ -3,10 +3,10 @@ DESCRIPTION = "This package defines macros for typesetting diagrams of board \
 positions in the games of Havannah and Hex."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn36348"
+PV = "2023.209.svn36348"
 
-RPM_NAME = "texlive-havannah-2023.201.svn36348-53.2.noarch.rpm"
-RPM_HASH = "6ebb7805453b92b3de186b7b879de6694e5a6a238c4fd1b1d5ce32beabb66f51c03c7d71c2d0e3d36f9625c829b244d49f1c88eb7786b4d2d17eca4179d7043d"
+RPM_NAME = "texlive-havannah-2023.209.svn36348-54.1.noarch.rpm"
+RPM_HASH = "e83fbfad346b6aa08dcf88fd89ce6bba20fb479d6d3eae7b07d22e637400f0ffe8bfd0ce14d76c09623b27c2b6bd6056a82c26423a337b720257baa69194ae41"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-havannah.sty \

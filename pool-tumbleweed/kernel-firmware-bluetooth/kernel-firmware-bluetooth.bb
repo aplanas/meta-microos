@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 various Bluetooth drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230707"
+PV = "20230724"
 
-RPM_NAME = "kernel-firmware-bluetooth-20230707-1.1.noarch.rpm"
-RPM_HASH = "5e2846b9e19ae516c44d8ad8e5e92ce600847ffe96977083ddd237eb4c5ff44df7dcd28838af21744fce29145a616f3d95114c63e176e69c46f5037677c33d3e"
+RPM_NAME = "kernel-firmware-bluetooth-20230724-1.1.noarch.rpm"
+RPM_HASH = "338720a779ddfd7005dd24dd65dc2de329c223a7d013d8d31fe19bb4b168c8472d7d2a50416ca0e97c565ba93620721c768ab5fb1698f80a5bcf795bba82e375"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-intel/ibt-0040-0041.ddc \

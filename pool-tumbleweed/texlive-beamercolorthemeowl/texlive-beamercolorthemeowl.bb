@@ -11,10 +11,10 @@ behaviour can be optionally disabled, with the provided colours \
 also available as 'OwlRed', 'OwlGreen', etc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1.1svn40105"
+PV = "2023.209.0.0.1.1svn40105"
 
-RPM_NAME = "texlive-beamercolorthemeowl-2023.201.0.0.1.1svn40105-53.1.noarch.rpm"
-RPM_HASH = "f14eec2e4ceecc6755c55e56020bab96e510d3e7d36f211a6afac6db8bb8663848cab68d28a906a7c815ae529c791bfed400b61ae2efb25106f8847882edd9ea"
+RPM_NAME = "texlive-beamercolorthemeowl-2023.209.0.0.1.1svn40105-54.1.noarch.rpm"
+RPM_HASH = "cdc5287995da3e4938d09930308dc8a14610631052d98db06bdff0c49c7687439a05b5cd18677c67994330b8cb849759f5f32c00f90b47ac68d34988c6aa8ee1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemeowl.sty \

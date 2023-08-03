@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-dbicons"
 DESCRIPTION = "This package includes the documentation for texlive-pst-dbicons"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.16svn17556"
+PV = "2023.209.0.0.16svn17556"
 
-RPM_NAME = "texlive-pst-dbicons-doc-2023.201.0.0.16svn17556-52.1.noarch.rpm"
-RPM_HASH = "e0d9a066c5a7532828b8c510081cd7d6ddc75acf93711b954516a0cb7eb82c20553c07c513dd6123542d2883d673231fd74d03ca8e6739e9dce074467638d731"
+RPM_NAME = "texlive-pst-dbicons-doc-2023.209.0.0.16svn17556-53.1.noarch.rpm"
+RPM_HASH = "66cbb7d5b172a923303ef81e63b7e0226fe87fe38c9278489c4d211dc042f60c134877e9938d1b6c63531d78cb21c10b3286e276506eb8128473d6a9323e4a86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-dbicons-doc"

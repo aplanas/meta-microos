@@ -8,10 +8,10 @@ The default setup requires Nerd Font and a terminal in dark colors. \
 dash is not supported as of 1.10.2."
 LICENSE = "ISC"
 
-PV = "1.15.0"
+PV = "1.16.0"
 
-RPM_NAME = "starship-1.15.0-1.1.aarch64.rpm"
-RPM_HASH = "1b262020415f55eb0b97687973cf39064e8fe7ba8f4ff1f40267a071d7802beca549ac5a6147e350832d554f765e44d6c3643767cbd7644345ef08847583c479"
+RPM_NAME = "starship-1.16.0-1.1.aarch64.rpm"
+RPM_HASH = "7c965758c850d2c7a67803eb5bd8d7d4977b312f06b8ea6a20b2b2ca2faa852e8a15bbcfa4439b61eb15fdbf04ce097c7a8b95cc0fd4ef97b703b0ba244ec887"
 
 RPROVIDES:${PN} += "bundled-rust-crate-adler \
 bundled-rust-crate-ahash \
@@ -66,6 +66,7 @@ bundled-rust-crate-crossbeam-queue \
 bundled-rust-crate-crossbeam-utils \
 bundled-rust-crate-crunchy \
 bundled-rust-crate-crypto-common \
+bundled-rust-crate-deranged \
 bundled-rust-crate-derivative \
 bundled-rust-crate-digest \
 bundled-rust-crate-dirs-next \
@@ -73,8 +74,10 @@ bundled-rust-crate-dirs-sys-next \
 bundled-rust-crate-dlv-list \
 bundled-rust-crate-dunce \
 bundled-rust-crate-either \
+bundled-rust-crate-encoding-rs \
 bundled-rust-crate-enumflags2 \
 bundled-rust-crate-enumflags2-derive \
+bundled-rust-crate-equivalent \
 bundled-rust-crate-errno \
 bundled-rust-crate-event-listener \
 bundled-rust-crate-fastrand \
@@ -96,6 +99,7 @@ bundled-rust-crate-gix-attributes \
 bundled-rust-crate-gix-bitmap \
 bundled-rust-crate-gix-chunk \
 bundled-rust-crate-gix-command \
+bundled-rust-crate-gix-commitgraph \
 bundled-rust-crate-gix-config \
 bundled-rust-crate-gix-config-value \
 bundled-rust-crate-gix-credentials \
@@ -103,6 +107,7 @@ bundled-rust-crate-gix-date \
 bundled-rust-crate-gix-diff \
 bundled-rust-crate-gix-discover \
 bundled-rust-crate-gix-features \
+bundled-rust-crate-gix-filter \
 bundled-rust-crate-gix-fs \
 bundled-rust-crate-gix-glob \
 bundled-rust-crate-gix-hash \
@@ -111,17 +116,21 @@ bundled-rust-crate-gix-ignore \
 bundled-rust-crate-gix-index \
 bundled-rust-crate-gix-lock \
 bundled-rust-crate-gix-mailmap \
+bundled-rust-crate-gix-negotiate \
 bundled-rust-crate-gix-object \
 bundled-rust-crate-gix-odb \
 bundled-rust-crate-gix-pack \
+bundled-rust-crate-gix-packetline-blocking \
 bundled-rust-crate-gix-path \
 bundled-rust-crate-gix-prompt \
 bundled-rust-crate-gix-quote \
 bundled-rust-crate-gix-ref \
 bundled-rust-crate-gix-refspec \
 bundled-rust-crate-gix-revision \
+bundled-rust-crate-gix-revwalk \
 bundled-rust-crate-gix-sec \
 bundled-rust-crate-gix-tempfile \
+bundled-rust-crate-gix-trace \
 bundled-rust-crate-gix-traverse \
 bundled-rust-crate-gix-url \
 bundled-rust-crate-gix-utils \

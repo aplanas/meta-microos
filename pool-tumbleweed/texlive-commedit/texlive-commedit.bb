@@ -6,10 +6,10 @@ textbook and comments for the teacher. This package was \
 commissioned by Instituto de Matematica Pura e Aplicada ( IMPA)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.02svn50116"
+PV = "2023.209.1.02svn50116"
 
-RPM_NAME = "texlive-commedit-2023.201.1.02svn50116-53.1.noarch.rpm"
-RPM_HASH = "5240175b838ad9411cff0c47756cd1b2c97a51d4ac2546660748873a8f472b2c785cdc4a9312d5bc0295ecb9a3f144971dd8fffd4b9166da86f285d0c1b9f907"
+RPM_NAME = "texlive-commedit-2023.209.1.02svn50116-54.1.noarch.rpm"
+RPM_HASH = "61422b679e11491c159615b9ea3e6169bbac87f05c399ed14799b14bd38f37debb846e74d9ce1553c89eb087093c28e88e8be8c2dd2e2259f1e43f53483ba008"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-commedit.sty \

@@ -5,10 +5,10 @@ multiple accents on the same letter, interline glosses \
 Structures, and example numbering."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.2.8svn64241"
+PV = "2023.209.2.8svn64241"
 
-RPM_NAME = "texlive-covington-2023.204.2.8svn64241-54.1.noarch.rpm"
-RPM_HASH = "db9bac2785018a1c64bd178f2735f57bfb0868e7989dd8d34130758d67360f18e551c39cdc8b73b2d14cc508ad2e0e172a3fcc4266bf37d19eefe2ad5bb08437"
+RPM_NAME = "texlive-covington-2023.209.2.8svn64241-55.1.noarch.rpm"
+RPM_HASH = "f8b73bac2362a7b717b8b01990785bb5fc8b80c62e1c75333819f7524d92a6e7d40e74520329273c4dc53ae007783aa6b17354d87acd12e6c7b5f5229f6bdd36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-covington.sty \

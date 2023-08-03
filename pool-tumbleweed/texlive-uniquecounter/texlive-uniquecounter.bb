@@ -4,10 +4,10 @@ number values. Several counters can be created with different \
 names. The numeric values are not limited."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4svn53162"
+PV = "2023.209.1.4svn53162"
 
-RPM_NAME = "texlive-uniquecounter-2023.201.1.4svn53162-53.1.noarch.rpm"
-RPM_HASH = "8decc10c88aca5bb2462798f7fb2a6072e82a12a5c98f74ba541eed84729a7dbe5f339af34a868764848ade67c26ed91f5d7d5dc2bd094f749fbd30f49be4f14"
+RPM_NAME = "texlive-uniquecounter-2023.209.1.4svn53162-54.1.noarch.rpm"
+RPM_HASH = "6a36836826a090ef40f01c0a140ea0b40c253e41b408137db613c7c1fdd10e27239c2f0bc18f2ed13df05be7dbbc267956c8284d426f6b4b50965fce39d03a83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uniquecounter.sty \

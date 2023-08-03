@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-qpxqtx"
 DESCRIPTION = "This package includes the documentation for texlive-qpxqtx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn45797"
+PV = "2023.209.svn45797"
 
-RPM_NAME = "texlive-qpxqtx-doc-2023.201.svn45797-53.2.noarch.rpm"
-RPM_HASH = "ed078acdc7f23f07c93cc5365d0afb0ab059f0bb8e7110fd639581bceadee8cbff29dc918b888d7b460936c561b2e4e8b7240a9c628fbd20da9c8edc9e30c6b3"
+RPM_NAME = "texlive-qpxqtx-doc-2023.209.svn45797-54.1.noarch.rpm"
+RPM_HASH = "9e7fb60a68e7e5f7d32700b0b32c2d5b19d62666317cad166a5c82dd528c179ce80ad8c83686a379abefed9b82c062a551460dbc1e574a186fa96d2a922a38ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-qpxqtx-doc"

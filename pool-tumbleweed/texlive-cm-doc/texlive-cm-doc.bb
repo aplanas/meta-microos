@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cm"
 DESCRIPTION = "This package includes the documentation for texlive-cm"
 LICENSE = "SUSE-TeX"
 
-PV = "2023.201.svn57963"
+PV = "2023.209.svn57963"
 
-RPM_NAME = "texlive-cm-doc-2023.201.svn57963-53.1.noarch.rpm"
-RPM_HASH = "fb833b091116b42bcd1eac75c4cc590c217fc7b08a86caf70fcf8f15b3312090722036858259c6b699d38da8659bcc01f38c0e5fe440b699fb84d4f18d5dce09"
+RPM_NAME = "texlive-cm-doc-2023.209.svn57963-54.1.noarch.rpm"
+RPM_HASH = "1f1c92138cdadfafcaa6644e9908b2de5ea9d73bad55b388ab9f7dca29927e7924b51fa807840ce57e3b6cb2aa24d88ce73de4bca9e8956866f5d7c43e915d0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cm-doc"

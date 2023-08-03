@@ -8,8 +8,8 @@ LICENSE = "MPL-2.0"
 
 PV = "3.90"
 
-RPM_NAME = "mozilla-nss-devel-3.90-1.1.aarch64.rpm"
-RPM_HASH = "11d98f9d76f061d7338acc537ae0bbc9d30d1fa29e5faa4d7228c7be74de72c4ecf172384f1abbeaa5934d5e7b51e30615da134942a6ea19a01f55b363f919a9"
+RPM_NAME = "mozilla-nss-devel-3.90-2.1.aarch64.rpm"
+RPM_HASH = "9ffeadcaa00a11ba1d62159fde33e7a4558a0baef17940d7b01e4e7c2dd59830422988c6514375754b0126f4e9af2bb9b6e9431f1bda04fd27143cde343e6b57"
 
 RPROVIDES:${PN} += "mozilla-nss-devel \
 pkgconfig-nss \

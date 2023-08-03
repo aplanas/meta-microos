@@ -4,10 +4,10 @@ projection with an arbitrarily chosen angle and a variable \
 shortening factor."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.05svn39585"
+PV = "2023.209.1.05svn39585"
 
-RPM_NAME = "texlive-pst-perspective-2023.201.1.05svn39585-53.2.noarch.rpm"
-RPM_HASH = "b7f0db69fbae12185b1403287d9d8905f5027daac57e20c29850459d49752abcdc05f8032c75aaea6f9aae18ab4f8b64b34889ce045ccb586873d1316fe66069"
+RPM_NAME = "texlive-pst-perspective-2023.209.1.05svn39585-54.1.noarch.rpm"
+RPM_HASH = "00aae40cd4465d190ffbad06bac9eeec43c349351c5406b854d06fe127f9999e3c4154a96571da9543a630656bff8bf60ad7b4eeb1829c8f804f26c2d7ad91e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-perspective.sty \

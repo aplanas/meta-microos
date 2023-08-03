@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.2.1"
 
-RPM_NAME = "calligra-karbon-3.2.1-7.20.aarch64.rpm"
-RPM_HASH = "6749fb70677cbfb0a90afb36d33042af67572efa2eec9d219dd5421b035b1b51607dd41cb4f4f79f527077eafd5b90cca4f58b3bae6ddb37eaa667e759de7bc1"
+RPM_NAME = "calligra-karbon-3.2.1-7.21.aarch64.rpm"
+RPM_HASH = "9fb70f6080883b4f94672c310815576b02e38cc1d7cdf89e3fe30d5e3c7db0cc3cdfb13cffdd0e9103de3a6a0ccb6e71f646c495ec6632a8247f0161f7a79b8e"
 
 RPROVIDES:${PN} += "calligra-karbon \
 libkarboncommon.so.17 \

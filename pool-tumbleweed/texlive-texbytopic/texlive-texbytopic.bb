@@ -9,10 +9,10 @@ modest price) via lulu.com (see the package home page for \
 details)."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-texbytopic-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "eae8fbe3aeb8cc0b68cd1272048e5b2f8e0e6325a248e2865bc53d020bf570a233834bad794ea14b4ee4e0372c532a38a1526a38300085bbe74cfdafda616aa2"
+RPM_NAME = "texlive-texbytopic-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "48ba0a5a6b986b89b28ab59629b84c4b7b1863c37583ed8e9b31465c1d7a3670c42f5738928b49cd649f61e2120c6a4a21e2f217568bbda9f9242d340cd5bf1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texbytopic"

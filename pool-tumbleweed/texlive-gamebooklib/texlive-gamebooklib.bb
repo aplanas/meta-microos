@@ -12,10 +12,10 @@ the formatting of entries rather than their order. The two \
 packages can be used together or separately."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn63424"
+PV = "2023.209.1.3svn63424"
 
-RPM_NAME = "texlive-gamebooklib-2023.201.1.3svn63424-52.1.noarch.rpm"
-RPM_HASH = "293f711b92bace527d7b55debc257355014a8a71ee5dceb65bf49ce39d4053f4b66c3c80a68e1ede46e7866b52934708a7723bbf5ca84f2ba9b51511687ac5e9"
+RPM_NAME = "texlive-gamebooklib-2023.209.1.3svn63424-53.1.noarch.rpm"
+RPM_HASH = "faacf93e1bdbb506acb57347977c78f880982ac1932c14d2db2942e38593c703ab458a8897cb738b147cad724805d3c17cbce37705f47030eb17412416dbfb14"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gamebooklib.sty \

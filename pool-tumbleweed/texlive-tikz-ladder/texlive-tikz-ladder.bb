@@ -8,10 +8,10 @@ allows you to draw a ladder diagram in the same way as you \
 would draw any other circuit."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn62992"
+PV = "2023.209.1.3svn62992"
 
-RPM_NAME = "texlive-tikz-ladder-2023.201.1.3svn62992-52.1.noarch.rpm"
-RPM_HASH = "92a803a43d9b63f2d61c58ed768f719d5e2c8f4b3642990877dfa5c65da41c051df0d2756c3bd554513592851f44352b0f9bdd3a112ac7cd5f040028dff63bb6"
+RPM_NAME = "texlive-tikz-ladder-2023.209.1.3svn62992-53.1.noarch.rpm"
+RPM_HASH = "1c43100d4f0b788f24724b969cdcc2ffcf427b3dd8381ce819e3183f0891b48d4eec7a3bac801320769f0c7c04e67e07b67cccfb043d45eb176cce98c0b52fcd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzlibrarycircuits.plc.ladder.code.tex \

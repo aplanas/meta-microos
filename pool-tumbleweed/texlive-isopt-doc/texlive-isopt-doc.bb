@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-isopt"
 DESCRIPTION = "This package includes the documentation for texlive-isopt"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.01svn45509"
+PV = "2023.209.0.0.01svn45509"
 
-RPM_NAME = "texlive-isopt-doc-2023.201.0.0.01svn45509-55.1.noarch.rpm"
-RPM_HASH = "fcea2c860bf97244129b1c75e72f56d2dc65161e10ce4d2c566e90a5737dc89aa8448937f231382b94782802aee5f5f849c41a74d735f4b8e096bc0b6c72e994"
+RPM_NAME = "texlive-isopt-doc-2023.209.0.0.01svn45509-56.1.noarch.rpm"
+RPM_HASH = "3fc2afd77c7aac0f553433ce010b52654bceffb589664a428ef23c775f590d3d0f878b59f8de95dfb0a85266c32da3a6b9ce25494b967cf5f2ae5b378d45b287"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-isopt-doc"

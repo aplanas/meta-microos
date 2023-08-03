@@ -4,10 +4,10 @@ homework assignments at the university of Hamburg (Universitat \
 Hamburg)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn44026"
+PV = "2023.209.1.0svn44026"
 
-RPM_NAME = "texlive-uhhassignment-2023.201.1.0svn44026-53.1.noarch.rpm"
-RPM_HASH = "6914eb8aa8db58ea1c532bf4da3760d4bc842981a671524cedaab6405ecea41dbdd3b9c6af3a75616287ab45a7b2764f5942ef852ed96de4ccd7bfd9dc77e6e8"
+RPM_NAME = "texlive-uhhassignment-2023.209.1.0svn44026-54.1.noarch.rpm"
+RPM_HASH = "02d67aaa722780a2c0d76f22344e1ee15c1237635f5bf33f665e08f2da4379af84bb89e4a12ac8cf12c7877a28e2607c86938f892e9b9605bd701339f987b80a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uhhassignment.cls \

@@ -3,10 +3,10 @@ DESCRIPTION = "Documentation for the client library for interacting with Opensta
 Identity API."
 LICENSE = "Apache-2.0"
 
-PV = "4.5.0"
+PV = "5.1.0"
 
-RPM_NAME = "python-keystoneclient-doc-4.5.0-1.6.noarch.rpm"
-RPM_HASH = "b6528d6e01e3e43b0525083e7a3985f16c8942a910fdc7683eca2b8b0805910be1b8439227205bf6dd481383ea3e3a6b1d3c5993271dcdab9244f801c4c683f5"
+RPM_NAME = "python-keystoneclient-doc-5.1.0-1.1.noarch.rpm"
+RPM_HASH = "802fe975474ed08b2ff5870daeb611153294105ede119d51a335c5727e97b1a0d7088c1f4be878b3c8f77109d8ecb026e0ea8a26c75c91fe8d3c704e496ff91c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-keystoneclient-doc"

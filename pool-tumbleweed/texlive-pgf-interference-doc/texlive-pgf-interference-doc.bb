@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pgf-interference"
 DESCRIPTION = "This package includes the documentation for texlive-pgf-interference"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn61562"
+PV = "2023.209.0.0.1svn61562"
 
-RPM_NAME = "texlive-pgf-interference-doc-2023.201.0.0.1svn61562-51.1.noarch.rpm"
-RPM_HASH = "5f52384a0c6886c774d378b22a956378f5ec2c4d6a0e94a5bb9b9995640c4bf674cb1e61eb1503453253349b0f288be0f0e9601211a3c7d7acb8f154dae7562b"
+RPM_NAME = "texlive-pgf-interference-doc-2023.209.0.0.1svn61562-52.1.noarch.rpm"
+RPM_HASH = "92f2f646884982f4825a352641c586e898f9982e87136e37650c198ca52dd82f2828bf69308ccae230f4ac7e3f65d09d8cdd872d79d4e0ea982ffbbbab7abeb4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pgf-interference-doc-de;en \

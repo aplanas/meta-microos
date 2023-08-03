@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ncclatex"
 DESCRIPTION = "This package includes the documentation for texlive-ncclatex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5svn15878"
+PV = "2023.209.1.5svn15878"
 
-RPM_NAME = "texlive-ncclatex-doc-2023.201.1.5svn15878-54.1.noarch.rpm"
-RPM_HASH = "c89830fce8bb24f34d33b408e03c111bbabb933759828d8739076f0bb68e8ad4ba40df869feb645082b5a488ee841bf17beb22d7f34bb762cdc3b61473c190eb"
+RPM_NAME = "texlive-ncclatex-doc-2023.209.1.5svn15878-55.1.noarch.rpm"
+RPM_HASH = "9e10d65ee60dc7e01ca0d85949af56f7fbda8664bcd2aafc9b586f552a71f2e8a45ee798244033fc6a59ff6de7dc986e025f1e67321632e48c0832697404472f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-ncclatex-doc-ru \

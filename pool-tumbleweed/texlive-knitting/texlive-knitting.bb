@@ -5,10 +5,10 @@ plain TeX or LaTeX. The fonts are available both as Metafont \
 source and in Adobe Type 1 format."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.0svn50782"
+PV = "2023.209.3.0svn50782"
 
-RPM_NAME = "texlive-knitting-2023.201.3.0svn50782-55.1.noarch.rpm"
-RPM_HASH = "a03b7624589d9f0766c5cfeb30fc3f80ef7d075fa90c80a7493b9e30797149b753b185205109f576b4890bc74d448ea83752b3de6375f46b602e7143c4a92ae9"
+RPM_NAME = "texlive-knitting-2023.209.3.0svn50782-56.1.noarch.rpm"
+RPM_HASH = "5a86bf8a7993c18de0fa6dad5063d58c11cd4d7a4be0919c0561c78cf386488a43a78e0a20acc796574900e2d1829b6e62e6facb154ee7c78999ce80e36faec1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-knitfont.map \

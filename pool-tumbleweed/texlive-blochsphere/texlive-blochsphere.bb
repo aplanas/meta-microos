@@ -6,10 +6,10 @@ standalone fashion, or nested within a tikzpicture environment \
 by setting the environment option nested to true."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn38388"
+PV = "2023.209.1.1svn38388"
 
-RPM_NAME = "texlive-blochsphere-2023.201.1.1svn38388-52.1.noarch.rpm"
-RPM_HASH = "3c5120defea2018dd0eaa37ba96b0cb1f1d2d24e192fc0ce4021516974fab1790ed042e9fe7dde8fa742298951ef5b8787174987cc7c41527277646f59ab8422"
+RPM_NAME = "texlive-blochsphere-2023.209.1.1svn38388-53.1.noarch.rpm"
+RPM_HASH = "f996145c085f55d840eff4091db1266fba96c118e1681834b84b8b28c2eeec3ff797617b1dc4dd7e2df1ce35f48839b0c07c4f5bade891510e2c4b7635c03bf1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-blochsphere.sty \

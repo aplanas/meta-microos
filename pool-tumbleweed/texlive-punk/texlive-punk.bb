@@ -10,10 +10,10 @@ T1-encoded. A (possibly) more rational support package is to be \
 found in punk-latex"
 LICENSE = "SUSE-TeX"
 
-PV = "2023.201.svn27388"
+PV = "2023.209.svn27388"
 
-RPM_NAME = "texlive-punk-2023.201.svn27388-53.2.noarch.rpm"
-RPM_HASH = "9e243c8a736d49e3587d7df743b00cd3d9d32eed93e377ebfe35f115766ea785792efa0d65db63f9a8158151275e2b64842d290defb0821aaaa80b889061d1fc"
+RPM_NAME = "texlive-punk-2023.209.svn27388-54.1.noarch.rpm"
+RPM_HASH = "64c4145b6c8f6bf7ca1b8b4ab0642b1267b028b80733ee067475c8e4789567ff9a5a3360634c644d036dada9a23a1ef74105fce5f094cbfeb5a5b97a5212b8ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-punk10.tfm \

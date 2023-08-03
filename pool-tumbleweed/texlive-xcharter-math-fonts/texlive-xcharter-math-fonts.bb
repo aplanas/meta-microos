@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-xcharter-math"
 DESCRIPTION = "The  separated fonts package for texlive-xcharter-math"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.36svn65686"
+PV = "2023.209.0.0.36svn65686"
 
-RPM_NAME = "texlive-xcharter-math-fonts-2023.201.0.0.36svn65686-52.2.noarch.rpm"
-RPM_HASH = "cd0195abf27ee0662ac42892339c6da8998c029cab3f08b12d54091df0d53bedc19405ad1105c0e7e232737ffaa6e087f6ca6b2286c75e751d44c26724cb0717"
+RPM_NAME = "texlive-xcharter-math-fonts-2023.209.0.0.36svn65686-53.1.noarch.rpm"
+RPM_HASH = "92a69b3b12c6049cdd5fb9a758e8cbcdf57e2dc4d043629208d25bff6599c3460df349ebb25ea9ebc9d9ebbbbe8dc7e68e8a4f979d9cb7709532182b41224e67"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=fj \

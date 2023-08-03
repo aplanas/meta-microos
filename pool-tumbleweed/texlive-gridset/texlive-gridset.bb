@@ -10,10 +10,10 @@ gridset is only one more step for grid setting, not a complete \
 solution."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn53762"
+PV = "2023.209.0.0.3svn53762"
 
-RPM_NAME = "texlive-gridset-2023.201.0.0.3svn53762-53.2.noarch.rpm"
-RPM_HASH = "2f1ab8a28a0df90276121d825f7bff3009322a45767f8690f2d20f7cbbe220abc947e3b643d154235ddd3406adb9be7cc7149b512070d0e2e61db256378bad7e"
+RPM_NAME = "texlive-gridset-2023.209.0.0.3svn53762-54.1.noarch.rpm"
+RPM_HASH = "723f4f829a1f0500841f59168838caae054b8c0a6d84fbf405299ef142f26f35736ba12c5baac36ecc39c7b2f16f20d4df85647219b67ac83ee789e2cb6b332f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gridset.sty \

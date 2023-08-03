@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-utopia"
 DESCRIPTION = "The  separated fonts package for texlive-utopia"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-utopia-fonts-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "270e0badf432b62ebecb36d56e63b5f01ad72a2b3f8f450f9274507c5f3e3ca8ca0e87211b3947ea87126b131b1a8e852c18700ad881df0848702cd0c762eff8"
+RPM_NAME = "texlive-utopia-fonts-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "87bac6cad19f9403e1c44a6420126660ce29e526df4863dafa101342b2be269efd40670c039eeae4fe025bb3528557c6ec97fe1bfe8683f3a11369aa026a9597"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

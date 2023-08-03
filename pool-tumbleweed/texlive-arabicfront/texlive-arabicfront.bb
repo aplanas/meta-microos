@@ -7,10 +7,10 @@ these macros--most of classes do that, but there are exceptions \
 like memoir."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn51474"
+PV = "2023.209.1.1svn51474"
 
-RPM_NAME = "texlive-arabicfront-2023.201.1.1svn51474-54.1.noarch.rpm"
-RPM_HASH = "bcb8d9dff09dd40d34a95d313fc4a4589b6281d0e539afd3685cee73e8cdd5b0356965a2b61cb28ebba929dfb43f5b1f48b0a8fddfa520922c9305437cb84139"
+RPM_NAME = "texlive-arabicfront-2023.209.1.1svn51474-55.1.noarch.rpm"
+RPM_HASH = "76e2823cf421f71764dfa495bcfc9443a40a311ae1a96c63c84acff7e33fc85d9a391c859516f3ade04537edcc3144c79cc29d9fbd93142ca2d39c47a355e464"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-arabicfront.sty \

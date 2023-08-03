@@ -4,10 +4,10 @@ randomly-coloured, randomly-sized shelf of books, with the \
 title and author in a randomly-chosen typeface."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5svn55475"
+PV = "2023.209.0.0.5svn55475"
 
-RPM_NAME = "texlive-bookshelf-2023.201.0.0.5svn55475-52.1.noarch.rpm"
-RPM_HASH = "eedf2ec1aabacf5c1240d99c03fe92e2981643d9c57ddd4208725ecbe26c2e8098f7d19374764d20cbd8731e5cb599707780adb6146dd8c03e7fe9c90ad7acfa"
+RPM_NAME = "texlive-bookshelf-2023.209.0.0.5svn55475-53.1.noarch.rpm"
+RPM_HASH = "ef9ce4712666717baa73f0eb1d6c1a5ac96c947406a6e52e812e2b7150ea36251c317c08a895fb7be0d7351ec5663b114b8443bf5e4654ab79b3c6f38aab2e46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bookshelf.cls \

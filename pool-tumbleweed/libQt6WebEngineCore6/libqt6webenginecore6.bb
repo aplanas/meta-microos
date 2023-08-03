@@ -2,10 +2,10 @@ SUMMARY = "Qt6 WebEngineCore library"
 DESCRIPTION = "The Qt6 WebEngineCore library."
 LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6WebEngineCore6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "93d83d37a1073de141672b5292c7b54cc87bd7d2ffda73c50dc043031badd8080adc02e11d79ba47217a98f6c023409513dbbb5d14d7a516ddce78422c470c2c"
+RPM_NAME = "libQt6WebEngineCore6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "070b1595b6626c2a8c8d692380db5fd31c678d0849cfcd92ed040865639a163c667acb3c82f4afe7c015e554db7e8ff82afd46453bf73907cdd64436972dda7e"
 
 RPROVIDES:${PN} += "libQt6WebEngineCore.so.6 \
 libQt6WebEngineCore6"

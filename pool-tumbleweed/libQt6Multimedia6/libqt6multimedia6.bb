@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Multimedia library"
 DESCRIPTION = "The Qt 6 Multimedia library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6Multimedia6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "2ae31875e700fcf59db3c8607d180977446f3766f97fc5d53be746d2b121569b564c89f752cb87d818777479d8ccdcb9895439af8e152069751ee39fdff15598"
+RPM_NAME = "libQt6Multimedia6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "d4a7a1dab403dd98ee125618b468f3cc68bbad89259304872c52c873cc24ee2800836b8a3754a815f4c59b04ca3b5ddec3bf631bec0bf1a593963d838582043c"
 
 RPROVIDES:${PN} += "libQt6Multimedia.so.6 \
 libQt6Multimedia6"

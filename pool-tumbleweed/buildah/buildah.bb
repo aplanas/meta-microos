@@ -12,10 +12,10 @@ DESCRIPTION = "Buildah provides a command line tool which can be used to: \
 - Delete a working container or an image"
 LICENSE = "Apache-2.0"
 
-PV = "1.31.0"
+PV = "1.31.1"
 
-RPM_NAME = "buildah-1.31.0-1.1.aarch64.rpm"
-RPM_HASH = "03fd8a8da0f24137865757161b9457bce794cdd1f894e26bf64e3a0a3e2536f4a0c3c50db94a8de6af8e12016d995fcbaf01b10236899fd22a3deb9e74b5f7ea"
+RPM_NAME = "buildah-1.31.1-1.1.aarch64.rpm"
+RPM_HASH = "3a71b29b17b294becf507131e098d641a13211ef1b70f807bf42811b630dd5aa33df805b248b0054b8ed52db6da48c1970d4a032e8d9abe5868e1e7ea894d4cd"
 
 RPROVIDES:${PN} += "buildah"
 

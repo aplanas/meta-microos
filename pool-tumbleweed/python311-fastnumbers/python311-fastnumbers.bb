@@ -11,10 +11,10 @@ DESCRIPTION = "fastnumbers is a Python module with three objectives: \
    an input could be converted to int or float."
 LICENSE = "MIT"
 
-PV = "3.2.1"
+PV = "5.0.1"
 
-RPM_NAME = "python311-fastnumbers-3.2.1-1.9.aarch64.rpm"
-RPM_HASH = "b746b302bd9dc461289b30d11cb0f719af27d689e84ff71b37fa9b1106f98c0485e97c507a2eea1446ecec769b7fcc904b9a200446bbfd0b44b6df399d7af1e1"
+RPM_NAME = "python311-fastnumbers-5.0.1-1.1.aarch64.rpm"
+RPM_HASH = "685d8c6171f280b6abca014c583cf9c18a667a084932c3a97be011feca22c85434c41481e5d1d716203f1a0389ea9bcb793fb89b4fe9eaabd2d12e077a43eb0c"
 
 RPROVIDES:${PN} += "python3-fastnumbers \
 python3.11dist-fastnumbers \
@@ -23,6 +23,8 @@ python3dist-fastnumbers"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
+libgcc-s.so.1 \
+libstdc++.so.6 \
 python-abi"
 
 inherit rpm

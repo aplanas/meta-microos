@@ -9,10 +9,10 @@ package, and is already in use in the morehype and catcodes \
 packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn27764"
+PV = "2023.209.0.0.2svn27764"
 
-RPM_NAME = "texlive-langcode-2023.201.0.0.2svn27764-55.1.noarch.rpm"
-RPM_HASH = "fb20a339dd3b283e74cb647e13fbf1901c91ee9745410af631d164a3bf67ed97350ced062eb6a0d79890eff97e3f83e83fe8a418c3b3795aff2e4aa2baecccfc"
+RPM_NAME = "texlive-langcode-2023.209.0.0.2svn27764-56.1.noarch.rpm"
+RPM_HASH = "87b324e50dc6c187bfa7ca6d89825946af507fd04e3d97e3ba20c9167b2416f4da5c7b7712d71bc78c06b7801311ff52e44ad136bb1473556703380bf67ece9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-langcode.sty \

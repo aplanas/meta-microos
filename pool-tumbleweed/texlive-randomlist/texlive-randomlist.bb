@@ -4,10 +4,10 @@ with random operations. The hidden aim is to build a personnal \
 collection of exercises with different data for each pupil."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn45281"
+PV = "2023.209.1.3svn45281"
 
-RPM_NAME = "texlive-randomlist-2023.201.1.3svn45281-53.2.noarch.rpm"
-RPM_HASH = "b13695de21f372aa5e91c947396a97ee89d11849d6546ba579328c1794486209fd99608d0357bd7ae797cc68c7557c2be4976c622596ba18ddd1876c47fcefca"
+RPM_NAME = "texlive-randomlist-2023.209.1.3svn45281-54.1.noarch.rpm"
+RPM_HASH = "6ad5e624de21ceaa70e0a532c6304bf9d74436270960ffa2717af881010437c01f77cdec5a3b7de9fcec3eed9b9ffb235f1783d912877afc13e720518e84d821"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-randomlist.sty \

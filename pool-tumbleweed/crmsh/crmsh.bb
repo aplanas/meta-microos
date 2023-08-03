@@ -5,10 +5,10 @@ configuration, management and troubleshooting of Pacemaker-based \
 clusters, by providing a powerful and intuitive set of features."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.5.0+20230705.ea8c76ff"
+PV = "4.5.0+20230725.5d35bb6c"
 
-RPM_NAME = "crmsh-4.5.0+20230705.ea8c76ff-2.1.noarch.rpm"
-RPM_HASH = "cce9a58456547f7f77b09df3f076bf01ac72b1a3ce7afead6ea162cd44e9dfd8b4877f9724158f4403a84346dbaf778dc454772dce62bc5da21a56b4d982a994"
+RPM_NAME = "crmsh-4.5.0+20230725.5d35bb6c-1.1.noarch.rpm"
+RPM_HASH = "f29c90414766b9410e57f16381e8bd2fa49c5d688cfbdee4d6ec0237735e66910112c84857627ecd150bc40f55f2cbfb5723c0fda134333c7ff9d8f004e22d80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-crmsh \
@@ -17,6 +17,7 @@ python3.11dist-crmsh \
 python3dist-crmsh"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
+/usr/bin/python3.11 \
 /usr/bin/sh \
 /usr/bin/which \
 crmsh-scripts \

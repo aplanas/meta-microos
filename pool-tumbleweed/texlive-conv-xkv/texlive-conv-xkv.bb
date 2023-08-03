@@ -6,10 +6,10 @@ for example. The package converts the new notation to xkeyval \
 notation and passes it on to xkeyval."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.svn43558"
+PV = "2023.209.svn43558"
 
-RPM_NAME = "texlive-conv-xkv-2023.204.svn43558-54.1.noarch.rpm"
-RPM_HASH = "9ef874e87e5b1d166b882c92c97dc29789c5ce4a8b14c5cd16b40ee1467a4490a500faea2cc1cf55c3141b36f71702dd2cf162280d4ee98277bda174d24c9a28"
+RPM_NAME = "texlive-conv-xkv-2023.209.svn43558-55.1.noarch.rpm"
+RPM_HASH = "83ce80512b30f590ab293a2f343736470e81bf3e96aeaecfd1ba31fb59778fe4317e476f32a2c149b0747eb1bf61b87b3a4eb5982c771f2c73aa6ce3417ce522"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-conv-xkv.sty \

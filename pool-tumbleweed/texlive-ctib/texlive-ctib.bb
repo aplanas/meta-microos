@@ -5,10 +5,10 @@ clusters are formed by TeX and Metafont. No external \
 preprocessor is needed."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-ctib-2023.204.svn15878-54.1.noarch.rpm"
-RPM_HASH = "2a8a4d0aa7aacd7982322401be99025fcb8dcbef8aaa121af572d49cbad1e57a7b1b8451e4428073c969bde8bcdcfc5c052691533271b95758a6f320070dd422"
+RPM_NAME = "texlive-ctib-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "e4ec744cbafc42903ad42a2a9aa5801b2ca3e517615e91d78946aaba48de7802cb7a7aa80fba07613af49505058a4015b7a6b78a14e535d8999a4bbae57b52ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ctib.sty \

@@ -12,10 +12,10 @@ style. A LaTeX package (citation-style-language.sty) is \
 provided to communicate with the processor."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3.0svn65878"
+PV = "2023.209.0.0.3.0svn65878"
 
-RPM_NAME = "texlive-citation-style-language-2023.201.0.0.3.0svn65878-53.1.noarch.rpm"
-RPM_HASH = "19c81c7df6e5e9f24a0a56f7c8f9c9b2c4361d7cfe54df61400ad693b65db945d75c399f1277e25bf9bb3676504d3c33f793d5023944be4538def05b683b2b6b"
+RPM_NAME = "texlive-citation-style-language-2023.209.0.0.3.0svn65878-54.1.noarch.rpm"
+RPM_HASH = "d16c931937658d49ad37c79d3e8a1ee7bd4ec692f477f79386b245faf17877d1ae497aa09d4297eb6535a5271d2194dbccb3ceefe07515244f0d70882fd47cb1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-citation-style-language.sty \

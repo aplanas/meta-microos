@@ -13,10 +13,10 @@ in different graphic formats, exactly as it is rendered within \
 the LaTeX document, using either ImageMagick or Ghostscript."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.02ksvn57010"
+PV = "2023.209.2.02ksvn57010"
 
-RPM_NAME = "texlive-svg-2023.201.2.02ksvn57010-57.1.noarch.rpm"
-RPM_HASH = "d7c561f10da41e2aff9ba598df571166f188eeb138e472554c9016a98dd7184a92ad8213cfb7b96567aad4e6f931df5f29d71b9b08c890e1ba09c2b9d2deded8"
+RPM_NAME = "texlive-svg-2023.209.2.02ksvn57010-58.1.noarch.rpm"
+RPM_HASH = "428c45de20d645bc0cc70be49655f49aec826bfae4e18d5e821a82cb5ebf8ad9e5ffbcc721e6a811e3f8abca871b12de7a8ef2edba69931a8d88cd8739212f1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-svg-extract.sty \

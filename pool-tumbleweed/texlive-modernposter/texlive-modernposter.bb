@@ -8,10 +8,10 @@ two-column layout. The color scheme is inspired by the \
 metropolis beamer theme."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.03.1svn47269"
+PV = "2023.209.1.03.1svn47269"
 
-RPM_NAME = "texlive-modernposter-2023.201.1.03.1svn47269-54.1.noarch.rpm"
-RPM_HASH = "98e77e41fc6e74c16029744402f7aa09e5855067df762676f4637fa3cdc35e48c45358c54d83f70134d91cdd76ba0c81d82c70ee569867bea7fa383a77e2bf9a"
+RPM_NAME = "texlive-modernposter-2023.209.1.03.1svn47269-55.1.noarch.rpm"
+RPM_HASH = "d5bdb1f3a52a8faea8841fd242f79777be53e8e20577e6da8f2c33d1aed23e0560e4453d3b9053b3084902b5efe7d7bcc64468bb539ba5846aa423993402d07a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-modernposter.cls \

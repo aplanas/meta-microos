@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.7.6"
 
-RPM_NAME = "vala-panel-appmenu-lang-0.7.6-1.6.noarch.rpm"
-RPM_HASH = "44d1af6bf0bd10bfad4b4e486e0242956842d73b7077cbb259cc7e227a6cd7cece9220643a164770ff61adc6c5a794f7a950229fd2e0d234690eeedda47144f6"
+RPM_NAME = "vala-panel-appmenu-lang-0.7.6-2.1.noarch.rpm"
+RPM_HASH = "c3c50568ba4b2313486999e6b91af66c04b3929be857c559a009f60595cd7a3287cb9fa9a3956ded4f68fcfca1945c98a4afd2dbc7b4b605bbc8c5c64bc7604b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-vala-panel-appmenu-af \

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "8.5.0"
 
-RPM_NAME = "lucene-backward-codecs-8.5.0-3.5.noarch.rpm"
-RPM_HASH = "aa743a1a41f159e72e4b2c65ad602a331d2c129c8347628f2c31027688313e5701338cca3ec70f17c2b321019d13c1996b3385ba61a680561c08705137320415"
+RPM_NAME = "lucene-backward-codecs-8.5.0-4.1.noarch.rpm"
+RPM_HASH = "63cfabfa54fa96623c5898dbdb290c679c0faf50774a203577c65861134c6a9210563bdaf585ec0878a35a5f6bb9c00024a1fbff1a4127bc284a9151b340baf2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lucene-backward-codecs \

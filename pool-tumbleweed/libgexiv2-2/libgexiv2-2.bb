@@ -3,10 +3,10 @@ DESCRIPTION = "gexiv2 is a GObject-based wrapper around the Exiv2 library. It ma
 basic features of Exiv2 available to GNOME applications."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.14.1"
+PV = "0.14.2"
 
-RPM_NAME = "libgexiv2-2-0.14.1-2.1.aarch64.rpm"
-RPM_HASH = "c97a51e85ebbaed866b12a0df4876db6e6daa96749ccf96c3cbe54e204a904423f2670d497534fa13ff01bd7b128303a7f470813c4bec8e05376f6890200ddf4"
+RPM_NAME = "libgexiv2-2-0.14.2-1.1.aarch64.rpm"
+RPM_HASH = "bba77437cda62aae7222711a4739037d01f7a0bf4cb8a1e41bcc0cc81a8bc701c336ba843827ee3dcffa3c959884becccad696051ef07896c45e3e4fc1b6ccda"
 
 RPROVIDES:${PN} += "libgexiv2-2 \
 libgexiv2.so.2"

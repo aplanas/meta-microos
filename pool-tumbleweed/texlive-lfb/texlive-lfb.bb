@@ -10,10 +10,10 @@ texts, making the input text more readable than in some \
 schemes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-lfb-2023.201.1.0svn15878-54.1.noarch.rpm"
-RPM_HASH = "93f4ccb0ed1f5ea95a60bfc5be4937c2220c2841fa8ccfedbd2ab2a6eb4aa257b90542e28734f20db7ea01bc1dcb0a02b880422622bf8955bcaa361fe17aba2f"
+RPM_NAME = "texlive-lfb-2023.209.1.0svn15878-55.1.noarch.rpm"
+RPM_HASH = "23b477c70598dae607d7e7aa075806f579d75739fddd829f306a35d2b291e478da6315bdd5bc83a22b51e64064e0841fd1bf9c8b1ed150744db506f1578699cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lfb10.tfm \

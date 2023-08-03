@@ -5,10 +5,10 @@ sheets such as Originality, Copyright and Authenticity \
 statements."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn66115"
+PV = "2023.209.1.0svn66115"
 
-RPM_NAME = "texlive-unswcover-2023.201.1.0svn66115-53.1.noarch.rpm"
-RPM_HASH = "d341c3227568cb3d6aeb4d3f3cdc85fb3ea1a8b5451cfea97d3fa6d9da0c82b53aec74c8a881c48fef6c4fcf69e12ef26276e38647796a33711a764937cf5f46"
+RPM_NAME = "texlive-unswcover-2023.209.1.0svn66115-54.1.noarch.rpm"
+RPM_HASH = "3f6264797f71f60a48b66fb4452df7ba0d43214505a59abfb8885048ed841433b0f4995f1ea9889ab61b74e14c67b1d78751081b909d5974b0fa604159debef9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-unswcover.sty \

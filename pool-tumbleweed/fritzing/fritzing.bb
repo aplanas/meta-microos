@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.4"
 
-RPM_NAME = "fritzing-0.9.4-1.25.aarch64.rpm"
-RPM_HASH = "f64432e3c188dbcd173d7318e118eaaeabd1468b5ce5a828f9baab2533549b0f796111cd9dedf1aefbf65470bb32cd073ba09df1fc230de859f9a2a0f5107ce2"
+RPM_NAME = "fritzing-0.9.4-1.26.aarch64.rpm"
+RPM_HASH = "0fdac146501faa6a201c559710443ab51ad8ae50474c5721291a7deb99682c535cb9b71696a6e82a4117d234e4479c176e678349f071b11d4b70078165f56f5d"
 
 RPROVIDES:${PN} += "fritzing"
 
@@ -28,7 +28,7 @@ libQt5Widgets.so.5 \
 libQt5Xml.so.5 \
 libc.so.6 \
 libgcc-s.so.1 \
-libgit2.so.1.6 \
+libgit2.so.1.7 \
 libm.so.6 \
 libstdc++.so.6 \
 libz.so.1 \

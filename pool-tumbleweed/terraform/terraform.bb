@@ -4,10 +4,10 @@ safely and efficiently. Terraform can manage existing and popular service \
 providers as well as custom in-house solutions."
 LICENSE = "MPL-2.0"
 
-PV = "1.5.3"
+PV = "1.5.4"
 
-RPM_NAME = "terraform-1.5.3-1.1.aarch64.rpm"
-RPM_HASH = "8e2823e86248bbe41d96f0cafca56b6179505c5d8879b7ac8bbebcefd9377e90b129ccd0682b038a8807e6bf93a700605220ba2a4fae89550add73729ff62be1"
+RPM_NAME = "terraform-1.5.4-1.1.aarch64.rpm"
+RPM_HASH = "b2c7b6787ad6a1e2adbb015bc9025ccab2f9ec54888e318d45c6e64efd4a8591d082300b5aa2727e4e771cfd5fd8c31a8ec2b2c42fd4dc2c7cedbca9fdc05afd"
 
 RPROVIDES:${PN} += "terraform"
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-langnames"
 DESCRIPTION = "This package includes the documentation for texlive-langnames"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1svn65502"
+PV = "2023.209.2.1svn65502"
 
-RPM_NAME = "texlive-langnames-doc-2023.201.2.1svn65502-55.1.noarch.rpm"
-RPM_HASH = "681b331f6d4d6497263d9d68def18ab300781c633d15559683040f002009e66fc1ec376fdda169b82b1e5a700b75c57e7c8580e5fea2829697a10fb35a127fe0"
+RPM_NAME = "texlive-langnames-doc-2023.209.2.1svn65502-56.1.noarch.rpm"
+RPM_HASH = "36e638c1d164814a809776ce953266687ec228a4e911799c58340df7d489866a56c063f73d3250d9741795ced02d05402a83c534cc7f1c200ae29975011bf1d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-langnames-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-helmholtz-ellis-ji-notation"
 DESCRIPTION = "The  separated fonts package for texlive-helmholtz-ellis-ji-notation"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn55213"
+PV = "2023.209.1.1svn55213"
 
-RPM_NAME = "texlive-helmholtz-ellis-ji-notation-fonts-2023.201.1.1svn55213-53.2.noarch.rpm"
-RPM_HASH = "63ff03317accabcbe576872c2f6edf48a18d81d3ef3066253138570b454443194a3535e2848e848cdf60952d9cd3d5df1eb59a286a842d407e7b7c823cf982a6"
+RPM_NAME = "texlive-helmholtz-ellis-ji-notation-fonts-2023.209.1.1svn55213-54.1.noarch.rpm"
+RPM_HASH = "8745097332cbf569cf3b84a12f7e2b87d86bbd197fb994b3e95ba3d26d4f1070bff1178978ec300e20a7f699fcc25d5059e069765ab86c8af2090174fdbe0fd6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-helmholtz-ellis-ji-notation-fonts"

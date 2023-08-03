@@ -8,10 +8,10 @@ required ingredients. At the bottom you may insert an optional \
 hint. The package depends on the Emerald fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5svn36435"
+PV = "2023.209.1.5svn36435"
 
-RPM_NAME = "texlive-xcookybooky-2023.201.1.5svn36435-52.2.noarch.rpm"
-RPM_HASH = "62a526994c0f0bceb06d3036604603771e65e78bd356276a3537afb4151548d7a0d4e96ac3b7860eebf774cbf9433d75505764f59813e1474c5c0c90011c0668"
+RPM_NAME = "texlive-xcookybooky-2023.209.1.5svn36435-53.1.noarch.rpm"
+RPM_HASH = "fb542f511cb4b58dc690ac8b1a6efe76eb90050e228631924daa1d39c8ec71d82619ac62ed388a9d1973316a4123ba5cec0d9b1c4e1412d10fbd92cc33b98547"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xcookybooky.cfg \

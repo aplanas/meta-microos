@@ -5,10 +5,10 @@ old 'full' frenchpro (the 'professional' distribution) and the \
 light-weight frenchle packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.6.11svn52027"
+PV = "2023.209.6.11svn52027"
 
-RPM_NAME = "texlive-e-french-2023.201.6.11svn52027-53.2.noarch.rpm"
-RPM_HASH = "c44880702aaec3626bb4d4e3b31d3ed826ff5a330bc05eb8c706e82ddf84560adcf8928e0b9e577457e602a2a9c1d74e69e3dbba194de82fb5543b99072d9abe"
+RPM_NAME = "texlive-e-french-2023.209.6.11svn52027-54.1.noarch.rpm"
+RPM_HASH = "0156bd02fb992cd33122ae3446a2971c2b804d2389e6f83d6357a021a37cd0a145e17c22e5704f9c24bcc6dbfe0d771548f1b095029d61c6231db5b26aa3ac21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-efrench.sty \

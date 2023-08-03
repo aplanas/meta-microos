@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-uhrzeit"
 DESCRIPTION = "This package includes the documentation for texlive-uhrzeit"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2csvn39570"
+PV = "2023.209.0.0.2csvn39570"
 
-RPM_NAME = "texlive-uhrzeit-doc-2023.201.0.0.2csvn39570-53.1.noarch.rpm"
-RPM_HASH = "dbdf7b47289eaf441237ddef855a67260cd0ac3f35fc7569e5b3b4de23a89cc4f44f25e09a9706c22440ec102fb519b42c765fe68a32d3084049e158fba6f9f6"
+RPM_NAME = "texlive-uhrzeit-doc-2023.209.0.0.2csvn39570-54.1.noarch.rpm"
+RPM_HASH = "55695ca8b4897de05f81ee6f7b78cf09dfc62a39f02b9f7b8805374c60390fef994999fbf997df5318f873cd325ec272358887a31a674410faec2372efba07dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-uhrzeit-doc"

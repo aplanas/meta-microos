@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.0.7"
 
-RPM_NAME = "python311-python-json-logger-2.0.7-1.2.noarch.rpm"
-RPM_HASH = "11c789b95c3fc48ede86589e53d6dfd448a2644d18d866baa87e64c7ed5ae07156d36e8bf39d2099ed5ea6375425b38726d223c1c66db05ac7c2115904c77b08"
+RPM_NAME = "python311-python-json-logger-2.0.7-2.1.noarch.rpm"
+RPM_HASH = "bc0295ef9e06048fb2ccf91d6afdf2d811ed29570f43bd9f3f346c556dfcc8353319268a8b6ce7b7266eed4d47ee3ae3847a69585acb26f238aa3d64160af3b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-json-logger \
@@ -13,7 +13,6 @@ python3.11dist-python-json-logger \
 python311-python-json-logger \
 python3dist-python-json-logger"
 
-RDEPENDS:${PN} += "python-abi \
-python311-setuptools"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

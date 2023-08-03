@@ -9,10 +9,10 @@ choose the correct letter depending on word context \
 examples are included."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn30042"
+PV = "2023.209.1.0svn30042"
 
-RPM_NAME = "texlive-aramaic-serto-2023.201.1.0svn30042-54.1.noarch.rpm"
-RPM_HASH = "5edd702234d69c2e26412da0ed7b1cab586c0d6db8a3c82eb623a5cf73b2b9f03458a36f4cbf8a225eafd3896a9f9ef7710ae02a826b28785e4751140635c1b1"
+RPM_NAME = "texlive-aramaic-serto-2023.209.1.0svn30042-55.1.noarch.rpm"
+RPM_HASH = "c6b21ec4227725bb9c59bc50cbe67c3a0125ead629d46f81c9e07411073285a1bf6597081604b42df827461f2f0d41c12ba6a2cf8f050876302004ff98f86c5c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-assy.tfm \

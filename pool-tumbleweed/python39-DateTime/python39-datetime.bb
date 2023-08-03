@@ -4,10 +4,10 @@ Unless you need to communicate with Zope APIs, you're probably \
 better off using Python's built-in datetime module."
 LICENSE = "ZPL-2.1"
 
-PV = "5.1"
+PV = "5.2"
 
-RPM_NAME = "python39-DateTime-5.1-1.3.noarch.rpm"
-RPM_HASH = "4180d6cb577e4943052e3a5934684724da521170ae242e1bd46d88f28d999766f5f9868a170f674694f0eff3e0a72f872fab1e964beb1aba2de3e62c0b06ed89"
+RPM_NAME = "python39-DateTime-5.2-1.1.noarch.rpm"
+RPM_HASH = "38ef20595f97b953b120b253336eca9bc3cdec7f7c0c05b278c5e0fab21d47badf484348d92a424655ff9ac889c8a423aa677a0f57d502c81704dac6e76cc0e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-datetime \

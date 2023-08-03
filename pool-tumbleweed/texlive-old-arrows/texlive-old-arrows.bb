@@ -7,10 +7,10 @@ to use the usual new-style Computer Modern arrows together with \
 the old-style ones."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn42872"
+PV = "2023.209.2.0svn42872"
 
-RPM_NAME = "texlive-old-arrows-2023.201.2.0svn42872-54.1.noarch.rpm"
-RPM_HASH = "979e9f1e92b5effa8e924d6a23ddb86b745451e950a0aec0c3e0cd70f7da5dee8ad42cd02b2f9375c8e42c130190bf75f9868715f59fa06769bbea0090bbfa09"
+RPM_NAME = "texlive-old-arrows-2023.209.2.0svn42872-55.1.noarch.rpm"
+RPM_HASH = "1280dbaed379c08757f37f0e22ee04441a17760829bfcc38ee67d870b34534d23736d083e1aced4825f0344060ae9d91f105e5f1383e3165a2fa5499b34fb813"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-oabsy10.tfm \

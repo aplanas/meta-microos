@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-qualitype"
 DESCRIPTION = "This package includes the documentation for texlive-qualitype"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn54512"
+PV = "2023.209.svn54512"
 
-RPM_NAME = "texlive-qualitype-doc-2023.201.svn54512-53.2.noarch.rpm"
-RPM_HASH = "4d8fa4e4ee5f8152b52470195f2657dfc36776be728012c988587c5832884fcdf3132bbb5c45b5b9febb18cd1a29f30f14ea8799609fe51498dd0993aacae6e5"
+RPM_NAME = "texlive-qualitype-doc-2023.209.svn54512-54.1.noarch.rpm"
+RPM_HASH = "9d71c76774fecb6c2baf8ae5d9f3eabe2bb327b2152d1dd3d7521a5c1f3d006f9834aa12c37a643b3915c7d8e74f27102048bc45899d8c1e3aa08ac530cb1e81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-qualitype-doc"

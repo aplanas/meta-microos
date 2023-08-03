@@ -5,10 +5,10 @@ for serial letters and the like, making it easier to export the \
 data file from MS-Excel/MS-Word"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn16549"
+PV = "2023.209.svn16549"
 
-RPM_NAME = "texlive-delimtxt-2023.201.svn16549-52.1.noarch.rpm"
-RPM_HASH = "43cfc5605e3d99139810f88ac6346cd9d0f758bb85ce4ab6eedf6cd367554f87669033572565f25fe6a5870a243625f1f566125dba98799921cefca7badb6265"
+RPM_NAME = "texlive-delimtxt-2023.209.svn16549-53.1.noarch.rpm"
+RPM_HASH = "1c2710666c3d6892cfe4251b99cec20de412a1a8cb5818d43abda36c9cb6b0edf560225158717dc234a80484b319fe07069dbf8dbfa48de673f786cae52c1e98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-delimtxt.sty \

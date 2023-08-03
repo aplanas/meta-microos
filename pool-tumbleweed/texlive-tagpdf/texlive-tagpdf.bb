@@ -9,10 +9,10 @@ to be done, which kernel changes are needed, how packages \
 should be adapted."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.98esvn66461"
+PV = "2023.209.0.0.98esvn66461"
 
-RPM_NAME = "texlive-tagpdf-2023.201.0.0.98esvn66461-54.1.noarch.rpm"
-RPM_HASH = "4a0dbe6ef519ad384f8ade1c0c7a512e64b628512e2584a6a485252ad2d61890a16d301df4bbefce1079b53315650ab4c26b741dffca3cc40e9571611e34343a"
+RPM_NAME = "texlive-tagpdf-2023.209.0.0.98esvn66461-55.1.noarch.rpm"
+RPM_HASH = "07ddd7e65d68b6e9e1bad83344e84aae5d89b213b83945a8136ae350e8d16722504d738bec1d98af0b92242fab1775de7043fb8d5bc027edb8ace9bf21b437c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tagpdf-base.sty \

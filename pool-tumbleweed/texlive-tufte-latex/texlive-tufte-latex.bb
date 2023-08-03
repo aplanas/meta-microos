@@ -3,10 +3,10 @@ DESCRIPTION = "Provided are two classes inspired, respectively, by handouts \
 and books created by Edward Tufte."
 LICENSE = "Apache-1.0"
 
-PV = "2023.201.3.5.2svn37649"
+PV = "2023.209.3.5.2svn37649"
 
-RPM_NAME = "texlive-tufte-latex-2023.201.3.5.2svn37649-52.1.noarch.rpm"
-RPM_HASH = "57756316694d3e15a666e2907fdd4b7e27b12e1cece5016ef98da5154c299ef2353c4ebb01239894326dbf848897e3873de34a7890148229811fa5cad910523c"
+RPM_NAME = "texlive-tufte-latex-2023.209.3.5.2svn37649-53.1.noarch.rpm"
+RPM_HASH = "1f434908a96e83fd7ee7ad7c9e1692bc38b369ef8881a81d84a30e008f240dfb734fd571aae27aed29c9823de4b6761ccafac29d73847127ca125fa425cd2491"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tufte-book.cls \

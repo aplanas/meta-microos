@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-logreq"
 DESCRIPTION = "This package includes the documentation for texlive-logreq"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn53003"
+PV = "2023.209.1.0svn53003"
 
-RPM_NAME = "texlive-logreq-doc-2023.201.1.0svn53003-54.1.noarch.rpm"
-RPM_HASH = "5b61739d2c99aa4abbe405f10d85c2c09c7b92408f5a8a5bc4f958a11950656f25889cb580e5943b4efc6132ce2c87dd27ecef0c4a5493b93437401145f2d691"
+RPM_NAME = "texlive-logreq-doc-2023.209.1.0svn53003-55.1.noarch.rpm"
+RPM_HASH = "3be23ff7a4776d820569debdedaa1e0aa8b58a5561aa01555462f4591ce251e256c785625debe212c2c1216718118036459674ac3650cb748c69897d72f786c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-logreq-doc"

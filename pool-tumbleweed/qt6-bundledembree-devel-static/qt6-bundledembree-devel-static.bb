@@ -3,10 +3,10 @@ DESCRIPTION = "The Qt6 BundledEmbree static library. \
 This library does not have any ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-bundledembree-devel-static-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "6c95b57c343cde839d4c880745078e13e023bdd990be4468aac3bcabd736cebb981bb871a71827a6a3b96a135f95e6ac8a8e3940a2d1e9c3a5c1715a8969c7b5"
+RPM_NAME = "qt6-bundledembree-devel-static-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "a90fc1d51436f29e9d8ed3310c076fbe181981f6aba46c04d47d6c43901ea28b1c460dfbb61576035133ffaefd5bca06943a46dc6511e25f8bceac8448ee75b6"
 
 RPROVIDES:${PN} += "cmake-Qt6BundledEmbree \
 qt6-bundledembree-devel-static"

@@ -2,10 +2,10 @@ SUMMARY = "Userspace tools for Linux kernel containers"
 DESCRIPTION = "LXC is the well-known and heavily tested low-level Linux container runtime."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.0.2"
+PV = "5.0.3"
 
-RPM_NAME = "lxc-5.0.2-1.2.aarch64.rpm"
-RPM_HASH = "09a430f24481a3794ada9a8e804a43b432fefa55a99cbccf6d236c4ab60d5156852a4796a19be787bb825bc1d71d4d8f6655ee752b2e5b316bd85f7b8a78de1e"
+RPM_NAME = "lxc-5.0.3-1.1.aarch64.rpm"
+RPM_HASH = "b7008a8ca639ae76b52edf197bc60b36d017d707f5e9eb286f531f0a1d23e1e0396bd59b3e23279d2708153e4482e9e57433312598c5bb83dab7f2b9884b81c9"
 
 RPROVIDES:${PN} += "config-lxc \
 lxc"

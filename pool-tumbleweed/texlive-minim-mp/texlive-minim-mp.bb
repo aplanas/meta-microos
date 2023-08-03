@@ -7,10 +7,10 @@ MetaPost. With the included minim-mp format file, you can even \
 use LuaTeX as a stand-alone MetaPost compiler."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2023_1.2svn66395"
+PV = "2023.209.2023_1.2svn66395"
 
-RPM_NAME = "texlive-minim-mp-2023.201.2023_1.2svn66395-54.1.noarch.rpm"
-RPM_HASH = "b3edd6225378163373ec027450be1fe001f41c0e957ffc0ba7d0346c780e1b0ba831df8898dc27939b0299a29d9efd0eb907d73486d0e22cbb69176c2593a305"
+RPM_NAME = "texlive-minim-mp-2023.209.2023_1.2svn66395-55.1.noarch.rpm"
+RPM_HASH = "441026bfafe1b4f40c25329fde4af01132301045cb096e7913a57943060909bec73c197834e242a79a80e65b896b74efc64892cfa2922a075be409233d154e1a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-minim-mp.tex \

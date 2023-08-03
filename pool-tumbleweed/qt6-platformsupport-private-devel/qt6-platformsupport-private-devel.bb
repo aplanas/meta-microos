@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6PlatformSupport th
 any ABI or API guarantees."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-platformsupport-private-devel-6.5.1-4.1.aarch64.rpm"
-RPM_HASH = "48abbc1ddbe4ae6778f3be539373e35b71cf1ad7d525aa32ffacda20444b936fc0be8ec174095734b3700e13ae2ed0deb86720f99a889138a1b532e09ded18ad"
+RPM_NAME = "qt6-platformsupport-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "0adc22a78beb2e9871495ac94a6696f00fff38d465bc720c2a16e772b749523636085eb81ebe4f5937308e9b65f4d11b9907324cff89d544c57223478f3df991"
 
 RPROVIDES:${PN} += "qt6-platformsupport-private-devel"
 

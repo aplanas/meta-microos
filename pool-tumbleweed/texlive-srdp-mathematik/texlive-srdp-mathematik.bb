@@ -7,10 +7,10 @@ file, and it offers a way to vary the answers in order to \
 create different groups (e. g. for tests) easily."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.11.0svn65293"
+PV = "2023.209.1.11.0svn65293"
 
-RPM_NAME = "texlive-srdp-mathematik-2023.201.1.11.0svn65293-57.1.noarch.rpm"
-RPM_HASH = "1c8cb4d27c4c042136741d29f9cab1f0c72379fe3fbe139448ad73b409ba1d14df0e68097a49cdb7386ad265fec9f4055808bf0e9209814b2dcf4060abbf3095"
+RPM_NAME = "texlive-srdp-mathematik-2023.209.1.11.0svn65293-58.1.noarch.rpm"
+RPM_HASH = "b6438532b8e7c660528595dffdf35bb94f60186e1dd3e26f999b00a27581c6335c7ae64c83f079b6ba9b65cedb6f759c5b7a2e35e9ccd1d1c19fe3a43a01c5bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-srdp-mathematik.sty \

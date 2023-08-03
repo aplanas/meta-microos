@@ -5,10 +5,10 @@ functions which work with gzip-compressed files (and uncompressed \
 files, too, but not with sockets)."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.7"
+PV = "8.2.8"
 
-RPM_NAME = "php8-zlib-8.2.7-1.1.aarch64.rpm"
-RPM_HASH = "12576476449dc398b7548d3dc06a6ff240da99ed70d9182b5c9392ce0406f8e17670c4e74cfde2118b2d6f129b58546625552e5a2a81281a878c95d2adcf2024"
+RPM_NAME = "php8-zlib-8.2.8-1.1.aarch64.rpm"
+RPM_HASH = "5b990a60b288a6d97b8d23cdc0d6bcdb8ddcbb00c254d919fc1735263498350e3615bf749c120997e4c4556489ce5f33d82b98367931912427903c96c99a5bc1"
 
 RPROVIDES:${PN} += "config-php8-zlib \
 php-zlib \

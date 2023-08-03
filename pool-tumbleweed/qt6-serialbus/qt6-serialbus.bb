@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 SerialBus library"
 DESCRIPTION = "Qt 6 SerialBus library."
 LICENSE = "LGPL-3.0-only | GPL-2.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-serialbus-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "3c2d1e10b659217041d65b97fa77e14bd20fc3fd1045676be0f7fd6f47749e651b083876a69867adb574f128919825ce4f1305e1da80f0b108143528107eea73"
+RPM_NAME = "qt6-serialbus-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "e1f0b2d73847c2855e72db769f54782a8d1df05833027f6be824cdd0b6c322812c3cdb21edcfef0be0ddd951ec3d482ee7325007a8866895f24c82c2ea60a3dd"
 
 RPROVIDES:${PN} += "libqtpassthrucanbus.so \
 libqtpeakcanbus.so \

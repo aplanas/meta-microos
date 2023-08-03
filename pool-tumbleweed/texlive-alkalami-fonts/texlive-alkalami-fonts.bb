@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-alkalami"
 DESCRIPTION = "The  separated fonts package for texlive-alkalami"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.000svn44497"
+PV = "2023.209.1.000svn44497"
 
-RPM_NAME = "texlive-alkalami-fonts-2023.201.1.000svn44497-54.1.noarch.rpm"
-RPM_HASH = "ec445e5c882bd9c69c78211a61c6e93c26fc20076f24b6e7558858a3b2d1b6f0a46ae04a0248ff6720ac2dc3193b519fb74c1339fb47a0380e9a4f92ae2461e1"
+RPM_NAME = "texlive-alkalami-fonts-2023.209.1.000svn44497-55.1.noarch.rpm"
+RPM_HASH = "6183dadf6368ace736042ddceeb7f4f282eb0301f0b31f379b8882b1c5db37cb8514869940e7035977d48b1325585ad5067d57a2c87236de0f880bd05d401e85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

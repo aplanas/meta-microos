@@ -4,10 +4,10 @@ PSTexample to put code and output side by side or one above the \
 other."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.06svn45289"
+PV = "2023.209.0.0.06svn45289"
 
-RPM_NAME = "texlive-pst-exa-2023.201.0.0.06svn45289-52.1.noarch.rpm"
-RPM_HASH = "3f4e7ba438e43287afbaaf7da641adc2bf819d6e00160884037779c717aa458a83f857d2a3228fd605d2e3dd72bbd2dd4e45154803def9fdcbd6b1c822772949"
+RPM_NAME = "texlive-pst-exa-2023.209.0.0.06svn45289-53.1.noarch.rpm"
+RPM_HASH = "b128a2770775146bc2ec69bb77ac062ac8400071d95fbb4f56eae8fa2aeca2731956d6131d34de919d54c2e48bdb04ab28c2a1334b38a26c82ef76dd02d4fff9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-exa.sty \

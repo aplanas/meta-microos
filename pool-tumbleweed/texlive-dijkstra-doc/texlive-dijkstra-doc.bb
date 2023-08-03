@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dijkstra"
 DESCRIPTION = "This package includes the documentation for texlive-dijkstra"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.13svn64580"
+PV = "2023.209.0.0.13svn64580"
 
-RPM_NAME = "texlive-dijkstra-doc-2023.201.0.0.13svn64580-52.1.noarch.rpm"
-RPM_HASH = "ba0c0f9bf58b23c38995449de922c1c8c6bfb4356875fdcb0b1d52ed592685a2d628d0b661e5fd1af57433749cce307e5a974a6df9bc4a28c73e2ff8aad11903"
+RPM_NAME = "texlive-dijkstra-doc-2023.209.0.0.13svn64580-53.1.noarch.rpm"
+RPM_HASH = "5836afdd360a193a5a64a2f1949d8af48b14dd4d420cba892a04587f3fafdd32f99052dd346caa6f19100b574ded8547157dddc1b7df8f862acb82c62305e9d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-dijkstra-doc-fr \

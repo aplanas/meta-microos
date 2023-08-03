@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for the Qt 6 D-Bus library. This package also \
 contains Qt6's qdbusxml2cpp and qdbuscpp2xml binaries."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-dbus-devel-6.5.1-4.1.aarch64.rpm"
-RPM_HASH = "05e66d9565d740f84271b0fe203bfb5855c145df10870e291a4234582de1393e18234fab634fd827512f1e2b8f2a2383fd580659b4cbd16e2e44aafe623df4d4"
+RPM_NAME = "qt6-dbus-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "86707ec7cd1bde944bf430caa6e8e4d3e10661c0f4a62d7f4f8c659be2f0c7aa529f0ea527c60c57cc645f6f62d3dd8797c64bca8fac4ee06831d91a04293873"
 
 RPROVIDES:${PN} += "cmake-Qt6DBus \
 cmake-Qt6DBusTools \

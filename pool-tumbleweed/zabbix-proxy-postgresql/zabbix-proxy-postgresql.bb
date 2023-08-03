@@ -2,10 +2,10 @@ SUMMARY = "Zabbix proxy with PostgreSQL support"
 DESCRIPTION = "The Zabbix proxy compiled with PostgreSQL support."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.0.17"
+PV = "6.0.19"
 
-RPM_NAME = "zabbix-proxy-postgresql-6.0.17-1.2.aarch64.rpm"
-RPM_HASH = "e277d7da3ffbf5c882b5c77765feade5c6022dfd1d5e1aee0478d3a47f51d329581b373ec1cf0bb5381e74371bac996f2f7241df722e961fe423c9d21dca62e7"
+RPM_NAME = "zabbix-proxy-postgresql-6.0.19-1.1.aarch64.rpm"
+RPM_HASH = "050866be22586c428589d0618894e5a9e387638c4ad0400ea5db5795b92fbec1d20e54577c240f9ab884d48b7b615bf434a1b1b1c6e2e185f89659859d090d6e"
 
 RPROVIDES:${PN} += "zabbix \
 zabbix-proxy-binary \

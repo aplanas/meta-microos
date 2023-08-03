@@ -4,10 +4,10 @@ containing: angles, circles, cylinders, cones and spheres, \
 among other things."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.8.8svn35346"
+PV = "2023.209.0.0.8.8svn35346"
 
-RPM_NAME = "texlive-featpost-2023.201.0.0.8.8svn35346-52.1.noarch.rpm"
-RPM_HASH = "7d8a6d43328ffd56bbbfada84268e040d98cc7c8b95dfebce32a12fbb67adab07f9b01eb57c58af8e4f8ffe661dfaaedcf62dc67d9d06469411af36ac58c296e"
+RPM_NAME = "texlive-featpost-2023.209.0.0.8.8svn35346-53.1.noarch.rpm"
+RPM_HASH = "ced271b1c6df02f019a1902ee53dc07b88165327930545fc2afff2418c2c2ca909cd3e711e693cff0ccaf19c0e513f6df594ef0868f382b0af40ff9c9f2597aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-featpost"

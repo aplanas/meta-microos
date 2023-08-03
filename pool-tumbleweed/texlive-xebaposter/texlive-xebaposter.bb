@@ -7,10 +7,10 @@ be able to compile their poster using xebaposter (instead of \
 baposter) without any problem."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.53svn63513"
+PV = "2023.209.2.53svn63513"
 
-RPM_NAME = "texlive-xebaposter-2023.201.2.53svn63513-52.2.noarch.rpm"
-RPM_HASH = "d493030653ba0e3550dae6d79a101102a4733dd1d6b6f040309f17ad2fa7f9052cc798f10f95e51353b8f90f3b7e45d6942c3dc86ee61b145d690b14b41188ae"
+RPM_NAME = "texlive-xebaposter-2023.209.2.53svn63513-53.1.noarch.rpm"
+RPM_HASH = "86da25d2e2d3f3429a2e71bcdfe60f81bdf32f6033c5036aca27aead5b17db4509ab8a52372064922a2e32337f8d77883ad9763af32674a9823419254c9f0c6d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xebaposter.cls \

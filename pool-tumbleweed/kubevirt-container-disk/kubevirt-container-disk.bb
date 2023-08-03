@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "kubevirt-container-disk-1.0.0-2.1.aarch64.rpm"
-RPM_HASH = "cbbed0fcfea0c998868e0719643fd32e3a2383cec3a70e5f8ec5d6ab9765de83cea08e9242334cbab3170f1954ad5018e13d7565670c2e4aa2d47350816b6e8f"
+RPM_NAME = "kubevirt-container-disk-1.0.0-3.1.aarch64.rpm"
+RPM_HASH = "f5947b8cb0512823c7f3fabb93d95781a23badf30330781373e8d906228b418ced34eff5d0ecf024f1e0902fc78ef94160d7f444c66e319aaefbb9fd359ae8d5"
 
 RPROVIDES:${PN} += "kubevirt-container-disk"
 

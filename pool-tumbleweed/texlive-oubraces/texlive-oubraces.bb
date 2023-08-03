@@ -3,10 +3,10 @@ DESCRIPTION = "Provides a means to interleave \\overbrace and \\underbrace in \
 the same formula."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn21833"
+PV = "2023.209.svn21833"
 
-RPM_NAME = "texlive-oubraces-2023.201.svn21833-54.1.noarch.rpm"
-RPM_HASH = "0ffcc0a2b835a1d7367bff3826eaa8971895f5f72bd57408c32e21ea3931e40c0baad068c441c0a2518ef4be2e32fa313bfb1c10f18c62682848a48899cbe502"
+RPM_NAME = "texlive-oubraces-2023.209.svn21833-55.1.noarch.rpm"
+RPM_HASH = "2af50c1448ddf8eb0c2dd0ca18e4adcf76f9d8eff38fdf753b15dafc9dcc9c05e5755da685bbe27c52269b764d35009ac6f5107022259396f11a6d769439aa3f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-oubraces.sty \

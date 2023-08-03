@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.4.2"
 
-RPM_NAME = "criterion-lang-2.4.2-1.1.noarch.rpm"
-RPM_HASH = "00e7b473f73078803dfe77be69897818de1bc4a402f5a910ed8a2a9f92b9653bbe91642b871bd2feeac826ae05b720fd67cebd16c73b121d09cb190767b03092"
+RPM_NAME = "criterion-lang-2.4.2-1.2.noarch.rpm"
+RPM_HASH = "1148cb93c2617dce6fe40ee04503fbfd80fa2e6c1de6b18b68c082b88cc85d506011dfdf227860c5f94a9e728b3d99146af5fae45e7054bca5704561199ef194"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "criterion-lang \

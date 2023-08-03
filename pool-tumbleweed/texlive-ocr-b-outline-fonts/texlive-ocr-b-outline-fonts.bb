@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-ocr-b-outline"
 DESCRIPTION = "The  separated fonts package for texlive-ocr-b-outline"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn20969"
+PV = "2023.209.svn20969"
 
-RPM_NAME = "texlive-ocr-b-outline-fonts-2023.201.svn20969-54.1.noarch.rpm"
-RPM_HASH = "f8fafd5ee6aea69ca86d988d8b8ab6b71d2c5b9a0d244b2747ff09cd5a8d8d327489d56340c015a91fe3a8e0efc73dd15e702811518ab4c6d5a9c360f7773ad3"
+RPM_NAME = "texlive-ocr-b-outline-fonts-2023.209.svn20969-55.1.noarch.rpm"
+RPM_HASH = "787af06299d4d9f1beb49f4452ea1f05e4ea84d1591aa9b409a27f6fa3b2f1cadfaa9972f399063d22e6f1b42e547fb67e30fd9a1d2d40cd27bc9f713d8a409b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-ocr-b-outline-fonts \

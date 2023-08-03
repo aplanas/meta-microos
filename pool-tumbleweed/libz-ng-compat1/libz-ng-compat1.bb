@@ -5,8 +5,8 @@ LICENSE = "Zlib"
 
 PV = "2.1.3"
 
-RPM_NAME = "libz-ng-compat1-2.1.3-1.1.aarch64.rpm"
-RPM_HASH = "76dc2c678046222f980e3de451f3394f1b00090b3d8631c2f129646e6b6ddd4a6b288c6cec401cbb8bb4b1895c1f5004ba642da29e904f272935329817c712ea"
+RPM_NAME = "libz-ng-compat1-2.1.3-2.1.aarch64.rpm"
+RPM_HASH = "cb3b5c9d6cb0f70ceeceff479a4be035726159060bea880d125bfd66e7feab3517451d2624b70835f003a0f675af4c2807bc166559a71ead0153eff98c92de52"
 
 RPROVIDES:${PN} += "libz-ng-compat1 \
 libz.so.1"

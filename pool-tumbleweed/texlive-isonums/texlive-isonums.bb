@@ -7,10 +7,10 @@ format is anglo. Documentation is included as comments to the \
 text source."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn17362"
+PV = "2023.209.1.0svn17362"
 
-RPM_NAME = "texlive-isonums-2023.201.1.0svn17362-55.1.noarch.rpm"
-RPM_HASH = "b495e2eea3b2808674acefc0a84b5cd358d540b3812893568e603fe9781ab92164caed5086513d213e3d1c31adb10676bc6c799b59e28e0b188a8ac013f794d0"
+RPM_NAME = "texlive-isonums-2023.209.1.0svn17362-56.1.noarch.rpm"
+RPM_HASH = "38b34f46ceefc8088cb3d936b92810f2063666ebeeba1e36f9e97097a275bf2b1e5b024fbf15801fd9780dfb368b434d1c753d0ed864d80bca5f5190cef4227a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-isonums.sty \

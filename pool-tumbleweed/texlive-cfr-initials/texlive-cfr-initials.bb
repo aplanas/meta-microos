@@ -9,10 +9,10 @@ but if they would be useful, then I would prefer them to be \
 generally available via CTAN."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.01svn61719"
+PV = "2023.209.1.01svn61719"
 
-RPM_NAME = "texlive-cfr-initials-2023.201.1.01svn61719-52.1.noarch.rpm"
-RPM_HASH = "d5e8c7a442555617866ae97380a5c385ce1ccb8b69444bf0a3151e7bfda18107f68dcaee586ec460c90cd7cdb801320c3d47f3c8509e0d3eee167b3c3927572a"
+RPM_NAME = "texlive-cfr-initials-2023.209.1.01svn61719-53.1.noarch.rpm"
+RPM_HASH = "7bcbf7b65a3f622d4470e84e330a836591c49ecdc6c9bc9b48909d2a939a181e1268e006de73a8cf6bf69949bf35c09c0f6879994680c54babc91b6fdd165546"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Acorn.sty \

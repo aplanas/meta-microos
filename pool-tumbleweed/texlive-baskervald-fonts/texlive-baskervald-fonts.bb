@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-baskervald"
 DESCRIPTION = "The  separated fonts package for texlive-baskervald"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.016svn19490"
+PV = "2023.209.1.016svn19490"
 
-RPM_NAME = "texlive-baskervald-fonts-2023.201.1.016svn19490-53.1.noarch.rpm"
-RPM_HASH = "5ef2233ebeffdb52bdf85efa4bc3ee3b512172cd1613324f3f0b6f8e6c88560db30b4adbcb73824a7a6ad860157d435fba25f785ca72b0ee37347ba56568356b"
+RPM_NAME = "texlive-baskervald-fonts-2023.209.1.016svn19490-54.1.noarch.rpm"
+RPM_HASH = "5d77baa881ac75aa2cafcc3eee873757ea3e2f18bc92ee531251309a783a7cb75ec26234b3f0a202191844fa46d00a10a86c1bbf23d46430f7b80660153ae3d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

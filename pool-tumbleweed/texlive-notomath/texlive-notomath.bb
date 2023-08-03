@@ -3,10 +3,10 @@ DESCRIPTION = "Math support via newtxmath for Google's NotoSerif and NotoSans. \
 (Regular and Bold weights only.)"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.02svn58726"
+PV = "2023.209.1.02svn58726"
 
-RPM_NAME = "texlive-notomath-2023.201.1.02svn58726-54.1.noarch.rpm"
-RPM_HASH = "2d5a851ba8245e1478c2869f977887e3e540c846aab673ff02ee36d38991d1189808649114586297035a436c5e5052c7d1e93511cadbbb384b82850b7e1ee295"
+RPM_NAME = "texlive-notomath-2023.209.1.02svn58726-55.1.noarch.rpm"
+RPM_HASH = "1e09c8fc34269cc759866e6945d1e6bd05f9ce07ce930077da868c35425e0cf6388f94124a7972c0cb47eb8166d83b6d061fdadf45d51fd44fcc564d584bd30c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-NotoMath.map \

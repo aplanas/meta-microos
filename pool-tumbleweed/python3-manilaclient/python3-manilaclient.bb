@@ -5,12 +5,12 @@ LICENSE = "Apache-2.0"
 
 PV = "4.2.0"
 
-RPM_NAME = "python3-manilaclient-4.2.0-1.6.noarch.rpm"
-RPM_HASH = "6c137f6275d7411e6d244d13e3094067edc18a13ee3c33b4cae15c24fea0b5cf36335cbbcfcc44a9740ea47aece7f8763bf9ea0e06e7aea5b435da951779b42a"
+RPM_NAME = "python3-manilaclient-4.2.0-1.7.noarch.rpm"
+RPM_HASH = "07798a863235700985b9c8e5bea34c73cf14343d7c220b354056d0caa9cda019c9887452af2287cce255668b9a8efdcea8ea7750eedf90c82df19e2e776f47a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-manilaclient \
-python3.10dist-python-manilaclient \
+python3.11dist-python-manilaclient \
 python3dist-python-manilaclient"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

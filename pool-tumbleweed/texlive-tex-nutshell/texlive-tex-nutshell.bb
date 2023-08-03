@@ -6,10 +6,10 @@ provided by macro extensions. Only the last section gives a \
 summary of plain TeX macros."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.0.0.8svn63336"
+PV = "2023.209.0.0.8svn63336"
 
-RPM_NAME = "texlive-tex-nutshell-2023.201.0.0.8svn63336-54.1.noarch.rpm"
-RPM_HASH = "0a4c4afe4be6c428f014192a487b71f1bc63bef1b3f9eda3162da27b26e4d5595d934868a5a9ce52d195773487d4e27cf63af85c629dd5e028450bbcbe6824da"
+RPM_NAME = "texlive-tex-nutshell-2023.209.0.0.8svn63336-55.1.noarch.rpm"
+RPM_HASH = "72ee62a2566582641c3a374baca8deaadc31366b3cd90f6f293e9b44fc2c6391704f048033093a3eb7144a71e90b6f54f530515f49736a9f7cfb410c83752d6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tex-nutshell"

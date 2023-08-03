@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-domitian"
 DESCRIPTION = "The  separated fonts package for texlive-domitian"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.1svn55286"
+PV = "2023.209.1.0.1svn55286"
 
-RPM_NAME = "texlive-domitian-fonts-2023.201.1.0.1svn55286-52.1.noarch.rpm"
-RPM_HASH = "fd4fcde642e89bc7cf6a023950a917f3c9d06b058c914201e6fe92e661003e7196bbc33fbf8bc73011e14ac3e693e68cf8ad32eae277c1fbaa411ef7598a351c"
+RPM_NAME = "texlive-domitian-fonts-2023.209.1.0.1svn55286-53.1.noarch.rpm"
+RPM_HASH = "576c6ac9c2ef03b686599afacc10678ceedd65054a823486b72d9d00adf69c803488cac2f9eb057d15e7e71ead2114d914862a23bdd96cf895d84f65fee185e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-domitian-fonts \

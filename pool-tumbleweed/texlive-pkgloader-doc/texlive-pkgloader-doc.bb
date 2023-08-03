@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pkgloader"
 DESCRIPTION = "This package includes the documentation for texlive-pkgloader"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.7.0svn47486"
+PV = "2023.209.0.0.7.0svn47486"
 
-RPM_NAME = "texlive-pkgloader-doc-2023.201.0.0.7.0svn47486-51.1.noarch.rpm"
-RPM_HASH = "5a749a5d6cc9584f72041e3508b469ade5157d6ce1aaec613d42716dd6b2fd1508f453cddfb44a3cbfa4d6735d5985967243395e79cf46831e0c06c1651d41b8"
+RPM_NAME = "texlive-pkgloader-doc-2023.209.0.0.7.0svn47486-52.1.noarch.rpm"
+RPM_HASH = "8fe11619aad25b3d90a0c33574dfb4e22e59f08192785302f11f108b5ea3109fc3c03c3f55aaa927ea1892ad468ed8b9fb41b2b398abd124a0025c25a8e75755"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pkgloader-doc"

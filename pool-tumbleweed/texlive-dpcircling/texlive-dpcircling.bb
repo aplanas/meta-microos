@@ -9,10 +9,10 @@ keys. Note: The 'DP' in the package name stands for 'Decorated \
 Packets'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn54994"
+PV = "2023.209.1.0svn54994"
 
-RPM_NAME = "texlive-dpcircling-2023.201.1.0svn54994-52.1.noarch.rpm"
-RPM_HASH = "05a9b9961aa51b8b040d79a2d3ef69183b0b928d56afffad59ee945e90259ad1b74cb211716f4553bddd2d4af72fbcbbb3e77e7ea17ce9b9c92057bebfcf92bd"
+RPM_NAME = "texlive-dpcircling-2023.209.1.0svn54994-53.1.noarch.rpm"
+RPM_HASH = "4557d9aa0b9b29f4a4a665767723bc3103fecab7c52aa8aed32a8457cbc9e78b2ebbd71485a0a0aa5d94d48b38a7361236087432e354b18bdba2484a48eb9fdc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-DPcircling.sty \

@@ -4,10 +4,10 @@ DESCRIPTION = "The distributed drivers do not support the PGF feature of \
 package uses existing features of dvipdfmx to fix this problem"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn30212"
+PV = "2023.209.0.0.2svn30212"
 
-RPM_NAME = "texlive-pxpgfmark-2023.201.0.0.2svn30212-53.2.noarch.rpm"
-RPM_HASH = "36afcb91db8f1a1afea7e0f8fa05021cfc427f7623b87fb671d43a96477e967535dd402b05d8e7c24c0f14238b62e8cb0af48252af82d364ea991ef75d671297"
+RPM_NAME = "texlive-pxpgfmark-2023.209.0.0.2svn30212-54.1.noarch.rpm"
+RPM_HASH = "80d517176887a99510a4d74e5a5d78169796b538bcedc9aca050dac26e077ca46069c06996285445040d420831b972032ff8224f9fd8aa5ec0cd6fe50e44576c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pxpgfmark.sty \

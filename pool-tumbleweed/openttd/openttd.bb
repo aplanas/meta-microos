@@ -4,10 +4,10 @@ DESCRIPTION = "OpenTTD is a reimplementation of the Microprose game 'Transport T
 Use package openttd-dedicated for systems without SDL."
 LICENSE = "GPL-2.0-only"
 
-PV = "13.3"
+PV = "13.4"
 
-RPM_NAME = "openttd-13.3-1.1.aarch64.rpm"
-RPM_HASH = "cded6ce4e629ad2b2e54843043b0c31b86a1a0f3795a103efa78d786cf43c5fb5405bd94f4eb37ee9fde7cb891b8a9a622e3a6d341d7e401658940b52ca6e79a"
+RPM_NAME = "openttd-13.4-1.1.aarch64.rpm"
+RPM_HASH = "9e24599b82bb673b328e841c1ded54c64d633164006fd5d7aa13686cf629afa6dda6f122e4cb617a09b401ae02e1285f09f832415e6ca7ad7556a0b649c5cc1a"
 
 RPROVIDES:${PN} += "openttd \
 openttd-gui"

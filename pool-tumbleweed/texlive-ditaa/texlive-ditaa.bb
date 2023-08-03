@@ -3,10 +3,10 @@ DESCRIPTION = "With this package ditaa (DIagrams Through Ascii Art) diagrams \
 can be embedded directly into LaTeX files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.9svn48932"
+PV = "2023.209.0.0.9svn48932"
 
-RPM_NAME = "texlive-ditaa-2023.201.0.0.9svn48932-52.1.noarch.rpm"
-RPM_HASH = "8fad428b0eadc0dedde4d887e5c94944ac29f60561ba882089d7c352e8915ecc0ffadc81a0231d83be3df4c445dee31f014e57525e56cf0912fc69d5463e5ff8"
+RPM_NAME = "texlive-ditaa-2023.209.0.0.9svn48932-53.1.noarch.rpm"
+RPM_HASH = "994ed9f84823244145f1118c3e77ca5561a064f67d704fa65935ec9b02462efda9a992d33b443d1e928598e09bcb9caca1c249adbb5c0c1ad0f1dea41ea02a38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ditaa.sty \

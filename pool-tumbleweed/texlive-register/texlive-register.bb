@@ -12,10 +12,10 @@ specifications into structures suitable for, say, a pre-silicon \
 test environment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn54485"
+PV = "2023.209.2.0svn54485"
 
-RPM_NAME = "texlive-register-2023.201.2.0svn54485-53.2.noarch.rpm"
-RPM_HASH = "5d3765b297df7ac4759bd7517e11944e6936dab387357da9e6e58cff9bfd2ab9275c940531bac7b1373d8046276091504732044a43ef1dcdf8739a6a79617d31"
+RPM_NAME = "texlive-register-2023.209.2.0svn54485-54.1.noarch.rpm"
+RPM_HASH = "bd52982a9bf56c57a6630cba8a6e29c4e496881914074f8c56a832646cee61019efaa946583b873436380ef751d5975b6ec9bd63d9813773d76e1527f861e65f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-register.sty \

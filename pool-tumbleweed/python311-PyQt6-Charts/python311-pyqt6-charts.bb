@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.5.0"
 
-RPM_NAME = "python311-PyQt6-Charts-6.5.0-1.3.aarch64.rpm"
-RPM_HASH = "a9c242e165e6846e9309e6e30480196983a92c8fbac974ef7e2b099e0f2d9c1ab3e29d4c156a834d32588f79eeff8de84a8d0827b6e6cccf4072599f8687d6da"
+RPM_NAME = "python311-PyQt6-Charts-6.5.0-1.4.aarch64.rpm"
+RPM_HASH = "3593eb5f94c7401d244338949a3f2d4e0447a4b98446558cdc09f3ddf136782757a37e720e141f02bcb00d8ecd9ed6b1f019eaa20a247d5318c113b87492217f"
 
 RPROVIDES:${PN} += "python3-PyQt6-Charts \
 python3-qtcharts-qt6 \

@@ -6,10 +6,10 @@ project template. \
 This package contains the documentation for cookiecutter."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.1.1"
+PV = "2.2.3"
 
-RPM_NAME = "cookiecutter-doc-2.1.1-2.2.noarch.rpm"
-RPM_HASH = "b9dbde9adab4467d33592d870afa867acfffeecfb467f32f04a00cdefa598a9657dd5571939e121117d97157f68aa3ebeb618671bcb3aae07ed348efde3a395d"
+RPM_NAME = "cookiecutter-doc-2.2.3-1.1.noarch.rpm"
+RPM_HASH = "62cb9ee97229ff67c7a172621bb1b6b43ef4b851acff723cfdcc8ce9fb4f969f4e1581d78f00ff6abf4e86b3e1028ac08cd01446f8c47d8453fde2e643997c21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cookiecutter-doc"

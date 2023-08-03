@@ -3,10 +3,10 @@ DESCRIPTION = "A small LaTeX package to draw bricks with TikZ. The user can \
 modify color, shape, and viewpoint."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4svn63952"
+PV = "2023.209.0.0.4svn63952"
 
-RPM_NAME = "texlive-tikzbricks-2023.201.0.0.4svn63952-52.1.noarch.rpm"
-RPM_HASH = "05ce25cb3dde728a7a5f792b8da13a35ec6bbfa26d5b131ccaeabc59ba7173a59b06602b454b1ccb0794d458a4fdf13c72fc1408193655f8fd43b275a48f304c"
+RPM_NAME = "texlive-tikzbricks-2023.209.0.0.4svn63952-53.1.noarch.rpm"
+RPM_HASH = "adda8c36a0e1d76a48e5fddacedb488f6deaaedc285aff119d243f007d74a367e34f834e8afcada8d25cee713f42d271b574d29ce9e55e24a8a8cf85c6d53f6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzbricks.sty \

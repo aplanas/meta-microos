@@ -4,10 +4,10 @@ tugboat.cmn) are used in papers written in Plain TeX for \
 publication in TUGboat."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.27svn63386"
+PV = "2023.209.1.27svn63386"
 
-RPM_NAME = "texlive-tugboat-plain-2023.201.1.27svn63386-52.1.noarch.rpm"
-RPM_HASH = "01a784a30ec81aa22e7708b91b22acc593e63670ac33f73024e9f8bc117c6c454a3a09f83b736049aa36e81d675085a634fc9dd6a666ec1ad682341094b3817c"
+RPM_NAME = "texlive-tugboat-plain-2023.209.1.27svn63386-53.1.noarch.rpm"
+RPM_HASH = "3c421c31ca552690bef71951bd127607d27a669e252bfc6d5bbb17ba0ae73223f5aa48cdd2ca3e28f27dfb7cc78e0ad77d8139288a329d730004c58d906399bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tugboat.sty \

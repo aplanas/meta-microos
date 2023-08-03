@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-logpap"
 DESCRIPTION = "This package includes the documentation for texlive-logpap"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.6svn15878"
+PV = "2023.209.0.0.6svn15878"
 
-RPM_NAME = "texlive-logpap-doc-2023.201.0.0.6svn15878-54.1.noarch.rpm"
-RPM_HASH = "989ef3d7f88a63f9edd62275ab8816544d752202a10df40ef76bda9604c35bbc48d0bed16033192ae6876200f2a15590d852c76515c9440a96f7fa543d0a5148"
+RPM_NAME = "texlive-logpap-doc-2023.209.0.0.6svn15878-55.1.noarch.rpm"
+RPM_HASH = "82970af99ecd1000e1b66a8c7c570dbd1c88fd2b2728248a42df472f5c12a03b104d6d0158b692b47764392fe8b18bf4a9da08c81048b554d9fe6fa4a48d738b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-logpap-doc"

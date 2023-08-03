@@ -3,10 +3,10 @@ DESCRIPTION = "The package supports authors' use of consistent typesetting of \
 foreign words in documents."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.7svn27819"
+PV = "2023.209.2.7svn27819"
 
-RPM_NAME = "texlive-foreign-2023.201.2.7svn27819-52.1.noarch.rpm"
-RPM_HASH = "9547f6278288f132a5d5e56ee96c57d6f15320580ab8e66e64181c60588da419c255eacc866d2a9b6b9decaab9a05091c30b122bfb78601c8937649f473d6b75"
+RPM_NAME = "texlive-foreign-2023.209.2.7svn27819-53.1.noarch.rpm"
+RPM_HASH = "4bb7a8c588538fce17bd763895a304e5c455892ea6b238768c1f5327b47b36208e8755dd66bc9b1f6538d8c285c7862fcb047c89de815b1f27cb3e155040403a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-foreign.sty \

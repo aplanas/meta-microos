@@ -4,10 +4,10 @@ Serbian words) whose expansion is the Serbian word with \
 appropriate apostrophes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn23799"
+PV = "2023.209.svn23799"
 
-RPM_NAME = "texlive-serbian-apostrophe-2023.201.svn23799-53.1.noarch.rpm"
-RPM_HASH = "198d8b182bf59b23346fc9268aa315bf83ea7c9ed517014f76943f9175dad87fbf8aef4b19e259cd4be832e1319a6ecd13bb1538d5fd0ca74a9f372a6b46a69e"
+RPM_NAME = "texlive-serbian-apostrophe-2023.209.svn23799-54.1.noarch.rpm"
+RPM_HASH = "5e9bbed240102b17e649cf6779893e30db946a4ebf51c60dc25349d6328581ed23568d498f567732e40dfeda730f939108a89976a2a4823e63841833167a992f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-serbian-apostrophe.sty \

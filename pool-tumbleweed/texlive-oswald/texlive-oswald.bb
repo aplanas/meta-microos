@@ -4,10 +4,10 @@ Vernon Adams, Kalapi Gajjar, Cyreal, with support for LaTeX and \
 pdfLaTeX."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn60784"
+PV = "2023.209.svn60784"
 
-RPM_NAME = "texlive-oswald-2023.201.svn60784-54.1.noarch.rpm"
-RPM_HASH = "cce01cf2f5b915e60b300d57db47ebe429bda9f867c4795b637a2935a9a310ca03b51bd15760e6e0e1f544f13ab91f1990a3e0f06f8b638c8cfc8356b8901ea0"
+RPM_NAME = "texlive-oswald-2023.209.svn60784-55.1.noarch.rpm"
+RPM_HASH = "b4acb124fac93bdeb9126a24f8d6e20076fcc3ffada5f686a4059553fd9907badfc6ce7e2b386d17e4ef9e4688c6f2de8235d9433b8ef7d8b2c6224e872e3a50"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-0swald-Bold-sup-ly1--base.tfm \

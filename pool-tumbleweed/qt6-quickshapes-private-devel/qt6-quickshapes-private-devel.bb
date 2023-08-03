@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for the Qt 6 QuickShapes library. \
 This library does not have any ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-quickshapes-private-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "39f7abee7bf46a2486dee96ee57cd2f44b0764d0e527b374d9d45f7c6890887d7708d8772cb1891013087612b44ff87fa034236b1faeb6f2b07be9a302c0e842"
+RPM_NAME = "qt6-quickshapes-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "8a29bb40cf08573d1da6d10802e90165b3fc169fbc234e7b41f6710f763ab9ca504df0ec8755edc47bb9be84b12411746452c6a9de84f063e1e87a93808e3e3b"
 
 RPROVIDES:${PN} += "cmake-Qt6QuickShapesPrivate \
 qt6-quickshapes-devel \

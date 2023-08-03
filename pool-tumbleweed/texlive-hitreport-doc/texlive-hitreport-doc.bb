@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hitreport"
 DESCRIPTION = "This package includes the documentation for texlive-hitreport"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.0svn58357"
+PV = "2023.209.1.0.0svn58357"
 
-RPM_NAME = "texlive-hitreport-doc-2023.201.1.0.0svn58357-53.2.noarch.rpm"
-RPM_HASH = "23dd9b653fda7492001eda91af44e661002ff659dd0d6f4a5d7bcaf676a6ab905cf8bc1b6bd8dd373b9133f4a96cc5e8a6562346fb3e1ab6afc6ac2c48579481"
+RPM_NAME = "texlive-hitreport-doc-2023.209.1.0.0svn58357-54.1.noarch.rpm"
+RPM_HASH = "b24a1341d22962b2bf3d3c64b0455c071b46dbe3b25e8e98e65fcad732186907175269ef26a63ff404e0deb951d1ce246a27e2e39eab8de3e6ed91d2c58fff61"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-hitreport-doc-zh \

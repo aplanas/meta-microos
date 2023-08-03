@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-concmath-fonts"
 DESCRIPTION = "This package includes the documentation for texlive-concmath-fonts"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn17218"
+PV = "2023.209.svn17218"
 
-RPM_NAME = "texlive-concmath-fonts-doc-2023.201.svn17218-53.1.noarch.rpm"
-RPM_HASH = "8c42092e0d82a15258b677c9a9af6fbc3bcf88f948d8be2035ae5f8ce0828af8d7471846b10d716d86f46e13ed0cb8b845c805b247b41f19dfafa9e6a4a5b130"
+RPM_NAME = "texlive-concmath-fonts-doc-2023.209.svn17218-54.1.noarch.rpm"
+RPM_HASH = "5403a629ec7018a40bbcc7b8fc5f095d518ce5c3e3363b774726f91a3542234a3819937148092f5a8f73551cb225503c66747d74405160fbe469c98b49490b75"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-concmath-fonts-doc"

@@ -5,10 +5,10 @@ their LaTeX support, are all supplied in a LaTeX documented \
 source (.dtx) file."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.1svn51984"
+PV = "2023.209.2.1svn51984"
 
-RPM_NAME = "texlive-universa-2023.201.2.1svn51984-53.1.noarch.rpm"
-RPM_HASH = "4c28cc3d5f17d036bf0315d86d86b0e02e64ebd91e0cea2015466aab3a8a2033f1b1a91c397ef583f74e6bb028ed7f889d419e64b60002f7b785d9bb25fb764b"
+RPM_NAME = "texlive-universa-2023.209.2.1svn51984-54.1.noarch.rpm"
+RPM_HASH = "9dac5a4219b125d6f557444e3ee0862b15c794163bf3939bb5838501795bfcfcd7f541b651d783471f17901626cb32aa8a3ec3220c48644cef53e4f8dcc99a12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fulbc10.tfm \

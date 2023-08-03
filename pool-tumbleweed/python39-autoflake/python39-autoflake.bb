@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "1.5.3"
 
-RPM_NAME = "python39-autoflake-1.5.3-1.6.noarch.rpm"
-RPM_HASH = "7efd399c0283c300910925dfc9f08eccbfb27e6f7e5f7866cdc0b2c5d5df4ee26d9c95ac315c2fb48d8d20aed65769d0d2a63a21bf97c8e9ba599d53dee0ce0f"
+RPM_NAME = "python39-autoflake-1.5.3-2.1.noarch.rpm"
+RPM_HASH = "b3e3a86b2db408554a3b895b5778c6f91b8b2442999b13af8de2a8ba96ee3fa5c9c524c6781eb4ff01200c8df26bfd081ee048e4b5825ba5bd7638f44144c310"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-autoflake \

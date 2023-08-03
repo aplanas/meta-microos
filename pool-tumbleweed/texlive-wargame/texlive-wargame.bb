@@ -13,10 +13,10 @@ README.md file for more, and of course the documentation \
 (including the tutorial in tutorial/game.pdf)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3.2svn64797"
+PV = "2023.209.0.0.3.2svn64797"
 
-RPM_NAME = "texlive-wargame-2023.201.0.0.3.2svn64797-53.1.noarch.rpm"
-RPM_HASH = "f40f2d494e46ab9956128ce9e3289771dea3858e2bcb42df1409862b6ee93b318e006a945d0b5caf45c36dbdcf29597f937f69da6fbe49161033fc301ffd5007"
+RPM_NAME = "texlive-wargame-2023.209.0.0.3.2svn64797-54.1.noarch.rpm"
+RPM_HASH = "3bb444b2618dd25bd20f5584f5848b3e4ecd9cb0e7f2cc2a6f77239f85d63d5a11a4ba6f6139e0b8bb01f2a1446678b13abcbc7469d311bb45d016b504b5be32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzlibrarywargame.chit.code.tex \

@@ -7,10 +7,10 @@ LaTeX packages: appendixnumberbeamer, calc, etoolbox, and \
 numprint."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn46494"
+PV = "2023.209.svn46494"
 
-RPM_NAME = "texlive-hackthefootline-2023.201.svn46494-53.2.noarch.rpm"
-RPM_HASH = "9f88d4aeae6251de7f72aaa02d8a70520151bef756522ef42ebe25458027169bb59a0f4732bbc94cdcc77f87b0413e86633b6fa7e91d378248626bd0f07b273f"
+RPM_NAME = "texlive-hackthefootline-2023.209.svn46494-54.1.noarch.rpm"
+RPM_HASH = "4ea7402991dac99492b60aa9e374485d485597e20fd078f69d13f5d88e44fbd8a69870997a814235fd73a59334d55e340f7fe996a111bc35adc556c5d2f988a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hackthefootline.sty \

@@ -15,10 +15,10 @@ supported using all features of numprint. Additional text can \
 be added before and after the formatted number."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.39svn27498"
+PV = "2023.209.1.39svn27498"
 
-RPM_NAME = "texlive-numprint-2023.201.1.39svn27498-54.1.noarch.rpm"
-RPM_HASH = "bad424d215c51754dba0b3a6253aa565acb757f75b088caa82fd536aa04ffde209ce29becf06fa35e9e8db6ca5fce104d4736b9ab4d9eb2f17c96009fde5bf4c"
+RPM_NAME = "texlive-numprint-2023.209.1.39svn27498-55.1.noarch.rpm"
+RPM_HASH = "cd0b7102577e2e3c81e68200ad73b7a0b7a4449b5f953085f61f63eb2986bcb500af57070e23260d120e905ecec637d587fa34bb99319435ed32ee855d98ab9b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nbaseprt.sty \

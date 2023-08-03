@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all the headers and libraries of the standa
 library. It is needed for compiling C++ code."
 LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
-PV = "13.1.1+git7552"
+PV = "13.1.1+git7597"
 
-RPM_NAME = "libstdc++6-devel-gcc13-13.1.1+git7552-1.1.aarch64.rpm"
-RPM_HASH = "41742235daac8aeb837ddc5944e87c99771663bf429c2ca9844fc0afd4da57fc347f1c4c0cfc252792bc3697f2694bf039de4218b5638fad5f17cf8743a70657"
+RPM_NAME = "libstdc++6-devel-gcc13-13.1.1+git7597-1.1.aarch64.rpm"
+RPM_HASH = "7f2db2827fc61f4472fdbb4684e8a9e386fdf553d65960daf596b9011a43de67f1cfc05f6119264d490a5dfc0df340965afc75c6d7dafcc855525132106fb0b7"
 
 RPROVIDES:${PN} += "libstdc++6-devel-gcc13"
 

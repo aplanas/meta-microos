@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-context-algorithmic"
 DESCRIPTION = "This package includes the documentation for texlive-context-algorithmic"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn47085"
+PV = "2023.209.svn47085"
 
-RPM_NAME = "texlive-context-algorithmic-doc-2023.204.svn47085-54.1.noarch.rpm"
-RPM_HASH = "1eaffb75774c112b83f72c1ddb6471532b1fc131f7e2b5c11db24fb90c87094d42b206738ae666e723144487ad9cdc37cba9719d21b14a35bc28d6952a2900ac"
+RPM_NAME = "texlive-context-algorithmic-doc-2023.209.svn47085-55.1.noarch.rpm"
+RPM_HASH = "ed5791360dc316cf9fed03cebec902077d148dd75ccfa1b3826d1607e0c5e1aa6b8d46f648301cf8da4495e49747cc0bf0bf85b1be190964cd234dc544abd411"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-algorithmic-doc"

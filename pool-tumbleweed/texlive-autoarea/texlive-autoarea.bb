@@ -6,10 +6,10 @@ essential for proper placement of a picture between running \
 text and margins and for keeping the running text away."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3asvn59552"
+PV = "2023.209.0.0.3asvn59552"
 
-RPM_NAME = "texlive-autoarea-2023.201.0.0.3asvn59552-53.1.noarch.rpm"
-RPM_HASH = "6e2d721a72be4d149994619fdb8c2e72821db2bba4c6849c45b72e594b9d97b9eef86f2829ae70abcc62ce99e518291abe3d05fa99d57a0bb71d87f7933211d7"
+RPM_NAME = "texlive-autoarea-2023.209.0.0.3asvn59552-54.1.noarch.rpm"
+RPM_HASH = "6c52f89236ff87c9b3197aa4f6440e085873465f4489c3a694600b882cb9142d11c4b37f9f7fd1b772d1cf332272c0b216d3d0377bc1b9aec0bde3ad2359ff56"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-autoarea.sty \

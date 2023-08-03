@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-stmaryrd"
 DESCRIPTION = "The  separated fonts package for texlive-stmaryrd"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn22027"
+PV = "2023.209.svn22027"
 
-RPM_NAME = "texlive-stmaryrd-fonts-2023.201.svn22027-57.1.noarch.rpm"
-RPM_HASH = "437dd0d61611453d395c416f03f8ac6fccbcb130326e0caccf6836a601dcf12acaa3f56fa19763941bf1148131d2fc246f551421191dd563897e8356378acc11"
+RPM_NAME = "texlive-stmaryrd-fonts-2023.209.svn22027-58.1.noarch.rpm"
+RPM_HASH = "5a53ac94138979f4a8685ba51748c999307e5222668dfa43321afede8f9be012c8a6dcca08d576aa88496ef97462589c56cef36461c368cac5b205fb08c8eb01"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-stmary10 \

@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.2.12"
 
-RPM_NAME = "libSHERPA-MC0-2.2.12-3.1.aarch64.rpm"
-RPM_HASH = "8567668bcad76aa03b00cad6b25d4fb434664aea8697a18f2e0343716864f870053357e05d2dbb3a5fee787229bb5bcb09ddcd5685cbc73062539311bcad21f0"
+RPM_NAME = "libSHERPA-MC0-2.2.12-3.3.aarch64.rpm"
+RPM_HASH = "aa525970f446e3b6b2d3aa32b8d612a3bd09f99c376e1ce4a224da93ec5392a1a79bf01c1f4ee7a92fd2dd9107046662b40b85eefbc8725c0576de07a46f96c9"
 
 RPROVIDES:${PN} += "libAhadicDecays.so.0 \
 libAhadicFormation.so.0 \
@@ -126,11 +126,11 @@ libZfunctions.so.0"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libHepMC3.so.3 \
-libHepMC3search.so.4 \
+libHepMC3search.so.5 \
 libLHAPDF-6.5.4.so \
-libRivet-3.1.7.so \
+libRivet-3.1.8.so \
 libSHERPA-MC-config \
-libYODA-1.9.7.so \
+libYODA-1.9.8.so \
 libc.so.6 \
 libfastjet.so.0 \
 libfastjetcontribfragile.so \

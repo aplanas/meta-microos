@@ -3,13 +3,13 @@ DESCRIPTION = "openSUSE MicroOS combines the benefits of a rolling OS with a rea
         It inherits the benefits of openSUSE Tumbleweed while redefining the operating system into a small, efficient and reliable distribution."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "20230719"
+PV = "20230801"
 
-RPM_NAME = "MicroOS-release-20230719-1742.1.aarch64.rpm"
-RPM_HASH = "f00cc457f3e1b30413c867fd6e650ca136c78cd2de6788250f97f1432a415e7e1e0ec935eab8f85f122a8681d0d687518e55aca2979500dfd0f4be60c9375d8a"
+RPM_NAME = "MicroOS-release-20230801-1756.1.aarch64.rpm"
+RPM_HASH = "0c42bdccc828a0e2016c06cfc5e747c7ded61e7ba741178f11292dc31d0178f63b3d051c62a2b8059df43e6669717eb28f13bf116ed5279c9cf4d310d31240c6"
 
 RPROVIDES:${PN} += "MicroOS-release \
-MicroOS-release-20230719 \
+MicroOS-release-20230801 \
 distribution-release \
 openSUSE-MicroOS-release \
 openSUSE-Tumbleweed-Kubic-release \

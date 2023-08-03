@@ -6,10 +6,10 @@ document has a dark background with a light font and to light \
 mode if it has a dark font with a light background."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.1.0.1svn64271"
+PV = "2023.209.1.0.1svn64271"
 
-RPM_NAME = "texlive-darkmode-2023.204.1.0.1svn64271-54.1.noarch.rpm"
-RPM_HASH = "1b94cfee5b83cea83378e4ea1ffdd086418221d9f7a53376419be2ee7ce0b4ecce4a438cd4f1a8bf1f083defd27d0b8e6f2bf6ecc6a27d7f966d4c6110639d9d"
+RPM_NAME = "texlive-darkmode-2023.209.1.0.1svn64271-55.1.noarch.rpm"
+RPM_HASH = "a79f3a10aab6d45fc72ce42806819b699e41c1c77ee4945bcaba562d48aef8f76c3eccdbadd461591e7d8fefeaec364038ed3a479f010654e9f8b00f5e197c64"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-darkmode.sty \

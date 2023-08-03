@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xpicture"
 DESCRIPTION = "This package includes the documentation for texlive-xpicture"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2asvn28770"
+PV = "2023.209.1.2asvn28770"
 
-RPM_NAME = "texlive-xpicture-doc-2023.201.1.2asvn28770-52.2.noarch.rpm"
-RPM_HASH = "20ae9a38c57097adc0ef80189e5b430f6898cf470662c7551a803329e02334196d7c43a29f95d2c81f963c6ff3e2f3347bc99fab8862b7ba667dbf2b5673637a"
+RPM_NAME = "texlive-xpicture-doc-2023.209.1.2asvn28770-53.1.noarch.rpm"
+RPM_HASH = "fe8e328d1b9b516540eb8b25fa19f53605e90bfb22b1e95bc87c733627bd7a263069ea49988e36c045167b0c102a007bb5694c945608c73f6e6fc3fee8176768"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xpicture-doc"

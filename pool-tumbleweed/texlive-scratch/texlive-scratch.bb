@@ -7,10 +7,10 @@ scatch project (scratch.mit.edu). It depends on the other LaTeX \
 packages TikZ and simplekv."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.41svn50073"
+PV = "2023.209.0.0.41svn50073"
 
-RPM_NAME = "texlive-scratch-2023.201.0.0.41svn50073-53.1.noarch.rpm"
-RPM_HASH = "e77a411bc6a2fbfef16561503b4a833c66c9f9ab0ac40953fb9f8240e6f615acedfb147e557a42c20c9616d96f7bd295f7b0b3bb8080ce4de0fab7f5313963ab"
+RPM_NAME = "texlive-scratch-2023.209.0.0.41svn50073-54.1.noarch.rpm"
+RPM_HASH = "d3072606b94d9bd703471d5bb16c49262231634bec47421545296ed169f36962dca700c9bb6ccc2d3deed969fd2a8cddc22df16ebb7619b0293f22a47572db96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-scratch.sty \

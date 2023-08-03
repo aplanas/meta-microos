@@ -5,10 +5,10 @@ document. It is similar to the TeX primitive \\magnification but \
 more accurate and user-friendly."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1.0svn64466"
+PV = "2023.209.2.1.0svn64466"
 
-RPM_NAME = "texlive-blowup-2023.201.2.1.0svn64466-52.1.noarch.rpm"
-RPM_HASH = "115e8291b3a538f827de08eed6f4cf4a0dc43dca228c08586d9636aeeef9de3f4ecfafe9ca8d2b6e655285caf018e6b680ae0ac99ad036fe00e0ca888ee29a29"
+RPM_NAME = "texlive-blowup-2023.209.2.1.0svn64466-53.1.noarch.rpm"
+RPM_HASH = "4e894842a9128964473d654a85c59bf9f6f53f4e600c1b959d2e413c7a17f3bd46c2ee17d6bcae0eaa65408eb44b6aa228cc64c5198c289f6dc49df0ba90eb80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-blowup.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Development files for the GStreamer-based RTSP server library"
 DESCRIPTION = "Development files for the GStreamer library for building an RTSP server."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "gstreamer-rtsp-server-devel-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "697bbe6b9e7f79e96178726c267d2abf7473b2b377c77b78b8e26db433118928e2e37c9eac833a8e57e537e3b5c4e3fd8b142d7beed828804ab888e052f93e2b"
+RPM_NAME = "gstreamer-rtsp-server-devel-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "46e5a068058b9eae9adb61fb0c886eb4ea28559e7cdc73b1318ce0b3805fba15d7dc30c3cb3f1022ebde7982625856d4bd65cbe308cfddd36bf2aaa771269e0f"
 
 RPROVIDES:${PN} += "gst-rtsp-server-devel \
 gstreamer-rtsp-server-devel \

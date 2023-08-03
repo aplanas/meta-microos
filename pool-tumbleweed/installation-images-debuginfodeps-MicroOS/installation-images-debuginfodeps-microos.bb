@@ -2,10 +2,10 @@ SUMMARY = "Debuginfo dependencies for MicroOS installation-images"
 DESCRIPTION = "Package that holds debuginfo dependencies for image files in installation-image."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "17.89"
+PV = "17.90"
 
-RPM_NAME = "installation-images-debuginfodeps-MicroOS-17.89-1.56.aarch64.rpm"
-RPM_HASH = "30940019d6420e74eb98d7655d5a06b7db08203ced23d3d0f2fff4b84a6fa0d64785b51796305bc812bb8591bfbcdd0351989ef7ba600f6debcb3b58c800e7b9"
+RPM_NAME = "installation-images-debuginfodeps-MicroOS-17.90-1.26.aarch64.rpm"
+RPM_HASH = "808897a094b07c73f8c8d5a87bbbf7015879b9af9ce86ced7f5762f2b50fb4330693c47c1499f99708da86d3aecaa4b10b3dd1d730055bbc64cf81897f539cd9"
 
 RPROVIDES:${PN} += "debuginfo-build-id \
 installation-images-debuginfodeps \

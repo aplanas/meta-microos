@@ -4,10 +4,10 @@ same way as \\xleftarrow from amsmath), and a simple command to \
 create new ones."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4svn16243"
+PV = "2023.209.0.0.4svn16243"
 
-RPM_NAME = "texlive-extpfeil-2023.201.0.0.4svn16243-52.1.noarch.rpm"
-RPM_HASH = "b60befbe2fc0d62e3855f5fde32441b9bc8aec2868c2e5e088cf10b2ddec30f39d5a6efdfa186891dcd255ff6ec0797a013ccc67e8c9802092096447263dce57"
+RPM_NAME = "texlive-extpfeil-2023.209.0.0.4svn16243-53.1.noarch.rpm"
+RPM_HASH = "7d642ee36d99ad14168dc125bf927e0a5196053b145d1829e5d02db90274a5d49e5f5a2be01d26909cd3b8c4166ed1f38e858727fd1dc27765182fa0c63d7a47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-extpfeil.sty \

@@ -7,10 +7,10 @@ King Fahd University of Petroleum and Minerals (KFUPM). It can \
 be easily customized to fit any style for any institution."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1.0svn63977"
+PV = "2023.209.0.0.1.0svn63977"
 
-RPM_NAME = "texlive-kfupm-math-exam-2023.201.0.0.1.0svn63977-55.1.noarch.rpm"
-RPM_HASH = "39dde18f923ef72340fb5e37eb9c03517bd4844c3455416eca285aa6364b62ef3e99426d393c3ac817953921076f44cf090a08708f60639306bfbfcde427ed0c"
+RPM_NAME = "texlive-kfupm-math-exam-2023.209.0.0.1.0svn63977-56.1.noarch.rpm"
+RPM_HASH = "61aeac2187c8c5f77fba7adb0212100b4cbe7c5ce083b9097c9b6bdb51458ad3c13f31c5ff4b2ec3aa82eadae7f5f3ab3ad07be19fc7bf2e7519fe84e2f930a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-kfupm-math-exam.cls \

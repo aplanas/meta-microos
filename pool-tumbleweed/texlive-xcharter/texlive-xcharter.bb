@@ -6,10 +6,10 @@ fonts themselves are provided in both Adobe Type 1 and OTF \
 formats, with supporting files as necessary."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.24svn63057"
+PV = "2023.209.1.24svn63057"
 
-RPM_NAME = "texlive-xcharter-2023.201.1.24svn63057-52.2.noarch.rpm"
-RPM_HASH = "f24a381c18ccc45b2fa56124aba0ec29eb47ef5d7d98137bbe8674724135fe41412dab56aa3db7e8e57ca21ef378a64de0d2a5c14c9f5f6bb272aef0c6b95e19"
+RPM_NAME = "texlive-xcharter-2023.209.1.24svn63057-53.1.noarch.rpm"
+RPM_HASH = "15598395f9b6f871aefa7998236e42e1158b1fa138a659641fadb97e49dba99349826682edc6f25c6d5c508f206657061265bcbc92070ee56d67f23616d58ef0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1XCharter-Dnom.fd \

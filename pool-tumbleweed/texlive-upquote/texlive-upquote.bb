@@ -12,10 +12,10 @@ the package is loaded after the other fonts were. The package \
 does not affect \\tt, \\texttt, etc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn26059"
+PV = "2023.209.1.3svn26059"
 
-RPM_NAME = "texlive-upquote-2023.201.1.3svn26059-53.1.noarch.rpm"
-RPM_HASH = "65d317458b637b6d4078a6c6c40324f50ebedfacd3317d15a63fc4bb08eeb0534ef3bd8b137f4d63e20b5046021059ab6d7ecca0e87c2482ccc99b0a13074d82"
+RPM_NAME = "texlive-upquote-2023.209.1.3svn26059-54.1.noarch.rpm"
+RPM_HASH = "bfa198cca98cac14021c167bf87e9dbd287573b853e3e2e1ed06499ac9b038688f97620d68e5c584b796603c6ddc8419f309418f71a191029bb93ab95c1ab53a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-upquote.sty \

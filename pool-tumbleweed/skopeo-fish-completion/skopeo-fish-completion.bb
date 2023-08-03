@@ -2,10 +2,10 @@ SUMMARY = "Fish completion for skopeo"
 DESCRIPTION = "This package contains the fish completion for skopeo."
 LICENSE = "Apache-2.0"
 
-PV = "1.12.0"
+PV = "1.13.0"
 
-RPM_NAME = "skopeo-fish-completion-1.12.0-1.2.noarch.rpm"
-RPM_HASH = "a0d2a6e48dd3e46c7a6074a1531a6315989f9b1ea866857354ed718eb33fee4fdd2741664731dbac569799897078266967336b307b4cf20e4c786df1357bdbdd"
+RPM_NAME = "skopeo-fish-completion-1.13.0-1.1.noarch.rpm"
+RPM_HASH = "c01c40674dbdf6e818c7b0b9c33eb04d3b9a1bef909d5a92e76ebf6371cb1ca561547272a117eb752ee68ea05531ff7ebbaa6009f85fd8171b12b2df59b58720"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "skopeo-fish-completion"

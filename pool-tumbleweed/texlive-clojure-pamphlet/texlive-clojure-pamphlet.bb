@@ -11,10 +11,10 @@ acordingly). Finally, the LaTeX file will be run through the \
 tangler to get the desired chunk of code."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.3svn60981"
+PV = "2023.209.1.3svn60981"
 
-RPM_NAME = "texlive-clojure-pamphlet-2023.201.1.3svn60981-53.1.noarch.rpm"
-RPM_HASH = "b228fd7006bcf16a0a2adecae89b8b5a1ede12c0520d413385b248d55e9ce9fcea281fc0c6ee24d7880852aafe30a310d120c4f5c4d63e206f3c23fd48c198e5"
+RPM_NAME = "texlive-clojure-pamphlet-2023.209.1.3svn60981-54.1.noarch.rpm"
+RPM_HASH = "558b02259b13c90de8d18f373c34e807a506ea720445a76e3a0c0f1008d5ce97d5b1576994705b9b2341cd34eb8f3e0789872c0da84fd15aa21881e3bb10be26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-clojure-pamphlet.sty \

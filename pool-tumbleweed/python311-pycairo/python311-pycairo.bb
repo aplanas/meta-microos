@@ -2,10 +2,10 @@ SUMMARY = "Python Bindings for Cairo"
 DESCRIPTION = "Pycairo is a Python module providing bindings for the cairo graphics library."
 LICENSE = "LGPL-2.1-or-later | MPL-1.1"
 
-PV = "1.23.0"
+PV = "1.24.0"
 
-RPM_NAME = "python311-pycairo-1.23.0-2.2.aarch64.rpm"
-RPM_HASH = "faa00d923ef444bc4c3129cddbc96ed7a8f8d29f9d8454d487bd6864c285edc7d6aae3c750df858bdce470ab08e7fa01358099c65c107cbb2ff5ea4d0bc1da1a"
+RPM_NAME = "python311-pycairo-1.24.0-1.1.aarch64.rpm"
+RPM_HASH = "9ebb4263c1de7adf573432211091b79e385b56947255285b35ae2daf1383c109acd7132a874bedf706f86e086f94b056440a6ff85c4ea6db7f15989264093962"
 
 RPROVIDES:${PN} += "python3-cairo \
 python3-pycairo \

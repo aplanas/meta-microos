@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-proofread"
 DESCRIPTION = "This package includes the documentation for texlive-proofread"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.04svn61719"
+PV = "2023.209.1.04svn61719"
 
-RPM_NAME = "texlive-proofread-doc-2023.201.1.04svn61719-52.1.noarch.rpm"
-RPM_HASH = "2b4cd16e7a2fda568d3daf601f29bf00fed17773fb4f1101f99d1cf2631a853e44a92e1d2da6ba201c16d1f1b03cfd52910399c3e313f163cc9dfd4bdb3d85c0"
+RPM_NAME = "texlive-proofread-doc-2023.209.1.04svn61719-53.1.noarch.rpm"
+RPM_HASH = "9b928fd7a2997e0010986349927cfd93c50f739816e794df543a8d619a66f7c44993a9287fa462b4775b9d0dbdd3c91ad79061ebc8fbc88667b25adb694baac1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-proofread-doc"

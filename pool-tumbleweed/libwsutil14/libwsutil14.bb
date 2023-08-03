@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "4.0.7"
 
-RPM_NAME = "libwsutil14-4.0.7-1.1.aarch64.rpm"
-RPM_HASH = "558c1c41ea819aaaf6255d169efa50500ebf59cbd1b580db7890fa6bcb3f461a3c84b0fed7411a4dea924b3b439fdd36037db3b8ff4632c3a24a1f7f15eae8c9"
+RPM_NAME = "libwsutil14-4.0.7-2.1.aarch64.rpm"
+RPM_HASH = "ac168c1f3f166d7ada006381b266799370ae897b9a8393d317054810be2fbccdc48084c62deaf2cf6bc6b6b9d47a60e9b628b1ba1d862daf01b134931c4dfbc8"
 
 RPROVIDES:${PN} += "libwsutil.so.14 \
 libwsutil14"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hep-font"
 DESCRIPTION = "This package includes the documentation for texlive-hep-font"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn64900"
+PV = "2023.209.1.1svn64900"
 
-RPM_NAME = "texlive-hep-font-doc-2023.201.1.1svn64900-53.2.noarch.rpm"
-RPM_HASH = "a813cd5cf6049405e6331fa8eab464e3254edef3d75b7d2036da42818695eb5795d822ba248424e13dc1505ee8f182a7ce0b9eab25227cadaef2ae2ff3afe8ff"
+RPM_NAME = "texlive-hep-font-doc-2023.209.1.1svn64900-54.1.noarch.rpm"
+RPM_HASH = "35e0db8fc89a21636653e44e0f8e5ef1ba4c1f0e32d414c557581d6f259a576bdcbd33b77d67c086c65d0a9a1cbd6002622e62a3a26cde7be80570964a08a138"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hep-font-doc"

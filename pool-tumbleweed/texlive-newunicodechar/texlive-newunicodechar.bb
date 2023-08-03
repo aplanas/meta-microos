@@ -8,10 +8,10 @@ directly-typed Unicode character, and <code> is its \
 replacement."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn47382"
+PV = "2023.209.1.2svn47382"
 
-RPM_NAME = "texlive-newunicodechar-2023.201.1.2svn47382-54.1.noarch.rpm"
-RPM_HASH = "3e585c19a38521ec795d516564a01d4d2a645740fe6eaa182034187ecf243e000d0a3b53817ecbfa28ec6b232bb04a5c6b789c71ff5f7ae11126cd595e3973a0"
+RPM_NAME = "texlive-newunicodechar-2023.209.1.2svn47382-55.1.noarch.rpm"
+RPM_HASH = "316bc00344fdf8d6fd5db873a486b1b345f51098d96a92872756a0a106488b9a1914b331aab27e25147af551e7843954ebf05ec47a5c540b85764a80968c45da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-newunicodechar.sty \

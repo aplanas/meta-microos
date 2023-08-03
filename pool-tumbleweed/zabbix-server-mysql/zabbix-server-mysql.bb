@@ -2,10 +2,10 @@ SUMMARY = "Zabbix server with MySQL support"
 DESCRIPTION = "The Zabbix server compiled with MySQL support."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.0.17"
+PV = "6.0.19"
 
-RPM_NAME = "zabbix-server-mysql-6.0.17-1.2.aarch64.rpm"
-RPM_HASH = "c82b08fef0041874dcf0c1aae083d8c810236c91b32c94e70b8c4705b749686d318806380838c7b820019842c2e00dd918743535d5fda0a5b0ed71b4951d3da1"
+RPM_NAME = "zabbix-server-mysql-6.0.19-1.1.aarch64.rpm"
+RPM_HASH = "075b45409ef231b746b3196943aa6b9fa1102dfb15fd4dd255b24323c8a5a2fc83f60b5ee91e23cc042f5d97d806622668f7b580d7881bc6c212379cdaa02209"
 
 RPROVIDES:${PN} += "zabbix \
 zabbix-server-binary \

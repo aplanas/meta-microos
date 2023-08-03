@@ -10,10 +10,10 @@ and comp.text.tex newsgroups that are referred to in the \
 manual."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2bsvn15878"
+PV = "2023.209.1.2bsvn15878"
 
-RPM_NAME = "texlive-wordlike-2023.201.1.2bsvn15878-53.1.noarch.rpm"
-RPM_HASH = "a64e5c2087949cda0d40693927eb10217c17ca967a643b77104eebf0106ec61cc3b5c5f04a5029062a5749dc9890941ec8da6836ae7785cd7e8b2450add8f99f"
+RPM_NAME = "texlive-wordlike-2023.209.1.2bsvn15878-54.1.noarch.rpm"
+RPM_HASH = "34b9874d639dfb078d305c021226a413043fb9256d9b3155893d1ab166308bbfed668fc9a4a1c535d69f966c7d940d4963cb0cca12071ff916cb14bb1cd54a72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-wordlike.sty \

@@ -6,10 +6,10 @@ file which has a reasonably conventional structure. The result \
 is meant to be robust rather than pretty."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.9.1svn65694"
+PV = "2023.209.0.0.9.1svn65694"
 
-RPM_NAME = "texlive-urlbst-2023.201.0.0.9.1svn65694-53.1.noarch.rpm"
-RPM_HASH = "facb599a785e7bace8973b7ae61ec75d92b1fde2f432ec6d0ef710ced9f2ff9bd4089fc36d89186ba199d1ac0625c053389ac720e7926638d0b2ac9def06db1c"
+RPM_NAME = "texlive-urlbst-2023.209.0.0.9.1svn65694-54.1.noarch.rpm"
+RPM_HASH = "169c32a0d33514acce568bb0d4139b2022466e0ffb454f4c403de31e9edecb8450322de79220c69d00cf9e88b9f44eee198934f314204f23b10271a238a0015b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-urlbst"

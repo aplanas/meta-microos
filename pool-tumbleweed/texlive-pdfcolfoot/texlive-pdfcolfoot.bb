@@ -4,10 +4,10 @@ package uses a separate colour stack for footnotes that can \
 break across pages. The package is part of the oberdiek bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4svn65512"
+PV = "2023.209.1.4svn65512"
 
-RPM_NAME = "texlive-pdfcolfoot-2023.201.1.4svn65512-51.1.noarch.rpm"
-RPM_HASH = "8be8838f169cbf723fa474f13bc38c26cf4799168b4b2ac70541d766835c943553a0a3200d8b67a86abf64cc8cbfe0131ffeb6a3eff6bc1c8368e11c6a7f9669"
+RPM_NAME = "texlive-pdfcolfoot-2023.209.1.4svn65512-52.1.noarch.rpm"
+RPM_HASH = "ef90b16adb6bf59c493d60329867420eee43377f8cc61a644271cf6793732e8c30d1609b8e42c5c649cde5d762eb04eb946ab87b34cf04227ead25440ef4b5b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdfcolfoot.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for qt6-webview in HTML format"
 DESCRIPTION = "This package contains documentation for qt6-webview in HTML format."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-webview-docs-html-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "843c01faca37598a1bb17286185c89425e0c9a097c4403aa17b8fd3b22fb290a136423e1224d40c8f13d95e98c9ce0e54ea3b73eed562c9e7fb80c55722071c8"
+RPM_NAME = "qt6-webview-docs-html-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "4fade18a3e32a919839f3ea84a6ef78898d5c10715986a81cef07428052dbac45e75f6e232179f9ddd705b0263d7aee7f414f7d618552bc4b649ca0bb3e38429"
 
 RPROVIDES:${PN} += "qt6-webview-docs-html"
 

@@ -4,10 +4,10 @@ Silvano Balemi. It produces cards at the normal US card size, \
 76.2mm x 50.8mm."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.1svn15878"
+PV = "2023.209.1.1svn15878"
 
-RPM_NAME = "texlive-bizcard-2023.201.1.1svn15878-52.1.noarch.rpm"
-RPM_HASH = "b9ac5b493a4b27e98812c9625789765bae0158eff1e85200281fca0fad6567aeb35018fef5d5fdc653b787e752fd8e75f0aee76bc21b54e81ac42d786f5c1110"
+RPM_NAME = "texlive-bizcard-2023.209.1.1svn15878-53.1.noarch.rpm"
+RPM_HASH = "d1fa6b89fbdf9f9ea9ff3695af75f58ff6c6bebb223de19dd6467daf476288789ae84bd2866f7d7cddbeedffee8688777b3422b3a0e073cc28a323956cc87583"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bizcard.sty \

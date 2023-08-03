@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Quick3DAssetUtils library"
 DESCRIPTION = "The Qt 6 Quick3DAssetUtils library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6Quick3DAssetUtils6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "5f8bd246f808c1469e43c613cde8a478816e2cb66a26f4e307e9caaff3a8f4d685af6de859859a98ca6b1b99c9a8598b9b8673661f3b5acf9aa0b60b77dd8cb8"
+RPM_NAME = "libQt6Quick3DAssetUtils6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "d8a7aabf5f99c1bb2248290c10457fc9195a75a820f91122758876a22042c731b292645652fd1fc377b953c24f302aa43cf9c0e0245d690f10324c7d56b64b21"
 
 RPROVIDES:${PN} += "libQt6Quick3DAssetUtils.so.6 \
 libQt6Quick3DAssetUtils6"

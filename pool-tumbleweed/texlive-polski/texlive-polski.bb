@@ -13,10 +13,10 @@ Unicode aware variants. (This package was previously known as \
 platex, but has been renamed to resolve a name clash.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3.6svn60322"
+PV = "2023.209.1.3.6svn60322"
 
-RPM_NAME = "texlive-polski-2023.201.1.3.6svn60322-52.1.noarch.rpm"
-RPM_HASH = "88d620d60b7ec859d437c2cc574849160d1167deea72c511586bdaa15fec1e9884b12a2db018af166eee606625330639272499fad1e1a8230590fce689c26201"
+RPM_NAME = "texlive-polski-2023.209.1.3.6svn60322-53.1.noarch.rpm"
+RPM_HASH = "5ca5509d4ec35ba0446035816e73106e77c659c0c2b8995c49ef3d62dc69adac165224ed0a23c904da77cdb874cf37efbaebc19180fc88edbb84e05cf47a1713"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-amigapl.def \

@@ -5,10 +5,10 @@ $\\alpha$. However, it takes care only of letters which have a \
 macro name like \\alpha or \\Omega."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.5.0.2svn59228"
+PV = "2023.209.5.0.2svn59228"
 
-RPM_NAME = "texlive-paresse-2023.201.5.0.2svn59228-51.1.noarch.rpm"
-RPM_HASH = "46173c5cd7b09f77f376718acbc05d91da38841dd122f9cf47d82a5249570eeb2aadb372532b465468bf6a17309d46fe020a98afbae20e31b19814fcd1f6b326"
+RPM_NAME = "texlive-paresse-2023.209.5.0.2svn59228-52.1.noarch.rpm"
+RPM_HASH = "a844319d93d86943de88010f49193720c4eed9a5d02445a9d2d8a90c7452edb3815296e6b5f88fe995b7e081502b6050485ac06e6d14f6bc197c651cf59a956b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-paresse-old.sty \

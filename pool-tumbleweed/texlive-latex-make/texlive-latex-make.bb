@@ -13,10 +13,10 @@ needed. And various helper tools for LaTeX.mk This package \
 requires GNUmake (>= 3.81)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.4.3svn60874"
+PV = "2023.209.2.4.3svn60874"
 
-RPM_NAME = "texlive-latex-make-2023.201.2.4.3svn60874-55.1.noarch.rpm"
-RPM_HASH = "6f7c883887e4921c45cef7f387571728aeb7958006777d8ff3f03fe6a9ab8e6a7a164ac6ea97cf6ce76e3e226c03f1ef3fc606892770130f2662981a897d5000"
+RPM_NAME = "texlive-latex-make-2023.209.2.4.3svn60874-56.1.noarch.rpm"
+RPM_HASH = "79f9f235feeca3f9e54b30aaa47166d98474a95a7fff664718483306042738a6df60f4c2489cbaacbb2d4c6763fc90cc240c94b06992585209038ea025ac1571"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-figlatex.cfg \

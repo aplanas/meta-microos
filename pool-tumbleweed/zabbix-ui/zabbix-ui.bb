@@ -4,10 +4,10 @@ DESCRIPTION = "The Zabbix PHP frontend allows access via standard web browsers. 
 NOTE: You still have to install the PHP package which contains your db driver!"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.0.17"
+PV = "6.0.19"
 
-RPM_NAME = "zabbix-ui-6.0.17-1.2.aarch64.rpm"
-RPM_HASH = "d0a54bc7067697bd0176c216da3d4764f3b723b23e039e63ae70219df825d7c882f3c6b67f577d90d7ffafd396322d3b76fc716114e8bc019c57f5d09bee5f73"
+RPM_NAME = "zabbix-ui-6.0.19-1.1.aarch64.rpm"
+RPM_HASH = "4337045e840b7f4deccfe72cb26bc0db2705e63be7c78c5ac653840601b18af21d0db7ba0b9fdad0f28bf2287ea9bd1918a0453cc169f17f32d9ec4e7e201400"
 
 RPROVIDES:${PN} += "config-zabbix-ui \
 zabbix-ui"

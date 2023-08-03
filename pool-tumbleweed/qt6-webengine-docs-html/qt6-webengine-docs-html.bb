@@ -2,10 +2,10 @@ SUMMARY = "Documentation for qt6-webengine in HTML format"
 DESCRIPTION = "This package contains documentation for qt6-webengine in HTML format."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-webengine-docs-html-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "7b364b8d82c38ab5c0a8491e59aefd8f0c30c4bd74e495a5cdc26c64c4011f55e0c110425551548bd174aee523946a38792d60dd94e8c802be6ff804a65c90c9"
+RPM_NAME = "qt6-webengine-docs-html-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "1cbb4e82fcdee31a332a9c647933959057e11c42b22e6447fd6a68fca9ccbfbcc7d35d054c3f7136cc3e0ada18ae48ead833c3417e208b4950f316843b069d43"
 
 RPROVIDES:${PN} += "qt6-webengine-docs-html"
 

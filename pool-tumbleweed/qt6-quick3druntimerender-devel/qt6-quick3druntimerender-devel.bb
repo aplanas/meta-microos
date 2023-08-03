@@ -2,10 +2,10 @@ SUMMARY = "Qt6 Quick3DRuntimeRender library - Development files"
 DESCRIPTION = "Development files for the Qt 6 Quick3DRuntimeRender library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-quick3druntimerender-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "82dba29648f0797283163acbbbdc24865fd16d65c4451b885c7f621601a640bd137cc5c920affd4e03038da26955a834b2bed91536498b3917b64524aad397fa"
+RPM_NAME = "qt6-quick3druntimerender-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "9979729f8ec9f57c87bb034c349bda1bca841db3d3dce2fb2d3a40ea26bff017944757fc0ee09a7fff23537f066242cd7660889fd5b73908f70973ed6d9563b5"
 
 RPROVIDES:${PN} += "cmake-Qt6Quick3DRuntimeRender \
 pkgconfig-Qt6Quick3DRuntimeRender \

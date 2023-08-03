@@ -4,10 +4,10 @@ markers or small text) to mark 'steps' in procedures, \
 exercises, and so on."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3.1svn63255"
+PV = "2023.209.1.3.1svn63255"
 
-RPM_NAME = "texlive-circledsteps-2023.201.1.3.1svn63255-53.1.noarch.rpm"
-RPM_HASH = "aafa6513710e61e89f8bef8815632709ebf226ac720a5d6c0b174ceed11059d4ae019a03b79044723337744f7ac5513a6b00a2c17cd4a6e45cb2e6c2515c68e4"
+RPM_NAME = "texlive-circledsteps-2023.209.1.3.1svn63255-54.1.noarch.rpm"
+RPM_HASH = "521602356846351cd6d28fd1826a005e0cb0b0fcb90ebb66d87c90e4fc13383ff6bb39f6733bbfa7757abdbf014c98e9a3f3808fc02d45712a1cd01e69260e9d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-circledsteps.sty \

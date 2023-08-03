@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt 6 WebEngineWidgets library"
 DESCRIPTION = "Development files for the Qt 6 WebEngineWidgets library."
 LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-webenginewidgets-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "0339de84bb0108f77e777d7d7f0be597c533dc1032e86663dad2ce103ccf55b675883c1370c21d4caa09eae7554de4de20012d45836ccec41058b3dc0184096d"
+RPM_NAME = "qt6-webenginewidgets-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "262d044f727a90d5076753fd7de5ea0a67e3093d7ea6264d9d814db8ebe7e1b4997cd66159b09d74510546197a60d329d8d6551529624185df272c3ba6493e3a"
 
 RPROVIDES:${PN} += "cmake-Qt6WebEngineWidgets \
 pkgconfig-Qt6WebEngineWidgets \

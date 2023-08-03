@@ -7,10 +7,10 @@ distributed in Metafont format, and covers the numbers and \
 upper-case letters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn18488"
+PV = "2023.209.svn18488"
 
-RPM_NAME = "texlive-kixfont-2023.201.svn18488-55.1.noarch.rpm"
-RPM_HASH = "f9ccdba2f49270022138c95e7efa4fb320d25d52af27b2975e2eae0b34fab126a040b1e014dcd6b3565bc523f10fd8ec57a2ba36233be1008b898ebb3a467c0d"
+RPM_NAME = "texlive-kixfont-2023.209.svn18488-56.1.noarch.rpm"
+RPM_HASH = "448f19fcd4ae2126550b0951031cf1928d58cbd1d7994d4cb3863a03b8bf702d20f290e7aae207ca2ed00f5d8feba1a0a87bc670159738e93bf62c02b5febac6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-kix.tfm \

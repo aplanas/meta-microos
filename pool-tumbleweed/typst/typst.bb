@@ -2,10 +2,10 @@ SUMMARY = "A new markup-based typesetting system that is powerful and easy to le
 DESCRIPTION = "Typst is a new markup-based typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use."
 LICENSE = "Apache-2.0"
 
-PV = "0.5.0"
+PV = "0.6.0"
 
-RPM_NAME = "typst-0.5.0-1.1.aarch64.rpm"
-RPM_HASH = "48b8ccd1ab7d87c0c360eed94b1e2e88ee80eff8b2f8963ab19ed85a1c090d261e4e8fd8b21cf25a2265dea2f80406ed762db2a8390c394256ff300a796e0dd9"
+RPM_NAME = "typst-0.6.0-1.1.aarch64.rpm"
+RPM_HASH = "0b33cead39dc8079ddbdc573701fb355a736680883ee8b67102d5a5eca193ce7100242210fdb92dc215b9d045f62f4eb2b19bd8a947cba98f462a70d1ed4137a"
 
 RPROVIDES:${PN} += "bundled-rust-crate-adler \
 bundled-rust-crate-ahash \
@@ -21,6 +21,7 @@ bundled-rust-crate-az \
 bundled-rust-crate-base64 \
 bundled-rust-crate-biblatex \
 bundled-rust-crate-bincode \
+bundled-rust-crate-bit-field \
 bundled-rust-crate-bit-set \
 bundled-rust-crate-bit-vec \
 bundled-rust-crate-bitflags \
@@ -57,20 +58,25 @@ bundled-rust-crate-dirs-sys \
 bundled-rust-crate-displaydoc \
 bundled-rust-crate-ecow \
 bundled-rust-crate-either \
-bundled-rust-crate-elsa \
 bundled-rust-crate-enum-ordinalize \
 bundled-rust-crate-env-logger \
+bundled-rust-crate-equivalent \
+bundled-rust-crate-exr \
 bundled-rust-crate-fancy-regex \
 bundled-rust-crate-fastrand \
 bundled-rust-crate-fdeflate \
 bundled-rust-crate-filetime \
 bundled-rust-crate-flate2 \
 bundled-rust-crate-float-cmp \
+bundled-rust-crate-flume \
 bundled-rust-crate-fnv \
 bundled-rust-crate-fontdb \
 bundled-rust-crate-form-urlencoded \
+bundled-rust-crate-futures-core \
+bundled-rust-crate-futures-sink \
 bundled-rust-crate-getrandom \
 bundled-rust-crate-gif \
+bundled-rust-crate-half \
 bundled-rust-crate-hashbrown \
 bundled-rust-crate-hayagriva \
 bundled-rust-crate-heck \
@@ -92,7 +98,6 @@ bundled-rust-crate-indexmap \
 bundled-rust-crate-inferno \
 bundled-rust-crate-inotify \
 bundled-rust-crate-inotify-sys \
-bundled-rust-crate-io-lifetimes \
 bundled-rust-crate-is-docker \
 bundled-rust-crate-is-terminal \
 bundled-rust-crate-is-wsl \
@@ -101,6 +106,7 @@ bundled-rust-crate-itoa \
 bundled-rust-crate-jpeg-decoder \
 bundled-rust-crate-kurbo \
 bundled-rust-crate-lazy-static \
+bundled-rust-crate-lebe \
 bundled-rust-crate-libc \
 bundled-rust-crate-libm \
 bundled-rust-crate-linked-hash-map \
@@ -114,6 +120,7 @@ bundled-rust-crate-memmap2 \
 bundled-rust-crate-memoffset \
 bundled-rust-crate-miniz-oxide \
 bundled-rust-crate-mio \
+bundled-rust-crate-nanorand \
 bundled-rust-crate-notify \
 bundled-rust-crate-nu-ansi-term \
 bundled-rust-crate-num-bigint \
@@ -135,6 +142,8 @@ bundled-rust-crate-percent-encoding \
 bundled-rust-crate-phf \
 bundled-rust-crate-phf-shared \
 bundled-rust-crate-pico-args \
+bundled-rust-crate-pin-project \
+bundled-rust-crate-pin-project-internal \
 bundled-rust-crate-pin-project-lite \
 bundled-rust-crate-pixglyph \
 bundled-rust-crate-png \
@@ -142,6 +151,7 @@ bundled-rust-crate-postcard \
 bundled-rust-crate-ppv-lite86 \
 bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-psm \
+bundled-rust-crate-qoi \
 bundled-rust-crate-quick-xml \
 bundled-rust-crate-quote \
 bundled-rust-crate-rand \
@@ -151,18 +161,23 @@ bundled-rust-crate-rayon \
 bundled-rust-crate-rayon-core \
 bundled-rust-crate-rctree \
 bundled-rust-crate-regex \
+bundled-rust-crate-regex-automata \
 bundled-rust-crate-regex-syntax \
 bundled-rust-crate-resvg \
 bundled-rust-crate-rgb \
+bundled-rust-crate-ring \
 bundled-rust-crate-roff \
 bundled-rust-crate-rosvgtree \
 bundled-rust-crate-roxmltree \
 bundled-rust-crate-rustix \
+bundled-rust-crate-rustls \
+bundled-rust-crate-rustls-webpki \
 bundled-rust-crate-rustversion \
 bundled-rust-crate-rustybuzz \
 bundled-rust-crate-ryu \
 bundled-rust-crate-same-file \
 bundled-rust-crate-scopeguard \
+bundled-rust-crate-sct \
 bundled-rust-crate-serde \
 bundled-rust-crate-serde-derive \
 bundled-rust-crate-serde-json \
@@ -174,6 +189,7 @@ bundled-rust-crate-simplecss \
 bundled-rust-crate-siphasher \
 bundled-rust-crate-slotmap \
 bundled-rust-crate-smallvec \
+bundled-rust-crate-spin \
 bundled-rust-crate-stable-deref-trait \
 bundled-rust-crate-stacker \
 bundled-rust-crate-str-stack \
@@ -187,11 +203,13 @@ bundled-rust-crate-svgtypes \
 bundled-rust-crate-syn \
 bundled-rust-crate-synstructure \
 bundled-rust-crate-syntect \
+bundled-rust-crate-tar \
 bundled-rust-crate-tempfile \
 bundled-rust-crate-termcolor \
 bundled-rust-crate-thiserror \
 bundled-rust-crate-thiserror-impl \
 bundled-rust-crate-thread-local \
+bundled-rust-crate-tiff \
 bundled-rust-crate-time \
 bundled-rust-crate-time-core \
 bundled-rust-crate-time-macros \
@@ -231,6 +249,8 @@ bundled-rust-crate-unicode-vo \
 bundled-rust-crate-unicode-width \
 bundled-rust-crate-unicode-xid \
 bundled-rust-crate-unscanny \
+bundled-rust-crate-untrusted \
+bundled-rust-crate-ureq \
 bundled-rust-crate-url \
 bundled-rust-crate-usvg \
 bundled-rust-crate-usvg-parser \
@@ -240,9 +260,11 @@ bundled-rust-crate-utf8-iter \
 bundled-rust-crate-utf8parse \
 bundled-rust-crate-version-check \
 bundled-rust-crate-walkdir \
+bundled-rust-crate-webpki-roots \
 bundled-rust-crate-weezl \
 bundled-rust-crate-winnow \
 bundled-rust-crate-writeable \
+bundled-rust-crate-xattr \
 bundled-rust-crate-xmlparser \
 bundled-rust-crate-xmlwriter \
 bundled-rust-crate-xmp-writer \
@@ -253,9 +275,11 @@ bundled-rust-crate-zerofrom \
 bundled-rust-crate-zerofrom-derive \
 bundled-rust-crate-zerovec \
 bundled-rust-crate-zerovec-derive \
+bundled-rust-crate-zune-inflate \
 typst"
 
-RDEPENDS:${PN} += "libc.so.6 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6"
 

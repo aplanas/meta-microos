@@ -19,10 +19,10 @@ a series of classes to simplify the creation of many kind of \
 editing-related applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "libges-1_0-0-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "4f9eff4d8004c51e4a0fe487ebd97f6f61fb750fa202a23f5ac55737d5f86cd0244156edf8a899b5c44392df37ee71b2d38e4c621be78591aedda0d59bca917e"
+RPM_NAME = "libges-1_0-0-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "2598102a05fa8df30489e298b6ce7582ae0564fd80d07809f0b2671f7f813d39f8ff8643d68639e753e384d00d76c531b530e3094bb8f805053ae403fe03f549"
 
 RPROVIDES:${PN} += "gstreamer1 \
 libges-1-0-0 \

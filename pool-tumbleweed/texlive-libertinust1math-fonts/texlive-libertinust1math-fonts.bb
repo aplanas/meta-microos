@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-libertinust1math"
 DESCRIPTION = "The  separated fonts package for texlive-libertinust1math"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.2.0.2svn61751"
+PV = "2023.209.2.0.2svn61751"
 
-RPM_NAME = "texlive-libertinust1math-fonts-2023.201.2.0.2svn61751-54.1.noarch.rpm"
-RPM_HASH = "253651dae06db2865eac410a3364629e48a74006d6d9ceaec15d6f33c03eb76a76b4e399af0ee09a829cf47f50900af2cecdf1d39607b20be2520d20231fc81c"
+RPM_NAME = "texlive-libertinust1math-fonts-2023.209.2.0.2svn61751-55.1.noarch.rpm"
+RPM_HASH = "bd1eac4b0531bacea847f2ae2484b8f1da46838017bc14c3922f470f6f538e08f6abde31c51b839d7cb6e6fab9af22cb522b48c1547a600dd35946f33677dbe5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

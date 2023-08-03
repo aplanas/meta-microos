@@ -4,10 +4,10 @@ uniqueness of time-based UUID generation even at very high rates on \
 SMP systems."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.39"
+PV = "2.39.1"
 
-RPM_NAME = "uuidd-2.39-3.1.aarch64.rpm"
-RPM_HASH = "2ae2085601657130d0a32f19490cca679a5d8908deb042376572855c6e5e90c4f85605db015eb9e9af197176129013a3221afb672a8a24a5de53ccc20346c10d"
+RPM_NAME = "uuidd-2.39.1-1.1.aarch64.rpm"
+RPM_HASH = "b88906cb0b466d14cccd357ac53c88a8a6f7c14781682bb9e7f787f3cf38108374005da156e4bea1f0e0159442efa784f09a1fb8e78d42a59a7294776b3b8a8d"
 
 RPROVIDES:${PN} += "uuid-runtime \
 uuidd"

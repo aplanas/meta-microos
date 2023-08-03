@@ -4,10 +4,10 @@ them from the documentation source and evaluating the parsed examples as part \
 of the normal test run. Integration is provided for the main Python test runners."
 LICENSE = "MIT"
 
-PV = "3.0.0"
+PV = "3.0.1"
 
-RPM_NAME = "python310-sybil-3.0.0-4.3.noarch.rpm"
-RPM_HASH = "3f18b1afc9342c12a83af98bb4a1418de07e9a45018560e26126f2ae8fba200620c4d6a20db1f25c5b9d666b237159c093a3284ad1c06d608f00a489d811b478"
+RPM_NAME = "python310-sybil-3.0.1-1.1.noarch.rpm"
+RPM_HASH = "89cd572cb9224747e1bdc7bde7b347294bd98af17c8ca3b427e2c9174d28f2d58f27c44d71844e3799de5b9b6c9da82f5f274366e0ab5e1c9b2f92adbb53576b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-sybil \

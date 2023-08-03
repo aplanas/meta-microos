@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-carolmin-ps"
 DESCRIPTION = "This package includes the documentation for texlive-carolmin-ps"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-carolmin-ps-doc-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "be38bea11b3476d14d4a22728d8ff951897ad491f2280ed2df9ae56dcf380888bc479d2541ce69b8da02d07bea7461162d28969aff01ff36cc4750a454facdc8"
+RPM_NAME = "texlive-carolmin-ps-doc-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "95fd0d17ecd2b0df78d8a6ef9d15a86c03667f82520260b8d29179c98792a6fcb34db23999c236418e4751763433976161fff6cde36985e31349bf3ae2e1b393"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-carolmin-ps-doc"

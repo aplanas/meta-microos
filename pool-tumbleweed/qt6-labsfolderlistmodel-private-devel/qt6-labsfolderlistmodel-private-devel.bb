@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6LabsFolderListMode
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-labsfolderlistmodel-private-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "f4bc8ec8edcace4f59bece15b7bb5cdf1ecd569d1261215d12d5a03f4c527b2341e7eaa664ad7655179370844ffaa8012ab5033e8eebcecbcd4d119becef3d07"
+RPM_NAME = "qt6-labsfolderlistmodel-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "5e8a6c09a461dde78ca2b1ec756a50f0b15be9c4624a32d8f5290232425138d2fae8726a98c66e1bc6d752e6b8066f7b088a771e588525112c975c2b205b423f"
 
 RPROVIDES:${PN} += "qt6-labsfolderlistmodel-private-devel"
 

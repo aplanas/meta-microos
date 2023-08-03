@@ -7,10 +7,10 @@ bibliographic style which enables the use of author-year \
 schemes using the natbib package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1svn43639"
+PV = "2023.209.2.1svn43639"
 
-RPM_NAME = "texlive-unamthesis-2023.201.2.1svn43639-53.1.noarch.rpm"
-RPM_HASH = "c0ddc2403e7211bc70ce41c1091683574236257bd6ba1d35fb2df26bfc2181898191cd64951839ddd801e305ce6f723b7c65f49b6a0fc1b04eb8081c07cb200a"
+RPM_NAME = "texlive-unamthesis-2023.209.2.1svn43639-54.1.noarch.rpm"
+RPM_HASH = "de2461652dcf89eae3a16fe7e1a84edeef3330b62e15495fab982371dbcc2560a0edd3aa47a2af3b0fbf1d173c392fba6e5cb589988314347da3f8695d5185ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-UNAMThesis.sty \

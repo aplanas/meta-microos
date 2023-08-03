@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides full customisation of the aspect and \
 dimensions of blocks inside a presentation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2bsvn35193"
+PV = "2023.209.0.0.2bsvn35193"
 
-RPM_NAME = "texlive-dynblocks-2023.201.0.0.2bsvn35193-53.2.noarch.rpm"
-RPM_HASH = "933c6715d8919c23765febd2be4478dc85f0f36a2036f0e62a18df47c667dd4e58d3b554911978c01e5454ca43598389d72fbafde9670c5d1bc59320b9ed36b8"
+RPM_NAME = "texlive-dynblocks-2023.209.0.0.2bsvn35193-54.1.noarch.rpm"
+RPM_HASH = "28840f2e69943c61f4073e6788316524fb58952c1b9bcea0c898968822c323f98ee17cb6cda0a860999b03c8451a0ca185a10b821bdd1351460000032488a672"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dynblocks.sty \

@@ -11,10 +11,10 @@ which may be specified independently of the standard one. Any \
 standard bibliography style may be used."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0.7svn17115"
+PV = "2023.209.2.0.7svn17115"
 
-RPM_NAME = "texlive-footbib-2023.201.2.0.7svn17115-52.1.noarch.rpm"
-RPM_HASH = "0f8944dcf8c6b7211a9612d81ab2df5d0cf04b2885c9deca5181c1b63953ca6fd00b0b5978eb7d98266fbbe20a21efe2b40f06ca577ac321c520b909536317b9"
+RPM_NAME = "texlive-footbib-2023.209.2.0.7svn17115-53.1.noarch.rpm"
+RPM_HASH = "bf753d6cd4b97ee2f9732b22c0313400eec47832a7a28de1b59cd4238a0609ce7d6fc1e980911cbb69c8f9b8797465f720db063201ee1875231070ed38e5d858"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-footbib.sty \

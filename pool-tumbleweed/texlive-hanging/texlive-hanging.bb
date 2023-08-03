@@ -9,10 +9,10 @@ punction should nowadays use the microtype package, which takes \
 advantage of the support offered in recent versions of pdfTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2bsvn15878"
+PV = "2023.209.1.2bsvn15878"
 
-RPM_NAME = "texlive-hanging-2023.201.1.2bsvn15878-53.2.noarch.rpm"
-RPM_HASH = "d730d71b89a95726c0ae8a056ca92c4abf7b5e3f16c12c438f2e28b48507f79ed3b5532355ea21d3bc44877dd5fa834ccc9e6ea7fd27630552d5fb7f395e60bd"
+RPM_NAME = "texlive-hanging-2023.209.1.2bsvn15878-54.1.noarch.rpm"
+RPM_HASH = "d3bb1ec52fe008720560e1a08508e625f9b9ea952cc67603505577f1a984dc43e6e11e3da359f715a75449111e4e803e24f358d5bc2b4ab0b43ddc421c6b180c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hanging.sty \

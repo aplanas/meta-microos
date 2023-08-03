@@ -2,10 +2,10 @@ SUMMARY = "Documentation for python-networkx"
 DESCRIPTION = "Documentation and examples for python-networkx."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.8.8"
+PV = "3.1"
 
-RPM_NAME = "python-networkx-doc-2.8.8-2.1.noarch.rpm"
-RPM_HASH = "e5ba81fd8a27c6e89be29ae7dd0222020f106f215fdbc638434d810893cb0ff0ae23aa45da6e8784aa1c2fc24a0db238669239e68b4e2f7aeae470dda537d4e3"
+RPM_NAME = "python-networkx-doc-3.1-1.1.noarch.rpm"
+RPM_HASH = "e4e21931c490835b2b487d3d3eaff3c3a7b9d72c97f28ec5c9a7c6bbc614a16e7699193dfcf8fc12ca7454dbe966049556710e10bd505465fb7380fa26343cc1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-networkx-doc \

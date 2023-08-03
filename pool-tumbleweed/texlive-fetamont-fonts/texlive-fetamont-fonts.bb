@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-fetamont"
 DESCRIPTION = "The  separated fonts package for texlive-fetamont"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn43812"
+PV = "2023.209.svn43812"
 
-RPM_NAME = "texlive-fetamont-fonts-2023.201.svn43812-52.1.noarch.rpm"
-RPM_HASH = "d8faf50e53e4ed08ec88d48921efc1fe79f8ee53bf1e5955c9b5e1cf578ad42967d7e47493534099a88db2f5ebfab1e4eb3c563ddc85f5b975a36ca6a730d3ac"
+RPM_NAME = "texlive-fetamont-fonts-2023.209.svn43812-53.1.noarch.rpm"
+RPM_HASH = "4a936c62ab53781680d26d2ef67f888ead35b2ab104915f35453581ed5f38ba54c5dbaf689440cf511331ae6816e8bd7fc77fd71f5936ad2be64737d22cd47e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-fetamont-fonts \

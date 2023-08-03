@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4"
 
-RPM_NAME = "python3-libnvme-1.4-1.3.aarch64.rpm"
-RPM_HASH = "75d670eab24e277cba8292ce161c25aff8163755eb2094b0bccf167be51f1c7282fe3fac802b5076f6817135ccd3ebf397872a465f2ac4e179f59a64bbafe32c"
+RPM_NAME = "python3-libnvme-1.4-3.1.aarch64.rpm"
+RPM_HASH = "0e5efe2a536918483dfd906e39ca324d4a8084ca694b79d4ddbb99abe03a5124b7b294bb5b3599128430e1570b50b561541bf7c9c46c5863dfa850b1b776c6a7"
 
 RPROVIDES:${PN} += "python3-libnvme"
 

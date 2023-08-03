@@ -5,10 +5,10 @@ guidelines of the American Institute of Aeronautics and \
 Astronautics (AIAA)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.6svn15878"
+PV = "2023.209.3.6svn15878"
 
-RPM_NAME = "texlive-aiaa-2023.201.3.6svn15878-54.1.noarch.rpm"
-RPM_HASH = "550b3103605f6335ac0c8daa90e493ec3c84d0a84c1ab87f611313606198aa49ff1269209bbf662a25640593ce27a09e22385f2fe97cf181760094e0ecee2688"
+RPM_NAME = "texlive-aiaa-2023.209.3.6svn15878-55.1.noarch.rpm"
+RPM_HASH = "3fdeb0eb0a02e33c3aa887ea70aee32ef1ae51ebc873384d53369456123efcb225b9e70ca2fc80d018b8b1fd304c295d305a0434faaa1542aa9f41550f6006f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-aiaa-tc.cls \

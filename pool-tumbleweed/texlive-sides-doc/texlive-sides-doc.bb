@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sides"
 DESCRIPTION = "This package includes the documentation for texlive-sides"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-sides-doc-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "e21f7fcc76a85d7719aa4f0207d7c8a38c7d9ba2777097f55b8919a27aad317cacb3e3ca50ceeb15c8e15e496243278d542474a2b8d19da403c2967c8d59be08"
+RPM_NAME = "texlive-sides-doc-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "7183733f808d07c05ab9ad928cc151e5103bff942256a2a81fc4eade22dafa257a611a23bb1b2f5452e0407816671110dab9e0a7acd7894c22f8eae1c788babe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sides-doc"

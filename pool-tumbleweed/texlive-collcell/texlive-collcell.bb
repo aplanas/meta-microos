@@ -7,10 +7,10 @@ of a table, but do not support verbatim material inside the \
 cells."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5svn64967"
+PV = "2023.209.0.0.5svn64967"
 
-RPM_NAME = "texlive-collcell-2023.201.0.0.5svn64967-53.1.noarch.rpm"
-RPM_HASH = "8eb1820e0fa3e5b80fd3e5e81b3ecdd5985a5cd95795755e79fe733eb49b536d89ccdff3b8d3f025656b07f1895c3ace3b3f629388a6177bc5fa1446225eba94"
+RPM_NAME = "texlive-collcell-2023.209.0.0.5svn64967-54.1.noarch.rpm"
+RPM_HASH = "6ec5d4bb734a819c717e75bdcd194f40c9fcd29917642a6385c8e1176b7007781edd38778ae226bf8ac96a71898ebb0b6857fce8fcd1e6f47bd3148c368c5238"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-collcell.sty \

@@ -5,10 +5,10 @@ might be useful, an important one being to help the creation of \
 large-format conference posters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.10.1svn63967"
+PV = "2023.209.1.10.1svn63967"
 
-RPM_NAME = "texlive-textpos-2023.201.1.10.1svn63967-54.1.noarch.rpm"
-RPM_HASH = "34e7e145b8afa511e2955839925fdca0bfbc1ed8575d4f798b4ff071101ae27de673ec0f56debb88c718ada440534263b34ef58018f9bb3cfb3cc0b4c5f698b2"
+RPM_NAME = "texlive-textpos-2023.209.1.10.1svn63967-55.1.noarch.rpm"
+RPM_HASH = "60590b81b2c6ff1edc34079edaa9349dfea11def8b76aef5712ca651b2171b15021806a1324f026ce9b5957b967dbc6aed27d750c1a6f790d66e49d9d93233d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-textpos.sty \

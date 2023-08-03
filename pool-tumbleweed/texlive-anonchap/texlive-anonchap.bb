@@ -6,10 +6,10 @@ alter). The \\restorechapter command restores the status quo \
 ante."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1asvn17049"
+PV = "2023.209.1.1asvn17049"
 
-RPM_NAME = "texlive-anonchap-2023.201.1.1asvn17049-54.1.noarch.rpm"
-RPM_HASH = "77e47eff34ff0903b0fc792ecc754fe0e64da992ae2f656f4d5f2f5c2bb71c8d2d82dcc57fab11bf7b7bc8d55b551783fce36d0386d8ef0cb7ff93d565abe4b9"
+RPM_NAME = "texlive-anonchap-2023.209.1.1asvn17049-55.1.noarch.rpm"
+RPM_HASH = "019f6bc6a91e111b242a935ae465a70ccfb1ff52e3df271134e35d018b77123e870904163a32a2df22c8f26dd13f118dd5edcc0391fe5f6791d246f0aead714d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-anonchap.sty \

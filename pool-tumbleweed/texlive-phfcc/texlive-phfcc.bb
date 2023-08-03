@@ -10,10 +10,10 @@ default, and the appearance of all comments is highly \
 customizable."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn60731"
+PV = "2023.209.2.0svn60731"
 
-RPM_NAME = "texlive-phfcc-2023.201.2.0svn60731-51.1.noarch.rpm"
-RPM_HASH = "48517ac1cad79209e18d26c49aef29cc7c38d94a2584108d46b4024742e0e7396e3fc3869e414c30a0d9f3c5379b60e57688db6d54bd809797d6e5cca38f9c98"
+RPM_NAME = "texlive-phfcc-2023.209.2.0svn60731-52.1.noarch.rpm"
+RPM_HASH = "6050456a64cad60ee635f0e38df4fa3237ae410c428f547043eb840665c18347c488c250501ebc6739f46ad0c8acd9749c46968286b678a3ce72562b9ef57685"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-phfcc.sty \

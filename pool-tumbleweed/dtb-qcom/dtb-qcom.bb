@@ -2,10 +2,10 @@ SUMMARY = "Qualcomm based arm64 systems"
 DESCRIPTION = "Device Tree files for Qualcomm based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.3"
+PV = "6.4.6"
 
-RPM_NAME = "dtb-qcom-6.4.3-1.1.aarch64.rpm"
-RPM_HASH = "8b111021c18ac6e09e04e43587adfd0dd0888fdadf06171aeca27e4dc8cc6130c8a2d572f3d9e3ec20b0abcad0bdc70b24847292a49e1c18f9be28d98660a739"
+RPM_NAME = "dtb-qcom-6.4.6-1.1.aarch64.rpm"
+RPM_HASH = "7966d2216845ce42893af50135e4127b769d918f66344ae086c6f836f5cb14136672067c6421073c04678056db5ecfcc7b6164addebbbd73481fbdb23beae99c"
 
 RPROVIDES:${PN} += "dtb-qcom \
 multiversion-dtb"

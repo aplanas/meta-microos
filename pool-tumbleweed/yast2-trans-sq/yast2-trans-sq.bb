@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Albanian Translations"
 DESCRIPTION = "YaST2 - Translations for Albanian."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230714.966688ddd0"
+PV = "84.87.20230729.64eca7e0a1"
 
-RPM_NAME = "yast2-trans-sq-84.87.20230714.966688ddd0-1.1.noarch.rpm"
-RPM_HASH = "b676050f12330383c128e78468ad42fea5bc8f31a2ef4f68039a92d4800b0285a80367b7f533215dc92fbd5dbc20bef47c7df9e0551ed4e5ebf7c53d8777babc"
+RPM_NAME = "yast2-trans-sq-84.87.20230729.64eca7e0a1-1.1.noarch.rpm"
+RPM_HASH = "d43095fb6faaaeab7cfa0f47fc9c7937652ed0e36324c0f630d52c814f686708926c9a50d378a9c932cf2d2f886bcb177d75f180fb7965ee8d4b92e7cd28bacf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-sq \

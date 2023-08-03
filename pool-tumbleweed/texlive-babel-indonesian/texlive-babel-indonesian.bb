@@ -2,10 +2,10 @@ SUMMARY = "Support for Indonesian within babel"
 DESCRIPTION = "This is the babel style for Indonesian."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0msvn43235"
+PV = "2023.209.1.0msvn43235"
 
-RPM_NAME = "texlive-babel-indonesian-2023.201.1.0msvn43235-53.1.noarch.rpm"
-RPM_HASH = "0f08e5e7df5fb7003cdbbb6556b480eda84062f96e4699913b00cded4551d97cf32b8d0c003d431dcd3a395b982b704290a225bdf20abc39dff598599dab74d9"
+RPM_NAME = "texlive-babel-indonesian-2023.209.1.0msvn43235-54.1.noarch.rpm"
+RPM_HASH = "7a74dcc9b6b978e864c55001886b336c34679a01684b51f292e5eb4519aca5b458be425687ae5c341ecb676dd2a880421f9adb02591f82376edf21b43645aa81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bahasa.ldf \

@@ -9,10 +9,10 @@ for alternatives, etc. The charts are drawn using the picture \
 environment (using pict2e for preference)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.3c_0_g7d3fc5bsvn47931"
+PV = "2023.209.2.3c_0_g7d3fc5bsvn47931"
 
-RPM_NAME = "texlive-struktex-2023.201.2.3c_0_g7d3fc5bsvn47931-57.1.noarch.rpm"
-RPM_HASH = "af93d9f3c0cee0d2feccf1d234b83eb5c4246b518144fe40f9fb9c16841d74bccb04364864d864376309e45c1d25b196c16745d84ce5f7a60486687a3fdad965"
+RPM_NAME = "texlive-struktex-2023.209.2.3c_0_g7d3fc5bsvn47931-58.1.noarch.rpm"
+RPM_HASH = "9d96d3f4aac94b9f7c9647ca784963a034cd7877b7edb0fc6e6ee8b87a94b564b2e05715f50cb2b2b680bdfc688f1242cda94c30a2d5c7d818a27aefb7344049"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-strukdoc.sty \

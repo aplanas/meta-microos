@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-nfssext-cfr"
 DESCRIPTION = "This package includes the documentation for texlive-nfssext-cfr"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn43640"
+PV = "2023.209.svn43640"
 
-RPM_NAME = "texlive-nfssext-cfr-doc-2023.201.svn43640-54.1.noarch.rpm"
-RPM_HASH = "ffd47a22192fa6691c12521600a1ece52b6f15144e7fa5b244f549ee99f68f7027b62199a38107b6428b07048c2a1ed1b492998fbcc7f39519ff9eda6d5b797e"
+RPM_NAME = "texlive-nfssext-cfr-doc-2023.209.svn43640-55.1.noarch.rpm"
+RPM_HASH = "ab30847928d289ad054af1c8e63248ba41a89c5b3a0064fc9028f615dbfc3e6971631dc99a7b2e7051e2364e5eecb9412230f4a24267ff400ed9cab9c0523808"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nfssext-cfr-doc"

@@ -8,10 +8,10 @@ provides a function to add kenten (emphasis marks) to Japanese \
 text."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3esvn66298"
+PV = "2023.209.1.3esvn66298"
 
-RPM_NAME = "texlive-pxrubrica-2023.201.1.3esvn66298-53.2.noarch.rpm"
-RPM_HASH = "997ae1ecd658a4d281345b8f248d9f5b9eaef3659dfd157f2770d92b87544e852555a4fdd249b76fdfb0f454ebf8e48686c2182250f7b4ce609af391ab71f46f"
+RPM_NAME = "texlive-pxrubrica-2023.209.1.3esvn66298-54.1.noarch.rpm"
+RPM_HASH = "7fb9588792fcfa8f4567ed145bf4338578a846fd8fe78415fb093622c061dbd497674bccc484a21d994398299e7f5a914a42467ac7e4d7c33104b59c1fce208e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pxrubrica.sty \

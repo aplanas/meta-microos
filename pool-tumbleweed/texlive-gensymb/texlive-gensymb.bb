@@ -12,10 +12,10 @@ used to be part of the was bundle, but has now become a package \
 in its own right."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.2svn64740"
+PV = "2023.209.1.0.2svn64740"
 
-RPM_NAME = "texlive-gensymb-2023.201.1.0.2svn64740-52.1.noarch.rpm"
-RPM_HASH = "dd9c1df24ba019bb746a97448fc21b926e619b2515d3c7db3b44829bbeb8bf2aa0497aa8072814e2577ffb254c192a899cc392f40214ee5ae1734792bc875894"
+RPM_NAME = "texlive-gensymb-2023.209.1.0.2svn64740-53.1.noarch.rpm"
+RPM_HASH = "11f921a7bc5e71faba563ed436d46c4a5256aadcf69ff4a57c207f74bebd8ff372a45f2df0e52e3d6db800a9a4bc0e781d6b079a6d1cf64db0aeb1726b9676db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gensymb.sty \

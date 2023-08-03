@@ -8,10 +8,10 @@ the displayed text can be redefined by invoking commands or \
 editing."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.32svn61697"
+PV = "2023.209.4.32svn61697"
 
-RPM_NAME = "texlive-factura-2023.201.4.32svn61697-52.1.noarch.rpm"
-RPM_HASH = "bab7f6b1867ef8af8f06d5c007ffa65f4438a2e6964f4331f81ac4b0723173500791387573ba58efdb1a2610dedf96ace40853259c4609393857665593a71e41"
+RPM_NAME = "texlive-factura-2023.209.4.32svn61697-53.1.noarch.rpm"
+RPM_HASH = "1a754b42071fc38632fb145a2d242b49ef29bd3b25c95b0320a4dec2f2ad4d66095b20089202f24a5a9818fd96f823450354c1010afb8659235c443ba05e0362"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-factura.cls \

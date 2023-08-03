@@ -6,10 +6,10 @@ available. The package may be used either with LaTeX or with \
 plain TeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.19svn53051"
+PV = "2023.209.1.19svn53051"
 
-RPM_NAME = "texlive-atbegshi-2023.201.1.19svn53051-53.1.noarch.rpm"
-RPM_HASH = "c2ee838afef30bb0bb4425b14990ea74e27220ae0e1e94cdc498a98ee15ac5dbbd14e4392407edc363d199b30bd1c6915233b718a8f01e38b7dbd4206136afb9"
+RPM_NAME = "texlive-atbegshi-2023.209.1.19svn53051-54.1.noarch.rpm"
+RPM_HASH = "f29d30a705ab37e1ef52754284902a1b2b14476ede3c4aabcaaa4afac7f6afe8d457aa7dbad07973a713c3fba81151226a28a5e995dcbcab1f4bce019f4ddccc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-atbegshi.sty \

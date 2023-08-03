@@ -13,10 +13,10 @@ options to ucalgmthesis, in particular 12pt to select 12 point \
 type (11 point is the default)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn52527"
+PV = "2023.209.svn52527"
 
-RPM_NAME = "texlive-ucalgmthesis-2023.201.svn52527-52.1.noarch.rpm"
-RPM_HASH = "60b1dd10304cd3ea30a4409a7b97e9b5b3c07986c1d3f95b4030ac93f82a4ff8dc5d60e420c7bd05a6e1c639f9bce7e709b4320972e92c23ad592224ccb8eb2e"
+RPM_NAME = "texlive-ucalgmthesis-2023.209.svn52527-53.1.noarch.rpm"
+RPM_HASH = "75b2ae62fc2bc7ba3fc71f694f4407aae2c4a3c755ecb0aee47dcf44819f849cf17442e4821b8d2adc9e4027f81848311f7625b9faba5218067fcf418fbec63c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ucalgmthesis.cls \

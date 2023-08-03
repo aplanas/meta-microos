@@ -5,10 +5,10 @@ idioms. It also supports the labelling of compounds and \
 reference to labelled compounds."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn45120"
+PV = "2023.209.1.1svn45120"
 
-RPM_NAME = "texlive-bpchem-2023.201.1.1svn45120-52.1.noarch.rpm"
-RPM_HASH = "be08ec5dc59ac3bd963844ec7e4eb255ec233b394d836f6a7939dd9d556c97ad98b5ba32b61b5da23485be8059587d5ac0e99e58cb0b98726319f684c5a5a80c"
+RPM_NAME = "texlive-bpchem-2023.209.1.1svn45120-53.1.noarch.rpm"
+RPM_HASH = "dd95fbfa6d854fe2666833bba07c2a2949a9a5b6fb1441fc4a785eb97cc19769f239d865e75b8283dd5a886af46f027e3b02cc8dde7bd6ebf4cf253379c100ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bpchem.sty \

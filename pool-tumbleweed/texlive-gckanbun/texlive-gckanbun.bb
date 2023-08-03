@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a Kanbun (Han Wen , 'Chinese writing') \
 typesetting for (u)pLaTeX and LuaLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn61719"
+PV = "2023.209.1.2svn61719"
 
-RPM_NAME = "texlive-gckanbun-2023.201.1.2svn61719-52.1.noarch.rpm"
-RPM_HASH = "3297935c41d003fd2bf54ea14f0704593eb3f76869ecfab3d97c612607d522503db81c3b7a811e971c056b0e9d9ee726bf8f0d9b87e0536eeb4b9cf7c95b2a47"
+RPM_NAME = "texlive-gckanbun-2023.209.1.2svn61719-53.1.noarch.rpm"
+RPM_HASH = "85992244c7ff8a87accc471fec69357735656cbe1913ed8ef608354339e0a90c99aad9b1dd3fd025450af9081fd1cbbd13905e56f6392899db5da023bfe01408"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gckanbun.sty \

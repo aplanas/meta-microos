@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-semantic"
 DESCRIPTION = "This package includes the documentation for texlive-semantic"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn15878"
+PV = "2023.209.2.0svn15878"
 
-RPM_NAME = "texlive-semantic-doc-2023.201.2.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "071fff431fa05437fa82e7e4825ccd6d10e9972da8aecbb31710b83f9978a648f0844c5438f36fbc58ed92cff1d917b44e0c68acbd5c2ea380980d67aa894d32"
+RPM_NAME = "texlive-semantic-doc-2023.209.2.0svn15878-54.1.noarch.rpm"
+RPM_HASH = "13b5dced7c08e93ac6f7a83fd30e22bfd0e2838fc3df38c4bc5ac057de5fcb25fbaa51390661288c2b8a461b54cc505c958f44a77afb501631eb60dc3b691dee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-semantic-doc"

@@ -7,10 +7,10 @@ future versions of the house style of the University of \
 Antwerp."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.4svn64165"
+PV = "2023.209.4.4svn64165"
 
-RPM_NAME = "texlive-uantwerpendocs-2023.201.4.4svn64165-52.1.noarch.rpm"
-RPM_HASH = "6cd2f7369d57366378ee08ed8f64599c327953c464ac564fb08ba1ed4ea411b45517c2fca0b175920cbb446e1fca12baf4a13adedbad1e9e0249dae6ee348438"
+RPM_NAME = "texlive-uantwerpendocs-2023.209.4.4svn64165-53.1.noarch.rpm"
+RPM_HASH = "779264f8d82d66df2a96119a4d03f64bcf08b345828fc573c30ca4cd358e07cc37745129351b8386f6b4a41ffb1f832de238504136cecf92f3d39ff86b01127a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemeuantwerpen.sty \

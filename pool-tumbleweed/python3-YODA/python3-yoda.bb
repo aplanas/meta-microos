@@ -6,18 +6,18 @@ system for MC event generator validation analyses. \
 This package provides the python binidings for YODA."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.9.7"
+PV = "1.9.8"
 
-RPM_NAME = "python3-YODA-1.9.7-1.4.aarch64.rpm"
-RPM_HASH = "05aacbf8ff8c0610f665d854af2f4e1edc83d784c713a5b49029fca239ef7173c477d9e52238ca93e30c35e5b19d39f867f602f423642abee447717aef130090"
+RPM_NAME = "python3-YODA-1.9.8-1.1.aarch64.rpm"
+RPM_HASH = "1a1fd416c951b9c77c2583c6c1c89e4fd8c7a6e743aa74ebabc62027175d66ab8b0146e35269cab07f7cc4bfa3c481b98d192bac94e661142089c6a1ea3585a9"
 
 RPROVIDES:${PN} += "python-YODA \
 python3-YODA"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1 \
-libYODA-1-9-7 \
-libYODA-1.9.7.so \
+libYODA-1-9-8 \
+libYODA-1.9.8.so \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

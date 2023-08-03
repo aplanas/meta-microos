@@ -11,10 +11,10 @@ garamondx package, thus offering a garamond-alike \
 text-with-maths combination."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.71svn62369"
+PV = "2023.209.1.71svn62369"
 
-RPM_NAME = "texlive-newtx-2023.201.1.71svn62369-54.1.noarch.rpm"
-RPM_HASH = "045d2201b67000419aa284d97f163e0d3ab275bc2c7a57849489c148a2ba75ddd5eb6d71ce75d7491da07e7cf0f042cc3e90ee74037d0168c906b085779753b6"
+RPM_NAME = "texlive-newtx-2023.209.1.71svn62369-55.1.noarch.rpm"
+RPM_HASH = "f955a7b9ce7438e6f19463c72dd069b85ed1458d38c505161c7bd04fed679179ec07e209d2acb22de901cc30c506c097869aa2bde8ec516f7694374dc559b4b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Libertine-nu.tfm \

@@ -8,10 +8,10 @@ looks for thought-through verbatim facilities is advised to \
 consider using the fancyvrb package in place of moreverb."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.3asvn22126"
+PV = "2023.209.2.3asvn22126"
 
-RPM_NAME = "texlive-moreverb-2023.201.2.3asvn22126-54.1.noarch.rpm"
-RPM_HASH = "e201cac09f3272cd3917dd1ec66d9f1fa2b3dfe2b51172294859bcf0fb9e318c8774b52bf73c97d2b251f2a3e9db3a17ccedb35dcd066ac569f13c280f463e45"
+RPM_NAME = "texlive-moreverb-2023.209.2.3asvn22126-55.1.noarch.rpm"
+RPM_HASH = "14c2d0fb27826f222b3a3b4131a40a26f014db4c99dc96ba627b605568f77dbb18848dd531c440f9f04ce3a82a5982eb38f13990d3ad247e893f0d6c4aaa295a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-moreverb.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-unizgklasa"
 DESCRIPTION = "This package includes the documentation for texlive-unizgklasa"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn51647"
+PV = "2023.209.1.0svn51647"
 
-RPM_NAME = "texlive-unizgklasa-doc-2023.201.1.0svn51647-53.1.noarch.rpm"
-RPM_HASH = "04801049d7870f29e471c9082280b2772978e627540384810df554ff203c1f8696bb9f30d1eeafb2d3b4e6ea026f36f94e08f5a39400a58e59392cf8e67bfd77"
+RPM_NAME = "texlive-unizgklasa-doc-2023.209.1.0svn51647-54.1.noarch.rpm"
+RPM_HASH = "eeec5f8ec48ccb346bcc16a869d1b4cf4489eef2f97d607007339975ad14d6e537b5f2d551c83f094a112e9fcc2aae702244a7a67b5f7d6893fcb2f8c1815633"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-unizgklasa-doc-hr \

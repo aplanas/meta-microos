@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fast-diagram"
 DESCRIPTION = "This package includes the documentation for texlive-fast-diagram"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn29264"
+PV = "2023.209.1.1svn29264"
 
-RPM_NAME = "texlive-fast-diagram-doc-2023.201.1.1svn29264-52.1.noarch.rpm"
-RPM_HASH = "9000899388658069e1cae09e1dd862c806a5fe6715977af14963d5470bade3e417dc1d586a17236c0df6d78a8c8a3ea70f4a697fde10438824f0da915ab8b0f4"
+RPM_NAME = "texlive-fast-diagram-doc-2023.209.1.1svn29264-53.1.noarch.rpm"
+RPM_HASH = "473b6aa0dcc1f1121297c08e261f04920cb11997a4296f8e397379e384daa549eab7efa90741810398bcbcba29d597edd7bd94c5f63c75e9425fb7bb631d1c15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-fast-diagram-doc-fr \

@@ -10,10 +10,10 @@ either is in use in the document. (Additional languages from \
 the multilingual packages may be possible: ask the author.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.12svn61896"
+PV = "2023.209.1.12svn61896"
 
-RPM_NAME = "texlive-translations-2023.201.1.12svn61896-52.1.noarch.rpm"
-RPM_HASH = "7748548065380da2af72787ca7dec21def8e455ae1caef5adf6681a03e56080d4456968f84624d83ee09e361a07f324af11e66e62d6edda5d94be6bbddd217d9"
+RPM_NAME = "texlive-translations-2023.209.1.12svn61896-53.1.noarch.rpm"
+RPM_HASH = "f892a9fe66cb94b2c9276e283c631a0f9da6e4d7053829abbae9396f53631a64b2e282f6c7ea4827877f5a28765664b81901f502cc1078fa172fd36044c60557"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-translations.sty \

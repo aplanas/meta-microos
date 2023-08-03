@@ -9,10 +9,10 @@ soul package from Melchior Franz and the soulutf8 package from \
 Heiko Oberdiek and supports also UTF8."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.0svn65908"
+PV = "2023.209.3.0svn65908"
 
-RPM_NAME = "texlive-soul-2023.201.3.0svn65908-57.1.noarch.rpm"
-RPM_HASH = "0e9ee86e7e81e846b074cb22f67c07ed1e1e7856be73cf26ecc061f7bcbb67dc5c4c2db5900f372c48d6a3ffb010b9d4016e9e8914019f8ad0ccd9551616595c"
+RPM_NAME = "texlive-soul-2023.209.3.0svn65908-58.1.noarch.rpm"
+RPM_HASH = "2ee5c2a87e2a5a72fee26c17c4b87236a9102649aa3da1bbb7287dccdcce9573119d75cc9e0622252aa6ae0538939bea9d61e7fef6cbfb50e434bd8bd5acc385"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-soul-ori.sty \

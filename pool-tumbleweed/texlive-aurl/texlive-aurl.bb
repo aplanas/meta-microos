@@ -5,10 +5,10 @@ package provides the correct hyperlinks for those URLs. The \
 1000 most common prefixes are predefined and more can be added."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn41853"
+PV = "2023.209.svn41853"
 
-RPM_NAME = "texlive-aurl-2023.201.svn41853-53.1.noarch.rpm"
-RPM_HASH = "35ac003cbf9aa2bc0015345bc94cac2a71385eb98498e9e55a71bb445e8067ee4e7fc8d819b85e0b280ae39d5ff3dd3538d51889963ee0f00d40c6c309f73be1"
+RPM_NAME = "texlive-aurl-2023.209.svn41853-54.1.noarch.rpm"
+RPM_HASH = "0636c3118682a5006c908df280258adf799177b5b584181e2fce8b1b45c5791ed537d82a1303fa2582ffdc85e1fa0071df033604a270f6cf28df9621ae179ad5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-aurl.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cbcoptic"
 DESCRIPTION = "This package includes the documentation for texlive-cbcoptic"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn16666"
+PV = "2023.209.0.0.2svn16666"
 
-RPM_NAME = "texlive-cbcoptic-doc-2023.201.0.0.2svn16666-52.1.noarch.rpm"
-RPM_HASH = "3c3df60be6b9c0c753d918d03fba00ecc8aba6f85582a5ac094d6c1e40f790eda5dbdac32cad33c6ef7918e61b5271bac0bb748f2fd5d08f75a698bdb77444d4"
+RPM_NAME = "texlive-cbcoptic-doc-2023.209.0.0.2svn16666-53.1.noarch.rpm"
+RPM_HASH = "b55f6a7a59761ac4d7b07a8e28ff15f66e26bd44e150f7ff4a1e3050fe7d4d3d8e0e3a817c58f634d69b254479e9ac1a7e864fae9db56b2a8a99e3dfe340ba43"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cbcoptic-doc"

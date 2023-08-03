@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-chemschemex"
 DESCRIPTION = "This package includes the documentation for texlive-chemschemex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn46723"
+PV = "2023.209.1.2svn46723"
 
-RPM_NAME = "texlive-chemschemex-doc-2023.201.1.2svn46723-53.1.noarch.rpm"
-RPM_HASH = "eae8b650737eee39a32a49a7bffb8b93a2d54cdfb060a8680ad453fba5616003ab5d349d3804ea4e1dedd4f719c37911925b35ee6d19a5ddc2e6d3c5e82acb61"
+RPM_NAME = "texlive-chemschemex-doc-2023.209.1.2svn46723-54.1.noarch.rpm"
+RPM_HASH = "d5b0c086e9a3c8114e3a5fcb7021e77195ed46733531a70246e12ba50d951d98ba4d52ea56a4881d48f15d0bc623edec02d18e9fe6106afde54a918355211135"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chemschemex-doc"

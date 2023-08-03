@@ -2,10 +2,10 @@ SUMMARY = "Zabbix proxy with SQLite support"
 DESCRIPTION = "The Zabbix proxy compiled with SQLite support."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.0.17"
+PV = "6.0.19"
 
-RPM_NAME = "zabbix-proxy-sqlite-6.0.17-1.2.aarch64.rpm"
-RPM_HASH = "bd8ba4ece3349b7630904b4ff093577ccc5774b87ad0b54676a38b1c0759a2f50e6a9145868c101cb1efcdc17702f503b6139d76be6d0d6c1e345c28cd50b552"
+RPM_NAME = "zabbix-proxy-sqlite-6.0.19-1.1.aarch64.rpm"
+RPM_HASH = "7c738f45cfd7dd2971fa4e61a1b50acf108a737f4d66e63329c3871b55af914872f18ef16358fc7446ba61a25eab49a0146ee233de081c28601f34c4530daa40"
 
 RPROVIDES:${PN} += "zabbix \
 zabbix-proxy-binary \

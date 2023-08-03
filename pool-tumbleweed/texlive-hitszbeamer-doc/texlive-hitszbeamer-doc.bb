@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hitszbeamer"
 DESCRIPTION = "This package includes the documentation for texlive-hitszbeamer"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.0svn54381"
+PV = "2023.209.1.0.0svn54381"
 
-RPM_NAME = "texlive-hitszbeamer-doc-2023.201.1.0.0svn54381-53.2.noarch.rpm"
-RPM_HASH = "85cc9e976d337f0db9e868d5424abe24781ba98bc22b593e3c76466f95ea26ad23881c1209a82e6d4b85732eed29ab83db83bcb7ef3bf07c7d78496345fa3c5d"
+RPM_NAME = "texlive-hitszbeamer-doc-2023.209.1.0.0svn54381-54.1.noarch.rpm"
+RPM_HASH = "e3e6823d0a4406a307166cd12c03dc3f208c5cd305cee8acb2c2e2f11b2390e97b87ce6154194741d9ede92d184a4468ac0ce6991b22fccb6f6e387ac5b0cbab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-hitszbeamer-doc-zh \

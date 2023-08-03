@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5.0"
 
-RPM_NAME = "python310-pandocfilters-1.5.0-1.5.noarch.rpm"
-RPM_HASH = "348170e87b4f1f3e1ef725a7b5f18b42ad83c376b2ef1e85260a0e16018c3bbfb7e638094c0f53e4b921c2301ab068e763a46c224b8e0495117e118c97763d04"
+RPM_NAME = "python310-pandocfilters-1.5.0-2.1.noarch.rpm"
+RPM_HASH = "80f33eba696d99ab3ec18dc1dd21800c3604e7e7e9f619a917e3d26193a420f7e2ba7a9c4c0836676bf1e8b017532177082bde7b1db6c859e6b184f21b12c3f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-pandocfilters \

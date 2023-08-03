@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-eurosym"
 DESCRIPTION = "The  separated fonts package for texlive-eurosym"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4_subrfixsvn17265"
+PV = "2023.209.1.4_subrfixsvn17265"
 
-RPM_NAME = "texlive-eurosym-fonts-2023.201.1.4_subrfixsvn17265-52.1.noarch.rpm"
-RPM_HASH = "d0b1870572a5a9b1bce6d908d313a790251be631977948d89a8078c57a2df3a387619dcd3d0ba6de952a22cad51dae0b44ab9b7b93c71ad2bad4cfa5ef80adc5"
+RPM_NAME = "texlive-eurosym-fonts-2023.209.1.4_subrfixsvn17265-53.1.noarch.rpm"
+RPM_HASH = "1ed4362bf7925da77bd4aefc057a14e31d5a9ef06c36bf4b73fb3c0ef92a24b11a34ca6d794c61370f6eacad5aef84ddb9a72a5fd150a3f12c77287b0aa01ac2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

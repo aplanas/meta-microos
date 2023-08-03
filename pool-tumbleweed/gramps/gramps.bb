@@ -5,10 +5,10 @@ various people, places and events. All of your research is kept \
 organized, searchable and as precise as you need it to be."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.1.5"
+PV = "5.1.6"
 
-RPM_NAME = "gramps-5.1.5-1.8.noarch.rpm"
-RPM_HASH = "9ebb9880eaa821468e8678e85ba21d9b6c89efac6f11704eeedfcc974a316bf514bd88d5ae785509d4f8d96d2bb8ca591d1979b85a7afb1d2fda3df455ba15dd"
+RPM_NAME = "gramps-5.1.6-1.1.noarch.rpm"
+RPM_HASH = "df00c3466044f4ac090a0ac2163fa80d8186045445fe15d15a4ec16b82ec43eb8045c551080c710d7f5daa65c2c278db38433d48b6f148e8ea968a1693a0bb4f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gramps \

@@ -6,10 +6,10 @@ environment, subtitle and institution commands for the title \
 section and new commands for revisions."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.0lsvn34521"
+PV = "2023.209.1.0lsvn34521"
 
-RPM_NAME = "texlive-paper-2023.201.1.0lsvn34521-51.1.noarch.rpm"
-RPM_HASH = "5a3691a7710b194d378acc13a56fa6b0be967e8c9c65095c7e68cb995e9ac22f5c95c0fcd438f8378710b5469bc374a192c7b20ef92cdb6be290a7ef7be84e4f"
+RPM_NAME = "texlive-paper-2023.209.1.0lsvn34521-52.1.noarch.rpm"
+RPM_HASH = "9d295551b5133502281bd4dd2cc04870b59c995d5ac92cca4213dc028c6f0d105e1a44d375d0da81f4f40664faed49ba42f3625563b64901575f7cbd8059b41e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-journal.cls \

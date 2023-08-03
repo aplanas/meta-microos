@@ -8,13 +8,14 @@ LICENSE = "MIT"
 
 PV = "1.0.128"
 
-RPM_NAME = "debootstrap-1.0.128-1.2.noarch.rpm"
-RPM_HASH = "1ce01c0aa27440693fda5e3ed5d74af1a149274f9f20b848c04b39028e212fb40b3c00a76b11412e02f6fb2f1b568d9dc8b92e7837cb4ddd97cf8036f7c2b7e7"
+RPM_NAME = "debootstrap-1.0.128-2.1.noarch.rpm"
+RPM_HASH = "c782f170b11635c4eb75be335c153c0e3e2d7abbc18ed11163437f23aa7e9aff43d97882a07e1eac05e4ee57fc47c958ae0803fdc3c2e267e10ce760b98d782d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "debootstrap"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+binutils \
 wget"
 
 inherit rpm

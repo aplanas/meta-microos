@@ -4,10 +4,10 @@ This command provides a two column view with the left column containing the list
 and the right column showing the currently selected commit."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "20230630.55521ba"
+PV = "20230725.997a813"
 
-RPM_NAME = "git-fzlog-20230630.55521ba-1.1.noarch.rpm"
-RPM_HASH = "d0bcbf68899eb851401e4cf74bf88db3efc9366a15a96b31dcc246f2a95583b94c8c72ae4964eb85814af648b86181041a97c69fe2cc2ecc5b0ee925005e018c"
+RPM_NAME = "git-fzlog-20230725.997a813-1.1.noarch.rpm"
+RPM_HASH = "7bd47fc936f286e373364085a50bf059c97929ffb01a42f8ad4e4589706cf1a9a89f4da12d34501fb53b12338300e956f3514b691d3e06c1fbb499d83373d9be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-fzlog"

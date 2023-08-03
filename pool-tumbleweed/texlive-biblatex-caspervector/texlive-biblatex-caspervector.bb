@@ -4,10 +4,10 @@ biblography/citation style for Chinese LaTeX users, using \
 BibLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3.6svn64866"
+PV = "2023.209.0.0.3.6svn64866"
 
-RPM_NAME = "texlive-biblatex-caspervector-2023.201.0.0.3.6svn64866-53.1.noarch.rpm"
-RPM_HASH = "7d54db9fb1c3621ffd1971fd861503e56b1ff04659a8478faaa8fde0893de938ff2c930975051cb64db78e54f91b225a31f9ecf76b49c72d14f77f867a60321d"
+RPM_NAME = "texlive-biblatex-caspervector-2023.209.0.0.3.6svn64866-54.1.noarch.rpm"
+RPM_HASH = "2f6c8a31e1e2828f5b53fa0e0fe8b5ea097947a47bee201dc4108c5903499cc463a394323aef34e8b379a64c53786f7537a3f0d510fec354b0129eba389cd932"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-blx-caspervector-base.def \

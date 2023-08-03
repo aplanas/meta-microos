@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ofs"
 DESCRIPTION = "This package includes the documentation for texlive-ofs"
 LICENSE = "SUSE-TeX"
 
-PV = "2023.201.svn16991"
+PV = "2023.209.svn16991"
 
-RPM_NAME = "texlive-ofs-doc-2023.201.svn16991-54.1.noarch.rpm"
-RPM_HASH = "da6f0ec4ce9480ab8cb97cec6300e8a52535f9965ef77815514663b07bb65efe6d150fe9a2e4c2f75ee951953f0cba51f4e1569878db1ed11817e9cd1df7f2e5"
+RPM_NAME = "texlive-ofs-doc-2023.209.svn16991-55.1.noarch.rpm"
+RPM_HASH = "327a28c08861150e23f81ff4fe808b74e05bee8f0a65886dcff907a47b8203538e8ef539ba39ef33dfeec960300d888c4076f539f6b976d00a0a4adf10aa6105"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-ofs-doc-en;cs \

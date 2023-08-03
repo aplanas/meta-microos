@@ -9,10 +9,10 @@ the student's effort on that quiz. The package works for the \
 usual workflows."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn59477"
+PV = "2023.209.svn59477"
 
-RPM_NAME = "texlive-eq-pin2corr-2023.201.svn59477-53.2.noarch.rpm"
-RPM_HASH = "44c1fecac6ad223803607227fda9ad2dc1a3d452b61d30ad2e87752fe1777fe51caf7d392349a575001dee63f0ea51dd7194309cb6b4453e88f241b3c000ad8a"
+RPM_NAME = "texlive-eq-pin2corr-2023.209.svn59477-54.1.noarch.rpm"
+RPM_HASH = "1624cc97fe6df2639bec321939af3bb01588f91de9cfe636b47539f3636d754297898e11c78a851d2cf1b364d4249e44c3bea78796696cfb4c98a42c4726e5ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eq-pin2corr.sty \

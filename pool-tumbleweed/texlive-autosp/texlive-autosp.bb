@@ -10,10 +10,10 @@ other parts. For example, \\anotes\\qa J\\qa K&\\ca l\\qa m\\ca n\\en \
 generates \\Notes\\qa J\\sk\\qa K\\sk&\\ca l\\qa m\\sk\\ca n\\en ."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn58211"
+PV = "2023.209.svn58211"
 
-RPM_NAME = "texlive-autosp-2023.201.svn58211-53.1.noarch.rpm"
-RPM_HASH = "63513be5ef5c198339300298493f5f8a560c0420addda99c48095ec8e2b6bf45c0b5adf46043c0276a586007e59d96af9efd72c448ee9d1bebbc9f44b89c865c"
+RPM_NAME = "texlive-autosp-2023.209.svn58211-54.1.noarch.rpm"
+RPM_HASH = "79d83e307187204e50f1d289e210161109d4cb4908609aac370fbd2919a69db5abb3d25518e50b28117c59aee8e3f7e0a439dd5f3f8c488cac6e4bbe3e2cfaaa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-autosp.1 \

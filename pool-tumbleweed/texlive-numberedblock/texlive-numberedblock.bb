@@ -5,10 +5,10 @@ snippets in your document. In this way, you can (unambiguously) \
 refer to each snippet elsewhere in your document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.10svn33109"
+PV = "2023.209.1.10svn33109"
 
-RPM_NAME = "texlive-numberedblock-2023.201.1.10svn33109-54.1.noarch.rpm"
-RPM_HASH = "a60f542cea190fbfcb83b38837a8f6a0cef4fb9eb8479b48891f48fde05cae736c6fcea19a3d02c45544aacd1a8b64afb4ee16baeee063533e2257146460579a"
+RPM_NAME = "texlive-numberedblock-2023.209.1.10svn33109-55.1.noarch.rpm"
+RPM_HASH = "bf3f76748a4b6c36ca7152caaa52a0a44a3cee27251dc010a7c1c013a01ca721181a14bc42742de8958fd2f3fd061884fbb72cfcc8dabb37ff0f82f76756b74c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-numberedblock.sty \

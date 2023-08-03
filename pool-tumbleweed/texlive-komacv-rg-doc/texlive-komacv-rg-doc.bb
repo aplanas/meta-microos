@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-komacv-rg"
 DESCRIPTION = "This package includes the documentation for texlive-komacv-rg"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.9.2svn49064"
+PV = "2023.209.0.0.9.2svn49064"
 
-RPM_NAME = "texlive-komacv-rg-doc-2023.201.0.0.9.2svn49064-55.1.noarch.rpm"
-RPM_HASH = "aec5e650a4e38fc703bacf2c2618b1dd053876c97d7436bb88bac58cd2bd7df6f85afb7cf6de071e408d0d196d1a660bd7c297a47e25e83a00c2caa83f57b879"
+RPM_NAME = "texlive-komacv-rg-doc-2023.209.0.0.9.2svn49064-56.1.noarch.rpm"
+RPM_HASH = "73c0765fe99170c7874f28750521a2dfde64a37388516d45df6ebe470bf8d72cee1e85d2dd7b0901fe35f71006d37ec9569cb61b88f55d978bc64e665fc0ee0a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-komacv-rg-doc"

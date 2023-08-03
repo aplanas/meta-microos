@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6QuickControls2 tha
 any ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-quickcontrols2-private-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "c22982e78b5969e39c77b7953a10d559f8b764e317f5ad0ba15088ee905a215983273a4f3e11c9b03e743e40208c8e5a52ffdf28f91463584e52b134cc8e76e5"
+RPM_NAME = "qt6-quickcontrols2-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "666ec66c815b2192f8073933693f10f8ba2036ee0f9b78a5a08a36fb87270f94ea021b239271742f8483ef8868d8a12645db6eafcf46203ba30eb3bd6dc07275"
 
 RPROVIDES:${PN} += "qt6-quickcontrols2-private-devel"
 

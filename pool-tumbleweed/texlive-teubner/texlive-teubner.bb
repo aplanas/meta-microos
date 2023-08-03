@@ -8,10 +8,10 @@ Verlaggesellschaft whose Greek text publications are of high \
 quality."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.5.7.3svn64600"
+PV = "2023.209.5.7.3svn64600"
 
-RPM_NAME = "texlive-teubner-2023.201.5.7.3svn64600-54.1.noarch.rpm"
-RPM_HASH = "fc932aa4d85216b308aaf3223f02375904f7af3df19f10a97c4d1b50c67120dc6d5f7d1ede7d1a9e81b9bc56d2c4ce0c17ff10a9d752a8923d910b9e6f448541"
+RPM_NAME = "texlive-teubner-2023.209.5.7.3svn64600-55.1.noarch.rpm"
+RPM_HASH = "7b12de7e0358c415b5206acf577ca6c0d809f6b6578a8204c06309512dfabac22ed7986ac3fa241c9b001c7e477089ae3e947b61a377ffb5283eafc6d960817d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-teubner.sty \

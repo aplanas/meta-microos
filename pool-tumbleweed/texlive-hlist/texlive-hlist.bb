@@ -4,10 +4,10 @@ environment in which \\hitem starts a horizontal and columned \
 item. It depends upon the simplekv package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.11svn44983"
+PV = "2023.209.0.0.11svn44983"
 
-RPM_NAME = "texlive-hlist-2023.201.0.0.11svn44983-53.2.noarch.rpm"
-RPM_HASH = "303842ec2725950e384eaaf0e0b8e45bd9d8c8b280bdcc3a059c3f529dc3ef11e8f89eb338e765eed19532d9766d7fab3148512aba83c54f5c98e8ea63634e1c"
+RPM_NAME = "texlive-hlist-2023.209.0.0.11svn44983-54.1.noarch.rpm"
+RPM_HASH = "39f493018b3f3aae7c9f2648ad0e022a83c6b59d6b86055a3294c6bd7fff798d79e28a8c22bb377212f767f75f72b1bd5cefabf767832e76bc8102c1eb8c35d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hlist.sty \

@@ -4,10 +4,10 @@ figure content on its own page, with the corresponding caption \
 reading for example 'Figure 3 (on next page): <caption>'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn41857"
+PV = "2023.209.1.0svn41857"
 
-RPM_NAME = "texlive-phffullpagefigure-2023.201.1.0svn41857-51.1.noarch.rpm"
-RPM_HASH = "f172d59750b8c684eb5f12c1aa4d70880eaf3102e7e4ed825a8c489b9f20ef4d9b8ffb22d28c51c3b2a5dbbf56b9853afe65635ce7641b87027c5bec73e5578d"
+RPM_NAME = "texlive-phffullpagefigure-2023.209.1.0svn41857-52.1.noarch.rpm"
+RPM_HASH = "cf0dfbfef4f2bc11e8c1208c361bcdecba65b0f33da32031d13940d2b34189ee32433e91603db0380ee2ee2b14cb909fc4013d6a2c2d3351f4e0e7d5cfc109ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-phffullpagefigure.sty \

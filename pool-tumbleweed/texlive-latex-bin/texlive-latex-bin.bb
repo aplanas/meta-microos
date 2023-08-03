@@ -2,10 +2,10 @@ SUMMARY = "LaTeX executables and man pages"
 DESCRIPTION = "The latex-bin package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66186"
+PV = "2023.209.svn66186"
 
-RPM_NAME = "texlive-latex-bin-2023.201.svn66186-55.1.noarch.rpm"
-RPM_HASH = "289a0770c082d8808905674f5c9e30365cbe0301534280a46c20b68f065d2eb548c8c294a0d2aa82d25f62e1a7560202b2e44dc8afbe87c452f47e33c9e188f3"
+RPM_NAME = "texlive-latex-bin-2023.209.svn66186-56.1.noarch.rpm"
+RPM_HASH = "1a165411b09d0859e6f48eccfe177ad4f28766006756f54add8c91bd3af1cc89b1a98a35515cdfe7b39340ad77ebe43addfb8477b8200f314594f31f57fc7b88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-dvilualatex.1 \

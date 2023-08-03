@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xunicode"
 DESCRIPTION = "This package includes the documentation for texlive-xunicode"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.981svn30466"
+PV = "2023.209.0.0.981svn30466"
 
-RPM_NAME = "texlive-xunicode-doc-2023.201.0.0.981svn30466-52.2.noarch.rpm"
-RPM_HASH = "47767eb679bcdbf1daac43b0e515c5e815dd06d55d582eeba07469acd34ba1f2adf501dfa2f694aa68066159d7023711f5c302b353b7fb52ddf00dac251538e4"
+RPM_NAME = "texlive-xunicode-doc-2023.209.0.0.981svn30466-53.1.noarch.rpm"
+RPM_HASH = "17114ee459cd61f7271d822148f8cb48a15462bcc10acca4cee772b980a3a43d7bd5fbd4673298e8fb6620c983be596d9720db1a3a938f3f183d6123aa0d7f30"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xunicode-doc"

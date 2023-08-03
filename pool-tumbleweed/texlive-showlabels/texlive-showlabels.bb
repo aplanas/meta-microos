@@ -7,10 +7,10 @@ obviously useful is the \\cite command, but it's easy to do it \
 for others, such as the \\ref or \\begin commands."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.9.2svn63940"
+PV = "2023.209.1.9.2svn63940"
 
-RPM_NAME = "texlive-showlabels-2023.201.1.9.2svn63940-53.1.noarch.rpm"
-RPM_HASH = "7ebd66bec15339cd03953cc39526018e6b5fd2c73f8fcd69d3bd81e44d244fcec0c5e125f1cca02be917db9153cf6f29e6343dbfdc406bee1c4834aeaa0ba170"
+RPM_NAME = "texlive-showlabels-2023.209.1.9.2svn63940-54.1.noarch.rpm"
+RPM_HASH = "afbe4ace933ffd1361e9accd82af2481107a5d51add2914f5ccf7dfcc4aef4594050e39fda9ad5b8cdd895ace0a01ba22caf8451508305d61cd88e08e7e63e16"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-showlabels.sty \

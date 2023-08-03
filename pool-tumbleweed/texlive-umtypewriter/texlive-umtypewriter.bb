@@ -6,10 +6,10 @@ Modern font family. It contains four OpenType fonts which are \
 required for use of the xgreek package for XeLaTeX."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.1svn64443"
+PV = "2023.209.1.1svn64443"
 
-RPM_NAME = "texlive-umtypewriter-2023.201.1.1svn64443-53.1.noarch.rpm"
-RPM_HASH = "2bd68c2580cf48ce0df3d14bba1a906fed6e077a3cccad147094f095bf5d7551afb2805801b322db7e8ff2f671d9d00165882fa2a8572a165adafe93782047a6"
+RPM_NAME = "texlive-umtypewriter-2023.209.1.1svn64443-54.1.noarch.rpm"
+RPM_HASH = "e0669c2ac6eab3c41d324ca403ac5ca17c910be12f1ed090a07ece01116711a62436a59ea0109f0848dfad15343ba549876b786fcf7b7f869b9c0d731bc94dbd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-umtypewriter"

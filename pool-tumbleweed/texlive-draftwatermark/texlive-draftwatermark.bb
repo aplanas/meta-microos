@@ -13,10 +13,10 @@ everypage package. Note that this legacy version will \
 progressively lag behind in terms of features."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.0svn57099"
+PV = "2023.209.3.0svn57099"
 
-RPM_NAME = "texlive-draftwatermark-2023.201.3.0svn57099-52.1.noarch.rpm"
-RPM_HASH = "133b6b897707825357d9a5957fa04a8fd256cda454e423f03b41f33c3e2093847c44819a3060a1e1b1c557d8690329f018c78dceb74cbfec02217f9e2ad9363c"
+RPM_NAME = "texlive-draftwatermark-2023.209.3.0svn57099-53.1.noarch.rpm"
+RPM_HASH = "abc40b84fee8b2b34840ac9ded4992fd6c31ace97c95f2cd3c4fad2829a1fa4c1ba134e20f95488216b0c4bdc510cc732a7bcdf67cd824b1b3a91d66e79681ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-draftwatermark-2x.sty \

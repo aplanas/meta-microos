@@ -3,10 +3,10 @@ DESCRIPTION = "This module provides the 'romanian' style that can be set using \
 \\DTMsetstyle provided by datetime2.sty."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.02svn56394"
+PV = "2023.209.1.02svn56394"
 
-RPM_NAME = "texlive-datetime2-romanian-2023.201.1.02svn56394-52.1.noarch.rpm"
-RPM_HASH = "f13ec2016cfe71a5426ae18e621356c0c2a284d6c44d73a8219a2d42a63502e01ca393bec640de50709673861bc0a735c86ccfbc41fbcbc6a5acaeb59ae64f5d"
+RPM_NAME = "texlive-datetime2-romanian-2023.209.1.02svn56394-53.1.noarch.rpm"
+RPM_HASH = "57a19c7908c3c801990289048cd589238ba47a25a239ed78846516788b9b5c39a4c12daf9befb14dab38686faa61306d56872c92840f67449d986c05ee2ec6f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-romanian-ascii.ldf \

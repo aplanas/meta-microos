@@ -3,10 +3,10 @@ DESCRIPTION = "A collection of free Thai fonts, supplied as FontForge sources, \
 and with LaTeX .fd files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.7.3svn60817"
+PV = "2023.209.0.0.7.3svn60817"
 
-RPM_NAME = "texlive-fonts-tlwg-2023.201.0.0.7.3svn60817-52.1.noarch.rpm"
-RPM_HASH = "cc3b77e611f7c61c7c28cdc3538a4340b80260f85072b45f14c3367ca14123b9a3f349f739590e605a31b1a3ece83d1483bfbb37f00b315e141ce1b931b269bd"
+RPM_NAME = "texlive-fonts-tlwg-2023.209.0.0.7.3svn60817-53.1.noarch.rpm"
+RPM_HASH = "f73db8b74e15f61c3480397f1b8934dcbce8cd916b8edb8bfe5d5af31e13564cc0ece487947942aaf8198ef83a31fd9b61c05a495526ca0b221f46363690bb3a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fonts-tlwg.sty \

@@ -7,10 +7,10 @@ did when writing the book, and your output will look just like \
 the pseudocode in the text."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.7svn51136"
+PV = "2023.209.1.7svn51136"
 
-RPM_NAME = "texlive-clrscode-2023.201.1.7svn51136-53.1.noarch.rpm"
-RPM_HASH = "d63412e0cab164157a8355e023099fbc3c4324781891a9361e759c8d2a1634538233bce16de6e17f2d3b59f9552093b2368d3d3c29900d4cd545f215b1dba1ae"
+RPM_NAME = "texlive-clrscode-2023.209.1.7svn51136-54.1.noarch.rpm"
+RPM_HASH = "369cde5991a61e88520bb95929aa393c54e48bfe379376b9a0745698148e5d13f554aa58746086b54461a25abac875dbeac7f87883a2c167063db4ce53a023ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-clrscode.sty \

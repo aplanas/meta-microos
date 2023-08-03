@@ -10,10 +10,10 @@ has blank sudoku grids (or worksheets), but you will not need \
 to print them from there if you have this package installed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-sudoku-2023.201.1.0svn15878-57.1.noarch.rpm"
-RPM_HASH = "907f8915d34bd58359a62e165677a7e0af09f836bb0e9e3d042c5f5defa31b12ebf041d7d61ccd65285fed1ede3e055d0fac67c4485ed5edca27789bbb965748"
+RPM_NAME = "texlive-sudoku-2023.209.1.0svn15878-58.1.noarch.rpm"
+RPM_HASH = "896f1026b8e2fa07e610055b4c973f85f5ff226ce78629c9f84f817a024625dacfd0d0ff16698594db3d0d652ecf2bd3f28830420743de7291dd38aab37881f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sudoku.sty \

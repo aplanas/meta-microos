@@ -3,10 +3,10 @@ DESCRIPTION = "The bundle provides Adobe Type 1 versions of the fonts \
 bbding10, dingbat, karta15, umranda and umrandb."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn44671"
+PV = "2023.209.svn44671"
 
-RPM_NAME = "texlive-niceframe-type1-2023.201.svn44671-54.1.noarch.rpm"
-RPM_HASH = "41b6310bb0c655dc3809d42788972c76a2eb5d47fda8299369600a708a7a427105d7680cd461bd0c41b9c767994e57b88a6078265ea99d04c1a926785d4a1cb4"
+RPM_NAME = "texlive-niceframe-type1-2023.209.svn44671-55.1.noarch.rpm"
+RPM_HASH = "fed19eb3ee0b13fbc6b37069d5e686ffc392b3dbcef5b3c94fc8a2343a2da512177ff5a8255eb74829d4ebbaff37fcb270b304f6244a903df44053e7aedabb50"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-niceframe.map \

@@ -7,10 +7,10 @@ package using STIX2 letters (Roman and Greek) with newtxmath \
 symbols."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.035svn60793"
+PV = "2023.209.1.035svn60793"
 
-RPM_NAME = "texlive-stickstoo-2023.201.1.035svn60793-57.1.noarch.rpm"
-RPM_HASH = "3255db2cefd6c23b3fd5c419186443a5ccbdcfe71230978a44b102ff1416dd6182025905e613e567a9837753f3c8cc7b6b35ca8df3dcb2ee29387bca7dbb3862"
+RPM_NAME = "texlive-stickstoo-2023.209.1.035svn60793-58.1.noarch.rpm"
+RPM_HASH = "298667e4ee4beab46910d7d2b204456c67fbff9b2eed7a549f2351788e25f14e85df72d7ce387b167e69af94ac87c7faf8dfd0218f4d5e88bbfbdaca552e5d22"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1SticksTooText-Dnom.fd \

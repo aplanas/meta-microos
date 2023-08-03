@@ -5,10 +5,10 @@ handles ellipses: it always puts a tiny bit more space after \
 ellipsis being off-center when used between two words."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.8svn55418"
+PV = "2023.209.1.8svn55418"
 
-RPM_NAME = "texlive-ellipsis-2023.201.1.8svn55418-53.2.noarch.rpm"
-RPM_HASH = "2e0c91885c312c516da37b71b729b6d81e7499bef4e3ba539be9dea4a09bec7c99c20996cf8f79e892937f58f002d13d3f9494abb4e32949a6563abdcd51edd8"
+RPM_NAME = "texlive-ellipsis-2023.209.1.8svn55418-54.1.noarch.rpm"
+RPM_HASH = "ba75f1fd3497244c980ec45298cea6219210aad486713287bc2d2e68b3f79d8d98c125f94630e914354dcb0ebd4afdd3a829327525f8fa823f8fac2e0a8ef359"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ellipsis.sty \

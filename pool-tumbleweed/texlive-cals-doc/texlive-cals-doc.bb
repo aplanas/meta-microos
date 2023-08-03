@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cals"
 DESCRIPTION = "This package includes the documentation for texlive-cals"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.4.2svn43003"
+PV = "2023.209.2.4.2svn43003"
 
-RPM_NAME = "texlive-cals-doc-2023.201.2.4.2svn43003-52.1.noarch.rpm"
-RPM_HASH = "2b414e626736fd47b653717bc381a5fe717b9a3ef7c4bd5e5cadbeaf5be2ef197aaeb621d9edfa4371057728372b0b48e868dd656bd9f856fe8659df178bc161"
+RPM_NAME = "texlive-cals-doc-2023.209.2.4.2svn43003-53.1.noarch.rpm"
+RPM_HASH = "d8b1bc8ba4d591dd5e42491e833ba687566713e76b369dc403473620d71ffe22cf16ffdd0a1a8e28591c95c37faad8f4637efb3abd8bfc03a6b2f4e2a649e39d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cals-doc"

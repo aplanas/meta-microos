@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-palette"
 DESCRIPTION = "This package includes the documentation for texlive-palette"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.0svn60119"
+PV = "2023.209.1.1.0svn60119"
 
-RPM_NAME = "texlive-palette-doc-2023.201.1.1.0svn60119-51.1.noarch.rpm"
-RPM_HASH = "48de08e97e35b6aee86e84a7449e17ba685c65aaed676258e14931b76b35054fb63ccc010e0ea66b2a9c77a96f042c41257b2451f517d2602035e5581758dc81"
+RPM_NAME = "texlive-palette-doc-2023.209.1.1.0svn60119-52.1.noarch.rpm"
+RPM_HASH = "3c2954ec2d1cf926c3657fd4b0de885b4949d4f0e6eaa1f7f2bd9c121ec8b3e0dc0b53b874f61c4a42663143705e32203ca73abbc3a2f4f4f8a1806b80649b91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-palette-doc"

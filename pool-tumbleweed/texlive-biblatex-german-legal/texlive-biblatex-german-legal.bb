@@ -9,10 +9,10 @@ deutschen Rechtswissenschaften ausgerichteten Zitierstil namens \
 german-legal-book."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.003svn66461"
+PV = "2023.209.003svn66461"
 
-RPM_NAME = "texlive-biblatex-german-legal-2023.201.003svn66461-53.1.noarch.rpm"
-RPM_HASH = "8ba9c2fe2bfbc42841581f264fedb3b8890b4ed235c4b7e27877b79d70b493af83fee6f2c8a3eeeb050dfc9057aac4e018b7c9faf9afc0f8f0039195a5f54dbc"
+RPM_NAME = "texlive-biblatex-german-legal-2023.209.003svn66461-54.1.noarch.rpm"
+RPM_HASH = "b75c4c7ec0e63239991ba3b51ed297d7687c23ece54c4850167d4e741d365b5e9496cad3e49a174ffe11857045fac7db5def3bd9dc4e4a216d0783a4b97906ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-german-legal-book.bbx \

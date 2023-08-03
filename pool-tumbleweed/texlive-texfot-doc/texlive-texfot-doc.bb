@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-texfot"
 DESCRIPTION = "This package includes the documentation for texlive-texfot"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.48svn65545"
+PV = "2023.209.1.48svn65545"
 
-RPM_NAME = "texlive-texfot-doc-2023.201.1.48svn65545-54.1.noarch.rpm"
-RPM_HASH = "30567a8a5a207344f9b95aa970a8e8258e47566708acd97dd8c9ba22786e654cdfe42c16fcb3a09535601ff755108f249b6f2966514d9118a52c62c258fb7935"
+RPM_NAME = "texlive-texfot-doc-2023.209.1.48svn65545-55.1.noarch.rpm"
+RPM_HASH = "0bfb8740ef2b6cdb3361b9d3750acb69e62f7cc76c96ef02584dced842f9bb3150fe4d64c33c3db4d352d9050e684a64ecaadf7fd262cfab1f262f8df6a8cb5d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-texfot.1 \

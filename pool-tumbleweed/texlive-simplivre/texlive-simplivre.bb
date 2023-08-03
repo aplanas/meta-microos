@@ -10,10 +10,10 @@ package name 'simplivre' is taken from the French words \
 'simple' and 'livre' (= 'book')."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65475"
+PV = "2023.209.svn65475"
 
-RPM_NAME = "texlive-simplivre-2023.201.svn65475-57.1.noarch.rpm"
-RPM_HASH = "c4e3f4f53601da9298db31d7b172bc14a8eeb0ceb0b0a4ad81dc1eb066a1fe4d9485902b4cab14dc2acaa5e770ca87383aa60be04f8521fa24bc12459fd4ef44"
+RPM_NAME = "texlive-simplivre-2023.209.svn65475-58.1.noarch.rpm"
+RPM_HASH = "c3aa7585ab5c8e70764c6d0cfc4e3883971735db17642c3bc7ff789f68fb1e835d92cb6c6f838acd0ec2de8894f0030b2b4c7c992d9f02a0bc109ec74778a4ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-simplivre.cls \

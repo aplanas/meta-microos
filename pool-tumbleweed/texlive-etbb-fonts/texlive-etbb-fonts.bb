@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-etbb"
 DESCRIPTION = "The  separated fonts package for texlive-etbb"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.056svn61872"
+PV = "2023.209.1.056svn61872"
 
-RPM_NAME = "texlive-etbb-fonts-2023.201.1.056svn61872-52.1.noarch.rpm"
-RPM_HASH = "a6e743e34cc325434b55d15bb27d208339c1abfc215b107b84d27ce7fc57e18ef652c303035390deb902e8f3f76cd099b627b797c9180366e41d155b8fb2c639"
+RPM_NAME = "texlive-etbb-fonts-2023.209.1.056svn61872-53.1.noarch.rpm"
+RPM_HASH = "d48e97a46a57cc6efd50660e14af80ef585ba312cd7d37f1b02c55f753832b0b94ed149fec2693bd5218fadf4bf83ce919b5a78ed85cc3a70ba00241bd8d2b54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-etbb-fonts \

@@ -7,10 +7,10 @@ recommends use of an additional package such as gchords by K. \
 Peeters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6svn32258"
+PV = "2023.209.1.6svn32258"
 
-RPM_NAME = "texlive-guitar-2023.201.1.6svn32258-53.2.noarch.rpm"
-RPM_HASH = "a34cf4de51584200e13aa62659128301a1b9a9b5d693ac163bf9518414d15faaedbac94f4ec5ec3c64c69d4aed78fa0208043f56b5890c9fe43e924d07fb7319"
+RPM_NAME = "texlive-guitar-2023.209.1.6svn32258-54.1.noarch.rpm"
+RPM_HASH = "828087260784ea35ee1c5afc23eb227e8c014bcd08ecbf3cf3c7a67b19a9247679a03268ca89ef7311f8895d4da9af838f447a85fecfcfcf4f9d1629c8e59f76"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-guitar.sty \

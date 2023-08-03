@@ -5,10 +5,10 @@ variations table of a function and a convexity table of its \
 graph."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn41849"
+PV = "2023.209.1.1svn41849"
 
-RPM_NAME = "texlive-table-fct-2023.201.1.1svn41849-57.1.noarch.rpm"
-RPM_HASH = "2e9a17221b87cad257f37ab0c6556d27614cc3233f7aade125e81793dec9f0df5bcfd17227eba37ea445895568a0f9701a7e405191a18b18835ddfd23f91db39"
+RPM_NAME = "texlive-table-fct-2023.209.1.1svn41849-58.1.noarch.rpm"
+RPM_HASH = "e1689a5d1e8d9daaa1950d6c316dfde870ec5bafe6d4aa23eedf4bc98de1131fd74ec24dc8d118d8a10cbf2beb30b033a57f5cd637773c83132297bb6d2bdc9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-table-fct.sty \

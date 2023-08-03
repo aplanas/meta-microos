@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pdfsync"
 DESCRIPTION = "This package includes the documentation for texlive-pdfsync"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn20373"
+PV = "2023.209.svn20373"
 
-RPM_NAME = "texlive-pdfsync-doc-2023.201.svn20373-51.1.noarch.rpm"
-RPM_HASH = "b14d983abd754b208dc1128c1eb02b743d1c043c4aee931292ff050ee909591a99b2b89c06edd41c17e0e01075b1ce2abcbaede9a74f7ab8622c82f429fc27b1"
+RPM_NAME = "texlive-pdfsync-doc-2023.209.svn20373-52.1.noarch.rpm"
+RPM_HASH = "dd78678377ac8c082515673f8d972c5952c55e36782d2793e40231d2896b32fffe2a93f5e2f8ad9e94c6416befb636c39f398074f6a056ac5a78f09c8dc8349c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdfsync-doc"

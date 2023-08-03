@@ -5,10 +5,10 @@ for linguists with just the essential things that you need to \
 get started."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "2023.201.svn55688"
+PV = "2023.209.svn55688"
 
-RPM_NAME = "texlive-forest-quickstart-2023.201.svn55688-52.1.noarch.rpm"
-RPM_HASH = "9e8926f5e3dd5c9a5e0bf9cd074b23f1609f2127689f2a9a18bd0895bafdf6fd00312210d7f3fb767fe49408db5b0b0b86f2c6132abb067803926d95b502d404"
+RPM_NAME = "texlive-forest-quickstart-2023.209.svn55688-53.1.noarch.rpm"
+RPM_HASH = "f86ec3354b0b6d24fd85352d373a347325f2f72cdb03b34b5f3fa855a1b0021384d55c7eb25542e5802ca006a928f6c11af25e5076e34ab915f31fbeb4fb58e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-forest-quickstart"

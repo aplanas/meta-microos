@@ -6,10 +6,10 @@ The fonts are based on URW Palladio and Iwona Condensed, and \
 were created using FontForge."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn21326"
+PV = "2023.209.svn21326"
 
-RPM_NAME = "texlive-fonetika-2023.201.svn21326-52.1.noarch.rpm"
-RPM_HASH = "cef21743e30ef4f496dae458730dd1a65d8ac9e81a210807b924389b7dad79dfc6c1db980f92e24c62dc07c52580cb7b985e2e8cc4bac486760b6fc05deb1598"
+RPM_NAME = "texlive-fonetika-2023.209.svn21326-53.1.noarch.rpm"
+RPM_HASH = "ef815b48571345d5f7b52e760179f48692d1197a2e7d4437eee2836a09b3c64b58e906c14f727f7a5e06949c2bd77b1288483138574f3c037d28ac4d1a3e527e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fonetika.map \

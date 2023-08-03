@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-uptex-base"
 DESCRIPTION = "This package includes the documentation for texlive-uptex-base"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.svn65802"
+PV = "2023.209.svn65802"
 
-RPM_NAME = "texlive-uptex-base-doc-2023.201.svn65802-53.1.noarch.rpm"
-RPM_HASH = "e99e8925fb0607b105078f7a7b57ed6172069bd2e44f75e3a73e889b944c0758dc9ff62b708d71c63cc7d573e3d0da2960a2182c08b7c61e4675ac4bb49ef9ee"
+RPM_NAME = "texlive-uptex-base-doc-2023.209.svn65802-54.1.noarch.rpm"
+RPM_HASH = "bc95db38a9631141debd2ea5dc6b82dbe50343d7c9c2f743e747f751ae4c034e28c9d9c37c4ca48f4103e5b22f7674390e76e0818c0ef0559430937a6adcfd26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-uptex-base-doc"

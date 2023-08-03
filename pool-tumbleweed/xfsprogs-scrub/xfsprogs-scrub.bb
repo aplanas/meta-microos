@@ -3,10 +3,10 @@ DESCRIPTION = "Scripts and systemd service files for background scrubbing of met
 on xfs filesystems."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.3.0"
+PV = "6.4.0"
 
-RPM_NAME = "xfsprogs-scrub-6.3.0-1.2.aarch64.rpm"
-RPM_HASH = "c84350d12663a34cd9166e72bde29491df0d9a47ee99c1bcac8e6d36c1925ce0b799353d76e4c1e1f68ee76daece600195521f4ef7e62e434c3d31a751b70fff"
+RPM_NAME = "xfsprogs-scrub-6.4.0-1.1.aarch64.rpm"
+RPM_HASH = "474f8472fb33c94ccb7b91e172b08553f04d23caca276e284412fa9665c4d3168090ab007e3548d6724506cdbb420c9f840892fd06db20e758dc72a271911d68"
 
 RPROVIDES:${PN} += "xfsprogs-scrub"
 

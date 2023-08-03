@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tipfr"
 DESCRIPTION = "This package includes the documentation for texlive-tipfr"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5svn38646"
+PV = "2023.209.1.5svn38646"
 
-RPM_NAME = "texlive-tipfr-doc-2023.201.1.5svn38646-52.1.noarch.rpm"
-RPM_HASH = "9da71dc5ca431bae97cebca26474539ffffb6288d3d0808fa5728573d75bd134d39c90aa5aeeede03883eda78a2c2aacedc29413568ca73dc4f59e0941757768"
+RPM_NAME = "texlive-tipfr-doc-2023.209.1.5svn38646-53.1.noarch.rpm"
+RPM_HASH = "bbd11deb6e0f94ad48385ae5e2800457add9b40f1cca7603ab5826013a52751b05378622757cf9fe0de10f91ab970bf7b08443d9eb59469275743aaa2d141d10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-tipfr-doc-fr \

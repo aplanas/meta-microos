@@ -7,10 +7,10 @@ letter case variants, and for masculine and feminine gender \
 inflections."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1svn15878"
+PV = "2023.209.2.1svn15878"
 
-RPM_NAME = "texlive-ordinalpt-2023.201.2.1svn15878-54.1.noarch.rpm"
-RPM_HASH = "f6d56d5add894328eebc7e1e355e67f17deba76204aefe5fa9e696f485f5dca7c3b0775f2c217f8bf9c16178065ddda7e5f3c62916f428a035d413219d77392e"
+RPM_NAME = "texlive-ordinalpt-2023.209.2.1svn15878-55.1.noarch.rpm"
+RPM_HASH = "32d9afa982ea6b3efba3c50463bc16acf452ecb9f25f211bf2486c1d3e9f19dd06455d799b8fc75f6c635d05a2367b5bf9c86396a5abacd94497d4780753a6b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ordinalpt.sty \

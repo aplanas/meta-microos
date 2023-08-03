@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "1.38"
 
-RPM_NAME = "geany-plugins-1.38-3.6.aarch64.rpm"
-RPM_HASH = "782e02c470cfbb26d726312524cfc9ec261d96219d0a52cb9add8aa1dcf656f256df73e67fd1440903d3df77ecf8b0fc1ea5a63c5aa9f039f04f782be72acb98"
+RPM_NAME = "geany-plugins-1.38-3.7.aarch64.rpm"
+RPM_HASH = "82401948196cd268271b20c912c4089a89a1b6972fd157fb14bf2764d7c51eb109ab83cb0ae5f9e40fcfa7a7ad86b5169ccb8856db985e16aa4989edb30be9ac"
 
 RPROVIDES:${PN} += "geany-plugins \
 libgeanylua.so \
@@ -22,7 +22,7 @@ libgdk-3.so.0 \
 libgdk-pixbuf-2.0.so.0 \
 libgeany.so.0 \
 libgio-2.0.so.0 \
-libgit2.so.1.6 \
+libgit2.so.1.7 \
 libglib-2.0.so.0 \
 libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \

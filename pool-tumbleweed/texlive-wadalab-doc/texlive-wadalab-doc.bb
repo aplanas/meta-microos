@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-wadalab"
 DESCRIPTION = "This package includes the documentation for texlive-wadalab"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn42428"
+PV = "2023.209.svn42428"
 
-RPM_NAME = "texlive-wadalab-doc-2023.201.svn42428-53.1.noarch.rpm"
-RPM_HASH = "a7a1356c38dd1638aa6561992f308462a42b66ee1d655a001ceb9ea4dd508a7b91ca3b78c220fc70caf70bbf660a337adcc6f0f02e20b29826eb1406de9f5949"
+RPM_NAME = "texlive-wadalab-doc-2023.209.svn42428-54.1.noarch.rpm"
+RPM_HASH = "587d0e0a333a2db26896336f7e6b5ce912e8e256a53fef73e858be2e571037917ecee1c3b587c7bbd4912e97138a44570e6f45bba04218374a5898de0f7acaf7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-wadalab-doc"

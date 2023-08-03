@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.06"
 
-RPM_NAME = "grub2-arm64-efi-extras-2.06-53.3.noarch.rpm"
-RPM_HASH = "e4a190caa9a847f0a2187f3b39ecc12b70553df895127cf79bd35745c77960ddb9bb461f064b39213a2edaafa974d185d4435e4deff060888731eca37570e74f"
+RPM_NAME = "grub2-arm64-efi-extras-2.06-54.1.noarch.rpm"
+RPM_HASH = "5f11f206980655f0bded98d31bf9912a9ca25f43ff46a69d2f387c759b06c6d7949bb7d308c3c2ce330512f3675928c54cc44286ce7a06c5aa4e13b72bee8347"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grub2-arm64-efi-/usr/share/grub2/arm64-efi/zfs.mod \

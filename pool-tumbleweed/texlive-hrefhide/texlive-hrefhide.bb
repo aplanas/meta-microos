@@ -12,10 +12,10 @@ is possibly obsolete, see section 3: 'Alternatives' in the \
 documentation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1asvn66189"
+PV = "2023.209.1.1asvn66189"
 
-RPM_NAME = "texlive-hrefhide-2023.201.1.1asvn66189-53.2.noarch.rpm"
-RPM_HASH = "cdc1ec41388d542febe6dff5a52e9bd62222476b4d78ae356aaa8867e0facc809e24bbd1ce3f00445edfb6976867fc0bff64e7b38989f78724d380eea21deebf"
+RPM_NAME = "texlive-hrefhide-2023.209.1.1asvn66189-54.1.noarch.rpm"
+RPM_HASH = "0052b8d4f0aa0d4ca8b45c09d28ef3dc6fa103283b6e3b57563ed433a1a57986acbe5f202553d0acc149370b44501ffefe33934aacaaaff6842755682728fc66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hrefhide.sty \

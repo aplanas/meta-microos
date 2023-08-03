@@ -8,10 +8,10 @@ DESCRIPTION = "The Qt 6 Core library. It adds these features to C++: \
 * a dynamic cast that works across library boundaries"
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6Core6-6.5.1-4.1.aarch64.rpm"
-RPM_HASH = "431f2f950f674f496be91a1275a5f6dc2382c46cd0218adc323440ad5230f7a824c621bda13604e74bfc44464c8cd9f84fadcceef919ae98deaadc139a217117"
+RPM_NAME = "libQt6Core6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "c33fcc425f8f3a96c1b8017e7db32e76e934c727557e782fc47003343e4da1a631d421a98a3d577d51ca8c80b7a6d7fd139677fc30b80bbc1cb0b7accdb30582"
 
 RPROVIDES:${PN} += "libQt6Core.so.6 \
 libQt6Core6"

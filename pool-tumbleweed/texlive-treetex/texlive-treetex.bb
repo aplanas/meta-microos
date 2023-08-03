@@ -4,10 +4,10 @@ is discussed in an accompanying paper (written using LaTeX \
 2.09)."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn28176"
+PV = "2023.209.svn28176"
 
-RPM_NAME = "texlive-treetex-2023.201.svn28176-52.1.noarch.rpm"
-RPM_HASH = "df556417399200c7db3ed195901b33ea086cc49e3fa9c15b1e816f51083824246670d93f25a9d0d7bd95e3464ab304892a11908c44b61e10f9a94c2e8fb26f74"
+RPM_NAME = "texlive-treetex-2023.209.svn28176-53.1.noarch.rpm"
+RPM_HASH = "46a1b6fecc7b21d4bb84667260ace02cc117e4b8a1032f4e6f2e4c693aba411162148eeb06ed13a9c161c1366eda302a060d3299ffab2de575eb51111241c7f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-classes.tex \

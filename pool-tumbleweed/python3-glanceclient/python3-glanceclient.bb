@@ -6,12 +6,12 @@ LICENSE = "Apache-2.0"
 
 PV = "4.3.0"
 
-RPM_NAME = "python3-glanceclient-4.3.0-1.2.noarch.rpm"
-RPM_HASH = "c54a6143f6c966c6fef05fac53605dfa44adfe65310cc9346e4be77f0b4693cc7b40b173d2bcae9befc978040a0026b8029714ac165af8eda8580816b2aaaa56"
+RPM_NAME = "python3-glanceclient-4.3.0-1.3.noarch.rpm"
+RPM_HASH = "e897f4f19d1a3070275de7fc54e369432990573ae1bd945fc3e162d08bd0ac9e890a57c3c502b9945ca9cd4c3233751b84b33e91241f94eb1f27745a3e5cb2b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-glanceclient \
-python3.10dist-python-glanceclient \
+python3.11dist-python-glanceclient \
 python3dist-python-glanceclient"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

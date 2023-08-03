@@ -7,10 +7,10 @@ and indexes. Dust jackets for BoD and Createspace \
 (print-on-demand service providers) can also be produced."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65793"
+PV = "2023.209.svn65793"
 
-RPM_NAME = "texlive-langsci-2023.201.svn65793-55.1.noarch.rpm"
-RPM_HASH = "6baa2eb437b5cb28e88f05dc6b2f15897e28c3277a41ea0081792240b6459de325af319196b02c69b030928952d9c72b3493ef30c67d5cea7aec1ccbdade0881"
+RPM_NAME = "texlive-langsci-2023.209.svn65793-56.1.noarch.rpm"
+RPM_HASH = "dbf5091abc9f850da3eca8725472e665c3a989abbf10dd658afcc546b6fb3a4e6889f14c8a8154c42e7dd25e3d8a98f28ab7437b3c2ca3f096c44b48d7ed7308"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-langsci-affiliations.sty \

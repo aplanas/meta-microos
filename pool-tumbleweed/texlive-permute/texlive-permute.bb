@@ -3,10 +3,10 @@ DESCRIPTION = "A package for symmetric groups, allowing you to input, output, \
 and calculate with them."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-permute-2023.201.svn15878-51.1.noarch.rpm"
-RPM_HASH = "bdb311f0b61162a28da075532b2d144ca172fc44c4d1372c5d18c9392bad89a3465a282ac0ea0ac2ba3b869138baf34204cda6e6ea13648072caaa11c950c165"
+RPM_NAME = "texlive-permute-2023.209.svn15878-52.1.noarch.rpm"
+RPM_HASH = "15663545888fba4c6231e3204d886f2abccb6b3326908e914f196f8b161493dd660599fb81c27998b5666a48b7ccba9620397e1529331ed38b20ee06654c5768"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-permute.sty \

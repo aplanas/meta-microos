@@ -12,10 +12,10 @@ multiple languages and the selection of a language via babel or \
 polyglossia."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.9.2svn49064"
+PV = "2023.209.0.0.9.2svn49064"
 
-RPM_NAME = "texlive-komacv-rg-2023.201.0.0.9.2svn49064-55.1.noarch.rpm"
-RPM_HASH = "69ed6fd24c2bbaac68542f539acb1676eac8bd27c9150468a87e95a7a9354511f7d7e11263bc678aa917240123da6836d1f57b1df1aaa87570bc072e4e55fa22"
+RPM_NAME = "texlive-komacv-rg-2023.209.0.0.9.2svn49064-56.1.noarch.rpm"
+RPM_HASH = "64a50bacb68e9059b98098461d8717f9029682decc3a81a9c44a6e31dda375abfc41045287203e2f551c05495ee312ebc5b837de6272e27593d9470c87d02a01"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-komacv-addons.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-arimo"
 DESCRIPTION = "The  separated fonts package for texlive-arimo"
 LICENSE = "Apache-1.0"
 
-PV = "2023.201.svn64548"
+PV = "2023.209.svn64548"
 
-RPM_NAME = "texlive-arimo-fonts-2023.201.svn64548-54.1.noarch.rpm"
-RPM_HASH = "132c7b690ce0033d204b450aa0c76a77679d196d8c9fe773578fb51473ebaa32a6910fbadbf72c16aafe9c1b37dedfa58bc9dc6106b3ff85a222acdaa14e73e2"
+RPM_NAME = "texlive-arimo-fonts-2023.209.svn64548-55.1.noarch.rpm"
+RPM_HASH = "c463e40e2a784a23365b2d4860a3eba971db02b889c093c6eb87078ee739d1a2a27d9a0f2f10d1e98771de75a9dbeb0146d08e3e687e359483406733db9a9fc3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-arimo-fonts \

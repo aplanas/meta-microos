@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fancybox"
 DESCRIPTION = "This package includes the documentation for texlive-fancybox"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4svn18304"
+PV = "2023.209.1.4svn18304"
 
-RPM_NAME = "texlive-fancybox-doc-2023.201.1.4svn18304-52.1.noarch.rpm"
-RPM_HASH = "c86fdd2b39efc2d9d590693ec07390a7c182855d9922e9e0faea4afaf769f4b080127fbf9bb5ae62a279c0aaa2929925415dba9cf40fcc4c274e7f51db8cc29f"
+RPM_NAME = "texlive-fancybox-doc-2023.209.1.4svn18304-53.1.noarch.rpm"
+RPM_HASH = "1fc898e5103dd8726114c85bf1fd558d0d4c8751bebda8f10577a77002d59e28238c2513df411e1c8621e8b6bf67c78ba3a32242c8eaca96784dd0ff7e3300ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fancybox-doc"

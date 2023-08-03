@@ -3,10 +3,10 @@ DESCRIPTION = "CoinUtils is an open-source collection of classes and helper func
 that are generally useful to multiple COIN-OR projects."
 LICENSE = "EPL-2.0"
 
-PV = "2.11.6"
+PV = "2.11.9"
 
-RPM_NAME = "libCoinUtils3-2.11.6-1.4.aarch64.rpm"
-RPM_HASH = "fdd00e7d3e09ecacc9a15ec3e72eff963a542432180f76775d68f8acc048001e8fe4fd0697f4eccbc7f9a66eea3f11f2a3c253742ffc9d4df6ddfc0837d5da76"
+RPM_NAME = "libCoinUtils3-2.11.9-1.1.aarch64.rpm"
+RPM_HASH = "ba7014d9ea62d7d886fdb384e6ed74773d1161de807d52a68ea9bfba1418f63f0b02ded059287e9ebb1e54f2e97a32cfda4a87cde4b9e947396c013fe0e59e50"
 
 RPROVIDES:${PN} += "libCoinUtils.so.3 \
 libCoinUtils3"

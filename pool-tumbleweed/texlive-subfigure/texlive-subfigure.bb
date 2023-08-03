@@ -11,10 +11,10 @@ obsolete: it was superseded by subfig, but users may find the \
 more recent subcaption package more satisfactory."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1.5svn15878"
+PV = "2023.209.2.1.5svn15878"
 
-RPM_NAME = "texlive-subfigure-2023.201.2.1.5svn15878-57.1.noarch.rpm"
-RPM_HASH = "a9598b7544e932a45ccca5319900e5a729194c349a785dc48d6721a5ae82848ac4966f31b5cc1f2498c237cad76fb271b903f8605d855082b19d5e0be924f78b"
+RPM_NAME = "texlive-subfigure-2023.209.2.1.5svn15878-58.1.noarch.rpm"
+RPM_HASH = "6fc51e3fecd2fee9e4baada051e6419d09d62507452e3127324a075e6af698e4d057fd26c244b0175aafe2769073c1d50864d56392e5d6e07edc702e14c767bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-subfigure.cfg \

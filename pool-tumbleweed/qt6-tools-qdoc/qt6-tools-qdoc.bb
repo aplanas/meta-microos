@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Tool used by Qt to generate documentation"
 DESCRIPTION = "Qt 6 Tool used by Qt to generate documentation."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-tools-qdoc-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "12a5f3010c05a28f8ee421122fb47310e5f93a1e60cc1893403681924aa80444d236f33dfcb6539d604df2465ce55eec1b140f7b2bedeb52c20b16f3b4108fdb"
+RPM_NAME = "qt6-tools-qdoc-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "2c94a18b9cdd1535697ab269cf5db456a71347348e691b8ecbebe08cfb6a054747c93a3e0662732888775df1053285d5f98ba6477a8a7aa14858b71068c7f4f4"
 
 RPROVIDES:${PN} += "qt6-tools-qdoc"
 

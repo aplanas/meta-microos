@@ -10,10 +10,10 @@ on colorist.sty from the colorist package. The package name \
 combined with the first three letters of 'Artikel' ('article')."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65475"
+PV = "2023.209.svn65475"
 
-RPM_NAME = "texlive-lebhart-2023.201.svn65475-54.1.noarch.rpm"
-RPM_HASH = "ff7e6269c534ca2750ffde6e993eae7e8c92c1ffda3fc387310f085031ac7e6516a50d506c571b2e623455780ed389a15f4d7038c84556cffd2ed69ec6fce49f"
+RPM_NAME = "texlive-lebhart-2023.209.svn65475-55.1.noarch.rpm"
+RPM_HASH = "a437459d7351d4534903f32f8afdf977b8808866b98c924c7e6c77c8fef8e5fa913a8e50695d31a769a7e68f3b3ee877bb73c947a1c9fe79d6eb804369ecbe54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lebhart.cls \

@@ -12,10 +12,10 @@ Computer Modern fonts, and are available both as Metafont \
 source and in Adobe Type 1 format."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.7.2svn47680"
+PV = "2023.209.7.2svn47680"
 
-RPM_NAME = "texlive-dozenal-2023.201.7.2svn47680-52.1.noarch.rpm"
-RPM_HASH = "7aebeacc07b8bbe7b57614715085cf425430ef9317ccc94601271ff7223f96259c4236134e623f0c14be54d90e538a53bac5ccf4728666a0de86aea23f3e61fa"
+RPM_NAME = "texlive-dozenal-2023.209.7.2svn47680-53.1.noarch.rpm"
+RPM_HASH = "b023b7089843e315469748bd15a76bd266cfe846fedae2bb7f299c27f0941edf7c46f2307aa5988678ec74804efa33cd6d94326e27dd6f7874e94c5157c31544"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dozchars10.tfm \

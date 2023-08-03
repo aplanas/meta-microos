@@ -4,10 +4,10 @@ subset of the conventions, if Catalan is not the main language \
 of the document)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.2psvn30259"
+PV = "2023.209.2.2psvn30259"
 
-RPM_NAME = "texlive-babel-catalan-2023.201.2.2psvn30259-53.1.noarch.rpm"
-RPM_HASH = "79b0bbaa1d6519fcbdf99873538eee5fb6b2d813634c104e0494c93bcd7018d6bd6c4eb0d47e8a4528c429a0dc0586c3a619e4cdebfe05b141ad088dfe37d360"
+RPM_NAME = "texlive-babel-catalan-2023.209.2.2psvn30259-54.1.noarch.rpm"
+RPM_HASH = "7e5bcb37329f655a60740cb87ce42a63ff2652c085f025cdaffd4a49cece36da1c76141fe0749434cda799e5a342abd60f45d8c9acd8787f67bab64190aee16d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-catalan.ldf \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Texas Instruments wireless drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230707"
+PV = "20230724"
 
-RPM_NAME = "kernel-firmware-ti-20230707-1.1.noarch.rpm"
-RPM_HASH = "78cb092a222fcadeb2da8d9fe6ac1553db537338f95549d005b0a95c94f5691585a59e5b6b55349c8be9c7b08b078b9bbf81f191c1141f293d28dac5229ad162"
+RPM_NAME = "kernel-firmware-ti-20230724-1.1.noarch.rpm"
+RPM_HASH = "982d36b79a15e294c324fd1f0cb4236292690f3704a2022633f20902723e2e08a4589de9066a6349b6d41ff46808933afeccc132b2c2d141f2f8855d199f8505"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-ti-connectivity/TIInit-6.2.31.bts \

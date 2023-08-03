@@ -6,10 +6,10 @@ any number of normal arguments, including those that were \
 defined with \\DeclareRobustCommand."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.05svn41379"
+PV = "2023.209.1.05svn41379"
 
-RPM_NAME = "texlive-patchcmd-2023.201.1.05svn41379-51.1.noarch.rpm"
-RPM_HASH = "6ce98eb44df8cff5cd4451f33423f25354a1ab0a2ca35d4937ab764d5015d545031a22d2b69ffeb54f78852ab7b848b04cec09712afcfb5d36f942085b936e1f"
+RPM_NAME = "texlive-patchcmd-2023.209.1.05svn41379-52.1.noarch.rpm"
+RPM_HASH = "b3b99df86e25fd60e82004bab969b858cf4018a97124e3cf502865018f3228d8a504cec29e7ea479b6b371c67fbb6ebe5125c6ef194de6b5cd40fa402f5ecd9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-patchcmd.sty \

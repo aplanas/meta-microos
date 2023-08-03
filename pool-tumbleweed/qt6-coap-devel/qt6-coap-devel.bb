@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 CoAP library - Development files"
 DESCRIPTION = "Development files for the Qt 6 CoAP library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-coap-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "e15b0a844d06ea16bc71f17fd77d8ac452360e17685e7eb97c9c8ef7a7a39bed9eadf7107e3c02e413316e2a8ca4017eb2409807761d411ce7072955f42beab2"
+RPM_NAME = "qt6-coap-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "111d1ba5111eaa6740f004c0f03a9ade1d2db88364c6eb2702f552e24a1863d3e78dfedf30dae6c2c1d0d2aa8cebdeea57257415edf748f279621d9060118fa3"
 
 RPROVIDES:${PN} += "cmake-Qt6Coap \
 pkgconfig-Qt6Coap \

@@ -9,10 +9,10 @@ comments in the templates are all written in French, the \
 language of the target audience."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.5.3asvn60217"
+PV = "2023.209.5.3asvn60217"
 
-RPM_NAME = "texlive-ulthese-2023.201.5.3asvn60217-53.1.noarch.rpm"
-RPM_HASH = "d4951a3bc561ad1572921f33979ccc887c8dfacea9e542f9c96893c277d74702840da035410c3913bd5b9c84554f9e3d0a2cb6f11ace5fbdeb3fdaecace37833"
+RPM_NAME = "texlive-ulthese-2023.209.5.3asvn60217-54.1.noarch.rpm"
+RPM_HASH = "472b047af181c5c73422bcb98f9854ccb87a65451d05a22ae87283caa339124b243b194007ac6fd5d26fd66ab839a6e9a9875e14cce5cce0def13801d10b6861"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ulthese.cls \

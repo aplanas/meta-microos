@@ -4,10 +4,10 @@ structural schemes in civil engineering analysis, for beams, \
 portals, arches and piles."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.13svn38613"
+PV = "2023.209.0.0.13svn38613"
 
-RPM_NAME = "texlive-pst-stru-2023.201.0.0.13svn38613-53.2.noarch.rpm"
-RPM_HASH = "b65fd2c222d95eb8e97c6a3948143cc981cc878f43793669d4a018130a7f27e6590809793a4bd748bb821132eae9e0d1103e3776a89988130a07d4b7f279de79"
+RPM_NAME = "texlive-pst-stru-2023.209.0.0.13svn38613-54.1.noarch.rpm"
+RPM_HASH = "f568daa825d80f8bddcb3fdff83a689446a97b8affecf4b640b61d68913fe6016b3b4ffc46cd6014f416fad9f67a141b5f29977d7a202bd327f7891a2851079a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-stru.sty \

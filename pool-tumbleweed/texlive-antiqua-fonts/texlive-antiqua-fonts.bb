@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-antiqua"
 DESCRIPTION = "The  separated fonts package for texlive-antiqua"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.001.003svn24266"
+PV = "2023.209.001.003svn24266"
 
-RPM_NAME = "texlive-antiqua-fonts-2023.201.001.003svn24266-54.1.noarch.rpm"
-RPM_HASH = "ccfdfd954daffb84c8775038d65fb50c5138a5f850fcd71e811e37eea3e25e8d85f3e804c8c80d95b3c4218428f364baedac1ebb9c998988e0eda875c1e3e190"
+RPM_NAME = "texlive-antiqua-fonts-2023.209.001.003svn24266-55.1.noarch.rpm"
+RPM_HASH = "8e9e7c208c2d97a70885f548b254a8f14efa9f0b8b648f73d1d62ed9bbfd609d5efce3f9a990bc707b78f04aeeace5ff1949909c7642d6c57c1d11146f6c1203"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

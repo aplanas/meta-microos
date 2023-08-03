@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 QmlModels library"
 DESCRIPTION = "The Qt 6 QmlModels library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6QmlModels6-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "2e6610bf989494ed4a51b6f3acbc7e154f51660e8d5ad2176b3a92648d96e46c199d8406b1ad13c92f25058882ce990ea9565317b57822fdd53c3c1e85420691"
+RPM_NAME = "libQt6QmlModels6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "80e363501e36b33c7ca3959db81efaf4c4bc501c2ed579d410d1a904b278641956ef6968ee5bb8a23cbbc4e4a0687e0869cca74d8e30d1d9db7dd6a966bb1e51"
 
 RPROVIDES:${PN} += "libQt6QmlModels.so.6 \
 libQt6QmlModels6"

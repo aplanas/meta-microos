@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bxjalipsum"
 DESCRIPTION = "This package includes the documentation for texlive-bxjalipsum"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn66013"
+PV = "2023.209.1.0svn66013"
 
-RPM_NAME = "texlive-bxjalipsum-doc-2023.201.1.0svn66013-52.1.noarch.rpm"
-RPM_HASH = "a27c83b985548074604ebd806871c16fb3a0cb1d99fe0de3a1492824a31131bb4eece98c9c327d401dae75258730b84295d3c7dae8851139b7fa311b8e3db1fd"
+RPM_NAME = "texlive-bxjalipsum-doc-2023.209.1.0svn66013-53.1.noarch.rpm"
+RPM_HASH = "9029206c5934ca8905e650b156ac92966c313089465b3501707f19336094ab368d89a08512b68c2d61ddeb18da98625d32162ced6c6af4f193d172041a024530"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bxjalipsum-doc"

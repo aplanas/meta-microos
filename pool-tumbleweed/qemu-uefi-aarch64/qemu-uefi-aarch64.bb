@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the UEFI rom image (AArch64) for QEMU corte
 virt board."
 LICENSE = "BSD-2-Clause-Patent"
 
-PV = "202302"
+PV = "202305"
 
-RPM_NAME = "qemu-uefi-aarch64-202302-3.1.noarch.rpm"
-RPM_HASH = "c2508fb3db575f33624298bd9b74aae9e5c3540ed06acfa2a974654f361bffd0699dc4f86c4b6e46e033927cf7e4394f87255a63e4cffc2816f3f2d5414e31d6"
+RPM_NAME = "qemu-uefi-aarch64-202305-1.1.noarch.rpm"
+RPM_HASH = "0c6d5182b238d2341cfeb9ae3a8d4bd54a3248e42c97aa34c2e8e6df9d99b264c1b3ee0717af8feedadbeebabb8758a066edf25793e43490ac592f642b94621d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-uefi-aarch64"

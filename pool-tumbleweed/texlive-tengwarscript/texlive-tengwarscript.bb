@@ -9,10 +9,10 @@ wide variety of tengwar fonts that are available from the net; \
 metric and map files are provided for all the supported fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3.1svn34594"
+PV = "2023.209.1.3.1svn34594"
 
-RPM_NAME = "texlive-tengwarscript-2023.201.1.3.1svn34594-54.1.noarch.rpm"
-RPM_HASH = "b100d9a1395393b862aa179d151054e43efe91bacb564f687651ab37d01f85065dd1f8fddefeb647fd323ea27c5db0bf8d580b7348409209ccbaaa3f11e0ff93"
+RPM_NAME = "texlive-tengwarscript-2023.209.1.3.1svn34594-55.1.noarch.rpm"
+RPM_HASH = "5a854f7ae6d500c3eb022e58c3803176a7863d20815a1e0d9a28b90df1106fa12dbe2b5edee31b1c25d482406b0e49d259334fec85fdc9a8c6f478882a9e07e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Elfica32.tfm \

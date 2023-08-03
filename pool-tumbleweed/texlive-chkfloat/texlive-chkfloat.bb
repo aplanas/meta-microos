@@ -4,10 +4,10 @@ their origin. It was motivated by a question on the question \
 and answer page."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn27473"
+PV = "2023.209.0.0.1svn27473"
 
-RPM_NAME = "texlive-chkfloat-2023.201.0.0.1svn27473-53.1.noarch.rpm"
-RPM_HASH = "43b835b68660c002b634537401df62e085b6da680a63b15cd1c2a8c2ff4eaa61a71386eda570a19c0c2745106bb5059a8658a9835c472c5d149924531987e091"
+RPM_NAME = "texlive-chkfloat-2023.209.0.0.1svn27473-54.1.noarch.rpm"
+RPM_HASH = "27c7f666f39a1c562c803821f7fdc1c11f54ab09b40e973dcd0702e84dfb4b3826da2db246cbc315270f8b40e608775093946d3c9f2af52c8eb6236f4165ad7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chkfloat.sty \

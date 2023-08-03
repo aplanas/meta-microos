@@ -6,10 +6,10 @@ a swung dash in XeLaTeX and LuaLaTeX, by applying \
 transformations to the given font's glyph for a tilde."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.0svn64204"
+PV = "2023.209.1.0.0svn64204"
 
-RPM_NAME = "texlive-swungdash-2023.201.1.0.0svn64204-57.1.noarch.rpm"
-RPM_HASH = "b6c3ac06a98fdc713ce61942bf2ad84e8a7146e1b8ec82e016c0eb9b5c4a603d94a5029f71892a3935329eead6d9dc6d89bd14606c211dba146956429fe1b711"
+RPM_NAME = "texlive-swungdash-2023.209.1.0.0svn64204-58.1.noarch.rpm"
+RPM_HASH = "d0123f49e07f0ef91e55cf40a59bbc577df99e040dddfc78a1e3f2e72a7679551516270b4e7a0c937c6a636a6119f5cafba30388f090dd77356ab28b9c0f1b36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-swungdash.sty \

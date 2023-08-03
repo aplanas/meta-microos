@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mkjobtexmf"
 DESCRIPTION = "This package includes the documentation for texlive-mkjobtexmf"
 LICENSE = "Artistic-1.0"
 
-PV = "2023.201.0.0.8svn29725"
+PV = "2023.209.0.0.8svn29725"
 
-RPM_NAME = "texlive-mkjobtexmf-doc-2023.201.0.0.8svn29725-54.1.noarch.rpm"
-RPM_HASH = "89dd9235c116ac2eccfe382baf8c8e965f55462df1b3f72e283c4a28bda3cfdc817a1bbe42b51ad5eee09759104c905aeff47b5d4adc4b7ce62938e9ab5677cd"
+RPM_NAME = "texlive-mkjobtexmf-doc-2023.209.0.0.8svn29725-55.1.noarch.rpm"
+RPM_HASH = "039ec19faf317cb43673afd74a6f1e724437ffdf1e761e65f88ddc04102a23bf2136917266f2f6a389ed918a29d947b05a6055d925ef5b15a8cf1bb81e317a04"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-mkjobtexmf.1 \

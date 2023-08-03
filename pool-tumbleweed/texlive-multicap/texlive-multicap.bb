@@ -6,10 +6,10 @@ way to customise your captions, whether they be in multicols or \
 not."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-multicap-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "cf5d9990fd0236ae7600feb6bf14ad015e4939f34692e4338631f1b384ca589c9f43870e737c464bfae20122d84d70d44927a56f89af27a9b292da80e30196d9"
+RPM_NAME = "texlive-multicap-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "7727675580a4109965e807fec400e895e04017a2cf226b536384c36eb756c23fac8ce5b08de5a0498d2f3ccc76268912c77f1bb9ab11c6589b099f212f9b30d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-multicap.sty \

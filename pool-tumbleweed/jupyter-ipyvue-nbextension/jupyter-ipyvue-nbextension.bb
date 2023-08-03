@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.9.2"
 
-RPM_NAME = "jupyter-ipyvue-nbextension-1.9.2-1.1.noarch.rpm"
-RPM_HASH = "2765e8ed6f9f3b5244353e1fc983b6ddff6ce94d1af78604dedce8615a5c96a775f5ad82908d4e07406ca2935576ee91349c82edb4d5cfb33f53537a421a9e68"
+RPM_NAME = "jupyter-ipyvue-nbextension-1.9.2-1.2.noarch.rpm"
+RPM_HASH = "87d0f22035f5cd0810c98ae2e8ce7e39000eae2efa0cda865ed11a0c684d03d59599297f652c94d0ba183fcac0309da61b029b2bca5b7ac8ce171cd6470f79bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipyvue-nbextension"

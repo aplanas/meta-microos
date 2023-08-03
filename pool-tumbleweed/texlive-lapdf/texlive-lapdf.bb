@@ -11,10 +11,10 @@ many instructive example files. The package requires pdfTeX but \
 otherwise only depends on the calc package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.1svn23806"
+PV = "2023.209.1.1svn23806"
 
-RPM_NAME = "texlive-lapdf-2023.201.1.1svn23806-55.1.noarch.rpm"
-RPM_HASH = "83abe1600170f649818472cbb888aa277f2b6a059fc3f6d39fdcefa1f801d6ac80d24fbab4c17238c765d7d9a4ef43dbd4c37aa92378854614047a3c4e3d0bb8"
+RPM_NAME = "texlive-lapdf-2023.209.1.1svn23806-56.1.noarch.rpm"
+RPM_HASH = "23fa498fb4aeecc944f8b3e20bb256dd586e49544a8beb20e14f785eeb306d53664435bd87c5e87accb481ec2c4a639f76229bfe46fff429903d62d75e892822"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lapdf.sty \

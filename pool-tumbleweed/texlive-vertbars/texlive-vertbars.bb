@@ -4,10 +4,10 @@ package's line numbers with bars to the left or right of the \
 text."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0csvn49429"
+PV = "2023.209.1.0csvn49429"
 
-RPM_NAME = "texlive-vertbars-2023.201.1.0csvn49429-53.1.noarch.rpm"
-RPM_HASH = "e00bc47e0bc4f0c1c2889b2fac28128193a2ad6b9cffea2eda61c9d7381a0c69768a6ddeb6f7cbf15aa686d8ab198d779731416a88c2defba66169922d8d49fa"
+RPM_NAME = "texlive-vertbars-2023.209.1.0csvn49429-54.1.noarch.rpm"
+RPM_HASH = "878c662cd5c15dc38fa53474d89a42ebb9968d35f0264458606efb22ce89304dd783cb38c3bd3e61b3466742356c373d9f153787e10ace18d639446cbb415b65"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-vertbars.sty \

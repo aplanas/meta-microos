@@ -2,10 +2,10 @@ SUMMARY = "Utility to read several different streaming archive formats"
 DESCRIPTION = "This package contains the bsdtar cmdline utility."
 LICENSE = "BSD-2-Clause"
 
-PV = "3.6.2"
+PV = "3.7.0"
 
-RPM_NAME = "bsdtar-3.6.2-1.5.aarch64.rpm"
-RPM_HASH = "1b06ddbcaf3025e53589b7683d0a6b6394ad628d82e7edb4aca19fc6645db57dcf139a54f35916ec46f6173ff6461df8d99079bd47efb576c494ae0242decaf2"
+RPM_NAME = "bsdtar-3.7.0-1.1.aarch64.rpm"
+RPM_HASH = "d9a9bddfeee96b1b1ce0e5893364d560161768afc6ee65c635a23da910955bf3af18b930372dc7d1a3785a4a5e7fc8df4b4adbd0a7f943b4d7e04842873961b8"
 
 RPROVIDES:${PN} += "bsdtar"
 

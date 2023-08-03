@@ -5,10 +5,10 @@ scripts in doing its work. Documentation is supplied in rst, \
 which seems to be readable as text, but ...."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.svn47085"
+PV = "2023.209.svn47085"
 
-RPM_NAME = "texlive-context-rst-2023.204.svn47085-54.1.noarch.rpm"
-RPM_HASH = "09176b45ab4c256ef1a513105a8fd64e34092555ec27e9ed0919422cb7db433cc82a2414a584cafd2759cb22e8fc4196c03b80308e799335f3fdae41ee1ac432"
+RPM_NAME = "texlive-context-rst-2023.209.svn47085-55.1.noarch.rpm"
+RPM_HASH = "d0de58a0d475fd9d4a020594a84f27210c32313f5017197cb171188bbe5383710205a221ef09438a5a5e883418fecfaf6db828286305c7943ccaffa885f0b137"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-rst"

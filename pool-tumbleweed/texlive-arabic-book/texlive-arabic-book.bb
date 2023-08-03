@@ -11,10 +11,10 @@ generated using this class can be searched, and text can be \
 copied from them and pasted elsewhere."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn59594"
+PV = "2023.209.1.0svn59594"
 
-RPM_NAME = "texlive-arabic-book-2023.201.1.0svn59594-54.1.noarch.rpm"
-RPM_HASH = "bf1fc1d5b62382fb461d13f4fac7b9363fc557e4cbc89797c959eb95a4c0aec5afa293d06d62f877bb8741dcd2050affc47b11dd8617bf149c802ff7f3e33504"
+RPM_NAME = "texlive-arabic-book-2023.209.1.0svn59594-55.1.noarch.rpm"
+RPM_HASH = "87dc6312faa4bb7eb0cb591c1eaa025cdca39d67473263e597685608521c09ef4073c35aa6e680de63f76d51e3ae2e8fd76ddcdee8342d6d2a64d7d2345c9be4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-arabic-book.cls \

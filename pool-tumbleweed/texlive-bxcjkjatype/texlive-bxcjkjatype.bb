@@ -6,10 +6,10 @@ users, by providing commands that are similar to those used by \
 the pLaTeX kernel and some other packages used with it."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn54080"
+PV = "2023.209.0.0.3svn54080"
 
-RPM_NAME = "texlive-bxcjkjatype-2023.201.0.0.3svn54080-52.1.noarch.rpm"
-RPM_HASH = "69e66ec225add908c7f594ddba1dd4ed6ebc1e5b3c804399b77e941f9babb5963a1f799d4676b9595e427f5f6684b3a34fac9f1cd5effbe9fa35fc6ae1cf09de"
+RPM_NAME = "texlive-bxcjkjatype-2023.209.0.0.3svn54080-53.1.noarch.rpm"
+RPM_HASH = "fe2893a210f64c3264cc5925cf1ffb9dd4fcf9c798fccb3cef02ccda2e5222eccc5ca115d4d3e0438e176a4dc794f8ab90bbf6b3c66de9d43b23a791f198172f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bxcjkjatype.sty \

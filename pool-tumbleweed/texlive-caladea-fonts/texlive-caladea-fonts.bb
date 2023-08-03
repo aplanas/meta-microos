@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-caladea"
 DESCRIPTION = "The  separated fonts package for texlive-caladea"
 LICENSE = "Apache-1.0"
 
-PV = "2023.201.svn64549"
+PV = "2023.209.svn64549"
 
-RPM_NAME = "texlive-caladea-fonts-2023.201.svn64549-52.1.noarch.rpm"
-RPM_HASH = "51cf45e5875c6ead07b11dda8aa601ccd89d6469b5e5c0453ae00a0392a82990debbdeadec28beb6053d63f38165e1a077dd817e954b759a51e121ec97e43180"
+RPM_NAME = "texlive-caladea-fonts-2023.209.svn64549-53.1.noarch.rpm"
+RPM_HASH = "78c89c195605496d9c7effc718e86d3db6bbad7ec0787f3f36d2c99bb7a35b2d7e7b0341a2d110969f3219e94e4c887ca969858101d6a3e6e9a77681d3db0d04"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-caladea-fonts \

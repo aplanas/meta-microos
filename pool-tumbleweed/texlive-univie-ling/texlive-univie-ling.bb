@@ -12,10 +12,10 @@ Vienna University. In this case, however, some settings may \
 have to be adjusted."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.3svn65651"
+PV = "2023.209.2.3svn65651"
 
-RPM_NAME = "texlive-univie-ling-2023.201.2.3svn65651-53.1.noarch.rpm"
-RPM_HASH = "5ae914385165aa88cf3d838233930d0d091f12b84be18ca5b686eff5ca491a8f62a770d2b455c34d16be671e1f311a85dc0e4cd8820472cdcf2f80d5728837be"
+RPM_NAME = "texlive-univie-ling-2023.209.2.3svn65651-54.1.noarch.rpm"
+RPM_HASH = "932b268d05dc17ac7abfca61b1faac7432ae5c5acaa4630b32e8088dddbbb47318a129903d7e12eb99e507e5daf486c06176d28e7654be1fcc31ec82faf610e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-univie-ling-expose.cls \

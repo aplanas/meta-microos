@@ -6,10 +6,10 @@ commands to denote Turing reductions, Turing functionals, c.e. \
 sets, stagewise computations, forcing and syntactic classes."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.3.8.2svn63982"
+PV = "2023.209.3.8.2svn63982"
 
-RPM_NAME = "texlive-rec-thy-2023.201.3.8.2svn63982-53.2.noarch.rpm"
-RPM_HASH = "88a6bdfd329479fd523250799827a9306b8279bc37ae965b6f9b1e5300a2cab128dd9189420fe349027f80331f97a51383a0edddf99e4dc78f32f6ade224601c"
+RPM_NAME = "texlive-rec-thy-2023.209.3.8.2svn63982-54.1.noarch.rpm"
+RPM_HASH = "dda3b7a7852ce1d462be9cca1e0762d06198c3b285ca3134a78ce7d8cb11a905b9ce67e116acc6770ae0113e1aecc86919852e1a155275b7f07ee1ed0fc84dee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rec-thy.sty \

@@ -6,10 +6,10 @@ supported, but this package is designed to handle all kinds of \
 licenses."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.2.0svn63340"
+PV = "2023.209.3.2.0svn63340"
 
-RPM_NAME = "texlive-doclicense-2023.201.3.2.0svn63340-52.1.noarch.rpm"
-RPM_HASH = "c77103e4469effa9dcb1137b46b8c9c3e9b11b47646020fcad385e6e70b90bce93ccf0c6ba5e56860a92a6153169d2e1dd6cbeddc5059b12dfc2dc11c1808b24"
+RPM_NAME = "texlive-doclicense-2023.209.3.2.0svn63340-53.1.noarch.rpm"
+RPM_HASH = "beb4f34718cf0fab8e5f9f713f724a6f9006bdab26d89cf7a855471f67edd371b828f051d5a065bc28cecae1acc066a6e6036a6f0bd68a5e88e4078366f0337e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-doclicense-CC-by-3.0-latex.tex \

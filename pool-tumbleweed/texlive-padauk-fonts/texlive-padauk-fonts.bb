@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-padauk"
 DESCRIPTION = "The  separated fonts package for texlive-padauk"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.3.002svn42617"
+PV = "2023.209.3.002svn42617"
 
-RPM_NAME = "texlive-padauk-fonts-2023.201.3.002svn42617-51.1.noarch.rpm"
-RPM_HASH = "1c3e5dafdf85bf45c8cef24bd370f9c73fee457ec59183e70a335714d10e4cb66ec0ed4bcc193f2ea9b09641bb77a87119cf9c23a01188464cb12d648f06b414"
+RPM_NAME = "texlive-padauk-fonts-2023.209.3.002svn42617-52.1.noarch.rpm"
+RPM_HASH = "8500c2c9c8e066487bc57c89f7d4122d66ccce0a1c660d7085d3bcf73034c2c600bb4b728cc2c09a20e830e30a7e77c6dcf97763341891f0926ff02325cc56cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=fj \

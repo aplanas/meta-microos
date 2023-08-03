@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-yafoot"
 DESCRIPTION = "This package includes the documentation for texlive-yafoot"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn48568"
+PV = "2023.209.1.1svn48568"
 
-RPM_NAME = "texlive-yafoot-doc-2023.201.1.1svn48568-52.2.noarch.rpm"
-RPM_HASH = "3efd0acb013338b145ee0ebe1ab6404f3528d30cc212b914d89268bcf0720caaeeb0721bb0746467a08b3c1976ff3cc9c38d855c17e2f55dd16e141ed290e5d5"
+RPM_NAME = "texlive-yafoot-doc-2023.209.1.1svn48568-53.1.noarch.rpm"
+RPM_HASH = "f5b12f5fcc3b66a5c733cb2266f6f60412206fccdb55add488fc2b78b7fee255da03a0f67784cf2e49e42ae494a11f9c99829f413a5ac9d54e1d33bac060b0c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yafoot-doc"

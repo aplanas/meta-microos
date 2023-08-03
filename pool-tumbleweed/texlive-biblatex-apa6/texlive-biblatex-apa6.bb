@@ -10,10 +10,10 @@ documents. Please use the BibLaTeX-apa style package for the \
 latest APA edition conformance."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.8.5svn56209"
+PV = "2023.209.8.5svn56209"
 
-RPM_NAME = "texlive-biblatex-apa6-2023.201.8.5svn56209-53.1.noarch.rpm"
-RPM_HASH = "47942308c6a3ad9d12e97150f6d0de5d2bdfbc1744513731b56eea9dc37bdee2807c54b7f2efffbb80d62db7d0ae59f4bab179d9f04fa9d3c8592c31a2de5c03"
+RPM_NAME = "texlive-biblatex-apa6-2023.209.8.5svn56209-54.1.noarch.rpm"
+RPM_HASH = "bb1f18d41c633086c1226d5f94eda020f36fccc282fd7cfb245d3dc847c32b9acf289e2b0a0ec72a52ac55d11247135b2ed1504edc1ee8ead06b9dd5e0d93839"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-american-apa6.lbx \

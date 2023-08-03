@@ -6,10 +6,10 @@ with PostScript related code, eg. PSTricks. It depends on \
 ifpdf, ifluatex, ifplatform, and xkeyval."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.03svn54779"
+PV = "2023.209.0.0.03svn54779"
 
-RPM_NAME = "texlive-auto-pst-pdf-lua-2023.201.0.0.03svn54779-53.1.noarch.rpm"
-RPM_HASH = "f3c88d721e36f460791c7c8315a677f0a459a85d876f66dcd207b6df5826c1fd088670b60e68599d3345b9a94345f6dc0977cf7d541fdbbce5d98321a21efd82"
+RPM_NAME = "texlive-auto-pst-pdf-lua-2023.209.0.0.03svn54779-54.1.noarch.rpm"
+RPM_HASH = "36269ea400ef9503ef090fc4c047f35b77254c5e35bf55a94a056bdedd0f70bb78f8d4d584beb130a234f0d31e61c7cd966dacdf40b6e923337979760b6f0312"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-auto-pst-pdf-lua.sty \

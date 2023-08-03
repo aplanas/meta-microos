@@ -7,10 +7,10 @@ replace the old Azure Service Management (ASM). \
 This package has been tested with Python 2.7, 3.5, 3.6 and 3.7."
 LICENSE = "MIT"
 
-PV = "30.0.0"
+PV = "30.1.0"
 
-RPM_NAME = "python39-azure-mgmt-compute-30.0.0-1.2.noarch.rpm"
-RPM_HASH = "eb0723ab4b7169b97088b0480177197f928b5e1d256d42967d5d72ced605d6571b8cb6a9c16c8fc65939da4578da50e84c267565d331371b8a0b3048b5a55a00"
+RPM_NAME = "python39-azure-mgmt-compute-30.1.0-1.1.noarch.rpm"
+RPM_HASH = "4ef8391a7e3a70cf7cb1284c52d86a3b3dc043c47003bd9dc1d64fd275c2b72f07941c26f51a35a21a7887488ebefa9b887e8f6f10cf70b7d60466f8e54e7261"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-compute \

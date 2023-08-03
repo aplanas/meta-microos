@@ -8,10 +8,10 @@ broken across columns or pages and display formulas separated \
 from their introductory paragraph."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0esvn66532"
+PV = "2023.209.1.0esvn66532"
 
-RPM_NAME = "texlive-widows-and-orphans-2023.201.1.0esvn66532-53.1.noarch.rpm"
-RPM_HASH = "9254e0a472608bf97f21501083cb4290a797cba3542d070cb3bffc5a9ee987694fe5808e5c7ecd1546c4077790433cb102da4e1671f8f228c040594cb8b5362a"
+RPM_NAME = "texlive-widows-and-orphans-2023.209.1.0esvn66532-54.1.noarch.rpm"
+RPM_HASH = "7295addc74b1831db38e616c0af1263794c779f9cf30ed65184a40686bdf98769048b2f36334bb56fb6bd2e0bcf063359a4f52d13f38c19c895fb5abd58f6e63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-widows-and-orphans.sty \

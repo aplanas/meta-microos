@@ -6,10 +6,10 @@ same high-quality level of typesetting that LaTeX does for \
 scientific text."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "2023.201.2.85svn65952"
+PV = "2023.209.2.85svn65952"
 
-RPM_NAME = "texlive-asymptote-2023.201.2.85svn65952-53.1.noarch.rpm"
-RPM_HASH = "68f12a0084e40f5b6ef334b13e7e350a6f7f0519411b503bf88bd7000cd8271c7d2f009d6e7e145495aad6a0d8da6798a1e4fe29e4e7349e0a01955cff1856ac"
+RPM_NAME = "texlive-asymptote-2023.209.2.85svn65952-54.1.noarch.rpm"
+RPM_HASH = "1b94d6d852ebc7cd8901dc2c5f0d22c29a6b5cbfe7dcb8b16d4297fd00590e32000c706619a7c951b6e91b8fd2dd180c3bac99bc8622a09bec947cc5b70ac9fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-asycolors.sty \

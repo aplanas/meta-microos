@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "253.7"
 
-RPM_NAME = "systemd-mini-container-253.7-1.1.aarch64.rpm"
-RPM_HASH = "64629fbdbef2c7be4e8f4f63f90e630b321b9f8df175c7e33f790b5d961b85fc39e31125ee74a1ec354ec38b8cb0595dd03bf6e0a9f9e0dcc61f8628c0be2e81"
+RPM_NAME = "systemd-mini-container-253.7-2.1.aarch64.rpm"
+RPM_HASH = "7dca94e0b54107aad3787a6fe570a1b2a043df8de939e8520a9b3157aeba148f3c546993cbfd4e08190d1f1c84899e89b5ff3a9193b76799d71c243eed605fc9"
 
 RPROVIDES:${PN} += "nss-mymachines \
 systemd-/usr/bin/systemd-nspawn \

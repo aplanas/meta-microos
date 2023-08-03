@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-textcase"
 DESCRIPTION = "This package includes the documentation for texlive-textcase"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.03svn63868"
+PV = "2023.209.1.03svn63868"
 
-RPM_NAME = "texlive-textcase-doc-2023.201.1.03svn63868-54.1.noarch.rpm"
-RPM_HASH = "f6492799cc4ed1d421e4f5e2d0d5ffca754c19a7a84323bd839015144ae93b5bb65c9c977edb8bd849dca11680e95c89feb38d14e24bc87f70fadbe4ecac516a"
+RPM_NAME = "texlive-textcase-doc-2023.209.1.03svn63868-55.1.noarch.rpm"
+RPM_HASH = "245413a9d193d427a6fa323125571a488e3fd3ec86113ec8170d93d1f873633f0a4ae03f91cb95744fa0c2b000d1ccf99197f789afd434495aef28e427f7467f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-textcase-doc"

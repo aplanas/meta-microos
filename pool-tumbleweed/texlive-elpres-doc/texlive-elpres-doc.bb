@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-elpres"
 DESCRIPTION = "This package includes the documentation for texlive-elpres"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.1svn60209"
+PV = "2023.209.1.0.1svn60209"
 
-RPM_NAME = "texlive-elpres-doc-2023.201.1.0.1svn60209-53.2.noarch.rpm"
-RPM_HASH = "0f4f679917c578f2bc390642d3399fb2b167fdc309011703c94003f6329155aa95dfc5cab3d701c6a572c4c25b85632a76e1e6b4fa1415f03b0d8bf93ec135d6"
+RPM_NAME = "texlive-elpres-doc-2023.209.1.0.1svn60209-54.1.noarch.rpm"
+RPM_HASH = "1ef98fe93e1b658cae16cd0e5ae7256b2e6939a470af3cf2c2279ce6e36870e0f951a8d9f320ed1db3e86d5e3dd4cd754b47aecee17779861ac8bda76004ac0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-elpres-doc"

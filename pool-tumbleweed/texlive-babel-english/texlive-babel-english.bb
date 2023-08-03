@@ -5,10 +5,10 @@ hyphenation patterns for British English and Australian text, \
 and default ('american') patterns for Canadian and USA text."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.3rsvn44495"
+PV = "2023.209.3.3rsvn44495"
 
-RPM_NAME = "texlive-babel-english-2023.201.3.3rsvn44495-53.1.noarch.rpm"
-RPM_HASH = "e2e56e91d71e9b55a849965d1e9d6cced3693e7b34e7b3f3f2ec62bc45be6c23487dd7bf3bd3331e6a027e44e51ee508351d0763a8c036dc181fc97d27acf41e"
+RPM_NAME = "texlive-babel-english-2023.209.3.3rsvn44495-54.1.noarch.rpm"
+RPM_HASH = "206805006dbc7349d44e0befdd9e0af0ad3d84a6533e92a00ce933b6242d06c9ba8086d4562313f5aaf74ff95de8bbcd28530373e2d69c9c72783877db5536f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-UKenglish.ldf \

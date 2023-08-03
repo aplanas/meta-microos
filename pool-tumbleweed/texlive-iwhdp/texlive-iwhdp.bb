@@ -4,10 +4,10 @@ Halle Institute for Economic Research (IWH) in Halle, Germany. \
 The class offers options for both English and German texts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.50svn37552"
+PV = "2023.209.0.0.50svn37552"
 
-RPM_NAME = "texlive-iwhdp-2023.201.0.0.50svn37552-55.1.noarch.rpm"
-RPM_HASH = "5fcd5dd798b5e0ab457667775e0f8f290116786c8d06c2a3d054b4f24bd6ffc3e8479f823eb38295280ba0b5028931e006ba754c251e6733e38cbca75ed18193"
+RPM_NAME = "texlive-iwhdp-2023.209.0.0.50svn37552-56.1.noarch.rpm"
+RPM_HASH = "d3ed489e1287fc116d08d1bddb205537eb75e3860446d501a93e35e3e3992c58c0fc347be45722242b60f47b583f5f26b91fcde95dee3744f992e2ee9d55663a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-iwhdp.cls \

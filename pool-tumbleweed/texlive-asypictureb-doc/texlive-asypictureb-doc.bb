@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-asypictureb"
 DESCRIPTION = "This package includes the documentation for texlive-asypictureb"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn33490"
+PV = "2023.209.0.0.3svn33490"
 
-RPM_NAME = "texlive-asypictureb-doc-2023.201.0.0.3svn33490-53.1.noarch.rpm"
-RPM_HASH = "1b207f5bf418e4d75eb414d423154f686aae492459bb2d5cd6dbae795f8b732d9a5b4a46fa3aed1b8717a523fdae20d51ba9bf21fd73f26c4c15f1dbb049563e"
+RPM_NAME = "texlive-asypictureb-doc-2023.209.0.0.3svn33490-54.1.noarch.rpm"
+RPM_HASH = "dbd2282286e0bdaf9baf1a2b12d3b75101c0b41046716a8ac7fc71a1a95b29e02e7273a3799d4f478d503fa94d0e553d81a375bc4657e5245bce3418172e6af4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-asypictureb-doc"

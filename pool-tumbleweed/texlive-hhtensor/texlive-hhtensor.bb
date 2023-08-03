@@ -4,10 +4,10 @@ tensors with different styles -- arrows (as the LaTeX default), \
 underlined, and bold."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.61svn54080"
+PV = "2023.209.0.0.61svn54080"
 
-RPM_NAME = "texlive-hhtensor-2023.201.0.0.61svn54080-53.2.noarch.rpm"
-RPM_HASH = "9c7b76370fe71d1673d2c6c18ca01fe665cd4543256f7a52bace7302ccae5eaf1b32b73d7420599ca301f15be9898ec272851a445dd745dbeb545d21fc7cdd8b"
+RPM_NAME = "texlive-hhtensor-2023.209.0.0.61svn54080-54.1.noarch.rpm"
+RPM_HASH = "fcf3ceb0d66964bf5528202546a191e0b89c2b121b233d38913c010ce9944132c5509dba022304b857356a5c4fe52fd6469f6b06fd163836bcdbf50654d32406"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hhtensor.sty \

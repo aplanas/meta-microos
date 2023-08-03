@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.1.6"
 
-RPM_NAME = "apache2-mod_apparmor-3.1.6-1.1.aarch64.rpm"
-RPM_HASH = "c2975970093bc43ced6e0ef0c9a2819a671d25404c07a86f351745c36ec3ee8de26a6972c648328c115da2463b1a59ee90248b2f50648c912b79db9465c718d3"
+RPM_NAME = "apache2-mod_apparmor-3.1.6-2.1.aarch64.rpm"
+RPM_HASH = "6a06f2216d49d49a337d7b9e7db2fdd7b58ebabc24318c5956f46a1ddf785e0fe4be11e3af4bbf94d6a6afc91b7c36baba17134c3c024c5c5812753a95f055b8"
 
 RPROVIDES:${PN} += "apache2-mod-apparmor"
 

@@ -5,10 +5,10 @@ Pages with this attribute will be displayed in landscape \
 orientation by conforming PDF viewers."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.13svn64851"
+PV = "2023.209.0.0.13svn64851"
 
-RPM_NAME = "texlive-pdflscape-2023.201.0.0.13svn64851-51.1.noarch.rpm"
-RPM_HASH = "76b05a18c65411ff22824a93045b350c4ab9bbd7da851a179d3b9ddbca0aee5a68a0a96382837ed47f1d8c538877982df1eccd3cf85197b3b084dad12b60b89a"
+RPM_NAME = "texlive-pdflscape-2023.209.0.0.13svn64851-52.1.noarch.rpm"
+RPM_HASH = "fe9fabcf82e525f13ece8c7138fcfbf5f9aa28a43a12691b2c601b5ef500898994d4aba2dacf38607d02afc9e6fbc2f4476e78322e300d3dfd581be12275a1b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdflscape-nometadata.sty \

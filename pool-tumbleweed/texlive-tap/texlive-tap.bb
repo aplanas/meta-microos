@@ -6,10 +6,10 @@ is supposed to work with both Plain and LaTeX. An AWK converter \
 from ASCII semigraphic tables to TAP notation is included."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.0.0.77svn31731"
+PV = "2023.209.0.0.77svn31731"
 
-RPM_NAME = "texlive-tap-2023.201.0.0.77svn31731-54.1.noarch.rpm"
-RPM_HASH = "ec800aa8fe8657f6d204ddcba88d040e80d302d3e0e27afd3b5e9de45cbe250ec52992448b210d8b7bd19754287e5696bd5d427ab2b0a6b1b87adc5eb2eaf635"
+RPM_NAME = "texlive-tap-2023.209.0.0.77svn31731-55.1.noarch.rpm"
+RPM_HASH = "dec97ed352fa297a8ff2659d52765f90d64c35dfb85adbb228e7db8e1be2c29d5968448044ad3583474702fa69e12ca87a8db5d6f8a765a1e69fa407ba9a05ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tap.tex \

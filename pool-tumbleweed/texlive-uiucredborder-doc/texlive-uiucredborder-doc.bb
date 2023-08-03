@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-uiucredborder"
 DESCRIPTION = "This package includes the documentation for texlive-uiucredborder"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.00svn29974"
+PV = "2023.209.1.00svn29974"
 
-RPM_NAME = "texlive-uiucredborder-doc-2023.201.1.00svn29974-53.1.noarch.rpm"
-RPM_HASH = "aad07a34f80f900cdb5c375da3ccc25dba8d6ea72517ba34a27f74837bf54bb288f1e7b7e29358eb3a8811718f38dc5710393e07a5a8dd8301f28c4dba2ac6eb"
+RPM_NAME = "texlive-uiucredborder-doc-2023.209.1.00svn29974-54.1.noarch.rpm"
+RPM_HASH = "de2e13e04fb625f6770678aaac91fefbf57851ccc022f478eac1fba98e0d18c16de33de01be84f236e3a471bc9899b7944949e36b5cb6fc4b667d79246f6d2cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-uiucredborder-doc"

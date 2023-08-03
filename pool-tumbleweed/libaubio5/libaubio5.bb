@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.4.9"
 
-RPM_NAME = "libaubio5-0.4.9-9.1.aarch64.rpm"
-RPM_HASH = "d823a676a10ccd563ab1e753e6dbfcd3e1fe6c7fe3fb6f4e64a30266098b6c22212c492fc147f53d3afa1faf639f1fb29b65f5e9fd16a1b0556adc3a848a610b"
+RPM_NAME = "libaubio5-0.4.9-10.1.aarch64.rpm"
+RPM_HASH = "bcc1ba1f47989525ee390ec7618fdf28dad31476f6a904afc5e3886cd97cfa788c037e48f2cf76eac9ea5f77a628aed3c300205bf6ed2833d8325f3f6fa8d0b6"
 
 RPROVIDES:${PN} += "libaubio.so.5 \
 libaubio5"

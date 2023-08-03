@@ -11,10 +11,10 @@ opposed to, e.g., PostScript \\specials) they are fully \
 compatible with every LaTeX back-end processor."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.1.3svn29579"
+PV = "2023.209.1.3svn29579"
 
-RPM_NAME = "texlive-dashrule-2023.204.1.3svn29579-54.1.noarch.rpm"
-RPM_HASH = "4c2add4be87afa81c34141779598624ab7fe48c41416c6155c55973ce1fb0322e55177102ca9d87e0a207bb6b32bd9cfdf55f2ac819b6806d059c4babe705588"
+RPM_NAME = "texlive-dashrule-2023.209.1.3svn29579-55.1.noarch.rpm"
+RPM_HASH = "6acc50bb78a2f4e876b97e2aa588f1ead5ac8009e18349b0bbdb47116fab7892a5649a09db2804bd8fd15b8371521df7ad96642919e15e2dd0159ee81de93918"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dashrule.sty \

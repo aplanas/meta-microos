@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.42.3"
 
-RPM_NAME = "rygel-devel-0.42.3-1.2.aarch64.rpm"
-RPM_HASH = "26e804f4e385b90b2b6f424ea08dd362a1ff26153dc7492c798ffb8796e06a2e8e87b4beb17b3b929585f651ef270b59b77476c8ebccf1363eb208c36b600755"
+RPM_NAME = "rygel-devel-0.42.3-2.1.aarch64.rpm"
+RPM_HASH = "cd28cecbd50b5ba17e2b60b0d202c17386973662a6aa6a839008feae6f4e5ea43c9b132fc6cff170c224cbb04073a92b19f7d625063ccd54096c4bf0ba29df6e"
 
 RPROVIDES:${PN} += "pkgconfig-rygel-core-2.8 \
 pkgconfig-rygel-renderer-2.8 \

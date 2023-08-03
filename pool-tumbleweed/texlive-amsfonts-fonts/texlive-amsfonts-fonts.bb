@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-amsfonts"
 DESCRIPTION = "The  separated fonts package for texlive-amsfonts"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.3.04svn61937"
+PV = "2023.209.3.04svn61937"
 
-RPM_NAME = "texlive-amsfonts-fonts-2023.201.3.04svn61937-54.1.noarch.rpm"
-RPM_HASH = "ea7cf5eb8fea8008b23422e8eb14f960d7a1d8f54ae998fa56698035dfc6a92878b1834bef243d97db279007742362d72c4598f4b60297ec2ada5d994fd297f0"
+RPM_NAME = "texlive-amsfonts-fonts-2023.209.3.04svn61937-55.1.noarch.rpm"
+RPM_HASH = "3d2045ee71dabfb92147347f92f7372696a835ceb5aef803ffda5919a3dea3ea599bd875f59d834f131a521ef0ff56714f1c9be024c46301c574f0d2fba153a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains pretty printers for the C++ standard librar
 from GDB."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7552"
+PV = "13.1.1+git7597"
 
-RPM_NAME = "libstdc++6-pp-13.1.1+git7552-1.1.aarch64.rpm"
-RPM_HASH = "b901cc20c823bae33f9a5efae91a8a2265d528a5ad20717359d2aae487ce1e91c1e7b01f6b2b4d31189fc598b4634ef55bb52050f4f4f828bf8ab8a4f47f0759"
+RPM_NAME = "libstdc++6-pp-13.1.1+git7597-1.1.aarch64.rpm"
+RPM_HASH = "1e4ec6026f8f4d5758a6e94667af36b30b0394b1df8cca881aff324ae5a25ebcbd341b0c3eb2b709997d44ccfe68d21ec383131a5289e254af6057c20a3c74fb"
 
 RPROVIDES:${PN} += "libstdc++6-pp \
 libstdc++6-pp-gcc10 \

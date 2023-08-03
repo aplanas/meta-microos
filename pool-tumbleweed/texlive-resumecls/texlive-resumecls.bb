@@ -3,10 +3,10 @@ DESCRIPTION = "A LaTeX document class to typeset a resume or CV both in \
 English and Chinese with more ease and flexibility."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4.1svn54815"
+PV = "2023.209.0.0.4.1svn54815"
 
-RPM_NAME = "texlive-resumecls-2023.201.0.0.4.1svn54815-53.2.noarch.rpm"
-RPM_HASH = "3dc187121adef5ddb0a83b4a3f970db85ad2fe28c4ec04110673015cf68177da2c90a225958f0559f860f6ba843053eb252fd130f004d743ba787b7da148cc09"
+RPM_NAME = "texlive-resumecls-2023.209.0.0.4.1svn54815-54.1.noarch.rpm"
+RPM_HASH = "931656d18039c3491b995995c4979532c6b3cad2a363ccddcceb9e15708e45d000f203611a4a2798a65c0480cf397e728ea218fd5e09ecc870dec90779de9481"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-resumecls.cls \

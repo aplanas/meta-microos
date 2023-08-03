@@ -5,10 +5,10 @@ their research articles for submissions. The package has been \
 created and is maintained by the Typeset team."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn57757"
+PV = "2023.209.1.0svn57757"
 
-RPM_NAME = "texlive-hindawi-latex-template-2023.201.1.0svn57757-53.2.noarch.rpm"
-RPM_HASH = "8aba9d2e8e162685eae075a42fdcb988a115ae64a99b6f5fc792fed62b4e19bc561c841d06fb39d29f49d6ffe7be83fb84569ff63add89ba20a7d27d77a356b8"
+RPM_NAME = "texlive-hindawi-latex-template-2023.209.1.0svn57757-54.1.noarch.rpm"
+RPM_HASH = "efaed9b5823a6c5784ef8af9e7b39ccd45ddc11217fcf2861a71b8ad8ead1ce6a4e6c3f0acded249c7340df2f4d39eec5d3733e1e4f9db18ad48b5ec9b42d630"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hindawi-latex-template"

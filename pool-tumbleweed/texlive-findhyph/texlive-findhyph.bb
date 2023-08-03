@@ -5,10 +5,10 @@ contains enough context to enable you to find the hyphenated \
 word that's being referenced."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.3.4svn47444"
+PV = "2023.209.3.4svn47444"
 
-RPM_NAME = "texlive-findhyph-2023.201.3.4svn47444-52.1.noarch.rpm"
-RPM_HASH = "4833621e5a8ad96a6b831e81c13adef8df4f35d456291ee5c1c75687cfa2681e76739a0457e489eec0065ee390ca7215e85a0ed3a87fb3cc59898177c6f28d50"
+RPM_NAME = "texlive-findhyph-2023.209.3.4svn47444-53.1.noarch.rpm"
+RPM_HASH = "902cee7450ba205e840093b5ef0bbd2db90b5e1db86d2064a32e6b658725441bac6c5e4c880b211d6fc1cd8b665a7154e63c45306bd51d4dbc73b424792754a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-findhyph"

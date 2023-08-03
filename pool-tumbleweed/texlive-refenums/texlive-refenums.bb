@@ -8,10 +8,10 @@ text in the references is derived from the definition and also \
 rendered as hyperlink to the definition."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.2svn44131"
+PV = "2023.209.1.1.2svn44131"
 
-RPM_NAME = "texlive-refenums-2023.201.1.1.2svn44131-53.2.noarch.rpm"
-RPM_HASH = "f238a17c108b32bda1fd29fb0aadacdbdd11761f4bee4cff1ae7a5581e8d7b37a7c96b7887ce39ead971427646ebe3e5529e03b74eda3c2ea244081fdd8cd8b9"
+RPM_NAME = "texlive-refenums-2023.209.1.1.2svn44131-54.1.noarch.rpm"
+RPM_HASH = "534f6fae4919e8f601f74c43633c4de0e64ac7fcfc76392d581f2cdad4f5d4cb8e25ef6b1b76ae63405912dcbe8c6f499ba81fd27237292ec9c52ebc7bcc76c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-refenums.sty \

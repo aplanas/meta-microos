@@ -14,10 +14,10 @@ at the moment: English, French, German, Italian, Polish, \
 Portuguese, Spanish. Some help is needed for other languages!"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1asvn15878"
+PV = "2023.209.1.1asvn15878"
 
-RPM_NAME = "texlive-dvdcoll-2023.201.1.1asvn15878-53.2.noarch.rpm"
-RPM_HASH = "32450697a7b3d86e640b304216b3d71163bc70a0ad9237e5059c0cfa80b07122e8c0f2bca2d651e6856aee96e6492bb9d9bdbdd6ee68a7ebe0e78bd57cde4264"
+RPM_NAME = "texlive-dvdcoll-2023.209.1.1asvn15878-54.1.noarch.rpm"
+RPM_HASH = "0326148c6a5a03429205f29722058c215f73ea3cb8a053b536f8bf0c26e5a28c891e35156b4b9aecdb897187e496519d0ca2efc2849a8e32d81e2a98431295fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dcwrtbib.sty \

@@ -12,10 +12,10 @@ different aspects of your background. CurVe also comes with \
 support for use with AUC-TeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.1.16svn20745"
+PV = "2023.209.1.16svn20745"
 
-RPM_NAME = "texlive-curve-2023.204.1.16svn20745-54.1.noarch.rpm"
-RPM_HASH = "fce351ecb791b2feae86ce32e1a2d619f151f731c4a4e46a3929f5d7fef93f6324c23b637d3fa6e1f5e3937a7a9eed634142c6fec9089e3e56c6935c2e22a00a"
+RPM_NAME = "texlive-curve-2023.209.1.16svn20745-55.1.noarch.rpm"
+RPM_HASH = "a31c2cd0709622e1ab745330a5bd657b782e11559cbabfe671e35ec43f4aa0abe0c595a7ece019791654500080d1d89071302e7ae08b0fc3b251ecc6ca27f0ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-curve.cls \

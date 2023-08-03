@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-zebra-goodies"
 DESCRIPTION = "This package includes the documentation for texlive-zebra-goodies"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.8.0svn51554"
+PV = "2023.209.0.0.8.0svn51554"
 
-RPM_NAME = "texlive-zebra-goodies-doc-2023.201.0.0.8.0svn51554-52.2.noarch.rpm"
-RPM_HASH = "1c14c5bd0820b68c50a315000c19661220b8f29e93e6c9eef7e245475e812181fa010c780e76a017912959aca3baf617a5b383560872fcf668bf505427df71bb"
+RPM_NAME = "texlive-zebra-goodies-doc-2023.209.0.0.8.0svn51554-53.1.noarch.rpm"
+RPM_HASH = "5a92c8516ca7e932d69e7b5aa0cb9ef4102453b52294dc5a645cc35889ebb1e8da273fae6395020ae60e6fc41bdcf2fc2c751e616b6fb12302675c8cdf3c302b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zebra-goodies-doc"

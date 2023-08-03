@@ -14,10 +14,10 @@ possible to use any standard method to position text at \
 arbitrary places on a given page."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn64210"
+PV = "2023.209.1.3svn64210"
 
-RPM_NAME = "texlive-pdfoverlay-2023.201.1.3svn64210-51.1.noarch.rpm"
-RPM_HASH = "26d2fd94ff44b43f172e163b7cb8aa56a27a9c9edb6402b74c2759c92d321dae835dd964d3c264c9d5233897a68059059e49e0eb536fac4f02d310aeb26465b2"
+RPM_NAME = "texlive-pdfoverlay-2023.209.1.3svn64210-52.1.noarch.rpm"
+RPM_HASH = "befa929c21ae68fe1f7aa44dad7c1b177979c0a4913621eef789a89f390e94fa0b3fecc236d6384dc58d6f8a6a4003301e2e4b42923d6a5cdd219eefd09e9336"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdfoverlay.sty \

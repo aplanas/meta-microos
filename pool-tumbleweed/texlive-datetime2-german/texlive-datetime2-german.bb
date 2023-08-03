@@ -3,10 +3,10 @@ DESCRIPTION = "This module provides the 'german' style that can be set using \
 \\DTMsetstyle provided by datetime2.sty."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.0svn53125"
+PV = "2023.209.3.0svn53125"
 
-RPM_NAME = "texlive-datetime2-german-2023.201.3.0svn53125-52.1.noarch.rpm"
-RPM_HASH = "9236cabf3c5eeb0f008f18fee7d4ac15deba91b1e884a03f3bf698875ab5651bdda6e9ea1ab35a89c119249acc9d2384679d10e0c5cf1408f70e4f78cea4946b"
+RPM_NAME = "texlive-datetime2-german-2023.209.3.0svn53125-53.1.noarch.rpm"
+RPM_HASH = "ee3d670de2598bd4786555c51ed9edfa7fee67c7c9658a94ab56f4ce248dc4059c7b0883e6727157eac1a51bbd5eaf3048058ec9f0b99a85657541227ef868ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-de-AT.ldf \

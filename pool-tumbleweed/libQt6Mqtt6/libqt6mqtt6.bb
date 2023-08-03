@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 MQTT library"
 DESCRIPTION = "Qt library to implement MQTT protocol version 3.1 and 3.1.1"
 LICENSE = "GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6Mqtt6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "952d4560abefb4f5cad2a49ab3e33ff30193bb6f7c182a475bda383949be72d8a27f528a6f5505d8f86e212e6a74bd794fc12f8ce6bdb14af8e5c9a5a684e370"
+RPM_NAME = "libQt6Mqtt6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "48da29269881ece9d03d6bd63856eaea871fe8978ea92404969c19369028b0188915d59f37dc4c0536694ecd0267b54ac7c04c228d7818cfe6eb664f79a071a2"
 
 RPROVIDES:${PN} += "libQt6Mqtt.so.6 \
 libQt6Mqtt6"

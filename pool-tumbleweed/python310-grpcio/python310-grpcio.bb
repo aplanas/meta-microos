@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.56.0"
 
-RPM_NAME = "python310-grpcio-1.56.0-2.1.aarch64.rpm"
-RPM_HASH = "e149248948dfa032e3d158b024a89916f0bb342e66beb7ef66f5f17eacde6c06c0ad575a8c3f44fbbd9a80982b985504794aea42c038e0d4a0c18f65565f3edd"
+RPM_NAME = "python310-grpcio-1.56.0-2.2.aarch64.rpm"
+RPM_HASH = "5ff3eb12df807b775d3d1e909214c4b427eca98533e3f31288fff17d400963600b2b915aff9195094912e4906ccf1eb777c4516dfe03c66dc040a65891515c07"
 
 RPROVIDES:${PN} += "python3.10dist-grpcio \
 python310-grpcio \
@@ -19,7 +19,7 @@ libc.so.6 \
 libcares.so.2 \
 libcrypto.so.3 \
 libm.so.6 \
-libre2.so.10 \
+libre2.so.11 \
 libssl.so.3 \
 libstdc++.so.6 \
 libz.so.1 \

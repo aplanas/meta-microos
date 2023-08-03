@@ -17,10 +17,10 @@ title pages, lists of symbols, as well as various graphic files \
 for logos."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.11asvn66379"
+PV = "2023.209.11asvn66379"
 
-RPM_NAME = "texlive-stellenbosch-2023.201.11asvn66379-57.1.noarch.rpm"
-RPM_HASH = "7669c1ced3abc73df42eb9d72c10a19115009964f890bc116481283ec9bd958cc549cc6630da19c695a82c2727153f0765e4ff40670f6d791e7a36bab0d03539"
+RPM_NAME = "texlive-stellenbosch-2023.209.11asvn66379-58.1.noarch.rpm"
+RPM_HASH = "8b159c35f95b7668ca85f412a4fc63ba56eacb9b94ee240e8bf170e727fd9536bd9883307da1c10acfbc5e739df8e9c4a0ed5fd5b36d8ea55f95e9f5b183f7b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-usbib.sty \

@@ -5,10 +5,10 @@ generated that use Type 1 fonts. The program makes use of code \
 donated to the X consortium by IBM."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66186"
+PV = "2023.209.svn66186"
 
-RPM_NAME = "texlive-ps2pk-2023.201.svn66186-52.1.noarch.rpm"
-RPM_HASH = "eb4bacc243b636fbd98cf23cbef11d1b42999cb10b0a4724f3f29a641dcce6e75ebaaeb60f5f99f26c6aeb314aaa0fcae024a315e6073de6768dfb927c70de6e"
+RPM_NAME = "texlive-ps2pk-2023.209.svn66186-53.1.noarch.rpm"
+RPM_HASH = "6c534cc65a11631ef64203cbba09e5823d1fa392f2e8eb00897be6ce374420d7024b90f56ff0dc482a7847218eeaa718e615497740a24573aea29f7e571dfa39"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-mag.1 \

@@ -6,10 +6,10 @@ packages of this sort) does not recommend this package; Picins \
 is recommended instead."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.3svn65097"
+PV = "2023.209.1.3svn65097"
 
-RPM_NAME = "texlive-picinpar-2023.201.1.3svn65097-51.1.noarch.rpm"
-RPM_HASH = "409d190c0779aac60a10b6f4739d50478cd8ff08d6dbb7ad6be7b006aa3debc42d6f0e493ed9d20593090f121942bf1216352c262bdcf90985862a825b9948d3"
+RPM_NAME = "texlive-picinpar-2023.209.1.3svn65097-52.1.noarch.rpm"
+RPM_HASH = "94c799391cc0b30d27746c75dc0db8d461d1bd2ddc628a8eff956868cc9c5eba901c25454996b624b211fda1471f8a65ce08a22a02e3d3346e86fb8c0f8eb9c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-picinpar.sty \

@@ -7,12 +7,12 @@ LICENSE = "Apache-2.0"
 
 PV = "2.7.0"
 
-RPM_NAME = "python3-osc-lib-2.7.0-1.2.noarch.rpm"
-RPM_HASH = "af3204f2cafa250bba3187253a2b66b25cc1ba88c7b08b59821427212267e0088a3659330ebb9b483e8b9e546dc50cf4d9171117f7f5fe83269586f373301f06"
+RPM_NAME = "python3-osc-lib-2.7.0-1.3.noarch.rpm"
+RPM_HASH = "8fb35cdced11a4f31c24dccfce03a0980e7086a81b379e74606bee730c42dc4c5b3c7d754c42ba0ea6b369348f9e0250ac8a834fc75f163eb9a8770aeed549c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-osc-lib \
-python3.10dist-osc-lib \
+python3.11dist-osc-lib \
 python3dist-osc-lib"
 
 RDEPENDS:${PN} += "python-abi \

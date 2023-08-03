@@ -5,10 +5,10 @@ d'Analyse Mathematique. Mathematics support is based on the \
 Belleek fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.12svn20408"
+PV = "2023.209.1.12svn20408"
 
-RPM_NAME = "texlive-jamtimes-2023.201.1.12svn20408-55.1.noarch.rpm"
-RPM_HASH = "e8b52039f4d9f03e98aceda3b1cd95c0e71036ed54aa5143354b6ecf1a1e4608f094da3e9a500518a5f27a9daad007168e1c2ca5c9bc57ba7900310b748c6823"
+RPM_NAME = "texlive-jamtimes-2023.209.1.12svn20408-56.1.noarch.rpm"
+RPM_HASH = "7227f8da58cc039705eb8bece8d8864d337bb96d440bfd59bb6b21318fb9e1b32527807f9c7dc2fe39fb003d791c4bf9bcb06fcb1bc8c5a08b7a438b9d104034"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-blsy.tfm \

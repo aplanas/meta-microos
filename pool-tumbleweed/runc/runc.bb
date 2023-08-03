@@ -5,10 +5,10 @@ of Docker. It was originally designed to be a replacement for LXC within Docker,
 and has grown to become a separate project entirely."
 LICENSE = "Apache-2.0"
 
-PV = "1.1.7"
+PV = "1.1.8"
 
-RPM_NAME = "runc-1.1.7-1.3.aarch64.rpm"
-RPM_HASH = "af4f1d3d5f3757bcf0117229307b40b932cc6a3fa88b356e6ac4464eca9789c03b932fc8d875e23175dbcf43d4b7bdf1b9e5271bb718698e3d260809f576314e"
+RPM_NAME = "runc-1.1.8-1.1.aarch64.rpm"
+RPM_HASH = "1dd12f469d5ecfa5d4b252246e544447cfc9f3dd35ace6331ef0433b2f618760afb50bcce1f8d423b3468450fcfb7994121610c876baed4540ae546960141d00"
 
 RPROVIDES:${PN} += "docker-runc \
 docker-runc-kubic \

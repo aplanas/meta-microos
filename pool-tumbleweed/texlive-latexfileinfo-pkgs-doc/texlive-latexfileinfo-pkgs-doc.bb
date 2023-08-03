@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-latexfileinfo-pkgs"
 DESCRIPTION = "This package includes the documentation for texlive-latexfileinfo-pkgs"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.22svn26760"
+PV = "2023.209.0.0.22svn26760"
 
-RPM_NAME = "texlive-latexfileinfo-pkgs-doc-2023.201.0.0.22svn26760-54.1.noarch.rpm"
-RPM_HASH = "77094646143ee0a84c5d29e2df27d692694e97daae1d8ab1f9fa84fbe67198970a0c87f9eb5b2d0b91e4af470308187ed86a428063013b21b9413164d9a56dcf"
+RPM_NAME = "texlive-latexfileinfo-pkgs-doc-2023.209.0.0.22svn26760-55.1.noarch.rpm"
+RPM_HASH = "36668d538a1269f90744c7b9717a40ae306f7f06dbc7308057552cdbcb4cde86addf08267eb88a66ad506ddcabedffd1480453b75382e8bfec59f82c9d8f4e3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latexfileinfo-pkgs-doc"

@@ -6,10 +6,10 @@ PDF output format. It has therefore been based on the very \
 impressive TikZ package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.2svn55966"
+PV = "2023.209.1.1.2svn55966"
 
-RPM_NAME = "texlive-pinoutikz-2023.201.1.1.2svn55966-51.1.noarch.rpm"
-RPM_HASH = "5a5624e5aa0f1f898173a7a81b9113749786109b154db79ac8e332742ff3c971e712b3ff78457e6cff72417159eb39233ccdfe7764baa8ce8c6b7c2967968739"
+RPM_NAME = "texlive-pinoutikz-2023.209.1.1.2svn55966-52.1.noarch.rpm"
+RPM_HASH = "5b72464b4c2a1b7a0b09acfe63d11db5d8f0f8ddbefc7f369adac2142973fdb72da728b08970e578d259559d74c917ac925bed395b7f08f71658394b6d8d6cea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pinoutikz.sty \

@@ -8,12 +8,12 @@ LICENSE = "Apache-2.0"
 
 PV = "5.2.0"
 
-RPM_NAME = "python3-barbicanclient-5.2.0-1.4.noarch.rpm"
-RPM_HASH = "6269b57a6e9a6cda70d80aadf628cf0fca921e987945e335e8c46b7582412615657bd4dcb4cfe421ef9afe009ba777ef24fd7b5e581aa16a40e59d6e115108d3"
+RPM_NAME = "python3-barbicanclient-5.2.0-1.5.noarch.rpm"
+RPM_HASH = "efb9deaff3f33f268ba4dcbf28c33be11198494cd09d41dd31b1e68fda9a191e83abd02233772b9f8d47320adc9b95dbb85b64c3f7fc8a38741611a257a056c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-barbicanclient \
-python3.10dist-python-barbicanclient \
+python3.11dist-python-barbicanclient \
 python3dist-python-barbicanclient"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

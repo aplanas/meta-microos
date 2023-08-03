@@ -5,10 +5,10 @@ the style described in the American Psychological Association \
 coverage of the requirements."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.0.0.3svn23350"
+PV = "2023.209.0.0.3svn23350"
 
-RPM_NAME = "texlive-apa6e-2023.201.0.0.3svn23350-54.1.noarch.rpm"
-RPM_HASH = "cd9597bbf447fcd485fc2827f99392d4dd035e8a67b8695c8db9ca582e58c8a34ce91f3fa110dfe05233cbf4fa3530a473f135ebb84d87fb7dcf1440f57236b3"
+RPM_NAME = "texlive-apa6e-2023.209.0.0.3svn23350-55.1.noarch.rpm"
+RPM_HASH = "d0f9dd2374083102e3ed52324b5f84ee124dd4786bfcc79be85ef852ff388d164544840fe06f1ae99bbfbc19b7431984e4eab1e5518eae21d0d300e641b1d46e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-apa6e.cls \

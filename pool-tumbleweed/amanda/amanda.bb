@@ -7,10 +7,10 @@ and/or GNU tar) and can back up a large number of servers and workstations \
 running multiple versions of Linux or Unix."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.5.3"
+PV = "3.5.4"
 
-RPM_NAME = "amanda-3.5.3-2.1.aarch64.rpm"
-RPM_HASH = "a1d0361e5a3adff142bea98e6a1de9d543ac538a07d641d5072e0748f1aa2911a3c6e721ec14cf872b208d2cb8cdc8f4c31d004779df2b4d7f4efbc43ee58112"
+RPM_NAME = "amanda-3.5.4-1.1.aarch64.rpm"
+RPM_HASH = "424d47a1840828567c88bdb596a5100db78a3c78eb11985d6405bb68286470f11502213debef2df679c014cdb4f044230db2289720213adcf498a355f0212cb4"
 
 RPROVIDES:${PN} += "amanda \
 config-amanda \
@@ -33,16 +33,16 @@ libTests.so \
 libUtil.so \
 libXfer.so \
 libXferServer.so \
-libamanda-3.5.2.so \
-libamandad-3.5.2.so \
-libamar-3.5.2.so \
-libamclient-3.5.2.so \
-libamdevice-3.5.2.so \
-libamglue-3.5.2.so \
-libamserver-3.5.2.so \
-libamxfer-3.5.2.so \
-libndmjob-3.5.2.so \
-libndmlib-3.5.2.so \
+libamanda-3.5.4.so \
+libamandad-3.5.4.so \
+libamar-3.5.4.so \
+libamclient-3.5.4.so \
+libamdevice-3.5.4.so \
+libamglue-3.5.4.so \
+libamserver-3.5.4.so \
+libamxfer-3.5.4.so \
+libndmjob-3.5.4.so \
+libndmlib-3.5.4.so \
 perl-Amanda--Amdump \
 perl-Amanda--Amdump--Message \
 perl-Amanda--Amflush \

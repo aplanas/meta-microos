@@ -5,10 +5,10 @@ language. The source of the filling text is the Persian epic \
 be run under XeLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn30171"
+PV = "2023.209.1.1svn30171"
 
-RPM_NAME = "texlive-ptext-2023.201.1.1svn30171-53.2.noarch.rpm"
-RPM_HASH = "1b258e54e4f227ba712aad1361df3548483cd5cecc6b6d0868d5d6f2f098126fd579794c215543c50cb7817486a810e0b2ce7a47e4146aab0bd6ccff7248c650"
+RPM_NAME = "texlive-ptext-2023.209.1.1svn30171-54.1.noarch.rpm"
+RPM_HASH = "3af1cd9ad84e75f331a28cd8b32661f404469e41d671887efdf6294e58a00b470fce726ec9e64ef0235ce412c98efa4ed7a6e5036ea94f0038fc9c07214ba567"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ptext.sty \

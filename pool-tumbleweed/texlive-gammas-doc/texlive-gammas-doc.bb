@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gammas"
 DESCRIPTION = "This package includes the documentation for texlive-gammas"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn56403"
+PV = "2023.209.1.1svn56403"
 
-RPM_NAME = "texlive-gammas-doc-2023.201.1.1svn56403-52.1.noarch.rpm"
-RPM_HASH = "37aaff5211a7e9e6388c8dc10d4da58701486d67518c715cadb8eb6e32686d81b12f7e59d5eb4774359331818f81410e71853f4185372f9e335e6e6e5d1d3ff9"
+RPM_NAME = "texlive-gammas-doc-2023.209.1.1svn56403-53.1.noarch.rpm"
+RPM_HASH = "9307f5b67d7bf8e8367960dbd9b47509ef7e3bda0d82ebcc8600fd59ee5138c50b1b45cb25a3475f4e5cca17d713fabf53aca73fd55a2ff013447bdf1e7db559"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gammas-doc"

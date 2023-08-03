@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-sansmathfonts"
 DESCRIPTION = "The  separated fonts package for texlive-sansmathfonts"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64661"
+PV = "2023.209.svn64661"
 
-RPM_NAME = "texlive-sansmathfonts-fonts-2023.201.svn64661-53.1.noarch.rpm"
-RPM_HASH = "14767eaf04935bf632f037da1e5c16b1404ed6fb7d6300da96cd59d71f1833a61739f342a6c6fee1fc49ad597a8d5b80b79f61b266e967ff8dff3df9b6475fec"
+RPM_NAME = "texlive-sansmathfonts-fonts-2023.209.svn64661-54.1.noarch.rpm"
+RPM_HASH = "849183ef4d68b348980191433fe23adf04f5a7fff342caa7448f3d0378f3549acfe45d031d2584cab7adc4438e57fc7c5fe4361103e45bfdfd166f5533459482"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

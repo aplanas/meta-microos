@@ -8,10 +8,10 @@ dissertation, and the respective title pages are available as \
 separate packages to work with any document class."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-uaclasses-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "b8cad33721bc607387d2552624663118cbb1ec9c82500c5c510dca139b376929175d1facde412dda0c04611a191067d08a0c3baade2df5c09effeece934d0d95"
+RPM_NAME = "texlive-uaclasses-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "72d1931d7559467b85cf965d2b52e5e651ba3edb3968b4a4506e2aed48c66e1d311adba59862ae63a08859a8f1b510e13ff4257f41a96c2a52dfae04bec421a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-my-thesis.cls \

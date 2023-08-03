@@ -5,10 +5,10 @@ structure of the tiles, see (for example) Jablan's JMM 2006 \
 Exhibit."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn16364"
+PV = "2023.209.svn16364"
 
-RPM_NAME = "texlive-jablantile-2023.201.svn16364-55.1.noarch.rpm"
-RPM_HASH = "8614fd79fa138c00f3891ce0559359958068cd949a21a9362748df23614014c42bb874e126a1d44cdcea75b73b7b893042ff2bccaddb32d99e481f621110b77a"
+RPM_NAME = "texlive-jablantile-2023.209.svn16364-56.1.noarch.rpm"
+RPM_HASH = "ba2a240a28b7ddcada276e8a6a96522af8a31d01d22dade7055fa1dcd3e309351c91d29a175903325734300e20255963f162a2e2ec9e4a0dd4fc7a9828f3a72c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jablantile"

@@ -9,10 +9,10 @@ flexible interface for configuring and customising the \
 formatting, layout, and representation of the exercise content."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.4svn53911"
+PV = "2023.209.3.4svn53911"
 
-RPM_NAME = "texlive-exframe-2023.201.3.4svn53911-52.1.noarch.rpm"
-RPM_HASH = "3a085f0909faf62cf588457ab009280a0fc1d2414e3c49ed5dffc6695150289b3cd290fa9b7e9e18daa3ac9998a3ae1a24977637108cafe1bf3edc5f0e644841"
+RPM_NAME = "texlive-exframe-2023.209.3.4svn53911-53.1.noarch.rpm"
+RPM_HASH = "1e3ec61b5cd33f2bc9cdc6ff8d05b3fcfde686f0e80f84416926c97bb21040995d3974093063690435bb0b2cdd57e46658f63dc133202729329bcd4ae78dcf95"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-exframe.sty \

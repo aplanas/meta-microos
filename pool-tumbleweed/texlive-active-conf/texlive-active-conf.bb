@@ -7,10 +7,10 @@ can be customised for conferences in future years with a header \
 file."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3asvn15878"
+PV = "2023.209.0.0.3asvn15878"
 
-RPM_NAME = "texlive-active-conf-2023.201.0.0.3asvn15878-54.1.noarch.rpm"
-RPM_HASH = "83b4ecb3328b3616d8320f969fc1c610ca769b3b7bc4576a2abe59596e6c2c26b10f65bac74bf1bf3bb38a6bcfd12514a10d23b09bd574f7281fcfbaf077a49c"
+RPM_NAME = "texlive-active-conf-2023.209.0.0.3asvn15878-55.1.noarch.rpm"
+RPM_HASH = "ccc866d56a35021ec675f0f35674abe6d3c67d74acb18c518ed95d47de339d5f55e64ffd1cdf3a4085a5c8cda2f2bf96388190b1e714ac2a1d6f03f11ae56125"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-active-conf.cls \

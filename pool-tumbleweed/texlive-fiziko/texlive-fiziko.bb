@@ -8,10 +8,10 @@ The library also contains functions to draw some objects \
 constructed from these primitives."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.2.0svn61944"
+PV = "2023.209.0.0.2.0svn61944"
 
-RPM_NAME = "texlive-fiziko-2023.201.0.0.2.0svn61944-52.1.noarch.rpm"
-RPM_HASH = "22ad4f5a55bc9a51d78425620e0639461a308d5c364818e54ccee60090bfae75a0071f805c3da7b08c89b777c34d7dc1ff59ebe7226dd2bb72829aff2558a5ce"
+RPM_NAME = "texlive-fiziko-2023.209.0.0.2.0svn61944-53.1.noarch.rpm"
+RPM_HASH = "aabd13f195a20139077c6daef9dcbd16d352740551e3a1ebe45e5ef0431e1235e7fbffbd6fcb4f84f2ecc2439e53e02eaa0dfdbd0a25d830adf53b5d23eb7835"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fiziko"

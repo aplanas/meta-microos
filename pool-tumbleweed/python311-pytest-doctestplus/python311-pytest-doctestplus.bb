@@ -4,10 +4,10 @@ advanced doctest support and enables the testing of reStructuredText \
 ('.rst') files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.12.1"
+PV = "0.13.0"
 
-RPM_NAME = "python311-pytest-doctestplus-0.12.1-1.3.noarch.rpm"
-RPM_HASH = "cec88a4b4fd6ea447354245e9dcd78a7ea6d15d325f1015eecb1e7d8ecaafeddad879af0ab4e4d65716e1d05130173855be5aa25e6937d64c52083b71853e3b0"
+RPM_NAME = "python311-pytest-doctestplus-0.13.0-1.1.noarch.rpm"
+RPM_HASH = "b4fc944f102a8b20c72bfe56355e376dbffd747799fd9a6eb8d0f4490b89b28250ea0d19a88a8190809b28d55f2136af74cb265f9b23ad553a5d0f88a1d0fd1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-doctestplus \

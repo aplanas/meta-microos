@@ -21,10 +21,10 @@ user commands for letterspacing only, omitting support for all \
 other extensions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.1asvn66587"
+PV = "2023.209.3.1asvn66587"
 
-RPM_NAME = "texlive-microtype-2023.201.3.1asvn66587-54.1.noarch.rpm"
-RPM_HASH = "14fd4b32aaebf9cf48c362154a96e0957ffddb735788a03b1822944d9737350dbc94359788feb05f629ac3700a82057e3ef151aad2d9ad27695cd3d9246f0a76"
+RPM_NAME = "texlive-microtype-2023.209.3.1asvn66587-55.1.noarch.rpm"
+RPM_HASH = "e6e4fe0946bb4ff6567666046defe7b79767ea306eddfd637409e023e00c95ee69122411af95a28651975e5accae8b4bb2eb23cfc33e2d7caed2e3c5dbe4e2eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-letterspace.sty \

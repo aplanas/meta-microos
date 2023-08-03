@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-ascmac"
 DESCRIPTION = "The  separated fonts package for texlive-ascmac"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.2.1svn53411"
+PV = "2023.209.2.1svn53411"
 
-RPM_NAME = "texlive-ascmac-fonts-2023.201.2.1svn53411-53.1.noarch.rpm"
-RPM_HASH = "f93bfeb9aa5d212cf1f337b28a079d1eac114e08a4fc9416a76a6200e023a268a6c6c1a248cc87f3f102b265164ae775e80ab74a8b8aa49fe8d0141655cc8b0f"
+RPM_NAME = "texlive-ascmac-fonts-2023.209.2.1svn53411-54.1.noarch.rpm"
+RPM_HASH = "ac2a1f399c22d9c552fbc0defbb6d85f780e7db4a25b495ffddeb67d0315a1c225b351351bf9d97513b2fbd019bdc8ed9fa4794aa23c6027768a673d5afa0622"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-tex\040ascgrp \

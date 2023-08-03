@@ -5,10 +5,10 @@ an extended version of package dichokey, as edichokey is more \
 capable of dealing with complex keys."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.01ysvn56223"
+PV = "2023.209.2.01ysvn56223"
 
-RPM_NAME = "texlive-edichokey-2023.201.2.01ysvn56223-53.2.noarch.rpm"
-RPM_HASH = "ef2932e4ace9316d36789532990507c97f92de840cc23afc1bf674145a93476f61f999948aa30e7e04baf6c5ac62a9407c47e766d56b3b56e30b3040d5b8e78e"
+RPM_NAME = "texlive-edichokey-2023.209.2.01ysvn56223-54.1.noarch.rpm"
+RPM_HASH = "d78040560caf849f898bed5c52c44d47620f956c2a3023357f244761017a42e328b57b9c704ee7372cfdda260dfc6348bfc7abcd7fdba63508f25d6f58085c20"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-edichokey.sty \

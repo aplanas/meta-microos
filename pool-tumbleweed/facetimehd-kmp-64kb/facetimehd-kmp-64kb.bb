@@ -2,14 +2,14 @@ SUMMARY = "Kernel driver for the Apple FacetimeHD webcams"
 DESCRIPTION = "Reverse engineered Linux driver for the FacetimeHD PCIe webcam"
 LICENSE = "GPL-2.0-only"
 
-PV = "0.5.18_k6.4.3_1"
+PV = "0.5.18_k6.4.6_1"
 
-RPM_NAME = "facetimehd-kmp-64kb-0.5.18_k6.4.3_1-1.57.aarch64.rpm"
-RPM_HASH = "ef38514c6041cc56ae89b92a17197b171c46c77e346ea58f61b3d82a30b272778af967217f7e43037719c67df7b0b61eb1c7023f2235e67ab243c38a42d2ec6a"
+RPM_NAME = "facetimehd-kmp-64kb-0.5.18_k6.4.6_1-1.59.aarch64.rpm"
+RPM_HASH = "ea1e13cb8d5025eba914a19c8a7b991d4cd5d79f390db0aa0486a68a613f253c0d25a43559101f1b0458e060aafb26ad87129edd107d91f65fa806ef28643713"
 
 RPROVIDES:${PN} += "facetimehd-kmp \
 facetimehd-kmp-64kb \
-facetimehd-kmp-64kb-k6.4.3-1 \
+facetimehd-kmp-64kb-k6.4.6-1 \
 kmod-facetimehd.ko \
 multiversion-kernel"
 

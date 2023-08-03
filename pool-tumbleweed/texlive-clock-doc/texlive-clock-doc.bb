@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-clock"
 DESCRIPTION = "This package includes the documentation for texlive-clock"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-clock-doc-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "3fad4f9e304452079fda8dcb6ee05e1a6b58739000a26b8d3d2733215bc7c66bb3a6c78e0db01bed810fed95e1bf40dc20248f91d8d0a32432418b9fd13c4a25"
+RPM_NAME = "texlive-clock-doc-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "dd0ef22fc78d436e46a76d2ac8ad2ebb3d10201f001b5afa85b632b8333c63117b13773b2fa5305bcc3008c8a45dbf3a10bf3c0023e2002b958f8f18ec09f318"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-clock-doc"

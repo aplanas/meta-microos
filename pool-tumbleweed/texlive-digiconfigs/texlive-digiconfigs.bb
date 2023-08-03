@@ -6,10 +6,10 @@ symbols. This package provides a convenient and compact \
 mechanism for displaying these configurations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5svn15878"
+PV = "2023.209.0.0.5svn15878"
 
-RPM_NAME = "texlive-digiconfigs-2023.201.0.0.5svn15878-52.1.noarch.rpm"
-RPM_HASH = "c591335fa4466fa85c163b3691ca1883501769e33a6c683d94472d2743546cfab22fe8dfe0e3788d9bc9f29e12794b1157ee9bb8095f91e3c1f77b23104cd191"
+RPM_NAME = "texlive-digiconfigs-2023.209.0.0.5svn15878-53.1.noarch.rpm"
+RPM_HASH = "0df427be63b4e82a24575998dd889f421d4bb82bb51a44251828141a1598acd0d78464940a68d40872a6cd9f5191162bdd8d36ae663373540d799468c8980880"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-digiconfigs.sty \

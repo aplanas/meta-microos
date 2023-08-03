@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.2.0"
 
-RPM_NAME = "python-barbicanclient-doc-5.2.0-1.4.noarch.rpm"
-RPM_HASH = "02a2580d4868d271355c9c6b3a80ef5b21eef90773bb9acc9829c7812aea00d1aed54b950b641430d95442ac355ad677a75e50eb555bbb26f750774a27941103"
+RPM_NAME = "python-barbicanclient-doc-5.2.0-1.5.noarch.rpm"
+RPM_HASH = "6f2bf927c0621381bbedbfd09f103d11b31798d4657417ee804b295d18993701e3f6217fcac015cfaaac130a02930159e6b24fd1a552e7aa49f6607fd55cb93b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-barbicanclient-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-qrcode"
 DESCRIPTION = "This package includes the documentation for texlive-qrcode"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.51svn36065"
+PV = "2023.209.1.51svn36065"
 
-RPM_NAME = "texlive-qrcode-doc-2023.201.1.51svn36065-53.2.noarch.rpm"
-RPM_HASH = "f8eff87cc9bfb13b078c8dd4de855b15e655e4a2a1413d0be4cbd153492fd215c66b7c07d0d63e34fa075d12ec495dab9a768b7189b90cd87d8fb75c3a75e8c9"
+RPM_NAME = "texlive-qrcode-doc-2023.209.1.51svn36065-54.1.noarch.rpm"
+RPM_HASH = "c0f275c640706f493781811b5041a18f607b9c8679a2be85ee51f97740f26ca9f1bfe4092cbb6d2dfffd6f75e3de07501dd736ed3964b63b1422320333d12bc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-qrcode-doc"

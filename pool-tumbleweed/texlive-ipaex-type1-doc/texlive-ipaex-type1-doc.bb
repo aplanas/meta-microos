@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ipaex-type1"
 DESCRIPTION = "This package includes the documentation for texlive-ipaex-type1"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5svn47700"
+PV = "2023.209.0.0.5svn47700"
 
-RPM_NAME = "texlive-ipaex-type1-doc-2023.201.0.0.5svn47700-55.1.noarch.rpm"
-RPM_HASH = "5e2a972cf505c2c151825cce173cc9304f7cd251b27b5e463ceb85397b1af73b919904eafd7d43a534080703d127c767850d285e4262307ca45e4525f90343c7"
+RPM_NAME = "texlive-ipaex-type1-doc-2023.209.0.0.5svn47700-56.1.noarch.rpm"
+RPM_HASH = "ee57d3570070dacb50773c5410c08132d61cd7cde7477e3472c1320c6f1f8eb607e61834606f095e54df6e391bc39398e7a5c50301947ac86ea913176937010e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-ipaex-type1-doc-ja;en \

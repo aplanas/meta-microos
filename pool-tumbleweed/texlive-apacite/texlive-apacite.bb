@@ -10,10 +10,10 @@ The package also includes a means of generating an author index \
 for a document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.6.03svn54080"
+PV = "2023.209.6.03svn54080"
 
-RPM_NAME = "texlive-apacite-2023.201.6.03svn54080-54.1.noarch.rpm"
-RPM_HASH = "50090916606d12425cb6a53dc58eb88e2427f06d36d87db4ae788a81cd9670868067aea61fa0fd8da7fb0e6e539996cb2f2d8fd545d210db14df9666ec7e36e9"
+RPM_NAME = "texlive-apacite-2023.209.6.03svn54080-55.1.noarch.rpm"
+RPM_HASH = "01b3820bd9d1d1013d6cadd23b45cea6e20d31ecb830fa0f8256d8a49a1ca784ca7bc934a9b14624e6b129e073badb04d024f86dbb0634a998ec7007b99eed83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-apacdoc.sty \

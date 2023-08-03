@@ -21,10 +21,10 @@ details. Here are some 'features': \
  * when something goes wrong, you get an exception"
 LICENSE = "ISC"
 
-PV = "1.0.0"
+PV = "1.0.1"
 
-RPM_NAME = "python39-snimpy-1.0.0-2.7.aarch64.rpm"
-RPM_HASH = "ae493d5dd9c0bde8705bdb768113eef86ec16c6c932ab1d2e5df849e1477b1eca5cc852664e5ad9f34e9d2295844aa994ebb3b67d909870f0eeca4946f8dd761"
+RPM_NAME = "python39-snimpy-1.0.1-1.1.aarch64.rpm"
+RPM_HASH = "dc92a5f9573333e0ef958ba2c8f81d31ae0d5c8cbf64b03424c8fbcd5b72661e5398366960f1e9c07c1c75d93a6dc887847dee3dd1fd8a012df2e6f84e0d0869"
 
 RPROVIDES:${PN} += "python3.9dist-snimpy \
 python39-snimpy \
@@ -37,7 +37,6 @@ libc.so.6 \
 libsmi.so.2 \
 python-abi \
 python39-cffi \
-python39-pycryptodomex \
 python39-pysnmp \
 python39-setuptools \
 update-alternatives"

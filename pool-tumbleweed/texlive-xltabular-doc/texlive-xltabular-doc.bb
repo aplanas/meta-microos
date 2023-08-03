@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xltabular"
 DESCRIPTION = "This package includes the documentation for texlive-xltabular"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2esvn56855"
+PV = "2023.209.0.0.2esvn56855"
 
-RPM_NAME = "texlive-xltabular-doc-2023.201.0.0.2esvn56855-52.2.noarch.rpm"
-RPM_HASH = "2f51b4f9c59456180e72f9378e4d3f62e23b9a4c4df322c71a29ddbafc244d4edc96de4e63d222f7b1ab096c876437546a29ecb324541c993ad091027477ec37"
+RPM_NAME = "texlive-xltabular-doc-2023.209.0.0.2esvn56855-53.1.noarch.rpm"
+RPM_HASH = "5e3baa8ea06e2b5193a06a2ae1722dad88c96ab8d66f53e725b0947c8f0bf541b2aad6d1a43f0db82dc2c4d9c367a1d638a139552976575fe0e1366ebbbd1b73"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xltabular-doc"

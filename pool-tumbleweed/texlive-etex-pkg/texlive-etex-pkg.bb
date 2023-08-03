@@ -6,10 +6,10 @@ register range. The etextools package provides macros that make \
 more sophisticated use of e-TeX's facilities."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.7svn41784"
+PV = "2023.209.2.7svn41784"
 
-RPM_NAME = "texlive-etex-pkg-2023.201.2.7svn41784-52.1.noarch.rpm"
-RPM_HASH = "776accf4e30897ed1a89dcbc1784229402895bcbe2fd0ed5554f1d6491435190e2872d8316335f30b70b4b6f2111a2e44db763cda62898d1db1e16d8f7a2ed3e"
+RPM_NAME = "texlive-etex-pkg-2023.209.2.7svn41784-53.1.noarch.rpm"
+RPM_HASH = "976b7bf99b6fb5f279996796daaca3625d16577ce79c6040814642b49311e2084423dcd1c8db1679f2be2d1f8fb10015a832265ab0b80d02d97e3c538540dab5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-etex.sty \

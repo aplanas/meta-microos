@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-dejavu"
 DESCRIPTION = "The  separated fonts package for texlive-dejavu"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.34svn31771"
+PV = "2023.209.2.34svn31771"
 
-RPM_NAME = "texlive-dejavu-fonts-2023.201.2.34svn31771-52.1.noarch.rpm"
-RPM_HASH = "9521523b459e81ed6fa35526d4f8e16759cf96c2878d9a7b550fe441c1ca3adbde6c8458ab66abac0b3ebefaec0cc2e6ae014029d26a8605e516f448edfbcde9"
+RPM_NAME = "texlive-dejavu-fonts-2023.209.2.34svn31771-53.1.noarch.rpm"
+RPM_HASH = "3b311bce692044c03018748d74a92538f0c39eb31dcb6a2be956652b200d70e7e462a6d95d5449af20b3444e9933b8e2b94829ab41c48d71ec68779bc33c2a86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-dejavu-fonts \

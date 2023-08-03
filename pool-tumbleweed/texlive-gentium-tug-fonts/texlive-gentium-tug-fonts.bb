@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-gentium-tug"
 DESCRIPTION = "The  separated fonts package for texlive-gentium-tug"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.102svn63470"
+PV = "2023.209.1.102svn63470"
 
-RPM_NAME = "texlive-gentium-tug-fonts-2023.201.1.102svn63470-52.1.noarch.rpm"
-RPM_HASH = "8d686e808da50e73ec5c8b1e912d84f833a5dd03d7b57c43668bfe2814e33c45930bb5359db9251ad88c08a0f702d4fad27f72aed1b81110408bef7459a640b2"
+RPM_NAME = "texlive-gentium-tug-fonts-2023.209.1.102svn63470-53.1.noarch.rpm"
+RPM_HASH = "8d36aad6540dd53452913ab1399aae5efc316dd5f4225098678540b3902c7a1ec5a52212fff7ff41b72864fbd7d078b6daed9a0101faf4849373651e935ac4d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-gentium-tug-fonts \

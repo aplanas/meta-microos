@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-blkarray"
 DESCRIPTION = "This package includes the documentation for texlive-blkarray"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.07svn36406"
+PV = "2023.209.0.0.07svn36406"
 
-RPM_NAME = "texlive-blkarray-doc-2023.201.0.0.07svn36406-52.1.noarch.rpm"
-RPM_HASH = "ee0bc5e79e6582e42832e64e3ff3034750e964337cfb16c9525b0196858316f94cd2a67be231ad0403cfcafc01037edc242ac7cb2d6c3801b87eb93193918a3d"
+RPM_NAME = "texlive-blkarray-doc-2023.209.0.0.07svn36406-53.1.noarch.rpm"
+RPM_HASH = "24180f2fe0d1fa05a9a95d42f5b0ba1907b8fb3e5c69d09945afe84665802069d2bc5c070c5dbb07ec5f83c3ff2e5f6592c523c8268e66fe41556bbbce9cbd98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-blkarray-doc"

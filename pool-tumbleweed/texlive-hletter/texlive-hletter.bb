@@ -6,10 +6,10 @@ provides commands to include a scanned signature and two \
 signees. The package works with the merge package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.2svn30002"
+PV = "2023.209.4.2svn30002"
 
-RPM_NAME = "texlive-hletter-2023.201.4.2svn30002-53.2.noarch.rpm"
-RPM_HASH = "c69dd5f189414cb9cc3aac0fce08a753b5e73cf0eed5691f5d0c33dedd34ac51cf0f99685c3e60762f91aa391aee09f8b2daae5492500abb8de84e00c763d93a"
+RPM_NAME = "texlive-hletter-2023.209.4.2svn30002-54.1.noarch.rpm"
+RPM_HASH = "99f8b95f6791d4247cfd7ebd24cfb87598fb666df0d462875a8399abbcf92d09dfb327dde28d12387eb0d5703448ab7660b75f8090ad3e40fd656552d1397dd6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hdefine.clo \

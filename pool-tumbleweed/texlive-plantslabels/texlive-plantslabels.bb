@@ -3,10 +3,10 @@ DESCRIPTION = "The package defines a command \\plant, which has three mandatory 
 and seven optional argument. The package uses the labels"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn29803"
+PV = "2023.209.1.0svn29803"
 
-RPM_NAME = "texlive-plantslabels-2023.201.1.0svn29803-51.1.noarch.rpm"
-RPM_HASH = "e4f1f196658581cd80ac8009005c0d31d33d2b54195d055b7fee5dfdfcf23edafbd3cb2c8ffe6eb6d7e733de8a862bc8aca9d43a612d7a2694aa1a6c74e9747e"
+RPM_NAME = "texlive-plantslabels-2023.209.1.0svn29803-52.1.noarch.rpm"
+RPM_HASH = "845aa1ee6efd82f38c5e2b492d2afe8809fbb717b49dc80af3839391c293971e6eb090934e65f418a08ad7b8489c41664895119abd6ecc41446f4624f7184d33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-plantslabels.sty \

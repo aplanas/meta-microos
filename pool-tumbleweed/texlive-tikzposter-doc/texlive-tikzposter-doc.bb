@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tikzposter"
 DESCRIPTION = "This package includes the documentation for texlive-tikzposter"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn32732"
+PV = "2023.209.2.0svn32732"
 
-RPM_NAME = "texlive-tikzposter-doc-2023.201.2.0svn32732-52.1.noarch.rpm"
-RPM_HASH = "042323ab69708071cb38745c9a49c20316f25d01fb73864f59dbe469612fd79262522297b1f8884f2cd8ea5fdd3e29a25d6a8a07ee9ddb602243ba725ce93352"
+RPM_NAME = "texlive-tikzposter-doc-2023.209.2.0svn32732-53.1.noarch.rpm"
+RPM_HASH = "f276dc1c81178881010e48bdfc67321b945fa5890b81ff2737f4b33c82b83d977b2c0ab06cac3356ccb617fbbe2ca044e9c9b300e8a3db216447a975d2aabdd3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikzposter-doc"

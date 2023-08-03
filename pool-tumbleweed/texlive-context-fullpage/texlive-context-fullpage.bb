@@ -3,10 +3,10 @@ DESCRIPTION = "The (ConTeXt) module copies the functionality of the fullpage, \
 and adds a styling parameter, given in the \\usemodule command"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn47085"
+PV = "2023.209.svn47085"
 
-RPM_NAME = "texlive-context-fullpage-2023.204.svn47085-54.1.noarch.rpm"
-RPM_HASH = "132156dbbdfe297637d10ae77489cb3cd80e535c6dad85df52b94dd8f96c07711c924ea932d4378791f881d436377a74d4edb78a79da8ad205076eb141d4dc07"
+RPM_NAME = "texlive-context-fullpage-2023.209.svn47085-55.1.noarch.rpm"
+RPM_HASH = "792b7e0119d2f114d1e118162eb26058161c26c73fccd703a261445c5ed17699c11f083eb3bf00a97a77dd057fc14865e2807c6f3d76883f6ef022e4fff513da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-fullpage"

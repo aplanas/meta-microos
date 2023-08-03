@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides bold latin and greek characters within \
 \\mathversion{normal}, by using ~ and ' as prefix characters."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-boldtensors-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "45fbf11c7b978bee93fb2c591f397a402f96507196d99c155ef2d03efcb8b8ea10acf3b78726ef8c86468a54f22ee6c7ce2c7491a5a12a62278f0af37687a410"
+RPM_NAME = "texlive-boldtensors-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "29f01789507ae86fbcc9011904f38cb53b5ea95c5f0ac61aabd514c99f8a49e230b52df82fa03c08a2082a104724893f3830c7cb5f47a559a08914d55daff2b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-boldtensors.sty \

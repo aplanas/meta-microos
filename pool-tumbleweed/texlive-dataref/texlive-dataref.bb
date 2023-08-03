@@ -5,10 +5,10 @@ as the project proceeds (and hence the project report \
 develops)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.0.0.7svn62942"
+PV = "2023.209.0.0.7svn62942"
 
-RPM_NAME = "texlive-dataref-2023.204.0.0.7svn62942-54.1.noarch.rpm"
-RPM_HASH = "fbfa13d13575e83a0fc3ba3d46f166d8c6a6b15c158dd1a49b8d08a35ff069f640a0f3193e9b02edd1ca6c7fa589fcfd63c43e644493e8519d8c42f80b41a7a7"
+RPM_NAME = "texlive-dataref-2023.209.0.0.7svn62942-55.1.noarch.rpm"
+RPM_HASH = "e15f90cdd59ecdfb53b4f794acda200646fd473aff04202119ebd58f84e30e8daeaaef49ed61fb61eb9dc8ea8730d0271e2dc6edc53464bc1f1e3f2ffe503680"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dataref.sty \

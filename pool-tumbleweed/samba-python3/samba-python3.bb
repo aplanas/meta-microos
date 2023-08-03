@@ -3,10 +3,10 @@ DESCRIPTION = "The samba-python3 package contains the Python libraries needed by
 that use SMB, RPC and other Samba provided protocols in Python3 programs."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.3+git.303.c08b73d523c"
+PV = "4.18.5+git.313.c8e274c7852"
 
-RPM_NAME = "samba-python3-4.18.3+git.303.c08b73d523c-1.2.aarch64.rpm"
-RPM_HASH = "8a06d780f52f14bd0d731a7981cf6884729d8257cff339743cd5985596dac22200be865bf4891cfd4ebb94a88e70b1eceafa1070ea50ce6494f1da27fa4aab8f"
+RPM_NAME = "samba-python3-4.18.5+git.313.c8e274c7852-1.1.aarch64.rpm"
+RPM_HASH = "09e649cca659018f478ccfca2ba04def0bc20ad4f28a095d698c56b12d7fbae5856fc24e95647c3f5cf39515e9020b28e9a2faaf14071116711b26f1891b16b0"
 
 RPROVIDES:${PN} += "samba-python3"
 

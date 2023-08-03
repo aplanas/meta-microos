@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221031"
 
-RPM_NAME = "libbde-tools-20221031-3.13.aarch64.rpm"
-RPM_HASH = "9246956361e711d8551a992a333c4139744aebf1d3f60a2187859da7e49f3f8c4dd9be5f4bf9273483d8ef17f448e2973f7da949fb62108adec27d39b8e20170"
+RPM_NAME = "libbde-tools-20221031-4.1.aarch64.rpm"
+RPM_HASH = "a6a60bea301b3324e75e1a96914fba57caed062af4a5a591c8c72c4637a00a2fab2b1cbae4e3d85a6f1797f57bbda1f9b016caba5c001baf18077aec8b82e43d"
 
 RPROVIDES:${PN} += "libbde-tools"
 

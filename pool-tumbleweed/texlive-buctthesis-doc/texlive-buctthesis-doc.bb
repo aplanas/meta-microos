@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-buctthesis"
 DESCRIPTION = "This package includes the documentation for texlive-buctthesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4.1svn64004"
+PV = "2023.209.1.4.1svn64004"
 
-RPM_NAME = "texlive-buctthesis-doc-2023.201.1.4.1svn64004-52.1.noarch.rpm"
-RPM_HASH = "d6d291f0c7525fac33e95e102bf403658c0cf05f29cc46314e78e29a08fe1434a0de17910f14ef00972be891f6c6e5195b1644b14375f673b4ee9e0699fa1003"
+RPM_NAME = "texlive-buctthesis-doc-2023.209.1.4.1svn64004-53.1.noarch.rpm"
+RPM_HASH = "ff1971ecae81d33d8c732c5b0656bde9682c2a2e16507ca6abb881a5cbe1465b1b86d652adf40657f574f18dc9764b14bb05a64d9fe1acf499c25960edcabc1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-buctthesis-doc-zh \

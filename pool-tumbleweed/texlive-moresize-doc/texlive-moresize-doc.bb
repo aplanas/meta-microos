@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-moresize"
 DESCRIPTION = "This package includes the documentation for texlive-moresize"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.9svn17513"
+PV = "2023.209.1.9svn17513"
 
-RPM_NAME = "texlive-moresize-doc-2023.201.1.9svn17513-54.1.noarch.rpm"
-RPM_HASH = "8810047291a45b409a43f9065dbe088148df392683c8ef3b81da8908a74f7ad34c23f3632dc87e1356fb5d442d5b9ac9fc9f0a5952c32628d65851ef9cc72df4"
+RPM_NAME = "texlive-moresize-doc-2023.209.1.9svn17513-55.1.noarch.rpm"
+RPM_HASH = "57e5aba1adb195b31c0ae3fec155b329d064bb2b526555bfe8d8bccc40fadd1e2f5d691d5311414b72d5bb3278e845617046caf94f54f64dc7de9bd05bf55fda"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-moresize-doc"

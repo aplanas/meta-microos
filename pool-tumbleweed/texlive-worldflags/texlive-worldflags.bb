@@ -8,10 +8,10 @@ flag (size, frame etc.) can be adapted using optional \
 parameters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn59171"
+PV = "2023.209.svn59171"
 
-RPM_NAME = "texlive-worldflags-2023.201.svn59171-53.1.noarch.rpm"
-RPM_HASH = "9437501c85dd18d97211cfa36567a305fd74bd4c9abe7fe937f90b8a2c2f37c478d33fbbd616b35d069bab40e6bf19decf0768e5e13a086cdbea58d018731eab"
+RPM_NAME = "texlive-worldflags-2023.209.svn59171-54.1.noarch.rpm"
+RPM_HASH = "eab698162f0b6f768561f46900c7807653b1f723b33b912573b8567f76cefd76634b2c40ed88acfcc37137be5dae5234681e74153c899d44323cb9da096c89a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-worldflag-0.tex \

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-archivo"
 DESCRIPTION = "The  separated fonts package for texlive-archivo"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.0.2svn57283"
+PV = "2023.209.0.0.0.2svn57283"
 
-RPM_NAME = "texlive-archivo-fonts-2023.201.0.0.0.2svn57283-54.1.noarch.rpm"
-RPM_HASH = "536171c2333b6bab25b28278ba0fb7afa76534033ab82984633e4f291f4f8f6d0124f1f94a9c32666c1a11bee7f550ce647a5812fa49a88d36078a6ac5d36c04"
+RPM_NAME = "texlive-archivo-fonts-2023.209.0.0.0.2svn57283-55.1.noarch.rpm"
+RPM_HASH = "000990e378481d628d85064b9fab441f6d21d84b1ad80e68f7fc4e602bce1713c4f5a21c992cd0eca5b136a483d4b84ae86208ff17db099252e26b3020cf281f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-archivo-fonts \

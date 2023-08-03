@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "253.7"
 
-RPM_NAME = "systemd-devel-253.7-1.2.aarch64.rpm"
-RPM_HASH = "6d9b504379063768b1263fcbafc9a4b4b93fe06dc647c00d65c9e8f243dc982ef4a1f94b804a6e034285c269a014a4010803b0637d4b34256eac72135e89a094"
+RPM_NAME = "systemd-devel-253.7-2.1.aarch64.rpm"
+RPM_HASH = "02f3c6ef68aefecad34bc1f50fa624605c6661536cb25bc6c59e2f5721be8be11c660c105867ad72f3e3275231f80613a6827b1ab56c89486e75542c245d062d"
 
 RPROVIDES:${PN} += "libudev-devel \
 pkgconfig-libsystemd \

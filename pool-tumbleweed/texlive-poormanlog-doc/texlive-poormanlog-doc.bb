@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-poormanlog"
 DESCRIPTION = "This package includes the documentation for texlive-poormanlog"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.07svn63400"
+PV = "2023.209.0.0.07svn63400"
 
-RPM_NAME = "texlive-poormanlog-doc-2023.201.0.0.07svn63400-52.1.noarch.rpm"
-RPM_HASH = "eb886ccb597a0fb87518b9eea472eacbbdb18078b7a444f9ec18edb888a3451428f4f39f948641ee9b328ee66321b1aafee5cb9409153a73bd0171bfe1bff20d"
+RPM_NAME = "texlive-poormanlog-doc-2023.209.0.0.07svn63400-53.1.noarch.rpm"
+RPM_HASH = "d665aebd06af732bb3db006f68034b53e389a20b8aeba6905a83e55f1b4fa054e612ac642060319a258014b3721d1513d643a43dd8d8e229d73bea7f455dffd3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-poormanlog-doc"

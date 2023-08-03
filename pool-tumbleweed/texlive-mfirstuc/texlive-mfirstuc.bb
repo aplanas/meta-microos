@@ -9,10 +9,10 @@ spaces. (Exceptions can be made for words that shouldn't be \
 converted.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.08svn64743"
+PV = "2023.209.2.08svn64743"
 
-RPM_NAME = "texlive-mfirstuc-2023.201.2.08svn64743-54.1.noarch.rpm"
-RPM_HASH = "76e0b8d9b6fde467262f11312b9c999fbbf43a854e29c01b12a032599a399aa9a56f367dc869b52c120890cee4b0182a1b93488f0ac195c1d2314fbafe0f92fd"
+RPM_NAME = "texlive-mfirstuc-2023.209.2.08svn64743-55.1.noarch.rpm"
+RPM_HASH = "738b54f3d8fd98bf067d7c5d85122ef030a6f2119d159a030af25d10e309ffca49f2e5c525332f5032cb7f14317ef1d5c58f56e50e402128c0cfb6e5e150cbe4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mfirstuc-2021-10-15.sty \

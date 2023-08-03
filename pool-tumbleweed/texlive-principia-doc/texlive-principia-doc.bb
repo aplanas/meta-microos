@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-principia"
 DESCRIPTION = "This package includes the documentation for texlive-principia"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn58927"
+PV = "2023.209.1.3svn58927"
 
-RPM_NAME = "texlive-principia-doc-2023.201.1.3svn58927-52.1.noarch.rpm"
-RPM_HASH = "28608c0d44b3deb24253f4c2d8b14eba667d0f518f6f74d955a48730f659975c208dee9e412d768546dea9aaaf71cdddedcd9c3c80125c6ebdc53a0e7765ba10"
+RPM_NAME = "texlive-principia-doc-2023.209.1.3svn58927-53.1.noarch.rpm"
+RPM_HASH = "663ad3bf350a72201e480657e5e4f775db7a957cdf01e06eb939b92e121561275ff929528c6222095e63f00ae466e5ddc44093daf4a21e3bfc51f1fc1796521b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-principia-doc"

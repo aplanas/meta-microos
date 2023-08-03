@@ -11,8 +11,8 @@ LICENSE = "OpenSSL"
 
 PV = "1.0.2u"
 
-RPM_NAME = "libopenssl10-1.0.2u-20.1.aarch64.rpm"
-RPM_HASH = "7ad5dd4398b70c5085e1b24408e9c20e3bfe3d51299b2318b5ab872a0032e18fc203e56821aa9b6fddaabb126c7dcf235548531311ade802d8bed8de9ea10240"
+RPM_NAME = "libopenssl10-1.0.2u-21.1.aarch64.rpm"
+RPM_HASH = "2c3cec055f22c4813f78862d6207287897d6bc4e5a8265a3e4aebb675c3c97e8ac376e732b48ca371c8066fe41233159bf0bf2c446d4769ebdf9bb17886ed50c"
 
 RPROVIDES:${PN} += "libcrypto.so.10 \
 libopenssl10 \

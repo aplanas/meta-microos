@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-rosario"
 DESCRIPTION = "The  separated fonts package for texlive-rosario"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1svn51688"
+PV = "2023.209.2.1svn51688"
 
-RPM_NAME = "texlive-rosario-fonts-2023.201.2.1svn51688-53.1.noarch.rpm"
-RPM_HASH = "6e3095f9a033caea1660455f70921b11d859a88e7f862b29956498e90dd89688ad1d411719bc5a4d50d33382b223e1594565551a696537c4fde54cff37d815c8"
+RPM_NAME = "texlive-rosario-fonts-2023.209.2.1svn51688-54.1.noarch.rpm"
+RPM_HASH = "c6fd8b8d979c9a0ae512061f72d4d00aad555d3a848e2298b24cc038aa0faaf57dd95ff7e15c338632131d70ed51ae6832f638a68b4a9f770d584acd38b74a42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-rosario-fonts \

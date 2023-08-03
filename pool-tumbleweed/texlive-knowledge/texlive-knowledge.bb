@@ -6,10 +6,10 @@ every reference of a concept linked to its introduction. It \
 also offers simple notations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.28svn61991"
+PV = "2023.209.1.28svn61991"
 
-RPM_NAME = "texlive-knowledge-2023.201.1.28svn61991-55.1.noarch.rpm"
-RPM_HASH = "d59f6d6bcd1fd1bd96fb239486ff99cfd9a2c8c772fdece8d1e00a496425cc94fdc3a8327dd3c703dcd5a0c846bb758dda4a37816db701c5082c2ba374b2188a"
+RPM_NAME = "texlive-knowledge-2023.209.1.28svn61991-56.1.noarch.rpm"
+RPM_HASH = "ee544fd9157774a740f50ef231dbaa293058130466fd857ac4304ad55d0b8dbab48746303a699b4eaf7101518a23f9bddcd4fd406c175734c15b4f50ea93f082"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-knowledge.sty \

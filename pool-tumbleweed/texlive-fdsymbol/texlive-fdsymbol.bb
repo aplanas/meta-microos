@@ -4,10 +4,10 @@ Fedra family by Typotheque, but it might also fit other \
 contemporary typefaces."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.8svn61719"
+PV = "2023.209.0.0.8svn61719"
 
-RPM_NAME = "texlive-fdsymbol-2023.201.0.0.8svn61719-52.1.noarch.rpm"
-RPM_HASH = "0b8e37cfda493ccf12d45e633a1e58e6fb56e8b44092b16892f1802fe0e923e664d511721a83c6299531374b1460cc3f1f0b17c717d9f61823933074f7640964"
+RPM_NAME = "texlive-fdsymbol-2023.209.0.0.8svn61719-53.1.noarch.rpm"
+RPM_HASH = "07c224c2eb684bb915526717679c43b2f43c739884a06732bda25f280cd82c6444ee50782a99d6615c1c6855c6531b076dab5b1f9001ff01459da80b99b41cb3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-FdSymbolA-Bold.tfm \

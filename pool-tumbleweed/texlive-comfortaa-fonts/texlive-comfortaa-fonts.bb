@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-comfortaa"
 DESCRIPTION = "The  separated fonts package for texlive-comfortaa"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.3.2svn54512"
+PV = "2023.209.3.2svn54512"
 
-RPM_NAME = "texlive-comfortaa-fonts-2023.201.3.2svn54512-53.1.noarch.rpm"
-RPM_HASH = "a22e6e826b4aab990a898d46e1a987a8bb7295a005b41b37c2db496fb6c2273b516746df23bc6b113fc8cf339c14cb5fc0f712a6c7ef6b233d87e08880c050af"
+RPM_NAME = "texlive-comfortaa-fonts-2023.209.3.2svn54512-54.1.noarch.rpm"
+RPM_HASH = "fb35ef0befab311499256b95f78f13f1de428c8a1f950808f4b7674813e75920fb97a9bce67769b83421b044028d87f1d63577442b626b235070f6c9a5d7237c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-comfortaa-fonts \

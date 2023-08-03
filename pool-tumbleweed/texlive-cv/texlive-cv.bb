@@ -6,10 +6,10 @@ formatting by deciding which class to use, while the package \
 provides the detailed formatting."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-cv-2023.204.svn15878-54.1.noarch.rpm"
-RPM_HASH = "bbfe59e7853515ecca4b22ae22422ce85e208f724873cd38a25288ccd7a89b7cc460b7538d7c3789bab10c8f95a9b55a8423d50365d6acf8a731341464302a9c"
+RPM_NAME = "texlive-cv-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "ab8f71905df004cb603f392308652456a48221f0125df39d07eb8e4441acaa7a74fdc6d8bfe125a72c29fe1bf442159d87c07df92f2af39cfcf5f74e752c2361"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-CV.sty \

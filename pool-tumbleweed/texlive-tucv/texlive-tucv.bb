@@ -10,10 +10,10 @@ relies on a 'sufficiently recent' copy of the l3kernel and \
 l3packages bundles."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn20680"
+PV = "2023.209.1.0svn20680"
 
-RPM_NAME = "texlive-tucv-2023.201.1.0svn20680-52.1.noarch.rpm"
-RPM_HASH = "c0094f3f791db9ec04cc7d0e9fde41d773ca0a8fcd46a1bed26316df2a814ff973f737f771656e2ad0775281b84e21fa7840e602b31cc6e06632725925b99146"
+RPM_NAME = "texlive-tucv-2023.209.1.0svn20680-53.1.noarch.rpm"
+RPM_HASH = "f68356af6ce785f82ac0599e5e2921f29b8917b24317eadcd3c7f6923ee83f1f321afe197e7c8aee7fc4eda92994eb91d24196a90d13dc1261150f737a1d4e4f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tucv.sty \

@@ -10,10 +10,10 @@ them in (mostly) arbitrary format. It can also print calendars \
 for non-English languages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn49362"
+PV = "2023.209.2.0svn49362"
 
-RPM_NAME = "texlive-texdate-2023.201.2.0svn49362-54.1.noarch.rpm"
-RPM_HASH = "30044effb8331e9d910d8b329d2537f786ec356b0226c126dbde2517b9da799f8e7a1869e149ff3ef66d4951780fd11db0b3f539b3646c271ed1cd29ada4cc54"
+RPM_NAME = "texlive-texdate-2023.209.2.0svn49362-55.1.noarch.rpm"
+RPM_HASH = "a44347048d12eb917c6c8291f17e2292ef184e00f716fedb478b3f517442de04f325f379402ce74595db9116d9f52b52bedd3b70be752a1354a0a0ea362f99dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-texdate.sty \

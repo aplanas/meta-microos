@@ -3,10 +3,10 @@ DESCRIPTION = "An development of omega, using most of the extensions of TeX \
 itself developed for e-TeX."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn66203"
+PV = "2023.209.svn66203"
 
-RPM_NAME = "texlive-aleph-2023.201.svn66203-54.1.noarch.rpm"
-RPM_HASH = "29a801e41e17f502ce6e3f3c2467792ad4c3aa5e066794491d4153c9a0c03a8df91d1831bd5aae8182bfe6143adedfe481c593c4d746d595726ef857aea7141d"
+RPM_NAME = "texlive-aleph-2023.209.svn66203-55.1.noarch.rpm"
+RPM_HASH = "ad99422034fa04d24b9d57eafcb76bee9d83a68129fb5fcab764cfd73548889ceac9f1a94d50c977412fbc0fd628d4c2859db587f0980bc65e0cad7a865946ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-aleph.1 \

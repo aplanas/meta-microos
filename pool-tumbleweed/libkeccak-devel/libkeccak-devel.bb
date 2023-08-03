@@ -8,10 +8,10 @@ A subset of Keccak was specified by NIST as SHA-3 (Secure Hash Algorithm 3). \
 This package contains the files required for development with libkeccak."
 LICENSE = "ISC"
 
-PV = "1.3.1.2"
+PV = "1.4"
 
-RPM_NAME = "libkeccak-devel-1.3.1.2-2.4.aarch64.rpm"
-RPM_HASH = "06392dd454dac3e3b93aec2d879f98a61e5ab9c21306377bc6a956ff16a8f6d69f37a054786a9d9b7abbb6064a0d4677b5749113d1e05f7b08f7d6cf1c7eb8d3"
+RPM_NAME = "libkeccak-devel-1.4-1.1.aarch64.rpm"
+RPM_HASH = "827fcc1ede9b1db1e8adb17c634f229edfe090bd083211afa4918dca5fc3eadeb8d0c5c1d6bff799d6cb819964dfa09eef5f5d7852be14c90cef059b8207e8e7"
 
 RPROVIDES:${PN} += "libkeccak-devel"
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for iio-sensor-proxy"
 DESCRIPTION = "This package contains the documentation for iio-sensor-proxy."
 LICENSE = "GPL-3.0-only"
 
-PV = "3.4"
+PV = "3.5"
 
-RPM_NAME = "iio-sensor-proxy-doc-3.4-2.4.noarch.rpm"
-RPM_HASH = "c971bdffa75048c05bc0da1d38a654c79a9f6ac93f9e365ffcab8afbf2c0dbb7a58a401fc9d906c5c933551c0f188f90c1b063ae62210103b04275edb92e0974"
+RPM_NAME = "iio-sensor-proxy-doc-3.5-1.1.noarch.rpm"
+RPM_HASH = "ca11693fd145b92e95f0cbd1bf7aff8c476942a5d004ccfe483f463e1b0a31cff6bfd8cc0168542888d6c47d71c6606df62dd983365bbe202d53daeaf97f5c63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iio-sensor-proxy-doc"

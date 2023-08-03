@@ -8,10 +8,10 @@ minipage)--and the internal commands may be used by other \
 packages to define similar environments or commands."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn15878"
+PV = "2023.209.0.0.2svn15878"
 
-RPM_NAME = "texlive-minipage-marginpar-2023.201.0.0.2svn15878-54.1.noarch.rpm"
-RPM_HASH = "5b1cacdf9fadb55eeb047dc81e42f5601522aedf5410e71fc0dbd525bd611797576c2e7eeefda9163b0cf8ecd50dcf64ff18358d790435cf98de844d2591d12f"
+RPM_NAME = "texlive-minipage-marginpar-2023.209.0.0.2svn15878-55.1.noarch.rpm"
+RPM_HASH = "4d1ab45265b01b5ad71284562b01be47c249f4520b272b2706e7e5941773eff879f500bd168371165a4a9fe7ef8061438d91983ce523f290c1d8fc58083c1a51"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-minipage-marginpar.sty \

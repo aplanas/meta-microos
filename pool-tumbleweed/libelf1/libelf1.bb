@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
 PV = "0.189"
 
-RPM_NAME = "libelf1-0.189-3.3.aarch64.rpm"
-RPM_HASH = "f8bc93e3d2eeaa70fac6583f20c308c48a5cf3705cb088101f8e0a0965ba7dcfa7a90f9340e5710a8c02f360a2f7ef746345bbc3a2b62a341ae9916e5f675bb7"
+RPM_NAME = "libelf1-0.189-4.1.aarch64.rpm"
+RPM_HASH = "2ceb48edfcf9c307016b6cd705bd650d86e46234d4d1e3998ad97367f23ca51e06c0dfaa9ec4a489bcc93c09e375834a56c43b8a40f2804279a83530dd3e86fb"
 
 RPROVIDES:${PN} += "libelf.so.1 \
 libelf1"

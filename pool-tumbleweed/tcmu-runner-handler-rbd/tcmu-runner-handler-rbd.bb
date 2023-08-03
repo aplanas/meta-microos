@@ -4,10 +4,10 @@ tcmu-runner, which allows for LIO/tcmu logical units to be backed by \
 RBD images."
 LICENSE = "Apache-2.0"
 
-PV = "1.6.0"
+PV = "1.6.2"
 
-RPM_NAME = "tcmu-runner-handler-rbd-1.6.0-1.4.aarch64.rpm"
-RPM_HASH = "0ad7df37ec8e9f9ac5e422b49d4603dc510f9b16812a5b0b26eae2a984ba65f057cf9d3dfee25e45761a361832ea67325dd4b296f83593aede5ef3a016b084dc"
+RPM_NAME = "tcmu-runner-handler-rbd-1.6.2-1.1.aarch64.rpm"
+RPM_HASH = "c950beaae06ec744968b8264d5008bc5ea52fed25e5fe60d7a1328d8ebdbe158c81d5bb80c3ad843b59e156bd9517827b19a9b356542af65bb67ec8de4081ae3"
 
 RPROVIDES:${PN} += "tcmu-runner-handler-rbd"
 

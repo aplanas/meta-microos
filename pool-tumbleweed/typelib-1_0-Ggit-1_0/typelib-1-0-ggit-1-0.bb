@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1.0"
 
-RPM_NAME = "typelib-1_0-Ggit-1_0-1.1.0-1.6.aarch64.rpm"
-RPM_HASH = "df8ed0f2029f7769c1b8fd69584619fee64d70bc5f67b532bbc3a0f14dd130f79d5a440002aebaf0424c4e0e19e8c4f3b725acfd753d38d4e4d92298925915d4"
+RPM_NAME = "typelib-1_0-Ggit-1_0-1.1.0-1.7.aarch64.rpm"
+RPM_HASH = "4f8b479f3f2a3efce87699c403cf60ad36142411a5f64a838b9f53a5025a18794b18ccc416441019afbf266be40ccefa958bdab79dd11170977cf55dcbe69e3e"
 
 RPROVIDES:${PN} += "typelib-1-0-Ggit-1-0 \
 typelib-Ggit"

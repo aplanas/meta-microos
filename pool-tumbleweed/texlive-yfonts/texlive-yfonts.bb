@@ -4,10 +4,10 @@ Haralambous: Gothic, Schwabacher, Fraktur and the baroque \
 initials."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4svn50755"
+PV = "2023.209.1.4svn50755"
 
-RPM_NAME = "texlive-yfonts-2023.201.1.4svn50755-52.2.noarch.rpm"
-RPM_HASH = "8cb334356baf7dcee7557dd0ebf9742d320eafc8cbe36247202d2d2fa52990cace43ee36c76fb248b79116c8cefe40adbfd068e6a29bbbd83432f5b905eeb111"
+RPM_NAME = "texlive-yfonts-2023.209.1.4svn50755-53.1.noarch.rpm"
+RPM_HASH = "372e5e4ef5130474079202b6f96ac73b11df06c0ecac8376baec097898590cf6cc236502d173baa207cc7dd47d10743c69ae1e060a06502108daa919b00cbb06"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-yfonts.sty \

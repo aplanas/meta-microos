@@ -6,10 +6,10 @@ the document as possible, leaving the author free to \
 concentrate on the pattern."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn17205"
+PV = "2023.209.svn17205"
 
-RPM_NAME = "texlive-knittingpattern-2023.201.svn17205-55.1.noarch.rpm"
-RPM_HASH = "b2f7569cf6b7aaaae285aa9ebf6f31c592af22e40aed26d3e494354fcd054a8446ec78ff5c6467679c2fd5572be7348b5c24b95d93051301c8c3d5a92db6abb9"
+RPM_NAME = "texlive-knittingpattern-2023.209.svn17205-56.1.noarch.rpm"
+RPM_HASH = "4d98663e8c0abd21de6345922c3bbb57dc65c6e5cf211ea4e8eb3c8bcb78743f3e172373fea14563aeac21280178fb898ac204265a0c258c4c3504092075e504"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-knittingpattern.cls \

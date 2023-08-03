@@ -4,10 +4,10 @@ Gotoh algorithm. The package also provides an interface to \
 control various settings including algorithm parameters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn44764"
+PV = "2023.209.1.1svn44764"
 
-RPM_NAME = "texlive-gotoh-2023.201.1.1svn44764-53.2.noarch.rpm"
-RPM_HASH = "f7ebebc6b5c8f5babbfec7a41aa1937511797ed36f0be5f4ba289992fbec0cdba5f88c981ae2ac4ed35571fefacc3296445a44dedf4b7838878a5bacafd45df3"
+RPM_NAME = "texlive-gotoh-2023.209.1.1svn44764-54.1.noarch.rpm"
+RPM_HASH = "275f37b916390e0c1d91a2980ef139c63ca3528fe6dae6801be9aebacd45a2dcccb21bcb833b2a6f4ddd8ef189912eaaef20f87f618ff085aa32ada122867aab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gotoh.sty \

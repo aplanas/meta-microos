@@ -9,10 +9,10 @@ elements of multiple arrays must be recallable and dynamically \
 combined at time of compilation, rather than in advance."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.1svn60540"
+PV = "2023.209.3.1svn60540"
 
-RPM_NAME = "texlive-readarray-2023.201.3.1svn60540-53.2.noarch.rpm"
-RPM_HASH = "31add5918e39adf6af928207b9e8668ba8632275978e88e6b5c6ad07fdc748aa1b3f45389561c8fd576577d26fd03e53f91f6ca1552ed3aeb4ebb871cd113a30"
+RPM_NAME = "texlive-readarray-2023.209.3.1svn60540-54.1.noarch.rpm"
+RPM_HASH = "07e83d42f46e283348519b7312c5f0c748f7e5a1fa0d9d9e76b72abbe5c460ab54065afc26768074316a18661516339db091d1a56fcba6391c817036b0e376ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-readarray.sty \

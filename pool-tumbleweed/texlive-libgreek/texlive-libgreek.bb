@@ -12,10 +12,10 @@ Libertine or Biolinum fonts. This package is for users which \
 only want to customize Greek letters in math mode."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn65004"
+PV = "2023.209.1.1svn65004"
 
-RPM_NAME = "texlive-libgreek-2023.201.1.1svn65004-54.1.noarch.rpm"
-RPM_HASH = "06e22c6e5f862f82a5dd063100914bfe6bfabf250dec06f6c2e5b7551e3b139dbab2f15713ef53b787e0d3f5e5cf5615fec7c917080757e3f0b0fde3ab0008da"
+RPM_NAME = "texlive-libgreek-2023.209.1.1svn65004-55.1.noarch.rpm"
+RPM_HASH = "a013106083730ca96f1dbd060036fbbf0602bfcb921f833ad45e41f72db178ae69c54f038bc6ab02af7e20dace3cf32ab7340c49d86d332ceed798a34889e05c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-libgreek-legacy.sty \

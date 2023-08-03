@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-svg"
 DESCRIPTION = "This package includes the documentation for texlive-svg"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.02ksvn57010"
+PV = "2023.209.2.02ksvn57010"
 
-RPM_NAME = "texlive-svg-doc-2023.201.2.02ksvn57010-57.1.noarch.rpm"
-RPM_HASH = "52197e50feea34c35e8644f141811b2061c14aaa448f135e953091c5e9dd64b62d4145964017e00eea963c77c35a1ce09c790690ee3ea66193e4b7945ddf0f9e"
+RPM_NAME = "texlive-svg-doc-2023.209.2.02ksvn57010-58.1.noarch.rpm"
+RPM_HASH = "ed2f5a4826a851a9c3b7a03afdbdd43b6c6a60de0ef03b5e195b2af8c520961f0841442c6343fbc2d1e4a5e5e07f8c8878e82bc6d0bdbdce2e806f2e71e10aa4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-svg-doc"

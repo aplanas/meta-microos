@@ -6,10 +6,10 @@ types. The package works with memoir as well as the standard \
 classes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3bsvn15878"
+PV = "2023.209.1.3bsvn15878"
 
-RPM_NAME = "texlive-trivfloat-2023.201.1.3bsvn15878-52.1.noarch.rpm"
-RPM_HASH = "20f48f23939c15d5b341e1ae9cafc51823c932b9abfae50536f5111f822b7eb8ab4839efa76bcd54d71056eff12563e65622dfa752378e67b551395e7049363c"
+RPM_NAME = "texlive-trivfloat-2023.209.1.3bsvn15878-53.1.noarch.rpm"
+RPM_HASH = "6695c70770e826f134ecd5120316bbffb40e60ee32e414700883cbec91944172c2600f583be06cfee115c6c2da5926fd0311cbdb9b114fbfb00546f744c08d86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-trivfloat.sty \

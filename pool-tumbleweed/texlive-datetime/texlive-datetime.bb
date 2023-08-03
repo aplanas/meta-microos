@@ -8,10 +8,10 @@ requires the fmtcount package. This package is now obsolete and \
 has been replaced by datetime2."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.2.60svn36650"
+PV = "2023.209.2.60svn36650"
 
-RPM_NAME = "texlive-datetime-2023.204.2.60svn36650-54.1.noarch.rpm"
-RPM_HASH = "9906fab2a436b3517bdc8d55cf9ed887f6df85586fd5445dd8a9d50753069e43edeae3d273ff1f64c81453736ec8f76f295b66241ca282bdbe21bcb3f849ed57"
+RPM_NAME = "texlive-datetime-2023.209.2.60svn36650-55.1.noarch.rpm"
+RPM_HASH = "f1e7552187e7800ac1994913b69c3de6f0a41f6ac683b329c7381fbef9ca1be7e7df24e7aff08c176b9b5367fd4e16502cc9a734e765699b3dbf5479e0e55a52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime-defaults.sty \

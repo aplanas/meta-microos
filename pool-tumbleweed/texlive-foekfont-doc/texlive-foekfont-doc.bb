@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-foekfont"
 DESCRIPTION = "This package includes the documentation for texlive-foekfont"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-foekfont-doc-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "01b3c72328308cc1a454918fec3dfb1ef2bbdfe6b5ce99f42d44439d65d2c1fca49773f0477a07c3c63dad85cfde9ec2b9f88b333bbd05de725e1b6c88705021"
+RPM_NAME = "texlive-foekfont-doc-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "bad0b86f34c0667351aa187222685add85fe7f77e8f8fcd60986ed05a08fb5d056057dc795d7005c9ff79fff4875da32d6e50b20ae40f7e85847a2d12377436c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-foekfont-doc"

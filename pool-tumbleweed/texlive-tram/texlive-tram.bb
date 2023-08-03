@@ -5,10 +5,10 @@ tram box. The pattern used may be selected in an optional \
 argument to the environment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn29803"
+PV = "2023.209.0.0.2svn29803"
 
-RPM_NAME = "texlive-tram-2023.201.0.0.2svn29803-52.1.noarch.rpm"
-RPM_HASH = "450f16378aa49d05b1bfa16115a1e00870311c83869e2776e3530f44c9d40814af01279634381bacc50628a066a333c2118d5cde1f6b61baf817d8ae3b56952f"
+RPM_NAME = "texlive-tram-2023.209.0.0.2svn29803-53.1.noarch.rpm"
+RPM_HASH = "28ff0b1d19758ebb338bbba035f541296305a06d2418526e8fb2a67dcf2250d4df981c74031313c210423a8a6b0c9555c5a409c07acf65c64fbe8f3737976d7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tram.sty \

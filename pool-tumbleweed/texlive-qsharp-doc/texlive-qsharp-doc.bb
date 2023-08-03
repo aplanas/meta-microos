@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-qsharp"
 DESCRIPTION = "This package includes the documentation for texlive-qsharp"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3.1901.1401svn49722"
+PV = "2023.209.0.0.3.1901.1401svn49722"
 
-RPM_NAME = "texlive-qsharp-doc-2023.201.0.0.3.1901.1401svn49722-53.2.noarch.rpm"
-RPM_HASH = "3d6cd14cf93486fc5125db843abe79209c63ae96810ca090f6d8e589222339beed95d9e37c5ef2218bc2c1a74f158708a7f9b56fde12fac0efcadb795a437b47"
+RPM_NAME = "texlive-qsharp-doc-2023.209.0.0.3.1901.1401svn49722-54.1.noarch.rpm"
+RPM_HASH = "718b23bc3d7f0af83ea815baccc2e07e75a7a3c408ca67cdc8708458a015a612954e7c9e93e55c52e7b2dce813b42f232c71b9526b71addf42136b5b5764ff77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-qsharp-doc"

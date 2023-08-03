@@ -25,8 +25,8 @@ LICENSE = "AGPL-3.0-only"
 
 PV = "9.56.1"
 
-RPM_NAME = "ghostscript-9.56.1-4.1.aarch64.rpm"
-RPM_HASH = "88163a4d4a5bef3f268fbd91816e2e45d0e27f636f67dd026f8b3ee76df1a5b4336f9b01c834cec599d1c2c3485731860c7dbed8e0145dac7896d2eacbde8df2"
+RPM_NAME = "ghostscript-9.56.1-5.1.aarch64.rpm"
+RPM_HASH = "34845feff6669ac8b7277fe140b4809b3d27df5edde259cdbe2265d7a2553ab2e0cdfd9d7330cc548f4d876be6273c8d42f65eff38e177528d130fca53ae595a"
 
 RPROVIDES:${PN} += "9.56.1 \
 config-ghostscript \

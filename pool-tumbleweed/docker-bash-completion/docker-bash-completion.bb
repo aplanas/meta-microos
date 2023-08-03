@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for docker"
 DESCRIPTION = "Bash command line completion support for docker."
 LICENSE = "Apache-2.0"
 
-PV = "24.0.4_ce"
+PV = "24.0.5_ce"
 
-RPM_NAME = "docker-bash-completion-24.0.4_ce-1.1.noarch.rpm"
-RPM_HASH = "586feb19bc766c85294f098642142d7dcb2fdcbd9266b128702259aa6e9ce3bd5ec155d9638c49f2cf054365cd8c23e5849eb3cb5a511d49e1f0facf8cc7bbd8"
+RPM_NAME = "docker-bash-completion-24.0.5_ce-1.1.noarch.rpm"
+RPM_HASH = "8601c0a681fc9ef439f06953d0352c12e672ad1736ecd5795e08aa00ddeeee2c6c2a59cccc1feeafdbcf6a850657b2cf4b0aeeb5f6d605dd4cc419d0d12067df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docker-bash-completion"

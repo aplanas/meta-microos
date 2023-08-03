@@ -9,10 +9,10 @@ currently just a regular weight and an artificially emboldened \
 bold."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64566"
+PV = "2023.209.svn64566"
 
-RPM_NAME = "texlive-forum-2023.201.svn64566-52.1.noarch.rpm"
-RPM_HASH = "cb5932e4612a430f864f1dede51f16e73dd8777b025c68788dda8a8d1c097e931096d61501c9e589df7090b2e9d2f88f86a4f93fe4bdd19ff9baae64e708ca65"
+RPM_NAME = "texlive-forum-2023.209.svn64566-53.1.noarch.rpm"
+RPM_HASH = "71714a61d1b7c03d878c91c3b4f4ba0400125400fd6bb00e8df47217f6a82df78e6f6f6b6ab3cf98364c99638f3b5a3cbece39260fab949648e21b569993b995"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Frm-Bold-lf-ly1--base.tfm \

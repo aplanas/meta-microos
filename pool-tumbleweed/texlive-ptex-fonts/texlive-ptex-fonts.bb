@@ -4,10 +4,10 @@ for the makejvf program. This is a redistribution derived from \
 the ptex-texmf distribution by ASCII MEDIA WORKS."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.svn64330"
+PV = "2023.209.svn64330"
 
-RPM_NAME = "texlive-ptex-fonts-2023.201.svn64330-53.2.noarch.rpm"
-RPM_HASH = "23170f253327a824b61cca8f595dd314328396e7c16da672e17d00c315d297b36ddea3666c964b46ccf19da8e36c762a66e367d29e6bda5a5fe7c7fe78c8ca1f"
+RPM_NAME = "texlive-ptex-fonts-2023.209.svn64330-54.1.noarch.rpm"
+RPM_HASH = "bcfdb1c60f89399027e686ce8c38e97c2fddace24138f6400279719f84e01f87844f466349a2e6e94cbcda70915f61dcc3ed361692efe18a8f9f56a84317c7b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gbm.tfm \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-akletter"
 DESCRIPTION = "This package includes the documentation for texlive-akletter"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5isvn15878"
+PV = "2023.209.1.5isvn15878"
 
-RPM_NAME = "texlive-akletter-doc-2023.201.1.5isvn15878-54.1.noarch.rpm"
-RPM_HASH = "63537779f019c9182e7703f2f0a0437f4b7a10e45bc47662197526da924965b2815414d33ca00d203d39515844583e7bdc59aaba85390f8d12a37db7f0ff30d2"
+RPM_NAME = "texlive-akletter-doc-2023.209.1.5isvn15878-55.1.noarch.rpm"
+RPM_HASH = "7a9f79ef156d26907401f394c96e9bf9ef8c558821b0fb524204863d63fb1e97332c799d649a44ff417acda155dac1d72d77c985bf48c141dbe5621819c3eb25"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-akletter-doc-de;en \

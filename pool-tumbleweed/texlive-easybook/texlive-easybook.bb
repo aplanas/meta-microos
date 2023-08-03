@@ -9,10 +9,10 @@ easybase can also be used with CTeX and standard document \
 classes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.71dsvn64976"
+PV = "2023.209.1.71dsvn64976"
 
-RPM_NAME = "texlive-easybook-2023.201.1.71dsvn64976-53.2.noarch.rpm"
-RPM_HASH = "4bcf73fcfec33d5871cbc88f9ac6bcd7fc324d10e71da23b9e8082616bf448864482500eaded01abf506651370840c1389e4a1d0fcc813606ec83b76b1dbf2be"
+RPM_NAME = "texlive-easybook-2023.209.1.71dsvn64976-54.1.noarch.rpm"
+RPM_HASH = "f0c2805e49366dd221bd3cd352a5c14a5b143ba008e5932fad0c95c3f32256f43a2fdc2205d208344396ebca44f315574392565d84760a77b93c5035bdaaffa6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-easybase.sty \

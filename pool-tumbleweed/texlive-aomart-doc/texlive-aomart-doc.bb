@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-aomart"
 DESCRIPTION = "This package includes the documentation for texlive-aomart"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.27svn63442"
+PV = "2023.209.1.27svn63442"
 
-RPM_NAME = "texlive-aomart-doc-2023.201.1.27svn63442-54.1.noarch.rpm"
-RPM_HASH = "9813b938ae9243eac9c86d8c5f09fba1da922e01779435ac072e7d45b169054c7bb55aac7e79074735c9249eaa30c8777b27ad84b86d70097b870cd0232ca3c9"
+RPM_NAME = "texlive-aomart-doc-2023.209.1.27svn63442-55.1.noarch.rpm"
+RPM_HASH = "8ac1de585e7b8ecd8540e6dc69e7accca8c8d12bc8d5ae3192876e9526bcb68089990974fa8b798662bc3548f503272a587c03dff8b1ec6ac3c70548ae7aa900"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-aomart-doc"

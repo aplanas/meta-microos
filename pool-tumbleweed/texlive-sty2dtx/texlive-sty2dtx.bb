@@ -14,10 +14,10 @@ automatically to the 'Usage' section of the .dtx file. A \
 corresponding .ins file can be generated as well."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.4svn64967"
+PV = "2023.209.2.4svn64967"
 
-RPM_NAME = "texlive-sty2dtx-2023.201.2.4svn64967-57.1.noarch.rpm"
-RPM_HASH = "cd2f2af5e194cece51e4d7cdd6767b4c05b26ee5a0f7cd4a050a00a07915a07eebb2918efb8e2c4318fab8669d00d9cccfd853cfb24a89d04d64646083860384"
+RPM_NAME = "texlive-sty2dtx-2023.209.2.4svn64967-58.1.noarch.rpm"
+RPM_HASH = "fdb0b547c5315725c9ff084628f8eddda1ef3265a855744602705ba864442aa28bef95ae2058daafeda55c03a6385eb83d817f3ec1efd08329dd7e2c3ae25b2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sty2dtx"

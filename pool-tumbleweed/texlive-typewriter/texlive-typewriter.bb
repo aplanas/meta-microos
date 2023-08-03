@@ -6,10 +6,10 @@ angle of each character. It was originally an answer to a \
 question on stackexchange."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn46641"
+PV = "2023.209.1.1svn46641"
 
-RPM_NAME = "texlive-typewriter-2023.201.1.1svn46641-52.1.noarch.rpm"
-RPM_HASH = "097e78b20872af9a2ccc3cec03c3b66dbc6fc56235a678968860f5fb5e62988f7562c93a93c2d2b751e0ee6c29eac0684887d8d48958a3ab742768013f5c3b85"
+RPM_NAME = "texlive-typewriter-2023.209.1.1svn46641-53.1.noarch.rpm"
+RPM_HASH = "dffbd502297c1d191856e1143ef91c5aebcb9e3dc37d8ffd1836df35fe0d91014a183e6f9e5325bb4a89d4dc914193e2698ab1a9b9ba6975e8a92d6e7caa4df8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-typewriter.sty \

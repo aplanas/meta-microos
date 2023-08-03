@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "253.7"
 
-RPM_NAME = "systemd-coredump-253.7-1.2.aarch64.rpm"
-RPM_HASH = "2e75a716214a0902669b28f662b59c8dc469a0263862ef96e8238ac84f0e6549b4a07b4010cf6711e123c6e8ebf21457de3965f198f5c734bf8625ce1bbe63a8"
+RPM_NAME = "systemd-coredump-253.7-2.1.aarch64.rpm"
+RPM_HASH = "e081fe30ea22646bec5fe2bb4c3030241ce0ff0096157193f4ba65b8025a9f717d57831f588bdd8855d043c9e5d627996fc634c831cd65de2f4110dc5d770038"
 
 RPROVIDES:${PN} += "config-systemd-coredump \
 systemd-/usr/bin/coredumpctl \

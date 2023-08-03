@@ -4,10 +4,10 @@ BulletsADF fonts in Adobe Type 1 format, together with \
 TeX/LaTeX support files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2bsvn54512"
+PV = "2023.209.1.2bsvn54512"
 
-RPM_NAME = "texlive-adfsymbols-2023.201.1.2bsvn54512-54.1.noarch.rpm"
-RPM_HASH = "c4a6ca403fab73510778b8e7b2f970aaf4a2918a6ba328b50df0f181513498e7d2d37018e5b30011240d954e47a82275b60ffa4b7db3bb8549a9188ed874807b"
+RPM_NAME = "texlive-adfsymbols-2023.209.1.2bsvn54512-55.1.noarch.rpm"
+RPM_HASH = "b2860715923ae7a7ddf485a41192725146658d620ee20bfbd0984b2e61f2fa114d504bc4d57d8d22ce52a7baf65eec90d4cd68a335927b69457d5116b97a8803"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ArrowsADF.map \

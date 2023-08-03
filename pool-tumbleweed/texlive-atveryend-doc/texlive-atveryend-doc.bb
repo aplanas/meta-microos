@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-atveryend"
 DESCRIPTION = "This package includes the documentation for texlive-atveryend"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.11svn53108"
+PV = "2023.209.1.11svn53108"
 
-RPM_NAME = "texlive-atveryend-doc-2023.201.1.11svn53108-53.1.noarch.rpm"
-RPM_HASH = "2cb36ccb12cd322c59e822c4cf9a2884b72e54dde08b065063c2d8ba29b83ab0624365bf68f0adb23280b09fd0cabbda8b44f9ea2b78898e50bca859336b362d"
+RPM_NAME = "texlive-atveryend-doc-2023.209.1.11svn53108-54.1.noarch.rpm"
+RPM_HASH = "603354ad77b588ea51b46591176e6461989d6b3189676f3df1f7c08479fd0742480611e874ddd62559ee674642977d492faaa5e86bdbf415edba02d5d082c539"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-atveryend-doc"

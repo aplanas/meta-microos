@@ -2,10 +2,10 @@ SUMMARY = "Contributed beamer theme"
 DESCRIPTION = "A theme for beamer presentations."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.1svn21977"
+PV = "2023.209.1.1svn21977"
 
-RPM_NAME = "texlive-beamerthemejltree-2023.201.1.1svn21977-53.1.noarch.rpm"
-RPM_HASH = "d5cbf086589ab2b0e163f52e024d512fde094c6f65a39466f7d8d2b1291f75118eff09abc87837d915cd90f1a5ac0820f467b31243169f0146317ed0654d142c"
+RPM_NAME = "texlive-beamerthemejltree-2023.209.1.1svn21977-54.1.noarch.rpm"
+RPM_HASH = "27e9f94469ed2b181efad3325a0f4f2273637921c71685ad2e4947831ec8ed606081c9c14f7e4a10092a110a69563150eecdfe02049e95ed72e0de53e37ae312"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamerthemeJLTree.sty \

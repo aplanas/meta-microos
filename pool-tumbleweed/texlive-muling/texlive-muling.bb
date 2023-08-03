@@ -3,10 +3,10 @@ DESCRIPTION = "This is a class file for writing MA thesis as required by the \
 Department of Linguistics at the University of Mumbai."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn61719"
+PV = "2023.209.0.0.3svn61719"
 
-RPM_NAME = "texlive-muling-2023.201.0.0.3svn61719-54.1.noarch.rpm"
-RPM_HASH = "0efbc0773ad16dd5983700e415b2536bdcaad64cd39e0f6fe9ae29fc02d9b3ac4c97e31016f0946e6eb87e60b0071eb075206889a3b94556ca12218de8a09e1e"
+RPM_NAME = "texlive-muling-2023.209.0.0.3svn61719-55.1.noarch.rpm"
+RPM_HASH = "4f15db94bf319aaa5fb531648eab76b3cbac8d0515b6c8c7790e3024ff506b0a83614b9003f743ca247d87e6f90827dd58a28fc86c840eefa1c53017acbc5186"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-muling.cls \

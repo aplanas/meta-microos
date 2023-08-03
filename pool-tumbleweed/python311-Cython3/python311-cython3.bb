@@ -9,10 +9,10 @@ functions and declaring C types on variables and class attributes. This \
 allows the compiler to generate very efficient C code from Cython code."
 LICENSE = "Apache-2.0"
 
-PV = "3.0.0~b3"
+PV = "3.0.0"
 
-RPM_NAME = "python311-Cython3-3.0.0~b3-1.3.aarch64.rpm"
-RPM_HASH = "cdf4d7bd6b699dab7c25197d47c873b10f83db4fb75c4b847e8f3854706bdee3a1d8d78b8976be8b31dc05fb21c19ffa2ec232f94466c8fab67ea74c157ce959"
+RPM_NAME = "python311-Cython3-3.0.0-1.1.aarch64.rpm"
+RPM_HASH = "7f58f7250c6ea3e1d0b584891dd62f37830ebc9e5b7ffa8ad0de9d9269489f7bf6ead2cf40fda88fc3fd85614f3501107eb89e23eeb07354d687e7adb2343bc6"
 
 RPROVIDES:${PN} += "python3-Cython \
 python3-Cython3 \

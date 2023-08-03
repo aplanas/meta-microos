@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-spectral"
 DESCRIPTION = "The  separated fonts package for texlive-spectral"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64528"
+PV = "2023.209.svn64528"
 
-RPM_NAME = "texlive-spectral-fonts-2023.201.svn64528-57.1.noarch.rpm"
-RPM_HASH = "2d79a6c97b211d7d43fb9437eb447bd8e4faf45bd6cf000a5c68862ecc19cf0ddf625950eeef8fd2c4e1d6f12fa4916dd991f2c71e0a5832ec6c3b5e93173137"
+RPM_NAME = "texlive-spectral-fonts-2023.209.svn64528-58.1.noarch.rpm"
+RPM_HASH = "c76547762240aec6eb601232479c5c33dbddb3562a8c84339f1f5f38f81085f45886cbc57b9c8d9e543caf3eaf7ed90886135bb697bbd8ceebb5704477544629"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-spectral-fonts \

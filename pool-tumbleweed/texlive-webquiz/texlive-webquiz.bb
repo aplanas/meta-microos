@@ -6,10 +6,10 @@ Python3. The conversion from LaTeX to HTML is done behind the \
 scenes using TeX4ht."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.5.2svn58808"
+PV = "2023.209.5.2svn58808"
 
-RPM_NAME = "texlive-webquiz-2023.201.5.2svn58808-53.1.noarch.rpm"
-RPM_HASH = "e4fc4f1ca574fc1a514f6faf93bb20dec0972277e69a03f95e1e6ee0a39506c88178d0567439c14dd8eabcd8e5468f40f511fc4770abb008153d71adb6a9d921"
+RPM_NAME = "texlive-webquiz-2023.209.5.2svn58808-54.1.noarch.rpm"
+RPM_HASH = "4713b9d9f02f99eff321a8ce3ff569672dad57b9b02b199d08b094496302fd5f9ba299f598a0cb77093a8394524cd74226ecd6de0a43e8e8ffe0119bea708ac4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-webquiz-doc.code.tex \

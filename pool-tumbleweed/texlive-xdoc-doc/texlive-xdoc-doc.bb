@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xdoc"
 DESCRIPTION = "This package includes the documentation for texlive-xdoc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.prot2.5svn15878"
+PV = "2023.209.prot2.5svn15878"
 
-RPM_NAME = "texlive-xdoc-doc-2023.201.prot2.5svn15878-52.2.noarch.rpm"
-RPM_HASH = "0769e7bb40bfbb6baa572fbe6cceea2f3cbdf391112e17ac711ce598b79b1c0c918e25487fafc887878f0ea0ac7f32336953f86e5b0e21969dd0d1802939d98a"
+RPM_NAME = "texlive-xdoc-doc-2023.209.prot2.5svn15878-53.1.noarch.rpm"
+RPM_HASH = "1f3f889df1561e9f38d7a79f2ae11fb724b34fd2933e9955f771c89f8d3ecf30f6e4dee7b30557589b6d4759eecc2cc6c1adde562d01d42e8f7ee32eed1265ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xdoc-doc"

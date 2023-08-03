@@ -9,10 +9,10 @@ writing the man page and a Perl script (latex2man) that does \
 the actual translation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.29svn64477"
+PV = "2023.209.1.29svn64477"
 
-RPM_NAME = "texlive-latex2man-2023.201.1.29svn64477-54.1.noarch.rpm"
-RPM_HASH = "ad8cc1b736189515fc1a2644c1176ae1a68678dbb8562a2e2350c2924a8932b6f41dd42e3855c4ee5094b4a64ee570b8418b21bf55fbf554ab241b3c5b080499"
+RPM_NAME = "texlive-latex2man-2023.209.1.29svn64477-55.1.noarch.rpm"
+RPM_HASH = "de3957f483315a0f51d38f0bf72acb082bf4b66a82f369dbd3478ec900c151e811be1880c61e70d54a88d44600e5a325767ddc802163382d53ac71e56af837e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-latex2man.cfg \

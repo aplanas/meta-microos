@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-euflag"
 DESCRIPTION = "This package includes the documentation for texlive-euflag"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.8svn55265"
+PV = "2023.209.0.0.8svn55265"
 
-RPM_NAME = "texlive-euflag-doc-2023.201.0.0.8svn55265-52.1.noarch.rpm"
-RPM_HASH = "386ad171a2086596fa281d498c2b1d3c318e754dc76fb5c4f4871fa7d16620971211d1dcb38f446de1d9e87abcf7ccfe6e0804b00a2950c69909ff2c3c7e2425"
+RPM_NAME = "texlive-euflag-doc-2023.209.0.0.8svn55265-53.1.noarch.rpm"
+RPM_HASH = "9b50d680245158642d493e6e84e19bace6282fef6c3401d06706f26dc63f62217f567c3bdc83f5e11845237ef73e72d6089d63e7b11a94820c63caa09cf3f0ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-euflag-doc"

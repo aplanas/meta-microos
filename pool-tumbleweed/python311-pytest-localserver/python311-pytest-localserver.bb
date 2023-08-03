@@ -9,10 +9,10 @@ server running locally which behaves just like the real thing. Well, look \
 no further!"
 LICENSE = "MIT"
 
-PV = "0.7.1"
+PV = "0.8.0"
 
-RPM_NAME = "python311-pytest-localserver-0.7.1-1.3.noarch.rpm"
-RPM_HASH = "1f6e1ef73614f2a765d325c9e158353e71450dd05ed9bc8d000b146898adbf703869d3f7a4d9cdfb299aa7e16c3d05ff0d0580073fc535263a14682b47a09074"
+RPM_NAME = "python311-pytest-localserver-0.8.0-1.1.noarch.rpm"
+RPM_HASH = "bced3c3ec19c23ea59f201a40155344ad73858eec920e03113e02947d0ebdc3446d1accf71bbc1c38723240512b6c1c90c5220bb18a1f8efcd5114f53351dce5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-localserver \

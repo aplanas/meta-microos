@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-alfaslabone"
 DESCRIPTION = "The  separated fonts package for texlive-alfaslabone"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.0.1svn57452"
+PV = "2023.209.0.0.0.1svn57452"
 
-RPM_NAME = "texlive-alfaslabone-fonts-2023.201.0.0.0.1svn57452-54.1.noarch.rpm"
-RPM_HASH = "e2f311631a8729ed0699128ff5b8cd39fe5656009dfff3042dfc5b522056d42cc269387d9b94cfae4607b3e3fec607942475f721014de4fff5a138c529232e34"
+RPM_NAME = "texlive-alfaslabone-fonts-2023.209.0.0.0.1svn57452-55.1.noarch.rpm"
+RPM_HASH = "7c1dea36f029806343116aeb611cf5a6b0f53264f570c8e6902f4015648d3a931d9d7dff075a36666f3fb5d6b3f2f2bd2594b920642c25feaf54067d55790710"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-alfaslabone-fonts \

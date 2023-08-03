@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-fira"
 DESCRIPTION = "The  separated fonts package for texlive-fira"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.4.3svn64422"
+PV = "2023.209.4.3svn64422"
 
-RPM_NAME = "texlive-fira-fonts-2023.201.4.3svn64422-52.1.noarch.rpm"
-RPM_HASH = "8b573438e54b5bc1373a0f6ca5d5a74fd0c1a77d11d235bbbea9418cb0ef508960acb5b8cf21c057cd49d25275724c0c6fcae124acdd96758438a037a3faeda9"
+RPM_NAME = "texlive-fira-fonts-2023.209.4.3svn64422-53.1.noarch.rpm"
+RPM_HASH = "c5cceeea145b9f79894d5df6e6c865b0dec7bb3a4efa3f45bcc4e83ccc9c6549d41374e475031fe833e439331284c1c225adab624914739628e492ed7649d646"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-fira-fonts \

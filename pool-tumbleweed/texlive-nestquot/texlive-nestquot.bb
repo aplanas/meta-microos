@@ -6,10 +6,10 @@ quotes according to their nesting level. For example, the input \
 been entered as 'Foo 'bar' bletch'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn27323"
+PV = "2023.209.svn27323"
 
-RPM_NAME = "texlive-nestquot-2023.201.svn27323-54.1.noarch.rpm"
-RPM_HASH = "3ee84777dd8c44418f04449b568bd4f9f51b66a6094aadf9d9c2902fb117e2fce22b7145e099d8f3129c0182bba6605e23c924f585ec2ffe2d30b85307fcfa95"
+RPM_NAME = "texlive-nestquot-2023.209.svn27323-55.1.noarch.rpm"
+RPM_HASH = "330fd43449c1433cd0e0471bcd03557cdc4a31ee90e06b6e187ffe50b8bc3ea522acae81007532332a2fae97eb89982801654ac0e7e47df796714d9663b99590"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nestquot.sty \

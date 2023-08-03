@@ -3,10 +3,10 @@ DESCRIPTION = "Qt 6 Core development utilities. \
 It contains the qtbase utilities and definitions."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-base-common-devel-6.5.1-4.1.aarch64.rpm"
-RPM_HASH = "d03ed6aac42038f7555ed71dc2645c50736d1e4b2f04a996e7717370cb91020edc7a8d431ad89450b7ed1e6f74d6f8902626abd27f445b26cc2ebefb91809822"
+RPM_NAME = "qt6-base-common-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "9ff746d21063fb479c3b709abdd73387db6be69abd2812bd1bd4e4e8aa14570eee7249942ae33c4ca44d2188c2d022d4ee19565d2e850fe73b89b6297f299fe2"
 
 RPROVIDES:${PN} += "cmake-Qt6 \
 cmake-Qt6BuildInternals \

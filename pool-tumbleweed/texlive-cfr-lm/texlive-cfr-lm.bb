@@ -22,10 +22,10 @@ fonts for mathematics is identical to that provided by Latin \
 Modern."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5svn36195"
+PV = "2023.209.1.5svn36195"
 
-RPM_NAME = "texlive-cfr-lm-2023.201.1.5svn36195-52.1.noarch.rpm"
-RPM_HASH = "60c37ea5c6401beaef99aafcd04e077c74008f5ccc4107f6ce49544855f939e9114845e0a87012955d92d7734797f8a01df318339ec1514a0f4e804ba5e6ac19"
+RPM_NAME = "texlive-cfr-lm-2023.209.1.5svn36195-53.1.noarch.rpm"
+RPM_HASH = "877f700aa9340ef50c07840772900328b5b72b2ae59eda776b0ac9b15347c11017fa8de68518af19c082626e2d4565012fa14efcf005ff3875eb8f22d33d85e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cfr-lm.sty \

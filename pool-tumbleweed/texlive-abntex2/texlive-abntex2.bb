@@ -6,10 +6,10 @@ reports, research project and others) based on the ABNT rules \
 abntex."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.9.7svn49248"
+PV = "2023.209.1.9.7svn49248"
 
-RPM_NAME = "texlive-abntex2-2023.201.1.9.7svn49248-54.1.noarch.rpm"
-RPM_HASH = "3c26f864979a33129ccc9dcbc58d0aef11a6820bfa2ae5e5d44d66464fa6748decfd29cfa87855ff0fca4f8bb7fcd65dbdff47f416007fb06acd18bfb9444fec"
+RPM_NAME = "texlive-abntex2-2023.209.1.9.7svn49248-55.1.noarch.rpm"
+RPM_HASH = "b84df7b9edf8381c4af7bc4a62c7ce99219901e50183d01271962a9db1308f9a4f52caaa625c6c00ba6b1c41e615899a67b95ccb2212bf594c8f7f25c5a0d7bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-abntex2.cls \

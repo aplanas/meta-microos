@@ -10,10 +10,10 @@ API targetting the following uses: \
  * write scripts to administer multiple environments"
 LICENSE = "MIT"
 
-PV = "1.9.0"
+PV = "2.0.2"
 
-RPM_NAME = "python311-execnet-1.9.0-3.3.noarch.rpm"
-RPM_HASH = "56eb62af3da43a294fb91086b0db040fb671c3cc939a4de577facfb038f1cc4a0d88947aad4f65f890d74e9276b55f327c17ab3d69f9908cc7a1b4a6d0685e98"
+RPM_NAME = "python311-execnet-2.0.2-1.1.noarch.rpm"
+RPM_HASH = "b07de1c9da0e890042c32fc9f688e7f9e6427d2c3cd71ac0f716425f3adf6f721e1ac1beacc120655c5429c5464fb6ccf9e39295b16c48376db0d8bc7e95572f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-execnet \

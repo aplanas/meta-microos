@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "typelib-1_0-GstVulkanXCB-1_0-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "460732253d3235aa8a24d8f98fd7632203d4b3351b2017cfd8a743b3f744ad35665edcc9a987ca790fb5512d9699c18a89b7836c2708ad7960b251c5db2a4eb7"
+RPM_NAME = "typelib-1_0-GstVulkanXCB-1_0-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "b2d187183cacd05e68de2339d999b633cd8a6bc3456e78a0c4eba3226909fae08caa3367f505b26f29f418923fdc0a1859c66d4e7ce889f7a0508ae214563736"
 
 RPROVIDES:${PN} += "typelib-1-0-GstVulkanXCB-1-0 \
 typelib-GstVulkanXCB"

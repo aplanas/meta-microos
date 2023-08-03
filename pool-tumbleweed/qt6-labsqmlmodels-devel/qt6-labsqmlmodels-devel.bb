@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 LabsQmlModels library - Development files"
 DESCRIPTION = "Development files for the Qt 6 LabsQmlModels library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-labsqmlmodels-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "8b2f6fd1c6fa54f5400bf193e66667d8fac4dc26b55d6402b7c6a2db9ec92f8911dec1aab6312b081a5ba0751dbb9d74e9ca42c2884f880809b7e040acd34a3a"
+RPM_NAME = "qt6-labsqmlmodels-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "7020d5686e93aa5a866d1b66927fe6a961072f7f07af5f6ac5a8b65cd7bee1d4eff8d8bfd4228c24143bfc48df4fb887791b8b01076ba6fd8416ebea2e931e88"
 
 RPROVIDES:${PN} += "cmake-Qt6LabsQmlModels \
 pkgconfig-Qt6LabsQmlModels \

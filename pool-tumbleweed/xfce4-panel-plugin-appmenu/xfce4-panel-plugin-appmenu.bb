@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.7.6"
 
-RPM_NAME = "xfce4-panel-plugin-appmenu-0.7.6-1.6.aarch64.rpm"
-RPM_HASH = "32111d09eb9ff9dbcc04befaabccd0f9f55e75177bfa3598c24c85a19a4128338079caf2c31cbf05716518e21e24bc5bb456a1f70f01239db99148e0e5ed9ad9"
+RPM_NAME = "xfce4-panel-plugin-appmenu-0.7.6-2.1.aarch64.rpm"
+RPM_HASH = "f1ff226261c0ff0d43435e5f06d2aa50824da4bbb151a2e146e088ed9e29e33051c2cf90c3ff46584954187489d759cc7730ccfaf938142900760a5202c059f0"
 
 RPROVIDES:${PN} += "libappmenu-xfce.so \
 xfce4-panel-plugin-appmenu \

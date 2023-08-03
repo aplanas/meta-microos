@@ -7,10 +7,10 @@ elements can be added and a titlepage title can be centered on \
 a physical page."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1dsvn15878"
+PV = "2023.209.2.1dsvn15878"
 
-RPM_NAME = "texlive-titling-2023.201.2.1dsvn15878-52.1.noarch.rpm"
-RPM_HASH = "c5e000515e48a5a5d2c8b5a28ff280b26e76d462338a9d2cde3a4c3c8d4fff13af532cd062514689da5de6c6279a877c54dbbfb44953e0e7593381bc6faf6bc1"
+RPM_NAME = "texlive-titling-2023.209.2.1dsvn15878-53.1.noarch.rpm"
+RPM_HASH = "6dd4018672a2c903bd056e233652022e480c80616ca8255fa93b8e6519904a1c96d7e535e26f3790212dfd024ae0adba7770125a9484b672e865dd419b76ad92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-titling.sty \

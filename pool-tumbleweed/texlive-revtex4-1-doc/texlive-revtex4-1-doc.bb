@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-revtex4-1"
 DESCRIPTION = "This package includes the documentation for texlive-revtex4-1"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.1ssvn56590"
+PV = "2023.209.4.1ssvn56590"
 
-RPM_NAME = "texlive-revtex4-1-doc-2023.201.4.1ssvn56590-53.2.noarch.rpm"
-RPM_HASH = "3db00467a665c0bee54bebcb9a883e15b520c8d562495289f99ca9a602ea85de174270a80a2df57cf12d3acdebd0cd24ad1db40ebd55d2373493fdb1d930a279"
+RPM_NAME = "texlive-revtex4-1-doc-2023.209.4.1ssvn56590-54.1.noarch.rpm"
+RPM_HASH = "56a98f9f3b7b638b137c381ca911a5847ed0295c0525fbae976079de869f4dd7217757ebfdd82ef837ccbdd9387d68b4db8fedd54cb8d4feeb18bf0ce7a7303c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-revtex4-1-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the headers files and tools you may need to
 develop applications using CGAL."
 LICENSE = "BSL-1.0 & GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "5.5.2"
+PV = "5.6"
 
-RPM_NAME = "cgal-devel-5.5.2-2.1.aarch64.rpm"
-RPM_HASH = "b55434b3e89a50c953c88c26def9550dc00c1f2a167825bf003dc65fe1abcb3042e52b0b0abdbfed5ecf62c8b05656d5bfcf1c808335c03bcd18dbed6ccd2bf6"
+RPM_NAME = "cgal-devel-5.6-1.1.aarch64.rpm"
+RPM_HASH = "d7d362d880f38487ba7da2eeb27324dcaf5d84865e69b116c1668fd00f1e861bb39ef6b1c4699016c3f2b84d96c8750ee2abbae6a53fab94b57fa3e42a9942b6"
 
 RPROVIDES:${PN} += "cgal-devel \
 cmake-CGAL \

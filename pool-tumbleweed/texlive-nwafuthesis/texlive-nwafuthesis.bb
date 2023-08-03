@@ -8,10 +8,10 @@ nwafuthesis only allows UTF-8 encoding. nwafuthesis is based on \
 the fduthesis template."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.15svn63438"
+PV = "2023.209.1.15svn63438"
 
-RPM_NAME = "texlive-nwafuthesis-2023.201.1.15svn63438-54.1.noarch.rpm"
-RPM_HASH = "748adcd672339e0edd1a5e75c3db4a3b15430c65436ae3af6922355550129a361cc47fe73dd9b019bedc4b68212956f689bd927834334a2e34b6798cac2d8035"
+RPM_NAME = "texlive-nwafuthesis-2023.209.1.15svn63438-55.1.noarch.rpm"
+RPM_HASH = "2963d02171c99460f61090c6851f146f0c82912978799a96a44e9d78578c5f2e96b39d95a70e38f07b1cacb804095fa108ce5821b3b90c4a98ab80d23d4ef955"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nwafuthesis.cls \

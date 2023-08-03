@@ -4,10 +4,10 @@ of Gaidhlig (Scottish Gaelic) in babel. Some shortcuts are \
 defined, as well as translations of standard 'LaTeX names'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0gsvn30289"
+PV = "2023.209.1.0gsvn30289"
 
-RPM_NAME = "texlive-babel-scottish-2023.201.1.0gsvn30289-53.1.noarch.rpm"
-RPM_HASH = "db667cf42cde1e7a0d54fc98944861e8fbf606f03cf6e278a3ea1b9e66c06bbdd3cfd2ea516486221faafc9601f0a6e925cee48d6e33692ff9cd6cb4120d337d"
+RPM_NAME = "texlive-babel-scottish-2023.209.1.0gsvn30289-54.1.noarch.rpm"
+RPM_HASH = "135bddd3876ce5c0456e41c98073fcaa457b69501c525d1f34e10d6fdc8e3436acc801315aeaa02024183db1b238946fb36f45d70796c541116e9e3aa0d47e1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-scottish.ldf \

@@ -4,10 +4,10 @@ marginpar, footer and header area of the current page. They are \
 inspired by the 'current page' node defined by PGF/TikZ itself."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn64967"
+PV = "2023.209.1.1svn64967"
 
-RPM_NAME = "texlive-tikzpagenodes-2023.201.1.1svn64967-52.1.noarch.rpm"
-RPM_HASH = "00bf424e6939bf6ad6d6f77275ea621fd99c584441ed50026e5b868a469cdacdb143367b9381d6b6e41f0663a9e235b7fb034e1ba9fc97a2bba9764498b3e074"
+RPM_NAME = "texlive-tikzpagenodes-2023.209.1.1svn64967-53.1.noarch.rpm"
+RPM_HASH = "2fae053e7a44625d4dc1acfdd752e333977ccfe2c39501327af6b78a20961cb6110025b359b3b2baab276e74ee49ea56d068d585d41ae7ee4069bba5f644f8c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzpagenodes.sty \

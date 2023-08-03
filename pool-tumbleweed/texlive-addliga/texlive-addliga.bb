@@ -4,10 +4,10 @@ basic ligatures (ff, fi, ffi, fl, ffl) in legacy TrueType fonts \
 (those lacking a liga table) accessed via fontspec."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.0svn50912"
+PV = "2023.209.1.0svn50912"
 
-RPM_NAME = "texlive-addliga-2023.201.1.0svn50912-54.1.noarch.rpm"
-RPM_HASH = "fc1f45e3c8948e28a201f5287356b8f057def0371a4f36ec17010fcd81e6e060a6cf5bc977b9001ca33af7f18b85dbac9a320984d7cc92dd6f0c99f3576a218c"
+RPM_NAME = "texlive-addliga-2023.209.1.0svn50912-55.1.noarch.rpm"
+RPM_HASH = "aae9d6f0950b84dfea8fe77b02b25269ca1d4cb8344cc6705ad00b2b3a9d16725946a7aa5a7dba2935bdc338a09ba842bce3e00b708c37bc1639b7565b60778f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-addliga.sty \

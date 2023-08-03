@@ -2,10 +2,10 @@ SUMMARY = "TeX support (from CJK) for the norasi font"
 DESCRIPTION = "The norasi-c90 package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn60831"
+PV = "2023.209.svn60831"
 
-RPM_NAME = "texlive-norasi-c90-2023.201.svn60831-54.1.noarch.rpm"
-RPM_HASH = "ca21c68e0869456672ae9251b6f34bfc2e3b4566f22e78717ee96267c0c7fe8a8c686cbc7163ff9236e0908c26c85aefba6061ca2f6929e79731ef6b34134477"
+RPM_NAME = "texlive-norasi-c90-2023.209.svn60831-55.1.noarch.rpm"
+RPM_HASH = "b790ba6d7c857039883e6eac1e57c1e666e79730740d24201416994ac8dc94644f3f0ea8d1c4a7f727dd17a1238443470b57d13c9ae9d6f913b040489ece6674"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ftnb8z.tfm \

@@ -13,14 +13,14 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.8"
 
-RPM_NAME = "viewnior-1.8-1.7.aarch64.rpm"
-RPM_HASH = "80b9480c8fba8abfa4f1522604a478dd3ff959f878e653223ad9dd063c0805b359c751688fddd6a538617badc07f3946112503be09f62da9376711cf1f32352f"
+RPM_NAME = "viewnior-1.8-2.1.aarch64.rpm"
+RPM_HASH = "087bf5addefd623802e2a7110ab69c72c34207b014796d115a7b78d325f753df4daa16efe2abaf11f0d6af0007dbd21b5b00d5928c87b08b0bf857a3915671f3"
 
 RPROVIDES:${PN} += "viewnior"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libexiv2.so.27 \
+libexiv2.so.28 \
 libgcc-s.so.1 \
 libgdk-pixbuf-2.0.so.0 \
 libgdk-x11-2.0.so.0 \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package picard"
 DESCRIPTION = "Provides translations for the 'picard' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.8.5"
+PV = "2.9"
 
-RPM_NAME = "picard-lang-2.8.5-2.1.noarch.rpm"
-RPM_HASH = "f1206f45a35c7ab1acaf3a0beab8a26389b8c91d8d06f3839009f989af88048fbc918a58ac4f5d1d05b45f08f8a69b8e1d8a55b6b14901a8e454dc8dc995fc24"
+RPM_NAME = "picard-lang-2.9-1.1.noarch.rpm"
+RPM_HASH = "84c73f88b332abf0402832deedd294451c245a3706bd9e720a2f8b5e4f8957e1bd97dbbad3412178e8674605905087a38733628b7ec1cdc25aebf049464160b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-picard-af \
@@ -20,7 +20,6 @@ locale-picard-da \
 locale-picard-de \
 locale-picard-de-CH \
 locale-picard-el \
-locale-picard-en \
 locale-picard-en-AU \
 locale-picard-en-CA \
 locale-picard-en-GB \

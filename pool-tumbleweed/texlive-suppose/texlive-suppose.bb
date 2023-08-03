@@ -7,10 +7,10 @@ recommend using them in formal work. The package requires \
 amsmath, amsfonts, and graphicx."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2.2svn59281"
+PV = "2023.209.1.2.2svn59281"
 
-RPM_NAME = "texlive-suppose-2023.201.1.2.2svn59281-57.1.noarch.rpm"
-RPM_HASH = "da0ffe85c867e1afe05cdb894508fdbfb821b0cc856007e3a54c3ec305565c1d30c7ea7af2464ad742006c4bda35ecbd53c2d9ea67017a2658da16c68cfd52a0"
+RPM_NAME = "texlive-suppose-2023.209.1.2.2svn59281-58.1.noarch.rpm"
+RPM_HASH = "47a1be1ed7aa0e5d8db138baa4991d5468dc5c0fcc72c953eca3b3e1b96c1a8ec0b714f10497830da7463f978b652cf782811431d9ed50b79f1ee396025a3909"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-suppose.sty \

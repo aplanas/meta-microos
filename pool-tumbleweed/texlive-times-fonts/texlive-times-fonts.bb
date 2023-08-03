@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-times"
 DESCRIPTION = "The  separated fonts package for texlive-times"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn61719"
+PV = "2023.209.svn61719"
 
-RPM_NAME = "texlive-times-fonts-2023.201.svn61719-52.1.noarch.rpm"
-RPM_HASH = "9a2ba1b9fd3cb6ad40ab5195302c24a87e918f2f78d9b8ba4a14337d7ad6bdcc30ae650b58af7d0a8f9c512cd9ab994b9756ad9b02ed31ade78c0595cfcf491a"
+RPM_NAME = "texlive-times-fonts-2023.209.svn61719-53.1.noarch.rpm"
+RPM_HASH = "217578ac9782b91f0460b2e304d796bc9dd738a0be400658e975e1f0523c9d66dea7b9e5fd3f95a1b2360cdda092eafdae49b9448cbe82899bd707e3edb5afb6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

@@ -6,10 +6,10 @@ Adobe Type 1 versions of the fonts are available as part of the \
 cm-super font bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-ecc-2023.201.svn15878-53.2.noarch.rpm"
-RPM_HASH = "c5fe1d991a4fe531e7e73928bcaa78fa18eb002cb358c2f2083526bed5987b0772adfe3260849b02c8e7e009f4cebfdbbe47de8aabcf9d64c937f09bc9a3d5bb"
+RPM_NAME = "texlive-ecc-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "d75b7f23a90fb80704ec69e74341052420dcb8141b0add403ed021762aa6d5d9b8f7adefc51b4c34fc7cbbd3ca9e83b05425894d335ef905e5e201bd0d3b72b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eocc10.tfm \

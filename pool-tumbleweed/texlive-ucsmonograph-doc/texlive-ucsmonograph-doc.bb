@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ucsmonograph"
 DESCRIPTION = "This package includes the documentation for texlive-ucsmonograph"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3.0svn52698"
+PV = "2023.209.1.3.0svn52698"
 
-RPM_NAME = "texlive-ucsmonograph-doc-2023.201.1.3.0svn52698-53.1.noarch.rpm"
-RPM_HASH = "7e34d3e361ef531cbf2f1c1d9af21a48fda11b86437f4a6ad85f850c7a7b1b190d9b36b614256af8c9954cbcfad7f923aeaf54b1baebdd72ccf9d5798edca8a7"
+RPM_NAME = "texlive-ucsmonograph-doc-2023.209.1.3.0svn52698-54.1.noarch.rpm"
+RPM_HASH = "24ea4a81a51db7bc986506d862d55ef34f6112ca8aa33633a8f6e4d359966194f02340bd2ffa9870ec3dd03901c4665f73fd39a69f9f6b57eaf239332db86a8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-ucsmonograph-doc-pt-BR \

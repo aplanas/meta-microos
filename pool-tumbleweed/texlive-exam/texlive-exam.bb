@@ -23,10 +23,10 @@ therefore clash, and should not be installed on the same \
 system."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.7svn64134"
+PV = "2023.209.2.7svn64134"
 
-RPM_NAME = "texlive-exam-2023.201.2.7svn64134-52.1.noarch.rpm"
-RPM_HASH = "6bd856eb1b48ed4ecb5859a27fdf60e5d113b19f4f83d75e4adeaba78ba4a87beca9b4874656036b0a8741e7a1740df237f84292f006810f4cb29eda4cb31b15"
+RPM_NAME = "texlive-exam-2023.209.2.7svn64134-53.1.noarch.rpm"
+RPM_HASH = "03caa328661d5508a5d47ef4bb090f12fa2f967a81df903fe1d8176c56a41e7892201a342a13042f3bac03cceccdc98b2fd3b1322b4ee638e6ade578a03b65f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-exam.cls \

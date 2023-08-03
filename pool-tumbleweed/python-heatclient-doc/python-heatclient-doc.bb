@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.2.0"
 
-RPM_NAME = "python-heatclient-doc-3.2.0-1.2.noarch.rpm"
-RPM_HASH = "8f4a783732bcd0c2ef9c9a333abe13c19f4424e8c25613a9f8ef458a103ddc5e52dd319005164eeb7ceac04c86987a52170b3f5df1e9a1de11fdfb0712870e53"
+RPM_NAME = "python-heatclient-doc-3.2.0-1.3.noarch.rpm"
+RPM_HASH = "f2f31bce89b07e602c63987d57adff5365a95897fc58b9e4477b01c8182d18d9b7f3db1ec4635e8f12e2cf55811e486c93d18890d15cd8b36986896bcb8b90fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-heatclient-doc"

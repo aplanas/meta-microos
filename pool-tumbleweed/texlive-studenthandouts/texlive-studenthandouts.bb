@@ -11,10 +11,10 @@ secondary feature, the package defines a basic visual style for \
 handouts. This style can be easily changed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn43516"
+PV = "2023.209.1.0svn43516"
 
-RPM_NAME = "texlive-studenthandouts-2023.201.1.0svn43516-57.1.noarch.rpm"
-RPM_HASH = "a656c8db782551cc4554c587a043e23f843bd7242fca8be197a8f5088705ead2053fccddbe82397f186f2c31608de378a15544c30881d6ca7a5c8341ef34f17f"
+RPM_NAME = "texlive-studenthandouts-2023.209.1.0svn43516-58.1.noarch.rpm"
+RPM_HASH = "ebb28c7916fc4c290d3b9999d8ea82b08906fa0ee14142445c10ae14814c2125b0cd1b6f00941f19a8ac4211b2c2f038e50a9efec1e61cdc7d9ef7aecf7cf67f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-studenthandouts.sty \

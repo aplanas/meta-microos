@@ -5,10 +5,10 @@ package requires the expl3 bundle and packages from the LaTeX 3 \
 'package set'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.10dsvn61490"
+PV = "2023.209.0.0.10dsvn61490"
 
-RPM_NAME = "texlive-enotez-2023.201.0.0.10dsvn61490-53.2.noarch.rpm"
-RPM_HASH = "9144a08b7bc84e5fafeb49a6053976e5a5e160f51281055225e7cc85f3631f980cd38c57b13efdb443049ac79fbc60a28abe10d06e49200c782ddf126c6434d3"
+RPM_NAME = "texlive-enotez-2023.209.0.0.10dsvn61490-54.1.noarch.rpm"
+RPM_HASH = "62024b5c032efcd4f5c6f4c6742ea621cc5def10fb7f1ce919043443fb423fd613f4e0cf7200c94e5b8b966b5be026a140ffca80fb89751bf5170fadab22e916"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-enotez.sty \

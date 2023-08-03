@@ -9,10 +9,10 @@ allows for animation when no other vector is available. The \
 package's graphics are produced using pstricks."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1svn25629"
+PV = "2023.209.1svn25629"
 
-RPM_NAME = "texlive-vocaltract-2023.201.1svn25629-53.1.noarch.rpm"
-RPM_HASH = "a2ca7f6e321ea58551a660a108d689f2739ad4dae9cd0a92f86c7262e7997b3d05d0944ddb3bcbe5af74a79fe7f7045a94d229e6c25393e9f035ab9fec232cb4"
+RPM_NAME = "texlive-vocaltract-2023.209.1svn25629-54.1.noarch.rpm"
+RPM_HASH = "cb93c489a85c1c67f91588ce48dd6bae9ae2561a1cb0ff03ff92d92fca8ffaf21ff55526defbd624ce41fbc5e65f93eb119ddddab6baf8e05413577d71af7952"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-VocalTract.sty \

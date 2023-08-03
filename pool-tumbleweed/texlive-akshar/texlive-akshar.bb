@@ -3,10 +3,10 @@ DESCRIPTION = "This LaTeX3 package provides macros and interfaces to work with \
 Devanagari characters and syllables in a more correct way."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn56277"
+PV = "2023.209.0.0.2svn56277"
 
-RPM_NAME = "texlive-akshar-2023.201.0.0.2svn56277-54.1.noarch.rpm"
-RPM_HASH = "d5286f884eb246c233438468048ed4c7ede75e59731aa83d0046c89d21942d527fd3c34aaa09f02c4817427f10ae19ecf258f4302700a2b5f08bc8579295852c"
+RPM_NAME = "texlive-akshar-2023.209.0.0.2svn56277-55.1.noarch.rpm"
+RPM_HASH = "1743e138daddbc9a04820cbb893031292b464e397703b9f47e2a101f56b29b2d55a4dfb72d4a99bea7cbe271fb173493cc2d269011fe14c5db690725d5281f90"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-akshar.sty \

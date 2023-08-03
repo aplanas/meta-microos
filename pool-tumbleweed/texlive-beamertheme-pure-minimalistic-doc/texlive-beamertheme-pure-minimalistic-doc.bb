@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-beamertheme-pure-minimalistic"
 DESCRIPTION = "This package includes the documentation for texlive-beamertheme-pure-minimalistic"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.0.0svn56934"
+PV = "2023.209.2.0.0svn56934"
 
-RPM_NAME = "texlive-beamertheme-pure-minimalistic-doc-2023.201.2.0.0svn56934-53.1.noarch.rpm"
-RPM_HASH = "8fb14af8353ba0e14077f8d4a170e9ed149979b6ce76123ef63b9fd3b579d3e12e69a248ebe5a5d788fd8ec4767ed8139cb94c32d28cd68b7699047c4e2c1a67"
+RPM_NAME = "texlive-beamertheme-pure-minimalistic-doc-2023.209.2.0.0svn56934-54.1.noarch.rpm"
+RPM_HASH = "a9e57283cb6d170757c2599e15936a980ae274da0b5896b8a069f95781fa89b77d52b24b50338a65fdd8ba349ae10e48de49f4e9e4b2370d3307e2eb3d2f08f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamertheme-pure-minimalistic-doc"

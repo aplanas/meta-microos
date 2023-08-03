@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-crimson"
 DESCRIPTION = "The  separated fonts package for texlive-crimson"
 LICENSE = "OFL-1.1"
 
-PV = "2023.204.svn64559"
+PV = "2023.209.svn64559"
 
-RPM_NAME = "texlive-crimson-fonts-2023.204.svn64559-54.1.noarch.rpm"
-RPM_HASH = "2a2e666bf19a9bb6cb1667bca7157ba5a3ac2e1f1b1031bea9414b0e71c13c3d4787aaf2ce5fc7004a9c2f1e7227e2e7cdacfe2d84bf1adb0aa941d8142b5781"
+RPM_NAME = "texlive-crimson-fonts-2023.209.svn64559-55.1.noarch.rpm"
+RPM_HASH = "5f8ba33516ab0423cb62443db5713a4646828d585aea2ff485f51d5f96b019085c6e40b396092ab8f4bb0e4d906c906465ae1872405de76b35d236aee1a061b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-crimson-fonts \

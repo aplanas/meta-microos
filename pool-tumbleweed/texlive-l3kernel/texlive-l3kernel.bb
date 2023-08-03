@@ -7,10 +7,10 @@ TeX programmers. The packages are set up so that the LaTeX3 \
 conventions can be used with regular LaTeX2e packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66094"
+PV = "2023.209.svn66094"
 
-RPM_NAME = "texlive-l3kernel-2023.201.svn66094-55.1.noarch.rpm"
-RPM_HASH = "b7fb3afdc3527dadbd93583bc2ff5d86c75f4cd8b5dab7b1d8c99ad1b3abb476cfbf3f9a7cbb59e392e31da0c4b5577f6545b006756421f5430e164e690774a3"
+RPM_NAME = "texlive-l3kernel-2023.209.svn66094-56.1.noarch.rpm"
+RPM_HASH = "f44ac475b55b2574939a070ba0852c3537b98f13b6e52f71008ce08e74cc6c84621d525f174d7a8222fa63938deb17707bd0ea69e3904adbe2e51b19e260abd0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-expl3-code.tex \

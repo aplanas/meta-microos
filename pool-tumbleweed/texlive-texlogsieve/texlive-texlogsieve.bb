@@ -14,10 +14,10 @@ out; No messages are accidentally removed; The summary report \
 is currently simple, but useful."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.3.1svn64301"
+PV = "2023.209.1.3.1svn64301"
 
-RPM_NAME = "texlive-texlogsieve-2023.201.1.3.1svn64301-54.1.noarch.rpm"
-RPM_HASH = "22ba2e3e1e91b06513ec20ed69791dbdf04861fc9692857e17dd0a8b1f3e7ef342077bb98b976dc007c74ea177bd9fb6ab14371aea901ed40500c29a966c6ecd"
+RPM_NAME = "texlive-texlogsieve-2023.209.1.3.1svn64301-55.1.noarch.rpm"
+RPM_HASH = "4260b1dbb63babb877f1cad31a2ca181b61b64593cdcbde8ada20af569dfee4d06f8d4af059ff7ecc084e9a96e67fdd6ed4ba637d0d52e9dae7b59f1953af327"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texlogsieve"

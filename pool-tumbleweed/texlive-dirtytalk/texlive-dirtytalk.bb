@@ -4,10 +4,10 @@ command \\say{stuff}. The quotation mark glyphs are inserted by \
 the macro; nested quotations are detected."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.0svn20520"
+PV = "2023.209.1.0svn20520"
 
-RPM_NAME = "texlive-dirtytalk-2023.201.1.0svn20520-52.1.noarch.rpm"
-RPM_HASH = "0b9516926d2345577e4d8d0f41abc031a85db7765eb6cc81d751d76cc20b6d46666defd72cc079002846645cc1868f394ff0323fa92ad9054e86e0a896e3b676"
+RPM_NAME = "texlive-dirtytalk-2023.209.1.0svn20520-53.1.noarch.rpm"
+RPM_HASH = "053b0b51b6dbb3c528c833266730a304eae6c9888417f9298e782049678303fe2e1d930dad2a5827d10747f42774e22afedbfb8af348048ba325702bdec10cd2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dirtytalk.sty \

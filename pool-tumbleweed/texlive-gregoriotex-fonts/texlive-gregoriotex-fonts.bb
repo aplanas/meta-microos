@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-gregoriotex"
 DESCRIPTION = "The  separated fonts package for texlive-gregoriotex"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.6.0.0svn58331"
+PV = "2023.209.6.0.0svn58331"
 
-RPM_NAME = "texlive-gregoriotex-fonts-2023.201.6.0.0svn58331-53.2.noarch.rpm"
-RPM_HASH = "b3fd6bda68792be9b287dc7ae2b2832cd5b714ecf5d040b2c105f0323a6757e2530b87529c1c186a7846520346058fb0132b5764e0f9c109a96f645f896b3a2b"
+RPM_NAME = "texlive-gregoriotex-fonts-2023.209.6.0.0svn58331-54.1.noarch.rpm"
+RPM_HASH = "6d2a0cc272f11b456bd811c60f0091115fd933c4aee308e545d5160e47a603af02e911c4768a6097a662fde475502806ec7b7f5bd7af61394931f917c17b5d2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-greciliae \

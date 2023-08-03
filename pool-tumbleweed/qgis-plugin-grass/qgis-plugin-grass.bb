@@ -2,15 +2,15 @@ SUMMARY = "GRASS Support Libraries for QGIS"
 DESCRIPTION = "GRASS plugin for QGIS required to interface with GRASS system."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.30.3"
+PV = "3.32.0"
 
-RPM_NAME = "qgis-plugin-grass-3.30.3-2.1.aarch64.rpm"
-RPM_HASH = "6609a745d3036951fd722534f7cd56340abc01d90286b8e18a065d5009efaa793208955afee353be46c9526a5fcaf7a57b1d02859aff84ae005bf267c7618e96"
+RPM_NAME = "qgis-plugin-grass-3.32.0-1.1.aarch64.rpm"
+RPM_HASH = "5ef24023cd74b267f5730df96dcde7e0d9ce67a82bf706b1284abbb71ac5a1f3b95c22407592911d266a2e63a1de7ea60abf648ad1f6979e3121680cc281c045"
 
 RPROVIDES:${PN} += "libplugin-grass8.so \
 libprovider-grass8.so \
 libprovider-grassraster8.so \
-libqgisgrass8.so.3.30.3 \
+libqgisgrass8.so.3.32.0 \
 qgis-plugin-grass"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
@@ -33,9 +33,9 @@ libgrass-imagery.8.2.so \
 libgrass-raster.8.2.so \
 libgrass-vector.8.2.so \
 libm.so.6 \
-libqgis-app.so.3.30.3 \
-libqgis-core.so.3.30.3 \
-libqgis-gui.so.3.30.3 \
+libqgis-app.so.3.32.0 \
+libqgis-core.so.3.32.0 \
+libqgis-gui.so.3.32.0 \
 libstdc++.so.6 \
 qgis"
 

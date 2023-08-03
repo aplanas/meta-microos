@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gnuplottex"
 DESCRIPTION = "This package includes the documentation for texlive-gnuplottex"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.9.5svn54758"
+PV = "2023.209.0.0.9.5svn54758"
 
-RPM_NAME = "texlive-gnuplottex-doc-2023.201.0.0.9.5svn54758-53.2.noarch.rpm"
-RPM_HASH = "d0727b9c19e37f1070f5a4d0b2b995c6ff7a25de861a562b05a9e0ccebcd62c31b71b9538f1e190b9e5d409c9816e53b5a86eb799d5809ae5cc24e376863b5e6"
+RPM_NAME = "texlive-gnuplottex-doc-2023.209.0.0.9.5svn54758-54.1.noarch.rpm"
+RPM_HASH = "5ea59b4f848abc4cf1026382225826947aa110f364e00e595aee594fe1d949c82623bd0c85aedd5c811033b01dc0c7cd0efc643a6c650748e5ea0ff3297f6121"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gnuplottex-doc"

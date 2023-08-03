@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-go"
 DESCRIPTION = "This package includes the documentation for texlive-go"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn28628"
+PV = "2023.209.svn28628"
 
-RPM_NAME = "texlive-go-doc-2023.201.svn28628-53.2.noarch.rpm"
-RPM_HASH = "7675295af2a95f01a0f152bc90a256c1f5d05b524815fa6fc1fd90ca7d0bcb0374f57127b71bece10e636da9c63ba06ff00e1776988e126ba514d7224c7b1684"
+RPM_NAME = "texlive-go-doc-2023.209.svn28628-54.1.noarch.rpm"
+RPM_HASH = "c4d0643bb351ff5aff7c58afe167d0799f2c550c0a600063b9d23ccd4c2f6f11dbec887688e851c8092dfd43f96ce484d6025c8bf1b40dceecb81b46c719f40d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-go-doc"

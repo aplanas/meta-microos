@@ -11,10 +11,10 @@ Currently only MATLAB and Python are supported to produce \
 Dynamic Number list files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1.3svn38726"
+PV = "2023.209.0.0.1.3svn38726"
 
-RPM_NAME = "texlive-dynamicnumber-2023.201.0.0.1.3svn38726-53.2.noarch.rpm"
-RPM_HASH = "bac2c857401e49847b29df6c8b6328b583e86b25ed800e20ac082109eba7f916c3f1fe4025d03efd9c5e44605f58a4dedc41d9b8cd191491fe3b377b212ce9ac"
+RPM_NAME = "texlive-dynamicnumber-2023.209.0.0.1.3svn38726-54.1.noarch.rpm"
+RPM_HASH = "772254273016064e04e514af702fe4768195d076a3b7b2b7a5a9a9d4dd22c33feec525a6da7c6acb8c7e4e02ad4638793b8ca5de6d56435163256fd810482709"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dynamicnumber.sty \

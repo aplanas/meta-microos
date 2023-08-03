@@ -4,10 +4,10 @@ formalism devoted to representing natural language expressions. \
 The package relies on epic and cancel."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.1svn51618"
+PV = "2023.209.1.1svn51618"
 
-RPM_NAME = "texlive-adtrees-2023.201.1.1svn51618-54.1.noarch.rpm"
-RPM_HASH = "67eaf246f3a86a41720c15c13f858ee0acbd7d103bc0e77c8fbaaed04c00d2e5647438926173fa81bf13ae9c6327de65224dec41995c1b56114c5ae8acf76878"
+RPM_NAME = "texlive-adtrees-2023.209.1.1svn51618-55.1.noarch.rpm"
+RPM_HASH = "ec78fbcc5274f88064492af9cfc9ee0b705e1d57b03186f2475d3e7441a0c313768ae2e7d8a0f7042ff2a04c9e7fb3ff50df0e17fc4898d90d5fd208dabeb022"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-adtrees.sty \

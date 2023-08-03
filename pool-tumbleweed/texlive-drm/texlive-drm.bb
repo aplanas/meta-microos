@@ -12,10 +12,10 @@ rules to be used with ornaments from itself or other fonts, \
 along with an extremely flexible ellipsis package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.4svn38157"
+PV = "2023.209.4.4svn38157"
 
-RPM_NAME = "texlive-drm-2023.201.4.4svn38157-52.1.noarch.rpm"
-RPM_HASH = "3ceca8db68ff0d86f50a8ea87c20abb2b8087604377ac62443964599133e940c7a75160dd25185e8a6bd9fc7e22956399a56e8b756ae1252b6c44f61e959d81c"
+RPM_NAME = "texlive-drm-2023.209.4.4svn38157-53.1.noarch.rpm"
+RPM_HASH = "8e65499ccc2ad50752b71dcb364a55dfa387f9a883f5ce05c0bb3f5ccba3e74cdc236b0ecc4063f8ea9e74897ee5683e87f76b25e5df85f6dd471e08287970a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-drm.map \

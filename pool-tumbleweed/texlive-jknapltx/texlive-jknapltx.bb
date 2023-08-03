@@ -10,10 +10,10 @@ Sans fonts; transliterate semitic languages; patches to make \
 as appropriate; simple Young tableaux."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn19440"
+PV = "2023.209.svn19440"
 
-RPM_NAME = "texlive-jknapltx-2023.201.svn19440-55.1.noarch.rpm"
-RPM_HASH = "3eb94c6742fb4f38c31a46e9c9ce58650e8ff8e7be7ae6dd3b46feefb09b4c9ca5731aa625f18b2ae56c303a280f3563cc46f33edaf34bd97824723198192142"
+RPM_NAME = "texlive-jknapltx-2023.209.svn19440-56.1.noarch.rpm"
+RPM_HASH = "89b81ae2abf5c060ea03784e3f02cb1da8ac780e3f91e2f1ef84f1e533beedb429a4dd5d5d11075460e53f79231b4106f4bfe03ae5d223f443f64a02b68a4df4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-greekctr.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xint"
 DESCRIPTION = "This package includes the documentation for texlive-xint"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4msvn63562"
+PV = "2023.209.1.4msvn63562"
 
-RPM_NAME = "texlive-xint-doc-2023.201.1.4msvn63562-52.2.noarch.rpm"
-RPM_HASH = "7f9494dc29ea64545b207654d92a4f5b8bf85b638a561fc840c934ef31b266842a2232ed5437b6d8268b114eb5ffecc3c523115fb0787d80e01558285574621f"
+RPM_NAME = "texlive-xint-doc-2023.209.1.4msvn63562-53.1.noarch.rpm"
+RPM_HASH = "fbc4b55c2037626a5a44f79be8e4764f696cb4978876af168d987d0f60e6319b2c153407c433dc88f494335949ecf46cb5f1f50d08214257d61611fed32d83ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xint-doc"

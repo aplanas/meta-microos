@@ -5,10 +5,10 @@ package depends on xparse, fancyhdr, graphicx, multirow, float, \
 and adjustbox."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn54840"
+PV = "2023.209.1.3svn54840"
 
-RPM_NAME = "texlive-parsa-2023.201.1.3svn54840-51.1.noarch.rpm"
-RPM_HASH = "d6c7dddd3e54a2dc09c36e6aa591c1199740f3740541160756bd78ec3f0ca8d0887643a608f8154803f4b917f58fbcaa6fa62f16007eace8ac48d767dc5a57db"
+RPM_NAME = "texlive-parsa-2023.209.1.3svn54840-52.1.noarch.rpm"
+RPM_HASH = "c483ca68cd2b1d688b9e9eb2faf802807fa3f56db35ec7f23afa37e2c03b4bc0096b836e2e9adf04210665181e1214c85988788b1e6147adb5e7723662ff413b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-parsa.sty \

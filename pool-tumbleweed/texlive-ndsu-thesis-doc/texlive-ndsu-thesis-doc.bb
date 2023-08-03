@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ndsu-thesis"
 DESCRIPTION = "This package includes the documentation for texlive-ndsu-thesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn46639"
+PV = "2023.209.svn46639"
 
-RPM_NAME = "texlive-ndsu-thesis-doc-2023.201.svn46639-54.1.noarch.rpm"
-RPM_HASH = "ec3083912cb3b80b5dc32847ef39fe04890f6b9aaf9ee90f0b8d6ae7e340b64b5166399f03edc13f78f03cca3753460bb6721557eea1ba1f94b7511f4a9446cd"
+RPM_NAME = "texlive-ndsu-thesis-doc-2023.209.svn46639-55.1.noarch.rpm"
+RPM_HASH = "5ea3300df8da858490e7138bd5a341441a2aa32248f9fde3a33eb2f85e293284ae2a803a0a7fd429421bb6ed9e020982da4f125f169a03eeb4b1995ec1979efd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ndsu-thesis-doc"

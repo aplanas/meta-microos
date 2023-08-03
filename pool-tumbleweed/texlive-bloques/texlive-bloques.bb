@@ -3,10 +3,10 @@ DESCRIPTION = "The package uses TikZ to provide commands for generating \
 control diagrams (specially in power electronics)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn22490"
+PV = "2023.209.1.0svn22490"
 
-RPM_NAME = "texlive-bloques-2023.201.1.0svn22490-52.1.noarch.rpm"
-RPM_HASH = "fe4efa47082ee9c90a8621d16bb9646a99c98366c9f81bf8c67cd207da09a524f10b90fab03e7d063851002937d31be7e2c37c71514184b6f6262ce13e8d1e00"
+RPM_NAME = "texlive-bloques-2023.209.1.0svn22490-53.1.noarch.rpm"
+RPM_HASH = "2439142a148ea287a72b5a60550bd4b5f656ac940b0854831dda24c520dacb72aa8e6531c180fc9718b009b4b16fb0d92018ae7e8917126987414160b6eeb765"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bloques.sty \

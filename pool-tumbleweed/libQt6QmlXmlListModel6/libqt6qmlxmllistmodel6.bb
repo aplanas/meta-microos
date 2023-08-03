@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 QmlXmlListModel library"
 DESCRIPTION = "The Qt 6 QmlXmlListModel library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6QmlXmlListModel6-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "c0237159b1175912d8eb5c0e9bd552fc224dd3fe6d70c96be9a378f79f65072f4b023869b049359cba7656dea791507cb275b8631bbcb84b1c4b6f8ab31c714a"
+RPM_NAME = "libQt6QmlXmlListModel6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "6faa6f7dd445d23a7edf5d3621f3d9417d3dfa3dfefd81e9505d9dd341dc7419fc0f5dcbf63fee57c42585d1bc4d1b48828b16ceca3e4227fb334073136d136b"
 
 RPROVIDES:${PN} += "libQt6QmlXmlListModel.so.6 \
 libQt6QmlXmlListModel6"

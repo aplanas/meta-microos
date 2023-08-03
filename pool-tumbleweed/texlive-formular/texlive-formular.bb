@@ -5,10 +5,10 @@ can write something down manually. This package offers some \
 commands for defining such fields in a distinctive way."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0asvn15878"
+PV = "2023.209.1.0asvn15878"
 
-RPM_NAME = "texlive-formular-2023.201.1.0asvn15878-52.1.noarch.rpm"
-RPM_HASH = "9d8e3835ef78f738d996c78c636b8660a7838832b7180bf4cebe1bc4b0613143bab881df0f617711ff42d37cf23997aa5923a8748c08c124a28aaa5d583dee86"
+RPM_NAME = "texlive-formular-2023.209.1.0asvn15878-53.1.noarch.rpm"
+RPM_HASH = "96d2d63be128c651aa79988a33740eadeb1e20a85ee976b8f692135d0bd2364db2a46352997636aaf0b753ddc53601b39d32066aad655f489830e26f7acc2706"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-formular.sty \

@@ -6,10 +6,10 @@ commercial 'Pro' version is also supported, if it is installed \
 and XeLaTeX or LuaLaTeX is used."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.5.15.4svn63207"
+PV = "2023.209.5.15.4svn63207"
 
-RPM_NAME = "texlive-fontawesome5-2023.201.5.15.4svn63207-52.1.noarch.rpm"
-RPM_HASH = "1fa4e011fd332bca74aac1c65e137192f1d6122ac328fd62d8dc566ea66780f14f650c6c16bd07ed34c6bd02ae5d7d758ee84cc34822b517c7874d6ecd9f7a0d"
+RPM_NAME = "texlive-fontawesome5-2023.209.5.15.4svn63207-53.1.noarch.rpm"
+RPM_HASH = "673861d366301320891361c5390cbd45ca7b00334f20d3293332b5c3147a45189dcb17b746cfb4bff97d0060f27e18d86ec222187aae7d01d80de07b81cc3f5d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fa5brands0.enc \

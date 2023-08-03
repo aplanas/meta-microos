@@ -5,10 +5,10 @@ see lgreek (with English documentation) or levy (with German \
 documentation)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn21750"
+PV = "2023.209.svn21750"
 
-RPM_NAME = "texlive-levy-2023.201.svn21750-54.1.noarch.rpm"
-RPM_HASH = "05880d716537c94adbe4027941a4d148ca0ce8ae4a40e4615fb74cad4f65491b3d0ce72c8f5aec7d6b814ad7ffcc1f410de23c9c425b79ce6159ab2ca968a223"
+RPM_NAME = "texlive-levy-2023.209.svn21750-55.1.noarch.rpm"
+RPM_HASH = "03b5d0fce8e957cc3276b1bbff2e2156d50d0922695fa6fc2d6b5534c7da78364d742fb1e679a099b917388dc6c2d32a70f9c749ae566006f7a8aaae920edbfc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-grbld10.tfm \

@@ -5,10 +5,10 @@ and parts of examples. The package can be used with LaTeX using \
 the .sty wrapper or with PlainTex."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.5.1bsvn44499"
+PV = "2023.209.5.1bsvn44499"
 
-RPM_NAME = "texlive-expex-2023.201.5.1bsvn44499-52.1.noarch.rpm"
-RPM_HASH = "7e8feb452316214e1fe923d6a5bed40c49691330e8c2895107a1b964ca7b32c35760be836ff1fa7b760101bfdabb193bec3055400a0391d82f2a0d016c39f3a3"
+RPM_NAME = "texlive-expex-2023.209.5.1bsvn44499-53.1.noarch.rpm"
+RPM_HASH = "8818b6f7f2e9d9897ff56aa28665523c6a83357db41c68d168293698946d722b5a6bee1aebea3d4cc8e1b0d26f597ede37516516d0b915a6c9fd87fe69c8829d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-epltxchapno.sty \

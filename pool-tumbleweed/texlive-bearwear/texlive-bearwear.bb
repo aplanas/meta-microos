@@ -3,10 +3,10 @@ DESCRIPTION = "The package offers tools to create shirts for TikZbears from \
 the TikZlings package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn54826"
+PV = "2023.209.0.0.2svn54826"
 
-RPM_NAME = "texlive-bearwear-2023.201.0.0.2svn54826-53.1.noarch.rpm"
-RPM_HASH = "706bd13d09f8f9484e524abe2cf5ffcfad259ac2f77782ef9b10f7afb6ca095f4c888828ebcb3e3ae90db2e603c401c735b54c3a9b30e6908fee33add0c0d41b"
+RPM_NAME = "texlive-bearwear-2023.209.0.0.2svn54826-54.1.noarch.rpm"
+RPM_HASH = "dab2588c778b54bdf307c7247c1bcdcc522ce18f1beb91d7cbcaf7d4b99d0088b05b7c0f52cb49f8d5e8d8f25164996bc25b7753926901986451ce2c2f3555b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bearwear.sty \

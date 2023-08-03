@@ -7,10 +7,10 @@ documents. The package makes use of the e-TeX extensions to \
 TeX, so should be run using an 'e-LaTeX'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2asvn43444"
+PV = "2023.209.0.0.2asvn43444"
 
-RPM_NAME = "texlive-cjhebrew-2023.201.0.0.2asvn43444-53.1.noarch.rpm"
-RPM_HASH = "bc2189d3d012dd471c9d83d1c58a6dbd731888ec49cca077c15998639ef9021e6a52b516330ed8aec85a4746675a85f2b16fad80e5a45de129cc8c6c0a8046b6"
+RPM_NAME = "texlive-cjhebrew-2023.209.0.0.2asvn43444-54.1.noarch.rpm"
+RPM_HASH = "d4e3dc79de781f3dc47eccbb7b89561bfb7f61c9544ee078e76c6b5ceedb716994a4b54760e01c305b60fe2d4598811ae87a8cd3226698b8d67323b404c915d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cjhblsm.tfm \

@@ -5,10 +5,10 @@ bundle. It accompanies the pre-testing kernel code \
 users."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.20230501_pre_release_0svn64899"
+PV = "2023.209.20230501_pre_release_0svn64899"
 
-RPM_NAME = "texlive-latex-graphics-dev-2023.201.20230501_pre_release_0svn64899-55.1.noarch.rpm"
-RPM_HASH = "d8df398e738dc8c6cc431c552edd3ff8573dea05377285e845249849c57c7d829faf6ea2c2323436cabf167e92d4dbe91edf1ab2b12c055d8332ad743d2f6f32"
+RPM_NAME = "texlive-latex-graphics-dev-2023.209.20230501_pre_release_0svn64899-56.1.noarch.rpm"
+RPM_HASH = "1fe5b95ee5952ea8266c47fdd739b6bf899a9c76afb9c96c001926d85a9d2c24cb0eacbfec5db5efb5848221581b478f26f4c5792394e3dd8c2af94072cbf075"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texdev-color.sty \

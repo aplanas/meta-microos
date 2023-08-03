@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.13.1"
 
-RPM_NAME = "python311-pythran-0.13.1-2.2.noarch.rpm"
-RPM_HASH = "2c4c0b852703d6b4dcb3b54dbeac4d93b972d4b106799fff7c9a703bee90d6726c5a1ed8ce65f9f90df4fc7e687eda47e3af3d6721516cc6a7cafca8fb19d652"
+RPM_NAME = "python311-pythran-0.13.1-3.1.noarch.rpm"
+RPM_HASH = "28e1e4639223d96806e0e8b959f62ac2620eea6854d94438e1e490296608ff30f38905248ded75d0261f7009edec19ac08c586c9386db856def5a6bd545db822"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pythran \

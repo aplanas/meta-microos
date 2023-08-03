@@ -1,17 +1,13 @@
 SUMMARY = "Scalable IRCv3.2 compliant chat daemon"
 DESCRIPTION = "Solanum is an IRCv3.2 compatible chat server. It is a continuation of the \
 Charybdis server and has good documentation and ease of configuration. \
- \
-Charybdis was used on various networks either as itself, or as \
-the basis of a customized IRC server implementation. One such \
-customization is ircd-seven which powers Freenode, the largest IRC \
-network in the world."
+It is used by Libera, the largest (as of 2023) IRC network in the world."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0~ch560"
+PV = "0~ch634"
 
-RPM_NAME = "solanum-0~ch560-3.1.aarch64.rpm"
-RPM_HASH = "0dcc7d886e06cb2ad08151733084df1b56ea7a3c0a46d62528381dd89b67c7e130429872ce761bc354845c21b8f1a421031639dbefafa6a64d85e800e295b7fd"
+RPM_NAME = "solanum-0~ch634-1.1.aarch64.rpm"
+RPM_HASH = "b7a2bdee462d7abbdccdd9d679f163aaf0071a4c6ae84096a206e7cd6821a57f539b9cc902e2ab07e458a7dfe07f66649f6bc94f23e4feaaa97eaef7a5f19665"
 
 RPROVIDES:${PN} += "config-solanum \
 libircd.so \

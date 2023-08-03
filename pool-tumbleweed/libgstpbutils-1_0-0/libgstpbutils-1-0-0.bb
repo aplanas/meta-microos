@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "libgstpbutils-1_0-0-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "7e42d40dd9046d2afa02de326317acd5c7e79f90de3c4b2066169fbec2ecd2d7995960e78bb18be0c899a8fe826b28e6f0cff46470f68cdacbe681376d42ef53"
+RPM_NAME = "libgstpbutils-1_0-0-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "e81bd64e3fae1f5007299547aba95f69b98ad61b8a9ac74ef589b9e8311564d15255576afe16d76ecca3e85d763edb71ca33b1042ba4432435e75699a36520cd"
 
 RPROVIDES:${PN} += "libgstpbutils-1-0-0 \
 libgstpbutils-1.0.so.0"

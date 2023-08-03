@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tableaux"
 DESCRIPTION = "This package includes the documentation for texlive-tableaux"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn42413"
+PV = "2023.209.svn42413"
 
-RPM_NAME = "texlive-tableaux-doc-2023.201.svn42413-57.1.noarch.rpm"
-RPM_HASH = "191affbfba0cd74d1b1d813d9dc9517ca12576d5963f6c3447256123696d40ac68feee9ba7f19e29b12d7d6311cb7fff7263371b3a2f23eeff9453687875d832"
+RPM_NAME = "texlive-tableaux-doc-2023.209.svn42413-58.1.noarch.rpm"
+RPM_HASH = "fb8548a84cfcb9c2cf4b86a819d427594941cde97b7f708121b5dc230820e0da60109b6df07afe9314e042a58775b600f8497028d2f189e66067017014ed2d11"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-tableaux-doc-fr \

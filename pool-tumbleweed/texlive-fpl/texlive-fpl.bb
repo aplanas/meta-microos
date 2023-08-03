@@ -14,10 +14,10 @@ enabled by the mathpazo package, which is part of the psnfss \
 distribution."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.003svn54512"
+PV = "2023.209.1.003svn54512"
 
-RPM_NAME = "texlive-fpl-2023.201.1.003svn54512-52.1.noarch.rpm"
-RPM_HASH = "33cfeacc5f866565a36ff1af47f49790574bbbf0156f4d1f77b7a24b6299f8e7a4aac39d1de84d05ec883bc791b92c5e5ecf3002740b226c4a0cabd7c8d8ddc5"
+RPM_NAME = "texlive-fpl-2023.209.1.003svn54512-53.1.noarch.rpm"
+RPM_HASH = "dc44fbd6905f8b7e5855d52f305f514aae320bea6e9714a31fcbc3d745562c3a0dc45ed5dc56f3d780bf45b36c595a85d654fa4784f403fcf7172d6ce711b2da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fpl"

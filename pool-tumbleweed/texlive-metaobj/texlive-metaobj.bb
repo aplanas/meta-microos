@@ -7,10 +7,10 @@ large (albeit not complete) documentation distributed with the \
 package. It is easily extensible with new objects."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.93svn15878"
+PV = "2023.209.0.0.93svn15878"
 
-RPM_NAME = "texlive-metaobj-2023.201.0.0.93svn15878-54.1.noarch.rpm"
-RPM_HASH = "e0db311a55ad4c07dcb56825266da27b65442ae472ed2da4431a4cd5afc123796a3837b25f61a314fa8fb704b74d801dd52260847ed18d50d7735f5944ab3916"
+RPM_NAME = "texlive-metaobj-2023.209.0.0.93svn15878-55.1.noarch.rpm"
+RPM_HASH = "bff64e70968141d9e71a7fbb04b53e408e99de10a41fa14288a83fefcfb6291143414535519da86b995404cba6cdfd04f9517a32c16cc2dd430847fb90b27219"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metaobj"

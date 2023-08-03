@@ -6,8 +6,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.10.12"
 
-RPM_NAME = "python310-testsuite-3.10.12-1.2.aarch64.rpm"
-RPM_HASH = "86a603c62adb1f3968fc5fc206711e94420b0005dc0f6c2977822c03d21b2b27f02baee4a606988cea7f65789c84919e6dba2a8366889c8e0b6f50ab35c1b65d"
+RPM_NAME = "python310-testsuite-3.10.12-2.1.aarch64.rpm"
+RPM_HASH = "298319ac411676804219eead48bfe69a6bbbcb3d6ea4225a6b0df64171279fdc0c9b1d99d6e1acf2bf63b2ffb3493ed41fba45d62d1b3716b18fa7d4c1fdcd34"
 
 RPROVIDES:${PN} += "python310-testsuite"
 

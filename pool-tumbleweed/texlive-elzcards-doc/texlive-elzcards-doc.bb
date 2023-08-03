@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-elzcards"
 DESCRIPTION = "This package includes the documentation for texlive-elzcards"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.60svn51894"
+PV = "2023.209.1.60svn51894"
 
-RPM_NAME = "texlive-elzcards-doc-2023.201.1.60svn51894-53.2.noarch.rpm"
-RPM_HASH = "1d7f950a86b329a4b9c388fbf1c71f9eeee12b8bba109f05647d814efb34b545502df5c4d36f788ce9d876a7fc90fa07df22e213b1ec66215c61590e13571a6a"
+RPM_NAME = "texlive-elzcards-doc-2023.209.1.60svn51894-54.1.noarch.rpm"
+RPM_HASH = "df5bee5e996400415b58829095d749b186a42063f5fddd22b43c65748fce4fee84c65199cfbc908583a53899c763232003a99ef876a66d1035a7b4bbe2749e8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-elzcards-doc"

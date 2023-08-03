@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-onrannual"
 DESCRIPTION = "This package includes the documentation for texlive-onrannual"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn17474"
+PV = "2023.209.1.1svn17474"
 
-RPM_NAME = "texlive-onrannual-doc-2023.201.1.1svn17474-54.1.noarch.rpm"
-RPM_HASH = "88147581d7747caf4bd93ed59669e1664a120377c210dc4aa2b0e63c67d6dd115a8f8840ae62e5dd87fe17711035f8dbbcf606bf160992d8f18e173a1cb317c0"
+RPM_NAME = "texlive-onrannual-doc-2023.209.1.1svn17474-55.1.noarch.rpm"
+RPM_HASH = "f3c8d1f275bb4e4e64ece51bc68f96b566a54fa8977cbf5874bb4337e3a9d35555afae1a9e063260d019a9b205cf79c38849d342293133729f07e4cb922d61b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-onrannual-doc"

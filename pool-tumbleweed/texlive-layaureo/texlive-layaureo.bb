@@ -6,10 +6,10 @@ bundled by a press binding (use option binding=length), and an \
 option called big which it forces typearea to become maximum."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn19087"
+PV = "2023.209.0.0.2svn19087"
 
-RPM_NAME = "texlive-layaureo-2023.201.0.0.2svn19087-54.1.noarch.rpm"
-RPM_HASH = "79d817a4e19302ad514b294352b497b38238adcb2f03073266ec4fa3c7ec7d27fd6a6094a13092b10efcf461e19a63f8ca5660a09ef3c08acc3d8aed6906b9c1"
+RPM_NAME = "texlive-layaureo-2023.209.0.0.2svn19087-55.1.noarch.rpm"
+RPM_HASH = "f8bded168d4e0eda4c588446264f2de1756621d7cce69d111786233c89bf191dfe247d8aa7fc7fc7e125241344b0a3dd6da00c4f97b6d3b8b99fbe19978e9fe8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-layaureo.sty \

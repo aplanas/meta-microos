@@ -8,10 +8,10 @@ text, '_' itself behaves as \\textunderscore (the behaviour of _ \
 in maths mode is not affected)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn18261"
+PV = "2023.209.svn18261"
 
-RPM_NAME = "texlive-underscore-2023.201.svn18261-53.1.noarch.rpm"
-RPM_HASH = "e5a867b90a3965152a4a1cb4a972f6169803cef7493ac1973e4f4149ee67d168ba9fc2c268f4acf5b2e0116c97f3637f59c6d0d3215c43bb267609b8e361eb5f"
+RPM_NAME = "texlive-underscore-2023.209.svn18261-54.1.noarch.rpm"
+RPM_HASH = "edd5af8d746f884dcd578d77acfa4480997eef28ed018c36ec8a204d454e24868754a48c9fd0606504cfc7ddaf7938d03cd1bc6811505fe65669a1a5f87f0f62"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-underscore.sty \

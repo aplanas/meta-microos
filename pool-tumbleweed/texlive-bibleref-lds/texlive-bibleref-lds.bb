@@ -6,10 +6,10 @@ run, and its reference syntax is the same as that of the parent \
 package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn25526"
+PV = "2023.209.1.0svn25526"
 
-RPM_NAME = "texlive-bibleref-lds-2023.201.1.0svn25526-53.1.noarch.rpm"
-RPM_HASH = "1f9160020fe8916110b7e914932739e6dd15536456a012d81557897e74d01c596cc486afacbb5a5d9bf20eb39a1e786215d11a9a45dcfeb2f808dc4027a9467e"
+RPM_NAME = "texlive-bibleref-lds-2023.209.1.0svn25526-54.1.noarch.rpm"
+RPM_HASH = "c8600fc670e95efff13c0417abb83814e2d04b5a6dea1dd159028f32aea065c771d86bcc9e8f1d9393754c972b2bf661e8450a523768f01d68ea002334c6efe8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bibleref-lds.sty \

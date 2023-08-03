@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pdfslide"
 DESCRIPTION = "This package includes the documentation for texlive-pdfslide"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-pdfslide-doc-2023.201.svn15878-51.1.noarch.rpm"
-RPM_HASH = "35ff9d007de4da8e7a1bc426fe5cfe4f4b78ba7a18a42ef4dd0cf46cce21a9fbf547c3ed3cf191150de22a2b98f5ed3f620def892830f60cb784c4856b91f9d7"
+RPM_NAME = "texlive-pdfslide-doc-2023.209.svn15878-52.1.noarch.rpm"
+RPM_HASH = "f38ab4cd9af2cef3e72476df0dd7dcc24b8216fe621c1f55029f9db6cbef5505164b253fdce7980f153b9d1b85b82a6ffabf48b35d50b533aea775098ac39ceb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdfslide-doc"

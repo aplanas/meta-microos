@@ -3,13 +3,12 @@ DESCRIPTION = "A program which displays current weather, with information about 
 pressure, wind speed and direction, as well as sunrise and sunset times."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.9.9.1"
+PV = "0.9.9.2"
 
-RPM_NAME = "meteo-0.9.9.1-1.11.aarch64.rpm"
-RPM_HASH = "3a42f90201d39c1a815699b8b3d8a5045bf4e63234dab20cb38d6f183ca8f9424ab3a838475b5aed2b83763d722e6f69e6bfa26d9d496d8918d36c8354ee5d98"
+RPM_NAME = "meteo-0.9.9.2-1.1.aarch64.rpm"
+RPM_HASH = "dcfe3131183031e97a8149955453a77b09eaaca1211d37b88162cf225576fa5bd47b2c1e37453a701e60801cc0f511aad0aae1dafd67a1e25fa2e31caa5e8f51"
 
-RPROVIDES:${PN} += "meteo \
-weather"
+RPROVIDES:${PN} += "meteo"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libappindicator3.so.1 \

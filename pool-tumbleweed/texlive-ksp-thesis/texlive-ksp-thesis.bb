@@ -9,10 +9,10 @@ provide a document layout that should be compatible with the \
 requirements by KSP."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.2svn39080"
+PV = "2023.209.1.0.2svn39080"
 
-RPM_NAME = "texlive-ksp-thesis-2023.201.1.0.2svn39080-55.1.noarch.rpm"
-RPM_HASH = "b74a3a64c2084e7fd4764738729ebce10198557ea9a50e25c5bfbca032f8bd9f6cace09005feb75a46f4fb86f461867d3da7d5a3c56195619e92cef07c211c5f"
+RPM_NAME = "texlive-ksp-thesis-2023.209.1.0.2svn39080-56.1.noarch.rpm"
+RPM_HASH = "db4ad69ce97ee17dd3b995cb3c290922ef6c6313baa049f30bf4deaba92eecf60fbc78e3d64ba7e6a57a8cb9910c124907e4bebf663d9933eb6df64558c57fc1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ksp-thesis.cls \

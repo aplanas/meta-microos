@@ -2,10 +2,10 @@ SUMMARY = "GNU D compiler runtime library"
 DESCRIPTION = "Runtime library for the GNU D language."
 LICENSE = "BSL-1.0"
 
-PV = "13.1.1+git7552"
+PV = "13.1.1+git7597"
 
-RPM_NAME = "libgdruntime4-13.1.1+git7552-1.1.aarch64.rpm"
-RPM_HASH = "e1a8a20249de71c51458b141886391699a067827b8f871e7d40228d92b1d8a8d35e757cdb3b8531cb54c25dc2cb98e3269ded77945aea8ac6c7f7d05ae797fdc"
+RPM_NAME = "libgdruntime4-13.1.1+git7597-1.1.aarch64.rpm"
+RPM_HASH = "897beaa77403015e259f7f11c0090c48f746d4811b8fb45e40c9b371562a0f11fc8a7ee87d1179e5ddbb7f83d73eb3dcf87c48d34ba247e2f8943c06e64c9643"
 
 RPROVIDES:${PN} += "libgdruntime.so.4 \
 libgdruntime4"

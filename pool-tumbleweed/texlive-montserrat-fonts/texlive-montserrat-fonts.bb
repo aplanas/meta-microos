@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-montserrat"
 DESCRIPTION = "The  separated fonts package for texlive-montserrat"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.03svn54512"
+PV = "2023.209.1.03svn54512"
 
-RPM_NAME = "texlive-montserrat-fonts-2023.201.1.03svn54512-54.1.noarch.rpm"
-RPM_HASH = "bb101c5b546e9c46974efcd527da46017b87ccaec281e4b9bfa8b0dc0bd528e99c3618ef1058a1f69cd18242274a4aa228ac1b7329c81d4f73d90feb0f0b3124"
+RPM_NAME = "texlive-montserrat-fonts-2023.209.1.03svn54512-55.1.noarch.rpm"
+RPM_HASH = "e3488638a0b4facb1a9d537fceffa296608b06a378a007084725be09c0f8e495da0e3126bc9ef5458691596fd4d9a5f2e1ae6dfc2d27635366fb9dcca823277a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-montserrat-fonts \

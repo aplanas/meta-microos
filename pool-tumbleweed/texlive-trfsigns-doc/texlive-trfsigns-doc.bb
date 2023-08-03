@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-trfsigns"
 DESCRIPTION = "This package includes the documentation for texlive-trfsigns"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.01svn15878"
+PV = "2023.209.1.01svn15878"
 
-RPM_NAME = "texlive-trfsigns-doc-2023.201.1.01svn15878-52.1.noarch.rpm"
-RPM_HASH = "547deba7a671b9a8e644d83e9ad5736de6b5a8f540d8b813100b791f88f81997f85fd78e9052f192fbd6cefdc55be4b0dfdb293b0299de48cb7b62f6f5bcccc6"
+RPM_NAME = "texlive-trfsigns-doc-2023.209.1.01svn15878-53.1.noarch.rpm"
+RPM_HASH = "b73a8b4c36a018ca958fc0302c5f9ea29743623b578881d6f6e4c07cb3aadf4c26e1b282514c29a74a33134a14e8f8b09962a7d4e4338f7b90d37faddf61e66f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-trfsigns-doc-de \

@@ -4,10 +4,10 @@ with accepted design standards. Fonts not (apparently) \
 available on CTAN are required for use of the class."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-eskd-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "b2641d2c15f1ac02f5d0e76ac8266cf75cf5cc02df11cac40d29f9d915bc5cc81800d0923698b7977b3a11d7f64efbfdaee658f47d058493096bdb44a5c95f5e"
+RPM_NAME = "texlive-eskd-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "1f1c14c058ddb9ce860783b08877fb35f01eeb5c1eb7447b92115e500ae1b77aa2a38884c8b5753f1ad35a351556d5025b5c040646550b3c513e4a412e94ced7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eskd.cls \

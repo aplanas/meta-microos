@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Location library - Development files"
 DESCRIPTION = "Development files for the Qt 6 Location library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-location-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "191fe392bb47de9ff711765f891df20102e09f4fcc01f27346dac59debaca14f2a0888fe0a324dce2908b2c44ba85e4a91d5a2f2afc5fae813137ae0fc14e820"
+RPM_NAME = "qt6-location-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "3ba77da626f48ae8376c6e71f91c55f9f389314d6f7a5453bd0f7c2e32dbc4f93b47435a6760d2ab2d848f9931bc9595d7101deb0b4a707c14201c366be01250"
 
 RPROVIDES:${PN} += "cmake-Qt6Location \
 pkgconfig-Qt6Location \

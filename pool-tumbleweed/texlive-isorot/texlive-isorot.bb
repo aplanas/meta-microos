@@ -5,10 +5,10 @@ rotating package. The package is designed for use with the iso \
 class but may be used with any normal class."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-isorot-2023.201.svn15878-55.1.noarch.rpm"
-RPM_HASH = "b3b10365be143d125f31160ec88403f28bb34d7bc50c0c1504d11d518cbec38359327265337f35786a7666fccacf5713f52dea3fe5d603aac0065131477a0a8f"
+RPM_NAME = "texlive-isorot-2023.209.svn15878-56.1.noarch.rpm"
+RPM_HASH = "b14e4609491eb3a711aca11c663af559d445ef183db518007a94b7c8fdecee7f9853e0d7b0396f3e1e46e13f051986eb87deacf58e50513501a519bdb9ddabf3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-isorot.sty \

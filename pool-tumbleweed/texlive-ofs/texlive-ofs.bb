@@ -14,10 +14,10 @@ even be better than NFSS) Support for math fonts including TX \
 fonts."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.201.svn16991"
+PV = "2023.209.svn16991"
 
-RPM_NAME = "texlive-ofs-2023.201.svn16991-54.1.noarch.rpm"
-RPM_HASH = "428186bd49ddc6276ba36ca2c96208fcd5730c2470f5a9e59cde73e5e6777f7d76b20a02afb36256c8665f69faede1f9a8ba115b4905422d0e665b0ec296ae56"
+RPM_NAME = "texlive-ofs-2023.209.svn16991-55.1.noarch.rpm"
+RPM_HASH = "b1b65f3d8794535f4abc1eca6abaa59e7a4e8843d97b6dd4a0dc06469b70e50d9f5d9bfb3b2d53a72808fdc4c401f3e303da843b82e90933a8d98d7174f366c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-a117.tex \

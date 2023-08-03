@@ -8,8 +8,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.0.1"
 
-RPM_NAME = "libtss2-policy0-4.0.1-1.4.aarch64.rpm"
-RPM_HASH = "bca17461f0f8e6fbbb15efd9b8f66d112446b4dea7937a1ae54c7a3821b3e9d16ee8b8bfd40af5f956745e1c4be437d007e3fe801f79616ad84e808661dc9294"
+RPM_NAME = "libtss2-policy0-4.0.1-2.1.aarch64.rpm"
+RPM_HASH = "774443e0f07e9feb34e50d5bfaae7a806647343faf5788624ef55de46dc703c57b1de629872205452075129f9ef2c7e4dbac4561c2794ce50448595e766b3ac2"
 
 RPROVIDES:${PN} += "libtss2-policy.so.0 \
 libtss2-policy0"

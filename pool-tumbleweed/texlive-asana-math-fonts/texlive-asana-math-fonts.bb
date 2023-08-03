@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-asana-math"
 DESCRIPTION = "The  separated fonts package for texlive-asana-math"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.000.958svn59629"
+PV = "2023.209.0.000.958svn59629"
 
-RPM_NAME = "texlive-asana-math-fonts-2023.201.0.000.958svn59629-53.1.noarch.rpm"
-RPM_HASH = "d5cbcc6c736fcedc4d5ed7a008ffeaab23794439f22f77e4f5076b0c47192d1d65ee58c5cfd7365f94d710ea1111dc5a84677c919b47bb71930beaea64a9c7ca"
+RPM_NAME = "texlive-asana-math-fonts-2023.209.0.000.958svn59629-54.1.noarch.rpm"
+RPM_HASH = "3d17361574c61986a1253f84a537fb1dd288f2c019a4c578dfc0f4e8aed2914004c36174b3db45d621eecc0d2607428447a08d052f322c94b49d2809d890a85b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

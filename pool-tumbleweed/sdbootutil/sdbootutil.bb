@@ -2,10 +2,10 @@ SUMMARY = "script to install shim with sd-boot"
 DESCRIPTION = "Hook scripts to install shim along with systemd-boot"
 LICENSE = "MIT"
 
-PV = "1+git20230717.dac075e"
+PV = "1+git20230727.a0e666f"
 
-RPM_NAME = "sdbootutil-1+git20230717.dac075e-1.1.aarch64.rpm"
-RPM_HASH = "c823373ca16bfbb0c2ae30e6e57d6eaeff03c6eac4043beeaaea82f1173e0e405813f83b37c6f2cee4532d948114c6eb96a7ff014a0dcd841e75aab5fad90f5d"
+RPM_NAME = "sdbootutil-1+git20230727.a0e666f-1.1.aarch64.rpm"
+RPM_HASH = "dfc478f023c55d0d9b8371aac3b031015c30c08811693a1c77ea1620af4b830d44f3298f5414f62e2af17fc4484b086674f68daa26e76e168a5e6826376b2330"
 
 RPROVIDES:${PN} += "sdbootutil"
 

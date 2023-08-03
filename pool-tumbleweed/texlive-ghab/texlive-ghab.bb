@@ -4,10 +4,10 @@ argument in a box with a decorated frame. The width of the box \
 may be set using an optional argument."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5svn29803"
+PV = "2023.209.0.0.5svn29803"
 
-RPM_NAME = "texlive-ghab-2023.201.0.0.5svn29803-52.1.noarch.rpm"
-RPM_HASH = "68cc72cd8812f82ca81d4a0f99dffb1037a975b2f58624d3105af7b0a8b623a8c2ff1160df09a84f7f8b66793c1b9f470e3220ef75df845f03d5d3edbc816cbb"
+RPM_NAME = "texlive-ghab-2023.209.0.0.5svn29803-53.1.noarch.rpm"
+RPM_HASH = "26da51a3dafc1b796781a3a52cfce79d4f6e50ea5ddaf4c9bf249f284935966db643436fa0da7dc29055e686bd25fb2c6e79c7e79d64ee393e852c811b518ce6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ghab.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "This LaTeX package is meant to ease the typesetting of tables \
 showing variations of functions as they are used in France."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.8svn63921"
+PV = "2023.209.1.8svn63921"
 
-RPM_NAME = "texlive-tabvar-2023.201.1.8svn63921-54.1.noarch.rpm"
-RPM_HASH = "b1f626383ee02abe4a9dfac06666ffc24a5cbc8e869fb237c1b70116c9adaaac71e6865b5a450fddd63552204eddd0f772024020bddef42b6bbaa1be6d69f277"
+RPM_NAME = "texlive-tabvar-2023.209.1.8svn63921-55.1.noarch.rpm"
+RPM_HASH = "5e9ba41d0b243b11d5ea8fecbf85cb234f914992aac8619cdb240ee0e08252434dbfe030ffe3d397954b73deeeac7849468c289424ad5897bb950e779e8bdedf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tabvar.cfg \

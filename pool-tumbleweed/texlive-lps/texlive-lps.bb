@@ -5,10 +5,10 @@ builds on the standard article class to offer a format that \
 LaTeX authors may use when submitting to the journal."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.7svn21322"
+PV = "2023.209.0.0.7svn21322"
 
-RPM_NAME = "texlive-lps-2023.201.0.0.7svn21322-54.1.noarch.rpm"
-RPM_HASH = "049e172ca8cb9aa5d68f95df79cee5ddc0244435d2ce05427a79e5ebc6cc03188e243165d93c58d219ac126f6a778297334e25277ee8ec5612e54115117c7f97"
+RPM_NAME = "texlive-lps-2023.209.0.0.7svn21322-55.1.noarch.rpm"
+RPM_HASH = "2b11a5d05735c7f4681980413d31c3abefc92a724c3e8f468e16fe38f23a6145e24ede0ee80b996ccae43e6e1be89459c41c2f6f342eb3808f37fa2072e32078"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lps.cls \

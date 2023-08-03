@@ -6,10 +6,10 @@ simple substitution cipher. The package provides a font \
 file), and macros for its use."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn15878"
+PV = "2023.209.0.0.2svn15878"
 
-RPM_NAME = "texlive-pigpen-2023.201.0.0.2svn15878-51.1.noarch.rpm"
-RPM_HASH = "62fbbf8da672c8bca0806fb3bde58ce5b8ec04e1623e689321c7e685f19589515702109d0a021748bed712c2008a6df479246e88eda6b48848ee6ccb7f5b160e"
+RPM_NAME = "texlive-pigpen-2023.209.0.0.2svn15878-52.1.noarch.rpm"
+RPM_HASH = "4bc77ba20810d898abed82c96e329b0ec2652ab5ff352c110ec9f1af8fb856b1f1fb8d8ef37bd1af3a03ea1464667e94323b5e6e760391ec1669656c24333651"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pigpen.map \

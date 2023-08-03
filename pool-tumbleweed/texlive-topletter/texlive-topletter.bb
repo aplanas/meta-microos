@@ -5,10 +5,10 @@ Politecnico di Torino. The class can be used for letters \
 written in Italian and in English."
 LICENSE = "Apache-1.0"
 
-PV = "2023.201.0.0.3.0svn48182"
+PV = "2023.209.0.0.3.0svn48182"
 
-RPM_NAME = "texlive-topletter-2023.201.0.0.3.0svn48182-52.1.noarch.rpm"
-RPM_HASH = "47b953eca924b2263900f433bdaeeb17db88e336af895f876f2a5da3253e021266e8dc6ea09cfd631ddfb4a74e5c7a435faec534e5a7bb27864b14281e65baeb"
+RPM_NAME = "texlive-topletter-2023.209.0.0.3.0svn48182-53.1.noarch.rpm"
+RPM_HASH = "d6c84940aae351918c8b4c7b0ca3777fb624c12525cc33cd6d67f8bb18fbffffc0b33e592d5e40bcb38a9f473d201cb407f468cdf7ee20c06d4dd6eed6c61bff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-TOPletter.cls \

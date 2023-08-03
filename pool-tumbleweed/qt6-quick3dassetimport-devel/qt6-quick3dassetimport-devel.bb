@@ -2,10 +2,10 @@ SUMMARY = "Qt6 Quick3DAssetImport library - Development files"
 DESCRIPTION = "Development files for the Qt 6 Quick3DAssetImport library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-quick3dassetimport-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "b72a94b83d591dbce431d9b4b7610372907a440dec8ef3afe147bf51e2b9add841a914defd8eca797bccdc5ed2fbdce9039bac9de031565c10577f124b143b1a"
+RPM_NAME = "qt6-quick3dassetimport-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "0a56e59515cd3718f91a8e226bec86b61c7a8db0fa02f02e33f48442d957aab9b806c0baf3d129237c09a3314eca7ace5726d9157f8d97358e713479505eb62c"
 
 RPROVIDES:${PN} += "cmake-Qt6Quick3DAssetImport \
 pkgconfig-Qt6Quick3DAssetImport \

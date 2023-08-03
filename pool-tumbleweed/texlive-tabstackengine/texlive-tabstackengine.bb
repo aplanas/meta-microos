@@ -8,10 +8,10 @@ of data may be parsed, extracted, and reconstituted (not \
 requiring use of any stacking constructions)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.10svn46848"
+PV = "2023.209.2.10svn46848"
 
-RPM_NAME = "texlive-tabstackengine-2023.201.2.10svn46848-54.1.noarch.rpm"
-RPM_HASH = "a38187895814f565637eed7317e8959713cc5268e18692ff001c8b8ea7289820ad5782a9ee333d85e79c13502dd800f1bdba6fb949a631fd6b2d506ff0c78fac"
+RPM_NAME = "texlive-tabstackengine-2023.209.2.10svn46848-55.1.noarch.rpm"
+RPM_HASH = "a4388daf4b19709f21e017e2c9135e78015c7e5ebfe2127340796492d5ec5cd1b2f6eae46141fe2b4b2b0d62068a1adcfb71df1d8814d0db76def565fd4b82af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tabstackengine.sty \

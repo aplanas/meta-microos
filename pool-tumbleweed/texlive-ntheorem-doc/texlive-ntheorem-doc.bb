@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ntheorem"
 DESCRIPTION = "This package includes the documentation for texlive-ntheorem"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.33svn27609"
+PV = "2023.209.1.33svn27609"
 
-RPM_NAME = "texlive-ntheorem-doc-2023.201.1.33svn27609-54.1.noarch.rpm"
-RPM_HASH = "a97deab6c4d92f2d1a681510ec039374910d03c4af3580c344dec7ab9e238845751f6c38cb5376f2fea1b8ef26ddf2808f061a4a4694e00a2e134b2f887cbd80"
+RPM_NAME = "texlive-ntheorem-doc-2023.209.1.33svn27609-55.1.noarch.rpm"
+RPM_HASH = "e7def4fa2e03a13dc73b341a6bdd0aa40af86ec5cd8130762b141fba4e5ac2c9de0b5bdb670eb4a4d07457a84a4a3913c5a9ab86c993ec169ccb1bab16c57af3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-ntheorem-doc-en \

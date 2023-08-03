@@ -5,10 +5,10 @@ basic features of Exiv2 available to GNOME applications. \
 This package provides the Python 3 bindings for the libgexiv2 library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.14.1"
+PV = "0.14.2"
 
-RPM_NAME = "python3-gexiv2-0.14.1-2.1.aarch64.rpm"
-RPM_HASH = "4fed5b2979fc4c7a6c49219c4051dbdd6736e14d12628c33be9157048d39576722bbeca0934ad4ae5f0e23022a06f96226f8e037d0bcb6a311bcfc0a78e18fee"
+RPM_NAME = "python3-gexiv2-0.14.2-1.1.aarch64.rpm"
+RPM_HASH = "0d96b47b4d3fdf050762d5a1a08a0ae32ed8ed2dc83a33f88eb833eda335b7356eb63b96bcc27800fa3319ab9068c62e9af35314b8d0eb3a261cbef787951f42"
 
 RPROVIDES:${PN} += "python3-gexiv2"
 

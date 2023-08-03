@@ -4,10 +4,10 @@ designs based on a range of published books and theses, \
 together with the LaTeX code used to create them."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn19457"
+PV = "2023.209.svn19457"
 
-RPM_NAME = "texlive-titlepages-2023.201.svn19457-52.1.noarch.rpm"
-RPM_HASH = "434bc2f7da416a3272e0cc05016640526d9dc45e627cb544f5d24a9b47981f6b1016d9c059bad32c838b4602d309a8e40bc301450ae9535e5d0b16fa91027e3b"
+RPM_NAME = "texlive-titlepages-2023.209.svn19457-53.1.noarch.rpm"
+RPM_HASH = "21afa172e04553fcafe79a6aa3ead2016edd31e4beb863c971ab16f46195cd5cb2541deb80f2fd0da59ed858cd7a8b454d0e48f58fd69ed1fe96d9df30c06af3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-titlepages"

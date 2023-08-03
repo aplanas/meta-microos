@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-skaknew"
 DESCRIPTION = "This package includes the documentation for texlive-skaknew"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn20031"
+PV = "2023.209.svn20031"
 
-RPM_NAME = "texlive-skaknew-doc-2023.201.svn20031-57.1.noarch.rpm"
-RPM_HASH = "f9db24701f995048f240be3cf47bd214859dd448f2f67b3809f3a9caeee6ddbd6b6a45e421ab32da3d9a03b831b28b81b102f36696d2946975ea223d5b5845b3"
+RPM_NAME = "texlive-skaknew-doc-2023.209.svn20031-58.1.noarch.rpm"
+RPM_HASH = "2dc5ebbaec42237089c6b9638cc892739c4c30dd002c27be7b1c9e2d3e2d4afbec35e3e459f0426da49f574b29262c6b691bbc84c2dd52c2cde86ea27b5cdffe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-skaknew-doc"

@@ -9,14 +9,14 @@ data for a long-term storing or transferring. \
 This package includes LibRHash development files."
 LICENSE = "0BSD"
 
-PV = "1.4.3"
+PV = "1.4.4"
 
-RPM_NAME = "rhash-devel-1.4.3-1.6.aarch64.rpm"
-RPM_HASH = "f65466a67c88429d970dfe11a9d7f5146f8e1438c4d89135d712616fb727e444296e22d78172ad80d528bc03d952d238d67c0c59e9abdc479fec86a8d103aa85"
+RPM_NAME = "rhash-devel-1.4.4-1.1.aarch64.rpm"
+RPM_HASH = "366d34e785f2becd6abb05f7b36c6299d18899121e121c0c307ecf978069430e4a2168736a488ef0e3090b6a09d05914d14f20a3380c1f0948fbbf93d3f0b8b3"
 
 RPROVIDES:${PN} += "librhash-devel \
 rhash-devel"
 
-RDEPENDS:${PN} += "librhash0"
+RDEPENDS:${PN} += "librhash1"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "FUSE-based file system backed by Amazon S3. Mount a bucket as a l
 file system read/write. Store files/folders natively and transparently"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.92"
+PV = "1.93"
 
-RPM_NAME = "s3fs-1.92-1.1.aarch64.rpm"
-RPM_HASH = "ba5af40fe26dd5d3cbab47b5ed3288e719750fbdf9e5d1f0bff10e1b628972d604fff6280afd4a56d43cb5b429a19422f4e887adb42e7b3efc2af52199ac8d39"
+RPM_NAME = "s3fs-1.93-1.1.aarch64.rpm"
+RPM_HASH = "78b269a0818ce06b2ff8067adb27b249131a878ae133dc92fa46b8e7b0ad4ca6db3febf83f5582169a6b13092058c3a90f48079de691a62b8889940f22ea4531"
 
 RPROVIDES:${PN} += "s3fs"
 

@@ -10,10 +10,10 @@ Procedure or Function; the name of these functions may be \
 reused in the text or in other algorithms."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.5.2svn44846"
+PV = "2023.209.5.2svn44846"
 
-RPM_NAME = "texlive-algorithm2e-2023.201.5.2svn44846-54.1.noarch.rpm"
-RPM_HASH = "4f6abddfcc4049744e659f4d629986879a7ed7e5527aa0d3cac3bec1e229e20a703e03cda7ba07191795a48e7d2bf9be43578c818be8740078964a0af28cdfe7"
+RPM_NAME = "texlive-algorithm2e-2023.209.5.2svn44846-55.1.noarch.rpm"
+RPM_HASH = "491d8b9a7d11844c2aab16fb78a837c06d8ed787da10b01907cde1406a98bfcebecf06711cfee494a5218863cbc6e332633df73578bb8a9c7f3f9839c687f5da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-algorithm2e.sty \

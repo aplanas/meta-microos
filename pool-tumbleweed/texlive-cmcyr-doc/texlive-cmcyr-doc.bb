@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cmcyr"
 DESCRIPTION = "This package includes the documentation for texlive-cmcyr"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn60630"
+PV = "2023.209.svn60630"
 
-RPM_NAME = "texlive-cmcyr-doc-2023.201.svn60630-53.1.noarch.rpm"
-RPM_HASH = "21eaf1966e8890d331e394b9a6d07d41d8138a7c52a6bfa0e44df686b7428240fd8b816d957281d0db77665ee299913b629e5bb4aa7ef7439ebdbc54aa3a5686"
+RPM_NAME = "texlive-cmcyr-doc-2023.209.svn60630-54.1.noarch.rpm"
+RPM_HASH = "023a25361b61a1778dddcd0b6c47089aad244f2049dc9e4b0494d40fe3f60c4f48aedb963ded68af55a5491ec7a12bd5d0db1a1023580bee04ac51191e0169e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cmcyr-doc"

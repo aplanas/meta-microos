@@ -5,10 +5,10 @@ to English and taken to LaTeX2e/Beamer. Additional material was \
 taken from the Short Introduction to LaTeX."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2svn25505"
+PV = "2023.209.2svn25505"
 
-RPM_NAME = "texlive-latex-course-2023.201.2svn25505-55.1.noarch.rpm"
-RPM_HASH = "94fb0f25e5aa0ba7edfa0f1a78698ef320ca29c516cc26a46dc647c619a0f5fc8a57c5c0d63227a88ca3af7b61fc67178e3c255429628fa6cac8078a27c22380"
+RPM_NAME = "texlive-latex-course-2023.209.2svn25505-56.1.noarch.rpm"
+RPM_HASH = "3c1dcbfcf72e29472480aec2826f70432428ecc18b7bfad3a83ee47549c1bff010a1f772fc2ecaf8e32f994ceb334cc2d802cfa08a9f54fa5551864fffc2716e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex-course"

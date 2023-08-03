@@ -14,10 +14,10 @@ allows the fonts to be loaded at 95% of their nominal size, \
 thus blending better with certain text fonts, e.g., Minion."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.0svn15878"
+PV = "2023.209.4.0svn15878"
 
-RPM_NAME = "texlive-eulervm-2023.201.4.0svn15878-52.1.noarch.rpm"
-RPM_HASH = "572b81ea3fa6c85ae11490d3f3e80cfe1cc85129893f31b85883709883d8ee5497c14ff3833309e76d90ae7da1f10405438e3bacd1e678dee9b1141b35858812"
+RPM_NAME = "texlive-eulervm-2023.209.4.0svn15878-53.1.noarch.rpm"
+RPM_HASH = "b510b86d8d11ed6e9b44f924a9f07f76a418171627340fa654751f94cf0c4885ff2748178f2ab0e95fa8dc0685d3c07c3a5f024c9c661ce007101dd073e3effb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eulervm.sty \

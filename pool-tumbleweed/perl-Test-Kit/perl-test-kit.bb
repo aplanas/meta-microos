@@ -10,10 +10,10 @@ trivial change to include Test::FailWarnings in all of your tests, and \
 there is no danger that you forget to include it in a new test."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.15"
+PV = "2.160.0"
 
-RPM_NAME = "perl-Test-Kit-2.15-1.16.noarch.rpm"
-RPM_HASH = "a5c6cc64e62d0392ed260389cd860d893e79f0659267d7778f5c88d3a8a6b30678d3ac1f75be089e196a258f2ae08d8a4a2a9b6d258c1e24ae0c83cec92a0a77"
+RPM_NAME = "perl-Test-Kit-2.160.0-1.1.noarch.rpm"
+RPM_HASH = "74e9e7a15d7d7e734120761fccc5190a6d30e29b8742655c4a6b4dc95c10b778523234282755226f6624197e8e648f9474ee845ffe688b7ef01a5d4104220899"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Kit \

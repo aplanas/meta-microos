@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-rtklage"
 DESCRIPTION = "This package includes the documentation for texlive-rtklage"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-rtklage-doc-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "492e6825084eef48ed9efc0992fb20b1012d2ccbb8b15b8afaf338ee00ee95e4c975a48c7d4e8350c7ad7959bc26734706b6b7ea40d4ba202d157e759c90073a"
+RPM_NAME = "texlive-rtklage-doc-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "e917550c873b2386a7eb25a9cefac99e65625e2e748af2de6cee38946a8b0f4496530f1c957315535c79a9c621427c6a4c29b7121a7e16eb68417c189363891a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-rtklage-doc-de \

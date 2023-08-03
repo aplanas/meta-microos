@@ -4,10 +4,10 @@ XeLaTeX. Simple template that can be further customized or \
 extended, with numerous examples."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn43057"
+PV = "2023.209.svn43057"
 
-RPM_NAME = "texlive-simple-resume-cv-2023.201.svn43057-53.1.noarch.rpm"
-RPM_HASH = "125af821aeef5aab77116e59b82c36125904d215298a55effa89e65d4f5134e944a6884d255a79d49e143135f9c05cbf643d198460e201ae674887bcda2a5ba1"
+RPM_NAME = "texlive-simple-resume-cv-2023.209.svn43057-54.1.noarch.rpm"
+RPM_HASH = "50e737d15509cb1bf79ad2eeb8a94080114823008a69d2b930d3795709af2b90b655004f4360a67e876170b06db9e87782075431df1e870910d7c9c1354126ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-simpleresumecv.cls \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cslatex"
 DESCRIPTION = "This package includes the documentation for texlive-cslatex"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn66186"
+PV = "2023.209.svn66186"
 
-RPM_NAME = "texlive-cslatex-doc-2023.204.svn66186-54.1.noarch.rpm"
-RPM_HASH = "a3f377fd62f3576572526f7c794ed375dc084b879c3934b5476119e95dc18f03398e6acff6d946cd951e08d7ce63f073f2673a154aa85e5636deda5a20c8b72c"
+RPM_NAME = "texlive-cslatex-doc-2023.209.svn66186-55.1.noarch.rpm"
+RPM_HASH = "ea378181947017152eed8eb7d63aa548931bc949f4ad1a2b94e6f5b15a96d69f7616708d703a1ed65fecaf55d8b6cefe09a5f2499435748f4d813d87744da7cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-cslatex.1 \

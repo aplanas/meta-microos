@@ -9,10 +9,10 @@ This is a package that is necessary for bootstrapping another package \
 only, it is not intended for any other use."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7552"
+PV = "13.1.1+git7597"
 
-RPM_NAME = "cross-pru-gcc13-bootstrap-13.1.1+git7552-1.1.aarch64.rpm"
-RPM_HASH = "9933d42f3a0e3ac9f2fdc20159998f02be35f9eb4b6fca4a4fbe66ee1fa7d67393c881b394556e249bedfdc06970a60ffd9e11d02a4d2fd0e16d809828c4bc29"
+RPM_NAME = "cross-pru-gcc13-bootstrap-13.1.1+git7597-1.1.aarch64.rpm"
+RPM_HASH = "157bbd88dc67c7620216fe28191118ae0537ac5b161e360560102f77c5d29c493c3f82efbf074ef5f05a93ae285f17b9a2093fe89ce5eedcde5d0fc5682c9070"
 
 RPROVIDES:${PN} += "cross-pru-gcc13-bootstrap \
 pru-gcc"

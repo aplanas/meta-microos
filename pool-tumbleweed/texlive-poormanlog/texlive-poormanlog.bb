@@ -12,10 +12,10 @@ macros as core constituents of its log10(), pow10(), log(), \
 exp() and pow() functions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.07svn63400"
+PV = "2023.209.0.0.07svn63400"
 
-RPM_NAME = "texlive-poormanlog-2023.201.0.0.07svn63400-52.1.noarch.rpm"
-RPM_HASH = "89d931350dbf714d5e1843f21bc7cb47204ddffa852cfd3cf164e59d18bdffc41fb89f6b6bf323027c660262ced3ea2727a8ac443bfe5f39079dbf36ad3f4161"
+RPM_NAME = "texlive-poormanlog-2023.209.0.0.07svn63400-53.1.noarch.rpm"
+RPM_HASH = "fbb31c1d825ac35174a274883aeba0d9ea2af3c5f76aeca336ac8ddc5b25a6c2c57e1014cae8228bb65b618e3baa5fd90fa4b3ea3cfd6e51546094e09e1582d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-poormanlog.sty \

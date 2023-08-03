@@ -7,10 +7,10 @@ output format. It has therefore been based on the very \
 impressive PGF/TikZ package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6.1svn65785"
+PV = "2023.209.1.6.1svn65785"
 
-RPM_NAME = "texlive-circuitikz-2023.201.1.6.1svn65785-53.1.noarch.rpm"
-RPM_HASH = "a275af1c4591ad4ce0ec9802523ba4a70cce4e68e1515828e4b8b79e5102da479de21bb843a508576fa2c0a4cc9a1b25baf55985dbdc359d2fb00b9cbbf86db4"
+RPM_NAME = "texlive-circuitikz-2023.209.1.6.1svn65785-54.1.noarch.rpm"
+RPM_HASH = "ff5813c7be5680dc0ea3e20ddeab11face5e2b5d3268c3d1820a0dc1d2feebf7792971171aba8ab641511e593eaa52e64043d9737485461574a6a41cf99fd175"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-circuitikz-0.4-body.tex \

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-tempora"
 DESCRIPTION = "The  separated fonts package for texlive-tempora"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.05svn39596"
+PV = "2023.209.1.05svn39596"
 
-RPM_NAME = "texlive-tempora-fonts-2023.201.1.05svn39596-54.1.noarch.rpm"
-RPM_HASH = "c565c6ff5d5f6b11b92f9b6b1f21ff8cf07d196ac47ec8ddca29015c3ddfb78bef47d5a2ee0d22a5deedf9dee4c1f4d23601ac56dad50f88984979289f7dcf57"
+RPM_NAME = "texlive-tempora-fonts-2023.209.1.05svn39596-55.1.noarch.rpm"
+RPM_HASH = "0d8f052b1be1fba0141ad1b51180f5abf78b26ab74928cadf36a8b4150cc87b7cfdf7ae96d8295b947316b98fba24841b78a7cbff4ec20be82e5c7084a372b11"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-tempora-fonts \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-grid-system"
 DESCRIPTION = "This package includes the documentation for texlive-grid-system"
 LICENSE = "Apache-1.0"
 
-PV = "2023.201.0.0.3.0svn32981"
+PV = "2023.209.0.0.3.0svn32981"
 
-RPM_NAME = "texlive-grid-system-doc-2023.201.0.0.3.0svn32981-53.2.noarch.rpm"
-RPM_HASH = "a4bbfc0e6d501c53af3c46c9f3e24af70536ecc257e096cb7e6bad05abd1062c2dabdc9ca83a46582cec987e1cf234a51c708a9dd10cdc1fd51fe6ef2b9b6e96"
+RPM_NAME = "texlive-grid-system-doc-2023.209.0.0.3.0svn32981-54.1.noarch.rpm"
+RPM_HASH = "dc2cae03779e72fd524aec1b55c2609680f0c8a82929baf7d30947ec4f76231d05b789082acb7ca4205507ddd5a8a4628f988d879497dab1ea524c1896d8936a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-grid-system-doc"

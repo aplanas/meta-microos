@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "253.7"
 
-RPM_NAME = "systemd-container-253.7-1.2.aarch64.rpm"
-RPM_HASH = "4dad271299c4746bc93c410cb27b499306ee03c7b5358ab753fd5f8378d8d76daa6c2059c562a60f232d5d0f72ff4174e65203f8e5f68fb62ce7b86fb06787c4"
+RPM_NAME = "systemd-container-253.7-2.1.aarch64.rpm"
+RPM_HASH = "2e2927217d7ee131b44718334cf155fa2ce50e6af16cf0155c4817bf34ca1270ed2fff6c5d23a730103cd138662d7054d8ccf4d66e5c6085507b559fbd002fdf"
 
 RPROVIDES:${PN} += "libnss-mymachines.so.2 \
 nss-mymachines \

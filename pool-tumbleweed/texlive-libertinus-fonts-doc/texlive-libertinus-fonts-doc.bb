@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-libertinus-fonts"
 DESCRIPTION = "This package includes the documentation for texlive-libertinus-fonts"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.7.040svn57948"
+PV = "2023.209.7.040svn57948"
 
-RPM_NAME = "texlive-libertinus-fonts-doc-2023.201.7.040svn57948-54.1.noarch.rpm"
-RPM_HASH = "786a49209ed01d4614cceaec01328d2a4af5d44db1d4b1705a1e65fc338ec9483b025fa8ae53f8ee68bbd0e0d58ef919b173098522b30377586fe4da1bdd586b"
+RPM_NAME = "texlive-libertinus-fonts-doc-2023.209.7.040svn57948-55.1.noarch.rpm"
+RPM_HASH = "f311e8f23fee339ccbaa7f1d0852c59c56d7fd4c2101757a08e770f1db5200c0dcb32f240102420a2743d0eb218c88020754fce41bfbee6b5ed00c48ae3961fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-libertinus-fonts-doc"

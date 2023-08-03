@@ -5,10 +5,10 @@ document-command, and then to evaluate it with compatible \
 arguments. Optionally, it can be used recursively."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn60278"
+PV = "2023.209.1.1svn60278"
 
-RPM_NAME = "texlive-lambdax-2023.201.1.1svn60278-55.1.noarch.rpm"
-RPM_HASH = "55e79e72e5b98b56e7b12ae72c54c15ecfe0ce01cf10d2e175ef8505db27e7109a0c450a70c8408e2981d34ea9573be39dabb02fd6724ae2b2c80f4785bb1c39"
+RPM_NAME = "texlive-lambdax-2023.209.1.1svn60278-56.1.noarch.rpm"
+RPM_HASH = "60c6243ea35fcdae5a782628754f24153b2a299407d45d08fa95cd142a8112916ca3e67c6e7f8e9c55899a6dfca4d6f7b20af1fbe0a8424865fdecef73ed02e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lambdax.sty \

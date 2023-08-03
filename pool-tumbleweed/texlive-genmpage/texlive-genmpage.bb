@@ -6,10 +6,10 @@ indentation and vertical alignment with respect to the visual \
 top and bottom margins."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3.1svn15878"
+PV = "2023.209.0.0.3.1svn15878"
 
-RPM_NAME = "texlive-genmpage-2023.201.0.0.3.1svn15878-52.1.noarch.rpm"
-RPM_HASH = "ef4d27965b0a5cc26d79e89f4e5dedfe9c9405f92b730b70fb580769fd9f35211b5fe53c0227d2d8da55121a58d309bfafa3ec0ba68034e4257b72c1585292a8"
+RPM_NAME = "texlive-genmpage-2023.209.0.0.3.1svn15878-53.1.noarch.rpm"
+RPM_HASH = "6bc7eb99f7855ec6e77c045dfb47a5839881f25a4548c940496d36e0d7e309b4d6c5b16dd3222e5e86798595220e76dc706f82769b956e249a81d66cefb2f968"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-genmpage.sty \

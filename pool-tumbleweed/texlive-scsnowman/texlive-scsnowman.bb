@@ -4,10 +4,10 @@ display many variants of 'snowman' ('yukidaruma' in Japanese). \
 TikZ is required for drawing these snowmen."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.1.3csvn66115"
+PV = "2023.209.1.3csvn66115"
 
-RPM_NAME = "texlive-scsnowman-2023.201.1.3csvn66115-53.1.noarch.rpm"
-RPM_HASH = "13f9089357d25dd978805fc066f360f4d73bd7387b28d9c01069012063c97a883f849f8713fd0c325a4f460ecdd8f474e7c3d43b38c6d76cd7befd0e87eaa9b4"
+RPM_NAME = "texlive-scsnowman-2023.209.1.3csvn66115-54.1.noarch.rpm"
+RPM_HASH = "4f090119ead20299a6677276c86bb12b4a340581b17e57d31b0bb5363624f3077c01e645282f323e33962751120bd985278fd880720773f666bc32d281b4c769"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-scsnowman-normal.def \

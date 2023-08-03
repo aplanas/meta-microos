@@ -52,10 +52,10 @@ I/O. It should be very easy to add new formats, new compression \
 methods, or new ways of reading/writing archives."
 LICENSE = "BSD-2-Clause"
 
-PV = "3.6.2"
+PV = "3.7.0"
 
-RPM_NAME = "libarchive13-3.6.2-1.5.aarch64.rpm"
-RPM_HASH = "7e29a582d5bc1c046983ea076992bcf0c07791dc41db0a9bb91ed3508a7985c3bd0008a841d4e9f975ffd7e92276c1100dc1c87195dac91681f4c4aed2ba5fa0"
+RPM_NAME = "libarchive13-3.7.0-1.1.aarch64.rpm"
+RPM_HASH = "b01eb9b047c90fb2789f389b7c383ac298525ac6217140bb1881d44142c2b3a263b60119f2c6f8afa104a39eae47a076495a74d34742b125e00cd723b6175692"
 
 RPROVIDES:${PN} += "libarchive.so.13 \
 libarchive13"

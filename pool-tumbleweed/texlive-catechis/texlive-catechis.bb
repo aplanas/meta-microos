@@ -5,10 +5,10 @@ formatting of all the macros is highly (and simply) \
 customizable."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.6svn59998"
+PV = "2023.209.2.6svn59998"
 
-RPM_NAME = "texlive-catechis-2023.201.2.6svn59998-52.1.noarch.rpm"
-RPM_HASH = "17d73cf1d7aa0f3c56e158c7bbbd0dd282fbbc39620045f7e0639be69ac6796c7562983678be376ac03c0b4727d015ae5b0cb67138f2a52ec50d13b1adb83ba2"
+RPM_NAME = "texlive-catechis-2023.209.2.6svn59998-53.1.noarch.rpm"
+RPM_HASH = "d8a11f7eafb6aafb5535124265c23cccb229da9be5767bcced890f7b7eb512b0b8edc49b3ff1099512313b377b88d11ea0d83931c214a894b47a7fb2215d614d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-catechis.sty \

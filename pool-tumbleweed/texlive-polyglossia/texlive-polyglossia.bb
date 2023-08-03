@@ -4,10 +4,10 @@ LuaLaTeX and XeLaTeX; it relies on the fontspec package, \
 version 2.0 at least."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.60svn65792"
+PV = "2023.209.1.60svn65792"
 
-RPM_NAME = "texlive-polyglossia-2023.201.1.60svn65792-52.1.noarch.rpm"
-RPM_HASH = "05dde8ec57ac613ea4c91264ecf03a0f391bf58ca3d9757c7e4eae2b1012cd7d026ee2f9e9af8952a61812c6ea9f6874c1e823f6e393fd4e6ec794f6b88fbd34"
+RPM_NAME = "texlive-polyglossia-2023.209.1.60svn65792-53.1.noarch.rpm"
+RPM_HASH = "707b584de27ebc3eddfb3e72f7f1959ee4f0304de04b96f2d06905c8bf528c16e39f441c3958717a9c7bc009308b697dd1edef6d871daa723c96dd20ff0338fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-arabicdigits.map \

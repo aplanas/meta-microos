@@ -3,10 +3,10 @@ DESCRIPTION = "Utilities: ttf2afm ttf2pk ttf2tfm ttfdump. FreeType is the \
 underlying library."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66186"
+PV = "2023.209.svn66186"
 
-RPM_NAME = "texlive-ttfutils-2023.201.svn66186-52.1.noarch.rpm"
-RPM_HASH = "14ecc9d19f8696d326ff089b361328c560968fc19e947a3e25a924b3ea7b252cb92c0f88bd33b2adb3897f2b0c485d3b5aef284dbe80e317813b90fca7b0a86c"
+RPM_NAME = "texlive-ttfutils-2023.209.svn66186-53.1.noarch.rpm"
+RPM_HASH = "9ecc927960bcd252a372aa08e440b68509d64a56758df0622b050aca8a542a98ffbaf2f3131f55709f06c50d90975f061264d01ae507dbe6b136fe0b3483123c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-T1-WGL4.enc \

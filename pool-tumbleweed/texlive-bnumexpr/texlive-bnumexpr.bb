@@ -5,10 +5,10 @@ associated modulo. By default, bnumexpr loads package xintcore \
 (part of the xint bundle) and uses its arithmetic macros."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5svn59244"
+PV = "2023.209.1.5svn59244"
 
-RPM_NAME = "texlive-bnumexpr-2023.201.1.5svn59244-52.1.noarch.rpm"
-RPM_HASH = "b7000552b9319d625e71b449d5e88dea6a1328624de4b6aa101ad313402b6dcc59a2be3e315e17ce7b3d56b495f33bfb8dce0b8e6ff03dfcac9d8d8b409b2597"
+RPM_NAME = "texlive-bnumexpr-2023.209.1.5svn59244-53.1.noarch.rpm"
+RPM_HASH = "5246af8197e6f0519fef1d8234fba46b856892bdc6c9e1e1e8ae5a2cdbc04844c9cda49e2946fb712a8432a0d57407193f53394524a205b66f70abcce949079a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bnumexpr.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "gopls (pronounced 'Go please') is the official Go language server
 by the Go team. It provides IDE features to any LSP-compatible editor."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.12.4"
+PV = "0.13.0"
 
-RPM_NAME = "gopls-0.12.4-1.1.aarch64.rpm"
-RPM_HASH = "b65e791800110ed48f13cde9ab078827e0fce968c2b95532066633c94ee67282b89cfbec62d20a570cec1075eb9a8539e14428a42859e2ee29afdb2d585fa949"
+RPM_NAME = "gopls-0.13.0-1.1.aarch64.rpm"
+RPM_HASH = "3d44cf8df575a104fcd660f8e86bacf9c31eb67dc0066ef1d33c5b263113bbad278fa20618bbd99b49fc716ee0192b9bc151653572f6a2f1874660838c663ab8"
 
 RPROVIDES:${PN} += "gopls"
 

@@ -5,10 +5,10 @@ characters of the languages of Ethiopia, with Metafont fonts \
 based on EthTeX's. The macros use the Babel framework."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.7svn15878"
+PV = "2023.209.0.0.7svn15878"
 
-RPM_NAME = "texlive-ethiop-2023.201.0.0.7svn15878-52.1.noarch.rpm"
-RPM_HASH = "cc915cfcbf77a1aeca79235e9810467f0ee4100bf886e8cb1c22ac68ef605e77b1303f2d75929fb272a23e9d8d34796c54033f9a7f956f8e152593ee47a780a3"
+RPM_NAME = "texlive-ethiop-2023.209.0.0.7svn15878-53.1.noarch.rpm"
+RPM_HASH = "b3fcdf79078b590317d6033c0d853fdff46d08811d04af04734f34a8ac40c66816085c5f991410b363babaa1a58e52ae75359d4cf7b152b5fb96036ed1931023"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-etha10.tfm \

@@ -9,10 +9,10 @@ part of the class proper. (The examples may be distributed \
 without even the restrictions of the LaTeX licence.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-nih-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "9a5d12e037bf8718d960a9323361a6f4eb7018802bcb76c22f87c0bdd6c6bccb5731fdb0010183384d107eab0e91f9040ff371668a3c2a849154a5a098ddeda3"
+RPM_NAME = "texlive-nih-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "17c2c44ffa621c23e21cc1dc2e2bb461854ab05b3e314afdc5c5a3c2bb4d01e9187b017c9e831ac96beda9f2f0b8126d223b98c683760c97d5af89c3eebafbf7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-denselists.sty \

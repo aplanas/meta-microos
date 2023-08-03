@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-musixtex-fonts"
 DESCRIPTION = "The  separated fonts package for texlive-musixtex-fonts"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn65517"
+PV = "2023.209.svn65517"
 
-RPM_NAME = "texlive-musixtex-fonts-fonts-2023.201.svn65517-54.1.noarch.rpm"
-RPM_HASH = "d43f99c35b83c6e8dca7d05dbeeb6eada21bd0fac0848e72ffcd4c2d2ee2d8e9048823f5c11d495d72ec0efbc01d42efc23cdefd0e174e1ae1412a8f473da421"
+RPM_NAME = "texlive-musixtex-fonts-fonts-2023.209.svn65517-55.1.noarch.rpm"
+RPM_HASH = "13d9a3075f88a89ea7d685f189913725832bcef4ecf1e335209948067637349b0e33d7d0e6d8fe27202cdf88e4fc98a758d34ac230faebb6522fb6a54c8274e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-musixtex-fonts-fonts \

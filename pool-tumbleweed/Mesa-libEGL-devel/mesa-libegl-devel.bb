@@ -9,10 +9,10 @@ This package provides the development environment for compiling \
 programs against the EGL library."
 LICENSE = "MIT"
 
-PV = "23.1.3"
+PV = "23.1.4"
 
-RPM_NAME = "Mesa-libEGL-devel-23.1.3-353.1.aarch64.rpm"
-RPM_HASH = "3264f8b6b504b8f368b9607cd2676a1117c08169c5b648d0fa7de6a18a874d00bc697302059ef88fa98fe3e6dfd41ae2235d86d6a30f6010d3a34f49d1ff629c"
+RPM_NAME = "Mesa-libEGL-devel-23.1.4-354.1.aarch64.rpm"
+RPM_HASH = "0d3904a7c816e6fd4f7b77455acf57831401be7936384e7bfa0b47069238fcebd1e3ba1566b7bb33dd35803feeeeaf76b8b7fe2e4044f1449a3f045ba679d246"
 
 RPROVIDES:${PN} += "Mesa-libEGL-devel \
 pkgconfig-egl"

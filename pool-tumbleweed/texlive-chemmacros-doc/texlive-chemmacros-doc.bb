@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-chemmacros"
 DESCRIPTION = "This package includes the documentation for texlive-chemmacros"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.6.2asvn62655"
+PV = "2023.209.6.2asvn62655"
 
-RPM_NAME = "texlive-chemmacros-doc-2023.201.6.2asvn62655-53.1.noarch.rpm"
-RPM_HASH = "b8b79e4130e746146c1bf8d2b942d8af429f72aebd6ac585690da7afe3bf74d24c1647d89e382e31b4030fcf9b633b8c0e04d8b332d8c4b82c725c3bbac194ac"
+RPM_NAME = "texlive-chemmacros-doc-2023.209.6.2asvn62655-54.1.noarch.rpm"
+RPM_HASH = "0be64a3b9d80652ccdb1fdc31c99ab1ced36ccdf272dea69106b6c0a679b633f810170aa2f7f34f5e1e0bb7b1596de15ae390d99a6ae9efd4db0f85fc19198ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-chemmacros-doc-en \

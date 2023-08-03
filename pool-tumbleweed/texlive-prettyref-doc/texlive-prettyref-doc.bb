@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-prettyref"
 DESCRIPTION = "This package includes the documentation for texlive-prettyref"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.3.0svn15878"
+PV = "2023.209.3.0svn15878"
 
-RPM_NAME = "texlive-prettyref-doc-2023.201.3.0svn15878-52.1.noarch.rpm"
-RPM_HASH = "4c42d0af72d18e2d17c1d39069f713d170f34f2d0ae37b7711d6886d71af761edc5bb6d28526780535567989284b9d0751ef94e357f16bdfbf87eb4b5f752d27"
+RPM_NAME = "texlive-prettyref-doc-2023.209.3.0svn15878-53.1.noarch.rpm"
+RPM_HASH = "5ba2f101c66e0b63942602f85380b7995d5e3ffbdf7118197654de2ae82aa4e1bac65457d8bff8a3dad19f6755519504dedd8abc8387c0712ebaefae9c65680c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-prettyref-doc"

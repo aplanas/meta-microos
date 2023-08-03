@@ -14,10 +14,10 @@ defined by the given fractions of the natural width and height \
 of the image."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn23739"
+PV = "2023.209.1.0svn23739"
 
-RPM_NAME = "texlive-rviewport-2023.201.1.0svn23739-53.1.noarch.rpm"
-RPM_HASH = "1379d642fc89816d24a69be72bee7766cec7bbe92065574665d6ec581c7f54bee6867264a2c8c3bec8000cfed7fc6f5fa8e1d6a82e49854ecf7450e66549800d"
+RPM_NAME = "texlive-rviewport-2023.209.1.0svn23739-54.1.noarch.rpm"
+RPM_HASH = "0fcc5019d19b7bf74ce05058b2c9592f785f7b3215f36c1dca4c7bcbb2d4f256741235ad149d390e856c9ea54cd71051ba9676d07f2c46d3a9c32abb82ce5540"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rviewport.sty \

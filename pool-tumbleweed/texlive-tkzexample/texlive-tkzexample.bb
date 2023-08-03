@@ -3,10 +3,10 @@ DESCRIPTION = "This package is needed to compile the documentation of all \
 tkz-* packages (like tkz-euclide)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.45csvn63908"
+PV = "2023.209.1.45csvn63908"
 
-RPM_NAME = "texlive-tkzexample-2023.201.1.45csvn63908-52.1.noarch.rpm"
-RPM_HASH = "28a55080561668586237be90a1369f30f959a49402d8e6c934fda773b38d9b2f01f56d91eda911fee74da18bd66df21a05751fa3a266239f22ba8112c5d317fe"
+RPM_NAME = "texlive-tkzexample-2023.209.1.45csvn63908-53.1.noarch.rpm"
+RPM_HASH = "35a370e303c4e43f5c5f116dcf920472408736acc43f05284f801f72809c5275d62a0df7132b5420844054522801b185aef3fdb779045343cd35904573376da1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tkzexample.sty \

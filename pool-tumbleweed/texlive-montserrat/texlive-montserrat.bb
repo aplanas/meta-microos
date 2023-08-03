@@ -13,10 +13,10 @@ shapes that are much more rounded than the default version, \
 reflecting the signage in the neighborhood of Montserrat."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.03svn54512"
+PV = "2023.209.1.03svn54512"
 
-RPM_NAME = "texlive-montserrat-2023.201.1.03svn54512-54.1.noarch.rpm"
-RPM_HASH = "7e18bce002dd05966985b5d219769bded2139f2fbb8e43fc2bd6d88f56eb346a3a65d7f33ea86d3114142ee1d535db11af4625f3f0009ba98158476910603d40"
+RPM_NAME = "texlive-montserrat-2023.209.1.03svn54512-55.1.noarch.rpm"
+RPM_HASH = "1b3ba758de0969f31bb01bf125f1bab3b5fcdf48ef28b2a24c3efc6e51348854c43d5495de719e46d0641375e840726f6722ac8c9c02968d563edf7489f52ca6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1Montserrat-Dnom.fd \

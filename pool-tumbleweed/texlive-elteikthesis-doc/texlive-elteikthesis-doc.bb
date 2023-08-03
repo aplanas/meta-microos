@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-elteikthesis"
 DESCRIPTION = "This package includes the documentation for texlive-elteikthesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.3svn63186"
+PV = "2023.209.2.3svn63186"
 
-RPM_NAME = "texlive-elteikthesis-doc-2023.201.2.3svn63186-53.2.noarch.rpm"
-RPM_HASH = "bb8a80a5316dd0a7f54890763f945b52d931d20d98c242d372a42e7c2e9d7499c2ec5112c9e1a343fbda9326966a27fab43cc134af43294791cac94d5d438de0"
+RPM_NAME = "texlive-elteikthesis-doc-2023.209.2.3svn63186-54.1.noarch.rpm"
+RPM_HASH = "e0c3e63b4a4ff0ba505c99ea86819d733a69e5084e6cce547e2de943dfe098c20503247dd22e067bbb948b7bb0d444a2f71724b003b9d7aa6acc21b631e1b94c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-elteikthesis-doc-en;hu \

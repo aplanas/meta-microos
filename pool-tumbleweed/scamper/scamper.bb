@@ -13,10 +13,10 @@ to the next point in the network, followed by a TTL limited search to \
 infer where the failure appears to occur."
 LICENSE = "GPL-2.0-only"
 
-PV = "20230302"
+PV = "20230605"
 
-RPM_NAME = "scamper-20230302-1.4.aarch64.rpm"
-RPM_HASH = "29a53d7915bf862457b2e12def9114f9d423e7b0b89466a02b9cceab2ae6a168a4c47421e061dcf1e4462eaba869446a835f69ab86351729f88227690a0fe361"
+RPM_NAME = "scamper-20230605-1.1.aarch64.rpm"
+RPM_HASH = "8a1793745d41014f706ddeabd53bdea997d349655c14faeb72a9ce13a12501f0a1138ab679f82e059545feb7344ed21a6955ccbba2be8be035a526b224b378ec"
 
 RPROVIDES:${PN} += "scamper"
 
@@ -24,8 +24,8 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
 libm.so.6 \
-libscamperctrl.so.1 \
-libscamperfile.so.5 \
+libscamperctrl.so.2 \
+libscamperfile.so.6 \
 libssl.so.3 \
 libz.so.1"
 

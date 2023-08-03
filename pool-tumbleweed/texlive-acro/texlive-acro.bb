@@ -8,10 +8,10 @@ experimental feature the package also offers the option 'sort' \
 which automatically sorts the list created by \\printacronyms."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.8svn62925"
+PV = "2023.209.3.8svn62925"
 
-RPM_NAME = "texlive-acro-2023.201.3.8svn62925-54.1.noarch.rpm"
-RPM_HASH = "a66b5b875dacca42071f87ea7252889745e5508ec49a951fd064fb82acdd23616532caa0a652b04b2202564a10c696abf1c48b736335a59f85c22331f34c57bf"
+RPM_NAME = "texlive-acro-2023.209.3.8svn62925-55.1.noarch.rpm"
+RPM_HASH = "c24a90faadfed4f1c2034ace382c8e677b1f6700bd660c0dc6f4342bdfc20793d6e4c1cd42a4a0394d92ab8f95863f8ca2e2e65a4c312e75b8c5d5a97c9fb453"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-acro-examples.sty \

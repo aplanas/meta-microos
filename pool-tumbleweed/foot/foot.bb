@@ -2,10 +2,10 @@ SUMMARY = "A Wayland terminal emulator"
 DESCRIPTION = "A Wayland terminal emulator."
 LICENSE = "MIT"
 
-PV = "1.15.0"
+PV = "1.15.2"
 
-RPM_NAME = "foot-1.15.0-1.1.aarch64.rpm"
-RPM_HASH = "d60c8dccd123c25802455ede11c45f377ad8f22958a275ad99ea1f27e5fbb265e3b586f146cdaaca516ed93934f36d138ec468299f026d23214da9101f0618b6"
+RPM_NAME = "foot-1.15.2-1.1.aarch64.rpm"
+RPM_HASH = "4c559ecf5c2fd3feea8ccc60b3fc6b58f044a0429718b5182a00277be10349ed633ea58647721ef6bb6160f1bdbd67273639aa300b7fd07398445ce9e4fe2645"
 
 RPROVIDES:${PN} += "foot"
 

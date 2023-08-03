@@ -4,10 +4,10 @@ Institute of Technology supporting bachelor, master, doctor \
 dissertations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0.11svn64005"
+PV = "2023.209.2.0.11svn64005"
 
-RPM_NAME = "texlive-hithesis-2023.201.2.0.11svn64005-53.2.noarch.rpm"
-RPM_HASH = "4d654bd0f92bf15b4378c1a42104251764c60a96d11a4c744954b55e9bca7cd48a6e27328e47bdd635ca50ec68af5a707a955ac1c668bd1f74d9a4216956c21f"
+RPM_NAME = "texlive-hithesis-2023.209.2.0.11svn64005-54.1.noarch.rpm"
+RPM_HASH = "c82197a5f18fa715fe5479a3dd5a372905876ff0cbf4f92c599d45e25696bfe2378319c4c1ebefa60211d463b99e92862b4166bb80efb4beb75fb30dcc4e495f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ctex-fontset-siyuan.def \

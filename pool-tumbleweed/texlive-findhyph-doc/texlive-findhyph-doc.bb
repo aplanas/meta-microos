@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-findhyph"
 DESCRIPTION = "This package includes the documentation for texlive-findhyph"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.3.4svn47444"
+PV = "2023.209.3.4svn47444"
 
-RPM_NAME = "texlive-findhyph-doc-2023.201.3.4svn47444-52.1.noarch.rpm"
-RPM_HASH = "ca729b09f0abcfd8ea4226446ec60f67a4299757027a3171076b062a242c8886109a61ddd9e7d3948ddba7da83c0933c1daafdc5963870ba74b4d89d4e6448c4"
+RPM_NAME = "texlive-findhyph-doc-2023.209.3.4svn47444-53.1.noarch.rpm"
+RPM_HASH = "d595111eb12dd18903b3c52bfce35a546f826076f9ac50a1107cdd3a91b21931cdef4e0f21a8366ead2a9d7ee705358e794110e06319c9f73575331cb78ba0af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-findhyph.1 \

@@ -2,10 +2,10 @@ SUMMARY = "A simple future-based async library for python"
 DESCRIPTION = "A simple future-based async library for python."
 LICENSE = "Apache-2.0"
 
-PV = "0.2.8"
+PV = "0.2.9"
 
-RPM_NAME = "python39-duet-0.2.8-1.3.noarch.rpm"
-RPM_HASH = "5541631893d770e90fecdfb5b446976ad6442f759577a819d902d286a4d109b963f77c76d9bface0e4e7457c0d08197389459aa96a76b49a496019a2b388a6ed"
+RPM_NAME = "python39-duet-0.2.9-1.1.noarch.rpm"
+RPM_HASH = "c519bb3ed7e8519b8cc9f4c1e26d1ebd6fb4f67e61fa77034f1f164f5d53a05de7a6353880f0fd748cc98adadff8e0ca4d90c3cbc85b691094e39d9f9291514a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-duet \

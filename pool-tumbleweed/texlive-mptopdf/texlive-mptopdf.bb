@@ -9,10 +9,10 @@ do not install the rest of ConTeXt. This can be found on CTAN \
 in macros/pdftex/graphics."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65952"
+PV = "2023.209.svn65952"
 
-RPM_NAME = "texlive-mptopdf-2023.201.svn65952-54.1.noarch.rpm"
-RPM_HASH = "8cc6f39cd2890ca7641e2bae5e8cfa2f4813cd791886c168fc9b3f31e936528ffd69426404a9efd849177d323f777f1cecf7d051d360743d6698654f78f72a1e"
+RPM_NAME = "texlive-mptopdf-2023.209.svn65952-55.1.noarch.rpm"
+RPM_HASH = "4cb50eb45cf9e54d3b43d0cd961e95ed45c9a2ef1bd17f0c38e70e42e08066d0b7ba13b12f7881407b9c800f96b9e27f8f3ed6d7bdc4bc6e830e05ad75442a91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mptopdf.tex \

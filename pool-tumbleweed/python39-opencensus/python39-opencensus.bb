@@ -6,10 +6,10 @@ and collect performance stats. This repository contains Python related \
 utilities and supporting software needed by OpenCensus."
 LICENSE = "Apache-2.0"
 
-PV = "0.11.0"
+PV = "0.11.2"
 
-RPM_NAME = "python39-opencensus-0.11.0-1.4.noarch.rpm"
-RPM_HASH = "a7e4fbc93db5ced6d55e9227b85e82fb050c26636c0aa96a6b4d5820d368e0541d26f6d0cc67bc043bbe2dfd5ba70755f9cfc37db780083b6c6b5a05e14a8ed3"
+RPM_NAME = "python39-opencensus-0.11.2-1.1.noarch.rpm"
+RPM_HASH = "d1a7ed2f44c74f723833ec0d3d62d875a5fecb12fbb6d452f238b1f617e778f73d12c638074282c42acd81d8717fb1763eaa113f6bdca6b20babe8f5705de354"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-opencensus \

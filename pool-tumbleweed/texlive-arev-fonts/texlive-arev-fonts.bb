@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-arev"
 DESCRIPTION = "The  separated fonts package for texlive-arev"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-arev-fonts-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "543cba449b5fec86ce8a9459f27ad0004a8a0523c5e2f7ec9748fbccf5be23762dc910757b61b012a934416333aeac13394ffd29872e6044e42726faff3d513b"
+RPM_NAME = "texlive-arev-fonts-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "1cfc3c36205b741dd2256b73955bbe0986ea34a36c5fceff9d6885414f2e08e26e45888f804b56d8e3639949a009008299c7c493327609a588536f825342979d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

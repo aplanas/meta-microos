@@ -16,17 +16,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.0.0"
 
-RPM_NAME = "openmpi5-libs-5.0.0-2.4.aarch64.rpm"
-RPM_HASH = "7c62f4f8c79c748787eda880b976cb81df0d02ea16cc014e9f01cfadbbec98967d16b084b8c5ebffb038c86715297aed037323c175e4ce467b4e05ff0c9542cb"
+RPM_NAME = "openmpi5-libs-5.0.0-3.1.aarch64.rpm"
+RPM_HASH = "bab43ef40dff290bf1d0a0ba6cd70a30e1551fb79b80b6edf249bbbd3a06d2196b71962008fee2f90dd528867d930c4e63ad85121961b5c5d0e3581120256bd6"
 
-RPROVIDES:${PN} += "libmpi-mpifh.so.80 \
-libmpi-usempi-ignore-tkr.so.80 \
-libmpi-usempif08.so.80 \
-libmpi.so.80 \
+RPROVIDES:${PN} += "libmpi-mpifh.so.40 \
+libmpi-usempi-ignore-tkr.so.40 \
+libmpi-usempif08.so.40 \
+libmpi.so.40 \
 libompi-dbg-msgq.so \
 libopen-pal.so.80 \
-liboshmem.so.80 \
-libprrte.so.2 \
+liboshmem.so.40 \
+libprrte.so.3 \
 openmpi5-libs"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \

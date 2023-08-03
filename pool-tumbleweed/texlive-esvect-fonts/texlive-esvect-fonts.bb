@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-esvect"
 DESCRIPTION = "The  separated fonts package for texlive-esvect"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.3svn32098"
+PV = "2023.209.1.3svn32098"
 
-RPM_NAME = "texlive-esvect-fonts-2023.201.1.3svn32098-52.1.noarch.rpm"
-RPM_HASH = "9ebeba7c928a116a8c859ca5bb10a48bf149976f0d3befdef24e6eccaf12589e83d0fb8199c63bdc91e2327300df4535dd9675c49cd73b01a52da2564c86cca1"
+RPM_NAME = "texlive-esvect-fonts-2023.209.1.3svn32098-53.1.noarch.rpm"
+RPM_HASH = "cab4ba7819d41e41d93a450a59ae0da10cc7e693ed6684fc40db1c35f0b825d994172fa1d3486ca31c73b10b10053493088c45c933dff83c3b0bd81fa9f58009"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

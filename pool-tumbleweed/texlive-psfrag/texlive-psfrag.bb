@@ -8,10 +8,10 @@ from the figure and replacing them with a user specified LaTeX \
 construction, properly aligned, scaled, and/or rotated."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.04svn15878"
+PV = "2023.209.3.04svn15878"
 
-RPM_NAME = "texlive-psfrag-2023.201.3.04svn15878-52.1.noarch.rpm"
-RPM_HASH = "a2eaf44b5fe26f38f527ed638e1e477136e6527f8a05d44942006e4508df5893e9ab510cc5a4b634afe0055112005a2a985c7e16b21eabbbbc0fb454280ac86e"
+RPM_NAME = "texlive-psfrag-2023.209.3.04svn15878-53.1.noarch.rpm"
+RPM_HASH = "47a56601e0ff4b2ce28710510efb3eba7ebba716294109ab24f3a03e9f4f2df34fd6ed274cad36cecdf6e8a950c0412308856054ca3172faf94f444cfe75308a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-psfrag.sty \

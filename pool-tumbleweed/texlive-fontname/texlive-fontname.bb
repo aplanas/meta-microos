@@ -4,10 +4,10 @@ documentation part of the package), and map files giving the \
 relation between foundry name and 'TeX-name' are also provided."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn64477"
+PV = "2023.209.svn64477"
 
-RPM_NAME = "texlive-fontname-2023.201.svn64477-52.1.noarch.rpm"
-RPM_HASH = "f055a77b0c47e8c055f2e10affe8623d5ce9e76700881e49c60c5a8847ecb5da400cadfe141bac24f9ff1d9284b8562805686123eb0769e9e73bf425db1f21d1"
+RPM_NAME = "texlive-fontname-2023.209.svn64477-53.1.noarch.rpm"
+RPM_HASH = "bcb0e4675e4800079e62f0f0da058be28d20bcc7aa422f1a497691238d49c44ab91855dfe6599b7ae78833154b25e07c43340692c51755fe21ee088e2efccf24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-adobe.map \

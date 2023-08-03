@@ -2,10 +2,10 @@ SUMMARY = "Zsh Completion for weave-gitops"
 DESCRIPTION = "zsh command line completion support for weave-gitops."
 LICENSE = "MPL-2.0"
 
-PV = "0.27.0"
+PV = "0.28.0"
 
-RPM_NAME = "weave-gitops-zsh-completion-0.27.0-1.1.noarch.rpm"
-RPM_HASH = "143935cf4ee87921c409d8395f6c0566b8867cb9942c8a7178721e300ee35e08c320e2fefbec99d6687b07781852551ab55fc4dea82a36361d2248b56d995170"
+RPM_NAME = "weave-gitops-zsh-completion-0.28.0-1.1.noarch.rpm"
+RPM_HASH = "bddc24ee2f1485f4e0a67ab303416c975787161eb7be6e0ef17a45685ff383b48acad1d6de4e157f35e9031be85814d797d1575864d4f7febfed31ff8f807df6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "weave-gitops-zsh-completion"

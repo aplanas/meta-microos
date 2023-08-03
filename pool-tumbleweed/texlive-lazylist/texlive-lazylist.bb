@@ -8,10 +8,10 @@ enhanced by the knowledge that the TeX code was formally \
 verified."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0asvn17691"
+PV = "2023.209.1.0asvn17691"
 
-RPM_NAME = "texlive-lazylist-2023.201.1.0asvn17691-54.1.noarch.rpm"
-RPM_HASH = "b5c716123fe555aa8be56235c4da8d65292ad26046263e7500fbb82c44d45a08c9b9844628cf23b1f0a641fe479280cc00222fed754c18e27c73311996c09775"
+RPM_NAME = "texlive-lazylist-2023.209.1.0asvn17691-55.1.noarch.rpm"
+RPM_HASH = "9d07c1e057bc3bfd5d2461254bbab17f19578d682519a3359c2db057a08fd64718e171b9245229e02fb23f33165750cf427be797fbc964c33e8e10bd8e4adbff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lazylist.sty \

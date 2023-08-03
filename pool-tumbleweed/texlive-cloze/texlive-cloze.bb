@@ -7,10 +7,10 @@ the commands \\cloze, \\clozefix, \\clozefil, \\clozenol, \
 generate cloze texts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6svn55763"
+PV = "2023.209.1.6svn55763"
 
-RPM_NAME = "texlive-cloze-2023.201.1.6svn55763-53.1.noarch.rpm"
-RPM_HASH = "a2e40f27791416df703167a91e6c183244f800cd9ba4ba1b7b1c8a96201d2c98db28e62897aad91363b714815004b7797e6716973aabf2f1acd8495394377328"
+RPM_NAME = "texlive-cloze-2023.209.1.6svn55763-54.1.noarch.rpm"
+RPM_HASH = "c3f04eb7fe4b3301077b78b2726fee43c69c23193abb2af65fcc279a0450e83197fec9fe6e4cc0fceaad432b106217b485557b4b8a095f036fdfa205fcfc9dcb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cloze.sty \

@@ -7,10 +7,10 @@ to write a LaTeX document and transcode it into Metanorma's \
 Inc. (<open.source@ribose.com>)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5.0svn55010"
+PV = "2023.209.0.0.5.0svn55010"
 
-RPM_NAME = "texlive-metanorma-2023.201.0.0.5.0svn55010-54.1.noarch.rpm"
-RPM_HASH = "1df924aa65120ceee1c29d2b9bd417e0e9262596a4d162355833ded01600cf89b71cd8bca0c829c0fd2d2abd3b1f35d1112e03ac1777cb4be15247d919620782"
+RPM_NAME = "texlive-metanorma-2023.209.0.0.5.0svn55010-55.1.noarch.rpm"
+RPM_HASH = "8ec3e0978f722222e3d8c33c1fc977dda928bfa3c9fb370f49b8efa61fc350499c0f8208965eb069b0b1605a77f783ed3cf49c708edf0f334d7b730f360f51e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-metanorma.cls \

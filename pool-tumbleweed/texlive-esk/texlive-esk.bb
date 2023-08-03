@@ -10,10 +10,10 @@ encapsulates MetaPost files), and was in fact developed from \
 it."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.0svn18115"
+PV = "2023.209.1.0svn18115"
 
-RPM_NAME = "texlive-esk-2023.201.1.0svn18115-53.2.noarch.rpm"
-RPM_HASH = "fb8567543962039333c5beb37eff4ed99971729975d3974395fe3b3648c6ac8d7c615bfa92aeb34368208da4ff8d56812d7038ae57ec267272fcd3f6d1f8e746"
+RPM_NAME = "texlive-esk-2023.209.1.0svn18115-54.1.noarch.rpm"
+RPM_HASH = "369e161b14be5d44cd755773a319d5d09b3cb294030fdc3bfbbc2101e4a9d3083a811654d740a229a09344fa0434eef61227e0ffa3836a1b9387a7e64e038c4d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-esk.sty \

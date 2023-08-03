@@ -7,12 +7,12 @@ LICENSE = "Apache-2.0"
 
 PV = "3.6.0"
 
-RPM_NAME = "python3-magnumclient-3.6.0-1.7.noarch.rpm"
-RPM_HASH = "b195c13aba774f717388a6644ec8c6d41761eaeb93eb7a27a2a3c9a57e149a73129079cc1695fde9172a6370219b02d02ad6fba400710da9a4e36df4a78352af"
+RPM_NAME = "python3-magnumclient-3.6.0-1.8.noarch.rpm"
+RPM_HASH = "3d999b7c68e81e8aa6d5aeec95a7d86daf30ef48456f9a939a3854f77f97ffaa57d48211e3862c723d4648d2736eaeab8bb01e17e07e8b7499cba6ad3c9c7dfd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-magnumclient \
-python3.10dist-python-magnumclient \
+python3.11dist-python-magnumclient \
 python3dist-python-magnumclient"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

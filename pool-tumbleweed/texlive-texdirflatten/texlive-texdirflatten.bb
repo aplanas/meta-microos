@@ -6,10 +6,10 @@ single directory (thus 'flattening' the document's directory \
 tree)."
 LICENSE = "Artistic-1.0"
 
-PV = "2023.201.1.3svn55064"
+PV = "2023.209.1.3svn55064"
 
-RPM_NAME = "texlive-texdirflatten-2023.201.1.3svn55064-54.1.noarch.rpm"
-RPM_HASH = "dab5647f6d3550fe7a5602b651ca6a441221c4abc641f19ec079002387e8d7de3d9ff82c85a9d717e65ff9fe3ef6ae4678d76df60009aac06124d2207f713ad7"
+RPM_NAME = "texlive-texdirflatten-2023.209.1.3svn55064-55.1.noarch.rpm"
+RPM_HASH = "0832b9f5faa3283f8e9195a9c3c12b5c0ec309fa301364b69ad70f668ad7a5ce81b65b389f078f11bfb9afb2d91fb3a5d7c9055828aebb6d59c5e5f3b262941d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texdirflatten"

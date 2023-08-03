@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-opensans"
 DESCRIPTION = "The  separated fonts package for texlive-opensans"
 LICENSE = "Apache-1.0"
 
-PV = "2023.201.2.2svn54512"
+PV = "2023.209.2.2svn54512"
 
-RPM_NAME = "texlive-opensans-fonts-2023.201.2.2svn54512-54.1.noarch.rpm"
-RPM_HASH = "a60a720db366509be1991374504bf4ed932fd1c753e8b357978fd5052447bf785a658d54575df1f6095833d62f622ec43a735440a77d2ac1b7ec2f2151982a24"
+RPM_NAME = "texlive-opensans-fonts-2023.209.2.2svn54512-55.1.noarch.rpm"
+RPM_HASH = "b731354edb6be99a3558cb461053cb76c129b12de1ffba99e619ed39ff5bfcaab8e130de23b962fb49320bd8fca3b76a3f968443656698ebedb32c0527d6eb4f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-opensans-fonts \

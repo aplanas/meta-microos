@@ -3,10 +3,10 @@ DESCRIPTION = "This library collects information about the hardware installed on
 system."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.1"
+PV = "23.2"
 
-RPM_NAME = "hwinfo-devel-23.1-1.1.aarch64.rpm"
-RPM_HASH = "11cd59623b658557c2049f9534dc6617867d06665f58344587f669598028bc9153f97f500f3eb4d18d475a926902efbefa307fcbb446c803e534c2d14b10fb95"
+RPM_NAME = "hwinfo-devel-23.2-1.1.aarch64.rpm"
+RPM_HASH = "151f5d5f5aec368aa61916447328a94885c361047097511268382db8f411c6f91ef3cc351b01d636805dc33dd984f6b17d8eda3b6138c366e5f093d5de204f7a"
 
 RPROVIDES:${PN} += "hwinfo-devel \
 libhddev \

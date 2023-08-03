@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.3.1"
 
-RPM_NAME = "audacious-lang-4.3.1-1.1.noarch.rpm"
-RPM_HASH = "c1c21a4f80e1d5615836d2feae1a21c6eaeee7973abbeb707a8b9538f032a64cda1e9db4fc50a228a6337e2071268452d50e9921127ca6b4f1c7cdbb75e64b66"
+RPM_NAME = "audacious-lang-4.3.1-2.1.noarch.rpm"
+RPM_HASH = "befbffda97ff33c10e9b86377f08c1df3289e76daa532e75a9bb7a310c366f92d44dd2d66bb4a0089ae25470531544696970d841e6f335b83cd4f391c8087b14"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "audacious-lang \

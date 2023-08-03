@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-minipage-marginpar"
 DESCRIPTION = "This package includes the documentation for texlive-minipage-marginpar"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn15878"
+PV = "2023.209.0.0.2svn15878"
 
-RPM_NAME = "texlive-minipage-marginpar-doc-2023.201.0.0.2svn15878-54.1.noarch.rpm"
-RPM_HASH = "6b1aa29a2f13ee35aa1238aa61182ea832ebc03d2819ed358d279563dcffb66243957b81631d95762378f3cecd33c6c783b7854f0982113aa85130b062261552"
+RPM_NAME = "texlive-minipage-marginpar-doc-2023.209.0.0.2svn15878-55.1.noarch.rpm"
+RPM_HASH = "7cc2d4d78fc9bd5df32993ccdd2ea9370be9d0514401dde6cddfb940df8f78450b4652d4b8baa78c9c795d120485b84f0f2c8ef74d26bd93478cdada141b0917"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-minipage-marginpar-doc-de \

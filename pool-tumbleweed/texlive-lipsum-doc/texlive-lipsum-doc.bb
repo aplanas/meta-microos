@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lipsum"
 DESCRIPTION = "This package includes the documentation for texlive-lipsum"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.7svn60561"
+PV = "2023.209.2.7svn60561"
 
-RPM_NAME = "texlive-lipsum-doc-2023.201.2.7svn60561-54.1.noarch.rpm"
-RPM_HASH = "f2d59da480e4584b6a4063ecde2adb49ce79901bc74f9c9dc6777de0ea74f92cd5872f5a2fbdb4300b0ea96a4b341a34495ee978c17cfdc70a2f6b1fee54c4e2"
+RPM_NAME = "texlive-lipsum-doc-2023.209.2.7svn60561-55.1.noarch.rpm"
+RPM_HASH = "08c282c4985797406e4b609308316abf263403a8c63411c7091054dd6c8f6f3d2b8bf02acc4aa7157f03d109e4df3c22af6503e5b5c5386898d717ef6c0f2e27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lipsum-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-cabin"
 DESCRIPTION = "The  separated fonts package for texlive-cabin"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn65358"
+PV = "2023.209.svn65358"
 
-RPM_NAME = "texlive-cabin-fonts-2023.201.svn65358-52.1.noarch.rpm"
-RPM_HASH = "b2bc7e5d694751f898adc4ed11a8609ebf6b508d092cdc600a53d22ab355f069494ab3d6792fa88bd7a79e39bf2ad59e43f5b46ac07ab3d9e8d945c23bca1ba4"
+RPM_NAME = "texlive-cabin-fonts-2023.209.svn65358-53.1.noarch.rpm"
+RPM_HASH = "22c3e3bb778929f825ef016e7868e4b3ae52b8adfd37f5b0bb8c988da787d5344c889663a1d28493e6870cb1d968a2952853463bc70e03445d43761963e09e81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-cabin-fonts \

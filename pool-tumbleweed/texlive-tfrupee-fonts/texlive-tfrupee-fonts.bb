@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-tfrupee"
 DESCRIPTION = "The  separated fonts package for texlive-tfrupee"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.02svn20770"
+PV = "2023.209.1.02svn20770"
 
-RPM_NAME = "texlive-tfrupee-fonts-2023.201.1.02svn20770-54.1.noarch.rpm"
-RPM_HASH = "9fe2ffe6afe66f4ab3b1883f398268a58a5abcaf91b7f9524380ee6b1f764b979f4870a593f14901e196c08ff71cb7b1852c6f20c045c7be49e38907633f881a"
+RPM_NAME = "texlive-tfrupee-fonts-2023.209.1.02svn20770-55.1.noarch.rpm"
+RPM_HASH = "1c5ddea7e263a71849393607167df0eb5e383812554c68e140622ff2967468d4b2fcdf48775078b2aeb80f3e774cb601328b37006ce834d39b4ea995d82e5813"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

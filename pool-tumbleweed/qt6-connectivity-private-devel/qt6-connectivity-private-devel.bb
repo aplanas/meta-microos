@@ -5,10 +5,10 @@ API guarantees. \
 The packages that build against these have to require the exact Qt version."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-connectivity-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "e5746018fe39154ad77e1abf3a94190750bcadfdae142787c9e534a2d7cdae5bfc3fbd8587e0d1ea02f1aa5d904b42cbde7fde577d187f3c5226c16e036c7114"
+RPM_NAME = "qt6-connectivity-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "3539f1eedc38c87dfafc08dc3bce1350f4a2849035a4b93239fe73dea20a89750e6027fe98a0e71a0ef511687d89c23d4fec3d4954f147e0044ab37a30cfae0f"
 
 RPROVIDES:${PN} += "qt6-connectivity-private-devel"
 

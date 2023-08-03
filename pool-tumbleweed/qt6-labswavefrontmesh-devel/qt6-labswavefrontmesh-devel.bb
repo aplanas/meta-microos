@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 LabsWavefrontMesh library - Development files"
 DESCRIPTION = "Development files for the Qt 6 LabsWavefrontMesh library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-labswavefrontmesh-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "bf194c83b14780ed47b4501ba33fc1cb339add8cdf7e7c84cb5a17d09f5e3ae59e1f7d806e77bdb9c6ea4d61701a239299cc5dbb5bbaadcfe67d6948e1cf4693"
+RPM_NAME = "qt6-labswavefrontmesh-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "261880975480ea9dd8e4889a64e876e01ee75002af57936c7aa60d50b800d89a590a3c841685064d5912475ec2b42ac8018955619313283b7f96b32c63163161"
 
 RPROVIDES:${PN} += "cmake-Qt6LabsWavefrontMesh \
 pkgconfig-Qt6LabsWavefrontMesh \

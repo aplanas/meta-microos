@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-brushscr"
 DESCRIPTION = "The  separated fonts package for texlive-brushscr"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn28363"
+PV = "2023.209.svn28363"
 
-RPM_NAME = "texlive-brushscr-fonts-2023.201.svn28363-52.1.noarch.rpm"
-RPM_HASH = "056b8bb59779171350972e90a48ff841b24b49aac453cb1563ab7570f50cc7f97a1948d63ce08f5b9ba7784b3fd9179fd90903fda37fbdf9350edf246bb2548e"
+RPM_NAME = "texlive-brushscr-fonts-2023.209.svn28363-53.1.noarch.rpm"
+RPM_HASH = "e5d1e6f8e0bff18711bd3f192040f2fa3936956bf7f7443b4472d6dd50dca554cee3375b363c61a882359f623cf17bac00b100aaa33ade37ec09e83e8349a1da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

@@ -8,13 +8,13 @@ under a permissive license. It also bundles XML parser definitions licensed \
 under the GPL."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.13.4"
+PV = "0.13.4.1"
 
-RPM_NAME = "ghc-skylighting-core-0.13.4-1.1.aarch64.rpm"
-RPM_HASH = "113cbd9bb3dcac501c4ebb6285f029acfae75032c404f078e6ed2712bda11c26ea21c7725386d18b5dd757c8d120b97726d96fa5d5f72e06e4740a7b1b0954b5"
+RPM_NAME = "ghc-skylighting-core-0.13.4.1-1.1.aarch64.rpm"
+RPM_HASH = "870d6439b3dc5daaba177ce9bb29ad531ba940aac544444da8f9666586f749c9f08511e164dc5650574dc7d44a05817747d472014f1a8272a6b44fa3786ee667"
 
 RPROVIDES:${PN} += "ghc-skylighting-core \
-libHSskylighting-core-0.13.4-ILWFndoUOH7DzXIN7Ztglj-ghc9.4.5.so"
+libHSskylighting-core-0.13.4.1-6Bsu3Qo0E1u1DqUSYo1bSc-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV-ghc9.4.5.so \
 libHSQuickCheck-2.14.3-6dq2izV8oSq1BobaDA598X-ghc9.4.5.so \

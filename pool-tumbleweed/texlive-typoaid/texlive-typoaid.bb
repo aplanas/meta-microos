@@ -11,10 +11,10 @@ the following other LaTeX packages: expl3, array, booktabs, and \
 siunitx."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4.7svn44238"
+PV = "2023.209.0.0.4.7svn44238"
 
-RPM_NAME = "texlive-typoaid-2023.201.0.0.4.7svn44238-52.1.noarch.rpm"
-RPM_HASH = "e1486c033c8a24c282a2db98ece46caddc9fd0d598ad735d7e22ede9c00f076cd1539abc3f3734b465aed416725f325183b288a68f3f10fd46073140de7f87fb"
+RPM_NAME = "texlive-typoaid-2023.209.0.0.4.7svn44238-53.1.noarch.rpm"
+RPM_HASH = "9c998c6bcd591cb6da5c807a314f920f5feee75cc18925cd326eb80711401313d615479ed9ac72eb49422e06f0167e7d0728723873b038711d0899fba1aaf5d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-typoaid.sty \

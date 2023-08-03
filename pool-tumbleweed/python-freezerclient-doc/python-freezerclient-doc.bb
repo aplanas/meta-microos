@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.4.0"
 
-RPM_NAME = "python-freezerclient-doc-4.4.0-1.5.noarch.rpm"
-RPM_HASH = "f93d443d1e5855def08c46b77e4c9c2255884b63eb94800ad10ecb4f8f22c682ee7d563d244911d8d0caca829edfae2e72f32f7cd91ece02c33c784408bf16b4"
+RPM_NAME = "python-freezerclient-doc-4.4.0-1.6.noarch.rpm"
+RPM_HASH = "437db277c71a861591487a75f03490e452be344a93ba2082da70a229636e71532392add6eb5323faea8478103cbfa26ba1a69f780b2557920750a99bb919f975"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-freezerclient-doc"

@@ -6,10 +6,10 @@ originally developed to provide a template for Austrian \
 scientfic projects of students at a secondary school."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.6svn36354"
+PV = "2023.209.2.6svn36354"
 
-RPM_NAME = "texlive-etdipa-2023.201.2.6svn36354-52.1.noarch.rpm"
-RPM_HASH = "2a9c7cebf194fbf5afe0d94ab0fb8908f0306b3cfd7bc94157748eceeb1475a916f631f6f20b57727199a16a06dacef0425cf692762c5ac1d65bd91f72113da8"
+RPM_NAME = "texlive-etdipa-2023.209.2.6svn36354-53.1.noarch.rpm"
+RPM_HASH = "50821a762f6b9f709a429bd8fd50f54568c536ab731ac915dafd3d8d4c6f3693d242454b1c7b95d8c031a9c2bd14c717079fcacf2a3ca1ce7a063dc05ff5b5e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-etdipa"

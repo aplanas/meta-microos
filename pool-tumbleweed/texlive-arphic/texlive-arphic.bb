@@ -6,10 +6,10 @@ package. Arphic is actually the name of the company which \
 created these fonts (and put them under a GPL-like licence)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-arphic-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "1c380bedaa16254daeec8387807635ba597e83731d056f0cd290b3c878d20762ec04ca12d1ad36fa6a8633261beb2e8f88d3474da1644372f8a0893f8cd8d071"
+RPM_NAME = "texlive-arphic-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "074b4a973285809623573d5e316af08ca7593471f21de87f67412ae0932f4fd2e6f8b12797c40fb0a1806527d9ad31a7e183d8929fbb7f1ff72266adcd84ac65"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bkaimp00.tfm \

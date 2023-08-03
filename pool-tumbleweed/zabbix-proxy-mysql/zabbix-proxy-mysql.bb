@@ -2,10 +2,10 @@ SUMMARY = "Zabbix proxy with MySQL support"
 DESCRIPTION = "The Zabbix proxy compiled with MySQL support."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.0.17"
+PV = "6.0.19"
 
-RPM_NAME = "zabbix-proxy-mysql-6.0.17-1.2.aarch64.rpm"
-RPM_HASH = "112bb28a6d189d09cf43f781152cec1fc9db46cb1f26d2b3582381ebf9d68fd36b3df92a72739e37f309d98c595d53da89c8ce824a1f7f1d32ec9f8865daa51b"
+RPM_NAME = "zabbix-proxy-mysql-6.0.19-1.1.aarch64.rpm"
+RPM_HASH = "b3e0c0d1717dbdd227cac9ab14f16969b3f72c83f40d350cd29b0c03a9d3623953c9f0b66e849421c6557663a5c4cc2385d0f2876f0f42ac254657177ffac189"
 
 RPROVIDES:${PN} += "zabbix \
 zabbix-proxy-binary \

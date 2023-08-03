@@ -2,10 +2,10 @@ SUMMARY = "Mind-mapping app"
 DESCRIPTION = "A program to create, develop, visualize, organize and manage ideas."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.14.0"
+PV = "1.15.2"
 
-RPM_NAME = "minder-1.14.0-1.9.aarch64.rpm"
-RPM_HASH = "ff6d5d6ff15077f1c65f08aecb562d2259c8c21b57e3841be67a75658f09c66759996b1007eb63927df8b6d1afe5e509facb2d2b1fd96583af5ce16df671f5d7"
+RPM_NAME = "minder-1.15.2-1.1.aarch64.rpm"
+RPM_HASH = "1cbfd7fd54c984be66d85d40a52895e0365c8424a8640e4da55849cd4b1588e61cad476bd5a5550bca9b83a3327125dec686bc16146c79c1969ebec4e3992dff"
 
 RPROVIDES:${PN} += "minder"
 

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.11.3"
 
-RPM_NAME = "jupyter-matplotlib-0.11.3-10.2.noarch.rpm"
-RPM_HASH = "0f54de8f43cfbf2e59d63db20e5c4a204dacdbbfd0e95af342e63da1836fe0d883762c1952e4bdceee0c2a794b1bb4f4ed0b3817e52ad672ff61026a264a8e5a"
+RPM_NAME = "jupyter-matplotlib-0.11.3-10.3.noarch.rpm"
+RPM_HASH = "533014149d70928fbc3f70c71a2ff98150490c8551000c6eef5c654f31a683a9d0ae7d18b961a03f2f1ab5b9d001e894f54bee2a0d6479d804d47864209bf7bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipympl \

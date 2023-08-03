@@ -9,10 +9,10 @@ document knows basic (La)TeX or has, at least, tried her hand \
 on it. This document is not very suitable for first time users."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn55475"
+PV = "2023.209.1.0svn55475"
 
-RPM_NAME = "texlive-latex-mr-2023.201.1.0svn55475-55.1.noarch.rpm"
-RPM_HASH = "dc0d6d7efc54910d80e6851cd426740ec8a1808de8d8ef827b414e48b26775a7e140805123dc2e4dd3ad624d4f3c93073a90ce607152a55680e737654f4312e3"
+RPM_NAME = "texlive-latex-mr-2023.209.1.0svn55475-56.1.noarch.rpm"
+RPM_HASH = "317c61c67757eb5877511170b5b4e3583a553461c38abffcd1a8c11ceb68d75f4d696ccad99b3f5c4f197098bc5a36a8d6b4f56a6d7beeb24007cf4c728aa4f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex-mr"

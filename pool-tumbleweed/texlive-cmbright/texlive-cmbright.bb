@@ -11,10 +11,10 @@ part of the set), and in the hfbright package (the OT1 encoded \
 part, and the maths fonts)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.8.1svn21107"
+PV = "2023.209.8.1svn21107"
 
-RPM_NAME = "texlive-cmbright-2023.201.8.1svn21107-53.1.noarch.rpm"
-RPM_HASH = "2ad6486bea74c8183d4289cd07f45e3744f0cf2b23f5c4f88555bfa4ec4a38593af1a5744aafe64babf09e04da4d417868570c822fdf97344f97a8541fe93356"
+RPM_NAME = "texlive-cmbright-2023.209.8.1svn21107-54.1.noarch.rpm"
+RPM_HASH = "b86dbea50746e4e63d52b3f4d4069684e5601682b8c758547c4298065c001ea0c8d637b61d72e2b56cd4ffae19c4bd27308b9b441dd48b688c66a636803a7898"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmbr10.tfm \

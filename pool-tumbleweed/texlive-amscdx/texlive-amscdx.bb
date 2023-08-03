@@ -15,10 +15,10 @@ loaded amscd. The packages xcolor and graphicx are made \
 required."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.2xsvn51532"
+PV = "2023.209.2.2xsvn51532"
 
-RPM_NAME = "texlive-amscdx-2023.201.2.2xsvn51532-54.1.noarch.rpm"
-RPM_HASH = "57ae4ac458c5b56a51c54d3c90efbc20f2bdef6bc9ab6daf31e8bd597685069b23fc87c46f70a93d30ec6a5eb11dd96c0b10052d056f88b757054db409a08da2"
+RPM_NAME = "texlive-amscdx-2023.209.2.2xsvn51532-55.1.noarch.rpm"
+RPM_HASH = "67033ab5405a1c7923aa954ae586aa20634abf999cae7b61c0dcc84ad223bf4a46fb42c27020964064d542bd6f9a7d477f6fb149f99a9daa45a378724765a96c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-amscdx.sty \

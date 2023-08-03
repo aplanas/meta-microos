@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-crossrefware"
 DESCRIPTION = "This package includes the documentation for texlive-crossrefware"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn64754"
+PV = "2023.209.svn64754"
 
-RPM_NAME = "texlive-crossrefware-doc-2023.204.svn64754-54.1.noarch.rpm"
-RPM_HASH = "5e6da43e5ff758ebc6af5b27195f8cad65375d7b3b8830203ab1c143097dc1ac78997eb7a78760882693d377d649d4f82ee5a00f40754c5f7f6c02284c5df56c"
+RPM_NAME = "texlive-crossrefware-doc-2023.209.svn64754-55.1.noarch.rpm"
+RPM_HASH = "bfdece90007b247c08af3451cfa3ee28db1e6c9e041e0d8bb3a9d2076b465caa5fbf4090ce749529ba8ed65f229286acc5426b7475751be90ccb146ef4ec84b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-bbl2bib.1 \

@@ -15,10 +15,10 @@ optional JSON output. \
 Note that iperf3 is NOT backwards compatible with the original iperf."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.13"
+PV = "3.14"
 
-RPM_NAME = "iperf-3.13-1.2.aarch64.rpm"
-RPM_HASH = "6d75438e208cc1893518db474583a91513a9b5121a4cf077cc848977cd2133fc3ba30e78608b00d5bdf444d0c55a1757f1edc2a086fe251ce9346c09473fe60a"
+RPM_NAME = "iperf-3.14-1.1.aarch64.rpm"
+RPM_HASH = "03cfa04028a46fce016a3fbd28c09cf82e949f39c5e6866bb4b0a59a5868364e17ff65a7b3ddaa1957d06f8c36e2cad404d657af0500668f4ef1964e8fb3a587"
 
 RPROVIDES:${PN} += "iperf"
 

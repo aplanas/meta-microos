@@ -6,10 +6,10 @@ typeface for text. There are regular and bold weights and an \
 italic, but no bold italic."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64541"
+PV = "2023.209.svn64541"
 
-RPM_NAME = "texlive-bitter-2023.201.svn64541-52.1.noarch.rpm"
-RPM_HASH = "90976fada6052a8c593fedc2d9c819e014da0b11edfb17f5ec7327a3baa8114294766103212ecab0b6cb2bcd06b9e8bd4a52e0eb539d3484bd64b904b83c6eaa"
+RPM_NAME = "texlive-bitter-2023.209.svn64541-53.1.noarch.rpm"
+RPM_HASH = "4b35d9eb34841050db768804e83e469df169221198ca08f7c39a80d0852ef2bafcc4554ec8a9a1ea2528aa829d1d006fd4eee9d58bb30ab2a01dab97d88557eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Bttr-Bold-tlf-ly1--base.tfm \

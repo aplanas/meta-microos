@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-fonts-churchslavonic"
 DESCRIPTION = "The  separated fonts package for texlive-fonts-churchslavonic"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.2.2svn56350"
+PV = "2023.209.2.2svn56350"
 
-RPM_NAME = "texlive-fonts-churchslavonic-fonts-2023.201.2.2svn56350-52.1.noarch.rpm"
-RPM_HASH = "e3a889eb1451592804c004d721acfdaad10b0efbd7f1394b3f1e9264458f826eaa40c4d3bcb432779f8a3d9a77a79b7960c8ac1b7f70ab6c975f4b37032283b0"
+RPM_NAME = "texlive-fonts-churchslavonic-fonts-2023.209.2.2svn56350-53.1.noarch.rpm"
+RPM_HASH = "572695e3af02d27c5ba652a8019193404f5f632539c58e3fea180d38c54809de09c45ce246775e1a4e16c1a9ace6fd5bce7472584abeb8f555f5214c6149a3c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

@@ -6,10 +6,10 @@ LaTeX kernel or packages that attach hooks at the beginning and \
 end of documents."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn40213"
+PV = "2023.209.0.0.2svn40213"
 
-RPM_NAME = "texlive-bxenclose-2023.201.0.0.2svn40213-52.1.noarch.rpm"
-RPM_HASH = "5958bfc9617e7d81b8d4689c714070060886fcc6267a637dc253cef41c44933b5142b1c5a9c85177ca12d7d7150bfac3e7932ed298e617ee73a6f597dec011d6"
+RPM_NAME = "texlive-bxenclose-2023.209.0.0.2svn40213-53.1.noarch.rpm"
+RPM_HASH = "905cf88095d2ab5ba82dc0ff57f05266d702ff1df6240dddc16769af57ea77ce3537b85b6764e65645f53a943aa9701c2e01e1c6dc14b3a38a6448dc2be5bc46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bxenclose.sty \

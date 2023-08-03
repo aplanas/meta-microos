@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-uestcthesis"
 DESCRIPTION = "This package includes the documentation for texlive-uestcthesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.0svn36371"
+PV = "2023.209.1.1.0svn36371"
 
-RPM_NAME = "texlive-uestcthesis-doc-2023.201.1.1.0svn36371-53.1.noarch.rpm"
-RPM_HASH = "aa4bc34a5ae1c1beca3381a0fb20bc1380babf2e43e887b200b78852a0586d5602928032b546bc3bc86a57d5afa83bd7198867ed6a25e48c8bf5a023877c520b"
+RPM_NAME = "texlive-uestcthesis-doc-2023.209.1.1.0svn36371-54.1.noarch.rpm"
+RPM_HASH = "3996187253aecaf34a4d042036e0d8045aae5538dd54a0d61915133001892261e714079ca34464068a1284e7eb927d21a5ab88482208ff54ad490dfaf2f33684"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-uestcthesis-doc-zh \

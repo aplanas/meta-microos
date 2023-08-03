@@ -2,10 +2,10 @@ SUMMARY = "Translations for package pspp"
 DESCRIPTION = "Provides translations for the 'pspp' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.4.1"
+PV = "1.6.2"
 
-RPM_NAME = "pspp-lang-1.4.1-3.14.noarch.rpm"
-RPM_HASH = "1c540e8db0f1174384fd85a4f9f58dee0b6e1adebe2e63ccaad7ab4741ab1e143360f16aa060d4a1ea4456d88473d3379e9d6d60bc734ea7ee8678569e3a9d3c"
+RPM_NAME = "pspp-lang-1.6.2-1.1.noarch.rpm"
+RPM_HASH = "87be69845f55d39999bde7c21e684592a5e7ca2b2e2cb853bb3d42361a30543cf3a60f9d2d39e5138d266eb55f98fd0e71392cbef505dbf75feb80d91e9c32d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pspp-ca \

@@ -4,10 +4,10 @@ fonts; note that the fonts are not available under a free \
 licence, as the macros are."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn20851"
+PV = "2023.209.svn20851"
 
-RPM_NAME = "texlive-ean-2023.201.svn20851-53.2.noarch.rpm"
-RPM_HASH = "50b1f4c9b45dbf63e2305921fd0d133d86d6374a324eb099957c28086f8ab8f6144e143075347f8e863086a35b68e8395ba3572c3606b0a22021489cba184370"
+RPM_NAME = "texlive-ean-2023.209.svn20851-54.1.noarch.rpm"
+RPM_HASH = "be4111a506bf354402c0f0b9fb16ea5f968f543a5b89224e5c553a347b83efd1189f02f783dcb4f4d28de7d032c292dd58eb326dcb43790f7b7b5d33e37ff70d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ean13.tex \

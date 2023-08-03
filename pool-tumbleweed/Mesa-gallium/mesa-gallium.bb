@@ -2,10 +2,10 @@ SUMMARY = "Mesa Gallium GPU drivers"
 DESCRIPTION = "This package contains Mesa Gallium drivers for 3D acceleration."
 LICENSE = "MIT"
 
-PV = "23.1.3"
+PV = "23.1.4"
 
-RPM_NAME = "Mesa-gallium-23.1.3-353.1.aarch64.rpm"
-RPM_HASH = "0f4a86607ef07ce6cbd042bb7f7f4df6a7bdbb9c9d5409491c5458378a79a11ea6caa2f4e18d57f20e937f90d73e50b2372895d6030ba3116d1903b9c6e44e81"
+RPM_NAME = "Mesa-gallium-23.1.4-354.1.aarch64.rpm"
+RPM_HASH = "f5f2a076e66eb95a4a6beb89fa1d513b94461699a4e1482847598d6a01c41114822846c20b3a9f8d1eccd5104323032948f71342a52fbccd44497dd1a2890b87"
 
 RPROVIDES:${PN} += "Mesa-gallium"
 

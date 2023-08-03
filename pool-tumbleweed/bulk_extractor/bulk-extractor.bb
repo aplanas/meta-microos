@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.0.0"
 
-RPM_NAME = "bulk_extractor-2.0.0-3.2.aarch64.rpm"
-RPM_HASH = "1b46ae169f8d71f319c006337e247d4184f5fa5b67bfc765572c842f0f546853f9320c207a1d68ac9ec3b17f7ca2fb1558c99c158a8adef196646fd72f59c73c"
+RPM_NAME = "bulk_extractor-2.0.0-4.1.aarch64.rpm"
+RPM_HASH = "02bec0f722055e4c878252fc749e5ba5bde4e98121672991ba1d116b654c7b17f421eb48af6683ee1c285aa25bc8e49680ff2c29d53af360e965f9b9f94d8530"
 
 RPROVIDES:${PN} += "bulk-extractor"
 

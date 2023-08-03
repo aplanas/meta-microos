@@ -14,10 +14,10 @@ printed or converted to PDF format. A Perl script is provided \
 for the user to do the decompression, if the need should arise."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.07svn60387"
+PV = "2023.209.0.0.07svn60387"
 
-RPM_NAME = "texlive-pst-geo-2023.201.0.0.07svn60387-52.1.noarch.rpm"
-RPM_HASH = "5b1bf44317a7bec87701efb34f46c37ea66dd8ccb557e27c40a6b0eb31b19b41525aabad2b0b5b8d6a9ae70a0274105af5e951b6fcde5d4a879569d7892ff292"
+RPM_NAME = "texlive-pst-geo-2023.209.0.0.07svn60387-53.1.noarch.rpm"
+RPM_HASH = "a2ba4dc442d8bc7f40c28dd808d6088a38a974cdf07d917882c7d315ce09c7d7d1b39d0591ff04bce60f7ed973f837d40b4e38acb9146dd9975447c43552b31b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Staedte3dJG.tex \

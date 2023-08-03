@@ -10,10 +10,10 @@ LaTeX. It includes the original TrueType fonts, as well as Type \
 support with Dvips."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.3.3svn54512"
+PV = "2023.209.3.3svn54512"
 
-RPM_NAME = "texlive-lato-2023.201.3.3svn54512-54.1.noarch.rpm"
-RPM_HASH = "ac595e339ffe4c1c6a2cc27ac94b22a4fdd801e7bc1b7a33d26fdb4601166d71838d3000890a2faff14f65e094d3b260013a271914d72469fbec2183dd10d1b2"
+RPM_NAME = "texlive-lato-2023.209.3.3svn54512-55.1.noarch.rpm"
+RPM_HASH = "445f9e2dbf27d222248a8c54d9728b90cd22f8730bdf0aeaf011aa6189094f13ff37eb148bc0623073830149f14555d3a2a36c62b7ca02d7d24d5a3284dd61d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LGRlato-LF.fd \

@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.1"
 
-RPM_NAME = "python39-html5lib-1.1-4.3.noarch.rpm"
-RPM_HASH = "28fec95492493a2a9740aaf48dedb033ca7c6f310dc8fdd12dedb22b6bfc38d005d67c7bc440ad25d2bcb75cbe4943f332d70495b6511c93f8ac2cd4f4d38f25"
+RPM_NAME = "python39-html5lib-1.1-5.1.noarch.rpm"
+RPM_HASH = "967fa36334c8b84d28e25441c1ffadab88ce3ce7122466497b4f31a13ef314704097fe042c8c44d9280742336feb7141ff016ea003b3bf36d9630ca6a1d3300d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-html5lib \

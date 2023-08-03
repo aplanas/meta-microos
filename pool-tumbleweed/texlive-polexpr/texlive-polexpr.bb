@@ -15,10 +15,10 @@ is now available directly in \\xintexpr, \\xinteval or \\poldef \
 via infix or functional syntax."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.8.7asvn63337"
+PV = "2023.209.0.0.8.7asvn63337"
 
-RPM_NAME = "texlive-polexpr-2023.201.0.0.8.7asvn63337-52.1.noarch.rpm"
-RPM_HASH = "f0032702256a55230cf8f4450f6c30ceb39e2a1b6d7effc22e1e2b14e30b2040b936c8facc6528ac19bdebb9497ceccf1599146eea0075dde0ef46c7d1f9d9aa"
+RPM_NAME = "texlive-polexpr-2023.209.0.0.8.7asvn63337-53.1.noarch.rpm"
+RPM_HASH = "52966562f43029ae83d2468cd13964629d947899fd85d150841d7c7bcfa73afc3c412aa2406f8f475459f28ae4dc34259f53df0445477f4bf1d13029bf57ba6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-polexpr-examples.tex \

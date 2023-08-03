@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-arabi"
 DESCRIPTION = "This package includes the documentation for texlive-arabi"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn44662"
+PV = "2023.209.1.1svn44662"
 
-RPM_NAME = "texlive-arabi-doc-2023.201.1.1svn44662-54.1.noarch.rpm"
-RPM_HASH = "386f3b14af02030567171bd446381c6414f4b341ae42550f9cb1cf9d9bae904ebee32a0285e6aebd29274501f8312b6d908c53e107c8f52afbe4b6bf17f96b0c"
+RPM_NAME = "texlive-arabi-doc-2023.209.1.1svn44662-55.1.noarch.rpm"
+RPM_HASH = "dbac8273eb215aa169ed5635d871f9f280045c77f0e28ec74b0a88762ede88925c6e793d4ff3c42505855428d91bc4bfd4a066057ee6be3b431c7c94ba2d34aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-arabi-doc"

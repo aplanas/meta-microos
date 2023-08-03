@@ -10,10 +10,10 @@ systems, sequentially connecting a list of nodes, and \
 connecting a list of nodes using any node-connecting macro."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4svn21667"
+PV = "2023.209.1.4svn21667"
 
-RPM_NAME = "texlive-pst-sigsys-2023.201.1.4svn21667-53.2.noarch.rpm"
-RPM_HASH = "3f4114fa70a65d3542bef52a7b08968005c5476174fa005a54555f181f5736865fce32b6ba524eed79ccd58882b99beff2ce58344e68ea25b23b3a7f0baafd9e"
+RPM_NAME = "texlive-pst-sigsys-2023.209.1.4svn21667-54.1.noarch.rpm"
+RPM_HASH = "8b39896240732279b5904566a9806f435e67469a49587ccc075596c1b721f7768ef1095b822dc07661b7dc85c6108fde0d4f7e0dfc3920563f0fa049a2176b93"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-sigsys.sty \

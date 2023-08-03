@@ -6,10 +6,10 @@ elegant and attractive. You can also find the template \
 available on Overleaf."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn62933"
+PV = "2023.209.1.1svn62933"
 
-RPM_NAME = "texlive-seu-ml-assign-2023.201.1.1svn62933-53.1.noarch.rpm"
-RPM_HASH = "e109a5289aa1d5a052aeab5fee77204fa22dbe62deb4faee4cb0082ea16c5c70f618d7dbeeed76c4dbf4c2827fcb6090f5517fe4ce90d6a587edb7a7226e2cde"
+RPM_NAME = "texlive-seu-ml-assign-2023.209.1.1svn62933-54.1.noarch.rpm"
+RPM_HASH = "acef2a69305dc195a07d24e0e86f5a25bdf038c690ccf49c34089d594c9e08354bee23e28b589c33b82f3329282464faf9a1863e47060b29b4993448c55472c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-seu-ml-assign.cls \

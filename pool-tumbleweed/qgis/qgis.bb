@@ -6,10 +6,10 @@ formats (e.g. ESRI ShapeFile, geotiff). QGIS supports plugins to do \
 things like display tracks from a GPS."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.30.3"
+PV = "3.32.0"
 
-RPM_NAME = "qgis-3.30.3-2.1.aarch64.rpm"
-RPM_HASH = "02c3f7b448db9f4803b9ed240f8788d8320370d3e52429600c399369b763c625b372bdf4856f21b6153b905271ea71aef8bd21a4c38c9ad4be1cd74ed4225c16"
+RPM_NAME = "qgis-3.32.0-1.1.aarch64.rpm"
+RPM_HASH = "6eb739ed119ccc6aba920f29a0af4b40b72357b57882de450e1015fd841c3561224302f7974db005e8e87a62bf39b70744662e9c615d599006fbed3f9331354c"
 
 RPROVIDES:${PN} += "libauthmethod-apiheader.so \
 libauthmethod-awss3.so \
@@ -40,14 +40,14 @@ libprovider-virtualraster.so \
 libprovider-wcs.so \
 libprovider-wfs.so \
 libprovider-wms.so \
-libqgis-3d.so.3.30.3 \
-libqgis-analysis.so.3.30.3 \
-libqgis-app.so.3.30.3 \
-libqgis-core.so.3.30.3 \
-libqgis-gui.so.3.30.3 \
-libqgis-native.so.3.30.3 \
-libqgis-server.so.3.30.3 \
-libqgispython.so.3.30.3 \
+libqgis-3d.so.3.32.0 \
+libqgis-analysis.so.3.32.0 \
+libqgis-app.so.3.32.0 \
+libqgis-core.so.3.32.0 \
+libqgis-gui.so.3.32.0 \
+libqgis-native.so.3.32.0 \
+libqgis-server.so.3.32.0 \
+libqgispython.so.3.32.0 \
 libqsqlspatialite.so \
 libwcs.so \
 libwfs.so \

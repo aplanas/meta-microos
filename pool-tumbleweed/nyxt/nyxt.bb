@@ -4,10 +4,10 @@ It has familiar key-bindings (Emacs, VI, CUA), is fully configurable and \
 extensible in Lisp, and has powerful features for productive professionals."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.4.0"
+PV = "3.5.0"
 
-RPM_NAME = "nyxt-3.4.0-1.1.aarch64.rpm"
-RPM_HASH = "0951df53dcfd91d8eed818f167241d227491f6de44410566b9468f4d0c7dc207e0b3027e8889f8cd17de9d10fdeeb6806159ba00e99a2924556972fb40acb1e6"
+RPM_NAME = "nyxt-3.5.0-1.1.aarch64.rpm"
+RPM_HASH = "a462f338219310c5844fdb2b3a0dffb4182a143ec0f89e3d882fe29b10e7f0a3d1ada79148f0afe19960763f8d0cc7e2b5185a036e87bc1067ec5c42e71b22d2"
 
 RPROVIDES:${PN} += "nyxt"
 

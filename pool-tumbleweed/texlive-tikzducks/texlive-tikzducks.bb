@@ -4,10 +4,10 @@ pictures. This project is a continuation of an answer at \
 StackExchange How we can draw a duck?"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5svn55713"
+PV = "2023.209.1.5svn55713"
 
-RPM_NAME = "texlive-tikzducks-2023.201.1.5svn55713-52.1.noarch.rpm"
-RPM_HASH = "013f99e007ec2ef959a5ceefc60697ed1800f57cc7841e1de3e12ba42bc51c04080c9f5f2c02c97eadb8f79b28e5323f8325deebbb6a9d8e1077348de70014c1"
+RPM_NAME = "texlive-tikzducks-2023.209.1.5svn55713-53.1.noarch.rpm"
+RPM_HASH = "a8be1e9af72a1ea14bbd577add6e012a35c3a65a305862cef5fd4759fba1661091e7cdbd239e46a28586942594a272ec8995a37a3ff2e44db50cbe8dad32f194"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzducks-generic.tex \

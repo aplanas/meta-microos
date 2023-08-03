@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-trajan"
 DESCRIPTION = "This package includes the documentation for texlive-trajan"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn15878"
+PV = "2023.209.1.1svn15878"
 
-RPM_NAME = "texlive-trajan-doc-2023.201.1.1svn15878-52.1.noarch.rpm"
-RPM_HASH = "cd9d616f9a8fc6a1a1ecb4043865210fc1d17f2363336db119473eb8507502b31be1f0f34b7018d687c4c6825cfc047e8220fbf7e411a3c8d20ad00835e88ea0"
+RPM_NAME = "texlive-trajan-doc-2023.209.1.1svn15878-53.1.noarch.rpm"
+RPM_HASH = "6234836bceee397c130336e07b02e6fdcc95f2d51795e3677e9c2511313f888178271944af1fbeeb80e9171af70cc3d9558c84b7f9f0bc9d308af08e71216422"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-trajan-doc"

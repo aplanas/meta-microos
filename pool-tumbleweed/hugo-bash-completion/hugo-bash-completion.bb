@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for hugo"
 DESCRIPTION = "The official bash completion script for hugo, generated during the build."
 LICENSE = "Apache-2.0"
 
-PV = "0.115.1"
+PV = "0.116.0"
 
-RPM_NAME = "hugo-bash-completion-0.115.1-1.1.noarch.rpm"
-RPM_HASH = "e4b57907bcf412016c9b90c44b8d46b5e48f87918f5504a5991402cda17aef010d44074ee10517e174f78dd9c50bc4e30f48a376999adf254e373833f60277d1"
+RPM_NAME = "hugo-bash-completion-0.116.0-1.1.noarch.rpm"
+RPM_HASH = "53b3f3a8bef95883d419143a3866470e9bf1fdc245464f7f3dd90bd578c9e5f058740f518db961b14496d0360db13121787a766f6b2e81308d18c3df29b6c12b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hugo-bash-completion"

@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a command \\forloop for doing iteration in \
 LaTeX macro programming."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.201.3.0svn15878"
+PV = "2023.209.3.0svn15878"
 
-RPM_NAME = "texlive-forloop-2023.201.3.0svn15878-52.1.noarch.rpm"
-RPM_HASH = "3fd2bb5906a7e814c0930d409bb3ee8837f5a07abfd9b9e26b73402672c701f6a9b9e5c3dc4aeae081fce494405f0f01b60a3a5894c8f4e03039acf473147efc"
+RPM_NAME = "texlive-forloop-2023.209.3.0svn15878-53.1.noarch.rpm"
+RPM_HASH = "e0fdb2c90d7b9d3ac052bd7a826e3ca4b5c2dcbc235cf59bc18d115833811e40ec45631ce048900356ed716bfc5702684229868b545d2c1dbeafa5bc4e3e3843"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-forloop.sty \

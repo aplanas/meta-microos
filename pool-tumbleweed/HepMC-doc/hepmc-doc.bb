@@ -6,10 +6,11 @@ HEPEVT, the Fortran HEP standard, are supported. \
 This package provides the API documentation for the HepMC library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.2.5"
+PV = "3.2.6"
 
-RPM_NAME = "HepMC-doc-3.2.5-2.6.aarch64.rpm"
-RPM_HASH = "6caad78b6bd819662a8885ef6745a8fdfef0995ed12b28dc96b7212249059b6434590a9763ba5f9d56cf4d44503bf9374087f3bdd4ff6926f959e88bab1483a5"
+RPM_NAME = "HepMC-doc-3.2.6-1.1.noarch.rpm"
+RPM_HASH = "f964c368736383062fea79f17f895c0ecbc54ae5680a97cbd76cd2bbd9ab638c890b9f88f23a8f8f2ccafe0151cd382c7ff884b925aefa5697b3a0f6932bdc36"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "HepMC-doc"
 

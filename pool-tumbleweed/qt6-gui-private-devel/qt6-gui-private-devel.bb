@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6Gui that do not ha
 ABI or API guarantees."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-gui-private-devel-6.5.1-4.1.aarch64.rpm"
-RPM_HASH = "5b4fed96137ddf7b5ca3424476af7e7a6cab43af1530c3e968b10a96d31def9551d534c93ce35aab0afc0125ef335bd2aed33b2285b1e3232e9f40b9d9a5fb4c"
+RPM_NAME = "qt6-gui-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "fa214d8cb1f766dcc9fe278720c770c25a43d8c974d48319050c52f70a3d3bdf195ab4c5cac9593c6ea35fc957494d67e2a5d10e4aed8163915962e3233e72b7"
 
 RPROVIDES:${PN} += "cmake-Qt6EglFSDeviceIntegrationPrivate \
 cmake-Qt6EglFsKmsGbmSupportPrivate \

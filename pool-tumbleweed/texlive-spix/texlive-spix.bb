@@ -8,10 +8,10 @@ that is located somewhere else), in a human-readable format (no \
 need to know SpiX to understand it)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.3.0svn65050"
+PV = "2023.209.1.3.0svn65050"
 
-RPM_NAME = "texlive-spix-2023.201.1.3.0svn65050-57.1.noarch.rpm"
-RPM_HASH = "ca0874edf9574b108092487ac1dc51067b93c0e6b7fa9aacfb56c3796393ad5051e97da576169e6741aafd722a1768f25169c7337d43eb7f81eb0eb09c5442c4"
+RPM_NAME = "texlive-spix-2023.209.1.3.0svn65050-58.1.noarch.rpm"
+RPM_HASH = "08d75cad472ce997c99c863611f69a148a9bf7846b7088cba8fdc9a3052d5dffa312b0ad32b2186c0ebe659dd66f187b2b1a2367f2e8630f488c2ad66a65ea12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-spix"

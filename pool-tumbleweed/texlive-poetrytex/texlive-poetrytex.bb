@@ -4,10 +4,10 @@ of anthologies of poetry and other writings; it does not \
 concern itself with actually typesettinig the verse itself."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.0.1svn39921"
+PV = "2023.209.3.0.1svn39921"
 
-RPM_NAME = "texlive-poetrytex-2023.201.3.0.1svn39921-52.1.noarch.rpm"
-RPM_HASH = "33ce170c29b7ca89612c2f46d1430b937794693b2d6be9933d73f16151c93156d122bc92519de712e8ee12bc501e47f922e04de55000f98daf9a08bd5dfa8813"
+RPM_NAME = "texlive-poetrytex-2023.209.3.0.1svn39921-53.1.noarch.rpm"
+RPM_HASH = "d10e977ab854acbed3da8da772639ce43fef52b9ee7d441ef3de9528de1077f63b8d8ba5af4ef97bc8ffd16eb014a337bb7467e8ef9e91f33661e873dfe5dcb9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-poetrytex.sty \

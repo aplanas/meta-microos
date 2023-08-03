@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-skrapport"
 DESCRIPTION = "This package includes the documentation for texlive-skrapport"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.12ksvn52412"
+PV = "2023.209.0.0.12ksvn52412"
 
-RPM_NAME = "texlive-skrapport-doc-2023.201.0.0.12ksvn52412-57.1.noarch.rpm"
-RPM_HASH = "c5f3f6222a53ddb0e352506980774407fa588a79f474ed4e291ffc12d666c1085bf218a639f192569ba2f46ff29b6a3aae38f9f8f2dc9c502ea23627a1485264"
+RPM_NAME = "texlive-skrapport-doc-2023.209.0.0.12ksvn52412-58.1.noarch.rpm"
+RPM_HASH = "142d70a36c442d2bf4215a004d6b3c528251f8db00efbf4727e8881345d9347316120cbd482158eccb063ec072732c1e0155a230785e039e36ef2a747adc4c26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-skrapport-doc"

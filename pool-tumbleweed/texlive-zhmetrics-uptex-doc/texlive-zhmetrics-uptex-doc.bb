@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-zhmetrics-uptex"
 DESCRIPTION = "This package includes the documentation for texlive-zhmetrics-uptex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn40728"
+PV = "2023.209.1.0svn40728"
 
-RPM_NAME = "texlive-zhmetrics-uptex-doc-2023.201.1.0svn40728-52.2.noarch.rpm"
-RPM_HASH = "6596e6c7008491707a39c958ade464b4645988313cfa60e2d42d5b7aa72df1b2d129ab7ad70f3c99541e1d1641f5e60f23e947115f82cb26a518196de13dea2d"
+RPM_NAME = "texlive-zhmetrics-uptex-doc-2023.209.1.0svn40728-53.1.noarch.rpm"
+RPM_HASH = "f16f0de5fbe80f4bf73e233db01e0ae8092ee00209fbf41bc5f590abf88ad287785241f150c59450b71994862101147ace667253e31819abb4ac0a68b5e9a515"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zhmetrics-uptex-doc"

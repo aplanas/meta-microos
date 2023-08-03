@@ -6,10 +6,10 @@ by changing the colours, the fonts, etc. The template.tex file \
 can be used as an example."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.3.1svn62128"
+PV = "2023.209.2.3.1svn62128"
 
-RPM_NAME = "texlive-moderncv-2023.201.2.3.1svn62128-54.1.noarch.rpm"
-RPM_HASH = "9ae82672a6602461147b8be058828ff8221802ce8a14b6ffdf5c9c494a7102a35c6cb90f7c5b712e29245deac9ea863d9eb968d3a9f2c5a1b389b9436b41f87e"
+RPM_NAME = "texlive-moderncv-2023.209.2.3.1svn62128-55.1.noarch.rpm"
+RPM_HASH = "cbf737a286d5ed35f6b04575addfc33f36fcd3ae16b48990e39351e63bd3741215917059deb1bf5b8517e9ba1048f0961296fb1728a33e60fbe4a338fcc99caf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-moderncv.cls \

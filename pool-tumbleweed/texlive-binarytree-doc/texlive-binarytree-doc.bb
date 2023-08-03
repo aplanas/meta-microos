@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-binarytree"
 DESCRIPTION = "This package includes the documentation for texlive-binarytree"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.01svn41777"
+PV = "2023.209.1.01svn41777"
 
-RPM_NAME = "texlive-binarytree-doc-2023.201.1.01svn41777-53.1.noarch.rpm"
-RPM_HASH = "15dc4dc64a270d429ee9507990d5c06eb7966c47da1223d0551eec89cb51fdbbdafd4aed18d78fd0dc8277f16f43df607d8c1043935eee457a2b4bba8c994a6e"
+RPM_NAME = "texlive-binarytree-doc-2023.209.1.01svn41777-54.1.noarch.rpm"
+RPM_HASH = "fa229b6897f5ec81fdf63c604e213d4d8f22cee184c59e643ded748f04d59e7977cbdb98a650c163f1f98bc929f2d8f8f4c7f132355140e44fc6f5851eeb5a60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-binarytree-doc"

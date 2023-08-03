@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Low Saxonian Translations"
 DESCRIPTION = "YaST2 - Translations for Low Saxonian."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230714.966688ddd0"
+PV = "84.87.20230729.64eca7e0a1"
 
-RPM_NAME = "yast2-trans-nds-84.87.20230714.966688ddd0-1.1.noarch.rpm"
-RPM_HASH = "2592ffe1c4f37c9f6688b3776db6bef758233dab8485d2723acc08a8488002ce1013da1abc2739a9f7858f54f8ddc5cca34126a2d9bf66031dc73a4548caa4a4"
+RPM_NAME = "yast2-trans-nds-84.87.20230729.64eca7e0a1-1.1.noarch.rpm"
+RPM_HASH = "9bf2acc3f38441dfbc5d7a90941f9138cc13da4315e1ac59e29e91130702d1ac7eabae64ef095242700a6ad9596db6a0ad7dd849f25e7a1a56c5d64a9c95ada0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-nds \

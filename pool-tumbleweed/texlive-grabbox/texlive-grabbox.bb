@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides the command \\grabbox, which grabs an \
 argument into a box and executes the code afterwards."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4svn65223"
+PV = "2023.209.1.4svn65223"
 
-RPM_NAME = "texlive-grabbox-2023.201.1.4svn65223-53.2.noarch.rpm"
-RPM_HASH = "2f3850ff82275b6320e5c9e025c7e5e16fca8f218a228e0bb96f41884ce4f43084f506c4b5f48332375d3bb247cdd54b7094c0f0f775bc3a804cda4b096d126e"
+RPM_NAME = "texlive-grabbox-2023.209.1.4svn65223-54.1.noarch.rpm"
+RPM_HASH = "53329a69f024da9c8a5ea92fdf1f1d5d35f51f77ee0c8ab39ae9f8523516e3f34590aad047a56d81ed9d842a8d08c949e9662649e5c4232a3779f692eaf40140"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-grabbox.sty \

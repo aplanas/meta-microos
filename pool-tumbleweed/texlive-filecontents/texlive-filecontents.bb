@@ -16,10 +16,10 @@ issues a warning message and disables itself when run with a \
 newer kernel.'"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5svn52142"
+PV = "2023.209.1.5svn52142"
 
-RPM_NAME = "texlive-filecontents-2023.201.1.5svn52142-52.1.noarch.rpm"
-RPM_HASH = "4883269b362c126c8e99202d3ba297bd87f31d7103bb0411641144ba30802eda653cb62930d146f204ce14fa62c43bac0f8be462c2449f2e7f3232019ba16759"
+RPM_NAME = "texlive-filecontents-2023.209.1.5svn52142-53.1.noarch.rpm"
+RPM_HASH = "0b95a4f3c0ba0c42234661c81868b43945746369aaf990b55fd88ef7072c31ba5a65bf01337db3ded6425a8fcdaae88eb81203d527d89eea95b3ac806ad69160"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-filecontents.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-accessibility"
 DESCRIPTION = "This package includes the documentation for texlive-accessibility"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0.3svn55777"
+PV = "2023.209.2.0.3svn55777"
 
-RPM_NAME = "texlive-accessibility-doc-2023.201.2.0.3svn55777-54.1.noarch.rpm"
-RPM_HASH = "02c944ed89091a19d0aac14b5ff78e85bc413147aa3ea029d13da4c72147a1a6234aa764b50fb7a61fe8f7408bc0a22b3e75ce058cfe33f546b2bb3d02636610"
+RPM_NAME = "texlive-accessibility-doc-2023.209.2.0.3svn55777-55.1.noarch.rpm"
+RPM_HASH = "e8ed7cd0020ace3f58f86fd71f9140faee4af317723d0d05fc502cf3076d218338d38cf42bd9e94ebef89912d4efb0fc68654f4cd538f539de0084d629c8983a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-accessibility-doc-de;en \

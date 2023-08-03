@@ -4,10 +4,10 @@ curve. Provision is made for full control of over all the \
 control points of the curve."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.03svn41981"
+PV = "2023.209.0.0.03svn41981"
 
-RPM_NAME = "texlive-pst-bezier-2023.201.0.0.03svn41981-52.1.noarch.rpm"
-RPM_HASH = "e22f37997cfb9a116a4ca74883cf041903768d4b007f7f2c21bfaa0c3ff8518a3acb389e551c1a756e2f9e3b4d6ec4b8d95f33c2aa419ab3345a91814ebbf8ae"
+RPM_NAME = "texlive-pst-bezier-2023.209.0.0.03svn41981-53.1.noarch.rpm"
+RPM_HASH = "75f3406204595df697d9d274c0e9cd8b10ff684285ed607fd1497e53c9300e69be56526228f38d16e962f364a0cb820573e228f1d78504377f1d4627c372c8ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-bezier.sty \

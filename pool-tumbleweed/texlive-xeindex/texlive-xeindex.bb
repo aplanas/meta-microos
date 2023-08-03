@@ -5,10 +5,10 @@ a list, and every occurrence then creates an index entry whose \
 content can be fully specified beforehand."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn35756"
+PV = "2023.209.0.0.3svn35756"
 
-RPM_NAME = "texlive-xeindex-2023.201.0.0.3svn35756-52.2.noarch.rpm"
-RPM_HASH = "4ff3ea0418e7bd8dee6a5b5c8e91e9a740acffd7eab3bec218299f7c255984fc4b4afc0924a339194b47dfe83a3e48bb47b6f6bd125ceb85e05eb522edba16d5"
+RPM_NAME = "texlive-xeindex-2023.209.0.0.3svn35756-53.1.noarch.rpm"
+RPM_HASH = "28f2c194d24944c9bb3ba5d01eb05b4af1a006a001509ff04a3e2acbd7344db6459e1607a91585eb5459694e512274535d7fa540a4daa1ffbf8c2b18a5a3711e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xeindex.sty \

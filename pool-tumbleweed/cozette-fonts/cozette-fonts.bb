@@ -3,10 +3,10 @@ DESCRIPTION = "A bitmap font with great coverage of all the glyphs \
 that might encounter in the terminal."
 LICENSE = "MIT"
 
-PV = "1.19.0"
+PV = "1.21.0"
 
-RPM_NAME = "cozette-fonts-1.19.0-1.2.noarch.rpm"
-RPM_HASH = "9c8165f068f50bb47c1ba55743c8aee6a98c8e8e21d9f502babc1f85585e8ed331d6b29f9161dbff15d3d282fa8c2b5eaf7c2a928cceff9950e12f0f57aa4320"
+RPM_NAME = "cozette-fonts-1.21.0-1.1.noarch.rpm"
+RPM_HASH = "9be25d530b5b064e2348de4d879ce92c1ab23e1663078e662b6031e0c62b9e2617ad1f42bc27b6222faff769c3088ce4db5d52fb6735d6d86d8d4aca31f971bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cozette-fonts"

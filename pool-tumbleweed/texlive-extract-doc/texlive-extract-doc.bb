@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-extract"
 DESCRIPTION = "This package includes the documentation for texlive-extract"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.9asvn52117"
+PV = "2023.209.1.9asvn52117"
 
-RPM_NAME = "texlive-extract-doc-2023.201.1.9asvn52117-52.1.noarch.rpm"
-RPM_HASH = "c9f0e9c1ddf47ec3f02674413c4b7add899c1970cd0688d50eae435abe70c042410171803d935762f98f62e2a77eb0dd4e78d7983891bb2e89a7b37826a9110b"
+RPM_NAME = "texlive-extract-doc-2023.209.1.9asvn52117-53.1.noarch.rpm"
+RPM_HASH = "f77389d0b8e03542e11ab2ef4f248ace357420d962a033baaafccf2e265fc584ac894e4cacc770cdaac92a41d3ae2d1b22f86b58304826a025cafe9952548555"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-extract-doc"

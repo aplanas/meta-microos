@@ -5,10 +5,10 @@ Simple Icons. For reference, visit their website: \
 https://simpleicons.org/."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.8.6.0svn66328"
+PV = "2023.209.8.6.0svn66328"
 
-RPM_NAME = "texlive-simpleicons-2023.201.8.6.0svn66328-53.1.noarch.rpm"
-RPM_HASH = "84ef2918a3710be5ff66c51b936a7c11da2ef8834b7125b2d8553592ca91de6b4a0c23e5da4e6613e5fadfe4201d7b11e81a1248ae8d57aaf211321de8dca493"
+RPM_NAME = "texlive-simpleicons-2023.209.8.6.0svn66328-54.1.noarch.rpm"
+RPM_HASH = "7cff14627dfc7a39033a124c614d1450e4fb7a45c65600a80e81837c993b7538ea9276c75d72663f592616ecae47908b1c7be4e16dc39aa8cabb2427d18ef142"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-SimpleIcons--simpleiconsEight.tfm \

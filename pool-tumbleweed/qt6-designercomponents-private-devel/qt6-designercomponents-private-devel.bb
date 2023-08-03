@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for the Qt 6 DesignerComponents library. \
 This library does not have any ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-designercomponents-private-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "f280e9253a961f131ab6653943b65c3e832e94549e65a630fdd891b6d789d3165c49887e308cdae8bebdc61b6a86680b7f8f32c5a615bf80be461b7f341b9ed2"
+RPM_NAME = "qt6-designercomponents-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "1d0f83c1fbdd22e71dec6872a2cacdaa6f421194daed3208be3576d4b5ecddcea53e93105a8d77f6560251c2911fb904e9b3b096c8c980ee57b1d31d7b430b07"
 
 RPROVIDES:${PN} += "cmake-Qt6DesignerComponentsPrivate \
 qt6-designercomponents-private-devel"

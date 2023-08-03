@@ -5,10 +5,10 @@ implemented by using the \\text{} command from the amstext \
 package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.1svn51273"
+PV = "2023.209.1.1svn51273"
 
-RPM_NAME = "texlive-subtext-2023.201.1.1svn51273-57.1.noarch.rpm"
-RPM_HASH = "b88923daaf0a1bef23fcd0a0f04f338c5f1e812643428e21011eee7e8f8d6b5bc749b748a28a6ece61d23b3864f345667c44492d36c0c16a4e8389263ce57e3c"
+RPM_NAME = "texlive-subtext-2023.209.1.1svn51273-58.1.noarch.rpm"
+RPM_HASH = "e12bc31d771c79880b315547f65e5ae0382cc86b5ea416984108e60136354de54bff2e74f8ae14278e3536289e087c4ecbcd206d056c19840f65e8f396e17f3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-subtext.sty \

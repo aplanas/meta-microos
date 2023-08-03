@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-jtree"
 DESCRIPTION = "This package includes the documentation for texlive-pst-jtree"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.6svn20946"
+PV = "2023.209.2.6svn20946"
 
-RPM_NAME = "texlive-pst-jtree-doc-2023.201.2.6svn20946-52.1.noarch.rpm"
-RPM_HASH = "9677bdbb240a49bffb18df0e3a5a3f9822e82fead32822e3700388c86ae875ddc39b2bd6898047afd8c802d0de5767269066f1afdc63d3104a9a5a401fe6e466"
+RPM_NAME = "texlive-pst-jtree-doc-2023.209.2.6svn20946-53.1.noarch.rpm"
+RPM_HASH = "f7998f9901f857bdffc28babf18c06e4a010c8f23c5cad34770d58547bc4db6cead1769937ce2967d6edacd2e2c9bdec5a7f247a896f81fd42aa8cdd88cf9895"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-jtree-doc"

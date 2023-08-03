@@ -8,10 +8,10 @@ parts: quire and folio numbers. The intended use for this \
 package is to help creating old-style books."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.000svn58877"
+PV = "2023.209.1.000svn58877"
 
-RPM_NAME = "texlive-foliono-2023.201.1.000svn58877-52.1.noarch.rpm"
-RPM_HASH = "75ad137c48a273e943c6043e2355e2e1954af8a60bd49026aff92d61f721a6a3f168bdf0f8687fc9aacd60dcd86a98361a4fb0fde8a5230343f249ee8d228017"
+RPM_NAME = "texlive-foliono-2023.209.1.000svn58877-53.1.noarch.rpm"
+RPM_HASH = "58db2c90e8be759be69dd8ad6fbfc4f379ae4cfca7494cda8597180447fa55d5cb01e599a7c3db7103bbc0452e9f1de5fcb28186a23bb1a2462c3548a04955e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-foliono.sty \

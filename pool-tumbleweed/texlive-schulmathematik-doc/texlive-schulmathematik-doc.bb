@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-schulmathematik"
 DESCRIPTION = "This package includes the documentation for texlive-schulmathematik"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn64108"
+PV = "2023.209.1.3svn64108"
 
-RPM_NAME = "texlive-schulmathematik-doc-2023.201.1.3svn64108-53.1.noarch.rpm"
-RPM_HASH = "7da52979e1abbcb2e0647c8990586d2cfcb761c86bc67611776e825fd5a5b614b545fcb22bf5114662bd7f4f331974fa443e7f93e8150cbe663cbe7d8ceb4120"
+RPM_NAME = "texlive-schulmathematik-doc-2023.209.1.3svn64108-54.1.noarch.rpm"
+RPM_HASH = "76742ac0e200cd5746ccc0ded42f4c5842604e9788e0bf05de43c20287a57af39eca45df72f444bfb2becb098933ab3c839861520310334640741495dced648b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-schulmathematik-doc"

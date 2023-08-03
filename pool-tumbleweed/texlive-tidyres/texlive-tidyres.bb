@@ -3,10 +3,10 @@ DESCRIPTION = "This LaTeX package aims to provide users with a simple \
 interface to create multi-column formal resumes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.0svn65789"
+PV = "2023.209.1.0.0svn65789"
 
-RPM_NAME = "texlive-tidyres-2023.201.1.0.0svn65789-54.1.noarch.rpm"
-RPM_HASH = "3c7257bd5dfa6380f150567083e879ebdd79a191e38ffa64af28b6d4e80fa0c08e75d7769e8182815d4900b7fc7db8be6ff5b43d2769bd8f53a8810ac48c67f4"
+RPM_NAME = "texlive-tidyres-2023.209.1.0.0svn65789-55.1.noarch.rpm"
+RPM_HASH = "ba44125adb875cf4c352bb15e1559b87ef4a9c867c8af292de763515fe6bea945be1cfa1329b15ee18c1dc69238447632d27e43f58b906d8b2524631e8b7c888"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tidyres.sty \

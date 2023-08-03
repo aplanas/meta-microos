@@ -7,10 +7,10 @@ environments. Macros for drawing vertical and horizontal rules \
 of variable thickness are also provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn61719"
+PV = "2023.209.1.2svn61719"
 
-RPM_NAME = "texlive-arraycols-2023.201.1.2svn61719-53.1.noarch.rpm"
-RPM_HASH = "8e649bdf1c76d56654f9159917fb224c83e389998f48981b94785e8b428513f186d1c293c205aaa3804c5f318a99810f513ff890e1082ec61c8de4c2515a0230"
+RPM_NAME = "texlive-arraycols-2023.209.1.2svn61719-54.1.noarch.rpm"
+RPM_HASH = "63c909dae8b6101114f922c3116a34f92da75b8312da2cf6b8264072bb74e323a3765c32606899746aab334c25a3fd6739676b31abf09b5d849d2b9cd4ef1614"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-arraycols.sty \

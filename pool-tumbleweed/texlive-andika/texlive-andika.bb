@@ -7,10 +7,10 @@ easy-to-perceive letterforms that will not be readily confused \
 with one another."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.6.101svn64540"
+PV = "2023.209.6.101svn64540"
 
-RPM_NAME = "texlive-andika-2023.201.6.101svn64540-54.1.noarch.rpm"
-RPM_HASH = "fd22cf4bd98beff111a7a93c798d1d814170def758026f4f8583a9e0b3b0da333a9fa70c59a8bd4ac9b8b7faa8656321ad6577a7f9dde52811be609f32f80949"
+RPM_NAME = "texlive-andika-2023.209.6.101svn64540-55.1.noarch.rpm"
+RPM_HASH = "7dbaeda45fb4a98f862836effc24002e2d99156838f653a0cb4c57b337a4d1b3293adfbda511ae1b80fbab3fc19693bfe106c726b6c69d3563153f600b17a583"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1andk-TLF.fd \

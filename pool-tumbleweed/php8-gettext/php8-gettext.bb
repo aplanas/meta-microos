@@ -3,10 +3,10 @@ DESCRIPTION = "PHP functions that implement a Native Language Support (NLS) API 
 can be used to internationalize your PHP applications."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.7"
+PV = "8.2.8"
 
-RPM_NAME = "php8-gettext-8.2.7-1.1.aarch64.rpm"
-RPM_HASH = "23b323ffd9cd385cb724e8bcfeee7aa9c5dce8378830644117ebe4266ee0b33a0ed8b1af94743733daea460ca174751a9bf34529890e1b1e06552778c7ac95f6"
+RPM_NAME = "php8-gettext-8.2.8-1.1.aarch64.rpm"
+RPM_HASH = "f4715192a1ee74010fbb27ee6c5ef07806bdd94a6681128d723053120d39910693d803db7eed1bb6862778d51d3f723fbdcc2fa42e79630eb31a1b3b0ef5cbbc"
 
 RPROVIDES:${PN} += "config-php8-gettext \
 php-gettext \

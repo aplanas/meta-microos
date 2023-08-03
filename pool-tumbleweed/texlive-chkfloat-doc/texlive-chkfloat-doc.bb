@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-chkfloat"
 DESCRIPTION = "This package includes the documentation for texlive-chkfloat"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn27473"
+PV = "2023.209.0.0.1svn27473"
 
-RPM_NAME = "texlive-chkfloat-doc-2023.201.0.0.1svn27473-53.1.noarch.rpm"
-RPM_HASH = "346aa3eecee61d3c7c33f48187a07fb3110582083fcd6a3d4e23f9dac6c9da115bb6815b65675998eb710562e35ff1d1a65c9df12e222f3e96e184db3565b7be"
+RPM_NAME = "texlive-chkfloat-doc-2023.209.0.0.1svn27473-54.1.noarch.rpm"
+RPM_HASH = "e359973297f17ba15171c2a0cb31996da91e71284f8eb8c0a8c5683f7545fc94066648d1333946ea4e677ee55bde0ece5ff07f2623accbaef92be3f3958f6d42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chkfloat-doc"

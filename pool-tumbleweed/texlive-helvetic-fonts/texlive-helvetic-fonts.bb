@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-helvetic"
 DESCRIPTION = "The  separated fonts package for texlive-helvetic"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn61719"
+PV = "2023.209.svn61719"
 
-RPM_NAME = "texlive-helvetic-fonts-2023.201.svn61719-53.2.noarch.rpm"
-RPM_HASH = "da5ed74a65c428a642ba7d0ea9dea0da56590ca81d8761fc32b01a6b68afd18308b0763332bb05ec6515b77ba7d40c46358d08daa46a1703a88c5702e7cb516b"
+RPM_NAME = "texlive-helvetic-fonts-2023.209.svn61719-54.1.noarch.rpm"
+RPM_HASH = "f06ca6bfcfc5208ec5d61b4cf3c1416c42d11b519e29073b138408ae6d47ae6b0b4f079ae2a7782109a6168f917cb2a8b13336be2895c189944fc5bc487b536b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

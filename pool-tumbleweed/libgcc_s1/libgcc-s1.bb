@@ -2,10 +2,10 @@ SUMMARY = "C compiler runtime library"
 DESCRIPTION = "Libgcc is needed for dynamically linked C programs."
 LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
-PV = "13.1.1+git7552"
+PV = "13.1.1+git7597"
 
-RPM_NAME = "libgcc_s1-13.1.1+git7552-1.1.aarch64.rpm"
-RPM_HASH = "aa6aafea7d101df0de47487bad8e9be06e462802c6818d6bd5043bafbc139b39e5c48025f6e7576597ea1b0d65cf343e5b855954969fcd15c77da7456b83553a"
+RPM_NAME = "libgcc_s1-13.1.1+git7597-1.1.aarch64.rpm"
+RPM_HASH = "adeb77a93b2286993c805cc2ae5141a763f08c425b4e3232cbd8da9f751b23715deb2e0c46dae94ec0ab8ed61771552854de238cfd743da0c28b89df95524de1"
 
 RPROVIDES:${PN} += "libgcc-s.so.1 \
 libgcc-s1"

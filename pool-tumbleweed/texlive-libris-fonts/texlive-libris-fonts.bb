@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-libris"
 DESCRIPTION = "The  separated fonts package for texlive-libris"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.007svn19409"
+PV = "2023.209.1.007svn19409"
 
-RPM_NAME = "texlive-libris-fonts-2023.201.1.007svn19409-54.1.noarch.rpm"
-RPM_HASH = "12339a9467e32ba00624f2ea1f63bff318a8b05b3d2ba9140a8f91d0c566b3433818be48a6ead1f27a185148ed51c3899bd9066f6b34a88f30912cdb3e8ff162"
+RPM_NAME = "texlive-libris-fonts-2023.209.1.007svn19409-55.1.noarch.rpm"
+RPM_HASH = "f5932e3da0abe5827f2a1eb704c885d35298c2ee0a1c197fecc58fc975e11225b3285f722635727424c4ecd00afa566a6f7adace3ea15127cf5a92eb2b7afc3a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

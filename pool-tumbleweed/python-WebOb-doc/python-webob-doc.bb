@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.8.7"
 
-RPM_NAME = "python-WebOb-doc-1.8.7-6.3.noarch.rpm"
-RPM_HASH = "cb3b42919982c65c44a803bb86d9ec5cc41355e915229b9d546120603ea71b36e78883ab7ea7bf0af5307d96dea94cf0ff1e5b3f1fc42e2b5deeec12ceadef03"
+RPM_NAME = "python-WebOb-doc-1.8.7-7.1.noarch.rpm"
+RPM_HASH = "cb83640184fb50e4ee1a07eaf15ce2ae2fc626791a7d655fc21d306dc6750477f730590138cd9c9619da08e1bb5ad47c1060d082d465813c399baed13a845757"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-WebOb-doc \

@@ -8,10 +8,10 @@ alphabet. The arabxetex package offers support for Kurdish \
 written in Arabic script."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn30279"
+PV = "2023.209.1.1svn30279"
 
-RPM_NAME = "texlive-babel-kurmanji-2023.201.1.1svn30279-53.1.noarch.rpm"
-RPM_HASH = "4b001a5a8c9d191805368587c4ac77a8414e94ef3346317288c0af109e95e7d79e88dc2828b71eb6e52dc2140ed2fe32837ce6eaa33abff38fd90349a27972eb"
+RPM_NAME = "texlive-babel-kurmanji-2023.209.1.1svn30279-54.1.noarch.rpm"
+RPM_HASH = "f519df5a970f4bdf9ca56c9e22e61813d055337022ddb6a2a43889a9d5141b431d61e44de9ca7f0fcc72fb682b78e9a8e3b7eace5112703d089d23bb987fcb56"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-kurmanji.ldf \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-montserrat"
 DESCRIPTION = "This package includes the documentation for texlive-montserrat"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.03svn54512"
+PV = "2023.209.1.03svn54512"
 
-RPM_NAME = "texlive-montserrat-doc-2023.201.1.03svn54512-54.1.noarch.rpm"
-RPM_HASH = "cdb6fde13aa3b74049e63c2eb4644c3c4187a99841f452e17b7ce9c9b9f867971c5087ccdb8018666de661ff78a60f6a57129e78489409c2be9da6c3f07661f8"
+RPM_NAME = "texlive-montserrat-doc-2023.209.1.03svn54512-55.1.noarch.rpm"
+RPM_HASH = "4f0685b771859fbf63bb5923a5679b16fcb5bb4c08267fa28407cd128840ef91be0a69a41080e79921e997c63f9216291f907fc22653f331435fba3cd3e5430c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-montserrat-doc"

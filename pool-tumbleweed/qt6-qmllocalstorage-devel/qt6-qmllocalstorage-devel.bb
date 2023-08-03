@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 QmlLocalStorage library - Development files"
 DESCRIPTION = "Development files for the Qt 6 QmlLocalStorage library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-qmllocalstorage-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "b3eeb344ea30f27c8e1cfe5bfbeabd3d9b3d6ef94d07dbe9d2a0adca740ab313a949c40e22832fa158d4c1fc41bf27ae75ca647c7c3dcef82e422c8c371f528a"
+RPM_NAME = "qt6-qmllocalstorage-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "4c6ae387387dbc30c6399a90f43c9f021961d90a97c286172297998c7cd763b54eb47a0b4944136b02a0adbe5eea6cd3201cd9279a191596bd876986153064f1"
 
 RPROVIDES:${PN} += "cmake-Qt6QmlLocalStorage \
 pkgconfig-Qt6QmlLocalStorage \

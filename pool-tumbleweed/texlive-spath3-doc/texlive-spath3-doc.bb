@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-spath3"
 DESCRIPTION = "This package includes the documentation for texlive-spath3"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.7svn64818"
+PV = "2023.209.2.7svn64818"
 
-RPM_NAME = "texlive-spath3-doc-2023.201.2.7svn64818-57.1.noarch.rpm"
-RPM_HASH = "5380b6f490ad4df297b9fe91b4e92bbfa1837b09d269707486a289c6d595ecf44c030ee7b8324ed218e3f6c6e7238b80fcd4f38275e56714d6af9868b2393c9b"
+RPM_NAME = "texlive-spath3-doc-2023.209.2.7svn64818-58.1.noarch.rpm"
+RPM_HASH = "364be89aa1e2301b8a64af425243bf767c07c7390c7f7e61f67478520fe0786fa3fdfcaef6b334bb7169497a1993bffce71d82ea44bff1ed6e3aeae922dd096a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-spath3-doc"

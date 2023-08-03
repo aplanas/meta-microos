@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-ethiop-t1"
 DESCRIPTION = "The  separated fonts package for texlive-ethiop-t1"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-ethiop-t1-fonts-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "4f8a4a946e49cf303c6e0bd44ea157b465af6658759caca476b59be09a8ab614bf99152597815cfa87e2b25a8d84e4ff5996af2023b06013a70e27f23e429a2f"
+RPM_NAME = "texlive-ethiop-t1-fonts-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "9ba621614093c151be5592b0ceeac8eb20079a37388f53742123a78f6f1e202d546d35d8ce702983a3cca0d010dad0d2ea5ecc99f08a1e5a48d7b059d05cf478"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

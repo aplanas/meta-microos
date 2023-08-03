@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-spverbatim"
 DESCRIPTION = "This package includes the documentation for texlive-spverbatim"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-spverbatim-doc-2023.201.1.0svn15878-57.1.noarch.rpm"
-RPM_HASH = "6df4390ac59d0411535d1d869b07146510947b5c6be8971a14d8ee00842ac60b9ec5303db78bfd9ef4a33019c7fa5cbf749c7335adea462ac550338de485d5a4"
+RPM_NAME = "texlive-spverbatim-doc-2023.209.1.0svn15878-58.1.noarch.rpm"
+RPM_HASH = "c3c94ce83feca17367067033d728719dcb7223d9afbafa5670c43c21cda9ac8848a2555ab2aab2dd0ecb02e6fc74266bfa6b1ef1385ffeb9dcf63e5678748e10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-spverbatim-doc"

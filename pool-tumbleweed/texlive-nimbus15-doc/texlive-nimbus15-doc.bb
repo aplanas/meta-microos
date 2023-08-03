@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-nimbus15"
 DESCRIPTION = "This package includes the documentation for texlive-nimbus15"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.014svn58839"
+PV = "2023.209.1.014svn58839"
 
-RPM_NAME = "texlive-nimbus15-doc-2023.201.1.014svn58839-54.1.noarch.rpm"
-RPM_HASH = "3d39388299a8afca43ecf763c44a076b3d57cf58a8b0cc89d1e3fb599b2ea5450a5d489a6d59fb3db3804879f53999e792a63fd6ece9836a452c797fa4dc3fd8"
+RPM_NAME = "texlive-nimbus15-doc-2023.209.1.014svn58839-55.1.noarch.rpm"
+RPM_HASH = "1356de23fa75b967bb890dfdc745e943958fe22af24c2a02c51a203c98839f21a3d63658e650ed608dd989bc044c3135e10ee69e127699f58011de5d0d6e9d86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nimbus15-doc"

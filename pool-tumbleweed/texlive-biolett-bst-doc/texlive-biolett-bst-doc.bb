@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-biolett-bst"
 DESCRIPTION = "This package includes the documentation for texlive-biolett-bst"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66115"
+PV = "2023.209.svn66115"
 
-RPM_NAME = "texlive-biolett-bst-doc-2023.201.svn66115-52.1.noarch.rpm"
-RPM_HASH = "9fdf2f8a6a118c572e1b171b54cec92df7eb175054290a21dee9d59f92c10c4df93dc35f5eefbdf18a45f240deaa3be4c5ee3b9fbdef96fce2225e14938fa8d5"
+RPM_NAME = "texlive-biolett-bst-doc-2023.209.svn66115-53.1.noarch.rpm"
+RPM_HASH = "ccfab4e624b66267a79f605ec11e133814c5f5d0a711d6a426bf20361f914dc319e17605d71e037895e7d3f8e571aac88fc5a8b3400899bcc162961eae00c95b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biolett-bst-doc"

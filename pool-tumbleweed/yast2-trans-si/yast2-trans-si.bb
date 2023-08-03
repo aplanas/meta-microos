@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Sinhala Translations"
 DESCRIPTION = "YaST2 - Translations for Sinhala."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230714.966688ddd0"
+PV = "84.87.20230729.64eca7e0a1"
 
-RPM_NAME = "yast2-trans-si-84.87.20230714.966688ddd0-1.1.noarch.rpm"
-RPM_HASH = "f2e819c9bd40ef054cd4c2787232807c08983d26f36eb1098080262cecb10e6ac11a8bd6812584105f34e8652687bacae10af120bcdf00b17e55dd17da3f59e1"
+RPM_NAME = "yast2-trans-si-84.87.20230729.64eca7e0a1-1.1.noarch.rpm"
+RPM_HASH = "0a5a16408cdd6b5742c795570e8c0d770005b0c7f22fd92ae2c1acb888da0b444b8752911776ee214d5f89b7c776dc39ba4100d64c313960ce63e8f1d57240ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-si \

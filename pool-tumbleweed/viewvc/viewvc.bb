@@ -10,10 +10,10 @@ textual command-line program output. \
 ViewVC is the successor of ViewCVS."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.3.0~dev20230104"
+PV = "1.3.0~dev20230511"
 
-RPM_NAME = "viewvc-1.3.0~dev20230104-1.2.noarch.rpm"
-RPM_HASH = "a85fd682e7921370b0c180f53f4ab647149d4f167a3618401b98b6126ba87ee5e609c7fcdb644006f996d96151be6f5dfc1559d47e1648dff78e80db74c11e0c"
+RPM_NAME = "viewvc-1.3.0~dev20230511-1.1.noarch.rpm"
+RPM_HASH = "46f369ed76a93ad09b81a1760bcd26744db154aaa5f312c66ac1af3001504c6c0d93e1fd7969e6d27dd1270f0bcc568af38cc2d8426932bba5aafc2bc733ce8b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-viewvc \

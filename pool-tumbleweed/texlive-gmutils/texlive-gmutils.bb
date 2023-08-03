@@ -7,10 +7,10 @@ environment' or redefinition of \\begin (\\begin* doesn't check \
 if the argument environment is defined)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.996svn24287"
+PV = "2023.209.0.0.996svn24287"
 
-RPM_NAME = "texlive-gmutils-2023.201.0.0.996svn24287-53.2.noarch.rpm"
-RPM_HASH = "8f240d248dfb5f0689cb93ca74ad1628bf9a5114d37a55ea6315c032e735d0bcc2414c1de8e82ad9dcdcfdb711eed2844a0c8d7d99b52170dd87c3aa95a50d80"
+RPM_NAME = "texlive-gmutils-2023.209.0.0.996svn24287-54.1.noarch.rpm"
+RPM_HASH = "725b48b9a03957263219224b8f1b88fc84db369092bcb45bfd8bbb10c9536851dc3193e5c4fe79be262043a05c85011d929b23719d87d5b0551c34508a44ae8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gmRCS.sty \

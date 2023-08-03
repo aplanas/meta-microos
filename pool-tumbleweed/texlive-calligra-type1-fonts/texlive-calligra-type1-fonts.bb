@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-calligra-type1"
 DESCRIPTION = "The  separated fonts package for texlive-calligra-type1"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.001.000svn24302"
+PV = "2023.209.001.000svn24302"
 
-RPM_NAME = "texlive-calligra-type1-fonts-2023.201.001.000svn24302-52.1.noarch.rpm"
-RPM_HASH = "70fa6dbe38ade73eb625fb22488ea74dea7e619dc0467b329d5353a1e18fab9574f2f5ace13411e0d51dfef3a4fc70d187205d571299262beee80e8baac1375a"
+RPM_NAME = "texlive-calligra-type1-fonts-2023.209.001.000svn24302-53.1.noarch.rpm"
+RPM_HASH = "33789841cf7bbe1fa85963077e98404d9f7ed97674eaa16b97684b9d6995d7b0023824a20508ff782a7405797cf122f3782a9bd642aac8f135cacb169cc8864e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-academicons"
 DESCRIPTION = "The  separated fonts package for texlive-academicons"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.9.1_2svn62622"
+PV = "2023.209.1.9.1_2svn62622"
 
-RPM_NAME = "texlive-academicons-fonts-2023.201.1.9.1_2svn62622-54.1.noarch.rpm"
-RPM_HASH = "ba8d1b828381181254f7371861e8d5f8b9622457dae35cca630eb6ee15cde02d1c6c22de8d068f4686a75a816f4b79246eb850a2bd1666ca3d48ce830766d169"
+RPM_NAME = "texlive-academicons-fonts-2023.209.1.9.1_2svn62622-55.1.noarch.rpm"
+RPM_HASH = "43b1503ad5630d037890b5c6b264733cebb10ca1f5e9d473bf87671d6ca8d1d2b520328ebcf00deb3d52d1b4cc9937da6a693c2322142706fb332e327f0a0ce5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-academicons \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lpform"
 DESCRIPTION = "This package includes the documentation for texlive-lpform"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn36918"
+PV = "2023.209.svn36918"
 
-RPM_NAME = "texlive-lpform-doc-2023.201.svn36918-54.1.noarch.rpm"
-RPM_HASH = "0f640f2d323bd69299a22b8becce3957f38906cffeae1540fb0ba4fd91d1709d1709d27c707d667a967b3e60252ad6dbeee7ed9fecd89fe66a00cb769a2f041e"
+RPM_NAME = "texlive-lpform-doc-2023.209.svn36918-55.1.noarch.rpm"
+RPM_HASH = "04679a2e1d50b9395245b71a98f48846dde6c696f25189ed19237503d65ffb108310356a63473fa85663d32bfd134758043c32ec02e195db8fdea0a4a7604320"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lpform-doc"

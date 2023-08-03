@@ -6,10 +6,10 @@ computation of Easter, TUGboat (volume 30, number 1, 2009, \
 pages 88-104)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-garrigues-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "9604e8373dfed1351e6c06d5c12c01ed50ff8187ca91fe546e8b72111be85c2a40c05b4151fa651b7250135e6cd994d12a22b019475d97d32a21b54565c143f0"
+RPM_NAME = "texlive-garrigues-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "26f522efd0c1022414ddc94ffbacd68349e925f2c7dfc90bdee55a69ea42b0f5c8609a441b3888777d228a4542037673873fdf7b5cc231d1203ce72647a9e0b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-garrigues"

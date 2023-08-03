@@ -7,10 +7,10 @@ styledef: selectively input part of a file; and border: borders \
 around boxes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-midnight-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "da8625036124532cf29f12a8e5a93f6b182493b46ac5db9c39275ca70749e82a3000892482e8a1a70bbcded1281e4d89b17da68ad10bbcdac1c37efd95174801"
+RPM_NAME = "texlive-midnight-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "fb3b40cbc3506fe4058b9c79a63a52f9fd0120af35e5780ec2216176f15d087502b2f66ddcbb323be6838979eb0ab3c9404b285658a0ac5f5367c9d7eb7d20fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-border.tex \

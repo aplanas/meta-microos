@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides the language definition file for support \
 of Vietnamese in babel."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4svn39246"
+PV = "2023.209.1.4svn39246"
 
-RPM_NAME = "texlive-babel-vietnamese-2023.201.1.4svn39246-53.1.noarch.rpm"
-RPM_HASH = "baf9724dd2b2154a79ab6513815cbdc87ff087130dcb0bd9b9d3c373b23f61311513a409dd3b937f8926c177f630a639189a965ca964042160fadbf5bbbeb58a"
+RPM_NAME = "texlive-babel-vietnamese-2023.209.1.4svn39246-54.1.noarch.rpm"
+RPM_HASH = "11083b9381f230f1e7ca5fbd5bed537d959257616017ba52ac987f472cc35f628246ef9bae85bfa00445be02336f7965f77f798242d3ebfcfb096e091a92d3f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-vietnamese.ldf \

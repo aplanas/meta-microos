@@ -10,10 +10,10 @@ the numbering scheme is arabic, roman, etc. The package relies \
 on the undolabl package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2fsvn39164"
+PV = "2023.209.1.2fsvn39164"
 
-RPM_NAME = "texlive-pageslts-2023.201.1.2fsvn39164-51.1.noarch.rpm"
-RPM_HASH = "0d01f169288954846d12684fb489c3c06084cdf176d6dd999175792417c99f69e093596961722a78c49d1b97ff0117576008c67dd8f59fad7efeb608635e5379"
+RPM_NAME = "texlive-pageslts-2023.209.1.2fsvn39164-52.1.noarch.rpm"
+RPM_HASH = "0298be904ce49e087914a613d4138dce3830c988d6c3820fe4cb2c716072833507fc37e43044f3b7efa36192a3b0a1e8a86c18a9704d884fabae3ce159ba216f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pageslts.sty \

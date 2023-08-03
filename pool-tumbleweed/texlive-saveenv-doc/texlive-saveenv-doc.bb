@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-saveenv"
 DESCRIPTION = "This package includes the documentation for texlive-saveenv"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.0.1svn65346"
+PV = "2023.209.0.0.0.1svn65346"
 
-RPM_NAME = "texlive-saveenv-doc-2023.201.0.0.0.1svn65346-53.1.noarch.rpm"
-RPM_HASH = "67254ee5adc1a1ce1fd180e6055de53bc90f1ad7f71cbbe90d33011416179bf0dc71f3ca319886483abbd0e72ca81f697bb17f40466faf4f3f7de6240c045bfb"
+RPM_NAME = "texlive-saveenv-doc-2023.209.0.0.0.1svn65346-54.1.noarch.rpm"
+RPM_HASH = "a748d8ff62c672042c1040365e372a91c8959bf015b680c547bc915f9419a7b986431516b27c4fb924a251dcdf17accaef6cd028db12c0dcbc40f9b0ff9f1ec5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-saveenv-doc"

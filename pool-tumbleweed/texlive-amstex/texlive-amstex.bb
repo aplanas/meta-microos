@@ -19,10 +19,10 @@ historical basis of amslatex, which should now be used to \
 prepare submissions for the AMS."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.01svn66186"
+PV = "2023.209.2.01svn66186"
 
-RPM_NAME = "texlive-amstex-2023.201.2.01svn66186-54.1.noarch.rpm"
-RPM_HASH = "2e3597eab91ed970603222eced4ab3ce2c8a3ca78dac9d2df8a7110c8db7f5a6451846281ed52922b0f1933bbfc94da6aa87041fab4c5ae6fd1d1c9fa6c5ffe8"
+RPM_NAME = "texlive-amstex-2023.209.2.01svn66186-55.1.noarch.rpm"
+RPM_HASH = "4f581b2c664fa75f9302a03a61a95b6ceb05b317fff9a64d0d2c081ee24040d53415d92b6727e45f033f4f4ad13c92a0ef7f265fa7157bc51943ac499cad5017"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-amstex \

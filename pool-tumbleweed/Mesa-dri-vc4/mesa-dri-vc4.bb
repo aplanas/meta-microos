@@ -4,10 +4,10 @@ acceleration on the Raspberry Pi to work. It is packaged separately \
 since it is still experimental."
 LICENSE = "MIT"
 
-PV = "23.1.3"
+PV = "23.1.4"
 
-RPM_NAME = "Mesa-dri-vc4-23.1.3-353.1.aarch64.rpm"
-RPM_HASH = "57261c243eec25e5c11d9dc79a96280a513212522cc83988f57797e2e69584f038de425246d3d37fb0b68957915647bf9cabb2d5b9f96d7f1c43806dea42517f"
+RPM_NAME = "Mesa-dri-vc4-23.1.4-354.1.aarch64.rpm"
+RPM_HASH = "98ac751d945d9fccfe686392d6c53f181b67b9392fe32f5a112d3fca91f71332de21c2e628708b1a3a8cff5f753cc92338106a439793131894c9b6ee810b235b"
 
 RPROVIDES:${PN} += "Mesa-dri-vc4 \
 libgallium-dri.so"

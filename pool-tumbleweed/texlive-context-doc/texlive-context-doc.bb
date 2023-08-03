@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-context"
 DESCRIPTION = "This package includes the documentation for texlive-context"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.svn66546"
+PV = "2023.209.svn66546"
 
-RPM_NAME = "texlive-context-doc-2023.204.svn66546-54.1.noarch.rpm"
-RPM_HASH = "9b2b4098beccc63f95c6ce9ea59b5b5dabe237a4bdd72799cfcca30176be0b9032da97f3aeb4a99ad30817cc30080cb168bf19a93c34997acf92f841eae3a13a"
+RPM_NAME = "texlive-context-doc-2023.209.svn66546-55.1.noarch.rpm"
+RPM_HASH = "ce16d8e81efcf002c207c9d5ff2e4fcdafb460469cfcbbbf4d8c131e754beaa4daf3d2260f0ad555e24857f8e5c0dfcfb4da552fb288aabf29c1a09f46e28ee3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-context.1 \

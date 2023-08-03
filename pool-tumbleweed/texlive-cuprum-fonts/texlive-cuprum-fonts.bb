@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-cuprum"
 DESCRIPTION = "The  separated fonts package for texlive-cuprum"
 LICENSE = "OFL-1.1"
 
-PV = "2023.204.svn49909"
+PV = "2023.209.svn49909"
 
-RPM_NAME = "texlive-cuprum-fonts-2023.204.svn49909-54.1.noarch.rpm"
-RPM_HASH = "905c2dcd460d544bcfe846ad3f5d227d7ade44c5eef8dbc27fe1ec5774d9932e04c96a96b12b566f05d55b50482d5ccd3f537bb5f5759964e5b8f617cfd4a89b"
+RPM_NAME = "texlive-cuprum-fonts-2023.209.svn49909-55.1.noarch.rpm"
+RPM_HASH = "b820f2ccda2c9ebea5f7c55311c24a30da2af5505f7eee63d86c29f1af1be74a7d72788ccf9a48b705158ca14bb984dc27f10a0529defacdb5ac28e7fa61d32b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

@@ -24,27 +24,41 @@ to store the identities obtained into its database, and later merge them \
 into unique identities (and maybe affiliate them)."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.7.23"
+PV = "0.12.0"
 
-RPM_NAME = "python311-sortinghat-0.7.23-1.5.noarch.rpm"
-RPM_HASH = "3cbd85d02b50957415b062932fc30395d06671e5ef839d88f4d2054c4568bfa9473ccfdc0485a4a0e46e238075689693f7de4713699d871d2dc8b831fcfc72bb"
+RPM_NAME = "python311-sortinghat-0.12.0-1.1.noarch.rpm"
+RPM_HASH = "0227084ba8e2252469f9c588f3820c368de9f8c2f585c2c0b44b4a36ca2433362f901c44e59d574d5a9e6a1afdf77c50e128db6dd2d5934f9348e5bc0850d3b8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sortinghat \
+RPROVIDES:${PN} += "python3-sortinghat \
+python3.11dist-sortinghat \
 python311-sortinghat \
 python3dist-sortinghat"
 
-RDEPENDS:${PN} += "/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/env \
+/usr/bin/python3.11 \
 /usr/bin/sh \
 python-abi \
+python311-Django \
 python311-Jinja2 \
+python311-PyJWT \
 python311-PyMySQL \
 python311-PyYAML \
 python311-SQLAlchemy \
+python311-click \
+python311-django-cors-headers \
+python311-django-graphql-jwt \
+python311-django-rq \
+python311-django-treebeard \
+python311-graphene \
+python311-graphene-django \
+python311-grimoirelab-toolkit \
+python311-mysqlclient \
 python311-pandas \
 python311-python-dateutil \
 python311-requests \
-python311-urllib3 \
+python311-rq \
+python311-sgqlc \
 update-alternatives"
 
 inherit rpm

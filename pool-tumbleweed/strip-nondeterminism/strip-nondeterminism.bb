@@ -10,10 +10,10 @@ strip-nondeterminism contains the File::StripNondeterminism Perl module, \
 and the strip-nondeterminism command line utility."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.12.0"
+PV = "1.13.1"
 
-RPM_NAME = "strip-nondeterminism-1.12.0-2.3.noarch.rpm"
-RPM_HASH = "1ca0dad38700c4321ef17c223f2b5afbab0b56a8f34603b9dcddc3fa075d5013728dd99fa1ee5e9af503bd56a0549f5ec14c5cd7c76b280cd380b8aca9d80ca2"
+RPM_NAME = "strip-nondeterminism-1.13.1-1.1.noarch.rpm"
+RPM_HASH = "26d0c97f13eada6da93851ab878fd00d928280b73956c613c6e0cc889911dd7d85af3c688498d7e8021e732f912274d7d2b96c78cc482984ca08f0e5ee5f260d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--StripNondeterminism \

@@ -11,10 +11,10 @@ dynamic lengths can be used to allow other document element \
 sizes to be dynamic."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn18784"
+PV = "2023.209.0.0.1svn18784"
 
-RPM_NAME = "texlive-figsize-2023.201.0.0.1svn18784-52.1.noarch.rpm"
-RPM_HASH = "bb1f9590791c0f76b8f08015274bae2f6187eb052ad0fb693bc2385482557568822503adcfdc0366f71b22403c757a51c559c5e02728fdd592011f930a16d603"
+RPM_NAME = "texlive-figsize-2023.209.0.0.1svn18784-53.1.noarch.rpm"
+RPM_HASH = "5f01d8a90e9915f890fef3f5d01133eb4aab8f7b1b7e714e1293e8d044edaed590acffe5659506785e13eb54f1276252eec43752c4e771e05b99247f86893fd4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-figsize.sty \

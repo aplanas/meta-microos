@@ -12,12 +12,12 @@ LICENSE = "Apache-2.0"
 
 PV = "4.7.0"
 
-RPM_NAME = "python3-ironic-inspector-client-4.7.0-1.5.noarch.rpm"
-RPM_HASH = "f9c7940d27e09637bbe2543db7afab1e0df0fe01bff60792c7ec77ac9975d1cd0268158d7dd757554592a590eaa03daae707bd16ce02d74734862cf800107154"
+RPM_NAME = "python3-ironic-inspector-client-4.7.0-1.6.noarch.rpm"
+RPM_HASH = "b7e604146e212e1683852fe77b6ffe92e9f7f90475aec5cdc65bcc2e800864dd80c8282e6803d928efb855d580d311113e4098e5d2e3b6e4302cd95c72ba8919"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ironic-inspector-client \
-python3.10dist-python-ironic-inspector-client \
+python3.11dist-python-ironic-inspector-client \
 python3dist-python-ironic-inspector-client"
 
 RDEPENDS:${PN} += "python-abi \

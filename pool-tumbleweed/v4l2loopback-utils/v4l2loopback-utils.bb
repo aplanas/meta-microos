@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.12.7"
 
-RPM_NAME = "v4l2loopback-utils-0.12.7-1.47.noarch.rpm"
-RPM_HASH = "9443a84861165e1e2b002cdcc1b99049e8acb85a3869a0dc113143cfc97c03f46e475a0117290280d88c0016ccf487916574f6a3a0fbe6b4b5b4dfd197aaa31b"
+RPM_NAME = "v4l2loopback-utils-0.12.7-1.49.noarch.rpm"
+RPM_HASH = "e7c2fb2161b4aaa3fc3a6c06c3667fb1d20e2cdb6fbdfc1fcd18aee45fa340a44d7f2cb0a3419c0f664a702adf38e5a7d65a4505af346cd0a4d26e1959aa80ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "v4l2loopback-utils"

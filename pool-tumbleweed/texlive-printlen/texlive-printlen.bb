@@ -9,10 +9,10 @@ length values will be printed in point units but without any \
 stretch or shrink values."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1asvn19847"
+PV = "2023.209.1.1asvn19847"
 
-RPM_NAME = "texlive-printlen-2023.201.1.1asvn19847-52.1.noarch.rpm"
-RPM_HASH = "6b2a4d3baf8d28ec50efc3eebf7318d5689658a6f25edf46f294d535d8811cc6117814d044453ebd465f3a62d505517c2badb7229a439cc8015ca82f362b9669"
+RPM_NAME = "texlive-printlen-2023.209.1.1asvn19847-53.1.noarch.rpm"
+RPM_HASH = "6359b896a255f0ac83ad5dfced70616da3be5f7fa5641246c4415ecf56e9452a991a8e1f2c01b7e1ca2885907796716dbbd67e5b7f6ee9ac629b379d5f7bc070"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-printlen.sty \

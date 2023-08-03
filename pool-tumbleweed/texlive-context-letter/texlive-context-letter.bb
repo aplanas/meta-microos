@@ -4,10 +4,10 @@ with support covering ConTeXt Mkii and Mkiv. The design of \
 letters may be amended by a wide range of style specifications."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn60787"
+PV = "2023.209.svn60787"
 
-RPM_NAME = "texlive-context-letter-2023.204.svn60787-54.1.noarch.rpm"
-RPM_HASH = "38eeafb0be767478276848fb56cb300797147450e9a2d8de636c23294e1f630e8c2b82a695ee01169cb0a2ae682cd1541491e0b72ad7ee42b9fc69c459f7a877"
+RPM_NAME = "texlive-context-letter-2023.209.svn60787-55.1.noarch.rpm"
+RPM_HASH = "9d1943bf649ca48ea8d501009187f59c1eea5cc94a7904228acd590955e2789758a68a5797fb45cfcfcca4f8ee03f7866a8bcc60ed991539d41172c0aa78f140"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-letter"

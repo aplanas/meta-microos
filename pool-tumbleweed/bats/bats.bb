@@ -10,10 +10,10 @@ Bats is most useful when testing software written in Bash, but you can use it \
 to test any UNIX program."
 LICENSE = "MIT"
 
-PV = "1.9.0"
+PV = "1.10.0"
 
-RPM_NAME = "bats-1.9.0-1.1.noarch.rpm"
-RPM_HASH = "e2ac5057d0a98e0d9922273c0be7c573631561bb9b03e33bfe96f0749d75cfa8882f00869965c189a6d07f5c6d014077ac1d6f7f400d36bf2fa092d06d1ef992"
+RPM_NAME = "bats-1.10.0-1.1.noarch.rpm"
+RPM_HASH = "9f16613d4007fcf2670c4cf8cb0963c0ef2004ca17716da3520d4f72b175736d4d04ce5844e5edec9ebfeccc1cda82c332d3816944a497f8bc475726b981f89c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bats"

@@ -7,10 +7,10 @@ information; facilitate basic internationalisation and \
 localisation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.2svn56246"
+PV = "2023.209.1.1.2svn56246"
 
-RPM_NAME = "texlive-metastr-2023.201.1.1.2svn56246-54.1.noarch.rpm"
-RPM_HASH = "d37dbdc244d6a0d07c46f682e817ec43af7a1b3b24237cb7b407e88e5c79732919ab8f58a728b281cb3ca25a77cea45efc8a20f6f482109198aa6fb49cf718bd"
+RPM_NAME = "texlive-metastr-2023.209.1.1.2svn56246-55.1.noarch.rpm"
+RPM_HASH = "86919d73de1abae992d255abeb15f33c8aa07ca53b6e07cba941690d1a5776b26a9a2358eabe8bed0a55ded34441fce6e46f559eaa9a63460f3d1166965679a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-metastr.sty \

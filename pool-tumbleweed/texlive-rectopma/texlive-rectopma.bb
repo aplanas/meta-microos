@@ -4,10 +4,10 @@ DESCRIPTION = "Saves the arguments of \\author and \\title for reference (after 
 information, in the standard classes and some others.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn19980"
+PV = "2023.209.svn19980"
 
-RPM_NAME = "texlive-rectopma-2023.201.svn19980-53.2.noarch.rpm"
-RPM_HASH = "2021ccc52594ec1d6fc3db659b8146cdc9d6eeb4e7f27f42a24c8a8747c4053e83afad57da4ab298ed10d00c39e9d2db0281d8a4a2ebcc9e30faab5a6be7c5b4"
+RPM_NAME = "texlive-rectopma-2023.209.svn19980-54.1.noarch.rpm"
+RPM_HASH = "6758ced051c3f58b3b1339ac4b1ba0dbc31b9528622c55485b4e4eeabba2bab57470c8294f517112217c71cf264978f596171ad2d3d77eebfce19e825a05eb98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rectopma.sty \

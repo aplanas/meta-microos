@@ -5,10 +5,10 @@ the value of a TeX dimension. For example, \
 \\baselineskip rounded to the nearest tenth of a point."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn28918"
+PV = "2023.209.1.2svn28918"
 
-RPM_NAME = "texlive-showdim-2023.201.1.2svn28918-53.1.noarch.rpm"
-RPM_HASH = "f06b3642b78a050ff1d3bb923895b020541ed5117853a4db3a880a36d5f106a53e9e9754b7936f05a8aea32e31a94f86deeda49bda078e07dd168746c0dcb22e"
+RPM_NAME = "texlive-showdim-2023.209.1.2svn28918-54.1.noarch.rpm"
+RPM_HASH = "ff54cfd61298268c8276c4e8297ea603a97b750b5707609d79e1a287b2374479de24015bc6b823697bcbe976ec4675816d0c85ed4f66fdcde84ff2439a2246f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-showdim.sty \

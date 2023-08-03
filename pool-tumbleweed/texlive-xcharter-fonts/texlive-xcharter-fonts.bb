@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-xcharter"
 DESCRIPTION = "The  separated fonts package for texlive-xcharter"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.24svn63057"
+PV = "2023.209.1.24svn63057"
 
-RPM_NAME = "texlive-xcharter-fonts-2023.201.1.24svn63057-52.2.noarch.rpm"
-RPM_HASH = "4092154a55c897ccd2672fc3cb4675224787bc43f3df728a4ba0758b06f88b1d478e694488a436046e4696b402ea6c8a8d76f06d329c15df9b964fb03db972e2"
+RPM_NAME = "texlive-xcharter-fonts-2023.209.1.24svn63057-53.1.noarch.rpm"
+RPM_HASH = "fe48e13d9f1796b3d2bbfa961f7b37345446c14c7c3eb7de0c15d85e62f61142b059e183b562eb459d6f3757690200e14dad81a2d4617f491e62ae08bfe588ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-xcharter-fonts \

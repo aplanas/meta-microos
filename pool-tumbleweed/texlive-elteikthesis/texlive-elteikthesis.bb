@@ -5,10 +5,10 @@ Hungary). The template supports producing both Hungarian and \
 English theses."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.3svn63186"
+PV = "2023.209.2.3svn63186"
 
-RPM_NAME = "texlive-elteikthesis-2023.201.2.3svn63186-53.2.noarch.rpm"
-RPM_HASH = "a7b1f17fa73f53d7825d49a2bcb4db313fa19985c8be5b497bb6887886bfc517e4e1ca916667e11591d2e6bd030d975c6834fe9b56f2b641c4141c3083ba2c34"
+RPM_NAME = "texlive-elteikthesis-2023.209.2.3svn63186-54.1.noarch.rpm"
+RPM_HASH = "ddb83e66408c961d6e654bc2f1245fc56f021c033e05bf1c8603e10900af78fc1497d4497512b3d4dc0f4e7200d9224a325ea12f0dd59a1b5343e9d814221afb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-elteikthesis.cls \

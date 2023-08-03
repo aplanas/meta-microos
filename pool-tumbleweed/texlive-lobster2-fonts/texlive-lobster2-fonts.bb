@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-lobster2"
 DESCRIPTION = "The  separated fonts package for texlive-lobster2"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64442"
+PV = "2023.209.svn64442"
 
-RPM_NAME = "texlive-lobster2-fonts-2023.201.svn64442-54.1.noarch.rpm"
-RPM_HASH = "ed76a4b719ba772535ca23fbbfab6014a7dee0d024e0b9aba6daab64dc580d6d8f22dcc98448f8c36e81cd05c5f0af1963d77c41d9552b71317c1041ec543e46"
+RPM_NAME = "texlive-lobster2-fonts-2023.209.svn64442-55.1.noarch.rpm"
+RPM_HASH = "81bcb21cf448a22b46066670ce41984265f29636f2065ba625045b1aa6590017be28a4e972a7e5dc7cc8061339ca93dc3c9533c911d60e93b8cb7349f15c5b60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-lobster2-fonts \

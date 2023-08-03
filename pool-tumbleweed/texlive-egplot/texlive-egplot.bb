@@ -4,10 +4,10 @@ file, so that a document's figures are maintained in parallel \
 with the document source itself."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.02asvn20617"
+PV = "2023.209.1.02asvn20617"
 
-RPM_NAME = "texlive-egplot-2023.201.1.02asvn20617-53.2.noarch.rpm"
-RPM_HASH = "3b72a5c03f885ad305be8325c3bcbd3d7672a5243edc8fa4d4466c5f9d41b1ec335e44a928fe1cb63bcbaa596d615b5392fc18355d0f6b06f564643c226d1b68"
+RPM_NAME = "texlive-egplot-2023.209.1.02asvn20617-54.1.noarch.rpm"
+RPM_HASH = "cbebd11c5fb439298bff7ca93cc56707ca776eabb60ffea7e3656b957435b449156c5ab4e68b1284fd33ee362f9a9e914d801298f425aadce4e0e60b25678e2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-egplot.sty \

@@ -9,10 +9,10 @@ overridden. The package uses the PGF/TikZ package, and the \
 geometry package to control page size."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.2svn58723"
+PV = "2023.209.1.0.2svn58723"
 
-RPM_NAME = "texlive-gridpapers-2023.201.1.0.2svn58723-53.2.noarch.rpm"
-RPM_HASH = "e34b283f14d67454cf5ccb90cb5c0a8903c3accaeb591cf42ea08b52b0a67b7b90c2a24fbb3581e84c58f08a8b2ebb623698ff8702e688486d462d4841442c50"
+RPM_NAME = "texlive-gridpapers-2023.209.1.0.2svn58723-54.1.noarch.rpm"
+RPM_HASH = "49bdb0740de32ec611740c4ff9d746e66c09ef0cd1abf9108e5b11973d9bbb9a5666acc6f434f6fd5fad03fe1571ef53591bcf4a2c39250967c5befa3784c4d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gridpapers.sty \

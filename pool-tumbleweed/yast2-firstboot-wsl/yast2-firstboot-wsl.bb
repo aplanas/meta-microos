@@ -2,10 +2,10 @@ SUMMARY = "YaST2 firstboot settings for WSL images"
 DESCRIPTION = "YaST2 firstboot settings for WSL images"
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.0"
+PV = "4.6.1"
 
-RPM_NAME = "yast2-firstboot-wsl-4.6.0-1.1.noarch.rpm"
-RPM_HASH = "092fbbe9e6e902a083e7382d86435f8ff096b924eb9cd02efb6faf591be3af89e7744e9c67a888c7d43a6cf84160a739c7efe700f1180d9da1b56c92c2207adc"
+RPM_NAME = "yast2-firstboot-wsl-4.6.1-1.1.noarch.rpm"
+RPM_HASH = "222b21ad01e6d204b7bae7be0b5e910d89231824306479364655313a7dbb4618d03458352f43b5ae17032fb065c86bab1f24ef44f1c0f465a9a7b3d7cc6b0d8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-firstboot-wsl"

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-ebgaramond"
 DESCRIPTION = "The  separated fonts package for texlive-ebgaramond"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64343"
+PV = "2023.209.svn64343"
 
-RPM_NAME = "texlive-ebgaramond-fonts-2023.201.svn64343-53.2.noarch.rpm"
-RPM_HASH = "b410e7e2106530aeeb1795b748edb36175a5f83b4affed5057f853898c08df4adcecbd72c41bf82cde1189028fb0f7b2b5ed55aa498bd06a25e30a6ba19b80ff"
+RPM_NAME = "texlive-ebgaramond-fonts-2023.209.svn64343-54.1.noarch.rpm"
+RPM_HASH = "9c331883deff29e4e10b6d6657719a9e163ffff2b807d7b377a0a51ac8910f38601e53126c7896553c9b5d50077da5cb8e8d5a16b423096ef26576b0e5c134ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-ebgaramond-fonts \

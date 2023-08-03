@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-frame"
 DESCRIPTION = "This package includes the documentation for texlive-frame"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn18312"
+PV = "2023.209.1.0svn18312"
 
-RPM_NAME = "texlive-frame-doc-2023.201.1.0svn18312-52.1.noarch.rpm"
-RPM_HASH = "cbc2121dbf4b2094529452a7f04a7ae8847c6edc92254117554c89445b716688f8e1d1b3cdcc97125c69ae82a995090d91e5f7667611e1b8ccf9059e9b66a008"
+RPM_NAME = "texlive-frame-doc-2023.209.1.0svn18312-53.1.noarch.rpm"
+RPM_HASH = "4d1837587e86e4baf3d9d669d4b737a6a261ad7d49c153f5333eb0c5f1f05ffaffef1ceb7904c47b9f7b31c39f13229229b9bfaea2f1daaa70198b7b91824c24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-frame-doc"

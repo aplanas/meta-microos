@@ -3,10 +3,10 @@ DESCRIPTION = "The class can be used to typeset any kind of book (originally \
 designed for use in the humanities)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.2.0svn60991"
+PV = "2023.209.3.2.0svn60991"
 
-RPM_NAME = "texlive-suftesi-2023.201.3.2.0svn60991-57.1.noarch.rpm"
-RPM_HASH = "b8f2001a86382d993a74045dd2a9024d1b7243932d4d560f0f0bab98ddd4715874b3cff9f51d8a6740e1c5dcc168eb744f3e8bec4aa3ed9392bc6a74da19dff8"
+RPM_NAME = "texlive-suftesi-2023.209.3.2.0svn60991-58.1.noarch.rpm"
+RPM_HASH = "99f9eeaa12bcbd5880c9cfe2edeb2240ab3c587f66db16667e3e53c43bbf405ced2468bb7af100e8337923093bb8324b92f9427036537b246260c52971810cef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-suftesi.cls \

@@ -5,10 +5,10 @@ templates, and without breaking the standard way of doing things in \
 Django."
 LICENSE = "MIT"
 
-PV = "1.14.0"
+PV = "2.0"
 
-RPM_NAME = "python310-django-crispy-forms-1.14.0-1.5.noarch.rpm"
-RPM_HASH = "07ea73712803bb6fb26c839354077d593aad2ae988270e4a50f38306f0e9640397be203fa6f69ca10e7bdb63feff5eda02858f36025782a464dd7b300876b28e"
+RPM_NAME = "python310-django-crispy-forms-2.0-1.1.noarch.rpm"
+RPM_HASH = "ec958aa472a785e8e3e7e85e096fa4dfb4b228061c00aeb85cdbcc3fb13a7c3b5c4b4e7117ff3610b5254f1c3196ba75f36ebbd1290ad6befe660c61a2742243"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-django-crispy-forms \

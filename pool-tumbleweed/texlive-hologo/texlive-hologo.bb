@@ -5,10 +5,10 @@ is bookmark-enabled, so that every logo becomes available in \
 bookmarks without further work."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.15svn61719"
+PV = "2023.209.1.15svn61719"
 
-RPM_NAME = "texlive-hologo-2023.201.1.15svn61719-53.2.noarch.rpm"
-RPM_HASH = "35c8132ec2adf8da65f168bc4fdf02f2f45b03e700613c9c5953dde0608cc50ade703130e6744eead4927f8332dfa2b7d2ecbbaa1c6cc46676321cc861ceff6c"
+RPM_NAME = "texlive-hologo-2023.209.1.15svn61719-54.1.noarch.rpm"
+RPM_HASH = "6ce80f50e935937fb144a374c9ef3cc4549a6aefc90fe6386ef081fac939254d6e339e6749871f30fb522081f08a3e8b554762b7a749dc1295df95b04fdea677"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hologo.sty \

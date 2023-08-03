@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-bookman"
 DESCRIPTION = "The  separated fonts package for texlive-bookman"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn61719"
+PV = "2023.209.svn61719"
 
-RPM_NAME = "texlive-bookman-fonts-2023.201.svn61719-52.1.noarch.rpm"
-RPM_HASH = "dd1da9b50f228bd15a55a204f83dce6e27b9b025545928908280956e6189e4c957e2de9b0b54779e371707b0a1348aaef1ba4b7458ef5f42e421d8d2208c5573"
+RPM_NAME = "texlive-bookman-fonts-2023.209.svn61719-53.1.noarch.rpm"
+RPM_HASH = "e2a2a31197743338ce13e92d029caa197f2b0d80c264d4c89757eaaa5e8d4a787893dfd293be90c378ddfed56774a5e69ea7a79239c631e374e76ee76f6ea88e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

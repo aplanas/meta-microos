@@ -21,10 +21,10 @@ reporting (as well as to write code which does not itself depend on the \
 code required to perform that reporting)."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.09"
+PV = "0.100.0"
 
-RPM_NAME = "perl-Metrics-Any-0.09-1.3.noarch.rpm"
-RPM_HASH = "7e8ec2f47f950f567e192aab77483925cd0ad88c289182057d7dc5c2f09baf013526b3753018b9d36b6bf3cb45b65ff7c214610c6ef79318b63ea0b269674a61"
+RPM_NAME = "perl-Metrics-Any-0.100.0-1.1.noarch.rpm"
+RPM_HASH = "c957bda92a7b0d57802d4e6a247306c7f735187d3cb4886fb19e0fa9c8d5fdde0bf913776142e762c0b2a1876379753fb6788239f02998a36b6eadf52ccc0754"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Metrics--Any \

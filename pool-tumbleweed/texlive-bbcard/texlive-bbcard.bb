@@ -3,10 +3,10 @@ DESCRIPTION = "Three jiffy packages for creating cards of various sorts with \
 MetaPost."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn19440"
+PV = "2023.209.svn19440"
 
-RPM_NAME = "texlive-bbcard-2023.201.svn19440-53.1.noarch.rpm"
-RPM_HASH = "20e1cab1949c8d7606db78c348fdecf92629b1145889871599efeca193d05482155699411f1f4ec7359016e708df013b0579003a897289ffd59108ac78bcc72e"
+RPM_NAME = "texlive-bbcard-2023.209.svn19440-54.1.noarch.rpm"
+RPM_HASH = "e772c6cd28b630504ed4a74ef25c7801e41a6890b953c13d4ec8e610ba8d5abb54165c87fa35bb9c762054391de43318b0092d19cc96f4431e1ef8eb3b658a4e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bbcard"

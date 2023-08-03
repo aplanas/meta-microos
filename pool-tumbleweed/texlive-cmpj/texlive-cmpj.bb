@@ -5,10 +5,10 @@ Physics journal published by the Institute for Condensed Matter \
 Physics of the National Academy of Sciences of Ukraine."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.03svn58506"
+PV = "2023.209.3.03svn58506"
 
-RPM_NAME = "texlive-cmpj-2023.201.3.03svn58506-53.1.noarch.rpm"
-RPM_HASH = "85373acd29f82377c07ef2c1188d926ae8b1716a79c4cb9da73a83673f544388eb0b67e6c09a32284db0362f137169ea1eaa07fdfe114ba82830ced99dfa43e8"
+RPM_NAME = "texlive-cmpj-2023.209.3.03svn58506-54.1.noarch.rpm"
+RPM_HASH = "f38ccb266536ebca9190fd1497707e247dc0aca48f7d2b4a37828041e07a0c089cb346d4bec2097848924fb06a75f777b6482ba30e3f15ebf0a46ea6be496f8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmpj.sty \

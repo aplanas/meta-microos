@@ -12,10 +12,10 @@ modified so that it is now easy to transcribe Latin text to \
 Cyrillic."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.4.0svn54706"
+PV = "2023.209.4.0svn54706"
 
-RPM_NAME = "texlive-cmsrb-2023.201.4.0svn54706-53.1.noarch.rpm"
-RPM_HASH = "d84ec92b14b6f434ca5760d0e65b9c8f28979578e96240ef958f6cdaf7cd8e1e4738b24154a68d6a21d9aa9b9d33f08e8a33a0aa4f0e6ce938e6ec248e853c52"
+RPM_NAME = "texlive-cmsrb-2023.209.4.0svn54706-54.1.noarch.rpm"
+RPM_HASH = "151d3d89f52966c21c548e48f9a6b76b1cf074dba97729d300c230c873e8d1a09738c103974c3b33dd9eff5860ecb457da630a0a0ce853631f44e9b6f9a721fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmsrb.map \

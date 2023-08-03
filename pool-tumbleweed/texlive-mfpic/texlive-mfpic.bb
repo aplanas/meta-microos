@@ -10,10 +10,10 @@ the ability to use MetaPost here means that the package works \
 equally well in LaTeX and pdfLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.10svn28444"
+PV = "2023.209.1.10svn28444"
 
-RPM_NAME = "texlive-mfpic-2023.201.1.10svn28444-54.1.noarch.rpm"
-RPM_HASH = "fff6e0982fae66f61a4a86f5355b386ff2d6befa18d2bfe8af02797b9db7de97c2ffdca30acd52fc23b37187fa32af0d8eaaf4b06658e24b40b31acce530f13c"
+RPM_NAME = "texlive-mfpic-2023.209.1.10svn28444-55.1.noarch.rpm"
+RPM_HASH = "67073921c0586faa50a761dd0d062b62bcbb7caf7d00211094aee2bcb6423ac1e7134d96e3673da850f14c03dc2cb39b5657b35a7d05e9c8e5c520d88d70da8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mfpic.sty \

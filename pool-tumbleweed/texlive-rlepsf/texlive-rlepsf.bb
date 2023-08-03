@@ -9,10 +9,10 @@ facilities of the labelfig package in place of using \
 \\extralabel."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn19082"
+PV = "2023.209.svn19082"
 
-RPM_NAME = "texlive-rlepsf-2023.201.svn19082-53.2.noarch.rpm"
-RPM_HASH = "14fc58d906ea98887d47a9cec55d61be065e31db5600717174908102c5d50db46102e240f60346297081cec28328533bcc99e303b52340d805e3add4485800cc"
+RPM_NAME = "texlive-rlepsf-2023.209.svn19082-54.1.noarch.rpm"
+RPM_HASH = "d8c53167abfd0331f2abf1e49c09f42ec0ee35b1f842d40f62cd53c8e3074636283804a3568a19dafa96ce7a433de6808c55d5c335a5d2c6589d7ceaead52780"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rlepsf.tex \

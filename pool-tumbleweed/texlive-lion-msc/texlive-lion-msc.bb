@@ -9,10 +9,10 @@ supervisor). Students are free to change the layout of the text \
 but should leave the title page as it is."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.30svn55415"
+PV = "2023.209.0.0.30svn55415"
 
-RPM_NAME = "texlive-lion-msc-2023.201.0.0.30svn55415-54.1.noarch.rpm"
-RPM_HASH = "f1e0ec585eb5e6eaaecfae78e27c97e788a9a99353f164cb6e60d07b411fb56084ee03ae48fcd3fa05d2e038f4550dc06e8463e24aa5d1a05724f7f9a489ad78"
+RPM_NAME = "texlive-lion-msc-2023.209.0.0.30svn55415-55.1.noarch.rpm"
+RPM_HASH = "e773d8b7cbc278efed5e7d4ec2e698ba29bc56c64b895ee05ad7ba228db98528ba612da1bbb2eab5c4757ad86c1ff6ce0280a6c80deac39b91508418deed4136"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lion-msc.cls \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.7.6"
 
-RPM_NAME = "appmenu-registrar-0.7.6-1.6.aarch64.rpm"
-RPM_HASH = "41dae89f177c808cce5253ea134b6a55c5ec0ec3835c3a239ad1203069e2da1160c796a3fbc6b433fe4a258f3193e910a36f4e4b3ad6d7e7524b894065f468b4"
+RPM_NAME = "appmenu-registrar-0.7.6-2.1.aarch64.rpm"
+RPM_HASH = "37bb81af4cc46dc4d28d2cba1c987bae0018aaa5cfdbd9470c9388dfe296e2e8477323a2540ef669b9836bc987533b65b61bc1f069503f8ed9130e5e46003ce5"
 
 RPROVIDES:${PN} += "appmenu-registrar"
 

@@ -8,10 +8,10 @@ aspect ratio. Other aspect ratios for widescreen monitors \
 (16:9, 16:10) may be selected."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.1svn60209"
+PV = "2023.209.1.0.1svn60209"
 
-RPM_NAME = "texlive-elpres-2023.201.1.0.1svn60209-53.2.noarch.rpm"
-RPM_HASH = "2e5278ee333d455e6e11e4aa9ed83110ef3c2ca5d9f59e9d043be2cfc54acc961714671e9379f2c65d69eb60e598d2d9350c93c234939b1aefdfb6b3c892cd2c"
+RPM_NAME = "texlive-elpres-2023.209.1.0.1svn60209-54.1.noarch.rpm"
+RPM_HASH = "21d632fa395dc75bf8c251c5bc97947c37e59b5b6d1486ce741af2fb8abeeb64738a144edda33f431c71629458ab9bd917a3f30fa6291e518a9f335dc445002c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-elpres.cls \

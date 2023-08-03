@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-beamertheme-simpleplus"
 DESCRIPTION = "This package includes the documentation for texlive-beamertheme-simpleplus"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.0svn64770"
+PV = "2023.209.1.0svn64770"
 
-RPM_NAME = "texlive-beamertheme-simpleplus-doc-2023.201.1.0svn64770-53.1.noarch.rpm"
-RPM_HASH = "18e6de409a1b7858292b4c2776edb1287fe92bf72c9172457116257f2e519abb5fa4ee1ec55eda1f4dfe03e835df38d595254482a8f12d4102f823456fe5d305"
+RPM_NAME = "texlive-beamertheme-simpleplus-doc-2023.209.1.0svn64770-54.1.noarch.rpm"
+RPM_HASH = "ee69050bdaca4944ebca27a80771010901baeee8e67789035c011c6d7d1f68dcd34c25af3bde1cb9b649db434389c51c6de035dd11dfe93010884e873e203bab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamertheme-simpleplus-doc"

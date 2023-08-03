@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-garrigues"
 DESCRIPTION = "This package includes the documentation for texlive-garrigues"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-garrigues-doc-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "c1074aeb0590529b2848639d6cb4796935cf1bd4e80a15cb7f4a4828ac769ea189dcd029a27306fef49fb0a9584df6c338f28481fe025adf5d4eca5bf30a2d5c"
+RPM_NAME = "texlive-garrigues-doc-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "b564b6c4d2aac1b3e3de5c0ce06155bf7eb18f445eb913884a4702e8007edd2defa6f5b1590351bca02ea6a063f20fead17b6d5ea33ec104cb15581adf4bea1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-garrigues-doc"

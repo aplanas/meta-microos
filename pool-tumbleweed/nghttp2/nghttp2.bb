@@ -8,10 +8,10 @@ have also developed load test and benchmarking tool for HTTP/2. \
 HPACK encoder and decoder are available as public API."
 LICENSE = "MIT"
 
-PV = "1.54.0"
+PV = "1.55.1"
 
-RPM_NAME = "nghttp2-1.54.0-1.1.aarch64.rpm"
-RPM_HASH = "cbff23a22b03087ddea6dd1df09d6a2087e334d005e2b5a15460c916b0e517c9b7b603939f1a453c466c7da741716c9abcd4709c45c6c5ce6a23ddf61691f439"
+RPM_NAME = "nghttp2-1.55.1-1.1.aarch64.rpm"
+RPM_HASH = "8c3a9a74849067433944c36f223a214478c79136930f1c5ffe0c0038a3314e623bbc4dd59ba1915fe1cda421726a2e25fdade66026d89d5db0df9a34755d96fb"
 
 RPROVIDES:${PN} += "nghttp2"
 

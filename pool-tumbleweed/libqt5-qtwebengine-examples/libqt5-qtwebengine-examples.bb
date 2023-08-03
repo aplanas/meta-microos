@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-only | GPL-2.0-only | GPL-3.0-only"
 
 PV = "5.15.14"
 
-RPM_NAME = "libqt5-qtwebengine-examples-5.15.14-1.4.aarch64.rpm"
-RPM_HASH = "7175b2ae1ad52a7c0faffa6a6cc89a35052876792f177ef35478690c8c96568fd96be8c02efc6e274742183faa18f5fa959ac77fb1aaea501eab3be593fc2772"
+RPM_NAME = "libqt5-qtwebengine-examples-5.15.14-2.1.aarch64.rpm"
+RPM_HASH = "f63cfc78ad92f86c4c9ee92e662fa383ebf5b726c96caf5f2bd78a80686367a8b9ecb3026b264d8bbf9e8d008aad46fc2616d22b3873fc6984071d6603d18152"
 
 RPROVIDES:${PN} += "libqt5-qtwebengine-examples"
 

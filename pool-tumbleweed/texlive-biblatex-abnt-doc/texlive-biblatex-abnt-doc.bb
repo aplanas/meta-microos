@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-biblatex-abnt"
 DESCRIPTION = "This package includes the documentation for texlive-biblatex-abnt"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.4svn49179"
+PV = "2023.209.3.4svn49179"
 
-RPM_NAME = "texlive-biblatex-abnt-doc-2023.201.3.4svn49179-53.1.noarch.rpm"
-RPM_HASH = "356835270a66322142ecb95718050259e9d5746df764882ce276d5cde355628329f38a59c1c81178764c38eb8431911db4253b4b533bc96fc9127b78b7f12fdc"
+RPM_NAME = "texlive-biblatex-abnt-doc-2023.209.3.4svn49179-54.1.noarch.rpm"
+RPM_HASH = "fcac8dbe25b4af84e7bcef125a5dc7131bb5e864e5b43b60fc4f67f40f8608b148a995508586bcf78b33de3edefd69b29a66339472488c2b02b13d4e80501c84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-biblatex-abnt-doc-pt-BR \

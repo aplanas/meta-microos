@@ -4,10 +4,10 @@ family of fonts, in OpenType format. For use with LuaLaTeX or \
 XeLaTeX, support is available from the unicode-math package."
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.201.1.959svn36915"
+PV = "2023.209.1.959svn36915"
 
-RPM_NAME = "texlive-lm-math-2023.201.1.959svn36915-54.1.noarch.rpm"
-RPM_HASH = "0838f9f0200cdf505d763f9348bb72eb103abe75a7ed1cfb6605b070e7c1671dbe2dc80aa9264b502b822175244b587504681d3a8356cdb0a8634775097f464a"
+RPM_NAME = "texlive-lm-math-2023.209.1.959svn36915-55.1.noarch.rpm"
+RPM_HASH = "7de6baa1f07ac8a21a426917176294744351fdc6138d9301c26042d569c5420d94056d17cfc714f408b8a73bcc06ad24a157a470b46a2ea58b01010ef8a7075d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lm-math"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-interlingua"
 DESCRIPTION = "This package includes the documentation for texlive-babel-interlingua"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6svn30276"
+PV = "2023.209.1.6svn30276"
 
-RPM_NAME = "texlive-babel-interlingua-doc-2023.201.1.6svn30276-53.1.noarch.rpm"
-RPM_HASH = "a90e873cf0b10008864c99585ce80bda645294c253a415ee9cd50cec811020c20cd7a200890ae2e3050654352ce7d6252c75a5eb44244cd1e6759348a15d8461"
+RPM_NAME = "texlive-babel-interlingua-doc-2023.209.1.6svn30276-54.1.noarch.rpm"
+RPM_HASH = "e3c7ecd4b68ee54279288eed857973b97a2f32e3f43a98fa892e03a4620458273367177a6cd54f2d2c50cebf1558991e38552af1394f85fe87b8c9298027ecc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-interlingua-doc"

@@ -10,10 +10,10 @@ sparklines cannot appear in a dvi file. The sparklines package \
 uses pgf, and does not work with pictex."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.7svn42821"
+PV = "2023.209.1.7svn42821"
 
-RPM_NAME = "texlive-sparklines-2023.201.1.7svn42821-57.1.noarch.rpm"
-RPM_HASH = "d616ca7b77eed2892d47b04e95ad51d23f27b6fc9de1bdc6b827e888672197e661a1f8bfdf29d9c92119e9964ba38825e1acdf5a70f208713b1b3f8729ccd612"
+RPM_NAME = "texlive-sparklines-2023.209.1.7svn42821-58.1.noarch.rpm"
+RPM_HASH = "fa333e5d6ef1a986abb3cd985afc435a2bf8f3b742496df22a4d7d647024af251c3d60a027f58608c506c2d2508a4c50c1c406157ed8135a96fe52aec5000f93"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sparklines.sty \

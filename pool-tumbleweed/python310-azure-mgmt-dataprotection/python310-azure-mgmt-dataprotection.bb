@@ -4,10 +4,10 @@ DESCRIPTION = "This is the Microsoft Azure Dataprotection Management Client Libr
 This package has been tested with Python 2.7, 3.6+."
 LICENSE = "MIT"
 
-PV = "1.1.0"
+PV = "1.2.0"
 
-RPM_NAME = "python310-azure-mgmt-dataprotection-1.1.0-1.1.noarch.rpm"
-RPM_HASH = "3dc19efa006bc7ceb2e84dbe6d6ddaeacdd395d0313ff5fc1e80ddd73348750ca02b702af15b500b1ad14e55d4c8291b2526b6c1299865cc49fab7defeedf0e0"
+RPM_NAME = "python310-azure-mgmt-dataprotection-1.2.0-1.1.noarch.rpm"
+RPM_HASH = "88e2769d9bb23c9d9cb754cc6a9115f0fe2e59742a6f6ebb08e52a67f8da88fca4dda32f36e33f868bcd961342fbf53b424ff28edb6f79c9fdee914f0a537ed9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-azure-mgmt-dataprotection \

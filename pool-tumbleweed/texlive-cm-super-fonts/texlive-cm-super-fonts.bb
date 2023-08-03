@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-cm-super"
 DESCRIPTION = "The  separated fonts package for texlive-cm-super"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-cm-super-fonts-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "ffec367e85250a6628d7a9aee97bf664de20b5f53ea20f8d4df28384c866523da93eae5bcf4fb16ff1855b94e390682baeb28787cb8b6648a88090dffe55c9ba"
+RPM_NAME = "texlive-cm-super-fonts-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "111e7bdcfb74b41e38fd876392347a6945c3657e33f4cf864f442f892944f88c6172f0cc51b2d0962d65ffff1bd28792f85b5621dc4e0987762ca7734158d18e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

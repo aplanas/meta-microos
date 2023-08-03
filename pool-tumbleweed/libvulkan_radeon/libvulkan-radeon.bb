@@ -2,10 +2,10 @@ SUMMARY = "Mesa vulkan driver for AMD GPU"
 DESCRIPTION = "This package contains the Vulkan parts for Mesa."
 LICENSE = "MIT"
 
-PV = "23.1.3"
+PV = "23.1.4"
 
-RPM_NAME = "libvulkan_radeon-23.1.3-353.1.aarch64.rpm"
-RPM_HASH = "c405bc27e6b7295fc22d84d6bb601e1ac57f2e71b2c70aef1c880a6070971ef9539d3c97488247fd65dc28d94ce6f7fd64485e41369afc73acfee84da21e8a68"
+RPM_NAME = "libvulkan_radeon-23.1.4-354.1.aarch64.rpm"
+RPM_HASH = "0b744eca6cc3ed3221fa64286991219be006ea2d551acd0ec52d31b0247272303493fa670de46e12f5b5918e35cfb5b27fdb1024fe38c58854d49516cf4a3ce8"
 
 RPROVIDES:${PN} += "libvulkan-radeon \
 libvulkan-radeon.so"

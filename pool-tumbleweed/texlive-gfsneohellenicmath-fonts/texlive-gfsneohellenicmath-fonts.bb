@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-gfsneohellenicmath"
 DESCRIPTION = "The  separated fonts package for texlive-gfsneohellenicmath"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.02svn63928"
+PV = "2023.209.1.02svn63928"
 
-RPM_NAME = "texlive-gfsneohellenicmath-fonts-2023.201.1.02svn63928-52.1.noarch.rpm"
-RPM_HASH = "c95e9eae558d3705dc73f2d4cc3e9de7cb0cd5c53c252ed6f88c2363adffbfebca52fe05b7b3dfba743582fad88c74ffa082ac89128b12897134a7c0df2885b0"
+RPM_NAME = "texlive-gfsneohellenicmath-fonts-2023.209.1.02svn63928-53.1.noarch.rpm"
+RPM_HASH = "e18db2c2c3a379bf605171ad39ae89dace72d260a51a4f02695132b213bc13decd88fdab5beba9f70039e1902270e3cf560c4565fac7ba547be7ce4de8704bf5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

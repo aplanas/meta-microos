@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-heuristica"
 DESCRIPTION = "The  separated fonts package for texlive-heuristica"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.092svn51362"
+PV = "2023.209.1.092svn51362"
 
-RPM_NAME = "texlive-heuristica-fonts-2023.201.1.092svn51362-53.2.noarch.rpm"
-RPM_HASH = "1f8add937eefaef57779567fe0baf43742048e853a57d7b541f6199baba9c2144c646850f8d7d1c4a3bf1ef27db82bd9408251593a2719a4aa45bb82e1dc8f8c"
+RPM_NAME = "texlive-heuristica-fonts-2023.209.1.092svn51362-54.1.noarch.rpm"
+RPM_HASH = "240d1b0688628de8b3151c96e574483d85a6337481c78428e036d0c26d8aec454d9181814567da998869d86ff4aa22c7d31d2895959d2076631574c14cff796c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-heuristica-fonts \

@@ -3,10 +3,10 @@ DESCRIPTION = "Experimental snapcraft support: This parses snapcraft.yaml files 
 resources and packages them."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.10.39"
+PV = "0.10.41"
 
-RPM_NAME = "obs-service-snapcraft-0.10.39-1.1.noarch.rpm"
-RPM_HASH = "d1fd68408b810f06bcb25ae01fdf69cef1012fa114c145a56823b622432435545c8dd86ee3b1ed03283442c904f3aa8f1c48fcd266c51a9990dbdc53bcab8301"
+RPM_NAME = "obs-service-snapcraft-0.10.41-1.1.noarch.rpm"
+RPM_HASH = "603151a1f70dae7a9f51d53dba62d84ab4e6deeacf506fb55bdf6b7ce33466fa38542142f29899c4ab332abaae5fb25d72d82d8ddbdccf25a83a7ce55b206565"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-snapcraft \

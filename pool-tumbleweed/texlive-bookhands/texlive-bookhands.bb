@@ -13,10 +13,10 @@ Artificial Uncial (6th-10th centuries); and Insular Majuscule \
 (6th-9th centuries)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn46480"
+PV = "2023.209.svn46480"
 
-RPM_NAME = "texlive-bookhands-2023.201.svn46480-52.1.noarch.rpm"
-RPM_HASH = "497fef8f397ffe8178ae84f53d82ce68a1a26c34f7256a884a8ee9e74e45a4da96d0108aa4dc97d602792df3958a7fe88e30d335d9a5fbf718e1e614ff14b7de"
+RPM_NAME = "texlive-bookhands-2023.209.svn46480-53.1.noarch.rpm"
+RPM_HASH = "9c85bff7845d9085012f57453b0db497b44a40ae50d22ae95081b30a12d570b12d4b9637b17a9dcb0e564f1b4a9a3731055a4d1f8363ece2895932bf70142b57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-allcmin.sty \

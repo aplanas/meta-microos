@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fetamont"
 DESCRIPTION = "This package includes the documentation for texlive-fetamont"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn43812"
+PV = "2023.209.svn43812"
 
-RPM_NAME = "texlive-fetamont-doc-2023.201.svn43812-52.1.noarch.rpm"
-RPM_HASH = "e6843630f7629725bef7926103794f1744fcf66a61129d67e316a4f262cad3de41c7a51f2c2e029f3139f31e1f40e1b767928ed583d8ebf835ccaab2da81548e"
+RPM_NAME = "texlive-fetamont-doc-2023.209.svn43812-53.1.noarch.rpm"
+RPM_HASH = "4e442940f1c82b49fb46b508ca075a2b6b3a738aeac543c00b541503bd496833a231aaed2bb4902ca5a618319037d127cbf2ca21aee226e9d815822244f4e5ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fetamont-doc"

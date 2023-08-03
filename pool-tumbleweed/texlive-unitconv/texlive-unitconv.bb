@@ -6,10 +6,10 @@ notation for large values. The package only works with \
 LuaLaTeX!"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.01svn55060"
+PV = "2023.209.0.0.01svn55060"
 
-RPM_NAME = "texlive-unitconv-2023.201.0.0.01svn55060-53.1.noarch.rpm"
-RPM_HASH = "df3c101e41d90c1a646dad66e1170a55da3172284ffe075b6aedce853e56aeea61dcaabd20512ec34abb6237be0a84cfed2db2310b052f2dcc13a858a57e9dfd"
+RPM_NAME = "texlive-unitconv-2023.209.0.0.01svn55060-54.1.noarch.rpm"
+RPM_HASH = "490bb60515b4219edf09c8865fcb22c745c1786443cc2bb617990cc28b987fdf3393e65aeae9cd86150c068b8bb883efd533ab8bdca1e723eebf6dc79e6c8344"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-unitconv.sty \

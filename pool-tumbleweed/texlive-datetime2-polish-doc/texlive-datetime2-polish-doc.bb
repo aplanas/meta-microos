@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-datetime2-polish"
 DESCRIPTION = "This package includes the documentation for texlive-datetime2-polish"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn48456"
+PV = "2023.209.1.1svn48456"
 
-RPM_NAME = "texlive-datetime2-polish-doc-2023.201.1.1svn48456-52.1.noarch.rpm"
-RPM_HASH = "216ad28a2527794e921371d6c0e8238c71b11070521ccae62ee1bd54f56508b77c6f5d5d0951ea0f064c598f5bd0ea2ef7a6d1593bd82c627cdf2d1a3a87047c"
+RPM_NAME = "texlive-datetime2-polish-doc-2023.209.1.1svn48456-53.1.noarch.rpm"
+RPM_HASH = "d12cf9f8038ae554f78ae713a4a95471976dfc15c9496b8b1263d7051d13b59a3a05d1092408201f03869b278a3ea6d9a84318cf7d9c0af8fec551711af6f2e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-datetime2-polish-doc"

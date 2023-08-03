@@ -4,10 +4,10 @@ published via https://crates.io. A human-readable version of the advisory databa
 found at https://rustsec.org/advisories/."
 LICENSE = "CC0-1.0"
 
-PV = "20230711"
+PV = "20230731"
 
-RPM_NAME = "cargo-audit-advisory-db-20230711-1.1.aarch64.rpm"
-RPM_HASH = "d393f163fcb764d49c6c31db00873e8254ca034028d4eca4cfe7e149e1b14d5944b3c4b8224a87979be5e51a2dc636d427279fde8b180e6c2c01ced181d22114"
+RPM_NAME = "cargo-audit-advisory-db-20230731-1.1.aarch64.rpm"
+RPM_HASH = "7cebfafe7588de81b2f6697fb29bce312cac146a0978fabbe4dc49b4286a5d89c73e8d3396e1921d884f075c8dc8fa494278bb6a1687b7c0ad42d67616b8ca7f"
 
 RPROVIDES:${PN} += "cargo-audit-advisory-db"
 

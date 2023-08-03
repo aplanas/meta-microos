@@ -6,10 +6,10 @@ of a given number. A third command can be used to fill half \
 empty pages with a notes area."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.8.1svn41906"
+PV = "2023.209.0.0.8.1svn41906"
 
-RPM_NAME = "texlive-notespages-2023.201.0.0.8.1svn41906-54.1.noarch.rpm"
-RPM_HASH = "6f21a1f000e4046f65d5025119f424c81f8cfd3c8b4f5a3ec695ea61116c105d71c09d3e26f35b5b43216d122a4aebb9690473a627c1b99429eb0c9220d9d151"
+RPM_NAME = "texlive-notespages-2023.209.0.0.8.1svn41906-55.1.noarch.rpm"
+RPM_HASH = "524c8c21007f2e994c3aa2d00fb60f403c7cd95ebbe723504837b4862dcdd8f7218dc1dee07c8320d55cc9d2e4d871855cdd5f4209f2b2c727d1c9749be872b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-notespages.sty \

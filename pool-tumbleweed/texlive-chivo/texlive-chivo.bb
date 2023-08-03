@@ -5,10 +5,10 @@ Gatti & Omnibus Team under the Open Font License (OFL), version \
 1.1. The fonts are copyright (c) 2011-2019, Omnibus-Type."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.2.2svn65029"
+PV = "2023.209.2.2svn65029"
 
-RPM_NAME = "texlive-chivo-2023.201.2.2svn65029-53.1.noarch.rpm"
-RPM_HASH = "e49d3a750874087ee578eab9d6088e2aa711b5b1aff8e538b0f7f1a1ae7dffcba5bec586416c49f00d998d036f6fd0f1782095e58d908a54a9b17c86fbe25bad"
+RPM_NAME = "texlive-chivo-2023.209.2.2svn65029-54.1.noarch.rpm"
+RPM_HASH = "d766d92d6b8f752df1794d5fc8f5e0809a803bbc95edaf19c473732b4ca8d7299de255a9029d3abaefedb3c18ede519667297a40c29b5f91e70533c6a6e16302"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Chivo-Black-dnom-ly1--base.tfm \

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.3"
 
-RPM_NAME = "ThePEG-libs-2.2.3-1.9.aarch64.rpm"
-RPM_HASH = "233753604f8e6e0175b1ac5f705116d099b1c6ed76c7993da3af47c1b6425e7d7e94be6f4f5807dae0a15d1815c976b08e515b3ca8704161447769464a61dded"
+RPM_NAME = "ThePEG-libs-2.2.3-1.10.aarch64.rpm"
+RPM_HASH = "77d1b3865f0ae0d781ac2e8a5273a6d9682cb2985cd8f6a13a3f39e9ceac83f0b4cf45c18ef349949a2fe0c00f660a05d884e873ce1ad4cc7206d06bec0c9e2a"
 
 RPROVIDES:${PN} += "ThePEG-libs \
 config-ThePEG-libs \
@@ -19,7 +19,7 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libHepMC3.so.3 \
 libLHAPDF-6.5.4.so \
-libRivet-3.1.7.so \
+libRivet-3.1.8.so \
 libc.so.6 \
 libfastjet.so.0 \
 libgcc-s.so.1 \

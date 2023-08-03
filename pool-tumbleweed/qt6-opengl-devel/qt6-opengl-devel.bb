@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt 6 OpenGL library"
 DESCRIPTION = "Development files for the Qt 6 OpenGL library."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-opengl-devel-6.5.1-4.1.aarch64.rpm"
-RPM_HASH = "5cdaaaa3e7a89a2ae6bab53cfad583f91ec607d4e2c9341b316d67020561f3ddbd5b738dac51ae9e1c20bfad517dadf0e9ad6a6e4dbac4a92b6fcf2a6b309e08"
+RPM_NAME = "qt6-opengl-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "0d45cedfd53750b0f6b49e3409c98cd3ae2423cdca97264392fd465a708267a0547a4a37655b19e556c74656286f63e7af84a660247acb9f3ea43bb0ab0d7b60"
 
 RPROVIDES:${PN} += "cmake-Qt6OpenGL \
 pkgconfig-Qt6OpenGL \

@@ -4,10 +4,10 @@ with New Century Schoolbook text. In order to use it you need \
 to have the Fourier-GUTenberg fonts installed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn29646"
+PV = "2023.209.svn29646"
 
-RPM_NAME = "texlive-fouriernc-2023.201.svn29646-52.1.noarch.rpm"
-RPM_HASH = "e0a88ed3e6aa5bdd02e8b41d42cb1a1561bf7e105788a54d5c6a9f9fbb3fff44fcda0fb4c442742f5f23e30298f932b846ca5f1739d5d9d55a20c336a315acbb"
+RPM_NAME = "texlive-fouriernc-2023.209.svn29646-53.1.noarch.rpm"
+RPM_HASH = "129fe66d4336a3919c4064268e2b8bf79aef92b1c6bf4dd4df9ce4c8fb8dd74dea12cfb118cde5f76ed46598f950b374a8f740a6490ac4e4d208a10df20586f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fmlfncm.fd \

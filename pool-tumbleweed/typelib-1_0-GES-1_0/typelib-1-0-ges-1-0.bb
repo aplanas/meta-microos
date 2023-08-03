@@ -19,10 +19,10 @@ a series of classes to simplify the creation of many kind of \
 editing-related applications."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "typelib-1_0-GES-1_0-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "17af45ea6999e5c45580eeb6f55383ea8122f329077e70cee1ff1f6d46077e7c5e1c37829ad4becf26b9e1fc42d9e7be923ee157783715508f227267674286f6"
+RPM_NAME = "typelib-1_0-GES-1_0-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "4f066834972c310fcd8469a44c31af7a584dc95a6b68cab5a455bcdc926a270f17deaf7ecdcaa679d0f3a85e18360060691ddd9512c5259241e09c7eaf97dac9"
 
 RPROVIDES:${PN} += "typelib-1-0-GES-1-0 \
 typelib-GES"

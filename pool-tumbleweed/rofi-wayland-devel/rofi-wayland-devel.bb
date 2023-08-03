@@ -2,10 +2,10 @@ SUMMARY = "Development files for rofi"
 DESCRIPTION = "Development files and headers for rofi"
 LICENSE = "MIT"
 
-PV = "1.7.5+wayland1+git.1679493688.d06095b"
+PV = "1.7.5+wayland2+git.1690115482.ff2338c"
 
-RPM_NAME = "rofi-wayland-devel-1.7.5+wayland1+git.1679493688.d06095b-1.1.aarch64.rpm"
-RPM_HASH = "72d33e883e5fda0b350c18a1b91b4f1cfca6f1ab128f16ac6738556f1577b9be090ea4e58341c71552fe3b6515b9b7fbd678c507e98351010fa176d6ada498cb"
+RPM_NAME = "rofi-wayland-devel-1.7.5+wayland2+git.1690115482.ff2338c-1.1.aarch64.rpm"
+RPM_HASH = "f7a9677b0a1ca54633c8b2cdc9e581f0ecba4a4a273374b6356cc9ed93e460eb7a62e6d111ed3e336376542eacb9aa8cfaa518cd4675d9de3efdc898cda0645f"
 
 RPROVIDES:${PN} += "pkgconfig-rofi \
 rofi-wayland-devel"

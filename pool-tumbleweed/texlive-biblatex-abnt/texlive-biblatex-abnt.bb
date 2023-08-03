@@ -3,10 +3,10 @@ DESCRIPTION = "This package offers a BibLaTeX style for Brazil's ABNT \
 (Brazilian Association of Technical Norms) rules."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.4svn49179"
+PV = "2023.209.3.4svn49179"
 
-RPM_NAME = "texlive-biblatex-abnt-2023.201.3.4svn49179-53.1.noarch.rpm"
-RPM_HASH = "763e191915289dfda9596500d7350afe1291b8388ca8e03ccef6ee61f05aeb0c9dea7dc727357941b064124fe4b8c408331d7d3e3b270299d0d902f757a5f64e"
+RPM_NAME = "texlive-biblatex-abnt-2023.209.3.4svn49179-54.1.noarch.rpm"
+RPM_HASH = "a25826a6ce016c868825dea4bd8fcc1169caefdaa29c557e2260970332636bcde5f5e3cdfac4d23ef7b87878d364b5712cc37599b517232f142aa71688ec4967"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-abnt-ibid.bbx \

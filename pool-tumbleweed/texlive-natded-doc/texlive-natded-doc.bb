@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-natded"
 DESCRIPTION = "This package includes the documentation for texlive-natded"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn32693"
+PV = "2023.209.0.0.1svn32693"
 
-RPM_NAME = "texlive-natded-doc-2023.201.0.0.1svn32693-54.1.noarch.rpm"
-RPM_HASH = "ab419893fae4a7ef011515c8ec4b77167ab34ad6573f57d2769bcfab9cd88b56c7d8dc7acaa03b3f9c13de1e3e1cb38b16986df4af6bbaf75d849c65702858bc"
+RPM_NAME = "texlive-natded-doc-2023.209.0.0.1svn32693-55.1.noarch.rpm"
+RPM_HASH = "f3a68e279e3afdb2d5ee2c0eb01cb30f111f1ef72c9988368afa4514c0417fa44d40e61c7cb3531be1d110cd3b01ca4fce913f4412bd93fb838a5c07e6a7ec46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-natded-doc"

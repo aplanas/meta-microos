@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides various emoticons, cooking symbols and \
 trees."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.12asvn61300"
+PV = "2023.209.4.12asvn61300"
 
-RPM_NAME = "texlive-tikzsymbols-2023.201.4.12asvn61300-52.1.noarch.rpm"
-RPM_HASH = "67788cce4d75f1a1c80d49a3498eebfaca5913db08006dca1a1084a452b0b52a4a7092905db5ea76b1eb90746104dcd42b7343bc93971c6b81d01b5142a2dbbb"
+RPM_NAME = "texlive-tikzsymbols-2023.209.4.12asvn61300-53.1.noarch.rpm"
+RPM_HASH = "1268eabdad2bd1b7d5bc58b94faa3265ebf7b520fe5afedfaac45976c227185e6fd3c4675015c26bf0cc9633afe6cfeb3654c47418d47138411e1efee89128ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzsymbols.sty \

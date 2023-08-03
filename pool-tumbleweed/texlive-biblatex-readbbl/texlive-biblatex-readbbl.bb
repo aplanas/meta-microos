@@ -7,10 +7,10 @@ the Biber program. However, when the bibliography changes one \
 has to create a new .bbl file."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.01svn61549"
+PV = "2023.209.0.0.01svn61549"
 
-RPM_NAME = "texlive-biblatex-readbbl-2023.201.0.0.01svn61549-53.1.noarch.rpm"
-RPM_HASH = "5578499a5b9bfb46363fe809f11f0f5f79193e5a4974cba95c8f0b14ed4366ae6baa37bcacaa03c787de24852088420d3ce0457041f75c6f6cacc4708fed7901"
+RPM_NAME = "texlive-biblatex-readbbl-2023.209.0.0.01svn61549-54.1.noarch.rpm"
+RPM_HASH = "50e8c939661368791ec3c2c57308e664c9e16a1e90f08afa7a4c466c8320329aeb4b0021d57032d66874b543dd95d6f417a0200aec39b923dfca033de0b2898b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-biblatex-readbbl.sty \

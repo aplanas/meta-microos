@@ -6,10 +6,10 @@ for uploading updates to the elsarticle software itself, not \
 for submitting articles using it ."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.3svn56999"
+PV = "2023.209.3.3svn56999"
 
-RPM_NAME = "texlive-elsarticle-2023.201.3.3svn56999-53.2.noarch.rpm"
-RPM_HASH = "e8bf6c051176a6766dead233cba2b832fc3999731af9e6dfab5b30d03b53a6873b39a5079489e497826e65d6cb3d9040c27133a19cbbb23dbda6e96f2707d323"
+RPM_NAME = "texlive-elsarticle-2023.209.3.3svn56999-54.1.noarch.rpm"
+RPM_HASH = "6a656ba4306716b75761d2d759def1efee55342878eae5b0d92d5ed781bf69aacccfad0a837e947385820b3517dfb6b0a90c5c09e0a54eb70246b9a99fdc7c09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-elsarticle.cls \

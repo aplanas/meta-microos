@@ -4,10 +4,10 @@ compliance and performance.  Its functionality can be enhanced via a \
 plethora of extensions."
 LICENSE = "MPL-2.0"
 
-PV = "115.0.2"
+PV = "115.0.3"
 
-RPM_NAME = "MozillaFirefox-115.0.2-1.1.aarch64.rpm"
-RPM_HASH = "ec4e1da0ff60732d87788c6a655aa3772115fde6b3f37085e5594112e564f2f62800a179341914cf3619df6059c49d5662d9c99028d8ab78aa1cf8bc1fb6a03a"
+RPM_NAME = "MozillaFirefox-115.0.3-1.1.aarch64.rpm"
+RPM_HASH = "1cb75ce8a63d596616932de24451494332933dccdfda990b1d39e1e3b1ef79c28323926ea466701d34a6df53df71e815f5f88b5aa0ad9f8772c46dbdf47b645d"
 
 RPROVIDES:${PN} += "MozillaFirefox \
 appdata- \

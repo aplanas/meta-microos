@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.7.6"
 
-RPM_NAME = "budgie-appmenu-applet-0.7.6-1.6.aarch64.rpm"
-RPM_HASH = "344df38802a7e7bfd179c9882a35e64e9a37f1447cf663155878a580d1326cedd329e7ae4ca6efbbf57678914ec93ef86118d1e9c9c0977b8824b435ab49053e"
+RPM_NAME = "budgie-appmenu-applet-0.7.6-2.1.aarch64.rpm"
+RPM_HASH = "a8f9ec2cc6c5c255758141c1dd86979b4d9333d9cf4ccb7b395576dd9a09f14ea666eb43b3a3e4d7d3a50ab83cccab41c592e9dd23b6e58a616a089fd6b100e8"
 
 RPROVIDES:${PN} += "budgie-appmenu-applet \
 libappmenu-budgie.so"

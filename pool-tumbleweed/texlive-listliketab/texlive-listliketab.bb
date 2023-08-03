@@ -5,10 +5,10 @@ enumerate environment. The advantage of using a tabular is that \
 the user can add additional columns to each entry in the list."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-listliketab-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "60cf8738f00f671cfbd7a895d07f5e8d2333c58eeb080234a6b5526a7d9aab8968fae3c3ce41ef16d530c30b3e78cec3d745903fe897899c7fb0a8d1ab1e28d1"
+RPM_NAME = "texlive-listliketab-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "37b946dd46d0993d99dc0340561dd21806f74376f2ffcee03a82b738b21e52ebe575a235d7daf071dff320468aadc06d909073cb9b5bd96e5847288fa28b1467"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-listliketab.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-context-fancybreak"
 DESCRIPTION = "This package includes the documentation for texlive-context-fancybreak"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn47085"
+PV = "2023.209.svn47085"
 
-RPM_NAME = "texlive-context-fancybreak-doc-2023.204.svn47085-54.1.noarch.rpm"
-RPM_HASH = "97d80aea07493cca23c7a12bc5db0191656dc8acf6d915a5e68c454f28ee91cf0b49641294b4e6c2d2ac3a4335b9553a69f0a5cd8bdfa113073cf46ad1643d38"
+RPM_NAME = "texlive-context-fancybreak-doc-2023.209.svn47085-55.1.noarch.rpm"
+RPM_HASH = "c240ad76704fbc67e0450968a0087ab581e0960d194cab89901b7cea80a8442001fe567dc831bdbe104b410c7fe06a68dd3676acc49e1c76695f25a994c26fe8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-fancybreak-doc"

@@ -6,10 +6,10 @@ typesetting such columns, including the sum line (preceded by a \
 rule of the correct width) using the specifier 'f'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4.1svn61855"
+PV = "2023.209.1.4.1svn61855"
 
-RPM_NAME = "texlive-fcolumn-2023.201.1.4.1svn61855-52.1.noarch.rpm"
-RPM_HASH = "60dff175c17c5d382fab0562c2cb6c44d599579c2bbf6edc9a90430eac5f78a4634299442532bf11561a9b84a40385462c4328a1c2df11e326e324880b186abb"
+RPM_NAME = "texlive-fcolumn-2023.209.1.4.1svn61855-53.1.noarch.rpm"
+RPM_HASH = "a2f72940ca2a1408139a64a17c4acede02a738078269a1d4d249df4c0df2ae738d0bf13e1333e655d2d9968db7dda705d2130efd0fd633acb18224e246cf868e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fcolumn.sty \

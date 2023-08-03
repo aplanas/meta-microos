@@ -4,10 +4,10 @@ DESCRIPTION = "Loki is a horizontally-scalable, highly-available, multi-tenant l
 This package contains the LogCLI command-line tool."
 LICENSE = "Apache-2.0"
 
-PV = "2.8.0+git.1680557182.90888a0c"
+PV = "2.8.3+git.1689949088.0d81144c"
 
-RPM_NAME = "logcli-2.8.0+git.1680557182.90888a0c-1.3.aarch64.rpm"
-RPM_HASH = "bb2003bc53918b041f02e994adad00502cbf431a4a1df8f67073837a682c550c4995f59b7caa6a57181d1e6835b8f1a2298ee3e99e7e15b9d34aa3ac2bdf5189"
+RPM_NAME = "logcli-2.8.3+git.1689949088.0d81144c-1.1.aarch64.rpm"
+RPM_HASH = "8fda8d2fe98c336e778b3d18d0d55e9b9db8a0d6dce3e3a5fd73f20f293811af5d4cd67a94525700c88c05ed327b40d62180c34315a36467d1cdbcdfba7fd4dc"
 
 RPROVIDES:${PN} += "logcli"
 

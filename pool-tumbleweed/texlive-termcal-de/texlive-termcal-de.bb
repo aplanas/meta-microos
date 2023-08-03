@@ -6,10 +6,10 @@ on the following other packages: termcal, pgfkeys, pgfopts, \
 datetime2, and datetime2-german."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn47111"
+PV = "2023.209.2.0svn47111"
 
-RPM_NAME = "texlive-termcal-de-2023.201.2.0svn47111-54.1.noarch.rpm"
-RPM_HASH = "4eb1bdff86d63fd2ee742dc61fb35860647a2ff0e0bdd3f15a271ea23851769667d05e36c3393f2596819b4933c2af62be65faceb58027483e95264bf6b1874e"
+RPM_NAME = "texlive-termcal-de-2023.209.2.0svn47111-55.1.noarch.rpm"
+RPM_HASH = "df6651f1f886251e9f611b05eb4832fcbeab527dfecd5faa9938d18a236e66b59a844610f4efe498428e677ed03907aa6732d6b24b550ae7e544fd904ba1ac75"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-termcal-de.sty \

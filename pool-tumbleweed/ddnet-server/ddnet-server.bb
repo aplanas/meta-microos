@@ -2,10 +2,10 @@ SUMMARY = "Standalone server for ddnet"
 DESCRIPTION = "Standalone server for DDraceNetwork (DDNet)."
 LICENSE = "Apache-2.0 & CC-BY-SA-3.0 & Zlib & MIT & SUSE-Public-Domain"
 
-PV = "16.9"
+PV = "17.1.1"
 
-RPM_NAME = "ddnet-server-16.9-1.3.aarch64.rpm"
-RPM_HASH = "f0e3c5583d371f630265f6697cada751967936807bd37c1cbb7d5a4de0006e35b50f8085361a72378e36a5e095fdf96d8b88b97439117c403c151ac9e7f576f7"
+RPM_NAME = "ddnet-server-17.1.1-1.1.aarch64.rpm"
+RPM_HASH = "7665f4e298ae7b28b36aa30df302f1464d936d6e2492398383a154128a0e55108bd72f27813e58d7fe1c85faa3f95d6ce8afd437e06ab79da6fe7c1aed878ab1"
 
 RPROVIDES:${PN} += "ddnet-server"
 

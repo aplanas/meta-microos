@@ -5,10 +5,10 @@ Set term=foot-extra or term=foot-extra-direct in foot.ini to \
 take advantage of the files in this package."
 LICENSE = "MIT"
 
-PV = "1.15.0"
+PV = "1.15.2"
 
-RPM_NAME = "foot-extra-terminfo-1.15.0-1.1.noarch.rpm"
-RPM_HASH = "96112da51a9112f89e582c757c32286e5613c8cd30cbdafae1e3b4c7255eec0be90e2d465c58dc18319489451bc0be89c32d7a012a8ca0f88e1bc635035653e8"
+RPM_NAME = "foot-extra-terminfo-1.15.2-1.1.noarch.rpm"
+RPM_HASH = "b67d184b091e0d4758357494e153f20cf27a494eb57ec282887e111eaff35fa98993a49e898c5707853bc2a1dca90a25e434e1e7d05c8b672b012fa8f4eb659d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "foot-extra-terminfo"

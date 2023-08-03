@@ -5,10 +5,10 @@ for typesetting large trees. The package depends on \
 genealogytree and etoolbox."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2bsvn49062"
+PV = "2023.209.1.2bsvn49062"
 
-RPM_NAME = "texlive-gtrlib-largetrees-2023.201.1.2bsvn49062-53.2.noarch.rpm"
-RPM_HASH = "c03eb67a59e0f5dd69706d4fb49d6d7f55160df50f52152ad631fde77623ed9abf8310a83038aa9f33323598b5d5ad4519857e664fdc0fac9f1b590ff8b729b9"
+RPM_NAME = "texlive-gtrlib-largetrees-2023.209.1.2bsvn49062-54.1.noarch.rpm"
+RPM_HASH = "1026b72089c2935837be6ff45d406aad0fb5f16eef25f89ac24a614628174a66c7a49e05d9812e953a0a4e05784625e7eaf2f1d26b52a6ee7db63077be65dc60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gtrlib.largetrees.code.tex \

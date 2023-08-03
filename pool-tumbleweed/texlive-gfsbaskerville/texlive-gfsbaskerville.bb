@@ -5,10 +5,10 @@ Greek only, and LaTeX support provides for the use of LGR \
 encoding."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn19440"
+PV = "2023.209.1.0svn19440"
 
-RPM_NAME = "texlive-gfsbaskerville-2023.201.1.0svn19440-52.1.noarch.rpm"
-RPM_HASH = "5198a7c25310e65faae38a18d3519416debc5c5aa0d35fe82843bdeb211696785a57bec7d495b3f4b3f0c556e34e9a436a7c77131136762441a442048c8c1b0f"
+RPM_NAME = "texlive-gfsbaskerville-2023.209.1.0svn19440-53.1.noarch.rpm"
+RPM_HASH = "35fbb3255f99c003b67a0dd6534ce2870298f281353abb1ed8e1535927de27d0176c13e87cbada2230e2881db2e5f871ce86a9651246c2576979df40681e6866"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gfsbaskerville.map \

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-lexend"
 DESCRIPTION = "The  separated fonts package for texlive-lexend"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.0.70svn57564"
+PV = "2023.209.1.1.0.70svn57564"
 
-RPM_NAME = "texlive-lexend-fonts-2023.201.1.1.0.70svn57564-54.1.noarch.rpm"
-RPM_HASH = "fd07ce036a63c32b0f22711a50341134b4d7f78f2e310eced836480ad213e3f3ac2dca3e1f200478df6e8e51ef61dec2686b72070366740359afe49efd818eed"
+RPM_NAME = "texlive-lexend-fonts-2023.209.1.1.0.70svn57564-55.1.noarch.rpm"
+RPM_HASH = "b8fc497bebeaf371b9f23c362c111b41c4ec350b9b5b66d4c1808761eba1a2f1e77ac05cc7e05e389474f40ac70ada289922038ab85fba03c2d9ef45e09a9264"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

@@ -2,10 +2,10 @@ SUMMARY = "Qt6 Quick3DHelpers library - Development files"
 DESCRIPTION = "Development files for the Qt 6 Quick3DHelpers library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-quick3dhelpers-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "fda7046cbca4b41ad43d5c30fb0d5c10623a46bdb5637f5f3fd813cedb55935419542627da52da52a4f69168b2943341d22bce28d9181c458e2bc301f3cb096d"
+RPM_NAME = "qt6-quick3dhelpers-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "6c57dea6b4baa88da441bb0cb95dcf727048f01a150ed52e8938b697ad802077e4a331aaf62c8db62be6acb13c62913fca8869241690559b58b16580ca236fc7"
 
 RPROVIDES:${PN} += "cmake-Qt6Quick3DHelpers \
 pkgconfig-Qt6Quick3DHelpers \

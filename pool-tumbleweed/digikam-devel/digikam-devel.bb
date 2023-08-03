@@ -2,10 +2,10 @@ SUMMARY = "DigiKam development files"
 DESCRIPTION = "Development headers and libraries for digiKam."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "8.0.0"
+PV = "8.1.0"
 
-RPM_NAME = "digikam-devel-8.0.0-4.1.aarch64.rpm"
-RPM_HASH = "5db955a12eeda79ec663edce8833d8781aba9b9c4797833236ad3e70ab3120d2922487964c02875ba128604623996607b3a1ac20d3e6a1f37cbffe832ac7857d"
+RPM_NAME = "digikam-devel-8.1.0-1.1.aarch64.rpm"
+RPM_HASH = "f53c4ab076664e4bd3cf576307826180451254659c75578d2e49ad856de2d6add4217b2b021db034e79d4f4321542f3b7ffcf6482ee22959eb02020e741a3d46"
 
 RPROVIDES:${PN} += "cmake-DigikamCore \
 cmake-DigikamDatabase \
@@ -13,6 +13,6 @@ cmake-DigikamGui \
 cmake-DigikamPlugin \
 digikam-devel"
 
-RDEPENDS:${PN} += "libdigikamcore8-0-0"
+RDEPENDS:${PN} += "libdigikamcore8-1-0"
 
 inherit rpm

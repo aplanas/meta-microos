@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.0.18"
 
-RPM_NAME = "vlc-noX-3.0.18-7.3.aarch64.rpm"
-RPM_HASH = "18b361455a9164ba0878c0550af5237fe0d574423b257c5d0a2b845431e884de8756eb7ab8009a1ebf619d7dd0d79c6c4d892689a0c0a4a2487197400f7f3350"
+RPM_NAME = "vlc-noX-3.0.18-8.1.aarch64.rpm"
+RPM_HASH = "be5d7caf6a6582b282b354e335d875cd6979941a015c122b434ddffcc1d10101a894a27b93fc5d90c9f29ddafe3bc9784ec7b23f910bd6eafed274826c0acbf3"
 
 RPROVIDES:${PN} += "liba52-plugin.so \
 libaccess-alsa-plugin.so \
@@ -359,6 +359,8 @@ libFLAC.so.12 \
 libUsageEnvironment.so.3 \
 libX11.so.6 \
 liba52.so.0 \
+libabsl-log-internal-check-op.so.2301.0.0 \
+libabsl-log-internal-message.so.2301.0.0 \
 libaom.so.3 \
 libarchive.so.13 \
 libasound.so.2 \
@@ -403,7 +405,7 @@ libopus.so.0 \
 libplacebo.so.264 \
 libpng16.so.16 \
 libpostproc.so.55.9 \
-libprotobuf-lite-3.21.12.so \
+libprotobuf-lite.so.23.4.0 \
 libraw1394.so.11 \
 librom1394.so.0 \
 libsamplerate.so.0 \

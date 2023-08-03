@@ -4,10 +4,10 @@ translations of the Holy Quran. It adds two Bengali \
 translations to the quran package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn57602"
+PV = "2023.209.0.0.1svn57602"
 
-RPM_NAME = "texlive-quran-bn-2023.201.0.0.1svn57602-53.2.noarch.rpm"
-RPM_HASH = "c19b5fbbff6e1f683f10ee5d384bfc8a924d7904b0a114e1a97a84631f8d41698aad79c5e6ab18841b4040a55650d784e52bfe836ccab62afc4f6713d4654b21"
+RPM_NAME = "texlive-quran-bn-2023.209.0.0.1svn57602-54.1.noarch.rpm"
+RPM_HASH = "3d77135ff9fd8260c51d13b5aa3e57458b623236e79b9cf3e48ccc2270a1a36f416d51f7b27546d087f522c3e2daa9a2795528b7b1718cfd2f6191ea47d82488"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-quran-bn.sty \

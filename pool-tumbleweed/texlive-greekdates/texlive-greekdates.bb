@@ -7,10 +7,10 @@ in order to completely switch to the 'ancient way', commands \
 such as \\today."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-greekdates-2023.201.1.0svn15878-53.2.noarch.rpm"
-RPM_HASH = "6714aad390d440233d7ed026980af6083d1ae1a603082f601a3ac52b46f4e7349328c0b43a91480ade7a8cd7ab0e4f50d9e81a32f31b26679bcdb1227e60ffaa"
+RPM_NAME = "texlive-greekdates-2023.209.1.0svn15878-54.1.noarch.rpm"
+RPM_HASH = "687f432a2ccd38baeae2ec8490b4202626a46ade5abdc6b197821a9049a9cc807aa7121721406021ef0d414b4a25f2f0be951ab32e34be0a5122ce3183f867f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-greekdates.sty \

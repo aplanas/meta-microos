@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-aramaic-serto"
 DESCRIPTION = "The  separated fonts package for texlive-aramaic-serto"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn30042"
+PV = "2023.209.1.0svn30042"
 
-RPM_NAME = "texlive-aramaic-serto-fonts-2023.201.1.0svn30042-54.1.noarch.rpm"
-RPM_HASH = "19677c4a47c8178d74e22f7ef5d727d8999b3c82254ab2b9c5dd30ffb566b1ce2febfcb95f34e4c95375a0959096b31c6569ef3bcf63c4352061b0bfb3e1f96d"
+RPM_NAME = "texlive-aramaic-serto-fonts-2023.209.1.0svn30042-55.1.noarch.rpm"
+RPM_HASH = "8b3a476201734a6b3985662391f7a5660ee235cdc22048f4dc579496b365c0dc8edcc668e82ef62166d1b33b371aa0cd73d81033ef9faa5e0056a99572a3073c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-assy \

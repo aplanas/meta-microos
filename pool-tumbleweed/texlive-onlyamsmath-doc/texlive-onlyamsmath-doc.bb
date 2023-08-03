@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-onlyamsmath"
 DESCRIPTION = "This package includes the documentation for texlive-onlyamsmath"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.20svn42927"
+PV = "2023.209.0.0.20svn42927"
 
-RPM_NAME = "texlive-onlyamsmath-doc-2023.201.0.0.20svn42927-54.1.noarch.rpm"
-RPM_HASH = "af14f8cb0fbff05a3a0f28e47b102abb11c8ab8b3faf1ec2756d587e2a23185b0a59f10bfee8fa2bc0637d258ad3a7050b5bccf9f131f13e4e686551a88e71b7"
+RPM_NAME = "texlive-onlyamsmath-doc-2023.209.0.0.20svn42927-55.1.noarch.rpm"
+RPM_HASH = "e4db3c69ac2eb4a78aca4c101c57470f73bdcc3ca99026963874ed8c2d41de5c67616815af14f0df00f5c446d9a9ea28fe366fd9fe743c901977c726e5f773a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-onlyamsmath-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-francais-bst"
 DESCRIPTION = "This package includes the documentation for texlive-francais-bst"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn38922"
+PV = "2023.209.1.1svn38922"
 
-RPM_NAME = "texlive-francais-bst-doc-2023.201.1.1svn38922-52.1.noarch.rpm"
-RPM_HASH = "c769fbcf3b87bf2439a374e34e55503b7d5d6c918ba05292f69adbe4915b28be584db85e6af2cd8e23a6d21e9fee5ce2fda4cf3b634bcca184e1032fd3c9f30d"
+RPM_NAME = "texlive-francais-bst-doc-2023.209.1.1svn38922-53.1.noarch.rpm"
+RPM_HASH = "12091949581e0766cb3125eded212fdc7820ccb8701792fce324ee812bd9be0f4d75ac905b6a8c6f2103f0aed6d33d4e560a47fe182a3c70065463cbb07de4dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-francais-bst-doc-fr \

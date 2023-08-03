@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-dutchcal"
 DESCRIPTION = "The  separated fonts package for texlive-dutchcal"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn54080"
+PV = "2023.209.1.0svn54080"
 
-RPM_NAME = "texlive-dutchcal-fonts-2023.201.1.0svn54080-52.1.noarch.rpm"
-RPM_HASH = "e85c81a02a5fa4e400e2bd03839d24f367db5d602e61ab4adfd4115126a0abe4efb785da990b37277ca37269fd11e72af12639d515bec163f56ecd0d9c7890f0"
+RPM_NAME = "texlive-dutchcal-fonts-2023.209.1.0svn54080-53.1.noarch.rpm"
+RPM_HASH = "2a0da5861ac8274d15922cd0ef7d583e89ea56e70567a2298dd53c4d76024b87edd37594dde6d7aa4432d45fe9650db6aafab6c5a29c7e7195c668135f4c8cc1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=fj \

@@ -8,8 +8,8 @@ LICENSE = "MPL-2.0"
 
 PV = "3.90"
 
-RPM_NAME = "mozilla-nss-3.90-1.1.aarch64.rpm"
-RPM_HASH = "89118895bd0d5398ae321510dc900e5644538d3fd8d886e924ea699260855e9a3be590cd55e81ddff7eab00c7d0021d12cb7e97eca45ed5d392d4f50459b9bbf"
+RPM_NAME = "mozilla-nss-3.90-2.1.aarch64.rpm"
+RPM_HASH = "a4a950349a7f3083fb03c9bb1dc185426d7eddca9a19d8adb5e2130412e8e8b84d6115e929c039d66df3790b23ea8cc45e2510d7adf978e153b7dbc90a95b3aa"
 
 RPROVIDES:${PN} += "libnss3.so \
 libnssutil3.so \

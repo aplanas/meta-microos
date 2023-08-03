@@ -8,10 +8,10 @@ easily. The size was chosen to work in half-page 3-ring binder \
 cover sheets."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn37026"
+PV = "2023.209.svn37026"
 
-RPM_NAME = "texlive-recipebook-2023.201.svn37026-53.2.noarch.rpm"
-RPM_HASH = "42cb1e88315bf945228f951c1f48409b8b16968ab078098607ebc4c8aece70fd4cbf8f143c5bff3212985b00cec31f6276f65cd7e34300489cecba0cf3787878"
+RPM_NAME = "texlive-recipebook-2023.209.svn37026-54.1.noarch.rpm"
+RPM_HASH = "e9dacd2b36e4e4145d6483ac77269857f815f49b8d9ef162a6cdafa9819e3cf24591d41dc1c2827eb9107fd5d11e6f71b474bef0efba574def25632632d4e4ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-RecipeBook.cls \

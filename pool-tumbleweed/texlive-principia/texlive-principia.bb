@@ -4,10 +4,10 @@ Volume I of Whitehead and Russell's 1910 'Principia \
 Mathematica'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn58927"
+PV = "2023.209.1.3svn58927"
 
-RPM_NAME = "texlive-principia-2023.201.1.3svn58927-52.1.noarch.rpm"
-RPM_HASH = "d5ca72a352c86510c69bbd7c9206ac7ce4bb25f0991b074840e82c563d9034fc7e0faef0f79f7f6cda515b82eda6a6cdd623f8a9d9576aa1631f8a4724d5a107"
+RPM_NAME = "texlive-principia-2023.209.1.3svn58927-53.1.noarch.rpm"
+RPM_HASH = "a4a7a1b8a1e9da14f057f138f3b7ea9bbc5cfdee0164e611c9fef2485cfcccd2c63365e4dafb9c256aabf180c1f159440834db7d315d7e272ce2b4ccafa3cca3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-principia.sty \

@@ -9,10 +9,10 @@ printing a PostScript grid underneath the page material--very \
 useful for measuring and eliminating paper feed errors!"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.6svn13293"
+PV = "2023.209.1.6svn13293"
 
-RPM_NAME = "texlive-dvipsconfig-2023.201.1.6svn13293-53.2.noarch.rpm"
-RPM_HASH = "1d3643689671a5eec458ac531db4f5184beff4fb1f53c050d6341e969d6e840467a7bb857e82671f6a18c1c8a855abcd9227be2c8ccda20ad0b1001312e67b8f"
+RPM_NAME = "texlive-dvipsconfig-2023.209.1.6svn13293-54.1.noarch.rpm"
+RPM_HASH = "7962bc75491ec5ad2ce398cc667bdfe33c457dec7d68f15f63ec301242bc35b09b2447bb57bb0a5194a8c2c3f509fc8cbdfd4fec6eb066a7bb9265aad4892c38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dvipsconfig"

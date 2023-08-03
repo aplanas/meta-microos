@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-checkcites"
 DESCRIPTION = "This package includes the documentation for texlive-checkcites"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.6svn64155"
+PV = "2023.209.2.6svn64155"
 
-RPM_NAME = "texlive-checkcites-doc-2023.201.2.6svn64155-53.1.noarch.rpm"
-RPM_HASH = "05bc455129d89e72cc0d39c44b3295cbf9b5534244c45155e686d6dd3c3c093929db8731412955604dbb29adcba3f852813f4a59969a685df75e3f760e6f2048"
+RPM_NAME = "texlive-checkcites-doc-2023.209.2.6svn64155-54.1.noarch.rpm"
+RPM_HASH = "87e344b0e13fb863b86ce99b86b057592947fc50d8b4ffba1629c85d257a435985d122af0ecd4db3b502a5eaf12d1449f1080717ae4ce525c679c6632aba269b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-checkcites-doc"

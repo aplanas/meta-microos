@@ -10,10 +10,10 @@ key table typesetter and has a command for writing the answer \
 keys to an external file."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn61719"
+PV = "2023.209.0.0.2svn61719"
 
-RPM_NAME = "texlive-exam-randomizechoices-2023.201.0.0.2svn61719-52.1.noarch.rpm"
-RPM_HASH = "b243ed58ebcb7d4883b1e012733f559e99e5c537de2fef05c5aedff171e11af342c4be31301bddb2426475f90ee4b1903a5c83c6ed5273b7c782024c3743bac0"
+RPM_NAME = "texlive-exam-randomizechoices-2023.209.0.0.2svn61719-53.1.noarch.rpm"
+RPM_HASH = "0d1ee58451a3b5de7d4ca380a0c3e04c2ff40a45dfb80ec1689822078bae0398c146cccc63174e085c0354c5e191da3bfb3c4ef3810e42bff2e4468e41f7e8a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-exam-randomizechoices.sty \

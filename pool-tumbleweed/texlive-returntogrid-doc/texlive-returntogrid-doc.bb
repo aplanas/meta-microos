@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-returntogrid"
 DESCRIPTION = "This package includes the documentation for texlive-returntogrid"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn48485"
+PV = "2023.209.0.0.2svn48485"
 
-RPM_NAME = "texlive-returntogrid-doc-2023.201.0.0.2svn48485-53.2.noarch.rpm"
-RPM_HASH = "393db893b14fdc16bd3762227e9077b4bb21721fe837317fbfa9e364b184b22f8cdeed6f14b0241281a49bfe8a2a2fcf40372e15750f1504766c13c8225ff41b"
+RPM_NAME = "texlive-returntogrid-doc-2023.209.0.0.2svn48485-54.1.noarch.rpm"
+RPM_HASH = "ed0a92781d01894309acbf1ea71269085447df56e366d733db2e42d5593a0038113883a95b5b7c393a6fcd2ffed4872e969006c74fcebc6f7d13d24f9cfe14ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-returntogrid-doc"

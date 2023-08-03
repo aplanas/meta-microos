@@ -4,10 +4,10 @@ help of TikZ. It also provides commands to draw the content of \
 screens and of menu items."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5svn38646"
+PV = "2023.209.1.5svn38646"
 
-RPM_NAME = "texlive-tipfr-2023.201.1.5svn38646-52.1.noarch.rpm"
-RPM_HASH = "05ffe2d32e5b1a9158d202a6fee93923c754a6f2afab3fde7425bebe9cb64fd81b2d99da2852e7c5d8d8b84dc6e1200101de18a28a61048726b7934e631f8517"
+RPM_NAME = "texlive-tipfr-2023.209.1.5svn38646-53.1.noarch.rpm"
+RPM_HASH = "ba527e7d8ae7b9c7e2c68e7c735de61429bf2e43d569469a6ea8c6c469b1111264f0537b1a2a0f9f7d75a99f466944478fb15ef14c91113063368d3154b5d102"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tipfr.sty \

@@ -8,10 +8,10 @@ few questions and then generates the table --- somewhat similar \
 to nfssfont.tex for 8-bit fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0gsvn65009"
+PV = "2023.209.1.0gsvn65009"
 
-RPM_NAME = "texlive-unicodefonttable-2023.201.1.0gsvn65009-53.1.noarch.rpm"
-RPM_HASH = "c5acc97bf391ef219a3a3654a6abfc5a5f123146885eb6bea34a5c589f64814a90a0c17af1edce1f47e62c0338f8b16cbec6018d53523587a95ba33b60f9b42d"
+RPM_NAME = "texlive-unicodefonttable-2023.209.1.0gsvn65009-54.1.noarch.rpm"
+RPM_HASH = "3046a0f0984747a155c40ccb2d257d7ecd725346e81498d4851606998b8f33a5e69bad6cc85e9ae389d8aec2ff77893d43c1e19f88d313897ce280eec41bdbfc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-unicodefont.tex \

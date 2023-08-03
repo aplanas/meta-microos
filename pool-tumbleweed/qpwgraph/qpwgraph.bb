@@ -3,10 +3,10 @@ DESCRIPTION = "qpwgraph is a graph manager dedicated for PipeWire, using the \
 Qt C++ framework, based and pretty much like the same of QjackCtl."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.4.5"
+PV = "0.5.1"
 
-RPM_NAME = "qpwgraph-0.4.5-1.1.aarch64.rpm"
-RPM_HASH = "84ac19fb9f044907919c87e579011559860832c4eeafffd4638c52c91544fe9db4fa01b24b56d2d87d03bd45df595e391f0e6cb5944d2a96e4c586fb59ef976e"
+RPM_NAME = "qpwgraph-0.5.1-1.1.aarch64.rpm"
+RPM_HASH = "86f5ac5bb92be471402c1c679dd3e7e297909705f266454cc8aa5716d9216efa2644a651dd6df2bd090afd2d175d02f01c2cf73cb457d2ccdfc6946a7c1f6e8d"
 
 RPROVIDES:${PN} += "qpwgraph"
 

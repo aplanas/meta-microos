@@ -9,10 +9,10 @@ Please refer to /usr/share/doc/packages/php8/README.SUSE for \
 information on how to load the module into the Apache webserver."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.7"
+PV = "8.2.8"
 
-RPM_NAME = "apache2-mod_php8-8.2.7-1.1.aarch64.rpm"
-RPM_HASH = "d1d423b2b564117c356a6c0860ae590cf5d3331ae08fadc7796c9cd14e0548116495ec685c4ad36cf913e41e43b6339911768f2c582c06e1c326ef9af4cf7744"
+RPM_NAME = "apache2-mod_php8-8.2.8-1.1.aarch64.rpm"
+RPM_HASH = "827b06d4f0ed49ec77c824802b0d10439a1abb6344df178b2a585460bd1926c788c68461bee6aaf2becec0c380fe95f83fa511dabd453c704de227fca75d77f6"
 
 RPROVIDES:${PN} += "apache2-mod-php8 \
 config-apache2-mod-php8 \

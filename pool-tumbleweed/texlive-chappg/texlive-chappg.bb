@@ -4,10 +4,10 @@ DESCRIPTION = "The package provides for 'chapterno-pageno' or \
 front- and backmatter in book class."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1bsvn15878"
+PV = "2023.209.2.1bsvn15878"
 
-RPM_NAME = "texlive-chappg-2023.201.2.1bsvn15878-52.1.noarch.rpm"
-RPM_HASH = "8b2b5c8e88eda1361c826ab885bb00d6701d6896467c032df74295e785cc83046dceda066557413f9013bea66f5320ae6af5ae2e2d812617f2f99d61b5a144d4"
+RPM_NAME = "texlive-chappg-2023.209.2.1bsvn15878-53.1.noarch.rpm"
+RPM_HASH = "ae57eabffdce51a295b088fe451a82e264ec5855d65ceaf344274a7ea21a73ac942e17fadf19d1f3ebf495b43d3d4bc9cf899981c1869d3312a1a7602a5c79b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chappg.sty \

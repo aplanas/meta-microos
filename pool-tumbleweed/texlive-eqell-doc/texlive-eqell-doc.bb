@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-eqell"
 DESCRIPTION = "This package includes the documentation for texlive-eqell"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn22931"
+PV = "2023.209.svn22931"
 
-RPM_NAME = "texlive-eqell-doc-2023.201.svn22931-53.2.noarch.rpm"
-RPM_HASH = "fda10dd695885df9b45c737b4688a16424a4e380d67233f36cb668b65185948697b2f7400b601cc2190c24a70828884a2deb5d8c8e527fd8ceccda38017ea032"
+RPM_NAME = "texlive-eqell-doc-2023.209.svn22931-54.1.noarch.rpm"
+RPM_HASH = "ae77d287faedd20d7591e78f0993c72f01dffb5b1b74f2ae6350b37ee2410e43fd1bf121b72794f942b76271ba44676c86867bd5ed6c3f7a2ab24db4b449e940"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eqell-doc"

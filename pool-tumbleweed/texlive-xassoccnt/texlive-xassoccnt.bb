@@ -10,10 +10,10 @@ features of assoccnt are not (yet) contained in xassoccnt so \
 that the older package cannot yet be regarded as obsolete."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn61112"
+PV = "2023.209.2.0svn61112"
 
-RPM_NAME = "texlive-xassoccnt-2023.201.2.0svn61112-52.2.noarch.rpm"
-RPM_HASH = "5e8c6bfcb87e52addd5ad1993684f6a6f71d170f070166e2907e14c6e57bb4669c3bc745d8f1008628a03dd7bee36957212cc3f8260229e10d075fcb53c8963c"
+RPM_NAME = "texlive-xassoccnt-2023.209.2.0svn61112-53.1.noarch.rpm"
+RPM_HASH = "a3c188508ce791ebaa57a4bac1d2458d9471384fcf5b646e10805c5445419a841db0a03ce7e0fb717b487a331828209f48daaae35d0b2dcc8f359b48f3fabbf5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xassoccnt.sty \

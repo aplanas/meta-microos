@@ -5,10 +5,10 @@ Ye Da Xue Kao Shi Shi Juan Mo Ban , Dian Ji Xia Fang Download \
 Lai Xia Zai Suo You Wen Jian ."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.7svn66550"
+PV = "2023.209.1.7svn66550"
 
-RPM_NAME = "texlive-hfutexam-2023.201.1.7svn66550-53.2.noarch.rpm"
-RPM_HASH = "0bf4f137c48413e591744862b98884744c6c9350f7be0f38bc6c74e366ee63bd24c9d316e159b163b6b6f4d4c8234f94a46631a2122abf2682d3a6f328941c06"
+RPM_NAME = "texlive-hfutexam-2023.209.1.7svn66550-54.1.noarch.rpm"
+RPM_HASH = "f7b53e031a4fb64bd9ecb291bb866fd79f4ae86b10eceb72033ec86fa313a21bced20b680fc636ed5ab8d5ae42d85ad86ed27a4538a31a0aae997155f175ecd7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hfutexam.cls \

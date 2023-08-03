@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fixmetodonotes"
 DESCRIPTION = "This package includes the documentation for texlive-fixmetodonotes"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.0.0.2.2svn30168"
+PV = "2023.209.0.0.2.2svn30168"
 
-RPM_NAME = "texlive-fixmetodonotes-doc-2023.201.0.0.2.2svn30168-52.1.noarch.rpm"
-RPM_HASH = "b8ee312d932d41d26b01939b889bc21966f32ab292ce2db84c12e70edd088e31cdef110775a53cbcc640a223668305be7c0b7d90a408a28a3d4e7ef8d2fef6c7"
+RPM_NAME = "texlive-fixmetodonotes-doc-2023.209.0.0.2.2svn30168-53.1.noarch.rpm"
+RPM_HASH = "90fa1d4fbab2bd7f3e8e47cfcc724f547b6294d15bec9b291d90722c759720bdf4dfcdd1aa9de330f85ab1c81e842f8534e87bcf02a3e4349eb62a0c4ec29b9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fixmetodonotes-doc"

@@ -7,10 +7,10 @@ very start of the bibliography, which is confusing. This \
 package suppresses the effect."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn18129"
+PV = "2023.209.svn18129"
 
-RPM_NAME = "texlive-notoccite-2023.201.svn18129-54.1.noarch.rpm"
-RPM_HASH = "1dea1d9b7d85f473005489f2a5afe26529fac13f34a1126da5cfc62a1b53584b76d78e612fba49ad1d4fdf0fc5e14d83f07a779d29083a37f5e5dd92e4553db0"
+RPM_NAME = "texlive-notoccite-2023.209.svn18129-55.1.noarch.rpm"
+RPM_HASH = "35d2d5e0946c8dacdfb5b65b1712c3a5acfd56263e365321a30af337037e695dc3950291f47cffa84dadf2a0f0958aaba5d93aa19be6913f0636838fd7427b54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-notoccite.sty \

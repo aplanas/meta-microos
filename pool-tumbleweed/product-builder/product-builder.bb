@@ -5,10 +5,10 @@ the SUSE product portfolio. Based on kiwi perl implementation. \
 To be used only for product medias for Leap 15 and SLE 15."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.4.13"
+PV = "1.4.14"
 
-RPM_NAME = "product-builder-1.4.13-1.2.aarch64.rpm"
-RPM_HASH = "87d2625d48b384c214d466864fb92ff44cd1050aac8b6015d2e8e682b6a728b33d87015fbb8bbf11729dda8d9e6f022034d762e975c67693a728dd05a1eaf0f8"
+RPM_NAME = "product-builder-1.4.14-1.1.aarch64.rpm"
+RPM_HASH = "a90fdfc2e0099d60e894a7162e7e95e6162a7d8a560fe2d29533236ee4e77ab5d88cda4877d4527b620f8360317deb52526190f08175529e970a79d31fcbe5ee"
 
 RPROVIDES:${PN} += "kiwi-packagemanager-instsource \
 kiwi-schema \

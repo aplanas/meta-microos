@@ -2,10 +2,10 @@ SUMMARY = "Set up Japanese font families for XeLaTeX"
 DESCRIPTION = "The zxjafont package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn62864"
+PV = "2023.209.1.3svn62864"
 
-RPM_NAME = "texlive-zxjafont-2023.201.1.3svn62864-52.2.noarch.rpm"
-RPM_HASH = "ae71bb69a6fcb5e7c03ce88e9132fbf322745e3527cb26d907aaef0cb52873e524bee88ac684aca4bd5cd03ce4dec4d00f21f71f7a8058ff943d51a7fa874804"
+RPM_NAME = "texlive-zxjafont-2023.209.1.3svn62864-53.1.noarch.rpm"
+RPM_HASH = "0732c55611f986f7f4cb1e5f2e6011fdaba382335886e377327b6c39abb17a811c01cb41f0bf5d66bb695f07163c5ad50931664ecb8e1e224bc649c9b0dcce14"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zxjafont.sty \

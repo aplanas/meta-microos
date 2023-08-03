@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6WaylandCompositor 
 have any ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-waylandcompositor-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "a9fac08722ae42380d0cbcdbf09f8c2262dab61e34f0391971188ef52d637b2803bb1f1d7b04a8f1b6334b1ef6b0a8a468702c47315272cc5c0edd41924b662a"
+RPM_NAME = "qt6-waylandcompositor-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "ebf96a0cce761551f145f3040a703c0e0bc9be80eaeca6fd4f4f16c9c09ad58450ba1687d7d26bd0a97638fdeb58158175c164aa001dc59125677a5f9dc7012e"
 
 RPROVIDES:${PN} += "qt6-waylandcompositor-private-devel"
 

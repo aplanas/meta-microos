@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-quattrocento"
 DESCRIPTION = "The  separated fonts package for texlive-quattrocento"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64372"
+PV = "2023.209.svn64372"
 
-RPM_NAME = "texlive-quattrocento-fonts-2023.201.svn64372-53.2.noarch.rpm"
-RPM_HASH = "bbca0b29304c2095e5615c248e5169e10323ec868282478cfcc1f4cb7750a4fd2560e45c2f7ff738c56e9118ee7ecd16ce250e6b4181402fcc66558d7bd49350"
+RPM_NAME = "texlive-quattrocento-fonts-2023.209.svn64372-54.1.noarch.rpm"
+RPM_HASH = "d809e2955fbf9173c38ed0ae18f8fd795dc43bf8399ba8fca785863026f908dd188f11192553f907fcbb433cf30402a7b335a695371863da14762d886943f80f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-quattrocento-fonts \

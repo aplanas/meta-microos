@@ -7,10 +7,10 @@ LaTeX, is also provided (and makes use of the nfssext-cfr \
 package)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.005svn19444"
+PV = "2023.209.1.005svn19444"
 
-RPM_NAME = "texlive-venturisadf-2023.201.1.005svn19444-53.1.noarch.rpm"
-RPM_HASH = "d15fe523c3a037f03ece8d8e4dcad3a751d2fb6d42f9ccb80e40231cf4a8d479b6835116e40a4c3b4d8c7cdaf9c85eac1e8f6c05760137dde7e3fc272582166a"
+RPM_NAME = "texlive-venturisadf-2023.209.1.005svn19444-54.1.noarch.rpm"
+RPM_HASH = "1b4e76f0d2f13762e907aa9c4f5235f41713ca340667ce81de34fd63cce31ab5f0caa9638c73dff57d3a1e7f610dd88f35b66348d61d3ccd7fa03ecb4fa27664"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-t1-dotalt-f-f-venturisadf.enc \

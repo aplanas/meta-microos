@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "23.04.3"
 
-RPM_NAME = "kdeconnect-kde-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "c46ebbbc689546a988193db12f87d631b0fe1af9f6a6b27f61fb033daa672486fcd4c12277d3a0d0274333d7da9a04ec84c73d2bd258ee0cb3466c700b054727"
+RPM_NAME = "kdeconnect-kde-23.04.3-2.1.aarch64.rpm"
+RPM_HASH = "5af92a72a771ca381f1b13099c10673fad0ab2e0e2da9d84eae1eeb6638225a8314ab497d26a7c2e4d32be8af96a49ae314c7b4599cfb9a6bb1ed75bef409e41"
 
 RPROVIDES:${PN} += "kdeconnect-kde \
 libkdeconnectcore.so.23 \
@@ -26,6 +26,7 @@ libkdeconnectpluginkcm.so.23 \
 qt5qmlimport-org.kde.kdeconnect.1"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+kirigami-addons \
 kirigami2 \
 ld-linux-aarch64.so.1 \
 libKF5ConfigCore.so.5 \

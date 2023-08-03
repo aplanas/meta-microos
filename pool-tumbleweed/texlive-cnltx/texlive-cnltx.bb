@@ -12,10 +12,10 @@ file cnltx.ist that should be placed in a directory in a TDS \
 makeindex directory."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.15svn55265"
+PV = "2023.209.0.0.15svn55265"
 
-RPM_NAME = "texlive-cnltx-2023.201.0.0.15svn55265-53.1.noarch.rpm"
-RPM_HASH = "823d55f433cb3eb6cceda0915142a4b015422f94b63eed64397328b11826be3f477a8d3f64d5c18c4b037092806e46a3de9ea62c094d55fdde9ec66a1dd00e3c"
+RPM_NAME = "texlive-cnltx-2023.209.0.0.15svn55265-54.1.noarch.rpm"
+RPM_HASH = "6c648d9efe557ec89dc37198ba0282686f917069f2757f8ca5e7dcb03b508f5edf8191d0222a976880ed5dc32b9621c9c8ff43151364d9b07dfb064916ca3b57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cnltx-base.sty \

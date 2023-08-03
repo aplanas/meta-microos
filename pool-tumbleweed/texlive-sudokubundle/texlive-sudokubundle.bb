@@ -9,10 +9,10 @@ user sets via macros. The bundle comes with a set of \
 ready-prepared puzzle files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0asvn15878"
+PV = "2023.209.1.0asvn15878"
 
-RPM_NAME = "texlive-sudokubundle-2023.201.1.0asvn15878-57.1.noarch.rpm"
-RPM_HASH = "c2c635200d1770b9bae6fa8360efc0c1d5af4ddaa94cbfed619189ed788898e440464c1c85b970325457edd0bced29cc69af3ad1d0801d2983f91713b820da47"
+RPM_NAME = "texlive-sudokubundle-2023.209.1.0asvn15878-58.1.noarch.rpm"
+RPM_HASH = "37bc75d53d3f0d97d61ffb0f6e9779e14b68a1e24ca070627ced06a77b1359beed81ecfb81507c5d44c13c100abe2d5c2be5eecf6a983cebb128dac5839d78f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-createsudoku.sty \

@@ -10,10 +10,10 @@ structure for the conditional, greater care taken to allow for \
 the linewidth in the spacing of formulas."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.3svn27417"
+PV = "2023.209.1.3svn27417"
 
-RPM_NAME = "texlive-frege-2023.201.1.3svn27417-52.1.noarch.rpm"
-RPM_HASH = "8c389de7ff1272296fc05dfbf73eb94ed26aaecb9d4461ce68c223b597bdaeb3e345efa44b67f8af44eea1276deb2bda91acbb2c623fe42ab343dd92d8d1b8a9"
+RPM_NAME = "texlive-frege-2023.209.1.3svn27417-53.1.noarch.rpm"
+RPM_HASH = "9ce22acdb8ad995bcedcaec0af49ca22fa31e5bf60829395897e47342b5112dd9fe52dbe3518a2282ffe2cf1a2dc19fcd1ac2e3b12054c612cdb5e72fa5d0b6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-frege.sty \

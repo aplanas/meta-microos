@@ -5,10 +5,10 @@ asymptote. Nested OCGs are supported. The package may be used \
 with pdfLaTeX and XeLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4svn28803"
+PV = "2023.209.0.0.4svn28803"
 
-RPM_NAME = "texlive-ocg-p-2023.201.0.0.4svn28803-54.1.noarch.rpm"
-RPM_HASH = "129a57f219d2e40225eef941e8b317d06ea438780ba885685d02430293b93fb7da15143632fbcfa53cb5e2b38e7460d9565649cebf17e9836ff4ef1d19145689"
+RPM_NAME = "texlive-ocg-p-2023.209.0.0.4svn28803-55.1.noarch.rpm"
+RPM_HASH = "f01336b6ea266ba929bb139731926866b7d88bdb4c91375d4725db0ea6717c3fdf920622eaf8b464417f1042fba0b38ade51e01565856a790346cb308c5de90d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ocg-p.sty \

@@ -7,10 +7,10 @@ give this caveat. Also included is a short \
 documentation/example of how to use the class."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.3svn29129"
+PV = "2023.209.2.3svn29129"
 
-RPM_NAME = "texlive-ascelike-2023.201.2.3svn29129-53.1.noarch.rpm"
-RPM_HASH = "1f7bf3b61b6ad13c2db140e7eba2b66155b2c21ba0fd541c1ff2afa28940d3c6dafbd0f3801713b235014cd04571a5b873844005edcd9ab8c904c7e273107ab7"
+RPM_NAME = "texlive-ascelike-2023.209.2.3svn29129-54.1.noarch.rpm"
+RPM_HASH = "d57c96f736697110cebb34cb2577172fa11347f10d7aec83130cdde7baf645a7813c744d4adedda92b314deaf85775e4344350ef91f94689fd04ade42cb066e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ascelike.cls \

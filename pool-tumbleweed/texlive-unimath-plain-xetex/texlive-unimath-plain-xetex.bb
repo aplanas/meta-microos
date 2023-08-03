@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides OpenType math font support in plain TeX \
 format. It only works with the XeTeX engine."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2bsvn66394"
+PV = "2023.209.0.0.2bsvn66394"
 
-RPM_NAME = "texlive-unimath-plain-xetex-2023.201.0.0.2bsvn66394-53.1.noarch.rpm"
-RPM_HASH = "7cae66d1f7c416d33ecfa54dba1645bdf8c5165e19e8f134250178ff79ff9b72465685cd462a06c6c2f19f73f0fdd0e93e70885cc00a410f29c128582a93c892"
+RPM_NAME = "texlive-unimath-plain-xetex-2023.209.0.0.2bsvn66394-54.1.noarch.rpm"
+RPM_HASH = "5d6a484bb7e080c20d44b84128442cf9d47526d82a44f25735f24b79b08dc997228f881e0519aa6059d47b08846598dad193ae82e0a78d99b2c1fa855df3e44b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-unimath-bb.map \

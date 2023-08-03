@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-erewhon"
 DESCRIPTION = "The  separated fonts package for texlive-erewhon"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.12svn63312"
+PV = "2023.209.1.12svn63312"
 
-RPM_NAME = "texlive-erewhon-fonts-2023.201.1.12svn63312-53.2.noarch.rpm"
-RPM_HASH = "3889d7b1e1e1fa44dd179654a9375be24892c45d8e68f9843432df33db3db9ac8bf979a827bab2630da48eba1dba93117fabe26537095b7e75b414bffcdbd5fe"
+RPM_NAME = "texlive-erewhon-fonts-2023.209.1.12svn63312-54.1.noarch.rpm"
+RPM_HASH = "cfc28225e2ca768bda9a33aa72eb0ef7df179a26a57b9a4621872e41f08712eff52519aa5be11df9f1c5a9d1a67159775cf8361be0f64876fb298943023d1869"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-erewhon-fonts \

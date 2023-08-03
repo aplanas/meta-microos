@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.3"
 
-RPM_NAME = "qemu-audio-jack-8.0.3-1.1.aarch64.rpm"
-RPM_HASH = "5b0ef8c0dca6a8a697e58eb8cbea8b4ad912e51b723d7ab9c143771b971cd413ca068b69d6c60c15115af7012555597648fa63f78693c04ac8833d9ae07fdea0"
+RPM_NAME = "qemu-audio-jack-8.0.3-2.1.aarch64.rpm"
+RPM_HASH = "28760129ac3eee635f12ce6a89bb930e2c1391f4f98a01f296a73c0d5ce05d4a6132d590ae7b95ad8c5316944a06bc5c147fbe475268b1855e2c16b91d9c202b"
 
 RPROVIDES:${PN} += "qemu-audio-jack"
 

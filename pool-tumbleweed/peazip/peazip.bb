@@ -11,10 +11,10 @@ has an encrypted password manager, secure deletion, can find duplicate files, ca
 export job definition as a script."
 LICENSE = "LGPL-3.0-only"
 
-PV = "9.2.0"
+PV = "9.3.0"
 
-RPM_NAME = "peazip-9.2.0-1.2.aarch64.rpm"
-RPM_HASH = "4d0df4411e54d4bb44d3fb865ef99374b7bd216f13092002c65b0bc0a9908b9b02382ad81fcf8f3fd153986ae1be02b6dd0e6cdab239b6b4786609b389683c3c"
+RPM_NAME = "peazip-9.3.0-1.1.aarch64.rpm"
+RPM_HASH = "a1b20cae3d19ef39b3bf3734f2a4f7aa4e727e8f8ac64e31ba7d2c907a46c1a8890970ac81c42e2a1c183bc9d60fd1b35b24ae30e989a76d4c71a696ab85f7a7"
 
 RPROVIDES:${PN} += "peazip"
 

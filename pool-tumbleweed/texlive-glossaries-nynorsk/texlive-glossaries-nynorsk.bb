@@ -2,10 +2,10 @@ SUMMARY = "Nynorsk language module for the glossaries package"
 DESCRIPTION = "Norwegian Nynorsk language module for the glossaries package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn55189"
+PV = "2023.209.1.0svn55189"
 
-RPM_NAME = "texlive-glossaries-nynorsk-2023.201.1.0svn55189-53.2.noarch.rpm"
-RPM_HASH = "7a654b9bba5530640beb0dfc4e67a988b935d870f6d574a7110668ad771902a0971caa17ece94ae7d66bc686503eec1f41ca3810e84c92a0318f2ae850f82399"
+RPM_NAME = "texlive-glossaries-nynorsk-2023.209.1.0svn55189-54.1.noarch.rpm"
+RPM_HASH = "93548bcbac0369b8970839cc65fe9a586a2452d5d730094dafbb8741d14e6ce75250e94c484ac270696a5c1b60b790492bad75bbc4b25cdc1d3458c8a41f4579"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-glossaries-nynorsk.ldf \

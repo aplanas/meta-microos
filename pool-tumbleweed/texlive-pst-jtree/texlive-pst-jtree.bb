@@ -5,10 +5,10 @@ xkeyval packages. jTree is a development of, and replacement \
 for, the jftree package, which is no longer available."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.6svn20946"
+PV = "2023.209.2.6svn20946"
 
-RPM_NAME = "texlive-pst-jtree-2023.201.2.6svn20946-52.1.noarch.rpm"
-RPM_HASH = "a6ff573679409c0a76821618f35a903d5e30322249b7fa5a52facb5a8c5fc55a3ce84a1b47c9f3c40043c5d995e3140de449bfb1bda048b7d07565aee662b85e"
+RPM_NAME = "texlive-pst-jtree-2023.209.2.6svn20946-53.1.noarch.rpm"
+RPM_HASH = "6333034f8d40490cc5cf93b67f53658714e008a57922320a94c097a59412377b8b107950734badb39302b89776577f4d5557aac1be42fad70702ca1a70f71276"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-jtree.sty \

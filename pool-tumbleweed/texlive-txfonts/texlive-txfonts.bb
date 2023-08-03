@@ -12,10 +12,10 @@ supported by TeX metrics (VF and TFM files) and macros for use \
 with LaTeX."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-txfonts-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "a24a4b67723c8d7b3c245b42898ea50969678fbe955fe334d94d1f2527e7c25abdbd1bfe56abc496a044d5479e6f8de6081462b925047c373827b45c34372dcf"
+RPM_NAME = "texlive-txfonts-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "efe9992de338de9aa34e6b121e146542f19e93f5571440e7cd11d15766f5a49c986a15d1b8110b71e8c45a4b5d15c0ace243da5b80c68ecd48d3e3bed66021d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ly1txr.fd \

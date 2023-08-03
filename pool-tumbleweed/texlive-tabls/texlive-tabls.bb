@@ -6,10 +6,10 @@ The package slows down compilation of tables, since each entry \
 is boxed twice."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.5svn17255"
+PV = "2023.209.3.5svn17255"
 
-RPM_NAME = "texlive-tabls-2023.201.3.5svn17255-54.1.noarch.rpm"
-RPM_HASH = "26ff7bae6e6b24ce19081889f8c8c07957967562ccc6be5a3df57738f8a7529d0b52a424620142e295fb4926aa60848c323633c0777aa7d40d27382cd3d4f240"
+RPM_NAME = "texlive-tabls-2023.209.3.5svn17255-55.1.noarch.rpm"
+RPM_HASH = "73f4efe9a7e51a25658601ec78a124f43d04530390e027a6cff563a36b08b6107f8bf4a50f9d4b840a288129a62af19c2f6f46d48287bbc49a2db2712c08be06"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tabls.sty \

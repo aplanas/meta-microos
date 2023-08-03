@@ -17,10 +17,10 @@ not a publication of ASME, but it does conform to ASME's \
 currently published guidelines for conference papers."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.34svn65413"
+PV = "2023.209.1.34svn65413"
 
-RPM_NAME = "texlive-asmeconf-2023.201.1.34svn65413-53.1.noarch.rpm"
-RPM_HASH = "dace698c21f8e4aa8945287da8279b1f71509ba64b574dad8ce7db1de776e28fd81be0ef11d1a1f1ce0aed78f1cb7bf33b1be6fb7603ee13eed7b4cbf95bbecd"
+RPM_NAME = "texlive-asmeconf-2023.209.1.34svn65413-54.1.noarch.rpm"
+RPM_HASH = "5f9f5fbf66d588151abb1b53124a91b1ffb47f46ac1ccf922ac06a13aaa58b9aba46983fffa625711c0005fd381f39d221d5dca7598015b6b49b58149905e703"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-asmeconf.cls \

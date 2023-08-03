@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides support for typesetting Thai text. within \
 the babel system."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.0svn30564"
+PV = "2023.209.1.0.0svn30564"
 
-RPM_NAME = "texlive-babel-thai-2023.201.1.0.0svn30564-53.1.noarch.rpm"
-RPM_HASH = "fa4551cf198fc67890207f5eb425fa29249c9560e334e5aa8f975755a114540518fee3fc7a4645b0d4c1029cabfa4dc2f93ac35e349ede7d1d0fee874cf0cd25"
+RPM_NAME = "texlive-babel-thai-2023.209.1.0.0svn30564-54.1.noarch.rpm"
+RPM_HASH = "e798ce6c8697fd91ec39619121966f1c5444653491165b9cf78810e3f4e04b1cd4d7f9534e48e5ef681bd70521107d0f5429e0117986bf722488faf7d622d81a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lthenc.def \

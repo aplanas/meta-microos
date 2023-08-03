@@ -14,10 +14,10 @@ normally be done manually or with the help of some other tool, \
 such as the pltotf and vptovf programs."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.933svn62517"
+PV = "2023.209.1.933svn62517"
 
-RPM_NAME = "texlive-fontinst-2023.201.1.933svn62517-52.1.noarch.rpm"
-RPM_HASH = "23f17d9ca77e74c1a07a82d0b6b6b38d29b575d74f77ae3cff4ea8a314cdaf10d46141254071e0c5dd281545df525923a54dbfa2de12060567060243f196b1b4"
+RPM_NAME = "texlive-fontinst-2023.209.1.933svn62517-53.1.noarch.rpm"
+RPM_HASH = "8f5a13ac7e3f298261ffc1f4f911dfb9fd1c017096ed293875b815e0cd62552cb7eb8b3ca906b41eef1088cf13f287976ce6b939d3b015bf692b78b28ec330b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bbox.sty \

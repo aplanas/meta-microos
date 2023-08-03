@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.3"
 
-RPM_NAME = "qemu-block-gluster-8.0.3-1.1.aarch64.rpm"
-RPM_HASH = "aa59e51f7632318f4a2856fc1cbdcd57b14d036456fe386b7c273e0e37250f49bbf5521388ab7ebdeb1159d1b6acf017c811dce18127b3916ab23f805c2c4d5e"
+RPM_NAME = "qemu-block-gluster-8.0.3-2.1.aarch64.rpm"
+RPM_HASH = "25a0806cafeaf02eccfc49ff8759f5ef7c0192a6abfba0d99c6bf268dfecccf7cf6299808e458e597a480640a398c82d471048e538cbde2ba9ab204ff40824bf"
 
 RPROVIDES:${PN} += "qemu-block-gluster"
 

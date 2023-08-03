@@ -3,10 +3,10 @@ DESCRIPTION = "Deals with spacing around French punctuation; the package is \
 distributed for ConTeXt Mark IV only."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn54215"
+PV = "2023.209.svn54215"
 
-RPM_NAME = "texlive-context-french-2023.204.svn54215-54.1.noarch.rpm"
-RPM_HASH = "7510e93362418607ecb042fa63d201a2d74f9fec0580f129b648843ca5e31bab784b42b878f4f3d6db305d14ea4ef764b8765d7a54198c07dba59c061ee3fb90"
+RPM_NAME = "texlive-context-french-2023.209.svn54215-55.1.noarch.rpm"
+RPM_HASH = "7f5c723d069e751829aa8d0afc729fcc270a1366bedb8ded1b952133389078404a1405b348fb14f936b09ac87f1c682ab66025c989f832816dc6907ea09cc739"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-french"

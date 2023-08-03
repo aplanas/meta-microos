@@ -22,10 +22,10 @@ direct commands can be found in the manual. For example, \
 \\aiGoogleScholar."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.9.1_2svn62622"
+PV = "2023.209.1.9.1_2svn62622"
 
-RPM_NAME = "texlive-academicons-2023.201.1.9.1_2svn62622-54.1.noarch.rpm"
-RPM_HASH = "a553e9104f9cd5c29412a8238608598e22e62e1a516df585a6df885bd58d34a82f8fbd7fa5367f198ab6af7c86f525267de18315875d5aeecd57218af1ad003a"
+RPM_NAME = "texlive-academicons-2023.209.1.9.1_2svn62622-55.1.noarch.rpm"
+RPM_HASH = "e1d93b0d4194fecd08f65efe7b5fe0eb963b60aad100c45cb7b74960534e89ae4a60e2a770528badd5f452e74d4059205c3d4776b609da7db2c7d48bba96080b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-academicons.sty \

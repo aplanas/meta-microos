@@ -3,10 +3,10 @@ DESCRIPTION = "A commercial text font donated for the common good. Support for \
 use with LaTeX is available in freenfss, part of psnfss."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-charter-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "6ec3a0fe5094d58f3f84ae26eb4581f60a4947325c0fa5cc10d8a4ebddae7670d8ac1f778fb5d59ae880438ce6fe66f0f1083cd961df23272c7b11e3cf4dd2e7"
+RPM_NAME = "texlive-charter-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "6741450efd590a2bb503e4d57943260a076b079839939c2c17ad1d535d40880e5a793b012d716edbf280f5a851ddade46d9e3ae921f01eb70b37f6d919bbc42b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bchb7t.tfm \

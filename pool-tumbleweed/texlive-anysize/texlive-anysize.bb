@@ -4,10 +4,10 @@ typearea package from the koma-script bundle, or the geometry \
 package."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-anysize-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "34791ba35d667a588cb89a5be4a196c3703d9904e9bb48b0e9f55698ffcb0547481af17439fe7ff647687e8f59441e115ccf1e97d1f2fd56a206d1eff1c61804"
+RPM_NAME = "texlive-anysize-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "0383085aaceb86d3e008cd7a85e1e710cbdabb61ee87b0480f891d0172c941c75f5b1030722c2b1bcd77f9cef274df0c612b6a92b804e97deb8bcc4b7dc4f240"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-anysize.sty \

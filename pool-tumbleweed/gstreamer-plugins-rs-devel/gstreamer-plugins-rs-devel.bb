@@ -10,10 +10,10 @@ This package contains the pkgconfig development files for the rust \
 plugins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.10.9"
+PV = "0.10.11"
 
-RPM_NAME = "gstreamer-plugins-rs-devel-0.10.9-1.1.aarch64.rpm"
-RPM_HASH = "df5718a66387e75b390337fd8c095cae51b44a5ba2e96ccf94a5457c6a219c430d039fd8b7fa10569b7291768b592bb54d5f6fac48d0b92dd9d1c9a16b88b2c2"
+RPM_NAME = "gstreamer-plugins-rs-devel-0.10.11-1.1.aarch64.rpm"
+RPM_HASH = "267799ebdb5899ab8c8c050ebb6fb33b9659f52a7cd6683d7485a35f40e0a96b37191b48c65ad8bf940473e77c53a1be485328db47de8d4bd1c1fbb86a3006e9"
 
 RPROVIDES:${PN} += "gstreamer-plugins-rs-devel \
 pkgconfig-gstaws \

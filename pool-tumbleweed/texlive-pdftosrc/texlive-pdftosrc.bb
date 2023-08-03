@@ -4,10 +4,10 @@ a PDF stream given by object number. Developed as part of the \
 pdfTeX source tree."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66186"
+PV = "2023.209.svn66186"
 
-RPM_NAME = "texlive-pdftosrc-2023.201.svn66186-51.1.noarch.rpm"
-RPM_HASH = "9bed1886a32419c7904e8462f608e35adb891064d7921c1bbb8147b0e08f742cce40f3063c854600c859c3994d59759ca18502874f4254d3f5502f4f90594c56"
+RPM_NAME = "texlive-pdftosrc-2023.209.svn66186-52.1.noarch.rpm"
+RPM_HASH = "ecca8a3d60bd1918369f8ea3cac20b185259e02fb3eb0828d8b59a00f938df619c67d4d1ac2aa531ac728673e3727e51d501f31fa2d4d86a372480eadfa73cdb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-pdftosrc.1 \

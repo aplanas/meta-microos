@@ -2,10 +2,10 @@ SUMMARY = "Iterative JSON parser with a standard Python iterator interface"
 DESCRIPTION = "Iterative JSON parser with a standard Python iterator interface."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.1.4"
+PV = "3.2.3"
 
-RPM_NAME = "python310-ijson-3.1.4-2.2.aarch64.rpm"
-RPM_HASH = "643d857c5a5e5aef658cd94e6f5da3cec664c682a97b08f25279d2a47f3984c3d6abd66e392ec81fc90046c4f503760357fddd2f83a484ad16c1821df080c8e9"
+RPM_NAME = "python310-ijson-3.2.3-1.1.aarch64.rpm"
+RPM_HASH = "f17c612e4a4a3460cc4bce2b628f79826bc0e569af4cbbff81ee8e9ad418de4e4ec7f48ab8a1c9a27ca885f6f0ab35e5b0f828fce3a32ad2b14d9d39e14fdfd8"
 
 RPROVIDES:${PN} += "python3.10dist-ijson \
 python310-ijson \

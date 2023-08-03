@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-gr3d"
 DESCRIPTION = "This package includes the documentation for texlive-pst-gr3d"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.34svn15878"
+PV = "2023.209.1.34svn15878"
 
-RPM_NAME = "texlive-pst-gr3d-doc-2023.201.1.34svn15878-52.1.noarch.rpm"
-RPM_HASH = "8ad74ae9d66efb384d72542a6ec3442c63842291ea955b58f71b6dbe2f235280429005b03fd3a8110e16bbbfc5aba3ea97b90530ea3456cb7f0fbd969a1ca207"
+RPM_NAME = "texlive-pst-gr3d-doc-2023.209.1.34svn15878-53.1.noarch.rpm"
+RPM_HASH = "c53c346c6e1126a384c99b2feabd9b022d9dab87e3dad9a30fc81f052679a9f4246ea21ba47af60e44d6bbab60cec7aa1c114eebc785c26e09b8a6e5a85283db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-gr3d-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bithesis"
 DESCRIPTION = "This package includes the documentation for texlive-bithesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.4.2svn66366"
+PV = "2023.209.3.4.2svn66366"
 
-RPM_NAME = "texlive-bithesis-doc-2023.201.3.4.2svn66366-52.1.noarch.rpm"
-RPM_HASH = "59285fba54088e04ab1abc1af4ded184a358806dac2bfff38debf1accb199c844148474ae8fdfe830629de166e54967b1fe8fb971309960c614a2eece0aeded0"
+RPM_NAME = "texlive-bithesis-doc-2023.209.3.4.2svn66366-53.1.noarch.rpm"
+RPM_HASH = "6366058272c44429252e7d334da8e8781a90f9f2ec9dd4e60b3520b5d8c17fa362b7a59e7806762c06820bbe981602b3577747f4139131f3e53753523d33adfd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-bithesis-doc-zh \

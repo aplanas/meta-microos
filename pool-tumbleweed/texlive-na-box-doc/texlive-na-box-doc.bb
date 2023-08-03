@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-na-box"
 DESCRIPTION = "This package includes the documentation for texlive-na-box"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn45130"
+PV = "2023.209.1.0svn45130"
 
-RPM_NAME = "texlive-na-box-doc-2023.201.1.0svn45130-54.1.noarch.rpm"
-RPM_HASH = "3f00f62e0285ef61123a11b67f8acfadeb1f63ea87071b3001dc41759caf0fac0031571df11fe7051d99611f194ece0329d93fbbd482133b2464e943ba154296"
+RPM_NAME = "texlive-na-box-doc-2023.209.1.0svn45130-55.1.noarch.rpm"
+RPM_HASH = "957ea4026013eea52540433380621776d54a788f6eaeabe55dd0b2f4459030015f0ccc940c15fca134f15ba4d2ae2a9fef40105450a7756e7950ef9031a8d3f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-na-box-doc-ar \

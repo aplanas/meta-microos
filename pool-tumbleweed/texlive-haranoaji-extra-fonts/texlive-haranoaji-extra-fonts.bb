@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-haranoaji-extra"
 DESCRIPTION = "The  separated fonts package for texlive-haranoaji-extra"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.20230223svn66115"
+PV = "2023.209.20230223svn66115"
 
-RPM_NAME = "texlive-haranoaji-extra-fonts-2023.201.20230223svn66115-53.2.noarch.rpm"
-RPM_HASH = "32041ebec543379586a80f4ad753024ed2e395ef354edbeca2ec7ec3358e6bbc6d5e2d4e2e5ef51a821bb53631e77719d537f62525a4157390af8115edd1f8ac"
+RPM_NAME = "texlive-haranoaji-extra-fonts-2023.209.20230223svn66115-54.1.noarch.rpm"
+RPM_HASH = "4c9727fcc6b825596b6be1471bf1ec6edc2670cbece56ca6d3acbf6c2067d0eea08e20580a4cad5063b422ceb6b73b77d3f98472720c61d9d0d06cb1628b3128"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

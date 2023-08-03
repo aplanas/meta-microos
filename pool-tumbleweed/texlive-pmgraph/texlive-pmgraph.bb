@@ -3,10 +3,10 @@ DESCRIPTION = "A set of extensions to LaTeX picture environment, including a \
 wider range of vectors, and a lot more box frame styles."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-pmgraph-2023.201.1.0svn15878-52.1.noarch.rpm"
-RPM_HASH = "66ba0c7faefedf83b034dba095fef0de24ec6a62045ccbcb3364acb618974e29c56eef59a3b5ba67b7bed7e9649932f9f3007f9c1e0d6543544619b2e458a30c"
+RPM_NAME = "texlive-pmgraph-2023.209.1.0svn15878-53.1.noarch.rpm"
+RPM_HASH = "225e132e090beebaa386c9c3c3cf8e35ec17ddf4d307ec237f8b32b759e0cc6f8dd82738044ac57fca66c02b079d83e8345363b001f332e4b8aa883899253652"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pmgraph.sty \

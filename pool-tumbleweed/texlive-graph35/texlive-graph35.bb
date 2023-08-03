@@ -6,10 +6,10 @@ screen, etc.). It was written to typeset documents instructing \
 students how to use their calculator."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1.3svn65138"
+PV = "2023.209.0.0.1.3svn65138"
 
-RPM_NAME = "texlive-graph35-2023.201.0.0.1.3svn65138-53.2.noarch.rpm"
-RPM_HASH = "6f110a53561e62ac36f48f7abda2554a46468acbe54ba853820d2b97a9947fe518f93b53bb5750893de53c2eb310bff82c3f0ea16e2c73c833929bc08e05a546"
+RPM_NAME = "texlive-graph35-2023.209.0.0.1.3svn65138-54.1.noarch.rpm"
+RPM_HASH = "d7a461b336a9179b66f56a171de6d1f3fc66c3a4834641f89244beae5ac38dee33dd48a2ef670edbcbf0b80e2ea6d95f8f4817915eeef02a17ee7f9c2b6bde4b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-graph35-keys.sty \

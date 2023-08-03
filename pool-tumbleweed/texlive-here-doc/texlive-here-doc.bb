@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-here"
 DESCRIPTION = "This package includes the documentation for texlive-here"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn16135"
+PV = "2023.209.svn16135"
 
-RPM_NAME = "texlive-here-doc-2023.201.svn16135-53.2.noarch.rpm"
-RPM_HASH = "2b7b974a1c73d64c3532850c63a7acf6a139685731dcb62a3f5bf99f36b01b291850f373963cc2e634b0533681cd8eb4b15bfd371742e1f2e32258b3d166df44"
+RPM_NAME = "texlive-here-doc-2023.209.svn16135-54.1.noarch.rpm"
+RPM_HASH = "e1ab29aa4a8f2b37fdd013a545d14ea41683b383177d1828e119afc4f174a34ed894d596faeb3b9a40b657db2c697bb0f3fe078af80e5d2e6dc5163646c1db21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-here-doc"

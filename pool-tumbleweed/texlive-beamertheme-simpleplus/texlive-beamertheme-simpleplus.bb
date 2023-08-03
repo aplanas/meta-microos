@@ -4,10 +4,10 @@ Beamer. It can be used for academic and scientific \
 presentations."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.0svn64770"
+PV = "2023.209.1.0svn64770"
 
-RPM_NAME = "texlive-beamertheme-simpleplus-2023.201.1.0svn64770-53.1.noarch.rpm"
-RPM_HASH = "ab309df921f793ed98cd26289ed857bb0de3c00641bdaa72a83f2a410c7e16394fd94bf39498063264dc8bdb8f3c0bdb9c995a3c5e08e1e740b1c287f27c2da6"
+RPM_NAME = "texlive-beamertheme-simpleplus-2023.209.1.0svn64770-54.1.noarch.rpm"
+RPM_HASH = "c27e029e47e93bb1a1c5d4abaaeabfef7745f733d9fcea3c7dd97d2a5ffcc3dc3e261d8dee479cd4079acb311ccbec34e50619408b310ac8f1c2f4f317de5f57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemeSimplePlus.sty \

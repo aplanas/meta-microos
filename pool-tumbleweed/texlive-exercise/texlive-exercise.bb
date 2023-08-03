@@ -10,10 +10,10 @@ babel package is detected, but not fully supported yet (only \
 English and French are implemented)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.6svn35417"
+PV = "2023.209.1.6svn35417"
 
-RPM_NAME = "texlive-exercise-2023.201.1.6svn35417-52.1.noarch.rpm"
-RPM_HASH = "cae7054796295ca80a71e0206ad4c279913ca4c4b71410df3d7e9a5a514fd6b61f7c8074be248162c5ad222c047e0c7331013d20b43e1e71b8a890e3a4f835fb"
+RPM_NAME = "texlive-exercise-2023.209.1.6svn35417-53.1.noarch.rpm"
+RPM_HASH = "ea25506e471e6acc01460ba290ff89ad6b2e8f3a34d9ae49962a11e1ac5911e6611ff6ecb9efbe7e878c090e79564a241d8db858a62d184361e442c95714f33c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-exercise.sty \

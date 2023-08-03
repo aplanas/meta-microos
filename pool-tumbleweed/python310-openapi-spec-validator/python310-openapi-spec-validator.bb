@@ -5,24 +5,23 @@ OpenAPI 3.0.0 specification. The validator aims to check \
 for full compliance with the Specification."
 LICENSE = "Apache-2.0"
 
-PV = "0.5.6"
+PV = "0.6.0"
 
-RPM_NAME = "python310-openapi-spec-validator-0.5.6-2.2.noarch.rpm"
-RPM_HASH = "742d0d1cfe6edc102e250ec113b0a8ddeaf5a9c90991eac6031611b3d923fe8e6bf1c5b7187cb99d77cd42cfa6d8e7c8d1cd7221e1d2d83a3241090bcb8c6210"
+RPM_NAME = "python310-openapi-spec-validator-0.6.0-2.1.noarch.rpm"
+RPM_HASH = "c2d50d81e63f35062e1bc5e48f53bbbebcf4a5f64bd680cc1ae183fce8e73aa7849fc30b5db7de847f93995e6dd380cd9de99e4fcd86225457607952636f23ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-openapi-spec-validator \
 python310-openapi-spec-validator \
 python3dist-openapi-spec-validator"
 
-RDEPENDS:${PN} += "-python310-jsonschema >= 4.0.0 with python310-jsonschema < 4.18 \
+RDEPENDS:${PN} += "-python310-jsonschema >= 4.18 with python310-jsonschema < 5 \
+-python310-jsonschema-spec >= 0.2.3 with python310-jsonschema-spec < 0.3 \
+-python310-lazy-object-proxy >= 1.7.1 with python310-lazy-object-proxy < 2 \
+-python310-openapi-schema-validator >= 0.6.0 with python310-openapi-schema-validator < 0.7 \
 /usr/bin/python3.10 \
 /usr/bin/sh \
 python-abi \
-python310-importlib-resources \
-python310-jsonschema-spec \
-python310-lazy-object-proxy \
-python310-openapi-schema-validator \
 update-alternatives"
 
 inherit rpm

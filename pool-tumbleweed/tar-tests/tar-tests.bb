@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.34"
 
-RPM_NAME = "tar-tests-1.34-10.4.aarch64.rpm"
-RPM_HASH = "9c7da8e0f45def8e48394a38b520426cb7c43dc34667c3790d98cb060678c24e14105f546be46fcb4fbc67ad9af366b9d9582919a21225c798e0b0dfcb639f9c"
+RPM_NAME = "tar-tests-1.34-11.1.aarch64.rpm"
+RPM_HASH = "d949ccd5d63aba45e414702745b820f5ea38d812c94a4dbe531b9eba68263931eaff5fd8e656bf856c9755bc3fc645c791f86603fad7940fc92d8b115f97fb41"
 
 RPROVIDES:${PN} += "tar-tests"
 

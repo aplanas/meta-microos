@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gtl"
 DESCRIPTION = "This package includes the documentation for texlive-gtl"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5svn49527"
+PV = "2023.209.0.0.5svn49527"
 
-RPM_NAME = "texlive-gtl-doc-2023.201.0.0.5svn49527-53.2.noarch.rpm"
-RPM_HASH = "51a8c07c53d14cce3a6db72fe3db4085e131f45950f8216574c3f9534082c7d35aac4a9de3ef7ea59c9f62b1da79f68311b4abb5b02866153a1b1a52c38185d9"
+RPM_NAME = "texlive-gtl-doc-2023.209.0.0.5svn49527-54.1.noarch.rpm"
+RPM_HASH = "349e8a1806b903ad601a2715519a2244d1566eb84b394fa016ab13fa79d3113e8e72ff494211d0192ced848177302964198c9e139122949b85ff28e20a1ad21c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gtl-doc"

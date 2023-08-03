@@ -8,10 +8,10 @@ end of the \\endnote and its arguments, rather than within the \
 argument of the <text> argument."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54758"
+PV = "2023.209.svn54758"
 
-RPM_NAME = "texlive-endnotes-hy-2023.201.svn54758-53.2.noarch.rpm"
-RPM_HASH = "4cbb0078810db7fb28cc86feed5ba0c5151e8a69c14b324f1a66122b9869acdb78076a023a1629b9b53f5436a5a275f4800f046ed27a7aa42a047024692eee5b"
+RPM_NAME = "texlive-endnotes-hy-2023.209.svn54758-54.1.noarch.rpm"
+RPM_HASH = "c6980a28ad9e0042a16ffc349b6bf20f4b7c09cc30a83a72b129af1fb647be204b196b66e71388a8656f3a7d63d152404c49cf2293fcf142f7af9fc03e94ed47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-endnotes-hy.sty \

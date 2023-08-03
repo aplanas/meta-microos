@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "1.2.7"
 
-RPM_NAME = "fcitx-qt5-1.2.7-1.26.aarch64.rpm"
-RPM_HASH = "2e28215c576ed06a0fa8d9bcbff05a9873f9d5da0518e0b91250ab5e6b4638c2c78a5c8459bc41be8694e1de6c2b51b1d84faeaa931b6f279934ec4ddbd5dbed"
+RPM_NAME = "fcitx-qt5-1.2.7-1.27.aarch64.rpm"
+RPM_HASH = "380a025176cc1def6445b067f756be2417cb9672a9070eaf5738ca09a38060d3135ac9d6526e1dcba0fabcef8c77ad90dbf8ac81bf474f9632035ed78dc519a0"
 
 RPROVIDES:${PN} += "fcitx-qt5 \
 libFcitxQt5DBusAddons.so.1 \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-commutative-diagrams"
 DESCRIPTION = "This package includes the documentation for texlive-commutative-diagrams"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.1svn55526"
+PV = "2023.209.1.0.1svn55526"
 
-RPM_NAME = "texlive-commutative-diagrams-doc-2023.201.1.0.1svn55526-53.1.noarch.rpm"
-RPM_HASH = "7d7857f12922c4373d74d85f949384dc993b92f31c32bd9c5dd71c79ede05e8805d3de5c06e4cd8863ff631dc9392db4eb18122ae543325a28edb3cf7dbda5d4"
+RPM_NAME = "texlive-commutative-diagrams-doc-2023.209.1.0.1svn55526-54.1.noarch.rpm"
+RPM_HASH = "f7f33d10d23d7ba07693a0b3099a346a89d64170251aa800d218e412f9e3844a2b67ec9e633027cc89074e995a207cb8ac716df77d31c5174bc77cee382d497b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-commutative-diagrams-doc"

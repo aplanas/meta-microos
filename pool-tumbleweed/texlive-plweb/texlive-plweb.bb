@@ -6,10 +6,10 @@ system as well as by LaTeX, whether that Prolog system be \
 C-Prolog, Quintus-Prolog, or ECLiPSe."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.0svn15878"
+PV = "2023.209.3.0svn15878"
 
-RPM_NAME = "texlive-plweb-2023.201.3.0svn15878-52.1.noarch.rpm"
-RPM_HASH = "2bcadc7646c161a6b4e200daa0805783d86103bcd8bea9fe3ab687062a2d5d0f5b9271f64bc47a66177f5380cf3a28c8530f290543fb4c03ff54d6c66b7257d5"
+RPM_NAME = "texlive-plweb-2023.209.3.0svn15878-53.1.noarch.rpm"
+RPM_HASH = "28929e24d54c6190d264c05779db461bd85ba08484553caf2ca874fe7aef67ce89a11c3b7164bf3241b5025d17646b303673b32ebee02ccd5e19249e77e67399"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pcode.sty \

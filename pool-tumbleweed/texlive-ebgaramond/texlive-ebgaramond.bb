@@ -5,10 +5,10 @@ works for (pdf)LaTeX, XeLaTeX and LuaLaTeX users; configuration \
 files for use with microtype are provided."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64343"
+PV = "2023.209.svn64343"
 
-RPM_NAME = "texlive-ebgaramond-2023.201.svn64343-53.2.noarch.rpm"
-RPM_HASH = "2edc7aa9eb01809785e1b6e9ec5038ce385924bd2b6215872cf7bd6547960bec49dd91617cd5fbf6bef0b11cfe6e004e615b3882d405fe3002b28839e7582b30"
+RPM_NAME = "texlive-ebgaramond-2023.209.svn64343-54.1.noarch.rpm"
+RPM_HASH = "28e322bac4555c9cda422ef06c4c69203e0bf1b0bb4ce41c59b22dc706aef56626bd8468d293fb0a40c1229d5684252a7b95a97b053fff68d67e293c8cd5dbde"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-EBGaramond-Bold-inf-lgr.tfm \

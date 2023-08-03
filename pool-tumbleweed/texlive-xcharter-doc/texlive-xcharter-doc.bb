@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xcharter"
 DESCRIPTION = "This package includes the documentation for texlive-xcharter"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.24svn63057"
+PV = "2023.209.1.24svn63057"
 
-RPM_NAME = "texlive-xcharter-doc-2023.201.1.24svn63057-52.2.noarch.rpm"
-RPM_HASH = "22414ec9ea05d56e25da6a5871aac38cbce460475c4eb8e4b0394affbb0ea896c8971910a7db4ef58d40df8a7e78897e13eb5f8a587369eaec80687c7aaf7fb5"
+RPM_NAME = "texlive-xcharter-doc-2023.209.1.24svn63057-53.1.noarch.rpm"
+RPM_HASH = "d07f95cbf6d6d2f343a4d8e76484383c35516d0596531988a3e5907f39c70ff2047adbde1f1d205d03843ace712b09a1700274a99d3bbbbabdfb5cca5878b1e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xcharter-doc"

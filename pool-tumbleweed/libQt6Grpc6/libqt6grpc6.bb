@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Grpc library"
 DESCRIPTION = "The Qt 6 Grpc library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6Grpc6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "4bd84056651a4f85bf7a471e905c9496d3cba0802deb2c29eb9f7beee06f8e383025e1c139eeb3231fb0918ed81f83426176088fb21703d01389e7c83b502d52"
+RPM_NAME = "libQt6Grpc6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "ab09c58882086585b3ac11c08efb29e27d691de56f0ff3a947ffffa54940d47dd8fbe0022f9cdb81ef4ee392cd64e5ebc77388e4690a6059e731b9387f4f00ee"
 
 RPROVIDES:${PN} += "libQt6Grpc.so.6 \
 libQt6Grpc6"

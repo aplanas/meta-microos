@@ -14,10 +14,10 @@ the pmx preprocessor compiles a simpler input language to \
 MusiXTeX macros.."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.36svn65519"
+PV = "2023.209.1.36svn65519"
 
-RPM_NAME = "texlive-musixtex-2023.201.1.36svn65519-54.1.noarch.rpm"
-RPM_HASH = "8a78b94e074ea5d662f4eef9c0401a26779ef7d572e4001e372df6210e9372ed254c3281a5abe2a9eb701bd6ecaa65971ab192ad71bd1666fb36ad99a1d870ec"
+RPM_NAME = "texlive-musixtex-2023.209.1.36svn65519-55.1.noarch.rpm"
+RPM_HASH = "c56d5fa0f80ddacf03fed3151790972147ffb1e13ccba4922345ea61c4441e0385310248801d56b86a963c14bea00a78d16d8dedf331d9b6073b7e44a22e4e9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-musixadd.tex \

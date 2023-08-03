@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.5.0"
 
-RPM_NAME = "libvirt-libs-9.5.0-1.1.aarch64.rpm"
-RPM_HASH = "eb92b98fa05f25e1054ecc79a7d83ec0ab8c1161d3e0c63b4f4ac406ca67a1b96a8c1ac2d87662e07b26d20a0311bb38eda32d44f41de0c3be3ff9ead4170837"
+RPM_NAME = "libvirt-libs-9.5.0-2.1.aarch64.rpm"
+RPM_HASH = "08fb6368d7dc537b31ddd25c670bebf23cddf0799e1521c4b21f11f65289cea9294d07e6cd04c461dc778331192f28442a0f1b908c8c7baa98ec82193fcb5998"
 
 RPROVIDES:${PN} += "config-libvirt-libs \
 libvirt-admin.so.0 \

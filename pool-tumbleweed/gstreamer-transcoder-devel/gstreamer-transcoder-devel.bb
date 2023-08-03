@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains the header files needed to build applica
 making use of the GStreamer Transcoding API."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "gstreamer-transcoder-devel-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "77e29776e5ac51810c23a8d6ca528959edfffdb9c1acfc06f854c3b1f1d5491d1ee4ad1b0a3c94a237ec17aca39a0aa6a208d1626474ef25d380d2d50fa09a45"
+RPM_NAME = "gstreamer-transcoder-devel-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "be7f02c4def9ed6427e5d16d11d82e6f932d5d9c5161b81f792750aa11ad90c62d96907eedcdd4056eaa6bdd689a01b755458fe6ae655d672dfc9dfa61a79aaf"
 
 RPROVIDES:${PN} += "gstreamer-transcoder-devel \
 pkgconfig-gstreamer-transcoder-1.0"

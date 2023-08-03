@@ -11,10 +11,10 @@ structures). The package uses an autolayout algorithm which can \
 be customized, e. g., to prioritize certain paths."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.3.0svn66513"
+PV = "2023.209.2.3.0svn66513"
 
-RPM_NAME = "texlive-genealogytree-2023.201.2.3.0svn66513-52.1.noarch.rpm"
-RPM_HASH = "92d2ce8374b4f30fba3600fb4f1ec7c2bc5b048c0151cb0c1a2f900c5bde0960c5038c28c35d061ff7637be0964f5d64dfc2953989e150b8b096f3bf763d65e2"
+RPM_NAME = "texlive-genealogytree-2023.209.2.3.0svn66513-53.1.noarch.rpm"
+RPM_HASH = "5619fea29905665f1ca1c587e75cfed9b6281f19818f61aa751eb30a775444c0df92275fbc525da8db64f72aa1b9d6e012c5e7c1e0aee33208e70e10cab80368"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-genealogytree.sty \

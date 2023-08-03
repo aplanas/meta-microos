@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-notomath"
 DESCRIPTION = "The  separated fonts package for texlive-notomath"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.02svn58726"
+PV = "2023.209.1.02svn58726"
 
-RPM_NAME = "texlive-notomath-fonts-2023.201.1.02svn58726-54.1.noarch.rpm"
-RPM_HASH = "ec86625bed0209a059c2208e2a3dec4751b62be64a292f4f702e658050b9751c7e91cff9e360549fff3345e7cec2738eee771f1f0639a719bf48e6057421d92b"
+RPM_NAME = "texlive-notomath-fonts-2023.209.1.02svn58726-55.1.noarch.rpm"
+RPM_HASH = "9257b099a722a892e6c43ff1c606d073e5a70bc89c5f0a898d3e4a9ce35fc93c1b0758ee42c147b2ea10589a65adb7f7ecfa9104db5d599783e23c1254d2a316"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-notomath \

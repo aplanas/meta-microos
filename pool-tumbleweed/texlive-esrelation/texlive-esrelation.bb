@@ -18,10 +18,10 @@ a set of symbols. This package provides an math symbol font for \
 describing relations between ordered pairs by using Metafont."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn37236"
+PV = "2023.209.svn37236"
 
-RPM_NAME = "texlive-esrelation-2023.201.svn37236-52.1.noarch.rpm"
-RPM_HASH = "3713394ca6b2a7869d59f50c8a27cfd3f7b33b57c7ee886281080066365caf9eaff4e1b7afca5ecd647eb3b5c57c8bd70e4deff7040071e1427c77b287d194c4"
+RPM_NAME = "texlive-esrelation-2023.209.svn37236-53.1.noarch.rpm"
+RPM_HASH = "1f6c3642f8a66f7a723d39beb2b8e1f00edc36b040a34b88ad66bd6b5545938aa4ceb5c40c39d7bead116b2b191ad25701348be1ffe32a241459dcbe1ce66b2e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-esrelation.map \

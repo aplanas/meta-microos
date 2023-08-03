@@ -3,10 +3,10 @@ DESCRIPTION = "The package adds to PSTricks the ability to draw 3-dimensional \
 views of the five Platonic solids."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.01svn16538"
+PV = "2023.209.0.0.01svn16538"
 
-RPM_NAME = "texlive-pst-platon-2023.201.0.0.01svn16538-53.2.noarch.rpm"
-RPM_HASH = "c8ee5b0c83b6b61758b9df370d056cb9f3af0de7f2f334b3ff84832807f9671410424f3311582b528444e50937593309436e15e47d59be8187495c900dd00965"
+RPM_NAME = "texlive-pst-platon-2023.209.0.0.01svn16538-54.1.noarch.rpm"
+RPM_HASH = "55c047cf6b9d5d73afd43610a659302e2687520332343e14687e2ad93ec524674fac9acd4214e36fb9f74db3be3f9ca04f47070035d78b88714151a46bb6e72a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-platon.sty \

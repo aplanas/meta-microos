@@ -7,10 +7,10 @@ results. The package provides Matlab functions to transform \
 Matlab results to plottable data."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.0.2svn31729"
+PV = "2023.209.2.0.2svn31729"
 
-RPM_NAME = "texlive-numericplots-2023.201.2.0.2svn31729-54.1.noarch.rpm"
-RPM_HASH = "24aa5e5f3aa176c9f10a26d20b61ca29230adea9874544628f60e836c035b6ce3b81351081b8f1705ec4ef89cc3b899e855cdbd1124e30593eb2daa075385588"
+RPM_NAME = "texlive-numericplots-2023.209.2.0.2svn31729-55.1.noarch.rpm"
+RPM_HASH = "15a9afefc02ced7600b10033bd3798543cca403d191926f1693b55d27dda7160a0221ecf405ae5f087995c466063c81f1538c22c124fb63a134ff6fa950a655b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-NumericPlots-TickLabels.tex \

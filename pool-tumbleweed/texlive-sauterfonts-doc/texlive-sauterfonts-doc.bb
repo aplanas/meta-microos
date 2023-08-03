@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sauterfonts"
 DESCRIPTION = "This package includes the documentation for texlive-sauterfonts"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-sauterfonts-doc-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "c36e035e23c99416f31d08721fae1bd2234665fea55d2310b8c37b5dfe67ddef6ee9a57b6d5bcc294e8804978883c8db22485294842d56184ac705d76dac310a"
+RPM_NAME = "texlive-sauterfonts-doc-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "38f17bbecde82f8582b051ebe1b27c57eb165fff2bea89f9e443c5b94f5e0f758c8cf736fd0f6d6400c408b90e6ca396e0764b6830dcacac539fa0ab4d4079f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sauterfonts-doc"

@@ -7,10 +7,10 @@ from a wavy underline of each letter. The two fonts are \
 supplied as Metafont source."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-cmpica-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "05de0b3919818f85810682505cc86cd68b1484b512039138357a91948286c62ace7d06ff35ef110c817e5be281136471de1e72e6adbe17a7f924ea093bb87c32"
+RPM_NAME = "texlive-cmpica-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "39434a168beb83ad42e174b01413354c06aa1535bf8857e48f3656fab3d08af3c4a871e92c53bb905f79d1878f58aaaf6d7bf1a54cb1eaac0ada74ba9447fe4a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmpica.tfm \

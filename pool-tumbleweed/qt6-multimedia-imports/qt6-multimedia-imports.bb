@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Multimedia QML files and plugins"
 DESCRIPTION = "QML files and plugins from the Qt 6 Multimedia module."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-multimedia-imports-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "e379ee560989f442ac1eedb132458b5c22892d3d086443e0cc0223c288d8585527e81093fbfa1bb9ec2571375c08d09c9c4f84baa92a7c3f3084322ba4058753"
+RPM_NAME = "qt6-multimedia-imports-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "820cdf30d14e64345c709f9129cc655398fe99354204dcd8fa63875b84374892a95a66cc50670533de1059476a0b5194566de6b6ff96a4dfefc43f676587f9c8"
 
 RPROVIDES:${PN} += "libquick3dspatialaudioplugin.so \
 libquickmultimediaplugin.so \

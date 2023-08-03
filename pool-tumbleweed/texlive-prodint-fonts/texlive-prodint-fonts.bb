@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-prodint"
 DESCRIPTION = "The  separated fonts package for texlive-prodint"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn21893"
+PV = "2023.209.svn21893"
 
-RPM_NAME = "texlive-prodint-fonts-2023.201.svn21893-52.1.noarch.rpm"
-RPM_HASH = "9d58ccd2bcf2433e99d356dbc5b9e069a0f6569ac9cd03371d44bab1665b2be600f341d3346de9184054495ecb83ae5661afd4fa713a68be2d6734c28952c8e2"
+RPM_NAME = "texlive-prodint-fonts-2023.209.svn21893-53.1.noarch.rpm"
+RPM_HASH = "b64e8d5135e26003bdfe091e52d77c93a7d890c04f9a94833b6dda22e7941941c18d85c8fd4fd6ebbda7fd7f5b1ef372fec3a742ac8639b9b74ce7f1a0661c84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-prodint \

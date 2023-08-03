@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-noto"
 DESCRIPTION = "The  separated fonts package for texlive-noto"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64351"
+PV = "2023.209.svn64351"
 
-RPM_NAME = "texlive-noto-fonts-2023.201.svn64351-54.1.noarch.rpm"
-RPM_HASH = "94120dd4085c570a6f8bc327449e416af9726de293de9910d18cd30dadc92a87c373dfe1aefec4c9be87b358db52a2401e2d30fea6a70a8976b3d5e979a22907"
+RPM_NAME = "texlive-noto-fonts-2023.209.svn64351-55.1.noarch.rpm"
+RPM_HASH = "4435cff34ebf3fbe8634ca07cd3686b5ebf8427c57ddc100d2e7d687e0206302a2578ee9db61d5287b807d53b97d5f94f638c6a8ddac8ca4d9b41c9ffb39b3aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-noto-fonts \

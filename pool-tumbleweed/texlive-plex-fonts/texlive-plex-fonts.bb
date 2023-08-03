@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-plex"
 DESCRIPTION = "The  separated fonts package for texlive-plex"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64496"
+PV = "2023.209.svn64496"
 
-RPM_NAME = "texlive-plex-fonts-2023.201.svn64496-52.1.noarch.rpm"
-RPM_HASH = "243f1e1ad0cb12f8c7dd90dee39640409e9cb2638c715865a868d3d397039da2ac1c26652725084d4121f134aa75c6f001b197be1b62ec4cf84d5495a552ef0b"
+RPM_NAME = "texlive-plex-fonts-2023.209.svn64496-53.1.noarch.rpm"
+RPM_HASH = "b1fc9a595db4a5cfac556e266d0b29a2ad8d1fca2302fb117bc1021ded8e3bc907168e38db2bc3cbb3bbf60ff985a9b5f462e4bfa71211640bf1f169a29a17e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-plex-fonts \

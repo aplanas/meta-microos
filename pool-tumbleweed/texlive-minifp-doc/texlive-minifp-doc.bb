@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-minifp"
 DESCRIPTION = "This package includes the documentation for texlive-minifp"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.96svn32559"
+PV = "2023.209.0.0.96svn32559"
 
-RPM_NAME = "texlive-minifp-doc-2023.201.0.0.96svn32559-54.1.noarch.rpm"
-RPM_HASH = "c4ce3fbfe58d71a09a100ecb8b424efb4d8c4711077ce6fa2c71336670cb55d61f7fc510bd6ca184175de12a0172052bdc46d168a07d267ed093cbf8d7697bc2"
+RPM_NAME = "texlive-minifp-doc-2023.209.0.0.96svn32559-55.1.noarch.rpm"
+RPM_HASH = "a3bde0a5a9dbde5417efe0cc02da705e06bd2cef7581ffadd0fac39d9be2b9c25b076904ef60cb5c705fa0a43e7bd485f3aeb25970b9490c2852e9886e5f69b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-minifp-doc"

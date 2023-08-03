@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sudokubundle"
 DESCRIPTION = "This package includes the documentation for texlive-sudokubundle"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0asvn15878"
+PV = "2023.209.1.0asvn15878"
 
-RPM_NAME = "texlive-sudokubundle-doc-2023.201.1.0asvn15878-57.1.noarch.rpm"
-RPM_HASH = "3b7e558901ff396a4722f621550db901a166a0e897e4f6a89bb2150c7ce4b133ea5ede92dc78bc52e4207f503cef78aa8dda73f8ac307e16fa67e8b4c336f61e"
+RPM_NAME = "texlive-sudokubundle-doc-2023.209.1.0asvn15878-58.1.noarch.rpm"
+RPM_HASH = "73afdbcf496452a965bbc3481eb6ab4653f2077720674f441574c62dd72386bd119c6e8f09be88f3286635b514960eb990da4d152f846feab35a29e3129cb873"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sudokubundle-doc"

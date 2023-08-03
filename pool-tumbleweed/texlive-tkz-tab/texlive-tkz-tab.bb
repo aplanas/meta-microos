@@ -6,10 +6,10 @@ been taken temporarily out of circulation to give the author \
 time to investigate some problems."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.12csvn66115"
+PV = "2023.209.2.12csvn66115"
 
-RPM_NAME = "texlive-tkz-tab-2023.201.2.12csvn66115-52.1.noarch.rpm"
-RPM_HASH = "c3708e9c406bf26580e6452d9b32f1bcca8594b118f80564f282540e20c6e696533e1613e0c13cbc1b7cebacf77326ff85aafe6b1b1d0ec46cecd009c0600a30"
+RPM_NAME = "texlive-tkz-tab-2023.209.2.12csvn66115-53.1.noarch.rpm"
+RPM_HASH = "b8e03b1df15b877824d5aee1cca6004ad3d53169a630d30c2a7498d08d036c4b1ef422aaa048cba11186beba3e6e8aa1aff9ba4ad90c303916c25f9b18c9351b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tkz-tab.sty \

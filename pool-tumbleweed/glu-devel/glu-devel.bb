@@ -11,10 +11,10 @@ This package contains includes headers and static libraries for \
 compiling programs with GLU."
 LICENSE = "SGI-B-2.0"
 
-PV = "9.0.2"
+PV = "9.0.3"
 
-RPM_NAME = "glu-devel-9.0.2-2.4.aarch64.rpm"
-RPM_HASH = "a4b6d7bbc1a53241efda0b092932018464444b366f15529e57b13df8d6ef09f71bb468b02b68b648ace973635662dac35a82e7b49b5cbe8c25bbadb92e5e1c65"
+RPM_NAME = "glu-devel-9.0.3-1.1.aarch64.rpm"
+RPM_HASH = "43669686aea7c3fc6e9f2aa02eba1c369953f77ff5e290b0cd995be6a42c9630452b45c5900595c56c0abcc88a2cb908f2cf34674204eaff6234e28714760d57"
 
 RPROVIDES:${PN} += "Mesa-libGLU-devel \
 glu-devel \
@@ -22,6 +22,6 @@ pkgconfig-glu"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libGLU1 \
-pkgconfig-gl"
+pkgconfig-opengl"
 
 inherit rpm

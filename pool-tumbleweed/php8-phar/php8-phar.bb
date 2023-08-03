@@ -10,10 +10,10 @@ for accessing different databases. Phar also can convert between tar, \
 zip and phar file formats."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.7"
+PV = "8.2.8"
 
-RPM_NAME = "php8-phar-8.2.7-1.1.aarch64.rpm"
-RPM_HASH = "c5a27b5458f0fd1a9ad02d3cc31a9362efc08c70522179036f4d2c84568637ca965e1b2766f101f2f2abe76871482f349008669e1c2b8fdbafbef4d9f5fd5ec3"
+RPM_NAME = "php8-phar-8.2.8-1.1.aarch64.rpm"
+RPM_HASH = "fdee7b45c19f50df656e349d6edab815873ce6e1ae2ad5eaacc7e2e04eca6ad76f1a1a5911e7a1310cae6405194c69bad0f3085d576843f0e9263a0adb67c2ec"
 
 RPROVIDES:${PN} += "config-php8-phar \
 php-phar \

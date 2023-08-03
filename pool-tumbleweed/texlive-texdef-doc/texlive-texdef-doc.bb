@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-texdef"
 DESCRIPTION = "This package includes the documentation for texlive-texdef"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.9svn64967"
+PV = "2023.209.1.9svn64967"
 
-RPM_NAME = "texlive-texdef-doc-2023.201.1.9svn64967-54.1.noarch.rpm"
-RPM_HASH = "d06b51e1ad4f6e18c59e312a37e621ef3a9818c54b3f940f4e6cc189f79cd72a7a62a81eeb0631ae7ac8998be4b778a0d9093c11578427b197ff928afe0fe9bb"
+RPM_NAME = "texlive-texdef-doc-2023.209.1.9svn64967-55.1.noarch.rpm"
+RPM_HASH = "555d9bab4f67d93679673603113fc9d6771fecda43bf7ea76383764d829d97a6a7a078be936898d72dcdf2b6c349ccc17348f641a4e25fee3fe3ec94bcc6d0b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texdef-doc"

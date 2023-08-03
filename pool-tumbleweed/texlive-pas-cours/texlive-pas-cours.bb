@@ -3,10 +3,10 @@ DESCRIPTION = "Several groups of macros cover different branches of \
 mathematics."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.9svn55859"
+PV = "2023.209.1.9svn55859"
 
-RPM_NAME = "texlive-pas-cours-2023.201.1.9svn55859-51.1.noarch.rpm"
-RPM_HASH = "93b50ec719ef884616de8a4ec1b9bc70b7533ab511a34458ed320c0fcd3321b905c103f6e2bc95fc53e0b7efb549a04696f1fd3567867502aab3bd20ac9b0520"
+RPM_NAME = "texlive-pas-cours-2023.209.1.9svn55859-52.1.noarch.rpm"
+RPM_HASH = "f827b4d67a7259239181ec3aed0c202b02e694ce51a17685b853cff428f1d4ef82052725e6af87c6f2669b886bf6130e0e4d20116db1ad03aabc5f05f63b5dba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-macro-calculs.tex \

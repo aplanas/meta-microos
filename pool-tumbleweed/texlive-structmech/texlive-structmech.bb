@@ -6,10 +6,10 @@ forces/displacements, various boundary conditions, internal \
 force distributions, etc."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.1svn58985"
+PV = "2023.209.1.1svn58985"
 
-RPM_NAME = "texlive-structmech-2023.201.1.1svn58985-57.1.noarch.rpm"
-RPM_HASH = "c5262af8e19ec111a44c6e7a22a33daa91aa62bc904e14df36f0dfac105707a4894c38be9011e14d3bdd51ef05bc1239c2cf8f2acaa0ae345dbc371c65be4717"
+RPM_NAME = "texlive-structmech-2023.209.1.1svn58985-58.1.noarch.rpm"
+RPM_HASH = "9ea8917f54f97dd20b4a15b0bb39ee6a1fe3c00aa26cedb253c31214e5342558a16f5ed4a3dc6a4da8881e7147f8c1cd682f3c239fff72bb45256626ba924e3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-structmech.sty \

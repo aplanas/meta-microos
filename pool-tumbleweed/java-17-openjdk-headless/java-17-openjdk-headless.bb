@@ -2,10 +2,10 @@ SUMMARY = "OpenJDK 17 Runtime Environment"
 DESCRIPTION = "The OpenJDK 17 runtime environment without audio and video support."
 LICENSE = "Apache-1.1 & Apache-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
 
-PV = "17.0.7.0"
+PV = "17.0.8.0"
 
-RPM_NAME = "java-17-openjdk-headless-17.0.7.0-3.2.aarch64.rpm"
-RPM_HASH = "10fa2a462022930a33b3f23a041bc1a1b984d644125bf4adb93655e22c6dec178564e94974acb65df2ed283d2a608a340ab5c3a96b9f23036180fbf555b001ae"
+RPM_NAME = "java-17-openjdk-headless-17.0.8.0-1.1.aarch64.rpm"
+RPM_HASH = "42dafc25ea61f22b20c697b9e74546761aedc4613fbf892b6735aa88971232c7cdb630f72ba1676e5297eba117d829149524d035cba85a7e94078d6b3c964bfa"
 
 RPROVIDES:${PN} += "config-java-17-openjdk-headless \
 jaas \

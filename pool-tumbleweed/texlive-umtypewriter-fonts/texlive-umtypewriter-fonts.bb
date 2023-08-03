@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-umtypewriter"
 DESCRIPTION = "The  separated fonts package for texlive-umtypewriter"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.1svn64443"
+PV = "2023.209.1.1svn64443"
 
-RPM_NAME = "texlive-umtypewriter-fonts-2023.201.1.1svn64443-53.1.noarch.rpm"
-RPM_HASH = "b77eaeecf774db9f2e88e624bb8b4731339ace6dd6d87e766a7c5fe97cc21104d4b493889dbbc6903c107b908607169ed7ba29fe754b279090b2d266d950a9e7"
+RPM_NAME = "texlive-umtypewriter-fonts-2023.209.1.1svn64443-54.1.noarch.rpm"
+RPM_HASH = "78954eb8a896ba3f1b91ef9dd5e49d31965639604cee6a9e733c5a1b29f4bbdbbf6342430aeac24a19fbfc1e4cb19b5539f15a0ef9b68fbfd27275da4edc5ad8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

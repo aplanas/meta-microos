@@ -7,10 +7,10 @@ to manage the selection of font weights. The package supersedes \
 both the libertineotf and the libertine-legacy packages."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.5.3.0svn64359"
+PV = "2023.209.5.3.0svn64359"
 
-RPM_NAME = "texlive-libertine-2023.201.5.3.0svn64359-54.1.noarch.rpm"
-RPM_HASH = "8e573666cde5f3b3068192f3851c6282fb8a1ff5581943aeed72ca78d37d7cda3402b376c22cd875fd12a9355481c05fb9919d56a126982faffdb37a119cae64"
+RPM_NAME = "texlive-libertine-2023.209.5.3.0svn64359-55.1.noarch.rpm"
+RPM_HASH = "6a0728b74689531928978bef12e7ca1cb4a991ff3542f136033cbd787f0f141da8e4c2100cc24beeca539947c7aa17bea235eab9eb417eb3b7a1c2112a213335"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LKey.tex \

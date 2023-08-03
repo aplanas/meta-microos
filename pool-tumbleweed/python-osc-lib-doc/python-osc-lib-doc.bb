@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.7.0"
 
-RPM_NAME = "python-osc-lib-doc-2.7.0-1.2.noarch.rpm"
-RPM_HASH = "41ef5b7f27aebf18e73ff8ebd9248a952e08d523fab3cfd83667afa4621c3ee4cc70c48fdf6753455b25b21b7ec5ab5406a6d6ce174bb064cdff6f282251f724"
+RPM_NAME = "python-osc-lib-doc-2.7.0-1.3.noarch.rpm"
+RPM_HASH = "ac2ccc51835981989f00bf37358c59a0ceb63ca4c9d7c5f7cfcb7d426b7bb8816482073c059f547c597b85545aafb234fd5ecc1b2a76cbf72ea1066800a7b4bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-osc-lib-doc"

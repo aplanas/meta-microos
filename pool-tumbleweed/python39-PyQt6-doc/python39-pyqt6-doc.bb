@@ -4,10 +4,10 @@ DESCRIPTION = "PyQt is a set of Python bindings for the Qt framework. \
 This package contains programming examples for PyQt6."
 LICENSE = "GPL-3.0-only | SUSE-GPL-2.0-with-FLOSS-exception | NonFree"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "python39-PyQt6-doc-6.5.0-2.2.noarch.rpm"
-RPM_HASH = "447a106f48349e1c9da09193dcd1a00fc44f361b180813920a886cb8d3c1d50c8505f7a7e6302b174c216f181381a85e8bbaf3e3628268ac5b18a0b2ea67fb42"
+RPM_NAME = "python39-PyQt6-doc-6.5.1-1.2.noarch.rpm"
+RPM_HASH = "372c8435e610d7ae37a19ce14e88d26a2b7e4e90bd1747858f79bc3235b744ac85d86e17c018979d826e92774d9737b8bbdc84b41e64c6b532338c0521b15642"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-PyQt6-doc \

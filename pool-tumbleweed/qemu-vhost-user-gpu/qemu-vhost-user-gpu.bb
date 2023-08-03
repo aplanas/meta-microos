@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.3"
 
-RPM_NAME = "qemu-vhost-user-gpu-8.0.3-1.1.aarch64.rpm"
-RPM_HASH = "64c5c52f1ca0c384935527bc2b43227f3bd0b4f1d8173df3d78421646658140c248e0bb4806ec093b6ffd149cc06754ca23570698d08aa0b6ad6880a11356982"
+RPM_NAME = "qemu-vhost-user-gpu-8.0.3-2.1.aarch64.rpm"
+RPM_HASH = "aced057145d03a582f37b5a0cc72afbe3b2bc6affd16ad3287eb5c81101bc1c30d1ea1494a26302af9dfdf77791f20af71a57cb594ae4bbf3b9423bb5189fcd9"
 
 RPROVIDES:${PN} += "qemu-vhost-user-gpu"
 

@@ -7,10 +7,10 @@ package facilities work with TeX (output via dvips or \
 (x)dvipdfm(x)), and with pdfTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4esvn63074"
+PV = "2023.209.1.4esvn63074"
 
-RPM_NAME = "texlive-zwpagelayout-2023.201.1.4esvn63074-52.2.noarch.rpm"
-RPM_HASH = "4cddd14c9d691fe4e312ee4cb570369828a877190e8c8af110a6582a3f399a75bb9016e04255544d7900b146feeb05cff971ea082b11d645f0dd3031613e34d3"
+RPM_NAME = "texlive-zwpagelayout-2023.209.1.4esvn63074-53.1.noarch.rpm"
+RPM_HASH = "3a18f38520839eed6e7aa4bfd360b847e1ec4a865d5863c8baee1baa265b993271f1a9329a655cf5cdde0934198b54da10cbadc20a11256ddc8804adb72bc142"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zwpagelayout.sty \

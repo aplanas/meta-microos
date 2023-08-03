@@ -6,10 +6,10 @@ configure the appropriate multilingual settings. In addition, a \
 series of auxiliary functionalities are introduced."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65475"
+PV = "2023.209.svn65475"
 
-RPM_NAME = "texlive-projlib-2023.201.svn65475-52.1.noarch.rpm"
-RPM_HASH = "0c40523c97fc9dc0d230fa1fbf8152d382ca4434689068ca6fe0a91cb5a18763dbe11de6b1e75272e552743b22f9db4a262ebba786e2ef987e2f9f9d51dd8f7d"
+RPM_NAME = "texlive-projlib-2023.209.svn65475-53.1.noarch.rpm"
+RPM_HASH = "69529396b89fe40f6ce342be52b87014025f8653ab50b0cfef46eed9282b78000d1781324d9c92a6e5f4b7687797e60f629de05a02cd777cd81a3c30bf78a3ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ProjLib.sty \

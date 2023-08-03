@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-orcidlink"
 DESCRIPTION = "This package includes the documentation for texlive-orcidlink"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.4svn59560"
+PV = "2023.209.1.0.4svn59560"
 
-RPM_NAME = "texlive-orcidlink-doc-2023.201.1.0.4svn59560-54.1.noarch.rpm"
-RPM_HASH = "c1eb766c8217dd5b7943cecd457c8e10e18215bec76cb9f23420b351ad2836ddf207067be3ff61ea8cce6b92a5897ab0a9717cd9afc1c1a75ff67ab8699303e1"
+RPM_NAME = "texlive-orcidlink-doc-2023.209.1.0.4svn59560-55.1.noarch.rpm"
+RPM_HASH = "55acf4a9f4b36371884e35adafd962ec6fe5e592d6a8efc63b2ec4abad572ad659bddac30d56368d75903a2a9aab4d0444fa726d924d4034e537e870138982c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-orcidlink-doc"

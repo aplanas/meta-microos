@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-labo"
 DESCRIPTION = "This package includes the documentation for texlive-pst-labo"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.04svn39077"
+PV = "2023.209.2.04svn39077"
 
-RPM_NAME = "texlive-pst-labo-doc-2023.201.2.04svn39077-52.1.noarch.rpm"
-RPM_HASH = "b4c74c670c1a8c901029e6edb857ac7ed7a54fe42e737228ee97257da86d829f3f5d8ef1ce59b69031bebddbd5b25b507d5ef9e2268579925f96276ccbb3b2ed"
+RPM_NAME = "texlive-pst-labo-doc-2023.209.2.04svn39077-53.1.noarch.rpm"
+RPM_HASH = "26a9476c951a25be9502f1330f6f06ae60d9af95f950d627db95319bf6da3647c6744136b145f7b3617dc4d66ad4075b144ce0ac732c33974189ee5480ff5a51"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-labo-doc"

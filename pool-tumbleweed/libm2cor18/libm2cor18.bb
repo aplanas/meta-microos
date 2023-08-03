@@ -2,10 +2,10 @@ SUMMARY = "GNU Modula-2 compiler runtime library"
 DESCRIPTION = "Runtime library for the GNU Modula-2 language."
 LICENSE = "BSL-1.0"
 
-PV = "13.1.1+git7552"
+PV = "13.1.1+git7597"
 
-RPM_NAME = "libm2cor18-13.1.1+git7552-1.1.aarch64.rpm"
-RPM_HASH = "dd6b4dda3fd2c322d2c70e0e20a1577cf2b151b987b5085b57768376208b53f5acadb0cc4179a56f3e6b2c112210539d9576c3ff968b6c9d965afa2ae51ea48f"
+RPM_NAME = "libm2cor18-13.1.1+git7597-1.1.aarch64.rpm"
+RPM_HASH = "24d08317a47838b81da70b00d2d737693cc69f23a63903908e3d700631d6af4a27eebdbe16de6ad14fed2b668279e2819c8f9b47d1452e6b31b2cf463918de1d"
 
 RPROVIDES:${PN} += "libm2cor.so.18 \
 libm2cor18"

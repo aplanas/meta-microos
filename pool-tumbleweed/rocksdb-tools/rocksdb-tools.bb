@@ -3,10 +3,10 @@ DESCRIPTION = "RocksDB is a high performance embedded database for key-value dat
 This package contains utility tools for RocksDB."
 LICENSE = "(Apache-2.0 | GPL-2.0-only) & BSD-2-Clause"
 
-PV = "8.1.1"
+PV = "8.3.2"
 
-RPM_NAME = "rocksdb-tools-8.1.1-1.2.aarch64.rpm"
-RPM_HASH = "92b82ac19a09cf6c59fcd4e7f93093180b0789233b19f99f691dbfa49bd0e1e36db673697f4ea80880f7fba7e7d319087235e594b747651d9dc536563d82cbd5"
+RPM_NAME = "rocksdb-tools-8.3.2-1.1.aarch64.rpm"
+RPM_HASH = "ed6e35ca469edc45981557f24694823b8df5be9a96fb6f8fbab90186f5c14d893449651d7d19a69dc4729ca7fbe9cca9ab3380f2deebd4978833267be1b695fa"
 
 RPROVIDES:${PN} += "rocksdb-tools"
 

@@ -6,10 +6,10 @@ package was developed on a Unix-like system, using (among other \
 things) the gnu variant of the find command."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn29349"
+PV = "2023.209.svn29349"
 
-RPM_NAME = "texlive-adhocfilelist-2023.201.svn29349-54.1.noarch.rpm"
-RPM_HASH = "7260b079c3cb28312155aaf8e1b6199788d601b5ba3b4bec69e6700435539c658078adec32117c69d5fda585110d21ed69a9274b43131488c1804c469e7dac67"
+RPM_NAME = "texlive-adhocfilelist-2023.209.svn29349-55.1.noarch.rpm"
+RPM_HASH = "faed5cc6a27b86cca9948eda3870fea15c91b69a98b01d3b972883c086409d4f31d488bda292252442de0023a9acd47768749c6b210290fe6ca3d0e0ab1c0dbe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-adhocfilelist"

@@ -4,10 +4,10 @@ down to the branch level, including specifying who can and cannot rewind a given
 branch."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.6.12"
+PV = "3.6.13"
 
-RPM_NAME = "gitolite-3.6.12-2.4.noarch.rpm"
-RPM_HASH = "ce511cf9e2780c649cf150f1d6fab690426bcde08368c1a819e5bc3912576332f109f74354e9e43851de5dcaa73cf16188a7e47123a9b3428f2c251a95710cd8"
+RPM_NAME = "gitolite-3.6.13-1.1.noarch.rpm"
+RPM_HASH = "17fbcc4591f8d346bfec39368904fefe2fcad356658726772954df8891a12de50d76e9b7e775da2e65935d791f8828b04af9ec700a12a2cc0ea6ee5ec6fbbc15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-gitolite \

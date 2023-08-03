@@ -9,10 +9,10 @@ the above -- Cyrillic, Greek, Latin-based scripts, Russian and \
 Vietnamese are supported."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.4.8.5svn60833"
+PV = "2023.209.4.8.5svn60833"
 
-RPM_NAME = "texlive-cjkutils-2023.201.4.8.5svn60833-53.1.noarch.rpm"
-RPM_HASH = "1bb088073e85f3fb0e1e578f2eae250e595e0c1fdda9e0d21deca587929013a376399ed3aa15fd9cc70ec29079a13da5b081c42f87ceac84589931c9d7604627"
+RPM_NAME = "texlive-cjkutils-2023.209.4.8.5svn60833-54.1.noarch.rpm"
+RPM_HASH = "4e77327633d0b29a3d2fc447af07a1c0611920aa9c25a4fbb27810c3af5cac75ba1414cb8c6390491c3cc8f9abec93dabbbf1301f0148f9f86efb9b672a5f51b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-b5ka12.cfg \

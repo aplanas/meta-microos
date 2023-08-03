@@ -4,10 +4,10 @@ Roman transliteration and Puget Salish (Lushootseed) and other \
 Native American languages."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn22459"
+PV = "2023.209.svn22459"
 
-RPM_NAME = "texlive-wnri-2023.201.svn22459-53.1.noarch.rpm"
-RPM_HASH = "d48b3f16829e0c4adbc1badeeab5336829a2c9ef0aa6275c620d9eb2b023c73e91dcf39155d3865fb93f8efe75519378c94c1479b8132e918efae7a0841a1ada"
+RPM_NAME = "texlive-wnri-2023.209.svn22459-54.1.noarch.rpm"
+RPM_HASH = "41d488d94fdee2244724abee5aee8dde6c511602a0676fa6189d878dda6869d442adafef1c5893d532b5b243f6662e6b7d83069552bf57b247d440235e371751"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-wnindic.map \

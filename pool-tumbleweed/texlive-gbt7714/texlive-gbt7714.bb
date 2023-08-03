@@ -8,10 +8,10 @@ and supports language detection (Chinese and English) for each \
 biblilography entry."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1.5svn64633"
+PV = "2023.209.2.1.5svn64633"
 
-RPM_NAME = "texlive-gbt7714-2023.201.2.1.5svn64633-52.1.noarch.rpm"
-RPM_HASH = "0c685be77e3455f4fe7da9ac8d0e87bf92a70bcaaa5228374ae7db8e836a40873ee6c7f4b5326c6d3c7a11a23871bd0e297ef23928beb8e05a31b5dfb1d349d7"
+RPM_NAME = "texlive-gbt7714-2023.209.2.1.5svn64633-53.1.noarch.rpm"
+RPM_HASH = "43425b3f23e654b0d7e7d5e693d48524f43d841f5aeac3d4798d9d3c7d9cface06d452333ed14e6ca90c0606ccaf6aefda5beacb4fdd657a6c6f0660ecacbcac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gbt7714.sty \

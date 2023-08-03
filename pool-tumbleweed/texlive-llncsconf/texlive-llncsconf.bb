@@ -7,10 +7,10 @@ Springer (as requested by the copyright transfer agreement for \
 Springer's LNCS series)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2.0svn63136"
+PV = "2023.209.1.2.0svn63136"
 
-RPM_NAME = "texlive-llncsconf-2023.201.1.2.0svn63136-54.1.noarch.rpm"
-RPM_HASH = "3da7673d531dd32fa27f96511dac5560d5f5e05faf675743aca2b148b9184ed78e4980e14581ab02cd082b20acaa2f31152cec9f277b0125884987cc8b1fcf8e"
+RPM_NAME = "texlive-llncsconf-2023.209.1.2.0svn63136-55.1.noarch.rpm"
+RPM_HASH = "5ce3cda758f64263ede46b1f4cb101bf0be45375e6a4105813cb4fd778bb7f85834c207951c2ecc452c83877f1257bcaebd3e68ceaa3c58894bfb01fd974c004"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-llncsconf.sty \

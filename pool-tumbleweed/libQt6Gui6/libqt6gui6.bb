@@ -10,10 +10,10 @@ higher level APIs, like Qt Quick, which are much more suitable than \
 the enablers found in the Qt GUI module."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6Gui6-6.5.1-4.1.aarch64.rpm"
-RPM_HASH = "bb70397a551ee1e496dcedf2908237092f8cb2e203e7843f25139e9fce19f0076349762943ca68c6746356c1798ebbbaf30028a6168834edd05bd9175052c7e7"
+RPM_NAME = "libQt6Gui6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "35970fbe9767c5156e2bf3ed3d524aa43cd15b1ebc3ae8b2317f4abb08846e4e52b890b3abe7de022f30544424035f5225cf6908f793c2af696eef73285ff11c"
 
 RPROVIDES:${PN} += "libQt6EglFSDeviceIntegration.so.6 \
 libQt6EglFsKmsGbmSupport.so.6 \

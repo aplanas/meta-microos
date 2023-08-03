@@ -6,10 +6,10 @@ are commented and should be self-explanatory. The package \
 depends on newtx."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.06svn51919"
+PV = "2023.209.1.06svn51919"
 
-RPM_NAME = "texlive-prtec-2023.201.1.06svn51919-52.1.noarch.rpm"
-RPM_HASH = "44c2c1dbd77572972060f7b0970f99c6e1be10f4ce343ceb661539f29fd4b313a71f701d8b879f1e5d5fbe35bc2beb63b203353f7c9c910a377f6a7bedcaef8f"
+RPM_NAME = "texlive-prtec-2023.209.1.06svn51919-53.1.noarch.rpm"
+RPM_HASH = "e9ea2cd41398d2f8c0fb7947a0b2aa34ba6a0d248d4202b60aeab16ff3d47f8a8cbb2d2fef4d18854dfd6d3c02678bf87171551eef2a50f27def91f5eb4e8e4d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-prtec.cls \

@@ -5,10 +5,10 @@ BibTeX contained in TeX Live. The bundle is a redistribution \
 derived from the ptex-texmf distribution by ASCII MEDIA WORKS."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.svn66085"
+PV = "2023.209.svn66085"
 
-RPM_NAME = "texlive-pbibtex-base-2023.201.svn66085-51.1.noarch.rpm"
-RPM_HASH = "16541f1903d7f24666b36564c15d155fc2e15588b99c916f8afd158f717d2d45809648fec29349058f4da7156fdfa090129a790875ba38f41b8884601439874e"
+RPM_NAME = "texlive-pbibtex-base-2023.209.svn66085-52.1.noarch.rpm"
+RPM_HASH = "4d496e88c95c38a98272323f3bf9a6ba0add6a61aa978c4138422880dea91ffa824a9c0103a07e0c10b198d131eed2724132fb6f5d5f78b5ce7b59e8a5046c6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pbibtex-base"

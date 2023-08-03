@@ -6,10 +6,10 @@ reasonably be expected to have other uses, as in html \
 translators, etc."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.13.1svn62130"
+PV = "2023.209.13.1svn62130"
 
-RPM_NAME = "texlive-preview-2023.201.13.1svn62130-52.1.noarch.rpm"
-RPM_HASH = "2bdaf28c35f46530a4d7a5354094e9e329f0a57a981d52cdf8ea3deef255303df8a195d31a5192c8488486d2de99e1daf01ed93f74c01a561333175ae911ad22"
+RPM_NAME = "texlive-preview-2023.209.13.1svn62130-53.1.noarch.rpm"
+RPM_HASH = "c220b83a5700cc4ea8edc9caa1c2b853488acc425dd75319d156d44fcd5b1b55d7ee61ab8c3735f1efb2b46e6d93b5f479792906a825f2519ab0f3bdf97f6130"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-prauctex.cfg \

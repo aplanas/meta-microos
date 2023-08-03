@@ -12,10 +12,10 @@ document, together with the document itself, using the \
 filecontents* environment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.4svn64620"
+PV = "2023.209.3.4svn64620"
 
-RPM_NAME = "texlive-bundledoc-2023.201.3.4svn64620-52.1.noarch.rpm"
-RPM_HASH = "7d1cf28a52edb09c75ea5eac63c152eacf9e1b758e48fb0fa2b2ed05196c51b46e61a6fafb810539641b6182fa30472224ccba5fdfdc40eebe5b31cc16a0c812"
+RPM_NAME = "texlive-bundledoc-2023.209.3.4svn64620-53.1.noarch.rpm"
+RPM_HASH = "94ce57ed7efc2d52f452458e6dfe95c345a24b1caccdff1fdc66f0627e5e5d07160a8672167f458da874d88622916a3b1612bea74c2181dbb02d4260abc1d79d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-miktex.cfg \

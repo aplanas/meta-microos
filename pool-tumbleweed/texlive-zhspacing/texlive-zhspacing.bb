@@ -6,10 +6,10 @@ consistent space is inserted between Chinese text and English \
 format under XeTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn41145"
+PV = "2023.209.svn41145"
 
-RPM_NAME = "texlive-zhspacing-2023.201.svn41145-52.2.noarch.rpm"
-RPM_HASH = "c88fa05b501959495c8f8b0f4ec57de8deac6127d62822e0c49ae2c19094608c667fef2034a45b207f6891f9c4521062635e96a5b6120062a50d72348949fb6f"
+RPM_NAME = "texlive-zhspacing-2023.209.svn41145-53.1.noarch.rpm"
+RPM_HASH = "e0fe3834cdc38c0a8b450b21c4d8af97b71620d73452d3092d2b76cb082f204ebb8b33a1308d2aefe0e2fce6b40d67c83f4d37de56c8c71a911341b72f10ec77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-t-zhspacing.tex \

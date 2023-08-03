@@ -3,10 +3,10 @@ DESCRIPTION = "The Qt XML module provides C++ implementations of the SAX and DOM
 standards for XML."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6Xml6-6.5.1-4.1.aarch64.rpm"
-RPM_HASH = "8236d6cc2d18a633203763cf93a3b2f704b270110e0baed4d9672673698a75e7897e01f7d4f378aa7b3920d2448b428729741e68906fab2593162d8906fd7ac6"
+RPM_NAME = "libQt6Xml6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "1d4f30f8d5defcd3da43f309183b95212b380d3a45b9531bafbc316a7a3dbeeb9bfc04024da32c7f4af6a43ba9a40b41680f6d06579fb0e1665ef5f0f2cbc7e2"
 
 RPROVIDES:${PN} += "libQt6Xml.so.6 \
 libQt6Xml6"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-beamertheme-npbt"
 DESCRIPTION = "This package includes the documentation for texlive-beamertheme-npbt"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.4.1svn54512"
+PV = "2023.209.4.1svn54512"
 
-RPM_NAME = "texlive-beamertheme-npbt-doc-2023.201.4.1svn54512-53.1.noarch.rpm"
-RPM_HASH = "c0606c1aaefdef9cf649681fff5301bdfe7fc9467ba37e1f37f37fa03eb77102188e69b52c9f542648bd5daa8c5681a8591e596840621e40138ec9ab669603ad"
+RPM_NAME = "texlive-beamertheme-npbt-doc-2023.209.4.1svn54512-54.1.noarch.rpm"
+RPM_HASH = "cdb4f1893e2389a8fc66cbe6559c8f4d6aac43de1f16111c93b78fa5f0ee59168dffb1456bd92da0ce340dc3bcabcbb1c41f8e19c34bffec96f83106478198e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamertheme-npbt-doc"

@@ -5,10 +5,10 @@ by the Oxford Press in the late 17th and early 18th centuries. \
 It works well with Xe(La)TeX."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.0.2svn61719"
+PV = "2023.209.1.0.2svn61719"
 
-RPM_NAME = "texlive-junicode-2023.201.1.0.2svn61719-55.1.noarch.rpm"
-RPM_HASH = "c6a55d909919dfdb5904d011cdee1324fd58ea56def20394dc16a137121c70c9245c5946d54492c4a12aae24c85c143ce076e8e74cf63dbdc2dfc1aff743b0bd"
+RPM_NAME = "texlive-junicode-2023.209.1.0.2svn61719-56.1.noarch.rpm"
+RPM_HASH = "d33d57cc21fbe3d40019bcb4f454da6d57f77c91dfaf6dafaafb2973c358f3383a98d4fca088022461604d072ff0c0e15f4fa89d01874c97a2c145827f29f400"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Junicode-Bold-sup-ly1.tfm \

@@ -10,10 +10,10 @@ special values. Several features of the variation tables can be \
 customized."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn51543"
+PV = "2023.209.1.2svn51543"
 
-RPM_NAME = "texlive-tablvar-2023.201.1.2svn51543-54.1.noarch.rpm"
-RPM_HASH = "5b378195fba27aa4fed09344f03606215d9de48b5ae814d20b195d55e458d8eb0855484ecdb40bfc24f5eb83533e8f0572efcf2995ecbc14cc6da90d3a7860e0"
+RPM_NAME = "texlive-tablvar-2023.209.1.2svn51543-55.1.noarch.rpm"
+RPM_HASH = "18f6605613a6b36ad6bb729787e31be911f6f0268c40a0fd8734b30bae75baf0ddbc018f42ed9ffcbb896164ea51b98f0a88878166424ddccdd404cdc65a4a8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tablvar.sty \

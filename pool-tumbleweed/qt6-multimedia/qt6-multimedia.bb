@@ -4,10 +4,10 @@ classes to handle multimedia content. It also provides APIs to access \
 the camera and radio functionality."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-multimedia-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "e7dd553d09f818a472ca98433a553334b0a6630469bae7bcb6ead0b58ec00f3b50d83657a800d137aa9a030e65abad8833d79443b9ba026d0de8421cbe95cf25"
+RPM_NAME = "qt6-multimedia-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "d85a2aa0e6b1a83f9cd1a2537629233e53413f85176e0ba67a85e23cf934dae3067536e906209a4168c9a0fbbd3684a6bf38a3bbe9f92b50729fec71abdedfb4"
 
 RPROVIDES:${PN} += "libffmpegmediaplugin.so \
 libgstreamermediaplugin.so \

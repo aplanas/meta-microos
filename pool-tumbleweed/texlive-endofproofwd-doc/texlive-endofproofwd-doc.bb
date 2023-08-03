@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-endofproofwd"
 DESCRIPTION = "This package includes the documentation for texlive-endofproofwd"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn55643"
+PV = "2023.209.svn55643"
 
-RPM_NAME = "texlive-endofproofwd-doc-2023.201.svn55643-53.2.noarch.rpm"
-RPM_HASH = "9f011eefd6d40ac1c2d6b153b9b0cfe6f2ea10819aa756331e35dfb45a1e82962d6593bfb7a1dd0932f4d9130e4e6b895ca7a229be026898f7d4e5e6c12d4191"
+RPM_NAME = "texlive-endofproofwd-doc-2023.209.svn55643-54.1.noarch.rpm"
+RPM_HASH = "d7334c15aee20b337fc2f96dd22cc605a4abb4bb959f57cab0e089fa4a784c3df05c0883bb7c4f0f32385775b1f649adf20102aaf7136cf93691c76ae75b5fb8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-endofproofwd-doc"

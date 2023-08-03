@@ -6,10 +6,10 @@ distribution is as Metafont source. LaTeX support is available \
 in the duerer-latex bundle."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn20741"
+PV = "2023.209.svn20741"
 
-RPM_NAME = "texlive-duerer-2023.201.svn20741-52.1.noarch.rpm"
-RPM_HASH = "c73affdeab1b049a1d9d8ee22fe8379e0eea021cffc0f344198d595ae4468cabba9954aa0d1e1ad1bc82ba0f1eca70a6f4707d68d6b864436f7c8983a963761a"
+RPM_NAME = "texlive-duerer-2023.209.svn20741-53.1.noarch.rpm"
+RPM_HASH = "57df4595a183f74dbdb2007031bf65900496eaf74145d15dfeae07a885abaa962187846ba4fb02611bbd36515896cd8f016189054f4debb1e4347ca6c738a5f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cdb10.tfm \

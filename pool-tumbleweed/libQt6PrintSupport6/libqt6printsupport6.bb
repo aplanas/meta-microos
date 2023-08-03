@@ -6,10 +6,10 @@ supports PDF file generation, providing the foundation for basic \
 report generation facilities."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6PrintSupport6-6.5.1-4.1.aarch64.rpm"
-RPM_HASH = "081cfd9a5d998b033b0af9c68f761d374c34c73062ed9e8e26908db3d14105e5aaa63f89ef7669d7de887d979e43cbc78691fbf473232f2094a6e93959434eb6"
+RPM_NAME = "libQt6PrintSupport6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "649bc011106e90c62da2f3090c9ea12174a603440bf5eaec8c456b090062891dbf52b6c0e6e9cf59bce354b0901a50abf648493338d3a0c42b9a84305ce54f19"
 
 RPROVIDES:${PN} += "libQt6PrintSupport.so.6 \
 libQt6PrintSupport6"

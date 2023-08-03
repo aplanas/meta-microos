@@ -9,10 +9,10 @@ scan. All you need to do for scanning is to specify a target such as an image \
 name of the container."
 LICENSE = "Apache-2.0"
 
-PV = "0.43.0"
+PV = "0.43.1"
 
-RPM_NAME = "trivy-0.43.0-1.1.aarch64.rpm"
-RPM_HASH = "723175d309f10fba4db736914579cf6f1c99fd7f4eacabccff4865df374d880fd43e9f4027d4e58dd94c5f074b6fa7d0df96368756fb5de853e438bd5e8472ff"
+RPM_NAME = "trivy-0.43.1-1.1.aarch64.rpm"
+RPM_HASH = "cb61ec80ef6a5c5167f7193697809343d2334df2bff0724de284ce2f4ff15c5e23e9612f57123775c1cd9b6ff27225beb2c515abe0bd8dd16a3085b14bbdbaed"
 
 RPROVIDES:${PN} += "trivy"
 

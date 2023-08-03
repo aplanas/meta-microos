@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-clicks"
 DESCRIPTION = "This package includes the documentation for texlive-clicks"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4.1svn64602"
+PV = "2023.209.0.0.4.1svn64602"
 
-RPM_NAME = "texlive-clicks-doc-2023.201.0.0.4.1svn64602-53.1.noarch.rpm"
-RPM_HASH = "e7648f12d21fecbd3a184720fb68c8335efe88edf9b0a02ca7b919ee288e9a3ac452212d5ee048c25b9119401ec33d392bb6cb71777100b8cd48b7f671264115"
+RPM_NAME = "texlive-clicks-doc-2023.209.0.0.4.1svn64602-54.1.noarch.rpm"
+RPM_HASH = "ec8a541ef5853fbeeec8c3c1e5b148a9ebcfaaf694dae7104f87e3308acdedd4e9c62b5de75964d667b4deabf45694937868cbe396f80ea0f35e2fb8b3263375"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-clicks-doc"

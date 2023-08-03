@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Eagle IV USB ADSL modem driver."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230707"
+PV = "20230724"
 
-RPM_NAME = "kernel-firmware-ueagle-20230707-1.1.noarch.rpm"
-RPM_HASH = "5c68c403a0dff174f624549a583ed86dddf16d4f93ff3c435c58a394f6389f7909db2faf0636726cb72fb5cbf704a38baff81db8d4916b8a84126e868383fd3a"
+RPM_NAME = "kernel-firmware-ueagle-20230724-1.1.noarch.rpm"
+RPM_HASH = "02d2715a1f4d87eda4cb73f8aa731b496197bf1bceee968bd2719bdfac5c287d46553488ec96051ad44416b00c8539159875d2a1b0c55d3cb9931c0d7e440264"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-ueagle-atm/930-fpga.bin \

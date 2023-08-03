@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-graphicscache"
 DESCRIPTION = "This package includes the documentation for texlive-graphicscache"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.0.0.4svn65318"
+PV = "2023.209.0.0.4svn65318"
 
-RPM_NAME = "texlive-graphicscache-doc-2023.201.0.0.4svn65318-53.2.noarch.rpm"
-RPM_HASH = "313d8fe086ce29ead703bb2fa9abf0491b89b3c89499e6f2a331d167a6b6988e42ea3ca80ce454f6061d02f44be75aeab5cbff43f6408629bb35be117338300d"
+RPM_NAME = "texlive-graphicscache-doc-2023.209.0.0.4svn65318-54.1.noarch.rpm"
+RPM_HASH = "6af033a6d7c1e9bcb6516f4d36698e26b4645aafdd2a19fd9d8a831987bff4e0793735e5532844e9c7d817f87668ccb1592012bd60269fb92c6033ce9a1f9392"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-graphicscache-doc"

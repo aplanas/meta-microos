@@ -6,10 +6,10 @@ fonts are supplied both in the original TrueType Format and in \
 Adobe Type 1 format."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.2svn19982"
+PV = "2023.209.1.2svn19982"
 
-RPM_NAME = "texlive-starfont-2023.201.1.2svn19982-57.1.noarch.rpm"
-RPM_HASH = "4eadef07f8f2652323ff285052ebe6ed098ad7ce27a70b284995328ecec4d0c8eaaa21c5ab0f954065ce6a3b12a0aa28ec3fbf975fe6838a69e96fe38cb7cfd0"
+RPM_NAME = "texlive-starfont-2023.209.1.2svn19982-58.1.noarch.rpm"
+RPM_HASH = "58d93f7e6937c80ca8441766908e3beba473210c3b5b33e689b5341813cbaf3473bdcce3004ba43c0cdbeb697a5c330755596415764c8306766c27219083dfe9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fstr8x.tfm \

@@ -2,10 +2,10 @@ SUMMARY = "A class for typesetting press releases"
 DESCRIPTION = "A configurable class for writing press releases."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn35147"
+PV = "2023.209.1.0svn35147"
 
-RPM_NAME = "texlive-pressrelease-2023.201.1.0svn35147-52.1.noarch.rpm"
-RPM_HASH = "7d104418c69012be8ae13f3be70f764453c301bb1a9f4f541334e55a94e3a1262718dbb61887a7599af57fc81f9de75a48d8fb1126e6be6ba889d37ebdffdaf4"
+RPM_NAME = "texlive-pressrelease-2023.209.1.0svn35147-53.1.noarch.rpm"
+RPM_HASH = "fe5737249e3b679c8f661ebb579a0e2dd7dd4a25a01cc7437afcff6d1d24ec2131d3c69eaae40175ac869a0e255319661265b32748ce56cd43b334fa30688de7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pressrelease-symbols.sty \

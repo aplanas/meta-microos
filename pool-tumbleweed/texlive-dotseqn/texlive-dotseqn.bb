@@ -6,10 +6,10 @@ to the equation number. In default of an equation number, the \
 package operates much like the fleqn class option (no leaders)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn17195"
+PV = "2023.209.1.1svn17195"
 
-RPM_NAME = "texlive-dotseqn-2023.201.1.1svn17195-52.1.noarch.rpm"
-RPM_HASH = "b81bc95fb189f1c2a12c16038886ac1619403b104db3999d4461c714c7c0709613affa6081abab5647f6d3b45628e5fc81cfb6938fd55b4e1a773b4ed05119a1"
+RPM_NAME = "texlive-dotseqn-2023.209.1.1svn17195-53.1.noarch.rpm"
+RPM_HASH = "f092361864c6804fc9460679cf16f597c2a37fc5bc88f6d12d4251bfcb8a3373fdfcac1545a387ee1db454a9f964d4b5a17383821eee2d874308a0f905aa1f61"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dotseqn.sty \

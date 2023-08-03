@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later | MIT"
 
 PV = "0.7.3"
 
-RPM_NAME = "qore-yaml-module-doc-0.7.3-1.2.noarch.rpm"
-RPM_HASH = "ac268058f8a4893a02eabd8d17255e14bd23f3dc8e0140df8d12d71e58bbec7e6a3a60e5c7109e9bd50624f418a720f2c0271f79c7f602725923f971e248c4c9"
+RPM_NAME = "qore-yaml-module-doc-0.7.3-2.1.noarch.rpm"
+RPM_HASH = "13b8803ac2b7afac5eb9a4fb3d359a2baaaf723125ff76d990a186ddc4b3f00d074bf16cc6d8aee06c3d1636d5b667c584f27248f810d55b2d27b8cf560e9d1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qore-yaml-module-doc"

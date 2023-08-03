@@ -4,10 +4,10 @@ create a dissertation or thesis conforming to UC Davis \
 formatting requirements as of April 2016."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn40772"
+PV = "2023.209.1.3svn40772"
 
-RPM_NAME = "texlive-ucdavisthesis-2023.201.1.3svn40772-52.1.noarch.rpm"
-RPM_HASH = "3133841b49ee7024bc010f096ef53b06f937307003418d3961bd494bc1f41dbf660de7eb2780e24f12aab470c822b6f6e96d0177c4891425b8fd1b1f336180d2"
+RPM_NAME = "texlive-ucdavisthesis-2023.209.1.3svn40772-53.1.noarch.rpm"
+RPM_HASH = "e658fce984eb94d467b185567650d2f1a45c188daa825a8b6aa123d3d27744603cfe367de902a5cce8c625fe8a9b2031c388fcb962986f156fca00f6c581649e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ucdavisthesis.cls \

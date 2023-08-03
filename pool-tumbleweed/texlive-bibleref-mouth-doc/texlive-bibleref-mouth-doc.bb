@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bibleref-mouth"
 DESCRIPTION = "This package includes the documentation for texlive-bibleref-mouth"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn25527"
+PV = "2023.209.1.0svn25527"
 
-RPM_NAME = "texlive-bibleref-mouth-doc-2023.201.1.0svn25527-53.1.noarch.rpm"
-RPM_HASH = "9fb9cf673cd247cda17da9fccded44d4f95b20df93dc64c776cdff26f97753c9ed5f7bd6bcc09a01adb27b753cbcc72f00703549f9ab8a9c3a069334c194b9ef"
+RPM_NAME = "texlive-bibleref-mouth-doc-2023.209.1.0svn25527-54.1.noarch.rpm"
+RPM_HASH = "8d39990eeee9683afad184662cb513afc22c5e8cfde8c6e353445ceaec1b02f2aa1d38a64762c9f5f65369c11d3117d605656ce1557ee2cd82a5f6a823a17a97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bibleref-mouth-doc"

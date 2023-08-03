@@ -4,10 +4,10 @@ University of Chemical Technology, supporting bachelor, master, \
 and doctor theses."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4.1svn64004"
+PV = "2023.209.1.4.1svn64004"
 
-RPM_NAME = "texlive-buctthesis-2023.201.1.4.1svn64004-52.1.noarch.rpm"
-RPM_HASH = "62fad2cc2e84d894d4d4a17e633b44a5e68d8f6ee4dbba8ea8da0e182159c92bd72f853714027e07a5cc3d6eeca426b3ad28c63f011eb7f879db9f761f26c7f0"
+RPM_NAME = "texlive-buctthesis-2023.209.1.4.1svn64004-53.1.noarch.rpm"
+RPM_HASH = "e9cecd656faacdd208fa41e5b28782582799896eda7821dfdb462b32a142847614bd8f63534e44825059dc41bfd3c6320bb263fff19c33241ce1bafcf760916a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-buctcover.cls \

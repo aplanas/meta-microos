@@ -4,10 +4,10 @@ DESCRIPTION = "The directory contains a copy of the Type 1 font 'URW Grotesq \
 for use with (La)TeX."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn35859"
+PV = "2023.209.svn35859"
 
-RPM_NAME = "texlive-grotesq-2023.201.svn35859-53.2.noarch.rpm"
-RPM_HASH = "227d5d5581ce90439dc717328af32460dc39ea9de39d08a28ec55426a6559739551fd36afd96a65952e0cac3b3fbe407088628cd89d2042a0c98745aab7bcd57"
+RPM_NAME = "texlive-grotesq-2023.209.svn35859-54.1.noarch.rpm"
+RPM_HASH = "b1accba8be1c88f199a595e520c38497ea125c82821e21d86755cc1fad2cc0b76b5313326e07bd0d3e139e0472201cf1f000a4a672d5d47bc948a23c10e689d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ot1ugq.fd \

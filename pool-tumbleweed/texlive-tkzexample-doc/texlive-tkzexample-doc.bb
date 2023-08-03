@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tkzexample"
 DESCRIPTION = "This package includes the documentation for texlive-tkzexample"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.45csvn63908"
+PV = "2023.209.1.45csvn63908"
 
-RPM_NAME = "texlive-tkzexample-doc-2023.201.1.45csvn63908-52.1.noarch.rpm"
-RPM_HASH = "037a9eb6494dd908a8e4bf572cab724c813ee6151859c25cab99a84317c98fa5d4917eab428521196008f4bac4b366f4a0b940a14a93e284a75c58a57384a4f6"
+RPM_NAME = "texlive-tkzexample-doc-2023.209.1.45csvn63908-53.1.noarch.rpm"
+RPM_HASH = "d519ff0bf3dbb6c384428b3f1cffcf87d945ee103a30494f78f363427ad9d39164fb2c9b44bc69a9f203e10a6fee12f927fad07bd0cceac500607815c27ca69b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tkzexample-doc"

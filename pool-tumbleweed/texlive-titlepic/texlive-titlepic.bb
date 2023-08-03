@@ -7,10 +7,10 @@ package currently only works with the document classes article, \
 report and book."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.2svn43497"
+PV = "2023.209.1.2svn43497"
 
-RPM_NAME = "texlive-titlepic-2023.201.1.2svn43497-52.1.noarch.rpm"
-RPM_HASH = "ef3a10a54a34a4fe13501565307cb732f7a5a0107e30556948f921e550a272b6aab1facb5e0dd61b28d848f8a7a108b647e8276c55eea9aa4003a6a6f8b643c4"
+RPM_NAME = "texlive-titlepic-2023.209.1.2svn43497-53.1.noarch.rpm"
+RPM_HASH = "7e0e62d851679e9733706322051af8786296bfcbb15491482478abbe13147bde032cd414b5cb175720fe09a264762b04c64c874b74dfc6a189f696d4f1e0aa13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-titlepic.sty \

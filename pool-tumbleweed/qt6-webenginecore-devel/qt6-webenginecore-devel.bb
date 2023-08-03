@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt 6 WebEngineCore library"
 DESCRIPTION = "Development files for the Qt 6 WebEngineCore library."
 LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-webenginecore-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "c576374212aa4fa2aaf67b0bc7d90e384b88ac79e167855c4d32b959008cb1f0660e3284b93e7ab8a66da642daf01960cbe5a11caebde598ac524083248bf598"
+RPM_NAME = "qt6-webenginecore-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "dffbdb9dff46f9b9970b42e6c24022681523530c495bdb2fc96a561a6c2ab487cfa878d729f7a816f5af04aba6f908aa2c1a21d824d974584e0fa744696f874d"
 
 RPROVIDES:${PN} += "cmake-Qt6WebEngineCore \
 cmake-Qt6WebEngineCoreTools \

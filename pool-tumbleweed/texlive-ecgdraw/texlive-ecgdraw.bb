@@ -4,10 +4,10 @@ electrocardiograms (ECG). The <code> represents a series of \
 abbreviations which allow to draw different types of wave."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn41617"
+PV = "2023.209.0.0.1svn41617"
 
-RPM_NAME = "texlive-ecgdraw-2023.201.0.0.1svn41617-53.2.noarch.rpm"
-RPM_HASH = "cbb15f2b443233f0faff5e4e4a373c60f5673d222cb908b27b0f9c1c998d389cffe82e3500d7f7bc87d9d22bb2ae72c5b319052a419e5d57ed7dd85673a31ee7"
+RPM_NAME = "texlive-ecgdraw-2023.209.0.0.1svn41617-54.1.noarch.rpm"
+RPM_HASH = "61319aa9109d3d269faf48c9f089cbbe7db639f00842a8bfaa1b018deaeaf975cbf96c69c6a8d6b41af1b49403d4ffbf54e6cc3c5fc0600c048780cce712cfa7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ecgdraw.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "A program that lists results from the hardware detection \
 library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.1"
+PV = "23.2"
 
-RPM_NAME = "hwinfo-23.1-1.1.aarch64.rpm"
-RPM_HASH = "6b825b04c9b91bfae967ee6c9ca9546b03cb5c2de5a38885ecca43ca8779a3ec0b1250b5fca5f3205b2039d4cd12d7500eecee554c1d0aac7e953e3061d3fa8f"
+RPM_NAME = "hwinfo-23.2-1.1.aarch64.rpm"
+RPM_HASH = "1ebd56859accb19403da32e3f59909b3ab99608df4fb715abc6ab3d4837d02c9599a23867745ad7a48ca9817a57805492b91225dbe4d46afdb39c080a84cf620"
 
 RPROVIDES:${PN} += "hwinfo"
 

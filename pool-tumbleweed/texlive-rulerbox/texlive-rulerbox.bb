@@ -5,10 +5,10 @@ electronic documents, or designating the relative scale in \
 printed materials."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.01svn50984"
+PV = "2023.209.1.01svn50984"
 
-RPM_NAME = "texlive-rulerbox-2023.201.1.01svn50984-53.1.noarch.rpm"
-RPM_HASH = "ea961f3ffb20bd8e435597b8a0334c5687ad9e8ea7f040a0c700d8aca7f70f1f91d8bdda1be930b66b7730fefc90e32b4c6bdf0eedb75c9464f97b61072990a2"
+RPM_NAME = "texlive-rulerbox-2023.209.1.01svn50984-54.1.noarch.rpm"
+RPM_HASH = "febfe92ced17da61ceef78900efc83480fbb6239d00fa3f7e7cdfa4e25b623846535773457328a30e4e92671e11e2a1772941fd71f4d3aea289b35f1d279f211"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rulerbox.sty \

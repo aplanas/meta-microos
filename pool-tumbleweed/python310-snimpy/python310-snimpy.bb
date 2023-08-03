@@ -21,13 +21,12 @@ details. Here are some 'features': \
  * when something goes wrong, you get an exception"
 LICENSE = "ISC"
 
-PV = "1.0.0"
+PV = "1.0.1"
 
-RPM_NAME = "python310-snimpy-1.0.0-2.7.aarch64.rpm"
-RPM_HASH = "01c3a53bebc62c7bfc54d6c0d03577b7619ff281815a3aef71525e1c2801694eca8b5e13b7d198cebf60a9fcbd14d2b1dd28e6dee50cae37536861d55aef2ff3"
+RPM_NAME = "python310-snimpy-1.0.1-1.1.aarch64.rpm"
+RPM_HASH = "7938ce9939210715bb11a4b60f9205161412ff8d0b32370009c1219e26bcf0c13b618ec3d21c43d65d42655d9ee03655257508f4b38715e138bd4fdfd5dfcabc"
 
-RPROVIDES:${PN} += "python3-snimpy \
-python3.10dist-snimpy \
+RPROVIDES:${PN} += "python3.10dist-snimpy \
 python310-snimpy \
 python3dist-snimpy"
 
@@ -38,7 +37,6 @@ libc.so.6 \
 libsmi.so.2 \
 python-abi \
 python310-cffi \
-python310-pycryptodomex \
 python310-pysnmp \
 python310-setuptools \
 update-alternatives"

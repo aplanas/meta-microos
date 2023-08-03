@@ -8,10 +8,10 @@ With a handful of commands, users can rest assured that their \
 document will be perfectly licensed under GFDL."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.1svn65415"
+PV = "2023.209.0.0.1svn65415"
 
-RPM_NAME = "texlive-gfdl-2023.201.0.0.1svn65415-52.1.noarch.rpm"
-RPM_HASH = "ff018836bf3174a276d67a3823b3d6d371fb7bd7f6b4957e97f5c9f77698f40a063925b4638959d382efa66e354f2976beba08780a0adc71e572f58086bd7209"
+RPM_NAME = "texlive-gfdl-2023.209.0.0.1svn65415-53.1.noarch.rpm"
+RPM_HASH = "67d53417ed9c5dfbbd0c0ff7ace3ab8904d171e58027b9526fd1ba7b9058d93578d647b21243c0b19b6d9a1339c4ebb1b773618ae3b6d6c27ce711f66f0c54a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gfdl-tex-1p1.tex \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-midnight"
 DESCRIPTION = "This package includes the documentation for texlive-midnight"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-midnight-doc-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "a5900221ed9de4e803e83006f91c7ff022eccac6158ff4126e6d8ab6925e281b49b4de3807d7888d933cbcdc918833f37530f2cd8189576d4025f10bd5be493f"
+RPM_NAME = "texlive-midnight-doc-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "3bdff2d1192ffb7196d8bae78d72d4489389e899bc2e76b34733225ef671a2b676db98cd8938fe1fb278333c7fc193b4501f9883449827139febcf1b4c166f82"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-midnight-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-superiors"
 DESCRIPTION = "The  separated fonts package for texlive-superiors"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.06svn51909"
+PV = "2023.209.1.06svn51909"
 
-RPM_NAME = "texlive-superiors-fonts-2023.201.1.06svn51909-57.1.noarch.rpm"
-RPM_HASH = "7bf941799c90c5cd68da4bcb55f8448f5bc21a4384b328afcea2adf1a0f0258d03fce9e98b4a63d3adcc920c734aaef57625816829146d773c06da8b34115719"
+RPM_NAME = "texlive-superiors-fonts-2023.209.1.06svn51909-58.1.noarch.rpm"
+RPM_HASH = "de5d5856ed5b8c273cc1d0fc3b63fb0c7389f5c16312283b53369901fd7e2e039d7d7db49c3bf284cae529b5c51258eb899e33cdd4d6d4ca54c2b3bbec1d5667"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-libertinesups \

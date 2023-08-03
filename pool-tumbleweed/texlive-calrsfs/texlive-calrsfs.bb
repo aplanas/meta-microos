@@ -2,10 +2,10 @@ SUMMARY = "Copperplate calligraphic letters in LaTeX"
 DESCRIPTION = "Provides a maths interface to the rsfs fonts."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn17125"
+PV = "2023.209.svn17125"
 
-RPM_NAME = "texlive-calrsfs-2023.201.svn17125-52.1.noarch.rpm"
-RPM_HASH = "75e644a79a7d8a463925a026607f50876a09b26c984ac71e8c796b7dce85ce9b8d1a01e65275e9ee42e30341d429d3a94f7e5e9bb4d4e76993f07b7e4f363c53"
+RPM_NAME = "texlive-calrsfs-2023.209.svn17125-53.1.noarch.rpm"
+RPM_HASH = "c95cdd79b9bdc446ab4b3b0b7280cf5e5b6a11c767b45352d75e10a351f9253737dd0f728b912478cbb78b866484512975ca2bbb3db1b6268793697413f3f44d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-OMSrsfs.fd \

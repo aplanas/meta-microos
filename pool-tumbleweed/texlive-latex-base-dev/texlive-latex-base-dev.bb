@@ -8,10 +8,10 @@ to create dedicated formats, for example pdflatex-dev, which \
 can then be used explicitly for testing."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.20230601_pre_release_2svn66513"
+PV = "2023.209.20230601_pre_release_2svn66513"
 
-RPM_NAME = "texlive-latex-base-dev-2023.201.20230601_pre_release_2svn66513-55.1.noarch.rpm"
-RPM_HASH = "d668976e70e13df8818e670a7c683d1f659d567c15ef99584596372264654b78d36e54b21c21d0c973c6acb493514b665a0b3c13cdcbd42186eb25ec3aa9eb55"
+RPM_NAME = "texlive-latex-base-dev-2023.209.20230601_pre_release_2svn66513-56.1.noarch.rpm"
+RPM_HASH = "6cae65d159e1213f706e1463cafcff8e4135f57aa1b5bc20718d7994043df6d1e1385747f36c2e82ce49513d84bfa4009a200c71310606b794099df8b5dc1bd0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texdev-alltt.sty \

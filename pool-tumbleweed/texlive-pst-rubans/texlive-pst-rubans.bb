@@ -7,10 +7,10 @@ set. In the case of circular and conical helices, one may also \
 choose the number of ribbons."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn23464"
+PV = "2023.209.1.2svn23464"
 
-RPM_NAME = "texlive-pst-rubans-2023.201.1.2svn23464-53.2.noarch.rpm"
-RPM_HASH = "578badaa0e52c112bf5328d5269440cacf7961f7115e8af74addfe2f3a05d49c5afd3b08b3d3e9a83a3de7811c5f73a0da5e38fbf873ee4f2fd413baeb6643a8"
+RPM_NAME = "texlive-pst-rubans-2023.209.1.2svn23464-54.1.noarch.rpm"
+RPM_HASH = "4dcb004cba4ca1b2b3bbb719be6b7c906bd5edc48f5e94e44ac01e0777e9f28ee83a97d273f90b12ac6273a5e14d021842ec5067a5a2292a6c57ef78edfd6229"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-rubans.sty \

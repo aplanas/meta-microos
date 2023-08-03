@@ -11,10 +11,10 @@ Features: \
  * Unit-tested"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.8.8"
+PV = "3.1"
 
-RPM_NAME = "python310-networkx-2.8.8-2.1.noarch.rpm"
-RPM_HASH = "1c1e65f8dba769c4094317e7cbce74390b602d528448b9f0a20ac61bd7d45e16abc958217ca81acfc0d8c6b184ace202a15bf926ca737877709faeb4a5537cb4"
+RPM_NAME = "python310-networkx-3.1-1.1.noarch.rpm"
+RPM_HASH = "836781749cddb736b27e8ad1fc57daeaf24900ae74b7b51c406f625b5e34a0c36bdefdcafa6704b264767648b5abae739e067e60744afbd0db39eb43f0195a16"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-networkx \

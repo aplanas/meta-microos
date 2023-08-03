@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-boites"
 DESCRIPTION = "This package includes the documentation for texlive-boites"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.1svn32235"
+PV = "2023.209.1.1svn32235"
 
-RPM_NAME = "texlive-boites-doc-2023.201.1.1svn32235-52.1.noarch.rpm"
-RPM_HASH = "cbef009b12086baebe40243543542ea126a82a35e2983d2369b4658c20f3eb6bcf48fd2351fb4ac7a379251e6913e5ef83e2bdfb004f35a8ab9a6b04d0c41641"
+RPM_NAME = "texlive-boites-doc-2023.209.1.1svn32235-53.1.noarch.rpm"
+RPM_HASH = "14f2781f325b04c0155cf14914a046892718e102b28818fbdc1093a501b0b5ea4c043a589431d39cb21a000ebf62db53ecc93c69779e8aceef016b035236b011"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-boites-doc"

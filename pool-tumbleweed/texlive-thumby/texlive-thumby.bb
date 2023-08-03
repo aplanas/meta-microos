@@ -9,10 +9,10 @@ by the user. The package is designed to work with the memoir \
 class, and also requires PerlTeX and tikz/"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.1svn16736"
+PV = "2023.209.0.0.1svn16736"
 
-RPM_NAME = "texlive-thumby-2023.201.0.0.1svn16736-54.1.noarch.rpm"
-RPM_HASH = "e3d633ebd8acb23f0846718b95075698022f1cad4ee67d91e2a3fb2176d3f7468315ea7b7f5efaee4f40aa2efc1ed95c85dc94dd93bbdc9011ae308839220ea2"
+RPM_NAME = "texlive-thumby-2023.209.0.0.1svn16736-55.1.noarch.rpm"
+RPM_HASH = "67450a10bcf30d2409561779fc0ce30ab55695150d190e0239084fcfc41d061dfc09c6f1e6867edd1fa185e4bbde5a2ef6caec0cb3e6fb57438bbd4b73ba65f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-thumby.sty \

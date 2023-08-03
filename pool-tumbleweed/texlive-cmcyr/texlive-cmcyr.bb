@@ -6,10 +6,10 @@ available to recode them to three other Russian 8-bit \
 encodings."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn60630"
+PV = "2023.209.svn60630"
 
-RPM_NAME = "texlive-cmcyr-2023.201.svn60630-53.1.noarch.rpm"
-RPM_HASH = "b31c1850189cd0d2767cea9467eda034ad835eeabaf1d3717cea6caf674ddd8c56361656512446bb1d06a26dade032fecd4b456f0b2c50995fd40341ee51705f"
+RPM_NAME = "texlive-cmcyr-2023.209.svn60630-54.1.noarch.rpm"
+RPM_HASH = "ba4e9c2a6d732328eaede17c204e8df61cd7583e96acaaf207ba7e5cf0ba749586641a376bd6411f949cd2bd8d6fae2549472649254a7228b5dd1ac8b479a3d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmcb10.tfm \

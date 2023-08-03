@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-colortbl"
 DESCRIPTION = "This package includes the documentation for texlive-colortbl"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0fsvn64015"
+PV = "2023.209.1.0fsvn64015"
 
-RPM_NAME = "texlive-colortbl-doc-2023.201.1.0fsvn64015-53.1.noarch.rpm"
-RPM_HASH = "d63ffc90b209117d38152684ac4e92815e91ef1a4f9f5827f619cdf78a8532ccb78f0122d72cabe529cf1cf18297d3c44ee5bfa8955f49ac3cafee99680cb00e"
+RPM_NAME = "texlive-colortbl-doc-2023.209.1.0fsvn64015-54.1.noarch.rpm"
+RPM_HASH = "40245d3a6ad9a006212d0217f63356c5033c07fcc054786921916bd68869c30e6015d25853cc7bfee32acc2f49093edff402600fcf3756daa1b72cf3067da5d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-colortbl-doc-de;en \

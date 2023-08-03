@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-yinit-otf"
 DESCRIPTION = "This package includes the documentation for texlive-yinit-otf"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.0svn40207"
+PV = "2023.209.1.0svn40207"
 
-RPM_NAME = "texlive-yinit-otf-doc-2023.201.1.0svn40207-52.2.noarch.rpm"
-RPM_HASH = "dc00815e10f2a6cf916607d1b7210b1c12c575ac10e3287f129050049e6bd0d5ed9a18d89c0cc6af9b7c9521bee40d12fa644581f514ac7fedf71826bca25a42"
+RPM_NAME = "texlive-yinit-otf-doc-2023.209.1.0svn40207-53.1.noarch.rpm"
+RPM_HASH = "468cb26cfdc15a2b9ab5cb40f5176c9324aa5b7ff75608ca226fef36230b5215b3ff67655dea228a8bd02a87c2a278f1f513cd29cd52f6b765748322c59c6bbb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yinit-otf-doc"

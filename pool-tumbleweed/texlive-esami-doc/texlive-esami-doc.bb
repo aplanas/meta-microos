@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-esami"
 DESCRIPTION = "This package includes the documentation for texlive-esami"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.7svn61596"
+PV = "2023.209.2.7svn61596"
 
-RPM_NAME = "texlive-esami-doc-2023.201.2.7svn61596-53.2.noarch.rpm"
-RPM_HASH = "6936079caade7a8b5444c0c20c534a459ff1c3fe8afe212f92cfcf32a161eee39a002916f21a0445c8f5eae9937076cff80a6ccceae5ec707303bfbc7ef8d092"
+RPM_NAME = "texlive-esami-doc-2023.209.2.7svn61596-54.1.noarch.rpm"
+RPM_HASH = "57c433bd26f7518a5d0cf19c661be5ecd942253af118a1c91cc684e4268222e6f11c76332d600557cc91c6161cdeee96cd6a2407ce9ac682e7715c53b6e12a07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-esami-doc-en;it \

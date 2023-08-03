@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-tapir"
 DESCRIPTION = "The  separated fonts package for texlive-tapir"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.2svn20484"
+PV = "2023.209.0.0.2svn20484"
 
-RPM_NAME = "texlive-tapir-fonts-2023.201.0.0.2svn20484-54.1.noarch.rpm"
-RPM_HASH = "166e0104962683285dc8d872f033123f1ece0704ecf38a1f58a21a1255797c5b950b0c54dd8506462c0fc424150c4beedf29be0e659fe8ca8529029109b7c6ef"
+RPM_NAME = "texlive-tapir-fonts-2023.209.0.0.2svn20484-55.1.noarch.rpm"
+RPM_HASH = "6097c2c68a3ec95bdf8cb5d587c2233499e598b5f5fe856cf2ecbbba165a1fbb5a9b4f9908a406ad888cc625a86cb8214c6d1ed7463be38f0d054d6552c67de0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=cs \

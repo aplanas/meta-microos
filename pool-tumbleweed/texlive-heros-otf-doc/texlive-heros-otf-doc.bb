@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-heros-otf"
 DESCRIPTION = "This package includes the documentation for texlive-heros-otf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.01svn64695"
+PV = "2023.209.0.0.01svn64695"
 
-RPM_NAME = "texlive-heros-otf-doc-2023.201.0.0.01svn64695-53.2.noarch.rpm"
-RPM_HASH = "1e1f1882b84b64e7d3aa037877b9fc14424602a102756403eb2fc2eb108f9fb9195a3bbb039d1e3d82eeb1473ee18fe6675cd7d7c7b82c95e1d0353719a88606"
+RPM_NAME = "texlive-heros-otf-doc-2023.209.0.0.01svn64695-54.1.noarch.rpm"
+RPM_HASH = "0d79544dda1be472db768e421e9226bf79960079e8328dfa07480e7d14989083205c29b9deb36c600052ca7075f7948575984def58907f462312d16aec38a1ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-heros-otf-doc"

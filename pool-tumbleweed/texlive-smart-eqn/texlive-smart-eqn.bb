@@ -10,10 +10,10 @@ styling which eliminates the need to enter style commands \
 repeatedly."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn61719"
+PV = "2023.209.1.0svn61719"
 
-RPM_NAME = "texlive-smart-eqn-2023.201.1.0svn61719-57.1.noarch.rpm"
-RPM_HASH = "6facdfd56922a0027737107361d5f950c6503999c37be885e311c6487e2ec6efed4c62cfb8287ca9af754c111ee95ceacde54d679c5db430bd2eec87c8a0dce9"
+RPM_NAME = "texlive-smart-eqn-2023.209.1.0svn61719-58.1.noarch.rpm"
+RPM_HASH = "ba21ffc8a94b1dbb565da3926a83010c457510f7bac62777c73cff4af3f4405c4ad8a5a803d79e63ad0b6aa5fb4c2ee6fd3869d332001f5381b0a8c2b602fc68"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-smart-eqn.sty \

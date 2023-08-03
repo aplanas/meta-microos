@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-accanthis"
 DESCRIPTION = "This package includes the documentation for texlive-accanthis"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn64844"
+PV = "2023.209.svn64844"
 
-RPM_NAME = "texlive-accanthis-doc-2023.201.svn64844-54.1.noarch.rpm"
-RPM_HASH = "e10e3d2d6f135cf3b4619b601c5163653ad2e71d069a666186d22f9fd953da7619a2942b06a1734f1676f946a766178af2d97642320d68a3c87401853bb49519"
+RPM_NAME = "texlive-accanthis-doc-2023.209.svn64844-55.1.noarch.rpm"
+RPM_HASH = "0c5abbe001b6479d3d6fc10a6cd5a7ef78a0f2216d1d712673449bd5d1c2004fdd72e010a2784ede4dc6a8bd194015a036f2b785ed15c922596efdf834acaab9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-accanthis-doc-fr \

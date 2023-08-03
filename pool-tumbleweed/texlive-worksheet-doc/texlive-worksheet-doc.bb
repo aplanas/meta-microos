@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-worksheet"
 DESCRIPTION = "This package includes the documentation for texlive-worksheet"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn48423"
+PV = "2023.209.1.1svn48423"
 
-RPM_NAME = "texlive-worksheet-doc-2023.201.1.1svn48423-53.1.noarch.rpm"
-RPM_HASH = "38ec9ee80cc8982f71cf0c0c998ee6988f7ceab077c1847c7710fefd53aa4b53c2ed2a0df8a740fb9f84a64efa95fae046941f0317d2b6e3b0b705c79f87c6fa"
+RPM_NAME = "texlive-worksheet-doc-2023.209.1.1svn48423-54.1.noarch.rpm"
+RPM_HASH = "4970aaf0697e88d95a96d56bb46220e8b7e053780ad9a8faff20260e444ac0bb64adac326974160a121dc21a5ef118fb8318b2a166d6af4a101ac819d1e915e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-worksheet-doc"

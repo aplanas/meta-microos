@@ -2,25 +2,25 @@ SUMMARY = "The Standard Kernel - without any SUSE patches"
 DESCRIPTION = "The standard kernel - without any SUSE patches \
  \
  \
-Source Timestamp: 2023-07-11 06:23:11 +0000 \
-GIT Revision: 5ab030f1f07fd96746960bce337ec62fc11b6a9a \
+Source Timestamp: 2023-07-25 04:42:30 +0000 \
+GIT Revision: 55520bc826c5b1d40857ed0536eb87438cb95192 \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.3"
+PV = "6.4.6"
 
-RPM_NAME = "kernel-vanilla-6.4.3-1.1.aarch64.rpm"
-RPM_HASH = "e3bac80b220a783277d50e4bbfbc78fdbe67f2a6edd487fed5a7610b13c0a4605302de75b4f9da368d80f77a4166a3f7497cae7571d3efd02437d7b910134274"
+RPM_NAME = "kernel-vanilla-6.4.6-1.1.aarch64.rpm"
+RPM_HASH = "816b6d455762671c9658d1da3b40e8efb274b6f6ae07e58a90f8d846c684b23af3a26bae086b3c14abc4a410affcb99faf3acb3ac3fd6de7130487e6e8acadb6"
 
 RPROVIDES:${PN} += "kernel \
 kernel-base \
-kernel-srchash-5ab030f1f07fd96746960bce337ec62fc11b6a9a \
+kernel-srchash-55520bc826c5b1d40857ed0536eb87438cb95192 \
 kernel-uname-r \
 kernel-vanilla \
-kernel-vanilla-6.4.3-1 \
+kernel-vanilla-6.4.6-1 \
 kernel-vanilla-aarch64 \
-kernel-vanilla-base-srchash-5ab030f1f07fd96746960bce337ec62fc11b6a9a \
-kernel-vanilla-srchash-5ab030f1f07fd96746960bce337ec62fc11b6a9a \
+kernel-vanilla-base-srchash-55520bc826c5b1d40857ed0536eb87438cb95192 \
+kernel-vanilla-srchash-55520bc826c5b1d40857ed0536eb87438cb95192 \
 kmod-3c59x.ko \
 kmod-3w-9xxx.ko \
 kmod-3w-sas.ko \
@@ -3271,7 +3271,6 @@ kmod-mos7840.ko \
 kmod-motorcomm.ko \
 kmod-motorola-cpcap.ko \
 kmod-mousedev.ko \
-kmod-moxa.ko \
 kmod-moxtet.ko \
 kmod-mp2629-adc.ko \
 kmod-mp2629-charger.ko \
@@ -6113,7 +6112,6 @@ kmod-sym53c8xx.ko \
 kmod-symbolserial.ko \
 kmod-synaptics-i2c.ko \
 kmod-synaptics-usb.ko \
-kmod-synclink-gt.ko \
 kmod-synopsys-edac.ko \
 kmod-syscon-reboot-mode.ko \
 kmod-syscopyarea.ko \

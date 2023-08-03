@@ -5,10 +5,10 @@ current version of xtemplate (and hence of the current LaTeX3 \
 development environment)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.9.1svn64059"
+PV = "2023.209.3.9.1svn64059"
 
-RPM_NAME = "texlive-xecjk-2023.201.3.9.1svn64059-52.2.noarch.rpm"
-RPM_HASH = "22aa52b10133d9e0e7b808c380fd781dc84b0a0de32e59c44842f341cb00c4cd3b77e84716d0a69ef535719308319c3217032f0ff28de27880a307d1efa5debf"
+RPM_NAME = "texlive-xecjk-2023.209.3.9.1svn64059-53.1.noarch.rpm"
+RPM_HASH = "ea5ad7d5f1290f32eb55280c8b7064aa0e8a128314c2bc9939903d5d48e2fdc2ca03f7cd7eeda4e796dc14ee3bb58921b7f59d914ce52f20a8833225f532b8e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-full-stop.map \

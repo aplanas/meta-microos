@@ -8,10 +8,10 @@ define other types of float, it is possible to register these \
 float types with endfloat."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.7svn57090"
+PV = "2023.209.2.7svn57090"
 
-RPM_NAME = "texlive-endfloat-2023.201.2.7svn57090-53.2.noarch.rpm"
-RPM_HASH = "aed42e83e86aa343e9065902087bfd123b37e5d8fdf4873641dc3eaee022b5d5b21be009a1389c5e8641251841566f7f8fa64fc98b405e62f6af755aa43fae23"
+RPM_NAME = "texlive-endfloat-2023.209.2.7svn57090-54.1.noarch.rpm"
+RPM_HASH = "1c1a55e806c2e077e455ec7b5aa80265658abed2a14da3a73c8224dfe46a4668e31c308dd4eb05b28abce2518cb448d412c03c20bd8143078d58d75e811f1482"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-endfloat.sty \

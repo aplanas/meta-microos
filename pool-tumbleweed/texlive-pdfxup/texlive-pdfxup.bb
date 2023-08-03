@@ -7,10 +7,10 @@ and then uses pdflatex (with the graphicx package) in order to \
 produce the new document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.10svn59001"
+PV = "2023.209.2.10svn59001"
 
-RPM_NAME = "texlive-pdfxup-2023.201.2.10svn59001-51.1.noarch.rpm"
-RPM_HASH = "7f11ceec9d9dc5728dd295aeae60782ed4385b0ace2d319aac5c362f465bb95ddf6a42ff9681fd3a2d4fd8c0698ebc56f86d9f5f206ac5bbca4fcc5aa783e138"
+RPM_NAME = "texlive-pdfxup-2023.209.2.10svn59001-52.1.noarch.rpm"
+RPM_HASH = "ed9192b2bf7ea00b38a74d6e1d45f753f8a610e346d37fcb487634efdd47227b6da1d0af2fcadb8f79722b1faa95c25a5df1ec03338ee5d1efc1e8999d66158b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdfxup-template.tex \

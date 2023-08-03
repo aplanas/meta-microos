@@ -18,16 +18,18 @@ List of features includes: \
 * Wide range of supported translation formats (Getext, Qt, Java, Windows, Symbian and more)"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.14.2"
+PV = "4.18.2"
 
-RPM_NAME = "weblate-4.14.2-3.2.noarch.rpm"
-RPM_HASH = "413e63e42d0ac767433758fbcead8e6bf0efdf0763c8e82441d62b86c4a77d598eb511629800435c754f359f3201ddced93ce163c08c7609a7ae01421185e688"
+RPM_NAME = "weblate-4.18.2-1.1.noarch.rpm"
+RPM_HASH = "2cd4fa90d4fed130aa330e3b3ad2181adb8adcf33a8d725b880371f38f4f3a3851df8fa250e88e9054e68f340bb64da530d1f7cec5b30b69732afc0c0f12cc34"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-weblate \
 weblate"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/env \
+/usr/bin/python \
 /usr/bin/python3 \
 /usr/bin/sh \
 borgbackup \
@@ -42,13 +44,14 @@ python3-GitPython \
 python3-Levenshtein \
 python3-Pillow \
 python3-Pygments \
-python3-bleach \
 python3-celery \
 python3-charset-normalizer \
 python3-cssselect \
 python3-diff-match-patch \
 python3-django-appconf \
+python3-django-celery-beat \
 python3-django-compressor \
+python3-django-cors-headers \
 python3-django-crispy-forms \
 python3-django-filter \
 python3-django-redis \
@@ -63,6 +66,7 @@ python3-html2text \
 python3-jsonschema \
 python3-lxml \
 python3-misaka \
+python3-nh3 \
 python3-openpyxl \
 python3-packaging \
 python3-psycopg2 \

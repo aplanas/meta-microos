@@ -8,10 +8,10 @@ make a steering file that is used by the package when LaTeX is \
 being run.y"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.67svn29349"
+PV = "2023.209.67svn29349"
 
-RPM_NAME = "texlive-listings-ext-2023.201.67svn29349-54.1.noarch.rpm"
-RPM_HASH = "200ad6fe0122bc08dbce77b0ce4543cd4f7c00631898ca85c0f3d003f9f7e5d66bbe49aaaec7abee68e40db779076e77c3404fe2e138d9bdf1afaa05320ec919"
+RPM_NAME = "texlive-listings-ext-2023.209.67svn29349-55.1.noarch.rpm"
+RPM_HASH = "65b9d790517f08a4c018e4893e00e128c02bcbbfba6d4539c493bbbe1b6cf9f12bfff473ac8b7e9e6d479af2a5abc22a5346d1858dad78b372442be55773afe9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-listings-ext.sty \

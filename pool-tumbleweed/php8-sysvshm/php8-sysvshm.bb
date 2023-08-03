@@ -2,10 +2,10 @@ SUMMARY = "SysV Shared Memory support for PHP"
 DESCRIPTION = "PHP interface for System V shared memory."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.7"
+PV = "8.2.8"
 
-RPM_NAME = "php8-sysvshm-8.2.7-1.1.aarch64.rpm"
-RPM_HASH = "9bb760bef98dbc954d000b8f666221a47b9b6c2c8bafe0a85f3357ea9c03d5ee2e886d34c8f615a3ec96b1d6a8e466031389b9ebb2e6db9b079f913239340166"
+RPM_NAME = "php8-sysvshm-8.2.8-1.1.aarch64.rpm"
+RPM_HASH = "a447bbb921e34f9e85b7c1fc4913cbb1629a31b65a60552a911f11c0305cc6a1bd43d96be39f95bcc98f21fe9de6634d442f8349261121ea3c3720d55503dd1b"
 
 RPROVIDES:${PN} += "config-php8-sysvshm \
 php-sysvshm \

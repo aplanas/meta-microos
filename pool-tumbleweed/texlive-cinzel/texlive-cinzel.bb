@@ -9,10 +9,10 @@ by the usual italic-selection commands in the package's LaTeX \
 support."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64550"
+PV = "2023.209.svn64550"
 
-RPM_NAME = "texlive-cinzel-2023.201.svn64550-53.1.noarch.rpm"
-RPM_HASH = "2e6b0f39d6076e28da1beff28cbaf538a97ac44926573bb5fe889944ccdb52101d4d7d01d4c27258c58657fafe58bd965afce2877434806cd6ef50eb892b7785"
+RPM_NAME = "texlive-cinzel-2023.209.svn64550-54.1.noarch.rpm"
+RPM_HASH = "5ea765e82dbc0f21c3d955e5e81c84c2e00102f024762f652701a1b4f494ad0be0d3f7bce46770f3b17d47d5505a57118375650e52b02b8c9a78fba5c8603700"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Cinzel-Black-lf-ly1--base.tfm \

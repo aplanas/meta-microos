@@ -11,10 +11,10 @@ output quality -- all in a bundle that does not demand \
 excessive development time of the user."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.26asvn64242"
+PV = "2023.209.1.26asvn64242"
 
-RPM_NAME = "texlive-texshade-2023.201.1.26asvn64242-54.1.noarch.rpm"
-RPM_HASH = "7e52d8ee01239c61412a245b4ab2f3b6e27a27729737acfe1d151e2008883bb414f4c102ad83d4c0755876618517bba73dcdf193a084ad5ecc6163db014f7ab8"
+RPM_NAME = "texlive-texshade-2023.209.1.26asvn64242-55.1.noarch.rpm"
+RPM_HASH = "607220229683ca586408c0bf34c71c8a49b6adab77e71bb63cf8f86ad28f8caecd3b53cacb5c0d2380af1e8670953dd801cad2281c75bdb4f47861f80467fe85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-texshade.def \

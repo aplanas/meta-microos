@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tinos"
 DESCRIPTION = "This package includes the documentation for texlive-tinos"
 LICENSE = "Apache-1.0"
 
-PV = "2023.201.svn64504"
+PV = "2023.209.svn64504"
 
-RPM_NAME = "texlive-tinos-doc-2023.201.svn64504-52.1.noarch.rpm"
-RPM_HASH = "ae68181f7f54011a35b1ba24b88695019702328f4f55c62d230a434c795cc4ee60ffb5bb63976ed3db9f142efe1a68bb83ab6f7c9727c6fc8086fc12eba0f41c"
+RPM_NAME = "texlive-tinos-doc-2023.209.svn64504-53.1.noarch.rpm"
+RPM_HASH = "d016a7f5ec47a7a4cba4bb8a0e0ac3e7998c4b41c70128ffec2a35b6b0b0353231631a638ea982fb4028c3f085c8c5951a685015b225c3602a6c6b252c93793e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tinos-doc"

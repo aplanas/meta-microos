@@ -5,10 +5,10 @@ paragraphs are taken with permission from \
 https://ipsum.mwt.me/."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.8.2svn58390"
+PV = "2023.209.0.0.8.2svn58390"
 
-RPM_NAME = "texlive-econlipsum-2023.201.0.0.8.2svn58390-53.2.noarch.rpm"
-RPM_HASH = "a723eb6d4e056cf1666e119767d8309a67f55c94be0cd3ca359aa9ba73790a463afad95307c984783373cffd10ff9123f43194b2cec9239229a47ea874ed8281"
+RPM_NAME = "texlive-econlipsum-2023.209.0.0.8.2svn58390-54.1.noarch.rpm"
+RPM_HASH = "b03450e48912ce13913101f3c78cae8f4da0750a3683671e2e3e00eece9d3763ddc13fc29bf1220989a21249dfb77cb6f0899c07b15276a5997cd5faa2ddcfef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-econlipsum.sty \

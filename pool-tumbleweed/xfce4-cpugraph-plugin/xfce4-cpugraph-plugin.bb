@@ -3,10 +3,10 @@ DESCRIPTION = "The CPU Graph plugin diplays a customizable graph of the CPU load
 a specific CPU or all CPUs combined."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.7"
+PV = "1.2.8"
 
-RPM_NAME = "xfce4-cpugraph-plugin-1.2.7-1.4.aarch64.rpm"
-RPM_HASH = "ff00ea8ab6ab51c863ba8074500131752c7dfc9d12a82b15bd6c98502cd57e8e58f3627b28f22f1a7f92f387cf17ae0b591567a407ffebd38b16b950bb48e72b"
+RPM_NAME = "xfce4-cpugraph-plugin-1.2.8-1.1.aarch64.rpm"
+RPM_HASH = "87b7e8c75ac3eadd93163b909f9236320998d3d32ae87e03cbcd5bcb49d8fd2628f3c07fe1998a3bd6fd425326af48bd166090ae7b93525fa66e76737f5a4e7f"
 
 RPROVIDES:${PN} += "libcpugraph.so \
 xfce4-cpugraph-plugin \
@@ -25,6 +25,7 @@ libstdc++.so.6 \
 libxfce4panel-2.0.so.4 \
 libxfce4ui-2.so.0 \
 libxfce4util.so.7 \
+libxfconf-0.so.3 \
 xfce4-panel"
 
 inherit rpm

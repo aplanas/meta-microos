@@ -6,10 +6,10 @@ representation models (Fischer, Haworth, chair...) are \
 supported as well as alpha, beta, and chain isomers."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn39000"
+PV = "2023.209.0.0.1svn39000"
 
-RPM_NAME = "texlive-carbohydrates-2023.201.0.0.1svn39000-52.1.noarch.rpm"
-RPM_HASH = "8a3fea8b0b894630e04d369849533c22a2277ed0631bd9cbbd679b518a85db5605eaf75daf47184120297971a99b3ab26291480aeb9d375a90c6ec721730e06e"
+RPM_NAME = "texlive-carbohydrates-2023.209.0.0.1svn39000-53.1.noarch.rpm"
+RPM_HASH = "510a539746086bd25f222254dadb637aadc39a2d6df2a314430329e90f659e063988575612b3071a74821178421b19edbb6aa8043c41682fc0a0ca6b1570837c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-carbohydrates.sty \

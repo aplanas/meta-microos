@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-fontawesome5"
 DESCRIPTION = "The  separated fonts package for texlive-fontawesome5"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.5.15.4svn63207"
+PV = "2023.209.5.15.4svn63207"
 
-RPM_NAME = "texlive-fontawesome5-fonts-2023.201.5.15.4svn63207-52.1.noarch.rpm"
-RPM_HASH = "e4d7f4b33b52bdd107166210fb509ef246e58ced61b5dc651605419b7faa791cf957575f4ebbab02f81ae53135a2887839446b85517a50390280bff258f4d22c"
+RPM_NAME = "texlive-fontawesome5-fonts-2023.209.5.15.4svn63207-53.1.noarch.rpm"
+RPM_HASH = "c8a2ffb275cde7a0b8869640362a9470ceeda97a17208267b77a1bf26a46ea774982022451f1ae9650cb49ce2db39b408bd09eb5bd54102fabbbe6dd2a0b0492"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-fontawesome5-fonts \

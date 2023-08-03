@@ -5,10 +5,10 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.0.1"
 
-RPM_NAME = "ghc-pandoc-lua-engine-devel-0.2.0.1-1.6.aarch64.rpm"
-RPM_HASH = "9658ea8b819b100c0dbf4d36624e8ec6b7d46218b2c9d8654ede413c02e50aef2bba0cd1c3e1576d84fd0102e6a6eb457b1f5d219608c758e76ef0476c18f6f4"
+RPM_NAME = "ghc-pandoc-lua-engine-devel-0.2.0.1-1.7.aarch64.rpm"
+RPM_HASH = "c1a08d5f21df2054d0d4c4bc6cb947503ddbae0d64a09a582b56a0d84aa2c5d5555c5615524878c6ca822f7a005d3f78b8e4a148ec3819b886b8fd1b891de9bf"
 
-RPROVIDES:${PN} += "ghc-devel-pandoc-lua-engine-0.2.0.1-5sUPoxcrHZ3FzfN1da4tRi \
+RPROVIDES:${PN} += "ghc-devel-pandoc-lua-engine-0.2.0.1-2RA8DHDCMU13RV6aHXQ7Uf \
 ghc-pandoc-lua-engine-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -33,7 +33,7 @@ ghc-devel-hslua-module-zip-1.1.0-HbdBiDu9SYHDsbypcn78hx \
 ghc-devel-hslua-repl-0.1.1-Cn1WzYftAVL4Hlxy0N0ea1 \
 ghc-devel-lpeg-1.0.4-IadFjeA522fGKCuUXCvVP9 \
 ghc-devel-mtl-2.2.2 \
-ghc-devel-pandoc-3.1.3-ImQr97Zc2bP55LDbAec3vO \
+ghc-devel-pandoc-3.1.3-55OY79jb6yp7kweb38lcUZ \
 ghc-devel-pandoc-lua-marshal-0.2.2-FczgTsDU3sCHicuhmGSmSB \
 ghc-devel-pandoc-types-1.23.0.1-EcvZluXpPb0J10kJC4UfRg \
 ghc-devel-parsec-3.1.16.1 \

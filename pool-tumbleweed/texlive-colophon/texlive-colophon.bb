@@ -11,10 +11,10 @@ colophons without having to muck around with a lot of manual \
 code."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn47913"
+PV = "2023.209.1.1svn47913"
 
-RPM_NAME = "texlive-colophon-2023.201.1.1svn47913-53.1.noarch.rpm"
-RPM_HASH = "94e583773699454c443ecdfcad4e2535116c4c544ea22b59cd4e49a3471f646b0aef3a85af103e4f794a96ded5034acec2da8b16431868cb5084cd403f4568a4"
+RPM_NAME = "texlive-colophon-2023.209.1.1svn47913-54.1.noarch.rpm"
+RPM_HASH = "b050ff421010e0a64f709d1d188da0e84d6c08bb3b925f022a293c2619c7a09133e757e249d589a8830d6d735c74dd6e6e9bc012c9c8d8908f03cdaf0c019170"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-colophon.sty \

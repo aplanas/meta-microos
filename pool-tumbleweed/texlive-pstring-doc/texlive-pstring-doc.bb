@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pstring"
 DESCRIPTION = "This package includes the documentation for texlive-pstring"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn42857"
+PV = "2023.209.svn42857"
 
-RPM_NAME = "texlive-pstring-doc-2023.201.svn42857-53.2.noarch.rpm"
-RPM_HASH = "4077d131fcedcc01c6969f3dab28fc24b496a90768727e0b8d8e9bd89008c4aaacc78e986a1271a683934e9c3add4c8d657cbab10d82d9eb733f715d06f736e2"
+RPM_NAME = "texlive-pstring-doc-2023.209.svn42857-54.1.noarch.rpm"
+RPM_HASH = "0c16939c7ed317669435751396899729165290fd13a484e819ab8dade77b2cdf778997400718cf0953adadc1a03aff27dfe287cebd80380049c9eeccf89b718f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pstring-doc"

@@ -6,10 +6,10 @@ source; macros to produce a Greek variant of Plain TeX \
 table) are provided."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn22613"
+PV = "2023.209.svn22613"
 
-RPM_NAME = "texlive-yannisgr-2023.201.svn22613-52.2.noarch.rpm"
-RPM_HASH = "aac6303e11154c13499cdeff9f451f3868d03c34f7d85766c157d08c7388447311188caa1fb36c72b3291bcf40ebc2502a6760a8acc6e657d0949ee0b07c5894"
+RPM_NAME = "texlive-yannisgr-2023.209.svn22613-53.1.noarch.rpm"
+RPM_HASH = "895d0441b196a45531da76ddb37a69182ac9a4efcc745da459f63a0a0a4f97cbf6ef2fb283c00c2ef90ac02e9c6bc244cb487d54b143ef0ca99733b24ccc61ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mrgrbf10.tfm \

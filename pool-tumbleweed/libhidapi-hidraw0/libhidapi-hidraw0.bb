@@ -3,10 +3,10 @@ DESCRIPTION = "HIDAPI is a library which allows an application to interface with
 While it can be used to communicate with standard HID devices like keyboards, mice, and Joysticks, it is most useful when used with custom (Vendor-Defined) HID devices."
 LICENSE = "BSD-3-Clause | GPL-3.0-or-later"
 
-PV = "0.13.1"
+PV = "0.14.0"
 
-RPM_NAME = "libhidapi-hidraw0-0.13.1-1.3.aarch64.rpm"
-RPM_HASH = "fb4150f50c63f62aa598f7f9368364400b78a99305bcd7c95f7cd0202e5f57fb307d74ea1c271186f9cf686df52d2e754dbf892ae972bf5bde58b837aceacae3"
+RPM_NAME = "libhidapi-hidraw0-0.14.0-1.1.aarch64.rpm"
+RPM_HASH = "c83a0c86973e441922157ac6e8024dc9a58baad11b145567d64416431d4fd41b7cd5fb406a07f833a22faed1c0a27f7264868ca457936cbb870a9be9e44a9095"
 
 RPROVIDES:${PN} += "libhidapi-hidraw.so.0 \
 libhidapi-hidraw0"

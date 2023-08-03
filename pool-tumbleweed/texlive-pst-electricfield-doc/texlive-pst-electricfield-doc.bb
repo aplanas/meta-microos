@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-electricfield"
 DESCRIPTION = "This package includes the documentation for texlive-pst-electricfield"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.14svn29803"
+PV = "2023.209.0.0.14svn29803"
 
-RPM_NAME = "texlive-pst-electricfield-doc-2023.201.0.0.14svn29803-52.1.noarch.rpm"
-RPM_HASH = "8a340b01b3cbe489dd2138d52cdb013f597969fdd624d66c07d2d650debfd4ea3fd280da6a962da3af80c17b917bfe9a266ea261f8e8d6f6e4248eeaf9482a3c"
+RPM_NAME = "texlive-pst-electricfield-doc-2023.209.0.0.14svn29803-53.1.noarch.rpm"
+RPM_HASH = "eb66aad9d1b021fda0bed190e018c0ea392be43f3f73a3a89b4b4104eb39328607f362673517aeb9fda127755e7872acbd7f55ea3fbc49ee54dfb564bdc3d957"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pst-electricfield-doc-de;en;fr \

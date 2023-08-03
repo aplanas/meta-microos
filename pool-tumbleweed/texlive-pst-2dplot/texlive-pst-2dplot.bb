@@ -4,10 +4,10 @@ intuitive tool for plotting 2-d curves. It defines an \
 environment with commands similar to MATLAB for plotting."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5svn15878"
+PV = "2023.209.1.5svn15878"
 
-RPM_NAME = "texlive-pst-2dplot-2023.201.1.5svn15878-52.1.noarch.rpm"
-RPM_HASH = "c9395aac1000f644e0705cc3a260372ce03ebe31246da6589d162ab2f60c34bd43dba7c04f64f7439f496ecf640ab6d3b658507e85cc37f8f40ca7bca10b457a"
+RPM_NAME = "texlive-pst-2dplot-2023.209.1.5svn15878-53.1.noarch.rpm"
+RPM_HASH = "04edaf6296de852ee32f533e590e7e5c20a8e9acfa35291cc34ef3d7a578029a143cb657fbac85f144c5ed2f65770c53dd8149684fbcfe5048a00109ce5d6764"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-2dplot.sty \

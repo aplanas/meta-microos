@@ -12,10 +12,10 @@ packages, ctanify has now been provided with an option that \
 prevents the creation and inclusion of such a .tds.zip file."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.1.9.1svn44129"
+PV = "2023.209.1.9.1svn44129"
 
-RPM_NAME = "texlive-ctanify-2023.204.1.9.1svn44129-54.1.noarch.rpm"
-RPM_HASH = "4b531ee2d69174c7e95276ef53540d326ff69191c0200cc8d44fb2f0293cb27c1c7889dd8f28272720ead39cdaab6549eb014c44ce2bc98560514a292e575ac8"
+RPM_NAME = "texlive-ctanify-2023.209.1.9.1svn44129-55.1.noarch.rpm"
+RPM_HASH = "16d6dff9e37a733d3d7d087514d31027e95ee5925831487d7edfc9a0ca023b256eae9220ec4e7a07ad1b3aaad8cf35fab347577a474a648efeaeaf23ccd93b46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ctanify"

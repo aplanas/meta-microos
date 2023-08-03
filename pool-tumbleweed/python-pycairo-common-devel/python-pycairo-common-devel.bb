@@ -5,10 +5,10 @@ This package provides the headers and development files needed to build \
 packages that depend on Pycairo."
 LICENSE = "LGPL-2.1-or-later | MPL-1.1"
 
-PV = "1.23.0"
+PV = "1.24.0"
 
-RPM_NAME = "python-pycairo-common-devel-1.23.0-2.2.aarch64.rpm"
-RPM_HASH = "78804eb98a929d02c4848b3c1e4fa64ad2d8b4e0c6f922cafa41cb09f96b1f024a60e4f7d6ccd33d659a05a330dd28a1c1b48d8cba153fa0141385d9dc966d93"
+RPM_NAME = "python-pycairo-common-devel-1.24.0-1.1.aarch64.rpm"
+RPM_HASH = "5444270dd8014f3f03dd4f6c7214362f07b6679e71c0aefc48a342cb0355e024853c4484ed11125272a3afe4797eb5a174de872162a4a2557cdd9d211f19a72f"
 
 RPROVIDES:${PN} += "pkgconfig-py3cairo \
 python-cairo-common-devel \

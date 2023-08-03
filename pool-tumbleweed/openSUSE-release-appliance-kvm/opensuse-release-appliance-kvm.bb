@@ -2,10 +2,10 @@ SUMMARY = "openSUSE Tumbleweed"
 DESCRIPTION = "openSUSE Tumbleweed is the rolling distribution by the openSUSE.org project."
 LICENSE = "BSD-3-Clause"
 
-PV = "20230719"
+PV = "20230801"
 
-RPM_NAME = "openSUSE-release-appliance-kvm-20230719-1742.1.aarch64.rpm"
-RPM_HASH = "f46fc36dc24a3459061f9da337b71f993587f910f834f29a5069e31b1d667231bc79d126c068d98fd0b6c20b075cfff8e3412db6a2fc92c65e46156e25262b3d"
+RPM_NAME = "openSUSE-release-appliance-kvm-20230801-1756.1.aarch64.rpm"
+RPM_HASH = "9bb1c610b7742f00c7bbca631aaf0bf59829861b290136756387e4117e0d739fecb78387484b22da4a472e4f474ab94c846412b35c4bd9f2b38b962a62737afe"
 
 RPROVIDES:${PN} += "flavor-appliance-kvm \
 openSUSE-release-appliance-kvm \

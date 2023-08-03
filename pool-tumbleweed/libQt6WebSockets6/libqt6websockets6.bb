@@ -5,10 +5,10 @@ requests, or a client that can consume data received from the server, \
 or both."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6WebSockets6-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "9ed86670388252db03486c60af70009ccee51956d20a0e4db11ea25940046ae5c06f40ef86892ee81ef43c7cf78769b48ff3bee8418acac4e27236970dcbffbe"
+RPM_NAME = "libQt6WebSockets6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "c84d5b59d4fddee5b1f49f68592147b55b436c6fb7e8de31088f5355b4be4a84e470b06bc98d29dd9ce626a964ce11953e3526904df4677ab2c1a32169bcecf1"
 
 RPROVIDES:${PN} += "libQt6WebSockets.so.6 \
 libQt6WebSockets6"

@@ -5,10 +5,10 @@ class. It also provides a version of \\CheckCommand that sets a \
 flag rather than printing a warning."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1asvn15878"
+PV = "2023.209.1.1asvn15878"
 
-RPM_NAME = "texlive-stdclsdv-2023.201.1.1asvn15878-57.1.noarch.rpm"
-RPM_HASH = "38bcd92d279fd56c47a98b67bc1cb734e85abb7a9f114db0648a35cba5c1bf7a185edbb1eacdb2a0bb1a48e275e7f5812899a5608a3fe7da74dd3c43549960a2"
+RPM_NAME = "texlive-stdclsdv-2023.209.1.1asvn15878-58.1.noarch.rpm"
+RPM_HASH = "0fc4a07e37b9d47d1c9e77e160f1f48be7f13897d8da38c3545f07b760829ce2b4ccc8e08216a611466a3bb1e74b4befcff67e44efb472cc1754778ed1313a8a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-stdclsdv.sty \

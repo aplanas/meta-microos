@@ -12,10 +12,10 @@ permissions, directories, symbolic links, fifos, etc., but not hard \
 links."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.2.2"
+PV = "1.2.3"
 
-RPM_NAME = "duplicity-1.2.2-1.3.aarch64.rpm"
-RPM_HASH = "53eee56ee6f4a84cd653e064212f9ee6fabb92c837d83ae39f02e65b27b17b6f8f4e9be91a3ce89dc9d2723c60449f6b3ace01e2ad95bfb7a20f92f5c8152073"
+RPM_NAME = "duplicity-1.2.3-1.1.aarch64.rpm"
+RPM_HASH = "03437de526a0fe5f979d81526497ffe9418b3da77a1febd9b77ecccd077bbb08e04e34ea241eb420b25f8593945b08b1f718492f9d865df6f2721ca4bc88434b"
 
 RPROVIDES:${PN} += "duplicity \
 python3.11dist-duplicity \

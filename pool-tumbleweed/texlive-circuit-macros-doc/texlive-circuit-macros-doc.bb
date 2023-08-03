@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-circuit-macros"
 DESCRIPTION = "This package includes the documentation for texlive-circuit-macros"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.10.2svn66549"
+PV = "2023.209.10.2svn66549"
 
-RPM_NAME = "texlive-circuit-macros-doc-2023.201.10.2svn66549-53.1.noarch.rpm"
-RPM_HASH = "9b3e3c23fe13e193058fd1798d823c9771eb438b4d7c9a3abba25ba82e5da2f66e5abe6aeb54dee0999b5da6ed28a559c8c8c4bf72a6ed31abce0e0a55a7a78b"
+RPM_NAME = "texlive-circuit-macros-doc-2023.209.10.2svn66549-54.1.noarch.rpm"
+RPM_HASH = "4d03deec18296a07f1a8b6587abd5c9f947125ec943e14b793242ca84522307751eaeff745b7f80769a600634b2f63672dfa76730e2ddeff718cb2a2b1613a4f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-circuit-macros-doc"

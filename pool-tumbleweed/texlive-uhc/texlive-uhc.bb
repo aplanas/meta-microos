@@ -3,10 +3,10 @@ DESCRIPTION = "Support for Korean documents written in Korean standard KSC \
 codes for LaTeX2e."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn16791"
+PV = "2023.209.svn16791"
 
-RPM_NAME = "texlive-uhc-2023.201.svn16791-53.1.noarch.rpm"
-RPM_HASH = "1973e33d6721d6213fd81e5c4f30ab5c3a06dd0a35dda46d7a05693b7032a8a1af79556b845454f47b135c8a8054d9b7a838f49aec180fb95f7bc582aa9dfec1"
+RPM_NAME = "texlive-uhc-2023.209.svn16791-54.1.noarch.rpm"
+RPM_HASH = "8d0ca311a1b3ae0161ae9e57df0d98c0fe234942417394791298fbff18ef511e4b72f2559b2fb8e48b3fda6fdf3295e6e3bcb1eeab6b1fe7510095b524627186"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-umj.map \

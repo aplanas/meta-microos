@@ -15,10 +15,10 @@ Log (SEL), printing Field Replaceable Unit (FRU) information, reading \
 and setting LAN configuration, and chassis power control."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.8.19.0.g19d7878"
+PV = "1.8.19.13.gbe11d94"
 
-RPM_NAME = "ipmitool-1.8.19.0.g19d7878-1.5.aarch64.rpm"
-RPM_HASH = "419a4b088b25c4c55867d91641a987f6e246431fd2254c324cbad8f1e7cf716efd2351667db3886674e0af6da5c82b7887dd5335c33fcad5f4b395d56bbdca29"
+RPM_NAME = "ipmitool-1.8.19.13.gbe11d94-1.1.aarch64.rpm"
+RPM_HASH = "cd87ad6d7384c19ba33efdc51614cfd48ea57d489d85093129e57ab9adbe83db7b36f9b9e1e39e9e0b81b490cda3ec8af263a4a4da11dcd29dd161d72a742b80"
 
 RPROVIDES:${PN} += "config-ipmitool \
 ipmitool"

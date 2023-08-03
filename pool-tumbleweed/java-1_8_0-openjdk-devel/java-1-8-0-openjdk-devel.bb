@@ -2,10 +2,10 @@ SUMMARY = "OpenJDK 8 Development Environment"
 DESCRIPTION = "The OpenJDK 8 development tools."
 LICENSE = "Apache-1.1 & Apache-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
 
-PV = "1.8.0.372"
+PV = "1.8.0.382"
 
-RPM_NAME = "java-1_8_0-openjdk-devel-1.8.0.372-1.2.aarch64.rpm"
-RPM_HASH = "910e8296dca7a6d374c3215a9b0f0a7f0e9207e128d8e2a32dcaf8506d18a9d86124883eb261bb23568f38ad9ec42aeedc241787d72e2ca8ad3568362b09f92b"
+RPM_NAME = "java-1_8_0-openjdk-devel-1.8.0.382-1.1.aarch64.rpm"
+RPM_HASH = "c7c605889ac17dd4626998f8d179f6eef1f7275db35399eac3d79d67f1c0a06a193e69c8a2a9293ce765348d37467b3607073ccf31bc9f75762604faa70fd438"
 
 RPROVIDES:${PN} += "java-1-8-0-openjdk-devel \
 java-1.8.0-devel \

@@ -4,10 +4,10 @@ EPS files and psfrag substitution definition files, and \
 produces PDF and EPS files with the substitutions included."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.6svn26313"
+PV = "2023.209.1.6svn26313"
 
-RPM_NAME = "texlive-fragmaster-2023.201.1.6svn26313-52.1.noarch.rpm"
-RPM_HASH = "fa386938c06b39becf952f85c9a8dc4e85d530e271d168f775a42e02c308d5f02074cbeb0202e3d994cd5fcb377fe7cfc0a66b1a8f058783609399685ac73280"
+RPM_NAME = "texlive-fragmaster-2023.209.1.6svn26313-53.1.noarch.rpm"
+RPM_HASH = "b38aadeaab6401b50c245af1c44be63a13cd480ec8bfa75d1545f7b1205086ba755d7573b7a032259f888f37968ce36a7868094a22c9bce1bd69cca12fd1c524"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fragmaster"

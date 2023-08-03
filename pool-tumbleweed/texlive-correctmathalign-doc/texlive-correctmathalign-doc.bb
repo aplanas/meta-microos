@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-correctmathalign"
 DESCRIPTION = "This package includes the documentation for texlive-correctmathalign"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.204.1.1svn44131"
+PV = "2023.209.1.1svn44131"
 
-RPM_NAME = "texlive-correctmathalign-doc-2023.204.1.1svn44131-54.1.noarch.rpm"
-RPM_HASH = "8fd6c60b7648f4f5108a36011a31ad219697faa549c53ad9051813ac6890cabad17e0f7953c4d121533731965b4eafe7838662d7bf2c562d9fbbc6cfc55e2abb"
+RPM_NAME = "texlive-correctmathalign-doc-2023.209.1.1svn44131-55.1.noarch.rpm"
+RPM_HASH = "56bdc15cb14f47c8b74170a01896d794c77c1d6feb77941cc9c649420248b0ff2da97dee6cf8efd8e409c246f571fcd3e9535fcef5d29db991942143234fd365"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-correctmathalign-doc"

@@ -8,10 +8,10 @@ The present release is an alpha version, and no attempt has yet \
 been made to allow it to work with, say, hyperref."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn51480"
+PV = "2023.209.0.0.1svn51480"
 
-RPM_NAME = "texlive-subdocs-2023.201.0.0.1svn51480-57.1.noarch.rpm"
-RPM_HASH = "a78925be6cec6074f9a3c63899baf287d02d86d5629c86cfaa350a493a3340c61314dfe43d2db6a2f60610397fa32f09fb06ef5ebe0b792d8c6e09d2e3a83a07"
+RPM_NAME = "texlive-subdocs-2023.209.0.0.1svn51480-58.1.noarch.rpm"
+RPM_HASH = "ee49eae6364fac8bed5080efa186242716c948245dc3d241e666f8f2630f3ebb527d37561a408492e12cc7aa644dac9ad3c7e122755973b88e9401c304df1555"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-subdocs.sty \

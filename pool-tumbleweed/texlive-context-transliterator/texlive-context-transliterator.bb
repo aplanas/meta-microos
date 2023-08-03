@@ -5,10 +5,10 @@ who cannot read the original alphabet. The package can make \
 allowance for hyphenation."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.204.svn61127"
+PV = "2023.209.svn61127"
 
-RPM_NAME = "texlive-context-transliterator-2023.204.svn61127-54.1.noarch.rpm"
-RPM_HASH = "bc0a896bda3974f268bfad08c9ded351c34cd2a0eca924576667d0c20594b66eedaee905102a2d66de18e39baaf41de078e99441d7f0ec2ce6502bfbf141ef9b"
+RPM_NAME = "texlive-context-transliterator-2023.209.svn61127-55.1.noarch.rpm"
+RPM_HASH = "d6fa6a5edd9844fb4eb302770fd9303b503c4e5d99eb89201751299648ad194ec9b5c5325d9ddbc6a403d86747c6180c9fc4e9dadd5e3f32f056c1753f4f7643"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-t-transliterator.tex \

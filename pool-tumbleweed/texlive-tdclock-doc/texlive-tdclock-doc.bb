@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tdclock"
 DESCRIPTION = "This package includes the documentation for texlive-tdclock"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.5svn33043"
+PV = "2023.209.2.5svn33043"
 
-RPM_NAME = "texlive-tdclock-doc-2023.201.2.5svn33043-54.1.noarch.rpm"
-RPM_HASH = "c91e0845f3bbc725b2c5bc984c78882482fb6d996f516222aa4a0f021a637ec0488e215a47c525319b2f87fcf763a0f8a25d3ab4e8244585987b369224e87f82"
+RPM_NAME = "texlive-tdclock-doc-2023.209.2.5svn33043-55.1.noarch.rpm"
+RPM_HASH = "3e2d33279daae1255f133b4ab7e47bbb737390689be798bd05546e427e14ab65d6d97162968fc449451172a59385f4354bb2c15f41aef87507de1daefa998e40"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tdclock-doc"

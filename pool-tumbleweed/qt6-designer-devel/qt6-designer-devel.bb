@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Designer libraries - Development files"
 DESCRIPTION = "Development files for the Qt6 Designer libraries."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-designer-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "d446577ea89e4f6343512574ce002cfd8965e08484bcf10a749d88c88e4932913004b4fba68226440e418267f76c8e0e54a13579ab2297b89977f7d98e869f8c"
+RPM_NAME = "qt6-designer-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "db414afc51b462143784f723feb612484d1331c084cdf1af2601ccb4c4efc20df3d1bb9f838d32eff25e8752577cec28e1c09ff459038531e6ca28d8e3f0b2b8"
 
 RPROVIDES:${PN} += "cmake-Qt6Designer \
 cmake-Qt6UiPlugin \

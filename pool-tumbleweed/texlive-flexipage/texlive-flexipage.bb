@@ -7,10 +7,10 @@ package also aids the layout for book printing, allowing for \
 binding corrections and adding page bleed, if required."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.01svn64572"
+PV = "2023.209.1.01svn64572"
 
-RPM_NAME = "texlive-flexipage-2023.201.1.01svn64572-52.1.noarch.rpm"
-RPM_HASH = "3b0e532c7c247608db630390c980ec34c421724fee421f3c5d44d47f64da083373253856ab003117289d3fe6881bb8bcdaa0bc8e761ac28b2375e71074ea1fb3"
+RPM_NAME = "texlive-flexipage-2023.209.1.01svn64572-53.1.noarch.rpm"
+RPM_HASH = "cdc47c608b5a2d2af405b5243647a214990f389cd686436f59497de01302593bd110acb372056d31edb498bd5759b8db824908a24f69e3b7aaa27677b79b8ab7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-flexipage.sty \

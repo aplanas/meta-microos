@@ -4,10 +4,10 @@ database output; CD_labeler, to typeset user text to fit on a \
 CD label; and repeat, a nestable, generic loop macro."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-eijkhout-2023.201.svn15878-53.2.noarch.rpm"
-RPM_HASH = "68ed47aa7a2adf3827bb41b954a8ed3e4cb956bf299ce00ee644d209618a127fcea681d89ec5f76b609dc523fc9b94b6568b0ae1f02ecb07ffaab5dc91b3cb5f"
+RPM_NAME = "texlive-eijkhout-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "31df6518861840869582943c89facc8e7adc363c8200524ade03231cd7850d9ed8b953b3f4790ece15d3c737510260c1b93d9f65cba28e2043639e08aee145aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-CD-labeler-test.tex \

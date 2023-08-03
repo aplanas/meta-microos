@@ -2,10 +2,10 @@ SUMMARY = "Samba Active Directory-compatible Domain Controller"
 DESCRIPTION = "This package contains the Active Directory-compatible Domain Controller"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.3+git.303.c08b73d523c"
+PV = "4.18.5+git.313.c8e274c7852"
 
-RPM_NAME = "samba-ad-dc-4.18.3+git.303.c08b73d523c-1.2.aarch64.rpm"
-RPM_HASH = "689693831da99634b59f127412c26244d48ec48c15312e04b570b0ab55e1b53bb85ab8bd2c3bf4a0cef2da5c775d248454447408910486ed96ea4397279ed6b7"
+RPM_NAME = "samba-ad-dc-4.18.5+git.313.c8e274c7852-1.1.aarch64.rpm"
+RPM_HASH = "baea15837563e968def921f8fb9839a1d89fcbed389b0515e53085bfefa40073309103d78fa9feecd297eb409ff11bca8f83afa647e9ae44cabaa9d6558e301b"
 
 RPROVIDES:${PN} += "samba-ad-dc \
 samba-kdc"

@@ -4,10 +4,10 @@ LaTeX documents. Pygments supports syntax colouring of over 50 \
 types of files, and ships with multiple colour schemes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2.0svn15878"
+PV = "2023.209.0.0.2.0svn15878"
 
-RPM_NAME = "texlive-texments-2023.201.0.0.2.0svn15878-54.1.noarch.rpm"
-RPM_HASH = "baffe34385d51665112ba5e9e4c5aeef86d66a30487091f8fe9a7bc23233f32fb523a0135cdd7d5e50c9c1dbb128bc13a25080990b598056958ac56e98448770"
+RPM_NAME = "texlive-texments-2023.209.0.0.2.0svn15878-55.1.noarch.rpm"
+RPM_HASH = "4d072aaa52944412fb6670ca393b1d9ac53ad53738e853d63f044034e0f3926c19db5218183687ff8d8d7f7d68c0c0d1e54eef1f31cdc9940c5af9e67b68aaf0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-texments.sty \

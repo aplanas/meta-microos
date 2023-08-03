@@ -2,10 +2,10 @@ SUMMARY = "Python3 dependencies of samba-libs"
 DESCRIPTION = "Dependencies of samba-libs that require python3."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.3+git.303.c08b73d523c"
+PV = "4.18.5+git.313.c8e274c7852"
 
-RPM_NAME = "samba-libs-python3-4.18.3+git.303.c08b73d523c-1.2.aarch64.rpm"
-RPM_HASH = "6e31d532485cdf46b99910cf085101346dd0da440eee3ed32f0d1ebffd5afb0f47e65d5ab74e6e4e27d46e7227bc7c46c911eb943e91d79b9fa2cf682f06e7a1"
+RPM_NAME = "samba-libs-python3-4.18.5+git.313.c8e274c7852-1.1.aarch64.rpm"
+RPM_HASH = "cf5f4c01a1610c7343f7a7efd81bc19b3edaa8e46acd32bb45962bcc0c72071acfc685cd471f588e87f893852cc8840c552a4d1e6087ec079b199354e51efd78"
 
 RPROVIDES:${PN} += "libsamba-net.cpython-311-aarch64-linux-gnu-samba4.so \
 libsamba-python.cpython-311-aarch64-linux-gnu-samba4.so \

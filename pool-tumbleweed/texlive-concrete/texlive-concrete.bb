@@ -9,10 +9,10 @@ Adobe Type 1 versions of the ecc fonts are part of the cm-super \
 bundle."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.201.svn57963"
+PV = "2023.209.svn57963"
 
-RPM_NAME = "texlive-concrete-2023.201.svn57963-53.1.noarch.rpm"
-RPM_HASH = "1cceb7bb48bb0f752f8ac20702d7bddcb247efc73c61d2c7deabb83a64d5a07713ddd238b61e56c83333035a75d7e85806959b3b552a9eefbe5bbc840f4614f4"
+RPM_NAME = "texlive-concrete-2023.209.svn57963-54.1.noarch.rpm"
+RPM_HASH = "e8b76369e4e23e076f80941ec5f6f1e4fb0b97b036e18167eb2adebb5484693f6a712452617fef51b14b17a7f102a7039965fcc676a7585761cdd2b4aa31fa0a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cccsc10.tfm \

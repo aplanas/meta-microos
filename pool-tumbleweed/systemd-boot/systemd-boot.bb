@@ -19,8 +19,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "253.7"
 
-RPM_NAME = "systemd-boot-253.7-1.2.aarch64.rpm"
-RPM_HASH = "9f391b7da8bdd4af21f463cd14cc8b0907cdb86decf51c05da8e5678aeb0cbf83d3791d0cc120878eb979d3b3480b1cbdf56a15ee54a2bb41263cee4e3c999e7"
+RPM_NAME = "systemd-boot-253.7-2.1.aarch64.rpm"
+RPM_HASH = "4fe0c93c2f9c811d8a728ee69ac00f4f1f76a93bde60abf0f96da9dfb4530ff8955228d47de8376019cd41c464b3338d0cf794354772fbe8f94dac9f1730de6d"
 
 RPROVIDES:${PN} += "systemd-boot"
 

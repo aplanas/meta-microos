@@ -4,10 +4,10 @@ The idea is to improve the experience of usage compared to a basic setting. \
 This tool also simplifies the creation of secure VM (AMD SEV)."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.1.1"
+PV = "2.1.2"
 
-RPM_NAME = "python3-virt-scenario-2.1.1-1.1.noarch.rpm"
-RPM_HASH = "d8c7012758e273ebca6720f1ffa5e2a80c5de5c53ff88d93200d7256f1c0fd4b0954671d81da493fe77e52c03c3f250c6369b3d24dbbb553b2ada1b0cc9010b3"
+RPM_NAME = "python3-virt-scenario-2.1.2-1.1.noarch.rpm"
+RPM_HASH = "e60ce7917496346f849515fe80dd6c46a62b493dd093d7f23a60922590768b03724b61ac33369c6b1f2851a697e69840bb0631eff157e479640f3ab940519742"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-python3-virt-scenario \

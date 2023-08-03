@@ -9,10 +9,10 @@ Econometrics: a proposal for a standard' by Karim Abadir and \
 Jan R. Magnus, The Econometrics Journal (2002), 5, 76-90."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn39396"
+PV = "2023.209.1.0svn39396"
 
-RPM_NAME = "texlive-econometrics-2023.201.1.0svn39396-53.2.noarch.rpm"
-RPM_HASH = "f69494aabce8e13f5658794314461d56706cf4a3d48a429bdf0f32f8d9fee1abf92f6a85a99024e1896b1bff0922b892f23b203a31c36553fd954157d1a75660"
+RPM_NAME = "texlive-econometrics-2023.209.1.0svn39396-54.1.noarch.rpm"
+RPM_HASH = "ee126d3cad3e2ade84d8066d3bce21c39935b37d82d7cc2098a9a2d22e596351790a193bba27c4f7b27678e3050b10a9436c54a1df7597d94626cf6db769d33e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-econometrics.sty \

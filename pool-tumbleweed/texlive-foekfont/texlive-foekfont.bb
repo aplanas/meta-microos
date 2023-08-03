@@ -4,10 +4,10 @@ its use. The magazine web site shows the font in use in a few \
 places."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-foekfont-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "6b381103e034678f3253971913dbf04363598244ce1be4cd726070630fe72bb2c96528a71e1ac83c31e7600b281570bc697027aba2f767d3c85269f14df4de5c"
+RPM_NAME = "texlive-foekfont-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "08e545295ae7d471640602024478d85f781b341625ae009e83a2dccb5d5709b0b5529fe942925c6c84123f95bcfb785c05b0b534c6dc12e66d586d2001f411b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-foekfont.map \

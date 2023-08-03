@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-siunits"
 DESCRIPTION = "This package includes the documentation for texlive-siunits"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.36svn59702"
+PV = "2023.209.1.36svn59702"
 
-RPM_NAME = "texlive-siunits-doc-2023.201.1.36svn59702-57.1.noarch.rpm"
-RPM_HASH = "e02a19956c7601ab9d348da94df11c7a792609aa89d6e4a42b09e1c0649015a09bcbdcb542e97eeaad183e1c30b6b6d72c57ea919b94aecf59586f96ba06f54e"
+RPM_NAME = "texlive-siunits-doc-2023.209.1.36svn59702-58.1.noarch.rpm"
+RPM_HASH = "aba4a5b182e5cfb3caaf9e8930bb3a6020302ea3ebcdbd197ac5e7d87404658b200987b511a0d458236ddb2a44c0b130c0f79dd8706a7f9c1da03049433997b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-siunits-doc"

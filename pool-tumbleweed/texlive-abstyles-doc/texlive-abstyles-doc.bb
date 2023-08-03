@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-abstyles"
 DESCRIPTION = "This package includes the documentation for texlive-abstyles"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-abstyles-doc-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "2a5cc39c2b3122e1f1b7e6017e06bc8f858d7c916615fdc63b0ee0785ade71dea929e6367306ec63755f08ccaff1638c0e44fc718f3828d3bd857e3fe943cb2c"
+RPM_NAME = "texlive-abstyles-doc-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "b42129ed2b5825da665cdb3fa3bd352d3aae29c94c34e4238d9c05f44107219cb7747dd28ef30cea6997e4eb32a291a060d5f5bfcde49d89130210e437a4c45b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-abstyles-doc-de \

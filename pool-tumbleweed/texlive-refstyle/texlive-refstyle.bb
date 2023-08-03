@@ -12,10 +12,10 @@ documents, a facility is provided to interface to the xr \
 package for external document references."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5svn20318"
+PV = "2023.209.0.0.5svn20318"
 
-RPM_NAME = "texlive-refstyle-2023.201.0.0.5svn20318-53.2.noarch.rpm"
-RPM_HASH = "ef3b9b404ea4955aa6a51ac26104896b9a697f6ae0a07d6fe54d3f63d4c0757a30b33cf0ac58b06cd865d72f94985713281293726f04cd2e5a998531f72e1156"
+RPM_NAME = "texlive-refstyle-2023.209.0.0.5svn20318-54.1.noarch.rpm"
+RPM_HASH = "59463c1b76cbe7d45d6b5b44ea9ab97ae1a1be1d2e2ee0f414aa0284f30eef77edbdb5fac4b3ebf9f392ceafb07c1b7bc1ab625f1e820bf00ebae4a028c7264d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-refstyle.cfg \

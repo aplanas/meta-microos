@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "20230214"
 
-RPM_NAME = "libcontainers-openSUSE-policy-20230214-7.1.noarch.rpm"
-RPM_HASH = "5c8039439cb752a102aa63f75a556f270d6c1ab99aca3166fd46fdf740f97cbd4016dce3ea4e775127461b9e3c5c25bc204a2851f74edc46aa9003520098a92c"
+RPM_NAME = "libcontainers-openSUSE-policy-20230214-8.1.noarch.rpm"
+RPM_HASH = "75796675a1c07dbd1b566bac12648f560a8de697081160f6077f13e2df5f6bb79149e0b6938b89c625220d67658a299586bf064de02a7c539a3fa0a2d4f40fb4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-libcontainers-openSUSE-policy \

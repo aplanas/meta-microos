@@ -5,10 +5,10 @@ Greek University and most probably the first TeX installation \
 that supported the Greek language."
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.201.1.0svn61820"
+PV = "2023.209.1.0svn61820"
 
-RPM_NAME = "texlive-talos-2023.201.1.0svn61820-54.1.noarch.rpm"
-RPM_HASH = "426ffdd42a2047e1c6a503e87cd2412608bf69d0887b1b98b9aec43eb9a8f3ce9fdb04022ec3526cf3ee54720e60f2f5375f994ef1ea5bdc27bab076bac8f769"
+RPM_NAME = "texlive-talos-2023.209.1.0svn61820-55.1.noarch.rpm"
+RPM_HASH = "7ca387540c132e49f455f0d1da48e2eaa0d35e6da4c1138ee481ec30c75988296ce2817af9606f7aeb847e6aee481d35af3d60388b4c8fa033bd2e6b99ceeee8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-talos"

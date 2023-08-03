@@ -9,10 +9,10 @@ also finds special points such as extreme points and inflection \
 points and reduces the number of used points."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4svn51398"
+PV = "2023.209.1.4svn51398"
 
-RPM_NAME = "texlive-bezierplot-2023.201.1.4svn51398-53.1.noarch.rpm"
-RPM_HASH = "cd9c0ca27816ae20d9a415193b548dccc7066f198e5dba25bfb6717f3d09a8a9be6440e5d720865106d983353dd562f63c5a9ba54d815ce03fb6dec9961fd03a"
+RPM_NAME = "texlive-bezierplot-2023.209.1.4svn51398-54.1.noarch.rpm"
+RPM_HASH = "2b6d5a2fec83a68a740652595a4ed528ac27278874aadd7f95a944116daa7e597e8f2fc927c45fd25e4d230d25284446839927a6a7fa8a3e6dc0b37453ac0f93"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bezierplot.sty \

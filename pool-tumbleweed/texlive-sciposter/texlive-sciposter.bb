@@ -13,10 +13,10 @@ of your LaTeX distribution. For some reason graphicspath \
 settings are ignored."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.18svn15878"
+PV = "2023.209.1.18svn15878"
 
-RPM_NAME = "texlive-sciposter-2023.201.1.18svn15878-53.1.noarch.rpm"
-RPM_HASH = "f0cfdd462fcd2f42de201136f02a896985aae4aa2618d3664a35f1acae4e991bf7e4887a43e63e55116f2d6bcbbab2aa72c6d9b8a77175b8d0a74ae28ee9512c"
+RPM_NAME = "texlive-sciposter-2023.209.1.18svn15878-54.1.noarch.rpm"
+RPM_HASH = "5a9999de19a9b08b1b0929014d4763069d13471ab7f3c8ce2d94b611090ac77719cb43bb361479a276a7feabb619dd619a6f47f758a15781575cb02c67c70cc4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-paperb0.cfg \

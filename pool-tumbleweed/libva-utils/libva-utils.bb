@@ -4,10 +4,10 @@ VA-API in accordance with the libva project. \
 A driver implementation is necessary to properly operate."
 LICENSE = "EPL-1.0 & MIT"
 
-PV = "2.18.2"
+PV = "2.19.0"
 
-RPM_NAME = "libva-utils-2.18.2-1.1.aarch64.rpm"
-RPM_HASH = "fce4153ba6bd87db8267abb9d276e39446fcb19f605bcb54cf6639630fff94e65f01887f66db57f8f7f76eaa6dd8c871158bea23fd76e10c8a1181e5c7739d42"
+RPM_NAME = "libva-utils-2.19.0-1.1.aarch64.rpm"
+RPM_HASH = "26c372e29796264b3eaf1554454c6c69c7f08f23026df0676e7d20b25047f7a508273fbaca2b6b5db0c881fd021f637abaf9c3818b3b8a430abe80aafefc4a76"
 
 RPROVIDES:${PN} += "libva-utils \
 vaapi-tools \

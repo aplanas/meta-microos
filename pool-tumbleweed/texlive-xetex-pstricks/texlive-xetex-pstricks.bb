@@ -7,10 +7,10 @@ PSTricks features can be used in XeLaTeX or plain XeTeX \
 documents."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn17055"
+PV = "2023.209.svn17055"
 
-RPM_NAME = "texlive-xetex-pstricks-2023.201.svn17055-52.2.noarch.rpm"
-RPM_HASH = "390183436bafb33cdae5e53856250e086017dc7515690c02dbb7706cf389d58690ba5b7ebd7b9ded11d7b4af02e193ae9dffed651e8b5bc3891b289543d55e22"
+RPM_NAME = "texlive-xetex-pstricks-2023.209.svn17055-53.1.noarch.rpm"
+RPM_HASH = "820fb850d3a99afb7afa9ba1a9d1198cab9b5005f0f61d2021404102f140b1dbe162c896dd3b20a815b6e31f6507db50f586f6aa61e5d67514551d36eb3c829f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xetex-pstricks"

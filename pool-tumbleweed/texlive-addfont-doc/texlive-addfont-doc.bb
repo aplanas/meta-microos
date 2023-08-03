@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-addfont"
 DESCRIPTION = "This package includes the documentation for texlive-addfont"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.1svn58559"
+PV = "2023.209.1.1svn58559"
 
-RPM_NAME = "texlive-addfont-doc-2023.201.1.1svn58559-54.1.noarch.rpm"
-RPM_HASH = "f9a1b66de66f062db14df79eb950357ba1a3c9e5fb76979c1e94c439394372200f508808bb8679d62abd76e442feb1ae52cb6d70f3529a8056fa5f06233b3d7e"
+RPM_NAME = "texlive-addfont-doc-2023.209.1.1svn58559-55.1.noarch.rpm"
+RPM_HASH = "7b11a20c5187e249a38a247b399757206ca7c6fffe8151c5f26f29f100f17199164bf2b8e13474ad8f981976a0cb4595eebcc884e7ccb28e53c431e9996f2a27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-addfont-doc"

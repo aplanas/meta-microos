@@ -4,10 +4,10 @@ number of Cyrillic font encodings, including T2, UCY (Omega \
 Unicode Cyrillic), LCY, LWN (OT2), and koi8-r."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6svn21081"
+PV = "2023.209.1.6svn21081"
 
-RPM_NAME = "texlive-ruhyphen-2023.201.1.6svn21081-53.1.noarch.rpm"
-RPM_HASH = "9df5d8c54fabcb88ead2be0d09713825ee461fb3bf6e6b3f1c7fdb2952895eaebabba0d83003ede84772799af7fb19704afd1697b193db676054e293ead80765"
+RPM_NAME = "texlive-ruhyphen-2023.209.1.6svn21081-54.1.noarch.rpm"
+RPM_HASH = "be7fa1f4cf279e2eff89178649b517efa5b552b6920621d483c2c89cdb14599c3b6f23a369c0f38ead83888427e3ed33054edb588298f5b43be348595dca354b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-catkoi.tex \

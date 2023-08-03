@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mhchem"
 DESCRIPTION = "This package includes the documentation for texlive-mhchem"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn61456"
+PV = "2023.209.svn61456"
 
-RPM_NAME = "texlive-mhchem-doc-2023.201.svn61456-54.1.noarch.rpm"
-RPM_HASH = "d570198083830b1d37ac1857b01d9a84c2089840b521f67f8a536f5af1fb4e8626fcb0fa3fe4a2d9bbb679dffa57289b40c21c8bff9cdc9225b2d580aad3ee21"
+RPM_NAME = "texlive-mhchem-doc-2023.209.svn61456-55.1.noarch.rpm"
+RPM_HASH = "55a1bff737012ca0774a99f81d3332b111ccf0c3aedd4f9d0dbe719687bf4c049b531024b61be5052f2871f70f745d7d0012435318d84b68babe1efd5a2e6583"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mhchem-doc"

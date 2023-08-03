@@ -2,10 +2,10 @@ SUMMARY = "OpenJDK 8 Runtime Environment"
 DESCRIPTION = "The OpenJDK 8 runtime environment."
 LICENSE = "Apache-1.1 & Apache-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
 
-PV = "1.8.0.372"
+PV = "1.8.0.382"
 
-RPM_NAME = "java-1_8_0-openjdk-1.8.0.372-1.2.aarch64.rpm"
-RPM_HASH = "8f072c81afbed341fc0b46a7e33df48d95316ae0d487b2480ae1b7e5222759758090c415d61b0a2e478d4acabb5f91c6157863b78ca7c3aa1f7e66b032ad26bb"
+RPM_NAME = "java-1_8_0-openjdk-1.8.0.382-1.1.aarch64.rpm"
+RPM_HASH = "c559cbfd8e854ed50d2e163216637ebc1a8a74053916ad47c79a6c3f5d01c85bf39a6b943f439af05281073ca648f47b9b84eada9f7929b2bcab696a3ed58b18"
 
 RPROVIDES:${PN} += "java \
 java-1-8-0-openjdk \

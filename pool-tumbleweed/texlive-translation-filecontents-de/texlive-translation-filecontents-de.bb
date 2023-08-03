@@ -2,10 +2,10 @@ SUMMARY = "German version of filecontents"
 DESCRIPTION = "This is a 'translation' of the filecontents documentation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn24010"
+PV = "2023.209.svn24010"
 
-RPM_NAME = "texlive-translation-filecontents-de-2023.201.svn24010-52.1.noarch.rpm"
-RPM_HASH = "1e5530bcda9a4fd730da2ab6fb9fff755c61f554b3740a96f2107f2d2ac95f8dcdd760b694cb7c463cba34102da8c1b0c15357655d0bfa0ad330edeca1c12009"
+RPM_NAME = "texlive-translation-filecontents-de-2023.209.svn24010-53.1.noarch.rpm"
+RPM_HASH = "0a4cf0b8debe2764b07439d4296d8317b3aa3ff69acbcbb61d876af8629ad661ee9056d59f4dacd7ac3c4c5ef2a607807c0ba21405e95c76ff2ecd64561b7db7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-translation-filecontents-de"

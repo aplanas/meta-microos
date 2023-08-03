@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.35.1"
 
-RPM_NAME = "python310-octave-kernel-0.35.1-1.5.noarch.rpm"
-RPM_HASH = "3c7b53029ef46f394981e22c187151e0c9bf38504860101fa3cbc55e40234e8fed0151d61da1cc28718d3d855ca314ff4f32d545d61e5d06207dcda2b010885c"
+RPM_NAME = "python310-octave-kernel-0.35.1-1.6.noarch.rpm"
+RPM_HASH = "fb9aeedadd7c6ae8bbf77f3d0b3b8f70f5bd142f9f75b5a85d175560736b8efe6642046465fed555d038de58f64874c4982d93a3374fbb9784a0ab325d36fcb3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-octave-kernel \

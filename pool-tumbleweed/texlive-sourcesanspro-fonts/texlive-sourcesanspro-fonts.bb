@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-sourcesanspro"
 DESCRIPTION = "The  separated fonts package for texlive-sourcesanspro"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.2.8svn54892"
+PV = "2023.209.2.8svn54892"
 
-RPM_NAME = "texlive-sourcesanspro-fonts-2023.201.2.8svn54892-57.1.noarch.rpm"
-RPM_HASH = "80fc9803684d9da01571bc2ad5dda4035c6afb31ec6a52956b8f7a75c66441d49f93bb479844640ff100e1589164efad899ebecb49792171994f020d4fb12897"
+RPM_NAME = "texlive-sourcesanspro-fonts-2023.209.2.8svn54892-58.1.noarch.rpm"
+RPM_HASH = "fb8594fb5598b9519c5d30b4b4607c6364e7e90ec074f4afa683b781909fbd2b21d9625d2a9b9bdc108d40321a760e67a12c3580bfe3927197263945ba6764d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-sourcesanspro-fonts \

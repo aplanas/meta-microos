@@ -4,10 +4,10 @@ available fonts (or collections of fonts from the same \
 foundry); each is available in a .mkii and a .mkiv version."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn60422"
+PV = "2023.209.svn60422"
 
-RPM_NAME = "texlive-context-typescripts-2023.204.svn60422-54.1.noarch.rpm"
-RPM_HASH = "8a153e4fa9e5b2477c73e4c78faee84c4c34f25043e8d7813d3907badbbeaaca4ab343d748bcbffe3f49e8d08d6520eacf729769dab90f3cbdeaf852ba032f0b"
+RPM_NAME = "texlive-context-typescripts-2023.209.svn60422-55.1.noarch.rpm"
+RPM_HASH = "e6ccc853c148364606e3845a44b1766fcb4956c3ef0c707d6ee0062a0639c385806488b3b1cea3e68a9c9835a17d42350a07dad268c24ce6da4fa3b5edb355d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-typescripts"

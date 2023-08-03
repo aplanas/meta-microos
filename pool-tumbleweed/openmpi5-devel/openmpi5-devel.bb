@@ -17,8 +17,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.0.0"
 
-RPM_NAME = "openmpi5-devel-5.0.0-2.4.aarch64.rpm"
-RPM_HASH = "e9a60cdf7a5a02111965c5fd4b280adbe63f737286fa22746d48481e4413ff0ccd72e1ff699afe0c409d8937659530d3f2d0bb3df0477640063849bd635dffee"
+RPM_NAME = "openmpi5-devel-5.0.0-3.1.aarch64.rpm"
+RPM_HASH = "58a0e29e116382f724fac2f61da992ebc69fa96037510e934d30d5ba38f9412e352baee1346adc9aa3a76ce695a221b055a9bc2d2d3cf6a84dc931ff2cd764eb"
 
 RPROVIDES:${PN} += "openmpi5-devel"
 
@@ -26,7 +26,6 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libibumad-devel \
 libibverbs-devel \
-libopen-pal.so.80 \
 libstdc++-devel \
 openmpi5"
 

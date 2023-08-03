@@ -3,10 +3,10 @@ DESCRIPTION = "The package is designed to create graph diagrams as simply as \
 possible, using TikZ."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn57484"
+PV = "2023.209.2.0svn57484"
 
-RPM_NAME = "texlive-tkz-graph-2023.201.2.0svn57484-52.1.noarch.rpm"
-RPM_HASH = "dc5616eadbaf2a228a0994d79cf568b32c0ae7bf8f40527a527cbb30f6ca11c9ca44c347f8574ea808f8ff227efc05e1026dccd19f3ea058679ce671f7d365b7"
+RPM_NAME = "texlive-tkz-graph-2023.209.2.0svn57484-53.1.noarch.rpm"
+RPM_HASH = "0acb533db129ae1f3d0e5559b43cb21686f3e3cf297611974e943b07e5e007f3d0d3211c672ec34351e23eceb7a6577a981d5256790a28162bc95751a7efe579"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tkz-graph.sty \

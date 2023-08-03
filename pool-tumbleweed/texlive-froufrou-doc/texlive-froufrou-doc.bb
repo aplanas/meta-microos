@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-froufrou"
 DESCRIPTION = "This package includes the documentation for texlive-froufrou"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4.0svn59103"
+PV = "2023.209.1.4.0svn59103"
 
-RPM_NAME = "texlive-froufrou-doc-2023.201.1.4.0svn59103-52.1.noarch.rpm"
-RPM_HASH = "bf1ad02124762ac43903ab9fd0369404bb54613a6bb83d10c4de3047593c7c522994fd1847cc70449fb16dee2549afbf4b9c7e8d5fa0ffb97e5f4e76c91980d9"
+RPM_NAME = "texlive-froufrou-doc-2023.209.1.4.0svn59103-53.1.noarch.rpm"
+RPM_HASH = "07294f54a4fe26b708dcc8ff13340b640b3b0f89ceca257075c92670d39ee81cdfaf9e13225e004a40e7a45e0a87fb381c2cffbb4b1a3d3cbaf74a1938be8959"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-froufrou-doc"

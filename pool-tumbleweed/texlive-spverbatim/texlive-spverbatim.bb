@@ -8,10 +8,10 @@ that is analogous to verbatim with the difference being that \
 characters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-spverbatim-2023.201.1.0svn15878-57.1.noarch.rpm"
-RPM_HASH = "1b0c341f065578b3d505b504a9724f9156b0444f7940e426bce98952d19bfc073aa60b13accf6195d2327398a7a669e0993c0accd6e4ec9bca045f1007e4a963"
+RPM_NAME = "texlive-spverbatim-2023.209.1.0svn15878-58.1.noarch.rpm"
+RPM_HASH = "a7cb3d5bcebd2cea3f9c05b4179efe8a515bfb5ec6414c0426e0ac9d4574b6d59c21943f39652786058f18be0bf0a6dda64c69394ddb6033eeaeff11ac300378"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-spverbatim.sty \

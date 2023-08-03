@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-hindmadurai"
 DESCRIPTION = "The  separated fonts package for texlive-hindmadurai"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.0.1svn57360"
+PV = "2023.209.0.0.0.1svn57360"
 
-RPM_NAME = "texlive-hindmadurai-fonts-2023.201.0.0.0.1svn57360-53.2.noarch.rpm"
-RPM_HASH = "603d126ee67127f93e6af7a04569d879a96367999584029509a6e771b81bda7522a4bb7716188b1ac65274719d3ad1a4b3388084b1b6e00a03ed9be7134f1921"
+RPM_NAME = "texlive-hindmadurai-fonts-2023.209.0.0.0.1svn57360-54.1.noarch.rpm"
+RPM_HASH = "5365c61bfde6d57482878331878ecc21e41e0582a2c56c68ec6f67f12b776b1e5ce492fe4d08fa989c71803ecda7fdba4e822ea1529923affbca2cfa79fb6102"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-hindmadurai-fonts \

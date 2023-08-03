@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dviinfox"
 DESCRIPTION = "This package includes the documentation for texlive-dviinfox"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.06svn59216"
+PV = "2023.209.1.06svn59216"
 
-RPM_NAME = "texlive-dviinfox-doc-2023.201.1.06svn59216-53.2.noarch.rpm"
-RPM_HASH = "ed461b27174bd9d314c9e290e6f1c713681cd4ee0c37a65b4a29c2d7ce7ed8a3391856d47d7032fbb5a7c1429ecc52d14ddb3bcb154c4f2e2e6d843368947e94"
+RPM_NAME = "texlive-dviinfox-doc-2023.209.1.06svn59216-54.1.noarch.rpm"
+RPM_HASH = "af5ec0944e82ddc0c27c2b316c2e3bdfadc41bef27366244792f43987109ec286a413d08389825f706a0c1f448acfa571b50597578c4599f60610aa9578af904"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dviinfox-doc"

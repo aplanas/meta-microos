@@ -4,10 +4,10 @@ of Esperanto in babel. Some shortcuts are defined, as well as \
 translations to Esperanto of standard 'LaTeX names'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4tsvn30265"
+PV = "2023.209.1.4tsvn30265"
 
-RPM_NAME = "texlive-babel-esperanto-2023.201.1.4tsvn30265-53.1.noarch.rpm"
-RPM_HASH = "5cc51fd02eaddc7c7f65a1e6da92ebac9be954cb5a53b1109931af56ac436f8ccc7d60df8157408865ac4132aaff72d278359fe2e49baed2c66795438c8e5176"
+RPM_NAME = "texlive-babel-esperanto-2023.209.1.4tsvn30265-54.1.noarch.rpm"
+RPM_HASH = "535911100cef252297d3682cdaace6537493c1701e1c980e43f2e9d92b69d4589e9de3746eb8c5663a989771ced9971f06dd00cdd5c2ab6bea9d30fe81ab1799"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-esperanto.ldf \

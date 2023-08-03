@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains plugins which add Active Directory features
 LDB library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.3+git.303.c08b73d523c"
+PV = "4.18.5+git.313.c8e274c7852"
 
-RPM_NAME = "samba-dsdb-modules-4.18.3+git.303.c08b73d523c-1.2.aarch64.rpm"
-RPM_HASH = "54151fb905295db0f6b175eefe03c0d6cf053e1de0a18855819936c134f2b754c7020fbf7eee04c90f40acf5118dd768866b8fd859fdc612c9d294983156ab48"
+RPM_NAME = "samba-dsdb-modules-4.18.5+git.313.c8e274c7852-1.1.aarch64.rpm"
+RPM_HASH = "0b1216b45ee8a5ccf0d166e2b1ce90422671253f3e4455b463384a9c8ac0c95823e1022fcfa4c7eca5a07dab018d244dbec6a838c5d7b5ac491ec4e6c8bdd9bb"
 
 RPROVIDES:${PN} += "samba-dsdb-modules"
 

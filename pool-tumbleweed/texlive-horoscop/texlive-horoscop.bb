@@ -7,10 +7,10 @@ software (Astrolog and Swiss Ephemeris) for computing object \
 positions."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.01svn56021"
+PV = "2023.209.1.01svn56021"
 
-RPM_NAME = "texlive-horoscop-2023.201.1.01svn56021-53.2.noarch.rpm"
-RPM_HASH = "36860bb27a85534e63d2c1dd38df6326e103a2a8b2871264be47fb216fb3eb924cd88a3818c67d788a33d68559fe64a9afa0da6066b9a71cc2fc0b44fa3dc1d8"
+RPM_NAME = "texlive-horoscop-2023.209.1.01svn56021-54.1.noarch.rpm"
+RPM_HASH = "10ba0702d89e0b10e3802694cdfd560bdbed9cdc4144074790c2cdc1ed844f3a0d9b692b4e82c123a0ac00acfd3b111e104b7119199942b335d12309d5e81363"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-horoscop.sty \

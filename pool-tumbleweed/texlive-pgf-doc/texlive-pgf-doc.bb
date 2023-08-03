@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pgf"
 DESCRIPTION = "This package includes the documentation for texlive-pgf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.1.10svn65553"
+PV = "2023.209.3.1.10svn65553"
 
-RPM_NAME = "texlive-pgf-doc-2023.201.3.1.10svn65553-51.1.noarch.rpm"
-RPM_HASH = "4a0fcd910c08b7c532914b63081aa6f144659c012e5ba18caa81c1d03dc78f8a19cf39a8d159cce6a6d57816900841364de7ea0ce552a99df5d38e320bf85ccb"
+RPM_NAME = "texlive-pgf-doc-2023.209.3.1.10svn65553-52.1.noarch.rpm"
+RPM_HASH = "a5d366f3c0399871dd733e37e987b20207ab3abd3e6b50ab7b1f3fa3ebaf3826061450a37aff2398c490048f548aaa6686b11bef9315137e44e83136612437af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pgf-doc"

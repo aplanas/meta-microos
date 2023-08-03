@@ -3,10 +3,10 @@ DESCRIPTION = "This package fixes several bugs in the JFM format. Both LaTeX \
 and plain TeX are supported."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.201.0.0.8svn63967"
+PV = "2023.209.0.0.8svn63967"
 
-RPM_NAME = "texlive-fixjfm-2023.201.0.0.8svn63967-52.1.noarch.rpm"
-RPM_HASH = "72e08b2ae52394c3a7eba48db8384cb5f511969c9b6eb108d9bf3e6c284f5bd611d6016a72448d2f92f45a5e14bed854782cd3ef764fdb80a9d773bdce75125f"
+RPM_NAME = "texlive-fixjfm-2023.209.0.0.8svn63967-53.1.noarch.rpm"
+RPM_HASH = "329e3fc222c445d83758424583288318aedb87d6a10b058912019507ea79f2cf93fa9b0c23922f76355c591516b64ae4e1858ec96e8e89474623152688b4dac5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fixjfm.sty \

@@ -13,10 +13,10 @@ Quran and typesetting bidirectional critical editions with the \
 package ednotes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2.1svn38299"
+PV = "2023.209.1.2.1svn38299"
 
-RPM_NAME = "texlive-arabxetex-2023.201.1.2.1svn38299-54.1.noarch.rpm"
-RPM_HASH = "429ef4294db426ee867cdcca37898a19c046d9aa8588013d7f728abbb824bb18144e96f5cf9f21ede3ac96caf1ca13938e4a359a0e9bd8fd8ab3ffc9804c43d4"
+RPM_NAME = "texlive-arabxetex-2023.209.1.2.1svn38299-55.1.noarch.rpm"
+RPM_HASH = "1093c8f124a314bb69fddca84d96fa32bfa216d6b050632b815f7061b85b38d3d0089e30ee356bad6f431c4fdc14123fad30885a5423257e98c02433d9f1863d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-arabicdigits.map \

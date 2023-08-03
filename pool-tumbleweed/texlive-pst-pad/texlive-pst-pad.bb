@@ -8,10 +8,10 @@ lubrication, elastohydrodynamic lubrication and hydrodynamic \
 lubrication."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3bsvn15878"
+PV = "2023.209.0.0.3bsvn15878"
 
-RPM_NAME = "texlive-pst-pad-2023.201.0.0.3bsvn15878-52.1.noarch.rpm"
-RPM_HASH = "755ca1ada1815b6aaaf04649e43b560d1e4a62479bc573076b31a6b67f3ac90bc85684727dd4f62530b3c5869f36304f4bc6be73db51521a85ae44521f7ce67c"
+RPM_NAME = "texlive-pst-pad-2023.209.0.0.3bsvn15878-53.1.noarch.rpm"
+RPM_HASH = "1f851043824133970b1a0968ad636ac47352dc0fb4767cef6f6d647712ea9eeacb7a3cb5b5561d0e06d9bd0ecc9bfa0faefcddcfc472cc2d80029934924574a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-pad.sty \

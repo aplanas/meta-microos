@@ -3,10 +3,10 @@ DESCRIPTION = "Includes install-tl, tl-portable, rungs, etc.; not needed for \
 tlmgr to run but still ours. Not included in tlcritical."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66584"
+PV = "2023.209.svn66584"
 
-RPM_NAME = "texlive-scripts-2023.201.svn66584-54.1.noarch.rpm"
-RPM_HASH = "29f54d1b29c88eea7f825bf2445df8ac7cbf73a14446346d03da548a4986a77dc2dc3d0c15de0c2512380d926df447bba8ee67060d43f405e0ba088c49f01a27"
+RPM_NAME = "texlive-scripts-2023.209.svn66584-55.1.noarch.rpm"
+RPM_HASH = "0eed2bd6c59899a5edb1fb411f071252482083d5d80386f2c762b9dc39987eca9ec2f3b74c04be747d867b360d7f98238377abb4be9c73cdda8718532c457722"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-scripts \

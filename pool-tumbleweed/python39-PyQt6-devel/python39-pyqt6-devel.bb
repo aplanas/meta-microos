@@ -5,10 +5,10 @@ This package contains all the developer tools you need to create your \
 own PyQt applications"
 LICENSE = "GPL-3.0-only | SUSE-GPL-2.0-with-FLOSS-exception | NonFree"
 
-PV = "6.5.0"
+PV = "6.5.1"
 
-RPM_NAME = "python39-PyQt6-devel-6.5.0-2.2.aarch64.rpm"
-RPM_HASH = "c7242ccb00794c107e3974f841215c03ab794ae70d1050fb00e78a32cd921fa33a72c31c3fc2516e717f76cac49771c34900c02305412099f28f61bc3010c1f1"
+RPM_NAME = "python39-PyQt6-devel-6.5.1-1.2.aarch64.rpm"
+RPM_HASH = "9ce43cb05b7a21079c94142ef57118f11bb9958c0eb75ddbc778f848791ecd403a31f66f4afce0c6fc7d8a151e0a1ebe21880fb70c1881cf07eac2cb39b91c9d"
 
 RPROVIDES:${PN} += "libpy3.9qt6.so \
 python39-PyQt6-devel \

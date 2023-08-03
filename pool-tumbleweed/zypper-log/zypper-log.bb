@@ -2,10 +2,10 @@ SUMMARY = "CLI for accessing the zypper logfile"
 DESCRIPTION = "CLI for accessing the zypper logfile"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.14.61"
+PV = "1.14.62"
 
-RPM_NAME = "zypper-log-1.14.61-1.1.noarch.rpm"
-RPM_HASH = "02860996ef331b8c470b393c1047a8ad60b97079fb97168cb06a46a1cc29aef7e9ea1d2818f2218edd3c18620c5d3b85df381d7a9be7fade30e92457e95499da"
+RPM_NAME = "zypper-log-1.14.62-1.1.noarch.rpm"
+RPM_HASH = "803d283586b48895a3949bbc84b30c9e4e841f593236b206620a374a194da1eeeaa66d6dba243d51d915e359a37856727169cba44001f42107705167086774c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zypper-log"

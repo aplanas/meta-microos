@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 VirtualKeyboard QML files and plugins"
 DESCRIPTION = "QML files and plugins from the Qt 6 VirtualKeyboard module."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-virtualkeyboard-imports-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "3b1bfa66b7cb430f73fd6988d9d6ba119e1d2b6381f5ffdcec76ff4ac8375faf42aa79ad4259d8257b56e2adc8914695fafe185821e4d6302b35db8e567b1268"
+RPM_NAME = "qt6-virtualkeyboard-imports-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "a95963a49ad5e3e626d37b1e577ae854618554d665802de611c691d928ba7802a2d7129037407659451ff8c101f9b245784e856b5b675f35e8d055c87fa9d4b7"
 
 RPROVIDES:${PN} += "libqtvkbbuiltinstylesplugin.so \
 libqtvkbcomponentsplugin.so \
@@ -30,6 +30,7 @@ qt6qmlimport-QtQuick.VirtualKeyboard.Components.6 \
 qt6qmlimport-QtQuick.VirtualKeyboard.Layouts.1 \
 qt6qmlimport-QtQuick.VirtualKeyboard.Layouts.2 \
 qt6qmlimport-QtQuick.VirtualKeyboard.Layouts.6 \
+qt6qmlimport-QtQuick.VirtualKeyboard.Plugins.6 \
 qt6qmlimport-QtQuick.VirtualKeyboard.Plugins.Hangul.6 \
 qt6qmlimport-QtQuick.VirtualKeyboard.Plugins.Hunspell.6 \
 qt6qmlimport-QtQuick.VirtualKeyboard.Plugins.OpenWNN.6 \

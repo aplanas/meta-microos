@@ -5,10 +5,10 @@ currently unmaintained. Please see the README for the procedure \
 to follow if you want to take over the maintenance."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn47631"
+PV = "2023.209.1.0svn47631"
 
-RPM_NAME = "texlive-datetime2-galician-2023.201.1.0svn47631-52.1.noarch.rpm"
-RPM_HASH = "da392393a686163b1b48e5317e50e80331bdc6f01add582a6df50e78fd16335185c69d4d6ca08a1d7bae3237a4194770137796ac6769c03f0a14c35be85a6f5c"
+RPM_NAME = "texlive-datetime2-galician-2023.209.1.0svn47631-53.1.noarch.rpm"
+RPM_HASH = "4e70fd66d282828138e4237b948a6fa3692447ddbb45f978e6a302cace8984614c71aeac7be441b433c9757677b9dc0054e982338e1f5bdfde15c7aaeaea5fc6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-galician-ascii.ldf \

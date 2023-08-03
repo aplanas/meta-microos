@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-romanneg"
 DESCRIPTION = "This package includes the documentation for texlive-romanneg"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn20087"
+PV = "2023.209.svn20087"
 
-RPM_NAME = "texlive-romanneg-doc-2023.201.svn20087-53.1.noarch.rpm"
-RPM_HASH = "0dffba3cd0d961180451113b4123e5cc743912536d7f9a4e01f5d5e1a89e9d42fc07405b7612898516543a2932278e0b3d9135ab6f2950439b5b8c22823bcce3"
+RPM_NAME = "texlive-romanneg-doc-2023.209.svn20087-54.1.noarch.rpm"
+RPM_HASH = "bae04409eae795feb4556d85fbd5c88e785fd00c653c4e7777d314be6bdf5209afd7fe2c182a5a2896e9f0a595f5b19a681f834b87fce9028963a627026a722e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-romanneg-doc"

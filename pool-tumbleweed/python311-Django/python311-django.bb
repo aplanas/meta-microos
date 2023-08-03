@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.2.3"
 
-RPM_NAME = "python311-Django-4.2.3-1.1.noarch.rpm"
-RPM_HASH = "6d5c39e5ad8fa9882224578212ba7dbd6362cc7e50aac9b363e35beeab857995f7edf915d5acd2bbb5eccbf9c7a332c8cb844a763846f7747caccaef14ed2f50"
+RPM_NAME = "python311-Django-4.2.3-2.1.noarch.rpm"
+RPM_HASH = "977bae10f387ae41e7b5be7923b9f73078acd2b1c175bafc1d3453f560a8822c9b156729fbacf3df9aaafb4f0ab9c789dee703ff04542ee6863177f1c7670239"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Django \

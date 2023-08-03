@@ -5,10 +5,10 @@ multilingual text. The package uses Perl (via perltex) to \
 construct its tables."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-fontwrap-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "e5f9814ad748b323483aa2e72b95f2eceae207ceb87a0a48f00d58416ccef059532dee419173f254cce7d0adf03eb387957cd1d37603cd7de5a9c078cdd550c0"
+RPM_NAME = "texlive-fontwrap-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "12222d059e28a7b0e25ed663a9009dc715915309248b7a26079a5258114391148de150a64f1b9322a00f706b794f4b33f99d002bf978bc6969d15fc10dffdd46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fontwrap.sty \

@@ -6,10 +6,10 @@ arrows over longer strings of symbols, the focus lies on single \
 characters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn59993"
+PV = "2023.209.svn59993"
 
-RPM_NAME = "texlive-letterswitharrows-2023.201.svn59993-54.1.noarch.rpm"
-RPM_HASH = "f529fd57beb64bd15c1d8d26e1b088577e1219a7f0f2185818dc2f9571e9abd190b6ca84dc2d00fa4a850f074cfceb59dbd39e290d9c34bcf230f1189ab2fbff"
+RPM_NAME = "texlive-letterswitharrows-2023.209.svn59993-55.1.noarch.rpm"
+RPM_HASH = "0d868318c3ae0a4f3721f76690bad9f245fca76f794fe30ed5514ad6e597e1dd7a37eac625255e5a19a15c874e7e7749ba6a8307f7baf8069816b9d6d327d5cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-letterswitharrows.sty \

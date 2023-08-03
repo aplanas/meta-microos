@@ -12,10 +12,10 @@ shared lowest-level programming interface, along with their \
 combined format."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2023_1.2svn66395"
+PV = "2023.209.2023_1.2svn66395"
 
-RPM_NAME = "texlive-minim-2023.201.2023_1.2svn66395-54.1.noarch.rpm"
-RPM_HASH = "4c3ccc201d880b8547a122ce152d6a41c39b387bec8926796c7cc5565cd9ffe614bfcc395a60a6b1275fb8469b970cf84186b576f11035596b7d71adb41888db"
+RPM_NAME = "texlive-minim-2023.209.2023_1.2svn66395-55.1.noarch.rpm"
+RPM_HASH = "1e510ff2b01b719d9e4690a8404eb65c8a8a9b1ec749d8b2742ffda425c408949dc89387b03f04a164de2d7eb7b13edc0f71f7f845022a16eda1076e3fe189ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-minim-alloc.tex \

@@ -21,10 +21,10 @@ specifies a target width, and \\begin{tabu} spread <dimen> \
 enlarges the environment's 'natural' width."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.9svn61719"
+PV = "2023.209.2.9svn61719"
 
-RPM_NAME = "texlive-tabu-2023.201.2.9svn61719-54.1.noarch.rpm"
-RPM_HASH = "2b5bd27a8eb8e20cfb408a58d0bd3920f20a6512fa7ed100c971ccc32870dc29e7abcb322deeb27480ad836014101b2bb7c0bcfa9fa7b56d9f533475e317bff3"
+RPM_NAME = "texlive-tabu-2023.209.2.9svn61719-55.1.noarch.rpm"
+RPM_HASH = "7d65c37505a99e63fcb81625746d6709cabf1233aa712e478c3ec79e24f764c591ea575d6ea593c370987edd67e9ea75b9ea0f497a96a84d89c08cdebe25bd77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tabu.sty \

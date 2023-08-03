@@ -4,10 +4,10 @@ of the epigram, laid out on a single line) whether to produce a \
 line or a displayed paragraph."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn20513"
+PV = "2023.209.svn20513"
 
-RPM_NAME = "texlive-epigram-2023.201.svn20513-53.2.noarch.rpm"
-RPM_HASH = "1a337cd6bb0ce1961559a92acae98fb0e2d3fc1ae78229602c7cb52a3134f27a99b79aaf863f136fd849abf8b474ccb54f600f5d5efd3f3751fb3e21f37f46d2"
+RPM_NAME = "texlive-epigram-2023.209.svn20513-54.1.noarch.rpm"
+RPM_HASH = "2eb37b219f1c8c1ca937bc314f9c968e97d95fa6eb899a6efc79de88575935137639f9af550fdca92bee9bc9dd39f9a894ec0c780ee18c5574cf0b255e4cbf6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-epigram.tex \

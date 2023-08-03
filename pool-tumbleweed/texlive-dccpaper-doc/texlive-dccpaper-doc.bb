@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dccpaper"
 DESCRIPTION = "This package includes the documentation for texlive-dccpaper"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.3svn61763"
+PV = "2023.209.2.3svn61763"
 
-RPM_NAME = "texlive-dccpaper-doc-2023.201.2.3svn61763-52.1.noarch.rpm"
-RPM_HASH = "0b1639d16416973748e57d52938c1123da98178fa61b0ad2f0121e4958beefbb3a16198da3aa80cac07171883c9c2857cf80d8b573ef74c12c0a5c0a0d9dd786"
+RPM_NAME = "texlive-dccpaper-doc-2023.209.2.3svn61763-53.1.noarch.rpm"
+RPM_HASH = "274549303f6bbd34664b7a1e566945bfe134c6e50e85e2f4bf07512f8ca1377cdbb6b9e9d34f70df3c7ef5ba0d36285c52f233fc2f223e33326e1f01cc7c84ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dccpaper-doc"

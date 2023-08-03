@@ -7,10 +7,10 @@ tftopl and pltotf, which convert TeX Font Metric (TFM) file to \
 human readable Property List (PL) files and vice versa."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn66186"
+PV = "2023.209.svn66186"
 
-RPM_NAME = "texlive-texware-2023.201.svn66186-54.1.noarch.rpm"
-RPM_HASH = "18b3d0af26148e53a606e2d65b891fbe04d01db3156f056e27f4714c521b4b76830c7bae08e76c090b24b188ceb779733413bd0eabf51d7833339f161230586c"
+RPM_NAME = "texlive-texware-2023.209.svn66186-55.1.noarch.rpm"
+RPM_HASH = "5d2d9f4f4876144dcab34415d3706a1d85aebd894fa6980a896c4e248154f4753803c0210febc3bb05bb183d77b7f127e5d68ca00f954f932a8a3e564ecb1a74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-dvitype.1 \

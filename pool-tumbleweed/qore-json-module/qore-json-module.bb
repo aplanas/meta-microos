@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.8.2"
 
-RPM_NAME = "qore-json-module-1.8.2-1.2.aarch64.rpm"
-RPM_HASH = "f2e88ae1d85a590f0cba829f50fe727148d4d550e7378c927f1063c8ef4ffc1b90570bd77be30f4b2568625487a889fc9986d6b6c25ed5d6ea911b2010362384"
+RPM_NAME = "qore-json-module-1.8.2-2.1.aarch64.rpm"
+RPM_HASH = "ec703aacdacf17418a13bcb7a1bf7164fafb28b61e80efc85e948496aff4fbbe6110059e5fc8afb3d40e0f3896a66eb2b33e8dbdac677e49273de1e3c0680d23"
 
 RPROVIDES:${PN} += "qore-json-module"
 

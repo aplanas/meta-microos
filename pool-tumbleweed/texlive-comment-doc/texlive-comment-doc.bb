@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-comment"
 DESCRIPTION = "This package includes the documentation for texlive-comment"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.3.8svn41927"
+PV = "2023.209.3.8svn41927"
 
-RPM_NAME = "texlive-comment-doc-2023.201.3.8svn41927-53.1.noarch.rpm"
-RPM_HASH = "1a044d3538315b8e3833785b5286ff9e64844e7c254568f6501153f4cbda5a7de6223c61af6c620d065836570a616ed2d97a8720b7caccd0ce47449852f4c2c0"
+RPM_NAME = "texlive-comment-doc-2023.209.3.8svn41927-54.1.noarch.rpm"
+RPM_HASH = "19a953100fac6708e4b893588ad1ac6c28dd12a45e00235abae2c0a3fb9a0a0a29d83b10908ee98186ec051fb9c140d4d6d9e4522a10ebfbe094c46554351679"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-comment-doc"

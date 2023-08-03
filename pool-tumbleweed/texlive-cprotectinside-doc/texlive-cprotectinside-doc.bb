@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cprotectinside"
 DESCRIPTION = "This package includes the documentation for texlive-cprotectinside"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.0.0.0.0svn63833"
+PV = "2023.209.0.0.0.0svn63833"
 
-RPM_NAME = "texlive-cprotectinside-doc-2023.204.0.0.0.0svn63833-54.1.noarch.rpm"
-RPM_HASH = "e51958c2b9293974f79b007d1be90b327ad5886c9e61de4c18e00492434b9e3b4a0403e01f37b93108e84aaeaa5d96718277398019c9e42d2f717232863102fa"
+RPM_NAME = "texlive-cprotectinside-doc-2023.209.0.0.0.0svn63833-55.1.noarch.rpm"
+RPM_HASH = "36e70f05dd50c676c7621e14b99111c8bd7489b91f0dd517f1fdd2cb04313ccbb4d4af4ad6327e0a062b527c94e9008cad374163b2bd6e12c94047d003cda214"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cprotectinside-doc"

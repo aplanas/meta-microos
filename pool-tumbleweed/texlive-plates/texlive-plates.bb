@@ -6,10 +6,10 @@ package provides a plate environment that takes the place of \
 the figure environment for such colour images."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn15878"
+PV = "2023.209.0.0.1svn15878"
 
-RPM_NAME = "texlive-plates-2023.201.0.0.1svn15878-52.1.noarch.rpm"
-RPM_HASH = "20b044c6ecf313c4238f6419818c2d90e050fc6e3ac4431afe3d64b75ac6b54bd93d0e7cb420630a597fb34f57d78a10bec2a2527eb949f34327bcf1c0af4ad1"
+RPM_NAME = "texlive-plates-2023.209.0.0.1svn15878-53.1.noarch.rpm"
+RPM_HASH = "1c7abe6c818c149af42e95aa3bf480f4a60a0b2296d576c55344c9c9b30d4b534f05e567b1b47cfce40ba3aff78301a3a76011221ea53933069cf505afea7c7c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-endplate.sty \

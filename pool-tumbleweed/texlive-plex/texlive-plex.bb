@@ -6,10 +6,10 @@ ExtraLight, Thin, Bold, Text, Medium and SemiBold (with \
 corresponding italics)."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64496"
+PV = "2023.209.svn64496"
 
-RPM_NAME = "texlive-plex-2023.201.svn64496-52.1.noarch.rpm"
-RPM_HASH = "80bdc18e4d36d6ae77141ea8409ee58bc1ecda2a8e4ccfd2ae3f018decbd1bafd6d23272e23764d06b3f3bb18cf2d882624a4a949290e9105011370c09487e02"
+RPM_NAME = "texlive-plex-2023.209.svn64496-53.1.noarch.rpm"
+RPM_HASH = "1c1a9bb675d528791f213a56a01879d5a609acff44b9f7f0c4afbb39b25fc87ad8ba75b9e6588a75f11f9f512df4b2de3cdf3bae65f5d70018c1452625e8da90"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-IBMPlexMono-Bold-sup-ly1--base.tfm \

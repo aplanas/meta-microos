@@ -7,10 +7,10 @@ sections, narrow sections and hanging paragraphs. A reference \
 for the quotation can optionally be added."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn65493"
+PV = "2023.209.1.3svn65493"
 
-RPM_NAME = "texlive-scripture-2023.201.1.3svn65493-53.1.noarch.rpm"
-RPM_HASH = "a439256d1c1f5532175404ea7c09887cafc40ba6137539a51b5cec8878d02f997c9fd9965ca3307188ef957f0705c93abe8ade320a3f8ad6e90ee2e4c4071b40"
+RPM_NAME = "texlive-scripture-2023.209.1.3svn65493-54.1.noarch.rpm"
+RPM_HASH = "fcbb40bace7b085b9ac41a0cba7fbd2fe9f3ab3264dd729d7cc737f1ba01e968c512df48e36e0ff1a7b581e5e10a21a9482bf3e0f2cb5039c13dca073be86df7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-scripture.sty \

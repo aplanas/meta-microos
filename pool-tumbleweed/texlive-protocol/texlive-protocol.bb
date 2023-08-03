@@ -5,10 +5,10 @@ ambitions to internationalise the code, and would welcome \
 support in the work."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.13svn25562"
+PV = "2023.209.1.13svn25562"
 
-RPM_NAME = "texlive-protocol-2023.201.1.13svn25562-52.1.noarch.rpm"
-RPM_HASH = "edccbfa576b9604da95466ceae51276adb7e7c770adad0725eb55376c7e9a1abed8a9450a4ed5b74d497283c4f7c546f811caf70d9303857953d3c92618c3bbe"
+RPM_NAME = "texlive-protocol-2023.209.1.13svn25562-53.1.noarch.rpm"
+RPM_HASH = "2b6acd2eebd6e23207a23b1b2ff303b5c10277243ddc23c24bd615c9970bc9fc91cdfdc79764e6eee53702d1410f05684c3e049686a8e83fd7867dda141cb7bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-protocol.cls \

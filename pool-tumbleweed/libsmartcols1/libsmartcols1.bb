@@ -2,10 +2,10 @@ SUMMARY = "Column-based text sort engine"
 DESCRIPTION = "Library to sort human readable column-based text output."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.39"
+PV = "2.39.1"
 
-RPM_NAME = "libsmartcols1-2.39-3.1.aarch64.rpm"
-RPM_HASH = "2fefc7ca2ee9856b1ee963abb5ca2454420a61723fb686af60032e7e58d2e0c42ce459692cc89d06125a3cadfa76aded7743f8be49a9992aea013b46343b210c"
+RPM_NAME = "libsmartcols1-2.39.1-1.1.aarch64.rpm"
+RPM_HASH = "c2572c2bb9215faea0b3ed132fb856b631863d27064e4eec1c46d70a9a13da15b4c429e329d903f70a2c6346ce8b639fa9c912be30c0f2b49fffc413f9d09af8"
 
 RPROVIDES:${PN} += "libsmartcols.so.1 \
 libsmartcols1"

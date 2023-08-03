@@ -7,10 +7,10 @@ instance the German 'Normseite': 60 lines of 30 characters \
 each."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.6svn15878"
+PV = "2023.209.0.0.6svn15878"
 
-RPM_NAME = "texlive-stdpage-2023.201.0.0.6svn15878-57.1.noarch.rpm"
-RPM_HASH = "115c833c869d2051e3db19dd5443449837348093b3298aa447c42c2327a6ff8aa29abc8fab5b905c3c9f217b1064255bb991662fddf55b7c63bd06f15f65f883"
+RPM_NAME = "texlive-stdpage-2023.209.0.0.6svn15878-58.1.noarch.rpm"
+RPM_HASH = "b6c28c5f542054a9b5f78819fca278e2ce92ca5f6c56d5f6ba2f8179a186fbd1cf4fbc7b7819557297dc3333f376d0748f18b79a9dc5ed397da9608b69f78134"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-stdpage.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Upright greek letters in text"
 DESCRIPTION = "Use upright greek letters as text symbols, e.g. \\textbeta."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.7svn44192"
+PV = "2023.209.0.0.7svn44192"
 
-RPM_NAME = "texlive-textgreek-2023.201.0.0.7svn44192-54.1.noarch.rpm"
-RPM_HASH = "727efeaa3cfa1b03d1fcf3313c4cc594ad93c51d0cd02d934503651971d16fce4efc3cc9cfef6bd343c6da95c0b584fb5e512f7330a0208b1f396074cd4cf3e1"
+RPM_NAME = "texlive-textgreek-2023.209.0.0.7svn44192-55.1.noarch.rpm"
+RPM_HASH = "7ac756d12a9536ec465f541f4029371b75c7c363d92a17dfd936630da35c8befb41fed65cb048f81744fb3d6ec0e858b0e237e4aa502fabe3888ee57ad0659c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-textgreek.sty \

@@ -4,10 +4,10 @@ to translate Devanagari (encoded according to the Harvard/Kyoto \
 convention) to Unicode (range 0900-097F)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5svn34296"
+PV = "2023.209.0.0.5svn34296"
 
-RPM_NAME = "texlive-xetex-devanagari-2023.201.0.0.5svn34296-52.2.noarch.rpm"
-RPM_HASH = "12ead668e1511fd90237d3145ef1f120a30037b1b9401c63ccbd50246948d2ff65a89a5a4a5cdd3bc3991dede152a8bdbdfa90e13b8157e9f4c0c6ee4abb0d22"
+RPM_NAME = "texlive-xetex-devanagari-2023.209.0.0.5svn34296-53.1.noarch.rpm"
+RPM_HASH = "05ad439b85d2831f6e36e9a7d6fea928a8753dba5dfe137148a9f95a0f83b561c532b1265570087bc354098ae79e9acca7a5f837dd76d73cd491bdf18cdd8f11"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-devanagarinumerals.map \

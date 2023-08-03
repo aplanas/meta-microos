@@ -11,16 +11,17 @@ It shows the complete information but mostly in uninterpreted form (unlike parti
 So it can be used to verify the data your favorite partitioning tool has actually written."
 LICENSE = "GPL-3.0"
 
-PV = "2.4"
+PV = "2.5"
 
-RPM_NAME = "parti-2.4-1.1.aarch64.rpm"
-RPM_HASH = "e552be187eebf0aee6e76e8aa0d889be49984f4c0f9f6885cfe7cc77ab72e323a5830eaefd9a6bed8049ed8f47b359237f23e1825d659dd01ecce4225c6fbb7b"
+RPM_NAME = "parti-2.5-1.1.aarch64.rpm"
+RPM_HASH = "9948afcc07642dd73fa9eafd3eec0351ead1cc4030b99fad1715dc04ba91b7a33e5be0e701074105313012f41057f10acc835fd35518a1a37ed87d6b118f3798"
 
 RPROVIDES:${PN} += "parti"
 
 RDEPENDS:${PN} += "libblkid.so.1 \
 libc.so.6 \
 libjson-c.so.5 \
+libmediacheck.so.6 \
 libuuid.so.1 \
 mkisofs"
 

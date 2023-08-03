@@ -3,10 +3,10 @@ DESCRIPTION = "Includes two additional characters needed for Concrete Math \
 (ca. 1991)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54074"
+PV = "2023.209.svn54074"
 
-RPM_NAME = "texlive-euxm-2023.201.svn54074-52.1.noarch.rpm"
-RPM_HASH = "12a3651aba2a345c911b7552408206f61be269ec861fb72c12da11d9c3f4ca45fe8a5d1dd699cdf4535cdbdef692527534a7bf9f7857a8e8955fc72885b5248f"
+RPM_NAME = "texlive-euxm-2023.209.svn54074-53.1.noarch.rpm"
+RPM_HASH = "92c564faa74ff88226efd0be6c3ae9d04f0e162c332af1235fc22bcb93a14f4b9ae0d9a05e44bbca0dd0857061a71690d8233236699c0278d299427e3cec0dd9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-euxm10.tfm \

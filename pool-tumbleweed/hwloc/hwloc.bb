@@ -13,10 +13,10 @@ It also offers a powerful programming interface (C API) to gather information \
 about the hardware, bind processes, and much more."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.9.1"
+PV = "2.9.2"
 
-RPM_NAME = "hwloc-2.9.1-1.1.aarch64.rpm"
-RPM_HASH = "6b8467fe5496048ea47abb38dd303f0ba86282f311a7b35ca96432e69873faf02b7f57370c9f344e7f26abf633adabe860bd8bc880e3233493ac04e8be26af2d"
+RPM_NAME = "hwloc-2.9.2-1.1.aarch64.rpm"
+RPM_HASH = "df342a3659eceeb2666aa60d85b3839a00fa62d1d7dac54da0096afc249fd022fb87a6d910da2ae6f93b9ec11fffef6e4b148a31896a1772cc2adb6d1eeed287"
 
 RPROVIDES:${PN} += "hwloc"
 

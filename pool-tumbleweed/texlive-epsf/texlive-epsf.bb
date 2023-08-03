@@ -8,10 +8,10 @@ latex-graphics bundle is also available to Plain TeX users, via \
 its Plain TeX version.)"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.2.7.4svn21461"
+PV = "2023.209.2.7.4svn21461"
 
-RPM_NAME = "texlive-epsf-2023.201.2.7.4svn21461-53.2.noarch.rpm"
-RPM_HASH = "e15956bfa5c504c220aee3358165b01ada08a97e4ca8e019d6b7a211d4310722c3f8267bdff5d5a2fb8a06e04064d7a2123b80a04d9f62126c87a6440c6bb9cd"
+RPM_NAME = "texlive-epsf-2023.209.2.7.4svn21461-54.1.noarch.rpm"
+RPM_HASH = "866a20fac9de714ae080efccb1828c559ac69712b43521c5344e0582b81b8f349a6beee58f6f23eefbbf48378474aff6fd531bb30af5f666a98ec04f4a0c166b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-epsf.sty \

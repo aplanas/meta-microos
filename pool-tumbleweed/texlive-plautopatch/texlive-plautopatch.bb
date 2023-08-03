@@ -10,10 +10,10 @@ also to make the appearance of working pLaTeX/upLaTeX sources \
 similar to those of ordinary LaTeX ones."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.0.0.9qsvn64072"
+PV = "2023.209.0.0.9qsvn64072"
 
-RPM_NAME = "texlive-plautopatch-2023.201.0.0.9qsvn64072-52.1.noarch.rpm"
-RPM_HASH = "53babc3446b32e46bebcfab38f01077c313205787cde776d3ca44303d56cbf37cda645a68486fd4dc8ef05d2fa2880e1fac790530e5c2b18bff113e38c7ec832"
+RPM_NAME = "texlive-plautopatch-2023.209.0.0.9qsvn64072-53.1.noarch.rpm"
+RPM_HASH = "b591899122aa17deea8253c9d66466fd0fc54f3f4ccfeb3fd10a96f203ade1ef9536a3b9517125b1ca73fce44160a54e5ceb5a67afde0d0956e3593255c88739"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-plarydshln.sty \

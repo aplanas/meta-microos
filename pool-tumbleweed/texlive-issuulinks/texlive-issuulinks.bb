@@ -10,10 +10,10 @@ commands. Since the package redefines the internals of \
 hyperref, it must be loaded it AFTER hyperref."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn25742"
+PV = "2023.209.1.1svn25742"
 
-RPM_NAME = "texlive-issuulinks-2023.201.1.1svn25742-55.1.noarch.rpm"
-RPM_HASH = "40770fe4f8183816d7d47feea05f3807e7f622e10c6f1da845b69c465d419189344d347965d48b6fce7681b0050282f7b2afcc43174e07228e6af29a7eadb4e9"
+RPM_NAME = "texlive-issuulinks-2023.209.1.1svn25742-56.1.noarch.rpm"
+RPM_HASH = "8e0abaa531e1e71ae004c3da07b19ee326be674030895fac8eaa11ea2d3b73308cca2ea82900dc92e90396a7a72a6aba5d2ed746358c42834470307f189aee5c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-issuulinks.sty \

@@ -6,10 +6,10 @@ accounts like Twitter, Github, or a Homepage. In addition, it allows to look \
 up keys for such accounts that people have created a proof for."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.0.2"
+PV = "6.2.2"
 
-RPM_NAME = "keybase-client-6.0.2-3.5.aarch64.rpm"
-RPM_HASH = "819cfe2fc36e195a8576e10ffd00f7a9348324c38fe9b1b3f423f150094cf3da2d20b1b08d66e42fc2c070900353be62f8de9cf119611448dcca10085e85b5eb"
+RPM_NAME = "keybase-client-6.2.2-1.1.aarch64.rpm"
+RPM_HASH = "f5d5acfcef481acd1c6e712c5aae8f8fc4784f9fdaeda37868c211e4ff36b19b751de68eb3953efa64315e00ea200f463438ab0eed98b8c4b02ae9f992bc7063"
 
 RPROVIDES:${PN} += "keybase-client"
 

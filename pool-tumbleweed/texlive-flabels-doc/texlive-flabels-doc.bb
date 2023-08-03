@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-flabels"
 DESCRIPTION = "This package includes the documentation for texlive-flabels"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn17272"
+PV = "2023.209.1.0svn17272"
 
-RPM_NAME = "texlive-flabels-doc-2023.201.1.0svn17272-52.1.noarch.rpm"
-RPM_HASH = "ff5eb5753f73b8fb8c3bef45f57f54a51487551172b6fd872e604dd734753838086985c5d54065580715a754c3202e18fb242520fe85d0e5ecb16f0db323aa73"
+RPM_NAME = "texlive-flabels-doc-2023.209.1.0svn17272-53.1.noarch.rpm"
+RPM_HASH = "78aee848af3839413e3638bad5a57bd8abfc4703942d4d2f9e07f714dce07ecf817826056f042512c6721f13a8de585eb04cea1c9ad5507ffade85c87808ecf8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-flabels-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Development files for syslog-ng"
 DESCRIPTION = "This package provides files necessary for syslog-ng development."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.2.0"
+PV = "4.3.1"
 
-RPM_NAME = "syslog-ng-devel-4.2.0-3.1.aarch64.rpm"
-RPM_HASH = "6a0bf5793cf070c6e7cb81d86cf99e7ebba22ba5b24d52016b210495a916f212cd96878840c7cdd35d0301fa406b47dae5c29c983f513ae0b0d8beeb9c98fba9"
+RPM_NAME = "syslog-ng-devel-4.3.1-1.1.aarch64.rpm"
+RPM_HASH = "68bf415c7606d079f5fa0ee4f151d5913a73372680270c21689eb8d0e5157e28a8f665a311c9ec71bd81190991d17e4834449e6eda3b68cd11d94bad228210a2"
 
 RPROVIDES:${PN} += "libevtlog-devel \
 pkgconfig-syslog-ng \

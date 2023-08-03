@@ -3,10 +3,10 @@ DESCRIPTION = "The package generates QR (Quick Response) codes in LaTeX, \
 without the need for PSTricks or any other graphical package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.51svn36065"
+PV = "2023.209.1.51svn36065"
 
-RPM_NAME = "texlive-qrcode-2023.201.1.51svn36065-53.2.noarch.rpm"
-RPM_HASH = "82d2f2da52cedf90e66cd3b7fe8bf660c6636d8819bfb645f8cf563f58382456e70491ddc4b80bb9b1c3b0399fc77117921210990b4c86903720d718ecf8d157"
+RPM_NAME = "texlive-qrcode-2023.209.1.51svn36065-54.1.noarch.rpm"
+RPM_HASH = "2d977f46f3847bd7e58c4aa1df0cf5dda0f55a3fd0dfa8519762308b1684a87b1df7038ffc7798490a4af5fed8e005adafad666a8c877115e7f79a4de2c3f6c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-qrcode.sty \

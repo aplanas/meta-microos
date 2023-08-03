@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-practicalreports"
 DESCRIPTION = "This package includes the documentation for texlive-practicalreports"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0.3svn52312"
+PV = "2023.209.2.0.3svn52312"
 
-RPM_NAME = "texlive-practicalreports-doc-2023.201.2.0.3svn52312-52.1.noarch.rpm"
-RPM_HASH = "22892b9c93171057e986775b67321068c2ef45ee7cfd341151715e75d1960d220d5e4edf9117ccaee5b901d682bc1b125a8d94dcacd4507fe36ad56163ed77af"
+RPM_NAME = "texlive-practicalreports-doc-2023.209.2.0.3svn52312-53.1.noarch.rpm"
+RPM_HASH = "ea129c0a065d61c3801a7563d7305a299aa95f6e05e4341d6a4407c72fb71b526329fa94718525be540e0316d22b8dacfa99aab94b4112b4cee6fb243d7601ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-practicalreports-doc"

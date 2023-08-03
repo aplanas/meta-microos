@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-bguq"
 DESCRIPTION = "The  separated fonts package for texlive-bguq"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4svn27401"
+PV = "2023.209.0.0.4svn27401"
 
-RPM_NAME = "texlive-bguq-fonts-2023.201.0.0.4svn27401-53.1.noarch.rpm"
-RPM_HASH = "6a93a4222f3c64c104b4cce8db87c6d115b7c1c986d0563599882b3b7f78c158f9d05c1fff1ab6ca530a796f5b86bedf86de5edb90e6a464c7a82aa0a93b8076"
+RPM_NAME = "texlive-bguq-fonts-2023.209.0.0.4svn27401-54.1.noarch.rpm"
+RPM_HASH = "9354e90f2f33d9698f7330f56ea14708ec307c428c92dbfaaaa394c1cf84e8ca69282e75155bbe5dff44d0a4cc8f91b482eca0a4ebb5df7cfe07aea21d5354d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-bguq10t04 \

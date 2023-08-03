@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-nimbus15"
 DESCRIPTION = "The  separated fonts package for texlive-nimbus15"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.014svn58839"
+PV = "2023.209.1.014svn58839"
 
-RPM_NAME = "texlive-nimbus15-fonts-2023.201.1.014svn58839-54.1.noarch.rpm"
-RPM_HASH = "e6f2972a9b7c29ace548d74054efcf29ae04d9cc77bad4d7f1b678fa519735a88eb55cc4dfdd04938985a1b3ca43a9e9b0d3f5bb609d607de59a3e8148f0efb3"
+RPM_NAME = "texlive-nimbus15-fonts-2023.209.1.014svn58839-55.1.noarch.rpm"
+RPM_HASH = "3f33cc17ec671c03e4d567a385f47979fc624cc1e18b26484df0047d9cb5def8199f9f3854ff618da0ab0ad9aa621ffa00c3a2098fa640eb5e4e336d320183dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-nimbus15-fonts \

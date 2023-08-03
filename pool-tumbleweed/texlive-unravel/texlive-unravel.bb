@@ -9,10 +9,10 @@ versions of the l3kernel, l3packages and l3experimental \
 bundles."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3asvn59175"
+PV = "2023.209.0.0.3asvn59175"
 
-RPM_NAME = "texlive-unravel-2023.201.0.0.3asvn59175-53.1.noarch.rpm"
-RPM_HASH = "724b85fe7cfc4ab34d00d13dde0b1a899f447984969afa6a496a6c3a22c03ee18fc0c9bdcc5ee11187a6a83f86bde547ec211c73b93b28b627c3430651564f0f"
+RPM_NAME = "texlive-unravel-2023.209.0.0.3asvn59175-54.1.noarch.rpm"
+RPM_HASH = "b4b875e13c586bd3a509115b2a2614ce6d876e39de1dbfd2a97e9974c675d91fae1d5cdf52fd450c07ccd9a87abbbc34f336fed0acd642338a47630a0c61766b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-unravel.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt 6 Core library"
 DESCRIPTION = "Development files for the Qt 6 Core library."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-core-devel-6.5.1-4.1.aarch64.rpm"
-RPM_HASH = "5ce7f7270b59b95e2208d74f6f723b8d86f0b7750a4e4d40945d4b912acc381f88f97030879f5f1aadd109f2473b9159c9434666d0091dd59a56dc40361b7e0b"
+RPM_NAME = "qt6-core-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "72092acab6685e6d27576a188182b46a3ff247a13e140d24104af320f931c80ff64c3639ccacffef9fe22e6a339601b9acddec3d8902cba8fba6db7c6e176a84"
 
 RPROVIDES:${PN} += "cmake-Qt6Core \
 cmake-Qt6CoreTools \

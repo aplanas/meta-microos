@@ -6,10 +6,10 @@ Manager (GSM) appliance and its underlying Greenbone Vulnerability Manager \
 Greenbone Management Protocol (GMP) and Open Scanner Protocol (OSP)."
 LICENSE = "GPL-3.0-only"
 
-PV = "23.2.0"
+PV = "23.5.0"
 
-RPM_NAME = "python311-python-gvm-23.2.0-1.4.noarch.rpm"
-RPM_HASH = "73410ec391cbd4899647da7cd875d11d7ff0d8f486d268d803b1da4e300bab53613844d70096d1939c814f00381c8ad806d0f6f9e69ca09a32d244744c96f507"
+RPM_NAME = "python311-python-gvm-23.5.0-1.1.noarch.rpm"
+RPM_HASH = "a091d12bff8e5efeff220af6910d6de86c109c0d5c93ba7d33ee39b02d6f5aced9c0e17b1cf5a116a7ca2dc505214b7150ba898cc15323db98493fcab769d765"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-gvm \

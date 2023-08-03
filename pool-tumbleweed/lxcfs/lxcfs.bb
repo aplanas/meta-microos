@@ -4,10 +4,10 @@ containers feel more like a virtual machine. It started as a side-project of \
 LXC but is usable by any runtime."
 LICENSE = "Apache-2.0"
 
-PV = "5.0.2"
+PV = "5.0.4"
 
-RPM_NAME = "lxcfs-5.0.2-2.3.aarch64.rpm"
-RPM_HASH = "cb78895ff37d487149add84c0b12c59f6eaa106abd797d88e194a476d332677aed4b546f34248c2bbcdccc54bc17af6b8968f165d5a464f3139df12385cb4a1f"
+RPM_NAME = "lxcfs-5.0.4-1.1.aarch64.rpm"
+RPM_HASH = "6e89648f031625f32ba0642012de355b969b4d6eb7e0f9355222ac48b0577fb75d92ded1aa4660c1f972984b95991b627cd9690e0136be853b502ce4c2cea4f3"
 
 RPROVIDES:${PN} += "liblxcfs.so \
 lxcfs"

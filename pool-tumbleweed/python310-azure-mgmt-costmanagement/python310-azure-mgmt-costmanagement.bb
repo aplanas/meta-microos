@@ -7,10 +7,10 @@ replace the old Azure Service Management (ASM). \
 This package has been tested with Python 2.7, 3.4, 3.5, 3.6 and 3.7."
 LICENSE = "MIT"
 
-PV = "4.0.0"
+PV = "4.0.1"
 
-RPM_NAME = "python310-azure-mgmt-costmanagement-4.0.0-1.2.noarch.rpm"
-RPM_HASH = "dc6ec06ebf35d6232a683f96f074c83a0054539abaf0339c994679fd2fcd278b52d68920111b25ec28cf443b074ea630447d4b6f89c7002b2f4f797466a36fbf"
+RPM_NAME = "python310-azure-mgmt-costmanagement-4.0.1-1.1.noarch.rpm"
+RPM_HASH = "71508985b2cf20ddae6a26a64eabec44ca9773ded5dd4786b9ffb26bafe5780c4511b03b67ef559231cc5188dc37132743f809b5b246ec8bf2c12f323200fa6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-azure-mgmt-costmanagement \

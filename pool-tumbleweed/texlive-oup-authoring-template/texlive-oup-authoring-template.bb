@@ -9,10 +9,10 @@ https://academic.oup.com/journals/pages/authors/preparing_your_ \
 manuscript."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn64491"
+PV = "2023.209.1.1svn64491"
 
-RPM_NAME = "texlive-oup-authoring-template-2023.201.1.1svn64491-54.1.noarch.rpm"
-RPM_HASH = "eb9b1ebb265f882c319ad3513d89d9972632759c39649fbc1dc821d9f6643daa376ae1f39603084cc3cc6609eb9d7cb664eeddcfeec595f7fd8c7932ed3e75d5"
+RPM_NAME = "texlive-oup-authoring-template-2023.209.1.1svn64491-55.1.noarch.rpm"
+RPM_HASH = "f83536b54c3933c812f0eccb427ee53479f9748292670dca8b4e32003225929b42c93cf9ad7f2c150c8a70515602924ecd4732d7a4e8f191f9d3b9c9e5c51721"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-oup-authoring-template.cls \

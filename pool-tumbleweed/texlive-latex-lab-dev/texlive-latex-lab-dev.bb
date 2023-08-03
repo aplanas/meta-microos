@@ -6,10 +6,10 @@ pre-testing kernel code (latex-base-dev), and is intended for \
 testing by knowledgeable users."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.20230601_pre_release_2svn66513"
+PV = "2023.209.20230601_pre_release_2svn66513"
 
-RPM_NAME = "texlive-latex-lab-dev-2023.201.20230601_pre_release_2svn66513-55.1.noarch.rpm"
-RPM_HASH = "8b428913975c693dd28c3f07e3b5f0152f9d305984be03c47a27128a33d5ed9bbeaecb9b73ec56852bb1bd276afa53300ccfb6e50c179b2fe02b2af4004ef36c"
+RPM_NAME = "texlive-latex-lab-dev-2023.209.20230601_pre_release_2svn66513-56.1.noarch.rpm"
+RPM_HASH = "71fdcba6015b5a5dc65ad0b5b266b058231abb1133a3a5fb8be461798c2a534ea9868a28e4321cfd9d6503aa139ee3322f93bbd5e30c074957960aaffe63f8bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texdev-glyphtounicode-cmex.tex \

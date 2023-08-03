@@ -9,8 +9,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.0.1"
 
-RPM_NAME = "libtss2-esys0-4.0.1-1.4.aarch64.rpm"
-RPM_HASH = "5263698c85baa74c6a45cae0856d797afa924c916c875e9a18a5519933ae82a89fca31e01117ee434d7a5e66bbb2e58d29b7f1a688fb9ea1cf06db186df79a0c"
+RPM_NAME = "libtss2-esys0-4.0.1-2.1.aarch64.rpm"
+RPM_HASH = "75a8b05c005082627dd4a0656deefb38b36ec5e4da410e9499792c1551617d049aac27467588e03efd563ac5896dd3f43bcff0828eebb9a0fd1f0ee5977738ea"
 
 RPROVIDES:${PN} += "libtss2-esys.so.0 \
 libtss2-esys0"

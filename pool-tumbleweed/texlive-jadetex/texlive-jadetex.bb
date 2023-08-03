@@ -3,10 +3,10 @@ DESCRIPTION = "Macro package on top of LaTeX to typeset TeX output of the Jade \
 DSSSL implementation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.13svn63654"
+PV = "2023.209.3.13svn63654"
 
-RPM_NAME = "texlive-jadetex-2023.201.3.13svn63654-55.1.noarch.rpm"
-RPM_HASH = "30f97034c7838cbc1a9cd3ed74bb8b6894f515d8fecfd84a94dafa33ded0a305b8bfc8ace17df6fd604338554a3c6467bbb492c466491a0770cba8fa4f5a5b59"
+RPM_NAME = "texlive-jadetex-2023.209.3.13svn63654-56.1.noarch.rpm"
+RPM_HASH = "5b0ee4fe41183a7f84fc2ea61d00b5be284c0ca0a2031c8240c7ce22973d037ef9703fee280f51d23d7261b2e4ae046ef02041e21ee9bda23c8adfeb9c4a982f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dsssl.def \

@@ -3,10 +3,10 @@ DESCRIPTION = "Yet another thesis titlepage style: support of Fachhochschule \
 Aachen (Standort Juelich)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn15878"
+PV = "2023.209.0.0.1svn15878"
 
-RPM_NAME = "texlive-thesis-titlepage-fhac-2023.201.0.0.1svn15878-54.1.noarch.rpm"
-RPM_HASH = "0adcfedc22954c3177c78021320b9337155de603ecac0e338904c29c771499a077f038c168e527348fa3918678d671344c5cdf3c244a05b937102b7de3f83133"
+RPM_NAME = "texlive-thesis-titlepage-fhac-2023.209.0.0.1svn15878-55.1.noarch.rpm"
+RPM_HASH = "80d9a4720ea742e32411c76611c9add29d6f367742951804e2c844d6c7ed155e96f8061039f7f801f260bd83f197a5eb3e203ff3cfd69e0930c322cd166769ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fhACtitlepage.cfg \

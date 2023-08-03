@@ -7,10 +7,10 @@ numbering schemes easily. Greek letters, double letters (bb) \
 and different delimiters around them are supported."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.03svn15878"
+PV = "2023.209.0.0.03svn15878"
 
-RPM_NAME = "texlive-alnumsec-2023.201.0.0.03svn15878-54.1.noarch.rpm"
-RPM_HASH = "bcd0465af3f3d5e2af02b6b85a953d5b416c71e8c7dc779dc4e511fc3764b4e874c3107a0bf5f59ddd8050acf5b91a05971c249e94a43d488e771575771501bd"
+RPM_NAME = "texlive-alnumsec-2023.209.0.0.03svn15878-55.1.noarch.rpm"
+RPM_HASH = "5f2aee315833f6ff426355690a2ffdcab33581c910de4683613a4681ecdb647f7761e64390a92b54fb02a8e2c71742fa80c0b3f440958cb94eebe10e723cfef5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-alnumsec.sty \

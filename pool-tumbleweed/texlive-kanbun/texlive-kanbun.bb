@@ -6,10 +6,10 @@ annotation' form when used with LuaLaTeX, which allows \
 typesetting kanbun-kundoku paragraphs efficiently."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn62026"
+PV = "2023.209.1.2svn62026"
 
-RPM_NAME = "texlive-kanbun-2023.201.1.2svn62026-55.1.noarch.rpm"
-RPM_HASH = "c916e7e6c73945dc1f794006d278e22a2cf60b86db4c00cfa739453fc55cc271d28a1a1c1eceb1c3df1c379a81268b585a0922b148b3fdc902dd0cdb320c8aac"
+RPM_NAME = "texlive-kanbun-2023.209.1.2svn62026-56.1.noarch.rpm"
+RPM_HASH = "8b7e70557c8374f32ce586367ea17f696de15d9452ed418be3240250c70618dc27d5e9371ef9be225c0ee703d072e523e641cad63d43c321e1192bda63aa870c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-kanbun.sty \

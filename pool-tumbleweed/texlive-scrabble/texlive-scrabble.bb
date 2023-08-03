@@ -6,10 +6,10 @@ version, \\PlateauScrabble and \\begin{EnvScrabble} and \
 \\ScrabblePlaceMot for the French version."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1.3svn65507"
+PV = "2023.209.0.0.1.3svn65507"
 
-RPM_NAME = "texlive-scrabble-2023.201.0.0.1.3svn65507-53.1.noarch.rpm"
-RPM_HASH = "6092841e259b24d4023fe29fba1b2ba0af894de2a44e221a9cd02e0c228c3e2a56b4f0dd8b30a97a3d3c1ff621a8ef636b4d1484b637cf8970ff7ecfd6bb825d"
+RPM_NAME = "texlive-scrabble-2023.209.0.0.1.3svn65507-54.1.noarch.rpm"
+RPM_HASH = "66a88fe1b4d91f9f819f1d871308ce1a0e70f89a92fa9fd2982885e3fd42267e0aa986ddf0032942f7a3aaacc081d6c0fb44c73f2fef96b97f368c850e43e1b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Scrabble.sty \

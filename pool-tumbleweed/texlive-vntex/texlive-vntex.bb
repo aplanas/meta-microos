@@ -6,10 +6,10 @@ may alternatively use the lm fonts bundle, for which map files \
 are available to provide a Vietnamese version."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.2.2svn62837"
+PV = "2023.209.3.2.2svn62837"
 
-RPM_NAME = "texlive-vntex-2023.201.3.2.2svn62837-53.1.noarch.rpm"
-RPM_HASH = "e621d05a5d0a01d6bc07d6998a39510811385df510efa00c037b414fb0a9bfa4565ee21963b774ac9094b7efd79fa2b44e6ac06dcf1ec7956fc7ec0d6613538f"
+RPM_NAME = "texlive-vntex-2023.209.3.2.2svn62837-54.1.noarch.rpm"
+RPM_HASH = "66547bb1d924bd255baad1b8f5a611c78d0c3ef0d7ef48268c41811fd042b17e94242c48ac3873b3fd111a3a85302dc0f2f0385da2e2c9cce72bc6534db3c493"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-arevvn.map \

@@ -7,10 +7,10 @@ backref. The package is (unsurprisingly) part of the cite \
 bundle of the author's citation-related packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.5.5svn36428"
+PV = "2023.209.5.5svn36428"
 
-RPM_NAME = "texlive-cite-2023.201.5.5svn36428-53.1.noarch.rpm"
-RPM_HASH = "7b94f093fc07d463de2313e7e6a0db1be181dba62f370b71669cb515ecf2b2ac2a574b40640329d0b849709792043b22e6d2f0802f230667e64d944eed064d09"
+RPM_NAME = "texlive-cite-2023.209.5.5svn36428-54.1.noarch.rpm"
+RPM_HASH = "16f5815a4b65cbcff46d091042e9e15ed09386b6c5e7b8ee71f4c64831f05ffb9cc2041ca423d02d1e1353e8b1e07082353721cd4cf67e45d9e15b7ae77dbcc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chapterbib.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-forum"
 DESCRIPTION = "The  separated fonts package for texlive-forum"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64566"
+PV = "2023.209.svn64566"
 
-RPM_NAME = "texlive-forum-fonts-2023.201.svn64566-52.1.noarch.rpm"
-RPM_HASH = "ac1f16bb856322734f006abb0990598fb123cd57ca63fe5c66612bae2b02f19a4e31ac4bfeb372ccd4c358fb33565aebe4fbef85251d10823aa63e9dd98e820b"
+RPM_NAME = "texlive-forum-fonts-2023.209.svn64566-53.1.noarch.rpm"
+RPM_HASH = "aa262292acd7e82fd9a089d93e394260d125ff8c65e6f2f95c953b7d5f082599d08adf5e2edc59db2d7e970467dab13f1bed592541fe1fc5a5d2300f65e09512"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-forum-fonts \

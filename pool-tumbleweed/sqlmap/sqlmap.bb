@@ -9,10 +9,10 @@ file system, and executing commands on the operating system via out-of-band \
 connections."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.7.6"
+PV = "1.7.7"
 
-RPM_NAME = "sqlmap-1.7.6-1.1.noarch.rpm"
-RPM_HASH = "446f1dab2f85550d53e47b66f55dea6f980d36d6e0643e980b4791ea7f05c06e44f530c2aec08c47e140179633556ac171cd49971a4f9fb907a704599d08a623"
+RPM_NAME = "sqlmap-1.7.7-1.1.noarch.rpm"
+RPM_HASH = "2973603bb4f4de1774b9f0a6fa98aa0a0702f621883f68b1f9e5f022d5201abca27ba71e44eb93c061e311156a714f6a60c84b065105741acf4a23dfc203e954"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sqlmap"

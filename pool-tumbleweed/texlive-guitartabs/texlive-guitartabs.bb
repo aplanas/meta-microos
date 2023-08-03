@@ -7,10 +7,10 @@ inputenc, intcalc, musixtex, tikz, and xifthen, as well as the \
 article class."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn48102"
+PV = "2023.209.svn48102"
 
-RPM_NAME = "texlive-guitartabs-2023.201.svn48102-53.2.noarch.rpm"
-RPM_HASH = "b880c672260c9688b8052a09777150f06b4750fe491d865eddaa197afce77785ee0447a4b8fdbf018bfa6a8f68f79a16e059abf60f304068cc0f76c29d3f4d77"
+RPM_NAME = "texlive-guitartabs-2023.209.svn48102-54.1.noarch.rpm"
+RPM_HASH = "9b0e86db05f0d0076b70be0a3e6c5f4b008506d3595c2a3dea7d2a9f6a7adfa66b87b607df870c238abda9a02927c794a7ef94682a85f04a69b8c4b98bca36ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-guitartabs.cls \

@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 connectivity tools and libraries"
 DESCRIPTION = "Qt 6 connectivity tools and libraries."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-connectivity-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "200b8b5d795b9d607deafabb3b0b2c0bca695d474cf910fecb159f2cc5e31cdb0119a3fe51363870e3f61ba628e560bf08d3284f0c07dc48726ccc985338b393"
+RPM_NAME = "qt6-connectivity-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "b5c0bfa7ae854c0fdc3947eaeb235c58874311054350b2fbbbe978349b8f68adb5452ec8f625adc4504a80bda136bd36240d466c6f16c42039a8d9ae21a0db11"
 
 RPROVIDES:${PN} += "qt6-connectivity"
 

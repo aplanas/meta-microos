@@ -8,10 +8,10 @@ italic style was added and mathematical support is offered as \
 an option to newtxmath."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.051svn55475"
+PV = "2023.209.1.051svn55475"
 
-RPM_NAME = "texlive-baskervillef-2023.201.1.051svn55475-53.1.noarch.rpm"
-RPM_HASH = "301693244a35d847e092e5be49eb89eb0cec61e919751fc17ff1dd093c53d1e7a78be17941ed9647ebdecfd152bb7212124f702cc4f543670ae310f48280e249"
+RPM_NAME = "texlive-baskervillef-2023.209.1.051svn55475-54.1.noarch.rpm"
+RPM_HASH = "b20ce304596ec15801d5aca1ba943703bf6d8486aace8afc75d9998cb54a0e1a2db70e387cbbf605b6c2dd458f2f8c8e51e621894cd2e8ead02960a1c8c29642"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-BaskervilleF-Bold-lf-ly1--base.tfm \

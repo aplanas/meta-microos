@@ -21,10 +21,10 @@ The package relies on LaTeX 3 support from the l3kernel and \
 l3packages bundles."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.2.2svn66365"
+PV = "2023.209.3.2.2svn66365"
 
-RPM_NAME = "texlive-siunitx-2023.201.3.2.2svn66365-57.1.noarch.rpm"
-RPM_HASH = "383ae89af58afcf44f144674878dc8b266f22d50048376e2838629ad890b9b2bf3def3efb416df9949546e29b68a11b5f0b84532e5d467be0d59701ebe573c14"
+RPM_NAME = "texlive-siunitx-2023.209.3.2.2svn66365-58.1.noarch.rpm"
+RPM_HASH = "77f0c627678432a2929c0834a6e83293b794428907b02ef61dd3fb0326ced5031cb6652c8254bdc290d854618234482a3627d111759a7da047cec40241587859"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-siunitx-abbreviations.cfg \

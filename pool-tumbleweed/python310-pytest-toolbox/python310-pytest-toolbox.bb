@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.4"
 
-RPM_NAME = "python310-pytest-toolbox-0.4-3.5.noarch.rpm"
-RPM_HASH = "eefcc6c01a01407f4d0434ea12d79d416b4cc75b20b308551f89184978f61a1810fe5497a693467bf50f1008471dd7dec2c4c896b9afe6b1a5b04b37c14f84c2"
+RPM_NAME = "python310-pytest-toolbox-0.4-4.1.noarch.rpm"
+RPM_HASH = "fa85f4ff73951e9a9b5dc119a4a2a0fdcbd923e8e2dd27d2ed19d428ce745b7b05eaf582bffde5f06b6bd58acb28008000a82a887f700280eb429fa2151c0a8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-pytest-toolbox \

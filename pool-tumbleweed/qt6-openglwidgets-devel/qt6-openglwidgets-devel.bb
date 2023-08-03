@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt 6 OpenGLWidgets library"
 DESCRIPTION = "Development files for the Qt 6 OpenGLWidgets library."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-openglwidgets-devel-6.5.1-4.1.aarch64.rpm"
-RPM_HASH = "a833780e23e679dbb910f192825f953e62b7582a8c80ec85323cde15fb035ceff6cfd871776e956e36ad34a2670956ac5fc47bdb7543afdabec00b1ece1781ef"
+RPM_NAME = "qt6-openglwidgets-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "330e7e65a2c43f14bb2eb9160c3321300a1667e92b958d1f5727b6ce4d26774685364b801fe8036c480fc6bac5ff22cb4d164cca3dd4f2af1f585bcbad194413"
 
 RPROVIDES:${PN} += "cmake-Qt6OpenGLWidgets \
 pkgconfig-Qt6OpenGLWidgets \

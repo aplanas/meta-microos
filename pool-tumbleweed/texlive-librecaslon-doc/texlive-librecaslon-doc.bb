@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-librecaslon"
 DESCRIPTION = "This package includes the documentation for texlive-librecaslon"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64432"
+PV = "2023.209.svn64432"
 
-RPM_NAME = "texlive-librecaslon-doc-2023.201.svn64432-54.1.noarch.rpm"
-RPM_HASH = "826b2f0bde7561605b8a49b98ce4e1d3bec31ae2eee46231f80dd9bc5b046db1c69fb4ab69cfd4759329ff4810a86b71b4179fb63278ecd4d0283d3aff033808"
+RPM_NAME = "texlive-librecaslon-doc-2023.209.svn64432-55.1.noarch.rpm"
+RPM_HASH = "8894382ef5b8c0cd052ef72a8797159ae998e66b76d1889e597c8dba11c6810eb3f8fdcd2c0bea97afbe50a058e8dce709da4abe1045ec60d9d2798352e6a42b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-librecaslon-doc"

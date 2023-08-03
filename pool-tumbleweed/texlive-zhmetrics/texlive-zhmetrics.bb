@@ -6,10 +6,10 @@ are supported: kai, song, lishu, fangsong, youyuan and hei. Two \
 encodings (GBK and UTF-8) are supported."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.r206svn22207"
+PV = "2023.209.r206svn22207"
 
-RPM_NAME = "texlive-zhmetrics-2023.201.r206svn22207-52.2.noarch.rpm"
-RPM_HASH = "ae94a4575a3e67ab003a7234309bafdaf2afbc94143066b51933025a8f8235c26a3889664826ecab010f78d9b8dc17af944185e4904877c7d6635c46599c8846"
+RPM_NAME = "texlive-zhmetrics-2023.209.r206svn22207-53.1.noarch.rpm"
+RPM_HASH = "dd08a97eb6c36a8937317b3ffa84e44384d1463cbe8f1e6198635bef35d9b33907f76f08cff4d3580cd0c16e47bf09fe6ffe8d2358253c2518d9026847a250ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-c19fs.fd \

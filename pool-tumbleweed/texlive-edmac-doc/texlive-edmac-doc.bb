@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-edmac"
 DESCRIPTION = "This package includes the documentation for texlive-edmac"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.3.17svn61719"
+PV = "2023.209.3.17svn61719"
 
-RPM_NAME = "texlive-edmac-doc-2023.201.3.17svn61719-53.2.noarch.rpm"
-RPM_HASH = "fef4eadfa2768e346bd06af8d5728fb074da4ac6e67bec103da4d52be8eeb8384c6632bd173ba76ef0b00bd5ff9e91ac6ab116bcffe4142956988422da86e7b4"
+RPM_NAME = "texlive-edmac-doc-2023.209.3.17svn61719-54.1.noarch.rpm"
+RPM_HASH = "ea18affffc6464254106191f8f14bb838c83815332cd8990878640515801849f7fb745926f2191c27cda6eeeebd9e20c46e246f09a010591c587c470e46667bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-edmac-doc"

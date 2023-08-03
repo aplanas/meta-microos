@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-auxhook"
 DESCRIPTION = "This package includes the documentation for texlive-auxhook"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6svn53173"
+PV = "2023.209.1.6svn53173"
 
-RPM_NAME = "texlive-auxhook-doc-2023.201.1.6svn53173-53.1.noarch.rpm"
-RPM_HASH = "2f41f44e91b7f41c0c79617a8550d54215fe380d64a40eba1fa205d1c79a12bfc587ea1c989e788a841109df2041d6604d06d3b5656759adec63bff1f66bf1ad"
+RPM_NAME = "texlive-auxhook-doc-2023.209.1.6svn53173-54.1.noarch.rpm"
+RPM_HASH = "5b2b6eda623a1ada648654a14d6679236040ce5c4d14fc99ae8e2a9b200c196dcf939f9bfc5cc7934d7cb98af56dda8e70a9f1321d501fb976d6ebe5ad5bc48d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-auxhook-doc"

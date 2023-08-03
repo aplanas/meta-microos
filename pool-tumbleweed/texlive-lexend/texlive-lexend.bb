@@ -6,10 +6,10 @@ everyone. Now my goal is to bring this wonderful collection to \
 the world of LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.0.70svn57564"
+PV = "2023.209.1.1.0.70svn57564"
 
-RPM_NAME = "texlive-lexend-2023.201.1.1.0.70svn57564-54.1.noarch.rpm"
-RPM_HASH = "9e21ac7a0755af27991facede4f29a4763f4587f4f604025abcf066376929c61ffce4f901fbdf5f0ec688c4702446adce7386b8e7c4a083cf204e69a18aeb786"
+RPM_NAME = "texlive-lexend-2023.209.1.1.0.70svn57564-55.1.noarch.rpm"
+RPM_HASH = "8df982302bcf7f7cddd6b9b061d4b76c57f3673796905afe2b52c6f68426fb199f10c9d5d6f2372a466768de6e22266c24e184d843f8d16e3333b713503c623d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lexend.sty \

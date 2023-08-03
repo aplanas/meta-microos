@@ -6,10 +6,10 @@ but a series of rules of the form 'when entering block ..., \
 switch font to use ...'."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.2.6svn64782"
+PV = "2023.209.2.6svn64782"
 
-RPM_NAME = "texlive-ucharclasses-2023.201.2.6svn64782-53.1.noarch.rpm"
-RPM_HASH = "2be0c3ebfffe130bd6f733aaf014368f06921786637482ca7e5a305e508ebe6a421bf5dd49ec4107f74d5ca8a3b29bbaa63df077e302fa6816dc3f4dc90d9bee"
+RPM_NAME = "texlive-ucharclasses-2023.209.2.6svn64782-54.1.noarch.rpm"
+RPM_HASH = "dec74bbd58c4a3d8238a9bacb209ee6a4441879fa9648b101a0a6c47d44a0d5c0d9a2faf78bafb72025b3ca6628c387714b18f35fcb7ea8c5ec4f37d19fd540f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ucharclasses.sty \

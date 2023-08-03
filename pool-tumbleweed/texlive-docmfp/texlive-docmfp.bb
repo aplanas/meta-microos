@@ -4,10 +4,10 @@ code, such as Metafont or MetaPost, or other programming \
 languages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2dsvn15878"
+PV = "2023.209.1.2dsvn15878"
 
-RPM_NAME = "texlive-docmfp-2023.201.1.2dsvn15878-52.1.noarch.rpm"
-RPM_HASH = "9ee49aba8c9da8e3752e5d576b192c78401ee17eacaefa0362fcfcd8d1bcc3e56e4e4a79ca69c5aa2935137c3a58861d2ce59474cb4bf66e952a003a595c9f7f"
+RPM_NAME = "texlive-docmfp-2023.209.1.2dsvn15878-53.1.noarch.rpm"
+RPM_HASH = "08d721ffe780ef3a813ff808a19e5d6cd01661482d5a88aa90a86020803cf56c267ff6cfe221975b0da4056af2576c9a7fb9724163135a9d810f1654f1d4a3a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-docmfp.sty \

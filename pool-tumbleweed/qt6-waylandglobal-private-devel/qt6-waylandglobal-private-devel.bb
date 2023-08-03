@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains enabled features information shared by all 
 qt6-wayland libraries."
 LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-waylandglobal-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "849d6f918fa1a258cff57fb0faad88e3937ddd85f18e6ac8e2ffee06b40af1f182a9fba7d11861ddd4123c43d2ba69f60452dcde0bd049f22bae5ff0f682d8d2"
+RPM_NAME = "qt6-waylandglobal-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "60e0955e509a64db797db770c960f44e0239e9f5ea27b195394f892f8720d617a7031d7f60ea654ec9e923e8398a0d1dec2ef36308df8731013f2c98f07b7c54"
 
 RPROVIDES:${PN} += "cmake-Qt6WaylandGlobalPrivate \
 qt6-waylandglobal-private-devel"

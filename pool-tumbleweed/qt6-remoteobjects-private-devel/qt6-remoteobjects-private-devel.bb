@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6RemoteObjects that
 any ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-remoteobjects-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "bb81388ede7fe7956afcc84ebd83459e2b43a1482ff69b07f63ace904a3467fa06f870f76ce88cec91904cfe107af2d27b60e8142dd4dfcf324f6fb596cfe773"
+RPM_NAME = "qt6-remoteobjects-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "2f101430d2dd38d0e1751527c17873b1c12bb43f3dd750fdd3e6dc38f8ba8cfa548a6faadc56943b18c9317f669373c91892ff9bdacf56716c47d724049de250"
 
 RPROVIDES:${PN} += "qt6-remoteobjects-private-devel"
 

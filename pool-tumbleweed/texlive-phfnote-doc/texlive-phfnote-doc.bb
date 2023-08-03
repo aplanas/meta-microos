@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-phfnote"
 DESCRIPTION = "This package includes the documentation for texlive-phfnote"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.0svn60733"
+PV = "2023.209.4.0svn60733"
 
-RPM_NAME = "texlive-phfnote-doc-2023.201.4.0svn60733-51.1.noarch.rpm"
-RPM_HASH = "46c9cfdd10b38c40c9a43ceea903dbb6e014f8197f3a5b640282b2327ad7a5e7da6aef834632291a3e2a7a3e3ac413d5f6fb9efdf9c9929ae988880b6114f9fe"
+RPM_NAME = "texlive-phfnote-doc-2023.209.4.0svn60733-52.1.noarch.rpm"
+RPM_HASH = "5112253958ca2a9733437bfef2172c15cc53c5e853cc2133fdbb9d82b7dd79428a6fdaf425ac29b11fb46d0811d9bb7f137b2cb38fce107b22b2b8a7bc81faa6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-phfnote-doc"

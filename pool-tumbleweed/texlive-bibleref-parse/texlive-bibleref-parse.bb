@@ -5,10 +5,10 @@ allows for a simpler and more convenient interface to the \
 functionality of the bibleref package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn22054"
+PV = "2023.209.1.1svn22054"
 
-RPM_NAME = "texlive-bibleref-parse-2023.201.1.1svn22054-53.1.noarch.rpm"
-RPM_HASH = "f90f90fa8c7612a895d0c8370d638abc8f932249a34f28ca2abaa71993d559f894c131ad34fe8b72bc8d62b3c02056be76b1be03494e94fc0979d7d4b551627f"
+RPM_NAME = "texlive-bibleref-parse-2023.209.1.1svn22054-54.1.noarch.rpm"
+RPM_HASH = "3b470f4f9651b5c7390aabc07d3346339cfae432b0ed2e5b1297efa3f774f9e1e3c4502cd31989aa6f6df81eab003af64801e33d809d9c55833df1327f8e3b98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bibleref-parse.sty \

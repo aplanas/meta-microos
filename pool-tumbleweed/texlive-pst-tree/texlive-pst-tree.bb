@@ -4,10 +4,10 @@ which offers a structured way of joining nodes created using \
 pst-node in order to draw trees."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.14svn60421"
+PV = "2023.209.1.14svn60421"
 
-RPM_NAME = "texlive-pst-tree-2023.201.1.14svn60421-53.2.noarch.rpm"
-RPM_HASH = "e96c63b55f4472cd08ddd7780aba9ad206a568b982044a06bc4dfd764ccbcec48e8251996825eb11ee4baa31f914b40f9863959b73cc4726cfc51250bd9d5ac8"
+RPM_NAME = "texlive-pst-tree-2023.209.1.14svn60421-54.1.noarch.rpm"
+RPM_HASH = "75f4afbc72ab4f7846135b722fa5b73df9799e7600f617799803c5810b460293af96a9d9c2ac6f685d2795ebb1ce1d9a613d9534dc3b5d160c1c03ad19a0c49a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-tree.sty \

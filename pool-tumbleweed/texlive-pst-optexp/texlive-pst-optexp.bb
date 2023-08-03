@@ -8,10 +8,10 @@ flexible ways. The components may be connected with fibers or \
 beams, and realistic raytraced beam paths are also possible."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.6.1svn62977"
+PV = "2023.209.6.1svn62977"
 
-RPM_NAME = "texlive-pst-optexp-2023.201.6.1svn62977-52.1.noarch.rpm"
-RPM_HASH = "e4bb9c4c84a697b11d39de6ffff54f0e7fa78d340930dfe01512c37268dcc58b453b814c0e5ff690dcd3b6cf8d5a49d3969ff4faba8b827eeed60bd5decbb9c2"
+RPM_NAME = "texlive-pst-optexp-2023.209.6.1svn62977-53.1.noarch.rpm"
+RPM_HASH = "954021557f90803392b6bf1feb47f91ecf61244c33090e3f207544c244227031c080eb62aafd0b194536759500e46035d0a28fe538c5240e506ba2a6e0803b14"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-optexp.sty \

@@ -8,10 +8,10 @@ such as the KOMA-Script equivalents). The package depends on \
 expl3 and xparse."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3asvn56366"
+PV = "2023.209.1.3asvn56366"
 
-RPM_NAME = "texlive-multicolrule-2023.201.1.3asvn56366-54.1.noarch.rpm"
-RPM_HASH = "bd3d5694ff1a2e8f59d2dbc73505835da207a0a3ad20529e3832e486c8956b3d8e33e5a8bb86b3c50fab8d1271b744db19f72ab3cac8c608758f223f4b6bafa2"
+RPM_NAME = "texlive-multicolrule-2023.209.1.3asvn56366-55.1.noarch.rpm"
+RPM_HASH = "1f49abd01b6c974edd60a754401b20ebec59f754a10cdbe8fd565b7155892bd7f905d47d10d5f4f418a138b6a45e988e2bdec0207c6e1fbf891321907fb5bacf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-multicolrule.sty \

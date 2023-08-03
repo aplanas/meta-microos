@@ -4,10 +4,10 @@ Venn diagrams for lectures or assignment sheets. The package \
 requires the TikZ package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn47952"
+PV = "2023.209.1.2svn47952"
 
-RPM_NAME = "texlive-venndiagram-2023.201.1.2svn47952-53.1.noarch.rpm"
-RPM_HASH = "f329b31b9a60f785291c730a79c26c63fc2317efd04107e7bed556bcf69b5d095b45f7c1c52889ccbe486a5da331f40fbba3a6c0b18a0813620957a1cad0c005"
+RPM_NAME = "texlive-venndiagram-2023.209.1.2svn47952-54.1.noarch.rpm"
+RPM_HASH = "9b1b66696c681c3a8a02ca6ab784043f3229b0142dc9f3e5ae90ce41cebfcff04dfce790771358387c04dbd53a16adb240230d31794f3cdec4851a8d65beb6dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-venndiagram.sty \

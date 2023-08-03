@@ -4,10 +4,10 @@ Its implementation benefits from the paragraph hooks available \
 since LaTeX 2021-06-01."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn64058"
+PV = "2023.209.0.0.3svn64058"
 
-RPM_NAME = "texlive-wrapstuff-2023.201.0.0.3svn64058-52.2.noarch.rpm"
-RPM_HASH = "9aa94ed3fa8898bb3ce1810beb7a08622b99482b073977678a8b28d96cc81f9b8574be8e7e0d1d0ed77d10d60397f9a49de3b545d7052d03a352a361ba48c9ab"
+RPM_NAME = "texlive-wrapstuff-2023.209.0.0.3svn64058-53.1.noarch.rpm"
+RPM_HASH = "43a7d8f991aef36ead482270b6cab84959c7bc69e274be5107e6df74215e6da52ea636a5b42bb513bc47ed01a4251001be1f8ad40457a9065374fb5801fd4e59"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-wrapstuff.sty \

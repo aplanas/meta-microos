@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-chemnum"
 DESCRIPTION = "This package includes the documentation for texlive-chemnum"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3asvn57490"
+PV = "2023.209.1.3asvn57490"
 
-RPM_NAME = "texlive-chemnum-doc-2023.201.1.3asvn57490-53.1.noarch.rpm"
-RPM_HASH = "bdd749a149ec1692e41fd5a7868f5f1b10d00fa5da300cd26318305a641a1c4247d0792ed84b759f780c20982618aff3ebadb0e177bac3b5d21469ad11877ebc"
+RPM_NAME = "texlive-chemnum-doc-2023.209.1.3asvn57490-54.1.noarch.rpm"
+RPM_HASH = "23c2d686eef628a2f09d5093a36b76391bc041427847ec532667e090adc943ebadea70dcd68c81c4786db44d0b556007c6918f3ed0ccaadf4eb9a94baf15ebda"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chemnum-doc"

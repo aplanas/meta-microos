@@ -5,10 +5,10 @@ formats) and macros supporting their use in LaTeX (Type 1) and \
 XeLaTeX/LuaLaTeX (OTF)."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.2.7svn54512"
+PV = "2023.209.2.7svn54512"
 
-RPM_NAME = "texlive-sourcecodepro-2023.201.2.7svn54512-57.1.noarch.rpm"
-RPM_HASH = "d09c171b2f3e039ec7bc4493c7bf74474be84b05d243640abf8d24572c3e4e6a40335df107d41fa14ee3c0fc7abb4ed4bc0b5150cc98d2079eee55f247611414"
+RPM_NAME = "texlive-sourcecodepro-2023.209.2.7svn54512-58.1.noarch.rpm"
+RPM_HASH = "2ec049e6c8e298d235ac0f891ee0f2c4982b8e93a145df589b36a12738104d39368148bffd4b1e3b384c39084e869f3c772e99c26057136d71d8b294fee3c9f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1SourceCodePro-Dnom.fd \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-biblatex-arthistory-bonn"
 DESCRIPTION = "This package includes the documentation for texlive-biblatex-arthistory-bonn"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn46637"
+PV = "2023.209.1.2svn46637"
 
-RPM_NAME = "texlive-biblatex-arthistory-bonn-doc-2023.201.1.2svn46637-53.1.noarch.rpm"
-RPM_HASH = "bb99b0e5bf976dba40d46c2460bb879c1e89bf0754d2eee32fd56cccc7056a40f68a392c73db69e159ea58443cf39d75094d35f1fe1fb65d8de65e9fb9dd75fa"
+RPM_NAME = "texlive-biblatex-arthistory-bonn-doc-2023.209.1.2svn46637-54.1.noarch.rpm"
+RPM_HASH = "4f265219439ba1baf952b77330cb363458ceea3a085db5ef97434fef9ca7ca780ba6dc640326cc5dab1865c9dbe55812a66e24b6a3a4d87037816dc0ac29f847"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biblatex-arthistory-bonn-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "A Perl script that can either trim pages of any whitespace \
 border, or trim them of a fixed border."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.40svn55435"
+PV = "2023.209.1.40svn55435"
 
-RPM_NAME = "texlive-pdfcrop-2023.201.1.40svn55435-51.1.noarch.rpm"
-RPM_HASH = "cdf0745114fc234e6b5d3ce3e7b2b34f75154c5da5898ac0ef28e4743589b88bdf971f0d705ba23db4f32e5eefb35fce1d4165862271319cfd9f00e475ec4cc2"
+RPM_NAME = "texlive-pdfcrop-2023.209.1.40svn55435-52.1.noarch.rpm"
+RPM_HASH = "69e708ca2cf2b037f0c08e621fbac22f0079e3c3cd8dbe378144dd501bba2d791dc3f630bba4c08e73d6bfe7ea8a004958ba2027e4f55c39045cec50f3af7440"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdfcrop"

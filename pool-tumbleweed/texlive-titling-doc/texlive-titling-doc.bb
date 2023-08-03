@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-titling"
 DESCRIPTION = "This package includes the documentation for texlive-titling"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1dsvn15878"
+PV = "2023.209.2.1dsvn15878"
 
-RPM_NAME = "texlive-titling-doc-2023.201.2.1dsvn15878-52.1.noarch.rpm"
-RPM_HASH = "39a7676c746ab28785e02e09aa148f274ae99f6704c111b8a819f97147a7507a33ec9e2a05950c2f63ee93e5b751cc7286959ad146e44aa4f62734a9872857aa"
+RPM_NAME = "texlive-titling-doc-2023.209.2.1dsvn15878-53.1.noarch.rpm"
+RPM_HASH = "d8852084134dc85bd6334af2757ca16c57e2ad065c63d9ac08ac01956f62b67c3ae555a3a38ba14a594bd7b9c8fc6925698db06032edf1d24483d8f21d0200ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-titling-doc"

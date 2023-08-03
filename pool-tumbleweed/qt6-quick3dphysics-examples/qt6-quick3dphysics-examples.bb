@@ -2,10 +2,10 @@ SUMMARY = "Examples for the qt6-quick3dphysics modules"
 DESCRIPTION = "Examples for the qt6-quick3dphysics modules."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-quick3dphysics-examples-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "c00f5d8d687563385c2a62698cd045e1734b8eedf008bf3964aea4d24f909f91d0cd94a6b95b74ea04f5a597567d9c7b9ab8649d683bee1411d141b403cbd8a2"
+RPM_NAME = "qt6-quick3dphysics-examples-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "e649f945614f4b3f928de8b00e092de735f1ec36f041354945fb0a9e8fe4c287eedc8f27d15c7bd733bb2b46b8869e0deae622f8c848dc1e4a5efad0a50645b5"
 
 RPROVIDES:${PN} += "qt6-quick3dphysics-examples"
 

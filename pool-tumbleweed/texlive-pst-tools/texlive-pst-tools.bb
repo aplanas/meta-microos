@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides helper functions for other PSTricks \
 related packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.12svn60621"
+PV = "2023.209.0.0.12svn60621"
 
-RPM_NAME = "texlive-pst-tools-2023.201.0.0.12svn60621-53.2.noarch.rpm"
-RPM_HASH = "6cab7b5d0cceb530550d9c5931029e493e982b21522ec8442d91afd4184eed6ba3786cf086ff7c66e92d8323b3b965a150ea428444fe1befdacd0a2c844b37e8"
+RPM_NAME = "texlive-pst-tools-2023.209.0.0.12svn60621-54.1.noarch.rpm"
+RPM_HASH = "7eba823364c171abec392b7310e29f740c5d5087fcfdef0c9405b3919120340968e1b7d8cbc976aef872cbedc4579f648ce4b01c810362dc909ff64af11ecc2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-tools.sty \

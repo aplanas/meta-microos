@@ -3,10 +3,10 @@ DESCRIPTION = "The package defines maths mode commands for typesetting Frege's \
 Begriffschrift."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.6svn15878"
+PV = "2023.209.1.6svn15878"
 
-RPM_NAME = "texlive-begriff-2023.201.1.6svn15878-53.1.noarch.rpm"
-RPM_HASH = "dcd6b8d2fd0ac246737efd57cae87cbc4f7ad176e0364262d28380acf34e2cc307d5bcad61e7fe27e52598a3854bc46c837a4b1a9f0222290e9afebdcc04d8a3"
+RPM_NAME = "texlive-begriff-2023.209.1.6svn15878-54.1.noarch.rpm"
+RPM_HASH = "e0bb61a0d74e4b025e48597a47a228f3c812e534df5dc53594023ec22e64987a927f9851d8d2faabf52965c0357803fb25d61b8a0bc89cd4f932876dbb9750c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-begriff.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cm-super"
 DESCRIPTION = "This package includes the documentation for texlive-cm-super"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-cm-super-doc-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "62546a989d8b2c13a917395fbae53ddc04c2cfca1646c87645ce0e9b0db8f4d29f89fd8fd02d32562ff6b3d31acc2bc15ef5b5b20d55761ecca877e955fd85d7"
+RPM_NAME = "texlive-cm-super-doc-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "f7ad9fd674d85e6f71e427bef30bfd9c72e25e74b84c8d6c201540f2670acaa622121c06170930936a08a0ac1b02b6d3e1cfa9f7779620ebfbc5fa0c80f93647"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cm-super-doc"

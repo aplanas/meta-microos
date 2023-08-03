@@ -5,10 +5,10 @@ modification or opening of an existing file, using the function \
 user may specify how the date is to be presented."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn16189"
+PV = "2023.209.1.2svn16189"
 
-RPM_NAME = "texlive-getfiledate-2023.201.1.2svn16189-52.1.noarch.rpm"
-RPM_HASH = "3a8bd946b6c4c9a0437a79c7716b2cd448232c23119c41470ded06d15e93d4975c037886481f12306e7047c7b69fd9245e75e1cd80b5122e77906e97e9395264"
+RPM_NAME = "texlive-getfiledate-2023.209.1.2svn16189-53.1.noarch.rpm"
+RPM_HASH = "ae2aae9bdf9db37cc6be0a8b49d4fab0ff555c308580dacddd0bb1f93530a008e37c2038c3211916141166da818a09260c133ad3d8f617369100de0b578e09e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-getfiledate.sty \

@@ -10,10 +10,10 @@ uses pdfLaTeX in DVI mode. The functionality is provided by \
 purely expandable macros or by faster but non-expandable ones."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn64967"
+PV = "2023.209.1.2svn64967"
 
-RPM_NAME = "texlive-filemod-2023.201.1.2svn64967-52.1.noarch.rpm"
-RPM_HASH = "360a868081cc4b928fe990e9780ca651fde48fd8a8e235a5fad8017dfb218edca906c22e61ae350437551473ac40dc65f802de687d2806ce67a602a4a234207b"
+RPM_NAME = "texlive-filemod-2023.209.1.2svn64967-53.1.noarch.rpm"
+RPM_HASH = "a192075912eda7738be9614172bd9e66d186034c347fda7a1406e21bd23686846732adc741fc0be2f31f9bcca1ecc9c326cdef0d3fe287284821ee605bdf4e42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-filemod-expmin.sty \

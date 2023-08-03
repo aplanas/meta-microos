@@ -22,8 +22,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "253.7"
 
-RPM_NAME = "libsystemd0-253.7-1.2.aarch64.rpm"
-RPM_HASH = "b9cdd2c8f8ca44766f1083f843c6476f3c3366234995bee7e4265b16684619f1461a2361d0a6b97f6ea2a9b440f8e1036ce2742f30505c24f63551e926f02cb6"
+RPM_NAME = "libsystemd0-253.7-2.1.aarch64.rpm"
+RPM_HASH = "aec7f8d79175642ba94a17aa8d63a046f1433cb5f40ce4dd93f4e56cd76bcc6a86c8984482a30ec7ab67fa029b2a8ed3848219aa4981e04cde20130d367aba92"
 
 RPROVIDES:${PN} += "libsystemd.so.0 \
 libsystemd0"

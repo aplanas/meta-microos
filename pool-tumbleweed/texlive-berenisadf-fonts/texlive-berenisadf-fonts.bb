@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-berenisadf"
 DESCRIPTION = "The  separated fonts package for texlive-berenisadf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.004svn32215"
+PV = "2023.209.1.004svn32215"
 
-RPM_NAME = "texlive-berenisadf-fonts-2023.201.1.004svn32215-53.1.noarch.rpm"
-RPM_HASH = "a2bc9582bd65e1a0995b0ff4304ce238ef2e3c30b2d087f07005b351d0cf47484483e72e3d5666a295cc8ac79b349c042b9ed7a4f88779221e2a94511db15378"
+RPM_NAME = "texlive-berenisadf-fonts-2023.209.1.004svn32215-54.1.noarch.rpm"
+RPM_HASH = "75e44353857ab3085691f03397a38373ca2b98ba33c3af03aae5523d77e177b3cae3ba8530fbab3a20a8ef734a85801c79e6639eed6f3d9a317fba85e817094b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-berenisadf-fonts \

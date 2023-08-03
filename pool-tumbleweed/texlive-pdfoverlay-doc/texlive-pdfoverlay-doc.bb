@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pdfoverlay"
 DESCRIPTION = "This package includes the documentation for texlive-pdfoverlay"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn64210"
+PV = "2023.209.1.3svn64210"
 
-RPM_NAME = "texlive-pdfoverlay-doc-2023.201.1.3svn64210-51.1.noarch.rpm"
-RPM_HASH = "ff93437ed0ad7504f03f9870ff706d30f17d6f0a505bdb83e4355d18d96047438d81e46f19936233427ad07329a1dc4121a427455337896a6acd86ea68e04616"
+RPM_NAME = "texlive-pdfoverlay-doc-2023.209.1.3svn64210-52.1.noarch.rpm"
+RPM_HASH = "f25aa0c49a0aceaf5d24e6cb37de15ddb7b3d3f18142c1671f1ea47dc123b1ba8d9abbbc394bc022a2055aa7592ed532803aac35337b2ef4cd2e7a95b37c3dfb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdfoverlay-doc"

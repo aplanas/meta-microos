@@ -3,10 +3,10 @@ DESCRIPTION = "This is the Czech translation of 'A Short Introduction to \
 LaTeX2e'."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.4.27svn55643"
+PV = "2023.209.4.27svn55643"
 
-RPM_NAME = "texlive-lshort-czech-2023.201.4.27svn55643-54.1.noarch.rpm"
-RPM_HASH = "1ad55ccf0d1eaec142d53806180b520b33e64b0fd3084c4680b9db3fed5fd2c8fca4ab5b4c1cb318e1868e537cb50ab43a914fb867b125442a4ac02608e616bd"
+RPM_NAME = "texlive-lshort-czech-2023.209.4.27svn55643-55.1.noarch.rpm"
+RPM_HASH = "7f77e7dfd5e1162c0e3d84358992bba497ce65069b72127db2332f196e75eaf50e42b284b447a0b6dbf83e3d3e912b00a4ae24feaf05308f0a4b775fdd6e959d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lshort-czech"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fixdif"
 DESCRIPTION = "This package includes the documentation for texlive-fixdif"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0bsvn66015"
+PV = "2023.209.2.0bsvn66015"
 
-RPM_NAME = "texlive-fixdif-doc-2023.201.2.0bsvn66015-52.1.noarch.rpm"
-RPM_HASH = "e843743c1d05ac637a1acc8070859eced9300cd26daede04fca9848f6ffbc90b0f12c01ccad6c547d481be4f6902e33e576f7ef715f2990492b7901a65421f06"
+RPM_NAME = "texlive-fixdif-doc-2023.209.2.0bsvn66015-53.1.noarch.rpm"
+RPM_HASH = "1ef48c8d8e5164d51705a559460e9645defecfc52cb3466f866dafa5bd4abb5d51cd315abc1593f724768f4052d5cb03850fd0a667258a98939a7adb24ce5137"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-fixdif-doc-zh \

@@ -4,10 +4,10 @@ DESCRIPTION = "The package can draw boxes that perform like \\framebox or \
 illusion of) vertical stacks of boxes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.1.14svn23425"
+PV = "2023.209.1.14svn23425"
 
-RPM_NAME = "texlive-dashbox-2023.204.1.14svn23425-54.1.noarch.rpm"
-RPM_HASH = "7358643c79c97bf22a37a29659c4d7921fee64f611fca1af47db36918222c336d826ba152c79bf588f412d5ad395bea6155e8a2bc763d92068706e55df0c8e79"
+RPM_NAME = "texlive-dashbox-2023.209.1.14svn23425-55.1.noarch.rpm"
+RPM_HASH = "47a6848b3e0898a33ffae1f21cbce876136eba10057ca4f97f98eec40eacde96723a34af5aba364b7deea6abf0f691639b4190bd6d9ad8aaecce8764488720e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dashbox.sty \

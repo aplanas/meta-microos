@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a LaTeX thesis template for the \
 Universidade Federal de Vicosa (UFV), Brazil."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn48007"
+PV = "2023.209.1.2svn48007"
 
-RPM_NAME = "texlive-ecothesis-2023.201.1.2svn48007-53.2.noarch.rpm"
-RPM_HASH = "1030792bceda5a452148627733c0bc650ed8d28e7ff89057f419abeb2987522a263c1335fbb77e5677a0b4be60271cb716fca087c7989de171928263c490a4f8"
+RPM_NAME = "texlive-ecothesis-2023.209.1.2svn48007-54.1.noarch.rpm"
+RPM_HASH = "9764cca5196aa8fae8c29b0f0f1040350ad7670bfc18b0df5e6596e2b347ee1e2224952cf44623c7b7e5f83226b7ba9c139b6e1e4c2d9bb3df5699f85f5ecee2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ecothesis"

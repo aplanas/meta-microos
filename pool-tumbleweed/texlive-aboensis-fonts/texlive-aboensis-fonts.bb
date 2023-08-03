@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-aboensis"
 DESCRIPTION = "The  separated fonts package for texlive-aboensis"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn62977"
+PV = "2023.209.svn62977"
 
-RPM_NAME = "texlive-aboensis-fonts-2023.201.svn62977-54.1.noarch.rpm"
-RPM_HASH = "acc8f3f1839c4508d7ca3bf77bfd74d08845cf485d3895e2a3de9bdd2b8fdf460fb1e47008144f1ac44ef5cc60af7f30a8a73473a43be6f9820e0a080166cd95"
+RPM_NAME = "texlive-aboensis-fonts-2023.209.svn62977-55.1.noarch.rpm"
+RPM_HASH = "c3edc256400d730fea841f54248f4ece65b74430220cbee733265d363e3dce2c5ca4d34a25d6d272db81d20f156a0657fa97fc067cf46df42d0abde4dc4851ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=fj \

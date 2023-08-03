@@ -6,10 +6,10 @@ catcode as well as character code of the character token being \
 constructed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.03svn38907"
+PV = "2023.209.0.0.03svn38907"
 
-RPM_NAME = "texlive-ucharcat-2023.201.0.0.03svn38907-53.1.noarch.rpm"
-RPM_HASH = "296940f0fae211dd552358453bc108e4590246865fd516cae777e471c4551636d8578d0ef24e07d10a0a65d88a87108e84fe723c5262b5522e5f1e697ded9451"
+RPM_NAME = "texlive-ucharcat-2023.209.0.0.03svn38907-54.1.noarch.rpm"
+RPM_HASH = "a3d4a9a579bcd1f8817be3f112a20e1c290cd17faa948d06eb71d70e144270985b3b18cdd9dcc29eca9a6770e6f4ac8e1131ea461394ed54ffa77e7bec5cdb53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ucharcat.sty \

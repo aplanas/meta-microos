@@ -17,10 +17,10 @@ document is processed XeTeX, without the need for other \
 supporting packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.18svn65346"
+PV = "2023.209.3.18svn65346"
 
-RPM_NAME = "texlive-pstricks-2023.201.3.18svn65346-53.2.noarch.rpm"
-RPM_HASH = "c0c9c2a74595150fc60077c817bee446774bf1483db97ab53789a61b34b3c1baf0252e2e71ee2626e0e75a31c31057808a05ec835f3cf5db66099e20abd24357"
+RPM_NAME = "texlive-pstricks-2023.209.3.18svn65346-54.1.noarch.rpm"
+RPM_HASH = "bd069e4d9f9a6c6e0d3bc15a21c0ce7de5bc724494e8a52644bf8efb618807a249f009b81c78681d8ba4e4a5365eaeef854a649a6165013f4fd8989a032d497c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-README.cfg \

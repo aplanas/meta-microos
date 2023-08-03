@@ -3,10 +3,10 @@ DESCRIPTION = "The ocaml-ctypes-devel package contains libraries and signature f
 developing applications that use ocaml-ctypes."
 LICENSE = "ISC"
 
-PV = "0.20.1"
+PV = "0.21.0"
 
-RPM_NAME = "ocaml-ctypes-devel-0.20.1-2.1.aarch64.rpm"
-RPM_HASH = "dcfcf6a568e3c71abe01289b0c6af38f119c3076c3ad47aee207a838b492a6b2b6c825f45d107dce617f98ad531405681fe53923d2732829b936bb086e8def0e"
+RPM_NAME = "ocaml-ctypes-devel-0.21.0-1.1.aarch64.rpm"
+RPM_HASH = "46b96ca38cdce1bc42bfff3539f99ad370425f9990458bb642bc578360cf9ca546f187fea4a6e24e743167fa05b2d4f0e74db6f8533ee443722c8798f59988a0"
 
 RPROVIDES:${PN} += "ocaml-ComplexL \
 ocaml-Cstubs \
@@ -168,7 +168,6 @@ ocaml-Unsigned \
 ocaml-Warnings \
 ocaml-ctypes \
 ocamlfind-bigarray-compat \
-ocamlfind-bytes \
 ocamlfind-compiler-libs \
 ocamlfind-integers \
 ocamlfind-str \

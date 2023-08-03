@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a selection of new maths commands and \
 improved re-definitions of existing commands."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5asvn52411"
+PV = "2023.209.0.0.5asvn52411"
 
-RPM_NAME = "texlive-skmath-2023.201.0.0.5asvn52411-57.1.noarch.rpm"
-RPM_HASH = "103757e90faeed82aa43b0b531a2f4b9d0136a90546b28db62979629537825d4aef64c1fbf5fb5e3fc8ab3032b95024be2873feaad2decc28726313640b067a2"
+RPM_NAME = "texlive-skmath-2023.209.0.0.5asvn52411-58.1.noarch.rpm"
+RPM_HASH = "48044c2c37f93a58b095cb8ac5dcb947c26539de0367a52f43bdc48b2afad7c30d6f3d4dbd9f2af7b5aa692985f52474d34b36fb9488a3fd726d5c3168d395b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-skmath.sty \

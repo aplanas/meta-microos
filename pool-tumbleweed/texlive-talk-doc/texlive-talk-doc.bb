@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-talk"
 DESCRIPTION = "This package includes the documentation for texlive-talk"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn42428"
+PV = "2023.209.1.1svn42428"
 
-RPM_NAME = "texlive-talk-doc-2023.201.1.1svn42428-54.1.noarch.rpm"
-RPM_HASH = "b4fe83e52c911f8f63a5b47a6b545e4037421545e00e5a127febeefb5fe4d0bef156bd28839fbb27097f94444d66d97534acd9be1763d7366d00516825d459e0"
+RPM_NAME = "texlive-talk-doc-2023.209.1.1svn42428-55.1.noarch.rpm"
+RPM_HASH = "2d59d5d4fb1b4f53c29c5739f9650156e0238ff7056950ac6a9574e8a07849a605ed76acfedb2a76c0bc1bda20a4ca33b3a7be0eb4470298f6a5f529d817ff18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-talk-doc"

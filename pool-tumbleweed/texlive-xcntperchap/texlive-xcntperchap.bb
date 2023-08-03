@@ -3,10 +3,10 @@ DESCRIPTION = "This package is the successor of cntperchap and allows to \
 provide more tracklevels than just only one."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5svn54080"
+PV = "2023.209.0.0.5svn54080"
 
-RPM_NAME = "texlive-xcntperchap-2023.201.0.0.5svn54080-52.2.noarch.rpm"
-RPM_HASH = "b65f4cb92e72728c069c0d11e187cec595b0dfd72ec681a514f28cabae2fb3a766b153461c62fec1e84480c82cbd898d68240292574a5cd959e3e5559a3ba0a7"
+RPM_NAME = "texlive-xcntperchap-2023.209.0.0.5svn54080-53.1.noarch.rpm"
+RPM_HASH = "638808c75b9fd723f1582e4c72ab16cdd02ff03abdcc66d4ec110c4be98f04ea332f234df751109ec4793c3aa5f45896353287de5b4951162f9f6a271b2ab2a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xcntperchap.sty \

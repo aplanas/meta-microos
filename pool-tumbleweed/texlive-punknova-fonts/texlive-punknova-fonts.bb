@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-punknova"
 DESCRIPTION = "The  separated fonts package for texlive-punknova"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.003svn24649"
+PV = "2023.209.1.003svn24649"
 
-RPM_NAME = "texlive-punknova-fonts-2023.201.1.003svn24649-53.2.noarch.rpm"
-RPM_HASH = "d0a489874ee437a12f35516b89c179d820a4b8e1615e7c00816211e2e87aba1f9b4d11b755e27d500780dfb4fcfb74b479b185a56220114f8358792cd30ce44d"
+RPM_NAME = "texlive-punknova-fonts-2023.209.1.003svn24649-54.1.noarch.rpm"
+RPM_HASH = "1d956b27f977d05dd8edb819fa95e4df6956f5bd55f21e00c01cbad248615bc945d6daaf4474613ae16ccecbcd588838d9c832f2d395f67f3a80eb9ea426598c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=fj \

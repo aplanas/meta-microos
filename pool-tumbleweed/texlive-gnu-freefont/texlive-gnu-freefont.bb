@@ -5,10 +5,10 @@ set consists of three typefaces: one monospaced and two \
 proportional (one with uniform and one with modulated stroke)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn29349"
+PV = "2023.209.svn29349"
 
-RPM_NAME = "texlive-gnu-freefont-2023.201.svn29349-53.2.noarch.rpm"
-RPM_HASH = "8e46574eab8ab7f3cf8c41ed2dc923edb47be3e0c63f8405250876726a648714ca477b22ac171bbf55d076afde4df0edabc67ed41fd40fa0373a87988c552e80"
+RPM_NAME = "texlive-gnu-freefont-2023.209.svn29349-54.1.noarch.rpm"
+RPM_HASH = "08857737b32c9f68b232d32ede72b9db985648f70ef9fb620d8a641a73fc56c8d27af3a8fee9a781088a14bb5e14d22c8c6df1d3d25e0d9860bf805e22067cae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gnu-freefont"

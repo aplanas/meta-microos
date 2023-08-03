@@ -5,10 +5,10 @@ subset of the conventions, if Danish is not the main language \
 of the document)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3ssvn57642"
+PV = "2023.209.1.3ssvn57642"
 
-RPM_NAME = "texlive-babel-danish-2023.201.1.3ssvn57642-53.1.noarch.rpm"
-RPM_HASH = "55beaf3e5b711cba5a1aeaddb9cea3ac728373fbaa3a765b6b0ca3f4629d46fa568864cc2c59a9d2880a817dc260183efb069b8c5d339f0b7b2a500d7ecafdc0"
+RPM_NAME = "texlive-babel-danish-2023.209.1.3ssvn57642-54.1.noarch.rpm"
+RPM_HASH = "6a4b7d4e609ec1fd0d73a699113ea07d827057ff21a74207c0f9743da854592e38817e0dbe638ce30fd1010bce93f0d3cd886c835ea5bfe5f8202e372a73e391"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-danish.ldf \

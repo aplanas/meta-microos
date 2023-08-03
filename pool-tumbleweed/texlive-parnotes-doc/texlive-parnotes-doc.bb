@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-parnotes"
 DESCRIPTION = "This package includes the documentation for texlive-parnotes"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3bsvn51720"
+PV = "2023.209.3bsvn51720"
 
-RPM_NAME = "texlive-parnotes-doc-2023.201.3bsvn51720-51.1.noarch.rpm"
-RPM_HASH = "633e3783e1d80c00c015a281a58bc17185e193b7eff6b74f8c9046c8f465a268784d86880add1285c4a9914f5f2bb6a3638a86fa28d049a1d2c6afeee020f432"
+RPM_NAME = "texlive-parnotes-doc-2023.209.3bsvn51720-52.1.noarch.rpm"
+RPM_HASH = "a4d53abaef1164d42235a996ddf4ec32e54f10b92d00798fb5ea89a788a6018f3d25e7d680b5a2851ec9f6951d08da682ba4ff8394dd46a4cf6b573acee6b2ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-parnotes-doc"

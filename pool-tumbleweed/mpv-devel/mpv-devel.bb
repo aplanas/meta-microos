@@ -5,10 +5,10 @@ of video file formats, audio and video codecs, and subtitle types. \
 This package contains all the development files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.35.1+git.20230315.e1727553"
+PV = "0.36.0+git.20230723.60a26324"
 
-RPM_NAME = "mpv-devel-0.35.1+git.20230315.e1727553-1.5.aarch64.rpm"
-RPM_HASH = "dcadd6885cd6bdbcda24a89fe28f3d8fe4b923009f77d2e90ef638572422055f5c03cd11da0423cc6e607d7532ad0fdd101494d528a4b68fa04e2ef0ca7b2ce5"
+RPM_NAME = "mpv-devel-0.36.0+git.20230723.60a26324-1.1.aarch64.rpm"
+RPM_HASH = "361130d20f8a2a1c75f463ec1c841c4fbd0edcd6d2ede667fc0c3b31a2800fbf2e1e76293cb9e100d240c7e200b77fb020314b11ddfdccf5155b77709d378150"
 
 RPROVIDES:${PN} += "mpv-devel \
 pkgconfig-mpv"

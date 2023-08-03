@@ -8,10 +8,10 @@ stories. It is however not recommended for creating color \
 picture books or dissertations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.80svn65848"
+PV = "2023.209.1.80svn65848"
 
-RPM_NAME = "texlive-novel-2023.201.1.80svn65848-54.1.noarch.rpm"
-RPM_HASH = "ca3da18fc4415874b30d412335e679cc9caa9d4c3eeb9ccd74ca767a6030c01c348ef08b2416bec93c7dc92a2838cf8bbc337711de26026ef41ae60042cce38e"
+RPM_NAME = "texlive-novel-2023.209.1.80svn65848-55.1.noarch.rpm"
+RPM_HASH = "5de590b8291ae7c9a53af496147c02fea5edfc38d09ffc6e716d2b39d9fbf2d64eef34a653b1d39d76234922aef2bfcb4d7df62574bc2469a524e32e2a63f6df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-novel-CGATSTR001.clo \

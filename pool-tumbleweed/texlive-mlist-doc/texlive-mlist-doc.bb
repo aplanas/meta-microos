@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mlist"
 DESCRIPTION = "This package includes the documentation for texlive-mlist"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.6asvn15878"
+PV = "2023.209.0.0.6asvn15878"
 
-RPM_NAME = "texlive-mlist-doc-2023.201.0.0.6asvn15878-54.1.noarch.rpm"
-RPM_HASH = "819e777928d07849e5cc1f134f614d20f0630560a8592f87a86108b06742123619183425d53864ca8fbe460cbf0e9f2aa96e709b5cf4298d63900fa8671309b9"
+RPM_NAME = "texlive-mlist-doc-2023.209.0.0.6asvn15878-55.1.noarch.rpm"
+RPM_HASH = "8fb21f972c94541f94cc87611a009855472d9f122d6839b94fba53fafadd7048a729d52afb82d4bd2729926b9cfe095dfe83cc92fc3c56ff083796377173a28a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mlist-doc"

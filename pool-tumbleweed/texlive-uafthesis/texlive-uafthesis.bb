@@ -2,10 +2,10 @@ SUMMARY = "Document class for theses at University of Alaska Fairbanks"
 DESCRIPTION = "This is an 'unofficial' official class."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.12.12svn57349"
+PV = "2023.209.12.12svn57349"
 
-RPM_NAME = "texlive-uafthesis-2023.201.12.12svn57349-52.1.noarch.rpm"
-RPM_HASH = "0abe490133cb9ceb62b7eb886fb56f4d1463aaeb8b2f6fb2d7ce881be3910c3ddf6133b4023c95411bcafc91652df5b8ab1d58a93690f53b2574939e029e4be0"
+RPM_NAME = "texlive-uafthesis-2023.209.12.12svn57349-53.1.noarch.rpm"
+RPM_HASH = "7abd1041ee31f5f54b7f6045a479f9e4f00c8612c59279cec34824a3bd0df9163019e00cb18890491cbec15fe4ee5ace74190cf8bec393368776491889ba8b95"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uafthesis.cls \

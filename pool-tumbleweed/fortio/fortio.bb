@@ -12,10 +12,10 @@ Fortio is a fast, small (3Mb docker image, minimal dependencies), reusable, embe
 Fortio also includes a set of server side features (similar to httpbin) to help debugging and testing: request echo back including headers, adding latency or error codes with a probability distribution, tcp echoing, tcp proxying, http fan out/scatter and gather proxy server, GRPC echo/health in addition to http, etc..."
 LICENSE = "Apache-2.0"
 
-PV = "1.57.3"
+PV = "1.57.4"
 
-RPM_NAME = "fortio-1.57.3-1.1.aarch64.rpm"
-RPM_HASH = "5d2f552e3cd09474014501ba23a946ac4cca698a1ce3f0925674ccf7cc6bb1c62b21731003da7ae7848d8030ed35b0ec1e30c250ad5fcb7f7e836e5e145a03ac"
+RPM_NAME = "fortio-1.57.4-1.1.aarch64.rpm"
+RPM_HASH = "c8d28ebacdc86df09446cf865361be78b8a4ce15649c3aadb0c74d87f2378a0318340e88d25004632c81bddee4a019cbf7aba3fba4a90070034a543104b57ad2"
 
 RPROVIDES:${PN} += "fortio"
 

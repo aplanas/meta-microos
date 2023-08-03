@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.8.0"
 
-RPM_NAME = "dnsdist-1.8.0-2.2.aarch64.rpm"
-RPM_HASH = "e34410881d611df8aea9acd435f9f32a3294534afb0eb586a41110f13672981aaeba3aa0c0dd4a09d1ac8c1c22d960ff44252215d56fe75c295ddc3237ce15f1"
+RPM_NAME = "dnsdist-1.8.0-2.3.aarch64.rpm"
+RPM_HASH = "01c9584e38d17eb549e4f3f82bb274e02beff3014f35865c3c0ffeb33b6f43f3a5f0680f2c5dc423e37a20d761c1621e3be48b5c85293e9ec56ea71b07afc672"
 
 RPROVIDES:${PN} += "config-dnsdist \
 dnsdist"
@@ -29,7 +29,7 @@ libm.so.6 \
 libnetsnmp.so.40 \
 libnetsnmpagent.so.40 \
 libnghttp2.so.14 \
-libre2.so.10 \
+libre2.so.11 \
 libsodium.so.23 \
 libssl.so.3 \
 libstdc++.so.6 \

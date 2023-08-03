@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.21.0"
 
-RPM_NAME = "calibre-6.21.0-1.1.aarch64.rpm"
-RPM_HASH = "db171f607bdebe7eae872967b5837896baddeeaf9cac40d8370f5f166550e5521d75bcae328ae60b56dc12b729f988443b83b6c54d526cd3b0643f3e215579a9"
+RPM_NAME = "calibre-6.21.0-1.2.aarch64.rpm"
+RPM_HASH = "786a33f20015fe6666a7ab3e398dc7183c190370e943eede21a13844c39e7386e589b9ec0bdea42dd9613d608fce9a319e93aa494066d6e1a35e456708f071ef"
 
 RPROVIDES:${PN} += "calibre \
 libheadless.so \

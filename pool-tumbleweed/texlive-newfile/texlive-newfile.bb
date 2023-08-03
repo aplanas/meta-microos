@@ -5,10 +5,10 @@ mapped to various of the LaTeX input and output mechanisms. \
 Some facilities of the verbatim package are also mapped."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0csvn15878"
+PV = "2023.209.1.0csvn15878"
 
-RPM_NAME = "texlive-newfile-2023.201.1.0csvn15878-54.1.noarch.rpm"
-RPM_HASH = "679afca8475bcea20a86deb762f01ec11d1d12a452f06711cce9dab8bbafdcb6f34f6f8fa03a98e2abc2f852ab93f5b00dec6ae6abfc6c9f13d739d667cab3e1"
+RPM_NAME = "texlive-newfile-2023.209.1.0csvn15878-55.1.noarch.rpm"
+RPM_HASH = "6104a52e73174bc5293cf782078274121fbd31b566675fe875acc2cdfa86ae5710d429d5f8ed4df63b501148654675c3e55b0aae46593bbd13d61cbe97a662b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-newfile.sty \

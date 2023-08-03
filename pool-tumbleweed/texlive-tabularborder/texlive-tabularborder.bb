@@ -4,10 +4,10 @@ DESCRIPTION = "The tabular environment is changed so that the outer \
 the text. No @{} is needed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0asvn17885"
+PV = "2023.209.1.0asvn17885"
 
-RPM_NAME = "texlive-tabularborder-2023.201.1.0asvn17885-54.1.noarch.rpm"
-RPM_HASH = "c38a4732fbeebfc6ae808d6ef0513f69c0a59c9918736fc8f44ce910895dd58848c3ad5c8aa8236f5c1b795e5647e7871143a253cfcfc98f9a628b0c099ed193"
+RPM_NAME = "texlive-tabularborder-2023.209.1.0asvn17885-55.1.noarch.rpm"
+RPM_HASH = "ff970c6517608f497fa84e560d7b455f08ca7cd99142e8fcccaafe19680a998dc8b7530f04c18405037faca87c110d27889c71dc3b15910a897f87e38f8cfa8b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tabularborder.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-kurier"
 DESCRIPTION = "The  separated fonts package for texlive-kurier"
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.201.0.0.995bsvn19612"
+PV = "2023.209.0.0.995bsvn19612"
 
-RPM_NAME = "texlive-kurier-fonts-2023.201.0.0.995bsvn19612-55.1.noarch.rpm"
-RPM_HASH = "d9119e0ad9107485dd2d0b96937c730dbc1b5dbc289e1bf1565dd93cf3c6543aad215fa4d97badd373c854333d1064b1b6b509d68d0e63ffa59f00c57e1cff29"
+RPM_NAME = "texlive-kurier-fonts-2023.209.0.0.995bsvn19612-56.1.noarch.rpm"
+RPM_HASH = "3d5ee1c1f6377b3bfdd7df24237b432998de337512e3282cc25559d9c99eec28eb00b8b5f27318581decce88b2dec2cdeb8e581782169e425321f421a8ec8f63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-kurier-fonts \

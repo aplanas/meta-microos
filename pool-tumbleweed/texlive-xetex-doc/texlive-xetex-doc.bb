@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xetex"
 DESCRIPTION = "This package includes the documentation for texlive-xetex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66203"
+PV = "2023.209.svn66203"
 
-RPM_NAME = "texlive-xetex-doc-2023.201.svn66203-52.2.noarch.rpm"
-RPM_HASH = "19376a8d4120647ad0175fe0bdc2d9b2d051889b9556fcd1011e656812b1f85d1f7b057a358885a5f0012ae10f6c19bfdac668264d5a04f85494cf9b1adc8f23"
+RPM_NAME = "texlive-xetex-doc-2023.209.svn66203-53.1.noarch.rpm"
+RPM_HASH = "a38b1bad7e996a7362a5163b77d476d8a28fe8ec3847a0233d1964582b0777f9ff12bd52f57c0eb880f461c094734aca7a9e9cecdfaef0de720f63bfb4ab556e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-xelatex-unsafe.1 \

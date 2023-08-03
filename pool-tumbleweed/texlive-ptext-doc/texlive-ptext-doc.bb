@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ptext"
 DESCRIPTION = "This package includes the documentation for texlive-ptext"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn30171"
+PV = "2023.209.1.1svn30171"
 
-RPM_NAME = "texlive-ptext-doc-2023.201.1.1svn30171-53.2.noarch.rpm"
-RPM_HASH = "e8121a084a698129a196cd095ea7251c0a63e5542f0e8cf0a04bac454a5577597e4dfdb346e58d38f1bb5bb4920d7ce7b150a4eee1be685fa002521886f67015"
+RPM_NAME = "texlive-ptext-doc-2023.209.1.1svn30171-54.1.noarch.rpm"
+RPM_HASH = "665c8c4f5af5ed8e4289cdb7fc014dbe39ec81f53c6b4882de293409696cd7c673729134b32a7d71aeb3bed6a121a3c03ec93e80052a63e168d94e90f18e379f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-ptext-doc-fa \

@@ -2,10 +2,10 @@ SUMMARY = "Qmlglsink plugin for gstreamer-plugins-good"
 DESCRIPTION = "This package provides the qmlglsink output plugin for gstreamer-plugins-good."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "gstreamer-plugins-good-qtqml-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "adc1ee6a5bfd89a1f60e8c07fc186e0c95906ecb2b798c5aae091467de0aee5e02441fbb7d933f6907b28565ff08f3f007e61b20d655fef83b34f88a79a74845"
+RPM_NAME = "gstreamer-plugins-good-qtqml-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "df59c625b97b7168453ab944a9a80bef771e9fea66fea3797c0c2f6102fd1bd1210cd718c9a2eac1ed2d35e451d162b93d92c8e2ac96f4df0af6b5bae8407c0a"
 
 RPROVIDES:${PN} += "gstreamer-plugins-good-qtqml \
 gstreamer1 \

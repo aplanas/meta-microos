@@ -6,10 +6,10 @@ This package contains header files and development libraries \
 for XRootD development."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "5.5.5"
+PV = "5.6.1"
 
-RPM_NAME = "xrootd-libs-devel-5.5.5-1.1.aarch64.rpm"
-RPM_HASH = "12fa3d35c7ff0400c62f178217c66359e3e22e94228378ea0e30b7de2217d806c80a50a5986a9e24f73fbad7cd77e711337f161b04e486148caea24282317127"
+RPM_NAME = "xrootd-libs-devel-5.6.1-1.1.aarch64.rpm"
+RPM_HASH = "8169671579e0246777df0c5aabda41940b3d549dde4d5f5454f5306de1eac5afb11deaaf0e0609f1a0ac7ee4f4fff04a0545f7b12a0228f17095b6503d16fc8a"
 
 RPROVIDES:${PN} += "xrootd-libs-devel"
 

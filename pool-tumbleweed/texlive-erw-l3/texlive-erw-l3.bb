@@ -2,10 +2,10 @@ SUMMARY = "Utilities based on LaTeX3"
 DESCRIPTION = "Utilities based on LaTeX3. Highlight: \\erw_merge_sort."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.2svn61799"
+PV = "2023.209.4.2svn61799"
 
-RPM_NAME = "texlive-erw-l3-2023.201.4.2svn61799-53.2.noarch.rpm"
-RPM_HASH = "d876c400e908c17ab24e60433e3fbf80909b7d0f43d5e82c595ae30047611f52369e1b12d96bd12d4bfaf2199fd6b546b6f43531e17b11a8e598c49204c26c9f"
+RPM_NAME = "texlive-erw-l3-2023.209.4.2svn61799-54.1.noarch.rpm"
+RPM_HASH = "ebe7243b7b415b11bee4f25f348edd7ea2d49ca602fa47393f0981324a9c95c3a9e091abac8299ca2c96dffd68dc5194e47bbaeaf8baf1527ad11d1f1c5b6ab4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-erw-l3.sty \

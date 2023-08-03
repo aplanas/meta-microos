@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fileinfo"
 DESCRIPTION = "This package includes the documentation for texlive-fileinfo"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.81asvn28421"
+PV = "2023.209.0.0.81asvn28421"
 
-RPM_NAME = "texlive-fileinfo-doc-2023.201.0.0.81asvn28421-52.1.noarch.rpm"
-RPM_HASH = "95e1d0c08be66900698385c8b0f137d22b923218b9ba76c0ea974f82328492273bd9fff4511eff3431d1b67338f309a8cbad1bc5d76da6d54d5f089f6fd85ecd"
+RPM_NAME = "texlive-fileinfo-doc-2023.209.0.0.81asvn28421-53.1.noarch.rpm"
+RPM_HASH = "2cd729194bbea64ca1cca0f31f23e7d19d9645fd19975f7cf70bac8c33606165b730588f220bc2e155fa4de383e03cdd35e03f8664b6302230e7b88251d4adb9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fileinfo-doc"

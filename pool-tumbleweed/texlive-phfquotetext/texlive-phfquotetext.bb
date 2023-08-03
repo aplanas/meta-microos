@@ -7,10 +7,10 @@ normal paragraph content, ignoring any white space \
 preformatting."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn41869"
+PV = "2023.209.1.0svn41869"
 
-RPM_NAME = "texlive-phfquotetext-2023.201.1.0svn41869-51.1.noarch.rpm"
-RPM_HASH = "3ccd07583313784d5f33dc4f55b2d118c2f46ed4dfa7bd2dee62c13a32fe81a31a1c494031377553dce09cf02638c17a9cee562a60fbdf9e52318a3a7a2c7675"
+RPM_NAME = "texlive-phfquotetext-2023.209.1.0svn41869-52.1.noarch.rpm"
+RPM_HASH = "9531b2d1fe065e885b6d72fe3baeadd39b2eea190652f65d7fb0c1e9f271805d42f5d45e0b9016def1e786e122746d704dd0a2463fd3100b967c7c5a56a8c348"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-phfquotetext.sty \

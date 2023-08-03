@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a simple, clear and flexible LaTeX \
 template for dissertations in Peking University."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.9.3svn64869"
+PV = "2023.209.1.9.3svn64869"
 
-RPM_NAME = "texlive-pkuthss-2023.201.1.9.3svn64869-51.1.noarch.rpm"
-RPM_HASH = "9d5adb06aa7a1c7eed7f0e6d1c14c62f7ebaa09a7a57dfc51012fdcadd056417f183c47b114f997da6952b5d579d9692921346e1ef9756a4628d22dc8921e26b"
+RPM_NAME = "texlive-pkuthss-2023.209.1.9.3svn64869-52.1.noarch.rpm"
+RPM_HASH = "bb4fffed204e92f7f149d4bbdf01279015fb61c8fe6f57bc2a464a0df8cbc07b087849c45f43bdb8fdc3a193035e8af8e1753c039afa30d31434f9c564936fab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pkuthss-gbk.def \

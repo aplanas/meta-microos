@@ -4,10 +4,10 @@ or hand, or random-hand, Poker or French Tarot or Uno, from png \
 files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2.3svn66190"
+PV = "2023.209.0.0.2.3svn66190"
 
-RPM_NAME = "texlive-jeuxcartes-2023.201.0.0.2.3svn66190-55.1.noarch.rpm"
-RPM_HASH = "ca3bdb053cc3ee5dd447295422930dbbf439a2907b5e72a9c7dac224d063e115b4adde18187fec6924f0079d1505aba54b309f6fa48a98e3553e3ae88fd5933c"
+RPM_NAME = "texlive-jeuxcartes-2023.209.0.0.2.3svn66190-56.1.noarch.rpm"
+RPM_HASH = "04f919b76f6721f872bea982abe17f14ceb350f873d5e4868b334614aea0002278eee5e4893cde07fbfe361332304d1e07d029839e3b76f93f88b21754e03a18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-JeuxCartes.sty \

@@ -7,10 +7,10 @@ japanese-mathformulas.sty are amsmath, amssymb, siunitx, \
 ifthen, xparse, TikZ, mathtools, and graphics."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.2svn64678"
+PV = "2023.209.1.0.2svn64678"
 
-RPM_NAME = "texlive-japanese-mathformulas-2023.201.1.0.2svn64678-55.1.noarch.rpm"
-RPM_HASH = "5ee97d3f3327e1f177992289ef71dafcefc9b520d70e0d7191bfebaaaaf4749be5f58b641fd5a738cd99607bf1302fcc1f6a03cfba4cce4f5f391108ebd99580"
+RPM_NAME = "texlive-japanese-mathformulas-2023.209.1.0.2svn64678-56.1.noarch.rpm"
+RPM_HASH = "a0f9bc1576123f59b036ed75a1be2bb0a631ecd41d6da93ee5bd253f1de522942e017a72da75f8c13d13522ea1975ceeab71dafeefcf6c21945fa28c922029ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-japanese-mathformulas.sty \

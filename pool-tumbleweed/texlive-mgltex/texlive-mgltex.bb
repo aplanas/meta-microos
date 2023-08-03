@@ -14,10 +14,10 @@ its own scripting language, called MGL, which can be used \
 independently."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.4.2svn63255"
+PV = "2023.209.4.2svn63255"
 
-RPM_NAME = "texlive-mgltex-2023.201.4.2svn63255-54.1.noarch.rpm"
-RPM_HASH = "3e77678d3d2fe10a89ae598c99552e4f9aaa178c3d018c56f3533c793effa05069fc7153ae32c9f21fad3e724eb0943f1644b0eb09b00d65619ae183764a821a"
+RPM_NAME = "texlive-mgltex-2023.209.4.2svn63255-55.1.noarch.rpm"
+RPM_HASH = "cad4df4fecc3bd0cd42e06e2e982c819f8cbad72ce5cce56055c095b8139215e03a0287d60d383b77c7dccc4db89dee2bb177499452e862e4cbdda2bbeb1ced8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mathgl-tex \

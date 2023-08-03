@@ -7,10 +7,10 @@ Unicode engines (LuaTeX, XeTeX), which are very likely the most \
 convenient way to write Azerbaijani documents."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0asvn44197"
+PV = "2023.209.1.0asvn44197"
 
-RPM_NAME = "texlive-babel-azerbaijani-2023.201.1.0asvn44197-53.1.noarch.rpm"
-RPM_HASH = "01c709256f47ca36b5f02b21a605270dd2dd45ee3422c65614e5f7fd30f61d844bcab18e7eae6678a129ee961abd97135aba7a187a2dae5828a0bb3f09ac61f2"
+RPM_NAME = "texlive-babel-azerbaijani-2023.209.1.0asvn44197-54.1.noarch.rpm"
+RPM_HASH = "c486cf5ebf25aac9e700ceaff7a7df838880011950abedf7e2ec933e19e9bcb0614a4ef525a1c5e0f84fba8cd11b8bafd17ba9af7b328bcc3aba65e09909a958"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-azerbaijani.ldf \

@@ -8,10 +8,10 @@ animated chessboard, for those whose PDF viewer can display \
 animations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.9svn56833"
+PV = "2023.209.1.9svn56833"
 
-RPM_NAME = "texlive-chessboard-2023.201.1.9svn56833-53.1.noarch.rpm"
-RPM_HASH = "c162a9acb927cdfe03854898998425f1ae0951298eac4e3d796abec87db924b62db24dbcd567a1c8e92f838507c6dae8580be9b0fd300e55dc6af77faaa5a9ff"
+RPM_NAME = "texlive-chessboard-2023.209.1.9svn56833-54.1.noarch.rpm"
+RPM_HASH = "a4524f14eebc2a3e898ddd772551b33e467a65e28511ce2586d329399b817070bc5603f2c234ef18fca777ca6a15ff52885a2f7d270c1d5dd52e690505274f51"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-UF-chessboard-documentation.sty \

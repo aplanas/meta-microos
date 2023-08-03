@@ -4,10 +4,10 @@ Eszterhazy Karoly Catholic University (Eger, Hungary). The \
 documentation is in Hungarian."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.2svn60228"
+PV = "2023.209.4.2svn60228"
 
-RPM_NAME = "texlive-thesis-ekf-2023.201.4.2svn60228-54.1.noarch.rpm"
-RPM_HASH = "a811036385285e23de4d355a52607ae711da98a27b61dd26bc1ec428da836c4c617d37ecd90ad3557a764cea54dc38fccac71f4d1fd702ac1706085d5ff26ff1"
+RPM_NAME = "texlive-thesis-ekf-2023.209.4.2svn60228-55.1.noarch.rpm"
+RPM_HASH = "0efe7816af14478e4df81b9598318ea9539357dcd146ffe0c5ab01f55024ee9faeba2babff762b7eed06bfe44342192cb0ab517f877a5268346711c51e7d5f48"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-thesis-ekf.cls \

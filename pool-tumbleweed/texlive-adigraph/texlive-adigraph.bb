@@ -6,10 +6,10 @@ package requires the other LaTeX packages fp, xparse, xstring, \
 and TikZ (in particular the TikZ calc library)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.7.1svn49862"
+PV = "2023.209.1.7.1svn49862"
 
-RPM_NAME = "texlive-adigraph-2023.201.1.7.1svn49862-54.1.noarch.rpm"
-RPM_HASH = "07f2c83ccd96ada014724253b1179b149c8d82e0b3128eea52ddce79e4c65df6088ed52fda10bd3bfc6a5599f1cc6ae9ddbc3656e001b58fc4a8ec13bee26ad2"
+RPM_NAME = "texlive-adigraph-2023.209.1.7.1svn49862-55.1.noarch.rpm"
+RPM_HASH = "951d818b83a98b2fe553d58975542fab60d03341daa47b05cca75095a6bd29ae94d57b7032afa77f51fe5c9517edbf35323dba31daabc71d1c5a7e3d68596c91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-adigraph.sty \

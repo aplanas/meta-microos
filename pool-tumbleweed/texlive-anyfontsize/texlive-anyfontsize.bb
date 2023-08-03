@@ -9,10 +9,10 @@ family, or for either computer modern encoding; the present \
 package generalises the facility."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn17050"
+PV = "2023.209.svn17050"
 
-RPM_NAME = "texlive-anyfontsize-2023.201.svn17050-54.1.noarch.rpm"
-RPM_HASH = "112f3ee5ece1649e5f32f99d1f0f9a4663b3f5e5ff2c62ef9908e9d8c91ed4e280c30fd7e72c76d0b5abb798d29593605dccee9168a0af5e52469a92af383799"
+RPM_NAME = "texlive-anyfontsize-2023.209.svn17050-55.1.noarch.rpm"
+RPM_HASH = "674c4e132a311ed0d02e77140edbc98fbdf9e78f2050e048b409d459481a4f4bd2dfad661570b757bfc09cc713c1f954265482894962920441a5972a12a3bb05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-anyfontsize.sty \

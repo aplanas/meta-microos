@@ -8,10 +8,10 @@ predefined styles, designed for academic presentation. Most \
 styles are configurable, and it is easy to design new styles."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn63903"
+PV = "2023.209.svn63903"
 
-RPM_NAME = "texlive-context-simpleslides-2023.204.svn63903-54.1.noarch.rpm"
-RPM_HASH = "b977fd37bcd888152e98589af157446a47ed728ff98e0f10be07f2967e4c9ca0f49eaacd7373b505853497fa94720d815aa343a15e8e9a93671f792c676a925b"
+RPM_NAME = "texlive-context-simpleslides-2023.209.svn63903-55.1.noarch.rpm"
+RPM_HASH = "4fad3e0a3e9d45644d23817424b5237599f3197cfb0ea00cbdb8fe3ce39bcb3fcb9e969e7d6cf3a89b29ac81961bd86f06a8f5322ee07b9a8ab253cbdf688558"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-s-simpleslides-BigNumber.tex \

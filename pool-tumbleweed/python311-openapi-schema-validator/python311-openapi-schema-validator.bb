@@ -5,10 +5,10 @@ is an extended subset of the JSON Schema Specification \
 Wright Draft 00."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.4"
+PV = "0.6.0"
 
-RPM_NAME = "python311-openapi-schema-validator-0.4.4-2.3.noarch.rpm"
-RPM_HASH = "03d6e2b70ccecb972bb9b18685844ac03793fa3ff1624d6d4a4539064f3c6c243a80d0b577153e846587c97e0730f41c6ea070eab7341374a58b09b00b2bd827"
+RPM_NAME = "python311-openapi-schema-validator-0.6.0-2.1.noarch.rpm"
+RPM_HASH = "40bfa6f21662dd8c7a30442a1529505d23a8f84684f31fd7873926ab86d9e1d9e34149a0ea630abab7b5bc82205f5248b80aa708656f2ab4b12334466275dd69"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-openapi-schema-validator \
@@ -16,8 +16,9 @@ python3.11dist-openapi-schema-validator \
 python311-openapi-schema-validator \
 python3dist-openapi-schema-validator"
 
-RDEPENDS:${PN} += "-python311-jsonschema >= 4 with python311-jsonschema < 4.18 \
+RDEPENDS:${PN} += "-python311-jsonschema >= 4.18 with python311-jsonschema < 5 \
 python-abi \
+python311-jsonschema-specifications \
 python311-rfc3339-validator"
 
 inherit rpm

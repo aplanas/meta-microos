@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-quran-bn"
 DESCRIPTION = "This package includes the documentation for texlive-quran-bn"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn57602"
+PV = "2023.209.0.0.1svn57602"
 
-RPM_NAME = "texlive-quran-bn-doc-2023.201.0.0.1svn57602-53.2.noarch.rpm"
-RPM_HASH = "c2069cd7f38bb35b3f15c68f4fda49056d734ab56203c94815275b9d96006b538bfbec6b2bc2c3d4dbd0b50341c09a6a2468d05d79ff72cf384a4d70285d1daf"
+RPM_NAME = "texlive-quran-bn-doc-2023.209.0.0.1svn57602-54.1.noarch.rpm"
+RPM_HASH = "bc586b3acf61f88a883d52b513e6c1594c5cd75f32309746b7332e10d87ac755bf97df4c919bf82d6923c87c3f6911d6403b42eebdf420764c456924362bffdd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-quran-bn-doc"

@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Marathi Translations"
 DESCRIPTION = "YaST2 - Translations for Marathi."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230714.966688ddd0"
+PV = "84.87.20230729.64eca7e0a1"
 
-RPM_NAME = "yast2-trans-mr-84.87.20230714.966688ddd0-1.1.noarch.rpm"
-RPM_HASH = "0d46b85c60ad132f097db72b1c48ed31f2c01667c3978e1c0722f1f6b090a8dc51c87502ae2feca1870574c86cc4b3cf7ae982a79c0460b9dfae826c59a3aa9f"
+RPM_NAME = "yast2-trans-mr-84.87.20230729.64eca7e0a1-1.1.noarch.rpm"
+RPM_HASH = "261e731dfcf3f637a8eefa327592653365fccda69203ce3968ade23e5cd65b62495a543815d7f2511b1d5b726a3be77f07d7089c31ce4fee9273be1cba32484c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-mr \

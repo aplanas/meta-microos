@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-showkerning"
 DESCRIPTION = "This package includes the documentation for texlive-showkerning"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn63708"
+PV = "2023.209.0.0.1svn63708"
 
-RPM_NAME = "texlive-showkerning-doc-2023.201.0.0.1svn63708-53.1.noarch.rpm"
-RPM_HASH = "a112a3d36282fca1e2277fed9edb5fc43cb70ab7d5e80378f0d1f838f624137d5cacc31b2bdbe5dbf32794e5e9263b6e0ddfbf9b43bffa0a06f65d33f60318ca"
+RPM_NAME = "texlive-showkerning-doc-2023.209.0.0.1svn63708-54.1.noarch.rpm"
+RPM_HASH = "2c8e633cbb04e8610a6bd83d107d406e68c6dc5f677c8b73d444e1181dd54e1b8cd883af7d8e53762ca85cbcb8745daf26b903ad62297da2c992eca6abfe56c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-showkerning-doc"

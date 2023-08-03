@@ -5,10 +5,10 @@ to type its contents with. A similar \\greektxt command does a \
 similar action for shorter texts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.7svn63255"
+PV = "2023.209.1.7svn63255"
 
-RPM_NAME = "texlive-begingreek-2023.201.1.7svn63255-53.1.noarch.rpm"
-RPM_HASH = "f2c49b0cd2d88cd4af7489cc687003b2044f8946b5f84cc2e7c18a1abede737f520211ed542180c62af5db2771c08d43bec9d258969760afe8caa808e23cf3e2"
+RPM_NAME = "texlive-begingreek-2023.209.1.7svn63255-54.1.noarch.rpm"
+RPM_HASH = "35758837e514a4656b6d30503a6288ed09b43b247e48e68b8152289de3c0f79de222abed3701c9860974da3ed88e3c2d9be01dfbf9a3d3638854b70501150606"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-begingreek.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-umoline"
 DESCRIPTION = "This package includes the documentation for texlive-umoline"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn19085"
+PV = "2023.209.svn19085"
 
-RPM_NAME = "texlive-umoline-doc-2023.201.svn19085-53.1.noarch.rpm"
-RPM_HASH = "2a436a737173a618e022a84d215496f7c0bcc553a8b944298f9a71b21479eba2693aaf12fbb52289d889f95221571fd0dbdca43ffe00eb35c9b5433ee7405ded"
+RPM_NAME = "texlive-umoline-doc-2023.209.svn19085-54.1.noarch.rpm"
+RPM_HASH = "0413cb6368e5f0a0a6ff3b977c8283493f7e4aa94f5bf975e291e3a2e15bc45a17c8247e1832b890e56f982f947dd8c4f496ecf4623fd538ae4526a7aa3b9ac2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-umoline-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-catoptions"
 DESCRIPTION = "This package includes the documentation for texlive-catoptions"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2.7hsvn35069"
+PV = "2023.209.0.0.2.7hsvn35069"
 
-RPM_NAME = "texlive-catoptions-doc-2023.201.0.0.2.7hsvn35069-52.1.noarch.rpm"
-RPM_HASH = "d40c27400143bab76d23b5b9d669ddea46a07ff18cecbeea89bb1bd2d0379775b1dbd941585b047af146719e87fcad342e37a7f0d8fc7237fd4b0a10ba2d330e"
+RPM_NAME = "texlive-catoptions-doc-2023.209.0.0.2.7hsvn35069-53.1.noarch.rpm"
+RPM_HASH = "961f370179389ac19315fe47720cc5fe1ed76cfe94bf812e39142debfa535c5407ad68dcd0507ded193efa3312e2b681dbd2c0b9b8963f8d7cad9dbeb13c1a67"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-catoptions-doc"

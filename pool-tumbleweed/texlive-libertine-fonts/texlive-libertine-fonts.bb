@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-libertine"
 DESCRIPTION = "The  separated fonts package for texlive-libertine"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.5.3.0svn64359"
+PV = "2023.209.5.3.0svn64359"
 
-RPM_NAME = "texlive-libertine-fonts-2023.201.5.3.0svn64359-54.1.noarch.rpm"
-RPM_HASH = "3c250dae4d28e657f8138555ccb75be2087e240ac7ef39c93c4f5becb50f8246c2d41c6c9e5d1601520e37f4ebe88c8786d046a1117191eb9fd34da725d701a5"
+RPM_NAME = "texlive-libertine-fonts-2023.209.5.3.0svn64359-55.1.noarch.rpm"
+RPM_HASH = "ab8823e81e903f9cb8985326078f295a8634f6168ac6def093836ba08a43564578364d76ab2df47747d0f048fea10dd3015424416098c39cefcc727dd5ec71e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-libertine-fonts \

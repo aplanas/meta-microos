@@ -7,10 +7,10 @@ displayed-equation environments); and support for making a list \
 of theorems, analagous to \\listoffigures."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.33svn27609"
+PV = "2023.209.1.33svn27609"
 
-RPM_NAME = "texlive-ntheorem-2023.201.1.33svn27609-54.1.noarch.rpm"
-RPM_HASH = "7663e02b4701b337769ef7dd50fdebbe76045d37dacb749393481a113732677526feb53e4838e2e3689758119f4aaf899ed3df0d51034a4bc0abd45006ef95e4"
+RPM_NAME = "texlive-ntheorem-2023.209.1.33svn27609-55.1.noarch.rpm"
+RPM_HASH = "e22dd4034488b6f9d06c136b585b50bbd5835be8816d90589133112e71483dbde7943b8c440d1d505650b7f49b6db3fad72ce807cdcc9707972687ac166be621"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ntheorem.sty \

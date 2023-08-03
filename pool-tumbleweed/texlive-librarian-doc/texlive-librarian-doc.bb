@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-librarian"
 DESCRIPTION = "This package includes the documentation for texlive-librarian"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn19880"
+PV = "2023.209.1.0svn19880"
 
-RPM_NAME = "texlive-librarian-doc-2023.201.1.0svn19880-54.1.noarch.rpm"
-RPM_HASH = "6a3715033370eb09e1e1c15abd191ce79bc352d78a31ba4ee56a3714aca0ec0bbf30b54a52a87f822af6e0d03c33bb76414cb9cece1296b3bc891ee5733716c6"
+RPM_NAME = "texlive-librarian-doc-2023.209.1.0svn19880-55.1.noarch.rpm"
+RPM_HASH = "b410c2c8e091c054eac26afd0dd4dd7d7b2135711e7cee0420d5f279ef8c022800e1383638c9bd3f0ebb7c62d60e7581da04881a47894c474db085e87856edf4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-librarian-doc"

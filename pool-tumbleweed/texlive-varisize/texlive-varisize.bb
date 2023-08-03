@@ -4,10 +4,10 @@ Note that 10point.tex is by convention called by one of the \
 other files, so that there's always a 'way back'."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-varisize-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "4a99804d7b92dc1cbb258180e0c53351e669f60771c3933686baf6c9c5b441eaf547b831ecf02a11a84501c15cf68b02601a64054a2ba11dd56b90b45956ab0e"
+RPM_NAME = "texlive-varisize-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "316ab618f6db124c44773f2f5f0c78842171c867f1c5ae16324d55869bfb4e1c63bc400af3133d43ec1aa4647a4bef4424b9da8005c5f06dfbf08abf69affa2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-10point.tex \

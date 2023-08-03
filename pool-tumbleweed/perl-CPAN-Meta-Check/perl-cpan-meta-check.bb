@@ -3,10 +3,10 @@ DESCRIPTION = "This module verifies if requirements described in a CPAN::Meta ob
 present."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.017"
+PV = "0.18.0"
 
-RPM_NAME = "perl-CPAN-Meta-Check-0.017-1.2.noarch.rpm"
-RPM_HASH = "663fd6a02f741de77421035e7cf703788a870515b454551fc787d8cc62bac6b5ddf5d15e7694d388d501c88e756b25e0da22bb89c199f151361d731d7897a680"
+RPM_NAME = "perl-CPAN-Meta-Check-0.18.0-1.1.noarch.rpm"
+RPM_HASH = "627b226bb07adf10aa6c2cbc92454be0e5f869f8ab84eb75de51cfbdc6519a7cfde4fbd84d5760e9c1a0c002a315bbe8a85488f60f1eb8f69f5e0b9d161e0028"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CPAN--Meta--Check \

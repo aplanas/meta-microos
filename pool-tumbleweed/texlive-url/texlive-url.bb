@@ -12,10 +12,10 @@ useful for operating systems where spaces are a common part of \
 file names."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.4svn32528"
+PV = "2023.209.3.4svn32528"
 
-RPM_NAME = "texlive-url-2023.201.3.4svn32528-53.1.noarch.rpm"
-RPM_HASH = "bd283c992813d98bd00a197630d04ba066fb0bebc83afdcd47abc1d2268f09d4a938ffc569aea5724c8e20ad2c4075958cc7158cb5b974aaf6a2cd91c0f9145a"
+RPM_NAME = "texlive-url-2023.209.3.4svn32528-54.1.noarch.rpm"
+RPM_HASH = "2cb1febd1fc3bc7b408027546afedaf6ea6482e5d13b73d9659503ea209a99e48573bdc52fe5114ab4cb7361e4e7c6a254fe20df447fa1295bda89079fcb83b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-url.sty \

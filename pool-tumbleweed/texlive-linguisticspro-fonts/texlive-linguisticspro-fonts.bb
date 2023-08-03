@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-linguisticspro"
 DESCRIPTION = "The  separated fonts package for texlive-linguisticspro"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64858"
+PV = "2023.209.svn64858"
 
-RPM_NAME = "texlive-linguisticspro-fonts-2023.201.svn64858-54.1.noarch.rpm"
-RPM_HASH = "6acde93de6af8dd012ed4d498b0ef5271e93721ad72e485dfe1295541dc5580fd3b822ef67b68e7657ff5de9ff8b10f4f4fd0f2915f9bc0efd03fe3b76cda440"
+RPM_NAME = "texlive-linguisticspro-fonts-2023.209.svn64858-55.1.noarch.rpm"
+RPM_HASH = "a10cac57382ec23cc0d7f685e6310bcd7dca75de1b867204bb1db49e83ac74aeceee7f10fb08d21e40fbefa792b827fe543ca9dd1e3192f78337e805e0d042aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-linguisticspro-fonts \

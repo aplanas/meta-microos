@@ -4,10 +4,10 @@ of different ways, in pursuit of 'more striking' graphics in a \
 document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2csvn40612"
+PV = "2023.209.0.0.2csvn40612"
 
-RPM_NAME = "texlive-reflectgraphics-2023.201.0.0.2csvn40612-53.2.noarch.rpm"
-RPM_HASH = "888826a81164a92e05938da04e4363e862d38f05500d71804f7723034a32c8e38307f261bc09b6e1894c8f94324f48e8e32715536fd869039650ebdd174f1313"
+RPM_NAME = "texlive-reflectgraphics-2023.209.0.0.2csvn40612-54.1.noarch.rpm"
+RPM_HASH = "e678a73ff942d86a85f69193b1487b28372f3ce9b0415d4c9cf5b30815646769e7656aac567b2b947c9d1d74d3cf5af407f634aec1b05b7f8938750e0a018f04"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-reflectgraphics.sty \

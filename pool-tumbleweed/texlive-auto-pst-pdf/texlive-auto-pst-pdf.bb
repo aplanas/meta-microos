@@ -8,10 +8,10 @@ MathPSfrag, and regular psfrag figures can all be input \
 consistently and easily."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.7svn56596"
+PV = "2023.209.0.0.7svn56596"
 
-RPM_NAME = "texlive-auto-pst-pdf-2023.201.0.0.7svn56596-53.1.noarch.rpm"
-RPM_HASH = "d008eef338e5c0f1c25ea5df405f565be1c78c3358be4e0b75c8743b1954d0628e2140e89404446694a8d04d7d03473a96e661d95919b4cb1aa6323ddf916b25"
+RPM_NAME = "texlive-auto-pst-pdf-2023.209.0.0.7svn56596-54.1.noarch.rpm"
+RPM_HASH = "661b2c4fdba1dc537554eed0f53268a2adcb0482ccdd594e6983a992254affd6b79f58731cda77ace060200374417e732ef3f967e5594e4bce37db6c8dd56fc7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-auto-pst-pdf.sty \

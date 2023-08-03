@@ -2,10 +2,10 @@ SUMMARY = "Basic and Digest HTTP authentication for Flask routes"
 DESCRIPTION = "Simple extension that provides Basic and Digest HTTP authentication for Flask routes."
 LICENSE = "MIT"
 
-PV = "4.4.0"
+PV = "4.8.0"
 
-RPM_NAME = "python310-Flask-HTTPAuth-4.4.0-2.10.noarch.rpm"
-RPM_HASH = "513c15c29be6faf287150d094b28bf67213ad538589aaf5b42deb0c2aaf55fbe9fe512a8b7d167dfc3763d8f1733ee4b0163693239b89e6042ef09f6e2cd948e"
+RPM_NAME = "python310-Flask-HTTPAuth-4.8.0-1.1.noarch.rpm"
+RPM_HASH = "18592b262428106ba9fc6daf35eec8dfb8aa935241e3c441fe1b2b923bbd676e9a9968506cb2a481556437c68f4f1b02c72d4728ce4dadc3edb440eca3e18e19"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-flask-httpauth \

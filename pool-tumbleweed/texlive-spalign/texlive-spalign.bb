@@ -15,10 +15,10 @@ have to typeset a large number of matrices (like linear algebra \
 teachers) should find this package to be a real time saver."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn42225"
+PV = "2023.209.svn42225"
 
-RPM_NAME = "texlive-spalign-2023.201.svn42225-57.1.noarch.rpm"
-RPM_HASH = "b500f1d67da0f1966bef3407af3eaa5facfde76093eeff89f75bf43b125ba95169fb0ca16bafe0f46fe8892de348a49664e6fdde5ee355e668350b243b6d65e4"
+RPM_NAME = "texlive-spalign-2023.209.svn42225-58.1.noarch.rpm"
+RPM_HASH = "d87dc4c0e88a29fe50f79284023275ad5bac769ee512fbc6af67c2c701e7ee88876e800f8d08780caffec2ba9cd9f3eb031a9d1c2480c7bd0f6930bbfb5d3a79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-spalign.sty \

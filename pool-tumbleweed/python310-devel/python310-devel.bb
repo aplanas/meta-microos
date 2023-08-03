@@ -12,8 +12,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.10.12"
 
-RPM_NAME = "python310-devel-3.10.12-1.2.aarch64.rpm"
-RPM_HASH = "25879afe7423fd8e594295ca57f8d92ad1952cb58e5a0e24a5314bc7854d96f9f93e083ce4db47ca7987d3c1db4c3a33aec842f540fd55f548c82ebf463b1866"
+RPM_NAME = "python310-devel-3.10.12-2.1.aarch64.rpm"
+RPM_HASH = "e523cedf4b4517a0384a57a83d0adb538d26ebfdaaafacb4a04b1adff7cc4eeb5566b1bbe02220fc24945dbec459f1032b7869bf13c853aa2033ea2469b790ef"
 
 RPROVIDES:${PN} += "pkgconfig-python-3.10 \
 pkgconfig-python-3.10-embed \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-pad"
 DESCRIPTION = "This package includes the documentation for texlive-pst-pad"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3bsvn15878"
+PV = "2023.209.0.0.3bsvn15878"
 
-RPM_NAME = "texlive-pst-pad-doc-2023.201.0.0.3bsvn15878-52.1.noarch.rpm"
-RPM_HASH = "bcf7314fef85052f76d222a84c127d3748f13338f094b06669a04a984e78c58c2eed0624b0ec735b503cdb7b1f9659760161d7bf5660516b3cdb8bfb40ab4ea1"
+RPM_NAME = "texlive-pst-pad-doc-2023.209.0.0.3bsvn15878-53.1.noarch.rpm"
+RPM_HASH = "138a4727d6599856f076ac568d6f74eb8c0519cbf3f84f4c0d1e8185fc6c28c7ba755d775a22692c3d77ddd3fa54a3932f70c16861df44482f91d3ec700b219d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pst-pad-doc-en;de \

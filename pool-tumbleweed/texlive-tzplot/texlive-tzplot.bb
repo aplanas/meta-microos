@@ -8,10 +8,10 @@ developed with an emphasis on drawing graphs in economics. The \
 package depends on TikZ, xparse, and expl3."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1svn64537"
+PV = "2023.209.2.1svn64537"
 
-RPM_NAME = "texlive-tzplot-2023.201.2.1svn64537-52.1.noarch.rpm"
-RPM_HASH = "a44e5330ca39de027f048b132414d3c5956f755085fa588adc83c98952a390d005363ca0e94ab61ebafb0c3f6cd32424e44fd35827a714d55496ef13f16bb613"
+RPM_NAME = "texlive-tzplot-2023.209.2.1svn64537-53.1.noarch.rpm"
+RPM_HASH = "f302e69dd591317cb5f913213d382f0f4d06f5785c461095256596d49ece4972ce5c47b8e965cde9ba2e55f226eb02480e9e640bb6bf77a5fd1c8865eb9aaf31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tzplot.sty \

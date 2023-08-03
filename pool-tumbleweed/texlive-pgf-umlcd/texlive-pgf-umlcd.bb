@@ -2,10 +2,10 @@ SUMMARY = "Some LaTeX macros for UML Class Diagrams"
 DESCRIPTION = "Some LaTeX macros for UML Class Diagrams."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.3svn63386"
+PV = "2023.209.0.0.3svn63386"
 
-RPM_NAME = "texlive-pgf-umlcd-2023.201.0.0.3svn63386-51.1.noarch.rpm"
-RPM_HASH = "5a62bcbd437e4db50964bc49a60d47daf273739a7634c8740fddab77faf94c6d31d4bc498b1bf558a931a75e664e89da8f85bcb018a4815aecdfd05dc9605a0f"
+RPM_NAME = "texlive-pgf-umlcd-2023.209.0.0.3svn63386-52.1.noarch.rpm"
+RPM_HASH = "c9a70bc5f800bc58c787f6838fd5afc6d3f1bd55f51d066658ac1cc9c4d39ac1f996a939846d38d93c260ce8362b6de5ddd5d56c7db7f1e6459b834bd3edca1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pgf-umlcd.sty \

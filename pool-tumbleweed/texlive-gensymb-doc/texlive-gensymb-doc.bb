@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gensymb"
 DESCRIPTION = "This package includes the documentation for texlive-gensymb"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.2svn64740"
+PV = "2023.209.1.0.2svn64740"
 
-RPM_NAME = "texlive-gensymb-doc-2023.201.1.0.2svn64740-52.1.noarch.rpm"
-RPM_HASH = "8fd1cf63f8131c648329004ddd465db2017e9d2c9f6f7378c0ff09e6d3a25b1e7505278b8dce368feef3bc87d8624fb8014b233a9925d93c5874e966c50b928e"
+RPM_NAME = "texlive-gensymb-doc-2023.209.1.0.2svn64740-53.1.noarch.rpm"
+RPM_HASH = "833f48a978f4fef6eb436d0520ec13985cdd3f467ddce2d782a9975e30be1e0850188a131ecc5b2d13fc106a655fec2616a1f01722561bba9222c3fae41c1aba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gensymb-doc"

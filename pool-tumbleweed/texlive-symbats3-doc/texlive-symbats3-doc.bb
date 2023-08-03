@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-symbats3"
 DESCRIPTION = "This package includes the documentation for texlive-symbats3"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn63833"
+PV = "2023.209.svn63833"
 
-RPM_NAME = "texlive-symbats3-doc-2023.201.svn63833-57.1.noarch.rpm"
-RPM_HASH = "bee27bca7daabf4719b790533e62d472b9306a6c5729164c6011c9c95fa50d98129ef09d6ec6e37b8aec102b748a7cfa0efd0da92e5cb604cad8365ae0d20cf8"
+RPM_NAME = "texlive-symbats3-doc-2023.209.svn63833-58.1.noarch.rpm"
+RPM_HASH = "4dfdc4cccefb70b2ac7173d3b4467e331670183b76a8a52d7711353133f3cb3afd60b082cb770d0b3ad8c94fc19768be497549d7628f37c7360e2c0d69a3e22c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-symbats3-doc"

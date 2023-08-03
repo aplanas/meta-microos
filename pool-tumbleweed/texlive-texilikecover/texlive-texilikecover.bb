@@ -3,10 +3,10 @@ DESCRIPTION = "The package creates document cover pages, like those that \
 TeXinfo produces."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn15878"
+PV = "2023.209.0.0.1svn15878"
 
-RPM_NAME = "texlive-texilikecover-2023.201.0.0.1svn15878-54.1.noarch.rpm"
-RPM_HASH = "55a3d8e48a6e753dbcfb2a8330ab04840f99d241c2baa40c8d881a48f1dcdb4edfc7621a118160df8beb662a003569ffc8009f8c74a1f2bdcb654450ab0b2fb3"
+RPM_NAME = "texlive-texilikecover-2023.209.0.0.1svn15878-55.1.noarch.rpm"
+RPM_HASH = "ca10feb7861593bffd6df51c1bd3bec1c1f9ec1b008e3df1d07f4786949bbda9fdebba1b0d33974a082df6e3fdd1c54f238365c337af748c7354a7cacf76336d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-texilikecover.sty \

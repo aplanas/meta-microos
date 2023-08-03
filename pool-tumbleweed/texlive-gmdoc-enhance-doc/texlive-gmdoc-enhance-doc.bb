@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gmdoc-enhance"
 DESCRIPTION = "This package includes the documentation for texlive-gmdoc-enhance"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn15878"
+PV = "2023.209.0.0.2svn15878"
 
-RPM_NAME = "texlive-gmdoc-enhance-doc-2023.201.0.0.2svn15878-53.2.noarch.rpm"
-RPM_HASH = "48c6807d28637835a538626d3612e95f2989f85d1afac75a542df61f2ceaf8ee79f25e0d9677bbe76e681237c7bf67792c8decb294941d4d221354b46d7ca166"
+RPM_NAME = "texlive-gmdoc-enhance-doc-2023.209.0.0.2svn15878-54.1.noarch.rpm"
+RPM_HASH = "1f8a7da1399799d57dec3ed33b65c61d9fd8363bb2f652e0523ab96d5c857600f5eaf2937aad682dc3ecb53cb790aace389a28e22079d17ab92231b4d493faab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gmdoc-enhance-doc"

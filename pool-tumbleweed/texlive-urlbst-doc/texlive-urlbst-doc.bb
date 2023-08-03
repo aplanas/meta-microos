@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-urlbst"
 DESCRIPTION = "This package includes the documentation for texlive-urlbst"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.9.1svn65694"
+PV = "2023.209.0.0.9.1svn65694"
 
-RPM_NAME = "texlive-urlbst-doc-2023.201.0.0.9.1svn65694-53.1.noarch.rpm"
-RPM_HASH = "300f4b478a6c8aa58dedb03190872898ea4c2f0566ac65a32ac6ec70541efc604c96be69760bf498ecbd9f99fcfec6b91f4cd662663ad299e2dc1c5c546e93ed"
+RPM_NAME = "texlive-urlbst-doc-2023.209.0.0.9.1svn65694-54.1.noarch.rpm"
+RPM_HASH = "7e703abebab41b9f6d3bec74bb0e72e0e2aa6d683be80e563010d90ef90fbbdd642a0b13fbb2bd197fdbbc14b2224d78485050074e1c501e84eee69b1266bfcf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-urlbst-doc"

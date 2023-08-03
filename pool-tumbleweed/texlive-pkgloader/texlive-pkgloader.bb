@@ -9,10 +9,10 @@ package's repository. To use pkgloader you need, apart from \
 packages installed by default, the lt3graph package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.7.0svn47486"
+PV = "2023.209.0.0.7.0svn47486"
 
-RPM_NAME = "texlive-pkgloader-2023.201.0.0.7.0svn47486-51.1.noarch.rpm"
-RPM_HASH = "38a0341af7f690c1184785b12d9c23a31ac369cab4f467643279a4547803c57392ebf6c87c0f4853dc64d724c6b4ed899a2ba68517270c9a1dca7c06a8d5bea0"
+RPM_NAME = "texlive-pkgloader-2023.209.0.0.7.0svn47486-52.1.noarch.rpm"
+RPM_HASH = "b45b1ff34341853d1a4303617c97f2ceb28b3e2a8e8a6e0276d3e895c6735f616fd108b660de32baeff9e6383df8058ae68c186a21b37c58c22abf60de8b1e84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pkgloader-cls-pkg.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-droid"
 DESCRIPTION = "The  separated fonts package for texlive-droid"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.2svn54512"
+PV = "2023.209.3.2svn54512"
 
-RPM_NAME = "texlive-droid-fonts-2023.201.3.2svn54512-52.1.noarch.rpm"
-RPM_HASH = "7d986599294d692819b926c7ef8ee41dab16bb916696eff721a9ed2bc2a001fae229089662e77b22fd2e4509abe311d774998cd7baca9a843267a4809e6bf327"
+RPM_NAME = "texlive-droid-fonts-2023.209.3.2svn54512-53.1.noarch.rpm"
+RPM_HASH = "f20571b9c1b14eb7fa56e7698c8f435d0b39c19cfb70d7a64ef670c703974d0b44976a3ff77959ad798086fca944d72cea81c815ac5280f275031576040a5c17"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-droid-fonts \

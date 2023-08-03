@@ -3,10 +3,10 @@ DESCRIPTION = "Package for preparing papers in the journal 'Monthly Notices of \
 the Royal Astronomical Society'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.1svn55729"
+PV = "2023.209.3.1svn55729"
 
-RPM_NAME = "texlive-mnras-2023.201.3.1svn55729-54.1.noarch.rpm"
-RPM_HASH = "c1a0fc1314e7d50f3e56ace317d48c285bc6c465335948f36629d5d9ca0d1da4d10f3ea0fb87373b1787378cb8c6f2b0228055f2148959451be2ca9742db35c9"
+RPM_NAME = "texlive-mnras-2023.209.3.1svn55729-55.1.noarch.rpm"
+RPM_HASH = "710e279cfb7cd2dd891c6449a1277331f70531bc093b7738e4c75719ee6a7c178361a01d00265c07878ca08c799584fae47ace824d1ed0a1dbe77da593b92292"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mnras.cls \

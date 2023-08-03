@@ -6,10 +6,10 @@ fiscal code string, and can therefore be useful for lawyers and \
 accountants that use fiscal codes very frequently."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn29803"
+PV = "2023.209.1.2svn29803"
 
-RPM_NAME = "texlive-codicefiscaleitaliano-2023.201.1.2svn29803-53.1.noarch.rpm"
-RPM_HASH = "4b08ace676e6048d843e9624a9f39d5128de25ed76bb8e2e68f00b40e0221c03451bfa3b773ec6992651144e9ad6d180339c172553b07e0933f3e402b33b9088"
+RPM_NAME = "texlive-codicefiscaleitaliano-2023.209.1.2svn29803-54.1.noarch.rpm"
+RPM_HASH = "69bc624258628654ef948634ef6dbf0a14e41856400f71f7f05b8938179538d49353d7154b3a6ed0fb8ebbd2dc2ba5d481b13184b40461beefb87f3a0b29b35d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-codicefiscaleitaliano.sty \

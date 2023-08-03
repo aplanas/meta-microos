@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "8.7.2"
 
-RPM_NAME = "elk-openmpi5-8.7.2-1.4.aarch64.rpm"
-RPM_HASH = "a00438eb395f147fda44ab2d56e1813c7dec41a4d674d3e003b1a1b7847b09ad37e74fd67f896a3f228018039bdf786e5b215f3629c7520515eefe57fe14524a"
+RPM_NAME = "elk-openmpi5-8.7.2-1.5.aarch64.rpm"
+RPM_HASH = "119979f99c61c8bf4a89d76ebe046e537e451e68707f776e5cd3775bb068b1d4d1c7476ceed0c1bad22a62820ff9ae473346c943c335011ed765ff617b148642"
 
 RPROVIDES:${PN} += "elk-openmpi5"
 
@@ -26,7 +26,7 @@ libgfortran.so.5 \
 libgomp.so.1 \
 liblapack.so.3 \
 libm.so.6 \
-libmpi-mpifh.so.80 \
+libmpi-mpifh.so.40 \
 libwannier.so \
 libxc.so.12 \
 openmpi5-libs \

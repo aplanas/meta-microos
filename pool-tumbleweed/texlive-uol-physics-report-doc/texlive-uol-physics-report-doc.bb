@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-uol-physics-report"
 DESCRIPTION = "This package includes the documentation for texlive-uol-physics-report"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn65761"
+PV = "2023.209.1.1svn65761"
 
-RPM_NAME = "texlive-uol-physics-report-doc-2023.201.1.1svn65761-53.1.noarch.rpm"
-RPM_HASH = "44d93ecc1e148609ca9f8919a8d5461c6f5491fad6c9f8f7bc17104967635f8c1047d451fe5101f6ba0495b49913abc5082c49dd5266677e76f0abc0949bf177"
+RPM_NAME = "texlive-uol-physics-report-doc-2023.209.1.1svn65761-54.1.noarch.rpm"
+RPM_HASH = "3424e4fa51bbfba8bb3d28af7d26b9ffef302ef37acc65173dc61091b7af5c75e3ea9f154fc2e3ecd53afb3bd80d70fa8a591007345fe5e5b1fdfecc4629164d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-uol-physics-report-doc"

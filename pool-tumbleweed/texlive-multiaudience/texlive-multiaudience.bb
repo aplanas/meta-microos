@@ -3,10 +3,10 @@ DESCRIPTION = "This package allows to generate several versions of the same \
 document for different audiences."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.04svn60688"
+PV = "2023.209.1.04svn60688"
 
-RPM_NAME = "texlive-multiaudience-2023.201.1.04svn60688-54.1.noarch.rpm"
-RPM_HASH = "9efc5f12a2d42bd6389432be2f73bdc0d4a1ccf93727422231d9ce7ef5a1e495b0dcea7ba8c4f4dc9fe6f6d9d39279f1b87f8f5d411143e807a799613694a69a"
+RPM_NAME = "texlive-multiaudience-2023.209.1.04svn60688-55.1.noarch.rpm"
+RPM_HASH = "6913f350e49a666d1ef77cdcae923e52893dde0fcdda7fe9e3c98d665c22e02eecd58b0b7301ce60512a999d90dc72f9f520226aea7149d0adf284175fce8bea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-multiaudience.sty \

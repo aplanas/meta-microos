@@ -6,10 +6,10 @@ l3kernel bundle, and xparse and l3keys2e from the l3packages \
 bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.9asvn57814"
+PV = "2023.209.0.0.9asvn57814"
 
-RPM_NAME = "texlive-embrac-2023.201.0.0.9asvn57814-53.2.noarch.rpm"
-RPM_HASH = "44a6e7ee3b5751f11569da6529ec7455d17ef1bec700a8822ce1b90d31243a8ba9ae0add484e8fbd78f47fa72d9644f8018be9423096556903ad58aeab6108fd"
+RPM_NAME = "texlive-embrac-2023.209.0.0.9asvn57814-54.1.noarch.rpm"
+RPM_HASH = "0bb56bae2f5d92b67a8504c9657ff5960953813c08d59b6758b1186c761cbf038d24fa7dba7410a7ed8008a9ee5c730868a5d429472fcd597d6eda05b605c26b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-embrac.sty \

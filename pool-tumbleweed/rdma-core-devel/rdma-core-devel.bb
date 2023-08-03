@@ -2,10 +2,10 @@ SUMMARY = "RDMA core development libraries and headers"
 DESCRIPTION = "RDMA core development libraries and headers."
 LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
-PV = "45.0"
+PV = "47.0"
 
-RPM_NAME = "rdma-core-devel-45.0-1.2.aarch64.rpm"
-RPM_HASH = "a0e837749a24fb457b4ffefe2bbdac7f11b10e7bb781148e1a2ff8aeccb96ab36b86aec9135d07733037469f512192aba762a0526a6cfec382ca3e9ee8a2f98f"
+RPM_NAME = "rdma-core-devel-47.0-1.1.aarch64.rpm"
+RPM_HASH = "1ddf83b1d0996d43c53f8a16d0b27c22266c226c2c43b37294e182c303a730b557eb46beaac856fdaa3658766b6b7d69263a6800f0ab020aa0286547ae34959b"
 
 RPROVIDES:${PN} += "ibacm-devel \
 infiniband-diags-devel \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.7.6"
 
-RPM_NAME = "libappmenu-gtk3-parser0-0.7.6-1.6.aarch64.rpm"
-RPM_HASH = "596979fd3983ab314f77492510f9db80d26168947e45ce0afddba5436fa13b7362961649f4ed44cf7a826d642212d4cdfec1bcfe07c6f12c8edc5dea14977b35"
+RPM_NAME = "libappmenu-gtk3-parser0-0.7.6-2.1.aarch64.rpm"
+RPM_HASH = "356fe3d10b15666bccb28958bd6488cea2f9dc8081db1758d95a98748209fe5aabccb0c74797025854bba65900ae521d2b6d8661f0b54359e627f00b14e603af"
 
 RPROVIDES:${PN} += "libappmenu-gtk3-parser.so.0 \
 libappmenu-gtk3-parser0"

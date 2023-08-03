@@ -8,10 +8,10 @@ also supports DOM, XMLHttpRequest, XSLT, CSS, Javascript/ECMAscript and \
 more."
 LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
-PV = "2.40.3"
+PV = "2.40.4"
 
-RPM_NAME = "webkit2gtk3-devel-2.40.3-2.1.aarch64.rpm"
-RPM_HASH = "5bdbe012e3c959b7ce5e3d6af1ec69ba19e26ba35248ad3cad3a3f5fe27422011689e543e4cd296452a1c107836573783410b42f2a3bd2fbcc1b53decacc661b"
+RPM_NAME = "webkit2gtk3-devel-2.40.4-1.1.aarch64.rpm"
+RPM_HASH = "16d372d34f8c15adb3014d464a16d9e666a2191fffa42f064b93ef9a674f6ca68856191d0f61919da1cb02c379c7c3f158a8c86c20bc89b0e2d03c6b58e24c4c"
 
 RPROVIDES:${PN} += "pkgconfig-javascriptcoregtk-4.1 \
 pkgconfig-webkit2gtk-4.1 \

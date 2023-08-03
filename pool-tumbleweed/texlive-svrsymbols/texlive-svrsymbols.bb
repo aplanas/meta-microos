@@ -5,10 +5,10 @@ designed for use in physics texts. Some symbols are standard \
 and some are entirely new."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0bsvn50019"
+PV = "2023.209.2.0bsvn50019"
 
-RPM_NAME = "texlive-svrsymbols-2023.201.2.0bsvn50019-57.1.noarch.rpm"
-RPM_HASH = "65345d9a37a98c67dd91d38c5d56ab1db0ea36c546fa2ea882122629e6489e9b46513dc4898202a3d35081c0233d8f0b9da5fb4e7f42fab9a27b42c6e03559f7"
+RPM_NAME = "texlive-svrsymbols-2023.209.2.0bsvn50019-58.1.noarch.rpm"
+RPM_HASH = "38cf68767a10865ae6387c4401914ed2bfa3a30d637a954d11ac70a3978ab826806b632aeee40600d6b7d72ba73d3cfb1179e1fdcd9c99d5dc98b5cf735d60fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-SVRsymbols.tfm \

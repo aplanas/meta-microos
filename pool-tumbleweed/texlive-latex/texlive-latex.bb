@@ -16,10 +16,10 @@ of LaTeX. For downloading details, see the linked catalogue \
 entries above."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.20221101_pl1svn65161"
+PV = "2023.209.20221101_pl1svn65161"
 
-RPM_NAME = "texlive-latex-2023.201.20221101_pl1svn65161-55.1.noarch.rpm"
-RPM_HASH = "19e3b2d53957fb8f1a14e2acf08a7b4c23cf93ade4a8dc4e67fb0f712aea3c755604fb0af21ca0b43c2a76aeffd858077964b269e9004d8e648c484abb14489a"
+RPM_NAME = "texlive-latex-2023.209.20221101_pl1svn65161-56.1.noarch.rpm"
+RPM_HASH = "fa08aaf9a7a4bb077431c127403513f73326cf390357192cc833e59fa05f809199e86e31a155a7d6c154dd1af707666a3008c2403ffa51b99be45f4097f7432c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-alltt.sty \

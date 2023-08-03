@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-omega"
 DESCRIPTION = "The  separated fonts package for texlive-omega"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn33046"
+PV = "2023.209.svn33046"
 
-RPM_NAME = "texlive-omega-fonts-2023.201.svn33046-54.1.noarch.rpm"
-RPM_HASH = "c5a0173b711d92312a3eeaa81302e5d2c2b55442dd82d2c1d4eac5cc90a58ad4b7f0bb2c7ab0a6a822f10aae889da7d0b58b3650b42987a123bbd200c2b282da"
+RPM_NAME = "texlive-omega-fonts-2023.209.svn33046-55.1.noarch.rpm"
+RPM_HASH = "6290254f26f51735ff4bb14702832b4341469f4cdc969701c1500beaeae1d0c2233784ea2540a30abb1fc906964ee49bdb5dc9ae752f264124f68a56bb778cd0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=fj \

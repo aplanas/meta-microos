@@ -3,10 +3,10 @@ DESCRIPTION = "This is a translation to Brazilian Portuguese of Winston \
 Chang's LaTeX cheat sheet"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.13svn15878"
+PV = "2023.209.1.13svn15878"
 
-RPM_NAME = "texlive-latexcheat-ptbr-2023.201.1.13svn15878-54.1.noarch.rpm"
-RPM_HASH = "3d3072c9e797efb164ead480e62b60d908e3803d2125139b1454c198b729ef2b701841cae40d03b1674b2254c6abf6a6d25ff913881ce564c23121f81bde42b8"
+RPM_NAME = "texlive-latexcheat-ptbr-2023.209.1.13svn15878-55.1.noarch.rpm"
+RPM_HASH = "7cd0b6a43b88655544de3f29db0232d413ef606fbb1140d56dc0fe421226c4be5df41dbf5ef3c8fa5a7abe99279526e0cfc701627c846d89fa7abcd3896a7d55"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latexcheat-ptbr"

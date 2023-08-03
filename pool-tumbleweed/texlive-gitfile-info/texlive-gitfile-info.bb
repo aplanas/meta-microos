@@ -11,10 +11,10 @@ document who had edited what. This package gives you the \
 opportunity to do so."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5svn51928"
+PV = "2023.209.0.0.5svn51928"
 
-RPM_NAME = "texlive-gitfile-info-2023.201.0.0.5svn51928-53.2.noarch.rpm"
-RPM_HASH = "1dcc975b9d3b73d958a2587e52794cc9c98cbab1822e57041f853df9d50231df46b5a32014813ff5a64714319db8d5026be0b3aa9a5a106176218e6cbc97e443"
+RPM_NAME = "texlive-gitfile-info-2023.209.0.0.5svn51928-54.1.noarch.rpm"
+RPM_HASH = "e0728ea21ca3df74d4a1b3bb1af3891ea7bebde5b25f7021059101dcad7c9bedb545f36031f99e5d6953af07f1e8ec19339ccb897ede2abe462b0515bb5d491f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gitfile-info.sty \

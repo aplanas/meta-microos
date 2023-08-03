@@ -6,10 +6,10 @@ Utopia family, are provided by the Fourier and the Mathdesign \
 font packages."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.092svn51362"
+PV = "2023.209.1.092svn51362"
 
-RPM_NAME = "texlive-heuristica-2023.201.1.092svn51362-53.2.noarch.rpm"
-RPM_HASH = "72eefb35b7c5ab5e67ac72fc1b7cdf87c89281772a1cd811eb11d96cc1abe9f263437fa804ab7a280bfbb0c5a508087680028341d5b80fbdbc987338eb3210c8"
+RPM_NAME = "texlive-heuristica-2023.209.1.092svn51362-54.1.noarch.rpm"
+RPM_HASH = "47c6672e92784bb27690fee9b8b4094424ac960224ac1e523f21e28f032c8a5ac3e49372cdf14011c941d051cae17ab3794c58bc955be298b0f88b2c1b6c4845"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Heuristica-Bold-inf-ly1.tfm \

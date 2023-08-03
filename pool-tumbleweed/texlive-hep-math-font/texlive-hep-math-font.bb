@@ -7,10 +7,10 @@ to give more consistently the naively expected results. The \
 package is loaded with \\usepackage{hep-math-font}."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn64901"
+PV = "2023.209.1.1svn64901"
 
-RPM_NAME = "texlive-hep-math-font-2023.201.1.1svn64901-53.2.noarch.rpm"
-RPM_HASH = "2f27067ecdc6b3c0258d3d3c86e7ebb2dbb28b333dd2fde94b8167b41c47889c35ce576c522db23fe2830f29cbd33424da16aecb3b0e700ff7bb905b6be46e37"
+RPM_NAME = "texlive-hep-math-font-2023.209.1.1svn64901-54.1.noarch.rpm"
+RPM_HASH = "392f99b0f50339084598b6b4f83aa4ea0b7e97017103a84a8087a9d1bb74907ad9ff08bc60bce073bec4205701e2227c6e243b7b91d77229bd87608199eea1e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hep-math-font.sty \

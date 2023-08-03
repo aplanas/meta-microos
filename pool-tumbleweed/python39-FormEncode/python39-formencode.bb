@@ -6,8 +6,8 @@ LICENSE = "Python-2.0"
 
 PV = "2.0.1"
 
-RPM_NAME = "python39-FormEncode-2.0.1-2.3.noarch.rpm"
-RPM_HASH = "bc297b70577f86f9a41dbd5337f48f3deafe72ef2771a44c273a02a1aa3e0a0ef85dbb88297dbc6318074784e83f208b8b5c6817ac0d61ba55f0b2de1b22e04e"
+RPM_NAME = "python39-FormEncode-2.0.1-3.1.noarch.rpm"
+RPM_HASH = "22cb5055b821f130784f8876bdb8c01447695b03386d7977d2fa5c65f0edf3c5dd3acd889db694b8c8df8f7d31eb70b09b39779b2fd9714db9825b8f00033830"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-formencode \

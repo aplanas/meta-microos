@@ -6,10 +6,10 @@ pdfTeX users. Issues with this package can be reported on \
 GitHub or emailed to tex@slxh.nl."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.2svn54891"
+PV = "2023.209.1.2svn54891"
 
-RPM_NAME = "texlive-comicneue-2023.201.1.2svn54891-53.1.noarch.rpm"
-RPM_HASH = "81fd875cd437dc96aba3d5e8a5635c069a53ddf0addccb6158770c11e2d7d19f09f9ee4a31b9b58b4359777fbedde1993f223ec7363ca8be62acd325f5362137"
+RPM_NAME = "texlive-comicneue-2023.209.1.2svn54891-54.1.noarch.rpm"
+RPM_HASH = "5ae79a8dfd87c098d750d079f1d5dbbe5fdec1053153579d5843029f589440f75d42cd63ac15d7ae4cfd2b917a7d3ee8d6ba38f9272d710d170128632b252f91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ComicNeue-Bold-tlf-ly1--base.tfm \

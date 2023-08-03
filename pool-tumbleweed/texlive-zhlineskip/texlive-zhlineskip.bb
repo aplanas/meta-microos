@@ -9,10 +9,10 @@ it is possible to achieve the Microsoft Word multiple line \
 spacing style using zhlineskip."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0esvn51142"
+PV = "2023.209.1.0esvn51142"
 
-RPM_NAME = "texlive-zhlineskip-2023.201.1.0esvn51142-52.2.noarch.rpm"
-RPM_HASH = "8438cdc3d0bf50662e5a628442e22f0902933829a6731061a5a087b7a70ba2d02481803852ae2650029e9ef483c1226b6aa570394eca66606c4cd3035c9f481a"
+RPM_NAME = "texlive-zhlineskip-2023.209.1.0esvn51142-53.1.noarch.rpm"
+RPM_HASH = "3b7d3e49350751db6be4b5d5cf570f4774215696cb1a4b28167d1b79a306e985bba3ec11267036d6369051c76141966616b8d3c0401b67941dd90156dca26b32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zhlineskip.sty \

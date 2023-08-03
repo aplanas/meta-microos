@@ -7,10 +7,10 @@ with guillemets, and support for character protruding using the \
 pdfcprot package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.15svn29349"
+PV = "2023.209.1.15svn29349"
 
-RPM_NAME = "texlive-hfoldsty-2023.201.1.15svn29349-53.2.noarch.rpm"
-RPM_HASH = "ac961b20e49d99058bd025552d195fcb7cc70e0431efa86f441af43bfb8225eba328722ce5aa77d58b29e4dfccddc6d53d5e6e106cc53090deff2722d7c40ba1"
+RPM_NAME = "texlive-hfoldsty-2023.209.1.15svn29349-54.1.noarch.rpm"
+RPM_HASH = "0e500a2560ffd99b09b6ddb96943407ca6b39f2dd6634267c6871c5ba4f270cd2598959e2698ded6d3fb1dec579a5bfcb67a8649703bf2e806198b93251161a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hfobi0500.tfm \

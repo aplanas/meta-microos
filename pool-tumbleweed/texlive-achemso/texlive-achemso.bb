@@ -6,10 +6,10 @@ package, which moves citations relative to punctuation, is \
 distributed as part of the bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.13fsvn65103"
+PV = "2023.209.3.13fsvn65103"
 
-RPM_NAME = "texlive-achemso-2023.201.3.13fsvn65103-54.1.noarch.rpm"
-RPM_HASH = "31e3bd09fcd1e6da45e19013afa6ac8b4db50f86fe75a87d4174e0c14a0d523e8744a5993be115a0fe13dac73d93dc399ee183411f7fbeb58fecb1a2ddacf59b"
+RPM_NAME = "texlive-achemso-2023.209.3.13fsvn65103-55.1.noarch.rpm"
+RPM_HASH = "9b194e98e5c97ca45a227fb3d2eccaa57b7ea68434a78af5d3eab75afca37440f14eb1f858cc78ba4ffd548db406884b87c08d791f2aedefb8f30020eac6b68e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-achemso-aaembp.cfg \

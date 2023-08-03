@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-libertinus-type1"
 DESCRIPTION = "The  separated fonts package for texlive-libertinus-type1"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn64958"
+PV = "2023.209.svn64958"
 
-RPM_NAME = "texlive-libertinus-type1-fonts-2023.201.svn64958-54.1.noarch.rpm"
-RPM_HASH = "2048679206ddcbe84f734b566ee90131361545b9121a65d997e37da066b5f40b23c6d55fe4e7b9b3c5d58776e7be0fa601e689f94c8c96795d4e75bc98e3d094"
+RPM_NAME = "texlive-libertinus-type1-fonts-2023.209.svn64958-55.1.noarch.rpm"
+RPM_HASH = "0ba332ede988c1b0348fc0f14a393c44328d9d5f57b9bae7392a74d1b9fc4c5bfd5d992ea0410bea3b362cf90573e0c0b77789bcf458c7caaedfb0f0f196acb7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

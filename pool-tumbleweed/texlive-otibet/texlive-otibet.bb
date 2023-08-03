@@ -2,10 +2,10 @@ SUMMARY = "Support for Tibetan using Omega"
 DESCRIPTION = "The otibet package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn45777"
+PV = "2023.209.svn45777"
 
-RPM_NAME = "texlive-otibet-2023.201.svn45777-54.1.noarch.rpm"
-RPM_HASH = "7266b7d0d3cd9dc2fdd2dad1ba951d373212114ab8a9bc58426e4ab488441cf244587db82a4a5071f97de8277c7628b04e90dc838123f8b76873af5381ebb8a0"
+RPM_NAME = "texlive-otibet-2023.209.svn45777-55.1.noarch.rpm"
+RPM_HASH = "ceb044506100e17f80a0ae3bde392e3d7efce928e0a4715aa7c09385bb7cd5632641d6aa1ba77cba6254bd18cc2510c7cb4df6d52fefc5963b84ffcb7c1fed6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ot1tib.fd \

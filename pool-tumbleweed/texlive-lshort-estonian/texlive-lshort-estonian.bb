@@ -3,10 +3,10 @@ DESCRIPTION = "This is the Estonian translation of Short Introduction to \
 LaTeX2e."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.5.05svn39323"
+PV = "2023.209.5.05svn39323"
 
-RPM_NAME = "texlive-lshort-estonian-2023.201.5.05svn39323-54.1.noarch.rpm"
-RPM_HASH = "a0a5a80bfe74569ab3354a9a90ed175bda312fbe4f1dc676183239d7a4ce313d8aa263f2d93a49c78838e8061bdb466a2525269e08b6c796bf0b498e969bf659"
+RPM_NAME = "texlive-lshort-estonian-2023.209.5.05svn39323-55.1.noarch.rpm"
+RPM_HASH = "d349c5b403167e047cc51079c790c32e14b5a28747dca42f5020075141a678f14495ede7dc2795abd859fc8f0fb006465c1e1e811887a626aa18d30a51cf0bb8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lshort-estonian"

@@ -7,10 +7,10 @@ nfssext-cfr bundle. GPL licensing applies the fonts themselves; \
 the support macros are distributed under LPPL licensing."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.007svn19409"
+PV = "2023.209.1.007svn19409"
 
-RPM_NAME = "texlive-libris-2023.201.1.007svn19409-54.1.noarch.rpm"
-RPM_HASH = "d63ee8e24145acd56eb8776615fe3064ec16e1d94c53726fbc11a0fde655a59417dc42d38ab8bc5cf59e3e8b1dbf95aa132c24b7157a393813b0e71989d20667"
+RPM_NAME = "texlive-libris-2023.209.1.007svn19409-55.1.noarch.rpm"
+RPM_HASH = "f85eef03769d21fc0182ba51358642835305e44440dad04636d351b49b1289e5a7c76a16778d0596bef92cc45f511c4fd9d4394e365770b55f82397e5a657f03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-libris-supp.enc \

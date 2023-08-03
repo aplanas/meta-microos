@@ -3,10 +3,10 @@ DESCRIPTION = "This is a basic LuaTeX OpenType handler, based on Paul \
 Isambert's PiTeX code. It should work with Plain TeX at least."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.0.0svn65441"
+PV = "2023.209.0.0.0.0svn65441"
 
-RPM_NAME = "texlive-blopentype-2023.201.0.0.0.0svn65441-52.1.noarch.rpm"
-RPM_HASH = "ea8598d6725272a1d49ded5e0ba889887642a95e75c89403de1eaecf6697204911ce86f4ab6372b64459f8d3fa1377830e2fc7d99b7381e8a625d5bf1bb39b7f"
+RPM_NAME = "texlive-blopentype-2023.209.0.0.0.0svn65441-53.1.noarch.rpm"
+RPM_HASH = "a32eb0af91c9dc2dab460cccb8db3f0bfe003f56e38b906972eae983051c07797cb82c9181c7da8eb7b5de37d922168b9830980242b4c41d2dd8e7aa7eb64fe3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-blot-files.tex \

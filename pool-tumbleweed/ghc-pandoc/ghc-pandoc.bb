@@ -23,12 +23,12 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.1.3"
 
-RPM_NAME = "ghc-pandoc-3.1.3-2.1.aarch64.rpm"
-RPM_HASH = "146accaeb19b9c2cc9cd4dc9fd731f5b4a15e460d86981cbbf7846fec40fd597adb3d4cc26f229f45af042d09415e9195c0aab30f841d2f34c8c67a262096800"
+RPM_NAME = "ghc-pandoc-3.1.3-2.2.aarch64.rpm"
+RPM_HASH = "10a325f1ff22c9e4700f9364f4115f4ef013bb9337c00b561dde05953d4456ebef66615e164ca489fd1295dcbfceca9223af3b30735086fba5313c449d160a5d"
 
 RPROVIDES:${PN} += "ghc-pandoc \
-libHSpandoc-3.1.3-ImQr97Zc2bP55LDbAec3vO-ghc9.4.5.so \
-libHSpandoc-3.1.3-IzkHpxfVqJp7Y4A5yupAQ8-xml-light-ghc9.4.5.so"
+libHSpandoc-3.1.3-109Ci2XjWg17jSYmisWciX-xml-light-ghc9.4.5.so \
+libHSpandoc-3.1.3-55OY79jb6yp7kweb38lcUZ-ghc9.4.5.so"
 
 RDEPENDS:${PN} += "libHSGlob-0.10.2-5tAj3lHfg0h9Pb5bOpMg4R-ghc9.4.5.so \
 libHSJuicyPixels-3.3.8-BQPF2mBCFFj3rGPaZ8nrGS-ghc9.4.5.so \
@@ -143,12 +143,12 @@ libHSsafe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds-ghc9.4.5.so \
 libHSscientific-0.3.7.0-D5F2vql7x79Dy9hx72OES1-ghc9.4.5.so \
 libHSsemialign-1.3-D9a6dNA89ZHcaXKxWN9Am-ghc9.4.5.so \
 libHSsemigroupoids-5.3.7-Ju2oK8NLhZKHdQ6h8GWNM1-ghc9.4.5.so \
-libHSskylighting-0.13.4-5T99F0BkgIQGejRNYUpHqn-ghc9.4.5.so \
-libHSskylighting-core-0.13.4-ILWFndoUOH7DzXIN7Ztglj-ghc9.4.5.so \
-libHSskylighting-format-ansi-0.1-Bs7UZk06X7gCvm9EWhhFHl-ghc9.4.5.so \
-libHSskylighting-format-blaze-html-0.1.1-2S5li2Ic3P8IXVFqKrjQNX-ghc9.4.5.so \
-libHSskylighting-format-context-0.1.0.2-DaN7b6FAIhw69Ip8uy59f9-ghc9.4.5.so \
-libHSskylighting-format-latex-0.1-KUWKzkdJqvB1foV6pwv6yZ-ghc9.4.5.so \
+libHSskylighting-0.13.4.1-CU1AlEko5yK2gCD1OmtnCm-ghc9.4.5.so \
+libHSskylighting-core-0.13.4.1-6Bsu3Qo0E1u1DqUSYo1bSc-ghc9.4.5.so \
+libHSskylighting-format-ansi-0.1-6378BOa13TnAAEhx7jAIGl-ghc9.4.5.so \
+libHSskylighting-format-blaze-html-0.1.1-96IxqoyNHvLGcjrkFPKZr9-ghc9.4.5.so \
+libHSskylighting-format-context-0.1.0.2-I1BZIYXYOqlBramxRueIsx-ghc9.4.5.so \
+libHSskylighting-format-latex-0.1-J2O8wjQxddL48jSKv998Ye-ghc9.4.5.so \
 libHSsocks-0.6.1-8gBEgerYb38E7aCOOcHCwN-ghc9.4.5.so \
 libHSsplit-0.2.3.5-u3oGLAiW7JJbxIffWSCWf-ghc9.4.5.so \
 libHSsplitmix-0.1.0.4-7e8CibdlMRLAGh7KO5VlFe-ghc9.4.5.so \

@@ -6,10 +6,10 @@ from the stated elements with multiple possibilities to modify \
 the result in color and position."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn58917"
+PV = "2023.209.1.0svn58917"
 
-RPM_NAME = "texlive-byo-twemojis-2023.201.1.0svn58917-52.1.noarch.rpm"
-RPM_HASH = "97af9b0e672859f393ff721e7f604ae5a5feede2f755aa5c9385b6b49acd4559e6c3f439adde927aa5db9cd0f129c8d387fe1c0acc1c8b66247be217472a275e"
+RPM_NAME = "texlive-byo-twemojis-2023.209.1.0svn58917-53.1.noarch.rpm"
+RPM_HASH = "d6650eda07b4daf51b78cb15bdbb418bbfe8fc86d2928a80bdf42673a055ee5032369f38039d02fabf2d3fd0e8d63f2408fa1adb2c8910bc1892213237281e0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-byo-twemojis.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hep-paper"
 DESCRIPTION = "This package includes the documentation for texlive-hep-paper"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1svn64917"
+PV = "2023.209.2.1svn64917"
 
-RPM_NAME = "texlive-hep-paper-doc-2023.201.2.1svn64917-53.2.noarch.rpm"
-RPM_HASH = "4cbc0543ec93bc3eda1c130370d0d453fe89c454fe4d33ff70019548ce86033e9e2fed8f7f34ccb772abd291eb4788915cdf8ff1718496085147cb9748ce718f"
+RPM_NAME = "texlive-hep-paper-doc-2023.209.2.1svn64917-54.1.noarch.rpm"
+RPM_HASH = "e7e559faab280fb4d242d854641aa04870d68155db32bb128431c3bb296135fe81f92165fd85d7ce528509ad2b92f085fc873f8fa21e58a64f39b52dc45ca216"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hep-paper-doc"

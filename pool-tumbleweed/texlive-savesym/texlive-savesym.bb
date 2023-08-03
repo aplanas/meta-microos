@@ -8,10 +8,10 @@ back to \\XXX and defines a new command, \\yyyXXX, which \
 corresponds to the most recently loaded version of \\XXX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn31565"
+PV = "2023.209.1.2svn31565"
 
-RPM_NAME = "texlive-savesym-2023.201.1.2svn31565-53.1.noarch.rpm"
-RPM_HASH = "75342ff53efcc879f75643e4bdd4aa6aae6a87257a4ce6ca860dcf5db0046d0f2f409551812cf8b12132be11cfcd41d053c5ab4586694acc129b504735cdeeff"
+RPM_NAME = "texlive-savesym-2023.209.1.2svn31565-54.1.noarch.rpm"
+RPM_HASH = "08bee190089509a5393e151fd46e52f427eac6cb21291011d1d99eddd97989a8434d45da284a7a74271c8853715b25ec67fe1a960f729585aea8c674aad829bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-savesym.sty \

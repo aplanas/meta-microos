@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-spreadtab"
 DESCRIPTION = "This package includes the documentation for texlive-spreadtab"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5svn50147"
+PV = "2023.209.0.0.5svn50147"
 
-RPM_NAME = "texlive-spreadtab-doc-2023.201.0.0.5svn50147-57.1.noarch.rpm"
-RPM_HASH = "bc55acc671bf2db2e3c84156f3693e03081c608044fc7c9520f1f09bd765fed5aadb25fb32dfd5b8b1ac79e7699fbd20b6e617783d52065e25d271f1d0e3a5db"
+RPM_NAME = "texlive-spreadtab-doc-2023.209.0.0.5svn50147-58.1.noarch.rpm"
+RPM_HASH = "ac1c5bfc3beadeb6af8b6238de26abcd33084839ea2fe1bb963b4c17b77fd68105767eba262f38c20ef3e6fe83cde9dead1189c8d6a0bd7983c412b914fd5108"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-spreadtab-doc-en;fr \

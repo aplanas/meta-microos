@@ -9,10 +9,10 @@ names, as well as character data, may use any characters \
 allowed in XML, using UTF-8 or a suitable 8-bit encoding."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.8svn62145"
+PV = "2023.209.0.0.8svn62145"
 
-RPM_NAME = "texlive-xmltex-2023.201.0.0.8svn62145-52.2.noarch.rpm"
-RPM_HASH = "9da60223acfa7a3f331c81c0f68fc332f3d26f21e6c98e41642b4f5ad2e956ca83a8eb2c110d71405349cd0f530b22053d08668c0baeefe4d1e042032d597b58"
+RPM_NAME = "texlive-xmltex-2023.209.0.0.8svn62145-53.1.noarch.rpm"
+RPM_HASH = "7c9d86f79d99e39ee4e8f1fdf8b09971c7ed474cf59134d2ea7fc7008d3d7e5269321e0c21a23d6344fd711d435d219566903184335c3c689c3f3bf77bf7452b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xmltex.cfg \

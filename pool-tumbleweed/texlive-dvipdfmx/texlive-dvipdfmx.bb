@@ -13,10 +13,10 @@ and other information, please see TeX Live. However, the \
 information on this page is maintained and should be current."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn66203"
+PV = "2023.209.svn66203"
 
-RPM_NAME = "texlive-dvipdfmx-2023.201.svn66203-53.2.noarch.rpm"
-RPM_HASH = "41961c54b4d57282cf74c3b455b0af0ec1d8686fc5d1b134f523f16fe434f04c0054a0e71fbbd971a16336ee7048d264aa121ceb4473006e799fe771a74ec3f8"
+RPM_NAME = "texlive-dvipdfmx-2023.209.svn66203-54.1.noarch.rpm"
+RPM_HASH = "7198f62f7f8387f7766bfeb34a2d5f92e5f402fae0657be656b5168426456f5f072f1a414496affa78a722cf22424e61edd46df4b1a0c46cf3f7e2ce7659f37a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-dvipdfmx \

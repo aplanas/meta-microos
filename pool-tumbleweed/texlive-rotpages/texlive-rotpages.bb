@@ -7,10 +7,10 @@ the package, you can print the exercise text normally and the \
 solutions rotated."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.0svn18740"
+PV = "2023.209.3.0svn18740"
 
-RPM_NAME = "texlive-rotpages-2023.201.3.0svn18740-53.1.noarch.rpm"
-RPM_HASH = "b9b359db58a04a99dfd19d4b9107f79ea039bd7ddf31e538ce13b66ef127e52e143f0bcd37f60fa442cc8ec4a1adb51252775bcc976fb99ff6afa769be1606f8"
+RPM_NAME = "texlive-rotpages-2023.209.3.0svn18740-54.1.noarch.rpm"
+RPM_HASH = "ccc7744f0e2391a2084da0f52adf1e3c94359e62ee2d6ed716dc29a0d736b06adad84741de75edf33338f77ec6919044ce09cd5573689145592960db6a16a464"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rotpages.sty \

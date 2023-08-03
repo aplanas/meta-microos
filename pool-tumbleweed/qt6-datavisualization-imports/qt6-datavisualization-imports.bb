@@ -2,13 +2,16 @@ SUMMARY = "Qt 6 DataVisualization QML files and plugins"
 DESCRIPTION = "QML files and plugins from the Qt 6 DataVisualization module."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-datavisualization-imports-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "b500321f0007352b21bcabf6c024dc88885974dc1c653d0722686b3486df2e936af59498c428af61534da98a9482e463c18e35fc61231f34f28ca846203fe8ef"
+RPM_NAME = "qt6-datavisualization-imports-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "6d04f976f6350a34bfd4f6db3b88a7c39789798e5b691869847f0dbfa335c90a948b705e61e21bcb112b706d2f6d4a1daddd53b5807682de680e8304c359b236"
 
 RPROVIDES:${PN} += "libdatavisualizationqmlplugin.so \
-qt6-datavisualization-imports"
+qt6-datavisualization-imports \
+qt6qmlimport-QtDataVisualization.1 \
+qt6qmlimport-QtDataVisualization.2 \
+qt6qmlimport-QtDataVisualization.6"
 
 RDEPENDS:${PN} += "libQt6Core.so.6 \
 libQt6DataVisualizationQml.so.6 \

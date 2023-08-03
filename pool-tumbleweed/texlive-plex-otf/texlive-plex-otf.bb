@@ -8,10 +8,10 @@ math symbols. You will have to use one of the existing math \
 fonts if you need them."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.07asvn47562"
+PV = "2023.209.0.0.07asvn47562"
 
-RPM_NAME = "texlive-plex-otf-2023.201.0.0.07asvn47562-52.1.noarch.rpm"
-RPM_HASH = "a833f1a7f738eec869979b6d8cc0cdc7cb49f6127cb171cc6f76b966dda5d7613803f47a2720944a2579ddf6a0fc41ef21b20a2d5904a921c9fe1761df2e5d6a"
+RPM_NAME = "texlive-plex-otf-2023.209.0.0.07asvn47562-53.1.noarch.rpm"
+RPM_HASH = "f0171ab3b0645fd34781744fc8cd8070d604b48fdfe1bda886ef112a42cfa2c6cb06baf5a981ff61a0e3f9952518240557fb168891c14f450dff801e30277412"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-plex-otf.sty \

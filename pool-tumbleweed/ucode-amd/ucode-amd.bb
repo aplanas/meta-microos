@@ -2,10 +2,10 @@ SUMMARY = "Microcode updates for AMD CPUs"
 DESCRIPTION = "This package contains the microcode files used by AMD CPUs."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230707"
+PV = "20230724"
 
-RPM_NAME = "ucode-amd-20230707-1.1.noarch.rpm"
-RPM_HASH = "ea469a5ff579d593858159571d942d968f472c1800dff3fdcdc02e310393253f278bf61e9c0e3c466cc48111cca7af60fa52796d57d40d2654bdb7e14c144a15"
+RPM_NAME = "ucode-amd-20230724-1.1.noarch.rpm"
+RPM_HASH = "ed32ab85f09ec57d618ac4e6ebbec20cdea85c5e9c6b8230605c4704ae84b53a5d93148da51b619b637f1b1a1fc72921318fbbf8858f338459a2471453218ca7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-amd-ucode/README \

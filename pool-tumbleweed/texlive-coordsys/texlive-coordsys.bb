@@ -7,10 +7,10 @@ mechanisms: the documentation shows examples of drawing graphs \
 drawing capabilities."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.1.4svn15878"
+PV = "2023.209.1.4svn15878"
 
-RPM_NAME = "texlive-coordsys-2023.204.1.4svn15878-54.1.noarch.rpm"
-RPM_HASH = "7a18c2b972edeaabf2c477d06c85704fb63e9f01d9fe2dcda0e347fa817a157dfb21ab59ec0b3fad0f293298aa79b633264ce0a9343591989e28f972358fa576"
+RPM_NAME = "texlive-coordsys-2023.209.1.4svn15878-55.1.noarch.rpm"
+RPM_HASH = "427ebb265a0558eac6992bb4756eef0324b7741bc635cd773839bbe9f23e885c308510fa62d45f491914836ddb48e8ec8d8315b47a1d00cfc6979b1edf72d92d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-coordsys.sty \

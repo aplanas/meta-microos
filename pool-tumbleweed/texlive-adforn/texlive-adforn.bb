@@ -6,10 +6,10 @@ README.) The TeX/LaTeX support is licensed under LPPL. (See \
 README, manifest.txt.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1bsvn54512"
+PV = "2023.209.1.1bsvn54512"
 
-RPM_NAME = "texlive-adforn-2023.201.1.1bsvn54512-54.1.noarch.rpm"
-RPM_HASH = "d4a4ccb0780d2acb0e81e78a0d27ff76070d6c273a297aca28b8fb6aefbb223880f203fe4edc393f9bba96ffe1774e7b47f8db33355eeeeb21d62124e2b84a49"
+RPM_NAME = "texlive-adforn-2023.209.1.1bsvn54512-55.1.noarch.rpm"
+RPM_HASH = "178af1bcecf32c6f8f66b5ba36ec29cc546a1d41a861e3400e18f0fe3e57cd9e752cdd2506d611877e545b60fcac27d79f32edd5129acab55532e208d1e882ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-OrnementsADF.enc \

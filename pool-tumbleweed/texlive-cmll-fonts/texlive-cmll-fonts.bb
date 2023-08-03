@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-cmll"
 DESCRIPTION = "The  separated fonts package for texlive-cmll"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn17964"
+PV = "2023.209.svn17964"
 
-RPM_NAME = "texlive-cmll-fonts-2023.201.svn17964-53.1.noarch.rpm"
-RPM_HASH = "aba8a01782aa9f6c83d821909d55f88c51d0beb9f2d846fb15adebef9ec0631a623298e5a10e5ca7dba1e5bbbab4677c276fec974c85a0bacf47e05e2bea493a"
+RPM_NAME = "texlive-cmll-fonts-2023.209.svn17964-54.1.noarch.rpm"
+RPM_HASH = "5259362efab02ca3c4b4d840fe337e0c6be7629ef2cd8b29767676650ca1a65ba998bf1c582431a9aa3bd931469ee4f747258a7bf263857e64116ad691a80a3e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-cmll \

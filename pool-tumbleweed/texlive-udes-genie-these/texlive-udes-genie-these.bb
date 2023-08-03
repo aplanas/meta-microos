@@ -10,10 +10,10 @@ Sherbrooke. An example of use is also distributed with the \
 documentation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.0.1svn65039"
+PV = "2023.209.3.0.1svn65039"
 
-RPM_NAME = "texlive-udes-genie-these-2023.201.3.0.1svn65039-53.1.noarch.rpm"
-RPM_HASH = "5399faf4371ffbb9a27ca4a024745db2153339110331cea8dd451e587c8c75cf2b8d8c03ce16466258f9d543ddb4cbe8d301a42e5bde6b1918f64ab10aa9e994"
+RPM_NAME = "texlive-udes-genie-these-2023.209.3.0.1svn65039-54.1.noarch.rpm"
+RPM_HASH = "c733dc344cbcdd40d754965b5f897301000cca51bfa8a1d2ae0753adf87ac15d0f16369314dcc449bc9c358d44e6f4eaa71acb368ad966484a64da353e85b223"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-udes-genie-these.cls \

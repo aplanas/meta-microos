@@ -18,10 +18,10 @@ combination of hardware configuration, installation options and variant of the \
 operating system."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1689360748.edd4aa1"
+PV = "4.6.1690803816.e47aebd"
 
-RPM_NAME = "openQA-4.6.1689360748.edd4aa1-1.1.aarch64.rpm"
-RPM_HASH = "f2c9be5b96cbfb223f0b911aff166446e66925271b1b309fb1e41a698a5f808b313f2eb5fb259cd1fdc9bf2ac8f844323e1a1bbf0fc4a86f49a29005e4085117"
+RPM_NAME = "openQA-4.6.1690803816.e47aebd-1.1.aarch64.rpm"
+RPM_HASH = "cd4549aacf49c8df5a5d88311287082e18a34d583799f907242f4bed04a27ef2b17c6f859e514d4806147094c2e52a25da1b9fbc31c3c1298511784892eaa8b7"
 
 RPROVIDES:${PN} += "config-openQA \
 group-geekotest \
@@ -204,6 +204,7 @@ perl-Mojo--Util \
 perl-Mojolicious--Commands \
 perl-Mojolicious--Plugin \
 perl-Mojolicious--Plugin--AssetPack \
+perl-Mojolicious--Plugin--OAuth2 \
 perl-Mojolicious--Static \
 perl-Mojolicious-Plugin-AssetPack \
 perl-Net--OpenID--Consumer \

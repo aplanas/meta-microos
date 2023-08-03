@@ -6,10 +6,10 @@ useful to finish a large paragraph of text at the end of \
 chapters, prologues, etc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn56644"
+PV = "2023.209.1.0svn56644"
 
-RPM_NAME = "texlive-centerlastline-2023.201.1.0svn56644-52.1.noarch.rpm"
-RPM_HASH = "5944169e54c1a810dbee704d7a9170b48279e3359ca40103ca4a21539a174bce1e7d4a1a6098fad09ffe408090ea8b264efb86079e89fc14c096ccde42b8ec10"
+RPM_NAME = "texlive-centerlastline-2023.209.1.0svn56644-53.1.noarch.rpm"
+RPM_HASH = "bc360cda0dc7cad7140c6d8a99c7cd1892ceaccaeba601f69bfe24b161f64afef36b9100f352e9898279be940e9507c655c331f7bce429183469d12b25d44d88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-centerlastline.sty \

@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.0.1"
 
-RPM_NAME = "libtss2-tctildr0-4.0.1-1.4.aarch64.rpm"
-RPM_HASH = "a0dae5a655c1c41d7b7960aa5aa8100e663a4920f9af10f73bd0abf64689050d62230586f21a46050f7ebd1813d59cd40a119b4af66dacdc1b4ae8e487ce720e"
+RPM_NAME = "libtss2-tctildr0-4.0.1-2.1.aarch64.rpm"
+RPM_HASH = "3bbc9f19e77755a9ad124b1e239bb686ab31006f65a5f9ed7ba0d58c938b61f1cf55024652fb243222f01c48351e278a6ab8bef0f1f30f6fe63a3c5a8a3bae3d"
 
 RPROVIDES:${PN} += "libtss2-tctildr.so.0 \
 libtss2-tctildr0"

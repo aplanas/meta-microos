@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-epigrafica"
 DESCRIPTION = "The  separated fonts package for texlive-epigrafica"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.01svn17210"
+PV = "2023.209.1.01svn17210"
 
-RPM_NAME = "texlive-epigrafica-fonts-2023.201.1.01svn17210-53.2.noarch.rpm"
-RPM_HASH = "6520537b68f7ea7d0a83a60727c40070c1ec2f86b4545ba00cc85fbc28e2b5cc4675b664eab1880ff85a815232136e894e74478a99a8b3ab9b857d0ae5cf1c91"
+RPM_NAME = "texlive-epigrafica-fonts-2023.209.1.01svn17210-54.1.noarch.rpm"
+RPM_HASH = "a42234ca12cb961567b5c66ec755c2dfff6c913e7fac7408efb2f8e3f1078a98cc13cd357f4c9ba1dbd1f1e512567f5e898f63e70247509c1d75ec354def6c45"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

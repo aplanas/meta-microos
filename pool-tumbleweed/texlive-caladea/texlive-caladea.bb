@@ -6,10 +6,10 @@ and adopted by Google for ChromeOS as a font-metric compatible \
 replacement for Cambria."
 LICENSE = "Apache-1.0"
 
-PV = "2023.201.svn64549"
+PV = "2023.209.svn64549"
 
-RPM_NAME = "texlive-caladea-2023.201.svn64549-52.1.noarch.rpm"
-RPM_HASH = "352c46bbd9a4078a7e3bf86a07c43fdfcb74397ae539210ab49ae926fabf151198e5cf9411437425ade7840e4189847f7fc97dbfce92c215c38cc0d80a506c6e"
+RPM_NAME = "texlive-caladea-2023.209.svn64549-53.1.noarch.rpm"
+RPM_HASH = "4cc44deb69c85360640f8ea5a13effaa0e9904238f42ea06bf9f6db255eaa3afb01d0f0c17bf5d7ab6c97db0e55d3412ef824113369729cf4a75de9fd915a102"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Caladea-Bold-tlf-ly1--base.tfm \

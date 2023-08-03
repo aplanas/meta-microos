@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.2.0"
 
-RPM_NAME = "python-manilaclient-doc-4.2.0-1.6.noarch.rpm"
-RPM_HASH = "8cc22060b40f8e8c11ca85edb9e88d429ee5846f64dfe6104cb0099eb427cd14c06725c64969659b159a99e141a2064ee4b9fc4faa2ccd5649bef29fc48f2580"
+RPM_NAME = "python-manilaclient-doc-4.2.0-1.7.noarch.rpm"
+RPM_HASH = "de97e3d45f46bd61960270f72fc30036d74353350d0ec4b1d8e8bbf2d396a720aada89e2fd8a59beeabd253ce65c9aa194bce220ba0c270f6c91d9b72d443d30"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-manilaclient-doc"

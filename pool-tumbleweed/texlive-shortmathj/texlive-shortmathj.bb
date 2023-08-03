@@ -4,10 +4,10 @@ and short journal names aswritten in AMS standard: \
 https://mathscinet.ams.org/msnhtml/serials.pdf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5.0svn54407"
+PV = "2023.209.0.0.5.0svn54407"
 
-RPM_NAME = "texlive-shortmathj-2023.201.0.0.5.0svn54407-53.1.noarch.rpm"
-RPM_HASH = "083629cf70d89607fddf11410b0f07066ffd2ee87c3f8ffef84adbef5eecd995ea79e27f6b0ff9400aed67669291a4b559c811d329f56eebccd97ad0365e308f"
+RPM_NAME = "texlive-shortmathj-2023.209.0.0.5.0svn54407-54.1.noarch.rpm"
+RPM_HASH = "28ccf172f287752ac95fc1868f2ca47674e7baa10c24260c731dd2494684d6c270aaa698e242f517520304cce41a009b8c46473a2cc42da66e4f2dc44b0de59d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-shortmathj.sty \

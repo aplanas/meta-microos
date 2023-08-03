@@ -12,8 +12,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.3"
 
-RPM_NAME = "qemu-headless-8.0.3-1.1.aarch64.rpm"
-RPM_HASH = "de3c682f52fd2ae817d73304839ced46681fb89310a6158cdaa99ae08421d503e81f077c8563963572143e1a1a371e281135e5446f2e06e756e7e2798efadf84"
+RPM_NAME = "qemu-headless-8.0.3-2.1.aarch64.rpm"
+RPM_HASH = "da0b75f1ef53d6196810e2b4209184db8d213c9d1c86922f1d7863d4cd5b0da35a14b690aa6c0f94b614f941572c431a108b74f3c797f10c3e032f7db6a9ed65"
 
 RPROVIDES:${PN} += "qemu-headless"
 

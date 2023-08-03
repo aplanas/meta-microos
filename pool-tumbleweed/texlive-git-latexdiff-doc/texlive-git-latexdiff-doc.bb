@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-git-latexdiff"
 DESCRIPTION = "This package includes the documentation for texlive-git-latexdiff"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.1.6.0svn54732"
+PV = "2023.209.1.6.0svn54732"
 
-RPM_NAME = "texlive-git-latexdiff-doc-2023.201.1.6.0svn54732-52.1.noarch.rpm"
-RPM_HASH = "11b83271732bdaa63884e3dc7848fb78fd5f8b627a53db2998907d9540f0d9d3b14dec9da372fdf13c8f569ae4285a99dbf5f32932055cd6d7eeaf8f9ee33f30"
+RPM_NAME = "texlive-git-latexdiff-doc-2023.209.1.6.0svn54732-53.1.noarch.rpm"
+RPM_HASH = "c6d20a2da538d0e1c7a8ba1105b965c53efb84ad9532aae3ab20978bb60951275b5001e81c236353717b2907d44656c6992622800e9b4b48ff2d988d5f52993a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-git-latexdiff.1 \

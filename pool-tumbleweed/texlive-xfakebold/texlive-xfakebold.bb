@@ -7,10 +7,10 @@ well as for LuaLaTeX. The package depends on ifluatex, ifxetex, \
 and xkeyval."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.08svn55654"
+PV = "2023.209.0.0.08svn55654"
 
-RPM_NAME = "texlive-xfakebold-2023.201.0.0.08svn55654-52.2.noarch.rpm"
-RPM_HASH = "26240dbdc9af0a860965a8dec780f9aff25cf99b6d19f8fab0c44f68d174172adf9d2478528b2123357bd8420d57e83711c4ad8ab25c27deeade687dff58ec15"
+RPM_NAME = "texlive-xfakebold-2023.209.0.0.08svn55654-53.1.noarch.rpm"
+RPM_HASH = "a34fa7883a17f511df368bfd3517ba30e1492751ca49e035c8f98d28ce0e4915602953121b0e8a56bb76b61486cc8adeed37bbe82ad94fbb7e337d0af8953ab1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xfakebold.sty \

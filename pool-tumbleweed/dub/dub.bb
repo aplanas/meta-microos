@@ -7,10 +7,10 @@ not only directly build projects, but also to generate project files \
 (dub's package description) as project file."
 LICENSE = "MIT"
 
-PV = "1.29.0"
+PV = "1.33.0"
 
-RPM_NAME = "dub-1.29.0-1.4.aarch64.rpm"
-RPM_HASH = "4600ac490641b39d3f6125e2fdf6a479139decd7806f06700a76a15c08b3d94095cb7dc160a00801d2895be57f19d603d4e964221fe5f969c4a746988b9c3c32"
+RPM_NAME = "dub-1.33.0-1.1.aarch64.rpm"
+RPM_HASH = "cdaa14751a6320fca6cbb8940a43181714a8f9aeaa8c4547d24c79361403c1e0faa51717c6485c0f0ddfc103f7d0a4a5fc6f5517b83a0cdd4a6cfe9137d8d3a8"
 
 RPROVIDES:${PN} += "dub"
 

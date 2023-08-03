@@ -5,10 +5,10 @@ currently unmaintained. Please see the README for the procedure \
 to follow if you want to take over the maintenance."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn52647"
+PV = "2023.209.1.2svn52647"
 
-RPM_NAME = "texlive-datetime2-breton-2023.201.1.2svn52647-52.1.noarch.rpm"
-RPM_HASH = "86d19934e0e46bc89a37ed6d1bcd48af394bc61b3435845f6a9347d953074459e63ee90c57ae248127c47eeb13551bd448d361a37a49fba8b5274b8ce2bbf666"
+RPM_NAME = "texlive-datetime2-breton-2023.209.1.2svn52647-53.1.noarch.rpm"
+RPM_HASH = "3fab246806277ac09796fe047bade39844b8fb9ba14bfd9cfb84f56b6c1fac1ef83d726469331d1005e1bae58736d33c197d93c09a9d3c97b29eb78e91e31c61"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-breton-ascii.ldf \

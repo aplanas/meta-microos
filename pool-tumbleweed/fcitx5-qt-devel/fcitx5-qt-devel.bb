@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later"
 
 PV = "5.0.17"
 
-RPM_NAME = "fcitx5-qt-devel-5.0.17-1.3.aarch64.rpm"
-RPM_HASH = "e605533e1f91b7f109b4623f1f4973f06bb753230536180be8f48628c1c1971b0d9d2bbd65df27ec9a80315bede1b8dbf275649e47da8d78befdd122bb869cc9"
+RPM_NAME = "fcitx5-qt-devel-5.0.17-1.4.aarch64.rpm"
+RPM_HASH = "bd40be7edff32fb61fcb5f6c7c9460dcef21e17435366b020b1e674c115ecac6c7578eecdbd2e57b15ed85073f99aa182f393362471a317d03172532421ce490"
 
 RPROVIDES:${PN} += "cmake-Fcitx5Qt5DBusAddons \
 cmake-Fcitx5Qt5WidgetsAddons \

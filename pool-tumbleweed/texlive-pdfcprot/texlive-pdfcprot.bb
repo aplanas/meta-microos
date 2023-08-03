@@ -5,10 +5,10 @@ adjustment automatically depending on the font. The package is \
 largely superseded by microtype."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.7asvn18735"
+PV = "2023.209.1.7asvn18735"
 
-RPM_NAME = "texlive-pdfcprot-2023.201.1.7asvn18735-51.1.noarch.rpm"
-RPM_HASH = "7ba9a9e5e72e1113757ec06c7b2e1b8e713d98ae4d08e64c50befccde1dd95f06ba2c2f998342f3d0012666d9b0d1d4646265e5e17a521c726b0a15df61fbc14"
+RPM_NAME = "texlive-pdfcprot-2023.209.1.7asvn18735-52.1.noarch.rpm"
+RPM_HASH = "60cf8867971feeb6da51ca47ef9e41d26c87b784f0dfd6835080900176e4a5e965143fa7d9c639f4903e4fbe15dea198706ef07a154f697e0007df85ecc30ed7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdfcprot.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-recipe"
 DESCRIPTION = "This package includes the documentation for texlive-recipe"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.0.0.9svn54080"
+PV = "2023.209.0.0.9svn54080"
 
-RPM_NAME = "texlive-recipe-doc-2023.201.0.0.9svn54080-53.2.noarch.rpm"
-RPM_HASH = "0f78cdeb7d576b39e9c743c7b2072e6c03a2b467d0dbc51b928d273e965917d45566267f2a84a9f624403eff36b6078bdd450b7db580894854dfc98e8db850d9"
+RPM_NAME = "texlive-recipe-doc-2023.209.0.0.9svn54080-54.1.noarch.rpm"
+RPM_HASH = "8a660db2456f54a7ae0549bffd0705a8a8f11f53a5b196907408726730e4e2e09a21cd3dac9f73ece7afae7b372119eef317d62661402bed3db7de5c7ded0971"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-recipe-doc-it \

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-asapsym"
 DESCRIPTION = "The  separated fonts package for texlive-asapsym"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn40201"
+PV = "2023.209.1.0svn40201"
 
-RPM_NAME = "texlive-asapsym-fonts-2023.201.1.0svn40201-53.1.noarch.rpm"
-RPM_HASH = "996c9c7474a802e4b7c5075d6672707238a37f628b34c130991b0b3b6f5bf75e1694eae53b1994a4919f1590a0ab5b2a175f9423d5e2a501f91dd14109974195"
+RPM_NAME = "texlive-asapsym-fonts-2023.209.1.0svn40201-54.1.noarch.rpm"
+RPM_HASH = "74d0906ec752663dfec7bb689437b5c0b903f76cac6b062986934a1616b74716e5fa318fefcbbdca94738ead69f5d6505e4cbd9ff59c3ebf821648f0817c0722"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

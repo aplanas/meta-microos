@@ -9,10 +9,10 @@ a relative of LaTeX doc format: it will run unmodified, though \
 it benefits from docstrip treatment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn42428"
+PV = "2023.209.svn42428"
 
-RPM_NAME = "texlive-patch-2023.201.svn42428-51.1.noarch.rpm"
-RPM_HASH = "6cec55264d230a97801d38bf11ad57ad2063c16bb0c47e65c414a473656eee1d74191ca88ffad69d96c7a3a7ae7847e7d940593c16a57d03ecd646ec41420951"
+RPM_NAME = "texlive-patch-2023.209.svn42428-52.1.noarch.rpm"
+RPM_HASH = "6746ac771a0d0a869cc9494e24cbd449749fbc92e41b3de6eb9dd431dc234975e9a21cf1527d75c049cea329973a913804e063e82ba343c4db04e4c317acc629"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-patch"

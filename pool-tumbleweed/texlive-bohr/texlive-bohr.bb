@@ -5,10 +5,10 @@ commands are provided to convert atomic numbers to element \
 symbols or element names and vice versa."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn62977"
+PV = "2023.209.1.0svn62977"
 
-RPM_NAME = "texlive-bohr-2023.201.1.0svn62977-52.1.noarch.rpm"
-RPM_HASH = "9072ef1f48cf02c6d9f62ea7aeb099137833af0d731f15223ea697534ca46d79ec888afbaf95116c0dcdb7037dfc12de997c7122d4984d1b0e545d99edfc6d0d"
+RPM_NAME = "texlive-bohr-2023.209.1.0svn62977-53.1.noarch.rpm"
+RPM_HASH = "896d4908295eb2cdba7b11b25dd39540024c6151b8336f47b2d0e88c42ff1390cf0207ba01e33d8770216cd934b3774652a2aa24d2f0ff413d29a3d13b84ce54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bohr.sty \

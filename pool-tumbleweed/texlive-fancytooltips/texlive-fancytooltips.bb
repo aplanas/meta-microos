@@ -8,10 +8,10 @@ The links and JavaScripts are inserted using eforms package \
 from the AcroTeX bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.8svn56291"
+PV = "2023.209.1.8svn56291"
 
-RPM_NAME = "texlive-fancytooltips-2023.201.1.8svn56291-52.1.noarch.rpm"
-RPM_HASH = "274bc54e6f25147b9bcfb9c1ba24078ec2bd47127996502fa3148e6631f3ce2bc844e49551fd8322c59855a755c41638aa7a8c6b5ccfcc4de838e39b78502fb8"
+RPM_NAME = "texlive-fancytooltips-2023.209.1.8svn56291-53.1.noarch.rpm"
+RPM_HASH = "0e72f0130a11108b40258232b1a6b7726505735e3bb43a5ab91d76f33e56277244c99f065fed455a991c7b0b49d91e90469ac349930b027380e09749ae304b57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fancytooltips.sty \

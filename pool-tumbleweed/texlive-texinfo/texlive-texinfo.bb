@@ -9,10 +9,10 @@ macros and texi2dvi script may be found in the texinfo-latest \
 package, which are usually newer than the last full release."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.6.8svn66354"
+PV = "2023.209.6.8svn66354"
 
-RPM_NAME = "texlive-texinfo-2023.201.6.8svn66354-54.1.noarch.rpm"
-RPM_HASH = "6f09405fd3b998e92f5515971377a8fdbe1ddcefe39a4f48d0ad3d05f91566163e5f53ba9ec1853d80edb33419c8c3154f0329ca3c36957659fb91126b69b920"
+RPM_NAME = "texlive-texinfo-2023.209.6.8svn66354-55.1.noarch.rpm"
+RPM_HASH = "be491128e7de448dfff90c03ba50292be9e2323fdd0ecdba4f60882c874bd93ba014e15f66187dcff09f1b212c7add25fb301aedafad959f6066bbddbfa9db33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-texinfo.tex \

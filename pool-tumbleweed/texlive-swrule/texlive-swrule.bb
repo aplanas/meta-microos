@@ -4,10 +4,10 @@ number of pieces, whose size varies to produce the effect of a \
 rule that swells in its centre."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54267"
+PV = "2023.209.svn54267"
 
-RPM_NAME = "texlive-swrule-2023.201.svn54267-57.1.noarch.rpm"
-RPM_HASH = "ec696cd91f19b66ee751b81447e44b3b7d8c9d915de8b4c09951f30bd3b2486200544d6c59721ce6d91dccf991b4a1009a49979c5a42080af504e3793d08a0be"
+RPM_NAME = "texlive-swrule-2023.209.svn54267-58.1.noarch.rpm"
+RPM_HASH = "a0b936c580479bd6f3f6e0c7584532d46a430f6a82ce58b9edbca90e844128c3d59b7352315fc95b8d4c7aa05cfb60a970b6c60d53f7dc4fc9cd444baa59bcd5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-swrule.sty \

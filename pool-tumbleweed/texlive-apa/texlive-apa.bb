@@ -11,10 +11,10 @@ use. Apacite, which used to work with this class, has been \
 updated for use with apa6."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3.4svn54080"
+PV = "2023.209.1.3.4svn54080"
 
-RPM_NAME = "texlive-apa-2023.201.1.3.4svn54080-54.1.noarch.rpm"
-RPM_HASH = "165cc3e1a6629e7edc62e2871dd2176641c5704551e288167cdbb43a02df1d6ead2906ad2fc54410e92ecea5a7d690b06f5154a333df5710d2362a50c42b4df5"
+RPM_NAME = "texlive-apa-2023.209.1.3.4svn54080-55.1.noarch.rpm"
+RPM_HASH = "5bd415e13af2ac13c43215ea9d978dec5b4c7f9875abbb1576c22527468be8bbbebba30d3a1c8f1c0a90dd94e17a22614878ffa90202bb7e63580f6fdb7eb692"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-apa.cls \

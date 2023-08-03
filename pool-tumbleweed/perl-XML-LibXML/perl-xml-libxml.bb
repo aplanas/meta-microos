@@ -6,10 +6,10 @@ split into several packages which are not described in this section; unless \
 stated otherwise, you only need to 'use XML::LibXML;' in your programs."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.0208"
+PV = "2.0209"
 
-RPM_NAME = "perl-XML-LibXML-2.0208-1.4.aarch64.rpm"
-RPM_HASH = "9a425dadea4c2d49ec722f9ceb1dd7de95de20ab84b1d6486fda1f484ba1ece3bb1c0793f3b67c17c6100702932370c05dae92bae8eb1f9d50fbb2cdc2525492"
+RPM_NAME = "perl-XML-LibXML-2.0209-1.1.aarch64.rpm"
+RPM_HASH = "6cd185cfa8577cc3cc4538c7505ab22d01f52dff639ecf3965eebed886c0959f51b969561a429c45fd3904c4f5f6e19f22fa61f2699f8758975916296a55b9a1"
 
 RPROVIDES:${PN} += "perl-XML--LibXML \
 perl-XML--LibXML---SAXParser \

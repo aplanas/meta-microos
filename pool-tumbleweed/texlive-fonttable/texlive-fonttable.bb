@@ -10,10 +10,10 @@ has a \\fonttable function; the documentation explains how avoid \
 a clash with that package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6csvn44799"
+PV = "2023.209.1.6csvn44799"
 
-RPM_NAME = "texlive-fonttable-2023.201.1.6csvn44799-52.1.noarch.rpm"
-RPM_HASH = "de30c5d5856c6fb775945e38809699f9ba5f3dc1e5ad8257968cba594cdd39531a270a5034d4451b18652c8bb29759d8f613ed4f4eb31e6d14b11aa112f82cac"
+RPM_NAME = "texlive-fonttable-2023.209.1.6csvn44799-53.1.noarch.rpm"
+RPM_HASH = "42af413151a5b41ba5146df72a81abcd2f38b38e000cdf607ab18d76d09321284c0d130d0c8347e8ccd372eacc818f2f9fe39a76da2a21d64ded61798d3cf8f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fonttable.sty \

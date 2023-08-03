@@ -4,10 +4,10 @@ icons provided by the included font. The package requires the \
 package, fontspec, if run with XeTeX or LuaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.6.3.2svn48145"
+PV = "2023.209.4.6.3.2svn48145"
 
-RPM_NAME = "texlive-fontawesome-2023.201.4.6.3.2svn48145-52.1.noarch.rpm"
-RPM_HASH = "e5a41f21aa2728d353107b098f3b0a29f0122bcb678e0b46bab9fcfb0dddebe755c10a69e60f77d5a9303ac450f71861ab54e91b775d5a5d77bcbba864059576"
+RPM_NAME = "texlive-fontawesome-2023.209.4.6.3.2svn48145-53.1.noarch.rpm"
+RPM_HASH = "e2c55d063d15f7b61f41ae10a1542c08e3730022e5b591308c560c4c0cc9181497550121491aa4abb7b162bc372b0f4ecc78019070ef5e3bc852878eaeb25e4e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-FontAwesome--fontawesomeone.tfm \

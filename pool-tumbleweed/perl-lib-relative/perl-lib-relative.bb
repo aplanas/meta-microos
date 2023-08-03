@@ -21,10 +21,10 @@ For cases where this module cannot be loaded beforehand, the last section \
 of the 'SYNOPSIS' can be copy-pasted into a file to perform the same task."
 LICENSE = "Artistic-2.0"
 
-PV = "1.001"
+PV = "1.2.0"
 
-RPM_NAME = "perl-lib-relative-1.001-1.5.noarch.rpm"
-RPM_HASH = "cec9a834cd34821ce3822e3a7ffb529e45911f9eabdcfed3dd76401f72a1376658e2d82864cf902982a8c213bb149c9dd06923cebc3c1fc9708eabf3d5246956"
+RPM_NAME = "perl-lib-relative-1.2.0-1.1.noarch.rpm"
+RPM_HASH = "594be81e8fa5112ea56cdb6e1f2c38fee6486676b2424fdf066d2c45ec714d0a108a45680dfe0a4834f88e6449dd0aeec11647c95c6ca3351ac7780bbfe2acc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-lib--relative \

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-fbb"
 DESCRIPTION = "The  separated fonts package for texlive-fbb"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.16svn55728"
+PV = "2023.209.1.16svn55728"
 
-RPM_NAME = "texlive-fbb-fonts-2023.201.1.16svn55728-52.1.noarch.rpm"
-RPM_HASH = "0f795ccd7f96b31362c3ca85220a2229b6929abcce4034863c9d5b85e0ac01ef4ae3bf5148c92465162bafd575bc22fbb9ffee8d310e8c6c1f9e44c707c4e32f"
+RPM_NAME = "texlive-fbb-fonts-2023.209.1.16svn55728-53.1.noarch.rpm"
+RPM_HASH = "882f00e93fbc5a5c15086ca14e3661d5f60fdf0a3471ad87ce1d8cdc46b78a60f42f626768eab5cdde8f05c13e140a9e421c8d14c9c5781ef8aa9997ca471139"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-fbb-fonts \

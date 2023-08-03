@@ -2,10 +2,10 @@ SUMMARY = "Documentation for qt6-3d in HTML format"
 DESCRIPTION = "This package contains documentation for qt6-3d in HTML format."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-3d-docs-html-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "aa98a05a9a9ee867257c1c3e540ab817678369cdfcab67a901b40d9bccf392f61ac064c0a428cc449a78832d367f2c4902e98168435c0480fdfcc3f6905fcb01"
+RPM_NAME = "qt6-3d-docs-html-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "91316c69ac237d7c19bb400781d50ceaa64cc5d84cff517d48f351cdbd8bea59f4df150305778d7be417297a8b687abc17938f2263b445b73552890abf5fee71"
 
 RPROVIDES:${PN} += "qt6-3d-docs-html"
 

@@ -7,10 +7,10 @@ material enables use with LaTeX. Licence is mixed: LPPL for \
 LaTeX support; GPL with font exception for the fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.005_bsvn19705"
+PV = "2023.209.1.005_bsvn19705"
 
-RPM_NAME = "texlive-electrum-2023.201.1.005_bsvn19705-53.2.noarch.rpm"
-RPM_HASH = "cc31d5a076cb6aceffac271b0bd27f260e4bfe10c450145436fca30fd8ae7324eb87f43ddaefda25b45df9fe63ca9bac07af07a59c23b745bb47a5fe36984623"
+RPM_NAME = "texlive-electrum-2023.209.1.005_bsvn19705-54.1.noarch.rpm"
+RPM_HASH = "2ab5652ebd02117af946e3b0046d887d8136630ae6889e24f1abda5fa7df46bd29c85cf4c6640a1034117bd3c2e99960ef25245376b3e33be12898ffc0e125b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-electrum.sty \

@@ -4,10 +4,10 @@ hatching interior of closed paths. Examples of usage are \
 included."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.0.0.11svn23818"
+PV = "2023.209.0.0.11svn23818"
 
-RPM_NAME = "texlive-hatching-2023.201.0.0.11svn23818-53.2.noarch.rpm"
-RPM_HASH = "0ccfbda85f5e05b5c89e03739159b42767f6eee4cf8b7d6dfebd5398ec81ded86823096ce9d811bee4f699b3452ff3471b8037ddb58bdc4d35f1f849b8269f79"
+RPM_NAME = "texlive-hatching-2023.209.0.0.11svn23818-54.1.noarch.rpm"
+RPM_HASH = "b92c641b731858714b574056a88f59ea75fecb59f79cc7d2338743315560c40f05e4d64e9796118fc4d224f6ba41bc01b5b2f7885bf640716c0072ad0cac6361"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hatching"

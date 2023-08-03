@@ -15,10 +15,10 @@ parameter. If you want to compress/uncompress to a single buffer, and have \
 when you create the compression/decompression object."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.204"
+PV = "2.206.0"
 
-RPM_NAME = "perl-Compress-Raw-Lzma-2.204-1.4.aarch64.rpm"
-RPM_HASH = "57d921a94d4542a2bed3c4c87136cea810f3d1d97ec97afff8bdb0888230e6130e1bab95684a64b6a7cccfb706fb74428634e909633962030baa6873552a3e37"
+RPM_NAME = "perl-Compress-Raw-Lzma-2.206.0-1.1.aarch64.rpm"
+RPM_HASH = "0cc9eb3868cfd4b2331c3251d19dc8742c1d6194bfb03db0846e0fa012ea6b3385349b867d5f23cb60b9cd72843bb95fdd7832383f99e656860489c3d69f03fc"
 
 RPROVIDES:${PN} += "perl-Compress--Raw--Lzma \
 perl-Compress-Raw-Lzma"

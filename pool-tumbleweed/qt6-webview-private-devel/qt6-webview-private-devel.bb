@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6WebView that do no
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-webview-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "8c09a83ab3cf71959b0d7cf41ec5c99f8fdc64a50361c2a086a75db2d78e3818ed4a77574a3fe8802918334370fb46f3fc19c285c3f31d25cff8c240ea4aab72"
+RPM_NAME = "qt6-webview-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "e54d24bb0f7ab600d40d6528804d501a91d20ad09ed2a5b1f06348eaae77a3203ea15bbf551acfd61419e38b74d30ab7a6b377d84b7e738f867e0f10495bd0ec"
 
 RPROVIDES:${PN} += "qt6-webview-private-devel"
 

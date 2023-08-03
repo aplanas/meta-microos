@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the scripts necessary to plug Full Disk Enc
 into the JeOS Firstboot framework used for image based delivery of ALP."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.6.5"
+PV = "0.6.6"
 
-RPM_NAME = "fde-firstboot-0.6.5-3.1.aarch64.rpm"
-RPM_HASH = "75f2e701e7bee3b8ce481f0f9191481aed13c88f0ad6877716346f9960512149118bbd84b124c3caa22e8f48299962dcae550546be4eaf9331d07045c44a8112"
+RPM_NAME = "fde-firstboot-0.6.6-2.1.aarch64.rpm"
+RPM_HASH = "288452b5a46436b672d27f30c6c864d435837b33fc92ad8135ad6be1d1b4ff8bd56935fa5aba7e1c29fff22973f6d8bfd2f8c694db9198981020efc7186e1a50"
 
 RPROVIDES:${PN} += "fde-firstboot"
 

@@ -14,10 +14,10 @@ keyval packages. For attractive output it also requires a \
 colour output device."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn25446"
+PV = "2023.209.svn25446"
 
-RPM_NAME = "texlive-swimgraf-2023.201.svn25446-57.1.noarch.rpm"
-RPM_HASH = "6009ea464ce079735d8af546aadbf49cd3bd4b057ba1cf990e2462d4eaa8d50cda3d12c78a14aeba804cff60ea8772f1f4cff94ea71bc192591dab43a3e44f21"
+RPM_NAME = "texlive-swimgraf-2023.209.svn25446-58.1.noarch.rpm"
+RPM_HASH = "db4c61a66fa20c7fb22961c92551c757161d1fae4f6e953d6b65556389204001d18e52b1c3069625c062b6ae3a12c6438a5da902f10e2f52c86fa94a74b2b87b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-swimgraf.cfg \

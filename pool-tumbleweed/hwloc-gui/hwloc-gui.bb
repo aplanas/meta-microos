@@ -2,10 +2,10 @@ SUMMARY = "Hwloc GUI tool"
 DESCRIPTION = "Hwloc GUI visualization tool - requires X11"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.9.1"
+PV = "2.9.2"
 
-RPM_NAME = "hwloc-gui-2.9.1-1.1.aarch64.rpm"
-RPM_HASH = "a9bedd51865012a2f3d825542922c155a8a784c60ee20a24dc57dd349bd70a8c57fe76b039b4654e1e8d524bc29d86034996e01952930b76a71a8f0494bc616f"
+RPM_NAME = "hwloc-gui-2.9.2-1.1.aarch64.rpm"
+RPM_HASH = "9887a3f63b179eafd211559657b7ae8ad37114921cf914ea9de90cb756feeb482a354ad02182ce3107c007c8501de00d4b45628656ff80ce4e8591febc397d6a"
 
 RPROVIDES:${PN} += "hwloc-gui"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "This lightweight package provides the colorstrip environment, \
 that places its contents into a full page width colour strip."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn60363"
+PV = "2023.209.svn60363"
 
-RPM_NAME = "texlive-clrstrip-2023.201.svn60363-53.1.noarch.rpm"
-RPM_HASH = "fa0b3091e285f2c504d52d1622131fb50574d1f5fb8bc895fde93d52d9754f86e69ba0626833b28fbb1ff106231e09a22a5c024a819b010ce7060cf8915cd15c"
+RPM_NAME = "texlive-clrstrip-2023.209.svn60363-54.1.noarch.rpm"
+RPM_HASH = "45d1d2117c7161f8b4b2c1c9b9e074fd9dfa1cd2dabf4169cf74a7b0a83b99f1f421908af22f232c0a028a3cfc3cb9a503a9ea2a13766453fd8e05d60ecbf5a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-clrstrip.sty \

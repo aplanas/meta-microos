@@ -7,10 +7,10 @@ everysel (obsolete), which used to be part of this bundle, have \
 become independent packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn57473"
+PV = "2023.209.svn57473"
 
-RPM_NAME = "texlive-ms-2023.201.svn57473-54.1.noarch.rpm"
-RPM_HASH = "0a0d9475dd86e1b774ae9383a4e84149483911bdf9116a8d506a123fa0ea8514164bad85297af10aecf3f27be8fb373ed13aa77f7289a1480d88c63642a91aa8"
+RPM_NAME = "texlive-ms-2023.209.svn57473-55.1.noarch.rpm"
+RPM_HASH = "d25f23ac66048399b0390f3a70d12eb3451807dc75b09ff20e154360841a4f824cb627ea7772206dd2866a927d456f907d0bb405210291a1487a5848f9186d9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-count1to.sty \

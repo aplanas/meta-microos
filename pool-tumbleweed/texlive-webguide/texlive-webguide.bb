@@ -3,10 +3,10 @@ DESCRIPTION = "The documentation constitutes an example of the package's own \
 recommendations (being presented both in PDF and HTML)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn25813"
+PV = "2023.209.svn25813"
 
-RPM_NAME = "texlive-webguide-2023.201.svn25813-53.1.noarch.rpm"
-RPM_HASH = "903f307f83a5d9b5e6964e275130a78ccd4acedf532c09e84d45b134c905ab6145ab6c57de9bb6769f2acf7f4666e3f226e43c28a8ed4d6eddcb606e7ef32c42"
+RPM_NAME = "texlive-webguide-2023.209.svn25813-54.1.noarch.rpm"
+RPM_HASH = "e9ada34e5b1bfa843bd687ff0c956fca3ad4b24bf41d507d0da135bc175728872df1cc4fd41affe5b54d99f052b4135e2c95753d3acacb006a13e1465e7a9796"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-webguide"

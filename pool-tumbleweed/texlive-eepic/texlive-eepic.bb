@@ -8,10 +8,10 @@ filled circles and ellipses. The package uses tpic \\special \
 commands."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.1esvn15878"
+PV = "2023.209.1.1esvn15878"
 
-RPM_NAME = "texlive-eepic-2023.201.1.1esvn15878-53.2.noarch.rpm"
-RPM_HASH = "afe7a20cbb902b549824f161437c116d8f72482eaa148ce48fd6e0066b47e0e4f46b3e90d87c26205b6effdeda7955a2f796e3612226e61857a6f149c9c1e040"
+RPM_NAME = "texlive-eepic-2023.209.1.1esvn15878-54.1.noarch.rpm"
+RPM_HASH = "58ba096539574bbe0e292e96ca10e4107abf1e642b34ddf65a8f4bb9b99db0fdd34e56e08ffe7b1799ba2afbe51a2a910af2b00b3dc3c8e80bd434b9559cecc0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eepic.sty \

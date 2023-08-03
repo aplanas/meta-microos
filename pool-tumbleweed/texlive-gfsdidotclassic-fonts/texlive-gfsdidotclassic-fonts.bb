@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-gfsdidotclassic"
 DESCRIPTION = "The  separated fonts package for texlive-gfsdidotclassic"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.001.001svn52778"
+PV = "2023.209.001.001svn52778"
 
-RPM_NAME = "texlive-gfsdidotclassic-fonts-2023.201.001.001svn52778-52.1.noarch.rpm"
-RPM_HASH = "6ef2f74aa9f2ec42368cfd6f6221cae33728ca5b846e52419c986a49ea98ae51313eddec24e1e16301176ddc5c3ae62f10274a8deb658c6b0aa828b38b7173f4"
+RPM_NAME = "texlive-gfsdidotclassic-fonts-2023.209.001.001svn52778-53.1.noarch.rpm"
+RPM_HASH = "2c08f471b2e28513a5a2213e85777e986652b3dffe6d745acece5e551963425ed978875e47105a0defe7da8549dc2f1bede80df6df207683e6ad0cb470a4e14a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=el \

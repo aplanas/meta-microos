@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.9.2.0"
 
-RPM_NAME = "ghc-clientsession-0.9.2.0-1.1.aarch64.rpm"
-RPM_HASH = "3dba11494568cf6c94e73eb1b91531f03b78f03b0604768d978be3d0175e9f8f288152b4c85a44ecbbc1b474d797106115d28d2b12da2686cb1ac83686c660b2"
+RPM_NAME = "ghc-clientsession-0.9.2.0-2.1.aarch64.rpm"
+RPM_HASH = "fbe26f8bf7535608d1a2ae5f36ffa87e16ccbf4800d5a2449813dc13a33ab95274d57ff9127663fa4a88c5b312d48e81844f03aab6ead7d58d9913ca1fec25ad"
 
 RPROVIDES:${PN} += "ghc-clientsession \
 libHSclientsession-0.9.2.0-4cx1ifSXftyKQDB0RGxUDf-ghc9.4.5.so"

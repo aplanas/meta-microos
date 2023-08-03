@@ -5,10 +5,10 @@ side effect, a change to the handling of multiple footnotes is \
 provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1asvn62248"
+PV = "2023.209.1.1asvn62248"
 
-RPM_NAME = "texlive-fnpct-2023.201.1.1asvn62248-52.1.noarch.rpm"
-RPM_HASH = "c17000c0139f97b1a16fd689975bc113146494707c9b2283aa13889e37a3704cf72a788d1c15e1ef110902ba5374a256f3fd2c877b3c9163e0692d5c51b62e5b"
+RPM_NAME = "texlive-fnpct-2023.209.1.1asvn62248-53.1.noarch.rpm"
+RPM_HASH = "0253a1b350651f52f0d1279da13646e0e3d6c75024a948a3a130c74fd41ef2b870ebcd68c5f288217c5472e095d91c9739940ca8917f593095cd55b55fb22f64"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fnpct-2019-10-05.sty \

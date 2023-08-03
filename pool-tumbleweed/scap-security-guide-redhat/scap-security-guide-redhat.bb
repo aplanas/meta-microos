@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.68"
 
-RPM_NAME = "scap-security-guide-redhat-0.1.68-1.1.noarch.rpm"
-RPM_HASH = "d2362de8575d5d0158081104a7ca1303b85223ba92357595dd1ae11a7fcc294d3e8cd9f71252d11e62e385000600c34c22f7277439385b84aa54d978eaa4e87c"
+RPM_NAME = "scap-security-guide-redhat-0.1.68-2.1.noarch.rpm"
+RPM_HASH = "4dee5e575a00fc661f082c4c7c1be6e6afc1432a14f1e6a07d30e44107273c523be68ef901481163cd441abd1a7a642cf6c1bd9614fc3b005de9899ab1b60a0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scap-security-guide-redhat"

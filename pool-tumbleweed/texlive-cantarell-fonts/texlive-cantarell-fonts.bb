@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-cantarell"
 DESCRIPTION = "The  separated fonts package for texlive-cantarell"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.3.2svn54512"
+PV = "2023.209.3.2svn54512"
 
-RPM_NAME = "texlive-cantarell-fonts-2023.201.3.2svn54512-52.1.noarch.rpm"
-RPM_HASH = "b889e91194cfec0dc521a16c0c4e3f5e78159249af410e6ad108356d426f3c1d27e62ed40ed59bc9cccb07ca80da7c8ec0bffba4727b89adbf98da5af7cd39cb"
+RPM_NAME = "texlive-cantarell-fonts-2023.209.3.2svn54512-53.1.noarch.rpm"
+RPM_HASH = "8cda90b20458caa710823f2f32aec7ef1f63d75d30a4aab6ccb4294932df5d8937138698c0745625e742029d19a9fc8824cebc2b8a27f4a9b60130d8ee507d53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-cantarell-fonts \

@@ -6,10 +6,10 @@ femaleline/matrilineal tree. For Japanese, the jlreq.cls \
 vertical option (tate) is supported."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.3.1svn63739"
+PV = "2023.209.3.1svn63739"
 
-RPM_NAME = "texlive-familytree-2023.201.3.1svn63739-52.1.noarch.rpm"
-RPM_HASH = "4b478f85c4898b654f45d3aee86ca2476526add19243c810d53203c27506cf535c6fd9942c3496a9b761b5561c34761cd5c623a5f84f1e9ee1c79a81dadc4229"
+RPM_NAME = "texlive-familytree-2023.209.3.1svn63739-53.1.noarch.rpm"
+RPM_HASH = "629a5eec003d679cd3ac730411bc1ccdcb67d9f1f261ee07543b156e8f7b4a9da8893bd2612f3b4df62bac23820a09ecc3ecc13b20832a4c1b4cfd0caed356d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-familytree.sty \

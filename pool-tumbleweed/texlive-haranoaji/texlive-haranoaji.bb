@@ -6,10 +6,10 @@ Adobe-Japan1 (AJ1) CIDs. There are 14 fonts, 7 weights each for \
 Mincho and Gothic."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.20230223svn66115"
+PV = "2023.209.20230223svn66115"
 
-RPM_NAME = "texlive-haranoaji-2023.201.20230223svn66115-53.2.noarch.rpm"
-RPM_HASH = "d8d1c0d7c39176f39ad8f9cac21670e7034a12390b01e186ffa3f573ba4ad833a1e1ebaa417ce40b90dbf2b414c36764337927aeaee568d293ce95157d4f051d"
+RPM_NAME = "texlive-haranoaji-2023.209.20230223svn66115-54.1.noarch.rpm"
+RPM_HASH = "66b64f4eeb24d4580d4b98096444b9a2686ce94a2d2df7513153d7d457e212e6c476cb2f955d09fe0ece8f670b26de11b581045100e0488733df78383519f3e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-haranoaji"

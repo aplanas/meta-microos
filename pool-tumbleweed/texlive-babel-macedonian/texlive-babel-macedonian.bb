@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides support for Macedonian documents written \
 in Cyrillic, in babel."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn39587"
+PV = "2023.209.svn39587"
 
-RPM_NAME = "texlive-babel-macedonian-2023.201.svn39587-53.1.noarch.rpm"
-RPM_HASH = "ab3758046c408a8ea0ab041859d17faf93f58d4135ece359838919af5ce995ee1090a06c8245ce7bee47512bd6edb4ef5bcd6444742fe9150a9ddce00a3ff520"
+RPM_NAME = "texlive-babel-macedonian-2023.209.svn39587-54.1.noarch.rpm"
+RPM_HASH = "c80b4f8bda789556024cceb9e6be8e06b7af2b752cbfddf41c9a1146dbb9a6376fee0a826b8b87299eb13e44806914396f5b20bcf190625e070bce563487f061"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-macedonian.ldf \

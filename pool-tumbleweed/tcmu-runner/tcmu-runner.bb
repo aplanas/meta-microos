@@ -20,10 +20,10 @@ authors can write code just to handle the SCSI commands as desired, \
 and can also link with whatever userspace libraries they like."
 LICENSE = "Apache-2.0"
 
-PV = "1.6.0"
+PV = "1.6.2"
 
-RPM_NAME = "tcmu-runner-1.6.0-1.4.aarch64.rpm"
-RPM_HASH = "deabe725750b4b956d69135faaced0e34547218a95c9830428609be4ff3193a5c6d9bf3af0648ce5e26e81362634e37f63f6dbad6d2522bd690df261a0188175"
+RPM_NAME = "tcmu-runner-1.6.2-1.1.aarch64.rpm"
+RPM_HASH = "d44699400abeeb0e74637e0e8f7a310b189fee2294cc93b9045b426596d86e13d359b0403ba3795492f9bf29a160d1c2f9073a21e20dd0b658456341332d75d5"
 
 RPROVIDES:${PN} += "config-tcmu-runner \
 tcmu-runner"

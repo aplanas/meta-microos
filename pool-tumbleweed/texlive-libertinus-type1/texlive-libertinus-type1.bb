@@ -4,10 +4,10 @@ traditional processing engines (LaTeX with dvips or dvipdfmx, \
 or pdfLaTeX)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn64958"
+PV = "2023.209.svn64958"
 
-RPM_NAME = "texlive-libertinus-type1-2023.201.svn64958-54.1.noarch.rpm"
-RPM_HASH = "7142f22b114e88b162d4e60cf122229f222d76c51219a3c7f83f2711d856cdfde729d30aea2749c42a5ab3eaa34a30848f72ac1b2e61fe52384e3795fadb65b5"
+RPM_NAME = "texlive-libertinus-type1-2023.209.svn64958-55.1.noarch.rpm"
+RPM_HASH = "cf9d04e1bd104a5f72bf240b381f9de1e9ee496828fc9a0831b26bee3c0d636b4bb62669f4d35836f7c5b5fb5ba7c60664c24c32f3b190ae6ecc84be846a5c80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LGRLibertinusSans-LF.fd \

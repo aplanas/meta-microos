@@ -4,10 +4,10 @@ DESCRIPTION = "These files record details of problems reported in Knuth's \
 Modern fonts, and for TeX, Metafont and related programs."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.201.svn58682"
+PV = "2023.209.svn58682"
 
-RPM_NAME = "texlive-knuth-errata-2023.201.svn58682-55.1.noarch.rpm"
-RPM_HASH = "8bdcc53636cfee4dc5cca7146e936d47f4a1a8614df81866573fc53a3488d09480311fadd35b92987201333ecc250dcd0bdc495fc8ab8708ca1dca0b677991d2"
+RPM_NAME = "texlive-knuth-errata-2023.209.svn58682-56.1.noarch.rpm"
+RPM_HASH = "ced95680e1b5ef290137dae6d077aa1521dfeee92528e2cac488698dcfc63fbaef197adbb18a19085e2c23e7b6a16df42226033e5c9ed562bbf2c4fc771984bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-knuth-errata"

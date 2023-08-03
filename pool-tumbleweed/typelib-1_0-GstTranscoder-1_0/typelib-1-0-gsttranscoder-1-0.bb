@@ -2,10 +2,10 @@ SUMMARY = "Introspection bindings for the GStreamer Transcoder API"
 DESCRIPTION = "This subpackage contains the introspection bindings for the GStreamer Transcoding API."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "typelib-1_0-GstTranscoder-1_0-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "10dd561cc1a5e881ce125359182c1e0d1a0523bbd21bdea490118fe605df7bac23ad851bc64a2082fc1725ae69debb785c633114bca47fc34b882aa8f1648e58"
+RPM_NAME = "typelib-1_0-GstTranscoder-1_0-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "68e335d7253df7333d99f3989e47c663a0a4c487730c0b209ebe7598dc7ca67b097ee84e3a4dd5104f5a288a8af3f460296077dd53a6904b67cb003473c5afdf"
 
 RPROVIDES:${PN} += "typelib-1-0-GstTranscoder-1-0 \
 typelib-GstTranscoder"

@@ -7,10 +7,10 @@ system-specific programs.  If you install xfsprogs-devel, you will also \
 want to install xfsprogs."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.3.0"
+PV = "6.4.0"
 
-RPM_NAME = "xfsprogs-devel-6.3.0-1.2.aarch64.rpm"
-RPM_HASH = "6eb3f3cbbbf1fa543063d070c3e56adc662802e9d4259ef182f14f719f900281d1e7a39eca21370a49dafb06024bca6ba860532d2618c294178c07431972a3c4"
+RPM_NAME = "xfsprogs-devel-6.4.0-1.1.aarch64.rpm"
+RPM_HASH = "e030f0c2c73d82d56cee7bed0bc4089a94c2a76f10adc213c57c12e4eb5694bbc7d8b7c50789e6d3047d7369aab62ab8ecb3be3045feebc97ed16c22697aded0"
 
 RPROVIDES:${PN} += "xfsprogs-devel"
 

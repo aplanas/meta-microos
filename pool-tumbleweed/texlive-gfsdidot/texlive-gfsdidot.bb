@@ -9,10 +9,10 @@ on Zapf's Palatino. LaTeX support is provided, using the OT1, \
 T1, TS1, and LGR encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54080"
+PV = "2023.209.svn54080"
 
-RPM_NAME = "texlive-gfsdidot-2023.201.svn54080-52.1.noarch.rpm"
-RPM_HASH = "9bdce3ed67265b273ade18b416fca181a34ca21ce7fb4dd6d03e370c680348be34cdd21b4132d40e67235ee1b0d76b6698cde04c92dc71e67dbefcdc7f01b8e6"
+RPM_NAME = "texlive-gfsdidot-2023.209.svn54080-53.1.noarch.rpm"
+RPM_HASH = "3a0eae07a97101f6e2f887b25bf56bff2be60f84493e3ee060a5394f79a0ca7f9f4f473b69df6f74d60844bdc8c71d35b4611c3f63114446157d02218f561115"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-didot.enc \

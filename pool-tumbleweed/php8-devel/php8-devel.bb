@@ -6,10 +6,10 @@ programming language. \
 This package contains the C headers to build PHP extensions."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.7"
+PV = "8.2.8"
 
-RPM_NAME = "php8-devel-8.2.7-1.1.aarch64.rpm"
-RPM_HASH = "c9faaf20169362029868f10b15a42892d5e21152ae6a2cef6194199e02bcec65ff7719a3a6b44e5794978de65e7bde69aea740bd92be2231c97510eeae888246"
+RPM_NAME = "php8-devel-8.2.8-1.1.aarch64.rpm"
+RPM_HASH = "0adf778b4f9069987a9bd57c63313880774fd4cc78f0df3a4e43f816b8b268db0d34081dbff6790f976a5804f7cc27ac439824fddc86a3f67556eeb8cb1ba464"
 
 RPROVIDES:${PN} += "php-devel \
 php8-devel \

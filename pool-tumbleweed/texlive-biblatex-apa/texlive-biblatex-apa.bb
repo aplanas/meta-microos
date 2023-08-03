@@ -10,10 +10,10 @@ csquotes [?]4.3, BibLaTeX [?]3.4, and the biber backend for \
 BibLaTeX [?]2.5."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.9.16svn63719"
+PV = "2023.209.9.16svn63719"
 
-RPM_NAME = "texlive-biblatex-apa-2023.201.9.16svn63719-53.1.noarch.rpm"
-RPM_HASH = "e800cb269b0f08abaf6ea38036c41bde8785e9fa98694cfc35a6fe98e1391afd3f60f7538adf743df4322dd7b1f5aa16599de5be27ac92fd9c4c8c1a633af86a"
+RPM_NAME = "texlive-biblatex-apa-2023.209.9.16svn63719-54.1.noarch.rpm"
+RPM_HASH = "397ccfdea6ebccf039d457b3c739c008503f6c58b82710b439fc105ce3989ff3c2396b4d1c3e9fa7951aca97181e07217aaf9385b2870bae6a95d00738b21c0a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-american-apa.lbx \

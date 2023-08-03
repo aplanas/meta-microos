@@ -2,10 +2,10 @@ SUMMARY = "AMD based arm64 systems"
 DESCRIPTION = "Device Tree files for AMD based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.3"
+PV = "6.4.6"
 
-RPM_NAME = "dtb-amd-6.4.3-1.1.aarch64.rpm"
-RPM_HASH = "443f23f0bb499d098c189ca6933978efe2c9b7243b96ad258c9f3ba0f83ff9cec0fc7269ffc079e0316705bfefc08fe91d79ad0a2e469601b25980deda5e2adf"
+RPM_NAME = "dtb-amd-6.4.6-1.1.aarch64.rpm"
+RPM_HASH = "091926a08cc1135f49da6161d613008d99c3cdde6959dad86ae922bf7e1a1137d52442175990dda46d7a9c750cc4ae975d66c1aa8a2cfb5f6b6681d5ce1fcc17"
 
 RPROVIDES:${PN} += "dtb-amd \
 multiversion-dtb"

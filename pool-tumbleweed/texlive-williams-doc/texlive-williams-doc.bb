@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-williams"
 DESCRIPTION = "This package includes the documentation for texlive-williams"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-williams-doc-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "bbde20c5975b564fa845604f9c2d15543f880827d80bbc0dee80d8f844b6165fe906ceb54b4be78383c7cd9a64cf029b1f73ad4b915027b05dbf65db56784d2b"
+RPM_NAME = "texlive-williams-doc-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "fb66efb570702151e87f99fbe83b7bda12a6dd7ede0c4d653a3ee3f4e4bd9616389c0e04e7e7e0a5f5eddcf0706e98529c26e6012a1ffebaa5d17117214a811e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-williams-doc"

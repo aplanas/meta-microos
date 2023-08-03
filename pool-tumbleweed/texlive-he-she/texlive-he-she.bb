@@ -6,10 +6,10 @@ pronouns for all case forms, plus anaphoric versions that \
 reflect the current gender choice."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn41359"
+PV = "2023.209.1.3svn41359"
 
-RPM_NAME = "texlive-he-she-2023.201.1.3svn41359-53.2.noarch.rpm"
-RPM_HASH = "70483b044608736e4380d8081184ba9c7597827dccf9ac0bec4adc21e834cb64184db6ec0255196f056f2da379b355b8a1e8e350bde964b17be994e0752d4979"
+RPM_NAME = "texlive-he-she-2023.209.1.3svn41359-54.1.noarch.rpm"
+RPM_HASH = "fdf1fb637fecab14417b7f5cb075990466efd3f2feb4808fc9d1f9d2706533c5e1621497a9df4ed3f11cc746ce7339600887b16d8857e72845aa7c433f77acfd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-he-she.sty \

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.17.6"
 
-RPM_NAME = "python39-scikit-build-0.17.6-1.1.noarch.rpm"
-RPM_HASH = "cbbe0c7d682a12e87d2ec6fcb0516dedd109ce264e67b37b46ed90e7b7849b37142c2c178843f05fb2f749256e12bfaf007b8e43f737f3f38df7bce1ad981ab3"
+RPM_NAME = "python39-scikit-build-0.17.6-1.2.noarch.rpm"
+RPM_HASH = "4c3d5c3800830e9167663a62ccac7f3f446bc92e5fcbc804222be5a977451ab91e33a68984aaf4b298bd5f13e15743be2ca016e36d938f54629c1dca134b46ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-scikit-build \

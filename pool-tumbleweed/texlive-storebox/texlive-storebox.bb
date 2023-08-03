@@ -7,10 +7,10 @@ pdfLaTeX and LuaLaTeX; when DVI is output, store boxes behave \
 the same as save boxes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3asvn64967"
+PV = "2023.209.1.3asvn64967"
 
-RPM_NAME = "texlive-storebox-2023.201.1.3asvn64967-57.1.noarch.rpm"
-RPM_HASH = "534faa350bf95534d7815ea3b857ef581ec989a9cc0fd69ef1539402c995c3d4d4aa6131149df6d219a96609629cec1884b71aad1746cad4ad68a56cab3ca704"
+RPM_NAME = "texlive-storebox-2023.209.1.3asvn64967-58.1.noarch.rpm"
+RPM_HASH = "386541bb41335ed62c7d054288079a66a77c20a63bf795de8acf366b2ea3d1314ea739e14268f2af2e0b1e315d43432fec91b72b355c0ba7ff2a33d2179e7c78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-storebox-pgf.sty \

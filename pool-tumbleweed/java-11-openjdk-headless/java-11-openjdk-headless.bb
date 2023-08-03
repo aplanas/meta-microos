@@ -2,10 +2,10 @@ SUMMARY = "OpenJDK 11 Runtime Environment"
 DESCRIPTION = "The OpenJDK 11 runtime environment without audio and video support."
 LICENSE = "Apache-1.1 & Apache-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
 
-PV = "11.0.19.0"
+PV = "11.0.20.0"
 
-RPM_NAME = "java-11-openjdk-headless-11.0.19.0-1.2.aarch64.rpm"
-RPM_HASH = "5a068507938cae00b35385382695fa3e93b99bc7472a2a46dac15b5a4cc4a984548065e2a8eb3814e67d1393367116222fe4cda2a2c8e7b3e2cd18c47426afb9"
+RPM_NAME = "java-11-openjdk-headless-11.0.20.0-1.1.aarch64.rpm"
+RPM_HASH = "5bc12a3fcc5bf85c98bff1c3cf550fae433b61f0ae3179d156071f0846ec578e6ed7497f0e4ec6011c345235d74b2d57535333d68df9522bb1a20e94586cf9e4"
 
 RPROVIDES:${PN} += "config-java-11-openjdk-headless \
 jaas \

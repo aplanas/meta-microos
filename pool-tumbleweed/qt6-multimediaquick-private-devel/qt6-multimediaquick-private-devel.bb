@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for the Qt 6 Multimedia private library. \
 This library does not have any ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-multimediaquick-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "b5566394d73e8ba72dee4a319a5d809866b572a1b87cb98cec51cc1b16641beae50c8b6c2a3dd9313eb71017796af6288592f1b7f0c804cb9a647b12a5135389"
+RPM_NAME = "qt6-multimediaquick-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "aa3ada0d148d419d29ed455c2133db045e52c8d003d96c8fd712327a4c8dfbafaf26b8c5aec8208e15bba3060c73122168c62610422f87e1746b0fa85efddabe"
 
 RPROVIDES:${PN} += "cmake-Qt6MultimediaQuickPrivate \
 qt6-multimediaquick-private-devel"

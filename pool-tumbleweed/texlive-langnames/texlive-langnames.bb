@@ -8,10 +8,10 @@ collaborative projects as well as typologically minded ones \
 with a variety of language examples."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1svn65502"
+PV = "2023.209.2.1svn65502"
 
-RPM_NAME = "texlive-langnames-2023.201.2.1svn65502-55.1.noarch.rpm"
-RPM_HASH = "172ca378a5b81a13579e35e37692a78c055c14f689c99750350b94e192f9f2853b217870bc5c15daa1b7e02a4cc03c1e451a01d56b9f1a0fe2b999df6c306b38"
+RPM_NAME = "texlive-langnames-2023.209.2.1svn65502-56.1.noarch.rpm"
+RPM_HASH = "91f06453f62b4d6dfbaf82dbffc1f95d489a19d6e402dc46b97cf6ab54355fd31d106fca862e23c5a8048bf076fefdce566e63432ef04a89557165de8de539f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-langnames.sty \

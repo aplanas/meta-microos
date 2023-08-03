@@ -2,10 +2,10 @@ SUMMARY = "Documentation for qt6-serialbus in HTML format"
 DESCRIPTION = "This package contains documentation for qt6-serialbus in HTML format."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-serialbus-docs-html-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "b6eb3c5a25f0e822d63a3baac8b3ba3b685d04343412034b45746d26a9424a6db13e046f0f344c067ffe65873253565cf3e9fd1c5be64c17f6839b77559f266a"
+RPM_NAME = "qt6-serialbus-docs-html-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "13ff8d8352f86e0d3aaceca4a41fa82bbd7fe5e9a939f3759731f854fd61bf8982ec73ae5189faa433861b2dc612793bcfce89130159b667ec2cdf9d8ff6fb41"
 
 RPROVIDES:${PN} += "qt6-serialbus-docs-html"
 

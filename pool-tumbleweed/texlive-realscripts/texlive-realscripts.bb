@@ -9,10 +9,10 @@ holds functions that were once parts of the xltxtra package, \
 which now loads realscripts by default."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3dsvn56594"
+PV = "2023.209.0.0.3dsvn56594"
 
-RPM_NAME = "texlive-realscripts-2023.201.0.0.3dsvn56594-53.2.noarch.rpm"
-RPM_HASH = "8ab46cedfc56c8d28fb6411b5f48bcc936ff378dc5e54023915d804050f46c71c952a0674721e453eea95758c078d0cfa59aa7598ab25aae34a5dbd70e4c5e06"
+RPM_NAME = "texlive-realscripts-2023.209.0.0.3dsvn56594-54.1.noarch.rpm"
+RPM_HASH = "cbb838b6e61e4784d9f2ae1fbe4741a39104778cb6cb2e3292346aff722736fc6d44aab00e8d398721e894e5a671ed3893c64c929037e85dfa0109985499c46c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-realscripts.sty \

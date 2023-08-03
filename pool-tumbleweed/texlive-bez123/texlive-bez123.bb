@@ -6,10 +6,10 @@ Provides a package multiply that provides a command for \
 multiplication of a length without numerical overflow."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1bsvn15878"
+PV = "2023.209.1.1bsvn15878"
 
-RPM_NAME = "texlive-bez123-2023.201.1.1bsvn15878-53.1.noarch.rpm"
-RPM_HASH = "267af68ab8782f4aa3e8eacb9aa212b399d2f956fe28862352b3f89d5105f38f21e7dc77ca3ec412b0bfe28b90bbe9d7b434172a1d217626bc437a1d3e942a80"
+RPM_NAME = "texlive-bez123-2023.209.1.1bsvn15878-54.1.noarch.rpm"
+RPM_HASH = "657763091b1d7692a4f032e58643ff5f0fb5cea9eca309d2b9d991c4ef42d40b468fb3fdfa625a78b5d6d66680492f0a5bef07fe68ed3d1c41ec34365577a47e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bez123.sty \

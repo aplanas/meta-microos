@@ -2,15 +2,16 @@ SUMMARY = "Qt 6 TextToSpeech plugin"
 DESCRIPTION = "Qt 6 TextToSpeech plugin."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-texttospeech-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "9f967336f0f90ddfbd284d3552750b8077013ed3295a873565eee2353e4074f7bb8736d9d6c31c0d74bb5f774a9ada943802a4ccfda7164af3a210832a622329"
+RPM_NAME = "qt6-texttospeech-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "4fde4ba883a5f986a1e3b6051f9aff1f5c8793645a7fd233ba8603fb9d1be73df3fc6fa910e7acb9fffe47e9d58c15874409b7b4ccfb6ac659f56d208b864c00"
 
 RPROVIDES:${PN} += "libqtexttospeech-mock.so \
 libqtexttospeech-speechd.so \
 libtexttospeechqmlplugin.so \
-qt6-texttospeech"
+qt6-texttospeech \
+qt6qmlimport-QtTextToSpeech.6"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libQt6Core.so.6 \

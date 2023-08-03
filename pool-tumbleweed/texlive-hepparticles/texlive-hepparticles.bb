@@ -17,10 +17,10 @@ tables of contents automatically disappear if these macros are \
 used."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn35723"
+PV = "2023.209.2.0svn35723"
 
-RPM_NAME = "texlive-hepparticles-2023.201.2.0svn35723-53.2.noarch.rpm"
-RPM_HASH = "9b1307d6d6d6ddb3d7232ee4486c4e40ca028706bdfb5fdd3ba724bdacbeb3c45e373acf09a99c8b6a11be7ed4d21ff98b2d18aa2c2e8e617f22349a0f36fad5"
+RPM_NAME = "texlive-hepparticles-2023.209.2.0svn35723-54.1.noarch.rpm"
+RPM_HASH = "32f3a21829c7622f743cbf4e9e8c857785510f1d7fc031d566d718b3355fb93bccd2777372e7834cfce93c12d8e562888469d182ac12cdf64041cfb329512853"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hepparticles.sty \

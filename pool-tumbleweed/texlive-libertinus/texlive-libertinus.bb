@@ -5,10 +5,10 @@ libertinus-type1 (pdfLaTeX) and libertinus-otf \
 Libertine and Biolinum, but come with math symbols."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.02svn61719"
+PV = "2023.209.0.0.02svn61719"
 
-RPM_NAME = "texlive-libertinus-2023.201.0.0.02svn61719-54.1.noarch.rpm"
-RPM_HASH = "f9dfe75326f6d9860b63d5c913a031cce72f0a87c9a8cc4bf2101007a9f130bc1424e115e14eaf56f67ba4b2df13bafdf873ba9676eb634d4acd89f19c222839"
+RPM_NAME = "texlive-libertinus-2023.209.0.0.02svn61719-55.1.noarch.rpm"
+RPM_HASH = "dea4185e8c664e29d46c046f72506ff22a56ba0caffa053e8d45ea631a3cc59c36f0dc98cf9ade7a4313686ba3a7d186f5f5462bcb926812d1c7664cfd86a30b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-libertinus.sty \

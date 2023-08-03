@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-rerunfilecheck"
 DESCRIPTION = "This package includes the documentation for texlive-rerunfilecheck"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.10svn63869"
+PV = "2023.209.1.10svn63869"
 
-RPM_NAME = "texlive-rerunfilecheck-doc-2023.201.1.10svn63869-53.2.noarch.rpm"
-RPM_HASH = "d1f7efce08ea946be7cac7b3e23bddee5b1ed366d30b82f8e1abb23a3a5b6c467770f22bba7b5a0346873463e0558ee9eefa7f4879df9a0aa421b8e0dc3303d5"
+RPM_NAME = "texlive-rerunfilecheck-doc-2023.209.1.10svn63869-54.1.noarch.rpm"
+RPM_HASH = "f0da8b644c3ff3079795e0936982e9c8500242ea9be37b5422f0d2377deccf1069d4b581aaa3c13e8688aa93012737a3620243d5162513e5a0f4f787711df597"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-rerunfilecheck-doc"

@@ -4,10 +4,10 @@ administer, either for all controllers or for any controllers listed on the \
 command line."
 LICENSE = "LGPL-2.1-only"
 
-PV = "5.0.2"
+PV = "5.0.3"
 
-RPM_NAME = "pam_cgfs-5.0.2-1.2.aarch64.rpm"
-RPM_HASH = "eb2298007ed2fc083efb30e8fb1e89d256485ef90d3886734a25c2b4d9ab0b9f4303361a9f99610b26def976d692b03c6690e4661c5ad1ee9feab22a6a4ff8f2"
+RPM_NAME = "pam_cgfs-5.0.3-1.1.aarch64.rpm"
+RPM_HASH = "242057d663b8415ae736bbcc35a3537446222dfcae123d2ef05ab5e2435106bd14cdb8ac2a33d8d5f0e9a4be78ec5803ec7c9d709ca5aadb33f818c17f297240"
 
 RPROVIDES:${PN} += "pam-cgfs"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt63DLogic that do no
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-3dlogic-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "8e799f7123ab52203d7b2bcd32796da3bdabee5da6fa2c3c26b1541168cdc9da327dbb437d7cc6934b5d5350abdc30f7b5e1fae393e48656822d84a1f9717bd8"
+RPM_NAME = "qt6-3dlogic-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "c766080d4b3f4ced9083735622009a60ee3dabea0983b418c8ad61518433ba43e1dcec1e5fc8842df16c06d4fa741859e962bb2d1cfc37036a74c825f6ae8671"
 
 RPROVIDES:${PN} += "qt6-3dlogic-private-devel"
 

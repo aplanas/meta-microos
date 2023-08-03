@@ -7,10 +7,10 @@ changing labels are printed at the end of each compile. \
 Multiply-defined labels are printed as well."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.0svn46040"
+PV = "2023.209.1.0svn46040"
 
-RPM_NAME = "texlive-labelschanged-2023.201.1.0svn46040-55.1.noarch.rpm"
-RPM_HASH = "46bd0c1deb1b0f2281b718f87aedcfdbf26cfd0394888b53ed048d06d9cf648e2939f05564f58a6e00c5e4b4f6a8bbf94b6c4e4a4ce5c48a457d0652870e2c2c"
+RPM_NAME = "texlive-labelschanged-2023.209.1.0svn46040-56.1.noarch.rpm"
+RPM_HASH = "2830ea5d9b51a9b985a11d3286836b7475b3bed337fa97ac933a31549d0e9f2cf861d3a8c89e20aedfbf7147d47023ec7328f98a4ae14ebd8fbf2ba9717e00fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-labelschanged.sty \

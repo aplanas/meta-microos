@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-cryst"
 DESCRIPTION = "The  separated fonts package for texlive-cryst"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-cryst-fonts-2023.204.svn15878-54.1.noarch.rpm"
-RPM_HASH = "770290009246998c416d4240c6a34e7f7ad3a8481bc2d13c83cba7ded8af6382ff45cc1112f43e01d5ae438df619ccd7c8039ec2a14efae24955bab4f07f665a"
+RPM_NAME = "texlive-cryst-fonts-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "40abc5185bf8d44675963656d82ebed7f17d50110713cc0c3eae14cfd22ed91299dad4dfd2b7b508f9a833f0db95816363bcc8aa9bc2ee1d8380b226166fc52f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-cryst1 \

@@ -10,10 +10,10 @@ lines) in tables. Colors can be mixed like \
 \\color{red!30!green!40!blue}."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.14svn63563"
+PV = "2023.209.2.14svn63563"
 
-RPM_NAME = "texlive-xcolor-2023.201.2.14svn63563-52.2.noarch.rpm"
-RPM_HASH = "3de7bbee5107c9cacad7a5c11d77bff10e0fb556e6c5782cb4c27bbad168664232c8cf4fb289797fa6afecfbb6a12beba19e82ef8398012f36af6cadf6444fe8"
+RPM_NAME = "texlive-xcolor-2023.209.2.14svn63563-53.1.noarch.rpm"
+RPM_HASH = "d33db7f000c1be78ed183852715a325d4313063d9cfda4820e072bb8041660a0119c47db875dfdfe0cb0a2f9823f630e32c5c7d5d2df4e1a3b5fd617ba7c7bb4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-svgnam.def \

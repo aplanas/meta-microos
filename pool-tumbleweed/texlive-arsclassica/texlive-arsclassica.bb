@@ -5,10 +5,10 @@ reproduce the look of the guide The art of writing with LaTeX \
 (the web page is in Italian)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn45656"
+PV = "2023.209.svn45656"
 
-RPM_NAME = "texlive-arsclassica-2023.201.svn45656-53.1.noarch.rpm"
-RPM_HASH = "cff14d82049ccb9b10ba8432bca9f0f31faf9bc685c5fd9757f1fa51bab89bce5b9b52d58cf1d9e12cda0bf5ea1b4ae6c604aa86281f4cccc06e69cdbe429ba0"
+RPM_NAME = "texlive-arsclassica-2023.209.svn45656-54.1.noarch.rpm"
+RPM_HASH = "aea90f5160c97382a7a80174a91e6ed56d902836dd3f5f6213c6bc533381f52623511611fd14b40467a74e90ccc10567bfaa1c98629bcfa68ec659b10e9ad6e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-arsclassica.sty \

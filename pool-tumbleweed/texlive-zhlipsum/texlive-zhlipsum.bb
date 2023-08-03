@@ -4,10 +4,10 @@ language, which will be useful for testing Chinese documents. \
 UTF-8, GBK and Big5 encodings are supported."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2.0svn54994"
+PV = "2023.209.1.2.0svn54994"
 
-RPM_NAME = "texlive-zhlipsum-2023.201.1.2.0svn54994-52.2.noarch.rpm"
-RPM_HASH = "91051b0d8b8c0124112f38fb384f2a7aab141f22731bd1306d9f847bd476350987dc88b38ba6e71334b710eac03a3ef300255327d8e41261c7cdb373121204ae"
+RPM_NAME = "texlive-zhlipsum-2023.209.1.2.0svn54994-53.1.noarch.rpm"
+RPM_HASH = "b45783ba26df15e8c10a94cd11de42b7e1feafa2a6357efe57af722b43e8d6e7f513aad1ec239dfde5644247b7c8ad4f006fd890f56c858dae8eb4458c7c7331"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zhlipsum-big5.def \

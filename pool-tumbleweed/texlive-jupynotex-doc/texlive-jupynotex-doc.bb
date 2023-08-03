@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-jupynotex"
 DESCRIPTION = "This package includes the documentation for texlive-jupynotex"
 LICENSE = "Apache-1.0"
 
-PV = "2023.201.0.0.1svn56715"
+PV = "2023.209.0.0.1svn56715"
 
-RPM_NAME = "texlive-jupynotex-doc-2023.201.0.0.1svn56715-55.1.noarch.rpm"
-RPM_HASH = "2f5c6fa08c19280f5a5acf03b79be799a122d015d9617235f3771fbf81d3cddeb719a9f7f8f1c55608b0d79ec08d0f2153b505aecac25ffd6144bd6d9df0cac8"
+RPM_NAME = "texlive-jupynotex-doc-2023.209.0.0.1svn56715-56.1.noarch.rpm"
+RPM_HASH = "d502bca4796983773e7faf075f3e008931b4ebcee47fdf3f43561afcb89a0c62ebf0d258dd2c5075f386198c7cb696cff2cb4b543b8205594247585277f779bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jupynotex-doc"

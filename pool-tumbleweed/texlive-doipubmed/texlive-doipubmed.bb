@@ -4,10 +4,10 @@ These commands are primarily designed for use in \
 bibliographies. A LaTeX2HTML style file is also provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.01svn15878"
+PV = "2023.209.1.01svn15878"
 
-RPM_NAME = "texlive-doipubmed-2023.201.1.01svn15878-52.1.noarch.rpm"
-RPM_HASH = "9113677b25048c5c5af8def1d3aa55328f8b34f86ce4b6b701959e1c1939bb3059855e3bb75cde55b762fc10f3a0d75dd57063bbf231e905b8e0d838f235e4c5"
+RPM_NAME = "texlive-doipubmed-2023.209.1.01svn15878-53.1.noarch.rpm"
+RPM_HASH = "1ebe3b76117913da5c9c065add4df4e9484d3822f7ed0346fa5e7382ab43dcf8116a6f89e68abef095ec40e9f1aba6d060bd2a2fc5d5499c5088fdec26cd4181"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-doipubmed.sty \

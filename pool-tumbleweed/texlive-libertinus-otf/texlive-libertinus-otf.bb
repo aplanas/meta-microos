@@ -6,10 +6,10 @@ are similiar to Libertine and Biolinum, but come with math \
 symbols."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.29svn60023"
+PV = "2023.209.0.0.29svn60023"
 
-RPM_NAME = "texlive-libertinus-otf-2023.201.0.0.29svn60023-54.1.noarch.rpm"
-RPM_HASH = "651c00cee38b83675de27d980e5880200dbc5c52f5ac57ab485489c4300cea286a01ba15861f9606f2a4ac840d7a4c65000a63b835a641291816bd1a37fe2e73"
+RPM_NAME = "texlive-libertinus-otf-2023.209.0.0.29svn60023-55.1.noarch.rpm"
+RPM_HASH = "9b5d153d595d5857b162b6c9eab13df7973cea3318f6f9c2cb8b1709d5805dc280e4f4959b81243a075d0d5524f7c02fae3377f56d3afac92ac44fb096d4affb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-libertinus-otf.sty \

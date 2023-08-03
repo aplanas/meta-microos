@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-recycle"
 DESCRIPTION = "The  separated fonts package for texlive-recycle"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-recycle-fonts-2023.201.svn15878-53.2.noarch.rpm"
-RPM_HASH = "845bad49d43675d8dd040aa3078cf4cd244e1c173f1190522a732da9df3e55e30cee2ff456a25203bcb39e3c8d5c02125472caff23f4aab08c5e5e80f21af648"
+RPM_NAME = "texlive-recycle-fonts-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "e41da8859bb66ffb623c375ed40e6359ef3287ab1bde06882606f52be098ec98f31e559429f86979839f55e9a63c97a248a32e8a8e8b6a9ffcb395c7b770da0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-recycle \

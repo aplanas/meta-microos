@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6Multimedia that do
 ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-multimedia-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "f643f47605af4d5a4b5a448788689d77d353e78417a01c7475bddcc661adb1fa9c9db0ebcfbbca320c535bb97e3022851163d66b2dcaf9f3650c0c5ed787c01b"
+RPM_NAME = "qt6-multimedia-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "899fc6dc500783d3ca976f7d7073305a524047cf3762a2d8ef310dc43598bcc7f993cb5269283a4de09d928e2fa0def1caf35037dab386a25ad8818c76c16cc3"
 
 RPROVIDES:${PN} += "qt6-multimedia-private-devel"
 

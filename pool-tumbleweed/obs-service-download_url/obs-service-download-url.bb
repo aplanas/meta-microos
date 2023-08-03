@@ -4,10 +4,10 @@ DESCRIPTION = "This is a source service for openSUSE Build Service. \
 It supports downloading files from given URLs via wget"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.1.3"
+PV = "0.2.0"
 
-RPM_NAME = "obs-service-download_url-0.1.3-2.6.noarch.rpm"
-RPM_HASH = "00af842d1de517e557e4ab7b90156032ce613e79f7a3cb700906c8df985667f8f783912690d85df778bae3bfa1b8cf8d423c67aedf13d0f11df81fe74c907c9b"
+RPM_NAME = "obs-service-download_url-0.2.0-1.1.noarch.rpm"
+RPM_HASH = "1cf09319a5ebc2cc5bd25af4d2db2207aa241c64a6e32b5f765f57b35d91f7f74213baf4ef7ba127a544682f2eb7bfc77a340d7fd2572a3729f0e3fb9eb21929"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-download-url"

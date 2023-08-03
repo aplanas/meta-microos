@@ -11,10 +11,10 @@ common packages, the user should check the package's README \
 file for the complete list."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.0.5_r1svn29020"
+PV = "2023.209.0.0.0.5_r1svn29020"
 
-RPM_NAME = "texlive-concepts-2023.201.0.0.0.5_r1svn29020-53.1.noarch.rpm"
-RPM_HASH = "ca91142ba00703b3179698739d997a8c1fed6ca6aeb01fa034c27e1acbba031ddda2c9cb7edc667420c3db080706e848bad24abf0567716dca70b743535424ed"
+RPM_NAME = "texlive-concepts-2023.209.0.0.0.5_r1svn29020-54.1.noarch.rpm"
+RPM_HASH = "84eaca51b0700bc6937d6eaaa20d9ef77525f486fab505f0dffc6e086613d0c05d78f1f6ecf5cfded2c9e5b14ba9f1a2ad289cdbd57e7c317487cce8419496ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-concepts.sty \

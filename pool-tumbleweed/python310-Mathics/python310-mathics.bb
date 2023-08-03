@@ -2,10 +2,10 @@ SUMMARY = "A general-purpose computer algebra system"
 DESCRIPTION = "Mathics is a general-purpose computer algebra system (CAS). It is meant to be a free, lightweight alternative to Mathematica."
 LICENSE = "Apache-2.0 & BSD-3-Clause & GPL-3.0-only & MIT"
 
-PV = "6.0.1"
+PV = "6.0.2"
 
-RPM_NAME = "python310-Mathics-6.0.1-1.2.aarch64.rpm"
-RPM_HASH = "d451a0401eb52d786f73dfcb38e954c2f3f501f0bdf8271eea0995b60c0bebe3cb504f92bdb5444f65e642fa7a2ecb2efccf9856f100dcd4735babb9c135717b"
+RPM_NAME = "python310-Mathics-6.0.2-1.1.aarch64.rpm"
+RPM_HASH = "7bee16a902a77161a17bffcae6f08f55753568061303c7a4281cad09a87cf221cf55e5e51ec630278fa0283dd2914095ba7b2d1cfef99a7dae974a85a4aabd82"
 
 RPROVIDES:${PN} += "python310-Mathics \
 python310-Mathics3"

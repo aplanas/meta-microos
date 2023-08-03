@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-musuos"
 DESCRIPTION = "This package includes the documentation for texlive-musuos"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1dsvn24857"
+PV = "2023.209.1.1dsvn24857"
 
-RPM_NAME = "texlive-musuos-doc-2023.201.1.1dsvn24857-54.1.noarch.rpm"
-RPM_HASH = "31d92360fb8a51ef5feed0266f23bfad4a56ecba6c5f856b7b02154f83e3f8873d8ccc4203fa32a189e48f3236895b9cf2e669d8b4811e86df98dd86082558a7"
+RPM_NAME = "texlive-musuos-doc-2023.209.1.1dsvn24857-55.1.noarch.rpm"
+RPM_HASH = "20493cd0cdc79422eae130b46b188504221f243464deeb461d044787c5504b8deba46edfb53db59f0755cab9097b4fe19618a1574555e8f098d3ff1f01ee2f54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-musuos-doc"

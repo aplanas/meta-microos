@@ -3,15 +3,15 @@ DESCRIPTION = "This package contains files necessary for building kernel modules
 kernel module packages) against the kvmsmall flavor of the kernel. \
  \
  \
-Source Timestamp: 2023-07-11 06:23:11 +0000 \
-GIT Revision: 5ab030f1f07fd96746960bce337ec62fc11b6a9a \
+Source Timestamp: 2023-07-25 04:42:30 +0000 \
+GIT Revision: 55520bc826c5b1d40857ed0536eb87438cb95192 \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.3"
+PV = "6.4.6"
 
-RPM_NAME = "kernel-kvmsmall-devel-6.4.3-1.1.aarch64.rpm"
-RPM_HASH = "79c5287c036260585637592b1a96d573e979a6d55993f81687cdcb884ebc78ce5653d2d43dc96684bc4c4f28fc365df4c2cc4549d1f0a72d12c4fc3b9faebc78"
+RPM_NAME = "kernel-kvmsmall-devel-6.4.6-1.1.aarch64.rpm"
+RPM_HASH = "8a337b1e1ef33081d3d391285c0684cc55546180a9c1c108cf87a14a7c9e88a662cfd49f047ec74d62ab21c9f3124738eb7fe5be92d2f7e9844ac5b7be65828a"
 
 RPROVIDES:${PN} += "kernel-kvmsmall-devel \
 multiversion-kernel"

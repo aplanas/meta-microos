@@ -6,10 +6,10 @@ recent version of mathalpha. The fonts themselves are subject \
 to the SIL OPEN FONT LICENSE, version 1.1."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn54080"
+PV = "2023.209.1.0svn54080"
 
-RPM_NAME = "texlive-dutchcal-2023.201.1.0svn54080-52.1.noarch.rpm"
-RPM_HASH = "74bcf30155476e43b373b55ecde431ac061e25abb027b2aedc14024c5ae35bdb84c7b78c1f2cd0ed985f8a9f2ae278b846b6634abb7bdd7800c6ede408b68c99"
+RPM_NAME = "texlive-dutchcal-2023.209.1.0svn54080-53.1.noarch.rpm"
+RPM_HASH = "04d5dc9c01c2695678747c96b917929d8922d3977d54601dbdf210f37213ab302d90a12a8da1f99c3af6a5a476c717b8f947a3df423be6b18ee1889f255820ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dutchcal-b.tfm \

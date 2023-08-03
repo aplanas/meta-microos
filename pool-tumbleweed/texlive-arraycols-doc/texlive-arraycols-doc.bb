@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-arraycols"
 DESCRIPTION = "This package includes the documentation for texlive-arraycols"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn61719"
+PV = "2023.209.1.2svn61719"
 
-RPM_NAME = "texlive-arraycols-doc-2023.201.1.2svn61719-53.1.noarch.rpm"
-RPM_HASH = "c19ab98a84c11207d11720ffb083d3404f205132f6be88c6b4550c2349ff7a83fff8b79906c893866a4f4598491e2915cea7397f733701ce5ace353a2c318fcf"
+RPM_NAME = "texlive-arraycols-doc-2023.209.1.2svn61719-54.1.noarch.rpm"
+RPM_HASH = "bb86fdf20141d0863a4e35dbb8a6f9ad63852432201b525d3f6af14616c1e40d07d0102fc16e543c2c659c8a8824a859258068bb5efe77a3f0c3a229151afded"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-arraycols-doc"

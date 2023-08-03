@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-chemcono"
 DESCRIPTION = "This package includes the documentation for texlive-chemcono"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn17119"
+PV = "2023.209.1.3svn17119"
 
-RPM_NAME = "texlive-chemcono-doc-2023.201.1.3svn17119-53.1.noarch.rpm"
-RPM_HASH = "8953493980bad768d178c13d6e8f7e63003c22a29766beeb818f78bf72aa024f7d0e8417cbd753c05dec42b02f028a167ff32f446accd6e0cf1f35ae7b72857a"
+RPM_NAME = "texlive-chemcono-doc-2023.209.1.3svn17119-54.1.noarch.rpm"
+RPM_HASH = "c048b796981fe4c1fe78136ee0733bbd26a91e306a18374876ffeb6cc62ca41ebdef1abedfdf2d763aa0445a260ed286c3f81b03cdd711c367e3d98b213e9566"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chemcono-doc"

@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.1.6"
 
-RPM_NAME = "libapparmor1-3.1.6-1.1.aarch64.rpm"
-RPM_HASH = "1c0845015d1ad69627e2cf34be4676041465b93c9397e271f700434aefdc88255fd9319feffd4a6fed9d135e824331f724deb8286918e010337a1beb1a1890ce"
+RPM_NAME = "libapparmor1-3.1.6-2.1.aarch64.rpm"
+RPM_HASH = "dbd435f8824022be9e39cf0429267c76972284f20caeed23dbedab3c23fb5139ef4b96fba77aa8400ca4e2ae87cd6a015ca90ee4a6b6ff2e1dca64922daf8126"
 
 RPROVIDES:${PN} += "libapparmor \
 libapparmor.so.1 \

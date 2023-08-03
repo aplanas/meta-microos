@@ -10,10 +10,10 @@ our engineering notebook. Team Robocracy is sharing this style \
 in the spirit of coopertition."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn50043"
+PV = "2023.209.1.1svn50043"
 
-RPM_NAME = "texlive-ftc-notebook-2023.201.1.1svn50043-52.1.noarch.rpm"
-RPM_HASH = "38ac83549a0b12b96f8c44a75e061af180a22e5acbbd846ddc51d500453d67596ffcd27c0b3d0f3881bf82aa18c35af6a0c82bcc7aff8fb1ef3a03ebbb5292af"
+RPM_NAME = "texlive-ftc-notebook-2023.209.1.1svn50043-53.1.noarch.rpm"
+RPM_HASH = "31523d9c9df34b01c74a1e7adfbc9b8ee7a394751b496ac5d340a788558014113d0f1575c737a10d2bc94397d61237efd18cdef35640315918f24961aa749a7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ftc-notebook.sty \

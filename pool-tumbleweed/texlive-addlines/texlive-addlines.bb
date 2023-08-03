@@ -6,10 +6,10 @@ better on the next page. It will also add space to the facing \
 page in a two-sided document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn49326"
+PV = "2023.209.0.0.3svn49326"
 
-RPM_NAME = "texlive-addlines-2023.201.0.0.3svn49326-54.1.noarch.rpm"
-RPM_HASH = "c4b613d4bb42c4dd033f1a48b5648bb8f236dd070bd192cf50aa1ce2868b83d4136c887778ea6da7f1b41bbc207434854ec1d8d38b66005be7dd831fce264f5d"
+RPM_NAME = "texlive-addlines-2023.209.0.0.3svn49326-55.1.noarch.rpm"
+RPM_HASH = "ad2c122fdc041d91db794d9d1a9395922250239c8ea6b1532e99745267f61a79f2717a950d68a24e7fee9c80fbae651bcdddf0a6489d8ef986cd570ff0ba9b9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-addlines.sty \

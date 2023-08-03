@@ -7,10 +7,10 @@ are controlled by setting key values. The package makes use of \
 the everypage package, and uses pgf/tikz for attribute control."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1svn42428"
+PV = "2023.209.2.1svn42428"
 
-RPM_NAME = "texlive-background-2023.201.2.1svn42428-53.1.noarch.rpm"
-RPM_HASH = "123da4e553d4a618da2867794f73f68592733c93b1c72ab5b37e870e6a7dd5d7c00054e6210e4092435fe6728a92818bbe5b4a3cfd202efc9f2e8d7d9dfd9ae7"
+RPM_NAME = "texlive-background-2023.209.2.1svn42428-54.1.noarch.rpm"
+RPM_HASH = "051d4641c23c54c95a902599e3390edda9aec5faa85e2929e0f3b70948ab0befeb312d55a3141ab6261ac2fe2a3d2129212f2f618b45cbbcc378fb8629f9bd66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-background.sty \

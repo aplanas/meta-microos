@@ -11,10 +11,10 @@ additional ligatures. The included package files provide access \
 to these features in LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.016svn19490"
+PV = "2023.209.1.016svn19490"
 
-RPM_NAME = "texlive-baskervald-2023.201.1.016svn19490-53.1.noarch.rpm"
-RPM_HASH = "2756e36dd4621e370d2e7c6d2b47a3aea184005423685fcfaa823c94bbbf7f4fda2890eb1a31e3ed65c6026f3f30cb2dd11e8891d5d31ef28e0c955de647790c"
+RPM_NAME = "texlive-baskervald-2023.209.1.016svn19490-54.1.noarch.rpm"
+RPM_HASH = "d92d53ec4f72ee96235cd490dc67394fc5fbd298b1243d64100f09c2297ce019769f84ba0a37eb92a776261846c0d533dc5643dded651b04ee6c020a7e5fc359"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-baskervald.sty \

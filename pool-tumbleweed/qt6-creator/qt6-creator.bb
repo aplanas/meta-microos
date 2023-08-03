@@ -3,16 +3,17 @@ DESCRIPTION = "Qt Creator is an integrated development environment (IDE) designe
 facilitate development with the Qt application framework."
 LICENSE = "BSD-3-Clause & GPL-3.0-only & GPL-3.0-with-Qt-Company-Qt-exception-1.1 & (LGPL-2.1-only | LGPL-3.0-only) & LGPL-3.0-only"
 
-PV = "10.0.2"
+PV = "11.0.0"
 
-RPM_NAME = "qt6-creator-10.0.2-1.1.aarch64.rpm"
-RPM_HASH = "18dd0b72c25c40ec2a117c3781697cb277a68677e6896d2e309194f133bcf1ebacdfecb72a03761f2fda88abaaf23c3bd703a23b0fcc3b846e9c05e17e4cd329"
+RPM_NAME = "qt6-creator-11.0.0-1.2.aarch64.rpm"
+RPM_HASH = "f120b3e33e67728d545bee0bb2c4c3fced25bc3a02834b4a64c487882ce5581e7cf3100572a857f5768fc7f87f9a3829f083e996bdfe2ef6631c187a44ad55da"
 
-RPROVIDES:${PN} += "libAdvancedDockingSystem.so.10 \
-libAggregation.so.10 \
+RPROVIDES:${PN} += "libAdvancedDockingSystem.so.11 \
+libAggregation.so.11 \
 libAndroid.so \
 libAutoTest.so \
 libAutotoolsProjectManager.so \
+libAxivion.so \
 libBareMetal.so \
 libBazaar.so \
 libBeautifier.so \
@@ -20,7 +21,7 @@ libBinEditor.so \
 libBookmarks.so \
 libBoot2Qt.so \
 libCMakeProjectManager.so \
-libCPlusPlus.so.10 \
+libCPlusPlus.so.11 \
 libCVS.so \
 libClangCodeModel.so \
 libClangTools.so \
@@ -30,6 +31,7 @@ libCoco.so \
 libCodePaster.so \
 libCompilationDatabaseProjectManager.so \
 libConan.so \
+libCopilot.so \
 libCore.so \
 libCppEditor.so \
 libCppcheck.so \
@@ -39,10 +41,10 @@ libDesigner.so \
 libDiffEditor.so \
 libDocker.so \
 libEmacsKeys.so \
-libExtensionSystem.so.10 \
+libExtensionSystem.so.11 \
 libFakeVim.so \
 libFossil.so \
-libGLSL.so.10 \
+libGLSL.so.11 \
 libGLSLEditor.so \
 libGenericProjectManager.so \
 libGit.so \
@@ -53,29 +55,29 @@ libHelp.so \
 libImageViewer.so \
 libIncrediBuild.so \
 libIos.so \
-libKSyntaxHighlighting.so.10 \
+libKSyntaxHighlighting.so.11 \
 libLanguageClient.so \
-libLanguageServerProtocol.so.10 \
-libLanguageUtils.so.10 \
+libLanguageServerProtocol.so.11 \
+libLanguageUtils.so.11 \
 libMacros.so \
 libMarketplace.so \
 libMcuSupport.so \
 libMercurial.so \
 libMesonProjectManager.so \
 libModelEditor.so \
-libModeling.so.10 \
+libModeling.so.11 \
 libNim.so \
 libPerfProfiler.so \
 libPerforce.so \
-libProParser.so.10 \
+libProParser.so.11 \
 libProjectExplorer.so \
 libPython.so \
 libQbsProjectManager.so \
 libQmakeProjectManager.so \
-libQmlDebug.so.10 \
-libQmlDesigner.so \
-libQmlEditorWidgets.so.10 \
-libQmlJS.so.10 \
+libQmlDebug.so.11 \
+libQmlDesignerBase.so \
+libQmlEditorWidgets.so.11 \
+libQmlJS.so.11 \
 libQmlJSEditor.so \
 libQmlJSTools.so \
 libQmlPreview.so \
@@ -89,25 +91,21 @@ libSafeRenderer.so \
 libScxmlEditor.so \
 libSerialTerminal.so \
 libSilverSearcher.so \
-libSqlite.so.10 \
+libSqlite.so.11 \
 libSquish.so \
-libStudioPlugin.so \
-libStudioWelcome.so \
 libSubversion.so \
+libTerminal.so \
 libTextEditor.so \
 libTodo.so \
-libTracing.so.10 \
-libUtils.so.10 \
+libTracing.so.11 \
+libUtils.so.11 \
 libValgrind.so \
+libVcpkg.so \
 libVcsBase.so \
 libWebAssembly.so \
 libWelcome.so \
-libassetexporterplugin.so \
-libcomponentsplugin.so \
-libqlitehtml.so.10 \
-libqmlpreviewplugin.so \
+libqlitehtml.so.11 \
 libqt5-creator \
-libqtquickplugin.so \
 qt5-creator \
 qt6-creator"
 
@@ -146,6 +144,16 @@ libm.so.6 \
 libstdc++.so.6 \
 libyaml-cpp.so.0.7 \
 libzstd.so.1 \
-qt6-sql-sqlite"
+qt6-sql-sqlite \
+qt6qmlimport-Qt.labs.platform.1 \
+qt6qmlimport-Qt.labs.qmlmodels.1 \
+qt6qmlimport-QtQuick.2 \
+qt6qmlimport-QtQuick.Controls.2 \
+qt6qmlimport-QtQuick.Controls.6 \
+qt6qmlimport-QtQuick.Layouts.1 \
+qt6qmlimport-QtQuick.Shapes.1 \
+qt6qmlimport-QtQuick.Templates.2 \
+qt6qmlimport-QtQuick.Timeline.1 \
+qt6qmlimport-QtQuick.Window.2"
 
 inherit rpm

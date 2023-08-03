@@ -4,10 +4,10 @@ functionality of Spivey's original Z package, written for LaTeX \
 2.09."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn17258"
+PV = "2023.209.svn17258"
 
-RPM_NAME = "texlive-zed-csp-2023.201.svn17258-52.2.noarch.rpm"
-RPM_HASH = "b9375d916b1cae9c5aa6397ec903773470d92a869658425ab9523c0f00f7a5502f97cd81e6475f692a114d3dc0368dac5903caca95b3be7a4dd1ab8c0b8addc8"
+RPM_NAME = "texlive-zed-csp-2023.209.svn17258-53.1.noarch.rpm"
+RPM_HASH = "6c754ce9f00cd3916ab24f342445adde75f26b30b5c511938197c2aef1a4b4a4829cb886db525a9d56a35b0518f403da89b63036acf314da2bd9102002bd01bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zed-csp.sty \

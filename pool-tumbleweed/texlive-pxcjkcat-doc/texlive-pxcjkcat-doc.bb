@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pxcjkcat"
 DESCRIPTION = "This package includes the documentation for texlive-pxcjkcat"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4svn63967"
+PV = "2023.209.1.4svn63967"
 
-RPM_NAME = "texlive-pxcjkcat-doc-2023.201.1.4svn63967-53.2.noarch.rpm"
-RPM_HASH = "ad72fb83e85e8207f5db5361332e930d717beaf2223cc8cade0dee4b6e80c0111fcea479258110aae823b13d2a31f46407a417f138a1284d7cd93334caadba63"
+RPM_NAME = "texlive-pxcjkcat-doc-2023.209.1.4svn63967-54.1.noarch.rpm"
+RPM_HASH = "c118ecff06adc4829ecd047bf96b952f2da710ddf019ac736553748f69a9dbed79dd4057dc0417a667939e6d0153c54ebb3bd1d46393774de81ec516c786e0dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pxcjkcat-doc-ja;en \

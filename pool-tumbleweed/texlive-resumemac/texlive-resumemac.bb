@@ -3,10 +3,10 @@ DESCRIPTION = "A set of macros is provided, together with an file that offers \
 an example of use."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-resumemac-2023.201.svn15878-53.2.noarch.rpm"
-RPM_HASH = "620836231c6bfa6348e6e01710c2d4bb35a97bc650784e0cb44ba2d9e40061bdbf57c22bffbfe1a61b593f6363db0f4e7cd50dd547d1c4a7a359f202581801fa"
+RPM_NAME = "texlive-resumemac-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "5d6edb302980fe6423a93f2c8cbb6f364f4e2b90d1375635af0f6485b2edc4e24f29efd198a7b317a5852f60a52c7be664906add193ab4cf8815af232abbabc2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-resumemac.tex \

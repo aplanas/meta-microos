@@ -6,10 +6,10 @@ path thus generated may by used as a TikZ 'to path'. The \
 implementation is in LaTeX3."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.8svn44474"
+PV = "2023.209.1.8svn44474"
 
-RPM_NAME = "texlive-hobby-2023.201.1.8svn44474-53.2.noarch.rpm"
-RPM_HASH = "0f5b1c94c206bba6ce3caede01a2f66cb27bd551a70677b14c0f3efc6d387f0cab76658d4e397c39de2546f7cde67c3b29e00f6150e3aa15ed9f5ce4e5c4ab32"
+RPM_NAME = "texlive-hobby-2023.209.1.8svn44474-54.1.noarch.rpm"
+RPM_HASH = "cd476a3e80ab9b6f9a1a3645094f2d68eeb802cc9298eb4a9665bdda9931a010c67b85e9302fef75e4425cbbb0468a8cceb05715699652521c1ad2f557bc51eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hobby.code.tex \

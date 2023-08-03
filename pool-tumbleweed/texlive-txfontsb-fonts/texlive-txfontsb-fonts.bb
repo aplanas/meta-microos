@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-txfontsb"
 DESCRIPTION = "The  separated fonts package for texlive-txfontsb"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.1.1svn54512"
+PV = "2023.209.1.1.1svn54512"
 
-RPM_NAME = "texlive-txfontsb-fonts-2023.201.1.1.1svn54512-52.1.noarch.rpm"
-RPM_HASH = "1ec4ab4e37c79e9f25667f8c33a9737adcb702405ee975f0f03a55e0ff1ef08592438f24e30224d0d3d072fa296fc45e9098459c93bb18c43b3dc3cc22593b3b"
+RPM_NAME = "texlive-txfontsb-fonts-2023.209.1.1.1svn54512-53.1.noarch.rpm"
+RPM_HASH = "3e3dec35ed478f4db200f105656cb67f485088f149ed62297ba633e0508dfec738cd62bfb8f5aecae538987d84ae934872be8f4f34e2727b2ca3e127006f01ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-txfontsb-fonts \

@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Quick3DIblBaker library"
 DESCRIPTION = "The Qt 6 Quick3DIblBaker library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6Quick3DIblBaker6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "0f6dbaaa14643df916ce515d7b5706570e01d5bb56a50d98d6f8b32e87584532455d0656d266847ca6127bc397631985071df699f1d8cf8cc154a68fc5d25522"
+RPM_NAME = "libQt6Quick3DIblBaker6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "22e3f6c9618e4e851b6daeae9389ae4da8137d2abc7d71b1ac5da02c644335732090af94cd56bbb2c6f2d2b8709d76bb6072391a7af373333364e5cb527e00a7"
 
 RPROVIDES:${PN} += "libQt6Quick3DIblBaker.so.6 \
 libQt6Quick3DIblBaker6"

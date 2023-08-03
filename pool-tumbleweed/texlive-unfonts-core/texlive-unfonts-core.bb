@@ -9,10 +9,10 @@ UnGraphic, UnGraphicBold: sans-serif style UnPilgi, \
 UnPilgiBold: script UnGungseo: cursive, brush-stroke"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn56291"
+PV = "2023.209.svn56291"
 
-RPM_NAME = "texlive-unfonts-core-2023.201.svn56291-53.1.noarch.rpm"
-RPM_HASH = "1787537c48605e92242fe6a3c22d6f8a09730207bcb28b4181481fbe3cae1e837cfaede469bf68731b9117d89fc446d4c052b217b37a3a1a7aece6902892eb12"
+RPM_NAME = "texlive-unfonts-core-2023.209.svn56291-54.1.noarch.rpm"
+RPM_HASH = "bf91be8e68295bde3c2cfe69c7a7510adb46efdede34f2e7f8c1056529d29adcf2fca4447f839278f8049767a697d0a1db5e65c2ad0418bcbb620cdfb53b0b56"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-unfonts-core"

@@ -4,10 +4,10 @@ Please see the paper 'Named Tensor Notation' for background on \
 this notation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4svn65346"
+PV = "2023.209.0.0.4svn65346"
 
-RPM_NAME = "texlive-namedtensor-2023.201.0.0.4svn65346-54.1.noarch.rpm"
-RPM_HASH = "4eba65c0a798562a878d209862db721f95b9f4c1caa1b6a0d33846ce96372532063821e16ab5cac60f2c18056fdb37a5f1edd9575f047e9f286985a05cbe1892"
+RPM_NAME = "texlive-namedtensor-2023.209.0.0.4svn65346-55.1.noarch.rpm"
+RPM_HASH = "26a70c06d863721718f942dc55372ddd399db07e336bbb08d78d9470af87c527741a769adc423959963b25345b85f2191f09c6cece554f07bf49e75a52aa1990"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-namedtensor.sty \

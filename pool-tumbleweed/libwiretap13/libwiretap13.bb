@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "4.0.7"
 
-RPM_NAME = "libwiretap13-4.0.7-1.1.aarch64.rpm"
-RPM_HASH = "8f664677a6d62826552c7672d05c4d0a4ced80b2ba2a81625efc68e4a2b53f41434e6ec2e66510bc1009e173ff762c8c38fafeab0e1f7db932ff77aee24baea5"
+RPM_NAME = "libwiretap13-4.0.7-2.1.aarch64.rpm"
+RPM_HASH = "1b7dce0eee5d525633f90619a8b324c0cb55b9da90efab24f63dc36f8e3795c796230cce0c98b2d5991bc4817a41a8a5d57c1a6266ba16ad7dbf117122bc3d33"
 
 RPROVIDES:${PN} += "libwiretap.so.13 \
 libwiretap13"

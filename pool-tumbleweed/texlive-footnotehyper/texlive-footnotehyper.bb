@@ -4,10 +4,10 @@ not been made hyperref compatible. The aim of the present \
 package is to do that."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1esvn60374"
+PV = "2023.209.1.1esvn60374"
 
-RPM_NAME = "texlive-footnotehyper-2023.201.1.1esvn60374-52.1.noarch.rpm"
-RPM_HASH = "9fd2ba4083b10c3503769480e7f796390a8331f9dd5e787e7b0d7fe13090244f21532bd6cb50815441c861896fd7d1a4073bfe2609dda1a1f1c02181ed6d1253"
+RPM_NAME = "texlive-footnotehyper-2023.209.1.1esvn60374-53.1.noarch.rpm"
+RPM_HASH = "04ae9d12cbe9fc04b8dfb6e4911561851c065b40e82fc7c67d2f32a832f07e9142c4459f07ae9e613bedced9de06c84efc3f8e2fb8e92e5944b8bfdb07493673"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-footnotehyper.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "User MediaWiki LaTeX commands to copy and past formulae from \
 MediaWiki to LaTeX documents."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn46844"
+PV = "2023.209.1.1svn46844"
 
-RPM_NAME = "texlive-texvc-2023.201.1.1svn46844-54.1.noarch.rpm"
-RPM_HASH = "1bedb5bbdfc5d089be84d47d6a97b3cb0210de0fe2ee9b8cc0eb66f54ff73e4acf0bdac508a7059d10f09bd12c83e3bd86733ecb91fed5b4fd5bac8ad5243eb1"
+RPM_NAME = "texlive-texvc-2023.209.1.1svn46844-55.1.noarch.rpm"
+RPM_HASH = "d5532ee11b243d6166fdd283cf3b5e6c2b74887d878dec631bf2b12e259cc6ddbd12c9ddb08d99aa1f666ac524d92514d3a3052a665a14f3249c5d59e832b79c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-texvc.sty \

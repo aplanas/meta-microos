@@ -2,10 +2,10 @@ SUMMARY = "Document Class for Journal of the Physical Society of Japan"
 DESCRIPTION = "The jpsj package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2.2svn66115"
+PV = "2023.209.1.2.2svn66115"
 
-RPM_NAME = "texlive-jpsj-2023.201.1.2.2svn66115-55.1.noarch.rpm"
-RPM_HASH = "374d45d28773bc5ca8f2f8a74bc9c97d10d3657a53f95797ae0319af8642c5c60a825eba9f310a0148cc7659d07088b6b50be502395ab3bf56e93f3f22d13606"
+RPM_NAME = "texlive-jpsj-2023.209.1.2.2svn66115-56.1.noarch.rpm"
+RPM_HASH = "8b81aa00cf6f54b29b91a3f39bd33a64a156f1aad395e79a50917510e84f621d854888383ee98cbddc491a13f4bf66a4cb4b2a13643b96aa6c9a604e98959390"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jpsj2.cls \

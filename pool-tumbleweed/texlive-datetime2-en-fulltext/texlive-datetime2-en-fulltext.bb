@@ -10,10 +10,10 @@ time in PDF bookmarks or in the argument of certain commands, \
 such as \\MakeUppercase, while these styles are in use."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn36705"
+PV = "2023.209.1.0svn36705"
 
-RPM_NAME = "texlive-datetime2-en-fulltext-2023.201.1.0svn36705-52.1.noarch.rpm"
-RPM_HASH = "0c83d9b70cd73fb1fcd1ce1dc68d4fdcabc625de367b41ac69ebc6870ef606fa544179f461d68b2653f9ea3b3f17839249fe1935323eb1117df3e2924f68241e"
+RPM_NAME = "texlive-datetime2-en-fulltext-2023.209.1.0svn36705-53.1.noarch.rpm"
+RPM_HASH = "7f0e80fa758734c1b2b310758a6907485f19eedec2d10dda711b6150a402155f32dc39a129ccfb3298787889c2f7769e183fcac268a66823749c945ce45dc3dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-en-fulltext.sty \

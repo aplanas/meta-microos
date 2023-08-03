@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-vmargin"
 DESCRIPTION = "This package includes the documentation for texlive-vmargin"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.5svn15878"
+PV = "2023.209.2.5svn15878"
 
-RPM_NAME = "texlive-vmargin-doc-2023.201.2.5svn15878-53.1.noarch.rpm"
-RPM_HASH = "3f836ec1410721dbcb455c72637c74540713a8b1957c9281b4dfa8d618f424d0bb0946f69cf407d8a928068d0f9d1b6deb757e9abea79d39d5ada6fddf8dfa0a"
+RPM_NAME = "texlive-vmargin-doc-2023.209.2.5svn15878-54.1.noarch.rpm"
+RPM_HASH = "8d160db1267673807994aa10ce88db20bd2dc9e426238ce3053e0969848e0b8dddced53ed9cd1e8af8356a2df9cf417b0d9f77287a901b0131c1bf36c3874eed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-vmargin-doc"

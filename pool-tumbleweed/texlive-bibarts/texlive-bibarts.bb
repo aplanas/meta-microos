@@ -19,10 +19,10 @@ mind. A summary of contents is in English; the full \
 documentation is in German."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.5svn64579"
+PV = "2023.209.2.5svn64579"
 
-RPM_NAME = "texlive-bibarts-2023.201.2.5svn64579-53.1.noarch.rpm"
-RPM_HASH = "eafd18d3ac4bb89b859aff225cf9cf9760eab3f64ef31c5f0be587aae9ca1e28debd18a66888fecd923bae1954617f612e309cb67e48eea73dab674822fe7a46"
+RPM_NAME = "texlive-bibarts-2023.209.2.5svn64579-54.1.noarch.rpm"
+RPM_HASH = "b02423a41ef0572d882517ffe614f3fead44ab2840f15d8c22b87942908e2ea8131728eae16b9964b9cab841be00f68617c6bb19e777a7567f11487910715102"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bibarts.sty \

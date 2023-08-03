@@ -7,12 +7,12 @@ LICENSE = "Apache-2.0"
 
 PV = "7.8.0"
 
-RPM_NAME = "python3-neutronclient-7.8.0-1.5.noarch.rpm"
-RPM_HASH = "85c0512d144bf09482edd84e49be7964244fa150b030e45c7dccc6086c15ade7103c553f5661f3ec4c53cc73b9a9874414926ed09c7d227de7c0eb1f92def232"
+RPM_NAME = "python3-neutronclient-7.8.0-1.6.noarch.rpm"
+RPM_HASH = "26c1f2a5b5bb39c7ff571d06b234bac4537e0163f0f1b2951f7259c5831895c883bf74f6712aa96b091721132d692a4f461e08ccf5f4ffbf126ae4d8669215cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-neutronclient \
-python3.10dist-python-neutronclient \
+python3.11dist-python-neutronclient \
 python3dist-python-neutronclient"
 
 RDEPENDS:${PN} += "/usr/bin/bash \

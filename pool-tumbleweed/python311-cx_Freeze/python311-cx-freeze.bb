@@ -10,10 +10,10 @@ before being able to run 'cx-frozen' executables that were created by \
 other systems."
 LICENSE = "Python-2.0"
 
-PV = "6.14.9"
+PV = "6.15.4"
 
-RPM_NAME = "python311-cx_Freeze-6.14.9-1.3.aarch64.rpm"
-RPM_HASH = "6547938695cf57d3650d465dd520ac779da44f9207d85359dbbffb46536d6de247e724af98ffae7dd7d99e567654dc66e525e43574cfb0d4f883b611f596b2c9"
+RPM_NAME = "python311-cx_Freeze-6.15.4-1.1.aarch64.rpm"
+RPM_HASH = "3d6948e03e7a723ef9434deb64b266ccd6293c07e4ed23317f8d55fedd18ab2d1c10d40b87e3676b91ade51daf8dab7b2d464526fda190ba7784c28beaf3ca4f"
 
 RPROVIDES:${PN} += "python3-cx-Freeze \
 python3.11dist-cx-freeze \

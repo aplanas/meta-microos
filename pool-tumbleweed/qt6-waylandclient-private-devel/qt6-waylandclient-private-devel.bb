@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6WaylandClient that
 any ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-waylandclient-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "ca502ad04791d4f3a2462a0c869313ca1a23e4fbcbf6af4b8371705c24e55b4db0b088bd893a8589302db827e6a7753b8a1cd8a852e2f13827bd99a3381fe04c"
+RPM_NAME = "qt6-waylandclient-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "a9389f468fbe7da224889a2679b34a92b0ce53947dee8bc9d92cf476193a4d04f72ce0adaabc4b4374b9c1b7ec74d4826ece8bea02c9538e48c487c386eb8a96"
 
 RPROVIDES:${PN} += "qt6-waylandclient-private-devel"
 

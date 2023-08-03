@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.10.2"
 
-RPM_NAME = "man-2.10.2-1.5.aarch64.rpm"
-RPM_HASH = "fd01bb0f78be7e1fe6ca1041575db6f8b5ab78cdd10879cf1ee428e619daad33a51f12a05ce00e1e1886e4366f093c5eff723bd2a52bc2e6160c77846105b095"
+RPM_NAME = "man-2.10.2-2.1.aarch64.rpm"
+RPM_HASH = "51ed85aff1d5e22c69d65edf42276acbd1c59d0973313dfeae163673f5981ab00064245b934da1a77771e3ac05016238bc2d39446392bd61d6316dec33da6a2f"
 
 RPROVIDES:${PN} += "config-man \
 libman-2.10.2.so \

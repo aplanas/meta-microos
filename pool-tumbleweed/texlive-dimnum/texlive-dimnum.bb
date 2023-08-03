@@ -3,10 +3,10 @@ DESCRIPTION = "This package simplifies the calling of Dimensionless Numbers in \
 math or text mode."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.1svn58774"
+PV = "2023.209.1.0.1svn58774"
 
-RPM_NAME = "texlive-dimnum-2023.201.1.0.1svn58774-52.1.noarch.rpm"
-RPM_HASH = "c0a52f5a547586a3e3afa61613530dc5bd1c1c486ef6e426ac982fa093572fdab100b3eae629c589d0d0b5aebfc179b780ba55292454d28ec77b70c5d64f75eb"
+RPM_NAME = "texlive-dimnum-2023.209.1.0.1svn58774-53.1.noarch.rpm"
+RPM_HASH = "f854d391513a48f36684373d7638af76495dc597464fba73ba1e1e6505530a07e13bf74c34ec0b04985ae2d572f7a04718e3acb22f0ad1ae0e461f16dde67680"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dimnum.sty \

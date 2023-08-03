@@ -4,10 +4,10 @@ effects: the package implements an old idea of Eric Gill. The \
 package was written for the author's talk at TUG 2010."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.1.1svn19878"
+PV = "2023.209.1.1svn19878"
 
-RPM_NAME = "texlive-gillcm-2023.201.1.1svn19878-52.1.noarch.rpm"
-RPM_HASH = "1a002e756f0d7769e8de374a63b0d84d7346c596a82ec4eee3e8dc3bc878ea706516248c9ad65bb95a03664f8439c653b9eacc5195087df15b8e9d8acad7eb11"
+RPM_NAME = "texlive-gillcm-2023.209.1.1svn19878-53.1.noarch.rpm"
+RPM_HASH = "327f2c1833b66f2937fd984ed6fedecf7d777ef995ccd1482d0ddb8dbf0c7e28fc9590ca60dc4a0aa35d4f4f27324440ae1e4adc5ee8352299106a971ff79516"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmg.map \

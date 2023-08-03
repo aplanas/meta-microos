@@ -3,10 +3,10 @@ DESCRIPTION = "The libhtp-devel package contains libraries and header files for 
 developing applications that use libhtp."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.5.44"
+PV = "0.5.45"
 
-RPM_NAME = "libhtp-devel-0.5.44-1.1.aarch64.rpm"
-RPM_HASH = "0082d5bc48061ca6a4bf9d910831a5e842112ff50fbda7e4666c79dd05ae2edb3e71c71ab7fc6c50ffcdd8e9517263af2d46716be1597141e87eee17262fc5da"
+RPM_NAME = "libhtp-devel-0.5.45-1.1.aarch64.rpm"
+RPM_HASH = "ef4a1858e15061746133fa1774b946eef1ba901212b2e98007ef8fd4f4b74c9789566969ef9af71031c592eedb739f0ff08301727431d803b1fd226ecc985c4d"
 
 RPROVIDES:${PN} += "libhtp-devel \
 pkgconfig-htp"

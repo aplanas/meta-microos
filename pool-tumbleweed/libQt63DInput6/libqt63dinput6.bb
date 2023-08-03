@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 3DInput library"
 DESCRIPTION = "The Qt 6 3DInput library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt63DInput6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "5d79e9ff6f727d7c4dcfea0293358dd29144b2f03f520195c4b0e3628eedbf8ebcbc4cc1cf9d52f88b4eb6947df5c02cf1a94abaff0d2148f032bcb33203cfda"
+RPM_NAME = "libQt63DInput6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "dcb32d69dfbda1fa1e4b4b5b33d5c17076adb52f5e4df81632b0c4ee0198be73daa9aee047ea1821368991ebea7743337bc5e54b1901eb8d1e93e2b0c2ac2c05"
 
 RPROVIDES:${PN} += "libQt63DInput.so.6 \
 libQt63DInput6"

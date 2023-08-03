@@ -10,10 +10,10 @@ script used to generate the MP source from the colorbrewer \
 project."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn48753"
+PV = "2023.209.svn48753"
 
-RPM_NAME = "texlive-metapost-colorbrewer-2023.201.svn48753-54.1.noarch.rpm"
-RPM_HASH = "9f4e663a2fbb99379f5fa3083c868ab195b245da00f63e454048c42cc4d20b51849ccaf9036ecf26d7d5c47c90c861b39841cf48094379d0b9ef5d5a966551a2"
+RPM_NAME = "texlive-metapost-colorbrewer-2023.209.svn48753-55.1.noarch.rpm"
+RPM_HASH = "885788b0e960b53072db16b7ff0bcdd79c9bd4e49167d5793564e05258800607b545dbf213ddca80e703e82b6836913d477de97a126aa6aa89b590eaeddd45ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metapost-colorbrewer"

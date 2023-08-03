@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xetexko"
 DESCRIPTION = "This package includes the documentation for texlive-xetexko"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.2svn64894"
+PV = "2023.209.4.2svn64894"
 
-RPM_NAME = "texlive-xetexko-doc-2023.201.4.2svn64894-52.2.noarch.rpm"
-RPM_HASH = "83635c598a5d90f20fb179f0403913048bad89d72ed87dd508f88cb8c6622e11b7190e05a2a19bd4630b3342e9a16e85320fa32527432dd76795c88a35b5e313"
+RPM_NAME = "texlive-xetexko-doc-2023.209.4.2svn64894-53.1.noarch.rpm"
+RPM_HASH = "8a4b80837ebd6fc2329ae1f91b210d1433b5fc9896c175986d4568ca39fb599da2f4de786db6bd4a9c2778e638b0e288993249e22cd58f696339e8b10534a34b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-xetexko-doc-ko \

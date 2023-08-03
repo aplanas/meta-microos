@@ -7,10 +7,10 @@ change from one colour to another as a function of how far \
 through the presentation you are."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.22svn21741"
+PV = "2023.209.1.22svn21741"
 
-RPM_NAME = "texlive-colourchange-2023.201.1.22svn21741-53.1.noarch.rpm"
-RPM_HASH = "279b9f2bda2c2cc1a20c10d837865a4607721a864ab0807d97e32cdb1eb3827e5b346e5630b644becb38f4aadcbbfccf20b1ccb0ed96c62f839872d09c050257"
+RPM_NAME = "texlive-colourchange-2023.209.1.22svn21741-54.1.noarch.rpm"
+RPM_HASH = "12192298bd2d1ac89abe7598fdc44a0bd85d236a0a268f718078ced3f3f1f18bc4f01f4321c5adc91423f4707545bb1e09c0c7fae326dcbc30f16483842ac37f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-colourchange.sty \

@@ -12,10 +12,10 @@ dimensions of the type \\foo[3,2] to access the item #2 of the \
 list contained within the item #3 of the top-tier list."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.63svn51923"
+PV = "2023.209.1.63svn51923"
 
-RPM_NAME = "texlive-listofitems-2023.201.1.63svn51923-54.1.noarch.rpm"
-RPM_HASH = "12d7902c54c8e64cc878035580b4f863fdc3da1d3c21ad5976075bad13b2f99ab282f7645f48c37971c9fe7b0effa1202a0877ee459f36c868f0db5167d3061e"
+RPM_NAME = "texlive-listofitems-2023.209.1.63svn51923-55.1.noarch.rpm"
+RPM_HASH = "caedd2b241a1dfd820611ee5a73bf3eb1942c25a18cf6de4708a54361f0f347688e39e7698128a222dde83fdf5446c0a8510e98fd5e4beb974afaa75028c73da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-listofitems.sty \

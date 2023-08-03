@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-japanese-otf"
 DESCRIPTION = "This package includes the documentation for texlive-japanese-otf"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.svn66091"
+PV = "2023.209.svn66091"
 
-RPM_NAME = "texlive-japanese-otf-doc-2023.201.svn66091-55.1.noarch.rpm"
-RPM_HASH = "bcbd50f97297c6ad8f9f46ee7d2048ebcdc7ff1f6f19bdcb76f6cbcdcd20676a49315e5f616cdf124f9eb6cd593e568e3fdf972b718678cee98037b1c64b0865"
+RPM_NAME = "texlive-japanese-otf-doc-2023.209.svn66091-56.1.noarch.rpm"
+RPM_HASH = "52e3bb4d727d727345a29463de81edbea05f21a51131066b7625ec0312e5face09199fa6e92f36ac3f8d9386532829e709983e635ea2a6e1af5a4657bdae8ff0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-japanese-otf-doc-en;ja \

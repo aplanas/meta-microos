@@ -6,10 +6,10 @@ value is calculated. Some typographic alternatives may be \
 selected by package options"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn21385"
+PV = "2023.209.1.2svn21385"
 
-RPM_NAME = "texlive-esdiff-2023.201.1.2svn21385-53.2.noarch.rpm"
-RPM_HASH = "15a15ee98656dcdc0867c34c67b069fd7077895dfaea92514e81dfc7cd1a02ad5fd6a2d32c70f57af409ac3080b80b10dd3d7b61459ea5e6dd5136d9fe07e519"
+RPM_NAME = "texlive-esdiff-2023.209.1.2svn21385-54.1.noarch.rpm"
+RPM_HASH = "473a0d63d59294ad5cf606ab15b52497c97455675a3f275f381bc529bff38b570b6ea4c857dd81b522aa8083df2f311693e214a1203a5a1733db4e2ec5488ca8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-esdiff.sty \

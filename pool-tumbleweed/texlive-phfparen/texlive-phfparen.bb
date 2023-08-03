@@ -6,10 +6,10 @@ syntax ' `\\big( a + b ) ' can be used to replace '\\bigl( a + b \
 \\bigr)'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn41859"
+PV = "2023.209.1.0svn41859"
 
-RPM_NAME = "texlive-phfparen-2023.201.1.0svn41859-51.1.noarch.rpm"
-RPM_HASH = "50c8561e87269170c035910252ca669ed39cc95fab607cc7b7d41907cdfaa09d8c35606aa6a9ea88491fab64a6215e919f7459fb6f03a4de2da3918a91dd9f70"
+RPM_NAME = "texlive-phfparen-2023.209.1.0svn41859-52.1.noarch.rpm"
+RPM_HASH = "20a7eec9276296b99f85bc772b091271869fb044debb824c896f1dd10bfddce2bd18fcdbf144188b20098826758b76dfcc6a37b959e2c9445e46b55542e1d127"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-phfparen.sty \

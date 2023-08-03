@@ -12,10 +12,10 @@ Applies International Components for Unicode (ICU) for sorting \
 process."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.1.07svn66381"
+PV = "2023.209.1.07svn66381"
 
-RPM_NAME = "texlive-upmendex-2023.201.1.07svn66381-53.1.noarch.rpm"
-RPM_HASH = "dbce8e07d632e4e77d79c8cb16141edd754160f82dd840c3b0bb54859b66bd80269b61e7aab6a17c8ce6d150d4122c22780c52ec8cf84241911ccc2d828cb8fd"
+RPM_NAME = "texlive-upmendex-2023.209.1.07svn66381-54.1.noarch.rpm"
+RPM_HASH = "79087ab9237b5480c6c280045fd52b00280389d2cee5bfa42e41bcc3afe37b81ff09f0f2d4bcb48b8eda6eba3d30a2c090d20111509c09e646833fc06ac1bdb3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-upmendex.1 \

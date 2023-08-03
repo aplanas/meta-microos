@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-byrne"
 DESCRIPTION = "This package includes the documentation for texlive-byrne"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.2.2svn61943"
+PV = "2023.209.0.0.2.2svn61943"
 
-RPM_NAME = "texlive-byrne-doc-2023.201.0.0.2.2svn61943-52.1.noarch.rpm"
-RPM_HASH = "a8c078e174e37aeb53311f79b5504bc373b06ef2aa8a83089e44438a8c1af9bb94bc90cd3a08e06ce4de66a86a38de1449986348a55fe5793be18093c8737d52"
+RPM_NAME = "texlive-byrne-doc-2023.209.0.0.2.2svn61943-53.1.noarch.rpm"
+RPM_HASH = "27d53bca50f2b8633b6252e1375f72fa8f4859f6ba7a43f22d6a56d2c189de5829ec8815d318782453bb786017c3ebb2079231e4eb3bc215c86ff8cf7f6aed7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-byrne-doc"

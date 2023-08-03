@@ -6,10 +6,10 @@ project template. \
 Project templates can be in any programming language or markup format."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.1.1"
+PV = "2.2.3"
 
-RPM_NAME = "python311-cookiecutter-2.1.1-2.2.noarch.rpm"
-RPM_HASH = "2e9d89b436ae7d0bd9427bd7d86a23bce263d910b7e221c1683db62d8c2139f5b9afde368002a4b221d52b8f9fb8df59ea60623386407c56e631e37d2231aef8"
+RPM_NAME = "python311-cookiecutter-2.2.3-1.1.noarch.rpm"
+RPM_HASH = "d942e57d3cf1321ec5c5ce1bd5b296e2b07c0bf16c787e8851d4763a7fd2550437450179a66915105cc1536a57a2bb088cb545a07baaba3b5c40cfcc91d0fadc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cookiecutter \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6QuickTemplates2 th
 any ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-quicktemplates2-private-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "7e9ab3c4373a20b0553ba9d90a0da360d307b00931c6aab8b11d83d662f5036551f982edc19b5505e2adfaa64bbb5c891f15fefe5538791d3f8931d40a356763"
+RPM_NAME = "qt6-quicktemplates2-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "ade3bc75a193e3474506020ec0198b1927d78fc44123a6fb9200510608907606da1ebfd8f9a71b9955768c441eb099e37ea6e0309f63491e5725d05a99809b07"
 
 RPROVIDES:${PN} += "qt6-quicktemplates2-private-devel"
 

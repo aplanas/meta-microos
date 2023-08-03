@@ -8,10 +8,10 @@ by packages rotating, wrapfig, subfig (in the case of rows of \
 subfloats), and longtable."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3bsvn15878"
+PV = "2023.209.0.0.3bsvn15878"
 
-RPM_NAME = "texlive-floatrow-2023.201.0.0.3bsvn15878-52.1.noarch.rpm"
-RPM_HASH = "960fbcc6b4cbf5891cede5d09173181ecb9f94bb1fb7634817135ee79b69e67bbcf9c9768ae0f179b6ff19f4a864a9d49a55c9bf0d56f72fcfc43f839c2c6371"
+RPM_NAME = "texlive-floatrow-2023.209.0.0.3bsvn15878-53.1.noarch.rpm"
+RPM_HASH = "6ad485864268060350aa635abc3b6c07a2ad00e6c9961c4e5dad18b8b89a859cb7e967690b84a756fee01ce2ed7b8fba53593d43e131164852f4a0783d801db7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-floatpagestyle.sty \

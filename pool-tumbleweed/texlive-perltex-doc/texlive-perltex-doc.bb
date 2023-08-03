@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-perltex"
 DESCRIPTION = "This package includes the documentation for texlive-perltex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.2svn52162"
+PV = "2023.209.2.2svn52162"
 
-RPM_NAME = "texlive-perltex-doc-2023.201.2.2svn52162-51.1.noarch.rpm"
-RPM_HASH = "33962966f0722d2daa2daad819ee99448425dbf85a2b0f6640f053d61cab8c81034de7e656d105ecdbd6572852699bda274e5608e707b099917799828f0d7c4e"
+RPM_NAME = "texlive-perltex-doc-2023.209.2.2svn52162-52.1.noarch.rpm"
+RPM_HASH = "427c42fbde7855b852675ca9c6c6d80151d130da223b474a59d940ce9801b0b85b8d21a517fb179fd9a189dc461f145cbad04f1cf475e9195a2e6ade09492bde"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-perltex.1 \

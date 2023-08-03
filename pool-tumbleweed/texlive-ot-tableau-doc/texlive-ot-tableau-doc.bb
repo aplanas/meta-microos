@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ot-tableau"
 DESCRIPTION = "This package includes the documentation for texlive-ot-tableau"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn59318"
+PV = "2023.209.svn59318"
 
-RPM_NAME = "texlive-ot-tableau-doc-2023.201.svn59318-54.1.noarch.rpm"
-RPM_HASH = "349be598eba48a7b88cfbfeec8f49894af416d97ef5ac9e2be9a93e9434401834d822f9f222cc8470fde1f2dba59fedf32a3293bdf077e92222979109e55f485"
+RPM_NAME = "texlive-ot-tableau-doc-2023.209.svn59318-55.1.noarch.rpm"
+RPM_HASH = "b95a2e9989ae2fd5d867680d86597e2ce7edf1d78bff157b68ebad5895062afe64635c5832a81d7efb2690014ebef8f62907d295db7adb74db87f84780243ee3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ot-tableau-doc"

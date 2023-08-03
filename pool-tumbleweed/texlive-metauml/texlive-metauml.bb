@@ -5,10 +5,10 @@ UML, offering now support for class, package, activity, state, \
 and use case diagrams."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.2.6svn49923"
+PV = "2023.209.0.0.2.6svn49923"
 
-RPM_NAME = "texlive-metauml-2023.201.0.0.2.6svn49923-54.1.noarch.rpm"
-RPM_HASH = "5862e819a4c6289cc83519e8a6a16fe156cdd74ee754962ea0676b1e0b2ffaecc04c7877f3dacb6609baed946f0e0c83257440683a71de12d444cf159d19506b"
+RPM_NAME = "texlive-metauml-2023.209.0.0.2.6svn49923-55.1.noarch.rpm"
+RPM_HASH = "7f52eef13f3d9657e13d3bf719502ea8db00ab10d49e6aa50ad4bb571c606e0671964427636339c5fb2da981b819f94a3ceace7917c1a2b74a722da0696c59c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metauml"

@@ -5,10 +5,10 @@ Metafont, etc.) using a state-of-the-art source format, aka \
 DocBook/XML."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4.8svn57349"
+PV = "2023.209.0.0.4.8svn57349"
 
-RPM_NAME = "texlive-tex-refs-2023.201.0.0.4.8svn57349-54.1.noarch.rpm"
-RPM_HASH = "6e207f07d662c4f3a1db7bd36870e33e2cf09a538be5984f39e031d0f138040349b84c34822e631f9eaf60ce75a3c0318969bb416677f7a9e1708043a9b3c8d7"
+RPM_NAME = "texlive-tex-refs-2023.209.0.0.4.8svn57349-55.1.noarch.rpm"
+RPM_HASH = "d75dc578d3e44b4e8210b86cf74d26726322544035309e4a366f044b692a63b121563fde66c718e11516de1fc283a9baf950bc16f62f68115cc090eb942e78f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tex-refs"

@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.3"
 
-RPM_NAME = "qemu-SLOF-8.0.3-1.1.noarch.rpm"
-RPM_HASH = "2bcbabe05e8414ef1c4d63cb4e7e861b569f36ceec6dde11be504d8ba94cd7a0de161849a6bd7ef07a5425557f2125e7389454ca10bf80b6c19676f6ec30bbaf"
+RPM_NAME = "qemu-SLOF-8.0.3-2.1.noarch.rpm"
+RPM_HASH = "45f2f127af68562183441d29f928aba6222d97d64eaabb56c8253a8000294fae0e7b602ec11c654b3fa6c42345c40f45377e0b882e2fffedcf133ad5d3e49451"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-SLOF"

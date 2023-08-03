@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-newpax"
 DESCRIPTION = "This package includes the documentation for texlive-newpax"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.53svn64415"
+PV = "2023.209.0.0.53svn64415"
 
-RPM_NAME = "texlive-newpax-doc-2023.201.0.0.53svn64415-54.1.noarch.rpm"
-RPM_HASH = "77c220c5cc8aa751e5f5beb0abdf4326cb435e373cdeebbed406237f2c17cf249154cd819c6516df2de43fcc54685e38dcbe3c877f91e7c01eb5c1c5ab847729"
+RPM_NAME = "texlive-newpax-doc-2023.209.0.0.53svn64415-55.1.noarch.rpm"
+RPM_HASH = "8580a85800a4f4ef0b8904f9936206f0f09190d4033a978c78a2fd35bfce4d4540d6eec9e15bc056fb022e355a277958143bb9abfd9e2111913b95838f34430c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-newpax-doc"

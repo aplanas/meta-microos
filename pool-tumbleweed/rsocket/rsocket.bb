@@ -4,10 +4,10 @@ preloadable library. See the documentation in the packaged rsocket(7) \
 manpage for details."
 LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
-PV = "45.0"
+PV = "47.0"
 
-RPM_NAME = "rsocket-45.0-1.2.aarch64.rpm"
-RPM_HASH = "48f58d8f0e8d6b3fbb950e44be5508133efc8c3239bfa9de8f686f1db6a44908dbd6a25af699284e78f06be9190d59ed6ad0269bf1aef0c0825163dbcacc2ff8"
+RPM_NAME = "rsocket-47.0-1.1.aarch64.rpm"
+RPM_HASH = "246154e688a3b740af14f13627d345d97761326e44548cf935adc7acde4aaa18ddae7bd8f7d56c8339900bda7412692c7a44a3cb9a8bad0109be996291bf69f9"
 
 RPROVIDES:${PN} += "librspreload.so \
 rsocket"

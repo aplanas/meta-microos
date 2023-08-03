@@ -3,10 +3,10 @@ DESCRIPTION = "The class is for typesetting a thesis at the University of \
 Electronic Science and Technology of China."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.0svn36371"
+PV = "2023.209.1.1.0svn36371"
 
-RPM_NAME = "texlive-uestcthesis-2023.201.1.1.0svn36371-53.1.noarch.rpm"
-RPM_HASH = "fccca9326404056c18034a7daf8d9734b15c2a7c9a692292ac80ed40d7fca63ed318d1bdef21dbaf5d33f5c78f6ea4d7a21e48c7b5b0ee6a6dcf92acff364d0f"
+RPM_NAME = "texlive-uestcthesis-2023.209.1.1.0svn36371-54.1.noarch.rpm"
+RPM_HASH = "c50f4f10f3d764c488039d98e5bdd243de3051ecbe42ab57709be4ab4cedf94172b935add28529ba53cdafb58c980b5fe0d1197a40e94bbc4c971243c613b412"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uestcthesis.cls \

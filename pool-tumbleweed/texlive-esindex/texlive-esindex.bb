@@ -6,10 +6,10 @@ works with accented characters in any encoding, and without \
 babel."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.7svn52342"
+PV = "2023.209.1.7svn52342"
 
-RPM_NAME = "texlive-esindex-2023.201.1.7svn52342-53.2.noarch.rpm"
-RPM_HASH = "12532c7855709a9e0a02cc9172b7ef31610f57afbecd111f13966ac02bf6cc0748e8425fdd2bec56f4d63be2ee68cedca4f90d69e103a6df5619be6ccb9e434e"
+RPM_NAME = "texlive-esindex-2023.209.1.7svn52342-54.1.noarch.rpm"
+RPM_HASH = "db09435b846fb5f9c9dfcef38438bf4901a5782ee39278a0cb654751a7135e16ec048767c5222943b48e9b2ff72fe74eeadd365d97a543bd40238f644c7b4446"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-esindex.sty \

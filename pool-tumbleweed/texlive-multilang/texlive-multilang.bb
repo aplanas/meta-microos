@@ -10,10 +10,10 @@ Choosing a translation then is as simple as choosing the \
 document's language via babel or polyglossia."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.9bsvn49065"
+PV = "2023.209.0.0.9bsvn49065"
 
-RPM_NAME = "texlive-multilang-2023.201.0.0.9bsvn49065-54.1.noarch.rpm"
-RPM_HASH = "cbbc6ebb9c8c10091f1423edb435eaef18d860287431d03efd0e1ae016a5541c35c66e8e95cb1cee8e8b91530fcbf5b3b063d91c5fcbcc746e4e47516b39963a"
+RPM_NAME = "texlive-multilang-2023.209.0.0.9bsvn49065-55.1.noarch.rpm"
+RPM_HASH = "41d17742e3182a746c37a34664cd389007ce47f454da2bc362beadd744a125ce8e7cfa915f8cc84085c486537577aed7ddb9e21c8b445c973705f52ca4a73dda"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-multilang-sect.sty \

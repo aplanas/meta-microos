@@ -6,10 +6,10 @@ content, but since the text is placed in a \\parbox in a tabular \
 environment cell, a rather wide range of things may be placed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4svn29260"
+PV = "2023.209.1.4svn29260"
 
-RPM_NAME = "texlive-simplecd-2023.201.1.4svn29260-53.1.noarch.rpm"
-RPM_HASH = "a69490a758d7eac3846086fee996120830dcc0b9e570a254b64482b0f861e3c84e9a35371289099d30178f5cbb8d6776701d33041b56da79a866addd1d4f0433"
+RPM_NAME = "texlive-simplecd-2023.209.1.4svn29260-54.1.noarch.rpm"
+RPM_HASH = "eccb64869b4d1ad3b5eda8df4c3ab388e742ef6655d760cb240a1ae7e576dd9d8ccc2fac94ea8ac4b0bf26e6d84e425a1278bdfe27f3cf4d8fce0eb9f9a1a943"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-simplecd.sty \

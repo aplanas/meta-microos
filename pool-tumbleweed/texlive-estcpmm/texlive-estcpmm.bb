@@ -7,10 +7,10 @@ Corps of Engineers, Engineer Research and Development Center, \
 3909 Halls Ferry Road, Vicksburg, MS 39180-6199."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4svn17335"
+PV = "2023.209.0.0.4svn17335"
 
-RPM_NAME = "texlive-estcpmm-2023.201.0.0.4svn17335-52.1.noarch.rpm"
-RPM_HASH = "b5f30c5eaa1022e4c2c629b796471567f958e0ac328442e5a19c03ed3e0b7cf995fd984d3c46a82b91b8fdf98ad6ba41ad9af54fc5dd1a1d0bd823191cc0bae6"
+RPM_NAME = "texlive-estcpmm-2023.209.0.0.4svn17335-53.1.noarch.rpm"
+RPM_HASH = "5d7a843fba956c3be4793b01a3122c1b286a12e095033e5ad52ee61f504dec98e5bf6ef9629357131089d3e5e302c10081116aa602700a71b5770740056475e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-estcpmm.cls \

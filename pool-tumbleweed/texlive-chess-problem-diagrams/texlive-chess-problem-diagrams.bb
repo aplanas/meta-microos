@@ -4,10 +4,10 @@ including fairy chess problems (mostly using rotated images of \
 pieces) and other boards."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.21svn63708"
+PV = "2023.209.1.21svn63708"
 
-RPM_NAME = "texlive-chess-problem-diagrams-2023.201.1.21svn63708-53.1.noarch.rpm"
-RPM_HASH = "9d108184dc09aa0b83cfee2d0513da1713d7cf201292dda7d6056d2e96886544a7005f90d53bf91970773ed6aa2284c25ee3e63c9f6e9bfa2645e4d6ba2a8901"
+RPM_NAME = "texlive-chess-problem-diagrams-2023.209.1.21svn63708-54.1.noarch.rpm"
+RPM_HASH = "21763ed39056aaa2e95f8ad922fdc72160e5e55f6a211e31bb119b52d218e8443fe66fb1b9cbc390cc3909b4ba3ffa4667ea9dfb867650f8e06eb6a5cc035972"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cpdparse.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6VirtualKeyboard th
 any ABI or API guarantees."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-virtualkeyboard-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "a182037e00c093f3ecca49fc35fc2957a8108689f1cc4b32c5578e89c11e3cbead6ddcf63625886d564d0b0cf30fbc91e189bbf8f1f83871c2e9d223068b6c9d"
+RPM_NAME = "qt6-virtualkeyboard-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "867b480fb697792edde62c4b8cf0810e19d55344d4557ea534828cc488b9e5e4a779da4b3adf450ee43ca9d16ad5ef29e9072e2c44735e05cb21f58d2af291c7"
 
 RPROVIDES:${PN} += "qt6-virtualkeyboard-private-devel"
 

@@ -6,10 +6,10 @@ Digital Typography and Mathematical Software, of the Department \
 of Mathematics of the University of the Aegean, Greece."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.01svn17210"
+PV = "2023.209.1.01svn17210"
 
-RPM_NAME = "texlive-epigrafica-2023.201.1.01svn17210-53.2.noarch.rpm"
-RPM_HASH = "d33b2ca9d44078d01b1fb79ac1befe23e7bb8cf0c1e331fd91bd7d5e36a342fafc3449b562e93d03258ac46b55d7094bf96d7ae19f79343f8489dd3409bbffa9"
+RPM_NAME = "texlive-epigrafica-2023.209.1.01svn17210-54.1.noarch.rpm"
+RPM_HASH = "4780f1f9b8e294baa237bc13c41f6f59586f69de2b2ff28a1029cab2861e84aa34e7955288be686c14d8032e25c7d5142145bf187aef8ffe589b83967c0a0ce9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-epigrafica.map \

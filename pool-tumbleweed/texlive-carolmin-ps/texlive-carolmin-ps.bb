@@ -5,10 +5,10 @@ collection). The fonts in the bundle are ready-to-use \
 replacements for the Metafont originals."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-carolmin-ps-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "51db3788316e469d6c2460112363162c1dac6ce43dccf1ac9f0523a7bc3459a71c817e642efb3ed5ab93b8b9acffa57e887e6a5efc6a3f8e6265dd83c1bc535c"
+RPM_NAME = "texlive-carolmin-ps-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "ae0415dc7c7a9585e2ffd3655e336ee041111fe21591507de687b94de4ab3b5ad2b79e1c9a9702d2da5838e3c2e6c01d59506e6d220176c2005581566701cc01"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmin.map \

@@ -8,10 +8,10 @@ Fernando de Souza Bastos. It makes use of the TikZ and xcolor \
 packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1.1svn62945"
+PV = "2023.209.2.1.1svn62945"
 
-RPM_NAME = "texlive-figchild-2023.201.2.1.1svn62945-52.1.noarch.rpm"
-RPM_HASH = "6ace108ccdd62f30b43ff84c6907cee987deee36539aef822604dcd2fcd004b067f9ed6caa294ff05418b45ec73e81807c988c5870e1f413ad1cea85647fee79"
+RPM_NAME = "texlive-figchild-2023.209.2.1.1svn62945-53.1.noarch.rpm"
+RPM_HASH = "317eb86da40b06dffcb1f5626a49fbf9b1528627227f75df619a7c5b359d7185b7cbc8a4eddebe0e528a164d4f1ca204e1c5bfb1f973ec3ea2b98d3858c2faf5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-figchild.sty \

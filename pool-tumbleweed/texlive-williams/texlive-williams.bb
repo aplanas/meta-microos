@@ -5,10 +5,10 @@ implementation of Knuth's token list macros, to be found on \
 pp.378-379 of the TeXbook."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-williams-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "7f4825e4db38c05885b89d46f8ab4dbdbfe24ad9571d57670e65ba34f80759b20086cced559913381f41762321defcafa889f20da713b250b22471141fb5c94c"
+RPM_NAME = "texlive-williams-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "895f80bbb7549d7e3defeaa068024cb40751ce9ad2dfa3235f592512346249a9772f456b8e61ac71f5b738408f1d18e324277abbdfdedc195bdc8e4c5343d4ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-antree.sty \

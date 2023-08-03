@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sciposter"
 DESCRIPTION = "This package includes the documentation for texlive-sciposter"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.18svn15878"
+PV = "2023.209.1.18svn15878"
 
-RPM_NAME = "texlive-sciposter-doc-2023.201.1.18svn15878-53.1.noarch.rpm"
-RPM_HASH = "1bc4d0126a074f58876d26ad389ecc5a48c3a6b3faa85b98e931c0ba23e6e0e47a37398643ec90fae49e019d87ba7900cf1008020b6adc1390c42c7db98596cd"
+RPM_NAME = "texlive-sciposter-doc-2023.209.1.18svn15878-54.1.noarch.rpm"
+RPM_HASH = "42327a7003835b54e74f685398f3b91a496bfcc0170326424a91da52e050e8cbe11456cd9d79e87fd2bdd4bb1e5b67eaad103a5162a2f73dc70d5029af07cc7c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sciposter-doc"

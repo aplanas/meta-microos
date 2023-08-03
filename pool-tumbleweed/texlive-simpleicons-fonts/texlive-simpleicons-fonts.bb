@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-simpleicons"
 DESCRIPTION = "The  separated fonts package for texlive-simpleicons"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.8.6.0svn66328"
+PV = "2023.209.8.6.0svn66328"
 
-RPM_NAME = "texlive-simpleicons-fonts-2023.201.8.6.0svn66328-53.1.noarch.rpm"
-RPM_HASH = "8d77cebbc3bf14a7f837e8e7c802f3220163714dbadc2243fd8b5a3af7e23ad4be018c0907004241afa625e051b4930430ebca29d7fc2240af5018863a915b80"
+RPM_NAME = "texlive-simpleicons-fonts-2023.209.8.6.0svn66328-54.1.noarch.rpm"
+RPM_HASH = "5ed464526505784fdf9c8126d7d620863eecea1f9367258391db664f77c1816a03dcfdd6592fd6e653a5b3e287569037749ef68ae614598db5da102bb5876065"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-simpleicons-fonts \

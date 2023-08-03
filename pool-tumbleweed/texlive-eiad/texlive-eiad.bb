@@ -9,10 +9,10 @@ before using eiad. OT1*.fd files are provided for use with \
 LaTeX."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-eiad-2023.201.svn15878-53.2.noarch.rpm"
-RPM_HASH = "0b2db03bee5f56fc17caad8af28295a064472de0b0cef55f930e36ab65887893a7d25f0d9508f5c66bcdecee3eb306d740f1ad72bdb41052e729ed1c29b010f8"
+RPM_NAME = "texlive-eiad-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "49f7722b235e9bb160959b9dc268093ab06dcd1e8e8dc0f89fd0e84cee742344604f3387fca4b0d08be72144e6f0166955d8abf7abc02c729350cbbcf79f73a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-OT1eiad.fd \

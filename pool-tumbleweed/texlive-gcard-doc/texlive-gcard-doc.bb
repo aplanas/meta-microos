@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gcard"
 DESCRIPTION = "This package includes the documentation for texlive-gcard"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-gcard-doc-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "3196329b60793a90f710d08dd80b7c34c6b3e3c321463a3df2b4d373bc5564616118fd22edbf4b4646a7d54ec710872617e63ac6e713e205e76949507fdd8ff4"
+RPM_NAME = "texlive-gcard-doc-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "019e412fbcaf8e91b60cd726659cd5e6c8568c8ecc3afbd0a3f08b42e6d0cad195fb7e83eeffd4b231ad9b75231116f80356fde18fec038453dac1276ad2d231"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gcard-doc"

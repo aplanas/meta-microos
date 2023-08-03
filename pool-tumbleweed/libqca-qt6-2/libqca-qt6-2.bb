@@ -2,10 +2,10 @@ SUMMARY = "QCA library"
 DESCRIPTION = "The Qt cryptographic library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.3.6"
+PV = "2.3.7"
 
-RPM_NAME = "libqca-qt6-2-2.3.6-1.2.aarch64.rpm"
-RPM_HASH = "c8a2027089fd610f1b0e19e4e81ae7b8b9b6129440f30ade77eec979f100fa8d6420afd9969874e0c80b46a0f98549934f26b49aa1f997bcbff7a4bc9fc8e95a"
+RPM_NAME = "libqca-qt6-2-2.3.7-1.1.aarch64.rpm"
+RPM_HASH = "6eff8dbbcdbb8defd798231dd554f621120974fd26935f563d63b196276aa83c3deed967a06c98fe62645b66f62743900a6fa6fce21b4f7cc6f12f6f40bbd396"
 
 RPROVIDES:${PN} += "libqca-qt6-2 \
 libqca-qt6.so.2"

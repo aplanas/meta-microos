@@ -6,10 +6,10 @@ different kernels, and allows the user to either set the \
 bandwidth value for each plot or use a default value."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.7.1svn65687"
+PV = "2023.209.0.0.7.1svn65687"
 
-RPM_NAME = "texlive-tikzviolinplots-2023.201.0.0.7.1svn65687-52.1.noarch.rpm"
-RPM_HASH = "f10ec15f5d07398cade5f1b0073128ba944378964ed7ebcc58bc1e30e154dc3ce12d907d9fc08c36582563697affd73a066e9d2682760fb86460c50ca99abe5d"
+RPM_NAME = "texlive-tikzviolinplots-2023.209.0.0.7.1svn65687-53.1.noarch.rpm"
+RPM_HASH = "74c2c8e4cdea03704da4e3e98d11690d3b54ca3c3da837e8ddf6b9279b2736d57b3f873737001371986a8636ad63bfa19670e6939616739c6e886d1c62320b07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzviolinplots.sty \

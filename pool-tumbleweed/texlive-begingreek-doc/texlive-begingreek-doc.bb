@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-begingreek"
 DESCRIPTION = "This package includes the documentation for texlive-begingreek"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.7svn63255"
+PV = "2023.209.1.7svn63255"
 
-RPM_NAME = "texlive-begingreek-doc-2023.201.1.7svn63255-53.1.noarch.rpm"
-RPM_HASH = "c93d8843f724ce1d25ee4270bcd24c147c25055ca7029e7f6398be3c1a04b1c3a5f8f133e2f4b9763245364ddc09f1eda457ff12d6960688ba17615f8198d550"
+RPM_NAME = "texlive-begingreek-doc-2023.209.1.7svn63255-54.1.noarch.rpm"
+RPM_HASH = "13dd7e0b7fd6c811cdf62f960915649589d1561fa9fce748d58fc365d5e9569140fc744b876f9941024052bf52196a8fe5b0d96f0065d6a2546f726f58323701"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-begingreek-doc"

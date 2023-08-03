@@ -4,10 +4,10 @@ DESCRIPTION = "This package contains the xml module for the Qore Programming Lan
 XML is a markup language for encoding information."
 LICENSE = "MIT"
 
-PV = "1.8.0"
+PV = "1.8.1"
 
-RPM_NAME = "qore-xml-module-1.8.0-1.4.aarch64.rpm"
-RPM_HASH = "c700cb4295f05f6aae61320e2d5de45c37acfb23cce4d89ce9cd620dc385be56d468ad10e731a6e955cc89734ad04822dcb3bbb8c59291cb91dd1dc181243a71"
+RPM_NAME = "qore-xml-module-1.8.1-1.1.aarch64.rpm"
+RPM_HASH = "1c349d3f1b2d420d122ecaecdec949cff5521809c26f7324a8768c48448f947f18414238c354d26b146f3e596e89872a3aaedfecccceb6b48bd7fb8ff91fd8bd"
 
 RPROVIDES:${PN} += "qore-xml-module"
 

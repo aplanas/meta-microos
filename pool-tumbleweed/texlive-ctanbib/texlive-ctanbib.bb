@@ -5,10 +5,10 @@ packages hosted on CTAN. The ctanbib script depends only on \
 LuaXML."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.0.0.2bsvn66068"
+PV = "2023.209.0.0.2bsvn66068"
 
-RPM_NAME = "texlive-ctanbib-2023.204.0.0.2bsvn66068-54.1.noarch.rpm"
-RPM_HASH = "3bb89f13af28b9218b36610a4d5811b232b64b5dc3bbb1b6c434250b12e149dd6fe08953b3bcfb942869049edce81840346d05e0f86918f7a2dd43ed34963aac"
+RPM_NAME = "texlive-ctanbib-2023.209.0.0.2bsvn66068-55.1.noarch.rpm"
+RPM_HASH = "fc5a2dc51d8764bbba9ae20494e9f4af65b9ccb423e888fe4f16dd10af6b03bf8ba2778d600b2fc01371a3590962efbb5e66bdf39526824756e35f9b0cbb892b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ctanbib"

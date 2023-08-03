@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides to-do notes throughout a document, and \
 will provide an index of things to do."
 LICENSE = "Apache-1.0"
 
-PV = "2023.201.svn32677"
+PV = "2023.209.svn32677"
 
-RPM_NAME = "texlive-easy-todo-2023.201.svn32677-53.2.noarch.rpm"
-RPM_HASH = "4acf82ede54f98dc78b8596f0d14e1f02b598f5d3d5954a767c3f70f19b1e40ee58e1baf93b764c6e6d34093eca9dba2dda909cdc595577aa669a4da1e4148f0"
+RPM_NAME = "texlive-easy-todo-2023.209.svn32677-54.1.noarch.rpm"
+RPM_HASH = "e52a64296e5cac7a39d5698ffd57ad7e1e52bfe6dbaa76fc779fdafc3a6179ca480f931016d47fe5b8387bcb9579d8c62477169cde93be4ce160c394dc521bc0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-easy-todo.sty \

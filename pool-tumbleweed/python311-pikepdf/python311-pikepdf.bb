@@ -2,10 +2,10 @@ SUMMARY = "Read and write PDFs with Python, powered by qpdf"
 DESCRIPTION = "Read and write PDFs with Python, powered by qpdf."
 LICENSE = "MPL-2.0"
 
-PV = "6.2.8.post1"
+PV = "8.2.1"
 
-RPM_NAME = "python311-pikepdf-6.2.8.post1-1.3.aarch64.rpm"
-RPM_HASH = "3842075627b47a328c42dba7a908a1e67e2d4a6a145304d75564b1a7aa5b7ec6db51954ae207f5e270f0cac82233115900af463d49275591e98d94c59bd1a354"
+RPM_NAME = "python311-pikepdf-8.2.1-1.1.aarch64.rpm"
+RPM_HASH = "9fd2f2fda0f8f5f755bace261ae6b3ca8c840c50be29f4b4542ff1b8fa9d8bf74c738cf5fba1f65ca1594bd5933a495089d64cb9f41231467fbc3ce9f7361485"
 
 RPROVIDES:${PN} += "python3-pikepdf \
 python3.11dist-pikepdf \

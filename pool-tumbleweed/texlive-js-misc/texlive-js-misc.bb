@@ -4,10 +4,10 @@ verbatim'; xfig.tex, for including xfig/transfig output in a \
 TeX document; and cassette.tex for setting cassette labels."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn16211"
+PV = "2023.209.svn16211"
 
-RPM_NAME = "texlive-js-misc-2023.201.svn16211-55.1.noarch.rpm"
-RPM_HASH = "68ea3e8acf32010a3ac36f38dc5b53e495785516a9c386f86a4ee462301e934e61fb52bd3eee1c6cf0cb543db616b642514f24b0164e9ca9bf6b7bedbe440fd8"
+RPM_NAME = "texlive-js-misc-2023.209.svn16211-56.1.noarch.rpm"
+RPM_HASH = "0cfeb8a20c5ea4ab5d461e94bab13dfaa65857e55dba86e3eadbffc4f8627ae9ec209f70362bc317e9bf965133d3bd177143bb07482e4956509421362d20c244"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cassette.tex \

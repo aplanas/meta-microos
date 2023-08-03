@@ -7,10 +7,10 @@ for the italic correction. The fonts are implemented as a set \
 of vf files; a package for support in LaTeX 2e is provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1svn39728"
+PV = "2023.209.2.1svn39728"
 
-RPM_NAME = "texlive-cmtiup-2023.201.2.1svn39728-53.1.noarch.rpm"
-RPM_HASH = "7c018be7c5cec5901cc668c49609124664707aacfa7a89861613cf369e7950a0b92198b268b05cd17f718da358db69c179aeb3ade1b4c557a3395130d5e9e2d9"
+RPM_NAME = "texlive-cmtiup-2023.209.2.1svn39728-54.1.noarch.rpm"
+RPM_HASH = "7f69b55d549992843b7dc013b6d5c2bbb8d38452668e602b115d65298eee158fa2f2e81ae07508f3b8ba27f67e018fa02a9f0e5320d873d399d7d7d6cb2c0157"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmbxtiup10.tfm \

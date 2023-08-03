@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-scholax"
 DESCRIPTION = "The  separated fonts package for texlive-scholax"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.033svn61836"
+PV = "2023.209.1.033svn61836"
 
-RPM_NAME = "texlive-scholax-fonts-2023.201.1.033svn61836-53.1.noarch.rpm"
-RPM_HASH = "d1eee38a707add7e21e70e30fc26186b6fbb28b7f72cc0f5260a6a499e7079f1c5b1fad22bd581d4b02ddab59de809a08c7a01aa715c9910c59e16d9b68900bd"
+RPM_NAME = "texlive-scholax-fonts-2023.209.1.033svn61836-54.1.noarch.rpm"
+RPM_HASH = "13096d6c80fe9f9e229183675e278203051694a3ace1d15b32098ea05edc62dcec19b6d2efce15f62c76720ee089939a64d722291bca74d9370318a7c3325435"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-scholax-fonts \

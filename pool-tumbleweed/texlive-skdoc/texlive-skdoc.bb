@@ -8,10 +8,10 @@ installing packages. It has the ability to generate both \
 documentation and code in a single run of a single file."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5dsvn56950"
+PV = "2023.209.1.5dsvn56950"
 
-RPM_NAME = "texlive-skdoc-2023.201.1.5dsvn56950-57.1.noarch.rpm"
-RPM_HASH = "770eb06094626df8e49db34c86e8f7891aa901a6eb44f78e0fd2a3ba5eae2a8e958fcc357a8541ffeb52c46b11a507e3d17509ed984672e703bc90cb8a670f8b"
+RPM_NAME = "texlive-skdoc-2023.209.1.5dsvn56950-58.1.noarch.rpm"
+RPM_HASH = "07eb76fd137588fe510016bd60202202a04256c12dd73711276da54fa735089c472095dc6fd72942591751d3f6774c051cccdc31b438c1e25d5e5d939474aa3a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-skdoc.cls \

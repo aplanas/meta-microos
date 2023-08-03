@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-seuthesix"
 DESCRIPTION = "This package includes the documentation for texlive-seuthesix"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.0.1svn40088"
+PV = "2023.209.1.0.1svn40088"
 
-RPM_NAME = "texlive-seuthesix-doc-2023.201.1.0.1svn40088-53.1.noarch.rpm"
-RPM_HASH = "18708f2997b3ad82603e262e733b07afaf267e0584a5a832b2e62d064a0d2c18f934190dee0c9f49ab8cfe915a3a6f2e7695557eb09c80f23ff72dda7f41c7c3"
+RPM_NAME = "texlive-seuthesix-doc-2023.209.1.0.1svn40088-54.1.noarch.rpm"
+RPM_HASH = "0ce3a1aaa0deb55c6cf0bf2f68e3d76bb5aacac4a87bdbc5fb3adfb30b9cb2041a4d97864a25fc03f2b159efdd99e110a1ae4556a2e6d0cdba25b2ac00be04a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-seuthesix-doc-zh \

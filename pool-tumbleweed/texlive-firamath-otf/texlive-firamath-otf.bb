@@ -3,10 +3,10 @@ DESCRIPTION = "The package offers XeTeX/LuaTeX support for the Sans Serif \
 OpenType Fira Math Font."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.03asvn65561"
+PV = "2023.209.0.0.03asvn65561"
 
-RPM_NAME = "texlive-firamath-otf-2023.201.0.0.03asvn65561-52.1.noarch.rpm"
-RPM_HASH = "4ae368069a31f22032678b298b13effdfaab4a33287bcb70d71304199caf8c84d1e8520a9f54a15057a6fd9ebfc7ca369538c4350f9407164eff5fb48a42a4f0"
+RPM_NAME = "texlive-firamath-otf-2023.209.0.0.03asvn65561-53.1.noarch.rpm"
+RPM_HASH = "bee93730ef4449e453f31a368c9c784ac4f341206675ceb638cdc6fd6390d6f7ccc942129924d459891a96c5147f34dce471ae23b4bc141a38792c5595c8df48"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-firamath-otf.sty \

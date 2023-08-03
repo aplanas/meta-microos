@@ -4,10 +4,10 @@ black solid skull. A package is supplied to make this character \
 available as a symbol in maths mode."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.1svn51907"
+PV = "2023.209.0.0.1svn51907"
 
-RPM_NAME = "texlive-skull-2023.201.0.0.1svn51907-57.1.noarch.rpm"
-RPM_HASH = "cceb4fbb86263a21326ff96b3fa6de0b598c1bbb0f775e7540019ce0899e2858fb314f0da8db6d8a38f2dd177d2040cd4760c41fb7d49d1526ac2fe8b54a174f"
+RPM_NAME = "texlive-skull-2023.209.0.0.1svn51907-58.1.noarch.rpm"
+RPM_HASH = "dd56d3ce6b71391da59f773bc095f5fd52f345c9d14e3495bc6a9e40ad3d44d8da262dcb50cee002a993ed115aa318c2005e712e7fc9f57c2c31109e36247652"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-skull.sty \

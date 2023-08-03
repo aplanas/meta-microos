@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-zitie"
 DESCRIPTION = "This package includes the documentation for texlive-zitie"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4.0svn60676"
+PV = "2023.209.1.4.0svn60676"
 
-RPM_NAME = "texlive-zitie-doc-2023.201.1.4.0svn60676-52.2.noarch.rpm"
-RPM_HASH = "be699060e55ee62794b3297fe8ef13824061b9add8a28ad29d3f74a2256f5ab11a685a4b6b2de8ab855d858ab5b1fec025c6f3a95fc0106b1223840502c43ec3"
+RPM_NAME = "texlive-zitie-doc-2023.209.1.4.0svn60676-53.1.noarch.rpm"
+RPM_HASH = "f12fce844e5c2176ca1ed60ff04ec9590145dc16bb54193ca61b5329f5f7e59679d39e70fe91a113732879f1dd74848fcdbcd5b74010393949d98cd7fd7fba70"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-zitie-doc-zh \

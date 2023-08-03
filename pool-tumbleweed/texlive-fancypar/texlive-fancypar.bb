@@ -8,10 +8,10 @@ also define their own styles. Decorated paragraphs may not \
 include displayed mathematics."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn58895"
+PV = "2023.209.1.3svn58895"
 
-RPM_NAME = "texlive-fancypar-2023.201.1.3svn58895-52.1.noarch.rpm"
-RPM_HASH = "f517e7fc72d88149987ff013d50b6883f2bc2428d2fbcf265ebef998de212e5eb23eaa484c644a623f529876743c2e15d514efc561c49b4a222166341e7b8576"
+RPM_NAME = "texlive-fancypar-2023.209.1.3svn58895-53.1.noarch.rpm"
+RPM_HASH = "f85ad6c555fae0b307355644fb0fc5416b6c766932678f1ea4498d598de4f523d1cb313a1b9142e06dcbe889b140d47ea03b838b6c40dc81a8e9f978f1d3acd3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fancypar.sty \

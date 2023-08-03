@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-modes"
 DESCRIPTION = "This package includes the documentation for texlive-modes"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.4.2svn61719"
+PV = "2023.209.4.2svn61719"
 
-RPM_NAME = "texlive-modes-doc-2023.201.4.2svn61719-54.1.noarch.rpm"
-RPM_HASH = "2267ef63411a0d6b4c107a2c5dbeeeb1a1e28e0f9cd297bc168b1e4f91e44425e714ea3a25da9a07e9a1c1ae393836ad10c4db897b0deb080cc0dd7a8590242e"
+RPM_NAME = "texlive-modes-doc-2023.209.4.2svn61719-55.1.noarch.rpm"
+RPM_HASH = "ff4b19f1b57d7cca2fc0249bd9bb786fa0b8c25c9557065ac0bb25160fd9bffe739dd15d2b10295c240c9635478298ede6ce9fe0085fb18f0e7b7d5e5428e1e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-modes-doc"

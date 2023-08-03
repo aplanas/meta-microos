@@ -7,10 +7,10 @@ outside nodes), and a 'debugging' mode to avoid getting lost in \
 big diagrams."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn60838"
+PV = "2023.209.svn60838"
 
-RPM_NAME = "texlive-zx-calculus-2023.201.svn60838-52.2.noarch.rpm"
-RPM_HASH = "f827724aad0c2ecae8334a5be91567b95fa3b115402f2ce88f8c6397355d00387092768d8da1e6dc44c8007b0d829f4517ec3488c5353dc5030152716d46bbfb"
+RPM_NAME = "texlive-zx-calculus-2023.209.svn60838-53.1.noarch.rpm"
+RPM_HASH = "8aea563c3e2b54be5e5689e92248cfc89d9e8b94a30eb3743e99482630086c06ceba2031adadb018143221de3fc678c109eb64db6790a66640d4911f388fa971"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzlibraryzx-calculus.code.tex \

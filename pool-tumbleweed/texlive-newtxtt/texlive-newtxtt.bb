@@ -5,10 +5,10 @@ and bold weights, slanted variants and a choice of four \
 different styles for zero."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.056svn54512"
+PV = "2023.209.1.056svn54512"
 
-RPM_NAME = "texlive-newtxtt-2023.201.1.056svn54512-54.1.noarch.rpm"
-RPM_HASH = "bc670cdbbdfe361f50d5cdd5438706a28957ef6a2bf983b7a1695f4261160e6bb11c13d1967f2fe6d6bdf024fc7b7eaefb6914394bdaa2bfaa0bf6611a209bff"
+RPM_NAME = "texlive-newtxtt-2023.209.1.056svn54512-55.1.noarch.rpm"
+RPM_HASH = "d8923a4ab869bc572e75fbf5ffccc4642c3cf032b2c5b5e0ccc7889360b311a44f285e7388efceb1978ee6f6eeebc48ea40e792cc73cfdfbf1391f6cf4ceb043"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-newtxbtta.tfm \

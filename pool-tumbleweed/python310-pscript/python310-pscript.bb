@@ -5,12 +5,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.7.7"
 
-RPM_NAME = "python310-pscript-0.7.7-1.5.noarch.rpm"
-RPM_HASH = "ec2dde4f259ebc4d3e9f60a0a0852356e30ef72d63349a7d32db87e9e12e145bd6c32d18448cb26f15ae55d19926625a3d7625893d7e477a4a7d4d7beac04b18"
+RPM_NAME = "python310-pscript-0.7.7-2.1.noarch.rpm"
+RPM_HASH = "27b0531c82be937fe17ba2d83b308a6e13520c130b607e94dd1a9518700bce3c9cbbd936acae24f9f8ad996535702dea0a80343aa8658c5f966c53343d8e5c91"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-pscript \
-python3.10dist-pscript \
+RPROVIDES:${PN} += "python3.10dist-pscript \
 python310-pscript \
 python3dist-pscript"
 

@@ -6,10 +6,10 @@ headings; font boxes. Facilities are provided for a document \
 designer to experiment with the layout parameters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.6dsvn42428"
+PV = "2023.209.2.6dsvn42428"
 
-RPM_NAME = "texlive-layouts-2023.201.2.6dsvn42428-54.1.noarch.rpm"
-RPM_HASH = "4b2d1db078a361670e62f4e935cba32eeac5da2d9d3cfb636234771ef0af0c341b3e1103250a783939301aa3f281209b3a61c89387e8d28d00a808f3153f3b75"
+RPM_NAME = "texlive-layouts-2023.209.2.6dsvn42428-55.1.noarch.rpm"
+RPM_HASH = "6d71b775c9742a0509cacc462ce61a452d4c545ba4cb4ed4069ad240daaa94636f5999331fbd45b204de353e893395b96c4e5628371158f04b080fe191d016b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-layouts.sty \

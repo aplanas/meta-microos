@@ -6,10 +6,10 @@ example, to communicate between documents for the purposes of \
 dvipaste."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.8svn27206"
+PV = "2023.209.1.8svn27206"
 
-RPM_NAME = "texlive-export-2023.201.1.8svn27206-52.1.noarch.rpm"
-RPM_HASH = "403c1640eb3c8db6d511235627bcd60d47b19fe6bda306ba16ce62a970aeec9cd759f15d3f2cb22ab676ad5e8ea219ad6a52fc7fcadffc5b619a999ccb9df855"
+RPM_NAME = "texlive-export-2023.209.1.8svn27206-53.1.noarch.rpm"
+RPM_HASH = "628f4c5df4a39ae4bf502a3a16300fa1236353adb1aac61ccd1dc5e7f4ecf77a8be5204dd4241e7fa30675e0f7416d58378055e18ac2dcf8ad107088efde036f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dvipaste.sty \

@@ -6,10 +6,10 @@ art). Animations are defined as a set of numbered files (e.g., \
 fancyhdr to control the corners."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn25584"
+PV = "2023.209.0.0.2svn25584"
 
-RPM_NAME = "texlive-flipbook-2023.201.0.0.2svn25584-52.1.noarch.rpm"
-RPM_HASH = "9c24d7455e62d111058999f8b3d649ab2e75068ee29662a7fa95b4e82d220e31c10f0b00f0eb38fbaf80945c4d58e0c8c219a63e1961ffa887c780bb1c8dcd4b"
+RPM_NAME = "texlive-flipbook-2023.209.0.0.2svn25584-53.1.noarch.rpm"
+RPM_HASH = "a636a1b2a11cd4362eb2c9b40f5631b90f7cd39bd1a197d647bae535e3e43f937e25afe13a9296cd199c4c30b591089dad4e167659350079d4d6ddeff69006e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-flipbook.sty \

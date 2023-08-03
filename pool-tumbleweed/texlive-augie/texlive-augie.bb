@@ -3,10 +3,10 @@ DESCRIPTION = "A calligraphic font for simulating American-style informal \
 handwriting. The font is distributed in Adobe Type 1 format."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn61719"
+PV = "2023.209.svn61719"
 
-RPM_NAME = "texlive-augie-2023.201.svn61719-53.1.noarch.rpm"
-RPM_HASH = "df56be971ba67a3997d0d676da572b9b55c9e635563cfe3b869cc6ccd1c4675db4c918882aecea39b7fa8cba3f7cb5cd12b6c3d65c6c66cff718206bf7a7383e"
+RPM_NAME = "texlive-augie-2023.209.svn61719-54.1.noarch.rpm"
+RPM_HASH = "6ca9545f7f615c35342fe6473f01be0392639bdcf4f378c978dc343cdb8f73897c504adf5df760431c893859ffce182215db1354f9480d4f114b171e6e570b95"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-augie---.tfm \

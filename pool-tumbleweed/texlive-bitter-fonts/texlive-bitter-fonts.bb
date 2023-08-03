@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-bitter"
 DESCRIPTION = "The  separated fonts package for texlive-bitter"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64541"
+PV = "2023.209.svn64541"
 
-RPM_NAME = "texlive-bitter-fonts-2023.201.svn64541-52.1.noarch.rpm"
-RPM_HASH = "d10cb24ad61b0a789d9174b84d71c880b96ca3b1740e9211e60587a0a8be284807ef9adf3206849f39dd4223d7b0c213ad3d3b197ae408fc69d3133c921690c8"
+RPM_NAME = "texlive-bitter-fonts-2023.209.svn64541-53.1.noarch.rpm"
+RPM_HASH = "841bbbd58389afce70820dc477904166729110a9d0a55e1f047f9a824b7d42d856451c10c1fa0180f3335620ea9c721ec03e81f3d54b6680d82f872f0671662f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-bitter-fonts \

@@ -8,10 +8,10 @@ square brackets may include the 'division' specification, as in \
 \\cite[(<division spec.>)<page number>]{<document>}"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.4.2svn45379"
+PV = "2023.209.2.4.2svn45379"
 
-RPM_NAME = "texlive-biblatex-source-division-2023.201.2.4.2svn45379-53.1.noarch.rpm"
-RPM_HASH = "48da32b3ad332ed7e11a016e0f51226c836d553d0535a96e5923ec94ff6a7d4f50d69848e097f99f86f79fdd221c8144b8fefc5d8276dec7d0c4e22a71a82e71"
+RPM_NAME = "texlive-biblatex-source-division-2023.209.2.4.2svn45379-54.1.noarch.rpm"
+RPM_HASH = "0a362368d8584b4b5c553edb21dbf09b344419dae15a1da7f722673eee54e2b14287287f8aca704f0d48074f1169298186ffe7119d93c45658d2a102a0e2d632"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-biblatex-source-division.sty \

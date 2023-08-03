@@ -2,10 +2,10 @@ SUMMARY = "Upstream branding for Firefox"
 DESCRIPTION = "This package provides upstream look and feel for Firefox."
 LICENSE = "MPL-2.0"
 
-PV = "115.0.2"
+PV = "115.0.3"
 
-RPM_NAME = "MozillaFirefox-branding-upstream-115.0.2-1.1.aarch64.rpm"
-RPM_HASH = "0c1744b37c6fd656177baa1236cceb9e3e33a2fbe83ed6962c505ac23375b7a0995ebfdef780e783ef06d1f0690d85755340825ae3ae0a210e742bd19a3acf4f"
+RPM_NAME = "MozillaFirefox-branding-upstream-115.0.3-1.1.aarch64.rpm"
+RPM_HASH = "6aebdfc037ae7fd3c95179128b9781752dd0e73d30ad1fc1bb984df9281eb76872927ebe5e03bebca8897b72c4200b454fd624e7ad17e67134a19e536c235ab5"
 
 RPROVIDES:${PN} += "MozillaFirefox-branding \
 MozillaFirefox-branding-upstream"

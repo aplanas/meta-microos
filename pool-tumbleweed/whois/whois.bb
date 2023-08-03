@@ -8,10 +8,10 @@ The package also contains mkpasswd, a features-rich front end to the \
 password encryption function crypt(3)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.5.17"
+PV = "5.5.18"
 
-RPM_NAME = "whois-5.5.17-1.2.aarch64.rpm"
-RPM_HASH = "f9e19f6168057cf0452060248a7718148b78d2b9fc86bdb18a3ebe05637bd20ec0d5f0e9401f27bdfcaff4d2fe828112c75f39a5db841f943fb74fbd3afcd4b9"
+RPM_NAME = "whois-5.5.18-1.1.aarch64.rpm"
+RPM_HASH = "b13c1d3e570137f7640894c31f4ff1ad573af20dcd656b0d4ad52f26c75cf0322c23ee684e4297ce08ef8ebd44624edebaf16a08f33faf02ede6fc2a21b19eac"
 
 RPROVIDES:${PN} += "ripe-whois-tools \
 whois"

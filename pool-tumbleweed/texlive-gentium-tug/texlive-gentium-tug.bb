@@ -13,10 +13,10 @@ Group; LaTeX and other supporting files; TeX-related \
 documentation, and the SIL documentation and other files."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.102svn63470"
+PV = "2023.209.1.102svn63470"
 
-RPM_NAME = "texlive-gentium-tug-2023.201.1.102svn63470-52.1.noarch.rpm"
-RPM_HASH = "22cd33cf90b952c1b2ef25655b66f8d6390fbfbbfabd0ae256ba55a248d9d339a958e6d1406550c3cd19e0256ee18a01e11253ede4e8aaa6ca9eb06a22725133"
+RPM_NAME = "texlive-gentium-tug-2023.209.1.102svn63470-53.1.noarch.rpm"
+RPM_HASH = "9148191b73beb8baa94fd2250f70593bfc79ecb75b32c0d1b2e0b026ef55dd18d20fa296d7ecc1ee605dbd331f12b353a74df8d852519d8be12b862b74deb8d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-agr-gentiumbook-bold.tfm \

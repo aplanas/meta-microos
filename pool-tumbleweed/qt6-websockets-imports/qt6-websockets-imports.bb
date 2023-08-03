@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 WebSockets QML files and plugins"
 DESCRIPTION = "QML files and plugins from the Qt 6 WebSockets module"
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-websockets-imports-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "21f63ff67104fce7557435cb3b5403b5a340ea43858fb495ca0b75864e6dab9f5a977bd2aa71dc6833ea0585c3c12f7d1c288714b3e8f360d60d4f3c17db02f0"
+RPM_NAME = "qt6-websockets-imports-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "59ba62d1a1f861094a33b93fcbec4ec85a7704f6563b7d6516624a704821a2b6659bb78c627c5dbb1f44f2620025f087a60eae99f78c0c82f75ce7e465ff20ab"
 
 RPROVIDES:${PN} += "libqmlwebsocketsplugin.so \
 qt6-websockets-imports \

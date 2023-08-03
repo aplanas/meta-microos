@@ -16,10 +16,10 @@ now, than there were when pslatex was designed). As a result, \
 pslatex is widely considered obsolete."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn57434"
+PV = "2023.209.1.3svn57434"
 
-RPM_NAME = "texlive-pslatex-2023.201.1.3svn57434-52.1.noarch.rpm"
-RPM_HASH = "d0dadb7760a666838fc737fb8c10bc8a0d1b6b84940446fe4538e13230d4ef00266837e5a0ce61fede4b775254b55d1b1730739f67eb40612030ac323b6e26b2"
+RPM_NAME = "texlive-pslatex-2023.209.1.3svn57434-53.1.noarch.rpm"
+RPM_HASH = "d42dfe5ad0151e7eaad35fe2a5163bf732639f9f366afab4e14f6dddddd942f538e64c64a96212747fd4d4b11ed9f4d2d3292e8335495d42c2ee677edd92a91d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pcrr7tn.tfm \

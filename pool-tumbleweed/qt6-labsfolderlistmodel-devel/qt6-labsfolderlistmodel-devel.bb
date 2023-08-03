@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 LabsFolderListModel library - Development files"
 DESCRIPTION = "Development files for the Qt 6 LabsFolderListModel library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-labsfolderlistmodel-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "9402b4e4219060d715a61ce2d3dae6e327925e2a3f991db28b09bb298dc51e93997b9884c8f2a8ece36a0376a26cfb38185af22424dcdd3e22489ec8e0b4fc5c"
+RPM_NAME = "qt6-labsfolderlistmodel-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "2a3026cee2115289d809d094525a83c93f4f3f6749945abcec507bc82c5bdfe205965287cc078646f48b797cf72b04936862143eb83e7ee0152d4b3244fea44d"
 
 RPROVIDES:${PN} += "cmake-Qt6LabsFolderListModel \
 pkgconfig-Qt6LabsFolderListModel \

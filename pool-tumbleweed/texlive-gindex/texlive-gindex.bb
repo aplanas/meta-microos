@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a way to generate the format of index \
 entries from within LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn52311"
+PV = "2023.209.0.0.2svn52311"
 
-RPM_NAME = "texlive-gindex-2023.201.0.0.2svn52311-52.1.noarch.rpm"
-RPM_HASH = "6cc8d32f02211ebd50315e614f421696572d9f36ed144d4bdb57c56e9d8866e90ac7cc0f6d2c09c502dec86ea238f8e32d0eb5bae0dd7b9af291d4aa7c9b3a86"
+RPM_NAME = "texlive-gindex-2023.209.0.0.2svn52311-53.1.noarch.rpm"
+RPM_HASH = "4674a94f341f614ecc8165e1d812dbcaac022497d688f9fa6cd67683568bb6b734563a77862f6f4d3de273a2cb0f3b3dff0a0d8d9a7fa57081650ee78a8dfa8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gindex.sty \

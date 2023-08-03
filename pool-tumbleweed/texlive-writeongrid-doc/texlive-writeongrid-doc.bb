@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-writeongrid"
 DESCRIPTION = "This package includes the documentation for texlive-writeongrid"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1.2svn65700"
+PV = "2023.209.0.0.1.2svn65700"
 
-RPM_NAME = "texlive-writeongrid-doc-2023.201.0.0.1.2svn65700-52.2.noarch.rpm"
-RPM_HASH = "3db238549b54e126027486a190ccb677e36dd9b3d1d51f330d18468570a7416d415f5fb27f21ae258722119b2b2651bb7bd21ad0543fa474acaed621c6120047"
+RPM_NAME = "texlive-writeongrid-doc-2023.209.0.0.1.2svn65700-53.1.noarch.rpm"
+RPM_HASH = "4da6ea8be0ffe910b2873afccfcc975f68ac8ec4913288c3060b8ee3c1ca684b11a17abe6b7a5b6ed761585899dacb0843ffbce58a21951cc149a5ec31045e49"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-writeongrid-doc-fr \

@@ -3,10 +3,10 @@ DESCRIPTION = "The Hangul engine for IBus platform. It provides Korean input met
 libhangul."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.5.4"
+PV = "1.5.5"
 
-RPM_NAME = "ibus-hangul-1.5.4-2.12.aarch64.rpm"
-RPM_HASH = "1d10cd859482deff3ac69e39f8af85cbc5038973eb905f9fbe327d65e03bc12931d70fa04c3b68f226e62f9e91d9d3822cd4fc09792d2296c298f0fc5d85006d"
+RPM_NAME = "ibus-hangul-1.5.5-1.1.aarch64.rpm"
+RPM_HASH = "a0be33a2ac1812d9d0629425e94a3f803155b3e06823013fd19b8c73da4591d2acc5f24c75aad2c9d5f1483dc007b6c3cdbb03d4998dfa3a464facff4e473ca4"
 
 RPROVIDES:${PN} += "ibus-hangul \
 locale-ibus-ko"

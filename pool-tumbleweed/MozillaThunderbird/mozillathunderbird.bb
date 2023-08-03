@@ -5,10 +5,10 @@ managing email, news feeds, chat, and news groups. It is a local \
 yet easy to use."
 LICENSE = "MPL-2.0"
 
-PV = "102.13.0"
+PV = "102.13.1"
 
-RPM_NAME = "MozillaThunderbird-102.13.0-1.1.aarch64.rpm"
-RPM_HASH = "f3b868db0964ddf957e9ecde92c550de879b9cbee1295efc8ec89968967928c2b35db65832c5d9746c4ecd613d9fe7e712788a1c56afe3117a4543906b4a36a1"
+RPM_NAME = "MozillaThunderbird-102.13.1-1.1.aarch64.rpm"
+RPM_HASH = "545a772c36c06802aed2d23f6903826b181b1b49be47deaa9a6cab2b1a64b32209ad4be484cde8940005f359f1d3968eeb42527b3b7e6ecc2a76227e64e52ba2"
 
 RPROVIDES:${PN} += "MozillaThunderbird \
 MozillaThunderbird-devel \

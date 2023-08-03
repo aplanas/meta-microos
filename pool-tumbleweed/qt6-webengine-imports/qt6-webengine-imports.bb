@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 WebEngine QML files and plugins"
 DESCRIPTION = "QML files and plugins from the Qt 6 WebEngine module"
 LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-webengine-imports-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "48e667151621448b39809d47ab5a229ac1a625b0d88f6bde2fda3391cbbab463d6b51289129828cca8e65a09e1dfa6314c56cf7aa4dde60060eb00d93bd94dc1"
+RPM_NAME = "qt6-webengine-imports-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "2045f88846ab4382dc13befa9b31001cc0ceaeb14b80de5eeea8e8ba147e1264d800be246230400c0e34048b5b8eb2eace6899e0c4626c7ab996af31ed26040f"
 
 RPROVIDES:${PN} += "libqtwebenginequickdelegatesplugin.so \
 libqtwebenginequickplugin.so \

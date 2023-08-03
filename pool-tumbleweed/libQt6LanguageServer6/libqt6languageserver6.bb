@@ -3,10 +3,10 @@ DESCRIPTION = "The Qt 6 LanguageServer library implements the Language Server Pr
 specification."
 LICENSE = "LGPL-3.0-only | GPL-2.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6LanguageServer6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "a952de21bd3f637e91e785a1c872841fb7d398ae115915cb297c662fd3dbc0fb25dd810e14573e065b7e0d17d1d398582e0f04e99721840c15e092e8f2f67829"
+RPM_NAME = "libQt6LanguageServer6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "c019ab461c71cda57d6d7402e648620ae28122cec5cb381ee8b3b01ef479d5670b3a0a751def3c8b4a19c7199526900af4961ea22effd0780d190ba0a665c9eb"
 
 RPROVIDES:${PN} += "libQt6LanguageServer.so.6 \
 libQt6LanguageServer6"

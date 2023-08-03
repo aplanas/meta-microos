@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.13.3"
 
-RPM_NAME = "python39-zarr-2.13.3-1.6.noarch.rpm"
-RPM_HASH = "8308c853d2ae6b4d8c290b68d87700c47b0135b82ddb2122d8cb9866cf21144a86c7c1f20cadc45363dd62eba1c9e0f926db4e7378ca4da8e447923ae42a8f53"
+RPM_NAME = "python39-zarr-2.13.3-2.1.noarch.rpm"
+RPM_HASH = "cde293bc260d01bdf044daae766d61823243937b356eaeba9fe17efbdd63967fa13ea4e35f150a0f65a7f05c06212f2b646d0ff22dca1524b1613fc14ce9a5b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-zarr \

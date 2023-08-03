@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.3"
 
-RPM_NAME = "qemu-hw-display-virtio-gpu-8.0.3-1.1.aarch64.rpm"
-RPM_HASH = "46d421bcee80208401e8497023f4d28fb2de6cb2097782236b8bf972e358ee6b805169cff306fb289c5d0ee644484426b2709c1fb43284edb90bcbd23d2262e5"
+RPM_NAME = "qemu-hw-display-virtio-gpu-8.0.3-2.1.aarch64.rpm"
+RPM_HASH = "6f28512d9b7c3340ac34ea3fc46abdd9b128c1a42672aeb7bb0ad9bea5f4439df13b0a4ffcdf3aae7ddb19d64d5a9446210e7832f1a2c0c0a1cc33612afa7615"
 
 RPROVIDES:${PN} += "qemu-hw-display-virtio-gpu"
 

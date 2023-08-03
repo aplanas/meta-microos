@@ -7,10 +7,10 @@ the header or footer, each page can be marked with the unique \
 build number describing the progress of your document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.1svn29370"
+PV = "2023.209.1.0.1svn29370"
 
-RPM_NAME = "texlive-mversion-2023.201.1.0.1svn29370-54.1.noarch.rpm"
-RPM_HASH = "7347f6b7d5812a12c8dcc16fc5cbb501a5cc1db81fba4db2f79703cf1a8a01a15258163076aa2c88d7241021a8d7876fb09f5f3d5c5cb4426bf9897ee727d322"
+RPM_NAME = "texlive-mversion-2023.209.1.0.1svn29370-55.1.noarch.rpm"
+RPM_HASH = "d93a2c1673745cd82b8da56a459a2ef29e6f0a389106e7fa986092fb7f01c798683847ebcde7ce20346dd56efa695f8193979688403196d685e8626f7b484086"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mVersion.sty \

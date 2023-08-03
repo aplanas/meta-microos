@@ -9,10 +9,10 @@ minimum aspect ratio, which are often used to preserve \
 legibility or for the sake of general appearance."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.8svn42809"
+PV = "2023.209.1.8svn42809"
 
-RPM_NAME = "texlive-scalerel-2023.201.1.8svn42809-53.1.noarch.rpm"
-RPM_HASH = "c82518b0987a84ef6086fb8d800c31807ba5dc1f30ff782a8e79fe8d8c24f9baf1cef2a752c2d3fcd96fef4d7a48e1b3417c93ad4b3546c3f631cf9366ab2aec"
+RPM_NAME = "texlive-scalerel-2023.209.1.8svn42809-54.1.noarch.rpm"
+RPM_HASH = "ea14c1788dfb729c1f5059703cbf9a738dc48ac55c49cd3903399f08b944ef8b88d2d6636d60821ac5a9af26cd9c9910b72a077c1cfc56d7f44bb91ed9471c11"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-scalerel.sty \

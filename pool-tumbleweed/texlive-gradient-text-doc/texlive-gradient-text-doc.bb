@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gradient-text"
 DESCRIPTION = "This package includes the documentation for texlive-gradient-text"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn65567"
+PV = "2023.209.1.2svn65567"
 
-RPM_NAME = "texlive-gradient-text-doc-2023.201.1.2svn65567-53.2.noarch.rpm"
-RPM_HASH = "a8fab5ef755f054b0f122e7bc765fa0e885e32e6d883e08bbabd85948a7dc24200d93dc399f0cf1af8267ed14dfc16689651662d1bc8877043515ac55ca6782c"
+RPM_NAME = "texlive-gradient-text-doc-2023.209.1.2svn65567-54.1.noarch.rpm"
+RPM_HASH = "a1573db3734c6856dbc208afa066ba49d934a568664d7042c56ff5a924b17e7bdfb2983a1afa79218f57ccba526e0ec85a3deafde979e9927e78b962b24bfa7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gradient-text-doc"

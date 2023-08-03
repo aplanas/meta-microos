@@ -4,10 +4,10 @@ written. This package adds simple macros for your LaTeX \
 document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn45601"
+PV = "2023.209.0.0.1svn45601"
 
-RPM_NAME = "texlive-outlining-2023.201.0.0.1svn45601-54.1.noarch.rpm"
-RPM_HASH = "8dd43c36c6998fd9a736c7e2b081e373e6cee15fa4aca6f6d45f2b3a8b1b45ab7c2940b0446d5f6bfa5f6078cf211400614188d3ae4e6c36ac2631d107ed6bbd"
+RPM_NAME = "texlive-outlining-2023.209.0.0.1svn45601-55.1.noarch.rpm"
+RPM_HASH = "9f380eb22aac9ee53eccb1b68511de13e42591a0790007487e5821651b3e701face414e822cc1579d7d2cf046481d569420772ec80f1af27ca1d66ec23d24577"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-outlining.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pdfarticle"
 DESCRIPTION = "This package includes the documentation for texlive-pdfarticle"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn51127"
+PV = "2023.209.1.0svn51127"
 
-RPM_NAME = "texlive-pdfarticle-doc-2023.201.1.0svn51127-51.1.noarch.rpm"
-RPM_HASH = "5f9f8062e164ecf64d4d13ce9346927e7272f4b6d32ad9f8db4b370ca614e74109e946bd96320e8165bb08450c70ea27db530c3c0125b0325ac3160dcaefb3a5"
+RPM_NAME = "texlive-pdfarticle-doc-2023.209.1.0svn51127-52.1.noarch.rpm"
+RPM_HASH = "6b130e9661da94e2bf1a40790dc666864849b55f02652909ae0c10faf4b5d3c8c464e9db3ee96ffd52710e60832e27dd659955700458c3db48b87da9dff3d594"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdfarticle-doc"

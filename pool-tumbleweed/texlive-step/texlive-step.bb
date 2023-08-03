@@ -7,10 +7,10 @@ used in publishing. The fonts were forked from XITS/STIX and \
 Type 1 support is provided for legacy TeX engines."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.2.0.5svn57307"
+PV = "2023.209.2.0.5svn57307"
 
-RPM_NAME = "texlive-step-2023.201.2.0.5svn57307-57.1.noarch.rpm"
-RPM_HASH = "74f1f0914d5dd50f3dd5da1e7f6aa67fb1f17ae2e9a4b52efe32cffc7530797a3459561d1ce8bfebe1915fce4338e25badb943ad141573773eec4aa2249b775c"
+RPM_NAME = "texlive-step-2023.209.2.0.5svn57307-58.1.noarch.rpm"
+RPM_HASH = "c273525fc1057da8f9aea75a891b79f78a9cadc5c5488ecc9408e077349c4d1e8068774fb5e38acb740d6ba128ed51411dce7af481f6211442b2635167d3c2b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LGRSTEP-Inf.fd \

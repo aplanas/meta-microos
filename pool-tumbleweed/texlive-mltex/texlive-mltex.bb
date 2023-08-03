@@ -5,10 +5,10 @@ Computer Modern (CM) fonts. The system is distributed as a TeX \
 change file."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.201.2.2svn62145"
+PV = "2023.209.2.2svn62145"
 
-RPM_NAME = "texlive-mltex-2023.201.2.2svn62145-54.1.noarch.rpm"
-RPM_HASH = "51efcb001da0398ee1b505c2da6dcf9d510ad97bbdf5241bf9a13b58b9432c54222b34d99bd94a2685435209dfcc96d4704b6b4aea84937ad57a2cf29087e5a6"
+RPM_NAME = "texlive-mltex-2023.209.2.2svn62145-55.1.noarch.rpm"
+RPM_HASH = "f1b78a1cd108b867a5c2ef9a6c5f9d8826bc665d72e57f5aec6e754e53b79ed1a51959f34c68d2c2ccac12ba3ec8451ded541f9f979deb333c998e94904cdd3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lo1enc.def \

@@ -8,10 +8,10 @@ they format names and titles; one of them is necessary for the \
 LaTeX package to work."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.201.svn52564"
+PV = "2023.209.svn52564"
 
-RPM_NAME = "texlive-authordate-2023.201.svn52564-53.1.noarch.rpm"
-RPM_HASH = "26f1d9d6d37c9621b0b1000a57aec5bff56a857d497fea7d61d0dee7015f78da744d2e24dec5ff7976f068e53887c19e333850d8d5fd33a3c02b7ea8fb328e19"
+RPM_NAME = "texlive-authordate-2023.209.svn52564-54.1.noarch.rpm"
+RPM_HASH = "1f76cd7ff2cbfc9ead754bed87019607472baf12f8b47733960ab66a6b0c382fa71450e61fea8a2941adaf017d23f3cf629991c0cba5d18439c3b2d9d6449c06"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-authordate1-4.sty \

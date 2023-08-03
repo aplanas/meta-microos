@@ -8,10 +8,10 @@ arguments of \\TheKey are 'moving' as LaTeX defines the term and \
 we have sometimes to protect them."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn55985"
+PV = "2023.209.0.0.1svn55985"
 
-RPM_NAME = "texlive-clefval-2023.201.0.0.1svn55985-53.1.noarch.rpm"
-RPM_HASH = "be2d48b739e1fc9aa4685cdbf7728d07d59149c3e39fea3515ef29fd15afeb0e1a4fe96854e4af316011950355f520d5c61319b8a394bf8bb08d406866145793"
+RPM_NAME = "texlive-clefval-2023.209.0.0.1svn55985-54.1.noarch.rpm"
+RPM_HASH = "3e92f1c8d2edf912ab482acc787c3d26c0966581d5b921eed3feec5e249b2345c75e6b25ea7f5eff12c3462c38a69924450ed82095786f3ceec70e064aa832b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-clefval.sty \

@@ -4,10 +4,10 @@ denoting a consequence relation, related to a given logic, \
 between a collection of formulas and a derived formula."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn64967"
+PV = "2023.209.1.0svn64967"
 
-RPM_NAME = "texlive-turnstile-2023.201.1.0svn64967-52.1.noarch.rpm"
-RPM_HASH = "d5769331d8b26d0a00bd4fb6af9ab5088deb12433520eec17260cd9b6a4c341193fe1b390db3d2c8bf6ebef6c5034b41d594eda56824501d99d7612dc94a0225"
+RPM_NAME = "texlive-turnstile-2023.209.1.0svn64967-53.1.noarch.rpm"
+RPM_HASH = "5dd618f92f459cc811bc08012880e68c8ce76d80d5cc8f7ff187ad244f36153cf732c3e45a44505f0829fb5cdbd3e5d2f5cef85ecee98adb79f993383bcbceb4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-turnstile.sty \

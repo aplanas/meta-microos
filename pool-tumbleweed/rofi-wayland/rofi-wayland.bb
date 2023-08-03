@@ -2,10 +2,10 @@ SUMMARY = "A window switcher, run dialog and dmenu replacement"
 DESCRIPTION = "This is a fork of rofi with added support for Wayland via the layer shell protocol."
 LICENSE = "MIT"
 
-PV = "1.7.5+wayland1+git.1679493688.d06095b"
+PV = "1.7.5+wayland2+git.1690115482.ff2338c"
 
-RPM_NAME = "rofi-wayland-1.7.5+wayland1+git.1679493688.d06095b-1.1.aarch64.rpm"
-RPM_HASH = "299012410a7a169f6f7f861bfbc3d6ee5e2bbcbba05c659e9f6368dff8d884aeecabe43890180f9d2fbbad51ec987e2cbb9c2fa49cd56f254895c2607fbf7591"
+RPM_NAME = "rofi-wayland-1.7.5+wayland2+git.1690115482.ff2338c-1.1.aarch64.rpm"
+RPM_HASH = "da65f7a8064b330ac5272781127b4634251b9b6cf1867e7716cf198205bc5ff38086cdca598c1d524772112d4de1c70dbb3223c46b6f3e45d8ede2bbfb7a314b"
 
 RPROVIDES:${PN} += "rofi-launcher \
 rofi-wayland"

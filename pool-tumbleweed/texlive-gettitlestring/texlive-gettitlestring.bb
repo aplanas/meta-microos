@@ -3,10 +3,10 @@ DESCRIPTION = "Cleans up the title string (removing \\label commands) for \
 packages (such as nameref) that typeset such strings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6svn53170"
+PV = "2023.209.1.6svn53170"
 
-RPM_NAME = "texlive-gettitlestring-2023.201.1.6svn53170-52.1.noarch.rpm"
-RPM_HASH = "00bd992dd9dbf79d38fa14f077aad9f37607c31a90ef160e3fe22190aa34ecc4558ff284ccc4b3e7da3455bcc383648e11be64cdf71a5135523fc0f78c7b8676"
+RPM_NAME = "texlive-gettitlestring-2023.209.1.6svn53170-53.1.noarch.rpm"
+RPM_HASH = "f3452df4d7adfd4c5f38d679a7dc6a0f10c6efaaf5034dbd85b6c8220a305efc144c6cf5ab911071131d6c2bff6d893c6c0e994f335a1349742a790c3ab58e93"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gettitlestring.sty \

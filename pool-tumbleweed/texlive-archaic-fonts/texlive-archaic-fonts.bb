@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-archaic"
 DESCRIPTION = "The  separated fonts package for texlive-archaic"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn38005"
+PV = "2023.209.svn38005"
 
-RPM_NAME = "texlive-archaic-fonts-2023.201.svn38005-54.1.noarch.rpm"
-RPM_HASH = "795b3404608e3006de96e8da35fd762b8b9dde982c7142e6bbd707029461059f5d1abed62ad60338e23b89c9d4eb7b7599f1c17dadd903989a4e4c9e7bd3c351"
+RPM_NAME = "texlive-archaic-fonts-2023.209.svn38005-55.1.noarch.rpm"
+RPM_HASH = "45c83b071a8349a9dded2c15d2bd16f7ac5f4a0db6465e4b5a82f2d646cc90cdf6d1a836d8c14a2ef87bcc6a786045497b882a201a99ab11611294ac2ec290fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

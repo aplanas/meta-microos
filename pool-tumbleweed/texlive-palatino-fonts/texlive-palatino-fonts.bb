@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-palatino"
 DESCRIPTION = "The  separated fonts package for texlive-palatino"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn61719"
+PV = "2023.209.svn61719"
 
-RPM_NAME = "texlive-palatino-fonts-2023.201.svn61719-51.1.noarch.rpm"
-RPM_HASH = "58cdb6a0e5005ea32ae95cb9d0a09ee9bd9ef47d2d6a15479dd24995900615eb595e06eb09d66168876c4c4b6b8aac1d08b37ebe87aa65859991a4eeb0552e22"
+RPM_NAME = "texlive-palatino-fonts-2023.209.svn61719-52.1.noarch.rpm"
+RPM_HASH = "4f721746db0e9d7cec803d4b6795ef58323b51d83ae5b486bcdd03416be44508ccf391f44d3638a4487dbec2a67d13a152b15ddb94295811e0b93a2e5ca66b30"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

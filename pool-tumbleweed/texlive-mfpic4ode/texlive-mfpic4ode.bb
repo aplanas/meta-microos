@@ -10,10 +10,10 @@ TeX as well. Online demonstration of the mfpic4ode macros is \
 available on the Mfpic Previewer as Example 6."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4svn17745"
+PV = "2023.209.0.0.4svn17745"
 
-RPM_NAME = "texlive-mfpic4ode-2023.201.0.0.4svn17745-54.1.noarch.rpm"
-RPM_HASH = "a936e6d2f1035b51b956189cfb337866bdb92d64651521992fa2cde39503112107b841ed27722c67c520014a48127fc407ee1828609e699f3bbb7ba7a7e7384a"
+RPM_NAME = "texlive-mfpic4ode-2023.209.0.0.4svn17745-55.1.noarch.rpm"
+RPM_HASH = "8f7d39448bac655a3ee154a6df449fa188c3195ac83fdf680c6aef2163fed3dd955e6304351f8eff3bbb6ed825e88419c5dd0a95e1c9874187b57cb3ec6cd8d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mfpic4ode.sty \

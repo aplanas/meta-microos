@@ -3,10 +3,10 @@ DESCRIPTION = "This MetaPost package contains macros to draw arrows and braces \
 in the Computer Modern style."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.9svn24378"
+PV = "2023.209.0.0.9svn24378"
 
-RPM_NAME = "texlive-cmarrows-2023.201.0.0.9svn24378-53.1.noarch.rpm"
-RPM_HASH = "9101c09dd87ff8084e6fb64920b15b4ea26fb9f06662711849e8f9d2308241acbfe10d4d60a2b0b7b18e384fd2d35555ba59427133eccee815bc9f728911d6f2"
+RPM_NAME = "texlive-cmarrows-2023.209.0.0.9svn24378-54.1.noarch.rpm"
+RPM_HASH = "0b6671b7eb31c9a06b43a12e780427f1894e6bc54b3688802605f85494c1dc9cfcf29bb911639f1d7488e7004d7b648f394e74f341a1480e79fa44cdce1be328"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cmarrows"

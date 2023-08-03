@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-kpfonts"
 DESCRIPTION = "The  separated fonts package for texlive-kpfonts"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.35svn65583"
+PV = "2023.209.3.35svn65583"
 
-RPM_NAME = "texlive-kpfonts-fonts-2023.201.3.35svn65583-55.1.noarch.rpm"
-RPM_HASH = "ed890f50076b1022d0ff2a5417695486f2c54b80f44c1641eba7df8383bdac07fe10857ff93a3a6c09af31f1272565702800ed576a6591c09f8301eda9a2e7e5"
+RPM_NAME = "texlive-kpfonts-fonts-2023.209.3.35svn65583-56.1.noarch.rpm"
+RPM_HASH = "5ac6891c176f1dbd9d1fbf6f3f3a9cd2d66d4ff8a8cea56c88dea3d236fdda504dc1b6543e15f771ae376251d763a0e4168512c9bcf5915d33fbed86a88949df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

@@ -3,10 +3,10 @@ DESCRIPTION = "The Qt 6 MultimediaQuick library. \
 This library does not have any ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6MultimediaQuick6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "31e9baffc3b7edab8dc628be295d9636df4b72b5322108ed9fe74f51e0b1f09c7c7559f0ff8dbb738bf410ee45bd47acfb1bbb66e9d04dc7a9cffc98a401b854"
+RPM_NAME = "libQt6MultimediaQuick6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "8a8932952cdcef90973ea04154a70895d4278f42fa901f5146ef2013293da0f9cca303bc341c6b59ec5d7601fc362a1c0503b6d1a784fceaa1851f51823fc174"
 
 RPROVIDES:${PN} += "libQt6MultimediaQuick.so.6 \
 libQt6MultimediaQuick6"

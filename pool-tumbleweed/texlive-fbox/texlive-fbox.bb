@@ -6,10 +6,10 @@ letters or a combination of lowercase and uppercase is also \
 possible."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.06svn62126"
+PV = "2023.209.0.0.06svn62126"
 
-RPM_NAME = "texlive-fbox-2023.201.0.0.06svn62126-52.1.noarch.rpm"
-RPM_HASH = "70dbeffd7c1c362f61b641748b93a7b293c163dc3de29235718292eab4e30fe004e2fd8db8756574ada508c4f557f6f020642ea6d84162d9343b93a8ea05243b"
+RPM_NAME = "texlive-fbox-2023.209.0.0.06svn62126-53.1.noarch.rpm"
+RPM_HASH = "6ce06d06566b22a56403b3462a2a67bd2bfe97cb5139c57008886ff2d3181ec9786dc34b56f66b417704e18c1deac5ac9519faf9f52d32562c0e677048b8c0b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fbox.sty \

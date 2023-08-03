@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-langsci-avm"
 DESCRIPTION = "This package includes the documentation for texlive-langsci-avm"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3.0svn66016"
+PV = "2023.209.0.0.3.0svn66016"
 
-RPM_NAME = "texlive-langsci-avm-doc-2023.201.0.0.3.0svn66016-55.1.noarch.rpm"
-RPM_HASH = "5553b2fc8fa7bd768644a417351c2d9673dfd13843a72d635ef43db068261653fb758acf811919c022c475543c3506d9cc99dd9623db9530c87ff560273c0ad2"
+RPM_NAME = "texlive-langsci-avm-doc-2023.209.0.0.3.0svn66016-56.1.noarch.rpm"
+RPM_HASH = "06923fec6f1999c13679ac3d1e9642654c48f3c7d25aa6e7889ce0e5e16c186775bfa9cb14560367a49158a0c5402047f1dee895c1139ece8ee15188c1e0be07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-langsci-avm-doc"

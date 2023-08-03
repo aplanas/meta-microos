@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-feupphdteses"
 DESCRIPTION = "This package includes the documentation for texlive-feupphdteses"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.0svn30962"
+PV = "2023.209.4.0svn30962"
 
-RPM_NAME = "texlive-feupphdteses-doc-2023.201.4.0svn30962-52.1.noarch.rpm"
-RPM_HASH = "26d32b4a73deeb53f641d7247044821fbc456ec5d648d449677cfd083d0ed800a32368a5d6cec32e5509d3042910ac10cd6683c2585323b879c1321467599da1"
+RPM_NAME = "texlive-feupphdteses-doc-2023.209.4.0svn30962-53.1.noarch.rpm"
+RPM_HASH = "778c1a00f2d9f86cc0c3164427523d803c24adf0e377b05f8eff0817323aaf8cfe29e711f7ca7180936f2ac3d8640b431ad68589c32a6a619b18337697558c56"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-feupphdteses-doc"

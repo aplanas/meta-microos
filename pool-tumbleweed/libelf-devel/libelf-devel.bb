@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
 PV = "0.189"
 
-RPM_NAME = "libelf-devel-0.189-3.3.aarch64.rpm"
-RPM_HASH = "b2e42b24bb8f11833c63925503346c842d5b42708ea68a41a2926688060899fb3a7873e7a22faa1de1c9620f09e74dab8b871ea3c4265f1de83b239e5cf30aff"
+RPM_NAME = "libelf-devel-0.189-4.1.aarch64.rpm"
+RPM_HASH = "7fbbce23a5d5956fb1aa38523441fdfbb9657505ff3fc632785406cdc4fe5fe61cb616fb81ec28b0f778c72ada129c9c3a69151e0ec6a77bdd16c60fc633608c"
 
 RPROVIDES:${PN} += "libelf-devel \
 pkgconfig-libelf"

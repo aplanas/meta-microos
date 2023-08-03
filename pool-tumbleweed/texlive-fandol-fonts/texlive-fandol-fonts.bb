@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-fandol"
 DESCRIPTION = "The  separated fonts package for texlive-fandol"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.3svn37889"
+PV = "2023.209.0.0.3svn37889"
 
-RPM_NAME = "texlive-fandol-fonts-2023.201.0.0.3svn37889-52.1.noarch.rpm"
-RPM_HASH = "6dafb0a8bf724c799f91f5f589bc3109309c38a54878234e667b41bd99e9c110fba433794d0b516dee0af8d94e6d8cb672efaacfe83227e815c644a4c49b31e8"
+RPM_NAME = "texlive-fandol-fonts-2023.209.0.0.3svn37889-53.1.noarch.rpm"
+RPM_HASH = "79fecfd7a1398b20ade51ad40773bca27de2bd08f6159af263f4405f8fcd6bc05538cba71b6fef3aab01270240c366613c5e9a8d19abccbc73563318a3f8e41e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=bg \

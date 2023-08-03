@@ -3,10 +3,10 @@ DESCRIPTION = "Described as a 'local adaptation' of apalike (which is part of \
 the base BibTeX distribution)."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.201.svn54080"
+PV = "2023.209.svn54080"
 
-RPM_NAME = "texlive-apalike2-2023.201.svn54080-54.1.noarch.rpm"
-RPM_HASH = "3783f5df8a445a55aebb5ea29ac45fa63b69d7067228b7b5907c2a16e8fcfad5584d5843ae6138c50abb90d42352d97eee6e2c2f8000118c21866e4138dda8e2"
+RPM_NAME = "texlive-apalike2-2023.209.svn54080-55.1.noarch.rpm"
+RPM_HASH = "b3903704d28f58f54801c1ad7d161ec99768b8386382ecf67bbf63f05c0e302a606c76ad400b9729be28eb3b19373465f63d28549249b73f09612eaf69b74ac2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-apalike2"

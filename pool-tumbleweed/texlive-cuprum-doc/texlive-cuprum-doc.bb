@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cuprum"
 DESCRIPTION = "This package includes the documentation for texlive-cuprum"
 LICENSE = "OFL-1.1"
 
-PV = "2023.204.svn49909"
+PV = "2023.209.svn49909"
 
-RPM_NAME = "texlive-cuprum-doc-2023.204.svn49909-54.1.noarch.rpm"
-RPM_HASH = "344b5930e761ae0700bc52c0f35c41f4fdc6ee98fd98efd8a87d0ada3c2f4805bb64a645e7ee8df85bb725060c843e54318c0b7d1027a6d2a9e09593c520b65c"
+RPM_NAME = "texlive-cuprum-doc-2023.209.svn49909-55.1.noarch.rpm"
+RPM_HASH = "9e00b57a5b2641e2889a849d039fe575628c1ac446a81663d1b613b0c45cc145f2537c376837efd970c5386ad59e9b58789c50bfe28f447143c2cb3c851a450d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cuprum-doc"

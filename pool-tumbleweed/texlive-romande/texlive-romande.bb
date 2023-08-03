@@ -13,10 +13,10 @@ explained in the documentation. The LaTeX support requires the \
 nfssext-cfr and the xkeyval packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.008_v7_scsvn19537"
+PV = "2023.209.1.008_v7_scsvn19537"
 
-RPM_NAME = "texlive-romande-2023.201.1.008_v7_scsvn19537-53.1.noarch.rpm"
-RPM_HASH = "ebdc653d110ab7ab8ef592a60357272d77123f456c12fcc70f519166cf56682659fab4051dd42b893a1ad9c6e273bddd2a9b97bc8e8176ddf94ff0c445c550dc"
+RPM_NAME = "texlive-romande-2023.209.1.008_v7_scsvn19537-54.1.noarch.rpm"
+RPM_HASH = "a020560b79ef393a3d2faf098bff1db48b1db4a00e0ab33979ed91bb1e6645df64f5c89a69169dfa61c295d10bbbd60078522ae0ee6d5c063a16bb9a40e7f05f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-romande-supp.enc \

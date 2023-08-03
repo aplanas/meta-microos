@@ -9,10 +9,10 @@ that it proves useful to other Navy organizations, with users \
 contributing macros for their organizations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn41643"
+PV = "2023.209.1.1svn41643"
 
-RPM_NAME = "texlive-navydocs-2023.201.1.1svn41643-54.1.noarch.rpm"
-RPM_HASH = "b3b67cf6ec8aa29e041a5db17513c1443bf7cfa711bb4812f5d7128b9b33fafd0722e92c208c960abd8f7d50336aa0432956a683301fb7bd1a77a335c85bb50d"
+RPM_NAME = "texlive-navydocs-2023.209.1.1svn41643-55.1.noarch.rpm"
+RPM_HASH = "9735a3e6b7af2fc3a206767d08ad6f61c50a29e43751f43dc5b6e9c34c90e3d03a5c4cb1f30766f6cf7984b7d0824bb8f817d73b7bf1d5ec9734c6fd8f0717a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-navydocs.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "This module provides the 'croatian' style that can be set using \
 \\DTMsetstyle provided by datetime2.sty."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn36682"
+PV = "2023.209.1.0svn36682"
 
-RPM_NAME = "texlive-datetime2-croatian-2023.201.1.0svn36682-52.1.noarch.rpm"
-RPM_HASH = "aba696973c7ca78cad951790c0223b2cf708a11c23f676d58aea1fa5b056e021ae08afc8f1a0f1e243e74350b53082fafc491693caece40a73695f82950d8d72"
+RPM_NAME = "texlive-datetime2-croatian-2023.209.1.0svn36682-53.1.noarch.rpm"
+RPM_HASH = "ed67962a35ae59d6738f70c83010d3b35b4eaa1782fe739a4c6c9e77e892bd41ef80bf1525ead4131703e9cecb526b0b1ac39dc6ea5ff3fb5d3954b528ce4fe6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-croatian-ascii.ldf \

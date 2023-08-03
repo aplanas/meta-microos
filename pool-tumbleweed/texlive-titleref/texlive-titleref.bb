@@ -5,10 +5,10 @@ and \\pageref. The package does not interwork with hyperref; if \
 you need hypertext capabilities, use nameref instead."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.3.1svn18729"
+PV = "2023.209.3.1svn18729"
 
-RPM_NAME = "texlive-titleref-2023.201.3.1svn18729-52.1.noarch.rpm"
-RPM_HASH = "5db27da260ac7c1461049ec95bee1aa0640cccadf7600f1b946aafa50f73afc8064ce92d700a3e6125f6e0ba828dccd44ad690209572b91bc5ff6da76152cbae"
+RPM_NAME = "texlive-titleref-2023.209.3.1svn18729-53.1.noarch.rpm"
+RPM_HASH = "7074a1f2d7f7a0386ec84c73cc5435c3224f1edf7c7d11f052be52d69bdc0c84d970f6a996ebd9fee995fa7c7156df1f54e4283f8aa68c069224e9f8b197cf36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-titleref.sty \

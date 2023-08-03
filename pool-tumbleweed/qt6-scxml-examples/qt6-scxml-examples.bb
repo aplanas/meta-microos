@@ -2,10 +2,10 @@ SUMMARY = "Examples for the qt6-scxml modules"
 DESCRIPTION = "Examples for the qt6-scxml modules."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-scxml-examples-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "3b801a817d60cf10483ae518738dd5e4b8c50187454b4676c4d4b36dc118875018c534296ba5b40b0fdfb8fef0c9f9fe19c3d525f89aeed2c5fd2be51c31c1a7"
+RPM_NAME = "qt6-scxml-examples-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "752ba9efdcaaf35c681422a58b0b545394e160fc213f760c696b9f5949196b6c3bf09e8fecb1b0001e66bae20c3ea41c6bce273dfe95457303947c111c7dc4a4"
 
 RPROVIDES:${PN} += "qt6-scxml-examples"
 

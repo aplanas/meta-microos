@@ -18,10 +18,10 @@ compilable example file from a single source embedded into the \
 appropriate place of the .tex document file."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.04svn55265"
+PV = "2023.209.0.0.04svn55265"
 
-RPM_NAME = "texlive-examplep-2023.201.0.0.04svn55265-52.1.noarch.rpm"
-RPM_HASH = "f2c2cb3bdce228ccf48d4ffb75d5f18b9508b06a1b1c1bdc0e422f40be07ced6543c118af5f1e6d1f6f1775b88318c3c2202b90aa5026426366a0c9adf0c440d"
+RPM_NAME = "texlive-examplep-2023.209.0.0.04svn55265-53.1.noarch.rpm"
+RPM_HASH = "39b4f97ea353e55d0d76c6ba9543003c86b3b8c481ed01bd232318db58800245fb10b2b9b0333eaacf0a31e0104924f2171d19d80beafcc8d9cbff3eaf8b6f07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-codep.sty \

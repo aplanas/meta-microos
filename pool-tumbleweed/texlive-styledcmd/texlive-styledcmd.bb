@@ -5,10 +5,10 @@ every document. This includes expandable and protected \
 commands."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.0svn65262"
+PV = "2023.209.2.0svn65262"
 
-RPM_NAME = "texlive-styledcmd-2023.201.2.0svn65262-57.1.noarch.rpm"
-RPM_HASH = "669a8a8f3ed7f9585ec7ad5bcc61c2c803dbab0ebd34a0d9400556f180971427b30c0bc28943a0bc97dd614260230b359aad9a965646908830232744a9ab35bc"
+RPM_NAME = "texlive-styledcmd-2023.209.2.0svn65262-58.1.noarch.rpm"
+RPM_HASH = "e86929a623d2a217ba6e2b2e61f05e032ba4a3a7fd313328481a1b17b37f266e3c5755d87e9faee32466edc1d0937c7e0a5b70b83b8019ab40a020a58dba167e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-styledcmd.sty \

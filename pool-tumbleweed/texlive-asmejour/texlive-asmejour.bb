@@ -13,10 +13,10 @@ pdfLaTeX or LuaLaTeX. This package is not a publication of \
 ASME."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.20svn65405"
+PV = "2023.209.1.20svn65405"
 
-RPM_NAME = "texlive-asmejour-2023.201.1.20svn65405-53.1.noarch.rpm"
-RPM_HASH = "2dc32bd2e299513e65f88ba04b96953a3c9504d2e65de9b68bb737ccc7364dc472988141ecb22d30452056d94438d26f0fef29b4377d3390661c05650f99d81e"
+RPM_NAME = "texlive-asmejour-2023.209.1.20svn65405-54.1.noarch.rpm"
+RPM_HASH = "327590851ff57798dc80f6582dfb9195e648c00ff1fa57b32b410c83d275663157d48f1ca86a1ada5e6ec559c4404e999f3c64ebcca203fbec88f6c4fe0a9797"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-asmejour.cls \

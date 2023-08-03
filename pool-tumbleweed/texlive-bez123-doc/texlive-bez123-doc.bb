@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bez123"
 DESCRIPTION = "This package includes the documentation for texlive-bez123"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1bsvn15878"
+PV = "2023.209.1.1bsvn15878"
 
-RPM_NAME = "texlive-bez123-doc-2023.201.1.1bsvn15878-53.1.noarch.rpm"
-RPM_HASH = "f30ddd0c534c944d7f5903376ef6377b9ec071a6c727eda630821fba28221db2462617b969188ee41c12948bc5f1b2727b44712eb9bbb5f6ba444d67605704bc"
+RPM_NAME = "texlive-bez123-doc-2023.209.1.1bsvn15878-54.1.noarch.rpm"
+RPM_HASH = "eb03f951ca5d0d7adb7269645b3a1d915fd384ab5d6b05b60090ab993690595903d35d5cbfb4f723fb7bbe040c559966acab72331367f5e89ee6e8b580c64383"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bez123-doc"

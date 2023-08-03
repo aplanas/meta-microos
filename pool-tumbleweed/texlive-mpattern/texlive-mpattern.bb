@@ -3,10 +3,10 @@ DESCRIPTION = "A package for defining and using patterns in MetaPost, using \
 the Pattern Color Space available in PostScript Level 2."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-mpattern-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "1d850d806545a67571e0a8d855db59c3f732bbb43fd3660ab1f1cb64ee66527c8d58db78fae1119f6751d150cec95d992026bad4b90c69be982bd4e38b49b913"
+RPM_NAME = "texlive-mpattern-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "989c4787b95a3c5b7ba2653efa525ac8407a7ddb3da70d4cd3230b0950358e7b4a2689e6223170687d9df1552b01f5a50e3e2a2b260952e19551040950febbe8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mpattern"

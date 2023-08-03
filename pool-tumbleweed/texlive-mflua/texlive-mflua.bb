@@ -3,10 +3,10 @@ DESCRIPTION = "For information on this Lua-enabled Metafont, see, for example: \
 tug.org/TUGboat/tb32-2/tb101scarso.pdf."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn62774"
+PV = "2023.209.svn62774"
 
-RPM_NAME = "texlive-mflua-2023.201.svn62774-54.1.noarch.rpm"
-RPM_HASH = "75741400bdff716c82e122f328351defe2d86f3ce875529748979f8a181f1c34fddff670e7d91f1a2d64ca892fc5b200d2169756082da3e5414553f365b11a0c"
+RPM_NAME = "texlive-mflua-2023.209.svn62774-55.1.noarch.rpm"
+RPM_HASH = "32aaa7a679b6cc8038d1bb67295e24d270e7b8b5119804d556499ce1e2c7229b851a7267f66a9ffcc96ecbbfcb77b800efc3baae32c38b49486c4c50e34854aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mflua"

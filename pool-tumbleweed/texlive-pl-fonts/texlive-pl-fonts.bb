@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-pl"
 DESCRIPTION = "The  separated fonts package for texlive-pl"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.09asvn58661"
+PV = "2023.209.1.09asvn58661"
 
-RPM_NAME = "texlive-pl-fonts-2023.201.1.09asvn58661-51.1.noarch.rpm"
-RPM_HASH = "c3d8ff5b89ec1eb8902faac0c30047c07a5e3f357b7c7f9f39d0371fc884ff21256ee11604eec92832f98d27ba4cf3da061556ea5da79ad5a4c0e5924161eef2"
+RPM_NAME = "texlive-pl-fonts-2023.209.1.09asvn58661-52.1.noarch.rpm"
+RPM_HASH = "7474e2d2e5bf7f6f94cb74aceb8b0e54618c9d47db00bac1f37f96011afc65c1e40908bd0110079478ae198d758a6904604f6837790570ffcc507f6a87461c1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=fj \

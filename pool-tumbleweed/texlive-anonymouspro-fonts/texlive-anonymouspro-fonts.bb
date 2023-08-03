@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-anonymouspro"
 DESCRIPTION = "The  separated fonts package for texlive-anonymouspro"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.2svn51631"
+PV = "2023.209.2.2svn51631"
 
-RPM_NAME = "texlive-anonymouspro-fonts-2023.201.2.2svn51631-54.1.noarch.rpm"
-RPM_HASH = "35e7828a7ebaa4ce83f09b9a0533127f6668ce2837cd422c6e17632121341f3b7ca857a7565a97637a919bebc20d4eeaa8c988b00f413057eaa6852c9abaa245"
+RPM_NAME = "texlive-anonymouspro-fonts-2023.209.2.2svn51631-55.1.noarch.rpm"
+RPM_HASH = "995588a5a07c04634a3c369bca97402aafe5e5f4058d56a4474031ef4aa428d7eebf440b8f821fd7e231204d432fdaf4af7cce088ce000ac7042a12f943b4b5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-anonymouspro-fonts \

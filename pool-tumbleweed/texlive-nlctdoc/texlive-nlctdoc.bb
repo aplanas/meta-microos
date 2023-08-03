@@ -5,10 +5,10 @@ author's packages, using koma-script. This class is provided \
 the documentation of those packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.08svn64708"
+PV = "2023.209.1.08svn64708"
 
-RPM_NAME = "texlive-nlctdoc-2023.201.1.08svn64708-54.1.noarch.rpm"
-RPM_HASH = "8bdfe6f445c3fa1cde34ddfee3b65d4e5d9b91f69f449826b0f912b4142655362d012722b88226c90cad9cd0ee673c119ce17dd4782ca55dbe8e0f617d245b4c"
+RPM_NAME = "texlive-nlctdoc-2023.209.1.08svn64708-55.1.noarch.rpm"
+RPM_HASH = "f873c5918345b70a195806419841dd11c67f5f602b9a9954607741967613b5b59e857ccbec84853a0c099e597516ac9e0da421ab5653d08221336dec0115a8fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nlctdoc.cls \

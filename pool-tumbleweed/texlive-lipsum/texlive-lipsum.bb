@@ -4,10 +4,10 @@ Lorem Ipsum dummy text provided by https://lipsum.com, plus a \
 growing list of other dummy texts in different languages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.7svn60561"
+PV = "2023.209.2.7svn60561"
 
-RPM_NAME = "texlive-lipsum-2023.201.2.7svn60561-54.1.noarch.rpm"
-RPM_HASH = "e1d211408ad464584601ac483a1900c96f45de26be1a5b9677fa2e6774fd63928e7112005729a2065ac016c609fb94c712fd8217619803c8362912f143542a28"
+RPM_NAME = "texlive-lipsum-2023.209.2.7svn60561-55.1.noarch.rpm"
+RPM_HASH = "736e192c90c8af15b215dfb7c437cbb971cafc730ac1f8a6265d0a890d67a39278ed3c127e1ea7f6d3127e5d465ebbd0e6cd2c4d074c625f741a770479e06c2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cicero.ltd.tex \

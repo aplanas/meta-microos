@@ -13,10 +13,10 @@ active, implicit, and catcode-6 tokens as they are digested. \
 The package provides a number of options for handling groups."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.42svn60320"
+PV = "2023.209.1.42svn60320"
 
-RPM_NAME = "texlive-tokcycle-2023.201.1.42svn60320-52.1.noarch.rpm"
-RPM_HASH = "493e55cc83adb021545b5e1e593ec1f70a5f9a30fbb54633837ddaf7fd05330e169bcc806adc3c143d4aef7e30d58950b8307a30c7957efcd90aa06b0b3ac0a5"
+RPM_NAME = "texlive-tokcycle-2023.209.1.42svn60320-53.1.noarch.rpm"
+RPM_HASH = "3fbf8c86f4db76d0b8ca5d5498205680cbccc00ec68a2599d037e3d71051e5597406b796d62595b15e4a27c9668b20189bbffc4f82799d5d9ddcb8fce0a66ccb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tokcycle.sty \

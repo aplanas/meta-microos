@@ -8,10 +8,10 @@ write the entire calculation of AC with cosine, ... and some \
 others."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.99_z_fsvn66364"
+PV = "2023.209.0.0.99_z_fsvn66364"
 
-RPM_NAME = "texlive-profcollege-2023.201.0.0.99_z_fsvn66364-52.1.noarch.rpm"
-RPM_HASH = "879d743a12fa9cb3d71d4af412d4db0589468782b0018329e360aed6bdb51b1b94382d982d149602bf62db78007a37c0590a4e173d389b7b208320678e665f94"
+RPM_NAME = "texlive-profcollege-2023.209.0.0.99_z_fsvn66364-53.1.noarch.rpm"
+RPM_HASH = "53f680df280d2c3a9de4d5ae7ce120a3af6b50bd46cb6c5339a0a209079ec1066264f0a7bc697de013dff58d8dfed01845efa727032eabb208813e03b10c1aac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-PfCCafrique.dat \

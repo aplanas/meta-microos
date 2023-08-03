@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for the Qt 6 HunspellInputMethod library. \
 This library does not have any ABI or API guarantees."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-hunspellinputmethod-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "b2a50a780548a8b1c30aaf5abd3f53f21d36b73a8334ec3cfc5198c21f27d24a4506819ff4858dc0d80a205afdddd7c2688a2500efdfea2d35117d264e57a127"
+RPM_NAME = "qt6-hunspellinputmethod-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "aae1937a19e10261535ebfdaf50b07deac4424f8a058b3799227de96d32aab38898e196b0f52b900cc922070786c8401ea7a9f8721db322fb510938c2135091d"
 
 RPROVIDES:${PN} += "cmake-Qt6HunspellInputMethod \
 qt6-hunspellinputmethod-devel \

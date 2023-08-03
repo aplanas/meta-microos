@@ -3,10 +3,10 @@ DESCRIPTION = "iwpmd provides a userspace service for iWarp drivers to claim \
 tcp ports through the standard socket interface."
 LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
-PV = "45.0"
+PV = "47.0"
 
-RPM_NAME = "iwpmd-45.0-1.2.aarch64.rpm"
-RPM_HASH = "d42f60b2b9b2197371928bd2ef580d5798596b61e317fef85a9dda5c1bc6365b463aec5171bf7c98465a38a942791e564cf54e4b49899b7c01d7bf9b4e73a1ee"
+RPM_NAME = "iwpmd-47.0-1.1.aarch64.rpm"
+RPM_HASH = "4bbc4c22767304ebafc94b37a3c321eb2057b0364eaaae65b304f080ead78791b223f72c181878ed387ac04bc5be6ec7e7b36e23b0ca2c94635bf9d38493b0c3"
 
 RPROVIDES:${PN} += "config-iwpmd \
 iwpmd"

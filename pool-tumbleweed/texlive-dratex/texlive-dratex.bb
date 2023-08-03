@@ -3,10 +3,10 @@ DESCRIPTION = "A low level (DraTex.sty) and a high-level (AlDraTex.sty) \
 drawing package written entirely in TeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-dratex-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "bb05b902a4f2043d34d8951bc0a7acd5db41df10081a109e49d0efb77394197266f145686ef6d67ce882b8d8fe974619a37c14aff32f6115e6189667d9332a3a"
+RPM_NAME = "texlive-dratex-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "93d06a7d0a45a07d86c247625cc76ea6488a5d9e1376ebcca4b1ad09fb7790fc06abafce9217cae693b77fa3fc09f527f742428ee0294aa2adf668949eaba804"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-AlDraTex.sty \

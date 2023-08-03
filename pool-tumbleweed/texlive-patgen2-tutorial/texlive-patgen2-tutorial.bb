@@ -3,10 +3,10 @@ DESCRIPTION = "This document describes the use of Patgen 2 to create \
 hyphenation patterns for wide ranges of languages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn58841"
+PV = "2023.209.1.1svn58841"
 
-RPM_NAME = "texlive-patgen2-tutorial-2023.201.1.1svn58841-51.1.noarch.rpm"
-RPM_HASH = "9b27a7ad35994d65f0be184187062910dab655063f9c860d08e36826bc9ae8b9eda722f9407a3efe2699e1dcb1d8f7fa9f772a1f78f55ade6128e038436bf5aa"
+RPM_NAME = "texlive-patgen2-tutorial-2023.209.1.1svn58841-52.1.noarch.rpm"
+RPM_HASH = "abb682643d394e68396e8df8697a4e171933ae77f981fe566c0d2059d2e489ab9aaa90e55981036460432af59b51b0274fb2644b299ec85a10534779c234d50a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-patgen2-tutorial"

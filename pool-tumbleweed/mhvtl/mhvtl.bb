@@ -4,12 +4,13 @@ DESCRIPTION = "A Virtual Tape & Library system. \
 This package is composed of a KMP (mhvtl), which is also a psuedo HBA."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.70_release+865.af13081a1ae5"
+PV = "1.71_release+903.d3ec98550dc3"
 
-RPM_NAME = "mhvtl-1.70_release+865.af13081a1ae5-2.29.aarch64.rpm"
-RPM_HASH = "b321098decef706b0a9120149b40d9722458383c6241240302329ce3c82ddd6870286a35cdc1313fa8f876c4e9d4a9289c2fd98b96be2dee0f6dfe23f79a662e"
+RPM_NAME = "mhvtl-1.71_release+903.d3ec98550dc3-1.1.aarch64.rpm"
+RPM_HASH = "4863dbb788acbeb87a02fb5cfb022e7d58348f1f5edac9ed77cca1b62507002253353ec4592ec8d8230cb10996b569267cf8f053d5c0b2cdd26f895cea642e64"
 
 RPROVIDES:${PN} += "config-mhvtl \
+firmware-mhvtl/mhvtl-kernel.tgz \
 libvtlcart.so \
 libvtlscsi.so \
 mhvtl"

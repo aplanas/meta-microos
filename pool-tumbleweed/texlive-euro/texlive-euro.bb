@@ -7,10 +7,10 @@ Euro-zone countries are already built-in. Further rates can be \
 added easily. The package uses the fp package to do its sums."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn22191"
+PV = "2023.209.1.1svn22191"
 
-RPM_NAME = "texlive-euro-2023.201.1.1svn22191-52.1.noarch.rpm"
-RPM_HASH = "fd44c819b88607ebbfa30c96318a186af32047194d7a048fd2b05e8b8976002bd0918a3cbef3b7eda4f4b405560aa8059ff6c24d0c1f3bb9df43194adc914241"
+RPM_NAME = "texlive-euro-2023.209.1.1svn22191-53.1.noarch.rpm"
+RPM_HASH = "7863683c226226b60f77cfceac7960960a77b80f239ad76de49016bc326dd7d9e4c219d62ba0adc39180fa674c2bee5f43ff20a3fdcc3a57163eba95ea00ba1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-euro.sty \

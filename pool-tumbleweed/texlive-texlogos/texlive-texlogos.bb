@@ -9,10 +9,10 @@ properly positioned, and the logo of the Vienna University \
 Business Administration Center (BWZ)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3.1svn19083"
+PV = "2023.209.1.3.1svn19083"
 
-RPM_NAME = "texlive-texlogos-2023.201.1.3.1svn19083-54.1.noarch.rpm"
-RPM_HASH = "1b016c9cc33426158f3ef9a6ddfc0d39397e6fb08b3d19bd5aa9f349bc897db501191ba1428e2d84cd729227986ebfeb827f8739a5aeaccefac11d21cb091323"
+RPM_NAME = "texlive-texlogos-2023.209.1.3.1svn19083-55.1.noarch.rpm"
+RPM_HASH = "970e648869980ca657657aade4bdcef6038f6afdcd63854960b10d0407db1bf406ae9c9c0ebe851f41537bda678ccf73e6acc4f8c4ab8c91f459c8c283c9d158"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-texlogos.sty \

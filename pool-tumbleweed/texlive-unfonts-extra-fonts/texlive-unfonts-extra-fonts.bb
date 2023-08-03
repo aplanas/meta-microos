@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-unfonts-extra"
 DESCRIPTION = "The  separated fonts package for texlive-unfonts-extra"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn56291"
+PV = "2023.209.svn56291"
 
-RPM_NAME = "texlive-unfonts-extra-fonts-2023.201.svn56291-53.1.noarch.rpm"
-RPM_HASH = "6417a737b96f4737bbfba155391d253ce19d96594f24b92eb770ec647f0696e6fd15683b4f58d871f4d036028e7a792c72bc19602bd0c7b0e9018510dc163015"
+RPM_NAME = "texlive-unfonts-extra-fonts-2023.209.svn56291-54.1.noarch.rpm"
+RPM_HASH = "bb20ec920b34198853d44f9c28533d29d49c130b00f313df552ec8b6da02a43a90daa02f8d8e579c43a220df764b76692d5f8fb1483a016e53397819a7295035"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

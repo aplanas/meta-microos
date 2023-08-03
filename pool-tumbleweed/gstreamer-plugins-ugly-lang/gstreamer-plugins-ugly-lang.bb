@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gstreamer-plugins-ugly"
 DESCRIPTION = "Provides translations for the 'gstreamer-plugins-ugly' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "gstreamer-plugins-ugly-lang-1.22.4-1.1.noarch.rpm"
-RPM_HASH = "8f9b6c028ce343b1c736bdd11ad0d33c11e8fda1f958a8573a403c157b3116ac905b0700146f7e02fa7b3c136c68b36d324c0b12f49354c39f5ac89b939e29aa"
+RPM_NAME = "gstreamer-plugins-ugly-lang-1.22.5-1.1.noarch.rpm"
+RPM_HASH = "b681ff2aba1163d6c814c1875b25943ca0a4ec0155a18492568fcf09234ce94a7d2f7ebddfdae16f708671c0d0e9bfbb0a7fe29f7715bfb5ebd706727ba56eb0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gstreamer-plugins-ugly-lang \

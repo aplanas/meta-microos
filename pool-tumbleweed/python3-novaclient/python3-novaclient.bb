@@ -6,12 +6,12 @@ LICENSE = "Apache-2.0"
 
 PV = "18.3.0"
 
-RPM_NAME = "python3-novaclient-18.3.0-1.3.noarch.rpm"
-RPM_HASH = "15e50d6efffe7c8450f2d7bea7d485a4abcce30a3229e60a761f78a6bb984d2dc55309d486e77bf1618ed85c85852f92434def747375e93d2cee2b7b912ad576"
+RPM_NAME = "python3-novaclient-18.3.0-1.4.noarch.rpm"
+RPM_HASH = "a76c0512568a58a1ca25b1824126bd51bc6957bbf1144b49ec7ff61aed918adc3b4d1f69c6e6f3245d201869e05d452e7db1f87b9e07a838674729bdf2b9da65"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-novaclient \
-python3.10dist-python-novaclient \
+python3.11dist-python-novaclient \
 python3dist-python-novaclient"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

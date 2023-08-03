@@ -4,10 +4,10 @@ dot. Includes a command whereby the same can be made to happen \
 with other sectioning commands."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn20208"
+PV = "2023.209.1.0svn20208"
 
-RPM_NAME = "texlive-secdot-2023.201.1.0svn20208-53.1.noarch.rpm"
-RPM_HASH = "7463b5cccec152bb0d99d231a88836c923a54c5e83e445f077e514e29a4158c5f427bcb04cb36c178af3050ace0f421817bafa871457a2747dc4e4bc5aed1e07"
+RPM_NAME = "texlive-secdot-2023.209.1.0svn20208-54.1.noarch.rpm"
+RPM_HASH = "09e8178e989fafb45d7a24d36d8872dc55c2048b120ffed3848e6a55e545c31fab46942e69361e20d41f1fcf443dd11558c52c10909ccd8ea58e240b7f2579b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-secdot.sty \

@@ -4,10 +4,10 @@ references, which always appear in the same sequence in \\cite, \
 into a single \\bibitem block."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0csvn46358"
+PV = "2023.209.2.0csvn46358"
 
-RPM_NAME = "texlive-collref-2023.201.2.0csvn46358-53.1.noarch.rpm"
-RPM_HASH = "c0cd115f59f066e95f55bda0b69a7dd2034422879c16dedee34936969dc85577e1ad949cd44fd8477257dc53920850b4395698b46c92e2244b49a2fb1fd371c4"
+RPM_NAME = "texlive-collref-2023.209.2.0csvn46358-54.1.noarch.rpm"
+RPM_HASH = "74164dc801f4d0e8e3db0ae509a3df8b9f63c18a796a9475ea41175272505ec2e0a912ed89f334105fc70a4b7dff8b570e26a76a52ddd3722e42a6782b7ec7fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-collref.sty \

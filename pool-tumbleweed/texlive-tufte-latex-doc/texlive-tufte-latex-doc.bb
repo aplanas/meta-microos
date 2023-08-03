@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tufte-latex"
 DESCRIPTION = "This package includes the documentation for texlive-tufte-latex"
 LICENSE = "Apache-1.0"
 
-PV = "2023.201.3.5.2svn37649"
+PV = "2023.209.3.5.2svn37649"
 
-RPM_NAME = "texlive-tufte-latex-doc-2023.201.3.5.2svn37649-52.1.noarch.rpm"
-RPM_HASH = "989efeebcab2cbad86612b65a93a478549f0eb4256d4bcaf72f6ac06f292c4e182c55a6c9712ef870ad808ebea0b63b2b85aa657d06ac05bf1a485f82515a81e"
+RPM_NAME = "texlive-tufte-latex-doc-2023.209.3.5.2svn37649-53.1.noarch.rpm"
+RPM_HASH = "5d28896684879a16e1806bdfa0a2e613e1611a090b9d06cd5aaa8391767f4be88e1d8d7df89d11c608705ebadd573358ee06f601993ca0b3d5be51a5e4e8ee82"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tufte-latex-doc"

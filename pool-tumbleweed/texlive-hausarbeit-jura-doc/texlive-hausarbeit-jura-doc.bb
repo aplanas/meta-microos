@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hausarbeit-jura"
 DESCRIPTION = "This package includes the documentation for texlive-hausarbeit-jura"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1.0svn56070"
+PV = "2023.209.2.1.0svn56070"
 
-RPM_NAME = "texlive-hausarbeit-jura-doc-2023.201.2.1.0svn56070-53.2.noarch.rpm"
-RPM_HASH = "4b45f3d1ef180987a0bd6b5ab82f9ea5ec19d77defe0f68e43ca659694fd2333ed8dbed575da255489f8fdc0d1ebd2237743b0a279773740816daa13f330f7c6"
+RPM_NAME = "texlive-hausarbeit-jura-doc-2023.209.2.1.0svn56070-54.1.noarch.rpm"
+RPM_HASH = "983e64f53ecd121022dc66827571cbf5c4227172859c9d4d789a6677cf238c50472148ec41592fc63e5b5237f57710c4831502e47e43deac3ff450b8df4901d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-hausarbeit-jura-doc-de \

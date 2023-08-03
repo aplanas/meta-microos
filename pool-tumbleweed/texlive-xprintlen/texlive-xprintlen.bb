@@ -5,10 +5,10 @@ TeX. The package requires that a reasonably up to date version \
 of the fp package be installed on you system."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn35928"
+PV = "2023.209.1.0svn35928"
 
-RPM_NAME = "texlive-xprintlen-2023.201.1.0svn35928-52.2.noarch.rpm"
-RPM_HASH = "b80225d4a1ddea2b4b190d54b6a938cf299ebfed0fcb94e2a1228c0c591465722efe1fa9490b0bc330c2acec7fae4b0dc0494254177d8aa32bee28f6a9a95bd5"
+RPM_NAME = "texlive-xprintlen-2023.209.1.0svn35928-53.1.noarch.rpm"
+RPM_HASH = "d4261de7419768339f803310a36857f756971f9831301297f69c3d45574cd2f77de79b45cc1b67d48c8dd1be0547551b08733411a73d26dea5b0257c622f104f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xprintlen.sty \

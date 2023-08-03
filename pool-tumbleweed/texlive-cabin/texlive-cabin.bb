@@ -11,10 +11,10 @@ is provided to enable Cabin as the default text font. The \
 fontaxes package is required for use with [pdf]LaTeX."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn65358"
+PV = "2023.209.svn65358"
 
-RPM_NAME = "texlive-cabin-2023.201.svn65358-52.1.noarch.rpm"
-RPM_HASH = "a366b8119e7cf932ceb3510dfc09bf7c1e314c29b15f4eabb190cbd0af4ab07e856d172ab724b5db8f0d2d3fe1855aa382f587b84f18fc458becffebef84f1b1"
+RPM_NAME = "texlive-cabin-2023.209.svn65358-53.1.noarch.rpm"
+RPM_HASH = "b9ce10d68fd0d0f072d2b6cebe83de843b97b324ded20ba74a1af392ffe15cc95b455ddb2741b746792ef8be4a95199444f456cb53473a1f46dd424898d223ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Cabin-Bold-sup-ly1--base.tfm \

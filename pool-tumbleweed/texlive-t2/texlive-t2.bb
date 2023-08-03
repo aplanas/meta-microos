@@ -8,10 +8,10 @@ support for Cyrillic in Makeindex; and various items of font \
 support."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn47870"
+PV = "2023.209.svn47870"
 
-RPM_NAME = "texlive-t2-2023.201.svn47870-57.1.noarch.rpm"
-RPM_HASH = "724f13b13f66674859c0c1a6ea57eed2cacf52695c97e4816f755969163eeeea230f65fcd0bc9f0426e796408906330bd9b7c98678108fe4d7be8f32840a08e6"
+RPM_NAME = "texlive-t2-2023.209.svn47870-58.1.noarch.rpm"
+RPM_HASH = "271b44bc679addb16311e24bd53107a357237270b087d5e94cc5ec4e22f1bc1b72103c2faddb24448bbecb6b8763e213126a05cea3fb48c6cfec16ac0abd4444"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-alias-cmc.tex \

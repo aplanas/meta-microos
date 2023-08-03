@@ -3,10 +3,10 @@ DESCRIPTION = "This package realigns the horizontal spacing of the alignments \
 in some mathematical environments."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.204.1.1svn44131"
+PV = "2023.209.1.1svn44131"
 
-RPM_NAME = "texlive-correctmathalign-2023.204.1.1svn44131-54.1.noarch.rpm"
-RPM_HASH = "644b92afa96abaca74fbb50d21c4f80a99832b34825d50124843489098325bb75442204b444848a6192203582821d2cfe5e4c92a5b957482d99ad105d75e7188"
+RPM_NAME = "texlive-correctmathalign-2023.209.1.1svn44131-55.1.noarch.rpm"
+RPM_HASH = "1c2c6e80230f086518b1f05d53c45ebf53269f36c5f312df173dff0bafdc4b7c72798d0f27751b6e8010de4994493150a0be3c44d086cf187263994520d0e2c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-correctmathalign.sty \

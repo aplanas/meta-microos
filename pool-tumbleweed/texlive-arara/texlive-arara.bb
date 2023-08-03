@@ -6,10 +6,10 @@ than relying on indirect resources, such as log file analysis. \
 Arara requires a Java virtual machine."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.7.0.4svn63760"
+PV = "2023.209.7.0.4svn63760"
 
-RPM_NAME = "texlive-arara-2023.201.7.0.4svn63760-54.1.noarch.rpm"
-RPM_HASH = "d2abe872eabe20d14ca7ebf05352f9e91afa347acb84643b71adea8a7009b51b208c16740130217c656ff1f15cd70f8b09777d7c0d1d757eb9898a69e498359f"
+RPM_NAME = "texlive-arara-2023.209.7.0.4svn63760-55.1.noarch.rpm"
+RPM_HASH = "9a599d2d476530cb82e5f0da8f48255a2e6ff7ca1709322e19b1e620dedd46971904caf72568ed1ce15763051196dbb2245d39939d9213fae7900f783f5ee246"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-arara.jar \

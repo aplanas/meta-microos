@@ -5,10 +5,10 @@ Matematicas e de Computacao' of the 'Universidade de Sao Paulo' \
 (USP), in the city of Sao Carlos-SP, Brazil."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn49740"
+PV = "2023.209.2.0svn49740"
 
-RPM_NAME = "texlive-timbreicmc-2023.201.2.0svn49740-52.1.noarch.rpm"
-RPM_HASH = "2b145bda7468cd9dcaafbd82da7b69ebf1ac171f4a6125d5c4d74db987c888f9d6c1e5b354109e7023602befeb05f3e7362fc8cf55ff3091fe09472cd34e752d"
+RPM_NAME = "texlive-timbreicmc-2023.209.2.0svn49740-53.1.noarch.rpm"
+RPM_HASH = "9e19575cc45978695b1e16fc30bf24bc9951e290727c5cc1dee0bcf166a4a875ee869b669e954a3371a7032ad29b4d481e4d2a67ef508fc1f2b85414e6b95270"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-timbreicmc.sty \

@@ -5,10 +5,10 @@ support of the font is provided in the calligra package in the \
 fundus bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-calligra-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "1e1f833f93a3acd5da801d61f5718a4deffe73dd670fd0e28bcd8d67cbedaf6cbd7795826fe9f88186a1c1f336ce453a9eec6c1d4bb7b12a2a4bfa7f139de900"
+RPM_NAME = "texlive-calligra-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "d6c6a97b0dd2f819f85f36ca2b53d755b6830bb573acd3cfc2dd7d757e0e69a313280e3593eddb25d34f0771ffd5f982d1e92222c064b4e0b0464e5a2ac26eef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-callig15.tfm \

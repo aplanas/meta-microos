@@ -2,10 +2,10 @@ SUMMARY = "Chromaprint plugin for GStreamer"
 DESCRIPTION = "Add chromaprint (Audio Fingerprinting) support to any GStreamer based tool."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "gstreamer-plugins-bad-chromaprint-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "d83b03e9505a66118525009e5439b3105c066d8568bb16fc523c09338d2ffe1eb318aeba9cb5cab8d716f7c58dbc3b375f02e56ca5206d08a7dbf0c20624245d"
+RPM_NAME = "gstreamer-plugins-bad-chromaprint-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "7c7768f999630c196e2501d5478609e63ba59fdb2a9a9d0099bfb6516ec36e9919b6949713eacc44968bae9368354944a6e50a98ba56eb1e1ae8feb3d595e047"
 
 RPROVIDES:${PN} += "gstreamer-plugins-bad-chromaprint \
 gstreamer1 \

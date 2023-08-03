@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-niceframe-type1"
 DESCRIPTION = "The  separated fonts package for texlive-niceframe-type1"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn44671"
+PV = "2023.209.svn44671"
 
-RPM_NAME = "texlive-niceframe-type1-fonts-2023.201.svn44671-54.1.noarch.rpm"
-RPM_HASH = "a90c75f92fd5adcc86d1b70216de185b5533cc50c0d292e1460431adf5fefe52dc678a54e1e7fa4af3a10f34382589a4ab89039f14f4c9b173d3e0f2bf9ae0df"
+RPM_NAME = "texlive-niceframe-type1-fonts-2023.209.svn44671-55.1.noarch.rpm"
+RPM_HASH = "cf8dcc755fb5b72af41e6cf58a77e101cc5cbc528728a70bd4f9c47a16fa72cfb390b620f6f0db215f490ae086aa3371de1d88cbc3bdde7005dd44ee3f85cfb3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=fj \

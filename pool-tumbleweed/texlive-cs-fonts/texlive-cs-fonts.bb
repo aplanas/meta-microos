@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-cs"
 DESCRIPTION = "The  separated fonts package for texlive-cs"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn41553"
+PV = "2023.209.svn41553"
 
-RPM_NAME = "texlive-cs-fonts-2023.204.svn41553-54.1.noarch.rpm"
-RPM_HASH = "5542a1a37eeca6946db9b6c8fbdf798f65be7e79ce43b02fc577272f6adb28cda839de543ddf5597e046ef6d38795741b6d21847ed3170bda6f114479e2a28c1"
+RPM_NAME = "texlive-cs-fonts-2023.209.svn41553-55.1.noarch.rpm"
+RPM_HASH = "3b88931b6401f1414a13b3ad05e7b46b184d46423efec205ed431e4b6347f0a2b00ed5f7967501b2dd374e2828d32bbbc491db37b36b7537387e1f54e4b77c8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=cs \

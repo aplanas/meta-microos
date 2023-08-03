@@ -7,10 +7,10 @@ you run it without an input file). For an extensive description \
 see the file mkpicdoc.pdf, which is part of the distribution."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.02svn33700"
+PV = "2023.209.1.02svn33700"
 
-RPM_NAME = "texlive-mkpic-2023.201.1.02svn33700-54.1.noarch.rpm"
-RPM_HASH = "c6eb0f429bff29b3065e6ad4287eee08c7b277d85eb408729f83e199875b2d022b0a2089eb8177f4792bf5106b85aa3dd2a67a1a40f9ee304620e02aae7cdb46"
+RPM_NAME = "texlive-mkpic-2023.209.1.02svn33700-55.1.noarch.rpm"
+RPM_HASH = "b0370908f1e6682d8aef603b61404bd3d1f9f5ce63127e59455e35434bb7cbc1f25131cb17c83dd2d356a97760a1a6290f242bacd0d2cd5b3fc0d37a9b101f85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mkpic"

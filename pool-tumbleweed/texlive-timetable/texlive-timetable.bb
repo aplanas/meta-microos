@@ -4,10 +4,10 @@ input. The macros use a radix sort mechanism so that the order \
 of input is not critical."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-timetable-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "4d728ab72d2d7ca2cca875701aedb43ed0b13688a2bf02e0a941cb9a5ebe533fc983fe331be3216360e3ebb7aed25fcc1b8df9413a909ac45b72303de0a6cbfb"
+RPM_NAME = "texlive-timetable-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "4c94e28f69c6d9f46fe61f9987b8481fd8d2d83f0c34b932bad9f2598e716b888e5cf8f67c5ff22e6625c7fed4bc82093cc6a12c43209cc702d52de68f716ebb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-timetable.tex \

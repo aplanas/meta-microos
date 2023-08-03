@@ -9,10 +9,10 @@ color, autopict (a package instance of the LaTeX picture code), \
 psfrag, and url."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.3.13svn64721"
+PV = "2023.209.3.13svn64721"
 
-RPM_NAME = "texlive-eplain-2023.201.3.13svn64721-53.2.noarch.rpm"
-RPM_HASH = "99f340e95fa0924656fbe62b87d1ac0041d83a1af045cf06db2d7495e82b391bbe607e55cf366e0449d08ab1dfbf9ca3dde7263af3edf0e0413c77f9b52d84b5"
+RPM_NAME = "texlive-eplain-2023.209.3.13svn64721-54.1.noarch.rpm"
+RPM_HASH = "745f03e9613a80acef83a29895daa6b3b6bd4705b5890489ee8cbbd072918ab4c66a1ab5fe73f5d38230b10182d1fa8e253fcde73ca8f8f39dc08ea723a0d29b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-arrow.tex \

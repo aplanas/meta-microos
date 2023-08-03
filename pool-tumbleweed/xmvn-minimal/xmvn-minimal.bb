@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.2.0"
 
-RPM_NAME = "xmvn-minimal-4.2.0-2.2.aarch64.rpm"
-RPM_HASH = "e740680999405d68499600c1ec643524d25ddc612ae968e57db2bcf895db37f1af3f711c27bd9197fc507bbe5e4152d8bbe374ea9b6f8985020607264ad98a03"
+RPM_NAME = "xmvn-minimal-4.2.0-3.1.aarch64.rpm"
+RPM_HASH = "2233f5f0d68a5f63802cc38f9c91de6b7feb2c63426205df20cd2e93cc83c955d892fe59f0cb3be02a3123b00f373ef71ad88ea8bc658cd3cc7b9054d7bd36b0"
 
 RPROVIDES:${PN} += "libjansi.so \
 xmvn-minimal"

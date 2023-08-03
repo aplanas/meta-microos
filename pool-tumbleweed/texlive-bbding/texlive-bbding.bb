@@ -5,10 +5,10 @@ NFSS interface for using the font. An Adobe Type 1 version of \
 the fonts is available in the niceframe fonts bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.01svn17186"
+PV = "2023.209.1.01svn17186"
 
-RPM_NAME = "texlive-bbding-2023.201.1.01svn17186-53.1.noarch.rpm"
-RPM_HASH = "1e22e4e9eeff4df60b26a95d8f83d6e821910921495a15113090ec77e31b5d150568edf4c3ed129f9c29bbbdf44988bf279877a8d4849344eb506e65ceb387c5"
+RPM_NAME = "texlive-bbding-2023.209.1.01svn17186-54.1.noarch.rpm"
+RPM_HASH = "17f17830dd7c3bbfa0e309d70b2b282701c9641fabb4649ff9613edac7ac4de07eaeaf9e86c198ce8b787606ea2186fdbc8af7769512f5464b2bcb4e6a0cafda"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Uding.fd \

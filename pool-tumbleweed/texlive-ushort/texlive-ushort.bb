@@ -5,10 +5,10 @@ provides a generic command for creating underlines of various \
 sizes and types."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.2svn32261"
+PV = "2023.209.2.2svn32261"
 
-RPM_NAME = "texlive-ushort-2023.201.2.2svn32261-53.1.noarch.rpm"
-RPM_HASH = "f4358040c4f20d01e3af17181172b868476590c16a618c802f36f6abe0c1150a725f0d1177d20a8e67132431e98c207e29a8b46ffbe2d17daa6e430128825a91"
+RPM_NAME = "texlive-ushort-2023.209.2.2svn32261-54.1.noarch.rpm"
+RPM_HASH = "d3596cdd0657efbadf48238dcc5724a55c16f81cba7dc5f9733e6bd3809eb45cc7a150866f36aee1f536b2be7be7b512e0772721ae4cb5736186ef00bb272807"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ushort.sty \

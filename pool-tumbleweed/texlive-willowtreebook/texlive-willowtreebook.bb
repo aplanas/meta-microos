@@ -5,10 +5,10 @@ Benjamin McKay. It actually just selects options for the more \
 sophisticated memoir class."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.03svn60638"
+PV = "2023.209.1.03svn60638"
 
-RPM_NAME = "texlive-willowtreebook-2023.201.1.03svn60638-53.1.noarch.rpm"
-RPM_HASH = "138a39df55e4bae21d7e59d129172ae700781e481746ece3603bdd04d77e175924ca2b2f493910b4267c822642297ec720f60e17583f293fb7d8e11d5ed82fe9"
+RPM_NAME = "texlive-willowtreebook-2023.209.1.03svn60638-54.1.noarch.rpm"
+RPM_HASH = "7adfdccf1967556e41d8b7b0ecc56dfe996ed5c2607b5070e098bb2dd36a16a1c26dd30b461aea5e6d299bd5273c34cfd59663a3aa098616c0dc9474bbf06d41"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-willowtreebook.cls \

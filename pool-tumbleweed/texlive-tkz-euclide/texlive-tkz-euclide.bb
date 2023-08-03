@@ -4,10 +4,10 @@ teachers and students easy access to the programming of \
 Euclidean geometry with TikZ."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.5.02csvn65724"
+PV = "2023.209.5.02csvn65724"
 
-RPM_NAME = "texlive-tkz-euclide-2023.201.5.02csvn65724-52.1.noarch.rpm"
-RPM_HASH = "73eb3016541c2130eb14cc22c5eead26baccde2ecbddabc491b320c65343900353981f01ae5c9cf231e0b5ca2a67a2ef220abd13f4fe8eeeed8f8b59bf981ba5"
+RPM_NAME = "texlive-tkz-euclide-2023.209.5.02csvn65724-53.1.noarch.rpm"
+RPM_HASH = "bed0b5c8f908f23d3630cdc54d072d78eab52073a1b81e2e02f105069376bba729911afa1ed4b6007d6e38591d27cffb115fccfddfef1241b2a92441b98a7d98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tkz-draw-eu-angles.tex \

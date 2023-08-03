@@ -6,10 +6,10 @@ the results shown in the diagrams, even if they don't \
 understand German."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn32954"
+PV = "2023.209.0.0.1svn32954"
 
-RPM_NAME = "texlive-voss-mathcol-2023.201.0.0.1svn32954-53.1.noarch.rpm"
-RPM_HASH = "5f1564276ab20c0071463a339444db226cfdf22e1061728c174aa7dfc3e4e1cc60612a1453f16d137beef54f3a0c346d08a684a55946581b5c543440392a2422"
+RPM_NAME = "texlive-voss-mathcol-2023.209.0.0.1svn32954-54.1.noarch.rpm"
+RPM_HASH = "119063e4f60503c8c9870319b47fb7f08a0273c10382f75a59559711cba47edb670516eac3303396757c94fcba028c2de5f88bdb0f7619d0cb32e92787eaf1aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-voss-mathcol"

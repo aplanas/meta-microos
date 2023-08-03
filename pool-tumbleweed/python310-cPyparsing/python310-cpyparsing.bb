@@ -2,10 +2,10 @@ SUMMARY = "Cython implementation of PyParsing"
 DESCRIPTION = "Cython implementation of PyParsing created for use in Coconut and Undebt."
 LICENSE = "Apache-2.0"
 
-PV = "2.4.7.1.2.1"
+PV = "2.4.7.2.1.2"
 
-RPM_NAME = "python310-cPyparsing-2.4.7.1.2.1-1.3.aarch64.rpm"
-RPM_HASH = "79cb1d008747e7e4caddb951663763e556dddcb7c5a8a07370420134cfd525bd6ae71cc449558033cdc336d987b568028b2cd3c7f2e780510d706bd0ca65f662"
+RPM_NAME = "python310-cPyparsing-2.4.7.2.1.2-1.1.aarch64.rpm"
+RPM_HASH = "ca885bfeee62ee3a591d0124be49660e6e4ef7d0c4af31d852c1771851a764467e7c6fcd30df93ccc15018051011d30ff429c5d242d3fe60777e8d8cbcadc6aa"
 
 RPROVIDES:${PN} += "python3.10dist-cpyparsing \
 python310-cPyparsing \

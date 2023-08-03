@@ -5,10 +5,10 @@ that are generally useful to multiple COIN-OR projects. \
 This package contains the development headers for coin-or-CoinUtils."
 LICENSE = "EPL-2.0"
 
-PV = "2.11.6"
+PV = "2.11.9"
 
-RPM_NAME = "coin-or-CoinUtils-devel-2.11.6-1.4.aarch64.rpm"
-RPM_HASH = "c212435e708226ba5e1613fb7b2b52be2bb70d6684955174fbb34863b54784c7ce7bf03c953ef5a1e246b0eb79f8407f26689796295b10fd527898e8bea11e56"
+RPM_NAME = "coin-or-CoinUtils-devel-2.11.9-1.1.aarch64.rpm"
+RPM_HASH = "15bcb3afce0034d418b9dabcc5bdc958569d224fa88d97ed80ef40a2824bdc80b3c44bc054b63d19f7caf7a3ae755df9113d780f0de16495d95393d61423ddc4"
 
 RPROVIDES:${PN} += "coin-or-CoinUtils-devel \
 pkgconfig-coinutils"

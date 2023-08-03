@@ -3,10 +3,10 @@ DESCRIPTION = "Header and library definition files for developing applications \
 that use the lensfun library/database."
 LICENSE = "CC-BY-SA-3.0 & LGPL-3.0-only"
 
-PV = "0.3.3"
+PV = "0.3.4"
 
-RPM_NAME = "lensfun-devel-0.3.3-1.8.aarch64.rpm"
-RPM_HASH = "03331282bed678e35363088bb094ab3e3f7431925bcff14ec76e354d7a5e854ff41abe46402c4ffd12f1292885cf9403e6db3a99d3d0f023b6ae17fd492652b6"
+RPM_NAME = "lensfun-devel-0.3.4-1.1.aarch64.rpm"
+RPM_HASH = "8ccad46e72cec0189aaac6f78d7b6acbb276474bf450b6adaafa85575ead444b30b3c17cc06b0f160a6faba8bae0a439e3908854b63f6f6bd092b4d200e9a864"
 
 RPROVIDES:${PN} += "lensfun-devel \
 pkgconfig-lensfun"

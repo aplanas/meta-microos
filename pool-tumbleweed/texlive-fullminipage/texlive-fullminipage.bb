@@ -5,10 +5,10 @@ style empty. The environment provides options to set margins \
 around the minipage and configure the background."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.1.1svn34545"
+PV = "2023.209.0.0.1.1svn34545"
 
-RPM_NAME = "texlive-fullminipage-2023.201.0.0.1.1svn34545-52.1.noarch.rpm"
-RPM_HASH = "28dd404896d789aae0d751ad1c6779434d8c4ac294e9694c866fca5bf97aafe58acca5a9febd207b1e38f63305d45c39d8dd6bb150a16ad499449ff861d4401d"
+RPM_NAME = "texlive-fullminipage-2023.209.0.0.1.1svn34545-53.1.noarch.rpm"
+RPM_HASH = "d9cc1437d065522a4bfa6cdcbb1d678592d92e80fadc3c108a51d3cd1919b862b65430e9e124d70a9d013d7658f4773c967a627c53d4766bb89b77dc4bab91b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fullminipage.sty \

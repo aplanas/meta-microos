@@ -6,10 +6,10 @@ is not to be confused with IBM's DB2 software, which is supported \
 through the ODBC functions.)"
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.7"
+PV = "8.2.8"
 
-RPM_NAME = "php8-dba-8.2.7-1.1.aarch64.rpm"
-RPM_HASH = "569919119da881ba4af8e6b1ead7715d5ac23f28223512700d6f250cdb3394261822bd609ace1baa89d727403fa045c137df4f8cf2fb02333cfe0c314f4fcd36"
+RPM_NAME = "php8-dba-8.2.8-1.1.aarch64.rpm"
+RPM_HASH = "f4f324f12957e2e0c0e5288a3ce51d1a7bf873c227af7f5a174ae9fe1a83f0043747263c013d5ddefcd2f4fec4647c4acffa900dcef0da4504a261d8fb267107"
 
 RPROVIDES:${PN} += "config-php8-dba \
 php-dba \

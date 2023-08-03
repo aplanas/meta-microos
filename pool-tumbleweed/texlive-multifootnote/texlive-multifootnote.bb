@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides several commands for generating footnotes \
 with multiple numbers (resp. marks)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn63456"
+PV = "2023.209.svn63456"
 
-RPM_NAME = "texlive-multifootnote-2023.201.svn63456-54.1.noarch.rpm"
-RPM_HASH = "e44ad511b014d65cfa0af2c914f84188435f67fa66d7f7b0aa71ba24a468148e7670105fadefefb7ad567070844c952669f7573340d246ce9df07b5046346c8f"
+RPM_NAME = "texlive-multifootnote-2023.209.svn63456-55.1.noarch.rpm"
+RPM_HASH = "d5a6613218725b9c5128fdf0434d8a6f0b077f66decccab87c6ef0bca9a331671878ea61bf35ab6c9964f8b7da01ee497578a1b4ba25f856a7f7676247fcb873"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-multifootnote.sty \

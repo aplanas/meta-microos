@@ -6,10 +6,10 @@ document validators, specification description, task \
 management, and several helping macros."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.201.20221004svn64613"
+PV = "2023.209.20221004svn64613"
 
-RPM_NAME = "texlive-upmethodology-2023.201.20221004svn64613-53.1.noarch.rpm"
-RPM_HASH = "cf79b6bdce9f11107e922d24962154037980e82aa667d029c90989425464c7d0fc390e63034faece51a803966c848280aacefb2cf883beb2c9c47129e9cc8ed6"
+RPM_NAME = "texlive-upmethodology-2023.209.20221004svn64613-54.1.noarch.rpm"
+RPM_HASH = "7be423e805977d14eff11a211fc5fadd0beb269719e4063e51bdfef549bb16684c2aa7735dc0726f8fbdadea918b41feb862e89fbe52efd3fd42129908b7a22d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-UPMVERSION.def \

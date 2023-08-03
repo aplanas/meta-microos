@@ -6,10 +6,10 @@ These abbre can be used alone or on top of the glossaries \
 package for easy indexing and glossary printing."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.3svn52450"
+PV = "2023.209.2.3svn52450"
 
-RPM_NAME = "texlive-leipzig-2023.201.2.3svn52450-54.1.noarch.rpm"
-RPM_HASH = "651d4804b38f980840141376f6e4963600d8f4e2b7f17edc7bb69e27d510ddfc7a837c01962004c060e9d9b64ccd4c97d18ada677079020685b5a24568a3d6f1"
+RPM_NAME = "texlive-leipzig-2023.209.2.3svn52450-55.1.noarch.rpm"
+RPM_HASH = "407c53787ffedc342bdd1032e585d31c2d35ce231965e0d05706c6c3d0dfd97b45d843b8b22f286c3da5f61ec629c934c92df7d4a7c88178e48b1ae49118d985"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-leipzig.sty \

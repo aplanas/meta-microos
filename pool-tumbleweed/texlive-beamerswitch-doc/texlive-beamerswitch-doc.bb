@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-beamerswitch"
 DESCRIPTION = "This package includes the documentation for texlive-beamerswitch"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.9svn64182"
+PV = "2023.209.1.9svn64182"
 
-RPM_NAME = "texlive-beamerswitch-doc-2023.201.1.9svn64182-53.1.noarch.rpm"
-RPM_HASH = "7c5eb17f89b6e8b838e9795740e494e1b19cc7d799cf7d5918eeae18333b6d35c0a077315f5f5e326a662000245dc1f4ec2427ec5b921980169e8e0badd23299"
+RPM_NAME = "texlive-beamerswitch-doc-2023.209.1.9svn64182-54.1.noarch.rpm"
+RPM_HASH = "c0f5db333d703ee61f05b171901a314ae824c6eff8415a8ee50c4eb00d56ac93a839c1b3e0335017846a0e8947c395c6cae703e86e780e1eddd372aee302074f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamerswitch-doc"

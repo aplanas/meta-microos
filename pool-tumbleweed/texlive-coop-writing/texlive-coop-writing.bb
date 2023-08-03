@@ -20,10 +20,10 @@ were inspired from different packages that do not work together \
 very well, such as ed, todonotes, and color-edits."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.1.2.4svn61607"
+PV = "2023.209.1.2.4svn61607"
 
-RPM_NAME = "texlive-coop-writing-2023.204.1.2.4svn61607-54.1.noarch.rpm"
-RPM_HASH = "f479a22da351089ab7bc19ef4678a9ec39dc8d81c6de7a90a65665c6b7f334b0565a23b6900c6971ef1f6afb5d61a0323444ad37c8ff9205512e20d9be097905"
+RPM_NAME = "texlive-coop-writing-2023.209.1.2.4svn61607-55.1.noarch.rpm"
+RPM_HASH = "3df74590ad710f2bf16169e9f5d81daaa9f393f60a7040f1e8dc16d27e299e61a59d83693b3e7fc7f3980cc088197c5005943ffa8822e83e61475fbda466572f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-coop-writing.sty \

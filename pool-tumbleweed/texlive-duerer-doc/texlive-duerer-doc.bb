@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-duerer"
 DESCRIPTION = "This package includes the documentation for texlive-duerer"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn20741"
+PV = "2023.209.svn20741"
 
-RPM_NAME = "texlive-duerer-doc-2023.201.svn20741-52.1.noarch.rpm"
-RPM_HASH = "99998395cf3942853bd5c965fcfe01de23859f6682d231707d9b157d31c8f3229d6cbdcae35a6a33ce5443ef2262ac2b6879122774d0a98eda31fc29b0f364ee"
+RPM_NAME = "texlive-duerer-doc-2023.209.svn20741-53.1.noarch.rpm"
+RPM_HASH = "78140ef08c97b344400f835665b83ae1d124498af8dfd2ad4ff35e6c73526ae499b196416939a9cdc319dabb403c5b7d0491823a9b0e6d1cc020de73dbe19680"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-duerer-doc"

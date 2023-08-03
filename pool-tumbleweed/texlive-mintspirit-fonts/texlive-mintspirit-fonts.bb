@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-mintspirit"
 DESCRIPTION = "The  separated fonts package for texlive-mintspirit"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64461"
+PV = "2023.209.svn64461"
 
-RPM_NAME = "texlive-mintspirit-fonts-2023.201.svn64461-54.1.noarch.rpm"
-RPM_HASH = "db14c030e8997f957403c497ce23a98733cfdcd68d23e3e00c307d0cdfd283b4627f02aa53900bf4f0cb6409235b448ad908952b09f05e2f86694289d88ebe11"
+RPM_NAME = "texlive-mintspirit-fonts-2023.209.svn64461-55.1.noarch.rpm"
+RPM_HASH = "c5d57efb094e44492013f486fd1ce8f19ee41ccc3ea10ddae4b68a7b13f2f41d066e49101a3908aec656ca402b9ac2823cdedee8371cde8f77790ec1d59c18b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-mintspirit-fonts \

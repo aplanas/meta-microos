@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ocr-latex"
 DESCRIPTION = "This package includes the documentation for texlive-ocr-latex"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-ocr-latex-doc-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "6773c98b84b48deb8a2d8c324e945b2db61acfc9cd0100769140f9d4ff0ce084c8f38a3dac494c0ce6733bf9dc09be748177243be8ed6f31ee449996f883f8c7"
+RPM_NAME = "texlive-ocr-latex-doc-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "f8c7c13bc17b38da3c47cbb8cfbbe9d95b219272c212efaf9e6319c4b096f4b17ff99d2d205332ae1a3c060faa82e5bda40be64131412adf271826fb0afcc7f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ocr-latex-doc"

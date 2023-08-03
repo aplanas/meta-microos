@@ -2,10 +2,10 @@ SUMMARY = "Python bindings for Qt 6"
 DESCRIPTION = "Python bindings for the Qt cross-platform application and UI framework."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-2.0-only & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "python3-pyside6-6.5.1-1.2.aarch64.rpm"
-RPM_HASH = "6e24c5833576273bd6f19af04bd56bf5857def87adf92596e4744d89edaeda738f97ac8c6b5bd2279a3d6a9b074b440fbb9a095df75f2ee9e2b4357767e62c14"
+RPM_NAME = "python3-pyside6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "d3ce221c24ba7fc067569147eb6f1819596f4c06692eba3f08cb7e5923b26614fc8df96f0793420093bd527d9becec3ca689881ff4fb4e8ff82edc358de45b3d"
 
 RPROVIDES:${PN} += "libPySidePlugin.so \
 libpyside6.abi3.so.6.5 \

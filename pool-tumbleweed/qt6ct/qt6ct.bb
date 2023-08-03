@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.8"
 
-RPM_NAME = "qt6ct-0.8-1.2.aarch64.rpm"
-RPM_HASH = "047b6a8418c26cca74250caf034396253823800a7b8353883c8d87d84da57ddb27e3d61a85346ffa8fcd7587dc51201dd67688a496aafdf2e64241e19e577fcb"
+RPM_NAME = "qt6ct-0.8-1.3.aarch64.rpm"
+RPM_HASH = "6c2bd4939d5d11d57ae85cea46821783bd690433dce248fe43e85bd7ab01189d6d21ca505e4fb71f31312a9d8be3e5d2ed798d514fd0d2818c12fbece62e113f"
 
 RPROVIDES:${PN} += "libqt6ct-common.so.0.8 \
 libqt6ct-style.so \

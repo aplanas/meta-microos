@@ -3,10 +3,10 @@ DESCRIPTION = "A class for generating disquisitions, intended to be in \
 compliance with North Dakota State University requirements."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn46639"
+PV = "2023.209.svn46639"
 
-RPM_NAME = "texlive-ndsu-thesis-2023.201.svn46639-54.1.noarch.rpm"
-RPM_HASH = "50b43ba8ead99e28f97371e80281327236b9066e3df3202088370d0344f58ddffbf71ca710b27624adfd9d1d8d27b0aea4ab699fcae1179ff80d7e2e9fbbc7bf"
+RPM_NAME = "texlive-ndsu-thesis-2023.209.svn46639-55.1.noarch.rpm"
+RPM_HASH = "bdb0cf816ebd6c4f53407b55f38752d083be5b8c3b746b54bbdb2cdddbc2145c200580514e6ab172aead363b2b9453842398515d6932b8554b486753bf85615c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ndsu-thesis.cls \

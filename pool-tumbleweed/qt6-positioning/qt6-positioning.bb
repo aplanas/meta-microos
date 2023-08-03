@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Positioning plugins and libraries"
 DESCRIPTION = "The Qt Positioning API provides positioning information via QML and C++ interfaces."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-positioning-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "249e5fa29417d753c915c87a9a1adf24e699062ccd8fbc344dd39a8c98945ef9975e116e16ca54addefd38413d0078a7ac596d86bee270e7a69a3085d47ce502"
+RPM_NAME = "qt6-positioning-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "e4b67a6eae02882f6033d74301f46b1ee4c79c3c12f33f93e3bc312a32032ecbff6edeb295c562e4bc094b848f151e34d7882a058762eab5103068fed903382d"
 
 RPROVIDES:${PN} += "libqtposition-geoclue2.so \
 libqtposition-nmea.so \

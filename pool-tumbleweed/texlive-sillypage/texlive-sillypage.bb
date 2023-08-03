@@ -4,10 +4,10 @@ walk routine as a page numbering style. Other counters, as well \
 as integers, can be typeset in this 'silly' style, too."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6svn66349"
+PV = "2023.209.1.6svn66349"
 
-RPM_NAME = "texlive-sillypage-2023.201.1.6svn66349-53.1.noarch.rpm"
-RPM_HASH = "e4dbd406ac06ce72a66ae9fb023c943dddbb5a3d3756b3c155a4e10f33edb826931b9b4bc49098d674e3a8087458ec3a4c6fba64d1aeb9b0bc28dba60d4dab7c"
+RPM_NAME = "texlive-sillypage-2023.209.1.6svn66349-54.1.noarch.rpm"
+RPM_HASH = "7738556c93d19197d223ddbbaaf76d60dc2c173975fbaed3123f0f77f596ec115f02005a5afa59f4960eaf5294a64a8f0be4570a1d0f811dd243687875f5d843"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sillypage.sty \

@@ -8,10 +8,10 @@ vftovp takes a VF file and a TFM file and generates a VPL file. \
 The programs are to be found in every distribution of TeX."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.201.svn66186"
+PV = "2023.209.svn66186"
 
-RPM_NAME = "texlive-fontware-2023.201.svn66186-52.1.noarch.rpm"
-RPM_HASH = "edbb8ba593c5bb3e286cdc17ffa874debfe95a6ca811ee9919f1c0fbad00500abef54b97a26f4928eb8065e79c1c93280ed655700ba9fd08f78561598833fb36"
+RPM_NAME = "texlive-fontware-2023.209.svn66186-53.1.noarch.rpm"
+RPM_HASH = "3bca63ed5c9561d5bd38070400d41bc564e578ff2eaf048a059641921a08aff03feda2bcf43e2e33bf4aec550a3c04f0cc91eefd35ff74a269de26054470d69f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-pltotf.1 \

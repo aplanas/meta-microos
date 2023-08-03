@@ -4,10 +4,10 @@ from a single file by toggling a switch. However, it can only \
 be used to create documents to be printed on paper."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn63852"
+PV = "2023.209.1.1svn63852"
 
-RPM_NAME = "texlive-hideanswer-2023.201.1.1svn63852-53.2.noarch.rpm"
-RPM_HASH = "0cf460861a1374ca2d431265a72f7f1cfaf137fcf25ff27f136db26157d896747203e55e36766ed79054055895c9c74182c5a68c9c07be07aeb2ad434578c7c3"
+RPM_NAME = "texlive-hideanswer-2023.209.1.1svn63852-54.1.noarch.rpm"
+RPM_HASH = "544f93b57b48980d469983d832c5e0389ae5aa5f836d7d41cd0cc5545faf14eefba562df31797b3f677614eaa16a97a66b3854e4343166771f892330a351c648"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hideanswer.sty \

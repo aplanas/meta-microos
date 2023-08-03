@@ -9,10 +9,10 @@ TeX-Gyre-Schola) and TeX-Gyre-Math-Termes (to match \
 TeX-Gyre-Termes) fonts are provided."
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.201.svn41264"
+PV = "2023.209.svn41264"
 
-RPM_NAME = "texlive-tex-gyre-math-2023.201.svn41264-54.1.noarch.rpm"
-RPM_HASH = "892d2be1913d44a28cd56a96f8fc92e33bc4cd8083a88b2f783dab421f8eaf5c14f1ab05043727fea56a12f50599b286dbe07bd8fe6f64c40019caa5d4bf161e"
+RPM_NAME = "texlive-tex-gyre-math-2023.209.svn41264-55.1.noarch.rpm"
+RPM_HASH = "8af18993d3a0a4ea9c6e3086bb9d9c54362a70cc1f712684e5a66dc3b77cd92c2ec9621994f8c03f19ab3140b6fe22df5449cde5444a8c0d622cf334c379f6a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tex-gyre-math"

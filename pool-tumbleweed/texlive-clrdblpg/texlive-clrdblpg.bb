@@ -7,10 +7,10 @@ documentation, with some better indentation and added \
 flexibility."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn47511"
+PV = "2023.209.1.0svn47511"
 
-RPM_NAME = "texlive-clrdblpg-2023.201.1.0svn47511-53.1.noarch.rpm"
-RPM_HASH = "521dbd70652cfb9a61f4f19b66e9488c56f63765a7d4ae1d1a40b1fff599bb2a48c7c86c1c58377271b44fbd5519c5dfb35920f35e5ec332a608739d0c2ce550"
+RPM_NAME = "texlive-clrdblpg-2023.209.1.0svn47511-54.1.noarch.rpm"
+RPM_HASH = "8136675866ea9dacbe48cb13c8230f4f2d1bdd3f2f9316f83f4015c8a3be65c9cf0f9c5f72454875fbd27a0bb79b4b0915bbd4ec2e8efb0832fb543743609210"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-clrdblpg.sty \

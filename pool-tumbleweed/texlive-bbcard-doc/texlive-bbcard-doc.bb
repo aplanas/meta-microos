@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bbcard"
 DESCRIPTION = "This package includes the documentation for texlive-bbcard"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn19440"
+PV = "2023.209.svn19440"
 
-RPM_NAME = "texlive-bbcard-doc-2023.201.svn19440-53.1.noarch.rpm"
-RPM_HASH = "1fe7e3915fb33acbe4b3e27a181237ff7e783b76aa37016a8e4f77cbb4d4003e2a2c1e43bd0592ee8bd1eca4ed9630f8cbdf678a30f978a2d338e22b8ea967d8"
+RPM_NAME = "texlive-bbcard-doc-2023.209.svn19440-54.1.noarch.rpm"
+RPM_HASH = "84db8e11273e0cc163cf8510f57d28d3c99a776a89ff9942d2b08d870b8b0e681ffc0917a22980a2afac8f8bd3791580a9788aaf65f7224e089a33db42eefe0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bbcard-doc"

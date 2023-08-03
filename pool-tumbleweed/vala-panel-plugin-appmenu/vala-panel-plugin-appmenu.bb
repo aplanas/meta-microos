@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.7.6"
 
-RPM_NAME = "vala-panel-plugin-appmenu-0.7.6-1.6.aarch64.rpm"
-RPM_HASH = "e881897ddbe989330f5a87e97e67bb76dea0648cf1e3695b9ad27fb58fae68bdd567c23e07bf4ab3dd2ee7e5b280571ec47cc22add4bbadf3072389f26aa934d"
+RPM_NAME = "vala-panel-plugin-appmenu-0.7.6-2.1.aarch64.rpm"
+RPM_HASH = "61e5e3748760af5069356623e6e4ad699f4eb34e7d5a4e91728e52a13d0d08d17d8f24f2e7225040eeaee397b4618fd733cac9ea4090478cbf0a29f818f6afd0"
 
 RPROVIDES:${PN} += "libappmenu.so \
 vala-panel-appmenu \

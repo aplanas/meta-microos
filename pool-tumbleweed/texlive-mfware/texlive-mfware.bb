@@ -3,10 +3,10 @@ DESCRIPTION = "A collection of programs (as web source) for processing the \
 output of Metafont."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn66186"
+PV = "2023.209.svn66186"
 
-RPM_NAME = "texlive-mfware-2023.201.svn66186-54.1.noarch.rpm"
-RPM_HASH = "07c1d85b09aa5f88c70c2eaef5ab8d7446012dc9f7350311c911805fdeca76cd0d3f9be739df9b63fcb9dfd137871198fa8463c3b055b36f1e66116aa3ef7fd7"
+RPM_NAME = "texlive-mfware-2023.209.svn66186-55.1.noarch.rpm"
+RPM_HASH = "ae9c5c10bc3800373b956ce57f2f97c8d9bdfff81362e134ad0fa79bad44e2fa17c64ee6fafbc1d978deb1a5c504e2cb4836e6e11bf39267717b9b11e5a88d0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mfware"

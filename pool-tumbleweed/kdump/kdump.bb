@@ -16,10 +16,10 @@ These packages are not needed to create the dump and can be installed \
 after a crash dump has occured."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.9.3"
+PV = "1.9.5"
 
-RPM_NAME = "kdump-1.9.3-1.1.aarch64.rpm"
-RPM_HASH = "6b4c439dfa4eea9461a1a67aa56dcb87a675aaa5c2a3dcbe1714de7471790087f2b2012c1fb35876efeb239b4524e40010b01c92ec8ea49754626e82da91b4be"
+RPM_NAME = "kdump-1.9.5-1.1.aarch64.rpm"
+RPM_HASH = "bb2c9e30d349e6d484b9123e3b9a3113f121dedcd7fecae6b08b4af39335ae3eadd4f4b2d691fc9906a7dc51d908be0150cc03f5e6dca4f93012a935c8262347"
 
 RPROVIDES:${PN} += "kdump \
 kexec-tools-/etc/init.d/kdump"

@@ -8,10 +8,10 @@ installed. Also, you must run pdflatex with the --shell-escape \
 option, in order to allow LaTeX to run qpdf."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5.1svn65150"
+PV = "2023.209.0.0.5.1svn65150"
 
-RPM_NAME = "texlive-kdpcover-2023.201.0.0.5.1svn65150-55.1.noarch.rpm"
-RPM_HASH = "5a4d7e9477aa10fcc94f295bad6c92d3d772bea8ed75ed6e2cb5bf3196781dcd98af66f5ec6f0939f20c8ea43d73a07778c17579840eef46e91c9135b18235d8"
+RPM_NAME = "texlive-kdpcover-2023.209.0.0.5.1svn65150-56.1.noarch.rpm"
+RPM_HASH = "f51aadc72cc0f2e8fed45a4ab9498a0290a93381de38aaa3be311fb5da4ae703d35617560929c6b9c346aab2694ddc0f44bb572e14c70c78cf8dd53868b86dd6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-kdpcover.cls \

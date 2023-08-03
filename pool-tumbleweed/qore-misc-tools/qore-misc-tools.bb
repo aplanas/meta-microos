@@ -4,10 +4,10 @@ DESCRIPTION = "This package contains tool for working with: \
  - SQL Databases"
 LICENSE = "GPL-2.0-or-later | LGPL-2.0-or-later | MIT"
 
-PV = "1.13.0"
+PV = "1.16.1"
 
-RPM_NAME = "qore-misc-tools-1.13.0-1.6.noarch.rpm"
-RPM_HASH = "999090079ab1f2e70fe274aeb8f87a3a7ac6363bbbfd780b74c7c97def2fd626fc52492a3ad4508c531cf4a56baaed6aeb768a79f8db62e8517901892c4ce327"
+RPM_NAME = "qore-misc-tools-1.16.1-1.1.noarch.rpm"
+RPM_HASH = "d4cbc2bb07adcd33854dc01e6648ee605adfa6965b7cf11aad37b09ab11c30b1b0bcaf4dfa599008aeda789ad619317f4e27a8dea334c747ac2db91fed0cdb07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qore-misc-tools"

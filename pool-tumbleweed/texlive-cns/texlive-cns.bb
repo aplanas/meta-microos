@@ -4,10 +4,10 @@ and Korean with LaTeX2e. The package aims to supersede HLaTeX \
 fonts bundle."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.4.2.0svn45677"
+PV = "2023.209.4.2.0svn45677"
 
-RPM_NAME = "texlive-cns-2023.201.4.2.0svn45677-53.1.noarch.rpm"
-RPM_HASH = "80c4af55692ae7539ad86861fe75039d0321416acbc82c87cc130a9126d2a6473781a72d38b3d2879aee696652fae3977e9b54a2a12a38dd99ce3d02ed73f022"
+RPM_NAME = "texlive-cns-2023.209.4.2.0svn45677-54.1.noarch.rpm"
+RPM_HASH = "cf75ad43dd2a3ec012bf9f60be4b2f5ef9c34f0a4b32b338f57576dacc232c11ef2634d79b0d40e59a7ecec0ebd6074f4429416647ab6475ca9bbd6621a92b69"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-c0so1201.tfm \

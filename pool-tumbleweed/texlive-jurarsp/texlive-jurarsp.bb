@@ -5,10 +5,10 @@ official documents. For this purpose, a special BibTeX-style is \
 provided."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.52svn15878"
+PV = "2023.209.0.0.52svn15878"
 
-RPM_NAME = "texlive-jurarsp-2023.201.0.0.52svn15878-55.1.noarch.rpm"
-RPM_HASH = "07a6f4d40f813a88cea849f44912195b47a9f569bd040f664f399e3ef8a274bcb4f0ddc5d1254a7f2880efc8f580eb249333d4a88f1abb77efc98668a2040444"
+RPM_NAME = "texlive-jurarsp-2023.209.0.0.52svn15878-56.1.noarch.rpm"
+RPM_HASH = "26ed3d2b29ed3649cd92a3b4f8e8be9198a4df425fd0f1d8c9e0f271ab0d8eded9d2645dcc301bb42e29e5b0d263fa34b13a1621d9e184888ddf6bc74ecdf48b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jurarsp.cfg \

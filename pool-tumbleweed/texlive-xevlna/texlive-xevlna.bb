@@ -9,10 +9,10 @@ cannot reliably be recognised.) The package works both with \
 (Plain) XeTeX and with XeLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn43864"
+PV = "2023.209.1.1svn43864"
 
-RPM_NAME = "texlive-xevlna-2023.201.1.1svn43864-52.2.noarch.rpm"
-RPM_HASH = "c8bb972b9e047556a11f633afc0ef1fdd4d5171d74bfeebac06d4563d5e0b1c6e37a21f749f74bc7a64cbaa0591ec3ecaf8c37a990fec924d6ca85012c199265"
+RPM_NAME = "texlive-xevlna-2023.209.1.1svn43864-53.1.noarch.rpm"
+RPM_HASH = "d68cf841c29058d0715a62ca7841306884bd24e397aadd134c3687dd13391daca9c8b12a5d349607815b89435e931f8ab16f055fa98b968b3f545e347e4698ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xevlna.sty \

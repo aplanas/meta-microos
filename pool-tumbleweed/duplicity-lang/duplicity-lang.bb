@@ -2,10 +2,10 @@ SUMMARY = "Translations for package duplicity"
 DESCRIPTION = "Provides translations for the 'duplicity' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.2.2"
+PV = "1.2.3"
 
-RPM_NAME = "duplicity-lang-1.2.2-1.3.noarch.rpm"
-RPM_HASH = "c3b9a46c9b755bfc98a668f17855091087048d8a621ba085bd12b55202d47fe428809051b6f49623f85b46b4a9f960899eed5fc3b4f141537d232fc326f98113"
+RPM_NAME = "duplicity-lang-1.2.3-1.1.noarch.rpm"
+RPM_HASH = "4550f991904a35c65bac4f28a819fadc949025bf7c561890f2ccb6d601a70e63f5226388b67de4c752ea7ef9f29126f4874dd47d39fa0abf9593647d7d27476c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "duplicity-lang \

@@ -3,10 +3,10 @@ DESCRIPTION = "BibLaTeX-unified is an opinionated BibLaTeX implementation of \
 the Unified Stylesheet for Linguistics Journals"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.20svn64975"
+PV = "2023.209.1.20svn64975"
 
-RPM_NAME = "texlive-biblatex-unified-2023.201.1.20svn64975-53.1.noarch.rpm"
-RPM_HASH = "d0514fbfa976a3b5c7b7f802a922b641be781875b436068489298baf9236ba1a18444b5390a4fd5aed82ab9a778d0e45c586f67e5321ac713b5eb66fc0cd28b5"
+RPM_NAME = "texlive-biblatex-unified-2023.209.1.20svn64975-54.1.noarch.rpm"
+RPM_HASH = "3572e43ba23162f9bb3ac3502158260c04a50159e5a64c52904c53bf53f4ca9a7f3c3afdc16dd0f45e4503b027b8d3fa3fcbbd5e951211610431a45d4e868a4a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-unified.bbx \

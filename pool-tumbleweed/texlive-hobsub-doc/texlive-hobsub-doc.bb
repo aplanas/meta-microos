@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hobsub"
 DESCRIPTION = "This package includes the documentation for texlive-hobsub"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn52810"
+PV = "2023.209.svn52810"
 
-RPM_NAME = "texlive-hobsub-doc-2023.201.svn52810-53.2.noarch.rpm"
-RPM_HASH = "99f026a7c8da0eb53ab3d4b7133d9bd85fe4116ebcb65a33ea876f6d745862ba633359084b90cb4c1246a14b1fbbe5c32ea254e4480ff38a949dc1fde46f7796"
+RPM_NAME = "texlive-hobsub-doc-2023.209.svn52810-54.1.noarch.rpm"
+RPM_HASH = "9d4b7af4f00db465c91583932edf80376c6a84a4c01363696fb21e1ea8857c04b7daab2bcce5dd94ca5d48c8c02e5f0bdd50de9b991590ef51d7a91758a9de15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hobsub-doc"

@@ -14,10 +14,10 @@ a document during the final stages of its production cycle from \
 unexpected side effects of routine upgrades to the TeX system."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.14svn56735"
+PV = "2023.209.2.14svn56735"
 
-RPM_NAME = "texlive-snapshot-2023.201.2.14svn56735-57.1.noarch.rpm"
-RPM_HASH = "dc2b8d5f5b0225da0504487cbf40d17dc291f8e4f541c530d8edcf066c77d90ce43e61fb4269178ab259a16cf11da752c703ebb3211ce26981edecb7e3481d99"
+RPM_NAME = "texlive-snapshot-2023.209.2.14svn56735-58.1.noarch.rpm"
+RPM_HASH = "82d31dcb0f8735ad515cc6369657d74eba786c6f668cc11e3675aa5797d8cf4d592ef65bc8aa293668873c1a051c77c7b141fb02ef7bda4ef328b641ae570897"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-snapshot.sty \

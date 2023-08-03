@@ -4,10 +4,10 @@ maintained by Adobe. The additional texglyphlist.txt is \
 maintained as part of lcdf-typetools."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54074"
+PV = "2023.209.svn54074"
 
-RPM_NAME = "texlive-glyphlist-2023.201.svn54074-53.2.noarch.rpm"
-RPM_HASH = "2bca2e89b73b9db25de56fe746c0a25bc2940e7526520334a258cb6cd4819e58ac3ac29ed51a3993941e5f23271dfa759778e5b450cc655e425ee7cd592b7a6f"
+RPM_NAME = "texlive-glyphlist-2023.209.svn54074-54.1.noarch.rpm"
+RPM_HASH = "c5aa9332bb0e7be6b89b2dcd0c14ab2e7a84b5671ff8acfa529c0526d38464cf1c781e04c69ed3fb691a43c2e36f8816863fa975ad874e8c0e7e82eeb3dbfa74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-glyphlist"

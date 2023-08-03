@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-rsfso"
 DESCRIPTION = "This package includes the documentation for texlive-rsfso"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.03svn60849"
+PV = "2023.209.1.03svn60849"
 
-RPM_NAME = "texlive-rsfso-doc-2023.201.1.03svn60849-53.1.noarch.rpm"
-RPM_HASH = "d7a68bea690bd45b428c258fbed2b224f6f9882636f7458ee62d943e9ef1c99f91ee377aba06558955657abc3b6690e154c4abaebe7cc725bf9672fecfc1c0d4"
+RPM_NAME = "texlive-rsfso-doc-2023.209.1.03svn60849-54.1.noarch.rpm"
+RPM_HASH = "9181c023e50e8ff9c091de70d0e4cff592eb949dddce402666afdd4e75ddbf61308ca2143c23efb6aa4c8c2fecddab28e09c76cd84704baa40ccc7c52246847d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-rsfso-doc"

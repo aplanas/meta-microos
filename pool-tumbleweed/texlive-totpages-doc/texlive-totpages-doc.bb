@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-totpages"
 DESCRIPTION = "This package includes the documentation for texlive-totpages"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.00svn15878"
+PV = "2023.209.2.00svn15878"
 
-RPM_NAME = "texlive-totpages-doc-2023.201.2.00svn15878-52.1.noarch.rpm"
-RPM_HASH = "d7376764f2ca03ec1ed32c01e2fb0ba1b1d03b8ff0b020facad22956d3255976f97237fccdaed885b22c078f3f2af260a680536e5486a9acda0084b49d7f53bd"
+RPM_NAME = "texlive-totpages-doc-2023.209.2.00svn15878-53.1.noarch.rpm"
+RPM_HASH = "d9fbf605005b66beb343923b776c8bf233b0af83980e41034a637cd5c1bd06a65ee8bdfe9521739e1be658ccf4d29dca831f8d8616b701f4023bdd1c4f8c58b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-totpages-doc"

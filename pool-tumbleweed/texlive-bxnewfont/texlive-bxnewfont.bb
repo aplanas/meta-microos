@@ -8,10 +8,10 @@ old \\newfont command, but are unfamiliar with the details of \
 NFSS."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2bsvn44173"
+PV = "2023.209.0.0.2bsvn44173"
 
-RPM_NAME = "texlive-bxnewfont-2023.201.0.0.2bsvn44173-52.1.noarch.rpm"
-RPM_HASH = "d2b43cfb2f139cc31b77a97a09b9e4030f3746bf53ce1d5a0c3c20cd181c0a42388c18bdc4242ad48acc73d6ba577e72e665c82e253608cd7957f4ae4df16c81"
+RPM_NAME = "texlive-bxnewfont-2023.209.0.0.2bsvn44173-53.1.noarch.rpm"
+RPM_HASH = "3e8af9c13ca32ae9b4f15954fe75a9fedf556199bf5e31db55573c51d97368e69b8b2f1341b55da49f4f3f0616ca24bf2bafc5c3ed4d0acf3b73902a1982abb6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bxnewfont.sty \

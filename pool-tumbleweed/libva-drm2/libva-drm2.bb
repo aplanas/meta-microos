@@ -5,10 +5,10 @@ The library loads a hardware dependendent driver. \
 This is the VA/DRM runtime library."
 LICENSE = "MIT"
 
-PV = "2.18.0"
+PV = "2.19.0"
 
-RPM_NAME = "libva-drm2-2.18.0-2.2.aarch64.rpm"
-RPM_HASH = "da6f7f0cd7240c8d2ded82703dd987337a916ed083f67aaa7af242e35efd5b3226966643543e10c869fd078c38fd95eb9986c33ef2e8a4b0492f34114bd4cbcf"
+RPM_NAME = "libva-drm2-2.19.0-1.1.aarch64.rpm"
+RPM_HASH = "e106c071819e38f08b68e01922848dfbfa91ff7d5d059f6fa772d46a6f628f4501ee57b0b302b024dd077261ce02e86129f7281620a3d2777b3cc32672625052"
 
 RPROVIDES:${PN} += "libva-drm.so.2 \
 libva-drm2"

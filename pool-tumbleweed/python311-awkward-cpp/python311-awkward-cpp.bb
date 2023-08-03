@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "21"
 
-RPM_NAME = "python311-awkward-cpp-21-1.1.aarch64.rpm"
-RPM_HASH = "5fbd93b95248ee36b503bf22127453d5d56251b5c92e57b752fb62fcf4c8f54ce8a8e3fa093a7beb2c6794f8ccd09f27c33d7945de1a065d1d4faa84f95865f0"
+RPM_NAME = "python311-awkward-cpp-21-2.1.aarch64.rpm"
+RPM_HASH = "f13cfd6b112518c73367349daa39da787803bda385b23d370e4257f335542c2dfbd0166320e7e61cf9fe376322c484c3a3e6c04d3ee6e6211391647afb18a06b"
 
 RPROVIDES:${PN} += "libawkward-cpu-kernels.so \
 libawkward.so \

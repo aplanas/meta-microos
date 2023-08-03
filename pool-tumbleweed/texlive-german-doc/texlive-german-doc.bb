@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-german"
 DESCRIPTION = "This package includes the documentation for texlive-german"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.5esvn42428"
+PV = "2023.209.2.5esvn42428"
 
-RPM_NAME = "texlive-german-doc-2023.201.2.5esvn42428-52.1.noarch.rpm"
-RPM_HASH = "a4a6034b9b333224b04991fc71c524043feaadf2c2d83cc1eaef3721ff7f0b20701b40ea2b89b0c00cef9b4cb9293d41fa5b6e6aee0680d98d4da98d80481b9c"
+RPM_NAME = "texlive-german-doc-2023.209.2.5esvn42428-53.1.noarch.rpm"
+RPM_HASH = "2b412017e2a11e536f5cfd5864e54bdf61b6ff210bcf16be15733c9d949e26a41c78d0a2ecb7e2d95d2d813f96490e94267ebae7cb2e7f2b1f9c224b55b7a4a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-german-doc-de \

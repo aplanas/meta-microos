@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-nomentbl"
 DESCRIPTION = "This package includes the documentation for texlive-nomentbl"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4svn16549"
+PV = "2023.209.0.0.4svn16549"
 
-RPM_NAME = "texlive-nomentbl-doc-2023.201.0.0.4svn16549-54.1.noarch.rpm"
-RPM_HASH = "91493e2e7f99bc60188a527a4a4f2b2112b23876068defce538fcdb7679d494812fad33fedec7e43cb23ebba49020f407127b8d4990f26f397f235826aee32d2"
+RPM_NAME = "texlive-nomentbl-doc-2023.209.0.0.4svn16549-55.1.noarch.rpm"
+RPM_HASH = "0e5f8ebd5e19991a1579ae046b440f8dc61ca0bfab665aaa4e3e6051c2261f248a25a5fe0a0c2f2284741447e48afcb8feda438f227ea6f79ccd924ad0f8d31f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nomentbl-doc"

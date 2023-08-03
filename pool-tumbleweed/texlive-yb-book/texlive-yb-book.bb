@@ -4,10 +4,10 @@ under the 'Y.B.' brand. You are welcome to use it too for your \
 own books."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2.0svn64586"
+PV = "2023.209.0.0.2.0svn64586"
 
-RPM_NAME = "texlive-yb-book-2023.201.0.0.2.0svn64586-52.2.noarch.rpm"
-RPM_HASH = "c9e73d625d050fbff0d79fda65c68982906e45b1d6905afd79f1c425073bc5247e07124cb3347a0bc8377e4c06e59dd4ea2b0abb010c89ca6ca82e11d9525115"
+RPM_NAME = "texlive-yb-book-2023.209.0.0.2.0svn64586-53.1.noarch.rpm"
+RPM_HASH = "e738bef2db19a66e623baacf7d89497305e52b5b5b53fb385ada94344e8cbd62ebbbec372db96df192b4631b6c2dd9f3c333a841cfe299b05c7b91395d4ab786"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-yb-book.cls \

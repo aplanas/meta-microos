@@ -4,10 +4,10 @@ of Romanian in babel. Translations to Romanian of standard \
 'LaTeX names' are provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2msvn58776"
+PV = "2023.209.1.2msvn58776"
 
-RPM_NAME = "texlive-babel-romanian-2023.201.1.2msvn58776-53.1.noarch.rpm"
-RPM_HASH = "ecb3115434580358da031acc082a5ad1cc718ac1ec871205c102d1a18c753d2ae61eb3ef2dcf1e7c08de9310c52eb32b8e9addb58e3cfc379031ce1c22f3d965"
+RPM_NAME = "texlive-babel-romanian-2023.209.1.2msvn58776-54.1.noarch.rpm"
+RPM_HASH = "5750f72a286553bd37bfab30073a47ffe661180f4212bc7dfaa8abf219a52017a652729dc51003d2483c81cdb2b68219c54ceee1163e5f57fcf2e32c9e1f2d70"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-romanian.ldf \

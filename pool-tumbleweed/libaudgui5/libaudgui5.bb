@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.3.1"
 
-RPM_NAME = "libaudgui5-4.3.1-1.1.aarch64.rpm"
-RPM_HASH = "cef6d8823c9228f84341adc34a149787d3e1e0c226b1c30ab6765d3bb8e5a7b92ed7999ed9f3e9570404cf292fbebe8b15c1806eed30604964e14298474efadd"
+RPM_NAME = "libaudgui5-4.3.1-2.1.aarch64.rpm"
+RPM_HASH = "b3cf00f7277b965cf048e29a04d984e7340964cd8b96c0c14225282a727888e9db8fa8c8cbc6f92df08d0a53b93af470bc1d4a68390a87d9b8cd0aaf769c937e"
 
 RPROVIDES:${PN} += "libaudgui.so.5 \
 libaudgui5"

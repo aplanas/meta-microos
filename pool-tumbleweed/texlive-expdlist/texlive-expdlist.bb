@@ -7,10 +7,10 @@ list (this works for itemize and eumerate lists and numbered \
 lists remain in sequence)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.4svn15878"
+PV = "2023.209.2.4svn15878"
 
-RPM_NAME = "texlive-expdlist-2023.201.2.4svn15878-52.1.noarch.rpm"
-RPM_HASH = "4b4607ef2d5b1cde76b5255fb5e9e2ac32732ce8ac927e33d743884553db38895fa374f9e9f006b9a472d7fc83b59b0b9f911c6f4cff303237b59db7d4477fa3"
+RPM_NAME = "texlive-expdlist-2023.209.2.4svn15878-53.1.noarch.rpm"
+RPM_HASH = "855ab4b87e596cfba9d6571480a5aca98f6e5f9049f61a920734f38a1a69e64b8e0aa0632ca10f87b6434b2b2494bf1ab03b3c352db7026d277dbd410efe002d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-expdlist.sty \

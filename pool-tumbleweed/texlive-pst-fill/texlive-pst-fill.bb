@@ -3,10 +3,10 @@ DESCRIPTION = "Pst-fill is a PSTricks-based package for filling and tiling \
 areas or characters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.02svn60671"
+PV = "2023.209.1.02svn60671"
 
-RPM_NAME = "texlive-pst-fill-2023.201.1.02svn60671-52.1.noarch.rpm"
-RPM_HASH = "97f5a14bc19174408142c8aa0a93e8afbb9c81b42b7f6e22d06dac202b13fbe99d4fd35d9fad27904ac8a3ad932ffb8abe7dd1162a372d66a19d34205176b5ab"
+RPM_NAME = "texlive-pst-fill-2023.209.1.02svn60671-53.1.noarch.rpm"
+RPM_HASH = "2a9c57c056234b87987f0d4b1a5134b5481178ea94785b9acc055a188a39dcf9c079d45b9ca55f0dca611bc102b3e5bda5ea71c158cbf51876f1ebcd1df52bf3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-fill.sty \

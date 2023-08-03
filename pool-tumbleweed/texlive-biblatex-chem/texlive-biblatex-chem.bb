@@ -6,10 +6,10 @@ and Angewandte Chem. style, (thus covering a wide range of \
 journals). A comprehensive set of examples of use is included."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1zsvn57904"
+PV = "2023.209.1.1zsvn57904"
 
-RPM_NAME = "texlive-biblatex-chem-2023.201.1.1zsvn57904-53.1.noarch.rpm"
-RPM_HASH = "bb5c72ad57ed789779fc3ce5bb2bda0f5b746edbfa8a263698ae147cbedf3b238d2d4c5cddf9a49a274a26ad2c3a8625838313fa7246fb061e09e440ea4a3f01"
+RPM_NAME = "texlive-biblatex-chem-2023.209.1.1zsvn57904-54.1.noarch.rpm"
+RPM_HASH = "e084b9393bab8502c32258c3a94b7a318de483082d1ba7f4a64b3ec29a7a4d8b613f3ccca1b99538efd3ed469f8cb791a7ea1e818ad5445fc8c82be45c7624be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chem-acs.bbx \

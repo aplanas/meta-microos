@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the headers needed to build against \
 the ncurses library in its ABI version 6 form."
 LICENSE = "MIT"
 
-PV = "6.4.20230701"
+PV = "6.4.20230715"
 
-RPM_NAME = "ncurses-devel-6.4.20230701-16.1.aarch64.rpm"
-RPM_HASH = "a9fa51478027a9ec9cf2579c6ba72ede330629ec54a733907b86347ad5aeec98727868f12bab9dfda6d12bc38b0e1eb4dc6117a22c99e1e9efb8722bcd5a4d72"
+RPM_NAME = "ncurses-devel-6.4.20230715-17.1.aarch64.rpm"
+RPM_HASH = "f1c22abc9a4638286e59ea739639dea4d261142abe8253b2b21d6a65338f075fa58eddea6240373ce0b09daad8a625e00eed3c5ac6c7b7cc0cd97f3dc44f2419"
 
 RPROVIDES:${PN} += "ncurses-/usr/include/ncurses.h \
 ncurses-devel \

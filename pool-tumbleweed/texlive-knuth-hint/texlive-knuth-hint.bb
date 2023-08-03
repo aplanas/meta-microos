@@ -15,10 +15,10 @@ application. The knuth-hint package is a showcase of HiTeX's \
 capabilities."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.0svn62971"
+PV = "2023.209.1.0svn62971"
 
-RPM_NAME = "texlive-knuth-hint-2023.201.1.0svn62971-55.1.noarch.rpm"
-RPM_HASH = "ae2e675ea83057600012110e5814f86e306ee631b4dc0d94f83032c4106bb68c6fd376176a260a6069a8586a5b8109c4feffaf72413353a11e0141ee33d41901"
+RPM_NAME = "texlive-knuth-hint-2023.209.1.0svn62971-56.1.noarch.rpm"
+RPM_HASH = "b5741d10130d70c3d5daec823ed78704ffe6bd1f10976733729986021d8a68a4ecb8d7e0e191cf209c99c98d5d5c9182a6934e74eeef4605dd2a36868eb5a691"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-knuth-hint"

@@ -6,10 +6,10 @@ symbols used in that theory, mostly with automatic mathematics \
 mode, so they work the same in formulae and in text."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-sdrt-2023.201.1.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "1f5cc5866f4721548b336c77d909dc449bdab1cc86c25cfd50df1cba0dc0bc76f9dfdda6e585eac67a5c23991fb840956f7dda42152ef391ae9d33872ea2632b"
+RPM_NAME = "texlive-sdrt-2023.209.1.0svn15878-54.1.noarch.rpm"
+RPM_HASH = "415e9e5b905f9bdf1bfa538d98f2b077964011c23b976103d231750cb5768fbe939baeaf723cc58d12374a55080093406d8a01f90c4bae34cb8b5f6fc2e6de9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sdrt.sty \

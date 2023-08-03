@@ -10,10 +10,10 @@ or onto the faces of a solid; support for including external \
 database files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.34asvn61719"
+PV = "2023.209.4.34asvn61719"
 
-RPM_NAME = "texlive-pst-solides3d-2023.201.4.34asvn61719-53.2.noarch.rpm"
-RPM_HASH = "a81bc741ad7ae536f3761b11f0bf59f66d44ca80c8583ebc4d1c0c95c121bb8bc785df4a93425c9254e49516b8ecb824b005f490cac82b393386ff57fbebbcc5"
+RPM_NAME = "texlive-pst-solides3d-2023.209.4.34asvn61719-54.1.noarch.rpm"
+RPM_HASH = "27d80679e308788c6a981b6d6bb833b99551b10c565800574b7f470bd0ac34e3bdddf44d366a199ae3da197852c27e9410f88939a45d5a55c64f9bb1ac276274"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-solides3d.sty \

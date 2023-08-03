@@ -7,10 +7,10 @@ that the chord specification appears immediately above the \
 start of the lyric."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn32484"
+PV = "2023.209.1.1svn32484"
 
-RPM_NAME = "texlive-gtrcrd-2023.201.1.1svn32484-53.2.noarch.rpm"
-RPM_HASH = "c67e8c138f2eaccc95219377d6bd3c8b3abd857a47314f22f0a3f87a832bc3c0a5d477231119ab2b77376001840ec5190e56051fb2df7d93407f08dafe2744b0"
+RPM_NAME = "texlive-gtrcrd-2023.209.1.1svn32484-54.1.noarch.rpm"
+RPM_HASH = "75959d80b45b86c4e74bc3b5b9405b6a7c5e680db3109e812a793a2a4f6a4b0a7d96c6a96d4120339528839fa3a8084e264fdab3c879b9a61699ebd468db0f9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gtrcrd.sty \

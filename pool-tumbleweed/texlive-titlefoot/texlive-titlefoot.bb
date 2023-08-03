@@ -6,10 +6,10 @@ footnotes to the title or first page of a document. Works with \
 any class for which the \\thanks macro works (e.g., article)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-titlefoot-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "98ad6d4f84401801f38c09ff58d4ea59f3329b6fade6a8b7eb2a7e951fab96c8fb0209dbd2a428d078f53d178411ec4e8926ac39c01c70a696e42eba22c458c9"
+RPM_NAME = "texlive-titlefoot-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "45ce27b82e0c646dfb50845c321f34f585ccb411cb21e4416a4e76343772d83f5ff9f0beebefa4137ded24aa9fd9f5f928dc64c261802c08e37660ff8e15e1e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-titlefoot.sty \

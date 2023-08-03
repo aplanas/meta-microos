@@ -6,10 +6,10 @@ set the inner and outer margins to avoid the effects of the \
 different margins."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn24684"
+PV = "2023.209.0.0.1svn24684"
 
-RPM_NAME = "texlive-fullwidth-2023.201.0.0.1svn24684-52.1.noarch.rpm"
-RPM_HASH = "3f792a7bc67e92dc30bbfb2353beb55f21fce1a1c4a4537ea5e727bdd0179c41f724c541280e5e6c6d47e238c6e1d52432c62ddecd892f33dd942f6820521536"
+RPM_NAME = "texlive-fullwidth-2023.209.0.0.1svn24684-53.1.noarch.rpm"
+RPM_HASH = "4ce5ad0fc797bc6852252b7173bd281f97784bfe3fb3c136a540ac69546b2f635edff535a65beccb6e932a2bb99cb0c687b89d057b6ae13153993b5d78488f42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fullwidth.sty \

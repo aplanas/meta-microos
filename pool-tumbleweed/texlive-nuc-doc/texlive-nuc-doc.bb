@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-nuc"
 DESCRIPTION = "This package includes the documentation for texlive-nuc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn22256"
+PV = "2023.209.0.0.1svn22256"
 
-RPM_NAME = "texlive-nuc-doc-2023.201.0.0.1svn22256-54.1.noarch.rpm"
-RPM_HASH = "2f09a289d64ade5ee5019425e8a7bedbaa3e9b1cb502eae56a5c2151c9226d2d1cea6988da23bb32c47b14a3cad000c64f2a7179d23d80eed93ca48eeef9cf2b"
+RPM_NAME = "texlive-nuc-doc-2023.209.0.0.1svn22256-55.1.noarch.rpm"
+RPM_HASH = "6da483ab98fec80fd8f44c6166170220b2ec7fa4afc75a52de5b694ada5fb9debbecb6f5d2658088528402b102bf6f9717a93d357e3d0a8940a002366270d998"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nuc-doc"

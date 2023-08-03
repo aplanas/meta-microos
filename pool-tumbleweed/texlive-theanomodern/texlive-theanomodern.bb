@@ -8,10 +8,10 @@ Ancient Greek woman philosopher, who was first a student of \
 Pythagoras, and supposedly became his wife."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64520"
+PV = "2023.209.svn64520"
 
-RPM_NAME = "texlive-theanomodern-2023.201.svn64520-54.1.noarch.rpm"
-RPM_HASH = "c4661b732e4793e19fd1198cbe3e5c210ffd1634690b1530600c4bd4aa8e8f987c92bfe55be8bba68f5008a07c409efc949c3a59ad6c12cce3cf9a8e6c9dcf9f"
+RPM_NAME = "texlive-theanomodern-2023.209.svn64520-55.1.noarch.rpm"
+RPM_HASH = "a4f27664c20a742faa29e316c1c017125e3bf2457eb9e519a53825d134b1f1cbb8d83d937c1481ab6ffc44f6480f38770a400984e4b6865766b9fcd64edfc388"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LGRTheanoModern-TLF.fd \

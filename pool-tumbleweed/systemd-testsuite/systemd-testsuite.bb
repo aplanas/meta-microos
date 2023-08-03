@@ -21,8 +21,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "253.7"
 
-RPM_NAME = "systemd-testsuite-253.7-1.2.aarch64.rpm"
-RPM_HASH = "ecadaba7a7baf0e883f0bae4d0e14da1d4db5ecf59a488c960b5adc4236b1594fa31d866dfedd49caf32383b3d1b57c5e97013a65b9ab9d7f19e128d05ec32ec"
+RPM_NAME = "systemd-testsuite-253.7-2.1.aarch64.rpm"
+RPM_HASH = "f6dec53f341cceea507e0bec1c74065cedf6b7b34a226c80b8705feac0657e54c8b9449645b54abf1d9670069ce9666309e622d3695846a594265bbaa7cf162d"
 
 RPROVIDES:${PN} += "systemd-testsuite"
 

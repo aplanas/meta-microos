@@ -5,10 +5,10 @@ Latin Modern project. It avoids the spindliness of most other \
 Type 1 versions of Computer Modern."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn57458"
+PV = "2023.209.1.2svn57458"
 
-RPM_NAME = "texlive-mlmodern-2023.201.1.2svn57458-54.1.noarch.rpm"
-RPM_HASH = "4421ae6b023838eb587964c6f373c963d3d5a423619524127d63ead9ab30353b1a0fb8ef932deade5b53461c94b3779e12d162ac85f966420e81c477d64b4a39"
+RPM_NAME = "texlive-mlmodern-2023.209.1.2svn57458-55.1.noarch.rpm"
+RPM_HASH = "bdfc0155c3988221e0257d677ebdffc78258358caf66711ca847d4d9f49722ade5fecef005788187f3d2c990ea85a0e5fdc0f0f9a9f2505b47f49b3c257e7f8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cs-mlmb10.tfm \

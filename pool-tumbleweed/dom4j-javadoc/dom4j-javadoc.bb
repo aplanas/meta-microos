@@ -7,8 +7,8 @@ LICENSE = "Apache-1.1"
 
 PV = "1.6.1"
 
-RPM_NAME = "dom4j-javadoc-1.6.1-36.5.noarch.rpm"
-RPM_HASH = "72d3d7c35bdd3a316ec58a4a02568892c2d4280de416845d4f509d4c977fc2cbf97dede141cd4a749dd9701680d91b0e05a51227addebbec727c25f8988efd78"
+RPM_NAME = "dom4j-javadoc-1.6.1-37.1.noarch.rpm"
+RPM_HASH = "5a7b2469ee577d2909145254ecdd70c419d7addd6072244dabfe5cabbd582cf36761703b69a94b8127dfd35289dd0593d8b34b5de9be4c41141116b29c53ff80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dom4j-javadoc"

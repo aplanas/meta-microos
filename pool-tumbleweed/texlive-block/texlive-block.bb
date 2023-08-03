@@ -6,10 +6,10 @@ return address, the closing, and the signature appear flushed \
 on the left margin."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn17209"
+PV = "2023.209.svn17209"
 
-RPM_NAME = "texlive-block-2023.201.svn17209-52.1.noarch.rpm"
-RPM_HASH = "748b2a85d68b0f665234a2c77a567a7c456a70c7100dbbee440671b2609d2de1e04a47e0477f9897d7d4eab77601ceaaf6323dc589a597dca47dde8fb3dbddb0"
+RPM_NAME = "texlive-block-2023.209.svn17209-53.1.noarch.rpm"
+RPM_HASH = "267bfbe11164b46423ceacf3ffd1324aae643b5dc61b33e3139edf8589439e899bbcee3394ac57bc8f9620bb9565d02ddb875a46ec5b95e13ad22308f73646d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-block.sty \

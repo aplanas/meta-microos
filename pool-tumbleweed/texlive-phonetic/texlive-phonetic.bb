@@ -4,10 +4,10 @@ Metafont. Macros for the fonts' use are provided, both for \
 LaTeX 2.09 and for current LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn56468"
+PV = "2023.209.svn56468"
 
-RPM_NAME = "texlive-phonetic-2023.201.svn56468-51.1.noarch.rpm"
-RPM_HASH = "cc768fc4864490a5bbdf7e9a932e4fc91789a471e1e4fed5ae47c65634d55dfe8c71a4a6adcac021b05f911e3feae8600bb07a0ecd88ed7964fd55fd056007c9"
+RPM_NAME = "texlive-phonetic-2023.209.svn56468-52.1.noarch.rpm"
+RPM_HASH = "96582ec236048989508c4690cf3c5c1a19ffe5b15ea5dd7c2303b131bd651fbb05df0563c8d2e8dda1bc99112686ae8cac0076103df3f357b68b9640a9d6af07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Uphon.fd \

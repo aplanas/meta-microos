@@ -6,10 +6,10 @@ environment, PSTricks or pgf/TikZ generated pictures, or just \
 from typeset text."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64401"
+PV = "2023.209.svn64401"
 
-RPM_NAME = "texlive-animate-2023.201.svn64401-54.1.noarch.rpm"
-RPM_HASH = "35e326a895cffc1017a528e733e1cf0ee90efdb1c3958bd6220dbb50b0cbfc356eb40bb669bb13480c9002cc821c204df6e050320ef4ec79cba46a460cf61548"
+RPM_NAME = "texlive-animate-2023.209.svn64401-55.1.noarch.rpm"
+RPM_HASH = "2a1b57b9a686ee8c2159b4408ac5b4ed5bc0d409b2501abd109f4acc7231b1363cfc2728e3e6ea031e01e754d35254cb0d5d651f1e1069967a2c005a2ee06a33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-animate.sty \

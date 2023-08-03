@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-baskervaldx"
 DESCRIPTION = "The  separated fonts package for texlive-baskervaldx"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.076svn57080"
+PV = "2023.209.1.076svn57080"
 
-RPM_NAME = "texlive-baskervaldx-fonts-2023.201.1.076svn57080-53.1.noarch.rpm"
-RPM_HASH = "e2c766bc6613f3cc457d56d7b285f75af09fcf7b963ff83a5b4d538d59486e8538d50d81c4f92b5da1603ecad8fd613953a9c8b6eb8c674ed9a9a0ad5c83b784"
+RPM_NAME = "texlive-baskervaldx-fonts-2023.209.1.076svn57080-54.1.noarch.rpm"
+RPM_HASH = "af3e760319c976a01eddea1550a3000a45e3ad5fb4171aec5d7795a56600d86c6e5be0b61c8dae45773ac213c84034294481b89a71f1d67574ce8ab3c11bf50f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-baskervaldx-fonts \

@@ -5,10 +5,10 @@ Each section has it own auxiliary file (for use with BibTeX) \
 and title."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn15878"
+PV = "2023.209.1.1svn15878"
 
-RPM_NAME = "texlive-multibbl-2023.201.1.1svn15878-54.1.noarch.rpm"
-RPM_HASH = "054db71c04ecb88c4be5398674ce98586fedf699f18fe41ad3f106d014457c187e43891962e48580c0d859c4e81dea8ff6b1a3e3a8b91704f93b3f9f2fcada2d"
+RPM_NAME = "texlive-multibbl-2023.209.1.1svn15878-55.1.noarch.rpm"
+RPM_HASH = "d3fc0c206ffd6c81394848d15bb11baae933b5671de3c5924270517f1b6569c234db151fb411f2b39719c3ef8047b3affae27169d57f6bb06145d55a31b9bb8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-multibbl.sty \

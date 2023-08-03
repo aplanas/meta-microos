@@ -28,10 +28,10 @@ TeX and LaTeX including encoding definition files: T1 (ec), T5 \
 Czech fonts)."
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.204.0.0.915svn18651"
+PV = "2023.209.0.0.915svn18651"
 
-RPM_NAME = "texlive-cyklop-2023.204.0.0.915svn18651-54.1.noarch.rpm"
-RPM_HASH = "4c660db743992d165c4d23f71916fb7010a7670f6689c2106f13c386836c6ea08a6ece97425a812b688df5b99c108d25d9fadcf4af8be253880cf26e277c0232"
+RPM_NAME = "texlive-cyklop-2023.209.0.0.915svn18651-55.1.noarch.rpm"
+RPM_HASH = "8d7452cc6d06c1751a8968904486be39d19494fd7ba9df519a40986b2d7031efa707ee4b6dd336cfa6f65d85225d33ac9c5c33adc7b7764a413ec8392c12e8f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cs-cyklop-sc.enc \

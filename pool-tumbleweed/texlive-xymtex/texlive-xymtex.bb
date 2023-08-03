@@ -11,10 +11,10 @@ design allows XyMTeX to operate as a practical \
 (device-independent) tool for use with LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.5.06svn32182"
+PV = "2023.209.5.06svn32182"
 
-RPM_NAME = "texlive-xymtex-2023.201.5.06svn32182-52.2.noarch.rpm"
-RPM_HASH = "e55b7f4459609dd513dfffe442e6636270b60a9a71232ebac64c079ddf995ac5d1f4a2ea74eb30c86e035c5137a7f4103697cf1bf652dd69108f2e69b69d5d1d"
+RPM_NAME = "texlive-xymtex-2023.209.5.06svn32182-53.1.noarch.rpm"
+RPM_HASH = "375231ee4b2adae762eb40f198bf9bc1bb9d07d1798cc65bbc485da38955652388fe47db5848fc72d604cb76f50877ee1f3316a8f307ac4ab618934dfe991ba4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-aliphat.sty \

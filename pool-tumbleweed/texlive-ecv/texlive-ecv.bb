@@ -5,10 +5,10 @@ curriculum vitae. The distribution comes with a German and an \
 English template."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn24928"
+PV = "2023.209.0.0.3svn24928"
 
-RPM_NAME = "texlive-ecv-2023.201.0.0.3svn24928-53.2.noarch.rpm"
-RPM_HASH = "8445bdf68ffeedbe8923dec3aea2432dcfdf61f6dddac6bb380ee6a815b183a89d68e763c4af98404f91d67d34d361689f59ba1794c3c0087495e5c07a2381f5"
+RPM_NAME = "texlive-ecv-2023.209.0.0.3svn24928-54.1.noarch.rpm"
+RPM_HASH = "9af82f956d6292ab1f2992e8f8f61fbf208773b2ab1c3faa62749aafab869d4e2e52ec2df28221b56a01a5ee4b2c9f682d841e0599f0945c64d853c7e9cc0648"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ecv.cls \

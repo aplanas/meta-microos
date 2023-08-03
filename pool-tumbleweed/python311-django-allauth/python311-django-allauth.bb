@@ -3,10 +3,10 @@ DESCRIPTION = "Integrated set of Django applications addressing authentication, 
 account management as well as 3rd party (social) account authentication."
 LICENSE = "MIT"
 
-PV = "0.47.0"
+PV = "0.54.0"
 
-RPM_NAME = "python311-django-allauth-0.47.0-2.1.noarch.rpm"
-RPM_HASH = "95876d197043c7bc3f07c56d7a7d44ae590455e531dcec8104234c195de2c4032e308e1d666a29bc6b3381655d1f51ffb710b8d7380c20730fd09c5bfa6ff70f"
+RPM_NAME = "python311-django-allauth-0.54.0-1.1.noarch.rpm"
+RPM_HASH = "8ec160e34cba655ecc6dae8362622b84e99682a641e722ae6162d22f9209b44cc8d609e87502afac0b349e58a77fb5786cb137e2fea9fbc1b31796dc0ab98f02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-allauth \

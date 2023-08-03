@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-asmeconf"
 DESCRIPTION = "This package includes the documentation for texlive-asmeconf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.34svn65413"
+PV = "2023.209.1.34svn65413"
 
-RPM_NAME = "texlive-asmeconf-doc-2023.201.1.34svn65413-53.1.noarch.rpm"
-RPM_HASH = "87d9d03d67361b5132e4d1e2dc134793ddb17a355d7f640b754db75908d6335d9900168102d7ab284cbe8541403e3e6c3a6c4287a8f9af68bbc25cc0576940a0"
+RPM_NAME = "texlive-asmeconf-doc-2023.209.1.34svn65413-54.1.noarch.rpm"
+RPM_HASH = "80dd1d47b8c2ffc30eff3143457251e5880a9d2d6a16dd1e9dfcd6d341121719d777e5425c86d6882c153ae49992854237c0ae19e583e10139bb9a9e7022bd45"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-asmeconf-doc"

@@ -7,10 +7,10 @@ internal macros used by such commands, if any. The \\showcs \
 variant helps with macros with exotic names."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-show2e-2023.201.1.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "77f1bf8f01b7d6e43fbf514071af27f64421802df95c004806a389ddcc596c86e200705274367fbd751f6f947d82621d3a57d161c0de29eed6d654cd6762c664"
+RPM_NAME = "texlive-show2e-2023.209.1.0svn15878-54.1.noarch.rpm"
+RPM_HASH = "838f379816a5589423d1137402dd2b26c72c33d00cc13bbcc22e2d287c5e0d4782bb348fc687659df38add1bf0c0d6e9c4a85b058909bf03fb7c2898260ee984"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-show2e.sty \

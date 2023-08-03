@@ -5,10 +5,10 @@ documentation as part of a document delivered, for instance, on \
 a U.S. government contract."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn41653"
+PV = "2023.209.1.3svn41653"
 
-RPM_NAME = "texlive-sf298-2023.201.1.3svn41653-53.1.noarch.rpm"
-RPM_HASH = "39453770e34c7e8408625423dfe23c26f159b29ff28c1303c357e84d8c30e61772f2541dcc3612ec7a0823f96c92b3327b3df09a8f55745639c7082de8612e1d"
+RPM_NAME = "texlive-sf298-2023.209.1.3svn41653-54.1.noarch.rpm"
+RPM_HASH = "b071a67769971b73dde8cd7823ada18946967095ebf30b7fb315a1b9208e3045e178184f63a391301485290c8f358c37b5804bc846b0a415882d5a0a0462cb7b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sf298.sty \

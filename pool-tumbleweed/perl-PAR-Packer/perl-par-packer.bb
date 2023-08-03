@@ -11,10 +11,10 @@ have been stripped from the PAR distribution and are now distributed as the \
 compiler."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.057"
+PV = "1.59.0"
 
-RPM_NAME = "perl-PAR-Packer-1.057-1.4.aarch64.rpm"
-RPM_HASH = "e4f0e10b8b0fe2f561323ca4e14f10d4c91e1252907d763c5f454027b4a145412eb2d0f0a2adf997a0de04cb2ffd863de2933747d6a4167ba7bec1f409794358"
+RPM_NAME = "perl-PAR-Packer-1.59.0-1.1.aarch64.rpm"
+RPM_HASH = "d8f08434734ebd14c8bf8ef86fe58c424ac10761f6cec95b17000e2b089eff627623eafd50e0c2c9dd2e81520f9e9da6d464fd1d53084ce67768b4e5387b94f4"
 
 RPROVIDES:${PN} += "perl-App--Packer--PAR \
 perl-PAR--Filter \
@@ -25,8 +25,6 @@ perl-PAR--Filter--PatchContent \
 perl-PAR--Filter--PodStrip \
 perl-PAR--Packer \
 perl-PAR--StrippedPARL--Base \
-perl-PAR--StrippedPARL--Dynamic \
-perl-PAR--StrippedPARL--Static \
 perl-PAR-Packer \
 perl-pp"
 

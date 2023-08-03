@@ -12,10 +12,10 @@ print out any text into signatures, which can then be gathered, \
 folded and sewn into a book."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn15878"
+PV = "2023.209.1.2svn15878"
 
-RPM_NAME = "texlive-octavo-2023.201.1.2svn15878-54.1.noarch.rpm"
-RPM_HASH = "ee699c93b4368aa5a0bd5f4f34a30e636dffbae0dd76effff32d12ce2f1c9e46b3f3a027d3771cd6817f24dd2b85263402cff9d3a91077d83e389eaff5a11c1e"
+RPM_NAME = "texlive-octavo-2023.209.1.2svn15878-55.1.noarch.rpm"
+RPM_HASH = "fa209aa6102c50f673cc1b15f912721869dd73db49f200e465b334ec16ff41847469f395af4ce9591886035d1d21fb661de57f1737459524f0f9d7b5871e0103"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-oct10.clo \

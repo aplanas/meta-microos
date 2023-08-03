@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-wrapfig"
 DESCRIPTION = "This package includes the documentation for texlive-wrapfig"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.6svn61719"
+PV = "2023.209.3.6svn61719"
 
-RPM_NAME = "texlive-wrapfig-doc-2023.201.3.6svn61719-52.2.noarch.rpm"
-RPM_HASH = "4d595bfa0d119ee8346574f682c9ef76ca784b3a01e43ec18e9f7744827231920d5b3232b2595a0e2b3b18285aa9a50cc9af221f18ba830bf5158ebd33cbd1f0"
+RPM_NAME = "texlive-wrapfig-doc-2023.209.3.6svn61719-53.1.noarch.rpm"
+RPM_HASH = "29a7dce890c5b556338f40fbfbaa32c1aea5782276f4f4d14ab8f36cc10c196afe9819f02e9944478cdb3099b5afcf2b6b33c9bd14a6bbdc1b8577a7c3b1c972"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-wrapfig-doc"

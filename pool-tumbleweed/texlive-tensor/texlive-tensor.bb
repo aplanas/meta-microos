@@ -7,10 +7,10 @@ revision and extension of the original 'tensor' package by Mike \
 Piff."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1svn15878"
+PV = "2023.209.2.1svn15878"
 
-RPM_NAME = "texlive-tensor-2023.201.2.1svn15878-54.1.noarch.rpm"
-RPM_HASH = "e7eb3b9cf4e494b4928d8ffdd26373d1137adb6feb695186ceda06e7dfcea8215ec304aeab034ab9baa609a6d21cf61e2052ee65762da83c796e61e4e0fc9190"
+RPM_NAME = "texlive-tensor-2023.209.2.1svn15878-55.1.noarch.rpm"
+RPM_HASH = "b5e08ea5b9621e460c4efb1b076532285c9f15c0ae3578b836627f432b55cc221a53d7a9daa4255ef8a826c1bafda638b77ec5e4fefd760044b78c446b2bd2f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tensor.sty \

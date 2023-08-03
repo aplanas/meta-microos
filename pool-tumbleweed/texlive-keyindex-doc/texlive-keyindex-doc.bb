@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-keyindex"
 DESCRIPTION = "This package includes the documentation for texlive-keyindex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn50828"
+PV = "2023.209.1.0svn50828"
 
-RPM_NAME = "texlive-keyindex-doc-2023.201.1.0svn50828-55.1.noarch.rpm"
-RPM_HASH = "687f45e67a77010e3419ad63bd582880726d11789117131b576393f2977e16e747648ef0e14f3341c26736d59e02f0dddf57ee43e067c155229bdd27f57c2596"
+RPM_NAME = "texlive-keyindex-doc-2023.209.1.0svn50828-56.1.noarch.rpm"
+RPM_HASH = "6ee5027eaf1e2318e8c39c923a7775c6f099d5037e99cfc6564ad8b07c261d524dd030239f553689a6b6ce1e4b3f6abbb8d8c31e6684846278e54d93f6aa805d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-keyindex-doc"

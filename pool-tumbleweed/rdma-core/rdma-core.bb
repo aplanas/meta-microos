@@ -4,10 +4,10 @@ scripts, kernel driver-specific modprobe override configs, IPoIB network \
 scripts, dracut rules, and the rdma-ndd utility."
 LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
-PV = "45.0"
+PV = "47.0"
 
-RPM_NAME = "rdma-core-45.0-1.2.aarch64.rpm"
-RPM_HASH = "7cd9088241b859a57c7f543c44a4a054f7ddc61f521727bd73791cc65654373d557d1737f2a37b7b7684bf572a3c43d0fec2882c1fd8c048626d1a4aab965f51"
+RPM_NAME = "rdma-core-47.0-1.1.aarch64.rpm"
+RPM_HASH = "6e25af92fd38f844d88ffdace6da9de7dd822cf7fb9b160e36832a83f83e6e19fe4063aa0be972e22dda23490e0643b71eadb89e2f1a7f054639699b6452367e"
 
 RPROVIDES:${PN} += "config-rdma-core \
 ofed \

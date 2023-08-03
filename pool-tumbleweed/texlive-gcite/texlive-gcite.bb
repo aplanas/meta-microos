@@ -9,10 +9,10 @@ package makes use of BibLaTeX, and is considered experimental; \
 comment is invited."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.1svn15878"
+PV = "2023.209.1.0.1svn15878"
 
-RPM_NAME = "texlive-gcite-2023.201.1.0.1svn15878-52.1.noarch.rpm"
-RPM_HASH = "237e4cb04e6fe1a542adf5dd833045fd9eb4a9c1458f3b1909785617ed4cd9332c29090ef116ad7eb565fdf34fa4dbc7dba05e993ea459dba133fc602781a7d7"
+RPM_NAME = "texlive-gcite-2023.209.1.0.1svn15878-53.1.noarch.rpm"
+RPM_HASH = "0b6fd8540127d8b069c04664b0e2d714df568ee1fd99eace1301a77ebf19412e434c4ddaab0a2da571ec29bbffcf46e955f92a072f76fd9f4a29ed9b6f655043"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gcite.sty \

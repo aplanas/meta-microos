@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-chappg"
 DESCRIPTION = "This package includes the documentation for texlive-chappg"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1bsvn15878"
+PV = "2023.209.2.1bsvn15878"
 
-RPM_NAME = "texlive-chappg-doc-2023.201.2.1bsvn15878-52.1.noarch.rpm"
-RPM_HASH = "4b8670ce815142483a7f941df1c2aea6aa2d1590a8827ef03b127441800093eea747ed456e97bf9cc7818b4deabc2b00d1ca2d559051d1ef527c025543a1c630"
+RPM_NAME = "texlive-chappg-doc-2023.209.2.1bsvn15878-53.1.noarch.rpm"
+RPM_HASH = "f82bb887ca1df128d4559914ec22ddee5072e39cda1c973216bf9a433c35b43fc0a81ea39020b20da462152320569b05b5ed411fcdf371bdf80eac6efea9b897"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chappg-doc"

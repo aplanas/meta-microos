@@ -15,10 +15,10 @@ key-value syntax xfrac, which provides flexible split-level \
 fractions"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65722"
+PV = "2023.209.svn65722"
 
-RPM_NAME = "texlive-l3packages-2023.201.svn65722-55.1.noarch.rpm"
-RPM_HASH = "951643d5ea92938f772f880e52be10ac316d5b55b1dd264e6f27dda1dc03c6b1ad40b7b231054a6413764e062e4aa37401cd862453fb3e2eeb981a9ff7c789bf"
+RPM_NAME = "texlive-l3packages-2023.209.svn65722-56.1.noarch.rpm"
+RPM_HASH = "d89c5d8b319063eed6202a59024386bce877856a75cbd87747b03a1aae73b0df74f1a2f1cff8853bdd9965990ec42998e5696cf46858e98395506cbfbf673ec7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-l3keys2e.sty \

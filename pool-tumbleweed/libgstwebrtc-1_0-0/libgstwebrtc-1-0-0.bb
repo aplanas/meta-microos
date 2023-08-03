@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "libgstwebrtc-1_0-0-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "bfe787640982865c036ff3614030e254a6f170f51f2284a5da9fa02978fb5337a1c54a867a668bd76edae1870d78b61120c6193ee5199eae1f624e23f95821f1"
+RPM_NAME = "libgstwebrtc-1_0-0-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "80278055128db8617f8ac28157fcee3b3747963a42120bd291113ca4e805d45461ebbb69912d0bd2ed936cd7d7ed42b63970cc80c6b476c85616d1b42a40c9f9"
 
 RPROVIDES:${PN} += "libgstwebrtc-1-0-0 \
 libgstwebrtc-1.0.so.0"

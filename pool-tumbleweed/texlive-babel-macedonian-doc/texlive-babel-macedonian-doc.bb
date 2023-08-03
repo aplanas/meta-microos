@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-macedonian"
 DESCRIPTION = "This package includes the documentation for texlive-babel-macedonian"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn39587"
+PV = "2023.209.svn39587"
 
-RPM_NAME = "texlive-babel-macedonian-doc-2023.201.svn39587-53.1.noarch.rpm"
-RPM_HASH = "d63fd3e8b937a4a43a92210318074171111fcc1b20d6ee5689ad4ceecc661e058480eb0b702ed20d043253aa1583e3cfd4c38019285d080ca31bab8d255a9f8d"
+RPM_NAME = "texlive-babel-macedonian-doc-2023.209.svn39587-54.1.noarch.rpm"
+RPM_HASH = "19bdd6d3f581e8ac3fed34ac5b7ac281d4d2a4d8a1b206788c3aace3d1b9b4f79b08726d14669deb384ce5cd37d35d398bd21946c035f5d48c6ef5d25a1339fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-macedonian-doc"

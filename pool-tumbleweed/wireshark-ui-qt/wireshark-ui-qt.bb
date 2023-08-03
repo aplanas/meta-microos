@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "4.0.7"
 
-RPM_NAME = "wireshark-ui-qt-4.0.7-1.1.aarch64.rpm"
-RPM_HASH = "42b12de55051e75054922c9a825bab8861a96f635dc17cb00df640247934e82069afd78291871d45f77c30bd6663f9fd2344f2ed4c5ee390f081e7515e2e5e37"
+RPM_NAME = "wireshark-ui-qt-4.0.7-2.1.aarch64.rpm"
+RPM_HASH = "460facd364cf0ff15ae76a885c5199bbb4302d8f497c6588d91b0f2901a6bfc2c9c927a6bfd8da4376dfea4ec07e5b9bd110b7c63c521aea5639793acb72cb2f"
 
 RPROVIDES:${PN} += "wireshark-ui \
 wireshark-ui-gtk \

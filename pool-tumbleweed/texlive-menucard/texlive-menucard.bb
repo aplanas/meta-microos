@@ -3,10 +3,10 @@ DESCRIPTION = "This LaTeX package can be used for typesetting simple \
 restaurant menus."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn55643"
+PV = "2023.209.0.0.1svn55643"
 
-RPM_NAME = "texlive-menucard-2023.201.0.0.1svn55643-54.1.noarch.rpm"
-RPM_HASH = "6e0eb7b49086cf08a6be0f4cbea321955bd1cf3c6c2c201a30c79046379170c36ee4e76b6022154f83aea721bd5d4997cde526b8c8d437292ffc80d09f4572d4"
+RPM_NAME = "texlive-menucard-2023.209.0.0.1svn55643-55.1.noarch.rpm"
+RPM_HASH = "7c967628e1087665b5655e4be8dd4d95421c9fc48beb491c4df9ec510ac4b4bd1989169f5e878a0bf15f7b06f3fa19848afdb62fef8d4d019055789744048f54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-menucard.sty \

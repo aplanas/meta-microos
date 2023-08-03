@@ -4,10 +4,10 @@ as the system policy for a variety of systems and used as the basis for \
 creating other policies."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "20230622"
+PV = "20230728"
 
-RPM_NAME = "selinux-policy-20230622-1.1.noarch.rpm"
-RPM_HASH = "7c915bb4071db259316ba544017081a2bc74511dd36d001621e3d7af48f44a96ea2f9926ca155914c9210009f9268023e3d0c94e00c439b16d28c3fd73ec6c68"
+RPM_NAME = "selinux-policy-20230728-1.1.noarch.rpm"
+RPM_HASH = "db3c3ae54f40b744fd13248371eb6f677216d179964219a39085977d6a4d1fada7dbc6d8bb0d7d0b297798abec1e50fc4d6bade462e39f2decb85a978e5991bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-selinux-policy \

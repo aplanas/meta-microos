@@ -7,10 +7,10 @@ rather than a TeX/LaTeX encoding). To use the fonts, the user \
 needs Cyrillic font support."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.11svn33355"
+PV = "2023.209.0.0.11svn33355"
 
-RPM_NAME = "texlive-obnov-2023.201.0.0.11svn33355-54.1.noarch.rpm"
-RPM_HASH = "a4ebd5d11b2edd930c50a3a39a1c97a4163fad7828f1dcff0302b02833b87fdc946b5b80cc834ea93cf0ba2caf431ba5a023c312cda76ae15ff70a26ef37ebf8"
+RPM_NAME = "texlive-obnov-2023.209.0.0.11svn33355-55.1.noarch.rpm"
+RPM_HASH = "b383390bd7051735e3fc51c485d71048b8dd5c9f9f969195b676e4b04199b18d1a64c9a0ffb1f327cfe98ff15ba323f04c84e627d6b58a6ec6d68a7a131be030"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lcywobn.fd \

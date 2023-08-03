@@ -9,10 +9,10 @@ of full citations, achieving this, to a large extent, \
 automatically."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn15878"
+PV = "2023.209.1.1svn15878"
 
-RPM_NAME = "texlive-opcit-2023.201.1.1svn15878-54.1.noarch.rpm"
-RPM_HASH = "7c0653bd73370028c6419889bd39246cdcb63bc892809ae72229a704163ad6c305bc5065d37a27a49bc276ef180e0bd34e50d42e36ac3ae668f94a1fed4033ec"
+RPM_NAME = "texlive-opcit-2023.209.1.1svn15878-55.1.noarch.rpm"
+RPM_HASH = "c14eaa684af25ed830da04b2bdda20f91821190dbf13606e540b92e26290a2ff58771d3eff8ec73e64d818b2dd8667d2b0112f99698cc1dd9a13f30a179929f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-opcit.sty \

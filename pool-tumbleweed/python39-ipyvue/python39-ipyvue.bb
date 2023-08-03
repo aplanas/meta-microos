@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.9.2"
 
-RPM_NAME = "python39-ipyvue-1.9.2-1.1.noarch.rpm"
-RPM_HASH = "9940426ba38cb4bc6a1facbca9dfcc7e06aac4cc994660b7d634f371476f2cc7f22db32a7473fca1e9024b6cbc7e9867dcf6f8c4b6c232f9df2c2640d6ca366f"
+RPM_NAME = "python39-ipyvue-1.9.2-1.2.noarch.rpm"
+RPM_HASH = "afa26c7f45fc95ad8486d24125a340d3a7caa869249b73c99a0b5f9f5e7e40638b2a8068aec3f150a51ec39bfcc293fdbbcb08f68175390981cfa4a812c43a6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ipyvue \

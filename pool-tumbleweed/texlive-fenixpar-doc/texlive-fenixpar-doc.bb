@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fenixpar"
 DESCRIPTION = "This package includes the documentation for texlive-fenixpar"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.92svn24730"
+PV = "2023.209.0.0.92svn24730"
 
-RPM_NAME = "texlive-fenixpar-doc-2023.201.0.0.92svn24730-52.1.noarch.rpm"
-RPM_HASH = "e786ac8e023ab68680bcc2a99a889e686c9e26d9d84e3f0acc58bf8939df3c2dfcc9796129cc4b5b6d8a73284fd50f3e2e84281dcd471d3d33131426edddc831"
+RPM_NAME = "texlive-fenixpar-doc-2023.209.0.0.92svn24730-53.1.noarch.rpm"
+RPM_HASH = "631e241d73528bec4656352195f137073ce917520fba3c0a99e291e8cf3c218f94421dbdc7cbb041909172c8f9d8b312407c4b6b0dd6a845a474c93d65c6a7b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fenixpar-doc"

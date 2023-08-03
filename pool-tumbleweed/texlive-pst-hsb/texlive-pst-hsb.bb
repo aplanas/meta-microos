@@ -4,10 +4,10 @@ curves with continuous colours. Only colours defined in the hsb \
 model are supported"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.02svn61322"
+PV = "2023.209.0.0.02svn61322"
 
-RPM_NAME = "texlive-pst-hsb-2023.201.0.0.02svn61322-52.1.noarch.rpm"
-RPM_HASH = "64971601eb7fc744556e0053307dc7eede840e97cebb20065ddaa56de3c9752bd3c426333266b1fab9a55fd1b383c2eb712f7ea9dfdb0abff7a2b2ca94c4516d"
+RPM_NAME = "texlive-pst-hsb-2023.209.0.0.02svn61322-53.1.noarch.rpm"
+RPM_HASH = "4e87b9ee67dc2b1973ddabe4de82f8821c785c5986ed69fe02e8614ec46f870ee0d313686134c63d6f222b6eaa108299d5aa5653cb41f96da3e8b66c6515854d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-hsb.sty \

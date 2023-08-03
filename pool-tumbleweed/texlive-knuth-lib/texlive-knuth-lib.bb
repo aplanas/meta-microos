@@ -4,10 +4,10 @@ apart from the plain format and base. Includes the MF logo \
 font(s), webmac.tex, etc."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.201.svn57963"
+PV = "2023.209.svn57963"
 
-RPM_NAME = "texlive-knuth-lib-2023.201.svn57963-55.1.noarch.rpm"
-RPM_HASH = "f13fff73c0f583c6070c8156c30cfb9b992a946c5cc4ddc39d73d0eed45a2f4b68bb57e22f2a80884e3ad2ef84b55f654850aca0348bf20243cca1e2ffe89fdb"
+RPM_NAME = "texlive-knuth-lib-2023.209.svn57963-56.1.noarch.rpm"
+RPM_HASH = "f5ed3f63ef8aa66cc095217e20075bba8122a5ec978f78fc773b73ce4c8066ce6b32996c223d90020409a18c4a012b486e7e6271c2a94df482787195b8a8c755"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-logo10.tfm \

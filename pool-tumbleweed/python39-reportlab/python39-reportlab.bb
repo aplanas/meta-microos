@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.6.12"
 
-RPM_NAME = "python39-reportlab-3.6.12-2.6.aarch64.rpm"
-RPM_HASH = "9632bdbd4f0d558b09c352127a35fcc1afadb50e9937f68830511201f1dffd8747d0dc6389b3036c1bf5673d68eb9517e136374b862e9f469dd068c9c4c00a1a"
+RPM_NAME = "python39-reportlab-3.6.12-3.1.aarch64.rpm"
+RPM_HASH = "25906b764ee76598bf8827ee2088353b0a89a2532d7e22cc2380364d6ab15457ea77a78fb44006ba753b65687b1f5af165a6f1dc3329dbb1cb985235e438cb92"
 
 RPROVIDES:${PN} += "python3.9dist-reportlab \
 python39-ReportLab \

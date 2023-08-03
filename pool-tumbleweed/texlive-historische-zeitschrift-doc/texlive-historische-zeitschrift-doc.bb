@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-historische-zeitschrift"
 DESCRIPTION = "This package includes the documentation for texlive-historische-zeitschrift"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn42635"
+PV = "2023.209.1.2svn42635"
 
-RPM_NAME = "texlive-historische-zeitschrift-doc-2023.201.1.2svn42635-53.2.noarch.rpm"
-RPM_HASH = "9e3368a8f20559e29c43513effa8d3ddeaa1f47696a96189eaecf5c0032d9c683ce2928d8abf86029a23b57552a7e808623c2f123905bf99623e98e5978cbda6"
+RPM_NAME = "texlive-historische-zeitschrift-doc-2023.209.1.2svn42635-54.1.noarch.rpm"
+RPM_HASH = "99bf7fc0705dbd04485952f921436441b70aecafe9d4b20e3257089280d49a3268bb7ecc94ec879593c5b452e5144af6dd5fc2eda813d5d0ba82504e677f78e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-historische-zeitschrift-doc-de;en \

@@ -3,10 +3,10 @@ DESCRIPTION = "The package handles csv data merging for automatic document \
 creation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn51306"
+PV = "2023.209.svn51306"
 
-RPM_NAME = "texlive-context-handlecsv-2023.204.svn51306-54.1.noarch.rpm"
-RPM_HASH = "764194a9ee89b97f266602b6295b05f90e4d366a83feef1086d76cddadeedc2eac4f0acbfbf01909bd6cd1dd99e9f6584360311ded6e911080b2c7583e8db886"
+RPM_NAME = "texlive-context-handlecsv-2023.209.svn51306-55.1.noarch.rpm"
+RPM_HASH = "d7e7a6f151ccb84c32e15730a78c5b8dcf9bcf4489907ce5352f456efa7a1f51c42517c908237cdae2e379c4fc0bfffdadefe6f058e0aed09811b8d41d2424ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-t-handlecsv.tex \

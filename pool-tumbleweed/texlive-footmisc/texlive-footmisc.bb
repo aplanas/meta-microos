@@ -16,10 +16,10 @@ by the present package.) The perpage option is also offered by \
 footnpag and by the rather more general-purpose perpage"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.6.0dsvn62524"
+PV = "2023.209.6.0dsvn62524"
 
-RPM_NAME = "texlive-footmisc-2023.201.6.0dsvn62524-52.1.noarch.rpm"
-RPM_HASH = "3ae240b139861b76e2168f889feb4d2ef7743ea002757ca98fa5b6841b26b57bb5124263ba387a02b7ef83c70d55e5e0feee1e674b0e75523a6ad430c1a00695"
+RPM_NAME = "texlive-footmisc-2023.209.6.0dsvn62524-53.1.noarch.rpm"
+RPM_HASH = "0ac324587a1e9931b7b26ebcf4f12a9ae075f38d2a48f75a7d91fd5e16984b20efe91f6a732988dd87a7494d78c446fbefaf005f7a8857794172233fccab8d86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-footmisc-2011-06-06.sty \

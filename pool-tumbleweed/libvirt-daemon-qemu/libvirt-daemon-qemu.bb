@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.5.0"
 
-RPM_NAME = "libvirt-daemon-qemu-9.5.0-1.1.aarch64.rpm"
-RPM_HASH = "86ee1a077f9e4df199512bc064a606944a1636eebea1b244b2b457ef4664489a8b903e891ff71e85fced3dda097a760a53f609709377e6db51856514d9d7dd04"
+RPM_NAME = "libvirt-daemon-qemu-9.5.0-2.1.aarch64.rpm"
+RPM_HASH = "fbb0a35346d42e18616f520fa54b4fd4fc479aa0d6a13628a67b0d0b72bac14ee1dd418669885d286311fbc4719f1b6bb24f1203953f55c2193a2f5486dce5e7"
 
 RPROVIDES:${PN} += "libvirt-daemon-qemu"
 

@@ -7,10 +7,10 @@ variable length. The package requires etoolbox, pgfkeys, TikZ, \
 xparse, and xstring."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn52009"
+PV = "2023.209.0.0.2svn52009"
 
-RPM_NAME = "texlive-ddphonism-2023.201.0.0.2svn52009-52.1.noarch.rpm"
-RPM_HASH = "1effb42e328822b26b82c531ab69a0a4f55bd53b9df3110d2295d4451708ae85fbd40d381a32035cbbbe4ebe4213d103406925bc9eab0f9ccf1acc9ac2753635"
+RPM_NAME = "texlive-ddphonism-2023.209.0.0.2svn52009-53.1.noarch.rpm"
+RPM_HASH = "c374abf23f2d869a275366c846e90e9dde7b2b6f71bca6f454800121078b4ddc2aa00144438884bcafc6eb8e324637e40bea767a06793f8670ecba116a763de3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ddphonism.sty \

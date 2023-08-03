@@ -4,10 +4,10 @@ IGC, CUP, NMEA, SLF, SML, LOC, OziExplorer (PLT, RTE, WPT), Garmin GPI&CSV, \
 TomTom OV2&ITN, ONmove OMD/GHP and geotagged JPEG files."
 LICENSE = "GPL-3.0-only"
 
-PV = "13.4"
+PV = "13.5"
 
-RPM_NAME = "gpxsee-13.4-1.2.aarch64.rpm"
-RPM_HASH = "22e776bd22a0c89681b89a059c8331415413fe12d5b31cc4ee5ac21525647b86c6e2ac6f37b32906d96efdc2e2d5d715c1660afb46f150a1d16b5d5f44645d03"
+RPM_NAME = "gpxsee-13.5-2.1.aarch64.rpm"
+RPM_HASH = "b0cd92410f9040db5789abbed053906245cb8a6d2490919af30d581bc68b939aaea77530ff6989225f9abdccd3fd13dccdcd28fee4e4c70d9e1e9d138f7a0660"
 
 RPROVIDES:${PN} += "gpxsee"
 

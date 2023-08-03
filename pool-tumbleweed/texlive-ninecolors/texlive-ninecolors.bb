@@ -8,10 +8,10 @@ foreground and background colors, you will get proper WCAG \
 Color Contrast."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2022dsvn62006"
+PV = "2023.209.2022dsvn62006"
 
-RPM_NAME = "texlive-ninecolors-2023.201.2022dsvn62006-54.1.noarch.rpm"
-RPM_HASH = "7690216eb25b3d30d9621510d43ffc574b5eaa912a27291f91c5ee62c4ce5cea7d05b4301e7a32864ec47d59d30fade826b46cffc6e82b1d4de39adffe2a5c0b"
+RPM_NAME = "texlive-ninecolors-2023.209.2022dsvn62006-55.1.noarch.rpm"
+RPM_HASH = "056ee37a81983679cb6ffa3057e85b0c05d0d955b7cd510587bd28a0007d9d6a82a3e5710f4091f75f85f9ef1aa9f4f5d54cd42ae1ce7710eae89c97361723c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ninecolors.sty \

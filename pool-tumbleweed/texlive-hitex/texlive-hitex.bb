@@ -13,10 +13,10 @@ varying screen sizes, leveraging the ability of TeX to format a \
 document for nearly-arbitrary values of \\hsize and \\vsize."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65883"
+PV = "2023.209.svn65883"
 
-RPM_NAME = "texlive-hitex-2023.201.svn65883-53.2.noarch.rpm"
-RPM_HASH = "c34c43b3289a2b7b4e8ffa8b3be23741e336b25cdfa5e89229cdb9497c9bb7421a97520f926b7f75e0b3646d449af5cfa474ce301ca4d0425145939107dab95f"
+RPM_NAME = "texlive-hitex-2023.209.svn65883-54.1.noarch.rpm"
+RPM_HASH = "24eee809b2488af9d31138c91cf829ee39c33ec8427903a2ff351204bd780266221b1060ad19174580b69b7aaff1e3f97ba9229b57b9906ac4e594d29be8dcc4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hiltxpage.tex \

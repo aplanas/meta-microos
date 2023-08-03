@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.6.15"
 
-RPM_NAME = "libbemenu0-0.6.15-1.1.aarch64.rpm"
-RPM_HASH = "6a5c815dc7dde724555dcca73af20c7646861e02efd0a693f2cb334dc233a4cbed0de459e63ad5d696999e7d1b9eefc494e86b8174f72debac522acdfabf4839"
+RPM_NAME = "libbemenu0-0.6.15-1.2.aarch64.rpm"
+RPM_HASH = "ab7a8f11ab6a9b6d5e73750a8e0ee6747b5131a3768844866d7f33506e6c69e0426b73af83a6801a2880942d6863bfb95f037b778170255cfbe2c9c8923e28e7"
 
 RPROVIDES:${PN} += "libbemenu.so.0 \
 libbemenu0"

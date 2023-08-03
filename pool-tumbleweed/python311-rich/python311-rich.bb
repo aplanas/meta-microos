@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "13.4.2"
 
-RPM_NAME = "python311-rich-13.4.2-1.1.noarch.rpm"
-RPM_HASH = "d5ad6bccf69c48c381d281f6358b27429afa0c006141bd197bf7f7d14767c109ab08f42f13be3a1688623981f41e5a10b371d67c221dc97ca6274c4ba5ab155e"
+RPM_NAME = "python311-rich-13.4.2-2.1.noarch.rpm"
+RPM_HASH = "4144d1ffd985749b017a92dea140b57dfc527f53d1662aecdeadded6fbbea1c4fb9ca3e945bde1b5c01960845fade2e5d1b48b5d5e0f586f05d7df6ba54787cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-rich \

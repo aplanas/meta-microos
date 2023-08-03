@@ -4,10 +4,10 @@ for typing fractions. Units uses nicefrac in typesetting \
 physical units in a standard-looking sort of way."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.9bsvn42428"
+PV = "2023.209.0.0.9bsvn42428"
 
-RPM_NAME = "texlive-units-2023.201.0.0.9bsvn42428-53.1.noarch.rpm"
-RPM_HASH = "0b44830adda9a72975421a16fd1ae6a00080e6cbdc93fc9b4f50165beb818c1b7e73480d38a2a2ae30d06aaefb9c8965cc930e4487a2e328c021fc72e3b8c82d"
+RPM_NAME = "texlive-units-2023.209.0.0.9bsvn42428-54.1.noarch.rpm"
+RPM_HASH = "810c355062c5603dd8320e559477d2234b888a0212a49482fa40b0d6751dbd20f4021348feb066a83f36be07f532ba4420b5719f5ec21b30bac5e5edc22dace0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nicefrac.sty \

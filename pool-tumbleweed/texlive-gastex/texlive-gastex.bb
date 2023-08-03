@@ -4,10 +4,10 @@ graphs, automata, nets, diagrams, etc., very easily, in the \
 LaTeX picture environment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.0svn58505"
+PV = "2023.209.3.0svn58505"
 
-RPM_NAME = "texlive-gastex-2023.201.3.0svn58505-52.1.noarch.rpm"
-RPM_HASH = "2ff9ec9c7c0ddc2a0545e7531b3cf0b9f10f9d576700e067a0b7f19a4e2764bc1b2211a4d351560f069d598afab938d1a645900e76cad09f9919f3157ad87671"
+RPM_NAME = "texlive-gastex-2023.209.3.0svn58505-53.1.noarch.rpm"
+RPM_HASH = "a4a766a171e1e9a5a4f0df39161a0746d6f39ab43ffde40a8f5f457694aacdd6255b25852dcfc49d890a6ceedcfb9e7cfc07bb2ed4bcc34069a38a7fec6ebe87"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gastex.sty \

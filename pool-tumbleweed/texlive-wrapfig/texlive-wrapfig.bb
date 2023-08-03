@@ -5,10 +5,10 @@ in a parbox or minipage, and in twocolumn format. Supports the \
 float package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.6svn61719"
+PV = "2023.209.3.6svn61719"
 
-RPM_NAME = "texlive-wrapfig-2023.201.3.6svn61719-52.2.noarch.rpm"
-RPM_HASH = "9a02bf00644cfc3021e6582f287cf7a46023a877e1a1fbb3b6fa107ba3059a3fe220765a9f09dc63754c7529659dd8aa5842241d4ca060c24540a3d4f5efabad"
+RPM_NAME = "texlive-wrapfig-2023.209.3.6svn61719-53.1.noarch.rpm"
+RPM_HASH = "4441e5eadaa4554821830912dcbeb09207e88cee7abc017e7b37f57e9b6661d565bac29399fbe32d0f3769ab466f326d5e80ba53c8084e4d7c94ce0513decd5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-wrapfig.sty \

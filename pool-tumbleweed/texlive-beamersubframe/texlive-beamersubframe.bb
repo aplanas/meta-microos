@@ -5,10 +5,10 @@ append frames with details on some subject. The author \
 describes the package as 'experimental'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn23510"
+PV = "2023.209.0.0.2svn23510"
 
-RPM_NAME = "texlive-beamersubframe-2023.201.0.0.2svn23510-53.1.noarch.rpm"
-RPM_HASH = "b6bf61aaa57c8e5f9b3bca8ffc52362c4c581b467f4bd034c5d43c243d0482f41fca2d92945c171bcb51526b475a1f05bd1a0090e0fc44dcbb3d960f277afb6b"
+RPM_NAME = "texlive-beamersubframe-2023.209.0.0.2svn23510-54.1.noarch.rpm"
+RPM_HASH = "ae314775b04d52a44bce1d4ef1eced9ccb89dfc9d24588f34de5d21ad05f4c31d240e03a5256b0ffa9f08d6bae621a1e16230d1c8cf0bdfd6595251c047ef05a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamersubframe.sty \

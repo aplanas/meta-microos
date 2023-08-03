@@ -4,10 +4,10 @@ format. This allows both a written and online version even of older \
 LaTeX texts."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023"
+PV = "2023.2"
 
-RPM_NAME = "latex2html-2023-1.3.noarch.rpm"
-RPM_HASH = "c8c09f4e880baf2c6a33985540a6992de688288c0bfe8b87bfe167b8ecf07d4cf0004d40991936813664b4317ad9bd205a91c39e7c819655441592dd657b7476"
+RPM_NAME = "latex2html-2023.2-1.1.noarch.rpm"
+RPM_HASH = "9b69dd33033fc442c342080b54ae1a2b40f7b97cfbffca40a1270efa10c8947704c99266da1848aa45e908d74dff8e2ea292bfc5dcd2eb58aa6c0f5b89bcfdd8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "latex2html \

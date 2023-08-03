@@ -4,10 +4,10 @@ EAN-13; it uses the (generic) package ean13.tex to typeset the \
 actual barcode."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn57514"
+PV = "2023.209.svn57514"
 
-RPM_NAME = "texlive-ean13isbn-2023.201.svn57514-53.2.noarch.rpm"
-RPM_HASH = "03a54dafe5e5c55c51bb1f7dc23be60279e4316e38078e74fd840c091710fe1bf77fbd6b648adf2498eac90d60e2de0f3ea4762a6ad986fe63070adfba02cf40"
+RPM_NAME = "texlive-ean13isbn-2023.209.svn57514-54.1.noarch.rpm"
+RPM_HASH = "fa2cdb41492020dcdfe4a38ad75d8921cb8791a57394db86564e7c62afe30f5727662388075cdffc4c9e8c8b0b5f1b128528c0c67997b7a87c6a48edec32db13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ean13isbn.sty \

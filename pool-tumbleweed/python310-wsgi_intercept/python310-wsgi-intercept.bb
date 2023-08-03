@@ -6,18 +6,18 @@ them into a `WSGI application`_ importable by your test program.  Thus, you \
 can avoid spawning multiple processes or threads to test your Web app."
 LICENSE = "MIT"
 
-PV = "1.11.0"
+PV = "1.12.1"
 
-RPM_NAME = "python310-wsgi_intercept-1.11.0-1.3.noarch.rpm"
-RPM_HASH = "bcde65364c311873b9647a2abfb646f2adc8152be619f5d632062b677dfbd2c3f028a72b3da4a54cc00a0ba342ed190918162600d6e06f610a883d2fb8586234"
+RPM_NAME = "python310-wsgi_intercept-1.12.1-1.1.noarch.rpm"
+RPM_HASH = "11d7c887a191f74fa0122c3274385203b271c172508ab539e1e054f665271c8771b068dabe6c88c8683807b72d9993cdb3241b116ddcf810e6087a9481167f54"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-wsgi-intercept \
-python3.10dist-wsgi-intercept \
+RPROVIDES:${PN} += "python3.10dist-wsgi-intercept \
 python310-wsgi-intercept \
 python3dist-wsgi-intercept"
 
 RDEPENDS:${PN} += "python-abi \
-python310-six"
+python310-six \
+python310-urllib3"
 
 inherit rpm

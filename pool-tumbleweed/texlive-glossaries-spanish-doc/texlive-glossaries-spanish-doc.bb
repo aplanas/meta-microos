@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-glossaries-spanish"
 DESCRIPTION = "This package includes the documentation for texlive-glossaries-spanish"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn35665"
+PV = "2023.209.1.0svn35665"
 
-RPM_NAME = "texlive-glossaries-spanish-doc-2023.201.1.0svn35665-53.2.noarch.rpm"
-RPM_HASH = "036a4f65a085ec20a440b559f6de0e5a906d04356dd4c0fc4199d467fc36d24b4852493aea0ac802451ed23f85213e93542b6c7971eae0f0d8a965adc9ef7cfe"
+RPM_NAME = "texlive-glossaries-spanish-doc-2023.209.1.0svn35665-54.1.noarch.rpm"
+RPM_HASH = "68c1704a1fe2119c098aa6ebe0c7e37784be2d644253b7e5db6a57ce776538cc9cd0f39c7fbc40352bb8e950446e92d6844eaf800f16aac2f9a39e3623f362db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-glossaries-spanish-doc"

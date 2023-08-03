@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-jfmutil"
 DESCRIPTION = "This package includes the documentation for texlive-jfmutil"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3.3svn60987"
+PV = "2023.209.1.3.3svn60987"
 
-RPM_NAME = "texlive-jfmutil-doc-2023.201.1.3.3svn60987-55.1.noarch.rpm"
-RPM_HASH = "1a28566c60f325eed87922dc0100131825ad9b4c2bbdeb731e64341443209b0ee12faf79471845850b9e4403b3d70ace03d04f3b4590f4a859d3f254ce55b843"
+RPM_NAME = "texlive-jfmutil-doc-2023.209.1.3.3svn60987-56.1.noarch.rpm"
+RPM_HASH = "683bf1eb71c3fc8303c4f4fcde7c423db7c9fdff51ad3865dc8b1047bfee70f04217f0b46b391b5a4fd5abde10319b7775fcbcba1fbfc4208c588f3f5bf53867"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-jfmutil-doc-ja \

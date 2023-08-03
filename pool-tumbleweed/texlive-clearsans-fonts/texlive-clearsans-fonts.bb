@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-clearsans"
 DESCRIPTION = "The  separated fonts package for texlive-clearsans"
 LICENSE = "Apache-1.0"
 
-PV = "2023.201.svn64400"
+PV = "2023.209.svn64400"
 
-RPM_NAME = "texlive-clearsans-fonts-2023.201.svn64400-53.1.noarch.rpm"
-RPM_HASH = "cf275837f7130a9b599ef0dcab70dcaebdd468220f217751eb318dae7a27cd34f732c0880c0a27f48913760be4866756e96b870bf669e64466f5579a7a92124e"
+RPM_NAME = "texlive-clearsans-fonts-2023.209.svn64400-54.1.noarch.rpm"
+RPM_HASH = "4761d7b6508330c911214fa00e291687ea9211f2b30dc70fe3bf60cce5ddabdbe7e6369ccf788f064abd7157458f8730f05a551de421b7854e57580c5dff8f19"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-clearsans-fonts \

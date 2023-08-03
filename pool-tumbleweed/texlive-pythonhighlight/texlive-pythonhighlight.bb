@@ -2,10 +2,10 @@ SUMMARY = "Highlighting of Python code, based on the listings package"
 DESCRIPTION = "Highlighting of Python code, based on the listings package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn43191"
+PV = "2023.209.svn43191"
 
-RPM_NAME = "texlive-pythonhighlight-2023.201.svn43191-53.2.noarch.rpm"
-RPM_HASH = "7c504b1d1e769b5ea19608887e9f6f2f82c23eee31e69c19f5bce949acdce632a6b0c596f0e980be01249a3767d75b8544cf7068f8661095f1eba1b7165cf9e7"
+RPM_NAME = "texlive-pythonhighlight-2023.209.svn43191-54.1.noarch.rpm"
+RPM_HASH = "9e19eeb4cfe378eb48de0c4a6930c85f5946d720c9fedef4ebdcf42a444e2fdac87fe2f042f407b162650c6f37fc6aa6280527b44f62d5d9f05895050ca5c54c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pythonhighlight.sty \

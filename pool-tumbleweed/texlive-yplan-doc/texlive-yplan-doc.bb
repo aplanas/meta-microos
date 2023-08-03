@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-yplan"
 DESCRIPTION = "This package includes the documentation for texlive-yplan"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn34398"
+PV = "2023.209.svn34398"
 
-RPM_NAME = "texlive-yplan-doc-2023.201.svn34398-52.2.noarch.rpm"
-RPM_HASH = "2644988dbbe0e436074f832daf225d9cf63e3f9750314610a8ff761dc0fc232d1d4e3aecf295b09effd4c44e5a8214d2faa60655abaf9479dbb6977eaa22fe50"
+RPM_NAME = "texlive-yplan-doc-2023.209.svn34398-53.1.noarch.rpm"
+RPM_HASH = "5686fde6834571baab897fb0dc45235b83a2a9cb0da1eddb11ef79f031ea66f47f826c113ef2b32df9a5619db43ef05a8708f0fe25ac11cf2e92d50048b1c144"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yplan-doc"

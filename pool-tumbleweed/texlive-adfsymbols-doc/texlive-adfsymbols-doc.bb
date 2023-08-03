@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-adfsymbols"
 DESCRIPTION = "This package includes the documentation for texlive-adfsymbols"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2bsvn54512"
+PV = "2023.209.1.2bsvn54512"
 
-RPM_NAME = "texlive-adfsymbols-doc-2023.201.1.2bsvn54512-54.1.noarch.rpm"
-RPM_HASH = "7082ab69c702f1cd41d54e17733aa10f33aeee82eadf72586ae680da0175758c01aee72c7357a0cc984d0bb7c45b03290a1ef0174d6302bbcdd391e12207821a"
+RPM_NAME = "texlive-adfsymbols-doc-2023.209.1.2bsvn54512-55.1.noarch.rpm"
+RPM_HASH = "bc582758296e9b56a04bfdbc282dfd8a6abe892632080ff3fe29a96fc3330356fc0fb1cc803d7b80bb619198e1e0c05b9b18fc0843c44085cf5dc060efd62385"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-adfsymbols-doc"

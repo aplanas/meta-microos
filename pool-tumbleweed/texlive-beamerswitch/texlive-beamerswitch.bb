@@ -10,10 +10,10 @@ be chosen from the command line (without changing the document \
 itself)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.9svn64182"
+PV = "2023.209.1.9svn64182"
 
-RPM_NAME = "texlive-beamerswitch-2023.201.1.9svn64182-53.1.noarch.rpm"
-RPM_HASH = "87afef2b4debb8af34c056f7a01259959082122fadb20d397fe6cd9e0740326c3d4b07699e27a1f68d0ef12fdf86b22dff7944bf98feaaa80870ffd3beaaeda5"
+RPM_NAME = "texlive-beamerswitch-2023.209.1.9svn64182-54.1.noarch.rpm"
+RPM_HASH = "275e766e0b7035cf0bd0536548753f29aaada86428b86bcff4208658224707d20c080beca5ddd1ad3e5e458683bb29272567ed85707b693f0941279d044458cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamerswitch.cls \

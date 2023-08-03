@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-frankenstein"
 DESCRIPTION = "This package includes the documentation for texlive-frankenstein"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-frankenstein-doc-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "031bce8378e787c2f3c2e5c624585bccc574400195f8ad3322004b8dd2f683ed79ccc6b34be9ebc43c3ba3d6b17ead7f03536f4b454f835b57903d1a45c6ea19"
+RPM_NAME = "texlive-frankenstein-doc-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "a250e2d5f17c2cd472e43d6f21745e8ae858885801c252bda36e144d1ff87930bccffa4c9243a11d2613152abec2034a985d4fd785682a179193da664e8514e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-frankenstein-doc"

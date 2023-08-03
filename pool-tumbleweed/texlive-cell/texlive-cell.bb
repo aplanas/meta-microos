@@ -4,10 +4,10 @@ distribution), developed from the same author's JMB style. A \
 supporting LaTeX package is also provided."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn42428"
+PV = "2023.209.svn42428"
 
-RPM_NAME = "texlive-cell-2023.201.svn42428-52.1.noarch.rpm"
-RPM_HASH = "126cad7577c79d99fe63244cf308b97acaea3a5dee6b5b010fb09e67fa9d4048e0ee66dbadca3f650a9f8e775ff509a3e798eb748e17bb8df44ebe2e56b1bf74"
+RPM_NAME = "texlive-cell-2023.209.svn42428-53.1.noarch.rpm"
+RPM_HASH = "5ec5305515d8333156e0195aeb661767fc4603af54d00f385435e435eea9e7c90b6b67abc8f8954bf9bd8253b3b55960d442fe1ab6445b45d0f34e8083c46817"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cell.sty \

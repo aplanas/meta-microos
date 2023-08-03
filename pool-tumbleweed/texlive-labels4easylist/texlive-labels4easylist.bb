@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the \\itemLabel macro for adding \
 configurable reference labels to easylist items."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn51124"
+PV = "2023.209.1.0svn51124"
 
-RPM_NAME = "texlive-labels4easylist-2023.201.1.0svn51124-55.1.noarch.rpm"
-RPM_HASH = "2cb264020b57b712313d733d227c718e6fc6dad60fe256a701870810acb4dac6d43f86e7f1e41ee9896f3eb45d62eb5481c859bb18307240317765ef0a063833"
+RPM_NAME = "texlive-labels4easylist-2023.209.1.0svn51124-56.1.noarch.rpm"
+RPM_HASH = "8373a89d05b54f0c34de4559a18bd9ea4f9b0c321849c97de971f9d0ab4201423c63fc2b66adf52527bdffa209c1950ffe3f60f1c9b7c704836c1ea5383f2f2c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-labels4easylist.sty \

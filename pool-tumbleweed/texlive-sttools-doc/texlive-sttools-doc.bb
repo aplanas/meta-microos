@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sttools"
 DESCRIPTION = "This package includes the documentation for texlive-sttools"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.0svn60736"
+PV = "2023.209.3.0svn60736"
 
-RPM_NAME = "texlive-sttools-doc-2023.201.3.0svn60736-57.1.noarch.rpm"
-RPM_HASH = "320545643ccb9d120f1206a9d8385d9432b39b88c83373e1a0600944186cca3b21a39df6d0460ee321b008d150f41898d28c672991ba46b94fd83167b946bceb"
+RPM_NAME = "texlive-sttools-doc-2023.209.3.0svn60736-58.1.noarch.rpm"
+RPM_HASH = "ffd73b81eea13f5468d752728fc7a5a745b7d74abb54b0d2452f833533ff972f0de361a619608a0e9130b015751ff2609c4e41f82e3dec464830dc584177f0e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sttools-doc"

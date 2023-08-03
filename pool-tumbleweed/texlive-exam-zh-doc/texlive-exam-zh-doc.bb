@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-exam-zh"
 DESCRIPTION = "This package includes the documentation for texlive-exam-zh"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1.20svn64434"
+PV = "2023.209.0.0.1.20svn64434"
 
-RPM_NAME = "texlive-exam-zh-doc-2023.201.0.0.1.20svn64434-52.1.noarch.rpm"
-RPM_HASH = "3d77928b54f1678db32df8f64f7ede344f2164b45cfda90d8e197d2112793f26961fc373c23dba28d1dca6c3e4a955684c28ff2f8dbfcfc310474b861759068c"
+RPM_NAME = "texlive-exam-zh-doc-2023.209.0.0.1.20svn64434-53.1.noarch.rpm"
+RPM_HASH = "52876503862b68cda31d6c00a63750ab567aa5eee4880b09bc6c831dae7f6684645221d2b747187d5fdae8ec39c5830adaa996398a5e917a7cc595e422d229e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-exam-zh-doc"

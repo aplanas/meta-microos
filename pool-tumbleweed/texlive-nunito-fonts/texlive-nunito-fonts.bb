@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-nunito"
 DESCRIPTION = "The  separated fonts package for texlive-nunito"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.0.1svn57429"
+PV = "2023.209.0.0.0.1svn57429"
 
-RPM_NAME = "texlive-nunito-fonts-2023.201.0.0.0.1svn57429-54.1.noarch.rpm"
-RPM_HASH = "a383fb8e99a873c8729075c6c791e8541496249a6f1228dd188e4387f75530eabe2cc1235255bbd2f90238bc322eb2caf0f68b4fd0a60841dac9611875681d67"
+RPM_NAME = "texlive-nunito-fonts-2023.209.0.0.0.1svn57429-55.1.noarch.rpm"
+RPM_HASH = "211d6a0dddd6013d77ac5672fdc1384bdb9d88002ee820c4b6c850553225efcd4f1bd3b235782d8dc4b326a82c4f942a1dc5b51585af9badcd0b071ac877a199"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-nunito-fonts \

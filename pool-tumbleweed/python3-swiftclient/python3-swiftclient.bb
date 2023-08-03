@@ -7,12 +7,12 @@ LICENSE = "Apache-2.0"
 
 PV = "4.1.0"
 
-RPM_NAME = "python3-swiftclient-4.1.0-1.3.noarch.rpm"
-RPM_HASH = "de30a4ab4348cc5359eb24f80e3a848ada95509508ce3dcb8a4bf0745226bc56dd357ede1e422d985f93925a91d8255eaf6fe7df8b043c7b3a21e4c489f34651"
+RPM_NAME = "python3-swiftclient-4.1.0-1.4.noarch.rpm"
+RPM_HASH = "e9c8e91f61a4150cbd875741de1f1c54016be5c56fab3274355fc8a2c8b5bb0985d94403ff9f23ce7a88ca30cf03f9b2b30847f3d2b78c4dbc953e4cfa52817c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-swiftclient \
-python3.10dist-python-swiftclient \
+python3.11dist-python-swiftclient \
 python3dist-python-swiftclient"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \

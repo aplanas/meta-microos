@@ -11,10 +11,10 @@ configuration file standalone.cfg to redefine the standalone \
 environment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3bsvn64677"
+PV = "2023.209.1.3bsvn64677"
 
-RPM_NAME = "texlive-standalone-2023.201.1.3bsvn64677-57.1.noarch.rpm"
-RPM_HASH = "3bc6ae35ff5f22aaf6527bc28275986a08cddb953908d1f9fa9c308751ee142507f8c5db35dd94ae993666e5058d3edc217ce2b84fb2d9d174518d211ea92b17"
+RPM_NAME = "texlive-standalone-2023.209.1.3bsvn64677-58.1.noarch.rpm"
+RPM_HASH = "527946296719afd1782b16f18adfc2aec2b623ce471435e07a045d4dcb3cd57649da709d05242e75497512e25924e13066aae25fa06aec7b3a483bbdd66b4383"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-standalone.cfg \

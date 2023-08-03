@@ -3,10 +3,10 @@ DESCRIPTION = "A LaTeX package for setting shaded and annotated membrane \
 protein topology plots and helical wheels."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.5svn23796"
+PV = "2023.209.1.5svn23796"
 
-RPM_NAME = "texlive-textopo-2023.201.1.5svn23796-54.1.noarch.rpm"
-RPM_HASH = "77a147ae359788168596e51fd55021be0dba5c5c1850c23e90a46e551ff3a6726e5431d07225f44c1bb949ce8769f5605a3d8e944204443e27dae20b136af367"
+RPM_NAME = "texlive-textopo-2023.209.1.5svn23796-55.1.noarch.rpm"
+RPM_HASH = "fac62fa365aabfa426186247cc90a05ec81051e6443278a3c4f63c88d371405b71e669f723dbc5793d38bbf09e0c694aaac3ed80ad5473a1647a3bddfbc2890f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-biotex.sty \

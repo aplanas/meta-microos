@@ -5,10 +5,10 @@ caption names for a specific language introduced by the Babel \
 package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn64072"
+PV = "2023.209.1.0svn64072"
 
-RPM_NAME = "texlive-bxorigcapt-2023.201.1.0svn64072-52.1.noarch.rpm"
-RPM_HASH = "0433fdbfb6eacc185e7fdb3cf280172972284dd3382ba5f858381aeb667fe3e6e07334935a2cf4f4c45d9f44aac170386bef246e2c879b0c89bcbf99eb2eb4aa"
+RPM_NAME = "texlive-bxorigcapt-2023.209.1.0svn64072-53.1.noarch.rpm"
+RPM_HASH = "725c19eb0604ea74b21e85e8e0091ffd663968061fa7c5812e0e16844cd0d06ba0765588f158725fa9fc69546d8a8c5eae5ee066b409b1f886f79478dd49afbd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bxorigcapt.sty \

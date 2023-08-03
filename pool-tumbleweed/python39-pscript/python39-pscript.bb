@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.7.7"
 
-RPM_NAME = "python39-pscript-0.7.7-1.5.noarch.rpm"
-RPM_HASH = "4ed0130a8dee76f7bb8380c39150d9e66a9e70299b1011027fa645fb02b99f81f331ba66ea9c1da23382ce735f920ee949e41480068ec038ce482543f6b87286"
+RPM_NAME = "python39-pscript-0.7.7-2.1.noarch.rpm"
+RPM_HASH = "8c460d20d826e58117c3ee59f0ee3e770768271cea80ca937cda18a10b6398a53f04a92946064521a6761af677628ff143a4b05316178ed0f4cddb09c0b760ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pscript \

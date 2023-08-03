@@ -8,10 +8,10 @@ defined, as well as translations to Norsk of standard 'LaTeX \
 names'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0csvn30288"
+PV = "2023.209.1.0csvn30288"
 
-RPM_NAME = "texlive-babel-samin-2023.201.1.0csvn30288-53.1.noarch.rpm"
-RPM_HASH = "e701156e3819b2b06747622d01b9029300e382eb6bfe97770016b6028d1b52f54119aa948fc189849ad8134d4bb6614cb3c3e2e711688a45e95ba5c6391b04a9"
+RPM_NAME = "texlive-babel-samin-2023.209.1.0csvn30288-54.1.noarch.rpm"
+RPM_HASH = "266944ce12fdd620da1c985bcf54ffaa07f2c1203eaf91c30254f48071dbac935e8a689e4a26712d5fc9631da4c98489a5ce59f96dd5c05c794f7184712bf4df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-samin.ldf \

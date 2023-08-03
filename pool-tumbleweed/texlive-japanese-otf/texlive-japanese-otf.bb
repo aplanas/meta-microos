@@ -4,10 +4,10 @@ supporting a wide variety of fonts in LaTeX using the pTeX \
 engine."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.svn66091"
+PV = "2023.209.svn66091"
 
-RPM_NAME = "texlive-japanese-otf-2023.201.svn66091-55.1.noarch.rpm"
-RPM_HASH = "3bf42ef75346d2812fcbaa24b95c223e0fd40b0fb0b114a31bd026cc75f0eab6461ac850d6e3a2c4c124e09bcf09b976d84ce059ba568effe2ba59fcba95a3c4"
+RPM_NAME = "texlive-japanese-otf-2023.209.svn66091-56.1.noarch.rpm"
+RPM_HASH = "c0bc76accc700f8123d8eba9d9281c80b7fa7b7f08ef4dc60cb9918017b85464e6574a3c933832320fdfd92c452bee77bf0fb6f5fa3e2d912be568c8f40865bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ajmacros.sty \

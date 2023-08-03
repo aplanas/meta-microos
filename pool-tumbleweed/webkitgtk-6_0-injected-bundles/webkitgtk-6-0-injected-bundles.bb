@@ -8,10 +8,10 @@ also supports DOM, XMLHttpRequest, XSLT, CSS, Javascript/ECMAscript and \
 more."
 LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
-PV = "2.40.3"
+PV = "2.40.4"
 
-RPM_NAME = "webkitgtk-6_0-injected-bundles-2.40.3-2.1.aarch64.rpm"
-RPM_HASH = "ea5e32a3ade3eaa65fa31cda5eaaa328d66a75cae1110f4d97d0e853c9777900625d8284a4934dc3bbb2180c5d52762f0437d02de24f7e29db3198e861e394c1"
+RPM_NAME = "webkitgtk-6_0-injected-bundles-2.40.4-1.1.aarch64.rpm"
+RPM_HASH = "9e68295a93ab65e8f20281b1d77957acf40c09f03e9f415213ead1267c4fc66b953e3f7fe58874343bab099fc203671efdc542ba8226f27bffa3bba6c64d6f89"
 
 RPROVIDES:${PN} += "libwebkitgtkinjectedbundle.so \
 webkitgtk-6-0-injected-bundles"

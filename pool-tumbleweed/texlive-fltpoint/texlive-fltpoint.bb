@@ -4,10 +4,10 @@ DESCRIPTION = "The package provides simple floating point operations \
 Used, for example, by rccol."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1bsvn56594"
+PV = "2023.209.1.1bsvn56594"
 
-RPM_NAME = "texlive-fltpoint-2023.201.1.1bsvn56594-52.1.noarch.rpm"
-RPM_HASH = "34949046b916de4d4a89b4b96ab7945209098bd975ed90f4cdab497a791c6dd9f1ff5e775ff717bd89992977488541f6dbe830160f646fec88c082898a2d5208"
+RPM_NAME = "texlive-fltpoint-2023.209.1.1bsvn56594-53.1.noarch.rpm"
+RPM_HASH = "c8108108082e5540354a41b62a294a4682bc24494cea0fc5d052f8c22986f57cded8f2528d2c84c86b413b755e783806b9dabb8d9630faab7d4169828726b4b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-deccomma.sty \

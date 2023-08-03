@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides Unicode normalization (useful for \
 composed characters) for LuaLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn57257"
+PV = "2023.209.0.0.1svn57257"
 
-RPM_NAME = "texlive-uninormalize-2023.201.0.0.1svn57257-53.1.noarch.rpm"
-RPM_HASH = "a02cf5fceb29014ca523738d80efe8595bc98c7ebab053901654c03cc642306d397c4697b45dc27782e3c0f5c910af370f4442da6b78793e746559da1264fa6b"
+RPM_NAME = "texlive-uninormalize-2023.209.0.0.1svn57257-54.1.noarch.rpm"
+RPM_HASH = "5a117bc6eae750ec408763a23afffe77dbbd051aec905449a09f484e47f086d7f85d18896a41c4a3151064d274bb8e7981129952f67bba9ec28b5ee3b0cefa9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uninormalize.sty \

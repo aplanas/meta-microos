@@ -8,10 +8,10 @@ LaTeX macros to conveniently use them. This package works with \
 LuaLaTeX and relies on luamplib v2.23.0 or higher."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.2.2svn61943"
+PV = "2023.209.0.0.2.2svn61943"
 
-RPM_NAME = "texlive-byrne-2023.201.0.0.2.2svn61943-52.1.noarch.rpm"
-RPM_HASH = "2c605d0bd58af608bcab0eb85b1ad48ca699f0cbb748237f99b4915b12228fa82a581199b904fafa88acab7e1ab9602f8d3ce69f1c3cf7c610834302d13a256c"
+RPM_NAME = "texlive-byrne-2023.209.0.0.2.2svn61943-53.1.noarch.rpm"
+RPM_HASH = "bda9628eb821a6f7817f8af77bd3eef763fdb470d69134607401f98b9d43d089c45dbdd2625d5580666a980731abd3bd2c3ae779e7bea5a987c75fed3c81554d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-byrne.sty \

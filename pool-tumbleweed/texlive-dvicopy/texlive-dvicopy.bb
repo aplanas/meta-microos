@@ -5,10 +5,10 @@ file that does not contain such references. It also serves as a \
 basis for writing DVI drivers (much like DVItype)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.5svn66186"
+PV = "2023.209.1.5svn66186"
 
-RPM_NAME = "texlive-dvicopy-2023.201.1.5svn66186-53.2.noarch.rpm"
-RPM_HASH = "8bae7f70d2ad3af955d234508b7e76d7fa477a0bff8b46207eb88ebf847f5552ca080de53fe81e9c71150ea0239c51df76e0c1ffdc9104acd8ff3e85f00b676f"
+RPM_NAME = "texlive-dvicopy-2023.209.1.5svn66186-54.1.noarch.rpm"
+RPM_HASH = "f263b4e76b94dab1c3414c884f3b0b98571c67f48c3cf123150d7a5bcbce62e8366162b4d92fa75567e1d7391ddeda6c2f59f4bcf5a5754f6bf6327a73193c7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-dvicopy.1 \

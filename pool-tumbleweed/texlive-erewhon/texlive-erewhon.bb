@@ -7,10 +7,10 @@ superior letters. The size is 6% smaller than Heuristica, \
 matching that of UtopiaStd."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.12svn63312"
+PV = "2023.209.1.12svn63312"
 
-RPM_NAME = "texlive-erewhon-2023.201.1.12svn63312-53.2.noarch.rpm"
-RPM_HASH = "d591a936d401805d628ee89491ce7fc89ee7bad9b4e455016f277862408fc1bbf4b87757dc9ef5a2d89d10fc4d876b790ae00a4c8c93095f6743b8702b485edc"
+RPM_NAME = "texlive-erewhon-2023.209.1.12svn63312-54.1.noarch.rpm"
+RPM_HASH = "b44ec4ab14cdb2b929e9d0f8db849381af23d80c49b0e405939b58c2042299f5f50a56e03178f144457b696a3bf390b5de039fe6ae5d73d2ed6a603b8c8ca318"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Erewhon-Bold-dnom-ly1.tfm \

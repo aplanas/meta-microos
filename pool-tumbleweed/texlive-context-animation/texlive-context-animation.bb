@@ -3,10 +3,10 @@ DESCRIPTION = "The package is a port, to Context (mkvi), of the corresponding \
 LaTeX package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn47085"
+PV = "2023.209.svn47085"
 
-RPM_NAME = "texlive-context-animation-2023.204.svn47085-54.1.noarch.rpm"
-RPM_HASH = "713ca0759264b0c0a23f0f6d60164080c7e21cbd63efed31a5ed375943cb59e410bf3541f8f37441ab0122f95c20f8ace92b6e619d4b18d6b01d68c8742b35b9"
+RPM_NAME = "texlive-context-animation-2023.209.svn47085-55.1.noarch.rpm"
+RPM_HASH = "5eb0ef9ca009e3f7468ed739afb65a8a7927a022ba2e8f2edea08fa59138e586628b86117a6ad2507170e29143208f9a5d62dbbd0c1fd58a493e29015a8fd34b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-animation"

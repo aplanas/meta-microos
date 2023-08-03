@@ -5,10 +5,10 @@ this end it contains classes as well as some helper packages \
 and config files together with some demo files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1.5svn66461"
+PV = "2023.209.2.1.5svn66461"
 
-RPM_NAME = "texlive-bfh-ci-2023.201.2.1.5svn66461-53.1.noarch.rpm"
-RPM_HASH = "f1f327c617c112e97fd95eff57ce027c5affb18e6a1b70ff0f383414c31ecbed4ff388933d71c4230ab1a8610d91e2ad417e63e0686fe047addf18f6f1b9980a"
+RPM_NAME = "texlive-bfh-ci-2023.209.2.1.5svn66461-54.1.noarch.rpm"
+RPM_HASH = "2132ba638b0b2415349954c738374667b3edabb26ab35ea1b6baab07af39abb96c910e189ae98e2175fb41cc8df8c2401ec68237d4a18413fb77f5cde9ce11f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemeBFH.sty \

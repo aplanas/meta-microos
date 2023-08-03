@@ -5,10 +5,10 @@ pictures. It has a tendency to run out of space; packages \
 m-pictex and pictexwd deal with the problems in different ways."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1bsvn59551"
+PV = "2023.209.1.1bsvn59551"
 
-RPM_NAME = "texlive-pictex-2023.201.1.1bsvn59551-51.1.noarch.rpm"
-RPM_HASH = "a6cb03505fcdcb0dd50225b28fe7ca0b718b3e2c62f92ea734a391aa6e6fd68ba73eaaefbe8faab7e7b6f1589d888e3b9c9ce16ad7f84fd4d27fd53a3bf6e18f"
+RPM_NAME = "texlive-pictex-2023.209.1.1bsvn59551-52.1.noarch.rpm"
+RPM_HASH = "b7d8b9c48dadc6672ae6ccc05b6dc845de99ac06e6fa27fc617a1cf97872ff320bd0e3486308ef5c2cb6ca6aaa43d781cbe8a764fcd9dcfbd27ee7366d0a5256"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-errorbars.tex \

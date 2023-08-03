@@ -4,10 +4,10 @@ expandable; this package allows such commands to be expandable \
 provided that they have at least one mandatory argument."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-xoptarg-2023.201.1.0svn15878-52.2.noarch.rpm"
-RPM_HASH = "c8f0d7381cc46da40333d7b5dd97c692eeaab7de80150e7c8a204d7e08426b2dcfe9428466f69c3b9d5f7f07c55057d0bb5ab121bddf595fbbfb9f1b96d597bf"
+RPM_NAME = "texlive-xoptarg-2023.209.1.0svn15878-53.1.noarch.rpm"
+RPM_HASH = "2b419fd4907be63735b1caf06b41a621acaa53d0259981db2fc0d0b455072c5059d090e7c161d8bb26caf4116a8eba795864e8a7ab398b4aecd1684da81308cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xoptarg.sty \

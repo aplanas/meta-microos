@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Declarative Tools"
 DESCRIPTION = "Additional tools for inspecting, testing, viewing QML imports and files."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-declarative-tools-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "3dcf0efc59c4585871fdae5704f44daee790862cf4586183d62c35abdb21209a11ca492d15d7690b9c1f415688ea7049abe173f9f7d8b9b0524c3846b6c5e641"
+RPM_NAME = "qt6-declarative-tools-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "d856fc862bf3c9a3a5faec44f6edb50fc835135d94952cd8cbae39dd63abb2e0429c6f6d0a2df74f611393161250fe2aacfc11236da7896381256c086ebad17c"
 
 RPROVIDES:${PN} += "libqmldbg-debugger.so \
 libqmldbg-inspector.so \

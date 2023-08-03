@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-termmenu"
 DESCRIPTION = "This package includes the documentation for texlive-termmenu"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn37700"
+PV = "2023.209.svn37700"
 
-RPM_NAME = "texlive-termmenu-doc-2023.201.svn37700-54.1.noarch.rpm"
-RPM_HASH = "1d3d8db7f842fa6922783122e8c33ca4cfdbecf7b20f53b82485366f8719a9d144f815b1a2a759afb968de4ab546260fc500faca5c205cd653ec779aa47a3136"
+RPM_NAME = "texlive-termmenu-doc-2023.209.svn37700-55.1.noarch.rpm"
+RPM_HASH = "4aadf78438ec6a1e1973477d001d062106a532f824c5fda24b9a04f404895540a1ab3c55b29120852bf426130e90454294ff3e50e78507853a588c107525ff99"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-termmenu-doc"

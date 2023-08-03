@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-charissil"
 DESCRIPTION = "This package includes the documentation for texlive-charissil"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.6.101svn64998"
+PV = "2023.209.6.101svn64998"
 
-RPM_NAME = "texlive-charissil-doc-2023.201.6.101svn64998-53.1.noarch.rpm"
-RPM_HASH = "0e74be3c5a50fe535f5155f30d01a716ad406eff6caeb69a64c939ed16f7a92dfb8127cbab1ba26ecf8d71a0c592ce0f079448a013ac24897ae6bb9ff3061e0d"
+RPM_NAME = "texlive-charissil-doc-2023.209.6.101svn64998-54.1.noarch.rpm"
+RPM_HASH = "cafd0fbf57bb532c5da6175941460f68f93561ea4d9a507f145635de74363973e36b2414a871661d150bb1918d7f525b4d088e71af279d822200cda26e047d57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-charissil-doc"

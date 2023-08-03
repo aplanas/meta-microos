@@ -4,8 +4,8 @@ LICENSE = "ISC"
 
 PV = "1.6"
 
-RPM_NAME = "python39-progress-1.6-1.9.noarch.rpm"
-RPM_HASH = "cb3d52c418e6e5e29d41183f2a2ef81bdc9805cf7ea7cdfdeea1cb17468840ee56b6a76a88f1aee8e40e6e00ef32c8c4cf6bd6caa585619eee9a0006260a3075"
+RPM_NAME = "python39-progress-1.6-2.1.noarch.rpm"
+RPM_HASH = "5713df394812a7c039e224aeb4237b11dfcc40e96cf36f57bafa9be9c0eb1c14bb0ae40c3ce060c971fdc2f1b349942d1154fd6e87327a725a9f343ffa462df5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-progress \

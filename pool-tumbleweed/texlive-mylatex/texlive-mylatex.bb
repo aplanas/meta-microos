@@ -10,10 +10,10 @@ mylatex.fmt, which you then use as: latex -fmt=mylatex \
 <document>"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn56751"
+PV = "2023.209.svn56751"
 
-RPM_NAME = "texlive-mylatex-2023.201.svn56751-54.1.noarch.rpm"
-RPM_HASH = "3456f180b6e921868375ec5f5ba00e975a92f3b981890b90833f720e96ac73e17dd0e9659ca02cc448dd98af76b61bd16f525b18861e7aeb02914c38d0a0d1a7"
+RPM_NAME = "texlive-mylatex-2023.209.svn56751-55.1.noarch.rpm"
+RPM_HASH = "261bf280ff2a5ae69f1af56334fb24571ab07088a5d5a2da2dcba7b36bf35d8e225b6a384954291dc86810307b4c88068e1bcdbd16d62d3b7e3bf559ff032f36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mylatex"

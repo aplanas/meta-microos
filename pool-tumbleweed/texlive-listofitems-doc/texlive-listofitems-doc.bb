@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-listofitems"
 DESCRIPTION = "This package includes the documentation for texlive-listofitems"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.63svn51923"
+PV = "2023.209.1.63svn51923"
 
-RPM_NAME = "texlive-listofitems-doc-2023.201.1.63svn51923-54.1.noarch.rpm"
-RPM_HASH = "c889d923bac2f1f4db6279758e8a4bdbcef2980b15df010a545bfb32fbdef464e07134d7c070725dc0b1c624034261ef70476d3510768fbb2a3c9df0f1fa8713"
+RPM_NAME = "texlive-listofitems-doc-2023.209.1.63svn51923-55.1.noarch.rpm"
+RPM_HASH = "e67b43756a2e6805fe8b1a20fb7f5c800e62ee249dcc10b1410b4ff08c2327c63de7d5e776666cbcfe726a68b96fbb0e33df3b2d67b8d70a1754afa5f406a77b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-listofitems-doc-en;fr \

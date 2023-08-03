@@ -2,10 +2,10 @@ SUMMARY = "Pytest plugin to add environment variables"
 DESCRIPTION = "A py.test plugin that allows you to add environment variables."
 LICENSE = "MIT"
 
-PV = "0.8.1"
+PV = "0.8.2"
 
-RPM_NAME = "python310-pytest-env-0.8.1-1.3.noarch.rpm"
-RPM_HASH = "e2137676a997146818af38832373091963d0aaf76ebf8cf1bb1b069659db97422b9c3839df401474f233cc564b54d4673bd84e00c8b083cc1c78f60099c3c7d5"
+RPM_NAME = "python310-pytest-env-0.8.2-1.1.noarch.rpm"
+RPM_HASH = "bc50f4b10db9b7a1d38577efb10d1f3ac5a3f34f76b37662b041cb7952a3efea423be64dd16d4c508fd22fd4e60cbbc3337cec3b51c2e835a0337de6d95bb002"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-pytest-env \

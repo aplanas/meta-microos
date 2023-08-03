@@ -5,10 +5,10 @@ on the following other packages: fonts-churchslavonic, \
 hyph-utf8, intcalc, etoolbox, and xcolor."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2.1svn42751"
+PV = "2023.209.0.0.2.1svn42751"
 
-RPM_NAME = "texlive-churchslavonic-2023.201.0.0.2.1svn42751-53.1.noarch.rpm"
-RPM_HASH = "6c67109a50a24ff48bef1b9d4fc2611ed59fcce28be0cc25aebca70ea31648131581579e7af9f40c015c4f89df674526c7b3dae00d0194cc83773c96c4c76f59"
+RPM_NAME = "texlive-churchslavonic-2023.209.0.0.2.1svn42751-54.1.noarch.rpm"
+RPM_HASH = "21a90897085020794a49ab6aa0e97e603ec371e845a3960883256e9e4999bc2c967409d8b192d6de291906ed42758eff607758e42ebcad98f50ba98c91c891d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-churchslavonic.sty \

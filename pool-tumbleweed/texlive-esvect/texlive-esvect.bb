@@ -5,10 +5,10 @@ arrows. The package consists of the relevant Metafont code and \
 a package to use it."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.3svn32098"
+PV = "2023.209.1.3svn32098"
 
-RPM_NAME = "texlive-esvect-2023.201.1.3svn32098-52.1.noarch.rpm"
-RPM_HASH = "1e379d8a2284cabca4c4f500d920b97bff320a26ebf95cd68d7211f5b515202caf5b3b90429dc079287ddb8550d23832a468b41bcdaf7724f3928ca531133618"
+RPM_NAME = "texlive-esvect-2023.209.1.3svn32098-53.1.noarch.rpm"
+RPM_HASH = "d2f2d8f211b9dfadde0b66d96ea0c2b3366cc7a17cec72e3a9b3a06ca4c291d03df3c43dfb21ac255071b033f8f30c7e24ca8485a71f03fb07c8bc7233f7d2dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-esvect.map \

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-esrelation"
 DESCRIPTION = "The  separated fonts package for texlive-esrelation"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn37236"
+PV = "2023.209.svn37236"
 
-RPM_NAME = "texlive-esrelation-fonts-2023.201.svn37236-52.1.noarch.rpm"
-RPM_HASH = "919367f502f37b335764d10e9c5378159ad990a5956b4054f7941330cfc42e65edb3258a5b17b040d2c3287a1f250029b1fb5642ebe0574a8e7855a774df57b9"
+RPM_NAME = "texlive-esrelation-fonts-2023.209.svn37236-53.1.noarch.rpm"
+RPM_HASH = "b7988210089acb45b35d9b32f0b3b77b4edc400e2bd2e1896569c28ac09984f3fe9291ff9da27cb9fa2baa2287b845f8048f32d55592047ebffbd2fbf3ac4a76"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-esrelation10 \

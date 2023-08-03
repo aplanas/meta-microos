@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides facilities for graph-drawing, with \
 facilities designed for neural network diagrams."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.0svn31500"
+PV = "2023.209.1.0svn31500"
 
-RPM_NAME = "texlive-neuralnetwork-2023.201.1.0svn31500-54.1.noarch.rpm"
-RPM_HASH = "e2651e372d1359869c9992c0fe0888d7fe994d6844d92c2527707d2c2982f8ce934a989e40eedf0a173342acc297078b5385d9856da4f1cc78936e154b813f4d"
+RPM_NAME = "texlive-neuralnetwork-2023.209.1.0svn31500-55.1.noarch.rpm"
+RPM_HASH = "f1dda03ab61c7f79b6b9be81d92cd8a188b5a012495f87bbe83c0d9c7d859f5c0c61e3a76138d9964b7854fa496f1e398eaa204c728995e78bb7a995159cb326"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-neuralnetwork.sty \

@@ -6,10 +6,10 @@ In addition to plain file storage this also provides a possibility to \
 host public files and store Git repositories."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.0.2"
+PV = "6.2.2"
 
-RPM_NAME = "kbfs-6.0.2-3.5.aarch64.rpm"
-RPM_HASH = "97489414e5752243dcc9bf59df1fb8ff39130318d152264cbc9ba53fd0ed5725e229f097f0d1b0ae62dd517cac7a3707c9acd686e40ce430b71488b550854d07"
+RPM_NAME = "kbfs-6.2.2-1.1.aarch64.rpm"
+RPM_HASH = "ecc9b9bbf4871d0bd9ff3805d7d902a4b8b8ccdf28c758454e8bbae2ba07c831423f32b0b47df2c5ef0f233aef4a45da43687bd10a66fa7c7434c20f829b8e65"
 
 RPROVIDES:${PN} += "kbfs"
 

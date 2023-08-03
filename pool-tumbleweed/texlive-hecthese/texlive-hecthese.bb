@@ -15,10 +15,10 @@ requirements. The class depends on babel, color, enumitem, \
 fontawesome, framed, numprint, url, and hyperref."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5svn60455"
+PV = "2023.209.1.5svn60455"
 
-RPM_NAME = "texlive-hecthese-2023.201.1.5svn60455-53.2.noarch.rpm"
-RPM_HASH = "11887d542914d0eb2f8c5bd7fc1597cb4342ee9891d244f9182838d5542afb9e44951ee18ded5acb21d9a3b25dd5668eb4d82149857f540f35400dc4100d7486"
+RPM_NAME = "texlive-hecthese-2023.209.1.5svn60455-54.1.noarch.rpm"
+RPM_HASH = "1847b2bc03cf1c00d0abeb8bfa317f387997562bbe18cff89af54a99d01a5dec22157ff8b550bae5e9c07a11681a605b9b4a71871c4bbe4708a11a3cf85014e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hecthese.cls \

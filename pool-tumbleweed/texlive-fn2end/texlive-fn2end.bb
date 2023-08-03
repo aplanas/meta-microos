@@ -3,10 +3,10 @@ DESCRIPTION = "Defines macros \\makeendnotes, which converts \\footnote to \
 produce endnotes; and \\theendnotes which prints them out."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.1svn15878"
+PV = "2023.209.1.1svn15878"
 
-RPM_NAME = "texlive-fn2end-2023.201.1.1svn15878-52.1.noarch.rpm"
-RPM_HASH = "e04bdc428a957723613d1ca4a9b9a31ee94c0f5c3d21a57d1cd14ecb55d80168738b34d0e1346c10ca7fc673de47d2fa1b8b66e1097d1593ed267cf50db193b4"
+RPM_NAME = "texlive-fn2end-2023.209.1.1svn15878-53.1.noarch.rpm"
+RPM_HASH = "25f251838d6d812a9fe11f2701b1fa318f78b143b65779d9c7fae1794e1052d1b1bdacd540d7ec9a3c929a3037dc30ff949ccee53cd998e3e22abae5d2bd8ba5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fn2end.sty \

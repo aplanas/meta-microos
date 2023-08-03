@@ -11,10 +11,10 @@ to override this default behaviour and accept or reject \
 selected changes only."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.3.3svn64980"
+PV = "2023.209.1.3.3svn64980"
 
-RPM_NAME = "texlive-latexdiff-2023.201.1.3.3svn64980-54.1.noarch.rpm"
-RPM_HASH = "05a8b489b22296135d43b0fbd6dc018dcbf304c0ca93e22d157eefcb01a9bcc448080120e9767cbd8e69691f2c4c8370e6bb2b26ddadd28140cbbc2fe188383c"
+RPM_NAME = "texlive-latexdiff-2023.209.1.3.3svn64980-55.1.noarch.rpm"
+RPM_HASH = "1dcf4ca655a10ca792227b3409bf0467e669ad3756c5bef5d5c00a0f97aea536763665e3da1a66aa8c5f19336ce61f553547ceac7e7ea7712a1696d73e0b18e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latexdiff"

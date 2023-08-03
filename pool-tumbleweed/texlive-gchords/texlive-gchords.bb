@@ -6,10 +6,10 @@ typesetting above lyrics. The bundle also includes a TCL script \
 creates LaTeX files that use gchords.sty."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.20svn29803"
+PV = "2023.209.1.20svn29803"
 
-RPM_NAME = "texlive-gchords-2023.201.1.20svn29803-52.1.noarch.rpm"
-RPM_HASH = "868d24440a719176ed9174f21c0654aa26925bccb8f4af1fc518f590f8c86e35999d4df080024741bef09b287902abfd68a5a7940485ac58b1b430cac11f6913"
+RPM_NAME = "texlive-gchords-2023.209.1.20svn29803-53.1.noarch.rpm"
+RPM_HASH = "dc96540a30cbd8967636bf7a9fd5c1ab9e3c8d1495fe5f5b9ed87ef19f75d22ccfd7e668a79f056f46a2621ee90b3c11e4485a5e0ef28cdb60e220927a1fa022"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gchords.sty \

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "0.42.3"
 
-RPM_NAME = "librygel-server-2_8-0-0.42.3-1.2.aarch64.rpm"
-RPM_HASH = "819ee51b82ae5361f2496763f021a720f7f839d658bb6a54e1bec57057ce81b2542a9c266e0e80143b360ffc1a3636e2433e103dc3202f382879955880b5ce33"
+RPM_NAME = "librygel-server-2_8-0-0.42.3-2.1.aarch64.rpm"
+RPM_HASH = "45623794b1a8f914f0ce661283d1b7ba0cf9b7890bde82e575e3610c3faf5eda766d1a7b6130e1511309233484ac62baad5469e764edfc47f752452d66cd541a"
 
 RPROVIDES:${PN} += "librygel-server-2-8-0 \
 librygel-server-2.8.so.0"

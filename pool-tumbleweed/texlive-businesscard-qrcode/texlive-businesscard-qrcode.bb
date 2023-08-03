@@ -18,10 +18,10 @@ varwidth, and wrapfig. The package needs XeLaTeX for working \
 properly."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.201.1.2svn61719"
+PV = "2023.209.1.2svn61719"
 
-RPM_NAME = "texlive-businesscard-qrcode-2023.201.1.2svn61719-52.1.noarch.rpm"
-RPM_HASH = "51b5e3699f55a3369257085c03fff847d22b3e54fe828e04cdd51e5ce1a280ec3073d4075ec2d950356563359d211b82680c6f376e0015e9758ed5550cf808e7"
+RPM_NAME = "texlive-businesscard-qrcode-2023.209.1.2svn61719-53.1.noarch.rpm"
+RPM_HASH = "f27787083b23360d04ff99d6a8b64ee0acb6dac5c660a6029cd8aedc44c1db9fc73428ad0c27a9f13c3a0e50d2fec7a83931d0cb48379655fa790f44df1a059a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-businesscard-qrcode.cls \

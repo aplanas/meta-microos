@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-lato"
 DESCRIPTION = "The  separated fonts package for texlive-lato"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.3.3svn54512"
+PV = "2023.209.3.3svn54512"
 
-RPM_NAME = "texlive-lato-fonts-2023.201.3.3svn54512-54.1.noarch.rpm"
-RPM_HASH = "ad860b50715ac35b2cf9559556aa325a847f4332e4a506de6fdb626584411f9ddc335473844d7a8289ffb52331c1415dfd4ba086afb4a11a037bfe8490bda282"
+RPM_NAME = "texlive-lato-fonts-2023.209.3.3svn54512-55.1.noarch.rpm"
+RPM_HASH = "76edfc67cff0f0497b7df93ec36b73818109449fd1935f9e8232e9b881d900e2f5fa9b4cd4d8ff9e9af3194f3814d999a7a141887b507d0910b8910c1dbb8630"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-lato-fonts \

@@ -6,10 +6,10 @@ Michael Barr's diag package, which was previously distributed \
 stand-alone."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.3.8.9svn61719"
+PV = "2023.209.3.8.9svn61719"
 
-RPM_NAME = "texlive-xypic-2023.201.3.8.9svn61719-52.2.noarch.rpm"
-RPM_HASH = "d4390b689614c75b6db55e9b15f08812c633daf472e0245b854b4443c991bded5b4b1c99f7d29e974fae1179f7eb083a6af1d9f4b27312f92bb4a94a7fc3bdc8"
+RPM_NAME = "texlive-xypic-2023.209.3.8.9svn61719-53.1.noarch.rpm"
+RPM_HASH = "554a6d6039d9fa37a0cc991ed6a7d5adae31da95c2b2b20466ee2256776cf8db4d2cf91cfebc25cdca4667795da05105eb469a244588dada8fc67319d2f22352"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-movie.cls \

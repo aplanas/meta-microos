@@ -6,10 +6,10 @@ correct kerning when a subscript follows. Some predefined \
 commands are also provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn65853"
+PV = "2023.209.1.1svn65853"
 
-RPM_NAME = "texlive-overarrows-2023.201.1.1svn65853-54.1.noarch.rpm"
-RPM_HASH = "bd0156cd910b2c4ba886257f1941cb7d982e7dac0ac08ec8c449ae1e186edfd61b8085c6f5d7a80a73ee3b0d5b84fee462320333b331a43d6c9ea3ad9f88fe59"
+RPM_NAME = "texlive-overarrows-2023.209.1.1svn65853-55.1.noarch.rpm"
+RPM_HASH = "1f0e43873a0c26cf88ad36db82cfb3bf264333bdeda98978a674a0f3592629d3c9c8acfdc60df2233d1536e3f9f3c21838e543e0b41023a5748cf36ae7cc6d79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-overarrows.sty \

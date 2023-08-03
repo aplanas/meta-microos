@@ -10,10 +10,10 @@ more. Pgfplots is based on PGF/TikZ (PGF); it runs equally for \
 LaTeX/TeX/ConTeXt."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.18.1svn61719"
+PV = "2023.209.1.18.1svn61719"
 
-RPM_NAME = "texlive-pgfplots-2023.201.1.18.1svn61719-51.1.noarch.rpm"
-RPM_HASH = "667a59e9d494c189ad18d8434b2068fc80cf145ef8be9f78c93226f8bb7de342a21dd4f866f1bcdc325e06c5d7bd53c2f48fafec2207fade2de65b96b630fbfc"
+RPM_NAME = "texlive-pgfplots-2023.209.1.18.1svn61719-52.1.noarch.rpm"
+RPM_HASH = "434d303d6099480cdc65bec5fb75f24ee56befb5e9b8cf30428e32378d29f9af99d8012bb3e9241ec6d13dcc4f33cc298b0ca91eac370c3b701e4d2d798f58ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bugtracker.sty \

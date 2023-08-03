@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-erdc"
 DESCRIPTION = "This package includes the documentation for texlive-erdc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn15878"
+PV = "2023.209.1.1svn15878"
 
-RPM_NAME = "texlive-erdc-doc-2023.201.1.1svn15878-53.2.noarch.rpm"
-RPM_HASH = "a901e4a000202167a021fae9c34275f04abe519362721ba5a8967f3e435df22c3e1fcfb2bdf21ecf49064053f997d38421944505a8affec7b6cd994312114c45"
+RPM_NAME = "texlive-erdc-doc-2023.209.1.1svn15878-54.1.noarch.rpm"
+RPM_HASH = "59ac2c3af2bf92d762f627db77974b7d4ee45fd51e64a68583c4510606cc482c3b527134dd69ef763e9966905418c6ab29224ec66e005b2183171b2c84e28a7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-erdc-doc"

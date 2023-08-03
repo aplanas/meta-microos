@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-gfsartemisia"
 DESCRIPTION = "The  separated fonts package for texlive-gfsartemisia"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn19469"
+PV = "2023.209.1.0svn19469"
 
-RPM_NAME = "texlive-gfsartemisia-fonts-2023.201.1.0svn19469-52.1.noarch.rpm"
-RPM_HASH = "838f229354dd5bf8f5bdf729353dda235f0376067b27b4208c0e9456f9caa4968e9f080752f0a45d2b831ac5d4c9e62cc9ba706510e590b19ecb696fb38469be"
+RPM_NAME = "texlive-gfsartemisia-fonts-2023.209.1.0svn19469-53.1.noarch.rpm"
+RPM_HASH = "939e0846277a8dbe1c35f0f5f8a8e3d783c45e8085f2eef689b7837e4f97ed9abd501e00ac43c64dc36b955393af0ce4a0fc93dfb665e1f0e9d6a9a5effaa00a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-gfsartemisia-fonts \

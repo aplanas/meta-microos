@@ -5,10 +5,10 @@ Modern math fonts using parameters from Concrete Roman text \
 fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn17219"
+PV = "2023.209.svn17219"
 
-RPM_NAME = "texlive-concmath-2023.201.svn17219-53.1.noarch.rpm"
-RPM_HASH = "ab9ca499270d36a8a63e6de6bdd453f159f700737074d1ce02bffeac5e56168bf756f9405c54f1059093c7a7fd700ad2702878f9d5043b36bdff75fa338c0a46"
+RPM_NAME = "texlive-concmath-2023.209.svn17219-54.1.noarch.rpm"
+RPM_HASH = "e496290711bbc361eec166f5a24ef566bbe0dc1b760e3713d0683075f19ac523584604e556644c82fd91e6871320f575aa7a35ba04c9a51bbbbd1e37a7d009ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-concmath.sty \

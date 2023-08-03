@@ -6,10 +6,10 @@ supported: Spark -- Bar -- Medium Spark -- Bar -- Narrow Spark \
 Medium Spark -- Dot -- Small"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.05asvn62481"
+PV = "2023.209.0.0.05asvn62481"
 
-RPM_NAME = "texlive-spark-otf-2023.201.0.0.05asvn62481-57.1.noarch.rpm"
-RPM_HASH = "0bf0d02c5a76b0daefc4916a0e3dffaa3675c3fbf76a9cd59dc7283c41e41a6686ab8cfd0386d71c537ea4212d1a70bb45cd005847f42b43bcfb083b3435b21f"
+RPM_NAME = "texlive-spark-otf-2023.209.0.0.05asvn62481-58.1.noarch.rpm"
+RPM_HASH = "ee1d587328ce25a2cae25eed88188ea4c6f69d2110e62b11e3e894d607b529d42e50e3aa71acd127e18f3bfd39069b5507320e882f595371db356ffcc1f40a10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-spark-otf.sty \

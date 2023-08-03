@@ -4,10 +4,10 @@ about LaTeX and pictures. The aim of the document is to provide \
 a solution, in the form of some sample code, for every problem."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "2023.201.1.50svn19601"
+PV = "2023.209.1.50svn19601"
 
-RPM_NAME = "texlive-l2picfaq-2023.201.1.50svn19601-55.1.noarch.rpm"
-RPM_HASH = "579d02a8e9364a8b656dd3ace02f0a974c296b613d45638cbcf808cfab9d1dd9dcc648c3a61828f65f4d80cadd88b98366fdb30626b530549e9185ca0d4e8e18"
+RPM_NAME = "texlive-l2picfaq-2023.209.1.50svn19601-56.1.noarch.rpm"
+RPM_HASH = "55d15b91b262922f104e13553dbe43e9f9ec5f0f657a8139d8a3c84d8f1700d785d619f47dd088fa368352d7bfb0ab8a1ca37288868b6984fc83ba084856e914"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-l2picfaq"

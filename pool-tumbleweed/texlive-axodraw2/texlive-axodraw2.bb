@@ -13,10 +13,10 @@ file. The processing involves a run of pdfLaTeX, a run of \
 axohelp, and then another run of pdfLaTeX."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.1.1csvn58155"
+PV = "2023.209.2.1.1csvn58155"
 
-RPM_NAME = "texlive-axodraw2-2023.201.2.1.1csvn58155-53.1.noarch.rpm"
-RPM_HASH = "189429dd793e7697452821f9173e622e88e3f7abf29fae1512622e3664f9243d19ed48c1e7c5ab2a225c4a245de12712a279c26e5a62b0158101a5c6222489e5"
+RPM_NAME = "texlive-axodraw2-2023.209.2.1.1csvn58155-54.1.noarch.rpm"
+RPM_HASH = "34956604f2d4d2fe44f52fd89ceed023bb6184d9fb129a575ee034ebe9d9fd5001615ccdb49ef93cbaac0316a3c9730d77cd01ffc8fb7fa9577bd77a83b17f65"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-axodraw2.sty \

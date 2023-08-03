@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "6.5.0"
 
-RPM_NAME = "python39-PyQt6-3D-devel-6.5.0-1.3.aarch64.rpm"
-RPM_HASH = "c8060b346d87b4bfd5473f1c5094740331f53ff2342dd90431a7df05a31e7d39ba635617d3d1e7ab344f0a456cc57dae982f32d51fe8afaf62146d4e295ee528"
+RPM_NAME = "python39-PyQt6-3D-devel-6.5.0-1.4.aarch64.rpm"
+RPM_HASH = "9b40c77820bd8ca486c25756efe51d0b505332ffaec9c2f2d9ef256c51c9cc42c996ad0a8613103e67a70cd9cb5e8b06a5e6bd86c0b77ecdee5a41ac395eb116"
 
 RPROVIDES:${PN} += "python39-PyQt6-3D-devel"
 

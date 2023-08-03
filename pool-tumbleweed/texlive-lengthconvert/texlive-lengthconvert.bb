@@ -4,10 +4,10 @@ large selection of units. The package relies on the LaTeX3 \
 programming environment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0asvn55064"
+PV = "2023.209.1.0asvn55064"
 
-RPM_NAME = "texlive-lengthconvert-2023.201.1.0asvn55064-54.1.noarch.rpm"
-RPM_HASH = "bc4e71d98e6ef576c63dc2086dfb3e460ee7c7ea4fb037f79966b4ec448b81b69d879ca8a0bf0c9db72ddecfe6052d441ed46e56474d6f2dabff1f30df37ae86"
+RPM_NAME = "texlive-lengthconvert-2023.209.1.0asvn55064-55.1.noarch.rpm"
+RPM_HASH = "2a685d2d7587dd8c1b796ad1eda9d3704a1fefe6a55ac25657b6557692c79025b8b9f250e2d3f0ab051027ce9abff5e65d5b3f53e03ef31e96ac3cd8d5777989"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lengthconvert.sty \

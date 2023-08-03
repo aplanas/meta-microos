@@ -15,10 +15,10 @@ not. This might be useful for extracting specific slides from a \
 presentation and use them in a new file."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.9asvn52117"
+PV = "2023.209.1.9asvn52117"
 
-RPM_NAME = "texlive-extract-2023.201.1.9asvn52117-52.1.noarch.rpm"
-RPM_HASH = "80a54d767e3ffc275a1942f1e983e08c8fe1a86971f72a1d3d551aff4e1709a82039613bd0ce61ce889f76d4b27304bf568bb5b1ba40ebd94a87cf12013924ce"
+RPM_NAME = "texlive-extract-2023.209.1.9asvn52117-53.1.noarch.rpm"
+RPM_HASH = "e8ed39cb5aeac58519488b057cd07444a206f2c31e7c1d029a82d2c615c7ec9670ad5bcbabf940334d90df207798259d1bf28098f76bf224c170f51daf7d8e29"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-extract.sty \

@@ -14,10 +14,10 @@ sans-font mathematics support packages. Others are cmbright, \
 hvmath and kerkis."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-arev-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "2fa12468a47ea699411e54917157c5e73fa44539584ab5c4b5287b6f9cd8717c8a75039d6cc45f20daf03748bfaca0423cf5ebe0c3eabe25bc9b796e350e11c7"
+RPM_NAME = "texlive-arev-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "65a3c7897ca934c61b4af3df947adab31103b32f2117fb4e2d9cb6e8720f62cf016c238dad6ac4f3e403f0c9f2fc9a30ba48a3d69b966ac79d448f15c1eee719"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ArevSans-Bold.tfm \

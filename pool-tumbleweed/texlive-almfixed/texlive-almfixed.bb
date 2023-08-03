@@ -22,10 +22,10 @@ Arabic font ever to have this capability. Editing complex \
 Arabic texts will now be much easier to input and to proofread."
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.201.0.0.92svn35065"
+PV = "2023.209.0.0.92svn35065"
 
-RPM_NAME = "texlive-almfixed-2023.201.0.0.92svn35065-54.1.noarch.rpm"
-RPM_HASH = "1e0027c4acea9165523ce3b0e7419712dcc85745203088dd877e8cb969a42584f03ae66df4888658672a0a798052de7b7b2072b649f95068df0820b5c6ddb32d"
+RPM_NAME = "texlive-almfixed-2023.209.0.0.92svn35065-55.1.noarch.rpm"
+RPM_HASH = "034281aa9192809f1e77e95d19090cdd9673abc973aa0b47f04d8788d641e629f391802f6650b577faeca70970da706d3749d768bc609dc844085b90a7d13439"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-almfixed"

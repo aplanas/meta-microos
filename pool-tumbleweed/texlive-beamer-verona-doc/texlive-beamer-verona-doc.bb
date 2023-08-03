@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-beamer-verona"
 DESCRIPTION = "This package includes the documentation for texlive-beamer-verona"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn39180"
+PV = "2023.209.0.0.2svn39180"
 
-RPM_NAME = "texlive-beamer-verona-doc-2023.201.0.0.2svn39180-53.1.noarch.rpm"
-RPM_HASH = "3b4228a7e3b871e97919db05383c6c7f1edcf66a24ac41f554257819e126dedc7777eee5e736441a4a7a008e60c4e9b4b6af3db834932846721bc42d18bd4fb1"
+RPM_NAME = "texlive-beamer-verona-doc-2023.209.0.0.2svn39180-54.1.noarch.rpm"
+RPM_HASH = "b96b772cbe5aa6d6139e029574c46312884c76fb2ec6adf74b0c15787f68ba4bfbf321b8dbbd27006cfb86ede2eb70c10afd71225c705a1bf8731a9f190bccf5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamer-verona-doc"

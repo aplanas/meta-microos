@@ -22,8 +22,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "253.7"
 
-RPM_NAME = "systemd-network-253.7-1.2.aarch64.rpm"
-RPM_HASH = "bc37b424c40198b2f05e819e566157745c288427e96e413e09690718c627957ead4f2bc79331f169aa507f6e90b6736ec63aebe199f2cc8b42f9b10d76c3363b"
+RPM_NAME = "systemd-network-253.7-2.1.aarch64.rpm"
+RPM_HASH = "e0365099cb69ebde35e3ede1b1d22fc75f9f819384ae99b1a80f5772f21d28c085bad12bf440c4c8d715422cd8768ff1353a0b9f138617b75aef486ecdc11cd7"
 
 RPROVIDES:${PN} += "config-systemd-network \
 libnss-resolve.so.2 \

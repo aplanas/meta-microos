@@ -7,10 +7,10 @@ package may also be used to create UML and most other \
 Box-Line-Annotation charts, but not Gantt charts directly."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5svn29349"
+PV = "2023.209.1.5svn29349"
 
-RPM_NAME = "texlive-expressg-2023.201.1.5svn29349-52.1.noarch.rpm"
-RPM_HASH = "377529b34e3d93dd0370067236ff73e0831d8153c94267ffedbcf28ccc78e744e5bd79e865edb1f9f8c7e3e54155858e94feb9441841db588b76cb1d57417e56"
+RPM_NAME = "texlive-expressg-2023.209.1.5svn29349-53.1.noarch.rpm"
+RPM_HASH = "1be1afefcb6ec63d3258acef4f44c972a2022f55d571e4b5ba18f7802a7f8115487fab18ceff5cbefce031141f2e1f4044bbe0c47ebf5ca5814de7fdd49a7083"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-expressg"

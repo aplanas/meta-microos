@@ -3,10 +3,10 @@ DESCRIPTION = "A package for typesetting various transformation signs for \
 Laplace transforms, Fourier transforms and others."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.01svn15878"
+PV = "2023.209.1.01svn15878"
 
-RPM_NAME = "texlive-trfsigns-2023.201.1.01svn15878-52.1.noarch.rpm"
-RPM_HASH = "ac7445361119a1f2e5c367b33103cd4a69697faece3e5ad93368a73ed31fecd263618379ce55afec5e7f32a92933fa45a15e7bff0d4d35c934c80af491d1c0ff"
+RPM_NAME = "texlive-trfsigns-2023.209.1.01svn15878-53.1.noarch.rpm"
+RPM_HASH = "f88c71732a9da76459b2c9be6f3098831601d71455e6a886cc874c606f5405610cd69a15fadf62c1a92fb5f1bf3b92850446e194c1d890e1a6434aea33814fc0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-trfsigns.sty \

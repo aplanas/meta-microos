@@ -12,10 +12,10 @@ package also offers its own LaTeX support for OT2 encoded \
 fonts, CM bright shaped fonts and Concrete shaped fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.5gsvn15878"
+PV = "2023.209.3.5gsvn15878"
 
-RPM_NAME = "texlive-lh-2023.201.3.5gsvn15878-54.1.noarch.rpm"
-RPM_HASH = "098e8f3c9e0a3c17eff1e0c0f31334c2ff88327ba361f015d4d68848bb3978834824cafde1bff8a4d40454a8c26214eb116bd680f830f537cb6a7466c0aec1d0"
+RPM_NAME = "texlive-lh-2023.209.3.5gsvn15878-55.1.noarch.rpm"
+RPM_HASH = "45310ee219af23fe603e960eae84de77c1042741c02b6f46eeb1cddd74ceecc65c5f7fbf5dd6ff533731e2a8d21361850f9a6feb1a1f2c7f3546ba32cce5634e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lh-lcy.sty \

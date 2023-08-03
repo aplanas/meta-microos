@@ -6,10 +6,10 @@ LuaTeX engines. The package requires the l3kernel and xparse \
 bundles from the LaTeX3 development team."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.8asvn63386"
+PV = "2023.209.2.8asvn63386"
 
-RPM_NAME = "texlive-fontspec-2023.201.2.8asvn63386-52.1.noarch.rpm"
-RPM_HASH = "0a10c9cbbe222794a6a2996eebccae5b85918b1c161c7d314d87ea323cf0fcafcff6d264bd16385da0775f1b0009a0387ec30c2d319df43085b4fccf8cc39680"
+RPM_NAME = "texlive-fontspec-2023.209.2.8asvn63386-53.1.noarch.rpm"
+RPM_HASH = "b755173cafdc9678a643b9af925df72847b8953b7c6fa72ab0b32e53db158c6717ddbb3d802c06c4cfb979db872d0a95c87dcba26476428cf5a747ec8bea9952"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fontspec-luatex.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6LabsQmlModels that
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-labsqmlmodels-private-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "11b58b79ce19f2bb6186a0213ec591e1259c39ff50e508150b39f898fd895ea82fae629ceec58ac895a651e2504c1ca8c3906235d060c727bce4aea993ab89ad"
+RPM_NAME = "qt6-labsqmlmodels-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "72c9be4587a22a738e31c4b8034e565155c4eb2c6aa344ea6e2cebff427737721c933de31e29c2fe8119566567e8bb41e5c5379b3911b6531bdd6cfdf082e92f"
 
 RPROVIDES:${PN} += "qt6-labsqmlmodels-private-devel"
 

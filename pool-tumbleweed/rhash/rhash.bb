@@ -15,16 +15,16 @@ Program features: \
  * Ability to process directories recursively."
 LICENSE = "0BSD"
 
-PV = "1.4.3"
+PV = "1.4.4"
 
-RPM_NAME = "rhash-1.4.3-1.6.aarch64.rpm"
-RPM_HASH = "e61d8a915f9be6ee91a59260f016ebf0647918235d528c1cb948b1bbf3efe3889e274545c3a5c3db96f67e597d00e5036bb5519e614af820014c88b977beb92b"
+RPM_NAME = "rhash-1.4.4-1.1.aarch64.rpm"
+RPM_HASH = "e60eda50b5692ece7677233833212bf982169424b7ee6624cf69828702a2b8dd5d436c9b23297ab5b0dcea22d9eb800b13f836fe0c5e02dc565fe4cedcdf8854"
 
 RPROVIDES:${PN} += "config-rhash \
 rhash"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-librhash.so.0"
+librhash.so.1"
 
 inherit rpm

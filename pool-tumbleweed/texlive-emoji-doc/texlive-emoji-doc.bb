@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-emoji"
 DESCRIPTION = "This package includes the documentation for texlive-emoji"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2.2svn59961"
+PV = "2023.209.0.0.2.2svn59961"
 
-RPM_NAME = "texlive-emoji-doc-2023.201.0.0.2.2svn59961-53.2.noarch.rpm"
-RPM_HASH = "e54cf36a89ee16162e33d9f24cc384680e7c2044838158302e223111d233d03bbe358f38e17170930c017c85a11a479df6ba583e06d868946f299cf544711d1a"
+RPM_NAME = "texlive-emoji-doc-2023.209.0.0.2.2svn59961-54.1.noarch.rpm"
+RPM_HASH = "31e433d5b15268c24f36e6a3bcdedf68bfdde5acc25b62f83a4cc0aec349c9f73d5521c83b2f494ad6428b76a25f879b4798bc199adae87ce8e39b90f5271196"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-emoji-doc"

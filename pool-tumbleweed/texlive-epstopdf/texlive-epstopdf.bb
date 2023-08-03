@@ -13,10 +13,10 @@ fly', thus giving the illusion that pdfLaTeX is accepting EPS \
 graphic files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.31svn66461"
+PV = "2023.209.2.31svn66461"
 
-RPM_NAME = "texlive-epstopdf-2023.201.2.31svn66461-53.2.noarch.rpm"
-RPM_HASH = "1893aeefbe87521fc77de2eedbd4399e9abd694ce8ed9f14fdd542c89b1511f1eaaa33d4247179f53cd154ffdd24ea35e7d4863907a033f6d6768995849e2845"
+RPM_NAME = "texlive-epstopdf-2023.209.2.31svn66461-54.1.noarch.rpm"
+RPM_HASH = "b7d8f01ea6d61441870c7488453cbca4d78028b8de832a01477154431b8c699b3a5d3767061e4eac186deb170682b0efb50beb49bb8c38b9947a3aff998f80dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-epstopdf"

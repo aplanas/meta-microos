@@ -6,10 +6,10 @@ entry (although it supports optional traditional buttons). \
 This is the commandline interface, named qalc."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1"
+PV = "4.7.0"
 
-RPM_NAME = "qalculate-4.6.1-1.2.aarch64.rpm"
-RPM_HASH = "6ce4810f3a94ee557dcd99bdf36684120c24e416dcee054563e493a5540ebd367b045e69792681948c3cc1148702b7d218dd93b35a520953c20e5da8bc44aea6"
+RPM_NAME = "qalculate-4.7.0-1.1.aarch64.rpm"
+RPM_HASH = "6ec8092d7bc6fb08bd75ae4b8f0851cb202b229c9d3493d3c61c8396dc130dcdfc0f009aba565e319887667bcbad269612f3d088bd6d8ecfb7d56cfbb048fed3"
 
 RPROVIDES:${PN} += "qalculate"
 

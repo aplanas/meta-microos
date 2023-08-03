@@ -3,10 +3,10 @@ DESCRIPTION = "The samba-libs package contains the libraries needed by samba cli
 programs."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.3+git.303.c08b73d523c"
+PV = "4.18.5+git.313.c8e274c7852"
 
-RPM_NAME = "samba-client-libs-4.18.3+git.303.c08b73d523c-1.2.aarch64.rpm"
-RPM_HASH = "b90eb5229e2053c21b33810011862e14066a7243d874c0db10c4a4f776676da8704e8a8bfbb5c991b35a28c3050fb1ad1faa391797c70eb4f7188ee9858cd7c8"
+RPM_NAME = "samba-client-libs-4.18.5+git.313.c8e274c7852-1.1.aarch64.rpm"
+RPM_HASH = "3cf50d9e039859eb1594b73424f995cc6fe4e26832e67d51c9847b51da406bcdac6d752db48e795ceb5ca272f85a24b4a12d2248c2ee824e1cc3eadaa9da2868"
 
 RPROVIDES:${PN} += "libCHARSET3-samba4.so \
 libMESSAGING-SEND-samba4.so \

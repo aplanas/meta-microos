@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Wayland libraries and tools"
 DESCRIPTION = "The Qt6 Wayland libraries and tools."
 LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-wayland-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "0d6b4970688e2832d5969ec65289b36a9b8b364d83c43f1a22fedb2b6310f414acae32bf56f7691ec6abc1ad99c51a9a7db3f4ceb589900c7ea923f38c0a561d"
+RPM_NAME = "qt6-wayland-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "9776a0cf1ea9977048946b3e09ed5d50374b1c65b1e08ca8955f8a99fb5d44ef9b371735a087a3835085227f4928a593bf002e734c9994db910696cc629b8f0e"
 
 RPROVIDES:${PN} += "libbradient.so \
 libdmabuf-server.so \

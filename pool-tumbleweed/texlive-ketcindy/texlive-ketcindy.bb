@@ -6,10 +6,10 @@ allows to generate graphics using KETpic. The generated code \
 can be included in any LaTeX document."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.20191225.0svn58661"
+PV = "2023.209.20191225.0svn58661"
 
-RPM_NAME = "texlive-ketcindy-2023.201.20191225.0svn58661-55.1.noarch.rpm"
-RPM_HASH = "6127449250c479e936b90db3b83e529a64e828eb1b798616dd1350b5b6f0f1d96e5ebef74ae7dd4e7c5e40dd441b177d3c82665835f2ef70ad709e72056c2bd7"
+RPM_NAME = "texlive-ketcindy-2023.209.20191225.0svn58661-56.1.noarch.rpm"
+RPM_HASH = "51e6217428d079e302b443ae5df3138c9bf89e684f750ec285a25c566d90fff2cdcc3eb4306f7162ab29a5e1f54361f6c05d3466eaea71dfc8baef0088538ab2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-KetCindyPlugin.jar \

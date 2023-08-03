@@ -16,10 +16,10 @@ OPmac macros can generate and bibliography without any external \
 program."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.mar._2022svn62771"
+PV = "2023.209.mar._2022svn62771"
 
-RPM_NAME = "texlive-csplain-2023.204.mar._2022svn62771-54.1.noarch.rpm"
-RPM_HASH = "fd6ee63c42d0e036df71093a9881197ceddd5bc98fc2b6eb37b0ea5fdba460814ba516ecd9f62d7275e8dc2df22772f000c7426d872e991673f3fc6879025baa"
+RPM_NAME = "texlive-csplain-2023.209.mar._2022svn62771-55.1.noarch.rpm"
+RPM_HASH = "d6f5fd3681b44eb37b6ed8168a276e83972b03353fa0caa7df5afcba33367d9ac11c321135495bd4cfeb3125d5379a9a572dbd7da273c129078e0152ebfb3fe6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ams-math.tex \

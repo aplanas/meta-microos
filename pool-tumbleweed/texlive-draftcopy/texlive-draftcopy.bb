@@ -6,10 +6,10 @@ commands, and may not therefore be used with pdfLaTeX. For that \
 usage, consider the wallpaper or draftwatermark packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.16svn15878"
+PV = "2023.209.2.16svn15878"
 
-RPM_NAME = "texlive-draftcopy-2023.201.2.16svn15878-52.1.noarch.rpm"
-RPM_HASH = "7dd226e884881e9aff1b5b1314ec410653ec6ee51073e29c5630d06d36d66e3088e9a442d40667f6b8b8a330aff0edd24c2d3d2a8e1a0d09c33d530bc847f01c"
+RPM_NAME = "texlive-draftcopy-2023.209.2.16svn15878-53.1.noarch.rpm"
+RPM_HASH = "193235aeb829b525bc402e6916b97c00658a7e8733c6bae9d28e54791f8d078c40911e11b1f6793818a29cc179b5fdf510afe6e009e06bdf1e3bf4374c2a015f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-draftcopy.cfg \

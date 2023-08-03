@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pauldoc"
 DESCRIPTION = "This package includes the documentation for texlive-pauldoc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5svn16005"
+PV = "2023.209.0.0.5svn16005"
 
-RPM_NAME = "texlive-pauldoc-doc-2023.201.0.0.5svn16005-51.1.noarch.rpm"
-RPM_HASH = "839cc9983fbd0f1b62a6ad23e5cc5044d763edd7fab380d958639cf8ecfe96ddeceb4969be61756065005ab341be02b4f197df9fa04a99e451bcb4643c569dd6"
+RPM_NAME = "texlive-pauldoc-doc-2023.209.0.0.5svn16005-52.1.noarch.rpm"
+RPM_HASH = "1e85e1f341fb3f54b1513712482cd416f13d8c421a989dfb909c6effe3e708b2e4d0d19e6a0b5072dafe076d927c5dd97034ef3410bd2690483b0ec1e9745c17"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pauldoc-doc-de \

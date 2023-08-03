@@ -3,10 +3,10 @@ DESCRIPTION = "The package defines an outline environment, which provides \
 facilities similar to enumerate, but up to 6 levels deep."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn18360"
+PV = "2023.209.svn18360"
 
-RPM_NAME = "texlive-outline-2023.201.svn18360-54.1.noarch.rpm"
-RPM_HASH = "818547d65460c87faf36686e4f87047996e9fc32a2dc5e80a28602429d542bfdf36bb6c999f4255baa653b4149d35217115a2ee12d4982a9c96f2680ffa05372"
+RPM_NAME = "texlive-outline-2023.209.svn18360-55.1.noarch.rpm"
+RPM_HASH = "87e6b5c65f7673eead136d500d4b5da054f08121a4f0583a93d32f9fdc7478aac11752c70a5b3fb4de9c8d8f12ddb1610f704961346ed78bd9f61d25c091573f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-outline.sty \

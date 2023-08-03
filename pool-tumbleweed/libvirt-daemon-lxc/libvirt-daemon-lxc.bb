@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.5.0"
 
-RPM_NAME = "libvirt-daemon-lxc-9.5.0-1.1.aarch64.rpm"
-RPM_HASH = "f76505ecdfeb2c73092366200a83e880a6c0b3f0f97070d8e3fbd653360a87ae73be1cbe5f71948a0ee7458195444c558cd349fe0bee6e23a2d4ad2d55424a89"
+RPM_NAME = "libvirt-daemon-lxc-9.5.0-2.1.aarch64.rpm"
+RPM_HASH = "32aef1c3a842aa1f90aef057baa063faaea95cfd9cc66f98e0089a1d25fea5df749be1b9daa5c5f46753e4a3ab4d862fff97e7ad0ed1b585a9898069520dd96b"
 
 RPROVIDES:${PN} += "libvirt-daemon-lxc"
 

@@ -23,10 +23,10 @@ environment's name and the line it started on; and zref-xr, \
 provide the facilities of the xr and xr-hyper packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.34svn62977"
+PV = "2023.209.2.34svn62977"
 
-RPM_NAME = "texlive-zref-2023.201.2.34svn62977-52.2.noarch.rpm"
-RPM_HASH = "9791b5b4b1cb73293dfe455ecf40e24f2f79283decf18d25936112ec156b8e3e9fdf18dd21cafbb8a02db9719390295ee1e672ac267a4d91cd7ecd3124ac7d6a"
+RPM_NAME = "texlive-zref-2023.209.2.34svn62977-53.1.noarch.rpm"
+RPM_HASH = "9613af77b7b0ba86fd3731bbf922638760c683727bc6967e4dcf54b24dd90c07ea71dd8e95045605d2fdb8650dae91d161a54077f63fb85e43f252e98d34b79a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zref-abspage.sty \

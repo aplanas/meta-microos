@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-logix"
 DESCRIPTION = "The  separated fonts package for texlive-logix"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.13svn63688"
+PV = "2023.209.1.13svn63688"
 
-RPM_NAME = "texlive-logix-fonts-2023.201.1.13svn63688-54.1.noarch.rpm"
-RPM_HASH = "f2280d560e28bcfae0db1efcb9ab68fb034b7de6664cf93e920793e9ec7dd7d038e7a06c96f86c27637d64e2656b9d007df31b67bcc9574577e89262c7fb2717"
+RPM_NAME = "texlive-logix-fonts-2023.209.1.13svn63688-55.1.noarch.rpm"
+RPM_HASH = "6981687f90d484ab9ee42166fa3e37a514ff39e67b59d1b292e3641ee5588a08a6d6e231bea2f0352e910832f178386b92e4dba257c5159fc1a8401119d86de9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

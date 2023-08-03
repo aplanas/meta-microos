@@ -10,10 +10,10 @@ the Naskhi style. ArabTeX will run with Plain TeX and also with \
 LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.17svn64260"
+PV = "2023.209.3.17svn64260"
 
-RPM_NAME = "texlive-arabtex-2023.201.3.17svn64260-54.1.noarch.rpm"
-RPM_HASH = "f56e2ec647cb7ae7c4685236fd73e9843fe08ff8efbcd8c688657675dc20b423a83ec8ed359c1699b2e7fb127b36cb6be9468d640a0eaf94618e8c5e3234edab"
+RPM_NAME = "texlive-arabtex-2023.209.3.17svn64260-55.1.noarch.rpm"
+RPM_HASH = "659c8ef917c970756a8d3fa4144e63862684483e5c0767b5d948442c1432afa53bd546acf30c6435e944a3847729d919bf3a20c6d73ac84f8e751fe1d8cc7b85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Uxnsh.fd \

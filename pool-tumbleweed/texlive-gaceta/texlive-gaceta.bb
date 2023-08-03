@@ -3,10 +3,10 @@ DESCRIPTION = "The class will typeset papers for <<La Gaceta de la Real \
 Sociedad Matematica Espanola>>."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.06svn15878"
+PV = "2023.209.1.06svn15878"
 
-RPM_NAME = "texlive-gaceta-2023.201.1.06svn15878-52.1.noarch.rpm"
-RPM_HASH = "e0e1d58502a87766171ddd4fc02565f499971538b310cc7c1f921e68b58daef5ad85a8250817fab84d86f810dec344bcd6a02f37661cec132213c60e46be7705"
+RPM_NAME = "texlive-gaceta-2023.209.1.06svn15878-53.1.noarch.rpm"
+RPM_HASH = "6a2a2ebcea9b6578faadfcedd0d958f76cd309a584eb1629e3c6b40f00a591e3c55c1190159d69c232476976a1380a0a7c614fceee32f5454599d4b8dbce0c2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gaceta.cls \

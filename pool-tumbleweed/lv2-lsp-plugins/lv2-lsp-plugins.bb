@@ -8,10 +8,10 @@ the GNU/Linux platform. \
 This is the LV2 version of the plugins."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.2.7"
+PV = "1.2.8"
 
-RPM_NAME = "lv2-lsp-plugins-1.2.7-1.2.aarch64.rpm"
-RPM_HASH = "6aa70a6bec7f3c6494a075aae006d2d96cbbda15b52c968f6839f991e76ceb7f9eb48e8beb9ebad80528c362d7552164ad22f9b38e9c17bfa6b58895888fcf94"
+RPM_NAME = "lv2-lsp-plugins-1.2.8-1.1.aarch64.rpm"
+RPM_HASH = "8769a3692981dbdbe0916e3011bef2b38f5cc7950a77409b719f939974db8c1a31fe1c52fc6e237106eec68d3718e4e3eeebe679908cca97f53657d09b1db446"
 
 RPROVIDES:${PN} += "lv2-lsp-plugins"
 

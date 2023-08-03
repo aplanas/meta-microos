@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-cbcoptic"
 DESCRIPTION = "The  separated fonts package for texlive-cbcoptic"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn16666"
+PV = "2023.209.0.0.2svn16666"
 
-RPM_NAME = "texlive-cbcoptic-fonts-2023.201.0.0.2svn16666-52.1.noarch.rpm"
-RPM_HASH = "988e9352c72354a254e8eb83cebf168815d9598ba134ca32a607f4c4125eb61a01ea8bf4491e6ade16d68026eacd7726490ee2335a6ce8dc6c3a188e68e99330"
+RPM_NAME = "texlive-cbcoptic-fonts-2023.209.0.0.2svn16666-53.1.noarch.rpm"
+RPM_HASH = "41f405f0deaa6e1d7c5c8792555b5e9a97e6b2173a083e2c980e2a3cec9179a1ac80dd89d94581c46a296c20686a5e2eb47bca86723b6e8ff49da77e31e7db0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

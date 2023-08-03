@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pspicture"
 DESCRIPTION = "This package includes the documentation for texlive-pspicture"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-pspicture-doc-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "a7123d9b4cb166d5aeb5b111bf2f90ad090893039c0fb8c7aa399a0f5d92b0854193cd05b7fef65b3b5f3501f1fdb995c3d388dbbd46dd18adc7ea96716fd81a"
+RPM_NAME = "texlive-pspicture-doc-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "f6b976034e2437d70d7752ed3dda58024d24f0e65921a69407f116f7288f19e68c314596332f392248fa7709e89dfd5242aad002d3562c7a22cad343716dffdc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pspicture-doc"

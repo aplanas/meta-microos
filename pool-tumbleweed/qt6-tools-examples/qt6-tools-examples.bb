@@ -2,10 +2,10 @@ SUMMARY = "Examples for the qt6-tools modules"
 DESCRIPTION = "Examples for the qt6-tools modules."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-tools-examples-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "fcc47c834f5cd59c86a900734a2ec000d18554a9e5d306130b60c0a16729d43b34257c8e607e6cbacc2cfe31dcba6f3ea35945085db399a84880028d87daac79"
+RPM_NAME = "qt6-tools-examples-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "e2875da3e347e2c7803ff52892b5cf03ce4b8b3581875c15d74a44c6f30cd961af4cad8e1bb930dd1ba236b18318ecb080892ff8e081af9f29443a12e8d4c858"
 
 RPROVIDES:${PN} += "qt6-tools-examples"
 

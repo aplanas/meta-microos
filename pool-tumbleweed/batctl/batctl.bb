@@ -7,10 +7,10 @@ batctl was created.  At the moment batctl contains ping, traceroute, \
 tcpdump and interfaces to the kernel module settings."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "2023.0"
+PV = "2023.1"
 
-RPM_NAME = "batctl-2023.0-1.4.aarch64.rpm"
-RPM_HASH = "5e27a7d12aa3808856a01a83066f58f81812ae60dd3b65f2dda2ebe19762c1abf40dab91c781f41518ad2b297fb82aa3774cb8835b6aae7121d3faac03f83a72"
+RPM_NAME = "batctl-2023.1-1.1.aarch64.rpm"
+RPM_HASH = "a8d80184d3c51d64549bcc9501b3128ba8417358062cf3cb7dcc7d808275dcf41b69aee734272184eff88a6c63eeddf6a645082539d62f18ec2412a2ae520d69"
 
 RPROVIDES:${PN} += "batctl"
 

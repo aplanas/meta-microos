@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-jneurosci"
 DESCRIPTION = "This package includes the documentation for texlive-jneurosci"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.00svn17346"
+PV = "2023.209.1.00svn17346"
 
-RPM_NAME = "texlive-jneurosci-doc-2023.201.1.00svn17346-55.1.noarch.rpm"
-RPM_HASH = "ede80099068a299336c291b89fd85c060f9da1128d3e3b18da26f8603ae588284762b9a7848049d0a8e1766747d6d62af7e7d6a35df999c305c6c4777af782d5"
+RPM_NAME = "texlive-jneurosci-doc-2023.209.1.00svn17346-56.1.noarch.rpm"
+RPM_HASH = "581911f21024b71067e7e20f7732d1f006bd3e5b170e6cd3612f9cf69707cebe964ad95d7edeb67eee0f52b6b5de64ed3e4203dc9a81e8add033efce60adad8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jneurosci-doc"

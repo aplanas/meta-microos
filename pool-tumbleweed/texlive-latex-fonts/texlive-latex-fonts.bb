@@ -11,10 +11,10 @@ provided. Most of the fonts are also available in Adobe Type 1 \
 format, in the amsfonts distribution."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn28888"
+PV = "2023.209.svn28888"
 
-RPM_NAME = "texlive-latex-fonts-2023.201.svn28888-55.1.noarch.rpm"
-RPM_HASH = "caaeb24afd32004d2cd7e4b82e87ec0c1cc65e8c3cc15fbad23602d6eba45ff2373e74220ca1f47d8131b5a7e228dd8b8dcedfd1ae06e205e2deffcc241608ef"
+RPM_NAME = "texlive-latex-fonts-2023.209.svn28888-56.1.noarch.rpm"
+RPM_HASH = "f51aabaa4967cf441c64e47326e7dec7cd612774c116b393758745850ecaf7006ac8b8b7e0d8767910f9f3b2043a44ec9fde094008e22552a48f9f2320e711a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-icmcsc10.tfm \

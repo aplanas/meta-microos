@@ -9,10 +9,10 @@ may be inserted into consecutive days so that it automatically \
 flows around nonclass days."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.8svn22514"
+PV = "2023.209.1.8svn22514"
 
-RPM_NAME = "texlive-termcal-2023.201.1.8svn22514-54.1.noarch.rpm"
-RPM_HASH = "5e27f9f857ee72cd04c554292820e93475c7aea35fe23941e732692f2839faa76951089725efb6e0ec5739831f8e2116398e7e34f4e5eec3ef7dc4933e3ba71a"
+RPM_NAME = "texlive-termcal-2023.209.1.8svn22514-55.1.noarch.rpm"
+RPM_HASH = "482e338fa509d4cfb5b2b6eac706335a89e7b9f6966a7ff22d79679e02fe514d7fad174cd7aebf0c891a91038ebd75f27fa06aaac8eafa29573b7745f7f80d62"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-termcal.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bxjaholiday"
 DESCRIPTION = "This package includes the documentation for texlive-bxjaholiday"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.1svn60636"
+PV = "2023.209.1.1.1svn60636"
 
-RPM_NAME = "texlive-bxjaholiday-doc-2023.201.1.1.1svn60636-52.1.noarch.rpm"
-RPM_HASH = "2d6642f3aa6677ffd0c2403f6d68d7072708389f00b00ff2e9af65224bc6793c67d9346794906f5787d4699b81701f14ebee91757878cd48b4a6c91f3bb83729"
+RPM_NAME = "texlive-bxjaholiday-doc-2023.209.1.1.1svn60636-53.1.noarch.rpm"
+RPM_HASH = "341da04b6a45fd8f5ff5991ce066f382a4bbbd40b7f0a86d6726713b15b6a6212dfb02d461388e64498b8f0f955f8fea1642a0b1bd0ae4d97331194f750d0246"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-bxjaholiday-doc-ja \

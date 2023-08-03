@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-italian"
 DESCRIPTION = "This package includes the documentation for texlive-babel-italian"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4.07svn62890"
+PV = "2023.209.1.4.07svn62890"
 
-RPM_NAME = "texlive-babel-italian-doc-2023.201.1.4.07svn62890-53.1.noarch.rpm"
-RPM_HASH = "cb0118c3e278aeb3099c002cabec06d8f861783123a98779db23d3da0f66ec9e14b2a0250c2312316ece9323aea32e2d40bc81efbe10afb161e07c0fa696d7ba"
+RPM_NAME = "texlive-babel-italian-doc-2023.209.1.4.07svn62890-54.1.noarch.rpm"
+RPM_HASH = "fb0eb204ccca0474b098ad8c16faab23369cc31665c5ba5b70446f9b44934c493e825b945b71532917dd8de059e613981ef8a10f038b6a04e8bf889444781d03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-italian-doc"

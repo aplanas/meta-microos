@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-zref-check"
 DESCRIPTION = "This package includes the documentation for texlive-zref-check"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3.2svn63845"
+PV = "2023.209.0.0.3.2svn63845"
 
-RPM_NAME = "texlive-zref-check-doc-2023.201.0.0.3.2svn63845-52.2.noarch.rpm"
-RPM_HASH = "3b0540b58ad4c730a796511395162bd07570ff27ae4b51c3fc01b92adade8e9fe2f97b1ef477be2ebb256ba5b505174c19308ac6968b445895290ee9ccef08ca"
+RPM_NAME = "texlive-zref-check-doc-2023.209.0.0.3.2svn63845-53.1.noarch.rpm"
+RPM_HASH = "e2eda361753ee10e5942fbf38d54bd2c715aac6e9ec20111e137648e09dabffd7ea9ec57394151744375af2c694d097f126b760bd33270edbe4997b6cb0ffdb7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zref-check-doc"

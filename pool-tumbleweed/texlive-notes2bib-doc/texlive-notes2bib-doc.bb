@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-notes2bib"
 DESCRIPTION = "This package includes the documentation for texlive-notes2bib"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0msvn52231"
+PV = "2023.209.2.0msvn52231"
 
-RPM_NAME = "texlive-notes2bib-doc-2023.201.2.0msvn52231-54.1.noarch.rpm"
-RPM_HASH = "864bc577c693b27022d2c605134ca58e7bb2e3487c9fc54e0075b9a3a4b56dcfb241b0c2d36ffad217d0b17c6df905391bd070e4e7e1881fbadd2d141707a7a0"
+RPM_NAME = "texlive-notes2bib-doc-2023.209.2.0msvn52231-55.1.noarch.rpm"
+RPM_HASH = "397b652bf0152a7d977640bb730bf6d8726f8f959b9053e0cec18651daf051704cf508d5507051ccfb106ebe84e2a92c7c7e31ac3da4c35ef05053139bb3d211"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-notes2bib-doc"

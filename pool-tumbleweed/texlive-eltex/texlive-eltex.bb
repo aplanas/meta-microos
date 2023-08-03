@@ -6,10 +6,10 @@ circuit symbols accord to the various parts of the standard IEC \
 617."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn15878"
+PV = "2023.209.2.0svn15878"
 
-RPM_NAME = "texlive-eltex-2023.201.2.0svn15878-53.2.noarch.rpm"
-RPM_HASH = "4a713db6e1c4d18b4a30bc5eed769ce6b9b3dc13c04d0ba319eea98c23f0833cca45a820587c6441b090c9345cfb1fc47a695856f920eea29458f6e5eb006c06"
+RPM_NAME = "texlive-eltex-2023.209.2.0svn15878-54.1.noarch.rpm"
+RPM_HASH = "02fcde6cdba6c773cfdea7abac2f405f8529c9bad27428b957828fe82f2450e70bf3eb706f33c0e297b857970366f07e563e65f930438144e47f6da9ba5a2950"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eltex1.tex \

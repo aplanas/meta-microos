@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tapir"
 DESCRIPTION = "This package includes the documentation for texlive-tapir"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.2svn20484"
+PV = "2023.209.0.0.2svn20484"
 
-RPM_NAME = "texlive-tapir-doc-2023.201.0.0.2svn20484-54.1.noarch.rpm"
-RPM_HASH = "a80ed30e9596c4cc4defe9fd6b1273f5c7830d8a6173d01ec5b6bcdab1ea1cf225e9075eebd6abc4c953e8a64ac27138cb5fd1ccb534b22aee37a0865e2e09c2"
+RPM_NAME = "texlive-tapir-doc-2023.209.0.0.2svn20484-55.1.noarch.rpm"
+RPM_HASH = "e62adb54910aee77a1f34ca65d4cdd7fdfa70e926e9a9a044e33d75290cb2f384cca15fedf0af380cac0fe281011df7a5ddc20ddd7bb74eb9e3a660bd52ac14a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tapir-doc"

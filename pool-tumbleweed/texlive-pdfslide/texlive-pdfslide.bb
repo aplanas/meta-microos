@@ -11,10 +11,10 @@ can imagine to have in as presentation. The package can make \
 use of the facilities of the PPower4 post-processor."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-pdfslide-2023.201.svn15878-51.1.noarch.rpm"
-RPM_HASH = "b63330156f18c35fcd4863095bd7b38c89dd8b9c3ce406b31dd695a5142b82fa55404cf3aceee524bf3550babda18b1a1e5b4b4abed26630c7c6693e0f248ab3"
+RPM_NAME = "texlive-pdfslide-2023.209.svn15878-52.1.noarch.rpm"
+RPM_HASH = "184fe8d2d36bfbd2df5b94bee2df19060087bcf02947c0c351eb5db419ceea285511d9f47decf4b730707d218540a2d183e921124a795a20d021f95e6f8a2ad2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdfslide.cfg \

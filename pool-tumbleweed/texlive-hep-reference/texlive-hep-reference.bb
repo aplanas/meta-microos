@@ -4,10 +4,10 @@ footnote macros to improve the default behavior of LaTeX for \
 High Energy Physics publications."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn64853"
+PV = "2023.209.1.1svn64853"
 
-RPM_NAME = "texlive-hep-reference-2023.201.1.1svn64853-53.2.noarch.rpm"
-RPM_HASH = "9b10e079eea293ce64208dd280bade82bf6bb19ccfc58edc68dafdc8530f2c86a35b1da6ea50859070e962cde73e2232f3b14a11a16bcb6c540f8ef61b6d68af"
+RPM_NAME = "texlive-hep-reference-2023.209.1.1svn64853-54.1.noarch.rpm"
+RPM_HASH = "f1bd79242bc83d11f5ca0a80032e00c5d0a68664dd3c52cf099c0f59ac1fc0b54b50cb7c8c06196fb7fa20ba80e81365e78e186252715b0a573d4ff4cb09e0bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hep-reference.sty \

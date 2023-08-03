@@ -9,10 +9,10 @@ This package contains libraries and header files for developing \
 applications that use harminv."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.1"
+PV = "1.4.2"
 
-RPM_NAME = "harminv-devel-1.4.1-1.19.aarch64.rpm"
-RPM_HASH = "a275115379c415d74668bd2544aae9d10369c39d4203662497ac42679981f8aaf3e5571ad22e5ee7b2d9ca7343d246d70722ef033281845e1a4c207971743a02"
+RPM_NAME = "harminv-devel-1.4.2-1.1.aarch64.rpm"
+RPM_HASH = "d0e936a8275534470366529f44c9b9ebd36586b1b8d44ef368011a8dd3b0112aa23dbfa6be7c4f2534e83aae31d0094b17902028ede1dc41ed2edeb6824d128b"
 
 RPROVIDES:${PN} += "harminv-devel \
 pkgconfig-harminv"

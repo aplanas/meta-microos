@@ -7,10 +7,10 @@ is no known limit on number of tree nodes or levels. Requires \
 the pst-node and pst-tree LaTeX packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn27322"
+PV = "2023.209.1.1svn27322"
 
-RPM_NAME = "texlive-rrgtrees-2023.201.1.1svn27322-53.1.noarch.rpm"
-RPM_HASH = "81ef03eb2825ee35dea07eec38db6efa4ae380f7ffcd9c9245d251bea4a20f8f3ca60f0abaca51fbb8c086bc8151213238651da3dd2ec8f6bfc395b1d54f438a"
+RPM_NAME = "texlive-rrgtrees-2023.209.1.1svn27322-54.1.noarch.rpm"
+RPM_HASH = "97f0a6bb9301d5c2423fc43b371a89686c35e825e8a5b2ced790218dbdd961ef92285e8e07c9db69b11daea2af16836a1c0a90fd1a8d321e101dab12eec4282c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rrgtrees.sty \

@@ -14,10 +14,10 @@ format seplist.tex: macros with alternative separators of a \
 parameter xmlparser.tex: parser of XML language"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.aug._2022svn65631"
+PV = "2023.209.aug._2022svn65631"
 
-RPM_NAME = "texlive-olsak-misc-2023.201.aug._2022svn65631-54.1.noarch.rpm"
-RPM_HASH = "869644692769fb4560fb12e266d47b76f02c249e81e9c2644caebe08d363eed767fd55128104c5b8f07e9d76161db7d540f162d1560d9ce826714b99307a7748"
+RPM_NAME = "texlive-olsak-misc-2023.209.aug._2022svn65631-55.1.noarch.rpm"
+RPM_HASH = "f135a0d9ec3152bd6f75f31e465f75445712735acfe26e16a6667b339e7c7034730c3f20f833fe7cb0e2ac38f1eb642a5c541769eb7457caa2788d7ba35f8a47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-booklet.tex \

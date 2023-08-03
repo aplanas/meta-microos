@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-theoremref"
 DESCRIPTION = "This package includes the documentation for texlive-theoremref"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54512"
+PV = "2023.209.svn54512"
 
-RPM_NAME = "texlive-theoremref-doc-2023.201.svn54512-54.1.noarch.rpm"
-RPM_HASH = "16ac6d5f545543256503d92d880c29fa3229f394099ff86190483b242da5a57273ca98be06b880a5009d71cacb9546cc2a6d6f3a98885acd52f79d0058d25882"
+RPM_NAME = "texlive-theoremref-doc-2023.209.svn54512-55.1.noarch.rpm"
+RPM_HASH = "3c023f1450363fe347c0e6ea1f441c745f5db7cc4c8403eca1b7847fe5618d92ad1165424697356bbe99d46ac7e9dbb8544fa9431dc52c95eec15383f61c4b7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-theoremref-doc"

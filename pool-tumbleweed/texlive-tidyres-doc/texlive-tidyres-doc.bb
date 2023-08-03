@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tidyres"
 DESCRIPTION = "This package includes the documentation for texlive-tidyres"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.0svn65789"
+PV = "2023.209.1.0.0svn65789"
 
-RPM_NAME = "texlive-tidyres-doc-2023.201.1.0.0svn65789-54.1.noarch.rpm"
-RPM_HASH = "888f6e0a731c75d3ba143c21f8628b9c8ffa881cf22d5851a54dea1eccc87d2351dceb374e40b8270ca34c5e4544ca01d9e9ddf5ce20adc688f241b80c26c94d"
+RPM_NAME = "texlive-tidyres-doc-2023.209.1.0.0svn65789-55.1.noarch.rpm"
+RPM_HASH = "1b44882141377cbe0536d611d08a5a72077300362dad1f2fed0836e23c8c5b408db3312eeae4297a4a9c6887335904e16fb496893521ab2ed501d58d057c1c27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tidyres-doc"

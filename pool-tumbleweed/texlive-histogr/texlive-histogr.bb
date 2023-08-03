@@ -3,10 +3,10 @@ DESCRIPTION = "This is a collection pf macros to draw histogram bars inside a \
 LaTeX picture-environment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.01svn15878"
+PV = "2023.209.1.01svn15878"
 
-RPM_NAME = "texlive-histogr-2023.201.1.01svn15878-53.2.noarch.rpm"
-RPM_HASH = "7c0e6ed8439ed875efad49b8d3731571548660dcb946c739cc379d82dba8249a9b9135f5c21c6181dddacaf430ab1bb2e0be792f446c36ca13c601bba0482fc6"
+RPM_NAME = "texlive-histogr-2023.209.1.01svn15878-54.1.noarch.rpm"
+RPM_HASH = "1ffc727846171ba31efdbc6ff6f2f119c8509b461da188cd2be6c7c5e0c62493e94325dc421bbd29f1ce11533484b07f365c921e31188999334e79f3a0663820"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-histogr.sty \

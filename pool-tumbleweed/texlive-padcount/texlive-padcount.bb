@@ -7,10 +7,10 @@ on any expanded list of tokens passed to it. This makes it \
 suitable for, among other things, counters of all kinds."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn47621"
+PV = "2023.209.1.0svn47621"
 
-RPM_NAME = "texlive-padcount-2023.201.1.0svn47621-51.1.noarch.rpm"
-RPM_HASH = "d96f6c9d04973274f63681be3355da254f741fbb83bb1047bd5894c18bcd9694a48a304a6d3cfe1e9cbe00289020e87ce1cd5f7a6a0659cf2195bb68d945d303"
+RPM_NAME = "texlive-padcount-2023.209.1.0svn47621-52.1.noarch.rpm"
+RPM_HASH = "34b72d219e8c8f4669ad140b960fa40987589b54a609c08028234b3de4019fc7e0ecf7a1a0ed1d7978fb3daeeda4f2362ad186b606f7704095bf4619d4b29565"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-padcount.sty \

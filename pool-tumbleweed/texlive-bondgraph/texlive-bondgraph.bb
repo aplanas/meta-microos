@@ -2,10 +2,10 @@ SUMMARY = "Create bond graph figures in LaTeX documents"
 DESCRIPTION = "The package draws bond graphs using PGF and TikZ."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn21670"
+PV = "2023.209.1.0svn21670"
 
-RPM_NAME = "texlive-bondgraph-2023.201.1.0svn21670-52.1.noarch.rpm"
-RPM_HASH = "d94929be1e083dbc6da55b598f8b7ddb5e08d77882222de878ff1e152a94aa8769d1ab14912b124988eea6c8033b4be3313755c6e6f19bc4871209bfda8a17ac"
+RPM_NAME = "texlive-bondgraph-2023.209.1.0svn21670-53.1.noarch.rpm"
+RPM_HASH = "766890b6dddfca5d9ff1a4b824dd2164a4919c6a293d787c0d19bf971195d8b296f2e322699d9b1fcd8974dc7bb6cf5cb8e4e8d685f482903ccd90d50b870185"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bondgraph.sty \

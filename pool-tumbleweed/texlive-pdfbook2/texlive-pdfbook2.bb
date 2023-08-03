@@ -13,10 +13,10 @@ Existing files will be overwritten. All input files are \
 processed seperately."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.4svn53521"
+PV = "2023.209.1.4svn53521"
 
-RPM_NAME = "texlive-pdfbook2-2023.201.1.4svn53521-51.1.noarch.rpm"
-RPM_HASH = "470cb30b576d99b636c8b285995ee20d2f8664e0b48354d5ba5dbeff84fa43b164ec227a7fd2d0cbdc1f726df3e990eb620e22a4994c98221cf02a39623ab027"
+RPM_NAME = "texlive-pdfbook2-2023.209.1.4svn53521-52.1.noarch.rpm"
+RPM_HASH = "93b27476ab8cf6286bd5c6edc966ab77a97934ef34bd4b6af08e72486fe441d96408f6ff0b982ec3bd65c8763b00e5b552b4e81b92ce540834bfc06447015b9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdfbook2"

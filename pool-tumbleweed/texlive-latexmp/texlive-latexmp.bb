@@ -9,10 +9,10 @@ btex.etex, and much faster, compared for example to the \
 solution provided by tex.mp."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.2.1svn55643"
+PV = "2023.209.1.2.1svn55643"
 
-RPM_NAME = "texlive-latexmp-2023.201.1.2.1svn55643-54.1.noarch.rpm"
-RPM_HASH = "88f69114e181ba27f860441fd94d9a3237182b49ac8944f01b9ed91bf5220e45599a968b3a95a1ae36df4a486b0a98a67c7411609e46f4784f7f5f1d2ecdf006"
+RPM_NAME = "texlive-latexmp-2023.209.1.2.1svn55643-55.1.noarch.rpm"
+RPM_HASH = "6593c671b0a7d2b6469af279f417f3932521c3cd4d334c3743aeb979ec216176de24cf4dd40b3b0762b2ebdf501d9e439b1299ce4fc233f5a5626f608109049c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latexmp"

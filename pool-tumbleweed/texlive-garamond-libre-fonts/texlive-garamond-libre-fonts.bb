@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-garamond-libre"
 DESCRIPTION = "The  separated fonts package for texlive-garamond-libre"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4svn64412"
+PV = "2023.209.1.4svn64412"
 
-RPM_NAME = "texlive-garamond-libre-fonts-2023.201.1.4svn64412-52.1.noarch.rpm"
-RPM_HASH = "22de53f4670eb746d2b1ea3b2a20b96717c8397a12e3b3e90b61f4035c3cb460e6f2b148af2ffca28c4236c666370548be9cbdadef0eaf068142e6868b47f5cc"
+RPM_NAME = "texlive-garamond-libre-fonts-2023.209.1.4svn64412-53.1.noarch.rpm"
+RPM_HASH = "5ac2e2139d4da17896aab9e16f225f07309bbb8c47cc0275875c071e9680a0025920d8bfdbca2fc6d93f2b6128cf99009a3b515b4ad64dafb872564b2b88f3ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-garamond-libre-fonts \

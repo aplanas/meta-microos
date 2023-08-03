@@ -2,10 +2,10 @@ SUMMARY = "OpenJDK 17 Runtime Environment"
 DESCRIPTION = "The OpenJDK 17 runtime environment."
 LICENSE = "Apache-1.1 & Apache-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
 
-PV = "17.0.7.0"
+PV = "17.0.8.0"
 
-RPM_NAME = "java-17-openjdk-17.0.7.0-3.2.aarch64.rpm"
-RPM_HASH = "c3d0f917a1db57e85e32e00cf400b30871c6f7b7523a748220354b57935a806e79f21ae325197eae7edf2518d8b8ac8c7091d823e9c2783db3360c0a0fccbd4d"
+RPM_NAME = "java-17-openjdk-17.0.8.0-1.1.aarch64.rpm"
+RPM_HASH = "5fe1426c412f840b3e1df7d2467541edadb43d7d526e96b77a79ff0d9b1c17d456f778cbfb3cdf574fa2cf40f9a1ea16a34516320a7527d2f392e59d24a45d00"
 
 RPROVIDES:${PN} += "java \
 java-17 \

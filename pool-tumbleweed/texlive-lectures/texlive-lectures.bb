@@ -5,10 +5,10 @@ environments, automatic spacing and alignment of figures and \
 much more. More information is available in the package readme."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.5svn53642"
+PV = "2023.209.1.0.5svn53642"
 
-RPM_NAME = "texlive-lectures-2023.201.1.0.5svn53642-54.1.noarch.rpm"
-RPM_HASH = "a87edf734b19b1271e074d561d14131adbe709a44654c8b98e94bdc3f88a2020564c303b377c810bf822805e40126a1d85820fdda30325d38b516ecb4cb03037"
+RPM_NAME = "texlive-lectures-2023.209.1.0.5svn53642-55.1.noarch.rpm"
+RPM_HASH = "ab491447efa55eafb117d26766a0e4a5109f7b0d88005dce46cd41e8fcf0927d63f9afdc3247bca119a7acc6b689381ae58ec1a2d6a3fcc77c83a8900364dcdf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lectures.cls \

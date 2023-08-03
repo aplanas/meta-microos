@@ -5,10 +5,10 @@ strict. Check this series of lectures fully designed with the \
 use of this package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2.1svn65194"
+PV = "2023.209.0.0.2.1svn65194"
 
-RPM_NAME = "texlive-ppt-slides-2023.201.0.0.2.1svn65194-52.1.noarch.rpm"
-RPM_HASH = "d48f605931206d549f29b5d326ec00067eefbbfb908b745cc9176388beaead78db91ae61f5f9d9ce9dd768bfcb2b5fb0721b802c2091a574b2895159b5aa949d"
+RPM_NAME = "texlive-ppt-slides-2023.209.0.0.2.1svn65194-53.1.noarch.rpm"
+RPM_HASH = "2c66d99d705b142cd365f50b7f46556a7c23ce8a9676727577439936e7b8bbe5ca176d2a5e0a73b09600d9805ecf8792abd6efe7a8088a8529d38374a1d29d53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ppt-9x6.tex \

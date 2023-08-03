@@ -5,8 +5,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.9.17"
 
-RPM_NAME = "python39-curses-3.9.17-1.1.aarch64.rpm"
-RPM_HASH = "db4c9e40a64105c5eac7006687ae1d1dcf2d7cb57e8596d18c7a0aaadc255c41c6e6143ed616a24a6aa1d6b920fa106ddc35071ffd047a6c6f0e3f948f3afeaa"
+RPM_NAME = "python39-curses-3.9.17-3.1.aarch64.rpm"
+RPM_HASH = "cab5d180d39d52d92eb0e7d1c668cdea03f5ae833f191cd2493a91f540226e2af1fae05b4b2db2023312020d9b517fb1a034b546cc98efca714a008ac9e057b3"
 
 RPROVIDES:${PN} += "python39-curses"
 

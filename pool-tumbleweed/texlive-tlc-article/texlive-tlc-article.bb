@@ -9,10 +9,10 @@ for continuous integration and AllanConsulting.slack.com for \
 centralized notification."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.1.0.17svn51431"
+PV = "2023.209.1.0.17svn51431"
 
-RPM_NAME = "texlive-tlc-article-2023.201.1.0.17svn51431-52.1.noarch.rpm"
-RPM_HASH = "f94de5871807fb0c2929644e8011769486bbe3315ef490199561f75fbfbb4b6fd356671c9661892719e1a0d2bdb8877dba97ffec0d54d04ed635b74a8ae8071b"
+RPM_NAME = "texlive-tlc-article-2023.209.1.0.17svn51431-53.1.noarch.rpm"
+RPM_HASH = "daca1005ac93fb1b912881e2ecc7e7398582182ca5aee55e0bc52234b1a94509d7139f372af204fef8cbfa716df2be29035c1c0ff163c21494e282795e76b9e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tlc-article.cls \

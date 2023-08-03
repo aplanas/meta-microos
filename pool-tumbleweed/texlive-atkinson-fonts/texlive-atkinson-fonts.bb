@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-atkinson"
 DESCRIPTION = "The  separated fonts package for texlive-atkinson"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64385"
+PV = "2023.209.svn64385"
 
-RPM_NAME = "texlive-atkinson-fonts-2023.201.svn64385-53.1.noarch.rpm"
-RPM_HASH = "fed0a44b9043fcb2c1c360c5e3769a0b8935d9c9d45d2058bae2fc9fcd4358c604ceaea3d9600d4ab173ae3691afb5c0c3cc0dc7ed665f4680cfd325adf42cb3"
+RPM_NAME = "texlive-atkinson-fonts-2023.209.svn64385-54.1.noarch.rpm"
+RPM_HASH = "7b70d02c14c8d0204dcd2babe0c7015189f0ee31aa99987ce1ae129cf7550a9cd1af5c46bca1d079381441183f37c10b1090b8d942fc07a51854b874ab29c075"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-atkinson-fonts \

@@ -5,10 +5,10 @@ drawing bundles (implicants) around adjacent values. It is \
 based on an answer at StackExchange."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3.5svn56361"
+PV = "2023.209.0.0.3.5svn56361"
 
-RPM_NAME = "texlive-kvmap-2023.201.0.0.3.5svn56361-55.1.noarch.rpm"
-RPM_HASH = "8913cf785f2cfda2082eb3e6e0be776abf5bf4338c9b98ef30f010ee0364ec58543d3109c4e87c569109093e8b331259d84f3dd29935dc9ef88b80b06cf28aaa"
+RPM_NAME = "texlive-kvmap-2023.209.0.0.3.5svn56361-56.1.noarch.rpm"
+RPM_HASH = "5353edfff1a2268410b38a803482e303f912c42c47ecf44e79017f1b8459a07960ea0b193c45bdecf6d41bdbfc2ce0bc2289267f25caa859ed14710f83847d16"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-kvmap.sty \

@@ -7,10 +7,10 @@ multiple parts. This package provides the missing piece. \
 modular relies on coseoul, import, and ifthen."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn44142"
+PV = "2023.209.svn44142"
 
-RPM_NAME = "texlive-modular-2023.201.svn44142-54.1.noarch.rpm"
-RPM_HASH = "a3ad9ec78f11ca6a83bbb2f1279ec019e72ad3da028c42bc252f537ca4740732b8f897e7359a5e475df90cc44ae29510ebdc53c7feeb9460f56e9e082cfc98e8"
+RPM_NAME = "texlive-modular-2023.209.svn44142-55.1.noarch.rpm"
+RPM_HASH = "9af460cbb87fd2f05c7cf568b5c5a48ba5b56a712e74530c7d3a4848a468673fbea4abb90948b8577145d565a7e25eca923eebaf8d1ced886338b72bf96009ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-modular.sty \

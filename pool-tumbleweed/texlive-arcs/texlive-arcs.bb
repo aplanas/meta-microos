@@ -5,10 +5,10 @@ be up to three letters long.) The commands generate an \\hbox, \
 and may be used both in text and in maths formulae."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1svn15878"
+PV = "2023.209.1svn15878"
 
-RPM_NAME = "texlive-arcs-2023.201.1svn15878-54.1.noarch.rpm"
-RPM_HASH = "f61862169c0e44bbdd3304c6bd95d8574c3b579d21d02ac7aaecd0f32affedddc250815386182b02a2f52115a22f7c5d4d6bd470018b8b578fb8e169de07302c"
+RPM_NAME = "texlive-arcs-2023.209.1svn15878-55.1.noarch.rpm"
+RPM_HASH = "f872ec13860e7b4606d0ccaed6486941121780e0b15685f569837caf6176c5aa353295982f150b280b0039654dc0d7e82a00f9e856492fda73f285a14c774ce5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-arcs.sty \

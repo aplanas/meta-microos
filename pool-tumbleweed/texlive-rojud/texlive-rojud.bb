@@ -6,10 +6,10 @@ is an abbreviation of 'judetele Romaniei' (= counties of \
 Romania)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn56895"
+PV = "2023.209.1.2svn56895"
 
-RPM_NAME = "texlive-rojud-2023.201.1.2svn56895-53.1.noarch.rpm"
-RPM_HASH = "2e28a52048590929571f149bada760c65ec72f3412376804bb5a6b47b933b9d4fb57c29c10dde28404aa78b1895c446524c4999e36ee667011e60fe3cf78baa8"
+RPM_NAME = "texlive-rojud-2023.209.1.2svn56895-54.1.noarch.rpm"
+RPM_HASH = "5b1d98033f13bec53e86d620575feab45ad0dd295e3dd7618f9118606501c34b9611e5093baaa0420515ddda861dfc849e3aec0eaeb6e7296d109adebfb97453"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ot1rojud.fd \

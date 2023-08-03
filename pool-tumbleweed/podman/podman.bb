@@ -7,10 +7,10 @@ Podman is able to interact with container images create in buildah, cri-o, and \
 skopeo, as they all share the same datastore backend."
 LICENSE = "Apache-2.0"
 
-PV = "4.5.1"
+PV = "4.6.0"
 
-RPM_NAME = "podman-4.5.1-2.1.aarch64.rpm"
-RPM_HASH = "12604f498336a51982b28dbd86c1952d599a5f4887bda560b209de1d951bc4e6f2b34dffb159d5d66a5181a1cbfc0b18ae44376727fc19eba6fb445b049bed23"
+RPM_NAME = "podman-4.6.0-1.1.aarch64.rpm"
+RPM_HASH = "2dc7846579ea799bf320a945a2548bb94e7e59ae4f53575d2032f8f65abc7cab4dbf66039a0d51c5c9146e501175e98c74df9491ebcdcb7d259d31fe7fd1bb2a"
 
 RPROVIDES:${PN} += "podman \
 podman-cni-config"

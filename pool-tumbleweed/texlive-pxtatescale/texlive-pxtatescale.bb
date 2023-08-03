@@ -3,10 +3,10 @@ DESCRIPTION = "Patch for graphics driver 'dvipdfmx' to support correct scaling \
 in vertical direction of Japanese pTeX/upTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4svn63967"
+PV = "2023.209.0.0.4svn63967"
 
-RPM_NAME = "texlive-pxtatescale-2023.201.0.0.4svn63967-53.2.noarch.rpm"
-RPM_HASH = "921d6f8349daaaf908fec2c194c3402e49785d61f3e17ac53242322f910fb9df6d0c96d26e74c42a419606ab8fdc80a64a26967ec37fd37424a319d75561de6d"
+RPM_NAME = "texlive-pxtatescale-2023.209.0.0.4svn63967-54.1.noarch.rpm"
+RPM_HASH = "7018f62088d2225048d9b12c06d9522008d3a5bb096412440f998b0f1b7a9be2d8a680a07cd9a232238058d4d3872e9da9641c23d5454af7be3c720cf34dcb24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pxtatescale.sty \

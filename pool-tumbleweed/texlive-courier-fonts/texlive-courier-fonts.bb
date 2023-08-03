@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-courier"
 DESCRIPTION = "The  separated fonts package for texlive-courier"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn61719"
+PV = "2023.209.svn61719"
 
-RPM_NAME = "texlive-courier-fonts-2023.204.svn61719-54.1.noarch.rpm"
-RPM_HASH = "18a54645538f35131fcbb6dd7069c0c4b1956308f5a117adae3cb86d6b03ed3c8a295093e9790397ac1d8deb096c221910780c5052ce314bf2e3c51716b5c001"
+RPM_NAME = "texlive-courier-fonts-2023.209.svn61719-55.1.noarch.rpm"
+RPM_HASH = "ba38f14146231d5d773305c49f52f05e55aad56547406f739724b5f65e8197604017e6f1258749d7c2aa28f87788b6b320a7d267e0e02a325be17ab77bef0c67"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

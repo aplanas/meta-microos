@@ -11,10 +11,10 @@ parts into permanent support packages), and the current \
 testphase bundle will be removed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.95xsvn66532"
+PV = "2023.209.0.0.95xsvn66532"
 
-RPM_NAME = "texlive-pdfmanagement-testphase-2023.201.0.0.95xsvn66532-51.1.noarch.rpm"
-RPM_HASH = "c8dfe71308518b89a72dead1fbb3f4b8f3fb1acb9fa84b1429f32fda20a7dbf85f4c6cfaa28bae9af89f563a301f47fe34a4d9e8f69bf48ca00910120fe95995"
+RPM_NAME = "texlive-pdfmanagement-testphase-2023.209.0.0.95xsvn66532-52.1.noarch.rpm"
+RPM_HASH = "a01704cd4ff7f803aa82fc7d19bb2b24c0ca51f5d78f9b76f711ebc8037ef62158a5b030f9f9b4fbc2017b6fae91d74d52ce6e93a55f14885b7abd73114ac383"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-color-ltx.sty \

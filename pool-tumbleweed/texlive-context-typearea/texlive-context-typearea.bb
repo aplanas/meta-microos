@@ -3,10 +3,10 @@ DESCRIPTION = "The module provides a command that calculates the page layout \
 as the LaTeX package typearea does."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn47085"
+PV = "2023.209.svn47085"
 
-RPM_NAME = "texlive-context-typearea-2023.204.svn47085-54.1.noarch.rpm"
-RPM_HASH = "f2742379062df36a52f35be09776275f66cc90fce70f1b4a3d4067150e5041a534f331ff3cb7f5898fa7501cf2a18ec79b8d249d1b1b8e39763042ae57bb5e2e"
+RPM_NAME = "texlive-context-typearea-2023.209.svn47085-55.1.noarch.rpm"
+RPM_HASH = "a0f4ff12c1dfefbec2be7cf4ba6ad73563988a762b0d1eb1ec1998b295175d61faaf01f1dedf85af24e32a609ecf20b49542b1b51564b167c742204e82375470"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-t-typearea.tex \

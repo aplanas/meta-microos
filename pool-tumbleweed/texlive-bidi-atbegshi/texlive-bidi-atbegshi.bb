@@ -6,10 +6,10 @@ package only works with xelatex format and should be loaded \
 before the bidi package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn62009"
+PV = "2023.209.0.0.2svn62009"
 
-RPM_NAME = "texlive-bidi-atbegshi-2023.201.0.0.2svn62009-53.1.noarch.rpm"
-RPM_HASH = "6a85684d498e77b97a6a21fcb98be7cd54bebc258f3cc301c5c4105f5f8a887391708e03128828086c942ab133b99c8e589c457347a18fa0814d09f753a55772"
+RPM_NAME = "texlive-bidi-atbegshi-2023.209.0.0.2svn62009-54.1.noarch.rpm"
+RPM_HASH = "37b9ca1a3d7b37338ff010c92f378c8129bbd48751dcaff7eba4b684d69c5de91ca860874ba8dc49faac604fbd9bc7870a83b8ef4259cc29ccc768f99f940b9e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bidi-atbegshi.sty \

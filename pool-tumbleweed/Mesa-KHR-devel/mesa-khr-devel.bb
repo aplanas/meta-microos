@@ -2,10 +2,10 @@ SUMMARY = "Mesa Khronos development headers"
 DESCRIPTION = "Mesa Khronos development headers."
 LICENSE = "MIT"
 
-PV = "23.1.3"
+PV = "23.1.4"
 
-RPM_NAME = "Mesa-KHR-devel-23.1.3-353.1.aarch64.rpm"
-RPM_HASH = "52f2ae83a2903ee713ae1a2b1d73b491180a7da7d37c17a30b2dfdb52bdad1b3df7d8f5ac9918ebc155c9578f930a26ca05e193751b73eebf6f001518e023e21"
+RPM_NAME = "Mesa-KHR-devel-23.1.4-354.1.aarch64.rpm"
+RPM_HASH = "4af807671069101a1b6881e8b12d2e5c0948156cac675deb22cfe10ddf5f8bc33fb2ebde19c462930c51a01bc343592626c55069547361d37f8bec17620757ff"
 
 RPROVIDES:${PN} += "Mesa-KHR-devel \
 Mesa-libGL-devel-/usr/include/KHR/khrplatform.h"

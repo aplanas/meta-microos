@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-context-typescripts"
 DESCRIPTION = "This package includes the documentation for texlive-context-typescripts"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn60422"
+PV = "2023.209.svn60422"
 
-RPM_NAME = "texlive-context-typescripts-doc-2023.204.svn60422-54.1.noarch.rpm"
-RPM_HASH = "7d0e207b84eee7525c3f1eb3605bdc741c51d9819530c5b833873fce416042541b112c8d5df746b19b3d90b0f62669ceb9bcb6407fdbf8b414512737f1596a19"
+RPM_NAME = "texlive-context-typescripts-doc-2023.209.svn60422-55.1.noarch.rpm"
+RPM_HASH = "a95895770e0094f0f5ca5e3f1a1e54c009586352fae32db6080522a3c71f56b8df35f2ca91435296ebb7d9d61a8ed247a78e0e3c5b735c10cc4451d01bcda068"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-typescripts-doc"

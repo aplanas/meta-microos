@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6LabsWavefrontMesh 
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-labswavefrontmesh-private-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "842e89fc2a90f954b2cebfe6c2e424a9627e9e781315d5a3709ed8b895216d16fdd72fc33b47143c543f22812a0ed894f1eceb09be3f6350d2d8c8443acd98e7"
+RPM_NAME = "qt6-labswavefrontmesh-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "31dcedde642cd1449ee7de263e945dfb1612d942209d787d4f388b19661463836e8285363353956149190630b9c43fcdaa5a39c953600d15d12f8e8e17f4bf06"
 
 RPROVIDES:${PN} += "qt6-labswavefrontmesh-private-devel"
 

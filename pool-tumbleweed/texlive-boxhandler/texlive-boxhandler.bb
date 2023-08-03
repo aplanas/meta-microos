@@ -16,10 +16,10 @@ separate source file, while nonetheless producing a document \
 with figures and tables appearing in the desired location."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.30svn28031"
+PV = "2023.209.1.30svn28031"
 
-RPM_NAME = "texlive-boxhandler-2023.201.1.30svn28031-52.1.noarch.rpm"
-RPM_HASH = "c013e817506570b9568bda6c6e549253621a4b1be6731b639656fa375fa2ed5515d900d7d7886cdc0480168a3121b93a49fd189513b4da5323778258a0f70945"
+RPM_NAME = "texlive-boxhandler-2023.209.1.30svn28031-53.1.noarch.rpm"
+RPM_HASH = "c0f542918494b4a03bf18ea14a6903ab4bbf2dbfc510dc74f7d8ea3dee6b7e949cd773f37167432cd581bf5df4d775c6647d2373583a0fa0fd13ff3e144e4158"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-boxhandler.sty \

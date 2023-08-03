@@ -3,10 +3,10 @@ DESCRIPTION = "LaTeX package that gives meaning to various Unicode space \
 characters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.05svn63123"
+PV = "2023.209.0.0.05svn63123"
 
-RPM_NAME = "texlive-uspace-2023.201.0.0.05svn63123-53.1.noarch.rpm"
-RPM_HASH = "f9807923f99fc84b80f6adb4412804e4cb7911bffe38134b1ea7c4c65df08c5d9c1e735de00ca4cda989ded8cab30af16dfeacdb7a7b8ab8adf3fa5d95c12af6"
+RPM_NAME = "texlive-uspace-2023.209.0.0.05svn63123-54.1.noarch.rpm"
+RPM_HASH = "61c46520349c08b537fa88f1f4ef5c8d351e51a4123cf5e4cb154023349074fd38d5062089733e63f9a4a7e68c1e023bb3ca48a0220ca269c1f36ab10c5bf568"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uspace.sty \

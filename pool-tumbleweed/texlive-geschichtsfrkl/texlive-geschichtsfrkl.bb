@@ -4,10 +4,10 @@ requirements of the History Faculty of the University of \
 Freiburg (Germany)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4svn42121"
+PV = "2023.209.1.4svn42121"
 
-RPM_NAME = "texlive-geschichtsfrkl-2023.201.1.4svn42121-52.1.noarch.rpm"
-RPM_HASH = "5c91bd5106577206c6e93a47cccc8d00ebb4e3984362a9c786861803ff94c317a78e2aa39bfce36503cf919bd3c29c6dbbdaf33a3b5f217b1d81c0b20a6bd0c2"
+RPM_NAME = "texlive-geschichtsfrkl-2023.209.1.4svn42121-53.1.noarch.rpm"
+RPM_HASH = "19c4770f108dfa35e5c78d8e2050d51c0dbafc5da391fa4f2029c9d9c2b279490ac9118b726bd81e72a406379ebc924d852e8be3c139872bc3792462d65a163f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-geschichtsfrkl.bbx \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-contracard"
 DESCRIPTION = "This package includes the documentation for texlive-contracard"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.2.0.0svn50217"
+PV = "2023.209.2.0.0svn50217"
 
-RPM_NAME = "texlive-contracard-doc-2023.204.2.0.0svn50217-54.1.noarch.rpm"
-RPM_HASH = "efa7a43c20bb97965e832099990c2981829c91c8249f2a6ba9771b6dd81bde892e4b41cc6d6a9bf6618a6cc0780d401f1bb9d3c307c476de011386c3d5e1a4c3"
+RPM_NAME = "texlive-contracard-doc-2023.209.2.0.0svn50217-55.1.noarch.rpm"
+RPM_HASH = "cfef22dc720a20d864c12a7cc0c59aec4d8e3412f7fd53bcf26b2e897a8058af41badbb7a476d52f6dce707730e9120b287139de7321abf054b2b3b616820cbc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-contracard-doc"

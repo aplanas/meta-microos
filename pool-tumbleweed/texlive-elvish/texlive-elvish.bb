@@ -4,10 +4,10 @@ Tengwar (teng10.mf). The Tengwar fonts are supported by macros \
 in teng.tex, or by the (better documented) tengtex package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-elvish-2023.201.svn15878-53.2.noarch.rpm"
-RPM_HASH = "5197c5a61f2683e83f7ce679d30101cd70f04db77c7daaf157f6902281090a8105d8c6115484e491b71abcd9b6ae7a7c3508eef43e13d575eac5ab633635e104"
+RPM_NAME = "texlive-elvish-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "093c951884d8be751dd5177dc264fb1ca7b594c1e3d8203c9b55e81bae3f1a39fd16f06e420d210f98c41be33114c1369c95462fac2d4ced357be773f0af8535"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cirth.tfm \

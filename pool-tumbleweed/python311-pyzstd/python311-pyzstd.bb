@@ -5,10 +5,10 @@ using Facebook's Zstandard (or zstd as short name) algorithm. \
 The API is similar to Python's bz2/lzma/zlib modules."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.15.6"
+PV = "0.15.9"
 
-RPM_NAME = "python311-pyzstd-0.15.6-2.1.aarch64.rpm"
-RPM_HASH = "d5aeffbd2980ac8a88978f440887c3e36aa62cc27eb12314711a5208de271491dc696ad29d1ef63d590d0c4e107692a4bb599aaee7303593c14f2c9773ec44e5"
+RPM_NAME = "python311-pyzstd-0.15.9-1.1.aarch64.rpm"
+RPM_HASH = "a0c6c5aa7861289532cc4b9b71a17747caf78af7a964e7368a1d2aa7a63e8e00c324c479976a74e9b717a6570c1ee8adf6143347f14dddbfdae0c333a811f096"
 
 RPROVIDES:${PN} += "python3-pyzstd \
 python3.11dist-pyzstd \

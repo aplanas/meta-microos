@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gfsdidot"
 DESCRIPTION = "This package includes the documentation for texlive-gfsdidot"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54080"
+PV = "2023.209.svn54080"
 
-RPM_NAME = "texlive-gfsdidot-doc-2023.201.svn54080-52.1.noarch.rpm"
-RPM_HASH = "b5dca006b394e5a609cf28102033181028db4f82bce3196a450a3b0666381d2ff83c8d82aecd09877f6d398a9a68c58aafa53ec2146913cd2232f641b5e9b94b"
+RPM_NAME = "texlive-gfsdidot-doc-2023.209.svn54080-53.1.noarch.rpm"
+RPM_HASH = "388fe1721c705dab4ded9b41269c1b0f6f918395699e6c8743f97dbc48ff20089ab44fbf58e0bf1df4a9454857127710db9a8d7e34c36e1792a9507748e9998d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gfsdidot-doc"

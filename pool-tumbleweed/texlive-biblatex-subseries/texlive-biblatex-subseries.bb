@@ -7,10 +7,10 @@ Orientalium published by Peeters. This package provides new \
 fields to manage such system."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2.0svn43330"
+PV = "2023.209.1.2.0svn43330"
 
-RPM_NAME = "texlive-biblatex-subseries-2023.201.1.2.0svn43330-53.1.noarch.rpm"
-RPM_HASH = "2494b78a62d1b75f338c8198a45a7874f0dcfdd1e751ccd7996fbd2c9ffe1f40d5fd2ef36505bdd4cf38ae3b7bd621b2687ceddbef77a7cceb285e64601f65c8"
+RPM_NAME = "texlive-biblatex-subseries-2023.209.1.2.0svn43330-54.1.noarch.rpm"
+RPM_HASH = "dc70561a2dd3944969e3f11e03e82ef58f8e1cfaf3b68fa205273ffe8bf910139314565490b86ed7b5aded72495ad41f36d8c70a2bba3ac22be1085ade8dac7c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-subseries.bbx \

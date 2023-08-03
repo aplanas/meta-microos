@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-biblatex-historian"
 DESCRIPTION = "This package includes the documentation for texlive-biblatex-historian"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4svn19787"
+PV = "2023.209.0.0.4svn19787"
 
-RPM_NAME = "texlive-biblatex-historian-doc-2023.201.0.0.4svn19787-53.1.noarch.rpm"
-RPM_HASH = "8342b0a8f594353bba781e21ee6a216715649ba9a80eeccc1438da2c33384c01b05c35f5afcc14cab8a9dd4e1be7d57ed6c4bcaa3a295867c1aece83d2a34590"
+RPM_NAME = "texlive-biblatex-historian-doc-2023.209.0.0.4svn19787-54.1.noarch.rpm"
+RPM_HASH = "12c39f5edec1f0a2eafe84eb521282813f29bf8ab90494e8542b2584ec88dd584b200b73f4eb6936704a48f729f2dbb4331d9b76032d496d88a035c52cc28e28"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biblatex-historian-doc"

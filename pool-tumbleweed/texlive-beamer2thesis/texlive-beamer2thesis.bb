@@ -2,10 +2,10 @@ SUMMARY = "Thesis presentations using beamer"
 DESCRIPTION = "The package specifies a beamer theme for presenting a thesis."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.2svn27539"
+PV = "2023.209.2.2svn27539"
 
-RPM_NAME = "texlive-beamer2thesis-2023.201.2.2svn27539-53.1.noarch.rpm"
-RPM_HASH = "acc1db588d888b1726fe28a5b12b527770be554b89333603d7866077c3eaefd2373d6dd07d3c7b2022cfd037da5238d60e746575c08f192f3c3cc3506bc4634f"
+RPM_NAME = "texlive-beamer2thesis-2023.209.2.2svn27539-54.1.noarch.rpm"
+RPM_HASH = "61d7fe26ec769730c2a1313a01736503fea7b44b87a2bd0ece6c9e2b64c463c6f31ac137a9820f62ca4ac59df0937e803d1ba2bd4bfec8d81ed56a4ca90029da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemetorinoth.sty \

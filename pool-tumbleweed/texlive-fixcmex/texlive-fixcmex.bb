@@ -9,10 +9,10 @@ size fonts provided by the AMS together with the original \
 cmex10 font."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn51825"
+PV = "2023.209.1.1svn51825"
 
-RPM_NAME = "texlive-fixcmex-2023.201.1.1svn51825-52.1.noarch.rpm"
-RPM_HASH = "9f40288c90cbfbd699a45875c2c3da64d993793b5edbdb654133eaababe0f11c32c46ec17426e12b6ad3dbb03cd76f81644cd80c3c560635aab85f63aa3a66e0"
+RPM_NAME = "texlive-fixcmex-2023.209.1.1svn51825-53.1.noarch.rpm"
+RPM_HASH = "bc3f93b4f6c0c33ab0f5cfc13e2c743b0d2dd122f207ecdcebdfa39a8a8a82c34d155b7c4ddf5251a4091a693168ce7023a2d949096a9c253f36eb0072c1414f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fixcmex.sty \

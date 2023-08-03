@@ -5,10 +5,10 @@ that they may even 'borrow' some garments and other attributes \
 from the TikZducks."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn54080"
+PV = "2023.209.1.0svn54080"
 
-RPM_NAME = "texlive-tikzmarmots-2023.201.1.0svn54080-52.1.noarch.rpm"
-RPM_HASH = "d0d3c79851d33cb08d3e22a518e160e4f2474a6006a5f1be1382531ae5bd94441cdc4423302ab060c4514a60d2dab322ab4a4138c926684bd9231638444a4e9e"
+RPM_NAME = "texlive-tikzmarmots-2023.209.1.0svn54080-53.1.noarch.rpm"
+RPM_HASH = "d80351081362f2537b5b54fc527b57b3f88879aee99f605236ec4f7a8f389306bd1e0bbb9d5f26f925bd3bf849fcf2dfd759939afda5a261a842b7bb54fc351d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzlibrarymarmots.code.tex \

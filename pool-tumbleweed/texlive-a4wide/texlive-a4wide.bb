@@ -6,10 +6,10 @@ provided by the geometry package. The package uses the a4 \
 package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn20943"
+PV = "2023.209.svn20943"
 
-RPM_NAME = "texlive-a4wide-2023.201.svn20943-54.1.noarch.rpm"
-RPM_HASH = "390024c9b0899c6eda40c5f45aab779e6318996d2c2ba8dcd2c0359b53c124f50b30d63e21e90c680faf02f0983a3cdadf81a03a5a0a61b91ec265a6009ece7f"
+RPM_NAME = "texlive-a4wide-2023.209.svn20943-55.1.noarch.rpm"
+RPM_HASH = "6e799272b21426a0e82d98a390c4ec5b05a69edc18312ba8a8869ea95a62db0bfad60f41773139668db45bf497f1331087cf8ae90ea851218ea03ed6d8372621"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-a4wide.sty \

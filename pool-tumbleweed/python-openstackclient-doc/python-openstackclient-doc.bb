@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.6.0"
 
-RPM_NAME = "python-openstackclient-doc-5.6.0-2.6.noarch.rpm"
-RPM_HASH = "1c66f02aa79e3872a5a015d40b21b327d7ac9c2d3a2589221a26f61926be601a307962fd3082c46ae1181342a381f4ed8d0d6cd9afe03a2700e51933c2010ab2"
+RPM_NAME = "python-openstackclient-doc-5.6.0-2.7.noarch.rpm"
+RPM_HASH = "1a2e8de151abc4cc7f068a4393762e29857857d69449d3b37cb308bd0ad311bf8a49d18126eb9dd650d94f7104b86ed08ecbdb3720ee00c6127768224cad4563"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-openstackclient-doc"

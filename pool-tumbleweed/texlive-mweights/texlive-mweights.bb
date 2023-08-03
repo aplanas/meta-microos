@@ -8,10 +8,10 @@ it differs from the weight desired for another font family. The \
 package provides a solution to these difficulties."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn53520"
+PV = "2023.209.svn53520"
 
-RPM_NAME = "texlive-mweights-2023.201.svn53520-54.1.noarch.rpm"
-RPM_HASH = "0bcf3d7048a04b7a4ef031ae5f4f60795f175503e056d694cb982b57f9286677263256b4ae869c60fe347321beb81b62478daace819421c5f3466986afa38717"
+RPM_NAME = "texlive-mweights-2023.209.svn53520-55.1.noarch.rpm"
+RPM_HASH = "4286715257b5a5b2d5cc5fd054527faad8c167b01d3926d63d27ed82ee3fd22d34276799fb11e2d5f5354630332c028bff66460b5a83d348e8f947ae430b0279"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mweights.sty \

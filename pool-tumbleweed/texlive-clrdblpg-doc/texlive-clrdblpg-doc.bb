@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-clrdblpg"
 DESCRIPTION = "This package includes the documentation for texlive-clrdblpg"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn47511"
+PV = "2023.209.1.0svn47511"
 
-RPM_NAME = "texlive-clrdblpg-doc-2023.201.1.0svn47511-53.1.noarch.rpm"
-RPM_HASH = "4b16472a9ce3aa7497130b64ebe818133306bdc93316201c873a1cf58ad541ac970d1bacb713bb5a2e057ba8f44f6a18fbe07e7bfa5460bc558057468e39caea"
+RPM_NAME = "texlive-clrdblpg-doc-2023.209.1.0svn47511-54.1.noarch.rpm"
+RPM_HASH = "f86712e7a8b494239bbafa2c18a30d476515cedcbcb337270f940b82eb3691797db5b17dddeccfed09bfcf31f2d9c8d624647b8bab21c43731970e09673b1989"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-clrdblpg-doc"

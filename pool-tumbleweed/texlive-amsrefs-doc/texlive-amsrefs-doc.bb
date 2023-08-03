@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-amsrefs"
 DESCRIPTION = "This package includes the documentation for texlive-amsrefs"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.14svn61937"
+PV = "2023.209.2.14svn61937"
 
-RPM_NAME = "texlive-amsrefs-doc-2023.201.2.14svn61937-54.1.noarch.rpm"
-RPM_HASH = "1279c145e549da04ebb987308fc5c190bc41abe631323292d6909a129ee19655615ec65e6d99f3f3df3a8da6c4f4a422cdc08e8f7910235a10945ec288516534"
+RPM_NAME = "texlive-amsrefs-doc-2023.209.2.14svn61937-55.1.noarch.rpm"
+RPM_HASH = "ea66fb9a2031183119462d9d47253891199dd102c582fb42765f01158e11e5ec565f8acc0086d761c03e4156118ed29f5fad22d2681a2540fb07dd80552d26f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-amsrefs-doc"

@@ -6,10 +6,10 @@ This package requires the fontspec package and either the \
 Xe(La)TeX or Lua(La)TeX engine to load the included ttf font."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn43546"
+PV = "2023.209.svn43546"
 
-RPM_NAME = "texlive-fontmfizz-2023.201.svn43546-52.1.noarch.rpm"
-RPM_HASH = "208c5409bf9aa2445171a40b5615cfc22731b58d323ae9851a66a8cb17eccd7eadc19e59558cbb521663ed807df9e984f8b315dbf39b799f35cd858b466cff40"
+RPM_NAME = "texlive-fontmfizz-2023.209.svn43546-53.1.noarch.rpm"
+RPM_HASH = "881a317e8e1809579f2e6378874b34818302a9c9961225db2520dc4cdf55a3f1942e7425d6e6576af54edffa997352324a92da78dddf4121153c63c5fb546e71"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fontmfizz.sty \

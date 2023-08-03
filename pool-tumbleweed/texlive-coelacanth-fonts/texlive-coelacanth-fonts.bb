@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-coelacanth"
 DESCRIPTION = "The  separated fonts package for texlive-coelacanth"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.005svn64558"
+PV = "2023.209.0.0.005svn64558"
 
-RPM_NAME = "texlive-coelacanth-fonts-2023.201.0.0.005svn64558-53.1.noarch.rpm"
-RPM_HASH = "9267165beba76c22cd7fc56a28e9891462b98b17e69b1532f1e930e7d73d21682f9fe4274e37db4e273dc7b736d8424b272d728f714ef40bfef50f812c77f203"
+RPM_NAME = "texlive-coelacanth-fonts-2023.209.0.0.005svn64558-54.1.noarch.rpm"
+RPM_HASH = "a44fa657f4ddf062124b07da8a1d7374aa242c2eb933f6ccf518d17fbea8ba92f161f4dce708ed1408003ed7c8bd046f67f74494148ae217a7be363f935860f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-coelacanth-fonts \

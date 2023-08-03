@@ -8,10 +8,10 @@ given time N (where N is defined at installation and is set to 5 \
 minutes by default)."
 LICENSE = "ISC"
 
-PV = "1.9.13p3"
+PV = "1.9.14p1"
 
-RPM_NAME = "sudo-1.9.13p3-3.3.aarch64.rpm"
-RPM_HASH = "bd36c25409d9a8d77c05af6b7d9ad0ca717946db4a4adfe6e13ebb1065bd7df63a4ebeccfa74cc87ba54436c6656b8db83432cd88109a22fd28e6aede3e8bcce"
+RPM_NAME = "sudo-1.9.14p1-1.1.aarch64.rpm"
+RPM_HASH = "bc0336692c54268f87dad1243bf099895c98d90cc4d3fbe39c59bee6b717f14a3e9000cf3cf9004988e30b5ce47c78374c11a1e01aa56e5609a179af717df881"
 
 RPROVIDES:${PN} += "config-sudo \
 libsudo-util.so.0 \

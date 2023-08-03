@@ -10,10 +10,10 @@ several raw index files and calls your favorite index processor \
 for each of the files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2csvn39766"
+PV = "2023.209.1.2csvn39766"
 
-RPM_NAME = "texlive-splitindex-2023.201.1.2csvn39766-57.1.noarch.rpm"
-RPM_HASH = "d38c3d2b36ea17e13e666f7724d7c9474cb782f82d226bcd34ecdade335ff1948d264de3dd71136db4641318d32f2baa5fefcbfa3ec24d77a4a833dd7e877fd2"
+RPM_NAME = "texlive-splitindex-2023.209.1.2csvn39766-58.1.noarch.rpm"
+RPM_HASH = "d31406f1062a12574108f2092bd09e2a33f2d62a3baa65dbf836a0fd0ee75b6726fcfd4d16442ddb832a2382d9e39a4cd8af998b12451e8f0669e1c5eef38db3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-splitidx.sty \

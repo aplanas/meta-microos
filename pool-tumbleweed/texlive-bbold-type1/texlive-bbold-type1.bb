@@ -9,10 +9,10 @@ Y&Y; they were generously donated to the TeX Users Group when \
 Y&Y closed its doors as a business."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn33143"
+PV = "2023.209.svn33143"
 
-RPM_NAME = "texlive-bbold-type1-2023.201.svn33143-53.1.noarch.rpm"
-RPM_HASH = "8a62651fada8327002d089283c87acca203c9e15f8b7ac66b08e7e3d2a19b7a31320b3bc04ad01cfc0500191c7d03eeb6d5ff23a2cf173a34121d0f61011d0e5"
+RPM_NAME = "texlive-bbold-type1-2023.209.svn33143-54.1.noarch.rpm"
+RPM_HASH = "85b54bb9ef7473471d960a03e9697a3fa376ccb78c97373d3a6020c47c927d5866b24a6f6765051c7035fd8df3f5e65b89106a16f5a0ececdef0d8fecda9e68d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bbold.map \

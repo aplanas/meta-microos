@@ -4,10 +4,10 @@ Language) standard, performing XSLT transformations using the libxslt \
 library"
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.7"
+PV = "8.2.8"
 
-RPM_NAME = "php8-xsl-8.2.7-1.1.aarch64.rpm"
-RPM_HASH = "b47b28d4ceb5c3742938482a43e4943665c7587ed8d634b7815c0cb089a3dfcd9dfed29114734d4d6621a273681ae3191e9a1e08c87061b181a48be8bc6cc688"
+RPM_NAME = "php8-xsl-8.2.8-1.1.aarch64.rpm"
+RPM_HASH = "1c6f46a1f651e94de86093f1b10f6c08fb9502d1b999e51232bfb7db29be853ac489a1bdc3117973d9d0d0d1dfc45ccf951907abc8d98f6a2e136dc1edb42f63"
 
 RPROVIDES:${PN} += "config-php8-xsl \
 php-xsl \

@@ -4,10 +4,10 @@ sixteen colors of Ethan Schoonover's popular color palette, \
 Solarized, for use in documents typeset with LaTeX and Friends."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4svn61719"
+PV = "2023.209.0.0.4svn61719"
 
-RPM_NAME = "texlive-xcolor-solarized-2023.201.0.0.4svn61719-52.2.noarch.rpm"
-RPM_HASH = "35274150229a232a87c547b03b296e2ad07532dc51467e10e3bb139d0f85d206f09301506da3fff45329397575d261d028661fb587b7b75996c79ca2c3f8be58"
+RPM_NAME = "texlive-xcolor-solarized-2023.209.0.0.4svn61719-53.1.noarch.rpm"
+RPM_HASH = "a5dd67fa49d42968f757b10304db2c44230990a02379ea76d8abe40660816c3e96ff23dc30246596966bcc93969ef4dfbdc26807c7c831e2dd85286c0c4391df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xcolor-solarized.sty \

@@ -6,10 +6,10 @@ names that are compatible with that package. Supported \
 encodings: LGR, T2A, T2B, T2C, OT2."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.01svn44616"
+PV = "2023.209.1.01svn44616"
 
-RPM_NAME = "texlive-libertinegc-2023.201.1.01svn44616-54.1.noarch.rpm"
-RPM_HASH = "7196409b03186c58c2a0bf0ed0a5c3bc3a67dc91fa1f0617ddb9f9b6184cbc44313fd675e2b588ec1db4dd293b752a1294ff32567206f3d4c176439cf0b9591a"
+RPM_NAME = "texlive-libertinegc-2023.209.1.01svn44616-55.1.noarch.rpm"
+RPM_HASH = "483c7c60213f69a556d0d589005a6e14fd0b5c09ea8cca2da6470270acda6a2fa5c2ba5ab9e6bb5dff76c429c391793c4d9b84a203af2e6d9c5d07da525541cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LGRLinuxLibertineT-LF.fd \

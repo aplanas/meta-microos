@@ -7,12 +7,11 @@ LICENSE = "MIT"
 
 PV = "0.8.0"
 
-RPM_NAME = "python310-gns3fy-0.8.0-1.3.noarch.rpm"
-RPM_HASH = "7a673f2ef5099fa3b74fa25b1965dc92ddf02e07f001c193e6fef366d694e930ac216958d7e3d05dab07ceb6b80d53dfb226e21474eade29e40386ae0b89f849"
+RPM_NAME = "python310-gns3fy-0.8.0-2.1.noarch.rpm"
+RPM_HASH = "7d1dea03a8c063342dad7f209df1c4feb2e6a22b3568e45d4f477b1bc9b7c4d416c324714f6dd24052a537d3d7835952b0612d5cad545c1e77048edecc367e7a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-gns3fy \
-python3.10dist-gns3fy \
+RPROVIDES:${PN} += "python3.10dist-gns3fy \
 python310-gns3fy \
 python3dist-gns3fy"
 

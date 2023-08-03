@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-stix2-type1"
 DESCRIPTION = "The  separated fonts package for texlive-stix2-type1"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.2.0.2svn57448"
+PV = "2023.209.2.0.2svn57448"
 
-RPM_NAME = "texlive-stix2-type1-fonts-2023.201.2.0.2svn57448-57.1.noarch.rpm"
-RPM_HASH = "7e66b42f9394e4054e956e8def68e067e71658205da5459661d7d7152218037db983ab3b6bf897348cb022dc48ce9769c9c260a4bed432549ded4db1a026dab0"
+RPM_NAME = "texlive-stix2-type1-fonts-2023.209.2.0.2svn57448-58.1.noarch.rpm"
+RPM_HASH = "a27331efb2a5385bb36004167fba1b40fe61cea1e14fd071f01f022b287ec02b848cafb98c7bb1d8d6c17cc3c3c31ba191d0f0bfb9661731a2721a1f72e7a366"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

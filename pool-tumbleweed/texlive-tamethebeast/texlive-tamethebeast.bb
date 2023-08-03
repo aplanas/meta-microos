@@ -3,10 +3,10 @@ DESCRIPTION = "An (as-complete-as-possible) manual about bibliographies in \
 LaTeX, and thus mainly about BibTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4svn15878"
+PV = "2023.209.1.4svn15878"
 
-RPM_NAME = "texlive-tamethebeast-2023.201.1.4svn15878-54.1.noarch.rpm"
-RPM_HASH = "b62cdcb0ef3e7cefb16b346e161f0a9b6933eacdf22775fc223fda3e5277e80cf082d3deadb145e422d501ba4802bec647f276b7ea9205dba517cc0b1cfc5d00"
+RPM_NAME = "texlive-tamethebeast-2023.209.1.4svn15878-55.1.noarch.rpm"
+RPM_HASH = "d55bb8694259b5d468c5882e57c1cd66c4a9ab5b967a1b2fcb5214b095943024cdc93aeec148431ef8a88a39fc3d63b1c06463c73bf9b0f86b7b856ac885c8c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tamethebeast"

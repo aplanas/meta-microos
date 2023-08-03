@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-knitting"
 DESCRIPTION = "The  separated fonts package for texlive-knitting"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.0svn50782"
+PV = "2023.209.3.0svn50782"
 
-RPM_NAME = "texlive-knitting-fonts-2023.201.3.0svn50782-55.1.noarch.rpm"
-RPM_HASH = "436928fe063b2dbff1534ca78432d92a90d0a43e83f5a7dc273b5871773e67495838dbe9808f888fbac5db76494c3ad1465cd0bb3e1c240672072d8521faa433"
+RPM_NAME = "texlive-knitting-fonts-2023.209.3.0svn50782-56.1.noarch.rpm"
+RPM_HASH = "4f501fa2bbad315755f353b893b324fb2870c28e99b28dd5e1a1dc77a2b67b7c669c5297a237e1bbd90781ba83c1dac0e85c212ac167571614be390258169fbd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

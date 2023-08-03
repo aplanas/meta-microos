@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dirtytalk"
 DESCRIPTION = "This package includes the documentation for texlive-dirtytalk"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.0svn20520"
+PV = "2023.209.1.0svn20520"
 
-RPM_NAME = "texlive-dirtytalk-doc-2023.201.1.0svn20520-52.1.noarch.rpm"
-RPM_HASH = "15f957542a7339436116cc1da594c5c7197e69ec46f0c2996d7b4848d069d7c3a23e354b3fd19c08371b9dbb518aca78070b78723c77ad0b75a621ac355d724a"
+RPM_NAME = "texlive-dirtytalk-doc-2023.209.1.0svn20520-53.1.noarch.rpm"
+RPM_HASH = "7474835c9831d14091361023fbee05fcbd9fe341862f8326852d57a347e9b39e3e9ae686b93412203c7c5bfae1f01e544ba34937dda883ff676562e9f60fd0f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dirtytalk-doc"

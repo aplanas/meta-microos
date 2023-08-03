@@ -4,10 +4,10 @@ bundle, with modifications to get things working properly in \
 both right to left and left to right modes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn35267"
+PV = "2023.209.0.0.3svn35267"
 
-RPM_NAME = "texlive-bidipresentation-2023.201.0.0.3svn35267-53.1.noarch.rpm"
-RPM_HASH = "3641dc9871242be11725db465b336b72715e1c9bcaa7eb47791e2f734f51db78042857cb3e5fed9c0370a93317f2596c1a8fe706f82d4d7e391d21b62dd48d98"
+RPM_NAME = "texlive-bidipresentation-2023.209.0.0.3svn35267-54.1.noarch.rpm"
+RPM_HASH = "5c529a17fcb502041fe053fc07150d6b20342b2ce339841c8aa58b55be9e48d0ac67abe207583d4680aa29b294856f9b219bc7a2427105ea1a5b367d732da109"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bidiprescolors.cfg \

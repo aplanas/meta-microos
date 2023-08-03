@@ -2,10 +2,10 @@ SUMMARY = "Translations for package highlight-gui"
 DESCRIPTION = "Provides translations for the 'highlight-gui' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.6"
+PV = "4.7"
 
-RPM_NAME = "highlight-gui-lang-4.6-1.1.noarch.rpm"
-RPM_HASH = "47216857716ec5e0a7cfed834ab4df7228431f712c902f89abe035f8e2f6283f85ad88eed6a72ca4b46a8d0196daff7c8fd3800477ed237ae72ffe604a7bd2dc"
+RPM_NAME = "highlight-gui-lang-4.7-1.1.noarch.rpm"
+RPM_HASH = "87a1b7f40f5b24ded29c297f411197b6b00ac32ec831615d85844b67e35053f5561084f6cd521219530bdba53f148750009e131b045587aa74a83562db29adce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "highlight-gui-lang \

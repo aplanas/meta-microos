@@ -7,10 +7,10 @@ the typesetters to prepare the proof authors will receive for \
 approval)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.06svn46721"
+PV = "2023.209.1.06svn46721"
 
-RPM_NAME = "texlive-cje-2023.201.1.06svn46721-53.1.noarch.rpm"
-RPM_HASH = "badc6978dc11242af93d7a7d035172a717cc83f912d5b286fd2d935358a91d3952ec0a7cfb92ed2f620524a2efc33e51061b29302f81538dd652cae873aa6d90"
+RPM_NAME = "texlive-cje-2023.209.1.06svn46721-54.1.noarch.rpm"
+RPM_HASH = "65fc8abed023f2ffc0f4cb528f264064b60a8acf8cbad122378caa4a543f67fbc3fcd50850aa58518c7f991b198e0159ffc35795ffa913dc4e4e19a531f6ce0a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cje.cls \

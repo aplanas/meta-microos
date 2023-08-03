@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 ChartsQml library"
 DESCRIPTION = "The Qt 6 ChartsQml library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6ChartsQml6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "9920936a9fcfe334b7cf30e808053eba2beb963e2d38e8007446cac58f8d8ed5636231344838ecfe3f198924f5d9c2dce88d12a539cdaf442e51bffe137e5908"
+RPM_NAME = "libQt6ChartsQml6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "9ac7954f27ef21dc4a6b1386cd4698dc3f6b6a71dc5efc10dc2605a7de6fec48321bff634ffb67befb382ee41e005892ca9fbecdcff446ef56bf4f1df4ed8a26"
 
 RPROVIDES:${PN} += "libQt6ChartsQml.so.6 \
 libQt6ChartsQml6"

@@ -4,25 +4,27 @@ and server-side support for the OpenAPI Specification \
 v3.0.0."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.16.6"
+PV = "0.18.0"
 
-RPM_NAME = "python310-openapi-core-0.16.6-1.1.noarch.rpm"
-RPM_HASH = "5933dc13c9240a6051a43f68ba35c9c9b1e699b8841bb1457bf15e6a6a37fb672b3a355a0871b661f8e35faca9b3305c805afbdeaac8d5746b253e91c2d03a17"
+RPM_NAME = "python310-openapi-core-0.18.0-2.1.noarch.rpm"
+RPM_HASH = "2744d9568e09630e4d69f6f63df7d9f8ce16bfab85fcb1db61d79ab1bfd6aa53e46ca6bf1b5cf980dc9032e438d485a81d269b6bcc8ab7ff71e67520b491789d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-openapi-core \
 python310-openapi-core \
 python3dist-openapi-core"
 
-RDEPENDS:${PN} += "-python310-openapi-schema-validator >= 0.3.0 with python310-openapi-schema-validator < 0.5 \
--python310-openapi-spec-validator >= 0.5.0 with python310-openapi-spec-validator < 0.6 \
+RDEPENDS:${PN} += "-python310-jsonschema >= 4.18.0 with python310-jsonschema < 5 \
+-python310-jsonschema-spec >= 0.2.3 with python310-jsonschema-spec < 0.3 \
+-python310-openapi-schema-validator >= 0.6 with python310-openapi-schema-validator < 0.7 \
+-python310-openapi-spec-validator >= 0.6 with python310-openapi-spec-validator < 0.7 \
 python-abi \
 python310-Werkzeug \
+python310-asgiref \
 python310-isodate \
-python310-jsonschema-spec \
 python310-more-itertools \
-python310-parse \
-python310-pathable \
-python310-typing-extensions"
+python310-openapi-schema-validator \
+python310-openapi-spec-validator \
+python310-parse"
 
 inherit rpm

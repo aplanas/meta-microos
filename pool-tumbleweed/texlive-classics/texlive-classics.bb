@@ -6,10 +6,10 @@ pagination systems. It may be used in conjunction with other \
 citation packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1asvn53671"
+PV = "2023.209.0.0.1asvn53671"
 
-RPM_NAME = "texlive-classics-2023.201.0.0.1asvn53671-53.1.noarch.rpm"
-RPM_HASH = "24c4d1f2a05999370178629db32f3fb5881d8c531fbe265b3f8e1c80a3a1b400bde7d9056b19c524d98bc4d2c201844077feb4c620b0d01b878c696cc2314b3e"
+RPM_NAME = "texlive-classics-2023.209.0.0.1asvn53671-54.1.noarch.rpm"
+RPM_HASH = "e167f92c70eb6e324d640802b565053f8fa249b4a4d14abc1e01878c2dc22bf89273c67a9df71834625f1e98a6c7ae479b2500dd59095fcefe5d148a150397d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-classics.sty \

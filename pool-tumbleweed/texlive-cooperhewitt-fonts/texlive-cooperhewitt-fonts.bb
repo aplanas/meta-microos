@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-cooperhewitt"
 DESCRIPTION = "The  separated fonts package for texlive-cooperhewitt"
 LICENSE = "OFL-1.1"
 
-PV = "2023.204.svn64967"
+PV = "2023.209.svn64967"
 
-RPM_NAME = "texlive-cooperhewitt-fonts-2023.204.svn64967-54.1.noarch.rpm"
-RPM_HASH = "292369d216574cb338862b3d9107d051fd1255f169b30403af08893c32af1c238b90f34b034ea14e673aed534f04416282c0e7aac10c12e5eb286919f6374dea"
+RPM_NAME = "texlive-cooperhewitt-fonts-2023.209.svn64967-55.1.noarch.rpm"
+RPM_HASH = "1283f0c39a6ba925ac081923b7ebd934fe2b892875e047b15948007893735d75010818aaed3b1ccc88be69e0ccdef28e88da2d24cd7e7bc0aa1d2168881226e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-cooperhewitt-fonts \

@@ -9,10 +9,10 @@ particular, verbatim text may not be directly included in \
 optional sections (whether they're included or not)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.2bsvn18131"
+PV = "2023.209.2.2bsvn18131"
 
-RPM_NAME = "texlive-optional-2023.201.2.2bsvn18131-54.1.noarch.rpm"
-RPM_HASH = "926a0ce9f5a939ca6a3cfd0e6d07511c7f06705afd5156bf519ce253368cc3ed8ae18c79c4e3434eae590cd1c90cb3cb4089222f5744f502c551f7b817739c96"
+RPM_NAME = "texlive-optional-2023.209.2.2bsvn18131-55.1.noarch.rpm"
+RPM_HASH = "c461b800b2979821fe40876103300df8d1576717c708df8b7bb51d302af87499db6e0afeb3b458b92b7834d8c8c6a8c2e1357b991f241ef16e9c11262e3e565d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-optional.sty \

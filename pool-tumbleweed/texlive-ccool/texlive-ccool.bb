@@ -15,10 +15,10 @@ This can useful for typesetting documents sharing the same \
 notation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.2svn60600"
+PV = "2023.209.3.2svn60600"
 
-RPM_NAME = "texlive-ccool-2023.201.3.2svn60600-52.1.noarch.rpm"
-RPM_HASH = "b649db0bbeaa87d8cb1e9ff358d0f6eae24ab10f32563cd7f7962cf427a0dd788711302d87bdbdc47f988ea8ff723d42803fce250d6af3a0598b67cdd0b6fe51"
+RPM_NAME = "texlive-ccool-2023.209.3.2svn60600-53.1.noarch.rpm"
+RPM_HASH = "35559c02eea8daac12ec2b49d95013691b97244be75a928f7799bd6e3f32c7fb28c58bcf0e181ab65f238652d649373183b6967af2190ef3a7c67bf85ec2905e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ccool.sty \

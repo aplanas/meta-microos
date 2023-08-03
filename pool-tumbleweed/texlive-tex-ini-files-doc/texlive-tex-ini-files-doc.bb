@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tex-ini-files"
 DESCRIPTION = "This package includes the documentation for texlive-tex-ini-files"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn40533"
+PV = "2023.209.svn40533"
 
-RPM_NAME = "texlive-tex-ini-files-doc-2023.201.svn40533-54.1.noarch.rpm"
-RPM_HASH = "190122ca965df54ccb43ffc62b8dff536402283dfa9f9855d801254464a0c01e7d6da830c87e3e704a3c38f4b28521bb28db6146caff3b0d71ae0ae508c5b1ee"
+RPM_NAME = "texlive-tex-ini-files-doc-2023.209.svn40533-55.1.noarch.rpm"
+RPM_HASH = "fb7310da607d0edad1d4b2e2e2545a62e5616a7322ebe45e704ee2b1b1a831dcfb31c7948b6d172b33179b7cb014c2cfdcf291cd376bc0032afc13ca1d403f33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tex-ini-files-doc"

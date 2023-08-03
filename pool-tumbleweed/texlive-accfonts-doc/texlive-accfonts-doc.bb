@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-accfonts"
 DESCRIPTION = "This package includes the documentation for texlive-accfonts"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.25svn18835"
+PV = "2023.209.0.0.25svn18835"
 
-RPM_NAME = "texlive-accfonts-doc-2023.201.0.0.25svn18835-54.1.noarch.rpm"
-RPM_HASH = "62d4539b049c62a2d29658c6af596c52d944a465cd0ef8f5cf00ca325baac67242e4e9225e43911b165010d9ab5bc3d6bb2b04bdbb5cf6ca1e5c12fbb06a5fc5"
+RPM_NAME = "texlive-accfonts-doc-2023.209.0.0.25svn18835-55.1.noarch.rpm"
+RPM_HASH = "ea5fa731d19c3462d58ab9c1f50c019e623abb4e148abfbcdec827acda135fe0adb7ebf7635c6fa0007f15425e739009f19fb6fc71e078f2dea21a66758bad8d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-accfonts-doc"

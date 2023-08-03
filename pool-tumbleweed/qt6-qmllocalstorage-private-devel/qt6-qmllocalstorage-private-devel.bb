@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6QmlLocalStorage th
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-qmllocalstorage-private-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "c878660071bc5fa691ea361200302e5327d36184e7f2efd552585ec4cb2d54b984b203491ad87a38f069d99b5f76dcd6a21c6c95cc779178cb3da503bee7ddb2"
+RPM_NAME = "qt6-qmllocalstorage-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "2f7ae75b4ee5f5218b844a0d0a677b057b532a8f0f4a131e28a150a0fd67d8d195c49c2275c2dd8488915590b3a6d9888dc39be02f9ba597529d858fc1dcdca6"
 
 RPROVIDES:${PN} += "qt6-qmllocalstorage-private-devel"
 

@@ -27,10 +27,10 @@ has traditional raw macro interfaces and works with standard \
 LaTeX2e."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.prot2.5svn15878"
+PV = "2023.209.prot2.5svn15878"
 
-RPM_NAME = "texlive-xdoc-2023.201.prot2.5svn15878-52.2.noarch.rpm"
-RPM_HASH = "4429ff0e1f5c27f900b5a7abcc5f2e5294c496aa8f5a1494649e3c054a89ceb01c4dbc890bf77fed9c15d75faa9c26968015f20668b2493006293b4df85af495"
+RPM_NAME = "texlive-xdoc-2023.209.prot2.5svn15878-53.1.noarch.rpm"
+RPM_HASH = "b67c0992b5da69f8d572f9211ae6770273272a73f7ab6385ff21ccda023b80347d0d5bc57241b6375b7be848034b1fba3eafcac0d14f5d7fcf251f03c87e1a1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-docidx2e.sty \

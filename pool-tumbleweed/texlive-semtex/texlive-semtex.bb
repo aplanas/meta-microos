@@ -11,10 +11,10 @@ have to load it after all. In most cases, you will be able to \
 replace the macros it provides by macros from other packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.45svn56530"
+PV = "2023.209.0.0.45svn56530"
 
-RPM_NAME = "texlive-semtex-2023.201.0.0.45svn56530-53.1.noarch.rpm"
-RPM_HASH = "f7b9e4b75dce0b354f00e1fea72449eea7117ccc92e4fc85e80e63c2b2734f50cec603a882bea1e2be10ad70df7cbf7790abf210d529b0d46477fe1147865225"
+RPM_NAME = "texlive-semtex-2023.209.0.0.45svn56530-54.1.noarch.rpm"
+RPM_HASH = "dcde74bf6df8a577e95da9757ff1c95a424eb3f250049395289d1166ff975f5b8dc788952fcf841c0f32463d5dbe11584ac9722d7707629aa5f04dbbb82240cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-semtex.sty \

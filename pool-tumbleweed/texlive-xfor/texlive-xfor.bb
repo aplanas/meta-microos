@@ -5,10 +5,10 @@ the C/Java break statement, except that the loop does not \
 terminate until the end of the current iteration"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.05svn15878"
+PV = "2023.209.1.05svn15878"
 
-RPM_NAME = "texlive-xfor-2023.201.1.05svn15878-52.2.noarch.rpm"
-RPM_HASH = "986f9ee5db1739d88c0bfaf516f784511b8735fd3055262d93767a3e08e0eb3494f34a9969526a9e36ee1216c2a9eab408f4d76886f8f795f1c501963c687b85"
+RPM_NAME = "texlive-xfor-2023.209.1.05svn15878-53.1.noarch.rpm"
+RPM_HASH = "4b0e1c3b78823afdfa4b695cb70da76161aba0b282411af5feada00c83d7fa03d93d5698ad9ec557b579858e5ef92edca37e47a84548ddbe498aef3601f3c320"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xfor.sty \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.2.2"
 
-RPM_NAME = "inkscape-lang-1.2.2-3.4.noarch.rpm"
-RPM_HASH = "dc31950de544642fe38efeaf5b1b7b267f63ce7a786ccd628efdbd053de0529a8c0f1c9d7e4fe9ac143ce30008557b3f9122c2655a586caae20577b45ce22a36"
+RPM_NAME = "inkscape-lang-1.2.2-3.5.noarch.rpm"
+RPM_HASH = "80ff467f05051604a8b2305273bb79fede0767da28da1233d57bc25252283e7f34d9ebcd76e0b51fa897e0f4dc87d53d847a2ebbb5a1f14bcd3fa3852abb5de4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "inkscape-lang \

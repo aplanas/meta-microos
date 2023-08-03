@@ -5,10 +5,10 @@ logical indexing can then be used to refer to elements or \
 arguments without hard-coding the symbols in the document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.6asvn15878"
+PV = "2023.209.0.0.6asvn15878"
 
-RPM_NAME = "texlive-mlist-2023.201.0.0.6asvn15878-54.1.noarch.rpm"
-RPM_HASH = "a8d6ae2d076cfd62c149b3692af08a933379682e9186bc488446c5fed7e51a9570c6d1a76aac6fb4d3218e367712f70f1ee32a56da9191aafdad8e2a15e1f065"
+RPM_NAME = "texlive-mlist-2023.209.0.0.6asvn15878-55.1.noarch.rpm"
+RPM_HASH = "f720c254276c73cb4dea7209f788cac84ad2c7954ded1e03c0920cf8fb0ad5716a64ddb3f185c4fadeae0c1fe7ba232eba4080768a48ac30ed18740a495dd5dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mlist.cfg \

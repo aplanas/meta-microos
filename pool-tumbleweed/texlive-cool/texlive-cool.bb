@@ -9,10 +9,10 @@ is greatly simplified. The package requires the coolstr, \
 coollist and forloop packages."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.204.1.35svn15878"
+PV = "2023.209.1.35svn15878"
 
-RPM_NAME = "texlive-cool-2023.204.1.35svn15878-54.1.noarch.rpm"
-RPM_HASH = "1c979ed1277e2a40ba0eda42fd0965c8ccbe7817bfde64514a83b91e7301728ebaaeb6511a47994d905e38251ab21b92805730aef87c386d782a118bfaafdcc5"
+RPM_NAME = "texlive-cool-2023.209.1.35svn15878-55.1.noarch.rpm"
+RPM_HASH = "6325bd503cc7d96810915160a190733a65539c6c86ba235b128a6593176259400c0dc74c0fed053b884fe431964170f250b3c3b09915dac22b827f93afd6d3c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cool.sty \

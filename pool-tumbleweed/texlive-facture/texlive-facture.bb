@@ -6,10 +6,10 @@ production of an invoice, with or without VAT; different \
 addresses for delivery and for billing are permitted."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2.2svn43865"
+PV = "2023.209.1.2.2svn43865"
 
-RPM_NAME = "texlive-facture-2023.201.1.2.2svn43865-52.1.noarch.rpm"
-RPM_HASH = "47a85cd94044c556b45325f96a2b660d850ca01006733611277de9bb455149fedcee68f6ebb25f27d983f3b5d2c7a9e3e82dd384efd5ea34aa75f2b413d13f1e"
+RPM_NAME = "texlive-facture-2023.209.1.2.2svn43865-53.1.noarch.rpm"
+RPM_HASH = "3f3fafeec4c0e0e6c8ed07988c07ac26eb626aab0978bc49d0d7a20abfd5780daa60933c4f0fc70ddc0c919f486879410012e8e74b245f7d5ed1ad68dcba1d8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-facture.cls \

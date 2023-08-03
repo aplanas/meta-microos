@@ -3,10 +3,10 @@ DESCRIPTION = "Causes the page numbers in the DVI file (as defined by \\count0) 
 to be negative when roman pagenumbering is in effect."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn20087"
+PV = "2023.209.svn20087"
 
-RPM_NAME = "texlive-romanneg-2023.201.svn20087-53.1.noarch.rpm"
-RPM_HASH = "9028fc2c16814d72d6d076eb7eeed21a0df5685830174c5401a900ac3e52a52a24cd6481ece3ba545a31fd3c6c8a749c85de7807f79643d0f1093786eb84e4e5"
+RPM_NAME = "texlive-romanneg-2023.209.svn20087-54.1.noarch.rpm"
+RPM_HASH = "f23861be78ca442d326d75acdf80b6c59072567691952ea01bd01ab03baf85420d9f0646170ed27ff3943448b8ded805eb4c32f846c9a43df608113d2f30fcbb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-romanneg.sty \

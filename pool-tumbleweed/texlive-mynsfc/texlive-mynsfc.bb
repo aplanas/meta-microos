@@ -6,10 +6,10 @@ defines styles of the outlines and uses BibLaTeX/biber for the \
 management of references."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.30svn60280"
+PV = "2023.209.1.30svn60280"
 
-RPM_NAME = "texlive-mynsfc-2023.201.1.30svn60280-54.1.noarch.rpm"
-RPM_HASH = "7b0630f0e2530c3ce18b5ced6c29bc0f98df8a66c02b9f95fbd31a8e0524eaf3c1e4a5721fa97fb5b3a2fb61e604b57e7208a3a721492503092bd562413db5f4"
+RPM_NAME = "texlive-mynsfc-2023.209.1.30svn60280-55.1.noarch.rpm"
+RPM_HASH = "ba5b2e293cb414b58ce2b6c2fc93953ffbb6a3aacabb022f4010d327c3733342e27add404e6436b2abaa1b2b338370469a541f08658c7cf4e8eb9af53943b84f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mynsfc.cls \

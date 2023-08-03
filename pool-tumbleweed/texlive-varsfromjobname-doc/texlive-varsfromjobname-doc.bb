@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-varsfromjobname"
 DESCRIPTION = "This package includes the documentation for texlive-varsfromjobname"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn44154"
+PV = "2023.209.1.0svn44154"
 
-RPM_NAME = "texlive-varsfromjobname-doc-2023.201.1.0svn44154-53.1.noarch.rpm"
-RPM_HASH = "612400c6bc30211c7872c52311714afc79b5ff5985f602790c987a6a2cf70335158ba0640629dea93494c3f004a11ae06a727eb9b0478e3f5a6e56a337f26439"
+RPM_NAME = "texlive-varsfromjobname-doc-2023.209.1.0svn44154-54.1.noarch.rpm"
+RPM_HASH = "fbd7e2d042ea9ac4f1d34bbd128594860ac21cf9671810edf30dd3d97bc5f480fc98e69f0e68e60a7ba3ca6203fc0dddfa78cf855ad253b6a12d3bb271a3d03a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-varsfromjobname-doc"

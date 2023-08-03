@@ -10,10 +10,10 @@ LaTeX format); A jiffy to create 'slashed' characters for \
 physicists."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn59577"
+PV = "2023.209.svn59577"
 
-RPM_NAME = "texlive-carlisle-2023.201.svn59577-52.1.noarch.rpm"
-RPM_HASH = "24a082c4f6d4f96377190ac7194ab8aef2883e2ee792d9fe4d94766623a3bbd58129c4eb023af41159b1d7bbd2c69cb27bd33096ec3d437d39a9460f34f398b5"
+RPM_NAME = "texlive-carlisle-2023.209.svn59577-53.1.noarch.rpm"
+RPM_HASH = "e736d133be40d28cbe3aaacbb87d1c8858b106f4e1fd92cbf3fe8c7c5d8112ad30df7e608aab5418a71833d6fe47adde0fec09a184a2d8fbc25ab6e4e20e0888"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dotlessj.sty \

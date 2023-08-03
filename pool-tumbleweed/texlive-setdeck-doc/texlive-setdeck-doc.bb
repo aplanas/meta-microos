@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-setdeck"
 DESCRIPTION = "This package includes the documentation for texlive-setdeck"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.1svn40613"
+PV = "2023.209.0.0.1svn40613"
 
-RPM_NAME = "texlive-setdeck-doc-2023.201.0.0.1svn40613-53.1.noarch.rpm"
-RPM_HASH = "d709df107b712b5a6216de056db9bd43bcef71df0223b0194affa383875f1371d88259ad7b2f6a39ed062ad81427a54a64314f349b5bc471e561cd21e5dde8f5"
+RPM_NAME = "texlive-setdeck-doc-2023.209.0.0.1svn40613-54.1.noarch.rpm"
+RPM_HASH = "62a75b1c05b30627941fb80244c06a32903f04e03d109e19b94ed364c553f64641c8200763e37f681d135f92ec7ccd3de526e05993c13267a35322f5a92ab3db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-setdeck-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-colordoc"
 DESCRIPTION = "This package includes the documentation for texlive-colordoc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn18270"
+PV = "2023.209.svn18270"
 
-RPM_NAME = "texlive-colordoc-doc-2023.201.svn18270-53.1.noarch.rpm"
-RPM_HASH = "b9bcd13f2cd078f71d0997870d51ba7cf89695a84a55e837e1c19d8da1d1d422b2b5d34260d72d73d0008c314adfe44305204a17ead40295e27b0055351404f5"
+RPM_NAME = "texlive-colordoc-doc-2023.209.svn18270-54.1.noarch.rpm"
+RPM_HASH = "d62136fe04dbeddbd6227beb9aef032f10d45beb3c943bd0bf41657007b98049384e659b91b740baba909b445aba773ab52220dcb49c5f09fd7b2e553ededa74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-colordoc-doc"

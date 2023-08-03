@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.5.0"
 
-RPM_NAME = "libvirt-daemon-driver-storage-rbd-9.5.0-1.1.aarch64.rpm"
-RPM_HASH = "f5fd6f73c649a11d586928f793e74080ae1d6a2e613b12f8ddd75f5c3b01a2d37fd9bb66dc38ba1a39fa1c2cacb36d8ab98922cf8c55ff6df108a7f411a11582"
+RPM_NAME = "libvirt-daemon-driver-storage-rbd-9.5.0-2.1.aarch64.rpm"
+RPM_HASH = "5cc17d77ada3290bd3a7af941328fc9b9652ee4ed0bf9eca8fe192a1943c500c85f685eec277d0df7b551a31c856bbc89f6135c911713e03625c83d8eed76d75"
 
 RPROVIDES:${PN} += "libvirt-daemon-driver-storage-rbd \
 libvirt-storage-backend-rbd.so"

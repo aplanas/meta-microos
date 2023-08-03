@@ -4,10 +4,10 @@ representing intervals on the number line. It depends on \
 tkz-fct, ifthen, and xparse."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn58328"
+PV = "2023.209.1.0svn58328"
 
-RPM_NAME = "texlive-nl-interval-2023.201.1.0svn58328-54.1.noarch.rpm"
-RPM_HASH = "9d5ad1faae3740e586cbdd115c2719c65ab7f973b7bb7cce8926340105b76e8e3a553ff61ac9cf6a3df998e65d29925c23654e91c2f83c9b3b4d394761a745b3"
+RPM_NAME = "texlive-nl-interval-2023.209.1.0svn58328-55.1.noarch.rpm"
+RPM_HASH = "8d2a093ec02c13a3317244efef73de60c737da7e20fc8bc1ed8b23f72fccf6636115de9d0c34ff9d43ef2266bdae13c0c67ff0ba0457e2a7ed6c5d4ebd771570"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nl-interval.sty \

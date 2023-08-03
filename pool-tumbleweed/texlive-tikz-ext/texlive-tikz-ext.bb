@@ -6,10 +6,10 @@ of these libraries were developed in response to questions on \
 TeX.stackexchange.com."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "2023.201.0.0.4.2svn64920"
+PV = "2023.209.0.0.4.2svn64920"
 
-RPM_NAME = "texlive-tikz-ext-2023.201.0.0.4.2svn64920-52.1.noarch.rpm"
-RPM_HASH = "ea16cd4d6f1b94e489b05405a59404e8f96be1b72c03924eb255359b0eb3a4050714975e9bd5bb88c6f0d4158dd05fa1f6b5f2cb0932c595b00538cb66df79fc"
+RPM_NAME = "texlive-tikz-ext-2023.209.0.0.4.2svn64920-53.1.noarch.rpm"
+RPM_HASH = "5c15a041b95fd425c5a551836430b315df484033db35bcab9828e80eb7a26e0a25190ae32a4e0372dade837b858ed4e62ae873975d38b0a19bebf5f7b0ff70ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pgfcalendar-ext.code.tex \

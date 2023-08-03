@@ -2,10 +2,10 @@ SUMMARY = "Draw pixel-art pictures"
 DESCRIPTION = "A LuaLaTeX package to draw pixel-art pictures using TikZ."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.2svn66012"
+PV = "2023.209.1.0.2svn66012"
 
-RPM_NAME = "texlive-pixelart-2023.201.1.0.2svn66012-51.1.noarch.rpm"
-RPM_HASH = "c705ba9bea55dca4e4c104e5df652dc7054000fcf7d94808752e8af04f797291fc90658a4f9ba12b03fd6241e04e062514e2b0207a7bf4ed48d38ecdee1b46eb"
+RPM_NAME = "texlive-pixelart-2023.209.1.0.2svn66012-52.1.noarch.rpm"
+RPM_HASH = "b7c1629f984cdbfa0eb46d1bb97cce04e0ca31c63a5d8879eb8746b1de29b7e2c6eddba4908f5d6fc8372e80730e5f60e5f88c9ef64c4ab4dd4ac49abcd2a2be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pixelart.sty \

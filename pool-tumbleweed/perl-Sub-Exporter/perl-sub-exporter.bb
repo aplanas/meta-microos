@@ -3,10 +3,10 @@ DESCRIPTION = "*ACHTUNG!* If you're not familiar with Exporter or exporting, rea
 Sub::Exporter::Tutorial first!"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.989"
+PV = "0.990.0"
 
-RPM_NAME = "perl-Sub-Exporter-0.989-1.3.noarch.rpm"
-RPM_HASH = "4ca5b636e066893ba927ec58a64faea83701599af61af59614ae47d53c0348d3097286c843e1fad1ab6c905214fe095775b8bf63dc28d63d1753c34bb4db5330"
+RPM_NAME = "perl-Sub-Exporter-0.990.0-1.1.noarch.rpm"
+RPM_HASH = "a98b0854e4dc21bdecdcb381a4efc82c99fd3294b3847f5e88ea237bea2c7c365b014b0c7f252e7e3dbdc986bb418ba0429efb6d59882bc4a2d7ec670295d941"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Sub--Exporter \

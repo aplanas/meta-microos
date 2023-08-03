@@ -7,10 +7,10 @@ at different output device resolutions. (Thanks are due to \
 Peter Flynn and Dan Luecking.)"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn24876"
+PV = "2023.209.svn24876"
 
-RPM_NAME = "texlive-ogham-2023.201.svn24876-54.1.noarch.rpm"
-RPM_HASH = "d0044138da1e00c9d91ff11bff94d4ac906bba23145287a3c8e36d883812c04c6d685536e5f77f71c56e46c734f38fa4cfce935b45c14b78bc00a748530ccc52"
+RPM_NAME = "texlive-ogham-2023.209.svn24876-55.1.noarch.rpm"
+RPM_HASH = "e8c9dfd288e73e4220ab336fdc1eeaf8b471c62bf64fed876b8bd4eeea124d8b79759bfb2504b53e736e3dd1d62005b8f8ceeaeea88ba7baea2ab848bb1fe3cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ogham.tfm \

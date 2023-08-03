@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "253.7"
 
-RPM_NAME = "systemd-253.7-1.2.aarch64.rpm"
-RPM_HASH = "deb54a7bd7737dc5e02346bff34f4bc605c539546b8c766f3d1cb6666aa20fbcfd75ad2f5b600f6d374e6bd1344149c026f6d87b7b706dbcbf38636e07edc294"
+RPM_NAME = "systemd-253.7-2.1.aarch64.rpm"
+RPM_HASH = "d7d223f3dd08a5d5fea3559e52a8ee09f6f92551c463811d27ab28851bc0ac06d837ddc5a7268f9a0310a52245b484ddf5ca0a6d39a14c9a822b5a3b2f306e79"
 
 RPROVIDES:${PN} += "/sbin/shutdown \
 config-systemd \

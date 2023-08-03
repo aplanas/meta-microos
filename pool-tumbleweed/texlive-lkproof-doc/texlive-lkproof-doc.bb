@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lkproof"
 DESCRIPTION = "This package includes the documentation for texlive-lkproof"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.3.1svn20021"
+PV = "2023.209.3.1svn20021"
 
-RPM_NAME = "texlive-lkproof-doc-2023.201.3.1svn20021-54.1.noarch.rpm"
-RPM_HASH = "0053ef5ef906aeb87adaac2da5607b5431ec8f7dff9cfe68812f770e8b5e7de2ba0b74a692dc0efa3265be758eb25e7aba9432df5719dc6096002a6d2ac03c19"
+RPM_NAME = "texlive-lkproof-doc-2023.209.3.1svn20021-55.1.noarch.rpm"
+RPM_HASH = "601cd6f760b9bf50a05579ddc11ef0f909e5ffe35293fa2386701ffc432d905dc8a58aa6ede22e970e7da83c1cae6fcc1fd1d80ab7f8bf94627cbbf19f761305"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lkproof-doc"

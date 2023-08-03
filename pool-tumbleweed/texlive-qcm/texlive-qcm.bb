@@ -13,10 +13,10 @@ typeset exam corrections automatically, and comes with support \
 for AUC-TeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1svn63833"
+PV = "2023.209.2.1svn63833"
 
-RPM_NAME = "texlive-qcm-2023.201.2.1svn63833-53.2.noarch.rpm"
-RPM_HASH = "15c78c7cc229ee684bd789d3831eb4a54a79eb27da94074b8993ba99b0d18fce9f6a74c8a669be20f2915fb8e76f60841dd21a2b5d815695affcc5bc9d3329bc"
+RPM_NAME = "texlive-qcm-2023.209.2.1svn63833-54.1.noarch.rpm"
+RPM_HASH = "5338e6db9e08d7dc55732d40e933d6a93c50c322a9c32f666886b0c6a75d08f37658e835e2a8b173a8b0cf03bb18e1cc3eaa1ae6da18615564c2a7608b9b6bb1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-qcm.cls \

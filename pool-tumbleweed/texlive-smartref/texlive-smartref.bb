@@ -10,10 +10,10 @@ label was set. Many commands are provided to serve as a macro \
 programming environment for using the extended labels."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.9svn20311"
+PV = "2023.209.1.9svn20311"
 
-RPM_NAME = "texlive-smartref-2023.201.1.9svn20311-57.1.noarch.rpm"
-RPM_HASH = "9a9c6bb2eb98fcf36953779522cf724f2349412b06a2f1bd6666025ca1451ab08e4eae29ba3ab5055a83396a9eb44d585b7a99855eb34faf150a52a9285ffa22"
+RPM_NAME = "texlive-smartref-2023.209.1.9svn20311-58.1.noarch.rpm"
+RPM_HASH = "8b84f155d8d2af74047176d74cbe1f2bb590d43e4ffa81f4fd65117edb65a5bc3b0aa8e9ce06dbf81ca0d7ad45d2c1423e47025c0043fd389ccf6324b090d0cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-byname.sty \

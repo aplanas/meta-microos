@@ -4,10 +4,10 @@ the results in a separate file; the format of the file is \
 selectable."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.03svn20334"
+PV = "2023.209.0.0.03svn20334"
 
-RPM_NAME = "texlive-statistik-2023.201.0.0.03svn20334-57.1.noarch.rpm"
-RPM_HASH = "0059af7f7ecaabeb3bd6c179b722c6a03d45c821d21773493d9e1b39110f60137def979de9219f335c191189fb2d811a6a2b5185c67be614a8f1dfaa2936cc3a"
+RPM_NAME = "texlive-statistik-2023.209.0.0.03svn20334-58.1.noarch.rpm"
+RPM_HASH = "123fcdca5331d009cf877736c995ffab5dcb8172878256ee3682d4f3fd1a2ce774094a3e94d401ee810ce210fbe5652a19dbd9498f2aa97f1c96ced3620a7ec7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-statistik.sty \

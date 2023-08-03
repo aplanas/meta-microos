@@ -10,10 +10,10 @@ Utopia Expert fonts, which are only available for purchase. \
 Utopia is a registered trademark of Adobe Systems Incorporated"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.3svn61937"
+PV = "2023.209.2.3svn61937"
 
-RPM_NAME = "texlive-fourier-2023.201.2.3svn61937-52.1.noarch.rpm"
-RPM_HASH = "51f8a6e2b2af8e36a69dc9dafc0d576ca67c3a096c628a14e7b3112ca13ad09f40e5af15d5f3464517cdc8ed695aa0af5e8500b4c62d37fcb773334ce5d456e2"
+RPM_NAME = "texlive-fourier-2023.209.2.3svn61937-53.1.noarch.rpm"
+RPM_HASH = "3f6fef8b175765fe0581a5bf959e24514cf3be62fc06f46272b8e5bee27b4d5a24086007bd29655c815d60b4fe621c954add649f46a9fb11e9c7b7c62b44e401"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fmlfutm.fd \

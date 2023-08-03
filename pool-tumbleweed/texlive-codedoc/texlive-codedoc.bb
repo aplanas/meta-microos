@@ -11,10 +11,10 @@ with separate commands to typeset the material and/or to \
 execute it."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn17630"
+PV = "2023.209.0.0.3svn17630"
 
-RPM_NAME = "texlive-codedoc-2023.201.0.0.3svn17630-53.1.noarch.rpm"
-RPM_HASH = "179da777001885a1f01a52bc46b68c579ab013fb370c198401691237aad9f56d85a7446cca3bed9124cef6e752026943e16533dbd7cfbe62155a27b050de3a32"
+RPM_NAME = "texlive-codedoc-2023.209.0.0.3svn17630-54.1.noarch.rpm"
+RPM_HASH = "0e71d19f093874680ca7b48718676caa83c7bd66b972d0382b252310d4f4dc5b630eec3ead7ddfed1854e5283ddc25662f58caa011937c39f98e246b8d148c17"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-codedoc.cls \

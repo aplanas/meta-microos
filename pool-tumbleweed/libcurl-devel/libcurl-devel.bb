@@ -5,10 +5,10 @@ DICT, TELNET, LDAP, or FILE). The command is designed to work without \
 user interaction or any kind of interactivity."
 LICENSE = "curl"
 
-PV = "8.1.2"
+PV = "8.2.1"
 
-RPM_NAME = "libcurl-devel-8.1.2-1.1.aarch64.rpm"
-RPM_HASH = "eb431723ee73f8abf0581529fe940ccb4d28464093ed3ffbecd39e84c3ac8cf4f52f8032c1991adefc80b1919bf2d05ab9d9e30ede1d8bfddc9bab6d41b8c365"
+RPM_NAME = "libcurl-devel-8.2.1-1.1.aarch64.rpm"
+RPM_HASH = "72e24844016b5e5986a3e0ce704ac54fedfe3e2b08ae0672520dfcdb2750ef4e074a1a47ecdf848345c9e44dbd6a44d6d91178223b89e14b06b7d0309112dfe6"
 
 RPROVIDES:${PN} += "curl-devel \
 libcurl-devel \

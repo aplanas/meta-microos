@@ -4,10 +4,10 @@ DESCRIPTION = "Latexpand is a Perl script that simply replaces \\input and \
 file. The script does not deal with \\includeonly commands."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.1.7.2svn66226"
+PV = "2023.209.1.7.2svn66226"
 
-RPM_NAME = "texlive-latexpand-2023.201.1.7.2svn66226-54.1.noarch.rpm"
-RPM_HASH = "3fcf38c0fb8c38aeac16202d165fdf27bf821f7fd84934e306fbcfef253c4fa5f1e079de4d59322901662da6a31e2bd50c65209fde599f692c58f9f1848c6e26"
+RPM_NAME = "texlive-latexpand-2023.209.1.7.2svn66226-55.1.noarch.rpm"
+RPM_HASH = "d826908ba69f3d9f2bc766d14e6641a9f523f53dd64e589fa1cc8b72a3a02525673dfa24ac705a3c0ad59f3e5af650784064f99e1634dcec3bf7028282a64d23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latexpand"

@@ -7,10 +7,10 @@ commands take lists of coefficients as arguments, and offer \
 limited optional behaviour."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-polynomial-2023.201.1.0svn15878-52.1.noarch.rpm"
-RPM_HASH = "3102f4605e7c8c5e462c0eb1e978fdc06c866273831ee50b1de81c86e027167ee7a51799dbb53c899ecc722c22938274cc216efdc631d3e01c2112bc35acced1"
+RPM_NAME = "texlive-polynomial-2023.209.1.0svn15878-53.1.noarch.rpm"
+RPM_HASH = "63507d1b0de9acd85e34be5d0138fd902efee4d5c0d57b981cda145d461d9a4f70c3b36d242a74ea2117a43b49fb3d5c59f3fc68a2c00cb3e354695a60119a52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-polynomial.sty \

@@ -15,10 +15,10 @@ Czech fonts), as well as supporting macros and files defining \
 fonts for LaTeX."
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.201.0.0.995bsvn19611"
+PV = "2023.209.0.0.995bsvn19611"
 
-RPM_NAME = "texlive-iwona-2023.201.0.0.995bsvn19611-55.1.noarch.rpm"
-RPM_HASH = "8db233a60f97d0e1516e2bafa99753c743f5ca5b944768efbdd2493a8d4a1e944bc486e1739fafd7e36c6c5638f345a31bf9ca3a8b096240010bfd09bc19c0c9"
+RPM_NAME = "texlive-iwona-2023.209.0.0.995bsvn19611-56.1.noarch.rpm"
+RPM_HASH = "0cde2a52ec3e09c44188bbca6e33b4b9e0b9208380ef15d6176bdb366f017e1341141aef0ea1a1b605dab75a898398f32f10e092425be6c84b042e298f1cce9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cs-iwona-sc.enc \

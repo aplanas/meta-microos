@@ -7,10 +7,10 @@ various styles define the header, footer and title formatting. \
 Many features are freely configurable."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn65650"
+PV = "2023.209.1.2svn65650"
 
-RPM_NAME = "texlive-schooldocs-2023.201.1.2svn65650-53.1.noarch.rpm"
-RPM_HASH = "f47bd234ffa8907551afa1968d9038493c65d99287b1de281cff8a6be65c876f56d84ca0f1a53e1f990cf6b12e914273562135e7458fa2b36c16e26fc8e07752"
+RPM_NAME = "texlive-schooldocs-2023.209.1.2svn65650-54.1.noarch.rpm"
+RPM_HASH = "4ae4e80add83b2bb227abc0abf6dbeec07c893adc1f3ee888659abec0260262828cc34b848e6877b5ae4656cf49af3f48042a648f13463e9c865fe92b5a25494"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-schooldocs.sty \

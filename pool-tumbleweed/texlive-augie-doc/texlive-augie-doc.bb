@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-augie"
 DESCRIPTION = "This package includes the documentation for texlive-augie"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn61719"
+PV = "2023.209.svn61719"
 
-RPM_NAME = "texlive-augie-doc-2023.201.svn61719-53.1.noarch.rpm"
-RPM_HASH = "bd6fb0d41e3e66414dd2c6a1173d4be0086a93e66696d1732d0f3197d1b1df5360f2167e1cbde321f832601613e05d06b4a97fd121dc84057ae810dd8cc8947a"
+RPM_NAME = "texlive-augie-doc-2023.209.svn61719-54.1.noarch.rpm"
+RPM_HASH = "cbf9009b46a0b3ae5b1b240267e5309bde596e1f174f95881b1dc4ad1b81c5e4041860972f44d777b79655cdcc3ddb41e413e460947da6ce3cd92af5a91e5e62"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-augie-doc"

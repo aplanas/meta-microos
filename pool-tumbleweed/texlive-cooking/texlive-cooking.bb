@@ -3,10 +3,10 @@ DESCRIPTION = "The package typesets recipes according to the style used in a \
 well-respected German cookery book."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.0.0.9bsvn15878"
+PV = "2023.209.0.0.9bsvn15878"
 
-RPM_NAME = "texlive-cooking-2023.204.0.0.9bsvn15878-54.1.noarch.rpm"
-RPM_HASH = "abe2abd17f3fc6bc2d0b07b7690cb63e22126f79ac69bf6f53dc961498a3b79d0fa16fdb2776c502d23a4d07df4c33ff22266f9ee990fe3626f2d22cf424412b"
+RPM_NAME = "texlive-cooking-2023.209.0.0.9bsvn15878-55.1.noarch.rpm"
+RPM_HASH = "c98eec37777d9cb1fe5a1cca90a45f73749104a59835ba04972d3eb7968d6babcc2eb8ef8f2ee669d9e417df698a7557aeecb3930a54eeadacd343295ecece3f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cooking.sty \

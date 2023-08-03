@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dvipdfmx"
 DESCRIPTION = "This package includes the documentation for texlive-dvipdfmx"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn66203"
+PV = "2023.209.svn66203"
 
-RPM_NAME = "texlive-dvipdfmx-doc-2023.201.svn66203-53.2.noarch.rpm"
-RPM_HASH = "90e64b49c9621cafb09a5a222b23fd7dcdf367a4ceda88ef7bb40f84b7b4890cb6a6d42467ffc6699e0b9ca1c943354927beacf5063bf1ac3eaffe148c7ce60d"
+RPM_NAME = "texlive-dvipdfmx-doc-2023.209.svn66203-54.1.noarch.rpm"
+RPM_HASH = "e9b962d248a79fc9b7226cf5a428d5a9b8f9b2d09fee5de7c2e761965f344202e64306ffa95e20cb3db4c99063edaa2bca04d3e49cc4e88030103173dd65f1b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-dvipdfm.1 \

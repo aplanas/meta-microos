@@ -7,10 +7,10 @@ command to typeset a title page that is adjusted to these cover \
 pages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2msvn21340"
+PV = "2023.209.1.2msvn21340"
 
-RPM_NAME = "texlive-fbithesis-2023.201.1.2msvn21340-52.1.noarch.rpm"
-RPM_HASH = "2b949c7af067b0cc75bc564e9093f7b0d79c329b2ed30c63ff1dd56bda718cfa990bf37411fed5c7a0f69fba037220d6a74cc4c091b88455ceb8e3980d0bf8ba"
+RPM_NAME = "texlive-fbithesis-2023.209.1.2msvn21340-53.1.noarch.rpm"
+RPM_HASH = "b86289106ca81f757af56e269cf3ad902b5edbd1c49e92dcf8a52a10d7729bb25371271c8641bf3c6ba83606566ea999da336b4229d2f000761eef68f06769a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fbithesis.cfg \

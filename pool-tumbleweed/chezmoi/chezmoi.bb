@@ -5,10 +5,10 @@ sources dotfiles from a GitHub repository and installs them onto new, \
 empty machines."
 LICENSE = "MIT"
 
-PV = "2.35.0"
+PV = "2.36.1"
 
-RPM_NAME = "chezmoi-2.35.0-1.1.aarch64.rpm"
-RPM_HASH = "1888a2fb3e2621072b71c898cdc86cc3ef5f1a5ac496cf8d1ea228c4f46dfb1c18c7d5fc84c589a97a2013c47dbe763847ed22de297e578ee598371b0eb82250"
+RPM_NAME = "chezmoi-2.36.1-1.1.aarch64.rpm"
+RPM_HASH = "bfedf85c7cc3a3636498fdce56a1b11ce68650b48a20084c2fab46f21c530022a4faed867443f6ad78db63546af3debcf17a78d7dbc3911c8751856426901125"
 
 RPROVIDES:${PN} += "chezmoi"
 

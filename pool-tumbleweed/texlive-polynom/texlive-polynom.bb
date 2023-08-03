@@ -5,10 +5,10 @@ divisions. The main test case and application is the polynomial \
 ring in one variable with rational coefficients."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.19svn44832"
+PV = "2023.209.0.0.19svn44832"
 
-RPM_NAME = "texlive-polynom-2023.201.0.0.19svn44832-52.1.noarch.rpm"
-RPM_HASH = "6d2716c4aa257181f34d6536d4f86772e0f0929e985abaebab14290a0c4d5011d93dbb940c81bcdc7fe27158a5901bd4af2d057cb3444dd312021221225492da"
+RPM_NAME = "texlive-polynom-2023.209.0.0.19svn44832-53.1.noarch.rpm"
+RPM_HASH = "0bc55f87e95266a71b14af0c2a2ed75027cbac35c694f4278f0ca3565e26fc2d9638b1e542e2dafa7fef9b8cc2c36b8757d0bf667571a9873419135f79c0bded"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-polynom.sty \

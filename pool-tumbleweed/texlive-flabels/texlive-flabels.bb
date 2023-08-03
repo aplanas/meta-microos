@@ -4,10 +4,10 @@ the back of files or binders (currently only the special A4 \
 'Leitz-Ordner' ring binder is supported)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn17272"
+PV = "2023.209.1.0svn17272"
 
-RPM_NAME = "texlive-flabels-2023.201.1.0svn17272-52.1.noarch.rpm"
-RPM_HASH = "bebcc3f68c3c2ba8e2d50ae0d1ff099aa8b786691e49ba9e3e72b6f49614e4007462c7753c238aa6c9e4efff0cd5882084ee6a5631641d60f97b712226e34e41"
+RPM_NAME = "texlive-flabels-2023.209.1.0svn17272-53.1.noarch.rpm"
+RPM_HASH = "937a526be5b6484949fb19b278719e84ce23b19264e8a6a35188e43f856ee1456b05ecaaf54d5a3684ed4f4afde57b969422285071f778fd63d5aa9fca0291f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-flabels.sty \

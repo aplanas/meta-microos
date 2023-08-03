@@ -2,10 +2,10 @@ SUMMARY = "GCC plugins development enviroment"
 DESCRIPTION = "Files required for developing and compiling GCC plugins."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7552"
+PV = "13.1.1+git7597"
 
-RPM_NAME = "gcc13-devel-13.1.1+git7552-1.1.aarch64.rpm"
-RPM_HASH = "1d924329cf3575d48defd1a26e96d7a91c3fc359ecafd9d8ac9843dcafadc8646a9db6cc0314838107e05ecf6c3e4cbe1c5daa6fcf5a9ce477ff5a51841b5e36"
+RPM_NAME = "gcc13-devel-13.1.1+git7597-1.1.aarch64.rpm"
+RPM_HASH = "1130d2168466e1947cc8c7463eaf8eb7a3205459f9a731410c5cde4ebeca7756c204470ac3f2fac1d77243a8625482a473755751774dc3499abde27bbfa5e848"
 
 RPROVIDES:${PN} += "gcc13-devel"
 

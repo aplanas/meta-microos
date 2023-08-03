@@ -3,10 +3,10 @@ DESCRIPTION = "This is a translation of Fukui Rei's tipaman from the tipa \
 bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn22005"
+PV = "2023.209.1.3svn22005"
 
-RPM_NAME = "texlive-tipa-de-2023.201.1.3svn22005-52.1.noarch.rpm"
-RPM_HASH = "4bec2f118b2c059dd02ee0a73c9715227e9174f872d94c8e81d96d03729e3283af44131a7afd8aa458ced3d521b0c0bb992b6a736268aef87d357cc01271a02c"
+RPM_NAME = "texlive-tipa-de-2023.209.1.3svn22005-53.1.noarch.rpm"
+RPM_HASH = "f888dd9de092c52d68419c154dabbad6184e58ee33c99ae9198eafa86ed1ce3d57b9e151a482b6fb46c7a5b1dcf4fac20ed565dae4d07d7ea82bfcf0b3437562"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tipa-de"

@@ -5,10 +5,10 @@ tables or text). The subfigures are placed left-to-right, \
 top-to-bottom."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn20308"
+PV = "2023.209.1.0svn20308"
 
-RPM_NAME = "texlive-subfigmat-2023.201.1.0svn20308-57.1.noarch.rpm"
-RPM_HASH = "3738cd68fde5ca9d3400f8009a5c328b58fd79dbfdefdb685b845ed73461f3cab73a1ac34ce2ab50b08c1a52c6faebbfd20ea1beb8ce07b1d761e3567dd54cca"
+RPM_NAME = "texlive-subfigmat-2023.209.1.0svn20308-58.1.noarch.rpm"
+RPM_HASH = "4d04ddeaa593b2c510f1ece649e6f82929170bef862a75cc8bf106b9ee1fee61a51fe26982b0886b8b79346efbc24ceec803716a21bece91ff2f67c429735702"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-subfigmat.sty \

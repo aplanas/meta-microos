@@ -13,10 +13,10 @@ intermediate files have to be written. No placeholders have to \
 be inserted."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.6.1svn65855"
+PV = "2023.209.0.0.6.1svn65855"
 
-RPM_NAME = "texlive-pyluatex-2023.201.0.0.6.1svn65855-53.2.noarch.rpm"
-RPM_HASH = "866770ba33f04f64f82f649608c63acb25b7138c44c330b07e02ca724e692eb35a72bccc82c914749a7f4adf54c8a96dda656ba35c15df53113c0a454524f9ce"
+RPM_NAME = "texlive-pyluatex-2023.209.0.0.6.1svn65855-54.1.noarch.rpm"
+RPM_HASH = "cc9501fce69d76b00c5bf8d79f305e08e205ac1930b73e1053574fcbe07b83c0462a845721c832dbc0522e530e9da48b6af59b7d837e97f4c8132b77c68114db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pyluatex.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "An extensive collection of arithmetic operations for fixed \
 point real numbers of high precision."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1dsvn49719"
+PV = "2023.209.2.1dsvn49719"
 
-RPM_NAME = "texlive-fp-2023.201.2.1dsvn49719-52.1.noarch.rpm"
-RPM_HASH = "60721f0a8dc1f4131b0feafe591ad45aa392f3791ddd82bd2bcb08c5a5df5bd755513c34586885009cc7857f491d53fe8f86553a71effd42dbe195f4f600220e"
+RPM_NAME = "texlive-fp-2023.209.2.1dsvn49719-53.1.noarch.rpm"
+RPM_HASH = "58ef31be9e54008dd38157189645f4344f64121809ebd2803cf72c4cfdab454be07e35f133dfe49eb4452e23f24642719f4ba344732e0944d5d978181786f19b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-defpattern.sty \

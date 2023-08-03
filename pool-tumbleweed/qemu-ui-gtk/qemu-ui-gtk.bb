@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.3"
 
-RPM_NAME = "qemu-ui-gtk-8.0.3-1.1.aarch64.rpm"
-RPM_HASH = "cadb4eac95f1d8f768a0dc0e52811950e6691b84888b06a8d56a6954b62aabf0ce45c196726ca12800596dfe2ef0f9d51879d83880b3a463c5257d4f969d1417"
+RPM_NAME = "qemu-ui-gtk-8.0.3-2.1.aarch64.rpm"
+RPM_HASH = "28f8fd044b6ee718587599e2f4f4fb3f6868cb7802327b88a973d77dd980a8523cbe23cefc3442a7125f364cadd524c2d8f4794153012bf64ef40f47b606d85a"
 
 RPROVIDES:${PN} += "qemu-ui-gtk"
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-eq-pin2corr"
 DESCRIPTION = "This package includes the documentation for texlive-eq-pin2corr"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn59477"
+PV = "2023.209.svn59477"
 
-RPM_NAME = "texlive-eq-pin2corr-doc-2023.201.svn59477-53.2.noarch.rpm"
-RPM_HASH = "2efee32de4aaec0a53db02d1a2a5b3e37ca45402b961c2645a895ea0fa9f465ac16bcb667d4fb49d185c60179d68a0a1129e45f19b0f64eedcc50e672bb775ab"
+RPM_NAME = "texlive-eq-pin2corr-doc-2023.209.svn59477-54.1.noarch.rpm"
+RPM_HASH = "0f6b977753fc37d52a03b6b85bb35e8768fabce2f0ac22c5c54c69af78d87d92f47d94c987418dfe85032a94e51fd435e2b8a0d65f10c82501da6841a3e30803"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eq-pin2corr-doc"

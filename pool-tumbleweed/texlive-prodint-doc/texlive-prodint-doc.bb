@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-prodint"
 DESCRIPTION = "This package includes the documentation for texlive-prodint"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn21893"
+PV = "2023.209.svn21893"
 
-RPM_NAME = "texlive-prodint-doc-2023.201.svn21893-52.1.noarch.rpm"
-RPM_HASH = "2c325ac54c6890c960e82afe4be1751f553b6096b8efcb2d4da06ddf56ef4dbc4a29ec61f8d6c5a4387708e33a6ac7d8536186b63fa3df1166efa5d976697ef8"
+RPM_NAME = "texlive-prodint-doc-2023.209.svn21893-53.1.noarch.rpm"
+RPM_HASH = "5ab589479e38007b846a4e671f38b795c76838d65c758cb5982770de6211626090d2eecc101dfcc53b465183379cd90d91259652022c67487fd479bd225cd277"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-prodint-doc"

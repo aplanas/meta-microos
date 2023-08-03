@@ -12,10 +12,10 @@ The full list of icon designs, names and direct commands is \
 showcased in the manual."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0.7svn37623"
+PV = "2023.209.2.0.7svn37623"
 
-RPM_NAME = "texlive-typicons-2023.201.2.0.7svn37623-52.1.noarch.rpm"
-RPM_HASH = "021e46622ede1045bbf65a868c89f1635b66b906ac075c2e84522743057d7091504c38e746f544b4db55ce84ccc5d2150b6327f7399e32ef021630a00948edb4"
+RPM_NAME = "texlive-typicons-2023.209.2.0.7svn37623-53.1.noarch.rpm"
+RPM_HASH = "c25f646a3e91fdacc35ad50018ba104517da5b109a7e88862346017c11855427438cf2e387f411e39b236c4122d534b4a96fc51a9694fc3faae32b1827dd5858"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-typicons.sty \

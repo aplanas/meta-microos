@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6ScxmlQml that do n
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-scxmlqml-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "be524136855b822229c2a3b3340a75628b4e7ad0ae9b30da07fb30c29966690abdce30219b11897807cafbbbdc79a41dbff7f86623cddd6f6edded5c97da5cef"
+RPM_NAME = "qt6-scxmlqml-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "3f740c13cc30272015127d686c5ef76d4cb609cf81e0fdcbb0a8b69f191be2eea10f4f5ddbe7db43279268a3ee59adc18dbdb6bbe6a83b5118e363ad2a921fe9"
 
 RPROVIDES:${PN} += "qt6-scxmlqml-private-devel"
 

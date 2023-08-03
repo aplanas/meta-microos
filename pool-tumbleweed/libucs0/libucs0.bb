@@ -3,10 +3,10 @@ DESCRIPTION = "This framework provides infrastructure for component based \
 programming, memory management, and system utilities."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.14.0"
+PV = "1.14.1"
 
-RPM_NAME = "libucs0-1.14.0-1.2.aarch64.rpm"
-RPM_HASH = "2b4bee2d36752e814524dbbd5bc62613272fcf2a696314738b82e6a22835c392d8608e71b1359d89ab223458408ab65e4481172706cf59a1329a5027f90e25d4"
+RPM_NAME = "libucs0-1.14.1-1.1.aarch64.rpm"
+RPM_HASH = "cb2da8fd0770636d43d15408b3cac347d8ed3fb4b0336e4bf158faa2cd15d2b74761637f65695e14fa5dc76b411101c601dc870a62f91598879b02aa99237c64"
 
 RPROVIDES:${PN} += "libucs-signal.so.0 \
 libucs.so.0 \

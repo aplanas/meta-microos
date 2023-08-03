@@ -7,10 +7,10 @@ The package also covers glyphs specified by packages (such as \
 tipa) which define many commands for single text glyphs."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.981svn30466"
+PV = "2023.209.0.0.981svn30466"
 
-RPM_NAME = "texlive-xunicode-2023.201.0.0.981svn30466-52.2.noarch.rpm"
-RPM_HASH = "103474d81c6f73adef078bfc7694086db6af4ba1ac08291de0915c9b8dd46a1ad13687eda387f116833910df056274d62a172779266fdb97a02fd7cb2d3f5673"
+RPM_NAME = "texlive-xunicode-2023.209.0.0.981svn30466-53.1.noarch.rpm"
+RPM_HASH = "dfa96dc1ac51f8a0fe6595ca3f42d6bd2a385b3c9c1f7426f1817aaa0f56484ccccbacea0e56a91ba7d030acf3d33a9eee294daa935f2d32eeb65c01ec94b8f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xunicode.sty \

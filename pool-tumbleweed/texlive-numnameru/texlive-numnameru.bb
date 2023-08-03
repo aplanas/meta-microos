@@ -4,10 +4,10 @@ out name of the number. For example, 1 - odin, 2 - dva, 12 - \
 dvenadtsat'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn44895"
+PV = "2023.209.svn44895"
 
-RPM_NAME = "texlive-numnameru-2023.201.svn44895-54.1.noarch.rpm"
-RPM_HASH = "79810e068758afdfbdff6d2365a930ef106c1a304ed741e4776e7f4831d68fda906a1e1f3bb7d6af9f90988c5d1e903937ffb078d269739c0fddde33787c7caa"
+RPM_NAME = "texlive-numnameru-2023.209.svn44895-55.1.noarch.rpm"
+RPM_HASH = "81f64c57cfd72ec365c6747c0eba0c763184b34f30c20c96907c7cc1d1c33a1cd3587cbcab69c476a9bbf4ca666b2c59615aec1e4967cc0be81724ee1838bb0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-numnameru.sty \

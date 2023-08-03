@@ -2,10 +2,10 @@ SUMMARY = "Qt6 Quick3DIblBaker library - Development files"
 DESCRIPTION = "Development files for the Qt 6 Quick3DIblBaker library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-quick3diblbaker-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "c2120bc924d4c23fc8dbefa8a1487a2704ea8a37e7eae1e7ccbe42ff1816b454b2da2e014ffe7c015da341a28a6090ee009a57f5dcf883a9f96b9d7f7e6ae2fc"
+RPM_NAME = "qt6-quick3diblbaker-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "33821a3d151df77d5eb04e7b23c7d9102dd3299615a003ea2ebf085b9e9d677b21acd0308b6ec10cf3f33d86058b3a1024af6d371ee474e26131d4f73f2210c9"
 
 RPROVIDES:${PN} += "cmake-Qt6Quick3DIblBaker \
 pkgconfig-Qt6Quick3DIblBaker \

@@ -7,10 +7,10 @@ provided by this package is meant to be loaded during format \
 generation and not by the user."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0usvn64892"
+PV = "2023.209.1.0usvn64892"
 
-RPM_NAME = "texlive-firstaid-2023.201.1.0usvn64892-52.1.noarch.rpm"
-RPM_HASH = "9670418985cf799a3ca686dd4bd36587ac53bd237c24e778cde085d06038ddde7719f9a2ca46e1efc6d343d9a38cf923e0c08be5ae149fca92d5742e9d05a67a"
+RPM_NAME = "texlive-firstaid-2023.209.1.0usvn64892-53.1.noarch.rpm"
+RPM_HASH = "34d0774df0cfab9f4e6f4a339da44f6bf0b473b7e91bf1790273c921633c5b565382228cd36581838b0a53a94b5e386ec6d1614371592d653cc5048f30c0c489"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-everysel-ltx.sty \

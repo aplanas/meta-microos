@@ -4,10 +4,10 @@ DESCRIPTION = "The package provides tools to help define commands that, like \
 them in the command stream and choose appropriate behaviour."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn61719"
+PV = "2023.209.0.0.2svn61719"
 
-RPM_NAME = "texlive-xpeek-2023.201.0.0.2svn61719-52.2.noarch.rpm"
-RPM_HASH = "b6c131e78811887236b6e8e51f41de092bfaebb90089e0d6d1ae04db3549bec8857239570f87f62c73b54e9a3cfbf3f8e020d502bdb66fd971442d44493e962e"
+RPM_NAME = "texlive-xpeek-2023.209.0.0.2svn61719-53.1.noarch.rpm"
+RPM_HASH = "6e813c3cf53aa3668173c55810eef549ec78375d52d7b967a5631465e0b9bea913517d169a5a2aa0a3370dee279ddda20ff769671c92de7a2487f479411198fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xpeek.sty \

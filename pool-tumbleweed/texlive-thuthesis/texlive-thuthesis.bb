@@ -5,10 +5,10 @@ undergraduate research papers, masters theses, doctoral \
 dissertations, and postdoctoral reports."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.7.3.1svn64628"
+PV = "2023.209.7.3.1svn64628"
 
-RPM_NAME = "texlive-thuthesis-2023.201.7.3.1svn64628-54.1.noarch.rpm"
-RPM_HASH = "b3421422579dc3ec1afffeea971eb403a374fc9464c84b6bcba338673ea0c16aff4d7407d6b9854684910794350331397eacd043e4dba11fa4e2b923d5573ed9"
+RPM_NAME = "texlive-thuthesis-2023.209.7.3.1svn64628-55.1.noarch.rpm"
+RPM_HASH = "8dbf1a6c983e80130b96e38cf2de94e4ff2958dc83a97b07d3eb2afc4618e803a807d6236bbd69eeb7d8cef2f5ed887aec5cfe673e4b91510c582abeb2f73191"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-thuthesis-author-year.bbx \

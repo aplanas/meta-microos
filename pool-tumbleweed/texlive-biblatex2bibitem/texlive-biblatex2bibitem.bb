@@ -8,10 +8,10 @@ your reference list by hand, or something like that. Using the \
 workaround provided by this package solves the problem."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2.2svn61648"
+PV = "2023.209.0.0.2.2svn61648"
 
-RPM_NAME = "texlive-biblatex2bibitem-2023.201.0.0.2.2svn61648-53.1.noarch.rpm"
-RPM_HASH = "cf0d4cda3b95beee53f90ea8f86878271df0e78d47ce4aa2dfebb8d73ea6bf2a32a7a9efcf25356cd6c678664cb9478e9fb31b8137130fa6007501f43688c2da"
+RPM_NAME = "texlive-biblatex2bibitem-2023.209.0.0.2.2svn61648-54.1.noarch.rpm"
+RPM_HASH = "0caeb55e42be85f59349ab1406b7ce1cc464ec3371e0cff01f4769ed530346e3279e050d14de35eb7790849d8791261c340b5e575ad59e8417872edd45964019"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-biblatex2bibitem.sty \

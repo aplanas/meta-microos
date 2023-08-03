@@ -9,10 +9,10 @@ header; conforming to different babel languages. (Currently \
 English, French, and German are supported.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn48423"
+PV = "2023.209.1.1svn48423"
 
-RPM_NAME = "texlive-worksheet-2023.201.1.1svn48423-53.1.noarch.rpm"
-RPM_HASH = "f6ddf4b9ee104494617bdbfb18aeee31e07d4983bb07f4d90eb1dfc7df2a24650eafefb303b190a57abf9b00a91d367ccd8d42a1bd99e716e06578edeb77674b"
+RPM_NAME = "texlive-worksheet-2023.209.1.1svn48423-54.1.noarch.rpm"
+RPM_HASH = "3e86152c48067adfc7be039d34e1fe3f0900fc6084bdfca218855e4045078b9c9466f0acd9ac58c85822afadff60402f945c0d039d5e914aa9431bf0b8ea76d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-worksheet.sty \

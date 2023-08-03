@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-copyedit"
 DESCRIPTION = "This package includes the documentation for texlive-copyedit"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.1.6svn37928"
+PV = "2023.209.1.6svn37928"
 
-RPM_NAME = "texlive-copyedit-doc-2023.204.1.6svn37928-54.1.noarch.rpm"
-RPM_HASH = "8d814b74db9122f9b04b340f90c7b7369983b1daffdb8582290104567e597dc30d3c4a261c1e154aed0fc01dac40a76b33e99a91f1be716f2d126b7728bde036"
+RPM_NAME = "texlive-copyedit-doc-2023.209.1.6svn37928-55.1.noarch.rpm"
+RPM_HASH = "f83347828faf7f10ad73eead258f671c6d468157bc2fb82cbe24e04184dc6f3a77594674497935a35017ab93f00ae12fce3e60bab8db1d0e635691b689c3ecc2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-copyedit-doc"

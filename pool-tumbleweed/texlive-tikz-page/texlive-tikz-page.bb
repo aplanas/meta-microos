@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a small macro to help building nice and \
 complex layout materials."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn42039"
+PV = "2023.209.1.0svn42039"
 
-RPM_NAME = "texlive-tikz-page-2023.201.1.0svn42039-52.1.noarch.rpm"
-RPM_HASH = "d1e3a20895ca34547ce9c5c80589aed818f70952583d24fa6bdd9cfd0567093c429f44cf38c371c386492e65a6fe8346c40533c6b03129680a7bcf9ad95e9575"
+RPM_NAME = "texlive-tikz-page-2023.209.1.0svn42039-53.1.noarch.rpm"
+RPM_HASH = "4c850fd70eb1578d4b4a4a0c99b661021575d199cc0a0e6043d95a4b1b748038f2e8fbb300ced6bafac2ed0e65ac3d62d9929d22c6ed472ce92a11eddf03f0ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikz-page.sty \

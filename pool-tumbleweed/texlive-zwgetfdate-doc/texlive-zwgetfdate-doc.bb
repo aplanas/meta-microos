@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-zwgetfdate"
 DESCRIPTION = "This package includes the documentation for texlive-zwgetfdate"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-zwgetfdate-doc-2023.201.svn15878-52.2.noarch.rpm"
-RPM_HASH = "80c9c0d8e61c3ed15d39dc8fa4297e78492c03263a7d656a7d95ad4b1efb897a469cc49e976501aac72aaee9de2bf2abde3ef9705417b1fe2fa92a2e9a51344c"
+RPM_NAME = "texlive-zwgetfdate-doc-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "d2154f6df29adb5d8b7365990f437f2720091531aa1492d3dbda7188d1fe0aed0a53a0ab40ab6e63263e23eb82c011bc68df67d705f525bed587afe4e2f2e8b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zwgetfdate-doc"

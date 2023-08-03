@@ -7,10 +7,10 @@ Code texts -- as they can be found at the Perseus project, for \
 example -- without modification."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5svn15878"
+PV = "2023.209.0.0.5svn15878"
 
-RPM_NAME = "texlive-betababel-2023.201.0.0.5svn15878-53.1.noarch.rpm"
-RPM_HASH = "7ed95d2184e56fbf9192624b7012384b1c8040b1dc55e98b455b0946b0121afe18edc19f9df0202a7021a0fb904fac4688f18668e54a02b768ae4b3cf5ba98ff"
+RPM_NAME = "texlive-betababel-2023.209.0.0.5svn15878-54.1.noarch.rpm"
+RPM_HASH = "b5abd27c37d4f12de6013b0f1ed00882f3100534b3c52ffe85ab7af30ef232197b7de60d555f32034ac2c667133ec8411ae8fcda46387959a96705eb73191893"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-betababel.sty \

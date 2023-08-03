@@ -5,10 +5,10 @@ of the Japanese pLaTeX bundle and is now distributed as a \
 separate package because it supports all LaTeX formats."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.svn48295"
+PV = "2023.209.svn48295"
 
-RPM_NAME = "texlive-nidanfloat-2023.201.svn48295-54.1.noarch.rpm"
-RPM_HASH = "54737e074beb03ef87b3054a8a326e9b54f28a4bab0860e3c1842be95fda84d563201558a8c6151023b1ffaee19ad06b8006ca6085ff730ea4189e5da8020d5b"
+RPM_NAME = "texlive-nidanfloat-2023.209.svn48295-55.1.noarch.rpm"
+RPM_HASH = "a8d89c5818ff55fbdd562991cfb77200cbec65a67f9904bd66fefcfdbd989c54b30bdf62c1b62f02885e387bfa19414c50c8b39cd576f81f086b6e4a5f9e0a90"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nidanfloat.sty \

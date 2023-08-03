@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-bera"
 DESCRIPTION = "The  separated fonts package for texlive-bera"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn20031"
+PV = "2023.209.svn20031"
 
-RPM_NAME = "texlive-bera-fonts-2023.201.svn20031-53.1.noarch.rpm"
-RPM_HASH = "4b01507d4a07b9b31d3a694066b3e5f94d5142b384f342e50ffe70413d65cda3c5dbcf024ed30e4ccffcc297192e6905b2815b54bfc689eb89a4a9bb4f16c31d"
+RPM_NAME = "texlive-bera-fonts-2023.209.svn20031-54.1.noarch.rpm"
+RPM_HASH = "abb353108880d0db0604c1fc2eac3e8c8a295330dfe00ea98b9a1ff138d3af8dde490e907db62a304d4886c29c4c03ba8a804e5b7cfdf86f4624f0a07a9c6513"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

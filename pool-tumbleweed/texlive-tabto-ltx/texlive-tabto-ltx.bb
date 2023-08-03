@@ -9,10 +9,10 @@ after which the command \\tab advances typesetting position to \
 the next defined 'tab stop'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4svn54080"
+PV = "2023.209.1.4svn54080"
 
-RPM_NAME = "texlive-tabto-ltx-2023.201.1.4svn54080-54.1.noarch.rpm"
-RPM_HASH = "c95fc21ba4fced37674279d992cffb19b3bb3b4fdd4786407e563785ca5a5a5e827cbbc02e94f0bf7f53aa13b004f5667a13e1a3bd1b72122815b1b48bba533a"
+RPM_NAME = "texlive-tabto-ltx-2023.209.1.4svn54080-55.1.noarch.rpm"
+RPM_HASH = "94ecd2d8dd6e0de973b025ce5854c39a472288610a17d52ec4d6fc117c57a461d5dbaa3617b1e77962603e4dbf2a7745b4e6c28c7b008bf0909855d1ee057b43"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tabto.sty \

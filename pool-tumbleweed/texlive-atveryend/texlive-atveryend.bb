@@ -7,10 +7,10 @@ closed. \\AtVeryEndDocument is used for code after closing and \
 final reading of the `.aux' file."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.11svn53108"
+PV = "2023.209.1.11svn53108"
 
-RPM_NAME = "texlive-atveryend-2023.201.1.11svn53108-53.1.noarch.rpm"
-RPM_HASH = "d3db9f3072d8ed5a8e0ecb0b8a7e4a0ba4dd8cfd9dd3ae27ea9bd97fe8581a61c7f00cdfe466c930c3b4ed066fdfbb59e415491e8ee62ecc7d7918d676fe4297"
+RPM_NAME = "texlive-atveryend-2023.209.1.11svn53108-54.1.noarch.rpm"
+RPM_HASH = "1f7c8486dc196af7480bffc8f2ede24704ed1bb2104cb9a5fbe8fe6354df1b97d5c2e8c9b3ae216688b8f9ad24d6b32b8119adb6a9eefe22f69567c615a9032d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-atveryend.sty \

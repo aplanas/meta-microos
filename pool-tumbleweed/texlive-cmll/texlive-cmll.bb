@@ -7,10 +7,10 @@ both as Metafont source, and in Adobe Type 1 format. LaTeX \
 support is provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn17964"
+PV = "2023.209.svn17964"
 
-RPM_NAME = "texlive-cmll-2023.201.svn17964-53.1.noarch.rpm"
-RPM_HASH = "df1c2e0fdd851b364c88404ddd25497867dbbe227a2f5642774cbdaab66290a297341ecd9ccacdd9f10e53b01cf37208eb1d8b60406f8940a527ab95881c03a7"
+RPM_NAME = "texlive-cmll-2023.209.svn17964-54.1.noarch.rpm"
+RPM_HASH = "09b9d5ca38149d5b5b1292a471059638b02d93919876a0659e748b5d4b64d4b83b9d96780881f2ab33d0b7d8102d565d3a374d2c55a7737f918313949c3c7734"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmll.map \

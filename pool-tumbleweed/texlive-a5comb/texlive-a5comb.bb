@@ -2,10 +2,10 @@ SUMMARY = "Support for a5 paper sizes"
 DESCRIPTION = "Superceded by geometry."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.4svn17020"
+PV = "2023.209.4svn17020"
 
-RPM_NAME = "texlive-a5comb-2023.201.4svn17020-54.1.noarch.rpm"
-RPM_HASH = "2f8f6e658794af25103f7bf329367dd5d25b4247d0cd221920e277ae7ecea95c3b1352c14f5b1c0600d2d83c4d9d054bdb9455d1511b3d8140602138be24961e"
+RPM_NAME = "texlive-a5comb-2023.209.4svn17020-55.1.noarch.rpm"
+RPM_HASH = "9efe45765a869aeb16bbfd53a9cd06638353084ef72b283840b06ac11dd210ed45171fd3aea089c3f63b56664c6982d4ec66ed286e5ab0853f4496ddc5bc37ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-a5comb.sty \

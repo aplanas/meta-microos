@@ -4,10 +4,10 @@ like those in 'Sound Pattern of English' (Chomsky and Halle \
 1968)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3.2svn43963"
+PV = "2023.209.1.3.2svn43963"
 
-RPM_NAME = "texlive-phonrule-2023.201.1.3.2svn43963-51.1.noarch.rpm"
-RPM_HASH = "95673737cfa8f4074239d08b16f3a751b8aa4af29ba2a84c44cf61c8c2eb664befd824062b613f70fd4602c8da14e41c7b853c0790ea27ef73b91f42655e995f"
+RPM_NAME = "texlive-phonrule-2023.209.1.3.2svn43963-52.1.noarch.rpm"
+RPM_HASH = "caf639e35e0dd69d7a38ff151c324ad9c32a252488194aa39904a085d9dc82ee5e957d2d01766df3dff03be8a116d1424dcc18c9fd3b61daf65d6e50a50900b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-phonrule.sty \

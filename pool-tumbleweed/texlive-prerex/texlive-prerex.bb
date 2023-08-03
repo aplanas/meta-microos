@@ -9,10 +9,10 @@ package includes source code for a previewer application, a \
 lightweight Qt-4 and poppler-based prerex-enabled PDF viewer."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn54512"
+PV = "2023.209.svn54512"
 
-RPM_NAME = "texlive-prerex-2023.201.svn54512-52.1.noarch.rpm"
-RPM_HASH = "a88ef84909b3d9d0b85abe1e7283c8dfeaf382f53b2380efc908d584ff29e3f5244981d8dd316275bc2587ea2acf2d1db096dd584550adb066f7795bdf2e3262"
+RPM_NAME = "texlive-prerex-2023.209.svn54512-53.1.noarch.rpm"
+RPM_HASH = "2ebda54cf14aba4c71dd0108d7f9f5ab1a2604ebe844553611808344d97c3ce89a0a9379fde30406c1edefd3c8e2291dea1f50a188ce0cde3d86f94786f12b2b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-prerex.sty \

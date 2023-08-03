@@ -5,10 +5,10 @@ dissertations and Masters theses. A sample dissertation source \
 and bibliography are provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.2svn15878"
+PV = "2023.209.3.2svn15878"
 
-RPM_NAME = "texlive-ucthesis-2023.201.3.2svn15878-53.1.noarch.rpm"
-RPM_HASH = "2316ba2898fe913777d7e71cc6b565d39d7e00fb3d9f108da8ee519478cb7f8cfa8f104bf824b3a370b8ba0c40b58b93ce1755fbd1940e0661c49077d9151b18"
+RPM_NAME = "texlive-ucthesis-2023.209.3.2svn15878-54.1.noarch.rpm"
+RPM_HASH = "a7df78efc560637af9233078af7bd4023d130fe991af8ec30c8721453cb3032c86e5c758a61cb1df924614201022291ef920fb531e66636722c664ac101d1157"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uct10.clo \

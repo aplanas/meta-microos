@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-juraabbrev"
 DESCRIPTION = "This package includes the documentation for texlive-juraabbrev"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-juraabbrev-doc-2023.201.svn15878-55.1.noarch.rpm"
-RPM_HASH = "08fe2b995e60acd5eff44430637e9e4558736f35ee288c5dafbd669bf35af51b5b3a9e80676887d06b49fc7ae2d6cf8c5c8b1fd3e8cfbcf18d19abda3e4a5301"
+RPM_NAME = "texlive-juraabbrev-doc-2023.209.svn15878-56.1.noarch.rpm"
+RPM_HASH = "d8d4c4b84f95e4d9d2793935ad0212970b1ccade9bb7a83de3dc65fbc827caa7d5f2678ed96fb2bc46dc3089375883881beb8f48bba55d03008bdb15130c391c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-juraabbrev-doc-de \

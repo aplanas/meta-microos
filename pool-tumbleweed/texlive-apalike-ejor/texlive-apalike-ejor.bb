@@ -7,10 +7,10 @@ of standard APA style. Among other changes it adds support for \
 hyperlinked URL and DOI fields (which requires hyperref)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2.0svn59667"
+PV = "2023.209.1.2.0svn59667"
 
-RPM_NAME = "texlive-apalike-ejor-2023.201.1.2.0svn59667-54.1.noarch.rpm"
-RPM_HASH = "a053d4f5194c69909f524af6d2cec1b202b5131e25e26467af1f816e5a83b07815ac8384cb0f5779b6f8cc45b424adfa93ff58855b32d6a5ea30fb5e60db9ae2"
+RPM_NAME = "texlive-apalike-ejor-2023.209.1.2.0svn59667-55.1.noarch.rpm"
+RPM_HASH = "8dbb069416db8f002be38c2eaff5d645d89f3bdccd94f1e92b95cbaa0244acd4b283c7263f6fd5bb7dfb2e58cc4f40be6d31fd7efd55ee8df20334ce4b2dc89f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-apalike-ejor"

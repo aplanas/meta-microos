@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-eso-pic"
 DESCRIPTION = "This package includes the documentation for texlive-eso-pic"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.0asvn56658"
+PV = "2023.209.3.0asvn56658"
 
-RPM_NAME = "texlive-eso-pic-doc-2023.201.3.0asvn56658-52.1.noarch.rpm"
-RPM_HASH = "81592d7863c92c8b3fad4dfed69d2064e1ea99ab2b11e04795949a6c73fe35e7bad531cb5881af90374805c776e8412a763844c94b0fe3505d85647f435f0d2d"
+RPM_NAME = "texlive-eso-pic-doc-2023.209.3.0asvn56658-53.1.noarch.rpm"
+RPM_HASH = "ed3cf92b0de62248738c4ff00fc0e74945749b479239d4198909de0c5abac561e60c8a4e88e448140dc63c2e460695f855bde985e14b376371ea2d4a10577227"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eso-pic-doc"

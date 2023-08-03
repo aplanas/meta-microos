@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-stepgreek"
 DESCRIPTION = "The  separated fonts package for texlive-stepgreek"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.3.0b1svn57074"
+PV = "2023.209.3.0b1svn57074"
 
-RPM_NAME = "texlive-stepgreek-fonts-2023.201.3.0b1svn57074-57.1.noarch.rpm"
-RPM_HASH = "e2364f27a361b6e8c67eff9e945feff6da8ac3fa9247ffc596bd63037d7f921e37fb0cf95333b29ffe49a6eeacc2a568f12474b6c43fe38cf18264b72c4257ce"
+RPM_NAME = "texlive-stepgreek-fonts-2023.209.3.0b1svn57074-58.1.noarch.rpm"
+RPM_HASH = "5d8eb559be9fe98995d989eef9bab9f509ba8df5bdc3e978e099282800e4b20f728bfff3c33e4e908e383c92e2879ecdba5e4c16d0187e29d8dc4e3c3c70be3f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

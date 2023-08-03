@@ -5,8 +5,8 @@ LICENSE = "OpenSSL"
 
 PV = "1.0.2u"
 
-RPM_NAME = "openssl-1_0_0-cavs-1.0.2u-20.1.aarch64.rpm"
-RPM_HASH = "5d852d561e8666f447e3b681c4ea6b201a0c503bb0ad594c247385ad1a91c7899b6c772416ca2cd943e51068ddaee473288d451ff5f4235fac1b1ecdcaa17dfc"
+RPM_NAME = "openssl-1_0_0-cavs-1.0.2u-21.1.aarch64.rpm"
+RPM_HASH = "17c9a7e272a6c6c4f5cb67970663b8a130f72f9cb804c910e94ee39c4b197addffdf797d306aebef02815716bbed53ec61bbf2f114c0d6377e0893af244fac4e"
 
 RPROVIDES:${PN} += "openssl-1-0-0-cavs"
 

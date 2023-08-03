@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-chemarrow"
 DESCRIPTION = "The  separated fonts package for texlive-chemarrow"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.0.0.9svn17146"
+PV = "2023.209.0.0.9svn17146"
 
-RPM_NAME = "texlive-chemarrow-fonts-2023.201.0.0.9svn17146-53.1.noarch.rpm"
-RPM_HASH = "98516947d6e6cfe527d1728f7bbffaba4f153dbe125003c0427458f81ccdd51e9c9e27a9d2c4ad2338cda4afbf6163e8a86cc78d079a6815101c2083449121d1"
+RPM_NAME = "texlive-chemarrow-fonts-2023.209.0.0.9svn17146-54.1.noarch.rpm"
+RPM_HASH = "db90526c2f5f1d947e7a2a81b4cc967668c575e61579d1202bfb4d192ac3a2470c03305223c0be75438d0d425102efe0c5aeac869dea689a0bf7c4ee2b5485dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-arrow \

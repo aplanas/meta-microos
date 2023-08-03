@@ -6,10 +6,10 @@ office, conferences etc. All you need is a definition of your \
 commands \\ticketdefault and \\ticket."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4dsvn42280"
+PV = "2023.209.0.0.4dsvn42280"
 
-RPM_NAME = "texlive-ticket-2023.201.0.0.4dsvn42280-54.1.noarch.rpm"
-RPM_HASH = "3c3a91b716821b4f9ab67a0eeb655f641a82312466883fa293f1194f4b82c08e710b94ced68fd3306d1e24c77102e75e4b8802c9d63e03d0f1a1e04bfd3a57ff"
+RPM_NAME = "texlive-ticket-2023.209.0.0.4dsvn42280-55.1.noarch.rpm"
+RPM_HASH = "d755f1546c5a2744dc5bc6cbfcf55ea2da24def5f8c8c8aec558823896d4e87660aef629b783db501df4a774220fdad04f5a7b978e171d7311594050d26ce116"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ticket.sty \

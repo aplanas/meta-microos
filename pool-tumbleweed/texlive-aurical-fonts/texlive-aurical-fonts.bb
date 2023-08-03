@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-aurical"
 DESCRIPTION = "The  separated fonts package for texlive-aurical"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5svn15878"
+PV = "2023.209.1.5svn15878"
 
-RPM_NAME = "texlive-aurical-fonts-2023.201.1.5svn15878-53.1.noarch.rpm"
-RPM_HASH = "7b7f8241762949779680a19166b6261ca9f7dcf8401714411bd93c45f70fb908344c9ff70438b364df85781e744b0e0526d44171f1fe3345ddd373d7787d6ab4"
+RPM_NAME = "texlive-aurical-fonts-2023.209.1.5svn15878-54.1.noarch.rpm"
+RPM_HASH = "18516b4f0e5856e341c2a2ac32355cef76d49f06aabda7235a437c4d8f57b0248fbf2d34f62dd938af60255911a878932c6faac99329c5827e37fb47e78022ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

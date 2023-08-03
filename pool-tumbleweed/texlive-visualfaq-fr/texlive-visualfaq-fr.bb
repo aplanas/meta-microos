@@ -13,10 +13,10 @@ LaTeX visuelle enverra votre navigateur web a la page \
 correspondante de la FAQ LaTeX francophone."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn61420"
+PV = "2023.209.svn61420"
 
-RPM_NAME = "texlive-visualfaq-fr-2023.201.svn61420-53.1.noarch.rpm"
-RPM_HASH = "668ee529ce22b89e56e581f3e77ccb511eaf9320b47153458f0b7a5d14b3797973e63fbdfcab4aa0f07ce920d18961cb768f6d11dea69945bb161318a62c7d8b"
+RPM_NAME = "texlive-visualfaq-fr-2023.209.svn61420-54.1.noarch.rpm"
+RPM_HASH = "d646f4fff8688a9bc922329fdad6b62d107ae2e21e0c2f11f5d78a73936f3934b9b392c57f8ff637ad74cb213b873f6d0d2e5a1a9dff2a05574ec5a0b54a957b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-visualfaq-fr"

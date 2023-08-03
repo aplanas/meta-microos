@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mercatormap"
 DESCRIPTION = "This package includes the documentation for texlive-mercatormap"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.02svn56060"
+PV = "2023.209.1.02svn56060"
 
-RPM_NAME = "texlive-mercatormap-doc-2023.201.1.02svn56060-54.1.noarch.rpm"
-RPM_HASH = "e8b3659af97a4b4b4cdbf023fa0967811e2d680963b1e20aa0d7d37f2f0886f78a767432d80ac0da801e762ffb26a2bd1a385eb99c077dd17b38ccd14920565e"
+RPM_NAME = "texlive-mercatormap-doc-2023.209.1.02svn56060-55.1.noarch.rpm"
+RPM_HASH = "b32bc661674d8c7f44649983ad306a68977db7910586899bcf9769731c66a4a8d0ebf22e959828dbbf6fb43b3f9440349e471dbffc8b8a9cd9b79e56852ef89b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mercatormap-doc"

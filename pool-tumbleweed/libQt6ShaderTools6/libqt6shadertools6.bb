@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 ShaderTools library"
 DESCRIPTION = "The Qt 6 ShaderTools library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6ShaderTools6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "4a21b71be6b8f44ffa76c0a12b95f523a9caa9c3f02ead9c8d90bde33e9d71b3434645073eaf82797f2391bf8aaa897a9ce12edb67f1a40b52062ed55f14ba2e"
+RPM_NAME = "libQt6ShaderTools6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "e7d4b23ae4188c3801b96e9c676ceebb045e32210977ef459a0d4f937f383e7aa61c83191eb04a9686cac0d60f4b1b34116976a1098008f238054e3c361f1274"
 
 RPROVIDES:${PN} += "libQt6ShaderTools.so.6 \
 libQt6ShaderTools6"

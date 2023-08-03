@@ -6,10 +6,10 @@ It provides a coherent collection of decorators and tools to describe your API a
 its documentation properly using Swagger."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.5.1"
+PV = "1.1.0"
 
-RPM_NAME = "python39-flask-restx-0.5.1-5.6.noarch.rpm"
-RPM_HASH = "9b0c323c155454a9f4de3736542f4a6d20409085825ea7c8a952420dcda45dfe274f7c758b75fc74be3e95158b5af1d71216d5b60ccee1d3aad3ff27f76115fc"
+RPM_NAME = "python39-flask-restx-1.1.0-1.1.noarch.rpm"
+RPM_HASH = "1bd3ebe33351ea2c343572c16f88af59f62cd569c8ef15a91cefc9ecb0c1f49c2712e067fc17cad0f4c3a3e71556001e6b085bfd1425b7fb47ab41f4af3eab38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flask-restx \
@@ -18,6 +18,7 @@ python3dist-flask-restx"
 
 RDEPENDS:${PN} += "python-abi \
 python39-Flask \
+python39-Werkzeug \
 python39-aniso8601 \
 python39-jsonschema \
 python39-pytz"

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-merriweather"
 DESCRIPTION = "The  separated fonts package for texlive-merriweather"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64452"
+PV = "2023.209.svn64452"
 
-RPM_NAME = "texlive-merriweather-fonts-2023.201.svn64452-54.1.noarch.rpm"
-RPM_HASH = "fe19673f0018bfaf387c9b817e5771b29c0f2eae1fc5dd9f7d4ff11c7739bf402ee7ceee42efcdfa7de6bafd08f866f2fac8fd1858c0b452018d5d834af1b550"
+RPM_NAME = "texlive-merriweather-fonts-2023.209.svn64452-55.1.noarch.rpm"
+RPM_HASH = "9d35d3bca8a3abab7cc0f32fb648545f4750818a4d465b529212d5edf821471d8af19237b66d113857640d9f8cdf9b9c09ed5a3c2a7521b2c184d0e9747ae802"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-merriweather-fonts \

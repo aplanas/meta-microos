@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.7"
 
-RPM_NAME = "python310-pytest-sugar-0.9.7-1.3.noarch.rpm"
-RPM_HASH = "bd39b8194b642a9319e8065270b6739115c1ca4d3ca69c1d03f9d2807af096d78041da4f13750d6f20dacf7ef1766706be275692a811d1bf0fca95a43df4eb3f"
+RPM_NAME = "python310-pytest-sugar-0.9.7-2.1.noarch.rpm"
+RPM_HASH = "4b116430644ae8fd764da7fc0e3ef523f7d7632ca56eba9cfd425e9a60e6506bc62a8162ef7cb945ff47b36e46fb390ca3c5ac323bbe2da5e327bbde8c514f0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-pytest-sugar \

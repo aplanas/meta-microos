@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-quattrocento"
 DESCRIPTION = "This package includes the documentation for texlive-quattrocento"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64372"
+PV = "2023.209.svn64372"
 
-RPM_NAME = "texlive-quattrocento-doc-2023.201.svn64372-53.2.noarch.rpm"
-RPM_HASH = "d20c927a6cfe8ff071addddcaef148952729a27dd0b6845bc358cd135e785195164fcbd437db9635d120dfb4900625eba207c23246906a23cc7de73244f26e72"
+RPM_NAME = "texlive-quattrocento-doc-2023.209.svn64372-54.1.noarch.rpm"
+RPM_HASH = "f38a297cc4302872efea9a9d53975988eed08c98e22674be01854794a6db3ae9cd649d489682067700ba65fa992daff1d68e334be56e30af0d6586352df8bf7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-quattrocento-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-txfontsb"
 DESCRIPTION = "This package includes the documentation for texlive-txfontsb"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.1.1svn54512"
+PV = "2023.209.1.1.1svn54512"
 
-RPM_NAME = "texlive-txfontsb-doc-2023.201.1.1.1svn54512-52.1.noarch.rpm"
-RPM_HASH = "d4eaf8d690003eb4377c4db6bac2c248f5c1df7d13f83ad2c490c4c695be1ef7ca97e9a461a7e538e1a9ce72cfbffbd10f7d40508c98270b5fa7a0e33712cc1b"
+RPM_NAME = "texlive-txfontsb-doc-2023.209.1.1.1svn54512-53.1.noarch.rpm"
+RPM_HASH = "75d967c1bbe29f9e2d5fcea8c0a614fb3290cf1fd9861728c54308dc319de21408775481e8e6130b48dba3537428765f33571fc9a9db44f4d48dc35f3ac4aa18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-txfontsb-doc"

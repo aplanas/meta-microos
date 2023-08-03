@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-librefranklin"
 DESCRIPTION = "The  separated fonts package for texlive-librefranklin"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64441"
+PV = "2023.209.svn64441"
 
-RPM_NAME = "texlive-librefranklin-fonts-2023.201.svn64441-54.1.noarch.rpm"
-RPM_HASH = "46b36896543fb66ad3f04911d27cf82ee9686aa3786992a0692cbb2f57f4c60843eb3fedc99d17a8b5af27713171a04bbfd77d79677ccc151be2f0e780b5fea4"
+RPM_NAME = "texlive-librefranklin-fonts-2023.209.svn64441-55.1.noarch.rpm"
+RPM_HASH = "5f76ce1acad23276c146b6cb30e34f1be3eb586cbc906743a6b5702820c54138283896e69ea065b079bfb8b130bd7973372b25eed580772a09bcd6dfd098b791"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-librefranklin-fonts \

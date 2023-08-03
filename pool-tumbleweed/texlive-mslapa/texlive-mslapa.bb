@@ -4,10 +4,10 @@ approximation to APA (American Psychological Association) \
 citation and reference style."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54080"
+PV = "2023.209.svn54080"
 
-RPM_NAME = "texlive-mslapa-2023.201.svn54080-54.1.noarch.rpm"
-RPM_HASH = "30b3def8f1ee9176eba54a806fcce893b7e9536d51289adf30f3d615cb16e0fdb5ece5f4243e080717c730cb24a8596aa3e76e8cdf07e4c77698df0bc5140b50"
+RPM_NAME = "texlive-mslapa-2023.209.svn54080-55.1.noarch.rpm"
+RPM_HASH = "81a31046bdab892a3d739bc7f2688b4c3886fea34bfcd3a2d9cbd403c6b8030b0c296c3bc25ade673c17a2f71dfa68d2262127c6f54243bd46ba7ee8933545c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mslapa.sty \

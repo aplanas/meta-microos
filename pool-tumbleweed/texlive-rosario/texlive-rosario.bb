@@ -6,10 +6,10 @@ Font License (OFL), version 1.1. The fonts are copyright (c) \
 2012-2015, Omnibus-Type."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1svn51688"
+PV = "2023.209.2.1svn51688"
 
-RPM_NAME = "texlive-rosario-2023.201.2.1svn51688-53.1.noarch.rpm"
-RPM_HASH = "b058c682a3ad0d80130e0e1605aa81e5f6f69501b4bc969efb4dc78e98d5885b065da4c77f62a97dc967555333dde0cbbee11e95f602e8364f4cd111ae44b775"
+RPM_NAME = "texlive-rosario-2023.209.2.1svn51688-54.1.noarch.rpm"
+RPM_HASH = "8b2911969640199b24fb70d156a54f3b4ef6d56d60617a2462c631b721a311758c3bce138b685fc7c67074fb5429fd82ee2c02b2890c19bbe1692317d95a3f3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1Rosario-Dnom.fd \

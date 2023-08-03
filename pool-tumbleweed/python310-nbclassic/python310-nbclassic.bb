@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.0"
 
-RPM_NAME = "python310-nbclassic-1.0.0-1.3.noarch.rpm"
-RPM_HASH = "512c8f7b7fd3dcb9164762f75e4e556b4f830243dafa2865b32dbef512033d416538d6abb5ed36b4dea6331b2f6be074f5445204dc8b64ade6fc5a58866d0d9a"
+RPM_NAME = "python310-nbclassic-1.0.0-1.4.noarch.rpm"
+RPM_HASH = "f2052be194b31c39dd0acd73f5f72457bd599d9e6e687a036d1e1b491544d645b25ae19c9a3b74524f8aadf8ea6b27ef2c6e53980d473ee70d1f4c9aa2d91d24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-nbclassic \

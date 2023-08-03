@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-logicpuzzle"
 DESCRIPTION = "This package includes the documentation for texlive-logicpuzzle"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.5svn34491"
+PV = "2023.209.2.5svn34491"
 
-RPM_NAME = "texlive-logicpuzzle-doc-2023.201.2.5svn34491-54.1.noarch.rpm"
-RPM_HASH = "9bf46e9be189d548b6a620bd052191aa0d7fc46a9113c27a25cd003b547c74bbf14464191a14fea7e72646c8ebf12c784184bae091d98d109dc1dd85bc835142"
+RPM_NAME = "texlive-logicpuzzle-doc-2023.209.2.5svn34491-55.1.noarch.rpm"
+RPM_HASH = "6274c1ca5974c8507bab50394c413859b7b81ce5e9ec9ba675fb1553bdff58d201893b95449b6236aa8cdc86cce87f1361013e22fd8d9098e3b6d00586b190bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-logicpuzzle-doc"

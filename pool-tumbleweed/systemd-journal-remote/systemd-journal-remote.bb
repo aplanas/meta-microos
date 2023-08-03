@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "253.7"
 
-RPM_NAME = "systemd-journal-remote-253.7-1.2.aarch64.rpm"
-RPM_HASH = "b5d95df36c5c634fe41ea7ed884ad46cde0bd9d16f0193904073e5d53ce52a866c1a8f5fe45b04f2927ee98438b005df1ea4ee9b96f73fb9f936fb19acf7de09"
+RPM_NAME = "systemd-journal-remote-253.7-2.1.aarch64.rpm"
+RPM_HASH = "df6a815a0cbe16229a8eb9dc79c74fb030586edb8f32de5da02c67953c5379d79c6ee97a24a7e712242722fac1d100f8ff5121fe08bd53afde93f9ac8f0c83b4"
 
 RPROVIDES:${PN} += "config-systemd-journal-remote \
 systemd-journal-remote"

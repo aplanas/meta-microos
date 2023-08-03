@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xintsession"
 DESCRIPTION = "This package includes the documentation for texlive-xintsession"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4alphasvn60926"
+PV = "2023.209.0.0.4alphasvn60926"
 
-RPM_NAME = "texlive-xintsession-doc-2023.201.0.0.4alphasvn60926-52.2.noarch.rpm"
-RPM_HASH = "16887d6c2b9554a85954070314fa01626669d6effabd03a730daf506931284aaba6ac3bb2aefae66d4cf97e5eb226f775b8452e19dd645d406a1175472f33684"
+RPM_NAME = "texlive-xintsession-doc-2023.209.0.0.4alphasvn60926-53.1.noarch.rpm"
+RPM_HASH = "5b97575195a3ab4c10bb0e81438518e4772e4fead34da47813abb10236520dd026682592e7454be5f69ff3fed1ae798ff8a047206d0753fd8af5e5bb9cb7310b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xintsession-doc"

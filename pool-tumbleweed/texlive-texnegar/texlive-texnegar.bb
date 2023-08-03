@@ -14,10 +14,10 @@ figuratively referring to a beautiful woman, pattern, painting, \
 and artistic design'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1esvn57692"
+PV = "2023.209.0.0.1esvn57692"
 
-RPM_NAME = "texlive-texnegar-2023.201.0.0.1esvn57692-54.1.noarch.rpm"
-RPM_HASH = "8d1f415cdeeaa6fd067a372ac84dabe5948f901267d930402b85f5bfa6e930955e8eb0e27421bd7075c7155f444e783474df83920976b5988d33792d81e53a0b"
+RPM_NAME = "texlive-texnegar-2023.209.0.0.1esvn57692-55.1.noarch.rpm"
+RPM_HASH = "108c6efd66d1b9a6c7d5f305058e6338fb84a3c9965a2c7de3896acad1310795ee97a9883639b5e0ba3a46116adff07535b57b61772e31b55651855270f10654"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-texnegar-common-kashida.tex \

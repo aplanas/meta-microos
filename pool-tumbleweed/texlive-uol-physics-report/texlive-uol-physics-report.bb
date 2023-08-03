@@ -8,10 +8,10 @@ pages and excludes the titlepage and table of contents from the \
 page numbering."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn65761"
+PV = "2023.209.1.1svn65761"
 
-RPM_NAME = "texlive-uol-physics-report-2023.201.1.1svn65761-53.1.noarch.rpm"
-RPM_HASH = "5b1afb5e2b2b8f435f966f93a5878951cfbb687889be9ae42faf2d85e0ea593a085b5f647797df934e166b96c97b98b054e0ae097eb56cd4361076feadec850a"
+RPM_NAME = "texlive-uol-physics-report-2023.209.1.1svn65761-54.1.noarch.rpm"
+RPM_HASH = "b416ba1ba82e5ff136e838014c8be3a9ba8b2638d749a6325f44b2b762535f8f2f841b6b5f238018fcadac9a49ba464854fcf18f6321dbad3c4a37c2585d45c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uol-physics-report.cls \

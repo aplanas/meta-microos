@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-rsc"
 DESCRIPTION = "This package includes the documentation for texlive-rsc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.1fsvn41923"
+PV = "2023.209.3.1fsvn41923"
 
-RPM_NAME = "texlive-rsc-doc-2023.201.3.1fsvn41923-53.1.noarch.rpm"
-RPM_HASH = "2628cf3eb0ac0e4c5b08fdcbf56515913c14c5b71b2d501c2d27b257fd91fd4893f2d622712f289e867ae5de5e0bbee99a11cf624001834973975662f8d5e8ff"
+RPM_NAME = "texlive-rsc-doc-2023.209.3.1fsvn41923-54.1.noarch.rpm"
+RPM_HASH = "bd064e439f224fd8b1ec135de0e73e9c944648e109c1dd7feef1277aed56a0127e5f0b302d2d20b1c77efbd33cb530d3e114f60e56d5e7d27a82895c9b7193aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-rsc-doc"

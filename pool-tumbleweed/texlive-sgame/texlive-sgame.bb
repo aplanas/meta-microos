@@ -7,10 +7,10 @@ vertically centered within the boxes. Note that the game \
 environment will not work in the argument of another command."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.15svn30959"
+PV = "2023.209.2.15svn30959"
 
-RPM_NAME = "texlive-sgame-2023.201.2.15svn30959-53.1.noarch.rpm"
-RPM_HASH = "d73cff2c971748c86832f76e403600cc3e98403bad3ae68d9042058872bd1fae0bbe966e6e6831285aa1b9dbdd477421f1d50048dfd4ac1bf5cff718bb3a3777"
+RPM_NAME = "texlive-sgame-2023.209.2.15svn30959-54.1.noarch.rpm"
+RPM_HASH = "757d2abf84db3badddc7f9f39baf9f413a5a75448dd2d4bfabc5aa04b7bc2a6d3eb2d3ceaa529586179cee27550fae682d941273d95525e2b46b2fea9d3b94d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sgame.sty \

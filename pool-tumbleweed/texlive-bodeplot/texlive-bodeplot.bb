@@ -12,10 +12,10 @@ for linear and asymptotic approximation of magnitude and phase \
 plots of any transfer function given poles, zeros, and gain."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.3svn65074"
+PV = "2023.209.1.1.3svn65074"
 
-RPM_NAME = "texlive-bodeplot-2023.201.1.1.3svn65074-52.1.noarch.rpm"
-RPM_HASH = "f4450b8fb976087b5846279479f3f1fb65a3e9d527df76c8f835b84e382aabc1a507c2e0093bb68a76159b8f3c0a9c0709c4db5981003f6e137445beb60c0a92"
+RPM_NAME = "texlive-bodeplot-2023.209.1.1.3svn65074-53.1.noarch.rpm"
+RPM_HASH = "019fe3c3568b5227573e4b08a12128e41a55449cf396110cb3621cb390c1a578d76d53ec4f404b0fbfcd4d4f5a7bde308e9db4a264bedffe45244e61e0a072da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bodeplot.sty \

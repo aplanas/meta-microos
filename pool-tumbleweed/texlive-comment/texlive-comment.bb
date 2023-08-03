@@ -14,10 +14,10 @@ selected/deselected with \\includecomment{versiona} and \
 line of their own."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.3.8svn41927"
+PV = "2023.209.3.8svn41927"
 
-RPM_NAME = "texlive-comment-2023.201.3.8svn41927-53.1.noarch.rpm"
-RPM_HASH = "7f62978d24406d523f099a4908747451940e7d73b7915e2ace15d6d50a44828f8baae8af3da52d167b7b03b166f8411a3b2551ef03828e8392ff1f006782b6fe"
+RPM_NAME = "texlive-comment-2023.209.3.8svn41927-54.1.noarch.rpm"
+RPM_HASH = "13f9752dbe907a964b7c16b1d884a4e2bc1798678f4a0016810a0e2a2a704406530c642e909d36d7aa4b73210cd973a59241da69eea167495b188f4abe55644d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-comment.sty \

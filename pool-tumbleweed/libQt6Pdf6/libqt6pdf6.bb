@@ -2,10 +2,10 @@ SUMMARY = "Qt6 Pdf library"
 DESCRIPTION = "The Qt6 Pdf library."
 LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6Pdf6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "f60234d49ec9b84e829826c85ae188478c0956974ba017c6cdc1b39d82e9d2c18917aee1ff49e9adde98687fbe44aa03636757e11366ae53c559ed7d5fbff46a"
+RPM_NAME = "libQt6Pdf6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "88c6264c861cf1529f9e4e71dd41410b944a3e797fb055c63b737e88f034b588268772fac51730507dfa886880e3b9f02d2475701d6e116fd56bf26f5bced816"
 
 RPROVIDES:${PN} += "libQt6Pdf.so.6 \
 libQt6Pdf6 \
@@ -21,6 +21,8 @@ libgcc-s.so.1 \
 libicuuc.so.73 \
 libm.so.6 \
 libopenjp2.so.7 \
-libstdc++.so.6"
+libpng16.so.16 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

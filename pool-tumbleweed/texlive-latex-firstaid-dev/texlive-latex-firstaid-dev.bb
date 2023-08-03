@@ -5,10 +5,10 @@ package. It accompanies the pre-testing kernel code \
 users."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0wsvn65181"
+PV = "2023.209.1.0wsvn65181"
 
-RPM_NAME = "texlive-latex-firstaid-dev-2023.201.1.0wsvn65181-55.1.noarch.rpm"
-RPM_HASH = "0a187758bcf62d514b91a8a4a392c27aa1e018648e4ab84c80360693d285cb7a5228ec1660ea21c1f3dc5b6281995d62aff3f79433351ba4ddff043f56ada5bd"
+RPM_NAME = "texlive-latex-firstaid-dev-2023.209.1.0wsvn65181-56.1.noarch.rpm"
+RPM_HASH = "afe2df949252b8632deb29a9b2701f59d9d3fd41038f10d695f380f45595566c6aa479bed49b6d6c220b141d47ac0dac110f53999754803ab20c431fc9525e67"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texdev-everysel-ltx.sty \

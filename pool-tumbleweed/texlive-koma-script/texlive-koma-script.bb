@@ -14,10 +14,10 @@ version of scrbook, scrreprt, scrartcl, scrlttr2 and typearea \
 (which are the main parts of the bundle)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.38svn64685"
+PV = "2023.209.3.38svn64685"
 
-RPM_NAME = "texlive-koma-script-2023.201.3.38svn64685-55.1.noarch.rpm"
-RPM_HASH = "74cb827cc41c19e7a9d5502aa8903cdd969519136f9d66b0482250565122ce962de1674c7eedf1560422de32dffb9680b301d256f55f34159a86a9221ce5635d"
+RPM_NAME = "texlive-koma-script-2023.209.3.38svn64685-56.1.noarch.rpm"
+RPM_HASH = "39d88fa32823a2d1a5321b97b7f9e3ea1102d16620a6fe7a9e077a5082aa657bfe5acae6595f28dce5c7524bb349d3a709317a5606bc42f6286ad337e023d8cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-authorpart-de.tex \

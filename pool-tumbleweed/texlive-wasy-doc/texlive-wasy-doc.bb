@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-wasy"
 DESCRIPTION = "This package includes the documentation for texlive-wasy"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.2.5svn53533"
+PV = "2023.209.2.5svn53533"
 
-RPM_NAME = "texlive-wasy-doc-2023.201.2.5svn53533-53.1.noarch.rpm"
-RPM_HASH = "5514cf137fa997cef47385f8f24c4ae3ee183d88170208eb3fe66faa971afc4d2d6f29c9250a2082bd866615df2738355ae859e476779c531a1a40195c6c3839"
+RPM_NAME = "texlive-wasy-doc-2023.209.2.5svn53533-54.1.noarch.rpm"
+RPM_HASH = "b198dc044fb92ee63d1deeda8b6f8d4cf7c509ad0dcaa661e063972a38195a4018615fafd5b39da55c005358f32eb6ac79fab40160c399a984fd48557c7ce318"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-wasy-doc"

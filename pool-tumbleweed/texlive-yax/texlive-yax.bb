@@ -10,10 +10,10 @@ possible), but may be customized. YaX is based on texapi and \
 thus requires e-TeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.03svn54080"
+PV = "2023.209.1.03svn54080"
 
-RPM_NAME = "texlive-yax-2023.201.1.03svn54080-52.2.noarch.rpm"
-RPM_HASH = "9f51b9bc36841a090d84bdd34f14e47b3d04ed35757c9aba1b866e945e1ddf787b7d526be8d182700c2e28b7a24a485845d3880b868de9e8d81df7cc634c50f0"
+RPM_NAME = "texlive-yax-2023.209.1.03svn54080-53.1.noarch.rpm"
+RPM_HASH = "4ade23bfddd5b2651ce307383163653ec3de6a099d6f3b792dfa62d06652889e2f6745254cf35b444deaf9ce8bac1a187714e82dec8973db48a9456bfe97d433"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-t-yax.tex \

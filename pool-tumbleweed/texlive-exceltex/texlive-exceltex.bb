@@ -12,10 +12,10 @@ spreadsheet applications are able to read and write Excel \
 files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.5.1svn26313"
+PV = "2023.209.0.0.5.1svn26313"
 
-RPM_NAME = "texlive-exceltex-2023.201.0.0.5.1svn26313-52.1.noarch.rpm"
-RPM_HASH = "4176dce51a390edef70247df7c978b11ef4fa41467284e244f729debf912bd9807f4ad652c540a23cdd4756b9c0ad841be74607b31bfedddea4b44419f556c59"
+RPM_NAME = "texlive-exceltex-2023.209.0.0.5.1svn26313-53.1.noarch.rpm"
+RPM_HASH = "f7a934e228dad2087ca2a5caa7fe6fd1ae09d7490dfa188119b0428b408241a121ebadf8c44eb242801078f3c1d91ba4cbb8f8ceb30e92d0cb026cd43a63fb2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-exceltex.sty \

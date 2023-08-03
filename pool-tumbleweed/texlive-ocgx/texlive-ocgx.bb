@@ -9,10 +9,10 @@ Javascript embedded in the PDF document to enable (to show) or \
 disable (to hide) OCGs."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5svn54512"
+PV = "2023.209.0.0.5svn54512"
 
-RPM_NAME = "texlive-ocgx-2023.201.0.0.5svn54512-54.1.noarch.rpm"
-RPM_HASH = "303ef645964bc52e8972b7250eae08f91c599171dc76b88696d0561cdec6e960d46f22ace4741d64214d0a8e9d2a3cd262e5c4098c2c560c29d5525227c03d70"
+RPM_NAME = "texlive-ocgx-2023.209.0.0.5svn54512-55.1.noarch.rpm"
+RPM_HASH = "5c49a150e6890ed1b7dc12d61878ad8d8de4a61358cc3412d46c24ecfd877ea348aca2ed822303e11ad9df603002bfe08c6463dd822ea8ed1ff355bb7ef47573"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ocgx.sty \

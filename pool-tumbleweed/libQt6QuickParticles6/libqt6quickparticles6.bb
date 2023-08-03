@@ -3,10 +3,10 @@ DESCRIPTION = "The Qt 6 QuickParticles library. \
 This library does not have any ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6QuickParticles6-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "c076d023d76117c153c1ee4f1ebe2e8450cbb3c05eee545f07dbd6bc36ca020c9da8403ff416ed1760dabc99676c9cfa21fd6282f7f97d89ac672283f2fa6295"
+RPM_NAME = "libQt6QuickParticles6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "294a4b0f685895c8aa1228d70ad9c4a93b5620a304b34a4468b58e931ffcca49f10845b3e487f7a6e8e471c630c7d1744338976a700bdd23f3f4b5a171ef700d"
 
 RPROVIDES:${PN} += "libQt6QuickParticles.so.6 \
 libQt6QuickParticles6"

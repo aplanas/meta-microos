@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-scholax"
 DESCRIPTION = "This package includes the documentation for texlive-scholax"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.033svn61836"
+PV = "2023.209.1.033svn61836"
 
-RPM_NAME = "texlive-scholax-doc-2023.201.1.033svn61836-53.1.noarch.rpm"
-RPM_HASH = "44f71c6f78d28077711df67d45781df9d5b8bf1a7d99e8f34ea9d87f17796bf879259004a4d3b56f23a3d7c0f32a5b95d41ad64d91d6619c2b0a1d622d4232b1"
+RPM_NAME = "texlive-scholax-doc-2023.209.1.033svn61836-54.1.noarch.rpm"
+RPM_HASH = "146bea0029cb5c151a80c5b00518a69e0501547469864bd8ed4316e9ab2d694c5a53dbcc1ae429e8ffefe1f17734f54b827119a815e742fd97547d0f2e2c7c60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scholax-doc"

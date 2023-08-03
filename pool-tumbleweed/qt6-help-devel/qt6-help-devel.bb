@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Help library - Development files"
 DESCRIPTION = "Development files for the Qt6 Help library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-help-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "197b76bdb35765005cb6a7e0bb90efd071fe617d55e4bec024587315b7e90829a1d43debc5227c15acde02871bf4a9e8f007820d799e22163bcfe3a8a51e26f3"
+RPM_NAME = "qt6-help-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "55c14a76cfa521599412aab0c95290a27a51c7535982ff3843f91a730d28c53e5b5ea3ca127aacec4c0208a8bf64eb9af199d33d3a7447c5359a5e6d5f8f9200"
 
 RPROVIDES:${PN} += "cmake-Qt6Help \
 pkgconfig-Qt6Help \

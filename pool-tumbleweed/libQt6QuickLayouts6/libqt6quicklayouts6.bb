@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 QuickLayouts library"
 DESCRIPTION = "The Qt 6 QuickLayouts library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6QuickLayouts6-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "c4369e7fc23ea9b9ac2cd09d51cd48a2259099cdb091b47dd8dd4b10e1fc1afc4aa4af70bef087212a833e3ab95d65637ab0e325e1253b643374abd9f1b00a0d"
+RPM_NAME = "libQt6QuickLayouts6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "208bfee135436570ef4191f1a68ec07086609968d0a5024dbb25af83ff9cb30c944318c244f8cdab87aeb03bc8e79d8ef7dc149091c7cb30821067c09df68243"
 
 RPROVIDES:${PN} += "libQt6QuickLayouts.so.6 \
 libQt6QuickLayouts6"

@@ -6,10 +6,10 @@ LaTeX and these files. The class makes use of the isorot \
 package, rather than use other mechanisms directly."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.4svn15878"
+PV = "2023.209.2.4svn15878"
 
-RPM_NAME = "texlive-iso-2023.201.2.4svn15878-55.1.noarch.rpm"
-RPM_HASH = "81674e7219b57dd296408f1c82a8099c4a2bd375944a8eb5f00e64ef9dc9330426461937eaea2006577d6d0eac4106e061cddca737aef5953b4a2e8d239c0d6b"
+RPM_NAME = "texlive-iso-2023.209.2.4svn15878-56.1.noarch.rpm"
+RPM_HASH = "4034b69a2af99cc7557b4ce694a088544066b555274e80cd6b1ecce1b3634b8efcaa50e4f341fcc04cb4a4dc5dc8d260f7c6b727945139f4b032f118ad2c2d0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-askincv1.sty \

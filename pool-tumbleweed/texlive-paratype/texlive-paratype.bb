@@ -9,10 +9,10 @@ provides a convenient replacement of the two packages ptsans \
 and ptserif."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn32859"
+PV = "2023.209.svn32859"
 
-RPM_NAME = "texlive-paratype-2023.201.svn32859-51.1.noarch.rpm"
-RPM_HASH = "166b2b7ef1dbc7f1076ab2ad3d890c57c514797efb6cd2156e7131f5735cba6d414e90dd05af3b2c92860f8b7b9a877a94873285cf6cb73d5d920fc9292a26fe"
+RPM_NAME = "texlive-paratype-2023.209.svn32859-52.1.noarch.rpm"
+RPM_HASH = "680fd2732e1e335b60bcbfb8fe6c50698d3b066504f7048a6818ac734c26886ac741f4869015bc45f941de0e3844be54d2bfd001c93a14f427c648df709322f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-IL2PTMono-TLF.fd \

@@ -10,10 +10,10 @@ typesetting rules, but there are also options subtle, moderate \
 and extreme options for the 'broad brush' approach."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.4svn40525"
+PV = "2023.209.2.4svn40525"
 
-RPM_NAME = "texlive-savetrees-2023.201.2.4svn40525-53.1.noarch.rpm"
-RPM_HASH = "766608edba435b678259a0051d9b6ae188f38ecbccc9e523bf73d3a6c98a6dfa5cb380cc9b770af55ce48e11e9599898c661cbc8e51853eb227422841e7cbf48"
+RPM_NAME = "texlive-savetrees-2023.209.2.4svn40525-54.1.noarch.rpm"
+RPM_HASH = "f95c32bb232b2d625c69f8f68875be1309f58cd763a298034de7660f7af5b368854af4f314d331a28a88546f40d02a03e54e455ac013b0731bf07497542c0279"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-savetrees.bbx \

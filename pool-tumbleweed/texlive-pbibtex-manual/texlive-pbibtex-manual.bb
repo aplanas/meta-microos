@@ -4,10 +4,10 @@ and upBibTeX. For historical reasons, this also contains old \
 documentation files for JBibTeX."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.svn66181"
+PV = "2023.209.svn66181"
 
-RPM_NAME = "texlive-pbibtex-manual-2023.201.svn66181-51.1.noarch.rpm"
-RPM_HASH = "e20d50a6f633608c49a162453f61bb6b3068bde57f0249031bc62a0bbec845705827fcfd6b1438f9cb221e6e15a642962ad40f55b5ae92a21d75795e6723bad3"
+RPM_NAME = "texlive-pbibtex-manual-2023.209.svn66181-52.1.noarch.rpm"
+RPM_HASH = "bed7d37827414d49580e75a576aca98aa407197c99a637dc9508c001b4436466aa1912d19b63eb286bfc33c9c33236d40006f505bb49eae3e6537b78e2e81426"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pbibtex-manual"

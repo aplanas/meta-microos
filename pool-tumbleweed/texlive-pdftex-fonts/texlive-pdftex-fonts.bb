@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-pdftex"
 DESCRIPTION = "The  separated fonts package for texlive-pdftex"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn66243"
+PV = "2023.209.svn66243"
 
-RPM_NAME = "texlive-pdftex-fonts-2023.201.svn66243-51.1.noarch.rpm"
-RPM_HASH = "5bbf29264115632b53c18bb001cbd2b804e8b4b8a071928eb4e3148e21c53c86ee2d24caad91246091ac30db3d387c65af80f1464d9a7d80610b13377a108c5c"
+RPM_NAME = "texlive-pdftex-fonts-2023.209.svn66243-52.1.noarch.rpm"
+RPM_HASH = "3f132a9abdf1c19f36aaa7575a12bd7ce7bc96ab6df2c291a9e9c24aa42dabbb123ee83a5313fc02666c5cb3a6b37fc12543634fddecb5c9649147bc2116eac7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-dummyspace \

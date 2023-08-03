@@ -5,8 +5,8 @@ LICENSE = "MPL-2.0"
 
 PV = "3.90"
 
-RPM_NAME = "mozilla-nss-certs-3.90-1.1.aarch64.rpm"
-RPM_HASH = "ceffffc09a620b25be5639fde1ec8ea40f51b686c8bbcaa91cac8f5b86a92e0bad2b14d856820b9107623f0249bf9819460ad1c5529eec0b4486318f45bd00d7"
+RPM_NAME = "mozilla-nss-certs-3.90-2.1.aarch64.rpm"
+RPM_HASH = "d79047749d149191d6ae90c11cc7136bd00ac5607a53026c0e6e1b537b3b3493050c958d928a6980a5c23cf39af1a7c2d3828376be41b263a9c7f20b4d1d1e3c"
 
 RPROVIDES:${PN} += "libnssckbi.so \
 mozilla-nss-certs"

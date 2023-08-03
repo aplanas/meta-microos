@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-font-change-xetex"
 DESCRIPTION = "This package includes the documentation for texlive-font-change-xetex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2016.1svn40404"
+PV = "2023.209.2016.1svn40404"
 
-RPM_NAME = "texlive-font-change-xetex-doc-2023.201.2016.1svn40404-52.1.noarch.rpm"
-RPM_HASH = "af87dfb74fe0ef1d73880372aa2bf8b6472418b5ca8329c55a4f64f2e91ba7b78a48885cc66fbcfa8b2e55212721d531c011d99fe5f99717b8429839c3776918"
+RPM_NAME = "texlive-font-change-xetex-doc-2023.209.2016.1svn40404-53.1.noarch.rpm"
+RPM_HASH = "68abd7f06e6590398b5f1eb63761c8f0d43a5f8c4a2370cf75f8569b97775147ca26142dc50931152a6eb825cb64af00d678b8f80ace7005dad23beb34912e97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-font-change-xetex-doc"

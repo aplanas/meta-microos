@@ -4,10 +4,10 @@ Documentation source files are written in Markdown, and configured \
 with a single YAML configuration file."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.4.3"
+PV = "1.5.0"
 
-RPM_NAME = "python310-mkdocs-1.4.3-1.1.noarch.rpm"
-RPM_HASH = "a09ad5134cb412cc29d00154349792e02ee51cb33e9978579c859f6ac4574ef216bd8825cc7c41ac8096b3417ee9fb19b145882518c0797a2d12cbc3fafc1301"
+RPM_NAME = "python310-mkdocs-1.5.0-1.1.noarch.rpm"
+RPM_HASH = "1ec8728b0f41ac7c66f0fb8da0ef780caa32a6e1d86ae145b0b4b7c6c381ea5c0918764095c43eec8606c08249d8a29b478b45df97d478a6c4e8375f2a2d8264"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-mkdocs \
@@ -28,6 +28,8 @@ python310-ghp-import \
 python310-importlib-metadata \
 python310-mergedeep \
 python310-packaging \
+python310-pathspec \
+python310-platformdirs \
 python310-pyyaml-env-tag \
 python310-watchdog \
 update-alternatives"

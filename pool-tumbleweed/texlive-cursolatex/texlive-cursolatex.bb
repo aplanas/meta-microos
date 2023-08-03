@@ -2,10 +2,10 @@ SUMMARY = "A LaTeX tutorial"
 DESCRIPTION = "The tutorial is presented as a set of slides (in Portuguese)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn24139"
+PV = "2023.209.svn24139"
 
-RPM_NAME = "texlive-cursolatex-2023.204.svn24139-54.1.noarch.rpm"
-RPM_HASH = "c9cb70264087fddf92808820c0c78e4e2b15316bf5cfb64fa68a388f5ebb1b61e7e1a382fea250f3c3451863fec4c684e44d426d8137d58e3ce2979e3ac6ee1d"
+RPM_NAME = "texlive-cursolatex-2023.209.svn24139-55.1.noarch.rpm"
+RPM_HASH = "fed75aa62f564ce2ce6884bf1df5da46c14485adb6d351fb9709da4cd822688b3f088ebb1998909abf3a8db185aadbaf91610c688ad86ed75ef4d9a4fe6744ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cursolatex"

@@ -10,10 +10,10 @@ in the long run, help with training to distinguish entries of \
 different types."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1svn63445"
+PV = "2023.209.2.1svn63445"
 
-RPM_NAME = "texlive-typed-checklist-2023.201.2.1svn63445-52.1.noarch.rpm"
-RPM_HASH = "ad786c71a5a11d89cd8778d85662c13d7f52d760c5846d3b7e926c2929309c794a6d5600ff2748fd66d79132c60615981bb8a4a14947d4a440d4d7ba5cd709f9"
+RPM_NAME = "texlive-typed-checklist-2023.209.2.1svn63445-53.1.noarch.rpm"
+RPM_HASH = "168c4c867acbb234b8a6f70b5056fa382678f28135d5a0692d7a6bdd786d10e91de11f84fbf75d2269f3a811d3340d1f9690ba5b5082597c0b7ad4e64dbbe2eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-typed-checklist.sty \

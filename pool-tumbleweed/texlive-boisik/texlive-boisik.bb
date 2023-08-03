@@ -5,10 +5,10 @@ italic text fonts and maths fonts. LaTeX support is offered for \
 use with OT1, IL2 and OM* encodings."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.5svn15878"
+PV = "2023.209.0.0.5svn15878"
 
-RPM_NAME = "texlive-boisik-2023.201.0.0.5svn15878-52.1.noarch.rpm"
-RPM_HASH = "b50c9fe1128489b5f5b128e7c55b875c25fbb05d1e1c7a42fae91144413952f27ce0823ff144761a6924672293aec4c4ccb6ed9c1d65e88acdd8d5a7b22d3cf5"
+RPM_NAME = "texlive-boisik-2023.209.0.0.5svn15878-53.1.noarch.rpm"
+RPM_HASH = "b545dc838d85c2013dbdb2115e91c6de656984c2b921e92b3bacbac6d0dd398402b0bc04020d4b57fce325776bbe2716fdd92f431485bdf2647e628340c92ed3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-boisik.sty \

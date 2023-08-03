@@ -5,10 +5,10 @@ end. It is compiled into most engines and can be enabled with \
 the --synctex=1 option. It is developed as part of TeX Live."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66203"
+PV = "2023.209.svn66203"
 
-RPM_NAME = "texlive-synctex-2023.201.svn66203-57.1.noarch.rpm"
-RPM_HASH = "46a4884a134271b85e57099704c696a402a22762f1afa28b04e216f57464a306533b8585a16775ec28e51606feed993da8c843b78822fb13d5193955561c54b6"
+RPM_NAME = "texlive-synctex-2023.209.svn66203-58.1.noarch.rpm"
+RPM_HASH = "d5a5090658444b4b699d7473a5415b14495ea79007e2f196216d08a40fa2522e47c5c594cde9acb02e064f8ba1bbb0df443ad6e947fdaf2f62454ae4fb52aef5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-synctex.1 \

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-roboto"
 DESCRIPTION = "The  separated fonts package for texlive-roboto"
 LICENSE = "Apache-1.0"
 
-PV = "2023.201.svn64350"
+PV = "2023.209.svn64350"
 
-RPM_NAME = "texlive-roboto-fonts-2023.201.svn64350-53.2.noarch.rpm"
-RPM_HASH = "ed1b3e37a10149b1b5cd1644ff9d943b4f1b01a69509bfdb7824a6d20c79198fa82004b82e381182c42bed97b313a062e5664296b2d499486c7a328b7d299782"
+RPM_NAME = "texlive-roboto-fonts-2023.209.svn64350-54.1.noarch.rpm"
+RPM_HASH = "45cde9baa7b229e8b654c2f4d1939815efcb3a1422a9036b1cf8fc269310942c74712b40d2dd8cb867ad44201827dd6b3d06975d9587ea9c629c4d82c449980e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-roboto-fonts \

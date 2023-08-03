@@ -4,10 +4,10 @@ textual and graphical documents in accordance with Russian (and \
 probably post USSR) standards for designers."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.98svn29235"
+PV = "2023.209.0.0.98svn29235"
 
-RPM_NAME = "texlive-eskdx-2023.201.0.0.98svn29235-52.1.noarch.rpm"
-RPM_HASH = "2c41ae1e222ccd6db000c5ad065ee7e50bfe36ca076c3fd256474ca57d1f46d7bcd75253bd284935fdcd926f305985cf1f7fe4a1922e35ec85adcd6092d50f82"
+RPM_NAME = "texlive-eskdx-2023.209.0.0.98svn29235-53.1.noarch.rpm"
+RPM_HASH = "6b37341bcc61f1c41baaba3276811aa19d3f3142ef9e3892122ccd5a9fc1435d985782e61105384524e5de421c15799e06c30a75527c69db7fa34e6907ecd436"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eskdafterpkg.sty \

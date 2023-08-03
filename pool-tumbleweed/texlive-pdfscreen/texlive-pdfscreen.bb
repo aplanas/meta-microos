@@ -7,10 +7,10 @@ regular print versions of the same document without any extra \
 effort."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5svn42428"
+PV = "2023.209.1.5svn42428"
 
-RPM_NAME = "texlive-pdfscreen-2023.201.1.5svn42428-51.1.noarch.rpm"
-RPM_HASH = "61c4a6bdec87cc354e98aff232b5ea2f398bb7309e911fb55efc1ae3a1458e222ffe7c1c936d73122d4e0430845385caea47b354bb128098c708ff090e17cd17"
+RPM_NAME = "texlive-pdfscreen-2023.209.1.5svn42428-52.1.noarch.rpm"
+RPM_HASH = "6a155ab0fd71fc56fb52af687a590d85a657b4306ab65e5ef062052f66b5feb3b6e68a0d5b15afd49db1cac657d5aa8b3727c08d95a9e5b5a360e6d9e487b825"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdfscreen.sty \

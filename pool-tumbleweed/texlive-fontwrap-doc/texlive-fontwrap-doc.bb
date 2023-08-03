@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fontwrap"
 DESCRIPTION = "This package includes the documentation for texlive-fontwrap"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-fontwrap-doc-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "d7fadbe026e65c7240e39f47e2b89fa114929f1b443e282f62122e06402abf85dd4747d04968be66a65052efb623cc3358003865a669722f25def73799733d33"
+RPM_NAME = "texlive-fontwrap-doc-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "5956f2f8df2b8e73a714cdce1c1f41717ff2dfd38bc4e07fa2298e2fde2a06be5c82213e8f0e44fdd4f38d16d362e5c4b306c8cabd810332877f4728c077299a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fontwrap-doc"

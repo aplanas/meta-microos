@@ -4,11 +4,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.1.3"
 
-RPM_NAME = "ghc-pandoc-prof-3.1.3-2.1.aarch64.rpm"
-RPM_HASH = "9b67aa0a28d63352513a77c7e5283ab6c3091d66f3f52c276a9ad49862fdf6b6c7f40c965de0a897b249eec1ae80dd2b18987fcfde8a4304c4db65a46ca7c284"
+RPM_NAME = "ghc-pandoc-prof-3.1.3-2.2.aarch64.rpm"
+RPM_HASH = "1ec444f84e8839476aec8977b81dc92203a43a12f44a4eff51a50329b114108147bc6cd140aa5ecf79f93f46b3d2d2c2cc6da32bd8726508fe6d7f40fa48f10f"
 
 RPROVIDES:${PN} += "ghc-pandoc-prof \
-ghc-prof-pandoc-3.1.3-ImQr97Zc2bP55LDbAec3vO"
+ghc-prof-pandoc-3.1.3-55OY79jb6yp7kweb38lcUZ"
 
 RDEPENDS:${PN} += "ghc-pandoc-devel \
 ghc-prof-Glob-0.10.2-5tAj3lHfg0h9Pb5bOpMg4R \
@@ -59,8 +59,8 @@ ghc-prof-process-1.6.16.0 \
 ghc-prof-random-1.2.1.1-I0wUgAAbf0g3qHR3e8uT0o \
 ghc-prof-safe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds \
 ghc-prof-scientific-0.3.7.0-D5F2vql7x79Dy9hx72OES1 \
-ghc-prof-skylighting-0.13.4-5T99F0BkgIQGejRNYUpHqn \
-ghc-prof-skylighting-core-0.13.4-ILWFndoUOH7DzXIN7Ztglj \
+ghc-prof-skylighting-0.13.4.1-CU1AlEko5yK2gCD1OmtnCm \
+ghc-prof-skylighting-core-0.13.4.1-6Bsu3Qo0E1u1DqUSYo1bSc \
 ghc-prof-split-0.2.3.5-u3oGLAiW7JJbxIffWSCWf \
 ghc-prof-syb-0.7.2.3-J0Qw7O8gTR0DSXObDhEt8i \
 ghc-prof-tagsoup-0.14.8-KqOLe3dJpuA4KsHZJW2cTn \

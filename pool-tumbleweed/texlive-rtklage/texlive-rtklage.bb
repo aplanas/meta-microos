@@ -4,10 +4,10 @@ provided for German lawyers. Now in the early beginning it only \
 contains rtklage, a class to make lawsuits."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-rtklage-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "e203f82da889710d4c5d692e912cf53a3befe73851c5a4b227a0b734d341a516d6bf11b95b0d4fb079123dcc76bbde457011fb1859af36f61b234124b49dfb68"
+RPM_NAME = "texlive-rtklage-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "7deed4b0a51de0ca91d7cca88475dd3655e2f4b468f6fc8e9f4e8aee766359ac41be1455c861f49cbe2ca8dcd882fac6c9623ea78608573dd108697576303c23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rtklage.cls \

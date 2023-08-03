@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-thesis-gwu"
 DESCRIPTION = "This package includes the documentation for texlive-thesis-gwu"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.7.0svn54287"
+PV = "2023.209.1.7.0svn54287"
 
-RPM_NAME = "texlive-thesis-gwu-doc-2023.201.1.7.0svn54287-54.1.noarch.rpm"
-RPM_HASH = "d3972452510dea37453557d4736095d5966db2a529b3cc1eb8aa8c419d3fa1f2871b6e7d37c70fa038e836601e8bb715f7644a686e81974f38df3326f776300f"
+RPM_NAME = "texlive-thesis-gwu-doc-2023.209.1.7.0svn54287-55.1.noarch.rpm"
+RPM_HASH = "74dee6b8086a153e44db144ce443762d38713e23ef78c99de9ae96783e03becbf559e3a05571c4015d7dc4ca310630c184199bba9cc4d453a23030bd765a0aee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-thesis-gwu-doc"

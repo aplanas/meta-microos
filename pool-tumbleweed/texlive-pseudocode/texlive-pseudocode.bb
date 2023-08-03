@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the environment 'pseudocode' for \
 describing algorithms in a natural manner."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54080"
+PV = "2023.209.svn54080"
 
-RPM_NAME = "texlive-pseudocode-2023.201.svn54080-52.1.noarch.rpm"
-RPM_HASH = "abd9eb9e570b861d9fd6c536b3915bb4e32c8010b88066127bfefe18b68c36666e68e4e28ddb03afc7066cb08de83422762c26d157877508387f33e430af4a42"
+RPM_NAME = "texlive-pseudocode-2023.209.svn54080-53.1.noarch.rpm"
+RPM_HASH = "a2d2ff0c50f19c688050b17b1e0141c3fdf283a00d40e35171fd7c807120669fb36e7c56aa7effaaf619900302b638cee4385495d86dd79aaed3cbbbee7cc604"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pseudocode.sty \

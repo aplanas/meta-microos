@@ -8,10 +8,10 @@ a pipe. GNU Parallel can then split the input and pipe it into \
 commands in parallel."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20230422"
+PV = "20230722"
 
-RPM_NAME = "gnu_parallel-20230422-1.1.noarch.rpm"
-RPM_HASH = "272a4ecb1beda0c56cdb0ca9709d3ea9da2ed474aa5f236e6185161469c934bebfa199b2b8e30edeb5cf6084697b8f7ac44736132c29cc6bb1c31a5c144f3a4e"
+RPM_NAME = "gnu_parallel-20230722-1.1.noarch.rpm"
+RPM_HASH = "8e9d7fa360c1d25005da61331ce01ffdc43af222fced6c9c42e05258eb71af30cf936f724efc9f68a122a63ae06413ea1c74d8920a182894e28e5af25ba391b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu-parallel"

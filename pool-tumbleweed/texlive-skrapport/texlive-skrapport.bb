@@ -5,10 +5,10 @@ straightforward; its design was inspired by that of the PracTeX \
 journal style."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.12ksvn52412"
+PV = "2023.209.0.0.12ksvn52412"
 
-RPM_NAME = "texlive-skrapport-2023.201.0.0.12ksvn52412-57.1.noarch.rpm"
-RPM_HASH = "09927fe0afa23eb67adfdda1fcf96539714379df5e157ce35a558344b351b1d4dbceeffc6c9651aef0bce0f56a44f0bdf948f70c05e165c9de9aeb68362915e3"
+RPM_NAME = "texlive-skrapport-2023.209.0.0.12ksvn52412-58.1.noarch.rpm"
+RPM_HASH = "2bebc7aa03c225020a60481ec053e4c62ce1a89b62d9713a141653f6b616863843e7a2965b3e517da8e717b6a42d96464e0b44479772b36bebfb72549f5aee12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-skrapport-colortheme-cruelwater.sty \

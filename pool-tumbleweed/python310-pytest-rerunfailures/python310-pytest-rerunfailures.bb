@@ -3,10 +3,10 @@ DESCRIPTION = "The pytest-rerunfailures package is a plugin for Pytest that re-r
 tests to eliminate intermittent failures."
 LICENSE = "MPL-2.0"
 
-PV = "11.1.2"
+PV = "12.0"
 
-RPM_NAME = "python310-pytest-rerunfailures-11.1.2-1.3.noarch.rpm"
-RPM_HASH = "c67fe37bcd1ef260dd345d89196b1d9b7e72e33008e6b4d47f58b884efcec3b41c9269abe1a60b01968d232164aac706af4e2480cf2d689cc91aa2817ea34a89"
+RPM_NAME = "python310-pytest-rerunfailures-12.0-1.1.noarch.rpm"
+RPM_HASH = "0ab712177b29542f0eea5d37bd4810a2efd64a05e0d79d031fd0619e780572fb8cbda40f5ae4f4a4d4b7a5ba34965ff8598dc0fa0b7e4db2dd6537adbc0bb7ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-pytest-rerunfailures \

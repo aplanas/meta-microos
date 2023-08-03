@@ -8,10 +8,10 @@ original LaTeX with \\inputenc{utf8} and Babel \
 (Latin/Cyrillic/Greek etc.) by switching its \\kcatcode tables."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66381"
+PV = "2023.209.svn66381"
 
-RPM_NAME = "texlive-uptex-2023.201.svn66381-53.1.noarch.rpm"
-RPM_HASH = "2804fec5a0d1218061abeea6ed75fb51bf7b81264923eb7768d01229501dcb31577a0dbf4348b7da79b87d1bea25e90713fc52ab9bd0e430560c1adf9f1cfe1c"
+RPM_NAME = "texlive-uptex-2023.209.svn66381-54.1.noarch.rpm"
+RPM_HASH = "56ffc05252f58060ae359332a17516621ac1e12edd30651d84db101b9c59a25d2a90ec6bd1a59cb25a21033ec75a0c5cad226090b093c8f72354117c97251594"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-euptex.1 \

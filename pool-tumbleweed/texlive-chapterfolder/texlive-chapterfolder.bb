@@ -8,10 +8,10 @@ to the current folder of the chapter/section/subsection. It \
 makes easy changing the name of a folder, for example."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0.1svn15878"
+PV = "2023.209.2.0.1svn15878"
 
-RPM_NAME = "texlive-chapterfolder-2023.201.2.0.1svn15878-53.1.noarch.rpm"
-RPM_HASH = "4dc860c72371aa767b6d46cd800879106f3c19b6f29f06e7fc0036e78b60b20ff694f1e6f4567aec2169c03941214494257b760eb94e9e1a7f562d5fbca3f97c"
+RPM_NAME = "texlive-chapterfolder-2023.209.2.0.1svn15878-54.1.noarch.rpm"
+RPM_HASH = "5ede47112e0a84d2246e92d65a7fdbc3532eb3a89d2f0b67088be3a2e9d1b93a5efe0a67cbb415992b8fb5662aad6f5b7544666e977518417b5a0577888f3ca6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chapterfolder.sty \

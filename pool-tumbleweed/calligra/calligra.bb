@@ -9,8 +9,8 @@ LICENSE = "GFDL-1.2-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.2.1"
 
-RPM_NAME = "calligra-3.2.1-7.20.aarch64.rpm"
-RPM_HASH = "5950d40a15818cb40c7631c4dd56a23857252317b6131d747b994f73edcc694fdda3e49f63159429f3293b1b566bc0f9449b692a15953c5a7a5c90559b9ac2ca"
+RPM_NAME = "calligra-3.2.1-7.21.aarch64.rpm"
+RPM_HASH = "1be4cdb6956c487ab8eac9b01e23f483a1893ad27bae21159c4190c15dd27afa18c9506f70ccc83d14b5a529f85c04807e3cd38b1a31018ee319c32be368f07b"
 
 RPROVIDES:${PN} += "calligra \
 libCalligraComponentsPlugin.so \

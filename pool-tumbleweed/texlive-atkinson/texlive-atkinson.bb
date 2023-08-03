@@ -7,10 +7,10 @@ focuses on letterform distinction to increase character \
 recognition, ultimately improving readability."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64385"
+PV = "2023.209.svn64385"
 
-RPM_NAME = "texlive-atkinson-2023.201.svn64385-53.1.noarch.rpm"
-RPM_HASH = "9ba1a3d46f4dbf3edae409dc96c29eaba5158a59bd0539159a51ce248892178dbeed19887401e35bda71c9df62cfc6ff9c25f9efafcb14c6176723693697f61a"
+RPM_NAME = "texlive-atkinson-2023.209.svn64385-54.1.noarch.rpm"
+RPM_HASH = "5250b02f5445b8399d242cdddf57fa2f40f0ccbf577fd5646c2fd24b3a6ade4ea811485b5c6f264bdb98bb47caa5bc529bc3d5216a8ced0c8f4310a72770d4aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1atkinsn-LF.fd \

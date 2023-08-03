@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-uhc"
 DESCRIPTION = "The  separated fonts package for texlive-uhc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn16791"
+PV = "2023.209.svn16791"
 
-RPM_NAME = "texlive-uhc-fonts-2023.201.svn16791-53.1.noarch.rpm"
-RPM_HASH = "bd0fc0de934ecc23c6441a56061e6ac7b93a6f3b495e2d26aa67e637750ce02305836f6c3233000881fb43e1e57ba413250247bd795be274de88d704d626011b"
+RPM_NAME = "texlive-uhc-fonts-2023.209.svn16791-54.1.noarch.rpm"
+RPM_HASH = "d81e2478aa270950be0d4172544edd4e0186673c8a040ffe2f3904fbd0c848ac91cdde5a4344362395cdd0f5e2ddb8d3396b43dc5233cbcef06aed2d36dbb18a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=bg \

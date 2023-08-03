@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-shadow"
 DESCRIPTION = "This package includes the documentation for texlive-shadow"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn20312"
+PV = "2023.209.svn20312"
 
-RPM_NAME = "texlive-shadow-doc-2023.201.svn20312-53.1.noarch.rpm"
-RPM_HASH = "9f677f476b55e56989276bd37317b552c2beabe7aa28aeefbaa6024a6ca51b13e93c563856caa5275d21282d1e0a70323c91ccb557035ab436352f92c4bb7cbb"
+RPM_NAME = "texlive-shadow-doc-2023.209.svn20312-54.1.noarch.rpm"
+RPM_HASH = "09900c530e86403c94e6b732284247363d24173f785f279fcf1f072e5665a2b0f43dfe68fbfa0f4655b385c898dd9a918645bf5199a3d0a97263b8e87448051a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-shadow-doc"

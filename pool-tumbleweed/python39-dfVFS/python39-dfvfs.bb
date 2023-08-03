@@ -17,8 +17,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0~20221224"
 
-RPM_NAME = "python39-dfVFS-0~20221224-2.3.noarch.rpm"
-RPM_HASH = "41f7def86bab2dd9ddd34827eef53a7d96f7bb5ead202dd31fbf0f900fe3d5e23ab48f4e6481296331faa0a51185e230c28778e8545369c40fda7ee7a2312cd6"
+RPM_NAME = "python39-dfVFS-0~20221224-3.1.noarch.rpm"
+RPM_HASH = "52e59a4a2bb00cb29abda40fa2579c721558b72f127a85d2df735cdb25a5071fc78c8f0d3802ea4815388bb453dda0335d3ebdd81dac8886fa01fc5a2bb31c3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-dfvfs \

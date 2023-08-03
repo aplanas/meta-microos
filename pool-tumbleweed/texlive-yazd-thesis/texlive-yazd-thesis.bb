@@ -4,10 +4,10 @@ dissertations at the Yazd University. The class requires use of \
 XeLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn61719"
+PV = "2023.209.0.0.3svn61719"
 
-RPM_NAME = "texlive-yazd-thesis-2023.201.0.0.3svn61719-52.2.noarch.rpm"
-RPM_HASH = "bc54a34ef7ff409f397f1da4ba18533a8cea9653cec290d9c5099d0c22cc0c85324985e6f1a7b821697bbcf8373988c93c65456b19da69076c67b17855923e6c"
+RPM_NAME = "texlive-yazd-thesis-2023.209.0.0.3svn61719-53.1.noarch.rpm"
+RPM_HASH = "d33e739c5d087c320e30462af4c160f3d33313a2058e408d0396deaf37eb8873560896f45fdd4688d6639233755ec5d18961da903e24dad0d1187ae9b2ab9b03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-yazd-thesis.cls \

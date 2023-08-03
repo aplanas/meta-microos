@@ -8,10 +8,10 @@ the GNU/Linux platform. \
 This is the VST version of the plugins."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.2.7"
+PV = "1.2.8"
 
-RPM_NAME = "vst-lsp-plugins-1.2.7-1.2.aarch64.rpm"
-RPM_HASH = "2d551518a304ff5ee9690cce6533c6637890a45062a7ee8d2b69733c9be78b2c1eea16627969dda338d6b69c839ef3086ed866eec5e08d8f47c52cfd32be14f5"
+RPM_NAME = "vst-lsp-plugins-1.2.8-1.1.aarch64.rpm"
+RPM_HASH = "e7dd6cc5ab6c90b78659035295fdfc04e40f9285915fd7289cd510a7bca0276bb3f177a3aee1c258186c6385822f0e43b23caeed5e5c94c789ad03d029afc319"
 
 RPROVIDES:${PN} += "vst-lsp-plugins"
 

@@ -5,10 +5,10 @@ converted to Adobe Type 1 format, and simple LaTeX support \
 written for its use."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.02svn20770"
+PV = "2023.209.1.02svn20770"
 
-RPM_NAME = "texlive-tfrupee-2023.201.1.02svn20770-54.1.noarch.rpm"
-RPM_HASH = "569ee025480d860a38369122c4241ff0e4bcf47a603186ea4eaf76b9733a37b1f4430a7d5c4bc8e9b9bc4444f56462e4108a55047290675e37083907804970c4"
+RPM_NAME = "texlive-tfrupee-2023.209.1.02svn20770-55.1.noarch.rpm"
+RPM_HASH = "ef6b51592f8a7bc6b1e4c0a8c9d7527888842a6c8fd5d48c2c9314a99a97ee787454e7d056075224e608e80a1645e22fb25b75760b0ad98107f12d4e6daa2ed2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tfrupee.map \

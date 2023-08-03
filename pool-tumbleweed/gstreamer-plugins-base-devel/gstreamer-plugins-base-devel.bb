@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to compile and link applications that use gstreamer-plugins-base."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.22.4"
+PV = "1.22.5"
 
-RPM_NAME = "gstreamer-plugins-base-devel-1.22.4-1.1.aarch64.rpm"
-RPM_HASH = "74a5d3c6154a6525b91d1d6dd8801837779fe3164c5f43186a3dd30b2127862bd8545c6729e18959738fa9789547442cd7eaccb602b10a099f32b21c2f422c67"
+RPM_NAME = "gstreamer-plugins-base-devel-1.22.5-1.1.aarch64.rpm"
+RPM_HASH = "951611f48595dee384154c792156c5d852a2c2259b737cb4ead61d7ed64cf3ccd558591fb573a8bf26ffd889bd87ffe2aa86deb158d64d02b20d3016ab64d4ed"
 
 RPROVIDES:${PN} += "gst-plugins-base-devel \
 gstreamer-plugins-base-devel \

@@ -6,10 +6,10 @@ layouts, for example for program code, are possible. The \
 package depends on lazylist."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.8.6svn55837"
+PV = "2023.209.0.0.8.6svn55837"
 
-RPM_NAME = "texlive-polytable-2023.201.0.0.8.6svn55837-52.1.noarch.rpm"
-RPM_HASH = "18ff4aa6a7c08eafa1a28d85ab8d819b338de9c01b985b1dad33c2ffed3e98f151701b3ea9be836c7b4028b48d90069e41cf500222881bcae82832875fe698bc"
+RPM_NAME = "texlive-polytable-2023.209.0.0.8.6svn55837-53.1.noarch.rpm"
+RPM_HASH = "de82e1345a59616e792ff8a0339555ac26a7409c8182a69209afdecc0606f761c63771121be61e6d7edc206bb53ec26b271cf49b6574acccda51a1dc6a6c5ab7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-polytable.sty \

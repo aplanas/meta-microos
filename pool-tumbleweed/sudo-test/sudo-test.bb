@@ -2,10 +2,10 @@ SUMMARY = "Tests for the package"
 DESCRIPTION = "Tests for fate#313276"
 LICENSE = "ISC"
 
-PV = "1.9.13p3"
+PV = "1.9.14p1"
 
-RPM_NAME = "sudo-test-1.9.13p3-3.3.aarch64.rpm"
-RPM_HASH = "b40f883f41a7bcedd88df561f7bfb0b68561cb28746c2faa82ab871bd27698c27d52efbbd5704c432894b2653e513005c8fe2a3d236c5c2e96982628d68523ae"
+RPM_NAME = "sudo-test-1.9.14p1-1.1.aarch64.rpm"
+RPM_HASH = "e85a2f02a62baf7d8ced926a56424e6df40ac07a8d6d3dea2686d0acfbd21283fedee7ed1ac1df46eb08a11148ad779f000cca749602a55eb5862daa3e48d401"
 
 RPROVIDES:${PN} += "sudo-test"
 

@@ -29,10 +29,10 @@ bundle as a whole is part of the LaTeX 'required' set of \
 packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.9.3svn54694"
+PV = "2023.209.9.3svn54694"
 
-RPM_NAME = "texlive-psnfss-2023.201.9.3svn54694-52.1.noarch.rpm"
-RPM_HASH = "49bf80e1d7ad6b99e345027684959d8f9e0c0ddf963cfa5f7dab072b2f7d0a2226e35cac36dfe63e62026954dcbd0c7eb210b67af479682dae9c93495bd31b41"
+RPM_NAME = "texlive-psnfss-2023.209.9.3svn54694-53.1.noarch.rpm"
+RPM_HASH = "8902463bcbd76a250e005084e2ca95460a28ddc6fa82ef127c99547bd99d284e170c85bf7551108c5a5e44e9a34226077d607fb7ce8affc664758a538b9a43d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-8rbch.fd \

@@ -15,10 +15,10 @@ PostScript Type1, and TrueType fonts, colour specials, and \
 inclusion of PostScript, PNG, JPEG or GIF images."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.201.1.17svn66203"
+PV = "2023.209.1.17svn66203"
 
-RPM_NAME = "texlive-dvipng-2023.201.1.17svn66203-53.2.noarch.rpm"
-RPM_HASH = "16cb4b1b86287da74691f7f54ac8e8a40393dfa360801b2f969b2d0047bea4e736d53e58a4199c91e7184ca1465562a63a8fc34787a5ba80b7f8cdea997113c5"
+RPM_NAME = "texlive-dvipng-2023.209.1.17svn66203-54.1.noarch.rpm"
+RPM_HASH = "76fbc5da38e2f0be64cb77bc58fce9492509daf1027f6ec490791fe33416e2e465c06807dd02120cc0dedd135272344a6a5cdd13dc03f7da1439983453d8659d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-dvigif.1 \

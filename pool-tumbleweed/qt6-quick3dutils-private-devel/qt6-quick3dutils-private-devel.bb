@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6Quick3DUtils that 
 ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-quick3dutils-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "a79315fdae0e468557a66d920c64397e0a933ecef01daaf360a0f7324a97b0dd4eb63e2d44cf2dc654d30ce90d238d071d20818aa1eedc6d77ced290dd7cf955"
+RPM_NAME = "qt6-quick3dutils-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "24026339ebb23c382b8577d40561f740950794a2ca10eb5c556542f33175a0b22c925a1a0e24ed6d6bc16a40445b0092dadb723dfd862a482803f4ba764d1b8c"
 
 RPROVIDES:${PN} += "qt6-quick3dutils-private-devel"
 

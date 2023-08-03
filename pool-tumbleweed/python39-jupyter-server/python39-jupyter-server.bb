@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.6.0"
 
-RPM_NAME = "python39-jupyter-server-2.6.0-1.4.noarch.rpm"
-RPM_HASH = "e352df3b5aae21dc74f80edac28b5a3141cc7fe4fbf568b28ce757ec686f351c305ea3a41b2e028d29a984f21f8a28c9a52ffb0a3320611f36d271fd1ffb1854"
+RPM_NAME = "python39-jupyter-server-2.6.0-1.5.noarch.rpm"
+RPM_HASH = "2046ed7c58a0f20ee901065b9d26f20596976291adf22c7461cda5e059846f60f85dcf5681cfdc971dc9fceb8f236f2cab17b4d9f33c9335db6e03015f9de62e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jupyter-server \

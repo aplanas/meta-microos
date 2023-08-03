@@ -5,10 +5,10 @@ which probably deserve some change in the source. The TeX \
 invocation itself need not change."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.48svn65545"
+PV = "2023.209.1.48svn65545"
 
-RPM_NAME = "texlive-texfot-2023.201.1.48svn65545-54.1.noarch.rpm"
-RPM_HASH = "72bd6203c61104dfe92807fd93b961ff67bd8cbf442989cbadc2627a1d84b09c11bee7b780381681b9d88e3de73ca131dc002e5a058a01ead93b67ad7369bf9e"
+RPM_NAME = "texlive-texfot-2023.209.1.48svn65545-55.1.noarch.rpm"
+RPM_HASH = "d663378b92233a08b73f64e40a43541c568ab185b5cc09e23da77488b2c44c2f4cb98eceb83890798c77914eed92cfd5310783ae6f88cbc0c8bb8f3955934aa5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texfot"

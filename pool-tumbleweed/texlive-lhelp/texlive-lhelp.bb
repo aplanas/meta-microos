@@ -10,10 +10,10 @@ versions of enumerate and itemize which allow the horizontal \
 and vertical spacing to be changed."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.0svn23638"
+PV = "2023.209.2.0svn23638"
 
-RPM_NAME = "texlive-lhelp-2023.201.2.0svn23638-54.1.noarch.rpm"
-RPM_HASH = "a5500ea31f1da34c254efb12600dd52a6487aae632cd2142a61afce511ed598d46cd2ac83f5f6199ce6f2c08d70104750acbfa4b740db93abb39daed9506227d"
+RPM_NAME = "texlive-lhelp-2023.209.2.0svn23638-55.1.noarch.rpm"
+RPM_HASH = "4b05bccdc1b9ed9c9fa8bda052c2e2ab4ece24a2658a61f230a6df65897d85e14d7b1f97812e78e73cc27dac57df201aaa7f6c22ffe27c21557d6607d67aa804"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lhelp.sty \

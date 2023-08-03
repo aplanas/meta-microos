@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-thai"
 DESCRIPTION = "This package includes the documentation for texlive-babel-thai"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.0svn30564"
+PV = "2023.209.1.0.0svn30564"
 
-RPM_NAME = "texlive-babel-thai-doc-2023.201.1.0.0svn30564-53.1.noarch.rpm"
-RPM_HASH = "0af3dbe04081853a0efb36d38e4e8044420cd52b526318fbac84a44b36a899b8762820eac4c3afe05dd1308e76072eca5e9f6b04da330436c3bd387cf9f3289e"
+RPM_NAME = "texlive-babel-thai-doc-2023.209.1.0.0svn30564-54.1.noarch.rpm"
+RPM_HASH = "797969d3c90001a51a90ae770a51277ccfc25bdcadc680ee59c5eed7cdb302e90814ebcafd578cb0f78feccd4cc77891f9ef9d1e87a946e2c21a1c7e2f88ea7b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-thai-doc"

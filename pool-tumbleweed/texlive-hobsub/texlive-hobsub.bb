@@ -12,10 +12,10 @@ their source. The documented source of the original packages is \
 available at github, but is not distributed to CTAN."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn52810"
+PV = "2023.209.svn52810"
 
-RPM_NAME = "texlive-hobsub-2023.201.svn52810-53.2.noarch.rpm"
-RPM_HASH = "b35d5bd9b5b3c3abecb64b881454c333b8148d6077c89811ca702bcbb7bdb127531d59fa0f280414edd7a42b2823bd3a676d601b4ae55e0bee7879c61e48f87d"
+RPM_NAME = "texlive-hobsub-2023.209.svn52810-54.1.noarch.rpm"
+RPM_HASH = "76e323eea920266a5512c53f653d1ca762d42dc57b6d6eb28d66735a5f148bb8cabf4d35905df77812865d3d30291eb641945a56a0ecb5cc2393011426e371d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hobsub-generic.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a convenient interface for typesetting \
 Persian and English texts in LaTeX, using the XeTeX engine."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.24.8svn64872"
+PV = "2023.209.24.8svn64872"
 
-RPM_NAME = "texlive-xepersian-2023.201.24.8svn64872-52.2.noarch.rpm"
-RPM_HASH = "4fda04c2e774374e86ed1e4bc260e77db17cc5145db5217875fddddb2a143d54635f5bd7b425bd6c0722e6700a86bb591a0aa6972026fc42ddac256b654e6d9d"
+RPM_NAME = "texlive-xepersian-2023.209.24.8svn64872-53.1.noarch.rpm"
+RPM_HASH = "113a729a9499272a4a891df50fc441c1ad55b701a1acc725c14ce19a5682a8c51f14aaf58179334be1a92e3537d69bfe0b807f4d5896c5fe52fd83ab7011b133"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-algorithm-xepersian.def \

@@ -3,10 +3,10 @@ DESCRIPTION = "Create syntax diagrams using special environments and commands \
 to represent the diagram structure."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-syntax-2023.201.svn15878-57.1.noarch.rpm"
-RPM_HASH = "2d97568251039bc039af72c92e9ee96bf73c9cc1688955e605b73da9cd31ee06cbcd73e4d9034348e5cce4a75048a880e39c7a865a85e2926bc91df694471378"
+RPM_NAME = "texlive-syntax-2023.209.svn15878-58.1.noarch.rpm"
+RPM_HASH = "f2c31f2b0eee9a6b92ee79db0fb7bfc24c4ced2bdca73d69773e9c87f241c9168dfaa56281b661e47550837a4fd172315d04e839f79e7cd50fd7d6f220816ecc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-syntax.tex \

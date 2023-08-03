@@ -3,10 +3,10 @@ DESCRIPTION = "Qt Quick 3D provides a high-level API for creating 3D content and
 interfaces based on Qt Quick."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-quick3d-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "3c54bb72f5521107e6f24751c4e74eba05140689d62f4928a96fdf6c1e2e848d95491b461b3155c149f631cdcbda5216e7ef3702033d73e1dfec8b7d27c086fc"
+RPM_NAME = "qt6-quick3d-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "a4ea2e4a7513613969fe3daf15ca2164858e2b4bdda0c84faca57a32108e923065d905eb970a2a52411f58d012f6b0a0fcbf0819224602190fdcb254285a0f33"
 
 RPROVIDES:${PN} += "libassimp.so \
 qt6-quick3d"

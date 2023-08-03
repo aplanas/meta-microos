@@ -4,10 +4,10 @@ macros that apply blurring to the normal shadow function of \
 PSTricks."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn15878"
+PV = "2023.209.2.0svn15878"
 
-RPM_NAME = "texlive-pst-blur-2023.201.2.0svn15878-52.1.noarch.rpm"
-RPM_HASH = "6532868436a5a1bbf580e9037e0cab1f96c92a3043e1b4fc5b2f1a2651124622d8e1d46a0ba8a5b5d198aebf865363ee94976c3e2a354c90466740d5a99620d2"
+RPM_NAME = "texlive-pst-blur-2023.209.2.0svn15878-53.1.noarch.rpm"
+RPM_HASH = "9c538f911d627629d9f9331770d0a4d154140b09ad281a11f3b02f3584f988ceccad86c08159c0af4dcca3e0e043eee5b3fb9193ae921df041d30de62721752b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-blur.sty \

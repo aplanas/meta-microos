@@ -2,10 +2,10 @@ SUMMARY = "Pytest plugin for checking links in files"
 DESCRIPTION = "A pytest plugin that checks URLs for HTML-containing files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.8.0"
+PV = "0.9.0"
 
-RPM_NAME = "python311-pytest-check-links-0.8.0-1.4.noarch.rpm"
-RPM_HASH = "355ab42ca54a54e767bbcd3de712a8f32554f4afe01117fab70a157f7b294aff5fe3ca31879c057ed6b3a356b7fbf23b92ab085239a87c53fccf76e045294e92"
+RPM_NAME = "python311-pytest-check-links-0.9.0-1.1.noarch.rpm"
+RPM_HASH = "161cc9f5fcab436d2e970e65cd44962ae7d73e410c6b4b76e053977270b54c1289f01a2d768b3c8d666409c37ceb941cc40c6ae16c4275cadd0ff4fb41d8b806"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-check-links \

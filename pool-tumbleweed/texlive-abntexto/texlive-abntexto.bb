@@ -5,10 +5,10 @@ de Normas Tecnicas (ABNT) in academic works like TCCs, \
 dissertations, theses."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.2.0.0_alphasvn65705"
+PV = "2023.209.2.0.0_alphasvn65705"
 
-RPM_NAME = "texlive-abntexto-2023.201.2.0.0_alphasvn65705-54.1.noarch.rpm"
-RPM_HASH = "50f211c011e0ac5a72cc19ee9770c3bb6da23c42ac30865001028c7396bd512a6fbd7cbf80e6f8ccc31d967b987a06093a47600539fadd948a4762fde14ee269"
+RPM_NAME = "texlive-abntexto-2023.209.2.0.0_alphasvn65705-55.1.noarch.rpm"
+RPM_HASH = "9385377e20fd3ea51089a4988aa1afda699aa53cd2a295053887313a53f7dbb144cc4d31cad8b1e95189774d542dbccd7787b636c814e8a8008e7514624c7e5d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-abntexto.cls \

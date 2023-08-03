@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.24"
 
-RPM_NAME = "python-bpython-doc-0.24-2.3.noarch.rpm"
-RPM_HASH = "6b3598eda43b5b9af08be2b2027bbc6d0239efecee364546306fecda7975d558f000f654c557241dac9841b31eedb00844016a6ec65a145b465127582346358c"
+RPM_NAME = "python-bpython-doc-0.24-3.1.noarch.rpm"
+RPM_HASH = "544344c828a6a2deef46bcb665d898fc609a20dd0277ea3e9919bbfcf5fe1b66c059185cc884bb2a45dc1ebbe713a17e4254fb77bfef3f40db8d5c15ce85dcde"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-bpython-doc \

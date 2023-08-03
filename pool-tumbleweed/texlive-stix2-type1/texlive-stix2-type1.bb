@@ -16,10 +16,10 @@ versions is ongoing, no further updates are planned to the Type \
 1 versions of the fonts."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.2.0.2svn57448"
+PV = "2023.209.2.0.2svn57448"
 
-RPM_NAME = "texlive-stix2-type1-2023.201.2.0.2svn57448-57.1.noarch.rpm"
-RPM_HASH = "4b97c887702537c29a3658f7257e7cd8f1eb7c9140e226e6283b797bacf1e3feed393edf090efe95b2a30c99d98b35e205813edc2e98585d6a06a5222def2876"
+RPM_NAME = "texlive-stix2-type1-2023.209.2.0.2svn57448-58.1.noarch.rpm"
+RPM_HASH = "ded3a4a3f57e09096a6d43ca5a88d41f890ea5258102875939e252f9d47d5386849eba7ab4d1537f526ab58dff3f166ce671fdaa06dd3b9a0aa9f8326e276339"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ls1stix2.fd \

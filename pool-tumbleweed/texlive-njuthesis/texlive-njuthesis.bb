@@ -6,10 +6,10 @@ reports. Compilation of this class requires either XeLaTeX or \
 LuaLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.2svn65546"
+PV = "2023.209.1.1.2svn65546"
 
-RPM_NAME = "texlive-njuthesis-2023.201.1.1.2svn65546-54.1.noarch.rpm"
-RPM_HASH = "15b4011ee85fec467063ea8cea5326b75ebd51bbf914788c2a4bd0e61b0915598c905c1a378d5ef0ab17e66e07cda9127a723345eccca9c96ca459c9e5dd31d3"
+RPM_NAME = "texlive-njuthesis-2023.209.1.1.2svn65546-55.1.noarch.rpm"
+RPM_HASH = "99c1594a9ca801fde240a0445ea0b451bed2ab3b21ce796de2b1f42ae10716ff11e31e4e65fa28878074c9928fc35c061510d8046f5a8cd3898bf524a747df36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-njuthesis-graduate.def \

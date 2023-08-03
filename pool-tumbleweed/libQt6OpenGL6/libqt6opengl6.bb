@@ -4,10 +4,10 @@ like any other Qt widget, except that it opens an OpenGL display \
 buffer where the OpenGL API can be used to render the contents."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6OpenGL6-6.5.1-4.1.aarch64.rpm"
-RPM_HASH = "07c4ccff1ce224675183838e613a0dec1343ff600515067c6cdb9a7785aa544c14cc07a3fc0234d58f6e3908e752a3faa321227baba26a7652e5f4421b424ae0"
+RPM_NAME = "libQt6OpenGL6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "a209b2731eceac90d3683635aed363e5042352963a0f34763ddad321c43e1e46ad58588cb46e870cb67cfca935285578806936d5bd3648b6fb4b0617f6266dee"
 
 RPROVIDES:${PN} += "libQt6OpenGL.so.6 \
 libQt6OpenGL6"

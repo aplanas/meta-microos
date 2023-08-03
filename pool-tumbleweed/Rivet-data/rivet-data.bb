@@ -6,10 +6,10 @@ This package provides common data files for Rivet used by both C++ \
 and Python bindings."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.1.7"
+PV = "3.1.8"
 
-RPM_NAME = "Rivet-data-3.1.7-1.2.noarch.rpm"
-RPM_HASH = "a0cd27aadc312295d6f6aa773c87110afa5e4f45d94a634d5bc22ce12efbd40ed3f3e46d58f7cc201e9fb63fb594ac297b48a6d1a39f5a8c1cbdc1cb18be3555"
+RPM_NAME = "Rivet-data-3.1.8-1.1.noarch.rpm"
+RPM_HASH = "be0b92d268abd83dea999386686739a143a587a5c895ca9dc21c7b169cdde5ddbe9088061ba2c3d21d91f579d4a4787f3c9d25d6a319042ced86622b99069216"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Rivet-data"

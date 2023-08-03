@@ -5,10 +5,10 @@ distributed as Metafont source. LaTeX support is offered by the \
 concmath package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn17218"
+PV = "2023.209.svn17218"
 
-RPM_NAME = "texlive-concmath-fonts-2023.201.svn17218-53.1.noarch.rpm"
-RPM_HASH = "1ccc04f6f2d0ecf9c73e881bc32df3038c362ce75b48d088d170541e703609406e48f828d437a275ab96ef700c639878404cd5c566e6e2bd74512a3af740893c"
+RPM_NAME = "texlive-concmath-fonts-2023.209.svn17218-54.1.noarch.rpm"
+RPM_HASH = "5c34ab5bded56e24662c4e4c6cced7a3809b7d565a072e68a2960c49bfe6070c5edc01bd94bef5c19ddaad6b420eed0c27b36099932d79f7d952e4ef3aacdccb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xccam10.tfm \

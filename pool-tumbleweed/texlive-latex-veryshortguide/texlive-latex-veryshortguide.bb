@@ -6,10 +6,10 @@ distribution, as PDF. An analogous version is provided in \
 'legal' format."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.7svn55228"
+PV = "2023.209.0.0.7svn55228"
 
-RPM_NAME = "texlive-latex-veryshortguide-2023.201.0.0.7svn55228-55.1.noarch.rpm"
-RPM_HASH = "49bc7f003ac10a7667523129084c827bb2699fe6846226c60a19cbb86fac735f220855b61b6d674e1fee8ede97b15ef6d019cca01a401d4b490c58c5ac8ee20a"
+RPM_NAME = "texlive-latex-veryshortguide-2023.209.0.0.7svn55228-56.1.noarch.rpm"
+RPM_HASH = "aced7a67f01c26b8a3a9728afd8bbeb64b89a702339db9300e606381286eb11e05fd726dd32d47af77e891f7535bdd080aa8d3522baec91674318716aba723aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex-veryshortguide"

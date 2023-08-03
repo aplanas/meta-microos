@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-stellenbosch"
 DESCRIPTION = "This package includes the documentation for texlive-stellenbosch"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.11asvn66379"
+PV = "2023.209.11asvn66379"
 
-RPM_NAME = "texlive-stellenbosch-doc-2023.201.11asvn66379-57.1.noarch.rpm"
-RPM_HASH = "4b01df39018cfa46a91fea4b31f09542384c55bc8e54b78e6fd2c8fe81a6788c731fa04f7916ab12cef8d83173bf601756777ffc54fcf162e78856970a0b83d0"
+RPM_NAME = "texlive-stellenbosch-doc-2023.209.11asvn66379-58.1.noarch.rpm"
+RPM_HASH = "a578c8085221aa4c35da00d5d7bb9ea66024094a242d8bb727f71d3025f098e7265c4b7f5e72046b794348fb3241c20382b0dc7b5452e387c910a39b35985e89"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-stellenbosch-doc-en \

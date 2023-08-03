@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6Quick3DAssetImport
 have any ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-quick3dassetimport-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "978211315256b78663114db766208f75cb63ce77a95160384bc2044c71f34e416ecc252b0277e4a9cf877ca249e35c59da64e9c50fc8e7a3139a5d9cd8664447"
+RPM_NAME = "qt6-quick3dassetimport-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "951719052d163fe01470abd3fd46abaea85909c11caae5fdd4fe30ce67600448c21a055b7798171aa02a604719f1839f5d9536c3d444011794a37a0df1f32003"
 
 RPROVIDES:${PN} += "qt6-quick3dassetimport-private-devel"
 

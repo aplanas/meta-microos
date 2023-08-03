@@ -11,10 +11,10 @@ author date styles as well and adaptions to specific document \
 types like exhibition and auction catalogues."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.2svn53281"
+PV = "2023.209.2.2svn53281"
 
-RPM_NAME = "texlive-biblatex-archaeology-2023.201.2.2svn53281-53.1.noarch.rpm"
-RPM_HASH = "f6e0a928175adac9320194e1fee814de033e1bc0207fb7a88585a8a05c9cc24d6af666ddf8ea871ea0efe4464e04bd2133429a9f36e4c68b068f02b83aaefdc4"
+RPM_NAME = "texlive-biblatex-archaeology-2023.209.2.2svn53281-54.1.noarch.rpm"
+RPM_HASH = "c7a9ca3b31ab0b025c1fcce9d69989900e0e75b31f051d04ca2f61ca9cdf6317dbfe46854cb4ba83caa599a45d83f328ad679e3d2d22322239dbab3e0ead5013"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-UKenglish-aefkw.lbx \

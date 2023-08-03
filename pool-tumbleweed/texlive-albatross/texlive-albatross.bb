@@ -3,10 +3,10 @@ DESCRIPTION = "This is a command line tool for finding fonts that contain a \
 given (Unicode) glyph. It relies on Fontconfig."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.201.0.0.5.0svn65647"
+PV = "2023.209.0.0.5.0svn65647"
 
-RPM_NAME = "texlive-albatross-2023.201.0.0.5.0svn65647-54.1.noarch.rpm"
-RPM_HASH = "60fd95808d4c62f38b367a11025038baf1ca2e8916f99835b5efb0a6de36b93369f91e18fb266033fe2fcebfbfefd43b3973ea0ba34ba175903fb6f8e17327d6"
+RPM_NAME = "texlive-albatross-2023.209.0.0.5.0svn65647-55.1.noarch.rpm"
+RPM_HASH = "3a7d0eb49096c5ac3afab0e51085831aa0b808e04f621a1e4d7892a4fbdde1ac73d92b3298643beab3373a9feaf82f9cf5af0f469d93e29bbbecd142c22a1d05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-albatross.jar \

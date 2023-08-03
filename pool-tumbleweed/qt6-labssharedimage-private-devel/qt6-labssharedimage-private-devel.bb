@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6LabsSharedImage th
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-labssharedimage-private-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "ddd0409fb263f6f1632533b48d4132a5f403ff933ecd337db9a808acb6a8b6e5ddcd02a3282fc4c4e5776524f24e0a642913289d3a1b167cec11d089181c5db3"
+RPM_NAME = "qt6-labssharedimage-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "c6b261a8a8ab7598e6768301225058de9933037e9087933a58ed8398683d8fc84de91f32cac0203f9133f03cee2582b8a18474356425f9944ef0a7ae82236157"
 
 RPROVIDES:${PN} += "qt6-labssharedimage-private-devel"
 

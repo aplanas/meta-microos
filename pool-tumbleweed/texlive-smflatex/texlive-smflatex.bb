@@ -10,10 +10,10 @@ deactivation of some features of frenchb. Includes smfart.cls, \
 smfbook.cls, smfplain.bst, smfalpha.bst, amongst others."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6svn58910"
+PV = "2023.209.1.6svn58910"
 
-RPM_NAME = "texlive-smflatex-2023.201.1.6svn58910-57.1.noarch.rpm"
-RPM_HASH = "c4bfb3b2234f4e4347ae2b63e7c491bc13b84e7bdcbbeeba81e92690d231d2631daa17feb433a9e0ae39482d306dd1c9b9db7f2d2275edf3d9f7619b11ffd144"
+RPM_NAME = "texlive-smflatex-2023.209.1.6svn58910-58.1.noarch.rpm"
+RPM_HASH = "f0f467c8d604c67f07ba5b6168c39f3982b00baa3eb998e67c1eef6f77c8278b9b89e5bd7c844235e6b73955c61972261f71f2baa88e97b4153c4843cb15c962"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-smfart.cls \

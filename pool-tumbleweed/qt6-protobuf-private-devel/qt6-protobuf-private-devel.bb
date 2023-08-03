@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6Protobuf that do n
 ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-protobuf-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "61c7c249bc080205083d84455ba408cf7ff32d25f647624aeeb3b5bd0b4dacf9ae9ae4a3944c9f925e33f20b36f8b1c2f1b8ed80b6fa943b5d6a881e7180f91f"
+RPM_NAME = "qt6-protobuf-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "4b2fec665cb87e1ccaa3c9797eab0895eb1e32d071901e34c495a9e57fa4e98535736c4bc12edfac6727d1e013b08d39f120002746b3f10d985cf131e43bf991"
 
 RPROVIDES:${PN} += "qt6-protobuf-private-devel"
 

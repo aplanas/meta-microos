@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Croatian Translations"
 DESCRIPTION = "YaST2 - Croatian Translations."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230714.966688ddd0"
+PV = "84.87.20230729.64eca7e0a1"
 
-RPM_NAME = "yast2-trans-hr-84.87.20230714.966688ddd0-1.1.noarch.rpm"
-RPM_HASH = "e38f172ba6eb5bc824c9d92a14337984e262c7964ffdf664a8b472abcedf75a01da6a2c7e8187ba5b2d35429586a43d05901d574383af50a36b5eb0b92a71f22"
+RPM_NAME = "yast2-trans-hr-84.87.20230729.64eca7e0a1-1.1.noarch.rpm"
+RPM_HASH = "3dbc3450fdc3c4fd2c2050b5143a73e56e82ecd76448b14241e2ec8a07bbfe906379f364e2a526f8ab9ae321d4183370f12b91e79dff4e19dd60b921800460ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-hr \

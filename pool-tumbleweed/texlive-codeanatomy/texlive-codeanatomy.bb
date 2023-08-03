@@ -7,10 +7,10 @@ Robert Sedgewick and Kevin Wayne. The package depends on expl3, \
 xparse, and TikZ."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4_betasvn65648"
+PV = "2023.209.0.0.4_betasvn65648"
 
-RPM_NAME = "texlive-codeanatomy-2023.201.0.0.4_betasvn65648-53.1.noarch.rpm"
-RPM_HASH = "e7836ffcf8d9e0fc8d1a6fdbadd644aa733dd357a497df6e3d9e8284a15eb6819b1f1f58cd2905ef3569db1ac67fecbc4b811e08446467b1929f3cd12acbd6ba"
+RPM_NAME = "texlive-codeanatomy-2023.209.0.0.4_betasvn65648-54.1.noarch.rpm"
+RPM_HASH = "69953a5221762d549494a366f00858d24d8df23d04527fc35316c572874d7e6ecad54fe7640f0d258ea4056779c2a5c04dde9335399c723a9cdca676bf939b61"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-codeanatomy.sty \

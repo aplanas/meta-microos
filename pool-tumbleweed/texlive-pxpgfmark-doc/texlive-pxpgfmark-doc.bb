@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pxpgfmark"
 DESCRIPTION = "This package includes the documentation for texlive-pxpgfmark"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn30212"
+PV = "2023.209.0.0.2svn30212"
 
-RPM_NAME = "texlive-pxpgfmark-doc-2023.201.0.0.2svn30212-53.2.noarch.rpm"
-RPM_HASH = "cf677496e37d0109303db63eea94618a7430a92d5e26931107abae9feda6a3cbae6f6a74e1f0610ea43593c853638242a295042ea536d0b0e1760919c88c737b"
+RPM_NAME = "texlive-pxpgfmark-doc-2023.209.0.0.2svn30212-54.1.noarch.rpm"
+RPM_HASH = "0e79613da426e02f0fe2c862958c66516f35199b9e7d8feefc1d8ce3aec0f748dd36eb1a3e26dcca9722ec4d4b56bcf19ec7cf58c400388bc51dcff00385d00d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pxpgfmark-doc"

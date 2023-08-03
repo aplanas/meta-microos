@@ -28,10 +28,10 @@ drawing packages make use of PGF/TikZ for their output. The \
 bundle supersedes and replaces the author's csvtools bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.2.32svn52663"
+PV = "2023.209.2.32svn52663"
 
-RPM_NAME = "texlive-datatool-2023.204.2.32svn52663-54.1.noarch.rpm"
-RPM_HASH = "00f14264ae1458d7f609652b7aed200c28637f4a1afa8f0d546d50d1dfa0008feff58020e1f5b0aa84fdc083942881bb5f2d7f11dcfd8ed328f0ec4d95021417"
+RPM_NAME = "texlive-datatool-2023.209.2.32svn52663-55.1.noarch.rpm"
+RPM_HASH = "43fc42c19362092407414c69579687d1890aecef69b7a59d661b55334c1a910e773756b237dd086cf62ce6585db9afc359912133390b7d4547fa730d91982b3f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-databar.sty \

@@ -2,26 +2,26 @@ SUMMARY = "The Standard Kernel"
 DESCRIPTION = "The standard kernel for both uniprocessor and multiprocessor systems. \
  \
  \
-Source Timestamp: 2023-07-11 06:23:11 +0000 \
-GIT Revision: 5ab030f1f07fd96746960bce337ec62fc11b6a9a \
+Source Timestamp: 2023-07-25 04:42:30 +0000 \
+GIT Revision: 55520bc826c5b1d40857ed0536eb87438cb95192 \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.3"
+PV = "6.4.6"
 
-RPM_NAME = "kernel-default-6.4.3-1.1.aarch64.rpm"
-RPM_HASH = "6c9738ea5ab504e25aff556d68edd76f255a1ca549b13175ed838aa765b35b3275857989689305a7bb9aabc82d11e7f778bc1c40d922f38627146acd68156670"
+RPM_NAME = "kernel-default-6.4.6-1.1.aarch64.rpm"
+RPM_HASH = "eeb032b9d8125c56758ca90c35e2f3703a961d3b5fdb415a5a1d89f7ed6df6805e3041005ec5389dad4d448f2245b505d04fbc91cdc5e41145df17690e31920e"
 
 RPROVIDES:${PN} += "kernel \
 kernel-base \
 kernel-default \
-kernel-default-6.4.3-1 \
+kernel-default-6.4.6-1 \
 kernel-default-aarch64 \
-kernel-default-base-srchash-5ab030f1f07fd96746960bce337ec62fc11b6a9a \
-kernel-default-srchash-5ab030f1f07fd96746960bce337ec62fc11b6a9a \
+kernel-default-base-srchash-55520bc826c5b1d40857ed0536eb87438cb95192 \
+kernel-default-srchash-55520bc826c5b1d40857ed0536eb87438cb95192 \
 kernel-preempt \
 kernel-preempt-aarch64 \
-kernel-srchash-5ab030f1f07fd96746960bce337ec62fc11b6a9a \
+kernel-srchash-55520bc826c5b1d40857ed0536eb87438cb95192 \
 kernel-uname-r \
 kmod-3c59x.ko \
 kmod-3w-9xxx.ko \
@@ -3274,7 +3274,6 @@ kmod-mos7840.ko \
 kmod-motorcomm.ko \
 kmod-motorola-cpcap.ko \
 kmod-mousedev.ko \
-kmod-moxa.ko \
 kmod-moxtet.ko \
 kmod-mp2629-adc.ko \
 kmod-mp2629-charger.ko \
@@ -6116,7 +6115,6 @@ kmod-sym53c8xx.ko \
 kmod-symbolserial.ko \
 kmod-synaptics-i2c.ko \
 kmod-synaptics-usb.ko \
-kmod-synclink-gt.ko \
 kmod-synopsys-edac.ko \
 kmod-syscon-reboot-mode.ko \
 kmod-syscopyarea.ko \

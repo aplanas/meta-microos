@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-clojure-pamphlet"
 DESCRIPTION = "This package includes the documentation for texlive-clojure-pamphlet"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.3svn60981"
+PV = "2023.209.1.3svn60981"
 
-RPM_NAME = "texlive-clojure-pamphlet-doc-2023.201.1.3svn60981-53.1.noarch.rpm"
-RPM_HASH = "e16c5214e2ae8406e94454f15fafda5ba8d378527081be29a2a16634f665b10fe2e7420109c980c90948b614beb3141a13bef816f2721f36001741337fb6e71e"
+RPM_NAME = "texlive-clojure-pamphlet-doc-2023.209.1.3svn60981-54.1.noarch.rpm"
+RPM_HASH = "13e03cad5f801c1fe0ef10e2f6ab19ba8311a909e439c9c02d5cd31f4efac7efa41804bbb250d8bc9f0bbe48d39516aa4525771f4ded8d10d8fd89e8fcb9fa6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-pamphletangler.1 \

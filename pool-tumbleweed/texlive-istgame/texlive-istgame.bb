@@ -10,10 +10,10 @@ package depends on expl3, TikZ, and xparse. The 'ist' prefix \
 stands for 'it's a simple tree' or 'In-Sung's simple tree.'"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1svn62946"
+PV = "2023.209.2.1svn62946"
 
-RPM_NAME = "texlive-istgame-2023.201.2.1svn62946-55.1.noarch.rpm"
-RPM_HASH = "8ca701c0e34da84c0b34846885536ea490b35fd1c1610fa396816ee44b2c018824cabf72cd6c0d3264064e082441fee6fff68b387be914d5513f06ef0db441ab"
+RPM_NAME = "texlive-istgame-2023.209.2.1svn62946-56.1.noarch.rpm"
+RPM_HASH = "85dd4e69538901c84f7feb917d9b7bc37d8c402bd1e248f20f57c329dc4e8b6fa1baf3d5c95f6875021466b2fc280f916c2f6cec835f8803e41f6576afcd11b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-istgame.sty \

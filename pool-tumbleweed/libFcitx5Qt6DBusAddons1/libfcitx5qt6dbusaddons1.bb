@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later"
 
 PV = "5.0.17"
 
-RPM_NAME = "libFcitx5Qt6DBusAddons1-5.0.17-1.3.aarch64.rpm"
-RPM_HASH = "1a2fd8d2a4d960f3c7a0c406c3117a5de90b4abac705426b99c6c866dee67a508981eeaff958be13c38c20f8c1aae6088d5d75bfdc4326fa242228d94dfe2cd3"
+RPM_NAME = "libFcitx5Qt6DBusAddons1-5.0.17-1.4.aarch64.rpm"
+RPM_HASH = "7489e9cd2ff82325eb521a2b7f27eb3cffc3d005ce9c45c7d35294d4ecb44bc7bf42d11d51124afb1f2ebde196db33da1ba73b6bcb543b5112c8ca9edd681e8a"
 
 RPROVIDES:${PN} += "libFcitx5Qt6DBusAddons.so.1 \
 libFcitx5Qt6DBusAddons1"

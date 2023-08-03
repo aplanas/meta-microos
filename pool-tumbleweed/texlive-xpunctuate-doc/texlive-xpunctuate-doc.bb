@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xpunctuate"
 DESCRIPTION = "This package includes the documentation for texlive-xpunctuate"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn26641"
+PV = "2023.209.1.0svn26641"
 
-RPM_NAME = "texlive-xpunctuate-doc-2023.201.1.0svn26641-52.2.noarch.rpm"
-RPM_HASH = "3443d73592b0309ceaa7d3750e9efcc62f935ccd800f5f66218e044fe2c46b14a9c18230fb944ed2f2d52c3c5ce3d41809e5cc6adc491fd187d33ae1e04d8267"
+RPM_NAME = "texlive-xpunctuate-doc-2023.209.1.0svn26641-53.1.noarch.rpm"
+RPM_HASH = "e22726eba236e318dc5ed8c416f33ca9dc2a9983105cc5f8fa418102fdb7f2d042fa6a7bfd00fce42e10e7eedcec1e8a8ffef0b42e6a9b81da78c94904c4c767"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xpunctuate-doc"

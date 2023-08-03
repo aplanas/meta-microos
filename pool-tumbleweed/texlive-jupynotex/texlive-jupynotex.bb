@@ -6,10 +6,10 @@ will convert the Jupyter Notebook format to proper LaTeX so it \
 gets included seamlessly, supporting text, LaTeX, images, etc."
 LICENSE = "Apache-1.0"
 
-PV = "2023.201.0.0.1svn56715"
+PV = "2023.209.0.0.1svn56715"
 
-RPM_NAME = "texlive-jupynotex-2023.201.0.0.1svn56715-55.1.noarch.rpm"
-RPM_HASH = "d3c879ca6ee8229d825a6e6714401d2bb634fd0e910da463e7cec8ab773c68185b1669c13460f6c3c2d0df5f7e5a409fd075d5c78224a5581d2b33d21e97ae66"
+RPM_NAME = "texlive-jupynotex-2023.209.0.0.1svn56715-56.1.noarch.rpm"
+RPM_HASH = "c090bc425bb4828cf42ef77fa56caea187181c53d573b076de9345c01e63a5b298bc1f9f1dd6597f3c5cb62a4ed32f2c5a10c4f539db468201e56d07748f7397"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jupynotex.sty \

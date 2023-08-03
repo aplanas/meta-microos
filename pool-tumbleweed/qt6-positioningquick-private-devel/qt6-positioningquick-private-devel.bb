@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6PositioningQuick t
 ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-positioningquick-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "1995b9ccc918fd449e2adae6d38814fe380b4fba922833c32bd2002c519ae4e070d214b0fb6a3e89fcc5ad4a7443634b2559b8763f675eddb9b8d6156b67d994"
+RPM_NAME = "qt6-positioningquick-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "dbd1b580009ce8332af158eb01069e5b85627b3fb5a0b4fae345db0baba4cc0eeb7d0e14532637e00b50bd568e7eaebc483e5ffc91cd8114b69d83beedef5dcb"
 
 RPROVIDES:${PN} += "qt6-positioningquick-private-devel"
 

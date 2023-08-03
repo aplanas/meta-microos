@@ -6,10 +6,10 @@ different sorts of arrowheads in the diagrams and in the text \
 create all arrows using PGF/TikZ, so as to avoid the problem."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn25777"
+PV = "2023.209.1.0svn25777"
 
-RPM_NAME = "texlive-tikzpfeile-2023.201.1.0svn25777-52.1.noarch.rpm"
-RPM_HASH = "5ca8ac5c8ae640edacf3d62062e8b09fe0f4b683a794cefd9d68c5c1d71d2d804ccfd9f53c098c70643787e90bf5f18472e113e66483fa788016728ee7343809"
+RPM_NAME = "texlive-tikzpfeile-2023.209.1.0svn25777-53.1.noarch.rpm"
+RPM_HASH = "ed233d0f1d151a58352fbc3e04e83d87b987726d103e83717e848f57054e50fbf4c27aea3309604be21141662c5e8edc36b7feec7ab1d017a5ab876131025655"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzpfeile.sty \

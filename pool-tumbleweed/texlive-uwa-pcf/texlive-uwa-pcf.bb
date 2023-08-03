@@ -9,10 +9,10 @@ default. The class works with XeLaTeX and LuaLaTeX. It depends \
 on the uwa-letterhead package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.1svn64491"
+PV = "2023.209.1.0.1svn64491"
 
-RPM_NAME = "texlive-uwa-pcf-2023.201.1.0.1svn64491-53.1.noarch.rpm"
-RPM_HASH = "2f5ee61752e2bdc253d1f3fb34c492ae0696669363c99fbf16957a19d82ace4fe7234096e1f1bd318b41506c3c4c6ff1562ed069ffc2da65b01d9dad5bc285d4"
+RPM_NAME = "texlive-uwa-pcf-2023.209.1.0.1svn64491-54.1.noarch.rpm"
+RPM_HASH = "526591cdafd1ac0bdd9ef191fe5a55866307d7acf8cee31fbb5774dcf84a5eb4635b373b045b3fa3a91b9403e3c025e52a9d1e67ea2107b91ade085694835abb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uwa-pcf.cls \

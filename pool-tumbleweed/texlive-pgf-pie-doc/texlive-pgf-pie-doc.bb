@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pgf-pie"
 DESCRIPTION = "This package includes the documentation for texlive-pgf-pie"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.7svn63603"
+PV = "2023.209.0.0.7svn63603"
 
-RPM_NAME = "texlive-pgf-pie-doc-2023.201.0.0.7svn63603-51.1.noarch.rpm"
-RPM_HASH = "d6ccd84301d3005159f3b0bf160802dffbe88d0b1b6d43300f36022f94fcd8b65dbf4d0de4ad7107bf7005d27d028c91b0049e74f4f2083218dd856de3dfb577"
+RPM_NAME = "texlive-pgf-pie-doc-2023.209.0.0.7svn63603-52.1.noarch.rpm"
+RPM_HASH = "77b5e4f75eac04b0053d02c83138fced8dad8d2bac077231c08ce480f2aa3bd294493b376deb0fad0f8b7556bc878d0c5964c46f651395f0f39e9b162bb83bda"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pgf-pie-doc"

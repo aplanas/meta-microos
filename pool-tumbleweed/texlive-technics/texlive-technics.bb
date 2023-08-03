@@ -5,10 +5,10 @@ typical word processor users. (Presentation is as if it were a \
 class; users are expected to start from a template document.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn29349"
+PV = "2023.209.1.0svn29349"
 
-RPM_NAME = "texlive-technics-2023.201.1.0svn29349-54.1.noarch.rpm"
-RPM_HASH = "7c1b20c2c3cb9b065c8e61f58dfe32a2c3b4e2e3327cc761ac80ab3757e10b401324ec16f1d5597e42f9ff67fd1f5f03d1f23f128a1703cf0a08fef1b56b5d89"
+RPM_NAME = "texlive-technics-2023.209.1.0svn29349-55.1.noarch.rpm"
+RPM_HASH = "47fb08e7160e2fce3d89527c5ef2f4a3cac4904aae9f5c945e223a907ef7a4b394c3f6d5f213ceb4546eca1642adcd7a0970a5537225643c386f262831b3c410"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-technics.sty \

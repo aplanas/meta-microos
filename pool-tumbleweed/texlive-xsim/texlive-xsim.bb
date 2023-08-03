@@ -4,10 +4,10 @@ solutions. It is the official successor of the exsheets package \
 and fixes/improves various long-standing issues."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.21svn61988"
+PV = "2023.209.0.0.21svn61988"
 
-RPM_NAME = "texlive-xsim-2023.201.0.0.21svn61988-52.2.noarch.rpm"
-RPM_HASH = "5884008edae5ce06c9982b18d31886920f9654d23afb1b8038012bb3ab6fb4cbddcf8adb4e0504103e510e5d2047025fa84d7598187858df9c8204ac7d46b560"
+RPM_NAME = "texlive-xsim-2023.209.0.0.21svn61988-53.1.noarch.rpm"
+RPM_HASH = "b60bf6087d327347d4f73bbc5169df6c762f06850efc968aabf4924ea4361c3b174e0d04e59ff7184e72212f1d69b6a3d5831e691c73864da0f79dbe7139ef58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xsim-manual.cls \

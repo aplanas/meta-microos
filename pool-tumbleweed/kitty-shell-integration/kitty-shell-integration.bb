@@ -2,10 +2,10 @@ SUMMARY = "The shell-integation file(s) for the Kitty terminal"
 DESCRIPTION = "shell-integration [bash,fish,zsh] file(s) for the Kitty terminal; this package can be installed on its own to provide file(s) instead of the full kitty package on remote systems."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.29.1"
+PV = "0.29.2"
 
-RPM_NAME = "kitty-shell-integration-0.29.1-1.1.aarch64.rpm"
-RPM_HASH = "aedd8f3eec621733b8d9dca9f4a1477a841ad24d704cdd2c3bd129fadca7ea315b6a49c7ecf376a4b3010cf605076fc69f8ebcec86062fb815384397f110d3b7"
+RPM_NAME = "kitty-shell-integration-0.29.2-1.1.aarch64.rpm"
+RPM_HASH = "8a0429c2425a68b97135fcacdbf485fca2d8e13a588e6125f1654cf5010ca668f2d951b093b663f6ce48d5b90df7dbca7fe80d4750011d96f4c30a89a793e60b"
 
 RPROVIDES:${PN} += "kitty-shell-integration"
 

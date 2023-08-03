@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-logical-markup-utils"
 DESCRIPTION = "This package includes the documentation for texlive-logical-markup-utils"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-logical-markup-utils-doc-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "c513e12302b468a9b966d06fb84809b9c2c457d74150a2f44adad574ebbaecc58ca14c8bd73e5c11a2fbb9cab6a264785eadcfbefe1bb8325c335ab1bae5398c"
+RPM_NAME = "texlive-logical-markup-utils-doc-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "c9b7cf81191dc26bc961fda1e8a43b92fa81740ba948373afaa1be77ac9870f96cdb3e57359c814e47f5a1e3c379500db23b5b7285b9336665b897a1b0af18ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-logical-markup-utils-doc"

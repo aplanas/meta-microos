@@ -6,10 +6,10 @@ ldirectord works with the heartbeat code (http://www.linux-ha.org/). \
 See `ldirectord -h` and linux-ha/doc/ldirectord for more information."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "4.12.0+git30.7fd7c8fa"
+PV = "4.12.0+git50.5c26404e"
 
-RPM_NAME = "ldirectord-4.12.0+git30.7fd7c8fa-1.2.aarch64.rpm"
-RPM_HASH = "d5a9d48b5fdf6198cff28e5244324444935863cb4b7f0a193f968d657af015773eb9dc4ecaaaebd7a0db4eb470970aa7b00de74177d8dc04572f7a8122ed20d6"
+RPM_NAME = "ldirectord-4.12.0+git50.5c26404e-1.1.aarch64.rpm"
+RPM_HASH = "0b66fec4f4697bb74559b711ea5f506c510ed617fc5e1a92bf2a435677b1a147299e0f6272cbb3144ad2e75bb6ce557e78a700b42edf444b79c285c5716ee102"
 
 RPROVIDES:${PN} += "config-ldirectord \
 heartbeat-ldirectord \

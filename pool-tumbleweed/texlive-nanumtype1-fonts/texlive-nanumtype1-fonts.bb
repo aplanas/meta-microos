@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-nanumtype1"
 DESCRIPTION = "The  separated fonts package for texlive-nanumtype1"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.3.0svn29558"
+PV = "2023.209.3.0svn29558"
 
-RPM_NAME = "texlive-nanumtype1-fonts-2023.201.3.0svn29558-54.1.noarch.rpm"
-RPM_HASH = "90b5c8f5cf60203f6dcd43088a24b8ec59f515193c6a35019772b8f9bc22aa014711b1f3a3d4bdd2b366dde436e23fe7cfce7a04edaa7b9928ac1b318d1e7d05"
+RPM_NAME = "texlive-nanumtype1-fonts-2023.209.3.0svn29558-55.1.noarch.rpm"
+RPM_HASH = "d80f7f15dd1070e840ab992865ad180af8b239b56f84f5a9e1492d639f40d23edda3eb2b069467eb8488896170ae0478d2b99a3c807e8f6798218af86f62f87b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

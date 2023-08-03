@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xcharter-math"
 DESCRIPTION = "This package includes the documentation for texlive-xcharter-math"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.36svn65686"
+PV = "2023.209.0.0.36svn65686"
 
-RPM_NAME = "texlive-xcharter-math-doc-2023.201.0.0.36svn65686-52.2.noarch.rpm"
-RPM_HASH = "bddda9f3d3b0f4aa754ad9b6949559b76d34eb762b851575fdc2d22db3e3920ec42e7f3ac906f2b993dd3d1d0615de67da34fee51ac94ebf52facfe660015b5e"
+RPM_NAME = "texlive-xcharter-math-doc-2023.209.0.0.36svn65686-53.1.noarch.rpm"
+RPM_HASH = "d914330702a7b4edf2f407adf6a8909a55bb185e9f5a5958a80617aed22fcbcee259fc42e7933a6c252cca6ead6922d603f0ba44c196fd3eb8f53e8a75d53524"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xcharter-math-doc"

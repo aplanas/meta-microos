@@ -12,10 +12,10 @@ in both screen and print. The fonts are available in both \
 TrueType and Type 1 formats."
 LICENSE = "Apache-1.0"
 
-PV = "2023.201.svn64400"
+PV = "2023.209.svn64400"
 
-RPM_NAME = "texlive-clearsans-2023.201.svn64400-53.1.noarch.rpm"
-RPM_HASH = "ed4ca7a1e904d6ecc16da800e618ebc5f1ff971492ee743029333036dfd50ab138a473d71c8623af3be54478af233175bce6bfeeb488a029a60c81b880f12fb4"
+RPM_NAME = "texlive-clearsans-2023.209.svn64400-54.1.noarch.rpm"
+RPM_HASH = "79e4d818fab073e6733c7529fbba0380ee2fdf20c16d13e22dda77756a5f924c59311247b2e3892ce7ddfb5a1c44a62e6fdba91caafe1951f63a24e44f404e59"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ClearSans-Bold-tlf-ly1--base.tfm \

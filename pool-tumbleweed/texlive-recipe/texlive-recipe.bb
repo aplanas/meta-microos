@@ -4,10 +4,10 @@ traditional: see 'sample output' under 'documentation'); the \
 class uses the Bookman and the BrushScript-Italic fonts."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.0.0.9svn54080"
+PV = "2023.209.0.0.9svn54080"
 
-RPM_NAME = "texlive-recipe-2023.201.0.0.9svn54080-53.2.noarch.rpm"
-RPM_HASH = "25e4223807370cf93a23c9f55ac7265df3eb849f1f2ed08f23e311917787593056248d5d6b31320bd0c4225ad4410b1b7add72d8d212181e1a1f344917d903bc"
+RPM_NAME = "texlive-recipe-2023.209.0.0.9svn54080-54.1.noarch.rpm"
+RPM_HASH = "bb962cd4fb5454349a854f5bfa231fbf7954953248014ab06d9686ae62209887a5c7882b6a6d6be2c172bc38c7228feab8d63089b62491574e2283ed543b52a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-recipe.cls \

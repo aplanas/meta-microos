@@ -4,10 +4,10 @@ community who typeset quantum circuits, using xy-pic package, \
 offering macros designed to help users generate circuits."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.2.6.0svn48400"
+PV = "2023.209.2.6.0svn48400"
 
-RPM_NAME = "texlive-qcircuit-2023.201.2.6.0svn48400-53.2.noarch.rpm"
-RPM_HASH = "f063d2ce75e2e690f387b9a00d6679012b4473e9944e42cd8ed351708e615d89aef005cacf2d49e3da6d06c48edfafba9ea2496dd4ba6996dc166d7380dcbf08"
+RPM_NAME = "texlive-qcircuit-2023.209.2.6.0svn48400-54.1.noarch.rpm"
+RPM_HASH = "834605c884c29be9ffb75f7b0e521f922a5779204124c8b6c9410e34564c8cbce5527f95b90a84551fb10dd34e0fc21033e72b2532614c3c16182978b7eb4241"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-qcircuit.sty \

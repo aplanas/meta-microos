@@ -4,10 +4,10 @@ colours using XeTeX's colour feature. The colours can be used \
 in bidirectional texts without any problem."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn29660"
+PV = "2023.209.0.0.1svn29660"
 
-RPM_NAME = "texlive-xecolor-2023.201.0.0.1svn29660-52.2.noarch.rpm"
-RPM_HASH = "1ab92cb49d9c486df1c0d675eb7805a09a2e1a9a6fb3d82829d7b25ac3c4569ff3a73a5bc82ea4d2d98f400943ebef43afd80eae593a90049d453793254ac9d3"
+RPM_NAME = "texlive-xecolor-2023.209.0.0.1svn29660-53.1.noarch.rpm"
+RPM_HASH = "faa31540e3249c9c816f23d0950b90fca2d81e947a58c3ebaa1d14ddbb0c9b40b4ae6023f57bf54ee62772d5ffedf6371dcbd0154acbf08b27b38808cc45a942"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xecolor.sty \

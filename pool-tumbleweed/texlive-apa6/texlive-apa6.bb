@@ -9,10 +9,10 @@ review. The class is a development of the apa class (which is \
 no longer maintained)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.34svn53406"
+PV = "2023.209.2.34svn53406"
 
-RPM_NAME = "texlive-apa6-2023.201.2.34svn53406-54.1.noarch.rpm"
-RPM_HASH = "4d86e7a4c967d244488bf90627b9c500482cc264a5880d9f83dd78e6d8310f7934febf34e8e15322e8853c35b71692bd9bc0eb46f070c6d279ca4546cca7380d"
+RPM_NAME = "texlive-apa6-2023.209.2.34svn53406-55.1.noarch.rpm"
+RPM_HASH = "0bacd122b7e09a9589d4743a4e15060273176f3ae47d232927ecb5f98abb2a6e2bb5800d0bd3f535004cef12db57e1f627bd46e6bf70c9ed7dedf0a388635ad7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-APAendfloat.cfg \

@@ -10,10 +10,10 @@ You can find usage examples for the OpenAI Python library in \
  https://github.com/openai/openai-cookbook/."
 LICENSE = "MIT"
 
-PV = "0.26.2"
+PV = "0.27.8"
 
-RPM_NAME = "python310-openai-0.26.2-1.7.noarch.rpm"
-RPM_HASH = "3547c9a730edaaa9bb5db8c2d2e7e6f61cd4c0a8be7a94c2d19903514f8d738d4e99a570be486a2ad5fbba605be582857ac685d34664e42fbdf87c01b4413a9c"
+RPM_NAME = "python310-openai-0.27.8-1.1.noarch.rpm"
+RPM_HASH = "d22aa06de6df03c2f35752441c2f2c36858bd7aea7e7db08fd9bdf6baacd67e7cab331221b28125a20d307ab77d2e0456a8cdcef0d32edd7c068273885e49a6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-openai \

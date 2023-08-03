@@ -11,14 +11,13 @@ scripting. But it is also possible to issue remote GMP/OSP commands \
 without programming in Python."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.2.0"
+PV = "23.4.0"
 
-RPM_NAME = "python310-gvm-tools-23.2.0-1.2.noarch.rpm"
-RPM_HASH = "0ee2f9ed5f177157c796a357f5c4e0eba981d2ebb592e1b870b2e1cf852548b30a378edb638697d4e4e0728290d0b265f95a61fc1858d813699243effc74536b"
+RPM_NAME = "python310-gvm-tools-23.4.0-1.1.noarch.rpm"
+RPM_HASH = "f7758399c681b55d6deea0f3ca175165802af2f34aaeb5c253a35bab477474160dcc67b95fa59da045da555d189b606d13865911be5b66e800aca4a014397c10"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-gvm-tools \
-python3.10dist-gvm-tools \
+RPROVIDES:${PN} += "python3.10dist-gvm-tools \
 python310-gvm-tools \
 python3dist-gvm-tools"
 

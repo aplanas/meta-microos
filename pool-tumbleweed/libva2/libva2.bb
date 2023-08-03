@@ -5,10 +5,10 @@ The library loads a hardware dependendent driver. \
 This is the core runtime library."
 LICENSE = "MIT"
 
-PV = "2.18.0"
+PV = "2.19.0"
 
-RPM_NAME = "libva2-2.18.0-2.2.aarch64.rpm"
-RPM_HASH = "48ef7243e50c42d482858b6b2bb1c4b2c88e529c4bc7ef9382fd069da652fef7c25aa1e422d24c10fec3dabf5be0bf3f5874e6d9b00451254d602bef419fe122"
+RPM_NAME = "libva2-2.19.0-1.1.aarch64.rpm"
+RPM_HASH = "d313f8c3e00e64e7d2de2735a6461f0a0159925ab8062397955d6ab3e94174f4450ea1850837674546cae75bb88c271bda19968c69a85e88929f2f7d28ce6aec"
 
 RPROVIDES:${PN} += "libva.so.2 \
 libva2"

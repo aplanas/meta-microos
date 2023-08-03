@@ -7,10 +7,10 @@ appendices contain a list of useful facilities not otherwise \
 covered in this document and a list of helpful resources."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "2023.201.1.1svn65714"
+PV = "2023.209.1.1svn65714"
 
-RPM_NAME = "texlive-yet-another-guide-latex2e-2023.201.1.1svn65714-52.2.noarch.rpm"
-RPM_HASH = "fd9e9d9142ed34bfd46c62cb1347083342f214a6eac407ae8080f154037a7ad3cdeed39013ee8b67a0d11afa9a3c01a08abc71453e8793aed9aae03f22b9a4f1"
+RPM_NAME = "texlive-yet-another-guide-latex2e-2023.209.1.1svn65714-53.1.noarch.rpm"
+RPM_HASH = "9ba00060a8ee3bce10d4edc4b527da2dd492d6cb7c467d83f72563deb8a4ab2d6c544fae40f721f24a65d4a7d378a2fac15cfc5c72cb90360b9c3a01b6ea60b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yet-another-guide-latex2e"

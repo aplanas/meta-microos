@@ -10,10 +10,10 @@ This package provides meson.build syntax highlighting support for \
 Vim/NeoVim."
 LICENSE = "Apache-2.0"
 
-PV = "1.1.1"
+PV = "1.2.0"
 
-RPM_NAME = "meson-vim-1.1.1-2.1.noarch.rpm"
-RPM_HASH = "4f102a25315f259ae36d125a26e94c51110109c16984c273b1cdbd1dab29b79fe41871f8039733149856eb80d463463737b7ea76402238da7d6f78b77ed07ec1"
+RPM_NAME = "meson-vim-1.2.0-1.1.noarch.rpm"
+RPM_HASH = "e114ab95a40bcf202c686e17009c768c27918deaedeb47eea6e49a3e7b04099ca363e8ce2ecea8d29878297f6cbe3b44aac0a4e4e729acea784db2df7b3bd24d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "meson-vim"

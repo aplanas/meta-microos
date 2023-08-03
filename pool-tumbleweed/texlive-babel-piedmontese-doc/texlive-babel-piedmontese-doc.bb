@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-piedmontese"
 DESCRIPTION = "This package includes the documentation for texlive-babel-piedmontese"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn30282"
+PV = "2023.209.1.0svn30282"
 
-RPM_NAME = "texlive-babel-piedmontese-doc-2023.201.1.0svn30282-53.1.noarch.rpm"
-RPM_HASH = "a248bf4ccac682bc6e3250ec8058b624c97adf6000bc3272acd47afe457494341d1f80de818b4252dd745f3c8c6e119144844f5526647546e10093b2af508d8c"
+RPM_NAME = "texlive-babel-piedmontese-doc-2023.209.1.0svn30282-54.1.noarch.rpm"
+RPM_HASH = "0f94194cd1c3cab7f1b0e296829c4848f62a6f93724a8707ced9f32a0ed83e6317bb93b368a14c9ffee535b1875bc24941de850407e4c9c9ecf63a9b16fbdd0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-piedmontese-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Chelsio network drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230707"
+PV = "20230724"
 
-RPM_NAME = "kernel-firmware-chelsio-20230707-1.1.noarch.rpm"
-RPM_HASH = "14ef1ce8a762c31c10d64c96acdc7d690642f2ab6f3678da1d4633ef17f7e143ae801afbb5a0ef6fbc7fac5393311bbb7a2db5de83ba403a95d414a15fe7cee3"
+RPM_NAME = "kernel-firmware-chelsio-20230724-1.1.noarch.rpm"
+RPM_HASH = "e8932ba83e23237ca012de73ced1a03f4e8f6541196a29c991b9f9dd2dbd692524807194d86ef29d297cdfd573887c5c94e89658dbb41f635fc7da9804cc0946"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cxgb3-firmware \

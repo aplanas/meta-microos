@@ -4,10 +4,10 @@ and visually appealing way. The package takes several options \
 to enable customization/finetuning of the visual appearance."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1.6svn65699"
+PV = "2023.209.1.1.6svn65699"
 
-RPM_NAME = "texlive-todonotes-2023.201.1.1.6svn65699-52.1.noarch.rpm"
-RPM_HASH = "da406db8c9221ea2e8115c318e99396f93468365bcd0e8e62aec695b60f4a66322548bebf68bc322912075d274cc4bbb9f2c4a49c3d94cdc3d073fd8d582a2d0"
+RPM_NAME = "texlive-todonotes-2023.209.1.1.6svn65699-53.1.noarch.rpm"
+RPM_HASH = "c3f53964ef3dc6995b490941e821e1bda207471c1a34bbede087a8ad7f47d30ea54892cfd3f85b4c8e376fa0a1d7d9ecb5e22efcc088377681a3224dd90b207e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-todonotes.sty \

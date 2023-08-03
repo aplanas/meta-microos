@@ -4,10 +4,10 @@ course that the author has give several times at the \
 Rijksuniversiteit Groningen (Netherlands)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn39026"
+PV = "2023.209.1.1svn39026"
 
-RPM_NAME = "texlive-latexcourse-rug-2023.201.1.1svn39026-54.1.noarch.rpm"
-RPM_HASH = "26834c71c31fac739a06488586c85589efdcae1afefea72753ba84de36e5318dadc63aa9af4a365f7e329a37c7605fa5bb909485d34ca2bc52fb1204c9449ca8"
+RPM_NAME = "texlive-latexcourse-rug-2023.209.1.1svn39026-55.1.noarch.rpm"
+RPM_HASH = "77964236716f1e0568f46f2e2947a7fad07d1cf84fdf0fa27ce404ad8692aa5c45082ba528a46346b6fcb27e239c5dde6a5c45468da1daf922ec0ba0ef176cfc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latexcourse-rug"

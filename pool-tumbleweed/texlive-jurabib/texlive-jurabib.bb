@@ -15,10 +15,10 @@ other footnotes are possible. Language dependent handling of \
 bibliography entries is possible by the special language field."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.6svn15878"
+PV = "2023.209.0.0.6svn15878"
 
-RPM_NAME = "texlive-jurabib-2023.201.0.0.6svn15878-55.1.noarch.rpm"
-RPM_HASH = "cbb2687302afb77a9e4b4f6b08c84786d2d81d550767dbb6c37f53dd6b2c73e6c4e4a540b5ab5dec96a92711851bad9dfb908852b5923ca2af1ddd25a912b9fd"
+RPM_NAME = "texlive-jurabib-2023.209.0.0.6svn15878-56.1.noarch.rpm"
+RPM_HASH = "1ba81c887c47836a94cd7a495344653114388489e9bdf07e275140d5b942de9a68f0c0723ba8221a6d706082d43ab0a9f9f426715be6ea1c625ea1441b18dc72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dajbbib.ldf \

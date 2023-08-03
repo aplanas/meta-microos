@@ -6,10 +6,10 @@ document in such a way that makeindex will sort the entries \
 according to the rules of the Greek alphabet."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn26313"
+PV = "2023.209.2.0svn26313"
 
-RPM_NAME = "texlive-mkgrkindex-2023.201.2.0svn26313-54.1.noarch.rpm"
-RPM_HASH = "d63cf77b55103842ea738fe0e9f11fe6ccff094cf5d20f65fa5436e375ab3dcc741137794bef029f7df62173b6b8eb2536909c4f8b35e8137cb94ee36cc46860"
+RPM_NAME = "texlive-mkgrkindex-2023.209.2.0svn26313-55.1.noarch.rpm"
+RPM_HASH = "8a3e0285b79464eb1a5dc32952644cf8eab17450d3d1381cc2ff4965268b253182eaf224b600b33f69f9283f6920b37988a38fab4ea192db7f15eca01a7025b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mkgrkindex"

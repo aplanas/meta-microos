@@ -4,10 +4,10 @@ and a vast set of gadgets and extras (capable of changing the \
 wing-positions, body-types, and more)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.0svn64199"
+PV = "2023.209.1.0svn64199"
 
-RPM_NAME = "texlive-tikzpingus-2023.201.1.0svn64199-52.1.noarch.rpm"
-RPM_HASH = "33f5b0fea96e09fc39032655f9b5bd3195290a57a16ffe036718af5e3b8ef2d9f37079c52b0c81413fb7f7a96d8e89e06c53b31e434711bff1605248b1a92f61"
+RPM_NAME = "texlive-tikzpingus-2023.209.1.0svn64199-53.1.noarch.rpm"
+RPM_HASH = "b2a9fb911ea14f3ad5c46033c66d8cdda67c1c83d439d3a612219036e8214b8eeceaaefae2b8fbbf0bab639ecf3f448b1d226a0d4b6bc9ab00aee31d495931c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzpingus-christmas.lib.tex \

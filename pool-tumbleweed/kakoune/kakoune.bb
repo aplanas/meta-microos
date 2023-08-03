@@ -3,10 +3,10 @@ DESCRIPTION = "Kakoune is a code editor heavily inspired by Vim. \
 It's faster as in less keystrokes, supports multiple selections and uses orthogonal design."
 LICENSE = "Unlicense"
 
-PV = "2022.10.31"
+PV = "2023.07.29"
 
-RPM_NAME = "kakoune-2022.10.31-2.2.aarch64.rpm"
-RPM_HASH = "ce109738b7788dbc118ab190737821011e169331246c85a49091054f635cca20af95f2b68f14f5e48eaa3364826ac1aa9ef26f0d1bdbacb4de30d12cc8ea367b"
+RPM_NAME = "kakoune-2023.07.29-1.1.aarch64.rpm"
+RPM_HASH = "a50ed13981c275476ddf9ceaba6f226fb1120c53396f74fb8a1da1237ac5219f268a6ffed2823b2a95f8e6f509196e357d2dd2290b837f303f2c1f64e05b142e"
 
 RPROVIDES:${PN} += "kakoune"
 

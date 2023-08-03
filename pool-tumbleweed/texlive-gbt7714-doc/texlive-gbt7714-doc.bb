@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gbt7714"
 DESCRIPTION = "This package includes the documentation for texlive-gbt7714"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.1.5svn64633"
+PV = "2023.209.2.1.5svn64633"
 
-RPM_NAME = "texlive-gbt7714-doc-2023.201.2.1.5svn64633-52.1.noarch.rpm"
-RPM_HASH = "7bdc5e6e6fda9bffe4f1bc83569286e3e7bd40f4c5c47c20d68baec52656c5b87d3acfb49a115f7828de4da885db9915a576adc07ec356f667abf4e8150770c2"
+RPM_NAME = "texlive-gbt7714-doc-2023.209.2.1.5svn64633-53.1.noarch.rpm"
+RPM_HASH = "5e21e9f63425ec0de7c0993e76ef212b390cfc00c7f605764c53e801eb03393f929ddc25da4e6ec977e8fbd2654d1f8c14b4656b0c06c13a11b4fd4c50c0f3cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-gbt7714-doc-zh \

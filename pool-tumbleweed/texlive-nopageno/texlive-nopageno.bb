@@ -9,10 +9,10 @@ but if you just want an empty page style on all pages then this \
 package will do the job."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn18128"
+PV = "2023.209.svn18128"
 
-RPM_NAME = "texlive-nopageno-2023.201.svn18128-54.1.noarch.rpm"
-RPM_HASH = "225dabf016d79b6130e178366650a64ba5d211bd443d593746572b53577243a85cfe5495335fbeb883689eb5b7ab14a555784f941e278128adb0528f30bf9562"
+RPM_NAME = "texlive-nopageno-2023.209.svn18128-55.1.noarch.rpm"
+RPM_HASH = "f65e5050254e7ab873f233aa43c76e47bf9826ea4ad2e016a24ca9c5aca465adc86b7301ec04cf7beac0417437b8912c4504ba85b3e2f632f9b17f38426ad00b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nopageno.sty \

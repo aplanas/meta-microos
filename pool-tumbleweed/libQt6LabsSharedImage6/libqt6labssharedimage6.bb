@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 LabsSharedImage library"
 DESCRIPTION = "The Qt 6 LabsSharedImage library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6LabsSharedImage6-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "a65635527db8607c691ed752b145c8ea3095f83d25876eab172e2e3c627c481a87f38eeab65fda6b3f49d17ca6e18f523d135127451549bebde864793bc1ac4d"
+RPM_NAME = "libQt6LabsSharedImage6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "8fc639c91bafd2266fa975bd2a5e814cf28a976161f7604f5f996c7e8bf75fa25dc0e7b33e52fe9678240757fa21554992a9ad296f5c98fe127528d47c257cff"
 
 RPROVIDES:${PN} += "libQt6LabsSharedImage.so.6 \
 libQt6LabsSharedImage6"

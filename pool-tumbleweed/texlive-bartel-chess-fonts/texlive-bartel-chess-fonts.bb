@@ -2,10 +2,10 @@ SUMMARY = "A set of fonts supporting chess diagrams"
 DESCRIPTION = "The fonts are provided as Metafont source."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn20619"
+PV = "2023.209.svn20619"
 
-RPM_NAME = "texlive-bartel-chess-fonts-2023.201.svn20619-53.1.noarch.rpm"
-RPM_HASH = "1ad3b4447d559dd0ff726d144af93711089dc96dd367da4f41a15c0d0f12fed624077e7f99a76c0b4bde7222f3a893073750332917b957d491cc656bdb736cd1"
+RPM_NAME = "texlive-bartel-chess-fonts-2023.209.svn20619-54.1.noarch.rpm"
+RPM_HASH = "d437f8c3f703f93064d3675bc0f297ae8e7c6763d78d2e8e9ef57287e2266920d3276c38fad0b65acbac397417141190e78add693e8255c9230a954b45579533"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fselch10.tfm \

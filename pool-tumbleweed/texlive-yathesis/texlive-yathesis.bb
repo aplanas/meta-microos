@@ -16,10 +16,10 @@ and specimen) and on Overleaf (template and specimen). Note: \
 The 'ya' in the package name stands for 'yet another'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.11svn66146"
+PV = "2023.209.1.0.11svn66146"
 
-RPM_NAME = "texlive-yathesis-2023.201.1.0.11svn66146-52.2.noarch.rpm"
-RPM_HASH = "fa4e2c385f2ac686f406bf350a6ceacb1357ef71dcfe731c87181f0048d5f05e747f4e64102ef4c29b887068135e6e81a55959d8a96ca113306d8e1aa1b2459b"
+RPM_NAME = "texlive-yathesis-2023.209.1.0.11svn66146-53.1.noarch.rpm"
+RPM_HASH = "bb3a705ba9065a88dad3f7a52c4cb792a4edd1fec623ecd6f1223f4f62b43029c5fb74cc761782a3bc6ac462bd1cbfb3867ccb7e4891c1c5e0e78380002526c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-yathesis-demo.sty \

@@ -9,10 +9,10 @@ customized. Different default styles are used in different \
 situations."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-biocon-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "2657dea403a93e74c325897c92a90043541b8252f8bcfc6aa69689844e8ec1ce48ba5af7c796eb9e2aee28a31ba4f81996f58081a8a42c2a9efa6d15a5204806"
+RPM_NAME = "texlive-biocon-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "0fda88867440c085aab49b56a3084092e7467306cdcefd528ddf7c69317c7f3eccb82ac0f329150e3b1baf5e107c8eed6ac4e9db4def96a654c73206bcf128e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-biocon-old.sty \

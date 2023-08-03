@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-starfont"
 DESCRIPTION = "The  separated fonts package for texlive-starfont"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.2svn19982"
+PV = "2023.209.1.2svn19982"
 
-RPM_NAME = "texlive-starfont-fonts-2023.201.1.2svn19982-57.1.noarch.rpm"
-RPM_HASH = "5cc6bd425f4208b9b21c24857bc515bd76eec0fece6e7834fd51be50d2093a0758b6588801f86158c4ea768bbf4e57d7c760c9954139446684b14f09401b98d8"
+RPM_NAME = "texlive-starfont-fonts-2023.209.1.2svn19982-58.1.noarch.rpm"
+RPM_HASH = "848a169571da4a1edeb4bdbb12e991c78a4d9a4ca189fa170ee3edccf27e2fc2679847cc08a76e4ddc0d607ba57eaa427d03bbf1fab0b2cfd8d932d8a689c609"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

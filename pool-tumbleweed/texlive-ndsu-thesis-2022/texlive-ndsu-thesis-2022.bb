@@ -14,10 +14,10 @@ extended samples illustrate these features and guide students \
 to use the class."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn63881"
+PV = "2023.209.svn63881"
 
-RPM_NAME = "texlive-ndsu-thesis-2022-2023.201.svn63881-54.1.noarch.rpm"
-RPM_HASH = "b6b257776deef256db5aa3dcea3aa901bd90c5fe70938874d1ce570044b173410dd6f93d4988d07be044bd7fe571964c39e080fe6bcd4ea54f81e822db214969"
+RPM_NAME = "texlive-ndsu-thesis-2022-2023.209.svn63881-55.1.noarch.rpm"
+RPM_HASH = "32907ef57449e714e69e870123b0af2883a0c6e25f58d8f1b053e4411b1960e9b7616bdf18ca25bac8d111cfee0061a1803d1ba1ce2de27236ba3462d0f8b7e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ndsu-thesis-2022.cls \

@@ -5,10 +5,10 @@ XSLT 2 styleheets generate the .dtx and .ins distribution files \
 expected by end users."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.19svn55218"
+PV = "2023.209.1.19svn55218"
 
-RPM_NAME = "texlive-classpack-2023.201.1.19svn55218-53.1.noarch.rpm"
-RPM_HASH = "03ee06bed0fcf73cab687d808db0f77a87d138180834d5f2499790090c4fa448e74399ea6acfbc6167bb3734668b6e49972ef7c2af86a33ddcd5dc7b1c677a98"
+RPM_NAME = "texlive-classpack-2023.209.1.19svn55218-54.1.noarch.rpm"
+RPM_HASH = "b172724c962b2042d036c8e2583d208f789cecb4bb8fc3a9ed4f2166065f2202fed925bd95b5909425db3aa6c98b6b8dd21896f07575e7c27d3f95bbf5d6a186"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-classpack.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 3DAnimation library"
 DESCRIPTION = "The Qt 6 3DAnimation library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt63DAnimation6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "3df55610879e0b462713dbb1ef7690313d6ff22d3aa4309563ba780c60ace2e66d8f8342943167a10762d4fa0274d04aaa9d6498f12a1b06de098a8bc990ade4"
+RPM_NAME = "libQt63DAnimation6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "de353e7dcb1579a0a3221d632b021e4623a5a9d9a4c6ff1da797ffbc5cd1fdb0aa065f005f22ab97054603d94819635eb4ee15dd42d8f151be93cd4a6cb108a6"
 
 RPROVIDES:${PN} += "libQt63DAnimation.so.6 \
 libQt63DAnimation6"

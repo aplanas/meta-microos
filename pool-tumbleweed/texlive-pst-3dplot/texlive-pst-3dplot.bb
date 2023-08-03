@@ -5,10 +5,10 @@ external data files, making this package a generic tool for \
 graphing within TeX/LaTeX, without the need for external tools."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.07asvn61615"
+PV = "2023.209.2.07asvn61615"
 
-RPM_NAME = "texlive-pst-3dplot-2023.201.2.07asvn61615-52.1.noarch.rpm"
-RPM_HASH = "b6c24b34db1d28dbcdf9abc1d4abe04191c842a673309ce1c45a9f0bc41ad66da2825a21262bbeb1e5f43c233b662091aa33fd1fbb3ffc8214f4ad4dc1660f1f"
+RPM_NAME = "texlive-pst-3dplot-2023.209.2.07asvn61615-53.1.noarch.rpm"
+RPM_HASH = "0ee53f1d3694213f961ec6b0ab3f124f5d7fee4d8a0d9698721e8e7aa14279f37c5162ac0b4b7822ee77184730d38bcaed7c6f221ae9f3bee6d5e9ae69c6077b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-3dplot.sty \

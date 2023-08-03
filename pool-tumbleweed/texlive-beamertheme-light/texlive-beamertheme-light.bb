@@ -3,10 +3,10 @@ DESCRIPTION = "The LaTeX package beamertheme-light provides an aesthetic and \
 minimal beamer style by redefining colors and fonts."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.0svn49867"
+PV = "2023.209.1.0svn49867"
 
-RPM_NAME = "texlive-beamertheme-light-2023.201.1.0svn49867-53.1.noarch.rpm"
-RPM_HASH = "a1fa227c072bd9eb1fe82f3882e0efb22a4745d87000ab3bdd9f7f29666c2ba969cfe9bd5f2ad6af31b66d886d9329d6cab570c13cab7673e0506281c3c1e3e9"
+RPM_NAME = "texlive-beamertheme-light-2023.209.1.0svn49867-54.1.noarch.rpm"
+RPM_HASH = "17a7616bcabe01a72df04f98a03288201db7d38dcd3a4849bc6c6f4a942ca427f1bb0f5941f2322b8856ab6414527dd626a6530529553f1db9cfc83b1ae03fdf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamertheme-light.sty \

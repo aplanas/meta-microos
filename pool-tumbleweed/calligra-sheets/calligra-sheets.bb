@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.2.1"
 
-RPM_NAME = "calligra-sheets-3.2.1-7.20.aarch64.rpm"
-RPM_HASH = "1afd77f88c52babdaf89e248a0a643236ac15b8a7a6814441c7697a5375931ac4a8bb4eb04da19689d730af8f0c5479ddda652fb597a02bdc5d6d04ff61be687"
+RPM_NAME = "calligra-sheets-3.2.1-7.21.aarch64.rpm"
+RPM_HASH = "9a603cd43a172230fe32046d42a5526253ed19038e0aff4a4ec16f48220106dc7b044fd78ce6ee0d4154cc08204d07a729dd7259b18a7dafc6bfd87fc4be5292"
 
 RPROVIDES:${PN} += "calligra-sheets \
 libcalligrasheetscommon.so.17 \

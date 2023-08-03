@@ -7,10 +7,10 @@ tikzpictures. A tabular-like environment is provided to produce \
 larger timing diagrams."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.7fsvn64967"
+PV = "2023.209.0.0.7fsvn64967"
 
-RPM_NAME = "texlive-tikz-timing-2023.201.0.0.7fsvn64967-52.1.noarch.rpm"
-RPM_HASH = "0e26ba726364ffa8f6275999539c52d9c5994f044905fb71ff1961d9e7fc3a486d0f7d50c4292e3b300aa3fc7d355aaa72cc3e83c889848e5af1124a92bcc5d8"
+RPM_NAME = "texlive-tikz-timing-2023.209.0.0.7fsvn64967-53.1.noarch.rpm"
+RPM_HASH = "46b8ac63c84e96e0613aba261a1c466cfe361970e42e8bb1926c16177a4d022d7d481447d64c967fed2b0a55174eaf0a4f78a28beb3eca64a22cfebe718a3778"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikz-timing-advnodes.sty \

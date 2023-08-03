@@ -7,10 +7,10 @@ package takes the tags and prints out corresponding Braille \
 symbols."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn20655"
+PV = "2023.209.svn20655"
 
-RPM_NAME = "texlive-braille-2023.201.svn20655-52.1.noarch.rpm"
-RPM_HASH = "a5192174399e524cfc45bbc0a693dfd5938bf7f94ee11772c0768eac95a140417aa6848fb5f0ddd07dc20da9e055b0dcd3e9356ef2f7fb71597e8487327110c1"
+RPM_NAME = "texlive-braille-2023.209.svn20655-53.1.noarch.rpm"
+RPM_HASH = "ff4ba980e64f43570cccbc6fe0260a8c70b91860c8acae7b7033c2b3c2bdc5a270e619b99a7d1108357ced773f111faffd37d1f3740e15f99e297273687431a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-braille.sty \

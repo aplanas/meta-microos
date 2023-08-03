@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-garamond-math"
 DESCRIPTION = "The  separated fonts package for texlive-garamond-math"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn61481"
+PV = "2023.209.svn61481"
 
-RPM_NAME = "texlive-garamond-math-fonts-2023.201.svn61481-52.1.noarch.rpm"
-RPM_HASH = "f18d38d28d712b4ae9e8768cb590e1551dacd2d865ca5a136f7f59d96f1ba45dfac40269e9f662fc1d25fbc27737bd2b0d6d3ebd90d7fda291fefb661567b24e"
+RPM_NAME = "texlive-garamond-math-fonts-2023.209.svn61481-53.1.noarch.rpm"
+RPM_HASH = "bb145109c7cf9b7d980c9e7c4f773669232468fba8d037b701a5f6f56a183a85f4d5141fcf217d1a8eec019e60f5bed6f4fd96d777f844ed797421484d481f07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

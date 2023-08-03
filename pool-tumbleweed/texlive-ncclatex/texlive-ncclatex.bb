@@ -8,10 +8,10 @@ loads many of the packages of, and requires the latest version \
 of the ncctools bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5svn15878"
+PV = "2023.209.1.5svn15878"
 
-RPM_NAME = "texlive-ncclatex-2023.201.1.5svn15878-54.1.noarch.rpm"
-RPM_HASH = "93911b9de1b23abe68aa5b4c9de3d9845d5a40b4f4f46167e5945dc76cb1d27105e541732ece8cb3033ae927011abb8a1e8a685635ebf3c88a6f71a49f268224"
+RPM_NAME = "texlive-ncclatex-2023.209.1.5svn15878-55.1.noarch.rpm"
+RPM_HASH = "99eb3d05bdccad16f39975c92f110052a9f2406383eee45dc606158225f3346d7a1a2659a089a89fe3f0551990077e16e4a5aeb1b148754cd843ac4073adbb53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cp1251-light.def \

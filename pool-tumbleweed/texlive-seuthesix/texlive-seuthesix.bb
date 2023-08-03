@@ -6,10 +6,10 @@ package which, according to the author of seuthesix, is buggy \
 and has not been maintained for some time."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.0.1svn40088"
+PV = "2023.209.1.0.1svn40088"
 
-RPM_NAME = "texlive-seuthesix-2023.201.1.0.1svn40088-53.1.noarch.rpm"
-RPM_HASH = "8695b3ce227cac593fd08d55a08affa2959677c54f7cb206a5b7d1886e1e5040664d3cbb4471e7d1a8e70422d5c73fecfd78665879b3cffad886a177a2f84d64"
+RPM_NAME = "texlive-seuthesix-2023.209.1.0.1svn40088-54.1.noarch.rpm"
+RPM_HASH = "b7df3583d0b024abf631f74688564e113ce5c49d1621b07f652deb45c8b31ad371dbb58270bd8fac9c32ba71f8b21bd3b85a31d3af8de717f7dabe18cea34236"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-seuthesix.cfg \

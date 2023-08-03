@@ -13,10 +13,10 @@ field for different claves, and to present all these fields in \
 a consistent way."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2.1svn43723"
+PV = "2023.209.1.2.1svn43723"
 
-RPM_NAME = "texlive-biblatex-claves-2023.201.1.2.1svn43723-53.1.noarch.rpm"
-RPM_HASH = "a79632cc480ada92228da9af58741ecd4ee1bb252bfdd0cf2ab3a293bad0126e6e567bdc14eac1a8304b03ece8e1535cb34abe0e4318e3f0a5f2514356a67ba9"
+RPM_NAME = "texlive-biblatex-claves-2023.209.1.2.1svn43723-54.1.noarch.rpm"
+RPM_HASH = "eb2b7b8fd27b1ec10af76e25ac89cd4f9adae1236e8f08c96ec7e0373a7e92b11b924d8983db1997f06a7204a39b92b185a947b2374990a6cbedfa0f4b1a848d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-claves.bbx \

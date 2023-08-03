@@ -5,10 +5,10 @@ PythonTeX package and requires pythontex.exe to be called with \
 the TeX file as the argument."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn47307"
+PV = "2023.209.1.1svn47307"
 
-RPM_NAME = "texlive-nucleardata-2023.201.1.1svn47307-54.1.noarch.rpm"
-RPM_HASH = "15cf4a7c1553a5e1c18981094c0a1c60b44e8523584ec806ea00efcbd2145a68933d976e100c9e3ae6a087934e6c21074cf6ccdf23d6fb0d9575d2e93700956f"
+RPM_NAME = "texlive-nucleardata-2023.209.1.1svn47307-55.1.noarch.rpm"
+RPM_HASH = "b98d3fbb2d6b5179f6f17b17f62bff0af4244052cca96c59ce9df87fd048f96a36c990d3cf680ff4ee5b8f0de0dcff08a53a9cab45c5b18d22f2b0a7b22ef733"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nucleardata.sty \

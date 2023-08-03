@@ -4,10 +4,10 @@ displays the sizes of the widths and heights of the margins, \
 header, footer and text body."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.svn47085"
+PV = "2023.209.svn47085"
 
-RPM_NAME = "texlive-context-layout-2023.204.svn47085-54.1.noarch.rpm"
-RPM_HASH = "5361d45b78c9b9d4f45f6f6f90beb6b99adb3286496701cfc91dc006029a124dd2e170f0e1ed010b97b6f0d2f56f0a30b5cf1fe3f1bf083b98a5c618842a9d26"
+RPM_NAME = "texlive-context-layout-2023.209.svn47085-55.1.noarch.rpm"
+RPM_HASH = "15941c685e5541a4413fead21ebdd39fb5d6a79c4ca0beb3eb9485dc8d3533c4fb6e9268fb194d5990123f5d2e3bfe51672a239472cb861aef3b6d278dfa1d26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-t-layout.tex \

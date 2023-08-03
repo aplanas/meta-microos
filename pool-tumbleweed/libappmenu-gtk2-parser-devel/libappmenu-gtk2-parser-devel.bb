@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.7.6"
 
-RPM_NAME = "libappmenu-gtk2-parser-devel-0.7.6-1.6.aarch64.rpm"
-RPM_HASH = "dd8ca81782dada34b998c1e0cbe032b7bb86c7b6cf338125cffa507aec36fed5e651506791d382b18ab735811d9206ec690a82d0429688c3f56d7b1ab8fe5555"
+RPM_NAME = "libappmenu-gtk2-parser-devel-0.7.6-2.1.aarch64.rpm"
+RPM_HASH = "2541ca5e7d7cced5c3f47eb11c6ed91aaa06db9690735c3db7ae4908df172f7eb80d6593a76d42f6505c4925954cb86d12831cb9a596ef49427a2c2ecf80b321"
 
 RPROVIDES:${PN} += "libappmenu-gtk2-parser-devel \
 pkgconfig-appmenu-gtk2-parser"

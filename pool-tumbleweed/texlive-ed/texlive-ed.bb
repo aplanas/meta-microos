@@ -6,10 +6,10 @@ annotations are shown for communication, and in publication \
 mode these are suppressed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.8svn25231"
+PV = "2023.209.1.8svn25231"
 
-RPM_NAME = "texlive-ed-2023.201.1.8svn25231-53.2.noarch.rpm"
-RPM_HASH = "52c1efb10d57e8df1d57a062b0690100a81d335dcb2d29d745839b5ee86a946c8d2620caf8eabc860f226a3bf4009e3ecf432c86bec632972061aeda76a68439"
+RPM_NAME = "texlive-ed-2023.209.1.8svn25231-54.1.noarch.rpm"
+RPM_HASH = "5857b79d9e4b26891a68544550281d14a82f4c1662cffb590681d41c03d6abb12cd0fe881f76cba9c6cd4b0268a44a8b684a4efcabbd36045f044a1b4f6d6788"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ed.sty \

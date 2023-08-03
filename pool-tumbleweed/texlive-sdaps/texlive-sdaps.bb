@@ -13,10 +13,10 @@ Range questions Layouting questions in rows or columns \
 Possibility to pre-fill questionnaires from LaTeX"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.9.10svn65345"
+PV = "2023.209.1.9.10svn65345"
 
-RPM_NAME = "texlive-sdaps-2023.201.1.9.10svn65345-53.1.noarch.rpm"
-RPM_HASH = "3df96f1bef045116b1da043b113da3e728b6ba934d27c82ce2a387fbd23525326b2b48b1da47bf5ba8cfc716530efae1da693cf758e380e99d25e4a58c5dbba2"
+RPM_NAME = "texlive-sdaps-2023.209.1.9.10svn65345-54.1.noarch.rpm"
+RPM_HASH = "b1f6815a7bd34992e3f2f8003df28b31dca5af8fca3b2e95c845ef87d16dd17a6d7bed6ea5a3ff75a6b33d119f6e57b77994e0ae2d73136341087cc4f6d1f3aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sdapsarray.sty \

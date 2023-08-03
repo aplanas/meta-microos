@@ -3,10 +3,10 @@ DESCRIPTION = "The package defines commands and an environment for displaying \
 pixel arts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1.0svn65649"
+PV = "2023.209.0.0.1.0svn65649"
 
-RPM_NAME = "texlive-pixelarttikz-2023.201.0.0.1.0svn65649-51.1.noarch.rpm"
-RPM_HASH = "06bc86089c77346248371ac481810a83a7b590703f8cd3e7a8bc80b29ea20b63e1254e3dc5ee7e8cef85bbcbdf6531392aac97b0328e670015f569c64de65e88"
+RPM_NAME = "texlive-pixelarttikz-2023.209.0.0.1.0svn65649-52.1.noarch.rpm"
+RPM_HASH = "55a86412c6cac30c9eb8e72704fbd36aa55e96e134815c34803bcae9efb6e4b37ab6442be64e57b34752ecf3c2932b91b55c36cf1631702d5fc7464b5c95b65b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-PixelArtTikz.sty \

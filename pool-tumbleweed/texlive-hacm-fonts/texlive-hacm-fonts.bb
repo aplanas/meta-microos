@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-hacm"
 DESCRIPTION = "The  separated fonts package for texlive-hacm"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn27671"
+PV = "2023.209.0.0.1svn27671"
 
-RPM_NAME = "texlive-hacm-fonts-2023.201.0.0.1svn27671-53.2.noarch.rpm"
-RPM_HASH = "89b68a9d4de39fb1fed7be7e367db21c9420dbcc76dc5dd732fadffcbd1e1775654362638526b1f449a6f3d29701f984667d9e6225a25daea01761ee59a7d55c"
+RPM_NAME = "texlive-hacm-fonts-2023.209.0.0.1svn27671-54.1.noarch.rpm"
+RPM_HASH = "ee8fcfa9c711e946828dfd25edd483863982db5387e83622d678f92f2a9df066f2293d2d5e33052a2afb4de9b98a270dfa4a179c63fa987ef30850ea11ac92d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

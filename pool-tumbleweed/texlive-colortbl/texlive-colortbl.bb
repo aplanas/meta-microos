@@ -3,10 +3,10 @@ DESCRIPTION = "The package allows rows and columns to be coloured, and even \
 individual cells."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0fsvn64015"
+PV = "2023.209.1.0fsvn64015"
 
-RPM_NAME = "texlive-colortbl-2023.201.1.0fsvn64015-53.1.noarch.rpm"
-RPM_HASH = "4ffad2066cbd2a3d78b009da9f52e1d6482dacfacc9af2b802b29dbbdd703c31f478bfe6c43c09190da02ef69f4b31bb77a2bb8a9a9ac3d752f1300899dec672"
+RPM_NAME = "texlive-colortbl-2023.209.1.0fsvn64015-54.1.noarch.rpm"
+RPM_HASH = "edb44e45fee4e762de905d145bb01eb2b52998ec264ff501dc5d6372661e3f2eb17c2a4a17025e8393e711c74963332326713625ce4a37ce6295a8b5bf3d9939"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-colortbl.sty \

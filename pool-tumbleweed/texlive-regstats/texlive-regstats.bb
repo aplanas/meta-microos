@@ -5,10 +5,10 @@ languages, insertions), and will compare the number to the \
 maximum available number of such registers."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0hsvn25050"
+PV = "2023.209.1.0hsvn25050"
 
-RPM_NAME = "texlive-regstats-2023.201.1.0hsvn25050-53.2.noarch.rpm"
-RPM_HASH = "d347cb2670f3d0325d81a86af0e81de04067a3a765bfca8e6c16205aaee22be65514ba953915fc4d92ff384e5789d80e6a0f09aed4366cca6db2f8597f4dd4b9"
+RPM_NAME = "texlive-regstats-2023.209.1.0hsvn25050-54.1.noarch.rpm"
+RPM_HASH = "84924f804d51635e31cee1778740ebef2b6407326a3e17a16b963601c17ac206a2eb36727f8e4becda376558d36e5c4f65967146d7828d05b5cdd0df55412aa8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-regstats.sty \

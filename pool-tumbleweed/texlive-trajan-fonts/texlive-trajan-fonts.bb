@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-trajan"
 DESCRIPTION = "The  separated fonts package for texlive-trajan"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn15878"
+PV = "2023.209.1.1svn15878"
 
-RPM_NAME = "texlive-trajan-fonts-2023.201.1.1svn15878-52.1.noarch.rpm"
-RPM_HASH = "8ef315610a286559cd98a9dfceec5412b392cdbf19b31971d23a0eab74191fb1f75dc591a31c1e4872aca572dd9f0e9c3f44e6014373c90aab9c35daf6ea62a5"
+RPM_NAME = "texlive-trajan-fonts-2023.209.1.1svn15878-53.1.noarch.rpm"
+RPM_HASH = "c5caa0937f830d3316c6e068db88153309d939855a6d91ec86a0608e54ad8b15e8f14311b275858492e86b81649d67425072671d1eb0fb3d7262bb5e9865af12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

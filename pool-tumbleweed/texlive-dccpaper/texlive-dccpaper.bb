@@ -8,10 +8,10 @@ for submissions to the International Digital Curation \
 Conference, beginning with the 2015 conference."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.3svn61763"
+PV = "2023.209.2.3svn61763"
 
-RPM_NAME = "texlive-dccpaper-2023.201.2.3svn61763-52.1.noarch.rpm"
-RPM_HASH = "bb9a5114fe2208af611348662203c41fd062c058532f66a1f6bc4c8ae2c1592ac661690fd435d364d1933ed8460c5eaa5665882668c4ba81f1f10896d6ea5a26"
+RPM_NAME = "texlive-dccpaper-2023.209.2.3svn61763-53.1.noarch.rpm"
+RPM_HASH = "10fb2059cb007188f2fcc2dfca521846e4143d989c35f8c8e36ab90aa552e2ae8919b6d6feeab3f6a2d49cb042a115f7efcf0be90b638979bd848acc6122aa96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dccpaper-base.sty \

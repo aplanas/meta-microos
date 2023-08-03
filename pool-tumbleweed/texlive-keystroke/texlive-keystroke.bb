@@ -3,10 +3,10 @@ DESCRIPTION = "A LaTeX package which provides macros for the graphical \
 representation of the keys on a computer keyboard."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.6svn17992"
+PV = "2023.209.1.6svn17992"
 
-RPM_NAME = "texlive-keystroke-2023.201.1.6svn17992-55.1.noarch.rpm"
-RPM_HASH = "2a8929c3bfe6298cd761106d696acb33b3805256d14851a68fc293e6b3bd01d3d0f11435e75825cf1141a834af0b446839ad45ce30420756207e31a4951ab309"
+RPM_NAME = "texlive-keystroke-2023.209.1.6svn17992-56.1.noarch.rpm"
+RPM_HASH = "ef0295d2ff2dfd5ee320f7acab79a28ec9c1cb0cda994328fe112875ee44964ce66ab30547701c17fc28a5940046d2f69cb365b57ab876c17689143e270e13d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-keystroke.sty \

@@ -6,10 +6,10 @@ access a specific character of a string, as well as determine \
 if the string contains numeric or integer data."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.204.2.2svn15878"
+PV = "2023.209.2.2svn15878"
 
-RPM_NAME = "texlive-coolstr-2023.204.2.2svn15878-54.1.noarch.rpm"
-RPM_HASH = "b6a71ed4e24c1612943505a91b42d042ad5f8aec2059148345b92629d708be91557981bf138b0ee755d43807ed342d26acc6abf20df2ea526bab37a15bcdd326"
+RPM_NAME = "texlive-coolstr-2023.209.2.2svn15878-55.1.noarch.rpm"
+RPM_HASH = "b4b5c4f95e3ef1ed3e734af6f5e45d7cefb507b3c9ea45bde693fb4c553e6a03194d68f6480626799124f2ce7dd03ff9bcdf1174f84895b15385825eea170efe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-coolstr.sty \

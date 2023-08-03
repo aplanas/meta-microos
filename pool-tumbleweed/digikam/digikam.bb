@@ -7,10 +7,10 @@ that enables you to connect to your camera and preview, download, or \
 delete your images, is provided."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "8.0.0"
+PV = "8.1.0"
 
-RPM_NAME = "digikam-8.0.0-4.1.aarch64.rpm"
-RPM_HASH = "3d39267947f608c128c83ae69302a0d04a00f2aa76a80fd6ca2cafe4981cf2fb056a72cd1cb2f1d0c8cb698780b00237ce41b530dfef952696bdf763f8eb9eed"
+RPM_NAME = "digikam-8.1.0-1.1.aarch64.rpm"
+RPM_HASH = "17565947849e0c288376021ed106879dabab253170e24d2a10c362073fc86fe03ef4c069b1f7af7abdfc7f06a1c59d51010538e6767cae35422b9c4f2c39c299"
 
 RPROVIDES:${PN} += "digikam \
 digikam-doc \
@@ -34,9 +34,9 @@ libQt5Sql.so.5 \
 libQt5Sql5-sqlite \
 libQt5Widgets.so.5 \
 libc.so.6 \
-libdigikamcore.so.8.0.0 \
-libdigikamdatabase.so.8.0.0 \
-libdigikamgui.so.8.0.0 \
+libdigikamcore.so.8.1.0 \
+libdigikamdatabase.so.8.1.0 \
+libdigikamgui.so.8.1.0 \
 libgcc-s.so.1 \
 libstdc++.so.6"
 

@@ -11,10 +11,10 @@ more even typographical colour when typesetting proper nouns \
 and initialisms."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64857"
+PV = "2023.209.svn64857"
 
-RPM_NAME = "texlive-playfair-2023.201.svn64857-52.1.noarch.rpm"
-RPM_HASH = "51952e9b3a27d365d9022047133d47919cb8b853d8406a2da52b69e623ca0916603e3633be6b954e49da032cb5467070cdb7c4b308be4dcfdf9a8a55260f63d6"
+RPM_NAME = "texlive-playfair-2023.209.svn64857-53.1.noarch.rpm"
+RPM_HASH = "a071893ad2d21ce76a3e29dee817bc932909bce6ecf857b98d7fd2ec381e0476056e5f5efb3a2d1b6868aa4b95f93ee7a6cb08ce9b992c0f66ab371c0587a348"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1PlyfrDisplay-LF.fd \

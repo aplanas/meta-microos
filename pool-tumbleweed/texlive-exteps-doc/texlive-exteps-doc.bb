@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-exteps"
 DESCRIPTION = "This package includes the documentation for texlive-exteps"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.41svn19859"
+PV = "2023.209.0.0.41svn19859"
 
-RPM_NAME = "texlive-exteps-doc-2023.201.0.0.41svn19859-52.1.noarch.rpm"
-RPM_HASH = "f0b3ef4e5825b32b9192561deb231f2438d3a9ba46e9a796ee887f886f222fcb45356b03a2d55293033a72719d5ec2b83d939736ec9eb5b54014b4246de766f0"
+RPM_NAME = "texlive-exteps-doc-2023.209.0.0.41svn19859-53.1.noarch.rpm"
+RPM_HASH = "2e82d6a049b51bfca1f5dea14b570275a59b9e5c30a5e429aa94c579eea441af5e431f08037a25392b94349c17d1b7d7a6a19ef05f7727a5387ba97a38159fc8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-exteps-doc"

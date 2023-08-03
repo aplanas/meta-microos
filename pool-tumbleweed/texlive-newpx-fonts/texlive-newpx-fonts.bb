@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-newpx"
 DESCRIPTION = "The  separated fonts package for texlive-newpx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.505svn61806"
+PV = "2023.209.1.505svn61806"
 
-RPM_NAME = "texlive-newpx-fonts-2023.201.1.505svn61806-54.1.noarch.rpm"
-RPM_HASH = "16b82d7273acd688cdcf5bb9233b0128df369ddef6a0198d2dc268d91afb4cd4a89cae0db19cff890bb1493b5e769f93c342e107f36c5a2afa01b8142b195e4e"
+RPM_NAME = "texlive-newpx-fonts-2023.209.1.505svn61806-55.1.noarch.rpm"
+RPM_HASH = "0f6f6ff582006a79b57ddbbf518026eefb6f38e950bfaf0b889ca80e17f2a6c54d9d4cf82f9f6a47b90f963553513d10e83992838ef547a9dce711aabdb02bd7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-newpx-fonts \

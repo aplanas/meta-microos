@@ -5,10 +5,10 @@ are defined, as well as translations to Portuguese of standard \
 'LaTeX names'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2tsvn59883"
+PV = "2023.209.1.2tsvn59883"
 
-RPM_NAME = "texlive-babel-portuges-2023.201.1.2tsvn59883-53.1.noarch.rpm"
-RPM_HASH = "f13f1f82eefd97c8b8c13e87db4e687fdfb1de6563bed881799ab28a9a6737a360c5712457c39870f98f39f9f3710556492687eee7070a5afcbff1b27cb8fd22"
+RPM_NAME = "texlive-babel-portuges-2023.209.1.2tsvn59883-54.1.noarch.rpm"
+RPM_HASH = "4c619868b77a09093211bd06f3179251fa383841514b8a7a3a8208ede7fe7d776ab39f5e7ffe2a4abdd514b94c1142a8b22b7b550b6c9e94a0603e3f1eb2406b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-brazil.ldf \

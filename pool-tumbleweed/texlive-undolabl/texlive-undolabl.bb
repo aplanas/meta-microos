@@ -3,10 +3,10 @@ DESCRIPTION = "The package allows the user to override existing labels (for \
 example, those generated automatically)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0msvn65846"
+PV = "2023.209.1.0msvn65846"
 
-RPM_NAME = "texlive-undolabl-2023.201.1.0msvn65846-53.1.noarch.rpm"
-RPM_HASH = "71d1d078f6cd6e7e41002cd839ed025f390b0b33a95ed525f7e9e15ba06361300014948e441210f55f28d96c2a6f53ceec0fe2fad4efc9906aaf50ae433cfaa5"
+RPM_NAME = "texlive-undolabl-2023.209.1.0msvn65846-54.1.noarch.rpm"
+RPM_HASH = "18a874b79fd1846cba62d63789873280efd3417836b25306854bfcc25b339a6b12c7bf2a408a7108b339a89160ed0f6f602840d36de6c6dda873dfa1b9e650ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-undolabl.sty \

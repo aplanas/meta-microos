@@ -7,10 +7,10 @@ shown in an example file. A style file for writing SBL student \
 papers is also included."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.14svn63639"
+PV = "2023.209.0.0.14svn63639"
 
-RPM_NAME = "texlive-biblatex-sbl-2023.201.0.0.14svn63639-53.1.noarch.rpm"
-RPM_HASH = "741c61e0ac3175ec4293cb10065d38927e17bd14fd6568acbbdf3e5c38ecfa2ee85bd466a350105120e6a7dcd8ae176a19264ef12f885f9f353426d86555f255"
+RPM_NAME = "texlive-biblatex-sbl-2023.209.0.0.14svn63639-54.1.noarch.rpm"
+RPM_HASH = "7f817fd9f10a5ab29a6ba4dd048bdae8365f39802477f1115eb3d6b2159e406e1b975a70f11e0f0317c5b781b5f7b5516fc9ac625dc03be845ed567fab98f822"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-american-sbl.lbx \

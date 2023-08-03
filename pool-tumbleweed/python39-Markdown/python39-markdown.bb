@@ -6,10 +6,10 @@ on what exactly is supported and what is not. Additional features are \
 supported by the [Available Extensions][]."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.4.3"
+PV = "3.4.4"
 
-RPM_NAME = "python39-Markdown-3.4.3-2.1.noarch.rpm"
-RPM_HASH = "b192718046971d5b764275cc4ae2df8462079ead95af0812f08a21a78a36d2e8e24b96cf43f3c22d8b244585d2ff6e62dcca30c9e97d283a13b76b373224241f"
+RPM_NAME = "python39-Markdown-3.4.4-1.1.noarch.rpm"
+RPM_HASH = "8d5b783b094cad9954d44e4935243f0a99b7c3527da60e0e2a3e8f03b923d1719bba6b259fdab34eafa85ebe860f8b55f15cb7d82f18c7359033b2816d978a24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-markdown \

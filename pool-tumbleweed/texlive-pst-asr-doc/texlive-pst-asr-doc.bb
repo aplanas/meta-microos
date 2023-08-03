@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-asr"
 DESCRIPTION = "This package includes the documentation for texlive-pst-asr"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn22138"
+PV = "2023.209.1.3svn22138"
 
-RPM_NAME = "texlive-pst-asr-doc-2023.201.1.3svn22138-52.1.noarch.rpm"
-RPM_HASH = "da0c75eb641ff32576aa2f7a4de690b20026f57d55bc0ead7d4904a736f17d736b9cf95c92a00bc5e1c8399867f719a0ba98857e5b0bb454e04ffb9d294c1e61"
+RPM_NAME = "texlive-pst-asr-doc-2023.209.1.3svn22138-53.1.noarch.rpm"
+RPM_HASH = "6c9f4fbe3a92591f6ec871baf992153e71c28e4d25ea6991d6c4f198efd412bcc85e745f055df5a6acd9099624d3fec7f02f0527102c5dabb1ec5514f254060c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-asr-doc"

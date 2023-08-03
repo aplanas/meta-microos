@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6Coap that do not h
 ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-coap-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "e99ebb84c7efccb77b4b218005de0bdb9f5db6620cb30f007cda2c0f75804543c7e39a716e634bca66ad905955dc6646ccb7a2e9915c41b34797a31a54916d66"
+RPM_NAME = "qt6-coap-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "56e14cd1173201abef0e6e7dcd724eff9c65c258568e506586232d12bda88e1e9df3884d915d7f8077b88528b774077da2f95ebc12961e4b13f5c3aad33be41f"
 
 RPROVIDES:${PN} += "qt6-coap-private-devel"
 

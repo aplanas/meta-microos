@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-newcomputermodern"
 DESCRIPTION = "The  separated fonts package for texlive-newcomputermodern"
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.201.4.4svn66327"
+PV = "2023.209.4.4svn66327"
 
-RPM_NAME = "texlive-newcomputermodern-fonts-2023.201.4.4svn66327-54.1.noarch.rpm"
-RPM_HASH = "1e86e377aa907ad6201fe73ffdaca2cc56130f94d22e9ba5427ee570d13f7336d11eb59c7d84795ced6e1a174ab05963733b48d62ab05a42ca67e0a78f0ed2cc"
+RPM_NAME = "texlive-newcomputermodern-fonts-2023.209.4.4svn66327-55.1.noarch.rpm"
+RPM_HASH = "eb5646bf96f3c8bbf870ee748bf927ab81d5d8485a00c2ab7d26444f010048fe028efbe1545febef063c2db97e355e893fe1d4b53535d1ea3feff97d08ae0835"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

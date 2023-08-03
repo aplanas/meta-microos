@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.5.0"
 
-RPM_NAME = "libvirt-daemon-plugin-lockd-9.5.0-1.1.aarch64.rpm"
-RPM_HASH = "f760bcdb48d0285b20a7c42b7d8608e9d9037bac07bdcc952f17cbe3116823488626481f93c540ad84fc532646acbbbd5e23e87932db56eddfdc3c08f7669a2f"
+RPM_NAME = "libvirt-daemon-plugin-lockd-9.5.0-2.1.aarch64.rpm"
+RPM_HASH = "9be75cebafbc70ec505f39858bc6153e98d878a4a83a0b55a8c30f3a50471bea76bdcbc2c1e86f683062d0eb356490f947d6d7d12a2b6a37f7f1c36abb587c00"
 
 RPROVIDES:${PN} += "libvirt-daemon-plugin-lockd"
 

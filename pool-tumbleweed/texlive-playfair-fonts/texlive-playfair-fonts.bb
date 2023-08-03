@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-playfair"
 DESCRIPTION = "The  separated fonts package for texlive-playfair"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64857"
+PV = "2023.209.svn64857"
 
-RPM_NAME = "texlive-playfair-fonts-2023.201.svn64857-52.1.noarch.rpm"
-RPM_HASH = "89b31abd0ca7d0629df7465f1d657564c0c4c9f3c7228f76fee852d367546e089c338480d7aab603d278e498af4e47ff26812b9122eb56ccc688c4ee37012105"
+RPM_NAME = "texlive-playfair-fonts-2023.209.svn64857-53.1.noarch.rpm"
+RPM_HASH = "10cfda54fdcd0c2106560020cdcc9b96cb7aee5be71ea42c9a76a2b11ffc4cb11acb33b6d72260c8a828a5a0b4bbd94589ea7f87c4234436b0f6e641c33a25e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-playfair-fonts \

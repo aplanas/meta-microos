@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt 6 3DQuickAnimation library"
 DESCRIPTION = "Development files for the Qt 6 3DQuickAnimation library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-3dquickanimation-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "0a21c35b27eb999277609dd2e810bd8e5f2016be8478c0e9b62755aa3babe8bfe26ce14965e2bbe4160b25ac39b84dd28b73d43eaf636c6edbe255b65a1cf9df"
+RPM_NAME = "qt6-3dquickanimation-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "3ea13aeb64211ee6496446176d0f330f85153eb08773b1de6202aa985c7ffb1a0804c33069ce9067c4400aa79f5daff9fbb3fe7364d7dfcb318c39e819fbf5bd"
 
 RPROVIDES:${PN} += "cmake-Qt63DQuickAnimation \
 pkgconfig-Qt63DQuickAnimation \

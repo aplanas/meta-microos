@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.3.1"
 
-RPM_NAME = "libaudqt2-4.3.1-1.1.aarch64.rpm"
-RPM_HASH = "d15a8eddae4559f230cf6f4ba977bca36ea9c8babf6c1f8f7b61e616f63715427d4aba94acf39d8f4fbe3370bab4ce511255679ea15b2023a7729f1db9ea61a4"
+RPM_NAME = "libaudqt2-4.3.1-2.1.aarch64.rpm"
+RPM_HASH = "ec24869a0b6514f812def43b067be14ecbc6fbb2a588b7a2cdd905213ae515b5e39f801c1f7a05648c82ec8151e417806509c3abc5966d2581ba53c0de3b01de"
 
 RPROVIDES:${PN} += "libaudqt.so.2 \
 libaudqt2"

@@ -13,10 +13,10 @@ highlighting mathematics, and ntheorem, for specifying theorem \
 (and similar) definitions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn63514"
+PV = "2023.209.svn63514"
 
-RPM_NAME = "texlive-amsmath-2023.201.svn63514-54.1.noarch.rpm"
-RPM_HASH = "7dc36bc46f1f9648c843bf803a2362e04c0797c656cc02f0a1fa1745785862fdf8c194f7ae50485a07b7988a8af4b9105201f94b2c3d22d931ccbaa95c7df29d"
+RPM_NAME = "texlive-amsmath-2023.209.svn63514-55.1.noarch.rpm"
+RPM_HASH = "70fd41ecc98d36284034129bbc40e628db7025b6a0097031e1e2ca9c0b75c718caa8afd2240f834b91565efcb069ffbbe21330737a0450b953e6a59b5df9a8bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-amsbsy.sty \

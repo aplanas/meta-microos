@@ -16,10 +16,10 @@ the generation task to the topics of interest. \
 This package provides the shared libraries for pythia."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "8.307"
+PV = "8.310"
 
-RPM_NAME = "libpythia8-8.307-1.15.aarch64.rpm"
-RPM_HASH = "239ffb20c4332361bd7d1d615df07b6b2bdc4095334fb22177895be2dd08679880480c0cc7824850ebe5c7e6fb793885ae6fc00c719025c2d119e1cf8724c491"
+RPM_NAME = "libpythia8-8.310-1.1.aarch64.rpm"
+RPM_HASH = "416f08bb64f9901f2707adfd953116048e2447736cd4af0d2aee529a1e7d2bf523f827cc77f6fa485395dc7f9ddde78208cd40d52e1fe4f0f0c2eadbc3623b63"
 
 RPROVIDES:${PN} += "libpythia8 \
 libpythia8.so"

@@ -5,10 +5,10 @@ is less than, equal to, or greater than the second argument. \
 Sorting is alphabetic, using ASCII collating order."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn54265"
+PV = "2023.209.svn54265"
 
-RPM_NAME = "texlive-compare-2023.201.svn54265-53.1.noarch.rpm"
-RPM_HASH = "392f45f930b2718dd245869c3c4f31a185ead5a06754654ea6e85cf6fd40ca5b48858ef5318d169d442050fb628715064083b9ba88c7e81a049dd8a6fb15d934"
+RPM_NAME = "texlive-compare-2023.209.svn54265-54.1.noarch.rpm"
+RPM_HASH = "e1807ab3e3c13faa7c4d2bf9ff6551e57d800fc789c588ee29854ef9bb7476ee460e61752a8e7990d5fb6fa36179006da894818a51bf0a837729972e722b9045"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-compare.tex \

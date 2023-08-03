@@ -2,10 +2,10 @@ SUMMARY = "WebApp to redirect and manage mirrors"
 DESCRIPTION = "Mirror redirector web service, which automatically scans the main server and mirrors"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.060"
+PV = "1.061"
 
-RPM_NAME = "MirrorCache-1.060-1.1.noarch.rpm"
-RPM_HASH = "c20a56f4f67c739bb126ebbe010ee66b026f10af8a604c2674c976234e134363c81547d2addd221f1f5438f631e02ce88bfc1a4afea6db5d76f346d622ca3b9d"
+RPM_NAME = "MirrorCache-1.061-1.1.noarch.rpm"
+RPM_HASH = "51c64c2cd5e8b90d51218c932a8a048cb83a7b53f9affb3b002543f717cc35da535d051a7fa73aa46304a12ed1c5db3dff568bb685d648a29f6ddbeee86f33e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "MirrorCache \
@@ -101,6 +101,7 @@ perl-MirrorCache--WebAPI--Plugin--Helpers \
 perl-MirrorCache--WebAPI--Plugin--Mmdb \
 perl-MirrorCache--WebAPI--Plugin--Project \
 perl-MirrorCache--WebAPI--Plugin--RenderFileFromMirror \
+perl-MirrorCache--WebAPI--Plugin--ReportMirror \
 perl-MirrorCache--WebAPI--Plugin--RootLocal \
 perl-MirrorCache--WebAPI--Plugin--RootRemote \
 perl-MirrorCache--WebAPI--Plugin--Stat \

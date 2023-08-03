@@ -4,10 +4,10 @@ of Norwegian in babel. Some shortcuts are defined, as well as \
 translations to Norsk of standard 'LaTeX names'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0isvn65093"
+PV = "2023.209.2.0isvn65093"
 
-RPM_NAME = "texlive-babel-norsk-2023.201.2.0isvn65093-53.1.noarch.rpm"
-RPM_HASH = "eb5c735412924fd8265b1c979e1f6ce0a2b43c7b2b5880d117ec329d0da13a884d22b9f443f3526736493dcd0519c5a378442bbc02953a286637d34c1525d403"
+RPM_NAME = "texlive-babel-norsk-2023.209.2.0isvn65093-54.1.noarch.rpm"
+RPM_HASH = "fe88791d37d4091ee76947b70c69ef148289941ec587d8bacfa244c34a890348a47676ebaf6049ef0c2ac405e347aa205d6baa590d479810755cd939341e3f6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-norsk.ldf \

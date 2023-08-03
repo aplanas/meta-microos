@@ -5,10 +5,10 @@ This is useful for warnings such as 'Rerun for this or that \
 reason' or 'This is a draft, change it before the final run'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.01svn22028"
+PV = "2023.209.0.0.01svn22028"
 
-RPM_NAME = "texlive-warning-2023.201.0.0.01svn22028-53.1.noarch.rpm"
-RPM_HASH = "6d6cf0749d3e1bfcb768ff474d7c7b73994fca8419e400ea1fc062b97e01539fb0e4b0dfc7e357aa195f46f4365c753295d83dd10835c92b990235de722a7a3f"
+RPM_NAME = "texlive-warning-2023.209.0.0.01svn22028-54.1.noarch.rpm"
+RPM_HASH = "4e6f730419646e92728ae943a6b2ddfa9595ba52e5a62245cd2d6175f08b3d660052c2a6443b32ad69902ae4e4e5bd1e96da87fd9758fa0f575ab2028ec430b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-warning.sty \

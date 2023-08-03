@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Georgian Translations"
 DESCRIPTION = "YaST2 - Translations for Georgian."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230714.966688ddd0"
+PV = "84.87.20230729.64eca7e0a1"
 
-RPM_NAME = "yast2-trans-ka-84.87.20230714.966688ddd0-1.1.noarch.rpm"
-RPM_HASH = "da46b6cea6233e1bc1c9866c24b0dd281ca100698a4bcc5f7bd7f3f5d77abdcc95fc4c30ae7cae66ebe2ecdd444bd90558e45a9e4214df901f4dbb5b8f9abae4"
+RPM_NAME = "yast2-trans-ka-84.87.20230729.64eca7e0a1-1.1.noarch.rpm"
+RPM_HASH = "e192bd676f5633fdac4b00b32433cafc003fe7dda7ed3520f6ce1effee7f5d3306d3b237463fd5be36995237678864c2c95c8cb11d8610ea5dbde57f6288be9e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-ka \

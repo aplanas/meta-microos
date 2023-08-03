@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a simple beamer theme using the Nord \
 color theme."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2.0svn56180"
+PV = "2023.209.0.0.2.0svn56180"
 
-RPM_NAME = "texlive-beamerthemenord-2023.201.0.0.2.0svn56180-53.1.noarch.rpm"
-RPM_HASH = "136605e408ed856b8808240e038c0259030b2fcb1348280c6433ea7bfb674da74dc690ca71d22a375047fd11622682b1ffe95bfe0fb37f73aa8b04a4265c34f5"
+RPM_NAME = "texlive-beamerthemenord-2023.209.0.0.2.0svn56180-54.1.noarch.rpm"
+RPM_HASH = "63f091b68fc55eab9e48ea5caddd47e582ede9d9a768a264f3c373950e580ccd0279d4daa37bfe90c689bd03aec5e921169ee0b6a4228d5ea94ab019994cbff1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemeNord.sty \

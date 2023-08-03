@@ -4,10 +4,10 @@ graphics) data. This format has been specified by the W3C (see \
 http://www.w3c.org)."
 LICENSE = "Apache-2.0 & LGPL-2.0-or-later & MIT"
 
-PV = "2.56.1"
+PV = "2.56.3"
 
-RPM_NAME = "librsvg-2-2-2.56.1-3.1.aarch64.rpm"
-RPM_HASH = "cca0ef640397f6047da18c0a6902707106321cb5c4f9eb3bb5ae82c1abe74b5fd79b3a840abdfd1a86767508ecad2ec913180286d0b78fd98a405f91bbb4dff6"
+RPM_NAME = "librsvg-2-2-2.56.3-1.1.aarch64.rpm"
+RPM_HASH = "1c41209243cef12bb9cacd20e38f8b61a989aa43cccc90d580b27a8ee609bb3319710de7cc4eb91b079bbbc15cfded2110ae96b762c7984de57c24efc36d1fed"
 
 RPROVIDES:${PN} += "librsvg \
 librsvg-2-2 \

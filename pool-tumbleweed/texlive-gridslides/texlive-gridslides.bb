@@ -8,10 +8,10 @@ provided which compiles each slide separately, this way \
 avoiding long compile times."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1.1svn54512"
+PV = "2023.209.0.0.1.1svn54512"
 
-RPM_NAME = "texlive-gridslides-2023.201.0.0.1.1svn54512-53.2.noarch.rpm"
-RPM_HASH = "cfbaa57dac30ddd8e3ec06ea9622b54ec678a99c0dbac1a3a2c20d4e3a2c6fb992a9403765abf81502607ae2b947db0919e5b22e50d9f2ca18dbc5b01ab8e436"
+RPM_NAME = "texlive-gridslides-2023.209.0.0.1.1svn54512-54.1.noarch.rpm"
+RPM_HASH = "7869f79d6a21a583d964da8a0efec20feee1d864b82a60140ba8454371b1750c8f42f136e89995061a7d95703d0bc44cc4e6adde6696fb8b5685b3f259e64cd0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gridslides.cls \

@@ -5,10 +5,10 @@ and each level of subtree displaying one step in to the right. \
 The macros work equally well with Plain TeX and with LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.32svn42428"
+PV = "2023.209.0.0.32svn42428"
 
-RPM_NAME = "texlive-dirtree-2023.201.0.0.32svn42428-52.1.noarch.rpm"
-RPM_HASH = "b6688a23d0567ba4690c13af5a89e86d10482079362d4d1c9f7ad7c818191b452686af66ea5ffb42c143bb1f26204353ceaacd3f092b9f64652a510bf4421bbb"
+RPM_NAME = "texlive-dirtree-2023.209.0.0.32svn42428-53.1.noarch.rpm"
+RPM_HASH = "59c9f913214a687fdb4f75cd78432f83d27845902f0dfd10213c5f0bd722fca9fa90ad3de78e12099f3a369a13d59db2bfb5b837c28d92bb263bfbe389359f0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dirtree.sty \

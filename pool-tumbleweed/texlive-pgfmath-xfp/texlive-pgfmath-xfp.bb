@@ -11,10 +11,10 @@ meant as a temporary stopgap until a more dedicated solution is \
 available to use xfp in pgf."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn59268"
+PV = "2023.209.1.0svn59268"
 
-RPM_NAME = "texlive-pgfmath-xfp-2023.201.1.0svn59268-51.1.noarch.rpm"
-RPM_HASH = "3a99c06fdff3f110a1d66078059c2cc8a0120b8d29690fbe30f10ea5dde9f358f0251f8b1e21f6beca8d131d869754749cb36982fa20c3aaa4a068086ce6fb2b"
+RPM_NAME = "texlive-pgfmath-xfp-2023.209.1.0svn59268-52.1.noarch.rpm"
+RPM_HASH = "25d88934639df200fbb0406af8511c13d9bcfd4f83149150c46015065c0eb1942534fcc7f5f0ba0acade684657d3cfdf58eed73bfbb7e16cd69cde97fabeea27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pgfmath-xfp.sty \

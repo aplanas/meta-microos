@@ -6,10 +6,10 @@ preamble of your document will activate Cascadia Code as the \
 typewriter font (\\ttdefault)."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.0.1svn57478"
+PV = "2023.209.0.0.0.1svn57478"
 
-RPM_NAME = "texlive-cascadia-code-2023.201.0.0.0.1svn57478-52.1.noarch.rpm"
-RPM_HASH = "54b1250addac9aa147f894135ae27e531d28a1a6551bafcf19e5ccb0d1ebc914054dee6860a0cdb8efa2425173841418c83a07c94beda97871f89b4795eb5cc6"
+RPM_NAME = "texlive-cascadia-code-2023.209.0.0.0.1svn57478-53.1.noarch.rpm"
+RPM_HASH = "ec0d18ae416961e11b66e2c0466a2f0b612b2a177a94cfa22e37a1b2f59dfa2692ae7db63377b6ae555687e4aa836d872e43326ee7579b9ad36672238aaab64f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-CascadiaCod3-Bold-sup-ly1--base.tfm \

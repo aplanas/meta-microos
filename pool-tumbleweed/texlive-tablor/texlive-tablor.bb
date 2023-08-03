@@ -8,10 +8,10 @@ configuration of the language to be used in the diagrams. The \
 tablor package requires that shell escape be enabled."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.07_gsvn31855"
+PV = "2023.209.4.07_gsvn31855"
 
-RPM_NAME = "texlive-tablor-2023.201.4.07_gsvn31855-54.1.noarch.rpm"
-RPM_HASH = "8c96f82d6324cc7513f0fe10f555339792a1425d92c3afa50e4b779a5b8da6e9d1a072fdc71f92c158fd731c0bd65b1fc805b16416bfe9ecf79f993b08837d3d"
+RPM_NAME = "texlive-tablor-2023.209.4.07_gsvn31855-55.1.noarch.rpm"
+RPM_HASH = "c67f62851e8c8a227c83b816f271b4d0b469373e3e256b773eed677c8da55b12f42643cd3635e20eb39103eea6ef84fa01bb265041ef27b40d7a80cc091d6f54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tablor-xetex.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "Developed from the ancestor of the standard letter class, at \
 the Observatoire de Geneve."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.002svn54722"
+PV = "2023.209.3.002svn54722"
 
-RPM_NAME = "texlive-lettre-2023.201.3.002svn54722-54.1.noarch.rpm"
-RPM_HASH = "e13dd7ea888f860d83a50ac6e4db4a61a4eb19e31b765b829a2d84719c4d759d5069a621a274e250c77f0fe276fbb51fc52b4847a753de4f0cc71421df44660d"
+RPM_NAME = "texlive-lettre-2023.209.3.002svn54722-55.1.noarch.rpm"
+RPM_HASH = "e3c6d038945a3436c7fd84aba9df8ec3ff3e2d2177332de1266ca84cdb4a6ed9d881061561656c757c1edd8f25eafebb54284d85114b46b9c74f3ab139d78f20"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lettre-USenglish.ldf \

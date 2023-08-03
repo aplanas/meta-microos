@@ -11,10 +11,10 @@ Modern fonts have inspired many later families, notably the \
 European Computer Modern and the Latin Modern families."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.201.svn57963"
+PV = "2023.209.svn57963"
 
-RPM_NAME = "texlive-cm-2023.201.svn57963-53.1.noarch.rpm"
-RPM_HASH = "998929b97e570a6d5ed05311cf8d1599e9fea1cda4cc899a75acaa65c1012730406c165d371e3691de93f1a25fc25d06f5781a65b39d966b03801e3d311609a0"
+RPM_NAME = "texlive-cm-2023.209.svn57963-54.1.noarch.rpm"
+RPM_HASH = "9c09aeb64bf6a4599c739a85f045722b86a3d898dfbbca8fd11e8e3d3469fccf9c412d6c9a1a40bc19a97fa216912be7e70a45c294774f346b7c7924eb77ff4d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cmb10.tfm \

@@ -4,10 +4,10 @@ important for the infrastructure. Thus, this is not part of \
 scheme-infraonly or tlcritical, just a normal package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn62517"
+PV = "2023.209.svn62517"
 
-RPM_NAME = "texlive-scripts-extra-2023.201.svn62517-54.1.noarch.rpm"
-RPM_HASH = "219ebc68917f2aa44784eb54ca3190598d4809e8956d5c52e7058d3b9d1d1be2cb54b7e35401d2313fabea1cc022e670fa2c4a1adde215662d4dd7d333f15516"
+RPM_NAME = "texlive-scripts-extra-2023.209.svn62517-55.1.noarch.rpm"
+RPM_HASH = "1c4d233660a2ead77968c75a3378a3c90ca62b293621fac24c63abbbb0e2a3289c2b1b881d0e6c4def1f54880223c62ab07c0f23d39bc7a7166f2149fa6ec4fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tcfmgr.map \

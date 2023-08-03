@@ -5,10 +5,10 @@ rather basic, but should allow you to make your PDFs fully \
 PDF/A-compliant."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2023_1.2svn66395"
+PV = "2023.209.2023_1.2svn66395"
 
-RPM_NAME = "texlive-minim-pdf-2023.201.2023_1.2svn66395-54.1.noarch.rpm"
-RPM_HASH = "6aa83f6008f82ddb228236ba543c9839bf26f5e1d1efded3c2f3ceae34b6a64cf6749b2fae0c3a56aafd6640c1dd86270b789cfedd3dfcc47eb59ad80cbe25bd"
+RPM_NAME = "texlive-minim-pdf-2023.209.2023_1.2svn66395-55.1.noarch.rpm"
+RPM_HASH = "a3b20e29de5868747f002366ade3373781a9f5221a4a5848cd7506eace801b055deb1584cb9489d705994dc4c16e85b326aecc2aed7e0cb2a8861950c50bc0af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-minim-pdf.tex \

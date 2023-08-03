@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "0.6.0"
 
-RPM_NAME = "python310-pystache-0.6.0-1.18.noarch.rpm"
-RPM_HASH = "40faaacec5a726d4910a3f3f800bc2434c6a126c7331be55c89f2b4b95d54f51932dbadb640c13e0375f106888bc04c4e5e0ab4dd36cf919a569a335136a9636"
+RPM_NAME = "python310-pystache-0.6.0-2.1.noarch.rpm"
+RPM_HASH = "aeb363ffbed66a0bf64681be637a32af9733af56e68c066f03480c3b491a611a2d46e32065ad95cc096a488c10f203bac4f68e9efab7280396c70263eae01a31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-pystache \

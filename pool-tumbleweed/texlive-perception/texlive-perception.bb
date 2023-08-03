@@ -2,10 +2,10 @@ SUMMARY = "BibTeX style for the journal Perception"
 DESCRIPTION = "A product of custom-bib, provided simply to save others' time."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn48861"
+PV = "2023.209.svn48861"
 
-RPM_NAME = "texlive-perception-2023.201.svn48861-51.1.noarch.rpm"
-RPM_HASH = "5fd489e3e67a4206cb3d46f31236267e01c658b76351425b6fe1bf856ad10456d13c0debe662babb5b225957af729593501292851777a96551c5f58c81c6a9c8"
+RPM_NAME = "texlive-perception-2023.209.svn48861-52.1.noarch.rpm"
+RPM_HASH = "d975ce892a572e4aec3e235c051c86b3f6c814fdce8aaaf17fd452bcf260a54079189f0a922488be7d9cb82a607bb0c59c0fedba0e947875f8b5771aa6524f3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-perception"

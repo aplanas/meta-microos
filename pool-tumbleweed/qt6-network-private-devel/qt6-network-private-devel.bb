@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6Network that do no
 ABI or API guarantees."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-network-private-devel-6.5.1-4.1.aarch64.rpm"
-RPM_HASH = "7014437ab0f2d76b99fd5a5bc4bbed9420bc2aeebe3bcd7318a7d7a0e612b74b9ac69bfe02d030413b49283d2dc6f3130ca471234d1f3e13fb5847aac11b146e"
+RPM_NAME = "qt6-network-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "d22dc15b18a4df77761da3311a92c022e51a41a425b4fe09b21523532e209d617b65fb455d20ab90d85353836b042fed1864c8f0374802fd4cd9a6c74a87dcb3"
 
 RPROVIDES:${PN} += "qt6-network-private-devel"
 

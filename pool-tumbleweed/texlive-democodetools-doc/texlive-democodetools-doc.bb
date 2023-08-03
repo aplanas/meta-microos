@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-democodetools"
 DESCRIPTION = "This package includes the documentation for texlive-democodetools"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.1betasvn64314"
+PV = "2023.209.1.0.1betasvn64314"
 
-RPM_NAME = "texlive-democodetools-doc-2023.201.1.0.1betasvn64314-52.1.noarch.rpm"
-RPM_HASH = "96cfbecdf4ba8c0cd4eb4fb79f5b143a5412a5c4c68394b3e15e611d61fab79e4b10814de2b7ababc7f7dbe8ce243f17a57f00bcdd63c537b8cffed61f186c72"
+RPM_NAME = "texlive-democodetools-doc-2023.209.1.0.1betasvn64314-53.1.noarch.rpm"
+RPM_HASH = "5e8ef9468e22c3d6233feee3510731fd75340a98794c6cf870926e615d1d30de91dbea8586673f6e238134f17b37b0ca04c41a6643d3e2da80eb378cbcf267f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-democodetools-doc"

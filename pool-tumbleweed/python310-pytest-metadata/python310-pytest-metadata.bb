@@ -2,10 +2,10 @@ SUMMARY = "Pytest plugin for test session metadata"
 DESCRIPTION = "Pytest plugin for test session metadata."
 LICENSE = "MPL-2.0"
 
-PV = "2.0.4"
+PV = "3.0.0"
 
-RPM_NAME = "python310-pytest-metadata-2.0.4-2.3.noarch.rpm"
-RPM_HASH = "3a1b9774e623d9fdb6381fed947970b3907cc352e9e5608f16935996dac6531b361416c90bc391d653d119f565f009b99d54132f0a1f5acad63cf204c9dcafea"
+RPM_NAME = "python310-pytest-metadata-3.0.0-1.1.noarch.rpm"
+RPM_HASH = "d223a37ac7f87717d379f6816cea64ba30984cabc98a30fa861d29f61e8260b52f890123af73ab04ffd04dc6547e53daef97d5ce5e07d20ad34e6ddfc1bd8258"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-pytest-metadata \

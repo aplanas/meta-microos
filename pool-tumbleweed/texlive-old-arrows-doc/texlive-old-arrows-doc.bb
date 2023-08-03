@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-old-arrows"
 DESCRIPTION = "This package includes the documentation for texlive-old-arrows"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn42872"
+PV = "2023.209.2.0svn42872"
 
-RPM_NAME = "texlive-old-arrows-doc-2023.201.2.0svn42872-54.1.noarch.rpm"
-RPM_HASH = "a21bb6230f173c72c62366142485ac96a3511c7217023f8da98354e6b359b691a189cb27f7dce5ba7036f24fcf33b2b3a2f0f4bd459af6ce516b1d71d2975b82"
+RPM_NAME = "texlive-old-arrows-doc-2023.209.2.0svn42872-55.1.noarch.rpm"
+RPM_HASH = "bccd24bfc96f3104e3ef403d1e19b0d5c1fd1c0075c40ab704329c8422c5662ffb0fe26a3092b0a643533b2496ac60df1999f0cd87d626b21f58587e5efa8402"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-old-arrows-doc-it \

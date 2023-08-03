@@ -7,8 +7,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20230606"
 
-RPM_NAME = "libfsntfs-devel-20230606-1.5.aarch64.rpm"
-RPM_HASH = "b9fa7f02a93288aa508e217f054eecd984b0a1a132a878a27ea09e215df926807ca124d0addfb3900b47e42830f9f1e225cf99d2235c8e18987da4a14a7a0e5a"
+RPM_NAME = "libfsntfs-devel-20230606-2.1.aarch64.rpm"
+RPM_HASH = "b03c54eaf0788eed850532c861e1e94b1e7b1d788354f7f023c88eff4876604660da3ec2abde1f63d169df63c7c48f251ead26dcd6a2092114f67c4e144f97c7"
 
 RPROVIDES:${PN} += "libfsntfs-devel \
 pkgconfig-libfsntfs"

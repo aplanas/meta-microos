@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.3"
 
-RPM_NAME = "qemu-skiboot-8.0.3-1.1.noarch.rpm"
-RPM_HASH = "fa047ff4ece4e6e8ce9f4876146eedffb49ea1b47c5c5730bfef1a43266beaa35a165969e03026e4f5483e93f36a3f5f264df2b566bf6f04f8ad7e7f3bdad6b3"
+RPM_NAME = "qemu-skiboot-8.0.3-2.1.noarch.rpm"
+RPM_HASH = "10226753da3b20e5cbeb937d8af5834198cb316c61dea9c1814b0d9f94aeb64e4dee243800dc2108c927af855e7fbf434183278c958c5c63c848df01b1d80f00"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-skiboot"

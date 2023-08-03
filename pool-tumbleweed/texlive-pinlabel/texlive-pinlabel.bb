@@ -8,10 +8,10 @@ placed with automatic and consistent spacing relative to the \
 object labelled."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn24769"
+PV = "2023.209.1.2svn24769"
 
-RPM_NAME = "texlive-pinlabel-2023.201.1.2svn24769-51.1.noarch.rpm"
-RPM_HASH = "46aec843c285528a33a510e1a61052505855eec51c2d371722559fc21dfa06290a410a64ec040ed2324d1eac449907db879f7671fa7929e995c7189c215afc28"
+RPM_NAME = "texlive-pinlabel-2023.209.1.2svn24769-52.1.noarch.rpm"
+RPM_HASH = "a8378c469c471a9d969df1f87ce856a50433276711300eda9f9a5f29c34d225f6f752f33da4c70de29b6dc3b5065408312e4950fc156b731e5f16d60f6f4ce8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pinlabel.sty \

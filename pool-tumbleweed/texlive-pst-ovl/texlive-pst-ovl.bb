@@ -5,10 +5,10 @@ package requires pstricks, and shares that package's \
 restrictions on usage when generating PDF output."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.07bsvn54963"
+PV = "2023.209.0.0.07bsvn54963"
 
-RPM_NAME = "texlive-pst-ovl-2023.201.0.0.07bsvn54963-52.1.noarch.rpm"
-RPM_HASH = "bfe7c80e1c82ea8101d8e0f7818d48d4655b4bcb753beee3acd43385b11f15edaf3ebdeb70e5da3e01d20d6067d48288f9f0514b64e7483420002ac35705a23e"
+RPM_NAME = "texlive-pst-ovl-2023.209.0.0.07bsvn54963-53.1.noarch.rpm"
+RPM_HASH = "b0071a1bb128f0db77e86cb99dd12eac7aee2309929f33d1755f4d22750579812db0bc710b7bd59e7234b12756172985ff4934317542dcf0b3447b3740a32ca0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-ovl.sty \

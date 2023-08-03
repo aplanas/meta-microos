@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-chickenize"
 DESCRIPTION = "This package includes the documentation for texlive-chickenize"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.3svn57325"
+PV = "2023.209.0.0.3svn57325"
 
-RPM_NAME = "texlive-chickenize-doc-2023.201.0.0.3svn57325-53.1.noarch.rpm"
-RPM_HASH = "6f40eeaf24c58fae9f4c91067e1061194f69bc9a902634398066a328d7607f1e3d98dd77f309778072bddba184590eae2b358e6b431214d960e495b2ec0b20ff"
+RPM_NAME = "texlive-chickenize-doc-2023.209.0.0.3svn57325-54.1.noarch.rpm"
+RPM_HASH = "4c65fba3a6a05ffad31478976f9a119adb766f1aa4ab66be3ba61e84cbe02a3fcdbbaca7f601d9f61bfd86c8afe9e0b7147820070a7c0e741dfb2ae60056a126"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chickenize-doc"

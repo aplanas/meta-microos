@@ -6,10 +6,10 @@ of the amsath package: \\xlongequal, \\xLongleftarrow, \
 \\xlongrightarrow."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.201.1.2.0svn54400"
+PV = "2023.209.1.2.0svn54400"
 
-RPM_NAME = "texlive-extarrows-2023.201.1.2.0svn54400-52.1.noarch.rpm"
-RPM_HASH = "5c88d4bcfb5a47a45eea94b3f6dfb3f8673ae1313f1c830bdd67650f941d95d4fd17a74bf2debbb7abdc7313c5bb1f69368b8bc457d45c1d7a779cfaec3f9976"
+RPM_NAME = "texlive-extarrows-2023.209.1.2.0svn54400-53.1.noarch.rpm"
+RPM_HASH = "f55ae28d72c02ccb64588a8b90c8c5279c419b14ede6f5caa19580499961623bf41f735cae814f5816719decb574994d2d752817cbdaa6b1d900589bed6401de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-extarrows.sty \

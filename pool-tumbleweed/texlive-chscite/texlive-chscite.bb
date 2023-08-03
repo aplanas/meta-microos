@@ -5,10 +5,10 @@ at Chalmers University of Technology that follows given \
 recommendations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.9999svn28552"
+PV = "2023.209.2.9999svn28552"
 
-RPM_NAME = "texlive-chscite-2023.201.2.9999svn28552-53.1.noarch.rpm"
-RPM_HASH = "9f2c4e6f4055a7f3e6bdb9a6421b375f0d8fa7dc5d63f024f8e2b73c6ce9320ff48c83c88320f6e259eefcd485484277069bee856067b7937578ab8dc151b1e9"
+RPM_NAME = "texlive-chscite-2023.209.2.9999svn28552-54.1.noarch.rpm"
+RPM_HASH = "a7e7e2e795d859f62a67307037cff125bcbd1d87cc8d5943ef92f52451f4b958332bc6e1150313f1b500698499f6d16cf77fe37a96a036a954c2c6fb967e4e91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chscite.sty \

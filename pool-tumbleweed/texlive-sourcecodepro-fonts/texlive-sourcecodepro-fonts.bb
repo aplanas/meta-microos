@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-sourcecodepro"
 DESCRIPTION = "The  separated fonts package for texlive-sourcecodepro"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.2.7svn54512"
+PV = "2023.209.2.7svn54512"
 
-RPM_NAME = "texlive-sourcecodepro-fonts-2023.201.2.7svn54512-57.1.noarch.rpm"
-RPM_HASH = "0818f7dcdee334a5486f4d632d601552b9cc9cd1514987f91fe32ce8ccc74c53cf817011c6935b4d7a169eba94ce17ec0959b09645604de21182e090ac78239e"
+RPM_NAME = "texlive-sourcecodepro-fonts-2023.209.2.7svn54512-58.1.noarch.rpm"
+RPM_HASH = "26bd5e96ec5d7df39223ae5e9761f55a8a530f8f268ae004638f68e6446af89dd4be35748a092fa946f914889b15548a0f0d80b80e131c35e3d8df22616c5509"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-sourcecodepro-fonts \

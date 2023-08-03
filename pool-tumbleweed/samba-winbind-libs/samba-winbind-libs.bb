@@ -2,10 +2,10 @@ SUMMARY = "Winbind Daemon libraries"
 DESCRIPTION = "This package contains the libraries required by the Winbind daemon."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.3+git.303.c08b73d523c"
+PV = "4.18.5+git.313.c8e274c7852"
 
-RPM_NAME = "samba-winbind-libs-4.18.3+git.303.c08b73d523c-1.2.aarch64.rpm"
-RPM_HASH = "9f710f624db23b1522231ed230d9b2ea2fad36fd4a4f77f2de039ac15c2a2f7410515251c30ac2245f6907b5d86b525f238c5109d5f97c698c86ae2862d4ba75"
+RPM_NAME = "samba-winbind-libs-4.18.5+git.313.c8e274c7852-1.1.aarch64.rpm"
+RPM_HASH = "5b05b848667f57dda97b6c0384832fe44d2fb41630b799676bb0040a20cd07aea148015b8fc04294edc3ce7039abda2563e2c9d03a8223579e59228f3a0cebb9"
 
 RPROVIDES:${PN} += "libidmap-samba4.so \
 libnss-info-samba4.so \

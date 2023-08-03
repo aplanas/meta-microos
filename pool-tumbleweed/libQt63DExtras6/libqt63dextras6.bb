@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 3DExtras library"
 DESCRIPTION = "The Qt 6 3DExtras library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt63DExtras6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "e6a1bfb8ddb6f018463b842185b6e00c872781a95d2e76d414f336bc4b27dcce00e1a8875018d771c460a21d787336ffa00636abb52cf4b6a2216c5c30611336"
+RPM_NAME = "libQt63DExtras6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "3df4fef980a665d90a88ffaf291eb113f7863a4ef957637f8a85a0181fd59b1fe3ad39914a55a11e69c2e12e486f0b7cb3f3c3db3ae98a13e9b86fc57ec92ae9"
 
 RPROVIDES:${PN} += "libQt63DExtras.so.6 \
 libQt63DExtras6"

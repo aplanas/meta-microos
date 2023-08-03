@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides an environment bracketkey for use when \
 producing lists of species."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn17129"
+PV = "2023.209.1.0svn17129"
 
-RPM_NAME = "texlive-bracketkey-2023.201.1.0svn17129-52.1.noarch.rpm"
-RPM_HASH = "9cdfac034b0168fc5607f62e3628210367350d985c547133c03dcb246f2a6a5df06b65eda05643b7a35c306174285f708f1c4a70c50149febe4209bb805d5fb1"
+RPM_NAME = "texlive-bracketkey-2023.209.1.0svn17129-53.1.noarch.rpm"
+RPM_HASH = "2e78d6501b77c999b5c6842739720a7b609538d3b4da269c340a93a0b34044355aa79c48d734199559e066eb2223b7b4e10d7da49701ea1674e309c28171b8b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bracketkey.sty \

@@ -1,11 +1,11 @@
-SUMMARY = "Library files for lensfun/lensfun-devel"
+SUMMARY = "Library files for lensfun"
 DESCRIPTION = "Library files needed by the use the lensfun library/database."
 LICENSE = "CC-BY-SA-3.0 & LGPL-3.0-only"
 
-PV = "0.3.3"
+PV = "0.3.4"
 
-RPM_NAME = "liblensfun1-0.3.3-1.8.aarch64.rpm"
-RPM_HASH = "b595839755f0b0934de5834c19b17f5264c1e046514d05a9764e0cc816d1fb65299e7ec87444b39b1613e7d17a7048acc13d5d5aea08cefe12a2361690dd3e41"
+RPM_NAME = "liblensfun1-0.3.4-1.1.aarch64.rpm"
+RPM_HASH = "71c9c2137ee0e9bb144183e0ea29ec5dd44a6be872eb4f51efa733c857f330ae7f7e81013fa91f4d86870f3e4b85ea070e799c7838a8695a9bb10c8fede34bc2"
 
 RPROVIDES:${PN} += "lensfun \
 liblensfun.so.1 \

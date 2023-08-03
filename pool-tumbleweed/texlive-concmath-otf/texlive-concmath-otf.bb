@@ -5,10 +5,10 @@ a replacement for the original 'concmath.sty' package to be \
 used with LuaTeX or XeTeX engines."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.25svn65683"
+PV = "2023.209.0.0.25svn65683"
 
-RPM_NAME = "texlive-concmath-otf-2023.201.0.0.25svn65683-53.1.noarch.rpm"
-RPM_HASH = "2d130f1e0523fe41692c43274be9d2b441769f03f218af43bb077626f49540d911839740c34f446894e85b08f84eb05de89ad19363e5ac92d6b6ef2c76d93be2"
+RPM_NAME = "texlive-concmath-otf-2023.209.0.0.25svn65683-54.1.noarch.rpm"
+RPM_HASH = "eba077d8ee5a9cc057f82f7f6584f3ca3e4d4bddfe05d214e3290b2a80c6162e78f060a4cfc42e07a5fe9bd1b62c2d2cc0e4051d3875912fdbd5b39cf7461fdd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-concmath-otf.sty \

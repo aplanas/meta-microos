@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-bboldx"
 DESCRIPTION = "The  separated fonts package for texlive-bboldx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.032svn65424"
+PV = "2023.209.1.032svn65424"
 
-RPM_NAME = "texlive-bboldx-fonts-2023.201.1.032svn65424-53.1.noarch.rpm"
-RPM_HASH = "ea5156a170b6b22e10a6453e34e4c6e720c19b6d66fc57b4990f13832afe110c47e4837c3951b2d37b09fb5ca780d841942820574f943ca24fea920484e3473f"
+RPM_NAME = "texlive-bboldx-fonts-2023.209.1.032svn65424-54.1.noarch.rpm"
+RPM_HASH = "6ff25700fb57b4298bd0afb19558e971a2463f1f041f7fc8bcf0ea76d7f76394ea48ab7316407824c78ac019e49eba397ce66c1b44f5207c13dfccb82a390183"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=fj \

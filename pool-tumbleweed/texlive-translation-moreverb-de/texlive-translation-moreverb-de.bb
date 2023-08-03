@@ -2,10 +2,10 @@ SUMMARY = "German version of moreverb"
 DESCRIPTION = "This is a 'translation' of the moreverb documentation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn23957"
+PV = "2023.209.svn23957"
 
-RPM_NAME = "texlive-translation-moreverb-de-2023.201.svn23957-52.1.noarch.rpm"
-RPM_HASH = "fa8d96ca4beeb77ac89d247434cdcc09dd5e1c6a6a537a1cdb652546113a09ed551a56bd0ce4505428b99620d006965d54764d0493bf7858f16dc61d3edfbaee"
+RPM_NAME = "texlive-translation-moreverb-de-2023.209.svn23957-53.1.noarch.rpm"
+RPM_HASH = "54492b3656fb3cf59c4910b565e55e4784f5af85e6e7f980df6ca412ee52086394021d2100c7c4b56a3bb13d8e8eff5ae9eaab01409d39c47e24b79577e3c5cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-translation-moreverb-de"

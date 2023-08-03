@@ -5,17 +5,17 @@ design, said programs should work directly with the YAML files \
 themselves and not use these Python modules."
 LICENSE = "Apache-2.0"
 
-PV = "20220429"
+PV = "20221219"
 
-RPM_NAME = "artifacts-validator-20220429-3.2.noarch.rpm"
-RPM_HASH = "9f163a54552a92f5074e6edb1769e283e9ce91311284cd978b530c3ee3ff1d76cb1c8cee6e92352fb76d273333ce8db30a8e6c05d4de4c0c3251bd9eb766e88a"
+RPM_NAME = "artifacts-validator-20221219-2.1.noarch.rpm"
+RPM_HASH = "dc86397db392a9245ca6a151316659a36a832e909cf11f78eb2e6159df06bdee2ebcb73e6dd2d5256e5e7c8d3e5cb85d59f757cfcdd667dfe815cfb55220e7ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "artifacts-validator \
 python3.11dist-artifacts \
 python3dist-artifacts"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 artifacts \
 python-abi"
 

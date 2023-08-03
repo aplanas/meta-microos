@@ -8,10 +8,10 @@ author now considers the package obsolete, and recommends use \
 of csquotes in its place."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn15878"
+PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-quotmark-2023.201.1.0svn15878-53.2.noarch.rpm"
-RPM_HASH = "f04ea933927ddfe69b5a4b1920c6c6274f4c50f9093ccc19da0510ff00b950b713a668a7358bf2c56244a070ded302810a63eeb7f36cf90584f08c6403253f56"
+RPM_NAME = "texlive-quotmark-2023.209.1.0svn15878-54.1.noarch.rpm"
+RPM_HASH = "8d1fcea99de4a5a0b7f46930dcb5cd4838b3e140eef4b4ec48ba0ddb296d894e0af8957310840eb16c0111dde280892d1f7824903e5986dec28d3ab6642a14d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-quotmark-UKenglish.def \

@@ -3,10 +3,10 @@ DESCRIPTION = "Low-level API that expose network operations supported by underly
 hardware."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.14.0"
+PV = "1.14.1"
 
-RPM_NAME = "libuct-devel-1.14.0-1.2.aarch64.rpm"
-RPM_HASH = "a81b1d490a191188d88ab5ee7c5f1593c5db827497cec134eef748fcf5728327b854b2534428cca74cfdd6a66d8d939523a334fd885f25fe254de56791b19554"
+RPM_NAME = "libuct-devel-1.14.1-1.1.aarch64.rpm"
+RPM_HASH = "a5aa0871cb4b6a33809fb2ddb0f69b7e5d18ddc01848dd15d77a4ce69e24fa6b3838947b9073ebcb594c0dfc2a8556cf8209dfb0d7e27df21a0b7bb202a52fbb"
 
 RPROVIDES:${PN} += "libuct-devel \
 pkgconfig-ucx-cma \

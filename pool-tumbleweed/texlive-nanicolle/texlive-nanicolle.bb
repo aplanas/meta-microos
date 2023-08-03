@@ -10,10 +10,10 @@ ideas of identification/classification (taxonomy) and \
 collection."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.03ysvn56224"
+PV = "2023.209.2.03ysvn56224"
 
-RPM_NAME = "texlive-nanicolle-2023.201.2.03ysvn56224-54.1.noarch.rpm"
-RPM_HASH = "7f5f3d37d4baf33051dcf66bc3a91f13780537e0fc32acb2c78aaa14b3a82518b59d26e0a38f5775193b395746769664f3826fcc1a6bd786c88780785e96ea31"
+RPM_NAME = "texlive-nanicolle-2023.209.2.03ysvn56224-55.1.noarch.rpm"
+RPM_HASH = "1c6219d4029e7fbac0d5a49b5dc1a565bbb32d076bb7c99e1c6f0145349afaccb3e7660845888c9a5814f665d31f278af2cddfc0a13360462228ae0b1b9848f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nanicolle.cls \

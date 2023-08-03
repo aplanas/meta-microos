@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-miama"
 DESCRIPTION = "The  separated fonts package for texlive-miama"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.1svn54512"
+PV = "2023.209.1.1svn54512"
 
-RPM_NAME = "texlive-miama-fonts-2023.201.1.1svn54512-54.1.noarch.rpm"
-RPM_HASH = "a59153bf2bfe5e09d14b09bc5b8809a815ee30365b386f5f6113c299e0295c2ee9007f6c1b8ec4fd02c9f8ceaf03c61afb2e40c66625e0a6695fdf55bbb26491"
+RPM_NAME = "texlive-miama-fonts-2023.209.1.1svn54512-55.1.noarch.rpm"
+RPM_HASH = "051a018ac42bb3307e9467cdc58f2988d66ca20d54048129a1b1332344ff59dfb3dc58b26eaee5b7043733246d91648506d806a4b71d9ced1ee31a53c29a52f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-miama-fonts \

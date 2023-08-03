@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-nath"
 DESCRIPTION = "This package includes the documentation for texlive-nath"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-nath-doc-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "807acc7d60be0ccd61d7c8de089642e353aa6a4aed0bb37457e73aeffb9c6b8ba70d07e12296ddcd201861505f97cbf119c8b2fcd499c1eb891dc78af69036a5"
+RPM_NAME = "texlive-nath-doc-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "2db7928f33993149ebaba92e4b96ffd9c64ca767cb9262f0d978464cd22e87b174f06ffce86bae32ac939e64ae1a4d8021a542ad3293d26dbbcea8531db07836"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nath-doc"

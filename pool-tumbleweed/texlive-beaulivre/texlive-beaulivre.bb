@@ -10,10 +10,10 @@ on colorist.sty from the colorist package. The package name \
 'beautiful') and 'livre' (= 'book')."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn65475"
+PV = "2023.209.svn65475"
 
-RPM_NAME = "texlive-beaulivre-2023.201.svn65475-53.1.noarch.rpm"
-RPM_HASH = "9f3282666cbf8a2a0696b64c66c7885c7062c09f997554bd92e95b0679b05b6b60402012a18c53cfed9c79347f0881cd68cf9bfc64f0e5052154af18d4617bd6"
+RPM_NAME = "texlive-beaulivre-2023.209.svn65475-54.1.noarch.rpm"
+RPM_HASH = "f5ec13251fc1f987ebfdc9869f24cabaf1b9539cf4a6d7872c2fab2b53a19ddcdd17f4986ada2cd0ee646867c5ae447eba403c694a7fce5ecb43375158f9cdaf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beaulivre.cls \

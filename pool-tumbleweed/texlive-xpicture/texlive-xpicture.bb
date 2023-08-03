@@ -5,10 +5,10 @@ section curves, graphs of elementary functions and other \
 parametric curves."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2asvn28770"
+PV = "2023.209.1.2asvn28770"
 
-RPM_NAME = "texlive-xpicture-2023.201.1.2asvn28770-52.2.noarch.rpm"
-RPM_HASH = "93ad58c64d6b41d845c2dd1882e9ea44126ada497ea74bafa0e52cd02c16e5138dfe9cf0264d3b15f6e8718a966147752fbc7f8c6c7ece37c6336685c6e398c5"
+RPM_NAME = "texlive-xpicture-2023.209.1.2asvn28770-53.1.noarch.rpm"
+RPM_HASH = "59b02f64a1e83cba6c89f92d14eec8ea5d858f1d5bf9ee5eaac404c3cb3c41b84fdf4cf56e2b2e6a9fb0a38a040cef8d6491aa6a6c635febcb0baa11bf72aa84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xpicture.sty \

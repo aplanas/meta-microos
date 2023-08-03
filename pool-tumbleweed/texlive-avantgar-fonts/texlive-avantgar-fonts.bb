@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-avantgar"
 DESCRIPTION = "The  separated fonts package for texlive-avantgar"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn61983"
+PV = "2023.209.svn61983"
 
-RPM_NAME = "texlive-avantgar-fonts-2023.201.svn61983-53.1.noarch.rpm"
-RPM_HASH = "9c8073e0e772e1a7a6bbd59c0b35053a4eedbebe740bf0cfd01eaec01a640f58c8bd83f551d2086fd62faa9ba63d4a808750bf522b6869147e15caaf17d5b5ea"
+RPM_NAME = "texlive-avantgar-fonts-2023.209.svn61983-54.1.noarch.rpm"
+RPM_HASH = "93f4d3565b5bec4e927defbcdec3eec664e92effb910317b4ebaf9774b733cbc7dd32822defb81ded19501302303b5b9010489891848428d2dd5b2865ba0aa7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

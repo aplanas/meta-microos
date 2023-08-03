@@ -4,8 +4,8 @@ LICENSE = "ZPL-2.1"
 
 PV = "5.4"
 
-RPM_NAME = "python-zope.hookable-doc-5.4-4.3.noarch.rpm"
-RPM_HASH = "ff3b2227cb2d3471cbb8cbd74a6a2b3febbe626a9216dbb1d42bbf55aa5e8c3a1378badbe1bbb1c28e1f9077d18ce883a2da01c4fca68c3e4351cb601ea5586b"
+RPM_NAME = "python-zope.hookable-doc-5.4-5.1.noarch.rpm"
+RPM_HASH = "0e011fba469ecc7b9f4ba8551dd4c8375be974cc3011ae81828a5d70373f0d2379fe4f421c61ac761e6d30f19134ae08a924bc06438556e8ebca6731e5d23113"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-zope.hookable-doc \

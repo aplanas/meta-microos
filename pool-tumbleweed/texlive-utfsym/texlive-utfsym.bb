@@ -4,10 +4,10 @@ to be able to use them originally in a school setting such as \
 on worksheets."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.9.0svn63076"
+PV = "2023.209.0.0.9.0svn63076"
 
-RPM_NAME = "texlive-utfsym-2023.201.0.0.9.0svn63076-53.1.noarch.rpm"
-RPM_HASH = "ef6c87150406ef2effea816bcf811cecbf4779f0c24a383f3754706616f9f353e5491c733c8acd3ca75036fb15f1ef34a001dacd13b072edf7a29904fe452e97"
+RPM_NAME = "texlive-utfsym-2023.209.0.0.9.0svn63076-54.1.noarch.rpm"
+RPM_HASH = "d1c86ffac5eee615da1ddd928b0490d9a450098d72535e08e635fb3517d1fe34be4a3df774edfe071a3ce13d589af0fb23cb6605b1f76a2f6c0a8469d94b1184"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-utfsym.sty \

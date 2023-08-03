@@ -8,10 +8,10 @@ elements like markers, geodetic networks, bar scales, routes, \
 orthodrome pieces, and more are part of the package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.02svn56060"
+PV = "2023.209.1.02svn56060"
 
-RPM_NAME = "texlive-mercatormap-2023.201.1.02svn56060-54.1.noarch.rpm"
-RPM_HASH = "9ce4a2f5e08c1dbd82eb1fec1ef8cdea14e6b537a05d9f33a4c8b8738ce39ed88bdbcf84a44b862aa8ce56c98cecb3ff2e9dc79468abbcb3aa2e26c35bf41fbe"
+RPM_NAME = "texlive-mercatormap-2023.209.1.02svn56060-55.1.noarch.rpm"
+RPM_HASH = "9f46e0ad3b0b9ff8e6a1ce23116c9c322261443e1d8af12b42550168df27296779acfcb30456a20b951b73e7905eeef6b1c40ee446c81057aa0f523365bd8fd3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mercatormap.sty \

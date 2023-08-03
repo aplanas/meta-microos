@@ -4,10 +4,10 @@ provided by the `mock` package, but with the benefit of not having to worry abou
 patches at the end of a test"
 LICENSE = "MIT"
 
-PV = "3.10.0"
+PV = "3.11.1"
 
-RPM_NAME = "python310-pytest-mock-3.10.0-2.3.noarch.rpm"
-RPM_HASH = "b9b40d088ef612236b6f54cb9b47ce6479faa4a1292323ece176faf3301beb95b689a93ee1c5407f9fa369d09d74c96e1bd37303f8d1dca224a7628e27ea55c0"
+RPM_NAME = "python310-pytest-mock-3.11.1-1.1.noarch.rpm"
+RPM_HASH = "5e5192744c70ce3b7719b767e0c540f05580e9f41e36223c4134513b99ddc5688ca142626c58755a56786c85281ea5b23a49de9124eea763fc8308ccfaf85e8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-pytest-mock \

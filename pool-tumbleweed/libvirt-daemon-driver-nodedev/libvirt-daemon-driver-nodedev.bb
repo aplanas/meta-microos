@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.5.0"
 
-RPM_NAME = "libvirt-daemon-driver-nodedev-9.5.0-1.1.aarch64.rpm"
-RPM_HASH = "d5ea0a27070f68ee6e458d22e2326aa5b1bc1985dda60006758811da1d3dee23e7e9c1cc9265e00acdf1adeccd64bd90b2c1372c0883185df071025f14801e5c"
+RPM_NAME = "libvirt-daemon-driver-nodedev-9.5.0-2.1.aarch64.rpm"
+RPM_HASH = "ad745ddd5a7208f63358bc1a303a408a6b08795bbe1f75d18a9e0aa9b20fe0624bb5c851c2f6a253fbcee46ceb040e2c4440e04863b3295b002f24d4247ad4fe"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-driver-nodedev \
 libvirt-daemon-driver-nodedev \

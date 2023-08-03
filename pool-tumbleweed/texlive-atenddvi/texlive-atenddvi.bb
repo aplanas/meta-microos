@@ -9,10 +9,10 @@ because they are put into the last page. This is the main \
 difference to \\AtEndDocument."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.5svn56922"
+PV = "2023.209.1.5svn56922"
 
-RPM_NAME = "texlive-atenddvi-2023.201.1.5svn56922-53.1.noarch.rpm"
-RPM_HASH = "dba392604e6562f81846b9c49c159a225dc8c698929f61e514e4d3e9e6a043520681f85aac57e85095bdcfd657dbddd4bb76fff2d7c18dee9daecaa68c244700"
+RPM_NAME = "texlive-atenddvi-2023.209.1.5svn56922-54.1.noarch.rpm"
+RPM_HASH = "967d1eb09f33ca065c7e186895ea2a9397d9411573be6b22bf69a4f518ca2f2e76056607450072253e24f83576e40c0fa27565ac7b5ecc0df37cc4935e56b470"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-atenddvi-2019-12-11.sty \

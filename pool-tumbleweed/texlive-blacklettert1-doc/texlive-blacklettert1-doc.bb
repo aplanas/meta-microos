@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-blacklettert1"
 DESCRIPTION = "This package includes the documentation for texlive-blacklettert1"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-blacklettert1-doc-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "42c838a8d04a4708004ae07401100549f4ddc20c6c891628eacd34e0d99ed2f67eacf2fce891c9a318f5238ba42355814640e6eb0a5d93a9720fa5db7b45df8e"
+RPM_NAME = "texlive-blacklettert1-doc-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "795d87dd76e1748e407aade8ef0037db315acfc583ec530981f171ba7e12b16a26381524512f8d8e3a03693ebd7b77a4f68fa14eea441acac39a6723f838de31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-blacklettert1-doc"

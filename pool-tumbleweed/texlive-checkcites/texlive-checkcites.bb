@@ -4,10 +4,10 @@ of detecting undefined and unused references from LaTeX \
 auxiliary or bibliography files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.6svn64155"
+PV = "2023.209.2.6svn64155"
 
-RPM_NAME = "texlive-checkcites-2023.201.2.6svn64155-53.1.noarch.rpm"
-RPM_HASH = "ee51894c67ea630661a6e41c52f044d77595f44b800dbd9ab9596d761cf79a8013dade53ea282216985ea4528be19fe62187f8f024b6030414e3e0737460ed93"
+RPM_NAME = "texlive-checkcites-2023.209.2.6svn64155-54.1.noarch.rpm"
+RPM_HASH = "02cf34a18217cfc55eb1d6e42693aecd044280105c3c5a7257bf7bbf3b246854b69cff097a44fcdb0ab91c7fa04fbcc28379974ac3574f8bf79d054b11f71fdc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-checkcites"

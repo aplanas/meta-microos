@@ -2,10 +2,10 @@ SUMMARY = "Glib/gobject based library implementing a Genicam interface"
 DESCRIPTION = "This package contains arv-viewer, GUI application for aravis."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.8.26"
+PV = "0.8.27"
 
-RPM_NAME = "aravis-viewer-0.8.26-1.2.aarch64.rpm"
-RPM_HASH = "2edad50d10ee853f61462ced9c7f682d892505d32b9cfaf6188bd6fcef2841314417b915b2d222036177d1d47824d9b6369876148cc31229bb6f49db1b0d3562"
+RPM_NAME = "aravis-viewer-0.8.27-1.1.aarch64.rpm"
+RPM_HASH = "4c0e360e170d66d64d36b0fc0503ed87096c7ce395730b19ed6b0944bb3b9a02db8d910fd004b735ac498bee46cac9a04ad9c82919734c81379952d49daf7fc0"
 
 RPROVIDES:${PN} += "aravis-viewer"
 

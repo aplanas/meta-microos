@@ -11,10 +11,10 @@ environments) to facilitate the drafting of documents, in \
 particular those containing mathematical formulas."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.5svn64462"
+PV = "2023.209.1.0.5svn64462"
 
-RPM_NAME = "texlive-nwejm-2023.201.1.0.5svn64462-54.1.noarch.rpm"
-RPM_HASH = "024a4a641e9b6d3a84cef4fcb596dc2fe4048d686475d1c4cfb9b4fe0c98fce910d60ed3ecf564e98ad3be7200a8c9baabd8ecc051362d4e48000f4bc017f758"
+RPM_NAME = "texlive-nwejm-2023.209.1.0.5svn64462-55.1.noarch.rpm"
+RPM_HASH = "91ed0a095f789bb16707dfa1dfd8af0cd1a0f8b6c08a37c43bd51a69fb916721a235cbbc0555ddd969b8307baff4a3ed3420a8d844789ca752f3f4a8404b5335"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nwejm-logos-collection.tex \

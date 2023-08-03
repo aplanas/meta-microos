@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-gfsdidot"
 DESCRIPTION = "The  separated fonts package for texlive-gfsdidot"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54080"
+PV = "2023.209.svn54080"
 
-RPM_NAME = "texlive-gfsdidot-fonts-2023.201.svn54080-52.1.noarch.rpm"
-RPM_HASH = "d74b1fbd27261e37df6e0375338781583fee15de32bd37b87c6e5c350d4fb6831d31e16ce5529ee739f5889638ef932aca7a2a6534b3390cecf93319328bf10b"
+RPM_NAME = "texlive-gfsdidot-fonts-2023.209.svn54080-53.1.noarch.rpm"
+RPM_HASH = "69fa87bf034da1aa6954e1677d78a8b92de342454e8dc60bda08793ea55c603d1716d985b53ae22295089919b252a12692873364e467b534b802899fcc3435a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-gfsdidot-fonts \

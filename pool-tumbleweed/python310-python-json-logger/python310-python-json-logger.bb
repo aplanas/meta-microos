@@ -4,15 +4,14 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.0.7"
 
-RPM_NAME = "python310-python-json-logger-2.0.7-1.2.noarch.rpm"
-RPM_HASH = "829ab9ba863f2b096e655d91e565290faa467943a9a3cde938a9cb071f07060c03a1297af7d3200819ff5b9398f303975469d83bb2586ad74a59c4b107d76049"
+RPM_NAME = "python310-python-json-logger-2.0.7-2.1.noarch.rpm"
+RPM_HASH = "75d2a8a0bae9036bbb5ff82374726d167ea1e7bc634bc1dad4c2527af3ca5e230fbd007375cf61f66d8906301bba941a959257e43b0726868ffc3bd0d20514c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-python-json-logger \
 python310-python-json-logger \
 python3dist-python-json-logger"
 
-RDEPENDS:${PN} += "python-abi \
-python310-setuptools"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

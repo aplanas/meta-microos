@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-grotesq"
 DESCRIPTION = "This package includes the documentation for texlive-grotesq"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn35859"
+PV = "2023.209.svn35859"
 
-RPM_NAME = "texlive-grotesq-doc-2023.201.svn35859-53.2.noarch.rpm"
-RPM_HASH = "a7b3d46210b52f92c6fbb52460097f76f45e0ca6bb8a9dc6c1749e2d6b824d9391a45cb89635dae8c399e9214e2e8088b2be32c5de18ec0664a89474fb798f7f"
+RPM_NAME = "texlive-grotesq-doc-2023.209.svn35859-54.1.noarch.rpm"
+RPM_HASH = "06eb803e4446df444acae4591869b277ab814d9384a23e6b9614814294ddc8e2655a6fac7d4f7f0b2d6b7c2e730fd498165c6d73b7e45ba4f03199e87317ed9b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-grotesq-doc"

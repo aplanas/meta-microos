@@ -14,10 +14,10 @@ provides the means to produce typeset documentation direct from \
 package files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.r0.67svn38914"
+PV = "2023.209.r0.67svn38914"
 
-RPM_NAME = "texlive-nicetext-2023.201.r0.67svn38914-54.1.noarch.rpm"
-RPM_HASH = "31184b2dba6f22c24a7c8d690b6dce39bbffcff8fbce75fd7370447d17e5ed75c8d1ba8a0a0e74553d1a038ed3c9e06b467b021d2757aba9830f891ae6d6287a"
+RPM_NAME = "texlive-nicetext-2023.209.r0.67svn38914-55.1.noarch.rpm"
+RPM_HASH = "524dc032f363e4a554336bbe358985d9c225e29ff698d4874b9f851411b19d662344bdb5ef16dcd786b5f3afc47aa0c6618ffb4de96117a15f7712f0619a1377"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-arseneau.tex \

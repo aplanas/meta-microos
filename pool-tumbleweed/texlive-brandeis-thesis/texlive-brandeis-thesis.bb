@@ -4,10 +4,10 @@ information for an M.A. thesis for the Brandeis University \
 Graduate School of Arts and Sciences."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.2svn59832"
+PV = "2023.209.3.2svn59832"
 
-RPM_NAME = "texlive-brandeis-thesis-2023.201.3.2svn59832-52.1.noarch.rpm"
-RPM_HASH = "08c40c81e29ff248bf165c5f5b3fb5ce4696c41f8bb6720e0f0770d203867e0935a7cb5793208111603910a6ce096d6f1a60acdc2f3ab62f78573ff350a0cbc8"
+RPM_NAME = "texlive-brandeis-thesis-2023.209.3.2svn59832-53.1.noarch.rpm"
+RPM_HASH = "d542f2b17e37a2a16521a4a340d52285e707641ee87fa156efb240277579b600f4f70f996d21e90f635edeb71ccce952bde2b646a2e3a5dad2d930397fbe8921"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-brandeis-thesis.cls \

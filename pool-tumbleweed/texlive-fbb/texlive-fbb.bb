@@ -8,10 +8,10 @@ support files are provided. The font works well with \
 newtxmath's libertine option."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.16svn55728"
+PV = "2023.209.1.16svn55728"
 
-RPM_NAME = "texlive-fbb-2023.201.1.16svn55728-52.1.noarch.rpm"
-RPM_HASH = "128b418683077667c60d1d189112b30b3b234f284b52e448a1c843fe3f2dd7328ca91c580f393ea9bb477bc23aa80f3512d740762bf537ba4e00ab70b0f7a32e"
+RPM_NAME = "texlive-fbb-2023.209.1.16svn55728-53.1.noarch.rpm"
+RPM_HASH = "763073f609a32d64e5fe3f501db716a7af74b82021e90e887089f2ec2e044ddbf58b481ad23b97e94f9b1afb428702950b0106b63ee2e63d3798eb1e7da83bb5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1fbb-Inf.fd \

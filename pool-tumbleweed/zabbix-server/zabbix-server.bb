@@ -2,10 +2,10 @@ SUMMARY = "System files for the Zabbix server"
 DESCRIPTION = "The Zabbix server component."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.0.17"
+PV = "6.0.19"
 
-RPM_NAME = "zabbix-server-6.0.17-1.2.aarch64.rpm"
-RPM_HASH = "a643beb4208e9afbd368cf14b4fb95ab95b4944c2778c2efeea6e04290cb6f76bab66f8cede6f6e8b61561f7fd53b0e6c084ad0b63d6f3a25db47e053e621c99"
+RPM_NAME = "zabbix-server-6.0.19-1.1.aarch64.rpm"
+RPM_HASH = "4f86a4a5b01a875da9c129bd283d97b6283bf88ed5fc88568f418baaa5e6bdfd3e1cc921c7ce37bcf88758cf41195554fb94f67db9c698188023ad751b5a2033"
 
 RPROVIDES:${PN} += "config-zabbix-server \
 zabbix-server"

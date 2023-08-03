@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 WebChannel QML files and plugins"
 DESCRIPTION = "QML files and plugins from the Qt 6 WebChannel module"
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-webchannel-imports-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "e035c37adfa2b26141ba01c1c6db0b57164a9ff5077be5e83185bb115a99d9c31ffabeb0d30b40904f77822b2144f92bb3e59ef2cf01373a55d0bb87c9a95c81"
+RPM_NAME = "qt6-webchannel-imports-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "137f261655080d8162096e809b1861fae42223aeb54bede04a4197b86a32957d49b6a66a8664ce7b4ed352a84ba12a451938b824a9379f39841de7ae86deb57e"
 
 RPROVIDES:${PN} += "libwebchannelplugin.so \
 qt6-webchannel-imports \

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-amiri"
 DESCRIPTION = "The  separated fonts package for texlive-amiri"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.000svn65191"
+PV = "2023.209.1.000svn65191"
 
-RPM_NAME = "texlive-amiri-fonts-2023.201.1.000svn65191-54.1.noarch.rpm"
-RPM_HASH = "44f4872074395fd8bec078bef1babf24c7922258edcaf02029dde1899dcf36768144f5bb1bee567e505b26a331e9344068fbfc9455b4b40f7e2d2f00b9d7ed27"
+RPM_NAME = "texlive-amiri-fonts-2023.209.1.000svn65191-55.1.noarch.rpm"
+RPM_HASH = "5794debaaeafc95c6123b6a6b4b2fdac498a2ff0d5d1a10e662e0923f03c79e16bd07590edfd1b747763ae105bd7ba07b751360a7158d6c6a35a8bfbfb8ff310"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6Location that do n
 ABI or API guarantees."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-location-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "2facf9f55942a2933fafba87319d4ab6c73f20f85f76ce9beab1c3c65c95b7e53a4bdd2bf5576f2b1e5007ab5f392287a1a9f7cede97bf8a351fa5accd660260"
+RPM_NAME = "qt6-location-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "5a501d64aa90517b9a283969edee412a63ef8f8792e677c94f21ce27eab4f4e71265ea08ad08bac8e1d88262fc29b704f59f25528ac93103c9ab9b0ee5935041"
 
 RPROVIDES:${PN} += "qt6-location-private-devel"
 

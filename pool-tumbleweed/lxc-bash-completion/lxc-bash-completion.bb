@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for lxc"
 DESCRIPTION = "Bash command line completion support for lxc."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.0.2"
+PV = "5.0.3"
 
-RPM_NAME = "lxc-bash-completion-5.0.2-1.2.noarch.rpm"
-RPM_HASH = "531621b908b2b13225e55652a0c2f7bcec63af9091fa5f9b2cc7eabbcc962e640bec23b10b87e7192f8ebfa155e7d50b4cf1534533462f90e475d7b199990064"
+RPM_NAME = "lxc-bash-completion-5.0.3-1.1.noarch.rpm"
+RPM_HASH = "cf1123619706e725b2c0a7089a182653733d3d16c2f25a8c894686751fbb4d0df715294c6d5152e2956b1ab011ea6f9aaa47a49e8256037506faee867403321c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxc-bash-completion"

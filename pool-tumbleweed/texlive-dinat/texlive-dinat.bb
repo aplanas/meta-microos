@@ -4,10 +4,10 @@ draw up bibliographies in accordance with the german DIN 1505, \
 parts 2 and 3."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.2.5svn15878"
+PV = "2023.209.2.5svn15878"
 
-RPM_NAME = "texlive-dinat-2023.201.2.5svn15878-52.1.noarch.rpm"
-RPM_HASH = "3ff4d3f00581020296dfad197959f72e68897b94ed34fcfade312b73ef0d0a5134c9f5b5f702bb2b386804b3142cbe847579406f0acf04649b4220e97ad1c391"
+RPM_NAME = "texlive-dinat-2023.209.2.5svn15878-53.1.noarch.rpm"
+RPM_HASH = "316aba891f5be9379dfd4958541d74fd5e2a49bef78f729b31933ba88ab33645d743ce0334304a1c74065137faa5112c129a5cce6d459d29a12ee34efd95bebb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dinat"

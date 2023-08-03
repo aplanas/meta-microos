@@ -12,10 +12,10 @@ and class diagrams) as well as classes for written exams \
 worksheets, and answer keys)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.8.3svn60210"
+PV = "2023.209.0.0.8.3svn60210"
 
-RPM_NAME = "texlive-schule-2023.201.0.0.8.3svn60210-53.1.noarch.rpm"
-RPM_HASH = "2d4ae54454852c372828236a686bf9579b7e86c54014083c8281d1ff7f8da63c894187e3c2dde8949ff0de188fbcdac2cef5539616d8c6de672068504f656a61"
+RPM_NAME = "texlive-schule-2023.209.0.0.8.3svn60210-54.1.noarch.rpm"
+RPM_HASH = "ffb946dfefd18e290242fc25659923d0d9d84d9250f97317dbe351d6d8295f45daea2b1d6dd5b54f854fe0f6ac315cb509ff02d009171ba76bd25f3548ef90e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-relaycircuit.sty \

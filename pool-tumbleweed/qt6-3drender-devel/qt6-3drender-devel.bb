@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt 6 3DRender library"
 DESCRIPTION = "Development files for the Qt 6 3DRender library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-3drender-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "eb5fae26e36afc1f3fcaa36536486baefa5ac490324a913786dcf7eebd6313afc56d2939a180b3290f8171df3ea4cd042b5a67af9e4729bdd28394f08e900a4c"
+RPM_NAME = "qt6-3drender-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "b0eddcb23fb22f3f646c426a99b9481586bb9bace55b963f7672266df2b58ac36d588241abd5507faad5982340e5df9f01f53b302584fe3340d1a27e8e97980c"
 
 RPROVIDES:${PN} += "cmake-Qt63DRender \
 pkgconfig-Qt63DRender \

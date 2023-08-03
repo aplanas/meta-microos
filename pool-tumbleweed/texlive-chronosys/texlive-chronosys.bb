@@ -3,10 +3,10 @@ DESCRIPTION = "Macros to produce time line diagrams. Interfaces for Plain TeX, \
 ConTeXt and LaTeX are provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2svn26700"
+PV = "2023.209.1.2svn26700"
 
-RPM_NAME = "texlive-chronosys-2023.201.1.2svn26700-53.1.noarch.rpm"
-RPM_HASH = "d2ec9dcc101eee88f8118e93163aabe8f7143fa25aa74f850ebe4ed98d648cb245046ca3a39ba06cf0b238b45958ca95dd832752ece46d2afecd099c53ac3fb9"
+RPM_NAME = "texlive-chronosys-2023.209.1.2svn26700-54.1.noarch.rpm"
+RPM_HASH = "628cabb712b5b5062b7b1ebea1ed2bbf6dbe94f616f78194a4ecfabbeac56da45e549e0bcbe9e080f3990af0e58922daa6bcededac02f2afdab053d07d5cd0d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chronosys.sty \

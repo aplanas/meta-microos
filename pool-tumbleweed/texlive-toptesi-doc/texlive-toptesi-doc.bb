@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-toptesi"
 DESCRIPTION = "This package includes the documentation for texlive-toptesi"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.6.4.06svn56276"
+PV = "2023.209.6.4.06svn56276"
 
-RPM_NAME = "texlive-toptesi-doc-2023.201.6.4.06svn56276-52.1.noarch.rpm"
-RPM_HASH = "2718abbfd57d029fbd2f2ab6d61ba49cba54887cba753cdcf1475339443de95eac1ed3ea328096cc1e430ce90fdc7b73a092d4b1a6dd60a457fd3d51fbc0da70"
+RPM_NAME = "texlive-toptesi-doc-2023.209.6.4.06svn56276-53.1.noarch.rpm"
+RPM_HASH = "5e65442e465d4495aada0ed6a3f9585cc4a14c910cc109a5ea86295f8aad8a7e664260dade31e189d948c892d32bbef3e5b325a8b0f44e0f15a81d94b2aa7add"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-toptesi-doc-en;it \

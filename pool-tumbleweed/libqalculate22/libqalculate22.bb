@@ -6,10 +6,10 @@ entry. \
 This is the shared library package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1"
+PV = "4.7.0"
 
-RPM_NAME = "libqalculate22-4.6.1-1.2.aarch64.rpm"
-RPM_HASH = "0770be5574e9a352ca2ced76ed506bcfce3ab572d15666f57879e9230b8c491be0d7f182da85f4989be758b13768a51ba9e00b9b7f77820880ca8f9d807bbf56"
+RPM_NAME = "libqalculate22-4.7.0-1.1.aarch64.rpm"
+RPM_HASH = "728b65924a0e5c7a5c9f9b76bc95eb9c1378b7f7d1f5377b6490dafe8194b6a9d0f87e4b58aba6550926aae884574368a08ae0b7b3a534ee94271101e944c560"
 
 RPROVIDES:${PN} += "libqalculate \
 libqalculate.so.22 \

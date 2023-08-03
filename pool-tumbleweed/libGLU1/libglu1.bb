@@ -11,10 +11,10 @@ This package provides the SGI implementation of GLU previously shipped \
 with Mesa, but meanwhile developed separately."
 LICENSE = "SGI-B-2.0"
 
-PV = "9.0.2"
+PV = "9.0.3"
 
-RPM_NAME = "libGLU1-9.0.2-2.4.aarch64.rpm"
-RPM_HASH = "e3afc21b4f817f88af94a1ed69ec2cd23aac6288eb898b705403fc3aa26e0dcebe10e8ef5843458474a430d70010fb11c3219aa739a3dd72771492ba48bc88d6"
+RPM_NAME = "libGLU1-9.0.3-1.1.aarch64.rpm"
+RPM_HASH = "44187730613f944aa430c108ba180d23cd77654ae4cc2536abbd2d58e48189a2b80927c741021ac68f699e47e62bab2c7ae71fb80935c985e349fe3b64eb76b0"
 
 RPROVIDES:${PN} += "Mesa-libGLU1 \
 libGLU.so.1 \
@@ -22,7 +22,7 @@ libGLU1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libGL.so.1 \
+libOpenGL.so.0 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

@@ -4,10 +4,10 @@ on, or complementary to, the matter in his distribution \
 directories."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn57866"
+PV = "2023.209.svn57866"
 
-RPM_NAME = "texlive-cmextra-2023.201.svn57866-53.1.noarch.rpm"
-RPM_HASH = "c1b604167cd7928c556eb5e87e82568da5e51c090a75dd447435e52e46ee296a129f15692f7a6d333df59a117b9c7540fa95a8628d778ba8375cdcdda9b6a412"
+RPM_NAME = "texlive-cmextra-2023.209.svn57866-54.1.noarch.rpm"
+RPM_HASH = "bf49028801827af6267d546575bc37bab8a7e1c5d296aa92db430bf431fa57ff2d625a2fe86d4870a74e0f56078d2ef20adccce9fdef0b980f437d351c04abd2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bible12.tfm \

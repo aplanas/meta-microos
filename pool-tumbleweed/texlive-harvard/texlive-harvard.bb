@@ -15,10 +15,10 @@ several styles whose authors offer no description of their \
 behaviour."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0.5svn15878"
+PV = "2023.209.2.0.5svn15878"
 
-RPM_NAME = "texlive-harvard-2023.201.2.0.5svn15878-53.2.noarch.rpm"
-RPM_HASH = "58714d3e183122504369ff1e01d03269d610e7d921af952204607264884f979a439047a6bec34f2305663364a9c02db9f65d35b2a64b315c56f1bee507f9e9d8"
+RPM_NAME = "texlive-harvard-2023.209.2.0.5svn15878-54.1.noarch.rpm"
+RPM_HASH = "889765b959220e5ac3e02af2be9edd8ce1c2a6ca408337dccbf1d3ffc6c3544249765d359f8eb6c966b8fb7fc81d5c390670ebe342094802889b4cbe4ac52380"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-harvard.sty \

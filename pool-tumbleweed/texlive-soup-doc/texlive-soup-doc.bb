@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-soup"
 DESCRIPTION = "This package includes the documentation for texlive-soup"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.2svn50815"
+PV = "2023.209.1.0.2svn50815"
 
-RPM_NAME = "texlive-soup-doc-2023.201.1.0.2svn50815-57.1.noarch.rpm"
-RPM_HASH = "11a89ba8718bc730d65a89c03b89aeccd271e2fff05ce5d95f813475090a39f0d30bdee9c2513920f2f2b0861d589a6a5b428e7fa628181e5ae037bbca38412f"
+RPM_NAME = "texlive-soup-doc-2023.209.1.0.2svn50815-58.1.noarch.rpm"
+RPM_HASH = "cb3313e66270f0404245275b0cd958b9bbea19d0cbbdc6504023db0ce96fadbb662d9c577db26797d323f94abc481973692bb70ed6fd6c7916642a865f5011d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-soup-doc"

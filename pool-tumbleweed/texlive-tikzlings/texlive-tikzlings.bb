@@ -7,10 +7,10 @@ pig rhino sheep sloth snowman squirrel wolf These little \
 drawings can be customized in many ways."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn63628"
+PV = "2023.209.1.0svn63628"
 
-RPM_NAME = "texlive-tikzlings-2023.201.1.0svn63628-52.1.noarch.rpm"
-RPM_HASH = "e63d515c6ecf29a8062f7f426547df29580053fc9ba59d32c4b64bf13be238f39755f109ea2e9853ad174eb5c4507dea07071cf45d841cf753d63ad5d0f31f2d"
+RPM_NAME = "texlive-tikzlings-2023.209.1.0svn63628-53.1.noarch.rpm"
+RPM_HASH = "52df3135d96f8694ab5d89524510c26d110a63fca7802e478381c54fb2c32703aa902378704e053c6f9b78ec9e6fdeabe77c71ec049cec4dd1bbf172c5082a0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzlibrarytikzlings.code.tex \

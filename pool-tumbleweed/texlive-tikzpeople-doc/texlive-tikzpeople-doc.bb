@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tikzpeople"
 DESCRIPTION = "This package includes the documentation for texlive-tikzpeople"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4svn43978"
+PV = "2023.209.0.0.4svn43978"
 
-RPM_NAME = "texlive-tikzpeople-doc-2023.201.0.0.4svn43978-52.1.noarch.rpm"
-RPM_HASH = "c600f2146a507df6ab5bd009e18c6b142b17f4226e348a428d9e0873c94fd4c76d8071d683a9e913bdc94a352302cbbf6cd10ec71b3e75d81e746a9db9530a28"
+RPM_NAME = "texlive-tikzpeople-doc-2023.209.0.0.4svn43978-53.1.noarch.rpm"
+RPM_HASH = "928f34d910cd5ea602ac2ef7f3900b500291eaddd3791538bd24fdb57a9317264774e89da0cc590a030feb4bd6e073f5ec55f3a986b3c74a5955e062990847a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikzpeople-doc"

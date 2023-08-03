@@ -4,10 +4,10 @@ document classes for German-speaking teachers of mathematics \
 and physics."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn64108"
+PV = "2023.209.1.3svn64108"
 
-RPM_NAME = "texlive-schulmathematik-2023.201.1.3svn64108-53.1.noarch.rpm"
-RPM_HASH = "6f06d8b29f1028fa98d7c9957467714b92735f67f7592e1f44a6d67197895affb39ed73ce8e845b475370d6642260621b11a87bde6a8ddac2cc0869e32041c64"
+RPM_NAME = "texlive-schulmathematik-2023.209.1.3svn64108-54.1.noarch.rpm"
+RPM_HASH = "ac373a2020d5b281bc38bccc0f87bbc13877f3a52fb43fc586a973343133303db6d26b9e33bce098d28163235dfcede9f00e5be8311c0667278918f63d9fc707"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-schulma-ab.cls \

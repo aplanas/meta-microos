@@ -11,8 +11,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-
 
 PV = "8.0.3"
 
-RPM_NAME = "qemu-doc-8.0.3-1.1.noarch.rpm"
-RPM_HASH = "5f24d5458c2bc2853c340b0884e31d9dc6d99744999fe85409ebe6e574816159a046d00f44131b25d62d8fea349f3502faa8daf3a1a3cadd91693e780eed6998"
+RPM_NAME = "qemu-doc-8.0.3-2.1.noarch.rpm"
+RPM_HASH = "5dd5a7d12b79bae65233d18a06a48244e2b63ab53a7d4205b35c696c9b29c74abf9ae71ac4375eb46b45927060c9ea07b3c7001a3391f89cdf0ed161535362d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-doc"

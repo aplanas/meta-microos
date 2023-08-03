@@ -8,10 +8,10 @@ using a custom font setup), graphicx, scrbase, qrcode, iftex, \
 l3keys2e, and numprint."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.00svn66301"
+PV = "2023.209.2.00svn66301"
 
-RPM_NAME = "texlive-qrbill-2023.201.2.00svn66301-53.2.noarch.rpm"
-RPM_HASH = "2ac2603c9cbd98abc04c3dcff24cbcb915205cf59f3181e3b1721c90bd0d9fa13565f10ae1326fe0d510bd312bb84dd9e47ded2cc7d7df36f7b2db59e885d6ae"
+RPM_NAME = "texlive-qrbill-2023.209.2.00svn66301-54.1.noarch.rpm"
+RPM_HASH = "22bcde9e87db894a752234e647c80baa6e1d1b98a92b0c5d4b8947fe2aae3880d6ea754bfa3a26f3750877823206d394cce21e7ca4321d2152e65e5708968856"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-epc.qrbill-cfg.tex \

@@ -13,10 +13,10 @@ macros for musical symbols and other basic notations for \
 musical analysis."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn53607"
+PV = "2023.209.svn53607"
 
-RPM_NAME = "texlive-semantic-markup-2023.201.svn53607-53.1.noarch.rpm"
-RPM_HASH = "56f333545ae6343588e52d0456a18807c0533502426db4cc6016569f8ca2148925d8c9d58106a7ca22dc9c944cd0569b5347a7956b1eaf16d59ff7b9d0952ad9"
+RPM_NAME = "texlive-semantic-markup-2023.209.svn53607-54.1.noarch.rpm"
+RPM_HASH = "0cf17383a711a4a36bb36ed0f0baffbeb7a9c16e28cc187f333c9fb60b994d99128bca6f0c4be05946bd73154cf7f263d6d1aa914dd0fbd5b6b6b5ccd29cb5b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-semantic-markup.sty \

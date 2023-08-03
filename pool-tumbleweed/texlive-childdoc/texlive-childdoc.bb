@@ -3,10 +3,10 @@ DESCRIPTION = "This LaTeX2e package enables the direct compilation of document \
 sections included by \\include to individual files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn49543"
+PV = "2023.209.2.0svn49543"
 
-RPM_NAME = "texlive-childdoc-2023.201.2.0svn49543-53.1.noarch.rpm"
-RPM_HASH = "361f89f5677e75550625d5d895f88852b31a4af307e3621b8d5982abd2a3e6701861287f5432fa91a02d51f12f2f9bfafe7aba1ec6246a77713662e7e6350dda"
+RPM_NAME = "texlive-childdoc-2023.209.2.0svn49543-54.1.noarch.rpm"
+RPM_HASH = "2a8c3284919532914dd6f438ae5e1651b02afa99d5d84099758ee135623694c7396e215785a061317faa18228a5f2be4b7f2f91745d9f2224ed1ef22943d1ce8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-childdoc.def \

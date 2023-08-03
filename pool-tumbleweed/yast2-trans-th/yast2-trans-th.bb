@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Thai Translations"
 DESCRIPTION = "YaST2 - Thai translations."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230714.966688ddd0"
+PV = "84.87.20230729.64eca7e0a1"
 
-RPM_NAME = "yast2-trans-th-84.87.20230714.966688ddd0-1.1.noarch.rpm"
-RPM_HASH = "877c70aff2e4e5f159f59b3a4681d193d55ca8ab06b1da54ac8ff46018315dccd179b17855af2df1ab3dc96d9229db62013c2d5b445fb1f7f281c064c7d5f6cc"
+RPM_NAME = "yast2-trans-th-84.87.20230729.64eca7e0a1-1.1.noarch.rpm"
+RPM_HASH = "5e2e0d37cc1262c59b515ef3e0c9b870861c17bf6b1f1b4a8631caa22bb4f4afb50d594cd4521be18fdd1c3e3fc7accc2fa79d9bae2b078e0c15c57daeab285f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-th \

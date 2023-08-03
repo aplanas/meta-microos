@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-scrjrnl"
 DESCRIPTION = "This package includes the documentation for texlive-scrjrnl"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn27810"
+PV = "2023.209.0.0.1svn27810"
 
-RPM_NAME = "texlive-scrjrnl-doc-2023.201.0.0.1svn27810-53.1.noarch.rpm"
-RPM_HASH = "481cb841df1fa2d16af5c3d2aa30131b9d491abcc7f16389397ba8ca8ca4eccd60c53fdf439a2d3f6d9ed28eb6159e78187e305dcc3658aef7cc60a8b53bb71d"
+RPM_NAME = "texlive-scrjrnl-doc-2023.209.0.0.1svn27810-54.1.noarch.rpm"
+RPM_HASH = "dd2e2122a17c65b9680017e8c32a2af9ad91a9a6a4f31f8484fc6fc122f357c3ac43abb3e97a6aeb0320c766730b0c72ca72170faf50e05a549ec87666ba3e62"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scrjrnl-doc"

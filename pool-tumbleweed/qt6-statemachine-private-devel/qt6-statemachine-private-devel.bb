@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6StateMachine that 
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-statemachine-private-devel-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "29d51213061b90a6bdcdc05f4fd6e525ad34c2669cb12dc2e50a2cf98446240c16e6331149b9f7a131b3716c2a9a254d536304cbfdbe280b0e27351d78eac11c"
+RPM_NAME = "qt6-statemachine-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "6e86c5e07ffeff4d74b2f8767b454f34b47ef287bcad7a067671f306f13684fd8ce5e55e9b669c27be96ce67d78b733c6f718120b8fa614098cb0f9a16711503"
 
 RPROVIDES:${PN} += "qt6-statemachine-private-devel"
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-beamertheme-cuerna"
 DESCRIPTION = "This package includes the documentation for texlive-beamertheme-cuerna"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn42161"
+PV = "2023.209.svn42161"
 
-RPM_NAME = "texlive-beamertheme-cuerna-doc-2023.201.svn42161-53.1.noarch.rpm"
-RPM_HASH = "7361455e0aeabd02d53760bffd7ae28e4dabb7b6244ba9b75ffebdd5c5318c3195f5f5ee867dedd25dc76d32e44d4420932c50ff4afa3dbac9673e0108447980"
+RPM_NAME = "texlive-beamertheme-cuerna-doc-2023.209.svn42161-54.1.noarch.rpm"
+RPM_HASH = "35f920fba51c1dfdfe99b61ac6873891c37492754dce02367d93f9c1c7cd9042cb17d5a75b64a6e47c73b869f85de67173dc68447b0fcdbb317f77795e142239"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamertheme-cuerna-doc"

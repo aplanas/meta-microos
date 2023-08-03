@@ -8,10 +8,10 @@ LaTeX user with macros which are used to markup textual \
 information -- for example, in-depth interviews."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn26313"
+PV = "2023.209.1.1svn26313"
 
-RPM_NAME = "texlive-ulqda-2023.201.1.1svn26313-53.1.noarch.rpm"
-RPM_HASH = "a7b6f75e2ec3895dda82bca1a83ebe8be0fc84a222020df6fbc85ced9723d2b99fb52328344450520871177a8660c6f4ed9793b3e70fc2692ffbe9c7c66ab4a0"
+RPM_NAME = "texlive-ulqda-2023.209.1.1svn26313-54.1.noarch.rpm"
+RPM_HASH = "85e76cb7a49fcd62ea81db6e91795b554f168ea43cf7bdf6bc83063ad70f5bdf658aa536ceecffc9c9e55323205781457e9b469a7da53e948ec26628a7f183fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ulqda.sty \

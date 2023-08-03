@@ -5,10 +5,10 @@ optional -- points in the exercises can be added automatically. \
 The package also permits to hide the solutions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn55188"
+PV = "2023.209.1.1svn55188"
 
-RPM_NAME = "texlive-exercises-2023.201.1.1svn55188-52.1.noarch.rpm"
-RPM_HASH = "5162c5270c278b1a925960b765ec2ef2a2490ce22d87fe887277a39f9cca5cb1b6a65a87e67c6106ed27b46ac9a4f56d41f078b831e2d10fe9ba90d0b7cd53ac"
+RPM_NAME = "texlive-exercises-2023.209.1.1svn55188-53.1.noarch.rpm"
+RPM_HASH = "f84766b3bba64459675d2d7bca6452da7c4b71b9332858352adc9dff703430b44361e7a7e8008304e7a8eda8217a3af59f2605cb3e0920fa9aff4da08388ddc2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-exercises.sty \

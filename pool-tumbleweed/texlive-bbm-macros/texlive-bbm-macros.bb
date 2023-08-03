@@ -5,10 +5,10 @@ principle write running text in blackboard bold, and lots of \
 math alphabets for using the fonts within maths."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn17224"
+PV = "2023.209.svn17224"
 
-RPM_NAME = "texlive-bbm-macros-2023.201.svn17224-53.1.noarch.rpm"
-RPM_HASH = "1c2d955352975ccb323664574892340e3662b6f43be37a6488d76cb1966cc464dd433dc7588b96cc98d3bfe37fe8c910e10cbd3963229f6cf7bd3f543ad58d95"
+RPM_NAME = "texlive-bbm-macros-2023.209.svn17224-54.1.noarch.rpm"
+RPM_HASH = "1631b9ae1ae64aaa8dc93222c13c3b0235257466fe8691da550b0ad387cb0cadbc6dcc8387a40ee665ef0bf497ad652a6f659059553c57252caf0bd3c84825e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bbm.sty \

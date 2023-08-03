@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-almfixed"
 DESCRIPTION = "The  separated fonts package for texlive-almfixed"
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.201.0.0.92svn35065"
+PV = "2023.209.0.0.92svn35065"
 
-RPM_NAME = "texlive-almfixed-fonts-2023.201.0.0.92svn35065-54.1.noarch.rpm"
-RPM_HASH = "3a6b5ce507dedbca5be42dc1e081cddb700075254d0127eb30ba00643d8cd5de941516970b0d9114a1c60dabb9a8fdef3445cbc3801a9dff16fd57c1a37f3093"
+RPM_NAME = "texlive-almfixed-fonts-2023.209.0.0.92svn35065-55.1.noarch.rpm"
+RPM_HASH = "ef7756933efa431598e80e231355d387eb657509ac14326590949cdda698bc774c8f14587e2aa21356eb694a5a86d7666ff401fc62bbd4a1c29c4cdb1b1e4fbd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

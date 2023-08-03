@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-umtypewriter"
 DESCRIPTION = "This package includes the documentation for texlive-umtypewriter"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.1svn64443"
+PV = "2023.209.1.1svn64443"
 
-RPM_NAME = "texlive-umtypewriter-doc-2023.201.1.1svn64443-53.1.noarch.rpm"
-RPM_HASH = "fc61cb60384d86845b6f33a27faef134778c7d89bbc0cef1d05af11733d5a5af10f7715dc276f7d0f338f6dd778ce8cda31364d38a896c6819992fbd13a3371a"
+RPM_NAME = "texlive-umtypewriter-doc-2023.209.1.1svn64443-54.1.noarch.rpm"
+RPM_HASH = "9a4184e5a9fbc414fdd6dfb939c0162118491f4728a7998a3fdedc68183990e16c48d6143c546ed4e392eec103ff597dde378640ba72453b4491235154267fb6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-umtypewriter-doc"

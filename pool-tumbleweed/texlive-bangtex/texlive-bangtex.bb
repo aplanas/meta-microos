@@ -3,10 +3,10 @@ DESCRIPTION = "The bundle provides class files for writing Bangla and Assamese \
 with LaTeX, and Metafont sources for fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn55475"
+PV = "2023.209.svn55475"
 
-RPM_NAME = "texlive-bangtex-2023.201.svn55475-53.1.noarch.rpm"
-RPM_HASH = "dda0ddd403a2c67a765709842a2a3d731a796499ad4b65e27f3b0fb7d8693ef0f03a55c3ea248c68b0f5ab4572dfda036c9619b99d852b3aea335b0a5b8b3d33"
+RPM_NAME = "texlive-bangtex-2023.209.svn55475-54.1.noarch.rpm"
+RPM_HASH = "4be7ad3fb768d52ee0b84ea9ad037cfc1300ba7044507c0c3938c48058e7149176505de5684690a3d83428416804f42b8987b098b518a0e480291ee0d0f58748"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bang10.tfm \

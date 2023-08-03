@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pkfix-helper"
 DESCRIPTION = "This package includes the documentation for texlive-pkfix-helper"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6svn56061"
+PV = "2023.209.1.6svn56061"
 
-RPM_NAME = "texlive-pkfix-helper-doc-2023.201.1.6svn56061-51.1.noarch.rpm"
-RPM_HASH = "19d67a1f9e24b8f53159cf1e1bb7fa66692df61a9ab80864520b447ced95a8206d65b64937101387ebc0747e323d7f2c0f3bf9628d579efaaa8f1eac21f4bf00"
+RPM_NAME = "texlive-pkfix-helper-doc-2023.209.1.6svn56061-52.1.noarch.rpm"
+RPM_HASH = "65beac0940a79a0211239d28b461f83ea9c6c31b7c24131c9cc709b9191da3336e597d501a378dd58ee6b5c7295bd0ce779daeb9b2f647dbfd3d6f52775fc9cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-pkfix-helper.1 \

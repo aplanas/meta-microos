@@ -8,10 +8,10 @@ maintenance mode only. Ongoing projects developing Omega (and \
 Aleph) ideas include Omega-2 and LuaTeX."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn66186"
+PV = "2023.209.svn66186"
 
-RPM_NAME = "texlive-omegaware-2023.201.svn66186-54.1.noarch.rpm"
-RPM_HASH = "e9f98dd079c8f9775bf28e5531bd84f52de29c2c93b3b8ca7ad9e6f6d565f2b0fdc9855bdf21843e45b3f1268a6689903a3b65e7e3b50c31d104d71a6e41557b"
+RPM_NAME = "texlive-omegaware-2023.209.svn66186-55.1.noarch.rpm"
+RPM_HASH = "de0ae42d44dc06fba4912a60d129b72c9050d8c063cb199410126aab67330550c3f9a9278b9c4b2cc2d108ba22c4d8b3d2eb3e7052e2d50361e58150837982de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-odvicopy.1 \

@@ -13,10 +13,10 @@ user guide for getting started, with many examples and a \
 5-minute introduction to TikZ."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.1.0svn51915"
+PV = "2023.209.1.1.0svn51915"
 
-RPM_NAME = "texlive-tikz-feynhand-2023.201.1.1.0svn51915-52.1.noarch.rpm"
-RPM_HASH = "04fe3a761b4a731c4f7002b0cccf6e513afa34dd766c629e825f82b5d3e6fc1b5016e7c036a46e665724de533a394dd46697687639fed352f960de403f38dcc1"
+RPM_NAME = "texlive-tikz-feynhand-2023.209.1.1.0svn51915-53.1.noarch.rpm"
+RPM_HASH = "73740f6ae6b65e13802486a67d8742811aa630921e84a4aa665b3b50167c30a73c7df5a4feecbc7602592c7b3c4d9c156a6050a0a42696a60807bf7dfd5b7c64"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikz-feynhand.sty \

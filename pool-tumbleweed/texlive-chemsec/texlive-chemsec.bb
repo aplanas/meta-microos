@@ -7,10 +7,10 @@ occurence in the document and just labels only on subsequent \
 references."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.12asvn46972"
+PV = "2023.209.1.12asvn46972"
 
-RPM_NAME = "texlive-chemsec-2023.201.1.12asvn46972-53.1.noarch.rpm"
-RPM_HASH = "50dd9f40ae24078c774c4a001d190a5a2a2f9fc5fa766dd5584d9abc9f3b1c32ce6f3dfa82cf4922360a74784565d298a691cf12836661d109147a493ae4859e"
+RPM_NAME = "texlive-chemsec-2023.209.1.12asvn46972-54.1.noarch.rpm"
+RPM_HASH = "0e2bfa1e2e85a0e33c692098a66f963934efa395b08eeb8bf052178ddca704559045252890ee5584d3cf8273c82fc92db3cb3a16925f0210609f7f5da44c3d2a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chemsec.sty \

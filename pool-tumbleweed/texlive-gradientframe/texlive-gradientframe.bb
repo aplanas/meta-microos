@@ -4,10 +4,10 @@ objects. The gradients of the frames are drawn using the color \
 package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.2svn21387"
+PV = "2023.209.0.0.2svn21387"
 
-RPM_NAME = "texlive-gradientframe-2023.201.0.0.2svn21387-53.2.noarch.rpm"
-RPM_HASH = "968cf634a5b483fb3705df20323f11963161e917db4f07875bbcec28d15d696d1040cd0251b64aed1d52f02cba45b6d66b9c464e7e54ac67c2c754d6a0f80e79"
+RPM_NAME = "texlive-gradientframe-2023.209.0.0.2svn21387-54.1.noarch.rpm"
+RPM_HASH = "4a9d71588f8e97c84ac64cb01dc3300e6ddb2d5196d50d98330b041476fefe30a398186b88c46986535b98cea5d61892de8b2892bf2ea8ceff805b8440389d78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gradientframe.sty \

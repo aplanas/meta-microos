@@ -4,10 +4,10 @@ occurs within a list of subitems. This helps to find out to \
 which main item a subitem belongs."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.01svn24305"
+PV = "2023.209.0.0.01svn24305"
 
-RPM_NAME = "texlive-repeatindex-2023.201.0.0.01svn24305-53.2.noarch.rpm"
-RPM_HASH = "fd53288b42bf46b351c0de1b77e254194037cae88e32d91a4dcd57f7120f8187efea9a6f4807cf69cb205bced4f6e6dfd7232cfdc9651743b0cca8ce8623b0a6"
+RPM_NAME = "texlive-repeatindex-2023.209.0.0.01svn24305-54.1.noarch.rpm"
+RPM_HASH = "6fe612f36643ce6641df7c46b38b143c9a57b0776f505c75910da2dbd52df7153f1a7c4452c6431dc4d83ac615ab0426bca47f4261f200e125cf3fcc2dc00de2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-repeatindex.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Fish completion for highlight"
 DESCRIPTION = "This package provides Fish command-line completion support for highlight."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.6"
+PV = "4.7"
 
-RPM_NAME = "highlight-fish-completion-4.6-1.1.noarch.rpm"
-RPM_HASH = "2bca1439c385d2014802ddc891c4f8f9d9d6318e2c0878a13f0d0f3f12cd158fc150052c109a9a77740de1405703deac20ae5d63c79e4cfd3cc93ed9a72b074e"
+RPM_NAME = "highlight-fish-completion-4.7-1.1.noarch.rpm"
+RPM_HASH = "bdb2ffc5a8d27a0ab27ac9abe4d8ff294b353d86cb6e392936c33c69ada111926084bd2289c78225debc60883c51344c744ebcb04279b58b3b0c55f1785ce198"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "highlight-fish-completion"

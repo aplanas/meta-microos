@@ -3,10 +3,10 @@ DESCRIPTION = "Given a host with BMC, this package would extend system configura
 of net-snmp to include redirections to BMC based SNMP."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.8.19.0.g19d7878"
+PV = "1.8.19.13.gbe11d94"
 
-RPM_NAME = "ipmitool-bmc-snmp-proxy-1.8.19.0.g19d7878-1.5.noarch.rpm"
-RPM_HASH = "cb112fa16822d4a6b16baca6c694363e81c47bd1d34b68987770756adaf417f621daa0688ea889cb4b30ad9e82d2d2113a466403ac12543832fcfaab32ce5d01"
+RPM_NAME = "ipmitool-bmc-snmp-proxy-1.8.19.13.gbe11d94-1.1.noarch.rpm"
+RPM_HASH = "52bafd57c2157f0cc3f554775dd27272f5e7de400d4d4ac3a81664921daae3f6c172035f6d47fc19773b1acef1aa2b4c52f14655143ab02ddc975c93d4b11435"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-ipmitool-bmc-snmp-proxy \

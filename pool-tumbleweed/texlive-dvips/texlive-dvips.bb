@@ -6,10 +6,10 @@ separate package. For download, support, and other information, \
 please see TeX Live."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn66203"
+PV = "2023.209.svn66203"
 
-RPM_NAME = "texlive-dvips-2023.201.svn66203-53.2.noarch.rpm"
-RPM_HASH = "9de57420c72b6067dea8e62f0f09433abd354040d6579eda395502b9c7b78393bf4eef5b067ecc06aa238028a8e45c0c9e590ddad9693679a5acadadc29da488"
+RPM_NAME = "texlive-dvips-2023.209.svn66203-54.1.noarch.rpm"
+RPM_HASH = "d044ee3e0b87e471ed252f77aa8e31b5e4ced79df82af04ca1d756e551114c299347356d107c1c51599e8ee74cf7b93d426992439880fe7a9d10c38100d719d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-dvips \

@@ -3,10 +3,10 @@ DESCRIPTION = "Noto Color Emoji supports all emoji defined in the latest \
 Unicode version."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.2.034svn62950"
+PV = "2023.209.2.034svn62950"
 
-RPM_NAME = "texlive-noto-emoji-2023.201.2.034svn62950-54.1.noarch.rpm"
-RPM_HASH = "5af6c163395ec2becafa833ff9aa7f61b13fbc5ae4a386785b074ce709ae703cb0f943a23af91f8de1d1bbf5c810b413da7f20bcd469d17916db2b861c8e7992"
+RPM_NAME = "texlive-noto-emoji-2023.209.2.034svn62950-55.1.noarch.rpm"
+RPM_HASH = "f7acea62b44ea88f67cf86b70a841eb6c120b130a8f234cf90bc784aa8bf0c4d06c53e0a6ae71d4596a7c0cec530cebc2588d03a28fd60a00b030779cc725bc5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-noto-emoji"

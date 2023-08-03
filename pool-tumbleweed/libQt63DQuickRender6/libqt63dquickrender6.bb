@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 3DQuickRender library"
 DESCRIPTION = "The Qt 6 3DQuickRender library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt63DQuickRender6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "fc40c9795ad3b7d25c488f38a1bf6de1e015c0698b331fe258c970243438a1b0f6345a22a7a607c7834e2bc79510908986157f41dab65d06b47964c82a753ef6"
+RPM_NAME = "libQt63DQuickRender6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "aac752d8feb027d1371dc868e8bfbb1479867aad404401f3bcff12ad629a489048e20be7190e2bf3d11abfc9e6dc2f9763f24c8afac24cf9b19ec29257d45fbb"
 
 RPROVIDES:${PN} += "libQt63DQuickRender.so.6 \
 libQt63DQuickRender6"

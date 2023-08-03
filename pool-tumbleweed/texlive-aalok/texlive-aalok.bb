@@ -4,10 +4,10 @@ laattek-vrg. This package provides the class file for \
 typesetting 'Aalok', a Marathi journal with LaTeX."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.6svn61719"
+PV = "2023.209.0.0.6svn61719"
 
-RPM_NAME = "texlive-aalok-2023.201.0.0.6svn61719-54.1.noarch.rpm"
-RPM_HASH = "b6c6dae24e36a967a01876d5e196a5c9e6a8814e2aeab4c864faeb3c950e2e176e825a6ef0f62a547da59cef750f8d399d399daedfb9671d568dd99930e4230d"
+RPM_NAME = "texlive-aalok-2023.209.0.0.6svn61719-55.1.noarch.rpm"
+RPM_HASH = "9968b6a585f2ee35389507de2a1cf29f36e760bced5d07f4abb809cb41075e52c7d43c465f2a6382748b64a2a4285832be74e2f8591f51a014eee81cc0a02f45"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-aalok.cls \

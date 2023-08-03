@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-crimsonpro"
 DESCRIPTION = "This package includes the documentation for texlive-crimsonpro"
 LICENSE = "OFL-1.1"
 
-PV = "2023.204.svn64565"
+PV = "2023.209.svn64565"
 
-RPM_NAME = "texlive-crimsonpro-doc-2023.204.svn64565-54.1.noarch.rpm"
-RPM_HASH = "a4d1a855428dea99783abce33fe0bf7e560ac2eceacb5e09f0bac3af05b8e4f5fb92c50ddb3e76cfa7be6f7305060163027527ea5cfef2e54a697f72f3d5690a"
+RPM_NAME = "texlive-crimsonpro-doc-2023.209.svn64565-55.1.noarch.rpm"
+RPM_HASH = "3c8a1a954067c0a724b9dc841fabd9f22e468b0ada40680a1d85dd8743292f30dc896bcd9287973134bebb9c7ae58e395864f7723bb5b7a2acaeb77efba42319"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-crimsonpro-doc"

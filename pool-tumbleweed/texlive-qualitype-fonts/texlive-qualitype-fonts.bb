@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-qualitype"
 DESCRIPTION = "The  separated fonts package for texlive-qualitype"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn54512"
+PV = "2023.209.svn54512"
 
-RPM_NAME = "texlive-qualitype-fonts-2023.201.svn54512-53.2.noarch.rpm"
-RPM_HASH = "1c99bb8935c835e61d58f21551ad0dbb2a168b69973b3097b11874793b5b77f9dde69dfdca50adc354c2c64d5b87b43e0724b2f04a1937b9dba4b2e361faf0f8"
+RPM_NAME = "texlive-qualitype-fonts-2023.209.svn54512-54.1.noarch.rpm"
+RPM_HASH = "edc962eb38f4a9ff87b29116003e8dd5e4939ff8ee95d05206fd9054d268acb887a2ee4c9e718f2e2289909a241a68114667623c42f8d190fbc9450c3a83f13a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

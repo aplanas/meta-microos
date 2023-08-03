@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-semaphor"
 DESCRIPTION = "The  separated fonts package for texlive-semaphor"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn18651"
+PV = "2023.209.svn18651"
 
-RPM_NAME = "texlive-semaphor-fonts-2023.201.svn18651-53.1.noarch.rpm"
-RPM_HASH = "b5f15719c749f8e2310aa02cc571517a054ef79efefa8bf6014d4e3dbebe5c64663003b390a57176f5dd4b65847d9c9eb34c7812d26f5b1a9c97ab89f7da45c7"
+RPM_NAME = "texlive-semaphor-fonts-2023.209.svn18651-54.1.noarch.rpm"
+RPM_HASH = "932ae106d8f6c3c93db62a60c060198b96196674dbcf293261419d718a28c60dec769c4cb6f0a6466d049e8fb98522cc8bbccc7b1ecd73a919feabd17a88b9d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-semaphor-fonts \

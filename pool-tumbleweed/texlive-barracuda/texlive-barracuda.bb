@@ -6,10 +6,10 @@ standalone Lua interpreter to draw barcodes in different \
 graphic formats like SVG."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.0.0.0.12svn63708"
+PV = "2023.209.0.0.0.12svn63708"
 
-RPM_NAME = "texlive-barracuda-2023.201.0.0.0.12svn63708-53.1.noarch.rpm"
-RPM_HASH = "349ed9e5cca1848337d808877703bfeb300b3989edec96512f62daf4eb4012b65c572d0a4fdd1c036ba08bb98a51abc858939e1000d599b0f2764bd59f21163f"
+RPM_NAME = "texlive-barracuda-2023.209.0.0.0.12svn63708-54.1.noarch.rpm"
+RPM_HASH = "894b80b9408c17f45c5ccbb951136488b48bcebace3738e7772cf55c75a619628ab0a94cf4a7b9ccdfad3782608463e9154100e184728f28e7916eb170c03086"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-barracuda.sty \

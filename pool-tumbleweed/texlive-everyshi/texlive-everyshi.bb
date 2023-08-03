@@ -9,10 +9,10 @@ older LaTeX format, everyshi will automatically fall back to \
 its old implementation by loading everyshi-2001-05-15."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.4.00svn57001"
+PV = "2023.209.4.00svn57001"
 
-RPM_NAME = "texlive-everyshi-2023.201.4.00svn57001-52.1.noarch.rpm"
-RPM_HASH = "0d229cdbcb69321efde56dd8e89a8c85f69e9b7e60cc384f95131704e4a6ad6c07711d3e5700ad2fbe61ea37d7733cba5875e8d6aac9800bf045bfd358bca6f8"
+RPM_NAME = "texlive-everyshi-2023.209.4.00svn57001-53.1.noarch.rpm"
+RPM_HASH = "488b7c885a63beb55f991e78c91d58f2bf749831598a26134539451c34205077d7327fb565fe5168fde7363632e7000860971b0be0ca9ac8f34fe78e9a8365ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-everyshi-2001-05-15.sty \

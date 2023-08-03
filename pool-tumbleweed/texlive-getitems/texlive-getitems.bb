@@ -5,10 +5,10 @@ custom environments which structure their data in the same way \
 that itemize or enumerate do."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn39365"
+PV = "2023.209.1.0svn39365"
 
-RPM_NAME = "texlive-getitems-2023.201.1.0svn39365-52.1.noarch.rpm"
-RPM_HASH = "f7a6192e3366aaa1c633c7aa2a86d450be5daa19448b0f6c6b22dd467b36201384314b9278c994882c671c36a43f90879119b4230411be1b8433afa136facfe8"
+RPM_NAME = "texlive-getitems-2023.209.1.0svn39365-53.1.noarch.rpm"
+RPM_HASH = "24d946584f3154602048c229ee44e1c5fefd9fc22af253ce6768d4f37b5d8967456645bb821c75667cfd466a7526ea33f5b22c06609128a31e4d3231a5da211f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-getitems.sty \

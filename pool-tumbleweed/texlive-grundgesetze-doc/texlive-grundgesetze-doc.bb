@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-grundgesetze"
 DESCRIPTION = "This package includes the documentation for texlive-grundgesetze"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.03svn58997"
+PV = "2023.209.1.03svn58997"
 
-RPM_NAME = "texlive-grundgesetze-doc-2023.201.1.03svn58997-53.2.noarch.rpm"
-RPM_HASH = "6541ee5f8ef8cc5fdace42ba0308e9238b19a162464db8d2676d1cb3aafe71b74e1020e179acd8679a482b96abc1dce8824f868ed5e2be8060b484d29a710285"
+RPM_NAME = "texlive-grundgesetze-doc-2023.209.1.03svn58997-54.1.noarch.rpm"
+RPM_HASH = "b049f791a2e016af9c85060f059812b9bbd7c3a80a9ca9ecfea144e2a076650661e02295617cf504f530aa7c85b53794eba068a573ce1809ecbd105716b552c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-grundgesetze-doc"

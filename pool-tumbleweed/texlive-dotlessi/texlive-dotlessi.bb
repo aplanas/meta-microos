@@ -4,10 +4,10 @@ which give access to dotless i's and j's in math mode. They are \
 intended for symbols in non English languages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn51476"
+PV = "2023.209.1.1svn51476"
 
-RPM_NAME = "texlive-dotlessi-2023.201.1.1svn51476-52.1.noarch.rpm"
-RPM_HASH = "971bf4df397426116fe76f00a38cf5524e018a25dec9db17f46b57906d7530ec9c59dff90c5bf9283ae17086430a3bc1a52eed32598c6d56c4418fdc15e8bd4d"
+RPM_NAME = "texlive-dotlessi-2023.209.1.1svn51476-53.1.noarch.rpm"
+RPM_HASH = "019c0c745e885e3715616081a9ccae497dd37b49ecc9960921fdbfa5830b292d687e9fbfd9065538fc531aed6eaec5548a1b927822e4f275514fbc50f2052e06"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dotlessi.sty \

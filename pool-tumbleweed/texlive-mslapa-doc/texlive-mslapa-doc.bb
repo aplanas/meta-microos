@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mslapa"
 DESCRIPTION = "This package includes the documentation for texlive-mslapa"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54080"
+PV = "2023.209.svn54080"
 
-RPM_NAME = "texlive-mslapa-doc-2023.201.svn54080-54.1.noarch.rpm"
-RPM_HASH = "c0e9d1bc9778e9dcb83b9872290b61185c5e640a67038365b70bcbb196300fb7b252ec31d8d8da2f4a5728b3cdd1e75d079afa869e06ac86a2d6eee56707c9e9"
+RPM_NAME = "texlive-mslapa-doc-2023.209.svn54080-55.1.noarch.rpm"
+RPM_HASH = "c6f7c953c74c68397edfa5829a5153c09e9daaa17b253cf088e498ca46d4f6f0d3e2b097100f96ccb1b1119e778a0351482dc9761585d0996f8655a4f84c209c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mslapa-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-conv-xkv"
 DESCRIPTION = "This package includes the documentation for texlive-conv-xkv"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.svn43558"
+PV = "2023.209.svn43558"
 
-RPM_NAME = "texlive-conv-xkv-doc-2023.204.svn43558-54.1.noarch.rpm"
-RPM_HASH = "a412cf21c7726ce8a6d88b9f2d64935e65e27169b758ee0f593cec046df4f0b78df0508a29509600354f9124ea2951721f73057dd89fd66fb56c9bbaf106451c"
+RPM_NAME = "texlive-conv-xkv-doc-2023.209.svn43558-55.1.noarch.rpm"
+RPM_HASH = "146ce0652bc2efc4176abc8cf086d849d785cf6b5253ee78d510ed0e1d8c7bbd7fe8f134dac54d87f709135c6f10b9a973837a4e875d38be9866dcae8ff54fcf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-conv-xkv-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "Synapse is a Python-based reference 'homeserver' implementation o
 Matrix. Matrix is a system for federated Instant Messaging and VoIP."
 LICENSE = "Apache-2.0"
 
-PV = "1.85.2"
+PV = "1.88.0"
 
-RPM_NAME = "matrix-synapse-1.85.2-1.5.aarch64.rpm"
-RPM_HASH = "82a39a71bd11f125c8cf87a940f26a2be7aa27f2b4b5ba179054012b116e281ffcd4c659b4718604289458fe7fe86198ad6624fa11379fb889a1bf0ab2fc7221"
+RPM_NAME = "matrix-synapse-1.88.0-1.1.aarch64.rpm"
+RPM_HASH = "b72257b973a4cd16c29223a087d9cba84696ba341eb72a9f8b1e35d71d63124792b13e458529c3d74f4904ebed3ede3523036a719c4fc2f35d991b9f1d67bc83"
 
 RPROVIDES:${PN} += "config-matrix-synapse \
 group-synapse \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babelbib"
 DESCRIPTION = "This package includes the documentation for texlive-babelbib"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.34svn57349"
+PV = "2023.209.1.34svn57349"
 
-RPM_NAME = "texlive-babelbib-doc-2023.201.1.34svn57349-53.1.noarch.rpm"
-RPM_HASH = "7139c9359c5c56a94a9b1ee80ab77bf66c55f9ce946c69981ba651651fb44a2b32918083e6d96e0f9191ee4d1f62fc1a6d7f3c92b679d64dabaecbf5d6c88312"
+RPM_NAME = "texlive-babelbib-doc-2023.209.1.34svn57349-54.1.noarch.rpm"
+RPM_HASH = "6d5ea42e20e14433d79406f130087184d67a314987748c885265873e2378c8d841cb996c8ebeaf1fc7cd1cdae740d38a8de3a1472d7c19f73931174d89dca841"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babelbib-doc"

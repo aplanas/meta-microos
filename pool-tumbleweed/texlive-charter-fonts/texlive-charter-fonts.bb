@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-charter"
 DESCRIPTION = "The  separated fonts package for texlive-charter"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-charter-fonts-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "780289ea1cd5dcc30b071641fd2ad89b63e8a56733645d26b3f3bbbed62728c1725290fa58a73bcc6e14da353e06a34adf0f984a31ca433a42528940987edbae"
+RPM_NAME = "texlive-charter-fonts-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "8ed254e1545e4887bdc51b0fe2d2fcb465147fe73691df8807ccdddcbbc9bdfacb4282e061995b48ada46b7a8a9f2dfeace7b9fffa6d9e71d893d982c0ae47e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

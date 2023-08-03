@@ -2,14 +2,13 @@ SUMMARY = "KEG - Image Composition Tool"
 DESCRIPTION = "KEG is an image composition tool for KIWI image descriptions"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.1.0"
+PV = "2.1.1"
 
-RPM_NAME = "python310-kiwi-keg-2.1.0-1.1.noarch.rpm"
-RPM_HASH = "b39ad2b16a9843079d04b9518a6bdc8ecac648bba64de4564a125c8a2f79574fdac2ebf991bf5a784a8bcbaddd0131f7bb5ed6b1a0a99a71df6bd0353fe0ae84"
+RPM_NAME = "python310-kiwi-keg-2.1.1-1.1.noarch.rpm"
+RPM_HASH = "3fe7c77e03d8cfebf922e774e3301ed874cb1efd82b889aa8347c86f3b398a21bd89b1d404ec9ea7ca230ac2cc1bcc3bc8dc3eebb7486ccec907710909368357"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-kiwi-keg \
-python3.10dist-kiwi-keg \
+RPROVIDES:${PN} += "python3.10dist-kiwi-keg \
 python310-kiwi-keg \
 python3dist-kiwi-keg"
 

@@ -6,10 +6,10 @@ for use as a system font on a Linux Mint system. The No. 2 \
 variant provides more conventional shapes for some glyphs."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.svn64461"
+PV = "2023.209.svn64461"
 
-RPM_NAME = "texlive-mintspirit-2023.201.svn64461-54.1.noarch.rpm"
-RPM_HASH = "0b9a399931d1b68afcf6b50d920cecd5d39ab7339d0aeb6df6f3ac0698b796d5eb70e249eb9c40325d40429a703aded79937d4389de1b7285a3148ccd00b9cef"
+RPM_NAME = "texlive-mintspirit-2023.209.svn64461-55.1.noarch.rpm"
+RPM_HASH = "dd134ab32f7e6d16b73e9b0fba6badcab65fec322eb97e6c9f31f878127f7d0831ecd7dd4d6da4a26da526e3817b9d39eae235a6d591f6d4a714998e1a0c343e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1MintSpirit-Inf.fd \

@@ -4,10 +4,10 @@ supercazzole, mocking nonsense phrases from the movie series \
 Amici Miei ('My friends'), directed by Mario Monicelli."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.8.1svn55250"
+PV = "2023.209.0.0.8.1svn55250"
 
-RPM_NAME = "texlive-antanilipsum-2023.201.0.0.8.1svn55250-54.1.noarch.rpm"
-RPM_HASH = "f2489e0deaa2e0ace12f84464be9722aa8a69f215b0c6bb1f20a299e54a32b564c906afdfabb95018b5a9523cf3634829bce141d3d3dad2d230b262893790baf"
+RPM_NAME = "texlive-antanilipsum-2023.209.0.0.8.1svn55250-55.1.noarch.rpm"
+RPM_HASH = "f61da1b375c0dd52e136f0fd0f1bd3f84653cfbe42417366f1bca45216e89f14e181c66e6d91005619d8bd091947b440ede2a95ea6b3bec7f4bbeba22410571f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-antanilipsum.sty \

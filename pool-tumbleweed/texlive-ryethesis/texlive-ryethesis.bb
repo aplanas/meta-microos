@@ -4,10 +4,10 @@ or project according to Ryerson University's School of Graduate \
 Studies thesis formatting regulations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.36svn33945"
+PV = "2023.209.1.36svn33945"
 
-RPM_NAME = "texlive-ryethesis-2023.201.1.36svn33945-53.1.noarch.rpm"
-RPM_HASH = "71346f9fb629e01a5c00a8215f4d2d85e97d79716995ae9352ae8ebe8e3ac77a83b998f63b0dc64e8db06e5a894b6aaab15acb08e211712bf1be0d50fd7845cc"
+RPM_NAME = "texlive-ryethesis-2023.209.1.36svn33945-54.1.noarch.rpm"
+RPM_HASH = "26ffbf8d25cd3ff528e6191a833e1d0be069d5603530cf9dfb08d3ad755d61904ca09e760fb786fb8e6c6fdecb1acc468b1d332ac45c7547ecc3f0924252cbe7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ryethesis.cls \

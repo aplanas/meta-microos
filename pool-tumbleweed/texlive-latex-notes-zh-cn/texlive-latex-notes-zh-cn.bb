@@ -6,10 +6,10 @@ Chinese language & fonts, and some miscellaneous features \
 layout)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.20svn15878"
+PV = "2023.209.1.20svn15878"
 
-RPM_NAME = "texlive-latex-notes-zh-cn-2023.201.1.20svn15878-55.1.noarch.rpm"
-RPM_HASH = "3c63d71a80c71a08109e72287c7bca40dfcede5ba4ff4a6c36d98c78e69b7d8001441ad76c9de144ae29868695c4c757844278699707f86eb384027986fe3305"
+RPM_NAME = "texlive-latex-notes-zh-cn-2023.209.1.20svn15878-56.1.noarch.rpm"
+RPM_HASH = "4032af7669c5a904829d8c7e0e1c7c4b1931f2f5f0e50eea882b7dfe5c2cbef32575402b339140db0769b56b5d56c7115080cd211aa662c8dae66cc807c789aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex-notes-zh-cn"

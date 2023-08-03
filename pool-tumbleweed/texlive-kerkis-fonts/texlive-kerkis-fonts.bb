@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-kerkis"
 DESCRIPTION = "The  separated fonts package for texlive-kerkis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.11svn56271"
+PV = "2023.209.1.11svn56271"
 
-RPM_NAME = "texlive-kerkis-fonts-2023.201.1.11svn56271-55.1.noarch.rpm"
-RPM_HASH = "11b67e423e32ae9cb8849f8b0e693bc80f478f50c9b281807e8a619496b86d75e49373bd3dd010b1777fb4bf47665db51ac6ebcb1e7e9962b857a3191435c246"
+RPM_NAME = "texlive-kerkis-fonts-2023.209.1.11svn56271-56.1.noarch.rpm"
+RPM_HASH = "7ba1146bd9e7feb216fd44733f609d36b93a7a9528cc250b3003fbc222792652df4b0786f4d026301a5417c6b02f81465c9c424562174c1397667de9166c7145"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-kerkis-fonts \

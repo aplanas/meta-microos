@@ -14,10 +14,10 @@ compatible with a wide array of formats. For the moment, it \
 works out of the box with ConTeXt and LaTeX."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.1.0.2svn66014"
+PV = "2023.209.1.0.2svn66014"
 
-RPM_NAME = "texlive-crossrefenum-2023.204.1.0.2svn66014-54.1.noarch.rpm"
-RPM_HASH = "26d102381e0a5f4c0e219a1b1f95ff34c329d02f1a8d42fccda6fd59c38c639b5fad7e8d4d5dd5ff79d1101b4e3c1c208fb10df0291115f902b2a2d768e0e7e2"
+RPM_NAME = "texlive-crossrefenum-2023.209.1.0.2svn66014-55.1.noarch.rpm"
+RPM_HASH = "c37e0a47af9bed841d2f06ae7c570f2b785f8317434b4f207149a2c15d4f917a76aef29ba3d529a1ff4ffe329c9569cd77a2b6c2c0cdfb344838b3ffaeb4a4c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-crossrefenum.sty \

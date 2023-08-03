@@ -5,10 +5,10 @@ currently unmaintained. Please see the README for the procedure \
 to follow if you want to take over the maintenance."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn52553"
+PV = "2023.209.1.1svn52553"
 
-RPM_NAME = "texlive-datetime2-welsh-2023.201.1.1svn52553-52.1.noarch.rpm"
-RPM_HASH = "3dccf73c48406b84cdff86cf30f39b7bea3df8e3cec9d0d2752b78a1d70841f294f7a8e16e25a450313963b6ce352dde803df1ca999bfdfc932236e8f57edd5e"
+RPM_NAME = "texlive-datetime2-welsh-2023.209.1.1svn52553-53.1.noarch.rpm"
+RPM_HASH = "ccc261f3779a5bc76ed84063b745ccc745c8ba340f636978dc889d784b9b3f9138becda7743c08c1ffebff0a391a510f4126e71c5e59d5c5e8b52cd2e27f7ddf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-welsh-ascii.ldf \

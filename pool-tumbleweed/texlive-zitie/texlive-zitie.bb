@@ -4,10 +4,10 @@ practicing sheets (copybooks). Currently, only XeTeX is \
 supported."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4.0svn60676"
+PV = "2023.209.1.4.0svn60676"
 
-RPM_NAME = "texlive-zitie-2023.201.1.4.0svn60676-52.2.noarch.rpm"
-RPM_HASH = "b3238491401351ca5de6f9bce83e65dfe0fdfcf2774c9f5ff6f9f218ba9e0d15250af40512322d1826127a0944b2e2382f8dc54701c8c88ef0a8ffde665e02fc"
+RPM_NAME = "texlive-zitie-2023.209.1.4.0svn60676-53.1.noarch.rpm"
+RPM_HASH = "4050045caff1b388dfe7f752dcc28557e93340fa6a991295856786ba6d31f392e09226b700e7fd9840c0f74461fcbeaa161b63ee2b5dcc093807117098ab490b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zitie.luatex.def \

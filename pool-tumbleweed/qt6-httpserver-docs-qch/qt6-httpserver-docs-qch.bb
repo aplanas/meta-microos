@@ -2,10 +2,10 @@ SUMMARY = "Documentation for qt6-httpserver in QCH format"
 DESCRIPTION = "This package contains documentation for qt6-httpserver in QCH format."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-httpserver-docs-qch-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "d063b37ee41637170de6e6c4b79803635a4a629a0d81aa14c8f7649000addb0628ef325dc00bf9394af5b9fd785d1dcaa2f3ffa27027ad3d5ce681aeb7dc955c"
+RPM_NAME = "qt6-httpserver-docs-qch-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "0cae6c335f931f137648342131e5b27c380aa48fb09cd9b78580e03beed2dbf9d73ef53df58206fcaebc8ea1bcf0d727dffd4989b3821e0482b593b3bf273871"
 
 RPROVIDES:${PN} += "qt6-httpserver-docs-qch"
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-coelacanth"
 DESCRIPTION = "This package includes the documentation for texlive-coelacanth"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.0.005svn64558"
+PV = "2023.209.0.0.005svn64558"
 
-RPM_NAME = "texlive-coelacanth-doc-2023.201.0.0.005svn64558-53.1.noarch.rpm"
-RPM_HASH = "8bfce8a66f529f62a5daa4d67d50a687e96db220d46ad9975b2642571702c01c934618733ec3f3f17fe2e72302c999561d79ffd8971c7e58a82dd9a30801ad66"
+RPM_NAME = "texlive-coelacanth-doc-2023.209.0.0.005svn64558-54.1.noarch.rpm"
+RPM_HASH = "58fe6aa9b14ef0aa3a518f9a7607171783c9bd52d9e64eda910be7c6c68e6fee38cd3629eff8666ecd2b70904f55724cd55637d8fc2c6f36fe2082eaddb3aa39"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-coelacanth-doc"

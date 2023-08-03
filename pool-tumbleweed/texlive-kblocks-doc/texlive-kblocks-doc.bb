@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-kblocks"
 DESCRIPTION = "This package includes the documentation for texlive-kblocks"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.0svn57617"
+PV = "2023.209.2.0svn57617"
 
-RPM_NAME = "texlive-kblocks-doc-2023.201.2.0svn57617-55.1.noarch.rpm"
-RPM_HASH = "039c588985ee661482c793741d001914867ccc09a42d0490d045cca338e5e4a7222b8cd9a4939a85733e60090125465d1a9c5675e3620ff75799df70d7f5c16b"
+RPM_NAME = "texlive-kblocks-doc-2023.209.2.0svn57617-56.1.noarch.rpm"
+RPM_HASH = "f0a9b8d7c24d24aa7de9061798cb32ecbfc9558099cd28ba4fe6ad17542c0106c2c790d880c246d2959b9c06b4af3de6addc67b82c7ef6569d746c2149e97144"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-kblocks-doc"

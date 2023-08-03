@@ -7,10 +7,10 @@ with newer engines, for example to adapt the plain e-TeX source \
 file to work with XeTeX and LuaTeX."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn40533"
+PV = "2023.209.svn40533"
 
-RPM_NAME = "texlive-tex-ini-files-2023.201.svn40533-54.1.noarch.rpm"
-RPM_HASH = "84425e66cf3ceef79a9a8c7b4d96b23cd81ad589ec7553f7d02600d42a3b8c483a519cd374e9ff12e69f3f6f9d0b080ea056de11ebf93e28d1638335be4ecdfc"
+RPM_NAME = "texlive-tex-ini-files-2023.209.svn40533-55.1.noarch.rpm"
+RPM_HASH = "1a454c4bcd53ee4a1ccd2cc2c3026c8b4f67747150a8c6638bb20233708fe3f0b43661d2eb56038393fca652749c92f98501a7af852e5fe88122f736e3f28f91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-tex-ini-files \

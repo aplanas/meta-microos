@@ -4,10 +4,10 @@ citations, captions and tables in the margin. This is common \
 (for example) in science text books."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.00asvn54524"
+PV = "2023.209.1.00asvn54524"
 
-RPM_NAME = "texlive-sidenotes-2023.201.1.00asvn54524-53.1.noarch.rpm"
-RPM_HASH = "609e9203d045c1817c6732a9c61d7550214125cad1f2314215e9c95d769ad8ee69bdf89925748c662913cb5ff7c116ed87115bb8864b4b0cd92f491896aa175f"
+RPM_NAME = "texlive-sidenotes-2023.209.1.00asvn54524-54.1.noarch.rpm"
+RPM_HASH = "091d129166bfd28af5bbb34d53366f0fe26a9bf4e7e9eeb8c1758ae1d4460fb92dc0bffba6e6bc94596f286257e765e2816c18213a0df66789836100bf5eeca8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-caesar-book.cls \

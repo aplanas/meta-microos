@@ -2,10 +2,10 @@ SUMMARY = "C version of tie (merging Web change files)"
 DESCRIPTION = "This is a version of tie converted for use with cweb."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.204.1.1svn66186"
+PV = "2023.209.1.1svn66186"
 
-RPM_NAME = "texlive-ctie-2023.204.1.1svn66186-54.1.noarch.rpm"
-RPM_HASH = "230f3d3ad6f8550a2f73f5d1b3a4b40a208e5cd7c29b8de41cf6b08bfd7347c32fa53ed46f6fc6e6a760cb9e709a4ad3c98a42217a57e816a0fd7d9eb06d77e1"
+RPM_NAME = "texlive-ctie-2023.209.1.1svn66186-55.1.noarch.rpm"
+RPM_HASH = "ef7f9cb78c676bfae68d97734a225f80dfcdd8f00fd30da9e45370ab7a8d294dd1bd4db5d12552504c2caabd4ec211753fcfad1130b019079414477d41610c35"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-ctie.1 \

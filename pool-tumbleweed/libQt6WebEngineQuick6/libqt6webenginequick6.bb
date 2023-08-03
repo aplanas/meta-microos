@@ -2,10 +2,10 @@ SUMMARY = "Qt6 WebEngineQuick library"
 DESCRIPTION = "The Qt6 WebEngineQuick library."
 LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6WebEngineQuick6-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "01b6868b021fdf841aa16b733da88955f96b272f2e0010bd5e470d1c920ea6972acdd5a07bd466771073eff35bfdb0bc803a5e201351a18c61fc0eac72460813"
+RPM_NAME = "libQt6WebEngineQuick6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "332a43f2ea187dcb08e854f34b3b5407c8bed38c9fa66a22d87675acbb7d5bd8b661388b0adff38e806dcbe283350ebf3a3a305de7a4b77b5fe747148ecb9499"
 
 RPROVIDES:${PN} += "libQt6WebEngineQuick.so.6 \
 libQt6WebEngineQuick6 \

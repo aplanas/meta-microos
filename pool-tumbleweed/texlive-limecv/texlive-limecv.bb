@@ -5,10 +5,10 @@ elegant and clean. To this end, it offers several environments \
 and macros for convenience."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1.12svn61199"
+PV = "2023.209.0.0.1.12svn61199"
 
-RPM_NAME = "texlive-limecv-2023.201.0.0.1.12svn61199-54.1.noarch.rpm"
-RPM_HASH = "ae77299d2e33129d750e97c67244caf440a6b9b845aa0fe62a813a39f76f4de679de01b430fcc2b026412503959229745bbd7e602f5f8fe38ba670886a627f23"
+RPM_NAME = "texlive-limecv-2023.209.0.0.1.12svn61199-55.1.noarch.rpm"
+RPM_HASH = "b94e4f80d4e57abb0c3fed397c4581106b9f48e2a3b3517257ee258c3e625d6e12a80d20e3405f205b719a8ac2208d07677c3992d4f034dc8b0222b23269a33b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-limecv.cls \

@@ -5,10 +5,10 @@ to be presented as uppercase in text (useful for things like \
 copying and pasting from a PDF)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0.1svn64935"
+PV = "2023.209.1.0.1svn64935"
 
-RPM_NAME = "texlive-textcsc-2023.201.1.0.1svn64935-54.1.noarch.rpm"
-RPM_HASH = "f52b0d5b248fecc35ec87f7f99b22f77336124da90729069ed1a05078716626303dcf750637d65a8ac258a6932ce71b7851b6314c3d48a4de4995a5ed4b13021"
+RPM_NAME = "texlive-textcsc-2023.209.1.0.1svn64935-55.1.noarch.rpm"
+RPM_HASH = "1da108fea931a3897c44a453cfa5e5a8ff002755e3fabec6802988cad7e6740d5e4bb9ce0cd7eaaf40108e5dd8041307526db8cd04825c6b10692d14cc729a15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-textcsc.sty \

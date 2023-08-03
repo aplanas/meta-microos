@@ -7,10 +7,10 @@ repositories at https://github.com/latex3/graphics-def it will \
 be easier to coordinate updates."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64487"
+PV = "2023.209.svn64487"
 
-RPM_NAME = "texlive-graphics-def-2023.201.svn64487-53.2.noarch.rpm"
-RPM_HASH = "decb4b6a753b7d1473bfdc6eb77b70b6d91884fdf96ef82db48c2947048d751df4469205b076842546145c31fab0704ee90ca8237e82703e3ec0f444bd221b96"
+RPM_NAME = "texlive-graphics-def-2023.209.svn64487-54.1.noarch.rpm"
+RPM_HASH = "8640b8e659c1397bb7f26addf46224cc01acf1c25bb01d3ff3d7d945bc4f59f98ff6e1ba1955a77576b507cf54d6432a484ef67f0aefc22fee0dfc0deb40e723"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dvipdfmx.def \

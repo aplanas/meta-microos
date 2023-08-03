@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dateiliste"
 DESCRIPTION = "This package includes the documentation for texlive-dateiliste"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.0.0.6svn27974"
+PV = "2023.209.0.0.6svn27974"
 
-RPM_NAME = "texlive-dateiliste-doc-2023.204.0.0.6svn27974-54.1.noarch.rpm"
-RPM_HASH = "83e18b1dec3a6eb2921d10ae5594427fb1f7e254230882dc9b6597e0ddad346538d9a3ff711338344308ff6458b4f8630ef5676136b0b731cbaf575e0077f642"
+RPM_NAME = "texlive-dateiliste-doc-2023.209.0.0.6svn27974-55.1.noarch.rpm"
+RPM_HASH = "82e4bbb5b7ddf3129f3ccfec4820dac5cf1338e4612d6106379aad959cbe2ad2f365e9988b865183e157a22a593ecfcd92199a750913097dbe87caf0a273400e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-dateiliste-doc-de;en;eo \

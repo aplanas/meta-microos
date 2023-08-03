@@ -2,10 +2,10 @@ SUMMARY = "Documentation for qt6-scxml in HTML format"
 DESCRIPTION = "This package contains documentation for qt6-scxml in HTML format."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-scxml-docs-html-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "8e4d893fe8a144e280cbb48d04ce58e716696af04a2fd205f194c1b4a6166d6eb6d2c43cb7168d6f26649c27f11a3f2ad83547faf266d86b6402c47f49fbdb64"
+RPM_NAME = "qt6-scxml-docs-html-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "af44d2da49d47b669c23b650dee5d37a1db34714cf1337a9e57eb22bc9fda877b5b66cfcadb8b4f9eba3b95815602e2ceb2447d8360630b5246d467dcbaae7d1"
 
 RPROVIDES:${PN} += "qt6-scxml-docs-html"
 

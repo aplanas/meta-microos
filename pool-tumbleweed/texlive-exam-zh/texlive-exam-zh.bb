@@ -13,10 +13,10 @@ environment to typeset choice items easily and automatically; \
 design the seal line easily; and more (see manual)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1.20svn64434"
+PV = "2023.209.0.0.1.20svn64434"
 
-RPM_NAME = "texlive-exam-zh-2023.201.0.0.1.20svn64434-52.1.noarch.rpm"
-RPM_HASH = "de68444a6727c43f6762ae310598c47d46766a448b915355865d2b7d26a6f43c9a433abe16385ee86ec65e16842df53399b16083562cc9df1329f50ce42c2569"
+RPM_NAME = "texlive-exam-zh-2023.209.0.0.1.20svn64434-53.1.noarch.rpm"
+RPM_HASH = "a31a84e9a7b0aa10e9bdd4d011529c4e5b87ba3901ec25071dce320020524dd40f4e3a41ec08d744b5134f646f63014857e1d9cf9933c223b171723655ea6947"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-exam-zh-chinese-english.sty \

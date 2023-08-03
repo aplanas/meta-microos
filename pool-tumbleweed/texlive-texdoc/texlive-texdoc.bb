@@ -7,10 +7,10 @@ program by the same name to do the same job, but its \
 implementation is unrelated."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.4.0.1svn66227"
+PV = "2023.209.4.0.1svn66227"
 
-RPM_NAME = "texlive-texdoc-2023.201.4.0.1svn66227-54.1.noarch.rpm"
-RPM_HASH = "0a86497d9143e889ace50127c2b861596f458fd9052754364fe688a1c19dac0a7938563cda3d728ccbc8c43f30d6cef6ca83ddb0bc773e6d178925ed97f1a2dd"
+RPM_NAME = "texlive-texdoc-2023.209.4.0.1svn66227-55.1.noarch.rpm"
+RPM_HASH = "3d8b7923ccdee343d1e719d0bed2eba6fb60bfac82016d53f216fa425c8e63e3dd972e6803792ea6cc39fb1db278efc71a4443f2257ba5bc9a532610087fae91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-texdoc.cnf \

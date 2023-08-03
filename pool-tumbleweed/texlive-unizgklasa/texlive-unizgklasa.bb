@@ -7,10 +7,10 @@ designed as an idea for linking and uniformizing the look of \
 all graduate papers. Anyone who likes it is welcome to use it."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn51647"
+PV = "2023.209.1.0svn51647"
 
-RPM_NAME = "texlive-unizgklasa-2023.201.1.0svn51647-53.1.noarch.rpm"
-RPM_HASH = "496c5f3304b7f63cec35d3f919ffb595336742cadbcd60d7306a21791efea24c91c8ebc582d4798131c17f49275b9a6ec732bcc227b4a1e4dc79e3ecf538d7f0"
+RPM_NAME = "texlive-unizgklasa-2023.209.1.0svn51647-54.1.noarch.rpm"
+RPM_HASH = "a38c6f3fae0a343a67c76ff569bf1f5ee3eeb654a58e10a1d730c1ad290e9267daeb90fff36a2d0f7e2fa47540056bf8db89c57908d7fddb03925314736d9433"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-unizgklasa.cls \

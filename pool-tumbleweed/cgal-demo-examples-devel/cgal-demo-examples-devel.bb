@@ -4,10 +4,10 @@ CGAL algorithms. You can study them, compile and test CGAL \
 library."
 LICENSE = "BSL-1.0 & GPL-3.0-or-later & LGPL-3.0-or-later & MIT"
 
-PV = "5.5.2"
+PV = "5.6"
 
-RPM_NAME = "cgal-demo-examples-devel-5.5.2-2.1.noarch.rpm"
-RPM_HASH = "8b023ffb76328456024da551e1f473caf99ed9239a24925396eb281f62a9a4bbf85fd937a9edde12a8d7d94b8c51b8d59ee6edc1f901f1e4456212ead9078c02"
+RPM_NAME = "cgal-demo-examples-devel-5.6-1.1.noarch.rpm"
+RPM_HASH = "be23446d01371bf3867c898e4a49133f0d97ae2e69b3471327be3c8f41284b658da4624028abe8260c8ee98646ec40f84ef71632054ce2973bb802b175615158"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cgal-demo-examples-devel"

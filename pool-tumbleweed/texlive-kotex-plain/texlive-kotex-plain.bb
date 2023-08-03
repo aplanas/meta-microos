@@ -5,10 +5,10 @@ text should be encoded in UTF-8. The package belongs to the \
 ko.TeX bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.0.0svn63689"
+PV = "2023.209.3.0.0svn63689"
 
-RPM_NAME = "texlive-kotex-plain-2023.201.3.0.0svn63689-55.1.noarch.rpm"
-RPM_HASH = "80c984e4000fc32602c23d3a36432ed3e6d346ec34059b23f359b1b25d1f3c1af91bd3fb69f6174579f089a17b8cb9854570170921341286f81c0c041f20bbf6"
+RPM_NAME = "texlive-kotex-plain-2023.209.3.0.0svn63689-56.1.noarch.rpm"
+RPM_HASH = "43871768a2672f0080b994a2374eb642b47296ddde3cfd0b0000be261c870062e129ff37ee3558ecc6045625276322e3266ce9ebde4666347a20d5328ad87ea3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hangulcweb.tex \

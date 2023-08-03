@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-listliketab"
 DESCRIPTION = "This package includes the documentation for texlive-listliketab"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-listliketab-doc-2023.201.svn15878-54.1.noarch.rpm"
-RPM_HASH = "31f09169fe4996e0b7d8d23efb266395ea9d24e7e31975bf352c7969f97a362a48938ece3eb3838ae90d718536653bdc286e402fec3b5d9dfc62d295400dd0a3"
+RPM_NAME = "texlive-listliketab-doc-2023.209.svn15878-55.1.noarch.rpm"
+RPM_HASH = "741e1c3d7550ad33ee7dd403d23a66aee9b0f41033183774d67ceff33fc900e07dc5788eeebf9481b00d7dd93f65721e3102b17f4ffa0435f5ae4120ff46b7b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-listliketab-doc"

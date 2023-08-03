@@ -3,10 +3,10 @@ DESCRIPTION = "BibLaTeX style for the Lecture Notes in Informatics, which is \
 published by the Gesellschaft fur Informatik (GI e.V.)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5svn61719"
+PV = "2023.209.0.0.5svn61719"
 
-RPM_NAME = "texlive-biblatex-lni-2023.201.0.0.5svn61719-53.1.noarch.rpm"
-RPM_HASH = "b70e6b6f18060d1856f7ced9885717c5d205cbb6548bfd2a09598ad7285bb7733576a6eb72c66e25dfc1dbc7b30f0050255dc46221c8854470f438e5b39863d4"
+RPM_NAME = "texlive-biblatex-lni-2023.209.0.0.5svn61719-54.1.noarch.rpm"
+RPM_HASH = "6d3b0ce9c06b8113891492de66476d6b87133042817aa1aab7237483ab656cbcb380092b5eed2bff6095f01fb5a14cb4287d5bba2f8e8c223de94ef90f4397fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LNI-english.lbx \

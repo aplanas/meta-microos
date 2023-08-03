@@ -3,10 +3,10 @@ DESCRIPTION = "The Qt 6 QuickEffects library. \
 This library does not have any ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6QuickEffects6-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "368befc37f15c6cc45d833bd0c4ebf06d722349d6ffc2c026679ef6ee7f64199fe6535bc106346113ad0ec99e050b0fd79ba8d51847447a8faec06b2ea7f74cc"
+RPM_NAME = "libQt6QuickEffects6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "d08bc77e82a3e9efb098d6d08706c6e051f73576687f3c4c4487f8260e67b965b737a45470637c62a3944df2ba987cbc95ead11747dd03abf12ac7a83b13fba7"
 
 RPROVIDES:${PN} += "libQt6QuickEffects.so.6 \
 libQt6QuickEffects6"

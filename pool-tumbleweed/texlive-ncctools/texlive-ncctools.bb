@@ -18,10 +18,10 @@ theorem-like environments; control of the text area; centred \
 page layouts; and un-numbered top-level section."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.5.3svn51810"
+PV = "2023.209.3.5.3svn51810"
 
-RPM_NAME = "texlive-ncctools-2023.201.3.5.3svn51810-54.1.noarch.rpm"
-RPM_HASH = "921a2a3e4920ba69604f37ff83ef2697125e7a47e7f7cd15920b68596c67b7a9dd6574a937898c152e8d71181a4db3f1554ab7701a386dbaed10af91309c9ef8"
+RPM_NAME = "texlive-ncctools-2023.209.3.5.3svn51810-55.1.noarch.rpm"
+RPM_HASH = "8860799a2eef1635d99e3c3760a58733a42abd7c693ea6e95cd27cfa0164bb3db0c2e9bc7868de0d81908c5780e8a27e6fde0e8ca14d476c133c1e118c25fb3e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-afterpackage.sty \

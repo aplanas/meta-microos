@@ -9,10 +9,10 @@ character inside the box does not make any sense: use a large \
 size."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn29803"
+PV = "2023.209.0.0.1svn29803"
 
-RPM_NAME = "texlive-showcharinbox-2023.201.0.0.1svn29803-53.1.noarch.rpm"
-RPM_HASH = "5d5d9bad945aa09c4cd9684f008bccf968776497b52f85c76823eafe1c75340c919a09e40710adfe211cf46decd544a9263c913d4f5bb8d18822119d0f36a5b4"
+RPM_NAME = "texlive-showcharinbox-2023.209.0.0.1svn29803-54.1.noarch.rpm"
+RPM_HASH = "864a2a4f2fbb97c69182f8bd5b0264a58304036d258ed97b9f79c04b887daf1cd72f3eb7d8012b0d6da01ddabbe1eab892139b0133ef5c06ac2b0d5a91801602"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-showcharinbox.sty \

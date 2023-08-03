@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.68"
 
-RPM_NAME = "scap-security-guide-debian-0.1.68-1.1.noarch.rpm"
-RPM_HASH = "8781420d419e78aa6b932682a6ee47572e2f0a595aede16eacc4aff83fd323c9bd0743e752face232981a9eabbe7c62b723143befe87f1b4ae6ea79f5b5e2a27"
+RPM_NAME = "scap-security-guide-debian-0.1.68-2.1.noarch.rpm"
+RPM_HASH = "29382f7d612076a241fa4ef5ccfc20d6ec5965f9790413408f73b5d78811fd88f33ee51d420f5c92c5e8f37fee0649d0a814f2eb00e471625e31049d8f7ba56c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scap-security-guide-debian"

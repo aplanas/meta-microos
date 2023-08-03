@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-verifiche"
 DESCRIPTION = "This package includes the documentation for texlive-verifiche"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.6.0svn64425"
+PV = "2023.209.6.0svn64425"
 
-RPM_NAME = "texlive-verifiche-doc-2023.201.6.0svn64425-53.1.noarch.rpm"
-RPM_HASH = "affcc5cd463327a4b659c3e995ead7bf71a6e396245523ff3e2b0b4e4e40b0370b6d1658217adbc1b11b451627257c2723e1e17f62aa329acfe71c5827afed18"
+RPM_NAME = "texlive-verifiche-doc-2023.209.6.0svn64425-54.1.noarch.rpm"
+RPM_HASH = "2adcbcf8d5625edb55503983a363810ae2ee9e1d8aff596c7f33e04ad5f522e80c8213e413a5c9f45e5de9fa97d6a4434c330ebcc6ee41642f46e29d730e8d45"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-verifiche-doc-it \

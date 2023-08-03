@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-topfloat"
 DESCRIPTION = "This package includes the documentation for texlive-topfloat"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn19084"
+PV = "2023.209.svn19084"
 
-RPM_NAME = "texlive-topfloat-doc-2023.201.svn19084-52.1.noarch.rpm"
-RPM_HASH = "59767346ecc7881fc01a65b4e4dd864af3c954bb92a3a2cb042768835f3443602553a81fde272b2a43c809ccc137ed10c02717552b77db7077de0486b5854533"
+RPM_NAME = "texlive-topfloat-doc-2023.209.svn19084-53.1.noarch.rpm"
+RPM_HASH = "6ec457259501fb7b297eaf6e1b7ee2fe7a52a0a7b0497c1248737d9ed3383d1619730d617c460c2f2c737b1e3ca7fd42c3faa31af004818eb94b52ee1c1543d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-topfloat-doc-it \

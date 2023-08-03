@@ -4,10 +4,10 @@ counters with 'patterns'. These patterns do not affect 'normal' \
 LaTeX treatment of counters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.7svn34668"
+PV = "2023.209.0.0.7svn34668"
 
-RPM_NAME = "texlive-cntformats-2023.201.0.0.7svn34668-53.1.noarch.rpm"
-RPM_HASH = "b09a51b6f5a249d3db22be25057c108e64ec2cfbed108cff2179ee6d9f7a4af52ae5afda7d2d41ee5e4725c6f8dddaa8db06b82770e40fc354bd140950f57dab"
+RPM_NAME = "texlive-cntformats-2023.209.0.0.7svn34668-54.1.noarch.rpm"
+RPM_HASH = "1010c2664f884f985876aa989b8c1d66b1b4099f65316d68914aabfe441e66629b8918438696b0557ccb642043d4758defad3d754d02aa6a95da18824cf65983"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cntformats.sty \

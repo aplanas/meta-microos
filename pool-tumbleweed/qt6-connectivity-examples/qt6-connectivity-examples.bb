@@ -2,10 +2,10 @@ SUMMARY = "Examples for the qt6-connectivity modules"
 DESCRIPTION = "Examples for the qt6-connectivity modules."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-connectivity-examples-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "5188fdb06ca84127ea3817f08c7040bbec9bceb39c18464b6ff6136426b8926fb552ff503f9b07aea803dc1e3b1865351c0bfe621076f598e4ac8b0b0db900c7"
+RPM_NAME = "qt6-connectivity-examples-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "96c909cc7533ab50d29501978fb1276400832cf44edc7ee1574466d61dd5fe7b8a06589ebba25173d0ce4ac28da717b669588110bc78a0198e82cdef6663356d"
 
 RPROVIDES:${PN} += "qt6-connectivity-examples"
 

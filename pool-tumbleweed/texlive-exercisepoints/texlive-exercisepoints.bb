@@ -8,10 +8,10 @@ also supported by this package by providing a macro to retrieve \
 the points of each exercise."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.2.3svn49590"
+PV = "2023.209.1.2.3svn49590"
 
-RPM_NAME = "texlive-exercisepoints-2023.201.1.2.3svn49590-52.1.noarch.rpm"
-RPM_HASH = "7739b686f48d87c3e71386bc58a214b2212c68be8a46ce5d8f57db022980661407d0a0ce65035533663daeaafd81b3d0e1ffb9836083eedc9bce57e354710a4e"
+RPM_NAME = "texlive-exercisepoints-2023.209.1.2.3svn49590-53.1.noarch.rpm"
+RPM_HASH = "add836e0183698ab8c0eb0a645988ffe543f698aecc6a196dcb84ed8ae46955ca85065f0e6152531bf08d0b7fecc239ce7793ac36ea1fa98772c4a744a6f81d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-exercisepoints.sty \

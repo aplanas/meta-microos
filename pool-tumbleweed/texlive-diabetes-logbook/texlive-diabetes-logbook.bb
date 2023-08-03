@@ -13,10 +13,10 @@ the package's files are not constructed using the long \
 mellitus log book')."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn54810"
+PV = "2023.209.svn54810"
 
-RPM_NAME = "texlive-diabetes-logbook-2023.201.svn54810-52.1.noarch.rpm"
-RPM_HASH = "c017b93275d7d661810ce0626bb4e46861301f029f7cbaf628ba80dd0eb2d81afb5e27f9118bce535544ed0d0412600e5c9e992770011e6d5ff765e3d8dc0616"
+RPM_NAME = "texlive-diabetes-logbook-2023.209.svn54810-53.1.noarch.rpm"
+RPM_HASH = "cad7c44180c22bb73e3e557eab985d3138e982f19f2879ea7c893b6e6f75a6c19682c671ba3346169cce89da78ed3c480d8a44befb3fa68d6e24f359de693fa2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dmlb.sty \

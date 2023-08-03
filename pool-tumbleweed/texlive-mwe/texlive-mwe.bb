@@ -9,10 +9,10 @@ commands, without the need to share image files or to use \
 replacement code."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.5svn64967"
+PV = "2023.209.0.0.5svn64967"
 
-RPM_NAME = "texlive-mwe-2023.201.0.0.5svn64967-54.1.noarch.rpm"
-RPM_HASH = "560802aea50790cc9a5fa1f89130fc9d5a938feb2a27920e29f6807a949d793cc5f9503af65961ee10e9d976e686d3a7e234a601c9f8df3b2de1dcfb6545414a"
+RPM_NAME = "texlive-mwe-2023.209.0.0.5svn64967-55.1.noarch.rpm"
+RPM_HASH = "5d617b8652c0aaeeba5336a38bf0c514725ed2b6663c1d26744e111e25cff1d18bfaaf09ef2507524752c47b96dea87fb10340a4ea834ef140bccfed00e39b86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-example-grid-100x100bp.tex \

@@ -6,10 +6,10 @@ some templates for user documentation, which currently are only \
 available in German."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.29svn65254"
+PV = "2023.209.3.29svn65254"
 
-RPM_NAME = "texlive-tuda-ci-2023.201.3.29svn65254-52.1.noarch.rpm"
-RPM_HASH = "9664d6b4465dfb7905abe155656d4404faab2da88d91288230c186d7163ea889a92ca238a0e04da6efec9d7c1039de64c0508f8f483b76f7b29e6b8797f8c91c"
+RPM_NAME = "texlive-tuda-ci-2023.209.3.29svn65254-53.1.noarch.rpm"
+RPM_HASH = "00c6d8369d243afab8a26afcd9152cfdbf7b42792b5be5070a6ed263de897779e1a839f03e98a16d15f2376f0f2c29fd566e5f7733958ffdee792f612a7595fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemeTUDa.sty \

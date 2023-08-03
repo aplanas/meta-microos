@@ -6,10 +6,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to build pspp plugins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.4.1"
+PV = "1.6.2"
 
-RPM_NAME = "pspp-devel-1.4.1-3.14.aarch64.rpm"
-RPM_HASH = "b307f05e3f7ce781683016bca245f78b3309187bedf5f16d3f3b3e706e6fc6f97de6fe2aa7ae3fc6bd68a9f5fa58c30ed46407b2bd8c7e90395ecd891be75f23"
+RPM_NAME = "pspp-devel-1.6.2-1.1.aarch64.rpm"
+RPM_HASH = "f6130e7bdb84014a62b910d7978fa47e90fb3caeb394deb6cc22b101b9d8c92408b6eb5dc0cda72ad6775021e58a85b21ed28560bec06eb755ac2b12ad4e40b2"
 
 RPROVIDES:${PN} += "pspp-devel"
 

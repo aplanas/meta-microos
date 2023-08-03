@@ -5,10 +5,10 @@ makeup commands to be executed on every page (e.g., depending \
 on the page style)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.02svn17062"
+PV = "2023.209.0.0.02svn17062"
 
-RPM_NAME = "texlive-bophook-2023.201.0.0.02svn17062-52.1.noarch.rpm"
-RPM_HASH = "fc4602ec5135477918426c2434dd615cf222a60db209184f0f63bd30d4400c30c82f9f386b772a678bc8c9ec6756e3b5c69688ef9a51bedd851958aca41f9b4d"
+RPM_NAME = "texlive-bophook-2023.209.0.0.02svn17062-53.1.noarch.rpm"
+RPM_HASH = "d1fc1862b52003facf6e5072455936373d08188dc5e55f617ff97bcf60b28b514143d7fc02f9d711a80bc8a33ae975bc99212640d8b8efeb1f27ce29550d33aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bophook.sty \

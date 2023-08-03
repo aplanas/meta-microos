@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Designer library"
 DESCRIPTION = "This package contains the Qt 6 Designer Library."
 LICENSE = "GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6Designer6-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "d9183b5c44640494d6a8b1715e4de62999d35c6aec110b2a2bdb0637f89b60b54ea0f1d1d616b92a1063bda4fd747d9cf8d55def2cdd7f1386c00eb386be7936"
+RPM_NAME = "libQt6Designer6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "ca7fcedc30e83e9045f2507905bf8b1c5cef471ede11e81b239a1a1e958796f2b1e87a901d25990ce7d7acfb6b76082109705ed272987bd50ebd1e54f67cb847"
 
 RPROVIDES:${PN} += "libQt6Designer.so.6 \
 libQt6Designer6"

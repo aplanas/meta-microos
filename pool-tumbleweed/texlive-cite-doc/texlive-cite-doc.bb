@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cite"
 DESCRIPTION = "This package includes the documentation for texlive-cite"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.5.5svn36428"
+PV = "2023.209.5.5svn36428"
 
-RPM_NAME = "texlive-cite-doc-2023.201.5.5svn36428-53.1.noarch.rpm"
-RPM_HASH = "efaf73bd0e66f3f33f8ffbee0eb888f147ea2f00f87a9c3e404d5090ca18638f8b761aca44ba13a77dcffa29e4e34ca3fbd70a18213ee4cdd303ea2bc2352dbb"
+RPM_NAME = "texlive-cite-doc-2023.209.5.5svn36428-54.1.noarch.rpm"
+RPM_HASH = "14c3077b37df6202003dfe59d2c67dd482c612b65a8c42be21e1d4b14beb4b9882ed916765ec0d9216ff866ab6a5b9fabee32e769b09342afcbb842061c1970c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cite-doc"

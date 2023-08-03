@@ -4,10 +4,10 @@ use with programming and control theory. It is an English \
 translation of the schemabloc package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.51svn57949"
+PV = "2023.209.2.51svn57949"
 
-RPM_NAME = "texlive-blox-2023.201.2.51svn57949-52.1.noarch.rpm"
-RPM_HASH = "726d49b628da110927e844a8da65ac4e0fc4fe109848435a1a0a41b75f9532c280d48a894bfe0eff4a96ea802027638724c629f67cfbb2ea04f82ea451350796"
+RPM_NAME = "texlive-blox-2023.209.2.51svn57949-53.1.noarch.rpm"
+RPM_HASH = "42d9f54fd97acb03036663e25918381c5d187f5e5e57b40d90252f40b55a51924de6632d1ef3e857bcd2e140feace1e68922d53859412e5c1f74f9923f6a59ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-blox.sty \

@@ -7,10 +7,10 @@ message is printed on the back side of all. An illustrative \
 example is provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn21641"
+PV = "2023.209.svn21641"
 
-RPM_NAME = "texlive-postcards-2023.201.svn21641-52.1.noarch.rpm"
-RPM_HASH = "39e6c2f5ea15eadd82a7db7a73be4dbd7d5ca555d99c99a3a2f9b8f3b4c748bfd8a0a0e1d1105ec9d24498511b217bfd050f2db90227dcf8950f5a76cb7d20f8"
+RPM_NAME = "texlive-postcards-2023.209.svn21641-53.1.noarch.rpm"
+RPM_HASH = "4261010c9a0ad04280f9d96e4b1fcd4fbca3cff2949dc39213aababc9d9ca549975f57a0f07b84eaf8dce35fdc19e084b63aa24f6d1c62773f47791e4cb57ca6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-postcards.cls \

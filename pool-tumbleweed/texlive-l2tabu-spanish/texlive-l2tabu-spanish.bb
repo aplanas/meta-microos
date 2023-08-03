@@ -4,10 +4,10 @@ by Mark Trettin. A list of obsolete packages, commands and \
 usages."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.1.1svn15878"
+PV = "2023.209.1.1svn15878"
 
-RPM_NAME = "texlive-l2tabu-spanish-2023.201.1.1svn15878-55.1.noarch.rpm"
-RPM_HASH = "be0fa4655018a8e81b3cc5389cc5e476adc66953660f19a808030d078401e047f11740a964c3c4277a19b0a00c4fda66ea5b8efe3d0649d130f17f52e4910e24"
+RPM_NAME = "texlive-l2tabu-spanish-2023.209.1.1svn15878-56.1.noarch.rpm"
+RPM_HASH = "bf1eecf45a309fbda5291ac6d502050758035d58974845368d0ee199d5e1f0c6099643c54a5f88e1aabe74ba8549f3a31c9766f79811f61bba677630b43162be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-l2tabu-spanish"

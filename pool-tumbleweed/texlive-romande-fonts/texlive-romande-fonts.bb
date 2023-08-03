@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-romande"
 DESCRIPTION = "The  separated fonts package for texlive-romande"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.008_v7_scsvn19537"
+PV = "2023.209.1.008_v7_scsvn19537"
 
-RPM_NAME = "texlive-romande-fonts-2023.201.1.008_v7_scsvn19537-53.1.noarch.rpm"
-RPM_HASH = "426af54b4f225ec59d25873fc8b85933e7b3c76295adcb7e0a4d7329b828c9f9c4872a54d74c84bb827b6d0cb8aa69a6926aab807a4c1d2e67b9d6ddb12b69ec"
+RPM_NAME = "texlive-romande-fonts-2023.209.1.008_v7_scsvn19537-54.1.noarch.rpm"
+RPM_HASH = "c39cec40792ae0bdaf799b8758b7981b12afe7ad56b25244b161eb3a05fb0a2189b7a5031d385625cff809618352e255cfc558f6e9a00a7a2f12502c6679d1e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

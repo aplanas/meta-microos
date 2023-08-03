@@ -4,10 +4,10 @@ and old style numbers, together with Greek support. The \
 extensions are made with modifications of the GNU Freefont."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.1.1.1svn54512"
+PV = "2023.209.1.1.1svn54512"
 
-RPM_NAME = "texlive-txfontsb-2023.201.1.1.1svn54512-52.1.noarch.rpm"
-RPM_HASH = "f573ad7189452d9304bcb00fbafdfb5c4a7aca502e8a15461ec3a272fe07a3d3f4868c82b655d2219e7a0a31aeae3d966fd85f62f4ca0cd42ded9a078fe9587b"
+RPM_NAME = "texlive-txfontsb-2023.209.1.1.1svn54512-53.1.noarch.rpm"
+RPM_HASH = "209b2a89152ee3f3315f658d2e12e9d74fdcf95a88a022944f6d7f9bad15839d09389082f7b76afb5f26d6b2ae1f2c561b247cb7343268de0389c5877dd140fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gptimes.enc \

@@ -4,10 +4,10 @@ typographer Zygfryd Gardzielewski, reconstructed and digitized \
 as Type 1."
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.201.2.08svn18651"
+PV = "2023.209.2.08svn18651"
 
-RPM_NAME = "texlive-antt-2023.201.2.08svn18651-54.1.noarch.rpm"
-RPM_HASH = "a5623370d729af680a8c8ec203f0bfe63f2aabaf8c60aa24d6f71c75e348eeb0bc6ca4cb5972e55d9c109170a6f52fb19be5e3224dfdddff390f7bc537bcc11d"
+RPM_NAME = "texlive-antt-2023.209.2.08svn18651-55.1.noarch.rpm"
+RPM_HASH = "4cf794f7908cc3f69c1424ec4e54d013444bd986b1639cdb7694c8529e0af3a137bf9e2b6d8eec0ef04aef1a786e2cc1b907fc9058f1b95d6bf983f3b81dfe38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-antt-cs.enc \

@@ -6,10 +6,10 @@ the stacks might be used, the documentation offers a small \
 package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.00svn15878"
+PV = "2023.209.1.00svn15878"
 
-RPM_NAME = "texlive-stack-2023.201.1.00svn15878-57.1.noarch.rpm"
-RPM_HASH = "a9cae74213e111d2c316828808f257d86be63ccde1deb7d7041381597ef6b6e48a22b59a403b3fc63447bec40a882bdb556e0b031b2b5c240db1122a8e8d792d"
+RPM_NAME = "texlive-stack-2023.209.1.00svn15878-58.1.noarch.rpm"
+RPM_HASH = "48c2b25e23a9d3aa1fd358a7431d4a90dac08747652dd3dfabdd2d6569960459e3c5266904b5ad4fdefd330e8f54482043c235d71819098cfa9bef0b03e3c9fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-relinput.sty \

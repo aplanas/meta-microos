@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides private headers of libQt6LabsAnimation that
 ABI or API guarantees."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-labsanimation-private-devel-6.5.1-3.1.aarch64.rpm"
-RPM_HASH = "b478f1e4ca9522c7abfd97899aa076f7a257b55927d7aec48140a2820be28d3173dccc5dfcf59cc0e5b07b05b200e9fcd44d5812a6cba808d80f5d713c418e29"
+RPM_NAME = "qt6-labsanimation-private-devel-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "fb4241d29491652821171796499bca25b4e852f11dcdaf68edd6d389e16760f710bfed4370e38a792e4d799190318122460dd817aa417a0b49025b63da67faa9"
 
 RPROVIDES:${PN} += "qt6-labsanimation-private-devel"
 

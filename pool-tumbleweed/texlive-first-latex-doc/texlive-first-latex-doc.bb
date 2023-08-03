@@ -5,10 +5,10 @@ completed that first document, and wants to carry on, will find \
 recommendations for tutorials."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-first-latex-doc-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "6756e9b1c51f91738e456ea4651886bbba8b617b36480cae72467fbea2523bd048ff94a8dd5287048d9cfb1496036b2aac1b536324f3b82497cc090f5bcbead9"
+RPM_NAME = "texlive-first-latex-doc-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "1d10dd1201f54f863da645f8e7fd6e14886be61d3d2bee8bd3c340a5ac31c77c62d257e140cd8e78258527f4a6e4bb6bf49f5fd1a00510b932ddd614d84f5b59"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-first-latex-doc"

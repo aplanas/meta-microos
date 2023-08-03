@@ -13,10 +13,10 @@ digits. The Package works for dvips/Distiller, pdfLaTeX, \
 LuaLaTeX, and XeLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3svn51305"
+PV = "2023.209.1.3svn51305"
 
-RPM_NAME = "texlive-forms16be-2023.201.1.3svn51305-52.1.noarch.rpm"
-RPM_HASH = "2dcb4b3ec3b4c0d56f8db9fa8cda59f628ab835c01e305641b268757f9edf5cd7c9e5dae2c4316d2e6fb416720667dceaa5907644aee6de6b1dfc89042c243ec"
+RPM_NAME = "texlive-forms16be-2023.209.1.3svn51305-53.1.noarch.rpm"
+RPM_HASH = "b9bd6412414a237303485ff7573102b6719292f35a02bcefb753ef9bc5db22d0048fa4cdbbb797be43a6dba40925ac6348f340cc05c27bb1e765003fc7142f13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-forms16be.sty \

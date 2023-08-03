@@ -24,10 +24,10 @@ et documentee, a meme d'etre publiee sur le CTAN. C'est \
 desormais chose faite avec la presente classe letgut."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.9.6svn65548"
+PV = "2023.209.0.0.9.6svn65548"
 
-RPM_NAME = "texlive-letgut-2023.201.0.0.9.6svn65548-54.1.noarch.rpm"
-RPM_HASH = "b230942c89fb3567e20e459b71958426b899060fc47387336fc83ddf06549330dc3fe873d7ccaf4fd263ece31131573525c1c51dee83cf67dbdb21826bc256eb"
+RPM_NAME = "texlive-letgut-2023.209.0.0.9.6svn65548-55.1.noarch.rpm"
+RPM_HASH = "25c8bea95fb178aec288e1a0bc5f2f7dc1df6d655dcecf3aaebb4fbdf5d80127dfc8ac1643e3d6fff96cde2159debc89507e451bbf47b9e486b309197fa8e7d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-informations-gut.tex \

@@ -3,10 +3,10 @@ DESCRIPTION = "C library providing a GtkWidget to display maps. \
 This package contains development files for libshumate."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.0.4"
+PV = "1.0.5"
 
-RPM_NAME = "libshumate-devel-1.0.4-1.1.aarch64.rpm"
-RPM_HASH = "f10b452c39d8ba4a6d9693f43b8e5549aaefc331329ef0e34550fef24d9d7d7e55318c6b2b4c63fe2cc45c84097b8744a007651e7791a59b094510d3c536d6ec"
+RPM_NAME = "libshumate-devel-1.0.5-1.1.aarch64.rpm"
+RPM_HASH = "01af562b023213bb883e3c927c9256380d5c0b413cbe587c1b6dbe14319e897e90a30b91c96a056b689923d04e08635bec958c96cb7275cdceaa5d6857bbe24f"
 
 RPROVIDES:${PN} += "libshumate-devel \
 pkgconfig-shumate-1.0"

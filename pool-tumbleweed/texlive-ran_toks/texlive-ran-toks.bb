@@ -8,10 +8,10 @@ group inside a rtVw constitutes one of these (typically larger) \
 token sets."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn59515"
+PV = "2023.209.svn59515"
 
-RPM_NAME = "texlive-ran_toks-2023.201.svn59515-53.2.noarch.rpm"
-RPM_HASH = "959b1fed781ef2cc6f9b2edd571d57a6cceb3bb81bc4a192b072c4ada3459b79e91a3b9583687746ba9f24638a27425b27ecffceeed3a0b3bf43ee9ab2b29f03"
+RPM_NAME = "texlive-ran_toks-2023.209.svn59515-54.1.noarch.rpm"
+RPM_HASH = "078d7ba82debf98f32102df765cc0cf879c2db83b2008ceb4396d341015ca5cf15c0b206e6a264d071d480ef3099352217869ae671fbd5da3cd8dca5935bb522"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ran-toks.sty \

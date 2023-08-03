@@ -6,10 +6,10 @@ new axes to deal with the different figure versions offered by \
 many professional fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0esvn55920"
+PV = "2023.209.1.0esvn55920"
 
-RPM_NAME = "texlive-fontaxes-2023.201.1.0esvn55920-52.1.noarch.rpm"
-RPM_HASH = "a9ba40280ae046291e561dc5f4d5cf56dfd728559d4b6747eb92dd59980b0e8b9857bd2913a1c38db9a08f65b0b1722092ba45267e5e6ef97950150ddf5b0829"
+RPM_NAME = "texlive-fontaxes-2023.209.1.0esvn55920-53.1.noarch.rpm"
+RPM_HASH = "893266fd9a6a9d1eee1a179ad43a7537bf5e7489bff42c9613dd98f1b0f9b278eda04d18c39f533d5cca4925f1bca2d60f718cbda7a98284e1df0c2c24d85eed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fontaxes.sty \

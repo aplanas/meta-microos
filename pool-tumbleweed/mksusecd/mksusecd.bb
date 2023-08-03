@@ -2,10 +2,10 @@ SUMMARY = "Tool to create SUSE Linux installation ISOs"
 DESCRIPTION = "This is a tool to create SUSE Linux installation ISOs."
 LICENSE = "GPL-3.0+"
 
-PV = "2.11"
+PV = "2.12"
 
-RPM_NAME = "mksusecd-2.11-1.1.aarch64.rpm"
-RPM_HASH = "75dd0d8973d6727a508580cdeead98a677b48f37fa3e216cc6c70653e01a3b2b91bf66468a6185aebefac944059ae7fe810a0e85a2fb75501e9653dd27ee58e7"
+RPM_NAME = "mksusecd-2.12-1.1.aarch64.rpm"
+RPM_HASH = "66ae1c3738113d9586c7ece44de60e182cc5ac176952ce0674d3eefc077935ed5e342d301796e05620266057c4b3d47554bc3e131f59af38425c179c95c5e20b"
 
 RPROVIDES:${PN} += "mksusecd"
 

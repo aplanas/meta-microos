@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-turabian-formatting"
 DESCRIPTION = "This package includes the documentation for texlive-turabian-formatting"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn58561"
+PV = "2023.209.svn58561"
 
-RPM_NAME = "texlive-turabian-formatting-doc-2023.201.svn58561-52.1.noarch.rpm"
-RPM_HASH = "f9d6f29d41d5fb09e953a1a1aff9ba3747b7e806b140d2c6b2a9970d8209cd6a0984870571b87019e3ef69c69e279c5bbcb22dce26f580f09d1a0b404a126fcc"
+RPM_NAME = "texlive-turabian-formatting-doc-2023.209.svn58561-53.1.noarch.rpm"
+RPM_HASH = "c80ae49a7748af3127f7f1bffa6ccc9e90d4129ae6d2f10e2ec3e3b7d0cb743f71703bad08fb81cad98330dd7af53856082a75058a6d57c2fc49b0d158f5ead7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-turabian-formatting-doc"

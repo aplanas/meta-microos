@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-epsf"
 DESCRIPTION = "This package includes the documentation for texlive-epsf"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.201.2.7.4svn21461"
+PV = "2023.209.2.7.4svn21461"
 
-RPM_NAME = "texlive-epsf-doc-2023.201.2.7.4svn21461-53.2.noarch.rpm"
-RPM_HASH = "49cfffd0214e243920021240cbfc430ac5c1017fc34241562e765b39f084a8fe52399eede524edc52bfb273ff93da9cca030092db61508a878e5183adfa00177"
+RPM_NAME = "texlive-epsf-doc-2023.209.2.7.4svn21461-54.1.noarch.rpm"
+RPM_HASH = "8ae98fda425ebacb8968ca9636da707bde0383cf01f9162152f03052e1a70a581f7ae3069dc3132c6ee4af571500d6e3b5556e07870d5bb0203b6967387e3226"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-epsf-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "The Qt Location API helps creating mapping solutions using the da
 from some of the popular location services."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "qt6-location-6.5.1-2.1.aarch64.rpm"
-RPM_HASH = "ea299e513cdd7e64245ccb6794823529808043f873446eb4efb5ee2d7c75ea12ee4d2a689c289383bde012529d8be7739c60dea25fce7bae7dbc363ccdd16fe2"
+RPM_NAME = "qt6-location-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "1adcdd47fc0334f987a2d3311f8195c55e8d445f65e59373c97effe7783f615a08016aa7c1db0e59b9625cdbe37296f43910dd2a8dd43fbeff5e91c7f3ef49e3"
 
 RPROVIDES:${PN} += "libdeclarative-locationplugin.so \
 libqtgeoservices-itemsoverlay.so \

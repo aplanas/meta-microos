@@ -11,17 +11,17 @@ development of future theory models. \
 This package provides all the analysis plugins for Rivet."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.1.7"
+PV = "3.1.8"
 
-RPM_NAME = "Rivet-plugins-3.1.7-1.2.aarch64.rpm"
-RPM_HASH = "b969950894b42cbac2bd2673fef5c2706769ad50c798007a0349561a03154e77f9b268b3d65a79bddc0cd9208ae47f1b43757088ca07710de6517fd0ec3436af"
+RPM_NAME = "Rivet-plugins-3.1.8-1.1.aarch64.rpm"
+RPM_HASH = "92a4c1ae561ace7c45d8ff3cb4aa69d5b12257117c545c4fdab7502af83a7b9bbdf3803f3bb32b29469858f74821fb0415cf63011f8f94050cd45f1acb5c8460"
 
 RPROVIDES:${PN} += "Rivet-plugins \
 config-Rivet-plugins"
 
 RDEPENDS:${PN} += "Rivet-devel \
 ld-linux-aarch64.so.1 \
-libRivet-3.1.7.so \
+libRivet-3.1.8.so \
 libc.so.6 \
 libfastjet.so.0 \
 libfastjetcontribfragile.so \

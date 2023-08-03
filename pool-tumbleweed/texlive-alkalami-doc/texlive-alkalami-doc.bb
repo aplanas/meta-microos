@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-alkalami"
 DESCRIPTION = "This package includes the documentation for texlive-alkalami"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.1.000svn44497"
+PV = "2023.209.1.000svn44497"
 
-RPM_NAME = "texlive-alkalami-doc-2023.201.1.000svn44497-54.1.noarch.rpm"
-RPM_HASH = "cb8a9243e773d252b01d31927663a66468f1e115335d3340df5bbdd458b87e914ce90b57271a21ebe0cfa0b8c811e9935635dac6e75e9207152019145090916e"
+RPM_NAME = "texlive-alkalami-doc-2023.209.1.000svn44497-55.1.noarch.rpm"
+RPM_HASH = "f0e797aa5daa57993aa448ec1f595080415f58e0371ca607b04835a6ad65219ee524f7c098d4910fe74ba3c5038dc7359c797d8c2e645631681c30031cec3105"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-alkalami-doc"

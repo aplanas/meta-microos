@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-grid"
 DESCRIPTION = "This package includes the documentation for texlive-grid"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn61719"
+PV = "2023.209.1.0svn61719"
 
-RPM_NAME = "texlive-grid-doc-2023.201.1.0svn61719-53.2.noarch.rpm"
-RPM_HASH = "6fa34c20fac0d9c12dbbe4fe179f99123af178658eb4b7759bc381974ff985ef94dcb3e5b9dd90ee45dd8f266bfea1df1608376f20edbdf52b3d13f2c4f05cf6"
+RPM_NAME = "texlive-grid-doc-2023.209.1.0svn61719-54.1.noarch.rpm"
+RPM_HASH = "4f78308cfcfc8611ba2e0651d723b605587690295a8c5a0d6b09524c9089f766b741bf2e2d4bb7f6605d583a127c518a0c0ccf09a2953f523a4b18d863cff408"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-grid-doc"

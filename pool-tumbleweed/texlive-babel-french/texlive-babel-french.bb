@@ -4,10 +4,10 @@ conventions in a document (or a subset of the conventions, if \
 French is not the main language of the document)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.5qsvn66513"
+PV = "2023.209.3.5qsvn66513"
 
-RPM_NAME = "texlive-babel-french-2023.201.3.5qsvn66513-53.1.noarch.rpm"
-RPM_HASH = "aec14fdfbc61f4b1ee118fd18263996a7b91da571ec98690fae8e6034223736ab548d31c9df0865b2e5e570f24f4618909b7bddd387689fafdd3163d7e10f760"
+RPM_NAME = "texlive-babel-french-2023.209.3.5qsvn66513-54.1.noarch.rpm"
+RPM_HASH = "b0a61f103a4a42eae2f5bee059ba99aaf2668a1fcd0197b936a96ff00a1af8c9293d9f61237d9fbeac6e457a0026b44f8ececc94e6371531206e38387768d283"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-acadian.ldf \

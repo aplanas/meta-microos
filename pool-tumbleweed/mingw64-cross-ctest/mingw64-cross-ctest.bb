@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the required package to running tests \
 with cross compiled binaries."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.1.3"
+PV = "1.1.4"
 
-RPM_NAME = "mingw64-cross-ctest-1.1.3-1.1.noarch.rpm"
-RPM_HASH = "12d315e73907e85a55fa626275c230ced789083e97dcf5c666cce616eca001b23a8fbd78605c5fc5d344ce4778f4bb4a46241a076f4fed551bf9479db1abdfb2"
+RPM_NAME = "mingw64-cross-ctest-1.1.4-1.1.noarch.rpm"
+RPM_HASH = "2f427d3b55143ea0de22d5715b47a51fb177e75dd3f01f1cdbd39a6e848f776e63a851f1209fb2924e2ada4295878ab01232ec116913f4ffca60bcd3cc6232ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-cross-ctest"

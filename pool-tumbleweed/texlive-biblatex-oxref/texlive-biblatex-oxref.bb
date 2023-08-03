@@ -14,10 +14,10 @@ manuscripts, audiovisual resources, social media and legal \
 references."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.0svn65707"
+PV = "2023.209.3.0svn65707"
 
-RPM_NAME = "texlive-biblatex-oxref-2023.201.3.0svn65707-53.1.noarch.rpm"
-RPM_HASH = "7dbbb947d56f44d07c9151be6d196bfe46e5fbf4220c4c35163520fd53aeff22313658b11d2ad0c32b68852ff5c28a126ba097ebc3b2f7de5da530fa8e467213"
+RPM_NAME = "texlive-biblatex-oxref-2023.209.3.0svn65707-54.1.noarch.rpm"
+RPM_HASH = "9edfc66980348cb234f9961da6076eaa94b726c89503977bc6daea46797e61015d2d45296a30f128dcb212a6780b4ec67b6a3c2e00a5c61758917d1b881860a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-american-oxref.lbx \

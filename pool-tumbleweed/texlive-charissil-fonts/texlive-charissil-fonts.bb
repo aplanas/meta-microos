@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-charissil"
 DESCRIPTION = "The  separated fonts package for texlive-charissil"
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.6.101svn64998"
+PV = "2023.209.6.101svn64998"
 
-RPM_NAME = "texlive-charissil-fonts-2023.201.6.101svn64998-53.1.noarch.rpm"
-RPM_HASH = "7e695b5cf5ac64d4fe45a2cf37fb6ad51fdcd3d549d64f029deead847a1ddb7725c342ac7d05636fe54faa2fa93524d0877cfd1a1455bfb85536767a833716c5"
+RPM_NAME = "texlive-charissil-fonts-2023.209.6.101svn64998-54.1.noarch.rpm"
+RPM_HASH = "caeb51b4f0d320acf2f20b77c6a9fbb3df432d99f06038889f5e10d747c8fe55b5edfc4f7d69292c211719ad26b78773e11f4c7a9ef95bc71c29c4fee2f162f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-charissil-fonts \

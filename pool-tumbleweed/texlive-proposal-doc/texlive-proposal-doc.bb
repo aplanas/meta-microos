@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-proposal"
 DESCRIPTION = "This package includes the documentation for texlive-proposal"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn40538"
+PV = "2023.209.svn40538"
 
-RPM_NAME = "texlive-proposal-doc-2023.201.svn40538-52.1.noarch.rpm"
-RPM_HASH = "0bbc2d681463b864a883737b3ae02c226987926268602ebb00eea982b7e20b57a93d292baff8c6f7900cff67b4621042c267e1b96bab4d4eedbae7db9bcb9ed6"
+RPM_NAME = "texlive-proposal-doc-2023.209.svn40538-53.1.noarch.rpm"
+RPM_HASH = "9eb26c6c8fda2946439484d483800f97315aee401b437c8d1bddd57efd51cf00d76b7653ed8d5d863927a9b38a24492a93b293ad125d768c7543dae392a97743"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-proposal-doc"

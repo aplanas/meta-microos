@@ -6,10 +6,10 @@ edge to follow the outline of capitals that have a regular \
 shape (such as 'A' and 'V')."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.30svn64511"
+PV = "2023.209.2.30svn64511"
 
-RPM_NAME = "texlive-lettrine-2023.201.2.30svn64511-54.1.noarch.rpm"
-RPM_HASH = "88c6cf24d8e0d7aef3d1853989d89e07ffe39b8c6a53bd2aaebf81c91fc8dae29b32d5ef45ac9e0f9eb4ad0f6222406ffcefdda7559ae36af346c895578f0465"
+RPM_NAME = "texlive-lettrine-2023.209.2.30svn64511-55.1.noarch.rpm"
+RPM_HASH = "d63aaa5a10de8a23b86590c0fb8cc139d8fa0cfa158399e79dc1c3dad03077be08fad65181f132c627b1905002e8f06896378987277a68b0ea28f83ed536dcad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lettrine-2006-03-17.sty \

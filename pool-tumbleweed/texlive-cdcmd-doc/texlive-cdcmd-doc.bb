@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cdcmd"
 DESCRIPTION = "This package includes the documentation for texlive-cdcmd"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn60742"
+PV = "2023.209.1.0svn60742"
 
-RPM_NAME = "texlive-cdcmd-doc-2023.201.1.0svn60742-52.1.noarch.rpm"
-RPM_HASH = "5386a09b2580ca66baf08fb266ff5d6c549b43c1d8767b7e9b5f0c34ea80e90fd10764fcddb34308bcb9b94cac3314a559859339cdfa09dd3d3d6e9edd2f0e7f"
+RPM_NAME = "texlive-cdcmd-doc-2023.209.1.0svn60742-53.1.noarch.rpm"
+RPM_HASH = "727041092c80963153651ededf2449141cfb56b6c84afe6fe63ae296170a5219d61c6ad4b4e096d682e6f622e877617eac782365855458f03a74d4b05eddf7eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-cdcmd-doc-zh \

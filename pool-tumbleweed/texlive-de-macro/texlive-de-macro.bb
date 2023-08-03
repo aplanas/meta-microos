@@ -8,10 +8,10 @@ running de-macro on it. De-macro will expand macros defined in \
 document, or in the document's 'private' package file."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4.1svn61719"
+PV = "2023.209.1.4.1svn61719"
 
-RPM_NAME = "texlive-de-macro-2023.201.1.4.1svn61719-52.1.noarch.rpm"
-RPM_HASH = "90be85b3a9d078542627d67b860801b4ee1f920fa84bac62bbd8ba5146b9e4194aa9fa9ead03e95c73daa353e78380b89f2ea913a5c22b21ec1f5bc6f82ce359"
+RPM_NAME = "texlive-de-macro-2023.209.1.4.1svn61719-53.1.noarch.rpm"
+RPM_HASH = "60e9126e00164ad758bce8c905691df279c03a122e65038ba88cb6ad534c8a50d7d45be5f8ac1c1099091504fc446379b1ea63e654a26ffa80062d4adaed0365"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-de-macro"

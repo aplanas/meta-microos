@@ -5,10 +5,10 @@ bundle. It accompanies the pre-testing kernel code \
 users."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.20230501_pre_release_0svn64899"
+PV = "2023.209.20230501_pre_release_0svn64899"
 
-RPM_NAME = "texlive-latex-tools-dev-2023.201.20230501_pre_release_0svn64899-55.1.noarch.rpm"
-RPM_HASH = "540c9d01d1cf19f50e2f654496b1e84c47101afd2b5ccfa23ad8bd9a6fe1416842fa44843d41ae6d0982219284fc289ac97f7f455e90910a7725a604a5900286"
+RPM_NAME = "texlive-latex-tools-dev-2023.209.20230501_pre_release_0svn64899-56.1.noarch.rpm"
+RPM_HASH = "4441ee7ae4a4007b130f6c7a26f1470ba0e096f7416ea29ad4b805df71689fbb631dbb508b2ef853abac2fd1b7359bbeb1240adadd22cdc376897412c1541697"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texdev-afterpage.sty \

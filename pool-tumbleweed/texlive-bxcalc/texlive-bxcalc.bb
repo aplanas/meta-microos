@@ -6,10 +6,10 @@ addition, this bundle provides the bxcalc package, which simply \
 loads the above-mentioned packages internally."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.1svn56431"
+PV = "2023.209.1.1svn56431"
 
-RPM_NAME = "texlive-bxcalc-2023.201.1.1svn56431-52.1.noarch.rpm"
-RPM_HASH = "cb21add7f2e7576d4623cde8bdb1eb8175f28c3f74a537784879355fc411708d6e2caffad34da6a1ce754999f804d168b439754d6ad27e05edef355103b983ee"
+RPM_NAME = "texlive-bxcalc-2023.209.1.1svn56431-53.1.noarch.rpm"
+RPM_HASH = "ab9b866e3860c6408f6390b1b7789b25d431f9d9ac6ef8cc666b9f193cd2e2b89ab1061ce8d39f9536f8fd9ba26a78855c4ade1c964217e9b747f2e8254937fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bxcalc.sty \

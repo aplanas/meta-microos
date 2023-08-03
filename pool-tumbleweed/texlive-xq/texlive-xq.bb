@@ -4,10 +4,10 @@ can write games or parts of games and show diagrams with \
 special positions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.4svn35211"
+PV = "2023.209.0.0.4svn35211"
 
-RPM_NAME = "texlive-xq-2023.201.0.0.4svn35211-52.2.noarch.rpm"
-RPM_HASH = "392d11e3c969bc554e1c6e5f5f86a6a2aa302bf02a62392d0c2d300632e0ba018ce3e89d1dcb14e022ea41219b38f3b84c84dec0f0072a6ac19ca4a6942546a8"
+RPM_NAME = "texlive-xq-2023.209.0.0.4svn35211-53.1.noarch.rpm"
+RPM_HASH = "9d457a3e760a0505f29699ab5cdb11038af1445831a30239c4e144f596211320703f6fe0f7c082139eaa45177809a044ff8763a7cf8916ef530f5a7f9123f0db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xq.sty \

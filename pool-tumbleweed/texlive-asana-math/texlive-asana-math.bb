@@ -8,10 +8,10 @@ with LaTeX is provided by the fontspec and unicode-math \
 packages."
 LICENSE = "OFL-1.1"
 
-PV = "2023.201.0.000.958svn59629"
+PV = "2023.209.0.000.958svn59629"
 
-RPM_NAME = "texlive-asana-math-2023.201.0.000.958svn59629-53.1.noarch.rpm"
-RPM_HASH = "e728d7b50b20571515ff1aef9d86c636c510538d4558ca4c82755457d6086e25c1603373af596ef0f9fc94eb25bff8f5f3fd509a29e3c2fa0a06a6b6ee2ca743"
+RPM_NAME = "texlive-asana-math-2023.209.0.000.958svn59629-54.1.noarch.rpm"
+RPM_HASH = "f09d2152a3bc6d2c3e00b6fe9068051b42bbc866991fe69e2b8efccaee0467dd213e36229af2d7eaef5dbbe793f16214e53419167f2502635e40d2eea9d7251d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-asana-math"

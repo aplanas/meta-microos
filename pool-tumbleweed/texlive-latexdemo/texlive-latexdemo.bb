@@ -5,10 +5,10 @@ printing the result inside a conditional sequence; thus one may \
 suppress printing if the code would not compile."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.1svn55265"
+PV = "2023.209.0.0.1svn55265"
 
-RPM_NAME = "texlive-latexdemo-2023.201.0.0.1svn55265-54.1.noarch.rpm"
-RPM_HASH = "c1919bd4b6992dcc728b083058f534e389eb263fe8c4c16fcb093a6156761da3079b841304bbfd5ca7c713d0a579bddf97bcbc647e2c38b88013bff7c67e5674"
+RPM_NAME = "texlive-latexdemo-2023.209.0.0.1svn55265-55.1.noarch.rpm"
+RPM_HASH = "2db7b0c0ce31626e37534a8528b2f42f735e7da104e5a3e2efe7607e6742b3653d8b0326dfaf8adee1f47d08b087615c960d40d1f875a08fdf53d827f3ff6635"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-latexdemo.sty \

@@ -5,10 +5,10 @@ been updated and several formatting changes have been made to \
 it--most noticibly there are no longer orphans."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-sides-2023.201.svn15878-53.1.noarch.rpm"
-RPM_HASH = "aabbb820b3c3098d4d790aa95519bf268295de85c61570dd370aa76706f9f2588d078656f31d298e7a464bac2a2279b6c2a4e5460ed729eaea5111430179edc6"
+RPM_NAME = "texlive-sides-2023.209.svn15878-54.1.noarch.rpm"
+RPM_HASH = "b859a684a8e15af2d844bfe79fe324d96df1e4a68686b0093a3a6e1d095f97f7ed55dfbb36f84c1f99a7f8107512d9dba0d2ed86d9a4244d8bf003bf1d6281c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sides.cls \

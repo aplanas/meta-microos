@@ -5,10 +5,10 @@ implemented as an extension of the memoir class. Clase de Tesis \
 doctorales para ingenieria, Universidad de los Andes, Bogota."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.9svn27253"
+PV = "2023.209.1.9svn27253"
 
-RPM_NAME = "texlive-tui-2023.201.1.9svn27253-52.1.noarch.rpm"
-RPM_HASH = "ef210ae22b291a3ea90fcf2532157384bd428d79d9bddaa660d566b301ec9815c5bf2ccf3952f9f0358b971f47ebd918607c66f6eb0aa973cad1b800dd90bd1c"
+RPM_NAME = "texlive-tui-2023.209.1.9svn27253-53.1.noarch.rpm"
+RPM_HASH = "5049750742cf58dc8311fecace0a545f14b61b15bf0510467b35d865bd0a37aa98c64ff81c2949e95bbc5f0160e1fb580b45dfa6d5c991d74749fb72a0ce1fb3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tui.cls \

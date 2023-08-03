@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-counttexruns"
 DESCRIPTION = "This package includes the documentation for texlive-counttexruns"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.204.1.00asvn27576"
+PV = "2023.209.1.00asvn27576"
 
-RPM_NAME = "texlive-counttexruns-doc-2023.204.1.00asvn27576-54.1.noarch.rpm"
-RPM_HASH = "fc4788c89ff7bfa6ee2c3e0b4e19e2d84b9a149ef9daee01667c5826453bf9ce3fe961a744ddb03d2788e9b4c88dbbea66e05154b8d4344c38bda4ece3d29fb6"
+RPM_NAME = "texlive-counttexruns-doc-2023.209.1.00asvn27576-55.1.noarch.rpm"
+RPM_HASH = "627ca484dca452df1b8d418752bb29fbaa80cda876f04ec3126fe79aad268341ba1754035b58ca0862b292a7cfd8437b4abd13e80c9db626d5d3583ec8461acb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-counttexruns-doc"

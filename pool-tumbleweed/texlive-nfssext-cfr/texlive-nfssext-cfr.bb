@@ -5,10 +5,10 @@ been developed for use in packages such as cfr-lm and \
 venturisadf,"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn43640"
+PV = "2023.209.svn43640"
 
-RPM_NAME = "texlive-nfssext-cfr-2023.201.svn43640-54.1.noarch.rpm"
-RPM_HASH = "f916d694ac94d8f7fcb5c1d37ed719aa2167c6569455d28180d594b6442d45c9c3a4d0ea0ed386585180dac8e09e315165c5ea05bdbafd2c3b182cffe7c56fa0"
+RPM_NAME = "texlive-nfssext-cfr-2023.209.svn43640-55.1.noarch.rpm"
+RPM_HASH = "c26da4e9a5ee7575f802a28097b9a5aa46d02c890efb82e201272bc33e6d85d82b4d1415f4e8c9802b442d177eec206289dc51a0b65d445f05fae3713a66116f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nfssext-cfr.sty \

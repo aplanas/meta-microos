@@ -5,10 +5,10 @@ fur LaTeX2e<< by Markus Kohm, published by Lehmanns Media. \
 There are no further descriptions of these examples."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn63833"
+PV = "2023.209.svn63833"
 
-RPM_NAME = "texlive-koma-script-examples-2023.201.svn63833-55.1.noarch.rpm"
-RPM_HASH = "6968fcee97db57b059585499174be5ec4e6d91101dab9608db07362534c266dcb467450d8ea269a84b3487041ca91280adf011ff262abe9f99c992778219f851"
+RPM_NAME = "texlive-koma-script-examples-2023.209.svn63833-56.1.noarch.rpm"
+RPM_HASH = "22377241e31ad736d32ebb4de98d368d5a2bb7fd0fabea375403e5a35c8030282938301def84653330f5de7a903a8934e461724034bb4d22fbf33b02f9feeb83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-koma-script-examples"

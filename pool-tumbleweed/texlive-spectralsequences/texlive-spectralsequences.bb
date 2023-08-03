@@ -15,10 +15,10 @@ carefully designed error reporting system intended to ensure \
 that it is as clear as possible what is going wrong."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.3.3svn65667"
+PV = "2023.209.1.3.3svn65667"
 
-RPM_NAME = "texlive-spectralsequences-2023.201.1.3.3svn65667-57.1.noarch.rpm"
-RPM_HASH = "4bfcfc643cb9baa4d19a29ddfbe7958b870f17c8a39c3bd4f6dee9dd6ea386ebf41e035df2cc1d822a80226383e49c290b6c4785f4a6b2ce1051b57f104bfd0e"
+RPM_NAME = "texlive-spectralsequences-2023.209.1.3.3svn65667-58.1.noarch.rpm"
+RPM_HASH = "4adca27e6e345693e7f912d6e65e770c6f9476ac47b979d3464e66ef5525a25a79f88833e8718ff7e9426fc28eac25041985d365302848476873ffceb73f195c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-spectralsequences.sty \

@@ -6,10 +6,10 @@ floats nevertheless stay close to their call-outs. Several \
 aspects of the algorithm behavior are adjustable."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0bsvn58058"
+PV = "2023.209.1.0bsvn58058"
 
-RPM_NAME = "texlive-fewerfloatpages-2023.201.1.0bsvn58058-52.1.noarch.rpm"
-RPM_HASH = "fcd8fb987ce0b08a1e0c0bb9bd4c326cec2611df0052eca2505af92f7070873e36e0082cda0d10093b5e8268e8007ad45406aae184f61200e634e19f81e49481"
+RPM_NAME = "texlive-fewerfloatpages-2023.209.1.0bsvn58058-53.1.noarch.rpm"
+RPM_HASH = "9f18e36386a0521a1f685a62e54c6e701cc2a9903478a3bb1b500ab78de6807efc918a7bb055ecec9263ec1064b743a394826b6e09545ae3d58eb9873a81afbe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fewerfloatpages.sty \

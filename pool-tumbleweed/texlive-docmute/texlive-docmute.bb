@@ -4,10 +4,10 @@ everything but the material between \\begin{document} and \
 \\end{document}."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.4svn25741"
+PV = "2023.209.1.4svn25741"
 
-RPM_NAME = "texlive-docmute-2023.201.1.4svn25741-52.1.noarch.rpm"
-RPM_HASH = "8b389872c1dbc7f4a9b569f1343c6b532d4c4cdd305bec5c05fb889900547fae3c4ff12c9bab00f05297a1112623e237d45e4db0db53d070d97bef82908900ca"
+RPM_NAME = "texlive-docmute-2023.209.1.4svn25741-53.1.noarch.rpm"
+RPM_HASH = "bf7d597a7e74e2e4b844e3c856ae54412d3fbadcfc0979836573d5739928859e9bbfd362a29f4d96029270c91ede7bb6e9391cf62df42628762fc2395211f36a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-docmute.sty \

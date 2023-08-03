@@ -6,10 +6,10 @@ decimal separator and maths; and upright Greek letters in \
 maths."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn64691"
+PV = "2023.209.svn64691"
 
-RPM_NAME = "texlive-was-2023.201.svn64691-53.1.noarch.rpm"
-RPM_HASH = "19960d5d506f4e6b1fa6999088185e3cca5bd19b58a4a8e61747cbd72189d7e58deee4f3982e340e0f925130147b9c8b0aa0b1a92e79ac87cabedb9d20afeb1b"
+RPM_NAME = "texlive-was-2023.209.svn64691-54.1.noarch.rpm"
+RPM_HASH = "217963ab1d001a170271310c3e49150af31c00001635127eb8c3ccfa09c9f8211ea5b9ea2a4f5a2bd578a239c7c08a809c0c48f8a95e6ca29ae30aa1aec9cc07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-icomma.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-phffullpagefigure"
 DESCRIPTION = "This package includes the documentation for texlive-phffullpagefigure"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.0svn41857"
+PV = "2023.209.1.0svn41857"
 
-RPM_NAME = "texlive-phffullpagefigure-doc-2023.201.1.0svn41857-51.1.noarch.rpm"
-RPM_HASH = "5341608676877bd1635efbff48c98f9c454259e107534a261219e812e4977b883ab4d8fd591b5d65becf2c81e8ae7d543b8fc8a1fe90ae4891ac2fe1cb35101c"
+RPM_NAME = "texlive-phffullpagefigure-doc-2023.209.1.0svn41857-52.1.noarch.rpm"
+RPM_HASH = "0526f257f2e6e616cfbf181282c5da1b35ebf24af212467bdb050e9b5f922242e572baaabc2fcd3b02003b51eb5deb2399cbfd5995246ca48db8264f8934a0d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-phffullpagefigure-doc"

@@ -4,10 +4,10 @@ not itself difficult to program, it is felt that many users \
 will be happy to have a library for the job.."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.svn15878"
+PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-blockdraw_mp-2023.201.svn15878-52.1.noarch.rpm"
-RPM_HASH = "fc2da715522f5c7827bedb9fc3ab1b9cb9ac8d071992a0ba8379eb9d7695181059c13e407372ae361ed7933580a06410443ef5736bda6d28685b3a1ecd6f8d94"
+RPM_NAME = "texlive-blockdraw_mp-2023.209.svn15878-53.1.noarch.rpm"
+RPM_HASH = "9802f3ae52bf942846c883bca8839b7bce238d214d7ced2265d567a42bac8d9d30842c31a1a1f0b8024a75e005fd667ca7b8730c81ca4253f845c073688351d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-blockdraw-mp"

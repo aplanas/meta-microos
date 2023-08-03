@@ -5,10 +5,10 @@ true-color, OpenType ligatures, mouse protocol, focus tracking, \
 bracketed paste and so on, and which can be controlled by scripts."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.29.1"
+PV = "0.29.2"
 
-RPM_NAME = "kitty-0.29.1-1.1.aarch64.rpm"
-RPM_HASH = "5f777b79f11275a86af24d9349a106d31d6532f8a39d6513f6d821ac08f70227c4e9f0204d165cc191b8b3b53ab35b94cec4281a9bb0b4c9139c284d0b9fed14"
+RPM_NAME = "kitty-0.29.2-1.1.aarch64.rpm"
+RPM_HASH = "77c66f5fbbcbc2b813b7105db3b1b8dec3279916bc336cb04f36d716cc17a67a0dc9f9883656b5399f481ac91866cb357c0dff4d6f96d93cc72914b9918b4552"
 
 RPROVIDES:${PN} += "kitty"
 

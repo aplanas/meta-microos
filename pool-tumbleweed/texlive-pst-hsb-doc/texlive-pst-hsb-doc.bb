@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-hsb"
 DESCRIPTION = "This package includes the documentation for texlive-pst-hsb"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.0.0.02svn61322"
+PV = "2023.209.0.0.02svn61322"
 
-RPM_NAME = "texlive-pst-hsb-doc-2023.201.0.0.02svn61322-52.1.noarch.rpm"
-RPM_HASH = "e85006df0ca2f053fb192c854652010d152d17af4cc90087a76c83b758814796337f76d3e5a9994faf5cce0b31f2768805774db4d14567c8eb6ab5b5812d101f"
+RPM_NAME = "texlive-pst-hsb-doc-2023.209.0.0.02svn61322-53.1.noarch.rpm"
+RPM_HASH = "dc0830fa29a0e6869d674c6d7a12ec84698b320e7c04583ae86221e7c99759e782dd9ad3cc3d2b3f076ba68ca8e06859b273c280ad6ecb6175b9c3e5faf0db76"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-hsb-doc"

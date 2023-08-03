@@ -6,10 +6,10 @@ macros by \\DeclareRobustCommand. This package defines \
 macros."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.1.6svn53022"
+PV = "2023.209.1.6svn53022"
 
-RPM_NAME = "texlive-letltxmacro-2023.201.1.6svn53022-54.1.noarch.rpm"
-RPM_HASH = "0929d3adfc455252d0de232ec807cb5174f1f554a1b0ef3211881f86b1586250ced2a1e85466c0e5c1cd7fd2dc49fa85d792527ed6b0a8c1b1f04114c5ef643c"
+RPM_NAME = "texlive-letltxmacro-2023.209.1.6svn53022-55.1.noarch.rpm"
+RPM_HASH = "3c645b7fa224447186d2f7837ed13232da518b73d7e9f1ba13d7cd125182c36aea860aef08520ca69fd42645448073f5570c5638da00e5c2acc918b1831d1128"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-letltxmacro.sty \

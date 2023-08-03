@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-qtree"
 DESCRIPTION = "This package includes the documentation for texlive-qtree"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.1bsvn15878"
+PV = "2023.209.3.1bsvn15878"
 
-RPM_NAME = "texlive-qtree-doc-2023.201.3.1bsvn15878-53.2.noarch.rpm"
-RPM_HASH = "a98711e0901c07005e236b5839b61c69dc4c7ed509ce6b931abe9305567e5cd95beabeeaa3568f23bb938baf28a636e1cdaa6870d9bd0dad79ca2715860425f0"
+RPM_NAME = "texlive-qtree-doc-2023.209.3.1bsvn15878-54.1.noarch.rpm"
+RPM_HASH = "abdbbe1953868f3ecb727e30ae4838a4e038dea553c92fb4be9392ea31cc3f4f2ed17d692aa4e9cf8a32bb9839e20a486bd890f3601fff29f976393ee44f1120"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-qtree-doc-en \

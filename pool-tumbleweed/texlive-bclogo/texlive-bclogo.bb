@@ -4,10 +4,10 @@ title and logo. It may use either tikz or PSTricks as graphics \
 engine."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.1svn39364"
+PV = "2023.209.3.1svn39364"
 
-RPM_NAME = "texlive-bclogo-2023.201.3.1svn39364-53.1.noarch.rpm"
-RPM_HASH = "b72073b810208a6c2d616ebbf26f71d6dcc056d70923fe17b0bcd235f921ec637f3efd367b29bdc406c050f60ab7830958d68ac8c41023d7d4463d83942ca992"
+RPM_NAME = "texlive-bclogo-2023.209.3.1svn39364-54.1.noarch.rpm"
+RPM_HASH = "db677b00ebc3c3d2bf68e335a5919258aa0fd155c2bb9692a4bc4ed55f39d8f765e7af20c680a1ee634671a028e07eef51e56c63079ebf62e67b05b5a8af470c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bclogo.sty \

@@ -4,10 +4,10 @@ use TCP/IP. Operations such as requests, cookies, and sending data \
 over HTTP are handled by various C++ classes."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "libQt6Network6-6.5.1-4.1.aarch64.rpm"
-RPM_HASH = "3f2c674a37feba0540d22c69584923e7d5875d2e6a8f9074600b742b065b6f4038f2fe2192ac517aae37c30d781ed3ee3cec4516a3880fc6b412efaf7d7f8f25"
+RPM_NAME = "libQt6Network6-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "0b2f610731e6dd8ffddc1192d61e84f4f88bbceaababb6f8b37ee3191c3d951d5ddd7897cee20ca3f296eab5b29ad7e67659dcb6f7398372399cf85bd56b5762"
 
 RPROVIDES:${PN} += "libQt6Network.so.6 \
 libQt6Network6"

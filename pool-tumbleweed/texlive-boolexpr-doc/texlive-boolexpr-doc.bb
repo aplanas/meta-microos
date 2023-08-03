@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-boolexpr"
 DESCRIPTION = "This package includes the documentation for texlive-boolexpr"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.3.14svn17830"
+PV = "2023.209.3.14svn17830"
 
-RPM_NAME = "texlive-boolexpr-doc-2023.201.3.14svn17830-52.1.noarch.rpm"
-RPM_HASH = "ecb21f7a4b6afc5a9acf35e27f0abc14145577aa32cabcedf1aad3ebec0befac6d9c9e71d8f27c815a279ba1b70423e7a83b198c8e80dae4c65492e207a98e25"
+RPM_NAME = "texlive-boolexpr-doc-2023.209.3.14svn17830-53.1.noarch.rpm"
+RPM_HASH = "30fdaa44314f9622948789db7793e3945841deedafe7a5bd9a62a95472577f0eb46be950ae3922c129dae30956e57b9903de2cb8a2a6c392c8d899b405543a5d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-boolexpr-doc"

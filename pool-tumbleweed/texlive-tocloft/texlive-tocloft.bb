@@ -4,10 +4,10 @@ List of Figures and List of Tables, and the ability to create \
 new 'List of ...'. The ToC \\parskip may be changed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.201.2.3jsvn53364"
+PV = "2023.209.2.3jsvn53364"
 
-RPM_NAME = "texlive-tocloft-2023.201.2.3jsvn53364-52.1.noarch.rpm"
-RPM_HASH = "a93d63e02524686910c4638259feb0c7851c2b61ed89332e99e2f8cd0faed8c97ca957e92024c0cce09e71fa1cb5cc5909b9b8623ff5697a3a75df82e8c7843f"
+RPM_NAME = "texlive-tocloft-2023.209.2.3jsvn53364-53.1.noarch.rpm"
+RPM_HASH = "29f92a8fea2306a6f238641b17652eb8fdbf9fd86cee801a2e17697ba69dbd1d84e52806f68f3f326b0156bd302382763fc9ef6a8314378e4c22d131695597a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tocloft.sty \
