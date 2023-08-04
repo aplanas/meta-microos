@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a proxy translating GMenu (GTK Menu) to DBu
 standard), useful for global menu implementations."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "gmenudbusmenuproxy-5.27.6-2.1.aarch64.rpm"
-RPM_HASH = "5da5160eca6510aaa07a5b653832157170d5d879b9486d547b953d5a735ebd9d5024299e263d0b0d3e82b45a8a03ebe702b5428d62a0cfb85841c913bab02424"
+RPM_NAME = "gmenudbusmenuproxy-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "450e3cf8e1cc07b931d57f3cd0f6c65352f024c98aebc6777e88aced4da8a4737fdaa92f236ec197a3d5f852e621d656eb4d6bb58ad7bea301811159e7ce49e7"
 
 RPROVIDES:${PN} += "gmenudbusmenuproxy"
 

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package plasma-vault"
 DESCRIPTION = "Provides translations for the 'plasma-vault' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma-vault-lang-5.27.6-2.1.noarch.rpm"
-RPM_HASH = "ced2ee452c02344682ad5f60d885f5afe4eb267c32b1ca3ef1342c3323e980f1724dcb10498092415ccd7084a8e2ca01997140e695fbf389753d5cc6376a2d6d"
+RPM_NAME = "plasma-vault-lang-5.27.7-1.1.noarch.rpm"
+RPM_HASH = "79e2a4babd21ef9a7a81dd375e88c8ef7024df52bfd236879444197e6f6d53341fd08307565f5dc34b770defcc45777218431a807088fdb455fea76845307f8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plasma-vault-ar \

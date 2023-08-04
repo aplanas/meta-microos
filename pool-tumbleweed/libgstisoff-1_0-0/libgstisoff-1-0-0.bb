@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstisoff-1_0-0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "50d57c8f6426e02ba6548aec866101572f0d22ecc3438d51b5a8b82cd01af906b9e404f509ea6cefc6404d4b66cacf7af89b656e4156c336208329f6c01e2b3d"
+RPM_NAME = "libgstisoff-1_0-0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "be2ecc955e139806c03e7921b909f2619593b6efef66c51356f815ac894303d837c4b1771f0b28809d7cbdf68f83d81e753bf2180d6ebc29fd13d6b516feefe2"
 
 RPROVIDES:${PN} += "libgstisoff-1-0-0 \
 libgstisoff-1.0.so.0"

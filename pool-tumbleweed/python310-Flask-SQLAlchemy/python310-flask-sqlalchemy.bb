@@ -2,10 +2,10 @@ SUMMARY = "SQLAlchemy support for Flask"
 DESCRIPTION = "Adds SQLAlchemy support to your Flask application."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.0.2"
+PV = "3.0.5"
 
-RPM_NAME = "python310-Flask-SQLAlchemy-3.0.2-2.3.noarch.rpm"
-RPM_HASH = "ce0322099b23c0e6920ef6e48a0caf5d0a778e8c50d3be3bf446b23b5b0aaf67b443abecf928b0db3174cd3fcca1719476e287b6d305fb8aefa6c01a2ebe171d"
+RPM_NAME = "python310-Flask-SQLAlchemy-3.0.5-1.1.noarch.rpm"
+RPM_HASH = "65a06dcad62b715d287760f552af871d0dc31d1daa9ac28be0deee469d3bb444e6d8eac7ff7fea27708d7f02cbaef7bd6cfc80c2904185b840919fd2d7768cc6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-flask-sqlalchemy \

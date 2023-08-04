@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.4.4"
 
-RPM_NAME = "libavcodec58_134-4.4.4-2.1.aarch64.rpm"
-RPM_HASH = "78090981577719e38547fa911ec5b471466b50f06bfc2c3d3f1969b58dfc6753bffb17d4759955932cd44680fa64c690bce71ac65be63ce1f5c69269a486a971"
+RPM_NAME = "libavcodec58_134-4.4.4-2.2.aarch64.rpm"
+RPM_HASH = "d9fed1ca2c524b4469ec50340575b1041bba69d977b16e245e636cd8d140e3a1242dab54772389963426b8692304e0ad989abaad42cbcabda088ea94b6568aca"
 
 RPROVIDES:${PN} += "libavcodec \
 libavcodec.so.58.134 \
@@ -23,7 +23,7 @@ libavutil.so.56.70 \
 libavutil56-70 \
 libc.so.6 \
 libcelt0.so.2 \
-libcodec2.so.1.1 \
+libcodec2.so.1.2 \
 libdav1d.so.6 \
 libgsm.so.1 \
 liblzma.so.5 \

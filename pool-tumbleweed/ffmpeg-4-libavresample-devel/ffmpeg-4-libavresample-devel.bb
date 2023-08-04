@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.4.4"
 
-RPM_NAME = "ffmpeg-4-libavresample-devel-4.4.4-2.1.aarch64.rpm"
-RPM_HASH = "7a70f49e1300bb0b30046b013244f7904de91823a9f17208deaa131c786c06f961c55e3ba08b06b4d72a71fe687ed7df75b39a57f745672135be1d989f4512a4"
+RPM_NAME = "ffmpeg-4-libavresample-devel-4.4.4-2.2.aarch64.rpm"
+RPM_HASH = "d49cc9f3901cadaf84d629f31d38b67f2aa34081ad255fb9cf0579c85ad1dcbe33315761e2c46b3bd9ad84fae7d46e9550c64c379252c802e52653a18f7820f2"
 
 RPROVIDES:${PN} += "ffmpeg-4-libavresample-devel \
 libavresample-devel \

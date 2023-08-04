@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop applications that require the magic 'file' interface."
 LICENSE = "BSD-2-Clause"
 
-PV = "5.44"
+PV = "5.45"
 
-RPM_NAME = "file-devel-5.44-2.3.aarch64.rpm"
-RPM_HASH = "3244218bbea4f937b407212f8475195693b97696cefb5f50a049bd3ce9c7c59b0c764caf370ffbfa6b6beace47c47c4ab2cf8b487c608be0502b9b139d134a0a"
+RPM_NAME = "file-devel-5.45-1.1.aarch64.rpm"
+RPM_HASH = "1d2188dc4ba9b141ba0a0c1151e02954a377361fe637c9220691f2fac00f3b306c1fab5192f24500b03ef17d2d9730fd6ca7996c9b7482447b5a1e1f8af530d4"
 
 RPROVIDES:${PN} += "file-/usr/include/magic.h \
 file-devel \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package powerdevil5"
 DESCRIPTION = "Provides translations for the 'powerdevil5' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "powerdevil5-lang-5.27.6-1.1.noarch.rpm"
-RPM_HASH = "06473e846234f803056f018524afbb5ec95df37f272d2a28e4c0ac407160a31ed6d68c2a11fc4db029bea21007e8d81f7249e4d8bcce085c37e69a46a8b93bb8"
+RPM_NAME = "powerdevil5-lang-5.27.7-1.1.noarch.rpm"
+RPM_HASH = "87609aceaa5fab07d47ee86f737abeecdfa4b7abbd7b0bee6803ed33b226da2d9ebfb90d3c4ddc075c9d27724c7839ae2d87348f6f0873a7c95310d0d8056d90"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-powerdevil5-ar \

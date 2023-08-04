@@ -2,10 +2,10 @@ SUMMARY = "KDE Office"
 DESCRIPTION = "KDE Office"
 LICENSE = "MIT"
 
-PV = "20230403"
+PV = "20230801"
 
-RPM_NAME = "patterns-kde-kde_office-20230403-1.1.noarch.rpm"
-RPM_HASH = "4ceeb3b826bd3463b0443c380eed6c61f8be57477d516d56cfcc7ca9cbc2d854bb4d4eccf85ca09a01e40507cb7eaff2398ffbd589c4e8da18fb054860252150"
+RPM_NAME = "patterns-kde-kde_office-20230801-1.1.noarch.rpm"
+RPM_HASH = "ce54ddb8cd0227efe401463ba3685a4c627c58699267e91eb597ce36df4aafed8fda652b2af39e3a62dd1c3ef7707b342b6422eee70414600826413f953584a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pattern- \

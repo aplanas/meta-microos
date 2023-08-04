@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstsdp-1_0-0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "46417c7088e4638e9cf2af8e4e66eedbba242070be388f6c71a68136136c593e128d57def763c138caea71983aa1806bed7a48f5693ef87dcad08e3a67e22a39"
+RPM_NAME = "libgstsdp-1_0-0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "bc043e7a8115c957dff43fc082ca1696d553f92ac34cd584ac5ea3fae27e4264a7c4b98720fbc55ad033c860ecc08a2f257fc3ed4c994825d944f0226af0b833"
 
 RPROVIDES:${PN} += "libgstsdp-1-0-0 \
 libgstsdp-1.0.so.0"

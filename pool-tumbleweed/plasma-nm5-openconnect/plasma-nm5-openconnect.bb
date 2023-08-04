@@ -2,10 +2,10 @@ SUMMARY = "OpenConnect support for plasma-nm5"
 DESCRIPTION = "OpenConnect plugin for plasma-nm components."
 LICENSE = "(GPL-2.0-only | GPL-3.0-only) & (LGPL-2.1-only | LGPL-3.0-only)"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma-nm5-openconnect-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "b6c6cfb83b9f4a0127dbf31304c2cd6d7c09789d8b0cd82c798478a17535f4a0d0eb9d4c7bb62f0e007aba57bf1580492ed2b70f5a91274f0d854b6cd11e0eed"
+RPM_NAME = "plasma-nm5-openconnect-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "306f344a549c33d5a6a8f76db0546f0e72671e02e16f247822ab0cc5c6795f33710398c71c409afef49204af0f1bc08d4388b6ffdc91a88116004074601e4dc7"
 
 RPROVIDES:${PN} += "NetworkManager-openconnect-frontend \
 plasma-nm-openconnect \

@@ -2,10 +2,10 @@ SUMMARY = "Library and components for secure lock screen architecture - developm
 DESCRIPTION = "Development files for Library and components for secure lock screen architecture."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "kscreenlocker-devel-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "9037abea6d3224fc677bb28c717e352a4563cd1fc2be46eaf3a8d6561e77320520b6fb376259943c28e36ffdf49e27e3b6e9b1b1eb0648e27621cb4bcb232138"
+RPM_NAME = "kscreenlocker-devel-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "2818ef69c77c60853f80e2c02339a704548b9c20cb68dfefb581fe399b067e3c82f598df543a19d8e8c1b1d4cd307040343ae447adfdb8290d96b16bc930237a"
 
 RPROVIDES:${PN} += "cmake-KScreenLocker \
 cmake-ScreenSaverDBusInterface \

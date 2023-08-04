@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides modules to control settings of Plasma and o
 applications by KDE."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "systemsettings5-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "a2652b63c185a535458dfd86378ecb800233e147195eb3c949e13940b1b3d32ec0a3f7463d178a47f56b9c204195052559cf22082703bc9a8b8485e0c155eac1"
+RPM_NAME = "systemsettings5-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "8c73a57ad20cc0acaba43d2c0da29ccb35de76944f8503d48e7bad632d704de6e02ce6ef54eba8f890346f89d51b73d8d36da5c42787d3856a0fb2773f97507d"
 
 RPROVIDES:${PN} += "libsystemsettingsview.so.3 \
 qt5qmlimport-org.kde.systemsettings.1 \

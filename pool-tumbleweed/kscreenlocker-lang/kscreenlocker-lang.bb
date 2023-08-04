@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kscreenlocker"
 DESCRIPTION = "Provides translations for the 'kscreenlocker' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "kscreenlocker-lang-5.27.6-1.1.noarch.rpm"
-RPM_HASH = "239eb1956e9b7fd2ad92968dcc4451b278e4a8d0f2b8e332e0e18e5c00d6d976667af0162d8985adb486e69488cf4c8be4aa6481a30737c2cd4c0fd33b4a8f2a"
+RPM_NAME = "kscreenlocker-lang-5.27.7-1.1.noarch.rpm"
+RPM_HASH = "d5c8b19b43407f553bcb4326b7fc4947a37cad5b770c45d41958a185f4ec4308e23112f9202d24720d743a65a283011c61a3e96b1f2ad710b2ae5a43bb63aaf6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kscreenlocker-lang \

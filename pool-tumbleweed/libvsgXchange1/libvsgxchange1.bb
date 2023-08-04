@@ -8,10 +8,10 @@ Vulkan. \
 This package contains the shared libraries for vsgXchange."
 LICENSE = "MIT"
 
-PV = "1.0.3"
+PV = "1.0.4"
 
-RPM_NAME = "libvsgXchange1-1.0.3-1.1.aarch64.rpm"
-RPM_HASH = "9b49d39a6287996d41fa67068d7f2cda4d22bff82ce11da60a6f6ae5731cf7ef5dca5ac1e01e968e5d0901502dc469ae388583a6ef05a8ec609358bf3baf8290"
+RPM_NAME = "libvsgXchange1-1.0.4-1.1.aarch64.rpm"
+RPM_HASH = "3ce341470c5dcd1546c751a7a15f5c5532344a6057a8631571e03c757104b923e6eb262d4eb1ead68e0aae675881f208a0ec8561d64ddb94e843cd5ccbffc6ba"
 
 RPROVIDES:${PN} += "libvsgXchange.so.1 \
 libvsgXchange1"
@@ -27,7 +27,7 @@ libgdal.so.32 \
 libm.so.6 \
 libosg2vsg.so.0 \
 libstdc++.so.6 \
-libvsg.so.13 \
+libvsg.so.14 \
 libvulkan.so.1"
 
 inherit rpm

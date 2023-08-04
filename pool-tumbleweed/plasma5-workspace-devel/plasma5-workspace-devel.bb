@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the basic packages for a KDE Plasma 5 works
 Development files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma5-workspace-devel-5.27.6-2.1.aarch64.rpm"
-RPM_HASH = "8f1218fdb4a1acd888331d9b3f97afb39d7380d593d1e7789eda9a13540a592da7d0fd47fe2ba6cd1b19e423d9c7479b884d00b345e2dbbbce4941a65d4ad505"
+RPM_NAME = "plasma5-workspace-devel-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "03f3df11853c0e00331b051d752976da6ec801f778a643fd1c0aa0c51f2fcf61e3b768db1869584027dccd9643450540a4d6c8216ca481992300ad7e7b475230"
 
 RPROVIDES:${PN} += "cmake-KRunnerAppDBusInterface \
 cmake-KSMServerDBusInterface \

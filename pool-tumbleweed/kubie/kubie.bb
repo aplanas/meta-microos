@@ -6,10 +6,10 @@ multiple files. You can configure the paths where kubie will look for \
 contexts, see the settings section."
 LICENSE = "Zlib"
 
-PV = "0.20.1"
+PV = "0.21.0"
 
-RPM_NAME = "kubie-0.20.1-1.1.aarch64.rpm"
-RPM_HASH = "49345cd0147b01c74436dbd104e9666065584950356c7c60f996433cc2ef92c1f8db5f155f93dfdaa468211a8c2d1e78ad97c55244eb31985928d728985793c4"
+RPM_NAME = "kubie-0.21.0-1.1.aarch64.rpm"
+RPM_HASH = "0879524c4c0af55acee75476b0dc7e054ff66d1e2ad6a0b301924ed23ff534dcc20199912929341b18e32848bad282c29378aaa32f196c6cd6adbd22497c8ea5"
 
 RPROVIDES:${PN} += "kubie"
 

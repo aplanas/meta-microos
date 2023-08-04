@@ -4,10 +4,10 @@ DESCRIPTION = "libopenraw is a library that aim at decoding digital camera RAW f
 This package provides a libopenraw-based gdk-pixbuf loader."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.3.4"
+PV = "0.3.7"
 
-RPM_NAME = "gdk-pixbuf-loader-libopenraw-0.3.4-2.1.aarch64.rpm"
-RPM_HASH = "8353d7da4fa2f91f0ea2e64dfb18928a088bd701ff4f96a8dc7a0ccf19bd5d4881a7512eff8ca7ef4147a1e4ef3b1c32125b7a3122ff0552fd7b5ab6f2784583"
+RPM_NAME = "gdk-pixbuf-loader-libopenraw-0.3.7-1.1.aarch64.rpm"
+RPM_HASH = "e59e1424b061eefb27f339ac5c35d5790def822012f5c59570b8b004b144cf45873a9641366a8ddfdcaba4b2a7a8e0d32cc53b9d7534cb0e06e4fc776e7e5ec8"
 
 RPROVIDES:${PN} += "gdk-pixbuf-loader-libopenraw \
 libopenraw-pixbuf.so"

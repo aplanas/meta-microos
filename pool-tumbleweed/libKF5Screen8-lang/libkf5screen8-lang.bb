@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5Screen8"
 DESCRIPTION = "Provides translations for the 'libKF5Screen8' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "libKF5Screen8-lang-5.27.6-1.1.noarch.rpm"
-RPM_HASH = "4471f37516c3bf74ff0ebecfe32ace91dc20db1540af2d71f56ddc3babc5a6b537c4ca81d6a1e3932a2a4a0ea0e92856300a6239c10dc3249ce914d71df27a12"
+RPM_NAME = "libKF5Screen8-lang-5.27.7-1.1.noarch.rpm"
+RPM_HASH = "66e3813f82532c5fcf8cc4d84cb3320e9f6f738edb66e94d2b56a8276a6e24b2576d298581719bb07b9b107ddbdb66ec4522672cdbb6fa90d17018cd972f5203"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5Screen8-lang \
@@ -33,6 +33,7 @@ locale-libKF5Screen8-pt-BR \
 locale-libKF5Screen8-ru \
 locale-libKF5Screen8-sk \
 locale-libKF5Screen8-sl \
+locale-libKF5Screen8-sv \
 locale-libKF5Screen8-tr \
 locale-libKF5Screen8-uk \
 locale-libKF5Screen8-zh-CN \

@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "typelib-1_0-GstBadAudio-1_0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "c441dc688c71b0b0d9f77ea7595dfe009574c0ab4d721b00c01e162b89e449a365409ae833290b5b8cf7e76dd7a4db63fcf829d2f5ed2477d93401a4db6e258e"
+RPM_NAME = "typelib-1_0-GstBadAudio-1_0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "75d9bcd8a29ddd2a6b43121958f061071c63bb59ef8eb4f21ce015d87d1ceb7b15a3ac0bacfb5696be8293701d9e2689f1ab258e5ed1556dfd01f8f54a84c547"
 
 RPROVIDES:${PN} += "typelib-1-0-GstBadAudio-1-0 \
 typelib-GstBadAudio"

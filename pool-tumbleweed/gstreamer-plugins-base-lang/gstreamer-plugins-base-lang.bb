@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "gstreamer-plugins-base-lang-1.22.5-1.1.noarch.rpm"
-RPM_HASH = "87e181f8d5542e14b85a0c056da90422360f6577926412982d24ce7cae8bee09c7afcb2b7069cd5d7e96c0a00762b611a52d24764064bc6e570abde93e42efb6"
+RPM_NAME = "gstreamer-plugins-base-lang-1.22.5-2.1.noarch.rpm"
+RPM_HASH = "42e8c497a7d79209a19ef962ce28f4ac8076348acb768c9020d72176796c5b04ecff5c6a14b6a0e5928cc5a563e684cc2dcc8d922b28fc72338dc8e7eba7abee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gstreamer-plugins-base-lang \

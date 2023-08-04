@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kstars"
 DESCRIPTION = "Provides translations for the 'kstars' package."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "3.6.5"
+PV = "3.6.6"
 
-RPM_NAME = "kstars-lang-3.6.5-1.1.noarch.rpm"
-RPM_HASH = "b261174aba181f22fec212956f228aa832d3fbaf82803ae48881891807dfe0508c888e28acc5c908165284e9f091188efa3c8551ada32cf4c530f762db07ff18"
+RPM_NAME = "kstars-lang-3.6.6-1.1.noarch.rpm"
+RPM_HASH = "c734310919e5f9bc4f3d9a29a42dd76ba80a34286da32bd9bc67432cfb8dca9d17dedf7e150e3af7508d453c117765d4fffd67a3a630c3baffb2fb7504423acf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kstars-lang \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package plasma-browser-integration"
 DESCRIPTION = "Provides translations for the 'plasma-browser-integration' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma-browser-integration-lang-5.27.6-1.1.noarch.rpm"
-RPM_HASH = "138278c70323c2fd97ed594d52f7909f3fb3f428074d7973e675377407fafa47f2233331b456caa1b9033aa4063bf9ab61e1c2e8b1efab088756f4ef595b8cef"
+RPM_NAME = "plasma-browser-integration-lang-5.27.7-1.1.noarch.rpm"
+RPM_HASH = "8358a4d921b93c9965ee816490863846373dadc5a855686293c0dc289424e4e90779e6e3ae32be91e8202c08298a8150cc060f35e833ddd2b5560dd5cab1c9d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plasma-browser-integration-ar \

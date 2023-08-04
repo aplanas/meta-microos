@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "typelib-1_0-GstInsertBin-1_0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "eba8c91edcdcbd52be5aa67b8bd03ee7a8d6c4a3e17586d99e9832d058e4672030ea38ff4dff95dfca7373eb2b06703801b21f47217d3b7a84470cd9544b883c"
+RPM_NAME = "typelib-1_0-GstInsertBin-1_0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "b5289ac24036cca0eaed687920ea0abaf35baf116354dba273953281d09ea36f83a46a8c45821ac608236514b6716c0d1e68d6554781537a97904e179771dd91"
 
 RPROVIDES:${PN} += "typelib-1-0-GstInsertBin-1-0 \
 typelib-GstInsertBin"

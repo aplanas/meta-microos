@@ -2,10 +2,10 @@ SUMMARY = "Plasma 5 version of ssh-askpass"
 DESCRIPTION = "A Plasma 5 version of ssh-askpass with KWallet support."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "ksshaskpass5-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "bef0d1cf044895c41c7b8cbbc1107c119295b7a55a6c1951218eabcf41fc7929f2aa820677abc835448a39f15e1e488817cbdf073eb137214b3402c5add25cfd"
+RPM_NAME = "ksshaskpass5-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "12a84eae53787e60ed84b5cae961f4ffd2f4f75037d06e5cb7b25f5f54cfe403394bca713225a3409c8260cfd03a8cc30e4a052c2b10593b230f8911cf7b456a"
 
 RPROVIDES:${PN} += "ksshaskpass \
 ksshaskpass5"

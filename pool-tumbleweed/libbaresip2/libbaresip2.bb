@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.10.0"
 
-RPM_NAME = "libbaresip2-2.10.0-1.8.aarch64.rpm"
-RPM_HASH = "57234c836f757ea2e43dfc47f8ead82b6586fde937d4e0a9b20d7425cbc496e524bba11e233cf447cf76b184a78944678fc3771cb0b111d0d472983b3337da4a"
+RPM_NAME = "libbaresip2-2.10.0-1.9.aarch64.rpm"
+RPM_HASH = "7412470efabf4961541e44bd3f8e690b2d4b8cc9e1ff1b86ceec5f564fbf21f4a93ab6aeb52eab1414ad440f634fd89ee58334a2fb3929115efb297ed648c2c3"
 
 RPROVIDES:${PN} += "baresip \
 libbaresip.so.2 \

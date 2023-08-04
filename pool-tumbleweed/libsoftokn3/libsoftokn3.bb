@@ -8,10 +8,10 @@ certificates, and other security standards. \
 Network Security Services Softoken Cryptographic Module"
 LICENSE = "MPL-2.0"
 
-PV = "3.90"
+PV = "3.91"
 
-RPM_NAME = "libsoftokn3-3.90-2.1.aarch64.rpm"
-RPM_HASH = "3140a90344bceaf1101cc0ac3a564e713a137b1abe41904bf9912c76d77a7233bbc5a855ed9cc9cb5f45eb8e8952b71dc9bf604c46944133b5e64825b8a6f2a5"
+RPM_NAME = "libsoftokn3-3.91-1.1.aarch64.rpm"
+RPM_HASH = "44e1dea0b0adc6b616905ebb2ba1473e3fd61c9e840aa01d0c9ad07d1ffb9986752e34c3be1845f226197d2dd0e4cbe326c6dbdea3323c1b54310f6702a73c40"
 
 RPROVIDES:${PN} += "libnssdbm3.so \
 libsoftokn3 \

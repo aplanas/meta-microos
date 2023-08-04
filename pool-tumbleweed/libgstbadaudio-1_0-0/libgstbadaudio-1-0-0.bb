@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstbadaudio-1_0-0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "33c95e39684f9c449bd2b9ae318d2407c50b4a54e0e7abbdf5a3731afc208c707823c136024f77253c1e8196cf1cc201a438c28e7e8eeef836a1319ee65334a2"
+RPM_NAME = "libgstbadaudio-1_0-0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "f36705aad2201e9b2596a68632668d14fd2d4f245fbaf5a3ed209907031a1f2570506f9864e12f38b521ea4ee0854a2b82038c25e6e4141abcb520e3174ae108"
 
 RPROVIDES:${PN} += "libgstbadaudio-1-0-0 \
 libgstbadaudio-1.0.so.0"

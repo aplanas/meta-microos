@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "typelib-1_0-GstAudio-1_0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "b64e5c61259774d651641843ea5383b7f106bf0ccd0bebedd13aa20c88d53d7ebf0df2e1f453a61336c08a4c3a1c6de14310dc4172e03f2b5e25676d5b81a7ff"
+RPM_NAME = "typelib-1_0-GstAudio-1_0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "ba3ee970966f08429058ef8511854119f3b1b652748ae7531a802ada43a860b7b688e00c05aa4b9dff64095046dcc63b83d6ff1da6d36b73bfbb37352b512537"
 
 RPROVIDES:${PN} += "typelib-1-0-GstAudio-1-0 \
 typelib-GstAudio"

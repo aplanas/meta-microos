@@ -2,10 +2,10 @@ SUMMARY = "Library for heuristic file type identification"
 DESCRIPTION = "This library reads magic files and detects file types. Used by file command"
 LICENSE = "BSD-2-Clause"
 
-PV = "5.44"
+PV = "5.45"
 
-RPM_NAME = "libmagic1-5.44-2.3.aarch64.rpm"
-RPM_HASH = "574e92b9e1265161c7039fba56c9694821c104787bd6a299000357b2405a303642d342ee4906a1c2b3ea3d1a29c2b83679e030a5c054d7662537834fd0ea361c"
+RPM_NAME = "libmagic1-5.45-1.1.aarch64.rpm"
+RPM_HASH = "10bb6d2e77c810954e7f121ad6b5f172911ec40a727a44b2401b222f362e498ab3749deef15d163316deff7c842942353354b08c33283315163e798506afffd9"
 
 RPROVIDES:${PN} += "file-/usr/lib64/libmagic.so.1 \
 libmagic.so.1 \

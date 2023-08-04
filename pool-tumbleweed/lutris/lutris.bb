@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.13"
 
-RPM_NAME = "lutris-0.5.13-2.1.noarch.rpm"
-RPM_HASH = "9f6a928d14243649c3f0d3003c1c2e527dfd18dd01945b5b1dfd13fc19ce90d7600e50cf0986b71fc451d5384dd400311d4bef79f0864226e2ef8fe5722beff7"
+RPM_NAME = "lutris-0.5.13-3.1.noarch.rpm"
+RPM_HASH = "550a8f773dec90d1438ece1e9775d1d3bc1ed292f1c1badbdad5b0ba5f7e2e0c23289b11e94afaee0501b321a4b437c25ccce6b5329d6a8c5ca460efb823a51e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lutris \

@@ -2,10 +2,10 @@ SUMMARY = "KDE Games"
 DESCRIPTION = "KDE Applications - Games"
 LICENSE = "MIT"
 
-PV = "20230403"
+PV = "20230801"
 
-RPM_NAME = "patterns-kde-kde_games-20230403-1.1.noarch.rpm"
-RPM_HASH = "2f22bd232a14691c18be64ba511a9dab9150bea4b543620330dcdea50dddfefb599585857235b82f09137dfbc437a3e1f0bd3496e7bad80da01cf5c2e08014f5"
+RPM_NAME = "patterns-kde-kde_games-20230801-1.1.noarch.rpm"
+RPM_HASH = "0d77c5fa10f51380114472f7a7b13fa3a9cff8b7aa64060e198ef83d07b3ef05e9f010e4362253c1d8de865bf02e22a3dacb574a30db1cde613be6c79f58e457"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pattern- \

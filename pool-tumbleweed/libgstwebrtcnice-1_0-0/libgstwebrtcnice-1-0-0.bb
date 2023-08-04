@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstwebrtcnice-1_0-0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "4d83cd9786fc2329fa8fe1cf7ff63eb4d785f2f4030dfbfed03c0ce6896aa23c294368ce24dff2085d60b729cfab7461099f28c71b7b9ee24ce0904757a421ab"
+RPM_NAME = "libgstwebrtcnice-1_0-0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "8ad8d984c7ab56fad20dd94c22bb5220b8c8836634b1ab8937818bc9e5d7c0f92178c6b6979a9dd8cb72731bbba8ca454d331f23753a671b906132cdb141ac0e"
 
 RPROVIDES:${PN} += "libgstwebrtcnice-1-0-0 \
 libgstwebrtcnice-1.0.so.0"

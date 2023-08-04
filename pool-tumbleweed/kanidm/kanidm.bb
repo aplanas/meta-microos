@@ -3,10 +3,10 @@ DESCRIPTION = "An identity management platform written in rust that supports RAD
 and more."
 LICENSE = "( Apache-2.0 | BSL-1.0 ) & ( Apache-2.0 | ISC | MIT ) & ( Apache-2.0 | MIT ) & ( Apache-2.0-with-LLVM-exception | Apache-2.0 | MIT ) & ( CC0-1.0 | Apache-2.0 ) & ( MIT | Apache-2.0 | Zlib ) & ( Unlicense | MIT ) & ( Zlib | Apache-2.0 | MIT ) & Apache-2.0 & BSD-2-Clause & BSD-3-Clause & CC0-1.0 & ISC & MIT & MPL-2.0 & MPL-2.0+"
 
-PV = "1.1.0~alpha12~git0.bcdbb18"
+PV = "1.1.0~beta13~git2.5d1e2f9"
 
-RPM_NAME = "kanidm-1.1.0~alpha12~git0.bcdbb18-1.2.aarch64.rpm"
-RPM_HASH = "fc51a7f87e48bf5040a38c5464d48e493ca0a48f9f92860184435571e8ff1f8fe2e416866883989e5657ba5c27b7a3fa4e81a5e5f4a8050c49689b4bc389d17a"
+RPM_NAME = "kanidm-1.1.0~beta13~git2.5d1e2f9-1.1.aarch64.rpm"
+RPM_HASH = "b948e2504e9a81b7c9667a8a9a3a1373f3280783279b4f3287f302fe16d337b93da153d799f717117881e24108d6b0cc08c52633714469fc1de1ff18254e092d"
 
 RPROVIDES:${PN} += "kanidm"
 

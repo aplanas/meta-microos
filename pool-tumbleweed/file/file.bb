@@ -5,10 +5,10 @@ specified file. File type recognition is controlled by the file \
 used by apsfilter to permit automatic printing of different file types."
 LICENSE = "BSD-2-Clause"
 
-PV = "5.44"
+PV = "5.45"
 
-RPM_NAME = "file-5.44-2.3.aarch64.rpm"
-RPM_HASH = "1fbe1e7d05beba8c747c4ce56f3b648d11a7c8d6d12ee0a60e63fef8b69a40ac0680d94c55e1ebcb3b2bc3ef597feeea2cc87b7d09351f9a1d70dd06c68ef4f7"
+RPM_NAME = "file-5.45-1.1.aarch64.rpm"
+RPM_HASH = "0d74fc243febc522896621c5e71918410e389f5abe32262eb1e44b716a2a1b10532591f29a2f7d70f3460cf642a6e9914d6af58f33de237809aa772bfd1070c3"
 
 RPROVIDES:${PN} += "file"
 

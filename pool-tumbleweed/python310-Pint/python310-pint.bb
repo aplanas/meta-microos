@@ -9,22 +9,19 @@ and constants. Due to it's modular design, you to extend (or even rewrite!) \
 the complete list without changing the source code."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.20.1"
+PV = "0.22"
 
-RPM_NAME = "python310-Pint-0.20.1-1.6.noarch.rpm"
-RPM_HASH = "798caa0aedddc2f9a25ddebbc3a837151d0cf51a64c91b78ba85d7c409c36e25280d52432a75242aec99940005fe8f35259f3474a714540567296461212ddd17"
+RPM_NAME = "python310-Pint-0.22-1.1.noarch.rpm"
+RPM_HASH = "17acfb88cd2fb346d91bb6c1d22edbf273d2d764d1fc5db5515a8a7efa3c9552df328271dace0deca2ed05449c85a564b87c2aeed818ce35231cef7bf0e7d814"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-pint \
 python310-Pint \
 python3dist-pint"
 
-RDEPENDS:${PN} += "/usr/bin/env \
-/usr/bin/python3.10 \
+RDEPENDS:${PN} += "/usr/bin/python3.10 \
 /usr/bin/sh \
 python-abi \
-python310-importlib-metadata \
-python310-importlib-resources \
 python310-packaging \
 python310-uncertainties"
 

@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "gstreamer-plugins-bad-devel-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "139cdf7c604de2d594a5aceeb0b89c30896eef84d9eb517b879c1c7cf18b352068246a1f880c7ee58fe424b51b0df481ee0db567568807e27e817a5dacf58535"
+RPM_NAME = "gstreamer-plugins-bad-devel-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "c036df36975dc0f38d9bc39e75fe01f63e21ce8e37ddf39b8a20526b65a02012c18d3056826b74b222e33d49b1d8b74dbeca4eaacdacbfb9aad353b24e47fa78"
 
 RPROVIDES:${PN} += "gstreamer-plugins-bad-devel \
 pkgconfig-gstreamer-bad-audio-1.0 \

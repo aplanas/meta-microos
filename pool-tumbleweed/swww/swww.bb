@@ -4,23 +4,25 @@ at runtime. It uses LZ4 compression for frame animations \
 for animated wallpapers."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.7.3"
+PV = "0.8.1"
 
-RPM_NAME = "swww-0.7.3-1.2.aarch64.rpm"
-RPM_HASH = "7ddda98c069db7778c19b4d27ff9db447e1309a2d503c053374106eaa3b2a36503bbc3fdd08e29024a7c6341f363b3a3e24b753e8dd66c0e6a37cc6aedea7f55"
+RPM_NAME = "swww-0.8.1-1.1.aarch64.rpm"
+RPM_HASH = "66595bbd9a06107beb1a014fbe10f5c80e8c5f70013829744947c781eb9da8c5bfa6f3a6bd2473aa7738d567a0c2c30cd14d491c2c170fce5e2a8f85f2f447de"
 
 RPROVIDES:${PN} += "bundled-rust-crate-adler \
+bundled-rust-crate-ahash \
 bundled-rust-crate-anstream \
 bundled-rust-crate-anstyle \
 bundled-rust-crate-anstyle-parse \
 bundled-rust-crate-anstyle-query \
 bundled-rust-crate-autocfg \
-bundled-rust-crate-bincode \
 bundled-rust-crate-bit-field \
 bundled-rust-crate-bitflags \
+bundled-rust-crate-bitvec \
+bundled-rust-crate-bytecheck \
+bundled-rust-crate-bytecheck-derive \
 bundled-rust-crate-bytemuck \
 bundled-rust-crate-byteorder \
-bundled-rust-crate-calloop \
 bundled-rust-crate-cc \
 bundled-rust-crate-cfg-if \
 bundled-rust-crate-clap \
@@ -43,11 +45,13 @@ bundled-rust-crate-fast-image-resize \
 bundled-rust-crate-fdeflate \
 bundled-rust-crate-flate2 \
 bundled-rust-crate-flume \
+bundled-rust-crate-funty \
 bundled-rust-crate-futures-core \
 bundled-rust-crate-futures-sink \
 bundled-rust-crate-getrandom \
 bundled-rust-crate-gif \
 bundled-rust-crate-half \
+bundled-rust-crate-hashbrown \
 bundled-rust-crate-heck \
 bundled-rust-crate-image \
 bundled-rust-crate-io-lifetimes \
@@ -86,28 +90,39 @@ bundled-rust-crate-pkg-config \
 bundled-rust-crate-png \
 bundled-rust-crate-ppv-lite86 \
 bundled-rust-crate-proc-macro2 \
+bundled-rust-crate-ptr-meta \
+bundled-rust-crate-ptr-meta-derive \
 bundled-rust-crate-qoi \
+bundled-rust-crate-quick-xml \
 bundled-rust-crate-quote \
+bundled-rust-crate-radium \
 bundled-rust-crate-rand \
 bundled-rust-crate-rand-chacha \
 bundled-rust-crate-rand-core \
 bundled-rust-crate-rayon \
 bundled-rust-crate-rayon-core \
+bundled-rust-crate-rend \
+bundled-rust-crate-rkyv \
+bundled-rust-crate-rkyv-derive \
 bundled-rust-crate-rustix \
+bundled-rust-crate-scoped-tls \
 bundled-rust-crate-scopeguard \
 bundled-rust-crate-sd-notify \
+bundled-rust-crate-seahash \
 bundled-rust-crate-serde \
 bundled-rust-crate-serde-derive \
 bundled-rust-crate-simd-adler32 \
+bundled-rust-crate-simdutf8 \
 bundled-rust-crate-simplelog \
-bundled-rust-crate-slotmap \
 bundled-rust-crate-smallvec \
 bundled-rust-crate-smithay-client-toolkit \
 bundled-rust-crate-spin \
+bundled-rust-crate-static-assertions \
 bundled-rust-crate-strsim \
 bundled-rust-crate-swww \
 bundled-rust-crate-swww-daemon \
 bundled-rust-crate-syn \
+bundled-rust-crate-tap \
 bundled-rust-crate-termcolor \
 bundled-rust-crate-terminal-size \
 bundled-rust-crate-thiserror \
@@ -116,20 +131,23 @@ bundled-rust-crate-tiff \
 bundled-rust-crate-time \
 bundled-rust-crate-time-core \
 bundled-rust-crate-time-macros \
+bundled-rust-crate-tinyvec \
+bundled-rust-crate-tinyvec-macros \
 bundled-rust-crate-unicode-ident \
 bundled-rust-crate-utf8parse \
 bundled-rust-crate-utils \
-bundled-rust-crate-vec-map \
+bundled-rust-crate-uuid \
 bundled-rust-crate-version-check \
+bundled-rust-crate-wayland-backend \
 bundled-rust-crate-wayland-client \
-bundled-rust-crate-wayland-commons \
 bundled-rust-crate-wayland-cursor \
 bundled-rust-crate-wayland-protocols \
+bundled-rust-crate-wayland-protocols-wlr \
 bundled-rust-crate-wayland-scanner \
 bundled-rust-crate-wayland-sys \
 bundled-rust-crate-weezl \
+bundled-rust-crate-wyz \
 bundled-rust-crate-xcursor \
-bundled-rust-crate-xml-rs \
 bundled-rust-crate-zune-inflate \
 swww"
 

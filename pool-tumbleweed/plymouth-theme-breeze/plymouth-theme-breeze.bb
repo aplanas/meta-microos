@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the 'breeze' boot splash theme for \
 Plymouth."
 LICENSE = "GPL-2.0+"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plymouth-theme-breeze-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "099a290f152df8ffb60a329cb465e8c82ab31e68f01bc2e3e9d2e31431a1d6fe76c201e2fe2d5445a1430b8c3b2efdb9a4e46e153eb04ff85255f24bbc401fc3"
+RPM_NAME = "plymouth-theme-breeze-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "94612bbb9c8afeba525bfe6eb4900f9718b2518a77485fd8f68df7aadd990929e5b94e348c37fc9cb0ccec72b325a395aff28221b5d62eabd291cfdf4eef1316"
 
 RPROVIDES:${PN} += "plymouth-theme-breeze"
 

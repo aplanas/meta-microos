@@ -3,10 +3,10 @@ DESCRIPTION = "KPipeWire provides PipeWire integration for the Plasma desktop an
 This package contains the main KPipeWire library."
 LICENSE = "LGPL-2.0-only & LGPL-3.0-only"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "libKPipeWire5-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "eeeed432b902bdc472855919c95daa1dba496c15ca5ae0b1fbfff3780380ca5d7b4b0d6275b1e3727dea55ae910ba7012ec9b2967e05bcd4e1e83aab52a7cd5c"
+RPM_NAME = "libKPipeWire5-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "50cffedf9423eca83751879c6ebd51ff988d3fce412c778cf2acdd86ef21d86d1ac4c984f7c0760a81193b2e3b5c18f2253ec0b865fb84d6e1af2033a9f516cc"
 
 RPROVIDES:${PN} += "libKPipeWire.so.5 \
 libKPipeWire5"

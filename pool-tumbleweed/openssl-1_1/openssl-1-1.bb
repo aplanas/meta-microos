@@ -5,10 +5,10 @@ need to ascertain the identity of the party at the other end. \
 OpenSSL contains an implementation of the SSL and TLS protocols."
 LICENSE = "OpenSSL"
 
-PV = "1.1.1u"
+PV = "1.1.1v"
 
-RPM_NAME = "openssl-1_1-1.1.1u-5.1.aarch64.rpm"
-RPM_HASH = "52424051a581c6519d4c7f5f0128c445e64aa7ae2275ad3861e80294f28cb519314b5c17a1e2d41f1b20a911781361f22d31b96d326aa9803d6d694fb48185af"
+RPM_NAME = "openssl-1_1-1.1.1v-1.1.aarch64.rpm"
+RPM_HASH = "858770239d8aa4016148e3fbdeb3d38455abc4d0fd7e091ae9ad57939e9df9a2c4fa82d959094beb038352e4b94a49cc917b595309c2edb22c14111ef382f730"
 
 RPROVIDES:${PN} += "config-openssl-1-1 \
 openssl-1-1 \

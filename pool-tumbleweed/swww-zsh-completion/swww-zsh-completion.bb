@@ -2,10 +2,10 @@ SUMMARY = "Zsh Completion for swww"
 DESCRIPTION = "Zsh command-line completion support for swww."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.7.3"
+PV = "0.8.1"
 
-RPM_NAME = "swww-zsh-completion-0.7.3-1.2.noarch.rpm"
-RPM_HASH = "cd5bec27896783be999c19490819373bf84559e5f89396edae78119d6fb39e81640fff5a32203999e36c99f0a1e8325809d3a9e222e984a3c83d47fae627d175"
+RPM_NAME = "swww-zsh-completion-0.8.1-1.1.noarch.rpm"
+RPM_HASH = "5fc6403c3130084cd95a415106b33f6244407a3b0243769ec3b65b48e2c34da9e02700e4956a8cec238ec14ec8ff0d6c3fb10221934e2b47ee60afd9d485082b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swww-zsh-completion"

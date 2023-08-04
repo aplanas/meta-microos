@@ -18,8 +18,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.10.0"
 
-RPM_NAME = "baresip-2.10.0-1.8.aarch64.rpm"
-RPM_HASH = "96fa48cab5b17d75ee6d85f15ba8ec7eaf6f938d8931116629acf0491a649e5ff129050aa5e40d86c1b031198c6cafb1541c9390b6a513f3f4ecba6ea414b9f0"
+RPM_NAME = "baresip-2.10.0-1.9.aarch64.rpm"
+RPM_HASH = "7b46e74424208343bfe9dbddd968175a82496400315a8667d0a45cfd92830f6b0fcc5e5efc190428bb072d9ef77dfb8ff37ca81970e6ab7416ebd71bcdcc64c4"
 
 RPROVIDES:${PN} += "baresip"
 
@@ -27,7 +27,7 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libasound.so.2 \
 libbaresip.so.2 \
 libc.so.6 \
-libcodec2.so.1.1 \
+libcodec2.so.1.2 \
 libfdk-aac.so.2 \
 libgdk-3.so.0 \
 libgio-2.0.so.0 \

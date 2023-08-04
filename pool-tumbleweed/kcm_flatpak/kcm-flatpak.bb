@@ -2,10 +2,10 @@ SUMMARY = "Flatpak Permissions Management KCM"
 DESCRIPTION = "The KCM allows changing what permissions have been granted to installed Flatpak applications."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "kcm_flatpak-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "111335082a8f7540b31e6b05f7c9a29b0039b2a40c2768f057604a798a3f5f6e518b314f40f5acf85dc1652794b6ed8e2dd52902967fc148b0e8e79a2f046d00"
+RPM_NAME = "kcm_flatpak-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "1801100a3a27306acdd6c280702489bce6ce2d00caa5da5979a68d794f7bc8ba1346731822e8cd9c534765e770d0ac98dc757fe43ae0c7686a63e2517e11c4e8"
 
 RPROVIDES:${PN} += "kcm-flatpak"
 

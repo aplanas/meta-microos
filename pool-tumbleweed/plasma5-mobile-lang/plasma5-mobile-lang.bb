@@ -2,10 +2,10 @@ SUMMARY = "Translations for package plasma5-mobile"
 DESCRIPTION = "Provides translations for the 'plasma5-mobile' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma5-mobile-lang-5.27.6-1.1.noarch.rpm"
-RPM_HASH = "541c2815f642bc98513482a12d92a7942c43b434dc2e5430aa6b0720c9021776d1baf654158e30d81c1e01e138819839c8ea9e5b927dfefd6c885ccd714a8468"
+RPM_NAME = "plasma5-mobile-lang-5.27.7-1.1.noarch.rpm"
+RPM_HASH = "4c74f178bc030fc29117148e7986570a621391d568a3dd682f13eadbef5f3d8f8b6d2f71173b35c07ea317b5b63476af36613e95f8c8ab0b58a5b68fc16afbc7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plasma5-mobile-az \

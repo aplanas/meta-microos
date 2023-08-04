@@ -2,10 +2,10 @@ SUMMARY = "Qt 5 Development"
 DESCRIPTION = "Tools and libraries for software development using Qt 5."
 LICENSE = "MIT"
 
-PV = "20230403"
+PV = "20230801"
 
-RPM_NAME = "patterns-kde-devel_qt5-20230403-1.1.noarch.rpm"
-RPM_HASH = "319710b3c127530aee30aa093e9018eb915e1aeddae956eb9ef1c757a43da4837c7cb1b9bd048640de760e1f3e32f33ee00643034df065b1a97f08dc057102f5"
+RPM_NAME = "patterns-kde-devel_qt5-20230801-1.1.noarch.rpm"
+RPM_HASH = "4ca4eaa44b9b328b6d4264c3508c38970e9dfed429132c80d56e1357d85c36a179913509e6a9ea1c23e7b38eba7200e0205c28f08cb823daeb923b5c1e4026b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pattern- \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "gstreamer-transcoder-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "618ac578f04a1a96191530916f593cb42976bb4f24a1f3d2183571bdcf937fffffda8701a794f311bf23b6990b65d119c2f852924c862ac4a7e005e6630ed2db"
+RPM_NAME = "gstreamer-transcoder-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "cbfa2f1e290484b164be959f386401533d8feacf622696d8c67a9e6ec872717d7b7f6aeadd3b5d71337f6b1cd0363bbb5254d62d7e2052e4858b7cda04b8e7e0"
 
 RPROVIDES:${PN} += "gstreamer-transcoder \
 gstreamer1 \

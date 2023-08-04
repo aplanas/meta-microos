@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ksshaskpass5"
 DESCRIPTION = "Provides translations for the 'ksshaskpass5' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "ksshaskpass5-lang-5.27.6-1.1.noarch.rpm"
-RPM_HASH = "75910fe31bde90c15bc5141ec4cdf4d1a1dc42943e705bb9c997af7849844a295b09e1291c32e2bfbc46ad21009c8bea34dbd59d0cd31ab066a9f09d563a39ad"
+RPM_NAME = "ksshaskpass5-lang-5.27.7-1.1.noarch.rpm"
+RPM_HASH = "77ed0454988c34aab04093fa4f16e3552ff9a01021654407068fe0f0ed39e5f51cf20fcaf9ab41dded46e59b99f348dc60464ce8a813749839821d004b499148"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ksshaskpass5-lang \

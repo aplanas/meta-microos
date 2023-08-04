@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "gstreamer-plugins-good-qtqml-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "df59c625b97b7168453ab944a9a80bef771e9fea66fea3797c0c2f6102fd1bd1210cd718c9a2eac1ed2d35e451d162b93d92c8e2ac96f4df0af6b5bae8407c0a"
+RPM_NAME = "gstreamer-plugins-good-qtqml-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "32a13291f7e57f48160358bb7a78f4c9c7aa017765beace7969c2cb6b059ed2dc51fe60d4b38f669a12c94c991be632eb42f8fae4e08e585cfb21c63ece2284d"
 
 RPROVIDES:${PN} += "gstreamer-plugins-good-qtqml \
 gstreamer1 \

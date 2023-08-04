@@ -5,10 +5,10 @@ language that simplifies the process of designing custom \
 boot splash themes."
 LICENSE = "GPL-2.0+"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plymouth-theme-breeze-plugin-breeze-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "1e1521f3c62779c0659b971c571e040d2351190ab2e7f9e1d85fab275155f2e2f5f8832951bec34bb66c7d44ea3a09f8b2cca8fb13d286cc0fe2deb5798e72ea"
+RPM_NAME = "plymouth-theme-breeze-plugin-breeze-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "06ba4259d425535159d81960689bc4e40afa938d8730e8e11dc80b63a4b4d3913f68b2859e3ab67b444b91cab40945e2495a6130f3dc13e0d449c9bde655ebad"
 
 RPROVIDES:${PN} += "plymouth-theme-breeze-plugin-breeze"
 

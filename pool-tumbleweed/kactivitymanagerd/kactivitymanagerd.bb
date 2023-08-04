@@ -2,10 +2,10 @@ SUMMARY = "KDE Plasma Activities support"
 DESCRIPTION = "Kactivities provides an API for using and interacting with the Plasma Activities Manager."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "kactivitymanagerd-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "53a81900d42d627d365ee92159685c91132483985e9b71605e771de053af1436791e6abbaaea25709a8b17e3f45a7899ec771c42597cdaee4beddcfa363f2819"
+RPM_NAME = "kactivitymanagerd-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "b485cf2f628b2d10360d27ca7a12b9d619d7f8a41efc34e5ec869f91f1c7dc9c0f7408faa80cbeed0c7398f1df465d6a1106242974d1efbd33fe6174b12e4955"
 
 RPROVIDES:${PN} += "kactivities4 \
 kactivities5 \

@@ -7,8 +7,8 @@ LICENSE = "MPL-2.0"
 
 PV = "9.18.17"
 
-RPM_NAME = "bind-utils-9.18.17-1.1.aarch64.rpm"
-RPM_HASH = "7d47edf0fca3e7f0668c45dbb463603855f858f5b2f2ecfa55881391ae7e905810b61440a29187c32a827534339eb9e5e9755b238dc8d9e00f7f9ea0511d3184"
+RPM_NAME = "bind-utils-9.18.17-1.2.aarch64.rpm"
+RPM_HASH = "5529ca1c6cdd81a3f41e596e76a6ffaaa8bfb30c7a503f88dde10899ee0cd5491eec4bdd827b24f4f0d9bf507cf5498c28edf1c289b5906d753edf47cf0f0c22"
 
 RPROVIDES:${PN} += "bind-utils \
 bind9-utils \

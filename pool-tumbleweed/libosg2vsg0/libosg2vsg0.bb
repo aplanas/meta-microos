@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "0.1.0"
 
-RPM_NAME = "libosg2vsg0-0.1.0-1.1.aarch64.rpm"
-RPM_HASH = "021b073588ab1616866a94bfeb1c517bddc57fb760b5dc92e1813cafa52f71d7479a59f06429c8109a749020b1972bb4f79db2994395480b4002f4dfe13f5baf"
+RPM_NAME = "libosg2vsg0-0.1.0-1.2.aarch64.rpm"
+RPM_HASH = "c90e388f94097224e9c90f85033fc514fc9a9b6a9ad64f6c1338dba20d1ab3b8a890a09f6a4cdad6a936fc9a57ee6298218a108b0bc81b8c85b06ad1de52a5e1"
 
 RPROVIDES:${PN} += "libosg2vsg.so.0 \
 libosg2vsg0"
@@ -26,6 +26,6 @@ libosgDB.so.161 \
 libosgTerrain.so.161 \
 libosgUtil.so.161 \
 libstdc++.so.6 \
-libvsg.so.13"
+libvsg.so.14"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "KDE Multimedia"
 DESCRIPTION = "KDE Applications - Multimedia"
 LICENSE = "MIT"
 
-PV = "20230403"
+PV = "20230801"
 
-RPM_NAME = "patterns-kde-kde_multimedia-20230403-1.1.noarch.rpm"
-RPM_HASH = "967e1bc6d6b6d7ce940fbfb7a6dbd18c585a88ed515700ede98cc52b3fb6140d8511c1b76c57eedf017915ef0a1f40044c9574456ee832ab4ef31dbbc1c04fe3"
+RPM_NAME = "patterns-kde-kde_multimedia-20230801-1.1.noarch.rpm"
+RPM_HASH = "768e753131b4370867fbdca5af40a46d61363caa3ea182353dfc3f595e3537a3b53f07e016e742e0babad67814bf5c467ea7c56ef346dcf78703c8f2dacbd4cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pattern- \

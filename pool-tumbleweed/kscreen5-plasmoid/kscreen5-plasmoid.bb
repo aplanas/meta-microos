@@ -2,10 +2,10 @@ SUMMARY = "Plasma widget to control screen configuration"
 DESCRIPTION = "This package provides a Plasma widget to control common screen configuration options."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "kscreen5-plasmoid-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "12b0ed5808f69616492d55c70e17006f6bbcd575f879b0444685ab6928f9a954ab2bf8930baee13602999d47f5c996d5858f192f555ecf4b65ce9825b1d224d1"
+RPM_NAME = "kscreen5-plasmoid-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "37b755973be9efd956fe4c4e602469e61f571daf6064e4e4c6918187ccc13e72c24a6ea41e8d0f8a2302daa98f6069215167f1bb5ec90c180b465a10e90db8f0"
 
 RPROVIDES:${PN} += "kscreen5-plasmoid"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "Artwork, styles and assets for the Breeze visual style for the Pl
 This package provides Breeze cursor theme."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "breeze5-cursors-5.27.6-1.1.noarch.rpm"
-RPM_HASH = "0b399652353f20ccbfc6e3f20a082a7a78616b1c98f35912ed59257e8f9c7d077c8caaca67abae7306b6d29b9224373c64a9259857a9c8fb6b74c354531b6689"
+RPM_NAME = "breeze5-cursors-5.27.7-1.1.noarch.rpm"
+RPM_HASH = "09a2db445449d1c089c6403f50bcb65f416f80c2743894235cb8a5216e0ffed1b502899ead628b068263802498b95ed4be1506884d6c6f6378e5d5862455d977"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "breeze5-cursors"

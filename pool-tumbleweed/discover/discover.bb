@@ -4,10 +4,10 @@ DESCRIPTION = "Discover is a graphical software manager for the KDE Plasma deskt
 By allowing to navigate a software library by search, categories, top lists along with detailed application information including screenshots and reviews, users can more quickly find applications that suit their needs."
 LICENSE = "GPL-2.0-only & GPL-3.0-only & GPL-3.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "discover-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "f6a243949829c06f35519d45ebcaad39e4785fafc6626beadb9be0dbb58e48ec18e13d3bb1dd2a6d2fb2f4e14d22f7307c137d4018dc3b631869ebf8d252d584"
+RPM_NAME = "discover-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "2ae9600ed7f20038310febf19cc22922bb63ba82caa496eaa4fcaf411a6ea78365928e53d2fe132a56c720fe46170769013c2a8a24faaa23ea8b87e679d24876"
 
 RPROVIDES:${PN} += "discover \
 libDiscoverCommon.so \

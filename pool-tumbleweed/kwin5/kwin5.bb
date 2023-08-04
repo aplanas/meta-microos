@@ -2,10 +2,10 @@ SUMMARY = "KDE Window Manager"
 DESCRIPTION = "KWin is the window manager of the K desktop environment."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "kwin5-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "db0b13054d3f0823bb5edfea078d50ebb6aa6d63adc35e9731adbfc2ed7f9afb87eb382260a36fb5991e33626bea7bad9d29ed1bb1b0c98e56b8cefbe8b334c1"
+RPM_NAME = "kwin5-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "b0db7cd7aa54edd250b071aaf42cdf151005fa2ed8bab5eebb37c5a900f508e1526b3fd70e4262e95654c5d518bb2e62ee16e7ce4b9c9d72079d708146d24fd3"
 
 RPROVIDES:${PN} += "kwin5 \
 libKWinNightColorPlugin.so \

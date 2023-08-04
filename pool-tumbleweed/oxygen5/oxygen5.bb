@@ -2,10 +2,10 @@ SUMMARY = "Oxygen style, KWin decoration and cursors"
 DESCRIPTION = "Provides Oxygen style, KWin decoration, and cursors."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "oxygen5-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "2d322ce0e6289008aa541ec6c7c9689ef66794a7df3f06f6f5a5ccea6f913c1d8bcddde25d5e2c1cdb9df54f1bb2c5cceb3cad562f99429d58ab8a302d980dd2"
+RPM_NAME = "oxygen5-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "8e4ff5ac49975a270b045aa107e03b4966cdc1ec1b35a064d9900b4d014c899cf4eb5879134c970de92e141f43e087448795a7d00497d65d3f16c6bd1b700efd"
 
 RPROVIDES:${PN} += "oxygen5"
 

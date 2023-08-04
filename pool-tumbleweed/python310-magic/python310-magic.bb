@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the Python binding that require the magic '
 interface."
 LICENSE = "BSD-3-Clause & BSD-4-Clause"
 
-PV = "5.44"
+PV = "5.45"
 
-RPM_NAME = "python310-magic-5.44-2.3.aarch64.rpm"
-RPM_HASH = "07c735db9a0e68401eaa8936f261fb5c6f1388f56d2d3aecf67a10e75579ccf1c3146527561429ac11f3e17786a49572e24b31364395f49bf9b8e5cf05990d02"
+RPM_NAME = "python310-magic-5.45-1.1.aarch64.rpm"
+RPM_HASH = "b19b8311ca3ecb14e00e55382a389101dcbc48107c0800ceb17432edcd731adc4a73e7cbf8457011b95aad6e7198c4624394478e4d065ebf730ad2b6f8d685c1"
 
 RPROVIDES:${PN} += "python3.10dist-file-magic \
 python310-file-magic \

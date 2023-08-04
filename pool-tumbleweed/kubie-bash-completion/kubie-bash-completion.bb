@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for kubie"
 DESCRIPTION = "Bash command line completion support for kubie."
 LICENSE = "Zlib"
 
-PV = "0.20.1"
+PV = "0.21.0"
 
-RPM_NAME = "kubie-bash-completion-0.20.1-1.1.noarch.rpm"
-RPM_HASH = "f91f3519146aeda8ba1060118444d9850aaf523d50c60c8def1fe478e30dabe49d94f0f4ae47b6a2a15192af211e08f068e796222c9a1a199c287166adc47966"
+RPM_NAME = "kubie-bash-completion-0.21.0-1.1.noarch.rpm"
+RPM_HASH = "8ed55e4a89182b53944d6dbffeea54942acee22f2f111210b8d3c66913554ebcce32847888d885f01b51c7f480222838c7e500e097b695a9cf858cabc59a8b1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubie-bash-completion"

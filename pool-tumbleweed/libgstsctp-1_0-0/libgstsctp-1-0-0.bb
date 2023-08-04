@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstsctp-1_0-0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "147e36c9c117851a6639b315ad837639303a2a2480d3a4082b13b56cf6ade6fef98ad351c5e880bcbd8ca4b93a115eef2fdd74594a0a8808fe1ae3876527bcd4"
+RPM_NAME = "libgstsctp-1_0-0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "e19a64b2f7a83ca1ce01e800242b2f5a5a751f68ba9d02182ff91a70bc3945547559898b26d83d5d8946fd4a0ea7ef47b08480318bac5757ed3b3f3a8e97782e"
 
 RPROVIDES:${PN} += "libgstsctp-1-0-0 \
 libgstsctp-1.0.so.0"

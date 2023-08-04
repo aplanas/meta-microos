@@ -9,16 +9,16 @@ This package contains the header and development files for \
 VulkanSceneGraph."
 LICENSE = "MIT"
 
-PV = "1.0.7"
+PV = "1.0.8"
 
-RPM_NAME = "libvsg-devel-1.0.7-1.1.aarch64.rpm"
-RPM_HASH = "cee426b759b4715a6ddea6d420b9f6c81ab29a9f31deb77070e5f1f2460e1abe375c6e9e72ebce7751d305c5b79db2eb4c8550870c5ea4ada9a68c602476e4a7"
+RPM_NAME = "libvsg-devel-1.0.8-1.1.aarch64.rpm"
+RPM_HASH = "64460e676c97e4ae67c0c30a0a3ac0e91270be284d0bd217da94b1ec989b5fb89a36eb22a0c310a77b0df9d3de026024b2416a89d90ae99e5b5380d3f239258d"
 
 RPROVIDES:${PN} += "cmake-vsg \
 libvsg-devel"
 
 RDEPENDS:${PN} += "cmake-glslang \
-libvsg13 \
+libvsg14 \
 pkgconfig-SPIRV-Tools \
 pkgconfig-vulkan"
 

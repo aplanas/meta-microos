@@ -5,8 +5,8 @@ LICENSE = "MPL-2.0"
 
 PV = "9.18.17"
 
-RPM_NAME = "bind-modules-bdbhpt-9.18.17-1.1.aarch64.rpm"
-RPM_HASH = "0e1748fae244d0c0a38d56cd3f6aeb25f346733491a5ba5c0d6f474fe1f04f3ff51377576e8200cfefb0face37476cfa80289b80c71ff3f6c8ae67d0846a897e"
+RPM_NAME = "bind-modules-bdbhpt-9.18.17-1.2.aarch64.rpm"
+RPM_HASH = "cfc87353fe9edb30625996987033ccec9f8486d38f7843b1f4783666a58e2f6e17df826b1e15f3796b62269bf6ed514b5ba8ec34f63de10175d0ca437aa57512"
 
 RPROVIDES:${PN} += "bind-modules-bdbhpt"
 

@@ -5,8 +5,8 @@ LICENSE = "CC-BY-SA-3.0 & SUSE-Public-Domain"
 
 PV = "2021.12.17"
 
-RPM_NAME = "python310-youtube-dl-2021.12.17-8.1.noarch.rpm"
-RPM_HASH = "9187b7992914acfba6e52c174e6b74363ae88d7453e294d00e65dc1c0c14f0691077072430e34d43c6572e481d5d911e0e65dfb284e7fd48300a149db667b5e6"
+RPM_NAME = "python310-youtube-dl-2021.12.17-8.2.noarch.rpm"
+RPM_HASH = "8de1b0d91a176f1399c0ed5d91ca0619536095a36fa513dfabd009e9d311ea2671a449d20467e2f8d56dffa25e7113642c6b6ace9f17d3b1a734612b43193322"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-youtube-dl \

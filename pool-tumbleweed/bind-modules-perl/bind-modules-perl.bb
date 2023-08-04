@@ -6,8 +6,8 @@ LICENSE = "MPL-2.0"
 
 PV = "9.18.17"
 
-RPM_NAME = "bind-modules-perl-9.18.17-1.1.aarch64.rpm"
-RPM_HASH = "f30f138d0404066d72e0a3aa1e35c7cee5e0e6d7eb8d03a317313d78c7a8ce3e75da4ff5bce462aa75772caaedb426a6005309374d6507c4b037b546e7861b23"
+RPM_NAME = "bind-modules-perl-9.18.17-1.2.aarch64.rpm"
+RPM_HASH = "9b0f908afea2c04fbefc1ddf245a5e3981a407f7623a4c8df8793ec5722c42175fe8a4efc726510a57fa7908d3d293eac1cbaa53aa17cb288a0c11b0e35cf277"
 
 RPROVIDES:${PN} += "bind-modules-perl"
 

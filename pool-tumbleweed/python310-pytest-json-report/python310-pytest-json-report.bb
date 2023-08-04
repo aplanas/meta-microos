@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.5.0"
 
-RPM_NAME = "python310-pytest-json-report-1.5.0-1.5.noarch.rpm"
-RPM_HASH = "e4b3b9a65f51032a4189fa04a665fa1929afb296680bf90f0072c72b460cbbb2811c6403e6c56ffac0c8ade1570b1e04c16de5c2b1c66bcf1462e0ec38fd0f9f"
+RPM_NAME = "python310-pytest-json-report-1.5.0-2.1.noarch.rpm"
+RPM_HASH = "e06c2d5ab58d4319f88b7794daa837a87c980dd599eb554851a5725d2d7279cfc56ed8b79ebb85455144cbc18ad3f4085a2db164aa1bd75870fa709071fc5d7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-pytest-json-report \

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.0"
 
-RPM_NAME = "ffmpeg-6-mini-libs-6.0-2.2.aarch64.rpm"
-RPM_HASH = "68ca553ef1a31398a906dd446ced7ca49bdf358a2deb1df1dfb2523e21b4dd06e91adf48b6204fb68091f0a7aa90a3e1b3bb1185588e7dbf8112c269e30b7971"
+RPM_NAME = "ffmpeg-6-mini-libs-6.0-3.1.aarch64.rpm"
+RPM_HASH = "34b41766c92aaf090dba268c0a3aa03ff58239438999c8b08c618488d83166cb7dcac3141a22f12da43ce31cec547421f9f72e3f9cb0dd4a18d165bfb41a7cd2"
 
 RPROVIDES:${PN} += "ffmpeg-6-mini-libs \
 libavcodec.so.60 \

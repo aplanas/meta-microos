@@ -9,10 +9,10 @@ To meet these goals, RKE2 does the following: \
     Regularly scans components for CVEs using trivy in our build pipeline"
 LICENSE = "Apache-2.0"
 
-PV = "1.27.3+rke2r1"
+PV = "1.27.4+rke2r1"
 
-RPM_NAME = "rke2-1.27.3+rke2r1-1.1.aarch64.rpm"
-RPM_HASH = "13efa9786745645cc89b47e5b84c32d5ef6eab6ba892e6b2b7900b9ab083bddc0cd94cb8f3df85a85f8b5c698879bc22fa0ef6c88f0ee931d3ca86713a462bef"
+RPM_NAME = "rke2-1.27.4+rke2r1-1.1.aarch64.rpm"
+RPM_HASH = "7d17e462f5d037ecadc315037ebe0d8dc51f9d6414bf98ffb623d47e1e3bb03ca8d114f5684693633bcb1155e7e89bb42cfcccfff0cb43a38157f72c6818b43d"
 
 RPROVIDES:${PN} += "rke2"
 

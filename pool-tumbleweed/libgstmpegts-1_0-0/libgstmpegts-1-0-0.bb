@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstmpegts-1_0-0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "9b341c93c9e6b2503ba54fe286b0edd7ae725af220c9b4bc685b4c62f0dcd1e9340247a4496430d320c789bb4bdb81b4e14619216cefa64ecc070d770d0d631c"
+RPM_NAME = "libgstmpegts-1_0-0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "1efde649090ea5c69c1e0efbf01e23c1b709dc39f2d0af5afc86eb1b9db48717396395e77513cab5241aa63759c00bbaf4d7af25156a8ed2a24875944802a598"
 
 RPROVIDES:${PN} += "libgstmpegts-1-0-0 \
 libgstmpegts-1.0.so.0"

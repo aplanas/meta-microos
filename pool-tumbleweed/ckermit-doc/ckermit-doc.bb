@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.0.302"
 
-RPM_NAME = "ckermit-doc-9.0.302-14.18.noarch.rpm"
-RPM_HASH = "7b7e17f5da3a062f9bf6e58dec7351feaea7014b547a89d1753f84ba6f2b527361e6b3f9488382bf63451c379be9c5a4b75a04fcd2ca1951f457e23e70aab6f3"
+RPM_NAME = "ckermit-doc-9.0.302-15.1.noarch.rpm"
+RPM_HASH = "35b7dca0902f6c7dcd49af75f072ef034a7d8cfe4952b43186455dfc22ef2f4ef10f60b5bfcdaa092bed0e88164fcc81c00f6a322c54a7cc3a80f04096aabe92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ckermit-doc"

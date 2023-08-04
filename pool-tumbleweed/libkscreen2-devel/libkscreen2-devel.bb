@@ -2,10 +2,10 @@ SUMMARY = "KDE's screen management library (development package)"
 DESCRIPTION = "Development files belonging to libkscreen, dynamic display management in KDE"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "libkscreen2-devel-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "832cabd520e700815f170d8cc51ec5c142c4af9f4e278780270f64984f2c50c98d77cfa442797d1f0a60749891474b3c3954c9bc7440e5f24a45897d63553eeb"
+RPM_NAME = "libkscreen2-devel-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "9f3e083362a987a1e2fd27a815c0c47941078ea1a51ef34a46bb4e38fe5ad6f144f108f12fdff40c9e912c8afd1f3daa8014d43fabb5ad7950c692de2145b20b"
 
 RPROVIDES:${PN} += "cmake-KF5Screen \
 libkscreen2-devel \

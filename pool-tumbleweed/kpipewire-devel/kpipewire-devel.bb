@@ -4,10 +4,10 @@ This package provides the development files needed to build applications \
 which use KPipeWire."
 LICENSE = "LGPL-2.0-only & LGPL-3.0-only"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "kpipewire-devel-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "74cbd2a0042e0b2774d323fdd59cae7f8fde6a6e3f4e3eab3e8db58b29d1d85f2d669fce8d610b62b5afb7e7dba721e678c9e28f94d6e871ff1f26a297faf5a9"
+RPM_NAME = "kpipewire-devel-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "00aa82cc369b556cbf19d1669a8f85ff4362c8bb461f57c4b56675c75859f3cbdd0c06a4499ec5becb163c04b265c5698a2a6459de0abc850d3bc2f8c17d5c8d"
 
 RPROVIDES:${PN} += "cmake-KPipeWire \
 kpipewire-devel"
@@ -16,6 +16,7 @@ RDEPENDS:${PN} += "kpipewire-imports \
 libKPipeWire5 \
 libKPipeWireDmaBuf5 \
 libKPipeWireRecord5 \
+pkgconfig-epoxy \
 pkgconfig-libpipewire-0.3"
 
 inherit rpm

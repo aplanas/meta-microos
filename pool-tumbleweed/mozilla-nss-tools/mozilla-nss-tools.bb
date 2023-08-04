@@ -3,10 +3,10 @@ DESCRIPTION = "The NSS Security Tools allow developers to test, debug, and manag
 applications that use NSS."
 LICENSE = "MPL-2.0"
 
-PV = "3.90"
+PV = "3.91"
 
-RPM_NAME = "mozilla-nss-tools-3.90-2.1.aarch64.rpm"
-RPM_HASH = "eb72dcc6648de3eb06e558261b67b0e2f978c4d0adc1f604f07ac4da27c99813f5dcd15f744f8aac1869de77e1abaf10c8f98073d3213cf295699080a4a21dce"
+RPM_NAME = "mozilla-nss-tools-3.91-1.1.aarch64.rpm"
+RPM_HASH = "70cba2e32de0e5897be27debb923314591aecd6afc26119cee29005bfd95c60cbdce9066162a6e50daea4aac17166197329d39ab263e18bbb587db43cf49ebc9"
 
 RPROVIDES:${PN} += "mozilla-nss-tools"
 

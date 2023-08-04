@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstplayer-1_0-0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "3676721fc3ef7098194a8fdc60273f70ce52f9da971e2723da4720117556524760086da2c2bf5730879de240e68f8c7bb248becfc90fa0cd1d1cb5e78d4ff1dd"
+RPM_NAME = "libgstplayer-1_0-0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "2085de85dbfd2c496b00e972ca1dbd61a891884d2d20f1aa3595d9d4db78a17228d4eabb45f082bb4b2d23873b30e4e617a4f7cac93cfb7851c23fe20057698c"
 
 RPROVIDES:${PN} += "libgstplayer-1-0-0 \
 libgstplayer-1.0.so.0"

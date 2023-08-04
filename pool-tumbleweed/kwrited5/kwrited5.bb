@@ -2,10 +2,10 @@ SUMMARY = "Daemon listening for wall and write messages"
 DESCRIPTION = "KDE daemon listening for wall and write messages."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "kwrited5-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "ca2d897b81d9c99c6e2468d28814b055f95bf919f59985815ffbfc66ee833e4e31c84e4c4864961704aa472cd0e7d8d63c211b05ce07a017a5dc925157995a94"
+RPM_NAME = "kwrited5-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "92ec869a3400935611523308d3b9b82de2f17af60d38692ebe2fc131281589f4f934063807a02d8b3c1a1d945e314d03879cefb68a1b464aeef4f7f31aa70db0"
 
 RPROVIDES:${PN} += "kwrited5"
 

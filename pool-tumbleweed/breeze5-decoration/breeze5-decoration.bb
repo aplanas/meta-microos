@@ -3,10 +3,10 @@ DESCRIPTION = "Artwork, styles and assets for the Breeze visual style for the Pl
 This package provides Breeze KWin decoration."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "breeze5-decoration-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "ff76b1d058d2c6b9fb7fe5eb5408ded034b68b9aa5bb2b05891496ebb6dc8f6df903c18960a21dd05007bb675d5edb3ff8021e27dbf9c96670bebc4986a64324"
+RPM_NAME = "breeze5-decoration-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "a75dcc47fde15c7e056c05a8e86768c232518cdf401e51c39d6bf4cfcc114c834486881667a2b734634652a2b135067cffcb964c0c01db744fafc1d4a4a5b8c2"
 
 RPROVIDES:${PN} += "breeze5-decoration"
 

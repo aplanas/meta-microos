@@ -2,10 +2,10 @@ SUMMARY = "Translations for package plasma-nm5"
 DESCRIPTION = "Provides translations for the 'plasma-nm5' package."
 LICENSE = "(GPL-2.0-only | GPL-3.0-only) & (LGPL-2.1-only | LGPL-3.0-only)"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma-nm5-lang-5.27.6-1.1.noarch.rpm"
-RPM_HASH = "19af9be26ddd38d91cbfc2551dd21a4e7940ee24f0bb0600469ac490e641911f2b7de2c09762bd300b74ff09471ae929aa2551a17b6babaa37d93af2b9716122"
+RPM_NAME = "plasma-nm5-lang-5.27.7-1.1.noarch.rpm"
+RPM_HASH = "3755bd91ae3e735ead4e1e4916081869bacfe2ef0bd4846f8307a91da4be5ec113bf892372452f569718d17ace41d081200feb29bbf48d3472cb87659d8c55e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plasma-nm5-ar \

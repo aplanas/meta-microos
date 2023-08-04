@@ -5,10 +5,10 @@ Inkscape. \
 Inkscape is a vector graphics editor."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.2.2"
+PV = "1.3"
 
-RPM_NAME = "inkscape-extensions-fig-1.2.2-3.5.aarch64.rpm"
-RPM_HASH = "ad28b212c55e26659ba5897196a6e3aac8ce53ae6d3d05c50330668834a3c88fdb6d40f1b45749a0bf51bd54be28e3019281ac24ac981405a87584f8c9db6a1b"
+RPM_NAME = "inkscape-extensions-fig-1.3-1.1.aarch64.rpm"
+RPM_HASH = "851b4d9ef4f3725f697912884bc2d19a73447d97d07ff822467dec8c7b6110cc16c05b3e5306084d9180a8226078d6773716b14a28c9c96f2488e32403b353c6"
 
 RPROVIDES:${PN} += "inkscape-extensions-fig"
 

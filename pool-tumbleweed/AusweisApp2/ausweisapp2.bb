@@ -5,10 +5,10 @@ and residence permits. To use this app, a supported RFID card \
 reader or compatible NFC smart phone is required."
 LICENSE = "EUPL-1.2"
 
-PV = "1.26.5"
+PV = "1.26.7"
 
-RPM_NAME = "AusweisApp2-1.26.5-1.1.aarch64.rpm"
-RPM_HASH = "75a0798e099cecb2e00969b9d8295dd8bc134df7dd7a9a073ecf933e7cec4da3bd37f1ce9aa8361e6ada54bec6a1452a0ea24a98c89ebd2aa2bfe190116c1f8e"
+RPM_NAME = "AusweisApp2-1.26.7-1.1.aarch64.rpm"
+RPM_HASH = "a217d63e92057c848b4f3cab22d6bd6d04d2717cd982085ebd4ebac6222dc4ce537839bf7d7432428cbeb595ac177e7be00954b9ecfc2736a627a74b0a828410"
 
 RPROVIDES:${PN} += "AusweisApp2"
 

@@ -2,13 +2,13 @@ SUMMARY = "Vector Illustration Program"
 DESCRIPTION = "Inkscape is a vector graphics editor."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.2.2"
+PV = "1.3"
 
-RPM_NAME = "inkscape-1.2.2-3.5.aarch64.rpm"
-RPM_HASH = "1702f1b58a664bb4719966ad23e1e32d33552bfdea4f5db3dcbad8682d4328c2a09766b17113d8c74f4400a54e28e3d93ee83abc725dd36c4c9c8bf142632f1a"
+RPM_NAME = "inkscape-1.3-1.1.aarch64.rpm"
+RPM_HASH = "26517bfb31318352b4de20a15b7b9c42af188583fce8fa4afbb875894758b9f2003b57d024b9cc54afaa7d7f95e197325d6feedb2ed4b964d58fa6e3dc79c5f7"
 
 RPROVIDES:${PN} += "inkscape \
-libinkscape-base.so"
+libinkscape-base.so.1.3.0.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
@@ -22,6 +22,7 @@ libcairo-gobject.so.2 \
 libcairo.so.2 \
 libcairomm-1.0.so.1 \
 libcdr-0.1.so.1 \
+libepoxy.so.0 \
 libfontconfig.so.1 \
 libfreetype.so.6 \
 libgc.so.1 \

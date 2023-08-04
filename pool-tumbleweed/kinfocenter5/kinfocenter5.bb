@@ -2,10 +2,10 @@ SUMMARY = "Utility that provides information about a computer system"
 DESCRIPTION = "KDE Utility that provides information about a computer system."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "kinfocenter5-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "5da72c271a1c3791a83a805841e9b04f4d2669d8e3b5d006b3ef223fa4a0a0e930930459d42585817dd73db2999b466dc0ec29aec3db57c9b767b94b79326054"
+RPM_NAME = "kinfocenter5-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "f215b19b19243648b6c1de9267b5c49866c58123ce7ff1b630e00acea424a83ccf6f13149131f69b6e3a29b5e4ba857c60dfb8106f9985d98745e28e539f6d68"
 
 RPROVIDES:${PN} += "kinfocenter5 \
 libKInfoCenterInternal.so"

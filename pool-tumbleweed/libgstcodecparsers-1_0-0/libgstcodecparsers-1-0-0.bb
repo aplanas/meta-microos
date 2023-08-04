@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstcodecparsers-1_0-0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "150863345e572ce6ab58524aed10595928ee6e1ee64689b0026b194eef48a7ea45fd5e840a1615485128e089de1d390b72cd26e4a5721207bd261b4ecca48de9"
+RPM_NAME = "libgstcodecparsers-1_0-0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "58ab2fcad10023112968e31409403c915263be5a1c90896a9b7015a39319ba36507f87fa575c92c05f297dc2aa436d5a5443f5f3625665191fc052768d83ed5e"
 
 RPROVIDES:${PN} += "libgstcodecparsers-1-0-0 \
 libgstcodecparsers-1.0.so.0"

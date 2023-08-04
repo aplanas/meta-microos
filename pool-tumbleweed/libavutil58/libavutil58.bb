@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.0"
 
-RPM_NAME = "libavutil58-6.0-2.4.aarch64.rpm"
-RPM_HASH = "d70f358d81c9c45df421403805d869108107ae52b42d280851a004619934a7f6120b54dcfe42439a62839da86b1d7b8ac30ca4f5377ea4ddc2bc51cfcdf13e0f"
+RPM_NAME = "libavutil58-6.0-3.1.aarch64.rpm"
+RPM_HASH = "e5c86175c81eefd576666a276f26c706d4ece6993d34d7a17507e310f06841f45ef65558cd087880009ede141fbebe19eb4ae937587144cbf81b4fdd838a47ba"
 
 RPROVIDES:${PN} += "libavutil.so.58 \
 libavutil58"

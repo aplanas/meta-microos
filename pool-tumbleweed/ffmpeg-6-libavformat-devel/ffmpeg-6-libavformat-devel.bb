@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.0"
 
-RPM_NAME = "ffmpeg-6-libavformat-devel-6.0-2.4.aarch64.rpm"
-RPM_HASH = "28ab6c24ba5562f35ea9cb4b9a95608f92ae5eafe565fb49be121791b1e51d14c7a9011960d42c1c60a3770622b2d3425a0e2c0901c28f5174ab910fe8a3ebc3"
+RPM_NAME = "ffmpeg-6-libavformat-devel-6.0-3.1.aarch64.rpm"
+RPM_HASH = "3f309dbc00b5e660feeaabf06f8dbaa857ba840c2eb41ff5fa1241f410fe892cb1e797cc65808045e37ff3432fbac3466482a91923524e084f3d94fe0d24564a"
 
 RPROVIDES:${PN} += "ffmpeg-6-libavformat-devel \
 libavformat-devel \

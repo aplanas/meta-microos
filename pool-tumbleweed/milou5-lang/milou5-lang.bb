@@ -2,10 +2,10 @@ SUMMARY = "Translations for package milou5"
 DESCRIPTION = "Provides translations for the 'milou5' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "milou5-lang-5.27.6-1.1.noarch.rpm"
-RPM_HASH = "076ccf4920606bdaea108ab77036b09634d5c490cd0cee4a2beed7c7ec63bc4e77ddaf99224464b32bcbb434e7bd307d07e626e4d8e0ed948f28a6d26a1cf530"
+RPM_NAME = "milou5-lang-5.27.7-1.1.noarch.rpm"
+RPM_HASH = "628999e419cf8432c1e310c2117bf692381b5b4c0261ca5afbde3e39e6357d3c10b92fb15ea7a559da340529af2be85601761de1df2e1dfb63b5cc5df5cddb33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-milou5-ar \

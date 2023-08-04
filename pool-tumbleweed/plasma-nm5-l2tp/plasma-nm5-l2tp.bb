@@ -2,10 +2,10 @@ SUMMARY = "L2TP support for plasma-nm5"
 DESCRIPTION = "Layer Two Tunneling Protocol (L2TP) plugin for plasma-nm components."
 LICENSE = "(GPL-2.0-only | GPL-3.0-only) & (LGPL-2.1-only | LGPL-3.0-only)"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma-nm5-l2tp-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "d55af644c03ba276c6e161849a1fd738ea2755064b34b314a2674cd5f166d11ecb71e035741c3fb12fbad3a78a8c04c465cf561ee481ea375e8433b66a6f91a7"
+RPM_NAME = "plasma-nm5-l2tp-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "9d8be7b52e8e1c820e0950f223855258e64cab7ad7d1227f41efcdffb9959815ab1295dd1bd1b1cd0efcfacfbbab453c15ffd022b64f7f4296af51de963678c8"
 
 RPROVIDES:${PN} += "NetworkManager-l2tp-frontend \
 plasma-nm-l2tp \

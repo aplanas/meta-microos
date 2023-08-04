@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstadaptivedemux-1_0-0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "8a60ee836a14aa9c1185f680c236104a1435b3132f376bdab2c81c086f71adf694c8ed85bdc531f640d5bfddcd4417caaabc50f874ce41ca0d9ed01a45a60b6a"
+RPM_NAME = "libgstadaptivedemux-1_0-0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "e44f074d2934b81223e853ac2c36e8eeedc27fa6475a32b2608cc551b1c2c994b166897f910680a007bb97ae50bd9f94b7bcf4bcffd03579c44520f93ab81617"
 
 RPROVIDES:${PN} += "libgstadaptivedemux-1-0-0 \
 libgstadaptivedemux-1.0.so.0"

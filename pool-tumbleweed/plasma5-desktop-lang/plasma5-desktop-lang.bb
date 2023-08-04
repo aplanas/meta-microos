@@ -2,10 +2,10 @@ SUMMARY = "Translations for package plasma5-desktop"
 DESCRIPTION = "Provides translations for the 'plasma5-desktop' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma5-desktop-lang-5.27.6-1.1.noarch.rpm"
-RPM_HASH = "b0f1f496b8b3b24a0fbbed931d15fca90c786285ea46e1d7208393a2d9ba4262726ddc30935d227e436b5e3f534fa79ab5a0ff813c1281259f1232feb31ee6d6"
+RPM_NAME = "plasma5-desktop-lang-5.27.7-1.1.noarch.rpm"
+RPM_HASH = "a3bababe8b1ad2415a11bf0ede0e3c67a53a3199d95db8a1a30d4b46db0284bd5decfdf3b3cb3d03514cbe3807716bbcf236261a1b544405ecde57852daf6fa5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plasma5-desktop-af \

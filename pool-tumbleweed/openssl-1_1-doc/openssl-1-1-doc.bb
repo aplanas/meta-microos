@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains optional documentation provided in addition
 this package's base documentation."
 LICENSE = "OpenSSL"
 
-PV = "1.1.1u"
+PV = "1.1.1v"
 
-RPM_NAME = "openssl-1_1-doc-1.1.1u-5.1.noarch.rpm"
-RPM_HASH = "bf0fd311572e6cb4aec670cf91d245f338f0adea3f6c9c60165292e0e7f9b3142b5a0c3be544ae468e836daa82755ee9baf2ae8299f5d70af0cccc98e7ec5369"
+RPM_NAME = "openssl-1_1-doc-1.1.1v-1.1.noarch.rpm"
+RPM_HASH = "9b1f45071bd0aa3419210645ad3d25b921451f47614a83e50c5ae1d54b9643dc857be402be077235d13c5fa2c5601578305a8fa37d94dc7e5a6384726662f584"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openssl-1-1-doc \

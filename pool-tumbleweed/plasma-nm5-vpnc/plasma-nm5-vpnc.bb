@@ -2,10 +2,10 @@ SUMMARY = "vpnc support for plasma-nm5"
 DESCRIPTION = "vpnc plugin for plasma-nm components."
 LICENSE = "(GPL-2.0-only | GPL-3.0-only) & (LGPL-2.1-only | LGPL-3.0-only)"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma-nm5-vpnc-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "a4623e80080d993a7ab1a50ec08c2bccc634ea3c9846e915c347526792cfaadc2d0abcc66d88f204adbb7b2c5d50f21fb06503f6789c12ba7ada7888276c36bf"
+RPM_NAME = "plasma-nm5-vpnc-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "36f3407a44e08292136bdfb297572820f8e154f079495940bcb8a7959e9ba561baad1a131833b2e6763d402c8e64de5acb70c38468e9575e3182fe21f44a38ca"
 
 RPROVIDES:${PN} += "NetworkManager-vpnc-frontend \
 plasma-nm-vpnc \

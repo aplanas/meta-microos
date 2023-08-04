@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kcm_sddm"
 DESCRIPTION = "Provides translations for the 'kcm_sddm' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "kcm_sddm-lang-5.27.6-1.1.noarch.rpm"
-RPM_HASH = "3701f104f418eee344b9946ca4303f573b41c24ba150ca2f6307a357fd38a3268ad13c760f49dfc532223cd2480cc4dfe63b1df24c7775be1f2c45159c306681"
+RPM_NAME = "kcm_sddm-lang-5.27.7-1.1.noarch.rpm"
+RPM_HASH = "77a44942710ffe5734470b9251c6e3d5bbc8a813f4ebdcce39727e6f69d8b8ca703ddfa199bf96cf68cdbc0edab64ca849012c15c6831309e7e81568acda12a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kcm-sddm-lang \

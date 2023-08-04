@@ -2,10 +2,10 @@ SUMMARY = "Library containing support code for the Breeze Qt5 style"
 DESCRIPTION = "Library containing support code for the Breeze Qt5 style."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "libbreezecommon5-5-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "d8483639bc591f1b420ce1fe7ca5318a21e4c0613050b32007c8d4a654f37436a493bcdd4ee3544bd2aac4389032c64e5c5738792d304959338cb3b7a285c944"
+RPM_NAME = "libbreezecommon5-5-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "44eb00a743f70bbd3d2ea46c92fc97d13ab5187eef2570dd3a892f8dd8dd016244cf992347593e77157f219ad5b226cd19931f75adf6b396ec774a3d4f736591"
 
 RPROVIDES:${PN} += "libbreezecommon5-5 \
 libbreezecommon5.so.5"

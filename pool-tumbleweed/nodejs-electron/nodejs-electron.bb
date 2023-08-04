@@ -4,8 +4,8 @@ LICENSE = "AFL-2.0 & Apache-2.0 & blessing & BSD-2-Clause & BSD-3-Clause & BSD-P
 
 PV = "22.3.17"
 
-RPM_NAME = "nodejs-electron-22.3.17-1.1.aarch64.rpm"
-RPM_HASH = "fa713e26d98a9262374e6afeb489e5f8f54b1406a16bf35d20d4a6bf20ffba7f87b7f9faa5fc7794309ae3b8e7c7019d374f9f9682a78aad94d996db9fe8a8c7"
+RPM_NAME = "nodejs-electron-22.3.17-2.1.aarch64.rpm"
+RPM_HASH = "c1d7dc86e868d81a39af465dbfce01d66232bb96d5bbcd2ae3e9ff386754a08065a906d1cbc79ca047b5231edaa7f18d9211f9aef6893bf9099cb9ec72307e84"
 
 RPROVIDES:${PN} += "electron \
 electron-abi \
@@ -86,7 +86,7 @@ libpango-1.0.so.0 \
 libpipewire-0.3.so.0 \
 libpng16.so.16 \
 libpulse.so.0 \
-libre2.so.10 \
+libre2.so.11 \
 libsmime3.so \
 libsnappy.so.1 \
 libstdc++.so.6 \

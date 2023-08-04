@@ -3,10 +3,10 @@ DESCRIPTION = "plasma-systemmonitor provides an interface for monitoring system 
 process information and other system resources."
 LICENSE = "GPL-3.0-only"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma5-systemmonitor-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "97b2c9bb273c5938c208845383714717ab982d6cea322df4af2be751b51151b1f2e48b2f29522f20c1f3d581a478e1edc85c6a86a48373db07af85f770150ac5"
+RPM_NAME = "plasma5-systemmonitor-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "02629b0c84f583c6b03fd21968ac1c08aa1a7d42a207605237d1eaa269b5c0bcd9ec94abfc4c30744fccec90a42fb66225f6bc600c16fbe8b471d577566fd2ce"
 
 RPROVIDES:${PN} += "libPagePlugin.so \
 libTablePlugin.so \

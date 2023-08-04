@@ -2,10 +2,10 @@ SUMMARY = "Translations for package plasma5-systemmonitor"
 DESCRIPTION = "Provides translations for the 'plasma5-systemmonitor' package."
 LICENSE = "GPL-3.0-only"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma5-systemmonitor-lang-5.27.6-1.1.noarch.rpm"
-RPM_HASH = "44fc6c85b63ad0ebc50a8b38002a89ae0b516ee857d3dd9fef08b7c265fdd800cbb40f5d87c8cd71ace6b1c3d60095461eb26432ba1ba9438d1302dbf8e29102"
+RPM_NAME = "plasma5-systemmonitor-lang-5.27.7-1.1.noarch.rpm"
+RPM_HASH = "2ab62d3834a098017fc0c6b5c3b649b48ef11f488c986dcf1070621c85e2532aba1519a220a7ccc954e0810afdbaf2ddf69d783c7361a00319c243edd6ca0bfd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plasma5-systemmonitor-ar \

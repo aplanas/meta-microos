@@ -6,10 +6,10 @@ KDE Plasma workspace. \
 Applications do not need to link to this directly."
 LICENSE = "GPL-2.0+"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma5-integration-plugin-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "d4fb1eb33564ddeeac3fe5fd56cd63d9e26e9d12684ad100d5ab568f0e9b492cddbc738a3a537a49c25044db67ccccdce650963d23eaa4c68b906305644e43df"
+RPM_NAME = "plasma5-integration-plugin-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "a4192075ddf57c4be387bd131d758e19e0a630b5b87c4fec774a211a48149103a0bb3685d89f5ded693469db75b9529d6c6d1617b5cdb8aafe49886c1b270f7b"
 
 RPROVIDES:${PN} += "plasma5-integration-plugin"
 

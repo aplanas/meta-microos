@@ -2,10 +2,10 @@ SUMMARY = "Translations for package polkit-kde-agent-5"
 DESCRIPTION = "Provides translations for the 'polkit-kde-agent-5' package."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "polkit-kde-agent-5-lang-5.27.6-1.1.noarch.rpm"
-RPM_HASH = "8748b8f7edafcef8ffeffc27171232a52c84d95d00c4382094225d1aba8a36ee23e12c73e60becc980b8a10e0ecc772169ca5978a40720a494c09c3152f74902"
+RPM_NAME = "polkit-kde-agent-5-lang-5.27.7-1.1.noarch.rpm"
+RPM_HASH = "957b7d06ca758f79a8feebada0906c4ce9c0bd14a6c5bde2045398952ee979619be5fb5a5d111656c51e4577dfe0f397769a7d65c7dd4f2df4ed3d355bfc75ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-polkit-kde-agent-5-ar \

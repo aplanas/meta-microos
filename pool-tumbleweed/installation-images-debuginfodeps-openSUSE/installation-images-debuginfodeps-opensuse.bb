@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "17.90"
 
-RPM_NAME = "installation-images-debuginfodeps-openSUSE-17.90-1.24.aarch64.rpm"
-RPM_HASH = "9edce9ecf4cfdca6ee5b626410cd43f50719635e3132011fefb5beec2474a2c60e85025aa6c9c9f97dad3a04f13c233b34b895ebc813f6d109fca84dc0516a10"
+RPM_NAME = "installation-images-debuginfodeps-openSUSE-17.90-1.28.aarch64.rpm"
+RPM_HASH = "e7d96a46b694fb7a1cba0edbfe84dffb48370d27d7a51f5f6953542278f3d7b96aa0a3e02e5e2cc8f725be71df8c6cd784b14e9e9e8d5c46a661ecd7a788daa3"
 
 RPROVIDES:${PN} += "debuginfo-build-id \
 installation-images-debuginfodeps \

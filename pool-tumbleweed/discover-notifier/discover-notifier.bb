@@ -3,10 +3,10 @@ DESCRIPTION = "This is a notifier for Discover to inform the user that updates a
 user to install them using Discover."
 LICENSE = "GPL-2.0-only & GPL-3.0-only & GPL-3.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "discover-notifier-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "31b76d238fb41b3924f96e15492bba46c8b8a8798766a403e34321c76a28e878f20be7d1c0daeee0e8c7c19f067cfba661f132e627adb185ef059a118a166a47"
+RPM_NAME = "discover-notifier-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "77d36bb9f904a807a3a083f249095dc8d284443b80ae2f6f07de596f7aaecd2f70966d5be830763b6a56368deb6a2a739aa541df1bfd630a4e1cf4848e468d22"
 
 RPROVIDES:${PN} += "discover-notifier"
 

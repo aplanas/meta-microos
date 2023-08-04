@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.0"
 
-RPM_NAME = "libavfilter9-6.0-2.4.aarch64.rpm"
-RPM_HASH = "22b64be4a57e65a3b07546ac9473e14500f17dc35f066904be98949a28bd87024448b85f756c351b5d34ff402e233278302d8dd0e7c070396bf7f246b4847acc"
+RPM_NAME = "libavfilter9-6.0-3.1.aarch64.rpm"
+RPM_HASH = "3121998b1ee7b67fd7dee4c36cc792878120b4c3e11fa22d7c9d90929f1972a752ee861555e35d188510dca5ef846c0814159d26006f7726b1b094d2623aed02"
 
 RPROVIDES:${PN} += "libavfilter.so.9 \
 libavfilter9"
@@ -28,7 +28,7 @@ libfribidi.so.0 \
 liblilv-0.so.0 \
 libm.so.6 \
 libmysofa.so.1 \
-libplacebo.so.264 \
+libplacebo.so.292 \
 libpostproc.so.57 \
 libpostproc57 \
 librubberband.so.2 \

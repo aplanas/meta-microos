@@ -2,10 +2,10 @@ SUMMARY = "QT/KF5 backend for xdg-desktop-portal"
 DESCRIPTION = "A Qt/KF5 backend implementation for xdg-desktop-portal"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "xdg-desktop-portal-kde-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "9bd7ee115c67af1f1e76671b33c0c18511bd58a6591974ad43390cd71172f17eec26c1daa9c2f990af3e7f7a918c39f5b9c79a4cb0cc6b1aa1d89d8acbdc9dd5"
+RPM_NAME = "xdg-desktop-portal-kde-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "fa70d87e8fb02a9e57921946ad78de4a6e121fc23beeda6a2e5ade18e6f82f2b23930b9806d3133070b6d35d806a00ef85bd94f1a81db34ab175ddcd964c9380"
 
 RPROVIDES:${PN} += "xdg-desktop-portal-kde"
 

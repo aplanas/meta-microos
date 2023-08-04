@@ -4,10 +4,10 @@ address allowing running of 'npm install' in a non-networked \
 environment"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.0.3"
+PV = "1.0.1"
 
-RPM_NAME = "local-npm-registry-0.0.3-1.6.noarch.rpm"
-RPM_HASH = "a4ae89a5d862de1b77d2aaeb0a693ac2a22ecac3b35668ef3ba52ea9603d4d8071b5b1199f27ac89c9cbe7f35396100367c439802358a49fc183572e8137c8a6"
+RPM_NAME = "local-npm-registry-1.0.1-1.1.noarch.rpm"
+RPM_HASH = "cf4e479526b9e69aac43aeb7ebb8883ad5c1385170ff8c49fd48c0f94cc2dfaac54ce2ce5f9a5df50db7763f9740f2a96ce2b61808ca6449b609d801cedaaf29"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "local-npm-registry"

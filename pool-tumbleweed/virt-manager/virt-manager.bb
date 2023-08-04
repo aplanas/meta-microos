@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.1.0"
 
-RPM_NAME = "virt-manager-4.1.0-9.1.noarch.rpm"
-RPM_HASH = "139f9001df1e73d396f35fe76de09dbe9238218eaa67d62e2dd043f83ac9340df58e706a810686b4afd658e102c5a127b6bb2b724f9a63be29c0991c5705ca7e"
+RPM_NAME = "virt-manager-4.1.0-10.1.noarch.rpm"
+RPM_HASH = "995fdd88495c57f472fdbb682d9e1d8338adfec57aaf4ef88bd0f126eab7961cf4c444d6db2bf77ef68d4bd7b61479b4a2dd23939b212cbbafdffe67e5d71760"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "virt-manager"

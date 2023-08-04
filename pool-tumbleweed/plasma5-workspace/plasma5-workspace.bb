@@ -2,10 +2,10 @@ SUMMARY = "The KDE Plasma Workspace Components"
 DESCRIPTION = "This package contains the basic packages for a Plasma workspace."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma5-workspace-5.27.6-2.1.aarch64.rpm"
-RPM_HASH = "ce755f287d4a388a2daccbab9c80388dec104388a29ac6d64aa4fe74d47d5d657cafd65d57a862dd20b92aa9c5128be2b17c54d1661606b619ae9dcf137d5528"
+RPM_NAME = "plasma5-workspace-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "3b0b12bc284c9e5ea1904107d989e682826838b41daddf25589196362cd936284328de2af19db0747cab5220d4bd7c516473f560c9df67db98720f53d0cd455a"
 
 RPROVIDES:${PN} += "config-plasma5-workspace \
 dbus-org.freedesktop.Notifications \

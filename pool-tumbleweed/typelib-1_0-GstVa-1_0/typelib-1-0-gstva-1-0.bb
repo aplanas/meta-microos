@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "typelib-1_0-GstVa-1_0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "8cfaab23df80d0651e1d94af0fab2705747eba3a1a5b2cf0419ec97d3551e6a31676d598286a818725ea22165007d405a8f0c9a8a162a0e04f9bb330a592d67f"
+RPM_NAME = "typelib-1_0-GstVa-1_0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "71a8468126a259ad7dabe9ca562eef4615d57f108e32b2c21e2fc6f1542d0f76681d7364f0faffec6328adf859b1188d001cdab01696a22c46b69666cb56dea8"
 
 RPROVIDES:${PN} += "typelib-1-0-GstVa-1-0 \
 typelib-GstVa"

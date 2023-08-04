@@ -5,10 +5,10 @@ available (e.g. insertion of a USB drive). \
 This command will usually trigger a FreeFileSync batch job."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "12.4"
+PV = "12.5"
 
-RPM_NAME = "RealtimeSync-12.4-1.1.aarch64.rpm"
-RPM_HASH = "b0e1e09329a95cb797c5396c69a5e149e9493d7da8159535ccbc32c439f70b07e06d7845d5d48f761126be4c8885c50ad5f81f820f59097d4131141286cf7734"
+RPM_NAME = "RealtimeSync-12.5-1.1.aarch64.rpm"
+RPM_HASH = "1312b4a61d63d3ffad904c6b1491696516ffefa6436a4c21b2ce9ac0db31aa5e94bc2c2b8532ceca2a708bbc531b53c0ea9ef2e2da5ee1d48961d682495b5471"
 
 RPROVIDES:${PN} += "RealtimeSync"
 

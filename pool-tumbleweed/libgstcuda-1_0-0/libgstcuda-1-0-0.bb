@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstcuda-1_0-0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "9b46eef623ce5ce8d6ac29c9e71681174cfb419a85c9bb9ae0091b69cfb08270fb9b78fdec5e0c8c2a919b670c3c190f38690b0fc3cf4125fd1832da71113a72"
+RPM_NAME = "libgstcuda-1_0-0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "a3499c73c5a3bc49163228f788190850f67afeebee2410762299a08a681cab48f6ecc93f7f647267dbca28c896705c0f321243fe0529b9841def45604ee41beb"
 
 RPROVIDES:${PN} += "libgstcuda-1-0-0 \
 libgstcuda-1.0.so.0"

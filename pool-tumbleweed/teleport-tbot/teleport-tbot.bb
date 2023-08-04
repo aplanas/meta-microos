@@ -3,10 +3,10 @@ DESCRIPTION = "Machine ID is a service that programmatically issues and renews s
 tbot is the executable belonging to the Machine ID service."
 LICENSE = "Apache-2.0"
 
-PV = "13.2.5"
+PV = "13.3.0"
 
-RPM_NAME = "teleport-tbot-13.2.5-1.1.aarch64.rpm"
-RPM_HASH = "812c99b439fc76643423cecc7d43bb21f434b531a70e81c8dfc43c8c00bd5f0e37dc984894b7c25d67016c4ce51bdb8050cbf2d1acb5861c3aada87724486c75"
+RPM_NAME = "teleport-tbot-13.3.0-1.1.aarch64.rpm"
+RPM_HASH = "7b5b137d02a148dab610a5d3b9e00978f5597a0e1e452df6d9edb97c41867a195f592e7d374985e9c33496addd56dd10267637ff1675530cb8029dfa9fc5daf1"
 
 RPROVIDES:${PN} += "config-teleport-tbot \
 teleport-tbot"

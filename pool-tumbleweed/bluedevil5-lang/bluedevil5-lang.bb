@@ -2,10 +2,10 @@ SUMMARY = "Translations for package bluedevil5"
 DESCRIPTION = "Provides translations for the 'bluedevil5' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "bluedevil5-lang-5.27.6-1.1.noarch.rpm"
-RPM_HASH = "27e19d6638ca5e17d411de4712178e4fc4d0e0b14bee6d8a84dc452a77c870883d216fee84e5aafccce7f271aeb56b154d977edde63600c8237b4f6138fd65dc"
+RPM_NAME = "bluedevil5-lang-5.27.7-1.1.noarch.rpm"
+RPM_HASH = "26b8fd57175489fc963e60af98aabeb7cf5b8971c9413e29b8d3f48f5f8909d6be31f26e194ff32ebfc24836ee6932b1c4fb017df9a86290bf21c350d7795066"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bluedevil5-lang \

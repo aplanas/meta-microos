@@ -2,10 +2,10 @@ SUMMARY = "Translations for package plasma5-workspace"
 DESCRIPTION = "Provides translations for the 'plasma5-workspace' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma5-workspace-lang-5.27.6-2.1.noarch.rpm"
-RPM_HASH = "e2ce39701e87af277c4955a5c2f4cb8172f54de3643833b333ce75afa12270e3f589305369839ed0bfb0387fed5e3f622784a199e7fc424615d1338cd19061ff"
+RPM_NAME = "plasma5-workspace-lang-5.27.7-1.1.noarch.rpm"
+RPM_HASH = "a319b66c39e97672f4520d67eb09a34b52bc7e2a3d25cdfc7ac5ab043b68eb806821954205ae5ac4b54bc3c636b6aa57fa7793b2f9b26c3f8c95fcc7e3f65756"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plasma5-workspace-af \

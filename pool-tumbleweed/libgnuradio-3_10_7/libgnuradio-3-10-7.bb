@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.10.7.0"
 
-RPM_NAME = "libgnuradio-3_10_7-3.10.7.0-1.1.aarch64.rpm"
-RPM_HASH = "0e6ee145fef8fda66013e80ea657786ce6e0f2094ea8849327f539c24447aa663c26a5c38e5893b6fd3e1852ab6f1841d4d19d5b9c5fd6a388ac94e4342590c7"
+RPM_NAME = "libgnuradio-3_10_7-3.10.7.0-1.2.aarch64.rpm"
+RPM_HASH = "afd710191d9d841589c5a3d34aad051061d4325fb5f2869ecdee85e086f9ef315d053be5defb27a5bd5f54f0d0e94e0f936fd35e7ae0078bef23862bd271913a"
 
 RPROVIDES:${PN} += "libgnuradio-3-10-7 \
 libgnuradio-analog.so.3.10.7 \
@@ -48,7 +48,7 @@ libasound.so.2 \
 libboost-program-options.so.1.82.0 \
 libboost-thread.so.1.82.0 \
 libc.so.6 \
-libcodec2.so.1.1 \
+libcodec2.so.1.2 \
 libfftw3f-threads.so.3 \
 libfftw3f.so.3 \
 libfmt.so.9 \

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "0.2.18"
 
-RPM_NAME = "tupitube-plugins-0.2.18-3.4.aarch64.rpm"
-RPM_HASH = "5121a0964cce276624635fb8041eba5814e357ca082e37c272e811cf33b52aee9179068eae3cca6c7a70e5f62e304598dfe564b12572eb26511ebd907f5999d9"
+RPM_NAME = "tupitube-plugins-0.2.18-3.5.aarch64.rpm"
+RPM_HASH = "f9e2acd3bf23ae775114dbd4fba2543e4722278ed658ecf523405eedbee32751b8433728b6a64ac19a7b4380d8b47877d21dca11fe7c7c5ace3a42d7fdf22c94"
 
 RPROVIDES:${PN} += "libtupicoloringtool.so \
 libtupieyedropper.so \

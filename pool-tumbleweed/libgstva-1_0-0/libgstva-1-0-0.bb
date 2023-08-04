@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstva-1_0-0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "636573bfbff1f77b21618655807fa92fb46e76593befe1cce25262f7e117db58422639a26a060be615c247d72a3581f68c2cdda4c933c847b492af1fd4ef9329"
+RPM_NAME = "libgstva-1_0-0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "a195d248414ccc81abf9740bb0cad1f2a57b0e7d2a2a08291d95f462bc7aaa5e235885abe46311b04507b399b64e8a96307e24f023d9eb159221db9a008cdaf6"
 
 RPROVIDES:${PN} += "libgstva-1-0-0 \
 libgstva-1.0.so.0"

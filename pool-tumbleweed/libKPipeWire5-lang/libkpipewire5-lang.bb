@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKPipeWire5"
 DESCRIPTION = "Provides translations for the 'libKPipeWire5' package."
 LICENSE = "LGPL-2.0-only & LGPL-3.0-only"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "libKPipeWire5-lang-5.27.6-1.1.noarch.rpm"
-RPM_HASH = "a48ca65d771a1c13794a13cc76d935aac347aa0f2fcfe290fcbb3051559fc16d80e4658fb7e4c97cc7d313afdb21d289b707c01dfd8474ac820dd43df338b5a2"
+RPM_NAME = "libKPipeWire5-lang-5.27.7-1.1.noarch.rpm"
+RPM_HASH = "67fa6b37ec1725d963059513da3b197f2963e7365cb160859aaeeac54010c271f2d362a6bf9e1da7ddc7c4c19766d391c0b98cdfff65e4db92cc8f42be550853"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKPipeWire5-lang \

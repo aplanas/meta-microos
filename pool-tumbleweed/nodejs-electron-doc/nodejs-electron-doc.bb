@@ -4,8 +4,8 @@ LICENSE = "AFL-2.0 & Apache-2.0 & blessing & BSD-2-Clause & BSD-3-Clause & BSD-P
 
 PV = "22.3.17"
 
-RPM_NAME = "nodejs-electron-doc-22.3.17-1.1.noarch.rpm"
-RPM_HASH = "b34db3ed9958679aacfde916ae2a0b29d574adfd97e7b5016766fd3b00db1d63a7622c351018b4cff91bee8f7a6a6bdae0ff0af776dae06510605361eb94de97"
+RPM_NAME = "nodejs-electron-doc-22.3.17-2.1.noarch.rpm"
+RPM_HASH = "e1d1980a6373d857c6c7f9ed6dd68d87e8aa210cfc60d6195e0f6b5fead48a9aca17426eb2ca60d972a52d58d530a60fdc6e8794ebf44d76c7b78905aa06e5c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nodejs-electron-doc"

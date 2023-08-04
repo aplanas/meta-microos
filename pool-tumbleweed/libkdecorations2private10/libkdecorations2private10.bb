@@ -2,10 +2,10 @@ SUMMARY = "KDE's window decorations library"
 DESCRIPTION = "Plugin based library to create window decorations."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "libkdecorations2private10-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "7c8488722c26e5c7e39c99dcc997eecb1e4ceaa3272ac204b29b8c19213a15e824de7ad8fd6325ff42380b37738de8ae7a8177d974f5f6cbdc940912807be89b"
+RPM_NAME = "libkdecorations2private10-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "0e3a44ee212c27320c8735fe1a87efd0aa25507cd257037b1a202ec4df68ae36eb33f0a18d40292ef8afad13008fe66788369f696f35faf3508493b46a10548f"
 
 RPROVIDES:${PN} += "libkdecorations2private.so.10 \
 libkdecorations2private10"

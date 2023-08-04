@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgsturidownloader-1_0-0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "dc722846736c24a2d06e8ac76970faf6b7ec4afe5b05ee5517f7c0faa83da85abb32139f8866249fcf88840ee3fc71ee5a5acee34b78db123beed3b8f0215f34"
+RPM_NAME = "libgsturidownloader-1_0-0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "85745aa48ae2dbafc32da805a712fedd68e1569a1b731d5dbdf55f11fcfb13d10c99375b710138a3e8fb6128dadf25688497ec000428f2340b764a4ea2c00f5d"
 
 RPROVIDES:${PN} += "libgsturidownloader-1-0-0 \
 libgsturidownloader-1.0.so.0"

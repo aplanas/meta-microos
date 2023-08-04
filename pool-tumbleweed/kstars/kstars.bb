@@ -3,10 +3,10 @@ DESCRIPTION = "KStars is astronomy software. It provides an accurate graphical \
 simulation of the night sky, for any time and location on Earth."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "3.6.5"
+PV = "3.6.6"
 
-RPM_NAME = "kstars-3.6.5-1.1.aarch64.rpm"
-RPM_HASH = "cb2f06674db9d421cddfd90497dcdf8b0b57f0a2652303cca7fb7a8629bd8687c28fb547e047508dadd58fa64c034fde5c30467df80c399e24d187c19ae90d81"
+RPM_NAME = "kstars-3.6.6-1.1.aarch64.rpm"
+RPM_HASH = "e2fcd52f99d7cab21db84afa352dbcbdc5cca72be9cccf6fe7f9550c0dbdb5dd73492f1792cd19a90b65a3a31982ee72232960be6971f098ee974c1b612a6e8b"
 
 RPROVIDES:${PN} += "kstars"
 
@@ -43,6 +43,7 @@ libc.so.6 \
 libcfitsio.so.10 \
 libgcc-s.so.1 \
 libgsl.so.27 \
+libgslcblas.so.0 \
 libindiclient.so.2 \
 libm.so.6 \
 libnova-0.15.so.0 \

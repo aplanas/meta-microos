@@ -2,10 +2,10 @@ SUMMARY = "Plasma Desktop artwork, styles and assets"
 DESCRIPTION = "Artwork, styles and assets for the Breeze visual style for the Plasma Desktop."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "breeze-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "cfa9afe160e48f6d9f1b3a89e1ecaf6d5a7a0ab57197b12936e753af7fe0bb90050bb1fc928f7934d84bc140b6fc8c3bfcf3d37bf715eb07354697eaccf723db"
+RPM_NAME = "breeze-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "afda390d289d6fe600b9d5e35946debd9f18cd561860ed80f8e3726476a05ff1abc17ec511e065d9e87b644dd387c48092ef3954428524cb5307ec156b11334a"
 
 RPROVIDES:${PN} += "breeze"
 

@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "typelib-1_0-GstPbutils-1_0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "82b329c3924a4c8282d420db1ac921a4b9b906a2980b875cb13754d4f73ed4117fb00083c90dfd1f508fbe5f764a5111bf40481f2d26d3c9f73ee4a069f6bb36"
+RPM_NAME = "typelib-1_0-GstPbutils-1_0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "2ef0161122762e5eea478893fc5e7a36fa52e49887b0b0e1a60bd051db7cab37bd9a426c4a79b1af797b5dc3ab5a296ada4f42e68d4d1144f0417995348f7be5"
 
 RPROVIDES:${PN} += "typelib-1-0-GstPbutils-1-0 \
 typelib-GstPbutils"

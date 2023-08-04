@@ -2,10 +2,10 @@ SUMMARY = "Task management and system monitoring library"
 DESCRIPTION = "Task management and system monitoring library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "libksysguard5-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "100f38f47c892bfc166000d521b6a527559871f584862b3efdb354aacddcff3bb99867823ace93107dc9600f4c18d9d74b3b5b8f0b20cb24209dd5cf21a91cce"
+RPM_NAME = "libksysguard5-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "ae39031b69ac3ebd552d161f8bdea759a9670675aa0f850e7d54c9ea37bcbe3c1140d38623673ca22813275ade2deb7112564f53419ee0bcc364d81a5aeb39ee"
 
 RPROVIDES:${PN} += "libKSysGuardFormatter.so.1 \
 libKSysGuardSensorFaces.so.1 \

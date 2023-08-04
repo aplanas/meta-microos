@@ -2,10 +2,10 @@ SUMMARY = "Plasma applet and services for creating encrypted vaults"
 DESCRIPTION = "Plasma Vault is a plasmoid for creating and managing encrypted vaults"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma-vault-5.27.6-2.1.aarch64.rpm"
-RPM_HASH = "19e7a472d85cf84bc2351309d5942485a01edea3e26f976e05d9424a2265b66c3086edf3cb7e11a952c28242fced58beded7f36d36bca155e344796d11603712"
+RPM_NAME = "plasma-vault-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "7e379e6e34a5e9075e16b4b19658a15acf9642bcd74eb35ace0f2a3ddfdb4bed4f10741c93b8093370b54527899df886a1be1912e860771891d38f72e038773d"
 
 RPROVIDES:${PN} += "plasma-vault"
 

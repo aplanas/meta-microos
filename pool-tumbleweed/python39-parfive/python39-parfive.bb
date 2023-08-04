@@ -5,10 +5,10 @@ feedback to the user about the downloads in progress. It also \
 provides an interface for inspecting any failed downloads."
 LICENSE = "MIT"
 
-PV = "1.3.0"
+PV = "2.0.2"
 
-RPM_NAME = "python39-parfive-1.3.0-1.12.noarch.rpm"
-RPM_HASH = "34e63a92d6cbb96cbab8526b6342ade2d01f0ee03daaca99f33f439479deb074e5d4df88c66bbdddaff8524dba7e25e86dac3e8853c7c5d2a582a46cc724e8b2"
+RPM_NAME = "python39-parfive-2.0.2-1.1.noarch.rpm"
+RPM_HASH = "ad7a266356ec924b7345dfbdcdebf1d27c57df3044bc5307ac0c35fb5f2206d8d45218c44b800dc65c067985f33be644ee5f14756bf9833ceb7aef315e2dfe97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-parfive \

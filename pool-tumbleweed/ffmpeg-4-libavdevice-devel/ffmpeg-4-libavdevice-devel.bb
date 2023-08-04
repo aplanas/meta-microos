@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.4.4"
 
-RPM_NAME = "ffmpeg-4-libavdevice-devel-4.4.4-2.1.aarch64.rpm"
-RPM_HASH = "fb20b2b12ac1c962045c99fb851ebce2a5a80f484ecb4bbde0746f80d56dec9944c7e589da690d518385cb5c0eaee188ed263feed3bd025d5417231e561a70c3"
+RPM_NAME = "ffmpeg-4-libavdevice-devel-4.4.4-2.2.aarch64.rpm"
+RPM_HASH = "960ba2b19924c23cf0601cf35ae35b56af94d4fa899e485dce00acae471841c57cf3dc67ba4d0a15f87069c4812ec145659a6b7cee9acbc1af8e3cad17270c2e"
 
 RPROVIDES:${PN} += "ffmpeg-4-libavdevice-devel \
 ffmpeg-devel \

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstriff-1_0-0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "294b9343a4e085bb6ef14ff91272120263d111ad482ae4e95a2f5128dbf4a28d458c8739e55e9924191c814f2f1ac38bd0b0e8c3361c7c1a5f54c80fbf7772d3"
+RPM_NAME = "libgstriff-1_0-0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "9c6f3fa8b2e27adb22201080d7b4bcbb6361613853cbb9ecab0788edeb28ed04b4757f001d06c943964b161d7b492f47541af8a66afd1b1b8531c60ec8d235c3"
 
 RPROVIDES:${PN} += "libgstriff-1-0-0 \
 libgstriff-1.0.so.0"

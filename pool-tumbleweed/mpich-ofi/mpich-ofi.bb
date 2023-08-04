@@ -13,10 +13,10 @@ The goals of MPICH are: \
    framework for other derived implementations"
 LICENSE = "MIT"
 
-PV = "4.0.2"
+PV = "4.1.2"
 
-RPM_NAME = "mpich-ofi-4.0.2-3.4.aarch64.rpm"
-RPM_HASH = "c09ac9bc5f2c5c7b658fc53b1e3939418c84f936cf46187c61f1452b1ea22d341b0b8a8ec7a1d6958f0dbdb400c1f89885eedb9dd40fd72e8555f3bf269edd99"
+RPM_NAME = "mpich-ofi-4.1.2-1.1.aarch64.rpm"
+RPM_HASH = "121975162d7722169c6bea02cd4b58a77007fa7c37d4576e2c45bd5afabd0a349a010beb27fadcff3f2dee9f466cbd4161161ed92ddb623b535de73950ec773c"
 
 RPROVIDES:${PN} += "libmpi.so.12 \
 libmpicxx.so.12 \

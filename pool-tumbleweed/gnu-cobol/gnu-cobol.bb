@@ -6,10 +6,11 @@ LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
 PV = "3.1.2"
 
-RPM_NAME = "gnu-cobol-3.1.2-1.14.aarch64.rpm"
-RPM_HASH = "dccc542753d788324b2f6f27d095ca3a0eae79c5954efe644c8186405cb2806ad827af3102b45d2815852b1517e3f97f65d176dcd2ea2aa14780dd0f62a95387"
+RPM_NAME = "gnu-cobol-3.1.2-2.1.aarch64.rpm"
+RPM_HASH = "31862c3e17deab175836aacd8a975a391c85a59aae1b7e10c3de3b06b1c009e6eba871545e0b4a1c4a72d2595927dc62fa11ef055cca6137f38d50a4c14cfda4"
 
 RPROVIDES:${PN} += "gnu-cobol \
+libcob-devel \
 opencobol"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

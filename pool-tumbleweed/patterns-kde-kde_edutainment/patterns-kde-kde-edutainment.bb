@@ -2,10 +2,10 @@ SUMMARY = "KDE Education"
 DESCRIPTION = "KDE Applications - Tools to teach kids with computers"
 LICENSE = "MIT"
 
-PV = "20230403"
+PV = "20230801"
 
-RPM_NAME = "patterns-kde-kde_edutainment-20230403-1.1.noarch.rpm"
-RPM_HASH = "dfeddb6b02dac67a856f51642d8c7ad9c496fbbf1e46592b7844f48f367cac17fe4fde967320e296cf7b069e17f449b49dd552c60aea38a3d99dfcc08864beb1"
+RPM_NAME = "patterns-kde-kde_edutainment-20230801-1.1.noarch.rpm"
+RPM_HASH = "0a30426bf4713df50a4d642c7fa56aa6daf5d0961a9090b14a1da68435bc36ac4246d14308f2d72f2d32cf844fa323b6b3830466a41548fb84c430cf81a8c550"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pattern- \

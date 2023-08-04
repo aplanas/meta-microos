@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "gstreamer-plugins-good-gtk-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "beda59af25352cff566e6c3e9f7e111212a33f793a9116baf6baa0b11368e9865814ca212d71ba0ea536421114233b76530504e9118e039edd44009c1ca49f46"
+RPM_NAME = "gstreamer-plugins-good-gtk-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "c1b08aec054b18d313075e546669c55f4a8075b0938f65a576dab0a170fd48c6c4734ac46eaf5c49efe2885d815e96c96fc6b2e1d0e8a97bcd5e36e3db8404d1"
 
 RPROVIDES:${PN} += "gstreamer-plugins-good-gtk \
 gstreamer1 \

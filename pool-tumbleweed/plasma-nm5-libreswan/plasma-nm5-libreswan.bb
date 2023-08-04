@@ -2,10 +2,10 @@ SUMMARY = "Libreswan support for plasma-nm5"
 DESCRIPTION = "Libreswan plugin for plasma-nm components."
 LICENSE = "(GPL-2.0-only | GPL-3.0-only) & (LGPL-2.1-only | LGPL-3.0-only)"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma-nm5-libreswan-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "d6bd0fe297fa13799728be9fa7378fde53c972da90b9090b2f2bb1b672a327f79b4c4db04a30e9f93d92c0f206b363e52c2b7a734e80c6b39fe8ed231bf9855c"
+RPM_NAME = "plasma-nm5-libreswan-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "d63a4c57692868ae88d3329619e966d2870bc620c392846c4257364e164226b43ed59e51d89f57d6ff31957c33dbb6e419f76d0a459d2a5ae2069b1f6d64304e"
 
 RPROVIDES:${PN} += "NetworkManager-libreswan-frontend \
 plasma-nm-openswan \

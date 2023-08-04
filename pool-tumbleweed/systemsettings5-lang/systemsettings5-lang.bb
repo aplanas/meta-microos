@@ -2,10 +2,10 @@ SUMMARY = "Translations for package systemsettings5"
 DESCRIPTION = "Provides translations for the 'systemsettings5' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "systemsettings5-lang-5.27.6-1.1.noarch.rpm"
-RPM_HASH = "c8acdebb900bea70f53316db020aac39f9cea6b2157821bfb1a6939b9feba1e4b6506ea283257498f4966d51639bdee2c789e52aeb499803589a05548d416113"
+RPM_NAME = "systemsettings5-lang-5.27.7-1.1.noarch.rpm"
+RPM_HASH = "ff37d481835af93dc471b4d31353fa85e37fe9cf04b21eb2f9106af3efac2dbe807c0eb62df5eabab5a8c472730fedbd797e315e0557ad8e131d9c606a925904"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-systemsettings5-ar \

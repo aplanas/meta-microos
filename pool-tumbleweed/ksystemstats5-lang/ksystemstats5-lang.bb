@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ksystemstats5"
 DESCRIPTION = "Provides translations for the 'ksystemstats5' package."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & CC0-1.0 & GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "ksystemstats5-lang-5.27.6-1.1.noarch.rpm"
-RPM_HASH = "5b7effe0f67aa74e47cfa6cdd4512c17c9522d667ced9199795343a1e8ef878b2c820064a8b69c1a826982119439180620389bf26d96d5c17609f69e92962e64"
+RPM_NAME = "ksystemstats5-lang-5.27.7-1.1.noarch.rpm"
+RPM_HASH = "cd73b52e783f6242d53f52087e9d7fc69bd126a6b8af458e89b48dce2e383efcc1050968f85917386a664c8c4cc5c8bc72a04c3fa698f9cb967aa8f41931b22c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ksystemstats5-lang \

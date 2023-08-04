@@ -2,10 +2,10 @@ SUMMARY = "Integration plugins for various KDE frameworks for wayland windowing 
 DESCRIPTION = "Provides integration plugins for various KDE frameworks for the wayland windowing system."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "kwayland-integration-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "d165dab349e1ecc574047af135379397e63028e7f47f0cf6c2ea1a1ae0020eeba9ec9688660ee804f1cac8a064cc3e752fcdfbcbf6636616e81ed5cb6a2f8b39"
+RPM_NAME = "kwayland-integration-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "de501153f407cd56b7c0f3c562a1353f59266222075240ef340bf7b9f82ba2d615be32079699f39907286cc5abd154b43a9adc6674ebccffa9de87e8dd339df7"
 
 RPROVIDES:${PN} += "kwayland-integration"
 

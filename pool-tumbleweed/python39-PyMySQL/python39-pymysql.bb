@@ -9,10 +9,10 @@ by simply changing the import statements in the Django MySQL backend and running
 its unit tests as well as running it against the MySQLdb and myconnpy unit tests."
 LICENSE = "MIT"
 
-PV = "1.0.3"
+PV = "1.1.0"
 
-RPM_NAME = "python39-PyMySQL-1.0.3-1.2.noarch.rpm"
-RPM_HASH = "fb51976f27ada167be5389cbdd2de90a78a4e9e818f2bd18b6fcbbfc5897a57c6766c257660944b6c85d5483bfd34d6a2356b24ad77df182be4dcc7b5442b8c1"
+RPM_NAME = "python39-PyMySQL-1.1.0-1.1.noarch.rpm"
+RPM_HASH = "162a98ffd74dc5e19e36f8138475f813cf26a1c11d8a617911b5eec6d0d11bb7f366bf0e5b27f31edef400430fc608fc03075053ddadd65ee1d3e4e6f9f521f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pymysql \

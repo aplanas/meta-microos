@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "typelib-1_0-CudaGst-1_0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "74c12b1555936fd14bfa1696f0e68183f1c192fbc756270f667d5986efe6793ec70804cc7be3151c065a8b1144e40a546aff75b8efc521997e9f2d2b10b0072b"
+RPM_NAME = "typelib-1_0-CudaGst-1_0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "dc93e52fee33e22440de2d2d8db67184568a6fbb8647f6d10a730a11538ed225e5a5daf1ac2c123bb7112c4ccd8283e73cc6f9944f073ef07fb5318ebc8cd8a4"
 
 RPROVIDES:${PN} += "typelib-1-0-CudaGst-1-0 \
 typelib-CudaGst"

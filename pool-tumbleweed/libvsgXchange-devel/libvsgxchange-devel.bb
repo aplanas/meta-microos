@@ -8,10 +8,10 @@ Vulkan. \
 This package contains the development header and libraries for vsgXchange."
 LICENSE = "MIT"
 
-PV = "1.0.3"
+PV = "1.0.4"
 
-RPM_NAME = "libvsgXchange-devel-1.0.3-1.1.aarch64.rpm"
-RPM_HASH = "ac03315a86d8c2b9f78505180734156302c2e164f513fdef87f832213ecd424700a3a322334bd4b3c921bce97f4f14b3b8e9615839cd5496d6d474ce3baa26da"
+RPM_NAME = "libvsgXchange-devel-1.0.4-1.1.aarch64.rpm"
+RPM_HASH = "ed7c396311d77d786b44fbcdf08e89eb6de27fdc0328caf90faeeae1b80da0823a54445db9d5009b7b9eb5ce49ce9f0e39e780bc24fe3e913f556cc513f9ee85"
 
 RPROVIDES:${PN} += "cmake-vsgXchange \
 libvsgXchange-devel"

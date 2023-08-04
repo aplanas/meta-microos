@@ -2,10 +2,10 @@ SUMMARY = "fwupd Backend for Discover"
 DESCRIPTION = "A plugin for Discover to support updates of system firmware using fwupd."
 LICENSE = "GPL-2.0-only & GPL-3.0-only & GPL-3.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "discover-backend-fwupd-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "c8edaabf3dd4f6dbd6044177270a4d82d4b1f40bf0c907baedd8bcacd1f2b1228996a95150ffbd06c491f0f279b9ae34460e8536c61c94959900cab27467be6a"
+RPM_NAME = "discover-backend-fwupd-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "9495cda3a481c2cb732f348f5b0ef306e861db766b0d2421a0c9e881828965078fb39d882ca7ed546c8eb156fc7ad434cfb4a5b8e82105e04ec4990cf319310e"
 
 RPROVIDES:${PN} += "discover-backend-fwupd"
 

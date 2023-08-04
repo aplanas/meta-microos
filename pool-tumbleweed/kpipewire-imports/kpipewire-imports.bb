@@ -3,10 +3,10 @@ DESCRIPTION = "KPipeWire provides PipeWire integration for the Plasma desktop an
 This package provides QtQuick bindings for the main KPipeWire libraries."
 LICENSE = "LGPL-2.0-only & LGPL-3.0-only"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "kpipewire-imports-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "3e1c281bf13cd1c63c46198ad0f109e5c055d633dc15ef6afeac88fcf06b996d874032db0bf614334eb09b6b83d2170bd1b08493f0908bb6255ef53d21799d59"
+RPM_NAME = "kpipewire-imports-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "a6f3f599539c288f9453b6560d810991b97a429492a519da1f1ab8c793593e672724c53f732a1b6232e6a1939bd0a481ef7d89a2059f6df28a106e6bc7f0a9fd"
 
 RPROVIDES:${PN} += "kpipewire-imports \
 libKPipeWireDeclarative.so \

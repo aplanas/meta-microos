@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "0.2.18"
 
-RPM_NAME = "tupitube-0.2.18-3.4.aarch64.rpm"
-RPM_HASH = "17f2bc2f546115538afe1b225d2f596a4ba65dbd47da7ed7ab8776e7f5d3edc8338a4de4dbccd50c8f6fd5166d49f590e3cbe84e49f3130760b691ea4a98c631"
+RPM_NAME = "tupitube-0.2.18-3.5.aarch64.rpm"
+RPM_HASH = "7aaeb7dd9a1c3968c5029402333d6c987e29f20641b8833d20005e89b5706d6d4529a83b42494913d6b0fa401410cffaa81d245b8b1211dd16379d01c8d0d3aa"
 
 RPROVIDES:${PN} += "ktoon \
 libjson-c.so.1 \

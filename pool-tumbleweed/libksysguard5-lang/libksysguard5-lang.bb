@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libksysguard5"
 DESCRIPTION = "Provides translations for the 'libksysguard5' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "libksysguard5-lang-5.27.6-1.1.noarch.rpm"
-RPM_HASH = "a01a835f3c6c14f05ea9a4cdc033c14fd7b53d0482e05049b62ca9934fc92071bfbb99c1310d21611ad6559ec11429def4a2e6dc1b3af7c7ba4d1ba567819317"
+RPM_NAME = "libksysguard5-lang-5.27.7-1.1.noarch.rpm"
+RPM_HASH = "118a76707d30b6b351d9e524c07f8e7755e81114445098e8027d8f5a079dbd9c647e74af83df6a0f0f46e89cce7f124c568a3fbdc55f11bc28a217105eb89737"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libksysguard5-lang \

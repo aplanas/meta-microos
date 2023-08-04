@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstinsertbin-1_0-0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "ff9ce103c24dfcffecb3cb5aff3478774243540a1ddb350cf8cd983e19534db6317648aab573bd300986b03c9564006734be1f54ba39a90e65654b86e3b6c7ea"
+RPM_NAME = "libgstinsertbin-1_0-0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "321415e6a86b1b65983aac3334d3f60c47b95d62d36d386b9e055cf2c5f08e0c187258df9a20799914d0dd3173b88bb697f3406feed072df1b478b61bc35373f"
 
 RPROVIDES:${PN} += "libgstinsertbin-1-0-0 \
 libgstinsertbin-1.0.so.0"

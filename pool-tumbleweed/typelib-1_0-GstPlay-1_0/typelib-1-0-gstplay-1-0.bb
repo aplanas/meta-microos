@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "typelib-1_0-GstPlay-1_0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "2c2cf5ad4905af637baf465fd266bcf4fcc6c1d21a2d3be515c1b4c28a7c03b7d2e8b610d988fd49d26dd64c2506a8e7f6e7a22f7983e4f92688c7865c76d6b8"
+RPM_NAME = "typelib-1_0-GstPlay-1_0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "54688ffd25b0b00de2387129a335bb54c5b4a3be90adcc6cbc9b8e26b8f5c155ae3606e074ed2b1567db01ec842a16992541a6b7cc9a7cb0ae364a30b43c6b42"
 
 RPROVIDES:${PN} += "typelib-1-0-GstPlay-1-0 \
 typelib-GstPlay"

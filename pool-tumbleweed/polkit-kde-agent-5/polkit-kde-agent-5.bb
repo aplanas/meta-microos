@@ -2,10 +2,10 @@ SUMMARY = "PolicyKit authentication agent for KDE"
 DESCRIPTION = "Provides Policy Kit Authentication Agent that nicely fits to KDE."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "polkit-kde-agent-5-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "d3c1ba486213e1fafb61f17804b69fc45f16c17aa99465a276e3e281e5d46c72dab6091ef036e840459ca066235beedcc5b18cca79ec694bbcb1d395937490f6"
+RPM_NAME = "polkit-kde-agent-5-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "692488b513973e2aca2dc01eb039dc0b7f4a794303956623348300c371486b41ff885adc56e29d198b60d804b1f351033c5b9b76935e37d39d7dbf97cc02cb25"
 
 RPROVIDES:${PN} += "polkit-kde-agent-5"
 

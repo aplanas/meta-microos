@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.0.15"
 
-RPM_NAME = "streamdeck-ui-2.0.15-1.1.noarch.rpm"
-RPM_HASH = "7e66dbb6e68c507cab0fc433f01e63203bd0a3cbcd598cdccdbbaa3f0eb980f79018f4a53aa04482ecb77b1efd326e0b4771a44460aef73f98cdf115333fac69"
+RPM_NAME = "streamdeck-ui-2.0.15-2.1.noarch.rpm"
+RPM_HASH = "02c0d2db680105558aef532240dab314d0d1e723a8468b5da9a3ddcddd1ec15e0ffae8806a85e7a8fe53c6bdcf423f9376eb0ceaf6f27c6e26f5b2ce4e61d588"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist-streamdeck-ui \
@@ -21,6 +21,7 @@ python3-filetype \
 python3-pynput \
 python3-pyside6 \
 python3-python-xlib \
+python3-setuptools \
 python3-streamdeck"
 
 inherit rpm

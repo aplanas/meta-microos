@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstwayland-1_0-0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "7e4990f3e1027468c9527d9748242a370cc02b1a717af0bdb1c9493f9c633df8e78e6656dcd039d4acabbd99a9bea7e6ab1e6c3910b8a5b535308418e6d5a3b7"
+RPM_NAME = "libgstwayland-1_0-0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "44b1915b34454aa2914804d0861d1373f8c1eb10d173066d53587c1771a389375294397a685041fc507fd5f35f1786a30b45c9757d9be63cfcadd80548f57d61"
 
 RPROVIDES:${PN} += "libgstwayland-1-0-0 \
 libgstwayland-1.0.so.0"

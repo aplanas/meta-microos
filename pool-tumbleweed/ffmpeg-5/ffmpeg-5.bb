@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.1.3"
 
-RPM_NAME = "ffmpeg-5-5.1.3-2.1.aarch64.rpm"
-RPM_HASH = "857d6e88270dfb1ede9c28234e8d8548126040303705a055856993588769dafdd3ff8d0b8f29843f972fc18e9f95b4b46c5dadf307acfcd584de719fe2288a03"
+RPM_NAME = "ffmpeg-5-5.1.3-2.2.aarch64.rpm"
+RPM_HASH = "c5b9b10f2b3ad9de10cf5da7257d9983b1a1f663af17485b73e8b89fb872246b5a6651a20f8277d6a541bc87adeb45442217ca47ac7d02b85865cbccd5ccb75c"
 
 RPROVIDES:${PN} += "ffmpeg \
 ffmpeg-5 \

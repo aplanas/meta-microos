@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstfft-1_0-0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "00e4a477376300c8edad4562f3613900034a00f41dc0b4996d24c8567dcbaaa7e57534e22e1620ca2706c4bef48ede7190c1ef35d7afd68394e21968a6ca490d"
+RPM_NAME = "libgstfft-1_0-0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "51fa72208645b8ac7e5bacb64901cbe8c4ca7c05d8079a11e0b01cc24303e7c869e741282a0eb0af6619625da4c1a96ed0681edb25e4500c62e47f66365baff7"
 
 RPROVIDES:${PN} += "libgstfft-1-0-0 \
 libgstfft-1.0.so.0"

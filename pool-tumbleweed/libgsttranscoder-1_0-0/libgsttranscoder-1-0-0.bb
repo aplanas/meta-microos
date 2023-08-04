@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgsttranscoder-1_0-0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "f36e547428e0f32fbc12ed3ed9cb7b2ba59c5280a01cfe11fe477d7d946c37c9823fdeb185f1598b33c72996fe246ad002554057e5403e6ad92dadaa58c54521"
+RPM_NAME = "libgsttranscoder-1_0-0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "d55da3b0c3b614e97d80ce053185cc8d59be9c480f08494d2c605791cc6a018dcb3c1001dade867596c55011ba619b97df3035c5ccfbe09b8d6eeffd5dde6341"
 
 RPROVIDES:${PN} += "libgsttranscoder-1-0-0 \
 libgsttranscoder-1.0.so.0"

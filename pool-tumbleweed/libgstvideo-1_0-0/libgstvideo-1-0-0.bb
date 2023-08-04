@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstvideo-1_0-0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "eb913f343176e01256037497e161c05dd4ed5927b4bc18ac989a2252dbef27e4dd2ab810f89a93b73ceb6896281e011dff8b99eeda3b9c49ae16a3bb167cae1b"
+RPM_NAME = "libgstvideo-1_0-0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "d041885bfe65630e58c9f29a7cca1103210ccb59e41ebb26e9fda298ceb2889f5fb6aa2f43bc102912fceb346831bbfa6a43d7e42ec9fc7babea152164008a3a"
 
 RPROVIDES:${PN} += "libgstvideo-1-0-0 \
 libgstvideo-1.0.so.0"

@@ -2,10 +2,10 @@ SUMMARY = "SSTP support for plasma-nm5"
 DESCRIPTION = "Secure Sockets Tunneling Protocol (SSTP) plugin for plasma-nm components."
 LICENSE = "(GPL-2.0-only | GPL-3.0-only) & (LGPL-2.1-only | LGPL-3.0-only)"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma-nm5-sstp-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "a1c68ef1653f538fe746f28244ef75a1ca92c3d85ea6c9dfef9d563f8835144824d170957daadcfb721e06ad4a233aa0f53e5fb9a388c285d27331acc102b989"
+RPM_NAME = "plasma-nm5-sstp-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "37379412c6fce88c3cc4d725afe884dbca226d01449aaec3f31579310374597931d4eed430d113dbcc97f54605037fde571065041490b1801baaa32a4cc7e165"
 
 RPROVIDES:${PN} += "NetworkManager-sstp-frontend \
 plasma-nm5-sstp"

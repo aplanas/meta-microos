@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstbasecamerabinsrc-1_0-0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "a9cdf1c15ce4d9c9f9125aebb92241accfb04a395a8febf477b0e7a8c9c23decb863400fceba96b33435b93c4838da2a0b26c3bb32796a9484fc93b33b699e8d"
+RPM_NAME = "libgstbasecamerabinsrc-1_0-0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "e79bec086d6cd295ca31c5defedcd071ebfcc8440688613c7e8000a4aa7c430f473bb8bee97cc16a9616ab21d8d9149d67e43a1e7cb0dd2af9761205876aff69"
 
 RPROVIDES:${PN} += "libgstbasecamerabinsrc-1-0-0 \
 libgstbasecamerabinsrc-1.0.so.0"

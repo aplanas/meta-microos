@@ -1,16 +1,16 @@
-SUMMARY = "Dependency package for mpich_4_0_2-gnu-hpc-devel"
+SUMMARY = "Dependency package for mpich_4_1_2-gnu-hpc-devel"
 DESCRIPTION = "mpich: High-performance and widely portable implementation of MPI \
-The package mpich-gnu-hpc-devel provides the dependency to get binary package mpich_4_0_2-gnu-hpc-devel. \
-When this package gets updated it installs the latest version of mpich_4_0_2-gnu-hpc."
+The package mpich-gnu-hpc-devel provides the dependency to get binary package mpich_4_1_2-gnu-hpc-devel. \
+When this package gets updated it installs the latest version of mpich_4_1_2-gnu-hpc."
 LICENSE = "MIT"
 
-PV = "4.0.2"
+PV = "4.1.2"
 
-RPM_NAME = "mpich-gnu-hpc-devel-4.0.2-3.4.aarch64.rpm"
-RPM_HASH = "a8bee78ae96678add12d4b7c1e6ca018eace851e689671a39d3de448470fbfb84272e3c63cfbcf954895f31334bbc283c0e4ed87c9aa05a777048da9a45c08c9"
+RPM_NAME = "mpich-gnu-hpc-devel-4.1.2-1.1.aarch64.rpm"
+RPM_HASH = "01a2480b4420ed6117150819f1da2257b91e0b2de679ed095a7fe3eafdad12cbc8da1a1d95bc61ee11f018fbd0d663be49fa93095f64eaf0aff74db2166c4481"
 
 RPROVIDES:${PN} += "mpich-gnu-hpc-devel"
 
-RDEPENDS:${PN} += "mpich-4-0-2-gnu-hpc-devel"
+RDEPENDS:${PN} += "mpich-4-1-2-gnu-hpc-devel"
 
 inherit rpm

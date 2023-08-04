@@ -2,10 +2,10 @@ SUMMARY = "Translations for package inkscape"
 DESCRIPTION = "Provides translations for the 'inkscape' package."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.2.2"
+PV = "1.3"
 
-RPM_NAME = "inkscape-lang-1.2.2-3.5.noarch.rpm"
-RPM_HASH = "80ff467f05051604a8b2305273bb79fede0767da28da1233d57bc25252283e7f34d9ebcd76e0b51fa897e0f4dc87d53d847a2ebbb5a1f14bcd3fa3852abb5de4"
+RPM_NAME = "inkscape-lang-1.3-1.1.noarch.rpm"
+RPM_HASH = "7c2d57ccf052870bc0bcbf171232d6ccee6bda549b9256404572d6d82767c3d9443648e2f3a4791d4594842c265a76e9c4bc35c30208e9e8b80cdcdded25906c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "inkscape-lang \

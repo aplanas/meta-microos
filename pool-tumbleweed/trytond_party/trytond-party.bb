@@ -4,10 +4,10 @@ mechanism in the Tryton application platform. It also comes with \
 reports to print labels and letters and a 'Check VIES' wizard."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.0.3"
+PV = "6.0.4"
 
-RPM_NAME = "trytond_party-6.0.3-1.5.noarch.rpm"
-RPM_HASH = "235fbdf15076bc936b5889d9d72454b87c46de5e11b66a666fe5bb2446e258c0cc4165672786e12efbba9a8b0a17271be30906c7017384e3be90b92702dfd635"
+RPM_NAME = "trytond_party-6.0.4-1.1.noarch.rpm"
+RPM_HASH = "321888f3f9f4a435f27617f1e4dac8e520a150effaf3a76664ab1b0560d214c6d8a9af36ee71732c537064f1847ce63000155353a433a46a77ebb3a6b2d2ef6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist-trytond-party \

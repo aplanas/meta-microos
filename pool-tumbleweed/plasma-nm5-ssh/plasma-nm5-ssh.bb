@@ -2,10 +2,10 @@ SUMMARY = "SSH support for plasma-nm5"
 DESCRIPTION = "Secure Shell (SSH) plugin for plasma-nm components."
 LICENSE = "(GPL-2.0-only | GPL-3.0-only) & (LGPL-2.1-only | LGPL-3.0-only)"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma-nm5-ssh-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "afb6d2300bbc597ba243ad79adfffb51757a3df069b72cbf259d1506360232a9d5c1c9f8d0dca66d9d4492161d3b0a583b8d4e12aad027ec27ebcc9b8c02b103"
+RPM_NAME = "plasma-nm5-ssh-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "828e392005f47c57653e90928400f2313d8e83b2e9233b81768c142b14b408ffb9a44a83a2d3adf14092df69e57e56413a8aa2cbc8013db536808af91cd292fb"
 
 RPROVIDES:${PN} += "NetworkManager-ssh-frontend \
 plasma-nm5-ssh"

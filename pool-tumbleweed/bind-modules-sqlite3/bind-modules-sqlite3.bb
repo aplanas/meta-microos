@@ -5,8 +5,8 @@ LICENSE = "MPL-2.0"
 
 PV = "9.18.17"
 
-RPM_NAME = "bind-modules-sqlite3-9.18.17-1.1.aarch64.rpm"
-RPM_HASH = "ff101ed626aaa8a89b5f33d260c58c4670847f1686ff256ce641184618065eade1c92a01d786e6246a0ae3d3c0d8fb2ccddbe102708236a10f0d74c86bf977ff"
+RPM_NAME = "bind-modules-sqlite3-9.18.17-1.2.aarch64.rpm"
+RPM_HASH = "9f298b0f0547f43562a34ba980dc272b87fd6c326a2bc52b88f7589f9677e48ebf895d34eedb7539fcd4b3026b289df93e5fc06f391d561db9b1a76433744943"
 
 RPROVIDES:${PN} += "bind-modules-sqlite3"
 

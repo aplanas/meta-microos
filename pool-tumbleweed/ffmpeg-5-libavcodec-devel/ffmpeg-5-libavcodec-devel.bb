@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.1.3"
 
-RPM_NAME = "ffmpeg-5-libavcodec-devel-5.1.3-2.1.aarch64.rpm"
-RPM_HASH = "e25d40be8fea9fb9ce88922d2783e09eec51beeff0c02701b0a0ead2fa2e877b051691c10b9be4005a31ef18438b21d4dae6479f427383800e6278d20263b9b2"
+RPM_NAME = "ffmpeg-5-libavcodec-devel-5.1.3-2.2.aarch64.rpm"
+RPM_HASH = "9cd72070915e5336dc6f3c7a23db6820456e091491d29b00bdd9f9cffe4a95c69e6f7582317797d0efb566f04f64cd98f8210fa8d6e6805a543703bf0aebd9d9"
 
 RPROVIDES:${PN} += "ffmpeg-5-libavcodec-devel \
 libavcodec-devel \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides QtQuick bindings for libksysguard, allowing
 QML applications."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "libksysguard5-imports-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "0ef9747884da6a6ee1dfe65e4f9e50052ed1a2bbcd3a4538b0caadf54d420d244f32d5c31ecbd1e8b6e7cc3885e4c60ca6e441fce96f250016f1707ba1d42e6b"
+RPM_NAME = "libksysguard5-imports-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "a265c1877dd150881d9f80e3a9730e9c31fded2c8fb8d1641794590353fa6dd6f0b1ef223b76947627b3ea4f04a2bd0270a4b94a55f6699eb718b5d03dbc86be"
 
 RPROVIDES:${PN} += "libFacesPlugin.so \
 libFormatterPlugin.so \

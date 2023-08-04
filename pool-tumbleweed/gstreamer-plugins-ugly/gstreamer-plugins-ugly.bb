@@ -14,8 +14,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "gstreamer-plugins-ugly-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "8439552225befc0ae546eb9b96c05bb429556ed75cf06ebdb5286afa1b0ac4c416a77d227df8b6f4e422d5647ab1f963cf6b61ea4952514b6008693783b877e2"
+RPM_NAME = "gstreamer-plugins-ugly-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "aa032c472078670f46d238561927395ef3e17a3cee8a2e6b4a4b4911fd42f3c4c86707ffedaf2c789392ef2015c79fa9f0e0fe0898bbc9c4d9165f29e589398f"
 
 RPROVIDES:${PN} += "gst-plugins-ugly \
 gstreamer-plugins-ugly \

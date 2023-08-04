@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.27.1"
 
-RPM_NAME = "cmake-full-3.27.1-1.2.aarch64.rpm"
-RPM_HASH = "24c3d62875ff8dfafc5c4a1732b72fd47b4aec1236e7832f5aab7373ccd324171d53662f42224f05bfba59f3ab2cd9dcf3417a418cf678588eec44163e4c936d"
+RPM_NAME = "cmake-full-3.27.1-1.3.aarch64.rpm"
+RPM_HASH = "4a62545b0a6649acf9b065bd4341e38183a562d899b51cd0869f2f180cffb3e4f8590dd5ef4cca911326fd2f865e809b4128a269fdaac617468464302cd48075"
 
 RPROVIDES:${PN} += "cmake-full \
 cmake-implementation \

@@ -3,10 +3,10 @@ DESCRIPTION = "Artwork, styles and assets for the Breeze visual style for the Pl
 This package provides Breeze style, color-scheme and aditional assets."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "breeze5-style-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "7f3bd2cfa0d6d97e05b8b3d2600b6612ecd1b00cb8d63b39ba2b2d27ba699f2f358d38aceb47a90d847e6f067ece435637d184a1080a8d781b0988178975b730"
+RPM_NAME = "breeze5-style-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "6f405960245b3da4ffadc8ee3074b1f970d3cee0331e6eb69c64381cbc5ef802f1263d696e7814728051d8642542926c3f15d508b3a0511a3fbf1de481852489"
 
 RPROVIDES:${PN} += "breeze5-style \
 cmake-Breeze"

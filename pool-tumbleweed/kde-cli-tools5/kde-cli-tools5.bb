@@ -2,10 +2,10 @@ SUMMARY = "Additional CLI tools for KDE applications"
 DESCRIPTION = "Additional CLI tools for KDE applications and workspaces."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "kde-cli-tools5-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "f96d70998f507a561ca27892b42cd56bc203336fc57e47d718ce3450661032ad5043716379682c891a5b878ba84703124910c98b874d97b206ff47f2566dccf9"
+RPM_NAME = "kde-cli-tools5-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "d9ee5e1f8dec3c0c4a8c75bab2bfb11048698ad9c19254e7a48ba80cdda63ce71edca1a26d6f050f33e6795c6167d0f67e836493647fa54f59027dc29a7e8faa"
 
 RPROVIDES:${PN} += "kde-cli-tools5"
 

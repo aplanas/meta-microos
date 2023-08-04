@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstphotography-1_0-0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "75f3908b5d94c1c39f91416d01b329f882ac616bcc475ba3cfa137fc5f6c284a034bda145f85c9748e170d036a9ac21bf8389751536134d1260a727a82c6d661"
+RPM_NAME = "libgstphotography-1_0-0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "a3867a7842bd47115d7f581b3157f4848f4fe399d895316568f093b50eb80aaca95e7477fc7e34a3e4c9e43e71e542c732d955cefea3f3bca7ff666f37dfceb8"
 
 RPROVIDES:${PN} += "libgstphotography-1-0-0 \
 libgstphotography-1.0.so.0"

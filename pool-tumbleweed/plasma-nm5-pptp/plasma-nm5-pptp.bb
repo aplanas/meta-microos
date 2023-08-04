@@ -2,10 +2,10 @@ SUMMARY = "PPTP support for plasma-nm5"
 DESCRIPTION = "Point-To-Point Tunneling Protocol (PPTP) plugin for plasma-nm components."
 LICENSE = "(GPL-2.0-only | GPL-3.0-only) & (LGPL-2.1-only | LGPL-3.0-only)"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma-nm5-pptp-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "6a34f086ff7a06c65defeefd8fc3bcb23a3886f8909e44a9ed36d15bcaedabd6d7a5dabb185641bfab49c2f2bd00d9fd0a2784b55117685f3ae0a56b2dfd61a3"
+RPM_NAME = "plasma-nm5-pptp-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "032dd85a89c2cb994792f0424cfaefee2427db8580ed51b4b79182db20c4f9eac4481d6c91dea71c8452efa2f2e7793f6a9ba2d2ef95a43ee8f57aeabb52eaa4"
 
 RPROVIDES:${PN} += "NetworkManager-pptp-frontend \
 plasma-nm-pptp \

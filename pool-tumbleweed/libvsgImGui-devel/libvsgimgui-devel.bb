@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "0.1.0"
 
-RPM_NAME = "libvsgImGui-devel-0.1.0-1.1.aarch64.rpm"
-RPM_HASH = "4f47890b3617a7cfbd1437616cdcacb4be11f02ae9f1a41db5d55effa1418a732e33166d86e04850dc11d08930fa526843b85beef26b703c7eb98042f3fed7ac"
+RPM_NAME = "libvsgImGui-devel-0.1.0-1.2.aarch64.rpm"
+RPM_HASH = "b77ae044d5f9d3589306dbb07baf1d7448cc70acf37e7841a22f3f1c6da66336f5633f510ca67a31fb712aea97a253713fb89061848d558d0b8af8be12c86230"
 
 RPROVIDES:${PN} += "cmake-vsgImGui \
 libvsgImGui-devel"

@@ -3,10 +3,10 @@ DESCRIPTION = "A plugin for Discover to support installation and management of F
 applications and repositories."
 LICENSE = "GPL-2.0-only & GPL-3.0-only & GPL-3.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "discover-backend-flatpak-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "41e7d2724a6acd3961c6c5742e80cecf1658de582f1ee697b5120c594c543af96d2bb0f1b94f96ee853526ab7b67513e9ca624d1e38820da47338260aaf9cf43"
+RPM_NAME = "discover-backend-flatpak-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "271fe198f1386b0e45b71898556236443d9abf3e718fa26672780fab47668dea3954b9f097a2f1197c529409ca581da7a7ff94a8efd33d08f99a84b5b1d4e28e"
 
 RPROVIDES:${PN} += "discover-backend-flatpak"
 

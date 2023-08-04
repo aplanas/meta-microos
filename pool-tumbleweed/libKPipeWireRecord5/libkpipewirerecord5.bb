@@ -3,10 +3,10 @@ DESCRIPTION = "KPipeWire provides PipeWire integration for the Plasma desktop an
 This package contains the library needed for video and audio capture."
 LICENSE = "LGPL-2.0-only & LGPL-3.0-only"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "libKPipeWireRecord5-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "e5f0d45dfed3dc994df7281730fa98a2eba539bb0a999c02a195df308a9aa0d7653978153462850475fe49a2b2f6224b131ef9e25f06c1789ad023ede18b14c2"
+RPM_NAME = "libKPipeWireRecord5-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "e58cc9763567030b427ef9a216ab47fccb0ea23001da0765533b840bbc460eef25ea4c7c6a94298cfdde2b536afe6415d5735f0c80b949e3f7fd37fd67e650df"
 
 RPROVIDES:${PN} += "libKPipeWireRecord.so.5 \
 libKPipeWireRecord5"

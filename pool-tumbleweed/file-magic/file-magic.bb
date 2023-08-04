@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the basic magic files that libmagic reads a
 to estimate a file's type."
 LICENSE = "BSD-2-Clause"
 
-PV = "5.44"
+PV = "5.45"
 
-RPM_NAME = "file-magic-5.44-2.3.noarch.rpm"
-RPM_HASH = "3ec6fc8a33c23dbf4993869f6f496d33a44417a9a5fafe74c28dfb30cecbba335979b5e38b375880ac548a639e68f69b69b690a2123166fd809e2d290fcae2bb"
+RPM_NAME = "file-magic-5.45-1.1.noarch.rpm"
+RPM_HASH = "a8fa2dc3a4be0b4f7939a04e47bffbd72c58f130640c68a461595cbd57883504696ccdc3c4dcc3171e510b3d254bfc8cd299592f8592e20d9f03b059ee5bbc51"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-file-magic \

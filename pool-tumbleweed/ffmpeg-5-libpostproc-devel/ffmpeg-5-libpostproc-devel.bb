@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "5.1.3"
 
-RPM_NAME = "ffmpeg-5-libpostproc-devel-5.1.3-2.1.aarch64.rpm"
-RPM_HASH = "0533f99973608c33e9460703aa03a4a7b11a4bbe17dcc52ed6b7ac6a3bcbd31ac02403143f0e2c8b13172fd5c88804828c6dde0e313826791897715fc587edfc"
+RPM_NAME = "ffmpeg-5-libpostproc-devel-5.1.3-2.2.aarch64.rpm"
+RPM_HASH = "fa7641ecef01f1724cbc01e8e0d71773b141c1dc421343a67bf63301e802ac4f9339666d83cabbe5a4e255356250958239d605ba5db9dfc1f683b4e1fa4fffbc"
 
 RPROVIDES:${PN} += "ffmpeg-5-libpostproc-devel \
 libpostproc-devel \

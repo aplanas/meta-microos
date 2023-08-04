@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.4.4"
 
-RPM_NAME = "ffmpeg-4-libavutil-devel-4.4.4-2.1.aarch64.rpm"
-RPM_HASH = "be43a0035df1b523204fcd3b0ebf8e53b0012b31c60ee25aed7b157e7fec09272088a7aee31725541eb0aee3235367dc33a281c3cd94720f6a75685dfc3961e2"
+RPM_NAME = "ffmpeg-4-libavutil-devel-4.4.4-2.2.aarch64.rpm"
+RPM_HASH = "1559a49d5d4c89b708f5cc45f924060ea7a48f040ffe2673d8795e21cc44c49b5ec769f861d144d43c1c8138982a2b0cafa4d448f8e3dfd16c5f8f9c8cf493ba"
 
 RPROVIDES:${PN} += "ffmpeg-4-libavutil-devel \
 libavutil-devel \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.36.0+git.20230723.60a26324"
 
-RPM_NAME = "mpv-0.36.0+git.20230723.60a26324-1.1.aarch64.rpm"
-RPM_HASH = "b16a76e899b0cdfdee57a14eb9f53131c12a9185bc979e436b9bdf2adde0f955ccbb9263613fb05c9c0650d2683251ef3ff45a9851d19690bdba12397a5a0aa2"
+RPM_NAME = "mpv-0.36.0+git.20230723.60a26324-1.2.aarch64.rpm"
+RPM_HASH = "1e24fd56436a194501ca7ed1ad7e8476e81f9d43de9105142cc8b87c214a424763e220f7a6ed0b1d70f8f78c79957c5f0aa8e06529d18533c9562df729d461e0"
 
 RPROVIDES:${PN} += "config-mpv \
 mplayer2 \
@@ -46,7 +46,7 @@ liblua5.1.so.5 \
 libm.so.6 \
 libopenal.so.1 \
 libpipewire-0.3.so.0 \
-libplacebo.so.264 \
+libplacebo.so.292 \
 libpulse.so.0 \
 librubberband.so.2 \
 libshaderc-shared.so.1 \

@@ -2,10 +2,10 @@ SUMMARY = "An implementation of chunked, compressed, N-dimensional arrays for Py
 DESCRIPTION = "An implementation of chunked, compressed, N-dimensional arrays for Python."
 LICENSE = "MIT"
 
-PV = "2.13.3"
+PV = "2.16.0"
 
-RPM_NAME = "python311-zarr-2.13.3-2.1.noarch.rpm"
-RPM_HASH = "d3381e6501292a04ac1431c41b301be748877deaa4f100fb92478e49faccf3a59dee9c3cb7c2b70e3663664ae7745e43e4c707ed08f3f3b529c9c75c087d0d31"
+RPM_NAME = "python311-zarr-2.16.0-1.1.noarch.rpm"
+RPM_HASH = "cb67c45f59dee91cef1ee77ba2a67b7a35fac5e6112d84fe88c6248c66868c0ad3a5570756910711d291bd5bfb8effe95f45317ffb93b2947b25b46971dcab82"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-zarr \
@@ -16,7 +16,6 @@ python3dist-zarr"
 RDEPENDS:${PN} += "python-abi \
 python311 \
 python311-asciitree \
-python311-dbm \
 python311-fasteners \
 python311-numcodecs \
 python311-numpy"

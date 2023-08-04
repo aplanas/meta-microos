@@ -4,10 +4,10 @@ DESCRIPTION = "The GIMP import and export extensions for Inkscape. \
 Inkscape is a vector graphics editor."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.2.2"
+PV = "1.3"
 
-RPM_NAME = "inkscape-extensions-gimp-1.2.2-3.5.aarch64.rpm"
-RPM_HASH = "600ef3c7420ec8d5cd088db1597c99283f8fbe36dbdfd411e7dfcef0d750ef3c51648bb471df7ea89fa7341e2abedf3f9ca7b2a3291213381c7be4de87a809a3"
+RPM_NAME = "inkscape-extensions-gimp-1.3-1.1.aarch64.rpm"
+RPM_HASH = "9461c7a585fbc01e457969bd69e540ffbbf204585a388dba31e4b6b148ee3ec90d26ed8a8ccca4d4614bca33b7d46aa3f2ec601a0221bc9a1eadcdb4dad62fe0"
 
 RPROVIDES:${PN} += "inkscape-extensions-gimp"
 

@@ -2,10 +2,10 @@ SUMMARY = "Necessary packages for plasma-vault to support encfs vaults"
 DESCRIPTION = "This package pulls in dependencies for the plasma-vault encfs backend."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma-vault-backend-encfs-5.27.6-2.1.noarch.rpm"
-RPM_HASH = "7e41c1b49c371749e7f83d7c802e89b8f98595f923da7541921dc15f312bdd986037ac0de41acf376641f80741749c0e3a0978f5f36a262267f18da82f3fda9d"
+RPM_NAME = "plasma-vault-backend-encfs-5.27.7-1.1.noarch.rpm"
+RPM_HASH = "bb093c97e6f6c6432329a8de28d36c3750604d3210570c5bd577c94d0dea1daf9f41086b07e6e0899c57f85f229c52a8b59162651b216b5af910c55d13fdce1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plasma-vault-backend \

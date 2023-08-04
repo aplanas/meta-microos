@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the startup scripts necessary to start a KD
 Plasma 5 session with Wayland from a display manager."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma5-session-wayland-5.27.6-2.1.aarch64.rpm"
-RPM_HASH = "bd87e3d4d7f2e01af2e3d14fe778c63e1f6a0d3c83860bf84498b62726b61a7d9125cb724ad721890e87a4a320a15e492bf57cac65d6733beb2f1e4aa4e268ea"
+RPM_NAME = "plasma5-session-wayland-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "9147d69af8e6b2c88113ad758b3fbb4f44ac709195cdae0a5d75df42aac1723fcc6787fbd560384d713de11be8a0234f310761649b6e72844f726bb15c6fb9ed"
 
 RPROVIDES:${PN} += "plasma5-session-wayland"
 

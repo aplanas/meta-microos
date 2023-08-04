@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.10.7.0"
 
-RPM_NAME = "gnuradio-examples-3.10.7.0-1.1.aarch64.rpm"
-RPM_HASH = "b8d3d95e7cc7bed5fd02cebcf82b7c427e9e703745efe91969ab7c6da6522fa9cf39cc715f12841d292e73f915f02a92c86e30b663900614457ee0ccbdbd5a3b"
+RPM_NAME = "gnuradio-examples-3.10.7.0-1.2.aarch64.rpm"
+RPM_HASH = "2337b0b447c91d084d92bbb7a847fdeafc03c0f3528eaac587a3835db17d298657786a062143e5bbe209bc0990e4aea33bd9b462ed0bd57457440f8ba6a08f6f"
 
 RPROVIDES:${PN} += "gnuradio-examples"
 

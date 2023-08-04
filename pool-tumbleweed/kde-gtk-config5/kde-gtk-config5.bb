@@ -3,10 +3,10 @@ DESCRIPTION = "kde-gtk-config is a KDED module which configures GTK2 and GTK3 ap
 appearance under KDE."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "kde-gtk-config5-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "7a2d5c3a1f7ff5e08ed190a2e35c7b7695342ef2856bffed2aac005792a8ac7105a18103b03d8c8b354a4362291a68e3891f3cd2a49bf4e335110077e95128db"
+RPM_NAME = "kde-gtk-config5-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "116a5ac409dae084a55ea4ad0f31c8f192ccbddca05dddfe465de51958f5a00afd804afe6521d81aab48eb1c9f02d648ed7756478d9c8576f82d44ee678f24a7"
 
 RPROVIDES:${PN} += "kde-gtk-config \
 kde-gtk-config5 \

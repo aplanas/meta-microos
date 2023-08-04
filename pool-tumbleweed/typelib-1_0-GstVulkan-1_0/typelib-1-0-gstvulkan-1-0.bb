@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "typelib-1_0-GstVulkan-1_0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "86415243a07ece81c8b0e4d29dc63285c0a6f3f41dc3a26ec9c45d581be3a91441f930428c770b6c92b7d123da8f13bdc5c42767b4fa061bd6c2a48bed45f33d"
+RPM_NAME = "typelib-1_0-GstVulkan-1_0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "5335aba9c4503e93e3386d40558463dd0e57bf53b68cdd3366ac9a70ba52f19542bab77f965de0e157197b39743f4c1065bbfb6e2b4bf06500c53874a69c4b83"
 
 RPROVIDES:${PN} += "typelib-1-0-GstVulkan-1-0 \
 typelib-GstVulkan"

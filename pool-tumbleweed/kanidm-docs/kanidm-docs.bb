@@ -2,10 +2,10 @@ SUMMARY = "Documentation for Kanidm Administration"
 DESCRIPTION = "Documentation for using and configuring Kanidm."
 LICENSE = "MPL-2.0"
 
-PV = "1.1.0~alpha12~git0.bcdbb18"
+PV = "1.1.0~beta13~git2.5d1e2f9"
 
-RPM_NAME = "kanidm-docs-1.1.0~alpha12~git0.bcdbb18-1.2.aarch64.rpm"
-RPM_HASH = "c49bb8cb0ea24a832a3a9ffd59b8410d6d12c5f2d82cfcc3c400e0ef7e70951540b8c9a0214b64c35d11e9049baea7c2e76f10eb3db8bf7020939cffed85b1a4"
+RPM_NAME = "kanidm-docs-1.1.0~beta13~git2.5d1e2f9-1.1.aarch64.rpm"
+RPM_HASH = "2173e8b868f59a61f530e4bf6ab78c9df62203ebe6b863d89eb07064f7b9cf8d441ceb255ed86017fc5c17b6d8c67fb2e00d89485247edc7398382d19068e4b4"
 
 RPROVIDES:${PN} += "kanidm-docs"
 

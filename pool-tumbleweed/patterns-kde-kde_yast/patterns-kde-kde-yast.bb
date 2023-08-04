@@ -2,10 +2,10 @@ SUMMARY = "YaST KDE User Interfaces"
 DESCRIPTION = "Graphical YaST user interfaces for the KDE desktop."
 LICENSE = "MIT"
 
-PV = "20230403"
+PV = "20230801"
 
-RPM_NAME = "patterns-kde-kde_yast-20230403-1.1.noarch.rpm"
-RPM_HASH = "908248ec67c0ed6d1d79451f9e3b74381f5789982f273e764d78aaada69e003ad254dc13ff8da4cd89b01b5cfbe95b6bfd4b6d3c9cfae079d982e363c71257b3"
+RPM_NAME = "patterns-kde-kde_yast-20230801-1.1.noarch.rpm"
+RPM_HASH = "e5242e637118f9c59ef80820a6aefa0c78810e2262b1c39f61c8bf60aee66494b4530ce2151834837d2c35cbe3c339d0d9f06158a7d09c9dacffe6a2113df733"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pattern- \

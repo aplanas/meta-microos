@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "typelib-1_0-GstAllocators-1_0-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "4f19e3d10c03ba7619ed04321bd7e965a3159b1bf3c323b4409ae665e8a959e7b0ee1a0eb28ae31ca47d25c11de595344115af1fc153d3127499f25a73dfc3f6"
+RPM_NAME = "typelib-1_0-GstAllocators-1_0-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "3428da22c11ebb223b08b99983172904eecb0401b59b462b3c5c3c0774065050b73c723052a0e399e7898e8c68d6f65aa0893813857a4a756ca34826553fcd2e"
 
 RPROVIDES:${PN} += "typelib-1-0-GstAllocators-1-0 \
 typelib-GstAllocators"

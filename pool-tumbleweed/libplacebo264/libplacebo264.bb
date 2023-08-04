@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.264.1"
 
-RPM_NAME = "libplacebo264-5.264.1-1.3.aarch64.rpm"
-RPM_HASH = "9bfc0ebd8bdd8d7501f9e881aa4d040320a2c911e2dfd2566076b275004c3d97356322b51c65c9721c185476f1afad76702c795e940370f4ed87e75d50cdfabe"
+RPM_NAME = "libplacebo264-5.264.1-1.1.aarch64.rpm"
+RPM_HASH = "6153e508a0dec7366b7f99d0a05e89cd34608d62ec3c457dee9fa402b2b5dbbc1db40d61eb19cdc90a8f543ba03724240d5a952ef52dd27159913614aa5c7006"
 
 RPROVIDES:${PN} += "libplacebo.so.264 \
 libplacebo264"

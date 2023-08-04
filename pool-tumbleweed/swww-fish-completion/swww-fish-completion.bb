@@ -2,10 +2,10 @@ SUMMARY = "Fish Completion for swww"
 DESCRIPTION = "Fish command-line completion support for swww."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.7.3"
+PV = "0.8.1"
 
-RPM_NAME = "swww-fish-completion-0.7.3-1.2.noarch.rpm"
-RPM_HASH = "0cac0db47e928d69314ce897bc61e2743f1105d75173c719e3e5e17e81652a03797de0c7f3788203a170609ad3ea14608f12bf15b722c3689a8b8b8edbd710c8"
+RPM_NAME = "swww-fish-completion-0.8.1-1.1.noarch.rpm"
+RPM_HASH = "202c424cd8609f93e66c680edee736c99602616b5f1179bcf2ed642126e38dc947c7e2086cc7cf2dd05c9eb67ebfee90c9e025e95db86a3b5f2d7a5c408fe608"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swww-fish-completion"

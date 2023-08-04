@@ -2,10 +2,10 @@ SUMMARY = "KDE Plasma Activities support"
 DESCRIPTION = "Provides translations to the package kactivitymanagerd."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "kactivitymanagerd-lang-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "edda2735d4c29a2b8a9597258fd0b384c407a95d521eff4fb0a15f15ad2344de315e022a6737b4dc2664c332a9f142f9a7e66d64a0abe46ea8a453763f2ec9c0"
+RPM_NAME = "kactivitymanagerd-lang-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "6099ad93458992b4aac91aca946dab4e2e8682f484207fffab81c490080b6aeb97fe639c445c1d6f8e99572ca5b604c40dc7777c690a2e9618ec67d0efb018b1"
 
 RPROVIDES:${PN} += "kactivitymanagerd-lang \
 libKF5Activities5-lang \

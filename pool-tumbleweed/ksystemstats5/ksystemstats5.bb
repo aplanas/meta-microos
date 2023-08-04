@@ -2,10 +2,10 @@ SUMMARY = "Plugin based system monitoring daemon"
 DESCRIPTION = "KSystemStats is a daemon that collects statistics about the running system."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & CC0-1.0 & GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "ksystemstats5-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "df1d4d74dbbb4d1f25d8d0f46862474b07fd2144a9c0c0f39bdc870dc48ddbec73ae3da3e567fb85e6b85a0bb22569e85a23af5164ef0257911cfc3586459963"
+RPM_NAME = "ksystemstats5-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "96bc51a6ff08227ff79618a066a93f71c587ca9ae7751cad69b5b05ca1eb1edf7675f376c3b36df449ec35dec9a33ee189d7f29a4cff98c00c046052e53000c0"
 
 RPROVIDES:${PN} += "ksystemstats5"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "6.0"
 
-RPM_NAME = "libswresample4-6.0-2.4.aarch64.rpm"
-RPM_HASH = "96dc6ca99352da06366801893b7e77c042933e7fcea7942625667034a59d226f4eb29cb2254c0b721d161299bc7838898f30b2a23cc9a56bb69cb2aca01657ee"
+RPM_NAME = "libswresample4-6.0-3.1.aarch64.rpm"
+RPM_HASH = "85b28e7cee8e42bab96b8a145ae3ce063027e67c4da3dc038785c04c3353fc57d2005d877c58623ef22827fb7b2f21577fab30c6a983d106315473b2b85ada5c"
 
 RPROVIDES:${PN} += "libswresample.so.4 \
 libswresample4"

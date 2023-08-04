@@ -2,10 +2,10 @@ SUMMARY = "Additional Plasma5 Widgets"
 DESCRIPTION = "Additional plasmoids from upstream for use on the Plasma workspace."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-only & GPL-3.0-only"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma5-addons-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "303f1306f69ce88004442bda4a881183fc160b0b33b4cf11a5e52f7fcb86367d6abf30abb9cd2554efd3fd87f8ca1463dabedd55f7351f11c3595d2cc3e56c99"
+RPM_NAME = "plasma5-addons-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "73cdffeb498cb535eb1e00641485e4c08b284cd7daade65b21b80b5354fbd8559ac81299b5ac97f072d06773821390417e94822c3aed5b54e8b8086fb60eeb28"
 
 RPROVIDES:${PN} += "libcolorpickerplugin.so \
 libdictplugin.so \

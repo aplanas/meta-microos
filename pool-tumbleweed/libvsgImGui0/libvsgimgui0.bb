@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "0.1.0"
 
-RPM_NAME = "libvsgImGui0-0.1.0-1.1.aarch64.rpm"
-RPM_HASH = "022cf6da286a0ecfc90254dfd28872e0c30bbe52f97d83250f79543caf3fe45711233e4e88f12317c63be0695a27d7929ce093cb3b3a23e59ccdd9e959fb19ee"
+RPM_NAME = "libvsgImGui0-0.1.0-1.2.aarch64.rpm"
+RPM_HASH = "4af198f24134e5679b80d7702f6ea6d57b0be058d2a6a0470ee2e57ce17c57ca17705c6d18d0ef41bcb7509d25ac69236b8dbedfed32bfc4dd533219d85515ac"
 
 RPROVIDES:${PN} += "libvsgImGui.so.0 \
 libvsgImGui0"
@@ -22,7 +22,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
-libvsg.so.13 \
+libvsg.so.14 \
 libvulkan.so.1"
 
 inherit rpm

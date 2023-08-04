@@ -6,10 +6,10 @@ This project currently provides tasks that integrate with Mix, Elixir's build to
 See http://hex.pm for installation instructions and other documentation."
 LICENSE = "Apache-2.0"
 
-PV = "1.0.1"
+PV = "2.0.6"
 
-RPM_NAME = "elixir-hex-1.0.1-1.5.noarch.rpm"
-RPM_HASH = "49ab2b9e2d159981e1d2e802f292596781fd0df4b8b7fdfda78f4a4aef68cf491e15819278c3c4c525048b0e40c03a58f6aad9a906d484530361c22bfcc8cfa5"
+RPM_NAME = "elixir-hex-2.0.6-1.1.noarch.rpm"
+RPM_HASH = "28aca8e118a71ef5209638d10fef45661f73b05a985bbbcdfb18466e8aec3fda660d5b3dba65f07c061e0c6a8f17abada07352ee14b66a40ea944a7150ff86f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "elixir-hex"

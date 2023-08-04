@@ -2,10 +2,10 @@ SUMMARY = "KDE's screen management library"
 DESCRIPTION = "Plugins for dynamic display management in KDE"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "libkscreen2-plugin-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "ec85b44454f661c64ed88e546261c8948c5a506dda441515d00cf78b411e5a7c8459eb5c37523fa31428ac5a1062915d1c5292f2c3c4bf87df155d7b11e00003"
+RPM_NAME = "libkscreen2-plugin-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "33941eae6b841ee4633c22813512cd03809f52b82e150e42fcb637aaa8f9d9c8f4f250775e89cf92ab05fee0947dcf6c6b5f38160cb07bfbb4d626234a5559a1"
 
 RPROVIDES:${PN} += "libkscreen2-plugin \
 libkscreen2-zsh-completion"

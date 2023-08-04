@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.2.4"
 
-RPM_NAME = "ciano-0.2.4-1.23.aarch64.rpm"
-RPM_HASH = "e5d2cb3bf2c4fdc07a0a4c3847d1b87884d5be48ca5b252140a57af82fbc1e6c14aad92b13c8e532400aaacc4048aefa6c83d9e4fe3537efc4925eed39c1ad98"
+RPM_NAME = "ciano-0.2.4-1.24.aarch64.rpm"
+RPM_HASH = "29be1616b58cbd4867ea6ae47bc0a2c2848b77cd90b697e86402b7e113259f329778a1c2b6d8807c919c64ff3de598e37c2ca8119ca50c7a71893cdf5db3bbc0"
 
 RPROVIDES:${PN} += "ciano"
 

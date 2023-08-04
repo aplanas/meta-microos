@@ -2,10 +2,10 @@ SUMMARY = "Plasma Nano"
 DESCRIPTION = "A minimal plasma shell package intended for embedded devices"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "plasma5-nano-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "2e06171b7efb9475ee175c0f74674d847507cc1685e9b4da00cc8eda8f2df27b619b3325456199d1d67eda90bfb699e6969b5d58d048d51c54b39f2990dc7bf3"
+RPM_NAME = "plasma5-nano-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "0a7908fa604e059a42358bd4d5a3577f3529195784010fb99539b41a0e7d95b1f04b41b1df145b0320898c60a0f864a18c0d3506ed77f10902a09a2c7d05b51c"
 
 RPROVIDES:${PN} += "libplasmananoshellprivateplugin.so \
 plasma5-nano \

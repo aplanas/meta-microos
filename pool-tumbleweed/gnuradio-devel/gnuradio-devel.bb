@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.10.7.0"
 
-RPM_NAME = "gnuradio-devel-3.10.7.0-1.1.aarch64.rpm"
-RPM_HASH = "e1dd7dc61ce54db7d19c447ff14970958cb3382076e6a973f7b314b12b565e8b193679909bd99f7e7f6cd77dbceb6e07f4ab60a99bfe7c48be8d5de54f6d9475"
+RPM_NAME = "gnuradio-devel-3.10.7.0-1.2.aarch64.rpm"
+RPM_HASH = "57cb2cf656f7988ff416ee147c4ca785864739f7be8261b6e1faae98ccd5df819a0f90f12cf353539eba4bc181d023233cb1190e27068db422f414fedda1c778"
 
 RPROVIDES:${PN} += "cmake-Gnuradio \
 cmake-gnuradio-analog \

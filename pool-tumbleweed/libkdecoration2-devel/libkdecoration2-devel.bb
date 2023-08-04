@@ -3,10 +3,10 @@ DESCRIPTION = "Development files belonging to kdecoration, \
 plugin based library to create window decorations."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "libkdecoration2-devel-5.27.6-1.1.aarch64.rpm"
-RPM_HASH = "573e845f8e0a43dfbdc7b120195fefcfed8e2f982311ca2ff2dcde51dbc5a0ae026023edced439c397247434658eb1e1fcc288a7e7b435a59a8942c3ee2f8da4"
+RPM_NAME = "libkdecoration2-devel-5.27.7-1.1.aarch64.rpm"
+RPM_HASH = "dbd1c0d5a8c05fba6503ba3f8570a1b54facc81ea1fb7cd3763744dc6c829609b5bc35b6835693bfd7aad753b669722b17554019b9d8b6f1d8024aa7ae080e35"
 
 RPROVIDES:${PN} += "cmake-KDecoration2 \
 libkdecoration2-devel"

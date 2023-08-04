@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "gstreamer-plugins-bad-fluidsynth-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "acdd315ec3f6f8318f5cbbe5c7026fe64db5f302c8d7c252b90e8e130d02cdfa79355eb49ce6cd612787f84ca70c5eadb4684e02759e54637c4c6dc345254de9"
+RPM_NAME = "gstreamer-plugins-bad-fluidsynth-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "f51c2316fdf02395c4453f01b5cdfff8c635f09c304cde257124e56bfb4fc5c05cc1ecbd222ac664bd7a8073b557c81b4dd3ecdff112e9f9b295354f45b2f832"
 
 RPROVIDES:${PN} += "gstreamer-plugins-bad-fluidsynth \
 gstreamer1 \

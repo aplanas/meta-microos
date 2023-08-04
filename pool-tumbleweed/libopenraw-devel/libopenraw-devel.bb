@@ -2,10 +2,10 @@ SUMMARY = "A library to decode digital camera RAW files"
 DESCRIPTION = "libopenraw is a library that aim at decoding digital camera RAW files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.3.4"
+PV = "0.3.7"
 
-RPM_NAME = "libopenraw-devel-0.3.4-2.1.aarch64.rpm"
-RPM_HASH = "a2d615901f60bd950d898e9d109ee7fd4c23d8c24df9a918a7b1485941cd7b8c33782b813930b985e3ba6b28f5041543c13a552b1c37248d11ed931b7a752e79"
+RPM_NAME = "libopenraw-devel-0.3.7-1.1.aarch64.rpm"
+RPM_HASH = "5a8ac7a2d970ca6b139cda7c06fa92033c25734df4d091ec36b58eb0b5aeb4bb3af6cff776fd00a4756e18cf0e5ad6f53729377eee63d722e3e7efed9b4170d2"
 
 RPROVIDES:${PN} += "libopenraw-devel \
 pkgconfig-libopenraw-0.3 \

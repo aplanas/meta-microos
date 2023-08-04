@@ -2,10 +2,10 @@ SUMMARY = "Translations for package breeze5-style"
 DESCRIPTION = "Provides translations for the 'breeze5-style' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.27.6"
+PV = "5.27.7"
 
-RPM_NAME = "breeze5-style-lang-5.27.6-1.1.noarch.rpm"
-RPM_HASH = "2e3c555504bad81d6188e81238fed8c9a876550b4257b73024bd071612823192385a46158ad493f0a0069f8c638b508953d0d823b9a98ef4ade795628bea1f35"
+RPM_NAME = "breeze5-style-lang-5.27.7-1.1.noarch.rpm"
+RPM_HASH = "bf6e5bd57d4847e70bb8365b67fc5cf2b254b6f7fe5a8554c48415917b0f9df7f3f81ae22c6a855789e2f32f0b511dcc36ff902b3440f3c5a3aa8e07c6fdec74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "breeze5-style-lang \

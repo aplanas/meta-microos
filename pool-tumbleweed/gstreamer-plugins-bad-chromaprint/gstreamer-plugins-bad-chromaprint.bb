@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "gstreamer-plugins-bad-chromaprint-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "7c7768f999630c196e2501d5478609e63ba59fdb2a9a9d0099bfb6516ec36e9919b6949713eacc44968bae9368354944a6e50a98ba56eb1e1ae8feb3d595e047"
+RPM_NAME = "gstreamer-plugins-bad-chromaprint-1.22.5-2.1.aarch64.rpm"
+RPM_HASH = "74c038cf3af9cea3bc58badb6de47ddcbaa8c62f88b8d8c4570c44e9397a39e4012c9f6ba1c8aaea2c0c6bdf55a2f1c3b69c0a9e68c64dedce59b223c33dd1e3"
 
 RPROVIDES:${PN} += "gstreamer-plugins-bad-chromaprint \
 gstreamer1 \

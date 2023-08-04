@@ -2,10 +2,10 @@ SUMMARY = "KDE Plasma 5 Desktop Base"
 DESCRIPTION = "Base packages for the KDE Plasma 5 desktop environment."
 LICENSE = "MIT"
 
-PV = "20230403"
+PV = "20230801"
 
-RPM_NAME = "patterns-kde-kde_plasma-20230403-1.1.noarch.rpm"
-RPM_HASH = "c575d6f16cd0dca45b951ba9b5f4e22eac231221a5dacab786dc302a7c0f6bd9f1756e88f706557146438fc74a1b63c72fb638b06dcc5dd3b0de43a667b59d8b"
+RPM_NAME = "patterns-kde-kde_plasma-20230801-1.1.noarch.rpm"
+RPM_HASH = "e17740920a7a80198fbb902d4cf2c7643b6810af2afc008ed2a4d6c9001a59cfdff5a4802775d94e318cf2efc07a9a4ec2c147d90ac305f3ef4bc318780389fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pattern- \
