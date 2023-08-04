@@ -14,7 +14,8 @@ PROVIDES += "\
 	 virtual/${TARGET_PREFIX}libc-for-gcc \
 "
 
-DEPENDS += "gcc${MM_PRI_VER_GCC} glibc-devel libgcc-s1 linux-glibc-devel"
+# TODO: Deduce the versions of libraries (libgcc-s1, libstdc++6, ...)
+DEPENDS += "gcc${MM_PRI_VER_GCC} glibc-devel libgcc-s1 linux-glibc-devel libstdc++6"
 
 INHIBIT_DEFAULT_DEPS = "1"
 
