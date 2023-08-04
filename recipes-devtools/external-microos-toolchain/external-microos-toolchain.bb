@@ -14,7 +14,7 @@ PROVIDES += "\
 	 virtual/${TARGET_PREFIX}libc-for-gcc \
 "
 
-DEPENDS += "gcc${MM_PRI_VER_GCC} glibc-devel libgcc-s1"
+DEPENDS += "gcc${MM_PRI_VER_GCC} glibc-devel libgcc-s1 linux-glibc-devel"
 
 INHIBIT_DEFAULT_DEPS = "1"
 
