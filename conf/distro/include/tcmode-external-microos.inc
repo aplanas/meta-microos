@@ -27,7 +27,10 @@ PREFERRED_PROVIDER_virtual/linux-libc-headers = "external-microos-toolchain"
 # TODO Should this be part of providers.inc?
 PREFERRED_PROVIDER_virtual/crypt = "libcrypt1"
 
+# Find certain compiler libraries
 TARGET_LDFLAGS += "-L${STAGING_DIR_TARGET}/${libdir}64/gcc/${TARGET_ARCH}-suse-${TARGET_OS}/${MM_PRI_VER_GCC}"
+# Required for gcc to find the libraries
+TARGET_CC_ARCH += "${LDFLAGS}"
 
 # Validate the presence of the MicroOS external toolchain
 python toolchain_metadata_setup () {
