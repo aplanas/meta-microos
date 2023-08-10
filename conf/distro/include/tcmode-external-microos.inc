@@ -32,6 +32,10 @@ TARGET_LDFLAGS += "-L${STAGING_DIR_TARGET}/${libdir}64/gcc/${TARGET_ARCH}-suse-$
 # Required for gcc to find the libraries
 TARGET_CC_ARCH += "${LDFLAGS}"
 
+# Do not own "/usr", "/usr/bin".  "None" is representing a non-existen
+# directory path.  In MicroOS the owner is the filesystem package.
+DIRFILES = "None"
+
 # Validate the presence of the MicroOS external toolchain
 python toolchain_metadata_setup () {
     import subprocess
