@@ -4,18 +4,33 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "${MM_VER_GCC}"
 
-# TODO: check gcc-runtime.inc and transform this into a metapage like "compilerlibs"
 PROVIDES += "\
-	 gcc-runtime \
-	 virtual/${TARGET_PREFIX}compilerlibs \
-	 virtual/${TARGET_PREFIX}g++ \
-	 virtual/${TARGET_PREFIX}gcc \
-	 virtual/${TARGET_PREFIX}gcc-initial \
-	 virtual/${TARGET_PREFIX}libc-for-gcc \
+    gcc-runtime \
+    virtual/${TARGET_PREFIX}compilerlibs \
+    virtual/${TARGET_PREFIX}g++ \
+    virtual/${TARGET_PREFIX}gcc \
+    virtual/${TARGET_PREFIX}gcc-initial \
+    virtual/${TARGET_PREFIX}libc-for-gcc \
 "
 
 # TODO: Deduce the versions of libraries (libgcc-s1, libstdc++6, ...)
-DEPENDS += "gcc${MM_PRI_VER_GCC} glibc-devel libgcc-s1 linux-glibc-devel libstdc++6"
+DEPENDS += "\
+    gcc${MM_PRI_VER_GCC} \
+    glibc-devel \
+    libasan8 \
+    libatomic1 \
+    libctf-nobfd0 \
+    libctf0 \
+    libgcc-s1 \
+    libgomp1 \
+    libhwasan0 \
+    libitm1 \
+    liblsan0 \
+    libstdc++6 \
+    libtsan2 \
+    libxcrypt-devel \
+    linux-glibc-devel \
+"
 
 INHIBIT_DEFAULT_DEPS = "1"
 
