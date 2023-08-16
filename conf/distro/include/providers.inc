@@ -33,6 +33,10 @@ PREFERRED_RPROVIDER_systemd-presets-branding ?= "systemd-presets-branding-microo
 PREFERRED_PROVIDER_zlib ?= "libz1"
 PREFERRED_RPROVIDER_zlib ?= "libz1"
 
+# Select the MicroOS kernel.  Eventually this needs to be done in
+# conf/machine/include/<machine>.inc
+PREFERRED_PROVIDER_virtual/kernel ?= "kernel-default"
+
 # pkconfig is defined in Poky, prefer pkgconf wrapper from MicroOS.
 # But this can be a mistake, as the -native version should be required
 # by libtools, so the strategy should be to reference in the RPM a

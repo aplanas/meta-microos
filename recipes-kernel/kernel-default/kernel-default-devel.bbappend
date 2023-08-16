@@ -1,0 +1,1 @@
+PROVIDES += "kernel-devsrc"

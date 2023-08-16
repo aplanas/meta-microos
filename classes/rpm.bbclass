@@ -29,6 +29,9 @@ INHIBIT_DEFAULT_DEPS = "1"
 # preparation task in the glibc recipe.
 SYSROOT_DIRS += "${libdir}64"
 
+# Also includes the source directory, for kernel development
+SYSROOT_DIRS += "${exec_prefix}/src"
+
 do_install () {
     cp -a ${S}/* ${D}
     # The fetch task calls rpm2cpio.sh under the normal user.  Should
