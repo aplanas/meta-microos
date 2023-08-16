@@ -91,18 +91,19 @@ def closure(package, microos_packages, preferred):
     return new_packages
 
 
-def import_package(package, microos_packages, preferred, pool_dir, recipes_dir):
+def import_package(package, microos_packages, preferred, pool_dir, recipes_dir, dry):
     new_packages = closure(package, microos_packages, preferred)
     print(
         f"New packages will be added in MicroOS ({recipes_dir}): {sorted(new_packages)}"
     )
-    for package in new_packages:
-        try:
-            (recipes_dir / rdir[package]).symlink_to(
-                ".." / pool_dir / rdir[package], target_is_directory=True
-            )
-        except FileExistsError:
-            pass
+    if not dry:
+        for package in new_packages:
+            try:
+                (recipes_dir / rdir[package]).symlink_to(
+                    ".." / pool_dir / rdir[package], target_is_directory=True
+                )
+            except FileExistsError:
+                pass
 
 
 if __name__ == "__main__":
@@ -127,6 +128,12 @@ if __name__ == "__main__":
         default=[],
         help="Preferred packages or recipes when there are multiple options",
     )
+    parser.add_argument(
+        "-d",
+        "--dry",
+        action="store_true",
+        help="Preferred packages or recipes when there are multiple options",
+    )
     parser.add_argument("package", help="Package to import into MicroOS")
 
     args = parser.parse_args()
@@ -143,5 +150,10 @@ if __name__ == "__main__":
     parse_recipes(args.pool, populate_rdir=True)
 
     import_package(
-        args.package, microos_packages, args.preferred, args.pool, args.recipes
+        args.package,
+        microos_packages,
+        args.preferred,
+        args.pool,
+        args.recipes,
+        args.dry,
     )
