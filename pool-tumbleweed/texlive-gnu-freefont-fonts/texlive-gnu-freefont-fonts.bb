@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.svn29349"
 
-RPM_NAME = "texlive-gnu-freefont-fonts-2023.209.svn29349-54.1.noarch.rpm"
-RPM_HASH = "019afcf3663548bcfabb5011e2d92eac5f158a53e53aeafde342c774f94c23e9187258ee570e914ec81a1d536a231a5de3c7a4bc178d6a0830a68209ff7caec1"
+RPM_NAME = "texlive-gnu-freefont-fonts-2023.209.svn29349-54.2.noarch.rpm"
+RPM_HASH = "b53908df632dc19489919ff22d9144ddfe410ce056042376c6bd38e6085fe28b13457059ee93d7b7e11809f5ae9c9e5e71a5e8a4149919c66471628febe47d52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

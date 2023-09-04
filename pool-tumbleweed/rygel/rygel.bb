@@ -7,10 +7,10 @@ on-the-fly conversion of media to format that client devices are \
 capable of handling."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "0.42.3"
+PV = "0.42.4"
 
-RPM_NAME = "rygel-0.42.3-2.1.aarch64.rpm"
-RPM_HASH = "771cf43677f8505ecca09c7fc8cfa31fab90af8db1114f5490b3917c8bf037b55b3d20f44ca8bcf3d4c8ae829a3741583f258db178eff650a59435418fa4398f"
+RPM_NAME = "rygel-0.42.4-1.1.aarch64.rpm"
+RPM_HASH = "29de0baca9346fe058c67bd9328da80104b42172a0cf217a85fbec8dfb71d5d02e6600c3c1f4ca8ed7859e40f78a7bd03dc431e0ed86c4947ed3260e41a62621"
 
 RPROVIDES:${PN} += "config-rygel \
 librygel-external.so \

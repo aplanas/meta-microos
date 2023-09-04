@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.39.1"
 
-RPM_NAME = "libfdisk-devel-2.39.1-1.1.aarch64.rpm"
-RPM_HASH = "2d6ec2de2a50861eb65e82bab877b6fb6b50117fbebad25181b86d403eb6405982208e712a587c9c61efa55a8a291ae836df5d24c4d78adaeff38621ef4b9fb6"
+RPM_NAME = "libfdisk-devel-2.39.1-3.1.aarch64.rpm"
+RPM_HASH = "6ce7c08170eb8b5ac9b9d0b1ae1bce1eaec410e1d90dae90b2d2798c59ed9743ef27b140f1875f87f87fe3905c6ed42c01ba8a5a3f59e56a64c51ec4019c045a"
 
 RPROVIDES:${PN} += "libfdisk-devel \
 pkgconfig-fdisk"

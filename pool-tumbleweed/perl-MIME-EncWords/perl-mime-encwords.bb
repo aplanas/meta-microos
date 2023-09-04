@@ -35,15 +35,15 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.014.3"
 
-RPM_NAME = "perl-MIME-EncWords-1.014.3-1.27.noarch.rpm"
-RPM_HASH = "3845b4dc0bd4238150e0054ae03119c7f509195fcfa64e68c30a8ea67c91f32e812da85066c77a4c19cb1073d4cd175dd647cca410279bb00aff85a401deca72"
+RPM_NAME = "perl-MIME-EncWords-1.014.3-1.28.noarch.rpm"
+RPM_HASH = "23b18e14ac56cb5463a8ac7a6cbfbdd05ca8e19f5b475d6cf0cd34adc2a5d01c213de2d0c81b5b2d266e4b775c70c8269ba7fcb4fe29f69845d2943bccca62f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Encode--MIME--EncWords \
 perl-MIME--EncWords \
 perl-MIME-EncWords"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Encode \
 perl-MIME--Base64 \
 perl-MIME--Charset"

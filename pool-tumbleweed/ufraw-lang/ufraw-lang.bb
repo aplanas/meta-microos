@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.22"
 
-RPM_NAME = "ufraw-lang-0.22-11.9.noarch.rpm"
-RPM_HASH = "261577f52b5815efa413e7e91c0890f757e3fbaeb942a92eb27f639e3154b0a913024b965d7548e735ab77f790b6c3f65b070f9e628c2c795ecf1c241769408f"
+RPM_NAME = "ufraw-lang-0.22-12.1.noarch.rpm"
+RPM_HASH = "50a94617c4e5e44c01d3147ea9e5d16d6f2b9aa31403a83927ce1d7c037d1a25fb5ad46da437aa468e527db5ba8f550ba5e30994a8e128b5a03f4f24ff7d6077"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-ufraw-ca \

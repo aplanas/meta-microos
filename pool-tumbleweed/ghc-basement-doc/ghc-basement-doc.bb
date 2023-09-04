@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.16"
 
-RPM_NAME = "ghc-basement-doc-0.0.16-1.3.noarch.rpm"
-RPM_HASH = "909288f3b6dfbfcf1eef50e8adae04ebc6bed66e86727adf3fb6029e414dc781370b24a0d8be324321bdc5122866dc70c7bff59b38b9c12bfd2b091fdf19343d"
+RPM_NAME = "ghc-basement-doc-0.0.16-1.5.noarch.rpm"
+RPM_HASH = "c717ac87278da9284350f38d3c8d347ecc40c59d37644de7b7678f99c04b331a9859be03c312ffe055238781b8b07ad2d5cb953a8e3be45d64c9f5f4e17383aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-basement-doc"

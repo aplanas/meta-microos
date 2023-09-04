@@ -2,10 +2,10 @@ SUMMARY = "PostgreSQL Database Driver for LibreOffice"
 DESCRIPTION = "This package allows to access PostgreSQL databases from LibreOffice Base."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-base-drivers-postgresql-7.5.4.2-1.5.aarch64.rpm"
-RPM_HASH = "8f074d2f0ff0b9d3fe4c93972b7c35831055a69b9b62d1f6e8e8596b478008e1673cee3f492ec3fd8f9c9fefc9cdde98a3fa74b37fef830662729c53cbf2ef49"
+RPM_NAME = "libreoffice-base-drivers-postgresql-7.6.0.3-1.1.aarch64.rpm"
+RPM_HASH = "355b6324dd3c3ef108d2210f25eafde96f1344bf9216fe867dfac7e18d9620bd38823a6c44cf976ba6294435a16c07e2454c0ac8e10220e3bfd6b0ac2741f021"
 
 RPROVIDES:${PN} += "libpostgresql-sdbc-impllo.so \
 libpostgresql-sdbclo.so \

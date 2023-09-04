@@ -2,10 +2,10 @@ SUMMARY = "USB passthrough driver support for QEMU"
 DESCRIPTION = "This package contains a modules for USB passthrough driver for QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.3"
+PV = "8.0.4"
 
-RPM_NAME = "qemu-hw-usb-host-8.0.3-2.1.aarch64.rpm"
-RPM_HASH = "f237358596da5f804ce808845b8bd28637f8f01c52f6147a85f969c250ab62d87c8c9e95967d64447d17dc46d5ef491cf938d45f7da258f4944e84f92e3fe7f4"
+RPM_NAME = "qemu-hw-usb-host-8.0.4-1.1.aarch64.rpm"
+RPM_HASH = "4961ecc6443207f6b73d13aeee59a716ae9f27f914c79f602fb8546112fc791fa70689943c0b1fe724739fa4cf8624aa459c06cbe08fb0b3f468234b003bd826"
 
 RPROVIDES:${PN} += "qemu-hw-usb-host"
 

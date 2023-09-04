@@ -4,10 +4,10 @@ the code analysis tools and tracing hooks provided in the Python standard \
 library to determine which lines are executable, and which have been executed."
 LICENSE = "Apache-2.0"
 
-PV = "7.2.5"
+PV = "7.3.0"
 
-RPM_NAME = "python310-coverage-7.2.5-1.3.aarch64.rpm"
-RPM_HASH = "c351324d08123879fa71b79f4c8fc482c4c50cddf3c46e1f18539870575ae8ea5f55d2820e0085f5268e53e5c27f8614ca8ec44ae60b29e2fb09491d160f327c"
+RPM_NAME = "python310-coverage-7.3.0-1.1.aarch64.rpm"
+RPM_HASH = "6e2d08774b4487a347861dedac55c917d17fe284d2f5c2b053422983db8c6591855010e8b3ad5599457c188dcead795ed186280d8a653b6ac2465c68dc36e488"
 
 RPROVIDES:${PN} += "python3.10dist-coverage \
 python310-coverage \

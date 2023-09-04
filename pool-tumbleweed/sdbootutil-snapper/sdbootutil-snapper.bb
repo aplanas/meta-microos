@@ -2,10 +2,10 @@ SUMMARY = "plugin script for snapper"
 DESCRIPTION = "Plugin scripts for snapper to handle BLS config files"
 LICENSE = "MIT"
 
-PV = "1+git20230727.a0e666f"
+PV = "1+git20230814.38973c7"
 
-RPM_NAME = "sdbootutil-snapper-1+git20230727.a0e666f-1.1.aarch64.rpm"
-RPM_HASH = "598db3ed1e93945acfd31a16325fb641f29d13fdcd89abe71180cdc9065c6b871f713a7650f10e972f429412b608ac7f202496dd70573f6590b90c34e57f67bd"
+RPM_NAME = "sdbootutil-snapper-1+git20230814.38973c7-1.1.aarch64.rpm"
+RPM_HASH = "4a41b74a1893d3b8aea6eb8303e444fc7f1b2054d96f7bdeef3bc9c5c100413995bfda8269e48f73f1384f4faf1337fb7a0e06153d1a2b47f9008b56366750de"
 
 RPROVIDES:${PN} += "sdbootutil-snapper"
 

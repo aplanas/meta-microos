@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn49928"
 
-RPM_NAME = "texlive-glossaries-estonian-doc-2023.209.1.0svn49928-54.1.noarch.rpm"
-RPM_HASH = "7f8e94304e7e24641c3f7d719c4f0bb68965d63bf3103f2f35b1b9fd7d6104c97578084d56da22a8fc6b589a5e8ff89df55e8b4694bcebc737328043cbc60ee0"
+RPM_NAME = "texlive-glossaries-estonian-doc-2023.209.1.0svn49928-54.2.noarch.rpm"
+RPM_HASH = "28830037e13850795d83a110e322173ac20c77c476e3d47dd18949a2bf2f9d10b9e48a0799a3cb43425c96b7562272e73f3819f1561fced4ead0b2cf44080948"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-glossaries-estonian-doc"

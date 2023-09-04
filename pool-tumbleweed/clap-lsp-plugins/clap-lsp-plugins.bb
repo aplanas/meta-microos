@@ -8,10 +8,10 @@ the GNU/Linux platform. \
 This is the CLAP version of the plugins."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.2.8"
+PV = "1.2.10"
 
-RPM_NAME = "clap-lsp-plugins-1.2.8-1.1.aarch64.rpm"
-RPM_HASH = "ffd0574a0067c814f685434c9eadfbb6c1e6efe5577299278e82c9f949263fc2ba05129afc83ddeecc30412f1f9a2d35f07e358d49589d91f449e8b56a455528"
+RPM_NAME = "clap-lsp-plugins-1.2.10-1.1.aarch64.rpm"
+RPM_HASH = "26d0604efce888474b3da04296233d121637f928386279532631a40118269ea8e665c546c6cf85d6f4a16a249eb9a90b56d6fe9786e084c8f3e1af8c58ad9a71"
 
 RPROVIDES:${PN} += "clap-lsp-plugins"
 

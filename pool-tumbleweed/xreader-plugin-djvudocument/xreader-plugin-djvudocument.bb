@@ -2,10 +2,10 @@ SUMMARY = "DjVu document support for Xreader"
 DESCRIPTION = "A plugin for Xreader to read DjVu documents."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
-PV = "3.4.5"
+PV = "3.8.2"
 
-RPM_NAME = "xreader-plugin-djvudocument-3.4.5-1.5.aarch64.rpm"
-RPM_HASH = "4bbffe403b5f9a075b7a23f782eebbd7c9716c0a13c84f498cd23816036064e6a0781290f9db31aa56d732d8b750d8a0495cdedee13751f0e92076ecdb0f403c"
+RPM_NAME = "xreader-plugin-djvudocument-3.8.2-1.1.aarch64.rpm"
+RPM_HASH = "aedf19174fe3869844ce3472d00a774e26a4a15dfb6a54c1dbf2847318ebb799143a06259aa6e3d83107ee83808d69ce929f899948672cd54e87a7c7ebdf751b"
 
 RPROVIDES:${PN} += "libdjvudocument.so \
 xreader-plugin-djvudocument"

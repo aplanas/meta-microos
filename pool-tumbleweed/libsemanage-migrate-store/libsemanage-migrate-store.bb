@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.5"
 
-RPM_NAME = "libsemanage-migrate-store-3.5-1.9.aarch64.rpm"
-RPM_HASH = "072b8eff1b0d51d6cb91c44c496a475029e0c61fabed7a7e1b198badabb0f5ebacb9ca6d24b0385001bfe0d434afcc007d2fc6c65d3038e2565a275580f7aac4"
+RPM_NAME = "libsemanage-migrate-store-3.5-2.1.aarch64.rpm"
+RPM_HASH = "42a40577e4680497f1bb74d3f0a6ede176678bf717e855ee222b4227c9fe9a4ecea139f52f9e05ff574e4849f7c840c6a35a3e6bc8b469920b5be2cdf6306edd"
 
 RPROVIDES:${PN} += "libsemanage-migrate-store"
 

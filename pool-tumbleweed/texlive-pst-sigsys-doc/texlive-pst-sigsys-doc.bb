@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.4svn21667"
 
-RPM_NAME = "texlive-pst-sigsys-doc-2023.209.1.4svn21667-54.1.noarch.rpm"
-RPM_HASH = "cd1f540231c5b36be2b920a007ee232bc4f4ae8bb9b02b94c4d589c213baa3086bc225cc299cb631bdbab1e5d87bacacf71743177295eadb74ab03d2843bffb0"
+RPM_NAME = "texlive-pst-sigsys-doc-2023.209.1.4svn21667-54.2.noarch.rpm"
+RPM_HASH = "aa4a95c3dde93fc9bd5a346866c8d00a25979e68358d8941c1713fa823f21a59aa33043215fb9ebb8325c0e88066deb905e62207488d193d91c1c3893b413d0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-sigsys-doc"

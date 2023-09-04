@@ -9,10 +9,10 @@ with high speed connections as well as 28k modems. \
 This package contains the command line interface."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "5.2.50"
+PV = "5.2.98"
 
-RPM_NAME = "linphone-cli-5.2.50-1.3.aarch64.rpm"
-RPM_HASH = "55013121dafce3defc127d8a1e01bd15bcc518ee3e961bd761f4d98a4cbccff8d393892b59f125ff918d01c64d025d13b39947539f8753c80db2acf58a4b87d7"
+RPM_NAME = "linphone-cli-5.2.98-1.1.aarch64.rpm"
+RPM_HASH = "ca0b8ca65ef2442fdf119f2216fa955400ddae520a6a70a28c2abb4c1d65fe0785441de4931d89a7cbd451fa51f999ab1b8f82adf4901d3e01916330e872e5c8"
 
 RPROVIDES:${PN} += "linphone-cli"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "Functionality to handle JSON input/output for JAX-RS implementati
 (like Jersey and RESTeasy) using standard Jackson data binding."
 LICENSE = "Apache-2.0"
 
-PV = "2.13.3"
+PV = "2.15.2"
 
-RPM_NAME = "jackson-jaxrs-json-provider-2.13.3-1.8.noarch.rpm"
-RPM_HASH = "1e093fc5a87910e968f4fc6d18c2e6008654e7778bbfc86e6e31e7a4038c143b35ef74a5f13b39f87ed938dd12568c2a809d3ad6e3c0b2c0351053ae88532893"
+RPM_NAME = "jackson-jaxrs-json-provider-2.15.2-1.1.noarch.rpm"
+RPM_HASH = "68c7fa177e38faefdd7e777df2962486aedf98942710e38b30abc72a1ce6152f1177318c678aa47d232469a486397be5c0e9dafa63a92947d81ed377a0f902a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-jaxrs-json-provider \

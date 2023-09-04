@@ -5,10 +5,10 @@ it can work as a DNS-over-HTTPS, DNS-over-TLS or DNS-over-QUIC \
 server."
 LICENSE = "Apache-2.0"
 
-PV = "0.52.0"
+PV = "0.54.0"
 
-RPM_NAME = "dnsproxy-0.52.0-1.1.aarch64.rpm"
-RPM_HASH = "6499ce3c964318d9c66cd5023bf59ba4d058a08563f96f81a0cfb6ea4d36670ab498511997a622dc1f7e427212c254e370e83e38f3e144421f2460c937ffbb1b"
+RPM_NAME = "dnsproxy-0.54.0-1.1.aarch64.rpm"
+RPM_HASH = "1d9f177939884b8adc05917dece7d546f639d11162616fb18ea8a4a6655610b17d861ddb7bde1cac7ab579c44945eb29ec33d85d1ff8121971a7691813ca3434"
 
 RPROVIDES:${PN} += "dnsproxy"
 

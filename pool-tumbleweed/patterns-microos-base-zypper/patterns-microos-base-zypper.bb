@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "5.0"
 
-RPM_NAME = "patterns-microos-base-zypper-5.0-72.1.aarch64.rpm"
-RPM_HASH = "c282e0c24be4764bec3f817ff41ec2a0d7ae0a4f85c1369ac3de06c82036187b18dd2fceb4cce79e7cc0e00e67ed0b7c2ec6ac9abc0a8d7c0088745b758ad973"
+RPM_NAME = "patterns-microos-base-zypper-5.0-73.1.aarch64.rpm"
+RPM_HASH = "7677bfead18dda5287f2c5860a7ad4d731768b8febc62f78b626b69b8a4475b49a99b22288ff9eea4d7e8e37af3ead97881f41f0c023056d23f35b0d59457c95"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

@@ -23,13 +23,13 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.2.0"
 
-RPM_NAME = "perl-lib-relative-1.2.0-1.1.noarch.rpm"
-RPM_HASH = "594be81e8fa5112ea56cdb6e1f2c38fee6486676b2424fdf066d2c45ec714d0a108a45680dfe0a4834f88e6449dd0aeec11647c95c6ca3351ac7780bbfe2acc5"
+RPM_NAME = "perl-lib-relative-1.2.0-1.2.noarch.rpm"
+RPM_HASH = "52e3b07da3658be2d3d4bb76af8b2536aca8cac73b6fbe379d1eb16d0052b668c21e63ea7a2a77468bc8dfab3cd9ecee40dd6c8dfe549d8978d730b8cbe7b433"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-lib--relative \
 perl-lib-relative"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

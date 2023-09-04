@@ -3,10 +3,10 @@ DESCRIPTION = "Server side daemon used to manage locks held against virtual mach
 resources"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.5.0"
+PV = "9.6.0"
 
-RPM_NAME = "libvirt-daemon-lock-9.5.0-2.1.aarch64.rpm"
-RPM_HASH = "81af96f6afdc9a9f607475fb170b622f4632c2df268ec4095c9124eff9d28bb21941fd3e03c641eab72b6bdddf31291f585e634769d2b201bf4d70ce1e933015"
+RPM_NAME = "libvirt-daemon-lock-9.6.0-2.1.aarch64.rpm"
+RPM_HASH = "99f22addc1f9dc4c31b634ee9d2d27a82aae043fa51b99f12d325214407c77c1d208f484dc9014935a43f55d2d3e65b859de0715c3684de2039497c3a6f644f8"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-lock \
 libvirt-daemon-lock"

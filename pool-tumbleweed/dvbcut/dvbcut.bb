@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-only"
 
 PV = "0.7.4"
 
-RPM_NAME = "dvbcut-0.7.4-1.6.aarch64.rpm"
-RPM_HASH = "81721de9bd74a9fb7d2682a67b0ed4ba2c64e2b423fad8cfc8efb10f2b017c0ef7a8fa1421cafce4062f589c2b029f643081e467f5f42ee0e8467309d281c8d4"
+RPM_NAME = "dvbcut-0.7.4-2.1.aarch64.rpm"
+RPM_HASH = "395a8df0454d75e8a80ab32c3ab8a8c3d69d09b78984e8825cb1c974909bd1f23be177110d36f4ddce97182713c4f1cef311ce7a5a7e7d44f441631c6508b7cd"
 
 RPROVIDES:${PN} += "dvbcut"
 

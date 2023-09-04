@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn38352"
 
-RPM_NAME = "texlive-easyreview-2023.209.1.0svn38352-54.1.noarch.rpm"
-RPM_HASH = "a269905955d3fd9e38239d3307eaf522626463998fc7334ae2a36fe0bbdeb9ec3a6057daf52bb7865b4fa3fc5d6b714eca6eacba81c9987b76af12215185d967"
+RPM_NAME = "texlive-easyreview-2023.209.1.0svn38352-54.2.noarch.rpm"
+RPM_HASH = "f330eaab75d568778a857e68e8f29e37152b7f6e27069339f9603f4019ac49d55fabbd50790f5216c5707985ad2bc46d52aede6fd485893c5c347788c284d203"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-easyReview.sty \

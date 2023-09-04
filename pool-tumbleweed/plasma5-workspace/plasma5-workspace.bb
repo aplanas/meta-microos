@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.27.7"
 
-RPM_NAME = "plasma5-workspace-5.27.7-1.1.aarch64.rpm"
-RPM_HASH = "3b0b12bc284c9e5ea1904107d989e682826838b41daddf25589196362cd936284328de2af19db0747cab5220d4bd7c516473f560c9df67db98720f53d0cd455a"
+RPM_NAME = "plasma5-workspace-5.27.7-3.1.aarch64.rpm"
+RPM_HASH = "e82526334f63de7a78977b8b2235c9ea5c326468d8fbb6d990a7a25dd7aaed67df86af990c7c85215a59bee9238b47c1ba9f53b5b9433591cdadfd9094d6fcba"
 
 RPROVIDES:${PN} += "config-plasma5-workspace \
 dbus-org.freedesktop.Notifications \

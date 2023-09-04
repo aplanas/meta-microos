@@ -19,8 +19,8 @@ LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
 PV = "1.12.55"
 
-RPM_NAME = "gnumeric-1.12.55-1.4.aarch64.rpm"
-RPM_HASH = "6c69ad9877aa65f005ecdd52707a878a8a81353b0cd0044c3c8d875a52d2cb3ccea5212a70ececc8b5e1d9d58a119ea7c313a9f0f0d4e2784d9f73827d099e0e"
+RPM_NAME = "gnumeric-1.12.55-1.5.aarch64.rpm"
+RPM_HASH = "48359a0ce9a3c61d7b508814700f789f19d719f55f63744d2146d76482cb54a9745bbf3ba721d6451df0328aa3948f6e292bd23d188082e47437a91b3ecdf6ec"
 
 RPROVIDES:${PN} += "gnumeric \
 gnumeric2 \
@@ -50,6 +50,6 @@ libperl.so \
 libxml2.so.2 \
 libz.so.1 \
 perl \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

@@ -9,10 +9,10 @@ interface.  Many Thunderbird and (legacy) Firefox extensions are \
 compatible with SeaMonkey."
 LICENSE = "MPL-2.0"
 
-PV = "2.53.16"
+PV = "2.53.17"
 
-RPM_NAME = "seamonkey-2.53.16-1.2.aarch64.rpm"
-RPM_HASH = "5dc634cc848c19d23db5026538a6ed62db5bb5bba602fb03e10617b44ad752d99949b2ae56cfb41aadb8e50032e02ebbc4486d67a4c84b23bff7775e74677280"
+RPM_NAME = "seamonkey-2.53.17-1.1.aarch64.rpm"
+RPM_HASH = "f590201fe7ad5f81fd10bb9ab5f037c6006459c3182d5f3652e6a4f548a09e467ac297d02ed1516799e747d2534d45b9a8b81295490e5964d6dc3ad0378b5522"
 
 RPROVIDES:${PN} += "browser-npapi \
 locale-seamonkey-cs;de;el;en-GB;es-AR;es-ES;fi;fr;hu;it;ja;ka;nb-NO;nl;pl;pt-BR;pt-PT;ru;sk;sv-SE;zh-CN;zh-TW \
@@ -68,10 +68,8 @@ libpangoft2-1.0.so.0 \
 libplc4.so \
 libplds4.so \
 libproxy.so.1 \
-libsharpyuv.so.0 \
 libsmime3.so \
 libssl3.so \
-libstartup-notification-1.so.0 \
 libstdc++.so.6 \
 libwebp.so.7 \
 libwebpdemux.so.2 \

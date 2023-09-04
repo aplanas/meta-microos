@@ -2,10 +2,10 @@ SUMMARY = "Swahili localization files for LibreOffice"
 DESCRIPTION = "Provides Swahili translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-l10n-sw_TZ-7.5.4.2-1.5.noarch.rpm"
-RPM_HASH = "03335444e08daf430a2fc922cdfaed03b8ebcb5cd655c5cd9d16f6722e0723e874462cc62773b639318d404f5d38477039f02a06f29725c61bdaca017b0153cc"
+RPM_NAME = "libreoffice-l10n-sw_TZ-7.6.0.3-1.1.noarch.rpm"
+RPM_HASH = "9a208b9ac20392cc1ade26bbf1521c4c0bc5dbbac2aa711052d74a6b62accc858e0ec3c5744540aa231830b7449a0abb41997c64f5617d6ac8cf593c00e296a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-sw-TZ \

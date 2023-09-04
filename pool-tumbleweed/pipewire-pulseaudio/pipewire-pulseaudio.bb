@@ -2,10 +2,10 @@ SUMMARY = "PipeWire PulseAudio implementation"
 DESCRIPTION = "This package provides a PulseAudio implementation based on PipeWire"
 LICENSE = "MIT"
 
-PV = "0.3.76"
+PV = "0.3.77"
 
-RPM_NAME = "pipewire-pulseaudio-0.3.76-1.1.aarch64.rpm"
-RPM_HASH = "f38430dba9c4a30ac8fa1a42e86f659eddee96b391e3571c0b895585c5472f1c3da560d38d320cb5e671d0ffac984b43e4265931b37bd197d334106aad413303"
+RPM_NAME = "pipewire-pulseaudio-0.3.77-2.1.aarch64.rpm"
+RPM_HASH = "f558024d0997bac6c0f32ef0ada555332ddf3d08e3331ca8015dadd30ce91c0080b8ddef6b1acd33813d8af0dadb1e5ee053282c4679eaa2d1ca8e70e5b2647e"
 
 RPROVIDES:${PN} += "pipewire-pulseaudio \
 pulseaudio-daemon"

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.4.4"
 
-RPM_NAME = "brickd-2.4.4-1.3.aarch64.rpm"
-RPM_HASH = "376d6af157ab48ca26a2183feea3f3882dd0f6d60d0b4b9d2e48b5912c4c6be5e98a798f2c238c12c3d0f2aee0aa044d78984f1a262abbd1d23566faf80707d9"
+RPM_NAME = "brickd-2.4.4-2.1.aarch64.rpm"
+RPM_HASH = "0b9cc138d389a5ed19191b291a05aac6d1e76b0e01f0e84bb50217783ff2db2c803eed51ee4e2dbfcc5d5c07963ca15340e3890a74ff07448f5db703a39dda47"
 
 RPROVIDES:${PN} += "brickd \
 config-brickd"

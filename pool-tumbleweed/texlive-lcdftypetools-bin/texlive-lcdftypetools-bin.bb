@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn62210"
 
-RPM_NAME = "texlive-lcdftypetools-bin-2023.20230311.svn62210-93.1.aarch64.rpm"
-RPM_HASH = "d8b8b2d9ab1526ffbfae8a8904e96960e6de1e880ee952013d336f30d5ab8ad8ed634013f65562be35f8ae48ab8dad48b9733b03463eb0bd5543f964627f81da"
+RPM_NAME = "texlive-lcdftypetools-bin-2023.20230311.svn62210-93.2.aarch64.rpm"
+RPM_HASH = "7cdddaa328b029d73ed9691110eaa941eac34ce3215947338c02d503102b8b0978cd551d0d79bffcf839b03a511b835064d891ea856b60634df635e2b127d4e4"
 
 RPROVIDES:${PN} += "texlive-lcdftypetools-bin"
 

@@ -6,13 +6,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.06"
 
-RPM_NAME = "perl-Hash-MoreUtils-0.06-1.17.noarch.rpm"
-RPM_HASH = "aaff204ff5bea6955927cb6bfc8b60e151d1cdad171cb9c34d9d19bc2ba9ca0ad408c65483e0551e1bb8231fe311f143091cbd4b1301f3c0d880aa14fbd5a20e"
+RPM_NAME = "perl-Hash-MoreUtils-0.06-1.18.noarch.rpm"
+RPM_HASH = "bc447254b46e442ee2e83f3cea1b89c409b371fa103c006a6791c439f86358bcae0894b16975decdb20fadf2dbb8ef59e1069791f9a960a72b527cf301a91f70"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Hash--MoreUtils \
 perl-Hash-MoreUtils"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Turkmen hyphenation patterns"
 DESCRIPTION = "Hyphenation patterns for Turkmen in T1/EC and UTF-8 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn58652"
+PV = "2023.209.svn58652"
 
-RPM_NAME = "texlive-hyphen-turkmen-2023.208.svn58652-53.1.noarch.rpm"
-RPM_HASH = "c602aa2dc34d7286571877a5d7844c85b704fa4d52664c332ff7044f12f518e0844df40132bf252c00d7631bdefc7a994332fd3ebf31c0c6972723899c3f00ea"
+RPM_NAME = "texlive-hyphen-turkmen-2023.209.svn58652-54.1.noarch.rpm"
+RPM_HASH = "84bf85f497b61c20fdebf6a4a361064751984b5fe8e9a3c689a3d618e78a2ce740fc7e05f746fa10b81566ccca1b3c8c05ca8bcbea56291af07e57411344d6ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-tk.ec.tex \

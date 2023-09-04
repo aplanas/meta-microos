@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.2.13"
 
-RPM_NAME = "indent-lang-2.2.13-1.2.noarch.rpm"
-RPM_HASH = "c156fe91ed90536b3d4cf7ae5690ad4a8154c1a73c37f16383addcbcd963e920d326462161e981873765e81ad9bbc66bd52ec58c11a4c0c6555669966a8f2e71"
+RPM_NAME = "indent-lang-2.2.13-2.1.noarch.rpm"
+RPM_HASH = "110b5d5e42d29f347a7065afd5fe63227eca0e1ce3e967146dac3cd0dac6606b44bbb39e9dcfc774dec4e39cf7c116c499f0aee739ac8105b395744ba2217019"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "indent-lang \

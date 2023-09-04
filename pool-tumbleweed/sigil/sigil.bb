@@ -6,10 +6,10 @@ use it to add any of the metadata entries supported by the EPUB \
 specification and create a hierarchical Table of Contents."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.9.30"
+PV = "2.0.1"
 
-RPM_NAME = "sigil-1.9.30-1.3.aarch64.rpm"
-RPM_HASH = "49e29221e103e95f9c9ae3ef9ee9a0582f1639bc4142f5ebe828bc833d34b57f6ce8e07d28a05e6da18634582427c4f08a14c7879b1ffcc856c082fc37664353"
+RPM_NAME = "sigil-2.0.1-1.1.aarch64.rpm"
+RPM_HASH = "a9baab56b182957ea7a982d314c6bf739f77a51014f16f2ba816c0a3dd914cb23cb81a655896aa18f172ae1dcc5b5cf393737d3fdc561f96fecd54ec814245be"
 
 RPROVIDES:${PN} += "libhunspell.so \
 libsigilgumbo.so \
@@ -27,7 +27,7 @@ libQt5WebEngineWidgets.so.5 \
 libQt5Widgets.so.5 \
 libc.so.6 \
 libgcc-s.so.1 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libstdc++.so.6 \
 python3-Pillow \
 python3-certifi \

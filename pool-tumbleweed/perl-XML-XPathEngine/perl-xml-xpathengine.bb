@@ -25,8 +25,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.14"
 
-RPM_NAME = "perl-XML-XPathEngine-0.14-5.27.noarch.rpm"
-RPM_HASH = "8f61a415b30736e4399df90ba13c5e1447d126ed85cdb1e8fdaf3fd2f6975c6963401ab8c1774e994ef9e64df76c553d6891e02046e278c00fcbef580ff791da"
+RPM_NAME = "perl-XML-XPathEngine-0.14-5.28.noarch.rpm"
+RPM_HASH = "30dbbf7c309e4286f76b0bed7a721a7c21cae79171e6ab1ed8cf0cf25de759c1c4d9e77ba92d4db19229c93f6cd47498c4b9dfaf529dd5c1a9966b7e1db4561d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--XPathEngine \
@@ -42,6 +42,6 @@ perl-XML--XPathEngine--Step \
 perl-XML--XPathEngine--Variable \
 perl-XML-XPathEngine"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

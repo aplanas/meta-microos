@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "6.11"
 
-RPM_NAME = "perl-HTML-Form-6.11-1.2.noarch.rpm"
-RPM_HASH = "7de18fc886e2fa755576759dff347aec1b16c36a14e30489742800c0701d19059f4abf154f84128227971dde56595fc47098492d541b0135d7fda6d8f78bcc11"
+RPM_NAME = "perl-HTML-Form-6.11-1.3.noarch.rpm"
+RPM_HASH = "c36577b0e6897ac44432fede46dfceee1c673825815c5c9f9dddf59ffac4cc9e3b649a384004d994143b1070ee7b3f2a690160e5f38e857874d4a3dca5d36fcf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTML--Form \
@@ -23,7 +23,7 @@ perl-HTML--Form--SubmitInput \
 perl-HTML--Form--TextInput \
 perl-HTML-Form"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-HTML--TokeParser \
 perl-HTTP--Request \
 perl-HTTP--Request--Common \

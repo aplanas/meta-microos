@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn58392"
 
-RPM_NAME = "texlive-highlightlatex-doc-2023.209.svn58392-54.1.noarch.rpm"
-RPM_HASH = "5568b5aea5e348f06ebaf40431372688443c6ec702fbf10bf6d5b094e460fdef1f5c848625d2cc783dbf240a58735337eded7a18027e3ec8ab2b4af44dc00e03"
+RPM_NAME = "texlive-highlightlatex-doc-2023.209.svn58392-54.2.noarch.rpm"
+RPM_HASH = "9b10276c2716f008c4e21991dbbeacb3d51e25637e97f03fbd1f20dd0b0593efa487b786cd7583149ffd5642b2e76cbf6b2867861e2de43e982d017c8e1af8b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-highlightlatex-doc"

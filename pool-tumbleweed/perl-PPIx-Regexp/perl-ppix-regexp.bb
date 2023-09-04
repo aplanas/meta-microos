@@ -34,8 +34,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.088"
 
-RPM_NAME = "perl-PPIx-Regexp-0.088-1.2.noarch.rpm"
-RPM_HASH = "03f8e4be9dbc19917bf1ce511272591b52a2e61d86d23c5688e40845c4963fb50ae853391dfd0620d6a283a0a12f9fd1fc2ab1752e0f0886ac5a9bccf6e52fb4"
+RPM_NAME = "perl-PPIx-Regexp-0.088-1.3.noarch.rpm"
+RPM_HASH = "6080254c01f59911966bf16567a6c9c368664e73f2e38031945b62d8958336d021ee9c0e1a0848b434e722d050f53e032e4b56cab5b871ed237054d33e5120dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-PPIx--Regexp \
@@ -106,7 +106,7 @@ perl-PPIx--Regexp--Tokenizer \
 perl-PPIx--Regexp--Util \
 perl-PPIx-Regexp"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-PPI--Document \
 perl-PPI--Dumper \
 perl-Task--Weaken"

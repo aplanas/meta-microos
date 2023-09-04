@@ -2,10 +2,10 @@ SUMMARY = "This package contains the paper library"
 DESCRIPTION = "This package provides the paper library"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.1.0"
+PV = "2.1.1"
 
-RPM_NAME = "libpaper2-2.1.0-1.1.aarch64.rpm"
-RPM_HASH = "73d1d9dac577ffdcd56f6ed2e92da09a725265c7705a74b554ccac2295a4433ec424823b39a8e4d4e1b585d6a6e22dad6973b4b7d21de8f876525b542638d9df"
+RPM_NAME = "libpaper2-2.1.1-1.1.aarch64.rpm"
+RPM_HASH = "adb03856e82809ca77faa7d1da61435a8576cd44c444693181ee0bd669adf57c268bd15c3ff3a10720df10de6e524bf64615fec3daa423242e08e9ef44b8ad69"
 
 RPROVIDES:${PN} += "libpaper.so.2 \
 libpaper2"

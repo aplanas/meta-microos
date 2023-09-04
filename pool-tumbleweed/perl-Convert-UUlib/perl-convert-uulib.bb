@@ -16,8 +16,8 @@ LICENSE = "GPL-1.0-or-later"
 
 PV = "1.8"
 
-RPM_NAME = "perl-Convert-UUlib-1.8-1.15.aarch64.rpm"
-RPM_HASH = "3945a170bb2bb945d261bd19f7d92cbf7e45712ac364cc0c9cfc72df3dc2de58abf5e16bc6f15d15ed966d690d9e1730dadea992eaa794edd3539a06022f94a4"
+RPM_NAME = "perl-Convert-UUlib-1.8-1.16.aarch64.rpm"
+RPM_HASH = "0f424fc496d327d79dda2bae98661046a2705a5bf160dcd58f9dd0e4382e7283dba2de74e78fa0aa44831941faaca635cec7a26a898a7b9e8f47428660dd2641"
 
 RPROVIDES:${PN} += "p-conulb \
 perl-Convert--UUlib \
@@ -25,7 +25,7 @@ perl-Convert-UUlib"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-common--sense"
 
 inherit rpm

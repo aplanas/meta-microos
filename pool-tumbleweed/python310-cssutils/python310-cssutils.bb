@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "2.7.1"
 
-RPM_NAME = "python310-cssutils-2.7.1-1.1.noarch.rpm"
-RPM_HASH = "ad9cfc01f36a0878400eea5a66fb00e512ae87c472368934cb443e38d3f4dd20217bae9245f9d7d6f2f3b1cbf5fab13e53738fa64ec55852199f8af3ee633413"
+RPM_NAME = "python310-cssutils-2.7.1-2.1.noarch.rpm"
+RPM_HASH = "0e88f2076a6395c88ca0d6b3850965feea55250581b1f119f18ec6b1a23805d1793c5ed320bb6b9aea2682eca6563d87aee0636a79e1efd4f04abb9502c527f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-cssutils \

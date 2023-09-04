@@ -10,15 +10,15 @@ module, plus a character device 'back end' to pass the SCSI commands \
 through to user-space daemons."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.71_release+903.d3ec98550dc3_k6.4.6_1"
+PV = "1.71_release+903.d3ec98550dc3_k6.4.11_1"
 
-RPM_NAME = "mhvtl-kmp-default-1.71_release+903.d3ec98550dc3_k6.4.6_1-1.1.aarch64.rpm"
-RPM_HASH = "a562e68f85dbe381d6c211b1a341c1848f5faa773f28dbda002f4356e4a3d098c06bd32b56a4b9a53dff64bf7ae1388afca73eb7661de0e4f39911c87077d771"
+RPM_NAME = "mhvtl-kmp-default-1.71_release+903.d3ec98550dc3_k6.4.11_1-1.4.aarch64.rpm"
+RPM_HASH = "41db22f2c8cc300dc2b0a257725fb88c78b103e965376a0d012d11255e76edd5c1d3e710c1a8aba746af946563a4cfcb68e45527be0d9e51f3518c039414c9d7"
 
 RPROVIDES:${PN} += "kmod-mhvtl.ko \
 mhvtl-kmp \
 mhvtl-kmp-default \
-mhvtl-kmp-default-k6.4.6-1 \
+mhvtl-kmp-default-k6.4.11-1 \
 multiversion-kernel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

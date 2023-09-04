@@ -2,10 +2,10 @@ SUMMARY = "Translations for package haruna"
 DESCRIPTION = "Provides translations for the 'haruna' package."
 LICENSE = "CC-BY-4.0 & GPL-3.0-or-later & WTFPL"
 
-PV = "0.11.3"
+PV = "0.12.0"
 
-RPM_NAME = "haruna-lang-0.11.3-1.1.noarch.rpm"
-RPM_HASH = "94f6399d0fd843d57878c02fc05b731737e2069d24a725681dbc9a24cb966d1a61c37f268ff9cbc00f02757c93ce7ac64eaf4a18856370b4aadb1d7f6ae9c0bb"
+RPM_NAME = "haruna-lang-0.12.0-1.1.noarch.rpm"
+RPM_HASH = "651ff99623292cbac06d27b28bd4c5bbd0c7e6f11043adf823525bcff9fe9d79ebb62ff194144d750f3e67c505adc9ea680e1357f4aa305c6678b77625663bde"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "haruna-lang \

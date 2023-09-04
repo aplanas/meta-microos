@@ -4,10 +4,10 @@ layer over a reliable transport layer. \
 This package contains the 'DANE' part of gnutls."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.8.0"
+PV = "3.8.1"
 
-RPM_NAME = "libgnutls-dane0-3.8.0-4.2.aarch64.rpm"
-RPM_HASH = "9b630d7c17c51c9afedd83d771df83d98ebecf2059308d2727b4b1edd637dd6ddbc08ac264a55ab1e45f87beb26133da56a41fc564761352be43e633e41cd008"
+RPM_NAME = "libgnutls-dane0-3.8.1-1.1.aarch64.rpm"
+RPM_HASH = "5121e8942b37ba2fc7227e4aef6b74376313653473a2b67554e9f96f55bb6e4371bf22b7e644069dbff2eed2ebef9eabed6fd70da94b8954f91c8c905e8184af"
 
 RPROVIDES:${PN} += "libgnutls-dane.so.0 \
 libgnutls-dane0"

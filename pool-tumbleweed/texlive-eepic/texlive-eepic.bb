@@ -10,8 +10,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.209.1.1esvn15878"
 
-RPM_NAME = "texlive-eepic-2023.209.1.1esvn15878-54.1.noarch.rpm"
-RPM_HASH = "58ba096539574bbe0e292e96ca10e4107abf1e642b34ddf65a8f4bb9b99db0fdd34e56e08ffe7b1799ba2afbe51a2a910af2b00b3dc3c8e80bd434b9559cecc0"
+RPM_NAME = "texlive-eepic-2023.209.1.1esvn15878-54.2.noarch.rpm"
+RPM_HASH = "83d640eb4f0d1e4a3fe87f4277aca7d57d9cb6c69ae2c9245ad5f610a0baf54164be2f2d6ad1b2094149ac121fde1ad5db7c230db3066a816bda477e7bc8d4e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eepic.sty \

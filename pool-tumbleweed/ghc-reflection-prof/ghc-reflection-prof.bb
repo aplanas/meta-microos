@@ -4,13 +4,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.7"
 
-RPM_NAME = "ghc-reflection-prof-2.1.7-1.2.aarch64.rpm"
-RPM_HASH = "cd1f55a3629e98541ed0ae23456789fea105c4f74c277be67625a35b8e5a6249eb2f5f02350c1affa01a8e0d94de99f05df6bcaa8669c83bf0532c56fa62b89b"
+RPM_NAME = "ghc-reflection-prof-2.1.7-1.3.aarch64.rpm"
+RPM_HASH = "058f77a76232f39b341af33cd4d40b81a8fded7d37e51c6bd8dfb3e31c25b3c9d7998f34cd3d381ac865f0f3be9b3abacb87af90a8441b6f78abbd455886ee6c"
 
-RPROVIDES:${PN} += "ghc-prof-reflection-2.1.7-KcOWE7PS1mHy6gA2edHvV \
+RPROVIDES:${PN} += "ghc-prof-reflection-2.1.7-1WygFxHmxkcEQBv8T6gHut \
 ghc-reflection-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
 ghc-prof-template-haskell-2.19.0.0 \
 ghc-reflection-devel"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-vmware-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "9046c466af72c134f5d99b0b171a4f10a1f0354eed3dca7f747852423f0170913087ca4009235b6e9ee3b545e61b5e978bba9f474a9215f98809cc90a14a9c98"
+RPM_NAME = "pcp-pmda-vmware-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "b1c9327d0257143ebdc9b2b12010f60fcc6969265bc5bd24c8dbec7fc3d5dd34d5f5cbf9c8365b831aaef7384d1cbbaf355d9da4cadcd217a3a78ec27e65dc74"
 
 RPROVIDES:${PN} += "pcp-pmda-vmware"
 

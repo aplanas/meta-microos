@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.87"
 
-RPM_NAME = "perl-Spreadsheet-Read-scripts-0.87-1.2.noarch.rpm"
-RPM_HASH = "aa4be372194b589c0eb82f79ea5a6b9b28af4ab35ebf60ab9ee0b54e1c73f7f5eff5c38e38bba45ba4fb3716ecb5dd18d3d0c823555387650d3853ebf65a59ac"
+RPM_NAME = "perl-Spreadsheet-Read-scripts-0.87-1.3.noarch.rpm"
+RPM_HASH = "b1fc1d7fb366a988c3f89b6bda404c410fcac423516f1a8bbbadd13436d00f530c1b5907c8bef45c24ea28ad3b241ef24ff76cec53e1caf85db256aff1fda0bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Spreadsheet-Read-scripts"

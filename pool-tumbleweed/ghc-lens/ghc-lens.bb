@@ -86,62 +86,62 @@ LICENSE = "BSD-2-Clause"
 
 PV = "5.2.2"
 
-RPM_NAME = "ghc-lens-5.2.2-2.1.aarch64.rpm"
-RPM_HASH = "cb2864715d1cff16ec36fb3bc9b897d1df340d9273fe2b2bd5cafc8de543cac586d200afff4fa3c5f35ad6ecb52b9d10361f5f2d8b09a2bfb1d652ff7e5ff6aa"
+RPM_NAME = "ghc-lens-5.2.2-2.4.aarch64.rpm"
+RPM_HASH = "986c8e8b75523418ecae59691a8a11face18ffa7926966f3d8955a391d2f2a391fbc96ac15956c071a6faccd857601864bf7d210e6aa4606a0b2e950c1988f95"
 
 RPROVIDES:${PN} += "ghc-lens \
-libHSlens-5.2.2-1olZqltPpYqDYPXthdjXjf-ghc9.4.5.so"
+libHSlens-5.2.2-9FQiMfULngUCqLz60VkKPe-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV-ghc9.4.5.so \
-libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so \
-libHSadjunctions-4.4.2-7RBwcclil4HKBSm6i086HA-ghc9.4.5.so \
-libHSarray-0.5.4.0-ghc9.4.5.so \
-libHSassoc-1.1-H3gdf0Ue1d5sn9822dJ4G-ghc9.4.5.so \
-libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSbase-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8-ghc9.4.5.so \
-libHSbifunctors-5.5.15-7mn3oj93MLM2f6K5DVlnRL-ghc9.4.5.so \
-libHSbinary-0.8.9.1-ghc9.4.5.so \
-libHSbytestring-0.11.4.0-ghc9.4.5.so \
-libHScall-stack-0.4.0-K9VxYWjBEvtITBfD6bL7Dk-ghc9.4.5.so \
-libHScomonad-5.0.8-9UnH7KDg5138z3eBCPM7y4-ghc9.4.5.so \
-libHScontainers-0.6.7-ghc9.4.5.so \
-libHScontravariant-1.5.5-K71YSUvfKnA5wfNaE05Lao-ghc9.4.5.so \
-libHSdeepseq-1.4.8.0-ghc9.4.5.so \
-libHSdistributive-0.6.2.1-GisXwtVaDTaDcC79Nunm79-ghc9.4.5.so \
-libHSexceptions-0.10.5-ghc9.4.5.so \
-libHSfilepath-1.4.2.2-ghc9.4.5.so \
-libHSfoldable1-classes-compat-0.1-JP9wXcYYGsT10VsvIV9rpl-ghc9.4.5.so \
-libHSfree-5.1.10-7AdTZukDGhL7qWMpdopXbC-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-boot-th-9.4.5-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
-libHShashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt-ghc9.4.5.so \
-libHSindexed-traversable-0.1.2.1-1XiSi5jKFt6BqKufaNXxBs-ghc9.4.5.so \
-libHSindexed-traversable-instances-0.1.1.2-5OovVMCdJKzAImUo6B0vBJ-ghc9.4.5.so \
-libHSinvariant-0.6.1-B19sct74tP6Cqvpbmm6WZv-ghc9.4.5.so \
-libHSkan-extensions-5.2.5-1nBOp7PexbvGHkzwfeC2dO-ghc9.4.5.so \
-libHSmtl-2.2.2-ghc9.4.5.so \
-libHSparallel-3.2.2.0-36KAHtmQlbB59K6tPbQ0Jr-ghc9.4.5.so \
-libHSpretty-1.1.3.6-ghc9.4.5.so \
-libHSprimitive-0.7.4.0-AeB0oysC3TAJw9tDpuX8hq-ghc9.4.5.so \
-libHSprofunctors-5.6.2-BxPEMLImcM1AGaSfWljpGV-ghc9.4.5.so \
-libHSreflection-2.1.7-KcOWE7PS1mHy6gA2edHvV-ghc9.4.5.so \
-libHSsemigroupoids-5.3.7-Ju2oK8NLhZKHdQ6h8GWNM1-ghc9.4.5.so \
-libHSsemigroups-0.20-KtsaS4jNcGkoC9puVZ6vB-ghc9.4.5.so \
-libHSstm-2.5.1.0-ghc9.4.5.so \
-libHSstrict-0.5-BMGWBclA5sg312fCUlbuTw-ghc9.4.5.so \
-libHStagged-0.8.7-CYOhX22Df3PFW5V1S0dOJa-ghc9.4.5.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
-libHStext-2.0.2-ghc9.4.5.so \
-libHSth-abstraction-0.4.5.0-8bY5lBPMorfFW3yG6gFNZT-ghc9.4.5.so \
-libHSthese-1.2-3gvRWs9hjHpLbWG1JfTveA-ghc9.4.5.so \
-libHStransformers-0.5.6.2-ghc9.4.5.so \
-libHStransformers-base-0.4.6-AlF1op8b8qY6wTtsY0MGEp-ghc9.4.5.so \
-libHStransformers-compat-0.7.2-7jAnhjvxTABIymoNGHTOwd-ghc9.4.5.so \
-libHSunordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E-ghc9.4.5.so \
-libHSvector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp-ghc9.4.5.so \
-libHSvector-stream-0.1.0.0-C5Yyq3DPEhXAQSqkM8V92s-ghc9.4.5.so \
-libHSvoid-0.7.3-GHzyjd8VkpoJvEZLjo6Bsz-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-5m1ALA0bqJEAQoyOrWBAgI-ghc9.4.6.so \
+libHSStateVar-1.2.2-8Hv9klK7mv0HId52XsoM7J-ghc9.4.6.so \
+libHSadjunctions-4.4.2-BjNTDSboJHWDpWX9BvuZL3-ghc9.4.6.so \
+libHSarray-0.5.4.0-ghc9.4.6.so \
+libHSassoc-1.1-J44kuPbAMT5GyespKCFdbT-ghc9.4.6.so \
+libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSbase-orphans-0.8.8.2-Ace67bhQsJ1lQVihVIKZ5-ghc9.4.6.so \
+libHSbifunctors-5.5.15-KUw4gCd9iBfLph9IFStYJY-ghc9.4.6.so \
+libHSbinary-0.8.9.1-ghc9.4.6.so \
+libHSbytestring-0.11.5.1-ghc9.4.6.so \
+libHScall-stack-0.4.0-nQZfFxinEdIa1BWxMyadt-ghc9.4.6.so \
+libHScomonad-5.0.8-56nFbOwllOwBl7FMfSy83E-ghc9.4.6.so \
+libHScontainers-0.6.7-ghc9.4.6.so \
+libHScontravariant-1.5.5-35YFLB0uIuz5cknUjKLNnT-ghc9.4.6.so \
+libHSdeepseq-1.4.8.0-ghc9.4.6.so \
+libHSdistributive-0.6.2.1-7gHlNDSCz3vFkde299iroS-ghc9.4.6.so \
+libHSexceptions-0.10.5-ghc9.4.6.so \
+libHSfilepath-1.4.2.2-ghc9.4.6.so \
+libHSfoldable1-classes-compat-0.1-HnLXxvPXYXbHggM07qAxsy-ghc9.4.6.so \
+libHSfree-5.1.10-8DOWW3JiZaX7obxPZwBWX0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-boot-th-9.4.6-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
+libHShashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP-ghc9.4.6.so \
+libHSindexed-traversable-0.1.2.1-4MWkBnFErvq3PVvZRvlACO-ghc9.4.6.so \
+libHSindexed-traversable-instances-0.1.1.2-4xmEkkFhOqh6ApH5IPswPQ-ghc9.4.6.so \
+libHSinvariant-0.6.2-1eF4QVqz69AFovgmNz4wk7-ghc9.4.6.so \
+libHSkan-extensions-5.2.5-8EOcrvzPSBS2QFPhIHEfWy-ghc9.4.6.so \
+libHSmtl-2.2.2-ghc9.4.6.so \
+libHSparallel-3.2.2.0-4HmomK1BnRHCRUDqhNxOgQ-ghc9.4.6.so \
+libHSpretty-1.1.3.6-ghc9.4.6.so \
+libHSprimitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx-ghc9.4.6.so \
+libHSprofunctors-5.6.2-GfNUFxHNpLn859duquR0iv-ghc9.4.6.so \
+libHSreflection-2.1.7-1WygFxHmxkcEQBv8T6gHut-ghc9.4.6.so \
+libHSsemigroupoids-5.3.7-H606qAbQOgNCZ5aAzkCf0g-ghc9.4.6.so \
+libHSsemigroups-0.20-6lktLD0mxwZ1Pjuc7q3dSl-ghc9.4.6.so \
+libHSstm-2.5.1.0-ghc9.4.6.so \
+libHSstrict-0.5-430Uicv2DUP1jZqwf2ycOP-ghc9.4.6.so \
+libHStagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax-ghc9.4.6.so \
+libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
+libHStext-2.0.2-ghc9.4.6.so \
+libHSth-abstraction-0.4.5.0-CynkUuS8OuAKbGjDnje1Fs-ghc9.4.6.so \
+libHSthese-1.2-5fSFdT8DGhg7GQONqvd4MR-ghc9.4.6.so \
+libHStransformers-0.5.6.2-ghc9.4.6.so \
+libHStransformers-base-0.4.6-FmWhyTNhU3u3qYTd28DG44-ghc9.4.6.so \
+libHStransformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM-ghc9.4.6.so \
+libHSunordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn-ghc9.4.6.so \
+libHSvector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku-ghc9.4.6.so \
+libHSvector-stream-0.1.0.0-8LsAqgetBjY3tBdh3HDYEB-ghc9.4.6.so \
+libHSvoid-0.7.3-GhXmDKlBHl0LbXoxVMxAU0-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

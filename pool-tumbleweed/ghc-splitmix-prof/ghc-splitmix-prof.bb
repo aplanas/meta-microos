@@ -4,13 +4,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0.4"
 
-RPM_NAME = "ghc-splitmix-prof-0.1.0.4-4.6.aarch64.rpm"
-RPM_HASH = "9519d0596e581e87267298dcaae54bbf950c385c754205c7885be025c2279f18517f79f5550644ce15f54fef900cedffbb9edf85d0d8558c6483648de52cc7b8"
+RPM_NAME = "ghc-splitmix-prof-0.1.0.4-4.8.aarch64.rpm"
+RPM_HASH = "f1a7052fc061b180fa334ea253e3bfe09300140164716c83a035d5e42feabfac4cbee860aed1f911813f7cb73b812047b07ccce1c5fa0ca05db7bcfd5572ba16"
 
-RPROVIDES:${PN} += "ghc-prof-splitmix-0.1.0.4-7e8CibdlMRLAGh7KO5VlFe \
+RPROVIDES:${PN} += "ghc-prof-splitmix-0.1.0.4-2jzLu9hw0mWH5mdbN14y0O \
 ghc-splitmix-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
 ghc-prof-deepseq-1.4.8.0 \
 ghc-splitmix-devel"
 

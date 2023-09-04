@@ -9,10 +9,10 @@ This package contains the library that provides access to the binary output \
 files that scamper can produce in certain modes."
 LICENSE = "GPL-2.0-only"
 
-PV = "20230605"
+PV = "20230614b"
 
-RPM_NAME = "libscamperfile6-20230605-1.1.aarch64.rpm"
-RPM_HASH = "b76309c2efba6190dbcc200545d069b99c564a2b187466b96fff5b109759a15a44fc193545470321f0cac2c09b788f59a04e18a9406c720891bcda960eab9f30"
+RPM_NAME = "libscamperfile6-20230614b-1.1.aarch64.rpm"
+RPM_HASH = "f781306e427758d8c6c5e46dba856ac0c8b5a32ed9211f9c22c701c1c12f71971482fa09810e582ef088f355e2474a3694854663c7764f91280565e270749ed4"
 
 RPROVIDES:${PN} += "libscamperfile.so.6 \
 libscamperfile6"

@@ -4,8 +4,8 @@ LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "23.02.2"
 
-RPM_NAME = "slurm-openlava-23.02.2-1.3.noarch.rpm"
-RPM_HASH = "0d6f30c2d18c82afc5ef5cda194495a1b16a23af70d421cd93e9db5996b1eed0f6a218a18d702fc1cd0d20af0fc931df6ffc00922b76cbaa45200fd97197c12c"
+RPM_NAME = "slurm-openlava-23.02.2-1.4.noarch.rpm"
+RPM_HASH = "22c7cb8a1b208af370ee47e5d587e4ca165f9c1cd606aa3e53af98f70bf841d8a7b85dd2b63b1380a4ca503a36d3f17a1a47c715c578f7185b98eabeb524c7d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "slurm-openlava"

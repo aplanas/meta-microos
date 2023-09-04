@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.36.1"
 
-RPM_NAME = "busybox-tftp-1.36.1-27.1.noarch.rpm"
-RPM_HASH = "29f40a038c487f54fbf5db91b01262d6d4ca8bd628784f78202b775bf7d74ed7c9345ef82b5c589b19016cb09e6bb91ffa982d4a5a5c7343aee49ee09bbb4b3e"
+RPM_NAME = "busybox-tftp-1.36.1-28.1.noarch.rpm"
+RPM_HASH = "76e9a906e25ad271a9e79982acd6eaf31a93aa6f6859c96b192216d7cb69f32ec7e684dfe0d8432d53041b5c63da7772fd7f984e20a74e88f805dc07d605ae9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-tftp"

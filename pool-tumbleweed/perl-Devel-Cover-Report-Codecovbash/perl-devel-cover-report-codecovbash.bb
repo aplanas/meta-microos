@@ -13,14 +13,14 @@ LICENSE = "MIT"
 
 PV = "0.04"
 
-RPM_NAME = "perl-Devel-Cover-Report-Codecovbash-0.04-1.10.noarch.rpm"
-RPM_HASH = "4d3904635217ab12f622959a80942ad490eb1a9251ff841025dc758f19962ba199fd39d806c1568fd6eb79cea4e9337375340a083c6961f213a331ccc92993cf"
+RPM_NAME = "perl-Devel-Cover-Report-Codecovbash-0.04-1.11.noarch.rpm"
+RPM_HASH = "fcbab7d230681e76b8cf80fd5d0f456795be4eca609fcda294c71f3129238956beb8bafafc39006b03a885a54f8f46775995816918ed417fe32f798839193648"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--Cover--Report--Codecovbash \
 perl-Devel-Cover-Report-Codecovbash"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-JSON--MaybeXS \
 perl-namespace--autoclean"
 

@@ -13,8 +13,8 @@ LICENSE = "PostgreSQL"
 
 PV = "1.7.0"
 
-RPM_NAME = "postgresql15-pgaudit-1.7.0-4.2.aarch64.rpm"
-RPM_HASH = "ac921a2f2ab0717e2bf246207a9eff6ce22b6f6ae24b04a4c31d7794478d4e9d681949ec7bf2ad29e1089414c0bbaa50be2a04ce41192663bf10bf6aad515ee5"
+RPM_NAME = "postgresql15-pgaudit-1.7.0-4.3.aarch64.rpm"
+RPM_HASH = "0e02650791b14dbde16bf6b7c2e320949847c6d728d28384ed7a7f518b9221eab78792d58818f440dedc755e9a9cad91f0ade4c23037093936324befbab8d613"
 
 RPROVIDES:${PN} += "postgresql15-pgaudit \
 postgresql15-pgaudit-llvmjit"

@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0"
 
-RPM_NAME = "ghc-dlist-devel-1.0-3.2.aarch64.rpm"
-RPM_HASH = "2ef0e245fcfecf6894313bcd32f85c9280b6b8b58a1fef4213f642d162fe515ea3dc401f6171c93f959bf57763743dedc856f56b11fb8b810307db43de1fe493"
+RPM_NAME = "ghc-dlist-devel-1.0-3.3.aarch64.rpm"
+RPM_HASH = "70e2fb8814fc34c010a0df386cd34d8467017fb37ecd6b3af34ecd41f20d3ecbe53d3c6867fd997fea0f2ee65aa74caa9f1571ab6d97bfb95bfae3a0291f5ba2"
 
-RPROVIDES:${PN} += "ghc-devel-dlist-1.0-BmTLN13CmmLQvuHz7BjP9 \
+RPROVIDES:${PN} += "ghc-devel-dlist-1.0-9arrzQ6gBJAKO2k1FjXdTZ \
 ghc-dlist-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-deepseq-1.4.8.0 \
 ghc-dlist"
 

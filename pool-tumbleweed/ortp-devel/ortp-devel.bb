@@ -5,10 +5,10 @@ This package contains header files and development libraries needed to \
 develop programs using the oRTP library."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "5.2.73"
+PV = "5.2.98"
 
-RPM_NAME = "ortp-devel-5.2.73-1.1.aarch64.rpm"
-RPM_HASH = "6a4052ed53c764d94b150e6c4275c591f4bb8337584ee67357076b4bd594a3869b8bd39aa2dc781ed67504af5d96870610b6e8b4481a8ff0e932a960ff2e214d"
+RPM_NAME = "ortp-devel-5.2.98-1.1.aarch64.rpm"
+RPM_HASH = "78d20e968e28785e090355bdb081a526171d7767340039c9ffdd056888f7d568251db648f36559939a6781ed604dfec111f1e69eda035ca55adf3716d29f27aa"
 
 RPROVIDES:${PN} += "cmake-ortp \
 libortp-devel \

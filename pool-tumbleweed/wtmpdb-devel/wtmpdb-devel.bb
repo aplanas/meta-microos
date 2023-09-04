@@ -4,10 +4,10 @@ needed to develop applications that needs to read, write or modify \
 the wtmpdb database."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.7.1"
+PV = "0.9.1"
 
-RPM_NAME = "wtmpdb-devel-0.7.1-1.1.aarch64.rpm"
-RPM_HASH = "ba704e8178f7b89f049e1ce3894b6b61c8b2976f93d3e3766b09b2180e99720ba081e1bc7d4106dafee85f86cbc3315c0099470d759ca24d34028200b59c4c9d"
+RPM_NAME = "wtmpdb-devel-0.9.1-1.1.aarch64.rpm"
+RPM_HASH = "a02a7a5669ab86823d035292be15ca4479c1612ecc949c34bc6f1eae56e8b3400d4cc4f8fc34b564bc615426dda3c629865679572202a4981e8e648138c02b7e"
 
 RPROVIDES:${PN} += "pkgconfig-libwtmpdb \
 wtmpdb-devel"

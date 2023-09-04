@@ -2,10 +2,10 @@ SUMMARY = "Build cross platform desktop apps with JavaScript, HTML, and CSS"
 DESCRIPTION = "Nodejs application: Build cross platform desktop apps with JavaScript, HTML, and CSS"
 LICENSE = "AFL-2.0 & Apache-2.0 & blessing & BSD-2-Clause & BSD-3-Clause & BSD-Protection & BSD-Source-Code & bzip2-1.0.6 & IJG & ISC & LGPL-2.0-or-later & LGPL-2.1-or-later & MIT & MIT-CMU & MIT-open-group & (MPL-1.1 | GPL-2.0-or-later | LGPL-2.1-or-later) & MPL-2.0 & OpenSSL & SGI-B-2.0 & SUSE-Public-Domain & X11"
 
-PV = "22.3.17"
+PV = "22.3.21"
 
-RPM_NAME = "nodejs-electron-22.3.17-2.1.aarch64.rpm"
-RPM_HASH = "c1d7dc86e868d81a39af465dbfce01d66232bb96d5bbcd2ae3e9ff386754a08065a906d1cbc79ca047b5231edaa7f18d9211f9aef6893bf9099cb9ec72307e84"
+RPM_NAME = "nodejs-electron-22.3.21-1.1.aarch64.rpm"
+RPM_HASH = "4a12abf9fba41f0ab9cace04149e505e47753e7c375659946746da62c8f257d0476fd8231dbdb37603b93e52b0185abec99e361c78e7411bc8c1fb538b07c88a"
 
 RPROVIDES:${PN} += "electron \
 electron-abi \
@@ -90,6 +90,7 @@ libre2.so.11 \
 libsmime3.so \
 libsnappy.so.1 \
 libstdc++.so.6 \
+libvpx.so.8 \
 libvulkan.so.1 \
 libwayland-client.so.0 \
 libwebp.so.7 \

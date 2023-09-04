@@ -13,8 +13,8 @@ LICENSE = "GFDL-1.2-only & GPL-3.0-or-later"
 
 PV = "8.0.3"
 
-RPM_NAME = "crash-8.0.3-1.13.aarch64.rpm"
-RPM_HASH = "dd6fef387b0d02829ea31f0e5d6e94c161f2d10929e0faa24c2ca71ce65759b338f7a3b4d4d7aeadf3773a2507ceaec34d07f5509c39e9ab72cc0047e7d72f82"
+RPM_NAME = "crash-8.0.3-2.2.aarch64.rpm"
+RPM_HASH = "530d6caf2ab3c7744f4fdac1cbdcdd494375f3edbc4ef10150f614296a3e87b65926225ca9a9df1723e7eb1163dd9eb2973bf217d45a060ef126282155882219"
 
 RPROVIDES:${PN} += "crash"
 

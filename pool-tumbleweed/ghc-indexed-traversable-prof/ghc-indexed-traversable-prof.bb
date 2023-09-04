@@ -4,15 +4,15 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.1.2.1"
 
-RPM_NAME = "ghc-indexed-traversable-prof-0.1.2.1-1.2.aarch64.rpm"
-RPM_HASH = "b870f93e7b41bb15b0767c73a4b0258acc72164dbac7dd675a50657f1945a072bf3458ef647bcc3f2f5563212064e065725940daa47cbf14ee0c77387fb9c89c"
+RPM_NAME = "ghc-indexed-traversable-prof-0.1.2.1-1.3.aarch64.rpm"
+RPM_HASH = "75aa97accb2369cb5dbceb3af60af0e0478414aa7824f10fcd2a7968be54d6085f99febda708e7434898e975006a15753074221c87ff9cfba5db034f7379e39b"
 
 RPROVIDES:${PN} += "ghc-indexed-traversable-prof \
-ghc-prof-indexed-traversable-0.1.2.1-1XiSi5jKFt6BqKufaNXxBs"
+ghc-prof-indexed-traversable-0.1.2.1-4MWkBnFErvq3PVvZRvlACO"
 
 RDEPENDS:${PN} += "ghc-indexed-traversable-devel \
 ghc-prof-array-0.5.4.0 \
-ghc-prof-base-4.17.1.0 \
+ghc-prof-base-4.17.2.0 \
 ghc-prof-containers-0.6.7 \
 ghc-prof-transformers-0.5.6.2"
 

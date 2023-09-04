@@ -15,14 +15,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.63"
 
-RPM_NAME = "perl-Variable-Magic-0.63-1.3.aarch64.rpm"
-RPM_HASH = "15b7fcdcc6abb8e881fea1fd97f565151281ffee76c261e3e71a94ea5812082121c1da27ffc076f1009a3de0af3462b04eb55f10409c29aa897c94f51e0385bf"
+RPM_NAME = "perl-Variable-Magic-0.63-1.4.aarch64.rpm"
+RPM_HASH = "8b4a4d1a26e587eb2f6b40979f42d050f2b38d4bdc42b63eff185358b10f475acc0906ad1ad5f7a9504ba97cda95c546ad2720e59a378c63a0ca83912db6b44f"
 
 RPROVIDES:${PN} += "perl-Variable--Magic \
 perl-Variable-Magic"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

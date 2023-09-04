@@ -36,14 +36,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.202"
 
-RPM_NAME = "perl-PerlX-Maybe-1.202-1.8.noarch.rpm"
-RPM_HASH = "a513ac692be0be57b70a7c9e4256e8d32ee02741d2477cf5ccb72a894ef4d3b0f55efdd5f8e9b90aec60d9ae6ae9aa8fc5ef185aa8c54fce846a2c8ddf7dd30b"
+RPM_NAME = "perl-PerlX-Maybe-1.202-1.9.noarch.rpm"
+RPM_HASH = "86d3237e55b706cff0159a5defc3a19164fcd7eed58e1e11e76041377ce9c11a187893db9b895817f31663f2c183b66dfcb0c9e32dacdee177f9544b9d7297d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-PerlX--Maybe \
 perl-PerlX-Maybe \
 perl-Syntax--Feature--Maybe"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

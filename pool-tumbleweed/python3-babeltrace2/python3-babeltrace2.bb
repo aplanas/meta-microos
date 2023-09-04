@@ -4,12 +4,12 @@ trace converter. A plugin can be created for any trace format to \
 allow its conversion to/from another trace format. \
  \
 Python Bindings for the babeltrace2 package."
-LICENSE = "MIT & GPL-2.0-only"
+LICENSE = "GPL-2.0-only & MIT"
 
-PV = "2.0.4"
+PV = "2.0.5"
 
-RPM_NAME = "python3-babeltrace2-2.0.4-1.11.aarch64.rpm"
-RPM_HASH = "f47b02d93f4a752dd17419bff569cd685c3c0d2133444e256ed9054761e4d37e28d3b2ba68a996a80e40d33f12d1d885008b463fcdbddbee3329fdbd18db51f0"
+RPM_NAME = "python3-babeltrace2-2.0.5-1.1.aarch64.rpm"
+RPM_HASH = "5392cded0e9f202e9cea89e2bcbc41f9df5688dfe09bab6d2a54b5c3d076931a4b023f2697fd0304c27e17756cce16ca5d6c1d6072f78c75751a3063b0673ee6"
 
 RPROVIDES:${PN} += "python3-babeltrace2 \
 python3.11dist-bt2 \

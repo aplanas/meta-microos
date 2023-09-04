@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.12.0"
 
-RPM_NAME = "ghc-hadolint-doc-2.12.0-1.9.noarch.rpm"
-RPM_HASH = "c99dfecc17121ffb1c88efba9430fe084bccc6f81013286650169b1cfa710749261f36d47163dc3ad9a47984fa2978add7020ef2b9ee4f239824096dbf910514"
+RPM_NAME = "ghc-hadolint-doc-2.12.0-1.14.noarch.rpm"
+RPM_HASH = "3faa80e4fcd6def002f21899c9835de402be31cfdebd398a1ca9d43e46c87101f772d07f6f9477e2ee01dbd1d62eb9a8d876d89252aeae546385f43b6171902a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-hadolint-doc"

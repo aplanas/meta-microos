@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.63"
 
-RPM_NAME = "perl-Scalar-List-Utils-1.63-1.4.aarch64.rpm"
-RPM_HASH = "347d8a9c34050ef5fdaffd40945fc4558b9ce84a3d36590ec106716b5039930b65c5ea7c28e70fdc59d9be4448dd725102321f529c2609262e0a8e0c66c7c83c"
+RPM_NAME = "perl-Scalar-List-Utils-1.63-1.5.aarch64.rpm"
+RPM_HASH = "7a94db84ef7a2b686646be7c0c54684dac2bbc7074b803b7deadbd1660d97334b3932fcfe5914ded73a54c4b63d75988ade6375954a5cce3024f0c391093cd0a"
 
 RPROVIDES:${PN} += "perl-List--Util \
 perl-List--Util--XS \
@@ -15,6 +15,6 @@ perl-Sub--Util"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

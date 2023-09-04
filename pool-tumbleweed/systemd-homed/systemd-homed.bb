@@ -18,10 +18,10 @@ needs to be added manually into /etc/nsswitch.conf, see nss-systemd(8) man page 
 for an example on how to do that."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "253.7"
+PV = "253.8"
 
-RPM_NAME = "systemd-homed-253.7-2.1.aarch64.rpm"
-RPM_HASH = "aa99f6cc996b5187aa3188ac77231440a6a8522cf8426c71de70ef1fef38af30b6466cbdea4350529155cd540d6db73a65004d6d283cb3ed74131201ce886ab1"
+RPM_NAME = "systemd-homed-253.8-1.2.aarch64.rpm"
+RPM_HASH = "e49c424af7adf8b4a1a2dd447155e693eb4836e133cd9de753c9001e6fa7e619279145a8dd79af019932c73d9b39bd8c3e27ffadf7efa74270083fe6bccd3974"
 
 RPROVIDES:${PN} += "config-systemd-homed \
 systemd-homed"

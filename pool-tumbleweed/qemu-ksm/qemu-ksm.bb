@@ -5,10 +5,10 @@ merges anonymous (private) pages (not pagecache ones). \
 This package provides a service file for starting and stopping KSM."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.3"
+PV = "8.0.4"
 
-RPM_NAME = "qemu-ksm-8.0.3-2.1.aarch64.rpm"
-RPM_HASH = "a55d812c4014adb178274efc9d63e1e6ffe46d621236f635dfea692fd9a314f1ea7c75f9d9d4c1f80a9bff83e2a0bc7ea9c79541e40078d262f76d80950ce4b0"
+RPM_NAME = "qemu-ksm-8.0.4-1.1.aarch64.rpm"
+RPM_HASH = "01e12d6804fa17f9407094df2f0948e924eb669e6942ea82543cba582f842bca7367561bac23d4f0c4938e677d09c4f5e908efd2db59e0957a543c2640303014"
 
 RPROVIDES:${PN} += "qemu-ksm"
 

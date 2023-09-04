@@ -32,8 +32,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "7.70"
 
-RPM_NAME = "perl-ExtUtils-MakeMaker-7.70-1.2.noarch.rpm"
-RPM_HASH = "7490103ab2154e5ddb031e03217d2c7c9ce1162580a71cde0a9e6ee55acf75514f1d9e6fa931532246b653cc748985af2a24b420ee9283e4ede86e5d3a8ea9b8"
+RPM_NAME = "perl-ExtUtils-MakeMaker-7.70-1.3.noarch.rpm"
+RPM_HASH = "2f6b1cb2e70ac00856da2d62657bb439ed7da5a084ce02da54c04e1fec0ba89973c6f9e07479c08492d38bbcc15f892a45fa27c03bcea82cc0f86baf172c668e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DynaLoader \
@@ -75,6 +75,6 @@ perl-ExtUtils-MakeMaker \
 perl-MM \
 perl-MY"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

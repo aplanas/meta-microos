@@ -2,10 +2,10 @@ SUMMARY = "Document Object Model extension for PHP"
 DESCRIPTION = "This module adds Document Object Model (DOM) support."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.8"
+PV = "8.2.9"
 
-RPM_NAME = "php8-dom-8.2.8-1.1.aarch64.rpm"
-RPM_HASH = "079313d3e8b043db98ce48fea182472f29b0401145eec7ad93fa5a563c0f948139f89b9942a16ae194795e2483d6819e2b0db757c6be025ac489395f9c9b7b25"
+RPM_NAME = "php8-dom-8.2.9-1.1.aarch64.rpm"
+RPM_HASH = "ebdd430277207cf2acb4d7a17884c8827049ce62ca4d052121596fd7fe6913ed76d0ec6d25ca5860df573497d506e1b3a7e8379b436add2d8099338b6b0e18af"
 
 RPROVIDES:${PN} += "config-php8-dom \
 php-dom \

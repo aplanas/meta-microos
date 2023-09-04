@@ -3,10 +3,10 @@ DESCRIPTION = "SubNetCalc is an IPv4/IPv6 subnet address calculator. \
 This packages provides documentation and help files for subnetcalc."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.4.21"
+PV = "2.4.22"
 
-RPM_NAME = "subnetcalc-doc-2.4.21-1.3.noarch.rpm"
-RPM_HASH = "d91596f4bbbbe9d50767387909449991f924c05ec79ce66f1d64b7ce88b9d7fbd7cd295c017d89dbd6febd6bb516f8e4f26575e442f8135eed8648a3b54ae930"
+RPM_NAME = "subnetcalc-doc-2.4.22-1.1.noarch.rpm"
+RPM_HASH = "12944fecd12f78aedf06216dca1d6cb3452ddd0b001dabe701674c5183891d9124496ccbc58d6bd891995421795eecee6991191cd1aa00382325cd67908dd617"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "subnetcalc-doc"

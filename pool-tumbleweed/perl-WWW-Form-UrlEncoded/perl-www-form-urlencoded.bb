@@ -9,13 +9,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.26"
 
-RPM_NAME = "perl-WWW-Form-UrlEncoded-0.26-1.13.aarch64.rpm"
-RPM_HASH = "54467d6bb547a79e42d7bed494ce02f10ecdc72077a2262b09da2f3ef668758ef26fb311282a8db07132bdd1879f6d81871988fe458eb68505264d02ce33b9c7"
+RPM_NAME = "perl-WWW-Form-UrlEncoded-0.26-1.14.aarch64.rpm"
+RPM_HASH = "532005302c04aed3dd8a09d849ecd09bea7c0a972e2abafc1ff54d548624dba2478ca894b667d22252f9c60eaf901326d2447dc2302033b91bdb7a3de26e459a"
 
 RPROVIDES:${PN} += "perl-WWW--Form--UrlEncoded \
 perl-WWW--Form--UrlEncoded--PP \
 perl-WWW-Form-UrlEncoded"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

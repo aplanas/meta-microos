@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.2csvn15878"
 
-RPM_NAME = "texlive-rccol-2023.209.1.2csvn15878-54.1.noarch.rpm"
-RPM_HASH = "a2f0996568045314b4c1fcb5da6c4c3e56a7fbcfd7425aca5b3776f2a94ab042b15f8e36b34bf6a9d2086df584b4ebe2273e78b6b88a353c809c1163a970df21"
+RPM_NAME = "texlive-rccol-2023.209.1.2csvn15878-54.2.noarch.rpm"
+RPM_HASH = "512e25ed4d9cbd1077d79818ce99876096101d28da3664f21edbdcbe9f8c0fbab5d0ea894cbcd1e953d563f17b1a0eec4e00a7f67a57b2285a1f49277bc8b0f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rccol.sty \

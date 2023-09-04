@@ -52,8 +52,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.40068"
 
-RPM_NAME = "perl-HTML-FormHandler-0.40068-1.21.noarch.rpm"
-RPM_HASH = "be18ba552a3e3ed4c37faf1314dc180dd01ac742ed86c1814f3042e623272ff4c37aac304395a2968a4b4eaea3ad218003a23bde8efe5c9095cb333a48c7dce0"
+RPM_NAME = "perl-HTML-FormHandler-0.40068-1.22.noarch.rpm"
+RPM_HASH = "8e2d0a7848430617e414f2e3ba9bbb7de14bedb54534d7eda05701d7a481e3b8d43e94a1a6aa99b6518e268e53b7431e237b4c16a15bcc162c1ccb97b0457a71"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTML--FormHandler \
@@ -193,7 +193,7 @@ perl-HTML--FormHandler--Widget--Wrapper--TableInline \
 perl-HTML--FormHandler--Wizard \
 perl-HTML-FormHandler"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Class--Load \
 perl-Crypt--Blowfish \
 perl-Crypt--CBC \

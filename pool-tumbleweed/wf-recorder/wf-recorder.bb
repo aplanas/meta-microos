@@ -3,10 +3,10 @@ DESCRIPTION = "Utility program for screen recording of wlroots-based compositors
 (more specifically, those that support wlr-screencopy-v1 and xdg-output)."
 LICENSE = "MIT"
 
-PV = "0.3.0+git19"
+PV = "0.4.0+git0"
 
-RPM_NAME = "wf-recorder-0.3.0+git19-1.6.aarch64.rpm"
-RPM_HASH = "597cf8b531ad4a1a6f5c30cf54ac62c4a589009844961a81dd34fbbfb0868fb0aaeea47c523b5a09e3f0ecd4d0d4b63d35b30a5918fba8718707ab9b91598dd4"
+RPM_NAME = "wf-recorder-0.4.0+git0-1.1.aarch64.rpm"
+RPM_HASH = "8862fa570e03dcda45ece217895cba7804de8feb9bd828dfbec768128980e018071db94eedd63446d94479afb0e22d36125a349c8d6947613b21a257c8f5ab78"
 
 RPROVIDES:${PN} += "wf-recorder"
 
@@ -17,6 +17,7 @@ libavfilter.so.9 \
 libavformat.so.60 \
 libavutil.so.58 \
 libc.so.6 \
+libgbm.so.1 \
 libgcc-s.so.1 \
 libpulse-simple.so.0 \
 libpulse.so.0 \

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "lua-rrdtool-1.8.0-3.4.aarch64.rpm"
-RPM_HASH = "54cbfa1bd50950d4122a0bdade1b0b55ad7f44cbbaf3d4547d16aa7fad2f158dcf18d92f69707218e5616097bda70636e6e169ff998086a3b7b4f0432114e6cc"
+RPM_NAME = "lua-rrdtool-1.8.0-3.5.aarch64.rpm"
+RPM_HASH = "87db99427d79b2860e62b8e5ba5b0d99fa94adcfe1d8f5de086d03eee1b58787d2a17cf2e0baafa7644704ecfd6e644bf750eeb57bbb3adbe46e6fb3c6dc8b4e"
 
 RPROVIDES:${PN} += "lua-rrdtool"
 

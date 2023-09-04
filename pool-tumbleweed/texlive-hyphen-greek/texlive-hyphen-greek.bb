@@ -5,10 +5,10 @@ UTF-8 use two code positions for each of the vowels with acute \
 accent (a.k.a tonos, oxia), e.g., U+03AC, U+1F71 for alpha."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.5svn58652"
+PV = "2023.209.5svn58652"
 
-RPM_NAME = "texlive-hyphen-greek-2023.208.5svn58652-53.1.noarch.rpm"
-RPM_HASH = "bfce226a9bb70e431b8cd7df24e273114c70d90caab6aed0438bc9b3f352c5af23d436e12be2202d82a0e66839c2f04dfd20a530065636ebdfecc72dd97af8e6"
+RPM_NAME = "texlive-hyphen-greek-2023.209.5svn58652-54.1.noarch.rpm"
+RPM_HASH = "1e1a3105c6e1c6ff74453707a54f9700732a73c9402ab2c93bf969e24b30d966bbf34c903c5b599c068b046f5cea13eb12e8f60cf3824905338d2caff422f9fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-grmhyph5.tex \

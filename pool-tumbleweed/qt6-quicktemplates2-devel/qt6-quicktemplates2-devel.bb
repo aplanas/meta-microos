@@ -1,11 +1,11 @@
 SUMMARY = "Qt6 QuickTemplates2 library - Development files"
 DESCRIPTION = "Development files for the Qt 6 QuickTemplates2 library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "qt6-quicktemplates2-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "64597da7c38a0ecd66342837378ed08e39b5406b8e2ac44a496b04a4091ce3f83222fb496cd7eb079a74dadf462b9865801136d9504f17f15d83227b4d4435f1"
+RPM_NAME = "qt6-quicktemplates2-devel-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "e379259b3e06cb7c74fa5e605fff566b000ff4b1f6abe57a84eba89d17e2b66547fc00ca813617bfbe69531b94d864314a8eb174e3eb9f2faf811778097c8b13"
 
 RPROVIDES:${PN} += "cmake-Qt6QuickTemplates2 \
 pkgconfig-Qt6QuickTemplates2 \

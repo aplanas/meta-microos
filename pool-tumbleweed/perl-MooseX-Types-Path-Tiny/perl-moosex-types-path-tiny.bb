@@ -11,14 +11,14 @@ LICENSE = "Apache-2.0"
 
 PV = "0.012"
 
-RPM_NAME = "perl-MooseX-Types-Path-Tiny-0.012-1.22.noarch.rpm"
-RPM_HASH = "31b2c2b07d0d3a1290e0efe7c16d5ea7753049be39f1cd65c1e3efed49552252c47353f39c2fc935f415c4f6c9fa3e7f8d5c41e901860e311aa5da984d40c0bb"
+RPM_NAME = "perl-MooseX-Types-Path-Tiny-0.012-1.23.noarch.rpm"
+RPM_HASH = "7a1f6508da1af3218c0ffc3eb1a503841b25aec4cec6914991563c5cbf65ebbc82b7dadb0fe608611812036a8868131d66d7b342f32881b80d55d793d98ccff5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Types--Path--Tiny \
 perl-MooseX-Types-Path-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Moose \
 perl-MooseX--Getopt \
 perl-MooseX--Types \

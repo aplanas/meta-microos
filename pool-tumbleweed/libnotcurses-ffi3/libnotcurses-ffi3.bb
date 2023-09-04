@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.9"
 
-RPM_NAME = "libnotcurses-ffi3-3.0.9-1.7.aarch64.rpm"
-RPM_HASH = "6ee88169a710673b1299de6e42cc3abca43bc31fbb55c1fc704d573a355b908db64113f7560578d23f48e283db8ebb22acf718eb0aef3bee8eb5e6b6b98fc11c"
+RPM_NAME = "libnotcurses-ffi3-3.0.9-1.8.aarch64.rpm"
+RPM_HASH = "b17c2e77ea9b89bd10f795b4f0ce2b9f9d85cce6a9d9264f9afc4569943f42bf5f2e968b1348da944fe0afdd05ae8d70153d48d9dac52143f58d9ac2361b7ccf"
 
 RPROVIDES:${PN} += "libnotcurses-ffi.so.3 \
 libnotcurses-ffi3"

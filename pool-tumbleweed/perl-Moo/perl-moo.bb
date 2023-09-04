@@ -19,8 +19,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.005005"
 
-RPM_NAME = "perl-Moo-2.005005-1.2.noarch.rpm"
-RPM_HASH = "d9530c4fdf2d961cfb268e445b48de00451ede7d0436103ba56e2e4b0953b637a7f31b2fe70d6d98b832cb615ce67ff0edbd0e514061f35dcae57fd1e012a11e"
+RPM_NAME = "perl-Moo-2.005005-1.3.noarch.rpm"
+RPM_HASH = "0d064252fe5a8409c8071cd7d3f40f20e10f189bc30cd4da2f1c102b9ca2801280c21724afa5142dc6acab0b61f6039c9fdb9db83c25733e5c9f9f9db241dbb9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Method--Generate--Accessor \
@@ -38,7 +38,7 @@ perl-Moo--Role \
 perl-Moo--sification \
 perl-oo"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Class--Method--Modifiers \
 perl-Role--Tiny \
 perl-Sub--Defer \

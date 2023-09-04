@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
 PV = "2.0.21"
 
-RPM_NAME = "python39-uwsgi-python3-2.0.21-3.1.aarch64.rpm"
-RPM_HASH = "e9dfce319e13a3b65129302375782e44a3f09aa1bcf494363bfbe1d4cd713eeaa846903d6efc8a3db5096bbb3149931a899d32349c064bb0303feb44bcaf7356"
+RPM_NAME = "python39-uwsgi-python3-2.0.21-3.2.aarch64.rpm"
+RPM_HASH = "2afe36a1e0fe8bbca6fbfa9d863d344ae3391a40ad83d9ae3211cff18597fbc66eb7897ee6b2e48eea357c51f2b482a45b4fa1b064f4c9901510e4f5b9885247"
 
 RPROVIDES:${PN} += "python39-uwsgi-python3"
 

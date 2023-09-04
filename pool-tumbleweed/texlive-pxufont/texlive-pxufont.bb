@@ -16,8 +16,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.6svn64072"
 
-RPM_NAME = "texlive-pxufont-2023.209.0.0.6svn64072-54.1.noarch.rpm"
-RPM_HASH = "40f8ded1a7e2faf630b28d73231bf3f1409ca53eb2c68e4b7d921da58f9e5e43ea22cf9b7c30b82f9622af0c341c2c61983fef5a61b799d85820ed5f14571c21"
+RPM_NAME = "texlive-pxufont-2023.209.0.0.6svn64072-54.2.noarch.rpm"
+RPM_HASH = "adbc1d2f138c3f7a86ff192cc762be9c96cf4bcaee3ca86c43477a5650bdb0bb9a6ba993711c970700781be6c518f8ffc0028b527de0009c2e28f26525f71ad8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pxufont-ruby.sty \

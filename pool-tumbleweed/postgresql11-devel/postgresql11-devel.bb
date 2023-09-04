@@ -14,10 +14,10 @@ For building PostgreSQL server extensions, see the \
 postgresql11-server-devel package."
 LICENSE = "PostgreSQL"
 
-PV = "11.20"
+PV = "11.21"
 
-RPM_NAME = "postgresql11-devel-11.20-1.5.aarch64.rpm"
-RPM_HASH = "15919632933755504043dd040174f966db7601401d1f79ba48213e3df95f125bf8c46e73fc29a86df347ad950ee94ef1a1fa2dd818665cd58c352b553f3a31da"
+RPM_NAME = "postgresql11-devel-11.21-1.1.aarch64.rpm"
+RPM_HASH = "23af872e83be16e1276c78d67841614b8c62c7cf90000e31c5f2ac3c6638e27f82dc2f7d1a9fa73ea1104f20683951ec56d89affe70900218cd03c893d5b79d8"
 
 RPROVIDES:${PN} += "pkgconfig-libecpg \
 pkgconfig-libecpg-compat \

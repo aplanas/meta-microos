@@ -21,8 +21,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.18"
 
-RPM_NAME = "perl-HTML-Element-Extended-1.18-14.27.noarch.rpm"
-RPM_HASH = "a56e612cd2428201fe40a120159a89f27061a9903a8fd3aff6f323810d70fa04312b94143f4563e3c597550966e09e785b8c032c75ee80d14d9ac51e8644c5b6"
+RPM_NAME = "perl-HTML-Element-Extended-1.18-14.28.noarch.rpm"
+RPM_HASH = "f868c1d9b6901d21f86ee205eeb44ff489f1d29c1c0e0ce6fbdc5e000802b4bd3e91bd245909750d4df90d7656338bd2030f68eb12b97573c04ea9b08d5956d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTML--ElementGlob \
@@ -37,7 +37,7 @@ perl-HTML--ElementTable--RowElement \
 perl-HTML--ElementTable--RowGlob \
 perl-HTML-Element-Extended"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Data--Dumper \
 perl-HTML--Element"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.2"
 
-RPM_NAME = "ghc-haskeline-doc-0.8.2-3.2.noarch.rpm"
-RPM_HASH = "12bef0d0f55f32d7615f786cd7d7b82053e58d37f9e12266d5d2a527a386ea1200b2965a52f940f357da99624d750f3ea9791450907022e75b4b632e7a807ed8"
+RPM_NAME = "ghc-haskeline-doc-0.8.2-1.1.noarch.rpm"
+RPM_HASH = "74b437a6862b22475a8e95d05280b16a118c9da40d446da6c67ab34dfe0e93c8d285c15d30ce543887b090a5fc403f3d467f971afc3257a8a2bc8a89afc957af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-haskeline-doc"

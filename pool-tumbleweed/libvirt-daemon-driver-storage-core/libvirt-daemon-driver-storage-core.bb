@@ -4,10 +4,10 @@ an implementation of the storage APIs using files, local disks, LVM, SCSI, \
 iSCSI, and multipath storage."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.5.0"
+PV = "9.6.0"
 
-RPM_NAME = "libvirt-daemon-driver-storage-core-9.5.0-2.1.aarch64.rpm"
-RPM_HASH = "f1c3e4e3abc2e71bfbb7241210e158b1aa62e85aaf955c39f83aae11d24ff26966a06858b7829f01efb9783174e6a7674ffddd70257c3c04db66c5e04a32c9bd"
+RPM_NAME = "libvirt-daemon-driver-storage-core-9.6.0-2.1.aarch64.rpm"
+RPM_HASH = "bb8ed8416adcbe5b3200c9f27859bac63c38326a5ec83451f610fd0a7f859d9a49a545c9c7c7dc1ecc76ea5fe412a939dbcd12afdd14922f30e8fa116e575d2d"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-driver-storage-core \
 libvirt-daemon-driver-storage-core \

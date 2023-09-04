@@ -4,14 +4,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.04"
 
-RPM_NAME = "perl-Test-YAML-Valid-0.04-10.22.noarch.rpm"
-RPM_HASH = "cb404ac54d4176f881c0577548972e7f663247c36618f612699dcea8fd5302ebc5585c670de99bf332d43313e51f720a4142e27976f2f9fc7c4aa1a95dbe4345"
+RPM_NAME = "perl-Test-YAML-Valid-0.04-10.23.noarch.rpm"
+RPM_HASH = "5043bc96168ffd524837088f982cc602491e4c0e160b3a9a44fe88ad7545cabc8fd96389dcc3380049e2a8a9346969bd641aefb9619f99d8a02781aa7598f548"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--YAML--Valid \
 perl-Test-YAML-Valid"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-YAML"
 
 inherit rpm

@@ -4,18 +4,18 @@ LICENSE = "MPL-2.0"
 
 PV = "0.4.0.1"
 
-RPM_NAME = "ghc-semver-devel-0.4.0.1-1.6.aarch64.rpm"
-RPM_HASH = "b6ba01a781e47dd8241ebe6c47da4dc06621fafda4419536dd33f3a768ee44ef6efaaecc61c80fbd83aa14e52b2c33d365c3e9b245ba91037be2ee0ab84ec3b3"
+RPM_NAME = "ghc-semver-devel-0.4.0.1-1.9.aarch64.rpm"
+RPM_HASH = "038aaecd1c0f86c97ab1d40299cfa4a4679f917a70ff6ff495cc94836479956a1a7d6edb225a64eb72e9fc14bb26cfc0f087e7d308fe60a8c2f8dab295014874"
 
-RPROVIDES:${PN} += "ghc-devel-semver-0.4.0.1-ExZNCX3NISc5JbXfrvXt6N \
+RPROVIDES:${PN} += "ghc-devel-semver-0.4.0.1-7FEVHDXnoZsE6NqAZNLXlb \
 ghc-semver-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-attoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-deepseq-1.4.8.0 \
-ghc-devel-hashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt \
+ghc-devel-hashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP \
 ghc-devel-text-2.0.2 \
 ghc-semver"
 

@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.2svn48485"
 
-RPM_NAME = "texlive-returntogrid-2023.209.0.0.2svn48485-54.1.noarch.rpm"
-RPM_HASH = "d35a0a5302250f54bfc5e397189651bef48c1c276575d8be50150d9ee07e897f0df016e939fc07f14698cc2dc861d4a7b44d42045b8dde1ef3d8da1fa27aabec"
+RPM_NAME = "texlive-returntogrid-2023.209.0.0.2svn48485-54.2.noarch.rpm"
+RPM_HASH = "0a2dc43c56798a4880c9d055d8717f9e86a5eaddd575a7545aa13ddb808ef8d8a3bbbf31acfd1cf6f59a11f3a4aa17593d3f59a3fbdb78c5e246d0b20af705a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-returntogrid.sty \

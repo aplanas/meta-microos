@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.1svn64901"
 
-RPM_NAME = "texlive-hep-math-font-2023.209.1.1svn64901-54.1.noarch.rpm"
-RPM_HASH = "392f99b0f50339084598b6b4f83aa4ea0b7e97017103a84a8087a9d1bb74907ad9ff08bc60bce073bec4205701e2227c6e243b7b91d77229bd87608199eea1e8"
+RPM_NAME = "texlive-hep-math-font-2023.209.1.1svn64901-54.2.noarch.rpm"
+RPM_HASH = "7bcf6cf0ed9fb02f947c1b091c1e418470adc0f5ea25c54aa0434003ae1b45d063f61cdc312ea7d461f5ba4e99752c2dfea3973e48e7c079fac1afa46aa6e9f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hep-math-font.sty \

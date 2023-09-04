@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.2svn34363"
 
-RPM_NAME = "texlive-pstricks_calcnotes-2023.209.1.2svn34363-54.1.noarch.rpm"
-RPM_HASH = "6cad4bf73d3dcef5b5cbe98a72021aa98dc38d75d75a34addfab32dbc8935d6e10f9be6c2706a7b6285f8ff50ba6f93976507032d151f67797b31392726ae367"
+RPM_NAME = "texlive-pstricks_calcnotes-2023.209.1.2svn34363-54.2.noarch.rpm"
+RPM_HASH = "608d54d3255b0a22ba147c1c12394ddf52d87f83bbf7a5b13fecadf41d1c48d788a0d78f006df2dd19d3e04ed75c7c1622ff28b457b17c213754fcfaef0c3dd2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pstricks-calcnotes"

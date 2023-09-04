@@ -1,11 +1,13 @@
 SUMMARY = "A shared library for notmuch"
-DESCRIPTION = "The libnotmuch3 package contains shared libraries for notmuch."
+DESCRIPTION = "A global-search and tag-based email system which uses Xapian for indexing. \
+ \
+The libnotmuch5 package contains shared libraries for notmuch."
 LICENSE = "GPL-3.0-or-later"
 
 PV = "0.37"
 
-RPM_NAME = "libnotmuch5-0.37-2.6.aarch64.rpm"
-RPM_HASH = "11907fad5b258398cbcb20b09c55f941f1fe510df1bbc50598cbacebf6547c4641496ee9e594d999e7b8c2f466c380620e1dd9c5399cede118c4c3a5234eb6c5"
+RPM_NAME = "libnotmuch5-0.37-3.1.aarch64.rpm"
+RPM_HASH = "809536ee5b0f17cd5dbe76f45bf5316514f2a16947b93f556b3b832c5ae3d3abec26a3fbaff422ddc46f0512bd4d824248079cab408dd56ebc71955d033fd26d"
 
 RPROVIDES:${PN} += "libnotmuch.so.5 \
 libnotmuch5"

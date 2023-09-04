@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "2.3.3"
 
-RPM_NAME = "ptl-devel-2.3.3-1.10.aarch64.rpm"
-RPM_HASH = "b8eb018acc9956f13f58dd74bc185bc2ecc756143e1eab7ec58f6c5e68ec86419ed0846653adc746c67e9bc1735714fc83ecd05047d8b40c384ec70f77cec8b0"
+RPM_NAME = "ptl-devel-2.3.3-1.11.aarch64.rpm"
+RPM_HASH = "c0459042fc773c3dbc45ae6ce1194991e77d575e525e2062db61fa4d77206c2e6d496f8f3296ff2c5a879f272e0f0d9cbcec3071d7eb83795dc285987c93db3c"
 
 RPROVIDES:${PN} += "cmake-PTL \
 pkgconfig-ptl \

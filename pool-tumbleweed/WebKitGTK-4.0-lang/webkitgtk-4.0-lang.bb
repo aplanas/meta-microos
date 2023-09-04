@@ -2,10 +2,10 @@ SUMMARY = "Translations for package webkit2gtk3-soup2"
 DESCRIPTION = "Provides translations for the 'webkit2gtk3-soup2' package."
 LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
-PV = "2.40.4"
+PV = "2.40.5"
 
-RPM_NAME = "WebKitGTK-4.0-lang-2.40.4-1.1.noarch.rpm"
-RPM_HASH = "8a0e7cb99b03e3b5c84d00975cac43e50c6f410d27aca341e9030412c539ee8c15c9c2170c3592812881d1c3281922a8b80a848089902348da8a5744bff060d4"
+RPM_NAME = "WebKitGTK-4.0-lang-2.40.5-1.1.noarch.rpm"
+RPM_HASH = "b7a5fdd71af20be8cbc7a9e713a3ba8dfcb29f8fab1ce018f445735967e5911770d29fc6bec31d4e51debb7e875aa48fa56eb4121f4850391ae3968cec0da3d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "WebKitGTK-4.0-lang \

@@ -7,15 +7,15 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.79"
 
-RPM_NAME = "perl-DateTime-Format-Strptime-1.79-1.10.noarch.rpm"
-RPM_HASH = "42d211cf88059b2277cb9b825477c90a3f081cba03068923e03941472fee86a62b505cc40854dd9bfbb5afc51d5abbf0cb4ee58e5ca825b5211509f5a644d1e4"
+RPM_NAME = "perl-DateTime-Format-Strptime-1.79-1.11.noarch.rpm"
+RPM_HASH = "35ca681a457fc3d0fd57b558fe712674b805cacef24cc17d30880de7ab6acacec3e8e5ef45c5aa4e1b191bb69dba3d8317f0b74f8f25110009523388f5b69782"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DateTime--Format--Strptime \
 perl-DateTime--Format--Strptime--Types \
 perl-DateTime-Format-Strptime"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-DateTime \
 perl-DateTime--Locale \
 perl-DateTime--Locale--Base \

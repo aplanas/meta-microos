@@ -13,14 +13,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.25"
 
-RPM_NAME = "perl-XML-Simple-2.25-1.18.noarch.rpm"
-RPM_HASH = "9c9c613d13250470e04b299961e616a1ab08649a1c1c91008f82d25f6ceaff664c869ef971f4f74aa92004e91984bebcb7992c3441d61ef350d3d3ad62ad1275"
+RPM_NAME = "perl-XML-Simple-2.25-1.19.noarch.rpm"
+RPM_HASH = "df479a4582860789768627e69c92dff9ca5cb7b3c9df513952850d2971758e5b23f6ade7406fd978affc44fcdc2791652a2751945868f1648b5a60bc5dc74e7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--Simple \
 perl-XML-Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-XML--NamespaceSupport \
 perl-XML--SAX \
 perl-XML--SAX--Expat"

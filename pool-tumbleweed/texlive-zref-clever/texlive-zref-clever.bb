@@ -12,8 +12,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.3.6svn66021"
 
-RPM_NAME = "texlive-zref-clever-2023.209.0.0.3.6svn66021-53.1.noarch.rpm"
-RPM_HASH = "20eb9c2d125fffc32f9b3ec91f67e7bb0e3f09c3cdceb4cfc1a6a3e5fb099c8a8e2c08c56b285c7699a686a95d9e8eeb1ab8f486764f557580e3446a47f60afe"
+RPM_NAME = "texlive-zref-clever-2023.209.0.0.3.6svn66021-53.2.noarch.rpm"
+RPM_HASH = "b7139fe9b01cc0bfb54b02707e299d9fa3dd9ee613bf2b2532a2ebe81ee537cf26ff1da777c9fb8558a9435bdad4f1ceca22eb52981383b953177b4bd136a786"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zref-clever.sty \

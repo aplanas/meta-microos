@@ -9,8 +9,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.802"
 
-RPM_NAME = "perl-IO-Async-0.802-2.2.noarch.rpm"
-RPM_HASH = "161a3c6004c261b678cd37c05390596835193416b98f927401405ba5ed913b0f0a9ab0769fe11a31e8281c574e7d2ccf015b60bf9ab69f1a01b7863ae184de92"
+RPM_NAME = "perl-IO-Async-0.802-2.3.noarch.rpm"
+RPM_HASH = "0730ea1294307fb884f5ee8afe61fa9b510c07a2cae9bfc9d7d0a1dbca93e50c2566a61f3fdc7a294959e9e12755fd93a7285afad8d357042c8e18280842cf44"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Future--IO--Impl--IOAsync \
@@ -52,7 +52,7 @@ perl-IO--Async--Timer--Countdown \
 perl-IO--Async--Timer--Periodic \
 perl-IO-Async"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Future \
 perl-Future--Utils \
 perl-Socket \

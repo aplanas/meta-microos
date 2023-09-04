@@ -3,10 +3,10 @@ DESCRIPTION = "This library provides an interface atop libsolv, and a high-level
 RPM package manager library interface."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.70.1"
+PV = "0.70.2"
 
-RPM_NAME = "libdnf2-0.70.1-1.2.aarch64.rpm"
-RPM_HASH = "507374d9ee305791a3e2ebbd9f7f86ba478b67b7e6b369d7c0062b210cbb4487bbb14d9c835dc1dedc774866dae6edd12901599b3a6e0f081caad87fe6fdfcde"
+RPM_NAME = "libdnf2-0.70.2-1.1.aarch64.rpm"
+RPM_HASH = "071c5850e21609f93c62a3a4488de16833ad34bb599c81b92c004550d6ef6a3f4c2bd84cf3999331d75f25415446b1688310a493191a8942cf8a706b7a15b095"
 
 RPROVIDES:${PN} += "libdnf.so.2 \
 libdnf2"

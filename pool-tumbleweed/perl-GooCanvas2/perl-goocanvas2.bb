@@ -14,13 +14,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.06"
 
-RPM_NAME = "perl-GooCanvas2-0.06-1.15.noarch.rpm"
-RPM_HASH = "5f60d3c54ea94628e1d40ac068d7bd393ec1f0bde391d62edbb76638522ee382dedc3e422f17c01a05ddeea0de4ad08d100452c385fa19f9817f530a75f87de1"
+RPM_NAME = "perl-GooCanvas2-0.06-1.16.noarch.rpm"
+RPM_HASH = "3fa1f2c1dc42283a843ff8c49b00c21aa2befef0cdb7bcd1a1e5cbe68bb9e7ce789e0972bba27fcaf949badf5ae9e009dfb4ec69f4699d8a301d3e8f9b55b203"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-GooCanvas2"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Gtk3"
 
 inherit rpm

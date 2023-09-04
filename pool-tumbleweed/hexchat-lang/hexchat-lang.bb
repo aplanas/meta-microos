@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.16.1"
 
-RPM_NAME = "hexchat-lang-2.16.1-2.7.noarch.rpm"
-RPM_HASH = "bf740e2d2d2420a98b17f28c3f2365d8cc7d0d17e556a0856d69aabab7725cedff61791e922854ecfa24d1324329e1e50941b2ca4bd3946efbaab0757481f8e8"
+RPM_NAME = "hexchat-lang-2.16.1-2.8.noarch.rpm"
+RPM_HASH = "66d7619e686040d719344b760db860a0107a131fe92266d6650843437ce8e78060cf72e99a8b417570d78f9c00ad84e58fdc96cc76c60c3311cc5be851f3ae20"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hexchat-lang \

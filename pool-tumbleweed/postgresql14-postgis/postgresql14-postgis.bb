@@ -4,10 +4,10 @@ database. It adds support for geographic objects allowing location queries \
 to be run in SQL."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.2.5"
+PV = "3.3.4"
 
-RPM_NAME = "postgresql14-postgis-3.2.5-1.1.aarch64.rpm"
-RPM_HASH = "4b03a24d0d4c827d10dd381b7fa43c3ea39b962177db65df4033f8658b1ac93b169c7846d71d3294afed73842970f53442080a59430c0e254ecdb603cb13587b"
+RPM_NAME = "postgresql14-postgis-3.3.4-1.1.aarch64.rpm"
+RPM_HASH = "bf195a9a25cb5a3f32aa1a4e90b4677ec8085f9e650af323f75d6f37698dd5ccfc11d500277fbe8a3d7c48ba225bc3c51d9a54522e6922dc891ac3505afc9226"
 
 RPROVIDES:${PN} += "postgis \
 postgresql14-address-standardizer \

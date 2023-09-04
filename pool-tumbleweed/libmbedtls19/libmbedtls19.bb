@@ -8,10 +8,10 @@ understands the RSA, (EC)DH(E)-RSA, (EC)DH(E)-PSK and RSA-PSK key \
 exchanges."
 LICENSE = "Apache-2.0"
 
-PV = "3.4.0"
+PV = "3.4.1"
 
-RPM_NAME = "libmbedtls19-3.4.0-3.1.aarch64.rpm"
-RPM_HASH = "eba5c675c60c96e8786c5538a4fe940744c74cdca7c0c122e54b2b9dd2bf3d94f5740fc67c242a4e98c10b9ed0a98d6c05765cd455c3cd76fcfb9e95f98044da"
+RPM_NAME = "libmbedtls19-3.4.1-1.1.aarch64.rpm"
+RPM_HASH = "92e4200fc96672de7645390e005c129656dc3f54c2a3f24945f479f4ee3302eea17b1f942deb378130784d8455491aa0b0a706c4665ae136ebec10993b1bfcf2"
 
 RPROVIDES:${PN} += "libmbedtls.so.19 \
 libmbedtls19"

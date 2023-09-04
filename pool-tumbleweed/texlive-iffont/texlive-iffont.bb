@@ -4,10 +4,10 @@ or LuaTeX can find in a comma separated list and, additionally, \
 a number of macro tests."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.0.0svn38823"
+PV = "2023.209.1.0.0svn38823"
 
-RPM_NAME = "texlive-iffont-2023.208.1.0.0svn38823-53.1.noarch.rpm"
-RPM_HASH = "e62866c25d8f783c929479ffdd368876758b3258d18ef1b5211045bfa348276d6295414bfbe5ef65cc8013932b633794b945ba5b820b87c77971aaa814ca77d6"
+RPM_NAME = "texlive-iffont-2023.209.1.0.0svn38823-54.1.noarch.rpm"
+RPM_HASH = "0e69fa93658f929e0479281f6ec8db01381665094952723305c9b812026d6515c14a078fed473f8ce620e55480a7ab3ea5b74575d2151c4392e2e7e6018c8b23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-iffont.sty \

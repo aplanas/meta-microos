@@ -5,12 +5,12 @@ allow its conversion to/from another trace format. \
  \
 The main format expected to be converted to/from is the \
 Common Trace Format (CTF)."
-LICENSE = "MIT & GPL-2.0-only"
+LICENSE = "GPL-2.0-only & MIT"
 
-PV = "2.0.4"
+PV = "2.0.5"
 
-RPM_NAME = "babeltrace2-2.0.4-1.11.aarch64.rpm"
-RPM_HASH = "13f65e0d8eb17a6727bf1ae615ccd6c0821d6b1799eab82288b0cbe6fc03ae36ea4854200107f694f20bf4a3244aa32c23168d8db83525ca4407baa7f94ee781"
+RPM_NAME = "babeltrace2-2.0.5-1.1.aarch64.rpm"
+RPM_HASH = "8addc17ed10e213cd31d273fda929271aeb7cce68829415ea72f46a72e2261d4c51731e7bd6916bee9f6ea45b0b230e089417e84fb6914c90836aab371405f77"
 
 RPROVIDES:${PN} += "babeltrace2 \
 libbabeltrace2-ctf-writer.so.0 \

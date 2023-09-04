@@ -2,10 +2,10 @@ SUMMARY = "Development package for the GnuTLS C++ API"
 DESCRIPTION = "Files needed for software development using gnutls."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.8.0"
+PV = "3.8.1"
 
-RPM_NAME = "libgnutlsxx-devel-3.8.0-4.2.aarch64.rpm"
-RPM_HASH = "9c9e9074d44534f4bd35990588f8c325d1429824a86269b12855706516590f5ba492ade0fab24cf298b2f7b813ba615e327ff422352599549426b185214c3807"
+RPM_NAME = "libgnutlsxx-devel-3.8.1-1.1.aarch64.rpm"
+RPM_HASH = "c8bf5aa0650faa00a3f04cce0d7454f589305d23a580e22abafefb03b247c6a234beb0d5f41985dd6c6fab8568e4c299ec401d4f1a2a150becee96be46831d23"
 
 RPROVIDES:${PN} += "libgnutlsxx-devel"
 

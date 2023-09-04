@@ -3,10 +3,10 @@ DESCRIPTION = "The stub code generator for generating the adapter and proxy inte
 out of the D-Bus IDL XML description."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.2.0"
+PV = "1.3.0"
 
-RPM_NAME = "sdbus-cpp-xml2cpp-1.2.0-1.6.aarch64.rpm"
-RPM_HASH = "2cbf711282b0ea7f6de5b7631a508d6d3a0779f7b23692a631ec128b31142d0ae9f73c3837b4413b688fc9dee309fe9260724f4fd71ce817c71a5d5424e5d525"
+RPM_NAME = "sdbus-cpp-xml2cpp-1.3.0-1.1.aarch64.rpm"
+RPM_HASH = "6a97930c6fad8ae6bc524c4edc613422600d85abdf97f157dae4059bd32fb814b25ffa10497facba04c4113025d7127ed2e8862937eb1338d124bdf6acfefe6a"
 
 RPROVIDES:${PN} += "sdbus-cpp-xml2cpp"
 

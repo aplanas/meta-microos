@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.1.2"
 
-RPM_NAME = "ghc-typst-symbols-doc-0.1.2-1.1.noarch.rpm"
-RPM_HASH = "660c965d328b36b6dd5a5caa3ebcfb2a4b3d0c2d2d8421c5c946a006c234fe58b2b92d791c8ef18f52ee1e4a043e4ab5a7ff9b68bd8fffe23b8fb7bab8cac7a5"
+RPM_NAME = "ghc-typst-symbols-doc-0.1.2-1.3.noarch.rpm"
+RPM_HASH = "db5d6a30e62a534d20d83e948fa944215a7dfa2c224b6afa888cc2079a98ece9288a3ec1e15c1ec57637ead9d44ed66c034bf0e150bef71132ab6a6dae432b4d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-typst-symbols-doc"

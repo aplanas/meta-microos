@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.1.2"
 
-RPM_NAME = "ghc-html-devel-1.0.1.2-4.2.aarch64.rpm"
-RPM_HASH = "37881bc6807f76e7afef659d7c431fd6c653c9b9548989952d1dbeea3128e8215c0ba99d8eeb5c89825279b4dd7006cc401022d4b2913c5b9f04897c24f257f7"
+RPM_NAME = "ghc-html-devel-1.0.1.2-4.3.aarch64.rpm"
+RPM_HASH = "1b87ae8c8a63803078e2d3271515d83d40e1b9f804ad5fc00a9d32c560927fdd617e9ffc6b0adec1761f333019da11035dab1308c834a70b1e44135a156e2414"
 
-RPROVIDES:${PN} += "ghc-devel-html-1.0.1.2-U7qWIp0bJwCnAFPlj3UZy \
+RPROVIDES:${PN} += "ghc-devel-html-1.0.1.2-Ei0LKBl3CyAHMF3GZI2hqu \
 ghc-html-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-html"
 
 inherit rpm

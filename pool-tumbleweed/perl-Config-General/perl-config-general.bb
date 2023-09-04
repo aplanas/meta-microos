@@ -15,14 +15,14 @@ LICENSE = "Artistic-2.0"
 
 PV = "2.65"
 
-RPM_NAME = "perl-Config-General-2.65-1.7.aarch64.rpm"
-RPM_HASH = "9cd5600bacbc6e90f571bb8230b10a20c6f5ef4e30fc67004bd9702e0b757d2c8463138135eeea954f4d6c7f6183be61cb9f6faddfbe1c1a2a31895bdad55c9f"
+RPM_NAME = "perl-Config-General-2.65-1.8.aarch64.rpm"
+RPM_HASH = "4ac50d8c55cdcd9dccf2e04aeab678680ba342b1a886e48f9f0490205cf71351237d5c46ad6d77c8694a1c4b81205378a1ce8c27773bffbff91891353eeafd4e"
 
 RPROVIDES:${PN} += "perl-Config--General \
 perl-Config--General--Extended \
 perl-Config--General--Interpolated \
 perl-Config-General"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

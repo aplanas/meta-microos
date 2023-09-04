@@ -2,10 +2,10 @@ SUMMARY = "Translations for package rygel"
 DESCRIPTION = "Provides translations for the 'rygel' package."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "0.42.3"
+PV = "0.42.4"
 
-RPM_NAME = "rygel-lang-0.42.3-2.1.noarch.rpm"
-RPM_HASH = "4639d6546e03f114d47dd80b24233e9d250f7214546a2df56b2413d7d672c289dbbddcdc159d5d7c70a080f3cb940c50af6a1fc3ae17df34c8380bea739e5a2c"
+RPM_NAME = "rygel-lang-0.42.4-1.1.noarch.rpm"
+RPM_HASH = "422ff0bec43511f805f0b1e1784145db5810562ac84426bda7c289e9cb7d0c56cab2341239e8f78f87d352612cd29aded0bb7157a32ec5640451bb942003f030"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-rygel-af \

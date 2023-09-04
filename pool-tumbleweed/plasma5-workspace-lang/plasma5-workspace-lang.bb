@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.27.7"
 
-RPM_NAME = "plasma5-workspace-lang-5.27.7-1.1.noarch.rpm"
-RPM_HASH = "a319b66c39e97672f4520d67eb09a34b52bc7e2a3d25cdfc7ac5ab043b68eb806821954205ae5ac4b54bc3c636b6aa57fa7793b2f9b26c3f8c95fcc7e3f65756"
+RPM_NAME = "plasma5-workspace-lang-5.27.7-3.1.noarch.rpm"
+RPM_HASH = "49b367e2fc9bf1c0f31af29845b93dd89eccbc3d0629193299b7ec94ed1ef6c0857cceb86d25be302f7bcd7567a93e8d5caf7f6ef38e82622f9f42a934afbbda"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plasma5-workspace-af \

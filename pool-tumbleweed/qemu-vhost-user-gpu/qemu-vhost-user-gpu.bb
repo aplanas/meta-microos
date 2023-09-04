@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a vhost user mode virtio-gpu 2D/3D renderin
 QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.3"
+PV = "8.0.4"
 
-RPM_NAME = "qemu-vhost-user-gpu-8.0.3-2.1.aarch64.rpm"
-RPM_HASH = "aced057145d03a582f37b5a0cc72afbe3b2bc6affd16ad3287eb5c81101bc1c30d1ea1494a26302af9dfdf77791f20af71a57cb594ae4bbf3b9423bb5189fcd9"
+RPM_NAME = "qemu-vhost-user-gpu-8.0.4-1.1.aarch64.rpm"
+RPM_HASH = "1ebab7853fdee2baf1a9c6a656abb7205156854cea9ab0d4253c4ba83c4caf6d84a37c302f9dbeb275e46dba876fbd6f70fe2e8729e023866696a6f8726e739e"
 
 RPROVIDES:${PN} += "qemu-vhost-user-gpu"
 

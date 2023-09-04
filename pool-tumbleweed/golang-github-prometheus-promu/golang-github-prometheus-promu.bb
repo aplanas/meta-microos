@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.15.0"
 
-RPM_NAME = "golang-github-prometheus-promu-0.15.0-1.1.aarch64.rpm"
-RPM_HASH = "79d62fc2474fd2389df03693d37383aa8cf5dcd500a68fc5792ffe245bb565403b1ffa69d97cdccbdaa434e39afb2855b6008d3f2746b5d6aca3e3319aeef3e3"
+RPM_NAME = "golang-github-prometheus-promu-0.15.0-3.1.aarch64.rpm"
+RPM_HASH = "6af43015fdcd3b5e408e6a9b99b05762acac10d370da73a35576f78de6c38d96a6a13d5eb942e19a156d8cf814483455fe9c920f7462ac561ef99e1ec4b05faf"
 
 RPROVIDES:${PN} += "golang-github-prometheus-promu"
 

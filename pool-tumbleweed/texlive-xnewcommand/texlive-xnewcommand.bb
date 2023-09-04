@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.2svn15878"
 
-RPM_NAME = "texlive-xnewcommand-2023.209.1.2svn15878-53.1.noarch.rpm"
-RPM_HASH = "0bccce2716de7e65e15d0960a36bfa861c86fe14ed41b5d3421269684efcfbf1d7b11d454b214802612c370a5f3a4cd53c316de7f302a7252f0614314035ccc0"
+RPM_NAME = "texlive-xnewcommand-2023.209.1.2svn15878-53.2.noarch.rpm"
+RPM_HASH = "aa5b055571b70726b05fdff904aeaf6fa96660f0f45655a75ef475742d9528dbc48988ff60a1e0878dfd6fc3be9afcc94977bfee2239c58b5c45166f6a9f211a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xnewcommand.sty \

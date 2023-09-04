@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.7.0"
 
-RPM_NAME = "cowsay-3.7.0-1.8.noarch.rpm"
-RPM_HASH = "8520b143459aceb83d5ce2038bf0fe091a5299f5113a4c73064ca798ee5f82e6266a68e3fd5b6751db3aac6662922866557f511aa33de751e09186b1a552c196"
+RPM_NAME = "cowsay-3.7.0-1.9.noarch.rpm"
+RPM_HASH = "d8d83c28fe33b81e923cc01e1d2d577ab5a7c4b61780e116b9c3d456535ec333d1ff5c44c0b09abca049cdc4d0d11fa6908bce3cee7428dc080acea694371aa7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cowsay \
@@ -20,6 +20,6 @@ perl-Acme--Cow--TextBalloon \
 perl-Acme--Cow--TuxStab"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

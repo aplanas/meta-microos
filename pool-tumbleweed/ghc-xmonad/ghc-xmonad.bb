@@ -4,32 +4,32 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.17.2"
 
-RPM_NAME = "ghc-xmonad-0.17.2-1.6.aarch64.rpm"
-RPM_HASH = "5135b8afe3d5f58066996d3a9be3d759d10beaaaf2f34685cd289bc6078421be5bd030b39bc9859250824c76a0fac817c026c7c673cc9b7f472c342cea1422a0"
+RPM_NAME = "ghc-xmonad-0.17.2-1.8.aarch64.rpm"
+RPM_HASH = "9223ae9336d0b08d4bf6bb38c28ae93ba601cf710f70e4be3d40d4fc718aa3ae1c1eeaa862eb87787bc73791453e0557ce2866bfae2858238de874c0c74bb71a"
 
 RPROVIDES:${PN} += "ghc-xmonad \
-libHSxmonad-0.17.2-J64iMqERQ1Q7QqR5Vl2D4I-ghc9.4.5.so"
+libHSxmonad-0.17.2-5u18H8h5WrJ4e8esV9nzjE-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSX11-1.10.3-5dCbs7YG84pBbMQ87MYXiX-ghc9.4.5.so \
-libHSarray-0.5.4.0-ghc9.4.5.so \
-libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSbytestring-0.11.4.0-ghc9.4.5.so \
-libHScontainers-0.6.7-ghc9.4.5.so \
-libHSdata-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ-ghc9.4.5.so \
-libHSdeepseq-1.4.8.0-ghc9.4.5.so \
-libHSdirectory-1.3.7.1-ghc9.4.5.so \
-libHSfilepath-1.4.2.2-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-boot-th-9.4.5-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
-libHSmtl-2.2.2-ghc9.4.5.so \
-libHSpretty-1.1.3.6-ghc9.4.5.so \
-libHSprocess-1.6.16.0-ghc9.4.5.so \
-libHSsetlocale-1.0.0.10-8gNxxDe254d2fufYktFd7s-ghc9.4.5.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
-libHStime-1.12.2-ghc9.4.5.so \
-libHStransformers-0.5.6.2-ghc9.4.5.so \
-libHSunix-2.7.3-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSX11-1.10.3-1a2wZgfFAzXBkfyYtNRHp4-ghc9.4.6.so \
+libHSarray-0.5.4.0-ghc9.4.6.so \
+libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSbytestring-0.11.5.1-ghc9.4.6.so \
+libHScontainers-0.6.7-ghc9.4.6.so \
+libHSdata-default-class-0.1.2.0-HWomeRk5e2p3WGQsDTnuAN-ghc9.4.6.so \
+libHSdeepseq-1.4.8.0-ghc9.4.6.so \
+libHSdirectory-1.3.7.1-ghc9.4.6.so \
+libHSfilepath-1.4.2.2-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-boot-th-9.4.6-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
+libHSmtl-2.2.2-ghc9.4.6.so \
+libHSpretty-1.1.3.6-ghc9.4.6.so \
+libHSprocess-1.6.17.0-ghc9.4.6.so \
+libHSsetlocale-1.0.0.10-EX0ACS22UctCUxDRUitp1V-ghc9.4.6.so \
+libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
+libHStime-1.12.2-ghc9.4.6.so \
+libHStransformers-0.5.6.2-ghc9.4.6.so \
+libHSunix-2.7.3-ghc9.4.6.so \
 libX11.so.6 \
 libXext.so.6 \
 libXinerama.so.1 \

@@ -5,10 +5,10 @@ PostgreSQL database. \
 This package contains the documentation for pgadmin4."
 LICENSE = "PostgreSQL"
 
-PV = "4.30"
+PV = "7.6"
 
-RPM_NAME = "pgadmin4-doc-4.30-2.12.noarch.rpm"
-RPM_HASH = "8f5fa2c95ba90511f2901ee6a27af598aaf9e197ca1905de311954a7b5d75812860c75cab778a75ae2d8f625a55eeb64cc501cf6e6f8511e611cd60988b1038a"
+RPM_NAME = "pgadmin4-doc-7.6-1.1.noarch.rpm"
+RPM_HASH = "16822aa124de612f62fc0b77975d9a5df3b0abe3ec0c203a12295e30eca7beb758bb9d36a5b196a07a6e321da9873b233f5cf05424c2a124145303f2543306e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pgadmin4-doc"

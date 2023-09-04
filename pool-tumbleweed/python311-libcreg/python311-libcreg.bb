@@ -5,8 +5,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20210625"
 
-RPM_NAME = "python311-libcreg-20210625-5.10.aarch64.rpm"
-RPM_HASH = "0b23ac5732e695b0dccd530f39d823f7715e7157d3ce9793b95926b0ceb3b1b4a1779bd92b57352fc410259729dceb1f82ea5e5684872d3e356f2b0d52172b70"
+RPM_NAME = "python311-libcreg-20210625-6.1.aarch64.rpm"
+RPM_HASH = "c7276b2b8aef888b676ff0720e1d728734e2ceb0bab08e4ca311314a93f51bdf8733a758f2c62ebaade691325383e84bedcf6cf461560313cb639189959747e1"
 
 RPROVIDES:${PN} += "python3-libcreg \
 python311-libcreg"

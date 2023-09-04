@@ -20,13 +20,13 @@ LICENSE = "GPL-3.0+"
 
 PV = "6"
 
-RPM_NAME = "perl-constant-defer-6-2.27.noarch.rpm"
-RPM_HASH = "5dbfe675cefaacd4820e25900d497122a0cbdd58fa913b829f1fca12f5dc813827dfad90aeaa74e08c260b95869f44a105560c76455fb3f457bc35dad28142aa"
+RPM_NAME = "perl-constant-defer-6-2.28.noarch.rpm"
+RPM_HASH = "cc277e01baf4fe9d2ea8d0bb15b3358852116685649bb1b33b215404d7509513eb33aa1b9258c7392c0ed54428ebd2f595e9e59f7bc45baabeb098d3510efe90"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-constant--defer \
 perl-constant-defer"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

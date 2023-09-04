@@ -22,10 +22,10 @@ Features: \
  * Other features via plugins."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.8.0"
+PV = "1.8.1"
 
-RPM_NAME = "gajim-1.8.0-1.2.noarch.rpm"
-RPM_HASH = "c98531fa321cae46bc6fa033e8cb1e260dac5e77ff459ed07f11301c49891047e87f6c1b4f59404e2c7e4ba5c069aba0159b4e5212eb44c9b2799c359de0bb56"
+RPM_NAME = "gajim-1.8.1-1.1.noarch.rpm"
+RPM_HASH = "317c44a6e54c535b2e6c45cebbc117d81eeb33e41591173673d9a589107fcb04f0245d5abf89f4ca2b268cda43a62f3675a2c28cb705a46b4c9d7c6e4df6648a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gajim \

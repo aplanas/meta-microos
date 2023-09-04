@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-gluster-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "bd8c8300717ec7bece4a3574c3d678a0db27d640917c2336013caf1419c96e01b21be7f4408ce34a16ea6a50393cc53e29406752e1bbb6b5fcc1f05dc793e57c"
+RPM_NAME = "pcp-pmda-gluster-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "f35cbd7756da0cdf4eddc1be141a60ed49256f9cb6afe2222f442292ad0c2b9b6ddb7b365967f04e209be24e4f962ad633622c6a7d3936d038145931860c0cc1"
 
 RPROVIDES:${PN} += "pcp-pmda-gluster"
 

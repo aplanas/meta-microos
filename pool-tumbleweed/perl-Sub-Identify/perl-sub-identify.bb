@@ -22,13 +22,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.14"
 
-RPM_NAME = "perl-Sub-Identify-0.14-1.33.aarch64.rpm"
-RPM_HASH = "a9b465db06d4269252fa305641d96b78cfcaa4ddfe6c561b69c140ec94c919168d7fb28dea9a9182c98873389c0d4d719395be78f5d545fe34a945d0d423a37b"
+RPM_NAME = "perl-Sub-Identify-0.14-1.34.aarch64.rpm"
+RPM_HASH = "d3edf67cc04c828116f50bfaa89995c10ef0f0dec2dc3fd2d7248b00a6beead65f7779ad07d6d72575f0244fdefd93023dedaa64b66d612510295f6d65a1cd2f"
 
 RPROVIDES:${PN} += "perl-Sub--Identify \
 perl-Sub-Identify"
 
 RDEPENDS:${PN} += "libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

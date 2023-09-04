@@ -75,30 +75,30 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.1"
 
-RPM_NAME = "ghc-hashtables-1.3.1-1.6.aarch64.rpm"
-RPM_HASH = "a7019fd92eb5954e46d5bfb76addb85f37e119be8420b8565251c82f6ae373613294499837f770ca3188c020e15a1001ffee7d9ffea2df9cd25b6eb8fe9e2dde"
+RPM_NAME = "ghc-hashtables-1.3.1-1.9.aarch64.rpm"
+RPM_HASH = "5c4c2f38f83d7e9ca1c7abb2df265c28de231320fd8551f13cdedb2332e9406519f6739a9ffd6d9184b54d4e381139819d8a806901d4ca2797f0c664ae2f881d"
 
 RPROVIDES:${PN} += "ghc-hashtables \
-libHShashtables-1.3.1-AhYwUdJr2hP9YbqppAld0p-ghc9.4.5.so"
+libHShashtables-1.3.1-1KAEkULYvDmJLM8wOJL96T-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
-libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSbinary-0.8.9.1-ghc9.4.5.so \
-libHSbytestring-0.11.4.0-ghc9.4.5.so \
-libHScontainers-0.6.7-ghc9.4.5.so \
-libHSdeepseq-1.4.8.0-ghc9.4.5.so \
-libHSfilepath-1.4.2.2-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-boot-th-9.4.5-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
-libHShashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt-ghc9.4.5.so \
-libHSpretty-1.1.3.6-ghc9.4.5.so \
-libHSprimitive-0.7.4.0-AeB0oysC3TAJw9tDpuX8hq-ghc9.4.5.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
-libHStext-2.0.2-ghc9.4.5.so \
-libHStransformers-0.5.6.2-ghc9.4.5.so \
-libHSvector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp-ghc9.4.5.so \
-libHSvector-stream-0.1.0.0-C5Yyq3DPEhXAQSqkM8V92s-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
+libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSbinary-0.8.9.1-ghc9.4.6.so \
+libHSbytestring-0.11.5.1-ghc9.4.6.so \
+libHScontainers-0.6.7-ghc9.4.6.so \
+libHSdeepseq-1.4.8.0-ghc9.4.6.so \
+libHSfilepath-1.4.2.2-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-boot-th-9.4.6-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
+libHShashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP-ghc9.4.6.so \
+libHSpretty-1.1.3.6-ghc9.4.6.so \
+libHSprimitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx-ghc9.4.6.so \
+libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
+libHStext-2.0.2-ghc9.4.6.so \
+libHStransformers-0.5.6.2-ghc9.4.6.so \
+libHSvector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku-ghc9.4.6.so \
+libHSvector-stream-0.1.0.0-8LsAqgetBjY3tBdh3HDYEB-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

@@ -5,10 +5,11 @@ LICENSE = "HPND"
 
 PV = "9.5.0"
 
-RPM_NAME = "python310-Pillow-9.5.0-2.3.aarch64.rpm"
-RPM_HASH = "6cd11527e27ca2ae5da48fef260fc13a06534ec3a891fadfa809e6a096c7d601949ae29164b70cb1720955f4b26e659a9203692ac89f72d1672cab29681ad368"
+RPM_NAME = "python310-Pillow-9.5.0-3.1.aarch64.rpm"
+RPM_HASH = "5bd97d1ba6d85dc457164791fabbb3a161c279b183e3a61277800f62e852e7e7bc66fb8a63a10f898a3694caf4e27484e36586febad41328a7fb6b5ee75f12e1"
 
 RPROVIDES:${PN} += "python3.10dist-pillow \
+python310-PIL \
 python310-Pillow \
 python310-imaging \
 python3dist-pillow"

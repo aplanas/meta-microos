@@ -4,10 +4,10 @@ to startpar and killproc. System V init specific programs are in the \
 sysvinit package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.07"
+PV = "3.08"
 
-RPM_NAME = "sysvinit-tools-3.07-1.1.aarch64.rpm"
-RPM_HASH = "1a947c8153f928aca75707f6f99b4b84e5384753674d9d30fd96b0e8030ea4b983613ba23d989c1fd9e823faccebdbf5101cbe9f91fdca930475778e3429cc30"
+RPM_NAME = "sysvinit-tools-3.08-1.1.aarch64.rpm"
+RPM_HASH = "d0d4eee1d82a3f322751e22c3f89b7ce9cce8cc9691456b56e00ac6438dfb6ef88bacf309332ad3c0274aebfa1b1c2ba7156ad44addace65998c2eff0d7ab04a"
 
 RPROVIDES:${PN} += "/sbin/start-daemon \
 /sbin/startproc \

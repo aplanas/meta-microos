@@ -5,8 +5,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20221025"
 
-RPM_NAME = "python311-libvslvm-20221025-4.1.aarch64.rpm"
-RPM_HASH = "d52a2f851253f30a2025180b10afd2fb4567e5417299ec9a252e0659228e5820a22be60ffee6191b5120e16c52289cf5392dd65211e28780421ff3eef88a1ab2"
+RPM_NAME = "python311-libvslvm-20221025-5.1.aarch64.rpm"
+RPM_HASH = "0b87d17c97fc49a678f8e8a3517458a9b590f269b95553ee0b718e5da144a905e996d6d8b1dfd593f6bf41b10bdadcda5756e16ae124ac40ba7f7e23c9dd690c"
 
 RPROVIDES:${PN} += "python3-libvslvm \
 python311-libvslvm"

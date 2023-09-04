@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.0+git.20220402.ec8fccc"
 
-RPM_NAME = "compleat-bash-1.0+git.20220402.ec8fccc-1.9.noarch.rpm"
-RPM_HASH = "063a3e088c479f53fcdde12e0fb2931b37c7e082ba62e3e34a781c77fcc77c446962698d44bfcb0c260e60681b03f8628670a0e9a44eec25184166e70496d7ee"
+RPM_NAME = "compleat-bash-1.0+git.20220402.ec8fccc-1.10.noarch.rpm"
+RPM_HASH = "dd9de4a258c8e78116603a42748426c2055eb0b6de6bea56d3ac1363f64d4d492f71d1facb3a1b8cb942eea7aaa5463d68c8737d52f2af7aee6008a953dde2e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "compleat-bash \

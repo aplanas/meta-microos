@@ -28,15 +28,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.19"
 
-RPM_NAME = "ghc-safe-0.3.19-4.6.aarch64.rpm"
-RPM_HASH = "501765536978b20f8e47b70e671fe0aad0dd27521a590fa85c3cc0da96812e616fb27ee8dc99feb9a42fdb09c4801bf00c0c8b18704e75e4154ede651a412c26"
+RPM_NAME = "ghc-safe-0.3.19-4.8.aarch64.rpm"
+RPM_HASH = "29fcd674c763a7a6fb6dd828b094fb094b04cbb1ef970b6f7bf0fd888a3fd4847fc9979e89814d9ad0b05af9ee3de494f260a9245ea99643ebb55944295010be"
 
 RPROVIDES:${PN} += "ghc-safe \
-libHSsafe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds-ghc9.4.5.so"
+libHSsafe-0.3.19-9uHvZjuyLiR13wOGSONZxX-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

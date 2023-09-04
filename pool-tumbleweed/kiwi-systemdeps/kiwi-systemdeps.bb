@@ -3,10 +3,10 @@ DESCRIPTION = "Host setup helper to pull in all packages required/useful to \
 leverage all functionality in KIWI."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "9.24.61"
+PV = "9.25.12"
 
-RPM_NAME = "kiwi-systemdeps-9.24.61-1.2.aarch64.rpm"
-RPM_HASH = "140f894ce03fb8660a095e5f4bb837bb914f353bedd167e0874779e6a2039c3f01f43271b5cb5b4365e7793b17f42267fd1f4ee3e615168cdc59ea4ba9d174a4"
+RPM_NAME = "kiwi-systemdeps-9.25.12-1.1.aarch64.rpm"
+RPM_HASH = "0a5aec4d28cf0ef11f823c90099c4cc1b0fbb03bd2b8c5c8ebe394201f4e4326a80d4363c08cddde1a5787ac189fe3d3e3f3cc1fdd63e07744e1050055b91ef5"
 
 RPROVIDES:${PN} += "kiwi-systemdeps"
 

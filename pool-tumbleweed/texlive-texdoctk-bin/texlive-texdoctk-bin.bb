@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn29741"
 
-RPM_NAME = "texlive-texdoctk-bin-2023.20230311.svn29741-93.1.aarch64.rpm"
-RPM_HASH = "004d852a5c428a431ece6de1916231291e4a4f35d6d32c004ce8c3315ea65d37e989e72df317d7ac848fb6fea1b26003e95dbf957f7613410ce7b3a3fc8da5c2"
+RPM_NAME = "texlive-texdoctk-bin-2023.20230311.svn29741-93.2.aarch64.rpm"
+RPM_HASH = "4231bf02cfdf03ce4f65b22e5a7f4a18327cccd55bd0ca28ca6dde268a9c7bc469d6c83a15248278905ec3fec91f2f4ef4fb7a2fdaa156f23ed72c5683f610d2"
 
 RPROVIDES:${PN} += "texlive-texdoctk-bin"
 

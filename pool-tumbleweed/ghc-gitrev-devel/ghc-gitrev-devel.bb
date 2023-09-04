@@ -4,19 +4,19 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.1"
 
-RPM_NAME = "ghc-gitrev-devel-1.3.1-9.3.aarch64.rpm"
-RPM_HASH = "d59eeebf3332c633507ef95be12e7f937982dc61d761cce309bc7cc92da7d766161165a8eca169ebe9ac7aa189cb43a66e6f9fc94b6dfbc7787db838f60f6d2c"
+RPM_NAME = "ghc-gitrev-devel-1.3.1-9.4.aarch64.rpm"
+RPM_HASH = "a811416477d5c05e23bcc8432c866cfb32aa08d2384e22364a152b66f640c2ac2bdaec6ab7d9e7f5adda0c5b482f06b9ea8748a1683ae74383e4706155bb570b"
 
-RPROVIDES:${PN} += "ghc-devel-gitrev-1.3.1-CQYGfdCfGPeA3DF217wQTZ \
+RPROVIDES:${PN} += "ghc-devel-gitrev-1.3.1-9Q0DldHbAfz2pygdzHH3jX \
 ghc-gitrev-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-base-compat-0.13.0-Cvz3167VMpo6rdOohSlum3 \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-base-compat-0.13.0-ASw4phAd2I0LrTJ4o8lXb1 \
 ghc-devel-directory-1.3.7.1 \
 ghc-devel-filepath-1.4.2.2 \
-ghc-devel-process-1.6.16.0 \
+ghc-devel-process-1.6.17.0 \
 ghc-devel-template-haskell-2.19.0.0 \
 ghc-gitrev"
 

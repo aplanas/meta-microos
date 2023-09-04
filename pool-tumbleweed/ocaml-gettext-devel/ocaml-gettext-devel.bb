@@ -5,11 +5,10 @@ LICENSE = "SUSE-LGPL-2.0-with-linking-exception"
 
 PV = "0.4.2"
 
-RPM_NAME = "ocaml-gettext-devel-0.4.2-3.12.aarch64.rpm"
-RPM_HASH = "c1b7e7d69b4ca76985ceee40efd213a2cd3f38c203fb7b259b746be4489432422a3d233b7a8ff9f5abba52aa191ffd7949bbbe27e9057d6de36c3ecdc3813278"
+RPM_NAME = "ocaml-gettext-devel-0.4.2-4.1.aarch64.rpm"
+RPM_HASH = "8cfb292bb69ca384e55817787d2198abf128747d82b800e5fb8e8d2376ae40ea156f65ff5a101eb09afd56fb07d4e880629358b17139f67825b8334573322f08"
 
 RPROVIDES:${PN} += "ocaml-Gettext \
-ocaml-GettextCamomile \
 ocaml-GettextCategory \
 ocaml-GettextCharset \
 ocaml-GettextCompat \
@@ -45,12 +44,10 @@ ocaml-GettextUtils \
 ocaml-gettext-camomile-devel \
 ocaml-gettext-devel \
 ocamlfind-gettext \
-ocamlfind-gettext-camomile \
 ocamlfind-gettext-stub \
 ocamlfind-gettext.base \
 ocamlfind-gettext.extension \
 ocamlx-Gettext \
-ocamlx-GettextCamomile \
 ocamlx-GettextCategory \
 ocamlx-GettextCharset \
 ocamlx-GettextCompat \
@@ -86,39 +83,6 @@ ocamlx-GettextUtils"
 
 RDEPENDS:${PN} += "libc.so.6 \
 ocaml-CamlinternalFormatBasics \
-ocaml-CamomileDefaultConfig \
-ocaml-CamomileDefaultConfig-- \
-ocaml-CamomileDefaultConfig--InstallConfig \
-ocaml-CamomileLibrary \
-ocaml-CamomileLibrary-- \
-ocaml-CamomileLibrary--AvlTree \
-ocaml-CamomileLibrary--CaseMap \
-ocaml-CamomileLibrary--CharEncoding \
-ocaml-CamomileLibrary--ConfigInt \
-ocaml-CamomileLibrary--IMap \
-ocaml-CamomileLibrary--ISet \
-ocaml-CamomileLibrary--Locale \
-ocaml-CamomileLibrary--OOChannel \
-ocaml-CamomileLibrary--StringPrep \
-ocaml-CamomileLibrary--SubText \
-ocaml-CamomileLibrary--UCS4 \
-ocaml-CamomileLibrary--UChar \
-ocaml-CamomileLibrary--UCharInfo \
-ocaml-CamomileLibrary--UCharTbl \
-ocaml-CamomileLibrary--UCol \
-ocaml-CamomileLibrary--ULine \
-ocaml-CamomileLibrary--UMap \
-ocaml-CamomileLibrary--UNF \
-ocaml-CamomileLibrary--UPervasives \
-ocaml-CamomileLibrary--URe \
-ocaml-CamomileLibrary--UReStr \
-ocaml-CamomileLibrary--USet \
-ocaml-CamomileLibrary--UTF16 \
-ocaml-CamomileLibrary--UTF8 \
-ocaml-CamomileLibrary--UText \
-ocaml-CamomileLibrary--UnicodeString \
-ocaml-CamomileLibrary--XString \
-ocaml-CamomileLibraryDefault \
 ocaml-FilePath \
 ocaml-FileUtil \
 ocaml-Stdlib \
@@ -129,8 +93,6 @@ ocaml-Stdlib--Buffer \
 ocaml-Stdlib--Bytes \
 ocaml-Stdlib--Complex \
 ocaml-Stdlib--Either \
-ocaml-Stdlib--Filename \
-ocaml-Stdlib--Format \
 ocaml-Stdlib--Hashtbl \
 ocaml-Stdlib--Int32 \
 ocaml-Stdlib--Lexing \
@@ -139,20 +101,16 @@ ocaml-Stdlib--Map \
 ocaml-Stdlib--Marshal \
 ocaml-Stdlib--Obj \
 ocaml-Stdlib--Parsing \
-ocaml-Stdlib--Pervasives \
 ocaml-Stdlib--Printexc \
 ocaml-Stdlib--Printf \
 ocaml-Stdlib--Seq \
 ocaml-Stdlib--Set \
-ocaml-Stdlib--Stream \
 ocaml-Stdlib--String \
 ocaml-Stdlib--Sys \
 ocaml-Stdlib--Uchar \
 ocaml-Unix \
 ocaml-gettext \
-ocamlfind-camomile \
 ocamlfind-fileutils \
-ocamlx-CamomileLibraryDefault \
 ocamlx-FilePath \
 ocamlx-FileUtil \
 ocamlx-Stdlib \

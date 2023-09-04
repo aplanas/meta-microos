@@ -7,10 +7,10 @@ improved, which in addition allows an enhanced back-referencing \
 system."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.3.03svn53197"
+PV = "2023.209.3.03svn53197"
 
-RPM_NAME = "texlive-hypdvips-2023.208.3.03svn53197-53.1.noarch.rpm"
-RPM_HASH = "0e658036bcd73ff99eb5179d324d6ae28ffcc0277b864e54f9b8d54c79c92e2e7885ae86ffa49f03e62daac1c60f94665ab37d0879faa4ea6cc21565498690ea"
+RPM_NAME = "texlive-hypdvips-2023.209.3.03svn53197-54.1.noarch.rpm"
+RPM_HASH = "0326a9026c9b4d1dd802b9fe4f5df2ca0bd5a8011a1977cf24a5d5be1881a2fece11e5956e7ad346bfefd43e3899ea1159e8aa2048cef0d47cf04894494c1ddd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hypdvips.sty \

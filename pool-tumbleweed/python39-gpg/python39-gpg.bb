@@ -7,10 +7,10 @@ management. \
 This package contains the bindings to use the library from Python 3.9 applications."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.21.0"
+PV = "1.22.0"
 
-RPM_NAME = "python39-gpg-1.21.0-1.1.aarch64.rpm"
-RPM_HASH = "5810f38701fdd841d0c2d403086631fdae0558b34196d2223688fcd2ec8d6df7dbfc0483ecf8dfcc8f7cb86761b0e9d3b002e2d2e84b7f51125da130c98ba208"
+RPM_NAME = "python39-gpg-1.22.0-1.1.aarch64.rpm"
+RPM_HASH = "8edf73108badbef2dde86331052ecbc70eb38035a732a1589bf1586e6bf6cab0a908600152790d6f56ea0abf68ba17cc80e036777885a06a52fa136db79842a0"
 
 RPROVIDES:${PN} += "python3.9dist-gpg \
 python39-gpg \

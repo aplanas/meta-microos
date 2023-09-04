@@ -2,10 +2,10 @@ SUMMARY = "Bash completion for gnuastro"
 DESCRIPTION = "Bash command line completion support for gnuastro"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.19"
+PV = "0.20"
 
-RPM_NAME = "gnuastro-bash-completion-0.19-1.12.noarch.rpm"
-RPM_HASH = "21302dd386c3a9f44e1ec2b69295412a7c32e946477adb6f78c6741df0150c1eabee63f9211595b52b7267f807c45a3a9b539292abaa79a6d27415fd2a39416e"
+RPM_NAME = "gnuastro-bash-completion-0.20-1.1.noarch.rpm"
+RPM_HASH = "69d29fd868f5098b95f3df21a4733b2f00fc585419949ace75344c8f4c4c580434ef2654d6d8c60a4f1f83401f22618d381a059e900ef72139a6bcd48278f04a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnuastro-bash-completion"

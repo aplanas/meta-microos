@@ -8,10 +8,10 @@ It allows zone data to be updated via dynamic DNS updates, and \
 sends DNS NOTIFY packets to other name servers when appropriate."
 LICENSE = "MPL-2.0"
 
-PV = "9.18.17"
+PV = "9.18.18"
 
-RPM_NAME = "bind-modules-mysql-9.18.17-1.2.aarch64.rpm"
-RPM_HASH = "f5657ea0febfc8b665f63b9b5b0bfa59943f4edcd0731deadc625ee0dc347d20c94cb9f9480c41fd90891dbfe5e5c1a271bfde55c0dac663a1c6dc2685174e52"
+RPM_NAME = "bind-modules-mysql-9.18.18-1.1.aarch64.rpm"
+RPM_HASH = "81d03828487243f91706ecf0b33f8afa8cb8fbac780258409fbe8ab5836f68c549a0198c23c84d5242b5b893592913011e8ec0f2216a7d3463b56ce953ddf74f"
 
 RPROVIDES:${PN} += "bind-modules-mysql"
 

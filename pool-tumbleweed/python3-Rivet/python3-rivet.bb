@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.1.8"
 
-RPM_NAME = "python3-Rivet-3.1.8-1.1.aarch64.rpm"
-RPM_HASH = "c1b27d78aead544559a2097c07885a0c2c101da007a167b1036d5a3a8e860b8fd3f34380582f455405e7db19e282f396098a5bc96ad389ac3867cf7917b2bacf"
+RPM_NAME = "python3-Rivet-3.1.8-1.2.aarch64.rpm"
+RPM_HASH = "4d4d1a157feaf923b777b9c55407c92ffd39195a9af6c647788af9d4feb726f8aa733bb6ea95246752d37b596f1307afc2d444cf4d6ac3ab5d4e59c3d811f241"
 
 RPROVIDES:${PN} += "python-Rivet \
 python3-Rivet"

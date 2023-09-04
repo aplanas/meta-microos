@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn59817"
 
-RPM_NAME = "texlive-optexcount-bin-2023.20230311.svn59817-93.1.aarch64.rpm"
-RPM_HASH = "630c1f8bb61dc3d0cdb129affbeef6358702e6ffbe62dd0031525f000b36cd53bf1625d3420035fcbc575282ce2d524f732862e0cd757a22ab0db6799d9d6cf8"
+RPM_NAME = "texlive-optexcount-bin-2023.20230311.svn59817-93.2.aarch64.rpm"
+RPM_HASH = "4da86d15df18cf54447483bc9e73a7a81fb67debe392e7eada8d5768f8eb719c852870deccdd636c89cc9d4fa01e22e3564dd9fc4dd97208bf00e976ca2cc759"
 
 RPROVIDES:${PN} += "texlive-optexcount-bin"
 

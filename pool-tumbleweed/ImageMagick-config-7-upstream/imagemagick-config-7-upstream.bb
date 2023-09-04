@@ -6,10 +6,10 @@ be used in trusted environment. Version or maintenance updates \
 will not overwrite user changes in system configuration."
 LICENSE = "ImageMagick"
 
-PV = "7.1.1.12"
+PV = "7.1.1.15"
 
-RPM_NAME = "ImageMagick-config-7-upstream-7.1.1.12-1.1.aarch64.rpm"
-RPM_HASH = "581308712cd62d9736679c09537ef9cf05377fca307b563daf47ced4f36490cf74e0cc67a2b67963f560c10f151d8570f020198c651cf1989ce012d930920ddc"
+RPM_NAME = "ImageMagick-config-7-upstream-7.1.1.15-1.1.aarch64.rpm"
+RPM_HASH = "6c635fa00435e9a9e32b16fe6ceaecaad953e2bb8db1b65e56697956439ccd435be35e58c1c3bfb63a555bbe25f795c446d8ed821883adb196561b9cdfae1b54"
 
 RPROVIDES:${PN} += "ImageMagick-config-7-upstream \
 config-ImageMagick-config-7-upstream \

@@ -33,14 +33,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.41"
 
-RPM_NAME = "perl-Task-Kensho-Dates-0.41-1.10.noarch.rpm"
-RPM_HASH = "d9c31cc413187f63f18078511408b8790d9093441f1299851dad84f8925aa75f14366c704212a5960159afd435050a135cd17083a3197e219a8a3ee050e77949"
+RPM_NAME = "perl-Task-Kensho-Dates-0.41-1.11.noarch.rpm"
+RPM_HASH = "5c5888a26188a0a7adcac173aa6c8a31e83f2de34a92fb19d7443a33143b539c76d34377cc7dac86a8d7e3e4ea84047f266f7339bf6b17ca77d3443b35b9761c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Task--Kensho--Dates \
 perl-Task-Kensho-Dates"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-DateTime \
 perl-Time--Moment \
 perl-Time--ParseDate \

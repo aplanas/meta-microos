@@ -11,12 +11,12 @@ LICENSE = "Artistic-1.0"
 
 PV = "1.03"
 
-RPM_NAME = "perl-Set-Crontab-1.03-20.30.aarch64.rpm"
-RPM_HASH = "72e03d43bb9560d4526a6abdecc0bb22051fbea70301cb889313c0a049491bab3824ba170d08d95dd400f6d4b498c51b95bea0f912a9bc6264d5e6b09cf2cbdf"
+RPM_NAME = "perl-Set-Crontab-1.03-20.31.aarch64.rpm"
+RPM_HASH = "4a3338a1ca37418de2193f27b2b702150145a725bc50b04778eec9d6da9e017df15f23797dfa99f7b89b7d17a7d1ab0bd27a594eecc69b6fa47febfe32cc91c4"
 
 RPROVIDES:${PN} += "perl-Set--Crontab \
 perl-Set-Crontab"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

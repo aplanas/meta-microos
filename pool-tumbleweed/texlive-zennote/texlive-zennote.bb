@@ -12,8 +12,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0.0svn65549"
 
-RPM_NAME = "texlive-zennote-2023.209.1.0.0svn65549-53.1.noarch.rpm"
-RPM_HASH = "7eaa7db00410286f1e4398d9501eaae1713140a9984e93ed4fcc29e6fcb26028dcdb139d7b4ee670fdf6c73ae7327a154edc4e7d2210cb1d21fd51afe26803d2"
+RPM_NAME = "texlive-zennote-2023.209.1.0.0svn65549-53.2.noarch.rpm"
+RPM_HASH = "cd91efc0a47d120acdbc64bd56937372c582dc8ecf59353bc680d0466bcf9e5170c43e72f0f816461a3d08fa60909efda8ab548cfa5af6362f8ddab8aa2211d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zennote.sty \

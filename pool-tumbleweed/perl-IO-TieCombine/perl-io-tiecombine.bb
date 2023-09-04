@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.005"
 
-RPM_NAME = "perl-IO-TieCombine-1.005-1.27.noarch.rpm"
-RPM_HASH = "f46424a89e791c4406547c234845f281dfb4c2455154d6026ea4001f228acf9171030a954a20a1633bffc681b382df88af2b6da0af4b7f80832d9ae8cb34cf33"
+RPM_NAME = "perl-IO-TieCombine-1.005-1.28.noarch.rpm"
+RPM_HASH = "aae2814f961add08f3dc29496619a00283e7ae24e4356f4c35a3655dbe94071b9a60805fa9c1b4429d1e307d8934887de8cb8e536bfdd22268abb29493a5c97b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--TieCombine \
@@ -13,6 +13,6 @@ perl-IO--TieCombine--Handle \
 perl-IO--TieCombine--Scalar \
 perl-IO-TieCombine"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

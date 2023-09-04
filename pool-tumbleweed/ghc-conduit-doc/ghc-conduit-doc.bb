@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.3.5"
 
-RPM_NAME = "ghc-conduit-doc-1.3.5-1.3.noarch.rpm"
-RPM_HASH = "7cd90ce9e50c03b43182c09798032e823ffdf3a180a119b36707b40f4f6c7565b7158d5ada8b75e5ff2ddcc745f8981d7e942f21e40f5697f9dce119450ee4a4"
+RPM_NAME = "ghc-conduit-doc-1.3.5-1.7.noarch.rpm"
+RPM_HASH = "49524da70a321bf3dbb785d52dee3a47a78062c2e3fc6054930219807cc41b0ef0f63ca070b4a1b92c2d8addb24532ceed3067cd10300098353e641cf2769240"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-conduit-doc"

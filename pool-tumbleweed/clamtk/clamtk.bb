@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "6.16"
 
-RPM_NAME = "clamtk-6.16-1.1.noarch.rpm"
-RPM_HASH = "592fa6d311927a1a267089d57c835937ff615268869937dc9b0666127cad9e75636c0c8627d93d595f2d38e444b427192e39034d675f0152c54fffdd37f04ff4"
+RPM_NAME = "clamtk-6.16-1.2.noarch.rpm"
+RPM_HASH = "fb6e3c2a0d8942a5c01074cfa8641879afc2872928f9d04316d170ee9c85c00923155f363347945b0a7e2c96513da02660cd75288b7b1a4de8305cad49981587"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clamtk \
@@ -31,7 +31,7 @@ perl-ClamTk--Whitelist"
 RDEPENDS:${PN} += "/usr/bin/perl \
 clamav \
 gnome-icon-theme \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Cwd \
 perl-Digest--SHA \
 perl-Encode \

@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.0.3"
 
-RPM_NAME = "info-std-7.0.3-1.3.noarch.rpm"
-RPM_HASH = "ba7b9cf06ad17d5c86dc0a7fccceabc446351e4713f43ed122890428e02d3aae5b4f3d50750230c2c29d9c2b56f65feb233d778c9ad5b64df40c61b94d20b687"
+RPM_NAME = "info-std-7.0.3-1.4.noarch.rpm"
+RPM_HASH = "5f33028c412edf26080794c7fbf7d8168821beed1949dde073a5b886f537509ca5d481b6fe9a82cc250ab5af7a3cffba1d7113f54fb49ef90653a82fa7a392af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "info-std"

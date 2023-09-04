@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2023.209.0.0.03bsvn65818"
 
-RPM_NAME = "texlive-pst-poker-doc-2023.209.0.0.03bsvn65818-54.1.noarch.rpm"
-RPM_HASH = "7ef15b60be2ce1f01c16d9b52b806f8a3005952702a1fa704c8a80e874728df15739847967b513d745ca302d80e9faf11f70571e32943a5feb855eb7e7abd30b"
+RPM_NAME = "texlive-pst-poker-doc-2023.209.0.0.03bsvn65818-54.2.noarch.rpm"
+RPM_HASH = "b7c7d046d15d544a2de2300acd7b7ff74c471fa95972c4ac48ba0c710a292212feaa5f40a7be5f758524c286329404e9ad21044f14c31d655a53f5c0505dc2c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-poker-doc"

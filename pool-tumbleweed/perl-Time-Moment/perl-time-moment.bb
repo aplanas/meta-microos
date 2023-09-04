@@ -12,8 +12,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.44"
 
-RPM_NAME = "perl-Time-Moment-0.44-2.3.aarch64.rpm"
-RPM_HASH = "48eddd36e7062388a0cc8b1e4c489242969b075beabf3a5988b668de96a557e52748ea432c762604bc1a20a6f51a27ece7bad47a023e54da9550d2977d002be0"
+RPM_NAME = "perl-Time-Moment-0.44-2.4.aarch64.rpm"
+RPM_HASH = "13671bffc93fc9958a534c54768fab14c78568baedc1670733e597ef804486a5f9f00e48a40d45e10272d5f4815afedd0f8843091e7150feef81af84db9617ff"
 
 RPROVIDES:${PN} += "perl-Time--Moment \
 perl-Time--Moment--Adjusters \
@@ -21,6 +21,6 @@ perl-Time-Moment"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

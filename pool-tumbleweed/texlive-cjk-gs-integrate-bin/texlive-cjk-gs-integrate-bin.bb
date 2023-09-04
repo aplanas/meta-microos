@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn37223"
 
-RPM_NAME = "texlive-cjk-gs-integrate-bin-2023.20230311.svn37223-93.1.aarch64.rpm"
-RPM_HASH = "f9fa884b82884ccf3ca8f95a79c90cf7999645dac2554ace0c6ce45500f85292646085b42146fb890192cd17973f6910f13e7ba5dd6e43fdcd30848fe5b437c9"
+RPM_NAME = "texlive-cjk-gs-integrate-bin-2023.20230311.svn37223-93.2.aarch64.rpm"
+RPM_HASH = "da46f9e9c3d8cc10ca73a527e7aa1bdf09c2fcaaff667f3b63829f4d4bd4f609b394fa31c5b7e0d413c764ef58e85a9e2ee31ae2959ca3edd909da0cf8bfca08"
 
 RPROVIDES:${PN} += "texlive-cjk-gs-integrate-bin"
 

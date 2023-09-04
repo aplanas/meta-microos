@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.2.2"
 
-RPM_NAME = "kbfs-tool-6.2.2-1.1.aarch64.rpm"
-RPM_HASH = "3006186de38d795e0c4ed75007e35c1f9f8cb53d29f4e6aec041db52e72b76081cde82f526fa50af197a70fa31f26d71650f9dcfcf4c13b6d7bcac07012f91d1"
+RPM_NAME = "kbfs-tool-6.2.2-2.1.aarch64.rpm"
+RPM_HASH = "45eac7bfddf2ad21c40f3a5080bddf8ceff1681199dfb3feb30cd82eae1ad976aff3264995c5a0e8fdc52bb24490e14b522a39385b0bf8a0c6b31c1639ab0986"
 
 RPROVIDES:${PN} += "kbfs-tool"
 

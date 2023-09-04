@@ -13,13 +13,13 @@ LICENSE = "Artistic-1.0"
 
 PV = "1.3"
 
-RPM_NAME = "perl-Devel-CoreStack-1.3-306.30.aarch64.rpm"
-RPM_HASH = "28bbd6d4883c4d7a88a54ebba64f34417abf5d614856a02998595afc0f501469ee89f78a21fff0041f1d8bedcb7d368279f81339be141b0a595df4ada04881fb"
+RPM_NAME = "perl-Devel-CoreStack-1.3-306.31.aarch64.rpm"
+RPM_HASH = "009ec1e1299e2a44fdc0e9dd87a803987919b8716fea3a58f7446d6949a6cb166e374fd9b02f09e1f946d246f32751144ce41b2d77f036c1403ef44241527d81"
 
 RPROVIDES:${PN} += "Devel-CoreStack \
 perl-Devel--CoreStack \
 perl-Devel-CoreStack"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

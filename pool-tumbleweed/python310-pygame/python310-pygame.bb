@@ -7,10 +7,10 @@ Numerical Python extension. Pygame is the successor to the pySDL \
 wrapper project, written by Mark Baker."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.1.3"
+PV = "2.5.0"
 
-RPM_NAME = "python310-pygame-2.1.3-2.2.aarch64.rpm"
-RPM_HASH = "7d6637a0fbad715a9f2b6edfa6af13e4d6ef7fc438eacfe1b59681623c130537a5266bc11da886c9489b7b54879a033a4fba09dea6c6f165848b9d5f5450768e"
+RPM_NAME = "python310-pygame-2.5.0-1.1.aarch64.rpm"
+RPM_HASH = "0f6d301ef6f3416e11470c20cbcea40c998a534052556ef99d9cb65f17f46189f7e1b79c7d7a24dd9e8ba9bb4122a6a04ca51848fe048819770cc890acb089bf"
 
 RPROVIDES:${PN} += "python3.10dist-pygame \
 python310-pygame \

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.41.0"
 
-RPM_NAME = "git-doc-2.41.0-1.2.noarch.rpm"
-RPM_HASH = "2935ad6cad8d234fbe30af7c1f89312e805a0a448e8ca2242e49df6c146e21e3f0fc5f3ca2e9ed6958cddb827936af5bc0e34099449fcb4c977f9123008a2183"
+RPM_NAME = "git-doc-2.41.0-1.3.noarch.rpm"
+RPM_HASH = "8f4ad134f580fc5f5305ca3b1cc00d8728f7c68f3c2ab871ac578295717aa2e00855fddd257ec7237a2278c4c36945b1ff94b80ac4e59afa51be24fb0cb2fd9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-doc"

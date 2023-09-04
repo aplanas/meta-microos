@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0asvn43278"
 
-RPM_NAME = "texlive-eqnalign-2023.209.1.0asvn43278-54.1.noarch.rpm"
-RPM_HASH = "c22c7f35c66ac8e06aafd9a1b153dad8b187fff6e88858c35a1ff0ae44722898d8d037addfcf9eabd61a152dfa74db70e09ea509822d972a786c49dbfb31d86c"
+RPM_NAME = "texlive-eqnalign-2023.209.1.0asvn43278-54.2.noarch.rpm"
+RPM_HASH = "73e4759994d6884b9fe374f052ce27a24ef5c1085ea7713301a1c5f8b1c97b0822c6dd9d9529e2ddfcf19d6f767d30d0d1ff61e3c44b3a8964c863eab123b86d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eqnalign.sty \

@@ -11,14 +11,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.92"
 
-RPM_NAME = "perl-Filesys-Df-0.92-16.37.aarch64.rpm"
-RPM_HASH = "cb121bdef2c20a858b12eb3edf2747bfea7146cd4fb2e300e2229722b25ecafa69fa5110fc9d71286af452e2c2002d2f9fd68b07ceae20df7cc650fbe9dafe2e"
+RPM_NAME = "perl-Filesys-Df-0.92-16.38.aarch64.rpm"
+RPM_HASH = "3813a717ae6c1f82b8f7828b99a907bbf6d96b3aac2f1a671fb69f4486fd7aa97944237daf5abb01bbdf9688766266c7e12430b6e78d25e23d18411406d2530b"
 
 RPROVIDES:${PN} += "perl-Filesys--Df \
 perl-Filesys-Df"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

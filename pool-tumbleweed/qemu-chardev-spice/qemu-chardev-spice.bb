@@ -2,10 +2,10 @@ SUMMARY = "Spice vmc and port chardev support for QEMU"
 DESCRIPTION = "This package contains a module for Spice chardev support for QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.3"
+PV = "8.0.4"
 
-RPM_NAME = "qemu-chardev-spice-8.0.3-2.1.aarch64.rpm"
-RPM_HASH = "46d8a720e8031647c513a5eb7a8a592d125987db911a0f1e38e33db5640a844c4054faded12345173824fbb54b7bdd941304e233a3f1dfc0059f4d98bcbd6235"
+RPM_NAME = "qemu-chardev-spice-8.0.4-1.1.aarch64.rpm"
+RPM_HASH = "92f866bc1063731fcf072b612006a865897bd8ab5aa05923a8555a97c12516ea699f1bd95385f0c762badc30e78090ec0d8433beacbd26fe47220cd3bfd36512"
 
 RPROVIDES:${PN} += "qemu-chardev-spice"
 

@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.20"
 
-RPM_NAME = "ghc-semigroups-devel-0.20-2.2.aarch64.rpm"
-RPM_HASH = "233784cc2b9a299f02115c1bfcaed5b26b98ed143386df980bc6f4769325919b667340673ab26597a9fa27efdfaa3a66e06c84619e22691a3cb7729626b35427"
+RPM_NAME = "ghc-semigroups-devel-0.20-2.3.aarch64.rpm"
+RPM_HASH = "71c020c711fb7287d8799be64aa6f87e9aab845e2e3d94c9b11af882958b35872b6a35a867ebfd31d4e9bc99c5f43549f454d98e0dcee8027d3f3b9f43ed4083"
 
-RPROVIDES:${PN} += "ghc-devel-semigroups-0.20-KtsaS4jNcGkoC9puVZ6vB \
+RPROVIDES:${PN} += "ghc-devel-semigroups-0.20-6lktLD0mxwZ1Pjuc7q3dSl \
 ghc-semigroups-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-semigroups"
 
 inherit rpm

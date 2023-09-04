@@ -3,10 +3,10 @@ DESCRIPTION = "Plug-in adding Voikko based spell checking for the Finnish langua
 to the Sonnet spell checking framework."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "sonnet-voikko-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "8fa3600b27acca236dc51f4f8a376c2a0aac6ef054371ea94962947891854ee2708063e111294ae7903f4ebfdafdccd1affe45000bbfa954efcf8d0999d63246"
+RPM_NAME = "sonnet-voikko-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "5d1748327c336832674b652e3033ef08b3b71fbae38ac8a6437b8469e0cd592e5209e41c9725ec78c4491802629b089d2f08244219914b1ff6ba38b122b61f5a"
 
 RPROVIDES:${PN} += "locale-sonnet-fi \
 sonnet-voikko"

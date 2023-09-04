@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.13.4.1"
 
-RPM_NAME = "ghc-skylighting-doc-0.13.4.1-1.1.noarch.rpm"
-RPM_HASH = "0a09b413aec489f12907853437447b1503fdedd38005fea12d3046cb53d0a8b977f7ceb6e08ea96c262c5437d6f1afa287a9af312131b8d77e677ee9f8565db7"
+RPM_NAME = "ghc-skylighting-doc-0.13.4.1-1.5.noarch.rpm"
+RPM_HASH = "43f8bff7ddda7ae3ad5e14588792b5021920e848abc278f8665f980ae635dca3d26eb3182a9798720e76003395e3587558cb286a6284494b071eca8be5e17ba2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-skylighting-doc"

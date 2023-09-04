@@ -4,13 +4,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.009"
 
-RPM_NAME = "perl-Test-Exception-LessClever-0.009-1.25.noarch.rpm"
-RPM_HASH = "247663989399e248edcc667c99f9358c0b01ccd25ab1ad9093b3350c7b4e19796b3a552c43e1050f8cee8729ef3fcf67b43fff358c62f6cc2816c7fc61217ab7"
+RPM_NAME = "perl-Test-Exception-LessClever-0.009-1.26.noarch.rpm"
+RPM_HASH = "ae7553ea9e6e0da05f5c332cd27e0ac3cfa6ab57c0f16e94913eeedd1d2b00e8d5271b67b6f2f68cfa714f4e94a88a04b46600d4c361fce63a6e4aef27b27604"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Exception--LessClever \
 perl-Test-Exception-LessClever"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

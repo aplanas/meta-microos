@@ -11,14 +11,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.03"
 
-RPM_NAME = "perl-Module-Build-Using-PkgConfig-0.03-1.12.noarch.rpm"
-RPM_HASH = "58234006f9aa2405a21e4ae804af7d0f1c2082416a6feef40054c3c9289db1094b938504c183bc9bd6d9da813a958008ce0bb558a8176ddd33a001976870e381"
+RPM_NAME = "perl-Module-Build-Using-PkgConfig-0.03-1.13.noarch.rpm"
+RPM_HASH = "ddedb43a73b7e4f37add04ae33b20df56d329ca958954c34b2cc54194f7ffc51702a5a34fd7ebfdae497e61c1ba26642c767dedac0d8be641e6bb2c779d4f31e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--Build--Using--PkgConfig \
 perl-Module-Build-Using-PkgConfig"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-ExtUtils--PkgConfig \
 perl-Module--Build"
 

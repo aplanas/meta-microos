@@ -7,10 +7,10 @@ This subpackage contains the header files for developing \
 applications that want to make use of the Scintilla library."
 LICENSE = "MIT"
 
-PV = "5.3.5"
+PV = "5.3.6"
 
-RPM_NAME = "libscintilla-devel-5.3.5-1.1.aarch64.rpm"
-RPM_HASH = "ec56900aad19ad4c2bea89f14660e1e22da42381eb5fbd4df2a54d568cda1e84f7c8b0230f0b04e5ead2af0b01d183b9f708922aa7a785c2bda706c6609e6658"
+RPM_NAME = "libscintilla-devel-5.3.6-1.1.aarch64.rpm"
+RPM_HASH = "f8c045418b8a133257e427e03c72632574f84ed2a24620f6115104287baf99a238e1e0bb9d8f5b4c915bbf9e5707530b2153bf6515ff80a8c94aa3bae531c60b"
 
 RPROVIDES:${PN} += "libscintilla-devel"
 

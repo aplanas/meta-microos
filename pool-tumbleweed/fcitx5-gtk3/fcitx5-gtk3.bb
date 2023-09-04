@@ -2,10 +2,10 @@ SUMMARY = "GTK+ 3.0 im module for fcitx5"
 DESCRIPTION = "This package provides GTK+ 3.0 im module for fcitx5."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.0.23"
+PV = "5.1.0"
 
-RPM_NAME = "fcitx5-gtk3-5.0.23-1.1.aarch64.rpm"
-RPM_HASH = "b3849304f86d260f2c058175289ff1a17e15dc83886ebb3e24363687dfbb061651744e1e1f3686d62cb24633cdca78117a2ea4417f3c5c06ab79e7c8faf54df9"
+RPM_NAME = "fcitx5-gtk3-5.1.0-1.1.aarch64.rpm"
+RPM_HASH = "098342ad5eade54f8a84143e8a656fb00b210aae26f6cd8803b578170e320f7b2f9cb3afbd2059fdb43084e6f3c707b95c0e9407f7bd06a7e32d21d8963e7a2e"
 
 RPROVIDES:${PN} += "fcitx-gtk3 \
 fcitx5-gtk3"

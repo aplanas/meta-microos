@@ -5,17 +5,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.2"
 
-RPM_NAME = "ghc-vector-th-unbox-devel-0.2.2-4.2.aarch64.rpm"
-RPM_HASH = "3ff33794ac69d02d86e79e24fbde2b2e165d5f4e553becb03a08d09008cdc5fafb6b4876f78e0db0ffc4e05d32eca7a5a4fbe511a89a77dc54430757185a9c67"
+RPM_NAME = "ghc-vector-th-unbox-devel-0.2.2-4.3.aarch64.rpm"
+RPM_HASH = "8538e03718a5f6f6fc836e03f2cb8f17c41b1eed3e710da6cba1d955cb22ed896723a9828b6eb380d286feb37a73015084802db31a841a238e15950d8c8543bd"
 
-RPROVIDES:${PN} += "ghc-devel-vector-th-unbox-0.2.2-8WH0ofCzoXcG1eDIxYKY6t \
+RPROVIDES:${PN} += "ghc-devel-vector-th-unbox-0.2.2-4Hl5syaTqnL4b2rNrCiqzQ \
 ghc-vector-th-unbox-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-template-haskell-2.19.0.0 \
-ghc-devel-vector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp \
+ghc-devel-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
 ghc-vector-th-unbox"
 
 inherit rpm

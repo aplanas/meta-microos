@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.10dsvn61490"
 
-RPM_NAME = "texlive-enotez-2023.209.0.0.10dsvn61490-54.1.noarch.rpm"
-RPM_HASH = "62024b5c032efcd4f5c6f4c6742ea621cc5def10fb7f1ce919043443fb423fd613f4e0cf7200c94e5b8b966b5be026a140ffca80fb89751bf5170fadab22e916"
+RPM_NAME = "texlive-enotez-2023.209.0.0.10dsvn61490-54.2.noarch.rpm"
+RPM_HASH = "1d6c073d3ee4692e65553f12d4c1c94c06c62094aeb0e0e42ced23c7cc0e2fc547214100c98f1bccbff2beb322cdcfc0ede3552475a988772ccb53e8f1c6b2ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-enotez.sty \

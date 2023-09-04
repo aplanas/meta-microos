@@ -5,10 +5,10 @@ the required service in the OSGI service registry and injects it in the object \
 while deserializing."
 LICENSE = "Apache-2.0"
 
-PV = "2.13.3"
+PV = "2.15.2"
 
-RPM_NAME = "jackson-module-osgi-2.13.3-1.8.noarch.rpm"
-RPM_HASH = "19b0b1f65692283fb6694e916d82480dee8f0009f426f33710bc9f8f052f3c8a62152cdf50b91a3e890fe6d98fc33eb8d5fbfe8c65c849123d82d93ccb1f290f"
+RPM_NAME = "jackson-module-osgi-2.15.2-1.1.noarch.rpm"
+RPM_HASH = "03c0b3380e700c6fd6412632aaaedf9243bff53c120c3dd3149ccc4941527f5c8d2ae12a34969b16e05badcc1e0e69bff8c6b330f8d396f50f74e55e4c57267d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-module-osgi \

@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "3.094"
 
-RPM_NAME = "perl-WWW-Shorten-3.094-1.11.noarch.rpm"
-RPM_HASH = "0c9a5f98f83b51922576a1bec6a7f172628c0a15263ea29c42bbd99aec04d48663f3d00915b84fbaef646dedbec69bfd22d56ea122483ec1f60701ebf1180ef4"
+RPM_NAME = "perl-WWW-Shorten-3.094-1.12.noarch.rpm"
+RPM_HASH = "a2e521489cad38e6e053f2c2faf18153e0fa6d0b6c0bd267574fa8536e10d81380edbd5b452b087d149ac8468f611b6188f91d457c3fd757c5ec24666efc8fc0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-WWW--Shorten \
@@ -25,7 +25,7 @@ perl-WWW--Shorten--generic \
 perl-WWW-Shorten"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Getopt--Long \
 perl-LWP--UserAgent \
 perl-Try--Tiny"

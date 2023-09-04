@@ -5,8 +5,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.49.3"
 
-RPM_NAME = "graphviz-ruby-2.49.3-6.8.aarch64.rpm"
-RPM_HASH = "86cf5ccb03d6db3593b206113fa3d4e2aa146660496fc36e6bf200013f7337044b35642af68209914401cbc877be5f9210fd25b7c72c60b55c0dbc75cfff11cf"
+RPM_NAME = "graphviz-ruby-2.49.3-6.9.aarch64.rpm"
+RPM_HASH = "474c6925e419f6cd5f059d9c414a14844ee2e183090f9a0dcb351d0f5ab7a71a2cd1503c30981c8763fec375caf84b57a11a9d8c4ebd23289898a6b2f2cc6ee5"
 
 RPROVIDES:${PN} += "graphviz-ruby \
 libgv-ruby.so"

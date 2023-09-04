@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.42.0"
 
-RPM_NAME = "fzf-zsh-completion-0.42.0-1.1.noarch.rpm"
-RPM_HASH = "738c97b5933358b3d19bf6474857bc85b9a58d9f5f345d78850501ec9434ffbd3d1d0eb2d275478eab55086f831bd8714f4473c99bae770d7bd550e4930c93aa"
+RPM_NAME = "fzf-zsh-completion-0.42.0-1.2.noarch.rpm"
+RPM_HASH = "10706867b359aaacaebe3e10bf2e43153e8668c21034d7c7c64541d006471abc4a29a313c2c5dc9d6aefc6e6338e33007b76d5e03e3b5446011f53727202f09c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-fzf-zsh-completion \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.9.0"
 
-RPM_NAME = "ghc-ShellCheck-doc-0.9.0-2.7.noarch.rpm"
-RPM_HASH = "0ae1bd35ce398c318822a67ab996250185c1e520304ac2572f49c4a58afce19a9ea17843337a11b6cb23b9881f66e8a3645269cea1aca783f798caebc964964d"
+RPM_NAME = "ghc-ShellCheck-doc-0.9.0-2.11.noarch.rpm"
+RPM_HASH = "4e55c72dd1b86420f20d9e3da40d3b293e137b67941063306984f1db73e502a678b7f36b878a7d6938727b913bf7e2ec44363f8abd57577def1ff3b9f18e06ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-ShellCheck-doc"

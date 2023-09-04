@@ -4,10 +4,10 @@ unnecessary destinations and shortens the destination names or \
 uses numbered destinations to get smaller PDF files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.2.7svn56253"
+PV = "2023.209.2.7svn56253"
 
-RPM_NAME = "texlive-hypdestopt-2023.208.2.7svn56253-53.1.noarch.rpm"
-RPM_HASH = "56c0b7a4430ac636b1251638b085d325fd497a42584e173583a25e51a68fabfb55cd3ee72c28d98fcd1983c903bacbed3165fa925a110aad9fad3ef85ac2412a"
+RPM_NAME = "texlive-hypdestopt-2023.209.2.7svn56253-54.1.noarch.rpm"
+RPM_HASH = "c3da0b7e71a95db24f814e9c300e4c61ea20bb04bea234497f56b6f0a952f5e81be79ee98427d5d9a7b86e6464a102ca120a24cf76bc2339ec0154a62e74c812"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hypdestopt.sty \

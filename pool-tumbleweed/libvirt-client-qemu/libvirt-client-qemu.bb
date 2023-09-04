@@ -3,10 +3,10 @@ DESCRIPTION = "The additional client binaries are used to interact \
 with some QEMU specific features of libvirt."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.5.0"
+PV = "9.6.0"
 
-RPM_NAME = "libvirt-client-qemu-9.5.0-2.1.aarch64.rpm"
-RPM_HASH = "c9a93e47d64f22b69a1e245f3fe69b694d54cbcd0c0bf164cb8632a7f54ec730c3e22921d58cfbb43b5dd13a06dd6a9eaf1c2ef5837036d9b4a3271f4f1d37ff"
+RPM_NAME = "libvirt-client-qemu-9.6.0-2.1.aarch64.rpm"
+RPM_HASH = "6213681a1db42eb7bab14559915d32021489b2692b873f4161089a5f3f305099398953363e9902cbfafc925ed99d24cbdd1bedb5bbc785bf3273f7f50e992b3d"
 
 RPROVIDES:${PN} += "libvirt-client-qemu"
 

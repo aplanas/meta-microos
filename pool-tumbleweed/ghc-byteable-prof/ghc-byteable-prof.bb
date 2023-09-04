@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.1"
 
-RPM_NAME = "ghc-byteable-prof-0.1.1-12.2.aarch64.rpm"
-RPM_HASH = "3cef0dda1ae85c5496723b5f062ae488d00145ff279b637abc56f330ad196dcfec31bfcf1fea4fb3c215d03ffc4e715782fccf6618d1e5724221bc41634a7ebd"
+RPM_NAME = "ghc-byteable-prof-0.1.1-12.3.aarch64.rpm"
+RPM_HASH = "a3f230afc9fa836f51d6f42d24949334c9ef6eabf5091500bdd0acc5bb76b4599637b8bce2b31a43abce54b41bf85ee76fd8be4db0f0d0d3e38c6a48d1995e95"
 
 RPROVIDES:${PN} += "ghc-byteable-prof \
-ghc-prof-byteable-0.1.1-KSaZugJOm4ALb4WyX9cufg"
+ghc-prof-byteable-0.1.1-D4ZAyAuZ5dZDp71hQtTs5r"
 
 RDEPENDS:${PN} += "ghc-byteable-devel \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-bytestring-0.11.4.0"
+ghc-prof-base-4.17.2.0 \
+ghc-prof-bytestring-0.11.5.1"
 
 inherit rpm

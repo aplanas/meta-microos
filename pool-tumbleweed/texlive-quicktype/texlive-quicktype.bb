@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.1svn42183"
 
-RPM_NAME = "texlive-quicktype-2023.209.0.0.1svn42183-54.1.noarch.rpm"
-RPM_HASH = "7570eb3fef3ef7c824af1b99989f306cf6fa0d33db5247fdddd1d2148da63bfb88bd3784565d66ed7da9ce00c8b0a057b495942eaf3a2a0bb9b7eebeddc7512b"
+RPM_NAME = "texlive-quicktype-2023.209.0.0.1svn42183-54.2.noarch.rpm"
+RPM_HASH = "50455fc5f3bd0ce34e81cec9660407b8454e6572d7829b2527cc39bac54a70c2b6c285ff5ca29d9c6212b849c3b3fefc3c3eb1706a036e0de5d1b58516f0b9d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-quicktype.sty \

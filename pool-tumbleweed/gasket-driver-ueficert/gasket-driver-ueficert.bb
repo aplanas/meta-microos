@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.18"
 
-RPM_NAME = "gasket-driver-ueficert-1.0.18-2.2.aarch64.rpm"
-RPM_HASH = "e23730f9df78c7d02bdb9f3ebc3569c87ca3424640274ae9cb88c36426f030eb0835517cbfa3b21cc5861a3c1e243da33636dfe03d89f1cfd7570464af4d4295"
+RPM_NAME = "gasket-driver-ueficert-1.0.18-2.5.aarch64.rpm"
+RPM_HASH = "bb64851353b9776f3d7d92ac3231ea21365f5d388b506341d62bed218628c007ad1da809dd2c1a112c0340b483f18c5a525fae43f7490917426c42c76a787f67"
 
 RPROVIDES:${PN} += "gasket-driver-ueficert"
 

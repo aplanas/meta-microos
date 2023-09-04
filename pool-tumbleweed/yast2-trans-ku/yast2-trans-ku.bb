@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Kurdish Translations"
 DESCRIPTION = "YaST2 - Kurdish Translations."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230729.64eca7e0a1"
+PV = "84.87.20230818.ea489402e5"
 
-RPM_NAME = "yast2-trans-ku-84.87.20230729.64eca7e0a1-1.1.noarch.rpm"
-RPM_HASH = "64cce62fc10cbda2d40dc5201913812f1cd493474f387f276d84e14316a5d55eeb9661922760e2bf32735a3a461a6503aea8f1ff997215279a109ee719b30bf1"
+RPM_NAME = "yast2-trans-ku-84.87.20230818.ea489402e5-1.1.noarch.rpm"
+RPM_HASH = "a77df828a9d1ca3e14a1140846215ee1c98f0a6edbfa9de6113ed7bf9e02920d30735c8aac5d0a2c0cdfcdff35861f1f04ddbfd5f112ea0b7dd013621b55319c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-ku \

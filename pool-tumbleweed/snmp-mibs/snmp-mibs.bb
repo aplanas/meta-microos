@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "5.9.3"
 
-RPM_NAME = "snmp-mibs-5.9.3-4.10.aarch64.rpm"
-RPM_HASH = "cbd7085503715d0345c5d989cb010651d636a2d3e1621e2cc7dde6c130c1603a7ccc363e0adae19f5856cda815020589e846d1879060fb7234eca4a5c9b39713"
+RPM_NAME = "snmp-mibs-5.9.3-4.11.aarch64.rpm"
+RPM_HASH = "6476456a147fa5fa76bc5aacbc547e6e9bcf0fee4226f3202d6e779926dcdec9dee166bc056a12a2593b7fcd1bdceee2a735580c3c2a9f263af978aecd79d3a1"
 
 RPROVIDES:${PN} += "snmp-mibs"
 

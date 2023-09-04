@@ -47,14 +47,14 @@ LICENSE = "HPND"
 
 PV = "3.05"
 
-RPM_NAME = "perl-Text-Soundex-3.05-1.36.aarch64.rpm"
-RPM_HASH = "91de8651719355b1c5ce4d69b4f08e0f0baded6ba229feb0416650ed7aa8b97edf7898f5b4583e47abc31ab12f15fdc372d344feb9459108998ebbb1aa0331ff"
+RPM_NAME = "perl-Text-Soundex-3.05-1.37.aarch64.rpm"
+RPM_HASH = "4f42155520856b695c8cf92c42f440ce4efb68b4896a7a867389f731fea7a9338b2b4b2c7e07dd78946304a9eed9f0b1c299a0c1b51771a6e55b3471d0e998e5"
 
 RPROVIDES:${PN} += "perl-Text--Soundex \
 perl-Text-Soundex"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

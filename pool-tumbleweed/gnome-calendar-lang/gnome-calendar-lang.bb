@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.1"
 
-RPM_NAME = "gnome-calendar-lang-44.1-1.1.noarch.rpm"
-RPM_HASH = "5381a4bfa15ca4b647cd4a6123eaceaeaa6c66e868e8b56228fe40fa7a0cc7ec6a741c1bfb4a25d19998c4f161e024ae9a59191a601e30e5c47f0416c2e5ee52"
+RPM_NAME = "gnome-calendar-lang-44.1-2.1.noarch.rpm"
+RPM_HASH = "d501f70ca67a453d266bda8ecc4ea0d779ef3ecb185f29bbcd2711861ee26dc2f0f7184701c319bdf7aef81ebd9b8c2b3f194e8079bb9a3940c8989cb42a1017"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-calendar-lang \

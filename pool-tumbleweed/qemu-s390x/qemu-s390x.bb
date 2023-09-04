@@ -9,10 +9,10 @@ virtualization. \
 This package provides s390x emulation."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.3"
+PV = "8.0.4"
 
-RPM_NAME = "qemu-s390x-8.0.3-2.1.aarch64.rpm"
-RPM_HASH = "ab3dfa6df726c430609b3aef1fa9a83fc20c9e2277620ef5746bb7d296dbce62bcb6cd2bc588288cc88c3f1cb7bbe937f5a6b5d382c49d6e5a9839a1774845eb"
+RPM_NAME = "qemu-s390x-8.0.4-1.1.aarch64.rpm"
+RPM_HASH = "74c1f977103718532e09e3208aabde5e7128614a75dfc33a0541573b67ea29ae144768ce1451fec7588f97fe2da14aeba5597a09880a2d6f5b9485365209142c"
 
 RPROVIDES:${PN} += "qemu-s390 \
 qemu-s390x"

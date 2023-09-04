@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.000031"
 
-RPM_NAME = "perl-Text-Markdown-1.000031-17.3.noarch.rpm"
-RPM_HASH = "6ebca8f2640824a42a68163afce5ec31dd714cc9e19bafc7079db25a2a9409352ea1510ff3d90ff061e2fe93b9fdb11e4b223e2f49101a45417e861bfa01baaf"
+RPM_NAME = "perl-Text-Markdown-1.000031-17.4.noarch.rpm"
+RPM_HASH = "3352e44882c7a6571b3d36f0693c2e7f3926b32d0b03182b286c177d9e5e0b652cf088b09163e8ade9e382aa846765a616546edcafa1fe7ec59c09b5cd3fdce9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--Markdown \
@@ -21,7 +21,7 @@ perl-Text-Markdown"
 
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/sh \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 update-alternatives"
 
 inherit rpm

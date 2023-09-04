@@ -5,10 +5,10 @@ API. It extends the ElementTree API significantly to offer support for XPath, \
 RelaxNG, XML Schema, XSLT and C14N."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
-PV = "4.9.2"
+PV = "4.9.3"
 
-RPM_NAME = "python311-lxml-4.9.2-8.1.aarch64.rpm"
-RPM_HASH = "850bb26b5bdcdd77eb6ebc1581016d51b84d2a6a8b9420cdadca02ead4fac7bb3f994934804cc423a2d8dfb02e1a81b9a07c5d7d60fdf177fb618c7d56ffb65e"
+RPM_NAME = "python311-lxml-4.9.3-1.1.aarch64.rpm"
+RPM_HASH = "a8cf18c2c3ab29ebe64aec3beaead63e93682a93d6f3522ef0ff4466833595e53e14bbf1f9d8079c6427c111e5674184073a7944cf770f22d787e944d63140cb"
 
 RPROVIDES:${PN} += "python3-lxml \
 python3.11dist-lxml \

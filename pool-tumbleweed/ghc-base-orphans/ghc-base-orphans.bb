@@ -12,15 +12,15 @@ LICENSE = "MIT"
 
 PV = "0.8.8.2"
 
-RPM_NAME = "ghc-base-orphans-0.8.8.2-1.2.aarch64.rpm"
-RPM_HASH = "26b956c474b9eb46f11abd8827e6ac8d20d7e1530970be015aa71c40e23d8f15480fdbdc75bbc94df4879066ce7e8e53c4941894b549469155e988a25d6c95d2"
+RPM_NAME = "ghc-base-orphans-0.8.8.2-1.3.aarch64.rpm"
+RPM_HASH = "7bd7295f83924f9fdfcb9216660457801bffbd7f877b7439ca27a55476da245c5131421f78f2d5ffc550f7c501fb4e0fe09753a8938dacb30e86665ecc85514e"
 
 RPROVIDES:${PN} += "ghc-base-orphans \
-libHSbase-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8-ghc9.4.5.so"
+libHSbase-orphans-0.8.8.2-Ace67bhQsJ1lQVihVIKZ5-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

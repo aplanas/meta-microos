@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains necessary include files and libraries neede
 to develop applications depending on the kholidays library"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kholidays-devel-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "ecd82fa87e0a449eee9f69689d3a07e94ff08d9777aef272414c20dabee0d55a6096825b2f3e1f99d0068f048eeb16b4bc21ae6dba1f4192b8983649f61f8b6a"
+RPM_NAME = "kholidays-devel-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "2a674dd681b5201ba14911e5a32f1355f1ed8ad2d75e799749ef04e4fe3e00f6853fcce534d5acaa7f221dd944caabce296f519de9af736a1cdb824818756a9c"
 
 RPROVIDES:${PN} += "cmake-KF5Holidays \
 kholidays-devel"

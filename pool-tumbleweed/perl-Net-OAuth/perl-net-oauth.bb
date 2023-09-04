@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.28"
 
-RPM_NAME = "perl-Net-OAuth-0.28-5.26.noarch.rpm"
-RPM_HASH = "1a8d8c627b770a76a01b4bd46c8baa4d17e903f1d1c388247c4b8f17f22431d40762be038db50507cc2f867c7c35906c95d34433f04bc55cbad2cc213eb59a85"
+RPM_NAME = "perl-Net-OAuth-0.28-5.27.noarch.rpm"
+RPM_HASH = "2184aa5b405e118b79f65b4a83144321381390dffd2e08432a142fc0a2a4db39035bc1505cf02fe0c1a307a4e564e38af480019176ee6b850beff2d1e70c3666"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--OAuth \
@@ -34,7 +34,7 @@ perl-Net--OAuth--XauthAccessTokenRequest \
 perl-Net--OAuth--YahooAccessTokenRefreshRequest \
 perl-Net-OAuth"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Class--Accessor \
 perl-Class--Data--Inheritable \
 perl-Digest--HMAC-SHA1 \

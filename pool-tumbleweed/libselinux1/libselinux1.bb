@@ -10,8 +10,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "3.5"
 
-RPM_NAME = "libselinux1-3.5-3.2.aarch64.rpm"
-RPM_HASH = "13981f0e90fa1996e28c0d686061b05d3c383e61594bfa7c6df1eb5aeb7cea70b208679d88491261e8eeb51ed46ecda633cf591e21d337968293930e2e51b9bf"
+RPM_NAME = "libselinux1-3.5-4.1.aarch64.rpm"
+RPM_HASH = "df8ca897392d0283193a134f1e3ef435b251746ebeed6aa8fbe7df560b29f655f9e8fe8c4dcb3b8d9f4931250d3bb7076db13b167e81d2c62eae0cc7ab4503da"
 
 RPROVIDES:${PN} += "libselinux.so.1 \
 libselinux1"

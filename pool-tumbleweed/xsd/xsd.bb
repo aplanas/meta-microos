@@ -10,8 +10,8 @@ LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception"
 
 PV = "4.1.0"
 
-RPM_NAME = "xsd-4.1.0-1.15.aarch64.rpm"
-RPM_HASH = "4bccae502527d309bd53909a3befc9326631a6900b7452a59704de010f8039fb8fe32dc79a5be5bddc8d95e803fedaad4ff8fe4feeb61d26860ed7336e6aec07"
+RPM_NAME = "xsd-4.1.0-2.1.aarch64.rpm"
+RPM_HASH = "19b22a0189a50ea55b7b83b527fc738ca76bdfdc48ef950714832fbc5fda237c66119e07df7d226fde8ef19347c6909d0264246cfa26f795fa27cdeadb140526"
 
 RPROVIDES:${PN} += "xsd"
 

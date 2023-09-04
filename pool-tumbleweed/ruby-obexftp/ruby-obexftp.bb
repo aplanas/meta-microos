@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.24.2"
 
-RPM_NAME = "ruby-obexftp-0.24.2-1.24.aarch64.rpm"
-RPM_HASH = "09cf6cc8a2c848b1ffecf6bd39527c7f638187688f6be0d019ac440e64dd9c46e09f137829c671eeb4a84308b353247d6b689fe4c946957f8661dd859c2976a9"
+RPM_NAME = "ruby-obexftp-0.24.2-1.25.aarch64.rpm"
+RPM_HASH = "78e2a465f79e785bf29c60bbf5e1138c90706c4474b4bbe3cb481ac01df7cdd84b56e0a57c32271fcd0fc00d5ddcf6dbff6bf57fe7cf39d1fbad8ed93bdb978b"
 
 RPROVIDES:${PN} += "ruby-obexftp"
 

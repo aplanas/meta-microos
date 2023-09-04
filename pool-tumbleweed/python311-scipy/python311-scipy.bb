@@ -6,10 +6,10 @@ work with NumPy arrays, and provides many numerical routines such as \
 for numerical integration and optimization."
 LICENSE = "BSD-3-Clause & LGPL-2.0-or-later & BSL-1.0"
 
-PV = "1.10.1"
+PV = "1.11.1"
 
-RPM_NAME = "python311-scipy-1.10.1-3.1.aarch64.rpm"
-RPM_HASH = "17831a82db84dda06e1082ce8dbfd24e9da95c15bec59354f474ab4feb801b94067251da8613fdf7bc6db6e6eab567b32baefc0c3ce17cc2bc3cbce11b87e851"
+RPM_NAME = "python311-scipy-1.11.1-1.1.aarch64.rpm"
+RPM_HASH = "1acc8d8db0ce51cccc485e8bbae437c19527e740b97ead206a56797aeecf8bae975ee710cf891639bf68dd44fdcecc0cad8274d33ba72ab208a4ef9ca4f2e1ea"
 
 RPROVIDES:${PN} += "python3-scipy \
 python3.11dist-scipy \

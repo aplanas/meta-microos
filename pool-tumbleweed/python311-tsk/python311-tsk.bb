@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & LGPL-3.0-or-later"
 
 PV = "0~20210419"
 
-RPM_NAME = "python311-tsk-0~20210419-1.11.aarch64.rpm"
-RPM_HASH = "3677b00b66f3d9366d3041b007f3c10efc05f9970ccc7efc8da3d989436fb56e4f2ba6a6f3ba95b921055e37b91c8e8d1887f3e4d683de0fdbf4c74cc1cd9bcf"
+RPM_NAME = "python311-tsk-0~20210419-2.1.aarch64.rpm"
+RPM_HASH = "e1800e56f7545743f31229e0a5ed43f77f3deae40f4f695c47f551729ee15ba756656706d0e8f374fd00f7dd44189965a062f8af1d62a9a4c77c8cf5cc377c37"
 
 RPROVIDES:${PN} += "python3-tsk \
 python3.11dist-pytsk3 \

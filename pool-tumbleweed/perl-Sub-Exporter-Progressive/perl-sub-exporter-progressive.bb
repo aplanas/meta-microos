@@ -15,13 +15,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.001013"
 
-RPM_NAME = "perl-Sub-Exporter-Progressive-0.001013-1.24.noarch.rpm"
-RPM_HASH = "e184fdcc73bfcc7838c797f18695507d97f1ddb49770eed07542d08aa52ca4c746fba2a43551ecd9aee9f6ac4e5e60990e41ca58fd939fdd3c590afdc6fc994c"
+RPM_NAME = "perl-Sub-Exporter-Progressive-0.001013-1.25.noarch.rpm"
+RPM_HASH = "065b4437b08ba8ac8bd4742519e58cba5150ad126e89687bde5616695267a0113ca93fa6ae4ee51277b27d65b38e525a6c7ae457d8db1719335df48b30f6a36e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Sub--Exporter--Progressive \
 perl-Sub-Exporter-Progressive"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

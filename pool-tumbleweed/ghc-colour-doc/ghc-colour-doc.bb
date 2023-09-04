@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.3.6"
 
-RPM_NAME = "ghc-colour-doc-2.3.6-2.6.noarch.rpm"
-RPM_HASH = "6d80aaa242fb5126a785815089864165cd7cbeb8ca56b2f4bf217ce6cd06e326bf6e13072e007ae0e64b169148afeaad50d2d61ba0ba18cc07ca014ff54ce7e1"
+RPM_NAME = "ghc-colour-doc-2.3.6-2.8.noarch.rpm"
+RPM_HASH = "b7bea966a53c72379f9821feda0393991074499c2fe41b1eec40de752a1dfff834f2c15d9d5261f8c0c860689142ba95ce9a617b7245fcb9b2a29a1aa69d3b83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-colour-doc"

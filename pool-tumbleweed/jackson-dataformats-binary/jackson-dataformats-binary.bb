@@ -2,10 +2,10 @@ SUMMARY = "Jackson standard binary data format backends"
 DESCRIPTION = "Parent pom for Jackson binary dataformats."
 LICENSE = "Apache-2.0 & BSD-3-Clause"
 
-PV = "2.13.3"
+PV = "2.15.2"
 
-RPM_NAME = "jackson-dataformats-binary-2.13.3-1.8.noarch.rpm"
-RPM_HASH = "4d71ca3f8319f92fe931157e9b7473f4b66cb670fe9f104d6e8286eebb5eb3e5882f8bfb8e369ece54875a14b14083cfb7ff437078b621c94aaed23544c3f045"
+RPM_NAME = "jackson-dataformats-binary-2.15.2-1.1.noarch.rpm"
+RPM_HASH = "ad751d29cba9fd093b8c1179a06dc9c80ea30b6923dea6384f786915a5c527427916d3735772a512380fb766d9ac77b3324bdd74a37d1abcc6d5c02937608fd8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-dataformats-binary \

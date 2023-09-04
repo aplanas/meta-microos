@@ -14,8 +14,8 @@ LICENSE = "PostgreSQL"
 
 PV = "15"
 
-RPM_NAME = "postgresql-contrib-15-2.10.noarch.rpm"
-RPM_HASH = "f4e1afb5a535bc721f9ad78cdc2050d669b205c3427808e054f440bfe44672e2b12b64b5e84795f46d24bea7b62b274ed88f6b381bc3dab21961b2e9855c47b8"
+RPM_NAME = "postgresql-contrib-15-2.12.noarch.rpm"
+RPM_HASH = "bcbe0fc760ee2ec01b327447ba530640d06fcc0190eb8c36d80109a14c85aa735de73bcddad391f6b02fe0661affdbec5b302f2154c81e3bd8d96a49e0163acf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgresql-contrib \

@@ -5,10 +5,10 @@ framework that addresses scientific data management challenges. \
 This package provides the shared libraries for ADIOS2."
 LICENSE = "Apache-2.0"
 
-PV = "2.9.0"
+PV = "2.9.1"
 
-RPM_NAME = "libadios2-mpich-2_9-2.9.0-1.1.aarch64.rpm"
-RPM_HASH = "fec6425e7643b7754c3d48f37367ce0a7dddbf822dc6ebf39ba09cb6c7e127c563374fc9c88aeac49fe3c0a37552ee4a457d09e927cf22d15bf1cf03e7adc39a"
+RPM_NAME = "libadios2-mpich-2_9-2.9.1-1.1.aarch64.rpm"
+RPM_HASH = "ecd3c90ee985c02894b6f23bfb3abf60ee21de50c3b1e1805e463b9ae7d26e5a77b84baa8daa917b3855f27fd0e4679ad3709501f4a146a6e6eac4022a0e02b1"
 
 RPROVIDES:${PN} += "adios2-mpich \
 libadios2-atl.so.2.9 \

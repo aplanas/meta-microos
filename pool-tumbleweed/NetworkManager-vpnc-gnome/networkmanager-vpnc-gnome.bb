@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.8"
 
-RPM_NAME = "NetworkManager-vpnc-gnome-1.2.8-1.7.aarch64.rpm"
-RPM_HASH = "56f1a86d40a40e5c17cc84f7e5d31f957c5bbebc3ac5a1ea0f7edc04e042d5a819cdd8626d8aa456469effdbe697617cfb69a5506a44f8a31e29b4095b1e00a0"
+RPM_NAME = "NetworkManager-vpnc-gnome-1.2.8-2.1.aarch64.rpm"
+RPM_HASH = "43ed1eb7cf3285206f677472fddd4752682fd71a88fdb4754f2a4bf4fce46347a14c1d94d44ea011e881f705e3a421c5061c03c83e5070a2a5bd039617dca337"
 
 RPROVIDES:${PN} += "NetworkManager-vpnc-frontend \
 NetworkManager-vpnc-gnome \

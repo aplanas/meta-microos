@@ -7,8 +7,8 @@ LICENSE = "GFDL-1.2-only & GPL-2.0-or-later"
 
 PV = "3.21.0"
 
-RPM_NAME = "valgrind-client-headers-3.21.0-1.1.noarch.rpm"
-RPM_HASH = "84da07b16465918eb6d62c8fa514d4a159c626d3acf032bedcf57749c1b90e498a9e83cc9f81b1b3f984565c9a5041cf84d4e667ead4e685dc0e398cc212dfef"
+RPM_NAME = "valgrind-client-headers-3.21.0-2.1.noarch.rpm"
+RPM_HASH = "bf6a28e9d853380bb0267a16aa73154db503585fa3d09f3c23e18eea8b1006ae9bb16d03cc7c14dc650f5a21c4c3b14e4f3f63c143da8a5238d693ded6bba6f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "valgrind-client-headers \

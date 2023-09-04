@@ -6,10 +6,11 @@ This subpackage contains Kismet SDR rtl433 capture helper. \
 https://kismetwireless.net/docs/readme/datasources_sdr_rtl433/"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2022_08_R1"
+PV = "2023_07_R1"
 
-RPM_NAME = "kismet-capture-sdr-rtl433-2022_08_R1-2.5.aarch64.rpm"
-RPM_HASH = "351aa98f0911c2a73ee4fa98b1d9e47d7e868a26bf8bf61098d67e179a093fc2fe04545e312d350501c99c6d749cab15b2f27b0c6f4d59a0c9011c31cb7d321f"
+RPM_NAME = "kismet-capture-sdr-rtl433-2023_07_R1-1.1.noarch.rpm"
+RPM_HASH = "a8f4d3680c599a16f97ee32f8b8d127309be033e5ef09461bab079450b5f8095d7d56b47615b3d6bc24f537f0497e95e93ece11d8ae868fa529b0ff0659839af"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kismet-capture-sdr-rtl433 \
 python3.11dist-kismetcapturertl433 \

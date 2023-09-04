@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-rcs-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "1acfff2eeefb9283e0f41c0b36c043feeeda39acb557cabd2395862d16293c4171f3d6baf393bd67b8e82cb1337d6b9d7b682344bc1e97bb66dd8e351ce6dae4"
+RPM_NAME = "texlive-rcs-2023.209.svn15878-54.2.noarch.rpm"
+RPM_HASH = "afad9c4eb0fb5b6073c32fd49648cd26f14c55ab50491314b46dd12c152e836469a1f791515a3345b38972f486a2f2527615bcbba28e1e0ffb8bcb12dd90bcb8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rcs.sty \

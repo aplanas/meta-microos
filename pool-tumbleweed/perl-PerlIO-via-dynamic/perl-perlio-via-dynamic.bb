@@ -13,13 +13,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.14"
 
-RPM_NAME = "perl-PerlIO-via-dynamic-0.14-6.21.noarch.rpm"
-RPM_HASH = "6d4f0afaa35e20ce1805f6698f95f9ea698a146e0d3b9f6d107758c4c43b34dfbfa8cfce6e652f455fceebbcc9e4fa859ce8feffff862754505637dff12b4cc1"
+RPM_NAME = "perl-PerlIO-via-dynamic-0.14-6.22.noarch.rpm"
+RPM_HASH = "58f7ff3d6e77a3091a277c093f01cf4cf3f92ef6044f65d240369b509bfc6ac86d56e726de9ba7e71256e4e5e7b0cea0bee12ca975537050921aeff53a083b47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-PerlIO--via--dynamic \
 perl-PerlIO-via-dynamic"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

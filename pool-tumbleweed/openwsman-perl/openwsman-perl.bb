@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
 PV = "2.7.2"
 
-RPM_NAME = "openwsman-perl-2.7.2-2.8.aarch64.rpm"
-RPM_HASH = "c5ef3448db380ca68e6cbe3bd76dc459f02feb776dbc434be917a54fff868b1105374772e6aad9dfaa8accef9ffb374657d84c0bb0bbcc7cefadeb1621ee4d27"
+RPM_NAME = "openwsman-perl-2.7.2-2.9.aarch64.rpm"
+RPM_HASH = "3c4b65eca18565d68650681182404167f1ad978a1dad8b83c1cdfe66f3869cad1a0c7962024d79efe4bb5af7613331c31e44bcc53691c55be8db7086f6ab04b6"
 
 RPROVIDES:${PN} += "openwsman-perl \
 perl-openwsman \

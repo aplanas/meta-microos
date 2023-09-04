@@ -17,8 +17,8 @@ LICENSE = "GPL-1.0-or-later | Artistic-1.0"
 
 PV = "2.3"
 
-RPM_NAME = "perl-Linux-Inotify2-2.3-1.11.aarch64.rpm"
-RPM_HASH = "79754659206a72e7645adb1b5ae4f7cfb5620088dac9a0ed4c849d029e71741569191deb68c0372b70ac0e3e52688ed5b075120277d5bede0a1f89ecee3fef8b"
+RPM_NAME = "perl-Linux-Inotify2-2.3-1.12.aarch64.rpm"
+RPM_HASH = "ba27d6f689204192481a6f973c43cc4d7c14b26afc7f3777196d444ee297aac7a5826914695be7bbb226d3303b9c7db6ae2246a95c15035ba468b35d2bf02629"
 
 RPROVIDES:${PN} += "perl-Linux--Inotify2 \
 perl-Linux--Inotify2--Event \
@@ -27,7 +27,7 @@ perl-Linux-Inotify2"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-common--sense"
 
 inherit rpm

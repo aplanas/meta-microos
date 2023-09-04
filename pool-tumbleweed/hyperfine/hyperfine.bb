@@ -13,8 +13,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "1.17.0"
 
-RPM_NAME = "hyperfine-1.17.0-1.1.aarch64.rpm"
-RPM_HASH = "6b3b62a0d3ca0dbb65e17bd9450e8c0f3ccd3cc257ce455c995ddbd63ac7e2d3b1b29c507f487b855c64bd9fe7c91a76c9f36864a12904dfa0b61b4327fa5e5c"
+RPM_NAME = "hyperfine-1.17.0-2.1.aarch64.rpm"
+RPM_HASH = "0c49d7a4af0dcc3a36c3d982ddc7c2460396bc91bf9ec7e05649ba5945387e374fde2799e87a2153aeeb3995832b7620a3e68afb3116073a6a720b78952b842d"
 
 RPROVIDES:${PN} += "bundled-rust-crate-ahash \
 bundled-rust-crate-anstream \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-perfevent-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "1802766212631968fb76feea965cb17bf890792331b543bdf7ea3b5c77067847517470412bb17656f6789f227e0a4222cda80ef40c1d8bd3b52349eacfd502f7"
+RPM_NAME = "pcp-pmda-perfevent-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "1dc549ff21195a7376dec4b848211209123579dc62e498faf77dd39e51e356dfb73c91d87d2d747dba550bfe3f4d819858773ef063275d1842ebef1ea99b865b"
 
 RPROVIDES:${PN} += "config-pcp-pmda-perfevent \
 pcp-pmda-perfevent"

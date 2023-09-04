@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for lf"
 DESCRIPTION = "Bash command-line completion support for lf."
 LICENSE = "MIT"
 
-PV = "30"
+PV = "30+dd82949"
 
-RPM_NAME = "lf-bash-completion-30-1.1.noarch.rpm"
-RPM_HASH = "618a54df7efd845a6418a20ca114f9489875ce94e83cc5a6e877816cea08ae7cd965b44abd42e2fb16f575bb495c023f1b9a919da161a67ec88d3a8614cebf47"
+RPM_NAME = "lf-bash-completion-30+dd82949-1.1.noarch.rpm"
+RPM_HASH = "ae58b99ff16b21dfb67c196d1a58db368bfeea5e8531a54a2e11e7f9612595be9a556e37fdd46425e49a2ed5db2beedded004b4c37a1b4317386de188b848e71"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lf-bash-completion"

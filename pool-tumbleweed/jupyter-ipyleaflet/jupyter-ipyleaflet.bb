@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.17.3"
 
-RPM_NAME = "jupyter-ipyleaflet-0.17.3-1.2.noarch.rpm"
-RPM_HASH = "d297fe844ba6e7a98b1b744f3a3e3ef3126820db1ea9625ee29152a8c443f8312d91c1fef7488acd1d29ca3f15319b5ef7ab1d0b7bfcdd96fdaa81fdb177773f"
+RPM_NAME = "jupyter-ipyleaflet-0.17.3-3.1.noarch.rpm"
+RPM_HASH = "3202737a538a7a908557abf846e3e88dc4fee4b5bb0001afc1e972613e8ff29c31d41cc3616cfd82cf0c7ddf1ea4dc69dbfa5dee3a48e53f5765190329925c72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipyleaflet \

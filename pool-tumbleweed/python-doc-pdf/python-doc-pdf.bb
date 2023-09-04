@@ -6,8 +6,8 @@ LICENSE = "Python-2.0"
 
 PV = "2.7.18"
 
-RPM_NAME = "python-doc-pdf-2.7.18-36.1.noarch.rpm"
-RPM_HASH = "91bb24e08da502c5012e588571ce9c3f71c44ef94280556738355f89ce776af7d51f467b0447f70e62f50ce8e2a6d9bf39dba3a89bb2acd19888fed83e57fe71"
+RPM_NAME = "python-doc-pdf-2.7.18-37.1.noarch.rpm"
+RPM_HASH = "512db162aeca01ba0eea1b31508a3ab209da7c97f69e9f231681cb5a84c072164779c4783ae3cae1898110a9ce23fd71552e111e6e51f2cb361695ae48e266b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pyth-pdf \

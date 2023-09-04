@@ -2,10 +2,10 @@ SUMMARY = "Documentation of Audio effects for pipewire applications"
 DESCRIPTION = "This package contains documentation of Audio effects for pipewire applications"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "7.0.3"
+PV = "7.0.6"
 
-RPM_NAME = "easyeffects-doc-7.0.3-1.2.noarch.rpm"
-RPM_HASH = "4f5a944b000f81c4cc228fcdf897cf1f0c599c3c7ebe9874232e14de552684abb7b4ac3088a6d431c2eead2b82465ff375fd9df135899263c47a2676eead6251"
+RPM_NAME = "easyeffects-doc-7.0.6-1.1.noarch.rpm"
+RPM_HASH = "f83c8fb4a730bafe34cd75b0cbe225a5fc92ef90ef968d72875ad0141c8bd5fe1dc132a2ab6082ba792266e4fd9e1ff2de94b7986b156656d3f6c55bfe4f38bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "easyeffects-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "The storage driver backend adding implementation of the storage A
 volumes using the host disks."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.5.0"
+PV = "9.6.0"
 
-RPM_NAME = "libvirt-daemon-driver-storage-disk-9.5.0-2.1.aarch64.rpm"
-RPM_HASH = "e7ac8258d4fdcdb1bd0348a5bd2541946ad04504fe0647138a434e2103604693b571c3b348fb979e234e5da4756ad5e627be73a1aba48322c957baee7294a2d8"
+RPM_NAME = "libvirt-daemon-driver-storage-disk-9.6.0-2.1.aarch64.rpm"
+RPM_HASH = "d8af12d1b8746cf0ca4d57c9427c2e9cb9a02d47010f0882545b78182765793c74852b89f70adc3bbf61b2971efde49bcde2d3f8d79818f539df3d37e1739b2f"
 
 RPROVIDES:${PN} += "libvirt-daemon-driver-storage-disk \
 libvirt-storage-backend-disk.so"

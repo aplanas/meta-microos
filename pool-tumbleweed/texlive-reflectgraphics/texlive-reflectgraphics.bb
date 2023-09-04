@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.2csvn40612"
 
-RPM_NAME = "texlive-reflectgraphics-2023.209.0.0.2csvn40612-54.1.noarch.rpm"
-RPM_HASH = "e678a73ff942d86a85f69193b1487b28372f3ce9b0415d4c9cf5b30815646769e7656aac567b2b947c9d1d74d3cf5af407f634aec1b05b7f8938750e0a018f04"
+RPM_NAME = "texlive-reflectgraphics-2023.209.0.0.2csvn40612-54.2.noarch.rpm"
+RPM_HASH = "ef4a71ec713098de54fd87eea79602dec1baffbd9c7609a4c76e6ecb4eb28ce59cf3752c04c65f65e229ce0c4b94621a7c0607346578a8e53aa97384a9ba8e57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-reflectgraphics.sty \

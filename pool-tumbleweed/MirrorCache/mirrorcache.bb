@@ -2,10 +2,10 @@ SUMMARY = "WebApp to redirect and manage mirrors"
 DESCRIPTION = "Mirror redirector web service, which automatically scans the main server and mirrors"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.061"
+PV = "1.062"
 
-RPM_NAME = "MirrorCache-1.061-1.1.noarch.rpm"
-RPM_HASH = "51c64c2cd5e8b90d51218c932a8a048cb83a7b53f9affb3b002543f717cc35da535d051a7fa73aa46304a12ed1c5db3dff568bb685d648a29f6ddbeee86f33e0"
+RPM_NAME = "MirrorCache-1.062-1.1.noarch.rpm"
+RPM_HASH = "af20d6c2dc5bd6f145e703b01fd53357f88349a2ba5ca3fd6e1d792ef39366e0a772358e43932f1edd871c0e84a3f130653b82c59e5c5840e9aa21b23581cd67"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "MirrorCache \

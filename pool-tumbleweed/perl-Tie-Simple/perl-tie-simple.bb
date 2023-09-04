@@ -15,8 +15,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.04"
 
-RPM_NAME = "perl-Tie-Simple-1.04-1.26.noarch.rpm"
-RPM_HASH = "f075245819118c3779a4674a20ec9b71686f1d8a5186ca167220edfb900758345fb89bd0cd23b5e9337453bc49c368f209dc20529ce3310c1352a5b860705d0b"
+RPM_NAME = "perl-Tie-Simple-1.04-1.27.noarch.rpm"
+RPM_HASH = "f3f84b0e9535bb3d6aeb465ceb59d58000250b9539b6cf834e6b5fee88b93da6689eec9e4b76b56921a49366b50fd7149533059626345f399080f7b294c0c257"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Tie--Simple \
@@ -27,6 +27,6 @@ perl-Tie--Simple--Scalar \
 perl-Tie--Simple--Util \
 perl-Tie-Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

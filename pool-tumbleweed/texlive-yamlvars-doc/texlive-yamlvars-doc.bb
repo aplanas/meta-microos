@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn64949"
 
-RPM_NAME = "texlive-yamlvars-doc-2023.209.svn64949-53.1.noarch.rpm"
-RPM_HASH = "11d147ddba23b496650b1ac9ba0cdbc76f489080e96e4fa419f47444fe342962077015d72f60a87886db999b686bc00a3ed1e1508e214e78a27d2f39224bc2ac"
+RPM_NAME = "texlive-yamlvars-doc-2023.209.svn64949-53.2.noarch.rpm"
+RPM_HASH = "a6c9de07f2905c773e429ddba7d29cd639287955f2323614233030449e2fb2171eba34ecc9a1b1494f6fc70d99c9131d6ff7940e214a63dd5fd5e5139e5bd710"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yamlvars-doc"

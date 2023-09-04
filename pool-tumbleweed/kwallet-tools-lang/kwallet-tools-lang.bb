@@ -2,10 +2,10 @@ SUMMARY = "Safe desktop-wide storage for passwords"
 DESCRIPTION = "Provides translations to the package kwallet-tools-lang"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kwallet-tools-lang-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "c223982f77f96c853967643b39c0a188a9c002f98b3d2df0898c4503096aad9f5d56a242d9dd9b4497e9131d87b0382ec12eeb543f83d55601785046939a2da3"
+RPM_NAME = "kwallet-tools-lang-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "ab551e9e777869e2bacd7ceb64cc41e20f554cd5b2da28ed709bb87af3c8560892429a424db9208e4b8094d5f586a18e202767cfab30f06530f0cad9fd5fa8ff"
 
 RPROVIDES:${PN} += "kwallet-tools-lang \
 locale-kwallet-tools-ar \

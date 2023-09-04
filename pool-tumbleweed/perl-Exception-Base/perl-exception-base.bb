@@ -34,17 +34,17 @@ interface) \
   * can ignore some packages for stack trace output \
  \
   * some defaults (i.e. verbosity) can be different for different exceptions"
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.2501"
 
-RPM_NAME = "perl-Exception-Base-0.2501-1.24.noarch.rpm"
-RPM_HASH = "78c67d549bfabb16a5d43fde7372ee25dc9c2ee32475a4c9fb7a3bec4f361b1522300225653e9d9c5b7b915f5aa7c223dbb3377bacad61ba2b35a424fcf41cbb"
+RPM_NAME = "perl-Exception-Base-0.2501-2.1.noarch.rpm"
+RPM_HASH = "5a6d86597a3b158e4a6f92ced3a42cc32312949798b27efca90766f5dd64cca5833a299889df5d5d9be8c125aa53b44f1964ea7490b0002e7d6f4b4ceccb2490"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Exception--Base \
 perl-Exception-Base"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

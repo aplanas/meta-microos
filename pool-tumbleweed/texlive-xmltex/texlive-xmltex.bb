@@ -11,8 +11,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.8svn62145"
 
-RPM_NAME = "texlive-xmltex-2023.209.0.0.8svn62145-53.1.noarch.rpm"
-RPM_HASH = "7c9d86f79d99e39ee4e8f1fdf8b09971c7ed474cf59134d2ea7fc7008d3d7e5269321e0c21a23d6344fd711d435d219566903184335c3c689c3f3bf77bf7452b"
+RPM_NAME = "texlive-xmltex-2023.209.0.0.8svn62145-53.2.noarch.rpm"
+RPM_HASH = "75805ac664dc13fdc4b0b7ba8772fbaa36f589603c16eae5b75b9139aaaaa275e3d144d9db9c26661aa0a756feacf34bf6b6dccf1bf356c9f19b8511267a9ee9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xmltex.cfg \

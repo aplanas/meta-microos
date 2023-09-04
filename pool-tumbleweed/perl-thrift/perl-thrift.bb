@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.17.0"
 
-RPM_NAME = "perl-thrift-0.17.0-1.9.aarch64.rpm"
-RPM_HASH = "226ec64e375de302ae98fcf23eff9e5ef077b94906c89dcd739896ea3db8e27898c503706fa4048dfb16f446fe6b8ee899ef882fcdae7b39a48b33701fa5f33a"
+RPM_NAME = "perl-thrift-0.17.0-1.10.aarch64.rpm"
+RPM_HASH = "dc130140d9ba7f842931701bc6be4207e17925e57feeeb43958244f6b21217dc05a86c69ee33a795a73394671ce5cd035cb3a87232c64db68c77f375ef2fa645"
 
 RPROVIDES:${PN} += "perl-Thrift \
 perl-Thrift--BinaryProtocol \
@@ -48,6 +48,6 @@ perl-Thrift--UnixServerSocket \
 perl-Thrift--UnixSocket \
 perl-thrift"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "bzrtp is an implementation of the ZRTP key exchange protocol. \
 The library written in C89."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.73"
+PV = "5.2.98"
 
-RPM_NAME = "libbzrtp0-5.2.73-1.1.aarch64.rpm"
-RPM_HASH = "5fa4e9e8ee73b4a9d50cc95c5e74414f276a45da03d39cd01a6b57a3cf0c669432425d899d728c276e7238318210863df43e7146b8b65762b9d0dbd8e8f0e550"
+RPM_NAME = "libbzrtp0-5.2.98-1.1.aarch64.rpm"
+RPM_HASH = "fc5e25c1a5660e183e34cdbd5cb307af22f87dee10a1551b2507d1a43bc3a7284a6d1036f34e68cb2ad9172a40425ca119c4884f7854730aeef8489c438b0388"
 
 RPROVIDES:${PN} += "libbzrtp.so.0 \
 libbzrtp0"

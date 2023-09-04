@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.7.0"
 
-RPM_NAME = "nsd-4.7.0-1.1.aarch64.rpm"
-RPM_HASH = "18b02367ae63b659bf5defe9e0de74a7329d012706f8f3b3f8ba92f3303776fbe69fbf8f778ff3b7954112449bc692f7f8e9b369c04e12185d4cff594a64b36f"
+RPM_NAME = "nsd-4.7.0-2.1.aarch64.rpm"
+RPM_HASH = "df26a88c1bcb91c54a74df59364a854477fd322169a4432b7e4db9991bda796aed8aa2eb99e05938d9a76f37e24878926d7a319594fed778e3693db0ed0e53bd"
 
 RPROVIDES:${PN} += "config-nsd \
 nsd"
@@ -19,7 +19,6 @@ libc.so.6 \
 libcrypto.so.3 \
 libevent-2.1.so.7 \
 libssl.so.3 \
-shadow \
-systemd"
+shadow"
 
 inherit rpm

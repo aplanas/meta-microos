@@ -4,10 +4,10 @@ DESCRIPTION = "easy-rsa is a CLI utility to build and manage a Public Key Infras
 certificates, including sub-CAs, and create Certificate Revokation Lists (CRL)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.1.2"
+PV = "3.1.5"
 
-RPM_NAME = "easy-rsa-3.1.2-1.1.noarch.rpm"
-RPM_HASH = "dd348f1b072bd6c0f480ef4ddc65e8133a53122149cca4792366b2a33a119abfd6cde5fa5bbeb95b8a6d275d6eb4eae33eeaf537589cbe6d34f922c6bf4e7050"
+RPM_NAME = "easy-rsa-3.1.5-1.1.noarch.rpm"
+RPM_HASH = "45a574be0ad328a5c2fb54c64a5140693630f56ccc43e563db00840669d8440b0629f33f43653133dc35f9bfee2814ca8aea914d307b200f91c11a0756218d7c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-easy-rsa \

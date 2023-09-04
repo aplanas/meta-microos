@@ -2,10 +2,10 @@ SUMMARY = "Google Cloud Guest Configs"
 DESCRIPTION = "Google Cloud Guest Configs"
 LICENSE = "Apache-2.0"
 
-PV = "20230626.00"
+PV = "20230808.00"
 
-RPM_NAME = "google-guest-configs-20230626.00-1.1.noarch.rpm"
-RPM_HASH = "e4ef18f427effa7c5da2afb17354d55ae09f34f95aed34304cd0a1e90ce200fc47fa2b3abab9682dd21c60c96e326f2f27a0bad641919d0abf74cb9c5e0d2b65"
+RPM_NAME = "google-guest-configs-20230808.00-2.1.noarch.rpm"
+RPM_HASH = "2146b118196747d95c3993ef3f1c08e8c1cf4baaee4ec16d45997bd33e9152f68d3de2b8fd98199d273c37eb4b98fc68f4fb7e9d0cae81f9fc83f09de87e9175"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-google-guest-configs \

@@ -23,8 +23,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.204"
 
-RPM_NAME = "perl-Test-Deep-1.204-1.2.noarch.rpm"
-RPM_HASH = "044b14502f9a3f45a28facec449eb83089736b8b3bb4a5a789278e43cda5296f6a3e3b10966cbf9df9aa39eb2cdf31934285b10efa087b5df527be9926e86e14"
+RPM_NAME = "perl-Test-Deep-1.204-1.3.noarch.rpm"
+RPM_HASH = "9ac5c5a4d2aa4dff2f71c82fbe0a9990cd0c9a731d04b14f1e7713e1b71a51e2d1fc13a68cce7a54d23cb1fde75fdf956d9a2f7fb57ad8170a53cf5d40344cf6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Deep \
@@ -80,7 +80,7 @@ perl-Test--Deep--SuperHashKeys \
 perl-Test--Deep--SuperHashKeysOnly \
 perl-Test-Deep"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Test--More \
 perl-Test-Simple"
 

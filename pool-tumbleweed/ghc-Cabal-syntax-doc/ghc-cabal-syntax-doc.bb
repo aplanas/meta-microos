@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.1.0"
 
-RPM_NAME = "ghc-Cabal-syntax-doc-3.8.1.0-3.2.noarch.rpm"
-RPM_HASH = "f2e13cb087eeeed6376c3ae33a30cc5231a75a8a114d372b7778b2026bcfbaab1ea88cec446c0c7f8fddc76f2e6a37f81a2468cc1535d0770e9c55674025ee17"
+RPM_NAME = "ghc-Cabal-syntax-doc-3.8.1.0-1.1.noarch.rpm"
+RPM_HASH = "6f8bc034099affcc1213cd65b3d1ffe55c0857506c89bf9edd8ec1e9916dc4e27f310158a8b7d6a0e49da0e3f100ea439b112e9031b53110d7f3e3009dd8d296"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-Cabal-syntax-doc"

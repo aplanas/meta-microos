@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.39.1"
 
-RPM_NAME = "util-linux-2.39.1-1.1.aarch64.rpm"
-RPM_HASH = "366921740ff7eb0336de2ddd4c74bc4264df51ccd82ca501211717ea633e43c0f65422f38aa8b5e606248f60a2c4573d0ef956013421e869e33422d6e580d921"
+RPM_NAME = "util-linux-2.39.1-3.1.aarch64.rpm"
+RPM_HASH = "e84aa704e090fef8e3b260df4edb85c7ec7214cc01d93ec521aaddcd28323aa4391e962b68cc0ba487a22091b66d1d0d13353158f78f4af4393ef22f03da45eb"
 
 RPROVIDES:${PN} += "/usr/bin/kill \
 /usr/bin/more \

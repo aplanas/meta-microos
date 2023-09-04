@@ -8,10 +8,10 @@ Notebook (notebook, terminal, text editor, file browser, rich outputs, \
 etc.)."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.0.2"
+PV = "4.0.5"
 
-RPM_NAME = "python39-jupyterlab-4.0.2-1.2.noarch.rpm"
-RPM_HASH = "71e2bf14b58675599cd4e4d9e22194e1cdb0786f750678e2d2bb726ae24c9f138991a4c3742430e433a9f690eddfc29cdbb04d7dd7b8610a1d1378820e508419"
+RPM_NAME = "python39-jupyterlab-4.0.5-2.1.noarch.rpm"
+RPM_HASH = "1506df775af8928fe81fd0dbe0d2df050a791ebb2d68a8a2573221686d075eb48ad1f43fb1e454c7fd476426cee0ce3196081a02b9441716a44377b65b27c0c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jupyterlab \
@@ -22,6 +22,8 @@ python3dist-jupyterlab"
 RDEPENDS:${PN} += "-python39-jupyter-server >= 2.4.0 with python39-jupyter-server < 3 \
 -python39-jupyterlab-server >= 2.19.0 with python39-jupyterlab-server < 3 \
 /usr/bin/node \
+/usr/bin/python3.9 \
+/usr/bin/sh \
 jupyter-jupyterlab \
 python-abi \
 python39-Jinja2 \
@@ -32,6 +34,7 @@ python39-jupyter-lsp \
 python39-notebook-shim \
 python39-packaging \
 python39-tornado \
-python39-traitlets"
+python39-traitlets \
+update-alternatives"
 
 inherit rpm

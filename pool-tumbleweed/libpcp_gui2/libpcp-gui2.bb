@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "5.2.5"
 
-RPM_NAME = "libpcp_gui2-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "df3e4534b735404b7dad6486d15f7cc2316c4ca62a161f5b97c26ad2c94a8f3b147600b0845cd4c14b3c33b67f28995b6fed29970160ad663e48ac8b0e92f940"
+RPM_NAME = "libpcp_gui2-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "0f513d5b4a2f4b24d1983f25721e67e4ac3e7cf21cba8149e6c6f04e88108d26caf433accc6ebaa4acf88a098d9c6207f42a9ffaee18baa2e517f75f74dc33e0"
 
 RPROVIDES:${PN} += "libpcp-gui.so.2 \
 libpcp-gui2"

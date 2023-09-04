@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "9.6"
 
-RPM_NAME = "python3-ortools-9.6-2.1.aarch64.rpm"
-RPM_HASH = "04d487fcf2aeb04f91bd9c25c216116d059fd1c053b5bc4bcfeeb378dac6f85f3412a03d2e7edbaf65f8025fdf8a59a3c6a08e12dd09456732b8d2532378decb"
+RPM_NAME = "python3-ortools-9.6-3.1.aarch64.rpm"
+RPM_HASH = "bc2bbad01d4ba0c4a713167e205840e80a8b3faa78a09f93330a57ab06d0a9d3b27fc795ed4a8ce1a2ec12d56a61cbee305a9d1889860eeecae50c031b57b03b"
 
 RPROVIDES:${PN} += "python3-ortools \
 python3.11dist-ortools \

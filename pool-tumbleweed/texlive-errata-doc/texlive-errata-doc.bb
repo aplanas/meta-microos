@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.3svn42428"
 
-RPM_NAME = "texlive-errata-doc-2023.209.0.0.3svn42428-54.1.noarch.rpm"
-RPM_HASH = "d54cb25a07fce8cab9fb29c88a4a39e06bd5fc48932139e6c85b080a36e04a5d73aac518896f54ba2c2a6e87d0aa7be9c8116e4f815c7243a10668356200475e"
+RPM_NAME = "texlive-errata-doc-2023.209.0.0.3svn42428-54.2.noarch.rpm"
+RPM_HASH = "9b61bd582172f1f1c2e8ca3a428d2dd3223b4c21af51c3bc4d095302aa7b184ec53e803633106ace2d411dfe62efa02b59048aa205b49555e032df0e25d88542"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-errata-doc"

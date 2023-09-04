@@ -7,10 +7,10 @@ South Western Italian Alps encompassing the southern half of \
 the French pentagon."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn58652"
+PV = "2023.209.svn58652"
 
-RPM_NAME = "texlive-hyphen-occitan-2023.208.svn58652-53.1.noarch.rpm"
-RPM_HASH = "4dd6946f0156974f53f5b19c3f48033405c50927fa800eb5441d717284af02054482528e7dbd052a9a4f5825a07a75332e8922066f222ccd40cee24c170760e0"
+RPM_NAME = "texlive-hyphen-occitan-2023.209.svn58652-54.1.noarch.rpm"
+RPM_HASH = "c325894de8611b6452f966fb2b000fbfa92b07be4ff6f0e4a01c63de2a99caee9e7a07607b17a3064ad828792989405f8a5d959359048653b9237119612f69ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-oc.ec.tex \

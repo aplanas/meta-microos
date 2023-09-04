@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.7.1"
 
-RPM_NAME = "ghc-prettyprinter-doc-1.7.1-2.2.noarch.rpm"
-RPM_HASH = "27cdca318b174613be8b7404d742fda3f3bbb1c8ebbfec946a4f79b8416b6559de41a3c28ce284181587f8b8eebbd2a5a8bec6d74028e5eaaf49676c754e79d9"
+RPM_NAME = "ghc-prettyprinter-doc-1.7.1-2.3.noarch.rpm"
+RPM_HASH = "efc14d198424f264363d79cc3c27bfa1c344cd390c34ab0b445db79c6de1528c5c06b26c2e4288023a9e6417f3f8ee96c86fb33ad07589271362f7b39f6bb069"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-prettyprinter-doc"

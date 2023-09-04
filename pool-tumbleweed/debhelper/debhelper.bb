@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "13.11.4"
 
-RPM_NAME = "debhelper-13.11.4-1.3.noarch.rpm"
-RPM_HASH = "113e16188e72dac62202353197b0574e35364c5c393ff03fd668930282611532c335613091345a3eccd4ac8d15a0ccf5bd892d6a2d96fd25ed1e8bd810297fe3"
+RPM_NAME = "debhelper-13.11.4-1.4.noarch.rpm"
+RPM_HASH = "77c3fa06c0969352d2f14fa7c2b6ea82d07a67d211b46a089d32f06d90d9cff75cb0d247b349923ff76e4d6be1ed34a8aec4bf51f8ff01834e5d54a680498c86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deb-/usr/bin/dh-install \

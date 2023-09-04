@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.0.0"
 
-RPM_NAME = "spamassassin-4.0.0-74.5.aarch64.rpm"
-RPM_HASH = "48b31c7d7f91b899bfd4f75392ed36330ae80bf9dca87b16632ed5c2543818e3b4a28f62e6412def5a7dd20ed689db5c9a01baab8918435718f6c40d9588b462"
+RPM_NAME = "spamassassin-4.0.0-74.6.aarch64.rpm"
+RPM_HASH = "e1112e5d55fab6b11d1a6c793b9b4754775dcba7ffc26e43fedcf1e71cd05145c9f88218d04422e2f4977bc3c5a29b8703c5f197dd3e0e4805493a1d2ae0c429"
 
 RPROVIDES:${PN} += "spamassassin"
 

@@ -2,10 +2,10 @@ SUMMARY = "Additional scripts in python"
 DESCRIPTION = "Additional scripts for the use of openQA in the python programming language."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1690803816.e47aebd"
+PV = "4.6.1692951551.c933949"
 
-RPM_NAME = "openQA-python-scripts-4.6.1690803816.e47aebd-1.1.aarch64.rpm"
-RPM_HASH = "33f00cad32cfc08d0c3426fa3ce19904ce86cf394517d174b5753d12899d84b3a00b67323965eabf54020c31889faeb1c7b71a8c2fe34ea7d44126261a35f790"
+RPM_NAME = "openQA-python-scripts-4.6.1692951551.c933949-1.1.aarch64.rpm"
+RPM_HASH = "9d341dc248a663956a6d47d2a24a116deb080bd3d73904d890c871c1cd78fec24c686e63238f86c02d99fb6bf20f7f4e80fdc9757a700c2fe3fc6f93c26ea621"
 
 RPROVIDES:${PN} += "openQA-python-scripts"
 

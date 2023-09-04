@@ -2,10 +2,10 @@ SUMMARY = "Translations for package systemd"
 DESCRIPTION = "Provides translations for the 'systemd' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "253.7"
+PV = "253.8"
 
-RPM_NAME = "systemd-lang-253.7-2.1.noarch.rpm"
-RPM_HASH = "9c80080db4e4542073b23c879631d6b394b5afe194c984117af018e4479b9bc1b42dc518021a6bbad18a90d3cfd9a7dd890fe270bdefb80182d37cef730378f8"
+RPM_NAME = "systemd-lang-253.8-1.2.noarch.rpm"
+RPM_HASH = "d30f9a7a62e7af0eee0b3320c1355e1c87dfd5c5843be6316c1de58a8fd6578f0e94fc808844d965e5f176a415d3856bbad1724c72e4ea80b689e1faa56022d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-systemd-be \

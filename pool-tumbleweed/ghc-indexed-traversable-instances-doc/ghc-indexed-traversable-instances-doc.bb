@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.1.1.2"
 
-RPM_NAME = "ghc-indexed-traversable-instances-doc-0.1.1.2-1.3.noarch.rpm"
-RPM_HASH = "c5224e03c643efff5b8084a19233811ed5b20c40156eaa50d03b38d3ce2b22bbb74dade6e3bd249bed22cdbb6c48ba145461aad2682508b566fdd6f2b49dea9c"
+RPM_NAME = "ghc-indexed-traversable-instances-doc-0.1.1.2-1.6.noarch.rpm"
+RPM_HASH = "dff50680e1229fac072a49a400a8e6f136e7934e3d51ebf2dd55c9a22c67e54606a1aad53f7ef36e379473bba5224d69ce87647e1f6a82c21b736d7fb62e7e8a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-indexed-traversable-instances-doc"

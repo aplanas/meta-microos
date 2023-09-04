@@ -4,20 +4,20 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.13.3"
 
-RPM_NAME = "ghc-crypto-api-devel-0.13.3-5.6.aarch64.rpm"
-RPM_HASH = "1b42669afe0d39f33295f93ac1a0e4bb0a0395b44cb31c153b2c79df3c08ae746c712e88a5847fec23522ee23e713878bd1739a4ccba03b262ed4ec73813dc48"
+RPM_NAME = "ghc-crypto-api-devel-0.13.3-5.9.aarch64.rpm"
+RPM_HASH = "db48fe6d70ae272b85acecd73bb5ff143c05d1a6358ce4665960d7d56c4d09c4144226e2d6e8b9df69660b3e1b8bede7e7c582b2f8209bd8ac69866b9b227d26"
 
 RPROVIDES:${PN} += "ghc-crypto-api-devel \
-ghc-devel-crypto-api-0.13.3-9orTVpCmnZz79j7elcs5GE"
+ghc-devel-crypto-api-0.13.3-2rX3thRbGDW3ZR7H62fg4Z"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-crypto-api \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0 \
-ghc-devel-cereal-0.5.8.3-LNsxCTyOF85AKtb4iLTs8f \
-ghc-devel-entropy-0.4.1.10-HkaMHQZP8nyRj15panvtP \
-ghc-devel-tagged-0.8.7-CYOhX22Df3PFW5V1S0dOJa \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1 \
+ghc-devel-cereal-0.5.8.3-BmWUcZuhGTnIupxReuIO3I \
+ghc-devel-entropy-0.4.1.10-J8gEYIp8YzV1E0Yqy7gqyc \
+ghc-devel-tagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax \
 ghc-devel-transformers-0.5.6.2"
 
 inherit rpm

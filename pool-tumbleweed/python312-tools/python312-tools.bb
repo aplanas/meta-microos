@@ -3,10 +3,10 @@ DESCRIPTION = "A number of scripts that are useful for building, testing or exte
 and a set of demonstration programs."
 LICENSE = "Python-2.0"
 
-PV = "3.12.0b4"
+PV = "3.12.0rc1"
 
-RPM_NAME = "python312-tools-3.12.0b4-1.1.aarch64.rpm"
-RPM_HASH = "48d8bc4341404750882da08fa65f745749f06567ee0fab869d72bd225d3a1f294420e1696f12f8c8336c42e8cad959be8d96c6bfa08cc3cf9f935fd7ffd3b172"
+RPM_NAME = "python312-tools-3.12.0rc1-2.1.aarch64.rpm"
+RPM_HASH = "82d9f51f36e5206ac0fa7b35011c12c6e19c20df35af531481a9786d15efeaed60af79c2b9b02b022453ea9ba2b893c4b1dbe001ff99faa6cba7a3f7eefe84c1"
 
 RPROVIDES:${PN} += "python312-2to3 \
 python312-demo \

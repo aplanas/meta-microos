@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.4.2svn55475"
 
-RPM_NAME = "texlive-xetex-itrans-doc-2023.209.4.2svn55475-53.1.noarch.rpm"
-RPM_HASH = "ce0f1c2e3e64989a2c2a8591948463039c2d14090e48a54d70e72a0326779fa285bd31e9b9656b2e39f4754132debc8a2dfddf9dd292acd4a90cb6374067524e"
+RPM_NAME = "texlive-xetex-itrans-doc-2023.209.4.2svn55475-53.2.noarch.rpm"
+RPM_HASH = "a60f3d6334096d652644e95069bfbdaf823f27172fa25f1b39cc4e94cc8876d47aee2682894be7a720b45b326ef97c87aefe66c774fccc912ad43eb7f03d0fec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xetex-itrans-doc"

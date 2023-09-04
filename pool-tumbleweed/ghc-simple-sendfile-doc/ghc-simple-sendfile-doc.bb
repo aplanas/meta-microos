@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.32"
 
-RPM_NAME = "ghc-simple-sendfile-doc-0.2.32-1.2.noarch.rpm"
-RPM_HASH = "09b46214d716eb69264645f0ac6b86147917866e751dde2ca3ec54dcb0c746d4951b678835ec7d07d81e9644e2e005b4ce53aab8d8610a39501762c8e4040ab1"
+RPM_NAME = "ghc-simple-sendfile-doc-0.2.32-1.4.noarch.rpm"
+RPM_HASH = "5a2d6e5087601dc2cee98af8c30eaf6de2153165ec23932e0b014bcea9c6a76d6a457bcebebda85a0a193655201ed12e98dfdc9debe4c7eeb7c190e2a2cd9118"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-simple-sendfile-doc"

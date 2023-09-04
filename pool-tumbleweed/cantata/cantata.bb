@@ -30,8 +30,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "2.5.0"
 
-RPM_NAME = "cantata-2.5.0-2.10.aarch64.rpm"
-RPM_HASH = "3bdcb8f65d2dbf9d3bab079724437a3fccdba8c93f581f3a193b0d36eaaf52360bcaf4ec9575e35b1784014549f03c1193522b7f500a6a318b2d368cbb5d8503"
+RPM_NAME = "cantata-2.5.0-3.1.aarch64.rpm"
+RPM_HASH = "87e8233f640f3364712591c7c3c6b8320b068677e0131e45de66a245ed776397159e6af17a61ed0062a86627c7ced103459bebc401b9affdc1acc21e43a488d4"
 
 RPROVIDES:${PN} += "cantata"
 
@@ -42,6 +42,7 @@ ld-linux-aarch64.so.1 \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \
 libQt5Gui.so.5 \
+libQt5Multimedia.so.5 \
 libQt5Network.so.5 \
 libQt5Sql.so.5 \
 libQt5Svg.so.5 \
@@ -62,7 +63,6 @@ libmusicbrainz5.so.1 \
 libstdc++.so.6 \
 libtag.so.1 \
 libudev.so.1 \
-libvlc.so.5 \
 libz.so.1 \
 media-player-info \
 update-desktop-files"

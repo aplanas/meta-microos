@@ -4,20 +4,20 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "ghc-hslua-classes-devel-2.3.0-1.6.aarch64.rpm"
-RPM_HASH = "e9739bfaeed72da31e30bb34a1cc68a5487a5ba14b2051c1c08e7031959fef27531d82e78b87bd02475a51b23fb981a6195176da2868ef81033d384801728f85"
+RPM_NAME = "ghc-hslua-classes-devel-2.3.0-1.8.aarch64.rpm"
+RPM_HASH = "0f722c3e891bcbdb65e46a5673c3d4c2a0e7fb14cb192661db9e5ea918405f5fbe87e54309df2544832ecd9d44aef6235c335432d4b38045777e34112967c3d6"
 
-RPROVIDES:${PN} += "ghc-devel-hslua-classes-2.3.0-FmFATpNcre9GneTlejjsY7 \
+RPROVIDES:${PN} += "ghc-devel-hslua-classes-2.3.0-B1L4OZUPrf8GQ47NXlejyp \
 ghc-hslua-classes-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0 \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1 \
 ghc-devel-containers-0.6.7 \
 ghc-devel-exceptions-0.10.5 \
-ghc-devel-hslua-core-2.3.1-S0Tmk0QBS1InOMEfkNHVC \
-ghc-devel-hslua-marshalling-2.3.0-1lHdh994uwdEmrYudOnEBq \
+ghc-devel-hslua-core-2.3.1-H6EUAt4RUpl9ClgBncvABk \
+ghc-devel-hslua-marshalling-2.3.0-7mBSxD4mqSw36NR9RXD4Dj \
 ghc-devel-text-2.0.2 \
 ghc-hslua-classes"
 

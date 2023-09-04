@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.75"
 
-RPM_NAME = "perl-MooseX-Getopt-0.75-1.11.noarch.rpm"
-RPM_HASH = "2203829da69d844a945c046745a9addd0f13a28bddf35d1c06dc00be898a79e6b2af970bca7b997c835a0b3253dbdc0c0ad0d7390d2f8f6bb5df3d6c81a145aa"
+RPM_NAME = "perl-MooseX-Getopt-0.75-1.12.noarch.rpm"
+RPM_HASH = "5a4461631c80a7a2a5b30e22574443ea29bb5e7e286a3753d28a63c5c3edf9dceb5d8cbcab6dfec7eb328a9dfa697a3afeeec39f524c6905064a869678d07074"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Getopt \
@@ -22,7 +22,7 @@ perl-MooseX--Getopt--ProcessedArgv \
 perl-MooseX--Getopt--Strict \
 perl-MooseX-Getopt"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Getopt--Long \
 perl-Getopt--Long--Descriptive \
 perl-Moose \

@@ -2,10 +2,10 @@ SUMMARY = "Locale Data for Localized Programs"
 DESCRIPTION = "Locale data for the internationalisation features of the GNU C library."
 LICENSE = "GPL-2.0-or-later & MIT & LGPL-2.1-or-later"
 
-PV = "2.37"
+PV = "2.38"
 
-RPM_NAME = "glibc-locale-2.37-5.1.aarch64.rpm"
-RPM_HASH = "252198af2ed3eff64fa1942c0cfe4907fb93c2837f8df5721dd97084fa15ce9fcef8404da6fff5897795056b8116f75408bede9a85bd7e58c29a47b81d8c4e44"
+RPM_NAME = "glibc-locale-2.38-1.1.aarch64.rpm"
+RPM_HASH = "0320166bbb01298a61e23b65adc86d827d036f8314ef56467e749fddbf1568003595139a81ccd0e221718f01cd7763754047629d8b330b4645ff9605506ee0b7"
 
 RPROVIDES:${PN} += "glibc-locale \
 locale-glibc-aa-DJ \

@@ -19,8 +19,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.100"
 
-RPM_NAME = "perl-Perl-PrereqScanner-1.100-1.2.noarch.rpm"
-RPM_HASH = "2955dddc5071e59697a2800eddd246facea3f48f5a8013fa626e8aa4e63aea1c5ec377e53bc37b304325124786023af4f9a3e9bffad12c40f593d83f269f5b16"
+RPM_NAME = "perl-Perl-PrereqScanner-1.100-1.3.noarch.rpm"
+RPM_HASH = "6cfd506fb8d8c10009107b2eb6abc6f8cb0ea63d4ea5473c37e37401c5f8ccc9eefd7c6c12b9ddcaeb0bab967565fe5884e1ef2799e1b006ffd227a00689c821"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Perl--PrereqScanner \
@@ -34,7 +34,7 @@ perl-Perl--PrereqScanner--Scanner--TestMore \
 perl-Perl-PrereqScanner"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-CPAN--Meta--Requirements \
 perl-Getopt--Long--Descriptive \
 perl-List--Util \

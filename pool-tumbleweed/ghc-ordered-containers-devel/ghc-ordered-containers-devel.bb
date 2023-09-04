@@ -5,15 +5,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.3"
 
-RPM_NAME = "ghc-ordered-containers-devel-0.2.3-1.3.aarch64.rpm"
-RPM_HASH = "150def46fe927f21cda2ec3aab623feb408ffd965268623e50de1d8abec0a3396d142a3b0be105d2d77f6266421c0e70ecb97a8d7258a6c6f0d767200de0a4db"
+RPM_NAME = "ghc-ordered-containers-devel-0.2.3-1.5.aarch64.rpm"
+RPM_HASH = "aed3a6ba070982cdfc7a79d1f33b8cda530641ecf3f8cc7e8172e48af7dd27bb6fd9ff5fb60de1a8865551d3118859f510c3d823b94797144db7aa016ad7604e"
 
-RPROVIDES:${PN} += "ghc-devel-ordered-containers-0.2.3-2vvzHwtaKIjK7BBzxceSWT \
+RPROVIDES:${PN} += "ghc-devel-ordered-containers-0.2.3-2crAZfphMSgLuheOQx40mM \
 ghc-ordered-containers-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-containers-0.6.7 \
 ghc-ordered-containers"
 

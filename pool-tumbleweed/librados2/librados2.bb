@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause
 
 PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "librados2-16.2.13.66+g54799ee0666-3.1.aarch64.rpm"
-RPM_HASH = "ae5d1d1387f2d7d9d5b6080cad8eb4574cd9dcadd947ef7a6232c154822b27926324e09f5d07cee0f58e27a99757cf3faa24040c42a0e2fe398c89b33c96a370"
+RPM_NAME = "librados2-16.2.13.66+g54799ee0666-4.1.aarch64.rpm"
+RPM_HASH = "93da4560aa0ce6279a73532c4798de30bd68f0ce73637faaeb367549aa423e55c19fc4ed9e780e31df2a5dbebd0c948526380fbe39f9e4f5180f7175090cb255"
 
 RPROVIDES:${PN} += "libceph-common.so.2 \
 librados-tp.so.2 \

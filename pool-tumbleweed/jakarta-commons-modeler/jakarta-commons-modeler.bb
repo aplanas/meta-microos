@@ -7,20 +7,19 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.1"
 
-RPM_NAME = "jakarta-commons-modeler-2.0.1-2.7.noarch.rpm"
-RPM_HASH = "639ef2d027b437cca920824d7e1938d3c76f668e1367b5d4422e0def6df170aecba1fbacb55c8fed6d967d5a43dd0ea6529a38f22a207cc10154a04d0bef90ec"
+RPM_NAME = "jakarta-commons-modeler-2.0.1-3.1.noarch.rpm"
+RPM_HASH = "b656fcd666223491279f67de463a599a45770da317757159521b59487dfed2feacba97854f3c8074444073bf4ff79ce5d1f0b48daf27b9a57c974443716d5ba6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "commons-modeler \
-jakarta-commons-modeler"
+RPROVIDES:${PN} += "apache-commons-modeler \
+commons-modeler \
+jakarta-commons-modeler \
+mvn-commons-modeler-commons-modeler \
+mvn-commons-modeler-commons-modeler-pom-"
 
-RDEPENDS:${PN} += "jakarta-commons-beanutils \
-jakarta-commons-collections \
-jakarta-commons-digester \
-jakarta-commons-logging \
-jaxp-parser-impl \
-jaxp-transform-impl \
-mx4j \
-xml-commons-apis"
+RDEPENDS:${PN} += "java-headless \
+javapackages-filesystem \
+mvn-commons-digester-commons-digester \
+mvn-commons-logging-commons-logging-api"
 
 inherit rpm

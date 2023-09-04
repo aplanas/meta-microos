@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.3.6svn23348"
 
-RPM_NAME = "texlive-york-thesis-2023.209.3.6svn23348-53.1.noarch.rpm"
-RPM_HASH = "336c4ce26de8869aaede71a3b939b5334f180a0c5c891b6d1a3855cdf77fece951ab48042672e2f45d01787d83ee78459ddbd9913a2c28dd6bc998a073ceade7"
+RPM_NAME = "texlive-york-thesis-2023.209.3.6svn23348-53.2.noarch.rpm"
+RPM_HASH = "3341b8429e9490be6f95284d7d23ce24a5be7615714e10293f1a1efeb8d98203b76c1ac4905f806d0f5c73d236775123915dcdd02b9ecc1219f3d4c29ae26e76"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-york-thesis.cls \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.svn35859"
 
-RPM_NAME = "texlive-grotesq-fonts-2023.209.svn35859-54.1.noarch.rpm"
-RPM_HASH = "942b9b73bef5c92b89d12dfa5fd1c7a546cdd2ca6f62bae1854346279d9adfe526a8ddc5d4d06c9c1367d6b462c4d4b86bfe8fb4fadd284e3d4ffd822c3653e1"
+RPM_NAME = "texlive-grotesq-fonts-2023.209.svn35859-54.2.noarch.rpm"
+RPM_HASH = "a090081ddebb2b3bebe1742d14c1ec939064f68836e51f9ebb9a12de6f7f49f0907b2a047afee8b1b907d7e475f7104c5570373746c561f3b5411144a2521d3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

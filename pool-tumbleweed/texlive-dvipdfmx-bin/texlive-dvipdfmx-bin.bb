@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn65877"
 
-RPM_NAME = "texlive-dvipdfmx-bin-2023.20230311.svn65877-93.1.aarch64.rpm"
-RPM_HASH = "c1d1063601bad590acc60e15a5a539c0a173fa7ba6bde4f74c9b1f611b5bac52a199170fda11272a3ee89ea026e727fa158734133e8e8e68925d4a8f68155873"
+RPM_NAME = "texlive-dvipdfmx-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
+RPM_HASH = "20d36c341e2b795066b7b09ed4d7e2a4aa85fcb4d31a5f981aeb329e223723af509594a743c819c3bb3b240de8db3066d109525233dbe3502d895794688f41a2"
 
 RPROVIDES:${PN} += "texlive-dvipdfm-bin \
 texlive-dvipdfmx-bin"

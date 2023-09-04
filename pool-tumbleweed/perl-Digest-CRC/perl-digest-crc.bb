@@ -6,14 +6,14 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.24"
 
-RPM_NAME = "perl-Digest-CRC-0.24-1.5.aarch64.rpm"
-RPM_HASH = "d4008231b7f3d921f23ce414949efe3000db9d82f8c183bd6b4a41fec0855947fbfdf46d530b4aa36ee3fb6d15846e03fdb1a0e7f3e7fe302da9959918d80cc3"
+RPM_NAME = "perl-Digest-CRC-0.24-1.6.aarch64.rpm"
+RPM_HASH = "94ff7a064f7af9ba4bc8ee8d18f411480e3f6c18971caa6d968eaab9a1a69369fa1331e33561b66a03e61c7f0176dd08bcf3ba44cb38463c7586aeda6df44ae5"
 
 RPROVIDES:${PN} += "perl-Digest--CRC \
 perl-Digest-CRC"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

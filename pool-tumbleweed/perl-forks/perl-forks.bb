@@ -24,8 +24,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.36"
 
-RPM_NAME = "perl-forks-0.36-1.26.aarch64.rpm"
-RPM_HASH = "cd7a44cf64fbf0f030d14745b69fc8a597d5c400542aa4fa9f9505efb626a78ed1f6f8b6831576a64a5a8d998127aab20e6ed02906dfa14c04f6df0b80c15416"
+RPM_NAME = "perl-forks-0.36-1.27.aarch64.rpm"
+RPM_HASH = "3ef4323b0008125801ae79dc350f780bfc6798b0bac45ba99b87363f6567b3115c953668c0677f098a825d7bbda5e85fad7f333966d333e5cf9156f7dfd9e1e3"
 
 RPROVIDES:${PN} += "perl-forks \
 perl-forks--shared \
@@ -36,7 +36,7 @@ perl-threads--shared--scalar"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Acme--Damn \
 perl-Devel--Symdump \
 perl-List--MoreUtils \

@@ -1,12 +1,12 @@
 SUMMARY = "Qt6 PacketProtocol static library"
 DESCRIPTION = "The Qt6 PacketProtocol static library. \
 This library does not have any ABI or API guarantees."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "qt6-packetprotocol-devel-static-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "4684cc4c64cab181cf85d2b5fc549d0ee91d0a2744b3f4c33bbcb7550a6cf9e5da6cce8f18826be87708d0c15ca9a19eee5c3a3a2d19a439efd31a0e56822442"
+RPM_NAME = "qt6-packetprotocol-devel-static-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "aa0cce99285e4403f64a4fe7c817e1de44440daf790fd97e992aaf35785cab790055838ff6e72dcf83dd961d0545f9cbc5746b95e67c44d09460d58e66a6a170"
 
 RPROVIDES:${PN} += "cmake-Qt6PacketProtocolPrivate \
 qt6-packetprotocol-devel-static \

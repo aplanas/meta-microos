@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.8.1"
 
-RPM_NAME = "python39-pytest-tornado-0.8.1-1.14.noarch.rpm"
-RPM_HASH = "f1e8a37dad6e117535f852cd7061b505a3e826940b285f6e84ee8562cec958115dfc58d982ff83cf91d70278c62ca5af44a1ef1ea01e51e9c3e2408a91a46ad3"
+RPM_NAME = "python39-pytest-tornado-0.8.1-2.1.noarch.rpm"
+RPM_HASH = "e8dab9700662b08d160630fcaf1a31ed574b944a9c7844c0f9cabb1f6bdf7f9a4bc4ea8ca1cbba069c527075f8868b0893deb98c9de0bda9467f7e39e4310f8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-tornado \

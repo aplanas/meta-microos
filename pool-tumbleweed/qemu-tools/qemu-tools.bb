@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains various QEMU related tools, including a bri
 a virtfs helper, ivshmem, disk utilities and scripts for various purposes."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.3"
+PV = "8.0.4"
 
-RPM_NAME = "qemu-tools-8.0.3-2.1.aarch64.rpm"
-RPM_HASH = "a05ba7a01fa131837e8314fb690439cd67e247fcb68a03f8fd529af3d279a71261b9bf3317629ede41415003606a9eb8bfd0648fe956a7186a8ae39286ca192a"
+RPM_NAME = "qemu-tools-8.0.4-1.1.aarch64.rpm"
+RPM_HASH = "ddd8745e8df078192369063dca268242f35b72dabac04ffc12c7944b990a56ed03dd868a4f010dd569730de5749e9ab9fd41b6a1f37d6260fbd1b1c652519db0"
 
 RPROVIDES:${PN} += "config-qemu-tools \
 qemu-tools"

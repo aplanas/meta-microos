@@ -17,8 +17,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "20230701"
 
-RPM_NAME = "perl-Perl-Tidy-20230701-1.1.noarch.rpm"
-RPM_HASH = "cefe5155c96a76c66d9d39de1a6cd7279b643589ae2d23ce55687a7ce90a3465421221936190eb486a0771e25fe27dfcbeb1ecf57470c60d5082c4d2c2deb3a6"
+RPM_NAME = "perl-Perl-Tidy-20230701-1.2.noarch.rpm"
+RPM_HASH = "638a62a2e314c50c38d1fe69df3e19f5f48b162da1c499f32da27388757292bef3b82ae9bda1bac7373cc0dd36a9fb9164c9ec11e4a151650af185e43ffdaeac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Perl--Tidy \
@@ -42,6 +42,6 @@ perl-Perl--Tidy--VerticalAligner--Line \
 perl-Perl-Tidy"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

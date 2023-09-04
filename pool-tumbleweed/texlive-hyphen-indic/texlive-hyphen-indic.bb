@@ -4,10 +4,10 @@ Kannada, Malayalam, Marathi, Oriya, Panjabi, Tamil and Telugu \
 for Unicode engines."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn58652"
+PV = "2023.209.svn58652"
 
-RPM_NAME = "texlive-hyphen-indic-2023.208.svn58652-53.1.noarch.rpm"
-RPM_HASH = "18651bac0b4856bfd1338e30fc8099a17f24d10cdae880a5d27f74d3df80234039f3434278aa0c137c7780de83db1ef7800488d7213f3960b32ad3db85ef2080"
+RPM_NAME = "texlive-hyphen-indic-2023.209.svn58652-54.1.noarch.rpm"
+RPM_HASH = "a2032d0009223d022993fa790f48b2d91b92a12c4a6b8a569b3d834450395206bcf222cf9bb95a9c8de63819cbad724a4d3a20028a73cd94a9cc6b2858081354"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-as.tex \

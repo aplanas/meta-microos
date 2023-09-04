@@ -2,10 +2,10 @@ SUMMARY = "The python pandas[spss] extra"
 DESCRIPTION = "This package provides the [spss] extra for python-pandas"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.2"
+PV = "2.0.3"
 
-RPM_NAME = "python310-pandas-spss-2.0.2-4.1.noarch.rpm"
-RPM_HASH = "eb2352ad965aa42ad33bdf7696e14784027dd7d9933783908a3501b5593787cb263439209ca1f78a065331bc02fcb2d89d302ae69f7ac81f592606953a60105e"
+RPM_NAME = "python310-pandas-spss-2.0.3-1.2.noarch.rpm"
+RPM_HASH = "2be3760ac710803f22099bc21cb761c9d3574337e2a0f6545cc4971c74e8d39f8c25b3ec0550ae85db9e63b34c223829385894c5c9b10e095d9ef97f43909c8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python310-pandas-spss"

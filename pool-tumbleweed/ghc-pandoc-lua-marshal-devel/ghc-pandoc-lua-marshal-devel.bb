@@ -5,25 +5,25 @@ LICENSE = "MIT"
 
 PV = "0.2.2"
 
-RPM_NAME = "ghc-pandoc-lua-marshal-devel-0.2.2-1.8.aarch64.rpm"
-RPM_HASH = "e1bafd74aded085145abb613af18679d9db12b9e8b7c52bba0595a653acb738d1a87bc2d0ff9f8ceabaf768e8a6b59be6fbeb403e2cdaf1c939e52eb2f80f58e"
+RPM_NAME = "ghc-pandoc-lua-marshal-devel-0.2.2-1.12.aarch64.rpm"
+RPM_HASH = "1c1549eceae5e2755cfd1f1cb474351a9b044394c861ef9967675c03a532d7decc9e8235554e1876b0da72f59577c5a3fa4df2af02d90078543294fc33a5c4cd"
 
-RPROVIDES:${PN} += "ghc-devel-pandoc-lua-marshal-0.2.2-FczgTsDU3sCHicuhmGSmSB \
+RPROVIDES:${PN} += "ghc-devel-pandoc-lua-marshal-0.2.2-D6YUzx6tqXTDbJ9vWDLs3T \
 ghc-pandoc-lua-marshal-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0 \
+ghc-devel-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1 \
 ghc-devel-containers-0.6.7 \
 ghc-devel-exceptions-0.10.5 \
-ghc-devel-hslua-2.3.0-AU21dADSMqd8jVkw5fw6gb \
-ghc-devel-hslua-list-1.1.1-9l63Ku7u96Z6i2wKz0R57A \
-ghc-devel-hslua-marshalling-2.3.0-1lHdh994uwdEmrYudOnEBq \
-ghc-devel-lua-2.3.1-16mGxirchUh4T3oJJYdFzu \
-ghc-devel-pandoc-types-1.23.0.1-EcvZluXpPb0J10kJC4UfRg \
-ghc-devel-safe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds \
+ghc-devel-hslua-2.3.0-IFweDrinoAduGRRaqkwGX \
+ghc-devel-hslua-list-1.1.1-2YSx4pSaGRhHpPDWFYeDXu \
+ghc-devel-hslua-marshalling-2.3.0-7mBSxD4mqSw36NR9RXD4Dj \
+ghc-devel-lua-2.3.1-IuAZ4Y3Pnt2ACNXikcgl6h \
+ghc-devel-pandoc-types-1.23.1-8yEOjBSLsT62OPTXI0FZpc \
+ghc-devel-safe-0.3.19-9uHvZjuyLiR13wOGSONZxX \
 ghc-devel-text-2.0.2 \
 ghc-pandoc-lua-marshal"
 

@@ -19,8 +19,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.3.2"
 
-RPM_NAME = "libvoikko1-4.3.2-1.1.aarch64.rpm"
-RPM_HASH = "7f0eaf014e81e8d2818df4bff9198af91346881ef9f12432045617b430a0f4ab3ac617db883298e7a853c7980de0d8ab906885840095b46612dc6c666f650dd6"
+RPM_NAME = "libvoikko1-4.3.2-2.1.aarch64.rpm"
+RPM_HASH = "84b1dc592b1ba2594c4d61e48e8e1e639484ae99b325ed237cc6b8af4fae8eccbe8243cf3d2cf0feff97ca4fc4c4fc1e83f6fd9363b4197f7e26e505408508c8"
 
 RPROVIDES:${PN} += "libvoikko.so.1 \
 libvoikko1"

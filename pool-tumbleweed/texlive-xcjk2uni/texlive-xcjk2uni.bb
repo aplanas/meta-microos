@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn54958"
 
-RPM_NAME = "texlive-xcjk2uni-2023.209.1.0svn54958-53.1.noarch.rpm"
-RPM_HASH = "b5b0703b1c2ebbaef3ef4b6a9f8fe3ccd3fc34a0ab4e6dd683d3fb2d593e3b9d96fc7cb459fbf0e164c07f613163120846256ddd39bfd1b2570354d63e145f28"
+RPM_NAME = "texlive-xcjk2uni-2023.209.1.0svn54958-53.2.noarch.rpm"
+RPM_HASH = "4e9ecdf8a69befdba597e28dfafd86a2b725b2ff5faf109c8de948d0de6bc30398a14d91ea74ccb3911f5f7645cf44ff05705c391b90e448dd28a4ad77550277"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xCJK2uni-UBg5plus.def \

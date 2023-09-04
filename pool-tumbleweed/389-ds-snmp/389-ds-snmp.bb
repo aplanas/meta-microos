@@ -2,10 +2,10 @@ SUMMARY = "SNMP Agent for 389 Directory Server"
 DESCRIPTION = "SNMP Agent for the 389 Directory Server base package."
 LICENSE = "GPL-3.0-or-later & MPL-2.0"
 
-PV = "2.4.0~git18.37ec5cd"
+PV = "2.4.0~git74.4297d88"
 
-RPM_NAME = "389-ds-snmp-2.4.0~git18.37ec5cd-1.3.aarch64.rpm"
-RPM_HASH = "7398bc53e0b1335f35290cb23b559806cb22ff924ff9e1987b78875e2f0abf0ab3b117aa3097bcc315631c191efb156da6e8e102060cf01327379d5436eb558d"
+RPM_NAME = "389-ds-snmp-2.4.0~git74.4297d88-1.1.aarch64.rpm"
+RPM_HASH = "d82abdd3f11b2ef339cac1d64315df494b14fa8951afd202c02c0648386c2be39f12bf2885c614f43b3c4784c2cbdf03455ee9d5f0c56bca10f6a99a0363100f"
 
 RPROVIDES:${PN} += "389-ds-snmp \
 config-389-ds-snmp"

@@ -17,13 +17,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.03"
 
-RPM_NAME = "perl-Context-Preserve-0.03-1.21.noarch.rpm"
-RPM_HASH = "17f16101f0ba1299dea0cd45591ad02f01f7d3276b9bc59614cd0318007c08ba3c81d4a6e4e452a724e29c91eda5d7bb4d264ca1e2b7298cb613a0a99a27f244"
+RPM_NAME = "perl-Context-Preserve-0.03-1.22.noarch.rpm"
+RPM_HASH = "acf81ed28bc2392d6ae2c2daa1d51900d0cd8208c2a1face41b22eb3df210dc27d109a60cc6fbb0f65ba72b862b156ae792fa6e34af7a22041d1daecabce517c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Context--Preserve \
 perl-Context-Preserve"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

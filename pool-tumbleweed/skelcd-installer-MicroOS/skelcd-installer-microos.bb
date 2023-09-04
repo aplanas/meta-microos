@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains kernel, initrd and installation images \
 needed on the first product dvds to start an installation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "17.90"
+PV = "17.91"
 
-RPM_NAME = "skelcd-installer-MicroOS-17.90-1.30.aarch64.rpm"
-RPM_HASH = "e3a4cc639e63cb26f58584d1d6656f1d5bbb00c42a1f8699026a8453ea731ea8311848540fe15d12d6c702c416b8cec8378d0d909eefad3f4c3716176a3e9efc"
+RPM_NAME = "skelcd-installer-MicroOS-17.91-1.66.aarch64.rpm"
+RPM_HASH = "9a1b45b1d6c547f11fdb1bcc2db148fb7257c7a66d09d2d412bb5d68e618be51c5e64c8e527a3d1b5707204a8df356cd11e5d8875820e96848683396a93630ca"
 
 RPROVIDES:${PN} += "skelcd-installer \
 skelcd-installer-MicroOS"

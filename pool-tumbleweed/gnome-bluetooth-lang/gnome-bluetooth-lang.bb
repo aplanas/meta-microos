@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-bluetooth"
 DESCRIPTION = "Provides translations for the 'gnome-bluetooth' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "42.5"
+PV = "42.6"
 
-RPM_NAME = "gnome-bluetooth-lang-42.5-1.4.noarch.rpm"
-RPM_HASH = "bc1826bc95038d8cc9158067bd39f297443771c2c677357c42ac464c58e146868e6271bb3dc4d83781d0f6c40cda84e7b15523da750cf03accc4a121b5e6c165"
+RPM_NAME = "gnome-bluetooth-lang-42.6-1.1.noarch.rpm"
+RPM_HASH = "a751d05027c3b65be4adeada6e8203f0c3bc28c3c2586e7cfef5ab96951fd443fe41e9ebf6c03b4e53af5d115889287f95bd4c65bcf78e742489553a63980dea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-bluetooth-lang \

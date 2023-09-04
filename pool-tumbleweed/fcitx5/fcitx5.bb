@@ -2,10 +2,10 @@ SUMMARY = "Next generation of fcitx"
 DESCRIPTION = "Fcitx 5 is a generic input method framework."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.0.23"
+PV = "5.1.0"
 
-RPM_NAME = "fcitx5-5.0.23-1.2.aarch64.rpm"
-RPM_HASH = "9c52c5e496492e6e9e8354ee4ab6103dbc7512aef5f67d4383df40d60cee8f9f55d7d278fe610ab32096fc9846783f52d30be06f0b9c40a2d4355764973847a1"
+RPM_NAME = "fcitx5-5.1.0-1.1.aarch64.rpm"
+RPM_HASH = "aa80262fab541611d6482922125007b034ede4321ef85b661c13f736b4c745932160d7ecdfc852e62dc6005cfd57ed5b3b75bd0451bc3ea512be87b1f42219dd"
 
 RPROVIDES:${PN} += "fcitx \
 fcitx5 \
@@ -27,6 +27,7 @@ libtestfrontend.so \
 libtestim.so \
 libtestui.so \
 libunicode.so \
+libvirtualkeyboard.so \
 libwayland.so \
 libwaylandim.so \
 libxcb.so \

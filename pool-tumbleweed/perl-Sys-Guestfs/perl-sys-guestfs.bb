@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.50.1"
 
-RPM_NAME = "perl-Sys-Guestfs-1.50.1-4.1.aarch64.rpm"
-RPM_HASH = "a501c1ca3960fc2bda3f2a4a814528d60a9515684061ea23800eff8d7f64fa7db6489f042b3e79e210d8e84a550b376266f695bd732222283399e7e1375c77fa"
+RPM_NAME = "perl-Sys-Guestfs-1.50.1-4.2.aarch64.rpm"
+RPM_HASH = "d109e1760b9488cf4f2a57290b1057c6fb28019e07368f8a2831b9b0a65fc99eb1e7411ec6ee3dd71d7420510777e74d3b76d5d0673379220cd36ae0994f3b46"
 
 RPROVIDES:${PN} += "perl-Sys--Guestfs \
 perl-Sys-Guestfs"
@@ -14,6 +14,6 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libguestfs \
 libguestfs.so.0 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

@@ -4,10 +4,10 @@ works by parsing the source file, not importing it, so it is safe to use on \
 modules with side effects. It's also much faster."
 LICENSE = "MIT"
 
-PV = "3.0.1"
+PV = "3.1.0"
 
-RPM_NAME = "python39-pyflakes-3.0.1-5.1.noarch.rpm"
-RPM_HASH = "94cb0c1f0dc02fecb31fc9e726e116228a607a3a389ac5c1724b63a6f9de8cd6a00d132f7ddb15d5464ce5340dc61757c0ea0de65e35495e1fa3223d7ead6f75"
+RPM_NAME = "python39-pyflakes-3.1.0-1.1.noarch.rpm"
+RPM_HASH = "d91d66d95c5d7244d8d29d8237798a4f89a187fc7f0d2f0e09550b2960b3fc3ff7e47eb22d0195a3d04cfa9a2cf95f678fad74be84d5c2c5280b2bf2c1b802f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyflakes \

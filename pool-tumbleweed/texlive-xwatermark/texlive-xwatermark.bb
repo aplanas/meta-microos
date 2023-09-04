@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.5.2dsvn61719"
 
-RPM_NAME = "texlive-xwatermark-2023.209.1.5.2dsvn61719-53.1.noarch.rpm"
-RPM_HASH = "efba8fc92007e254aef547908fd4463ef94dba66eb3ad662d3ed0b604a7fe7fdf581311098e637d7a829c89c391e6899e6b1025c81c8daf744139d8f849a78c1"
+RPM_NAME = "texlive-xwatermark-2023.209.1.5.2dsvn61719-53.2.noarch.rpm"
+RPM_HASH = "738943f2355addcff83c95ecf49440ac8adca2c12b3079e6282d526f176259b9ed4b308a10949d685d6e2d0d06c1240a15320524dc38767b4e488ae6793c632e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xwatermark.sty \

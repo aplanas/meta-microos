@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains NetworkManager support for mobile broadband
 devices."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.42.8"
+PV = "1.44.0"
 
-RPM_NAME = "NetworkManager-wwan-1.42.8-1.1.aarch64.rpm"
-RPM_HASH = "2c395b6bce747020b0fbac22b039ad90ee8cec51291fb0f877e9328ea3140ea0f1f840a8c6067fd2feb902e1b33fee71f686bc126e15ba93f953b2ce8164c82d"
+RPM_NAME = "NetworkManager-wwan-1.44.0-1.1.aarch64.rpm"
+RPM_HASH = "c72e10b965475c7fbfc27a316fab650dbed6287d65dec7ef5105da8aa54bd1b14c69339cfc8b2fa44856f34efd48b495787c721f667b036751eaf5a7fc08000e"
 
 RPROVIDES:${PN} += "NetworkManager-wwan \
 libnm-device-plugin-wwan.so \

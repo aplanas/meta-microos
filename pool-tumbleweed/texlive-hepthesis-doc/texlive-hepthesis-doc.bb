@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.5.2svn46054"
 
-RPM_NAME = "texlive-hepthesis-doc-2023.209.1.5.2svn46054-54.1.noarch.rpm"
-RPM_HASH = "4cc74d59800aaf12435e8d462adaf0b41b996a7469012de201d20f54193fea4773f6e0f07ec7179721450df3d229498df9bc4b0848db4a84787869274f149999"
+RPM_NAME = "texlive-hepthesis-doc-2023.209.1.5.2svn46054-54.2.noarch.rpm"
+RPM_HASH = "b7aaafbfaec4b65b824485d2ec05b929bd4fa1e072b7bcd3fb74020b4dcf89d71bd5a7f7544e69185444c77aea2983f3b6981f6f167b0c6bdd0cd5568bb45ab3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hepthesis-doc"

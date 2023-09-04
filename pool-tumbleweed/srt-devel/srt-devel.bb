@@ -4,10 +4,10 @@ needed to develop applications with Secure Reliable Transport \
 (SRT) support."
 LICENSE = "MPL-2.0"
 
-PV = "1.5.1"
+PV = "1.5.2"
 
-RPM_NAME = "srt-devel-1.5.1-1.5.aarch64.rpm"
-RPM_HASH = "a49e9d65acc9d50906b6576b6ee13984288e92f2c7d1a547aa8a03c4cda289ac2b791fc852c2ab87983058419b5ce6b7e9dbbb5dfd58f0f75bb54d9b18f2d3ee"
+RPM_NAME = "srt-devel-1.5.2-1.1.aarch64.rpm"
+RPM_HASH = "0ddc665dd2845efa55f1929747122319a278735b3026c033b2937722eed413d93135f868153b8ed04e4a7e935b8a41978d9a39a6c2397a85bef2889cabf2ff4b"
 
 RPROVIDES:${PN} += "pkgconfig-haisrt \
 pkgconfig-srt \

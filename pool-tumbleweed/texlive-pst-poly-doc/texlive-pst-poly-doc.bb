@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.63svn35062"
 
-RPM_NAME = "texlive-pst-poly-doc-2023.209.1.63svn35062-54.1.noarch.rpm"
-RPM_HASH = "12480379fb7b2ea737ae7cca65a26c2b1dfb28fbe5d78b50e1f301c12bc398ff13f5d5b17b3dbdb7432c0048b5d8ecd02c445cf2a27b7f9c6921252d5cd9c10c"
+RPM_NAME = "texlive-pst-poly-doc-2023.209.1.63svn35062-54.2.noarch.rpm"
+RPM_HASH = "83a9bcc36d0ffbbb84b7d222f7c19012c329d34025f37f285996ab520e37dcf5dd26016035d1e3ea5694fad2c638895f195f0f3be49f6065ddb866c4c0235bf0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-poly-doc"

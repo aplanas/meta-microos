@@ -22,8 +22,8 @@ LICENSE = "MIT"
 
 PV = "3.10.1"
 
-RPM_NAME = "python39-APScheduler-3.10.1-1.5.noarch.rpm"
-RPM_HASH = "a5ffcaffbcd2a6bb9e98f1d3adb12d707ca5ecf697e83203142dbf5fd011349cdca30a460d7aa8d18c6c6747371197b5f6424ee38d822d24e508c257f8034ee1"
+RPM_NAME = "python39-APScheduler-3.10.1-2.1.noarch.rpm"
+RPM_HASH = "e70900162559d32615752e04a2c95b204e70dee9d66f2286b07023693507090e84451fdcbbda117a5c36a76578a6b1fcf8152763254e20203b9e240f1a6a1f86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-apscheduler \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "30"
 
-RPM_NAME = "kmod-bash-completion-30-7.1.noarch.rpm"
-RPM_HASH = "2653c3fa6fef8d6bf680b63f7069a9bc8749050864232bc9e0ecc7ab889636f221c8ad2c4b589fe1cb31430236763b23f993acdb0f3ac69b0c5d8d252a7dcf33"
+RPM_NAME = "kmod-bash-completion-30-8.1.noarch.rpm"
+RPM_HASH = "7afc985bc7afd61004cfde2ff2cbb47f37da037b073e0d30bf3d915e86731b3295dfd6324c676a50948e0e2ac381c998a551262353ff1d933328c274d8f92481"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kmod-bash-completion"

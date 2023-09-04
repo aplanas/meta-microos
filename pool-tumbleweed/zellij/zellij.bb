@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.37.2"
 
-RPM_NAME = "zellij-0.37.2-1.1.aarch64.rpm"
-RPM_HASH = "b5c87c32bb7045b488a08c2aa8a61effd48afe6e03c4488ac534357f9a884325465df7e7107213bde9f7453954fb7b0ded23daa0d5b5a539bbdd46df0203d0cf"
+RPM_NAME = "zellij-0.37.2-2.1.aarch64.rpm"
+RPM_HASH = "f44bf0bf3265a82e086ea6d18c8671033d38a3504c01d0503048c4fb1cc04fec6c35fc7ca209bcaaff92a1f969585af896f9308d5019b4eca794a0967c8561cb"
 
 RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
 bundled-rust-crate-adler \

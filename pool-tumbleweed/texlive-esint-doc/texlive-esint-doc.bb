@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.2dsvn52240"
 
-RPM_NAME = "texlive-esint-doc-2023.209.1.2dsvn52240-54.1.noarch.rpm"
-RPM_HASH = "f4716b23444d1b9834dfcfa6310e849cca134137e7afb888d052248c5f73e34358af6c140d8901d1b48173133c397ab6eb42bccf8f50cc259950b3dcbc24d9d8"
+RPM_NAME = "texlive-esint-doc-2023.209.1.2dsvn52240-54.2.noarch.rpm"
+RPM_HASH = "81215684bdc115067c08011ed84563081aeccdb8052c37d53ba31ec19c7294b585ea50774eb9411c6af48cc09d89e3ac24e24063e3abac21152219a21e5aeed7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-esint-doc"

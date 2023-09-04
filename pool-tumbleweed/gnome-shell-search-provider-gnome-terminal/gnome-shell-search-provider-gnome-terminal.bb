@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a search provider to enable GNOME Shell to 
 search results from GNOME Terminal."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "3.48.1"
+PV = "3.48.2"
 
-RPM_NAME = "gnome-shell-search-provider-gnome-terminal-3.48.1-1.2.noarch.rpm"
-RPM_HASH = "b944a9f6cac7f3f5fead0deca1abbe6c8b94aa497f6df2dc2c08086f6a54b324f7206d8fa0d4a74dd54fee51a83efb7420716f79f849f926f8270ad05c9bb101"
+RPM_NAME = "gnome-shell-search-provider-gnome-terminal-3.48.2-1.1.noarch.rpm"
+RPM_HASH = "9353b9a0204b11e769e444dae1993e91941eb387f61191795d87817f1a4ee78f3b0e2d3c7b1f0de73f61e2325c84b13a13e53599608a9ec1ed4f4b5197cd35c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-gnome-terminal"

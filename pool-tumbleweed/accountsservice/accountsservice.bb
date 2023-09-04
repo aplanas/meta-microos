@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "23.13.9"
 
-RPM_NAME = "accountsservice-23.13.9-3.1.aarch64.rpm"
-RPM_HASH = "2a6612120ab42d0e3a55bfb3a3b3939ce24dd99ef3562ac058695dbf525ce758f6aa2fca72020b73d71197b18e30b7a0f245d1c789d8ea4c60717efd982be6e8"
+RPM_NAME = "accountsservice-23.13.9-4.1.aarch64.rpm"
+RPM_HASH = "1295fe5e5c31af54121a5f195d07a7351f6d84f2f32b07fcda4d9c985ccade0a46a9eed6c3c357dae6cd9c7f57d35e8239b129dcac4d5bfe239a45032b8d9341"
 
 RPROVIDES:${PN} += "accountsservice"
 

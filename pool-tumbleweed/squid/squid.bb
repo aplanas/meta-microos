@@ -6,10 +6,10 @@ extensive access controls and can also be used as a server \
 accelerator."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.9"
+PV = "6.2"
 
-RPM_NAME = "squid-5.9-1.3.aarch64.rpm"
-RPM_HASH = "419117bdfd26a645e5dfadad82d653728d1e8e9e530bd630620f029c7eee1a2613e523a0dddf2e1e30ca7646be9e2f4ae71ce5a9206733e7752ebebf62b17f21"
+RPM_NAME = "squid-6.2-1.1.aarch64.rpm"
+RPM_HASH = "7aac522bb891599ad1037dbcb74a3237718f526b9775a50d6d3f34c39ec75d5ea1f8a53afc503edcb00e0086171feec7f3058e51324a8eebd1b7564f19e133b0"
 
 RPROVIDES:${PN} += "config-squid \
 group-squid \
@@ -27,7 +27,6 @@ libcap.so.2 \
 libcom-err.so.2 \
 libcrypt.so.1 \
 libcrypto.so.3 \
-libexpat.so.1 \
 libgcc-s.so.1 \
 libgssapi-krb5.so.2 \
 libkrb5.so.3 \
@@ -41,7 +40,6 @@ libsasl2.so.3 \
 libssl.so.3 \
 libstdc++.so.6 \
 libtdb.so.1 \
-libxml2.so.2 \
 permissions \
 sysuser-shadow"
 

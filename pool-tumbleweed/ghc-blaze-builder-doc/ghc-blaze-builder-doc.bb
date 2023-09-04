@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.2.2"
 
-RPM_NAME = "ghc-blaze-builder-doc-0.4.2.2-3.6.noarch.rpm"
-RPM_HASH = "160ab7ed00191e6e339f4617883434caa6f0079456a22a08c86112d33cd4deb9b05b5d3993855fae1bf1d31a86a47e190c9bc110beb8ba351679b868fe3697b5"
+RPM_NAME = "ghc-blaze-builder-doc-0.4.2.2-3.8.noarch.rpm"
+RPM_HASH = "af8fef2f448ce58b84868271918130e62db95d5599e8b366d5264423c2808c7e09cf1eca38f948ba612bb0a9caf27bb045b0f45f232967b3fca43a5872d79b34"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-blaze-builder-doc"

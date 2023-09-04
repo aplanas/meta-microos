@@ -4,10 +4,10 @@ DESCRIPTION = "This is a Direct3D 12 to Vulkan translation library for use by e.
 These are its development libraries and headers."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.7.1"
+PV = "1.8"
 
-RPM_NAME = "vkd3d-devel-1.7.1-1.2.aarch64.rpm"
-RPM_HASH = "a7d08b3bf10b80a7ef1621c96c540c7c6f39d6594e32b37a791ad48407f41ed98b055220699ef2fe5f3140715a6af6efb0825e4ee8501666274e7b207e19f497"
+RPM_NAME = "vkd3d-devel-1.8-1.1.aarch64.rpm"
+RPM_HASH = "23ec706dfea62a1d9388a7a90a31ac745d68255a977450da936bb5c707849abeda37e5583f5c774ca73f1ec7403a71557792a9000210c58bc5511e27eacf76f2"
 
 RPROVIDES:${PN} += "pkgconfig-libvkd3d \
 pkgconfig-libvkd3d-shader \

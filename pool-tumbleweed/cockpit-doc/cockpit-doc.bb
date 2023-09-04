@@ -4,10 +4,10 @@ deploy Cockpit on their machines as well as helps developers who want to \
 embed or extend Cockpit."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "293"
+PV = "298"
 
-RPM_NAME = "cockpit-doc-293-1.1.noarch.rpm"
-RPM_HASH = "5827f89c32bf11df42f30ffb5ea2430b5b7b94f714b98f39b76e6a5c3e245a06462ce5cbb10d705c7ef7b63f56d2477dc89dcb13882a6bdfec905be348da7357"
+RPM_NAME = "cockpit-doc-298-1.1.noarch.rpm"
+RPM_HASH = "bf01b03d97fd2a0e573c856e9dc7683cf7bbbe5ba9ebfdad79fba83b482583201e8f7f0624e9af19278d1228ac257196d01faff122ecf954f3bb9626986670c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cockpit-doc"

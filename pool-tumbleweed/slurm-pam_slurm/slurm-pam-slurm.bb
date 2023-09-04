@@ -7,8 +7,8 @@ LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "23.02.2"
 
-RPM_NAME = "slurm-pam_slurm-23.02.2-1.3.aarch64.rpm"
-RPM_HASH = "aec87c81f622038a93d56b9f0c0290b3029eb70db68e8da25229625b2ffdfa1e3c0315ad8dd6d56d57be70af907cad9d33fb0f3406be5f14ddc832a0041ed5ee"
+RPM_NAME = "slurm-pam_slurm-23.02.2-1.4.aarch64.rpm"
+RPM_HASH = "9049c3f7397eee59b51f0d1113e8cc643e216cae6b99187a2fcea6315d590f8d74ebeff04ac852ec77dc3ec1101a5a7315ed8be32b949506b3b454bda9fac146"
 
 RPROVIDES:${PN} += "slurm-pam-slurm"
 

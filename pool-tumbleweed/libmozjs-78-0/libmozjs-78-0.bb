@@ -9,8 +9,8 @@ LICENSE = "MPL-2.0"
 
 PV = "78.15.0"
 
-RPM_NAME = "libmozjs-78-0-78.15.0-2.8.aarch64.rpm"
-RPM_HASH = "3caba36d00603a35b907d8001b4e390fa7501df07bee9ddb4ae61ffd176b31bd95a429d0bfcef8da83ba4e666f25083031b44edb0d40a4a9fb226a34d449a0a0"
+RPM_NAME = "libmozjs-78-0-78.15.0-3.1.aarch64.rpm"
+RPM_HASH = "61cc5c7934ad16a46c129c227e675b973b6fe9e929418a0f45d08931276363adf2268d24b3a5ebb33bfbd4f9be377022f681087c8662f4a0d7943cec6718efdf"
 
 RPROVIDES:${PN} += "libmozjs-78-0 \
 libmozjs-78.so.0"

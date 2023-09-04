@@ -4,18 +4,18 @@ LICENSE = "MIT"
 
 PV = "0.1.1"
 
-RPM_NAME = "ghc-hslua-repl-prof-0.1.1-1.2.aarch64.rpm"
-RPM_HASH = "40d72bf2b8dd84653cbb5fa373da14c15aeb01dbd50c7d23bf998def91d1f48a79e3a0a3c5529f29ba70b31c0825e15cd773e28b516eb5cb72507e7fb0d0d5b3"
+RPM_NAME = "ghc-hslua-repl-prof-0.1.1-1.3.aarch64.rpm"
+RPM_HASH = "b6f15e88667f3cdcf64393cb000a4ef9efb4dda1bc6dd910060895b26998dba6b59e5c53a3ddabd6fa0a5ab39b83f98c4e503cd1d57105d053070c8a0d79d2cc"
 
 RPROVIDES:${PN} += "ghc-hslua-repl-prof \
-ghc-prof-hslua-repl-0.1.1-Cn1WzYftAVL4Hlxy0N0ea1"
+ghc-prof-hslua-repl-0.1.1-AT3e5G0H4So5vj4IgGLSDC"
 
 RDEPENDS:${PN} += "ghc-hslua-repl-devel \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-bytestring-0.11.4.0 \
-ghc-prof-hslua-core-2.3.1-S0Tmk0QBS1InOMEfkNHVC \
-ghc-prof-isocline-1.0.9-7x8dFWbXh69GJxYhigSqXG \
-ghc-prof-lua-2.3.1-16mGxirchUh4T3oJJYdFzu \
+ghc-prof-base-4.17.2.0 \
+ghc-prof-bytestring-0.11.5.1 \
+ghc-prof-hslua-core-2.3.1-H6EUAt4RUpl9ClgBncvABk \
+ghc-prof-isocline-1.0.9-5gDpTZgmtmsDJNf9j9fI7b \
+ghc-prof-lua-2.3.1-IuAZ4Y3Pnt2ACNXikcgl6h \
 ghc-prof-text-2.0.2"
 
 inherit rpm

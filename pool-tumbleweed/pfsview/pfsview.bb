@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.2.0"
 
-RPM_NAME = "pfsview-2.2.0-3.15.aarch64.rpm"
-RPM_HASH = "f0b40b6f2f3192d2c23246a4ecce6ef6be7437724fe6bce7727a923a2e59a62b87a0e91d36d6b47c09ee4c2df2c4b6ee54517d1f1664a062ea97a09262fac238"
+RPM_NAME = "pfsview-2.2.0-3.16.aarch64.rpm"
+RPM_HASH = "99c786ee77dc5e392498382f6f66a2f468645f431cc85e286a4d5d0c1ac6b0ef3b8eb44436b75a17648d95beecefafa132e5e01d728b16d67e6a3e430f252e60"
 
 RPROVIDES:${PN} += "pfsview"
 

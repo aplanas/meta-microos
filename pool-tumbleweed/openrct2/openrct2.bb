@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.4.3"
 
-RPM_NAME = "openrct2-0.4.3-2.2.aarch64.rpm"
-RPM_HASH = "db607ac9d03bbda6aecdd23ea20ba0ec41dfe00288c98e55e6944e8a673ad86bb5a1fb8c34b7cdb291ac2e4446911efb1211d645aeff25863e8595b5d1965ebd"
+RPM_NAME = "openrct2-0.4.3-3.1.aarch64.rpm"
+RPM_HASH = "3c85a795c05899f3028094b1841e0f06544c87834e81e4fd6777b980e4fc8f77969a3f2719bff0677c6f2a548d29a5c5f16f4960f7af59b85ea7699ea8c51998"
 
 RPROVIDES:${PN} += "libopenrct2.so \
 openrct2"

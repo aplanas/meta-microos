@@ -2,10 +2,10 @@ SUMMARY = "GeoIP Lagacy Format Updater"
 DESCRIPTION = "Script for updating data in GeoIP Legacy format."
 LICENSE = "Apache-2.0 | MIT"
 
-PV = "5.1.1"
+PV = "6.0.0"
 
-RPM_NAME = "geoipupdate-legacy-5.1.1-1.1.aarch64.rpm"
-RPM_HASH = "75cabe1094e5f8da5299586829eee38b00d630f7c2f69abe8eb47a5cf66dd2e9ae566d425611d989cc2a5d3d24605c444e95969d3e8f934943b0ee7b902695d1"
+RPM_NAME = "geoipupdate-legacy-6.0.0-1.1.aarch64.rpm"
+RPM_HASH = "c841fa238dfd5fa5ec9b8722deeda4a7254c19be8dd227d8f77b5883b634cb69cf8306c380dbe93b8b3266bc49a56373cc9f644e5b036266706e9df373b01833"
 
 RPROVIDES:${PN} += "geoipupdate-legacy"
 

@@ -20,8 +20,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.15"
 
-RPM_NAME = "perl-Class-Spiffy-0.15-138.21.noarch.rpm"
-RPM_HASH = "ece492597fc3e92f2216f78057177ed335f49e3baf123a26781d81a0da02f3bacb0b0a5f0f09b383a63d0c82ffc072ba37c5e0279e87d2904ddf2a573ae14e44"
+RPM_NAME = "perl-Class-Spiffy-0.15-138.22.noarch.rpm"
+RPM_HASH = "caf2f5e75ab89b2340cdf3e51d6f136316dbc6fc168c71ecd0f1796c0923628af2581aca25f5d267612f2939c914a43800060577572dd6398aec5b641abb7465"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Spiffy \
@@ -29,6 +29,6 @@ perl-Class--Spiffy--mixin \
 perl-Class-Spiffy \
 perl-DB"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

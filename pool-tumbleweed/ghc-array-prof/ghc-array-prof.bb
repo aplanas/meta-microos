@@ -4,13 +4,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.4.0"
 
-RPM_NAME = "ghc-array-prof-0.5.4.0-3.2.aarch64.rpm"
-RPM_HASH = "cc7f507043cb1d1970a8c699025a665eb62d3cd5d32a1cf87e7f0d75a51de92b4856f1d2428898bf632a5dedf79cf94875e1bdf174ee7d65c0edcd0529754345"
+RPM_NAME = "ghc-array-prof-0.5.4.0-1.1.aarch64.rpm"
+RPM_HASH = "a1a90091d856277b7134c84cac838f0a8bc0348a9f48e567f0c3e5ced65192a0017b8daa614252e5ba9afa1d71e16a486a3d1a58c757e12baad30072fafef15b"
 
 RPROVIDES:${PN} += "ghc-array-prof \
 ghc-prof-array-0.5.4.0"
 
 RDEPENDS:${PN} += "ghc-array-devel \
-ghc-prof-base-4.17.1.0"
+ghc-prof-base-4.17.2.0"
 
 inherit rpm

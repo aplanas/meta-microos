@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.svn19440"
 
-RPM_NAME = "texlive-epslatex-fr-2023.209.svn19440-54.1.noarch.rpm"
-RPM_HASH = "af10e2af44fe72a9865ce61a28657c8bd5c83b2e8da682300d9ae72712e4ba43a6f4722cc7692d3d3af90285ac4476d69a02d55f5c937476ce8e766cafef0469"
+RPM_NAME = "texlive-epslatex-fr-2023.209.svn19440-54.2.noarch.rpm"
+RPM_HASH = "8cac29ffe39c16c1b94819e632271a2a63e151615dabfcd4046ff729b2fc5b388298d32ad51b302013bab47783d0f4c7e68b4c57769bf480b22589e57e09f23a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-epslatex-fr"

@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7.3"
 
-RPM_NAME = "ghc-void-devel-0.7.3-6.2.aarch64.rpm"
-RPM_HASH = "708c53a8a80713e9a4e72391eb1befaee136dbae9280001fdf5f7a06b84d5cbd4f6a20b87db064c0ea82e9b0899c29f345b80334527a6413a6729f83e075eebe"
+RPM_NAME = "ghc-void-devel-0.7.3-6.3.aarch64.rpm"
+RPM_HASH = "948608ce3aac257de497b1bb3a6088b373fe41ca057e35dfa074f02baa173427bcc31bf2de47b1b2e77dc2824baa3a9fed59888b823ec6576ad683395a27d4f9"
 
-RPROVIDES:${PN} += "ghc-devel-void-0.7.3-GHzyjd8VkpoJvEZLjo6Bsz \
+RPROVIDES:${PN} += "ghc-devel-void-0.7.3-GhXmDKlBHl0LbXoxVMxAU0 \
 ghc-void-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-void"
 
 inherit rpm

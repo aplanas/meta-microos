@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 QmlCore library"
 DESCRIPTION = "The Qt 6 QmlCore library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "libQt6QmlCore6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "69e6b761aa8ca9ffaa0babf9ad184d9f3681e5d5dba5cc97506e50dcc62a34d036b27b9ca87cc8d4e564725bc5276fdf142e11456aed7dbb6c5191130a2e794c"
+RPM_NAME = "libQt6QmlCore6-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "15bed522770fd31d9c803ad6910b3ea2a4c536be926e88f05a363ecee9694d885a6468ce76d8e88d3839596c38296a58d1944d4a0dd4e6a79ac8c37b6791ff07"
 
 RPROVIDES:${PN} += "libQt6QmlCore.so.6 \
 libQt6QmlCore6"

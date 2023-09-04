@@ -26,8 +26,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "1.24"
 
-RPM_NAME = "perl-XML-Stream-1.24-1.25.noarch.rpm"
-RPM_HASH = "41e349db3a4e3183d608b744eb04893f227db2525d5041c0942db115048da0130877371456531e658dad8d10787e1857c270490be09dfe3f1a54e8b852ac6ef1"
+RPM_NAME = "perl-XML-Stream-1.24-1.26.noarch.rpm"
+RPM_HASH = "53236fb35bdf2b7967696bdfcbb23d8e174a8c00164d7748388b1ce6d1edaecd3c1d5162c7c7a51381902161a95a511817f33bf16e7c00fba9829b1077ea0691"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--Stream \
@@ -54,7 +54,7 @@ perl-XML--Stream--XPath--Query \
 perl-XML--Stream--XPath--Value \
 perl-XML-Stream"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Authen--SASL"
 
 inherit rpm

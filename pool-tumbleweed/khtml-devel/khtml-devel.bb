@@ -4,10 +4,10 @@ technology and using KJS for JavaScript support. \
 Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "khtml-devel-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "9939160dc07175035825cdf41cb8a9bcefcd7b8b529f8a5d2e26ca6c0461c4329897596e51b25f41796d88c568d1b80efdd3eeb98507b96f00ebc65cf4ff6c78"
+RPM_NAME = "khtml-devel-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "652980397bf25d03611b398c339eddde313ed3da0673efae198dc615e9c8b5e70716011f08725e402966e1856ce3aded0cebcb430b0e10275a47061ea37d1a90"
 
 RPROVIDES:${PN} += "cmake-KF5KHtml \
 khtml-devel"

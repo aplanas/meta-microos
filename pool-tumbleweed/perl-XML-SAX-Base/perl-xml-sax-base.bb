@@ -13,8 +13,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.09"
 
-RPM_NAME = "perl-XML-SAX-Base-1.09-1.24.noarch.rpm"
-RPM_HASH = "04edf3e086afa8f47215a6e04ef270ede2ab3bf60ebb3ef6ee37feef939619ead505ff482811463a4b145f26fb664c0d191f39076d246da7609e310d1eeca45d"
+RPM_NAME = "perl-XML-SAX-Base-1.09-1.25.noarch.rpm"
+RPM_HASH = "5d7f65b1c927fc0938b425766aa510a768c4fe13c7d30bf9d817ef26adda9d5ef099d1f7560f5b7fe23f891355358f49bed02e70b816b1638d8d63d787685cbc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--SAX--Base \
@@ -22,6 +22,6 @@ perl-XML--SAX--Base--NoHandler \
 perl-XML--SAX--Exception \
 perl-XML-SAX-Base"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

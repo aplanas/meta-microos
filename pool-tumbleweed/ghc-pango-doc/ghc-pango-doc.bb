@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.13.10.0"
 
-RPM_NAME = "ghc-pango-doc-0.13.10.0-1.3.noarch.rpm"
-RPM_HASH = "a0b8eb33f22101c3858a9db0223b78aa40b90d18a66f79fe574a1a6269019e4baa0efe510fcba4cc1ed091e63ef44a65b42d6b3052515e92add62273f7c2f5d9"
+RPM_NAME = "ghc-pango-doc-0.13.10.0-1.6.noarch.rpm"
+RPM_HASH = "161531fe863b41c979c0a3367affd38fb64dc88988ebbb872b6984326192852394e0579d7b8614833ab970a1334dd2e0c2a8b1739d9ef6dd9f69933a1dedfcf0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-pango-doc"

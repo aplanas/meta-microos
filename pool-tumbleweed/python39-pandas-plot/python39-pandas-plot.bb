@@ -2,10 +2,10 @@ SUMMARY = "The python pandas[plot] extra"
 DESCRIPTION = "This package provides the [plot] extra for python-pandas"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.2"
+PV = "2.0.3"
 
-RPM_NAME = "python39-pandas-plot-2.0.2-4.1.noarch.rpm"
-RPM_HASH = "8f4cee1e1bc18955cbd7c6c6b1c739ccc851c88e01055f06caaf6a2f01c76289f4acd1e1975ff9d0f41b58e830d9b6768bbf94a815785c98c4bdba339e037b00"
+RPM_NAME = "python39-pandas-plot-2.0.3-1.2.noarch.rpm"
+RPM_HASH = "045817213951171008e91a4bcf3220c2e9c0958214b55939c3d63896aed6cc7998184ae0bcb880fb33f0e4accd6cffca8aadc345cad13ab8484a27fea600024d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pandas-plot"

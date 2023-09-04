@@ -35,14 +35,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.114"
 
-RPM_NAME = "perl-Data-OptList-0.114-1.2.noarch.rpm"
-RPM_HASH = "f54a9d494dfb84236ad3b0ec3fd0bedf516ab4e3d6956eebf35e39c6f88ebee5c8928833030003a06f421cbe84e5e36eab6057a62defdabc654f86b97879e0cf"
+RPM_NAME = "perl-Data-OptList-0.114-1.3.noarch.rpm"
+RPM_HASH = "e6a53fab365f6786bbfe8dff7660e1b179e599b0a7cf97155820514e9e0177d04896f85b93b7e485814c6fd9214b99a8d228bd94d191e27255384c5c0ecb362d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--OptList \
 perl-Data-OptList"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Params--Util \
 perl-Sub--Install"
 

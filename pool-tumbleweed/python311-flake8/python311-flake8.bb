@@ -9,10 +9,10 @@ around these tools: \
 Flake8 runs all the tools by launching the single ``flake8`` script."
 LICENSE = "MIT"
 
-PV = "6.0.0"
+PV = "6.1.0"
 
-RPM_NAME = "python311-flake8-6.0.0-2.3.noarch.rpm"
-RPM_HASH = "4592eb3f92d5d384c25d314dae6ede8551bda312fc3884c03fa77cb5e40945bd9d8590f533c284ee1be83b601638d132d46fa3f310a9e13b6a503cadd3762832"
+RPM_NAME = "python311-flake8-6.1.0-1.1.noarch.rpm"
+RPM_HASH = "7b2056828b4b8787fe0d873c90a220503261a432b945b09e13c36e2b0e5a1415349a6fbc2406c2e5bbc66485aeaa87b51dd3b2cab4e6110c476c3b4504e5b070"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-flake8 \
@@ -21,8 +21,8 @@ python311-flake8 \
 python3dist-flake8"
 
 RDEPENDS:${PN} += "-python311-mccabe >= 0.7.0 with python311-mccabe < 0.8.0 \
--python311-pycodestyle >= 2.10.0 with python311-pycodestyle < 2.11.0 \
--python311-pyflakes >= 3.0.0 with python311-pyflakes < 3.1.0 \
+-python311-pycodestyle >= 2.11.0 with python311-pycodestyle < 2.12.0 \
+-python311-pyflakes >= 3.1.0 with python311-pyflakes < 3.2.0 \
 /usr/bin/python3.11 \
 /usr/bin/sh \
 python-abi \

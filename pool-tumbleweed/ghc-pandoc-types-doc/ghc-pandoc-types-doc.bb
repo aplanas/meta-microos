@@ -2,10 +2,10 @@ SUMMARY = "Haskell pandoc-types library documentation"
 DESCRIPTION = "This package provides the Haskell pandoc-types library documentation."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.23.0.1"
+PV = "1.23.1"
 
-RPM_NAME = "ghc-pandoc-types-doc-1.23.0.1-1.1.noarch.rpm"
-RPM_HASH = "c661cae67e50e9ca8ba4d655b8fe4f304966d8109f5b82f39939b3ee92918b210b048779b762b96e22bc9ebfd3972d847694e10d4caf71310dcf0d5b6244da0f"
+RPM_NAME = "ghc-pandoc-types-doc-1.23.1-1.1.noarch.rpm"
+RPM_HASH = "0ed6aa9be2cdac20d2ef823e834a01202cb341d8a86eeeacb638472d466598c68ebf14c58a3c1f5cb75ac7e0dac975d55bb5a0bcc96a945e850ee2a4d99aec6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-pandoc-types-doc"

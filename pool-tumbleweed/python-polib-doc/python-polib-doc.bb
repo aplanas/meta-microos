@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "python-polib-doc-1.1.1-1.9.noarch.rpm"
-RPM_HASH = "6d1b48f1c4fe201a42c89c21470b00f0afe5a09be60a13ad31d7a49d528fcc2f26ed213a250398b314156e27c7e8a8b70eea8c00c27c42ae05c93f97a75e97ff"
+RPM_NAME = "python-polib-doc-1.1.1-2.1.noarch.rpm"
+RPM_HASH = "de80ee5c615153f2a0ef0f01bb8c503f32fc25ab47112867aefc42aef3d4fc00432868202507fbae8aa22f5f59800d0fc58bae98f9e93ba5afd9e1e130f2eaa7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-polib-doc \

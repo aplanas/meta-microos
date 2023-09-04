@@ -9,15 +9,15 @@ LICENSE = "Apache-2.0"
 
 PV = "0.014"
 
-RPM_NAME = "perl-HTTP-CookieJar-0.014-1.3.noarch.rpm"
-RPM_HASH = "de917dfbf0bdb7ebf8be2e8ddf35d7836d6b125cbc76d209fd339486dde19f79f63a5945164b9e28ae61f1c94e5afaecab0f0dc3e75e5ec21124ec7b73353aad"
+RPM_NAME = "perl-HTTP-CookieJar-0.014-1.4.noarch.rpm"
+RPM_HASH = "8d1e9286add934cdab1ee080a39f532a37b848cf4bd2e6791c218dc2f8417d2b897d40acc803e7dffb1e37f601f5166e5808db0cb3ff76883944f388450ec450"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--CookieJar \
 perl-HTTP--CookieJar--LWP \
 perl-HTTP-CookieJar"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-HTTP--Date \
 perl-Time--Local \
 perl-parent"

@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn47049"
 
-RPM_NAME = "texlive-xtuthesis-2023.209.1.0svn47049-53.1.noarch.rpm"
-RPM_HASH = "59ec246c1d8e10e251969d566510aa3f31af1d6b3100f3cfba5d1467909186e11c8c6ade8af13f962bdbf593b2250ee335957096c9513f91fbe900e595d6f694"
+RPM_NAME = "texlive-xtuthesis-2023.209.1.0svn47049-53.2.noarch.rpm"
+RPM_HASH = "9a2193489ed92e22378c58150c7183f6b03fa2fab909ee37e814d02131c0d4fe4d80aded1a7842b30dbb0c1724f1fa71bfa04809a0f879ea9b1f12fabe22cb92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xtuformat.sty \

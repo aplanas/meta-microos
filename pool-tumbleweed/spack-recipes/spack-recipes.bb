@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0 & MIT & Python-2.0 & BSD-3-Clause"
 
 PV = "0.20.0"
 
-RPM_NAME = "spack-recipes-0.20.0-2.1.noarch.rpm"
-RPM_HASH = "14ebeabc8d36373ff6e00253bba98c2a6704c230494c558da7fe4cb7d23a6fcbc41bf23307c2f6f57ab3b646b0c416261ef9b9e2eaab7536199948e4461220f4"
+RPM_NAME = "spack-recipes-0.20.0-3.1.noarch.rpm"
+RPM_HASH = "4efcefe17009aa49566eb43f867a49b89d08caec07f825a359a6d8d9b0bb1820e433e3519b6d21658e6bf1f0299d7cf2f4e2be8596f92d98bf092edd6cb5e573"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "spack-recipes"

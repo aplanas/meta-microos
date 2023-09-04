@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.11svn64131"
 
-RPM_NAME = "texlive-pygmentex-doc-2023.209.0.0.11svn64131-54.1.noarch.rpm"
-RPM_HASH = "2313fe00f2a98599a918c6b22b8b4b75bb55873b05d78f4c785c975c1fa22247651bfe12713c70c256a139996aabfa4d9f25dd39d6ec16310cd5d1f938b2649f"
+RPM_NAME = "texlive-pygmentex-doc-2023.209.0.0.11svn64131-54.2.noarch.rpm"
+RPM_HASH = "f63067f8c5e123b74bcaaf657fbdb2786dff973ffb4ce02830b21de895925a90b2b6c8f2e27b3917a20b1c3d937154cf721598181b40180f1ea4ec9094e3789e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pygmentex-doc"

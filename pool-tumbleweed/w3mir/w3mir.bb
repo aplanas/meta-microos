@@ -19,8 +19,8 @@ LICENSE = "Artistic-1.0"
 
 PV = "1.0.10"
 
-RPM_NAME = "w3mir-1.0.10-682.27.noarch.rpm"
-RPM_HASH = "f7fe57e0ab112fdbc3631917637ca0340fcca1eb6143b8ea659a4616cc5e66ef29ffc967370ad34b63bcc92fdd1e9a3e096a63e5aa518690a7b5c0f8c50a3664"
+RPM_NAME = "w3mir-1.0.10-682.28.noarch.rpm"
+RPM_HASH = "946f9bd1dac37e3192a409d3acaac775d8985fd715dd1329460b8b4fe2d07d834be4fe17cf4b643fb6c0d599364e8a7d4113b3d73b61760e6d0288d06421f370"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-htmlop \

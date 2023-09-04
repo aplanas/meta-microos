@@ -5,8 +5,8 @@ LICENSE = "(Artistic-1.0 | GPL-1.0-or-later) & TCL"
 
 PV = "1.29"
 
-RPM_NAME = "perl-Tk-TableMatrix-1.29-2.2.aarch64.rpm"
-RPM_HASH = "696f3e5c9b8df29fb91dd38888502fcbdc3edabc0db196805f4dc15411c034c6d69037d6d4b88d806cd8593b6e10c43d8a83018883dc833ceaa3db7e7d91dc60"
+RPM_NAME = "perl-Tk-TableMatrix-1.29-2.3.aarch64.rpm"
+RPM_HASH = "0a11c4f17bab864ae62eaf767ee8f7869cb6affb47a087e5ed1181981c0febafa9590f0ba816f36df2d8c15735b0bf72445deb18104a6f6a6f9321017970940b"
 
 RPROVIDES:${PN} += "perl-Tk--TableMatrix \
 perl-Tk--TableMatrix--Spreadsheet \
@@ -15,7 +15,7 @@ perl-Tk-TableMatrix"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Tk"
 
 inherit rpm

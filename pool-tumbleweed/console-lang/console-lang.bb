@@ -2,10 +2,10 @@ SUMMARY = "Translations for package console"
 DESCRIPTION = "Provides translations for the 'console' package."
 LICENSE = "GPL-3.0-only"
 
-PV = "44.0"
+PV = "44.4"
 
-RPM_NAME = "console-lang-44.0-1.1.noarch.rpm"
-RPM_HASH = "4e6ed6e098d3b6f9b0bb3359cc9bf5dda19859a68201df6e8532aae7060ec2ad94d2ffa2a9b646542894f182aa9a976bd0b5633162001d3055b1ad8fafe7b235"
+RPM_NAME = "console-lang-44.4-1.1.noarch.rpm"
+RPM_HASH = "d4114f8270ba1ec5e56d752bf8c2199731bcce20adde85c44e5fbe3665dd53f341110c94b17af056ea0e79a5f57a6783c40e7c4bce8cc165fdc3b10b514aea81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "console-lang \

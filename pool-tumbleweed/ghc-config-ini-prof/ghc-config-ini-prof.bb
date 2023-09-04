@@ -4,18 +4,18 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.6.0"
 
-RPM_NAME = "ghc-config-ini-prof-0.2.6.0-1.2.aarch64.rpm"
-RPM_HASH = "d8171a6f6d99fd939bad685e407da5204eb5731a741817c2e8f953ba8539f5da782914f8842758995902c1566d42d7443b11725aef15be14a849ad793e8e9a21"
+RPM_NAME = "ghc-config-ini-prof-0.2.6.0-1.5.aarch64.rpm"
+RPM_HASH = "2453f5ae480cc6b8354f19332173ae6c44722de8da5142b71f070f245b2190b638e11ccc5df6ca71b99a81850e35fc01436bdc7d09f1700cc313c636ab0d4f7c"
 
 RPROVIDES:${PN} += "ghc-config-ini-prof \
-ghc-prof-config-ini-0.2.6.0-FZ1GgaSPQSr5D8UkvN7nbq"
+ghc-prof-config-ini-0.2.6.0-HoJpnqrH2zF9Zc2bv1CbDm"
 
 RDEPENDS:${PN} += "ghc-config-ini-devel \
-ghc-prof-base-4.17.1.0 \
+ghc-prof-base-4.17.2.0 \
 ghc-prof-containers-0.6.7 \
-ghc-prof-megaparsec-9.3.1-Lptmv1Cc41nKt1ZYt8kXVr \
+ghc-prof-megaparsec-9.3.1-Jdwz39dpTDz8anub3eLd49 \
 ghc-prof-text-2.0.2 \
 ghc-prof-transformers-0.5.6.2 \
-ghc-prof-unordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E"
+ghc-prof-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn"
 
 inherit rpm

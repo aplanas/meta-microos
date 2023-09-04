@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "5.0"
 
-RPM_NAME = "patterns-microos-cockpit-5.0-72.1.aarch64.rpm"
-RPM_HASH = "83159da9e991f2f8fa2233f14fd2d42a36496e84b44a2f782861be6509cfe86ab53cd295edf89aff60b726857caa704e59b33513fc288394fa885555f1ae32ba"
+RPM_NAME = "patterns-microos-cockpit-5.0-73.1.aarch64.rpm"
+RPM_HASH = "b882802daef035207fe7eb43130a56ff15da5bf73be42f7fc0b9ec0481ab05a2ac7adf56a74507b2ec35e646b6a225ed3758eeb8485c4140a38b5793e69f630e"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

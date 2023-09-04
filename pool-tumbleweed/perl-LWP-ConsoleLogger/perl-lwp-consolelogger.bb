@@ -17,8 +17,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.000001"
 
-RPM_NAME = "perl-LWP-ConsoleLogger-1.000001-1.1.noarch.rpm"
-RPM_HASH = "5e105161c693ffe0fada34992bc83b5818bf96db4ab39d6a2a093eac0df27635c3b5c5d642dea48718f84badb4387dffc60f825b9b0bf44cad1043daa590e48a"
+RPM_NAME = "perl-LWP-ConsoleLogger-1.000001-1.2.noarch.rpm"
+RPM_HASH = "6cfcf243f4aa3f4b3782a64e28a718cdad830081ace3250b75d28b8303bed1063137190debc08197bdd79c15b9c065066e546c5f425618da9f1159cc8c2d5b8d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-LWP--ConsoleLogger \
@@ -26,7 +26,7 @@ perl-LWP--ConsoleLogger--Easy \
 perl-LWP--ConsoleLogger--Everywhere \
 perl-LWP-ConsoleLogger"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Class--Method--Modifiers \
 perl-Data--Printer \
 perl-DateTime \

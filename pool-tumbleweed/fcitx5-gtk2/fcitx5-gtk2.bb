@@ -2,10 +2,10 @@ SUMMARY = "GTK+ 2.0 im module for fcitx5"
 DESCRIPTION = "This package provides GTK+ 2.0 im module for fcitx5."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.0.23"
+PV = "5.1.0"
 
-RPM_NAME = "fcitx5-gtk2-5.0.23-1.1.aarch64.rpm"
-RPM_HASH = "a9cf4ec63648ce6f63f9d8e294abc95539cc2ed7b3e5300387638f9e0d3a92ea954ac9bb284471249cbb104eeb1ed0619e1972a0167342e41562bbfbc650d889"
+RPM_NAME = "fcitx5-gtk2-5.1.0-1.1.aarch64.rpm"
+RPM_HASH = "aca83ea1fcac5f07897bb8315b08a42e2463e40c397822fe74c47db14c76fe97fbde3b8fb7a06fe19f406cbf64ab1f0122dc820cd3462091117cae58571487f5"
 
 RPROVIDES:${PN} += "fcitx-gtk2 \
 fcitx5-gtk2"
@@ -21,6 +21,7 @@ libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-x11-2.0.so.0 \
 libpango-1.0.so.0 \
+libstdc++.so.6 \
 libxkbcommon.so.0"
 
 inherit rpm

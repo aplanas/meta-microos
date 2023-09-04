@@ -7,8 +7,8 @@ LICENSE = "ISC"
 
 PV = "1.14.6"
 
-RPM_NAME = "mandoc-bin-1.14.6-4.1.aarch64.rpm"
-RPM_HASH = "09df427a8e5de8e56f345d7abc35ccf8ebb43f03fe290799d6cbcdf41846f08c14cb994903e6d9090a1b112740e44385822df3a0c655d4d8a38358698e527e23"
+RPM_NAME = "mandoc-bin-1.14.6-5.1.aarch64.rpm"
+RPM_HASH = "8d5d3e8d27bc76359a4ad2aed2ed81a6b3ee479934a5310a6d8fc8f0ab889cb214a37a1529e24d3f8e97506bfc6f15135d6465a17041752fefcb3b6cd6d7fc73"
 
 RPROVIDES:${PN} += "mandoc-bin"
 

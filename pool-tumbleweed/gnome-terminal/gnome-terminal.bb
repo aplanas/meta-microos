@@ -2,10 +2,10 @@ SUMMARY = "GNOME Terminal"
 DESCRIPTION = "This package provides the GNOME terminal emulator application."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "3.48.1"
+PV = "3.48.2"
 
-RPM_NAME = "gnome-terminal-3.48.1-1.2.aarch64.rpm"
-RPM_HASH = "31be4518a1f32a7f8bed954daa9899ec53b2b3f530d50d72f7b4ca3dca8c949b75454506beda60012e3a71a8b278178f714759bd930f4f0882ce648757450fd8"
+RPM_NAME = "gnome-terminal-3.48.2-1.1.aarch64.rpm"
+RPM_HASH = "501cfd4b0c8388a046ff564268d05060c19ff8349ce71ec99064ff248cae6af00791c1d0f73b3ad26eeb80aba2c49ff41210b2b83b35c34a53999bfcf7b01139"
 
 RPROVIDES:${PN} += "gnome-terminal"
 

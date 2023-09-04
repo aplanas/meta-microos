@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.03svn54080"
 
-RPM_NAME = "texlive-yax-doc-2023.209.1.03svn54080-53.1.noarch.rpm"
-RPM_HASH = "cf4c860962a4abbf54b963f7fac5438f9ee5555c54eaa402b9a95f9f888791c4db99f021fb5e7e9e6e5d48b0baf30fda8a84ae38d484232a2103facb5cca3a8a"
+RPM_NAME = "texlive-yax-doc-2023.209.1.03svn54080-53.2.noarch.rpm"
+RPM_HASH = "3e9b181b39ebbdce24e40d86075dfac0db2007da6db69c4a4d910a6211c3346e9488015c26ec2b55dd60a6943820d9f34f900500b7031f627149a2b8562a0361"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yax-doc"

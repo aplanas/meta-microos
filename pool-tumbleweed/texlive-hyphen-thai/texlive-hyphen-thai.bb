@@ -2,10 +2,10 @@ SUMMARY = "Thai hyphenation patterns"
 DESCRIPTION = "Hyphenation patterns for Thai in LTH and UTF-8 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn58652"
+PV = "2023.209.svn58652"
 
-RPM_NAME = "texlive-hyphen-thai-2023.208.svn58652-53.1.noarch.rpm"
-RPM_HASH = "2c4dba3d7b4577da86086d00db5d144be4c67a9e3ff12a1e8ebd002c8a32ba252d59989e7b07998eae4c5d36e34f20b887c7ea13d47d3e747cd2625045136848"
+RPM_NAME = "texlive-hyphen-thai-2023.209.svn58652-54.1.noarch.rpm"
+RPM_HASH = "73e0472676fe44aade97b50d1f73f8be2a2e2877bc82922fc7b6c2234525ca3b8141471500a808ced00e432457ae0b01db6063f4029d629cf01f44194a4836e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-th.lth.tex \

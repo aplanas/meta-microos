@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "5.2.5"
 
-RPM_NAME = "libpcp_web1-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "2e88bff77a3199c3adf4cb862ef481995b9ea686f7b15e110fadff76fe5ba919c4528ab3063fd2f2f984866d6ebd1fbdf44bc5744c32c6b1c1153283120235e8"
+RPM_NAME = "libpcp_web1-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "80979a4532a05988338a66f29bcd68cb9e4400abeeba9206c7f3c49215fc51a81ecdd99f5208f0466ea1151fcd71fcbece9bfb5e44ad7cfa648377bcf55e6ffc"
 
 RPROVIDES:${PN} += "libpcp-web.so.1 \
 libpcp-web1"

@@ -4,13 +4,13 @@ LICENSE = "MIT"
 
 PV = "0.4.0"
 
-RPM_NAME = "ghc-call-stack-prof-0.4.0-2.6.aarch64.rpm"
-RPM_HASH = "4ce91641ede97e781750462919ac58637a617c8ea2709a486937107b6d3f66f0243784a3d10b23c5b43f708596c5cc60377dcdd38f208f46284db68bf667c607"
+RPM_NAME = "ghc-call-stack-prof-0.4.0-2.8.aarch64.rpm"
+RPM_HASH = "eee3fae25b1f3393077227db18adff0e1d01316adc3e7d19ed27e8c10b03f7662f93e192813cb7021d405053d4b44416cdce9e631342637b5d653bf5ec2b63f5"
 
 RPROVIDES:${PN} += "ghc-call-stack-prof \
-ghc-prof-call-stack-0.4.0-K9VxYWjBEvtITBfD6bL7Dk"
+ghc-prof-call-stack-0.4.0-nQZfFxinEdIa1BWxMyadt"
 
 RDEPENDS:${PN} += "ghc-call-stack-devel \
-ghc-prof-base-4.17.1.0"
+ghc-prof-base-4.17.2.0"
 
 inherit rpm

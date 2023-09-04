@@ -5,8 +5,8 @@ LICENSE = "(Apache-2.0 | MIT) & Unicode-DFS-2016 & (0BSD | MIT | Apache-2.0) & (
 
 PV = "1.2.0"
 
-RPM_NAME = "git-cliff-1.2.0-1.2.aarch64.rpm"
-RPM_HASH = "8940cf5b6bd76c5a31758ee3303daf9006668a05ab6f44aa88082757f1a019904531fbb7cde6e170ff805a92180b9ef9c9ed9bc3ebd9e852742043859e158d49"
+RPM_NAME = "git-cliff-1.2.0-2.1.aarch64.rpm"
+RPM_HASH = "c789d805f58e95ff73d0333506a5ef03ce58ea63608bea8a813a58154dcca668267bba5c699fa7cbf8b92ec96f0a4a816fdf96aca5594d4c53f07661395344c8"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-anstream \

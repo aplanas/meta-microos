@@ -4,16 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.2"
 
-RPM_NAME = "ghc-libyaml-prof-0.1.2-6.7.aarch64.rpm"
-RPM_HASH = "fc94cde454ee5cdbc7e85954401588d8ed9f058930a83a13191069a3289cf9c0fba246ccc300e4518d32c7dfd991304cbce4736dacd04356479b84ff2fee2415"
+RPM_NAME = "ghc-libyaml-prof-0.1.2-6.11.aarch64.rpm"
+RPM_HASH = "11fc7e5c80666427b4869958d391c320647a68fdf8579a37a73b43b8ad59fcfa0f915faf3c7647116c7abe2df1b7d215c04f4b2d2c7f1293994add7c3cebe17b"
 
 RPROVIDES:${PN} += "ghc-libyaml-prof \
-ghc-prof-libyaml-0.1.2-6Gx0z1LjMeG6dZCnkkkmHj"
+ghc-prof-libyaml-0.1.2-EDd2y61D5c93Khh6u4Ilj1"
 
 RDEPENDS:${PN} += "ghc-libyaml-devel \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-bytestring-0.11.4.0 \
-ghc-prof-conduit-1.3.5-EjJ71P6EbmSGTrvJLquwgr \
-ghc-prof-resourcet-1.2.6-69eF6Rrz9wX13sOJF59GPv"
+ghc-prof-base-4.17.2.0 \
+ghc-prof-bytestring-0.11.5.1 \
+ghc-prof-conduit-1.3.5-3TRUhNB8WbY2vxuXe2VjBX \
+ghc-prof-resourcet-1.2.6-AOipJdCu0ULL3KFWw8x9fP"
 
 inherit rpm

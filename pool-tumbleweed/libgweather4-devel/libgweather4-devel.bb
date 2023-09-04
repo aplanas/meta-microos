@@ -3,10 +3,10 @@ DESCRIPTION = "This is a library to download weather information from online sou
 This package provides the development files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.2.0"
+PV = "4.3.2"
 
-RPM_NAME = "libgweather4-devel-4.2.0-2.2.aarch64.rpm"
-RPM_HASH = "e91459f5cef66067a69738e392a13f409aa5c1dc30280b639f873f785ad76749a561e7e4d6b1cb484e157df96a59dd843647fbf35d8cd555239f761d79e5f251"
+RPM_NAME = "libgweather4-devel-4.3.2-1.1.aarch64.rpm"
+RPM_HASH = "deba4ed371f39d3044226e0ba58f91ad2708b6fc568ac0932328b138ec0e1dd96c1ccb5b232bf674b8fbb14c795618b745772a650d56cf2105d8e79d94848896"
 
 RPROVIDES:${PN} += "libgweather4-devel \
 pkgconfig-gweather4"

@@ -9,10 +9,10 @@ C extensions that link into the PostgreSQL server. For building client \
 applications, see the postgresql15-devel package."
 LICENSE = "PostgreSQL"
 
-PV = "15.3"
+PV = "15.4"
 
-RPM_NAME = "postgresql15-server-devel-15.3-1.5.aarch64.rpm"
-RPM_HASH = "0f0b6c567c3634f0f2e1a5751a91e54bc302b431c7b06651cee1eb06cd862a94d470953b144fe5ad39dfc9d11a4afd46bf7a938577f8122ca6ac97c1a51fd793"
+RPM_NAME = "postgresql15-server-devel-15.4-1.1.aarch64.rpm"
+RPM_HASH = "207d73c7d077590c1374c3f727585caf1ba6c08024afc0a9de92f507d5d691ac7b9612b414103436bb09f3aa885b34693e39c5953207dadaafdfeb29a48836a6"
 
 RPROVIDES:${PN} += "postgresql-server-devel \
 postgresql-server-devel-exclusive \

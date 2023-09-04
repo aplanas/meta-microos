@@ -16,8 +16,8 @@ LICENSE = "Python-2.0"
 
 PV = "1.14"
 
-RPM_NAME = "python310-quicktions-1.14-1.5.aarch64.rpm"
-RPM_HASH = "149345225819bdd7ac42d6831108aa04f34fc95055ce24d8e7e6b54d7983c7834dc35b3ac0d298f6472ba2b1517a0a58ea138282656937fbf1a29c76fbf76688"
+RPM_NAME = "python310-quicktions-1.14-2.1.aarch64.rpm"
+RPM_HASH = "6af323dc89807d7bddf2b9eeabcd34012fc92b16a580bacda704dc0016f6657daa5c43d0e752540b756b61aced0fb456a3dbc91d5d06ab9190d4fd41ed48938d"
 
 RPROVIDES:${PN} += "python3.10dist-quicktions \
 python310-quicktions \

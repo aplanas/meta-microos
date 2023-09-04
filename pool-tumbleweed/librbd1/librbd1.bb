@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause
 
 PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "librbd1-16.2.13.66+g54799ee0666-3.1.aarch64.rpm"
-RPM_HASH = "6e09f5ca48ea9dcf217781ccfc51155ac7aa0f49e6c8e082df4c4a1f0fdb926cb4ba328312b33d9559ca923987d46bda19c29696eeec31103c066aecf3549414"
+RPM_NAME = "librbd1-16.2.13.66+g54799ee0666-4.1.aarch64.rpm"
+RPM_HASH = "4c72d17ce3e32842db382752ed5ebe6df5ba5e627937271c42c971a234b04ca724701054987606282cc45cd82f745282a24f70bcb914fd55aae51b53a5c1b7ac"
 
 RPROVIDES:${PN} += "libceph-librbd-parent-cache.so.1 \
 libceph-librbd-pwl-cache.so.1 \

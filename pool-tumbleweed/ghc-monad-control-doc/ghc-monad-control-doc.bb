@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.3.1"
 
-RPM_NAME = "ghc-monad-control-doc-1.0.3.1-2.2.noarch.rpm"
-RPM_HASH = "bc6a9b959edfc628238a69848a87391ba130d1e9b675ded67d0998d2ea93ee35d1e0ee98cc08ae935d6f8aa30543a576884320399a23b09f84600b27e0c3bca0"
+RPM_NAME = "ghc-monad-control-doc-1.0.3.1-2.3.noarch.rpm"
+RPM_HASH = "bb088eed129a7167e21148f2756703b5e908aaa82ee6755a1bdaf9dc92f97e5513b6bf298ba6ccbfeea37f70eaa3bf929dcdc07e0f95f86349eef91b438fde8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-monad-control-doc"

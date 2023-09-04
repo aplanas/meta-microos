@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.4.2svn30002"
 
-RPM_NAME = "texlive-hletter-2023.209.4.2svn30002-54.1.noarch.rpm"
-RPM_HASH = "99f8b95f6791d4247cfd7ebd24cfb87598fb666df0d462875a8399abbcf92d09dfb327dde28d12387eb0d5703448ab7660b75f8090ad3e40fd656552d1397dd6"
+RPM_NAME = "texlive-hletter-2023.209.4.2svn30002-54.2.noarch.rpm"
+RPM_HASH = "00f1c5306fae5ef8e5799fa953a3a0a6573f1734ad2635b3ed62480a93027bb35a5e845e0ad617fbec5a62f644dd4178c4edc44835d2f8f878169809bdcbb1b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hdefine.clo \

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.2.3fsvn23347"
 
-RPM_NAME = "texlive-xtab-doc-2023.209.2.3fsvn23347-53.1.noarch.rpm"
-RPM_HASH = "ffc21a7f5957d64a34088611aa57db9e09b68b140723ff01add2d9c2f7e65582de277346df4427c720a4113b5f048904314aed70c8ba18f96e119cddf0bac1d7"
+RPM_NAME = "texlive-xtab-doc-2023.209.2.3fsvn23347-53.2.noarch.rpm"
+RPM_HASH = "d3cdfea1e4ad5eb7f844609d1a3040379f0185df698544c39f4897b02e52f3422a31a1556484ebf7bd7e2a5668e8bc369cd42df92d1a7f97d883c9c0dec6c262"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xtab-doc"

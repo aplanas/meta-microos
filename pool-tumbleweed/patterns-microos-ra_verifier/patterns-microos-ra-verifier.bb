@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "5.0"
 
-RPM_NAME = "patterns-microos-ra_verifier-5.0-72.1.aarch64.rpm"
-RPM_HASH = "0d47c658f1aa90cac8bd63c722d7d120dc06a09ab66a88d63a9bfa3971447a7afed783873094ae396b6d3561a4eb3e95771ce69af7c62d4992320d10b80afa4c"
+RPM_NAME = "patterns-microos-ra_verifier-5.0-73.1.aarch64.rpm"
+RPM_HASH = "b6136df202ddcc3777ac1f57bef88afd144ff5bca77c31e57e1339b3f33f8f650a9ea133d6c71c3bf766c08c473856eed3b931096f938c507dd641bbce1b9af7"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

@@ -4,10 +4,10 @@ metadata from images) information stored in headers of JPEG and TIFF \
 images."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.8"
+PV = "8.2.9"
 
-RPM_NAME = "php8-exif-8.2.8-1.1.aarch64.rpm"
-RPM_HASH = "a0bb876c80ef6721ac0930a12eaaa199d82dfa1e81c48b04a93471177acbd0232966d011339e734029bd31b13e7615943638ccd4f61e8f173a353ceb74826fe8"
+RPM_NAME = "php8-exif-8.2.9-1.1.aarch64.rpm"
+RPM_HASH = "8e9bc23d86ec60b67742bae8efb4c25ffd4989ca9d81bb5b8c016b57b80b32012279ee55bde8f6608f4d97edaa3e0bf9d6e8bf8c27229398ae1ebaa1ed4d02f8"
 
 RPROVIDES:${PN} += "config-php8-exif \
 php-exif \

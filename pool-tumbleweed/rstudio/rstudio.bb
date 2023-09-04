@@ -4,8 +4,8 @@ LICENSE = "AGPL-3.0-only & Apache-2.0 & MPL-1.1 & LGPL-2.1-or-later & GPL-2.0-on
 
 PV = "2023.06.0+421"
 
-RPM_NAME = "rstudio-2023.06.0+421-1.2.aarch64.rpm"
-RPM_HASH = "17b96759e7e4bdac6a46048bd6a1d0f565bbb02e83d6408344a0fe9bd6c5d4ea10891b560898d89ea88f8a4458da24caabaee382ca35dbb602a186c84cbb118e"
+RPM_NAME = "rstudio-2023.06.0+421-1.4.aarch64.rpm"
+RPM_HASH = "a2a01f6bb1156c6f799ba98d7462f06c8e9e7d1d07a64c1e810c998f134d8684a8085cead020bd9a2a173dabb826c98c454c76b3ab02d31fe02e02422680adf3"
 
 RPROVIDES:${PN} += "bundled-ace.js \
 bundled-aopalliance \
@@ -54,7 +54,7 @@ libsoci-sqlite3.so.4.0 \
 libssl.so.3 \
 libstdc++.so.6 \
 libuuid.so.1 \
-libyaml-cpp.so.0.7 \
+libyaml-cpp.so.0.8 \
 libz.so.1 \
 systemd"
 

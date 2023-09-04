@@ -7,10 +7,10 @@ List View, server-side sorting, SASL, TLS/SSL, and many other \
 features. (The server started out as Netscape Directory Server.)"
 LICENSE = "GPL-3.0-or-later & MPL-2.0"
 
-PV = "2.4.0~git18.37ec5cd"
+PV = "2.4.0~git74.4297d88"
 
-RPM_NAME = "389-ds-2.4.0~git18.37ec5cd-1.3.aarch64.rpm"
-RPM_HASH = "1369efa7692b4fc6dd8351d05759cbfe235f8db84f1b56867f4e76027d5babae2dbe6ba24c2cbfe88065813dcab8b0a6020243306d451aeedea43494246c6424"
+RPM_NAME = "389-ds-2.4.0~git74.4297d88-1.1.aarch64.rpm"
+RPM_HASH = "51bb0798c215afdb9f4c2cb71da581e9059d9b483427f7b2c146b8c7032cd4fbe555fe4fe37bc7c3d089b41abecde15e2c095c5afc7a8ea1e9199522a09a6c91"
 
 RPROVIDES:${PN} += "389-ds \
 389-ds-base \

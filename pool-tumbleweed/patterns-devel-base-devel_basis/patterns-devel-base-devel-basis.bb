@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20170319"
 
-RPM_NAME = "patterns-devel-base-devel_basis-20170319-11.2.aarch64.rpm"
-RPM_HASH = "1c58cc954625be538c4f1f35530376f7113d89d79f16a5da1e6b9da090942e98ec7a93bf30393c991512071d06031988375efba9e448d8d6caa96fd1764ee1f3"
+RPM_NAME = "patterns-devel-base-devel_basis-20170319-12.1.aarch64.rpm"
+RPM_HASH = "e99fa368cf615647a5d50cc9ed9e247836e74af435120c04f3f4e4e8ea420085cd66288a4a22675d1c236ec44a5a8767f8d44ef12cdaa1798284e5cdfb1849f6"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \
@@ -16,6 +16,7 @@ patterns-devel-base-devel-basis"
 
 RDEPENDS:${PN} += "autoconf \
 automake \
+awk \
 binutils \
 bison \
 cpp \

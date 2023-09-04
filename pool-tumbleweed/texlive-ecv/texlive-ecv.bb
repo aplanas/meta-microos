@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.3svn24928"
 
-RPM_NAME = "texlive-ecv-2023.209.0.0.3svn24928-54.1.noarch.rpm"
-RPM_HASH = "9af82f956d6292ab1f2992e8f8f61fbf208773b2ab1c3faa62749aafab869d4e2e52ec2df28221b56a01a5ee4b2c9f682d841e0599f0945c64d853c7e9cc0648"
+RPM_NAME = "texlive-ecv-2023.209.0.0.3svn24928-54.2.noarch.rpm"
+RPM_HASH = "8aa47aca660890dc8cb09b09efbafde7081ec9e056a1f014fd1cafe5bf12ee278cb29b25e8776228e040472142382c76abbc6b5840a6b50ddcef846bde84294d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ecv.cls \

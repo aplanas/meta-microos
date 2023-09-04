@@ -23,13 +23,13 @@ LICENSE = "MIT"
 
 PV = "8.70"
 
-RPM_NAME = "perl-Geo-IP2Location-8.70-1.2.noarch.rpm"
-RPM_HASH = "7cf342e4d9b3e81f15cb5b8081055fc7349a1583d3cdd274ec3eec92bab56a4b83dd1438eec890bd2d7ceb1a84cea0c85d8e388b3fa141619550f90517460f7f"
+RPM_NAME = "perl-Geo-IP2Location-8.70-1.3.noarch.rpm"
+RPM_HASH = "d68b976c9b9f45a4c1343d788682bdc4b610f7537e5f6cb345dcc42b89203ee893b729fd83cb344d1a89457c33efab94a3e7d6d777b7a03aec709afac59dbdec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Geo--IP2Location \
 perl-Geo-IP2Location"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

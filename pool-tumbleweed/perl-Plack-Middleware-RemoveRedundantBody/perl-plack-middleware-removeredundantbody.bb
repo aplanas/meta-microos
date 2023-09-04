@@ -4,14 +4,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.09"
 
-RPM_NAME = "perl-Plack-Middleware-RemoveRedundantBody-0.09-1.13.noarch.rpm"
-RPM_HASH = "d30f4e5f6d327d77c9ffe24f8fd6a0831b73a06ff4f2268a135d73f0014c51948fa97511de8d81deb62daedad071429834793376437179ddf4dad592db29a0e4"
+RPM_NAME = "perl-Plack-Middleware-RemoveRedundantBody-0.09-1.14.noarch.rpm"
+RPM_HASH = "1af8224e8cd1a55dcf3701f6dde74470f558bf9feb9938ae8d93e329fcb2e5b7278bf3bb33e3327c2447617fdd168989315f62c7442e562e10b4146dac3a7e25"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Plack--Middleware--RemoveRedundantBody \
 perl-Plack-Middleware-RemoveRedundantBody"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Plack--Middleware \
 perl-Plack--Util \
 perl-parent"

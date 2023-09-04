@@ -7,15 +7,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.11"
 
-RPM_NAME = "perl-HTTP-CookieMonster-0.11-1.11.noarch.rpm"
-RPM_HASH = "d249264d7e831203435723d3e3ef27cb2f441e7e251e89c8a04503360c7fb234f60eb6be316a464f79b74aa31626a1425daa628d5128c844bd979bb4f64b8e3b"
+RPM_NAME = "perl-HTTP-CookieMonster-0.11-1.12.noarch.rpm"
+RPM_HASH = "49d90feea69119e1c8c0fe0eefad5130e21191423dfec645cb3c5091f8a846167403a8d8e24f31163948acedd414e527fc441e68e93373c5afd92e8e44697ee3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--CookieMonster \
 perl-HTTP--CookieMonster--Cookie \
 perl-HTTP-CookieMonster"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-HTTP--Cookies \
 perl-Moo \
 perl-Safe--Isa \

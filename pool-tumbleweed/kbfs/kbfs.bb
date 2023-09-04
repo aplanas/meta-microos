@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.2.2"
 
-RPM_NAME = "kbfs-6.2.2-1.1.aarch64.rpm"
-RPM_HASH = "ecc9b9bbf4871d0bd9ff3805d7d902a4b8b8ccdf28c758454e8bbae2ba07c831423f32b0b47df2c5ef0f233aef4a45da43687bd10a66fa7c7434c20f829b8e65"
+RPM_NAME = "kbfs-6.2.2-2.1.aarch64.rpm"
+RPM_HASH = "adc3e1fd70fdc6fe5d79157c2958b4d1e1342f8b1389a48d3510cbea34732cfa7f51f1c27cccc22faa93a7c68f00dffee3deeced35d1807c1e5a3c51c042f4e4"
 
 RPROVIDES:${PN} += "kbfs"
 

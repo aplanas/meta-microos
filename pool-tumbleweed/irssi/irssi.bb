@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.4"
 
-RPM_NAME = "irssi-1.4.4-3.1.aarch64.rpm"
-RPM_HASH = "6a673f6557a944f567ef5e4388faa6bdb41920e43fe710fc174181db0e1eae2f8c8a4c1a1c029063a5bf8425e6f1e0bb87e9a671a940ce1af1e8b82be6da2fa1"
+RPM_NAME = "irssi-1.4.4-3.2.aarch64.rpm"
+RPM_HASH = "16151d496e09a735ef1c3405dd90dba71859ac2c03513b8086d2e9f0206d4bf29379be798d0451b819b8456593e8cc490acbd99ce589e67482339362ed426c94"
 
 RPROVIDES:${PN} += "irssi \
 libfe-perl.so \
@@ -34,6 +34,6 @@ libssl.so.3 \
 libtinfo.so.6 \
 libutf8proc.so.2 \
 perl \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

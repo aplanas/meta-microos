@@ -5,10 +5,10 @@ refreshable braille display. It drives the braille display and provides \
 complete screen review functionality."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "6.5"
+PV = "6.6"
 
-RPM_NAME = "brltty-6.5-3.1.aarch64.rpm"
-RPM_HASH = "048b91cd2ef20362b3c74f91ee9fe28e9d6903b87b8f58d0d67ca1df8833423cec67305ea2c875b72b667109455bfb05944870591edf1fb6cd428d97d52fab85"
+RPM_NAME = "brltty-6.6-1.1.aarch64.rpm"
+RPM_HASH = "386d2302638a7ce155e19d815deb94dcf3031b59100c6d48427922bfb32931a43776fd6858fc344b6800a77ae116a989d1aab46a4d84c662029ad0c32ac10d6a"
 
 RPROVIDES:${PN} += "brltty \
 config-brltty \
@@ -23,6 +23,7 @@ libbrlttybbn.so \
 libbrlttybcb.so \
 libbrlttybce.so \
 libbrlttybcn.so \
+libbrlttybdp.so \
 libbrlttybec.so \
 libbrlttybeu.so \
 libbrlttybfa.so \
@@ -57,10 +58,13 @@ libbrlttysen.so \
 libbrlttysfv.so \
 libbrlttysgs.so \
 libbrlttysxs.so \
+libbrlttyxem.so \
+libbrlttyxfv.so \
 libbrlttyxlx.so \
 libbrlttyxsc.so"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/env \
 /usr/bin/python3 \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \

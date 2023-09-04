@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.1asvn56272"
 
-RPM_NAME = "texlive-xepersian-hm-2023.209.1.1asvn56272-53.1.noarch.rpm"
-RPM_HASH = "86607dabd6bc44035b058886492e1ba9d15267ed5eef99481594545652b705bdd9d6d82655cd292029112556faab6b32edc2633664c35c20d873009e7eefad5e"
+RPM_NAME = "texlive-xepersian-hm-2023.209.1.1asvn56272-53.2.noarch.rpm"
+RPM_HASH = "2950330d71d6b2db6f5910ff55ebe6316fac288adc339e36fc2ed4436ed543241060e85448d24ebe7b0dfaef47944b83c2bd986881aa82cb407d58374808a989"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xepersian-hm-common-kashida.tex \

@@ -3,10 +3,10 @@ DESCRIPTION = "This module provides functions to extract various kinds of meta i
 from image files."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.43"
+PV = "1.440.0"
 
-RPM_NAME = "perl-Image-Info-1.43-1.3.noarch.rpm"
-RPM_HASH = "56e4a46ff58d87f54cbc4e7c4a93b97d1ade19fcddc92dab31d6ab5428a9699d60b2ad9406a2510ccc41847ce5f885d6dcc9b282fb3afb3a6e642626c50f94c1"
+RPM_NAME = "perl-Image-Info-1.440.0-1.1.noarch.rpm"
+RPM_HASH = "06192dad9e7b61c44b457210c561f93eaff85759cbf80b05ac8b51794b749cc4caa77d345d38deb59e19157f094b940498bf0d2b9b553ec23d981422a1e39b75"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Bundle--Image--Info--Everything \
@@ -15,6 +15,7 @@ perl-Bundle--Image--Info--SVG \
 perl-Bundle--Image--Info--XBM \
 perl-Bundle--Image--Info--XPM \
 perl-Image--Info \
+perl-Image--Info--AVIF \
 perl-Image--Info--BMP \
 perl-Image--Info--GIF \
 perl-Image--Info--ICO \
@@ -34,6 +35,6 @@ perl-Image--TIFF \
 perl-Image--TIFF--Rational \
 perl-Image-Info"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

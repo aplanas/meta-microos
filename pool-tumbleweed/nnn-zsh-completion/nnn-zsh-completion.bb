@@ -2,10 +2,10 @@ SUMMARY = "ZSH Completion for nnn"
 DESCRIPTION = "The official zsh completion script for nnn."
 LICENSE = "BSD-2-Clause"
 
-PV = "4.8"
+PV = "4.9"
 
-RPM_NAME = "nnn-zsh-completion-4.8-1.2.noarch.rpm"
-RPM_HASH = "1e4ca52aab9d15019338b36ce54cfe5d0eaebb20e8893c0acad18406e55db714114421c6c9b4bed0ed3f98e931e669e1ae083058657f6ec8540581e8886c52f1"
+RPM_NAME = "nnn-zsh-completion-4.9-1.1.noarch.rpm"
+RPM_HASH = "2e9c7515c89933f2e88da89f84738a7927cac20afeb892792040a97f8f08d71ae0e4f2ebb3313f2b12c0c371a48fc7837b97fb658e4d6d5e3339a3f69849152e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nnn-zsh-completion"

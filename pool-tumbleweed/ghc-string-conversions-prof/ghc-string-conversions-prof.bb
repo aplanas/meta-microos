@@ -4,16 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.0.1"
 
-RPM_NAME = "ghc-string-conversions-prof-0.4.0.1-3.2.aarch64.rpm"
-RPM_HASH = "20328434ff3ba4fcff9314f0cbc9667ae7553a4b504134aea472565e8d847f597f7c00bac12a86564adf3309826a4c2fdc9cb57fae8666b2d5fcd1af1e1c064e"
+RPM_NAME = "ghc-string-conversions-prof-0.4.0.1-3.3.aarch64.rpm"
+RPM_HASH = "34902d1dee4c706a2e21a4c7def163113d6f8be853c5a3739c8ba8cbebaad8aee9c7154ef36f453e3436b040dcbbe0af8070863c436c265bee94b40403badee2"
 
-RPROVIDES:${PN} += "ghc-prof-string-conversions-0.4.0.1-B4OFWvpC4GeAVPq9bBfwkx \
+RPROVIDES:${PN} += "ghc-prof-string-conversions-0.4.0.1-3N7tba7YAcNAKUMLxg4Ink \
 ghc-string-conversions-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
-ghc-prof-bytestring-0.11.4.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
+ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-text-2.0.2 \
-ghc-prof-utf8-string-1.0.2-3yyxPCwARUwDt9ZNWn320Q \
+ghc-prof-utf8-string-1.0.2-26mnfHz4IgtDU2rLQciXDs \
 ghc-string-conversions-devel"
 
 inherit rpm

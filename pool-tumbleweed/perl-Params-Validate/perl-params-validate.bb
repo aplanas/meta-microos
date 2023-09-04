@@ -16,8 +16,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.31"
 
-RPM_NAME = "perl-Params-Validate-1.31-1.3.aarch64.rpm"
-RPM_HASH = "0668ed5b263551f879d2447d3b4e8736c9929ac4b2dab1b044a912d74a086650c4f4b2e23957fadede96bed8b519b4bfffd7c5dd6c1a7aa63a6754ab4decac7f"
+RPM_NAME = "perl-Params-Validate-1.31-1.4.aarch64.rpm"
+RPM_HASH = "a28f1050e9dafce74f1f6f548626134c35632d9848945d56fd09aa83cc63d62f828f21eb90acd583d074790f02f90813fc93845bcf7725399e458c990e1b8583"
 
 RPROVIDES:${PN} += "perl-Params--Validate \
 perl-Params--Validate--Constants \
@@ -27,7 +27,7 @@ perl-Params-Validate"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Module--Implementation"
 
 inherit rpm

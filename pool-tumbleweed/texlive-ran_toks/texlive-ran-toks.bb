@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn59515"
 
-RPM_NAME = "texlive-ran_toks-2023.209.svn59515-54.1.noarch.rpm"
-RPM_HASH = "078d7ba82debf98f32102df765cc0cf879c2db83b2008ceb4396d341015ca5cf15c0b206e6a264d071d480ef3099352217869ae671fbd5da3cd8dca5935bb522"
+RPM_NAME = "texlive-ran_toks-2023.209.svn59515-54.2.noarch.rpm"
+RPM_HASH = "7f09c344cb7739b568fff264edcd47280b84ccdea7c8292fe516c9f440c25579d8c9a67cc64cd843f987963ac2bd9b5a81f2da6ad3d6b8e8223ae9b812099de7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ran-toks.sty \

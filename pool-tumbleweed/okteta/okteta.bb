@@ -2,10 +2,10 @@ SUMMARY = "Hex Editor"
 DESCRIPTION = "Okteta is a hex editor for the raw data of files."
 LICENSE = "GFDL-1.2-only & GPL-2.0-only"
 
-PV = "0.26.12"
+PV = "0.26.13"
 
-RPM_NAME = "okteta-0.26.12-1.1.aarch64.rpm"
-RPM_HASH = "ae2d5ed4dc7b4bdfe689e200a737ac04f2918d7c4b1207f522d7e720d7a94e33157e83aa5211a083e34adfe1c246403a7cde540fefb134cf3712b29114227f60"
+RPM_NAME = "okteta-0.26.13-1.1.aarch64.rpm"
+RPM_HASH = "6de26f73d6e73374604a66a5ade1070b66af801228295ca66027f0d21eae7d3861980a58353dd6ab39bf59e0cf3c561c5a714231d23d653ef7e76a6b84118485"
 
 RPROVIDES:${PN} += "okteta \
 okteta5"

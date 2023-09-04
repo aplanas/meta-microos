@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains an Ada compiler and associated development 
 tools based on the GNU GCC technology."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7597"
+PV = "13.2.1+git7683"
 
-RPM_NAME = "gcc13-ada-13.1.1+git7597-1.1.aarch64.rpm"
-RPM_HASH = "1876b0bbb063a7065e277bb663d022ddf931364c69f33b60f8ff8a6708602d35d56930abbd7cddd0bea380beecbb9e5997d145cdf2a14bba289051a8f802c65c"
+RPM_NAME = "gcc13-ada-13.2.1+git7683-1.1.aarch64.rpm"
+RPM_HASH = "e3bb84768ef8658c03bf3ae32a743aa84f4c3b29ca587bdd3ce8afe1e950068518ccf2abdadf483190d5e88b834c27d22242ca86e5dc54fc0b0ffb762e5c4d6e"
 
 RPROVIDES:${PN} += "gcc13-ada"
 

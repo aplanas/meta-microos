@@ -2,10 +2,10 @@ SUMMARY = "Gtk3 interface for LibreOffice"
 DESCRIPTION = "This package contains Gtk3 interface rendering option for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-gtk3-7.5.4.2-1.5.aarch64.rpm"
-RPM_HASH = "29ed305149cfb8c70f9ca5e4a2c94eb68ee912cc2a534cb144d43ca6e4e8863858afc887b1d0346b9077be062153e9882d0e7b97a2c853e4a1c7be5f0773a650"
+RPM_NAME = "libreoffice-gtk3-7.6.0.3-1.1.aarch64.rpm"
+RPM_HASH = "1ed90cb1abbfd680b3d32fff365c0341ef5fddac36e93318391b3228811a768b47846b4aabf8ab2eb8054cb7e28f8f3309867c0ccba820fe540231f61a55ec62"
 
 RPROVIDES:${PN} += "libreoffice-gtk3 \
 libvclplug-gtk3lo.so"

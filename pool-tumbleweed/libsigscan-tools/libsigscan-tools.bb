@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230109"
 
-RPM_NAME = "libsigscan-tools-20230109-1.6.aarch64.rpm"
-RPM_HASH = "40edfa250b6468834597e6cb0e5a99bcccc1682ec13c46287485dd692da590760a739b3646f7de1ddf13ab3285109976c7cbf67ae2d2f99e7485a9f3d9556ee2"
+RPM_NAME = "libsigscan-tools-20230109-2.1.aarch64.rpm"
+RPM_HASH = "299efdeb34f5098c3dfa6cbc37b5afd8622dd2974bcafc1607da482a0a2f37117e16783ad8f323c5c5285b428f1594017521d1f36c3dce647d6c96dfa4e46293"
 
 RPROVIDES:${PN} += "config-libsigscan-tools \
 libsigscan-tools"

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn61207"
 
-RPM_NAME = "texlive-luafindfont-bin-2023.20230311.svn61207-93.1.aarch64.rpm"
-RPM_HASH = "81c26902c6d8132764e6d6bda8fd168c2dc3f7cd9511b31d92c3d895004df6b6511191f7d1488def76bdda3f54bc082d50543398dc5af56fe38ec7dc3a48b854"
+RPM_NAME = "texlive-luafindfont-bin-2023.20230311.svn61207-93.2.aarch64.rpm"
+RPM_HASH = "36502fc05c647488156179a89df34e596bfbde9f1a10954b57fff102524b753d511024ffee26a20a3e52fe07e3b22cf8655cbbd744ecbdb9f8f580b3d24e2de6"
 
 RPROVIDES:${PN} += "texlive-luafindfont-bin"
 

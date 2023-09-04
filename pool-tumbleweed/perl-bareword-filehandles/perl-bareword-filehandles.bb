@@ -6,13 +6,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.007"
 
-RPM_NAME = "perl-bareword-filehandles-0.007-1.20.aarch64.rpm"
-RPM_HASH = "241f719c000313704f74e7e88d43a1ebc8e53034cadb864fa002ecfa1d46aa1b1b27cd248041aca35c56aa4788b2713eab432b9188014c08bdc2fffb41502e65"
+RPM_NAME = "perl-bareword-filehandles-0.007-1.21.aarch64.rpm"
+RPM_HASH = "f7773ab93b00e85017bd1f226dab8d93a708bca99343a86d98c8f276f3b97d48b26439f98d45af7f4ef4d6e21f0fac748f62d901791477d2700b5d32b3646b40"
 
 RPROVIDES:${PN} += "perl-bareword--filehandles \
 perl-bareword-filehandles"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-B--Hooks--OP--Check"
 
 inherit rpm

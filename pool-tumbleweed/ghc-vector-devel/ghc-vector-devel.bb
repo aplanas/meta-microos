@@ -4,18 +4,18 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.13.0.0"
 
-RPM_NAME = "ghc-vector-devel-0.13.0.0-1.6.aarch64.rpm"
-RPM_HASH = "9c3a134fde84a76df6ebaf94803251a8480b603261d9b60c7efdecca569390d42fb7372042143f8da5092c1c3060e74ffe8c85c0dd5483d90ec7c2812876d3fb"
+RPM_NAME = "ghc-vector-devel-0.13.0.0-3.2.aarch64.rpm"
+RPM_HASH = "9ad1a6cfd49fabf77edd726ebf13608c2fd6d1dabbab2f739e3682f313d96303c2f419f8fdf8b9b01e30506155664d1e066be4b0d1c558fc673b2fb244923d6d"
 
-RPROVIDES:${PN} += "ghc-devel-vector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp \
+RPROVIDES:${PN} += "ghc-devel-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
 ghc-vector-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-deepseq-1.4.8.0 \
-ghc-devel-primitive-0.7.4.0-AeB0oysC3TAJw9tDpuX8hq \
-ghc-devel-vector-stream-0.1.0.0-C5Yyq3DPEhXAQSqkM8V92s \
+ghc-devel-primitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx \
+ghc-devel-vector-stream-0.1.0.0-8LsAqgetBjY3tBdh3HDYEB \
 ghc-vector"
 
 inherit rpm

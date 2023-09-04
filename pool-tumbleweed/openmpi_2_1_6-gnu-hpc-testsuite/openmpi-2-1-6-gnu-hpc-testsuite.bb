@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.6"
 
-RPM_NAME = "openmpi_2_1_6-gnu-hpc-testsuite-2.1.6-14.2.noarch.rpm"
-RPM_HASH = "2a7711ca2d892ea33fbf6dc31a837dc0328c4a69146d84728afa03fe393b15da35579fa58d60c044ba0ed17b6a3f5a63509d567550bbad0d16ca75200f1f7fb2"
+RPM_NAME = "openmpi_2_1_6-gnu-hpc-testsuite-2.1.6-15.1.noarch.rpm"
+RPM_HASH = "bb7ff4428a082acd2a66dc89acf06c969c58aebe23d5bf6d4a46dfe1ee62900e9599df3b8d38b061ed9cde1e7b8439ad05115a89995682e2ac98844ee4ed83b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mpi \

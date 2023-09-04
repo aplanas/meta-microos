@@ -6,13 +6,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.929"
 
-RPM_NAME = "perl-Sub-Install-0.929-1.3.noarch.rpm"
-RPM_HASH = "5155a7c6c528d6e1f31c920a357de1e931196a1b1e64cc7bac24f1af342a03eb06d88c6986b9c1ab8bb563de1e90cc9f2486c3cc1dcfb4185d2e3bdf985eb460"
+RPM_NAME = "perl-Sub-Install-0.929-1.4.noarch.rpm"
+RPM_HASH = "a64cdc6c235b168bbd256a9a8dc43c7fcdf5658507c800bef390cd0ea7bfc541dbca0bc43de4b97636558b3fc8fb59fb8dabae3fe064f4db2db163940dcf2f58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Sub--Install \
 perl-Sub-Install"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

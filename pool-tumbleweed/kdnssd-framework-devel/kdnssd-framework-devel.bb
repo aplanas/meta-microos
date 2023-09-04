@@ -5,10 +5,10 @@ services, such as printers, to be discovered without any user intervention or \
 centralized infrastructure. Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kdnssd-framework-devel-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "dea5490c927784d961f65b157d6ff409149de2cb3181bb26e71a5fb7e34b7c97cd0cccc7fa3c044ee4210ac2f707641d79107d8fab0319d4f72555599dde0f79"
+RPM_NAME = "kdnssd-framework-devel-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "6eb5898af18f7300370f13ecd5d82c3f2241e117e3850667d7e01b865f9425cc2b142a19e1be1c94e3539d25d061f7c09dc32a210717e410dd34903876b9e240"
 
 RPROVIDES:${PN} += "cmake-KF5DNSSD \
 kdnssd-framework-devel"

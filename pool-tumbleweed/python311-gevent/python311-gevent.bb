@@ -16,10 +16,10 @@ implementation and better performance. Read why others use gevent and check \
 out the list of the open source projects based on gevent."
 LICENSE = "MIT"
 
-PV = "22.10.2"
+PV = "23.7.0"
 
-RPM_NAME = "python311-gevent-22.10.2-3.2.aarch64.rpm"
-RPM_HASH = "04381e6526be59fca909d953f3b359eeedcfe3edcad847d7759c4349c4cd751bd1a93e9c3a83f5e5d4cf13069a346cf4690123a55b8511100fcc189914f4092a"
+RPM_NAME = "python311-gevent-23.7.0-1.1.aarch64.rpm"
+RPM_HASH = "9be0b8aacbda632da4a93a312529276d7465d2d077e28376890b83e4b90f9681f198df31494bf6d30dd796fc92fffe5a22bc06fb242cfdfc4eafee5e5ce571db"
 
 RPROVIDES:${PN} += "python3-gevent \
 python3.11dist-gevent \
@@ -35,6 +35,7 @@ python-abi \
 python311-cffi \
 python311-dnspython \
 python311-greenlet \
+python311-importlib-metadata \
 python311-requests \
 python311-zope.event \
 python311-zope.interface"

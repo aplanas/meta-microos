@@ -5,14 +5,14 @@ LICENSE = "Artistic-1.0"
 
 PV = "1.04"
 
-RPM_NAME = "perl-Device-SerialPort-1.04-26.38.aarch64.rpm"
-RPM_HASH = "a9bf39b065685437b414002c44033bc76ccf1f3a8d7d7b4dfeab1d5ac40476986a259b24b2046eeab56006874219ddea92134f871f8ba2ea3870d33493340f58"
+RPM_NAME = "perl-Device-SerialPort-1.04-26.39.aarch64.rpm"
+RPM_HASH = "6d4dbd887f28d6ab5e97d1b895af87d4dabfd94d41e6c27f67bfa760a24d229b0fa94dcc7cbf2fad9bc91b74ccf1128944567fa5b8f16a7f39ab649effbdb717"
 
 RPROVIDES:${PN} += "Device-SerialPort \
 perl-Device--SerialPort \
 perl-Device-SerialPort"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

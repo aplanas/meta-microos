@@ -14,8 +14,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn61719"
 
-RPM_NAME = "texlive-xpiano-2023.209.1.0svn61719-53.1.noarch.rpm"
-RPM_HASH = "c70be79e1cad367f2af300dc22c20052cf0ebd5b4e58da34aaa546ed3b5e5a6a646a8d1c90f2e1e70c3d33bdbfe64e7833ac8e1de55e1d261c503fb4aaa6c42f"
+RPM_NAME = "texlive-xpiano-2023.209.1.0svn61719-53.2.noarch.rpm"
+RPM_HASH = "90d585034a080fcf3ff6bef626ab0a1b2db01355cb89670fb174c0e39c507b641e58bd7af27db1ec9a10cd337e2b54e134a7a7f733dccd17ccabf5254d1c1986"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xpiano.sty \

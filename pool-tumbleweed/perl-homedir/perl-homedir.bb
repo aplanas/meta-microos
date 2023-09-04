@@ -8,10 +8,10 @@ If you want your users to be able to install and use their own Perl modules, \
 install this package."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.000024"
+PV = "2.000029"
 
-RPM_NAME = "perl-homedir-2.000024-2.10.noarch.rpm"
-RPM_HASH = "78b55120cc7d32550d27673c1a1f6f9a602b56ab7b02a577992d1851da1ef5fd7e2fddde1dbe7587d7bdd58f052e301572ab751314be38af7c866fd75cfb6d2b"
+RPM_NAME = "perl-homedir-2.000029-1.1.noarch.rpm"
+RPM_HASH = "37bd0ef0895158c79e2318e1d624b70c53415765883d099aba2cf974d551a9954f761bd4892a318454cfabe3787a6a80804f73668bc057c9f8ff6460558486c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-perl-homedir \

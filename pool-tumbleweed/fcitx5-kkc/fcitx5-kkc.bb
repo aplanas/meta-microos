@@ -2,10 +2,10 @@ SUMMARY = "Libkkc input method support for Fcitx5"
 DESCRIPTION = "This package provides libkkc input method support for Fcitx5."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.0.12"
+PV = "5.1.0"
 
-RPM_NAME = "fcitx5-kkc-5.0.12-1.2.aarch64.rpm"
-RPM_HASH = "689edb9bfaf4146b461a95fffbd5711c8aec9c32a3d98136809e2deb5295f0d57a41a9b4752e1c74b47f43c7ff332cdec5f2545716ecbee59c145eb403265df7"
+RPM_NAME = "fcitx5-kkc-5.1.0-1.1.aarch64.rpm"
+RPM_HASH = "561761f4f9991d0bac813d57168acb247aed52728e1e476698626532f31b37f2fa496fa47be736ffa3893ffd0ad11918f087cd545ce3096f60d659a6e7fbc0cc"
 
 RPROVIDES:${PN} += "fcitx-kkc \
 fcitx5-kkc \

@@ -4,24 +4,24 @@ LICENSE = "MIT"
 
 PV = "0.1.7.4"
 
-RPM_NAME = "ghc-safe-exceptions-0.1.7.4-1.1.aarch64.rpm"
-RPM_HASH = "0c01df316af29ed5a4e026eeee2544a1de46aa2004a5d6dfd60d0043f8936470057cb6976d3629d2646cb56dfe3539e49c94aa9dbe6850cb21c63ca9fd7f1b2b"
+RPM_NAME = "ghc-safe-exceptions-0.1.7.4-1.2.aarch64.rpm"
+RPM_HASH = "f9f2a0801ac8daac9fe0089b88ab6eaa369e833276e90964880bd090e7ac6048dc9aa365a97dfcd58eb4d4e37b7b4932c5e6e4236f6cc23777de2690f0a23153"
 
 RPROVIDES:${PN} += "ghc-safe-exceptions \
-libHSsafe-exceptions-0.1.7.4-8XVKrMBchTjCLhdcvBwBNb-ghc9.4.5.so"
+libHSsafe-exceptions-0.1.7.4-AmShSL4jn3220svzMELB6r-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
-libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSdeepseq-1.4.8.0-ghc9.4.5.so \
-libHSexceptions-0.10.5-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-boot-th-9.4.5-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
-libHSmtl-2.2.2-ghc9.4.5.so \
-libHSpretty-1.1.3.6-ghc9.4.5.so \
-libHSstm-2.5.1.0-ghc9.4.5.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
-libHStransformers-0.5.6.2-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
+libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSdeepseq-1.4.8.0-ghc9.4.6.so \
+libHSexceptions-0.10.5-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-boot-th-9.4.6-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
+libHSmtl-2.2.2-ghc9.4.6.so \
+libHSpretty-1.1.3.6-ghc9.4.6.so \
+libHSstm-2.5.1.0-ghc9.4.6.so \
+libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
+libHStransformers-0.5.6.2-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

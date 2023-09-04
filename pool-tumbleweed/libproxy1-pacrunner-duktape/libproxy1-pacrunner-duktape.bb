@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.4.18"
 
-RPM_NAME = "libproxy1-pacrunner-duktape-0.4.18-2.3.aarch64.rpm"
-RPM_HASH = "5ef812603b7aaf8ff4a5ddcf16b07124dce0b914fa4574b68d9bf63f6cc167f2bf668225bb67f268da9d2924642178d8ac88c228ce0cd40179c2782b5c608e5d"
+RPM_NAME = "libproxy1-pacrunner-duktape-0.4.18-2.4.aarch64.rpm"
+RPM_HASH = "dfc12d40b7f5cceeee47527cd3495e75896689ddf17560947cd09f9cd173330f3e143f7e6c8b0075bf4cac6c856452d122feffb216c8777acfaabadad0071b81"
 
 RPROVIDES:${PN} += "libproxy1-pacrunner \
 libproxy1-pacrunner-duktape"

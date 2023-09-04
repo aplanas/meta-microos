@@ -6,8 +6,8 @@ LICENSE = "ClArtistic | GPL-2.0-or-later"
 
 PV = "9.4.0"
 
-RPM_NAME = "perl-Sys-Virt-9.4.0-2.1.aarch64.rpm"
-RPM_HASH = "26d42ab6a6a8b397348a73dc1ff0a7a25e6f89069cc040ce80e281ee05e6f15251146168f48f5b9205d32a959297c8540754162abaae9b5129caa42df9821abd"
+RPM_NAME = "perl-Sys-Virt-9.4.0-2.2.aarch64.rpm"
+RPM_HASH = "c99d7c2b8be98d87d39fc1be4e1dc534a0a4a23b06e35bb77b469b23b5932847f5fef07ae5da76d3c1f8924194d11dfa12c364409a590b06401f32f3116091e2"
 
 RPROVIDES:${PN} += "perl-Sys--Virt \
 perl-Sys--Virt--Domain \
@@ -30,6 +30,6 @@ perl-Sys-Virt"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libvirt.so.0 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

@@ -18,8 +18,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.10.0"
 
-RPM_NAME = "baresip-2.10.0-1.9.aarch64.rpm"
-RPM_HASH = "7b46e74424208343bfe9dbddd968175a82496400315a8667d0a45cfd92830f6b0fcc5e5efc190428bb072d9ef77dfb8ff37ca81970e6ab7416ebd71bcdcc64c4"
+RPM_NAME = "baresip-2.10.0-1.10.aarch64.rpm"
+RPM_HASH = "ea484bd51f64c5e8d46db69b0894d0a8564d1582ac5ce95ed03738c4c5b46b4434ce7d58a6612acac6a921791a31983d31841c771f9e3bb9e4fc5f4e6016afb3"
 
 RPROVIDES:${PN} += "baresip"
 
@@ -43,7 +43,7 @@ libpng16.so.16 \
 libportaudio.so.2 \
 libpulse-simple.so.0 \
 libpulse.so.0 \
-libre.so.12 \
+libre.so.16 \
 libsndfile.so.1 \
 libspandsp.so.3 \
 libspeexdsp.so.1 \

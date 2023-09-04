@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.5.0"
 
-RPM_NAME = "ruby3.2-rubygem-rails-html-sanitizer-1.5.0-1.2.aarch64.rpm"
-RPM_HASH = "71804c2a5cb38ae608364c80041f2ed5bfcdd49167fe183ce32703b01551947db017e0f8434380834ed02a365bafa69408c6e82748260fa9aa30d70b483dd721"
+RPM_NAME = "ruby3.2-rubygem-rails-html-sanitizer-1.5.0-2.1.aarch64.rpm"
+RPM_HASH = "abb0d1c4d2ff6a69edcbaaf56665a5b62f493eedb9576d550742dd175c5365c41bc226b81831a5e6aaef15cd6c90880fb36347504cd4f66a5be0fa3dc9390d42"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-rails-html-sanitizer \
 rubygem-rails-html-sanitizer \

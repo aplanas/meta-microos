@@ -2,10 +2,10 @@ SUMMARY = "Create books from markdown"
 DESCRIPTION = "mdbook is a utility to create books from Markdown files"
 LICENSE = "(Apache-2.0 | MIT) & Unicode-DFS-2016 & (Apache-2.0 | BSL-1.0) & (Apache-2.0 | ISC | MIT) & (Apache-2.0 | MIT) & (Apache-2.0 | Apache-2.0-with-LLVM-exception | MIT) & (Apache-2.0 | MIT | Zlib) & (MIT | Unlicense) & (Apache-2.0 | Zlib | MIT) & Apache-2.0 & BSD-3-Clause & CC0-1.0 & ISC & MIT & MPL-2.0"
 
-PV = "0.4.32"
+PV = "0.4.34"
 
-RPM_NAME = "mdbook-0.4.32-1.1.aarch64.rpm"
-RPM_HASH = "a96944e2d428f0ca674c1337560bb9eedbd6d39f0e1b7941a6b21f5c00c021ff6e97e0f2e197b7abc6d65442c64d3df4f0ba2336dc45ad72532cd684b810516d"
+RPM_NAME = "mdbook-0.4.34-1.1.aarch64.rpm"
+RPM_HASH = "94d6343fbbab757023f6aa0016211516093483c0c792bcba8fdf90df7863de4e1653d83e2fdc4ccbb5d99b5bf41ba2560c25371a8ad1fb0820820649194f9516"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-ammonia \
@@ -35,7 +35,6 @@ bundled-rust-crate-crypto-common \
 bundled-rust-crate-digest \
 bundled-rust-crate-elasticlunr-rs \
 bundled-rust-crate-env-logger \
-bundled-rust-crate-equivalent \
 bundled-rust-crate-fastrand \
 bundled-rust-crate-filetime \
 bundled-rust-crate-fnv \
@@ -126,7 +125,6 @@ bundled-rust-crate-scopeguard \
 bundled-rust-crate-serde \
 bundled-rust-crate-serde-derive \
 bundled-rust-crate-serde-json \
-bundled-rust-crate-serde-spanned \
 bundled-rust-crate-serde-urlencoded \
 bundled-rust-crate-sha1 \
 bundled-rust-crate-sha2 \
@@ -154,8 +152,6 @@ bundled-rust-crate-tokio-stream \
 bundled-rust-crate-tokio-tungstenite \
 bundled-rust-crate-tokio-util \
 bundled-rust-crate-toml \
-bundled-rust-crate-toml-datetime \
-bundled-rust-crate-toml-edit \
 bundled-rust-crate-topological-sort \
 bundled-rust-crate-tower-service \
 bundled-rust-crate-tracing \
@@ -175,7 +171,6 @@ bundled-rust-crate-version-check \
 bundled-rust-crate-walkdir \
 bundled-rust-crate-want \
 bundled-rust-crate-warp \
-bundled-rust-crate-winnow \
 mdbook"
 
 RDEPENDS:${PN} += "libc.so.6 \

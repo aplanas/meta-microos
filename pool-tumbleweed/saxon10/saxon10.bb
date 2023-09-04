@@ -1,0 +1,62 @@
+SUMMARY = "The SAXON XSLT Processor from Michael Kay"
+DESCRIPTION = "The Saxon package is a collection of tools for processing XML documents. The \
+main components are: \
+ \
+• An XSLT processor, which can be used from the command line, or invoked from \
+an application, using a supplied API. Saxon implements the XSLT 3.0 \
+Recommendation. The product can also be used to run XSLT 2.0 stylesheets, or \
+XSLT 1.0 stylesheets in backwards compatibility mode. \
+ \
+• An XPath processor accessible to applications via a supplied API. This \
+supports XPath 2.0 and XPath 3.1. It can also be used in \
+backwards-compatibility mode to evaluate XPath 1.0 expressions. \
+ \
+• An XQuery processor that can be used from the command line, or invoked from \
+an application by use of a supplied API. This supports XQuery 3.1, which also \
+allows XQuery 1.0 or 3.0 queries to be executed. With Saxon-EE, you can also \
+use the XQuery extensions defined in the XQuery Update 1.0 Recommendation, but \
+later working drafts of XQuery Update are not supported (W3C has abandoned work \
+on these versions). \
+ \
+• An XML Schema Processor. This supports both XSD 1.0 and XSD 1.1. This can be \
+used on its own to validate a schema for correctness, or to validate a source \
+document against the definitions in a schema. It is also used to support the \
+schema-aware functionality of the XSLT and XQuery processors. Like the other \
+tools, it can be run from the command line, or invoked from an application. \
+ \
+• On the Java platform, when using XSLT, XPath, XQuery, or XML schema \
+validation, Saxon offers a choice of APIs. If you need portability across \
+different vendors' tools, you can use the JAXP API for XSLT, XPath, and XML \
+Schema processing, and the XQJ interface for XQuery. On the other hand, if you \
+want a more integrated and complete API offering access to all Saxon's \
+facilities, the s9api interface is recommended. You can also dive down deeper \
+into the Saxon internals if you need to: there has been no particular attempt \
+to make interfaces private, and all public interfaces are documented in the \
+JavaDoc. Clearly, the deeper you go, the greater the risk of interfaces \
+changing in future releases. \
+ \
+• On the .NET platform, Saxon offers an API that enables close integration with \
+other services available from .NET, notably the XML-related classes in the \
+System.Xml namespace. It isn't possible to use Saxon as a transparent plug-in \
+replacement for the System.Xml.Xsl processor, because the API for the Microsoft \
+engine using concrete classes rather than abstract interfaces. However, it is \
+possible to use it as a functional replacement with minor changes to your \
+application code."
+LICENSE = "Apache-2.0 & MPL-2.0"
+
+PV = "10.9"
+
+RPM_NAME = "saxon10-10.9-1.1.noarch.rpm"
+RPM_HASH = "35b119e92fcf281ba56e0edb7475e6af71f10ff476a84813b0bd640039b2d29552958faa473d0e4928124fb30612caa7759cc52be510dbb0b753aae083179e29"
+REPO_ARCH = "noarch"
+
+RPROVIDES:${PN} += "jaxp-transform-impl \
+mvn-net.sf.saxon-Saxon-HE \
+mvn-net.sf.saxon-Saxon-HE-pom- \
+saxon10"
+
+RDEPENDS:${PN} += "/usr/bin/sh \
+java-headless \
+javapackages-filesystem"
+
+inherit rpm

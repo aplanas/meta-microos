@@ -5,10 +5,10 @@ provides for figures the same quality of typesetting that LaTeX does \
 for scientific text."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "2.83"
+PV = "2.86"
 
-RPM_NAME = "asymptote-2.83-1.5.aarch64.rpm"
-RPM_HASH = "2bc65f5596f8aa0123b7f33dc34481a21abab222895ef15c763dd9a094e0fc26b023d3e3552931a00f01449187fc051f1619652b34f746483fe2ea254f73e6ff"
+RPM_NAME = "asymptote-2.86-1.1.aarch64.rpm"
+RPM_HASH = "edcaf6f1cb041f60cdf7802066d96f374f3de38781c67a8f2e39cb96af1dc9601c3b5b1083f03550074767ca6b88454dc6ed3a36d915fdabd1f449983aeb971e"
 
 RPROVIDES:${PN} += "asymptote"
 

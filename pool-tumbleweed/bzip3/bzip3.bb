@@ -10,10 +10,10 @@ bzip3 1.3.0 can outperform zstd 1.5.5 on specific data sets, e.g. \
 time trouble with e.g. object files."
 LICENSE = "BSD-2-Clause & LGPL-3.0-or-later"
 
-PV = "1.3.1"
+PV = "1.3.2"
 
-RPM_NAME = "bzip3-1.3.1-1.1.aarch64.rpm"
-RPM_HASH = "318632d540e38bbc2caea60f56e72c2626122b47a8be393d04730f49f3e78218cb4838338d7e12848ac0726e822d54eca50f597beac7aebf9de50beee8ef2efd"
+RPM_NAME = "bzip3-1.3.2-1.1.aarch64.rpm"
+RPM_HASH = "02a559200941d673d91cf16c0042cd262166ee510d077f60af8ce49b7289a41bab9f8835e637ae3d37388036c5b6818915a4a7c1df6e8faf78e3911af54b03fe"
 
 RPROVIDES:${PN} += "bzip3"
 

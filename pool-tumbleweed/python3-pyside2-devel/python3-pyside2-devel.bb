@@ -5,8 +5,8 @@ LICENSE = "(GPL-2.0-only & (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with
 
 PV = "5.15.10"
 
-RPM_NAME = "python3-pyside2-devel-5.15.10-1.1.aarch64.rpm"
-RPM_HASH = "4cd7413c1439335a98cc9a2882a26199eb2a9a4e3f50d3fcb4ad62fe65745b12f4dbd43f0d74d81d91e57b9e0232e89a8c32c8e9ac54e79a2a8f41d05ea7a57a"
+RPM_NAME = "python3-pyside2-devel-5.15.10-2.1.aarch64.rpm"
+RPM_HASH = "996e51e626833064f4b83fca1b897f33c92e06247f449e394d07f9a96b3c5a248e3c9670621c3085a6c5763d0d267427f754693f0a73f9c28e3d6882bbba2780"
 
 RPROVIDES:${PN} += "cmake-PySide2 \
 cmake-Shiboken2 \

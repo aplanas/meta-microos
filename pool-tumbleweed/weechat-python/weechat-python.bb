@@ -2,10 +2,10 @@ SUMMARY = "Python Scripting Support for weechat"
 DESCRIPTION = "Support for weechat scripts written in the Python language."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.8"
+PV = "4.0.2"
 
-RPM_NAME = "weechat-python-3.8-1.3.aarch64.rpm"
-RPM_HASH = "b304e097cd1815e32da6a0a1bd73562b88c6908d7c08067088585eed96d1c39934aa5fc2920951372f5b4b39847dd4462bf940f0cc8c8969ef862cd2827f274a"
+RPM_NAME = "weechat-python-4.0.2-1.1.aarch64.rpm"
+RPM_HASH = "14ee5a34914904465560aec22c42e1a77c6c46fe0ac205b40cee385767baa5910b38e210b64c77e12356f16c7ffc10c648d07bf3e6241bd3f63b040d344a89e3"
 
 RPROVIDES:${PN} += "weechat-python"
 

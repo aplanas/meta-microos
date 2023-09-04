@@ -2,10 +2,10 @@ SUMMARY = "Toolkit for libime"
 DESCRIPTION = "This package provides toolkit for libime."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.0.17"
+PV = "1.1.1"
 
-RPM_NAME = "libime-tools-1.0.17-1.3.aarch64.rpm"
-RPM_HASH = "e4d5212c373674862d27a73f29eae92e76587fa8177beeb192624cdf9313e3fb66c8c9b3f7a62ec661a865889c4dd2f8e6a717107c49ea9271be123e7b009ad8"
+RPM_NAME = "libime-tools-1.1.1-1.1.aarch64.rpm"
+RPM_HASH = "df7a9d7031771242687c3e40fcfa5dcc270ac7b43617f627029ee1fa87bf381e652149a1143e00b21b68b7fa30687b42a8c213cf234ca7fcf9dff40e0881ec6a"
 
 RPROVIDES:${PN} += "libime-tools"
 

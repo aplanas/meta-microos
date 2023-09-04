@@ -5,10 +5,10 @@ KConfigCore and KConfigGui. \
 This package contains the kconf_update tool."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kconf_update5-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "526dfee1e6d50b8e4b6a8e612d95d2daa26266cf362ce9c58116fe7af60bcd42e7b0e342449e33d27b4c4c53ca4912bf28920c8d850f17fcc4b0a153a7145e12"
+RPM_NAME = "kconf_update5-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "f2d1f0d1acab786fd0d57244647261c4e3eea77743b49102d49700e47baf5381a2ad51ba4c0ca1f5ec6b8c9c2264dd5f4749223a2e150ed064c76c256b012624"
 
 RPROVIDES:${PN} += "kconf-update5"
 

@@ -2,10 +2,10 @@ SUMMARY = "The GNU Compiler Collection targeting rx"
 DESCRIPTION = "The GNU Compiler Collection as a cross-compiler targeting rx."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7597"
+PV = "13.2.1+git7683"
 
-RPM_NAME = "cross-rx-gcc13-13.1.1+git7597-1.1.aarch64.rpm"
-RPM_HASH = "79edf1c99f1d2593da3c22be81e137fa62d4f486d46ac4154a96f5738c49121cbd39a8ae37e8fbc1455ebbf547d73ae8b2fb1d927955ba85c245d8830df61354"
+RPM_NAME = "cross-rx-gcc13-13.2.1+git7683-1.1.aarch64.rpm"
+RPM_HASH = "fca2008223ae5ebce169e51015d16ab19c3729a0bef9f5cb2540d1f96e2d50e1625f0c3401e132b015583c10ea484cbb16f84c6805c6bc105f1438fabfa084f8"
 
 RPROVIDES:${PN} += "cross-rx-gcc13 \
 rx-elf-gcc"

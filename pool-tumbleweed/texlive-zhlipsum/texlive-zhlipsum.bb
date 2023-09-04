@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.2.0svn54994"
 
-RPM_NAME = "texlive-zhlipsum-2023.209.1.2.0svn54994-53.1.noarch.rpm"
-RPM_HASH = "b45783ba26df15e8c10a94cd11de42b7e1feafa2a6357efe57af722b43e8d6e7f513aad1ec239dfde5644247b7c8ad4f006fd890f56c858dae8eb4458c7c7331"
+RPM_NAME = "texlive-zhlipsum-2023.209.1.2.0svn54994-53.2.noarch.rpm"
+RPM_HASH = "6a491049fefb7aba41ecf6d2b06581baa53ac8f74acdccdbd0f9f775017c2f21839d3967d86d2434aa196fc9526bdde9364cbaa1bafe66316184b38cd47d1fa8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zhlipsum-big5.def \

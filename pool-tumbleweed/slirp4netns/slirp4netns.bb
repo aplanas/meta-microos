@@ -1,11 +1,11 @@
 SUMMARY = "User-mode networking for unprivileged network namespaces"
 DESCRIPTION = "slirp for network namespaces, without copying buffers across the namespaces."
-LICENSE = "GPL-2.0-only & MIT & BSD-2-Clause"
+LICENSE = "BSD-2-Clause & GPL-2.0-only & MIT"
 
-PV = "1.2.0"
+PV = "1.2.1"
 
-RPM_NAME = "slirp4netns-1.2.0-1.3.aarch64.rpm"
-RPM_HASH = "f44755efac528e8d67b4ac5f2d83c32127372dad6f8fddde936e18746d43dd9cb500d61aae5538a8d2c2318a6a7899fb3375f5782fde0d424df0fdc2b3427be0"
+RPM_NAME = "slirp4netns-1.2.1-1.1.aarch64.rpm"
+RPM_HASH = "6509f3fe8ca965ba3ebfeafa32f123351c370a46882993900a1aa18adb8861a54ec9f90ea2240eea655a1864160e65c8e9784ad8388be8064d43406d3fa65760"
 
 RPROVIDES:${PN} += "slirp4netns"
 

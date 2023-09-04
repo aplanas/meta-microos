@@ -4,10 +4,10 @@ DESCRIPTION = "Belcard is a C++ library to manipulate the vCard standard format 
 This package contains data files such as belr grammar."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.16"
+PV = "5.2.98"
 
-RPM_NAME = "belcard-data-5.2.16-1.4.noarch.rpm"
-RPM_HASH = "5bbc39289caa34339b76b20488e31a3c4b9021929a63779875b5c1bfc51b97fae87fe9633f52866d7be65e5b6e313bd5e02c36ae7097a43366f4b80c9d140bab"
+RPM_NAME = "belcard-data-5.2.98-1.1.noarch.rpm"
+RPM_HASH = "a41d3d77c4fdb0ff5039d4042046f08d63f732ffb937d306968f6853661b7041bf8984f3c2a88300fc9d493a6d0d5fff0d04113953a8ac8e6e16d43f790366a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "belcard-data"

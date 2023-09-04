@@ -4,24 +4,24 @@ LICENSE = "MIT"
 
 PV = "0.2.2"
 
-RPM_NAME = "ghc-pandoc-lua-marshal-prof-0.2.2-1.8.aarch64.rpm"
-RPM_HASH = "a9ac70b3590a6ca1d60962458a7ba7f79d6231ba13857bd1af6aa1222be5d4a8ef3825ed7096355b51c3cefb95e7eaf77fe3b30748926559f2e56c41c535efff"
+RPM_NAME = "ghc-pandoc-lua-marshal-prof-0.2.2-1.12.aarch64.rpm"
+RPM_HASH = "24d61bcd414c14e3d094c9adbb3175c5626e403f8c75b30dddebf107df578345562931194f2c59623092f14235b72c52cfad101389359ce3589fe87856326cca"
 
 RPROVIDES:${PN} += "ghc-pandoc-lua-marshal-prof \
-ghc-prof-pandoc-lua-marshal-0.2.2-FczgTsDU3sCHicuhmGSmSB"
+ghc-prof-pandoc-lua-marshal-0.2.2-D6YUzx6tqXTDbJ9vWDLs3T"
 
 RDEPENDS:${PN} += "ghc-pandoc-lua-marshal-devel \
-ghc-prof-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-bytestring-0.11.4.0 \
+ghc-prof-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
+ghc-prof-base-4.17.2.0 \
+ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-containers-0.6.7 \
 ghc-prof-exceptions-0.10.5 \
-ghc-prof-hslua-2.3.0-AU21dADSMqd8jVkw5fw6gb \
-ghc-prof-hslua-list-1.1.1-9l63Ku7u96Z6i2wKz0R57A \
-ghc-prof-hslua-marshalling-2.3.0-1lHdh994uwdEmrYudOnEBq \
-ghc-prof-lua-2.3.1-16mGxirchUh4T3oJJYdFzu \
-ghc-prof-pandoc-types-1.23.0.1-EcvZluXpPb0J10kJC4UfRg \
-ghc-prof-safe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds \
+ghc-prof-hslua-2.3.0-IFweDrinoAduGRRaqkwGX \
+ghc-prof-hslua-list-1.1.1-2YSx4pSaGRhHpPDWFYeDXu \
+ghc-prof-hslua-marshalling-2.3.0-7mBSxD4mqSw36NR9RXD4Dj \
+ghc-prof-lua-2.3.1-IuAZ4Y3Pnt2ACNXikcgl6h \
+ghc-prof-pandoc-types-1.23.1-8yEOjBSLsT62OPTXI0FZpc \
+ghc-prof-safe-0.3.19-9uHvZjuyLiR13wOGSONZxX \
 ghc-prof-text-2.0.2"
 
 inherit rpm

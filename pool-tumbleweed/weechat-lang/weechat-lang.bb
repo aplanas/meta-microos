@@ -2,10 +2,10 @@ SUMMARY = "Translations for package weechat"
 DESCRIPTION = "Provides translations for the 'weechat' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.8"
+PV = "4.0.2"
 
-RPM_NAME = "weechat-lang-3.8-1.3.noarch.rpm"
-RPM_HASH = "a1f776a1f2c1644dc29a70bca94ee15e2fbf6feec76edb015c5579b43b40330e4511b995ad40cd6dc3ff06deb9fce9fa08069de03b4cc63074b898754f8c4169"
+RPM_NAME = "weechat-lang-4.0.2-1.1.noarch.rpm"
+RPM_HASH = "0f28226818376cad328c6a66f92933c43b561eff8bb1a06def9453b7929beda5fc9294320731e1f9e1a0016b634c50626d7df867653a3efd279c743dbca593f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-weechat-cs \

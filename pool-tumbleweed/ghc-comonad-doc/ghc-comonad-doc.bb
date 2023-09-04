@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "5.0.8"
 
-RPM_NAME = "ghc-comonad-doc-5.0.8-3.6.noarch.rpm"
-RPM_HASH = "08acc109b1a1ff91dd209e19823e56e52b60deb2034c379eda5f13d3910b0f18497e08d49221b9b1ab75d975a603faef0875bb8ea4d605c93f8ab1118fdd5fb4"
+RPM_NAME = "ghc-comonad-doc-5.0.8-3.9.noarch.rpm"
+RPM_HASH = "ff6f5bc8683f0691c2299effad3013999b73bb1e981905004d7703c28d258810292d11070df124a91e496b7fc34d9ab7984eb945d6149e3a9ced9e8b0a537638"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-comonad-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "UnixODBC aims to provide a complete ODBC solution for the Linux \
 platform. Further drivers can be found at http://www.unixodbc.org/."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.3.11"
+PV = "2.3.12"
 
-RPM_NAME = "unixODBC-2.3.11-3.1.aarch64.rpm"
-RPM_HASH = "594da4f1ff7227fa906423dae9b35636fca97e0b5dd4abe39f32d3b8d0208604dcaa2563282ced842d7f2404ad006d0dcef75c719104880f5bac5d2a24d76369"
+RPM_NAME = "unixODBC-2.3.12-1.1.aarch64.rpm"
+RPM_HASH = "35b26df739bb52b8eb757807d47475223c6b8c67e91f0c379b2beb753abd0945ca73c961be95f5f32d0d4543206892737a6b7a1f97eb9efac1bae3c6aa3e4e4a"
 
 RPROVIDES:${PN} += "config-unixODBC \
 libnn.so.1 \

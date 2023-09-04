@@ -4,18 +4,18 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.4"
 
-RPM_NAME = "ghc-asn1-types-devel-0.3.4-5.6.aarch64.rpm"
-RPM_HASH = "2ff8056c101fef5feecda5c3e880d627b6d74c7111037c1d12154aabe0be34349b4b656583b73bb76b991bd93474decda083ce42e839043f90b433cee55b7472"
+RPM_NAME = "ghc-asn1-types-devel-0.3.4-5.8.aarch64.rpm"
+RPM_HASH = "7e8b20480a8c96c201950231372d1bd27125be06ba8587b2dc2c1b9afd3aaf2927db4e33c48f9f7eed9f9277a48264786033a747ca6fe223d2c029940c606144"
 
 RPROVIDES:${PN} += "ghc-asn1-types-devel \
-ghc-devel-asn1-types-0.3.4-4LX8ePpAyEC5pdyYoIADjx"
+ghc-devel-asn1-types-0.3.4-7Qw76BNtuiJIUHv1x3z9in"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-asn1-types \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0 \
-ghc-devel-hourglass-0.2.12-3PFbUFQLMNb8Ad2s9SU5p3 \
-ghc-devel-memory-0.18.0-8CsggfkyXReDSMbRoae4Yp"
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1 \
+ghc-devel-hourglass-0.2.12-DDTIHdRSu369xxYEqSFzho \
+ghc-devel-memory-0.18.0-6jbQrbksm9m3FIftlSlmf1"
 
 inherit rpm

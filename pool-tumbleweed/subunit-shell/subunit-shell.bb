@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 | BSD-3-Clause"
 
 PV = "1.4.2"
 
-RPM_NAME = "subunit-shell-1.4.2-3.1.noarch.rpm"
-RPM_HASH = "5ce4299678878da94d17e9c485284a717a6dcbb9dc0387ca445acdab3652f2e2f41aa391c1b635159d267799099cca9f0b2ddf292a0d8656383ad58858bffee7"
+RPM_NAME = "subunit-shell-1.4.2-3.2.noarch.rpm"
+RPM_HASH = "fa9e13585d733fc1748d77b9f25b27d4febfba6b256d6d8982c92101cdf8b0d8de8c73da61241bbb993e0bbe6adc18907d35eeaa390d449b5dcc9ab33e01c49a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-subunit-shell \

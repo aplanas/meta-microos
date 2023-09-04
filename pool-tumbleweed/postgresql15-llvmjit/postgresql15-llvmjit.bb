@@ -10,10 +10,10 @@ deforming into native code, with the goal of accelerating analytics \
 queries."
 LICENSE = "PostgreSQL"
 
-PV = "15.3"
+PV = "15.4"
 
-RPM_NAME = "postgresql15-llvmjit-15.3-1.5.aarch64.rpm"
-RPM_HASH = "c64504149901cc6285a704ee9bc9ac9bfc76529a6ef3d9cdfda2726ccb0dbc05ea60419a7cd3787841541b858766e0a1eb8588cc64eabc3b92ccf4a2b51dec4c"
+RPM_NAME = "postgresql15-llvmjit-15.4-1.1.aarch64.rpm"
+RPM_HASH = "12102026a5b97b5bf59978e6f7510e088d9a33c45137b92768fec8d5e80bcdb0ba75a49eae351502314894df3d6a6584df1aa6f4902d03d9e0a5d9de496570b6"
 
 RPROVIDES:${PN} += "postgresql-llvmjit-implementation \
 postgresql15-llvmjit"

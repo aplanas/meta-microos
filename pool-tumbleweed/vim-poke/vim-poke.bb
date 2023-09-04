@@ -2,10 +2,10 @@ SUMMARY = "Vim support for poke"
 DESCRIPTION = "Provides Vim support for poke."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.2"
+PV = "3.3"
 
-RPM_NAME = "vim-poke-3.2-1.1.noarch.rpm"
-RPM_HASH = "7188dc55e2165b8a400b75cbfc98a8b4ed5feed73402f3a2964d4a2bde2571098c268f58c2b08181a154aef50d992dbd0543c0b953d99928869bab5f1c875d9f"
+RPM_NAME = "vim-poke-3.3-1.1.noarch.rpm"
+RPM_HASH = "ee4879acc4f6586e5b5e5e2907937f90265f4befdb7c787b49fa28877a97f28c517cf27e2f0fd0d16671c905274c195f962b75cee5ef1e0d2ebe85444401cd9e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-poke"

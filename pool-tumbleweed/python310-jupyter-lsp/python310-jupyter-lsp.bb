@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.0"
 
-RPM_NAME = "python310-jupyter-lsp-2.2.0-1.2.noarch.rpm"
-RPM_HASH = "86deb8a40290be9558122847d8b075cdd4adef0863538c7d9b46d7d84ed96a631c3be4ee86b1817a97e895b03111f70573d4293fb13205ceb486d75de7c2a06a"
+RPM_NAME = "python310-jupyter-lsp-2.2.0-2.1.noarch.rpm"
+RPM_HASH = "1f2f0298fcd35e3b3c33fed66df708e6953d626ca645be803f8db3f52f9a414e440686f0f66cf89b0e070bbf09ca9204c679b7ad36de95b59b9e692ed5592791"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-jupyter-lsp \

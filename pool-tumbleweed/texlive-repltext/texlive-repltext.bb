@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.1svn56433"
 
-RPM_NAME = "texlive-repltext-2023.209.1.1svn56433-54.1.noarch.rpm"
-RPM_HASH = "1997e02db7d5fd42d37da548e2a462bc791df6a9150578f28737fc99d5abf9d50e6834e54089501f6a0ec6844ea67367f1b4aafb94d8ce9a7ad69e6f591200a0"
+RPM_NAME = "texlive-repltext-2023.209.1.1svn56433-54.2.noarch.rpm"
+RPM_HASH = "0a5404096d63157ad3332e0eab7a95b8ea43fea8fb7c075c4fee3b1fec0362e83f3e5c3655b2c78a0bc63a8bbec225119a399a2bab3b215ed8d2c1f8ba1897e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-repltext.sty \

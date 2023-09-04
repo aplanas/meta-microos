@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "5.0"
 
-RPM_NAME = "patterns-microos-apparmor-5.0-72.1.aarch64.rpm"
-RPM_HASH = "96bd1bb61b20b61674e2ce1cad1773fc34f2655a939e344bd980c533afef449545cd562a8e02114a95bb490e55557fb1e8d12e0a4c699b6d6283d42ca8af9961"
+RPM_NAME = "patterns-microos-apparmor-5.0-73.1.aarch64.rpm"
+RPM_HASH = "7e4032496ae61ba28dde27f8afe82c63037252c28f6e6855202148262895fbaaf5694597b35724c4d69575cb98e38712c656b38b9edbd9513de8726020cae34e"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

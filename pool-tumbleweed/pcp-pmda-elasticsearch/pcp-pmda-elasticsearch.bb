@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-elasticsearch-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "76392b6f4d5cff1207eedb5c31afbc82ed3ff6bbcbcca729523ee9596e28921df9ad04af7acf888df4b216c8657f3561ede126447a30d3022630fe076030e953"
+RPM_NAME = "pcp-pmda-elasticsearch-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "3e1e04faccb39ab7e9dca73f6db7e97faa7c643411d203f50d5817305f1c2ffe218d6ec4e9b00033fa8c209efbdea57bceb1d3d910ef72d3850267d5918f5a8e"
 
 RPROVIDES:${PN} += "pcp-pmda-elasticsearch"
 

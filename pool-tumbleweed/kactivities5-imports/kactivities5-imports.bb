@@ -3,10 +3,10 @@ DESCRIPTION = "Kactivities provides an API for using and interacting with the Pl
 QML imports."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kactivities5-imports-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "14bdf8a783338ff0f254e5db65c2690694a1dd8fcd9aef7219ff78859a3c8446d4c44691fe02f5a09d6c192b3dd87fdf9959ffb0b7bcd3d0a836f804c401c5ad"
+RPM_NAME = "kactivities5-imports-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "7e22fb30d8f100d669809f7ce68dc6997515c71f915790484c9a00d210d5410646e67f424f9d25a63ba5a97674b7172b7f02eb04bbd318ac974b175c828ed1bd"
 
 RPROVIDES:${PN} += "kactivities5-imports \
 libkactivitiesextensionplugin.so \

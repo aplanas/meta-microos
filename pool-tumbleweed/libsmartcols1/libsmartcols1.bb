@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.39.1"
 
-RPM_NAME = "libsmartcols1-2.39.1-1.1.aarch64.rpm"
-RPM_HASH = "c2572c2bb9215faea0b3ed132fb856b631863d27064e4eec1c46d70a9a13da15b4c429e329d903f70a2c6346ce8b639fa9c912be30c0f2b49fffc413f9d09af8"
+RPM_NAME = "libsmartcols1-2.39.1-3.1.aarch64.rpm"
+RPM_HASH = "06467b34c71376ae698a4598f05c06cbf732f57d0322b162ba3c79815b2f729ccd081a38e88c0b6163320bd6b5992ca889624bc54e80317073fb88b7d098afcb"
 
 RPROVIDES:${PN} += "libsmartcols.so.1 \
 libsmartcols1"

@@ -19,8 +19,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "3.005"
 
-RPM_NAME = "perl-Log-Dispatchouli-3.005-1.1.noarch.rpm"
-RPM_HASH = "8884226af1ce3cae07db3f8c30d08b5c191e18bfe7d19171d07d409a129abd7e00708f8002674b26f948f17c86f5ed3b90cbda990cb7aeb02662db214c69f5a5"
+RPM_NAME = "perl-Log-Dispatchouli-3.005-1.2.noarch.rpm"
+RPM_HASH = "7392d0a02bf79b24abab8aa4a28804e118bc8ed5f6b0547f908bbeec67daba45bdd4ab30f447cae0759b7feebb4c73bc01e65071f714d81c96c6efc67e8f4302"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Log--Dispatchouli \
@@ -29,7 +29,7 @@ perl-Log--Dispatchouli--Proxy \
 perl-Log--Fmt \
 perl-Log-Dispatchouli"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Log--Dispatch \
 perl-Log--Dispatch--Array \
 perl-Log--Dispatch--File \

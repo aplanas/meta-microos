@@ -6,15 +6,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.122"
 
-RPM_NAME = "perl-System-Command-1.122-1.2.noarch.rpm"
-RPM_HASH = "88b020e57f7a9f081907120cd9a8cd6d961da914969d8c1679304a01e34a96b9df9317296969887d8366b872b0726c84050da7cfaaaba98add2d47d40e0ae694"
+RPM_NAME = "perl-System-Command-1.122-1.3.noarch.rpm"
+RPM_HASH = "8eea24d551094bd2b0cdf7556aa26fdfa59875f48f96b2daf6ba5b76d28699e50aa1ad0ca9664603a2ada5d576d333a9ed614b73a85d2acaacdb1c22decb44dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-System--Command \
 perl-System--Command--Reaper \
 perl-System-Command"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-IPC--Run"
 
 inherit rpm

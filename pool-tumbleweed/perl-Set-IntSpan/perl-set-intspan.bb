@@ -20,13 +20,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.19"
 
-RPM_NAME = "perl-Set-IntSpan-1.19-1.14.noarch.rpm"
-RPM_HASH = "5d14121f9b82d249ef7f0e29453517527d9cbf7c0743e7d029b94be470b66fc6854bb213ead22eb388d2375dc5a68334551ea153cd8f6d54962123d29c1358ad"
+RPM_NAME = "perl-Set-IntSpan-1.19-1.15.noarch.rpm"
+RPM_HASH = "26c5aa0d8e9562b8bc74f8f35575dde362ce95cd2681869f72740cacb09aa5798cd8bac1eb9bd8ee7b7f0f3600685ee0acf80b9aff49f9a6322b48f1b314cb7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Set--IntSpan \
 perl-Set-IntSpan"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

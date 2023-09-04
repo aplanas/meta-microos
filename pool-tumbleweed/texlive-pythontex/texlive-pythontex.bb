@@ -20,8 +20,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.18svn59514"
 
-RPM_NAME = "texlive-pythontex-2023.209.0.0.18svn59514-54.1.noarch.rpm"
-RPM_HASH = "6257a6fcd906d300f236cc4daa9a4c601fd003a505ac0495eff01ed2e483e73d28654253eeed6d412ed976c53832d62406e7033847cd3c8c65d765d66c86d798"
+RPM_NAME = "texlive-pythontex-2023.209.0.0.18svn59514-54.2.noarch.rpm"
+RPM_HASH = "7fd1629efe4e0d0b0dba3572bc6ffd2a2b97fcdb373ac386ef1a5f504dc6ef1ad935bb54b06180d241a0a0ffa926921bf2a712495192de2d630f4040df3fb809"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pythontex.sty \

@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.7.3"
 
-RPM_NAME = "librime-devel-1.7.3-2.19.aarch64.rpm"
-RPM_HASH = "bd3416e1a3ee65c4ee3ae2b2a21ccc5ba9113f534e00d365760181d27916fe02e6cf02fc78eb73ffc05aaf83fc1c0bf53c3ab97a17f38eb62769baa1d8993ca6"
+RPM_NAME = "librime-devel-1.7.3-2.20.aarch64.rpm"
+RPM_HASH = "720ea3e00aa0efbba51ad37f1a32d341bd82e894cc45db067a5924d0d667c9b74e5ae5978440fc7e0f0bb1ed6e66c10b54b54ba2ac761d91ea4443ac61e53996"
 
 RPROVIDES:${PN} += "cmake-Rime \
 librime-devel \

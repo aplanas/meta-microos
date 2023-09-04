@@ -4,15 +4,15 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.2.1"
 
-RPM_NAME = "ghc-path-pieces-devel-0.2.1-12.2.aarch64.rpm"
-RPM_HASH = "a1fe108ec2d2430310fe743b2b41ad816938a58b0533e81b25098a22a07e4e2153beda39a4636715cb9f6d2d97a00b477ce61e1a1dd23bb50b78fa2f3494ca1d"
+RPM_NAME = "ghc-path-pieces-devel-0.2.1-12.3.aarch64.rpm"
+RPM_HASH = "03317c47438559ec4eb8f2e9a79a0553d3760fb0cb008b6f161eceeec9e8a4ae82a73d30bcb0c24bc6a9706eede40fe04b45a8cdd930f369833f00c297df62a0"
 
-RPROVIDES:${PN} += "ghc-devel-path-pieces-0.2.1-7L2E0FvnHzn1hGutNz0iw4 \
+RPROVIDES:${PN} += "ghc-devel-path-pieces-0.2.1-JEJ6IegDP1FHzqmKWi176n \
 ghc-path-pieces-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-text-2.0.2 \
 ghc-devel-time-1.12.2 \
 ghc-path-pieces"

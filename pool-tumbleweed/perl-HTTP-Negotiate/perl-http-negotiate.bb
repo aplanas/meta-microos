@@ -39,14 +39,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "6.01"
 
-RPM_NAME = "perl-HTTP-Negotiate-6.01-9.27.noarch.rpm"
-RPM_HASH = "4502ceaca0d4d56f77a781f7d80ee43796160a5c77954cccedbc7945d4641320de53910a21a8568dfeab56ed869a5a2d74ac74d55423fe9048e92fc2a284b1b0"
+RPM_NAME = "perl-HTTP-Negotiate-6.01-9.28.noarch.rpm"
+RPM_HASH = "a570766c3582c4fb7bda87e910dcf2a9d0356c71f4cf73bc8cfa1db8e03fcb50c1cc87a2fd31e9419d6d5c1c06a9432fbf294adbf218e9467364549c0b78c1de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Negotiate \
 perl-HTTP-Negotiate"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-HTTP--Headers"
 
 inherit rpm

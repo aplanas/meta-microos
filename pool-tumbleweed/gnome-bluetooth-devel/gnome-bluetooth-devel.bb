@@ -4,10 +4,10 @@ DESCRIPTION = "A set of graphical utilities to setup, monitor and use Bluetooth 
 This package provides the necessary files for development with GNOME Bluetooth."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "42.5"
+PV = "42.6"
 
-RPM_NAME = "gnome-bluetooth-devel-42.5-1.4.aarch64.rpm"
-RPM_HASH = "5347b6ac41ddb917763583b30363ba887ee2e1740a253aed25d1b8f48c22ef6a50500714eca395409d6f11566579123922f05053432e23e7153a8486b88f2eb9"
+RPM_NAME = "gnome-bluetooth-devel-42.6-1.1.aarch64.rpm"
+RPM_HASH = "9d6602ea557acb2777c3ea291dbfb9ee63e57cc2ad2d393dacfd4ea556db0f35b0a760e445910f1aeb49f79e615911c75893af9c18924d39930078d744796b33"
 
 RPROVIDES:${PN} += "gnome-bluetooth-devel \
 pkgconfig-gnome-bluetooth-3.0 \

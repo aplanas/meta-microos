@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "6.0.1"
 
-RPM_NAME = "python311-pymediainfo-6.0.1-2.4.noarch.rpm"
-RPM_HASH = "4916268b55b91bfa237dc10a703556637fa57fba40fc356eb3cc29ac5899559c56a908b7026111a14d914ddc3865f0430b29b040604699458037b64fde60d9de"
+RPM_NAME = "python311-pymediainfo-6.0.1-3.1.noarch.rpm"
+RPM_HASH = "2da7ea7bb744f801c42d7c9dd844fd5916d8ae33081410eed4335abcfb02430e86bb6e53fe5fec35b7eca7db2e2ed7722098bf1e6bc02ed6e8336a168645eedc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pymediainfo \

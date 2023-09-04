@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.svn61719"
 
-RPM_NAME = "texlive-zapfchan-2023.209.svn61719-53.1.noarch.rpm"
-RPM_HASH = "ec3a5a200011921ee6b4a4430289eddd12aa09f2a5b29f2dba0f2d695a650396ff468dbb2034283fb04d2583b043cca61d995dfd2336493429d4bf4609969520"
+RPM_NAME = "texlive-zapfchan-2023.209.svn61719-53.2.noarch.rpm"
+RPM_HASH = "3455a6cbc826282776de026ea3491e9b66ca96cdf35dad80807668fbd7f65b6543eb0fa7dd8973bdb9fe406133c9e6277640d21cf9b42c5c560135611fa7ff2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-8ruzc.fd \

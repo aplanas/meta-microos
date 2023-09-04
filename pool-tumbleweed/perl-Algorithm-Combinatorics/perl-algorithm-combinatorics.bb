@@ -9,14 +9,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.27"
 
-RPM_NAME = "perl-Algorithm-Combinatorics-0.27-1.38.aarch64.rpm"
-RPM_HASH = "7deedb660a4d29e34e9d8bc3fb239e4aabfec50c5314678ffac3b8935c51191703f8689b42e32b17bb3ddb39085bfa48bc409ac4b9cbbba0db178d35eb286372"
+RPM_NAME = "perl-Algorithm-Combinatorics-0.27-1.39.aarch64.rpm"
+RPM_HASH = "c47555f7652a35d5baa8fb6105d4d8d32fbf1459f41c7c3205d59671a5778a5757ece87ee3a888ce8271f5236c2539fec7d9ec998576240a9e4d442d333af0ea"
 
 RPROVIDES:${PN} += "perl-Algorithm--Combinatorics \
 perl-Algorithm--Combinatorics--Iterator \
 perl-Algorithm--Combinatorics--JustCoderef \
 perl-Algorithm-Combinatorics"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

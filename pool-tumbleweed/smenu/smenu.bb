@@ -4,10 +4,10 @@ interactive window after the current line on the terminal, and writes the \
 selected words, if any, to standard output."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.2.0"
+PV = "1.3.0"
 
-RPM_NAME = "smenu-1.2.0-1.4.aarch64.rpm"
-RPM_HASH = "23b8003e12b7322f904852e3b21b2f8c240dda3f18721eb46c6065aa817782878594ccddff9caa323eb8f7363b7ee3cc18309eff80f10c5d108c6df6a76c6299"
+RPM_NAME = "smenu-1.3.0-1.1.aarch64.rpm"
+RPM_HASH = "78113de95a843bbd1fbd824ef5bf994567a98db598abc059f6c3c07ac0e5435e1c5c323cd11fa1a429a02652cc9e5fa1405e5635a3997a90ccb4faf7622cc036"
 
 RPROVIDES:${PN} += "smenu"
 

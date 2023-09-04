@@ -7,10 +7,10 @@ Java, Rust. Build definitions are written in a non-turing complete \
 Domain Specific Language."
 LICENSE = "Apache-2.0"
 
-PV = "1.2.0"
+PV = "1.2.1"
 
-RPM_NAME = "meson-1.2.0-1.1.noarch.rpm"
-RPM_HASH = "69ef62693e6e5926b06bd3e9002fa80f0381c7cc117f0c157147613299ddd234588537e43b3b91a952a1b0e126e24e8196055d4169ea919590407b70fe466615"
+RPM_NAME = "meson-1.2.1-1.1.noarch.rpm"
+RPM_HASH = "cfeba50d9994a910b90fb7aeec4bf5a3343bbe02d005d738dbcd75b5fb3cadf6547e138e8f66da4a7276f22aaa21ce06e605b1fcf1b5a4677f14fdbd34ba5539"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "meson \

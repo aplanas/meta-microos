@@ -20,10 +20,10 @@ The following features are available: \
 - Compatibility with PostgreSQL >= 8.3"
 LICENSE = "MIT"
 
-PV = "2.46"
+PV = "2.47"
 
-RPM_NAME = "pgbackrest-2.46-1.1.aarch64.rpm"
-RPM_HASH = "28962ffff3878ece99dbcd88a769daefdd200afb94210810b62fec25b80c997969a5567d040c1cc5027e41d19bcc34a8d2cd7c7da1a39b941a8b826001f109b8"
+RPM_NAME = "pgbackrest-2.47-1.1.aarch64.rpm"
+RPM_HASH = "02fe81f376078bab5e0d131323d510b0dc9be0f32214308586d1ca7cff25b3cb75e525e7d3830f47ba2647b2677279290ce60b10bc072877597f3780fa23c69d"
 
 RPROVIDES:${PN} += "config-pgbackrest \
 pgbackrest"

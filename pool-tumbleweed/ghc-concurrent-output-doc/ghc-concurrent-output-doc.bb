@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.10.18"
 
-RPM_NAME = "ghc-concurrent-output-doc-1.10.18-1.3.noarch.rpm"
-RPM_HASH = "031f57006bf0849ef23999d7035af8a9f65b63a7c1d6fecc4a9a2cda18266e4dc8d47cf9ca5a4a70caf77bf958898e6fe0d443177360a80a6630797c5bdb3c9e"
+RPM_NAME = "ghc-concurrent-output-doc-1.10.18-1.6.noarch.rpm"
+RPM_HASH = "a7bb899e509ea98b208f2e807cb2c1572ff83eed071bf1370e32c11fc93a1ef2b3a5816e44938fabf7b35afd15bfe08972961b728f5f636df165ad6ddd014d0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-concurrent-output-doc"

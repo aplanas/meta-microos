@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.13.10.0"
 
-RPM_NAME = "ghc-gtk2hs-buildtools-doc-0.13.10.0-1.3.noarch.rpm"
-RPM_HASH = "df102ca918f34e8ffb5f1c152341066693bbae4be0c4becb38f62859b4d1d60e754f9e14929e8ffd586c740284b84f7100ebd039ad3f7642a172524a94205f09"
+RPM_NAME = "ghc-gtk2hs-buildtools-doc-0.13.10.0-1.6.noarch.rpm"
+RPM_HASH = "ff2bb1293b8119d7a0195146ab60416a04acf1cd087e8b1df32a0c7858ac6d1eb8e037d2679ea50d9c6280dd3ce6ac4370db33d0a7d0e04f0c28a1a5379709d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-gtk2hs-buildtools-doc"

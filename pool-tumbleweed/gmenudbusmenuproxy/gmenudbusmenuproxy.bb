@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.27.7"
 
-RPM_NAME = "gmenudbusmenuproxy-5.27.7-1.1.aarch64.rpm"
-RPM_HASH = "450e3cf8e1cc07b931d57f3cd0f6c65352f024c98aebc6777e88aced4da8a4737fdaa92f236ec197a3d5f852e621d656eb4d6bb58ad7bea301811159e7ce49e7"
+RPM_NAME = "gmenudbusmenuproxy-5.27.7-3.1.aarch64.rpm"
+RPM_HASH = "4ab5a52dda41351df660e0bf6f1c7a59c46b3db4e35aa74b29be5357df7d9d396e624ef2baaada2f787b2a35007ce08e3dbd6b8988e82d7121712f6fc174197d"
 
 RPROVIDES:${PN} += "gmenudbusmenuproxy"
 

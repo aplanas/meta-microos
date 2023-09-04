@@ -10,14 +10,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.16"
 
-RPM_NAME = "perl-URI-Query-0.16-1.11.noarch.rpm"
-RPM_HASH = "9d3c0ac8472401b6485c56d6c761c77bab84c7cf37f0a6996ae628128b8d38088103807da8ab1a18fcdb59d2a449f138f88828dfa8a91eab1788387f9edc61da"
+RPM_NAME = "perl-URI-Query-0.16-1.12.noarch.rpm"
+RPM_HASH = "004c3ea80bdfacc97f607aebc5b49fd914d0fdd4e6ebdc6e1ae4529c21c0ee3f8ef311b586027751eecf0970168fc07a25785ac9eadaa3ae10fe072f3a37e686"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-URI--Query \
 perl-URI-Query"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Clone \
 perl-URI--Escape \
 perl-parent"

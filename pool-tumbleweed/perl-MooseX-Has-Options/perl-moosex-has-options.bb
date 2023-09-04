@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.003"
 
-RPM_NAME = "perl-MooseX-Has-Options-0.003-5.26.noarch.rpm"
-RPM_HASH = "e00bb54f6288278bb3a28c42acaf382a8835954ca0d6f2e0c618fee5b469f7eaa8a3a6900e8de088da5c3e0fc82aaeb5c07e280fa9db7245df8fac2d083c4a8c"
+RPM_NAME = "perl-MooseX-Has-Options-0.003-5.27.noarch.rpm"
+RPM_HASH = "330559b8f72a8aa9466f76af85036f7fa037b002a847289a2b846b664bed064055f7ca2164a618cb5d9aa64652d28e75b2755e220bd4829e62634a1a1f647321"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Has--Options \
@@ -15,7 +15,7 @@ perl-MooseX--Has--Options--Handler--NativeTypes \
 perl-MooseX--Has--Options--Handler--NoInit \
 perl-MooseX-Has-Options"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Class--Load \
 perl-List--MoreUtils \
 perl-Package--Stash \

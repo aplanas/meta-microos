@@ -7,8 +7,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.209.20120101svn25019"
 
-RPM_NAME = "texlive-hanoi-2023.209.20120101svn25019-54.1.noarch.rpm"
-RPM_HASH = "98519c84362e85e904f90dd695d9f1ae3bf2d14aa13c70a26aa5dfb1e0eb3d979d0acce2ecf709da34a5464cca296eb6ce62a6db093b3a2f74d26c6a0f00c4ec"
+RPM_NAME = "texlive-hanoi-2023.209.20120101svn25019-54.2.noarch.rpm"
+RPM_HASH = "e83a4535366cffca6d2e0d9f13fd8f4d5083f4e0474a43d6487e1be1b1176a9fac0a9c5d6002143d599d24872090bb2d51f645bf3c8eb19aeb31beff7d942fbc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hanoi.tex \

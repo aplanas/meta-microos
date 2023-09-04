@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "6.4"
 
-RPM_NAME = "perl-Date-Calc-6.4-2.2.noarch.rpm"
-RPM_HASH = "4b83dd00c1ad77d879e5cb565aa336ef38c5f0f8ec3ca6d6796857ef9b8a58f780b4a7a8dc71acb0be3183bf5ee15ca35e071a275ae8ab3e59f17169e0290468"
+RPM_NAME = "perl-Date-Calc-6.4-2.3.noarch.rpm"
+RPM_HASH = "365f1f5f407e5ba68df1be8c7020911a0a4a1281640dfcf02773f54db7e7ed4fc969af62045b0d2938f99caad3c5728757766c6842535383fd432e5ebba8302d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Date--Calc \
@@ -20,7 +20,7 @@ perl-Date--Calendar--Profiles \
 perl-Date--Calendar--Year \
 perl-Date-Calc"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Bit--Vector \
 perl-Carp--Clan"
 

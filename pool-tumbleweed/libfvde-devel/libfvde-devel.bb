@@ -9,8 +9,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20220915"
 
-RPM_NAME = "libfvde-devel-20220915-3.15.aarch64.rpm"
-RPM_HASH = "8578b4fd102acd1da5333a9ca7d4a77c9086c6d12aa20bd0ce0180a457e46883ef82b972bbdcd00bb08554075ad3444bf06583bdc698dc4bce7348e746db602d"
+RPM_NAME = "libfvde-devel-20220915-4.1.aarch64.rpm"
+RPM_HASH = "b26ac207018c22dc75414991a2f15d24b82f0bbb8fb31f07b41bef424a60b26233f33a0b20d76056541c4a88fc9991e6cf2208b66dabb76598429db887e7b7fa"
 
 RPROVIDES:${PN} += "libfvde-devel \
 pkgconfig-libfvde"

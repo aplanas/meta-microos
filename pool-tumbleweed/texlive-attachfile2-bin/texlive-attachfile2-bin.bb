@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn52909"
 
-RPM_NAME = "texlive-attachfile2-bin-2023.20230311.svn52909-93.1.aarch64.rpm"
-RPM_HASH = "841bd529984a16309d5e3aa11208bb24b50809c23cd1ed210e910c21ee7ce7cc8b03a934da84a68f2eb4ecad5b41ffa9653a71c931262101f9131ab4a04320c0"
+RPM_NAME = "texlive-attachfile2-bin-2023.20230311.svn52909-93.2.aarch64.rpm"
+RPM_HASH = "518db1d4fa5561b7d71c22928b035a3896aa84b073eec8c98ec0803f5c5baa79de3410401c15d2638bee7a9c0e4fd968eb9eae681b34e8c7460299e109ba46af"
 
 RPROVIDES:${PN} += "texlive-attachfile2-bin \
 texlive-pdftools-bin-/usr/bin/pdfatfi"

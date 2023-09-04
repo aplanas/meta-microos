@@ -16,8 +16,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.1asvn15878"
 
-RPM_NAME = "texlive-dvdcoll-2023.209.1.1asvn15878-54.1.noarch.rpm"
-RPM_HASH = "0326148c6a5a03429205f29722058c215f73ea3cb8a053b536f8bf0c26e5a28c891e35156b4b9aecdb897187e496519d0ca2efc2849a8e32d81e2a98431295fe"
+RPM_NAME = "texlive-dvdcoll-2023.209.1.1asvn15878-54.2.noarch.rpm"
+RPM_HASH = "82b398a12fde62234f0158ceba56e3ba4aa2429cc5c76fdcffe0c9ffbe15c86e4366c3f6fafad85e40337b09dfe7f0a4781a9f09241701d76a2e2754c2aec61f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dcwrtbib.sty \

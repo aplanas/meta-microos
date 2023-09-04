@@ -30,8 +30,8 @@ LICENSE = "MIT"
 
 PV = "1.6.0"
 
-RPM_NAME = "beets-1.6.0-2.6.noarch.rpm"
-RPM_HASH = "42bff859ed3b435f8d29ea71ebb72e4be41d5816de647e1f7cd51e6d51a1b2d7b26e2791cc37c080210bda97f968b9f1b1d868fc231f988d2bbe78e468e74335"
+RPM_NAME = "beets-1.6.0-3.1.noarch.rpm"
+RPM_HASH = "7cd47134b3ab9b172f9ded8069fa5fe50de15927dc932aadad137efb62edd1ae840c9a6ce7c9c2ce87ec4a036abaa7b0e13947d8d3214e5cb830a4b0a1fbffe0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "beets \

@@ -5,8 +5,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.209.0.0.2svn29349"
 
-RPM_NAME = "texlive-epsincl-2023.209.0.0.2svn29349-54.1.noarch.rpm"
-RPM_HASH = "332e57a727cad371347b5163733163063c2e4285472c381b6840abc102a99a190f24378e1cc44f15e451103fa8b6cdc22362ae3ddc75d2dd0b85fb33db011ba1"
+RPM_NAME = "texlive-epsincl-2023.209.0.0.2svn29349-54.2.noarch.rpm"
+RPM_HASH = "4c0611eb64603c341fef46091840cbd80bca37b9d1f671710920c9640b49bbd52fbae408dfdb1244a3ca51b5d1dc67746bc46e643ed7e00ebb984b8e8fb8c66b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-epsincl"

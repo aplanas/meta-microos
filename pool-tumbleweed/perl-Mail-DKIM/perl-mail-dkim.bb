@@ -24,8 +24,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.20230630"
 
-RPM_NAME = "perl-Mail-DKIM-1.20230630-1.1.noarch.rpm"
-RPM_HASH = "f6248db06d3f29150fd3bc32571d8626f9b5fd86a196e19a058faaca4898c57adcd55da8a53b6826e7316f63ff86441e7891f9c93f0e804e7040997b232fd613"
+RPM_NAME = "perl-Mail-DKIM-1.20230630-1.2.noarch.rpm"
+RPM_HASH = "f433f2069086639c0f3438d3018293a8072a733cba98fd1ce8b2549e22dfc8396c4cc353cdc505a97dcf640d68b273c228d95072cb6c261b17886c26c36c02da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mail--DKIM \
@@ -66,7 +66,7 @@ perl-Mail--DKIM--TextWrap \
 perl-Mail--DKIM--Verifier \
 perl-Mail-DKIM"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Crypt--OpenSSL--RSA \
 perl-Crypt--PK--Ed25519 \
 perl-Digest--SHA \

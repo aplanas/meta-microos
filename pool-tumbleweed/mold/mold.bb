@@ -6,10 +6,10 @@ mold is created for increasing developer productivity by reducing \
 build time especially in rapid debug-edit-rebuild cycles."
 LICENSE = "MIT"
 
-PV = "2.0.0"
+PV = "2.1.0"
 
-RPM_NAME = "mold-2.0.0-1.1.aarch64.rpm"
-RPM_HASH = "bbfecb255046a09263fc03381b582ace720255d22b8a0463f5e4c0956fd6b6423411e523cd5c0ec3b87d949d4760e7ae261582495d0beb8b9fc18161b0d08cd5"
+RPM_NAME = "mold-2.1.0-1.1.aarch64.rpm"
+RPM_HASH = "db87f649753d6fce2bb3eba22c8a21984a593c4610aed2a294ac3dcbf03acdec09b3e694114d155c3e82b1e5f274ce103a3e7310e248363a423f11300fc363a7"
 
 RPROVIDES:${PN} += "mold"
 

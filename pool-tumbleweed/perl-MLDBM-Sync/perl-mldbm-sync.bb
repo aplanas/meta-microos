@@ -8,14 +8,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.30"
 
-RPM_NAME = "perl-MLDBM-Sync-0.30-408.42.aarch64.rpm"
-RPM_HASH = "df785c822408e53fd8a53c3796e70b3fd60350a93b0ed969464a075e6f38ccb8f3476ce11db0674a55a5e002a3b6dcce6007a12499c4e3d128a948fe787e3055"
+RPM_NAME = "perl-MLDBM-Sync-0.30-408.43.aarch64.rpm"
+RPM_HASH = "75d2cf602fc9791c997270d9d610c970c2b26d95b7fbcfc869cddea97cf6d14775be367fec738be841e3e4d3fc39ebbc983909bb16487651ea815e7d235e183b"
 
 RPROVIDES:${PN} += "perl-MLDBM--Sync \
 perl-MLDBM--Sync--SDBM-File \
 perl-MLDBM-Sync"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-MLDBM \
 perl-Tie-Cache"
 

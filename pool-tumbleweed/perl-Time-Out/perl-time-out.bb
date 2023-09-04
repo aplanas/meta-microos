@@ -5,13 +5,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.11"
 
-RPM_NAME = "perl-Time-Out-0.11-3.27.noarch.rpm"
-RPM_HASH = "5185aab94d70bee1a9463e106fb2b0891b5c908080817527940ed7962d9e6fc575689f3ab741b9aa5abd8fe6b35f303c5b9bf2188a0c760483e15d4b63c646ab"
+RPM_NAME = "perl-Time-Out-0.11-3.28.noarch.rpm"
+RPM_HASH = "8b54e5762cec80e345bef7238a43d551196466f4f7b402ac7103fc783b75ea800c8d0029d3139616b12456fc38728a08d8bc37c9bf47bdc8ffb1389122a0a5e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Time--Out \
 perl-Time-Out"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

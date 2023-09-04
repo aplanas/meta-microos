@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.403.9"
 
-RPM_NAME = "perl-Chart-2.403.9-1.3.noarch.rpm"
-RPM_HASH = "dc5843b3f129afaf9e4a57a694585c0c920219f0ff0654e0535daff50bfef9baf345474dca274144ccc8fb8e9636f252ada032b63939aaffdf37c599d57b026f"
+RPM_NAME = "perl-Chart-2.403.9-1.4.noarch.rpm"
+RPM_HASH = "5b3cbb9abdff78c373a0bab8e5986dbdf0c141505103c0d64bfd898d419ea97c04b3aa2c4056e77946b95aafae75692177c08dd8de472cacd90574750a6bf7e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Chart \
@@ -31,7 +31,7 @@ perl-Chart--Property--DataType--Font \
 perl-Chart--Split \
 perl-Chart--StackedBars"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Carp \
 perl-GD \
 perl-Graphics--Toolkit--Color"

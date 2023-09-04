@@ -13,8 +13,8 @@ LICENSE = "PostgreSQL"
 
 PV = "1.3.4"
 
-RPM_NAME = "postgresql11-pgaudit-1.3.4-4.2.aarch64.rpm"
-RPM_HASH = "c1f7c765c88e463ab719ab3df5f1fa294afe905b4e4da37cc38b3ea2d7e7f8f97ed29420a018ad562de3960094b7d825cb86724bec33ee49593b2787e8f70ad0"
+RPM_NAME = "postgresql11-pgaudit-1.3.4-4.3.aarch64.rpm"
+RPM_HASH = "51464a82b701c046579691df844d44e1f90f05de437c005c9f40c29edde954e9dd78cc798b5bb5d029a374554a416070fecda3c2bd653977c368902c2625b980"
 
 RPROVIDES:${PN} += "postgresql11-pgaudit \
 postgresql11-pgaudit-llvmjit"

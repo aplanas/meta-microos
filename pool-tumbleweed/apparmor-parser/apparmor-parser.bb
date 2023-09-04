@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.1.6"
 
-RPM_NAME = "apparmor-parser-3.1.6-2.1.aarch64.rpm"
-RPM_HASH = "6f5d37e28512aa689ba9a7f75fff9a69c701fefaf7b938b44a8de9dfc48ddfd8f10a659b67c2e6ef64112cb1da9bcb90ca116b5dc77ab30888d3f6162094ff55"
+RPM_NAME = "apparmor-parser-3.1.6-2.2.aarch64.rpm"
+RPM_HASH = "bf48b06ddf0f9ca38fe4ea92771ce230fec42d32f904d765c400bf09d8aa7d936826f57adc545981591ec41c71fc2a5749991c35a3656d895fe47563325056b5"
 
 RPROVIDES:${PN} += "apparmor-parser \
 apparmor-parser-CAP-SYSLOG \

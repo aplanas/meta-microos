@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn54080"
 
-RPM_NAME = "texlive-har2nat-doc-2023.209.1.0svn54080-54.1.noarch.rpm"
-RPM_HASH = "b666c2ad454a3b2a48b4407fcac1a9bfaa02b61f678337c297e7d0220545e1b87feeea23c28159a265bc058d20cc8379b6bef2bc2438e7f3e907b1ef8b98d6c0"
+RPM_NAME = "texlive-har2nat-doc-2023.209.1.0svn54080-54.2.noarch.rpm"
+RPM_HASH = "ee75059509b5ae84f4ce7c596bf637324db5c6d280a67aa4989a51bd2ab62d5a486b3ce6892675efb389c7c0fcbc3c0eaf1351ad89b6126f2ac39a5051d331bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-har2nat-doc"

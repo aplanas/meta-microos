@@ -27,14 +27,14 @@ LICENSE = "Artistic-1.0"
 
 PV = "0.12"
 
-RPM_NAME = "perl-HTML-SimpleParse-0.12-284.16.noarch.rpm"
-RPM_HASH = "7409b43d5023f0904eced8daf253a91ab1995e80f3903e9ebec5b1ff85bc7f61feb35857a922af2ece23f4b9f78c95c748493d92e00f2add69c35738f12fac93"
+RPM_NAME = "perl-HTML-SimpleParse-0.12-284.17.noarch.rpm"
+RPM_HASH = "ccc7588d9c6cf12ef3e3c192f627810c4ebbdae96c48385b602df927b94a5a590af33dfcd73df19246a91c1391093c2bd8fb35ca5d57d1c9b36bf5ba1b527f34"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "HTML-SimpleParse \
 perl-HTML--SimpleParse \
 perl-HTML-SimpleParse"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

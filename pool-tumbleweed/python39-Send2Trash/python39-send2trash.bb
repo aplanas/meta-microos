@@ -8,14 +8,15 @@ to its own implementation of the trash specifications from \
 freedesktop.org."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.8.0"
+PV = "1.8.2"
 
-RPM_NAME = "python39-Send2Trash-1.8.0-1.11.noarch.rpm"
-RPM_HASH = "abca20da15b8e8384b3f2b3b64fac6c8ab499e49ce35b8830293123442a36486c3dfff4929d6be8b20f1a9509dd143c8d9ee1cdbed27097f02b9c3a01d963fc9"
+RPM_NAME = "python39-Send2Trash-1.8.2-1.1.noarch.rpm"
+RPM_HASH = "df54ad80bbf7d61ee6fefd4eec25a0244676a9cbb042bcc96bda865dec3c501090c3819a8397c47ea0f401ef571d7409b5458b0c52c84b3c590db6f1047079ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-send2trash \
 python39-Send2Trash \
+python39-send2trash \
 python3dist-send2trash"
 
 RDEPENDS:${PN} += "/usr/bin/python3.9 \

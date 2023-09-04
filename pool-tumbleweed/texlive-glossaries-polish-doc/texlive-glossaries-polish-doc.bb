@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn35665"
 
-RPM_NAME = "texlive-glossaries-polish-doc-2023.209.1.0svn35665-54.1.noarch.rpm"
-RPM_HASH = "94419403d1c6277db56e51dbeaa1aedae75135e737c7f22885439529443daf91e185e6341dadc73a90739ab0f6d276b61e55f99ae9e732c81a96c4ee6597ba52"
+RPM_NAME = "texlive-glossaries-polish-doc-2023.209.1.0svn35665-54.2.noarch.rpm"
+RPM_HASH = "080bf5693ff3bb34c8736fb8f236a3bd55e5546126c54ca17b27f5ccaf9be46407bd61bb44a455b2bd7e7f1dc62ea3c7fb58981581ce24a69e202dcca53df113"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-glossaries-polish-doc"

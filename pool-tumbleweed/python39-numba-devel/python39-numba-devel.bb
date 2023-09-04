@@ -2,16 +2,16 @@ SUMMARY = "Development files for numba applications"
 DESCRIPTION = "This package contains files for developing applications using numba."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.57.0"
+PV = "0.57.1"
 
-RPM_NAME = "python39-numba-devel-0.57.0-1.3.aarch64.rpm"
-RPM_HASH = "437b1a941574fcfaa70cafa58a478c13c0dbb70181d43242422395f0670981c791a1b1ad5829a4286a5444539e9aed9426c8c962dd7c53ea6c7091f973bccc7a"
+RPM_NAME = "python39-numba-devel-0.57.1-2.1.aarch64.rpm"
+RPM_HASH = "79c3021d1cb55b35ffabc93057250d2807c29f116b11a9d59c0af058d42dc312db9a3ce3d2f1e9a608e545793353c471f3f95958c20c18aa8e7e0e98ff2f41dc"
 
 RPROVIDES:${PN} += "python39-numba-devel"
 
-RDEPENDS:${PN} += "-python39-numpy-devel >= 1.21 with python39-numpy-devel < 1.25 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
 python39-devel \
-python39-numba"
+python39-numba \
+python39-numpy-devel"
 
 inherit rpm

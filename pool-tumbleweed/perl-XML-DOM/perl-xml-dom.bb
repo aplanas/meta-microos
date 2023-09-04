@@ -45,8 +45,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.46"
 
-RPM_NAME = "perl-XML-DOM-1.46-1.5.noarch.rpm"
-RPM_HASH = "9ca3eedf400cda711f1d5fa0b01c083f74eb4ca6dd027adb19e1fc8eafdd1ff51586b2667fabe9769b6527ee1e46846c39c9e9de0863ddd3420e2de29321313b"
+RPM_NAME = "perl-XML-DOM-1.46-1.6.noarch.rpm"
+RPM_HASH = "9512c1341d3dd4504aeaf1eafe048c8ddb966e8e8e73a9e267bb08967a490c6fe7892c2449e876b1df476b1e8f444047bf67317bb32dfccd0483f94fa2af772b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--DOM \
@@ -81,7 +81,7 @@ perl-XML--Parser--Dom \
 perl-XML--XQL--Node \
 perl-XML-DOM"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-LWP--UserAgent \
 perl-XML--Parser \
 perl-XML--Parser--PerlSAX \

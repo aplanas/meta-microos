@@ -27,17 +27,17 @@ Please see App::Packer::Frontend for detailed explanation on the structure \
 returned by 'get_files'."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.32"
+PV = "1.330.0"
 
-RPM_NAME = "perl-Module-ScanDeps-1.32-1.1.aarch64.rpm"
-RPM_HASH = "70ada4f749f6fdff9ac00c2d14be45c5394192bdc8b512bf465049812998a859190f4acae8a44ca75f4d706838caf957115a0ae9057997069a50fdbd60c7af3a"
+RPM_NAME = "perl-Module-ScanDeps-1.330.0-1.1.aarch64.rpm"
+RPM_HASH = "f3c8a8c0837d595114b63cfc28411539cc8f86ed3035219ca09742940ac40728e97ae10ff368cb25f7342688448cd541efef7bbb7cd0c3ea207faeeb0d7bce44"
 
 RPROVIDES:${PN} += "perl-Module--ScanDeps \
 perl-Module--ScanDeps--Cache \
 perl-Module-ScanDeps"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Module--Metadata \
 perl-version"
 

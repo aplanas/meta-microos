@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn37026"
 
-RPM_NAME = "texlive-recipebook-2023.209.svn37026-54.1.noarch.rpm"
-RPM_HASH = "e9dacd2b36e4e4145d6483ac77269857f815f49b8d9ef162a6cdafa9819e3cf24591d41dc1c2827eb9107fd5d11e6f71b474bef0efba574def25632632d4e4ae"
+RPM_NAME = "texlive-recipebook-2023.209.svn37026-54.2.noarch.rpm"
+RPM_HASH = "269aaf0e4bb24e425fd7800a55b3a5b7cb7cc2152abdf1a7559bcfe7aeb7b1bb52f5f83bdf7a54111f2170e66d0d1fe10470261061b0067f312c0867b7cd0329"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-RecipeBook.cls \

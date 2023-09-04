@@ -18,8 +18,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.21"
 
-RPM_NAME = "perl-Gtk3-SimpleList-0.21-2.13.noarch.rpm"
-RPM_HASH = "fc1801bd182b469f89d2b26b3da2523880417056b052f20e120b5f6f40101f57295deaa1441f97840fb82f15581295b5434e77e50f839a1e6a9e595df4d13343"
+RPM_NAME = "perl-Gtk3-SimpleList-0.21-2.14.noarch.rpm"
+RPM_HASH = "37260281f445601ac887d4d64ae254fe8805547e2955a1155a9453c6e9eafeb0632c9ae1cba79d4f86bb1191b3d53a73faed20b1a07b34ec754211a37c9b2268"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Gtk3--SimpleList \
@@ -27,7 +27,7 @@ perl-Gtk3--SimpleList--TiedList \
 perl-Gtk3--SimpleList--TiedRow \
 perl-Gtk3-SimpleList"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Gtk3"
 
 inherit rpm

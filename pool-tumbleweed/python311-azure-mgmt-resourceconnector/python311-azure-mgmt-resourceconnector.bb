@@ -4,10 +4,10 @@ DESCRIPTION = "This is the Microsoft Azure Resourceconnector Management Client L
 This package has been tested with Python 2.7, 3.6+."
 LICENSE = "MIT"
 
-PV = "1.0.0b4"
+PV = "1.0.0.0"
 
-RPM_NAME = "python311-azure-mgmt-resourceconnector-1.0.0b4-1.2.noarch.rpm"
-RPM_HASH = "56c9ec748fa265bbebe98d79c0399aec976aebaaf093b3262eb51aaeebdee353a1fe7909bac16b6faa1bcdbdfcceb5ab4d8035d1a8c474883e828d581a02c57f"
+RPM_NAME = "python311-azure-mgmt-resourceconnector-1.0.0.0-1.1.noarch.rpm"
+RPM_HASH = "75fa5fd8147433fa4624fc9182457a609b622039b41dae84362bf6c501aa5b5968a53f3aea844adf185542e2b09875619dbef874671576295219845ce2600104"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-resourceconnector \

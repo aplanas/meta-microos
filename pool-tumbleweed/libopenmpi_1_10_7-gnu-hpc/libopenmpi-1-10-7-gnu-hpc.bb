@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.10.7"
 
-RPM_NAME = "libopenmpi_1_10_7-gnu-hpc-1.10.7-7.6.aarch64.rpm"
-RPM_HASH = "d81161eb4c4a14f82d9443dd4c81932f5b7c72e20f199cfa7d8954e35cc14cedd2607736e4879a0028fadcfc2d345b2d035b34176ac037927cb9db21751fc487"
+RPM_NAME = "libopenmpi_1_10_7-gnu-hpc-1.10.7-8.1.aarch64.rpm"
+RPM_HASH = "9f5fba760f835f9ee761c0c5324e353c2c96d0f251cc447d13b051197ff1c64c4e6773e261315860cefb714b524e98f5cf665f94279928074024093e15503cd4"
 
 RPROVIDES:${PN} += "libopenmpi-1-10-7-gnu-hpc"
 
@@ -24,6 +24,7 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 gnu-compilers-hpc \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
+libfabric.so.1 \
 libgcc-s.so.1 \
 libibverbs.so.1 \
 libm.so.6 \

@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.104004"
 
-RPM_NAME = "perl-Software-License-0.104004-1.2.noarch.rpm"
-RPM_HASH = "bb6d2178c15ab2011ce46b95ac61366c1f42b384392587ac08e00a62f276a09928b1b4f203cdb6e725f8290900a34c4b8e1dfa25e236c1f3caad8f368d84ce01"
+RPM_NAME = "perl-Software-License-0.104004-1.3.noarch.rpm"
+RPM_HASH = "4241f2887129f198dd5d354a05c8e78129c469ace038c8bc9da9b447b93b7ca3a448139cde42b6a69526c6c461e4409785f82ee967ab7ec56b56f44156c7bc48"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Software--License \
@@ -44,7 +44,7 @@ perl-Software--License--Zlib \
 perl-Software--LicenseUtils \
 perl-Software-License"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Data--Section \
 perl-Module--Load \
 perl-Text--Template \

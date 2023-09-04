@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.11.5"
 
-RPM_NAME = "ghc-ansi-terminal-types-doc-0.11.5-1.2.noarch.rpm"
-RPM_HASH = "413687a42f9096624acc018ba64da1007025a927372fe2f100eff83c9646f690fcdfb1e599bea5d3bf1f3f51b09db694164dd3f5a12a2b534ccf19849b523e50"
+RPM_NAME = "ghc-ansi-terminal-types-doc-0.11.5-1.3.noarch.rpm"
+RPM_HASH = "91dffa667c578157d2234b44e78fda1b89a9630a74a1b11f383a921c3189353089b744e786994386078d24522c3c3e824a599386ffea278a5aab5e0c4d457b99"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-ansi-terminal-types-doc"

@@ -4,18 +4,18 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.5"
 
-RPM_NAME = "ghc-uuid-types-prof-1.0.5-5.2.aarch64.rpm"
-RPM_HASH = "f68f08cfc28bd1e2c9de39451f82934e25d7863b60846db3efc50ed12b58583e3794c9f17b3809fdd6c73198b5efc329129d24d18fefb949263d228d73b381c8"
+RPM_NAME = "ghc-uuid-types-prof-1.0.5-5.4.aarch64.rpm"
+RPM_HASH = "df1c64dbbe473f6ad03002c86e646f1a00c875c2321a52f49c59b86466a343f26e85cd11ed016c074851d979e92417f3ea85293cecc81c702f4f58b6deb2019b"
 
-RPROVIDES:${PN} += "ghc-prof-uuid-types-1.0.5-LsoYQ81hhMAHUqibNrLXkM \
+RPROVIDES:${PN} += "ghc-prof-uuid-types-1.0.5-34Qd5N8tYIyGW5LtrFWnkV \
 ghc-uuid-types-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
 ghc-prof-binary-0.8.9.1 \
-ghc-prof-bytestring-0.11.4.0 \
+ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-deepseq-1.4.8.0 \
-ghc-prof-hashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt \
-ghc-prof-random-1.2.1.1-I0wUgAAbf0g3qHR3e8uT0o \
+ghc-prof-hashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP \
+ghc-prof-random-1.2.1.1-DaR3VtSJjyj4XXOpfKJ29k \
 ghc-prof-template-haskell-2.19.0.0 \
 ghc-prof-text-2.0.2 \
 ghc-uuid-types-devel"

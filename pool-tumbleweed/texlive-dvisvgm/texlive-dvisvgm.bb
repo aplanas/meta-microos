@@ -16,8 +16,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.3.0.4svn66532"
 
-RPM_NAME = "texlive-dvisvgm-2023.209.3.0.4svn66532-54.1.noarch.rpm"
-RPM_HASH = "c9736641cf6accbbd43679887065455c1bec2f1fb1b9eac0cf45758a8a38efa44cd0980a06ac0477ee75b334b614f3a7ce4521fdac0e00386a1f13be1e8af272"
+RPM_NAME = "texlive-dvisvgm-2023.209.3.0.4svn66532-54.2.noarch.rpm"
+RPM_HASH = "6ae783a15e45702a6df6b03776d9aae8ff40bd9921003a9159b3d37878503c68e0be25ef2a36f49a0807ac704806a61e9b649e20273af89047ead799ebc99ba2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-dvisvgm.1 \

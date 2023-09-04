@@ -3,10 +3,10 @@ DESCRIPTION = "A package manager for Node.js that allows developers to install a
 publish packages to a package registry."
 LICENSE = "MIT"
 
-PV = "20.3.1"
+PV = "20.5.1"
 
-RPM_NAME = "npm20-20.3.1-1.1.aarch64.rpm"
-RPM_HASH = "10248c43f6d65eb4c576a4c1f6cbd09d333fb1e513692d3f3d63e71aad8ebc0c3ee18f7171cb92e5d535f9fcfcf1d6b9cf24bd45242384c53cf76570de0bf4d5"
+RPM_NAME = "npm20-20.5.1-1.1.aarch64.rpm"
+RPM_HASH = "dbbb7f9d4e8e8b890b9372c03cc71b2c7ceb329bebe6ef0bf9be8316f25ff36381f8bba1299befa569ff2b0cf049c0878500783c58aeb57fb09f8bbae7d3ecbb"
 
 RPROVIDES:${PN} += "bundled-node-abbrev \
 bundled-node-abort-controller \
@@ -56,6 +56,7 @@ bundled-node-env-paths \
 bundled-node-err-code \
 bundled-node-event-target-shim \
 bundled-node-events \
+bundled-node-exponential-backoff \
 bundled-node-fastest-levenshtein \
 bundled-node-foreground-child \
 bundled-node-fs-minipass \
@@ -65,7 +66,6 @@ bundled-node-gauge \
 bundled-node-glob \
 bundled-node-graceful-fs \
 bundled-node-has \
-bundled-node-has-flag \
 bundled-node-has-unicode \
 bundled-node-hosted-git-info \
 bundled-node-http-cache-semantics \
@@ -77,7 +77,6 @@ bundled-node-ieee754 \
 bundled-node-ignore-walk \
 bundled-node-imurmurhash \
 bundled-node-indent-string \
-bundled-node-infer-owner \
 bundled-node-inflight \
 bundled-node-inherits \
 bundled-node-ini \

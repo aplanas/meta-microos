@@ -2,10 +2,10 @@ SUMMARY = "Utility library for fcitx5"
 DESCRIPTION = "This package provides utility libraries for fcitx5."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.0.23"
+PV = "5.1.0"
 
-RPM_NAME = "libFcitx5Utils2-5.0.23-1.2.aarch64.rpm"
-RPM_HASH = "b7fb415ca3b139407f3480dbf483ed9d090663c3301b1fdde80177b9dbf63ece3d04e0b08182f4a25262453a00859794f9839b513e20edf704c616801cac9cfa"
+RPM_NAME = "libFcitx5Utils2-5.1.0-1.1.aarch64.rpm"
+RPM_HASH = "6ce73106e0632908ec97e27e4b5ea4ffe171a51d5e76cfa2312e26d7f443ee0407bd2b492f545038715c06975e2e38237408af011b5bfc33527f53e4500bd666"
 
 RPROVIDES:${PN} += "libFcitx5Utils.so.2 \
 libFcitx5Utils1 \

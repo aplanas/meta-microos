@@ -14,10 +14,10 @@ implemented using the author's gates (lua version), and works \
 for plain TeX and LaTeX, but not ConTeXt."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.2svn27232"
+PV = "2023.209.1.2svn27232"
 
-RPM_NAME = "texlive-interpreter-2023.208.1.2svn27232-53.1.noarch.rpm"
-RPM_HASH = "d3a80ea00a21a1b508626731c4d0369d47aea4b7f0774e4c85c06569cd6faadfd83c3c140240ac167ba5934f8f57074736477b4bc381c5097baf243c3b17d6b0"
+RPM_NAME = "texlive-interpreter-2023.209.1.2svn27232-54.1.noarch.rpm"
+RPM_HASH = "37bf85cbd0215aaae8bfa73e1607d197d1cbc9b3e1034000f24478116855314b85f96befd7cde07093dcffd9b5cef4b88104d009c0fb32b85aa93da8349716c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-interpreter.sty \

@@ -4,15 +4,15 @@ LICENSE = "MIT"
 
 PV = "0.1.6"
 
-RPM_NAME = "ghc-auto-update-devel-0.1.6-6.6.aarch64.rpm"
-RPM_HASH = "21c6a69cfb2c3625990893eb0a303fc7fe89b7021a5ce71e4037e70e04f1c02f1d863d5b2b03ca604d9648a75a1db80d092595be878e7468cd1ae91f9b90f2af"
+RPM_NAME = "ghc-auto-update-devel-0.1.6-6.8.aarch64.rpm"
+RPM_HASH = "06bf5302115557dc319732ab6704eae6ddb4ed4e8328468198f7546b10b08efb9e60e7008f47142f7f3aeec1e69fde00becc0c9a8dbb1b077739449afa7badd6"
 
 RPROVIDES:${PN} += "ghc-auto-update-devel \
-ghc-devel-auto-update-0.1.6-CObek7rRQnGB5D6p02bNzQ"
+ghc-devel-auto-update-0.1.6-KWXusmyBOlPJNN5shLt5Bc"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-auto-update \
 ghc-compiler \
-ghc-devel-base-4.17.1.0"
+ghc-devel-base-4.17.2.0"
 
 inherit rpm

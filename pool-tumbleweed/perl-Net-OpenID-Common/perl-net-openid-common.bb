@@ -7,8 +7,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.20"
 
-RPM_NAME = "perl-Net-OpenID-Common-1.20-1.26.noarch.rpm"
-RPM_HASH = "4a7de4989bf6c67605deb7fac4fad715d9457dec87ed86cdc849daabb7dcadc322caf2a956a0c082f1ed8bd14046c590383c9c0c7a38aa64e41971ffa4439154"
+RPM_NAME = "perl-Net-OpenID-Common-1.20-1.27.noarch.rpm"
+RPM_HASH = "280f3ccf7651d0239e8e0a2536977527c085992d2c83d2df14d0441a056885c86c981d6b1ffd6df5491b3a838066f0913a0b0624a8b79ccd5d1cb1f978286fdb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--OpenID--Common \
@@ -25,7 +25,7 @@ perl-Net--OpenID--Yadis--Service \
 perl-Net-OpenID-Common \
 perl-OpenID--util"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Crypt--DH--GMP \
 perl-HTML--Parser \
 perl-HTTP--Headers--Util \

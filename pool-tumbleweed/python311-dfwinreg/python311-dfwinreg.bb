@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0~20211207"
 
-RPM_NAME = "python311-dfwinreg-0~20211207-3.7.noarch.rpm"
-RPM_HASH = "1c043865b0fb916edc9f794b995a3247d0d290ad92f829d2a30493114cd1dff1f45b201fcc3e4912eb03b8f0ab6ffef5c04d19cbd8c57e4ecdf132f639bd2f19"
+RPM_NAME = "python311-dfwinreg-0~20211207-4.1.noarch.rpm"
+RPM_HASH = "65660dc20d99f34f44c054c40747682e60142124aab861ca64bd1cc66cd68fb75cce8735d81c9cd8aeece023f51c2f97338e47a81b400e5a139fe8d731bac637"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dfwinreg \

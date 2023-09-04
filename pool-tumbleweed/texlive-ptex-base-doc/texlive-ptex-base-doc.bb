@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2023.209.svn64072"
 
-RPM_NAME = "texlive-ptex-base-doc-2023.209.svn64072-54.1.noarch.rpm"
-RPM_HASH = "3e6823cfe3e21c9cff1de7c568188a3e73a42c61f91a8169befb51c8289322b86de068805090172aa06844b61c77c312d13ef307eeb161e37c972799353d9133"
+RPM_NAME = "texlive-ptex-base-doc-2023.209.svn64072-54.2.noarch.rpm"
+RPM_HASH = "07078a9ed20a36c858ddc7f87b8eb6756c40134126c4ac094dee6be5a86718c366e73e63965baab3dd780e6ebb03c9bbb674923820e98a7cebc4cf5064e5a189"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ptex-base-doc"

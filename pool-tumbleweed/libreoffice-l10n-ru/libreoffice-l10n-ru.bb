@@ -2,10 +2,10 @@ SUMMARY = "Russian localization files for LibreOffice"
 DESCRIPTION = "Provides Russian translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-l10n-ru-7.5.4.2-1.5.noarch.rpm"
-RPM_HASH = "2c1af931fcd5b6a24ee68fefeb34d3f2659621338ed1e762a99d8e4358f47916066e5779108014641ca17addc4b9dbf665ab09b8493e00c7629e3e1e5671b064"
+RPM_NAME = "libreoffice-l10n-ru-7.6.0.3-1.1.noarch.rpm"
+RPM_HASH = "115df94680a2daa206d705408935e8f2fde18ffa90b30a4b538fe5f9425c2006144bc2bdfbf73479b200a74969e11921d40567fd5385e67f0e044190dce29c52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-ru \

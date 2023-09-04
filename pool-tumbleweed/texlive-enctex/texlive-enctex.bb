@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.svn34957"
 
-RPM_NAME = "texlive-enctex-2023.209.svn34957-54.1.noarch.rpm"
-RPM_HASH = "0e6ca6973ddc2e01b9e8b4cbed12078593cf9c79fd0722af1f4981f5460dad91bf605128deddfe1c6986525d35eb389bfbb2e20194bcf618c6ea5865888dfc8e"
+RPM_NAME = "texlive-enctex-2023.209.svn34957-54.2.noarch.rpm"
+RPM_HASH = "f3ab4ad785ca6436fe12b896d5cad542f2c8c75166bbecd14d5e0b5c3367f5f136a8908a5ab4a14c5242f0e604df092ede35a54dd9e41d48f090d6f7a13b93fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-1250-csf.tex \

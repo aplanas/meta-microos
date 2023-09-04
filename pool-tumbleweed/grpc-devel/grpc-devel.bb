@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains libraries and header files for developin
 applications that want to make use of the gRPC reference implementation."
 LICENSE = "Apache-2.0"
 
-PV = "1.56.2"
+PV = "1.57.0"
 
-RPM_NAME = "grpc-devel-1.56.2-1.1.aarch64.rpm"
-RPM_HASH = "2ba7a598a58791f346be5045b6d1cac0f37bfa9a4d0927215e0b4cf9c5576c349fbff21fb9dd259258f1b8550a4b720ed6883010200b6866a09788a76c0c5e8f"
+RPM_NAME = "grpc-devel-1.57.0-1.1.aarch64.rpm"
+RPM_HASH = "278fd7a856a00ddfbec8c2f4f5f4be02b5a6cee72bd24ff102f6ff4f2ceb5a4b346e599f25be02ab08033050db0ba326a290627784fce5aab91183df3c073c63"
 
 RPROVIDES:${PN} += "cmake-gRPC \
 grpc-devel \
@@ -22,14 +22,15 @@ libabsl-hash.so.2301.0.0 \
 libabsl-raw-hash-set.so.2301.0.0 \
 libc.so.6 \
 libgcc-s.so.1 \
-libgrpc++1-56 \
-libgrpc-plugin-support.so.1.56 \
-libgrpc1-56 \
-libgrpc33 \
+libgrpc++1-57 \
+libgrpc-plugin-support.so.1.57 \
+libgrpc1-57 \
+libgrpc34 \
 libprotobuf.so.23.4.0 \
 libprotoc.so.23.4.0 \
 libstdc++.so.6 \
-libupb33 \
+libupb34 \
+pkgconfig-absl-algorithm-container \
 pkgconfig-absl-any-invocable \
 pkgconfig-absl-base \
 pkgconfig-absl-bind-front \

@@ -4,10 +4,10 @@ Haskell Guidelines.  ghc needs to be installed in \
 order to make use of these macros."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.5.2"
+PV = "2.5.3"
 
-RPM_NAME = "ghc-rpm-macros-2.5.2-1.1.noarch.rpm"
-RPM_HASH = "a215fb13bb32942f6f8ab1a5ac1d828ed1d3feb4ec09341ac08777dcb273e059925346e8b5189982f6f06c8eb001d1c512edc0950a2d8eef2dd70ce0aac4d5b7"
+RPM_NAME = "ghc-rpm-macros-2.5.3-1.1.noarch.rpm"
+RPM_HASH = "0e444027e6498a20adda6ef2bf6d1d3454cf59d53071d73338c19e3a7f57dff3c3116f5f77a271579f52a5cf143be7f903e4b9477ab1bb489741308b71270186"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-rpm-macros \
@@ -35,6 +35,7 @@ rpm-macro-ghc-html-pkg-dir \
 rpm-macro-ghc-lib-build \
 rpm-macro-ghc-lib-build-without-haddock \
 rpm-macro-ghc-lib-install \
+rpm-macro-ghc-major-version \
 rpm-macro-ghc-merge-filelist \
 rpm-macro-ghc-pkg-recache \
 rpm-macro-ghc-pkgdocdir \

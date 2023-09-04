@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.6.2"
 
-RPM_NAME = "python310-stack-data-0.6.2-2.3.noarch.rpm"
-RPM_HASH = "7b398ef5d883f3627e8cb49b9ff8a75f30fd7751e827824599ba797b7a9e1ff66d9bc2702db691faa0ee9a6848a2e1f75105bed464606dc8b7630a75461ca00b"
+RPM_NAME = "python310-stack-data-0.6.2-4.1.noarch.rpm"
+RPM_HASH = "78bec9df782ab40d489e7a807024224858e602f6f1c4f52231f897bb02dbac1c0c57828b421b599a4c6404b02d7ff8c8f188c9cfbe80e687140ac2339d69892f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-stack-data \

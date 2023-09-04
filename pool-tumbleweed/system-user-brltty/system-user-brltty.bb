@@ -2,10 +2,10 @@ SUMMARY = "System user and group named brltty"
 DESCRIPTION = "System user for the Braille display driver for Linux/Unix"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "6.5"
+PV = "6.6"
 
-RPM_NAME = "system-user-brltty-6.5-3.1.noarch.rpm"
-RPM_HASH = "94e6c675f838c3b8b34ffdb3805a9f5f1a3a3d647db0e52468e30f22a00e53de890419ba71e6be36b12a17a87da5df6bbed9dfb669141541b5a944f9a33b7d39"
+RPM_NAME = "system-user-brltty-6.6-1.1.noarch.rpm"
+RPM_HASH = "58f9ab0a2163bb7f3841be3d70c5bb2e18b5a22417ece27698898e5c918628bcf3cba3e8024e9e2d380db3a3f3a05d9b3b000df8678a4351dc4fa981e6e11771"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-brlapi \

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.13.0"
 
-RPM_NAME = "ghc-base-compat-doc-0.13.0-1.3.noarch.rpm"
-RPM_HASH = "bdefe799d23f965453fd0c8c86c509689c88d7f631c9d91923242e457d8590e4da2b94e55f8971576e4f72b97aa55d1075728c096c75e6e1718a9c1375a503d0"
+RPM_NAME = "ghc-base-compat-doc-0.13.0-1.5.noarch.rpm"
+RPM_HASH = "a1e7210ef386049a1c4e698663f2e5ff26c270bffc01906edf19d7a508a61d75c59b44712a593da25bb4a44047b7a1ddf5da161ef43c15a75130a5e0a4b5e03d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-base-compat-doc"

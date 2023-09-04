@@ -4,10 +4,10 @@ serializers and deserializers, eliminating majority of remaining data binding \
 overhead."
 LICENSE = "Apache-2.0"
 
-PV = "2.13.3"
+PV = "2.15.2"
 
-RPM_NAME = "jackson-module-afterburner-2.13.3-1.8.noarch.rpm"
-RPM_HASH = "207d2004b6a547fff8e1dddfe04e72dc5f3f6a5547abc33afb41a4c606125fa7c21cbc1d173d773cbfb09a3720a75e34188331ff1ea175fbd012a7a510ecf67d"
+RPM_NAME = "jackson-module-afterburner-2.15.2-1.1.noarch.rpm"
+RPM_HASH = "acc9d11c883b582ba0a35f5b8d789ccce3dff08c1992ee2095a7f3adecd78b8d76c0ad2d65c31e13d32e077af81f8673cb3ff7b0e6210ea1be779e8cde453f93"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-module-afterburner \

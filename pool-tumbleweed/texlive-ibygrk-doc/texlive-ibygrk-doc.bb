@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ibygrk"
 DESCRIPTION = "This package includes the documentation for texlive-ibygrk"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.208.4.5svn15878"
+PV = "2023.209.4.5svn15878"
 
-RPM_NAME = "texlive-ibygrk-doc-2023.208.4.5svn15878-53.1.noarch.rpm"
-RPM_HASH = "34c373d0658b3c101a1c328a416b1d42b46d9c48a895eeaa4f2eb91f6ee148ea868ac401467312222a9eea455b3e39e823392fdce9efa404977299fc79184313"
+RPM_NAME = "texlive-ibygrk-doc-2023.209.4.5svn15878-54.1.noarch.rpm"
+RPM_HASH = "fade3aa6542d59a901952f4155d8acca6aa2d3640cff4d59f00701721f4bff1b346008ad07f1c4ec37bfbcdac140de705f9453742513f702cab6880f8a968506"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ibygrk-doc"

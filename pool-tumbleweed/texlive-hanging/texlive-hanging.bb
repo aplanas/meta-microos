@@ -11,8 +11,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.2bsvn15878"
 
-RPM_NAME = "texlive-hanging-2023.209.1.2bsvn15878-54.1.noarch.rpm"
-RPM_HASH = "d3bb1ec52fe008720560e1a08508e625f9b9ea952cc67603505577f1a984dc43e6e11e3da359f715a75449111e4e803e24f358d5bc2b4ab0b43ddc421c6b180c"
+RPM_NAME = "texlive-hanging-2023.209.1.2bsvn15878-54.2.noarch.rpm"
+RPM_HASH = "fea65816eb129c6f6c2b554dcda99f5c9a26fd28ca1407e4a5f7a9859c2e6c9d14cee95958d0f3153cdf0d418a457a55dfd6caeaa293b38963492f37fd57807f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hanging.sty \

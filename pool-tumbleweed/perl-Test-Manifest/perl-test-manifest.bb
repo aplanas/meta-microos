@@ -25,13 +25,13 @@ LICENSE = "Artistic-2.0"
 
 PV = "2.023"
 
-RPM_NAME = "perl-Test-Manifest-2.023-1.8.noarch.rpm"
-RPM_HASH = "704bd7995f916b0fd75cee357c543b071eae2b01af8eb2976189101b90cda1e0b5219030b8e98b86b8bf13dce6cd6e3163430b70789e18b7793a70958b9d9629"
+RPM_NAME = "perl-Test-Manifest-2.023-1.9.noarch.rpm"
+RPM_HASH = "d39cd761f7e781e36c20e1b693e072f60354a4a9503a9511e8bd0c292efef6611567b4611cbee518409068d9313506ed9dc42410875dc600b7e2c0263fec3a5f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Manifest \
 perl-Test-Manifest"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

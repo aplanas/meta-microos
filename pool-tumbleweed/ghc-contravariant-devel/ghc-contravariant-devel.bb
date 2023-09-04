@@ -4,17 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5.5"
 
-RPM_NAME = "ghc-contravariant-devel-1.5.5-2.6.aarch64.rpm"
-RPM_HASH = "14e8508a145df241b673d3f6c28fe8e7e1408c1813e8480285977b14c4f0afdf9716e189efbc2d0bc048e94e85a6ac8b42e90f13122e376b5f04eed9fd9efb8e"
+RPM_NAME = "ghc-contravariant-devel-1.5.5-2.8.aarch64.rpm"
+RPM_HASH = "df3fb1d68fd66836441804d6e7f15901b3f030610f6c4f006ff7d562735cc837f49c3a72a21dfbafac2fbde63aea92803778f9fca0d27c277a092055b8265739"
 
 RPROVIDES:${PN} += "ghc-contravariant-devel \
-ghc-devel-contravariant-1.5.5-K71YSUvfKnA5wfNaE05Lao"
+ghc-devel-contravariant-1.5.5-35YFLB0uIuz5cknUjKLNnT"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-contravariant \
-ghc-devel-StateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-StateVar-1.2.2-8Hv9klK7mv0HId52XsoM7J \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-transformers-0.5.6.2"
 
 inherit rpm

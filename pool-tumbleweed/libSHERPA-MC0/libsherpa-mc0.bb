@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "2.2.12"
 
-RPM_NAME = "libSHERPA-MC0-2.2.12-3.3.aarch64.rpm"
-RPM_HASH = "aa525970f446e3b6b2d3aa32b8d612a3bd09f99c376e1ce4a224da93ec5392a1a79bf01c1f4ee7a92fd2dd9107046662b40b85eefbc8725c0576de07a46f96c9"
+RPM_NAME = "libSHERPA-MC0-2.2.12-3.4.aarch64.rpm"
+RPM_HASH = "18631a0ab6445ca578c52be6d30ae7c01ff47797b5c988850688c1d2d27f8c628d86dcb5fc99f3db58078f125df584e4d58d99ca23817e7f340e9ebbb4d2c2c1"
 
 RPROVIDES:${PN} += "libAhadicDecays.so.0 \
 libAhadicFormation.so.0 \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.4.18"
 
-RPM_NAME = "libproxy1-networkmanager-0.4.18-2.3.aarch64.rpm"
-RPM_HASH = "d48ded9cf95f06fc4e22cb6d9db2b06def4a52057fc38882c6c2f37cb2c5126d8c87ad7e4994861841635f4b47650f40f289d7b9197b4e226502c0813053fecb"
+RPM_NAME = "libproxy1-networkmanager-0.4.18-2.4.aarch64.rpm"
+RPM_HASH = "663ea3e77a27536da5b1661196af14fd3caec8c320f83610f7e16ba349f09447fb07be5fa17b51d74384c8e0bf513c3880b783432eb2d2cccf949265438d3c23"
 
 RPROVIDES:${PN} += "libproxy1-networkmanager"
 

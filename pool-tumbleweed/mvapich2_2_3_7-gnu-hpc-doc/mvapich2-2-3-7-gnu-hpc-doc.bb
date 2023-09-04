@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.7"
 
-RPM_NAME = "mvapich2_2_3_7-gnu-hpc-doc-2.3.7-4.4.aarch64.rpm"
-RPM_HASH = "0665a61dbdf6d3b28f8a92196b324c5ca6292c995c8f4a512a33435affb9fe44cd458c432fe0d56bd5fb170cac85524e8fb8a928508561175a7b81d3ac8b3983"
+RPM_NAME = "mvapich2_2_3_7-gnu-hpc-doc-2.3.7-5.1.aarch64.rpm"
+RPM_HASH = "b29678bfcd2ec142798ac333c7117f224d116a8a20927734b53595a3693e5d60bf7e3fd37ab53dc2b29f20775f857abe1e91fc9defb4642d4c344bb20a469aa9"
 
 RPROVIDES:${PN} += "mvapich2-2-3-7-gnu-hpc-doc"
 

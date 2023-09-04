@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.6"
 
-RPM_NAME = "ghc-network-byte-order-prof-0.1.6-4.2.aarch64.rpm"
-RPM_HASH = "6e12cbc53307ff0bfad80aedfe71af27abdbd02103a221f726701c322adcd12b8995debb5de9b5da2cffd2f282f525c078fe26bc66508fefba9b929773bdd734"
+RPM_NAME = "ghc-network-byte-order-prof-0.1.6-4.3.aarch64.rpm"
+RPM_HASH = "0b6596dd0a5f12aa576922a461c87cb65c57f18f9c9f03009f89f055010ff311e507ee99dde6356f67f010f1f693ea29b5e5fe850af220686b7ba7b2b755b92a"
 
 RPROVIDES:${PN} += "ghc-network-byte-order-prof \
-ghc-prof-network-byte-order-0.1.6-9jNlcwvZjC3K8A2S0a4vrO"
+ghc-prof-network-byte-order-0.1.6-vRMRsceTnFFPQXnTdvJFs"
 
 RDEPENDS:${PN} += "ghc-network-byte-order-devel \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-bytestring-0.11.4.0"
+ghc-prof-base-4.17.2.0 \
+ghc-prof-bytestring-0.11.5.1"
 
 inherit rpm

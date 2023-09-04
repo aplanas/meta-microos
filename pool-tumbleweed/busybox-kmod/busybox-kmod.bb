@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.36.1"
 
-RPM_NAME = "busybox-kmod-1.36.1-27.1.noarch.rpm"
-RPM_HASH = "d949341d7bff8cdeec357233da4616f1e70e501c9d7c5c793f2e89cbb5aba3ee847ea412dd7c2e290a6554f9270c8a478d174286beb07aeeb76b4e3ee9ce8c5e"
+RPM_NAME = "busybox-kmod-1.36.1-28.1.noarch.rpm"
+RPM_HASH = "9d85f67327d9f69014980e15969588c60e0e591d2c9099c23904e5d6bfee296d1d744ace64064f1c7d6bf6a6cb9c401af9a9ec790a589c1bedfe2ba8fe9865a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/sbin/modprobe \

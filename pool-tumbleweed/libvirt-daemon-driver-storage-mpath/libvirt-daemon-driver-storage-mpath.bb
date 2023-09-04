@@ -3,10 +3,10 @@ DESCRIPTION = "The storage driver backend adding implementation of the storage A
 multipath storage using device mapper."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.5.0"
+PV = "9.6.0"
 
-RPM_NAME = "libvirt-daemon-driver-storage-mpath-9.5.0-2.1.aarch64.rpm"
-RPM_HASH = "969e2e72add6a6fff5582b598bacd27beb477b0d4ae14f078ed86ec805dca579d925619d50e6fd4ad1a0206f1ea24c5c631f4179d35eccb3b70c47a86facbb95"
+RPM_NAME = "libvirt-daemon-driver-storage-mpath-9.6.0-2.1.aarch64.rpm"
+RPM_HASH = "6637584197e8e670ea16e777ba6e1a25f5f86c54f4c0235641777dbf50162b37c466cfb09d8ce385a94e5e102ce133f9831783f1e5a0b37a21c322910a4a8a8d"
 
 RPROVIDES:${PN} += "libvirt-daemon-driver-storage-mpath \
 libvirt-storage-backend-mpath.so"

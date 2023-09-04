@@ -6,10 +6,10 @@ This package contains the plugin that allows Spyder to read and write \
 HDF5 files."
 LICENSE = "MIT"
 
-PV = "5.4.3"
+PV = "5.4.4"
 
-RPM_NAME = "spyder-hdf5-5.4.3-1.2.noarch.rpm"
-RPM_HASH = "a7cb783a96a5c5654a50c3b5eff1546bf62d7f832bb93123a049973669418c6c90fad827216593740923c757bedac3cc601151141ea0a6ea8d6b353c8773eeeb"
+RPM_NAME = "spyder-hdf5-5.4.4-1.1.noarch.rpm"
+RPM_HASH = "8cdb5279628b6e2b2e843678c0feafa29403304931242be37e51ba6a6c3b184d55a667f340a5cd65d4d90ce4ed1846c21ae8de6ded5a83491bd0ed67a5578497"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "spyder-hdf5 \

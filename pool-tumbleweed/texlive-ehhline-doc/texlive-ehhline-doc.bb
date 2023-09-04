@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.1svn54676"
 
-RPM_NAME = "texlive-ehhline-doc-2023.209.1.1svn54676-54.1.noarch.rpm"
-RPM_HASH = "120d35f05d79fbae1168d77badb3d432a3e23ba1328f43dd46db9e054cd5eb4cdbfe2b4ded64e08e8355cd5822941db503de9722be12831774ffe343731f6953"
+RPM_NAME = "texlive-ehhline-doc-2023.209.1.1svn54676-54.2.noarch.rpm"
+RPM_HASH = "ef048ead45fe93823e3f0c41e5cffd1221dc32461d1676898c78320dfa25c40dbd0d163a091d8f122a10206db2df4818a952d24be3429a0f506d4f07c6dcdc3f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ehhline-doc"

@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230711"
 
-RPM_NAME = "libfwps-devel-20230711-1.1.aarch64.rpm"
-RPM_HASH = "a023ddc183f89a6bb764742a67b2f16027c908430876607d71ea39d286048e26cbf0286f43cc6ae7fc044ac5b91e38c4aa055c15fc4ac1a534d12439e1a41971"
+RPM_NAME = "libfwps-devel-20230711-2.1.aarch64.rpm"
+RPM_HASH = "88410aad36b862b2c7b363bbed340c13fa158b9f674e210a7bc7cc5bf49be9da9da170548dc688796693468064de3575c91adb38aa748c46ae07e96f5d039250"
 
 RPROVIDES:${PN} += "libfwps-devel \
 pkgconfig-libfwps"

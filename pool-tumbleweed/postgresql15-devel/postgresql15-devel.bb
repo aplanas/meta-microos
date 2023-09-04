@@ -14,10 +14,10 @@ For building PostgreSQL server extensions, see the \
 postgresql15-server-devel package."
 LICENSE = "PostgreSQL"
 
-PV = "15.3"
+PV = "15.4"
 
-RPM_NAME = "postgresql15-devel-15.3-1.5.aarch64.rpm"
-RPM_HASH = "8a5e42a5a6d4dcb19ed132c38247d92c4fcb3237ffb105deed585df04d0a3401d5381fe5cabb97404a2ead7d6572af36e100e2a03654c02d656a0f528010a95b"
+RPM_NAME = "postgresql15-devel-15.4-1.1.aarch64.rpm"
+RPM_HASH = "4d3b5b63b21f37618abb227d571c82fbc0fa720ea7d87095aecb036464dd3cf29538d7be8fffa5325bb06811da6306004836a68c1ebbce342944d90f83e9fead"
 
 RPROVIDES:${PN} += "pkgconfig-libecpg \
 pkgconfig-libecpg-compat \

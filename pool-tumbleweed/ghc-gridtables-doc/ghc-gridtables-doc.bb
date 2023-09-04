@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.1.0.0"
 
-RPM_NAME = "ghc-gridtables-doc-0.1.0.0-1.2.noarch.rpm"
-RPM_HASH = "d276fce9965462d265f205c5b0284ce547cd6c3197bc9ab8e0ae5ccbcea69164b05f305ea499889cf4880f81bc97345b1f5826109e9c6fad16428e303a7452b4"
+RPM_NAME = "ghc-gridtables-doc-0.1.0.0-1.4.noarch.rpm"
+RPM_HASH = "a3359bbe0ec53e85a67bf18236162ae8b87f4b815ead509e47a48e02b8e0c23048846342d3c1fbaeebfce6fe679aa14513248f9e2eea872f919cf78f901323b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-gridtables-doc"

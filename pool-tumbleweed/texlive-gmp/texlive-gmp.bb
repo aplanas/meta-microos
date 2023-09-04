@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn21691"
 
-RPM_NAME = "texlive-gmp-2023.209.1.0svn21691-54.1.noarch.rpm"
-RPM_HASH = "81263027149bae2fc7dd228ef91337baaaf29ee6d9febff46117fe10919c462ebedca3318896017dde467d329ad8af11ddea3ec1721066c9caca4df1445f02f1"
+RPM_NAME = "texlive-gmp-2023.209.1.0svn21691-54.2.noarch.rpm"
+RPM_HASH = "8e8944cedf56dd8f02d959b769b49ecd3fde5a700ff03e86c9e1e877b9cc426ddfcbe2fb019af3611b5f06a31eb9b0418529d03174da0afd6b48ef44cba2ed6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gmp.sty \

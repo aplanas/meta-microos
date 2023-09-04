@@ -5,12 +5,12 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.61"
 
-RPM_NAME = "perl-HTML-Encoding-0.61-8.30.aarch64.rpm"
-RPM_HASH = "2f0b9538b06462a9daa859b6f5fbe05897482efd7fead2bae1e4d2c436f2b0bc337d10fdabb2e545e9a00ee064bcd390cfaeff47b35da0bd4672de4a02ba2872"
+RPM_NAME = "perl-HTML-Encoding-0.61-8.31.aarch64.rpm"
+RPM_HASH = "875d4e62fa408bfdc86a96aa38a064282d19c2b87c40cf192947096188a07fa45d1fbfca9b395355d42d99d8450037427f1556cfc035f2b8441729be115eab26"
 
 RPROVIDES:${PN} += "perl-HTML--Encoding \
 perl-HTML-Encoding"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

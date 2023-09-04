@@ -7,10 +7,10 @@ stored output cells – will be automatically executed during the Sphinx \
 build process."
 LICENSE = "MIT"
 
-PV = "0.9.2"
+PV = "0.9.3"
 
-RPM_NAME = "python310-nbsphinx-0.9.2-1.2.noarch.rpm"
-RPM_HASH = "ce8ac142692438c2330dc88f6afff50b8b37d8568b31b1ade9790337cc9b4ab38b835a9fafa363a56da4f228dc74a605ad5e63a7019944d502ef7920c183287e"
+RPM_NAME = "python310-nbsphinx-0.9.3-1.1.noarch.rpm"
+RPM_HASH = "697be6eb4d4064c56115a072820c2cac1bbbd7b0ad96b72655c641c0f366f69ed1f515fc9b506264b4b099fb7939eaef186c7cc4e0ba75455229d897cfbcdd59"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-nbsphinx \

@@ -6,10 +6,10 @@ footprint, fast start-up, and high throughput. \
 Supported architectures are ppc64le, s390x and x86_64"
 LICENSE = "Apache-1.1 & Apache-2.0 & EPL-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
 
-PV = "1.8.0.362"
+PV = "1.8.0.382"
 
-RPM_NAME = "java-1_8_0-openj9-1.8.0.362-2.3.aarch64.rpm"
-RPM_HASH = "a7c4cb39aa6848533e638a61c0a47cac94bc4492eaaac48f08737681edf79390435e687b5e91ca2784bb0ac4f6b66cf9023954b327df53ba2a0548f99c350ca8"
+RPM_NAME = "java-1_8_0-openj9-1.8.0.382-1.1.aarch64.rpm"
+RPM_HASH = "e7615546c2bf547f335de8d4a46339c47549db8dd7caa96d4e8ba1ec8e259be52e4e48c05a5c6072700e93041f57d5106809149d1537d30ed8119d94a7ccf1da"
 
 RPROVIDES:${PN} += "java \
 java-1-8-0-openj9 \

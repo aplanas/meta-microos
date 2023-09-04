@@ -14,8 +14,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.0.0rc+g1"
 
-RPM_NAME = "nginx-module-brotli-1.0.0rc+g1-1.8.aarch64.rpm"
-RPM_HASH = "dcec38d4bcb0a7338296a8a4ed832019c1c19d343ae3fe16f9a8caba0c3b6da14f40af76d59d607aeb117259bca64a75bc7fa3264efea9f635b90a0e2c4be3bd"
+RPM_NAME = "nginx-module-brotli-1.0.0rc+g1-1.9.aarch64.rpm"
+RPM_HASH = "29ed5f0988b06b37d53d07db6d5a07ac3be7ca5d295b2ae3093830031c1467baa10c829cb2075f152d29f6b17a30a3c3cee6d7f683d8e722eb60459bf90351d4"
 
 RPROVIDES:${PN} += "nginx-module-brotli"
 

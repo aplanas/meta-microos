@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn66511"
 
-RPM_NAME = "texlive-upmendex-bin-2023.20230311.svn66511-93.1.aarch64.rpm"
-RPM_HASH = "ebae5a7d06640e39c69988ca6797fa070f7f3853619e2bc17fcccf7ef6eb3cc4c828258f3e3844db896893da9ed46dc14478e88b6d612c7d9b2fe4113a60b779"
+RPM_NAME = "texlive-upmendex-bin-2023.20230311.svn66511-93.2.aarch64.rpm"
+RPM_HASH = "4f3bf355cffcc09503f5255084c9e0a743ba962cbd6f4b05b5b2b5006e12ac5f31ab56fdd6d57f583df27b3464a2ce80c76822a682da9499db6b105ddea36b37"
 
 RPROVIDES:${PN} += "texlive-upmendex-bin"
 

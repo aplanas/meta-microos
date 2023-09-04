@@ -12,8 +12,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.10"
 
-RPM_NAME = "perl-IO-Pager-2.10-1.12.noarch.rpm"
-RPM_HASH = "3c123ec7236f78064f1957beb6eb361bb7405e67e0092fa99226e0f2d51e8f18506fa032bbedf2bd9646e0ab28a5b60a2ef88b4ba88764a5ecdbdd995ba06d21"
+RPM_NAME = "perl-IO-Pager-2.10-1.13.noarch.rpm"
+RPM_HASH = "9b783a896794aebb349959b44d50bcab958aae6c161a3c95b9bf64c6a3cd2a4e786e65ade9b4732af5ad2061cf6a73ef978549f44db964e6584d08afd026c4c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--Pager \
@@ -25,7 +25,7 @@ perl-IO--Pager--less \
 perl-IO-Pager"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-File--Which \
 perl-Term--ReadKey"
 

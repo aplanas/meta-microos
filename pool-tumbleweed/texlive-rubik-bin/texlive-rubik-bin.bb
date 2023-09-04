@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn32919"
 
-RPM_NAME = "texlive-rubik-bin-2023.20230311.svn32919-93.1.aarch64.rpm"
-RPM_HASH = "bcff95afae0df2263f95353d0ece805d88baa5276f4750eb059e30dd9fcabf93af5f18a6020bd0e9c7d366cd2c5183c9fcfecaeee2c9a6f411aa2889c0d70e67"
+RPM_NAME = "texlive-rubik-bin-2023.20230311.svn32919-93.2.aarch64.rpm"
+RPM_HASH = "8e92c95a545aee31e16d4fdd85b4fe483a8dee7117aef1779895b4e960e2daaac4c6ab4326c2ceafc8f63fab19170d92d42adf8feab8bdf8a7b16b925c2fe5f1"
 
 RPROVIDES:${PN} += "texlive-rubik-bin"
 

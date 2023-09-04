@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.1.1.1"
 
-RPM_NAME = "pandoc-cli-0.1.1.1-1.1.aarch64.rpm"
-RPM_HASH = "c4f97493492290187866878c7d8ca03410bb4e3b895fd00e7bef398fcabc075700bc2c688d8da521252975403f95f2821bd34cf9f220680a41b12c49171bf8e4"
+RPM_NAME = "pandoc-cli-0.1.1.1-1.3.aarch64.rpm"
+RPM_HASH = "533f9e6bb7276cf396b56395e6f97fc4856f47bf13ac43cd902f30a243ae99f29baf91f48cd11e942f2ec2c91d0dca9ce7669a434b5196cae26017510a2113cc"
 
 RPROVIDES:${PN} += "pandoc \
 pandoc-cli"

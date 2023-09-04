@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.9.0"
 
-RPM_NAME = "perl-Mail-SPF-2.9.0-2.16.noarch.rpm"
-RPM_HASH = "35c20ca4b3547ec0d2d846540282e841910bf37943100d1d3595e590234ffa673f4620ba8f4f84454e4a5e36718baa402fafeb5e725af46ed0f1989045047fad"
+RPM_NAME = "perl-Mail-SPF-2.9.0-2.17.noarch.rpm"
+RPM_HASH = "e794f3386fc6f36d4c2c982579a959e29eff13d4ca1f93ecc89d22fd9edfb3ff1b9bca95ed2da3c5169260e3ee923a6ed808fda81060c3775aec85f94f7805ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mail--SPF \
@@ -87,7 +87,7 @@ perl-Mail--SPF--v2--Record \
 perl-Mail-SPF"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Error \
 perl-Net--DNS \
 perl-NetAddr--IP \

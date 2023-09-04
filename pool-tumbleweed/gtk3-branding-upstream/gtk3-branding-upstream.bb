@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.24.38"
 
-RPM_NAME = "gtk3-branding-upstream-3.24.38-1.1.noarch.rpm"
-RPM_HASH = "b95b2696c5872fab6b0c50bbfa531162fde34156df4d2a419af1e3324493c48ed3b91e4fc79776c04bdf6707e99a0b29465a5db0415d9f2adb7bbf823974dba4"
+RPM_NAME = "gtk3-branding-upstream-3.24.38-2.1.noarch.rpm"
+RPM_HASH = "5ae70c187f3db0a65b9a86dad647997ca70f4ccaf483cb4791dd96299c25efee1af0814222c30e229728dfb5888870605e6c8ee100e2f541f20a2095562d746f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-gtk3-branding-upstream \

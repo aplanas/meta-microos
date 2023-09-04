@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.4.2svn30002"
 
-RPM_NAME = "texlive-hletter-doc-2023.209.4.2svn30002-54.1.noarch.rpm"
-RPM_HASH = "d8f2ac8aec46b84b63e0763f81d2da5856778c9d515728e55bed81ed1f977c881f288e867ef5d9d604e7a4aac1cb2df7bab1f27283c91bae5c8c1ca029b5dbc5"
+RPM_NAME = "texlive-hletter-doc-2023.209.4.2svn30002-54.2.noarch.rpm"
+RPM_HASH = "59dfe1ce3a50ad89ed5060e65600d9bbfc20c8cf58f622ef1f65f60816eba709ef2a6cf5f45ae307b65fc3312a5b6fadc91a71224152a04762e1ecb9625a6968"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hletter-doc"

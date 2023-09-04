@@ -6,10 +6,10 @@ has dtype and shape attributes. HDF5 groups are presented using a dictionary \
 metaphor, indexed by name."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.8.0"
+PV = "3.9.0"
 
-RPM_NAME = "python310-h5py-openmpi4-3.8.0-2.7.aarch64.rpm"
-RPM_HASH = "85ea852a6456d03d98491404ad48b60b0aa1527e4dea2391d36e2096e97126858dc64cc467c420070475607545ab0520740560346c630a2806d8ae38992c3057"
+RPM_NAME = "python310-h5py-openmpi4-3.9.0-1.1.aarch64.rpm"
+RPM_HASH = "91cb5492539189f002e18af656e7426b1c0b7ee7e8549605453bf7b9fc37ed860ee394ef58058a1e7a793a4a987435a39da12a5e53d3a499b95310155452941a"
 
 RPROVIDES:${PN} += "python3.10dist-h5py \
 python310-h5py-openmpi4 \

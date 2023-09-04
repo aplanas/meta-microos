@@ -10,8 +10,8 @@ LICENSE = "(Artistic-1.0 | GPL-1.0-or-later) & Zlib"
 
 PV = "804.036"
 
-RPM_NAME = "perl-Tk-804.036-2.2.aarch64.rpm"
-RPM_HASH = "23d43ee8ba4f63dce9a2523757ac8a8e789b696e9c5bd3f57e65397e8b42d4a9dcb57b18ccc7b1af5458df0828022e25240b6be8f0d9b3bebacfb0e44a5dc0f4"
+RPM_NAME = "perl-Tk-804.036-2.3.aarch64.rpm"
+RPM_HASH = "ed1e3dc001782bce34a9c1bbc7f54836dc047e99dee04688afc9d2c51766ea41660eafbeada9f82e17f8d1ec62bdbb382deb74c5cdf686e9f6975a60575d136e"
 
 RPROVIDES:${PN} += "perl-Tie--Watch \
 perl-Tk \
@@ -144,6 +144,6 @@ libfontconfig.so.1 \
 libjpeg.so.8 \
 libm.so.6 \
 libpng16.so.16 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

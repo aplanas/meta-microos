@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.svn57972"
 
-RPM_NAME = "texlive-xml2pmx-2023.209.svn57972-53.1.noarch.rpm"
-RPM_HASH = "deb214f74a6adbe17a4bed004a7ca6831f95066ea74135a27a3671317beaa0bde431ee39f83edee6364b20952ebe651e2e46d27f2c24a10c6b15685ee2960129"
+RPM_NAME = "texlive-xml2pmx-2023.209.svn57972-53.2.noarch.rpm"
+RPM_HASH = "d994fbc8b8f43b201c9bc77fab89092dd5ff2f646f1631c1b566ccfacaf51c3af01b4274b95e21449adc5a5ebf52c5797054c9c380a2e610a3cb5b0a5c97b438"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-xml2pmx.1 \

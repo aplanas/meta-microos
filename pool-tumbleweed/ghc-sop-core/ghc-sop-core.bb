@@ -17,17 +17,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.0.2"
 
-RPM_NAME = "ghc-sop-core-0.5.0.2-4.6.aarch64.rpm"
-RPM_HASH = "6222b3d109d211877d72c022e72fff1eb71906ec1ca3cc4eb04af7d72dcc0d3da1706c6961c6f8be008760c9c3faccc7982b09d5fcac2ea84eb51d1b71d4e2c6"
+RPM_NAME = "ghc-sop-core-0.5.0.2-4.8.aarch64.rpm"
+RPM_HASH = "b67aed557383394e415e103bcb0d695f998f3464190b250d7fb755794c3a898a5447a31985de288a7f44a0c1b97793a9cf80bbb415fa2a987189d073dc8e8f9e"
 
 RPROVIDES:${PN} += "ghc-sop-core \
-libHSsop-core-0.5.0.2-C2iIEVjE1N8Lg8Q4QDHkLe-ghc9.4.5.so"
+libHSsop-core-0.5.0.2-4Gqw6OnhbZAJM3BBTi5hGD-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
-libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSdeepseq-1.4.8.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
+libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSdeepseq-1.4.8.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20221024"
 
-RPM_NAME = "python311-libmsiecf-20221024-3.7.aarch64.rpm"
-RPM_HASH = "b0db0f82c4af86319ddd2cc67b1645c2b2b40c34205f0cf24a3ff32612daf7520e698591c84b45208335366214e0fe5e65657fd644923c705356a375fd3ff297"
+RPM_NAME = "python311-libmsiecf-20221024-4.1.aarch64.rpm"
+RPM_HASH = "d3539326f1a5209eff31d78ad4c26d43fa5d1e165836b608018369ef9cc176a2b75a5f47814c04a7351a18e803f14d3a3801f46d6f8d0e123634ed95facd5dcb"
 
 RPROVIDES:${PN} += "python3-libmsiecf \
 python311-libmsiecf"

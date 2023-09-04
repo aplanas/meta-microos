@@ -14,8 +14,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.74.3"
 
-RPM_NAME = "libsoup2-devel-2.74.3-1.4.aarch64.rpm"
-RPM_HASH = "16121ed366e1a5f6d68977061a766303e76928bae004873eb2d8024ebe0ec46edb30984c142e1ee98a99044330bfc8c369a0c5b0162b8696413a2bfb210cd8ad"
+RPM_NAME = "libsoup2-devel-2.74.3-2.1.aarch64.rpm"
+RPM_HASH = "48e515575550ec4894303f37a43a113b683e9cf21b6118b212705d0bbe74ffc71fac94c59a577ee5fcc74211f3dc787e61aedd8581c6644a04b95334b49c442d"
 
 RPROVIDES:${PN} += "libsoup-doc \
 libsoup2-devel \

@@ -16,8 +16,8 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "5.9.3"
 
-RPM_NAME = "net-snmp-devel-5.9.3-4.10.aarch64.rpm"
-RPM_HASH = "3bbb66e21838d1e3ceadbf600f94089e9b9101c88d37f689ebbea7c2191db07f4be86e1ea316364e0e8acdb2414c80416f3925c7af1b403f202d6d7d7cbf5360"
+RPM_NAME = "net-snmp-devel-5.9.3-4.11.aarch64.rpm"
+RPM_HASH = "b12524eeedb390bf63a9499197051448dd2299dbf3c951dd6936dd3dc24a18f9624127c31640f6dac4cb54be94eedc78ac18d0a563fb41b9a508eb8ec48515d4"
 
 RPROVIDES:${PN} += "net-snmp-devel \
 pkgconfig-netsnmp \

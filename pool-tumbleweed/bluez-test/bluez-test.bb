@@ -3,10 +3,10 @@ DESCRIPTION = "Contains a few tools for testing various bluetooth functions. The
 BLUETOOTH trademarks are owned by Bluetooth SIG, Inc., U.S.A."
 LICENSE = "GPL-2.0-or-later & MIT"
 
-PV = "5.66"
+PV = "5.68"
 
-RPM_NAME = "bluez-test-5.66-1.8.aarch64.rpm"
-RPM_HASH = "dd4c514822ae1b41b75922f6ceebeaf16bd09f49cf2d44371578cf441cbd80062e1d382732ed8b503a425b7857e0524f29ef7febcfb144964373bff279836c3f"
+RPM_NAME = "bluez-test-5.68-4.1.aarch64.rpm"
+RPM_HASH = "cb4dbcbbbccb05820e467a004a90e114bbdbff95c747584684f4dd215de5394fa014202ed89dc21ffaba84b89edd33197053c32193bfa6eaa207431e483dbbd0"
 
 RPROVIDES:${PN} += "bluez-test"
 

@@ -6,10 +6,10 @@ in to have fewer dependencies. It is thus well suited for headless \
 servers."
 LICENSE = "SUSE-GPL-3.0+-with-openssl-exception"
 
-PV = "0.13.1"
+PV = "0.14.0"
 
-RPM_NAME = "profanity-mini-0.13.1-1.6.aarch64.rpm"
-RPM_HASH = "a81c3bbe52cb8afd9f5eab3bc166c5f9ead14c8ae8b18f4779d2ea81a053dae8f6f6152644ead893bb9ed7634310cbb760a35ba0005c18e7224c75975d43e1ea"
+RPM_NAME = "profanity-mini-0.14.0-2.1.aarch64.rpm"
+RPM_HASH = "03588770631c917110aea9f3049c873daaf4c2399c14924712d44da9a97e4da3e0a54a7c8ef2e74ce9b8be083f35887342eb911251eb691f5d900c39f33671e3"
 
 RPROVIDES:${PN} += "profanity-binary \
 profanity-mini"

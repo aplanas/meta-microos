@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.4.2svn64894"
 
-RPM_NAME = "texlive-xetexko-2023.209.4.2svn64894-53.1.noarch.rpm"
-RPM_HASH = "4c9757daaf76738936cc4c3ed434e77bb38ab9cd79c6bbe3f7c021c3578b624b882a1a51fe3d7edbdfe09ebd7c6822c84e1f8a2157773c6bfdad2427ddb6e1d0"
+RPM_NAME = "texlive-xetexko-2023.209.4.2svn64894-53.2.noarch.rpm"
+RPM_HASH = "b7d7d751963c77efbdc6f0f93104ff548aea9895a8892ba86d4b02f800ca4bbe083fa07083836da7a6691f04c6520faffb5914d37adf715d259d01e35a8234d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xetexko-font.sty \

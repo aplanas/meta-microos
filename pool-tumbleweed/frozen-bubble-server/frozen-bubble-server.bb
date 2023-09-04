@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.212"
 
-RPM_NAME = "frozen-bubble-server-2.212-15.4.aarch64.rpm"
-RPM_HASH = "b81d356b054ca95b601f59e1931672e0a2b000bd0a3c2cea1baae3991a8663b8d83e97c3071f586c1ca3e1821ebbf5b566a1c81404d7973c0cb44841f8e8bbba"
+RPM_NAME = "frozen-bubble-server-2.212-15.5.aarch64.rpm"
+RPM_HASH = "95fcc913cc5e10166548dcac33a42da3b90abf729f245732be5e7a710f0209be829dcdf135c38191028781c4b6184efc987e06935c596bcac55eab0cb5c41d1d"
 
 RPROVIDES:${PN} += "config-frozen-bubble-server \
 frozen-bubble-server"

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.0.0"
 
-RPM_NAME = "perl-Mail-SpamAssassin-4.0.0-74.5.noarch.rpm"
-RPM_HASH = "924c4866f800be328949a5f3909c5b3a3af898eac466eb7bb5fcdb16a3ee087e433bfe25bce54d9e9e9078d662f7434afb8237f8048ef98d56109c7a55531eaf"
+RPM_NAME = "perl-Mail-SpamAssassin-4.0.0-74.6.noarch.rpm"
+RPM_HASH = "fe86e1742f1b6c6f44111bad03110db70a56cbfdbc0c2b2b67c85a31d198fa3900111ef46bdf7add8b223c9451d9088c0deead93b93d858310909e676f868d23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-perl-Mail-SpamAssassin \
@@ -126,7 +126,7 @@ perl-Mail--SpamAssassin--Util--TinyRedis \
 perl-Mail-SpamAssassin \
 perl-spamassassin"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Archive--Zip \
 perl-Digest--SHA1 \
 perl-Errno \

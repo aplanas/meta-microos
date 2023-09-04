@@ -8,10 +8,10 @@ depending on the Net-SNMP configuration files and environment \
 variables."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.8"
+PV = "8.2.9"
 
-RPM_NAME = "php8-snmp-8.2.8-1.1.aarch64.rpm"
-RPM_HASH = "411f3065a49e3dfdadb1f78c5fdb9f4761121f260999369696c859d17f5bd28d8306297ff43730a74ab7ad999c8873cf2e2b470d62ee2d8a993a3e610ec0cefc"
+RPM_NAME = "php8-snmp-8.2.9-1.1.aarch64.rpm"
+RPM_HASH = "53225954b62ab79606b609243dc88046c4c9f711c185c6babe18b67d7a53c91b51923dd989aab0870fb438c54f4e0c3bbd2fa0ec5338897db6f1b051cc406eea"
 
 RPROVIDES:${PN} += "config-php8-snmp \
 php-snmp \

@@ -2,10 +2,10 @@ SUMMARY = "Includes for ODBC Development"
 DESCRIPTION = "Includes for ODBC development (based on unixODBC)."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.3.11"
+PV = "2.3.12"
 
-RPM_NAME = "unixODBC-devel-2.3.11-3.1.aarch64.rpm"
-RPM_HASH = "cc57adfded5984abd0453bd839c2d38902d52487ec5b7f717abf195dc59fbf61abce8b0b405f865bb2ddbc6cd42d0a5cb162e2c7dd2d5a55e3dd45388c4def42"
+RPM_NAME = "unixODBC-devel-2.3.12-1.1.aarch64.rpm"
+RPM_HASH = "b71916fdeedf235f153811a7ff4a6c54b4dde327b489c30112d71ffc5098b0977c9a5eb0d7cd91c01ccc307b5e36dd700f0205ed40c93d9df82b55bc58e98506"
 
 RPROVIDES:${PN} += "pkgconfig-odbc \
 pkgconfig-odbccr \

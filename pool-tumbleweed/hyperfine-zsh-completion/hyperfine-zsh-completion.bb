@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "1.17.0"
 
-RPM_NAME = "hyperfine-zsh-completion-1.17.0-1.1.noarch.rpm"
-RPM_HASH = "0082456a0e564acddd4b67b97f327e9d06c1460b2b9c648bd7c560264f2bc2ea43578c47e7bb164b1e1abf4beade9daa55fbc2e20e64520b5fa37b85079d3d61"
+RPM_NAME = "hyperfine-zsh-completion-1.17.0-2.1.noarch.rpm"
+RPM_HASH = "0790df05628e9f05cff79602d2ecdf3af5f9e1863cff2792cae7b851603951ccc7d115b876f3e16e5d01961858443bc8e36eb014d4333512b0a01cc0e1dbff94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hyperfine-zsh-completion"

@@ -2,10 +2,10 @@ SUMMARY = "Occitan localization files for LibreOffice"
 DESCRIPTION = "Provides Occitan translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-l10n-oc-7.5.4.2-1.5.noarch.rpm"
-RPM_HASH = "1f8def6ceb961721c23c8f40311ebf2778cf23f4d767d4a1ea4fd73158e54eb8eff8f1ff36fdb3262d501d3e1985139b20d55df1842abf5a120e919ba4033fbb"
+RPM_NAME = "libreoffice-l10n-oc-7.6.0.3-1.1.noarch.rpm"
+RPM_HASH = "f0d01669cdae04d677a24dfdd4d6284a8aac2d81cce24888e52dc812e48434b3e3bb4fd1916d67728c43e14af75bd5b4b81d8f2f2767bda2212c85a508e815a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-oc \

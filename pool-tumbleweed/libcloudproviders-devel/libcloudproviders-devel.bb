@@ -3,10 +3,10 @@ DESCRIPTION = "The libcloudproviders-devel package contains libraries and header
 developing applications that use libcloudproviders."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.3.1"
+PV = "0.3.2"
 
-RPM_NAME = "libcloudproviders-devel-0.3.1-3.4.aarch64.rpm"
-RPM_HASH = "feed8f2028ea24a8a2b7e410d9f4af3d2f0cddc0a47d0fc21531fe27f95e341e8a9a247abaf780415fa255cc99773394abc4ee903abe685f205071070c20388c"
+RPM_NAME = "libcloudproviders-devel-0.3.2-1.1.aarch64.rpm"
+RPM_HASH = "47312c44500759612899398bcfddf0a73743c47393d92e758171e2ce565145707e3ee9226d877b2195bfea465805481268c755f65958910b4b2cfd2b37741822"
 
 RPROVIDES:${PN} += "libcloudproviders-devel \
 pkgconfig-cloudproviders"

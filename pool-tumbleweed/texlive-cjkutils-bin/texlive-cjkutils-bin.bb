@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn65877"
 
-RPM_NAME = "texlive-cjkutils-bin-2023.20230311.svn65877-93.1.aarch64.rpm"
-RPM_HASH = "68e62bf13507acbf4b4bd36398020387603f683ede31f90eeaa5bcdc4e3f70cea3b9c40423f267a77d987dfbf40ae2c346974bcd857e34f28f79d653df4a1827"
+RPM_NAME = "texlive-cjkutils-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
+RPM_HASH = "9ac63bda5d4f560298eef52d8f0be7af285fcbb76f0dd8e34a492c5d57ee96406a30a3bf5e63afeeaa4a0b0ddb16615638734c3a87155df676d053267e5f0b3c"
 
 RPROVIDES:${PN} += "texlive-cjkutils-bin"
 

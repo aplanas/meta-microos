@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.26.7"
 
-RPM_NAME = "kubernetes-proxy-minus1-1.26.7-33.1.aarch64.rpm"
-RPM_HASH = "017cb96928b2c4f3c94f598fc8727fbee87723986f4ad96aaf34abd5ab35c45f770dd3e89b6a1e1c7e9a244f6035a13dadebcf0ecfe1e6c856f0a8fb79266bd1"
+RPM_NAME = "kubernetes-proxy-minus1-1.26.7-34.1.aarch64.rpm"
+RPM_HASH = "955c2af7162555ac78eee4934540a1dbba81fb0f5bef4b36ca02ffe93541478fb27b1a3d01cdab276abe7ca8a580c7a8eef68f8ff8358f350080f7c8edaf60e0"
 
 RPROVIDES:${PN} += "kubernetes-proxy-minus1"
 

@@ -2,10 +2,10 @@ SUMMARY = "Basque hyphenation patterns"
 DESCRIPTION = "Hyphenation patterns for Basque in T1/EC and UTF-8 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn58652"
+PV = "2023.209.svn58652"
 
-RPM_NAME = "texlive-hyphen-basque-2023.208.svn58652-53.1.noarch.rpm"
-RPM_HASH = "ebf1c643c090054546eaadf5003438deac3fbfbe1f8e5afdb5f6d94c40042ab1640e82261c83a2c4d641f946884604774adeda41d492a779fc62b411385e765a"
+RPM_NAME = "texlive-hyphen-basque-2023.209.svn58652-54.1.noarch.rpm"
+RPM_HASH = "5b12bf7445171e6be161410aa17338be44e7b3e11694ef134f04fbb5e18a6719f9a51a9e045d376dbc117731abd276ca4df77ae4e97ce0eb25d31cbcde01dba5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-eu.ec.tex \

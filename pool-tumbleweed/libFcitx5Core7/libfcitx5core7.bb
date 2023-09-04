@@ -2,10 +2,10 @@ SUMMARY = "Core library for fcitx5"
 DESCRIPTION = "This package provides core libraries for fcitx5."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.0.23"
+PV = "5.1.0"
 
-RPM_NAME = "libFcitx5Core7-5.0.23-1.2.aarch64.rpm"
-RPM_HASH = "b87e146c9186101c01a2b2202385e1faf24462f8622fc5da53b193748742bfb7b6125a7a983d0fc80d6235766269c03f16c617634e77c68319966a4a5d675c36"
+RPM_NAME = "libFcitx5Core7-5.1.0-1.1.aarch64.rpm"
+RPM_HASH = "a68cf99727e53cfbe13c2fbdbe5702d4e7e37240758af02395675ea3b3ae775a2a5db6f986b8ebe5bf9c2e55e366a6b0e45c82a26c295375c45713d8b2422f4a"
 
 RPROVIDES:${PN} += "libFcitx5Core.so.7 \
 libFcitx5Core5 \

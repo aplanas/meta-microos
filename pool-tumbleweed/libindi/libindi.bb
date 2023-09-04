@@ -7,10 +7,10 @@ capabilities and communicate with the device drivers and build a \
 completely dynamic GUI based on the services provided by the device."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later"
 
-PV = "2.0.2"
+PV = "2.0.3"
 
-RPM_NAME = "libindi-2.0.2-1.1.aarch64.rpm"
-RPM_HASH = "32bd7a60f9d6a898215002d7b8c3a18ff84b4e18608ea84e126edf0e3a9032087813ac95fcdff05d165e60e19f4e4fb9e09abb1b2950e310d0b0f40b6586274c"
+RPM_NAME = "libindi-2.0.3-1.1.aarch64.rpm"
+RPM_HASH = "9be7d9fa3b51afb0ac8bc5c7cb28619b435b973b345720d5ebccad72c10920d88b45d83c7197c418067fd5e6940adafd97396fb2eae9be5dc90fe8ef2f83c029"
 
 RPROVIDES:${PN} += "libindi"
 

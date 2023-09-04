@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.12.0"
 
-RPM_NAME = "openocd-0.12.0-2.4.aarch64.rpm"
-RPM_HASH = "fc2646f8a106c2431e17ece525fe59ddbefa624379441de2000911e3e6445aaf99e51669d26481889cdf635ab4c1cd1feb9f24aabd7ad7eda70e96ab1efde72b"
+RPM_NAME = "openocd-0.12.0-2.5.aarch64.rpm"
+RPM_HASH = "b20d09b2103a514b6cd1c08404fe6fe923d2b8a988a8d6e233247eefa967ff166e2678b61d3e919460f5345f140a93ad50f382f642e09c5c928e1f25a003bf67"
 
 RPROVIDES:${PN} += "openocd"
 
@@ -20,7 +20,7 @@ libc.so.6 \
 libftdi1.so.2 \
 libhidapi-hidraw.so.0 \
 libjaylink.so.0 \
-libjim.so.0.81 \
+libjim.so.0.82 \
 libusb-1.0.so.0 \
 openocd-data \
 udev"

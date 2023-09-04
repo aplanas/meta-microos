@@ -10,13 +10,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.10"
 
-RPM_NAME = "perl-PerlIO-locale-0.10-1.36.aarch64.rpm"
-RPM_HASH = "989074448f29f194b61d0898fedde2ef58188244e2174300b886f35afaf597627fbbd26ebd81d6eb161f3e75a6f5ff766a4e9b13fed2730d4fd89daa031f92bb"
+RPM_NAME = "perl-PerlIO-locale-0.10-1.37.aarch64.rpm"
+RPM_HASH = "a0245708b974a0e7b83a5cad410591dc3e7c6c62ea5ec2bbc5a8dd8d20a3c032cb7e22ab5d68beddc75b872cf547f9785c22269a74889e0ae9df7cf0001cbc31"
 
 RPROVIDES:${PN} += "perl-PerlIO--locale \
 perl-PerlIO-locale"
 
 RDEPENDS:${PN} += "libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

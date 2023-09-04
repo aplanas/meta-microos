@@ -31,8 +31,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.22"
 
-RPM_NAME = "perl-File-FcntlLock-0.22-1.38.aarch64.rpm"
-RPM_HASH = "54539c3895a0e89e32a6d37b61c7038536e14ac23636b37d87d23715f0ecd9809b6f2cc2bde386b62dffc90aa3206d01cfcf9310cf8ba1f006683e35575de818"
+RPM_NAME = "perl-File-FcntlLock-0.22-1.39.aarch64.rpm"
+RPM_HASH = "68aa041637c2c04c70f582efcca298fc854a1615080813c18c0e8604b24d0940fceab9ff7b7350b81bbed05fe364ee610fb417660e7d3298ba48c566848f87f7"
 
 RPROVIDES:${PN} += "perl-File--FcntlLock \
 perl-File--FcntlLock--Core \
@@ -44,6 +44,6 @@ perl-File-FcntlLock"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

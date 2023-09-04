@@ -19,14 +19,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.35"
 
-RPM_NAME = "perl-Ima-DBI-0.35-5.27.noarch.rpm"
-RPM_HASH = "a4c38fbf15170c518b9103f09d14a1b151f1a49a03a9c8f38500b6a5a158b2706fd4e5bfb345b96c8009bfaa891c11d2f5b135aad5273b61ff0c31b91df9aec4"
+RPM_NAME = "perl-Ima-DBI-0.35-5.28.noarch.rpm"
+RPM_HASH = "54eb196696d827b788237ae4856f985d82c65816efbcdb0f65722f2e79ebffeb786112147f52b4446d193544c25bd3e5b3101539d7277e8bdfd6669d9e6862da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Ima--DBI \
 perl-Ima-DBI"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Class--Data--Inheritable \
 perl-DBI \
 perl-DBIx--ContextualFetch"

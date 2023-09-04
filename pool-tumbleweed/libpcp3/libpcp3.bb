@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "5.2.5"
 
-RPM_NAME = "libpcp3-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "a9d75a536ff7123c9a139d131d29681371646f96b544f1aeebf79e379fcc392b06f2787bcac8ff61b64ce4e8dd32ea9c43a50e92cc668afafe6945a047fd5399"
+RPM_NAME = "libpcp3-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "83ae7316f3defd8b164291171929d65e837f4ec1017fdd2ee4aed6caaea24579cac174fce98e137bef9e0f8030e669e41ebdb7719afb43229a88212e55d6e942"
 
 RPROVIDES:${PN} += "libpcp-pmda.so.3 \
 libpcp.so.3 \

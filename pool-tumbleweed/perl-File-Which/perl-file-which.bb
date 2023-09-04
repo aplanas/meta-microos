@@ -20,13 +20,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.27"
 
-RPM_NAME = "perl-File-Which-1.27-1.10.noarch.rpm"
-RPM_HASH = "7f43f10edadd815859affd8866b43a7f81f4cf9021ac70a3195bf9e2298f100b843c37d32c6b184d65bd74f9ddc538b94a98bc01dbab344f0aa01715203f4921"
+RPM_NAME = "perl-File-Which-1.27-1.11.noarch.rpm"
+RPM_HASH = "46b1d12f78aa74673442ad04ffeee7251e831a94a24c40b9dcbe774b9ee05d0f5e4803f1b94ea7a70bc0f05177797e776f4d65e7df6abc84da19e4535368f967"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Which \
 perl-File-Which"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

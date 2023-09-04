@@ -11,8 +11,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-eiad-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "49f7722b235e9bb160959b9dc268093ab06dcd1e8e8dc0f89fd0e84cee742344604f3387fca4b0d08be72144e6f0166955d8abf7abc02c729350cbbcf79f73a7"
+RPM_NAME = "texlive-eiad-2023.209.svn15878-54.2.noarch.rpm"
+RPM_HASH = "d488aa7527ba33d3518d6cb7b25a142d9bef64868d88161b68bd3b62143d55b81d2f26947d0382efb89330cc2a1a1927aa6995723e3c3e88eeb09ec947ab6cf1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-OT1eiad.fd \

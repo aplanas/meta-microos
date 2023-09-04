@@ -8,14 +8,14 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.003"
 
-RPM_NAME = "perl-Protocol-Redis-Faster-0.003-1.16.noarch.rpm"
-RPM_HASH = "d6f9e17341720c0d853f6dcacefef42419d4994eb982c42e7b3e3bec5633e8562154fb7ccb05e927fce016821d0f859b94241e6f7e0fc9696896cbe9b9217800"
+RPM_NAME = "perl-Protocol-Redis-Faster-0.003-1.17.noarch.rpm"
+RPM_HASH = "6be3b0dff8ede18a0fd39ffbb70df3c9a581af81d259f6dd862fceed1b33e8591a7593ad695e2b61a62a08c3d10a72f5af183b42d0ec7838c2d01e1575a6e694"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Protocol--Redis--Faster \
 perl-Protocol-Redis-Faster"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Protocol--Redis \
 perl-parent"
 

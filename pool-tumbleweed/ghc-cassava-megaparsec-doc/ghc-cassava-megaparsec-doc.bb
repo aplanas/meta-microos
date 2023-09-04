@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.0.4"
 
-RPM_NAME = "ghc-cassava-megaparsec-doc-2.0.4-3.3.noarch.rpm"
-RPM_HASH = "25c68ab647741336c3996f0d8d35c549e0a7b1a71be069acd3c154023a6c810642c8dd226252ffce3d84b7c27fc48247b57c1cf814d021169ff8d67212d667f4"
+RPM_NAME = "ghc-cassava-megaparsec-doc-2.0.4-3.5.noarch.rpm"
+RPM_HASH = "9b444d75fbabc8a95226c70299879401210aa36fe063ca505094f9e4f8a6baeacb86ec4e9ace92298d53994bcf7020da9a3e5776767257dd33680be2fa7b8193"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-cassava-megaparsec-doc"

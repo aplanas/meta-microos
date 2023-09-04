@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-nfsclient-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "6ef1ca609bc25c5f1a5c6ed15214d8872e156ebe83b6a1c62813af540a68bf2a80b9fbf44f480830b2c529d4d739dee9d3d94458fa9df9b4f4210327faec8e59"
+RPM_NAME = "pcp-pmda-nfsclient-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "80277514bdbf2c0052abb9accd6981a97829f69a719c89550b378c434ebafecdd4c3909566a2651a3c8f0c5beeb64f855459eb6ce838e5d454df7d835c5e9309"
 
 RPROVIDES:${PN} += "pcp-pmda-nfsclient"
 

@@ -5,10 +5,10 @@ of video file formats, audio and video codecs, and subtitle types. \
 This package contains all the development files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.36.0+git.20230723.60a26324"
+PV = "0.36.0+git20230826.83c0e980"
 
-RPM_NAME = "mpv-devel-0.36.0+git.20230723.60a26324-1.2.aarch64.rpm"
-RPM_HASH = "fa4903caa7facb66e7cac7b4083ee4c2b629e9b0cbfbd30fbde8b4a0ca1719fbce41af8368139aef0bd9bafa6f2bd51de9d8a77ca578c97918aa21e6fc657da4"
+RPM_NAME = "mpv-devel-0.36.0+git20230826.83c0e980-1.1.aarch64.rpm"
+RPM_HASH = "7879d08f0711edefd71f603cb1553db8893bafa6561eb9df9b13c7c5a26e054b4bfdf775ae7d9d1c1e4a848e7c0323ddebb9cbbe472e9b7c184ac392586786ae"
 
 RPROVIDES:${PN} += "mpv-devel \
 pkgconfig-mpv"
@@ -61,7 +61,6 @@ pkgconfig-wayland-egl \
 pkgconfig-wayland-protocols \
 pkgconfig-x11 \
 pkgconfig-xext \
-pkgconfig-xinerama \
 pkgconfig-xkbcommon \
 pkgconfig-xpresent \
 pkgconfig-xrandr \

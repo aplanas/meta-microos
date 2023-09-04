@@ -7,10 +7,10 @@ or Plasma). This package provides development files to build \
 applications with kirigami-addons."
 LICENSE = "LGPL-3.0-only"
 
-PV = "0.10.0"
+PV = "0.11.0"
 
-RPM_NAME = "kirigami-addons-devel-0.10.0-1.1.aarch64.rpm"
-RPM_HASH = "f8b10b1d177c642bfe7935e9e8dd385e34e7716f6f06c3f690f4f6edc2831e374fb2cc4bc9d7ad1f3e477eb89e5ed1a8127c796a2bf23b044093a5f89a5391ed"
+RPM_NAME = "kirigami-addons-devel-0.11.0-1.1.aarch64.rpm"
+RPM_HASH = "fea27e5224d134224557338f98c718d1237345919e6a4e0dbcb02401419a6d44f417ba180fc12e525be64f8a056a31885246751dd0e0759bee6e7b30ff3f97aa"
 
 RPROVIDES:${PN} += "cmake-KF5KirigamiAddons \
 kirigami-addons-devel"

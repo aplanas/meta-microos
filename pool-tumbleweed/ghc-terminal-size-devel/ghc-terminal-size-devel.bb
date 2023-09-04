@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.4"
 
-RPM_NAME = "ghc-terminal-size-devel-0.3.4-1.3.aarch64.rpm"
-RPM_HASH = "fa9d9a8e8689139a223702a17d9187bf75e5abcff160c90680db2c6902cd510e7a031050ce9cf11ed8b59b4d632e06613b1782eb3f7a360ee28cf175304cf994"
+RPM_NAME = "ghc-terminal-size-devel-0.3.4-1.4.aarch64.rpm"
+RPM_HASH = "b68596b540a12d7c5474735f83a5f1e3883b72220c158f3c0f9b9e05bc9bfd0ca1e02327fc22f2d17ea5d2d61a875c8fab891a2a6c6941489fc2869f22e7da1d"
 
-RPROVIDES:${PN} += "ghc-devel-terminal-size-0.3.4-1tPFLsRvnmSGNryq4PMCAd \
+RPROVIDES:${PN} += "ghc-devel-terminal-size-0.3.4-3vDBLsxBXgoFiFoFBqm3N8 \
 ghc-terminal-size-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-terminal-size"
 
 inherit rpm

@@ -20,13 +20,13 @@ LICENSE = "Apache-2.0"
 
 PV = "1.016"
 
-RPM_NAME = "perl-File-pushd-1.016-1.17.noarch.rpm"
-RPM_HASH = "db9c41f4c9d196647b4ba4eb82e79436433530f4597523ccdc116b22166c4dccc50b99d0482b026b14fcfab632a81dec709980e38130c6878bbcac157926e703"
+RPM_NAME = "perl-File-pushd-1.016-1.18.noarch.rpm"
+RPM_HASH = "01b910237626c8b477e71929dafd3ec287fe18a19fc3dfa763372129bb1517528b8ef18ef6b1de22d4ff35213d0331b8b6632eb8d1ab679a3f23b77f7990f17a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--pushd \
 perl-File-pushd"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

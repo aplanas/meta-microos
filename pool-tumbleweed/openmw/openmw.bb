@@ -28,10 +28,10 @@ The OpenCS is not based on the editing tool which came with the original Morrowi
  * customisable GUI"
 LICENSE = "GPL-3.0-only & MIT"
 
-PV = "0.48.0~rc9"
+PV = "0.48.0"
 
-RPM_NAME = "openmw-0.48.0~rc9-1.3.aarch64.rpm"
-RPM_HASH = "081b18556a12ee3679c7dfb1a7414d5d8e5d4f8b5204ed3be9120f3e7c3f605ba8bc506cbc9890621b57af525c343c799ab405464e9eaf0ebbb077ba5ddb0e8c"
+RPM_NAME = "openmw-0.48.0-1.2.aarch64.rpm"
+RPM_HASH = "cc488050d7dd124bbdee98ee15e6942a4de857ea2cd1f16bd27e69d2be9642e095f7f8bd7e9bd2d7253ad1b20582a57ebb3173c02136abde98bfbd3309758807"
 
 RPROVIDES:${PN} += "config-openmw \
 openmw"
@@ -84,6 +84,6 @@ libswresample.so.4 \
 libswscale.so.7 \
 libtinyxml.so.0 \
 libunshield.so.0 \
-libyaml-cpp.so.0.7"
+libyaml-cpp.so.0.8"
 
 inherit rpm

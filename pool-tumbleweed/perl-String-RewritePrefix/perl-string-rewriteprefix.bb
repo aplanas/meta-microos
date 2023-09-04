@@ -4,14 +4,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.009"
 
-RPM_NAME = "perl-String-RewritePrefix-0.009-1.3.noarch.rpm"
-RPM_HASH = "694f5f7e84d937f5b83cb19ffc40de815dc3429e3be4008e1f18dc21b5b1ed30b28a7a83ee9aa04629453915179b1c1bc3422aacd370d632760f2b033ef2f800"
+RPM_NAME = "perl-String-RewritePrefix-0.009-1.4.noarch.rpm"
+RPM_HASH = "d7b7f01d73c9fe9c93a872919a854cc9f8b55c232427e4b5629c0e188785f4bb19a1d61b829d216bef80ddf3f6053de7a45337fbdc5eaca27c959bdd733a128b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-String--RewritePrefix \
 perl-String-RewritePrefix"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Sub--Exporter"
 
 inherit rpm

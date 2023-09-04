@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.2svn23464"
 
-RPM_NAME = "texlive-pst-rubans-2023.209.1.2svn23464-54.1.noarch.rpm"
-RPM_HASH = "4dcb004cba4ca1b2b3bbb719be6b7c906bd5edc48f5e94e44ac01e0777e9f28ee83a97d273f90b12ac6273a5e14d021842ec5067a5a2292a6c57ef78edfd6229"
+RPM_NAME = "texlive-pst-rubans-2023.209.1.2svn23464-54.2.noarch.rpm"
+RPM_HASH = "98f3631951dabf0ae81fa2b58eb16699b37b24f1a1352f6a8cc85c6afa5a6f87a9ab3504b6006c435b218a62aac75844d152c8ea7f348c305d94e44c1cb9dcc7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-rubans.sty \

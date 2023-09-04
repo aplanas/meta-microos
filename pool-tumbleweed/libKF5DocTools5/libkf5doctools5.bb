@@ -2,10 +2,10 @@ SUMMARY = "Library to create documentation from DocBook"
 DESCRIPTION = "Provides tools to generate documentation in various format from DocBook files."
 LICENSE = "LGPL-2.1-or-later & MIT"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "libKF5DocTools5-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "ba3190256f6a6f396db6db94cd1a171e39cf89bd50110eb28cefc38b605fba0ab25325f49ce46b6503ee153be809fa3ac499712767d92e77b81d17526600cdca"
+RPM_NAME = "libKF5DocTools5-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "24947d9c16b6379d31161be2d8aac5bd0c507247eaf67014333b59d88ce86dc3bec6bc4f09a1dea0c6a813ac7dd84cce623bc19fb1ad27ab83f04cc012bab444"
 
 RPROVIDES:${PN} += "libKF5DocTools.so.5 \
 libKF5DocTools5"

@@ -4,13 +4,13 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.18"
 
-RPM_NAME = "perl-File-Next-1.18-1.16.aarch64.rpm"
-RPM_HASH = "23b433c16035da9f466df17cd7d0612cdd335deb3be52a1530d600ac95f1afc126e0494a3faf4bc8762041859977f5819fb7dc5739294e82a157f2a158d937aa"
+RPM_NAME = "perl-File-Next-1.18-1.17.aarch64.rpm"
+RPM_HASH = "402a3c925438aac69e2551f84be32c28be3c069fe575f0427873223f0e1d80ca602c02f07e729c74e7664f61078aeede3a3c8706a04e77587b63db1db11ada26"
 
 RPROVIDES:${PN} += "perl-File--Next \
 perl-File-Next"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-File--Temp \
 perl-Test--More"
 

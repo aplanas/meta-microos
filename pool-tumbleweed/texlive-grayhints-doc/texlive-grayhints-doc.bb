@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn49052"
 
-RPM_NAME = "texlive-grayhints-doc-2023.209.svn49052-54.1.noarch.rpm"
-RPM_HASH = "5734aba0e04e04a3eaec30b7a1916c2a6667f768edd168a7577ed22f32a1ab0c154c1197189f97753e96ccd1eeb38a1013ecec67deade7031bf33db25b21fd2b"
+RPM_NAME = "texlive-grayhints-doc-2023.209.svn49052-54.2.noarch.rpm"
+RPM_HASH = "8994466046762df56c1f5b66ed5e97b79135e968e42993fcd4406a09f30fb2e5ee7c9a01cca0119f322e61881fe0fd80e02ab9651b2dcba881a113f1a02b7bbd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-grayhints-doc"

@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.1.6"
 
-RPM_NAME = "siege-4.1.6-1.6.aarch64.rpm"
-RPM_HASH = "6824830d2e6b5691532a277786221225fbc2f282faf87958d95639d0316608713524fe5040b30966fa0f60654d2f6c571670688ed70a31af6009808e8665f50f"
+RPM_NAME = "siege-4.1.6-1.7.aarch64.rpm"
+RPM_HASH = "15beb8a27c54cf2c6f32b4e67d8bf6ec1007ea2d215e094d213587e74a91aa88dff1bb75c2c559138915870283bd969c31c5eaebbf2fa823b565b175e966d9e9"
 
 RPROVIDES:${PN} += "config-siege \
 siege"
@@ -24,6 +24,6 @@ libc.so.6 \
 libcrypto.so.3 \
 libssl.so.3 \
 libz.so.1 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

@@ -15,14 +15,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.320"
 
-RPM_NAME = "perl-Config-AutoConf-0.320-1.10.noarch.rpm"
-RPM_HASH = "8610769695717cf6646623107d4cd7b7376273f012263b7ae305a830227bd4af81a186e9f5f6c32d82f4cce28ecf6734b89e2980cd8d991fd29cc3907720aab0"
+RPM_NAME = "perl-Config-AutoConf-0.320-1.11.noarch.rpm"
+RPM_HASH = "4352fe9156a1fe5aad36e90ef8865fb14c69a60ce1a8fe15ba25447fbc79852b1596cad29ef55cfab433b73531813b23c50ef35efd68f5d13add9dc83d537b98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Config--AutoConf \
 perl-Config-AutoConf"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Capture--Tiny"
 
 inherit rpm

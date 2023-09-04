@@ -4,10 +4,10 @@ the focused window.  Unlike regular shortcuts, the application's window does not
 need focus for them to be activated."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "libKF5GlobalAccel5-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "376937f63fe8a787bed5577975ab683d66d99d821c71a919d1f5d0a8cb7bf0f9ea892f6f6c2170aff87fef4795285dc5bb5cf320017201f3f4f1651e87a66c5f"
+RPM_NAME = "libKF5GlobalAccel5-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "9d40323d92bb2687e6eebf41640cb7eb21bd7070bf46c7e0a4b87a5cf9f0aac68b5d47fb2b5cff48d19c55a7ecd04b003e1917fc8066eb192eee6a7f9c3dec0e"
 
 RPROVIDES:${PN} += "libKF5GlobalAccel.so.5 \
 libKF5GlobalAccel5"

@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn65187"
 
-RPM_NAME = "texlive-graphics-pln-2023.209.svn65187-54.1.noarch.rpm"
-RPM_HASH = "2d9ad733f2cd9251547e69f5c86369d99792cd0b623b50b6bb7b7e033a566f1aa24c248205fc813c8af5bb67a3c75181b346226aafd7f2be0efaa6f8240a7775"
+RPM_NAME = "texlive-graphics-pln-2023.209.svn65187-54.2.noarch.rpm"
+RPM_HASH = "92307d7c91cab622f1371a86f72fbeb95a28b6c651b80274cd3e7b63812026c5904e5ed69f3b8d723f7619a0589fdaa73be5dbc6d0e94a288d1640bf860c1d36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-autopict.sty \

@@ -4,10 +4,10 @@ transliteration, and in Devanagari, Bengali, Kannada, Malayalam \
 and Telugu scripts for Unicode engines."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn58652"
+PV = "2023.209.svn58652"
 
-RPM_NAME = "texlive-hyphen-sanskrit-2023.208.svn58652-53.1.noarch.rpm"
-RPM_HASH = "32b78aa17cdeb2f367d3ec9aa07f1becd6de260fc179c11c80e5c0203c52cd6f08205ba8f61f2b3c9ddf946209d1e37f1d5b2d932d92588796e22cdfde34e915"
+RPM_NAME = "texlive-hyphen-sanskrit-2023.209.svn58652-54.1.noarch.rpm"
+RPM_HASH = "a714699ef467bced28ef5320cb5e5d75928b71ec91b46c37bab2569b8614515dbb3507b150ce92ec73a4444d7eee65b93cd1124a0f9f6dd11c9c747a18000392"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-sa.tex \

@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221029"
 
-RPM_NAME = "python311-libvsgpt-20221029-3.9.aarch64.rpm"
-RPM_HASH = "017bb0e02454d5a616637e68ced8ef8d4def706c35146634df6f3c5e7187e34fd4069a8d49caac097bf35f94090f1f83bdbd5bb36a0d1fb62d4169b6f1845ec7"
+RPM_NAME = "python311-libvsgpt-20221029-4.1.aarch64.rpm"
+RPM_HASH = "333a9f1ed9b23b2c86ead243609eff34bcdc94f08662ad210676298ff92e35eedda2b28584e8aae6107947fa0678841f87004812b286fe889183227314c671e3"
 
 RPROVIDES:${PN} += "python3-libvsgpt \
 python311-libvsgpt"

@@ -11,14 +11,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.44"
 
-RPM_NAME = "perl-Config-Auto-0.44-3.27.noarch.rpm"
-RPM_HASH = "07d6437ff6161714f5f2dff5ab4c61358b9298126a891cbeaefd71a28a7db8b96c9e93c6441cd65c60ad9bd5bc3a6b1db9b58c4b0cb489f201aeb9e635e4fb18"
+RPM_NAME = "perl-Config-Auto-0.44-3.28.noarch.rpm"
+RPM_HASH = "c21e5ac2d0bdf21fd60e4d5fb7e723e85ee904a5cdd7df87a455a20f9e2255fee62f8ea5b5d97d4990dbf38aa8c7772a841c3fa48eeb1f3bdd59c9b29a44564f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Config--Auto \
 perl-Config-Auto"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Config--IniFiles \
 perl-IO--String \
 perl-YAML"

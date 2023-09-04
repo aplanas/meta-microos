@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.2.62"
 
-RPM_NAME = "calamares-lang-3.2.62-1.1.noarch.rpm"
-RPM_HASH = "33fdec98e7a2e625baf81705ff58f4024a464abcc136589816046f1b6a7bf121b304ba10e2373ae996b9be32ec73deb761184bd899fb7b21cdae7032d131063a"
+RPM_NAME = "calamares-lang-3.2.62-1.2.noarch.rpm"
+RPM_HASH = "5a50cef4006a110a4459d70d448dfe3b713a2fc922eab13f54b9533d6d8b3672af446014e24ef41b2ddb18e30dcff21ee357f064861904c9b95c0a424bf7221a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "calamares-lang \

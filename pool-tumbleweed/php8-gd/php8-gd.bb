@@ -4,10 +4,10 @@ different image formats, including GIF, PNG, JPEG, WBMP, and XPM. Even \
 more convenient: PHP can output image streams directly to a browser."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.8"
+PV = "8.2.9"
 
-RPM_NAME = "php8-gd-8.2.8-1.1.aarch64.rpm"
-RPM_HASH = "5a0e055b48cc90e2e881a37bb9a38f11c6479665903418071b81b995c4bc8150cb37199fc3d374f83e0ecf8db739bc6daa0200a8472576479724ead033683aaa"
+RPM_NAME = "php8-gd-8.2.9-1.1.aarch64.rpm"
+RPM_HASH = "3bee838ae13a517ceff8d4c01ec3016a5dbc26441779d1a411142c57083294f614af402cae50e31526b2c42b447f44091e5c4e63db71bf32e2a17524ef4387b9"
 
 RPROVIDES:${PN} += "config-php8-gd \
 php-gd \

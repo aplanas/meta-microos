@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & (GPL-3.0-only | SUSE-LGPL-2.1-with-digia-exception
 
 PV = "5.0.0"
 
-RPM_NAME = "kvirc-5.0.0-5.9.aarch64.rpm"
-RPM_HASH = "bad6b4bef3ddecf30bc72e781f9ce8a928dd9b4ee98e92d04498c38fdffe328d0667aad0ba1edad946baeb82aca558980e64159a87c3c51f1ff47fe63717f1fc"
+RPM_NAME = "kvirc-5.0.0-5.10.aarch64.rpm"
+RPM_HASH = "add81db4a5e481fb5e37ffa991b0d796ef451047c5771c4db2a49a2252e81d494b75f7337b8796ef76f391e368ca0bc0584ff26d2c6ec9807b184e6d8f9735cc"
 
 RPROVIDES:${PN} += "kvirc \
 libkviabout.so \

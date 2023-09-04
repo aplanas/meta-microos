@@ -3,10 +3,10 @@ DESCRIPTION = "WP-CLI is the command-line interface for WordPress. You can updat
 configure multisite installations and much more, without using a web browser."
 LICENSE = "MIT"
 
-PV = "2.7.1"
+PV = "2.8.1"
 
-RPM_NAME = "wp-cli-2.7.1-1.2.noarch.rpm"
-RPM_HASH = "12bf0146b24ad219f944497154741e29dfd18569f72ce300ca1fe10654c033c95cb61fa9e1be62ce2de3e4c545fac9eeb5985c2e426eabfe6275104fe8775ba0"
+RPM_NAME = "wp-cli-2.8.1-1.1.noarch.rpm"
+RPM_HASH = "0cc554106d70934904aba0382c39515ff6990541e58724d779c5e5a7a511e91dcc682747ef64981e6b437c6996ddaccd0e275e991d41ee25e6e5de8e7bc1f807"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-wp-cli \

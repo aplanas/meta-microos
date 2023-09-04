@@ -4,17 +4,17 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "ghc-hslua-marshalling-prof-2.3.0-1.6.aarch64.rpm"
-RPM_HASH = "78eaecd022a6810785e5576e1ac922497ea635606e13a63c48947ebb9b6b5ae8d8ab847fe968c45b313fe1b02d124466b9664fa8c93096944dc46a27c1715c1d"
+RPM_NAME = "ghc-hslua-marshalling-prof-2.3.0-1.8.aarch64.rpm"
+RPM_HASH = "110db28de61ee00989f0c7e17beb5256468984981adcbc2e984445ed9e57768823e76b257648629d6baee4ea131b60a2e80b3a87c448873574c6da4b42477054"
 
 RPROVIDES:${PN} += "ghc-hslua-marshalling-prof \
-ghc-prof-hslua-marshalling-2.3.0-1lHdh994uwdEmrYudOnEBq"
+ghc-prof-hslua-marshalling-2.3.0-7mBSxD4mqSw36NR9RXD4Dj"
 
 RDEPENDS:${PN} += "ghc-hslua-marshalling-devel \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-bytestring-0.11.4.0 \
+ghc-prof-base-4.17.2.0 \
+ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-containers-0.6.7 \
-ghc-prof-hslua-core-2.3.1-S0Tmk0QBS1InOMEfkNHVC \
+ghc-prof-hslua-core-2.3.1-H6EUAt4RUpl9ClgBncvABk \
 ghc-prof-mtl-2.2.2 \
 ghc-prof-text-2.0.2"
 

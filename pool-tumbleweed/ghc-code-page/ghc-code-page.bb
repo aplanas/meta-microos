@@ -11,15 +11,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.1"
 
-RPM_NAME = "ghc-code-page-0.2.1-2.5.aarch64.rpm"
-RPM_HASH = "46bf1321f10c28ce9f34c15a7bf5d82247cdec64902c28c14816b4d19f306cd4b4f9dac5803002da3025e34e13e3c5acddfd25ad37871a2f048fdf83de34b508"
+RPM_NAME = "ghc-code-page-0.2.1-2.7.aarch64.rpm"
+RPM_HASH = "56bd08f8b186c51db264d0717842f663b1f38b0154cdfecd4032fecf631a7b2d5b49094a47c57182ed738dc862fb5e75d405f27da1f5f526a12734434bd7ad94"
 
 RPROVIDES:${PN} += "ghc-code-page \
-libHScode-page-0.2.1-DXkPgctk3OAKMpgAjUBS3D-ghc9.4.5.so"
+libHScode-page-0.2.1-FtqibIt49dG4EHKj0zD5sM-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

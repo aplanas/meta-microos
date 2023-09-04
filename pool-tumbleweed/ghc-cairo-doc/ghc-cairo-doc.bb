@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.13.10.0"
 
-RPM_NAME = "ghc-cairo-doc-0.13.10.0-1.3.noarch.rpm"
-RPM_HASH = "a6ddf5982e5f9fff73225997368ac986d5c7fc9a98c6c76151133367c45fb80b15620e5c3a49b2450c05db5b7c7e7c3c49e792258a1626c0b6e7adc49a84ea97"
+RPM_NAME = "ghc-cairo-doc-0.13.10.0-1.6.noarch.rpm"
+RPM_HASH = "eeeb250a5419f7cd53477349a9a3548c342fa1adb1f8f85ba0ec387345ea6212d4cae5419082bbeae35fef1079c78815fcdbc6a14e222a31a1ba0cbfab6f3d84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-cairo-doc"

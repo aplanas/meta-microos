@@ -7,10 +7,10 @@ Install the corresponding Jupyter widgets package into your kernel, i.e., \
 IPython users would install ipywidgets into their kernel."
 LICENSE = "BSD-3-Clause & MIT"
 
-PV = "4.0.7"
+PV = "4.0.8"
 
-RPM_NAME = "python39-widgetsnbextension-4.0.7-1.2.noarch.rpm"
-RPM_HASH = "c25c9fdf1a915c402cd3177e3bdf422f2220b63b56bfb6fb5cae8e50f5e0211e641a5f000ca35285ff119a11068c287d24175d0dd56320d37c9e01118bb2b334"
+RPM_NAME = "python39-widgetsnbextension-4.0.8-2.1.noarch.rpm"
+RPM_HASH = "cb956c1cd396f6a39f0faba0654a3af36f48afbb77e04353822ef160a1cce200c9c1c4048c7a0e87484b98889c9c0693b485cdbcaac96acdd2bd9d423f540ae7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-widgetsnbextension \

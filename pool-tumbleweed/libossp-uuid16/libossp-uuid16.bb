@@ -21,8 +21,8 @@ LICENSE = "MIT"
 
 PV = "1.6.2"
 
-RPM_NAME = "libossp-uuid16-1.6.2-19.46.aarch64.rpm"
-RPM_HASH = "fa90e05b23e98f8cf2db7c022fa097f28d896967e09cf6b765fd7991905fecb54b576117f2caa66978a5c9f457e490eb3bcfdacc5bf6892f05173bfd47cc16e5"
+RPM_NAME = "libossp-uuid16-1.6.2-19.47.aarch64.rpm"
+RPM_HASH = "0fba3e34faf6f1d731b137802ddc4e476d73e61ace77a3ab2f39f9e9309c89976df97384364a6cc8826b4b888adf6e90c7d538c04f83e2256c9aef759a5ffb25"
 
 RPROVIDES:${PN} += "libossp-uuid.so.16 \
 libossp-uuid16"

@@ -4,10 +4,10 @@ the focused window.  Unlike regular shortcuts, the application's window does not
 need focus for them to be activated. Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kglobalaccel-devel-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "b53f0b7c6a52af74aad841b74607613469e27f0ee5254de5c760e7ee4f36f2242c9f3b986756fad80a675eea545f976b21cc03677c157cafcb85eab84d1269d5"
+RPM_NAME = "kglobalaccel-devel-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "9175f3c17b57176b7e70134fa30420e94d326d3e7b1829fbaff231c210d25c571dae951fceb7a5a8cfa50526b6c6bd33d6466bb491ef090927abbf4ebfea12ea"
 
 RPROVIDES:${PN} += "cmake-KF5GlobalAccel \
 kglobalaccel-devel"

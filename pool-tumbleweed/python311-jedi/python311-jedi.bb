@@ -12,10 +12,10 @@ Jedi uses an API to connect with IDEs. There is a reference \
 implementation as a VIM plugin which uses Jedi's autocompletion."
 LICENSE = "MIT & Python-2.0"
 
-PV = "0.18.2"
+PV = "0.19.0"
 
-RPM_NAME = "python311-jedi-0.18.2-6.3.noarch.rpm"
-RPM_HASH = "57bd9bb6430f106b941aa10f94e2b0385e00dbb5a082a4caf8d8e9172200654be38b9869ca75364b33bef1d9b58c43921aa8801de4e17885d94320acfa9ac425"
+RPM_NAME = "python311-jedi-0.19.0-1.1.noarch.rpm"
+RPM_HASH = "c31d713387675282c053f72fd63c3287802fdeaad82574991c5fe98a584d6f3028bcb6987e738a5c200d03872dcf2ea0e419e77bad4a0baa6caf08d2ac68631a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jedi \
@@ -23,7 +23,7 @@ python3.11dist-jedi \
 python311-jedi \
 python3dist-jedi"
 
-RDEPENDS:${PN} += "-python311-parso >= 0.8.0 with python311-parso < 0.9 \
+RDEPENDS:${PN} += "-python311-parso >= 0.8.3 with python311-parso < 0.9 \
 python-abi"
 
 inherit rpm

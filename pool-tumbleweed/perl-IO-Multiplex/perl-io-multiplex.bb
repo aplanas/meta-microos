@@ -14,14 +14,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.16"
 
-RPM_NAME = "perl-IO-Multiplex-1.16-1.27.noarch.rpm"
-RPM_HASH = "7736efe4cead1ee265128522f6682c0175b7a3c1ebf087a8e683a605693b0574c413c46cc789b657ea2fc696be0196aab082aff72475ad307965cc0ce484a5f0"
+RPM_NAME = "perl-IO-Multiplex-1.16-1.28.noarch.rpm"
+RPM_HASH = "d260ca7923c17233053ddb3a8af4e0911303fbb0c303c6827b71dcb57edb7078c3120ab4758883fe45ad049060dddc501b5b37204aed966834495b4c2edc0163"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--Multiplex \
 perl-IO--Multiplex--Handle \
 perl-IO-Multiplex"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

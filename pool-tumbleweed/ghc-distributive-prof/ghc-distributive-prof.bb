@@ -4,16 +4,16 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.6.2.1"
 
-RPM_NAME = "ghc-distributive-prof-0.6.2.1-3.2.aarch64.rpm"
-RPM_HASH = "beef0cd653cd4da0f6f2c2b27b73289b874cfccf3e919ccf3e7bc6a9a79ab48ff2d76790b9cbad5b079f4d20030bdd161e8a063a2d62761a58f3e1b2966d1ff5"
+RPM_NAME = "ghc-distributive-prof-0.6.2.1-3.4.aarch64.rpm"
+RPM_HASH = "67eaa64c2d3052b75a0223ebd6777f25f9abdeb3fe96b71f150bd24940c52ff95a10a10ac53f9ef29d046dfc7ae1158de946e0956804b4b031494cc69aa81855"
 
 RPROVIDES:${PN} += "ghc-distributive-prof \
-ghc-prof-distributive-0.6.2.1-GisXwtVaDTaDcC79Nunm79"
+ghc-prof-distributive-0.6.2.1-7gHlNDSCz3vFkde299iroS"
 
 RDEPENDS:${PN} += "ghc-distributive-devel \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-base-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8 \
-ghc-prof-tagged-0.8.7-CYOhX22Df3PFW5V1S0dOJa \
+ghc-prof-base-4.17.2.0 \
+ghc-prof-base-orphans-0.8.8.2-Ace67bhQsJ1lQVihVIKZ5 \
+ghc-prof-tagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax \
 ghc-prof-transformers-0.5.6.2"
 
 inherit rpm

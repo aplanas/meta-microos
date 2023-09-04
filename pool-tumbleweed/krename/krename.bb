@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.0.2"
 
-RPM_NAME = "krename-5.0.2-2.1.aarch64.rpm"
-RPM_HASH = "68905754bb663367bc1700a14811be774123b9e564cc0ae0821529f6d9bdd0823cbf21d93d008daa8d27619f3c7eadfaa8a1cadc3111f402b10b546d446d5f63"
+RPM_NAME = "krename-5.0.2-3.2.aarch64.rpm"
+RPM_HASH = "08f0735d00ac4eb11cbd02dfdce1f0ec4a1a9017d674f71eb32bc5a35229e9f70cb1912b9865381d6dbfe188329fa403273fa1f01d1843c702675517d1b24b47"
 
 RPROVIDES:${PN} += "krename"
 
@@ -35,7 +35,7 @@ libc.so.6 \
 libexiv2.so.28 \
 libfreetype.so.6 \
 libgcc-s.so.1 \
-libpodofo.so.0.9.8 \
+libpodofo.so.2 \
 libstdc++.so.6 \
 libtag.so.1"
 

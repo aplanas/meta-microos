@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.10.1"
 
-RPM_NAME = "ghc-SafeSemaphore-doc-0.10.1-5.6.noarch.rpm"
-RPM_HASH = "2936b1375da563973cb39a6c7ddef98a878490a48271f9eeeb7a856e2c504344f36b55aa66a743976c4f7e24ef0a71d046346e239fcf257f4a23cba3fee8a41a"
+RPM_NAME = "ghc-SafeSemaphore-doc-0.10.1-5.8.noarch.rpm"
+RPM_HASH = "0d79317f491faad6007a389fea8522b2a8eb4d0047940b845761fc7cb45d461feaa9fa6a6fbae8d145b432953621a1a4e2d544f4c2356add565eb112bf567d5d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-SafeSemaphore-doc"

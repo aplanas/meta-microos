@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to compile and develop applications that use libgit2."
 LICENSE = "GPL-2.0-only-with-GCC-exception-2.0"
 
-PV = "1.7.0"
+PV = "1.7.1"
 
-RPM_NAME = "libgit2-devel-1.7.0-1.1.aarch64.rpm"
-RPM_HASH = "a28d186eacb20dccd638f385d2f300df439090b35e8ea0d7c375e710b12effae28e7491b61a46012f31b208414316892872c412b5f58c0b9a92de9ef93dded2d"
+RPM_NAME = "libgit2-devel-1.7.1-1.1.aarch64.rpm"
+RPM_HASH = "f013dc5a93e8865c1458e00bd0da6b9eacc5770288e9e51bbf2db34da74ccdbc17d3ee69660496344d58b7e624af3efa0e57294f5f10e3d53ca0f9dab48c960e"
 
 RPROVIDES:${PN} += "libgit2-devel \
 pkgconfig-libgit2"

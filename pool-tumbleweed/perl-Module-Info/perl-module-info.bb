@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.37"
 
-RPM_NAME = "perl-Module-Info-0.37-1.26.noarch.rpm"
-RPM_HASH = "ce31ae00c506a333f1e5713d55f9578c06265efe837159ae77733f8415f0445f051107aad2ed2919d6628e2d125c250c821d72560a69802e0d9d897304f87419"
+RPM_NAME = "perl-Module-Info-0.37-1.27.noarch.rpm"
+RPM_HASH = "d7af0f7a2eace912e6e0bebdbcc2df357e7aaaf9c9170d4784812e4a429e7c75bb049dcb51b627072a2fae8d4da44852034928b975db3813c80a1a2abbc30fba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-B--Module--Info \
@@ -18,7 +18,7 @@ perl-Module--Info--Unsafe \
 perl-Module-Info"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-B--Utils"
 
 inherit rpm

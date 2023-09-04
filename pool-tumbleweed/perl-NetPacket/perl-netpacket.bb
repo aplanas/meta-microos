@@ -14,8 +14,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.7.2"
 
-RPM_NAME = "perl-NetPacket-1.7.2-1.16.noarch.rpm"
-RPM_HASH = "f9c875190f22247a52d0b44e9b2da19a1a439487a09a2dfc13b8cefc4078b820f41a4cb1986090dc8e0552d3c1b16bd3c16fa88f5977dae3bf6077aa45288361"
+RPM_NAME = "perl-NetPacket-1.7.2-1.17.noarch.rpm"
+RPM_HASH = "692a2e6ef0325923f0e923432e99bb151b25f8a668281a0ceef2444037a97a3b7e21e3a9323b041ed794590e7004bfb754f5ffc8406d9289168c519118b00f9b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-NetPacket \
@@ -31,7 +31,7 @@ perl-NetPacket--TCP \
 perl-NetPacket--UDP \
 perl-NetPacket--USBMon"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Socket \
 perl-parent"
 

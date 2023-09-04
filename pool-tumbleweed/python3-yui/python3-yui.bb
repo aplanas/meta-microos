@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
 PV = "4.6.0"
 
-RPM_NAME = "python3-yui-4.6.0-1.3.aarch64.rpm"
-RPM_HASH = "8f97ad0f7b16622d7d81f8c256980e614dec8bcef9066ea23f7ed6d4875b0975fc77b29a08a94f67c0140520e7880a09266628d043b613eb2a028635a4f5b5a4"
+RPM_NAME = "python3-yui-4.6.0-1.4.aarch64.rpm"
+RPM_HASH = "d13ff99eb1f39064bcc2dc6cac19c280dea410b01f4a363ad5cf051b12879f0d37cc4de11e8686addd45cccff0ee54a9f140d5428aa2f36244e3731c41cde790"
 
 RPROVIDES:${PN} += "python3-yui"
 

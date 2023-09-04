@@ -10,10 +10,10 @@ if llvm is supported. Otherwise it will just pull the \
 postgresql12-server-devel package."
 LICENSE = "PostgreSQL"
 
-PV = "12.15"
+PV = "12.16"
 
-RPM_NAME = "postgresql12-llvmjit-devel-12.15-1.5.aarch64.rpm"
-RPM_HASH = "e4e6b6b50878fa65d0cd0cfe8ed456de6f964a45deecfdc815ebd35bbba99f07b39e37b3f93366004d97bcfb97ca4de7646a868a3be9455684f57cc4871fe5ce"
+RPM_NAME = "postgresql12-llvmjit-devel-12.16-1.1.aarch64.rpm"
+RPM_HASH = "3a7a80229afe90022664fa0b0a09ea250dc26db00fa1807fd0c5569a04f4f2fa62d97c129d64fd1dd36e3990894a005bfc2655c47bc8bab920f29c6ec7f29c90"
 
 RPROVIDES:${PN} += "postgresql-llvmjit-devel \
 postgresql-llvmjit-devel-implementation \

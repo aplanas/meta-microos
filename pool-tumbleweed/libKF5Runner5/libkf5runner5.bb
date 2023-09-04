@@ -2,10 +2,10 @@ SUMMARY = "KDE Framework for providing different actions given a string query"
 DESCRIPTION = "KDE Framework for providing different actions given a string query."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "libKF5Runner5-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "195d9f292c9b91df5dd44860540182617744388318e98ef6b457fd3bc3b4f7f3d9a69e01d3c4efcbceb64a37afbc24cc9c4c2605019da2596939a98718c47fe9"
+RPM_NAME = "libKF5Runner5-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "0ac72daba5263ab3f946f95cd71d4b14b5f09a1caafde0e3ea7c2d7b125c76befdfa489321d6e7f920e888a970c698c3171465f91ce35b881f4c04b55f00e82f"
 
 RPROVIDES:${PN} += "libKF5Runner.so.5 \
 libKF5Runner5 \

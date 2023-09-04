@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
 PV = "2.0.21"
 
-RPM_NAME = "uwsgi-glusterfs-2.0.21-3.1.aarch64.rpm"
-RPM_HASH = "47f424af2d6cb6fe15da93a431ef3b6ada2536fb336879c489844207733eea0b972f1029d4d2b58b34529beed30ea12ea576f6553a0ea925f31e0e60f64c5e09"
+RPM_NAME = "uwsgi-glusterfs-2.0.21-3.2.aarch64.rpm"
+RPM_HASH = "cf1ca88c8ef625162d4c527c551474e602acf486d4eb6ac71a252533a31a892afa0d6c702b3795549aa55a1c2652a6951915ef2dd0f89e5768fe1aa228ec226d"
 
 RPROVIDES:${PN} += "uwsgi-glusterfs"
 

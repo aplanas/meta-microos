@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.27.7"
 
-RPM_NAME = "plasma5-workspace-libs-5.27.7-1.1.aarch64.rpm"
-RPM_HASH = "5ef61cf82ccc00261e2c0e430709bbae0ab6572af8e0ceb1a3ade507438df2b3aeef47dfeda650eebbebc81b68fec2297d42259eb164f234b224bc11c3b63b5a"
+RPM_NAME = "plasma5-workspace-libs-5.27.7-3.1.aarch64.rpm"
+RPM_HASH = "b2414b620bc68e960928dc4185572f272988237a7a1bc5dff7e0bbbd7e77adb271c6a2e7de0e4dc452dd75ed65ae78d8c9cc4a455b9769ead10cb813c83d7667"
 
 RPROVIDES:${PN} += "libcolorcorrect.so.5 \
 libkrdb.so \

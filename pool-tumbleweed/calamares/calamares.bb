@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.2.62"
 
-RPM_NAME = "calamares-3.2.62-1.1.aarch64.rpm"
-RPM_HASH = "3ab593c9a10633ba6e3ec2694262a0a90ca8d3c7cbf6d1ce312fa4bf50031654ea5903c6aca5417cecee84728d762c6ddbf0c748208dbe9aed217175dec40ee0"
+RPM_NAME = "calamares-3.2.62-1.2.aarch64.rpm"
+RPM_HASH = "86ccd88e9e059518359144da27dbe90c7847b0bbcae58ca0fc30e7ae2ad648c9a8cbdf487b6ca969230013046e6f30ef9b7cf7da6e774e39d52cb2bd125517fb"
 
 RPROVIDES:${PN} += "calamares \
 calamares-libs3 \
@@ -87,7 +87,7 @@ libm.so.6 \
 libparted.so.2 \
 libpython3.11.so.1.0 \
 libstdc++.so.6 \
-libyaml-cpp.so.0.7 \
+libyaml-cpp.so.0.8 \
 ntfsprogs \
 os-prober \
 parted \

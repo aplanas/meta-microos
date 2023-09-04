@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.2.37"
 
-RPM_NAME = "libxmlsec1-openssl1-1.2.37-2.3.aarch64.rpm"
-RPM_HASH = "4579927ac13bf1c549cf73dd5d66f2293a2b5734e5818a1be5090741f5a4c76b307307aa71e185b259e35e97e53d567deb894376f3a47957bf7c8cd377049f21"
+RPM_NAME = "libxmlsec1-openssl1-1.2.37-3.1.aarch64.rpm"
+RPM_HASH = "526d79d36446b2f46c1ccaa7b5a4ca023968adec18aa46f2dc26df3a3895cc024f625a969d79cb2d4ca7dce693d2cecc1fa2fbcc1d9124bc86e2dd928573bdd3"
 
 RPROVIDES:${PN} += "libxmlsec1-openssl.so.1 \
 libxmlsec1-openssl1"

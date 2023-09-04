@@ -5,10 +5,10 @@ and the ability to extract content from documents. \
 Apache PDFBox also includes several command line utilities."
 LICENSE = "Apache-2.0 & OFL-1.1"
 
-PV = "2.0.28"
+PV = "2.0.29"
 
-RPM_NAME = "apache-pdfbox-2.0.28-1.2.noarch.rpm"
-RPM_HASH = "25ad830829c708713bb943732adb51df1e67c2432019a026d121b24eaa68b888ef8708b42d13e758f66fdbd61849bce14a3979aa609964a3fa0d3055cd2c07d5"
+RPM_NAME = "apache-pdfbox-2.0.29-1.1.noarch.rpm"
+RPM_HASH = "89b83002649f9339eda10b08d37515de6b896b696280b37b76dbcdacc5ae0b0519857daf0e60ac046e8e029b8e59182045c709e592c3f5da221aab78c7b1ec83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-pdfbox \
@@ -20,8 +20,11 @@ mvn-org.apache.pdfbox-pdfbox-debugger-pom- \
 mvn-org.apache.pdfbox-pdfbox-pom- \
 mvn-org.apache.pdfbox-pdfbox-tools \
 mvn-org.apache.pdfbox-pdfbox-tools-pom- \
+mvn-org.apache.pdfbox-xmpbox \
+mvn-org.apache.pdfbox-xmpbox-pom- \
 osgi-org.apache.pdfbox \
-osgi-org.apache.pdfbox.fontbox"
+osgi-org.apache.pdfbox.fontbox \
+osgi-org.apache.pdfbox.xmpbox"
 
 RDEPENDS:${PN} += "apache-commons-logging \
 java-headless \

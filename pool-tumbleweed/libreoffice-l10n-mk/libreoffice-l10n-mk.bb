@@ -2,10 +2,10 @@ SUMMARY = "Macedonian localization files for LibreOffice"
 DESCRIPTION = "Provides Macedonian translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-l10n-mk-7.5.4.2-1.5.noarch.rpm"
-RPM_HASH = "f9e8804708f98f90cd396a16d99a6c02ebc129776ef383ddc16469b78393d250dae4ace82378d8990caea154dab1c6ee911e1c476b6d19a6fad1d8fb5221a7a1"
+RPM_NAME = "libreoffice-l10n-mk-7.6.0.3-1.1.noarch.rpm"
+RPM_HASH = "756fa1260c1da01e094ca4eb9c29e5ef796998b4763afef225172650329fd7bdce47ab4bb7e1e42300672ca1f7c047cfd03627176f9406ac20273583327b19bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-mk \

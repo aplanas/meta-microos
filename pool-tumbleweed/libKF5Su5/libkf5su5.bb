@@ -4,10 +4,10 @@ DESCRIPTION = "libkdesu provides functionality for building GUI front ends for \
 kdessh use it to interface with su and ssh respectively."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "libKF5Su5-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "5fbebd086aec06ef34670485f6817c1249dde1826a17d1e2aadaec83a511eb6142e27c7d3ded8a6ec44a7a377ff6b219819472b6221494f89e088ffea4748c2f"
+RPM_NAME = "libKF5Su5-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "ab7b59f45c224a7baa2dd2b3f14b5732a7ac8bdcd750e27f5be7bbc7c396f04df5be726723cd091332e8ba416479bcb367b618ffecf3c9647e4f146cfa7d1e1e"
 
 RPROVIDES:${PN} += "libKF5Su.so.5 \
 libKF5Su5"

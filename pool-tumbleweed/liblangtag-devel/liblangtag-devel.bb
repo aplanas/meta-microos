@@ -5,10 +5,10 @@ languages. \
 This package contains the liblangtag development files."
 LICENSE = "LGPL-3.0-or-later | MPL-2.0"
 
-PV = "0.6.3"
+PV = "0.6.4"
 
-RPM_NAME = "liblangtag-devel-0.6.3-2.7.aarch64.rpm"
-RPM_HASH = "7bcdcae820b23dd3a4151831e7c775f42542ba224978affcd214a890be26ac2e6147f036825812374c518540e0c8c1cdccf317bb1b937cdf6d12e6d0b40cedb9"
+RPM_NAME = "liblangtag-devel-0.6.4-1.1.aarch64.rpm"
+RPM_HASH = "bef7e2cc6dd375625cbffa8bb49a63e423095821f0c0988aa1bdf443d3e87a2523c9a8929a299ef0b5b989187dae4e8a1e496d10d4af0655b372a7e072f5ab17"
 
 RPROVIDES:${PN} += "liblangtag-devel \
 pkgconfig-liblangtag"

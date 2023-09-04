@@ -4,8 +4,8 @@ LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "23.02.2"
 
-RPM_NAME = "slurm-plugins-23.02.2-1.3.aarch64.rpm"
-RPM_HASH = "721283036f0333756e241dd6382fdd092d2a790c88d527e1252aa3c3a1e494b10e3666c9b9971131ef7c482aa76417cbb6a464dac2ccb643e704449c5af28e3e"
+RPM_NAME = "slurm-plugins-23.02.2-1.4.aarch64.rpm"
+RPM_HASH = "57d212de01dfa928622288d145d99fa22b3a9e279555b684a21286443755becc35121001a132e4fb00b14eafda84688f8456f08bc9b8200e0a3417318350dc5e"
 
 RPROVIDES:${PN} += "config-slurm-plugins \
 libslurm-pmi.so \

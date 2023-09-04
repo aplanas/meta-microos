@@ -56,14 +56,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.11"
 
-RPM_NAME = "perl-Dist-CheckConflicts-0.11-1.26.noarch.rpm"
-RPM_HASH = "e3f30f80ea7be80842c08213933a706e2a252355cf374bf465759dcd351da64aa74181c4263476113bf087d81fd047f1b56c68c47d3ad9aa0c2c9d4c19b69d63"
+RPM_NAME = "perl-Dist-CheckConflicts-0.11-1.27.noarch.rpm"
+RPM_HASH = "5000a07c86510fe9dae0f3a5fbe33b0c802f2e579e18308b2159adee5ac5ba5e4498a8c505a90091f1aa116488a40d01b6302fb91cab5b6d6bfc52053a8f3ce0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Dist--CheckConflicts \
 perl-Dist-CheckConflicts"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Module--Runtime"
 
 inherit rpm

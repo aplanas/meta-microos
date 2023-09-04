@@ -5,8 +5,8 @@ LICENSE = "OLDAP-2.8"
 
 PV = "2.6.4"
 
-RPM_NAME = "openldap2-back-sock-2.6.4-2.1.aarch64.rpm"
-RPM_HASH = "3237f58137136c90743109d782af852e6efe392b1fcd3ca428a3ead41745d995cda2f600cb5e3978cce82667c248aff61ad813378b8a0f0653c7b79fd55ee5e0"
+RPM_NAME = "openldap2-back-sock-2.6.4-2.2.aarch64.rpm"
+RPM_HASH = "f6d54300a27029301c5fa7e9dcc686a0434df3106f596061021c0ad4a2908f63a3f01fa696b64bf522ed20afcc15e44790dbafbf20722fd7a38bdcca556ca836"
 
 RPROVIDES:${PN} += "openldap2-/usr/share/man/man5/slapd-sock.5.gz \
 openldap2-back-sock"

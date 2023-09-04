@@ -9,8 +9,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.209.20210625.0svn65953"
 
-RPM_NAME = "texlive-ptex-fontmaps-2023.209.20210625.0svn65953-54.1.noarch.rpm"
-RPM_HASH = "9c400fadd0f0d9dd2d811e28439c4889b7e9f8db2e5c1bddabcc79a828284f3210da92fc9f9a6c8dd61a7a295487883cbef33570429eafa859df897efe3e0dc9"
+RPM_NAME = "texlive-ptex-fontmaps-2023.209.20210625.0svn65953-54.2.noarch.rpm"
+RPM_HASH = "4cc8b7ca8810f50cf1e5a86cb852de46a0c6610417fb2e5d762713110f651d13c435a4d05706ebda02967c535ea6393afaa044e007ed6fe749a28d00bb2b113a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-otf-bizud.map \

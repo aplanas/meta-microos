@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only & LGPL-2.1-only & ISC"
 
 PV = "1.10.0"
 
-RPM_NAME = "arp-scan-1.10.0-1.3.aarch64.rpm"
-RPM_HASH = "5012465cf17b850a027c81cfb43b1e8db314aa33a23c9a1350e34f8d93536b13cf3729c6c7db2e313e95637a69f15661500445e63749fec147251406ebf2397e"
+RPM_NAME = "arp-scan-1.10.0-1.4.aarch64.rpm"
+RPM_HASH = "1efeb3e803743c4e7e1f54069ec2d14c17712a314dc495f96821ec18c126715e14655a15e92adc30178860fbebbaaade36b275ddb31ce5697635a7aff9473a67"
 
 RPROVIDES:${PN} += "arp-scan \
 config-arp-scan"
@@ -15,7 +15,7 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcap.so.2 \
 libpcap.so.1 \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-LWP--Simple"
 
 inherit rpm

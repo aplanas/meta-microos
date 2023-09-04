@@ -6,8 +6,8 @@ LICENSE = "ICU"
 
 PV = "73.2"
 
-RPM_NAME = "libicu-devel-73.2-1.1.aarch64.rpm"
-RPM_HASH = "3ce1fa2e866d26b7d3715caa964d7b477315a2602671e697f257682c4cb6017d27cebcb9fc81fe133f82b0be20188c0db036ad63495fe4541132444464397670"
+RPM_NAME = "libicu-devel-73.2-2.1.aarch64.rpm"
+RPM_HASH = "17f3b1fd5a9435278fe4d32ac568354447f8445f413a1c866f272f94502ea36280b640ba5c8d0ff10caed62498e872d6dab8cde910eb88ccd3e39dc5b16153a4"
 
 RPROVIDES:${PN} += "libicu-devel \
 pkgconfig-icu-i18n \

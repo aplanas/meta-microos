@@ -14,13 +14,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.16"
 
-RPM_NAME = "perl-Time-Duration-Parse-0.16-1.10.noarch.rpm"
-RPM_HASH = "9662d1850132b8a4d74346e23ad3722266b23ff3277aa910f702d7b9de9141eff903f7990288a1123f84cbe626be245b806bb347d3505dfe2936b93354774cdd"
+RPM_NAME = "perl-Time-Duration-Parse-0.16-1.11.noarch.rpm"
+RPM_HASH = "336b689ace98ffa60abf66984cb6c230116ac1b8aa01bdf77de4e8f06f3453ab1bd9123ed16dceab094c8d9301155c86827accd9496a3ffba4413a232a3c807c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Time--Duration--Parse \
 perl-Time-Duration-Parse"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

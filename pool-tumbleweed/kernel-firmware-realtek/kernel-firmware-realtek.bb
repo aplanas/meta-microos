@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Realtek wireless drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230724"
+PV = "20230814"
 
-RPM_NAME = "kernel-firmware-realtek-20230724-1.1.noarch.rpm"
-RPM_HASH = "04f103d3db7855a278655657a3e777fd6b79f21e89495c3283135b794649ce412a80359fed06497bed96e5448e074763644dfc84074cadb9408a2e8985fcdfcf"
+RPM_NAME = "kernel-firmware-realtek-20230814-1.1.noarch.rpm"
+RPM_HASH = "c8b595f5b28a212aaffbd7f1458c3078a56740d2b2b9f8bf282dd2d5931c4578ad5e916990351061e6384ba9b424190d7d6d7a062d6da28bda364f73b09d75b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-RTL8192E/boot.img \

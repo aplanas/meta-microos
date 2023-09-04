@@ -28,8 +28,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.150"
 
-RPM_NAME = "perl-Perl-Critic-1.150-1.2.noarch.rpm"
-RPM_HASH = "44b82a994f2b1c2fa5be6d45c9f2a6746159eeae76283eccc9befbfe47eae1a5073f74299a2808b0f9d2288fb4e05b46942d8032ade6b51a939128f6eff5538e"
+RPM_NAME = "perl-Perl-Critic-1.150-1.3.noarch.rpm"
+RPM_HASH = "b29b4c6bb96f5fa6f29069b5f6384eeb6d6c12119b1df53f88acef708d7f52223b7db8de3f395d0f4f2d9514ce322a543d98ab1213f449f3c162677c7165eb34"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Perl--Critic \
@@ -229,7 +229,7 @@ perl-Perl-Critic \
 perl-Test--Perl--Critic--Policy"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-B--Keywords \
 perl-Config--Tiny \
 perl-Exception--Class \

@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0.3svn61941"
 
-RPM_NAME = "texlive-hamnosys-2023.209.1.0.3svn61941-54.1.noarch.rpm"
-RPM_HASH = "975b622c574619deb6c0ce73c20993bcc2fd06f39da9a96795b9b31298e1fa5a78ac156b414a7555927cc9862db4c2572edca60f3443acc95a754f1c66fc2cea"
+RPM_NAME = "texlive-hamnosys-2023.209.1.0.3svn61941-54.2.noarch.rpm"
+RPM_HASH = "d2c6d6dc3aaaceac452d85c783a43b25d7ab5c8598e87b083650ee4eaad2690eb22bcdd0e3f7b832cb9b171f9aedc3c92762c23817244f51821ebfc97d4d6631"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hamnosys.sty \

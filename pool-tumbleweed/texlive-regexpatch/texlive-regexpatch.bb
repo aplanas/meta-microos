@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.2fsvn58668"
 
-RPM_NAME = "texlive-regexpatch-2023.209.0.0.2fsvn58668-54.1.noarch.rpm"
-RPM_HASH = "a06fd0719c0f8ea0d9c71489d616f1cd84a0e7669917e3a67f4d9507fe6a9b94f5c35b0d8974bdde8361a6efa75539e1d9acc2fcc4e970668e77e6f14b2e1bf9"
+RPM_NAME = "texlive-regexpatch-2023.209.0.0.2fsvn58668-54.2.noarch.rpm"
+RPM_HASH = "f9423e9f47129e77a4a085a77a08f2b6d107ca6f12b69280d4e32d5f88736e5f6885623292ba17fbdb9e2ec92927d7edeb1d18d68ba60a0191770ae5f29382e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-regexpatch.sty \

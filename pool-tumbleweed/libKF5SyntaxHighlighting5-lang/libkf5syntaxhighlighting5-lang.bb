@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5SyntaxHighlighting5"
 DESCRIPTION = "Provides translations for the 'libKF5SyntaxHighlighting5' package."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-only & GPL-2.0-or-later & GPL-3.0-only & MIT & BSD-3-Clause & Artistic-1.0"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "libKF5SyntaxHighlighting5-lang-5.108.0-1.1.noarch.rpm"
-RPM_HASH = "d2442e2f2fec61b819894ed3e285600af142ed01a3c3142e7540d00e05cc09054b4daa4f48f660b2bef8957c250ea2b44e58c7c8f7c726b49914e5066e32dfda"
+RPM_NAME = "libKF5SyntaxHighlighting5-lang-5.109.0-1.1.noarch.rpm"
+RPM_HASH = "750e817a52c2fcf5c4022ef654255a5b72bfd58cae06bdc51e6272cfba50bb9061a6f494828eb36106b0108cd250d54697ac560e2ce7bfed9ac26b3dd1ba18aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5SyntaxHighlighting5-lang \

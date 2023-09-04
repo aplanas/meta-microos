@@ -2,10 +2,10 @@ SUMMARY = "Core library of classes to work with KCModules"
 DESCRIPTION = "KCMUtils provides various classes to work with KCModules. This package provides the main core library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "libKF5KCMUtilsCore5-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "e6fcc96abd9edbeb63d0229513cad4d38c31fb5e3cbf268c2966204614b0db6f8cd488ad56e9e3ea9596892c8e83e38a04ee1167a325c90f13585797262a8891"
+RPM_NAME = "libKF5KCMUtilsCore5-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "e1c0824a9b239a913bba56f0e368308aa9f44443b070ebb3900defae56cd817ec6b44980d6f8bbf1550a8664dc1fa57fcbd2ca8e62e5c69db6747b673402f4c0"
 
 RPROVIDES:${PN} += "libKF5KCMUtilsCore.so.5 \
 libKF5KCMUtilsCore5"

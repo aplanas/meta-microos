@@ -7,8 +7,8 @@ LICENSE = "PostgreSQL"
 
 PV = "1.5.2"
 
-RPM_NAME = "postgresql11-pg_cron-1.5.2-1.2.aarch64.rpm"
-RPM_HASH = "bd876ebc7c4a8925e97dd0848d955d6f7ed777d5f0e25d2edc871d89e6a406545144ffe60f95cab23095c70f96d01c4f6b9ff9a8a8ef9492f0f3da8b0ce8946b"
+RPM_NAME = "postgresql11-pg_cron-1.5.2-1.3.aarch64.rpm"
+RPM_HASH = "8bbb0698711699c5e0d94969fc67d2949ea549e9b6238014005c162aa06db4b47a12be16566a31d57ba5191b8eecb221748c28c592d73cbdbd707e48ed3c7bc6"
 
 RPROVIDES:${PN} += "postgresql11-pg-cron \
 postgresql11-pg-cron-llvmjit"

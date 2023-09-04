@@ -5,10 +5,11 @@ This package contains header files and libraries needed to develop \
 application that use molsketch."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.7.3"
+PV = "0.8.0"
 
-RPM_NAME = "molsketch-devel-0.7.3-1.4.aarch64.rpm"
-RPM_HASH = "fbba11cf0dd7e4367012a401d7bf49282026da477a54676eab69abc72667a6891dbe13d089a1d316f3d0a241eb07760058c2e48e7c7e38e3d42856be315681e2"
+RPM_NAME = "molsketch-devel-0.8.0-1.1.noarch.rpm"
+RPM_HASH = "7424fc4da7eb719145219e9977a9a51acf624182ce0fb90119af3c7e502508ca5bd5690df05b15b92ed090134425e9ebe7f61db9b39e3ffcd32e1f9f26020c50"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libmolsketch1 \
 molsketch-devel"

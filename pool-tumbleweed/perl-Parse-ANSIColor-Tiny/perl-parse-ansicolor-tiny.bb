@@ -22,13 +22,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.700"
 
-RPM_NAME = "perl-Parse-ANSIColor-Tiny-0.700-1.3.noarch.rpm"
-RPM_HASH = "499e44057df61ee9234de4e4156edb19ac0b929d6ae124d6ff6a328945428f3fdd7b4084be56edcab6cd8e4c75b8b3872368e24632c6425cce002c5b8cb79063"
+RPM_NAME = "perl-Parse-ANSIColor-Tiny-0.700-1.4.noarch.rpm"
+RPM_HASH = "3e53ce29b1c36d17015034023c3517a09043a9da6b119b17d9d211cbe3aef51762c6888fa62883a19103a8da09bdad2c9e5a11508c6013c6766c543fed9496cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Parse--ANSIColor--Tiny \
 perl-Parse-ANSIColor-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

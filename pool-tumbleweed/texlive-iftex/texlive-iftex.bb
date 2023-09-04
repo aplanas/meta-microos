@@ -7,10 +7,10 @@ also provides the \\RequirePDFTeX, \\RequireXeTeX, and \
 or LuaTeX (respectively) is not the engine in use."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.0fsvn61910"
+PV = "2023.209.1.0fsvn61910"
 
-RPM_NAME = "texlive-iftex-2023.208.1.0fsvn61910-53.1.noarch.rpm"
-RPM_HASH = "4602fdcf362c72b9e36051867b974e7620bbf3019844987b78b60eaedf2738909b19e6a47a6c698a4c308e272d12543f327482b6584cd783bfd5144896570b57"
+RPM_NAME = "texlive-iftex-2023.209.1.0fsvn61910-54.1.noarch.rpm"
+RPM_HASH = "59de2dd2bf4d6dbf420d6579f51da2036845178ac9b7b7a98504df5513ceef3f42366c96275c0d9145ecd332ca332d9aa5dca68f6c91e43a71672bbd415618b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ifetex.sty \

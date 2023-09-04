@@ -16,8 +16,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn66203"
 
-RPM_NAME = "texlive-xetex-2023.209.svn66203-53.1.noarch.rpm"
-RPM_HASH = "69deed86b6dff54a2f97b8e729813814920879ca0b423a08c70b391eb5298fb7d50d6671bfc7d4e0134b35d0224a20571c9aac9483a553cfe4ed52ace9fff1a2"
+RPM_NAME = "texlive-xetex-2023.209.svn66203-53.2.noarch.rpm"
+RPM_HASH = "1cd9a77d6f4c524bd62acdfa9dc34c00a5b9e1f74c4d3eeb136edcbd608aabdeba02d121cd270fe4c8f215cf57b59ba626c04eb2dab787f11199b4bcab79e36f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-qx-unicode.map \

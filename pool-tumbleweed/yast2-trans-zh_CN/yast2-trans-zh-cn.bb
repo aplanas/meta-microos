@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Simplified Chinese Translations"
 DESCRIPTION = "YaST2 - Simplified Chinese translations."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230729.64eca7e0a1"
+PV = "84.87.20230818.ea489402e5"
 
-RPM_NAME = "yast2-trans-zh_CN-84.87.20230729.64eca7e0a1-1.1.noarch.rpm"
-RPM_HASH = "df45fbce434fa420d8d87268b5656939926e6b424034684c875ac6282b73a5f70b484afb9f2e142f76c0477f3f32541ee7bdf41a58f7d0b25bc7c3622c34c4c9"
+RPM_NAME = "yast2-trans-zh_CN-84.87.20230818.ea489402e5-1.1.noarch.rpm"
+RPM_HASH = "8acb7320d4c06613b88d89e4a04dbf70fe2127c8de8e543bd523636cec758c9fb9f6fe00dab2b9ae1e478a87ed286108c1585a4250fe909d640c7ab2be020d33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-zh-CN \

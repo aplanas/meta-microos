@@ -20,8 +20,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.69"
 
-RPM_NAME = "po4a-0.69-1.3.noarch.rpm"
-RPM_HASH = "e1b4c4ee4ac32c71af61ee64ff7dc8cb6f3fc89d66b88e6762033894538819e517a4c6deb20a64c2f7911a94008baf3401b66debab94667f580f30c0f6e734b7"
+RPM_NAME = "po4a-0.69-1.4.noarch.rpm"
+RPM_HASH = "30c4db98331ac95278a0350e8408cfebb4714fdadf051ad9a600bddf26d66c96f86f320dcf63898240ad2648c19f20b826a0e762644bd2e9e0ba7ee8c19a747c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Locale--Po4a--AsciiDoc \
@@ -55,7 +55,7 @@ po4a"
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/sh \
 gettext-tools \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Pod--Parser \
 perl-SGMLS \
 perl-Syntax--Keyword--Try \

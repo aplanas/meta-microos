@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-2.0+"
 
 PV = "0.08"
 
-RPM_NAME = "perl-libxml-perl-0.08-159.30.aarch64.rpm"
-RPM_HASH = "5a6d3be992d639cd1767b94982c94913cb0ec2eaaf26ac76f5b0a83b91639542d780dce404bb3ca2e1a5a7a9d48a92ecc12e5ab16bbbc709ce5f486912d51183"
+RPM_NAME = "perl-libxml-perl-0.08-159.31.aarch64.rpm"
+RPM_HASH = "48224bc4ebc9f34d3988ce1fa7fa41a0ad13fec4cdad9fc338fbba5be5ed20793a2ac2c4492f50978d573b60fde339aa2d1524769dfdcba4d629fb21eef644b5"
 
 RPROVIDES:${PN} += "perl-Data--Grove \
 perl-Data--Grove--Characters \
@@ -33,7 +33,7 @@ perl-XML--Perl2SAX \
 perl-XML--SAX2Perl \
 perl-libxml-perl"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-XML-Parser"
 
 inherit rpm

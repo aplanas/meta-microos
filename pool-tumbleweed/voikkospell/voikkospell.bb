@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.3.2"
 
-RPM_NAME = "voikkospell-4.3.2-1.1.aarch64.rpm"
-RPM_HASH = "4ac18600ecf99459991f4593f7b11e357a236c066c2fcd12bf61900c3bbbb5255533aa9ecacd9f8c1a03db476b4288e4ab70eb54dec628f0fd994c6b37e4a8eb"
+RPM_NAME = "voikkospell-4.3.2-2.1.aarch64.rpm"
+RPM_HASH = "07ad0bb7116d1994e5c817f0d47f68664fd5d725a2059717186324b3182719d8e67437bcb4df01a64bb2e1dd40c91643336fa7ab7921d64a23432672fa040298"
 
 RPROVIDES:${PN} += "voikkospell"
 

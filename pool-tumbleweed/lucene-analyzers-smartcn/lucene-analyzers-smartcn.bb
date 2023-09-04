@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "8.5.0"
 
-RPM_NAME = "lucene-analyzers-smartcn-8.5.0-4.1.noarch.rpm"
-RPM_HASH = "786788b0a59921bf6212e7d941741431ada5eea5de20e62d56eb7132d580476e3df8d110c3d61cbead9e970f54529d2a2d29641d1755e5e4c52d839500dc3a9d"
+RPM_NAME = "lucene-analyzers-smartcn-8.5.0-5.1.noarch.rpm"
+RPM_HASH = "6151b91ce10e7a594ad430968699fa63854e57df8cb161ca525f0e83347dcf74aa060b50c9c7f70e0f68934c1278a33d6f6e1307df1b9eea1d54affe38c22b0a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lucene-analyzers-smartcn \

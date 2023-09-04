@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.13.0"
 
-RPM_NAME = "supercollider-devel-3.13.0-1.3.aarch64.rpm"
-RPM_HASH = "406f8fc6aee054ae96f6dde6ebcc1180d77a10593648f3c1cd8ae3bae1e83be351785db542b757483308e7f58157c26162b67466c5f48abe70401e99c0715c2a"
+RPM_NAME = "supercollider-devel-3.13.0-1.4.aarch64.rpm"
+RPM_HASH = "e86de00929236346fbff96d3d67252cfd79041e7e9f03423e7e60064d69f3a3d3ebfae4a1e40c4715e189174a985014507f2228a4c9a5de3fa61074cf68bcffb"
 
 RPROVIDES:${PN} += "supercollider-devel"
 

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.18"
 
-RPM_NAME = "system-config-printer-1.5.18-2.2.aarch64.rpm"
-RPM_HASH = "46d6c306a488b12c9a3c89bed8d5c3202432c2465e717914abc249789cd9fd314c6adec6f47845515577d09b25ff1a75253aa8aad88f563f08367935b393730d"
+RPM_NAME = "system-config-printer-1.5.18-3.1.aarch64.rpm"
+RPM_HASH = "5b8aed93fa97dce2e7339e815f0c58785279e43e1c2d490edd480dc8dee5d6f04f4fc0de39629c2bfab9e29dda3c1a639c5094a1d2328c5d3b99d8810ba6084e"
 
 RPROVIDES:${PN} += "system-config-printer"
 

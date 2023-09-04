@@ -62,14 +62,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.8001"
 
-RPM_NAME = "perl-ExtUtils-Depends-0.8001-1.10.noarch.rpm"
-RPM_HASH = "a0afb708e3b4984485458c6a9bc181966a7f0d30161d53a665c88ea8b7d7c7e6b8d7437d71f45095b549a828eb646471467bf626d3d50def2883aea4ff6bf911"
+RPM_NAME = "perl-ExtUtils-Depends-0.8001-1.11.noarch.rpm"
+RPM_HASH = "ee09fd3424176e2fca90f4aa7697cec81c5eae71ad32766fabcdaa2223318e8732f4741856cf455a519497c4973c78cc41975f967ea3e156f8898bf87866df17"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-ExtUtils--Depends \
 perl-ExtUtils-Depends"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-ExtUtils--MakeMaker"
 
 inherit rpm

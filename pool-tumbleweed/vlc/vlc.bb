@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.0.18"
 
-RPM_NAME = "vlc-3.0.18-8.1.aarch64.rpm"
-RPM_HASH = "78915c22940e5828c38775d82e583442edd7d0adb4f2583362b660b6d7e06984f2e7d9702121474921f32c198214de160da2b8eded841b5ab037be50c44e2c0b"
+RPM_NAME = "vlc-3.0.18-9.1.aarch64.rpm"
+RPM_HASH = "ce2cd3a6ff27d91efe560bf1319540746df4a74a98c19e67d245159cdc4ae326418ed13c029071530012eeef3794cb124bb50ac31a21d71df733d0d023839510"
 
 RPROVIDES:${PN} += "libaa-plugin.so \
 libavcodec-plugin.so \

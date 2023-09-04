@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.003"
 
-RPM_NAME = "perl-PPIx-Utils-0.003-1.2.noarch.rpm"
-RPM_HASH = "6604f9f7b78da1996f4dae727208278c105a0f4e161429260c57c39d76d0c4a81388eb1d227b8412eb633ccb1a2bda85fdb6707a4efe77c2a6c5352a210b2106"
+RPM_NAME = "perl-PPIx-Utils-0.003-1.3.noarch.rpm"
+RPM_HASH = "2c838dfbed25629ed7bd8c4420c9017b864cd8393cf6f14e145b6ce9ba43fca295da57818bb50c155f2fc82ce59554aa9da88003893ea593d692f6ad4a453578"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-PPIx--Utils \
@@ -21,7 +21,7 @@ perl-PPIx--Utils--Language \
 perl-PPIx--Utils--Traversal \
 perl-PPIx-Utils"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-B--Keywords \
 perl-PPI"
 

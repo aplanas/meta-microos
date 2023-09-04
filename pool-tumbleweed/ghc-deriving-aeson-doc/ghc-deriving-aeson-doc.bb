@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.9"
 
-RPM_NAME = "ghc-deriving-aeson-doc-0.2.9-2.3.noarch.rpm"
-RPM_HASH = "9f8d5f361f8cf0387b407d36e1638781c79431609a9dcee8bea0f0e7ba9a470c85a799d7a9a02a0e1fc829fdc26e9e7d3194584fb57368632fb2600e1dc45174"
+RPM_NAME = "ghc-deriving-aeson-doc-0.2.9-3.1.noarch.rpm"
+RPM_HASH = "21bfc64da6c36f67e0633a012a3eeb97cb24ddbbbb1134c787b8d708238ebaa57855b152de3922bdd0b34f6511931e24901051b889d4251c3a4dd0771915a920"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-deriving-aeson-doc"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later | BSD-2-Clause"
 
 PV = "0.2.6"
 
-RPM_NAME = "perl-marisa-0.2.6-1.23.aarch64.rpm"
-RPM_HASH = "a6f46ff39ae65fcb59739dcfac2f00c43940bdae727edbf709be3806af25eb4f334d7d9af1ee3915d4b5c3250f1bdf01b399bb3fbef4235b3d8f28460aa3cd9a"
+RPM_NAME = "perl-marisa-0.2.6-1.24.aarch64.rpm"
+RPM_HASH = "59bab06d340a12a01103b4ab7b152a231dae355eed9d1ea50fde2b4256294e44d1c6555a0754852696a89a7ba22fcad63c36b4c0062f4100978f2a75d124dca0"
 
 RPROVIDES:${PN} += "perl-marisa \
 perl-marisa--Agent \
@@ -19,6 +19,6 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 marisa \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

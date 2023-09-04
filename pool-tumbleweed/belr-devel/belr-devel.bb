@@ -6,10 +6,10 @@ This package contains header files and development libraries needed \
 to develop applications using the belr library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.51"
+PV = "5.2.98"
 
-RPM_NAME = "belr-devel-5.2.51-1.2.aarch64.rpm"
-RPM_HASH = "247cee8fbccf75b752c71bccff9db71d8d8571ff9909838a209768619fc800ca85cf1d8b38d867f2f3edbeecb8dcdd8b5c62eff4a0af6040abac13fdaaf2d467"
+RPM_NAME = "belr-devel-5.2.98-1.1.aarch64.rpm"
+RPM_HASH = "9f30b204edbe22b1d05307dc2e8e055c06d4f1a955591d54e7842ab35bb49faa6882fef8fe372414aafca5df75d3278e8c5eb84cdd006d1169e5f5eb9107eb83"
 
 RPROVIDES:${PN} += "belr-devel \
 cmake-belr \

@@ -16,8 +16,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.26"
 
-RPM_NAME = "perl-Pod-Spell-1.26-1.2.noarch.rpm"
-RPM_HASH = "9105d39408cc0694a6491cfdbcfab0261e0fc47df4d7e25db597d3732fb9951f2c207e9578047d26b580b2747f82dcb898ef96178c4cf0f54fe7f4d107529766"
+RPM_NAME = "perl-Pod-Spell-1.26-1.3.noarch.rpm"
+RPM_HASH = "491d6c4fc66fe95a84f2c9fcd66743c1abf992adf2e94d146628ac5d04a8e0af281efccb96667a36d458bdfb3c0ee26391bc3496f2a3a5de0cf1d28826e9b45d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Pod--Spell \
@@ -25,7 +25,7 @@ perl-Pod--Wordlist \
 perl-Pod-Spell"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Class--Tiny \
 perl-File--ShareDir \
 perl-Lingua--EN--Inflect \

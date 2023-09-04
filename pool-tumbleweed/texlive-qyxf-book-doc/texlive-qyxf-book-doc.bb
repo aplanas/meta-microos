@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.3.1.0svn56319"
 
-RPM_NAME = "texlive-qyxf-book-doc-2023.209.3.1.0svn56319-54.1.noarch.rpm"
-RPM_HASH = "6fef93386175bd793d9e8e85d943ddfde84223b45141245d5d80ff19364ee4623ccb80044ee534963cb4fbc35371d23f3b991c0b863ef16d2aedf9507b6df939"
+RPM_NAME = "texlive-qyxf-book-doc-2023.209.3.1.0svn56319-54.2.noarch.rpm"
+RPM_HASH = "4487cb78b939073f480242fd56396233ccda1fba30d27d76bec3a8d73ac890fb414ca58203d8264bd79957f9c031da0d69ed96c05ef9b10a29544235a89ddb8b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-qyxf-book-doc-zh \

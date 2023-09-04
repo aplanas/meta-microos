@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn53577"
 
-RPM_NAME = "texlive-scripts-extra-bin-2023.20230311.svn53577-93.1.aarch64.rpm"
-RPM_HASH = "ddf64b0d980f8f10be0db17343dee001383f74e73feec53963e55a99f428bc85d396d333aaa704e983ee9bc2abab17c3581824a872c7e4272abfb8433f4038a8"
+RPM_NAME = "texlive-scripts-extra-bin-2023.20230311.svn53577-93.2.aarch64.rpm"
+RPM_HASH = "90e0b74516278e969ced7fc43393882b21c4ea42432c34a9b9f9d9a72b974aaab18b1c04c9d1a6c2be11e61a31a14fb2a51fc46937783709838fa56cbf369828"
 
 RPROVIDES:${PN} += "texlive-pdftools-bin-/usr/bin/e2pall \
 texlive-scripts-extra-bin \

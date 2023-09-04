@@ -5,16 +5,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1.0"
 
-RPM_NAME = "ghc-base64-bytestring-devel-1.2.1.0-3.1.aarch64.rpm"
-RPM_HASH = "67cc7f721835d2a47a18be0c0cf650ce1dcc59b7ce56c68a505102ef088947170020303e950d5fb78abf94fedad5745a1d1841161feb6d32340564c9714efe32"
+RPM_NAME = "ghc-base64-bytestring-devel-1.2.1.0-3.3.aarch64.rpm"
+RPM_HASH = "e6298c222ca45ad0d834c10bc9e31adcabe5d07275ddbf32120604cbeb0d980db116bdab087126ac10ddb022f68e52a753a2ccec4f2a96af38009364d6d10f3c"
 
 RPROVIDES:${PN} += "ghc-base64-bytestring-devel \
-ghc-devel-base64-bytestring-1.2.1.0-8KbzJpmSQbYKTeew1rv0hh"
+ghc-devel-base64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-base64-bytestring \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0"
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1"
 
 inherit rpm

@@ -47,13 +47,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.26"
 
-RPM_NAME = "perl-Hook-LexWrap-0.26-1.24.noarch.rpm"
-RPM_HASH = "c091513c1274399e72b7ab0e0587beba6dd1f9b12a03cda06f402cfc71cd0841b66e583044d820d4f605b4589932128a56e24ce983b2e7a923fffa3be717966b"
+RPM_NAME = "perl-Hook-LexWrap-0.26-1.25.noarch.rpm"
+RPM_HASH = "25a3a38cc687567acf40ca9015c097621f407eecfb121fc2574dab9298e770da5513efdfdd1d885f9de9aee4ad33515506f06a895296839f45bf7cea0ec1ec59"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Hook--LexWrap \
 perl-Hook-LexWrap"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

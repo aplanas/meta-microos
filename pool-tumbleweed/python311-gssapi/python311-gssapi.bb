@@ -6,8 +6,8 @@ LICENSE = "ISC"
 
 PV = "1.8.2"
 
-RPM_NAME = "python311-gssapi-1.8.2-2.3.aarch64.rpm"
-RPM_HASH = "211aa05e0a941610de2cfbceb9189ef9fe076955ddd2c49a5be535ffe04d96d1ffcf9575eaeb8f0f422abdcdfe98105193050a1dfdaea4f7ecb50f2c1be1011d"
+RPM_NAME = "python311-gssapi-1.8.2-3.1.aarch64.rpm"
+RPM_HASH = "02c49d00915ce981bfe406da3a6f085c06420a5b145315e5faad6825a0d7a628e07d7767be04a8f8d9454affdb74663930d784a20e53c8f99bfc98a83c4f25e2"
 
 RPROVIDES:${PN} += "python3-gssapi \
 python3.11dist-gssapi \

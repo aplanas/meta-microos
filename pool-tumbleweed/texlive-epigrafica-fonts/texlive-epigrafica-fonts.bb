@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.1.01svn17210"
 
-RPM_NAME = "texlive-epigrafica-fonts-2023.209.1.01svn17210-54.1.noarch.rpm"
-RPM_HASH = "a42234ca12cb961567b5c66ec755c2dfff6c913e7fac7408efb2f8e3f1078a98cc13cd357f4c9ba1dbd1f1e512567f5e898f63e70247509c1d75ec354def6c45"
+RPM_NAME = "texlive-epigrafica-fonts-2023.209.1.01svn17210-54.2.noarch.rpm"
+RPM_HASH = "641888815e5659ef43c45d662c84ca410123c3462d75a379d243bbfacc317dc7e59fc8944d985f1ab3b26891302c3d87f48b1627203dc0c35b2b38bc7b518898"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

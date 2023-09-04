@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.53"
 
-RPM_NAME = "perl-MooseX-Storage-0.53-1.14.noarch.rpm"
-RPM_HASH = "6a275975fadbaba4fde2c50f2f999fd8e08d247a1ccb02991b5d928e07c1ce63a59e89aca1cfb075a66f2d7c029904dbff3bc555e05d71d8cf2088dfef432f90"
+RPM_NAME = "perl-MooseX-Storage-0.53-1.15.noarch.rpm"
+RPM_HASH = "3419afc65a71c2b47e6e87b3d7a9848419f1e08c7cba2c68cabddab66a5dd149a2f9456d6d858742bd532caea980bd45a754aad46eaa95a6ac7eae194bbd4000"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Storage \
@@ -32,7 +32,7 @@ perl-MooseX--Storage--Traits--OnlyWhenBuilt \
 perl-MooseX--Storage--Util \
 perl-MooseX-Storage"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-IO--AtomicFile \
 perl-JSON--MaybeXS \
 perl-Module--Runtime \

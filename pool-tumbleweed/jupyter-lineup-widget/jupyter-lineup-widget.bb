@@ -9,15 +9,13 @@ LICENSE = "MIT"
 
 PV = "4.0.0"
 
-RPM_NAME = "jupyter-lineup-widget-4.0.0-1.9.noarch.rpm"
-RPM_HASH = "badadc723f380c795d3c7fd2d63d7acb27f31ac3f3b38765b4ad9637b63bf9cea5568c72ee1d24c4ea544bd18bd2554b06a8b7e414ddc1a0c5e7193f06d7045e"
+RPM_NAME = "jupyter-lineup-widget-4.0.0-2.1.noarch.rpm"
+RPM_HASH = "215bf368cd45562cc94b7aa864705ff4e4b1859c2d69abf8716edba5856a9b3c791bd8e8dee0771b313ea8eeb07520244ef571cbd82caf3a9f37bb620ecdd804"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config-jupyter-lineup-widget \
-jupyter-lineup-widget"
+RPROVIDES:${PN} += "jupyter-lineup-widget"
 
 RDEPENDS:${PN} += "jupyter-ipywidgets \
-jupyter-notebook \
-python3-lineup-widget"
+python3dist-lineup-widget"
 
 inherit rpm

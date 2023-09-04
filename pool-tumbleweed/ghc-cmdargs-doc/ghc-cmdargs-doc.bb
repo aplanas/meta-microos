@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.10.22"
 
-RPM_NAME = "ghc-cmdargs-doc-0.10.22-1.6.noarch.rpm"
-RPM_HASH = "61e1a90930be248d94dc1c0231522c9857d19d8828a48c39091bf765415fb081460886a2cfb5d44590e965c10db9127667bd2354748f97b5211e8bc9d42b7810"
+RPM_NAME = "ghc-cmdargs-doc-0.10.22-1.8.noarch.rpm"
+RPM_HASH = "742c61533f0c9db3515e8f1ccc7b9f37fd52a2c5196deaddc56bdbf706e92c43e8a305731fbb254230269dfd300c360ec52ecfbe91357ea9528cae8db5cd9504"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-cmdargs-doc"

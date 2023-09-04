@@ -3,16 +3,13 @@ DESCRIPTION = "ECJ is the Java bytecode compiler of the Eclipse Platform.  It is
 the JDT Core batch compiler."
 LICENSE = "EPL-2.0 & GPL-2.0-only-with-Classpath-exception-2.0"
 
-PV = "4.18"
+PV = "4.23"
 
-RPM_NAME = "ecj-4.18-4.5.noarch.rpm"
-RPM_HASH = "d9f2bc1508e548745f92d36b10ea8afb9100eaf02069f132278ebdf61098e816347d1df9cdea265e11765f6e0f79e12e4c70cf94bf03ccb2ebc4651b8653b42d"
+RPM_NAME = "ecj-4.23-2.1.noarch.rpm"
+RPM_HASH = "63bf6900cd7aa8b539a6edc9f6b215e992be719662a8056c2f1460b03245712273b0a70f273a7e1890ce08c3c4a5f421dabe1b53fc42a580d5cc793ddf324275"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ecj \
-mvn-org.eclipse-java10api \
-mvn-org.eclipse-java15api \
-mvn-org.eclipse-java9api \
 mvn-org.eclipse.jdt-core \
 mvn-org.eclipse.jdt-core-pom- \
 mvn-org.eclipse.jdt-ecj \

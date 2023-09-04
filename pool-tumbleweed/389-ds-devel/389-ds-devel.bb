@@ -9,10 +9,10 @@ features. \
 This package contains the development files for 389DS."
 LICENSE = "GPL-3.0-or-later & MPL-2.0"
 
-PV = "2.4.0~git18.37ec5cd"
+PV = "2.4.0~git74.4297d88"
 
-RPM_NAME = "389-ds-devel-2.4.0~git18.37ec5cd-1.3.aarch64.rpm"
-RPM_HASH = "599aead40ebdf531c39c1e74de496f3ad6d17e8de58cdd1c70b74f4ebee802c72f8269cdbe6db0663b5817b6cdf855bb346cb62d31234a467f0f23dc1ee7df47"
+RPM_NAME = "389-ds-devel-2.4.0~git74.4297d88-1.1.aarch64.rpm"
+RPM_HASH = "fd0c3bed94143061c3c2bc99e33b495f4d417a49a615cf4f63a47d8f34f9925c16970f046d6e58abc30c0257ca28d08bf5b5cbf0a45fe2418daa0926d2550646"
 
 RPROVIDES:${PN} += "389-ds-devel \
 pkgconfig-dirsrv \

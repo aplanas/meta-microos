@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.2svn17354"
 
-RPM_NAME = "texlive-grfpaste-doc-2023.209.0.0.2svn17354-54.1.noarch.rpm"
-RPM_HASH = "2f9234a3d566ced4f383ae7247b7cbbf3a0b838d06fb1e442eacb0940209c05a91fade35f3443d6661ed2bee7c48c708926663a5c299144b8484599e99864c3b"
+RPM_NAME = "texlive-grfpaste-doc-2023.209.0.0.2svn17354-54.2.noarch.rpm"
+RPM_HASH = "733b37997dd78e7699ec510030c46f775ac2ca1934268c7d40fddc7ca7b6fb1cf170095fc302fc9fecd8246646e4200f82ee8775d999bb3ce4074db77c5d1e38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-grfpaste-doc"

@@ -2,10 +2,10 @@ SUMMARY = "A wrapper around the stdlib `tokenize` which roundtrips"
 DESCRIPTION = "A wrapper around the stdlib `tokenize` which roundtrips."
 LICENSE = "MIT"
 
-PV = "4.2.1"
+PV = "5.1.0"
 
-RPM_NAME = "python39-tokenize-rt-4.2.1-1.11.noarch.rpm"
-RPM_HASH = "85c3b43013bc31a43db5e1b95f250bbd9f095a57ef36c21a5b668d383e3381c0164489fdd2ac4c43b187ccfc10fb68219138f1304a1fc23e69cf8e63fe8e6c1a"
+RPM_NAME = "python39-tokenize-rt-5.1.0-1.1.noarch.rpm"
+RPM_HASH = "107dbd4a5429e410aac9275563c11e1bd9bdb0750405ad954d628eb5a6196822ec6d582627e09e5c3879a9b63f87120a944489b323f8fd357f2e169a50b78929"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-tokenize-rt \

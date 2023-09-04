@@ -8,10 +8,10 @@ This subpackage contains the headers needed for building applications \
 making use of libgpgme."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.21.0"
+PV = "1.22.0"
 
-RPM_NAME = "libgpgme-devel-1.21.0-1.1.aarch64.rpm"
-RPM_HASH = "47c958365006ae53cd58271af4883725936ce46a85745752c9430a5783a42a1f0a2d88d433d35df5313fd277106d0cb2b71cc27dc06c9e0cf51932662c131a50"
+RPM_NAME = "libgpgme-devel-1.22.0-1.1.aarch64.rpm"
+RPM_HASH = "34221ccc5aec5070341f0c0859cbcdad4f89d62f437ce9a1542e61e169006ef243fd1ffd0f6da504d92099fcebbd4be262a88061ce9934747f68f45a9681a4f8"
 
 RPROVIDES:${PN} += "gpgme-devel \
 libgpgme-devel \

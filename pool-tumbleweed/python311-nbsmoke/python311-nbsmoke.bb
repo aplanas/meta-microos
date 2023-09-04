@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.0"
 
-RPM_NAME = "python311-nbsmoke-0.6.0-3.5.noarch.rpm"
-RPM_HASH = "38f252e3f5af5ddacf59c639f8d09f28b283c5144d84ff7f52fad38e4a95c9a7eff53f0b568cb3240d7aabfc4409b423da529d0aa8a218f44e21d055d5fd9325"
+RPM_NAME = "python311-nbsmoke-0.6.0-4.1.noarch.rpm"
+RPM_HASH = "08b40b05c1894c23204841855274acb52be74902936f37c932f714c6e5b9b5488c5db728315adea9282e153a70251492f5c06d21713f5edd7c6d010f62378c49"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-nbsmoke \

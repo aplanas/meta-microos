@@ -5,10 +5,11 @@ tool, and WIDS (wireless intrusion detection) framework. \
 This subpackage contains the Freaklabs Zigbee capture helper."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2022_08_R1"
+PV = "2023_07_R1"
 
-RPM_NAME = "kismet-capture-freaklabs-zigbee-2022_08_R1-2.5.aarch64.rpm"
-RPM_HASH = "470b0da5e24f5f3f7c53bbc9699b051c46884b64d37b390a791b9884e12d176187a00fa05826202e594ba20ef69df160d3065be5cf86463f6c39c42c942bd5ef"
+RPM_NAME = "kismet-capture-freaklabs-zigbee-2023_07_R1-1.1.noarch.rpm"
+RPM_HASH = "213221e4a9b23937156c9d7c14c1f6c417e5bc827cf7e84d16108eb0eaf0bcedf39dd8446fefb0c3764c5ae5b35f3a04bacf4a1c5f3aff71aba9a3caf787b4e4"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kismet-capture-freaklabs-zigbee \
 python3.11dist-kismetcapturefreaklabszigbee \

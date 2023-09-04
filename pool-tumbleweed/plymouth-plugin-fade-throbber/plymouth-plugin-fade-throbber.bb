@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.02.122+94.4bd41a3"
 
-RPM_NAME = "plymouth-plugin-fade-throbber-22.02.122+94.4bd41a3-6.1.aarch64.rpm"
-RPM_HASH = "be9e4cacb4ad77eb7e45070b4d71cb14c351ae369500feb76cf0f4f69b02c89bde555ca0fcc49b52bd23ea699bf9d2164a0526dfb6f2f1f35564645a49da7f2c"
+RPM_NAME = "plymouth-plugin-fade-throbber-22.02.122+94.4bd41a3-9.1.aarch64.rpm"
+RPM_HASH = "65faf7d2e33e292ae8a006e0efe10b7163994aba2ca20acc160b640ecabb9335c1b0ad8035f2bbf4588a9eb1d154d9036512b381785b93c8168c4f4f4c120b86"
 
 RPROVIDES:${PN} += "plymouth-plugin-fade-throbber"
 

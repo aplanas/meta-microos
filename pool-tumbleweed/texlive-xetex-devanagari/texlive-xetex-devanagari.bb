@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.5svn34296"
 
-RPM_NAME = "texlive-xetex-devanagari-2023.209.0.0.5svn34296-53.1.noarch.rpm"
-RPM_HASH = "05ad439b85d2831f6e36e9a7d6fea928a8753dba5dfe137148a9f95a0f83b561c532b1265570087bc354098ae79e9acca7a5f837dd76d73cd491bdf18cdd8f11"
+RPM_NAME = "texlive-xetex-devanagari-2023.209.0.0.5svn34296-53.2.noarch.rpm"
+RPM_HASH = "6e9700dd4c559d9d1d7354dcc09fb45f118ac94b9619c440d149385e21af3f1e2e3dffe0e75417a4b55263a78e6a6e0ee140d9db84a4e1fddb25d479ff912d63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-devanagarinumerals.map \

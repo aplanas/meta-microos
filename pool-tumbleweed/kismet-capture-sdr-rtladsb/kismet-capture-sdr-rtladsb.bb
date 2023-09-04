@@ -6,10 +6,11 @@ This subpackage contains the SDR rtladsb capture helper. \
 https://kismetwireless.net/docs/readme/datasources_sdr_rtladsb/"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2022_08_R1"
+PV = "2023_07_R1"
 
-RPM_NAME = "kismet-capture-sdr-rtladsb-2022_08_R1-2.5.aarch64.rpm"
-RPM_HASH = "9c9ac932eb7a4d5b2fd2cc4ca89027df7da34a93048e0c2202770530bbcb420073e0cbd596c38ebcd2eff4831dc736e2c4c9840ec3ddad3333759ba6b9247229"
+RPM_NAME = "kismet-capture-sdr-rtladsb-2023_07_R1-1.1.noarch.rpm"
+RPM_HASH = "25dea48337c76d212edc70c0e41588cfaa390b94be7e8670b58b55fb863778bcbc94341357d93c1d096f816a3d1a3adbb4da5b0921f74e47c3baf03fe4f2f755"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kismet-capture-sdr-rtladsb \
 python3.11dist-kismetcapturertladsb \

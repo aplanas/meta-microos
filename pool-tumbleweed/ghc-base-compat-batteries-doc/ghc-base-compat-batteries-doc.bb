@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.13.0"
 
-RPM_NAME = "ghc-base-compat-batteries-doc-0.13.0-1.3.noarch.rpm"
-RPM_HASH = "70320a10517232f715ba96b2d8e0899b8b3aead4b300ff567b709a56804e366094009e154e441756c301b5bc3b6f4237a19f043a9030ca5b4d4a5f491c43a34c"
+RPM_NAME = "ghc-base-compat-batteries-doc-0.13.0-1.6.noarch.rpm"
+RPM_HASH = "cd1ac7d205e40156ef1e4abbf45919debb4ee11f98341e8c5d12f777fca28e8c14de750e5bcdad559dbe57f6e60b0b2d17dcc32d194f6f4ddbd7ab4ce7283c00"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-base-compat-batteries-doc"

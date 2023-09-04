@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.2"
 
-RPM_NAME = "ghc-cryptonite-conduit-doc-0.2.2-9.4.noarch.rpm"
-RPM_HASH = "d7510e247b6088c0f8d4e1729a3768166aa79c0af1f957dbdabe34e3c82093f685a9cd04814a53de618e741d9cf88cd440109c4671990a5454dea28c5e2090bc"
+RPM_NAME = "ghc-cryptonite-conduit-doc-0.2.2-9.7.noarch.rpm"
+RPM_HASH = "3469c6ba0899a0603b6b72d7db4d04914339da4ff185f13877aa07c58b0954bf2d7a9e0aa24fcb1cc052b4ae691b9d1d4864ccbbd60d62a83d44f688e4614f0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-cryptonite-conduit-doc"

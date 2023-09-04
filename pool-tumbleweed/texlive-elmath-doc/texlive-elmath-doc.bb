@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.2svn15878"
 
-RPM_NAME = "texlive-elmath-doc-2023.209.1.2svn15878-54.1.noarch.rpm"
-RPM_HASH = "d0ab1fb1aac53c6eb747ae6f4f7fcb3de93a6351a4aaa34986e41ca59771969ffd1c4666378e5aaa8886fd0fd67e35fe4d201567a5c64bbc1e94046b5771072d"
+RPM_NAME = "texlive-elmath-doc-2023.209.1.2svn15878-54.2.noarch.rpm"
+RPM_HASH = "ae9861a66942464469d842dd7de7ca2de07abb605efee7b6b3cc8d033c0b56d209bd3d8361f4a065a346919f61db328b1c60f6559704cb2f75f1bc2d2d44ce05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-elmath-doc"

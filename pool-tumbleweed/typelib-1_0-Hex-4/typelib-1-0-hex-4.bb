@@ -2,10 +2,10 @@ SUMMARY = "Introspection bindings for ghex"
 DESCRIPTION = "This package provides introspection bindings for ghex."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.1"
+PV = "44.2"
 
-RPM_NAME = "typelib-1_0-Hex-4-44.1-1.1.aarch64.rpm"
-RPM_HASH = "697c367e0160e6b8eaf59d8c7fec2fcc7b1217b6130c866c42a62077f2a6d597792e9123d089622e236158debe70b5708b63b258ee616f79c9389a47b360913d"
+RPM_NAME = "typelib-1_0-Hex-4-44.2-1.1.aarch64.rpm"
+RPM_HASH = "356abbb283fd29342721a03834a41f4dc1d1b277a953addc73520dfaab9118115b421904a3798f762e902ad0e8640d34acb97d3fc5a1069b079956bb9612fc62"
 
 RPROVIDES:${PN} += "typelib-1-0-Hex-4 \
 typelib-Hex"

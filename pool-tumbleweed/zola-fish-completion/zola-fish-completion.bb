@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.17.2"
 
-RPM_NAME = "zola-fish-completion-0.17.2-2.2.noarch.rpm"
-RPM_HASH = "473164c212b178d50ab0dd0c68183209122c84e74dcbc42ccf3ee5ecac4c57876c5a3e687eaee3b9a02afa1df3f6b9c4110b0080a4dd1696de45f1974bb160d4"
+RPM_NAME = "zola-fish-completion-0.17.2-3.1.noarch.rpm"
+RPM_HASH = "5ce9615f360b915a1451413c1c20bde6a69f7f05245aa786dfd826ec40325fa5b9e4976375ceb1401cdbcad6cda5863b8b58535b27a7b84070b2428bb79ec1ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zola-fish-completion"

@@ -12,8 +12,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.2svn27599"
 
-RPM_NAME = "texlive-edmargin-2023.209.1.2svn27599-54.1.noarch.rpm"
-RPM_HASH = "ee375209d5da13b99684b3cc6c62cb1fdcef89446ca6920190be98f39b116869e5f6ec26d743e14c20567991d3fda57aa4b4c0b6cf8dc2bbffa8b222ad995cc5"
+RPM_NAME = "texlive-edmargin-2023.209.1.2svn27599-54.2.noarch.rpm"
+RPM_HASH = "cf58b22af9f2b4ceda4e4c2dcbfe6ff59f6a32ab3726faf45621b57279e2a7412d21678a2ac787ca81ebfbb507c26ef084bec9711969ca922ddeaae7ae878411"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-edmargin.sty \

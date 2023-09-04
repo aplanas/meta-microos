@@ -30,8 +30,8 @@ LICENSE = "Apache-2.0 & Artistic-1.0 & GPL-2.0-only & GPL-2.0-or-later & GPL-3.0
 
 PV = "2023.20230311"
 
-RPM_NAME = "texlive-2023.20230311-93.1.aarch64.rpm"
-RPM_HASH = "b7f93bf783903b1d9e5cbbfad57461c3f383b70ace03bb4f71e593dcba555ed4c082224ec31f356ca32c8ecdc8464494ed20c0043239e945928cc51d4627abbb"
+RPM_NAME = "texlive-2023.20230311-93.2.aarch64.rpm"
+RPM_HASH = "84465cf6333ee21e2c4cfcbdc0ba740e628989c50efb7b86b4f6afa225deb3b3bb00916e214b91254a90de39b6e9b9d87930d82c2beffa9c17e78378ad0380ee"
 
 RPROVIDES:${PN} += "texlive"
 

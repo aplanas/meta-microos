@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.1"
 
-RPM_NAME = "jupyter-ipyevents-jupyterlab-2.0.1-5.6.noarch.rpm"
-RPM_HASH = "549a0292b34afe066ca4d5590daee89b2d65c184eab250e440ca9903e706726bff9a7613a99c7aea316f67a7614096fc53ecdafc753592bfb56c2d5d97b2ddc1"
+RPM_NAME = "jupyter-ipyevents-jupyterlab-2.0.1-6.1.noarch.rpm"
+RPM_HASH = "55288b49bc527c5ffa9007038ee265622f612d11175b6746eefe000b1b3a140fd7ae3f0698773efef0b48f046985c7e477a4f5916290589dd4952c4917c8a196"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipyevents-jupyterlab"

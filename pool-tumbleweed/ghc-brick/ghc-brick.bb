@@ -19,62 +19,62 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6"
 
-RPM_NAME = "ghc-brick-1.6-2.8.aarch64.rpm"
-RPM_HASH = "0477be63e242cabe0370c2fcab15ae22a090a2c452cd66b6e3c65c9f5d8110e2a23265a64c15c458cf6dc1f08e958658c7b1dfee76e91b27d782aed2e4df6e3e"
+RPM_NAME = "ghc-brick-1.6-2.11.aarch64.rpm"
+RPM_HASH = "9be34e52ae7b4f2689a41dfd050f0b74ead1cb3f578eab8fda24fb966656ec27fc72f04591d5240f7cc2fd553f352387607c3e4a11787ccb0a454ede78ed5068"
 
 RPROVIDES:${PN} += "ghc-brick \
-libHSbrick-1.6-4v0wxiRveIdSVqWhw7elI-ghc9.4.5.so"
+libHSbrick-1.6-LUopW3LKPMoL1gzW5hOxbK-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSStateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN-ghc9.4.5.so \
-libHSansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3-ghc9.4.5.so \
-libHSansi-terminal-types-0.11.5-9ffXWswmNhoANlpnF2SnhR-ghc9.4.5.so \
-libHSarray-0.5.4.0-ghc9.4.5.so \
-libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSbimap-0.5.0-3nKyJuRybYg2I5XOsBhwKE-ghc9.4.5.so \
-libHSbinary-0.8.9.1-ghc9.4.5.so \
-libHSblaze-builder-0.4.2.2-1GcRIc7N7YHId5Q5gRvlvW-ghc9.4.5.so \
-libHSbytestring-0.11.4.0-ghc9.4.5.so \
-libHScase-insensitive-1.2.1.0-AumZoR4Lds63HJj8OQwHY3-ghc9.4.5.so \
-libHScolour-2.3.6-7jQe2xj5Lsa5MbX38iH7Ln-ghc9.4.5.so \
-libHSconfig-ini-0.2.6.0-FZ1GgaSPQSr5D8UkvN7nbq-ghc9.4.5.so \
-libHScontainers-0.6.7-ghc9.4.5.so \
-libHScontravariant-1.5.5-K71YSUvfKnA5wfNaE05Lao-ghc9.4.5.so \
-libHSdata-clist-0.2-LT5UCpKeur34zcxFsnpoqW-ghc9.4.5.so \
-libHSdeepseq-1.4.8.0-ghc9.4.5.so \
-libHSdirectory-1.3.7.1-ghc9.4.5.so \
-libHSexceptions-0.10.5-ghc9.4.5.so \
-libHSfilepath-1.4.2.2-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-boot-th-9.4.5-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
-libHShashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt-ghc9.4.5.so \
-libHSinteger-logarithms-1.0.3.1-Hm9v2fsfG1DA5soPSLssZu-ghc9.4.5.so \
-libHSmegaparsec-9.3.1-Lptmv1Cc41nKt1ZYt8kXVr-ghc9.4.5.so \
-libHSmicrolens-0.4.13.1-ARwI8t2x86cAxRs56XPcG1-ghc9.4.5.so \
-libHSmicrolens-mtl-0.2.0.3-50s7aKrmu33tjGZvdN4FV-ghc9.4.5.so \
-libHSmicrolens-th-0.4.3.13-4M5tTOX0ioLGTMiKBp6v2C-ghc9.4.5.so \
-libHSmtl-2.2.2-ghc9.4.5.so \
-libHSparsec-3.1.16.1-ghc9.4.5.so \
-libHSparser-combinators-1.3.0-69OkkuibEVDB76y6u8xJBt-ghc9.4.5.so \
-libHSpretty-1.1.3.6-ghc9.4.5.so \
-libHSprimitive-0.7.4.0-AeB0oysC3TAJw9tDpuX8hq-ghc9.4.5.so \
-libHSscientific-0.3.7.0-D5F2vql7x79Dy9hx72OES1-ghc9.4.5.so \
-libHSstm-2.5.1.0-ghc9.4.5.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
-libHSterminfo-0.4.1.5-ghc9.4.5.so \
-libHStext-2.0.2-ghc9.4.5.so \
-libHStext-zipper-0.12-HAxIdT2NfEj1pbIOe2MIin-ghc9.4.5.so \
-libHSth-abstraction-0.4.5.0-8bY5lBPMorfFW3yG6gFNZT-ghc9.4.5.so \
-libHStime-1.12.2-ghc9.4.5.so \
-libHStransformers-0.5.6.2-ghc9.4.5.so \
-libHStransformers-compat-0.7.2-7jAnhjvxTABIymoNGHTOwd-ghc9.4.5.so \
-libHSunix-2.7.3-ghc9.4.5.so \
-libHSunordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E-ghc9.4.5.so \
-libHSutf8-string-1.0.2-3yyxPCwARUwDt9ZNWn320Q-ghc9.4.5.so \
-libHSvector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp-ghc9.4.5.so \
-libHSvector-stream-0.1.0.0-C5Yyq3DPEhXAQSqkM8V92s-ghc9.4.5.so \
-libHSvty-5.38-IuSWPYXCscY5LxGEJl3fAP-ghc9.4.5.so \
-libHSword-wrap-0.5-8lP0dTi9CAzDFiJFYJ3rcZ-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSStateVar-1.2.2-8Hv9klK7mv0HId52XsoM7J-ghc9.4.6.so \
+libHSansi-terminal-0.11.5-69CZC4XdNryJo9zHbgfvJ3-ghc9.4.6.so \
+libHSansi-terminal-types-0.11.5-1ECcaJ3QBZ1LkDeP7l0nlp-ghc9.4.6.so \
+libHSarray-0.5.4.0-ghc9.4.6.so \
+libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSbimap-0.5.0-2qQthh2dRFHF2jSbEkPfEn-ghc9.4.6.so \
+libHSbinary-0.8.9.1-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
+libHSbytestring-0.11.5.1-ghc9.4.6.so \
+libHScase-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9-ghc9.4.6.so \
+libHScolour-2.3.6-GBcey48GJNAK3398XtiZDq-ghc9.4.6.so \
+libHSconfig-ini-0.2.6.0-HoJpnqrH2zF9Zc2bv1CbDm-ghc9.4.6.so \
+libHScontainers-0.6.7-ghc9.4.6.so \
+libHScontravariant-1.5.5-35YFLB0uIuz5cknUjKLNnT-ghc9.4.6.so \
+libHSdata-clist-0.2-2XS2LK92Ow8274ZzRlQjKH-ghc9.4.6.so \
+libHSdeepseq-1.4.8.0-ghc9.4.6.so \
+libHSdirectory-1.3.7.1-ghc9.4.6.so \
+libHSexceptions-0.10.5-ghc9.4.6.so \
+libHSfilepath-1.4.2.2-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-boot-th-9.4.6-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
+libHShashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP-ghc9.4.6.so \
+libHSinteger-logarithms-1.0.3.1-8hVItVgdqFg1uL8b0gbVZO-ghc9.4.6.so \
+libHSmegaparsec-9.3.1-Jdwz39dpTDz8anub3eLd49-ghc9.4.6.so \
+libHSmicrolens-0.4.13.1-4XtL5z7DHHC7UZaR6xNDY3-ghc9.4.6.so \
+libHSmicrolens-mtl-0.2.0.3-Lyey6r2oahMEeZXe0uSI9h-ghc9.4.6.so \
+libHSmicrolens-th-0.4.3.13-K3KDbjSa5xkBUVjBxtDTLF-ghc9.4.6.so \
+libHSmtl-2.2.2-ghc9.4.6.so \
+libHSparsec-3.1.16.1-ghc9.4.6.so \
+libHSparser-combinators-1.3.0-9EAIYkVxwfT3bR6YOGtMtZ-ghc9.4.6.so \
+libHSpretty-1.1.3.6-ghc9.4.6.so \
+libHSprimitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx-ghc9.4.6.so \
+libHSscientific-0.3.7.0-2FbzCTQ2hp2GeCo5OsVSzz-ghc9.4.6.so \
+libHSstm-2.5.1.0-ghc9.4.6.so \
+libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
+libHSterminfo-0.4.1.5-ghc9.4.6.so \
+libHStext-2.0.2-ghc9.4.6.so \
+libHStext-zipper-0.12-H7IYZaS5uJc9wNiAP20WIH-ghc9.4.6.so \
+libHSth-abstraction-0.4.5.0-CynkUuS8OuAKbGjDnje1Fs-ghc9.4.6.so \
+libHStime-1.12.2-ghc9.4.6.so \
+libHStransformers-0.5.6.2-ghc9.4.6.so \
+libHStransformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM-ghc9.4.6.so \
+libHSunix-2.7.3-ghc9.4.6.so \
+libHSunordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn-ghc9.4.6.so \
+libHSutf8-string-1.0.2-26mnfHz4IgtDU2rLQciXDs-ghc9.4.6.so \
+libHSvector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku-ghc9.4.6.so \
+libHSvector-stream-0.1.0.0-8LsAqgetBjY3tBdh3HDYEB-ghc9.4.6.so \
+libHSvty-5.38-4i0JVKKiWtkG17OOXaPYIk-ghc9.4.6.so \
+libHSword-wrap-0.5-6mKx5HwYguB2E3kl2rrPmY-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6 \

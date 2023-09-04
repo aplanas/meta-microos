@@ -4,15 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.1.5"
 
-RPM_NAME = "ghc-terminfo-0.4.1.5-3.2.aarch64.rpm"
-RPM_HASH = "01e3f9ea13a5ef94d00d78d65f3516488eab3fd5f86955c7702ec044f2b5a4819042dc8bce74ce3b0e763757f9241ee692d2991e8bb754fda3a741708ef4d4fc"
+RPM_NAME = "ghc-terminfo-0.4.1.5-1.1.aarch64.rpm"
+RPM_HASH = "93d97507e3e946ec0a8aae3d08cbcd470b077973b091940253b287fdc52d1fea06d7eb08c82b9fff90eb600bfe24e790b428f36059c086b6c5dbbd954060b1f8"
 
 RPROVIDES:${PN} += "ghc-terminfo \
-libHSterminfo-0.4.1.5-ghc9.4.5.so"
+libHSterminfo-0.4.1.5-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6 \

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.23"
 
-RPM_NAME = "gdbm-devel-1.23-1.14.aarch64.rpm"
-RPM_HASH = "fececc7b1b1db8c3ad54721e6347e36e68805c5e5f743bfbfd19ab27f9b2ddab8a04eef1a29d0ca2ec181633c605fb3e0d1391e09905a3cd9ac02b4bb71ecab9"
+RPM_NAME = "gdbm-devel-1.23-2.1.aarch64.rpm"
+RPM_HASH = "0226c8ef8ef817124132e1164933a84f3a4383c5bd1ab6caebb16dcbd557cc6f7dff9c48f8faa32c29e658e10d2cbb142ba2eec8019a4d82c763c9d2a2306f21"
 
 RPROVIDES:${PN} += "gdbm-devel"
 

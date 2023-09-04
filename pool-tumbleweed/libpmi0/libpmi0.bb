@@ -5,8 +5,8 @@ LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "23.02.2"
 
-RPM_NAME = "libpmi0-23.02.2-1.3.aarch64.rpm"
-RPM_HASH = "fef24de5a8711a9d40201843e901e0c7793bc399ebda77fc706681d28d723d41377f4866c254eae6c58d72520fb730d9b6f342be0bd75cb73f166ffff4ff4bc9"
+RPM_NAME = "libpmi0-23.02.2-1.4.aarch64.rpm"
+RPM_HASH = "21b65ee816959c517b6874dc879ce693fc09fb3817edf37e2bf1821625bd3b3968974e8341d0306e2ea3faed63b6f2e844e51938c0252400b2078612d8581eb5"
 
 RPROVIDES:${PN} += "libpmi.so.0 \
 libpmi0 \

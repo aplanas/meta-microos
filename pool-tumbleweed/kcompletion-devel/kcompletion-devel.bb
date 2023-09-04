@@ -4,10 +4,10 @@ completion support as well as a lower-level completion class which \
 can be used with own widgets."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kcompletion-devel-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "a36d1dbe0fc98d8fbe715f9b0fc313ddda2ca333099a32f698603f98fd5e92a7be99683e35bd98bc17e1917c175cdc92a925a6256daf6bd812f9542abb469c55"
+RPM_NAME = "kcompletion-devel-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "2bd79090e982f8e4897361941da4a98d953049d8fec0a6f3057f4085d77ea3e802e65a254be758cf1c1833d549560c8df648eb629f3913a1af3de205b6d4f234"
 
 RPROVIDES:${PN} += "cmake-KF5Completion \
 kcompletion-devel"

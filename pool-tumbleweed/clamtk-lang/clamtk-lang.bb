@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "6.16"
 
-RPM_NAME = "clamtk-lang-6.16-1.1.noarch.rpm"
-RPM_HASH = "f4d4c1e1f87e725f5d8c35f3a880d7435bdd2d95ec0722bf1ed8993c66ddad4beac8caf7dfb767989bed1ddc0c8f9d6db0eec34aa67892722bc39a098f235081"
+RPM_NAME = "clamtk-lang-6.16-1.2.noarch.rpm"
+RPM_HASH = "848f5d3a21b01278e5bc6cf7438cb5e0130df856d36f309b02bfba0b00320b2922d7ec31053c97c847a66b092b56f23acc01ae59653af105348061e4a5ce5db7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clamtk-lang \

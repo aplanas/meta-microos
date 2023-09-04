@@ -4,13 +4,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.1"
 
-RPM_NAME = "ghc-code-page-prof-0.2.1-2.5.aarch64.rpm"
-RPM_HASH = "e1208c617464cc7529e4d7214f375356874aa65c52b12249074a883e96a86a0b3890b74ef39e3114bf28b09fd94dc2bef1216c64b69fcee978e0feb3f917e6f8"
+RPM_NAME = "ghc-code-page-prof-0.2.1-2.7.aarch64.rpm"
+RPM_HASH = "59273f7635bda4e952331d7e53f5193cc80bb6a2483401d14071a1da3c87f6d61c66787e24319ec985f1e6c878c7c30e4a6dac44d485669c447cde72e9d73426"
 
 RPROVIDES:${PN} += "ghc-code-page-prof \
-ghc-prof-code-page-0.2.1-DXkPgctk3OAKMpgAjUBS3D"
+ghc-prof-code-page-0.2.1-FtqibIt49dG4EHKj0zD5sM"
 
 RDEPENDS:${PN} += "ghc-code-page-devel \
-ghc-prof-base-4.17.1.0"
+ghc-prof-base-4.17.2.0"
 
 inherit rpm

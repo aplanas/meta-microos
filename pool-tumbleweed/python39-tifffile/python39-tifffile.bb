@@ -5,10 +5,10 @@ SGI, NIH, ImageJ, MicroManager, MD GEL, and FluoView files. Write numpy \
 arrays to TIFF, BigTIFF, and ImageJ hyperstack compatible files."
 LICENSE = "BSD-2-Clause"
 
-PV = "2023.4.12"
+PV = "2023.7.18"
 
-RPM_NAME = "python39-tifffile-2023.4.12-1.3.noarch.rpm"
-RPM_HASH = "08360ee03c5ff907521bb22ee91e59b75a58f3bae810885b1969d845fdab5022a04741f877eb638f0ab054854fadc5c98a1e584068fa7cf7291d6d80fdc5ff1a"
+RPM_NAME = "python39-tifffile-2023.7.18-1.1.noarch.rpm"
+RPM_HASH = "5ce1f89c87d2bd9213d4579dad7f4d5699896ecf7db81d1e4453f47f0b97b72932a17babaebe0872ddc3f0ae373007e7f9d77ba0fadce8a9b89e27e5846a9dcc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-tifffile \

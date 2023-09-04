@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.1.0"
 
-RPM_NAME = "ghc-netlink-doc-1.1.1.0-4.6.noarch.rpm"
-RPM_HASH = "62ae27ffa1c7524e08c2d022d60f15f00eaeb9dbcf78efe0036582fb80163fa618464b3899a85bebec63ddb6e55b3d7a700c6ec0591f48cfa7d6c5c41c0370f7"
+RPM_NAME = "ghc-netlink-doc-1.1.1.0-4.8.noarch.rpm"
+RPM_HASH = "2c3b07f6cba5556751b1f3a74243f2469af41b3c4b90dcb163cbf365769f74cc5bd0ec0a4b2fe804ebc864b03d116a5188a6a1fd2626f1e66ef5ec832782cce9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-netlink-doc"

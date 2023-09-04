@@ -24,8 +24,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "3.16"
 
-RPM_NAME = "perl-HTML-TokeParser-Simple-3.16-5.25.noarch.rpm"
-RPM_HASH = "cfe3f80b87626d60d6d8b73bd41d9b37e45200547d9efde743c5c2a811ab7e11be6c83ce0274da6c651d11d6cd38f0f59848f896f53e23cd4fe53f8a433343bd"
+RPM_NAME = "perl-HTML-TokeParser-Simple-3.16-5.26.noarch.rpm"
+RPM_HASH = "e6fca2e559310e98defa8eb8b34fd7f26eaec246535ff136bed325cf4ba5a8d1b25be80d1e7be0b2ed0baf1df2215617a9f14308e600f42e79aff2401ed8f378"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTML--TokeParser--Simple \
@@ -39,7 +39,7 @@ perl-HTML--TokeParser--Simple--Token--Tag--Start \
 perl-HTML--TokeParser--Simple--Token--Text \
 perl-HTML-TokeParser-Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-HTML--Parser \
 perl-HTML--TokeParser \
 perl-Sub--Override"

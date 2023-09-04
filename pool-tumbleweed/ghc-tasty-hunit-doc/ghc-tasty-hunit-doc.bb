@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.10.0.3"
 
-RPM_NAME = "ghc-tasty-hunit-doc-0.10.0.3-2.3.noarch.rpm"
-RPM_HASH = "0e7e6e2ad8468ba711cf4eaff49fde23c430115d213d2bda48ba54acaf1819a581f96519a83dace8207ab40c182a682783a4fbd89018f8d813d8d18519bd38b8"
+RPM_NAME = "ghc-tasty-hunit-doc-0.10.0.3-2.5.noarch.rpm"
+RPM_HASH = "68f33c3bf463ab39cb42596de2693a98e641aab36080a6da50999ece69ba7cefa07a5d3e4c8df074c5d46adb9d4a5042d332824de7cf60bf65463add3439089a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-tasty-hunit-doc"

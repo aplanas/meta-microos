@@ -17,17 +17,17 @@ their dependency on LWP::Protocol::https and will no longer need to know \
 what underlying modules to install."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "6.10"
+PV = "6.110.0"
 
-RPM_NAME = "perl-LWP-Protocol-https-6.10-1.12.noarch.rpm"
-RPM_HASH = "31f1892c9539912f6f9a0aa02fbc1dd1f61c7cc59f41f4956d8924ecc8584680e900845809161e79b841fdd909730519299e908b4291134946116b37c7545aaa"
+RPM_NAME = "perl-LWP-Protocol-https-6.110.0-1.1.noarch.rpm"
+RPM_HASH = "d976ab1bf0fc960cf6658502b1b6fdfc1fe0d927874381f2233032d138323a129f1aa9ae3eee7c9798ae4daea1c0dda45f82ac045d63a8ec900937dd87776074"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-LWP--Protocol--https \
 perl-LWP--Protocol--https--Socket \
 perl-LWP-Protocol-https"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-IO--Socket--SSL \
 perl-LWP--Protocol--http \
 perl-LWP--UserAgent \

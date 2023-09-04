@@ -4,18 +4,18 @@ LICENSE = "MIT"
 
 PV = "3.2.3"
 
-RPM_NAME = "ghc-wai-prof-3.2.3-2.3.aarch64.rpm"
-RPM_HASH = "5ee1b18cdd3b1c65cf11f55d3f5814ddda0699786bb33afefeed7413ec855414baa59d92eb778f24d7d581cba1818391e1415578c99d668ded6ae84453d70d7a"
+RPM_NAME = "ghc-wai-prof-3.2.3-2.5.aarch64.rpm"
+RPM_HASH = "d0b57d88eccd8cfbbed9c58745a8884f550c00d51eed81460ee3104448c4ec11eb468cc7589d0b190a2b2af80906f458cf18f1760db888e023e4808dcf466a0b"
 
-RPROVIDES:${PN} += "ghc-prof-wai-3.2.3-B6oJGZed88IFIvDpwN5I7x \
+RPROVIDES:${PN} += "ghc-prof-wai-3.2.3-JhFX1996sswH7nU4MZQSow \
 ghc-wai-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
-ghc-prof-bytestring-0.11.4.0 \
-ghc-prof-http-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6 \
-ghc-prof-network-3.1.4.0-FvtFepOtuCUH79FCWyNxIc \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
+ghc-prof-bytestring-0.11.5.1 \
+ghc-prof-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
+ghc-prof-network-3.1.4.0-5p1NVWLTlrvDdAAI1mskSs \
 ghc-prof-text-2.0.2 \
-ghc-prof-vault-0.3.1.5-1nJxIV9kR8e5L3ZIpYZHc \
+ghc-prof-vault-0.3.1.5-JTstBlaocLP2eokwHW0Uig \
 ghc-wai-devel"
 
 inherit rpm

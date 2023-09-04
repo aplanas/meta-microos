@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "4.103"
 
-RPM_NAME = "perl-MooX-Options-4.103-1.13.noarch.rpm"
-RPM_HASH = "35d7764a1e7f4eecb73c4320443c3c37c4f37537c0cd00cb30dd3934ae46d5189982eeb20c46f89bb2272a8ce03fb4512d6121aaf29392e809eb7c9b88cd40ba"
+RPM_NAME = "perl-MooX-Options-4.103-1.14.noarch.rpm"
+RPM_HASH = "056f3b96efa6cb78f0bfb176bef8ac4f910fdde283cb5206e60da05013984af8d8a759bfe531cdca5318d7b9d9b3c4127f01ab7ba963a27c9bbab0104b45ce07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooX--Options \
@@ -20,7 +20,7 @@ perl-MooX--Options--Descriptive--Usage \
 perl-MooX--Options--Role \
 perl-MooX-Options"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Getopt--Long \
 perl-Getopt--Long--Descriptive \
 perl-MRO--Compat \

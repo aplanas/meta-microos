@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.22"
 
-RPM_NAME = "gimp-ufraw-0.22-11.9.aarch64.rpm"
-RPM_HASH = "43eadd30f3ee70c77f03afffe4d8e991d8be7d1f841cd65984a2f18f85a6983d4e9c51292469b07c9459dfeea95ff65e733c94e33a94fd72b68c12c442719142"
+RPM_NAME = "gimp-ufraw-0.22-12.1.aarch64.rpm"
+RPM_HASH = "f44f26a8301752e14bd5d39bff0dad45435feabbffcc818843aab405860c7f9dd39c1612797d942ae19a52fa6162a6b94403505099ffb9723d41c81fd78a48ee"
 
 RPROVIDES:${PN} += "gimp-2.0-dcraw-plugin \
 gimp-ufraw \
@@ -20,7 +20,7 @@ gimp-api \
 libbz2.so.1 \
 libc.so.6 \
 libcfitsio.so.10 \
-libexiv2.so.27 \
+libexiv2.so.28 \
 libgcc-s.so.1 \
 libgdk-pixbuf-2.0.so.0 \
 libgdk-x11-2.0.so.0 \

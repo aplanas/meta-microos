@@ -2,10 +2,10 @@ SUMMARY = "Python bindings for libimobiledevice"
 DESCRIPTION = "Contains Python bindings for developing applications that use libimobiledevice."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.0+179git.20230430"
+PV = "1.3.0+190git.20230705"
 
-RPM_NAME = "python3-imobiledevice-1.3.0+179git.20230430-1.2.aarch64.rpm"
-RPM_HASH = "fcc9cd208e434291b7b1ac07cf4837b6d1ef2c460f57ca8dd62dd2474c13c576ad8068350eed5f8824388c186149d672ba7218f171fa61c02067b522f94e9e1d"
+RPM_NAME = "python3-imobiledevice-1.3.0+190git.20230705-1.1.aarch64.rpm"
+RPM_HASH = "ff8d850b73e4739379d999364191266c27a4917e7639e27b032948b8dc67640f06f4f80de17b660e6790599907c3f9e3d9240ec3702ca052ab60653b394c6b14"
 
 RPROVIDES:${PN} += "python3-imobiledevice"
 

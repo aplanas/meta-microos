@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-zimbra-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "acd8fbaf9f10b4c8a879933f42ef5aa8217e35a48e4286e639923623d3dcae13afed483c9944ff9b37fbe73c4ddf483ee0815da8177305fc55d05996bb0e8ea3"
+RPM_NAME = "pcp-pmda-zimbra-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "fa0396586c3e003724700c243b32cbb7d7a1e37ad12c0a4e0f4b836f08b0f0b25a8a264850c223a71d027c2e1a64895d13c0fbc486c37b6bf06786c748f2a74d"
 
 RPROVIDES:${PN} += "pcp-pmda-zimbra"
 

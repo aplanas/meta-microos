@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.3svn54563"
 
-RPM_NAME = "texlive-xpatch-2023.209.0.0.3svn54563-53.1.noarch.rpm"
-RPM_HASH = "c0bde8ddab72c357ad9d752656704125f2c6bcf0a72dd3d4189195fe6db7ec03cb4ccee28c12c9a5269b3f5b38fe15897026c98bd5545408cd86b200d009c9db"
+RPM_NAME = "texlive-xpatch-2023.209.0.0.3svn54563-53.2.noarch.rpm"
+RPM_HASH = "fdbd65dc7159c6bb82da0737e9acc28c3c964bad65b3e9c76dbc2b49ddc9a639e32a735feabcb630cac3f813f1c130b484c226bd8bcf81f0b14442916454a5ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xpatch.sty \

@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn34049"
 
-RPM_NAME = "texlive-gitinfo-2023.209.1.0svn34049-54.1.noarch.rpm"
-RPM_HASH = "af3ba0ff952ea9cf5db279c9f2c33386d22962e6eecceea956b045edece07ad6afc8fae679fb2cf9a74c4883bff1e61ae0649595e5b8d3d521a2149a85174440"
+RPM_NAME = "texlive-gitinfo-2023.209.1.0svn34049-54.2.noarch.rpm"
+RPM_HASH = "29f38224e1d37acb726407bfa0109e5b231c2a7ba91fa4db22ac602fc81d14b71741840474c3dfe2fdc09959f4e8a5fdb23a63b686a9d3240f0a109d7e3a4e57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gitinfo.sty \

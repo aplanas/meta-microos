@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.73svn29803"
 
-RPM_NAME = "texlive-gmverse-2023.209.0.0.73svn29803-54.1.noarch.rpm"
-RPM_HASH = "473d2640b29d8b77ffbbe74ce2b2c52b691f67b17fe53a8403832be9b217b3e77711e806feab821c1d9ab10eccb34aa133a6bc8e0a0e5558aedf251fb45c1810"
+RPM_NAME = "texlive-gmverse-2023.209.0.0.73svn29803-54.2.noarch.rpm"
+RPM_HASH = "af367902fc289d3983f6b6068d9dc0c6176780effb01011a443cc5456f1827aea4696c129d64c4b03eb46d5fee836aeefb2bb36b5944a529349f3a3fcdc1007f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gmverse.sty \

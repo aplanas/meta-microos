@@ -2,10 +2,10 @@ SUMMARY = "Development files for libsignon-qt1"
 DESCRIPTION = "This package contains the development files for the signon-qt library."
 LICENSE = "LGPL-2.0-only"
 
-PV = "8.60"
+PV = "8.61"
 
-RPM_NAME = "libsignon-qt5-devel-8.60-2.19.aarch64.rpm"
-RPM_HASH = "1d5da0afee00c05ace5771c7aae93834976e88a6ab26db7e8062d57e670b1e3d8ddb42a973aaa47317519aa844c9781eea1c7a92b1fc08387276e316cfef836e"
+RPM_NAME = "libsignon-qt5-devel-8.61-1.1.aarch64.rpm"
+RPM_HASH = "c6003c186793b3dd7891d874c34eb5200dde82edbf3644a36c002a3d930e1aa3e2009b6d741f14440b27ab15e15cd5b48b23ec7b39227639869b803f35d1dab2"
 
 RPROVIDES:${PN} += "cmake-SignOnQt5 \
 libsignon-qt5-devel \

@@ -8,10 +8,10 @@ Currently included are: \
 * PCollections data-type"
 LICENSE = "Apache-2.0"
 
-PV = "2.13.3"
+PV = "2.15.2"
 
-RPM_NAME = "jackson-datatypes-collections-2.13.3-1.8.noarch.rpm"
-RPM_HASH = "d7ae12d5aded8c9eba3a859cc7bb107701e6d40bb9daddb97af0e74c51e560098c2e87571f3c3b9d3908ee6cb4c2db21d3d41ce0ddb6f478bca10e135d5bd730"
+RPM_NAME = "jackson-datatypes-collections-2.15.2-1.1.noarch.rpm"
+RPM_HASH = "2ef973ca93ca3e43cb0a15f7cf651f153590233985dc6c4c50dd032d64f5acdff747fdfeb6df9f85039fa46af0cc31ae8dd3e02666f1990c766d093b923d4fd0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-datatypes-collections \

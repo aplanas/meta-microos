@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.0.2"
 
-RPM_NAME = "python39-autopep8-2.0.2-1.4.noarch.rpm"
-RPM_HASH = "792ee2d4d0974bc5dc65d226407f92c5196e3738ca9d6bdb001200fd6c24e3b32c51e7c656edf2f0a624dd5a445cca0f499f7e657de3eac55cc71970de1b4039"
+RPM_NAME = "python39-autopep8-2.0.2-2.1.noarch.rpm"
+RPM_HASH = "7054245399b326d134bbc7c6ee7c2ef4a5029e8d7873d6d8156e1e92fab1ccc410109a0f52fd8dc12c04165d1966c880807a09602f580f75f7b664903abeb09d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-autopep8 \

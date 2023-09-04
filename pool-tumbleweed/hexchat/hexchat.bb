@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.16.1"
 
-RPM_NAME = "hexchat-2.16.1-2.7.aarch64.rpm"
-RPM_HASH = "8ea5540d3b025866186eb27b8223db509c35e40d15283a00914985cf93d2ce713ce63b71eaae8f7b442a336e07a941ec9d23c7279a82f87cc67555d0e1c8f970"
+RPM_NAME = "hexchat-2.16.1-2.8.aarch64.rpm"
+RPM_HASH = "cabbcb8398f62d272ae3c4140d5377e3fec962188be2912d8c54bb9d3736a372ab60ff707e8da1612bfa40d5b3986cef6937adf26697ae1e7d1df5ac07f3d659"
 
 RPROVIDES:${PN} += "hexchat \
 xchat"

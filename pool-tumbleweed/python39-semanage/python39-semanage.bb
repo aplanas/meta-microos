@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "3.5"
 
-RPM_NAME = "python39-semanage-3.5-1.9.aarch64.rpm"
-RPM_HASH = "3aba4b7e5536a994a2641a9fb2d0c154c550fa93e68a688f089e0a9ade85fab9cbcf4d79e824f41f2fa13338656f392f1ec9a133f7d7b2c439a2594ab75e450a"
+RPM_NAME = "python39-semanage-3.5-2.1.aarch64.rpm"
+RPM_HASH = "f9206df9c11788fc548720b81ccf76a0d6e2bf8d39f6b17fd90aae0de7794a0efedb32587e65551fbf22a05c72330bd25543f89b1cdc7d88538cd37652f336b8"
 
 RPROVIDES:${PN} += "python39-semanage"
 

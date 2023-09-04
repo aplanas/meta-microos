@@ -4,18 +4,18 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.20.9.1"
 
-RPM_NAME = "ghc-cpphs-devel-1.20.9.1-5.6.aarch64.rpm"
-RPM_HASH = "85e74e9ba587a13480f7f33f6d381151a2ca7ddb6e840e5869390eb79fae0f2e477c43bff598fe66a9c4cef487a7cc8b0b1d8fdd478aa3155d19ab4cd7236ad4"
+RPM_NAME = "ghc-cpphs-devel-1.20.9.1-5.8.aarch64.rpm"
+RPM_HASH = "4fedebf574f602afd2c65d4b62a091119c42ea34c7ef0e0b5017a7439df9623ff97a70ecc743174fc51a0c37c6c1c39cfd634b73469df2ad2bbe12469c5df2a9"
 
 RPROVIDES:${PN} += "ghc-cpphs-devel \
-ghc-devel-cpphs-1.20.9.1-FT5N79IhkR98KU1k959mgj"
+ghc-devel-cpphs-1.20.9.1-21Hm230EH4MCmgim8IB00q"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-cpphs \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-directory-1.3.7.1 \
-ghc-devel-polyparse-1.13-E8FdqtcSqxM3P2njDFrYm8 \
+ghc-devel-polyparse-1.13-BLB26XAC1GDzZMBJpPaUe \
 ghc-devel-time-1.12.2"
 
 inherit rpm

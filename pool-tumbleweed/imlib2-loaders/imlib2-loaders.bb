@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the imlib2 image loaders for: argb, bmp, gi
 jpeg, png, pnm, tga, tiff, xpm, j2k, heif, jxl."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.11.1"
+PV = "1.12.0"
 
-RPM_NAME = "imlib2-loaders-1.11.1-2.1.aarch64.rpm"
-RPM_HASH = "6fa73ddfc5bb7e8bf9f47555bd30cf92bfdf4ca47a8546a63f66317f3001705d2faddc9aef1cd70e061bc9d4f6068d16deea6a9953c3233691cdd1470284b72a"
+RPM_NAME = "imlib2-loaders-1.12.0-1.1.aarch64.rpm"
+RPM_HASH = "4b347bf2b788b21e3fbcf46baac19a2675074e70b1d763b016293a41f09bd1c6c7a637786d71d23df724987c7aaae05e2198273f233a64a78148a4a3d1466f71"
 
 RPROVIDES:${PN} += "imlib2-loader-argb \
 imlib2-loader-bmp \
@@ -38,7 +38,6 @@ liblzma.so.5 \
 libopenjp2.so.7 \
 libpng16.so.16 \
 libtiff.so.6 \
-libwebp.so.7 \
 libwebpdemux.so.2 \
 libz.so.1"
 

@@ -10,14 +10,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.10"
 
-RPM_NAME = "perl-Test-SubCalls-1.10-1.20.noarch.rpm"
-RPM_HASH = "6c423c9d8180b05bb972010890f966704384b95c7716f6719ccb33efe1b405b0f4ae5ad0d1be814ab281b7f1beb93ff90d09076bc80ea0aadcad185a6ed86c7a"
+RPM_NAME = "perl-Test-SubCalls-1.10-1.21.noarch.rpm"
+RPM_HASH = "815d165cba299238deec683d2d7adc2205e2de22b943c5614006e4187a66b1b69dc780e65c824bbf1256af9ffc5c7b21a282b68e27cfda2104a4ec8c1374e687"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--SubCalls \
 perl-Test-SubCalls"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Hook--LexWrap"
 
 inherit rpm

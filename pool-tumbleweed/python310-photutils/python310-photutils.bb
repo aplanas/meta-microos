@@ -3,10 +3,10 @@ DESCRIPTION = "Photutils is an affiliated package of Astropy to provide tools fo
 and performing photometry of astronomical sources."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.8.0"
+PV = "1.9.0"
 
-RPM_NAME = "python310-photutils-1.8.0-1.3.aarch64.rpm"
-RPM_HASH = "0ea3cae71977357693be4d53e70e68c815bb1aebbeafdc08c8cfe80d0711483a1537b6797e3bb3ea67c25ad41cba4fe59568cb1d193d35576540a096e57173ef"
+RPM_NAME = "python310-photutils-1.9.0-1.1.aarch64.rpm"
+RPM_HASH = "dc4718b3d8dd505c8733c0f58080e7d5ac8cc1c14369cac35863f846465f662d2b6217b5bb0a474f2227cc4120765604ba5e4d1de5a8461a85997b63205da95b"
 
 RPROVIDES:${PN} += "python3.10dist-photutils \
 python310-photutils \

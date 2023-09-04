@@ -24,8 +24,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.503"
 
-RPM_NAME = "perl-Dumbbench-0.503-1.7.noarch.rpm"
-RPM_HASH = "6c88cf62c761a395877531c07df85f5bf10570f649642084d12d3628d9af318b33e9dbde5150b3af198db87cc0858963de5ddba6cdc1ae9e70c3ba5b358b89f7"
+RPM_NAME = "perl-Dumbbench-0.503-1.8.noarch.rpm"
+RPM_HASH = "23712fe15e7ec486b273084690595c37db6747315c0bef36101b13f8845b61a65788eec383a1d0cb4cb37a0dfe5d4829912309798d528233e55ceb158af9fc18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Benchmark--Dumb \
@@ -40,7 +40,7 @@ perl-Dumbbench--Result \
 perl-Dumbbench--Stats"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Capture--Tiny \
 perl-Class--XSAccessor \
 perl-Devel--CheckOS \

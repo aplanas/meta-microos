@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "2.04"
 
-RPM_NAME = "perl-Text-Kakasi-2.04-164.38.aarch64.rpm"
-RPM_HASH = "a547ace258770f2b30dc9ff7f7e04d9c84076c24d4cc063fec650c02d9c0d81ccd7159de3187731dd9891f9f440a9232a36ecc54cb71b05cdbc13e5e67efe389"
+RPM_NAME = "perl-Text-Kakasi-2.04-164.39.aarch64.rpm"
+RPM_HASH = "0d68fa0c7b40f725d2c7ffbb04b135856634d8181e7e246ecb41f23e6474e0525e28f4e669c6316575d9bda4b000d3d0cf9503107aa016781f131415e020fa52"
 
 RPROVIDES:${PN} += "perl-Text--Kakasi \
 perl-Text-Kakasi"
@@ -17,6 +17,6 @@ perl-Text-Kakasi"
 RDEPENDS:${PN} += "kakasi \
 libc.so.6 \
 libkakasi.so.2 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

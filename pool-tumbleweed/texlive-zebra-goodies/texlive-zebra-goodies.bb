@@ -13,8 +13,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.8.0svn51554"
 
-RPM_NAME = "texlive-zebra-goodies-2023.209.0.0.8.0svn51554-53.1.noarch.rpm"
-RPM_HASH = "3796f389985e0813991d4b341ac2aa06ebaa7203f198fbc6aaabb00ab25e3d03c7a70df717c4a3cbd42f854fcb0202f266d9334ac1e1ff0ff54fbe0a179f0ca2"
+RPM_NAME = "texlive-zebra-goodies-2023.209.0.0.8.0svn51554-53.2.noarch.rpm"
+RPM_HASH = "abc4c44b3310cfd5ffc5cc943107090cfe91a740032b58a369d8e6be07a160f5f0ceebc671f1f18cac045429f0afb40ba5626ce877e3c7d74a6c5037c47cbf32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zebra-goodies.sty \

@@ -1,4 +1,4 @@
-SUMMARY = "Documentation for Open MPI/SHMEM  version 4.1.4"
+SUMMARY = "Documentation for Open MPI/SHMEM  version 4.1.5"
 DESCRIPTION = "OpenMPI is an implementation of the Message Passing Interface, a \
 standardized API typically used for parallel and/or distributed \
 computing. OpenMPI is the merged result of four prior implementations \
@@ -13,10 +13,10 @@ one-sided communication techniques. \
 This subpackage provides the documentation for Open MPI/OpenSHMEM."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.1.4"
+PV = "4.1.5"
 
-RPM_NAME = "openmpi4-docs-4.1.4-2.4.aarch64.rpm"
-RPM_HASH = "9a5887731edd41b5cb063a260bd4bfeee858f64b1c3f81c5b533adbafe4fb11819034437e95f0c4293068129f7450dcfcdb96f2027a68aac689e33325cf17604"
+RPM_NAME = "openmpi4-docs-4.1.5-2.1.aarch64.rpm"
+RPM_HASH = "ae3b5e95513589050a7a819cd38b8f087c3331f12042eaf772652cf02b5e39f0d992caf4eb7bea4cf75a007387f538bf6af818e15a6d66741b341919addfb2fb"
 
 RPROVIDES:${PN} += "openmpi4-docs"
 

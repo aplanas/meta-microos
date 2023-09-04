@@ -24,8 +24,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.94"
 
-RPM_NAME = "perl-Apache-Session-1.94-1.13.noarch.rpm"
-RPM_HASH = "1aab1d8585b1394771e9d7f9b580e5ed5827d4e9cfac5341380a17eb46ff18967573ec5decfceb99c38142061d150a9e5436aa9d735af8dc3d5862e065af6e2c"
+RPM_NAME = "perl-Apache-Session-1.94-1.14.noarch.rpm"
+RPM_HASH = "1b87132650106b1d4796218d97d5b03ddeb5cac91cba240c570244f90726b2c5dd3f6ab2b4fe6c6d21b7055ebdb168f1d93607be65ad4e786088b79073d768f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Apache--Session \
@@ -60,6 +60,6 @@ perl-Apache--Session--Store--Sybase \
 perl-Apache--Session--Sybase \
 perl-Apache-Session"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

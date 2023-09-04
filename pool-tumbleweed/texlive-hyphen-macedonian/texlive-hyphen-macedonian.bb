@@ -2,10 +2,10 @@ SUMMARY = "Macedonian hyphenation patterns"
 DESCRIPTION = "Hyphenation patterns for Macedonian"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn58652"
+PV = "2023.209.svn58652"
 
-RPM_NAME = "texlive-hyphen-macedonian-2023.208.svn58652-53.1.noarch.rpm"
-RPM_HASH = "b3bc7b4bc8a54cafe20f568f927dafb795e223ce85927de1374749bac5bc719db2874d4032567fef9cd33810bd460c51d0bd388c74add2c7d0210f1d827c01af"
+RPM_NAME = "texlive-hyphen-macedonian-2023.209.svn58652-54.1.noarch.rpm"
+RPM_HASH = "403dea1562ee1ca1a6d26dac345efa15ade0cdb595495b08053a31298cfbd7f72c7137b4f4c8a0fcd2c69365cf509bb04bf7c579504da278168ca81241b8a771"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-mk.macedonian.tex \

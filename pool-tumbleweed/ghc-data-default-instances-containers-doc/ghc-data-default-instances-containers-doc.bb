@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.1"
 
-RPM_NAME = "ghc-data-default-instances-containers-doc-0.0.1-11.2.noarch.rpm"
-RPM_HASH = "75389971ce2c5b320913cfb9e9663cafc4b36cda5fc89162fe09634c0bf8b3ae92caf4826135df4488fa04410d3c3047b7a522c6b5d8e298f3e2598fe6185739"
+RPM_NAME = "ghc-data-default-instances-containers-doc-0.0.1-11.3.noarch.rpm"
+RPM_HASH = "a462368482c5ce2742ffaa37bf301491ec214d128073a7e7a003a2420ba04d743276e688f45b32bf6da532f3ca32516204eeb2f94a85ffbab1b99341dcbb22fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-data-default-instances-containers-doc"

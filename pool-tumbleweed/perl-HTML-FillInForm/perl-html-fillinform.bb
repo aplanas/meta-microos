@@ -14,13 +14,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.22"
 
-RPM_NAME = "perl-HTML-FillInForm-2.22-1.9.noarch.rpm"
-RPM_HASH = "c2ccab32b04de7a861d7b8fabdcc512b7038c217342f392cad80a83c7e90b9c3b1eb45a900a0fa9759fb138de795d21800afc08ea7d16ccc07af9817b98f1628"
+RPM_NAME = "perl-HTML-FillInForm-2.22-1.10.noarch.rpm"
+RPM_HASH = "c0de6ad67f499871679a32c1f46c03fe701e05e5ffb934d78b2bb8495fd911661f0891c98f81b6a7aa32a835913397cd6f39046f6159364ef0d664f2488e16eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTML--FillInForm \
 perl-HTML-FillInForm"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "qt6-sql-mysql-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "0eb65bd49604c0283068c8931bc7f71ef48621c8cf7987b3fb8c84b627529b3acf6abc6d1e2192070cda0de6dd28b72947fe7d7b0728a8aef4d180e51d4b2581"
+RPM_NAME = "qt6-sql-mysql-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "cc4b357a098dc6a6bbc19ef83f643714ca8a240b82add77dcff6a23125c7de0ef3a0a8f98ee73c2334bb1ea6c7ef2a142d5da8f95960a9ed222af2a45f662d14"
 
 RPROVIDES:${PN} += "libqsqlmysql.so \
 qt6-sql-mysql"

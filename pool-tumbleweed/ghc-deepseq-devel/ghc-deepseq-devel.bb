@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.8.0"
 
-RPM_NAME = "ghc-deepseq-devel-1.4.8.0-3.2.aarch64.rpm"
-RPM_HASH = "9b91164d9dca7902927240ca473669a26f06a572de3df90eef14da1f4404cbc02992eef97e31a3812f9f0ea914cfcfa1b10ee9a8b36f4fa57533c21d750c7857"
+RPM_NAME = "ghc-deepseq-devel-1.4.8.0-1.1.aarch64.rpm"
+RPM_HASH = "5dea2a0ac01ffd8fd7689f2f65cd4f2a092488e0923f67e257950145d6faa1348a990acd5edc7c92511465a83b8e9f585d66072407d0c086c1e9261be0e28078"
 
 RPROVIDES:${PN} += "ghc-deepseq-devel \
 ghc-deepseq-static \
@@ -14,7 +14,7 @@ ghc-devel-deepseq-1.4.8.0"
 RDEPENDS:${PN} += "ghc-compiler \
 ghc-deepseq \
 ghc-devel-array-0.5.4.0 \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-ghc-prim-0.9.0"
+ghc-devel-base-4.17.2.0 \
+ghc-devel-ghc-prim-0.9.1"
 
 inherit rpm

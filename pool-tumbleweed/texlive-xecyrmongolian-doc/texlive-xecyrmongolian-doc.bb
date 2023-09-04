@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn53160"
 
-RPM_NAME = "texlive-xecyrmongolian-doc-2023.209.1.0svn53160-53.1.noarch.rpm"
-RPM_HASH = "6d274c657bb4e274e2c3813b4b575c36498011f43c2d81c3f24f61ea23f40eaed2565fdf4b3941ade231b674d6b332fa76593bf494d367d32fa96672742fa690"
+RPM_NAME = "texlive-xecyrmongolian-doc-2023.209.1.0svn53160-53.2.noarch.rpm"
+RPM_HASH = "6ddff5e220dd32154d2b0566040375ec2104c1016fe82170d984bccee6528a0b39e770cccb4d76397b2a85c30b5d1e4b576ae7536aacfcbecfb811c6da2c8ec5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xecyrmongolian-doc"

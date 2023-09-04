@@ -9,10 +9,10 @@ transactional dependency-based service control logic. It can work as a \
 drop-in replacement for sysvinit."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "253.7"
+PV = "253.8"
 
-RPM_NAME = "systemd-253.7-2.1.aarch64.rpm"
-RPM_HASH = "d7d223f3dd08a5d5fea3559e52a8ee09f6f92551c463811d27ab28851bc0ac06d837ddc5a7268f9a0310a52245b484ddf5ca0a6d39a14c9a822b5a3b2f306e79"
+RPM_NAME = "systemd-253.8-1.2.aarch64.rpm"
+RPM_HASH = "d06869691defee7570ff4b49228d21ef7f591ee1ec35e749bec2e5ebf14a073cc0fae058aa74593dd91f352f2a617644a9dfe61be3d17722591006780b90269a"
 
 RPROVIDES:${PN} += "/sbin/shutdown \
 config-systemd \

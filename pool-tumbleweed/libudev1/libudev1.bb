@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the dynamic library libudev, which provides
 access to udev device information"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "253.7"
+PV = "253.8"
 
-RPM_NAME = "libudev1-253.7-2.1.aarch64.rpm"
-RPM_HASH = "8f2879825899c6b988a158a81bac706d0e7c1008dd938df5111b9a61906e0f4120032499d6e2c6035ed772524a7e3a94b95ee6c68e75a1e1d739228acf631678"
+RPM_NAME = "libudev1-253.8-1.2.aarch64.rpm"
+RPM_HASH = "ed3786586d49af557425a031e0f594c30356bbfd8c6ceee0d79771dfc6e1d3f3d91c5af668967e2ccaf08e807778a33132300a08cd2be42d58fb8c3b3bbc5dac"
 
 RPROVIDES:${PN} += "libudev.so.1 \
 libudev1"

@@ -14,10 +14,10 @@ Features: \
  * Outputs decoding statistics using Etsy StatsD protocol"
 LICENSE = "GPL-3.0-only"
 
-PV = "2.2.0"
+PV = "2.3.0"
 
-RPM_NAME = "dumpvdl2-2.2.0-1.6.aarch64.rpm"
-RPM_HASH = "d5f7fd97789f2e29b1593591772c4c79fc2dae34c7b9326553d17d8543c67f532df050a7bc3adbc1ca9a5e15cd1ef02e49c80f9846cc06b4601c4b63a4970e0b"
+RPM_NAME = "dumpvdl2-2.3.0-1.1.aarch64.rpm"
+RPM_HASH = "ca4e6df1430474508d21dda6d1ec26b9137d2b820079326e85c2e6b75b99ea660efa28da7af1c62d0d1c515a653d891381ef79125fe790de90678dbf919b54c2"
 
 RPROVIDES:${PN} += "dumpvdl2"
 

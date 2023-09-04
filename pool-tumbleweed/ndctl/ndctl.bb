@@ -4,10 +4,10 @@ platform NVDIMM resources like those defined by the ACPI 6.0 NFIT \
 (NVDIMM Firmware Interface Table)."
 LICENSE = "GPL-2.0-only"
 
-PV = "76"
+PV = "78"
 
-RPM_NAME = "ndctl-76-1.4.aarch64.rpm"
-RPM_HASH = "81462f33bab23bfc1f2c060df5600c2f6b9dbf18517d2258312f7ccac5d61c63a5f134a4f73066ae7e945380531f3a0112e7d722d98f99911f164a9d959b0f1f"
+RPM_NAME = "ndctl-78-1.1.aarch64.rpm"
+RPM_HASH = "d5d27a667e1f5cf517d8ac84185f061fa0dc0d6566ccb579cf93099dcc94e50c4c8aaffe3a8330e7b1fa858ae781586c3a635f65e58609c48e84d9754cb941f0"
 
 RPROVIDES:${PN} += "config-ndctl \
 ndctl"

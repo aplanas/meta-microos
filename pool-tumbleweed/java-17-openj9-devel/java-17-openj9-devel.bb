@@ -4,10 +4,10 @@ DESCRIPTION = "The OpenJDK 17 development tools. \
 Supported architectures are ppc64le, s390x and x86_64"
 LICENSE = "Apache-1.1 & Apache-2.0 & EPL-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
 
-PV = "17.0.6.0"
+PV = "17.0.8.0"
 
-RPM_NAME = "java-17-openj9-devel-17.0.6.0-2.3.aarch64.rpm"
-RPM_HASH = "1cf06a92ba40d17f1dfe8c37a2bfb32abcba5d5439e86540d9809de4c1997185edc3fe51d090ea15d4f715851e2d88f12d53714efd754c240700dbe5459bcee8"
+RPM_NAME = "java-17-openj9-devel-17.0.8.0-2.1.aarch64.rpm"
+RPM_HASH = "7dad2a4383728ab464c00a28743b1539629d955d5480102b6d81dda3023478c7e5078b61f74ac83714e27d6d29fcf871221829d630151b4de4ae043bab439d16"
 
 RPROVIDES:${PN} += "java-17-devel \
 java-17-openj9-devel \

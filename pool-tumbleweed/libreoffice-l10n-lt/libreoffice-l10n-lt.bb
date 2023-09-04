@@ -2,10 +2,10 @@ SUMMARY = "Lithuanian localization files for LibreOffice"
 DESCRIPTION = "Provides Lithuanian translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-l10n-lt-7.5.4.2-1.5.noarch.rpm"
-RPM_HASH = "18e3a9a3227c393c3332015f03aa7081a7982a53a4aef09c29c143e7485004fc4d480116d66e97875964bb60706b2ce7b6c37cfaec8436a85f3e03dcd651d76c"
+RPM_NAME = "libreoffice-l10n-lt-7.6.0.3-1.1.noarch.rpm"
+RPM_HASH = "852f52dab9828e77a75425b30cd55e8202683381cbcbcdea04993558eeb8f44318977765f557c8e31619447de64cce9911953f38513997f5f321cb1326968abd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-lt \

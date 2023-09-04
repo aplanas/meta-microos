@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn33236"
 
-RPM_NAME = "texlive-efbox-doc-2023.209.1.0svn33236-54.1.noarch.rpm"
-RPM_HASH = "a0f2dafc40379708ebe156db7c1a0efd05fd0f0a7b94b33cf4c1e395c572fb9423414bbf7be70107ca570dbdee9762f4e1de61bb731ca1c510e3106b2a132c2b"
+RPM_NAME = "texlive-efbox-doc-2023.209.1.0svn33236-54.2.noarch.rpm"
+RPM_HASH = "f68e95dce736c6781f6905a30b5a83c8e0a838393602db5ffe1b6acde7bfd4e3af2494a033a3a92f9e85504aa1cff456051d61795d40f7ffe8cbeb6982a97966"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-efbox-doc"

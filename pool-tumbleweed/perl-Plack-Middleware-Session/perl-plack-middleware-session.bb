@@ -14,8 +14,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.33"
 
-RPM_NAME = "perl-Plack-Middleware-Session-0.33-1.16.noarch.rpm"
-RPM_HASH = "83796b67c01e95ba2196c0241c2bb0eeeeea65b062632e07986e8de1bad37feb73a108c472234555042151592a14261b03ed63adae16ce2fda4daa4f288b26f0"
+RPM_NAME = "perl-Plack-Middleware-Session-0.33-1.17.noarch.rpm"
+RPM_HASH = "e2dfb39c43697d626eb1d117ffe7ae8f6e68b62bdc08ba3f20396971c2b52a2e218c066fc02a8c19a94f24306c6268b293cb1e28e205f08324ce539a5dbbe244"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Plack--Middleware--Session \
@@ -31,7 +31,7 @@ perl-Plack--Session--Store--File \
 perl-Plack--Session--Store--Null \
 perl-Plack-Middleware-Session"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Cookie--Baker \
 perl-Digest--HMAC-SHA1 \
 perl-Digest--SHA \

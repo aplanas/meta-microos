@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.91svn15878"
 
-RPM_NAME = "texlive-pst-spectra-2023.209.0.0.91svn15878-54.1.noarch.rpm"
-RPM_HASH = "20f2e18693741701f97527601fa3c85c98bbc2cace860d20fc1a87d5d2b7dbb12119218e5800245818d265c3f8caeb1b965fa82e2e063b12bf9b06e66de8c8b2"
+RPM_NAME = "texlive-pst-spectra-2023.209.0.0.91svn15878-54.2.noarch.rpm"
+RPM_HASH = "5a55b34a09fcdd8346026028a81c1b7dcb623d9d76e01faca1f72930c728861146b8de1903f62852e18df53bc4b07b2f5a6b707961743d3c8426c397ba8e91f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-spectra.sty \

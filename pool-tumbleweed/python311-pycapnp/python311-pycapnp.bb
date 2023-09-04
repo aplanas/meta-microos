@@ -2,10 +2,10 @@ SUMMARY = "Cython wrapping of the C++ Cap'n Proto library"
 DESCRIPTION = "A cython wrapping of the C++ Cap'n Proto library."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.2.2"
+PV = "1.3.0"
 
-RPM_NAME = "python311-pycapnp-1.2.2-1.8.aarch64.rpm"
-RPM_HASH = "afdf06d84035903123234498f721b0554227072fe6b99a6067c31d3200fac5e9465affdb7038bd5004a01e5db3f86d8dcb5360b40f2402cca6cdfdac12029d88"
+RPM_NAME = "python311-pycapnp-1.3.0-1.1.aarch64.rpm"
+RPM_HASH = "f483e5e6b31f6f17e439c58c2c6d1eeedf2f68997afcb07dd115dc55b564efae87585fcd05bc0e4e91b223bc067cefbef55757c8b1405aa9120e3602f382dac0"
 
 RPROVIDES:${PN} += "python3-pycapnp \
 python3.11dist-pycapnp \

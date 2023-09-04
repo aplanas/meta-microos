@@ -5,10 +5,10 @@ embedded verity metadata block via the embed_verity_metadata \
 type attribute"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "9.24.61"
+PV = "9.25.12"
 
-RPM_NAME = "dracut-kiwi-verity-9.24.61-1.2.aarch64.rpm"
-RPM_HASH = "a21cd0af6d752fa62bd48e78817a99c4ff86bb80dfa819e591c32fbe57642e43d2b6fc6e8715d9cf432aa8c6460a681327cf6e5e59f6b90594bd9f4fcccf1c2b"
+RPM_NAME = "dracut-kiwi-verity-9.25.12-1.1.aarch64.rpm"
+RPM_HASH = "33438fd6676099ef3e2fa2560995fb3d2fdb4352e88728d2fe33637d259280b711c1e27f1b3a53014c4483275ca3bd7b78691c02c91ff4827542d9854c5fa138"
 
 RPROVIDES:${PN} += "dracut-kiwi-verity"
 

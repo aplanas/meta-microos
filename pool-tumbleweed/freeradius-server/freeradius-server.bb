@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "3.2.1"
 
-RPM_NAME = "freeradius-server-3.2.1-1.6.aarch64.rpm"
-RPM_HASH = "9ebcdfb58cc4ab6adfe04736564288a3ae5778bb2607fb4648de2371f7f1f2f4a508b63afbee4a0c18dfeda85ecf1a88487bb8d7337de7c63b3eb201bf6314ee"
+RPM_NAME = "freeradius-server-3.2.1-1.7.aarch64.rpm"
+RPM_HASH = "a19f2d91c03d3eb42434d61a077cf313f75926b77ea727e1104ed13e4ba44a1621aa03c7f38bcde95a87726946ab4a54e6899f43e17ce493f9e6481b70fbd9ce"
 
 RPROVIDES:${PN} += "config-freeradius-server \
 freeradius \

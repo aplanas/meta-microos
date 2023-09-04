@@ -4,10 +4,10 @@ graphical user interface components that come with QEMU. The bulk of strings \
 in QEMU are not localized."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.3"
+PV = "8.0.4"
 
-RPM_NAME = "qemu-lang-8.0.3-2.1.aarch64.rpm"
-RPM_HASH = "657459b1b05b505a4c2a797aef8342426788437de699280fae6b03773ace11a9b0a62bd1212749825ccb00ffc2b176bd67062ec0031cd6a67b01368d987909b3"
+RPM_NAME = "qemu-lang-8.0.4-1.1.aarch64.rpm"
+RPM_HASH = "a8a7a1835db2d7d3c3c90d8de3edfd2da766a80b352367f531ee97690ee99cd4f32c02081ee59706b409f6b5a94fc71b32e74b1edc218515f11e54617e179e4d"
 
 RPROVIDES:${PN} += "locale-qemu-bg \
 locale-qemu-de-DE \

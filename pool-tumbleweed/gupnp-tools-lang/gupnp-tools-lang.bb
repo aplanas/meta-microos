@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gupnp-tools"
 DESCRIPTION = "Provides translations for the 'gupnp-tools' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.12.0"
+PV = "0.12.1"
 
-RPM_NAME = "gupnp-tools-lang-0.12.0-2.1.noarch.rpm"
-RPM_HASH = "6df9f3e950246c2703438ac8a897fa64fe86a49638eb2b54dda57f17dd35932a85b03530e87398bff4b1185903698f90408dc9b57e98ba3fd102c552089f5d23"
+RPM_NAME = "gupnp-tools-lang-0.12.1-1.1.noarch.rpm"
+RPM_HASH = "133a8599a1814f40a80494f2ec9d8ac87b4cd59c01efd51b1724fe6598d26d286c116684d3a8cec46023042b866c43d74b60b7bb15c06ba8a543991605b33b49"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gupnp-tools-lang \
@@ -21,6 +21,7 @@ locale-gupnp-tools-fur \
 locale-gupnp-tools-hu \
 locale-gupnp-tools-id \
 locale-gupnp-tools-ja \
+locale-gupnp-tools-ka \
 locale-gupnp-tools-pl \
 locale-gupnp-tools-pt \
 locale-gupnp-tools-pt-BR \

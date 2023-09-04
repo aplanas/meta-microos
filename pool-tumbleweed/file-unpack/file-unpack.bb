@@ -5,8 +5,8 @@ LICENSE = "GPL-1.0-or-later | Artistic-1.0"
 
 PV = "0.70"
 
-RPM_NAME = "file-unpack-0.70-7.12.aarch64.rpm"
-RPM_HASH = "43d670eda4b6484a8155adfdb0541fbb555692e68909af9761bc532e699a29e416275a4a152f6039010c36626315db8a6d16cab195bf47be7cb7299a8f4ebd8b"
+RPM_NAME = "file-unpack-0.70-7.13.aarch64.rpm"
+RPM_HASH = "6ae1b46e9e87802f2b088e1a32491d7ee232bff20e13e8acd262a0b2a6cf536d2d62723f338f9b5930dfb92761e4df32b23be4205ec9ef2a1363040d1218d4ea"
 
 RPROVIDES:${PN} += "file-unpack"
 

@@ -13,13 +13,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.88.0"
 
-RPM_NAME = "perl-HTTP-Tiny-0.88.0-1.1.noarch.rpm"
-RPM_HASH = "64f8845d8cea9e41b7bbd1eb6fac7f2402e0c1c9313ffda599c4d258be9d7abab344a1d40eedf45588e707665d9f85fbbb36f27184f648972d0be893d1113761"
+RPM_NAME = "perl-HTTP-Tiny-0.88.0-1.2.noarch.rpm"
+RPM_HASH = "5a9160c042c7383fe0e593988d3416328a20d155ec240fa95f08381c123580bc80a36b4e051caee3be4afaaf33b51e727eabcc53ede904f6b2db9cf4d26789bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Tiny \
 perl-HTTP-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

@@ -7,10 +7,10 @@ removal. \
 This package contains the essential core library for Knot services."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.2.8"
+PV = "3.2.9"
 
-RPM_NAME = "libknot13-3.2.8-1.1.aarch64.rpm"
-RPM_HASH = "a5a74df21eef7c4a412edc8e07b05ad367f7a8e06e1a6d589caae7bf7c5bf031fc7127c57b772aa72979314fb9c63339a9ce8bb7ae729a21c7e861534d96651d"
+RPM_NAME = "libknot13-3.2.9-1.1.aarch64.rpm"
+RPM_HASH = "5ce1d6c77aea96d7100009c1016e202f1b529224560bd57b549824b756cbf1d799060e0871d630cf2c77bc142f1611e4a0f5f8e3684bb76738442176580f470a"
 
 RPROVIDES:${PN} += "libknot.so.13 \
 libknot13"

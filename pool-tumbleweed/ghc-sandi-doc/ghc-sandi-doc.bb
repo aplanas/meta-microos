@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5"
 
-RPM_NAME = "ghc-sandi-doc-0.5-5.7.noarch.rpm"
-RPM_HASH = "9d758bd9b6e4755bd6f003cfbe1989ed4cb0d26a44eb5ecd76c56b77588884671920696dab3b5201782ae01fb3c89624367554bf9739fe17da4a1cb786e5df8d"
+RPM_NAME = "ghc-sandi-doc-0.5-5.11.noarch.rpm"
+RPM_HASH = "879a30e2d5b553aadbab70d79c4ae04ae6bef0fbb7258d1a252bc975f830881d101b40563639603a7c6a6b225a0f9d8f05661b8766279e7c81e24a529fbb259a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-sandi-doc"

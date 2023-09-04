@@ -13,8 +13,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "6.23"
 
-RPM_NAME = "perl-Net-HTTP-6.23-1.1.noarch.rpm"
-RPM_HASH = "e0aa457c2499b4f1691c317fdb6ba78ed68f632ca842e0622399d321dbc655dc4da5762ce7bc02ecfc14c0f5dadc6492adc518639066fffa095dae292a1a6af7"
+RPM_NAME = "perl-Net-HTTP-6.23-1.2.noarch.rpm"
+RPM_HASH = "7f3dccb22f76ef6afb1b900f0851d99cd9e9f6cf7b7ae278fbe2154608687ca13107ca52e50755024595fccdd7b2f457a3bcc1aab77df64bdd683b8cfddd7041"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--HTTP \
@@ -23,7 +23,7 @@ perl-Net--HTTP--NB \
 perl-Net--HTTPS \
 perl-Net-HTTP"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Compress--Raw--Zlib \
 perl-IO--Uncompress--Gunzip \
 perl-URI"

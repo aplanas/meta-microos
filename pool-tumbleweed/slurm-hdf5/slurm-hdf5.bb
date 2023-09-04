@@ -6,8 +6,8 @@ LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "23.02.2"
 
-RPM_NAME = "slurm-hdf5-23.02.2-1.3.aarch64.rpm"
-RPM_HASH = "55eeeb38406fab065289de8180b33139f479e4a3df563d2d464bf4e0574bda2ad13dd454578303d1d963018f1bd40cbceefd63eb688115f17f7927439805adaa"
+RPM_NAME = "slurm-hdf5-23.02.2-1.4.aarch64.rpm"
+RPM_HASH = "f64108d628344dbef9a0f0679e352a9e34a0f2a30e56cb0d97c57f654df05d6ceb95a18925c3c055bf5f1cd45500b89f0585db2d0ff5cef3195158a2540cb4f3"
 
 RPROVIDES:${PN} += "slurm-hdf5"
 

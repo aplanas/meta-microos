@@ -5,14 +5,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.10"
 
-RPM_NAME = "perl-Test-Mock-Guard-0.10-1.16.noarch.rpm"
-RPM_HASH = "e035d4f08e95b593f6ddf2c459b18fca46fdb08a3aa4643f87adf60af92e76c1dc4f5cafc3a989341862b5b72a8760492620dc20ae6f67e5f1a4cebec8b70e92"
+RPM_NAME = "perl-Test-Mock-Guard-0.10-1.17.noarch.rpm"
+RPM_HASH = "c7cd625a4cf447a8f66e28ebc165c7a3bd77335153d0d55da40db46b3b826871df817ad13ad6f226d1f10aa592179a50eddb865e6d5768a6f07d87cc1ed49932"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Mock--Guard \
 perl-Test-Mock-Guard"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Class--Load \
 perl-Exporter"
 

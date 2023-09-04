@@ -10,8 +10,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20221030"
 
-RPM_NAME = "libvshadow-devel-20221030-3.7.aarch64.rpm"
-RPM_HASH = "b4cb730fbc9009131fa64019c49dd2e3a47038249c336910c8685f5e9affb04469811b6fa8aae2ecdc86df8efbace0fbc4ac6b71fb5a9e0d9417382d36d37e23"
+RPM_NAME = "libvshadow-devel-20221030-4.1.aarch64.rpm"
+RPM_HASH = "16c58f1b7f2decb6770d4bdd1bed86b258f83ea6b592c34bcadc59498edeef035f52e5376149f0271c5ca329b00177774161a16604401e37d9e25d1126e1415b"
 
 RPROVIDES:${PN} += "libvshadow-devel \
 pkgconfig-libvshadow"

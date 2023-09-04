@@ -12,10 +12,10 @@ Features: \
     and compute shaders."
 LICENSE = "Apache-2.0 | MIT"
 
-PV = "1.3.243.0"
+PV = "1.3.261.0"
 
-RPM_NAME = "spirv-cross-1.3.243.0-1.2.aarch64.rpm"
-RPM_HASH = "61963013da3b45fe64523bc5c7450ccda0c3f98544744d7ad9ff6abeea2cea9086f58a09f8f258f15a989bea193877bc1c62b29ef79923966c863e0792a96cc4"
+RPM_NAME = "spirv-cross-1.3.261.0-1.1.aarch64.rpm"
+RPM_HASH = "ed227eadae9093388a60ba1e7486e1aac469767c71984f520bf12ad147e67798ec5d2503eb5d513f109fd92485c76b16f3bc18b7a33b6e6245d690b8e9df77d9"
 
 RPROVIDES:${PN} += "spirv-cross"
 

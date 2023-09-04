@@ -5,29 +5,29 @@ LICENSE = "MIT"
 
 PV = "0.3.6.1"
 
-RPM_NAME = "ghc-http-client-tls-devel-0.3.6.1-2.4.aarch64.rpm"
-RPM_HASH = "3ca483c614275d7aba422490ecd4df01a897e9edf1d7be120b86f1cc877fcf20914863b3f339f905ec8ccf10657e6e66f68bf3e4bc58f216eb8a0f8fa2804880"
+RPM_NAME = "ghc-http-client-tls-devel-0.3.6.1-2.7.aarch64.rpm"
+RPM_HASH = "dc0b7ca99ca1b3434b4fd1c4374cef5844c290c8a0a9967129b9909023893231ba84a20cfcf658b3f120697ab1faf919dc5542f0c07c04081eb388a6903d2a39"
 
-RPROVIDES:${PN} += "ghc-devel-http-client-tls-0.3.6.1-JGexjE6a1aDBtZfhjHdqL7 \
+RPROVIDES:${PN} += "ghc-devel-http-client-tls-0.3.6.1-FlsMdDWaVoFLIhxPfXPqPa \
 ghc-http-client-tls-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0 \
-ghc-devel-case-insensitive-1.2.1.0-AumZoR4Lds63HJj8OQwHY3 \
-ghc-devel-connection-0.3.1-E1TQ2BFmXua7xK5tzqGZX7 \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1 \
+ghc-devel-case-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9 \
+ghc-devel-connection-0.3.1-HritGhbYIMl4OD06E3KY8G \
 ghc-devel-containers-0.6.7 \
-ghc-devel-cryptonite-0.30-cxpuRFsDaEEZnBeTxvUaJ \
-ghc-devel-data-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ \
+ghc-devel-cryptonite-0.30-LSC76M64GQaFgLGwFfgIgW \
+ghc-devel-data-default-class-0.1.2.0-HWomeRk5e2p3WGQsDTnuAN \
 ghc-devel-exceptions-0.10.5 \
-ghc-devel-http-client-0.7.13.1-LvoiBjsIce7LUIKGveF6IJ \
-ghc-devel-http-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6 \
-ghc-devel-memory-0.18.0-8CsggfkyXReDSMbRoae4Yp \
-ghc-devel-network-3.1.4.0-FvtFepOtuCUH79FCWyNxIc \
-ghc-devel-network-uri-2.6.4.2-4kNQnaE9heqEL1mH8FE5xH \
+ghc-devel-http-client-0.7.14-DEHi4b5z3Pa56fFNKIs9J1 \
+ghc-devel-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
+ghc-devel-memory-0.18.0-6jbQrbksm9m3FIftlSlmf1 \
+ghc-devel-network-3.1.4.0-5p1NVWLTlrvDdAAI1mskSs \
+ghc-devel-network-uri-2.6.4.2-3utC1p6H7mg92qIH44jQaM \
 ghc-devel-text-2.0.2 \
-ghc-devel-tls-1.6.0-GPxmmQRGk0xt2NkvZcJeD \
+ghc-devel-tls-1.6.0-D0DtS2mRMN13yCvXOGSBsv \
 ghc-devel-transformers-0.5.6.2 \
 ghc-http-client-tls"
 

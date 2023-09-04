@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn32639"
 
-RPM_NAME = "texlive-economic-2023.209.svn32639-54.1.noarch.rpm"
-RPM_HASH = "98c24d9abbf1e7b3eaec0f59fa2577140a32ded4e84f7ef6a5c3fce64ecc3804265d972f744c18e9699413c6e0fff372838cf42ad92c7defce2dca4273911946"
+RPM_NAME = "texlive-economic-2023.209.svn32639-54.2.noarch.rpm"
+RPM_HASH = "ba2deb097f2408e786bf8de84c8b2f032085815984cadc47204c2988a972e26b7bdc4b3edb01a5d7ab30e9f9e4b55074ec40a0226d717b4644277cba8c573a9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-aer.sty \

@@ -14,8 +14,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.3.2svn63845"
 
-RPM_NAME = "texlive-zref-check-2023.209.0.0.3.2svn63845-53.1.noarch.rpm"
-RPM_HASH = "cbc05a15bf67b7883e543363808a2fd8ab7d60aaccb3b69afb540314bb20cb1431b93801ecc23c952b3f44e328c3a56a1b3810fe385007621de88d7b9b779a0f"
+RPM_NAME = "texlive-zref-check-2023.209.0.0.3.2svn63845-53.2.noarch.rpm"
+RPM_HASH = "1e901ca89a70a354614cce24d88b2846db961a995d81c28ac8c6ff4a18e00ca7b1f38dbdd825fafbddb867127b7da3dc7b8e1352cbac455f9a186acc7674bed2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zref-check.sty \

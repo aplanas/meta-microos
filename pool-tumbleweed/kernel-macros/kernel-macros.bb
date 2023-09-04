@@ -1,15 +1,15 @@
 SUMMARY = "RPM macros for building Kernel Module Packages"
 DESCRIPTION = "This package provides the rpm macros and templates for Kernel Module Pakcages \
  \
-Source Timestamp: 2023-07-25 04:42:30 +0000 \
-GIT Revision: 55520bc826c5b1d40857ed0536eb87438cb95192 \
+Source Timestamp: 2023-08-17 04:57:43 +0000 \
+GIT Revision: 2a5b3f66898e9ecfa282f4399923c9546d3bc54d \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.6"
+PV = "6.4.11"
 
-RPM_NAME = "kernel-macros-6.4.6-1.1.noarch.rpm"
-RPM_HASH = "f303cb9ca2b62198b77d452d1cceedbbd89697b13b0d039559938f24cc200bce8a3d7385f6d7587372c72eef1fa7e8d8b930bd8e930eac6b1f01517ad9b624ab"
+RPM_NAME = "kernel-macros-6.4.11-1.2.noarch.rpm"
+RPM_HASH = "5d5c56460ee3629feb2a1cb8e824272167519450274604b0d551a303f7e3515242443587fbd022058cc6c046a919c40347d526a5b4d603cd47e2099d89caa3df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kernel-macros \

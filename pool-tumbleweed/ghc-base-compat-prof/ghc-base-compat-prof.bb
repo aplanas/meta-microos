@@ -4,15 +4,15 @@ LICENSE = "MIT"
 
 PV = "0.13.0"
 
-RPM_NAME = "ghc-base-compat-prof-0.13.0-1.3.aarch64.rpm"
-RPM_HASH = "c0d9e90e727a9bdac8d4ea9ef615990c8453dae228fc35a0419a2c0af58a55a7fbb4a334771567534273f648709f780a643280de0f1770697f49bec40ecab51b"
+RPM_NAME = "ghc-base-compat-prof-0.13.0-1.5.aarch64.rpm"
+RPM_HASH = "39d56ca9505b5e8befa56fb03a63fbc9251b90cd382baf5394bfa92a383a5e2c9b992809137e27019f65248d295e397d79b7d606c7148e30c18ba6207bcce70c"
 
 RPROVIDES:${PN} += "ghc-base-compat-prof \
-ghc-prof-base-compat-0.13.0-Cvz3167VMpo6rdOohSlum3"
+ghc-prof-base-compat-0.13.0-ASw4phAd2I0LrTJ4o8lXb1"
 
 RDEPENDS:${PN} += "ghc-base-compat-devel \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-ghc-prim-0.9.0 \
+ghc-prof-base-4.17.2.0 \
+ghc-prof-ghc-prim-0.9.1 \
 ghc-prof-unix-2.7.3"
 
 inherit rpm

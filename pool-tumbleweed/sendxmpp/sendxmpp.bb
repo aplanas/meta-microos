@@ -5,14 +5,14 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.24"
 
-RPM_NAME = "sendxmpp-1.24-3.3.noarch.rpm"
-RPM_HASH = "33f7191918f7c7ecd4ca45fe43dab32f6d29bb58ac7d929df2acc96e5b185d500b0cc37d44212636462eb20663f23030ac8e5c4027e40d4375279dd6e6c1a6a8"
+RPM_NAME = "sendxmpp-1.24-3.4.noarch.rpm"
+RPM_HASH = "783e3b2e7c7ab27f8a11810442e78c9cd49e46d791775b1bdb33f72b4f23b8c6ac08db232e267055ce4a032751c2c56adbb788c7b403cc6e6e2ff12a946dce81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sendxmpp"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-IO--Socket--SSL \
 perl-Net--XMPP"
 

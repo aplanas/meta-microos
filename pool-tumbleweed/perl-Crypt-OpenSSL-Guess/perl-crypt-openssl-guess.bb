@@ -15,13 +15,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.15"
 
-RPM_NAME = "perl-Crypt-OpenSSL-Guess-0.15-1.8.noarch.rpm"
-RPM_HASH = "6e4e5826abb7dfaa124818266429a35d9ff8f8c90b55c5e9a0fc817706cb45c71986d813191b35278ac276c60e98f7dcee6dd22c194cdab7d3d54d094375cdbe"
+RPM_NAME = "perl-Crypt-OpenSSL-Guess-0.15-1.9.noarch.rpm"
+RPM_HASH = "1e2e0f44e2f701c206ceb62e636c77e52f41a778435962a0f900cee4d1f4b21c5b1afbfd3c035ee5a86842fb49bad52e7c0a91f771c9f8a5074ce56870b8bd67"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Crypt--OpenSSL--Guess \
 perl-Crypt-OpenSSL-Guess"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

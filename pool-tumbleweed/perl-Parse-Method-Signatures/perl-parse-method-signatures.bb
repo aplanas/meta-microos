@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.003019"
 
-RPM_NAME = "perl-Parse-Method-Signatures-1.003019-1.23.noarch.rpm"
-RPM_HASH = "dc43f9f5142f57040ffc87f48267a56e3bdae86e79a50d3ce4e735e9f55563c6d8af43973273bcd2ae48b365c77fbd9a678f343e39e958bd7e805316c81f35f5"
+RPM_NAME = "perl-Parse-Method-Signatures-1.003019-1.24.noarch.rpm"
+RPM_HASH = "146935a322d11d8e3ecc5dd39622035797294f12a6aac5ea77c87d9e37d2bc079f7191409fba08fd696eaf831e53c7a9a1df34cdc9bcec6a01adc865c31251e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Parse--Method--Signatures \
@@ -24,7 +24,7 @@ perl-Parse--Method--Signatures--TypeConstraint \
 perl-Parse--Method--Signatures--Types \
 perl-Parse-Method-Signatures"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Class--Load \
 perl-List--MoreUtils \
 perl-Moose \

@@ -4,10 +4,10 @@ into an application. It supports QtScript as a scripting interpreter backend. \
 Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kross-devel-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "4b3d145d704c60ac67bd9cd34898454035021fa2849098340083cee719329b07b666a148c0181aff55d3c8cd839292862880c9afa10bd9bba2228e52dc6b3ff6"
+RPM_NAME = "kross-devel-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "d777073eb48b5aef86ae29473ea967efe7e405cdaf2f39a81ed5e2e49225622b79553aca80c099b416bb0ec5d59984f77a69aa4032ecdd0474ad2b18342ca901"
 
 RPROVIDES:${PN} += "cmake-KF5Kross \
 kross-devel"

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 various USB WiFi / Ethernet drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230724"
+PV = "20230814"
 
-RPM_NAME = "kernel-firmware-usb-network-20230724-1.1.noarch.rpm"
-RPM_HASH = "44001c7da7de92a847591527bda583ddd37724fc20804daccb77359b02a5cb40185de5835e01288f8eff9f703b92e572f8f0c2358f11556613407a954f6eeac8"
+RPM_NAME = "kernel-firmware-usb-network-20230814-1.1.noarch.rpm"
+RPM_HASH = "26af2a321e97d0a15fbcacd1da0e99264423032178e7cfa30cd34902f5b08a5c16d27c1e072605b91b8e5a0bf2493f3b57d348ba9a24446c0d257eaa8e06e1db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-atusb/atusb-0.2.dfu \

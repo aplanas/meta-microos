@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.svn66186"
 
-RPM_NAME = "texlive-dviljk-2023.209.svn66186-54.1.noarch.rpm"
-RPM_HASH = "5131e7e38d76d16a6566ee4be6de0ff6f7cf3322acb39359bff48d381fe3ea106aff56559ee007c3f7a6a324ca8b3e7a658688368656b5b198f5f579a64f90b5"
+RPM_NAME = "texlive-dviljk-2023.209.svn66186-54.2.noarch.rpm"
+RPM_HASH = "c0bd50021b361000b241262e46ce40917a4c56f405dadeec99deb4fd1db65f8f24bd57bbe1f7c55c8fa4dbaa0fac808b4afa6129fe79ed82d359cdbe3ac67b56"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-dvihp.1 \

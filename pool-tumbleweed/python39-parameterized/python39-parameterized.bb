@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.9.0"
 
-RPM_NAME = "python39-parameterized-0.9.0-1.3.noarch.rpm"
-RPM_HASH = "34ac529feb0469261dd2ae6c3a2703b017540d9aae97ad1260f80bfea0374413f767a4e03f9b50f64bb7afa55d28fc2383f4bd52f46471013177c7da574a6824"
+RPM_NAME = "python39-parameterized-0.9.0-2.1.noarch.rpm"
+RPM_HASH = "f4268a62c21ac82b4e60228b2cc8c984e065bf28e4e3675ee5f2710a7e2ec24fecc69a89fa1b1f926bfc7164e3fab7bd101f804eeec122da59d6563b4925cc45"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-parameterized \

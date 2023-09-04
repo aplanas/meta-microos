@@ -7,8 +7,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.209.svn64343"
 
-RPM_NAME = "texlive-ebgaramond-2023.209.svn64343-54.1.noarch.rpm"
-RPM_HASH = "28e322bac4555c9cda422ef06c4c69203e0bf1b0bb4ce41c59b22dc706aef56626bd8468d293fb0a40c1229d5684252a7b95a97b053fff68d67e293c8cd5dbde"
+RPM_NAME = "texlive-ebgaramond-2023.209.svn64343-54.2.noarch.rpm"
+RPM_HASH = "41a8a2b53d07b012c5d18ffeb657bec8c13026b0a92b4c67c8980e6007c2480906a5d371c34c053a2f6dc9bba56736203713b11887b99cb43cef59ed17bc15c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-EBGaramond-Bold-inf-lgr.tfm \

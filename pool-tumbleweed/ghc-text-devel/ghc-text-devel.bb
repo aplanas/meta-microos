@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.2"
 
-RPM_NAME = "ghc-text-devel-2.0.2-3.2.aarch64.rpm"
-RPM_HASH = "3df240fd5f559acc98ac7abea279130d7bb1359e635ff6aa5f0cb5c6d90629df66026d20604ef7fd7943ace883b0638dfe1913f169e64c8b26df867bd0138058"
+RPM_NAME = "ghc-text-devel-2.0.2-1.1.aarch64.rpm"
+RPM_HASH = "cc6193ed870452d2a72c7be713b87b723b7e292225749989896c951eb296fc727bc5f20545ed8d5d0631a69c8b018a8f540b9c54d3f1bfce5da6d6716ae19df0"
 
 RPROVIDES:${PN} += "ghc-devel-text-2.0.2 \
 ghc-text-devel \
@@ -13,11 +13,11 @@ ghc-text-static"
 
 RDEPENDS:${PN} += "ghc-compiler \
 ghc-devel-array-0.5.4.0 \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-binary-0.8.9.1 \
-ghc-devel-bytestring-0.11.4.0 \
+ghc-devel-bytestring-0.11.5.1 \
 ghc-devel-deepseq-1.4.8.0 \
-ghc-devel-ghc-prim-0.9.0 \
+ghc-devel-ghc-prim-0.9.1 \
 ghc-devel-template-haskell-2.19.0.0 \
 ghc-text"
 

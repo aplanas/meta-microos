@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.1.19.2svn52851"
 
-RPM_NAME = "texlive-gsftopk-2023.209.1.19.2svn52851-54.1.noarch.rpm"
-RPM_HASH = "b77d2d82f7b2c02a29832496304f0c3297845da0c26e3007264250279c20c9cfc4061cfb8a8a63048a0b66cf9240fab795b635490bb637d7d65d8a6187756119"
+RPM_NAME = "texlive-gsftopk-2023.209.1.19.2svn52851-54.2.noarch.rpm"
+RPM_HASH = "8855a2da21fbd1ea71fd1a097cb15bac2d51df8d42d7aeafe35ef13cd8358abe8b3bdd0bb05344e6736e8582d1ab9f9847006728d3896cac7fa57144c697dc2e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gsftopk"

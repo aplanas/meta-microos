@@ -8,10 +8,10 @@ has basic macros and a 'convenience' user interface that wraps \
 \\includegraphics."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.2.0svn60810"
+PV = "2023.209.1.2.0svn60810"
 
-RPM_NAME = "texlive-incgraph-2023.208.1.2.0svn60810-53.1.noarch.rpm"
-RPM_HASH = "c2801876b638107f7bb22f2c541daf1fae006012ec4b78112ebd382a1ca781af10d9a719a2631997b545c46479d12de7cab8264541dbd87784bbad8dbe54c5bc"
+RPM_NAME = "texlive-incgraph-2023.209.1.2.0svn60810-54.1.noarch.rpm"
+RPM_HASH = "3450122990b9006422449fff679cd2b06943df4fec3faccddcc344d15eacefb2c3c20ef8f8966d96e024651833da8149cbaad4fc558550db023f88db91a4c490"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-incgraph.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains special versions of the GNU C library which
 necessary for profiling and debugging."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-2.1-or-later-with-GCC-exception-2.0"
 
-PV = "2.37"
+PV = "2.38"
 
-RPM_NAME = "glibc-profile-2.37-5.1.aarch64.rpm"
-RPM_HASH = "a0139a9e0398d6fc76198ea8c4bc8511a3b1d749bb4b5fe51ef8793c3c7b7391e935631018981452f860c7d24ef6713ba162b03bd79c723f81a287430704f44f"
+RPM_NAME = "glibc-profile-2.38-1.1.aarch64.rpm"
+RPM_HASH = "28fc42abe2dcf373d36f6f45c422964692b81634da1992b9b393be02e40c820a56fe8c160c3e0c1028603323b5203a4d2214cd044c1120b7165d786e8ab959a1"
 
 RPROVIDES:${PN} += "glibc-profile"
 

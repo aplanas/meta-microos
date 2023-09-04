@@ -6,13 +6,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.005"
 
-RPM_NAME = "perl-String-Trim-0.005-1.11.noarch.rpm"
-RPM_HASH = "41c8ac3412a7b438242b15d8a254c3c0404c8d66a126779a754ebaccd11dddaa32560b2bc4a2c7813393759fe7b03a9b16a67a104e25c1b02ca9919aa141ebb7"
+RPM_NAME = "perl-String-Trim-0.005-1.12.noarch.rpm"
+RPM_HASH = "66b3b426d97265118d8db2e284c59e7bf5a049a078d4a683d1e7ffe1af4841b2d67f9c403d3acd47279c8dd5fd4fda7b3f63f893fbba8479512729a5b3ac0838"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-String--Trim \
 perl-String-Trim"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

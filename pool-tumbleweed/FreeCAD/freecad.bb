@@ -5,10 +5,10 @@ going back into the model history and changing its parameters. FreeCAD is \
 customizable and scriptable."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "0.20.2"
+PV = "0.21.0"
 
-RPM_NAME = "FreeCAD-0.20.2-5.2.aarch64.rpm"
-RPM_HASH = "6e284d5514ff3785427207c29ed913d67f3df70c700a7e06b0d0efeab94efc3218695293745c6d622f3c7548a82cb45d266e3099eb29a9e420294904a15cdd69"
+RPM_NAME = "FreeCAD-0.21.0-1.1.aarch64.rpm"
+RPM_HASH = "dfc5c92bb279c71084413f6f8861f953d66492f89631134e68b27645be549c14ec09eb7f2a59348a25d674837adc92fd13b2943b0431225da3b74aac81d65544"
 
 RPROVIDES:${PN} += "FreeCAD \
 freecad \
@@ -34,19 +34,16 @@ ld-linux-aarch64.so.1 \
 libCoin.so.80 \
 libGL.so.1 \
 libGLESv2.so.2 \
-libGLU.so.1 \
 libQt5Concurrent.so.5 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \
 libQt5Network.so.5 \
-libQt5OpenGL.so.5 \
 libQt5PrintSupport.so.5 \
 libQt5Svg.so.5 \
 libQt5WebEngineCore.so.5 \
 libQt5WebEngineWidgets.so.5 \
 libQt5Widgets.so.5 \
 libQt5Xml.so.5 \
-libQt5XmlPatterns.so.5 \
 libTKBO.so.7.7 \
 libTKBRep.so.7.7 \
 libTKBool.so.7.7 \
@@ -83,6 +80,7 @@ libboost-filesystem.so.1.82.0 \
 libboost-program-options.so.1.82.0 \
 libboost-thread.so.1.82.0 \
 libc.so.6 \
+libfmt.so.9 \
 libfreetype.so.6 \
 libgcc-s.so.1 \
 libgomp.so.1 \
@@ -98,6 +96,7 @@ libstdc++.so.6 \
 libvtkCommonCore.so.1 \
 libvtkCommonDataModel.so.1 \
 libvtkCommonExecutionModel.so.1 \
+libvtkCommonMisc.so.1 \
 libvtkFiltersCore.so.1 \
 libvtkFiltersExtraction.so.1 \
 libvtkFiltersGeneral.so.1 \

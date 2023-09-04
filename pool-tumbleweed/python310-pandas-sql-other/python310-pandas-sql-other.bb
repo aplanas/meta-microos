@@ -2,10 +2,10 @@ SUMMARY = "The python pandas[sql-other] extra"
 DESCRIPTION = "This package provides the [sql-other] extra for python-pandas"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.2"
+PV = "2.0.3"
 
-RPM_NAME = "python310-pandas-sql-other-2.0.2-4.1.noarch.rpm"
-RPM_HASH = "fad03117b0946b83c34cd852b9d90f58e3a552f7dd4b05c804242182391c6de00ab6402958efbc92daca13c013744869569d0cddca0ae4d1b054bfd9395173ed"
+RPM_NAME = "python310-pandas-sql-other-2.0.3-1.2.noarch.rpm"
+RPM_HASH = "abc5543667370ad1d8d9979c4bb50f5112df723f4c25992bf32306b25b13d7526304b231879d54b427b5a0747a6d55586cd630fa7038ad0255f7df0f04139070"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python310-pandas-sql-other"

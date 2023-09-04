@@ -2,10 +2,10 @@ SUMMARY = "Haskell ghc-boot-th library documentation"
 DESCRIPTION = "This package provides the Haskell ghc-boot-th library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "9.4.5"
+PV = "9.4.6"
 
-RPM_NAME = "ghc-ghc-boot-th-doc-9.4.5-3.2.noarch.rpm"
-RPM_HASH = "05da66f965a77d44d522e036fca6ee28564dda84b47f57bac36c850f5d2645a7a59fe8af6e17181184b315e971972eb39000c0fd7954667e884921ecaca0945c"
+RPM_NAME = "ghc-ghc-boot-th-doc-9.4.6-1.1.noarch.rpm"
+RPM_HASH = "4909c918e8987390108590b70bff1a1c5a8257fa83e2c1d89b355622a34e5e324565920afb5cb0cef454a858e74653eef24de9c71ca5ec1953dc2cddc2ca479d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-ghc-boot-th-doc"

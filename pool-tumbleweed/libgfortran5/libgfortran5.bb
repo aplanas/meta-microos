@@ -3,10 +3,10 @@ DESCRIPTION = "The runtime library needed to run programs compiled with the Fort
 of the GNU Compiler Collection (GCC)."
 LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
-PV = "13.1.1+git7597"
+PV = "13.2.1+git7683"
 
-RPM_NAME = "libgfortran5-13.1.1+git7597-1.1.aarch64.rpm"
-RPM_HASH = "0909f8c11b2c156a871fc9d8178f7fea8654eca2c8c88f531ac81ba7f68331d4f52349558b52eb192dbac280d689932bba02f9317a2f87dd0d01a2b67490db04"
+RPM_NAME = "libgfortran5-13.2.1+git7683-1.1.aarch64.rpm"
+RPM_HASH = "923f037a7d3d5d917f15b13b22ebe86d74bf509b286c654ae0a3613ca9d19ce1c94afd2c9b3702fc4e197cc244c5dce477f095280c1d92fedfb7ec3db42624aa"
 
 RPROVIDES:${PN} += "libgfortran.so.5 \
 libgfortran5"

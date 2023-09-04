@@ -2,10 +2,10 @@ SUMMARY = "Console-based Audio Visualizer for Alsa"
 DESCRIPTION = "C.A.V.A. is a bar spectrum audio visualizer for the Linux terminal using ALSA, pulseaudio or fifo buffer for input."
 LICENSE = "MIT"
 
-PV = "0.8.3"
+PV = "0.9.1"
 
-RPM_NAME = "cava-0.8.3-1.4.aarch64.rpm"
-RPM_HASH = "aa1b6fe237a01f736ddf4d411aa0cf13d34e247ae7506af70b5b6b6f3eb9dbbf454df80dabc3dd873050424523bccf6f827eb4f3a560c1ecfd71d9386b3e8268"
+RPM_NAME = "cava-0.9.1-2.1.aarch64.rpm"
+RPM_HASH = "bf32325585e0e07b86fc3bdfbe37bde5e53d61efca74a82447581221c3c98251e2feac4c2b89b6c1e3e6eb02a5ebf10c5891f5f033f0cc30f6ed8cafed33018a"
 
 RPROVIDES:${PN} += "cava"
 
@@ -17,6 +17,7 @@ libfftw3.so.3 \
 libiniparser.so.1 \
 libm.so.6 \
 libncursesw.so.6 \
+libpipewire-0.3.so.0 \
 libpulse-simple.so.0 \
 libpulse.so.0 \
 libtinfo.so.6"

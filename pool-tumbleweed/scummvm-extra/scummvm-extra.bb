@@ -3,10 +3,10 @@ DESCRIPTION = "lastexpress and toltecs engines for ScummVM. \
 These engines are in a worse state, but allow to play extra games."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.7.0"
+PV = "2.7.1"
 
-RPM_NAME = "scummvm-extra-2.7.0-2.4.aarch64.rpm"
-RPM_HASH = "7da085b06cb2cf350044194ed814193c6c2ad16d60f82ce6ba24642a2ef93a12404ddd8129880cf70d31577305ec8631229f896b27b75231358aec021cf2009f"
+RPM_NAME = "scummvm-extra-2.7.1-1.1.aarch64.rpm"
+RPM_HASH = "8e7b2ba62e7f310bf11c069c6b17a13c931e2b68e8e22e4fe4b83a2247524b2b8a6b1ad9dbbefa19e05dc5f228bb7de271300d06c970963c764c80b95a088d14"
 
 RPROVIDES:${PN} += "liblastexpress.so \
 libwintermute.so \

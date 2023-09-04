@@ -13,8 +13,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0.0svn55920"
 
-RPM_NAME = "texlive-glosmathtools-2023.209.1.0.0svn55920-54.1.noarch.rpm"
-RPM_HASH = "b121770df36c8bf1ee43825d303e054a3e83f4f6869c0c3adb1141c6f6ea66be98623d1c862677471cb51320414a572a49d2debdb769366e61ed706542684ade"
+RPM_NAME = "texlive-glosmathtools-2023.209.1.0.0svn55920-54.2.noarch.rpm"
+RPM_HASH = "22da3bc72e95541649fbdff1948ca22b421220d44ac1d281e3cd840a257c5f6e740fd19611e3b797ccbb67f7a08927e790e1751e61306fa3617d34eb9c5922ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-glosmathtools.sty \

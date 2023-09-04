@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn39396"
 
-RPM_NAME = "texlive-econometrics-doc-2023.209.1.0svn39396-54.1.noarch.rpm"
-RPM_HASH = "441029584fbc853221667d02baa94c79f067391bf5da2a8a2bd3139e16c020f376296432e04df842372ecb141c51e3e16825df77a72cbdb0eca8e12f56a04c3e"
+RPM_NAME = "texlive-econometrics-doc-2023.209.1.0svn39396-54.2.noarch.rpm"
+RPM_HASH = "dfcc22d01565d34fb358fa70e1f83ad0e9dbb5086ddedf8bd0071de47e9669cc7f52cddac2913e9ada938c073c4e7df040bec1d63bd19baeee594e8c189cba70"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-econometrics-doc"

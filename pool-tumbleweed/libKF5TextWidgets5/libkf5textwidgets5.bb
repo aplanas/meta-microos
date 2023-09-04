@@ -3,10 +3,10 @@ DESCRIPTION = "KTextWidgets provides widgets for displaying and editing text. It
 rich text as well as plain text."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "libKF5TextWidgets5-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "8f1467f23a988e331df68c3b62d65ca2eecafc51fed3e82a959a382b95c20d96dcc203e6ef227ef31f429a12537c440eabaa8b6a03e60b3d19247d76e17c2417"
+RPM_NAME = "libKF5TextWidgets5-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "8fbdc6e6fbb874ed249572e5396f15d9fe8f4cdb8a02f1f9c152e6f002d15b5cd7edd6a94769fb3772fa655b8c1ade3bf9066ff48cf780a2db2e93be38eb1d4a"
 
 RPROVIDES:${PN} += "libKF5TextWidgets.so.5 \
 libKF5TextWidgets5"

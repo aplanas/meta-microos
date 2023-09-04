@@ -12,8 +12,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.49"
 
-RPM_NAME = "perl-Net-Daemon-0.49-1.13.noarch.rpm"
-RPM_HASH = "0a3fa2fff54e3cdf8027fbfe575e5b1cbae42b6c166718278842c8d50c153f6ff2a98fb68a3753647c179955f08b8c1e8dae37d0700a29664e886ecfebdd6eb9"
+RPM_NAME = "perl-Net-Daemon-0.49-1.14.noarch.rpm"
+RPM_HASH = "c2758edf640f107830f28d9f779e3ba17181e92f0c348b7d733c6fc79b187245f7fb934c830f030dd9ce76a7682f9007b336828a6f1e87f3a975cf7ff14cb75d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--Daemon \
@@ -23,7 +23,7 @@ perl-Net--Daemon--Test--Fork \
 perl-Net--Daemon--Test--Win32 \
 perl-Net-Daemon"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Sys--Syslog"
 
 inherit rpm

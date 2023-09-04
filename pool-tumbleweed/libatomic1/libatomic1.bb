@@ -2,10 +2,10 @@ SUMMARY = "The GNU Compiler Atomic Operations Runtime Library"
 DESCRIPTION = "The runtime library for atomic operations of the GNU Compiler Collection (GCC)."
 LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
-PV = "13.1.1+git7597"
+PV = "13.2.1+git7683"
 
-RPM_NAME = "libatomic1-13.1.1+git7597-1.1.aarch64.rpm"
-RPM_HASH = "151f19e1b13e5ae24afd03016d5229100f1abe52a90ee1752963efb7fa2871420cc1acd74826097f5163146c4fba3a43515d793c7abf3c0d862afbb59272581e"
+RPM_NAME = "libatomic1-13.2.1+git7683-1.1.aarch64.rpm"
+RPM_HASH = "03b6abee27110c7f4873e2790f85371409891386330897101ee3711e4c719684375ed0c7f4505ea75dff39d678d66c7d4fd2aff6712a4dc4515bfee903ef1938"
 
 RPROVIDES:${PN} += "libatomic.so.1 \
 libatomic1"

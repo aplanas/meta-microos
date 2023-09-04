@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0.0"
 
-RPM_NAME = "ghc-typst-doc-0.1.0.0-1.5.noarch.rpm"
-RPM_HASH = "6398fc6eae7ba09cc8d844b430a078ff3b3aedfdce3a295ae580733c4d368c61d19925c4a1e796c98061b299351fe2865eecefe1edb2cc65ed308e5dbe545bc9"
+RPM_NAME = "ghc-typst-doc-0.1.0.0-1.10.noarch.rpm"
+RPM_HASH = "731968b280336ad7638bd8c43fba3dfb4e5175acd7adfedf0628c9d34c863ed5fef5b8118f3d2a58719b91f3667b4fbccfbba6ee6896a39b2b8120f30355482e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-typst-doc"

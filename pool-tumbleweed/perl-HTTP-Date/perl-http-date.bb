@@ -98,14 +98,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "6.06"
 
-RPM_NAME = "perl-HTTP-Date-6.06-1.1.noarch.rpm"
-RPM_HASH = "3ffa64450870de8be6b7636289d54b39f2e4228bb9437a088af23e7bbae0cdba10cb9a2d65556914ce4b04d6c27d1d69549b6cff239f856625e7d5cbcb3df9f5"
+RPM_NAME = "perl-HTTP-Date-6.06-1.2.noarch.rpm"
+RPM_HASH = "c186ac2cb23842ef9307cf8ec2bd1bb79ab0bcb6a3f181e54cd5c47f2ac57a9414ee460a1fef5f35c99ee5bdfd6bc231c8eb452212f56975d349a6623d488db4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Date \
 perl-HTTP-Date"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Time--Local \
 perl-Time--Zone"
 

@@ -8,14 +8,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.01"
 
-RPM_NAME = "perl-Any-URI-Escape-0.01-1.13.noarch.rpm"
-RPM_HASH = "6bf5ae3a1eb1f606b8e33fc8f51cc36136cf7ded1cf2f4a89b3a0e56c6bdde1c869b219efe7e20fed09dc0661f20c3f6d03edeb08be940f8139282e95e098002"
+RPM_NAME = "perl-Any-URI-Escape-0.01-1.14.noarch.rpm"
+RPM_HASH = "57434b7b13baf59aff20df4fbe2345f97b365de71f8d10817043647fe1acbbec2b11f27ca442e20e8e428d2a2d8b76d70770d3f5f167ef820044dbdbe7e0d766"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Any--URI--Escape \
 perl-Any-URI-Escape"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-URI--Escape"
 
 inherit rpm

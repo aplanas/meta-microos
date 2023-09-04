@@ -4,25 +4,25 @@ LICENSE = "MIT"
 
 PV = "0.9.2.0"
 
-RPM_NAME = "ghc-clientsession-devel-0.9.2.0-2.1.aarch64.rpm"
-RPM_HASH = "fcf86e6629f82300eb70d6d707a5f83ca88492e0015d6ba94b3718722586c725c346317a1e7962a8a03d1c11f1209689eacc8505711a7dead95991d2bbdf3e41"
+RPM_NAME = "ghc-clientsession-devel-0.9.2.0-2.4.aarch64.rpm"
+RPM_HASH = "1ba52ab76ce4f315fcc8ff765269b15e26c58e0efe3302f0655114ef8a16b5b8fe619351973b96178387dc8a1c06c4ee47121a3a8db2f7e490ca8cabc66c8e66"
 
 RPROVIDES:${PN} += "ghc-clientsession-devel \
-ghc-devel-clientsession-0.9.2.0-4cx1ifSXftyKQDB0RGxUDf"
+ghc-devel-clientsession-0.9.2.0-KWpEVRfIrcVFYLxAWzOYnt"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-clientsession \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-base64-bytestring-1.2.1.0-8KbzJpmSQbYKTeew1rv0hh \
-ghc-devel-bytestring-0.11.4.0 \
-ghc-devel-cereal-0.5.8.3-LNsxCTyOF85AKtb4iLTs8f \
-ghc-devel-crypto-api-0.13.3-9orTVpCmnZz79j7elcs5GE \
-ghc-devel-cryptonite-0.30-cxpuRFsDaEEZnBeTxvUaJ \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-base64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM \
+ghc-devel-bytestring-0.11.5.1 \
+ghc-devel-cereal-0.5.8.3-BmWUcZuhGTnIupxReuIO3I \
+ghc-devel-crypto-api-0.13.3-2rX3thRbGDW3ZR7H62fg4Z \
+ghc-devel-cryptonite-0.30-LSC76M64GQaFgLGwFfgIgW \
 ghc-devel-directory-1.3.7.1 \
-ghc-devel-entropy-0.4.1.10-HkaMHQZP8nyRj15panvtP \
-ghc-devel-setenv-0.1.1.3-5NpDWBw9aN36gdxnY8UI9x \
-ghc-devel-skein-1.0.9.4-C8WZ6GadOdNJdCjx57swFO \
-ghc-devel-tagged-0.8.7-CYOhX22Df3PFW5V1S0dOJa"
+ghc-devel-entropy-0.4.1.10-J8gEYIp8YzV1E0Yqy7gqyc \
+ghc-devel-setenv-0.1.1.3-5X2tG8kGRXiEiTQvekWgx7 \
+ghc-devel-skein-1.0.9.4-HfR9tmKKFFp5G94XUHSnaw \
+ghc-devel-tagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax"
 
 inherit rpm

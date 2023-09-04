@@ -9,14 +9,14 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.034"
 
-RPM_NAME = "perl-Test-Output-1.034-1.1.noarch.rpm"
-RPM_HASH = "653204472486dceb47657d847386e48eb424e50b60620ee35040a99754b90371a4821ba769ddcd8af9c5baa250dce60e730eafd10d05449d24324132b1599b14"
+RPM_NAME = "perl-Test-Output-1.034-1.2.noarch.rpm"
+RPM_HASH = "3edefb098334a4ed76a9c1eb05b15ed689954ba2aa51bcad776df380ae605e07a61d8e15b7789be3eb66383c960f0e9824c3de429c2aff3be322388c6b8c4241"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Output \
 perl-Test-Output"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Capture--Tiny \
 perl-File--Temp"
 

@@ -11,8 +11,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20230212"
 
-RPM_NAME = "libewf-devel-20230212-2.8.aarch64.rpm"
-RPM_HASH = "0838dac2d9ffd084dfb3272bdd1065e4de7ee9b9bc7721208d9317991602aeca612b4711215eeb9665ec37b605f3e824d556ca517342b2f8a989f966d1bed36b"
+RPM_NAME = "libewf-devel-20230212-3.1.aarch64.rpm"
+RPM_HASH = "d5a77eb6b329a41864634fc98f807117b39d3eff74a31b2093c49a6beebc511c7d66c6fb9d55328ca40f8947eb9af90bfd944c5dbf1277dfc12ba3a2076e9ebf"
 
 RPROVIDES:${PN} += "libewf-devel \
 pkgconfig-libewf"

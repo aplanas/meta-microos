@@ -11,10 +11,10 @@ Matplotlib, SymPy, and more, and can be extended further with \
 full plugin support."
 LICENSE = "MIT"
 
-PV = "5.4.3"
+PV = "5.4.4"
 
-RPM_NAME = "spyder-5.4.3-1.2.noarch.rpm"
-RPM_HASH = "f61bb24829edc6c0b228b2d20c59106d591b1ec430ee1616fec3fb58cd13b6bd15ff1c2b0cdba781d44235c1f7ca7cb786e657c897d068bf4857e3bca30bb0c4"
+RPM_NAME = "spyder-5.4.4-1.1.noarch.rpm"
+RPM_HASH = "5fe6582cf18a3240ba13fab8323b5b1a93065070e6e4f8f40e15a545999811997fba2aa1953161b3170a5eec5cc7c345ae9a30a7bc0cada80a5e793896dd632c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-spyder \
@@ -30,9 +30,10 @@ spyder3-pylint"
 RDEPENDS:${PN} += "-python3-QDarkStyle >= 3.0.2 with python3-QDarkStyle < 3.2.0 \
 -python3-ipython >= 7.31.1 with python3-ipython < 9 \
 -python3-pylint >= 2.5.0 with python3-pylint < 3 \
--python3-python-lsp-server >= 1.7.2 with python3-python-lsp-server < 1.8 \
+-python3-python-lsp-black >= 1.2.0 with python3-python-lsp-black < 3 \
+-python3-python-lsp-server >= 1.7.4 with python3-python-lsp-server < 1.8 \
 -python3-qtconsole >= 5.4.2 with python3-qtconsole < 5.5.0 \
--python3-spyder-kernels >= 2.4.3 with python3-spyder-kernels < 2.5 \
+-python3-spyder-kernels >= 2.4.4 with python3-spyder-kernels < 2.5 \
 /usr/bin/bash \
 /usr/bin/python3.11 \
 cookiecutter \
@@ -65,7 +66,6 @@ python3-pydocstyle \
 python3-pyflakes \
 python3-pylint-venv \
 python3-pyls-spyder \
-python3-python-lsp-black \
 python3-pyxdg \
 python3-pyzmq \
 python3-qstylizer \

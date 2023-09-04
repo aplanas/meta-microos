@@ -3,10 +3,10 @@ DESCRIPTION = "This packages contains some scripts and a number of tests to chec
 smenu tool."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.2.0"
+PV = "1.3.0"
 
-RPM_NAME = "smenu-tests-1.2.0-1.4.aarch64.rpm"
-RPM_HASH = "c8a5bf3f8ab3ce40ba57093304cb3f357f23ae7f3e62e342612a0de466a66ee672ff3a3a058db312b48a0ca790872b6fbe71ce9d4bb46d19b22d3c140f2332d5"
+RPM_NAME = "smenu-tests-1.3.0-1.1.aarch64.rpm"
+RPM_HASH = "04b5d8c3bf995e06163f40810fe597e4b80b84c55d177ab1aa5e02cb85ef5887c6b4541c89e31c4535bafd521bedc6a95c0e34b558688671ba2ab339c54ceb18"
 
 RPROVIDES:${PN} += "smenu-tests"
 

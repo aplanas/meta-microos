@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.2.1svn15878"
 
-RPM_NAME = "texlive-epsdice-doc-2023.209.2.1svn15878-54.1.noarch.rpm"
-RPM_HASH = "0b13d53ce6ee0601f1d9806355c0775beddc4b7539239039b34d7be36d40c1e6add81ad86d6ab92606bc8190ce777bd11d920ade3fa2b2e4b0a70baea0f4ad09"
+RPM_NAME = "texlive-epsdice-doc-2023.209.2.1svn15878-54.2.noarch.rpm"
+RPM_HASH = "094391e5f96c1773d9309b4cc4de97c55c320406342f4e847d7038e2165a83888817274f4e2b6dcfd53dd0bc6dcc84a50713c1805b228644a5df4691116ec850"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-epsdice-doc"

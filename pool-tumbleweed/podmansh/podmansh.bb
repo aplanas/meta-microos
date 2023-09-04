@@ -6,10 +6,10 @@ It is a symlink to /usr/bin/podman and execs into the `podmansh` container \
 when `/usr/bin/podmansh is set as a login shell or set as os.Args[0]."
 LICENSE = "Apache-2.0"
 
-PV = "4.6.0"
+PV = "4.6.1"
 
-RPM_NAME = "podmansh-4.6.0-1.1.aarch64.rpm"
-RPM_HASH = "f66a647aa47fce3b2efa9d5f6fae6150567e84e01e58ad7d74ce6b8a07bec4ceda4437ca59f5e3bedd2b9f640ffb9e635f87f2f861c61accac4299b3f17a7b94"
+RPM_NAME = "podmansh-4.6.1-2.1.aarch64.rpm"
+RPM_HASH = "685f5f1e1e4bbc238ef762091967c6eb706a87bed5e14196090b65943dc4c5b64c8575edcd3fe7da339a50cd01da6fa2a4490bc71369cb4510477b10e30e390e"
 
 RPROVIDES:${PN} += "podman-podmansh \
 podman-shell \

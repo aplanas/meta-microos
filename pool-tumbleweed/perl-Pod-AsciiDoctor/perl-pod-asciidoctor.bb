@@ -4,14 +4,14 @@ LICENSE = "Apache-2.0"
 
 PV = "0.101003"
 
-RPM_NAME = "perl-Pod-AsciiDoctor-0.101003-1.1.noarch.rpm"
-RPM_HASH = "5ef098eecb97df505ded0493c9e60370aadf96b0c92aef926cdfa783b72b629e15a90ac175a34af38af8b41505d07804700ee5fd7a82c707c2f59576abf9229b"
+RPM_NAME = "perl-Pod-AsciiDoctor-0.101003-1.2.noarch.rpm"
+RPM_HASH = "93f0dd3763b8fb51e9c8be04425320a80fbc74e2cb92312d24b08163a1f998b3522a56d928ae30299c272222b08403c19d148f359384f7040011b218535d4a23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Pod--AsciiDoctor \
 perl-Pod-AsciiDoctor"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Pod--Parser \
 perl-parent"
 

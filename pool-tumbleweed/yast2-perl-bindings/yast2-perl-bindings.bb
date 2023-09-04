@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.6.0"
 
-RPM_NAME = "yast2-perl-bindings-4.6.0-1.4.aarch64.rpm"
-RPM_HASH = "d0aedc7e1836fbd6d8ddde1c669deee62d150c51b3f92ff54b0e0e9fe11f5aa9eb4e5bb2d988e22f9afebed0216a12fd2d9fe506a763c7442d828c8e41a1bc34"
+RPM_NAME = "yast2-perl-bindings-4.6.0-1.5.aarch64.rpm"
+RPM_HASH = "6969776a98a910fe7821af421d22e1aeaa99ba10d8e96fd9539ac8f36681d2a927a219f67dbf23f6bac81492ca6d4ad4cc552649fc07b4ebbccf6a541e929a59"
 
 RPROVIDES:${PN} += "libYCP.so.2 \
 libpy2lang-perl.so.2 \

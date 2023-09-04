@@ -36,8 +36,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.50"
 
-RPM_NAME = "perl-Future-0.50-1.2.noarch.rpm"
-RPM_HASH = "f38c640510132ebf7c726192a670ad1c4f04d9f5ec0bb77556cdf8b0dc59a8fe1b99981a4e42888453c5d7f6de5df6c3b7834b151bcb9f9a27efebe93bff7f8e"
+RPM_NAME = "perl-Future-0.50-1.3.noarch.rpm"
+RPM_HASH = "6f9c7756e63ce817d1d77eed6f0069c6615e5f92c2eda97ded4b441836e5274c2abf7a23962c259097f70a3b3f9646be6e927a51475845e3dbf09a048ff31644"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Future \
@@ -48,7 +48,7 @@ perl-Future--Utils \
 perl-Test--Future \
 perl-Test--Future--Deferred"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Carp"
 
 inherit rpm

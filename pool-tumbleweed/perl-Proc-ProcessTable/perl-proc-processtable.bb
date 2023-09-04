@@ -4,8 +4,8 @@ LICENSE = "(Artistic-1.0 | GPL-1.0-or-later) & GPL-2.0-only"
 
 PV = "0.636"
 
-RPM_NAME = "perl-Proc-ProcessTable-0.636-1.1.aarch64.rpm"
-RPM_HASH = "bce54ed23063e4b4632e69de141e1ee9188396df9250e41b32c92631f1a4c7d2166f00c3945ba9353d061e6d44b63b499f5bac0bcf8ed8abb5504fa407f68bf3"
+RPM_NAME = "perl-Proc-ProcessTable-0.636-1.2.aarch64.rpm"
+RPM_HASH = "49d79fc4060d2038cc11f7cab98652cfcf74b2d0724a0b5a573ede2a5a4f86748f39b2f8d1c7547d9be0f5939c00ecd6cace93834642e8b823d9bbde6cb57cf9"
 
 RPROVIDES:${PN} += "perl-Proc--Killall \
 perl-Proc--Killfam \
@@ -15,6 +15,6 @@ perl-Proc-ProcessTable"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

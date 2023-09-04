@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2023.209.svn66186"
 
-RPM_NAME = "texlive-ptex-2023.209.svn66186-54.1.noarch.rpm"
-RPM_HASH = "4a8e1a519ac3cbe7c072e4ce3c2aaa43e88368979bd5f48bccbf452e782b2e6635e8e5dcfe9e11db244e50a3b84c7e27e33a211c4710c73f111114886d1b52fb"
+RPM_NAME = "texlive-ptex-2023.209.svn66186-54.2.noarch.rpm"
+RPM_HASH = "2e2e2b3a2a4b30354d8fe2cb1fedc314800d5b07e47fef45ef377e91eb10a33f87c6fefb6461c8cf597cb9c3aa96fa4c74fe7424d223e5f4ba8ea343482a6b94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-eptex.1 \

@@ -6,10 +6,10 @@ This package provides a plugin using tracker to export media found on \
 the local machine."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "0.42.3"
+PV = "0.42.4"
 
-RPM_NAME = "rygel-plugin-tracker-0.42.3-2.1.aarch64.rpm"
-RPM_HASH = "172cd96d910fe2d84a790b3baf7c4c5c97140df9adccfd76a0dcc9d48d0c33535ac680f3425456a19e4c4b5bcb3380495b93c87d9e82e5b8d9852417d5812a75"
+RPM_NAME = "rygel-plugin-tracker-0.42.4-1.1.aarch64.rpm"
+RPM_HASH = "d59e6af4b3380ba47d794448bc603d2a980cc6ac02ebf5b9c4763c0b4af243c528bd30086b9ee271bc0507f6139b66e210dbded1d21bb5cd6f7aaee3c76a7614"
 
 RPROVIDES:${PN} += "librygel-tracker3.so \
 rygel-plugin-tracker"

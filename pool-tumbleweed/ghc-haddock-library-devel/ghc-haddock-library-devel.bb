@@ -5,15 +5,15 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.11.0"
 
-RPM_NAME = "ghc-haddock-library-devel-1.11.0-2.6.aarch64.rpm"
-RPM_HASH = "fa52a019be6a9e12b9a4c46d5b88376fe2045ec02364bd7ebb84699bdf0b8082a09d5a7a8b2ee6f5d7d7d873c5b20a8ffb841e89712f63dbc684a9652582a668"
+RPM_NAME = "ghc-haddock-library-devel-1.11.0-2.8.aarch64.rpm"
+RPM_HASH = "b1f88afb361ac4232acb9a6cdb24e9a8f96375c14be746600042a07c2f30a4e660d70c36f89d0e32582c039ae683d4e3acc0c7b8108548d9b52098dbc6023bd6"
 
-RPROVIDES:${PN} += "ghc-devel-haddock-library-1.11.0-3IU1wl1Mct8946s210c9Hs \
+RPROVIDES:${PN} += "ghc-devel-haddock-library-1.11.0-GgwR20uLBzH14FvpuxBHjp \
 ghc-haddock-library-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-containers-0.6.7 \
 ghc-devel-parsec-3.1.16.1 \
 ghc-devel-text-2.0.2 \

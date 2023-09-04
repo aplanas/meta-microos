@@ -4,27 +4,27 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.4.2"
 
-RPM_NAME = "ghc-adjunctions-prof-4.4.2-2.6.aarch64.rpm"
-RPM_HASH = "8023c1928add50e4d7b97ec5d92cba5134d63db4e20307ca58144cc35525b441831167e77699ef16eb30e2775c96e7db32b9d552b926ac62837842a92c6e29f0"
+RPM_NAME = "ghc-adjunctions-prof-4.4.2-2.9.aarch64.rpm"
+RPM_HASH = "0cbfbf798f13609b2420817b76fb4704546253931d17d9e4701b450073c2fbe6f0496b933c654863cac1362b459872676d7cf36ad3d8a66db844c5534c890fdc"
 
 RPROVIDES:${PN} += "ghc-adjunctions-prof \
-ghc-prof-adjunctions-4.4.2-7RBwcclil4HKBSm6i086HA"
+ghc-prof-adjunctions-4.4.2-BjNTDSboJHWDpWX9BvuZL3"
 
 RDEPENDS:${PN} += "ghc-adjunctions-devel \
 ghc-prof-array-0.5.4.0 \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-comonad-5.0.8-9UnH7KDg5138z3eBCPM7y4 \
+ghc-prof-base-4.17.2.0 \
+ghc-prof-comonad-5.0.8-56nFbOwllOwBl7FMfSy83E \
 ghc-prof-containers-0.6.7 \
-ghc-prof-contravariant-1.5.5-K71YSUvfKnA5wfNaE05Lao \
-ghc-prof-distributive-0.6.2.1-GisXwtVaDTaDcC79Nunm79 \
-ghc-prof-free-5.1.10-7AdTZukDGhL7qWMpdopXbC \
+ghc-prof-contravariant-1.5.5-35YFLB0uIuz5cknUjKLNnT \
+ghc-prof-distributive-0.6.2.1-7gHlNDSCz3vFkde299iroS \
+ghc-prof-free-5.1.10-8DOWW3JiZaX7obxPZwBWX0 \
 ghc-prof-mtl-2.2.2 \
-ghc-prof-profunctors-5.6.2-BxPEMLImcM1AGaSfWljpGV \
-ghc-prof-semigroupoids-5.3.7-Ju2oK8NLhZKHdQ6h8GWNM1 \
-ghc-prof-semigroups-0.20-KtsaS4jNcGkoC9puVZ6vB \
-ghc-prof-tagged-0.8.7-CYOhX22Df3PFW5V1S0dOJa \
+ghc-prof-profunctors-5.6.2-GfNUFxHNpLn859duquR0iv \
+ghc-prof-semigroupoids-5.3.7-H606qAbQOgNCZ5aAzkCf0g \
+ghc-prof-semigroups-0.20-6lktLD0mxwZ1Pjuc7q3dSl \
+ghc-prof-tagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax \
 ghc-prof-transformers-0.5.6.2 \
-ghc-prof-transformers-compat-0.7.2-7jAnhjvxTABIymoNGHTOwd \
-ghc-prof-void-0.7.3-GHzyjd8VkpoJvEZLjo6Bsz"
+ghc-prof-transformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM \
+ghc-prof-void-0.7.3-GhXmDKlBHl0LbXoxVMxAU0"
 
 inherit rpm

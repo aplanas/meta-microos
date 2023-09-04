@@ -16,8 +16,8 @@ LICENSE = "Apache-2.0 & BSD-3-Clause & BSD-2-Clause & MIT"
 
 PV = "12.0.1"
 
-RPM_NAME = "python39-pyarrow-12.0.1-1.1.aarch64.rpm"
-RPM_HASH = "027d587e3a975b0ffb38233066f1e9f6d514a2b7146281e8d21f935ee4f50bbc9d0a7a91622b0b34f929a2ef27121d4ba7c928fde6c67b3b03e9d4416e76780c"
+RPM_NAME = "python39-pyarrow-12.0.1-2.1.aarch64.rpm"
+RPM_HASH = "1cc60e88091861cb5b7cc83159a5d2755ca7853eb843a5fac85120c9c291523f27dbb347dc86cf269755836d7a7a6d1e2880988f4b455f30b786e9dd05677a22"
 
 RPROVIDES:${PN} += "lib.cpython-39-aarch64-linux-gnu.so \
 libarrow-python.so \

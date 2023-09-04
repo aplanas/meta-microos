@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for gh"
 DESCRIPTION = "Bash command line completion support for gh."
 LICENSE = "MIT"
 
-PV = "2.32.1"
+PV = "2.33.0"
 
-RPM_NAME = "gh-bash-completion-2.32.1-1.1.aarch64.rpm"
-RPM_HASH = "f89e9fdbc385861c7b9f11bd72f87197d632f3fdf6eefe1299a95fa277c9716a869a5cb8fc9e59e08bc7cd46c36391fa54eb91add44f48abb8387ebebdedac41"
+RPM_NAME = "gh-bash-completion-2.33.0-1.1.aarch64.rpm"
+RPM_HASH = "84140fdff717d9679426883086768a1b769447c5931153d0430a4645438943c7d377acb8822d02c8f131329a59cdb2b3b87b4a5d1bc331ab62e5b8b29380b463"
 
 RPROVIDES:${PN} += "gh-bash-completion"
 

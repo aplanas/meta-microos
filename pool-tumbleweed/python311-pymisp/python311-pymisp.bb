@@ -4,10 +4,10 @@ DESCRIPTION = "PyMISP is a Python library to access MISP platforms via their RES
 PyMISP allows you to fetch events, add or update events/attributes, add or update samples or search for attributes."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.4.166"
+PV = "2.4.170.2"
 
-RPM_NAME = "python311-pymisp-2.4.166-1.5.noarch.rpm"
-RPM_HASH = "713710509cfd57be27e92eb59a395c5410ff416ae3746b1d491060fb85db053387978db4d6a66dfa22ce59433538c278f2fec577cac41fdeb7a70fb6f2c59589"
+RPM_NAME = "python311-pymisp-2.4.170.2-1.1.noarch.rpm"
+RPM_HASH = "db5c8793415132832e5200dcfff2a6e3d34265de4ec1f05efcdf7aa2a085addff344ec8e0551b78a65b83b39160cc308e8c4e0ac29855eb779be685f0d0f6df6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pymisp \
@@ -18,7 +18,6 @@ python3dist-pymisp"
 RDEPENDS:${PN} += "python-abi \
 python311-Deprecated \
 python311-jsonschema \
-python311-oletools \
 python311-python-dateutil \
 python311-requests"
 

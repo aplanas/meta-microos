@@ -5,8 +5,8 @@ LICENSE = "(Apache-2.0 | Apache-2.0-with-LLVM-exception | MIT) & (Apache-2.0 | M
 
 PV = "0.4.1+g12"
 
-RPM_NAME = "toipe-0.4.1+g12-1.3.aarch64.rpm"
-RPM_HASH = "171156333aa88dd3b12e6ee423601b55f97bf004c531dd06ed8532b19bf9495e22fb0855248dc7b65b77c2572879b94544985e0550ec02fbe459d51cc0875829"
+RPM_NAME = "toipe-0.4.1+g12-2.1.aarch64.rpm"
+RPM_HASH = "987d9f49bf96ef29e2427d2d7eb8ccb4713a1b588f99a8b3e34444800e0e74d44e19a54e727dca866884b71336d878329f481eedf521c04dc6064c38f999a4c7"
 
 RPROVIDES:${PN} += "bundled-rust-crate-adler32 \
 bundled-rust-crate-atty \

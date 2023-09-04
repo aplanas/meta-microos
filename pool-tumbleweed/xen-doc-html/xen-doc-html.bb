@@ -13,10 +13,10 @@ Authors: \
     Ian Pratt <ian.pratt@cl.cam.ac.uk>"
 LICENSE = "GPL-2.0-only"
 
-PV = "4.17.1_06"
+PV = "4.17.2_02"
 
-RPM_NAME = "xen-doc-html-4.17.1_06-1.1.aarch64.rpm"
-RPM_HASH = "307f732bf38ec22aea13c6ec6a4bab43296b9e4e73ac29c23e7e17727269fbb1f43fa4b0bb300a15ba2c416bac00a689829f4060358aaa66c2a5931eebfcc4fc"
+RPM_NAME = "xen-doc-html-4.17.2_02-1.1.aarch64.rpm"
+RPM_HASH = "79ee487af18c26015d83b5018bae31f1acd313464b3a7627ed6ef192e03cca6f17c8f195f5179624653d620288427ac8638fa7905b1a43662ae3846103fa6e75"
 
 RPROVIDES:${PN} += "xen-doc-html"
 

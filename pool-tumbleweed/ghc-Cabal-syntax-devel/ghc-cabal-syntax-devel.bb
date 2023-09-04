@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.1.0"
 
-RPM_NAME = "ghc-Cabal-syntax-devel-3.8.1.0-3.2.aarch64.rpm"
-RPM_HASH = "15d988e1e5cddf2ed0e1325ee298e1963264d832365cef3f64368730d2fdaa89eff6e6f987c709c61aed7f195174a89b323d5caae8d913bb692c228ecd0b5948"
+RPM_NAME = "ghc-Cabal-syntax-devel-3.8.1.0-1.1.aarch64.rpm"
+RPM_HASH = "1a04e343e1b5e1eef36e354ccd62f404d057151ec9af4276dd45ae108836975c8a0f81f4872d8be054ad569caf1033bacfc9bfbd39dd0a08e09a63d02a5520e2"
 
 RPROVIDES:${PN} += "ghc-Cabal-syntax-devel \
 ghc-Cabal-syntax-static \
@@ -14,9 +14,9 @@ ghc-devel-Cabal-syntax-3.8.1.0"
 RDEPENDS:${PN} += "ghc-Cabal-syntax \
 ghc-compiler \
 ghc-devel-array-0.5.4.0 \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-binary-0.8.9.1 \
-ghc-devel-bytestring-0.11.4.0 \
+ghc-devel-bytestring-0.11.5.1 \
 ghc-devel-containers-0.6.7 \
 ghc-devel-deepseq-1.4.8.0 \
 ghc-devel-directory-1.3.7.1 \

@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "23.13.9"
 
-RPM_NAME = "accountsservice-vala-23.13.9-3.1.aarch64.rpm"
-RPM_HASH = "22028a9dd80cc032e8d91471b495e84dcb111c7b0e04b7eaf4fa204361776aba9cd17a63797abc4af9b576517e411b967e17a84446a1e8effdef152228cb9d7a"
+RPM_NAME = "accountsservice-vala-23.13.9-4.1.aarch64.rpm"
+RPM_HASH = "dd31682cb7e2c44e5016db3e51b0a13eefc02d4f3b694d82bb6c54dc187c2f6da909630b0d7701d0b314eb8c8276553cd1a3a36c3b84bb112f76c09930f5481e"
 
 RPROVIDES:${PN} += "accountsservice-vala"
 

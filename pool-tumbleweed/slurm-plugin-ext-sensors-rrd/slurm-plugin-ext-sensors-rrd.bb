@@ -6,8 +6,8 @@ LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "23.02.2"
 
-RPM_NAME = "slurm-plugin-ext-sensors-rrd-23.02.2-1.3.aarch64.rpm"
-RPM_HASH = "a3f438c56b7fa37b877c6b8880c723fa25a6e5c5299b8b8892d5f6ccbadb2d4e17c1130ed3129d0ea3806597a016148ad0f2e3870cf6c00825b8ab8e4ce4989e"
+RPM_NAME = "slurm-plugin-ext-sensors-rrd-23.02.2-1.4.aarch64.rpm"
+RPM_HASH = "369cb2dbd32dfdf9d2d52306a93b9aa172dd19f1f54ea934c55f275eeaa9e718d6e0a5314c23c92753cbd1ff19e6ad24979c643e421503a5e5abd9b8ef212d15"
 
 RPROVIDES:${PN} += "slurm-plugin-ext-sensors-rrd"
 

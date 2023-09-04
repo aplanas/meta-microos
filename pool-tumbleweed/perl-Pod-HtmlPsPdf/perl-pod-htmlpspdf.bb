@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0"
 
 PV = "0.04"
 
-RPM_NAME = "perl-Pod-HtmlPsPdf-0.04-510.31.aarch64.rpm"
-RPM_HASH = "73005d07f2e8dd97ec2557848ffaf70d2ac412887afe575c2a2ba4b004ef7f0152519391c7dfd3444449f2814108aac0ac6800c3a1c9ddda9d194dad1d7d990f"
+RPM_NAME = "perl-Pod-HtmlPsPdf-0.04-510.32.aarch64.rpm"
+RPM_HASH = "e4d33e5f74950ddd1a92670486f2e379f807499638d215f60934346499b381b82a68a3f2c904aed127a9819cee01eea9a280598351745845691ace9c73d679d5"
 
 RPROVIDES:${PN} += "perl-Pod--HtmlPsPdf \
 perl-Pod--HtmlPsPdf--Book \
@@ -24,6 +24,6 @@ perl-Pod-HtmlPsPdf"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 html2ps \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

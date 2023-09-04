@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & CPL-1.0"
 
 PV = "3.2"
 
-RPM_NAME = "mpitests-mvapich2-gnu-hpc-3.2-11.4.aarch64.rpm"
-RPM_HASH = "b0d8dd71a58ef772bb2b3d55340aa27f0af85c436c3cab297519cf4accd1a63ad735a4d3e2d999e92485bbc40c6ac0d7b1b5cc3f3a48f9d5c15ab6841ee94238"
+RPM_NAME = "mpitests-mvapich2-gnu-hpc-3.2-12.1.aarch64.rpm"
+RPM_HASH = "52f0d0d8d6d82ccbc8778da8546640f05b03780e8dd7bb1e626838f981da6e8955a5b5a1a489edb76af9914236487546a9ed2fd8423045cae1d5050c9140e42b"
 
 RPROVIDES:${PN} += "mpitests-mvapich2-gnu-hpc"
 

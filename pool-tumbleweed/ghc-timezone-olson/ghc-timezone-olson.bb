@@ -13,26 +13,26 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.1"
 
-RPM_NAME = "ghc-timezone-olson-0.2.1-2.6.aarch64.rpm"
-RPM_HASH = "b2034e5b1978a0fc67721d76470edfd472dd1fc9dce4b2b62e475fda8bbba93d3ae19c87abe9b17e0a2b2d9ada5f7ac498f82aba85d6d5fde3e90373c73e1415"
+RPM_NAME = "ghc-timezone-olson-0.2.1-2.8.aarch64.rpm"
+RPM_HASH = "efa678bd926b88bf96b452ffa72050119955ae71499e5befa0813b0f31e80322b36ca2ed7a603d4412b75d386320ee324b86d7876407596930b7c2036879745c"
 
 RPROVIDES:${PN} += "ghc-timezone-olson \
-libHStimezone-olson-0.2.1-GQQU9hvoQrwIpL0LHxa8ME-ghc9.4.5.so"
+libHStimezone-olson-0.2.1-50v8kH1zEHRIPtzATb6bsi-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
-libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSbinary-0.8.9.1-ghc9.4.5.so \
-libHSbytestring-0.11.4.0-ghc9.4.5.so \
-libHScontainers-0.6.7-ghc9.4.5.so \
-libHSdeepseq-1.4.8.0-ghc9.4.5.so \
-libHSextensible-exceptions-0.1.1.4-ItoFoaqbPMuGIlsBr6VhGY-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-boot-th-9.4.5-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
-libHSpretty-1.1.3.6-ghc9.4.5.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
-libHStime-1.12.2-ghc9.4.5.so \
-libHStimezone-series-0.1.13-52HOboQTQ6c9WNazbzYdiK-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
+libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSbinary-0.8.9.1-ghc9.4.6.so \
+libHSbytestring-0.11.5.1-ghc9.4.6.so \
+libHScontainers-0.6.7-ghc9.4.6.so \
+libHSdeepseq-1.4.8.0-ghc9.4.6.so \
+libHSextensible-exceptions-0.1.1.4-1hcTiYLx0LbAr3mhUvVP0e-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-boot-th-9.4.6-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
+libHSpretty-1.1.3.6-ghc9.4.6.so \
+libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
+libHStime-1.12.2-ghc9.4.6.so \
+libHStimezone-series-0.1.13-IHWQx2h4brT4vl06IuBnhA-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

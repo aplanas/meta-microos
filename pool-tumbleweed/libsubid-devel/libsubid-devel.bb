@@ -2,10 +2,10 @@ SUMMARY = "Development files for libsubid4"
 DESCRIPTION = "Development files for libsubid4."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
-PV = "4.13"
+PV = "4.14.0"
 
-RPM_NAME = "libsubid-devel-4.13-6.3.aarch64.rpm"
-RPM_HASH = "9aa61d486b6806818657a511cef62857357dd167c1ddd519aabef10436d40c1ec140cc5f1ea40d6a8298a3a8034ae7ca131af30fc082b023787da3fb98857186"
+RPM_NAME = "libsubid-devel-4.14.0-1.1.aarch64.rpm"
+RPM_HASH = "5260977126cdc5070a181a8cc9a938383cff85c16d6d5794c6bbfc80d963e59bf54e7372bb41af9d1d7644f80e91abfa11b68f8dda80121dff0a8d549edb2711"
 
 RPROVIDES:${PN} += "libsubid-devel"
 

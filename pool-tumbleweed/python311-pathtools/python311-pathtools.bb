@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.1.2"
 
-RPM_NAME = "python311-pathtools-0.1.2-15.2.noarch.rpm"
-RPM_HASH = "5afc7f27474c30de186249bfbafc589b94e16c3ca3c88ae730abc97e9998f4593af635473926818121437941700aee8d773dc9c799ef099a42375df4eeeaa0ce"
+RPM_NAME = "python311-pathtools-0.1.2-16.1.noarch.rpm"
+RPM_HASH = "b0d0bbfde2ec5c605e969a0a91aa28f6e226b13c1a45032c4062d34f80145e1772d7f29d4c88f8304fe9c2d96c8f2024fdf31933634ec7bca2978e2de6f0959f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pathtools \

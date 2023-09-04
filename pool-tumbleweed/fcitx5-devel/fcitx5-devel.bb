@@ -2,10 +2,10 @@ SUMMARY = "Development files for fcitx5"
 DESCRIPTION = "This package provides development files for fcitx5."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.0.23"
+PV = "5.1.0"
 
-RPM_NAME = "fcitx5-devel-5.0.23-1.2.aarch64.rpm"
-RPM_HASH = "002031bf8a75226b74c7efdaf973ba19c754269ebaf620571138ec2cbebb49f4b935fac2f267d83c934b2db1d2d5d3af110f1fe0d3d9e13b33ccdf878e2a5c2e"
+RPM_NAME = "fcitx5-devel-5.1.0-1.1.aarch64.rpm"
+RPM_HASH = "c71d31d49e7c864630e3c375ab3f4f92208c92903c828b096c297b4e71dea2f84874c60b6d0c36c52eea4acd783653168face9f55dda716a6b10e5e09ebc9269"
 
 RPROVIDES:${PN} += "cmake-Fcitx5Config \
 cmake-Fcitx5Core \

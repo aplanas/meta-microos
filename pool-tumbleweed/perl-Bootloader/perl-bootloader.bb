@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.6"
 
-RPM_NAME = "perl-Bootloader-1.6-1.1.aarch64.rpm"
-RPM_HASH = "db4d9ab770256eb97cf292a4f7edb8e086274e1ffe6c4abc5ea25207e5f4a08727c725979783eb8f17fd62905127a7d259ca06535dcd51fa43e32b9ab00aa3af"
+RPM_NAME = "perl-Bootloader-1.6-1.2.aarch64.rpm"
+RPM_HASH = "a1693154a01342808f5de159c58c6a2da5f52021d4aeba89f51511e0740def706adb5a9ed202c405ec1e9686879306bcd10a56beae1dc06251513e196fe729a0"
 
 RPROVIDES:${PN} += "/sbin/update-bootloader \
 perl-Bootloader"

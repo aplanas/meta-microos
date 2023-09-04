@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-index"
 DESCRIPTION = "This package includes the documentation for texlive-index"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.4.1betasvn24099"
+PV = "2023.209.4.1betasvn24099"
 
-RPM_NAME = "texlive-index-doc-2023.208.4.1betasvn24099-53.1.noarch.rpm"
-RPM_HASH = "e85451ff6e22d598819bc903dbc6479a6ae9fa2bdc3e91e277e111f3e903acede56ab1d9c07013d28d043d5407cddb37fef78e660e066a298d2c68fd64daf2fa"
+RPM_NAME = "texlive-index-doc-2023.209.4.1betasvn24099-54.1.noarch.rpm"
+RPM_HASH = "82d04162140f63cd48281a0be7dd8711b130f334bb251a479c63dea5ef50d43299ed6b8586c1139d3343dacf2cdba51303cd5dfed9ee96e6d5655c59c725d8b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-index-doc"

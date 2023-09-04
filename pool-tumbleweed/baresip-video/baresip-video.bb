@@ -21,8 +21,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.10.0"
 
-RPM_NAME = "baresip-video-2.10.0-1.9.aarch64.rpm"
-RPM_HASH = "e45dae2a6d6f91e52f081372e85f68089aed11e500579d32021c1ed602c8be07ed9bc4c835722ff91e95ab22e71d22739d04d019aa7e682dd712c1a56a272775"
+RPM_NAME = "baresip-video-2.10.0-1.10.aarch64.rpm"
+RPM_HASH = "116ad0e3879e91c857ac975376e754fab508f433ebcdaa75c5bd48d5bdd827f4c69ad8f9588e5359cb799c720d4f934f67852c74dfe96398addd90b44050ad38"
 
 RPROVIDES:${PN} += "baresip-video"
 

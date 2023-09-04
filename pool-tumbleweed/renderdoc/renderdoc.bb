@@ -3,10 +3,10 @@ DESCRIPTION = "RenderDoc is a frame-capture based graphics debugger, currently \
 available for Vulkan, D3D11, D3D12, OpenGL, and OpenGL ES development."
 LICENSE = "MIT"
 
-PV = "1.27"
+PV = "1.28"
 
-RPM_NAME = "renderdoc-1.27-1.2.aarch64.rpm"
-RPM_HASH = "a79110a2863af2fcd4ed50fe8ffcd16a9625c71d8aba5600b4353a793ebba34ab05047a02776cede356d2ffa73f53cae8229592f33e1c61e069fb810a6bd2650"
+RPM_NAME = "renderdoc-1.28-1.1.aarch64.rpm"
+RPM_HASH = "4ffcfc2667fda938478998c17fc58f87a9243d0747a8e18c9999d4d604bce4acc2783417075839813dc1f3a42ab080549ae4478bd9175d63717c59c0279b2754"
 
 RPROVIDES:${PN} += "librenderdoc.so \
 renderdoc"

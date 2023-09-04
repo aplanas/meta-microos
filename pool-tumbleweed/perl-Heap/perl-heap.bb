@@ -15,8 +15,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.80"
 
-RPM_NAME = "perl-Heap-0.80-1.13.noarch.rpm"
-RPM_HASH = "04b0471c0be9204b1f58eb93336e8fa2150a99d96a5fbe960edbc14dd978d02cf151c25fbdef0422b5f37cfd3ab3a270677f4a91f2fb91e7d04510c2f41b1a66"
+RPM_NAME = "perl-Heap-0.80-1.14.noarch.rpm"
+RPM_HASH = "ed6760531a46afea1e2ec3b12d49c802e4ecb75f2ff2daa5eaa5b95f13e08eba9821a81f88ffc57ab557877759ba5ac62e61778a6df7e387a7d1fa67781de670"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Heap \
@@ -31,6 +31,6 @@ perl-Heap--Elem--Str \
 perl-Heap--Elem--StrRev \
 perl-Heap--Fibonacci"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

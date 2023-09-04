@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.2.1"
 
-RPM_NAME = "ruby-common-3.2.1-1.1.noarch.rpm"
-RPM_HASH = "07f610b71fba044857af9378b2cf89147b3bcbe7bf4cc595a6e52230c36d0172a714e080461808e5b02c8545a1710f27501f843f08598226e44a0c30da7f8b3b"
+RPM_NAME = "ruby-common-3.2.1-2.1.noarch.rpm"
+RPM_HASH = "6fedbc9b305110eb595a8a57ae2976cdbaeffa66e412263b7f8f5e49b0417ed346a0ff9824bef7ad9c71c09be3ec1cbede7c2cf8ab7fc736d053d298131e4f5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-ruby-common \

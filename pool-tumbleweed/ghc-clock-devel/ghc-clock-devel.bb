@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.4"
 
-RPM_NAME = "ghc-clock-devel-0.8.4-1.1.aarch64.rpm"
-RPM_HASH = "d4c4b2ab1a2fbf842d3971c01d3fef8575db965155409b71c1d3f8ab685b45bfab208cf55946a1b5e61c9fed53aba538e249acc5d3b75c49cc62d6aea1338faf"
+RPM_NAME = "ghc-clock-devel-0.8.4-1.2.aarch64.rpm"
+RPM_HASH = "6f66bfae8da14bc1f40fb4c07b5e48859565774cfe8fec33be0515c09bc3c130ea5cca0a70c6c0f01fd56268c6e773d1c8acf5c70a99fc3c02cf7664b3c8c72f"
 
 RPROVIDES:${PN} += "ghc-clock-devel \
-ghc-devel-clock-0.8.4-Kk7SFw4SNhZ8ktwfjRIPil"
+ghc-devel-clock-0.8.4-FaEd7XcSjZTFKcoXlUaX3W"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-clock \
 ghc-compiler \
-ghc-devel-base-4.17.1.0"
+ghc-devel-base-4.17.2.0"
 
 inherit rpm

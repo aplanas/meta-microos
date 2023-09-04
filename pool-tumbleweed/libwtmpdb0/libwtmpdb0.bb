@@ -3,10 +3,10 @@ DESCRIPTION = "The libwtmpdb provides various interfaces to read, write or modif
 the wtmpdb database."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.7.1"
+PV = "0.9.1"
 
-RPM_NAME = "libwtmpdb0-0.7.1-1.1.aarch64.rpm"
-RPM_HASH = "5099e1b899d1f6749ba0797613ab255709445e269e2741ddbd8e49684e631268a9acf838900e6356d896dd4dd25b76a0bb532013364a77da08e1ac4a6be83872"
+RPM_NAME = "libwtmpdb0-0.9.1-1.1.aarch64.rpm"
+RPM_HASH = "91a4a98ac6825d0b3268653ea7238b39f69d1fdfee52a7b9c55dc8748f3538f4959ca5a8c2dd81cfd437fab7faaa2ed1a0c6e6f491c13f982c104cebad7cbc2a"
 
 RPROVIDES:${PN} += "libwtmpdb.so.0 \
 libwtmpdb0"

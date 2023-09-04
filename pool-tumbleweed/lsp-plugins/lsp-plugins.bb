@@ -6,13 +6,13 @@ The basic idea is to fill the lack of good and useful plugins under \
 the GNU/Linux platform."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.2.8"
+PV = "1.2.10"
 
-RPM_NAME = "lsp-plugins-1.2.8-1.1.aarch64.rpm"
-RPM_HASH = "4f77fe4e5ce413e9099d5785a37c018926ab7b5b27f24fde00ff3d74fa194b4667569559d1e52c3cbffe636e7c9fdd1f995bebcff3fa93d48f808adf3a06dd8f"
+RPM_NAME = "lsp-plugins-1.2.10-1.1.aarch64.rpm"
+RPM_HASH = "01cb3502cf05d6f17b6d8f187cdd23dd9ca678bcbc24108c5b6e8742fb531eea80e2347cdb1b230d530677e781a30141654b07a220850a516ec668327383c747"
 
 RPROVIDES:${PN} += "config-lsp-plugins \
-liblsp-plugins-jack-1.2.8.so \
+liblsp-plugins-jack-1.2.10.so \
 lsp-plugins"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \

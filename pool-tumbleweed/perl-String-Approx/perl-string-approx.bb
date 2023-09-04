@@ -49,14 +49,14 @@ LICENSE = "LGPL-2.0 | Artistic-2.0"
 
 PV = "3.28"
 
-RPM_NAME = "perl-String-Approx-3.28-1.32.aarch64.rpm"
-RPM_HASH = "87b2444000bb00698b671f828fbc34619da651e7be9aa7dffa431fbc6dc02a63843ff73e5fbf1025df96ff8795b13755b22fb70af6de7797bdf61e7c9143f739"
+RPM_NAME = "perl-String-Approx-3.28-1.33.aarch64.rpm"
+RPM_HASH = "6178b7bd87c8a1a7ba33a44dfa2366a4b1e6954ea4352970ac1239647071924efad4af4cd9272716e50d650a9729dde9a235632e4e3bff5d1916de14001ac3ad"
 
 RPROVIDES:${PN} += "perl-String--Approx \
 perl-String-Approx"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

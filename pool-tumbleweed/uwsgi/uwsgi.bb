@@ -17,8 +17,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
 PV = "2.0.21"
 
-RPM_NAME = "uwsgi-2.0.21-3.1.aarch64.rpm"
-RPM_HASH = "3df8934c0ae6f1784c36fa83eb86aedef24d9d8583d1c0d9cc2a2f655aff4a37d58c6bcf8aa2cf078340e232f81fe4bca22a867c2e9cc029ee6b55f5f2a3063c"
+RPM_NAME = "uwsgi-2.0.21-3.2.aarch64.rpm"
+RPM_HASH = "4c7afc2ae2d0504149d20b66a8cf5741df3f592f885283d9686c2fde53d4bfff289b3efa187de79ac0a8970589c105c883f5d7dec1b07b2fc90eda4dba849928"
 
 RPROVIDES:${PN} += "config-uwsgi \
 uwsgi \

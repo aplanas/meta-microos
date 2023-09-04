@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.10.0"
 
-RPM_NAME = "librem4-2.10.0-1.5.aarch64.rpm"
-RPM_HASH = "e65b8d512d830ce951b9edbbb54087313fd7b2ed634123a678a8f616fb181ecf850597408a602270e4e0dfe437ee1826a17d50a75a7326c8053cb665f43239e9"
+RPM_NAME = "librem4-2.10.0-1.6.aarch64.rpm"
+RPM_HASH = "4c80030f8e136552a9ab3188f33dbca051ebda7117ea8517287860f45e8e076ee40b8836ae0a16b4154c8ee357cea7665ad5ea9e3ff92c7e95dc3d9ade990703"
 
 RPROVIDES:${PN} += "librem.so.4 \
 librem4"
@@ -19,6 +19,6 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \
-libre.so.12"
+libre.so.16"
 
 inherit rpm

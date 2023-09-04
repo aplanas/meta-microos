@@ -5,10 +5,10 @@ This package provides the GObject Introspection bindings for the GNOME Bluetooth
 libraries."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "42.5"
+PV = "42.6"
 
-RPM_NAME = "typelib-1_0-GnomeBluetooth-3_0-42.5-1.4.aarch64.rpm"
-RPM_HASH = "dedf82d0a9a195beccc4f92de35a7844c9dbf06941ae5f3c25db2ad4130b7ed9d1f4d12f38e7de6535f102176e5e735b75e00b718abcaa2e2466a874bf790962"
+RPM_NAME = "typelib-1_0-GnomeBluetooth-3_0-42.6-1.1.aarch64.rpm"
+RPM_HASH = "b694e6bdf2318d62eb9de32f61aee6c8dfd8c99bbf7f8566a8db9ea35cac075e0d3683face8d4a8a8766f735c22d960ecda9c8ecadcb6b8b7759c761b47e7678"
 
 RPROVIDES:${PN} += "typelib-1-0-GnomeBluetooth-3-0 \
 typelib-GnomeBluetooth"

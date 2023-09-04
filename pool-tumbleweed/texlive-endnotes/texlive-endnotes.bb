@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn53319"
 
-RPM_NAME = "texlive-endnotes-2023.209.svn53319-54.1.noarch.rpm"
-RPM_HASH = "af3080b620c897da835645939c0cd7b43ca417be961c4fddf6235e03380797700878b49d91c7d96a024cde3ac4556ae5ec0ab99443a1fa6895d90800a22b2990"
+RPM_NAME = "texlive-endnotes-2023.209.svn53319-54.2.noarch.rpm"
+RPM_HASH = "84201e265cea438f2bc8fd66c51fee76356f0ee24ec401f06d1f08ef2c0731c85b12a699f0ec5ebc66d9a5e8f37b079073d2a1f7f54f280d72ab98accdfc284c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-endnotes.sty \

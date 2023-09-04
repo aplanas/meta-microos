@@ -5,8 +5,8 @@ LICENSE = "Python-2.0"
 
 PV = "2.7.18"
 
-RPM_NAME = "python-demo-2.7.18-36.1.aarch64.rpm"
-RPM_HASH = "7e8edeefeed42edd4d463ac4313ba8bb5df1e4b5045cb1d5aaad8f43c8ffda6c21430062dbd34d949d61b1a8812aed83e138c00a3a0774285dea63a1a331516f"
+RPM_NAME = "python-demo-2.7.18-37.1.aarch64.rpm"
+RPM_HASH = "d78c126d0206dda20d11eecb4e21d801d920b6988f9045007bab006c59342621c1e3265298e3fc94115276391bb467c8d5cd48879d7495a58593534b750d51b0"
 
 RPROVIDES:${PN} += "pyth-dmo \
 python-demo \

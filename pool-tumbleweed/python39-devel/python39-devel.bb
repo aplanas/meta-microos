@@ -12,8 +12,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.9.17"
 
-RPM_NAME = "python39-devel-3.9.17-3.1.aarch64.rpm"
-RPM_HASH = "e97ac6e6f353c8922cc9916b3e7b4c39337bd85e51773e84dd07cb510224b84ef91ba0c39f63013354cfa6f0e79bfe9f63f4f79db3cde94e86884f6b944783eb"
+RPM_NAME = "python39-devel-3.9.17-4.1.aarch64.rpm"
+RPM_HASH = "d62114ff033f648800f8399a258c4c75093017e7be5ff27d9dfb9a3716084652040b1c8e4c0d329c5d73b3ecf8e9be0711242e26922fda54b21c8220d2c42782"
 
 RPROVIDES:${PN} += "pkgconfig-python-3.9 \
 pkgconfig-python-3.9-embed \

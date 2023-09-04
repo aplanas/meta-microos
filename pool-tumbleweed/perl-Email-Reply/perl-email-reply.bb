@@ -4,14 +4,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.204"
 
-RPM_NAME = "perl-Email-Reply-1.204-1.21.noarch.rpm"
-RPM_HASH = "455aa9e0758aeca424b0b18617837efa1d35dbe99e482774496713a0fdbc2576e50100adfa7f0952e51b60690f5409de8b1ea8a58cfaf7ead16ef5751389d0ac"
+RPM_NAME = "perl-Email-Reply-1.204-1.22.noarch.rpm"
+RPM_HASH = "900c05a2c1f6096271122f844d15966222d51fbf477925adb9ff3ae8da390afff7d8e8393727b7935a550a4d0741fb1254d1a5de832eeb2214836c1ff54b0292"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Email--Reply \
 perl-Email-Reply"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Email--Abstract \
 perl-Email--Address \
 perl-Email--MIME"

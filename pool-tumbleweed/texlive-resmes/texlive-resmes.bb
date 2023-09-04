@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn65375"
 
-RPM_NAME = "texlive-resmes-2023.209.1.0svn65375-54.1.noarch.rpm"
-RPM_HASH = "4060472f97a992518b3a39d80e6679a881d4da90d4cc99cf7247e8d75e1dc6f217f60dd5349189a0aac15be10ffe787387ea1fde58ba13500aa96f3375399f0d"
+RPM_NAME = "texlive-resmes-2023.209.1.0svn65375-54.2.noarch.rpm"
+RPM_HASH = "0fec57931b14665e3f4d13bc3abc5145b6edb2d362340ce48dfdf74b9edb9c84702ecd491b6b13a2b227a63ab557e80d4077b056e2f6466e93c443da41ecb794"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-resmes.sty \

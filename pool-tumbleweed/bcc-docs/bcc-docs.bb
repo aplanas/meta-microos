@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.26.0"
 
-RPM_NAME = "bcc-docs-0.26.0-2.11.noarch.rpm"
-RPM_HASH = "4c7bb2f7973ef5e6d4b703caee1941cad3d85c6317ba4f357dee8313d29f429f203972bd2dba5cf519e9f4b93fb9bae98b1a15e73acf6d793cacfb7fc39cf4c0"
+RPM_NAME = "bcc-docs-0.26.0-2.12.noarch.rpm"
+RPM_HASH = "c5b182e865d82e5937863249dc9b1395fa861cd9e0850ac527c453719dc3228cc887dd0347e50a3b167a1a7dacb1bcdce67d4f0043b566a80d2f75234dc1f5e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bcc-docs"

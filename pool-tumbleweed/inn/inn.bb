@@ -4,8 +4,8 @@ LICENSE = "BSD-4-Clause & GPL-2.0-or-later"
 
 PV = "2.6.5"
 
-RPM_NAME = "inn-2.6.5-1.9.aarch64.rpm"
-RPM_HASH = "df03bb2a6ab40c8d9478e275cbb4c804bb4f5a8cac7572e85c03d58dfcbc95e175ffa6eddb5a38a9345d4085b12242a6f5204e9d8e9302741a47e8deb5b9f913"
+RPM_NAME = "inn-2.6.5-1.10.aarch64.rpm"
+RPM_HASH = "4d2ba58f9ab07c75c031346fcd4c64e319130b2b460af5114dfc4fc837f4e2d9e93b27ac613a6720d8e5b0121391386c937646f99abeceb3b6bda6cd732e9904"
 
 RPROVIDES:${PN} += "config-inn \
 inn \

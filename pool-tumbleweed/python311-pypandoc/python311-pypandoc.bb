@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.11"
 
-RPM_NAME = "python311-pypandoc-1.11-1.3.noarch.rpm"
-RPM_HASH = "78861dac62f8606b2443c75d830f01bd3036b3bb568a778acdd8c815289c8615c301b9b44db063be532c744f3eafa69034c87f64131a8cb55929a9b454e6994c"
+RPM_NAME = "python311-pypandoc-1.11-1.4.noarch.rpm"
+RPM_HASH = "454c4744ff14b3b016a92618d294dba3162d4912f305817c5f7ddd6fa3f9e0fec0b6c7a81d76a97d3aa3ca0c424747746a6bbc68b629dcd89f431809a8036a47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pypandoc \

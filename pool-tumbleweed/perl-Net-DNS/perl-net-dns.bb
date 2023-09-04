@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.39"
 
-RPM_NAME = "perl-Net-DNS-1.39-1.1.noarch.rpm"
-RPM_HASH = "49a27166dd63603e54849e61ad1d868c808a190f5da01d644a9543f4d3dc89f7661c99937038bd4c27f5e1b74512df900d067b6d53977a949038726c948dc3f2"
+RPM_NAME = "perl-Net-DNS-1.39-1.2.noarch.rpm"
+RPM_HASH = "94b04c203e5928536f2b235f0ad537ad138f8e265678b4f115c1357cf6dc11e2e414a7cb9c9e2b77447b8122c250a1918ad8ce0c92fdbf2f0ce547f44f4f54dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--DNS \
@@ -119,7 +119,7 @@ perl-Net--DNS--ZoneFile--Generator \
 perl-Net--DNS--ZoneFile--Text \
 perl-Net-DNS"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Carp \
 perl-Digest--HMAC \
 perl-Digest--SHA \

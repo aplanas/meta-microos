@@ -5,10 +5,10 @@ package also lets you use any special symbols inside your \
 command."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.11.4svn64908"
+PV = "2023.209.0.0.11.4svn64908"
 
-RPM_NAME = "texlive-iexec-2023.208.0.0.11.4svn64908-53.1.noarch.rpm"
-RPM_HASH = "0f82d5c83a83233b83cf72fc39fefa0fb26ae11a91605f4f0a373aa2adecd1fcee6f12818bfa346d6f56a668dcdc9518930292e144a93d99f06b4f49e076a9d6"
+RPM_NAME = "texlive-iexec-2023.209.0.0.11.4svn64908-54.1.noarch.rpm"
+RPM_HASH = "73519ad6787319b8762bb7863d91564680a35b2210cd63438e9c6c04a2c9947c837ca93f31a1bca0d10436fb5ad43bac73131bfb2bdbbb8565ad9b6997750c91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-iexec.sty \

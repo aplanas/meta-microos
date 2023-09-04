@@ -2,10 +2,10 @@ SUMMARY = "Single Sign On Framework"
 DESCRIPTION = "Framework that provides credential storage and authentication service."
 LICENSE = "LGPL-2.0-only"
 
-PV = "8.60"
+PV = "8.61"
 
-RPM_NAME = "signond-libs-8.60-2.19.aarch64.rpm"
-RPM_HASH = "f2133fb01dc3bc11de689cfa841fe115730157206fffb7bb3ca2382755cf676a10ade7a9a31b22133d3b70e0ff16818c7b6b4746c89279c30564ac6868883293"
+RPM_NAME = "signond-libs-8.61-1.1.aarch64.rpm"
+RPM_HASH = "0e952b08adac7f3c7db9987966ae18c202119dfe4a8d8d7aa2650de17942cc7266beef301a0ddef7bc4faa05bf6ce3b84c864267f3206f8977a8ba884bdd024f"
 
 RPROVIDES:${PN} += "libsignon-extension.so.1 \
 libsignon-plugins-common.so.1 \

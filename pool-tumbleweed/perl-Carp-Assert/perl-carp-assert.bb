@@ -80,13 +80,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.22"
 
-RPM_NAME = "perl-Carp-Assert-0.22-1.2.noarch.rpm"
-RPM_HASH = "152da8fa8e058c7a70353b06335bacc405638cefcb28d4987db7bea4c2d8928bb64298e07d411a1adbd8b927a968a68fc432b7811d0230c04db9f298f958e11c"
+RPM_NAME = "perl-Carp-Assert-0.22-1.3.noarch.rpm"
+RPM_HASH = "f05745e3ca7912415c8b8548535839af9f8f269ff887c77708c1f8f3fd28ab57d481093550b5326a142bb15c2b2506cd8f3eb9b310ad2af18b514490d7953a5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Carp--Assert \
 perl-Carp-Assert"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

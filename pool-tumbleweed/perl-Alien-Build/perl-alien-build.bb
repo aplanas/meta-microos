@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.80"
 
-RPM_NAME = "perl-Alien-Build-2.80-1.2.aarch64.rpm"
-RPM_HASH = "146b8928fdf7a5c6945afc294ba8fddbcd494f626630c0ed8844c1519a47e40f37ec65ad1726b704ad01b36e3b34af79185f282e8372c8561e93524ee654cec4"
+RPM_NAME = "perl-Alien-Build-2.80-1.3.aarch64.rpm"
+RPM_HASH = "0a57ca90df5fc13c8ce52cfe8f17ceb9ebf928ac52282211c260cd10ce672fedaf64015c45119923fc36c6f4534e947075e65ef204e5878bc05124fc129181bd"
 
 RPROVIDES:${PN} += "perl-Alien--Base \
 perl-Alien--Base--PkgConfig \
@@ -90,7 +90,7 @@ perl-Test--Alien--Run \
 perl-Test--Alien--Synthetic \
 perl-alienfile"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Capture--Tiny \
 perl-Digest--SHA \
 perl-ExtUtils--CBuilder \

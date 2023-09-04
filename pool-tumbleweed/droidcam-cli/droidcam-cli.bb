@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.9.0"
 
-RPM_NAME = "droidcam-cli-1.9.0-1.2.aarch64.rpm"
-RPM_HASH = "d4d1acccca551ca8e7ab08602c629ce42d5aef0c67eaeacba1fce8c95d46ba97bc79bd9da1eb3219e7d157d889d3ab6c74448413c31ab0cb0aa494efca05f7cf"
+RPM_NAME = "droidcam-cli-1.9.0-1.3.aarch64.rpm"
+RPM_HASH = "1368ea24e6b095854bd40af726a113ef17ae22a8a64747b198c48f7cdfc14358e717d89d687f875a0526fd6003eefdc342853c891cf71f77510786485f344c47"
 
 RPROVIDES:${PN} += "droidcam-cli"
 

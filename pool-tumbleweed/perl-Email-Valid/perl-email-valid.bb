@@ -9,14 +9,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.203"
 
-RPM_NAME = "perl-Email-Valid-1.203-1.3.noarch.rpm"
-RPM_HASH = "beb25ceddc30516c367de4adcad35fcfc24a7cde5dc2b3f59e99d07ad61d569f15273aef2de949a0270456e5c5f1ce9be8167237eb1d4257c4e914c9037a42e4"
+RPM_NAME = "perl-Email-Valid-1.203-1.4.noarch.rpm"
+RPM_HASH = "f6d767b0a6e885837e7539bc7d83e4d07337760f51a83cc15a2e37a8e8c014976b32593adefd588d8d1980dce804168fd2f31c32488c26a61aa5c3892ccbde41"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Email--Valid \
 perl-Email-Valid"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-IO--CaptureOutput \
 perl-Mail--Address \
 perl-Net--DNS \

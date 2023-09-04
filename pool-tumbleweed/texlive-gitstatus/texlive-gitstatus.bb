@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.1svn64662"
 
-RPM_NAME = "texlive-gitstatus-2023.209.1.1svn64662-54.1.noarch.rpm"
-RPM_HASH = "35b8fdc45d4c30d950db5fee0ec7b79813394e5f64711df61ec1fed0aa485abd00a95f3d7b5d59f0c6bb16775f0460bb20ed11282803c59485e7e75e1f322043"
+RPM_NAME = "texlive-gitstatus-2023.209.1.1svn64662-54.2.noarch.rpm"
+RPM_HASH = "3a8c47b68a67006e400c9978c3e12be0f0aed49733a249816b82141f1f1849078327fe277cd58eb20ae0dbb1c2f4faddfbc14ce8723fd571c03adbcedc4cfea9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gitstatus.sty \

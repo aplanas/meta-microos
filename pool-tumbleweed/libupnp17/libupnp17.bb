@@ -4,10 +4,10 @@ UPnP-compliant control points, devices, and bridges on several operating \
 systems"
 LICENSE = "BSD-3-Clause"
 
-PV = "1.14.17"
+PV = "1.14.18"
 
-RPM_NAME = "libupnp17-1.14.17-1.2.aarch64.rpm"
-RPM_HASH = "baf75bea84e5b33a9b41aa00e7158433a5d4d1dfb0302b8f1164b1b9616e64e87e929318c0c8b03cf7a2c29ae147c6d74be3dbc76e27442f71f81050a0a18310"
+RPM_NAME = "libupnp17-1.14.18-1.1.aarch64.rpm"
+RPM_HASH = "b2eef87def294892d8f20cf980e2c82f4844b135145333cecebb170ff66344acd3af9383a61986c35edd200da066d0d9ccf5db639b0ae3cb25884507c06c3872"
 
 RPROVIDES:${PN} += "libupnp.so.17 \
 libupnp17"

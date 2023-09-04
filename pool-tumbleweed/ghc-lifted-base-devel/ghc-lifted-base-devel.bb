@@ -4,17 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.3.12"
 
-RPM_NAME = "ghc-lifted-base-devel-0.2.3.12-8.6.aarch64.rpm"
-RPM_HASH = "413c38abef0414a06a0748ea2dbf415981ac1b505cadcd83c5cc1f86c21e8b080f03b7189de234d495acc71888d5970c4b6268e051bad76fb2bc7b93e86e2007"
+RPM_NAME = "ghc-lifted-base-devel-0.2.3.12-8.8.aarch64.rpm"
+RPM_HASH = "e4730154a786e2db511fc12b97dfd82ce6251c205b6b42030b7cb74471e7c9d0e4930bd81a2de73d0c78c73780a98f59aeb0cbab3138d88941d2669d6e52014a"
 
-RPROVIDES:${PN} += "ghc-devel-lifted-base-0.2.3.12-2PslaVNAATq3HzvkpdIGSo \
+RPROVIDES:${PN} += "ghc-devel-lifted-base-0.2.3.12-8AMs8PuCeaLKJwoieZv4GI \
 ghc-lifted-base-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-monad-control-1.0.3.1-YXA6op7GEFFtfFxLr4pzX \
-ghc-devel-transformers-base-0.4.6-AlF1op8b8qY6wTtsY0MGEp \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-monad-control-1.0.3.1-CVPvK8bh5F0Gvv9Wu0W98B \
+ghc-devel-transformers-base-0.4.6-FmWhyTNhU3u3qYTd28DG44 \
 ghc-lifted-base"
 
 inherit rpm

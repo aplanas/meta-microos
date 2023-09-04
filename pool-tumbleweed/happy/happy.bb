@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.20.1.1"
 
-RPM_NAME = "happy-1.20.1.1-1.3.aarch64.rpm"
-RPM_HASH = "54850a2ddac9cc09f9bbebefa24c5eadcf39b6ba99725b1b7bdfd4f207e7ec53433d29aa9989505bc4069cf1fbd9ba2275f560668b4f99da59f7f5592800ed3c"
+RPM_NAME = "happy-1.20.1.1-1.4.aarch64.rpm"
+RPM_HASH = "71ee53da3cd56e39d9380cfd7910f2acd631f36bbc009bac8e8d81303f960b971f4b1bfe104c350a0f3fbbfb126b4f997c60e00103a26c598475a593cf6db8d5"
 
 RPROVIDES:${PN} += "happy"
 

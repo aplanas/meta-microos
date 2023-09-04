@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.0"
 
-RPM_NAME = "ghc-alsa-mixer-doc-0.3.0-4.2.noarch.rpm"
-RPM_HASH = "35dfa54463b6b61d1671951d7fe2ece660a282e0dc470859be336d1a609781713e4a051d03a3db58d01eb961132c0c4694cf873a868554f98404213135d94a77"
+RPM_NAME = "ghc-alsa-mixer-doc-0.3.0-4.3.noarch.rpm"
+RPM_HASH = "ef79bdf5090d62c65cbf117f76c9c5f8ca21ce1e02aa188ea40ab4641ee87ca5e3ef6f290fcec381a0fc6adfe40f6590f921f052a9072dad84222039876509d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-alsa-mixer-doc"

@@ -20,8 +20,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.29"
 
-RPM_NAME = "perl-Object-Pluggable-1.29-1.21.noarch.rpm"
-RPM_HASH = "93ee9627473258f3d9fe8d2f308269a1fa5f60566712d17c4deadf5b034a12ced0b2642072219d7ec40e4ce6b2424824c35a779e4b154786868de68c0864034d"
+RPM_NAME = "perl-Object-Pluggable-1.29-1.22.noarch.rpm"
+RPM_HASH = "4b72c5d67ad344ebda4b7a047a9606e172536e0750557792ee7a98a8297d15b549d761e49a3104bdf6bb0e27a9db9010c51be25e02448f5b76d95d6a73d31ed4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Object--Pluggable \
@@ -29,7 +29,7 @@ perl-Object--Pluggable--Constants \
 perl-Object--Pluggable--Pipeline \
 perl-Object-Pluggable"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Task--Weaken \
 perl-constant"
 

@@ -13,8 +13,8 @@ LICENSE = "SGI-B-2.0"
 
 PV = "9.0.3"
 
-RPM_NAME = "glu-devel-9.0.3-1.1.aarch64.rpm"
-RPM_HASH = "43669686aea7c3fc6e9f2aa02eba1c369953f77ff5e290b0cd995be6a42c9630452b45c5900595c56c0abcc88a2cb908f2cf34674204eaff6234e28714760d57"
+RPM_NAME = "glu-devel-9.0.3-2.1.aarch64.rpm"
+RPM_HASH = "f0aaab5653a79beb958e45f6044821f177ed373f53584801feea40e6e6a5b3f68675d46bb1faaf22252c5360a1e021c29ca87ebbbbe0d60636956a4086ad75e8"
 
 RPROVIDES:${PN} += "Mesa-libGLU-devel \
 glu-devel \
@@ -22,6 +22,7 @@ pkgconfig-glu"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libGLU1 \
+pkgconfig-gl \
 pkgconfig-opengl"
 
 inherit rpm

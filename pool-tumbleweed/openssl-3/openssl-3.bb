@@ -5,10 +5,10 @@ need to ascertain the identity of the party at the other end. \
 OpenSSL contains an implementation of the SSL and TLS protocols."
 LICENSE = "Apache-2.0"
 
-PV = "3.1.1"
+PV = "3.1.2"
 
-RPM_NAME = "openssl-3-3.1.1-3.1.aarch64.rpm"
-RPM_HASH = "7671188d5c8b1ab25b56022bfa0956a8b78c1771bea618221319c08bf746af1d2da2ada831a03d7576bbffd593fa8443655a2840d3134de4802c541d6e713fb7"
+RPM_NAME = "openssl-3-3.1.2-1.1.aarch64.rpm"
+RPM_HASH = "901213f903d512061722536bac5a5b341c3a9ea4de37f1f9546a5c150ebc3b8d14f92bc2cbefec5235a7f360ae05bb5d65c15bb7f2bb3fc69003e3d5a3a91dfb"
 
 RPROVIDES:${PN} += "config-openssl-3 \
 openssl-3 \

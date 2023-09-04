@@ -6,10 +6,10 @@ DESCRIPTION = "Asynchronous HTTP client/server framework for Python. \
 - Web-server has middleware and pluggable routing."
 LICENSE = "Apache-2.0"
 
-PV = "3.8.4"
+PV = "3.8.5"
 
-RPM_NAME = "python310-aiohttp-3.8.4-1.3.aarch64.rpm"
-RPM_HASH = "0aa2b3f8656bf586bd193daae918115cc15aa53ef9a8f77688bda45c57459dd87a7fa5e034ccaa08e8830aa4a5a39a2c2dd7f599fb804a6a36a6a21e923a6b75"
+RPM_NAME = "python310-aiohttp-3.8.5-1.1.aarch64.rpm"
+RPM_HASH = "5b2ceb7eb2ba5496c4b945df42ba122c61af7303cf0197bfac504d35b7eb9a1c507353e030d7c04f20c5b2889f6a160e07f4d2deb4d6c9efd8101c7089e32d39"
 
 RPROVIDES:${PN} += "python3.10dist-aiohttp \
 python310-aiohttp \

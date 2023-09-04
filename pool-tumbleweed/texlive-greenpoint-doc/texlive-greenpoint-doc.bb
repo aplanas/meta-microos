@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-greenpoint-doc-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "0d0f2d5ee83d3bc9cba724af87f5c1010f5a5d5b8cbdc52a78793cae90f45a9d7cb1b2d60a751b0cad71df34e2e3290a48ba3278e33b23dea4f5f00d7f8e5408"
+RPM_NAME = "texlive-greenpoint-doc-2023.209.svn15878-54.2.noarch.rpm"
+RPM_HASH = "81410de1a0a1f580f8ff99f26b7787b7318f1db5286c0123e7073507988903b37efa92fd75b794a3e62df3928695749786154d596856b9c8748c3669de611fcc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-greenpoint-doc"

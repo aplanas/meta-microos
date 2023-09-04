@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "qt6-pdf-private-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "fe79897ef711e4c9f92873a34290a6ba32541b1522c6620f3b25d8087cd80a00673c588cabdc1cf1d00f0f89473fb6a903e0fa5972f45c25a6333993df66c080"
+RPM_NAME = "qt6-pdf-private-devel-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "fbbb7d05be50313289bada2c26427460f358350d3612b836043bf68654cb70b2e2d409176dafd117b1a11ddb12046276d18d359d53132e5316da2138b51ff9ad"
 
 RPROVIDES:${PN} += "qt6-pdf-private-devel"
 

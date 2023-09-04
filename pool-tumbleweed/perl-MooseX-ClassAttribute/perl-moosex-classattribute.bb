@@ -14,8 +14,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.29"
 
-RPM_NAME = "perl-MooseX-ClassAttribute-0.29-1.23.noarch.rpm"
-RPM_HASH = "99a293d054d1653924f507ad3284c9595ad75e21a31172f531e00f91f68033a8d05b34d9fa80507da8f4aa328678fa00d036d78c1f732cb82122fb49388a51bf"
+RPM_NAME = "perl-MooseX-ClassAttribute-0.29-1.24.noarch.rpm"
+RPM_HASH = "9cfa95840b83cf89e10aa837d933a637ae4b4b9c0afb1da0fceaa49553776bdc6c6f5d5a24b34323318d796e83040644ac01fb199b62149dcb643af61ebfb50c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--ClassAttribute \
@@ -30,7 +30,7 @@ perl-MooseX--ClassAttribute--Trait--Role \
 perl-MooseX--ClassAttribute--Trait--Role--Composite \
 perl-MooseX-ClassAttribute"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-List--Util \
 perl-Moose \
 perl-Moose--Exporter \

@@ -15,10 +15,10 @@ gravitational waves, and many other types of scientific and \
 mathematical research."
 LICENSE = "GPL-3.0-or-later | LGPL-3.0-or-later"
 
-PV = "7.22.2"
+PV = "7.24.1"
 
-RPM_NAME = "boinc-client-7.22.2-1.1.aarch64.rpm"
-RPM_HASH = "eb00acff1893bd6c49f53e05d9b2f80ac0cb9caecd23875ae3f688c4517d5a4ea7aa231585d0b6d832bc9e7d6d8a544cf18a527ffc7c58b3ee246ab0690e1ad1"
+RPM_NAME = "boinc-client-7.24.1-1.1.aarch64.rpm"
+RPM_HASH = "49188d084146053ad01cf3e7c660d7f4d581ce8844b0bd4cdd518211dfaa89b0c1235d3aeae2fcc5af53c77065015bc4598ca3328b2e4fa8e2ee221baadf977d"
 
 RPROVIDES:${PN} += "boinc-client \
 config-boinc-client"

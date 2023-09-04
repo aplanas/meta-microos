@@ -4,8 +4,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.9.17"
 
-RPM_NAME = "python39-tk-3.9.17-3.1.aarch64.rpm"
-RPM_HASH = "e45b0214ec561da10957a7f561e5919d87aa448b64d75ac7f4ded4b3aaa96fea69186554e7619dbb23ea9df7669927144957269d36a53aaa0c3f76eca6a74b77"
+RPM_NAME = "python39-tk-3.9.17-4.1.aarch64.rpm"
+RPM_HASH = "6ff309e15d48cd393430da0e2b0c6da6a5aa94d3c51be1fa940e93155ad46a13b8d891d6a2e537b6d0eb2d019c4cefb4447e621ba7f70d0607f184d7a4f98235"
 
 RPROVIDES:${PN} += "python39-tk"
 

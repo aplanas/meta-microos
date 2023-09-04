@@ -5,8 +5,8 @@ LICENSE = "OLDAP-2.8"
 
 PV = "2.6.4"
 
-RPM_NAME = "openldap2-devel-static-2.6.4-2.1.aarch64.rpm"
-RPM_HASH = "fe23bd6198dce6fd83e486b11c5f8da55c21a5eb1076ae1e95d61759e55553d668e33fc67cdb1a0520a70c4bbe7e89ffbd9bbeb05c970debab9300c1b2615000"
+RPM_NAME = "openldap2-devel-static-2.6.4-2.2.aarch64.rpm"
+RPM_HASH = "1e31b2846855efb46464e85b08447ad372e119176e0da1c9a2bbd6162682fa199561b1e771c09dcb89bd18a2b629647db0aa70e5a2a76bceeb659f880296eb6f"
 
 RPROVIDES:${PN} += "openldap2-devel-static"
 

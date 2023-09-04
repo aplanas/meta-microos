@@ -2,10 +2,10 @@ SUMMARY = "Libthai input method engine for Fcitx5"
 DESCRIPTION = "fcitx-libthai is an input method engine for Fcitx, which uses libthai as its backend."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.0.11"
+PV = "5.1.0"
 
-RPM_NAME = "fcitx5-libthai-5.0.11-1.4.aarch64.rpm"
-RPM_HASH = "ccf05b5fa33b555cf5d31342a0b8f4eb6447323ef915609fbb523bce18c19213dc73c959a3d5b71099cd64bd9eafd51552535263a72e16982c865a2a4d30a6a6"
+RPM_NAME = "fcitx5-libthai-5.1.0-1.1.aarch64.rpm"
+RPM_HASH = "6c316185c8e63ece93f9112a30cd06a0bd4f0ef5255bc5d210751daa291419888debfd55094238005f0dacf348cb272514899778875e831e045bf60654a3a9bf"
 
 RPROVIDES:${PN} += "fcitx5-libthai \
 libthai.so"

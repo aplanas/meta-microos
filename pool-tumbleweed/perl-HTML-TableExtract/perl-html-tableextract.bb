@@ -59,8 +59,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.15"
 
-RPM_NAME = "perl-HTML-TableExtract-2.15-1.14.noarch.rpm"
-RPM_HASH = "7fc93bb70c09b4fdb48894f119db06d6a33f9477ef6e29d35bb01e545648c81bf9e9fce0a173bc05a7c16cf9178795dcbd22a1b37580f0000452b68a5b04e29b"
+RPM_NAME = "perl-HTML-TableExtract-2.15-1.15.noarch.rpm"
+RPM_HASH = "1d066a19dc08435d5ec02f14c987818b14cf9831da5d49f0f5dced821de4141d7ec95b511fce3cc910bacac56c176447507d1cfd65e3ae9425a0d7153906522f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTML--TableExtract \
@@ -69,7 +69,7 @@ perl-HTML--TableExtract--StripHTML \
 perl-HTML--TableExtract--Table \
 perl-HTML-TableExtract"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-HTML--ElementTable \
 perl-HTML--Parser"
 

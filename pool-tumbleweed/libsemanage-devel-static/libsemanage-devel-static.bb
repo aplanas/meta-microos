@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.5"
 
-RPM_NAME = "libsemanage-devel-static-3.5-1.9.aarch64.rpm"
-RPM_HASH = "ebd759e7d7bdf17e50dddc2a0cce33ed9ceef8a82a4c0412f19e203c7b6cee38cae7e30a33664ef5ae5a82b1007dbf00ef157111cf5f3a0286422b5bb44ca523"
+RPM_NAME = "libsemanage-devel-static-3.5-2.1.aarch64.rpm"
+RPM_HASH = "7b9de85b890ba234561d199b0b3e5ba96ef8721daed368a6aded5bddb917cf65bdcc56c79b43bb8492b3230e69d8b5209d686e92912303e39ea83c04e3ca367a"
 
 RPROVIDES:${PN} += "libsemanage-devel-static"
 

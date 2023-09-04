@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-zwgetfdate-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "c2267c41dabf95348f57d6b050a82d4a8d5e81df9a8594a69edd56bea1bcb99e8f7d9bd1e0eab9ddc262cdfd2fff4c3c5581ad0a35c4167f4f64992908d09c4f"
+RPM_NAME = "texlive-zwgetfdate-2023.209.svn15878-53.2.noarch.rpm"
+RPM_HASH = "51a0c10f5856ac486d0b92b721dd504556d5ecaf1e4276ce1d15a1259075ec83a12757284112a3d3036dd02dd438b0244269b86b68ad44f1b0c2b12e80b1e16d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zwgetfdate.sty \

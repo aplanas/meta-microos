@@ -25,8 +25,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.2.34svn62977"
 
-RPM_NAME = "texlive-zref-2023.209.2.34svn62977-53.1.noarch.rpm"
-RPM_HASH = "9613af77b7b0ba86fd3731bbf922638760c683727bc6967e4dcf54b24dd90c07ea71dd8e95045605d2fdb8650dae91d161a54077f63fb85e43f252e98d34b79a"
+RPM_NAME = "texlive-zref-2023.209.2.34svn62977-53.2.noarch.rpm"
+RPM_HASH = "3519d71b9fe0549a3249d9e6b0c3d3fa073c8530b102af25bb3ca2e9ce47eace3a67858e2411b0a50af9cbf5ce75dc0f5a1b67080b298bd38add13933cc235c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zref-abspage.sty \

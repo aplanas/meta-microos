@@ -12,13 +12,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.00002"
 
-RPM_NAME = "perl-Sub-Delete-1.00002-1.16.noarch.rpm"
-RPM_HASH = "4e198bbef12bbc656ae4eb4314b31b139b3208c9fda362615856d54f61a5f7af81f7629e45de2610a68a8579bdbee2cc32bc60fc6c48c6e939b50035a23026d8"
+RPM_NAME = "perl-Sub-Delete-1.00002-1.17.noarch.rpm"
+RPM_HASH = "30191ca60245a3ac4ec1ff4c9b980365780cf5081892cc0eb8b4d5ed8d6b2340b1ed3ca68202b99c5c8753f26b7a819736393b8b9f1d44eddfa3f523bd95a323"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Sub--Delete \
 perl-Sub-Delete"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

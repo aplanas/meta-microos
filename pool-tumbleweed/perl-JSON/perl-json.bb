@@ -18,13 +18,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "4.10"
 
-RPM_NAME = "perl-JSON-4.10-1.3.noarch.rpm"
-RPM_HASH = "ca602aff813a976a3f39e293b2d83700761381ffe6a4aa3274fa4e908fbbaa8d88f9e7cd7392d91aa19c8bcce434f42fe70c0abca0a707b6ad0ff136b133b73c"
+RPM_NAME = "perl-JSON-4.10-1.4.noarch.rpm"
+RPM_HASH = "e3e5d5e6edc5ffffbc76f32f70eb5af6aefbdf146cb03c275bf0a74b9304adfe985053f12743f6e8c7f98053650358b759c385a193c5db032fc388b99f370913"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-JSON \
 perl-JSON--Backend--PP"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

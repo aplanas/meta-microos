@@ -2,10 +2,10 @@ SUMMARY = "The python pandas[compression] extra"
 DESCRIPTION = "This package provides the [compression] extra for python-pandas"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.2"
+PV = "2.0.3"
 
-RPM_NAME = "python39-pandas-compression-2.0.2-4.1.noarch.rpm"
-RPM_HASH = "a469f0dac61a1cdba6d92447067a8486b6759421207cac386300d49df9d03fab51ab67a90c02c89d8f59d36554691a159e61666ece8a833e360c757d10757994"
+RPM_NAME = "python39-pandas-compression-2.0.3-1.2.noarch.rpm"
+RPM_HASH = "333dbe051bacf99b80a9215489a51313d7cb9e18f8d969530ae664d5e9da62f6d0db7622d730f154ea8c7903f4d9baec2a7bab79cb86fc944cd0dd243843da6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pandas-compression"

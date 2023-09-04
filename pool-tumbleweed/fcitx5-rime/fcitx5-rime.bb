@@ -2,10 +2,10 @@ SUMMARY = "RIME support for Fcitx5"
 DESCRIPTION = "This package provides RIME support for Fcitx5."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.0.16"
+PV = "5.1.1"
 
-RPM_NAME = "fcitx5-rime-5.0.16-1.2.aarch64.rpm"
-RPM_HASH = "4b291c0705d333c07d15710b5c216a5f41f323971654f459ad5ff6be265154c73ac46072f6dbcf1dda7eb09f75e5789ff1af280b3a3950b15f1dcdbc075ebf38"
+RPM_NAME = "fcitx5-rime-5.1.1-1.1.aarch64.rpm"
+RPM_HASH = "19b8d8a77280c26fb20ff1bbcd15582929b09a48dbdfe835a55e47e700fbd5e1cc419506f0ae8e99da803009f113021fd7171da96c586e46574d5deea9a76594"
 
 RPROVIDES:${PN} += "fcitx-rime \
 fcitx5-rime"

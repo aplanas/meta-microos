@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.025"
 
-RPM_NAME = "perl-PDF-Builder-3.025-1.2.noarch.rpm"
-RPM_HASH = "07ee36a665fd3d4764e194a0f3a7a95a58d854bda11d402bbcb1b5f3352e856817dbe5adfc7bbd53f429e494c75dfa7661fdf40bba30eba5810f9d2518b866e1"
+RPM_NAME = "perl-PDF-Builder-3.025-1.3.noarch.rpm"
+RPM_HASH = "53bb0a77a89da8d72a9da8ac8f8d4d8a208c3026444ce49c5b9b93c7978ee8fdc3023a22b236c16e551445435be1d32158e4af337b5d67c4969251af7dd1b7ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-PDF--Builder \
@@ -120,7 +120,7 @@ perl-PDF--Builder--Util \
 perl-PDF--Builder--ViewerPreferences \
 perl-PDF-Builder"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Compress--Zlib \
 perl-Font--TTF"
 

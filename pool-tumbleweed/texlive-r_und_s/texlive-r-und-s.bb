@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.3isvn15878"
 
-RPM_NAME = "texlive-r_und_s-2023.209.1.3isvn15878-54.1.noarch.rpm"
-RPM_HASH = "7b73344db7c2bf765a4a76b90fe7dca7fde34257caaaa39b018fc7efe56dd9c7a23620fe75853767dd7e800808975f9193ecf17969065e614d99402cbdcad0f8"
+RPM_NAME = "texlive-r_und_s-2023.209.1.3isvn15878-54.2.noarch.rpm"
+RPM_HASH = "caa0b80f0fed6ba68a8eaf94ce6119a2094eedd2dde1ba4f2141f46371e58df16e337cae01b5e4b034f1ae92c15831085bd8c4bea20bb899c31ea591c047edc6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eng-rs.sty \

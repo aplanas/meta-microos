@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.39.1"
 
-RPM_NAME = "libmount1-2.39.1-1.1.aarch64.rpm"
-RPM_HASH = "abdaabe1304be3a1f61e32d7bae9ec2aee2320354d232516f5d92f9645258eccc95b6807de3204eecc3aa82e3f9c148932b88cb12b75edf3d435832e8223f1d4"
+RPM_NAME = "libmount1-2.39.1-3.1.aarch64.rpm"
+RPM_HASH = "2d518e8a1ccf07969295b703d8ec9c312b9cc2c1b23e8bbf873e4b902df90c82e8e27f33d28d931bcdc6f4409c711d18c4a27207e563c795ce891c4c321a9834"
 
 RPROVIDES:${PN} += "libmount.so.1 \
 libmount1"

@@ -7,8 +7,8 @@ LICENSE = "(0BSD | MIT | Apache-2.0) & (Apache-2.0 | BSL-1.0) & (Apache-2.0 | MI
 
 PV = "0.5.4~1"
 
-RPM_NAME = "sccache-0.5.4~1-1.1.aarch64.rpm"
-RPM_HASH = "543a9553ed891228c0384f3c3a01c874012a97558fc561b50dd0c55d7e23f4a917e1c5da59595554e7282dc96b20d99359200c0cec39b40b912c41abf4485728"
+RPM_NAME = "sccache-0.5.4~1-2.1.aarch64.rpm"
+RPM_HASH = "c0456ced1da74a423fadb395ad0f00c03b5af3f39e2e6f8cdd4ac6db6200dab6f8a4d9ecebb6100cef191fbf54d31c267669eb4af42f7331dd36f33c54d92396"
 
 RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
 bundled-rust-crate-adler \

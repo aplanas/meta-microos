@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.22"
 
-RPM_NAME = "perl-HTTP-Body-1.22-1.27.noarch.rpm"
-RPM_HASH = "8d1ebb0d40301750816b51593351802b6f6ae45009537ee99d5ff29e57f70220933042162594b4e0ac353321828832684e1f114a30ef8963cd2d299112b5c2f5"
+RPM_NAME = "perl-HTTP-Body-1.22-1.28.noarch.rpm"
+RPM_HASH = "7f04080970349a03cea24031c386914f2aca844fd394536b5c0fc5f697de5f1f39bf97f6b99666f24d0a13a722815e5de12cc763296c51b86eab2280a4e87351"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Body \
@@ -22,7 +22,7 @@ perl-HTTP--Body--XForms \
 perl-HTTP--Body--XFormsMultipart \
 perl-HTTP-Body"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-HTTP--Headers \
 perl-IO--File"
 

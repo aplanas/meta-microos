@@ -7,8 +7,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.006"
 
-RPM_NAME = "perl-MooseX-AuthorizedMethods-0.006-11.2.noarch.rpm"
-RPM_HASH = "0cf3e0109d8e67cddb3d07baa98012a3d6d75cfbd11a0d555c47465a287f3c5d42f314b3411b29719e9fdeb210f6e2cc660091b4b79a3561cefae6a34fd9e147"
+RPM_NAME = "perl-MooseX-AuthorizedMethods-0.006-11.3.noarch.rpm"
+RPM_HASH = "574adee1fe3da0f87a01e6603f85b2e77e4648cbe15150719dd3a47c8ad3b6e702931b3050d05d9b7da755d2972f957cbb205a44799e081ffeb6079c14479112"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--AuthorizedMethods \
@@ -20,7 +20,7 @@ perl-MooseX--Meta--Method--Authorized--CheckRoles \
 perl-MooseX--Meta--Method--Authorized--Meta--Role \
 perl-MooseX-AuthorizedMethods"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Moose \
 perl-aliased"
 

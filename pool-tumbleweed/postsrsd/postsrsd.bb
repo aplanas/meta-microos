@@ -4,10 +4,10 @@ lookup tables for Postfix. SRS is needed if your mail server acts \
 as forwarder."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.0.6"
+PV = "2.0.8"
 
-RPM_NAME = "postsrsd-2.0.6-1.1.aarch64.rpm"
-RPM_HASH = "ecee85677226a1e99b6bb82dbacd50b4a32255819d73ea0249bbe59e997ac9b1aff7d1dfb51466f7062f042a5f4671d7c5a65e5d7060eb3a39ced854ee0fa7e6"
+RPM_NAME = "postsrsd-2.0.8-1.1.aarch64.rpm"
+RPM_HASH = "ea9d4f60666440c42cdb45f9866f1992898a89470fc4bcf3b6c657b7582576bbd591952db9e012e37ad63e8c29346923ff489bd8d79009101d04b2bbe7393ece"
 
 RPROVIDES:${PN} += "group-postsrsd \
 postsrsd \

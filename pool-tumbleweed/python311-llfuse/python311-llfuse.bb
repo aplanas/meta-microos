@@ -6,10 +6,10 @@ LLFUSE was originally part of S3QL, but has been factored out so that it can be 
 used by other projects as well."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.4.2"
+PV = "1.5.0"
 
-RPM_NAME = "python311-llfuse-1.4.2-1.8.aarch64.rpm"
-RPM_HASH = "e8b125ce4c89c0fffe8ae07a2c0c1c55dc983f439ef5aa0dc230dc6cf5038789c24ce21cd7808583d2719c2b35885e9eba25376bdcc58aca6703cb9d1c07409a"
+RPM_NAME = "python311-llfuse-1.5.0-1.1.aarch64.rpm"
+RPM_HASH = "deeaadfcb5bdfa4b6bc61c77e5c5327bfeafaa5a2eeba2f525b68db60b6332cfc9f8471c7fec400834f1c4ced9a1ffecad96779786300a0a47f2382ede25c1eb"
 
 RPROVIDES:${PN} += "python3-llfuse \
 python3.11dist-llfuse \

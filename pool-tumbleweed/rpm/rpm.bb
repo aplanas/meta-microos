@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.18.0"
 
-RPM_NAME = "rpm-4.18.0-5.3.aarch64.rpm"
-RPM_HASH = "339e5fa315eb189e4941e431ae640b5f3ca849774729dd47edc99f20b43e2e80b6ff8e168512d9da0889f7882c7c6ac3378240f1ea0a2af4e388e69ed27b4a56"
+RPM_NAME = "rpm-4.18.0-6.1.aarch64.rpm"
+RPM_HASH = "9aacdb3524cb41045dc7c5f647b236e204e38127ec2356ccc7958c627f4b88eb35c3ebab7a6970a6fbe07f563f4368bd39211e748cef7f77ec25983c344fb0f4"
 
 RPROVIDES:${PN} += "librpm.so.9 \
 librpmio.so.9 \
@@ -19,8 +19,7 @@ librpmsign.so.9 \
 rpm \
 rpminst"
 
-RDEPENDS:${PN} += "/usr/bin/awk \
-/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
 /usr/bin/sh \
 /usr/bin/touch \

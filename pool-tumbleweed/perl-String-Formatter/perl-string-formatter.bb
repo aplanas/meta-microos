@@ -53,15 +53,15 @@ LICENSE = "GPL-1.0-or-later"
 
 PV = "1.235"
 
-RPM_NAME = "perl-String-Formatter-1.235-1.3.noarch.rpm"
-RPM_HASH = "6f65d458f1162772f97753bdf9cf01afc5c7751c0bc79c9551bc2d43e28096b60cb10d1097c96e67fcd9158ef42f6ac6f87e209248e12f191af5f7c85eeef40b"
+RPM_NAME = "perl-String-Formatter-1.235-1.4.noarch.rpm"
+RPM_HASH = "7816bd66f5d8f1e1df607d9968b43846a6b8e33ba0bdc00d9369ca836d07673e804131dc15413223c3ebff78a8191f42a45227f840deaead9f7ab3a4045112d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-String--Formatter \
 perl-String--Formatter--Cookbook \
 perl-String-Formatter"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Params--Util \
 perl-Sub--Exporter"
 

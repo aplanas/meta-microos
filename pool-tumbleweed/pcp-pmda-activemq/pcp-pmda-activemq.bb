@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-activemq-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "ba33a3395a22b121d5c2ad38d014caba67865fd353d0fe9689cd86a785d87513edb1123a20e08e212bf87cb500b04058c1253f657d2c3be9b1422e04f6d7ae88"
+RPM_NAME = "pcp-pmda-activemq-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "e89f005fdbc470347f18a7f6fd32570a3689e0dd042367eb86e779c07fce3f7e64a30519e1e0a1472a0869e3b8d4d8f92f37f93b5efabfb60c225325fbcf98eb"
 
 RPROVIDES:${PN} += "pcp-pmda-activemq \
 perl-PCP--ActiveMQ \

@@ -30,15 +30,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.38"
 
-RPM_NAME = "perl-Test-Most-0.38-1.3.noarch.rpm"
-RPM_HASH = "e19813ae980fd6e9029ea2df2e3f2275d222d4bc3dd9f2b823a9a29dd36326dac9a9968cd314160ee7cce32bc2d23816495734fd5cff80cf5d3c5e6479ea4431"
+RPM_NAME = "perl-Test-Most-0.38-1.4.noarch.rpm"
+RPM_HASH = "83e564c61e0c2aa48f1a5d5a37f4021bbaa8ed41e97ce3d877b2e65fb9fa8f0c44ab70c8d08db9b15192f96d8603b45caf0c4d93f4c9817333fb22c65b101a46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Most \
 perl-Test--Most--Exception \
 perl-Test-Most"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Exception--Class \
 perl-Test--Deep \
 perl-Test--Differences \

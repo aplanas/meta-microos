@@ -2,10 +2,10 @@ SUMMARY = "Translations for package epiphany"
 DESCRIPTION = "Provides translations for the 'epiphany' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "44.5"
+PV = "44.6"
 
-RPM_NAME = "epiphany-lang-44.5-1.1.noarch.rpm"
-RPM_HASH = "3a64da937d8e6b812d457f13d7288dd6a84972c180d504e07532de178e911b0adedc7cc3e73b8b68ea971bcb1cb574fb9305db3bdb511e466c7030d6b853a495"
+RPM_NAME = "epiphany-lang-44.6-1.1.noarch.rpm"
+RPM_HASH = "890bbeaa63b26142ad6d92c6d96f150326dea8ace5c5b37d7455eab871dce267d9994e68e0bd6406132acf923732bb9c2881bbac04d43677b108f67545177461"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "epiphany-lang \

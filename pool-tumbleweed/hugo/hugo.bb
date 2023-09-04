@@ -11,10 +11,10 @@ Regulation (GDPR) compliance issues. \
 https://gohugo.io/"
 LICENSE = "Apache-2.0"
 
-PV = "0.116.1"
+PV = "0.117.0"
 
-RPM_NAME = "hugo-0.116.1-1.1.aarch64.rpm"
-RPM_HASH = "bacf843ab6f9a5477847b05e7f10e4fee8a73a118e3e83b4232bd95e4b197f5c6fd8423d6d301047ea558f3e9daa8250991048e0f0326f11868db8549e9d34ff"
+RPM_NAME = "hugo-0.117.0-1.1.aarch64.rpm"
+RPM_HASH = "3a9354941571188a50e605ae171fdc9b9b238692e8c7e3e75ece568d2370400c56aa67a5ec19a90bc2386ac59f10801450f75650e41cbc6b7387e97e0a35cf83"
 
 RPROVIDES:${PN} += "hugo"
 

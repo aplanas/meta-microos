@@ -8,10 +8,10 @@ Notebook (notebook, terminal, text editor, file browser, rich outputs, \
 etc.)."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.0.2"
+PV = "4.0.5"
 
-RPM_NAME = "python311-jupyterlab-4.0.2-1.2.noarch.rpm"
-RPM_HASH = "6b464cabee0db988379768642bf36cbb726725a2b67e61d4c7d6a4fb4c2eacfb3aa8edd45c186e20d3230580f7dc23e685c1fa8ec6f73e038907383c7d9a4b36"
+RPM_NAME = "python311-jupyterlab-4.0.5-2.1.noarch.rpm"
+RPM_HASH = "8ec69adc01abde0cebc56b6fa36029c5231f2fb7eda89aa495b8e0620e4c3a7d5b69c1146058da51e8c10f7c82dd21a1034d3932bb4d20398c6ad629547905d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jupyter-jupyterlab \
@@ -24,6 +24,8 @@ python3dist-jupyterlab"
 RDEPENDS:${PN} += "-python311-jupyter-server >= 2.4.0 with python311-jupyter-server < 3 \
 -python311-jupyterlab-server >= 2.19.0 with python311-jupyterlab-server < 3 \
 /usr/bin/node \
+/usr/bin/python3.11 \
+/usr/bin/sh \
 jupyter-jupyterlab \
 python-abi \
 python311-Jinja2 \
@@ -34,6 +36,7 @@ python311-jupyter-lsp \
 python311-notebook-shim \
 python311-packaging \
 python311-tornado \
-python311-traitlets"
+python311-traitlets \
+update-alternatives"
 
 inherit rpm

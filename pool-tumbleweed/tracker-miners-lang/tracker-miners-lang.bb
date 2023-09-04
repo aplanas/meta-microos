@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.5.2"
 
-RPM_NAME = "tracker-miners-lang-3.5.2-1.3.noarch.rpm"
-RPM_HASH = "419a41a2b6df2d5e09d113e584504f563971da716f9fe41a81e9213efcff2bb3ee31b302e90faf9e1d6c0c04e9785d05a58761e78cf2c92346c62315da970e21"
+RPM_NAME = "tracker-miners-lang-3.5.2-3.1.noarch.rpm"
+RPM_HASH = "ad8566314d16b7f0c56fa3eaf507c2413f8a5ddc4e3c243aa7cc6da55ce19acd7eb21d23c5aef93acfb0bf9409f27053d5bad81699b15b192ef2c83e385369c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-tracker-miners-ar \

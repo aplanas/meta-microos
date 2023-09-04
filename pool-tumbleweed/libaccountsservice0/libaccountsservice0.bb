@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "23.13.9"
 
-RPM_NAME = "libaccountsservice0-23.13.9-3.1.aarch64.rpm"
-RPM_HASH = "aa2525100acf196d56e6a6ff2d9a4a46f700ed4d203fef659ec215e2b5f42c77d135031d6e5af7195fa04da18d4c57c67393077d7753de2d7947aca739572c34"
+RPM_NAME = "libaccountsservice0-23.13.9-4.1.aarch64.rpm"
+RPM_HASH = "2df0b4e7a9499d5cdc8fadbcd9fdba9885fa5cdff0df3e4e9800d60c98070580e539595bc0f9644774b485750340942afb77fcac5dc2b5dc7ed3fb969e0f0a71"
 
 RPROVIDES:${PN} += "libaccountsservice.so.0 \
 libaccountsservice0"

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
 PV = "2.0.21"
 
-RPM_NAME = "uwsgi-logzmq-2.0.21-3.1.aarch64.rpm"
-RPM_HASH = "4e81c9775078201089dd866fd0ac705df9c9cfbcaba947ac2ed9d5ae6874d51d5cfa725116aac50d31c62420ce5a67279386b29885d36455b8e5405973e61afc"
+RPM_NAME = "uwsgi-logzmq-2.0.21-3.2.aarch64.rpm"
+RPM_HASH = "cc02d024201c9657c35a5a71310be059ab9ab84825bdd809b06a8f0849a4e1baa7aaa8b704b825ffbdefe91261093aca639e8c1950556acbd9510097b73a61f6"
 
 RPROVIDES:${PN} += "uwsgi-logzmq"
 

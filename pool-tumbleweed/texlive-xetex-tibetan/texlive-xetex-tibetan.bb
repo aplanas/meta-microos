@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.1svn28847"
 
-RPM_NAME = "texlive-xetex-tibetan-2023.209.0.0.1svn28847-53.1.noarch.rpm"
-RPM_HASH = "e31bb85dc880786cca2e48c0ba42480cc472d252e05f3e888e399765417ea954ba637341b1842fb97137c17687c39400a5318bcfda5b887476e6eb0c5ba61c31"
+RPM_NAME = "texlive-xetex-tibetan-2023.209.0.0.1svn28847-53.2.noarch.rpm"
+RPM_HASH = "7a73bbeab4279757e883da6a83fecea7a2a233145290e9b0a85e40e760298c60fe775f23d60e7f375fa32f2ac72acf2bfe13e916aa8a3d7920b8c623e0b3fc38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-loctib.map \

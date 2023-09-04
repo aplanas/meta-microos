@@ -4,10 +4,10 @@ Compliant with 'Gramatica dla lengua piemonteisa' by Camillo \
 Brero."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn58652"
+PV = "2023.209.svn58652"
 
-RPM_NAME = "texlive-hyphen-piedmontese-2023.208.svn58652-53.1.noarch.rpm"
-RPM_HASH = "746173034f4f41d64b6d365001f5ef3b06ee54e6420612ed0bb7eecb92076946947a92d553bb5e7e5bf9cfbb30a6a705534b0d5ed53bac661d8062136098f2ce"
+RPM_NAME = "texlive-hyphen-piedmontese-2023.209.svn58652-54.1.noarch.rpm"
+RPM_HASH = "fe54580c66dfb161ae66ed4fe1dfcce168298129eaafd77037c7f65a93ea6f4d105d5c394f93b55d4a4fb0c9cee23792a3b50bbd8b0badd7e7f406403919ae8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-pms.tex \

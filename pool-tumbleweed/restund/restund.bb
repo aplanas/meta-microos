@@ -16,8 +16,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.12"
 
-RPM_NAME = "restund-0.4.12-2.4.aarch64.rpm"
-RPM_HASH = "00be8ee736b79c2c891e914c16d7a8fb18e37f7b62cdedf5d47647343da5c6ee5a68fa215d12223f21e0f66e190692bca870ad165331385804f5ca8c0cf4bfac"
+RPM_NAME = "restund-0.4.12-2.5.aarch64.rpm"
+RPM_HASH = "ed641498bd14c3ac62decd0f4c30b68dd3dd01be79b442550a1235ec2f8648d3be4eaa947c47e6173d272a05101afcf6b3a9c1a1aa1a2da0c149e291c11f1a7e"
 
 RPROVIDES:${PN} += "config-restund \
 restund"
@@ -26,7 +26,7 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
 libc.so.6 \
 libmariadb.so.3 \
-libre.so.12 \
+libre.so.16 \
 shadow"
 
 inherit rpm

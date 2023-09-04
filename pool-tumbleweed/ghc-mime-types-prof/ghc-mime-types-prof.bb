@@ -4,15 +4,15 @@ LICENSE = "MIT"
 
 PV = "0.1.1.0"
 
-RPM_NAME = "ghc-mime-types-prof-0.1.1.0-2.2.aarch64.rpm"
-RPM_HASH = "96a88f833c8f1e1d7cac3773f69927301d89c314d8d1d911f254703081592fb72184bf870c29f1d31c0365653e341251da9cdfcb4daed036508fcc0a86a6320f"
+RPM_NAME = "ghc-mime-types-prof-0.1.1.0-2.3.aarch64.rpm"
+RPM_HASH = "81b2fe1885e3c9ee352209858aad722b54421b24dc6471f5578899c648eb35d4a891698634f2d3efa16fbef5ab2a59e06b51ddc0e772826eb637645addb70d13"
 
 RPROVIDES:${PN} += "ghc-mime-types-prof \
-ghc-prof-mime-types-0.1.1.0-IrWGRRDe33Y1D55h7nh7fm"
+ghc-prof-mime-types-0.1.1.0-oV8uh4Pssd1mRIrSbk6Ab"
 
 RDEPENDS:${PN} += "ghc-mime-types-devel \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-bytestring-0.11.4.0 \
+ghc-prof-base-4.17.2.0 \
+ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-containers-0.6.7 \
 ghc-prof-text-2.0.2"
 

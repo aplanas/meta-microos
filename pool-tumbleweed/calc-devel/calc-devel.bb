@@ -8,13 +8,13 @@ This package contains the files needed for building programs that use \
 this library."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.14.2.2"
+PV = "2.14.3.4"
 
-RPM_NAME = "calc-devel-2.14.2.2-1.1.aarch64.rpm"
-RPM_HASH = "d5dff6fe9e387e956f93c0e2b90f2627b642f4edaa8840235af51c5b38444db10f1add5fbab84f4e02c4ac9a9f18ca7c681f4a10da93af7bed8b8c3e425550e6"
+RPM_NAME = "calc-devel-2.14.3.4-1.1.aarch64.rpm"
+RPM_HASH = "b7e92e03ad3433e5f6b4d260cbb9ef1ea46383111bc304a3e72028986172cd5a5599829d6a109cfa6048b6d4c78158df9ec43c3f873f4cfd4c46dd7204acdc3f"
 
 RPROVIDES:${PN} += "calc-devel"
 
-RDEPENDS:${PN} += "libcalc2-14-2-2"
+RDEPENDS:${PN} += "libcalc2-14-3-4"
 
 inherit rpm

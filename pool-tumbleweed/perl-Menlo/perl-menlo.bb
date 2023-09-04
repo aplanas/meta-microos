@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.9019"
 
-RPM_NAME = "perl-Menlo-1.9019-1.11.noarch.rpm"
-RPM_HASH = "f8d37fa73b471fbf89874e5188133364eabe210418bd80037c4edd3704b1c595cc9996df28698cb39abb0c4b564be93dc54f28cd57abb262da53c4593e77abc1"
+RPM_NAME = "perl-Menlo-1.9019-1.12.noarch.rpm"
+RPM_HASH = "33d699f597dedeb142434b7daaa18312c3d6cb900910755049c2692bb17ea515915db03679ffe41f535c929ff36fdc537b36dd4330517dd3446bc3e33b59999e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Menlo \
@@ -18,7 +18,7 @@ perl-Menlo--Index--MetaDB \
 perl-Menlo--Index--Mirror \
 perl-Menlo--Util"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-CPAN--Common--Index \
 perl-CPAN--DistnameInfo \
 perl-CPAN--Meta \

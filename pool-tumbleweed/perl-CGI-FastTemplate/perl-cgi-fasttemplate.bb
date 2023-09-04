@@ -8,13 +8,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.09"
 
-RPM_NAME = "perl-CGI-FastTemplate-1.09-21.18.noarch.rpm"
-RPM_HASH = "08471b67f78ca600242cff0935399d496be0196b4009648cfff003e28881804ffa94a096a6546428f8b2c2556a8bb485337a04e2591404005ce125bdd43018ea"
+RPM_NAME = "perl-CGI-FastTemplate-1.09-21.19.noarch.rpm"
+RPM_HASH = "d2449e449baacb3b94a61434650c0d6a1e0ab04a1472a5f7399d28e77b2bac7fdcd7a9b89c3789a9575ce4132e153825e5b17af95d30b157df3f467dfe3c57a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CGI--FastTemplate \
 perl-CGI-FastTemplate"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

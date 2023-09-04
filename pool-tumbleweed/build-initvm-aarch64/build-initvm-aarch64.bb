@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a script for building RPMs for SUSE Linux i
 chroot or a secure virtualized"
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "20230628"
+PV = "20230808"
 
-RPM_NAME = "build-initvm-aarch64-20230628-1.1.noarch.rpm"
-RPM_HASH = "f7b6c6dce524e19ad2a138f95c7e8d63c4f278273f145bf831f0294b464eff67302868e76d287a0b6fd9460a16fe4719f2f2248eeb82a5a1871c671f39b442a1"
+RPM_NAME = "build-initvm-aarch64-20230808-1.1.noarch.rpm"
+RPM_HASH = "c3913d486547da88e7a29300eac17e36f616e28c2afccf02fae1e2b0dc58408a7d40046a4ab9584575e962b5de667edbd7e924f6b7b446bfc08c04736e463932"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "build-initvm \

@@ -6,10 +6,10 @@ debugging. \
 If you are unsure if you need this, do not install this package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.37"
+PV = "2.38"
 
-RPM_NAME = "glibc-utils-2.37-5.1.aarch64.rpm"
-RPM_HASH = "37b6159e1889e37b80899bcb91b6847a73102513307285b6b90af5947889957e62bbeea5928948aabed735782ad66d2bb93e507618d1588f60864a25bacba238"
+RPM_NAME = "glibc-utils-2.38-1.1.aarch64.rpm"
+RPM_HASH = "0b1c1bb64e073aa947dc65e73e3233f0c6fd31170344e18b2cb4b2aa465f788d3fd3a9943ce243910e8c77ac95beab42081b883b3e4110c2402e651c9da58837"
 
 RPROVIDES:${PN} += "glibc-utils \
 libmemusage.so \

@@ -2,10 +2,10 @@ SUMMARY = "Mesa OpenCL implementation (Rusticl)"
 DESCRIPTION = "This package contains the Mesa Rust-written OpenCL implementation."
 LICENSE = "MIT"
 
-PV = "23.1.4"
+PV = "23.1.5"
 
-RPM_NAME = "Mesa-libRusticlOpenCL-23.1.4-354.1.aarch64.rpm"
-RPM_HASH = "4f7455589b5edebc04a5878f525f620cff8a9ae1a37a35a69c687bbf58b92d2ca96228ff82929d54596321beba0d21dbeb4efdb253174ef000f0dbbd73cdd893"
+RPM_NAME = "Mesa-libRusticlOpenCL-23.1.5-355.1.aarch64.rpm"
+RPM_HASH = "5a9a9903886b1d120a86cb36dad3dc07bbaa7f74b1ec99fb6d6efef91473c59aff4dc6259809a17d18fde36c58417838d7c064caffd90034b74c2e681debb4a4"
 
 RPROVIDES:${PN} += "Mesa-libRusticlOpenCL \
 libRusticlOpenCL.so.1"

@@ -1,21 +1,11 @@
 SUMMARY = "Perl extension for renaming multiple files"
-DESCRIPTION = "* 'rename( FILES, CODE [, VERBOSE])' \
- \
-rename FILES using CODE, if FILES is empty read list of files from stdin \
- \
-* 'rename_files( CODE, VERBOSE, FILES)' \
- \
-rename FILES using CODE \
- \
-* 'rename_list( CODE, VERBOSE, HANDLE [, FILENAME])' \
- \
-rename a list of file read from HANDLE, using CODE"
+DESCRIPTION = "Perl extension for renaming multiple files"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.31"
+PV = "2.10.0"
 
-RPM_NAME = "perl-File-Rename-1.31-1.7.noarch.rpm"
-RPM_HASH = "c1b74bab3956ad2cbb5bbf6f5b37861ce43d9cc7d3c077abe7b0895d776bb371071549690f18bee04e8348326265e3fd29e405bbdb36ccaa5acd903b6eb5283c"
+RPM_NAME = "perl-File-Rename-2.10.0-1.1.noarch.rpm"
+RPM_HASH = "bf77a9c664f4033e1d4032e079723c410b695d310bb7abdfa787f18c2538e54ab04c7b2df8283c567251bb79f17874fc3b99b7e94f5d28ce2967c87dcf7a5036"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Rename \
@@ -24,6 +14,6 @@ perl-File--Rename--Unicode \
 perl-File-Rename"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

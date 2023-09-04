@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.26.0"
 
-RPM_NAME = "bcc-devel-0.26.0-2.11.aarch64.rpm"
-RPM_HASH = "68f8020a8dbc31332d6d6a75eb9f53c5960123438fc00457b763931e514ee950420ccfcd41ca8800f912d71d641cba6b0fb4ea5b510ebf183961b98996b3f06c"
+RPM_NAME = "bcc-devel-0.26.0-2.12.aarch64.rpm"
+RPM_HASH = "060d4feb5d56eb41fa4bac79b12910ebe62ac54c99012b71b092aabea7eba25a1ec39ce36e4c40fd89f3f15253b746069c302d001b05e1f49b8ead3e8f521efc"
 
 RPROVIDES:${PN} += "bcc-devel \
 pkgconfig-libbcc"

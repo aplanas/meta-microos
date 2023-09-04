@@ -2,10 +2,10 @@ SUMMARY = "Development package for the libmm-qt library"
 DESCRIPTION = "Qt5 wrapper for ModemManager DBus API. Development files."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "libKF5ModemManagerQt-devel-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "26430a4656a1fc5ecd0cfc80e34290c14e9a67b6cb6d454fc092f4df3a59a1a8bd4dbfe66b1a349e3d88a9832b8448731a5aed2343588073bfeceb3e5de55245"
+RPM_NAME = "libKF5ModemManagerQt-devel-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "a0fe0f377420f2c425933f0d29cec56cd8ddd8e21ca48d8976f7cfbf0ae4c3eca6135f22c90bee0210c843faeafeafcb5b4ed00f30fb57258407cb249d0dd0ce"
 
 RPROVIDES:${PN} += "cmake-KF5ModemManagerQt \
 libKF5ModemManagerQt-devel"

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a module for accessing network-based image 
 GlusterFS network connection from qemu-img tool and QEMU system emulation."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.3"
+PV = "8.0.4"
 
-RPM_NAME = "qemu-block-gluster-8.0.3-2.1.aarch64.rpm"
-RPM_HASH = "25a0806cafeaf02eccfc49ff8759f5ef7c0192a6abfba0d99c6bf268dfecccf7cf6299808e458e597a480640a398c82d471048e538cbde2ba9ab204ff40824bf"
+RPM_NAME = "qemu-block-gluster-8.0.4-1.1.aarch64.rpm"
+RPM_HASH = "ca08d8c95bb4b51ac41c9ffeebac39cb20e10aabf64407fa8865a4109f16746630fa51ca36a9a0d22ee179999d0b2501dd548ff66a6dac137d3afdae7355d542"
 
 RPROVIDES:${PN} += "qemu-block-gluster"
 

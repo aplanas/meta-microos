@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.209.0.0.0.1svn57360"
 
-RPM_NAME = "texlive-hindmadurai-fonts-2023.209.0.0.0.1svn57360-54.1.noarch.rpm"
-RPM_HASH = "5365c61bfde6d57482878331878ecc21e41e0582a2c56c68ec6f67f12b776b1e5ce492fe4d08fa989c71803ecda7fdba4e822ea1529923affbca2cfa79fb6102"
+RPM_NAME = "texlive-hindmadurai-fonts-2023.209.0.0.0.1svn57360-54.2.noarch.rpm"
+RPM_HASH = "158bbd50602784a20a8d2481caba84458dd9d0c0ae58c2eb0459519a9687f0ce2b246e2ff30ff5203edc02e3d48ea50ef899ec05cfaf496aea08c1b6326fc0e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-hindmadurai-fonts \

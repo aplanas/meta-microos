@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.2.0svn15878"
 
-RPM_NAME = "texlive-eltex-2023.209.2.0svn15878-54.1.noarch.rpm"
-RPM_HASH = "02fcde6cdba6c773cfdea7abac2f405f8529c9bad27428b957828fe82f2450e70bf3eb706f33c0e297b857970366f07e563e65f930438144e47f6da9ba5a2950"
+RPM_NAME = "texlive-eltex-2023.209.2.0svn15878-54.2.noarch.rpm"
+RPM_HASH = "d068ef43783755f443d2e7d484b9212af97e0c7d99d0eb529a189a6f5ec29c06af9b50df4306df3167f01d908cdcbe2ef6dcc8fe190884fe4dbc027ea2b0dc02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eltex1.tex \

@@ -3,10 +3,10 @@ DESCRIPTION = "Valadoc is a documentation generator for generating API documenta
 from Vala source code."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.56.9"
+PV = "0.56.12"
 
-RPM_NAME = "valadoc-doclet-html-0.56.9-1.1.aarch64.rpm"
-RPM_HASH = "d1bcd8898243bda6c0b40b46b95151b71acec3bd0e4a7e3544de73d17c5fa2ca7636cc19e93a667b1eecae0d5388ee2f7df0550c5b9ab74d30092299f673c1f6"
+RPM_NAME = "valadoc-doclet-html-0.56.12-1.1.aarch64.rpm"
+RPM_HASH = "2bddcb31ca65a994610fbe214676e897aa14873aec59e760469bbf763fa877e8d243e64b1ced1b66a8c2588a5594c8c61403d4f8738686a1c383626a28940b8b"
 
 RPROVIDES:${PN} += "libdoclet.so \
 valadoc-doclet-html"

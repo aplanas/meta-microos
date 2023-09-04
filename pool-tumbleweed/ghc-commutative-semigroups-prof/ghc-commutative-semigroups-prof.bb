@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0.1"
 
-RPM_NAME = "ghc-commutative-semigroups-prof-0.1.0.1-1.2.aarch64.rpm"
-RPM_HASH = "0d7b5008b41878fe542fca9356af2709390498a18f8246d44d97cbf840f16f5d09a8356d7ac275622b604a95398dca6995b9a97eae297074aee375c06326be7f"
+RPM_NAME = "ghc-commutative-semigroups-prof-0.1.0.1-1.3.aarch64.rpm"
+RPM_HASH = "48ef32c7e20b092d23338db54482b5b9e0fa3a55d5974cca6d3ba42a39ec5948fe939b09445f3872c851a2593fcb8b28bf4d29151b828441e39e5ac6ae64ff01"
 
 RPROVIDES:${PN} += "ghc-commutative-semigroups-prof \
-ghc-prof-commutative-semigroups-0.1.0.1-EHuCShtv7U46wPCL9foais"
+ghc-prof-commutative-semigroups-0.1.0.1-FXGRW7J4Pkn3IC4oHvkHyd"
 
 RDEPENDS:${PN} += "ghc-commutative-semigroups-devel \
-ghc-prof-base-4.17.1.0 \
+ghc-prof-base-4.17.2.0 \
 ghc-prof-containers-0.6.7"
 
 inherit rpm

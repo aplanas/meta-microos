@@ -9,15 +9,16 @@ high-quality mode that upscales based on outline rather than pixel \
 blocks, setting it apart from scalers like xBRZ or potrace."
 LICENSE = "GPL-3.0-or-later & MIT"
 
-PV = "1.2"
+PV = "1.3"
 
-RPM_NAME = "consoleet-utils-1.2-1.1.aarch64.rpm"
-RPM_HASH = "f60731ee7c2e1b978327f5aed6d589e8f97e9f85a4b3bd79704020b04fc1bfa371abf681ade7afd8b96d5f6cfa51f03da18447720fa87ff3848fda1c2199dc4d"
+RPM_NAME = "consoleet-utils-1.3-1.1.aarch64.rpm"
+RPM_HASH = "efb5bd4112a1687df583082b10de8c28d3d62469828958383d0683ea656b3b5b7e24987cfaa66df44531ebd870ee84edf4b91fcceccd78abbb12d1cff79e6d4c"
 
 RPROVIDES:${PN} += "consoleet-utils \
 vfontas"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "/usr/bin/perl \
+ld-linux-aarch64.so.1 \
 libHX.so.32 \
 libc.so.6 \
 libgcc-s.so.1 \

@@ -2,10 +2,10 @@ SUMMARY = "Development files for python310-pyzmq"
 DESCRIPTION = "Development libraries and headers needed to build software using python310-pyzmq."
 LICENSE = "BSD-3-Clause & LGPL-3.0-or-later"
 
-PV = "25.0.2"
+PV = "25.1.1"
 
-RPM_NAME = "python310-pyzmq-devel-25.0.2-1.3.aarch64.rpm"
-RPM_HASH = "247be41dcdadfb3b686bdb0030c3b71f2d71ca4310fbb6064499f2aac96e1a57bce81887b7338fc1189ad2c18c7d568695a81f1f49b6f6714201023d96363fc7"
+RPM_NAME = "python310-pyzmq-devel-25.1.1-1.1.aarch64.rpm"
+RPM_HASH = "8d9063936987a135978f1a1c04ce73cea82931ed66c13f3f2d7d6ed7057883962e9d157eb2febca4bc76f3b24f41633e967757438067b2c95337337f1aebaa58"
 
 RPROVIDES:${PN} += "python310-pyzmq-devel"
 

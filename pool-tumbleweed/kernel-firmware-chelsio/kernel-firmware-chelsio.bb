@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Chelsio network drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230724"
+PV = "20230814"
 
-RPM_NAME = "kernel-firmware-chelsio-20230724-1.1.noarch.rpm"
-RPM_HASH = "e8932ba83e23237ca012de73ced1a03f4e8f6541196a29c991b9f9dd2dbd692524807194d86ef29d297cdfd573887c5c94e89658dbb41f635fc7da9804cc0946"
+RPM_NAME = "kernel-firmware-chelsio-20230814-1.1.noarch.rpm"
+RPM_HASH = "8515f7810b5af797e07bd2bf677db9a07b4f4784990fd36492f5f34ea79531c5752435b1b878bc192ae7bd82e0dd875f9ff79c4dcd20e59368207a5ce586a5f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cxgb3-firmware \
@@ -30,15 +30,15 @@ firmware-cxgb4/configs/t6-config-hashfilter.txt \
 firmware-cxgb4/t4-config.txt \
 firmware-cxgb4/t4fw-1.14.4.0.bin \
 firmware-cxgb4/t4fw-1.15.37.0.bin \
-firmware-cxgb4/t4fw-1.27.3.0.bin \
+firmware-cxgb4/t4fw-1.27.4.0.bin \
 firmware-cxgb4/t4fw.bin \
 firmware-cxgb4/t5-config.txt \
 firmware-cxgb4/t5fw-1.14.4.0.bin \
 firmware-cxgb4/t5fw-1.15.37.0.bin \
-firmware-cxgb4/t5fw-1.27.3.0.bin \
+firmware-cxgb4/t5fw-1.27.4.0.bin \
 firmware-cxgb4/t5fw.bin \
 firmware-cxgb4/t6-config.txt \
-firmware-cxgb4/t6fw-1.27.3.0.bin \
+firmware-cxgb4/t6fw-1.27.4.0.bin \
 firmware-cxgb4/t6fw.bin \
 kernel-firmware-chelsio"
 

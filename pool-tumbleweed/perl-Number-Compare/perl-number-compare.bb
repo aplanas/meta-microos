@@ -13,13 +13,13 @@ LICENSE = "GPL-1.0-or-later | Artistic-1.0"
 
 PV = "0.03"
 
-RPM_NAME = "perl-Number-Compare-0.03-11.7.noarch.rpm"
-RPM_HASH = "c1dcb1defb6e7e04655b9f32b132954d3f026f37795637da611164e3899a15f02a88a6ef90ce3cd953138de239a2273f46fa25755ec0a3cf868741fb10a1f8df"
+RPM_NAME = "perl-Number-Compare-0.03-11.8.noarch.rpm"
+RPM_HASH = "bc9c0546ecf164688e8a29ae3b9956f5ca01d36267a75ea69223d706f74ddb3cc6f40e68698aff26e4591c0f39e1d003283605fcb5c38430ac8ce4342a7c4ff9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Number--Compare \
 perl-Number-Compare"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

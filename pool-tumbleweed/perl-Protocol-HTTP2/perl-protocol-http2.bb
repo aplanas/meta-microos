@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.10"
 
-RPM_NAME = "perl-Protocol-HTTP2-1.10-2.2.noarch.rpm"
-RPM_HASH = "566172a706aef322e879c81646df493f66b4537bb9964801a1c6b7cd43ef453db0a9a6e3667b049c21ccef3efb8afef6a6a71961dd700fd0946a5ce260abfd55"
+RPM_NAME = "perl-Protocol-HTTP2-1.10-2.3.noarch.rpm"
+RPM_HASH = "f4c8a47272593310ac8376267772da1c978507551e8d30e0938a929ec639a65fc00540c34813fb9fc99aae49a602e940cd4f5a6f1c487dd20a1d2a9387e5db08"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Protocol--HTTP2 \
@@ -38,7 +38,7 @@ perl-Protocol--HTTP2--Trace \
 perl-Protocol--HTTP2--Upgrade \
 perl-Protocol-HTTP2"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-MIME--Base64"
 
 inherit rpm

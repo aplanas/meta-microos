@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.3.1"
 
-RPM_NAME = "syslog-ng-curl-4.3.1-1.1.aarch64.rpm"
-RPM_HASH = "0e2860b58ee04bc41d01c78b8eb4a06891e526f8a428efc682e2e7183a631997fbb2e06208f060de9de47a36ff9b3b07c7cae4cf86c612aa6ece4d8916519dc8"
+RPM_NAME = "syslog-ng-curl-4.3.1-1.2.aarch64.rpm"
+RPM_HASH = "c0bf419dc1585f74584f226d07ef3c1821c4480aa251cc5012ac83afe084f2678919816d21696573eeaf49a59e4dfb8d46e076c7df8f5325e73108f90f13f24e"
 
 RPROVIDES:${PN} += "syslog-ng-curl"
 

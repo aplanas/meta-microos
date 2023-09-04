@@ -2,10 +2,10 @@ SUMMARY = "Holiday API for KDE PIM"
 DESCRIPTION = "This package contains a library which helps developers determining when holidays occur."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "libKF5Holidays5-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "c7bef0604b6c0cde2288779c4a678a11178afb476b6d22bd254ca509d9552156911e9434e7149d19e24a5905a21e75ac6b71a9362dea4f276e030594988f7dbe"
+RPM_NAME = "libKF5Holidays5-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "dcb8d65964572bee709a9864b36239581eece842ea09cb27f8ed610c9feda264d36c74ebd2d064ed6e1966353793f3d04258c38a1d81882733c2a6778edb0608"
 
 RPROVIDES:${PN} += "kholidays-lang \
 libKF5Holidays.so.5 \

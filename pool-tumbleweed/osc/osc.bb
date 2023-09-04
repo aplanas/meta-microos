@@ -6,10 +6,10 @@ http://en.opensuse.org/openSUSE:Build_Service_Tutorial \
 for a general introduction."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.0"
+PV = "1.3.1"
 
-RPM_NAME = "osc-1.2.0-1.1.noarch.rpm"
-RPM_HASH = "321a3082b10e7cccfb94645f6ce8c6e6d4cf4cf90b6009120d37018eaf720828a84cd0ab55a5e5a62dd39837f3f039dcd32801068b1e3a2edf9afe7cb913c91b"
+RPM_NAME = "osc-1.3.1-1.1.noarch.rpm"
+RPM_HASH = "4b7e0070aa9c3f1478e0f22da5b83f16bd75e972bc83c200df154c9de396156b117f97a8f1a94786e3628b4069c6e52fa2ba27bb42ae9f2176f10e65b74b8006"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "osc \

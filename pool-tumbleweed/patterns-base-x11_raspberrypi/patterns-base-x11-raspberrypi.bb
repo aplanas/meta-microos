@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20200505"
 
-RPM_NAME = "patterns-base-x11_raspberrypi-20200505-41.1.aarch64.rpm"
-RPM_HASH = "8f0cfafdf482b31c5f1a97a4009a540203b0343ef5f92328ba453da82ae5e4af34fdd057cdfc74bf447551547ac9ae02bcaa97a6e6b1d2dea6a66558ad0578a7"
+RPM_NAME = "patterns-base-x11_raspberrypi-20200505-42.1.aarch64.rpm"
+RPM_HASH = "5230d24ced4261cae804e847b01bdf64ebd4c28b65c37c860b5d33dcd1a4ef775574114cbcb193dff78cc6134cc1bb47b78f648b49021af4c298453a3589e902"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

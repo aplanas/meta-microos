@@ -13,8 +13,8 @@ LICENSE = "AGPL-3.0-only & Apache-2.0 & MPL-1.1 & LGPL-2.1-or-later & GPL-2.0-on
 
 PV = "2023.06.0+421"
 
-RPM_NAME = "rstudio-server-2023.06.0+421-1.2.aarch64.rpm"
-RPM_HASH = "76417712fadf41d968974cf651cbc4e3981580583d614eb78184d3364fcac0791587fc6b9e39e6e45e8b94526500237a6bd883def53fb77793070bb125b0337f"
+RPM_NAME = "rstudio-server-2023.06.0+421-1.4.aarch64.rpm"
+RPM_HASH = "7bdc8330fc0e30eb2119def63b852a30af13b51b7592cd116098f3becb4dccb00fdbe7e6161f2eac98e3f6547de3e49ac0ee9f0d63be61f1dcd2b591a2039b98"
 
 RPROVIDES:${PN} += "config-rstudio-server \
 group-rstudio-server \

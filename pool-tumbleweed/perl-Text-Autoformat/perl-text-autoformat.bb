@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.75"
 
-RPM_NAME = "perl-Text-Autoformat-1.75-1.16.noarch.rpm"
-RPM_HASH = "1e602104d8148b22b94e6ec2f0afee5067276889ba0d94b4d483bc8b8bbf357f663cb429242f5ceaff7fc3854ee94bb7137541ea35e5ed9e6e54cab60abf6b20"
+RPM_NAME = "perl-Text-Autoformat-1.75-1.17.noarch.rpm"
+RPM_HASH = "240370feae8531c6df237f93f6b0da77075a8f3bee212bd73cf97267d4364a478bd6018028b9027067de8f38b8aa860219893652b02ea21554a36bbd62f28417"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--Autoformat \
@@ -13,7 +13,7 @@ perl-Text--Autoformat--Hang \
 perl-Text--Autoformat--NullHang \
 perl-Text-Autoformat"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Text--Reform"
 
 inherit rpm

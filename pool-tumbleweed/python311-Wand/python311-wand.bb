@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.6.11"
 
-RPM_NAME = "python311-Wand-0.6.11-1.5.noarch.rpm"
-RPM_HASH = "97cefba1f44b60fc77277941ea4ecfd4c29540240c9de6a06c2a2d52cf0a0d39f9cdd495dfdd147ffe39ec18f8c3ad3fed7f5590c9e188a0c010070730c921c5"
+RPM_NAME = "python311-Wand-0.6.11-2.1.noarch.rpm"
+RPM_HASH = "b13b684f0229b4816b3cbbdd92624d995a3c33b37cd80f604f7046c2e2a141e72505c46df9d8143771d8def2e6bfed466c0a973c9b4b6f7afa7924731ff4c083"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Wand \

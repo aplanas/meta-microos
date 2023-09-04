@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "8.1.0"
 
-RPM_NAME = "libdigikamcore8_1_0-8.1.0-1.1.aarch64.rpm"
-RPM_HASH = "2d73cc2cdc2d1c5cb85c21991fa7ff6743c76ee73642f27fec0b7b16f96f73dc3e533f60a891f22e555cb2b7fbc00731ffdd9c1c636954fad864e4184e5a4dac"
+RPM_NAME = "libdigikamcore8_1_0-8.1.0-2.1.aarch64.rpm"
+RPM_HASH = "37992d61dcced29e870c48896128f16589f08c8100301b690090d3616c6c9f4cc7c40f6dd571fb9807d2c980a0c30ea6a52b184cf9d66b6078ba0fb78310e43f"
 
 RPROVIDES:${PN} += "libdigikamcore.so.8.1.0 \
 libdigikamcore8-1-0 \
@@ -74,6 +74,7 @@ libopencv-imgcodecs.so.407 \
 libopencv-imgproc.so.407 \
 libopencv-ml.so.407 \
 libpng16.so.16 \
+libpulse.so.0 \
 libstdc++.so.6 \
 libswresample.so.4 \
 libswscale.so.7 \

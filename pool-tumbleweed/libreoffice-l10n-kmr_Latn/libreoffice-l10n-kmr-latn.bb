@@ -2,10 +2,10 @@ SUMMARY = "Kurdish localization files for LibreOffice"
 DESCRIPTION = "Provides Kurdish translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-l10n-kmr_Latn-7.5.4.2-1.5.noarch.rpm"
-RPM_HASH = "a89f99b6f98933dd46365a0b9a59e3830fb1ceebc1d1bf077dba0cd6b2eac25a8f2f67b4c4caf6b8ff40f4f3957ce567ef5b1187a7df653e72a4c33105867717"
+RPM_NAME = "libreoffice-l10n-kmr_Latn-7.6.0.3-1.1.noarch.rpm"
+RPM_HASH = "d2082c00e7e10dd3129a2877b2273475db00957a3d3b8ba1eb8e0b46559f6677e102787848a982ed2bb20272c8927dd6aed06e6999bdd6bd1c9e097f577b3362"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-kmr-Latn \

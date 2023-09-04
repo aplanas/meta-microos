@@ -17,8 +17,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.206.0"
 
-RPM_NAME = "perl-Compress-Raw-Lzma-2.206.0-1.1.aarch64.rpm"
-RPM_HASH = "0cc9eb3868cfd4b2331c3251d19dc8742c1d6194bfb03db0846e0fa012ea6b3385349b867d5f23cb60b9cd72843bb95fdd7832383f99e656860489c3d69f03fc"
+RPM_NAME = "perl-Compress-Raw-Lzma-2.206.0-1.2.aarch64.rpm"
+RPM_HASH = "47a21d6a00da97b2aafe8aed8233e381f54a2b64c70031eccac4997bf757c8086a9f2f097190811b035abbf3372c74ba159148ee52311c36142e264f24c70214"
 
 RPROVIDES:${PN} += "perl-Compress--Raw--Lzma \
 perl-Compress-Raw-Lzma"
@@ -26,6 +26,6 @@ perl-Compress-Raw-Lzma"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 liblzma.so.5 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

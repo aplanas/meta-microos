@@ -15,8 +15,8 @@ LICENSE = "(Apache-2.0 | MIT) & Unicode-DFS-2016 & (0BSD | MIT | Apache-2.0) & (
 
 PV = "0.23.0"
 
-RPM_NAME = "gitui-0.23.0-1.1.aarch64.rpm"
-RPM_HASH = "dba3c4ff6a775bcf4e16fed8491b1620bbda2b9a8c9c4934789369b44a9b8eebe250b12778b7e23301a37fee897de89715b097945fe8d051e26ce7908ade87c5"
+RPM_NAME = "gitui-0.23.0-2.1.aarch64.rpm"
+RPM_HASH = "02a8b4a2213673405d992e0f9daa91813274778d620c8cecee0bd09cb047147bda267f16f9a767746a8abe8d15c3527359bb8b29d0230d8b68ce858039891b9e"
 
 RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
 bundled-rust-crate-adler \

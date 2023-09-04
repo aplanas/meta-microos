@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.2.0.0svn54758"
 
-RPM_NAME = "texlive-hepunits-2023.209.2.0.0svn54758-54.1.noarch.rpm"
-RPM_HASH = "6b58e6364e23b3740e695c964f05d4dd5cca6d683b7fa9663326de275c0a71e2b27daaa7ff2526e4e7846672000cc8b8bb35002b84cd10a20f1fa0fc01470c98"
+RPM_NAME = "texlive-hepunits-2023.209.2.0.0svn54758-54.2.noarch.rpm"
+RPM_HASH = "bf6cb7cada1f3104cc8fb662c9db5de86ca855dfe3befb499ec7fcae4d9d724ef78ab52f263833e83662d401736ca8228203e2645a77e94e1381cd5ce4aa0778"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hepunits.sty \

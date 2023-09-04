@@ -4,17 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.0.1"
 
-RPM_NAME = "ghc-alsa-core-devel-0.5.0.1-4.3.aarch64.rpm"
-RPM_HASH = "40061589e56b860858c288310b2cf02c98c8459e9a1d1b67bbf5cf2e0e3059edd89445b6a3201af9400559d17e295a9d4203771ea4e28ede92c65fca01ad17de"
+RPM_NAME = "ghc-alsa-core-devel-0.5.0.1-4.4.aarch64.rpm"
+RPM_HASH = "db71bd4f7f288c690c2fad56f87054467a34e22289adec5691c5d49a1e1caf65d482b41c86a3a91834fe7acb92068afc72a06dbcc11324e2862d33e4ea95680b"
 
 RPROVIDES:${PN} += "ghc-alsa-core-devel \
-ghc-devel-alsa-core-0.5.0.1-JiFJwdvZ0Gx6AeuqXKf7yg"
+ghc-devel-alsa-core-0.5.0.1-5CJfdeELTf160s2ftizQdy"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-alsa-core \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-extensible-exceptions-0.1.1.4-ItoFoaqbPMuGIlsBr6VhGY \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-extensible-exceptions-0.1.1.4-1hcTiYLx0LbAr3mhUvVP0e \
 pkgconfig \
 pkgconfig-alsa"
 

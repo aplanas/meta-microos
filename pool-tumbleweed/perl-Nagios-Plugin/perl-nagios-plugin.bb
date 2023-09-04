@@ -12,8 +12,8 @@ LICENSE = "Artistic-1.0 | GPL-2.0+"
 
 PV = "0.36"
 
-RPM_NAME = "perl-Nagios-Plugin-0.36-10.28.aarch64.rpm"
-RPM_HASH = "476c554823e0df8982b90c680926ffcad715190b37bc215f8b0e1d91d6bc616cbf9672055cc5078c6e44b3e86f949c779018afffe78bf142a84321daa52e2e52"
+RPM_NAME = "perl-Nagios-Plugin-0.36-10.29.aarch64.rpm"
+RPM_HASH = "c348b8077cfc4feed559658e1d5038a6c2299846d62f2dddd3c8bc681e91d9ca0ca6d7c4b28d0c20df7f1a40f97e80b731a975fcbac47e05cefab17310284784"
 
 RPROVIDES:${PN} += "Nagios-Plugin \
 perl-Nagios--Plugin \
@@ -26,7 +26,7 @@ perl-Nagios--Plugin--Range \
 perl-Nagios--Plugin--Threshold \
 perl-Nagios-Plugin"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Class--Accessor \
 perl-Config--Tiny \
 perl-Math--Calc--Units \

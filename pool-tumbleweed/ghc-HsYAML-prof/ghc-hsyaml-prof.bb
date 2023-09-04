@@ -4,15 +4,15 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.1.1"
 
-RPM_NAME = "ghc-HsYAML-prof-0.2.1.1-4.1.aarch64.rpm"
-RPM_HASH = "e018b67b4d904c6fe584db6ed1ae474b15f295ac4cb250fa56aa6cfbce9c0cda9b74f564ca43d736205db1305750f8c9ca7004b5521b40ae23cf6c51f941c869"
+RPM_NAME = "ghc-HsYAML-prof-0.2.1.1-5.3.aarch64.rpm"
+RPM_HASH = "58aa772473db0edc26b5793126463902f473f6729fdf5f177fd0840138661f379031497b852ee8cc198df7bdba48983af9e2218f63b41272078935bab1f8300e"
 
 RPROVIDES:${PN} += "ghc-HsYAML-prof \
-ghc-prof-HsYAML-0.2.1.1-KzoQvRN4UKW2jR1yND83sf"
+ghc-prof-HsYAML-0.2.1.1-LCJxHEstqYgA5FP8nPmMDQ"
 
 RDEPENDS:${PN} += "ghc-HsYAML-devel \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-bytestring-0.11.4.0 \
+ghc-prof-base-4.17.2.0 \
+ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-containers-0.6.7 \
 ghc-prof-deepseq-1.4.8.0 \
 ghc-prof-mtl-2.2.2 \

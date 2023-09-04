@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.0.1"
 
-RPM_NAME = "ghc-unicode-data-doc-0.4.0.1-3.6.noarch.rpm"
-RPM_HASH = "8fb09091accf31d2af5f672560824ec0217abaf504ea3aa8c11a7f76feeba572a432ffc05e363dfa44e511f97e6b6351b1afafc401a87d5b383b0934f6e43488"
+RPM_NAME = "ghc-unicode-data-doc-0.4.0.1-3.8.noarch.rpm"
+RPM_HASH = "203c6d7f79998061811a4b24464467d8d69da2abdc52e31eea786df551f2e1c6b62f8bc8d8733bf384eb18eab4bbde4c00b352c1bb29e1fb6c21e47504021aaf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-unicode-data-doc"

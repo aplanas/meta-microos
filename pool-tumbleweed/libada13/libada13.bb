@@ -7,10 +7,10 @@ implementation of Distributed Systems Programming (GLADE) and the Posix \
 1003.5 Binding (Florist)."
 LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
-PV = "13.1.1+git7597"
+PV = "13.2.1+git7683"
 
-RPM_NAME = "libada13-13.1.1+git7597-1.1.aarch64.rpm"
-RPM_HASH = "aa0040d5726d1f752c6a38e4fd19865c5c8b6f7ab71bba73666e7a735bcffbc25cd478db1946e0149932c5e24f3363a2ec4ed1a5a0839b4ff8010110ef459ccc"
+RPM_NAME = "libada13-13.2.1+git7683-1.1.aarch64.rpm"
+RPM_HASH = "6c1d82380cfc807332606c6f3d00304ef8334c6faf1238152c4f45f40a4d9ff16b89860a7e6c04f8eec53b3116f7c3b25aa0f46d0c447efc96d668ddf43ec80b"
 
 RPROVIDES:${PN} += "libada13 \
 libgnarl-13 \

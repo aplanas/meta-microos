@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn59638"
 
-RPM_NAME = "texlive-esieecv-doc-2023.209.svn59638-54.1.noarch.rpm"
-RPM_HASH = "82ab19360ab84d9abaffdeec1523e45f1844910d892da464715fc0309e8bb627afbac7ea4e156ec47f7f3f011244c0aca5cccac1982aa43bc70e2b8e09093aab"
+RPM_NAME = "texlive-esieecv-doc-2023.209.svn59638-54.2.noarch.rpm"
+RPM_HASH = "20d211efb616183a9c58c39c0f7af2dc6521da468384e79b057568d8e11644bee711053b9f3e3b7e8ea9abfde6c64751c347acf6a114514f4873449a37079212"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-esieecv-doc"

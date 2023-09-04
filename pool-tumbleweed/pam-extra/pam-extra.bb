@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later | BSD-3-Clause"
 
 PV = "1.5.3"
 
-RPM_NAME = "pam-extra-1.5.3-1.2.aarch64.rpm"
-RPM_HASH = "d9e94cb5c7677d7881efe0141d9e661fd53cd53b0d4cd04cb7e4d639a7c56fa5db57c60518851efbbead8b4a504877d0ceed677dffe3ccac5352ddcce2e28f91"
+RPM_NAME = "pam-extra-1.5.3-2.1.aarch64.rpm"
+RPM_HASH = "6714f2a026016138b8f9d86a184274fb25f43baf8511241e579ce81d70e52e84d838c3897b459c067ec0ca4232f4d97efdd6d29ae7f4abf619f11e0a496a4447"
 
 RPROVIDES:${PN} += "pam-/usr/sbin/pam-timestamp-check \
 pam-extra"

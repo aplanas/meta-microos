@@ -2,10 +2,10 @@ SUMMARY = "Ruby Scripting Support for weechat"
 DESCRIPTION = "Support for weechat scripts written in the Ruby language."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.8"
+PV = "4.0.2"
 
-RPM_NAME = "weechat-ruby-3.8-1.3.aarch64.rpm"
-RPM_HASH = "4a4d107ca7798ab4beb7b0397e1b81904ec654a765ea7168fb72f22a71d31e8d8963865ed00345ffc40c6cdd12f749615b8cc968100597761cd3a881928c31c5"
+RPM_NAME = "weechat-ruby-4.0.2-1.1.aarch64.rpm"
+RPM_HASH = "879cb3952c6e81e464522e5c8b86a1b4aa55229a8f540cd159dab678f76268464704528e5fb3194816b211e0c4a8febd3da33cd9daf5530979530807aeb7f4e5"
 
 RPROVIDES:${PN} += "weechat-ruby"
 

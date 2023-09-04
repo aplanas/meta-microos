@@ -4,16 +4,16 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.85"
 
-RPM_NAME = "ghc-IfElse-devel-0.85-4.2.aarch64.rpm"
-RPM_HASH = "4f0de4773223acac754b9994d7314af157000dfe51e6e94bd5c7430dc8b43fb64695f46b3e805056d22852f334ecfb45407c658efb9144f130debed172ffd3c2"
+RPM_NAME = "ghc-IfElse-devel-0.85-4.3.aarch64.rpm"
+RPM_HASH = "159af0cd8f6d5634157b36b59d6b4b3bb1085a11403643f860ed212aadd1df187fd647fd8e064e4afe898a6b818be86863f917d523182a6620e1d5d717bddb9a"
 
 RPROVIDES:${PN} += "ghc-IfElse-devel \
-ghc-devel-IfElse-0.85-7KBtFS87aFz8e1Xg4MUrMX"
+ghc-devel-IfElse-0.85-2pDYDhNcKvHGxAsencQysh"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-IfElse \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-mtl-2.2.2"
 
 inherit rpm

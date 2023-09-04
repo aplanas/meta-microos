@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.11.0"
 
-RPM_NAME = "ghc-haddock-library-doc-1.11.0-2.6.noarch.rpm"
-RPM_HASH = "8596ea1ccfa2d200a0182783dd54e0754e95f29b479fa0f94fb372f63139b73cde2022cc0fef5b1df36db131ebc25ed5979d4ff44f32144cf073899a66146fec"
+RPM_NAME = "ghc-haddock-library-doc-1.11.0-2.8.noarch.rpm"
+RPM_HASH = "fc719ef1c36ba286a9a25d0b6ada364f2d356e00ccb7d3e985bfdb1e61e94a275f31e294e7a51fa605f9c221c37252a5987a773944121288ddd07eda338a8ab1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-haddock-library-doc"

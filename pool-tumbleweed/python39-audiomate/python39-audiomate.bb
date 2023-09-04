@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "6.0.0"
 
-RPM_NAME = "python39-audiomate-6.0.0-4.2.noarch.rpm"
-RPM_HASH = "6d4116b1321942b896af34b3aa089ef932e081925f989907985b5f62b43ae677241717ed3daef268609089f7562768c499c1eb2d328c886de830c6179bae7603"
+RPM_NAME = "python39-audiomate-6.0.0-4.3.noarch.rpm"
+RPM_HASH = "f740a8f9af9a1524b7f8bb6c5404ba9a9205f545dea14f7d34361b25c45fa5189a712382c6e5128f548cb7d51ee494cada0daec636ab6582f9203187a99bd466"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-audiomate \

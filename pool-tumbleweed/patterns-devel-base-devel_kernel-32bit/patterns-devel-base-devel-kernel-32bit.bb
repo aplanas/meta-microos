@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20170319"
 
-RPM_NAME = "patterns-devel-base-devel_kernel-32bit-20170319-11.2.aarch64.rpm"
-RPM_HASH = "204cb97e71c101edb365c2a3ec7506a5c027f4e0b02265118fe36d01ee03d3082602d0007e00afad491ae08d6cd3e2bebb260c526525b5497535f96ce12f21e5"
+RPM_NAME = "patterns-devel-base-devel_kernel-32bit-20170319-12.1.aarch64.rpm"
+RPM_HASH = "16a9053f31a2fd1468506ab7f51809b7c09479b12fb124ed656e55f05852d21190959dcb51f9496642c9b164b7372ddc73ea7da801b92bab8f7a6a6e9f2bf3d6"
 
 RPROVIDES:${PN} += "pattern- \
 patterns-devel-base-devel-kernel-32bit"

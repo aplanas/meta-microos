@@ -16,14 +16,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.302"
 
-RPM_NAME = "perl-Hash-Merge-0.302-1.14.noarch.rpm"
-RPM_HASH = "d63429ec91a11b7e7f7f1a10358798a4c90c9d31d6bb8e3d5141b14a867f92eddc98ee538afcb9e70e1a5f99d61658b9a77a410955f26953fff3e2604be9c7da"
+RPM_NAME = "perl-Hash-Merge-0.302-1.15.noarch.rpm"
+RPM_HASH = "673d33a9c72788da5e6e7d8b7db0d4edaf85890cddc6cf74253aaa1a304324c12de124894b4e60a9199ecea175b70f011363c722bc2b7d2bcd48d58751e87ef8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Hash--Merge \
 perl-Hash-Merge"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Clone--Choose"
 
 inherit rpm

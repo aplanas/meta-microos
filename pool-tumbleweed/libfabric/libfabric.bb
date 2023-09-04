@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "1.18.1"
 
-RPM_NAME = "libfabric-1.18.1-1.1.aarch64.rpm"
-RPM_HASH = "748d52b59d05b8bc8177e00a54417d56a8f19c4d14b92f9a7b4f81269a1c495b23ee5f36bef9b94a4b6d6ebebd8e90e31278ffb6cebc03f80413d29959381959"
+RPM_NAME = "libfabric-1.18.1-2.1.aarch64.rpm"
+RPM_HASH = "e6ff194ceed5bf1d4bcb6c533562d426ef5f2e8c8486ef13d773a12191044a19b7745fd32d5f8039853e35674d2cd5c7b421190edb6da041c7ba3ea6cda7ac68"
 
 RPROVIDES:${PN} += "libfabric"
 

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
 PV = "2.0.21"
 
-RPM_NAME = "uwsgi-ldap-2.0.21-3.1.aarch64.rpm"
-RPM_HASH = "cbc0d0a199399562408525a11b9cda1bbc8779730cd1631324e9610cbd0e5d00315c97f883f20b293e10ab9fa7bd93c7b8875f6f74898afa40f9ae008633b2a4"
+RPM_NAME = "uwsgi-ldap-2.0.21-3.2.aarch64.rpm"
+RPM_HASH = "08e8687d16bd4a1804bb07254b331b3c567f24265f4aa4dcb555efa0ace66ebe9609f4541fa106d6b8f7e51186b722af2d0a2c27534303c69d0fd50d4fc98f58"
 
 RPROVIDES:${PN} += "uwsgi-ldap"
 

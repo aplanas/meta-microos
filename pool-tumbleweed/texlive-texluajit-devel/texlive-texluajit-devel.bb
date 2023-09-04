@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.1.0beta3"
 
-RPM_NAME = "texlive-texluajit-devel-2.1.0beta3-93.1.aarch64.rpm"
-RPM_HASH = "c866ee8709c75803f02c27fa32f89a510d39926d904d04e8c18fbc01be10ed71d74fecc2ac88115ee16517db885aa81d64eda985ef532d5f13b7ae6de696cd4a"
+RPM_NAME = "texlive-texluajit-devel-2.1.0beta3-93.2.aarch64.rpm"
+RPM_HASH = "b2b321b6b84b675fb0df79caa8b52871119fb36a0b9698919228ad87eb14c60cb2ee8ab387f04d26b034171dce4c121bf3d84164a46143cbbb7559e726a54bff"
 
 RPROVIDES:${PN} += "pkgconfig-texluajit \
 texlive-texluajit-devel"

@@ -16,8 +16,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2023.209.svn39419"
 
-RPM_NAME = "texlive-greektonoi-2023.209.svn39419-54.1.noarch.rpm"
-RPM_HASH = "c7699a2cd15a612248fc196e802a79bc4d4c18ca78d57c4e156a8dae3619eea1809d3093be1e86b1b83417a9901056bb9bb88a47a9c9f6ea1199b0f92cc6b8aa"
+RPM_NAME = "texlive-greektonoi-2023.209.svn39419-54.2.noarch.rpm"
+RPM_HASH = "bc66c8b316eb6c339649bac705ef557397f1713f769c12cd4e5b68f9d476b4b12b349a36e3fb9bcbfa714b002430d93987e78902c2dd9c9bc432beb8b130410c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-greektonoi.map \

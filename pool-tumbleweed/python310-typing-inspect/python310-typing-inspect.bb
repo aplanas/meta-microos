@@ -2,10 +2,10 @@ SUMMARY = "Python runtime inspection utilities for typing"
 DESCRIPTION = "Python runtime inspection utilities for typing module."
 LICENSE = "MIT"
 
-PV = "0.8.0"
+PV = "0.9.0"
 
-RPM_NAME = "python310-typing-inspect-0.8.0-2.3.noarch.rpm"
-RPM_HASH = "181975f7a89958691acae0aaf19c68277a526c37bd24879a4b8f83a3b4917169dee690388d54dfd8b1dc394c108fe46a4ba96e5ff18b59e73fcafe46f56f2fab"
+RPM_NAME = "python310-typing-inspect-0.9.0-1.1.noarch.rpm"
+RPM_HASH = "3f2730f081bc83c232765f4a7786ff44f845495754a2b6a19c46c0fc65757b1971d64827adb875346cf500e658b5d21531a84db0d3705703a9732d4040db537d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-typing-inspect \

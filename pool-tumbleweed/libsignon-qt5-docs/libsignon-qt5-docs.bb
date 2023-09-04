@@ -2,10 +2,10 @@ SUMMARY = "Documentation for libsignon-qt1"
 DESCRIPTION = "This package contains the documentation for the signon-qt library."
 LICENSE = "LGPL-2.0-only"
 
-PV = "8.60"
+PV = "8.61"
 
-RPM_NAME = "libsignon-qt5-docs-8.60-2.19.noarch.rpm"
-RPM_HASH = "47064fb66a9a18519bb523083d76ef7196b63dc04a5029c73e520ebc3bba0d6a31b64439e354d425bce38860c4fa2c09eb3374d1f37576b08422ebadb340d5a6"
+RPM_NAME = "libsignon-qt5-docs-8.61-1.1.noarch.rpm"
+RPM_HASH = "c927d468efc9b117954b68d4eae47d0333343ce4657e47f8955748b35e535dea1a53478adb4c5b258a3b075f4fcfe189f0e721b3f0fa7c40df69e95ee7d64c15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libsignon-qt5-docs"

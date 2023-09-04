@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.17.3"
 
-RPM_NAME = "python39-ipyleaflet-0.17.3-1.2.noarch.rpm"
-RPM_HASH = "727e2cf46d3fcfcb542cb0abdce9b3fe6222c1e3a6359c96c622cc4c5448ff1be6522a2542d5c0f21c664cea142e666af8e26cadf481cc8b6a33ab3814801eb7"
+RPM_NAME = "python39-ipyleaflet-0.17.3-3.1.noarch.rpm"
+RPM_HASH = "1aeed45dd956d93ead809bbd254900ba6ee817d44454e1a381d038516495883d81ee94cf2d04de25cd83075d7dfe8e640a4babcbfdc19279308a89b34fa35070"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ipyleaflet \

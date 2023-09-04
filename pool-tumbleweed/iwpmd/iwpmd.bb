@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "47.0"
 
-RPM_NAME = "iwpmd-47.0-1.1.aarch64.rpm"
-RPM_HASH = "4bbc4c22767304ebafc94b37a3c321eb2057b0364eaaae65b304f080ead78791b223f72c181878ed387ac04bc5be6ec7e7b36e23b0ca2c94635bf9d38493b0c3"
+RPM_NAME = "iwpmd-47.0-2.2.aarch64.rpm"
+RPM_HASH = "11ef23e4cd93597f5d9dae749a535dd5e4f99a7577096c73b758dbe98f8ca4b5f834c9db7f790112c5a49ceb3ae123619456b271c97b7175f56651d07b4cb42f"
 
 RPROVIDES:${PN} += "config-iwpmd \
 iwpmd"

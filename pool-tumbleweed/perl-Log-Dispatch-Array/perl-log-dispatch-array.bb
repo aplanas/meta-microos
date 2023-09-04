@@ -6,14 +6,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.005"
 
-RPM_NAME = "perl-Log-Dispatch-Array-1.005-1.3.noarch.rpm"
-RPM_HASH = "8c07b2aa6ac7cee26dfbc0849fb0bb15d864925425d39c3456b45bc1df2fc55f2b802bd51ffd31279be91b70ab965e78b3421852ea8a36e8d0cc745aa665483f"
+RPM_NAME = "perl-Log-Dispatch-Array-1.005-1.4.noarch.rpm"
+RPM_HASH = "f6e6af378b30923d33e44ec1b85ce6105e198f95fba41700b1c49b066a4d8d62f0a6299f32075a0e5e8b4c9eab9212b9c38844ae8a6d656f2da8a230c5e141b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Log--Dispatch--Array \
 perl-Log-Dispatch-Array"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Log--Dispatch--Output \
 perl-parent"
 

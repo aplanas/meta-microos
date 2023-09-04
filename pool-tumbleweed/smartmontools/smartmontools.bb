@@ -12,10 +12,10 @@ specific' and 'reserved' information as possible about disk drives. The \
 commands man smartctl and man smartd will provide more information."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "7.3"
+PV = "7.4"
 
-RPM_NAME = "smartmontools-7.3-4.1.aarch64.rpm"
-RPM_HASH = "15f940248a464068feac9ce74fa0954eb6eabe280e3756124fa25eca43fe0cb47609aa228a8034a5cd5594308a59c7dad6203040a755596ec419d6de31c35788"
+RPM_NAME = "smartmontools-7.4-1.1.aarch64.rpm"
+RPM_HASH = "e81bce601e601073b3e2b32a9a0697514db786cf9cf2cc97aa8cfa1b8f809f0fe0e12ffeb98725b27f55452efd6df603aba76edc6de3eb5b777716c248cc2b91"
 
 RPROVIDES:${PN} += "config-smartmontools \
 smartmontools"

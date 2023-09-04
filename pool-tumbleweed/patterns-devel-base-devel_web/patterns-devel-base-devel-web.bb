@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20170319"
 
-RPM_NAME = "patterns-devel-base-devel_web-20170319-11.2.aarch64.rpm"
-RPM_HASH = "5e5567d4a9a4ee97fb70d230e387efbb4c5daeee56e7de38dbbabf1545ada70464718e234f112f1d5f41c4759bd8ad9a3fabb8e579e9fa9e6c8e394402be63fd"
+RPM_NAME = "patterns-devel-base-devel_web-20170319-12.1.aarch64.rpm"
+RPM_HASH = "4b3f3728a59b5c2a2eeba986592ac871901f5d828ce39c93b980592a52d1e31091ce8a7c17a36ae3bd824ee805c20537b462326ecb1c20fdb763f3afa44c36fc"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

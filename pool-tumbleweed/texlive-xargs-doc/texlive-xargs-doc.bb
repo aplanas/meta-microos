@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.1svn15878"
 
-RPM_NAME = "texlive-xargs-doc-2023.209.1.1svn15878-53.1.noarch.rpm"
-RPM_HASH = "17cbc2909cf4e4a4065aa21db6e1c11b2324bd4b6ec7d030acaece8326d7739f28be7e752abcdb2991ec773d9d2d0fd3a1e2fc45641e450520f51993df20db88"
+RPM_NAME = "texlive-xargs-doc-2023.209.1.1svn15878-53.2.noarch.rpm"
+RPM_HASH = "244d7b03351be607796a4ca300152c8d8976beb67e44e11c333c46f6d06910da17fd6a08c3324759b5a87b8f438a24414e8af4c98b412384e97444fc88fc986d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-xargs-doc-fr;en \

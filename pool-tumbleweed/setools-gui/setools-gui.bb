@@ -7,10 +7,10 @@ This package includes the following graphical tools: \
   apol          policy analysis tool"
 LICENSE = "GPL-2.0-only"
 
-PV = "4.4.2"
+PV = "4.4.3"
 
-RPM_NAME = "setools-gui-4.4.2-2.1.aarch64.rpm"
-RPM_HASH = "994bfa5fe1049f7f586c88fa700057691cf1209b0f199fb83878a29ad44fc281f3b3e7d865344612d66df002d4061206917edcb06976f4f5c845f48435f40c43"
+RPM_NAME = "setools-gui-4.4.3-1.1.aarch64.rpm"
+RPM_HASH = "0e867828840e77ddac0fd024b6dec25d2c0fa1c4ca2f6c9ec0ac4727e99390e0f176a9713dd4ce616b8b11088fc255e6fd591d6957e89b348780c90ff13036be"
 
 RPROVIDES:${PN} += "setools-gui"
 

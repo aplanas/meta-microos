@@ -3,10 +3,10 @@ DESCRIPTION = "Provides OPAL (OpenPower Abstraction Layer) firmware, aka skiboot
 traditionally packaged with QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.3"
+PV = "8.0.4"
 
-RPM_NAME = "qemu-skiboot-8.0.3-2.1.noarch.rpm"
-RPM_HASH = "10226753da3b20e5cbeb937d8af5834198cb316c61dea9c1814b0d9f94aeb64e4dee243800dc2108c927af855e7fbf434183278c958c5c63c848df01b1d80f00"
+RPM_NAME = "qemu-skiboot-8.0.4-1.1.noarch.rpm"
+RPM_HASH = "aa0dd87fd6b3e8b0c2199401e2f76b2c5e3ec42eca17e0059c4ac1f926b4439ea341e066662e62e44b7a94727c192c751b326141298987b667508903118d5fad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qemu-skiboot"

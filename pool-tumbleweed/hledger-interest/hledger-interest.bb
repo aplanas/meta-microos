@@ -55,8 +55,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.5"
 
-RPM_NAME = "hledger-interest-1.6.5-3.2.aarch64.rpm"
-RPM_HASH = "993fbf2b4ad366c003c5acf824d4f9f7418cadf86db4f76a199960b65d53b19fd675c034cdccbbe6d8a2c19581803393202e3c6fbc074ccacabed12aaeb9c9ee"
+RPM_NAME = "hledger-interest-1.6.5-3.4.aarch64.rpm"
+RPM_HASH = "140f4010ae63cf4d704edfe2dbfd72712e6065c14c87fe22314da4664d3ae71b142169cedb478e5f89ca7e9179292cfee8d11077420228036d83735e71937045"
 
 RPROVIDES:${PN} += "hledger-interest"
 

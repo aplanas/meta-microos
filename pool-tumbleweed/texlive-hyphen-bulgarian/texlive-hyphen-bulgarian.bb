@@ -2,10 +2,10 @@ SUMMARY = "Bulgarian hyphenation patterns"
 DESCRIPTION = "Hyphenation patterns for Bulgarian in T2A and UTF-8 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn58685"
+PV = "2023.209.svn58685"
 
-RPM_NAME = "texlive-hyphen-bulgarian-2023.208.svn58685-53.1.noarch.rpm"
-RPM_HASH = "537c3ae8513600afc991bf9a16cfb7f5b576f4ca5db3fc968b2de2c7bb5528ac46e8b95ebc1f19f1d77a1fb6b1ec1cf522822c5dee7619f4ff289ee0c6eb0efe"
+RPM_NAME = "texlive-hyphen-bulgarian-2023.209.svn58685-54.1.noarch.rpm"
+RPM_HASH = "ad924b90fc7a9abeb723ab26b6b959a5d044edd45ab1344c45fdb549c443ee50212e7e5bd2eec60f30138367d3e67f77e15d573dac9c56c822b155dbe102bb25"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-bg.t2a.tex \

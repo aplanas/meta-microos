@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.18.0"
 
-RPM_NAME = "rpm-devel-4.18.0-5.3.aarch64.rpm"
-RPM_HASH = "16c378db4dcd5034c9045aad7f9763ad9147b05fd76143aa87654fb3a927f8d12ef217942a45a711d9be0e0a7e7047050ebc473f65e7ffa5c3c8e472dcd70f22"
+RPM_NAME = "rpm-devel-4.18.0-6.1.aarch64.rpm"
+RPM_HASH = "fc4091e59a6e59b3aa7a4903daddeb1fa98c0a266f3cd1ff36a0cf2ba5985fe4e9ff0ddf2020c6c0056e64bb2a654a9eab75693cd94dae595daecce524980b62"
 
 RPROVIDES:${PN} += "pkgconfig-rpm \
 rpm-devel"

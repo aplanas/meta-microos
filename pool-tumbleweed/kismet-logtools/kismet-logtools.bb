@@ -10,10 +10,10 @@ This subpackage contains several kismetdb log tools \
  - kismetdb_to_wiglecsv"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2022_08_R1"
+PV = "2023_07_R1"
 
-RPM_NAME = "kismet-logtools-2022_08_R1-2.5.aarch64.rpm"
-RPM_HASH = "f1a903614a67c4002858b33ccad021b8072d6d4bb1dd9e06365b1291323b057d13159e63f69f1c220bdc56e1b585e6ce5297da80c84464655e87ebb13325f625"
+RPM_NAME = "kismet-logtools-2023_07_R1-1.1.aarch64.rpm"
+RPM_HASH = "12a27aa31cd65e270f65f077ea9d1c6ad7d90e6d0d872342dcd20e953e44b3f8a871010a6c1b78a849fe411d9d0acb401474bcd223e055552e0f6576118d9920"
 
 RPROVIDES:${PN} += "kismet-logtools"
 
@@ -23,7 +23,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libpcap.so.1 \
-libpcre.so.1 \
+libpcre2-8.so.0 \
 libsqlite3.so.0 \
 libstdc++.so.6"
 

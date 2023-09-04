@@ -3,10 +3,10 @@ DESCRIPTION = "Xaw3d is a general-purpose replacement for the Athena toolkit whi
 adds a 3D appearance and support for XPM images."
 LICENSE = "MIT"
 
-PV = "1.6.4"
+PV = "1.6.5"
 
-RPM_NAME = "libXaw3d6-1.6.4-1.4.aarch64.rpm"
-RPM_HASH = "435ace5825e5b912588868d90f3966210473f0dbf82291de440406ba6f43785241b89623e4fb8249492a1c21f3a0a0e54387119e639a7113ccdfd1372c2a7fe5"
+RPM_NAME = "libXaw3d6-1.6.5-1.1.aarch64.rpm"
+RPM_HASH = "1b4544a6240574595a0bfed723fedbe58df962b63ae49b6093ab176c601f2a72e96d8bb04d83365b987a8554f40f90fbf2df5c27f080d19d7ec64e6f43a04edb"
 
 RPROVIDES:${PN} += "libXaw3d.so.6 \
 libXaw3d6"

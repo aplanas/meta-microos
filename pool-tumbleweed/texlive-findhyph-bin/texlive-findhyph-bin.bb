@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn14758"
 
-RPM_NAME = "texlive-findhyph-bin-2023.20230311.svn14758-93.1.aarch64.rpm"
-RPM_HASH = "e9faecfc7749b55ab4848b5b507d4c0755f35541377b0a0213b6f627ba83913fed72e23b6ab7089dbf1e988aa39915b54fcce68f6c98ac4c576abeb13b5e24e1"
+RPM_NAME = "texlive-findhyph-bin-2023.20230311.svn14758-93.2.aarch64.rpm"
+RPM_HASH = "e758368864bba35928327b7ca6b489650dd98f3bd9cf29de27927a46cfe7d100519a8dafecb6c6e4be2a40b4171a8a945c4b682beac5bab3a3ecee211d330292"
 
 RPROVIDES:${PN} += "texlive-findhyph-bin"
 

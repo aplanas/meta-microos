@@ -23,14 +23,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.006"
 
-RPM_NAME = "perl-IO-Pipely-0.006-1.8.noarch.rpm"
-RPM_HASH = "88b48dc2f8bf409450c6c193ca3d0e05ee34b0c6007f4a39a251a0366edcdb7939f60df50eb88238610d0f80ce8736cee1b924cbc4a09687379c5749e6f18445"
+RPM_NAME = "perl-IO-Pipely-0.006-1.9.noarch.rpm"
+RPM_HASH = "8e1f108f110f4257eca9bcb4d5b3d778c4010cddf65ddcc21d1cfb1c28e6ff6a20984aee7c106b17dc4fc7f8c6bcad66a29adc534c870702ef312ab168214f64"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--Pipely \
 perl-IO-Pipely"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Exporter \
 perl-Fcntl \
 perl-IO--Socket \

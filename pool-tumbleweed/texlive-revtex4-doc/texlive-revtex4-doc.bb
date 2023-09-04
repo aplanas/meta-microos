@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.4.0asvn56589"
 
-RPM_NAME = "texlive-revtex4-doc-2023.209.4.0asvn56589-54.1.noarch.rpm"
-RPM_HASH = "f7302455b0fbd1c5922a5fe2e0bfad8096e752c7c0d2241bed584cafc1ff8884a7f7f8d4119b7091c87a2e366e5992aa97dcd23f8172fcb34888639e543a34b6"
+RPM_NAME = "texlive-revtex4-doc-2023.209.4.0asvn56589-54.2.noarch.rpm"
+RPM_HASH = "1b04c9e98e375b6d5af9211098aa778f7a9245ebb6929ee9ded921a5017bce1a9b360089a3861121e320fab2873933198c9ebcb9fcf0781fb21d6093610676f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-revtex4-doc"

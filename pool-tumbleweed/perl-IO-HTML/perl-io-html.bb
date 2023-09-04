@@ -42,13 +42,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.004"
 
-RPM_NAME = "perl-IO-HTML-1.004-1.13.noarch.rpm"
-RPM_HASH = "b0f02a2dbd7c36d1ca17a71d8bce7c5ab00caaf7dc827d1ef52c2b4f0a9751ea409e82eb46165f2ba2b10e7b80b973d2689b1428205a34cacd99c5cd555a3ce5"
+RPM_NAME = "perl-IO-HTML-1.004-1.14.noarch.rpm"
+RPM_HASH = "23851a57d64bfd72b2a2bbc03361046d4d30aefbb8d13407d6f121ed6eb54c575873fdfb7d071f6a32bbbf0e5d9df1e2c43cbdbb08aa0513a4e12f9263fb4ae9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--HTML \
 perl-IO-HTML"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

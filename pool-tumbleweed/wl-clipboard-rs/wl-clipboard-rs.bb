@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "wl-clipboard-rs-0.7.0-3.1.aarch64.rpm"
-RPM_HASH = "aa263dcfc1213489489668198d5e3b4adfb867a9296cfadaf68d135a5ae025cb3bda8955a3ddd5e637a7fb62f2b5648a7ab0ab619268f892705c6d085e876d62"
+RPM_NAME = "wl-clipboard-rs-0.7.0-4.1.aarch64.rpm"
+RPM_HASH = "df3d26523dd2f65c467ebc8206e21cf05274e0ee149f058a9449a445ed3eead220e89033493044324381fbb47cb16d0bbdad828033a38432c5a782bd0b6d26b5"
 
 RPROVIDES:${PN} += "bundled-rust-crate-ansi-term \
 bundled-rust-crate-anyhow \

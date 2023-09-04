@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1"
 
-RPM_NAME = "libreoffice-share-linker-1-6.1.noarch.rpm"
-RPM_HASH = "c94e7ad556fa86be35415626a321011312fa1603b0b6f11410e6e005cd784a0ddb545786a512747f36deaca69dc3cee5253372a51bc5e9e57a908dc2da39e8a8"
+RPM_NAME = "libreoffice-share-linker-1-7.1.noarch.rpm"
+RPM_HASH = "c32fd990d3db4360718cbbd833aebb9a52d852441cb4450f2d2e99e7e4d82b448faacb60ef4d753a2b81d37baaf5c0638d029c7a141943b159c7e9b0d300fb67"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-share-linker"

@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230318"
 
-RPM_NAME = "libwrc-devel-20230318-1.5.aarch64.rpm"
-RPM_HASH = "89f56ebb84cb53b405f5a14ead715ad919c345149e1c25b25e21b7d5538bf1fc2abe0a5a214b9f39e252c3c47db157028dc7bb2f4930b5a7e93377494eb088bd"
+RPM_NAME = "libwrc-devel-20230318-2.1.aarch64.rpm"
+RPM_HASH = "28ee368492d0cb0fa8b7e9c635f7349f9ea7aa827f3ef5e8519534925835db9ba6e4af2e445666b4ce8412a6d3d989767e1ebed2d70bc8c4c202c34fbcceb76c"
 
 RPROVIDES:${PN} += "libwrc-devel \
 pkgconfig-libwrc"

@@ -13,8 +13,8 @@ LICENSE = "PostgreSQL"
 
 PV = "15"
 
-RPM_NAME = "postgresql-devel-15-2.10.noarch.rpm"
-RPM_HASH = "fba9f4167ef6113b28e9f3121fa450a7800152d05c41f90082440e7b7254ea381ace0c8ea2e37ceff301e2f59ca9add4ded3b348ee1328ef2e32d765ef0f4715"
+RPM_NAME = "postgresql-devel-15-2.12.noarch.rpm"
+RPM_HASH = "7903e53617eb4396715718391efc5457d8feff89e45843a9bcba6c2a9f3d2c79e4f91b22c837877736389005ad5e5da1412a5f16c2fb022db887131c38b797e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig-libecpg \

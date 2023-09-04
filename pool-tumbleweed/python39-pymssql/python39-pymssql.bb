@@ -4,10 +4,10 @@ Microsoft SQL Servers from Python scripts. It is compliant with Python \
 DB-API 2.0 Specification and works on most popular operating systems."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.1.5"
+PV = "2.2.8"
 
-RPM_NAME = "python39-pymssql-2.1.5-1.17.aarch64.rpm"
-RPM_HASH = "39df4681edd5e6f13921b86088d30ded6bc05a84ecf1db328d8b99d3c408cdcd17d60a6dd67742988e4600761662675810146c6df4798db20eff1eeaa9c7307d"
+RPM_NAME = "python39-pymssql-2.2.8-1.1.aarch64.rpm"
+RPM_HASH = "03ae3834351db86a7aa4604c770cc7fd71e8b8f4c8707277a55bde926f16b406c997ad5bc669ba1d22ef5d64c8addd2320bdff08ebdb75d52eae816e7166eb17"
 
 RPROVIDES:${PN} += "python3.9dist-pymssql \
 python39-pymssql \

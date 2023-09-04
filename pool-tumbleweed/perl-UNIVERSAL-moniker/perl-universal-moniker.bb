@@ -11,14 +11,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.08"
 
-RPM_NAME = "perl-UNIVERSAL-moniker-0.08-13.27.noarch.rpm"
-RPM_HASH = "cd93b181c813703d6242f96f76d9caf7b2740913c65133b2b3dd98f69de2d5ffb60063d71548d30d292cea3ef8556ea936de5cd0be4a51f75806adc4c08f78ad"
+RPM_NAME = "perl-UNIVERSAL-moniker-0.08-13.28.noarch.rpm"
+RPM_HASH = "dacaf92ee7712b92b015403286d10ab730f370885ebe0a296fda44c6b7cf5c5e9e9191238e1ce21822052ca5450c1e7124aa53051df2d41972550f8ca292c268"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-UNIVERSAL \
 perl-UNIVERSAL--moniker \
 perl-UNIVERSAL-moniker"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Development package for GnuTLS DANE component"
 DESCRIPTION = "Files needed for software development using gnutls."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.8.0"
+PV = "3.8.1"
 
-RPM_NAME = "libgnutls-dane-devel-3.8.0-4.2.aarch64.rpm"
-RPM_HASH = "bae948120f60ad6eca15fe79bfbaab05e3886ed73b4ad9fc4a10674048d1337d1573dd0d4ee84bdd184db0f4e7d8c1685d9215e3979c5ea958a078974074e5c4"
+RPM_NAME = "libgnutls-dane-devel-3.8.1-1.1.aarch64.rpm"
+RPM_HASH = "7da5f6554630701aad4b856d290b07e59d4b77e77d7a98eb6635356886bff4676efe448cca29e28628da0493745de164bbda39d7a0db877b15a68de6d2136bd9"
 
 RPROVIDES:${PN} += "libgnutls-dane-devel \
 pkgconfig-gnutls-dane"

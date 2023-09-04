@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.0"
 
-RPM_NAME = "python39-nbsmoke-0.6.0-3.5.noarch.rpm"
-RPM_HASH = "8be37a442ec35ae0e7a92b13594cb675642689fe2eab6e679ae6f21379f51fc83db97af724cff4a6ea2bf04423f56e135cbebadacc8f6391788509c6cfb566e7"
+RPM_NAME = "python39-nbsmoke-0.6.0-4.1.noarch.rpm"
+RPM_HASH = "53231d7344718f2a07158bbd76e164c05cdcd2ff37611b2ac2b92f35d818bf51be02b6e29229b89f066e0881aa42fde71cd5a059885da9493f496292f11251d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-nbsmoke \

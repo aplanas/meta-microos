@@ -26,8 +26,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.45"
 
-RPM_NAME = "perl-Text-Diff-1.45-1.22.noarch.rpm"
-RPM_HASH = "918e01c2e4a11b70f64abece65ff3fd4d4d9070be7b9b7637fbbf36c6d37dffe299a5b7c22100691f29ab12b50462a124aa7d80f723c1d15847911731d697561"
+RPM_NAME = "perl-Text-Diff-1.45-1.23.noarch.rpm"
+RPM_HASH = "64c85dd7ff74b3a4cf8a4ce6d1ba5770ccb5dbe50c228d45d6e8f9c299ab0b8b6d6c9d06c2f3005ef9f999ba457b283e1c46b363cfa9099fc260b246f3c1ec0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--Diff \
@@ -36,7 +36,7 @@ perl-Text--Diff--Config \
 perl-Text--Diff--Table \
 perl-Text-Diff"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Algorithm--Diff"
 
 inherit rpm

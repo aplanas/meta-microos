@@ -3,10 +3,10 @@ DESCRIPTION = "The 'JDK' implementation of the 'commons-compiler' API that uses 
 JDK's Java compiler (JAVAC) in 'tools.jar'."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.1.6"
+PV = "3.1.10"
 
-RPM_NAME = "commons-compiler-jdk-3.1.6-1.11.noarch.rpm"
-RPM_HASH = "c66ac4b6eab0d235a9133844e7be9de64dec73e16afeace56e83189f144b47641069d533b36d00d23b7c8fdc2bc43ef4a3231a703f8a7e17d6725c30e29f938a"
+RPM_NAME = "commons-compiler-jdk-3.1.10-1.1.noarch.rpm"
+RPM_HASH = "f1012ab8957e30def079bf77e92cc9356790210d41f4bc1d47dbf5bbc335a716935ee7d36ff21a0380e07f7031ee433e8222a0297d150ea5a81e5456ba444300"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "commons-compiler-jdk \

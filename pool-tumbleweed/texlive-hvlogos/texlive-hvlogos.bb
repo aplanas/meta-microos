@@ -4,10 +4,10 @@ package hologo. It prints TeX-related names as logos. The \
 package requires fetamont, hologo, dantelogo, and xspace."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.09svn63261"
+PV = "2023.209.0.0.09svn63261"
 
-RPM_NAME = "texlive-hvlogos-2023.208.0.0.09svn63261-53.1.noarch.rpm"
-RPM_HASH = "5633963048e1c81737bd3f3df6c23d2134540a367e6e9d3834c251100bff146ff4c3099536378bc2828a828752dc477fe05c6038a9fe4679505e29e0bd118d32"
+RPM_NAME = "texlive-hvlogos-2023.209.0.0.09svn63261-54.1.noarch.rpm"
+RPM_HASH = "2be800492c9099de48d0c9ebbda1bbcda3d220c3cd76de51eb9b2128837472f77847de1c1c2c0dafa65484ea1a8141f53e830155564f80d4b731a211479213ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hvlogos.sty \

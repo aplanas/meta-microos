@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.27.7"
 
-RPM_NAME = "xembedsniproxy-5.27.7-1.1.aarch64.rpm"
-RPM_HASH = "990942f5ba189bf6cc02fcb7a1b1789a16c74d3ec39ca96a4efad8394d0d2fb8df976fec5ad0a1c9c0a2141023a391643958cf046bd3ef8bbce17c9ae864313f"
+RPM_NAME = "xembedsniproxy-5.27.7-3.1.aarch64.rpm"
+RPM_HASH = "eefdbf23228ad88a3f1737f9981fd331ff22929ab1590ebf00d09cfbee24685e2ebee5e6dfab42f31b661e772f056ce4b64a83812a5b53d1ad23dfb4e7285465"
 
 RPROVIDES:${PN} += "xembed-sni-proxy \
 xembedsniproxy"

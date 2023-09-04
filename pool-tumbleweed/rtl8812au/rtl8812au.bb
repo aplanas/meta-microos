@@ -8,10 +8,10 @@ The previous sources were obtained from https://github.com/morrownr/8812au-20210
 https://github.com/maurossi/rtl8812au/ ."
 LICENSE = "GPL-2.0-only"
 
-PV = "5.13.6+git20230511.765d4e4"
+PV = "5.13.6+git20230722.b5f4e6e"
 
-RPM_NAME = "rtl8812au-5.13.6+git20230511.765d4e4-1.9.aarch64.rpm"
-RPM_HASH = "7894c8f1d668479982d0683e1a345ca313a84bb048a80c1964460eaac29c97d0f6d6d9689a723f2076507d6a94837f382e23f3bc8824cc0dede226ae47e25bfc"
+RPM_NAME = "rtl8812au-5.13.6+git20230722.b5f4e6e-1.3.aarch64.rpm"
+RPM_HASH = "fecebdc9ec7f4c4fc95e230be2520c5bcb84ce83cb5bd31b718de59b343347dc7daee6214da62dc6d2543a0a4102801da6bb40279df9184c863516e1eca2efd3"
 
 RPROVIDES:${PN} += "rtl8812au"
 

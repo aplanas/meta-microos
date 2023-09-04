@@ -2,10 +2,10 @@ SUMMARY = "Valencian localization files for LibreOffice"
 DESCRIPTION = "Provides Valencian translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-l10n-ca_valencia-7.5.4.2-1.5.noarch.rpm"
-RPM_HASH = "f37f19c6dfa1986b66766277d3118f6d8b38d7c7ba585d2c201c54df1c972370603bda7ddfce678aeb3ddeae34cf2f377f56fc43e7efccda5e519fa5b69ed328"
+RPM_NAME = "libreoffice-l10n-ca_valencia-7.6.0.3-1.1.noarch.rpm"
+RPM_HASH = "3ba036c98bc8ba373ac19d9315fa11238006690e69c90f1e469bf272df04b2631fe9813d92a4fa6c943bf13b28ff4699da5dc53e031ae145b4a6e39a5e2837be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-ca-valencia \

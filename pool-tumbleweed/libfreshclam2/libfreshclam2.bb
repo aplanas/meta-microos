@@ -3,10 +3,10 @@ DESCRIPTION = "ClamAV is an antivirus engine designed for detecting trojans, \
 viruses, malware and other malicious threats."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.103.8"
+PV = "0.103.9"
 
-RPM_NAME = "libfreshclam2-0.103.8-1.4.aarch64.rpm"
-RPM_HASH = "a84163b35275f2f3aedb7da505e087b3592c43d689a565648b67bf289f3e0543def609e4c54cab6c56d6a03c8fdeaf2df6e77e3e37bd1ca3f84ed72c05637faf"
+RPM_NAME = "libfreshclam2-0.103.9-1.1.aarch64.rpm"
+RPM_HASH = "b65ff95562163d78342faab6173b311681a17d7ee6e2ad855a4ba446d36c6857fdf1e500ad867a3af2b644d721d78afb0fce107020b88e85991878f59db72c33"
 
 RPROVIDES:${PN} += "libfreshclam.so.2 \
 libfreshclam2"

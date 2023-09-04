@@ -18,8 +18,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.5.10"
 
-RPM_NAME = "perl-Mouse-2.5.10-1.18.aarch64.rpm"
-RPM_HASH = "71860b48626d0e6c2c9cba0fab612c440ab2548a736b625b818fdfa5fa5452cf6e7ef2db5c4388e8fe4689c7908915d14bd7a385e2a66eb822487200277b5129"
+RPM_NAME = "perl-Mouse-2.5.10-1.19.aarch64.rpm"
+RPM_HASH = "9003ac9cbb1d721346cf3c21d8b3ec76c8d341208e57781d6c63716f7d54aa5b0e70a6a9b0e9e2a19910fdbadbcfd0b40a93ac69fbd2c589014cdb78edd0fa58"
 
 RPROVIDES:${PN} += "perl-Mouse \
 perl-Mouse--Exporter \
@@ -53,6 +53,6 @@ perl-ouse"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

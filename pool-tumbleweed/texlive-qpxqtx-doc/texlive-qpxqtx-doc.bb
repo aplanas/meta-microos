@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn45797"
 
-RPM_NAME = "texlive-qpxqtx-doc-2023.209.svn45797-54.1.noarch.rpm"
-RPM_HASH = "9e7fb60a68e7e5f7d32700b0b32c2d5b19d62666317cad166a5c82dd528c179ce80ad8c83686a379abefed9b82c062a551460dbc1e574a186fa96d2a922a38ed"
+RPM_NAME = "texlive-qpxqtx-doc-2023.209.svn45797-54.2.noarch.rpm"
+RPM_HASH = "12b1439cd6251fe4369686f262debd6a85fc6e75dbc15802bc77faadf656ab6d32ee546aaf1153a60c4378b8d360398491a788146bed5536bf78079e7a24e62a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-qpxqtx-doc"

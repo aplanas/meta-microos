@@ -6,13 +6,13 @@ comments to images, organise images in catalogs, print images, view \
 slide shows, set your desktop background, and more."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.8.0"
+PV = "3.0.2"
 
-RPM_NAME = "pix-devel-2.8.0-1.12.aarch64.rpm"
-RPM_HASH = "17e5d7a5dea5892b99b3d6e376e8a19bfb2a3acbdbc58439b9a89d3b7ffeb3819b998453cf4c83dfa1b89af8a235f7c7ddfbaf606295843d8f1e2809c9f4ce92"
+RPM_NAME = "pix-devel-3.0.2-1.1.aarch64.rpm"
+RPM_HASH = "392fad4e4e4aaea4956bf99ec8e24ede50680a0344349aa5f884b2e11ed71b9773fb97bad23760c6b8a5f89d28ba69875335307c1dddf246564a19ff86819a32"
 
 RPROVIDES:${PN} += "pix-devel \
-pkgconfig-pix-2.8"
+pkgconfig-pix"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 pix \

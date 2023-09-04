@@ -4,25 +4,25 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.0"
 
-RPM_NAME = "ghc-alsa-mixer-0.3.0-4.2.aarch64.rpm"
-RPM_HASH = "376be0c4f5c64260c7319bda3cb053b8952f7b8b9ce6be62f3730a7b64bbfa0bd939848ce9c99646a25ded36a4c66be87c46b3d71dc6732d5b4cb0938f2b1723"
+RPM_NAME = "ghc-alsa-mixer-0.3.0-4.3.aarch64.rpm"
+RPM_HASH = "86a903ddc834ad8229a5275c0b363b142798ea3611f87fc648a73c385dab01b1088a129289cdce24c128cf5eb71d98a50b65cf12b7877e68c7d67c2795221703"
 
 RPROVIDES:${PN} += "ghc-alsa-mixer \
-libHSalsa-mixer-0.3.0-Ff4FVP5Sg8l3sx20Z8BrVj-ghc9.4.5.so"
+libHSalsa-mixer-0.3.0-7vTOWVmX7tmF7GIGTcxaSH-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSalsa-core-0.5.0.1-JiFJwdvZ0Gx6AeuqXKf7yg-ghc9.4.5.so \
-libHSarray-0.5.4.0-ghc9.4.5.so \
-libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSbytestring-0.11.4.0-ghc9.4.5.so \
-libHSdeepseq-1.4.8.0-ghc9.4.5.so \
-libHSextensible-exceptions-0.1.1.4-ItoFoaqbPMuGIlsBr6VhGY-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-boot-th-9.4.5-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
-libHSpretty-1.1.3.6-ghc9.4.5.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
-libHStime-1.12.2-ghc9.4.5.so \
-libHSunix-2.7.3-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSalsa-core-0.5.0.1-5CJfdeELTf160s2ftizQdy-ghc9.4.6.so \
+libHSarray-0.5.4.0-ghc9.4.6.so \
+libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSbytestring-0.11.5.1-ghc9.4.6.so \
+libHSdeepseq-1.4.8.0-ghc9.4.6.so \
+libHSextensible-exceptions-0.1.1.4-1hcTiYLx0LbAr3mhUvVP0e-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-boot-th-9.4.6-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
+libHSpretty-1.1.3.6-ghc9.4.6.so \
+libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
+libHStime-1.12.2-ghc9.4.6.so \
+libHSunix-2.7.3-ghc9.4.6.so \
 libasound.so.2 \
 libc.so.6 \
 libgmp.so.10 \

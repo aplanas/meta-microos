@@ -2,10 +2,10 @@ SUMMARY = "Translations for package purpose"
 DESCRIPTION = "Provides translations for the 'purpose' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "purpose-lang-5.108.0-1.1.noarch.rpm"
-RPM_HASH = "892b62cbb82e570f395f407165881a49ed9e1c93a437beeeed58144da069e5ceeda9c2257b2d1ad886bae6c8772d5edb9c01b36ee786bc33e0f825c05604a71a"
+RPM_NAME = "purpose-lang-5.109.0-1.1.noarch.rpm"
+RPM_HASH = "08a3530fb7f4b0bc80fec02d56c77a4d5e201ad8cf66462269429ce06c805e716a9eb52ea03454849ed534cd40ff47e51025e8d53676fadf4f26552f1b4a7ec5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-purpose-ar \
@@ -18,6 +18,7 @@ locale-purpose-da \
 locale-purpose-de \
 locale-purpose-el \
 locale-purpose-en-GB \
+locale-purpose-eo \
 locale-purpose-es \
 locale-purpose-et \
 locale-purpose-eu \

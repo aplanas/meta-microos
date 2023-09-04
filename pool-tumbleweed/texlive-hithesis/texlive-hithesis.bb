@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.2.0.11svn64005"
 
-RPM_NAME = "texlive-hithesis-2023.209.2.0.11svn64005-54.1.noarch.rpm"
-RPM_HASH = "c82197a5f18fa715fe5479a3dd5a372905876ff0cbf4f92c599d45e25696bfe2378319c4c1ebefa60211d463b99e92862b4166bb80efb4beb75fb30dcc4e495f"
+RPM_NAME = "texlive-hithesis-2023.209.2.0.11svn64005-54.2.noarch.rpm"
+RPM_HASH = "76d8a93816a68a66cac748d06f5084ca2b96002b8d523914f7bfc0536110ae93a57cb21cc990928b86c92e7a4140f64fd88599f4d1a97af87814e10e9975fd86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ctex-fontset-siyuan.def \

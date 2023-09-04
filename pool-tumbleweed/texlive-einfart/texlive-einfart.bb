@@ -13,8 +13,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn65475"
 
-RPM_NAME = "texlive-einfart-2023.209.svn65475-54.1.noarch.rpm"
-RPM_HASH = "5932bca0c435afe80924367666b28b17f3ec878b7de83b2d1cda6acd13f6d7061940843885bf2c9b229ce822da093b29c7944437d2d6b7fd28eeedbf3ffbf04e"
+RPM_NAME = "texlive-einfart-2023.209.svn65475-54.2.noarch.rpm"
+RPM_HASH = "7ecd2dc1db4bfe110b1946aca4b83278b6b2c0822a8375011647f5b03d164234fff31b1fc67229428cc56609c7fb4e6139bb1e944f37589b599f6b6e74df9c82"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-einfart.cls \

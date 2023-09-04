@@ -1,12 +1,12 @@
 SUMMARY = "Qt 6 Declarative unstable ABI meta package"
 DESCRIPTION = "This meta-package requires all the qt6-declarative development packages that do \
 not have any ABI or API guarantees."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "qt6-declarative-private-devel-6.5.2-1.1.noarch.rpm"
-RPM_HASH = "b477aa21251262614a0a53ef4198e26e36ff385532cdf60a0bba99c26b025b98a3995fc465c8d745ae4a971d11361d6e8f369f71233d3e3c892bfad63a779c31"
+RPM_NAME = "qt6-declarative-private-devel-6.5.2-2.1.noarch.rpm"
+RPM_HASH = "2e7499523370c5e1dc8d4fb34982d3c94969b15325bf6cc7d31308acada26044cde232e217cc63afc804f7559d6cdbfaf49565cf98182de1fe0f82c8a1be1a6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qt6-declarative-private-devel"

@@ -22,8 +22,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.12"
 
-RPM_NAME = "perl-Apache-DBI-1.12-1.27.noarch.rpm"
-RPM_HASH = "4544b28771b3ac16f20e45d66c0987b33bb8f85e6f36fc1fed9d89fa974a3bde9e34a413ead2bfcc6ac967c74dba86e25042a45e5bded010ef697fe9587efd56"
+RPM_NAME = "perl-Apache-DBI-1.12-1.28.noarch.rpm"
+RPM_HASH = "551549e38d769b299b27cada4a9df6afe7a054c2806b319d56cef1ad96678320f73c400f7398e1ace16cff1da320303741ebaace877d339203464864336ae6f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Apache--AuthDBI \
@@ -31,7 +31,7 @@ perl-Apache--DBI \
 perl-Apache--DBI--db \
 perl-Apache-DBI"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-DBI \
 perl-Digest--SHA1"
 

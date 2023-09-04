@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.276"
 
-RPM_NAME = "perl-PPI-1.276-1.4.noarch.rpm"
-RPM_HASH = "201c08404f89fdb8ebbe3946becc98cf3bf4a7435f71477da922837d31ba6db419d2b516b775c72132a1b005cec16c7b509f78efb07072b3250a42e91f1996e4"
+RPM_NAME = "perl-PPI-1.276-1.5.noarch.rpm"
+RPM_HASH = "aa32ecf063b661bd6af6e9620208c4db93c3dfa4c58cd8a3d308bc6cced80632b4618d25b5286237a58721491f345eb48d3c495e11ba8c786883d08c6dade355"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-PPI \
@@ -103,7 +103,7 @@ perl-PPI--Transform--UpdateCopyright \
 perl-PPI--Util \
 perl-PPI--XSAccessor"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Clone \
 perl-List--Util \
 perl-Params--Util \

@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
 PV = "2.0.21"
 
-RPM_NAME = "uwsgi-gevent-2.0.21-3.1.aarch64.rpm"
-RPM_HASH = "7491299d5d9c087a620e76c251f11828eaecf0e6b1d59ba128a02be6c4b138924323e34748fdc117bdc5c1695f793452bb0c270db4157ce78f58fb3d2068c8d1"
+RPM_NAME = "uwsgi-gevent-2.0.21-3.2.aarch64.rpm"
+RPM_HASH = "20eb498326bea445163fcf0833414fe945b64856b96abdefc08c3938da7d8706a067a87f0b07b0dce58114334125bef733b6a3eaece7f672942b85f575531687"
 
 RPROVIDES:${PN} += "uwsgi-gevent"
 

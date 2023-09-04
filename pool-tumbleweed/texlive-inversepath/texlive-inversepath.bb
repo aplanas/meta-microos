@@ -4,10 +4,10 @@ be useful, for example, when writing an auxiliary file to a \
 different directory."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.2svn15878"
+PV = "2023.209.0.0.2svn15878"
 
-RPM_NAME = "texlive-inversepath-2023.208.0.0.2svn15878-53.1.noarch.rpm"
-RPM_HASH = "3d7846d47de7ad6dc0b284db0965532f666a45f20bc61079e4ea717a67eb50a92a363dc739c97c123123c8972d2357fd6c90391fcbd48d0da907e1bfdd38d344"
+RPM_NAME = "texlive-inversepath-2023.209.0.0.2svn15878-54.1.noarch.rpm"
+RPM_HASH = "480c2d3f3d33a8adfd1449d19de914fc92a2fc8ddb6ef0c2f414f5721bad4d56a7d476c7af6183bfa7319787ce996711c8fa768e0ad5c66ab36948e4626e08e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-inversepath.sty \

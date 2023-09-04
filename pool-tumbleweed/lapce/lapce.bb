@@ -6,8 +6,8 @@ LICENSE = "(0BSD | Apache-2.0 | MIT) & (Apache-2.0 | MIT) & (Apache-2.0 | BSL-1.
 
 PV = "0.2.8"
 
-RPM_NAME = "lapce-0.2.8-1.1.aarch64.rpm"
-RPM_HASH = "383956bed8c8ae6801e650051d1874ec4a8b849bf96ff8917ea502bcd33810168658f1bf411b8bca16300f69381829d5501a947991ba1cef13a04e0dfdf7cd09"
+RPM_NAME = "lapce-0.2.8-2.1.aarch64.rpm"
+RPM_HASH = "befc9ae2914cf7062e26e0e579273bd5d43a33be536770c710e2e6d52d4330222a825fcef1386b7d9ee4e3816fe587c5f044bcc3a3f47a27899910a9daba659b"
 
 RPROVIDES:${PN} += "bundled-rust-crate-Inflector \
 bundled-rust-crate-addr2line \

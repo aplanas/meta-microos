@@ -12,28 +12,28 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.9.6.1"
 
-RPM_NAME = "ghc-time-compat-1.9.6.1-5.6.aarch64.rpm"
-RPM_HASH = "7bf01892bb71a827358fd7fc2e962aa518f404d2c28f719480e700d53c9c8a2a90c923bfa54a4d7fef95058178a19e032cc9731e792531ba748cab90f07d9bd2"
+RPM_NAME = "ghc-time-compat-1.9.6.1-5.9.aarch64.rpm"
+RPM_HASH = "39c0641b3927fc8c9d96236d7d817e71097e7dd97955540e4861fa36818d2ebb978985d6df39035bdf8155826f55a7a15e19b735b4a841f5930954efaea87f61"
 
 RPROVIDES:${PN} += "ghc-time-compat \
-libHStime-compat-1.9.6.1-2Pu0F2MmAuC1LEapOv1K82-ghc9.4.5.so"
+libHStime-compat-1.9.6.1-J6qzCGPCWqPGQqFFbCQAYM-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
-libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSbase-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8-ghc9.4.5.so \
-libHSbinary-0.8.9.1-ghc9.4.5.so \
-libHSbytestring-0.11.4.0-ghc9.4.5.so \
-libHScontainers-0.6.7-ghc9.4.5.so \
-libHSdeepseq-1.4.8.0-ghc9.4.5.so \
-libHSfilepath-1.4.2.2-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-boot-th-9.4.5-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
-libHShashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt-ghc9.4.5.so \
-libHSpretty-1.1.3.6-ghc9.4.5.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
-libHStext-2.0.2-ghc9.4.5.so \
-libHStime-1.12.2-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
+libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSbase-orphans-0.8.8.2-Ace67bhQsJ1lQVihVIKZ5-ghc9.4.6.so \
+libHSbinary-0.8.9.1-ghc9.4.6.so \
+libHSbytestring-0.11.5.1-ghc9.4.6.so \
+libHScontainers-0.6.7-ghc9.4.6.so \
+libHSdeepseq-1.4.8.0-ghc9.4.6.so \
+libHSfilepath-1.4.2.2-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-boot-th-9.4.6-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
+libHShashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP-ghc9.4.6.so \
+libHSpretty-1.1.3.6-ghc9.4.6.so \
+libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
+libHStext-2.0.2-ghc9.4.6.so \
+libHStime-1.12.2-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

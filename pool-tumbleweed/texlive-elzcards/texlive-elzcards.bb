@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.60svn51894"
 
-RPM_NAME = "texlive-elzcards-2023.209.1.60svn51894-54.1.noarch.rpm"
-RPM_HASH = "2e7a619acc758df799296402e7c5f87ba4d76edabae7be5ed1be26863ef02b211c561f662083722798c94022a8b97072f4de2637389cb9fbc25cf55aa7811d96"
+RPM_NAME = "texlive-elzcards-2023.209.1.60svn51894-54.2.noarch.rpm"
+RPM_HASH = "a60b33af885e63fe3492bde3a2554d8348e9bdcd2c4ac9b9c92872e6cfe9fd9843043bccd17554ea7fe39a48a9f44b24e4b09dfb91fc4be04ddaf92261d4879c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-elzcards.sty \

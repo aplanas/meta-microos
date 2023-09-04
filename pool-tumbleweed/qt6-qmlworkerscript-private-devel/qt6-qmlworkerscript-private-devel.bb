@@ -1,12 +1,12 @@
 SUMMARY = "Non-ABI stable API for the Qt 6 QmlWorkerScript library"
 DESCRIPTION = "This package provides private headers of libQt6QmlWorkerScript that do not have \
 any ABI or API guarantees."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "qt6-qmlworkerscript-private-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "8c1c70df489e0a99d8bb23f3a9d4c95d0d43e33ac89707a5a940a8653b8afcf887e8167fe4ff4a5a1fd4d701f5a048ae4ae9e61b1c0b935c46515449bd093ba8"
+RPM_NAME = "qt6-qmlworkerscript-private-devel-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "28a603b8318a2fe64f2a590e5a6172f29a1e55e8b5e90913e375756a0f7d096e9220ab75a884647ef6de0facd458c35230bb9353c1c86f4c2ca5bd4bfc436e17"
 
 RPROVIDES:${PN} += "qt6-qmlworkerscript-private-devel"
 

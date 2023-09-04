@@ -4,10 +4,10 @@ used to repartition the oem disk image to the current disk \
 geometry according to the setup in the kiwi image configuration"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "9.24.61"
+PV = "9.25.12"
 
-RPM_NAME = "dracut-kiwi-oem-repart-9.24.61-1.2.aarch64.rpm"
-RPM_HASH = "3c9287c87bc67dac6cc82084b9a86eb475cf9fbbe0c9e4cab7c9c0e1a82673acd903ba58b9efeb08017d047c48775e8b4fccf323fcc81cc764734aca3ede644d"
+RPM_NAME = "dracut-kiwi-oem-repart-9.25.12-1.1.aarch64.rpm"
+RPM_HASH = "45a554912f83bcbf1dcbf654c12688274c367197c1fdf8e9d76cf2f8a88c07fbd464afd709d1142ae50dd0f2e60a1ca1f5a65f24c60097f49aec0dc0b07cc039"
 
 RPROVIDES:${PN} += "dracut-kiwi-oem-repart"
 

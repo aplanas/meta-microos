@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.14.0"
 
-RPM_NAME = "python311-folium-0.14.0-2.4.noarch.rpm"
-RPM_HASH = "af293d9663e13092938138fa5f4212dbdc532375f127954b809bd7c02f4efcfe3532afbd59ba4feeb01a3b1135dfd18e793773333a4ffd165be9489949a16563"
+RPM_NAME = "python311-folium-0.14.0-2.5.noarch.rpm"
+RPM_HASH = "82d0819be41177adee9c0ff2b732771fc12de45f6a6f72b8f8fd7880e31f375e2b52064032ab92a8ce8ae35b66e4eb8659e7f6209076d1124aa5b8ac0061d151"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-folium \

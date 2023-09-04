@@ -4,10 +4,10 @@ which directories you use most frequently, so you can 'jump' to them in \
 just a few keystrokes."
 LICENSE = "MIT"
 
-PV = "0.9.1"
+PV = "0.9.2"
 
-RPM_NAME = "zoxide-0.9.1-1.2.aarch64.rpm"
-RPM_HASH = "ada2ffcfc5ec5c3380ee3deeaf5b6224cdb41e7c609b0ef7810ccf9b6d0ab205cfa7610865b8e8d89d46bb0bb8aa12189554820f43830015f2c589fe32680e5c"
+RPM_NAME = "zoxide-0.9.2-1.1.aarch64.rpm"
+RPM_HASH = "7f42a5765e0b1c09a3021c41608b44d5c196ca411b17d36b15344de087774486e5d5855329169f76fa07222c3035c2cd2c0aeb84bc0dfe03f402192f94d291d5"
 
 RPROVIDES:${PN} += "zoxide"
 

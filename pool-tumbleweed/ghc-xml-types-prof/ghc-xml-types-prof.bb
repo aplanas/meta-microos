@@ -4,13 +4,13 @@ LICENSE = "MIT"
 
 PV = "0.3.8"
 
-RPM_NAME = "ghc-xml-types-prof-0.3.8-4.2.aarch64.rpm"
-RPM_HASH = "12abc1c214fce8a0754678a3232893a8814f6129ae571c80133589e84604340ad7f8b36e6cc219f536243a164f8c0a27b0bb0ca2eab4613c44941aef61c051b3"
+RPM_NAME = "ghc-xml-types-prof-0.3.8-4.3.aarch64.rpm"
+RPM_HASH = "a0dc4b5f4eb3a893264a5a04e2da416a4afff66457570d501eb86c9a51af668e49c6d2d1313bff24784014af123c57b2875f8e2ce4ea2bbdaa8aa7d8dd9cdbbc"
 
-RPROVIDES:${PN} += "ghc-prof-xml-types-0.3.8-7guWdy0cJxZLf8pjB1j9Fb \
+RPROVIDES:${PN} += "ghc-prof-xml-types-0.3.8-8dFL1RqlGPRJfvDIVn7kl6 \
 ghc-xml-types-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
 ghc-prof-deepseq-1.4.8.0 \
 ghc-prof-text-2.0.2 \
 ghc-xml-types-devel"

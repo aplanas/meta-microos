@@ -2,10 +2,10 @@ SUMMARY = "The PipeWire Tools"
 DESCRIPTION = "This package contains command line utilities for the PipeWire media server."
 LICENSE = "MIT"
 
-PV = "0.3.76"
+PV = "0.3.77"
 
-RPM_NAME = "pipewire-tools-0.3.76-1.1.aarch64.rpm"
-RPM_HASH = "fcb43b8a1a0daa57449275d3e027984d158ae1ac047a8bbd1cb88c71358147187226bbfcfb86ee81e2f4a9bc471d23d7edd30468d2804bdce3db9d54e55790a8"
+RPM_NAME = "pipewire-tools-0.3.77-2.1.aarch64.rpm"
+RPM_HASH = "6eb77248359ef6a7cff8c73a17dde0a1cc2ebfdf4cc71a203708b7027b666bac027397170de6f79af23f81c073263360d2a62f0ecce3328d7c512036f72b3645"
 
 RPROVIDES:${PN} += "pipewire-tools"
 

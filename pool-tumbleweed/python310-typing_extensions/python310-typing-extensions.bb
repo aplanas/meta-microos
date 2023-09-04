@@ -25,10 +25,10 @@ In the future, support for older Python versions will be dropped some time \
 after that version reaches end of life."
 LICENSE = "Python-2.0"
 
-PV = "4.5.0"
+PV = "4.7.1"
 
-RPM_NAME = "python310-typing_extensions-4.5.0-2.3.noarch.rpm"
-RPM_HASH = "37bfff758444b28e147c93b89d10ac3751cc08123613c05bd56cdc39b5b65caa62db75d90493e0a420889f5f45b4d2fdeb96f542793f9270a137413b8dd5a71a"
+RPM_NAME = "python310-typing_extensions-4.7.1-1.1.noarch.rpm"
+RPM_HASH = "e9a34f446361f0d30a259d87ae13155d012886a386fc3ab288c895c1f0d6bd90e147ac3f295623eda16435934845d1e3fd12ff99ba78874a6d444e827bcaf361"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-typing-extensions \

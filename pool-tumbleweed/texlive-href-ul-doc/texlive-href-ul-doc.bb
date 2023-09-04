@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.3.0svn64880"
 
-RPM_NAME = "texlive-href-ul-doc-2023.209.0.0.3.0svn64880-54.1.noarch.rpm"
-RPM_HASH = "530c26329cb2f8e32888f015cdd4ec1026b8d80679ac0f438bb23ffbf30ca6fd145d6d8433bacbf9f887eb5551e622bef772c7aa1aaa8806746186c4a5e0c00a"
+RPM_NAME = "texlive-href-ul-doc-2023.209.0.0.3.0svn64880-54.2.noarch.rpm"
+RPM_HASH = "f0dc477e4848958cb68f6f75dac51b634bb55d2da3e8aadfe96a030e6fa562c0eea2fc28411553f711375fceeb5314ba3b076a49a6f92d532591c7bbd8f066df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-href-ul-doc"

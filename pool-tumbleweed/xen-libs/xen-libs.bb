@@ -15,10 +15,10 @@ Authors: \
     Ian Pratt <ian.pratt@cl.cam.ac.uk>"
 LICENSE = "GPL-2.0-only"
 
-PV = "4.17.1_06"
+PV = "4.17.2_02"
 
-RPM_NAME = "xen-libs-4.17.1_06-1.1.aarch64.rpm"
-RPM_HASH = "3319da23806729c1bf03901d8af6141e866a7363b6b3cc4bcf4c9426c95abc9771e12423e39256e7902bcc74597bbf548f8376ec02098709356a9e835800a2e5"
+RPM_NAME = "xen-libs-4.17.2_02-1.1.aarch64.rpm"
+RPM_HASH = "16ad36a89370f0bb66fbbe58669e70775d618760e40912e21052b67ab257e5382e6dd1fa725fde4c267aa5d66af7193b454c584b71546724e1872cce4db43b0a"
 
 RPROVIDES:${PN} += "libxencall.so.1 \
 libxenctrl.so.4.17 \

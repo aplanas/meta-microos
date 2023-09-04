@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.0.0"
 
-RPM_NAME = "ghc-timerep-doc-2.1.0.0-1.8.noarch.rpm"
-RPM_HASH = "c86d7b7c50b2e386bca45433b841aba7e29a0ddc4b43503470bd3c39abeb12cd25339e6812ec6b777fc63982efbae4c6e3684d71613bd8e5f65ac4054c740813"
+RPM_NAME = "ghc-timerep-doc-2.1.0.0-1.11.noarch.rpm"
+RPM_HASH = "f0cbba72e23d39ccf32c227a783ed0c09c4058b57dfaf363c7d9e25c89cab7496aa9f9a7424ec356ece047e34aaea994c79919d909afc0a4825e43fe610a7e9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-timerep-doc"

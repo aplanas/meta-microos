@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
 PV = "2.7.2"
 
-RPM_NAME = "libwsman_client5-2.7.2-2.8.aarch64.rpm"
-RPM_HASH = "b72a555f642d8488c8fffe9576b59814df3fc64ba365123fd64cb4a83777cf99c4e3178fa7c1139cd69424f07cbf091aef91539d44dc222a3b69c38040d1a913"
+RPM_NAME = "libwsman_client5-2.7.2-2.9.aarch64.rpm"
+RPM_HASH = "4178d61d385852f990ef35014bf890dbdfe056043cb634111e26e9918f5dd1aa0b3ba706090ce1c96f177c700758f1f784bef2742bbf48f0f29cd5c622487645"
 
 RPROVIDES:${PN} += "config-libwsman-client5 \
 libwsman-client.so.5 \

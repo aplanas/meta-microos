@@ -16,8 +16,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.3svn64072"
 
-RPM_NAME = "texlive-pxjodel-2023.209.0.0.3svn64072-54.1.noarch.rpm"
-RPM_HASH = "50d0981e94ecf7a4b17ffcfa245e7b2db470d3324e688525ed9581c694a7c37aa1a338944d9c130fa662dc1770d8cfbe13a6c685a6e9a32195cdcb4c8b83359d"
+RPM_NAME = "texlive-pxjodel-2023.209.0.0.3svn64072-54.2.noarch.rpm"
+RPM_HASH = "a60192e40ddd96a9c8a17c130b2c3a832db610280bdd75411d56b8e2e08ef629e75ea1230431c725db769b4c814cd2caf3f679232337a0a7378e2085e6f50d98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jodhgothb-hq.tfm \

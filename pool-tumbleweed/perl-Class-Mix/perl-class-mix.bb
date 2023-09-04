@@ -5,14 +5,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.006"
 
-RPM_NAME = "perl-Class-Mix-0.006-1.21.noarch.rpm"
-RPM_HASH = "01602f07648e3c29f31102e673ca2ec32607310dcf3b85b8cb7a26e6a62b3aaac32bdc470649b6bcc2ef994c8a3ebac3c04ad4dd47424130afadf240ee93b6a9"
+RPM_NAME = "perl-Class-Mix-0.006-1.22.noarch.rpm"
+RPM_HASH = "bb278d1978e21fc39f4993c45de474198a61f384389cced8b050b1c06b3ac6f5fe8777abbdae9285cf27117c8245e5cd2686080cd11e6e4a2e888910f293e6a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Mix \
 perl-Class-Mix"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Params--Classify \
 perl-parent"
 

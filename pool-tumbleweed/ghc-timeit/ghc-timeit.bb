@@ -5,15 +5,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0"
 
-RPM_NAME = "ghc-timeit-2.0-6.2.aarch64.rpm"
-RPM_HASH = "77a5efa35b62993cbf6ededd3f7bc24fb121867e0d0475dad690ad5dd629192ee9c80fa6b85aff6b2b620e98b8cbea9e5eeabeb19badddaf2a76d2b742a58986"
+RPM_NAME = "ghc-timeit-2.0-6.3.aarch64.rpm"
+RPM_HASH = "d099077b9a453eaf46aa5a681d5dd3f0117c76313c5ac89c4e8706ed41d9132f73bb6d0d37ff2ce2ee16227a1d357871215ce797b7c93a4e5fffb94e3c275480"
 
 RPROVIDES:${PN} += "ghc-timeit \
-libHStimeit-2.0-8ewEVtFbCiRSME6yb7iQx-ghc9.4.5.so"
+libHStimeit-2.0-4alyyqlO7m4DFFkjYuUzq9-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

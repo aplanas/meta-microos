@@ -2,10 +2,10 @@ SUMMARY = "Kanidm server and related tools"
 DESCRIPTION = "Server for kanidm providing the main authentication and identity service"
 LICENSE = "MPL-2.0"
 
-PV = "1.1.0~beta13~git2.5d1e2f9"
+PV = "1.1.0~beta13~git7.1fb34a9"
 
-RPM_NAME = "kanidm-server-1.1.0~beta13~git2.5d1e2f9-1.1.aarch64.rpm"
-RPM_HASH = "5ed1886d7893787d6ab99d32b9b7b16feec1e34406933a76fb4ca83646f0da29ea6be2c57245083882d1ed2c434ef5ab4d3b97a002416233b6d4d3de21375a25"
+RPM_NAME = "kanidm-server-1.1.0~beta13~git7.1fb34a9-1.1.aarch64.rpm"
+RPM_HASH = "4ea2285b1a20454c377bdb32bfd1e282d3c070056002dd80e0757d24e4d6dcf7dc525705a2294491bbc059fdc7f2abe3ec71ec9637e53e4a51732ed8b5848ddf"
 
 RPROVIDES:${PN} += "bundled-rust-crate-adler \
 bundled-rust-crate-ahash \
@@ -214,6 +214,8 @@ bundled-rust-crate-serde-json \
 bundled-rust-crate-serde-path-to-error \
 bundled-rust-crate-serde-urlencoded \
 bundled-rust-crate-serde-wasm-bindgen \
+bundled-rust-crate-serde-with \
+bundled-rust-crate-serde-with-macros \
 bundled-rust-crate-sha1 \
 bundled-rust-crate-sha2 \
 bundled-rust-crate-sharded-slab \

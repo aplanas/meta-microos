@@ -2,10 +2,10 @@ SUMMARY = "The python pandas[html] extra"
 DESCRIPTION = "This package provides the [html] extra for python-pandas"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.2"
+PV = "2.0.3"
 
-RPM_NAME = "python39-pandas-html-2.0.2-4.1.noarch.rpm"
-RPM_HASH = "a5931f810c053997582e01ae1524f02c247e90a44af31d3f086d68ad4736f818dfbbc2b70bf865d08e436ae36ae55bfdded43c31f24ffdf1b2e8eb282fc4a969"
+RPM_NAME = "python39-pandas-html-2.0.3-1.2.noarch.rpm"
+RPM_HASH = "e18c5d23771763a83c91f1439313aa68e2711fc4557ac96ed35e6c8ed8ddcad52869fa49be7dfc1ab7f1cd76cfce5b5e52158573784887d86413a4116181554b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pandas-html"

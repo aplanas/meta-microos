@@ -40,13 +40,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "3.05"
 
-RPM_NAME = "perl-Net-Telnet-3.05-1.10.noarch.rpm"
-RPM_HASH = "0d9f270f20918388c62032db81651faeffe57b914af3be8bd6dc6a38902d5efa1e8d72d3b10e08ceaf460226ed957a55054a161c98903bf974efaf5c773806f7"
+RPM_NAME = "perl-Net-Telnet-3.05-1.11.noarch.rpm"
+RPM_HASH = "5ee86d658abeb82225fccb4178e21033928d8c75e6ff1900d0a2d2bd5d18947644210d62cf406bceef274e6c5469bcf9cc8e2d016a74291056df113f13fba789"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--Telnet \
 perl-Net-Telnet"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

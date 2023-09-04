@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.71_release+903.d3ec98550dc3"
 
-RPM_NAME = "mhvtl-1.71_release+903.d3ec98550dc3-1.1.aarch64.rpm"
-RPM_HASH = "4863dbb788acbeb87a02fb5cfb022e7d58348f1f5edac9ed77cca1b62507002253353ec4592ec8d8230cb10996b569267cf8f053d5c0b2cdd26f895cea642e64"
+RPM_NAME = "mhvtl-1.71_release+903.d3ec98550dc3-1.4.aarch64.rpm"
+RPM_HASH = "8662af9e9a86adb09bd96936c02b09482e39e28b4c2c55d21893cae5c607764dd0452be440458600e3cc2630dd32897d4f7a2a1665293725b6719ab3912e5fe5"
 
 RPROVIDES:${PN} += "config-mhvtl \
 firmware-mhvtl/mhvtl-kernel.tgz \

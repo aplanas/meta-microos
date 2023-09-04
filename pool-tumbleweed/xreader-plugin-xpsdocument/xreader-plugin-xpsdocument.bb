@@ -2,10 +2,10 @@ SUMMARY = "XPS document support for Xreader"
 DESCRIPTION = "A plugin for Xreader to read XPS documents."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
-PV = "3.4.5"
+PV = "3.8.2"
 
-RPM_NAME = "xreader-plugin-xpsdocument-3.4.5-1.5.aarch64.rpm"
-RPM_HASH = "02e38ea113a5103f594463ef74f39396a18dfef8f54237206e98a95c50cde2fd40bfef3f75af9a884cbb8ac28b128fe51ee3d19d073b2cc1cfd35788a9e657e0"
+RPM_NAME = "xreader-plugin-xpsdocument-3.8.2-1.1.aarch64.rpm"
+RPM_HASH = "b905870aeabf82a09d902ae2a53cb1f5de647222319d681192146ec834871d169eb0df03e8708a872f695ec3e06ebd7965f437469f7446b71b4bcc66046abdc4"
 
 RPROVIDES:${PN} += "libxpsdocument.so \
 xreader-plugin-xpsdocument"

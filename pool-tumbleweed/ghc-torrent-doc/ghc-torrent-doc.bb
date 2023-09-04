@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "10000.1.3"
 
-RPM_NAME = "ghc-torrent-doc-10000.1.3-1.6.noarch.rpm"
-RPM_HASH = "efe2eb6d93bf44d08999769e611a54c5f9a4be5b1957dbc8a1d45332437a33a4ff6864b5053fa0002b852372d05ef5749c439b7b4d6dd21b7975247f8d8f2dc5"
+RPM_NAME = "ghc-torrent-doc-10000.1.3-1.9.noarch.rpm"
+RPM_HASH = "03320775073285086fd3deabc7af79bde6d3c13cfe45280b14edb450ca55c96aad311662aa0a10793ec72a8294c6acb2d087f33d9e0a15d62f06cd77cf6ae74d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-torrent-doc"

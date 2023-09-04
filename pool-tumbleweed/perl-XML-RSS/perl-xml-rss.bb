@@ -36,8 +36,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.62"
 
-RPM_NAME = "perl-XML-RSS-1.62-1.13.noarch.rpm"
-RPM_HASH = "2f071253577126efdcd46487e1521a5e731788c931ba0c3b470cd9f51e23b94487c08189cd67447806c367759547ad9fc077576081e1934e74c85c815f82fb55"
+RPM_NAME = "perl-XML-RSS-1.62-1.14.noarch.rpm"
+RPM_HASH = "ad4c63058770ba2ac9a424c554195b24171657435f26fba608f58397c33d8ddbd58ddaaf24c0fdd733644a8be431526e5ba54535c3ce0897e7151ca12ddbb9cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--RSS \
@@ -50,7 +50,7 @@ perl-XML--RSS--Private--Output--V1-0 \
 perl-XML--RSS--Private--Output--V2-0 \
 perl-XML-RSS"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-DateTime--Format--Mail \
 perl-DateTime--Format--W3CDTF \
 perl-HTML--Entities \

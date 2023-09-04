@@ -4,15 +4,15 @@ LICENSE = "MIT"
 
 PV = "0.4.0"
 
-RPM_NAME = "ghc-call-stack-0.4.0-2.6.aarch64.rpm"
-RPM_HASH = "1fdf0d174c0b91d607c5b0f05bd31771cf559fac425a54240f977d1f4cd76b691beda4005d518c26d0338adb527020ef35720e411fa6e114ad4a435dc983949f"
+RPM_NAME = "ghc-call-stack-0.4.0-2.8.aarch64.rpm"
+RPM_HASH = "79ff84a69f3e8a3faabfe9057785348af5e10c055d0d1bd78d7ac9649c8f36776ac646fd81e97a3372a2c458379edf827534df15a0fc7e65577853d4f55fbb7c"
 
 RPROVIDES:${PN} += "ghc-call-stack \
-libHScall-stack-0.4.0-K9VxYWjBEvtITBfD6bL7Dk-ghc9.4.5.so"
+libHScall-stack-0.4.0-nQZfFxinEdIa1BWxMyadt-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

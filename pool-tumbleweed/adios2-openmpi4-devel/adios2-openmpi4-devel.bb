@@ -6,10 +6,10 @@ This package contains all files needed to create projects that use the \
 openmpi4 version of ADIOS2."
 LICENSE = "Apache-2.0"
 
-PV = "2.9.0"
+PV = "2.9.1"
 
-RPM_NAME = "adios2-openmpi4-devel-2.9.0-1.1.aarch64.rpm"
-RPM_HASH = "4cda42ac730567bc10535502e024ec07359461df67ce9292e87bb656a8fdcbaf7510d133c351d2f68e825ed635b2efba2bae045228ea640c699e69cb66f5d473"
+RPM_NAME = "adios2-openmpi4-devel-2.9.1-1.1.aarch64.rpm"
+RPM_HASH = "8d13ac9f1563e823aebfc5c0e23d7cab5b4c71a1681eb0bdcc4464b9c81f7cc18cc725053e23fd0d9cf76f034c12834f178ee1c4202b650a3dde2ca20d681c7c"
 
 RPROVIDES:${PN} += "adios2-openmpi4-devel"
 

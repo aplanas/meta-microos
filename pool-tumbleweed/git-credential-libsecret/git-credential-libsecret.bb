@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.41.0"
 
-RPM_NAME = "git-credential-libsecret-2.41.0-1.2.aarch64.rpm"
-RPM_HASH = "daa41ff42a60171b5936b238edd0fc34f97ccd0c821a4e95c327db575f13cc7ccab0c1922a8b908c08c4c9178c0763e2ca220b6c16c392bbe44c014203924baa"
+RPM_NAME = "git-credential-libsecret-2.41.0-1.3.aarch64.rpm"
+RPM_HASH = "baffbc4092135695acb2836ac299b9b9c0459ecdbc1c624fe7210354ed2b7c7a3efaabf476f90fd624557c12aed6c21b1efa82314dae8aa9300948bfc27dc177"
 
 RPROVIDES:${PN} += "git-credential-libsecret"
 

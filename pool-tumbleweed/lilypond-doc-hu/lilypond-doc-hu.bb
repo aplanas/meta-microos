@@ -2,10 +2,10 @@ SUMMARY = "Documentation for the LilyPond Typesetter (hu)"
 DESCRIPTION = "Hungary documentation files for the GNU LilyPond music typesetter."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.24.1"
+PV = "2.24.2"
 
-RPM_NAME = "lilypond-doc-hu-2.24.1-2.4.noarch.rpm"
-RPM_HASH = "4ad50772eef0b2140783e54a1e3bab69a84f03a42a5a2149b8d5a7f590270755ae1dad7b825e961afe6ae6e1829c390655ed9b2f3f388f7dd64b96e508e1bde3"
+RPM_NAME = "lilypond-doc-hu-2.24.2-1.1.noarch.rpm"
+RPM_HASH = "13a46f8168ceb411b3add0744667d4e96552a485b6e01ade63d2aac17c0fb9207df7af4e45b0028d8acda680a57fcbe4a529e600936c96ccf06a01692fa7e93d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lilypond-doc-hu"

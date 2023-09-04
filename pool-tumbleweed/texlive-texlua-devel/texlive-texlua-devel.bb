@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "5.3.6"
 
-RPM_NAME = "texlive-texlua-devel-5.3.6-93.1.aarch64.rpm"
-RPM_HASH = "77dbd65dc8e2855dcabd4c8f030adb332447583c51e1d0ac8a62bf8007884e829785ed3e333de5f15818a9b5c969becb669817ce4f2922c5f928c2a3677f8131"
+RPM_NAME = "texlive-texlua-devel-5.3.6-93.2.aarch64.rpm"
+RPM_HASH = "0d346e3503c843b177416d0e31afda4623d5abf23b7928f5588f662b6c39a9617445049ecf6aaf1f21276a428bb591ab72679d1f12ac4463472d3cd13b1b3b3f"
 
 RPROVIDES:${PN} += "pkgconfig-texlua53 \
 texlive-texlua-devel"

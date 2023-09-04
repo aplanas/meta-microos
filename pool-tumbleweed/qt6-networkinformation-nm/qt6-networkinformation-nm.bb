@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "qt6-networkinformation-nm-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "accd6f1d23366fa1d69d18a007102e8ea3802b41e8be6e63f1c09459e9f410adefeaeb1d8dccf6ab65bfabbee1b966e651ab00935f7c7038ab374f857d2593d0"
+RPM_NAME = "qt6-networkinformation-nm-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "2457a11fbb9cc01e197674d74dc2165a9b0a3d504030f9e804bd06605f327cf0dba1cc52a209d362ce9444334878a92905877ab81e4cc5291b66ac93bfd5c545"
 
 RPROVIDES:${PN} += "libqnetworkmanager.so \
 qt6-network-informationbackends \

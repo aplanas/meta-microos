@@ -4,8 +4,8 @@ LICENSE = "GPL-1.0-or-later"
 
 PV = "31"
 
-RPM_NAME = "perl-X11-Protocol-Other-31-1.16.aarch64.rpm"
-RPM_HASH = "deafafdcf9cb9d71666e98811d32bfb65816f083abeea25a024dccec4ae8c21332ccd3cc61a2e1ad5cd166b2aa9990233ec1587ed22fc3f3abaf1ee9063522e0"
+RPM_NAME = "perl-X11-Protocol-Other-31-1.17.aarch64.rpm"
+RPM_HASH = "c90134021843e0f9c8a386fa3a17e940ac629cc9bcbafae79671dafc114780684cd426b1c978ccd3e076ae82c8f4ef84256228231c48934cf5d78a1bc1f619c8"
 
 RPROVIDES:${PN} += "perl-Encode--X11 \
 perl-X11--AtomConstants \
@@ -29,7 +29,7 @@ perl-X11--Protocol--WM \
 perl-X11--Protocol--XSetRoot \
 perl-X11-Protocol-Other"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-X11--Protocol"
 
 inherit rpm

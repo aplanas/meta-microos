@@ -4,14 +4,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "3.04"
 
-RPM_NAME = "perl-Locale-US-3.04-1.27.noarch.rpm"
-RPM_HASH = "e495c03dc771a40edb462c45fd1330ec62b3a10b6972bf0a02ca22e47d43cf42a84fa00cae138af5c944ede4b9d6e94d55c6644a1825d3576dcccb91b1e8f3fb"
+RPM_NAME = "perl-Locale-US-3.04-1.28.noarch.rpm"
+RPM_HASH = "537c9fb48aae59854b33f24350d6ee62648dedf9b7abc4e56a427d86e93d1d72d0946529a74a5d692a6a7855d16c6fac48101b7281bccb25abf111d23ba14877"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Locale--US \
 perl-Locale-US"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Data--Section--Simple"
 
 inherit rpm

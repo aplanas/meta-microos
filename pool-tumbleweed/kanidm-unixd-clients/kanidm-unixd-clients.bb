@@ -3,10 +3,10 @@ DESCRIPTION = "A localhost resolver and libraries that allow a system to resolve
 identities to a kanidm instance."
 LICENSE = "MPL-2.0"
 
-PV = "1.1.0~beta13~git2.5d1e2f9"
+PV = "1.1.0~beta13~git7.1fb34a9"
 
-RPM_NAME = "kanidm-unixd-clients-1.1.0~beta13~git2.5d1e2f9-1.1.aarch64.rpm"
-RPM_HASH = "3bc1385caf82b6c1aa816ea0a8b324846606e131d325d3be4ddb0a42473526dc1aba1b1d43e8926dbe6b7f7169e84abf62222e4ea76138b7e3bbe7d585a39ae0"
+RPM_NAME = "kanidm-unixd-clients-1.1.0~beta13~git7.1fb34a9-1.1.aarch64.rpm"
+RPM_HASH = "e4e8c4ab2b797cb0ca71e69748c0b011f47e9025342321051e594a6af21deefd4ce3a3d36f18a1851d6a33f06de6e04c51a31160c18730b9e2a1871ae39277e9"
 
 RPROVIDES:${PN} += "bundled-rust-crate-adler \
 bundled-rust-crate-ahash \
@@ -41,6 +41,7 @@ bundled-rust-crate-cc \
 bundled-rust-crate-cexpr \
 bundled-rust-crate-cfg-if \
 bundled-rust-crate-checked-int-cast \
+bundled-rust-crate-chrono \
 bundled-rust-crate-clang-sys \
 bundled-rust-crate-clap \
 bundled-rust-crate-clap-builder \
@@ -115,6 +116,7 @@ bundled-rust-crate-httparse \
 bundled-rust-crate-httpdate \
 bundled-rust-crate-hyper \
 bundled-rust-crate-hyper-tls \
+bundled-rust-crate-iana-time-zone \
 bundled-rust-crate-ident-case \
 bundled-rust-crate-idna \
 bundled-rust-crate-image \
@@ -241,6 +243,8 @@ bundled-rust-crate-serde-derive \
 bundled-rust-crate-serde-json \
 bundled-rust-crate-serde-urlencoded \
 bundled-rust-crate-serde-wasm-bindgen \
+bundled-rust-crate-serde-with \
+bundled-rust-crate-serde-with-macros \
 bundled-rust-crate-sha2 \
 bundled-rust-crate-sharded-slab \
 bundled-rust-crate-shell-words \

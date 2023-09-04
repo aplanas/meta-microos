@@ -5,14 +5,14 @@ LICENSE = "Artistic-2.0 | GPL-2.0-only"
 
 PV = "1.52"
 
-RPM_NAME = "perl-Test-Pod-1.52-1.18.noarch.rpm"
-RPM_HASH = "4368cdefc7a19d5175a589e22af194e3556d5a761e56d3b7f92fb1a0e38ed7e6fec5204a7867b31983279f9dc48a14e68d5645f798a8c712eb525fadb2614cfb"
+RPM_NAME = "perl-Test-Pod-1.52-1.19.noarch.rpm"
+RPM_HASH = "da565cc279e950bcb25688c620c4c65edb5f679295fd20e2423a85551932a3613ba37b2690392f38cdf57ee6d400f159d72c769104ed6eb57a7e3cc608c7877b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Pod \
 perl-Test-Pod"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Pod--Simple"
 
 inherit rpm

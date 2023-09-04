@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.0.31"
 
-RPM_NAME = "OpenIPMI-python3-2.0.31-5.13.aarch64.rpm"
-RPM_HASH = "ab353fe9fa4454b1d47fd6de5df66f30548386fe58c460f6cac7888d155fda4e0189f7f9c36647de017219a1d1a1f544e6427eed0545f460cea7e4d5d595044e"
+RPM_NAME = "OpenIPMI-python3-2.0.31-5.14.aarch64.rpm"
+RPM_HASH = "72cf3ee19cdee888a95ff6273d5e2a1a0063fdfe89d5df592249c0e8682da32d9cbf9d91fab8eb12248dd316394f0af88b03758cf33f9dc98e1538bbd73d68a2"
 
 RPROVIDES:${PN} += "OpenIPMI-python3 \
 openipmigui"

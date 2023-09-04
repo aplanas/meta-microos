@@ -13,8 +13,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.1.3svn38726"
 
-RPM_NAME = "texlive-dynamicnumber-2023.209.0.0.1.3svn38726-54.1.noarch.rpm"
-RPM_HASH = "772254273016064e04e514af702fe4768195d076a3b7b2b7a5a9a9d4dd22c33feec525a6da7c6acb8c7e4e02ad4638793b8ca5de6d56435163256fd810482709"
+RPM_NAME = "texlive-dynamicnumber-2023.209.0.0.1.3svn38726-54.2.noarch.rpm"
+RPM_HASH = "f344be2375036f6724aa15ee78b4f32e274d0b21de90b0e14c26259daeb6882b3c7a256e7ec6aff3674cb22ba474c9c7472ce7921e88dbb6617244badf0f182c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dynamicnumber.sty \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.svn22613"
 
-RPM_NAME = "texlive-yannisgr-doc-2023.209.svn22613-53.1.noarch.rpm"
-RPM_HASH = "cdde74663b35cfc9dea4b330382f4be25a39cc187158b5af843ee73cfc11ee826bf20fe5004c4e7dd480b176b97998e3ad83ec15e67e58e08d0767ff4bd69a5f"
+RPM_NAME = "texlive-yannisgr-doc-2023.209.svn22613-53.2.noarch.rpm"
+RPM_HASH = "f65b5f2271748294161abb0668df18cb2ddc21b2512a9c9ae27100dc41d7e968ad498adafbfcfc9daa0260e15aeb64251e2fe5c56efedfcc67362659db951a7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yannisgr-doc"

@@ -4,8 +4,8 @@ LICENSE = "Apache-1.0"
 
 PV = "2023.209.svn64350"
 
-RPM_NAME = "texlive-roboto-fonts-2023.209.svn64350-54.1.noarch.rpm"
-RPM_HASH = "45cde9baa7b229e8b654c2f4d1939815efcb3a1422a9036b1cf8fc269310942c74712b40d2dd8cb867ad44201827dd6b3d06975d9587ea9c629c4d82c449980e"
+RPM_NAME = "texlive-roboto-fonts-2023.209.svn64350-54.2.noarch.rpm"
+RPM_HASH = "ddb39d927b1b4e5445c65bfa4caad3cbecbd4df2030b263e8e292ed65de12dd035a589724601b827f4fa52f4a681765c679a29783c0e8fd171eaab1439def528"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-roboto-fonts \

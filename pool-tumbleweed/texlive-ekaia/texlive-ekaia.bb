@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.06svn49594"
 
-RPM_NAME = "texlive-ekaia-2023.209.1.06svn49594-54.1.noarch.rpm"
-RPM_HASH = "cdc20e36c84674fd0f1e211bb1105d27150e839e0d6bd2ae9b30a55a1860312b356ccdf24b290e72328e98668d8d3c714e255f8d776a77cc18d5f4a908cf0775"
+RPM_NAME = "texlive-ekaia-2023.209.1.06svn49594-54.2.noarch.rpm"
+RPM_HASH = "f58904bd2be21fbff41d1ab9ae2b69faf706799bc3aa52beabd949cccd64bfb76d085b1d4b96fba18a193a84d46534df69c2e9729a1c906060dbf15bb86feae7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ekaia.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Bluetooth device plugin for NetworkManager"
 DESCRIPTION = "This package contains NetworkManager support for Bluetooth devices."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.42.8"
+PV = "1.44.0"
 
-RPM_NAME = "NetworkManager-bluetooth-1.42.8-1.1.aarch64.rpm"
-RPM_HASH = "85d74378705ff922429cadd711cdb172dfc1c26a548bdd593f9809d06d974465e4eeb8c30bc1458b03b8c0810cbef5036c512a434db679447c50f3617db51625"
+RPM_NAME = "NetworkManager-bluetooth-1.44.0-1.1.aarch64.rpm"
+RPM_HASH = "82163ec4f24312cd57b4870e800b25dabf9f758cddc7815d14f70c477008d5680b7f42622c44bf296077a6abbd730945b2cbcef7aeb79f19bc3e3e8108067d5b"
 
 RPROVIDES:${PN} += "NetworkManager-bluetooth \
 libnm-device-plugin-bluetooth.so"

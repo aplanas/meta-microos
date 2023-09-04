@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.22.2"
 
-RPM_NAME = "checkbashisms-2.22.2-1.5.noarch.rpm"
-RPM_HASH = "cd15d59f1b44f05e1bca5f9a89b824c5062bf31414b3a57f014d055da78eebf9dd5178375afbdebbd9fbf16c40b370c0088768fcfcb87e253f9508a52b890bda"
+RPM_NAME = "checkbashisms-2.22.2-1.6.noarch.rpm"
+RPM_HASH = "0c363a8b3823eb1b2b9c4590072fa093f527cb1a39877a5f0d8fae441f8d444fe14cefc52f2c05b5e4fcb7053b8217dcfa2f9abd2d750a3ca26ef053d56d7e06"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "checkbashisms \
@@ -16,6 +16,6 @@ deb-/usr/bin/checkbashisms \
 devscripts-/usr/bin/checkbashisms"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

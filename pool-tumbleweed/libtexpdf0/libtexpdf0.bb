@@ -3,10 +3,10 @@ DESCRIPTION = "A PDF library extracted from TeX's dvipdfmx. Used in software suc
 This package contains the shared library for libtexpdf."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.14.10"
+PV = "0.14.11"
 
-RPM_NAME = "libtexpdf0-0.14.10-1.1.aarch64.rpm"
-RPM_HASH = "4710d4e2ce3d5865045e81922dca81c62099bda9da2fef054c3671939612fb73ace7e54fd3340338e3e2e1f1de901a7fbc69d490dbb6f67951ca1311245c82f4"
+RPM_NAME = "libtexpdf0-0.14.11-1.1.aarch64.rpm"
+RPM_HASH = "b9792afe780d17ef308831ef2f801e96050d9ff153e8c4d37ff099f364a10ec9e26d14ef2ec90990705a0dd5792594322e1af6704a3388aaf9959e583de74dc2"
 
 RPROVIDES:${PN} += "libtexpdf.so.0 \
 libtexpdf0"

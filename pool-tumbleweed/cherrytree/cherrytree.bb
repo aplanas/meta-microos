@@ -4,10 +4,10 @@ highlighting, storing all the data (including images) in a single xml \
 file with extension '.ctd'."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-only"
 
-PV = "0.99.55"
+PV = "1.0.0"
 
-RPM_NAME = "cherrytree-0.99.55-1.4.aarch64.rpm"
-RPM_HASH = "f6392c537b06edfa17979a239aecdd2c23cbea7fab2f27c6564e84239cbeeafeae89500396f5b7280c9ff4ce631d0a0a950b3b2bf0260b38df70c34d4e3e7777"
+RPM_NAME = "cherrytree-1.0.0-1.1.aarch64.rpm"
+RPM_HASH = "973c75bf53093b99754bff915cacbaab416901aa23a8fa2b9f54bf96c9fc36447c57d0ac9bb67f77e668fc2be1647fb5f4db827c06f723cc9c3e161887dca165"
 
 RPROVIDES:${PN} += "cherrytree"
 

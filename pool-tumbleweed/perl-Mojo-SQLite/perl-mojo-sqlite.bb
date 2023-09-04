@@ -8,8 +8,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "3.009"
 
-RPM_NAME = "perl-Mojo-SQLite-3.009-1.8.noarch.rpm"
-RPM_HASH = "97f7304477739779d6bc61446a6b646232f1a403238c54e406d6a653afc33be26e045f1c9bdb9df59814e59cdb9fed4852d0735663854928886fac66b6a3de3c"
+RPM_NAME = "perl-Mojo-SQLite-3.009-1.9.noarch.rpm"
+RPM_HASH = "eaac7ef650bea648a36b9283799bd447bf36a7fa07b73f305a3327e585b986bcc4bc1bb4e9bad565a356c2bdced5542178d75b6568a70e4987f9e77738f45035"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojo--SQLite \
@@ -20,7 +20,7 @@ perl-Mojo--SQLite--Results \
 perl-Mojo--SQLite--Transaction \
 perl-Mojo-SQLite"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-DBD--SQLite \
 perl-DBI \
 perl-Mojolicious \

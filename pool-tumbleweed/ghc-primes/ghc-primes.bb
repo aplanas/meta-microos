@@ -6,15 +6,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.1.0"
 
-RPM_NAME = "ghc-primes-0.2.1.0-1.2.aarch64.rpm"
-RPM_HASH = "2faf3b47b43f8a4587aea1fe8c3cd1bb9d2ec6bd1e8ced7d6042bd38f5449a019b63deca7a079d6ca5c6263264a15975cc43bf0e0a4054256812c6b1a316435f"
+RPM_NAME = "ghc-primes-0.2.1.0-1.3.aarch64.rpm"
+RPM_HASH = "c8f16543feca18a42b173fb6f948bb7e58149f8d32b2773a28d770133fa24a35e95a0915c9e6f7f22ac28b13b8f81049ecccb2a53e501566d60d62af697518eb"
 
 RPROVIDES:${PN} += "ghc-primes \
-libHSprimes-0.2.1.0-EDehUtw1pOPPL7EktYCRg-ghc9.4.5.so"
+libHSprimes-0.2.1.0-Gyap6mKLPxs4D6ga1tuZTq-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

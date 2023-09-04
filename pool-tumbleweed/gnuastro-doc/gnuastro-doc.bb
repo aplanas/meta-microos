@@ -2,10 +2,10 @@ SUMMARY = "Documentation for the GNU Astromomy Utilities"
 DESCRIPTION = "Additional documentation for the GNU Astromomy Utilities."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.19"
+PV = "0.20"
 
-RPM_NAME = "gnuastro-doc-0.19-1.12.noarch.rpm"
-RPM_HASH = "142499f32c31b5348b7d3474a2277b04945f0b2760813cc494b769093c25db007bfed66a33cbc1b8343d2809a2335e654cfe06f3776323cfe030d3bd587f1754"
+RPM_NAME = "gnuastro-doc-0.20-1.1.noarch.rpm"
+RPM_HASH = "68bc114e3c3eeb5debcb78947b5582af062c82d927260f0a0bdb447a17af8dffdea4fb981e126abfeb1cad9078d0ca831454a44777c2716b308914bccf317aa3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnuastro-doc"

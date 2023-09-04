@@ -4,17 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.2.8"
 
-RPM_NAME = "ghc-tabular-devel-0.2.2.8-4.6.aarch64.rpm"
-RPM_HASH = "26ae2c1400a3c17ab97c92f051c18f74c8cd7c8fc9faf6c3c0a1062e5d4ae3f69b8bc9cadfdf88b952c26734e9772f1adb622a2e1a3b888e4b7e4a9ba3242d3f"
+RPM_NAME = "ghc-tabular-devel-0.2.2.8-4.8.aarch64.rpm"
+RPM_HASH = "a7eac7679eb60acd72dcab43b77a680b2e72f5afbc2655dacd42fa7e0df02b7335aa0183890a42190f5eea1f76d7a3b0d73de3e76d6c2f389ee06f0e6e76c32a"
 
-RPROVIDES:${PN} += "ghc-devel-tabular-0.2.2.8-5oBUDJP9F9qUMGPeotGAp \
+RPROVIDES:${PN} += "ghc-devel-tabular-0.2.2.8-6UpIsHxi6ag26Q8LzRReTM \
 ghc-tabular-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-csv-0.1.2-LKioaw43aTAAAKpIk04xxN \
-ghc-devel-html-1.0.1.2-U7qWIp0bJwCnAFPlj3UZy \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-csv-0.1.2-D7ZtQLgQlciDV3aF4oWKCf \
+ghc-devel-html-1.0.1.2-Ei0LKBl3CyAHMF3GZI2hqu \
 ghc-devel-mtl-2.2.2 \
 ghc-tabular"
 

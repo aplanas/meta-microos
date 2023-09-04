@@ -11,22 +11,16 @@ the Python application and presenting it to the user as a desktop \
 application."
 LICENSE = "PostgreSQL"
 
-PV = "4.30"
+PV = "7.6"
 
-RPM_NAME = "pgadmin4-4.30-2.12.aarch64.rpm"
-RPM_HASH = "2113c1390781539773a8ba28d2805c7fa54d20b2a10bb228d32d52cb3cec5ecac45c0abcc8c0c7c10a5b87627426730fdbe810437ca1682058fb7b6eaa01e867"
+RPM_NAME = "pgadmin4-7.6-1.1.noarch.rpm"
+RPM_HASH = "222d99dc723485dade15c5b69bd1e3b117fa172e444cb79db6412c183307bbaa277b1854a9e4c56adc72f0ec02adf7bde098abdbb07d3c129ef0574c2d759384"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-pgadmin4 \
 pgadmin4"
 
-RDEPENDS:${PN} += "libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Widgets.so.5 \
-libc.so.6 \
-libgcc-s.so.1 \
-libpython3.11.so.1.0 \
-libstdc++.so.6 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
 pgadmin4-web \
 python3 \
 systemd"

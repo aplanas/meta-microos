@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.50.1"
 
-RPM_NAME = "lua-libguestfs-1.50.1-4.1.aarch64.rpm"
-RPM_HASH = "2107302652837e542534516434c96f502f4e45a9bbcdc18b78729de113d263ab27f1e5b10c82dbfd97282b8e2deeb094e8a39223127255579689524e6c71e73c"
+RPM_NAME = "lua-libguestfs-1.50.1-4.2.aarch64.rpm"
+RPM_HASH = "0d6f9b818503666581eb5b8de8f6fa0c310926fd5e1324a6b8e240388dc4cae2eb7304dc6c10f5ea12022d51838adf7e57983ce42802a038bb9578e2e5d620f4"
 
 RPROVIDES:${PN} += "libluaguestfs.so \
 lua-libguestfs"

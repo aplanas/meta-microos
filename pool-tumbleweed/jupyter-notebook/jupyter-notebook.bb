@@ -5,20 +5,15 @@ interactive computing. \
 This package provides the jupyter components."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.5.4"
+PV = "7.0.2"
 
-RPM_NAME = "jupyter-notebook-6.5.4-1.2.noarch.rpm"
-RPM_HASH = "3f74b59f0b3ac53dceaff75bc0593f6314decd762d5681827339bc07204770da148f6d64b4b063d5d66ee60767b9014ff70060abd64e50157e4e0990da9abfad"
+RPM_NAME = "jupyter-notebook-7.0.2-1.1.noarch.rpm"
+RPM_HASH = "338c99dd008aac3662f19637e7fcb1f35a7e60422cb28e9a8f83f4a4087377d6c1aace2be928ff24cbcb57e4946fd25211702bb849233028c3d8231d69640edf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-notebook \
 jupyter-notebook-doc"
 
-RDEPENDS:${PN} += "jupyter-ipykernel \
-jupyter-jupyter-client \
-jupyter-jupyter-core \
-jupyter-nbconvert \
-jupyter-notebook-filesystem \
-python3-notebook"
+RDEPENDS:${PN} += "python3dist-notebook"
 
 inherit rpm

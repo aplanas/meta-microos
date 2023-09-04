@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.4.8"
 
-RPM_NAME = "python311-imageio-ffmpeg-0.4.8-1.4.noarch.rpm"
-RPM_HASH = "97d09ee51a4c681cdae2a23c338cc509a06ebbbf293dce16b4de155bb8fa9ae86f2c7c3a3fc46af888738cd056644ca258b92678fc755955dfb836b534cf3541"
+RPM_NAME = "python311-imageio-ffmpeg-0.4.8-2.1.noarch.rpm"
+RPM_HASH = "a41ab9717eb3de2ff2f78b5133b02ed6c85648dacf16f8a3365d783fbbfbba4ebf3c92c799af383fe5d6ec40b0acaddbae516f444fa7f3643aa8ae2dbd48584b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-imageio-ffmpeg \

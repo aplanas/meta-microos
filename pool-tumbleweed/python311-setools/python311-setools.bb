@@ -3,10 +3,10 @@ DESCRIPTION = "SETools is a collection of graphical tools, command-line tools, a
 libraries designed to facilitate SELinux policy analysis."
 LICENSE = "LGPL-2.0-only"
 
-PV = "4.4.2"
+PV = "4.4.3"
 
-RPM_NAME = "python311-setools-4.4.2-2.1.aarch64.rpm"
-RPM_HASH = "79d7e459d1411eaee112caea570bc01efa058d94e3cd54507009dd921f5f0cb83f082743038789003ebf826820bb3e73199869d4e6d070f6e208ecd7743da7bf"
+RPM_NAME = "python311-setools-4.4.3-1.1.aarch64.rpm"
+RPM_HASH = "6d50e7dec36de88c29f8aca517c80d9e4906acd58b7e6e523858e64ff5db8b0b6a024c2337a05a03a28c3dc76efa9d386f0a8329549bb844470d4224f31f61f4"
 
 RPROVIDES:${PN} += "python-setools \
 python3-setools \

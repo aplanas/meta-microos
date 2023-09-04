@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.1.0"
 
-RPM_NAME = "javapackages-filesystem-6.1.0-3.1.aarch64.rpm"
-RPM_HASH = "7907a9fc8967b0b787c15ba35fff8af044a97ad19387d71cf011e1e2f22ee6ab0de933b9cd83d6d7927ac1c63871e253678c41de0787fbdff93fb6890adb2c09"
+RPM_NAME = "javapackages-filesystem-6.1.0-4.1.aarch64.rpm"
+RPM_HASH = "c91a4bf3d29a493a427c9e5515ecb69606aa48281e538b18c51622b4617176a4021d5393fb34d98c94e67771c16942f80a9b523bc11f6294085a94bbba81156a"
 
 RPROVIDES:${PN} += "javapackages-filesystem \
 rpm-macro--ivyxmldir \

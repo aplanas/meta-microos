@@ -6,8 +6,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.8.17"
 
-RPM_NAME = "python38-doc-devhelp-3.8.17-1.1.aarch64.rpm"
-RPM_HASH = "cdaa936eeb08cb98bf8b377046f92934527ec361e5c0afa506c4d51e70ca13aff17cc346e72dc81cc06438f75a0ada1934d782798accdb7d9f3fc25d55e27cab"
+RPM_NAME = "python38-doc-devhelp-3.8.17-2.1.aarch64.rpm"
+RPM_HASH = "6888641ed5596e00c4ac7c596aeb48210c7b1dc1b48271a8c0fd177a9a02564c1978e41166ee2d041807cc35b0fddc9c2874e2c46890bea0ca99bfad75fcd183"
 
 RPROVIDES:${PN} += "python38-doc-devhelp"
 

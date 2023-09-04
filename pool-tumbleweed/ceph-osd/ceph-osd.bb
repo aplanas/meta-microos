@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause
 
 PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "ceph-osd-16.2.13.66+g54799ee0666-3.1.aarch64.rpm"
-RPM_HASH = "bfc6a9fd9975ec90806209a26e34ca9b3dec10849f94e9249f9c8fccc3b51f872a6e6bfcad26649709a3ed5c22c8ccdd947cb55eb2c786f4a015eb4e5ffc67ae"
+RPM_NAME = "ceph-osd-16.2.13.66+g54799ee0666-4.1.aarch64.rpm"
+RPM_HASH = "5ca232aa39f549e71986e0f4edbfb7f1fd28aab4ae8d99e76c6cc376880dd09848a9c36bf52215a3fb4a3e454f6dbb14c18f2e25ad66e829e7d622d3fb63da68"
 
 RPROVIDES:${PN} += "ceph-osd \
 ceph-test-/usr/bin/ceph-osdomap-tool \

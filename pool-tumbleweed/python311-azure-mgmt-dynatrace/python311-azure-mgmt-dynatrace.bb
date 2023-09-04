@@ -4,10 +4,10 @@ DESCRIPTION = "This is the Microsoft Azure Dynatrace Management Client Library. 
 This package has been tested with Python 3.6+."
 LICENSE = "MIT"
 
-PV = "1.0.0.0"
+PV = "2.0.0"
 
-RPM_NAME = "python311-azure-mgmt-dynatrace-1.0.0.0-1.4.noarch.rpm"
-RPM_HASH = "b74e191a915b3987b52bc9b1f2a1bff4815fae6729b4ad1ced00f8f3f86bb731082632a138ec056658446a8efde782230781f2d28b0774ada663af7e67015d97"
+RPM_NAME = "python311-azure-mgmt-dynatrace-2.0.0-1.1.noarch.rpm"
+RPM_HASH = "0ed6edde6c775936a4e15e2094c30ae640ff324e97f28bf8d2bfd9fbb1c98ed33d178f09c47919eb4591292c1a8eb3da092923631fadd38079a2f939c160f30b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-dynatrace \
@@ -20,6 +20,6 @@ python311-azure-common \
 python311-azure-mgmt-core \
 python311-azure-mgmt-nspkg \
 python311-azure-nspkg \
-python311-msrest"
+python311-isodate"
 
 inherit rpm

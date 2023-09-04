@@ -18,10 +18,10 @@ estimating Parameter uncertainties from the covariance matrix is \
 questionable."
 LICENSE = "BSD-3-Clause & MIT"
 
-PV = "1.1.0"
+PV = "1.2.2"
 
-RPM_NAME = "python311-lmfit-1.1.0-1.5.noarch.rpm"
-RPM_HASH = "cec72ad0f47d0f34fd22a763a88726e8d7ef7cc142c4364b113c824ba23e838894be80d19bb5d4544f1ff2ab518161099865603694bdeb1b565c60e32ad6a942"
+RPM_NAME = "python311-lmfit-1.2.2-1.1.noarch.rpm"
+RPM_HASH = "691724c2da1a4da58216b63f7aac38cbf366ca5d7d5d0e4bbaf3668d62d5cdd1c992617dbd8ad8816688ee5fa16a6929cf88945c0e4674279f3f4f75c7493b51"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-lmfit \

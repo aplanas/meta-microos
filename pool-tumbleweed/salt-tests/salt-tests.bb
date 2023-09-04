@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3006.0"
 
-RPM_NAME = "salt-tests-3006.0-1.4.aarch64.rpm"
-RPM_HASH = "65b2b3da902e80dbcf343f25db4051b18f3cfc0eac0dfb2e58e9beb8e0d5964489d00c141a03ba2403467ff5dc4aeae2c14eb97df9798034dfa8c8e6a53d9372"
+RPM_NAME = "salt-tests-3006.0-2.1.aarch64.rpm"
+RPM_HASH = "d3717e25111be94e8482c2a64b071705e4a0703ab51666f49d6134fc8ebafa7f2ab615ba0c8a6f7cac1cd15cd8d33fae056fabb6711270031f582ab9f6c5c434"
 
 RPROVIDES:${PN} += "salt-tests"
 

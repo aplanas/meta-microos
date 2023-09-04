@@ -2,10 +2,10 @@ SUMMARY = "Access Java classes from Python"
 DESCRIPTION = "Access Java classes from Python."
 LICENSE = "MIT"
 
-PV = "1.4.2"
+PV = "1.5.0"
 
-RPM_NAME = "python310-pyjnius-1.4.2-2.6.aarch64.rpm"
-RPM_HASH = "cc2de41824f0335016d3597c82a4236024b9188e417ce5de83925f18804940f2bad334b9c3b205c8799623d1bc95daa131c775d1c1286ff48272a4fc653f6fbc"
+RPM_NAME = "python310-pyjnius-1.5.0-1.1.aarch64.rpm"
+RPM_HASH = "87c785107d18f83657ca0028ad44e0a7d2b3af2ef0af6d6c080288c9a8697e99bd45fef3a900f9c5898108c6aafc297e7f44babb352027a0e36d02071489eb1d"
 
 RPROVIDES:${PN} += "python3.10dist-pyjnius \
 python310-pyjnius \

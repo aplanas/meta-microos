@@ -24,8 +24,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.058"
 
-RPM_NAME = "perl-Net-SSLGlue-1.058-1.24.noarch.rpm"
-RPM_HASH = "b54e67cf57d37a38293af09607b55672eccae4b4aa8a4ee76df9474b12bf8f9be41452f6159d53041a0803aa7938a8c938d7ef243f14fad8cc3e3035d45226e1"
+RPM_NAME = "perl-Net-SSLGlue-1.058-1.25.noarch.rpm"
+RPM_HASH = "2d91c9f3ba2471a6a84fab84e42178088e8abdc3530f060a03de81bdbb1b2d2504450be0facc9388669033379c610a95f9a8b472f5c81ccf90af60a826e1a41d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--SSLGlue \
@@ -44,7 +44,7 @@ perl-Net--SSLGlue--Socket \
 perl-Net--SSLGlue--Socket--HANDLE \
 perl-Net-SSLGlue"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-IO--Socket--SSL"
 
 inherit rpm

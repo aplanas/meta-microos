@@ -18,10 +18,10 @@ Advantages over w3mimgdisplay and ueberzug: \
 - Resized images are cached for faster viewing"
 LICENSE = "GPL-3.0"
 
-PV = "2.8.9"
+PV = "2.9.1"
 
-RPM_NAME = "ueberzugpp-2.8.9-1.1.aarch64.rpm"
-RPM_HASH = "231eb73f028c7bd9c66744aba49cf16725cd6700291e0b1f82ecb37bea34404ccd9ca87ba3c5405aaf8b75dd65a831ab7bdd7a84cd09f7139d1e62fab748568b"
+RPM_NAME = "ueberzugpp-2.9.1-1.1.aarch64.rpm"
+RPM_HASH = "d513ba9961d64dfd6b5fda587f1b78bf7af24c3223cbc0971e78f8f0b818f259d6219772a60ce4d96a23181832f7417de0ddd50b65d0a5661987740dd8c18544"
 
 RPROVIDES:${PN} += "ueberzugpp"
 

@@ -8,10 +8,10 @@ exported to several pixmap and vector graphic formats. \
 This version is based on KDE Frameworks 5"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.10.0"
+PV = "2.10.1"
 
-RPM_NAME = "labplot-kf5-2.10.0-1.1.aarch64.rpm"
-RPM_HASH = "adaf06d24650b211c7a90215d654677371e561a09302abf4254aaf367e1b7c35c4897d38ee3b9445373ea8d555d532167a1a45f30c3687a7f3314cdba07aa759"
+RPM_NAME = "labplot-kf5-2.10.1-1.1.aarch64.rpm"
+RPM_HASH = "7f36c2bd5fc0024abc2a697b2ef138945509dcdeef365724b1fbfeca1be4113a36ac0a32f2f6d8e05b9f66d12629e1dcd662edb33df1a510727938bdf845d10a"
 
 RPROVIDES:${PN} += "labplot \
 labplot-kf5"
@@ -54,7 +54,6 @@ liblz4.so.1 \
 libm.so.6 \
 libmatio.so.11 \
 libnetcdf.so.19 \
-liborigin.so.3 \
 libpoppler-qt5.so.1 \
 libstdc++.so.6 \
 libz.so.1"

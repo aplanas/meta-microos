@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.7"
 
-RPM_NAME = "mvapich2-devel-static-2.3.7-4.4.aarch64.rpm"
-RPM_HASH = "d04c91ecf4dbea7519a35d1642b2eca70db3dbebe7c1983ab7e72e47d7a34835443cdc53b8f2bc06ea931b881240df362fbf8ba859c768eab31e91efe710a13c"
+RPM_NAME = "mvapich2-devel-static-2.3.7-5.1.aarch64.rpm"
+RPM_HASH = "f15ce892eaca3060de4846970a8f3e277f5d89a3531b8363841469d262a938d010ac3f1e4f4705560fd966ee8a89a9b7844ca6cf994581518db1b2b1aa3fa7cb"
 
 RPROVIDES:${PN} += "mvapich2-devel-static"
 

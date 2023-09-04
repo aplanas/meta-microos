@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn50810"
 
-RPM_NAME = "texlive-ptolemaicastronomy-2023.209.1.0svn50810-54.1.noarch.rpm"
-RPM_HASH = "fff3e564fe3bb45b6e47a8733d22c396a0b749f98e9e7574fba8435714586ec7d2cdeab7274b5e1f1fe9aab9539ef0c85c89acaf2817ae6cfcccb47dfa3b141b"
+RPM_NAME = "texlive-ptolemaicastronomy-2023.209.1.0svn50810-54.2.noarch.rpm"
+RPM_HASH = "0235e4dd0b0ca14abfd144c5a2651d7c9bb90cfa899f3bfe04e713a200e703ad93450b5cf33c40dd32c67357e35419ba21b4852ebebb56228f59b602d825ace3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ptolemaicastronomy.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ifmslide"
 DESCRIPTION = "This package includes the documentation for texlive-ifmslide"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.47svn20727"
+PV = "2023.209.0.0.47svn20727"
 
-RPM_NAME = "texlive-ifmslide-doc-2023.208.0.0.47svn20727-53.1.noarch.rpm"
-RPM_HASH = "4853e14508e94e6b6814d6dae04dfd5b3b9fd4353bb8a5ae2c50218b2ced3391c391266047e06090a4690fafc5ff7630aba0d1c91889454448b83d7ae215ee76"
+RPM_NAME = "texlive-ifmslide-doc-2023.209.0.0.47svn20727-54.1.noarch.rpm"
+RPM_HASH = "88cfac529cbb07a518cf0642c79112abdfd622be6e42e53ae05b9d04b62ecc19b577cd1cd4022046494635ba2291560c27e9b0501f28626e9b77d8877cccb60d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ifmslide-doc"

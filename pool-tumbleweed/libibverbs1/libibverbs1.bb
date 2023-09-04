@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "47.0"
 
-RPM_NAME = "libibverbs1-47.0-1.1.aarch64.rpm"
-RPM_HASH = "44843b3a7cf56cfde29aa70e9e8629daabd50d391acf3d2904884ce37541a09ce8554deaf7216e40699dcd159c70afa9f4886284f5a1b436effe0a21f0aac06c"
+RPM_NAME = "libibverbs1-47.0-2.2.aarch64.rpm"
+RPM_HASH = "20e919946d137c524312c35467ac4f973d2c022ebf726b9f4dd02a00a92d216703fdd45ed907498c1671f62b1346470c72988aa9842739883f0bb4bf40de3099"
 
 RPROVIDES:${PN} += "libibverbs.so.1 \
 libibverbs1"

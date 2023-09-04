@@ -2,10 +2,10 @@ SUMMARY = "Welsh hyphenation patterns"
 DESCRIPTION = "Hyphenation patterns for Welsh in T1/EC and UTF-8 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn58652"
+PV = "2023.209.svn58652"
 
-RPM_NAME = "texlive-hyphen-welsh-2023.208.svn58652-53.1.noarch.rpm"
-RPM_HASH = "49416cf20c1f91c608ae25aef7abd4849d4778a4fbb5a96e4ff87098ba01aff828fc8da167dc588e69fc54b6f14825c5ee1e19d909d6fb30ed9f34916fdcc976"
+RPM_NAME = "texlive-hyphen-welsh-2023.209.svn58652-54.1.noarch.rpm"
+RPM_HASH = "5dd1e90eea3b8c646e8f9b67e368f1954ca857670fedc5f5c6bd1faabc6703a211fe4897bf0b9dc6c7c775d34ac5931bbc71bea5ea0c7b057e5af138af9dd454"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-cy.ec.tex \

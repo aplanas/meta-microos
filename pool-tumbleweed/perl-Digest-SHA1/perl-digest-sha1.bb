@@ -13,14 +13,14 @@ LICENSE = "Artistic-1.0"
 
 PV = "2.13"
 
-RPM_NAME = "perl-Digest-SHA1-2.13-19.38.aarch64.rpm"
-RPM_HASH = "9c0d32e0dc6495b1003034394511e316ead08cbcc4557f7d675d336816f17af66bdbf578a1bcd2a4ad8cca8ef3e42a4b7f0324a8db9ead606e95e82c056934fb"
+RPM_NAME = "perl-Digest-SHA1-2.13-19.39.aarch64.rpm"
+RPM_HASH = "ef40610467d537c8109202583c8e4b0215e39a144864d69302e3a5b7e7f2f8ddbe3441e68b3782b60ca6ded36d1d4a96c53b61435fa3de7ca5ed163db80f4dc0"
 
 RPROVIDES:${PN} += "perl-Digest--SHA1 \
 perl-Digest-SHA1"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.0"
 
-RPM_NAME = "firewall-config-2.0.0-1.1.noarch.rpm"
-RPM_HASH = "cb805ff89f4d4f4f968c0804315911896dbd6ade83e960c49015b0e0795d1a50a4cc0d53d42bf845709c79b2160d12c4dd1a060fbb1bbff9816c4d7a99bfa46c"
+RPM_NAME = "firewall-config-2.0.0-2.1.noarch.rpm"
+RPM_HASH = "93756568614cbb209e663774e9bcf2522a23a699761e37878a494f0ef0bf3c3fb15d4276bc2254468f9aa72f1afe6d0528336ea8830c29508219beeea477de3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firewall-config"

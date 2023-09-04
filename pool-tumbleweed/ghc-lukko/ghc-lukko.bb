@@ -37,15 +37,15 @@ LICENSE = "GPL-2.0-or-later & BSD-3-Clause"
 
 PV = "0.1.1.3"
 
-RPM_NAME = "ghc-lukko-0.1.1.3-5.6.aarch64.rpm"
-RPM_HASH = "b5400bf268fd72f6ef010ed73f0acc83a000d3ddf3a5e7746776ed719832623e61ee1534de17927a7ba547004c7f6444789b05081ba708c4f57ba8c72cae0be7"
+RPM_NAME = "ghc-lukko-0.1.1.3-5.8.aarch64.rpm"
+RPM_HASH = "1f66b1c21007908db68b56afcfadac7a0a1acbd60fb425b18219d7f6b01a211b5133bff861f5d2b769f37d5012d39d392003198b9b17ca2aff2388947d83e7d9"
 
 RPROVIDES:${PN} += "ghc-lukko \
-libHSlukko-0.1.1.3-7Ko9x6wnjxCV3NuL9k89V-ghc9.4.5.so"
+libHSlukko-0.1.1.3-IWqFfSgydIZCIQyWjUior5-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

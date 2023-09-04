@@ -4,13 +4,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.0"
 
-RPM_NAME = "ghc-parser-combinators-prof-1.3.0-2.6.aarch64.rpm"
-RPM_HASH = "7194ac9a4dd6e3a46ca9743335a7de2718f5b217a28bd11cfa4257fe82ce673752e99b5b756f6dc8dc6b47fc28a0c93eaf51499b8c57e0cabdfbe85169ffd08b"
+RPM_NAME = "ghc-parser-combinators-prof-1.3.0-2.8.aarch64.rpm"
+RPM_HASH = "ce1a2362c5462b0d53724ee83123e7392b0ca5e688a07d80cb0cac1df52b8050ffe800c65a964e9af5e740e659a0a33f3094c498fc6d9982b2e7b1617fe967ae"
 
 RPROVIDES:${PN} += "ghc-parser-combinators-prof \
-ghc-prof-parser-combinators-1.3.0-69OkkuibEVDB76y6u8xJBt"
+ghc-prof-parser-combinators-1.3.0-9EAIYkVxwfT3bR6YOGtMtZ"
 
 RDEPENDS:${PN} += "ghc-parser-combinators-devel \
-ghc-prof-base-4.17.1.0"
+ghc-prof-base-4.17.2.0"
 
 inherit rpm

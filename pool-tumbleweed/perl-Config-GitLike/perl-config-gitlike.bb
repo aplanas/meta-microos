@@ -37,8 +37,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.18"
 
-RPM_NAME = "perl-Config-GitLike-1.18-1.14.noarch.rpm"
-RPM_HASH = "6d342e8339f6d9d54badb4e12302321ffc36ee7a897064e99e1061a5bb4c6aaadd628061f5c5c778c68d3c1a50be3d793a6021d3f1ee2f4afefeb2641ec559ca"
+RPM_NAME = "perl-Config-GitLike-1.18-1.15.noarch.rpm"
+RPM_HASH = "3bbc7817f1e1c8c6e5ae5709b1f279d5db027f19900eab9275a4298da6d9d0d249daed0125e67047564ffb61eb5e4dd311c5240c2cfd7fd7825745cb7e058806"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Config--GitLike \
@@ -46,7 +46,7 @@ perl-Config--GitLike--Cascaded \
 perl-Config--GitLike--Git \
 perl-Config-GitLike"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Moo \
 perl-MooX--Types--MooseLike"
 

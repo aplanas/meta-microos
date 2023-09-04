@@ -15,10 +15,10 @@ Amazon EC2 instances, or servers and virtual machines (VMs) in your on-premises 
 environment that are configured for Systems Manager."
 LICENSE = "Apache-2.0"
 
-PV = "3.2.923.0"
+PV = "3.2.1478.0"
 
-RPM_NAME = "amazon-ssm-agent-3.2.923.0-1.2.aarch64.rpm"
-RPM_HASH = "991b8e9a4f1f0741d975cc3a3a2d49d9b792e4799237c39c5aa41b6fd6e8e4c90fd4936b0ecf25608e86abdd554a9ecb63bdd68f8fcd83c4d8fed6fa1252e322"
+RPM_NAME = "amazon-ssm-agent-3.2.1478.0-1.1.aarch64.rpm"
+RPM_HASH = "3cd76abca7a1e9d58a925395f450d0a2582893afbc918569f91a9a5a29c547679bf40cd47aa737346fd9be0bf39e867f0c12733e6c656803abf34ce4b1da9bc4"
 
 RPROVIDES:${PN} += "amazon-ssm-agent \
 bundled-golang(github.com/Microsoft/go-winio) \

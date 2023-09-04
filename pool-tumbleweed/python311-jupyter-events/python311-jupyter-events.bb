@@ -6,10 +6,10 @@ describing things happening inside the application. Other software \
 these events."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.6.3"
+PV = "0.7.0"
 
-RPM_NAME = "python311-jupyter-events-0.6.3-4.1.noarch.rpm"
-RPM_HASH = "8ad8cb50e8fe07a4a1444c1ddf0352e4486c4e42f94844931769493d927e59826ef12a0f6be5fa72412141dc63a98d14f2fb7ab1cd60802a1563d4039071389d"
+RPM_NAME = "python311-jupyter-events-0.7.0-1.1.noarch.rpm"
+RPM_HASH = "c1dcc60ee845b9485b5e98a2d04278742891ee41b0970246cdb05dcf9cbc9a7d603e6e35fa40f5d0333b1b87d9bf26a2d394a9a62033778a6054ed8845d5c8b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jupyter-events \

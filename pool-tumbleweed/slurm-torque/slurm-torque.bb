@@ -4,8 +4,8 @@ LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "23.02.2"
 
-RPM_NAME = "slurm-torque-23.02.2-1.3.aarch64.rpm"
-RPM_HASH = "e0aa7bc7e83922340bc2473e401a48eaf4336589b06f5d2e21cd230dbb3e71af4f6797bddd3c93a2e78c6455e17a42b395a5a6d9cf7ff36119d165987699aea4"
+RPM_NAME = "slurm-torque-23.02.2-1.4.aarch64.rpm"
+RPM_HASH = "e8047438e07b253ed093644cbc1a36a7758d2379f50c036af35eb9ffa056cd10f452f6a94e0d2bcf2b94c8335215d9dd48900ab1b003045a724d98e97ff2c43f"
 
 RPROVIDES:${PN} += "slurm-torque \
 torque-client"

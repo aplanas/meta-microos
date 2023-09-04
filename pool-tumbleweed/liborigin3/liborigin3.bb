@@ -5,10 +5,10 @@ Features: \
 * supports 4.1, 5.0, 6.0, 6.1, 7.0, 7.5 projects"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.0.1"
+PV = "3.0.2"
 
-RPM_NAME = "liborigin3-3.0.1-1.11.aarch64.rpm"
-RPM_HASH = "572e7141824176455f6a3a66bca6e9aa03e1f6aede14054694a230e9abad2a1a7a26b2ae0db0bb33bebd8c72573b9381139c8381fcaf4abe0dd46f4efef1df6f"
+RPM_NAME = "liborigin3-3.0.2-1.1.aarch64.rpm"
+RPM_HASH = "356753ac3a3f107263f96174884af1e04af162ea8695ccd74348f656ebe883d2aa886ae5e15e66c2dbd7ce2056407b4c73bd6f5ca0e6e9e7afe35b74e719fbb2"
 
 RPROVIDES:${PN} += "liborigin.so.3 \
 liborigin3"

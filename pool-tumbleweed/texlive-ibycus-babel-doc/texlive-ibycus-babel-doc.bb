@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ibycus-babel"
 DESCRIPTION = "This package includes the documentation for texlive-ibycus-babel"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.3.0svn15878"
+PV = "2023.209.3.0svn15878"
 
-RPM_NAME = "texlive-ibycus-babel-doc-2023.208.3.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "49a965efae48138800539aa23aed13cf672f2df679ef559d1549bda37a78ac049f87da8da87f07042a28c9d690268110203a522fbc51543d353bfe070a81979c"
+RPM_NAME = "texlive-ibycus-babel-doc-2023.209.3.0svn15878-54.1.noarch.rpm"
+RPM_HASH = "dce2e4e92164582aa802b53b34d030711bc58692c7123a8d1443e3ff172e1ab0d367b4c8c04989e3ad0991acf741404354da33c2fc9d8b99b6bd6cc4e611631d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ibycus-babel-doc"

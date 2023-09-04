@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 Quick library - Development files"
 DESCRIPTION = "Development files for the Qt 6 Quick library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "qt6-quick-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "121fb320895b6676f39d9334a1c9c1ee2cfc88ba5c379b4a4c030ce48d15282187ae759fd996fa3abee64c4de99b378390e0d20ee8438b554cb907cca8ac9b9a"
+RPM_NAME = "qt6-quick-devel-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "71a8bb3b4023b5acd6a80e7a699629ed01592e867f48c75bcf5415500d0fbad2676deaecf7f8c0a213985bc2d737a6ba9ac0bfa76af3867efda7f523bbcac77d"
 
 RPROVIDES:${PN} += "cmake-Qt6Quick \
 pkgconfig-Qt6Quick \

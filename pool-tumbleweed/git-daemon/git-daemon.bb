@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.41.0"
 
-RPM_NAME = "git-daemon-2.41.0-1.2.aarch64.rpm"
-RPM_HASH = "2084531d62d4beb49d22a747dcf9cf7b6aa664809cfd375858ef5c64ac99602f15ce6ff964700f5d269e2b844430c56d99575ef250d31334b8bad59bcb052aac"
+RPM_NAME = "git-daemon-2.41.0-1.3.aarch64.rpm"
+RPM_HASH = "629b2141ef828f5fb62aa5ee3745506c3e29dc1c06dbf31838f6f55e9fb0066d6a975197bfdfdce5f094165132144dac1b3ab3e39260bc8c039b242fbd65de41"
 
 RPROVIDES:${PN} += "git-daemon \
 group-git-daemon \

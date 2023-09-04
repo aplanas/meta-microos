@@ -5,17 +5,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.5.2"
 
-RPM_NAME = "ghc-vector-binary-instances-devel-0.2.5.2-6.1.aarch64.rpm"
-RPM_HASH = "064267ddbc3ce899bd5dc2cb2ebacdeb88abc8967037c17660a0f85216f27acfff9170c7cd34932222707f59ce093f539cfc432c4ac530b4403102342bc71b3f"
+RPM_NAME = "ghc-vector-binary-instances-devel-0.2.5.2-6.2.aarch64.rpm"
+RPM_HASH = "87315cef0e6c2153de609c840d0e572bcd74077747604b0f5eb4783bed023a28bd5e807b5440e2f4dc5e90316dcbea5d5f33653cbae7c05000eee23e631c2347"
 
-RPROVIDES:${PN} += "ghc-devel-vector-binary-instances-0.2.5.2-KcST7aCBDJmuBtN6ufmU8 \
+RPROVIDES:${PN} += "ghc-devel-vector-binary-instances-0.2.5.2-DYVTg98S1IFCZ0TRySxTVW \
 ghc-vector-binary-instances-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-binary-0.8.9.1 \
-ghc-devel-vector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp \
+ghc-devel-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
 ghc-vector-binary-instances"
 
 inherit rpm

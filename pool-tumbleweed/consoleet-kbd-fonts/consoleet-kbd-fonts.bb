@@ -1,12 +1,12 @@
-SUMMARY = "Vector/OTF versions of openSUSE's 'kbd' fonts"
+SUMMARY = "Vector/OTF versions of some classic kbd fonts"
 DESCRIPTION = "These are OpenType remakes of (some of) the VGA bitmap fonts otherwise \
 found in the 'kbd' package and in /usr/share/kbd/consolefonts/."
-LICENSE = "GPL-2.0-only"
+LICENSE = "CC-BY-SA-4.0"
 
-PV = "1.2"
+PV = "1.3"
 
-RPM_NAME = "consoleet-kbd-fonts-1.2-1.1.noarch.rpm"
-RPM_HASH = "72c9e037d1dc51f4be5a532fc43e9dcbcbcf20279b781fb147ef6e812d2f7ce99ef797658122013ff3d8ecd043a695a06ce7eb6376ab24aef2fa7aa2a8c14a13"
+RPM_NAME = "consoleet-kbd-fonts-1.3-1.1.noarch.rpm"
+RPM_HASH = "3a541d5a30474a78e495ff1b46cd38aac82d1d4f09193a2f59bfb93694572c226bb11940705eb5e6cf642016045d093aa97d0300d593aec785a53877e5d4d905"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "consoleet-kbd-fonts"

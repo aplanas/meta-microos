@@ -13,12 +13,12 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "2.02"
 
-RPM_NAME = "perl-Crypt-RC4-2.02-13.30.aarch64.rpm"
-RPM_HASH = "ddc0dbef7da5ff1dbd89c174314260bcc20373b225f4d07d2609604f00cfdb78108fe6d2ee9d496dcea62f91cc1413fe03c6126efa2f0d0e7ef0e3b6392b55d2"
+RPM_NAME = "perl-Crypt-RC4-2.02-13.31.aarch64.rpm"
+RPM_HASH = "ec15455def1197584877691d15b8eeac08cab0792f183aef7474b14bd7afe87f91aa1b06b84059be20e80319488148da45833d93ddb0bc0595afbe6a0242c319"
 
 RPROVIDES:${PN} += "perl-Crypt--RC4 \
 perl-Crypt-RC4"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

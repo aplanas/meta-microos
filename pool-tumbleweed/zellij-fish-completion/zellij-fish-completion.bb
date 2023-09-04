@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.37.2"
 
-RPM_NAME = "zellij-fish-completion-0.37.2-1.1.noarch.rpm"
-RPM_HASH = "422c3a111fbec5627aae483f9297b214eabe3359aa3b4b995ee411746909bec56f0e89863fbe18643f131a8663d06cb4a7ec5befc3a0dc2c98758e5ff4372ec2"
+RPM_NAME = "zellij-fish-completion-0.37.2-2.1.noarch.rpm"
+RPM_HASH = "14f33f3d4928a461558ebf2cedb043c4fa7b6e7228f342cc90bfda01d922660688ef232f6896176948505d7c4b1f2e7cea9b711be77fe36327fcc7bf067c363a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zellij-fish-completion"

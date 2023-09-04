@@ -3,10 +3,10 @@ DESCRIPTION = "The package is for typesetting bracketed dichotomous \
 identification keys."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.208.0.0.1.0svn61719"
+PV = "2023.209.0.0.1.0svn61719"
 
-RPM_NAME = "texlive-identkey-2023.208.0.0.1.0svn61719-53.1.noarch.rpm"
-RPM_HASH = "b30bc068f2bf189b455e20bdaa52d97f079aef6dae3313fbd91707de2ac11fe47cdb40d42817240280c5e8a2a2f6e22a2fe45a1c0313692ef97d8a80510f0849"
+RPM_NAME = "texlive-identkey-2023.209.0.0.1.0svn61719-54.1.noarch.rpm"
+RPM_HASH = "b69e01d675d4d71d6cee07a4a933272a2ea06e6fb5e46510dd089861f236b36164e5a1dc7d603de0246409a354f35bbfc9af2afc5fb691c935c1baf577f30c68"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-identkey.sty \

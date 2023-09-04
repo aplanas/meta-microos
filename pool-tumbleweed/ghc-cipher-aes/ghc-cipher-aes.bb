@@ -17,27 +17,27 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.11"
 
-RPM_NAME = "ghc-cipher-aes-0.2.11-4.4.aarch64.rpm"
-RPM_HASH = "3e636916697c2d4b502ae2981174d0e72fa5de5df3ce8ac0aa7a645f0aca39c6c77469e849bb032db82aad2d43ea10ca8dc1b2892eed074cf7518c0a2bd2709e"
+RPM_NAME = "ghc-cipher-aes-0.2.11-4.5.aarch64.rpm"
+RPM_HASH = "59485713228236f045509267eb3397bf85421201869a9f4380ffeb369ca281c98c1175695ee0642a3dd792cdaeafb42f90cc24c313ba8b5547968346bc48aca7"
 
 RPROVIDES:${PN} += "ghc-cipher-aes \
-libHScipher-aes-0.2.11-AUtsAMArdsjvHtn454bNK-ghc9.4.5.so"
+libHScipher-aes-0.2.11-J6Bfrfqg5Tl79OIpP67OVG-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libHSarray-0.5.4.0-ghc9.4.5.so \
-libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSbasement-0.0.16-J8UFRjmsTYU7wBgfpjdWQn-ghc9.4.5.so \
-libHSbyteable-0.1.1-KSaZugJOm4ALb4WyX9cufg-ghc9.4.5.so \
-libHSbytestring-0.11.4.0-ghc9.4.5.so \
-libHScrypto-cipher-types-0.0.9-9ncnLpjReeQDgkKFRi4kUz-ghc9.4.5.so \
-libHSdeepseq-1.4.8.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-boot-th-9.4.5-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
-libHSmemory-0.18.0-8CsggfkyXReDSMbRoae4Yp-ghc9.4.5.so \
-libHSpretty-1.1.3.6-ghc9.4.5.so \
-libHSsecuremem-0.1.10-14D6arGPELi9Mzd7V4Fyfu-ghc9.4.5.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
+libHSarray-0.5.4.0-ghc9.4.6.so \
+libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSbasement-0.0.16-JDtFhm6hoERETf7Hqk4dh9-ghc9.4.6.so \
+libHSbyteable-0.1.1-D4ZAyAuZ5dZDp71hQtTs5r-ghc9.4.6.so \
+libHSbytestring-0.11.5.1-ghc9.4.6.so \
+libHScrypto-cipher-types-0.0.9-6FlBjXMHauN3ENUNZLdeKl-ghc9.4.6.so \
+libHSdeepseq-1.4.8.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-boot-th-9.4.6-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
+libHSmemory-0.18.0-6jbQrbksm9m3FIftlSlmf1-ghc9.4.6.so \
+libHSpretty-1.1.3.6-ghc9.4.6.so \
+libHSsecuremem-0.1.10-HwgHwfqNrQFCVsnPOu3Pz4-ghc9.4.6.so \
+libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

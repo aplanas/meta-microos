@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gspell"
 DESCRIPTION = "Provides translations for the 'gspell' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.12.1"
+PV = "1.12.2"
 
-RPM_NAME = "gspell-lang-1.12.1-1.2.noarch.rpm"
-RPM_HASH = "6e07b1700f26112d8bd474cfd4efa7a5211e41e3a94580b709065a63e837dc3933d3b67a69fac688fbe41db3bd0f0c260acddb8e3f08648fd97d207674b27472"
+RPM_NAME = "gspell-lang-1.12.2-1.1.noarch.rpm"
+RPM_HASH = "955275a0a2cfa60eb3910c5ea2e8fc4262ba4926ff024e278fd6eeedf13259e9062eb5e36f358478aa9ebfc9d4723d8309381155657be3c15982caeb02e8d881"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gspell-lang \

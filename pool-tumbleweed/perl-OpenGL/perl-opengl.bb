@@ -4,8 +4,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.70"
 
-RPM_NAME = "perl-OpenGL-0.70-2.29.aarch64.rpm"
-RPM_HASH = "e61eb45b15363119a682a65fcdce774d72db3640e3d8800a599df28980f8a53aa5990cec6a659f574f70131e7aa0486467c3f7006b75c71aa784dfe35fd841f5"
+RPM_NAME = "perl-OpenGL-0.70-2.30.aarch64.rpm"
+RPM_HASH = "6527d5ded96ee8f124125414098e544bb035bf07163878bce729ecf1b6f8eb0b26fb5e433222d9b14752602bcf0ffe127eec0817fcc0770215c985b9d789d817"
 
 RPROVIDES:${PN} += "perl-OpenGL"
 
@@ -16,6 +16,6 @@ libX11.so.6 \
 libc.so.6 \
 libglut.so.3 \
 libm.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

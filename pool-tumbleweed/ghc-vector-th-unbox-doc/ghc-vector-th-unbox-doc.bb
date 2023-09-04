@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.2"
 
-RPM_NAME = "ghc-vector-th-unbox-doc-0.2.2-4.2.noarch.rpm"
-RPM_HASH = "143958c9d8b17e05fcb524cbbb8bccccfc07313dcc3593cbcc6d03fe9ba520e4f7a2f6ba78df796a8c40f6a9fc423a173507c5af455951cf4a15ad0badcd2e3d"
+RPM_NAME = "ghc-vector-th-unbox-doc-0.2.2-4.3.noarch.rpm"
+RPM_HASH = "5dafe436b63929866c267c28ffc0ce418b79b76a8a767f52a2cb90c2347958b25afae351d1ca5a1fbf7c9663ffc9e5f859f0104a962cdce863c080638790a47d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-vector-th-unbox-doc"

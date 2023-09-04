@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later | BSD-3-Clause"
 
 PV = "1.5.3"
 
-RPM_NAME = "pam-devel-1.5.3-1.2.aarch64.rpm"
-RPM_HASH = "c3d6bccfd3bd30a1fc222ffabeb417b194b272cfc1376c7bbfaff1fc9633e9b661e861e174cd03250811fd9429344a59e0b83badfe1d87f18cb2ddaea8fd2213"
+RPM_NAME = "pam-devel-1.5.3-2.1.aarch64.rpm"
+RPM_HASH = "9e5c4d89b02e6420667bc3493819b1742464c74932a75e97b183517e1ef5ef23e207fbaebf195adfa9f95330e62d53e246b34e6f15b9adf3c022d42d171bf690"
 
 RPROVIDES:${PN} += "pam-devel \
 pkgconfig-pam \

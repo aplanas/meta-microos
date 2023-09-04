@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-2.0-only & GP
 
 PV = "5.15.10"
 
-RPM_NAME = "python3-pyside2-5.15.10-1.1.aarch64.rpm"
-RPM_HASH = "c009e9c7dbb08cefdc21537253244a494f52016a3697d7797859c4623e8b7b2d03f29bb0bfcbbc95309659d46592cb92802029a2e2f76b9b6132c6d4196224af"
+RPM_NAME = "python3-pyside2-5.15.10-2.1.aarch64.rpm"
+RPM_HASH = "5bef1bdc144511bb031bb1a932958f76da538523be5fcc82b4536df5d1e93c963952aa9002e15fb4353f3b4867346bd75bb92324dd4ea704c8a055cf7ae1e0de"
 
 RPROVIDES:${PN} += "libpyside2.cpython-311-aarch64-linux-gnu.so.5.15 \
 libshiboken2.cpython-311-aarch64-linux-gnu.so.5.15 \

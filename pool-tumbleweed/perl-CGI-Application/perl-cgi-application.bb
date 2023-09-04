@@ -20,15 +20,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "4.61"
 
-RPM_NAME = "perl-CGI-Application-4.61-1.18.noarch.rpm"
-RPM_HASH = "00beb0d1dbd4b6c9b6b31b4b27363c56a853b7489d95974ebaa74b896dc143d8cbef9cf488fcad4b317a0df4dd753e549d57e7c1abc4458ecdda243228cadfef"
+RPM_NAME = "perl-CGI-Application-4.61-1.19.noarch.rpm"
+RPM_HASH = "c9249f004408a9712df1183c10f63fb30e552d070311276f52a17dd7bca68a470474cac7bd676f9f0247679d4e00179c8294f375f0f30aab062794db0f197376"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CGI--Application \
 perl-CGI--Application--Mailform \
 perl-CGI-Application"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-CGI \
 perl-Class--ISA \
 perl-HTML--Template \

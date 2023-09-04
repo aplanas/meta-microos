@@ -8,14 +8,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.36"
 
-RPM_NAME = "perl-Class-Inspector-1.36-1.16.noarch.rpm"
-RPM_HASH = "00888ec55924318fa80a732c99bea44f3f78a0f69d6f58f0981916b1ebebf0c19575a5fb2d57040dcbd2c5484cf64e9c46498795bbbf431249faba22d9a94f53"
+RPM_NAME = "perl-Class-Inspector-1.36-1.17.noarch.rpm"
+RPM_HASH = "5a80fff9474050d24af7f6ad8d88aa1d5efc9b6cfd7f89751668ebcd34ea14fb1ab2c13d5983865a6e8bbe0c69e6704c825df589245e9cd6b6b69393743ffc40"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Inspector \
 perl-Class--Inspector--Functions \
 perl-Class-Inspector"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

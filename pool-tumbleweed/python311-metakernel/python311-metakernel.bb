@@ -4,10 +4,10 @@ DESCRIPTION = "A Jupyter/IPython kernel template which includes core magic funct
 distributed processing, downloads, and much more)."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.29.4"
+PV = "0.29.5"
 
-RPM_NAME = "python311-metakernel-0.29.4-1.5.noarch.rpm"
-RPM_HASH = "f4aa903c7fd296ac1f9a326239fe47876a8f607e1a38d24ad0d6207e83975327cc71ab098837aeccecd604c678580c058517ee3a9a484f8a0d76b5539c8875b6"
+RPM_NAME = "python311-metakernel-0.29.5-1.1.noarch.rpm"
+RPM_HASH = "d3a251950ab7bdc1d05116f91299801b2ee85d1735840872dd15c3bc70483b2828748616dda11272c644f772bd5b1dd66108ad94a6a0f451b3d4d67451935b5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-metakernel \

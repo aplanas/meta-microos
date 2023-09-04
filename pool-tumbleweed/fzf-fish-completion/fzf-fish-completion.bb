@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "0.42.0"
 
-RPM_NAME = "fzf-fish-completion-0.42.0-1.1.noarch.rpm"
-RPM_HASH = "b83c39f554d54f1f2dbc39ca3331e7810bcb0e35b96506361293d0f8d534cb151621de902b023899c548109f118df778b94737bc7e24787a8d289e70b16e387b"
+RPM_NAME = "fzf-fish-completion-0.42.0-1.2.noarch.rpm"
+RPM_HASH = "cfc9f09936e5a46564ae3cdbe5ff275244eab7cb3fa591bd739699fe8a95efa24c83c2fd360f92426c70d82c8b2d6f04645d919f4232d2a56c59efe3a38a3efd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fzf-fish-completion"

@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for kbookmarks, a framework for accessing and \
 manipulating bookmarks using the XBEL format"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kbookmarks-devel-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "2f94085d1bf86b3fadd099c6b20d16196615fd5b276144bf15ff79facbf071461523b9fb93e0fafa3ce975257fe35d88493fcd1d932b5f94fb8a6f44e1ebfe81"
+RPM_NAME = "kbookmarks-devel-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "404aaf58d7293a8ff81f58ea73dafed6ee914753ff0c42d8a5c010daf7430a751497b8791d112c3c51ef2ed94ba81f3cad698e7937e1bfe41b30239ce6c9b0c0"
 
 RPROVIDES:${PN} += "cmake-KF5Bookmarks \
 kbookmarks-devel"

@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.57"
 
-RPM_NAME = "apache2-prefork-2.4.57-1.2.aarch64.rpm"
-RPM_HASH = "cd189b20e68644d3eeddc66949109709545866fd6073d0288fa746409e7e77448b430edebd6e28e84fb9919cbe18a311096daff6c74d8be739fcac48b06b7dc4"
+RPM_NAME = "apache2-prefork-2.4.57-2.1.aarch64.rpm"
+RPM_HASH = "ca75486d50e79d779237dd37e5482c29ff337f62cf6df9b2eb5494d23fa7859a878c4d70871c1091eebbdc9a73395d228e71a336c1bdb59da929f3c728dbd647"
 
 RPROVIDES:${PN} += "apache2-MPM \
 apache2-prefork"
@@ -26,6 +26,8 @@ libbrotlienc.so.1 \
 libc.so.6 \
 libcrypt.so.1 \
 libcrypto.so.3 \
+libcurl.so.4 \
+libjansson.so.4 \
 liblber.so.2 \
 libldap.so.2 \
 liblua5.4.so.5 \

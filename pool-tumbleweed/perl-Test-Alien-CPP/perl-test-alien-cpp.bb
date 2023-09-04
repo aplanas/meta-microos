@@ -7,15 +7,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.03"
 
-RPM_NAME = "perl-Test-Alien-CPP-1.03-1.4.noarch.rpm"
-RPM_HASH = "ae3442e3e50ddf315bfdb66afe7804a00604bf3c28b48c4187de1ea4fea29023a826b16733a65bdfdd70e777c472ef9bbd6254a31f5a56cf1f74f536114b182b"
+RPM_NAME = "perl-Test-Alien-CPP-1.03-1.5.noarch.rpm"
+RPM_HASH = "9907d6b597798b385ad8282b11512961faf43553dab74a93ba7b189e8e1b92c8ef6b579b9cf7193b80fa66dceab6ec17f0569da4c0dc16fb9103f7bebdef6f24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Alien--CPP \
 perl-Test--Alien--CanCompileCpp \
 perl-Test-Alien-CPP"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-ExtUtils--CBuilder \
 perl-ExtUtils--CppGuess \
 perl-Test--Alien \

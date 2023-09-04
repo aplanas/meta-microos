@@ -4,16 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.9"
 
-RPM_NAME = "ghc-ansi-wl-pprint-devel-0.6.9-11.1.aarch64.rpm"
-RPM_HASH = "19ba2360161cc07873278f7a43892badde2ed100dcf0029150f21b247459589366ab6c29b329d225dd55101b4d9841d80f77dbbc83209107560dc5a65e03cced"
+RPM_NAME = "ghc-ansi-wl-pprint-devel-0.6.9-11.2.aarch64.rpm"
+RPM_HASH = "f84daacf93caf7908a373ecefade2e7a1648f901f9200feb54378808b9ef5d16b3a742f8b0394dcf988d0876df3bd0177ebbf0d2028dcaf4ffcbd13776da12f3"
 
 RPROVIDES:${PN} += "ghc-ansi-wl-pprint-devel \
-ghc-devel-ansi-wl-pprint-0.6.9-1uNId4TIZRh7T7KEIBVXZI"
+ghc-devel-ansi-wl-pprint-0.6.9-Akll4C7DaaL4wD8pj4jz8a"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-ansi-wl-pprint \
 ghc-compiler \
-ghc-devel-ansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3 \
-ghc-devel-base-4.17.1.0"
+ghc-devel-ansi-terminal-0.11.5-69CZC4XdNryJo9zHbgfvJ3 \
+ghc-devel-base-4.17.2.0"
 
 inherit rpm

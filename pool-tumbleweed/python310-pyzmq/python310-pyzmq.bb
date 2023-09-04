@@ -3,10 +3,10 @@ DESCRIPTION = "PyZMQ is a lightweight and super-fast messaging library built on 
 the ZeroMQ library (http://www.zeromq.org)."
 LICENSE = "BSD-3-Clause & LGPL-3.0-or-later"
 
-PV = "25.0.2"
+PV = "25.1.1"
 
-RPM_NAME = "python310-pyzmq-25.0.2-1.3.aarch64.rpm"
-RPM_HASH = "2bab04eda3ee0d893df461ddad27e0cb0618e50f4260ca9b07a018a399c8359781bd2769ec92bcf341eaea30a46c912fc9f68e66696b15693c8597919ab0d4d3"
+RPM_NAME = "python310-pyzmq-25.1.1-1.1.aarch64.rpm"
+RPM_HASH = "0355362dc2d79e8505641006b633c74c0b2448ded22be6f61c37ef38a1073e32d995fe119382566713adc22cfb27ea09a0cb96954f2f50d86f06ab326d9fe9ad"
 
 RPROVIDES:${PN} += "python3.10dist-pyzmq \
 python310-pyzmq \

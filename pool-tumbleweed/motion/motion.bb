@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.5.1"
 
-RPM_NAME = "motion-4.5.1-1.5.aarch64.rpm"
-RPM_HASH = "a366540da095b34d2ca891aac3ec7659d41a8989d57f70a9ee9b81c52c8eaea30f9c5f84c088a98b4169459a1681d4cd178e09655b4f2df03478516b29c2c46a"
+RPM_NAME = "motion-4.5.1-2.1.aarch64.rpm"
+RPM_HASH = "39eb1cb3f25908013aa6f55bb5d8a404f7fdf2533f519ec8487a61804a85a4cbb5643c286fc5d93d59c6ac2c13c3ab46c63aa59eeec93a522ff799494ce907af"
 
 RPROVIDES:${PN} += "config-motion \
 motion"

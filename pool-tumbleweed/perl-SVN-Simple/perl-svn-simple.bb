@@ -13,14 +13,14 @@ LICENSE = "Artistic-1.0"
 
 PV = "0.28"
 
-RPM_NAME = "perl-SVN-Simple-0.28-3.29.aarch64.rpm"
-RPM_HASH = "81de66d3d2fa2224af31b4e083a4ada9d3574943e21c508f81004cf9a8597cc5ff4d674c6ae5c38de72f38b1bcbfdb7e837b70c3734aea95fb155f61593c46a0"
+RPM_NAME = "perl-SVN-Simple-0.28-3.30.aarch64.rpm"
+RPM_HASH = "6c54a4863a7f936d420c242c309a3f1c0be3cf591d38c8f03e3f2fa1dbdb3fbef98345beb2c943a66bc651e532ab209febfd7d306e9633024a792fd13221dfa1"
 
 RPROVIDES:${PN} += "perl-SVN--Simple--Edit \
 perl-SVN--Simple--Editor \
 perl-SVN-Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 subversion-perl"
 
 inherit rpm

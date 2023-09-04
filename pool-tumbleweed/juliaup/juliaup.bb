@@ -7,10 +7,10 @@ when new Julia versions are released and provides a convenient Julia \
 release channel abstraction."
 LICENSE = "(0BSD | MIT | Apache-2.0) & Apache-2.0 & (Apache-2.0 | BSL-1.0) & (Apache-2.0 | ISC | MIT) & (Apache-2.0 | MIT) & (Apache-2.0 | Apache-2.0-with-LLVM-exception | MIT) & (Apache-2.0 | MIT | Zlib) & (Apache-2.0 | MIT | Zlib) & (MIT | Unlicense) & (Apache-2.0 | Zlib | MIT) & Apache-2.0 & ISC & MIT & MPL-2.0 & MIT"
 
-PV = "1.11.0"
+PV = "1.11.15"
 
-RPM_NAME = "juliaup-1.11.0-1.1.aarch64.rpm"
-RPM_HASH = "d46b5f98dc597038ade7e02299edb2a7054e9b0971ff1452f6b70802b5ed056e63d72624e1e804d5249d21a5424c0cabe66160d07cd029f06c3d98c016da0547"
+RPM_NAME = "juliaup-1.11.15-1.1.aarch64.rpm"
+RPM_HASH = "5f1248354a972682db0af6fcd7af906921ce1b9f8a9ee16185310985170101cf132f3a3ce377a130f077af2fef9ad00a8c7dfa43b8b2e92cbe86a86e3ae9f096"
 
 RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
 bundled-rust-crate-adler \
@@ -64,6 +64,7 @@ bundled-rust-crate-fs-extra \
 bundled-rust-crate-futures-channel \
 bundled-rust-crate-futures-core \
 bundled-rust-crate-futures-io \
+bundled-rust-crate-futures-macro \
 bundled-rust-crate-futures-sink \
 bundled-rust-crate-futures-task \
 bundled-rust-crate-futures-util \
@@ -183,6 +184,7 @@ bundled-rust-crate-want \
 bundled-rust-crate-winnow \
 bundled-rust-crate-xattr \
 bundled-rust-crate-zeroize \
+julia \
 juliaup"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \

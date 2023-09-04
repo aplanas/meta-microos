@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.2.4+g953"
 
-RPM_NAME = "river-rivertile-0.2.4+g953-1.1.aarch64.rpm"
-RPM_HASH = "613175cfcc375bb0479f1557d81f5a63dcd14a51858a12665ba7423a85942e026055647242bdd3b353a3ce675e212925d5dbc50a099af497eec3612ed83d0713"
+RPM_NAME = "river-rivertile-0.2.4+g953-2.1.aarch64.rpm"
+RPM_HASH = "c08df0999232ab256d3d1ddca33a809512a11f6e12f79f37be22a666d3fecece49be8d9c7fe78e8fbf865daab3c8dc9c9c51a9242117a9d99faa256179ff12c9"
 
 RPROVIDES:${PN} += "river-rivertile"
 

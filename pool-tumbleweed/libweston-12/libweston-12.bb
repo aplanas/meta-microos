@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains backend renderer plugins, used by \
 libweston-12-0."
 LICENSE = "CC-BY-SA-3.0 & MIT"
 
-PV = "12.0.1"
+PV = "12.0.2"
 
-RPM_NAME = "libweston-12-12.0.1-1.2.aarch64.rpm"
-RPM_HASH = "94af04efe17b5a0590b30aa685bfd67e18bbba024e68ba16db585d7441251370e81612fa87f733d839b6dd96df17a982a9ecc5d53304f298fbda0b657c305057"
+RPM_NAME = "libweston-12-12.0.2-1.1.aarch64.rpm"
+RPM_HASH = "74e2151ae4f68c654943aa277a8a7478302c4fbadedc77c8714cf533e180719c9bac22f609a1a2b0e583005d9b361e4dd2850bc3f13e4a9ebd8fc9c53b4f6281"
 
 RPROVIDES:${PN} += "libweston-12"
 

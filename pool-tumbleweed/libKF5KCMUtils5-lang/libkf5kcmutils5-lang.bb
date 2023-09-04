@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5KCMUtils5"
 DESCRIPTION = "Provides translations for the 'libKF5KCMUtils5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "libKF5KCMUtils5-lang-5.108.0-1.1.noarch.rpm"
-RPM_HASH = "eac466609c37f9ed30401fb8049ef1a5e48b1e35e6b3797254162bb8a7cdd80cda9c30196287c12ca283ae2a55bd3ba2a50004ad4a8b10ac986df534b42955af"
+RPM_NAME = "libKF5KCMUtils5-lang-5.109.0-1.1.noarch.rpm"
+RPM_HASH = "e19eef7737a3dff7a4eab111b0f99962957a991cc0ee1a5b89a7ae11d893d1ff96d39c271ddb7a37cbf0efe705c745c5cd18c6b232eef1b3a81d7bed48975fab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5KCMUtils5-lang \

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.svn35859"
 
-RPM_NAME = "texlive-grotesq-2023.209.svn35859-54.1.noarch.rpm"
-RPM_HASH = "b1accba8be1c88f199a595e520c38497ea125c82821e21d86755cc1fad2cc0b76b5313326e07bd0d3e139e0472201cf1f000a4a672d5d47bc948a23c10e689d4"
+RPM_NAME = "texlive-grotesq-2023.209.svn35859-54.2.noarch.rpm"
+RPM_HASH = "1e64c5ea71f8c5f1c0431ef631eb668a3bc893d08aa05b5b6ff7c72684a37792ef8dbf68623ac1ad43f02c938e0bf77099dfc8f875aed7a0221f46588a548f16"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ot1ugq.fd \

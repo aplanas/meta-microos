@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only & LGPL-2.1-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "python3-libprelude-5.2.0-2.16.aarch64.rpm"
-RPM_HASH = "aad816d352c618ac652530b5ab57cdcfcb6315f9aac62358a1351fa676bf14514b624c75906de5fd3dd8096fc1ad4a018ba7a8e45352c22ef5abd3b059227a78"
+RPM_NAME = "python3-libprelude-5.2.0-2.17.aarch64.rpm"
+RPM_HASH = "20df04bd1ad270a8523ca85f4030f218097bc14422d6b5dac7287183a299c922ad0e54ceb77f3e9d8e0a9717e302828ba37846f7eab25e6ee9e9a35c76cd6427"
 
 RPROVIDES:${PN} += "python3-libprelude \
 python3.11dist-prelude \

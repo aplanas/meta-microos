@@ -2,10 +2,10 @@ SUMMARY = "A password store library"
 DESCRIPTION = "qtkeychain can be used to store passwords."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.13.2"
+PV = "0.14.1"
 
-RPM_NAME = "libqt5keychain1-0.13.2-4.1.aarch64.rpm"
-RPM_HASH = "a53d57c1fed57c3eddbe470667015381522371aff9cbe3a2fa6cc63c0585708e9f827c90699d412dc5b9de2b398b1be5a16dd8bc6cd05af20f9889f0055a2338"
+RPM_NAME = "libqt5keychain1-0.14.1-1.1.aarch64.rpm"
+RPM_HASH = "96102638bf56be6954a191bf2fab4e0c453124f76747a0c1ab31cebb4413e72cf00a67ffd55038b680ee706fd870f632b54e6d7c163a0db27cd9923e8856a1ff"
 
 RPROVIDES:${PN} += "libqt5keychain.so.1 \
 libqt5keychain1"

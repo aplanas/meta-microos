@@ -6,10 +6,10 @@ identity of TLS hosts. It has been extracted from the Requests project. \
 Note that on SUSE packages the used CA bundle is actually the system bundle"
 LICENSE = "MPL-2.0"
 
-PV = "2023.5.7"
+PV = "2023.7.22"
 
-RPM_NAME = "python311-certifi-2023.5.7-1.2.noarch.rpm"
-RPM_HASH = "1835cdf576e58fd906dad72006b7b49906a2627d8e320b8ec2e92f5047f6f1492bee35091dfa4788a63e646d8be9937697406bacf028c97f6958531591e8307d"
+RPM_NAME = "python311-certifi-2023.7.22-1.1.noarch.rpm"
+RPM_HASH = "6b0a72002c8d3aca721f6ee987f08f71c07d3c767e21b568f2a765a49c8971ee9b79e0c8b39e509299f730d91ef3b59e6bb69620841e3d7b5821dd9b10822482"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-certifi \

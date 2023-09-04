@@ -3,10 +3,10 @@ DESCRIPTION = "Belle-sip is a SIP (RFC3261) implementation written in C, with an
 object-oriented API."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.73"
+PV = "5.2.98"
 
-RPM_NAME = "libbellesip1-5.2.73-1.1.aarch64.rpm"
-RPM_HASH = "c242706ac60b5e6c6485f06d03c1a8d7caa178a67d6a3d4d43eab380694cbc61932fd5d1f5aea466181b41d886825fa77d1bc15ad339581ac57f3610d49dfbef"
+RPM_NAME = "libbellesip1-5.2.98-1.1.aarch64.rpm"
+RPM_HASH = "ebdadabb3f1e3431bb32a9072ae02d2585da70ad10ddb9b69c3e82e352d4385f43bddc53902d1a69517fef13558d934439527222832981af5801b6bf720c2b57"
 
 RPROVIDES:${PN} += "libbellesip.so.1 \
 libbellesip1"

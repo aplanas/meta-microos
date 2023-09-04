@@ -9,10 +9,10 @@ support, archive support, and multiple signature languages for \
 detecting threats."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.103.8"
+PV = "0.103.9"
 
-RPM_NAME = "clamav-0.103.8-1.4.aarch64.rpm"
-RPM_HASH = "5aba64d998b9cdc3cb21b674c5b23f67ea49ba752f8cd7ae74ebc5f720e365f33bf377ee24f5e79d09b241a60e8faf8542c662c3a36db0db6069ce432fe653a3"
+RPM_NAME = "clamav-0.103.9-1.1.aarch64.rpm"
+RPM_HASH = "7695ff3254bf48825497d16d8ea2bcccd3ccc537f96da32711654e860ab9abdc6e9d984282109664d03d3ce130854338662b15c15241b63fb43bca8f8ed23fce"
 
 RPROVIDES:${PN} += "clamav \
 clamav-nodb \

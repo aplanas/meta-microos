@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.21"
 
-RPM_NAME = "perl-URI-db-0.21-1.2.noarch.rpm"
-RPM_HASH = "287c8379d54c8d547b69ab2aef439c4759e6ace70b52f36320ebb4d416b09ab19ec2377733587bb3c368fe2cd2d385b43575463b5ecf3676c781c9d7c977d365"
+RPM_NAME = "perl-URI-db-0.21-1.3.noarch.rpm"
+RPM_HASH = "85cb0765d2eac27109a0b5f1f24c94f7b6306d28a1206f9f967c23380d1a2045dbaa001222609995a824fab137db2488ef7c3cb87ebee9a55efd3b4b65561631"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-URI---ado \
@@ -58,7 +58,7 @@ perl-URI--yugabyte \
 perl-URI--yugabytedb \
 perl-URI-db"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-URI \
 perl-URI--Nested"
 

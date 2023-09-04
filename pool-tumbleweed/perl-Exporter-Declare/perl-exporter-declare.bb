@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.114"
 
-RPM_NAME = "perl-Exporter-Declare-0.114-1.25.noarch.rpm"
-RPM_HASH = "e610e8274dd3cf4b7a1a691ab390381fbb3cfe4aa49b82be76eb4b3bec3c1fd8272892ffdd4c7acb37049f83fe74a98447f42eb11abb80beb8db54213f4b74a8"
+RPM_NAME = "perl-Exporter-Declare-0.114-1.26.noarch.rpm"
+RPM_HASH = "deed2284a9e9432ce13ccd7dc9f1f4c676d7ece57635f49f30da31f5e7a528bc7b74acf2f99ea0ff306735bf6e84c81495abd544159da5967028956a873d9d99"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Exporter--Declare \
@@ -22,7 +22,7 @@ perl-Exporter--Declare--Meta \
 perl-Exporter--Declare--Specs \
 perl-Exporter-Declare"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Meta--Builder \
 perl-aliased"
 

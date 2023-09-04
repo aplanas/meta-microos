@@ -4,10 +4,10 @@ used in the documentation system of LaTeX2e. Bookmarks are \
 added and references are linked as far as possible."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.18svn65678"
+PV = "2023.209.1.18svn65678"
 
-RPM_NAME = "texlive-hypdoc-2023.208.1.18svn65678-53.1.noarch.rpm"
-RPM_HASH = "afb0f9702b9f6f377325ac498160656dc57043023f6aafb13bb001a51cb6a49c4e916978c4f9e31f824d5b4a3d6530f8c1bd1d2ebd18006f5477f5fc3fc0f5da"
+RPM_NAME = "texlive-hypdoc-2023.209.1.18svn65678-54.1.noarch.rpm"
+RPM_HASH = "80bb04a28efc7b045f6c131cd4d05affeac45d317bf9d4546d45ba1db7d214e4438e44b50b36ccaa9d5f5543fe6e2326e641994acf9be320536e24a0c3a180f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hypdoc.sty \

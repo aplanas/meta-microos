@@ -5,10 +5,10 @@ belle-sip, mediastreamer2 and linphone. \
 This package the contains shared library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.73"
+PV = "5.2.98"
 
-RPM_NAME = "libbctoolbox1-5.2.73-1.1.aarch64.rpm"
-RPM_HASH = "cf8002b23e61828b3c0f3c1a7548569453683097526b7111113ff4d1e0a3b3ca3b9596c624e4d16d64d390bdfe438daed3c577079b37d2933957563f2be75f08"
+RPM_NAME = "libbctoolbox1-5.2.98-1.1.aarch64.rpm"
+RPM_HASH = "ed13d1e1d6d6fc6d60dd3f31238a939e3274ed9da7a56362e8909b79e834327bb70bb4317b0a52d454be303b22c6238235ae3fcfa6fb36930a39e09150a52fd4"
 
 RPROVIDES:${PN} += "libbctoolbox.so.1 \
 libbctoolbox1"

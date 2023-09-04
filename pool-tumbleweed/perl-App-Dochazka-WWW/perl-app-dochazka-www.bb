@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.155"
 
-RPM_NAME = "perl-App-Dochazka-WWW-0.155-2.18.noarch.rpm"
-RPM_HASH = "346080d502f12d402711d84c8e07f9a63995162f841ee20087401b502d17bd8ef7601e6994eef1c0746306d9f396ca36da2ceb885c5da121f8d8dd9ff6cddbe8"
+RPM_NAME = "perl-App-Dochazka-WWW-0.155-2.19.noarch.rpm"
+RPM_HASH = "edd99bc02b7e954b99227bb49e080b3732f3abb2fe8faab94927692a2c1f8f071b529b8185eea2146b59ca18b8249802446a91454f9ec492257fab38f2255105"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-perl-App-Dochazka-WWW \
@@ -19,7 +19,7 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-App--CELL \
 perl-App--MFILE--WWW \
 perl-File--ShareDir"

@@ -14,8 +14,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-qstest-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "073eafd8c91353e9d091f995af7f412c17c1b53bb48837aeb7724fa36a5752bd500f209d6c7ff5947ddabd1fd5d6ac781294858eadf913507f39d51a1716e9e9"
+RPM_NAME = "texlive-qstest-2023.209.svn15878-54.2.noarch.rpm"
+RPM_HASH = "1c58a047cd1a37a8486b1f6fead16e0441a734865f9133f5e7b90ba21cb6c68e9646dc930e2bcfe9680d43dd41b1f33fdfa29700576a9539d312887690f2dc3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-makematch.sty \

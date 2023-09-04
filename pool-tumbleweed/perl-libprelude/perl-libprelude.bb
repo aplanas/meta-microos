@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only & LGPL-2.1-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "perl-libprelude-5.2.0-2.16.aarch64.rpm"
-RPM_HASH = "6656508444d5f01fafacc2ac42ef971df1342c69d79557970eafda503becd53f48b4a66d4e14fe99010824c9b63520c7eb09575fa13c12b339c41dd727bf43c0"
+RPM_NAME = "perl-libprelude-5.2.0-2.17.aarch64.rpm"
+RPM_HASH = "864ce64a15f6e65a895152a187f6d6cd85b95966bc19fa95d70b1326eb3d948f9393aeefd208df9eafadd189247b5ffe6f9a70406c0a354d5f7cab984fad2128"
 
 RPROVIDES:${PN} += "perl-Prelude \
 perl-Prelude--Client \

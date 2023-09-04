@@ -6,14 +6,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.17"
 
-RPM_NAME = "perl-Alien-Hunspell-0.17-1.4.aarch64.rpm"
-RPM_HASH = "172394a37e9369de4ed057b0489423d95af23b8d451cf25f0f7721529b7abd2263923d05be3d7c9c99de2bf3ef90198d84e03d6c4dfb99e55878156f72a83fa9"
+RPM_NAME = "perl-Alien-Hunspell-0.17-1.5.aarch64.rpm"
+RPM_HASH = "50cbba5cb96718974d33cc46a9ffd970d74733fa1087eceb285e886ff53577e6f43897a853e2135b6a6e9e2b776dc28fef15f83fb05c0db6b6e544f26f8dca2b"
 
 RPROVIDES:${PN} += "perl-Alien--Hunspell \
 perl-Alien--Hunspell--Install--Files \
 perl-Alien-Hunspell"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Alien--Base \
 pkgconfig-hunspell"
 

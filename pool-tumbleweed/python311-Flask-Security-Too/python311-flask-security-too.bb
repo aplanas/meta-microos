@@ -4,10 +4,10 @@ application. This is a independently maintained version of Flask-Security \
 based on the 3.0.0 version of the original."
 LICENSE = "MIT"
 
-PV = "5.1.1"
+PV = "5.3.0"
 
-RPM_NAME = "python311-Flask-Security-Too-5.1.1-2.3.noarch.rpm"
-RPM_HASH = "4f82e231bd20d73fc5a23355326b4bbc595c0e2af12929710bf969810b5de1a189612364f51b15e6a5a2f449d334d7f032a17387399c3b40fc4a93143d7eb0b8"
+RPM_NAME = "python311-Flask-Security-Too-5.3.0-1.1.noarch.rpm"
+RPM_HASH = "aabf9b3ff0267df5d2343ae6b6fbefb5f5f4eb8b980724a8e3ccb2b982a8da90d40de5282771a5c8436d71ea07656c668be86fccff035eaec6258aae0d18e8f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Flask-Security \
@@ -23,12 +23,14 @@ python311-Flask-Babel \
 python311-Flask-Login \
 python311-Flask-Principal \
 python311-Flask-WTF \
+python311-WTForms \
 python311-Werkzeug \
 python311-bcrypt \
 python311-bleach \
 python311-blinker \
 python311-cryptography \
 python311-email-validator \
+python311-importlib-resources \
 python311-itsdangerous \
 python311-passlib"
 

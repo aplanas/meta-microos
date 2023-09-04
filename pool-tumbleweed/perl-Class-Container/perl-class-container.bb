@@ -22,14 +22,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.13"
 
-RPM_NAME = "perl-Class-Container-0.13-1.20.noarch.rpm"
-RPM_HASH = "d74c8e5730b030cbe2ba60fc170b1e63cb60dcfb7cfb847a070878d08b5f304bab31b6c00b599d6c43894381710c417ccff800573a91d08a804b59be0c95ec5d"
+RPM_NAME = "perl-Class-Container-0.13-1.21.noarch.rpm"
+RPM_HASH = "a5f1d3c25a0ab6b4c31fbd3f9290244e48df09df5f9e97ede0acd2ea60839e18ba5c08bf32d0fac93c0be6f50450b7390d46153b6e1e99676b2e2e5b14fa1bf6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Container \
 perl-Class-Container"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Params--Validate"
 
 inherit rpm

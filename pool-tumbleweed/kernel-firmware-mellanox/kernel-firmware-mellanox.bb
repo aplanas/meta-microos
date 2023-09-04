@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Mellanox Spectrum switch driver."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230724"
+PV = "20230814"
 
-RPM_NAME = "kernel-firmware-mellanox-20230724-1.1.noarch.rpm"
-RPM_HASH = "63658d03cc8f1c5ba857542eaa2775133bbd6bffeb82db08e9258e3509fe504d516f05f908c5974ae9449ffd095546b9704fb19181bff0370a019d033f5604ce"
+RPM_NAME = "kernel-firmware-mellanox-20230814-1.1.noarch.rpm"
+RPM_HASH = "78ec695ffb4b4328caf565afc1228400548cfb99ea70072e588dd8c7a401b967dc794927be0697e624ca376604f01e1cce6952d788af985c71dfd74669ee1427"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-mellanox/lc-ini-bundle-2010-1006.bin \
@@ -39,6 +39,7 @@ firmware-mellanox/mlxsw-spectrum-13.2010.1406.mfa2 \
 firmware-mellanox/mlxsw-spectrum-13.2010.1502.mfa2 \
 firmware-mellanox/mlxsw-spectrum-13.2010.3020.mfa2 \
 firmware-mellanox/mlxsw-spectrum-13.2010.3146.mfa2 \
+firmware-mellanox/mlxsw-spectrum-13.2012.1012.mfa2 \
 firmware-mellanox/mlxsw-spectrum2-29.2000.2308.mfa2 \
 firmware-mellanox/mlxsw-spectrum2-29.2000.2714.mfa2 \
 firmware-mellanox/mlxsw-spectrum2-29.2007.1168.mfa2 \
@@ -57,6 +58,7 @@ firmware-mellanox/mlxsw-spectrum2-29.2010.1406.mfa2 \
 firmware-mellanox/mlxsw-spectrum2-29.2010.1502.mfa2 \
 firmware-mellanox/mlxsw-spectrum2-29.2010.3020.mfa2 \
 firmware-mellanox/mlxsw-spectrum2-29.2010.3146.mfa2 \
+firmware-mellanox/mlxsw-spectrum2-29.2012.1012.mfa2 \
 firmware-mellanox/mlxsw-spectrum3-30.2007.1168.mfa2 \
 firmware-mellanox/mlxsw-spectrum3-30.2008.1036.mfa2 \
 firmware-mellanox/mlxsw-spectrum3-30.2008.1310.mfa2 \
@@ -73,6 +75,8 @@ firmware-mellanox/mlxsw-spectrum3-30.2010.1406.mfa2 \
 firmware-mellanox/mlxsw-spectrum3-30.2010.1502.mfa2 \
 firmware-mellanox/mlxsw-spectrum3-30.2010.3020.mfa2 \
 firmware-mellanox/mlxsw-spectrum3-30.2010.3146.mfa2 \
+firmware-mellanox/mlxsw-spectrum3-30.2012.1012.mfa2 \
+firmware-mellanox/mlxsw-spectrum4-34.2012.1012.mfa2 \
 kernel-firmware-mellanox"
 
 RDEPENDS:${PN} += "/usr/bin/mkdir \

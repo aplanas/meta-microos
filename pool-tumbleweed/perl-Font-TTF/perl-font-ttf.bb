@@ -5,8 +5,8 @@ LICENSE = "Artistic-2.0 & OFL-1.1"
 
 PV = "1.06"
 
-RPM_NAME = "perl-Font-TTF-1.06-1.24.noarch.rpm"
-RPM_HASH = "55606dd4a7d6199c096081c4c4ef08a8f38beb5abe673cf1c149d75ba46c965f5b5744995b5e98cb65529495edacac29283bc83857e7ccc471ae048dde7e3e3c"
+RPM_NAME = "perl-Font-TTF-1.06-1.25.noarch.rpm"
+RPM_HASH = "04626ca7e0e7b22d413f3f282cff1d175b1be89073cbcb562a67664e2456665aea6bdec16a6a4c88fc58784bad751bafa348bda437065f2b918b74445ff162ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Font--TTF \
@@ -85,7 +85,7 @@ perl-Font--TTF--Woff--PrivateData \
 perl-Font--TTF--XMLparse \
 perl-Font-TTF"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-IO--String"
 
 inherit rpm

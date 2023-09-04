@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.71dsvn64976"
 
-RPM_NAME = "texlive-easybook-doc-2023.209.1.71dsvn64976-54.1.noarch.rpm"
-RPM_HASH = "4dbe04c84f36390385da874d13d26516eaed24143946b1764a4b74e6b317d6bc77ab71a3fe955a37c5b07e6039b22114f2dbd6982ec84d7be69de205c77efdee"
+RPM_NAME = "texlive-easybook-doc-2023.209.1.71dsvn64976-54.2.noarch.rpm"
+RPM_HASH = "20aa9704120ad30c84df983c11eb4069874da9ea11e5cdf977d322c7beeaa9914743b6a1b53ab2e713eeebe636d7ac6985bebc39a5a1e5d43cd95313d98de73a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-easybook-doc-zh \

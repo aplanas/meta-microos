@@ -8,14 +8,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.17"
 
-RPM_NAME = "perl-Test-LongString-0.17-1.27.noarch.rpm"
-RPM_HASH = "ec9aa245a1af4df0348958ab68f1a17dd303c3aa32a53409b0c4d8a5bdb932c66753498851d865c0b26bfdb0c021c61826df1a06821e3bfec000dcbd81005b6f"
+RPM_NAME = "perl-Test-LongString-0.17-1.28.noarch.rpm"
+RPM_HASH = "622212614a7bce31c6908ce381835194e093c2e16a7f85b009656df4d13594fdfa147fc78c1315429514157625cd0030a173a1643ed14a47b49d5797671a6b8b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--LongString \
 perl-Test-LongString"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Test--Builder--Tester"
 
 inherit rpm

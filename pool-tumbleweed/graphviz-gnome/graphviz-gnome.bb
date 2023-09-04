@@ -4,8 +4,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.49.3"
 
-RPM_NAME = "graphviz-gnome-2.49.3-6.8.aarch64.rpm"
-RPM_HASH = "f43e96a90e1ed89903d867585f671ce06c05d6423ad9d9db741e9b3c73597cd48a6205ed683d93add1f359294879876fb81e2819ab5572cb4f33947b996b22b9"
+RPM_NAME = "graphviz-gnome-2.49.3-6.9.aarch64.rpm"
+RPM_HASH = "04fcfccbc480b9d735f1799e7e2927d70820998ed213101c33c7913e1cb24107a166bad6b1e4e1aed55c10a39229ab3ff31f3be6beb13fcbdfef44f21bb29e1a"
 
 RPROVIDES:${PN} += "graphviz-gnome \
 libgvplugin-gdk.so.6 \

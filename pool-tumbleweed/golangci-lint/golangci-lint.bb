@@ -4,10 +4,10 @@ caching, supports yaml config, has integrations with all major IDE and has \
 dozens of linters included."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.53.2"
+PV = "1.54.2"
 
-RPM_NAME = "golangci-lint-1.53.2-1.2.aarch64.rpm"
-RPM_HASH = "add3af62febdb0fe259cce4cb91b098c769462ef17f01c7ad7a4caeca2c32cd2b82a2e51ea43d206f41080919bb49c32065a79c6de3505f20db726d668789124"
+RPM_NAME = "golangci-lint-1.54.2-1.1.aarch64.rpm"
+RPM_HASH = "030f2ae18fc87e4c43361f8567433febaf2f39c90229fc5b6c0aabccfe34eaf2cae50cc62f177f830c0ea1359cbc1a5b6e9681c46d2511b60c5ada66aac5a635"
 
 RPROVIDES:${PN} += "golangci-lint"
 

@@ -49,8 +49,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.37"
 
-RPM_NAME = "perl-Path-Class-0.37-1.22.noarch.rpm"
-RPM_HASH = "9ce9d6a468392aa1df219956985cdd8a4f7f9c8c993c558bc799cfc5f3b0049f4b0591a7d57556d9ca823f3bfb3e466e660a55a63b7418afc752206ee5467429"
+RPM_NAME = "perl-Path-Class-0.37-1.23.noarch.rpm"
+RPM_HASH = "af92c150c195ae42035773a2de65be5d11dfeac7e78beb8f4663e415a7239418939f2553214e9786568ef422eed35877a5eb8f19d3ab18e34afa44a1a43c2b00"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Path--Class \
@@ -59,7 +59,7 @@ perl-Path--Class--Entity \
 perl-Path--Class--File \
 perl-Path-Class"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-File--Spec \
 perl-Perl--OSType \
 perl-parent"

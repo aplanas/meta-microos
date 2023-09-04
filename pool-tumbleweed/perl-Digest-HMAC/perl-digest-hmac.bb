@@ -18,8 +18,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.04"
 
-RPM_NAME = "perl-Digest-HMAC-1.04-1.11.noarch.rpm"
-RPM_HASH = "188ab391ad4386ffe92a9df68715b4077d128daa6dd47fb97a24e8989a1647d99206f735039c27f8c82d52d6f976d01b59827c6f5f608155342a9dd935233150"
+RPM_NAME = "perl-Digest-HMAC-1.04-1.12.noarch.rpm"
+RPM_HASH = "fe1cee2b63f192876893f287842000fad05b329189fc611aeb8624d564a910579ac29cdc366fdc1cc98fb9eed9f310e1d2aeba5d4a1ab55d2527a59d6f3534cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Digest--HMAC \
@@ -27,7 +27,7 @@ perl-Digest--HMAC-MD5 \
 perl-Digest--HMAC-SHA1 \
 perl-Digest-HMAC"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Digest--SHA"
 
 inherit rpm

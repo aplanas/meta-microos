@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.1svn15878"
 
-RPM_NAME = "texlive-robustcommand-doc-2023.209.0.0.1svn15878-54.1.noarch.rpm"
-RPM_HASH = "0e2ad541401708d4b7e69db3395ef535d943d065065e70ea06e93c34f14ef8f749bfc0c5a2f140524f4cc9b42c1c77bf0279ada9a0e1ab7e3a283e9b1e8fe5ff"
+RPM_NAME = "texlive-robustcommand-doc-2023.209.0.0.1svn15878-54.2.noarch.rpm"
+RPM_HASH = "a761d924a9483ddd067cccc454896ae1ff13aa80228a0d849013cb043ad0517edd979f29f1d1b0ca7091a82201b7e30df2f0d7362ccd577942269b1e46f88b5c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-robustcommand-doc-de \

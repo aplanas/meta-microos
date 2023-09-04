@@ -20,8 +20,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.40"
 
-RPM_NAME = "perl-Package-Stash-0.40-1.8.noarch.rpm"
-RPM_HASH = "85f855151bfeee138debf2ef54240aa7f332f39ae56d045da4db3d97d7b7f4fd2a7ace01317fbee4d43a586b3b7f32dcd81a572d90ebb00a6f30b910ba9c8823"
+RPM_NAME = "perl-Package-Stash-0.40-1.9.noarch.rpm"
+RPM_HASH = "20abca9b2cc9540c636a6aeefbdcaa1e20a2e7228c35905254e929ff91089c17a0bce29c2c5c2bbac5b81aaf1d826246f59ab7936e134d0d0dd11cfddf28683c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Package--Stash \
@@ -29,7 +29,7 @@ perl-Package--Stash--PP \
 perl-Package-Stash"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Dist--CheckConflicts \
 perl-Module--Implementation \
 perl-Package--Stash--XS"

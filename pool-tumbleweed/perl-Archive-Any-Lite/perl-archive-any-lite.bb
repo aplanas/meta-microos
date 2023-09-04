@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.11"
 
-RPM_NAME = "perl-Archive-Any-Lite-0.11-1.10.noarch.rpm"
-RPM_HASH = "ad7f5b32f00842ff305d8ae83d721c7b22643d3ba675f07da4da28b1690033d26e9cad2494ec4cc6908bd4dba991e8237701ca53160da0417c7639f339354c03"
+RPM_NAME = "perl-Archive-Any-Lite-0.11-1.11.noarch.rpm"
+RPM_HASH = "e0add6f4d86f268bf92bc96b5e07814ce5d497c1448ffd4e9296fa84d5192fe443b0c66d8208c79bfeb16d28e2bb87b7efbf456d13ef26b6fc00036a9d640ec1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Archive--Any--Lite \
@@ -17,7 +17,7 @@ perl-Archive--Any--Lite--Tar \
 perl-Archive--Any--Lite--Zip \
 perl-Archive-Any-Lite"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Archive--Tar \
 perl-Archive--Zip \
 perl-File--Temp \

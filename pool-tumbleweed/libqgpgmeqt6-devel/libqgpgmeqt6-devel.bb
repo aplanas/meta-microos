@@ -7,10 +7,10 @@ management. \
 This package contains the bindings to use the library in Qt 6 C++ applications."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.21.0"
+PV = "1.22.0"
 
-RPM_NAME = "libqgpgmeqt6-devel-1.21.0-1.1.aarch64.rpm"
-RPM_HASH = "502204887252518d87d2db9b1a898da6fcccb6472ff221674a2c7459b4df9c7046673cd8891723ac48e7e7c8d0c98bf3b24a659073b98fdf552b4b3ad0337926"
+RPM_NAME = "libqgpgmeqt6-devel-1.22.0-1.1.aarch64.rpm"
+RPM_HASH = "dff2cc44ce0ae7dcf903a11824cf0099a33c278b146942b00cfec14576da48167b482fd74446d208b20951412dec991ae2d9cc32ad01ce63ae74be1c1b73e652"
 
 RPROVIDES:${PN} += "cmake-QGpgmeQt6 \
 libqgpgmeqt6-devel"

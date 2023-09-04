@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.24.2"
 
-RPM_NAME = "perl-obexftp-0.24.2-1.24.aarch64.rpm"
-RPM_HASH = "f761b0a379d9ad9b4a69e6902a0849a9878ec77e34afdc64c41c2928651d039cb3af4d4dbcb64f62880e281766ec583b1577362d5137cbcf1a3c80ce050e8b97"
+RPM_NAME = "perl-obexftp-0.24.2-1.25.aarch64.rpm"
+RPM_HASH = "ebed4415295db1832f0af560db256442c828144dcfb8db7aacca815b95b743f5be4636725ea892cb6b6ee1413b9deae061a253fda7f79ee6d9ebdeb54c1d1e4a"
 
 RPROVIDES:${PN} += "perl-OBEXFTP \
 perl-OBEXFTP--client \

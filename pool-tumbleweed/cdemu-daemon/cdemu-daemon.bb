@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.2.6"
 
-RPM_NAME = "cdemu-daemon-3.2.6-1.15.aarch64.rpm"
-RPM_HASH = "b6d08f42d91b7be9e0bfb38609049f1163916bf7096a843dc6303933c20f57907653907afbec4eb657d40f97c1c5cac129e34d7fa7edcceda8e5e918a404102d"
+RPM_NAME = "cdemu-daemon-3.2.6-1.16.aarch64.rpm"
+RPM_HASH = "7a47987daf22d7db1dab7063370b05f4cc9c017037b1d57bf45aa5eaaeefe568d28159567abe5332574374e90564229729198654b1bfc549ba8fe251fb9c872d"
 
 RPROVIDES:${PN} += "cdemu-daemon"
 

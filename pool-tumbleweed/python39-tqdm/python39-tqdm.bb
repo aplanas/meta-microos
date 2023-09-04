@@ -5,10 +5,10 @@ tqdm's overhead is one order of magnitude less than python-progressbar \
 and does not require ncurses."
 LICENSE = "MIT & MPL-2.0"
 
-PV = "4.65.0"
+PV = "4.66.1"
 
-RPM_NAME = "python39-tqdm-4.65.0-1.3.noarch.rpm"
-RPM_HASH = "d76fe22d63051647ea3d60481f4e1d1a292075e4e0bf8e5182f007e3fd410afc5876a5272948320d9e5018630bf320e54d1a60fe0e438fbc02a46b07b3c9f508"
+RPM_NAME = "python39-tqdm-4.66.1-1.1.noarch.rpm"
+RPM_HASH = "d016e852b365a300981443a7b322b0f66bda696962b1eed486a94533e29f65226ba7fd4bdb5eb147c7ef58143426c6efb603d900e7071f3496f2e69b31bd5cf7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-tqdm \

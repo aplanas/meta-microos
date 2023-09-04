@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.09"
 
-RPM_NAME = "perl-Crypt-OpenSSL-Bignum-0.09-1.27.aarch64.rpm"
-RPM_HASH = "a257ec8f79e5b1819c496d71abb5fedf4998553be94e84eafd3923c17eb0d985f7c809c61f684cd50e759818226e97417f15912a0fd20071ba314b836588ae81"
+RPM_NAME = "perl-Crypt-OpenSSL-Bignum-0.09-1.28.aarch64.rpm"
+RPM_HASH = "7c798029eb49a203810c9c3cefbcd6d1774ccfc52a2e8fe77df2f35ba5df005cd5902fde1ebda661d30fa3093751ecdf7270d1ae4f2b33bf4f232b905071c23c"
 
 RPROVIDES:${PN} += "perl-Crypt--OpenSSL--Bignum \
 perl-Crypt--OpenSSL--Bignum--CTX \
@@ -21,6 +21,6 @@ perl-Crypt-OpenSSL-Bignum"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

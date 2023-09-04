@@ -50,8 +50,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.40"
 
-RPM_NAME = "perl-Devel-Cover-1.40-1.2.aarch64.rpm"
-RPM_HASH = "0f8f27c62c347ea56c6774c125112019c8aa53a0aac96e94896f9e87d645827f99a7387a4fcbe8eb9ae770f63f319110edc55c74d97670a5e3bb9b8937782698"
+RPM_NAME = "perl-Devel-Cover-1.40-1.3.aarch64.rpm"
+RPM_HASH = "16cb56cb25046da669db380229f1ce9b148293efc775e57f0e5bfd8cc2ee36612d14a5c179b17bfa095a0370ccaad1a28e7d5418f47b06af6fe002896c3e3439"
 
 RPROVIDES:${PN} += "perl-Devel--Cover \
 perl-Devel--Cover--Annotation--Git \
@@ -108,7 +108,7 @@ perl-Devel-Cover"
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-B-Debug \
 perl-HTML--Entities"
 

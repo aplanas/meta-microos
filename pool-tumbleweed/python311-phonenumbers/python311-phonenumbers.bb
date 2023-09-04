@@ -3,10 +3,10 @@ DESCRIPTION = "Python version of Google's common library for parsing, formatting
 and validating international phone numbers."
 LICENSE = "Apache-2.0"
 
-PV = "8.13.5"
+PV = "8.13.18"
 
-RPM_NAME = "python311-phonenumbers-8.13.5-2.3.noarch.rpm"
-RPM_HASH = "a0f7b901f99d9f4b60e7be0ba0146dbbc12ff27e65a88e042a4927cd5a8e12d40fa3a2e18598eb42f5a072c287f867b68ab977c35caf7262011512a4ac5999ac"
+RPM_NAME = "python311-phonenumbers-8.13.18-1.1.noarch.rpm"
+RPM_HASH = "4bc0fddbbef68aed08767d70a4a26acfaccab2a8f0a793d36f37cca86ea3a6d7aa273399ce7535411a636d460f98b4b9ea0971897e981af6c9c5156ab87bfbfe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-phonenumbers \

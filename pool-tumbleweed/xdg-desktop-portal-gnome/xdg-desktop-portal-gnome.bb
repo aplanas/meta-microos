@@ -3,10 +3,10 @@ DESCRIPTION = "A backend implementation for xdg-desktop-portal for the GNOME \
 desktop environment."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "44.1"
+PV = "44.2"
 
-RPM_NAME = "xdg-desktop-portal-gnome-44.1-1.2.aarch64.rpm"
-RPM_HASH = "0f789e7aa88e11f53219b0928e59fef0c6af6b31a2adfb3503ab67afe409c021aa54e465fe87ad843ed14d6aa0555be6ef1aaf2a88d200231a9e07b3ae60e531"
+RPM_NAME = "xdg-desktop-portal-gnome-44.2-1.1.aarch64.rpm"
+RPM_HASH = "8d8db5528cbcdd952396a15d17b2a8a0968ab143627473d75e5da8ccc739c46351359c223404c10e5c7d354bdda6798080f13436d08ef305f4261d0b33ed1342"
 
 RPROVIDES:${PN} += "xdg-desktop-portal-gnome"
 

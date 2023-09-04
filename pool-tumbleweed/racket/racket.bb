@@ -9,10 +9,10 @@ such as classes or modules, and separate dialects of Racket enable different \
 semantics."
 LICENSE = "Apache-2.0 | MIT"
 
-PV = "8.9"
+PV = "8.10"
 
-RPM_NAME = "racket-8.9-1.3.aarch64.rpm"
-RPM_HASH = "88010a5b37e605cbb581c435bdb8a056be312f3a6290dee7b89de32ed8b14018c3b689106711a1b5f0b5e4c19da2926abc596e3c044a3828227f3b03089b885d"
+RPM_NAME = "racket-8.10-1.1.aarch64.rpm"
+RPM_HASH = "a1e19ea69c36aa9289c268d2fe175d35e7f690763ab50e8f4a2c0a1e8f5d51455724efd49702d98989c17c75b63b3055c0b5e170b20e94ac493ae5dfb846eede"
 
 RPROVIDES:${PN} += "config-racket \
 racket \

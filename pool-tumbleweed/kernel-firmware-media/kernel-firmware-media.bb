@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 various Video4Linux drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230724"
+PV = "20230814"
 
-RPM_NAME = "kernel-firmware-media-20230724-1.1.noarch.rpm"
-RPM_HASH = "80db109336087b169ae6882c25bab598e4e39194ed9ba3f3b806f65f1406dcf7227bb8b02a5174cc2766c25d718a325c4bf53ee4ede7eb7ed16d37ef8e009fda"
+RPM_NAME = "kernel-firmware-media-20230814-1.1.noarch.rpm"
+RPM_HASH = "bf4b75ccbf6ae987c44b49c1ac985a63781d184f60dbf663b2342449f71cdc2eb79c19de4ae49ba73b54d3d877c4c1c394ed69b127eb5faf241901fb5b91b8d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-as102-data1-st.hex \

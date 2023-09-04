@@ -9,13 +9,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.18"
 
-RPM_NAME = "perl-Lingua-EN-Words2Nums-0.18-1.27.noarch.rpm"
-RPM_HASH = "0e77997f563ed124652bddb5ef95865aed9e1586bb6c917a32a4fa37217200c6be639010e35a7ada35e1033d67c5350d32e4b92fdff5f858f6b80ee89e93b718"
+RPM_NAME = "perl-Lingua-EN-Words2Nums-0.18-1.28.noarch.rpm"
+RPM_HASH = "856883cecdfe763a585d631b37e7857b165ad8d8158d53a983c28e45d61569a9c59b04336a5965fc483e6fd0073fe64271601aa36346f6e1e6e64aa27a059bd5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Lingua--EN--Words2Nums \
 perl-Lingua-EN-Words2Nums"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

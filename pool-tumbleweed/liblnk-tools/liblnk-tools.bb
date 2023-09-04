@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230716"
 
-RPM_NAME = "liblnk-tools-20230716-1.1.aarch64.rpm"
-RPM_HASH = "d3489e9e0c6660dc0207f9bd5ba55fc4acd7b1cb8a1d3e0910995ef9337d3812c8ea03dcaec66a7345b38a90ffc3da361c9806911f0ee17f1fedb46a6cf23348"
+RPM_NAME = "liblnk-tools-20230716-2.1.aarch64.rpm"
+RPM_HASH = "087064e158fb5e065b02e778aa5de6387aa074586fc8ef400499d157574d45b7e5f396c6b183f88a458d672a2a088246ac5a8e7dfd7aad9b9e17bd28f87f792e"
 
 RPROVIDES:${PN} += "liblnk-tools"
 

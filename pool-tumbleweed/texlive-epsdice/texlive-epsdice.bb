@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.2.1svn15878"
 
-RPM_NAME = "texlive-epsdice-2023.209.2.1svn15878-54.1.noarch.rpm"
-RPM_HASH = "9cc70c76ac6bf81dc0b1ca7f365f4ac799b7bfd1f6ef4e5bd7fb2689ccbb0edb77bc6e0099d5b0fc0d10eb30c21e16b122ed623997a117aa9ef60142384802ae"
+RPM_NAME = "texlive-epsdice-2023.209.2.1svn15878-54.2.noarch.rpm"
+RPM_HASH = "d33cb0262ef78009529221b31abd0cc05300189209043dba4afa690e4652356144b6d8763d195ea52f7f405de24fbb25a7b129e763e7044ae497543606afc1cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-epsdice.cfg \

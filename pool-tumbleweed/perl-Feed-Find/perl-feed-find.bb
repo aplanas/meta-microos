@@ -16,14 +16,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.13"
 
-RPM_NAME = "perl-Feed-Find-0.13-1.3.noarch.rpm"
-RPM_HASH = "c3f574155d113dd715ae8e778cf531fd6ad6935af862914dac19b735cab5c002df306f2367108af530a88223ac6389b5a3ab705b416aeae3c0a87eab755b7502"
+RPM_NAME = "perl-Feed-Find-0.13-1.4.noarch.rpm"
+RPM_HASH = "11fe2226b7ad2664cbe34ee61d45defd222527ac371cc00de6d95292fb9fb7b3c6a7f8e0248aed5af859b49832ca2cc309adade0b2f783639fa7613f16915133"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Feed--Find \
 perl-Feed-Find"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Class--ErrorHandler \
 perl-HTML--Parser \
 perl-LWP \

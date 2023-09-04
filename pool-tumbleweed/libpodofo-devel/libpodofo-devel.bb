@@ -2,16 +2,16 @@ SUMMARY = "Development files for podofo"
 DESCRIPTION = "This package contains development files for podofo library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.9.8"
+PV = "0.10.1"
 
-RPM_NAME = "libpodofo-devel-0.9.8-1.11.aarch64.rpm"
-RPM_HASH = "c08beb85794bffcb4f5155267dc18003c2e5d5bd0dd53b0b3d388c0e9b1afde84f3a34f5ad74d325a5d2e58e14a8cd7f00843d4ac551e54570e3ff0ace9afbf5"
+RPM_NAME = "libpodofo-devel-0.10.1-1.1.aarch64.rpm"
+RPM_HASH = "7fe6af16732433a2a50ba9eecac48efe1fdbaa6a92465e771dc6ca714f9fd657254bee6cbe383e09fb31413f17844bbfcbc26a494f1d8f004cfc8fd3882b61c1"
 
 RPROVIDES:${PN} += "libpodofo-devel \
 pkgconfig-libpodofo"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libboost-headers-devel \
-libpodofo0-9-8"
+libpodofo2"
 
 inherit rpm

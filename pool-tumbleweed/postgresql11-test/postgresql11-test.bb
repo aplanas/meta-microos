@@ -4,10 +4,10 @@ tests for the PostgreSQL database management system, including \
 regression tests and benchmarks."
 LICENSE = "PostgreSQL"
 
-PV = "11.20"
+PV = "11.21"
 
-RPM_NAME = "postgresql11-test-11.20-1.5.aarch64.rpm"
-RPM_HASH = "d8cb9e0727fffc6e6f88cd61c3d289e9019f5888ec096093b4bdca723c1b799f92bc7689867ba2b4007b405f34cdde571a0a91f267eb6c692df2bb2c5c97c1b4"
+RPM_NAME = "postgresql11-test-11.21-1.1.aarch64.rpm"
+RPM_HASH = "adfc07b7a022864af6b9e2592242687cdcea3489822772504d24e64f9b8924910fc9dd5519cc651ffc4f24b924f425ec0233b1fc7f44db76ca0ca03f7786d5af"
 
 RPROVIDES:${PN} += "postgresql-test-implementation \
 postgresql11-test"

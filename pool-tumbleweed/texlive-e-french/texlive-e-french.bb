@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.6.11svn52027"
 
-RPM_NAME = "texlive-e-french-2023.209.6.11svn52027-54.1.noarch.rpm"
-RPM_HASH = "0156bd02fb992cd33122ae3446a2971c2b804d2389e6f83d6357a021a37cd0a145e17c22e5704f9c24bcc6dbfe0d771548f1b095029d61c6231db5b26aa3ac21"
+RPM_NAME = "texlive-e-french-2023.209.6.11svn52027-54.2.noarch.rpm"
+RPM_HASH = "dfa3f8ab9dda5c64d10800ec61ecb01d6f77add023841d3730c255786ecf12353bc95d33715faec045c4fb999b018a0fa26f28e99778c3f8b06c35dbaff888ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-efrench.sty \

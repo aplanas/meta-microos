@@ -5,10 +5,10 @@ not necessary to install this packages, the data files are already \
 created."
 LICENSE = "GPL-2.0-or-later & MIT"
 
-PV = "2.37"
+PV = "2.38"
 
-RPM_NAME = "glibc-i18ndata-2.37-5.1.noarch.rpm"
-RPM_HASH = "b1584adbde1dfbe7dbf7f95c237d3a7983d93647a2456a6cc90e94ddae49da75759200a0cfc920c23927bdebb718bf4a7af8e533aeba3abdc45c0dbed67ed7a7"
+RPM_NAME = "glibc-i18ndata-2.38-1.1.noarch.rpm"
+RPM_HASH = "ea01debb4435eac7708aea0df498c6e50fec9d408958c15b22564c2c60a47bee7c90a2e47965acc87911cff16729bcdc2161d97474f5e9b939d5a93543683812"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glibc-i18ndata"

@@ -9,10 +9,10 @@ This is a package that is necessary for bootstrapping another package \
 only, it is not intended for any other use."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7597"
+PV = "13.2.1+git7683"
 
-RPM_NAME = "cross-avr-gcc13-bootstrap-13.1.1+git7597-1.1.aarch64.rpm"
-RPM_HASH = "6930eac1dcdde0b9310b20395374ba60b625bde0301f12012ae1b716bd3b6ded3fe445db2eaca3b521bb9ce20cf00a47068e167ea50f4560af1a46c6b7b8c703"
+RPM_NAME = "cross-avr-gcc13-bootstrap-13.2.1+git7683-1.1.aarch64.rpm"
+RPM_HASH = "905b807df3e4ab0fc4db0a08ddaef7923c1add1b99bf5a0dfc8e16963d4d2bb8952182c69f44d9fd5234b9c179f4e6e82d92e2a767c6297e27df75e3d6e88696"
 
 RPROVIDES:${PN} += "cross-avr-gcc13-bootstrap"
 

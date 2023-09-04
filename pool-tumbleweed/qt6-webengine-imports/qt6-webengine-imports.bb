@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "qt6-webengine-imports-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "2045f88846ab4382dc13befa9b31001cc0ceaeb14b80de5eeea8e8ba147e1264d800be246230400c0e34048b5b8eb2eace6899e0c4626c7ab996af31ed26040f"
+RPM_NAME = "qt6-webengine-imports-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "2099d91061677b753b2b6c093c595e4048d88c369177b13b4bc9e133ac725e6ba3e6c6a90e2f4a88a032982f616c54b36972f79c057b0fa46fbb13b036bc9f3f"
 
 RPROVIDES:${PN} += "libqtwebenginequickdelegatesplugin.so \
 libqtwebenginequickplugin.so \

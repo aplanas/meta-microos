@@ -11,10 +11,10 @@ the PostScript version of the fonts and their associated files. \
 These were created using autoinst."
 LICENSE = "OFL-1.1"
 
-PV = "2023.208.1.0svn54512"
+PV = "2023.209.1.0svn54512"
 
-RPM_NAME = "texlive-inriafonts-2023.208.1.0svn54512-53.1.noarch.rpm"
-RPM_HASH = "3a9030a29c17434bcf5351981bea72fb2089d03796a84c2e8717dd4c859e7c252d8728a40a69de45da882c2a6d463aa6555328aacbfb90f710584b53b4775c89"
+RPM_NAME = "texlive-inriafonts-2023.209.1.0svn54512-54.1.noarch.rpm"
+RPM_HASH = "b2fedb09682343b7c77469ede3fed942a95036f15de3f45945403a9aff9f28187c1a6b2496eb95fa5a06054b60a2a7a283e87625eab7a0a0013921f639e3edce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-InriaSans-Bold-lf-ly1--base.tfm \

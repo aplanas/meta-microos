@@ -16,15 +16,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.24"
 
-RPM_NAME = "perl-Tie-Hash-DBD-0.24-1.2.noarch.rpm"
-RPM_HASH = "255d712a7dbed663f9cf4f723b7ba6dd14bfc22206bc2001cc33c41d68d9225b0bc1d43d4be361a022d758213479289f155e9309d65ab62a38a2b6442d0a3cbc"
+RPM_NAME = "perl-Tie-Hash-DBD-0.24-1.3.noarch.rpm"
+RPM_HASH = "12f18d3e58ed5ffdc179d4c6e35c2495c0286a1c683f130f989dbd80fe5fc15f7172bf9395c63985b5ca9922215c1d0404c1efdedd2ba1d1b2478c2d30d5af6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Tie--Array--DBD \
 perl-Tie--Hash--DBD \
 perl-Tie-Hash-DBD"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-DBI \
 perl-Test--More"
 

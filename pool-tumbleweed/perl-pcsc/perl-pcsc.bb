@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.4.14"
 
-RPM_NAME = "perl-pcsc-1.4.14-1.34.aarch64.rpm"
-RPM_HASH = "831b0f9deeb855fd87eb9c472e0b1dfb86e87a342fadfb69e1987aec61fcea6aa1d4562d748c2c5575cec6bece35561d6d274c650ad05dfefefee1dff640af32"
+RPM_NAME = "perl-pcsc-1.4.14-1.35.aarch64.rpm"
+RPM_HASH = "374a5aea2abf4cd1ecbfb57b2325c442b6b23b969920b6e7546c2135e7ed43a93a65f78aca4a78d2a2b5a5d65aed6ea5436d707e05e587404734509f2eb1c847"
 
 RPROVIDES:${PN} += "perl-Chipcard--PCSC \
 perl-Chipcard--PCSC--Card \
@@ -15,7 +15,7 @@ perl-pcsc"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-base"
 
 inherit rpm

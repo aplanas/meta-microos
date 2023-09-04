@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.02svn62977"
 
-RPM_NAME = "texlive-pst-pulley-doc-2023.209.0.0.02svn62977-54.1.noarch.rpm"
-RPM_HASH = "fa64085628b1fba99788b633738f19253733bc7313263e9e55d86369ac20f1f0051e446c5453f04354645de75b656d6bafe5576bc6b47ee6c1f3320b07ead903"
+RPM_NAME = "texlive-pst-pulley-doc-2023.209.0.0.02svn62977-54.2.noarch.rpm"
+RPM_HASH = "858ebc17192931c4840d77efa9fbfc55328dc8941af3c8c6df3287b84b217c8aa3c064f541c1a9f1ae4855e8ba6961bab8608bc1f760e609a0cfb7127307c7c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-pulley-doc"

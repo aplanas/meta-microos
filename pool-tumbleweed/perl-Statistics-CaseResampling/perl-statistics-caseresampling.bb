@@ -15,14 +15,14 @@ LICENSE = "GPL-1.0-or-later | Artistic-1.0"
 
 PV = "0.15"
 
-RPM_NAME = "perl-Statistics-CaseResampling-0.15-1.25.aarch64.rpm"
-RPM_HASH = "431b8d1b5215a4cd0cd9070092252304930112093e60a6ed48190d1e564b8a068875fadf1b7bacfc960e367176afc328ed2fa79b99c6f4556ab2a2ccc4160d26"
+RPM_NAME = "perl-Statistics-CaseResampling-0.15-1.26.aarch64.rpm"
+RPM_HASH = "546de0474cb398672d87310cc37976678b13a990173270c2dbbfbd03d1f3e679e8b94e8ad60e3e6c3c2c4111dc58dc515f441111dc9fe32c40afa91e18bd930c"
 
 RPROVIDES:${PN} += "perl-Statistics--CaseResampling \
 perl-Statistics-CaseResampling"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

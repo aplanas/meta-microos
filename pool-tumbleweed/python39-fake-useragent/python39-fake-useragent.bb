@@ -2,10 +2,10 @@ SUMMARY = "Useragent faker package for Python"
 DESCRIPTION = "Useragent faker with real world database."
 LICENSE = "Apache-2.0"
 
-PV = "1.1.3"
+PV = "1.2.1"
 
-RPM_NAME = "python39-fake-useragent-1.1.3-1.3.noarch.rpm"
-RPM_HASH = "d10a51d8e837e1057a44f506c1773d4adf5fb9e0497fbe401caf9d54cd39134211f1af98cc6692617d1c36239fd06af77537387c67d41e871bc9da77af65de60"
+RPM_NAME = "python39-fake-useragent-1.2.1-1.1.noarch.rpm"
+RPM_HASH = "0a1c5c0af5f0091ff89fa4be744650ededd057bff256fded42802792484608a2d6c26a9d2c8ef5d6e6b3e30c45404a7c316b63bac97e67c3d1be849131b25c26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-fake-useragent \

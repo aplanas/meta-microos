@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Broadcom wireless drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230724"
+PV = "20230814"
 
-RPM_NAME = "kernel-firmware-brcm-20230724-1.1.noarch.rpm"
-RPM_HASH = "d38ee503b934b344a4ba2fcbd3dcc513938755c04a22eed8d4cf32753ac86981b17186755d2c4711e0642d61457640a194c9c3cc928c4a3cc1ad4295d1d117ac"
+RPM_NAME = "kernel-firmware-brcm-20230814-1.1.noarch.rpm"
+RPM_HASH = "664fb785ecb7467142b0760218443d40f0e8681e78b487eb537d3ad74e827adbaa1c78185702e4ba19f327b47eca4f6b15dcb18bdeb409fa9ede3f826a33576c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "3-model-a-plus.txt) \

@@ -4,10 +4,10 @@ DESCRIPTION = "This is the Microsoft Azure Mobilenetwork Management Client Libra
 This package has been tested with Python 3.7+."
 LICENSE = "MIT"
 
-PV = "2.0.0"
+PV = "3.0.0"
 
-RPM_NAME = "python311-azure-mgmt-mobilenetwork-2.0.0-1.4.noarch.rpm"
-RPM_HASH = "153e2caee6af1fcca3dc4b6adc941e7a1c459e5cd37dd79c4d932453cce01e94c2fb96756d92b86e9e29d7d0ab64cfcb97d7d90355ac8e711555620f409708a3"
+RPM_NAME = "python311-azure-mgmt-mobilenetwork-3.0.0-1.1.noarch.rpm"
+RPM_HASH = "8c664ee3d09c299656f0ab7269720bb5bc24c46ae4631156c928a4e3426de069d003538a56c904ba58db19f5312500948b3c70f694d8aa6f8441d7f20635539d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-mobilenetwork \
@@ -20,6 +20,6 @@ python311-azure-common \
 python311-azure-mgmt-core \
 python311-azure-mgmt-nspkg \
 python311-azure-nspkg \
-python311-msrest"
+python311-isodate"
 
 inherit rpm

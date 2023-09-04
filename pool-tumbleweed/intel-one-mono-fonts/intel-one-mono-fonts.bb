@@ -9,10 +9,10 @@ coding errors. A panel of low-vision and legally blind developers \
 provided feedback at each stage of design."
 LICENSE = "OFL-1.1"
 
-PV = "1.2.1"
+PV = "1.3.0"
 
-RPM_NAME = "intel-one-mono-fonts-1.2.1-1.1.noarch.rpm"
-RPM_HASH = "56e274362036fa100e744e4625d5e1458e0a999a928a63162373d0f6559565e72d8e2f2a0df69c61dea9b4d86c97573301dc2c440df276ec486f7c9eea1ebd49"
+RPM_NAME = "intel-one-mono-fonts-1.3.0-1.1.noarch.rpm"
+RPM_HASH = "660ea4dfd717a07787bd259269b08458fa9f68c5decd6024f4ba997edf6607471a240c223c0ba54c5beddad1af0489345d7082f3f639b23def514d4f7ea7c1bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "intel-one-mono-fonts"

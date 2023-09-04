@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.8.0.0"
 
-RPM_NAME = "ghc-fgl-doc-5.8.0.0-3.2.noarch.rpm"
-RPM_HASH = "c36a90dfd239d32976864ec85e838e9abaceda3c27ebf60d0c8e277772d107859fbe212efe69aaf3ec1fdb6d9d87bf433c5c05e3f56e8b945964c833af402e49"
+RPM_NAME = "ghc-fgl-doc-5.8.0.0-3.4.noarch.rpm"
+RPM_HASH = "06061f7342815f2d19ec288f23c8f4fe0816ee8b22c9ef31a2f5d1dd786eb667a5525b57f82ceb8d7415a0ee53e17f04adebf2d0697e7454af3971634b5abb11"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-fgl-doc"

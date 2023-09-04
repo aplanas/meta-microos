@@ -2,10 +2,10 @@ SUMMARY = "A Command-Line Interface framework"
 DESCRIPTION = "A Command-Line Interface framework"
 LICENSE = "MIT"
 
-PV = "0.10.1"
+PV = "0.11.0"
 
-RPM_NAME = "python310-knack-0.10.1-1.5.noarch.rpm"
-RPM_HASH = "930eb4d5ec9d028e33a4bcc0183b4754bebc757a6e8250dbf9e29b56f05fc1e887ef2737b1dd74e2ec721e1d4ecd727c29cba5e726b059aa1e7e85bc332bee0a"
+RPM_NAME = "python310-knack-0.11.0-1.1.noarch.rpm"
+RPM_HASH = "ccfe7c63a41c774a9c4ec73ef33b153bab9d9394f24c042723c727e12f885a3803ae3a7c6d8ce1c51e6c7cdbf20a47c56a657631887bd55b5ed4d185ce0d2c91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-knack \

@@ -7,21 +7,21 @@ Untraceability: By taking advantage of ring signatures, a special property of a 
 This package provides monerod, a headless monero daemon."
 LICENSE = "MIT"
 
-PV = "0.18.2.0"
+PV = "0.18.2.2"
 
-RPM_NAME = "monerod-0.18.2.0-1.1.aarch64.rpm"
-RPM_HASH = "4337f90c37fa98947b50154f325344423e1c735489b3a17d227fff99c452625970c059928b3642467d448cc1e0fceb1936f86bcb64d43f557835e28265fff8af"
+RPM_NAME = "monerod-0.18.2.2-1.1.aarch64.rpm"
+RPM_HASH = "81e34316067b1b816d871cb809f22ec9bfdff0a9c92ad9bfb392390c5866b6f5cbf72f0eee6baf03b24fe28fb9ae19fb6eafaeac11bf4ca21325e9b07aa63b2d"
 
 RPROVIDES:${PN} += "config-monerod \
 monerod"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libboost-chrono.so.1.81.0 \
-libboost-filesystem.so.1.81.0 \
-libboost-program-options.so.1.81.0 \
-libboost-serialization.so.1.81.0 \
-libboost-thread.so.1.81.0 \
+libboost-chrono.so.1.82.0 \
+libboost-filesystem.so.1.82.0 \
+libboost-program-options.so.1.82.0 \
+libboost-serialization.so.1.82.0 \
+libboost-thread.so.1.82.0 \
 libc.so.6 \
 libcrypto.so.3 \
 libgcc-s.so.1 \

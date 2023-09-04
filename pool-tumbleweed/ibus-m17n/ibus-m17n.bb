@@ -3,10 +3,10 @@ DESCRIPTION = "M17N engine for IBus input platform. It allows input of many lang
 the input table maps from m17n-db."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.19"
+PV = "1.4.20"
 
-RPM_NAME = "ibus-m17n-1.4.19-1.3.aarch64.rpm"
-RPM_HASH = "0e769343134f4034c7c7bb3dff9ba11eb628dcb7a64438d0a64de8dbb488006857c72ad479dcf30b4b37a0b880d62c3ec40a87527f18aeecd53db8364131d173"
+RPM_NAME = "ibus-m17n-1.4.20-1.1.aarch64.rpm"
+RPM_HASH = "dbdbab43564d95787d69a3763cc6bc594831cd664dce4dd7ee2f33dc26600e31fab7d1410e47b888c89efb74a21b7e918b54d30e9a8ad0b0d649d0fbb156b7c0"
 
 RPROVIDES:${PN} += "ibus-m17n \
 locale-ibus-am;ar;as;bn;fa;gu;he;hi;ja;ka;kk;kn;ko;lo;ml;my;ur;ru;vi;zh"

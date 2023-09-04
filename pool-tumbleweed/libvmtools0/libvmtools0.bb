@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-2.1-only"
 
 PV = "12.2.0"
 
-RPM_NAME = "libvmtools0-12.2.0-5.1.aarch64.rpm"
-RPM_HASH = "bd0dfb5f2f857cff51e0d8f1944968304480196af2464ae68b8b919007c4834d9add88fe442bc8239aeab34ccd4e4fdb579f2d1434b5e1f846d83c6911b4c42a"
+RPM_NAME = "libvmtools0-12.2.0-5.2.aarch64.rpm"
+RPM_HASH = "461c6c8ba9a6a13a32802bc49f31e48f041aa44c8ddd3cebfefb74dd597413757a1fcda77e93cea283e8cae0a0132082302100ed3887c49fcaea2bf49c1b3c8e"
 
 RPROVIDES:${PN} += "libDeployPkg.so.0 \
 libguestStoreClient.so.0 \

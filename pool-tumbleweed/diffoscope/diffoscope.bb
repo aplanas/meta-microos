@@ -17,10 +17,10 @@ package produce different outputs. diffoscope was previously named \
 debbindiff."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "241"
+PV = "242"
 
-RPM_NAME = "diffoscope-241-1.2.noarch.rpm"
-RPM_HASH = "7085d978ff9029a87726db9f7b350d81bbdd8f95ff7fd473652da0452f961e581390dc3a90d655d6be1b7d144f2d22b0fdb4b3e1327cedb04904d910f0357ece"
+RPM_NAME = "diffoscope-242-1.1.noarch.rpm"
+RPM_HASH = "d6c51818fa632142768d06a29277ce1c5522987eb06d1bcab04da735b25576e57987d72694915f9652a7defab7b9bf78a0e3323ba4e11425e021d57efd8b4b42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "diffoscope \

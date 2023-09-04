@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.209.0.0.43svn65030"
 
-RPM_NAME = "texlive-yfonts-otf-fonts-2023.209.0.0.43svn65030-53.1.noarch.rpm"
-RPM_HASH = "87d3da93e3eb11ea824d667c33aebb85f2bf63ff87f8d7295f7594d27323acdb53d3b5ba97ad890e8b5b7badee8151cf5a09a8af22c43b1c5b1f345d6aa477ad"
+RPM_NAME = "texlive-yfonts-otf-fonts-2023.209.0.0.43svn65030-53.2.noarch.rpm"
+RPM_HASH = "f99d80e6c3278ec570dcd1e513807494d88dd3b3fedb67fdd261dad57ec65afa960b7cf29e1bfd642b09a87ddc3e3b0304fb252ea802852a094bbd39cc484a35"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=bi \

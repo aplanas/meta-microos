@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "8.1.0"
 
-RPM_NAME = "digikam-devel-8.1.0-1.1.aarch64.rpm"
-RPM_HASH = "f53c4ab076664e4bd3cf576307826180451254659c75578d2e49ad856de2d6add4217b2b021db034e79d4f4321542f3b7ffcf6482ee22959eb02020e741a3d46"
+RPM_NAME = "digikam-devel-8.1.0-2.1.aarch64.rpm"
+RPM_HASH = "57bf1c653136d18c83ac2d1632a3fdf5b738efaa530fcea57459c7f396cbdb3e2603c6e7bce4c1fda042d24229b8a44d788a69dc73941b9fd140d24c8fb44938"
 
 RPROVIDES:${PN} += "cmake-DigikamCore \
 cmake-DigikamDatabase \

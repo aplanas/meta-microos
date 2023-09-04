@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
 PV = "3.1.6"
 
-RPM_NAME = "python3-apparmor-3.1.6-2.1.aarch64.rpm"
-RPM_HASH = "eecb2087958968e7e96c49ef2da1593524363745cc670c763e38c62dc04feb4b3be3a099164785410bba2b61ad4a130cfa1b20ba3602b471163ad13d66c62380"
+RPM_NAME = "python3-apparmor-3.1.6-2.2.aarch64.rpm"
+RPM_HASH = "d3719f8fc6603ed5fbd5dd296c2fda7749cf335e736407e1b5ac9d922d914bddaf17c74f8f78ff25b91b396080d3618f4d82ff1cdf5f581d3942d721de5264ef"
 
 RPROVIDES:${PN} += "python3-apparmor \
 python3.11dist-apparmor \

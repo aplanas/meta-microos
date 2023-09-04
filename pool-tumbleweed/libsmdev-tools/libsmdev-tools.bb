@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221028"
 
-RPM_NAME = "libsmdev-tools-20221028-2.12.aarch64.rpm"
-RPM_HASH = "ccb619b04d87d41ec8c2bec092276413c0691be2085bda64c3a42aabe266d98762fecab30767f31ebe2a7e4101fe034f0667ad9f7b3e281ad49716405b6dfe78"
+RPM_NAME = "libsmdev-tools-20221028-3.1.aarch64.rpm"
+RPM_HASH = "e41da83386a313b8c31c3bdf259997948d06c283d6c2543a964a8830c949a35dffa81a44da6e39ffec8af95480ec0a029b315ff15f622d0f98cc4134804ec7e5"
 
 RPROVIDES:${PN} += "libsmdev-tools"
 

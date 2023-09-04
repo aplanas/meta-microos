@@ -7,8 +7,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.17"
 
-RPM_NAME = "perl-Spreadsheet-XLSX-0.17-1.9.noarch.rpm"
-RPM_HASH = "a97beb4564bb621d734e634b638ed7d5e8b87ba31cba7ad8453ee1661e19d023cbb3b4fecf8113a72e5e56121e953db4a98237b31bd5c35d8308c5d6b84af709"
+RPM_NAME = "perl-Spreadsheet-XLSX-0.17-1.10.noarch.rpm"
+RPM_HASH = "806c717757c611180525b0862e5a78b1446b32f2b499922287eb91498c3cb255e6966695c84afcfaf5e40bd06822d855e2a845ee9a296495be7e9e555b514eb7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Spreadsheet--XLSX \
@@ -16,7 +16,7 @@ perl-Spreadsheet--XLSX--Fmt2007 \
 perl-Spreadsheet--XLSX--Utility2007 \
 perl-Spreadsheet-XLSX"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Archive--Zip \
 perl-Spreadsheet--ParseExcel"
 

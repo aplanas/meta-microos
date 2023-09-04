@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for libzypp, a library for package, patch, patt
 and product management."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "17.31.17"
+PV = "17.31.19"
 
-RPM_NAME = "libzypp-devel-17.31.17-1.1.aarch64.rpm"
-RPM_HASH = "823e41baf26dd7d0496234f079e29f21e07cd8c10b8a54b0a9134a67bc54494201f4128871cc0bad831bd4c4f2b59ceba77d4080d7f932ddc230bcac3784e35d"
+RPM_NAME = "libzypp-devel-17.31.19-1.2.aarch64.rpm"
+RPM_HASH = "5dca553089c3e1b2b6e5b041ed85830d6703ccacc5bd1622c919786701c953e8f8feaf1ed2e0bd3344da2c5e1beedc500f82288f579d4124ee4a8d16f3b9fed6"
 
 RPROVIDES:${PN} += "libzypp-devel \
 libzypp-tui-devel \

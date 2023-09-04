@@ -6,13 +6,12 @@ xplr integrates shell commands and GUI file managers and exposes a \
 scriptable, keyboard-controlled, real-time visual interface."
 LICENSE = "MIT"
 
-PV = "0.21.2"
+PV = "0.21.3"
 
-RPM_NAME = "xplr-0.21.2-1.2.aarch64.rpm"
-RPM_HASH = "1f6883fe29cc8622bb1ffade7a170ca62249e92158d30173dc2f6e6dd5203b2159e5eadd3f5d02ac896e13c6ca8437fe1645c3fe585198772563bcfe58f14b2d"
+RPM_NAME = "xplr-0.21.3-1.1.aarch64.rpm"
+RPM_HASH = "f609d2e7abb83cf8d2075a22f8080d0fbfae0b4ad940359b42a18e2f83e367d1b975649926ba5857a2e1f6380ed8b15709aee31e1ccf687e5a8dcfb2f5c3f263"
 
-RPROVIDES:${PN} += "bundled-rust-crate-ahash \
-bundled-rust-crate-aho-corasick \
+RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-ansi-to-tui \
 bundled-rust-crate-anyhow \
 bundled-rust-crate-arrayvec \
@@ -35,24 +34,25 @@ bundled-rust-crate-darling \
 bundled-rust-crate-darling-core \
 bundled-rust-crate-darling-macro \
 bundled-rust-crate-defer-drop \
+bundled-rust-crate-deranged \
 bundled-rust-crate-derive-builder \
 bundled-rust-crate-derive-builder-core \
 bundled-rust-crate-derive-builder-macro \
-bundled-rust-crate-dirs \
 bundled-rust-crate-dirs-next \
-bundled-rust-crate-dirs-sys \
 bundled-rust-crate-dirs-sys-next \
 bundled-rust-crate-either \
+bundled-rust-crate-equivalent \
 bundled-rust-crate-erased-serde \
 bundled-rust-crate-fnv \
 bundled-rust-crate-fuzzy-matcher \
 bundled-rust-crate-gethostname \
-bundled-rust-crate-getrandom \
 bundled-rust-crate-hashbrown \
+bundled-rust-crate-home \
 bundled-rust-crate-humansize \
 bundled-rust-crate-iana-time-zone \
 bundled-rust-crate-ident-case \
 bundled-rust-crate-indexmap \
+bundled-rust-crate-indoc \
 bundled-rust-crate-itoa \
 bundled-rust-crate-jf \
 bundled-rust-crate-lazy-static \
@@ -75,13 +75,12 @@ bundled-rust-crate-nix \
 bundled-rust-crate-nom \
 bundled-rust-crate-nu-ansi-term \
 bundled-rust-crate-num-cpus \
-bundled-rust-crate-num-integer \
 bundled-rust-crate-num-threads \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-once-cell \
-bundled-rust-crate-option-ext \
 bundled-rust-crate-parking-lot \
 bundled-rust-crate-parking-lot-core \
+bundled-rust-crate-paste \
 bundled-rust-crate-path-absolutize \
 bundled-rust-crate-path-dedot \
 bundled-rust-crate-pin-utils \
@@ -92,6 +91,7 @@ bundled-rust-crate-ratatui \
 bundled-rust-crate-rayon \
 bundled-rust-crate-rayon-core \
 bundled-rust-crate-regex \
+bundled-rust-crate-regex-automata \
 bundled-rust-crate-regex-syntax \
 bundled-rust-crate-rustc-hash \
 bundled-rust-crate-ryu \
@@ -132,6 +132,7 @@ bundled-rust-crate-version-check \
 bundled-rust-crate-vte \
 bundled-rust-crate-vte-generate-state-changes \
 bundled-rust-crate-which \
+bundled-rust-crate-xdg \
 bundled-rust-crate-xplr \
 config-xplr \
 xplr"

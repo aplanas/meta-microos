@@ -6,15 +6,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.005"
 
-RPM_NAME = "perl-MooX-Traits-0.005-1.13.noarch.rpm"
-RPM_HASH = "0d5e5dc0d0694da886a604055da39e972108b4203dcabebf7532f38983ec1870fe29aae2b0c4c874287ef1d536710fd1f20034f1e84d9b1fe213c151a21105b8"
+RPM_NAME = "perl-MooX-Traits-0.005-1.14.noarch.rpm"
+RPM_HASH = "58a5707b76c687b79588208b4ff76e6912918c10e3fb1cfb2611c07be71101b6230621b3a1b9dfd2b55e76e549375f6e6ae3813a26d7e1313a63ec687a3cbbc0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooX--Traits \
 perl-MooX--Traits--Util \
 perl-MooX-Traits"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Exporter--Shiny \
 perl-Module--Runtime \
 perl-Role--Tiny"

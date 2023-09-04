@@ -2,10 +2,10 @@ SUMMARY = "Plasma QML components"
 DESCRIPTION = "Plasma QML and runtime components based upon KF5 and Qt5"
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "plasma-framework-components-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "c3927864589f06eaaeb15bb965191dda581fe98a0bdcfcd08bbe5d684a7a6da7c28009f2beac1453548ce5e704f74ae08997aa8835f08eb698dffe7e20257e69"
+RPM_NAME = "plasma-framework-components-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "c455dc74e72ed5ef5be2cb0f69f0962b8b7f839c31bf75ef07cf6e39bfc503d4624ffa28822e416d0df2bd95082d88a8a6195e716d2cd73f333a991165076724"
 
 RPROVIDES:${PN} += "libcalendarplugin.so \
 libcorebindingsplugin.so \

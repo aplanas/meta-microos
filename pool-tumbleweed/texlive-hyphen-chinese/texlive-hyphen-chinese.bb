@@ -5,10 +5,10 @@ hyphenate pinyin with or without tone markers; the former only \
 without."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn58652"
+PV = "2023.209.svn58652"
 
-RPM_NAME = "texlive-hyphen-chinese-2023.208.svn58652-53.1.noarch.rpm"
-RPM_HASH = "f5a75377e87df8b105e2f1382e7e8cb27e56742a52e1e3f76201ec28d04b7fb7a6aeafed429b04320cbf45f454443da2da666690c9d11256830f1c776e990703"
+RPM_NAME = "texlive-hyphen-chinese-2023.209.svn58652-54.1.noarch.rpm"
+RPM_HASH = "487ca7d155e32071e8ae235dd1d6f545d16b1767dc92925c3ac78d85892527d91d4a0086f326d86e170bb00ef55a41139372220ce3db6e1667da525ee89d2881"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-zh-latn-pinyin.ec.tex \

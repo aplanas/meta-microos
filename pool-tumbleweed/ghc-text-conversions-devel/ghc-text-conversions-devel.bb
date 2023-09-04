@@ -5,18 +5,18 @@ LICENSE = "ISC"
 
 PV = "0.3.1.1"
 
-RPM_NAME = "ghc-text-conversions-devel-0.3.1.1-2.2.aarch64.rpm"
-RPM_HASH = "377921ec45a054c3e125deb2897023501895e9df2f22a773cc570abf924eea5d046f4df1bc963db0df3ac618504a48947004cd5543f783914f13e80c12f0394b"
+RPM_NAME = "ghc-text-conversions-devel-0.3.1.1-2.3.aarch64.rpm"
+RPM_HASH = "271ce815407fb13488e22c6e5374d6bd68c4a515c671c6bebb6d9b210e1d4e301ab796b4059c5ad9d6b550e54973657eda5a02c657994d76ca07902622a09544"
 
-RPROVIDES:${PN} += "ghc-devel-text-conversions-0.3.1.1-CkkBRqT3R5g4PO0QywmUQS \
+RPROVIDES:${PN} += "ghc-devel-text-conversions-0.3.1.1-HJG9QLMf9pVESk7Lf3iSH7 \
 ghc-text-conversions-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-base16-bytestring-1.0.2.0-BWBHxp15W1kvZUUcQHZQU \
-ghc-devel-base64-bytestring-1.2.1.0-8KbzJpmSQbYKTeew1rv0hh \
-ghc-devel-bytestring-0.11.4.0 \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-base16-bytestring-1.0.2.0-LI31ya5OMpR4awBMr256aJ \
+ghc-devel-base64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM \
+ghc-devel-bytestring-0.11.5.1 \
 ghc-devel-text-2.0.2 \
 ghc-text-conversions"
 

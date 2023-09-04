@@ -8,17 +8,16 @@ Notebook (notebook, terminal, text editor, file browser, rich outputs, \
 etc.)."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.0.2"
+PV = "4.0.5"
 
-RPM_NAME = "jupyter-jupyterlab-4.0.2-1.2.noarch.rpm"
-RPM_HASH = "3a6c7b4d89fd7d34d6b0fe7edae44db183da6a06acd934af93f3ceafe6a7ed47b2604f7ca5bdc4032db6adab1f776ed3df4de58b4215ee988ba02d372e73714f"
+RPM_NAME = "jupyter-jupyterlab-4.0.5-2.1.noarch.rpm"
+RPM_HASH = "2aeea8484d0356e52c70f6dec8c9ea80221912ecb716d8121830944fd6821859e28f588c0856d6a94a0b4fce5f530eca498cf3fde82e4adad22953cc3c0d9003"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyterlab \
 jupyter-jupyterlab-discovery"
 
-RDEPENDS:${PN} += "/usr/bin/python3.11 \
-jupyter-jupyterlab-filesystem \
+RDEPENDS:${PN} += "jupyter-jupyterlab-filesystem \
 nodejs \
 npm \
 python3dist-jupyterlab"

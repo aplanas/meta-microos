@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.03svn42712"
 
-RPM_NAME = "texlive-elocalloc-2023.209.0.0.03svn42712-54.1.noarch.rpm"
-RPM_HASH = "b4a77b297510bfec21534b1573646ace231e755ce8bd9e8ed96d880cd1538c459294594afb49ae0dafcceaa277b744a04d5c373d58862fb62e2fedbdc876f389"
+RPM_NAME = "texlive-elocalloc-2023.209.0.0.03svn42712-54.2.noarch.rpm"
+RPM_HASH = "f5b69e0eefe52a0de496ca77ec3df39992d509fb92bb84f889d4cc26a5bb4920b67f84688d7e1c9f05b261d9df8fb8bda4275795a48e166591bbbb352f6ebf38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-elocalloc.sty \

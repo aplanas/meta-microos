@@ -4,10 +4,10 @@ of recent versions of Linux. Requires a hypervisor specific sub-RPM \
 for specific drivers."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.5.0"
+PV = "9.6.0"
 
-RPM_NAME = "libvirt-daemon-9.5.0-2.1.aarch64.rpm"
-RPM_HASH = "1880aceb58d0893cc11c3b8c9f5901e025dabb617e2edab7a36a30f93bffc5ab3b7115080fc6d04ead2bba5c059fcbe94ce23105e1b03b46f43feaf565e9d870"
+RPM_NAME = "libvirt-daemon-9.6.0-2.1.aarch64.rpm"
+RPM_HASH = "e9c2323036922136e58b8ff71416bdeed5106deeebe9248a83c9f1c100319004fafd497cededd2994cd10622b8c08b8bc2edf9fbf00a2b7c662aa86a106d2985"
 
 RPROVIDES:${PN} += "config-libvirt-daemon \
 libvirt-daemon"

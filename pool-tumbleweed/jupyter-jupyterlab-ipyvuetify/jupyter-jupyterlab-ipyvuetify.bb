@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.8.10"
 
-RPM_NAME = "jupyter-jupyterlab-ipyvuetify-1.8.10-3.1.noarch.rpm"
-RPM_HASH = "928cc5d9fd3a229889642e3c8e3d56df29f29ab61c350c336a760f78362c9264cdefecc82c40954a68f130a80b3f860e8bca165ca17cde6b13928595def64a3e"
+RPM_NAME = "jupyter-jupyterlab-ipyvuetify-1.8.10-4.1.noarch.rpm"
+RPM_HASH = "298e52e6098badafa405c2e70c0b96d35b2c31ffa3f2adac2c27a301e22542c22d059a6d7fa33169dac1af7fc507db34b43b478a49a47b4d608d042d6a2286ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyterlab-ipyvuetify"

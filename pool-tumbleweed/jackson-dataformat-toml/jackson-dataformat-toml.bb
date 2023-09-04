@@ -4,10 +4,10 @@ This project adds necessary abstractions on top to make things work \
 with other Jackson functionality."
 LICENSE = "Apache-2.0"
 
-PV = "2.13.3"
+PV = "2.15.2"
 
-RPM_NAME = "jackson-dataformat-toml-2.13.3-1.8.noarch.rpm"
-RPM_HASH = "b991afebbc1fb4208d923a761afad00f6ca45f5efacaf34ce47b66f3fccd81ddf2362a6da35dc562ed42ddb7390a8df09dfa7317097a635545cee1da6a3708ce"
+RPM_NAME = "jackson-dataformat-toml-2.15.2-1.1.noarch.rpm"
+RPM_HASH = "2ab00144a9b5c5ef02ef5a9623ac954e54efa9a3b7b7ed1e85ffb1c1e98c9c8fed2391c3d47f205c792565924af953820d193219d401f704cdca555961b03d3a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-dataformat-toml \

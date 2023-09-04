@@ -17,8 +17,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.5svn60455"
 
-RPM_NAME = "texlive-hecthese-2023.209.1.5svn60455-54.1.noarch.rpm"
-RPM_HASH = "1847b2bc03cf1c00d0abeb8bfa317f387997562bbe18cff89af54a99d01a5dec22157ff8b550bae5e9c07a11681a605b9b4a71871c4bbe4708a11a3cf85014e9"
+RPM_NAME = "texlive-hecthese-2023.209.1.5svn60455-54.2.noarch.rpm"
+RPM_HASH = "537e3a2a2fbbd79377297d1ced32b5b3c538f1363d1fe1717909ad0e6a02b849c084d922bf1aa51381b253f876dd77609f4bcd2bb366789daaf8bbbbcf6356ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hecthese.cls \

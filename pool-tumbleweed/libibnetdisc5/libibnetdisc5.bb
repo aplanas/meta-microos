@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "47.0"
 
-RPM_NAME = "libibnetdisc5-47.0-1.1.aarch64.rpm"
-RPM_HASH = "44a45fae93540cd3f8b00d739c535b02fc54ba4b12c21b196a76756a74cf147ef092b1997269351e5117374a65966060fe310a13587e671d21a12f9e5575e406"
+RPM_NAME = "libibnetdisc5-47.0-2.2.aarch64.rpm"
+RPM_HASH = "26a827b85ea6fce56ffde6bc0c7175a351fe7d126f1ee7f9968cd373abbe127919a491c501baea1e8a0fa5927a4a56c0b6b344184ab0ece599769be26c5b6eee"
 
 RPROVIDES:${PN} += "libibnetdisc.so.5 \
 libibnetdisc5"

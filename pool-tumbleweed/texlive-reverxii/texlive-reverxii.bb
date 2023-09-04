@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn63753"
 
-RPM_NAME = "texlive-reverxii-2023.209.svn63753-54.1.noarch.rpm"
-RPM_HASH = "4ba63b7c3eccf306ce36f7c99184878ee52acbe4d9044e2f32806af5e32c19d94d8a14ff8c9a93e5eaf108f2c035c2f3dc2b3d61a668de58ec67d93a916f1757"
+RPM_NAME = "texlive-reverxii-2023.209.svn63753-54.2.noarch.rpm"
+RPM_HASH = "5fa804521e1050a8d7fb48d7af44a885c7d9890d06c0a6a4b39413f0dc2b81fea15d07b08b7d533bdbc3fa3ff3fa34519fe998c4161f90bd9d0d2282a87678c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-reverxii.tex \

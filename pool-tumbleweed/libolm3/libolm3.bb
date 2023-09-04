@@ -4,10 +4,10 @@ in C and C++, including an implementation of the Megolm cryptographic ratchet. \
 Double Ratchet cryptographic library as a C API"
 LICENSE = "Apache-2.0"
 
-PV = "3.2.14"
+PV = "3.2.15"
 
-RPM_NAME = "libolm3-3.2.14-1.6.aarch64.rpm"
-RPM_HASH = "3d0fc0225cabd922b0c45f54b35df8ee480b115cc38e9c91f8bdb2dcbceb1d606da224e6924fe49b6725a6189a5a0c07161a7fcfd6ed167a94ea02019cf6a417"
+RPM_NAME = "libolm3-3.2.15-1.1.aarch64.rpm"
+RPM_HASH = "50bbd0a494984f333594e80dd9924e0e0e84dfedd4509df27f2692ccabcc7342b9ff82498b903655a7a07f0b37cf5ae1e9aae2c27c8317c976d63bb7ef005169"
 
 RPROVIDES:${PN} += "libolm.so.3 \
 libolm3"

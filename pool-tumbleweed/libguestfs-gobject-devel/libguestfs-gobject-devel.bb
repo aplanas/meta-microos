@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.50.1"
 
-RPM_NAME = "libguestfs-gobject-devel-1.50.1-4.1.aarch64.rpm"
-RPM_HASH = "7ef5de8bea81706bdb2762fa113b8f433d66a71ed7b65dbeed0a73e74ee7343ee61292f1d9ec882920a8eff8469115706aca516b8f108eeedff5f31c1a819246"
+RPM_NAME = "libguestfs-gobject-devel-1.50.1-4.2.aarch64.rpm"
+RPM_HASH = "efff06a0502c11b54b265662df371b18b08284c5d59aedd495c815f27a417d39a986794af65a458e5cd91fb43fe24576b4e4f1759a4e6a58039405c4a3f9be92"
 
 RPROVIDES:${PN} += "libguestfs-gobject-devel \
 pkgconfig-libguestfs-gobject-1.0"

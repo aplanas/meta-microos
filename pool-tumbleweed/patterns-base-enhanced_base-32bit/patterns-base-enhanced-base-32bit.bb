@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20200505"
 
-RPM_NAME = "patterns-base-enhanced_base-32bit-20200505-41.1.aarch64.rpm"
-RPM_HASH = "8b2e35f3425927934c47e75bd978ce745df810148d3719b1e0bfa723bf0dee906260d5b0d3eb98bb41ad2ab215ceedb3bbd5bb8a139a52300c0fec9bdf9bdd6f"
+RPM_NAME = "patterns-base-enhanced_base-32bit-20200505-42.1.aarch64.rpm"
+RPM_HASH = "22eab4f9e1e19392ac8c8332b37506eff5af377eb3f087069bee459865ced0fccc17dcc00d4df1fb525bb4695e5a9a7a9ea7aee5ade636b0adaa72b15b7d17ca"
 
 RPROVIDES:${PN} += "pattern- \
 patterns-base-enhanced-base-32bit"

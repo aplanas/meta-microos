@@ -8,10 +8,10 @@ Including: \
  * Tray icon"
 LICENSE = "SUSE-GPL-3.0+-with-openssl-exception"
 
-PV = "0.13.1"
+PV = "0.14.0"
 
-RPM_NAME = "profanity-standard-0.13.1-1.6.aarch64.rpm"
-RPM_HASH = "0ecb94c95e1d6e27d7c0ff61b6f06cfe191a22103854bf7373d56474645725f2585feafb87a98c9b60eb88f0dd894840e689c2a9cff999ccb037c50f8fe6ed95"
+RPM_NAME = "profanity-standard-0.14.0-2.1.aarch64.rpm"
+RPM_HASH = "964dc3726257d53bb8cfa50075e5c4188df241bfc7d6eab50c1b625d1f68e2eb2705aa4705313731fffda5a759ef5365962aeb046a712bded6839346f657400f"
 
 RPROVIDES:${PN} += "profanity-binary \
 profanity-standard"

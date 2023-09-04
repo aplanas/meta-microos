@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "perl-PCP-MMV-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "4b60f47b02fa873b6a1c10b3dcce0698e17cf61fb012512126bdeca18585b318a35796fe0f628a2b37ba9c7370bc625b64554e33ff78aeb4a7d714d68d200c31"
+RPM_NAME = "perl-PCP-MMV-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "629668a5f3ccdb8ff859f42b85529a2a7196b0ce7d3f1420facbf76ecdde65669b9ded627807687d7fe320d2e30c29f7107ff69e87a76e1de1a1fc27b22852d6"
 
 RPROVIDES:${PN} += "perl-PCP--MMV \
 perl-PCP-MMV"
@@ -19,6 +19,6 @@ RDEPENDS:${PN} += "/usr/bin/env \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpcp3 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

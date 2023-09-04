@@ -3,15 +3,15 @@ DESCRIPTION = "This package contains files necessary for building kernel modules
 kernel module packages) against the default flavor of the kernel. \
  \
  \
-Source Timestamp: 2023-07-25 04:42:30 +0000 \
-GIT Revision: 55520bc826c5b1d40857ed0536eb87438cb95192 \
+Source Timestamp: 2023-08-17 04:57:43 +0000 \
+GIT Revision: 2a5b3f66898e9ecfa282f4399923c9546d3bc54d \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.6"
+PV = "6.4.11"
 
-RPM_NAME = "kernel-default-devel-6.4.6-1.1.aarch64.rpm"
-RPM_HASH = "1ed5390be6b4fd799b9b2f3cf793c9acd6f4bd8bba6fd1314f30a8e048d788ba41353e7240f92d13b8a28fefaf5c37e885afefea237d5fc95b690da286b94b0b"
+RPM_NAME = "kernel-default-devel-6.4.11-1.2.aarch64.rpm"
+RPM_HASH = "24570711054466468f0558b553a5a4ed442835d0857b9d345019ce6f9980ad669c262b6f46c8ced8a608d8695062c1945e7ce232c25a22a45c662659bd22b828"
 
 RPROVIDES:${PN} += "kernel-default-devel \
 kernel-preempt-devel \
@@ -20,7 +20,6 @@ multiversion-kernel"
 RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 dwarves \
-jq \
 kernel-devel \
 libc.so.6 \
 libcrypto.so.3 \

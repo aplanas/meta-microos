@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kdav"
 DESCRIPTION = "Provides translations for the 'kdav' package."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kdav-lang-5.108.0-1.1.noarch.rpm"
-RPM_HASH = "6bf1963bb6dddcbf27fe4683ac9bbd2340ab3af7d48588b3dfd84cc6d419bcc1e8dbcf2ce32528a9b829112a8a90b44c7439f4cf5b2e0e217856afd2e30b6a8a"
+RPM_NAME = "kdav-lang-5.109.0-1.1.noarch.rpm"
+RPM_HASH = "e77da907f08cd4a548b157b0a6fd0dfb7559a6cb5e1e9920cc3b9d4b6e210ed5f2cb5a2c741c64475a5b76947b8b6b16cc3fd086d44eab59c018b181cb4fdd02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdav-lang \
@@ -19,6 +19,7 @@ locale-kdav-cs \
 locale-kdav-de \
 locale-kdav-el \
 locale-kdav-en-GB \
+locale-kdav-eo \
 locale-kdav-es \
 locale-kdav-et \
 locale-kdav-eu \

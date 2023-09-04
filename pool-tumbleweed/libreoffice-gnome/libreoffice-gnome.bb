@@ -2,10 +2,10 @@ SUMMARY = "GNOME Extensions for LibreOffice"
 DESCRIPTION = "This package contains some GNOME extensions and GTK2 interface for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-gnome-7.5.4.2-1.5.aarch64.rpm"
-RPM_HASH = "18fe1a8294cdf1a5e5dba1c23d286320cf4b76b621316db204c265ef54b017722c6b25e52f77ab5a461100d40fc31ea5d8cafd0cd5ea9bdaecc61b92151fa141"
+RPM_NAME = "libreoffice-gnome-7.6.0.3-1.1.aarch64.rpm"
+RPM_HASH = "4e1cdfee57dc0bdce257846f9b9a551021c19fd7efa97928e20424686979148a89f144e7b04243855cb794b7c0b1e06a5946d3fbbdabb5f99a70a59724243070"
 
 RPROVIDES:${PN} += "libevoablo.so \
 liblosessioninstalllo.so \

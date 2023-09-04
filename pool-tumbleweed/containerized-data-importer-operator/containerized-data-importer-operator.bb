@@ -2,10 +2,10 @@ SUMMARY = "Operator for the data fetching service"
 DESCRIPTION = "Operator for the data fetching service for VM container images"
 LICENSE = "Apache-2.0"
 
-PV = "1.56.0"
+PV = "1.57.0"
 
-RPM_NAME = "containerized-data-importer-operator-1.56.0-2.1.aarch64.rpm"
-RPM_HASH = "699905baa3dbc29afbc37f43c410eac9e54b94f071fb77f0d55cab26d6cdda28df21bc7cb485041dc25ca363c58b94b0309c05b71931f97974ea3197362f950e"
+RPM_NAME = "containerized-data-importer-operator-1.57.0-1.1.aarch64.rpm"
+RPM_HASH = "c01bf77dfd1c83c76a6545b00f5460b20050185cf6d955b6296f877d2282bfb141e546082d554a541a553ed53e1e5e7646ad7bc16e34438abc8a094e0a3051dc"
 
 RPROVIDES:${PN} += "containerized-data-importer-operator"
 

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3006.0"
 
-RPM_NAME = "salt-cloud-3006.0-1.4.aarch64.rpm"
-RPM_HASH = "6b73f7da906d0e62a92268db6d807cbca73158801bdd0a577f31413ac97583134864b959604acb8eab3ac3c183bd1d80a6c686f8fed2467575c3ee9ce0e0e031"
+RPM_NAME = "salt-cloud-3006.0-2.1.aarch64.rpm"
+RPM_HASH = "534a2cbd1e2182dc0c63203d5a567936b93b82a4ab6ab6e27f6565247e6b967c0f46d312fd54ccad7dde77f142b22761ecb4062ca62b12448be9df88bcbf8098"
 
 RPROVIDES:${PN} += "config-salt-cloud \
 salt-cloud"

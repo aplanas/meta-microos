@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ifsym"
 DESCRIPTION = "This package includes the documentation for texlive-ifsym"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn24868"
+PV = "2023.209.svn24868"
 
-RPM_NAME = "texlive-ifsym-doc-2023.208.svn24868-53.1.noarch.rpm"
-RPM_HASH = "667e540253a4e9383987bc239c875b5ebbf29e2eb22ad430be1da3bfbc99d8e0a9180fc70cc3053c6722a0883289961e6db69a697ec17e0a4f4e88c6a8eb8053"
+RPM_NAME = "texlive-ifsym-doc-2023.209.svn24868-54.1.noarch.rpm"
+RPM_HASH = "86b9c4f1896fee8502a455a64d81321869b9d132955b4dc237d252d65d114e4b08afc48a50daf669edecdbb2b5ee107a54a04e36a677a0a40a8e529d738677a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-ifsym-doc-de \

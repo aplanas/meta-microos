@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Atheros QCA988x WiFi drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230724"
+PV = "20230814"
 
-RPM_NAME = "kernel-firmware-ath10k-20230724-1.1.noarch.rpm"
-RPM_HASH = "9c709685f3ff91d48a522348be6140d301e53aa6a26d331aaae459989d1386e1a0b8062453d73f893f47cd2736906362b99c70318e8d7dd23545ec2312886c8a"
+RPM_NAME = "kernel-firmware-ath10k-20230814-1.1.noarch.rpm"
+RPM_HASH = "c20609838dc620459f4ef8cea9ed852be99e8e13a1615fa08f0d1df174caf3026401101e4386c97cf7766786c67f735930fa5b9216af1ea4e6c221880db64b3a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-ath10k/QCA4019/hw1.0/board-2.bin \

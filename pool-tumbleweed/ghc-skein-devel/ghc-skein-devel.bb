@@ -4,19 +4,19 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.9.4"
 
-RPM_NAME = "ghc-skein-devel-1.0.9.4-4.3.aarch64.rpm"
-RPM_HASH = "369d156591a30d9bcb66ca9a74df8e43715dbb100da7234b9cd7e40abd7c6b6ffe1a3f21c31d8e6329892dbfdf7319de593e062cd066eb7b9f400e3a990f0ca1"
+RPM_NAME = "ghc-skein-devel-1.0.9.4-4.5.aarch64.rpm"
+RPM_HASH = "f02d9ba4dc48998582c9626d48dc87b87833d2b625491b9850ae3280191ff2468312dbaea2ad38b598ba758aaea15e42b83d8a93ff8a378faa5a5e944d6dba91"
 
-RPROVIDES:${PN} += "ghc-devel-skein-1.0.9.4-C8WZ6GadOdNJdCjx57swFO \
+RPROVIDES:${PN} += "ghc-devel-skein-1.0.9.4-HfR9tmKKFFp5G94XUHSnaw \
 ghc-skein-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0 \
-ghc-devel-cereal-0.5.8.3-LNsxCTyOF85AKtb4iLTs8f \
-ghc-devel-crypto-api-0.13.3-9orTVpCmnZz79j7elcs5GE \
-ghc-devel-tagged-0.8.7-CYOhX22Df3PFW5V1S0dOJa \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1 \
+ghc-devel-cereal-0.5.8.3-BmWUcZuhGTnIupxReuIO3I \
+ghc-devel-crypto-api-0.13.3-2rX3thRbGDW3ZR7H62fg4Z \
+ghc-devel-tagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax \
 ghc-skein"
 
 inherit rpm

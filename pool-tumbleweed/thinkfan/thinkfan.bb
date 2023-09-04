@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.3.1"
 
-RPM_NAME = "thinkfan-1.3.1-2.8.aarch64.rpm"
-RPM_HASH = "bd80855af44c7cb2379f8c36597445c49741311bc83ade2a569b3f0278d7c4e43831a3897c1cf6082f6dae4d173b287965fc88149c6dfbe37001251d3236e635"
+RPM_NAME = "thinkfan-1.3.1-2.9.aarch64.rpm"
+RPM_HASH = "a9bc953b8ae1302e9c70cd46cd61d18f1e5888004e383b951231d36d2fe427b60751ea4dfcaf70256c7ffa1700f252a00ff9a41e712843cb2223be16ba34525f"
 
 RPROVIDES:${PN} += "config-thinkfan \
 thinkfan"
@@ -21,6 +21,6 @@ libatasmart.so.4 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \
-libyaml-cpp.so.0.7"
+libyaml-cpp.so.0.8"
 
 inherit rpm

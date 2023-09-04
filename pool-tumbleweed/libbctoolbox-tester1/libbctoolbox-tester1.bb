@@ -5,10 +5,10 @@ belle-sip, mediastreamer2 and linphone. \
 This package the contains shared library for testing component."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.73"
+PV = "5.2.98"
 
-RPM_NAME = "libbctoolbox-tester1-5.2.73-1.1.aarch64.rpm"
-RPM_HASH = "e7d8107ffeb385a24b82d612ce2f4f5235b3e72d551078dfe31c9603f2e068f09d60bee171add29d3c88c00cc3fb53b8e711f7be859720a387588c12b42a789e"
+RPM_NAME = "libbctoolbox-tester1-5.2.98-1.1.aarch64.rpm"
+RPM_HASH = "136519cde7d027ed844fad6f593e7ecda563fe9bac5b61840b2dd6bce4345de500c426e9d6eca97af36a2b061c0f55a4a06a09d2741d2c84a2155b9b42c714b6"
 
 RPROVIDES:${PN} += "libbctoolbox-tester.so.1 \
 libbctoolbox-tester1"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "23.13.9"
 
-RPM_NAME = "accountsservice-lang-23.13.9-3.1.noarch.rpm"
-RPM_HASH = "b07b676740476bd78dd5b804b7fc8be09717174796800428cb065ef76a7e4fe1e115daddc67a0ddbf45e28b7868374f600d3d136ca5d18585d40c6b53c236cc0"
+RPM_NAME = "accountsservice-lang-23.13.9-4.1.noarch.rpm"
+RPM_HASH = "f24fb47d8e04b52d2a014942ea1e043a3a626ca24915f584afc78fc7b173b4c260f1d6bfa0a44f41ea455e250c4381d355d852e3a4853ccce9ddc26011fcb6d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "accountsservice-lang \

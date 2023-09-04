@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for jackson-dataformat-xml"
 DESCRIPTION = "This package contains API documentation for jackson-dataformat-xml."
 LICENSE = "Apache-2.0"
 
-PV = "2.13.3"
+PV = "2.15.2"
 
-RPM_NAME = "jackson-dataformat-xml-javadoc-2.13.3-1.8.noarch.rpm"
-RPM_HASH = "e1f7953bbd0d44f67444e083cb6e77495ae86c7c5a2e5fdb605d2478d3f9ccb50888f7a72059f2d0560524cfda0cde9d6bb85f277b913a41bb1a22c1d0b94b3f"
+RPM_NAME = "jackson-dataformat-xml-javadoc-2.15.2-1.1.noarch.rpm"
+RPM_HASH = "f0045be0b4a5b80a798e78e8650a07a9509b9f9420c4da5769bb0602731ba71b9e56ae6207679ae362dcd3e6dba3df1d739171911a0ba90563f560ab8e1ee64b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-dataformat-xml-javadoc"

@@ -10,8 +10,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.209.2.7.4svn21461"
 
-RPM_NAME = "texlive-epsf-2023.209.2.7.4svn21461-54.1.noarch.rpm"
-RPM_HASH = "866a20fac9de714ae080efccb1828c559ac69712b43521c5344e0582b81b8f349a6beee58f6f23eefbbf48378474aff6fd531bb30af5f666a98ec04f4a0c166b"
+RPM_NAME = "texlive-epsf-2023.209.2.7.4svn21461-54.2.noarch.rpm"
+RPM_HASH = "db0994512c23467e07f21d7eeb7dacd4d825c06feb78bd285d9709f8f24e211859e3b5723b36f4e9de05321a92b3fb44fbb34a68c499e27d9448185d8aac98cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-epsf.sty \

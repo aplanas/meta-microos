@@ -7,10 +7,10 @@ documentation is a large collection of useful tips for \
 typesetting theses and a list of recommended packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.7svn17667"
+PV = "2023.209.1.7svn17667"
 
-RPM_NAME = "texlive-imtekda-2023.208.1.7svn17667-53.1.noarch.rpm"
-RPM_HASH = "8bf9f9f67ad39d5815dbb079b9340256258ed4e61fbc9b75a05a410ba7d387f55b31de15d96e160679a407b12c24b0e216c3cf117838e6088ecb49bc7efb8559"
+RPM_NAME = "texlive-imtekda-2023.209.1.7svn17667-54.1.noarch.rpm"
+RPM_HASH = "4b2ecbceedc09d60b54f59e0c148c6bcaefce343d5af895d5f80e57308bbfd32ee9e03c80cd6c55e425ca997f5189f256f17219acf3bbb7599a7cc14e2136ae6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-IMTEKda.cls \

@@ -12,13 +12,13 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.31"
 
-RPM_NAME = "perl-Lingua-EN-Tagger-0.31-1.16.aarch64.rpm"
-RPM_HASH = "0764a7c17312f5b701e53df751f296530eb58565140652a9d5a425e2424b43d479521cfc40c8dc2a12055f1733438460c21f987aa83c04f8626283a9ddf57fb6"
+RPM_NAME = "perl-Lingua-EN-Tagger-0.31-1.17.aarch64.rpm"
+RPM_HASH = "42262677b5770dcfc07b9aa0e37318dce568408b02432a0de2cd9d75c4065d839931610175ba21f6fe589117aafa1b1efb28e0dd1361a6d602398857d4825003"
 
 RPROVIDES:${PN} += "perl-Lingua--EN--Tagger \
 perl-Lingua-EN-Tagger"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-HTML--Parser \
 perl-HTML--Tagset \
 perl-Lingua--Stem \

@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.0"
 
-RPM_NAME = "python39-scikit-learn-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "a625a6d6e1b817cf4c0ec0610b4af441220e2fca188fd30cde4f59535928793c36b6e8f2d27d2849e89c18f86274ce9e808847427b113b3f4ff320c8f37195f7"
+RPM_NAME = "python39-scikit-learn-1.3.0-3.1.aarch64.rpm"
+RPM_HASH = "5b71ea48fa16053ec3b9d788922cdbc25584d14be34193510675abaf68d46f17a938edb4bd8423633e937bb3df2ddfec1b80400a468af9c278f6f212c19b1394"
 
 RPROVIDES:${PN} += "python3.9dist-scikit-learn \
 python39-scikit-learn \

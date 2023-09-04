@@ -17,8 +17,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2023.209.1.17svn66203"
 
-RPM_NAME = "texlive-dvipng-2023.209.1.17svn66203-54.1.noarch.rpm"
-RPM_HASH = "76fbc5da38e2f0be64cb77bc58fce9492509daf1027f6ec490791fe33416e2e465c06807dd02120cc0dedd135272344a6a5cdd13dc03f7da1439983453d8659d"
+RPM_NAME = "texlive-dvipng-2023.209.1.17svn66203-54.2.noarch.rpm"
+RPM_HASH = "3f0176011dcacd194c9ab8b7e65ba478f141f9f03b91b0da18433717656de5ad0d5c8ea65a115306bbaf054afa7fa69ab842b534821586cc815e667b3aad1890"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-dvigif.1 \

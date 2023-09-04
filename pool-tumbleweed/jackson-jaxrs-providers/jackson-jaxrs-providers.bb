@@ -4,10 +4,10 @@ following data formats: JSON, Smile (binary JSON), XML, CBOR (another kind of \
 binary JSON), YAML."
 LICENSE = "Apache-2.0"
 
-PV = "2.13.3"
+PV = "2.15.2"
 
-RPM_NAME = "jackson-jaxrs-providers-2.13.3-1.8.noarch.rpm"
-RPM_HASH = "3369eb63d878919b9833fd8e006897e8211e2ed4a3172b3d7886a11e6af1f4191372c7e6d9be9f1c764a4ce4e3a32942feed95d8d85c0f6e245dfdbdf0a220fb"
+RPM_NAME = "jackson-jaxrs-providers-2.15.2-1.1.noarch.rpm"
+RPM_HASH = "429c48d1ef5bb23cb2f6dffcd1fbbf64c839de6847a3c34fcc0bc370740cc00a9ea966c64e880d37c10768e31fe154bcdc04dec65f9c166caa73b1077483ce23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-jaxrs-providers \

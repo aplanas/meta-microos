@@ -2,10 +2,10 @@ SUMMARY = "Mesa vulkan driver for Freedreno"
 DESCRIPTION = "This package contains the Vulkan parts for Mesa."
 LICENSE = "MIT"
 
-PV = "23.1.4"
+PV = "23.1.5"
 
-RPM_NAME = "libvulkan_freedreno-23.1.4-354.1.aarch64.rpm"
-RPM_HASH = "44309c0301880265e25ee0ac4e5843439510356a5a7d5f055516bb3fca73cdd256da61aed4402370c3b1bb589879fa0c2ece2247d2b41d16bdb38d6939f12202"
+RPM_NAME = "libvulkan_freedreno-23.1.5-355.1.aarch64.rpm"
+RPM_HASH = "5360c530112f12ed845d6b8a7ba14ec1274a320be2bead8b403d8fa60e29aa1227f6994d95f1b5d509455b51310f42b72396159a1ec1a9c1953da0ea13a22cbe"
 
 RPROVIDES:${PN} += "libvulkan-freedreno \
 libvulkan-freedreno.so"

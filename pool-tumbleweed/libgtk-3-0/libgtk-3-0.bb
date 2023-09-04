@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.24.38"
 
-RPM_NAME = "libgtk-3-0-3.24.38-1.1.aarch64.rpm"
-RPM_HASH = "f7bc421d210d835ce7d0b859bdf1797686ddf9b24e81873c24a7c7e06a0674cd0d9419354c5cb6043bb27ebebbf04c4da6ead518844b13e7648a89ad9589ea07"
+RPM_NAME = "libgtk-3-0-3.24.38-2.1.aarch64.rpm"
+RPM_HASH = "5ee491e5f83291dcfcc3f0149e665c14362f7390f5ba6ce2c988f03bca68550a0573d388e3696f546a0b6a7304f0fe9c82b82f1d5da4e3a56eec6f9fd5b3bc23"
 
 RPROVIDES:${PN} += "gtk3 \
 libgailutil-3.so.0 \

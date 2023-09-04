@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.2svn15878"
 
-RPM_NAME = "texlive-elmath-2023.209.1.2svn15878-54.1.noarch.rpm"
-RPM_HASH = "80e965035d892a175aa541bc5e24c09fcdbaebfcc7b290243ddc868b63ba1aeb3dad20d647a6037791acff99499902791b93e93e94bed0199a49234d992cbdeb"
+RPM_NAME = "texlive-elmath-2023.209.1.2svn15878-54.2.noarch.rpm"
+RPM_HASH = "4291fafdc0ff25c20c1db870c954ec41b5b4172a0a18fa2e1e5aa14ee06cbe6d34194d234abf8833d5704f67e9e3e733f12c447776904b203f63bf918ed6c983"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-elmath.sty \

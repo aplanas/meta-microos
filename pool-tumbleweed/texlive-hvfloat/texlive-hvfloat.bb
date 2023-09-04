@@ -10,10 +10,10 @@ and rotated. Setting nonFloat=true results in placing the float \
 here."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.2.45svn65671"
+PV = "2023.209.2.45svn65671"
 
-RPM_NAME = "texlive-hvfloat-2023.208.2.45svn65671-53.1.noarch.rpm"
-RPM_HASH = "4df37e1b4fe5b9b1e9a060be9e09c0014452d519b7f1eba2eb2be74299bf94f0367be36df2009ad0fe42e52c7092dfe48512ad47d2cea669c4c3f4a0475a501a"
+RPM_NAME = "texlive-hvfloat-2023.209.2.45svn65671-54.1.noarch.rpm"
+RPM_HASH = "ff4c8618b2cb1c504323b518dcb45aaffb2ad375e5963b773142ae4579ddc0bdb9b81b44f36e7b6afd6ce3d6eb18e7662bc14109816e4619b8cc55106fc48ce6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hvfloat-fps.sty \

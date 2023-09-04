@@ -3,10 +3,10 @@ DESCRIPTION = "KConfigWidgets provides easy-to-use classes to create configurati
 well as a set of widgets which uses KConfig to store their settings. Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kconfigwidgets-devel-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "24cefc3ca30d8451772125d7a68ec30474dfddb23c05aa74c252ff23524bc6d2c6c8495547cbca3db7b7e419bc6f420ae8410c4413439e55cf6655bb2bf8a991"
+RPM_NAME = "kconfigwidgets-devel-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "4a5202923ad137b03363b1559221a5043b9060c72da405611ebc46615614e08c836795c8be8ad3519372650723210d39238cab6b569df70cd097bdccf7b0817e"
 
 RPROVIDES:${PN} += "cmake-KF5ConfigWidgets \
 kconfigwidgets-devel"

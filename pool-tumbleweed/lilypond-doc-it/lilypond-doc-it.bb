@@ -2,10 +2,10 @@ SUMMARY = "Documentation for the LilyPond Typesetter (it)"
 DESCRIPTION = "Italian documentation files for the GNU LilyPond music typesetter."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.24.1"
+PV = "2.24.2"
 
-RPM_NAME = "lilypond-doc-it-2.24.1-2.4.noarch.rpm"
-RPM_HASH = "5898943acfd4f653d7740593aa4b28c0dacb3e40aec60d319c052ff28de5549ec1398773d25695d99a5471d8241d350aeacc0d9b49472df118c857b80766b0f0"
+RPM_NAME = "lilypond-doc-it-2.24.2-1.1.noarch.rpm"
+RPM_HASH = "12b477cd59c68e4b482837cdb73ed7fdb70b932c3d2c70cf5100d1efcd9f1b11b16842f8385c0ddce3fe6a4f9e6579b3ee47d395bd5a6b7d64d0352fbcdb7498"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lilypond-doc-it"

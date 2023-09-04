@@ -20,14 +20,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "3.68"
 
-RPM_NAME = "perl-Devel-PPPort-3.68-1.10.aarch64.rpm"
-RPM_HASH = "b7828ed7a6a112fbef8ff70a4b59611f7991508b74752c4f05bd9cf39aa7df3fa61d7244ca4ea1c27d90cb3607a672a91dad91f263aafc1221f816c9cbd6f181"
+RPM_NAME = "perl-Devel-PPPort-3.68-1.11.aarch64.rpm"
+RPM_HASH = "41e826b816d8e536613f75776959cd6978150e2d489be5f8775f5dff529571818fb24562e8008130b8bd4e9ed51e5e13f201bbdabf621c8f57c9540b944515a8"
 
 RPROVIDES:${PN} += "perl-Devel--PPPort \
 perl-Devel-PPPort"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

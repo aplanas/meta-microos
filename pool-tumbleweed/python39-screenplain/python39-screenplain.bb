@@ -16,8 +16,8 @@ LICENSE = "MIT"
 
 PV = "0.9.0+git.1679319196.353e6c9"
 
-RPM_NAME = "python39-screenplain-0.9.0+git.1679319196.353e6c9-1.4.noarch.rpm"
-RPM_HASH = "32a5a4175070e2d9d9e58478f2e966ac8d4e46cd54f617ddf1c8e6c85fccb94ced396e307484f65633df5be16f24cdc3f9e0a7a1e57a217cad98c542e10d5aba"
+RPM_NAME = "python39-screenplain-0.9.0+git.1679319196.353e6c9-2.1.noarch.rpm"
+RPM_HASH = "825a2f66fd1993efe64e43f9eb32f85caa09f9493811d8ddca7b9579fb862f51f3280d7090303829cb843e22cb1581deb8c4f2c25ab2ab364db0aa3e3341e562"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-screenplain \

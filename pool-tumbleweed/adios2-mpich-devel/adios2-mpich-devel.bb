@@ -6,10 +6,10 @@ This package contains all files needed to create projects that use the \
 mpich version of ADIOS2."
 LICENSE = "Apache-2.0"
 
-PV = "2.9.0"
+PV = "2.9.1"
 
-RPM_NAME = "adios2-mpich-devel-2.9.0-1.1.aarch64.rpm"
-RPM_HASH = "c9e1c589b5e415afb97693b4d3d9c6ac064d1f733451cc49e8d3e953bfa7f46d0d94bc5b1d4ed8b9234ff1c6d1a4cfb56d1597b08319bc027c5153dbaf8a5ed6"
+RPM_NAME = "adios2-mpich-devel-2.9.1-1.1.aarch64.rpm"
+RPM_HASH = "99fd738d52a36b47a1a6e4f35573189169c8acc79be4efbd59a02eb811227af8a9432369f41d2ee4821ddca33bd00cc3cc0aca04785375e21c60b49361076b15"
 
 RPROVIDES:${PN} += "adios2-mpich-devel"
 

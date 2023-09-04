@@ -8,10 +8,10 @@ definite article for cross-references and other commands \
 containing text."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.0svn64723"
+PV = "2023.209.1.0svn64723"
 
-RPM_NAME = "texlive-huaz-2023.208.1.0svn64723-53.1.noarch.rpm"
-RPM_HASH = "1560ae45ad63dcbc3c228293c488fdf8ab2fbb38b276fb12197be5cd8887d68bdb289a40986b1f9b931e021ec0f6b2edb1b07781ea3893b204a109cc06b4dcf8"
+RPM_NAME = "texlive-huaz-2023.209.1.0svn64723-54.1.noarch.rpm"
+RPM_HASH = "4d6516044be530625499bf4a5a5a92cccb28cd82a93966bce6f54d656d75e5265400a2abb5d41b2940f62d1e2c69b01e9c434d39fc91eca217dc43042771e135"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-huaz.sty \

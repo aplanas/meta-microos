@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.209.1.4svn42629"
 
-RPM_NAME = "texlive-raleway-fonts-2023.209.1.4svn42629-54.1.noarch.rpm"
-RPM_HASH = "11612432633abf4d528cdcf5d8839732614e20b032026bb8c3b5c14dc12fd5870046293150aeb9298c7196b556ab131fe82f1c8d9458932fcba69e103914700c"
+RPM_NAME = "texlive-raleway-fonts-2023.209.1.4svn42629-54.2.noarch.rpm"
+RPM_HASH = "3240ff34fc6cccd52705400766b24f767750b7f708dec3fa1338c2872e5c683a42713153f406cf6fe99bd5e62498a2175e7fa452780c168e791eeec8c77f7b5f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-raleway-fonts \

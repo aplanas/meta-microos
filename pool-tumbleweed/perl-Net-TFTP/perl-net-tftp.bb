@@ -9,15 +9,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.1901"
 
-RPM_NAME = "perl-Net-TFTP-0.1901-1.24.noarch.rpm"
-RPM_HASH = "8900d69423c4c5260efd9e118ba87ed6d0e45b821f5fb5294b544dcb3fa1f375553ce1b0e872b4e1d0af0e08c417cf3e5c27d7b07160f11a5f760bce41e91027"
+RPM_NAME = "perl-Net-TFTP-0.1901-1.25.noarch.rpm"
+RPM_HASH = "c6cdfc53bae1ac1b2f406121ca5b5bdb0f8fb89af62af76cad7aa197628c0ad02efceddd336e86c6fe9824c08c278fa09dfa42dcbad2fea05c4464f6c91a2fec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--TFTP \
 perl-Net--TFTP--IO \
 perl-Net-TFTP"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Test--MockModule \
 perl-Test--More \
 perl-Test--Warn"

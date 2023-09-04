@@ -4,17 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.0.0"
 
-RPM_NAME = "ghc-resource-pool-devel-0.4.0.0-2.6.aarch64.rpm"
-RPM_HASH = "294cf0a82c094b55b6617a2d875bde0aa546570c411ef2c4deb2d62df9febc5953fb6e21869701c160ab3bed559bb80125cb4c37439c85f174c70c8d630455af"
+RPM_NAME = "ghc-resource-pool-devel-0.4.0.0-2.9.aarch64.rpm"
+RPM_HASH = "d793c699bf640e5da617df73cd131686d157f6e7d64b3ef1b26bb497ea5a401d8d3bd31e043cdcba441d1af484d9688130ab0f80b597bcf9a1cb4b39c3771cd6"
 
-RPROVIDES:${PN} += "ghc-devel-resource-pool-0.4.0.0-CALzen0PV047R0s78YnQuW \
+RPROVIDES:${PN} += "ghc-devel-resource-pool-0.4.0.0-7uUtnYEtaeP22tTkIEO3ty \
 ghc-resource-pool-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-hashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt \
-ghc-devel-primitive-0.7.4.0-AeB0oysC3TAJw9tDpuX8hq \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-hashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP \
+ghc-devel-primitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx \
 ghc-devel-time-1.12.2 \
 ghc-resource-pool"
 

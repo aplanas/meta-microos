@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "44.1"
 
-RPM_NAME = "gnome-calendar-44.1-1.1.aarch64.rpm"
-RPM_HASH = "d5384b9c4b8de68f2039c3393d2e89532b620fcc4de41642e7af6db7c719156d93bbc70f0ae5fecba9c3f5b243d6fe8ec2a37893b061355f4317b12af3943ea2"
+RPM_NAME = "gnome-calendar-44.1-2.1.aarch64.rpm"
+RPM_HASH = "5459f249143c41d4b0d4920b20126ab0a6f8bd31e7d14d6cab1cfaeac9a39e5940b2e4768e5112ecd5a3c8fb5ff8a5b554dad1f6bb39efd37ef0292cb24ea7bf"
 
 RPROVIDES:${PN} += "gnome-calendar"
 

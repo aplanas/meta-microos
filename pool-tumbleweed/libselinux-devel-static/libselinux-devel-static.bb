@@ -8,8 +8,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "3.5"
 
-RPM_NAME = "libselinux-devel-static-3.5-3.2.aarch64.rpm"
-RPM_HASH = "cd09749448765dcc57abe81cf9906336ca9f37909aff181ab6e6437eb852a31c6d5095f17686b7656eb516ac80dccd76d93681ec4ddc7484f5a3db67b5796fa9"
+RPM_NAME = "libselinux-devel-static-3.5-4.1.aarch64.rpm"
+RPM_HASH = "3f9ab7c1938e490e0bdeec66d94b0f4d2d5b8c061c650731b1393416022393f54c3637dbf2524801a42078276fa95c77a7c4c718ac776546d29b37ae95a3e3cc"
 
 RPROVIDES:${PN} += "libselinux-devel-static"
 

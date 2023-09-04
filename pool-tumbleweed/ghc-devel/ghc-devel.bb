@@ -3,10 +3,10 @@ DESCRIPTION = "This is a meta-package for all the development library packages i
 except the ghc library, which is installed by the toplevel ghc metapackage."
 LICENSE = "BSD-3-Clause"
 
-PV = "9.4.5"
+PV = "9.4.6"
 
-RPM_NAME = "ghc-devel-9.4.5-3.2.aarch64.rpm"
-RPM_HASH = "278952617cc2d364bffc1f422958b45a2e89b9b4ab8fbd3920794f566018564f7924521d0daf4868128e37db3479d5c619df87a1cc1100a8f1c9866612bb664d"
+RPM_NAME = "ghc-devel-9.4.6-1.1.aarch64.rpm"
+RPM_HASH = "f2ac3baedfedb7ac153b1d75cf2efa286b2f68613ea549ba4df3ae5c797b09841155c4fa1c26cc88a85e022451784ba96052359dce0a325c4a4878beeffd9637"
 
 RPROVIDES:${PN} += "ghc-devel \
 ghc-libraries"

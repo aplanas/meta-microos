@@ -23,20 +23,20 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.7"
 
-RPM_NAME = "ghc-reflection-2.1.7-1.2.aarch64.rpm"
-RPM_HASH = "177d0cec44dae5fe6f45250d831163e79fb551ddbc502d63aac92afaeb6cc69e45b04174caefebe893db7065b0a9e31c2a8a316160bb3493c91f8f5b42d46c98"
+RPM_NAME = "ghc-reflection-2.1.7-1.3.aarch64.rpm"
+RPM_HASH = "2697721601e1c51a8b08f12d399614450e5c3d1980cad0f362590106632525b033db62b687bbd521ea808124c1e671b2be272ba3ab001bfbdb48e55420b375a0"
 
 RPROVIDES:${PN} += "ghc-reflection \
-libHSreflection-2.1.7-KcOWE7PS1mHy6gA2edHvV-ghc9.4.5.so"
+libHSreflection-2.1.7-1WygFxHmxkcEQBv8T6gHut-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
-libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSdeepseq-1.4.8.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-boot-th-9.4.5-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
-libHSpretty-1.1.3.6-ghc9.4.5.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
+libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSdeepseq-1.4.8.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-boot-th-9.4.6-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
+libHSpretty-1.1.3.6-ghc9.4.6.so \
+libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

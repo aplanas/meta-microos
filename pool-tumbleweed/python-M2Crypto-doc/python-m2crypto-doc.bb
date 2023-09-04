@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "0.39.0"
 
-RPM_NAME = "python-M2Crypto-doc-0.39.0-1.1.noarch.rpm"
-RPM_HASH = "2863f6691d1f5ac3a13642bef459e06b85c1ab52143fb9eea4a4f208bdf75ecab9df85797e664c015a48812eb6c7ec600c4705f0f9459bf4e50291ad851a949c"
+RPM_NAME = "python-M2Crypto-doc-0.39.0-2.1.noarch.rpm"
+RPM_HASH = "51663a36576c071c2858db61a958233fa563f339b8d7e733b4b6f1b60497008c347fca4d6a050944ab23773887f7a5f215afa8f85378a4dd0a70c8b6e8d0f026"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-M2Crypto-doc"

@@ -51,14 +51,14 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.18"
 
-RPM_NAME = "perl-Package-DeprecationManager-0.18-1.2.noarch.rpm"
-RPM_HASH = "7fb1aeb33c0419edc854a789ec6fac502131e1efc6defb3b3938f504dea0be5263046224e1a0e4ef4c828f55ff97114b02a1e4333341bac2f2723911998109cc"
+RPM_NAME = "perl-Package-DeprecationManager-0.18-1.3.noarch.rpm"
+RPM_HASH = "e0a448474716db4d774cd0fcf09cbd9e2c6b77c12ea5e7e8d804e8fa2ed8f41bc008f5ecb3e834e793936d07b343442ab1c5141fc8c86d2281ada451259a8f74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Package--DeprecationManager \
 perl-Package-DeprecationManager"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-List--Util \
 perl-Package--Stash \
 perl-Params--Util \

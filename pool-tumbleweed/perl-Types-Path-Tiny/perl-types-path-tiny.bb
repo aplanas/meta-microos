@@ -12,14 +12,14 @@ LICENSE = "Apache-2.0"
 
 PV = "0.006"
 
-RPM_NAME = "perl-Types-Path-Tiny-0.006-1.9.noarch.rpm"
-RPM_HASH = "a3e877153ec5058cac231b4debb3148578e1313d3aede90756fb54580e1b1db9889f809e4352c41899d7172d3c3e27b10c563dd8d49622ad9c64c7e34df95187"
+RPM_NAME = "perl-Types-Path-Tiny-0.006-1.10.noarch.rpm"
+RPM_HASH = "70214d18427a8c31f1705b99c33c5e8e7444986cfeba7654dd2564f2670ad52f41070dd5cbf8f6aebdb2ee96f6e8c3319fbe22b3c6b4f4baa78e2c122648b60b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Types--Path--Tiny \
 perl-Types-Path-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Path--Tiny \
 perl-Type--Library \
 perl-Type--Utils \

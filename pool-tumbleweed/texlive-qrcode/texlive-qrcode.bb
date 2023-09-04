@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.51svn36065"
 
-RPM_NAME = "texlive-qrcode-2023.209.1.51svn36065-54.1.noarch.rpm"
-RPM_HASH = "2d977f46f3847bd7e58c4aa1df0cf5dda0f55a3fd0dfa8519762308b1684a87b1df7038ffc7798490a4af5fed8e005adafad666a8c877115e7f79a4de2c3f6c8"
+RPM_NAME = "texlive-qrcode-2023.209.1.51svn36065-54.2.noarch.rpm"
+RPM_HASH = "715ba3f459a9f30e09c3ab18fc2ab592bb940249df3341994cab629ace5302f981aa686993727ba4e32428b4104ba6f3d3b469ddd9ccea5f48fe9dc06630695c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-qrcode.sty \

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.2.3svn62931"
 
-RPM_NAME = "texlive-els-cas-templates-doc-2023.209.2.3svn62931-54.1.noarch.rpm"
-RPM_HASH = "b497436b36dd16c4c5a2edb3a65105e44e2e0fe3c6b3bfaff95170842edc3c5ecd40cf14dbe51e1ec642cac8cbe7a0bbec7d7856319bfca191a466b8a60d134f"
+RPM_NAME = "texlive-els-cas-templates-doc-2023.209.2.3svn62931-54.2.noarch.rpm"
+RPM_HASH = "2ce776f8e66e6893650f2938d3fd08c81981172d9b3fce2d88330307aedac436ba5ac13392c1e68138add11d227a37c1820d08a3f98d51e1205ff1d50bef4351"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-els-cas-templates-doc"

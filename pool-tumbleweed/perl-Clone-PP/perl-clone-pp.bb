@@ -25,13 +25,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.08"
 
-RPM_NAME = "perl-Clone-PP-1.08-1.13.noarch.rpm"
-RPM_HASH = "5f2317c682dd8cf7b7dc405c4513871be31ac692ecda71b68932c0af6e75ccefe32ae4e74e3cffe23df2143b624b4e3a7544553c12c501aaecc152d96dcdbeed"
+RPM_NAME = "perl-Clone-PP-1.08-1.14.noarch.rpm"
+RPM_HASH = "68d198a0ef1e00433c545ce64498c318df706bb026ddd0584af252060fc64178ad4516c4e315444311de1bd8f9b54d8b2e88c1a0063e6afaff8366f285d2bd6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Clone--PP \
 perl-Clone-PP"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

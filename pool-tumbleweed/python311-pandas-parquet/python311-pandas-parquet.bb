@@ -2,10 +2,10 @@ SUMMARY = "The python pandas[parquet] extra"
 DESCRIPTION = "This package provides the [parquet] extra for python-pandas"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.2"
+PV = "2.0.3"
 
-RPM_NAME = "python311-pandas-parquet-2.0.2-4.1.noarch.rpm"
-RPM_HASH = "fce2d6ce072ae62d6fbb0f201ac40ecc142b1979b73466b1ae203b5097b93ab4d4f367bdc9e5722def47c474383014482f8e967f904908e4d63dec4ca6eb0c1d"
+RPM_NAME = "python311-pandas-parquet-2.0.3-1.2.noarch.rpm"
+RPM_HASH = "ea53eef21d66228be525689b62557710f749107b2e11f61918b2448d8bb53cf8363b438d5c90693808a0de3f99b04105b9f713c29611e5b60bdfccd11ae8ec52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pandas-parquet \

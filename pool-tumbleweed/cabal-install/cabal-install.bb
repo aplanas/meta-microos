@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.1.0"
 
-RPM_NAME = "cabal-install-3.8.1.0-1.7.aarch64.rpm"
-RPM_HASH = "c06a16a3567f4859ae1ba559d69b495a37d061ed5e0fcf7989aa302af11e220d34fc0106d826a3cb25e432134fc8250e3ab3c16c0e3b382251598fbd3b11c024"
+RPM_NAME = "cabal-install-3.8.1.0-2.4.aarch64.rpm"
+RPM_HASH = "5ffe5a5433c95678e71f8a26d2351799c58aa1178c841b2087b50a0c0b634f2c14473a76b05baa5c6c5923b7e44bbf91ef880bbbb2cd1bcad8965089916a56fd"
 
 RPROVIDES:${PN} += "cabal-install"
 

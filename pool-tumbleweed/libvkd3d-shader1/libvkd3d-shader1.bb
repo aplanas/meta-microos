@@ -2,10 +2,10 @@ SUMMARY = "Direct3D 12 to Vulkan translation shader library"
 DESCRIPTION = "This is a Direct3D 12 to Vulkan shader library for use by e.g. Wine."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.7.1"
+PV = "1.8"
 
-RPM_NAME = "libvkd3d-shader1-1.7.1-1.2.aarch64.rpm"
-RPM_HASH = "6f26037d0618bed1f14768905136e2486a18319aae028dcddb6ee5f5c9bf330fc9df6b5c5a38b073e09ac098011e91fc6c3904b182abc73559ffd34705dc502a"
+RPM_NAME = "libvkd3d-shader1-1.8-1.1.aarch64.rpm"
+RPM_HASH = "8be699978c2226e9cbeff745742359e5faf9c8b6745c53b5be0a0b398d66b990920eaeb93b3b31f54e083a61926178be4b02e03671ecdd5852ab56948a9a1a65"
 
 RPROVIDES:${PN} += "libvkd3d-shader.so.1 \
 libvkd3d-shader1"

@@ -6,10 +6,10 @@ applications. The generated scanners approach hand-crafted ones in \
 terms of size and speed."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "3.0"
+PV = "3.1"
 
-RPM_NAME = "re2c-3.0-1.13.aarch64.rpm"
-RPM_HASH = "0cbb14659dfbf9f148ca3110b67a64e31b6694bbf449e28f3a44179bce3fd06494069045a70fce3db07c9f4eafa3f03d5bed81172b41128a90cbb0bb015f1a85"
+RPM_NAME = "re2c-3.1-1.1.aarch64.rpm"
+RPM_HASH = "8ffb6939fee8a0ed19fb236aa356dbc21732361b8110f3c91ea49c8d15234293ff43474184eda9135d4eed499ab23e6fe642754405bdfd120e159c8f6996dfa1"
 
 RPROVIDES:${PN} += "re2c"
 

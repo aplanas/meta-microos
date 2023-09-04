@@ -27,8 +27,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.325"
 
-RPM_NAME = "perl-Git-Repository-1.325-3.2.noarch.rpm"
-RPM_HASH = "6ab4c0056a780edc1ed97ab9e2137fa86a8e96fb123a4d155e2067b3726c0210c5ec7ba199e7d27afde02e37128ace802e8b31853f70402c62c9956c7d368cdb"
+RPM_NAME = "perl-Git-Repository-1.325-3.3.noarch.rpm"
+RPM_HASH = "2b2271fc402d03262dd4634876d90493aa317fa5f0b65d8bc145d0e78099768e7c41520870c7b3e253ffe4a4757e50e57f3b7137773cada1e2fed2121a245924"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Git--Repository \
@@ -37,7 +37,7 @@ perl-Git--Repository--Plugin \
 perl-Git-Repository \
 perl-Test--Git"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Git--Version--Compare \
 perl-System--Command \
 perl-namespace--clean"

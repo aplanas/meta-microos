@@ -5,10 +5,10 @@ via Jinja templates. \
 This package pulls in the LaTeX dependencies for nbconvert."
 LICENSE = "BSD-3-Clause & MIT"
 
-PV = "7.6.0"
+PV = "7.7.3"
 
-RPM_NAME = "jupyter-nbconvert-latex-7.6.0-1.2.noarch.rpm"
-RPM_HASH = "ac1d05fd247890db96d3b59e826812b2ea86d8e8984d6ce7b07cd0568ff8b2c3b469111e7b1aeabebccfa5483974bb89f5fee1271d7fb93aab5f8c4e11bbb870"
+RPM_NAME = "jupyter-nbconvert-latex-7.7.3-2.1.noarch.rpm"
+RPM_HASH = "d39e5b1776529776e27ae79be4df1e8195bbfe2b7d5ce74241156fe16a9bf996e2ac14e73fb6f0f2c40e3f9254087026ff1499a9916f500dbf2e26f75f666692"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-nbconvert-latex"

@@ -17,10 +17,10 @@ https://en.opensuse.org/Systemd-boot \
 [2] https://systemd.io/BOOT_LOADER_INTERFACE/"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "253.7"
+PV = "253.8"
 
-RPM_NAME = "systemd-boot-253.7-2.1.aarch64.rpm"
-RPM_HASH = "4fe0c93c2f9c811d8a728ee69ac00f4f1f76a93bde60abf0f96da9dfb4530ff8955228d47de8376019cd41c464b3338d0cf794354772fbe8f94dac9f1730de6d"
+RPM_NAME = "systemd-boot-253.8-1.2.aarch64.rpm"
+RPM_HASH = "23fba9d538d237d0bf32531d458e2cf5d7df340b8c693bc7ef20c3e545c104e2f56a1b14e7814f6d9d46fd0aca82556b426af821a34c3ba7c275709d3304f5c2"
 
 RPROVIDES:${PN} += "systemd-boot"
 

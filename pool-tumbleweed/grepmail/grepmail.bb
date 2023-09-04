@@ -6,14 +6,14 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.3104"
 
-RPM_NAME = "grepmail-5.3104-2.20.noarch.rpm"
-RPM_HASH = "27a752312253de735732ebbdc7cb50769853b7deece2807bf6024122168e4da46585d6155eb0aaf47fa30ce056f371851d379be0e5f77f00096d8bc1c94f154c"
+RPM_NAME = "grepmail-5.3104-2.21.noarch.rpm"
+RPM_HASH = "eb8c74c98bf395935e750c930b5b2fc228c4ff51876792046781f04966add3e157a6c5837809de2b80d56c7b529e7f8865fb59f4b2b8db5dac20e693a3bba31c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grepmail"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Date--Parse \
 perl-Mail--Mbox--MessageParser \
 perl-Time--Local"

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn28469"
 
-RPM_NAME = "texlive-emulateapj-doc-2023.209.svn28469-54.1.noarch.rpm"
-RPM_HASH = "da1cc0414ce6abd1f527fffa5615f25f8e2c72a9be943992764eb65c968be37928fc834fed3a6515a75254db19a6b85fe2e078da9e8121f0bda07c8a8bcdce13"
+RPM_NAME = "texlive-emulateapj-doc-2023.209.svn28469-54.2.noarch.rpm"
+RPM_HASH = "24216c941c942c6e857ea6d9d66ed5b9744b2ebc93c2109779d9f4caee25b50557c06c32182fa56946c799f87fc876b9d5155702daa9416d337f8f6f0fc2c36f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-emulateapj-doc"

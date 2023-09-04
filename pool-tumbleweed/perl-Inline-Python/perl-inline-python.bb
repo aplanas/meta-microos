@@ -14,8 +14,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.57"
 
-RPM_NAME = "perl-Inline-Python-0.57-1.3.aarch64.rpm"
-RPM_HASH = "71fa5b126cd1511c6f276e267d1cde798afb4b5b5c16c717246f82166aa333d81de3ae60461d849001151743d8788f960c8e5b288a3a52ef7a895235dac063b5"
+RPM_NAME = "perl-Inline-Python-0.57-1.4.aarch64.rpm"
+RPM_HASH = "5ceec3a4b8292f7b4645b8b718f1f6a573aee9e58832d4bf7f54da0ea6761529b5611c51270294df15069efc629bfc43b67d6edb3ef30dbb9f4e1d4d3cde944a"
 
 RPROVIDES:${PN} += "perl-Inline--Python \
 perl-Inline--Python--Boolean \
@@ -27,7 +27,7 @@ perl-Inline-Python"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpython3.11.so.1.0 \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Digest--MD5 \
 perl-Inline"
 

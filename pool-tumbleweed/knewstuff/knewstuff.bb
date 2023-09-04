@@ -4,10 +4,10 @@ applications. It uses libattica to support the Open Collaboration Services \
 specification."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "knewstuff-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "ec8506d122fc1e7a5267744da06fafaee2942bc48d4b49213d85b2ec880818c2870380b2cf5930217c7e532d07e1337bdc312bca51eedd664e7b377dd60b58ec"
+RPM_NAME = "knewstuff-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "54b50ef29960bfda803404ccb4e7a8f1095b5b4b4d0e1dbe0092f8d4346cc1ef4d0548a0855bb2f41cb04389d5d58db37c3af7a00f01bf857aad9a9da933877b"
 
 RPROVIDES:${PN} += "knewstuff"
 

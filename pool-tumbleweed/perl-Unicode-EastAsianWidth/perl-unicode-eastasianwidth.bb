@@ -28,13 +28,13 @@ LICENSE = "CC0-1.0"
 
 PV = "12.0"
 
-RPM_NAME = "perl-Unicode-EastAsianWidth-12.0-1.13.noarch.rpm"
-RPM_HASH = "a5162a70b1f755170b24ba8ede45dd82bd5cd4588a5c69b43b924f7e29b863ff6e6d7cc81b2904e97fdd9b14ef6a133b361899b623ec5c799bab29d6bed5bc25"
+RPM_NAME = "perl-Unicode-EastAsianWidth-12.0-1.14.noarch.rpm"
+RPM_HASH = "c23b1d8ce54137846f3c5babe6b32ab9b003883f233b1daf2417072730a14530b0da72acf0dd34a3a6947a8432cbc075e34a79c240ad732f80130c7b1fc05dfc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Unicode--EastAsianWidth \
 perl-Unicode-EastAsianWidth"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

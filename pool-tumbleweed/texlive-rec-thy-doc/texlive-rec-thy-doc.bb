@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.209.3.8.2svn63982"
 
-RPM_NAME = "texlive-rec-thy-doc-2023.209.3.8.2svn63982-54.1.noarch.rpm"
-RPM_HASH = "7e2644cb01468c8d1b758f4b7d0d23e5839223b5afc7750cdceb9e23e736a98e99cea85c8c97e8def2b376545bceb23d992bb66196f6c476b6a446add4d2e84d"
+RPM_NAME = "texlive-rec-thy-doc-2023.209.3.8.2svn63982-54.2.noarch.rpm"
+RPM_HASH = "221e15e9555e6102f6ce92360f7632a9c68b71adc7e79a07858e95248dec76d194abdc57100e8cbb6feabebcff795baccb99d8a625474b66e640ae81671d5358"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-rec-thy-doc"

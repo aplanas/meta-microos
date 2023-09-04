@@ -21,14 +21,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.82"
 
-RPM_NAME = "perl-Filesys-Statvfs-0.82-1.32.aarch64.rpm"
-RPM_HASH = "9ce0f73179ad1b577b0e14c8fb80d94e8666957da431a497678a921f1e2ac4fa883633d63c30e72eb8c6450eb7e61427c1a56dfcfbf501e82d1418f8d5dd1d0c"
+RPM_NAME = "perl-Filesys-Statvfs-0.82-1.33.aarch64.rpm"
+RPM_HASH = "beced4d93ac8d9fe86c58e66528ee86594039b955fee5e610a47e8d670134dc1a682016c693a44d87d3776083d21665dcbbff08a61d9e9d7d3559d30139b276d"
 
 RPROVIDES:${PN} += "perl-Filesys--Statvfs \
 perl-Filesys-Statvfs"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

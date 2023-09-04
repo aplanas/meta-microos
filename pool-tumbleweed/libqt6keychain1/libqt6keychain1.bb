@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 keychain library"
 DESCRIPTION = "The Qt 6 keychain library."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.13.2"
+PV = "0.14.1"
 
-RPM_NAME = "libqt6keychain1-0.13.2-4.2.aarch64.rpm"
-RPM_HASH = "30a986f669816e0c38dd9c236e813b3142741a9677016926c8a87bfc9a742e85cda23572590048543baefdc0393337c29cd570a2f69d79fb3a6c05a31bf49707"
+RPM_NAME = "libqt6keychain1-0.14.1-1.1.aarch64.rpm"
+RPM_HASH = "586bfc0cd81b053bfb78ed9241ae2035dcf12ba30337f7584577d14cc0c769cfc4fda0688b4068a272ae32283a3e58196891a839df6e876590bc0b257733a58d"
 
 RPROVIDES:${PN} += "libqt6keychain.so.1 \
 libqt6keychain1"

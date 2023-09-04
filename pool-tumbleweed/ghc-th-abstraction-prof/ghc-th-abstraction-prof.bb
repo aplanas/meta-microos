@@ -4,15 +4,15 @@ LICENSE = "ISC"
 
 PV = "0.4.5.0"
 
-RPM_NAME = "ghc-th-abstraction-prof-0.4.5.0-2.6.aarch64.rpm"
-RPM_HASH = "26dda8006d739ea6fe983bebb2ed365bbd65f377d123f8d6819bd0a720d9e03591ebb77f291bb721ccc0725c5e94b7de9ca342c9a4fd66398bc0057a25bfb685"
+RPM_NAME = "ghc-th-abstraction-prof-0.4.5.0-2.8.aarch64.rpm"
+RPM_HASH = "af525711bd7b998fe975b322eea670f2756cfc63234731863ed9e08268e92abb76975260eb4c2a1b46e8298e65793c933365fb0b7e8487b1d664a2999e7460a9"
 
-RPROVIDES:${PN} += "ghc-prof-th-abstraction-0.4.5.0-8bY5lBPMorfFW3yG6gFNZT \
+RPROVIDES:${PN} += "ghc-prof-th-abstraction-0.4.5.0-CynkUuS8OuAKbGjDnje1Fs \
 ghc-th-abstraction-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
 ghc-prof-containers-0.6.7 \
-ghc-prof-ghc-prim-0.9.0 \
+ghc-prof-ghc-prim-0.9.1 \
 ghc-prof-template-haskell-2.19.0.0 \
 ghc-th-abstraction-devel"
 

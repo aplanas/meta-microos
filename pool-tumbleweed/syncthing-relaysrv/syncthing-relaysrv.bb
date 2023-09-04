@@ -4,10 +4,10 @@ contains the necessary files for setting up a relay server, either \
 joined to the syncthing relay pool or private."
 LICENSE = "MPL-2.0"
 
-PV = "1.23.6"
+PV = "1.23.7"
 
-RPM_NAME = "syncthing-relaysrv-1.23.6-1.1.aarch64.rpm"
-RPM_HASH = "3f0ae720eaa6f763969cdcf4f9a136ea2b48ebd2248a779a30869d124360f74b2488bc4fe16e5951078a02154dfe509cccfd6684744fb395bb0f1a5e03392ec3"
+RPM_NAME = "syncthing-relaysrv-1.23.7-1.1.aarch64.rpm"
+RPM_HASH = "30de775816a48be3f5fcc831322ed70b98ba7ca75d6b3cd387e7d3c53aebc42876960cf7258ba02205f169fbf7e1d4d01f385baeb7e6294def4d8a8ea74609fb"
 
 RPROVIDES:${PN} += "syncthing-relaysrv"
 

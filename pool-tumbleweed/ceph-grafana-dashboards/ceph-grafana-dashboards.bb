@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause
 
 PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "ceph-grafana-dashboards-16.2.13.66+g54799ee0666-3.1.noarch.rpm"
-RPM_HASH = "fb4fb81a18699cbf8b70e106756d9565164025ba7d3119f15594847a83cda7b9a86ef14af854a21234c3e08766d4bf7da7950b5ad1b634e2c3786f9cc0bbf728"
+RPM_NAME = "ceph-grafana-dashboards-16.2.13.66+g54799ee0666-4.1.noarch.rpm"
+RPM_HASH = "ecebfcce68d95c666f8854a06e3a4119d5ec3ef29cf07215ca986daa275f84e0de8582fac7a48d92010f3ec0652ecb3bfe96cfb0d05ad6d9923686e57dafab2a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ceph-grafana-dashboards \

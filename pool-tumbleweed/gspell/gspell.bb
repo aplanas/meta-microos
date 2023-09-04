@@ -3,10 +3,10 @@ DESCRIPTION = "gspell provides a flexible API to implement the spell checking in
 application."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.12.1"
+PV = "1.12.2"
 
-RPM_NAME = "gspell-1.12.1-1.2.aarch64.rpm"
-RPM_HASH = "23581d423194eefb9dc2500248e4591c8163e82fbf19e31143d1cee642f0bc33b49ffdc0992e51a426f59461e68a87554286c107abee97565ed8adf8eb803833"
+RPM_NAME = "gspell-1.12.2-1.1.aarch64.rpm"
+RPM_HASH = "ccd64c194fbf6f3bd03047512311c3d5ebc165de00be955337946fbfa573ea409e199a074c2a5e09fabe42c4abebf99f8e5d763295ddb9fc7389bb2485b3f846"
 
 RPROVIDES:${PN} += "gspell"
 

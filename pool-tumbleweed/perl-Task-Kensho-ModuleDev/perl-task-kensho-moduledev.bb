@@ -33,14 +33,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.41"
 
-RPM_NAME = "perl-Task-Kensho-ModuleDev-0.41-1.10.noarch.rpm"
-RPM_HASH = "49d15ed870ef66166bd62bf23d05df498a96ce3e4bf0a004ff6680eb43d4d914ee242ed593940e908611452fb81a092d92c4c1b466873ea36ad784861d4d8298"
+RPM_NAME = "perl-Task-Kensho-ModuleDev-0.41-1.11.noarch.rpm"
+RPM_HASH = "ec0903dc1130835289510cb824ee6feb55d61813db879a83d51d96ea1e8d107d682d68c605ce35dbbc2b255c079b79c78a13a3da9f12e37ef2360f841d7ff718"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Task--Kensho--ModuleDev \
 perl-Task-Kensho-ModuleDev"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-CPAN--Uploader \
 perl-Code--TidyAll \
 perl-Data--Printer \

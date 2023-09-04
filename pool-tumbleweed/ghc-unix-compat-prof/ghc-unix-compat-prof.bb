@@ -4,13 +4,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6"
 
-RPM_NAME = "ghc-unix-compat-prof-0.6-3.6.aarch64.rpm"
-RPM_HASH = "7aed70004a7362df42a7763f66d2c7c068b9b0f369ebb70e002c477456640b67145e425b83caf73b4fe20866053196723bfaa32e8c2173554216a683325499c0"
+RPM_NAME = "ghc-unix-compat-prof-0.6-3.8.aarch64.rpm"
+RPM_HASH = "fa81dda79347d6f7879fedf4e0676e27426efdc2f0dc7109b20f57e61659845b9e5471c3b0a837290c292aede65d068ad261e37ad612b0483b2ab83ccc134416"
 
-RPROVIDES:${PN} += "ghc-prof-unix-compat-0.6-79KxxZMmklx25hsmeEnenN \
+RPROVIDES:${PN} += "ghc-prof-unix-compat-0.6-IJaiJvo5DQ6Elf7LVlEGei \
 ghc-unix-compat-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
 ghc-prof-unix-2.7.3 \
 ghc-unix-compat-devel"
 

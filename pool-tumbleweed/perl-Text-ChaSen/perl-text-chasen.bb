@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.5"
 
-RPM_NAME = "perl-Text-ChaSen-2.4.5-2.12.aarch64.rpm"
-RPM_HASH = "f65a116acbcdc65a0954e3003ac1e33096faf5b52f7a26e9cb476424a11c7b07b800c26b8e5c23187a3694a0a118652fc116ab9b7a02d575d8dce43dab260f59"
+RPM_NAME = "perl-Text-ChaSen-2.4.5-2.13.aarch64.rpm"
+RPM_HASH = "764515039bb565250f11a1cbb7d745e3be1e7817a7ace48d5a7db2ae16edef3346fc3e6f9e876bd953692778cbc66ab2f5db3f9b5464ce3a6f316fe9bef7996d"
 
 RPROVIDES:${PN} += "chasen-perl \
 perl-Text--ChaSen \

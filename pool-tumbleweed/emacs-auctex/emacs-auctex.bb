@@ -13,10 +13,10 @@ byte-compiled lisp files of the two emacs editors are incompatible, so \
 you cannot use this package for XEmacs."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1"
+PV = "13.2"
 
-RPM_NAME = "emacs-auctex-13.1-2.3.noarch.rpm"
-RPM_HASH = "14d24d0741c5bf48acac619a8eedf6b296e6c8f254bbb37bfa97b00a66a9ed66e19879267df62a3ff1d12c3cbdd8c547ed4287b07121fd1121da4562d50a543e"
+RPM_NAME = "emacs-auctex-13.2-1.1.noarch.rpm"
+RPM_HASH = "13a70cf38c6bc0b91bf908df825be73ad2db54c50117fe1b8ea13c1ad5bf7d994df9d7bfc30c488a21e91550411c735ac60012564244ff63bb9b9534d9af59aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "auc-tex \

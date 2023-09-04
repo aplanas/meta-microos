@@ -123,14 +123,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.23"
 
-RPM_NAME = "perl-Sys-SigAction-0.23-1.24.noarch.rpm"
-RPM_HASH = "56d6dbd4645ac7df7b82890f7a725f7f9b73d956c8b9dc3c8db99f1f24735a069affb9cbffb1149acb2c775babd0779d9f00a1535db50935eed38efbdf2e3e23"
+RPM_NAME = "perl-Sys-SigAction-0.23-1.25.noarch.rpm"
+RPM_HASH = "4c4d94c90c296b6e1b38b119075c174fec005c32f5143f6860bafcf79242598548c24a945b047385db0e49836bcda33d441586548ccce70b346ca95a528f1a99"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Sys--SigAction \
 perl-Sys--SigAction--Alarm \
 perl-Sys-SigAction"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

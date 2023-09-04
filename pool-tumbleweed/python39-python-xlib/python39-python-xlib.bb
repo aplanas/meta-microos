@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.33"
 
-RPM_NAME = "python39-python-xlib-0.33-1.2.noarch.rpm"
-RPM_HASH = "5bccb72048d8f2a7a056c528a93f28d0e7807193b989194e597c22decd3f684cae0b32108324c8cc7d033dc613beb0f42e4041b1a8de013d417d23a6f09d9731"
+RPM_NAME = "python39-python-xlib-0.33-2.1.noarch.rpm"
+RPM_HASH = "c5f98004be000a6dc695eb024b03d83c6d2b4e3b6c2fece89eb0a1145936e1527315290f7071f001013ceed16aa3e9bc68199f682f2d944d08b6b5ab721ca0f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-xlib \

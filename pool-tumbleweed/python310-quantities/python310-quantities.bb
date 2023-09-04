@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.14.1"
 
-RPM_NAME = "python310-quantities-0.14.1-1.3.noarch.rpm"
-RPM_HASH = "fd1609994f03f60c4ae07d7f36aaa63c7e6819dd337f2bf40b5b788b751aa249610efdd373a1d9bb429ddecd049b940b89a0647e3d80e9f046c6a1c12101f6e4"
+RPM_NAME = "python310-quantities-0.14.1-1.4.noarch.rpm"
+RPM_HASH = "c190bf4cc8f5e825896b276eabd0f866da22eed973a1d2b0198155fd7a6c05f534cda5038dfb9a7498f29e135ef413fabd712748c1f0b101d402fb9db6412a39"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-quantities \

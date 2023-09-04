@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & MIT"
 
 PV = "5.9.3"
 
-RPM_NAME = "python310-net-snmp-5.9.3-4.10.aarch64.rpm"
-RPM_HASH = "f5a5a8212a095613cedf7167d34a43f9e5206e7d68b7e852d4ff26e0c04dec9944204fe10500655ca50bf9626db8fb254b4c67d02c28ee93f87841bda37e8a0b"
+RPM_NAME = "python310-net-snmp-5.9.3-4.11.aarch64.rpm"
+RPM_HASH = "b77cd23707e6880e8879ab0bb3a8ee1a5197a44a61cc076d70e43e86b1d2171a46884ce9c512d7d5bac472ede25bac08c480be924f1da88caeff6b7d24663896"
 
 RPROVIDES:${PN} += "python3.10dist-netsnmp-python \
 python310-net-snmp \

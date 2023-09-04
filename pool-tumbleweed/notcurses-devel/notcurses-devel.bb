@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.9"
 
-RPM_NAME = "notcurses-devel-3.0.9-1.7.aarch64.rpm"
-RPM_HASH = "0502932cf9ba74c97ae496333a406064bd80c22c0cf10b066e1136a279a304e59b77815cccac7c621b17d224b059e4174db838abf69c4d94d7ac086f61f467b2"
+RPM_NAME = "notcurses-devel-3.0.9-1.8.aarch64.rpm"
+RPM_HASH = "773ddc84e004cc5a09c2d4d87d702bcc3725728e81ce521db90dca9dbe51bbdb2262fbdf8661d07c14a8a76673c7e5f37b0906c115d105376442adf78d3f01b6"
 
 RPROVIDES:${PN} += "cmake-Notcurses \
 notcurses-devel \

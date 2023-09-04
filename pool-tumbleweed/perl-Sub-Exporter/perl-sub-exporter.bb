@@ -5,15 +5,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.990.0"
 
-RPM_NAME = "perl-Sub-Exporter-0.990.0-1.1.noarch.rpm"
-RPM_HASH = "a98b0854e4dc21bdecdcb381a4efc82c99fd3294b3847f5e88ea237bea2c7c365b014b0c7f252e7e3dbdc986bb418ba0429efb6d59882bc4a2d7ec670295d941"
+RPM_NAME = "perl-Sub-Exporter-0.990.0-1.2.noarch.rpm"
+RPM_HASH = "90ae486309e104635974528f14d21b5ec1dabcb9f39e9ff0946d8bc5c9ed6bd3579a4cb3255d0a3de914b9ebf123c5b4355464e5faf5666b7a552674585366f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Sub--Exporter \
 perl-Sub--Exporter--Util \
 perl-Sub-Exporter"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Data--OptList \
 perl-Params--Util \
 perl-Sub--Install"

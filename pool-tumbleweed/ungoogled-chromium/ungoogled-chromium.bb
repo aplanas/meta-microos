@@ -2,10 +2,10 @@ SUMMARY = "Google's open source browser project"
 DESCRIPTION = "Chromium is the open-source project behind Google Chrome. We invite you to join us in our effort to help build a safer, faster, and more stable way for all Internet users to experience the web, and to create a powerful platform for developing a new generation of web applications."
 LICENSE = "BSD-3-Clause & LGPL-2.1-or-later"
 
-PV = "115.0.5790.98"
+PV = "116.0.5845.96"
 
-RPM_NAME = "ungoogled-chromium-115.0.5790.98-1.1.aarch64.rpm"
-RPM_HASH = "36023479c3b0f86c7d7e318db797bcf50d51d83eac047b8a590648b69df521af56584aaac4fd69024ac4a0abc322937894e253cab72ebcef375016501d033db3"
+RPM_NAME = "ungoogled-chromium-116.0.5845.96-1.1.aarch64.rpm"
+RPM_HASH = "3bc62daebf2f3ba1edae587dc581c215c6354314e43e0193cc21e92531a8b19a1f2ce211b2bde9499387c7fc21c35f40072e30c2580933b36d99640a420d8eae"
 
 RPROVIDES:${PN} += "chromium-based-browser \
 chromium-browser \
@@ -67,7 +67,7 @@ libpango-1.0.so.0 \
 libpipewire-0.3.so.0 \
 libpng16.so.16 \
 libpulse.so.0 \
-libre2.so.10 \
+libre2.so.11 \
 libsmime3.so \
 libsnappy.so.1 \
 libstdc++.so.6 \

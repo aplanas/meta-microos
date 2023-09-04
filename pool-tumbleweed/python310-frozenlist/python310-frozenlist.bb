@@ -2,10 +2,10 @@ SUMMARY = "Python list-like structure which implements MutableSequence"
 DESCRIPTION = "Python list-like structure which implements collections.abc.MutableSequence."
 LICENSE = "Apache-2.0"
 
-PV = "1.3.3"
+PV = "1.4.0"
 
-RPM_NAME = "python310-frozenlist-1.3.3-2.3.aarch64.rpm"
-RPM_HASH = "1207a5928b8f1da5b3f2b4ed031db5fa21aa356c69bff1b4201395eae21a592e943d85e4295179d5a5b7d461780b8bbd71f6cfd9743d382e696c6e9eda42555b"
+RPM_NAME = "python310-frozenlist-1.4.0-1.1.aarch64.rpm"
+RPM_HASH = "133d4f78e4015021a1d39640fe20a918146a14cf9152ed5bf0e0be7e1f0573ceee2013150bd707868392c835feca15e93db1ffc65e4a97d7627726983f8720ad"
 
 RPROVIDES:${PN} += "python3.10dist-frozenlist \
 python310-frozenlist \

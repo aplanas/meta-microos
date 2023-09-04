@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.1asvn64967"
 
-RPM_NAME = "texlive-rcs-multi-2023.209.0.0.1asvn64967-54.1.noarch.rpm"
-RPM_HASH = "9ca692397cac29caa2a84eccd0230753ad6837dc961f637b3606f0e591afcc7157f39a86bc6a28b2ec09a3fa1a996954d6e0cc9317a5b4e7f036ae4ae1952ff1"
+RPM_NAME = "texlive-rcs-multi-2023.209.0.0.1asvn64967-54.2.noarch.rpm"
+RPM_HASH = "a18f418066a01206eac27c1058ef73014ebabce50651c5bd8abe32ca6a25d938e764d85c720200641539d40b77e0b7fd5d43f8ec289cda95ef30c863cd334c25"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rcs-multi.sty \

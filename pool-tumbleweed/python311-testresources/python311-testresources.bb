@@ -5,8 +5,8 @@ LICENSE = "(Apache-2.0 | BSD-3-Clause) & GPL-2.0-or-later"
 
 PV = "2.0.1"
 
-RPM_NAME = "python311-testresources-2.0.1-7.3.noarch.rpm"
-RPM_HASH = "964be2dc2b3b41412715182f41ae3d9907c83c30e2f8920ec49491d8076b99ce466d986c856836cf7ec7c72cb954e7d0eb318a455d44431a85eef1c4c4d4c0f7"
+RPM_NAME = "python311-testresources-2.0.1-8.1.noarch.rpm"
+RPM_HASH = "8c65a5b5ee18b01daf61c8a6367e3178fd9df7702087e00f88062303933dbb4cd0d61cbfda579949f12b0f9ef9096402cded16e45225f99ab478f8c94ccef89a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-testresources \

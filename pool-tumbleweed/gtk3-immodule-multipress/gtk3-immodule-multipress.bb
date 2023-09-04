@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.24.38"
 
-RPM_NAME = "gtk3-immodule-multipress-3.24.38-1.1.aarch64.rpm"
-RPM_HASH = "461e8adbbaa137e78f1686f6a6cb22b51132083c12402d0bb18b6164f72ddcaa054d099ee2470810e7a66f6c3335c317e9b28c773f3f5d3fd175194e2e64f3f7"
+RPM_NAME = "gtk3-immodule-multipress-3.24.38-2.1.aarch64.rpm"
+RPM_HASH = "ac8e8328f4b12ff3f37d7460b16460943a0dae1e6261f38463624f8fd6d308ea228c3e3b41f107d1449579ba6126cca22d82c8e420c96b64bd76103548e3b004"
 
 RPROVIDES:${PN} += "config-gtk3-immodule-multipress \
 gtk3-immodule-multipress"

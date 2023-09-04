@@ -2,10 +2,10 @@ SUMMARY = "Python IDE for beginners"
 DESCRIPTION = "Thonny is a Python IDE meant for learning programming."
 LICENSE = "MIT"
 
-PV = "4.0.2"
+PV = "4.1.1"
 
-RPM_NAME = "thonny-4.0.2-1.4.noarch.rpm"
-RPM_HASH = "fe12c0fb3808d9012289b862ff9ec776f65101e9c8aa5f5ef64697b18869b56a4efde4a7a36792a1f2e8f499fc631396d19a967850634fecee50dbe003c7af92"
+RPM_NAME = "thonny-4.1.1-1.1.noarch.rpm"
+RPM_HASH = "1a8cb61d3a9fa392a8d82fa30ff4c3c06ca8dac84f0638b2185684ae0b8474741b64a4730d34365eb803e98a3656feb017edb7ddd4170778cb60cadd1401aa24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist-thonny \

@@ -3,10 +3,10 @@ DESCRIPTION = "The runtime library needed to run programs compiled with the \
 -fsanitize=thread option of the GNU Compiler Collection (GCC)."
 LICENSE = "MIT"
 
-PV = "13.1.1+git7597"
+PV = "13.2.1+git7683"
 
-RPM_NAME = "libtsan2-13.1.1+git7597-1.1.aarch64.rpm"
-RPM_HASH = "edfb5ffe865a8eb5e5dea28cbb03216d4c320c1b02333979c029e011c89e9f1081469527be6b792f7aa45d13940e25d4d7f61b9bf67cacd0bd93337f72364916"
+RPM_NAME = "libtsan2-13.2.1+git7683-1.1.aarch64.rpm"
+RPM_HASH = "741f3d6c527377368f1da3d8606954b5e1e787e9db735de9ff7e5293a03c3d92753dc77fe0308d51b2f6907d1ef7cd723413374b0f0cc94113d374d34b1d6e2e"
 
 RPROVIDES:${PN} += "libtsan.so.2 \
 libtsan2"

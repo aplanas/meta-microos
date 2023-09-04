@@ -14,13 +14,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.03"
 
-RPM_NAME = "perl-Time-Clock-1.03-3.27.noarch.rpm"
-RPM_HASH = "2b5ce7130216ced2c7f82312549e549847f251abf5e9bc85993a07e572d18c5d82489ccffb1964ffb06cac755a262ab9cdb87b4fa83ae4febb21d4cec24c601a"
+RPM_NAME = "perl-Time-Clock-1.03-3.28.noarch.rpm"
+RPM_HASH = "fa2ac46e1b4efe8bee5bc8a9e00121acf52057bb0b953001431df29a897d5e180891c964d8172a02d6513ceec158c6578ed2000ca7ad65e5accbdd93d4de15db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Time--Clock \
 perl-Time-Clock"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

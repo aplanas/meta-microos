@@ -12,10 +12,10 @@ provided for the user to select no more than the interfaces \
 needed for a job."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.3.1svn21474"
+PV = "2023.209.3.1svn21474"
 
-RPM_NAME = "texlive-interfaces-2023.208.3.1svn21474-53.1.noarch.rpm"
-RPM_HASH = "45ee2f7b34835a72c6cca89accec2d3dd900feba8acae04c3c062a608d0a032a78911682abfa27e9a80b39228f80cf56b3eaad9abb2da7063af4cea2320e7229"
+RPM_NAME = "texlive-interfaces-2023.209.3.1svn21474-54.1.noarch.rpm"
+RPM_HASH = "0a546e8a25582cbe778a26f0f33fc59418d17478ed57751607e69585a9492ff5460995244ce021ae5a81654ae463131bed86424cebd5e5d8d2630f166ea1eecd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-interfaces-LaTeX.sty \

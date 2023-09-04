@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-epiolmec-fonts-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "5e60646a02aa716cfd0a6536d2ce0c6ec59259b13bbde62acfeb7ebc3064024fcac044666179d1c4e62e2d09727a5f02b4e0ca9c0363d808da1c2e5a8851e891"
+RPM_NAME = "texlive-epiolmec-fonts-2023.209.svn15878-54.2.noarch.rpm"
+RPM_HASH = "2446eafba1e97714807ab4402598f19e1531c15168bb4c1fecee755b4477c3e094ee627eccbe36426200081654fad51222580e05b1712b9324b4266a6978a57b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=fj \

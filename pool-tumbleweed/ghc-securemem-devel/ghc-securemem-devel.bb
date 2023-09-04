@@ -4,19 +4,19 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.10"
 
-RPM_NAME = "ghc-securemem-devel-0.1.10-4.4.aarch64.rpm"
-RPM_HASH = "f7c170c9d242f1fcae4c953789b66031b7bdba2ced96a342d15e2edadf890980b805af121b4516d0bd667dc8aca07c39038a0cb254ed740f11db075deb4d3941"
+RPM_NAME = "ghc-securemem-devel-0.1.10-4.5.aarch64.rpm"
+RPM_HASH = "998a51211e5e0e25a8f705108d2f53ddc3601186b90621c6f3c05cf000bf76c6582ee9c5acc48bf68257c3879b14168f2c2aa32b24e1948161abdf6e4369ab74"
 
-RPROVIDES:${PN} += "ghc-devel-securemem-0.1.10-14D6arGPELi9Mzd7V4Fyfu \
+RPROVIDES:${PN} += "ghc-devel-securemem-0.1.10-HwgHwfqNrQFCVsnPOu3Pz4 \
 ghc-securemem-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-byteable-0.1.1-KSaZugJOm4ALb4WyX9cufg \
-ghc-devel-bytestring-0.11.4.0 \
-ghc-devel-ghc-prim-0.9.0 \
-ghc-devel-memory-0.18.0-8CsggfkyXReDSMbRoae4Yp \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-byteable-0.1.1-D4ZAyAuZ5dZDp71hQtTs5r \
+ghc-devel-bytestring-0.11.5.1 \
+ghc-devel-ghc-prim-0.9.1 \
+ghc-devel-memory-0.18.0-6jbQrbksm9m3FIftlSlmf1 \
 ghc-securemem"
 
 inherit rpm

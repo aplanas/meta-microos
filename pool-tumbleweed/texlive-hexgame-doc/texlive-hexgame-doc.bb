@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-hexgame-doc-2023.209.1.0svn15878-54.1.noarch.rpm"
-RPM_HASH = "9c7cfc2a10c43dbb3bbcfaa302614201bbafa268d11124a1efd3e6e4d4b3817c8fcd46d0d2f74567fca6ed485a7a189d36f090a81d63f066dab44ce1e243a78d"
+RPM_NAME = "texlive-hexgame-doc-2023.209.1.0svn15878-54.2.noarch.rpm"
+RPM_HASH = "9441be64cb09c3617beb64590519bce6537b4d60325b6aad1e19b8c0443f8c9837bdb44bf3fe0ba4ad6afa945de7928a76b9e550a08b6ddd0105304e66197c1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hexgame-doc"

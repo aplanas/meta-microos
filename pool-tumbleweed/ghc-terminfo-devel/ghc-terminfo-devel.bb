@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.1.5"
 
-RPM_NAME = "ghc-terminfo-devel-0.4.1.5-3.2.aarch64.rpm"
-RPM_HASH = "4829e5db5d634a38f685ad893f2392d70ccf8d11af1d3485abe510f89d150a9ea4415b6db003dfc23854fc8356d0cab5cf9c7c82a87e1ad48d7b9c7a2b1f46b7"
+RPM_NAME = "ghc-terminfo-devel-0.4.1.5-1.1.aarch64.rpm"
+RPM_HASH = "c2eeb259007bd83c24d338725a0d72853d81087a92ce58a780737cf59ca461bf268e627287131a8d3beffc166f167d97e9c748f61e745967eb26a32f4e47f5be"
 
 RPROVIDES:${PN} += "ghc-devel-terminfo-0.4.1.5 \
 ghc-terminfo-devel \
 ghc-terminfo-static"
 
 RDEPENDS:${PN} += "ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-terminfo \
 ncurses-devel"
 

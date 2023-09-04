@@ -19,8 +19,8 @@ LICENSE = "(Artistic-1.0 | GPL-1.0-or-later) & Artistic-2.0 & GPL-2.0-only & GPL
 
 PV = "2.22.2"
 
-RPM_NAME = "devscripts-2.22.2-1.5.aarch64.rpm"
-RPM_HASH = "7f3629a231df49b3a980e51187f68af5a13d832b2d9c447319d38a365d09c0ab8cbba14955d936af46f45580a7c55a4e8ada293c9fa3bda0a426190cdb55cb3b"
+RPM_NAME = "devscripts-2.22.2-1.6.aarch64.rpm"
+RPM_HASH = "8272652e9b79304de6d93e482a5f737d331e356a7c443d365a718a9b537a499f2bfb60b0b9b3900007f14c6447f5f3429e6a41714a385fec1a851d3a95c31c03"
 
 RPROVIDES:${PN} += "deb-/usr/bin/debchange \
 devscripts \
@@ -97,7 +97,7 @@ checkbashisms \
 dpkg \
 html2text \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-File-HomeDir \
 perl-IPC-Run \
 perl-Moo \

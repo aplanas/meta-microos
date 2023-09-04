@@ -40,13 +40,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.19"
 
-RPM_NAME = "perl-Module-Build-XSUtil-0.19-1.16.aarch64.rpm"
-RPM_HASH = "dd3969db86f64b0ea1ccf990d4a1cecf1c18567b8d63a3a09223eee4943326412cf031ad18159989678f7e254c11621be64339b0ef8d89bd6e2cc61b1a456a73"
+RPM_NAME = "perl-Module-Build-XSUtil-0.19-1.17.aarch64.rpm"
+RPM_HASH = "17e3f1666cce870f0b9f3a18c512380e291a02e16567999027f2432fd1e16ee9cfacd14d781ac02068a2fb09861af816a80a39bb1ba1d8244ddf4ef4f85b9bc9"
 
 RPROVIDES:${PN} += "perl-Module--Build--XSUtil \
 perl-Module-Build-XSUtil"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Devel--CheckCompiler \
 perl-ExtUtils--CBuilder \
 perl-parent"

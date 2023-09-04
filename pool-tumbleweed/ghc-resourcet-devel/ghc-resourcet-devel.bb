@@ -4,21 +4,21 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.6"
 
-RPM_NAME = "ghc-resourcet-devel-1.2.6-2.6.aarch64.rpm"
-RPM_HASH = "9bba619a9de980902fa1d8c2177b0f7a00a51e865602efdddbd906046d2af16246fd1f0535ad1cdb4f20ceacf1c78dbfe61e652eb345749a53b7317ef05b740e"
+RPM_NAME = "ghc-resourcet-devel-1.2.6-2.8.aarch64.rpm"
+RPM_HASH = "6ab78e9597a0cf9f202e082b9d06624010a5351c7c2620b921f571161c6ced0efead1a408599eff487d4446cc560ad231eff052e5301336eaedaf27cbf2bc09f"
 
-RPROVIDES:${PN} += "ghc-devel-resourcet-1.2.6-69eF6Rrz9wX13sOJF59GPv \
+RPROVIDES:${PN} += "ghc-devel-resourcet-1.2.6-AOipJdCu0ULL3KFWw8x9fP \
 ghc-resourcet-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-containers-0.6.7 \
 ghc-devel-exceptions-0.10.5 \
 ghc-devel-mtl-2.2.2 \
-ghc-devel-primitive-0.7.4.0-AeB0oysC3TAJw9tDpuX8hq \
+ghc-devel-primitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx \
 ghc-devel-transformers-0.5.6.2 \
-ghc-devel-unliftio-core-0.2.1.0-AEtYfdyUWlJCLfz2d4hPbj \
+ghc-devel-unliftio-core-0.2.1.0-LP03A4AUPGIIJc7XWMX3ES \
 ghc-resourcet"
 
 inherit rpm

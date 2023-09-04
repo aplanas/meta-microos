@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.13.0"
 
-RPM_NAME = "amavisd-new-2.13.0-2.2.noarch.rpm"
-RPM_HASH = "b01c74c4810cdbc9de164c3b4c6b86e0a075282c4c316f1e39e677572f72c8a4e7ac2d4812091b094808e161223d9919a4aa85c9a0f096425e9bebc46ebba40d"
+RPM_NAME = "amavisd-new-2.13.0-3.1.noarch.rpm"
+RPM_HASH = "7d33a297c24851b02505d5fb0a0b10da0d84e81500429d2968cacf25d74c435d12dc4c1d3b32d0aa3571e7c27032fbee3db6141715acb886ede6920419c3b46d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "amavisd-new \
@@ -97,6 +97,7 @@ RDEPENDS:${PN} += "/usr/bin/mkdir \
 file \
 fillup \
 group-vscan \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Archive--Zip \
 perl-Compress--Raw--Zlib \
 perl-Compress--Zlib \

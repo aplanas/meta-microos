@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.06"
 
-RPM_NAME = "grub2-arm64-efi-debug-2.06-54.1.noarch.rpm"
-RPM_HASH = "218369628657e079037cafda9e5123230da4dd71cc79f7cfaf7a92c29817792f863b23c274779fa557366a3df27a1019d76bf5fd69db1748696df3ac5331f119"
+RPM_NAME = "grub2-arm64-efi-debug-2.06-55.1.noarch.rpm"
+RPM_HASH = "5b487f4e576204fa0efb973e6733b3f96cecfae3db690c61bdca86b14df2940aef1f1fc66806919c51f0944fb8d29c46a1c71b94b10b39972162c4b675272d88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grub2-arm64-efi-debug"

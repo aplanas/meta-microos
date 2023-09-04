@@ -2,10 +2,10 @@ SUMMARY = "Santali localization files for LibreOffice"
 DESCRIPTION = "Provides Santali translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-l10n-sat-7.5.4.2-1.5.noarch.rpm"
-RPM_HASH = "217752416a82e25e90fa73751995970d555f312eb47447fdc49fa7ecfb2f722ef4a1e365f29d37ecce649f51704f00af4e662cf801e30342d610d741494368ae"
+RPM_NAME = "libreoffice-l10n-sat-7.6.0.3-1.1.noarch.rpm"
+RPM_HASH = "ffc82a5d62541f2edf2677a0f838aa918238e23ebfe84832cd54c346b4700d4a457691de2ba3da94a83c66068153ec6342a6bd0cb0df1086b1d1c85302100317"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-sat \

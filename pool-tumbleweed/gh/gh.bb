@@ -2,10 +2,10 @@ SUMMARY = "The official CLI for GitHub"
 DESCRIPTION = "Official CLI client for GitHub written in Go"
 LICENSE = "MIT"
 
-PV = "2.32.1"
+PV = "2.33.0"
 
-RPM_NAME = "gh-2.32.1-1.1.aarch64.rpm"
-RPM_HASH = "f613e7ff8317ed00d148cac2b636e56e7281d2e340d671e19ebdc1aae1979ac8dcd5b539d339ac71ce2736bf897aad578e4017596fa313fe75b4806de2a67ebe"
+RPM_NAME = "gh-2.33.0-1.1.aarch64.rpm"
+RPM_HASH = "31534ad04166ce1562aa63ace997ed397171eb35f5f355387dbd59b6c5528c95638dcdc7d1761be6dca8bf216dfad73486561b68ae355d5e8e2efdb4b350d9c4"
 
 RPROVIDES:${PN} += "gh"
 

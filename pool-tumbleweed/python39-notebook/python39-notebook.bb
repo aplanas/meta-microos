@@ -5,10 +5,10 @@ interactive computing. \
 This package provides the python interface."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.5.4"
+PV = "7.0.2"
 
-RPM_NAME = "python39-notebook-6.5.4-1.2.noarch.rpm"
-RPM_HASH = "a6c4cde93bd903c7b1ae7a1ce79727f08a258885204de33d26bdde44818bab55f6ee375734ffb9bd8492262c01209e6135618ede3aa444105d2711e3d6f408a6"
+RPM_NAME = "python39-notebook-7.0.2-1.1.noarch.rpm"
+RPM_HASH = "0cd8366514582aa7c27fb5fea1b1027178d65917a7839e1c6e4f0cf547c211944f589e1fffb1d562c1ac553523248ae88d5e899548ba34e6f97ce1c355fd0029"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-notebook \
@@ -16,26 +16,15 @@ python39-jupyter-notebook \
 python39-notebook \
 python3dist-notebook"
 
-RDEPENDS:${PN} += "-python39-jupyter-client >= 5.3.4 with python39-jupyter-client < 8 \
+RDEPENDS:${PN} += "-python39-jupyter-server >= 2.4 with python39-jupyter-server < 3 \
+-python39-jupyterlab >= 4.0.2 with python39-jupyterlab < 5 \
+-python39-jupyterlab-server >= 2.22.1 with python39-jupyterlab-server < 3 \
+-python39-notebook-shim >= 0.2 with python39-notebook-shim < 0.3 \
 /usr/bin/python3.9 \
 /usr/bin/sh \
 alts \
 jupyter-notebook \
 python-abi \
-python39-Jinja2 \
-python39-Send2Trash \
-python39-argon2-cffi \
-python39-ipykernel \
-python39-ipython-genutils \
-python39-jupyter-core \
-python39-nbclassic \
-python39-nbconvert \
-python39-nbformat \
-python39-nest-asyncio \
-python39-prometheus-client \
-python39-pyzmq \
-python39-terminado \
-python39-tornado \
-python39-traitlets"
+python39-tornado"
 
 inherit rpm

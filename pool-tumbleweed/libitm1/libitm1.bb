@@ -3,10 +3,10 @@ DESCRIPTION = "The runtime library needed to run programs compiled with the \
 -fgnu-tm option of the GNU Compiler Collection (GCC)."
 LICENSE = "MIT"
 
-PV = "13.1.1+git7597"
+PV = "13.2.1+git7683"
 
-RPM_NAME = "libitm1-13.1.1+git7597-1.1.aarch64.rpm"
-RPM_HASH = "1ad8ff343febbcb7e5355196b6e17c264d7f73e123ff5df561aa43efe03a0f891d245d63c18bef9d216492722fe93a64a18173d3bd6e5b0509d4c9d1ff55fd6d"
+RPM_NAME = "libitm1-13.2.1+git7683-1.1.aarch64.rpm"
+RPM_HASH = "9393c9afa91ea9dae2c6cac2b87791e6f0d08d392dfccf6ee2c448b71939285bf683b2f02f6371108c51615601de1178077a1a3bc957c5cfc65692521a5674e8"
 
 RPROVIDES:${PN} += "libitm.so.1 \
 libitm1"

@@ -2,10 +2,10 @@ SUMMARY = "The python pandas[test] extra"
 DESCRIPTION = "This package provides the [test] extra for python-pandas"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.2"
+PV = "2.0.3"
 
-RPM_NAME = "python39-pandas-test-2.0.2-4.1.noarch.rpm"
-RPM_HASH = "44d32ccd5731d38b384baa8c4f383a319ba848098e9d3cf114776d093773372b5bdc66f7c269146a693a119355007ce69dc7f2509efd198c032ad15a770617a4"
+RPM_NAME = "python39-pandas-test-2.0.3-1.2.noarch.rpm"
+RPM_HASH = "ebbfa85fc3413d400d93382a8710f0e86917a445665b514beefc7ff714c30481071fcf995ca41ae587479183b73cce05591d32c61f7b5942c3f449553ac19841"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pandas-test"

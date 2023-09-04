@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn25228"
 
-RPM_NAME = "texlive-pst-vowel-doc-2023.209.1.0svn25228-54.1.noarch.rpm"
-RPM_HASH = "9292f13b4d869a03f421e0a3a26bf7d333350eb0decfb9f1e54f4c3439d7cdf010e6ecbc8fa5fb7a5853bb52469850833e292c25caad35e771fb0b8ef81f9125"
+RPM_NAME = "texlive-pst-vowel-doc-2023.209.1.0svn25228-54.2.noarch.rpm"
+RPM_HASH = "85e803d6abb879ac03684dfb43dce2bf7f4381fbc6315f8daaea66352a909d0f1a85b8a2e8dcce8cdd9a561528cff51e825c9f538a7f7b97e2af17f262a50158"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-vowel-doc"

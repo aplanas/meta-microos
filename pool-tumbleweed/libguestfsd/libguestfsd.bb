@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.50.1"
 
-RPM_NAME = "libguestfsd-1.50.1-4.1.aarch64.rpm"
-RPM_HASH = "8f51f929c97f042f80016ae23e88828cbda7b1d689d9bda68d12b7ca10fc45a500aecd29201f4fe2f7d631754f432395b62a7ea9c66f72e74f38c36822001dcc"
+RPM_NAME = "libguestfsd-1.50.1-4.2.aarch64.rpm"
+RPM_HASH = "14507e69ecee12160f2e93d4f89baed4143ffdbddac2add3aae863930ebb4fcc6d6438422b39f375d99e4ee269b6be18f7829e1bd6cd2edeead83988ce987baf"
 
 RPROVIDES:${PN} += "guestfsd \
 libguestfsd"

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.4.2svn61799"
 
-RPM_NAME = "texlive-erw-l3-2023.209.4.2svn61799-54.1.noarch.rpm"
-RPM_HASH = "ebe7243b7b415b11bee4f25f348edd7ea2d49ca602fa47393f0981324a9c95c3a9e091abac8299ca2c96dffd68dc5194e47bbaeaf8baf1527ad11d1f1c5b6ab4"
+RPM_NAME = "texlive-erw-l3-2023.209.4.2svn61799-54.2.noarch.rpm"
+RPM_HASH = "55a06206f6e74b3bd54ef76b9c39f4e1d2bcd9e120c3ff8b86b6b9f2dd875ed34daf50a0ff4b2c3bc0e7b03c117e53b0b4d7d88c3ea7070c0f4f0dfc57f47230"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-erw-l3.sty \

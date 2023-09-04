@@ -9,24 +9,24 @@ are entirely disabled.  This kernel is meant to be small and to build \
 very quickly.  The configuration may change arbitrarily between builds. \
  \
  \
-Source Timestamp: 2023-07-25 04:42:30 +0000 \
-GIT Revision: 55520bc826c5b1d40857ed0536eb87438cb95192 \
+Source Timestamp: 2023-08-17 04:57:43 +0000 \
+GIT Revision: 2a5b3f66898e9ecfa282f4399923c9546d3bc54d \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.6"
+PV = "6.4.11"
 
-RPM_NAME = "kernel-kvmsmall-6.4.6-1.1.aarch64.rpm"
-RPM_HASH = "1daa4b0aeae55ece3af2cc6aab120ccfc1cc75700d22610ae96cec281d659876b905a38ec28d9cc0f6c51a40bf1a07d78aac069db0497f24d7e53a50eb9193e0"
+RPM_NAME = "kernel-kvmsmall-6.4.11-1.2.aarch64.rpm"
+RPM_HASH = "a007e75f88b4d7fd92de24c87d8c3b58008e438ac34f85ece8ed645b68bba8c3365c0b756214dbaf1755bb68e3b038248ff19eb7e00ffe302b0f44edab78a827"
 
 RPROVIDES:${PN} += "kernel \
 kernel-base \
 kernel-kvmsmall \
-kernel-kvmsmall-6.4.6-1 \
+kernel-kvmsmall-6.4.11-1 \
 kernel-kvmsmall-aarch64 \
-kernel-kvmsmall-base-srchash-55520bc826c5b1d40857ed0536eb87438cb95192 \
-kernel-kvmsmall-srchash-55520bc826c5b1d40857ed0536eb87438cb95192 \
-kernel-srchash-55520bc826c5b1d40857ed0536eb87438cb95192 \
+kernel-kvmsmall-base-srchash-2a5b3f66898e9ecfa282f4399923c9546d3bc54d \
+kernel-kvmsmall-srchash-2a5b3f66898e9ecfa282f4399923c9546d3bc54d \
+kernel-srchash-2a5b3f66898e9ecfa282f4399923c9546d3bc54d \
 kernel-uname-r \
 kmod-8021q.ko \
 kmod-8139cp.ko \

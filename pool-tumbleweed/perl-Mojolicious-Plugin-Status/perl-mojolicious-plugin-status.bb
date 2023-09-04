@@ -7,8 +7,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.17"
 
-RPM_NAME = "perl-Mojolicious-Plugin-Status-1.17-1.11.noarch.rpm"
-RPM_HASH = "c6b6ebcce12d73c5e6bbc51bd942c45383db9f0f4d405d08a224bc2e25e1fc2334abcff0d2148e67a0dfee42655f240f7c0aa3e274428918650bbd19d912a5a5"
+RPM_NAME = "perl-Mojolicious-Plugin-Status-1.17-1.12.noarch.rpm"
+RPM_HASH = "61b3b0b82c1f98a63dcf75888e733852620a44951c4ffe55bd2bc3524a2910efaca510ba69b5e9626c6a2ecc89e06322159f588d0b5cd4b586915ce60358560c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojo--MemoryMap \
@@ -16,7 +16,7 @@ perl-Mojo--MemoryMap--Writer \
 perl-Mojolicious--Plugin--Status \
 perl-Mojolicious-Plugin-Status"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-BSD--Resource \
 perl-File--Map \
 perl-File--Temp \

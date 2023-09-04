@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 LabsFolderListModel library"
 DESCRIPTION = "The Qt 6 LabsFolderListModel library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "libQt6LabsFolderListModel6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "2b6f2d8f00364e164a22259cf2800f8d8c3e29ac043b6c14ed113bb51ab4d111ed1e881bc02984d6c3ab0d6ae1ca2e5f93ed24ff86c20ab3059ab4011fc8f592"
+RPM_NAME = "libQt6LabsFolderListModel6-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "5ce5cec46f07ff9f1f781c8a94c897809708a6fcf5768faadb40fec6d3781777e62d4f2a8806cb188f7f45969b1b89eea08f2f3b2bb4b972d7f4cf3faa32973e"
 
 RPROVIDES:${PN} += "libQt6LabsFolderListModel.so.6 \
 libQt6LabsFolderListModel6"

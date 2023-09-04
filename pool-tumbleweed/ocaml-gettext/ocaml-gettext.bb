@@ -12,8 +12,8 @@ LICENSE = "SUSE-LGPL-2.0-with-linking-exception"
 
 PV = "0.4.2"
 
-RPM_NAME = "ocaml-gettext-0.4.2-3.12.aarch64.rpm"
-RPM_HASH = "8e6f0427131f602f1cfeb540993dba960316aae36a9b0bffe1cd9547a440cba0dc75f37acb15440a281248de5cfc732a9b8a6ca8e15c905a290fd00ea6b2b519"
+RPM_NAME = "ocaml-gettext-0.4.2-4.1.aarch64.rpm"
+RPM_HASH = "615b4bab0d9035a957d6617165c08c62c10412530ec339c275e8ea280e542ef63dae70daffebd03cec584f0428d813fbac4c4f52c3e67e22e837dbbe0cb7318b"
 
 RPROVIDES:${PN} += "ocaml-gettext \
 ocaml-gettext-camomile \
@@ -22,7 +22,6 @@ ocaml-gettext-stub-debuginfo \
 ocaml-gettext-stub-devel"
 
 RDEPENDS:${PN} += "libc.so.6 \
-libm.so.6 \
-ocaml-camomile-data"
+libm.so.6"
 
 inherit rpm

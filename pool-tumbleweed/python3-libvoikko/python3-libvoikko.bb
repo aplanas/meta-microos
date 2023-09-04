@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.3.2"
 
-RPM_NAME = "python3-libvoikko-4.3.2-1.1.noarch.rpm"
-RPM_HASH = "a7e4ad0ad5b81fa60b92a10fee96d4efe6c758714852d8fb22f06c7946c3e413f803f9f3569906f1db9b6d187d22bf5f4008da613b90c17db046192dcf1194ff"
+RPM_NAME = "python3-libvoikko-4.3.2-2.1.noarch.rpm"
+RPM_HASH = "58f0286781d5583ebec1dd057222628c13210e27ddf53ca5a66de5b798c6222850c043ee21bf27e0e27cf62305dc837b4a9a93ab3d63b6a580a1c915b68a185c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-libvoikko"

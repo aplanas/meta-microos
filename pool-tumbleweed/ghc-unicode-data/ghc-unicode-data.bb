@@ -10,15 +10,15 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.0.1"
 
-RPM_NAME = "ghc-unicode-data-0.4.0.1-3.6.aarch64.rpm"
-RPM_HASH = "45e4f57bbe2aead1cf75b1e5cac12d37837c7e03dd1c2a80047c8ea3bf8412d79cd7b82630f20cd80ad20035bddf7130772c2976473110f3ad5d3858ebc740ef"
+RPM_NAME = "ghc-unicode-data-0.4.0.1-3.8.aarch64.rpm"
+RPM_HASH = "b13bbd19cf51d31d27590c0e7960b91e6d8187f460e3a9f2c487331450fd9ca7b548e07e29bd08b42d668d202ffe3368ac9241b2d7b28090d0f0446c59c3808e"
 
 RPROVIDES:${PN} += "ghc-unicode-data \
-libHSunicode-data-0.4.0.1-IPznodd4J0BGoSZPR6u4lO-ghc9.4.5.so"
+libHSunicode-data-0.4.0.1-DXmKFuEq71jAHQO9x7NPr-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

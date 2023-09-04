@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.2.4+g953"
 
-RPM_NAME = "river-fish-completion-0.2.4+g953-1.1.noarch.rpm"
-RPM_HASH = "78f3afe4d8e80dcd1146c18693a312c5460bd2ae0d56b3c9344cb029916febffef27af3802f070016256216a653ccd23bc9abdd8c7f78c03dce9ee601670673b"
+RPM_NAME = "river-fish-completion-0.2.4+g953-2.1.noarch.rpm"
+RPM_HASH = "9b7057e6d234ae8d2e9c0de828bf79de905d8c4cdd824ae0e50d0efd1e1a29440287e115f56e5c1e76506b3ad77177eb7417acc178928d2aabbed5420e5a8f1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "river-fish-completion"

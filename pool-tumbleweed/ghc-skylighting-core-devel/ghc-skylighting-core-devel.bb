@@ -5,31 +5,31 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.13.4.1"
 
-RPM_NAME = "ghc-skylighting-core-devel-0.13.4.1-1.1.aarch64.rpm"
-RPM_HASH = "81a3bd5ccb5fd51731d1b549d139a845b7a3d1051712b07b762e0851bbfc59a7bfc5a390c4f7e949448629c9a438fa8f6e8af1c09646acc53834daff7c5e8ccd"
+RPM_NAME = "ghc-skylighting-core-devel-0.13.4.1-1.5.aarch64.rpm"
+RPM_HASH = "304e742f3e219addf118b69f7b9b3338c45c8dcb595914036243dd389d266f0f445d702d253ec679eb0090a824161d855fbad647e3e5ea952722ec5b0e1f82ea"
 
-RPROVIDES:${PN} += "ghc-devel-skylighting-core-0.13.4.1-6Bsu3Qo0E1u1DqUSYo1bSc \
+RPROVIDES:${PN} += "ghc-devel-skylighting-core-0.13.4.1-Hz9bNgtQKIrCLRLiqtSBj1 \
 ghc-skylighting-core-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
-ghc-devel-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-base64-bytestring-1.2.1.0-8KbzJpmSQbYKTeew1rv0hh \
+ghc-devel-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
+ghc-devel-attoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3 \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-base64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM \
 ghc-devel-binary-0.8.9.1 \
-ghc-devel-bytestring-0.11.4.0 \
-ghc-devel-case-insensitive-1.2.1.0-AumZoR4Lds63HJj8OQwHY3 \
-ghc-devel-colour-2.3.6-7jQe2xj5Lsa5MbX38iH7Ln \
+ghc-devel-bytestring-0.11.5.1 \
+ghc-devel-case-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9 \
+ghc-devel-colour-2.3.6-GBcey48GJNAK3398XtiZDq \
 ghc-devel-containers-0.6.7 \
 ghc-devel-directory-1.3.7.1 \
 ghc-devel-filepath-1.4.2.2 \
 ghc-devel-mtl-2.2.2 \
-ghc-devel-safe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds \
+ghc-devel-safe-0.3.19-9uHvZjuyLiR13wOGSONZxX \
 ghc-devel-text-2.0.2 \
 ghc-devel-transformers-0.5.6.2 \
-ghc-devel-utf8-string-1.0.2-3yyxPCwARUwDt9ZNWn320Q \
-ghc-devel-xml-conduit-1.9.1.3-JDYavYDcwLN29rDQLTOOon \
+ghc-devel-utf8-string-1.0.2-26mnfHz4IgtDU2rLQciXDs \
+ghc-devel-xml-conduit-1.9.1.3-DDoR4rlzTH6QSHmFsTVd9 \
 ghc-skylighting-core"
 
 inherit rpm

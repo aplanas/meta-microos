@@ -12,8 +12,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.3svn20031"
 
-RPM_NAME = "texlive-xcomment-2023.209.1.3svn20031-53.1.noarch.rpm"
-RPM_HASH = "ecf97da513a5a2c716c646fc9d3cc9fbcc8efa9bbd1f5e25671f43dc55afcb7f6155186bdfc2fcecfaefbb6d5f3a278d0559c1acfd5301c9a787f07d5cc4af4a"
+RPM_NAME = "texlive-xcomment-2023.209.1.3svn20031-53.2.noarch.rpm"
+RPM_HASH = "1c53ceef1158d8cabaacbdf3b077a07e5dcd6b614ea37f6b24941df96a09b6786871c02b5ca82ce6c05e10a28e25075559a0a62259e11d195f39d4f811de5da9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xcomment.sty \

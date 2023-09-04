@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.6"
 
-RPM_NAME = "libcolord2-1.4.6-3.1.aarch64.rpm"
-RPM_HASH = "30bb80ec61a817894698b62047c34b5c909ae242860813c065aa84c34a50a871a08e9321224fb97dfbb79ddc1a4642a9a323d72a7f56273a4d0a33499ea9c849"
+RPM_NAME = "libcolord2-1.4.6-4.1.aarch64.rpm"
+RPM_HASH = "b8206bec4a237533979d07113b483a0638d6d4b943e57923a5ff2ab0fb339e3d4b10faeb5a12ae5c93cde978e1e2e37bf27adde3990866e1f89a77559bee88f2"
 
 RPROVIDES:${PN} += "libcolord.so.2 \
 libcolord2 \

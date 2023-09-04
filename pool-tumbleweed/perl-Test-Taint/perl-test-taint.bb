@@ -12,12 +12,12 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.08"
 
-RPM_NAME = "perl-Test-Taint-1.08-1.21.aarch64.rpm"
-RPM_HASH = "26f58a9c7ca4c42a40aaa38c831031cee214f77e8f3ed0de7147d9ba77c0ec88a0963f08a019d3fe970d3a454c1fb653d47f41165b839e1a4abc53c97624b2c4"
+RPM_NAME = "perl-Test-Taint-1.08-1.22.aarch64.rpm"
+RPM_HASH = "3e8c9f7e89529c5f0a0e3ac1b1286c113be0707a0d6126b45a4d19534f507d7a33ae0f270fc710f20eef419dfbf098c49b0e44caf71d5600239e4e8bce50be13"
 
 RPROVIDES:${PN} += "perl-Test--Taint \
 perl-Test-Taint"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

@@ -11,8 +11,8 @@ LICENSE = "IPL-1.0"
 
 PV = "1.8.10"
 
-RPM_NAME = "openafs-authlibs-devel-1.8.10-1.4.aarch64.rpm"
-RPM_HASH = "be41434dfce8324f39e1db9128c7c0518b18ba6dedd9b843df92ce137f90cdcd1c7c6541d361d1d8af2908355231e8c759a2759bc7cabd0c0f13ef93dfada742"
+RPM_NAME = "openafs-authlibs-devel-1.8.10-1.7.aarch64.rpm"
+RPM_HASH = "5e8ebd032c750aedcb6962506464c64facf1f1460f8d624fd32d1b19dc1503e8669ff757c73e2950a1a83e98633a4e0d9538aa009a3a9e644d0c1c65c7f7f9f4"
 
 RPROVIDES:${PN} += "openafs-authlibs-devel"
 

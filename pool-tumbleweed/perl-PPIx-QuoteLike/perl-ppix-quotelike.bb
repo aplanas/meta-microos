@@ -12,8 +12,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.023"
 
-RPM_NAME = "perl-PPIx-QuoteLike-0.023-1.3.noarch.rpm"
-RPM_HASH = "6d019202b39f2a79701fa4523b3bd29a2cb3304d1bec61f49ac909990e37c8fee0a2c5f44c4647b64c847ba47fd78b697dfa509e6113a0f85209637c9c3a671c"
+RPM_NAME = "perl-PPIx-QuoteLike-0.023-1.4.noarch.rpm"
+RPM_HASH = "417f15f08a4a65bd730c3f71eba22b248305ebf1b5a065dea7ca059c6d85b831186d579116bb0590ece4c7ae7ecb71b36a64497dbb481c80c5ac1b6a022c4330"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-PPIx--QuoteLike \
@@ -30,7 +30,7 @@ perl-PPIx--QuoteLike--Token--Whitespace \
 perl-PPIx--QuoteLike--Utils \
 perl-PPIx-QuoteLike"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-PPI--Document \
 perl-PPI--Dumper \
 perl-Readonly"

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.11.11.2"
 
-RPM_NAME = "ghc-yaml-doc-0.11.11.2-1.1.noarch.rpm"
-RPM_HASH = "9fcce4bbaa7b8859c813ced2b5044397c6061ce7ae68dc441e75b4ce31a656c4c20173fbfab736877fa66a686725332f43a0971449f4d63d42aeca0a1f45213a"
+RPM_NAME = "ghc-yaml-doc-0.11.11.2-1.5.noarch.rpm"
+RPM_HASH = "f02b9d3485b02eccdc2a2781c3c1c920df0d0de4fb1de598064a3d39bc4bdfb254f7738b7622a2a6d35dee47b902182eed4c5d0a4781011e23e4729c1ada684c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-yaml-doc"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only & LGPL-2.1-or-later"
 
 PV = "5.2.0"
 
-RPM_NAME = "ruby-libprelude-5.2.0-2.16.aarch64.rpm"
-RPM_HASH = "b3e7369100536492db16ed07973f42a56ac4096bfaa67feffc23bb4492e1ae3652d5696831d486faa92eaa9237d11f60109ccb851b0184e528ce5abbd2ddf50e"
+RPM_NAME = "ruby-libprelude-5.2.0-2.17.aarch64.rpm"
+RPM_HASH = "47cec0a26ca7808d35e5fd47b1d34fdde048a41eb72c0490c63d48a2cf87b18bfb24dbb1f7235b43b88feff2d669bc8ecb4be34dbc47d385a2b829b430c57a4e"
 
 RPROVIDES:${PN} += "ruby-libprelude"
 

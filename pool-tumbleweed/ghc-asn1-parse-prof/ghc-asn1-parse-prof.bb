@@ -4,16 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.5"
 
-RPM_NAME = "ghc-asn1-parse-prof-0.9.5-6.3.aarch64.rpm"
-RPM_HASH = "089f7625ded30ab3b318a296805b828a649e58c5e545612c49aaab65124d3d6c693ce7564c6a4cff60d369bc1bb0f5d5b673cdbefea6eb98f53a848505dd3385"
+RPM_NAME = "ghc-asn1-parse-prof-0.9.5-6.4.aarch64.rpm"
+RPM_HASH = "d4551a60eadd54d71db6eef2fb8e24bf274c2d7e37f73a6fba43fa99f88749067841965cf6fe182e7b8a79ce2b660ffd0b0c76c5f4884db71324f004c1d24015"
 
 RPROVIDES:${PN} += "ghc-asn1-parse-prof \
-ghc-prof-asn1-parse-0.9.5-HTg4KkpVBwF8NdUaqkTqJm"
+ghc-prof-asn1-parse-0.9.5-BHBxQSMDAmU3iO1lXgL9KG"
 
 RDEPENDS:${PN} += "ghc-asn1-parse-devel \
-ghc-prof-asn1-encoding-0.9.6-Cdk8qspuM85LY571XnsXDt \
-ghc-prof-asn1-types-0.3.4-4LX8ePpAyEC5pdyYoIADjx \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-bytestring-0.11.4.0"
+ghc-prof-asn1-encoding-0.9.6-G74cB7z1f0LBAKbqoDvYt6 \
+ghc-prof-asn1-types-0.3.4-7Qw76BNtuiJIUHv1x3z9in \
+ghc-prof-base-4.17.2.0 \
+ghc-prof-bytestring-0.11.5.1"
 
 inherit rpm

@@ -5,10 +5,10 @@ wtmpdb utility creates boot and shutdown entries or formats and \
 prints the contents of the wtmp database."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.7.1"
+PV = "0.9.1"
 
-RPM_NAME = "wtmpdb-0.7.1-1.1.aarch64.rpm"
-RPM_HASH = "d8e7383fd165e741ba4becb061aea4dad4b421cd1b6f9123e9d9dcce8e37abd1cbf49acf757e9d6cf2452e59d1ab7c3cfb69d8eb14bc723f29d4b1184a58b15a"
+RPM_NAME = "wtmpdb-0.9.1-1.1.aarch64.rpm"
+RPM_HASH = "188f06ce55752b4e47600f0c3d63e93bda3a9d255c408b943b31293292461114cb6b8b3d94dd9de5cc61bc6ca3c44fb65d46950977a02acf6dd2f50a02d19544"
 
 RPROVIDES:${PN} += "util-linux-/usr/bin/last \
 wtmpdb"

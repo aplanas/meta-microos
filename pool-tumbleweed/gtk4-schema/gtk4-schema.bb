@@ -4,10 +4,10 @@ Offering a complete set of widgets, GTK+ is suitable for projects \
 ranging from small one-off projects to complete application suites."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.10.4"
+PV = "4.12.0"
 
-RPM_NAME = "gtk4-schema-4.10.4-1.2.noarch.rpm"
-RPM_HASH = "38d110e0b41882367a59aac5a4cee47e904502b9eeb5b3f626b4eb56b49f4dbff5c8b08f4a48f614b3678cd59cec7cd461efadd26202fe216428c949807fc317"
+RPM_NAME = "gtk4-schema-4.12.0-2.1.noarch.rpm"
+RPM_HASH = "be8881a76852c451292d0f7aeb61df8fc6830c047779fc1c62db39b2145a740a0944126423ff3005ac7ab80a1a1ff0dfd7e14e3a4139febaec0fa6adf50209bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk4-schema"

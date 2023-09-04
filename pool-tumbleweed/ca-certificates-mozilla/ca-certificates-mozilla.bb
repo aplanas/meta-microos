@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains some CA root certificates for OpenSSL extra
 from MozillaFirefox"
 LICENSE = "MPL-2.0"
 
-PV = "2.60"
+PV = "2.62"
 
-RPM_NAME = "ca-certificates-mozilla-2.60-3.1.noarch.rpm"
-RPM_HASH = "38f2df296f578b3980381bd4e1bf77d331918cf1a8fe085f4f902fb634b583dd855969db04bc524eb56b67719eedcfb9c47f0458efdc0a8c49d8c4ca131391ed"
+RPM_NAME = "ca-certificates-mozilla-2.62-2.1.noarch.rpm"
+RPM_HASH = "5e3270639f14fe3cbc34c24279b738e6abcf367b1e540ca01ffff6861f9b7b9fce02519b948b61afd8ff48945695bae8b5ff6aa2adb3b8ee8543e7cebad9eb10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ca-certificates-mozilla"

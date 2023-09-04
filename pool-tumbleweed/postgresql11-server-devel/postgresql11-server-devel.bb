@@ -9,10 +9,10 @@ C extensions that link into the PostgreSQL server. For building client \
 applications, see the postgresql11-devel package."
 LICENSE = "PostgreSQL"
 
-PV = "11.20"
+PV = "11.21"
 
-RPM_NAME = "postgresql11-server-devel-11.20-1.5.aarch64.rpm"
-RPM_HASH = "ab5ad4b7fc553e37d28d2817bdb0778bd9dd68ca6abfe2a25478e33015ce7f15d7d6814f39bee91d566432a4b2a22237db58c74c53ae43649e830cffca36ce21"
+RPM_NAME = "postgresql11-server-devel-11.21-1.1.aarch64.rpm"
+RPM_HASH = "2ebdfee396948bb34757ea99a36fcf3f1353f99b338701ef70d80affe350d677636b4406c32bfc0201efba667dc6896cf169291393ea1bae5473ba0635f000f2"
 
 RPROVIDES:${PN} += "postgresql-server-devel \
 postgresql-server-devel-exclusive \

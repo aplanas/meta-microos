@@ -1,11 +1,11 @@
 SUMMARY = "Keylime registrar service"
 DESCRIPTION = "Subpackage of keylime for registrar service."
-LICENSE = "Apache-2.0 & MIT"
+LICENSE = "Apache-2.0 & MIT & BSD-3-Clause"
 
-PV = "7.3.0"
+PV = "7.4.0"
 
-RPM_NAME = "keylime-registrar-7.3.0-1.1.noarch.rpm"
-RPM_HASH = "98dbb89542deb9fda7ee3a8662a238b5394b95fae912d5b97da57204de39fdd67ff16f83ab70c8ef61a89c6a5bff596b8a4372f0be451018850b7cac7dd4f7de"
+RPM_NAME = "keylime-registrar-7.4.0-1.1.noarch.rpm"
+RPM_HASH = "898fc1ced1db6d6bdae06eed132121a21976f08e6531277821c122a78b0241db46501c5b8001d8889e56692845b99bd7d93f972b6754974d2adcb9d3ecd9a386"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keylime-registrar"

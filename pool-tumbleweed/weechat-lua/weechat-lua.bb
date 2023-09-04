@@ -2,10 +2,10 @@ SUMMARY = "Lua Scripting Support for weechat"
 DESCRIPTION = "Support for weechat scripts written in the Lua language."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.8"
+PV = "4.0.2"
 
-RPM_NAME = "weechat-lua-3.8-1.3.aarch64.rpm"
-RPM_HASH = "f3e721f6cd52a242937e8c53b5bb01e7e8cc025f65f3f87567b401a1c8732d7b98d26da80bdc3307bcf3e9c1f297009a277c4e9854b11d843efc53afbc4c1dd8"
+RPM_NAME = "weechat-lua-4.0.2-1.1.aarch64.rpm"
+RPM_HASH = "c88df06ca37b1289f90e5f8f7d7eba61220e796fc53d2992ac932c02b6212f9a29c4201d6f7ede82abe4e33188abcd975a3bb40e9d1314546efc919d6565b3f5"
 
 RPROVIDES:${PN} += "weechat-lua"
 

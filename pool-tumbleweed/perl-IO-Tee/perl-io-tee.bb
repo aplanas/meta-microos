@@ -103,14 +103,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.66"
 
-RPM_NAME = "perl-IO-Tee-0.66-1.14.noarch.rpm"
-RPM_HASH = "3df29e3645967c861c9d4bff863a073fea9c712e3ef2d0a994881143bff27c7ad1b139ec45ab2ee63dfc9df498d6a7c0e50aea8d4de830f96e1d30b8c70f64da"
+RPM_NAME = "perl-IO-Tee-0.66-1.15.noarch.rpm"
+RPM_HASH = "e1ef92d058768f00ae872bedc0aba8e5a8be0de998b80fd1d45360a3cbe2a8975b029b0a7f6c7fc0d55591d249ff2194e0074d986a0bbfd9a89baa0ba1906d32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--Tee \
 perl-IO-Tee"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-parent"
 
 inherit rpm

@@ -4,29 +4,29 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.2.5"
 
-RPM_NAME = "ghc-kan-extensions-devel-5.2.5-2.6.aarch64.rpm"
-RPM_HASH = "d0abaa15bdd1c1878e9944cbca8a5bccdd558a3501fcaf11401583b56270c8b0988b4f7794c1b7e75aca7cbb20e299d7d018b1abdc8e5c86955cc46caf5c971e"
+RPM_NAME = "ghc-kan-extensions-devel-5.2.5-2.9.aarch64.rpm"
+RPM_HASH = "b99ce11366e562688b6320a17d6bf424afbf339713e54a4dca4c99a834d55b08142ba7d57e3cb137f982165f0def46615b3bfb8b433726ef22936636367a7d4b"
 
-RPROVIDES:${PN} += "ghc-devel-kan-extensions-5.2.5-1nBOp7PexbvGHkzwfeC2dO \
+RPROVIDES:${PN} += "ghc-devel-kan-extensions-5.2.5-8EOcrvzPSBS2QFPhIHEfWy \
 ghc-kan-extensions-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-adjunctions-4.4.2-7RBwcclil4HKBSm6i086HA \
+ghc-devel-adjunctions-4.4.2-BjNTDSboJHWDpWX9BvuZL3 \
 ghc-devel-array-0.5.4.0 \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-comonad-5.0.8-9UnH7KDg5138z3eBCPM7y4 \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-comonad-5.0.8-56nFbOwllOwBl7FMfSy83E \
 ghc-devel-containers-0.6.7 \
-ghc-devel-contravariant-1.5.5-K71YSUvfKnA5wfNaE05Lao \
-ghc-devel-distributive-0.6.2.1-GisXwtVaDTaDcC79Nunm79 \
-ghc-devel-free-5.1.10-7AdTZukDGhL7qWMpdopXbC \
-ghc-devel-invariant-0.6.1-B19sct74tP6Cqvpbmm6WZv \
+ghc-devel-contravariant-1.5.5-35YFLB0uIuz5cknUjKLNnT \
+ghc-devel-distributive-0.6.2.1-7gHlNDSCz3vFkde299iroS \
+ghc-devel-free-5.1.10-8DOWW3JiZaX7obxPZwBWX0 \
+ghc-devel-invariant-0.6.2-1eF4QVqz69AFovgmNz4wk7 \
 ghc-devel-mtl-2.2.2 \
-ghc-devel-profunctors-5.6.2-BxPEMLImcM1AGaSfWljpGV \
-ghc-devel-semigroupoids-5.3.7-Ju2oK8NLhZKHdQ6h8GWNM1 \
-ghc-devel-tagged-0.8.7-CYOhX22Df3PFW5V1S0dOJa \
+ghc-devel-profunctors-5.6.2-GfNUFxHNpLn859duquR0iv \
+ghc-devel-semigroupoids-5.3.7-H606qAbQOgNCZ5aAzkCf0g \
+ghc-devel-tagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax \
 ghc-devel-transformers-0.5.6.2 \
-ghc-devel-transformers-compat-0.7.2-7jAnhjvxTABIymoNGHTOwd \
+ghc-devel-transformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM \
 ghc-kan-extensions"
 
 inherit rpm

@@ -18,26 +18,26 @@ supported). \
  \
 * Authen::SASL::Cyrus \
  \
-This module is the predecessor to Authen::SASL::XS. It is reccomended to \
-use Authen::SASL::XS \
+This module is the predecessor to Authen::SASL::XS. \
  \
-By default the order in which these plugins are selected is \
-Authen::SASL::XS, Authen::SASL::Cyrus and then Authen::SASL::Perl. \
+Until version 2.16, Authen::SASL::Cyrus was loaded as an alternative to \
+Authen::SASL::XS. \
  \
-If you want to change it or want to specifically use one implementation \
-only simply do \
+By default Authen::SASL tries to load Authen::SASL::XS first, followed by \
+Authen::SASL::Perl on failure. If you want to change the order or want to \
+specifically use one implementation only simply do \
  \
  use Authen::SASL qw(Perl); \
  \
 or if you have another plugin module that supports the Authen::SASL API \
  \
  use Authen::SASL qw(My::SASL::Plugin);"
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.16"
+PV = "2.170.0"
 
-RPM_NAME = "perl-Authen-SASL-2.16-6.22.noarch.rpm"
-RPM_HASH = "abe97808904bb94814be6d8853f28d6a8789caf87a06845fe7c942b0f394a80155571be9d310d983f04c412e454770530ba91bde64ea83b7d1e68851919291de"
+RPM_NAME = "perl-Authen-SASL-2.170.0-1.1.noarch.rpm"
+RPM_HASH = "1eb60170cb2326a833301e07189dc11987df926e51790eb7650b07197453568f2dbdb299bba2f28fc4619f35e230a6d78a5daee834145ec663c23b744ac5da30"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Authen--SASL \
@@ -50,11 +50,10 @@ perl-Authen--SASL--Perl--DIGEST-MD5 \
 perl-Authen--SASL--Perl--EXTERNAL \
 perl-Authen--SASL--Perl--GSSAPI \
 perl-Authen--SASL--Perl--LOGIN \
-perl-Authen--SASL--Perl--Layer \
 perl-Authen--SASL--Perl--PLAIN \
 perl-Authen-SASL"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Digest--HMAC-MD5"
 
 inherit rpm

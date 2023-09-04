@@ -9,8 +9,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.22"
 
-RPM_NAME = "perl-DBD-MariaDB-1.22-1.12.aarch64.rpm"
-RPM_HASH = "784c7cd9cefa10fc4405abe13070716adaa8d5a2dfde0be1ec931a938faffb14f2aaa4fe4aac525ca9e0dd411e4ee2c3ddf102b2279f45b6d2e972875e33482f"
+RPM_NAME = "perl-DBD-MariaDB-1.22-1.13.aarch64.rpm"
+RPM_HASH = "52a34d9a986a29520210460b81836e79f1e917ce91637d08be0697e4a0cf9c59f5e86dbdcfbcb0821279b9aad57cdd6adf80251d1c962ba7dbf54ddb05078b44"
 
 RPROVIDES:${PN} += "perl-DBD--MariaDB \
 perl-DBD-MariaDB"
@@ -18,7 +18,7 @@ perl-DBD-MariaDB"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libmariadb.so.3 \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-DBI \
 perl-DynaLoader \
 perl-strict \

@@ -3,10 +3,10 @@ DESCRIPTION = "Provides tools to generate documentation in various format from D
 Development files."
 LICENSE = "LGPL-2.1-or-later & MIT"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kdoctools-devel-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "e61d076f00d604467ad4f0239fe6891a03a9bda3cfa93481ea3e369c0f40bc3cbeb3a7b2e30b49f6945203b9f57926650cf2f5439e62eba3c19b3cc578eb95c6"
+RPM_NAME = "kdoctools-devel-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "abf8eb4176248a944aa10401bef81c3058cfc58a200b58818d7ed52ed82a58238101d4795dbcfb5006c64a26cb054aa6665d6398e5e128f83e6b70cf4fb11ac3"
 
 RPROVIDES:${PN} += "cmake-KF5DocTools \
 kdoctools-devel \

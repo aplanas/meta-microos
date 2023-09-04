@@ -16,8 +16,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.710"
 
-RPM_NAME = "perl-Dancer2-Plugin-Auth-Extensible-0.710-1.10.noarch.rpm"
-RPM_HASH = "b44b428973e7f462a2b8d2a24ea89b79b7b892976814c469164694e41a871a9e48f0b2705c9481b405076df47e7f1f4331d94dc42e23ed6f0bff2553c2882b1e"
+RPM_NAME = "perl-Dancer2-Plugin-Auth-Extensible-0.710-1.11.noarch.rpm"
+RPM_HASH = "82a698a52d712f037e09fb8e408a2bb48d1eec538c2970e01ab4c0e0052ed57da32c8301384258655307d9b53675f095f802ccc5f493736e52bb23b5521207d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Dancer2--Plugin--Auth--Extensible \
@@ -30,7 +30,7 @@ perl-Dancer2--Plugin--Auth--Extensible--Test--App \
 perl-Dancer2-Plugin-Auth-Extensible"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Crypt--SaltedHash \
 perl-Dancer2 \
 perl-Dancer2--Core--Types \

@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "6.720.0"
 
-RPM_NAME = "perl-libwww-perl-6.720.0-1.1.noarch.rpm"
-RPM_HASH = "0e1636f8d55f00f09556f92950762356e36dc65b757b07fd0e9a871ce70f05116fe6cd5cdd37b81770cd71746b105be4b30db625aec6ab0f69b7427ab7cbc243"
+RPM_NAME = "perl-libwww-perl-6.720.0-1.2.noarch.rpm"
+RPM_HASH = "3d6e89a309a321eaeb355a4cc58ddcdfc8831029cc3de21080d142d88663b8a38530f5089a78195ceb4835c3b50c6c8d342608f1e779891a0709752d3bbef6c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-LWP \
@@ -34,7 +34,7 @@ perl-LWP--UserAgent \
 perl-libwww-perl"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Encode--Locale \
 perl-File--Listing \
 perl-HTML--Entities \

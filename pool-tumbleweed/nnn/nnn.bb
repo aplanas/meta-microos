@@ -4,10 +4,10 @@ shortcuts for navigation, opening files and running tasks. There is \
 no config file and MIME associations are hard-coded."
 LICENSE = "BSD-2-Clause"
 
-PV = "4.8"
+PV = "4.9"
 
-RPM_NAME = "nnn-4.8-1.2.aarch64.rpm"
-RPM_HASH = "94fd3b619ef551925090ad8714b392e07b1bc929b3436d70722e96fc2cced28b0024c909eafc36fa2374c82422e6bd17e2043b1e31f1d8e32bd0ae5e54297583"
+RPM_NAME = "nnn-4.9-1.1.aarch64.rpm"
+RPM_HASH = "e33fc666a2a3f645863283816417da5c806fe34437cce96b0ee4c9102b8b356acf9e8a3d2d028f1b4523c1333469dace18df3360bb11d9c9c2b9c4ca80a00cb8"
 
 RPROVIDES:${PN} += "nnn"
 

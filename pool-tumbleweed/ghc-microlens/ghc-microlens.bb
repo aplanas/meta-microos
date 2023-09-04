@@ -60,15 +60,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.13.1"
 
-RPM_NAME = "ghc-microlens-0.4.13.1-2.2.aarch64.rpm"
-RPM_HASH = "20a9d980689e0af4972d80693ff8ddf8d3f2884d5153929e1f6e089fd062def81210ed77f9751e84eca1bb09714c3914fdd57096f6a28d194994209d0c3a8c10"
+RPM_NAME = "ghc-microlens-0.4.13.1-2.3.aarch64.rpm"
+RPM_HASH = "c9e95523f22bb47781f932fe9dbbbe832f36a9e5d8770de6f0e4785513a27693b094e79bb9d844853e5e84d28f3407c76a3eeae1d20db6445f7ce1590e2bc6b9"
 
 RPROVIDES:${PN} += "ghc-microlens \
-libHSmicrolens-0.4.13.1-ARwI8t2x86cAxRs56XPcG1-ghc9.4.5.so"
+libHSmicrolens-0.4.13.1-4XtL5z7DHHC7UZaR6xNDY3-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

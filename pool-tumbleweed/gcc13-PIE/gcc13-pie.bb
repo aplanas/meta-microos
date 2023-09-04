@@ -5,10 +5,10 @@ Independend Executable (PIE) variant. This enables better address \
 space randomization (ASLR)."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7597"
+PV = "13.2.1+git7683"
 
-RPM_NAME = "gcc13-PIE-13.1.1+git7597-1.1.aarch64.rpm"
-RPM_HASH = "53a3e1cbd288eb27a68593b19b72bf43993e2755502456941d4d585da7f1ba907a57827e9fdcab2ea23a4ecd9b717629a6a2ce93538fb65f3bc9a335e98b82b4"
+RPM_NAME = "gcc13-PIE-13.2.1+git7683-1.1.aarch64.rpm"
+RPM_HASH = "0cc2bdadff7cebaaea9a2543762a7a9284abf32b616f296b19496fd0377983cd0c68adefe1300a9e58e2af1779a55bbed879934d2f1ef97f8fc5718832603fd7"
 
 RPROVIDES:${PN} += "gcc13-PIE"
 

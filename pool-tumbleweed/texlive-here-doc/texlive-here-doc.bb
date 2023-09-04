@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.209.svn16135"
 
-RPM_NAME = "texlive-here-doc-2023.209.svn16135-54.1.noarch.rpm"
-RPM_HASH = "e1ab29aa4a8f2b37fdd013a545d14ea41683b383177d1828e119afc4f174a34ed894d596faeb3b9a40b657db2c697bb0f3fe078af80e5d2e6dc5163646c1db21"
+RPM_NAME = "texlive-here-doc-2023.209.svn16135-54.2.noarch.rpm"
+RPM_HASH = "d3f7204855a2ccb5c59c00aa364743fc34877b6e4cc60b5b7fb8a0744b2ec10ab75e1c026a504da4eaf991fa6dfe38b1d8baa9476706a89a230d06d512860c82"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-here-doc"

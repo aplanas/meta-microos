@@ -5,10 +5,10 @@ renderer. It is based on the core rendering algorithms and ideas \
 of mpv."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "6.292.0"
+PV = "6.292.1"
 
-RPM_NAME = "libplacebo292-6.292.0-1.1.aarch64.rpm"
-RPM_HASH = "9477b6e8c4a9f6d7d7a5c3ab4a872840ddc27d005ebc43c3853f77a3e74cfbd0fb29eab1038faf463e8847a5e01f8c9a7e333b87d625c8d97f7e73b7701224e2"
+RPM_NAME = "libplacebo292-6.292.1-1.1.aarch64.rpm"
+RPM_HASH = "71f24cb8e118fe63e42b6362b3b2176900efc1806054d48dd77932ef6a55591d6ff62533a7601ac9bdc231ecefb5951ee6517df47e078130117c26caef644eef"
 
 RPROVIDES:${PN} += "libplacebo.so.292 \
 libplacebo292"

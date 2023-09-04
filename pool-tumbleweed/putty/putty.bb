@@ -8,10 +8,10 @@ to xterm, 'plink' is just the (console-based) SSH client similar to \
 openssh, and 'putty' is the program that combines both in one."
 LICENSE = "MIT"
 
-PV = "0.78"
+PV = "0.79"
 
-RPM_NAME = "putty-0.78-1.4.aarch64.rpm"
-RPM_HASH = "cc3ce275beb3b85d4034f371a416995c43c8ac706829c9986b337fcf6f7c1a14b8b223cc4d95d690ce7d603deaf7d1c51f789fb39175b06b07510828f5425b61"
+RPM_NAME = "putty-0.79-1.1.aarch64.rpm"
+RPM_HASH = "0633ce78cc8087ea1c4a08d286a776f0ad1d7bf90bfc1245d34135e249d3c40b2bc656701d46e1c75eafa37d2ba515b9926f60d4a2cf068fc0f4f314419a26a0"
 
 RPROVIDES:${PN} += "putty"
 

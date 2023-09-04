@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-lmsensors-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "a687dddb54946e3118a080ed8889df355b55834f7c5f7891acfe733c78eae1d90f32efdbd41841d26cfb145f2453b25340a20c49fb3cf971d20fca0bb3b8bb86"
+RPM_NAME = "pcp-pmda-lmsensors-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "4d37b1783affe333a1d5064d0484ad8e4f25818e7320f12a3d85f1ae3f79700507b69cb74a6ac81ea3057130e5c0d86442958c64e87b9e2a1f0a062e26eda879"
 
 RPROVIDES:${PN} += "pcp-pmda-lmsensors"
 

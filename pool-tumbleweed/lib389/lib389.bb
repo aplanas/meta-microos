@@ -3,10 +3,10 @@ DESCRIPTION = "Python library for interacting with and administering 389 \
 Directory Server instances locally or remotely."
 LICENSE = "GPL-3.0-or-later & MPL-2.0"
 
-PV = "2.4.0~git18.37ec5cd"
+PV = "2.4.0~git74.4297d88"
 
-RPM_NAME = "lib389-2.4.0~git18.37ec5cd-1.3.aarch64.rpm"
-RPM_HASH = "e7981493cf0d2e950a4b48daf88b8543aee3ae2df0fcd64d4fde17285952cdecde162274a51bca010e61b2481b3982df2d248161d6b31364c180ccf81624a6dc"
+RPM_NAME = "lib389-2.4.0~git74.4297d88-1.1.aarch64.rpm"
+RPM_HASH = "bb1088cae3b656a936379b020f00a311a44991f27c17ffedddfdd6e4e6ccfb091d78f1c1e12ce0f8626f6f22e1c86b7aca1f79dd4e95154cc46ab2f6801f4265"
 
 RPROVIDES:${PN} += "lib389 \
 python3-lib389 \

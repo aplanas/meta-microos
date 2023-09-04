@@ -4,10 +4,10 @@ DESCRIPTION = "KiCad is a software suite used for Electronic Design Automation (
 This is the project templates package for KiCad."
 LICENSE = "CC-BY-SA-4.0"
 
-PV = "7.0.5"
+PV = "7.0.6"
 
-RPM_NAME = "kicad-templates-7.0.5-1.1.noarch.rpm"
-RPM_HASH = "08501fd86731bd3fcf66a9258497a671e8396fbdb692e2529c0d9c5379c64f1ca4d5b8131521b3969fcc8ac5faf499982f818da2fa6cbd5ecaac43e3a37d0eb9"
+RPM_NAME = "kicad-templates-7.0.6-1.1.noarch.rpm"
+RPM_HASH = "9ddedf84517486c606458df606c6a6c8f9f5538858ae8136b88684ef4dd208ca0394554d6b1d01311fe3a53eacba8ba1c105e37da5629f95343d799c6648d565"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kicad-library-/usr/share/kicad/template/Arduino-Fio/fp-lib-table \

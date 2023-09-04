@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.1.3svn29349"
 
-RPM_NAME = "texlive-eco-2023.209.1.3svn29349-54.1.noarch.rpm"
-RPM_HASH = "0eb0bc5b6556a893960375a5bc55656ae4b5bfbd5ac0633b9317aeb3cb0fe6bb15ed3feeff21d127d55e3cfe4e2598677361a8ca36ef54b72fb630f28492487b"
+RPM_NAME = "texlive-eco-2023.209.1.3svn29349-54.2.noarch.rpm"
+RPM_HASH = "cb7cb4d4b95fcd987afb889fbeeda5fcb26ec60806309eed70711fb99e3ba4d166692f6296cf995dfa589d704b225028964b77fffb76bbc7513b1d7687f26b3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-T1cmodh.fd \

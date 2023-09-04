@@ -5,8 +5,8 @@ LICENSE = "Apache-1.0"
 
 PV = "2023.209.svn32677"
 
-RPM_NAME = "texlive-easy-todo-2023.209.svn32677-54.1.noarch.rpm"
-RPM_HASH = "e52a64296e5cac7a39d5698ffd57ad7e1e52bfe6dbaa76fc779fdafc3a6179ca480f931016d47fe5b8387bcb9579d8c62477169cde93be4ce160c394dc521bc0"
+RPM_NAME = "texlive-easy-todo-2023.209.svn32677-54.2.noarch.rpm"
+RPM_HASH = "530cd756f3641a4448a601661346e048fc5bc2ef0e3a0d6e195fdc6d80436ae988b9c50e734006c733c94144f70ada01872e6988697a5b07bc2a3574e5ba92db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-easy-todo.sty \

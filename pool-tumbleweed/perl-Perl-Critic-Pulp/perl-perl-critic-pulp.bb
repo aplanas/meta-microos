@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "99"
 
-RPM_NAME = "perl-Perl-Critic-Pulp-99-1.11.aarch64.rpm"
-RPM_HASH = "df0504affdb94823fd63d255e178b039b4df902fffcf1e992280b8c2566c8ec8edf2e5e88fd070605bb30dd772ed58e823dc72f0008ee2152cffeaee7bc92f0d"
+RPM_NAME = "perl-Perl-Critic-Pulp-99-1.12.aarch64.rpm"
+RPM_HASH = "2dfa7e1e10c24cf765e25c979ff6502ed6f334fae384719bdb1b108cf6a1dccee08125e3f6aa518b89999def70e71193477aad81efb63c9371236d1335429107"
 
 RPROVIDES:${PN} += "perl-Perl--Critic--PodParser--ProhibitVerbatimMarkup \
 perl-Perl--Critic--Policy--CodeLayout--ProhibitFatCommaNewline \
@@ -67,7 +67,7 @@ perl-Perl--Critic--Pulp--ProhibitDuplicateHashKeys--Qword \
 perl-Perl--Critic--Pulp--Utils \
 perl-Perl-Critic-Pulp"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-IO--String \
 perl-List--MoreUtils \
 perl-PPI \

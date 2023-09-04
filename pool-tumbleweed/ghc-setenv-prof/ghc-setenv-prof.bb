@@ -4,13 +4,13 @@ LICENSE = "MIT"
 
 PV = "0.1.1.3"
 
-RPM_NAME = "ghc-setenv-prof-0.1.1.3-12.2.aarch64.rpm"
-RPM_HASH = "0a399918268d7e1318ef7e69d4b7bfa2bc951a18dec8b828747641b21dee1faa8b5ee3e64dad8dca2fe5f4bbc5004ee96dba882e21f206dee48a10767c3695db"
+RPM_NAME = "ghc-setenv-prof-0.1.1.3-12.3.aarch64.rpm"
+RPM_HASH = "c72dc29d73b1015799664a00bfe6da227d69cc3d37fe55ffb61114c67e529d1233070c21e341326eb8ee226e9d2fe9fb92649f668c42184aa5bdd01605e22c94"
 
-RPROVIDES:${PN} += "ghc-prof-setenv-0.1.1.3-5NpDWBw9aN36gdxnY8UI9x \
+RPROVIDES:${PN} += "ghc-prof-setenv-0.1.1.3-5X2tG8kGRXiEiTQvekWgx7 \
 ghc-setenv-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
 ghc-prof-unix-2.7.3 \
 ghc-setenv-devel"
 

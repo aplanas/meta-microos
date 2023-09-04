@@ -4,10 +4,10 @@ includes views for categorizing lists and to add search filters to flat and \
 hierarchical lists. Development files."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kitemviews-devel-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "75d9939d72d67a335874b5870b220fea20d5a7bbee11028f222e36ff9f35e731e20e59c144f0fc95de077f10e91b2baf6a16848e739364bfb81dab9599adebb4"
+RPM_NAME = "kitemviews-devel-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "68bddc2b1c1ada8c323d117987e0f5464425afce6819d19063e21e5efac00acdf1528d05bb1f9d4910230d5fd68f933b3af769a2795c9f51a80728687c083743"
 
 RPROVIDES:${PN} += "cmake-KF5ItemViews \
 kitemviews-devel"

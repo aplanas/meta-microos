@@ -10,15 +10,15 @@ LICENSE = "GPL-1.0+"
 
 PV = "0.23"
 
-RPM_NAME = "perl-XML-Handler-YAWriter-0.23-5.27.noarch.rpm"
-RPM_HASH = "3608b71db948c21382c64dd849a01086e350cb5dd515f8e18fd616610c6e401fd86f2bbae66d7b72cb91735190b92a61f0c05773b34e75ed5fdf35e0f42e5671"
+RPM_NAME = "perl-XML-Handler-YAWriter-0.23-5.28.noarch.rpm"
+RPM_HASH = "f889ac3c9c7e9d00e91fbdf80c2ccd771bc13c6b530753486aad978e5e54dc5b5608418b83054847442a27a95999d347ee044f318dce8d943991a836459cd599"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--Handler--YAWriter \
 perl-XML-Handler-YAWriter"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-XML--Parser--PerlSAX"
 
 inherit rpm

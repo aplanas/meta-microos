@@ -2,10 +2,10 @@ SUMMARY = "The python pandas[mysql] extra"
 DESCRIPTION = "This package provides the [mysql] extra for python-pandas"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.2"
+PV = "2.0.3"
 
-RPM_NAME = "python311-pandas-mysql-2.0.2-4.1.noarch.rpm"
-RPM_HASH = "ca9f3f75de0c0895a874bebb28be2e5a0b6f1f3ab490e78c7e59a7c636466703e7bf545ac68948f89f4209d10a672e664cabeccf67e937bbd7524241ee4272b6"
+RPM_NAME = "python311-pandas-mysql-2.0.3-1.2.noarch.rpm"
+RPM_HASH = "7c831a33c01de4b6592096d0b5e62fd001c1c559540ba565224666b083286b7da19be38b2c0c42ce5c84686a41ec6520265522827e03c6557763d67eb2a20941"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pandas-mysql \

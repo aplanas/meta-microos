@@ -3,10 +3,10 @@ DESCRIPTION = "Rygel is a home media server that allows sharing audio, video, \
 pictures, and control of media player on your home network."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "0.42.3"
+PV = "0.42.4"
 
-RPM_NAME = "typelib-1_0-RygelServer-2_8-0.42.3-2.1.aarch64.rpm"
-RPM_HASH = "bdf40546cb0ee63fce6b2b292131166a0b52195bb82d17cc40bcd9690971de014a34a7b4e48d0c9140c5ac7a442a8627616978d95ba621031705a697750d09dd"
+RPM_NAME = "typelib-1_0-RygelServer-2_8-0.42.4-1.1.aarch64.rpm"
+RPM_HASH = "eb2f903b9e381f795b90bb584057291da0a1d8efc1eadd794ffc71ff25d1a595c1063679f537dc7e2a0a40c93b682200734b5538e0f5b15a213e7489fb6dac0d"
 
 RPROVIDES:${PN} += "typelib-1-0-RygelServer-2-8 \
 typelib-RygelServer"

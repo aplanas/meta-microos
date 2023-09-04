@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "2.0.19"
 
-RPM_NAME = "python310-SQLAlchemy-2.0.19-1.1.aarch64.rpm"
-RPM_HASH = "1352eb1cce6655c11029e3dd4b552ac30d3a6ea4bce1523a3f79459ffb832fff1c6f8d34ece7aa2925414445a89cb51614ac628d81df21380511c68235eb4a24"
+RPM_NAME = "python310-SQLAlchemy-2.0.19-2.1.aarch64.rpm"
+RPM_HASH = "5dcd7f3ce1462acf808946a0fb8c8fe7cb4eadc59e8b907ec696f84db40e9dd3ebcb927183987b7131714399b4586399337e567b20a0d6c4d15face737ddb92b"
 
 RPROVIDES:${PN} += "python3.10dist-sqlalchemy \
 python310-SQLAlchemy \

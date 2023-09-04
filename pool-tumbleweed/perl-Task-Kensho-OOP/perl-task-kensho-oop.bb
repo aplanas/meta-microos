@@ -33,14 +33,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.41"
 
-RPM_NAME = "perl-Task-Kensho-OOP-0.41-1.10.noarch.rpm"
-RPM_HASH = "1728df779d5edbc082e5dab18cc3adc61ca1c2ead360f18087d5c09fee592269c4e5799015bc2fe436b5a19151e5089d9d59f8547747a0712f9f7c5994ca3d5b"
+RPM_NAME = "perl-Task-Kensho-OOP-0.41-1.11.noarch.rpm"
+RPM_HASH = "720c88d0996e2fafa4a25a4ea3d0b2908f565ee9ebfd598854eee173fecc2872f4ec3c35beb52e7d8c2f2bbb4df95e20d90903e255535f90291311de4584adbb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Task--Kensho--OOP \
 perl-Task-Kensho-OOP"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Moo \
 perl-Moose \
 perl-MooseX--Aliases \

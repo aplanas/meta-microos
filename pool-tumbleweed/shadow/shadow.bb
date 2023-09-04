@@ -4,10 +4,10 @@ password files to the shadow password format and to manage user and \
 group accounts."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
-PV = "4.13"
+PV = "4.14.0"
 
-RPM_NAME = "shadow-4.13-6.3.aarch64.rpm"
-RPM_HASH = "50f9aad17a1c180cbbf8b7535c5d250456294392caf8fb60cda76146cadc520200669008326fb383b4599bcb2ad05ec054bc2f2b934b9d17d7169c9546f6202f"
+RPM_NAME = "shadow-4.14.0-1.1.aarch64.rpm"
+RPM_HASH = "54e56303e0873d027dc40cf9021e0031187e8b8e1dde7b488f28937bf7832c1631a3a4cd58a958b73332c14abc83a6573cd3a41742eed9210f63e63104c213b8"
 
 RPROVIDES:${PN} += "config-shadow \
 pwdutils \

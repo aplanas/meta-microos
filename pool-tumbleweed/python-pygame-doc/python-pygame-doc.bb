@@ -2,10 +2,10 @@ SUMMARY = "Pygame documentation and example programs"
 DESCRIPTION = "This package contains documentation and example programs for Pygame."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.1.3"
+PV = "2.5.0"
 
-RPM_NAME = "python-pygame-doc-2.1.3-2.2.aarch64.rpm"
-RPM_HASH = "4823521fe4255c569f1b22d7e83eebbe16ca124ae05616a67cb48d1c5a68a49f2b4860fe01851ab9157f1eb86a2db102b85cdb709587e1bdfddd331d6b6ad979"
+RPM_NAME = "python-pygame-doc-2.5.0-1.1.aarch64.rpm"
+RPM_HASH = "3054719a7a1608b1dbdeef00a0a4ed2ffdaf38ec2df07dff97335213d1c70df23205e4ef02415a44b0a9ba2395c9becfc3b4cbffdde42e9f956cb0319fc94fe9"
 
 RPROVIDES:${PN} += "pygame-doc \
 python-pygame-doc \

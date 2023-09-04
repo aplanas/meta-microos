@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn25860"
 
-RPM_NAME = "texlive-exceltex-bin-2023.20230311.svn25860-93.1.aarch64.rpm"
-RPM_HASH = "953939db130db41ace88c716a6723d5dc643ff63e8727b0e574ede582f4b1dac5b719d333be6cdf0764c97ef66601f25488ba52b6dd323b2bf3dbd636cdc916c"
+RPM_NAME = "texlive-exceltex-bin-2023.20230311.svn25860-93.2.aarch64.rpm"
+RPM_HASH = "726f8ead662b4e39634d4003854d5fc2ec4cacecea7660724305fe7c8ae4fa126f0810d4da802b012a15c1785b1436c0909c3b9f5c017fa6eb15ba4103e7d9e1"
 
 RPROVIDES:${PN} += "texlive-exceltex-bin"
 

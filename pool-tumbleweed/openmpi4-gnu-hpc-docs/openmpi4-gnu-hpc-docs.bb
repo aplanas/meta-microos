@@ -1,17 +1,17 @@
-SUMMARY = "Dependency package for openmpi_4_1_4-gnu-hpc-docs"
+SUMMARY = "Dependency package for openmpi_4_1_5-gnu-hpc-docs"
 DESCRIPTION = "openmpi: An implementation of MPI/SHMEM (Version 4) \
-The package openmpi4-gnu-hpc-docs provides the dependency to get binary package openmpi_4_1_4-gnu-hpc-docs. \
-When this package gets updated it installs the latest version of openmpi_4_1_4-gnu-hpc."
+The package openmpi4-gnu-hpc-docs provides the dependency to get binary package openmpi_4_1_5-gnu-hpc-docs. \
+When this package gets updated it installs the latest version of openmpi_4_1_5-gnu-hpc."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.1.4"
+PV = "4.1.5"
 
-RPM_NAME = "openmpi4-gnu-hpc-docs-4.1.4-2.3.noarch.rpm"
-RPM_HASH = "d7061e8dbb4a63606eda3ac5a51959b37cc4519a02f705d21c01f452f355bebe3f2ee4b8b6e7d761cadd41a457ec236bb7518505b698cefee0dd8f8451b4d937"
+RPM_NAME = "openmpi4-gnu-hpc-docs-4.1.5-2.1.noarch.rpm"
+RPM_HASH = "87ffc9442e5e03ce272b42f0b18bcc4316b70fd0f4a11140822196c1df925cbd5b4c1c1fa96b29498941effc24469e23cae804329550efd6fed4a83e287659be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openmpi4-gnu-hpc-docs"
 
-RDEPENDS:${PN} += "openmpi-4-1-4-gnu-hpc-docs"
+RDEPENDS:${PN} += "openmpi-4-1-5-gnu-hpc-docs"
 
 inherit rpm

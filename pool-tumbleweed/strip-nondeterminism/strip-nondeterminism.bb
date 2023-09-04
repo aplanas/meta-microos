@@ -12,8 +12,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.13.1"
 
-RPM_NAME = "strip-nondeterminism-1.13.1-1.1.noarch.rpm"
-RPM_HASH = "26d0c97f13eada6da93851ab878fd00d928280b73956c613c6e0cc889911dd7d85af3c688498d7e8021e732f912274d7d2b96c78cc482984ca08f0e5ee5f260d"
+RPM_NAME = "strip-nondeterminism-1.13.1-1.2.noarch.rpm"
+RPM_HASH = "292edf157731af23cfdf0d7933dca94126dae4f9b341b01c316b7862e5c7a55f77902534591c4ebd6aee95d473d0d0d823ac4e486662e5748c0c75a7a292817b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--StripNondeterminism \
@@ -36,7 +36,7 @@ strip-nondeterminism"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/sh \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Archive--Zip \
 perl-Sub--Override \
 perl-base"

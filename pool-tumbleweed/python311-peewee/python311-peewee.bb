@@ -2,10 +2,10 @@ SUMMARY = "An expressive ORM that supports multiple SQL backends"
 DESCRIPTION = "An expressive ORM that supports PostgreSQL, MySQL and SQLite."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.16.2"
+PV = "3.16.3"
 
-RPM_NAME = "python311-peewee-3.16.2-1.3.aarch64.rpm"
-RPM_HASH = "a1081be0a240d75bc66d0fd6b4ab52bceefa2c1ea5b6d45a7735192c096987928a091cb299b24a083801828bf0ac0eea97a56c64ea7a1fe99d5ce7632c92d76c"
+RPM_NAME = "python311-peewee-3.16.3-1.1.aarch64.rpm"
+RPM_HASH = "e2e3e8caaacbf2eb8090faaac55519a2dfe3aff69d5dfd8d9c46b255c9bcff629d96c3f2a1d1bcef2dee417b4fbd9c3ec77d95f81dde8f73abf9e10cae675bf2"
 
 RPROVIDES:${PN} += "python3-peewee \
 python3.11dist-peewee \

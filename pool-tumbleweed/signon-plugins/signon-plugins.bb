@@ -4,10 +4,10 @@ DESCRIPTION = "This package contains the following plugins for the Single Sign O
 - Test plugin"
 LICENSE = "LGPL-2.0-only"
 
-PV = "8.60"
+PV = "8.61"
 
-RPM_NAME = "signon-plugins-8.60-2.19.aarch64.rpm"
-RPM_HASH = "407075f95e2e3d7750d8b63043cad00ae0111e1d6ad2d998f4a5f739daf81420ef724f05b6d9245b2063adb9033f424eb303d3a3b2287e0aff36f749c04d9e1c"
+RPM_NAME = "signon-plugins-8.61-1.1.aarch64.rpm"
+RPM_HASH = "917faec5066b50f3c56fd00e6124f4fe2e0d505934d9ffa80e71b417635c3da738c3d4110fb6bd52ecfd60562468ce283f94e6089f73202de8c4afdc5cd96434"
 
 RPROVIDES:${PN} += "libexampleplugin.so \
 libpasswordplugin.so \

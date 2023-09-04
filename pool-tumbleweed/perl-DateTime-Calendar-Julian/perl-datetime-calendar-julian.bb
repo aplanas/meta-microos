@@ -6,14 +6,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.107"
 
-RPM_NAME = "perl-DateTime-Calendar-Julian-0.107-1.8.noarch.rpm"
-RPM_HASH = "022d5926ed32e1c759b04cbf75af1f136ad43fcd735c46acd583a848dda31743d65fed82320ca167dc64fbd3fc839d102235911237091f383c2a0d0e23fcc847"
+RPM_NAME = "perl-DateTime-Calendar-Julian-0.107-1.9.noarch.rpm"
+RPM_HASH = "63ed57519392d38d61afb30d67477c9a9cc84d8a42fd6ce89eaa0ece0a0f179e5ac1ad8e79bd1ca7c3be9a0deb69a422ca9815473204062580bc3ab6ae02841e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DateTime--Calendar--Julian \
 perl-DateTime-Calendar-Julian"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-DateTime"
 
 inherit rpm

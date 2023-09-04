@@ -15,10 +15,10 @@ name conflicted with another project. \
 dfVFS is currently implemented as a Python module."
 LICENSE = "Apache-2.0"
 
-PV = "0~20221224"
+PV = "0~20230531"
 
-RPM_NAME = "python311-dfVFS-0~20221224-3.1.noarch.rpm"
-RPM_HASH = "2de94627b4a621dbf3266cc8a5b182a871390f98c343a2811dcf6c9148d9864ee2004ef06b79660c660803fa142718c69494c03a47169711af2b72d9025572ec"
+RPM_NAME = "python311-dfVFS-0~20230531-1.1.noarch.rpm"
+RPM_HASH = "6014affeafa653854be3a15c4922f9b2319a87575b2594a680505194a43d474b292d9a924f1a17491a557451015d00546abd7d27072e13bf037dbcfa91cb5ba3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dfVFS \
@@ -52,6 +52,7 @@ python311-libsmdev \
 python311-libsmraw \
 python311-libvhdi \
 python311-libvmdk \
+python311-libvsapm \
 python311-libvsgpt \
 python311-libvshadow \
 python311-libvslvm \

@@ -7,10 +7,10 @@ should only use 'serbian' which has patterns in both scripts \
 combined."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.208.1.0asvn58609"
+PV = "2023.209.1.0asvn58609"
 
-RPM_NAME = "texlive-hyphen-serbian-2023.208.1.0asvn58609-53.1.noarch.rpm"
-RPM_HASH = "7330d529e73fd3c5042e9db9127587fbe3be253c05664e8a90e93dd4514d4ff06c7783e4365c7e324a8a3460130b9a335444bdbf37e1deb12a291ab865661fa3"
+RPM_NAME = "texlive-hyphen-serbian-2023.209.1.0asvn58609-54.1.noarch.rpm"
+RPM_HASH = "859a142db48661573d422b49a35bac067beb2037bba4be013d0da6da2db784cbf8cd2602bba397aa02ba48cb8d273ca845fb908d06a1e200586afe56fc5d6fdb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-sh-cyrl.t2a.tex \

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.3"
 
-RPM_NAME = "ghc-word8-doc-0.1.3-5.6.noarch.rpm"
-RPM_HASH = "3bab1073a225a8d99aa2a37c921383f7c58f1e983d32b825a9f5789aa449c302ffe86ddb4eec5e681f0a44232274127346999a9ac7a7b48693ea0cc2983d972c"
+RPM_NAME = "ghc-word8-doc-0.1.3-5.8.noarch.rpm"
+RPM_HASH = "f98572948f7dd6a69c928a0d75ccb6a0bb0566803111ed9baf6f312b2a04136de3796bcdf31db379de9835405351d32331e41d2ac5b4430242b7eb797972d92a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-word8-doc"

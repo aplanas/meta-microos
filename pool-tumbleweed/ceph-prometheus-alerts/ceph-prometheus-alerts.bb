@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause
 
 PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "ceph-prometheus-alerts-16.2.13.66+g54799ee0666-3.1.noarch.rpm"
-RPM_HASH = "f5910bd6ad178f1553fce95a034bae0bad36461672c0d16e777fa6fe3ad34d9e7cd5dd80199f6311393c1ccf655b9ffaf8bb9624900a01ed3c3707373377fbc8"
+RPM_NAME = "ceph-prometheus-alerts-16.2.13.66+g54799ee0666-4.1.noarch.rpm"
+RPM_HASH = "d5666b0ece484f84e77c5be425cf7cb8c4e18b6a29872852f654661ecdfc97413e04ac02dfbbeb723c0179327a6ee16bf940387da33013027b3f057f1462f6d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ceph-prometheus-alerts \

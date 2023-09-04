@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.3svn66272"
 
-RPM_NAME = "texlive-pxjahyper-2023.209.1.3svn66272-54.1.noarch.rpm"
-RPM_HASH = "4d45a9fbb07cc0d49cf99a5e03ad66c380a97b8297f1fb2246d5d3f83f255344a4b1890f059722c1aa9fc8850b3e19e697c8c608e065a0e15d4dbaaf4dcf322c"
+RPM_NAME = "texlive-pxjahyper-2023.209.1.3svn66272-54.2.noarch.rpm"
+RPM_HASH = "22137556440cdf143fe397f36b1de4dd68a7ec7d473715cf4a71506b9ab9567c1a1df92ba9cd57b1524311ddefe3a9026392ff888c9876895517a9ff9c36da19"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pxjahyper-ajm.def \

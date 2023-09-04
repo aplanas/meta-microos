@@ -2,10 +2,10 @@ SUMMARY = "A new markup-based typesetting system that is powerful and easy to le
 DESCRIPTION = "Typst is a new markup-based typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use."
 LICENSE = "Apache-2.0"
 
-PV = "0.6.0"
+PV = "0.7.0"
 
-RPM_NAME = "typst-0.6.0-1.1.aarch64.rpm"
-RPM_HASH = "0b33cead39dc8079ddbdc573701fb355a736680883ee8b67102d5a5eca193ce7100242210fdb92dc215b9d045f62f4eb2b19bd8a947cba98f462a70d1ed4137a"
+RPM_NAME = "typst-0.7.0-1.1.aarch64.rpm"
+RPM_HASH = "7c73ea7143c18aa76d89fc6eb83b4798e26e329910cbe356da03a8704777e57531428f90b451d8f177cfcc2b83e63666f0d61e5a807d3f2977d6dc4232f33b76"
 
 RPROVIDES:${PN} += "bundled-rust-crate-adler \
 bundled-rust-crate-ahash \
@@ -53,6 +53,7 @@ bundled-rust-crate-csv \
 bundled-rust-crate-csv-core \
 bundled-rust-crate-dashmap \
 bundled-rust-crate-data-url \
+bundled-rust-crate-deranged \
 bundled-rust-crate-dirs \
 bundled-rust-crate-dirs-sys \
 bundled-rust-crate-displaydoc \
@@ -109,6 +110,7 @@ bundled-rust-crate-lazy-static \
 bundled-rust-crate-lebe \
 bundled-rust-crate-libc \
 bundled-rust-crate-libm \
+bundled-rust-crate-line-wrap \
 bundled-rust-crate-linked-hash-map \
 bundled-rust-crate-linux-raw-sys \
 bundled-rust-crate-lipsum \
@@ -130,6 +132,7 @@ bundled-rust-crate-num-integer \
 bundled-rust-crate-num-rational \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-numerals \
+bundled-rust-crate-oklab \
 bundled-rust-crate-once-cell \
 bundled-rust-crate-open \
 bundled-rust-crate-option-ext \
@@ -146,6 +149,7 @@ bundled-rust-crate-pin-project \
 bundled-rust-crate-pin-project-internal \
 bundled-rust-crate-pin-project-lite \
 bundled-rust-crate-pixglyph \
+bundled-rust-crate-plist \
 bundled-rust-crate-png \
 bundled-rust-crate-postcard \
 bundled-rust-crate-ppv-lite86 \
@@ -175,6 +179,7 @@ bundled-rust-crate-rustls-webpki \
 bundled-rust-crate-rustversion \
 bundled-rust-crate-rustybuzz \
 bundled-rust-crate-ryu \
+bundled-rust-crate-safemem \
 bundled-rust-crate-same-file \
 bundled-rust-crate-scopeguard \
 bundled-rust-crate-sct \
@@ -234,6 +239,7 @@ bundled-rust-crate-typst \
 bundled-rust-crate-typst-cli \
 bundled-rust-crate-typst-library \
 bundled-rust-crate-typst-macros \
+bundled-rust-crate-typst-syntax \
 bundled-rust-crate-unic-langid \
 bundled-rust-crate-unic-langid-impl \
 bundled-rust-crate-unicode-bidi \
@@ -248,6 +254,7 @@ bundled-rust-crate-unicode-segmentation \
 bundled-rust-crate-unicode-vo \
 bundled-rust-crate-unicode-width \
 bundled-rust-crate-unicode-xid \
+bundled-rust-crate-unsafe-libyaml \
 bundled-rust-crate-unscanny \
 bundled-rust-crate-untrusted \
 bundled-rust-crate-ureq \

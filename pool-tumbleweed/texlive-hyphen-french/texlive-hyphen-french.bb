@@ -2,10 +2,10 @@ SUMMARY = "French hyphenation patterns"
 DESCRIPTION = "Hyphenation patterns for French in T1/EC and UTF-8 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn58652"
+PV = "2023.209.svn58652"
 
-RPM_NAME = "texlive-hyphen-french-2023.208.svn58652-53.1.noarch.rpm"
-RPM_HASH = "1da1a38bd0a38f28f8f2bbaca1a0ff8ec3e0cf24a8cbbbf090410800898364eed41c8a6b7e19868cb03580b1fc48385d0a7b930a6b3cc93d66b376e69b831a25"
+RPM_NAME = "texlive-hyphen-french-2023.209.svn58652-54.1.noarch.rpm"
+RPM_HASH = "358aa29adcdc9f323305f71cf9aa9ff603c7454232755955224667139e3f662c80354a9de5174adaa6e71f223f977215bab9402fc9ef3f9960df64a9c1b10e29"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-fr.ec.tex \

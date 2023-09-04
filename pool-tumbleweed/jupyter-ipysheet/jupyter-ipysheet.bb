@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.7.0"
 
-RPM_NAME = "jupyter-ipysheet-0.7.0-2.1.noarch.rpm"
-RPM_HASH = "bbedd69bf54440b7a6298c8d52657ab660c7cbf8b9a12baa34baa35cc66ad836ea6c6af580cb397ab77597d234e6f80ae3a50371286eabc1fc0d3311f139fa0b"
+RPM_NAME = "jupyter-ipysheet-0.7.0-3.1.noarch.rpm"
+RPM_HASH = "944211d5b7feec0d0636619fe6b31c6fc5b23b9deb695b36430f38d9c14af8a44adac2a00b506846231606aee4f4128fa616727fad442e7f75a1b94ed0af05dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipysheet"

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.0.18"
 
-RPM_NAME = "vlc-noX-3.0.18-8.1.aarch64.rpm"
-RPM_HASH = "be5d7caf6a6582b282b354e335d875cd6979941a015c122b434ddffcc1d10101a894a27b93fc5d90c9f29ddafe3bc9784ec7b23f910bd6eafed274826c0acbf3"
+RPM_NAME = "vlc-noX-3.0.18-9.1.aarch64.rpm"
+RPM_HASH = "c500ebe5c73ab71cb53bec34b294e15261f9577a5e85082bfdb5bb06dd4d52f0a3af3b7750e8afccfd1c883942ec4994a5c8eb50d48af294961739bc55d972a6"
 
 RPROVIDES:${PN} += "liba52-plugin.so \
 libaccess-alsa-plugin.so \

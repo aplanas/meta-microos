@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.1.3svn65138"
 
-RPM_NAME = "texlive-graph35-doc-2023.209.0.0.1.3svn65138-54.1.noarch.rpm"
-RPM_HASH = "7cef177a5d0257477316fa59237f1f2f94f0a7be8ca8d25ee7161b45691275c495c7a253112e123cc4c82bae47afd219b5e77b72638be0f814bc8a93df3c37de"
+RPM_NAME = "texlive-graph35-doc-2023.209.0.0.1.3svn65138-54.2.noarch.rpm"
+RPM_HASH = "9146b5115c3a56bac0f51c0a60523855a78c2f4d0d6060ef94d127b6f2fc32e841fabb6260647d88a1304a5b26493aff077fef1e1f4cf510d637661b5843ccb7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-graph35-doc-fr \

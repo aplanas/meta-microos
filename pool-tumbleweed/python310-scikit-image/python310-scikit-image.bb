@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.21.0"
 
-RPM_NAME = "python310-scikit-image-0.21.0-1.1.aarch64.rpm"
-RPM_HASH = "e842da2ad0ab2aea6036a377c53b3167b9785239b6b02008da3f48bb676a399e5e68cdab42c2f419ce420062da6544306cf2b0a485954de5013d6e3e259340e2"
+RPM_NAME = "python310-scikit-image-0.21.0-2.1.aarch64.rpm"
+RPM_HASH = "0fb19f977ab9f1fed5cbda46c0bfa60fcc1629b098196cedd1c3055c6391a364f0ebd4fc20c3b2d2e4e26ca43f1f05d8d5f7d61aaadc615634ee6a86201714f6"
 
 RPROVIDES:${PN} += "python3.10dist-scikit-image \
 python310-scikit-image \

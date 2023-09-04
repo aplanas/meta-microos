@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.61svn54080"
 
-RPM_NAME = "texlive-hhtensor-doc-2023.209.0.0.61svn54080-54.1.noarch.rpm"
-RPM_HASH = "128e8b7ef0455a9afbe98a03d55921fe6fa8752576e12d7da27ea59dfd915e0bc1550d3c56798fb6b9c6db4bd3a57927a7a27f43e89d696389444e6bf58a5f9a"
+RPM_NAME = "texlive-hhtensor-doc-2023.209.0.0.61svn54080-54.2.noarch.rpm"
+RPM_HASH = "b058f2607598780caac63010c8680cc86582fe3f9ba8030eebe0a5a3427352b9f89a260855fdc5e8027ae48458f9f091d3d2224fc4cd4e4d563d328aaf36a92a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hhtensor-doc"

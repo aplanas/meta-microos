@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "ghc-haskell-lexer-doc-1.1.1-2.6.noarch.rpm"
-RPM_HASH = "a916c003f0b3a0fd58c61cd1317cdf8416f6f3ae4e2323a7031074f026ad45c683d35ef10d4a1423a0c7b426e0a87ad1d752c8b7c0a277325a8a45e3d6deb28a"
+RPM_NAME = "ghc-haskell-lexer-doc-1.1.1-2.8.noarch.rpm"
+RPM_HASH = "5b844636eebe4c5c1d061646dcd623e1d8e9e406df25ac38b2dd966c1c639647b898c244cbb154d5d7ba68366400437643d4feb7eb9f41005b1cfa00c0c89508"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-haskell-lexer-doc"

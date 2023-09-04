@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.02svn62977"
 
-RPM_NAME = "texlive-pst-pulley-2023.209.0.0.02svn62977-54.1.noarch.rpm"
-RPM_HASH = "cd3abbfb1e568a8a424bc20cd10c0dd893cf835ab4096889a2a4e758b61dc66482040ebc550280d30fe95fa4a444a7c02b348bca4fb6675cb3618cdaa2d298ba"
+RPM_NAME = "texlive-pst-pulley-2023.209.0.0.02svn62977-54.2.noarch.rpm"
+RPM_HASH = "0b2d688539855c0519b7a73689f9f1c428939c906b967eb6128bcf8e7be75ebd731c463bc109b1ad8659a8541578b0dfa7f62b64bd2c5d83d02023e9c7e9df68"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-pulley.sty \

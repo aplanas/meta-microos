@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0.1svn60209"
 
-RPM_NAME = "texlive-elpres-2023.209.1.0.1svn60209-54.1.noarch.rpm"
-RPM_HASH = "21d632fa395dc75bf8c251c5bc97947c37e59b5b6d1486ce741af2fb8abeeb64738a144edda33f431c71629458ab9bd917a3f30fa6291e518a9f335dc445002c"
+RPM_NAME = "texlive-elpres-2023.209.1.0.1svn60209-54.2.noarch.rpm"
+RPM_HASH = "b26f576474f44383dc2851b9df158fd91e9e7ecba1d12a55ec9eeecd163ed175545e8436b02aace804fa0a94429fc93cc2c95d45fe6fdc8cde8fc81d7ec99583"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-elpres.cls \

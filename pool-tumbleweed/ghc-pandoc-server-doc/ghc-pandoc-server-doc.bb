@@ -2,10 +2,10 @@ SUMMARY = "Haskell pandoc-server library documentation"
 DESCRIPTION = "This package provides the Haskell pandoc-server library documentation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.1.0.1"
+PV = "0.1.0.2"
 
-RPM_NAME = "ghc-pandoc-server-doc-0.1.0.1-1.5.noarch.rpm"
-RPM_HASH = "f1b01c256979aa8c3c7bfc8a310327b6aaa1648d139fbacb2e36565b69c62701b6f5ffb7df6a919659bf27221d4269b3a9a984bedb76a4117ad7a58cb05e27e4"
+RPM_NAME = "ghc-pandoc-server-doc-0.1.0.2-1.2.noarch.rpm"
+RPM_HASH = "96f8d0d9090a64ef8b4394125ef6606ef4cd4127c6e4e0e9371f7fba4dff6331010e1efaad1e07a34d33cb2a84c34774e2a7a8885bc3a718e049223091511a0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-pandoc-server-doc"

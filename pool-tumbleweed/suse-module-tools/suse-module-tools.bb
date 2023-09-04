@@ -4,10 +4,10 @@ uninstallation, as well as default configuration files for depmod and \
 modprobe."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "16.0.32"
+PV = "16.0.33"
 
-RPM_NAME = "suse-module-tools-16.0.32-1.1.aarch64.rpm"
-RPM_HASH = "f5d126dee3b0b7cc4a784e59bbde4ef782bb885e8c05f9316dc62e1dee7e7daafda86eec28d49a79cb0c7d8e763fa61855db1e565708ad1791ab1fe8ccbdda8a"
+RPM_NAME = "suse-module-tools-16.0.33-1.1.aarch64.rpm"
+RPM_HASH = "62e136f0ed7c5d297d716e788c1845fb3e5b81c6e4cd421e70bea53bda53621b9f22f460b864257ca015d9a7bc6c4ad743d7616a77595edc847be1123ddf7750"
 
 RPROVIDES:${PN} += "suse-module-tools \
 system-tuning-common-SUSE \

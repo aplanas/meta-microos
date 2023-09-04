@@ -2,10 +2,10 @@ SUMMARY = "Translations for package brltty"
 DESCRIPTION = "Provides translations for the 'brltty' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "6.5"
+PV = "6.6"
 
-RPM_NAME = "brltty-lang-6.5-3.1.noarch.rpm"
-RPM_HASH = "a3c9ad86e1b65e5b77cdc055391744ec2973e1535cbdeea9f278041aaed79348edff5a75a7f75e489f47babe0e5f112c85c9f2ceca50f617eb8b165ac1045d16"
+RPM_NAME = "brltty-lang-6.6-1.1.noarch.rpm"
+RPM_HASH = "eee7375b4972d4224a499798f690fcffa35ee8638b21ed3b02b96d0c422da423c1ec1b60d39b4c293ec8b9104dbb79106739fa46b2bef8255bf51f45f8fd0db9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "brltty-lang \

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.1.9.1svn29128"
 
-RPM_NAME = "texlive-refcheck-2023.209.1.9.1svn29128-54.1.noarch.rpm"
-RPM_HASH = "2fee640071f6a6eb4e3a38d4413faf65d63c23f8def34172df8488ec28022ae7ff8a44c5885b8d356c3cf6e2bac9fff76eef0a2770cac9fe7db59bf10c70a8de"
+RPM_NAME = "texlive-refcheck-2023.209.1.9.1svn29128-54.2.noarch.rpm"
+RPM_HASH = "c93367675f512fe553401bafa32252025256891de4887843e8db1dcad9a8089b95475735d61b552e0424f43370dd1af1892294f029bc5d22fcf5452eef1f61d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-refcheck.sty \

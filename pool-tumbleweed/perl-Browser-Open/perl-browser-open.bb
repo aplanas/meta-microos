@@ -14,14 +14,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.04"
 
-RPM_NAME = "perl-Browser-Open-0.04-5.27.noarch.rpm"
-RPM_HASH = "ca8e2d14fd7753b55a26e237cad62b571de6533e891384b8158555fa9fb54512c26815b663c05ca17f37d7b0b8a7cb73c9530dedc95ed0553ce6813584ec0004"
+RPM_NAME = "perl-Browser-Open-0.04-5.28.noarch.rpm"
+RPM_HASH = "5b823ecdd2059ae25f4c3a5bc705213630205c030f3d5bf9fd99b3bb23ab9461ef1cfa96a601422428d8136c5228b8599c5f4071d10e85e1f7a2f80069e0df12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Browser--Open \
 perl-Browser-Open"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Test--More \
 perl-parent"
 

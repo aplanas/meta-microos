@@ -13,8 +13,8 @@ LICENSE = "IPL-1.0"
 
 PV = "1.8.10"
 
-RPM_NAME = "openafs-client-1.8.10-1.4.aarch64.rpm"
-RPM_HASH = "72c5d21be3be27050e2b63e2412279e573140e334237f14c0585684dbcf8dcadbc1d6243cb17243cf63cc1f9c13feebaa30cf19add8d13d1e7ffe7dc67b9b8cc"
+RPM_NAME = "openafs-client-1.8.10-1.7.aarch64.rpm"
+RPM_HASH = "c4337cfb701ff2876e2326db38014d32559a4f74e3623a099e05bcabe977e7be20419f2ac5ef6b05c238eea966f398c45cac4bef06a222a3eb479b8fea86cde3"
 
 RPROVIDES:${PN} += "config-openafs-client \
 openafs-client"

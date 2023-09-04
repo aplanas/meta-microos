@@ -4,10 +4,10 @@ DESCRIPTION = "The OpenJDK 8 development tools. \
 Supported architectures are ppc64le, s390x and x86_64"
 LICENSE = "Apache-1.1 & Apache-2.0 & EPL-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
 
-PV = "1.8.0.362"
+PV = "1.8.0.382"
 
-RPM_NAME = "java-1_8_0-openj9-devel-1.8.0.362-2.3.aarch64.rpm"
-RPM_HASH = "758cec7d957bb621e06ad3f5243084b4868d6d76c08c8ae0687d6d7d7df8d7e383a40c454e52e6d746c14cd68f2c0d8115ef1d9f70540661ba5e2862a8a66f75"
+RPM_NAME = "java-1_8_0-openj9-devel-1.8.0.382-1.1.aarch64.rpm"
+RPM_HASH = "7149f21834e9bc9c9cbd1514d9ccc2ea63f39b0d0d6cf5bb73b87729a6fb5f40c0905d20e9de521ad17686669e7fe1b5ad49191d9e1e83f284df7c1cb2a4c634"
 
 RPROVIDES:${PN} += "java-1-8-0-openj9-devel \
 java-1.8.0-devel \

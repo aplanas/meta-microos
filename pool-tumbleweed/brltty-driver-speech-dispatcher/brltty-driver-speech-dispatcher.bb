@@ -7,10 +7,10 @@ complete screen review functionality. \
 This package contains the Speech Dispatcher speech driver."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "6.5"
+PV = "6.6"
 
-RPM_NAME = "brltty-driver-speech-dispatcher-6.5-3.1.aarch64.rpm"
-RPM_HASH = "bcd731fd4f24c7d1132050ab2aa148df4172c8fcffa3415589f4d6f1aae51a1c5f9f713cb8b9d6f3f6c40712d3e0f5e6d3a511acb56240874ba711764f1ebc24"
+RPM_NAME = "brltty-driver-speech-dispatcher-6.6-1.1.aarch64.rpm"
+RPM_HASH = "b3c235c7b2e811fcbe6457bf5e0943ac82e99d6f40f5ee3d6d8397595cf5bd9ba52a7e8fe630aeb8ea5c89fac5399cb9e00dcb270aa46840e1b9861c1547889a"
 
 RPROVIDES:${PN} += "brltty-driver-speech-dispatcher \
 libbrlttyssd.so"

@@ -8,10 +8,10 @@ This package contains all necessary include files and libraries needed \
 to develop plugins for Weston."
 LICENSE = "CC-BY-SA-3.0 & MIT"
 
-PV = "12.0.1"
+PV = "12.0.2"
 
-RPM_NAME = "weston-devel-12.0.1-1.2.aarch64.rpm"
-RPM_HASH = "6daf7c6271d2409975a84e0db70e34fa1cad37808f81fdc164d5153c9041fdeb42edd0b3ed78e9a75609803790325f26badb87116a44d83ee4feda7763aa64d6"
+RPM_NAME = "weston-devel-12.0.2-1.1.aarch64.rpm"
+RPM_HASH = "c31494d48ec479585db7c61916a56d3efe2fc33ca2d47c6f1c378747bd3a061518f8afb4c090ba321788522393e02789f0f73196b46fa32d21a9e54e5b5cfdac"
 
 RPROVIDES:${PN} += "pkgconfig-libweston-12 \
 pkgconfig-libweston-12-protocols \

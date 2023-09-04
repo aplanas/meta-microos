@@ -47,8 +47,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.4016"
 
-RPM_NAME = "perl-Starman-0.4016-1.3.noarch.rpm"
-RPM_HASH = "d55cb6c1938af29ff8b69e2a47f521b58d16d4fc064853ad52f72a3a9f5bda5c5416d48e8424c4e84d38acab891a22097419e07cac49e6fa5a5a7be6a25d9262"
+RPM_NAME = "perl-Starman-0.4016-1.4.noarch.rpm"
+RPM_HASH = "fe28798868c2b5f27cbcda86d8b4014370832641e3e2f28cb56b2abde0b5ae453d695b37fdfeaaad5dca590ab9015df3552a318f637cef0bbc49171b9f2e775a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Server--PSGI--Net--Server--PreFork \
@@ -57,7 +57,7 @@ perl-Starman \
 perl-Starman--Server"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Data--Dump \
 perl-HTTP--Date \
 perl-HTTP--Parser--XS \

@@ -5,21 +5,21 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.3.5"
 
-RPM_NAME = "ghc-commonmark-extensions-devel-0.2.3.5-1.1.aarch64.rpm"
-RPM_HASH = "6a17773b515c28d87585efc6064abf71268dbe5bcda7d50869d98b9f2fb1d297a913d1be8a709e52aa3b7dcb9681ca24c059f73b4915c57100f81a93010d0323"
+RPM_NAME = "ghc-commonmark-extensions-devel-0.2.3.5-1.4.aarch64.rpm"
+RPM_HASH = "7279607a608ce329786a086f101d44288f8043d959601e3bdbe0baf17df2a4c1bfb02da10bff2f242dbf02590aca57557edf880bf4544d41af3643a175da7789"
 
 RPROVIDES:${PN} += "ghc-commonmark-extensions-devel \
-ghc-devel-commonmark-extensions-0.2.3.5-GeNUJwJZ0WZ7BXjQ8SYvXo"
+ghc-devel-commonmark-extensions-0.2.3.5-8zB7Un6TRyL3aLmtEaucGr"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-commonmark-extensions \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-commonmark-0.2.3-I1mjDgOYrWfJTVx5dvVv0G \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-commonmark-0.2.3-6HyB59I8Umx9O57gNLEHWR \
 ghc-devel-containers-0.6.7 \
-ghc-devel-emojis-0.1.2-Gz9J6Rv977iEZp4TYp7wAm \
+ghc-devel-emojis-0.1.3-7wpttN9DVlcBjh9pp4W5jK \
 ghc-devel-filepath-1.4.2.2 \
-ghc-devel-network-uri-2.6.4.2-4kNQnaE9heqEL1mH8FE5xH \
+ghc-devel-network-uri-2.6.4.2-3utC1p6H7mg92qIH44jQaM \
 ghc-devel-parsec-3.1.16.1 \
 ghc-devel-text-2.0.2 \
 ghc-devel-transformers-0.5.6.2"

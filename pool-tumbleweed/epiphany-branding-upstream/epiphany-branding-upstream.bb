@@ -6,10 +6,10 @@ This package provides the upstream default bookmarks and user agent \
 string."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "44.5"
+PV = "44.6"
 
-RPM_NAME = "epiphany-branding-upstream-44.5-1.1.noarch.rpm"
-RPM_HASH = "c5d7482c60c08f3966fab256b1fe7e7e2d0e7793e1d0a6ad0d57836069aca2a6fdc283ab6ca33c37da9976fd249747bb3db5d00d761e929550ca56e0e0744255"
+RPM_NAME = "epiphany-branding-upstream-44.6-1.1.noarch.rpm"
+RPM_HASH = "10204515449d763fc2ac164109b79ae2b15e50943f1c41d16576c77905bc15ae211d11190f73073dd9b4af85c76b2078a8ea8892525a8433d00b2894774f07b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "epiphany-branding \

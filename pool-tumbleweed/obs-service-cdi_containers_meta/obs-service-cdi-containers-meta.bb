@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides meta information that is used during the bui
 the CDI container images."
 LICENSE = "Apache-2.0"
 
-PV = "1.56.0"
+PV = "1.57.0"
 
-RPM_NAME = "obs-service-cdi_containers_meta-1.56.0-2.1.aarch64.rpm"
-RPM_HASH = "664712c18fd2fd14b0472c3e328f0f9dbfa81cbc304dc87688a74a85fbcc5ca5abeae3cf9208e1463f9e6de41f607405482f4fdb90de0bcf386a70eaac22c4f6"
+RPM_NAME = "obs-service-cdi_containers_meta-1.57.0-1.1.aarch64.rpm"
+RPM_HASH = "d4b808f89061904fc7ce0233b5a3f60ee1b5b6deebd2680898fb19a1cb7ebbf5aa95d00c531d717e6cdc4ad63dbdb4d116cf57b8dcf2de2e4da04c9defb4c63a"
 
 RPROVIDES:${PN} += "obs-service-cdi-containers-meta"
 

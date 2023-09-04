@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.14"
 
-RPM_NAME = "perl-Future-IO-0.14-1.2.noarch.rpm"
-RPM_HASH = "91efeef4f20b1937cb2e44707cb9cd452ecc7ef0a037fbb2e9696c88619628bebc752d0b3c7349b45d59225efabba7c0af8a7dc3f426e4053fc80061bc6a1eae"
+RPM_NAME = "perl-Future-IO-0.14-1.3.noarch.rpm"
+RPM_HASH = "3db0de924b8e8ac7e2d8d8de9e7a9f7d3aef754d2585ad3942280222a7b54d47fb5b29f3947ff28792bfd449812b42797bcbc78e1c816900710622db80c034db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Future--IO \
@@ -20,7 +20,7 @@ perl-Future--IO--ImplBase \
 perl-Future--IO--System \
 perl-Future-IO"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Future \
 perl-Struct--Dumb"
 

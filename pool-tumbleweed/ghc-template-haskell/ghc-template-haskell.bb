@@ -4,19 +4,20 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.19.0.0"
 
-RPM_NAME = "ghc-template-haskell-2.19.0.0-3.2.aarch64.rpm"
-RPM_HASH = "92d638802c644c58203f34307b0db9f7097537e4f83e3b1673ad2addc81e98ff011d41a4289144fe72cd2fb1d58e410b4d94f9a0b16df91d2e0bd8289ef7e9b4"
+RPM_NAME = "ghc-template-haskell-2.19.0.0-1.1.aarch64.rpm"
+RPM_HASH = "7b7ed6b4646556757f50250829e8511328530a5b84e7335fe3f6d4f94c0c1939aeea4ed1fa7668d7ca6a3304bb42dd3b96b336048cbd1789d727bfc739d955cc"
 
 RPROVIDES:${PN} += "ghc-template-haskell \
-libHStemplate-haskell-2.19.0.0-ghc9.4.5.so"
+libHStemplate-haskell-2.19.0.0-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
-libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSdeepseq-1.4.8.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-boot-th-9.4.5-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
-libHSpretty-1.1.3.6-ghc9.4.5.so \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+libHSarray-0.5.4.0-ghc9.4.6.so \
+libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSdeepseq-1.4.8.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-boot-th-9.4.6-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
+libHSpretty-1.1.3.6-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

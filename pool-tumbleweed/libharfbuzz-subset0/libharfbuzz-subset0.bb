@@ -3,10 +3,10 @@ DESCRIPTION = "HarfBuzz is an OpenType text shaping engine. \
 This package contains the subset library"
 LICENSE = "MIT"
 
-PV = "8.0.1"
+PV = "8.1.1"
 
-RPM_NAME = "libharfbuzz-subset0-8.0.1-1.1.aarch64.rpm"
-RPM_HASH = "3f2e990b885534aab7374461257268f9f47be892bab1c7fca5f4d4689fcf910bb4a72d368bf49920926d14eb22481257614ee1b543d62d8733d6152cb532f7eb"
+RPM_NAME = "libharfbuzz-subset0-8.1.1-1.1.aarch64.rpm"
+RPM_HASH = "4dc6693b7ceeca340382ddd7f385220a2220ad715e80e566a8b28df8e6baa6fc88220902bd0a6db0548d9e62d32154445e75fb7551689b691d89bd95f89f9cf5"
 
 RPROVIDES:${PN} += "libharfbuzz-subset.so.0 \
 libharfbuzz-subset0"

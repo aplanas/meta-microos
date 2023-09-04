@@ -5,10 +5,10 @@ Azure Active Directory accounts (AAD) and Microsoft Accounts (MSA) using industr
 standard OAuth2 and OpenID Connect."
 LICENSE = "MIT"
 
-PV = "1.22.0"
+PV = "1.24.0~b1"
 
-RPM_NAME = "python311-msal-1.22.0-1.3.noarch.rpm"
-RPM_HASH = "683b9c7f4551820af0ad6db20d7fddac592a6aae68f7fe81bb0e287c15dba4a7390d3f24754df606e8c277edeb38f2bb3cf68efee499db79def85173b917fbaf"
+RPM_NAME = "python311-msal-1.24.0~b1-1.1.noarch.rpm"
+RPM_HASH = "f30b4e16f28b23519239472c1f0415a5abe79908c1026963052b981eb06b9c7d82fff5ae417cf5a347ac93e795f2e14f6c61c377239df334a9b3d6c3171d548b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-msal \

@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.10.0"
 
-RPM_NAME = "rem-devel-2.10.0-1.5.aarch64.rpm"
-RPM_HASH = "40236ad1bc9bab019c54507cf6bedb9db2aa8fdf3b9d85cc2fade0bf84102d262f0cd02803b56634bcd252b5cce1679787772dc6db3412b8ba3586507639d11e"
+RPM_NAME = "rem-devel-2.10.0-1.6.aarch64.rpm"
+RPM_HASH = "edd7469ac32816db078d11bc04467386df134941a28dab2c52d82c61024ae134d0d6d94ab33adc51eeaa15cd36ce98249f3d989a40145f14d67afe2cc6cebd85"
 
 RPROVIDES:${PN} += "pkgconfig-librem \
 rem-devel"

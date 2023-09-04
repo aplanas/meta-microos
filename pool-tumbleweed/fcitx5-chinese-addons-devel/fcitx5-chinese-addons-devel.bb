@@ -2,10 +2,10 @@ SUMMARY = "Development files for fcitx5-chinese-addons"
 DESCRIPTION = "This package provides development files for fcitx5-chinese-addons."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "5.0.17"
+PV = "5.1.0"
 
-RPM_NAME = "fcitx5-chinese-addons-devel-5.0.17-1.1.aarch64.rpm"
-RPM_HASH = "a521eefa518cc1f5174552484b24ac8cfcf49227f06dffcb5bfd28616b1e0b1635a1066bfb817c524cab623c97345c697aa8bcbecf6ef2d1ad01a6b4e6cff328"
+RPM_NAME = "fcitx5-chinese-addons-devel-5.1.0-1.1.aarch64.rpm"
+RPM_HASH = "65849636bd29648b1fdf62ec596989b43e67e97f9d508110cee372ab4158f1c911ff2613993be409cb50607c95112542592402db68761efaae62ac4f992ac972"
 
 RPROVIDES:${PN} += "cmake-Fcitx5ModuleCloudPinyin \
 cmake-Fcitx5ModulePinyinHelper \

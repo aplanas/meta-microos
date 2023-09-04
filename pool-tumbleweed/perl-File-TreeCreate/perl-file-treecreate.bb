@@ -5,14 +5,14 @@ LICENSE = "MIT"
 
 PV = "0.0.1"
 
-RPM_NAME = "perl-File-TreeCreate-0.0.1-1.9.noarch.rpm"
-RPM_HASH = "172f253ac1e93a039ad11fe77241b11a25a7d9f1a17e5163409381171d96d90bc42a1f2c97f6192770cd4ca5a5fdd77a24207234eb8dfb9ab3d459edb2ac4cbe"
+RPM_NAME = "perl-File-TreeCreate-0.0.1-1.10.noarch.rpm"
+RPM_HASH = "63dd7d755bf4ae1da4a1e812c4c771a9cf295b83436c17d869090acbb39236b4543d1c8c915f63deba334f23a9cfc6909d714242b657ed98761e785cf03b8184"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--TreeCreate \
 perl-File-TreeCreate"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-autodie"
 
 inherit rpm

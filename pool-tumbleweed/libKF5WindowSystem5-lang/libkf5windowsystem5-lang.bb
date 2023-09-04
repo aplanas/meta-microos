@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5WindowSystem5"
 DESCRIPTION = "Provides translations for the 'libKF5WindowSystem5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "libKF5WindowSystem5-lang-5.108.0-1.1.noarch.rpm"
-RPM_HASH = "95648c20fee30b99b39a098ef8630215a1d4f73e7df2ed791daac8aa9ea37097e6c35834f1cfd585510c0999039f947281475c80e54f18636f37afdcc648b4b1"
+RPM_NAME = "libKF5WindowSystem5-lang-5.109.0-1.1.noarch.rpm"
+RPM_HASH = "3fb8358c28454aab0eea040b8dd3011ddd6077e5af3b6da2738d187c7069a3f5e9e9b94b92f97675269f21c4a23eceac5bc63d28ca688f2bbbee4eae17eaf964"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5WindowSystem5-lang \

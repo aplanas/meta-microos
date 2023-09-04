@@ -2,10 +2,10 @@ SUMMARY = "Fish Completion for kubie"
 DESCRIPTION = "Fish command line completion support for kubie."
 LICENSE = "Zlib"
 
-PV = "0.21.0"
+PV = "0.21.2"
 
-RPM_NAME = "kubie-fish-completion-0.21.0-1.1.noarch.rpm"
-RPM_HASH = "807049e880721ac4f14049b9e31e13ce63419b086ea612053f2b9f6593e48ffdc8823251d048d2b8a60fd9c7fc06b6b4e72d5f25c4faadfd1988cf7eabeda9c8"
+RPM_NAME = "kubie-fish-completion-0.21.2-1.1.noarch.rpm"
+RPM_HASH = "b84169b396908251d50b0bcfe2f0caae77c09fe941557ce2d93eccbe382a9d1484e61ca7aff75e859f48c57e09755ba9b62ee453cdebfe98ca733fa12b71efdb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubie-fish-completion"

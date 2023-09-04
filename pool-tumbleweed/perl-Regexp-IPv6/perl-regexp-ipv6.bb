@@ -9,13 +9,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.03"
 
-RPM_NAME = "perl-Regexp-IPv6-0.03-5.27.noarch.rpm"
-RPM_HASH = "261e79ad302a6dd61c940597b5898551037f30e0145b3d14727203e944f57a5e1ef45660977896d4ae88edd7cc4761474369cc73ee8a507a957725a301bb9b96"
+RPM_NAME = "perl-Regexp-IPv6-0.03-5.28.noarch.rpm"
+RPM_HASH = "748e46b6fe3826aadd577dde8ce91237408617ba1acfae5423c2bc61939bdbf2c3cb7af753849fe33301bd4bae6e664e6067fabee3960c2179f816048d1e29df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Regexp--IPv6 \
 perl-Regexp-IPv6"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

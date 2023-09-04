@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.3.9.1svn64059"
 
-RPM_NAME = "texlive-xecjk-2023.209.3.9.1svn64059-53.1.noarch.rpm"
-RPM_HASH = "ea5ad7d5f1290f32eb55280c8b7064aa0e8a128314c2bc9939903d5d48e2fdc2ca03f7cd7eeda4e796dc14ee3bb58921b7f59d914ce52f20a8833225f532b8e3"
+RPM_NAME = "texlive-xecjk-2023.209.3.9.1svn64059-53.2.noarch.rpm"
+RPM_HASH = "6c9c433a88197599a823a9e8cf0f272e080788c69df615e2871fff8ece17b52e984e9950af0cc61556ffdeda0abe2475d1bc93b5dd314eeb8ec9f38e5be9e0a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-full-stop.map \

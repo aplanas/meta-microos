@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.2.37"
 
-RPM_NAME = "libxmlsec1-gcrypt1-1.2.37-2.3.aarch64.rpm"
-RPM_HASH = "3e53b3764c73ef758e0abb7ccb150b43e6678881c3670bff275c3e381b9ccd37332682a153cbba770690fdf31203697c122a9541ebd7a789d7a87d24398d9a18"
+RPM_NAME = "libxmlsec1-gcrypt1-1.2.37-3.1.aarch64.rpm"
+RPM_HASH = "ba73fe3026c9a00e1b6f5313621e86532bb1589b0878692a38b5574d02fd408b2956430585e9210792c19bca817d71ed3d3ad43d47c9e15074b1356903f774dd"
 
 RPROVIDES:${PN} += "libxmlsec1-gcrypt.so.1 \
 libxmlsec1-gcrypt1"

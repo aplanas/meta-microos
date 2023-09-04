@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.2"
 
-RPM_NAME = "ghc-iwlib-devel-0.1.2-2.2.aarch64.rpm"
-RPM_HASH = "935c76f766d0a38c6ad0861c61e057435378bd0a57139a94d07dce0ff77d706512413518cc7aeb0fc0a5a9521b10eede3cb16c29f13c8ac99ee08500142aea1d"
+RPM_NAME = "ghc-iwlib-devel-0.1.2-2.3.aarch64.rpm"
+RPM_HASH = "5ce42b349cedad390d2778282124fd0151d15bfc1d956ae74c8c0c6288cad68e0019282a2c2e823aeb3c2f8d759ecbe526acf3006da65fa870c1b9bbb9d124d2"
 
-RPROVIDES:${PN} += "ghc-devel-iwlib-0.1.2-1s738Tb3Wf2CvjJviNtWBD \
+RPROVIDES:${PN} += "ghc-devel-iwlib-0.1.2-DBPHxQHnFovIGpbAOJfyp4 \
 ghc-iwlib-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-iwlib \
 libiw-devel"
 

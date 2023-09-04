@@ -2,10 +2,10 @@ SUMMARY = "Catalan localization files for LibreOffice"
 DESCRIPTION = "Provides Catalan translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-l10n-ca-7.5.4.2-1.5.noarch.rpm"
-RPM_HASH = "e99d7438bcbaee4a0d0fab9f798a3d5fef244adabd447f4d1f6237869c8b77541b8ab810fa0785702bc9851789ba720afdac1e3c31a9632022e682417c1a815e"
+RPM_NAME = "libreoffice-l10n-ca-7.6.0.3-1.1.noarch.rpm"
+RPM_HASH = "f950f5c62c215a8a660524f59b75bf4242f290727784942fe1c2823d126f33c53510c228701b51a4bf05c35f9453989ca858755c4c88cd90a782c85b33d2c4ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-ca \

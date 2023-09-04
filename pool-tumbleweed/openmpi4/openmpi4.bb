@@ -19,10 +19,10 @@ Module Component Architecture (MCA) base and plugins necessary for \
 running Open MPI/OpenSHMEM version 4 jobs."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.1.4"
+PV = "4.1.5"
 
-RPM_NAME = "openmpi4-4.1.4-2.4.aarch64.rpm"
-RPM_HASH = "18906889d4e0c7f3a9c2e4822602105552cc29e489f5dc5a0ebdc9a5e5015802fab6f6b5e46ac9c63ce7f6dea2d38eff1c38677ca744d5b40f49305a51088f50"
+RPM_NAME = "openmpi4-4.1.5-2.1.aarch64.rpm"
+RPM_HASH = "d21f8e0127f7efc87af3eabf8f6477d87e394830e7d1225d8c2aa097b6f3088d3e64515144440757ee5ab41fe3f8a63d798bc551558a16ba2077fa55512e7511"
 
 RPROVIDES:${PN} += "mpi \
 openmpi \

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.8.0"
 
-RPM_NAME = "pdns-backend-mysql-4.8.0-1.1.aarch64.rpm"
-RPM_HASH = "1ffcc47e95a6019b68b617f76524b2a72760fbd9e322479e30ad41526bf179e169879a37d1ad82307f42aef767b3fe6083edaefded16ea4bcf5d42e938e7e34e"
+RPM_NAME = "pdns-backend-mysql-4.8.0-1.2.aarch64.rpm"
+RPM_HASH = "be4a28a2b694ad30505e8bc18810fb414ad4a9f4bed30530c263fc04fceca8b77dfd916e860e1028d6d0ca2faeb40cbddf7eecc1a4d41028665c09481a06a7b9"
 
 RPROVIDES:${PN} += "libgmysqlbackend.so \
 pdns-backend-mysql"

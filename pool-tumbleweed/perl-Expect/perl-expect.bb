@@ -22,13 +22,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.35"
 
-RPM_NAME = "perl-Expect-1.35-1.23.noarch.rpm"
-RPM_HASH = "728cae90c97bc4fabaf70c1bcd134887feec22e3f3b0a03e9a10adcb519fd7a4eff362005492f96a2d53b8184d9610179697a756b67fa721e0b610f677e817cd"
+RPM_NAME = "perl-Expect-1.35-1.24.noarch.rpm"
+RPM_HASH = "b984ddbb88d41e83e90ab780d1484b6114b2253aeadeaf3a4eb3fc7dbba384fdea7b986b9310a1dff956bb376099ce98eaf78c408f051b64021563d138a76ceb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Expect"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-IO--Pty \
 perl-IO--Tty"
 

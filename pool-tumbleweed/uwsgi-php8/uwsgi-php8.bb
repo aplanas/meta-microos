@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
 PV = "2.0.21"
 
-RPM_NAME = "uwsgi-php8-2.0.21-3.1.aarch64.rpm"
-RPM_HASH = "038196c6802dbaee9b7ee41196443a778c60731643daac8323cf866bc8bac23ad3f6826cf034da33dc1b481f674f7fa197fd46e6b9c7fc74ade09ea587de3e70"
+RPM_NAME = "uwsgi-php8-2.0.21-3.2.aarch64.rpm"
+RPM_HASH = "2484badd6d17d7b1a37915b13b18b9b7942f3294dea691689a89979d7860b309717aed186084f7558d21122bdc51f5c48f863605e0191f45ab84a4ea2f8ae226"
 
 RPROVIDES:${PN} += "uwsgi-php8"
 

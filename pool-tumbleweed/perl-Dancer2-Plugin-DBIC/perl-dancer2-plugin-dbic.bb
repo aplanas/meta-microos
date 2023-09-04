@@ -11,14 +11,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.0100"
 
-RPM_NAME = "perl-Dancer2-Plugin-DBIC-0.0100-1.12.noarch.rpm"
-RPM_HASH = "5b2247bc3a1b20b626766f2b477074fd5df2d33e7d6c2886f57a39429ca27b1c69739c56ac97aeb98f9e96265093aaac2f0634f0e13176ce2aa05f3ab98b7d48"
+RPM_NAME = "perl-Dancer2-Plugin-DBIC-0.0100-1.13.noarch.rpm"
+RPM_HASH = "135e377df9a793d297443b09d75182e41ae78ee1e8cd055acf7c9953751884ffb0f698e786282afc08c43665057711802159f77738d7178af099df2d1e4470b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Dancer2--Plugin--DBIC \
 perl-Dancer2-Plugin-DBIC"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-DBICx--Sugar \
 perl-Dancer2 \
 perl-Dancer2--Plugin"

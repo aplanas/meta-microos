@@ -3,10 +3,10 @@ DESCRIPTION = "A private PyPI caching server, providing user or team based indic
 inherit packages from each other or from the pypi.org site."
 LICENSE = "MIT"
 
-PV = "6.8.0"
+PV = "6.9.2"
 
-RPM_NAME = "python310-devpi-server-6.8.0-3.3.noarch.rpm"
-RPM_HASH = "65bb9fb29c66086c1b2dcdf39870a5a51fbbced070dd0ac1201c0bfbce7064eee6a5ec454d2be36b26a1027b36b10d12f892beda4d9fe5e21ec93825fc832d81"
+RPM_NAME = "python310-devpi-server-6.9.2-1.1.noarch.rpm"
+RPM_HASH = "28c831910cd35397ea0338963d86d42b1e33b56662589d4320d4ad1df2b95c1dacdfca59021a807da752f001b6f10e0a789364504d3dc70871c5f06f058c3221"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-devpi-server \

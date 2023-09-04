@@ -10,14 +10,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.09"
 
-RPM_NAME = "perl-Array-Diff-0.09-1.10.noarch.rpm"
-RPM_HASH = "9edf486ed1ffc02d5261b9efe4ec8a900a77ed6c319809e6b95017e4b7804bf6f122bdb08fdf84d2dfe0891a249a46db90decb825e21e1edfa8ad856110ec6eb"
+RPM_NAME = "perl-Array-Diff-0.09-1.11.noarch.rpm"
+RPM_HASH = "f068d8b524a7ff73522392497e7917c49c7de84457c3790e8c885bc80070facf6186fe9e96e5247143d24cbd22ed03a53acdb156cc62becc3ebe128484d26417"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Array--Diff \
 perl-Array-Diff"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Algorithm--Diff \
 perl-Class--Accessor--Fast"
 

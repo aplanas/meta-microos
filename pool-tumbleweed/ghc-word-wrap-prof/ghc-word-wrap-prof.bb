@@ -4,13 +4,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5"
 
-RPM_NAME = "ghc-word-wrap-prof-0.5-2.2.aarch64.rpm"
-RPM_HASH = "b4b854c6b6e916eef34cfbcc13a312cdec61fa89c7ddb979e064bbbd89b9ce229097775355b359149e54cae180bd6cc848938140c045b81d3d4ec5c2c713d6c2"
+RPM_NAME = "ghc-word-wrap-prof-0.5-2.3.aarch64.rpm"
+RPM_HASH = "c2da36fc2775b191e988a5415e9a5bbc489ad82a58279e72630fb55bb135de453111b55a05fac76311d761438baf469f0fb3288b4be870ab34e1d31f4ed795a5"
 
-RPROVIDES:${PN} += "ghc-prof-word-wrap-0.5-8lP0dTi9CAzDFiJFYJ3rcZ \
+RPROVIDES:${PN} += "ghc-prof-word-wrap-0.5-6mKx5HwYguB2E3kl2rrPmY \
 ghc-word-wrap-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
 ghc-prof-text-2.0.2 \
 ghc-word-wrap-devel"
 

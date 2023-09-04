@@ -12,8 +12,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.8.17"
 
-RPM_NAME = "python38-base-3.8.17-1.2.aarch64.rpm"
-RPM_HASH = "e7770bec0d7c63be1cb8d20279aa880f7b7a105f713f807916b58f127419bf701b54868825e158fe2475cfbc6183f712e2fe9bcb0949523dc531bd5a29df4ad8"
+RPM_NAME = "python38-base-3.8.17-2.1.aarch64.rpm"
+RPM_HASH = "3ae9c9fd5f1ef199b450445274e3191ef8d9119399877e845a3a3efcb5ea52c0d2467f984bf245f60402b2109f27271978db4a3b8c7b03c6063bc2573c27fbd3"
 
 RPROVIDES:${PN} += "python-abi \
 python38-asyncio \

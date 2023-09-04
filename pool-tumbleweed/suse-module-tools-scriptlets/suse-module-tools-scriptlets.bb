@@ -2,10 +2,10 @@ SUMMARY = "Kernel rpm scriptlets"
 DESCRIPTION = "Scripts called by the SUSE kernel packages on installation"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "16.0.32"
+PV = "16.0.33"
 
-RPM_NAME = "suse-module-tools-scriptlets-16.0.32-1.1.aarch64.rpm"
-RPM_HASH = "77b0e614c83aad21b9c746fc8f6257f4d239c363cfb2c39703068a42ce4044436fb217ee3372d8496da607385a8a7220f8fc32766a12d436ceaa5ea0b96a26a4"
+RPM_NAME = "suse-module-tools-scriptlets-16.0.33-1.1.aarch64.rpm"
+RPM_HASH = "1798e05cf0afa740bee24217cda7db4e25a37144cc055cf1c007fd419d7f989916497c1984913532213165de75bc41efc2a41f24e547b3bbd1b9dc241279a4fc"
 
 RPROVIDES:${PN} += "suse-kernel-rpm-scriptlets \
 suse-module-tools-/usr/lib/module-init-tools/kernel-scriptlets \

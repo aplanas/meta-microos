@@ -17,14 +17,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.58"
 
-RPM_NAME = "perl-Digest-MD5-2.58-1.16.aarch64.rpm"
-RPM_HASH = "2893b3098055f3cb5e0f8592e541c14ce6249c6d93c3b06c740ca249a9bb5fdca5b2f4eccfe4bbc4b96bbe167cbd72d8b1358803a2b4e9ff547c599c083ad30e"
+RPM_NAME = "perl-Digest-MD5-2.58-1.17.aarch64.rpm"
+RPM_HASH = "1984adf517cff8cac80ebc46bbce38ed636fecc549f0aa8ca254b87c0170cc817db45d26f9b46790423fc39b198716b0a26edb886b96bb5838d4dfb6e2b6683c"
 
 RPROVIDES:${PN} += "perl-Digest--MD5 \
 perl-Digest-MD5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

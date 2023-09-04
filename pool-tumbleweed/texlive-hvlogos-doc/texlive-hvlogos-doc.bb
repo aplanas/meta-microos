@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hvlogos"
 DESCRIPTION = "This package includes the documentation for texlive-hvlogos"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.09svn63261"
+PV = "2023.209.0.0.09svn63261"
 
-RPM_NAME = "texlive-hvlogos-doc-2023.208.0.0.09svn63261-53.1.noarch.rpm"
-RPM_HASH = "f275c125b26dd482d3c6cda592c44a4384d16efe9747d99fa85f93cf983ec35de5468f0538271f2cb30326dd228c291402a3fa21329f03b1c889ea86b3365fcf"
+RPM_NAME = "texlive-hvlogos-doc-2023.209.0.0.09svn63261-54.1.noarch.rpm"
+RPM_HASH = "182a96ac6a669526bfb985afe651724330312fa7d7cbfa1df2be3bd9df69775de77e183a54ccddf9f4ef42dd527b7b120e27365a2547c7025cbb622222bc3c5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hvlogos-doc"

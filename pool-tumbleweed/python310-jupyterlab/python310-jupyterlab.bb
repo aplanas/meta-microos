@@ -8,10 +8,10 @@ Notebook (notebook, terminal, text editor, file browser, rich outputs, \
 etc.)."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.0.2"
+PV = "4.0.5"
 
-RPM_NAME = "python310-jupyterlab-4.0.2-1.2.noarch.rpm"
-RPM_HASH = "83f74ec5782f90fe3c1f2e7c2b5a882bd516620d55fff53223e8fcc464a0bfbd34ddaf958f42921e6e103ed78c906214634696482bcd2e3b7cf59808217373ac"
+RPM_NAME = "python310-jupyterlab-4.0.5-2.1.noarch.rpm"
+RPM_HASH = "2c3b7d7c98d8de715642386843cebf9466bfda98d0d6d0089b3a7567d4ec73efa135ecaf66d5a546863fcc71733931bf7ed79771936bb2e38b134a743b6c0870"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-jupyterlab \
@@ -22,6 +22,8 @@ python3dist-jupyterlab"
 RDEPENDS:${PN} += "-python310-jupyter-server >= 2.4.0 with python310-jupyter-server < 3 \
 -python310-jupyterlab-server >= 2.19.0 with python310-jupyterlab-server < 3 \
 /usr/bin/node \
+/usr/bin/python3.10 \
+/usr/bin/sh \
 jupyter-jupyterlab \
 python-abi \
 python310-Jinja2 \
@@ -32,6 +34,7 @@ python310-jupyter-lsp \
 python310-notebook-shim \
 python310-packaging \
 python310-tornado \
-python310-traitlets"
+python310-traitlets \
+update-alternatives"
 
 inherit rpm

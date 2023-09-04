@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.6.0.0svn58331"
 
-RPM_NAME = "texlive-gregoriotex-fonts-2023.209.6.0.0svn58331-54.1.noarch.rpm"
-RPM_HASH = "6d2a0cc272f11b456bd811c60f0091115fd933c4aee308e545d5160e47a603af02e911c4768a6097a662fde475502806ec7b7f5bd7af61394931f917c17b5d2d"
+RPM_NAME = "texlive-gregoriotex-fonts-2023.209.6.0.0svn58331-54.2.noarch.rpm"
+RPM_HASH = "192fde1661937ec7c2e466bc4444677063c4cc386747a0b3bf71a1e8c95bc49d37d7d8c3e2bae00086229dc6080c20c32cf6b6dc7baaedd5d818f3b1238a4957"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-greciliae \

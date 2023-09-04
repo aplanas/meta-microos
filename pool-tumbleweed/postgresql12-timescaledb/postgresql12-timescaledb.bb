@@ -10,10 +10,10 @@ This build includes only Apache2 modules; \
 TSL (timescale licenced modules are not built)."
 LICENSE = "Apache-2.0"
 
-PV = "2.10.2"
+PV = "2.11.2"
 
-RPM_NAME = "postgresql12-timescaledb-2.10.2-1.4.aarch64.rpm"
-RPM_HASH = "a516abeb597569ee9310ee86737ce5a3e87f7a6ca3f0cfae1a831bfa4fca601824b7d6eef5b1deeaa539bfdc87eefcff2492bc4b0760c49a83a0aa575f5b8d68"
+RPM_NAME = "postgresql12-timescaledb-2.11.2-1.1.aarch64.rpm"
+RPM_HASH = "67f6f1ed7a620dc5d822fcddfcb0ff0525319ff99f044592652329ccf08c15cf7e369f3809ca36971227631d8a412763a8fbc31f2c1c2f8bbcce92576a044a02"
 
 RPROVIDES:${PN} += "postgresql12-timescaledb \
 postgresql12-timescaledb-llvmjit"

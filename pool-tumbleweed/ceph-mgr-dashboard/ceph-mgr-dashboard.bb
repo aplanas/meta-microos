@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause
 
 PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "ceph-mgr-dashboard-16.2.13.66+g54799ee0666-3.1.noarch.rpm"
-RPM_HASH = "7369e03306a4c59fb76fd5721b40c72bba74c67945250f4e3bcbc56d40c9ae12eaae218aa1b6038991642a1c21ff2bf20eb0250a8d2b12dcb009a56832c916c1"
+RPM_NAME = "ceph-mgr-dashboard-16.2.13.66+g54799ee0666-4.1.noarch.rpm"
+RPM_HASH = "9447b4184fa6ccb41f306985c72bb96208bc71c9c1cf6456a9e8c38f07bc31a74adbc19c32f0465c4820c0da04ab8b108e2b64549f51d3484b71151c38b6c7ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ceph-mgr-dashboard"

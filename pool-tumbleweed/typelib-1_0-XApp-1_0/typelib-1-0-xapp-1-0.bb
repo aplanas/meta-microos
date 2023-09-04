@@ -5,10 +5,10 @@ desktop environments and required to implement cross-DE solutions. \
 This library is used by several XApp applications."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.4.1"
+PV = "2.6.1"
 
-RPM_NAME = "typelib-1_0-XApp-1_0-2.4.1-1.4.aarch64.rpm"
-RPM_HASH = "d08dd65a8dd93433c53f423ce41cdbaea7a7eef9e9838ae9af24d6d8bf0d07ea40755beb0574f8cedf51d90dc119263863cdcd93ee6bb76a0a49a56e15ca7b12"
+RPM_NAME = "typelib-1_0-XApp-1_0-2.6.1-1.1.aarch64.rpm"
+RPM_HASH = "a613d193b1119bf448e82d43910cacc6e2303833c885f3b4294bc4f336f0c501c1b22767b693ec65284f8e1d5e80099b288db673e528fca75d047c2538ab67c3"
 
 RPROVIDES:${PN} += "typelib-1-0-XApp-1-0 \
 typelib-XApp"

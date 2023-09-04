@@ -22,13 +22,13 @@ LICENSE = "Artistic-1.0 | GPL-2.0-only"
 
 PV = "1.26"
 
-RPM_NAME = "perl-B-Keywords-1.26-1.1.noarch.rpm"
-RPM_HASH = "77f3138a292281754bdbbe84d6b1aab8862bca485d53c6b3a5932b06daa117d1ed6579c954d884b75be1002defb10ffecacfcdbb68c20d9bd5d0863200574a92"
+RPM_NAME = "perl-B-Keywords-1.26-1.2.noarch.rpm"
+RPM_HASH = "c5d1c66a40bf16fcd90fe54a0e4d67dfdf02e3b73f10d930ab96e024ee0401d7b2f40583d6c4f6f04d674f3b7dead424e88d8c654aac72498ebe12a594da05e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-B--Keywords \
 perl-B-Keywords"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

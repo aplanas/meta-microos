@@ -9,10 +9,10 @@ Coktel Vision's Gobliiins, Wyrmkeep's Inherit the Earth, Westwood's \
 Legend of Kyrandia, and various others."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.7.0"
+PV = "2.7.1"
 
-RPM_NAME = "scummvm-2.7.0-2.4.aarch64.rpm"
-RPM_HASH = "7cb06dcbb041867226a22ed40fdb352b9876627a2bf6b428d420f5a975f5025d221443a585c6c013b17ca0516433207e83336a57dceba27c47a4c16b6537ebed"
+RPM_NAME = "scummvm-2.7.1-1.1.aarch64.rpm"
+RPM_HASH = "81295438696870c1135cee1b0b9144e4b0fe34b5dbe81274e09a1dc3a02e794da7b92ad10b0ae1e6f17f604e6ec0b56112ae644c6ad1a1bcf511b55cbbca0229"
 
 RPROVIDES:${PN} += "scummvm"
 
@@ -20,7 +20,6 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libFLAC.so.12 \
 libSDL2-2.0.so.0 \
 libSDL2-net-2.0.so.0 \
-liba52.so.0 \
 libasound.so.2 \
 libc.so.6 \
 libcurl.so.4 \

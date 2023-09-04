@@ -3,10 +3,10 @@ DESCRIPTION = "This library contains classes to improve the handling of icons \
 in applications using the KDE Frameworks."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "libKF5IconThemes5-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "e991280870f5eb2c07d50588699620cb28f6fea4991acdeeb6eab2edde81f2ef471a7244e19c384f71265c5e834d188d1d4b3ac2f039aa890179e4e5bc84115a"
+RPM_NAME = "libKF5IconThemes5-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "9e52a665a3fd4ced7c6244a75ada40c4567ca17650e4440e157b2f0c8c7c2b7f11d535f23983de1865a5e0466cb48adcfa7334bfaadad96444f66ad5b6918e4c"
 
 RPROVIDES:${PN} += "libKF5IconThemes.so.5 \
 libKF5IconThemes5"

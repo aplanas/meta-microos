@@ -12,10 +12,10 @@ MC needs several other programs for its various extfs extensions, e.g. \
 isoinfo (from mkisofs) or xorriso for the iso:// extension."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.8.29"
+PV = "4.8.30"
 
-RPM_NAME = "mc-4.8.29-2.2.aarch64.rpm"
-RPM_HASH = "53138e356f645922ff74de02eddb0568209b3503ff022aa8fe3e866ef4f82cadd9a7be3cca13d65a180610b7ee082e2e4d0c418f513e123c120cf1d73f0a24f7"
+RPM_NAME = "mc-4.8.30-1.1.aarch64.rpm"
+RPM_HASH = "4288b0857770eae132fd5f3a63bf07593b4e8819f579931c54ff9ffb3e61fe4d5c0a88ba4e3e4afb86d3f0754c53f8eadc56bd4a1fc9bf586fe80f1b1b67be97"
 
 RPROVIDES:${PN} += "config-mc \
 mc"

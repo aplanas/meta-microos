@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.3svn45281"
 
-RPM_NAME = "texlive-randomlist-2023.209.1.3svn45281-54.1.noarch.rpm"
-RPM_HASH = "6ad5e624de21ceaa70e0a532c6304bf9d74436270960ffa2717af881010437c01f77cdec5a3b7de9fcec3eed9b9ffb235f1783d912877afc13e720518e84d821"
+RPM_NAME = "texlive-randomlist-2023.209.1.3svn45281-54.2.noarch.rpm"
+RPM_HASH = "f39d88eef5466710615ee8c1667d66c7ea68008076f39fbb2748aa5d896e0bc2cf85c110f9c545c9a291ebe8ad6559f15a6ac31c61eeeeae89c862b1b66d9dca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-randomlist.sty \

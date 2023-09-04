@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.21.0"
 
-RPM_NAME = "valgrind-devel-3.21.0-1.1.aarch64.rpm"
-RPM_HASH = "584145f4fcaf7c3371c1b0c1d75314b217370903e3d0d0ff68b47c1348373eba38bee15629352bbdd9311debbcebec7e9cece901bb45610a0a2c5a3a8f37af6c"
+RPM_NAME = "valgrind-devel-3.21.0-2.1.aarch64.rpm"
+RPM_HASH = "71d6fb36ba19fc8328565d048d1f90161d57d812d78432bb498f87c1273e7639f432c0c52960c716ed565d5e6b2edcc1b76bfa942393e5b4f2b494f313b43358"
 
 RPROVIDES:${PN} += "pkgconfig-valgrind \
 valgrind-devel"

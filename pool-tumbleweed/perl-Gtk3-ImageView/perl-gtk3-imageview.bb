@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "10"
 
-RPM_NAME = "perl-Gtk3-ImageView-10-1.10.noarch.rpm"
-RPM_HASH = "5da97d0bb840961268ba190bde240bd342d3f3958b78807e5f5351fe289100ad24bdaae180cbd214e0381adabc5d96e818b3ecaee381f4174aba0c1f5585bb80"
+RPM_NAME = "perl-Gtk3-ImageView-10-1.11.noarch.rpm"
+RPM_HASH = "58d3e3686c2711047614844ba62cfe5d78497a1a05d0b0c7f57cbb0665d07ce93d6968fc6f1d562ec72efab1744891a80ce73ef17053de8f6a494e68adc1b003"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Gtk3--ImageView \
@@ -22,7 +22,7 @@ perl-Gtk3--ImageView--Tool--Selector \
 perl-Gtk3--ImageView--Tool--SelectorDragger \
 perl-Gtk3-ImageView"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Cairo \
 perl-Glib \
 perl-Glib--Object--Subclass \

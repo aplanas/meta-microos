@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-sendmail-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "972639fec839a42a58956dc55ccff7f4f4d601ea6ebd947b149caa222e6eebe68741033f4d524f7baa18264ac6e27101c1ed1e58494befcb0d75f434a9535dc8"
+RPM_NAME = "pcp-pmda-sendmail-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "377d7343a68032bd48f646bde1d85071a3892cdf5ed2aa4c0ad27007c2625beabe7be97ee11c4ea8fc1a156a762be8b800949b0118dc72d34fc0d8b8201427ae"
 
 RPROVIDES:${PN} += "pcp-pmda-sendmail"
 

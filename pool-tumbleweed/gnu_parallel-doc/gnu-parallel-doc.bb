@@ -4,10 +4,10 @@ or more computers. \
 This subpackage contains the documentation for Parallel."
 LICENSE = "CC-BY-SA-3.0 & GFDL-1.3-only"
 
-PV = "20230722"
+PV = "20230822"
 
-RPM_NAME = "gnu_parallel-doc-20230722-1.1.noarch.rpm"
-RPM_HASH = "325b01ab56c6dac69d0f1d33e21927737020fba1cdc48097c653cdf2ae0544cd25161ae6e6493fbc2e65e0628317427ff19d6ee582884da00067231bd1b25ba6"
+RPM_NAME = "gnu_parallel-doc-20230822-1.1.noarch.rpm"
+RPM_HASH = "48acf524f7399a3d0a9e16fff727d416aad3ae56ad9780d1f3d94504e0d5e237a83210c8cafbd2147e244806379fe8ed7e786d827ab5764277f14c91b0cf6668"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu-parallel-doc"

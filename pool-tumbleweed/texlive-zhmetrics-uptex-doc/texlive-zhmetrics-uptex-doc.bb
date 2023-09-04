@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn40728"
 
-RPM_NAME = "texlive-zhmetrics-uptex-doc-2023.209.1.0svn40728-53.1.noarch.rpm"
-RPM_HASH = "f16f0de5fbe80f4bf73e233db01e0ae8092ee00209fbf41bc5f590abf88ad287785241f150c59450b71994862101147ace667253e31819abb4ac0a68b5e9a515"
+RPM_NAME = "texlive-zhmetrics-uptex-doc-2023.209.1.0svn40728-53.2.noarch.rpm"
+RPM_HASH = "252726f1253edda494123640e818e60402a9ec3efd6e5f059ee4fbfa8e75fcefcf4c614a5df0aba840f418146f0be55ef30e718de872fea66fea49fe1fffd454"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zhmetrics-uptex-doc"

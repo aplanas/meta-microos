@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn41145"
 
-RPM_NAME = "texlive-zhspacing-2023.209.svn41145-53.1.noarch.rpm"
-RPM_HASH = "e0fe3834cdc38c0a8b450b21c4d8af97b71620d73452d3092d2b76cb082f204ebb8b33a1308d2aefe0e2fce6b40d67c83f4d37de56c8c71a911341b72f10ec77"
+RPM_NAME = "texlive-zhspacing-2023.209.svn41145-53.2.noarch.rpm"
+RPM_HASH = "71e453c55bbd846a1667706518253dffa4440957ffbb9404d8cd2db2b4dcb791650449832212ea822fb7dfe504f87eef11fc6e43df9257de59db94068e8f6373"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-t-zhspacing.tex \

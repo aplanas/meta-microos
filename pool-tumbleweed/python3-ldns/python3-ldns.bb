@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.8.3"
 
-RPM_NAME = "python3-ldns-1.8.3-1.7.aarch64.rpm"
-RPM_HASH = "c24636bdc54e8f1d2a8c08977aa8073d54870d604b6d46686ff2039f92c37cfdeaf56967e671e0edee7d88a797444cf2fd6873d8047c27fa757a7e917b1cccac"
+RPM_NAME = "python3-ldns-1.8.3-1.8.aarch64.rpm"
+RPM_HASH = "b124e0d2c1f931b3623fc6ca3b2d1015ff941854eea6330385705fdddd021297c9c991838abd98467eb90bd6315b90cb5c88a7d37d2fd83bc8df1c5f933c756f"
 
 RPROVIDES:${PN} += "python3-ldns"
 

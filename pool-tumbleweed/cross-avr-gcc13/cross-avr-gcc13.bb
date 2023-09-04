@@ -2,10 +2,10 @@ SUMMARY = "The GNU Compiler Collection targeting avr"
 DESCRIPTION = "The GNU Compiler Collection as a cross-compiler targeting avr."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7597"
+PV = "13.2.1+git7683"
 
-RPM_NAME = "cross-avr-gcc13-13.1.1+git7597-1.1.aarch64.rpm"
-RPM_HASH = "c40e2e8d37e39c8025774dd45b09248872bab79b510ede2ce4dfc27e99994ea57d3874e008eaa276635e2e0bf90a4518e7e1f8e92877aa59aaab8bff5d84c2bb"
+RPM_NAME = "cross-avr-gcc13-13.2.1+git7683-1.1.aarch64.rpm"
+RPM_HASH = "ec0b89b16100027103ea4000ac93ca4a127e7fe2aa0a379c0fc4b73515758052fe25f828a375905dabc1b2e114472a05a3f942d245cabba4444427c4eaaf0019"
 
 RPROVIDES:${PN} += "cross-avr-gcc13"
 

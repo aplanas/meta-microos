@@ -11,13 +11,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.21"
 
-RPM_NAME = "perl-Net-CIDR-0.21-1.11.noarch.rpm"
-RPM_HASH = "30d732da488b5bda23e03cb7755f64653d3c2469454760dc013152ca55d9ca75a188316e33f21acba8bfea3e668aae127f81b81139ef46c477c28afa95422c2e"
+RPM_NAME = "perl-Net-CIDR-0.21-1.12.noarch.rpm"
+RPM_HASH = "578ab7430ddef20486cb4606d521ff47c20e3712e071e39802b0671fc4f409c1b7415df228d434cc9919f4b9a6b40863aba401a878ea00bc39acc3ec93f8e71f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--CIDR \
 perl-Net-CIDR"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn46894"
 
-RPM_NAME = "texlive-l3build-bin-2023.20230311.svn46894-93.1.aarch64.rpm"
-RPM_HASH = "640ba006a736eb100d7f3cfd89c160ccd908bce7e577c006a30cd9b4f3a4cbc913091ad744efa1db6618917fc4bf0c292bde78abdaadad25efcc0bad3cfd8416"
+RPM_NAME = "texlive-l3build-bin-2023.20230311.svn46894-93.2.aarch64.rpm"
+RPM_HASH = "ef63e50331b955f89787d1cea86e7951ecfc27f7c5405e2c3de4b51c3b925feebdbeaafd362196b7bc3de83a0d61aee7af0b40516702850d85b2610611c42dd3"
 
 RPROVIDES:${PN} += "texlive-l3build-bin"
 

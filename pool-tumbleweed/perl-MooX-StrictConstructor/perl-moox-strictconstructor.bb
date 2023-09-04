@@ -12,15 +12,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.011"
 
-RPM_NAME = "perl-MooX-StrictConstructor-0.011-1.11.noarch.rpm"
-RPM_HASH = "548cad5e8ff2f441f6488b401ca1a802889658120a7f6eadbc131dc2729b0605a7c5023130a909bb0ff521272518a83f8bc627dbd7f3a99e4b9b411da6235a91"
+RPM_NAME = "perl-MooX-StrictConstructor-0.011-1.12.noarch.rpm"
+RPM_HASH = "85c72d4a9e01557692234601b6727578f713bf46f65f2bd985a077b123b4ea8456e363f7235c91bd8eedfdf92cf4ab09ee0a1ea56dfcf11c2e9018d86dc4d958"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Method--Generate--Constructor--Role--StrictConstructor \
 perl-MooX--StrictConstructor \
 perl-MooX-StrictConstructor"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Class--Method--Modifiers \
 perl-Moo \
 perl-Moo--Role \

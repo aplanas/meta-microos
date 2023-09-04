@@ -14,8 +14,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.55"
 
-RPM_NAME = "perl-AnyEvent-WebSocket-Client-0.55-1.2.noarch.rpm"
-RPM_HASH = "fe01e25823141e37683ce527ca85327bff2e0ad29b642bf28896d020c82c60af002d291593d1fde826c36bd898ea861c0842fbb37557ae91a7092f48b54e7db4"
+RPM_NAME = "perl-AnyEvent-WebSocket-Client-0.55-1.3.noarch.rpm"
+RPM_HASH = "f8114ca5b2f9652a03ec1632137c4f7db2fce7fe5afab8e4ff4c85d7b1190dd1e7cf27c65b716d2b1520a48b651b66ce8fb72d69e9ef0b1fe18409d7e6aa8604"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-AnyEvent--WebSocket--Client \
@@ -23,7 +23,7 @@ perl-AnyEvent--WebSocket--Connection \
 perl-AnyEvent--WebSocket--Message \
 perl-AnyEvent-WebSocket-Client"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-AnyEvent \
 perl-AnyEvent--Connector \
 perl-Moo \

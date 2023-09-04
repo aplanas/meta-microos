@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-haproxy-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "cd8654ce73611799c9f51c9ed9cf6a5d46d8ac3de0cc31c765bec78f56b26be133c97a7385b39a958eb8dffc13d72cf5fd6f9635df1eea8a3fbefdec195e46b0"
+RPM_NAME = "pcp-pmda-haproxy-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "9f3531f7fad9133fb41fd66eff92fcf245dcb2ceff3a946177f52f2509c1bc85297b4a6ab936448e323d7eb5396b3f94e9098435c3bd76bcfffeaae064464149"
 
 RPROVIDES:${PN} += "pcp-pmda-haproxy"
 

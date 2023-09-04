@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn66203"
 
-RPM_NAME = "texlive-dvips-2023.209.svn66203-54.1.noarch.rpm"
-RPM_HASH = "d044ee3e0b87e471ed252f77aa8e31b5e4ced79df82af04ca1d756e551114c299347356d107c1c51599e8ee74cf7b93d426992439880fe7a9d10c38100d719d5"
+RPM_NAME = "texlive-dvips-2023.209.svn66203-54.2.noarch.rpm"
+RPM_HASH = "4d1461a196ed5cb484a389bbd3919294e1b8e98dc73fef9164faee2ea36460c0e43bd3a7b4046e6a9f11e4cb8affa2d7fbf0f19451971578f3e423ab887faf59"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-dvips \

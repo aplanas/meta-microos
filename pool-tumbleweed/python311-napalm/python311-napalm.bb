@@ -3,10 +3,10 @@ DESCRIPTION = "NAPALM is a Python library that implements a set of functions to 
 interact with different router vendor devices using a unified API."
 LICENSE = "Apache-2.0"
 
-PV = "4.0.0"
+PV = "4.1.0"
 
-RPM_NAME = "python311-napalm-4.0.0-2.6.noarch.rpm"
-RPM_HASH = "88ee2c7cf1f2cce3381a99dead1cafa389c8eaff70eb6f1fc5ddcb9c47c787507ffee03e65e1660c0ba59695fa8bfbaf3448f91d2910f4d9e24e92b6ebfaa5bd"
+RPM_NAME = "python311-napalm-4.1.0-1.1.noarch.rpm"
+RPM_HASH = "5b60e70778dfde443e1349a2e2140ad3d0961d7c951adfc78b2785cde51c84023073e48946db2a83c222f3931f74c907c25fa24240af1ad9c61321e6b6d6b46f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-napalm \

@@ -4,13 +4,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.0.2"
 
-RPM_NAME = "ghc-sop-core-prof-0.5.0.2-4.6.aarch64.rpm"
-RPM_HASH = "fe477856778bf1b0b27e3fe4cb4eb52c83b8d2731567f862d577f60cb26b4eab279ce07a218326f03c8480ac52c5486793eb654bb1020c2a0b362050a3fa2eee"
+RPM_NAME = "ghc-sop-core-prof-0.5.0.2-4.8.aarch64.rpm"
+RPM_HASH = "5eae2444e6718a2963b2763d693c0bceeca2623cd837e3d701b8d9db83ae8a5106270e226631fa56470d4965057256cd900ea5a15d4872264e172757bbbb728f"
 
-RPROVIDES:${PN} += "ghc-prof-sop-core-0.5.0.2-C2iIEVjE1N8Lg8Q4QDHkLe \
+RPROVIDES:${PN} += "ghc-prof-sop-core-0.5.0.2-4Gqw6OnhbZAJM3BBTi5hGD \
 ghc-sop-core-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
 ghc-prof-deepseq-1.4.8.0 \
 ghc-sop-core-devel"
 

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
 PV = "2.7.2"
 
-RPM_NAME = "libwsman-devel-2.7.2-2.8.aarch64.rpm"
-RPM_HASH = "62ff3d46c6600cc95bff3e4c74a2d533593c3b26ec7aefccbbce56701c03af8968b15a6a6f04473570a52659a43db960f799966c4ac511462f5a43b1f5e35099"
+RPM_NAME = "libwsman-devel-2.7.2-2.9.aarch64.rpm"
+RPM_HASH = "da389f3002d1ef8f665971a7698794fbe3a8b718cfa5f63b04a381028f907fa23bedfee304f0b66ae49eb1b881cf9b125257122a684c63a917bd0efd68bcfd96"
 
 RPROVIDES:${PN} += "libwsman-devel \
 openwsman-devel \

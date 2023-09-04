@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.0.1"
 
-RPM_NAME = "python39-lscsoft-glue-3.0.1-1.6.aarch64.rpm"
-RPM_HASH = "2361aa7c26fe6a32d439e7aca6631545b80c4df6a60dc0cf1882884b5fecd2a92c0a87e6052275b1adadf39ccf12d848b97a941635cb756b47329b4e4fb626ba"
+RPM_NAME = "python39-lscsoft-glue-3.0.1-1.7.aarch64.rpm"
+RPM_HASH = "fbfccdac7611e029ac9fa85d928dc1d82ed18131dbce1611619deb3f9cf1e203206b0ab0d1971d8889d172db9f399a1a1f0934da3f77d8ec9f1c668298f2e68a"
 
 RPROVIDES:${PN} += "python-glue \
 python3.9dist-lscsoft-glue \

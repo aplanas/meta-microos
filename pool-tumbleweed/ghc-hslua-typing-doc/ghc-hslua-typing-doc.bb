@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.1.0"
 
-RPM_NAME = "ghc-hslua-typing-doc-0.1.0-1.2.noarch.rpm"
-RPM_HASH = "d2daa8dc369fa3488a10c276b9c50b59a8810a7f901b3c3c7edef8cf55d1adaa218d3210e2f0ab0df2b6ac77aa7053c18e356ebec6df7e83190292a5b12f97b8"
+RPM_NAME = "ghc-hslua-typing-doc-0.1.0-1.3.noarch.rpm"
+RPM_HASH = "5f8b7e1fc279e96d85bf5108a78a24c26f7c7c605d971661b4fa0517a99b7f9b9faf928acb8e7ed1d59a86c7ce9ae8034947799693552f584742a6e11fd35cb1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-hslua-typing-doc"

@@ -7,14 +7,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.1.2"
 
-RPM_NAME = "jupyter-ipydatawidgets-jupyterlab-7.1.2-9.4.noarch.rpm"
-RPM_HASH = "a5f7e18dbb56be95c892ba04db5a6534564b85e2d970d36127f5c4665c2a221c34fc51b1053d82a12da50c5782dd16e21378f659f9f0816344f182b26df66276"
+RPM_NAME = "jupyter-ipydatawidgets-jupyterlab-7.1.2-10.1.noarch.rpm"
+RPM_HASH = "523ad3c22ab90ff9e97a33b2b0838487d95031683d65ec188b3c5a6b2251cbefc8acb661e331bfcfc45a3700c338ec85d6d12e46dc07bb28fe365fcdfcfa7404"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-datawidgets-jupyterlab \
 jupyter-ipydatawidgets-jupyterlab"
 
-RDEPENDS:${PN} += "jupyter-ipydatawidgets \
-jupyter-jupyterlab"
+RDEPENDS:${PN} += "jupyter-jupyterlab \
+python3dist-ipydatawidgets"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Kashmiri localization files for LibreOffice"
 DESCRIPTION = "Provides Kashmiri translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-l10n-ks-7.5.4.2-1.5.noarch.rpm"
-RPM_HASH = "3a3b1abf0d15f76bb72aedfb0df44460028b03249177cc50155819e08bd052bead9e065f99c6acdf5a3a76f68b453908b265f092aeca6e676daae4b7d357d2d3"
+RPM_NAME = "libreoffice-l10n-ks-7.6.0.3-1.1.noarch.rpm"
+RPM_HASH = "290cf56395e73cb848bdb524244d4862af5b225b36debfaa18baf3ee3c3e199d930a5237153afe3944574b2db173b6aad300d4d95c851f3678156a12c9b76e31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-ks \

@@ -11,8 +11,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.2.1svn64917"
 
-RPM_NAME = "texlive-hep-paper-2023.209.2.1svn64917-54.1.noarch.rpm"
-RPM_HASH = "eaf6c8d89b1bcd1c8dc45fdc83d38ea04dacacce20ed234895a3400b39be61d9d093e6739e6ff3fed47c111b40dc27833ec584095d4795e5a374a222f1e05111"
+RPM_NAME = "texlive-hep-paper-2023.209.2.1svn64917-54.2.noarch.rpm"
+RPM_HASH = "a2da0f73b9ed3ea7db6970b4e73e5259d4888f04a511b846e21b04f0bedafc93c9dea30d7629556c107022e851a8a9736a66c1511a3070e575dff38d17d6e6bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hep-paper.sty \

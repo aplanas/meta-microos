@@ -15,10 +15,10 @@ Authors: \
     Ian Pratt <ian.pratt@cl.cam.ac.uk>"
 LICENSE = "GPL-2.0-only"
 
-PV = "4.17.1_06"
+PV = "4.17.2_02"
 
-RPM_NAME = "xen-tools-4.17.1_06-1.1.aarch64.rpm"
-RPM_HASH = "cdbe2b44d72999854824ca10fcf36e86629f41beef271695448eedc66da3d4a206bffdc16a10bcc0f73c60e896aabea1441824f30a46dd3bff2088f927476263"
+RPM_NAME = "xen-tools-4.17.2_02-1.1.aarch64.rpm"
+RPM_HASH = "86e7ebfb830acfe6ac2bfd1814ed5eaff738e6ad3414484235d7175e4a62f0ac70b90031b5fa45d6f325ff40ec1ba12218c6086cb4cc27e0bca3a315be046070"
 
 RPROVIDES:${PN} += "config-xen-tools \
 xen-tools \

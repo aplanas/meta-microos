@@ -4,8 +4,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.06"
 
-RPM_NAME = "perl-Text-German-0.06-1.28.noarch.rpm"
-RPM_HASH = "e96a50ff83140a725403b8317e57a0604e7a9d97ad7bc3d7472d6eef4cbeea17dd12ed6afc5c2f3e0e44280c47360d37a395b021dfc7e47873de25bedfde5ead"
+RPM_NAME = "perl-Text-German-0.06-1.29.noarch.rpm"
+RPM_HASH = "167cfe79b2ec6fbd677869e2bdb68e45389dd47b6ee80492d5b848bfbdaf59502574898c6854555c89926ae51e413add9a5860c86aa8bf33c7e44b93f6597d95"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--German \
@@ -19,6 +19,6 @@ perl-Text--German--Verb \
 perl-Text--German--Vorsilbe \
 perl-Text-German"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

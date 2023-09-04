@@ -17,13 +17,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.39"
 
-RPM_NAME = "perl-indirect-0.39-1.20.aarch64.rpm"
-RPM_HASH = "396bb9e8dcd285f13946c52f51d945b2ff119cc89ac7c020ce196285133dea4ffa8f308f4764987982a66b260aa9ed7c0c7c5d20b1f108876f1ecf1ac720b962"
+RPM_NAME = "perl-indirect-0.39-1.21.aarch64.rpm"
+RPM_HASH = "3b7a547eb1cb4d2a01da96997e5e6adb9968e759be92cfbf88e50241ba64a0d6f3775267e7311dda88ae19c647cc666a7b1a5a1fad1b35b2ab34a44ba7c26547"
 
 RPROVIDES:${PN} += "perl-indirect"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

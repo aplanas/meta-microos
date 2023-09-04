@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn45712"
 
-RPM_NAME = "texlive-guide-to-latex-2023.209.svn45712-54.1.noarch.rpm"
-RPM_HASH = "9d403eafac662339dce247efe7070c81f4f3626ec0875d396933914de411be7eed195e6d00eb93c7893cba9a058ceb01ec8ce0783101dc2cdd459e8ebb617076"
+RPM_NAME = "texlive-guide-to-latex-2023.209.svn45712-54.2.noarch.rpm"
+RPM_HASH = "46a4e31ee295ef679436426eb6b2770ad8db33fa2d3523cc8fc9ea0097a5b5b5e869f9372bbaaaf0ea68ac11a57402f656918f21f4f1df78e22decac0f61701d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-guide-to-latex"

@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0.1svn54512"
 
-RPM_NAME = "texlive-xkcdcolors-2023.209.1.0.1svn54512-53.1.noarch.rpm"
-RPM_HASH = "db209e03a7b0585b669cb9a57c2dd85d7ed162e49b3661a275be926efad7a52343240889c839bcde0690d5f3675e321431910fc6b0ac377015e0f4b11d54cb87"
+RPM_NAME = "texlive-xkcdcolors-2023.209.1.0.1svn54512-53.2.noarch.rpm"
+RPM_HASH = "adc524ea7d4b95fc3cb7aa20b6730a0a6d403dcf06b540fb2e2e592a14c537f6d4deba59c7bc32f575ea15d54a75098ec52e593b23e516894fcd5afebe30a070"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xkcdcolors.sty \

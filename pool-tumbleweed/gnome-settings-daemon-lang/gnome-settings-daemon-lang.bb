@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-only"
 
 PV = "44.1"
 
-RPM_NAME = "gnome-settings-daemon-lang-44.1-1.1.noarch.rpm"
-RPM_HASH = "d54aef660db1e518aec60177814abb368b4c9b300217d0a0ad4bed2bbf4bbfa55648ffebb17c48bd8db446ee953e9e896d20c51e2950f71af2f8c6493972876d"
+RPM_NAME = "gnome-settings-daemon-lang-44.1-2.1.noarch.rpm"
+RPM_HASH = "0842e554dadae5c49f3316bde4167af7436950c0fd70cb21c79b6ee28f484e83d32f60bf450b6f6e3c6d8dc1c9c88f9212af57ae275498d96be275ffc22d71b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-settings-daemon-lang \

@@ -7,10 +7,10 @@ capabilities and communicate with the device drivers and build a \
 completely dynamic GUI based on the services provided by the device."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later"
 
-PV = "2.0.2"
+PV = "2.0.3"
 
-RPM_NAME = "libindiAlignmentDriver2-2.0.2-1.1.aarch64.rpm"
-RPM_HASH = "d221f5a50b8d2c6a3adbf30d885ae375f576c05fbce80613abfad0d4f40ec547ecefaea1a6fe4ae995d0dc7775c0a5a346328ac7ee03a30cd02e88870699b060"
+RPM_NAME = "libindiAlignmentDriver2-2.0.3-1.1.aarch64.rpm"
+RPM_HASH = "061cf11c3cdb1658652857a1a409b53b880c97c0a3568a78be9f27fad4f52c9523b021548a6f112ff9ad54411798531c483f8dc81747d80a28951adfb4c933c1"
 
 RPROVIDES:${PN} += "libindiAlignmentDriver.so.2 \
 libindiAlignmentDriver2"

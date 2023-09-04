@@ -16,8 +16,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.33"
 
-RPM_NAME = "perl-File-MimeInfo-0.33-1.4.noarch.rpm"
-RPM_HASH = "cdae432b14c765baf013edcb9fcd952934b70488c9a8aa084f6b8a35dc2f85c638bff14bdd844d846b14ac2507d23edd933058bf527d98c3bdde32cc5c071b1d"
+RPM_NAME = "perl-File-MimeInfo-0.33-1.5.noarch.rpm"
+RPM_HASH = "2df576cce6a98f7d3ad7f35810e56e79e96a3428f3d3fdc1ffe21a752f3ab12e772b067cd26dfe24edcab4da2f2c7be8bb3192221e96fdf9ffe8fbafc8f092b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--MimeInfo \
@@ -27,7 +27,7 @@ perl-File--MimeInfo--Rox \
 perl-File-MimeInfo"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Encode--Locale \
 perl-File--BaseDir \
 perl-File--DesktopEntry \

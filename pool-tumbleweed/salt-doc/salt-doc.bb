@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3006.0"
 
-RPM_NAME = "salt-doc-3006.0-1.4.aarch64.rpm"
-RPM_HASH = "aa9f743bf4ca839ce03006c71dc4c99688bed5459d06fd16dabf992991794a700beb720dfdc0138dc5d8629b28cd3f5cb6331d3353466d869feed4e8d0f07860"
+RPM_NAME = "salt-doc-3006.0-2.1.aarch64.rpm"
+RPM_HASH = "bb9058867ac40ca17fddfd9416a0449c7149908d4e44bbdea3f93cd00c702cf2033d566f79ef2b0ee0b74f5e22e78945a6d6f02c741ae71284bfebc95c5b3b69"
 
 RPROVIDES:${PN} += "salt-doc"
 

@@ -6,10 +6,10 @@ It implements the complete mapping interface and can be used as a drop-in replac
 The only difference is that the copy() method of immutable takes variable keyword arguments, which will be present as key/value pairs in the new, immutable copy."
 LICENSE = "MIT"
 
-PV = "2.2.5"
+PV = "3.0.0"
 
-RPM_NAME = "python310-immutabledict-2.2.5-2.1.noarch.rpm"
-RPM_HASH = "732f551bc54aebd0e04256056cd71cf32f87e53a0f7bd29fdc59a90b70772f20af02f40b01fcc0ee3a2c7c090d4e7ad2d97db9af4cb1fdbac2ca676ba0c59083"
+RPM_NAME = "python310-immutabledict-3.0.0-1.1.noarch.rpm"
+RPM_HASH = "edac0abf05284024927d9e9f906d1b2357e0f3b523d5da654ad3891cb7b0604a158b400544d4c5f8d7ff649e84a436ef9446cac92eb6114a82f4d448c73ff408"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-immutabledict \

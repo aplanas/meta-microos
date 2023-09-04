@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Qualcomm device drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230724"
+PV = "20230814"
 
-RPM_NAME = "kernel-firmware-qcom-20230724-1.1.noarch.rpm"
-RPM_HASH = "d1d873c932a11d8142d4c634f1ee71287b7f58efa99537a8ad8a9e5f1faf18dce54d746754747e3405c6fce16f2b6dae66e1f2acd2f108120455ab7bbc0dc550"
+RPM_NAME = "kernel-firmware-qcom-20230814-1.1.noarch.rpm"
+RPM_HASH = "6775a053c66406155fab78b7d51940578f06f35138cdb3131cfc5dbbecce2a0acc150ec190954d0ad3a9255bfe5bba66e3322c04f94487981b40fa9dcc3deb94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-a300-pfp.fw \
@@ -48,6 +48,9 @@ firmware-qcom/sc8280xp/LENOVO/21BX/qcadsp8280.mbn \
 firmware-qcom/sc8280xp/LENOVO/21BX/qccdsp8280.mbn \
 firmware-qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn \
 firmware-qcom/sc8280xp/LENOVO/21BX/qcslpi8280.mbn \
+firmware-qcom/sdm845/Thundercomm/db845c/slpi.mbn \
+firmware-qcom/sdm845/Thundercomm/db845c/slpir.jsn \
+firmware-qcom/sdm845/Thundercomm/db845c/slpius.jsn \
 firmware-qcom/sdm845/a630-zap.mbn \
 firmware-qcom/sdm845/adsp.mbn \
 firmware-qcom/sdm845/adspr.jsn \

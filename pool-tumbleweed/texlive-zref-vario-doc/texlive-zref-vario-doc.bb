@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.1.7svn65453"
 
-RPM_NAME = "texlive-zref-vario-doc-2023.209.0.0.1.7svn65453-53.1.noarch.rpm"
-RPM_HASH = "dc5354d6434a2d1da6cee352cd4b92cb81902626ab39ba1b55aff782475a1198461edd71fce05009974f527669cfb554a562e451e494cc0ed603684b92dbc65a"
+RPM_NAME = "texlive-zref-vario-doc-2023.209.0.0.1.7svn65453-53.2.noarch.rpm"
+RPM_HASH = "a5f207be1589056653be44e568345cdd222b6e66ce2d4692ae8f5b4aaed6652bb5bdde7e89d8ece2dafbf371ef01e525fa486e27f70ab3fcc452a14561839258"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zref-vario-doc"

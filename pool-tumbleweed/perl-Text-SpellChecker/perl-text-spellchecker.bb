@@ -11,14 +11,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.14"
 
-RPM_NAME = "perl-Text-SpellChecker-0.14-2.22.noarch.rpm"
-RPM_HASH = "88a926bbbef1a41aca3129b9191bc5268bfb73809eaabd564835a4f8dc32f807b62aac162e62c3502fb2a5eb3df106c1118291e0ae6c0af199333992c0273423"
+RPM_NAME = "perl-Text-SpellChecker-0.14-2.23.noarch.rpm"
+RPM_HASH = "d816e18c0e958787fdc72442b3e8bcf776675d91d7658ad5817019d5014123a00211dd87b6b7ab90b23f0b70109669549e8d03a31ebec0893e4a591ca39e32a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--SpellChecker \
 perl-Text-SpellChecker"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Text--Hunspell"
 
 inherit rpm

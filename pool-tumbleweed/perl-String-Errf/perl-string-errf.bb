@@ -8,14 +8,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.009"
 
-RPM_NAME = "perl-String-Errf-0.009-1.3.noarch.rpm"
-RPM_HASH = "fcd10bc0dc68d9724b46f6617b76fc7fb8a7f7a95c05283a62dba06114aae606c4a2df0e30654f726db32f2e3e5c2aa3e7a85ae45d2f889b556a4848a4ec8520"
+RPM_NAME = "perl-String-Errf-0.009-1.4.noarch.rpm"
+RPM_HASH = "a1f7185506b6ea74807ac76ae797cd0cb93857e2d6c46487657b800535ee7eaf95709d5cd8d5347aaa6c199b459c80b5db01e8048e3c307cf86e154947bcd37d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-String--Errf \
 perl-String-Errf"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Params--Util \
 perl-String--Formatter \
 perl-Sub--Exporter \

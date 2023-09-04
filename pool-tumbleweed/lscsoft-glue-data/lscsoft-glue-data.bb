@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "3.0.1"
 
-RPM_NAME = "lscsoft-glue-data-3.0.1-1.6.aarch64.rpm"
-RPM_HASH = "cc331bdba6e499b7f16c9fc5fca73be85916d6b16c7ca3ed7cfb1ceeb12186d5e5b4bc445304c657ee403ef0ec25cadbe690c6e3cfb03aed2d8b9c0b814823cc"
+RPM_NAME = "lscsoft-glue-data-3.0.1-1.7.aarch64.rpm"
+RPM_HASH = "5c36bf17823800dc4e8c623c9097fd7ba3101cf8aae4cedf63c455264ce00bd129b3c1ce5504bba4cf9ea3437128f5f41713fd9ae0647b37f73688595b57559e"
 
 RPROVIDES:${PN} += "lscsoft-glue-data"
 

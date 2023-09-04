@@ -4,10 +4,10 @@ libraries. It provides credentials Azure SDK clients can use to authenticate \
 their requests."
 LICENSE = "MIT"
 
-PV = "1.13.0"
+PV = "1.14.0"
 
-RPM_NAME = "python39-azure-identity-1.13.0-1.2.noarch.rpm"
-RPM_HASH = "d0acbb25ae73a977e81d4dc6a4f5ffd4fcaec6c27774bdd2296d25a65e9f040e7ddfbefd888d6dd2b3fbd43c6adfa4c4633b8b0a2da96ffa8e3be36a68e3d8a0"
+RPM_NAME = "python39-azure-identity-1.14.0-1.1.noarch.rpm"
+RPM_HASH = "85c9f85b97ca4d16515a749d1d9bf08160d0c822969cb0d94aa5c14cb868d8e8669cdae346475dabd3a57ac43e5314b4ff125a33dd08f93be215465d2ce41b24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-identity \
@@ -19,7 +19,6 @@ python39-azure-core \
 python39-azure-nspkg \
 python39-cryptography \
 python39-msal \
-python39-msal-extensions \
-python39-six"
+python39-msal-extensions"
 
 inherit rpm

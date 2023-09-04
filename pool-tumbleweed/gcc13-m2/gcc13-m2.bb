@@ -2,14 +2,15 @@ SUMMARY = "GNU Modula-2 Compiler"
 DESCRIPTION = "This package contains a Modula-2 compiler."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7597"
+PV = "13.2.1+git7683"
 
-RPM_NAME = "gcc13-m2-13.1.1+git7597-1.1.aarch64.rpm"
-RPM_HASH = "d2bdd30fce519c8d76aafd5412dc9ee86978c53a31381f5638362f96f1f3c42a7653be80a49e3f9734a14ec33b3ec2c4d99af4f39b3a2d4170d9d928be71f8ec"
+RPM_NAME = "gcc13-m2-13.2.1+git7683-1.1.aarch64.rpm"
+RPM_HASH = "31e55780eac3f7fd87cc03a81080290cc7ef68777a26e84e499d7c7b785c0507b77dc60645791179fe19820f17819d02076c0bad3b22be21bb14f1a1f08b68a0"
 
 RPROVIDES:${PN} += "gcc13-m2"
 
 RDEPENDS:${PN} += "gcc13 \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgmp.so.10 \
 libisl.so.23 \

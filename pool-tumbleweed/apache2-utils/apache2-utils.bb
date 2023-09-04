@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.57"
 
-RPM_NAME = "apache2-utils-2.4.57-1.1.aarch64.rpm"
-RPM_HASH = "0b856a7dba92069f6b91731e1d4f264c0a2ad6d3d1df12672f449deef67da59893b855bdaab85ee3f11eebf4e5456c6559fce1354780de4384dc9fb8353fafe1"
+RPM_NAME = "apache2-utils-2.4.57-2.1.aarch64.rpm"
+RPM_HASH = "ddee3baef662a18926decc1c619e84606e08d4215b40a1d1bb0fe5faeae7c974004b6355fc9cca99114163d08f8e42ea13f0b2e5612c4a0f1fbda00c50a65df6"
 
 RPROVIDES:${PN} += "apache2-utils"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "These libraries are needed to develop programs which calculate wi
 huge numbers (integer and floating point)."
 LICENSE = "(GPL-2.0-or-later | LGPL-3.0-or-later) & GPL-3.0-or-later"
 
-PV = "6.2.1"
+PV = "6.3.0"
 
-RPM_NAME = "gmp-devel-6.2.1-4.16.aarch64.rpm"
-RPM_HASH = "44d36395ce97dcb78beb8e22e02fdf10fce926d4056aaef55b4e931169ea77f4e32df23cdf4b71fed31debf3f9ee9ad2ebd7c8f328b871ebbeefad065d98817f"
+RPM_NAME = "gmp-devel-6.3.0-1.1.aarch64.rpm"
+RPM_HASH = "8e217267b58af93d9c1b59dcd131cf29c7dd69c44a5e07e4c17572c7a6ac93b2269769a1929863cd571144c4c8aa1f46e4ed4db51c4b284c002fedda804e4688"
 
 RPROVIDES:${PN} += "gmp-devel \
 pkgconfig-gmp \

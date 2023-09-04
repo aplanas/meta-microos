@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-elvish-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "093c951884d8be751dd5177dc264fb1ca7b594c1e3d8203c9b55e81bae3f1a39fd16f06e420d210f98c41be33114c1369c95462fac2d4ced357be773f0af8535"
+RPM_NAME = "texlive-elvish-2023.209.svn15878-54.2.noarch.rpm"
+RPM_HASH = "0824f08ae6a25b86f44a1631c97ac0f58a80ebc1ea08d43e8b3c9e96c62f093c7bef3fb33875af858ad1864b8c91d21c3cd072004fc2702e44b55a507d92e008"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cirth.tfm \

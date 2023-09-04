@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "6.3.5"
 
-RPM_NAME = "texlive-kpathsea-devel-6.3.5-93.1.aarch64.rpm"
-RPM_HASH = "b29fae2fe668ae5c221419d56bcc35ffbbdedefb03ccf4e401948063f819b4844864c4159eec119337c84711bc8ee7c7d0e2bb36948e676524dcd61c4cf98778"
+RPM_NAME = "texlive-kpathsea-devel-6.3.5-93.2.aarch64.rpm"
+RPM_HASH = "32ce6371463c8612da54231586e249e4cb5bb558026dc522cf235bf77c58f6f6a640b9abe848af3a352045e881b86bd6f96aa89b08e72fd821af8a53960b4278"
 
 RPROVIDES:${PN} += "pkgconfig-kpathsea \
 texlive-kpathsea-devel"

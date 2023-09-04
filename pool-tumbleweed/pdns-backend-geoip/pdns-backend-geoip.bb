@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.8.0"
 
-RPM_NAME = "pdns-backend-geoip-4.8.0-1.1.aarch64.rpm"
-RPM_HASH = "b54898208d250b7d5ad3287f1d6a5a2b053fcd611b4afb4618b6973fafb28f43f899bc221fd51a7ce4ba6d37ea5d0fab5403f3dd720eb8a98ffe4ebbf01562d6"
+RPM_NAME = "pdns-backend-geoip-4.8.0-1.2.aarch64.rpm"
+RPM_HASH = "05ff5b9d3e33ee9a407f1d4efd82c3f0dcc25f4ca79a32104cf988ab5e3690a9746debbae9444f3dcbe5e8f5959369d05e921dad359df4e73fc7e2f8d8d125c4"
 
 RPROVIDES:${PN} += "libgeoipbackend.so \
 pdns-backend-geoip"
@@ -18,7 +18,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libmaxminddb.so.0 \
 libstdc++.so.6 \
-libyaml-cpp.so.0.7 \
+libyaml-cpp.so.0.8 \
 pdns"
 
 inherit rpm

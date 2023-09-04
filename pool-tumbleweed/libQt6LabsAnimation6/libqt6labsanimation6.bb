@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 LabsAnimation library"
 DESCRIPTION = "The Qt 6 LabsAnimation library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "libQt6LabsAnimation6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "b46cc15b3d199fc3f1174f0132affc2229627fd83cc9cbcff97c1680bd3880309763e7faca8201cb37eeefa6f057a0b388f939a9d3d5a807fb9466683df1692a"
+RPM_NAME = "libQt6LabsAnimation6-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "647d9abe1ce3156a29941c1199353757499d1e03423770917654e86541310c37efbb3f3d8e02f2ca65f90aa473dc888580e6c7e6ef9482697ad9cb5c9f0ab6e7"
 
 RPROVIDES:${PN} += "libQt6LabsAnimation.so.6 \
 libQt6LabsAnimation6"

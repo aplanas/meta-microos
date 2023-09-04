@@ -4,37 +4,37 @@ LICENSE = "MIT"
 
 PV = "3.1.7.4"
 
-RPM_NAME = "ghc-wai-app-static-prof-3.1.7.4-2.8.aarch64.rpm"
-RPM_HASH = "6f3f5bbf0d7924ef37eb6c11f6cb34a3d8f00607747e10e4291e33e6e7ac9f75877861bd34916a020dcdb3713441a59a8c8f3e1d3e4389c0bbdce82d7bd842cf"
+RPM_NAME = "ghc-wai-app-static-prof-3.1.7.4-2.12.aarch64.rpm"
+RPM_HASH = "1232dd9a5c0a4936bdce66e5c2f9bb41bac5a466c1533295e4baee17c1f8d1207ed6b53a11cdedb71eff192590dc8d51639cb9ea83a241e2e94af5cae424f444"
 
-RPROVIDES:${PN} += "ghc-prof-wai-app-static-3.1.7.4-AZD11N92jseJEftpoR1SbX \
+RPROVIDES:${PN} += "ghc-prof-wai-app-static-3.1.7.4-4gPGtaPPrElL5voDUXdKV2 \
 ghc-wai-app-static-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
-ghc-prof-blaze-html-0.9.1.2-38lyFDueaN76YOL6QIMVAR \
-ghc-prof-blaze-markup-0.8.2.8-1rqnOPcdOmIw0iYwB3Kqc \
-ghc-prof-bytestring-0.11.4.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
+ghc-prof-blaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX \
+ghc-prof-blaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9 \
+ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-containers-0.6.7 \
-ghc-prof-cryptonite-0.30-cxpuRFsDaEEZnBeTxvUaJ \
+ghc-prof-cryptonite-0.30-LSC76M64GQaFgLGwFfgIgW \
 ghc-prof-directory-1.3.7.1 \
-ghc-prof-file-embed-0.0.15.0-LJLaBgMyS4K2tBVYbzJ0uw \
+ghc-prof-file-embed-0.0.15.0-DAhwsrlSNND3ZIPejkHOUv \
 ghc-prof-filepath-1.4.2.2 \
-ghc-prof-http-date-0.0.11-IfCBGXPFiMuIKzFtOTNgnD \
-ghc-prof-http-types-0.12.3-4BrMFwRucoT4fBt8cCVFS6 \
-ghc-prof-memory-0.18.0-8CsggfkyXReDSMbRoae4Yp \
-ghc-prof-mime-types-0.1.1.0-IrWGRRDe33Y1D55h7nh7fm \
-ghc-prof-old-locale-1.0.0.7-B5o2Qz0CVVSCB1XGw7OfzR \
-ghc-prof-optparse-applicative-0.18.1.0-EzAv0xKPJOa274kXT9Znff \
+ghc-prof-http-date-0.0.11-HoNgmNPQQe1ErFjujEoPyv \
+ghc-prof-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
+ghc-prof-memory-0.18.0-6jbQrbksm9m3FIftlSlmf1 \
+ghc-prof-mime-types-0.1.1.0-oV8uh4Pssd1mRIrSbk6Ab \
+ghc-prof-old-locale-1.0.0.7-GoDuSK2NybfD0MMe75QkJk \
+ghc-prof-optparse-applicative-0.18.1.0-7FhZIXYdOMtK1gl2fqKmzm \
 ghc-prof-template-haskell-2.19.0.0 \
 ghc-prof-text-2.0.2 \
 ghc-prof-time-1.12.2 \
 ghc-prof-transformers-0.5.6.2 \
-ghc-prof-unix-compat-0.6-79KxxZMmklx25hsmeEnenN \
-ghc-prof-unordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E \
-ghc-prof-wai-3.2.3-B6oJGZed88IFIvDpwN5I7x \
-ghc-prof-wai-extra-3.1.13.0-LFtqIngDY3AAQ1a5w3zKO8 \
-ghc-prof-warp-3.3.25-EsJVhH2AisSK67jSo7D0GP \
-ghc-prof-zlib-0.6.3.0-GaFaUl6t8QzEoHIQXsottk \
+ghc-prof-unix-compat-0.6-IJaiJvo5DQ6Elf7LVlEGei \
+ghc-prof-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
+ghc-prof-wai-3.2.3-JhFX1996sswH7nU4MZQSow \
+ghc-prof-wai-extra-3.1.13.0-7b9ndOLV0UtHl4QVen1kNF \
+ghc-prof-warp-3.3.25-9kawobphGNJ1pZTKG2KRtq \
+ghc-prof-zlib-0.6.3.0-ENQBvbHWSlQ4ss0TzRHRuj \
 ghc-wai-app-static-devel"
 
 inherit rpm

@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn55643"
 
-RPM_NAME = "texlive-endofproofwd-2023.209.svn55643-54.1.noarch.rpm"
-RPM_HASH = "195049e1fa2b5a9d1521546dc6761945b4b9b85736c93c08c0f3fac211219a3452f3fdca89b951920e102815c7720fd3a6a1c634f053a2c1c6ec36bb413cfb97"
+RPM_NAME = "texlive-endofproofwd-2023.209.svn55643-54.2.noarch.rpm"
+RPM_HASH = "2f9f2edfd5d7832bdc60075f12d257def6a6e002d7439c8673f2f46d55352b26f15f52f53e10333a06f7abb5e95c31185e198e423c851babc0d7f3dee3524168"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-endofproofwd.sty \

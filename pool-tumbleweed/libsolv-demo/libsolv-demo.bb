@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7.24"
 
-RPM_NAME = "libsolv-demo-0.7.24-1.3.aarch64.rpm"
-RPM_HASH = "1816887a1f55ecf34e1744ce3a24a8870612078677859edc8b920a8efcbf323933395088ab13b71532de55663a674809aca17f0ba7c2da14c702e2fdf11a5dd3"
+RPM_NAME = "libsolv-demo-0.7.24-1.4.aarch64.rpm"
+RPM_HASH = "e7aa0aa2bfc6ea6c9ffdc8c39290f2753830ee8c3167425d8e218f24d7e8c700faf287f66e754a039469aef2550f3877f3f47a8c59acaa8bc014eedb05abf88e"
 
 RPROVIDES:${PN} += "libsolv-demo"
 

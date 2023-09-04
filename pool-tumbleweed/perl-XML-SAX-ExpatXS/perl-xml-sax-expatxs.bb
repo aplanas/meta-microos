@@ -7,8 +7,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.33"
 
-RPM_NAME = "perl-XML-SAX-ExpatXS-1.33-4.26.aarch64.rpm"
-RPM_HASH = "f3e74f440f703f929a88801321e7ebaa680fb2dc04b91622f50fb08bde194c35168bdc388f455dad1801e5f00b85679ae262a18ed551d74f306fbbd0d06d8e45"
+RPM_NAME = "perl-XML-SAX-ExpatXS-1.33-4.27.aarch64.rpm"
+RPM_HASH = "dcabf3483a6a935169a0f28106ac939d1386ce09ee30f62ae9beadff7b978ebdba204a27775c692503e49fd62c0ac46909d9b5431725255c6d62ab83827874f0"
 
 RPROVIDES:${PN} += "perl-XML--SAX--ExpatXS \
 perl-XML--SAX--ExpatXS--ContentModel \
@@ -22,7 +22,7 @@ expat \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libexpat.so.1 \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-XML--SAX"
 
 inherit rpm

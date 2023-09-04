@@ -4,10 +4,10 @@ to track and manage your information by using LibreOffice office \
 suite."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-base-7.5.4.2-1.5.aarch64.rpm"
-RPM_HASH = "44ed1a34eee0b6fdcd7ce76c2ea84a6b836e04811c63fbeb82a8a069de8b9ee7c70514a584f0c0fae249af2f9b7641f3eb8fb6e7a34e1706cc9bcce4119a63b7"
+RPM_NAME = "libreoffice-base-7.6.0.3-1.1.aarch64.rpm"
+RPM_HASH = "1354bbc057532611fae3d21d0d7dcbb1536a5e57f07164f96b5049a58077fde881ce0a280d8d697970b88d2c346abd7a6eb9ebdea9e9ff9ce2affee9af0d08b9"
 
 RPROVIDES:${PN} += "libabplo.so \
 libdbplo.so \
@@ -19,7 +19,7 @@ librptuilo.so \
 librptxmllo.so"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-jre-64 \
+jre \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdbalo.so \

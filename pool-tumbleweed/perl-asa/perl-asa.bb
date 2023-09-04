@@ -50,12 +50,12 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.04"
 
-RPM_NAME = "perl-asa-1.04-1.16.noarch.rpm"
-RPM_HASH = "c67b0387899fb789fd89bfb4a0f7b960e19015fadfcba2beac9b1cf52b39c8915524295e2c349217b88f2c017847dfed01edaca04f4ad4e57fe6f690f598f71b"
+RPM_NAME = "perl-asa-1.04-1.17.noarch.rpm"
+RPM_HASH = "123e60e53487aa231cb2f4aae57cf9929303306b796bd98d522228bf3ab6cb12d718569c792eed6f5d88e410a142949c0013eb4df0e00770e1cfcce5c791717b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-asa"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

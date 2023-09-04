@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20220915"
 
-RPM_NAME = "python39-libfvde-20220915-3.15.aarch64.rpm"
-RPM_HASH = "f28a45cf82e8bbc7f886db802012f3122d4ed6554b75ff73c09f26b35d916f29213cea1e9d0f0b7f2c73fa8f131f5baf54cbb3dd7fb1e33af4a9faa4658fa4ab"
+RPM_NAME = "python39-libfvde-20220915-4.1.aarch64.rpm"
+RPM_HASH = "de106f321cfebb1542063d2b4d9ea895140ae3f7567f0583ed42135eb53f0c446373bf5f989d3b6a18d2e6e1d498b553c23c4562ef3348e3e375a47881c73944"
 
 RPROVIDES:${PN} += "python39-libfvde"
 

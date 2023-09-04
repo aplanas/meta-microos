@@ -20,14 +20,14 @@ LICENSE = "Artistic-2.0"
 
 PV = "2.3.0"
 
-RPM_NAME = "perl-Carp-Assert-More-2.3.0-1.2.noarch.rpm"
-RPM_HASH = "9c64cd29ab4a8863e24ff9bfcba73f63867e3ec6ac04b6a26214c8dc03ef3ee57376eb4da872999844b2ec3d4f56f09884e46f3fba884238bdb3839243272329"
+RPM_NAME = "perl-Carp-Assert-More-2.3.0-1.3.noarch.rpm"
+RPM_HASH = "2de968b4e52a9d8f31a7bdc6480307fe57dc0e7f017088704617cdc6dc0365db03728d6e17b300b26b7ffe6e43e55adab7de208807e2d78c1cb794164a178c30"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Carp--Assert--More \
 perl-Carp-Assert-More"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Test--Exception"
 
 inherit rpm

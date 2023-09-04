@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20220829"
 
-RPM_NAME = "python39-libfsxfs-20220829-3.11.aarch64.rpm"
-RPM_HASH = "b15712c6ca6080f9ced5fbccd9dfe17816646a4f7da354b60469d02feea1d32cf547b6b177fa43e6dab3a6f4be7bd27e801b62ed3987f3ee368a934b77d5806f"
+RPM_NAME = "python39-libfsxfs-20220829-4.1.aarch64.rpm"
+RPM_HASH = "ba546a861003335a3398cb9664d7845d2a6f8d547fdf94e5f94dfbde19ca9b4a0414a65118d3b9161a123b8a9ddac484dd629f768dab3ab1110ac34c8672dd04"
 
 RPROVIDES:${PN} += "python39-libfsxfs"
 

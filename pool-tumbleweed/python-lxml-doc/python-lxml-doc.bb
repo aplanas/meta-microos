@@ -7,10 +7,10 @@ RelaxNG, XML Schema, XSLT and C14N. \
 This package contains documentation for lxml (HTML and PDF)."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
-PV = "4.9.2"
+PV = "4.9.3"
 
-RPM_NAME = "python-lxml-doc-4.9.2-8.1.noarch.rpm"
-RPM_HASH = "7d0871faf9305ab010d021ea0a29e61fa256596483c0b2192d337983f353a8facaa245721c611d3926cfca8091e1f8ec21b56520130cf73245002f8981744ccd"
+RPM_NAME = "python-lxml-doc-4.9.3-1.1.noarch.rpm"
+RPM_HASH = "218f292a8a86e24f37924137e5f6782caa07c99c50314d4a89bf19780f6926ee1c42361339c45f33ab5bc418a64a47cf1ae89c6de1c8bda5d3d06f1b38adfd3f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-lxml-doc"

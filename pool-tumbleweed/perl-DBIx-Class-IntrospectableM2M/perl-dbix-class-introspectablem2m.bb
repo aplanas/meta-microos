@@ -9,14 +9,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.001002"
 
-RPM_NAME = "perl-DBIx-Class-IntrospectableM2M-0.001002-2.20.noarch.rpm"
-RPM_HASH = "bc4f70388b01ed9686af4e4dcbcb2173dc2846e486979e36acb72ca5ea8158f9205be600ae7000543a4adc004e38150e8a7606d487db594114f524a1791692ad"
+RPM_NAME = "perl-DBIx-Class-IntrospectableM2M-0.001002-2.21.noarch.rpm"
+RPM_HASH = "d0a6e216b80b98dd79a5657ef1708b8c64b3da3e2e79329d989573adb6ebe67123556e62654189af5f1a0a7ed4950d447d6c195a4aae79d2f5eed14470d21185"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DBIx--Class--IntrospectableM2M \
 perl-DBIx-Class-IntrospectableM2M"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-DBIx--Class"
 
 inherit rpm

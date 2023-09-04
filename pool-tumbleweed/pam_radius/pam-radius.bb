@@ -3,12 +3,12 @@ DESCRIPTION = "This is the PAM to RADIUS authentication module. It allows any PA
 machine to become a RADIUS client for authentication and accounting \
 requests. You will need a RADIUS server to perform the actual \
 authentication."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.0"
 
-RPM_NAME = "pam_radius-2.0.0-1.8.aarch64.rpm"
-RPM_HASH = "2f2096b3807b3f40b9f808c73b404b505fd87cc3b5b06d9350e9ff49c330799a6844932a89c8d4da0c9eb40dec4547e59279d4a6a69d9748302f6ad89ba0e1ce"
+RPM_NAME = "pam_radius-2.0.0-2.1.aarch64.rpm"
+RPM_HASH = "8b45ff1faa3ee1145156bae02e4e4132787521edf2f7e601981dd13aa94bfd334f68b410f6e43d31811e0a06c6b9a8182c38d705d5dc17f453b0ba7b30df3f2f"
 
 RPROVIDES:${PN} += "config-pam-radius \
 pam-radius"

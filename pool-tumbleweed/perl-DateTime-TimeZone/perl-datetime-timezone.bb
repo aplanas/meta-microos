@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.60"
 
-RPM_NAME = "perl-DateTime-TimeZone-2.60-1.2.noarch.rpm"
-RPM_HASH = "9ac3e43d6d30338f45213f7a0f3729e9c921f242c84a7111c06c4e0fc74263b5d89eb17322938e177a99a32c9465c35ed2497677dbb8d5aabc044a40a83259c3"
+RPM_NAME = "perl-DateTime-TimeZone-2.60-1.3.noarch.rpm"
+RPM_HASH = "63f4ca0467d3ae350f6039b4bc197d7e5c5e701efc35fe06a0a1f1db0a99558d7806636241b448cf459699ee8818c84535d2a75c1c9a73f10391c90c40154569"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DateTime--TimeZone \
@@ -352,7 +352,7 @@ perl-DateTime--TimeZone--UTC \
 perl-DateTime--TimeZone--WET \
 perl-DateTime-TimeZone"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Class--Singleton \
 perl-List--Util \
 perl-Module--Runtime \

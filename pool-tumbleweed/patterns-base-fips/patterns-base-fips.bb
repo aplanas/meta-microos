@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "20200505"
 
-RPM_NAME = "patterns-base-fips-20200505-41.1.aarch64.rpm"
-RPM_HASH = "d0a424603fbe8d04decd2f192129e44b6f06e9783a30b57c37693d0beefe6fa635eacc348394f77f26e984e5594c2836debf1e0b07c6e87ed7d64b0e2ca93a88"
+RPM_NAME = "patterns-base-fips-20200505-42.1.aarch64.rpm"
+RPM_HASH = "089796b34058241d2a8bb1b621f364abeb12a1cf15816a0548c8f67565d0f7d68d14a4f8f6e06f57a3a3ec3e130276b75cb03be9d23f0a657885c744ee282bb1"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

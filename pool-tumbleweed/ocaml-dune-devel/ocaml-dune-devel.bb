@@ -15,10 +15,10 @@ stdune \
 xdg"
 LICENSE = "MIT"
 
-PV = "3.9.1"
+PV = "3.10.0"
 
-RPM_NAME = "ocaml-dune-devel-3.9.1-1.1.aarch64.rpm"
-RPM_HASH = "a6fecaa15d2163401bffed5487e7c89ca8c4b8a8ae45a7dca634321215fe9fc2280ef6b1ba04d99fc90bbffc0ede0aa912b4398c6032893164d7db6999021534"
+RPM_NAME = "ocaml-dune-devel-3.10.0-1.1.aarch64.rpm"
+RPM_HASH = "e44dfcb1fc12811eeab7a45906c8c3b0efc437ccae9c71ff87cc2e2ff3d0545986ab34fa0342ed9693d4bd52b9507ccd81db23842ce78b6c3f2e2a10ca8ed48d"
 
 RPROVIDES:${PN} += "ocaml-Build-info \
 ocaml-Build-info-- \

@@ -7,14 +7,14 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.13.0"
 
-RPM_NAME = "innotop-1.13.0-1.10.noarch.rpm"
-RPM_HASH = "d3594ab091fb9dd9c1eebf674caf2d9771cfb4b943c305fe9bafaa8dffe8f7c3d490e70bf461ee37843f8be104b18054ae6b1374f887a9dc67ab7011c1f74711"
+RPM_NAME = "innotop-1.13.0-1.11.noarch.rpm"
+RPM_HASH = "dc214954aac9fb3d572f832f98830b2f3ddbc1989b30147ddb561462172282364de77ecf0663cb099ee70fe01830d13cb157f9fb49111b23e902a6ff17c536a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "innotop"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-DBD--mysql \
 perl-DBI \
 perl-File--Basename \

@@ -13,8 +13,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.99037"
 
-RPM_NAME = "perl-Net-Whois-Raw-2.99037-1.3.noarch.rpm"
-RPM_HASH = "f98173c7a112ca551a8259132e91fa300d7eda4e614298fa95c28144796240ace0996b51e4ebe8b79467f66ef1c111ad319612835550426fcbddd2f2be0893cc"
+RPM_NAME = "perl-Net-Whois-Raw-2.99037-1.4.noarch.rpm"
+RPM_HASH = "c922f829a1449522ce80add0a6487da3da3c328a17356c48af34636a3e224b15b838ca987d7ba537ef0680d08ff1228ad423ff76b154ce0aade14c528f0c8a9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--Whois--Raw \
@@ -23,7 +23,7 @@ perl-Net--Whois--Raw--Data \
 perl-Net-Whois-Raw"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-HTTP--Headers \
 perl-HTTP--Request \
 perl-IO--Socket--IP \

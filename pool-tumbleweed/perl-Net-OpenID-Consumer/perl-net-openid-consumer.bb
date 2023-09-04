@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.18"
 
-RPM_NAME = "perl-Net-OpenID-Consumer-1.18-1.25.noarch.rpm"
-RPM_HASH = "cd928778ba19dbf1ff363eda6704740ca2e8b96a77eca22232ad2d0466b25e37e6eef6b43253d294ae847badc1e5865b414de9b38ada5219729623349a453771"
+RPM_NAME = "perl-Net-OpenID-Consumer-1.18-1.26.noarch.rpm"
+RPM_HASH = "422446be3f4ebe1b594de7640cdf9f95455f5591352d64090477c2d700bbf697b77b916df3b8e1d09a74193aca4796dd1896aec362e589e3b0ae1557de171a97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--OpenID--Association \
@@ -18,7 +18,7 @@ perl-Net--OpenID--Consumer \
 perl-Net--OpenID--VerifiedIdentity \
 perl-Net-OpenID-Consumer"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Digest--SHA \
 perl-HTTP--Request \
 perl-JSON \

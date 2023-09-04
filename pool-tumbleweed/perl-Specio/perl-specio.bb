@@ -16,8 +16,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.48"
 
-RPM_NAME = "perl-Specio-0.48-1.5.noarch.rpm"
-RPM_HASH = "0844744d71592d0e0ac600a5d0ec2f084930f4fdde96f3496df17fd6a2a35ce0ccaf987d4cadcd2e4cee3362f5b9947210b1f490ec450ee42a199d31ee87bcf4"
+RPM_NAME = "perl-Specio-0.48-1.6.noarch.rpm"
+RPM_HASH = "51d1eaacb403776bb5d84f8d40146b3c2966cf7640c10bda8b2ed42adcb538a24e8cf6bdb096ff3b2d744f10be86cf7dc4cbfdbc22b6717b441b92e223c8ab42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl--T--ArrayOverload \
@@ -71,7 +71,7 @@ perl-Specio--Subs \
 perl-Specio--TypeChecks \
 perl-Test--Specio"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Devel--StackTrace \
 perl-Eval--Closure \
 perl-List--Util \

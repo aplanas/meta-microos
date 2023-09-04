@@ -4,10 +4,10 @@ commands for HyperTeX dvi viewers, such as recent versions of \
 xdvi. The package is now largely superseded by hyperref."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.4.2dsvn17357"
+PV = "2023.209.4.2dsvn17357"
 
-RPM_NAME = "texlive-hyper-2023.208.4.2dsvn17357-53.1.noarch.rpm"
-RPM_HASH = "caae8ab2e6f0be535d80c18d973abf86ad852962ce087d33f8230b166306771727650d42234ddfcb50acd5f631b635443d99c3229e660134e021817f0ff70319"
+RPM_NAME = "texlive-hyper-2023.209.4.2dsvn17357-54.1.noarch.rpm"
+RPM_HASH = "f3f6befb7a14cd0165608f9fa6e12a2dc0a143ee917522aeea4a155235bc4f479ef7b18e49cd71378d2f660fbbfd226d59f92013e259ff61946c314847ab9f4b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hxt-bc.sty \

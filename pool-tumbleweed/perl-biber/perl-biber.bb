@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2.19"
 
-RPM_NAME = "perl-biber-2.19-93.1.noarch.rpm"
-RPM_HASH = "3906015cd2fe778a738ba31969eafc7df3bb416d4eed692b0ac267584be30db82f93acf9600cd70dba1f6762fd92048050d2a26341fba97ea219a2f6d0777a17"
+RPM_NAME = "perl-biber-2.19-93.2.noarch.rpm"
+RPM_HASH = "fc951ef1450bbc5ad2927a9e8e5b965d25e7bad8af5cd64e7bb565ae434ca9c586c53d8dfaedfa20c2f740e7fe7c8c571ade0d4b5587652d50a07e1d2f2b0953"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Biber \

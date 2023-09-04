@@ -13,14 +13,14 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.04"
 
-RPM_NAME = "perl-MooX-Attribute-ENV-0.04-1.9.noarch.rpm"
-RPM_HASH = "26be81d79206d5557bc9e97038861402685c55064050298f7a6375bbb234a35c6db1b6a1d32620b6f14eac062d9a702789ed119af30603a88041d930ccb2160f"
+RPM_NAME = "perl-MooX-Attribute-ENV-0.04-1.10.noarch.rpm"
+RPM_HASH = "66ad81cac31c08850e9aad3c22d0c67c87cb74a862ae6988088211cc89bb861f344b8a9c10ab0ae206b319b83a512c5f6e95f2141f90c12793c8fc1937b046bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooX--Attribute--ENV \
 perl-MooX-Attribute-ENV"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Moo"
 
 inherit rpm

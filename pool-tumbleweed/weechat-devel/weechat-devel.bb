@@ -2,10 +2,10 @@ SUMMARY = "Development Environment for weechat Plugins"
 DESCRIPTION = "Development environment for authoring weechat plugins."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.8"
+PV = "4.0.2"
 
-RPM_NAME = "weechat-devel-3.8-1.3.aarch64.rpm"
-RPM_HASH = "a47682ca7fae3063743b3741abdb9b719e2c886ab6b35bbd66a38fc7a3025185cb91879a79fea1106477e49fb957f1baa16e400a028327783f4eb2af80b2df32"
+RPM_NAME = "weechat-devel-4.0.2-1.1.aarch64.rpm"
+RPM_HASH = "58be7fc20ac3df56b82de157bea8256cd50e7060188ad0529de6d72e91f1cc32f87ff46e6c5e108a22886ef64d1811787ac65fb6633473d321b0d900cd3fca1b"
 
 RPROVIDES:${PN} += "pkgconfig-weechat \
 weechat-devel"

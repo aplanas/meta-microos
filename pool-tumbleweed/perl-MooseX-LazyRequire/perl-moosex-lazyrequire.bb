@@ -8,15 +8,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.11"
 
-RPM_NAME = "perl-MooseX-LazyRequire-0.11-1.26.noarch.rpm"
-RPM_HASH = "4236d2dfacb30d23d8cc33abc970198340b780f510dcbc7192dc261cbced7da162fef646c855a43b8f4c37d5aa0a5b041f5f87067df157d5ff3678d81d2234a6"
+RPM_NAME = "perl-MooseX-LazyRequire-0.11-1.27.noarch.rpm"
+RPM_HASH = "b1fadd09efd87876c218c4c1b16f7966f00620872d9932bdf61fdfacb43271325e3d06621f906355f37d9b4dbac3dd69da4bd64291c42c7aaa7e7397d951d87c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--LazyRequire \
 perl-MooseX--LazyRequire--Meta--Attribute--Trait--LazyRequire \
 perl-MooseX-LazyRequire"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Moose \
 perl-Moose--Exporter \
 perl-Moose--Role \

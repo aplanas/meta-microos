@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "4.0.3"
 
-RPM_NAME = "procps4-lang-4.0.3-1.4.noarch.rpm"
-RPM_HASH = "80878d8e102f29747077547f8b0df9e42575fb0cab008c0799e7004b47f2eff6154e241251c8062cd3c10ad4ff588605d4b543ed9755b19490da518eca4ab147"
+RPM_NAME = "procps4-lang-4.0.3-3.1.noarch.rpm"
+RPM_HASH = "6a23a7f305dede131ab71634ebb73c6df9b4b2349a70057b84da807d46910652e70eb67df81b3ed4f13ac7eb5f2726113a082e2813373980f5deb35f0504a89d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-procps4-de \

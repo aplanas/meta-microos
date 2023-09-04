@@ -5,10 +5,10 @@ application. \
 This package provides the shared libraries for gspell."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.12.1"
+PV = "1.12.2"
 
-RPM_NAME = "libgspell-1-2-1.12.1-1.2.aarch64.rpm"
-RPM_HASH = "5980f3163ebf95cea0bc5e8db475d2c80dbc14782d12183631afff0b0073577486359cff984c5865ce96f4b377747cb68adb637006b234cd1f3d3542121451a5"
+RPM_NAME = "libgspell-1-2-1.12.2-1.1.aarch64.rpm"
+RPM_HASH = "6e935015d4bc1193d833a6e2e6187c668f5a522c6871ed71fd87dcc3dca474549c6d3031881e1579a7619fe612b25138d580197536f246a6d547ec907be8eca4"
 
 RPROVIDES:${PN} += "gspell \
 libgspell-1-2 \

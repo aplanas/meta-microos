@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.0.0.92svn54080"
 
-RPM_NAME = "texlive-rmpage-2023.209.0.0.92svn54080-54.1.noarch.rpm"
-RPM_HASH = "cca0dc6058486b45f09cbbacf23e956f087b98d30e10dc13820c737eca6df82d74c55c5951e70f702e90e898fb2dbfea6594449e01b052dae1ec0259bf221a0b"
+RPM_NAME = "texlive-rmpage-2023.209.0.0.92svn54080-54.2.noarch.rpm"
+RPM_HASH = "e3f636d3dd4126ccec5efa052c6daf5a7d123fdacb194b494c26fcc713ab28930b55f13d1005820d497b919fc2536730c2c8982e81c7bab89410c22e18ece7f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rmpage.sty \

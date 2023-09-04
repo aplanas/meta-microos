@@ -6,8 +6,8 @@ LICENSE = "(Apache-2.0 | MIT) & BSD-3-Clause & (0BSD | MIT | Apache-2.0) & (Apac
 
 PV = "20230712.072601.f4abf8fd"
 
-RPM_NAME = "wezterm-20230712.072601.f4abf8fd-1.1.aarch64.rpm"
-RPM_HASH = "0bdfa165cffee9bff6fb780733b666997ac8eb2f0c4e6c9c330e4a7ad5c0eb6877a83fde4a5cd94e8a6f584f5672405a2596f97a83c2d0d17ec658edd7209887"
+RPM_NAME = "wezterm-20230712.072601.f4abf8fd-3.1.aarch64.rpm"
+RPM_HASH = "0455dfa00ca7e36b86382e8732a30f512f46862b14b9444694f3f7fd61d11732821cc41f9bb99024d8587fb919c686cc827260ec06a75b7c7127c89e9d7407a8"
 
 RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
 bundled-rust-crate-adler \
@@ -84,7 +84,6 @@ bundled-rust-crate-darling-core \
 bundled-rust-crate-darling-macro \
 bundled-rust-crate-deltae \
 bundled-rust-crate-derivative \
-bundled-rust-crate-dhat \
 bundled-rust-crate-digest \
 bundled-rust-crate-dirs \
 bundled-rust-crate-dirs-next \
@@ -213,7 +212,6 @@ bundled-rust-crate-metrics \
 bundled-rust-crate-metrics-macros \
 bundled-rust-crate-minimal-lexical \
 bundled-rust-crate-miniz-oxide \
-bundled-rust-crate-mintex \
 bundled-rust-crate-mio \
 bundled-rust-crate-mlua \
 bundled-rust-crate-mux \
@@ -345,7 +343,6 @@ bundled-rust-crate-strip-ansi-escapes \
 bundled-rust-crate-strsim \
 bundled-rust-crate-svg-fmt \
 bundled-rust-crate-syn \
-bundled-rust-crate-sys-info \
 bundled-rust-crate-tabout \
 bundled-rust-crate-takeable-option \
 bundled-rust-crate-tempfile \
@@ -358,7 +355,6 @@ bundled-rust-crate-termwiz-funcs \
 bundled-rust-crate-textwrap \
 bundled-rust-crate-thiserror \
 bundled-rust-crate-thiserror-impl \
-bundled-rust-crate-thousands \
 bundled-rust-crate-thread-local \
 bundled-rust-crate-tiff \
 bundled-rust-crate-time \
@@ -456,9 +452,11 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libX11-xcb.so.1 \
 libX11.so.6 \
 libc.so.6 \
+libcrypto.so.3 \
 libfontconfig.so.1 \
 libgcc-s.so.1 \
 libm.so.6 \
+libssl.so.3 \
 libwayland-client.so.0 \
 libwayland-egl.so.1 \
 libxcb-image.so.0 \

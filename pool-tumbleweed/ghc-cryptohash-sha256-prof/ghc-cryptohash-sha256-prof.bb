@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.11.102.1"
 
-RPM_NAME = "ghc-cryptohash-sha256-prof-0.11.102.1-3.6.aarch64.rpm"
-RPM_HASH = "1de363de078c9a7b65f5998fcf51e3a76429d01a81f983cff401771845a576b9bed116539ab4ccb9c41c0b6fbb918d4bdc765b73136bd14ccb92c07be49426cc"
+RPM_NAME = "ghc-cryptohash-sha256-prof-0.11.102.1-3.8.aarch64.rpm"
+RPM_HASH = "1519baf47414033d8d7ed98e5421115fc1b443802404a6b5d47d6ae48c85807c63ae16d658bdcee213846a3e8602e436a56b87021a097802dda00f3e28f65efb"
 
 RPROVIDES:${PN} += "ghc-cryptohash-sha256-prof \
-ghc-prof-cryptohash-sha256-0.11.102.1-Hqbk8cbDzn9JgCAqvbhMBD"
+ghc-prof-cryptohash-sha256-0.11.102.1-53jMaIynRosaQ7D7Mdzyr"
 
 RDEPENDS:${PN} += "ghc-cryptohash-sha256-devel \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-bytestring-0.11.4.0"
+ghc-prof-base-4.17.2.0 \
+ghc-prof-bytestring-0.11.5.1"
 
 inherit rpm

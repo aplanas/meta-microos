@@ -5,13 +5,13 @@ LICENSE = "Apache-1.0"
 
 PV = "1.30"
 
-RPM_NAME = "perl-File-MMagic-1.30-5.27.noarch.rpm"
-RPM_HASH = "1394cf5108c997cf1635b71f9597271e2af9ab790f9a16eea8109cc231d3f6328dd29556140c48bf5ba44bf99d7023e78e12933ff6a7bc4996f4525b61715f8d"
+RPM_NAME = "perl-File-MMagic-1.30-5.28.noarch.rpm"
+RPM_HASH = "55bec4766e5d82c159afc817095957403e0c002acd23d65e4aa341241a651909afbc78e9d66f67141a596bae8a822d2b1e80db9a5c75730aa1485430f8f6690d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--MMagic \
 perl-File-MMagic"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

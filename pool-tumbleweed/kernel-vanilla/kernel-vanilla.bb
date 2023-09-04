@@ -2,25 +2,25 @@ SUMMARY = "The Standard Kernel - without any SUSE patches"
 DESCRIPTION = "The standard kernel - without any SUSE patches \
  \
  \
-Source Timestamp: 2023-07-25 04:42:30 +0000 \
-GIT Revision: 55520bc826c5b1d40857ed0536eb87438cb95192 \
+Source Timestamp: 2023-08-17 04:57:43 +0000 \
+GIT Revision: 2a5b3f66898e9ecfa282f4399923c9546d3bc54d \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.6"
+PV = "6.4.11"
 
-RPM_NAME = "kernel-vanilla-6.4.6-1.1.aarch64.rpm"
-RPM_HASH = "816b6d455762671c9658d1da3b40e8efb274b6f6ae07e58a90f8d846c684b23af3a26bae086b3c14abc4a410affcb99faf3acb3ac3fd6de7130487e6e8acadb6"
+RPM_NAME = "kernel-vanilla-6.4.11-1.2.aarch64.rpm"
+RPM_HASH = "a497f9667c1bf794b78693e012ebfe3699b8f0f03afb9366649889aeefed894d12c548ce17ed6bd3496887c349218e8bb2f163766bee4d83b244325a7cd397ea"
 
 RPROVIDES:${PN} += "kernel \
 kernel-base \
-kernel-srchash-55520bc826c5b1d40857ed0536eb87438cb95192 \
+kernel-srchash-2a5b3f66898e9ecfa282f4399923c9546d3bc54d \
 kernel-uname-r \
 kernel-vanilla \
-kernel-vanilla-6.4.6-1 \
+kernel-vanilla-6.4.11-1 \
 kernel-vanilla-aarch64 \
-kernel-vanilla-base-srchash-55520bc826c5b1d40857ed0536eb87438cb95192 \
-kernel-vanilla-srchash-55520bc826c5b1d40857ed0536eb87438cb95192 \
+kernel-vanilla-base-srchash-2a5b3f66898e9ecfa282f4399923c9546d3bc54d \
+kernel-vanilla-srchash-2a5b3f66898e9ecfa282f4399923c9546d3bc54d \
 kmod-3c59x.ko \
 kmod-3w-9xxx.ko \
 kmod-3w-sas.ko \

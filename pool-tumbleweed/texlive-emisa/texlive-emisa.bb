@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.2.3.0svn60068"
 
-RPM_NAME = "texlive-emisa-2023.209.2.3.0svn60068-54.1.noarch.rpm"
-RPM_HASH = "d55fb7c7e5d001ad8a90d461a062b7c6b0fa00ac2c536224a74353459ab02d0408a1cda77eb6751445f21676d484ae6ee76c95e4214edc69aa0e8d54dd3a5ebc"
+RPM_NAME = "texlive-emisa-2023.209.2.3.0svn60068-54.2.noarch.rpm"
+RPM_HASH = "9a338cd69afbc4b5e1f92cfe473d31705c4e2d9e28ad63744df6250b46562dc918ae67508cf3d6f1cc06aae256d263b1a62cb6e458a183eeec2a0a8735dd436b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-emisa.bbx \

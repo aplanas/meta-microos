@@ -2,10 +2,10 @@ SUMMARY = "Lower_Sorbian localization files for LibreOffice"
 DESCRIPTION = "Provides Lower_Sorbian translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-l10n-dsb-7.5.4.2-1.5.noarch.rpm"
-RPM_HASH = "0c09cd231e6f1798c7ea1c8ff4878a5e78c5df4ea3762dc3149041c541bc5cb62059e28a0e16214ecb7ebd92de58c4bc52a7336cfbd45813f35aea4e6b05f32d"
+RPM_NAME = "libreoffice-l10n-dsb-7.6.0.3-1.1.noarch.rpm"
+RPM_HASH = "f059ec469137e1bf925df7ca2f7840a8a385cb86067c988995d4a12d8701d2b0990811216f4232e225e4cfdf6665a8172735ccc01bc63c532ae030c196add24a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-dsb \

@@ -2,10 +2,10 @@ SUMMARY = "Plugins for libindi"
 DESCRIPTION = "This package contains plugins for libindi."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later"
 
-PV = "2.0.2"
+PV = "2.0.3"
 
-RPM_NAME = "libindi-plugins-2.0.2-1.1.aarch64.rpm"
-RPM_HASH = "9cc5f76e63b173181d444f945e925df99a2aa77dd2144f8fba1af6903439bd2eeeb7af09e281afed9c329ce38839267f496196f15d3ce7fdb76da94b3e1eade2"
+RPM_NAME = "libindi-plugins-2.0.3-1.1.aarch64.rpm"
+RPM_HASH = "62809699e114186d158d959069b0fb2e7194a86af61e36dd30915e729dc72de1b898750e587454868a035b654dec8de958b9d7da630bfb49027e1df201ff106f"
 
 RPROVIDES:${PN} += "libindi-Nearest-MathPlugin.so \
 libindi-SVD-MathPlugin.so \

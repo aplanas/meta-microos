@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.4.0svn66461"
 
-RPM_NAME = "texlive-pythonimmediate-doc-2023.209.0.0.4.0svn66461-54.1.noarch.rpm"
-RPM_HASH = "4aab4e1059057c6213bc7f3a3bd0ca6532d937feaaa3e66fe0d8e729bd9d8ccac71ecd54ca559139d2af9badf07137f417b6598c79b36a9d41964d4fc1027f2f"
+RPM_NAME = "texlive-pythonimmediate-doc-2023.209.0.0.4.0svn66461-54.2.noarch.rpm"
+RPM_HASH = "a188824ed2c55ab019c4c9a847a2f6d303b665cfff9d3988300b0277a297be507e40c1ef803a110ce8a3d3f7cfcd1b3ac5995b011fa4b436d3f7856dcc917396"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pythonimmediate-doc"

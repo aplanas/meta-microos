@@ -11,15 +11,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.6012"
 
-RPM_NAME = "perl-Math-BigInt-GMP-1.6012-1.2.aarch64.rpm"
-RPM_HASH = "4a700e7e45b0463bc8f13084dcfdf6c85a0dd6b928495f5eb6e00812b75af136eae7daafdfc55a5317f11c60e93b30bddca7fb4e7611e907c236d4435f6a55ac"
+RPM_NAME = "perl-Math-BigInt-GMP-1.6012-1.3.aarch64.rpm"
+RPM_HASH = "8b8e658db8a4aaababb2937f3cab74537bafd6ecf28303eed4584f596cf65582d4a1f2358b2c39d8d118bdf10187a7cd66c3efe80c21f73b24541bcadf14c61d"
 
 RPROVIDES:${PN} += "perl-Math--BigInt--GMP \
 perl-Math-BigInt-GMP"
 
 RDEPENDS:${PN} += "libc.so.6 \
 libgmp.so.10 \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Carp \
 perl-Math--BigInt"
 

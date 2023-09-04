@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.3svn61438"
 
-RPM_NAME = "texlive-pst-vehicle-doc-2023.209.1.3svn61438-54.1.noarch.rpm"
-RPM_HASH = "acc1dacd0178bba87fa3a594ffa864169099512a9d176e6c10ead48da7cc3ca7b968cd7a0c1f5cdccd0b1c398d4d5cb8749682ffbf47b275db7bd046ed0480ac"
+RPM_NAME = "texlive-pst-vehicle-doc-2023.209.1.3svn61438-54.2.noarch.rpm"
+RPM_HASH = "1fed3b7ad87900000b8eb481d49f3c5e377c85c406e524b3c3962560d423b554ac780e62095c67000790aebc4de79a8c9c59dab0c36b9372b20510b48b2f6899"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pst-vehicle-doc-fr \

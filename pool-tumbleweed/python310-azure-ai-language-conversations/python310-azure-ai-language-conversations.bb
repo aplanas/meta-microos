@@ -8,22 +8,22 @@ intents (intention behind a user utterance) and custom entities. You can also us
 (language apps like Question Answering, Luis, and Conversation)."
 LICENSE = "MIT"
 
-PV = "1.1.0b1"
+PV = "1.1.0"
 
-RPM_NAME = "python310-azure-ai-language-conversations-1.1.0b1-1.6.noarch.rpm"
-RPM_HASH = "0cad07abd70015bc196619bc5d40629c68eb3d1d978b78b550320d4f1a7b2eef5683c04fcee4be017f2e34b131431ff6e34d86125307e6d80d0019f3a2825572"
+RPM_NAME = "python310-azure-ai-language-conversations-1.1.0-1.1.noarch.rpm"
+RPM_HASH = "6215d747e1b24d4aed8c68f73fca72c197ffd42588c9badde4fd5a1112fb3a32f4a696b1b72a878a1fec21c62e3dd72a3e5e4077c6d7058e4e920ad76317cb9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-azure-ai-language-conversations \
 python310-azure-ai-language-conversations \
 python3dist-azure-ai-language-conversations"
 
-RDEPENDS:${PN} += "python-abi \
+RDEPENDS:${PN} += "-python310-azure-common >= 1.1 with python310-azure-common < 2.0.0 \
+-python310-azure-core >= 1.24.0 with python310-azure-core < 2.0.0 \
+-python310-isodate >= 0.6.1 with python310-isodate < 1.0.0 \
+python-abi \
 python310-azure-ai-language-nspkg \
 python310-azure-ai-nspkg \
-python310-azure-common \
-python310-azure-core \
-python310-msrest \
 python310-six"
 
 inherit rpm

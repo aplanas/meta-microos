@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.20"
 
-RPM_NAME = "xstream-parent-1.4.20-1.4.noarch.rpm"
-RPM_HASH = "e28b0ae31ee1b7b293632815a0abe9050c1906cb4b4abf29e9e90fb813406b948f93d5e7b1f7b26776d2045c7fd4543307da7241bcf019d972943468906c0e45"
+RPM_NAME = "xstream-parent-1.4.20-2.1.noarch.rpm"
+RPM_HASH = "201aed911763bfc5a2cc4c3443a069bdd7f93b35687baf591d064e37d73266a0bb59ad2440cd99b7a3be9db710cb48c0d007a6897cced9bc1dabcb8620cd58d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.thoughtworks.xstream-xstream-parent-pom- \

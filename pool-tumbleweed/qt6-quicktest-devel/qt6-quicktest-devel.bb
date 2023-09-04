@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 QuickTest library - Development files"
 DESCRIPTION = "Development files for the Qt 6 QuickTest library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "qt6-quicktest-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "0a0e2b9debc0645b59301e8dea4b937cd3cecdf7fa3d780f15f832d113e0307e22c01ca90331db2ba7be20a28918bc46a5abcd414c90910b4219e7432fe9fbc8"
+RPM_NAME = "qt6-quicktest-devel-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "ac6aa3e12cfcaca07595e40eca89cd7b113e378cfc67919c774551d6f77a815be6584009e113cd2395cb3337d3a12653b23a6ae44c0dbd6f1dcd9c7d3181f6d1"
 
 RPROVIDES:${PN} += "cmake-Qt6QuickTest \
 pkgconfig-Qt6QuickTest \

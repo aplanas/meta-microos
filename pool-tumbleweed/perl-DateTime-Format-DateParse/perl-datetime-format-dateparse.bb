@@ -6,14 +6,14 @@ LICENSE = "GPL-2.0 | Artistic-1.0"
 
 PV = "0.05"
 
-RPM_NAME = "perl-DateTime-Format-DateParse-0.05-22.25.noarch.rpm"
-RPM_HASH = "3309ee9b31e19751fc6eca89167abecddc6dbe11ffaeace495f8ea6cfe212c400f7fa99c020327e67564655da42d2f091f35c69723ac4ecc6fc08458dac56088"
+RPM_NAME = "perl-DateTime-Format-DateParse-0.05-22.26.noarch.rpm"
+RPM_HASH = "cd9e4a498227fbad6c96994113422137ec560d96478938fe0b4b6921b31066c0ad7e080a21fb94653142a984c8e5d6ed451d9b452d548c3bdb4ce0c7800f00ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DateTime--Format--DateParse \
 perl-DateTime-Format-DateParse"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Date--Parse \
 perl-DateTime \
 perl-DateTime--Locale \

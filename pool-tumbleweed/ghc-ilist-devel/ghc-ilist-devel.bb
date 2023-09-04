@@ -4,15 +4,15 @@ LICENSE = "MPL-2.0"
 
 PV = "0.4.0.1"
 
-RPM_NAME = "ghc-ilist-devel-0.4.0.1-1.2.aarch64.rpm"
-RPM_HASH = "ea82ee38f5ce8967602bb8fe15403799e050e5c38a1efa84d75da6209809a60f8192fbe20a902c30c4b5d0591b563b2e3e28141bb88f32a2e062d66935ca4a6c"
+RPM_NAME = "ghc-ilist-devel-0.4.0.1-2.1.aarch64.rpm"
+RPM_HASH = "31314c2abea7090f0ab0727046c352fb3ec88d36eef9e04ff73b15fc302956c74d636515d1ee666265dc49b952956c4346b23ef25e5abaa7e51c0909b308a880"
 
-RPROVIDES:${PN} += "ghc-devel-ilist-0.4.0.1-KsvLIKFcqVNEl2m4LjZZwM \
+RPROVIDES:${PN} += "ghc-devel-ilist-0.4.0.1-9dvbAvSibn3BQOkPCJFvsJ \
 ghc-ilist-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-ilist"
 
 inherit rpm

@@ -7,15 +7,15 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.22"
 
-RPM_NAME = "ufraw-0.22-11.9.aarch64.rpm"
-RPM_HASH = "ad5b7fe5af879481b568b06a0cede4ac514de000410f392b7f0d343a158f0824596d9ea7839153ea96624254d831b31ef35abfe40e910771da2af631954b486c"
+RPM_NAME = "ufraw-0.22-12.1.aarch64.rpm"
+RPM_HASH = "664d45d2d8462a17924e23e77f5f0d219a48fcb2dd8640089d6b9019bad1f5a1a03bc7c79c24769028c964183c1c6cb4787555ff33244e5101e9906b59034e53"
 
 RPROVIDES:${PN} += "ufraw"
 
 RDEPENDS:${PN} += "libbz2.so.1 \
 libc.so.6 \
 libcfitsio.so.10 \
-libexiv2.so.27 \
+libexiv2.so.28 \
 libgcc-s.so.1 \
 libgdk-pixbuf-2.0.so.0 \
 libgdk-x11-2.0.so.0 \

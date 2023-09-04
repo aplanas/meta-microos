@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-greekdates-doc-2023.209.1.0svn15878-54.1.noarch.rpm"
-RPM_HASH = "ed4acf82ae2968fa20753d2424d67352e30905f71a72fed93027f92aaeea0e30f5956972c8470aa28d8a592e6057574939717f64662e983595ffb071c42d1bcc"
+RPM_NAME = "texlive-greekdates-doc-2023.209.1.0svn15878-54.2.noarch.rpm"
+RPM_HASH = "b3ddc2bdb4fa9e2e5cd75ec191f7bb753196aca07864be970e62a8f8edc39149c27844cb7c75d32b2f53f42268131f63a4431244f1579946ad6f7258a0c42b03"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-greekdates-doc"

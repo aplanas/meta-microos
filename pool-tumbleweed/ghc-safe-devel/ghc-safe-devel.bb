@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.19"
 
-RPM_NAME = "ghc-safe-devel-0.3.19-4.6.aarch64.rpm"
-RPM_HASH = "7793172ff66192fad337fbdc12cd1e6ba8e6fd9482770bc5324c54a927da6ccf273d8846796d9431eca385d0b0f00ea939622ce09d9a44d6e90878398d1295c2"
+RPM_NAME = "ghc-safe-devel-0.3.19-4.8.aarch64.rpm"
+RPM_HASH = "1cff62b6c9edce7c19bcd007784edd456bf4735a86f40a63bb6740abb6f4dad843dd19b838dbbd987ba099bc969957e66e73386041c2915e02eb48db3d16ab2b"
 
-RPROVIDES:${PN} += "ghc-devel-safe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds \
+RPROVIDES:${PN} += "ghc-devel-safe-0.3.19-9uHvZjuyLiR13wOGSONZxX \
 ghc-safe-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-safe"
 
 inherit rpm

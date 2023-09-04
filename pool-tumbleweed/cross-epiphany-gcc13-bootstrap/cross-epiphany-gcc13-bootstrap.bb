@@ -9,10 +9,10 @@ This is a package that is necessary for bootstrapping another package \
 only, it is not intended for any other use."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7597"
+PV = "13.2.1+git7683"
 
-RPM_NAME = "cross-epiphany-gcc13-bootstrap-13.1.1+git7597-1.1.aarch64.rpm"
-RPM_HASH = "396e175acbbcdbe8f333b0229bd1237e850b8e0ee9b67bda127e0f9325267bd72dedf56d008fc914b94098f8af1cd2d4b3b9922ea686ed4f8763f328931052f2"
+RPM_NAME = "cross-epiphany-gcc13-bootstrap-13.2.1+git7683-1.1.aarch64.rpm"
+RPM_HASH = "5305d987458bb894f11341ea859eb81c6287293c2a2c5b2375a400407d3db7af072c965ba17b32fe08cafb5f85b96499998e9a11213462436e13cf20c1e7fd5e"
 
 RPROVIDES:${PN} += "cross-epiphany-gcc13-bootstrap \
 epiphany-elf-gcc"

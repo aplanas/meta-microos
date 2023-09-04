@@ -4,19 +4,19 @@ LICENSE = "MIT"
 
 PV = "0.1.1"
 
-RPM_NAME = "ghc-hslua-repl-devel-0.1.1-1.2.aarch64.rpm"
-RPM_HASH = "57ab7ec816a10b27de4b666f71d3724db03e56e4d34bdd5249bc70ecf6d37eb886abeca73f391717169043f65385b8e0d58045c11c4d587b40771ce9ec5ccc15"
+RPM_NAME = "ghc-hslua-repl-devel-0.1.1-1.3.aarch64.rpm"
+RPM_HASH = "6fa56be8a9b3aa6ecfc06a31c2823943b05c53d19140eafd965a4469b9f45b49b9d72e64a7f4f5db5fec616e17c4507e91b3c1607f3336e4b3efd9fdea1ffe20"
 
-RPROVIDES:${PN} += "ghc-devel-hslua-repl-0.1.1-Cn1WzYftAVL4Hlxy0N0ea1 \
+RPROVIDES:${PN} += "ghc-devel-hslua-repl-0.1.1-AT3e5G0H4So5vj4IgGLSDC \
 ghc-hslua-repl-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0 \
-ghc-devel-hslua-core-2.3.1-S0Tmk0QBS1InOMEfkNHVC \
-ghc-devel-isocline-1.0.9-7x8dFWbXh69GJxYhigSqXG \
-ghc-devel-lua-2.3.1-16mGxirchUh4T3oJJYdFzu \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1 \
+ghc-devel-hslua-core-2.3.1-H6EUAt4RUpl9ClgBncvABk \
+ghc-devel-isocline-1.0.9-5gDpTZgmtmsDJNf9j9fI7b \
+ghc-devel-lua-2.3.1-IuAZ4Y3Pnt2ACNXikcgl6h \
 ghc-devel-text-2.0.2 \
 ghc-hslua-repl"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.2.62"
 
-RPM_NAME = "calamares-webview-3.2.62-1.1.aarch64.rpm"
-RPM_HASH = "88477d0603481fa4c53355fec8682ffac92835722eb8c851c12ccddd80570bdea9c5e89dded3c209ab853b100348159aa86a85bdd4d101fd78b23185eaecae07"
+RPM_NAME = "calamares-webview-3.2.62-1.2.aarch64.rpm"
+RPM_HASH = "1ba1c86474bd9e6c16b9d4f958c520dc6bdd0177c1f3c8f4a916dfd93a028aed7f6265d81bac5d09fcae600a04a67df170f21c0bff36824a0b14651316b61de4"
 
 RPROVIDES:${PN} += "calamares-webview \
 libcalamares-viewmodule-webview.so"

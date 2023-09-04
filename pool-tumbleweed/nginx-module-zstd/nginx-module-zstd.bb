@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0~g23"
 
-RPM_NAME = "nginx-module-zstd-0~g23-1.3.aarch64.rpm"
-RPM_HASH = "8f94a77264347cabcb930944018d50c4fc12bb60845ad5af3be732f4700644692578d441543a978fafbd2dee112a177f5ba80f8a0bb9974a4fc7d37ab9118b7f"
+RPM_NAME = "nginx-module-zstd-0~g23-1.4.aarch64.rpm"
+RPM_HASH = "d60eb24dc959d84f67faf09bab985f3aee061f07425ebc9a65834128fad8479368016783d9b7f923ecb9f6244bd555fb52bbb73a1745182d4277558cac072d29"
 
 RPROVIDES:${PN} += "nginx-module-zstd"
 

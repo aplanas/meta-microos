@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.981svn30466"
 
-RPM_NAME = "texlive-xunicode-2023.209.0.0.981svn30466-53.1.noarch.rpm"
-RPM_HASH = "dfa96dc1ac51f8a0fe6595ca3f42d6bd2a385b3c9c1f7426f1817aaa0f56484ccccbacea0e56a91ba7d030acf3d33a9eee294daa935f2d32eeb65c01ec94b8f4"
+RPM_NAME = "texlive-xunicode-2023.209.0.0.981svn30466-53.2.noarch.rpm"
+RPM_HASH = "b5485205d738908d42e63aa87c9d1361b7afd585b1962f13e22df6f2cd59e0adf92d1272b58b496d4997db08c378237cca36dbc0575352a3331cc4ec27996fb6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xunicode.sty \

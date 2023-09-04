@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "8.1.0"
 
-RPM_NAME = "digikam-8.1.0-1.1.aarch64.rpm"
-RPM_HASH = "17565947849e0c288376021ed106879dabab253170e24d2a10c362073fc86fe03ef4c069b1f7af7abdfc7f06a1c59d51010538e6767cae35422b9c4f2c39c299"
+RPM_NAME = "digikam-8.1.0-2.1.aarch64.rpm"
+RPM_HASH = "32ff5141ea83cffb91654246c5c00e9325bf3c4ded0f5f7680c96f036ca041ff18796c0cf5e485ec4656b6fc6954b05f9ff2096aa409cd031f806786647ac97a"
 
 RPROVIDES:${PN} += "digikam \
 digikam-doc \

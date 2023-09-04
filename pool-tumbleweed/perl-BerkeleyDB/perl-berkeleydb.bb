@@ -21,8 +21,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.65"
 
-RPM_NAME = "perl-BerkeleyDB-0.65-1.7.aarch64.rpm"
-RPM_HASH = "45ecb28e6e2e077553d3130125f68316ea5b941d39f93c47eef73533bfb6eb3a8d80b8ed8131b6274fe1ff9d7d57d4be82b93b539770d2cfe0d1c19cb63de4ef"
+RPM_NAME = "perl-BerkeleyDB-0.65-1.8.aarch64.rpm"
+RPM_HASH = "610062fa118d9729fb442d99b413c740a6b8fa9ced36ba0698a1c96b1ea69100e07f4a17ea4c38f21bc6caa67b51b0807a74b27f3ca35b064db1d78e2492f862"
 
 RPROVIDES:${PN} += "perl-BerkeleyDB \
 perl-BerkeleyDB---tiedArray \
@@ -45,6 +45,6 @@ RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdb-4.8.so \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

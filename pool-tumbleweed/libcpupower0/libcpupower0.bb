@@ -4,10 +4,10 @@ processor frequency, processor idle, processor power hierarchy \
 and other CPU power consumption related information."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.6"
+PV = "6.4.11"
 
-RPM_NAME = "libcpupower0-6.4.6-4.19.aarch64.rpm"
-RPM_HASH = "6509249e980846872236bf1c9fd529344aba1325b7451ff76338162829008218166e5c828f154719695de41c359d157d8cf51c6138fa25cfd0e34e0f5fde1e3f"
+RPM_NAME = "libcpupower0-6.4.11-4.22.aarch64.rpm"
+RPM_HASH = "c8a9ceb3a9792d8e7361b93bc8632598325af6d58b4998272e00417b9034e41d161b5fc4299ff67b3b9fb9ec16d8835565c8208126067fd4644eb52e3048cdb2"
 
 RPROVIDES:${PN} += "libcpupower.so.0 \
 libcpupower0"

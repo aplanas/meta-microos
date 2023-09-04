@@ -2,10 +2,10 @@ SUMMARY = "X BrlAPI helper"
 DESCRIPTION = "The xbrlapi utility is a helper to have BrlAPI work on a X system."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "6.5"
+PV = "6.6"
 
-RPM_NAME = "xbrlapi-6.5-3.1.aarch64.rpm"
-RPM_HASH = "4d1b1250763094d87b72d883e68e36725b58bb3c38a4447433b6f4c5d17b0c575c1514e50aec223e817b7590e3de6de565bf681e7080dbc1f398479624b3b6ea"
+RPM_NAME = "xbrlapi-6.6-1.1.aarch64.rpm"
+RPM_HASH = "e3813dc4d0a002a42adfd39639250a2072edec052cfef86c4a9a1fb6ab25480207c8c6ae2913b670c607ca6d5a49f124638d57349f086e04214da0c16714c8eb"
 
 RPROVIDES:${PN} += "xbrlapi"
 

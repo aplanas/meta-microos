@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.0.0svn63856"
 
-RPM_NAME = "texlive-rescansync-2023.209.0.0.0.0svn63856-54.1.noarch.rpm"
-RPM_HASH = "130f6156b7e76a0c72b0438d17d8783e8eed586ca1c9116b6b004962220784fe72cdd5d3559d57f937454fe0fc015af08fa63306b8df24f0c900d09c61b725b0"
+RPM_NAME = "texlive-rescansync-2023.209.0.0.0.0svn63856-54.2.noarch.rpm"
+RPM_HASH = "afb6d3a9a777a449bddfcfb949ef19ca910e6aa18687d9e5e142d4e5889d72d809bd82e55efc8c20e910d6b0d1336965d4b7662e59a8eadbffcf160a07849bb3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rescansync.sty \

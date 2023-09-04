@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.16.1"
 
-RPM_NAME = "hexchat-plugins-lua-2.16.1-2.7.aarch64.rpm"
-RPM_HASH = "86d56672d7617edd6470ae22ddbaae8a57b369e490c0f73e9f0f21434e1330946c18020dafc0c6fade388e206bbeae6b620aebbdfede98c32d004a6cbac19e69"
+RPM_NAME = "hexchat-plugins-lua-2.16.1-2.8.aarch64.rpm"
+RPM_HASH = "5f6a698ee4bfa8bf1f13bad51de59af58de0ad5dd233989dada040b7838259a45f9ab705d76a5220cce6e9cd861d093de5bcb370a34ba7dac1bc1d92a36daa1a"
 
 RPROVIDES:${PN} += "hexchat-plugins-lua"
 

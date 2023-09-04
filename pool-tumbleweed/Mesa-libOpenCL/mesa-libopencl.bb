@@ -2,10 +2,10 @@ SUMMARY = "Mesa OpenCL implementation (Clover)"
 DESCRIPTION = "This package contains the Mesa OpenCL implementation or GalliumCompute."
 LICENSE = "MIT"
 
-PV = "23.1.4"
+PV = "23.1.5"
 
-RPM_NAME = "Mesa-libOpenCL-23.1.4-354.1.aarch64.rpm"
-RPM_HASH = "a48baea44c76dcf739a0b36ebfc8361ab3739cac5b09589d0692c2e202f1880faf48ee48debfe644b61f3d14e7463fd8bde6a4e5b81325ff38a202809042d9da"
+RPM_NAME = "Mesa-libOpenCL-23.1.5-355.1.aarch64.rpm"
+RPM_HASH = "31dfebff86222421b405120c3962b645b153f0e81205aca70ca97fa7147d8c29c674b5648036d67020225ab1c5e4620d3f60aeade7b52f432666190c993317cf"
 
 RPROVIDES:${PN} += "Mesa-libOpenCL \
 libMesaOpenCL.so.1"

@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Bengali Translations"
 DESCRIPTION = "YaST2 - Translations for Bengali."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230729.64eca7e0a1"
+PV = "84.87.20230818.ea489402e5"
 
-RPM_NAME = "yast2-trans-bn-84.87.20230729.64eca7e0a1-1.1.noarch.rpm"
-RPM_HASH = "4cf3e93684b923aa43dd03c027a96436428ae5e6cb6f94bf4536d6f0eb1e711892f359e07cba0b72de27178746bd5aa4956d85b1652979bba63c828a76546d03"
+RPM_NAME = "yast2-trans-bn-84.87.20230818.ea489402e5-1.1.noarch.rpm"
+RPM_HASH = "c4c1baeb15bdbd54e474a693193d1937c0004e1f44cbc82a5cda232cff29c3ea15b4a8ec9b98802c132c25c16ab8555dd2d5a1bbd3d40f27031a1a0a877d4454"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-bn \

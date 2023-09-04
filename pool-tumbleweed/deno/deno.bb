@@ -9,10 +9,10 @@ Remote code is fetched and cached on first execution, and only \
 updated with the --reload flag."
 LICENSE = "MIT"
 
-PV = "1.35.2"
+PV = "1.36.2"
 
-RPM_NAME = "deno-1.35.2-1.1.aarch64.rpm"
-RPM_HASH = "87c4a23aefd3fec03f4982deede435512ad2615ff9824107e496ec84575ae8b824e1e74033767b382114e2eddcaddb5d7c8c968c60243a6f4cfaeecdf3ea73ef"
+RPM_NAME = "deno-1.36.2-1.1.aarch64.rpm"
+RPM_HASH = "a9539c8a54c58480fa6bf02d03806dc71dcda73a132a388cf6702d7f490f6decfa8dc0ebfc9e78a82290c3445c3d1008a7bf58801564fb6bba5df2e335cc269f"
 
 RPROVIDES:${PN} += "bundled-rust-crate-Inflector \
 bundled-rust-crate-adler \
@@ -50,7 +50,6 @@ bundled-rust-crate-bit-set \
 bundled-rust-crate-bit-vec \
 bundled-rust-crate-bitflags \
 bundled-rust-crate-block-buffer \
-bundled-rust-crate-block-modes \
 bundled-rust-crate-block-padding \
 bundled-rust-crate-brotli \
 bundled-rust-crate-brotli-decompressor \
@@ -68,6 +67,7 @@ bundled-rust-crate-clap-builder \
 bundled-rust-crate-clap-complete \
 bundled-rust-crate-clap-complete-fig \
 bundled-rust-crate-clap-lex \
+bundled-rust-crate-cmake \
 bundled-rust-crate-colorchoice \
 bundled-rust-crate-console-static-text \
 bundled-rust-crate-const-oid \
@@ -89,6 +89,7 @@ bundled-rust-crate-deno \
 bundled-rust-crate-deno-ast \
 bundled-rust-crate-deno-broadcast-channel \
 bundled-rust-crate-deno-cache \
+bundled-rust-crate-deno-cache-dir \
 bundled-rust-crate-deno-console \
 bundled-rust-crate-deno-core \
 bundled-rust-crate-deno-crypto \
@@ -145,6 +146,8 @@ bundled-rust-crate-encoding-rs \
 bundled-rust-crate-endian-type \
 bundled-rust-crate-enum-as-inner \
 bundled-rust-crate-env-logger \
+bundled-rust-crate-equivalent \
+bundled-rust-crate-errno \
 bundled-rust-crate-escape8259 \
 bundled-rust-crate-eszip \
 bundled-rust-crate-fallible-iterator \
@@ -193,6 +196,7 @@ bundled-rust-crate-httpdate \
 bundled-rust-crate-humantime \
 bundled-rust-crate-hyper \
 bundled-rust-crate-hyper-rustls \
+bundled-rust-crate-iana-time-zone \
 bundled-rust-crate-idna \
 bundled-rust-crate-if-chain \
 bundled-rust-crate-import-map \
@@ -209,23 +213,16 @@ bundled-rust-crate-itertools \
 bundled-rust-crate-itoa \
 bundled-rust-crate-jobserver \
 bundled-rust-crate-jsonc-parser \
-bundled-rust-crate-keccak \
 bundled-rust-crate-lazy-regex \
 bundled-rust-crate-lazy-regex-proc-macros \
 bundled-rust-crate-lazy-static \
-bundled-rust-crate-lexical \
-bundled-rust-crate-lexical-core \
-bundled-rust-crate-lexical-parse-float \
-bundled-rust-crate-lexical-parse-integer \
-bundled-rust-crate-lexical-util \
-bundled-rust-crate-lexical-write-float \
-bundled-rust-crate-lexical-write-integer \
 bundled-rust-crate-libc \
 bundled-rust-crate-libffi \
 bundled-rust-crate-libffi-sys \
 bundled-rust-crate-libloading \
 bundled-rust-crate-libm \
 bundled-rust-crate-libsqlite3-sys \
+bundled-rust-crate-libz-ng-sys \
 bundled-rust-crate-libz-sys \
 bundled-rust-crate-linked-hash-map \
 bundled-rust-crate-linux-raw-sys \
@@ -249,6 +246,7 @@ bundled-rust-crate-monch \
 bundled-rust-crate-napi-sym \
 bundled-rust-crate-netif \
 bundled-rust-crate-new-debug-unreachable \
+bundled-rust-crate-nextest-workspace-hack \
 bundled-rust-crate-nibble-vec \
 bundled-rust-crate-nix \
 bundled-rust-crate-nom \
@@ -303,6 +301,8 @@ bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-psm \
 bundled-rust-crate-pulldown-cmark \
 bundled-rust-crate-quick-error \
+bundled-rust-crate-quick-junit \
+bundled-rust-crate-quick-xml \
 bundled-rust-crate-quote \
 bundled-rust-crate-radix-fmt \
 bundled-rust-crate-radix-trie \
@@ -353,7 +353,6 @@ bundled-rust-crate-serde-value \
 bundled-rust-crate-sha-1 \
 bundled-rust-crate-sha1 \
 bundled-rust-crate-sha2 \
-bundled-rust-crate-sha3 \
 bundled-rust-crate-shell-escape \
 bundled-rust-crate-signal-hook-registry \
 bundled-rust-crate-signature \
@@ -471,6 +470,8 @@ bundled-rust-crate-want \
 bundled-rust-crate-webpki \
 bundled-rust-crate-webpki-roots \
 bundled-rust-crate-which \
+bundled-rust-crate-whoami \
+bundled-rust-crate-winapi \
 bundled-rust-crate-windows-sys \
 bundled-rust-crate-windows-targets \
 bundled-rust-crate-winnow \

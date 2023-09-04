@@ -17,17 +17,17 @@ as well as an integrated game engine for real-time interactive 3D \
 and game creation and playback with cross-platform compatibility."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.5.1"
+PV = "3.6.2"
 
-RPM_NAME = "blender-3.5.1-1.2.aarch64.rpm"
-RPM_HASH = "80cca907ba7587947de2a22d8ff336057e43aee5e32e0a3fa5aef378dbf4d8405a7c7ce1612d29d414035c11d29dabd5e6cabcf61ccbe9b48f48d579ef4b5ead"
+RPM_NAME = "blender-3.6.2-1.1.aarch64.rpm"
+RPM_HASH = "cec7a4e9242187ca7ef9da9cf524502810c03f5b396a152bff7ec9ea4acd7dec917ea9d7a8dc2b35624b11458e70b0cc7994abcb215db58280a1b83c326e6b4a"
 
 RPROVIDES:${PN} += "blender \
-blender-35"
+blender-36"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
-/usr/bin/python3.10 \
+/usr/bin/python3.11 \
 audaspace-deviceplugin \
 audaspace-fileplugin \
 hicolor-icon-theme \
@@ -101,7 +101,7 @@ libpcre.so.1 \
 libpng16.so.16 \
 libpotrace.so.0 \
 libpugixml.so.1 \
-libpython3.10.so.1.0 \
+libpython3.11.so.1.0 \
 libspnav.so.0 \
 libstdc++.so.6 \
 libswresample.so.4 \
@@ -112,8 +112,8 @@ libxkbcommon.so.0 \
 libxml2.so.2 \
 libz.so.1 \
 libzstd.so.1 \
-python310-base \
-python310-numpy \
-python310-requests"
+python311-base \
+python311-numpy \
+python311-requests"
 
 inherit rpm

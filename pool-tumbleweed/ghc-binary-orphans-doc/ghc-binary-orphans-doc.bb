@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.4.1"
 
-RPM_NAME = "ghc-binary-orphans-doc-1.0.4.1-1.2.noarch.rpm"
-RPM_HASH = "13ea71483071f403b414333137caec845ae9a92a73bb251aac545ec2c09b6cc524176e24636e02ba14419e33d983a3834be4b525eaceb9b775f04df874e244b9"
+RPM_NAME = "ghc-binary-orphans-doc-1.0.4.1-1.3.noarch.rpm"
+RPM_HASH = "edce377394f51e5e8ca0dbb4a9ede28e0ad6508e24771cbc20c6c76128e599766280622b7de3b77125c6220ad1513f851ae58f5502518135500554e4b83c1f54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-binary-orphans-doc"

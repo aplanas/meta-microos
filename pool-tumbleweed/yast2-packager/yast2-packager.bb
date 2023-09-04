@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Package Library"
 DESCRIPTION = "This package contains the libraries and modules for software management."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1"
+PV = "4.6.2"
 
-RPM_NAME = "yast2-packager-4.6.1-1.1.aarch64.rpm"
-RPM_HASH = "14f2be88f768543eb37d9b0571e4525a3defca6fcf5e690bd25640e31e50428c82f74c2c28f55bd0f5d20da61e694999e78e9ddccb7cfdd578bc7392b9d604d7"
+RPM_NAME = "yast2-packager-4.6.2-1.1.aarch64.rpm"
+RPM_HASH = "c4df12ed1f0572d88273a6ae67c6330ee5f1fa586fe13a386993e8d020aeda3c7b38c5d0ede7f64bff065fb41896d17f44067d1492d9a6f7aa880a309dd4464a"
 
 RPROVIDES:${PN} += "yast2-packager"
 

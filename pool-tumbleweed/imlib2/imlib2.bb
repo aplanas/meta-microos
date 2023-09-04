@@ -6,10 +6,10 @@ RGBA space rendering and blending, dynamic binary filters, scripting, \
 and more."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.11.1"
+PV = "1.12.0"
 
-RPM_NAME = "imlib2-1.11.1-2.1.aarch64.rpm"
-RPM_HASH = "3213827757550d99c6a42d17612809951de90ed8da8826698d184033b1661b2488df51fdc413eb753884141798e29c3a8b5a4ac67b6396fa2070d500cc0d1270"
+RPM_NAME = "imlib2-1.12.0-1.1.aarch64.rpm"
+RPM_HASH = "9f66e0e21adb691b996f11e98eb9382508bdd293d60706f0ead31dda354fea197554e14304b928cb88be0bd773a212d958977b5080815d1106b1f92c01062ddd"
 
 RPROVIDES:${PN} += "imlib2"
 

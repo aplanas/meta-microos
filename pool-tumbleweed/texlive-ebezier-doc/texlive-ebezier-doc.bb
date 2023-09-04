@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.4svn15878"
 
-RPM_NAME = "texlive-ebezier-doc-2023.209.4svn15878-54.1.noarch.rpm"
-RPM_HASH = "e4b7c2bacea070c14b4feac07599b7c0f5cf8947045c81f591325c379a166f3300949ebd3eb57d9e50545dba67adc6f0e3afb41981e843b751061e21a065a7a8"
+RPM_NAME = "texlive-ebezier-doc-2023.209.4svn15878-54.2.noarch.rpm"
+RPM_HASH = "e4b2378e317fe667d029fd6c2b629e1de3a6a441f039f510b0e80c0efa5a3f6076f01db4e574b5d9d58620933e2be44f882b6f40be039c934267278a77345e86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ebezier-doc"

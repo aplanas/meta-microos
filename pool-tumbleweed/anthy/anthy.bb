@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "9100h"
 
-RPM_NAME = "anthy-9100h-41.10.aarch64.rpm"
-RPM_HASH = "95204d3c0f049181b8f50679e0e047b7e6672efb8dcd4d13006c1035c9b598a3d39de63ab5859a639893d47e8e3febd2a33efd007ba5c89cb6d00c05aeede415"
+RPM_NAME = "anthy-9100h-42.1.aarch64.rpm"
+RPM_HASH = "4f267ddc82fdff20c728f7fe601bbcf2f9f5ced8a641c97ba3a096cf1db8a0845c45fb2de32410fcc47cdc429cc17a7a8673ccc05057a49d3db5742e1131009e"
 
 RPROVIDES:${PN} += "anthy \
 config-anthy"

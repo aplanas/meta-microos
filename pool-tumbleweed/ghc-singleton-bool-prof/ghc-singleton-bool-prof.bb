@@ -4,17 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.6"
 
-RPM_NAME = "ghc-singleton-bool-prof-0.1.6-4.2.aarch64.rpm"
-RPM_HASH = "3a5056e8fff1194bf035035992aca39ddb111738e2264d76d5873a0b4b12957e94b5399ec0306aa5912c2cc1bfdf3437cb6e6dcf2e13303e576774d4a768a8d3"
+RPM_NAME = "ghc-singleton-bool-prof-0.1.6-4.4.aarch64.rpm"
+RPM_HASH = "098b2cecddc9f93c941f170ef448c137ad60b100d8caae554b04ea3aa4568ebcc36271edc6bc7057c7d4fcdc4e242f2275550aa6f2a602776ef43e9c6c1b3ad0"
 
-RPROVIDES:${PN} += "ghc-prof-singleton-bool-0.1.6-9MbEj8pBx4EB1jZ66FdPc4 \
+RPROVIDES:${PN} += "ghc-prof-singleton-bool-0.1.6-32zI19nhSdNCZbR5BPJbeE \
 ghc-singleton-bool-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
-ghc-prof-boring-0.2.1-J8lJX6Vz53r2bssyBwOtpl \
-ghc-prof-dec-0.0.5-4k85S2UkQTWCpK3j0IuOFm \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
+ghc-prof-boring-0.2.1-8UoR96J8uAp13B13xTdCnI \
+ghc-prof-dec-0.0.5-3eH9is9HBV5IuOX3KX0Ah7 \
 ghc-prof-deepseq-1.4.8.0 \
-ghc-prof-some-1.0.5-3dwCpkSImpx8T8axxRPR3Z \
+ghc-prof-some-1.0.5-EryUniFNYOB2ktd7SoyKUW \
 ghc-singleton-bool-devel"
 
 inherit rpm

@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.3"
 
-RPM_NAME = "python39-notebook-shim-0.2.3-1.2.noarch.rpm"
-RPM_HASH = "f25b62d517fc17da948d0f834a3c9aba55f9e8a71a048c3175fb6c4a8e58266ea4971126ef9673652dca8f128ae3640f096a2003706887f223b8b0a1d7a332cc"
+RPM_NAME = "python39-notebook-shim-0.2.3-2.1.noarch.rpm"
+RPM_HASH = "a0fd39f2a44380ecf1859fc9c3c5cb5219fd57e311683af1e1c40c24ed7d5858706e37a3892f9c2d6a645ca992b4a25b578505e2bef2e726d660606225870e05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-notebook-shim \

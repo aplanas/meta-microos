@@ -2,10 +2,10 @@ SUMMARY = "VDPAU state tracker for Nouveau"
 DESCRIPTION = "This package contains the VDPAU state tracker for Nouveau."
 LICENSE = "MIT"
 
-PV = "23.1.4"
+PV = "23.1.5"
 
-RPM_NAME = "libvdpau_nouveau-23.1.4-354.1.aarch64.rpm"
-RPM_HASH = "8ab6e05c252d3410524fa89d3324c05e41a82da4ba94fe11fd679f9fb9f231842b591db047b28ab66d0c9a3b017b8715352bb657fbd49318637e5b41cf445919"
+RPM_NAME = "libvdpau_nouveau-23.1.5-355.1.aarch64.rpm"
+RPM_HASH = "67c7efb36245dd58a3e48ce3e0c0e0a509ec40c90b669339e827ac5505b95c9d87814e4269b24cfaaac09b488d8ebe2d633fc7738a56be915a2374ae7775f15d"
 
 RPROVIDES:${PN} += "libvdpau-gallium.so.1.0.0 \
 libvdpau-nouveau"

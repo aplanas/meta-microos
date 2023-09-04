@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "3.2.1"
 
-RPM_NAME = "ruby-common-rails-3.2.1-1.1.noarch.rpm"
-RPM_HASH = "4fd5ac8caeb9b6a4bd4321211db1037718e39dd1dfd880b6856f219c3e810b7565fda8d3922c4a8a0894ee28fe82f8a1c414da19a9941bfd9dd7646599134499"
+RPM_NAME = "ruby-common-rails-3.2.1-2.1.noarch.rpm"
+RPM_HASH = "333ddb5170fd654986e3a9ca3d3b36e6208707a53e05d009243ab187fbaed1efa51691e2c81b77838c9fc32c9e4f275c26ca02838b3d7645a27638228221c5af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rpm-macro-rails-fix-ruby-shebang \

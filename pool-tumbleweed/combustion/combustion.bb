@@ -9,10 +9,10 @@ new system snapshot. On success, the system will directly boot into that new \
 snapshot, so that no reboot is needed."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0+git4"
+PV = "1.1+git0"
 
-RPM_NAME = "combustion-1.0+git4-1.1.noarch.rpm"
-RPM_HASH = "9bbe843c873e4c2154eb16d3e66a7a528c5a3a3bd2da269ade54d15f39cc08d443d394ce4234265dfb0d1963b0057104e39e3b96ca8775e6c3ed5eea44ca921e"
+RPM_NAME = "combustion-1.1+git0-1.1.noarch.rpm"
+RPM_HASH = "58f6e0da0ed63a6dc3dfb6360a1c03d79040d8a6a4f83525ae092cdd9b4c96e8411e3c0edfbc3a7ef31e0dc1a886668d186442caa570fbd433f4eec530125100"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "combustion"

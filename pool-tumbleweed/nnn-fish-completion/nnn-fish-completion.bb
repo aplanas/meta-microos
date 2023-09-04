@@ -2,10 +2,10 @@ SUMMARY = "Fish Completion for nnn"
 DESCRIPTION = "The official fish completion script for nnn."
 LICENSE = "BSD-2-Clause"
 
-PV = "4.8"
+PV = "4.9"
 
-RPM_NAME = "nnn-fish-completion-4.8-1.2.noarch.rpm"
-RPM_HASH = "2733bf6be8de880a61ad49c9d3f4a0154d8e917df41d63eab0aefcaa73952e94bc09a83379d9c1442888b516e4e02058108aaafcfb3fd434a95ee88da7c6b7f1"
+RPM_NAME = "nnn-fish-completion-4.9-1.1.noarch.rpm"
+RPM_HASH = "23675b42a81d9be884b92ae35e80fd1271b606e7950cbb31ac13b040b1b38511415b0477adb4d9ce5d7bde08ca3c62c7e3b076bfb28ee0b3a98d6f219c9bfa98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nnn-fish-completion"

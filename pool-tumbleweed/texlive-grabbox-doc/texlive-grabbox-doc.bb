@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.4svn65223"
 
-RPM_NAME = "texlive-grabbox-doc-2023.209.1.4svn65223-54.1.noarch.rpm"
-RPM_HASH = "689c746f58a2eaa980452fe85553c35cc4871a7fb1a5d23f46014deece221cbf9bfd12beac23e00e36274a32fba0efb71eb3a08d041feb0d29050139b21f8d1a"
+RPM_NAME = "texlive-grabbox-doc-2023.209.1.4svn65223-54.2.noarch.rpm"
+RPM_HASH = "813ece17b70aa5cb4f7dd7094177072c2e1a9ccc155edb0de8d0c447a97e445829da30c0f5960cee2b381b94fcc8179bea15d6f5b19f79d944834b1329160891"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-grabbox-doc"

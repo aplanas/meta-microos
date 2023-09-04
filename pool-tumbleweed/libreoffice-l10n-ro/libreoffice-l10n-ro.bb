@@ -2,10 +2,10 @@ SUMMARY = "Romanian localization files for LibreOffice"
 DESCRIPTION = "Provides Romanian translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-l10n-ro-7.5.4.2-1.5.noarch.rpm"
-RPM_HASH = "e9f08a5f4d5be08407bbfdefb034003016726aa92573072558b90c1300b11b1e89fb6ff6a5b4e5e260872582d5b14d3faca2ada4d18a1ac5c35cb40912db889c"
+RPM_NAME = "libreoffice-l10n-ro-7.6.0.3-1.1.noarch.rpm"
+RPM_HASH = "3f31397c11720b5d231c4e4410be354865630d62c5f7939a5a660b38535eae99de67bc06a3f8fc71698744f6347a6262504e6a676a5014ca168bda653ffb3e1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-ro \

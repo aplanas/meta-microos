@@ -11,14 +11,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.80"
 
-RPM_NAME = "perl-Mail-Sendmail-0.80-1.22.noarch.rpm"
-RPM_HASH = "b8e51d8d5af702a3f5b31ce064ad484b7363910f7f0810eaa9b1119e3c0a22945d406e47844940a7701fefbefeaa07a2a95d2c99cc8e9d1d8b0212698771432f"
+RPM_NAME = "perl-Mail-Sendmail-0.80-1.23.noarch.rpm"
+RPM_HASH = "5e510a7060b1554c77f5d29213a2a75ec6f838ee4b71d5eb10bdfeea0e87e7e8d4d802bfed17477cc1cd10a3728efe7e1b10cadd113ce0655c8eb396a01a95d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mail--Sendmail \
 perl-Mail-Sendmail"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-parent"
 
 inherit rpm

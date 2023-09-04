@@ -4,10 +4,10 @@ as per the Jupyter kernel protocol. It also provides a base \
 Comm implementation and a default CommManager that can be used."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.1.3"
+PV = "0.1.4"
 
-RPM_NAME = "python311-comm-0.1.3-1.3.noarch.rpm"
-RPM_HASH = "1a1667c423780ebb3d5d85f3c6adb7ef0d883f3bf9107045149b3692b61d13a5fce4d9809316be9a3acd024b29fea5401eefdecec5f2d616d36c862daf3bc297"
+RPM_NAME = "python311-comm-0.1.4-1.1.noarch.rpm"
+RPM_HASH = "7b486d14c343bb291406719663f853771f1bb28de4b032f4c3029bad3aa559a2e0f6f2da367d20683133ddf1a8b46bb33ad869645b56174986e661ec2fe135d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-comm \

@@ -13,8 +13,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.5.06svn32182"
 
-RPM_NAME = "texlive-xymtex-2023.209.5.06svn32182-53.1.noarch.rpm"
-RPM_HASH = "375231ee4b2adae762eb40f198bf9bc1bb9d07d1798cc65bbc485da38955652388fe47db5848fc72d604cb76f50877ee1f3316a8f307ac4ab618934dfe991ba4"
+RPM_NAME = "texlive-xymtex-2023.209.5.06svn32182-53.2.noarch.rpm"
+RPM_HASH = "91bb6af0c3e4c1b5ba0323461e41e2bd6c372d2694157d99c18d6d905e22bd8904eec622d5f8001bfe92cd4d9a17b7798e78088c878145dd7e5f43dec9fd6d19"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-aliphat.sty \

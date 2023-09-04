@@ -5,19 +5,19 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.0.1"
 
-RPM_NAME = "ghc-unicode-transforms-devel-0.4.0.1-4.6.aarch64.rpm"
-RPM_HASH = "9c68d33f0d939d1ae3837cc7588d33715266841891b91706638faa454c961bc08eb44f239bebd98035abcb03eaa44e5b94ab0ac2ff725d8e7c46949f7f744b34"
+RPM_NAME = "ghc-unicode-transforms-devel-0.4.0.1-4.8.aarch64.rpm"
+RPM_HASH = "7a5b66049c5c9ccbd0a9e695e0eabbb2c679b64dc42b89cd9266da8a72e7a6207f39db3ad4a1145a109e331c0ef57494359e0ee72ceff63ee7e28a0450e97763"
 
-RPROVIDES:${PN} += "ghc-devel-unicode-transforms-0.4.0.1-EKt5KzAvdneBwqiDZWg9HO \
+RPROVIDES:${PN} += "ghc-devel-unicode-transforms-0.4.0.1-64QTLPchVoAx7KWqlUk24 \
 ghc-unicode-transforms-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0 \
-ghc-devel-ghc-prim-0.9.0 \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1 \
+ghc-devel-ghc-prim-0.9.1 \
 ghc-devel-text-2.0.2 \
-ghc-devel-unicode-data-0.4.0.1-IPznodd4J0BGoSZPR6u4lO \
+ghc-devel-unicode-data-0.4.0.1-DXmKFuEq71jAHQO9x7NPr \
 ghc-unicode-transforms"
 
 inherit rpm

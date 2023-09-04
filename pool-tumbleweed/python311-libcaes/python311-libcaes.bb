@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230406"
 
-RPM_NAME = "python311-libcaes-20230406-1.4.aarch64.rpm"
-RPM_HASH = "3ea090eeefd68964d2416354a3d5410799c08dd9ce4dcb810b436d73e6e203642033be80c357a0aa9d05f3a9a5ef7ccad27420486ce3537df8deed08c0351c89"
+RPM_NAME = "python311-libcaes-20230406-2.1.aarch64.rpm"
+RPM_HASH = "9557cdab0842edc1ede5e83d7ebe634d5c9117c86013f0b3e316543ba6bb328c211287182bd1b2a12d59e524f7748394f513eda60844d75c28b280dd69c73de8"
 
 RPROVIDES:${PN} += "python3-libcaes \
 python311-libcaes"

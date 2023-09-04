@@ -2,10 +2,10 @@ SUMMARY = "Functionality for reading/writing core JAX-RS helper types"
 DESCRIPTION = "Functionality for reading/writing core JAX-RS helper types."
 LICENSE = "Apache-2.0"
 
-PV = "2.13.3"
+PV = "2.15.2"
 
-RPM_NAME = "jackson-jaxrs-providers-datatypes-2.13.3-1.8.noarch.rpm"
-RPM_HASH = "375d25a689770a40e241bd89703e633c57454f4c6dc0994b1d4efcba6b409eb3c0673a4066c86fc4614523f27ab1839677f52a4198dee3d76c000ae173ccf0b2"
+RPM_NAME = "jackson-jaxrs-providers-datatypes-2.15.2-1.1.noarch.rpm"
+RPM_HASH = "521e06dff1e8937c0f9a2bb800ec12d119e2994a3fff13f591c9ae6afeb849c2f4227e80e430b75324f27b3162b542849e9b8ac44cfb7b4dfae7bb8ee05be578"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-jaxrs-providers-datatypes \

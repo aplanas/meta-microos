@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.1"
 
-RPM_NAME = "ghc-hashtables-doc-1.3.1-1.6.noarch.rpm"
-RPM_HASH = "42dfbe3a62847f5a5ab3c76102c74ea78e5f5fcb022ad92db25c12a0e27fa119eb32d8c0817c0416e646cf6303a146936a40f17c3ac4b8d0a8bca007eaae3e17"
+RPM_NAME = "ghc-hashtables-doc-1.3.1-1.9.noarch.rpm"
+RPM_HASH = "fb4aaee21284d530d1d0791c2f90b9b3448728008be4985b844e17556dfa2f9e62cea53b8ca6531ccbc5d9f926ffbd48069bc0e502111d1202bb8cfd669a186f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-hashtables-doc"

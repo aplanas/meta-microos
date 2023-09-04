@@ -25,13 +25,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.9"
 
-RPM_NAME = "perl-Digest-Perl-MD5-1.9-3.27.noarch.rpm"
-RPM_HASH = "1ce3088692fb2a0bf6d919d00d5a34d3fc373317b1f144bb38755b63cfb363b5832d848e121f934db598e3649592e6b397facc225fed90ab9ddc92cdc3199476"
+RPM_NAME = "perl-Digest-Perl-MD5-1.9-3.28.noarch.rpm"
+RPM_HASH = "5e95057d3597fe41995b1c08aec3d0a9bdbc82eb010d0469d6d26b9c7c6f241f9dc44ec2097269f4e9d011e72877a4d39d908193332b9ada97c62345f93aa662"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Digest--Perl--MD5 \
 perl-Digest-Perl-MD5"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

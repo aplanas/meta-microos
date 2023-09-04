@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.8.3"
 
-RPM_NAME = "perl-DNS-LDNS-1.8.3-1.7.aarch64.rpm"
-RPM_HASH = "04aefa0ff9380ea21dc9cbbe86b4e8289e023c0e6ec4b5eba78a0f72ef9cba5258af8544e0f0672173974a0dad703e8c93e60bcae61c03ebcbb2e1da17948852"
+RPM_NAME = "perl-DNS-LDNS-1.8.3-1.8.aarch64.rpm"
+RPM_HASH = "8c0392d0f0a3df0818eebafb5d0cce222b8c7f273e5fe30b49e3c07e3eecb9789d46ad4f54be03d859556ee8568fead160e1516e47760cd4bce0c48a4b3b61bb"
 
 RPROVIDES:${PN} += "perl-DNS--LDNS \
 perl-DNS--LDNS--DNSSecDataChain \

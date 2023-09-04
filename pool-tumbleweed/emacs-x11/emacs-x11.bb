@@ -7,10 +7,10 @@ Love it or leave it. This is the Emacs binary with X Window System \
 Support."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "28.2"
+PV = "29.1"
 
-RPM_NAME = "emacs-x11-28.2-4.3.aarch64.rpm"
-RPM_HASH = "50c7e6a4e9f298ba59c94202bcd92a9763838cc0c664ccb14c86b8a1011d642eff17d7b9873b55c9924d372e903ef62691153ff24ee6d8b5c02274ae6d8cd2d5"
+RPM_NAME = "emacs-x11-29.1-3.1.aarch64.rpm"
+RPM_HASH = "6c188e6e86cb00e2187494acc7affab706eb644dc038c9a8136caaa65b67552b90b7221df8e922e0bdb7ae39768b4729fbdccb8ff3cffd428126c1234ee333ac"
 
 RPROVIDES:${PN} += "emacs-program \
 emacs-x11"
@@ -23,12 +23,15 @@ gnu-unifont-bitmap-fonts \
 ifnteuro \
 ld-linux-aarch64.so.1 \
 libICE.so.6 \
+libMagickCore-7.Q16HDRI.so.10 \
+libMagickWand-7.Q16HDRI.so.10 \
 libSM.so.6 \
-libX11-xcb.so.1 \
 libX11.so.6 \
 libXaw3d.so.8 \
+libXcomposite.so.1 \
 libXext.so.6 \
 libXfixes.so.3 \
+libXi.so.6 \
 libXinerama.so.1 \
 libXmu.so.6 \
 libXpm.so.4 \
@@ -65,11 +68,14 @@ libpango-1.0.so.0 \
 libpng16.so.16 \
 librsvg-2.so.2 \
 libselinux.so.1 \
+libsqlite3.so.0 \
 libsystemd.so.0 \
 libtiff.so.6 \
 libtinfo.so.6 \
+libtree-sitter.so.0 \
 libwebkit2gtk-4.0.so.37 \
-libxcb.so.1 \
+libwebpdecoder.so.3 \
+libwebpdemux.so.2 \
 libxml2.so.2 \
 libz.so.1 \
 xorg-x11-fonts \

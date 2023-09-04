@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "qt6-xml-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "5b822092f3667ee13792c0a634ecd648b71ef7ab729da695523e0a2b8992b88f30fe1f1def55096dc31b7c09e7efd9c428e0aa5d0a177d238693befd75c4c55c"
+RPM_NAME = "qt6-xml-devel-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "6fdaaa54f1daf4bd7fa58ae8aa9175ff525f80b0b061a09b97696f3316d896f15b66059e434a9cc55107dfbbdc43a7525d4348b0159d36398418b2f013c96c9f"
 
 RPROVIDES:${PN} += "cmake-Qt6Xml \
 pkgconfig-Qt6Xml \

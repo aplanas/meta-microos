@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.0"
 
-RPM_NAME = "python311-Flask-Babel-3.1.0-1.1.noarch.rpm"
-RPM_HASH = "57a048858f050974a1fcced54eb12e85043c038b6c40c163ffa7d1132540c85938606892a6e843c2309c1227fed52b9d94394fe4449abfba71efea522bf89157"
+RPM_NAME = "python311-Flask-Babel-3.1.0-2.1.noarch.rpm"
+RPM_HASH = "3d190a9745977b4bc6b3d0800db424f78783d2b2bd3bbe0939d7a0b3b88e01c949e2cf06d6f535bbf0dada3fca7f698c009750b35507667dc3a91811ec769e02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Flask-Babel \

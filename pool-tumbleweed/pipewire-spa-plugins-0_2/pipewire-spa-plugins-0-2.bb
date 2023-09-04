@@ -18,10 +18,10 @@ Some of its features include: \
 This package provides plugins for extending PipeWire SPA's functionality."
 LICENSE = "MIT"
 
-PV = "0.3.76"
+PV = "0.3.77"
 
-RPM_NAME = "pipewire-spa-plugins-0_2-0.3.76-1.1.aarch64.rpm"
-RPM_HASH = "9e9ed2cbdd2df1f61c586910ae1ef9cdd2719555fee96a7647425312cf98367e4bd268ac7d749d8893d3dca177c847b26b6578a399d78c3178a292fa9a5a9f7c"
+RPM_NAME = "pipewire-spa-plugins-0_2-0.3.77-2.1.aarch64.rpm"
+RPM_HASH = "486c7c9cfc14f023fa53f2a394375123292020bfd6d979e9a0c9b9ac4b906bc5cc48d7c9e072a8cc3508072062a6fa01cf9b9439936a7a6012ef19e6b71ddd36"
 
 RPROVIDES:${PN} += "libspa-aec-null.so \
 libspa-aec-webrtc.so \

@@ -3,10 +3,10 @@ DESCRIPTION = "Host setup helper to pull in all packages required/useful on \
 the build host to build filesystem images"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "9.24.61"
+PV = "9.25.12"
 
-RPM_NAME = "kiwi-systemdeps-filesystems-9.24.61-1.2.aarch64.rpm"
-RPM_HASH = "afa723df5f366a9f5ab871dbd4c997a2ae25afcfd73c6adddd340d36a3b8bd2c6468104e59edfeed56bdb79b1edb2e51549ebc33ad757e306dfdc973697efd9c"
+RPM_NAME = "kiwi-systemdeps-filesystems-9.25.12-1.1.aarch64.rpm"
+RPM_HASH = "92b5defd8bd8ebea39323585bdeb0a8ff67c8ad24244c8596b51d1ce325f7de36318c7e5dade074068d633547465638c9d50fda84ca8bb17ff2a5f09cf0ac6a2"
 
 RPROVIDES:${PN} += "kiwi-filesystem-btrfs \
 kiwi-filesystem-ext2 \

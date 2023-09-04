@@ -13,8 +13,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.2206"
 
-RPM_NAME = "perl-Moose-2.2206-1.1.aarch64.rpm"
-RPM_HASH = "27059e2bd048b70aa8e86f79b8172a1b72dce087506dbff1bb89ba05dc90725943084dbc7b232636acb6ac26032991b3cc902f96e9dd2d2468886ab909e682e6"
+RPM_NAME = "perl-Moose-2.2206-1.2.aarch64.rpm"
+RPM_HASH = "832a606a6e84ea9a26beda78e38c5a9ab3bb78cf50a02723f471dd1006f96324d34a4e51b2d57e9e49a5d19eadc1d31a5a2b55589a3fd3425870c19c259d4626"
 
 RPROVIDES:${PN} += "perl-Class--MOP \
 perl-Class--MOP--Attribute \
@@ -458,7 +458,7 @@ perl-oose"
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Carp \
 perl-Class--Load \
 perl-Class--Load--XS \

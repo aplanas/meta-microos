@@ -9,14 +9,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "20230226"
 
-RPM_NAME = "perl-Test-PerlTidy-20230226-1.2.noarch.rpm"
-RPM_HASH = "f43d00f4f9cecfcf88097e9d8adcab4291fc2dc8a96d210d93718b3d63fab5d54e3b4b392ffc2530cdfdae5a4762eabcf983953bf19a330c867f1989614f9cbb"
+RPM_NAME = "perl-Test-PerlTidy-20230226-1.3.noarch.rpm"
+RPM_HASH = "f5caa71cc1877bd16619b308db0c2529b1268c56770b844a361fb4d5f17e6016ce23b27512f823284626cceb189d298c1a34d12473cdae799917ec1d6d117d83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--PerlTidy \
 perl-Test-PerlTidy"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Path--Tiny \
 perl-Perl--Tidy \
 perl-Text--Diff \

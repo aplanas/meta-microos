@@ -24,29 +24,29 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.3"
 
-RPM_NAME = "ghc-commonmark-0.2.3-1.2.aarch64.rpm"
-RPM_HASH = "6f27dea8dfe72d7a21c4058846ad03f8486c009d3bcf340b06cb75a8826943ea0b47855311e68ab3727fe12ca8608a3bcc2d660e7008fd879534fc47621024d2"
+RPM_NAME = "ghc-commonmark-0.2.3-1.4.aarch64.rpm"
+RPM_HASH = "3666ea5372faf590e0414458985d49daa77c7bddf6d3047d4613b6cefb6a25a80739be17bef349fb637a4453af4ed780367848a1aec90eb2edff6d82364b02ae"
 
 RPROVIDES:${PN} += "ghc-commonmark \
-libHScommonmark-0.2.3-I1mjDgOYrWfJTVx5dvVv0G-ghc9.4.5.so"
+libHScommonmark-0.2.3-6HyB59I8Umx9O57gNLEHWR-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
-libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSbinary-0.8.9.1-ghc9.4.5.so \
-libHSbytestring-0.11.4.0-ghc9.4.5.so \
-libHScontainers-0.6.7-ghc9.4.5.so \
-libHSdeepseq-1.4.8.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-boot-th-9.4.5-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
-libHSmtl-2.2.2-ghc9.4.5.so \
-libHSparsec-3.1.16.1-ghc9.4.5.so \
-libHSpretty-1.1.3.6-ghc9.4.5.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
-libHStext-2.0.2-ghc9.4.5.so \
-libHStransformers-0.5.6.2-ghc9.4.5.so \
-libHSunicode-data-0.4.0.1-IPznodd4J0BGoSZPR6u4lO-ghc9.4.5.so \
-libHSunicode-transforms-0.4.0.1-EKt5KzAvdneBwqiDZWg9HO-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
+libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSbinary-0.8.9.1-ghc9.4.6.so \
+libHSbytestring-0.11.5.1-ghc9.4.6.so \
+libHScontainers-0.6.7-ghc9.4.6.so \
+libHSdeepseq-1.4.8.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-boot-th-9.4.6-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
+libHSmtl-2.2.2-ghc9.4.6.so \
+libHSparsec-3.1.16.1-ghc9.4.6.so \
+libHSpretty-1.1.3.6-ghc9.4.6.so \
+libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
+libHStext-2.0.2-ghc9.4.6.so \
+libHStransformers-0.5.6.2-ghc9.4.6.so \
+libHSunicode-data-0.4.0.1-DXmKFuEq71jAHQO9x7NPr-ghc9.4.6.so \
+libHSunicode-transforms-0.4.0.1-64QTLPchVoAx7KWqlUk24-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

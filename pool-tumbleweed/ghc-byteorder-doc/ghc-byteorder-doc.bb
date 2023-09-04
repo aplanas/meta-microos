@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.4"
 
-RPM_NAME = "ghc-byteorder-doc-1.0.4-4.2.noarch.rpm"
-RPM_HASH = "454d7be08a94b16ced9702f8364b6df806bd8e052b89ebd048526d76f420202072db68dcfefcf01a8f9b4fd1213814d7e149ca89ef344950dc3d3766d63af216"
+RPM_NAME = "ghc-byteorder-doc-1.0.4-4.3.noarch.rpm"
+RPM_HASH = "458ccf96b97d66e9350366970e027dea6923350f1d8266b74eddd846642a2abff7020c6cca0500d9c24752ac4f1991c0fe50964ede0c28d23569694a02901156"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-byteorder-doc"

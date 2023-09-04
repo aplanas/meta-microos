@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.5.2"
 
-RPM_NAME = "tracker-miner-files-3.5.2-1.3.aarch64.rpm"
-RPM_HASH = "d0dea060821c2625b83c8bb84ecb61818f827bc97e8dbfd4cbe785235838db14115c83f04ffcc564d2aab87b505a298e6f854a576ec05b06d1f5c15aa6765dd4"
+RPM_NAME = "tracker-miner-files-3.5.2-3.1.aarch64.rpm"
+RPM_HASH = "58f1c5f24bf8cb795d8d02f7c242f0cceb2cf716502e289afa35f0cab8f83427615d4a9b21c5bc48c23d89712ff4d4888cdf73e7c7f23c3a01fe76af104df161"
 
 RPROVIDES:${PN} += "tracker-miner-files"
 

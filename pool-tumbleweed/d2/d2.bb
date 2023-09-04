@@ -5,10 +5,10 @@ fastest and easiest way to get a mental model from your head onto the screen, \
 then make edits with your team."
 LICENSE = "MPL-2.0"
 
-PV = "0.5.1"
+PV = "0.6.0"
 
-RPM_NAME = "d2-0.5.1-1.1.aarch64.rpm"
-RPM_HASH = "56581b20095357a8132e4a12f024299b9de57f074f491d97910a82048184808aed8d53de621fe86faf786ee51206b34f482b2eaf815e84396a8fe50020f20686"
+RPM_NAME = "d2-0.6.0-1.1.aarch64.rpm"
+RPM_HASH = "6f617f8abd7b808a602c53ab7fe9939d76bd7edeca80087ad7995d9fb9c327170a118986dc7687ece0b9d16bf75d8d06ee61cecf993daee7c22827d6359625ff"
 
 RPROVIDES:${PN} += "d2"
 

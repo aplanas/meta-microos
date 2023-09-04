@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.8"
 
-RPM_NAME = "NetworkManager-vpnc-lang-1.2.8-1.7.noarch.rpm"
-RPM_HASH = "078fc24e81d4f0a9b4e183e9cd587e4bf3c661aa0c19baa608511c544176bdd8cd2b018311aaf0e23710f2f5cb92dd52cc4bd9706d5d38bc09dddd1cbf44f73a"
+RPM_NAME = "NetworkManager-vpnc-lang-1.2.8-2.1.noarch.rpm"
+RPM_HASH = "fa43c8864e42a00892d7261258fb281dd62709e8060abab87d5502dc98a122a1a72a6a961ddd2b61e24ab6a5813c36d93e7da9ce9a152eed5522509bfb2df549"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "NetworkManager-vpnc-lang \

@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "0.32.1"
 
-RPM_NAME = "bup-0.32.1-1.1.aarch64.rpm"
-RPM_HASH = "3e5ff6f4ccd4afca22dd603ff2a32b9dde59959685d130df2125ae0b178ac90f710c8c0050dce3eb1527db6a4cb04587432acd25ac594b47890c3607e72ff8de"
+RPM_NAME = "bup-0.32.1-1.2.aarch64.rpm"
+RPM_HASH = "da4b19658666a02d3beb5cdba8e7fc5bc5b0e97345be531cd3ea7c82e1e51af8d787abb49c2123b1699034ee4242c37e1fc86aaaebbd6ca6ff236239e01d1329"
 
 RPROVIDES:${PN} += "bup"
 

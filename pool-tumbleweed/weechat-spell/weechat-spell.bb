@@ -2,10 +2,10 @@ SUMMARY = "Aspell and Enchant Spell-Checking Support for weechat"
 DESCRIPTION = "Spell-checking support for weechat, using the aspell and enchant libraries."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.8"
+PV = "4.0.2"
 
-RPM_NAME = "weechat-spell-3.8-1.3.aarch64.rpm"
-RPM_HASH = "2e5ef2c9943ff404cc42504ae2bc553d3e78f9a32fe6d57734efbe26b3c584741bd0dfdd88ed40e580a945e7d92743e7e54ed4fb29ed56e4dbf7a634907733c6"
+RPM_NAME = "weechat-spell-4.0.2-1.1.aarch64.rpm"
+RPM_HASH = "951b9b5d1846f6b3de25a1aa712ad60a6b38a532e058c22ae7e1870be8910682cff5945d10e9ad812b30aaff90981b93169e1f9c468a617a686ae9f1d5725e52"
 
 RPROVIDES:${PN} += "weechat-aspell \
 weechat-spell"

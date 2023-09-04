@@ -4,12 +4,13 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.2"
 
-RPM_NAME = "lsb-release-3.2-1.5.noarch.rpm"
-RPM_HASH = "747b97d7d35e67991a8d59faa788ffc9b924de7e50336950e91cc28668df5a8f570e4fce1ada3dc6cac2ce8395866cf84f01d0bc6ebf3c5f98dc1ee10455a595"
+RPM_NAME = "lsb-release-3.2-2.1.noarch.rpm"
+RPM_HASH = "b0474e34675f29c5a5474ee68a10edbbe979df7a97869b6e0b02b4ee58432eda6cb182e1eea330bab11b6b43847b6c366aad225a5e77a0ba7d386cf6a803f6f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lsb-release"
 
-RDEPENDS:${PN} += "/usr/bin/sh"
+RDEPENDS:${PN} += "/usr/bin/sh \
+util-linux"
 
 inherit rpm

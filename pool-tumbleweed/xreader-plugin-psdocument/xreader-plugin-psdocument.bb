@@ -2,10 +2,10 @@ SUMMARY = "PostScript document support for Xreader"
 DESCRIPTION = "A plugin for Xreader to read PostScript documents."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
-PV = "3.4.5"
+PV = "3.8.2"
 
-RPM_NAME = "xreader-plugin-psdocument-3.4.5-1.5.aarch64.rpm"
-RPM_HASH = "0e14ca7324220a97bacec70ce51bf317016db6bce63c495220a33cd032da23c5e6c5e983b881f718fe1323e512fbb0a587b09d67aa20aa057405df19ed35c78f"
+RPM_NAME = "xreader-plugin-psdocument-3.8.2-1.1.aarch64.rpm"
+RPM_HASH = "a7b000a01baf95f672fcd20be531b4d638f6037aa2fea6afb8bd572fb266ff1fde5299138e04ed005a0afda2620af592100d027c08fd934f829fa3567912702e"
 
 RPROVIDES:${PN} += "libpsdocument.so \
 xreader-plugin-psdocument"

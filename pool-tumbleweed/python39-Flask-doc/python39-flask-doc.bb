@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains HTML documentation, including tutorials and
 reference for python-Flask."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.2.5"
+PV = "2.3.2"
 
-RPM_NAME = "python39-Flask-doc-2.2.5-1.3.noarch.rpm"
-RPM_HASH = "648c2ba5ae6c541293c56ced7f957dfc1a110982b270205bb1ab279d789c8834460c70546671fd06ed0ed29a1990b7dedb3c1cdb10839fc8fd21fe0d4beef18b"
+RPM_NAME = "python39-Flask-doc-2.3.2-1.1.noarch.rpm"
+RPM_HASH = "727ba6a64f8354e1cb8fda0606aa5fd4c3c5d6868a357e9a454b8bc2c4e40cf1a5ade0dc27a47acc7c261bed1c95454e60d76a222e3be5d31d2327e27a6bd73f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-Flask-doc"

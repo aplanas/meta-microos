@@ -7,10 +7,10 @@ the image to install could be either from media(CD/DVD/USB) or \
 from remote"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "9.24.61"
+PV = "9.25.12"
 
-RPM_NAME = "dracut-kiwi-oem-dump-9.24.61-1.2.aarch64.rpm"
-RPM_HASH = "d068d5213bd70b4276fe7a072e42f5f3b96aa802bd69096dade6d7fcc11476b9c2e44dfea3015388a6f1b91bd53eed10b60bc5a4fa4956d39a81001961b75f57"
+RPM_NAME = "dracut-kiwi-oem-dump-9.25.12-1.1.aarch64.rpm"
+RPM_HASH = "04abfe7b5d9c787340bec8049bc6c1dc3cb615a3a6c8411673274de7449ae27bb361997d2dd783bb4a8cdd17d98b771ec19046f1821c216a7e777bd79090dbe7"
 
 RPROVIDES:${PN} += "dracut-kiwi-oem-dump"
 

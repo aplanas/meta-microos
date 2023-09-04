@@ -15,8 +15,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.9.17"
 
-RPM_NAME = "python39-3.9.17-3.1.aarch64.rpm"
-RPM_HASH = "10859bc42eb8cfd8a0ac0054be3e4bfcdfc3e258d44ef098f93e70f2b60f67bfe96c8299bfce8235780a07d84090ec4ebe5e6f6456c86bf6583ad1dadd132638"
+RPM_NAME = "python39-3.9.17-4.1.aarch64.rpm"
+RPM_HASH = "758c7cae51c657f95bd31d4c81c3d8ff59a47e4ce1b8c4a6baf83103a1a6f58852047ec82261e5bbfa0563a35092ab678ca5dfedf17789fe328600ae5830fffb"
 
 RPROVIDES:${PN} += "python39 \
 python39-readline \

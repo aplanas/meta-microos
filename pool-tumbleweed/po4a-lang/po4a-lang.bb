@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.69"
 
-RPM_NAME = "po4a-lang-0.69-1.3.noarch.rpm"
-RPM_HASH = "e67e7b85cab39e9c99c497b8d0def8567f98c8549b416208e9852b56c67828ae1b7bb4473365665b2d1fe23d7fa28e4213daaf58645a741869d9978eaf534014"
+RPM_NAME = "po4a-lang-0.69-1.4.noarch.rpm"
+RPM_HASH = "7f8ef0a6509b1dc4788c25865b60ea4ae0bd59c24681e617fd66bed5602f242d72a06cba1c01a70b553a4ebc73bd1f87c7492d1f0256c4cab1a9325a2f20124a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-po4a-af \

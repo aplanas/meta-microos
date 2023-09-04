@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-nginx-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "20b890f745cc49c7190240aff3e4d0ef8ce78574c30cdfcdbb3b2140f3b0040f9f701b8a8df43b7af0a997a87a4bf93d6d1da5f524eb9a0bb7380c6be54a3a64"
+RPM_NAME = "pcp-pmda-nginx-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "10716e968a79a84f7854b33b84f07bca5edac5471bd3786622b3b0b614e2a7009437240844bc4e32a3204029cd2c52d50fa45908e05cfb8a16bc3876e9529b92"
 
 RPROVIDES:${PN} += "config-pcp-pmda-nginx \
 pcp-pmda-nginx"

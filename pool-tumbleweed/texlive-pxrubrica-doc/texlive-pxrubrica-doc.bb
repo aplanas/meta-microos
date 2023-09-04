@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.3esvn66298"
 
-RPM_NAME = "texlive-pxrubrica-doc-2023.209.1.3esvn66298-54.1.noarch.rpm"
-RPM_HASH = "95a3dd96d91525b67f179d6dee7b6b3db39c8dfc0f074b99ff605d14baeeeea182f42f7c292c300ff346e6e7616f686585b3c2156b33e2ab3db441168c08ab5d"
+RPM_NAME = "texlive-pxrubrica-doc-2023.209.1.3esvn66298-54.2.noarch.rpm"
+RPM_HASH = "9f1df88abb7f1773fbbcb9726490800ed195b562517b969841b4a30bb3f067930b6d9933bbfc526cf6870e94adc79e409607148985fb21c714a7b4be715bbcb5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pxrubrica-doc-ja \

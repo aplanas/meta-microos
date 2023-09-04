@@ -6,10 +6,10 @@ the standard way of doing things in Django, so that it still works \
 with any other form application."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.7"
+PV = "0.8.1"
 
-RPM_NAME = "python39-celery-batches-0.7-1.4.noarch.rpm"
-RPM_HASH = "9596363c053b5ae4bc8f6cb6dccacef497459d82ff33f825fda543cc9de8f1ffd0e4bb417485b97c7d59f2d9bf2c31f575b4fa195db09a9db20de8b22c57a174"
+RPM_NAME = "python39-celery-batches-0.8.1-1.1.noarch.rpm"
+RPM_HASH = "d3939ec441541b8f2d1aa49d0046df2cb432f1b3c775d58933335d6e433c51e9b6000a5efb9183e30c5390c9c83ce504a98ade901d5e0943efb583e829836c9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-celery-batches \

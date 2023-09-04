@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.9.4svn56291"
 
-RPM_NAME = "texlive-gsemthesis-2023.209.0.0.9.4svn56291-54.1.noarch.rpm"
-RPM_HASH = "290d24ce47254b36918b18e79787cec7203a6760e895dc53473607411f1edca1dc69009000cafdc1c3eefd7667e4de1dd740ed23834ea2fb363764b893744c88"
+RPM_NAME = "texlive-gsemthesis-2023.209.0.0.9.4svn56291-54.2.noarch.rpm"
+RPM_HASH = "d410b4251c305d7efb580fb4d4a01c6ce6c908b6f771ef7c300cc36ae4cb25baf6d7261dfdaac0d89a2dacc6915b1898fcdf6f18275116a546c7ba6cdeef6440"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gsemthesis.cls \

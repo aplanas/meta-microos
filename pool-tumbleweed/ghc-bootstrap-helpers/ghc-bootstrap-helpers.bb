@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause"
 
 PV = "1.3"
 
-RPM_NAME = "ghc-bootstrap-helpers-1.3-2.1.aarch64.rpm"
-RPM_HASH = "65685561ea24357dcc30fc71b47a8e36e18eb96523b584079117262a1ea598294f59bd024863d3acd7eaf560a3a4bd7d20e135b0ea71e1f022b6c80ceb6998f4"
+RPM_NAME = "ghc-bootstrap-helpers-1.3-3.1.aarch64.rpm"
+RPM_HASH = "918c4e91a996f1c30d7b5d9b35f993b0a8960f1a598f044004108d4d22b866d1a8fe875d8052927ccbb13f5008b7792d9f4056728a9d133b415323e695c4cb9f"
 
 RPROVIDES:${PN} += "ghc-bootstrap-helpers"
 

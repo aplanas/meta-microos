@@ -5,10 +5,10 @@ both dynamic and static typed and it supports the features we need to \
 create and maintain a project like Phalcon."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.2.2"
+PV = "5.3.0"
 
-RPM_NAME = "php8-phalcon-5.2.2-1.1.aarch64.rpm"
-RPM_HASH = "0eccf06f4e0f24924b2d6867babd96a935a3a1638f2ae0b934c15b16ae730950054195f0c294d63a828c9a89411bce1117f389099570ed785a8aad115df98ca5"
+RPM_NAME = "php8-phalcon-5.3.0-1.1.aarch64.rpm"
+RPM_HASH = "1cffbc6e0063ea789378127b4699ad47e035737c4a9ef2520ecbadd9bc07b3a133db9a6156d571114ff1f916510fa1a1a05d1c90ab393c2afe5cdefddebe4f9f"
 
 RPROVIDES:${PN} += "config-php8-phalcon \
 php8-phalcon"

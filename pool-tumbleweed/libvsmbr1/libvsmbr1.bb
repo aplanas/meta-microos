@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20210509"
 
-RPM_NAME = "libvsmbr1-20210509-4.9.aarch64.rpm"
-RPM_HASH = "d108400ee44828218c7f859c17f4d2bc118544f668cad603102b2202bdc3b022b3efd2af8f036934fae33df3b962434f2e1462fd7e43e6a12fa04af95bc30a63"
+RPM_NAME = "libvsmbr1-20210509-5.1.aarch64.rpm"
+RPM_HASH = "1ccc6512b9ca0a4be01070aab16fa09ac2c2a9aa6663ef6dd69fb1044032dfe293540cfdacc97f0c7e0a04f89ebe446043aa2b4cbe3edd2f2160b9419c0e41bf"
 
 RPROVIDES:${PN} += "libvsmbr.so.1 \
 libvsmbr1"

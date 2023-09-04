@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.11svn52602"
 
-RPM_NAME = "texlive-halloweenmath-2023.209.0.0.11svn52602-54.1.noarch.rpm"
-RPM_HASH = "e205b2966860ca2db63d591e8f54a98da1af255b9dc3fd7014252b0221320793d050c5a454f939ae9f1aa87880d69de0284981f3d9234bad9cf8e8ced578020c"
+RPM_NAME = "texlive-halloweenmath-2023.209.0.0.11svn52602-54.2.noarch.rpm"
+RPM_HASH = "ade8c62a8491f4f4a3c26ea766d060c7827e9c2446505ebc674976fc92fa5a555835d2da6634bbde820ffe7181821fb471327c52168d6735c126de82f7a7d77d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-halloweenmath.sty \

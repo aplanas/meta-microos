@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.0.1.7"
 
-RPM_NAME = "ghc-digest-doc-0.0.1.7-1.6.noarch.rpm"
-RPM_HASH = "3a01bfd0f82e4df0e90f2e478894ce035967b649c75fc0007733601390a399509f262413c3ecc8182b747aaa6ea3075164c21e0a54e72eb46661abb79b549c3e"
+RPM_NAME = "ghc-digest-doc-0.0.1.7-1.8.noarch.rpm"
+RPM_HASH = "5ecd7e482d7622cec528db8d6e698ba2168c871c71fd1af60b202c69e7375f32d057fbd38aa36e6694a45dc033b5ce823fe1627cdf86f958e5413a65fee3bf46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-digest-doc"

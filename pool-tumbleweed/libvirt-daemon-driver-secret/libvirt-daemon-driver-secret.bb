@@ -3,10 +3,10 @@ DESCRIPTION = "The secret driver plugin for the libvirtd daemon, providing \
 an implementation of the secret key APIs."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.5.0"
+PV = "9.6.0"
 
-RPM_NAME = "libvirt-daemon-driver-secret-9.5.0-2.1.aarch64.rpm"
-RPM_HASH = "8ea8c2f285e850422c10d0747db5ab4d0eb896f9ba0de8a905eeed50bd3643b6e937e2cbd1c4319ee5f7e714280f2c1b1d8e229bc6e7514a52a9910eee727295"
+RPM_NAME = "libvirt-daemon-driver-secret-9.6.0-2.1.aarch64.rpm"
+RPM_HASH = "039557505dd0215631a91a942e7045def1fbda3aebdd32fc793e50c70114d323cd06eee13a1464685ae781d479320a702867674ca3667d574f102b57e9280f5e"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-driver-secret \
 libvirt-daemon-driver-secret \

@@ -6,8 +6,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.209.0.0.9svn54080"
 
-RPM_NAME = "texlive-recipe-2023.209.0.0.9svn54080-54.1.noarch.rpm"
-RPM_HASH = "bb962cd4fb5454349a854f5bfa231fbf7954953248014ab06d9686ae62209887a5c7882b6a6d6be2c172bc38c7228feab8d63089b62491574e2283ed543b52a1"
+RPM_NAME = "texlive-recipe-2023.209.0.0.9svn54080-54.2.noarch.rpm"
+RPM_HASH = "1a3439112a840a753121af1ff3e2a60b2c86beafb3d4b3cc7cfb6809ece5a641322d3697e9d89d6c12be8237c8905fe9658cb3ff8c909f5e3c9dfc93f2d13f6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-recipe.cls \

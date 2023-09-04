@@ -6,13 +6,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.29"
 
-RPM_NAME = "perl-Want-0.29-1.35.aarch64.rpm"
-RPM_HASH = "7740aa1fb60d45c91a9dbf6bef5386c3b88e96f68e21759dffd8a18c36a9454ded59b586a876068550555c7b908a53cf0df2993c38ea3ed8cd0d9c5b78da08a0"
+RPM_NAME = "perl-Want-0.29-1.36.aarch64.rpm"
+RPM_HASH = "dd8fff7aa2295f5c4ba43466b9a1dc1a93124eb137831762d100af75b604d566004c7b85af007c5fcfcfcbc8514b8240da2ea30ef3725ec06bd66552bb3c870d"
 
 RPROVIDES:${PN} += "perl-Want"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

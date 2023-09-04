@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.02.122+94.4bd41a3"
 
-RPM_NAME = "plymouth-lang-22.02.122+94.4bd41a3-6.1.noarch.rpm"
-RPM_HASH = "7402d5e901f06160bd0a3c99adc6a6c9fa219adb544962e2ae83087869578437b648f8e7507fc5ad77a1ac84142f81b0d9e49dab6bb4752a2c35b6f779247ee0"
+RPM_NAME = "plymouth-lang-22.02.122+94.4bd41a3-9.1.noarch.rpm"
+RPM_HASH = "9fc596943ddeeb3d27bfb55faa848eb2d4737eb6a58b619ccda1422d930815e78ce117aa17038b3066615a2d0a8bf6be902719ca9f171f05016decb297ec3a42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-plymouth-be \

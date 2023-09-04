@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.17.0"
 
-RPM_NAME = "libthrift_c_glib0-0.17.0-1.9.aarch64.rpm"
-RPM_HASH = "68aa1f29f0872c841ea7d42e78ecfcb85b76eadcaa398d305c77865b8f8065fe8d3b449ad604367de400d371a5edce48ac4f00d6ae6e38e0960911a6694d2d54"
+RPM_NAME = "libthrift_c_glib0-0.17.0-1.10.aarch64.rpm"
+RPM_HASH = "3c66854900efc96ac742d89a1f20aa1a37f0cf6cc8aac5d52882f563ff50bd04aa3535d05956d321738540448a9688221c05fdbc66c6957ae231a8cc850b6f62"
 
 RPROVIDES:${PN} += "libthrift-c-glib.so.0 \
 libthrift-c-glib0"

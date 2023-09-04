@@ -11,24 +11,24 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.3.13"
 
-RPM_NAME = "ghc-microlens-th-0.4.3.13-1.1.aarch64.rpm"
-RPM_HASH = "024b5b4c3c8444245f5633f0949fa650d37ecb490286f1712342c2f5c0269175627669c813f8ec13ed7143d7182eda5df1cafdfee23148a53621a71c763a5534"
+RPM_NAME = "ghc-microlens-th-0.4.3.13-1.2.aarch64.rpm"
+RPM_HASH = "0f1aa67c82140e903d652e7a8a117960dd58bc8fc78be52e1bfd732c60d56586e103ae556967269efcd407b4225d754dece97e29805b028638353b5741604452"
 
 RPROVIDES:${PN} += "ghc-microlens-th \
-libHSmicrolens-th-0.4.3.13-4M5tTOX0ioLGTMiKBp6v2C-ghc9.4.5.so"
+libHSmicrolens-th-0.4.3.13-K3KDbjSa5xkBUVjBxtDTLF-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
-libHSbase-4.17.1.0-ghc9.4.5.so \
-libHScontainers-0.6.7-ghc9.4.5.so \
-libHSdeepseq-1.4.8.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-boot-th-9.4.5-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
-libHSmicrolens-0.4.13.1-ARwI8t2x86cAxRs56XPcG1-ghc9.4.5.so \
-libHSpretty-1.1.3.6-ghc9.4.5.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
-libHSth-abstraction-0.4.5.0-8bY5lBPMorfFW3yG6gFNZT-ghc9.4.5.so \
-libHStransformers-0.5.6.2-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
+libHSbase-4.17.2.0-ghc9.4.6.so \
+libHScontainers-0.6.7-ghc9.4.6.so \
+libHSdeepseq-1.4.8.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-boot-th-9.4.6-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
+libHSmicrolens-0.4.13.1-4XtL5z7DHHC7UZaR6xNDY3-ghc9.4.6.so \
+libHSpretty-1.1.3.6-ghc9.4.6.so \
+libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
+libHSth-abstraction-0.4.5.0-CynkUuS8OuAKbGjDnje1Fs-ghc9.4.6.so \
+libHStransformers-0.5.6.2-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

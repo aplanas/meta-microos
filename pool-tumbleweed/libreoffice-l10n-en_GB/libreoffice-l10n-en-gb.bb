@@ -2,10 +2,10 @@ SUMMARY = "English_GB localization files for LibreOffice"
 DESCRIPTION = "Provides English_GB translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-l10n-en_GB-7.5.4.2-1.5.noarch.rpm"
-RPM_HASH = "fe21c666e33dcaa48e5a240beadb79e6010a91e5b39eaaf3f9b938bc8c11a6a3531bae34e07755d06ecc87d8d7a717f812ac9dcc11989442df3242fb2d8eecd8"
+RPM_NAME = "libreoffice-l10n-en_GB-7.6.0.3-1.1.noarch.rpm"
+RPM_HASH = "bc8e05ff5b175d6fd14451a6c01c651f6f60187213f69abfe9950e8b9433f02e9d9351052c1614bc1cac72245dd053f0f0dea83cb79a40ae9a1a6f5755c4c25b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-en-GB \

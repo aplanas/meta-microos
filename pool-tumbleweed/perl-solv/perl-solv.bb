@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7.24"
 
-RPM_NAME = "perl-solv-0.7.24-1.3.aarch64.rpm"
-RPM_HASH = "b70a795358ab5008eedbc0211d0a2354b98eca7b406e86dfefecead0562ca7214f6e4086b1c4d32920380bf5b6dae217f1e06bf1d2ee841f5e9d4a47051af33a"
+RPM_NAME = "perl-solv-0.7.24-1.4.aarch64.rpm"
+RPM_HASH = "b14f264f14792d323ff15a2439a9bdce8f885121bee1d8969be4fcf71de3d4f0cc8247ab8e569e37c8cca4bb6014ad9879832c67db9821aa97ae4a5a3bac8f8a"
 
 RPROVIDES:${PN} += "perl-solv \
 perl-solv--Alternative \

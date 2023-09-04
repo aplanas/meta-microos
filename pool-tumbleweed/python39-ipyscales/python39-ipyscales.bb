@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7.0"
 
-RPM_NAME = "python39-ipyscales-0.7.0-5.5.noarch.rpm"
-RPM_HASH = "a7e7bc2c4e5e7d1ff016e619dfff081687b9e96bc5ceb43eb0f109d4a16ce5cb739b967d0ec9d3770dcd168319df10f9c7e92f0c2ba721b07cbab3afcef6120f"
+RPM_NAME = "python39-ipyscales-0.7.0-6.1.noarch.rpm"
+RPM_HASH = "5d057a0d7ef4b8c2d00e83055569fc6e54db825e65f8aa7ba3c3bd265c8c9fdd7cfb16377911a2075ec33e4ec7fd5b4650ee9ac7105d3dee9086f44d287e0377"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ipyscales \
@@ -17,7 +17,6 @@ python3dist-ipyscales"
 
 RDEPENDS:${PN} += "jupyter-ipyscales \
 python-abi \
-python39-ipywidgets \
-python39-numpy"
+python39-ipywidgets"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.1"
 
-RPM_NAME = "ghc-boring-doc-0.2.1-1.2.noarch.rpm"
-RPM_HASH = "e7ccd8a8f709384d066e11d3fd9037b879b718220a8032cf8eb98945f1338dd3c649fde2167edc24b8610629c6816b5658d8ecaef0d03453e93204ab977471dc"
+RPM_NAME = "ghc-boring-doc-0.2.1-1.4.noarch.rpm"
+RPM_HASH = "66b1d3eea0023eb2e725219002b47251ebab36104803bcc4ef0120e78a37b6505e52b0837277786d2603c4f452b4995ae7cedd0c912104f4e9a5363ea5c8752e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-boring-doc"

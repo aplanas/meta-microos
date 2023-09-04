@@ -2,10 +2,10 @@ SUMMARY = "Haskell libiserv library documentation"
 DESCRIPTION = "This package provides the Haskell libiserv library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "9.4.5"
+PV = "9.4.6"
 
-RPM_NAME = "ghc-libiserv-doc-9.4.5-3.2.noarch.rpm"
-RPM_HASH = "e04f82920ece9e9d2e7418fc04a22557e4ff160f5720de66ac0642aa36e9f1757975561ff655295a44a8a50722f6fa316f27585d8c915908e35e909a019bafed"
+RPM_NAME = "ghc-libiserv-doc-9.4.6-1.1.noarch.rpm"
+RPM_HASH = "15106d44e9f944d35fb0117d0d4ba92a915ebab06ab4de770f56dbbbdfe248b7845ef034932ec4b252760892c4a2ab8338255ec54dcc68a17e36dc5a76066e2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-libiserv-doc"

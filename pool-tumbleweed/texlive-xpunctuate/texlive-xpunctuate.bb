@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn26641"
 
-RPM_NAME = "texlive-xpunctuate-2023.209.1.0svn26641-53.1.noarch.rpm"
-RPM_HASH = "aa56cafad68a8d9462fd148a552fca3f3f26bd032033d7f726ccd3e5c259924d98e8df071ca89f637b6ab4e2598c3d490bc6aa33a39bd337b20fe8f79a014107"
+RPM_NAME = "texlive-xpunctuate-2023.209.1.0svn26641-53.2.noarch.rpm"
+RPM_HASH = "e6a6ee0cfb5fa5f30c4839d6f665518c5acbda07176acda33926d07c6176c03f7538c7b2d61228dac3f00fe82b2925a882885658eb010270790019eb43f405d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xpunctuate.sty \

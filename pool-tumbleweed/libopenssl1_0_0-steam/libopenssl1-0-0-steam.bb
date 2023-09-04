@@ -9,8 +9,8 @@ LICENSE = "OpenSSL"
 
 PV = "1.0.2u"
 
-RPM_NAME = "libopenssl1_0_0-steam-1.0.2u-21.1.aarch64.rpm"
-RPM_HASH = "1c48c992ebf23546c63c397ec7c29a180e90327e4cdc2ba261a07c2b7a352d8e8a4ce5da0c5d8584412add956c8832c7dca21e400333e2641534b3f392d69dde"
+RPM_NAME = "libopenssl1_0_0-steam-1.0.2u-22.1.aarch64.rpm"
+RPM_HASH = "3a7f44791ed6e56e6f46aa0aa020c701b4edcd212ce497c38ce43879215f90b1ed2cecb170422e4ba9d031ebf27f876830fc32a57303b2827fb8629bce15fa09"
 
 RPROVIDES:${PN} += "libopenssl1-0-0-steam"
 

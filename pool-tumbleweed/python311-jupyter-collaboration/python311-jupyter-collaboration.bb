@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.0"
 
-RPM_NAME = "python311-jupyter-collaboration-1.0.0-1.2.noarch.rpm"
-RPM_HASH = "9da6d1a1c631582ec2e9444f87a2af92646dbc7551cc5add7bfacf8df54b2772b7131f5d793f48be743185a8a7767dba5c155a0312bcf0f11b2b74b14af06b3d"
+RPM_NAME = "python311-jupyter-collaboration-1.0.0-2.1.noarch.rpm"
+RPM_HASH = "3c8ce56c8a1f075ec66ea7ea762d5e3222cf9552f20fba9e70fc59b6f469021b7fd85317758dc5bfa93e6fc5f9940eab055590f5ed186d2d8d3150295e92809f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jupyter-collaboration \

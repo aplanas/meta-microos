@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn35665"
 
-RPM_NAME = "texlive-glossaries-magyar-2023.209.1.0svn35665-54.1.noarch.rpm"
-RPM_HASH = "74ce8cd8c5baa2da73aace07c5f97eeeb9f690eae732d87dfe54013aff740035e4c6f7f62d1a9940b89e0b40d9e5461cb97f5883c4c24c283f79f74a55f1948e"
+RPM_NAME = "texlive-glossaries-magyar-2023.209.1.0svn35665-54.2.noarch.rpm"
+RPM_HASH = "49c32b73247caa45d824fb1332a9dad58a358c23fccce172cacbe1b492847d4ab8f968c74620f1dbd540d906172e2aa3e40a3e8909890b0591220d86f04b3e4f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-glossaries-magyar-noenc.ldf \

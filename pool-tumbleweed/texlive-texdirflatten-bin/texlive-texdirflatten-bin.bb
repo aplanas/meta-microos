@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn12782"
 
-RPM_NAME = "texlive-texdirflatten-bin-2023.20230311.svn12782-93.1.aarch64.rpm"
-RPM_HASH = "7291ccd5552a8b247cacd958784031fe303f84ecd5eb4813131cc2a94d79b010263a393d88b44b62029a8137b960b67a76f5127524328a53a055d5e0320180c8"
+RPM_NAME = "texlive-texdirflatten-bin-2023.20230311.svn12782-93.2.aarch64.rpm"
+RPM_HASH = "a82c06005552b5de55cc7bd29bc39c6a75bca1da6e0c9cd56d97e09f082feda226ce970027fb67a58e4be21d0fa8ee2c08e75c0b3d256dc2e3c1d300cd76b0f5"
 
 RPROVIDES:${PN} += "texlive-texdirflatten-bin"
 

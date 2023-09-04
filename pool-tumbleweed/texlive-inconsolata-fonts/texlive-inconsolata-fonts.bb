@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-inconsolata"
 DESCRIPTION = "The  separated fonts package for texlive-inconsolata"
 LICENSE = "OFL-1.1"
 
-PV = "2023.208.1.121svn54512"
+PV = "2023.209.1.121svn54512"
 
-RPM_NAME = "texlive-inconsolata-fonts-2023.208.1.121svn54512-53.1.noarch.rpm"
-RPM_HASH = "7642de0d3f435ad90b56dc2e10bebafd4ee1842a8f329d56782d65824c58b656839879e3a6c3ee7eed9e55189dd74990b28d545d9b62233fad516e071117e577"
+RPM_NAME = "texlive-inconsolata-fonts-2023.209.1.121svn54512-54.1.noarch.rpm"
+RPM_HASH = "1e871f262eff51a0f883ae0fa7884fa4b44515166ed3cae596fdd03c00c3a2f1a3c2092a305befbfa7f226911b1ffb472d9cdc276c5842e8c9bc20c10a007285"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-inconsolata-fonts \

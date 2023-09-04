@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.10svn63869"
 
-RPM_NAME = "texlive-rerunfilecheck-2023.209.1.10svn63869-54.1.noarch.rpm"
-RPM_HASH = "0185c7cac47b3410f5429fe6d0c6577af55889137c65779e348e2666480e694ec633e239ac4e29c80124a1de82bc3cace8b1a864c7a5119c91cacd25b448fffc"
+RPM_NAME = "texlive-rerunfilecheck-2023.209.1.10svn63869-54.2.noarch.rpm"
+RPM_HASH = "4f55b06cb490b573de71e8d7dacf24a12e27480cc7df0ea02c5ac09eb630a3b20a56e83999341cd1b0c0d85b61712c839f24cecd0ae57a6b9417074ba7e19241"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rerunfilecheck.sty \

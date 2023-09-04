@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0.1"
 
-RPM_NAME = "ghc-commutative-semigroups-doc-0.1.0.1-1.2.noarch.rpm"
-RPM_HASH = "f6b44452eb1bb2c5dfa7f8a8c796b535974ed3c8e9862df14448f18000b1e00734915cceb3e3814a1f2ab10c782062077018df26cc97d37bc0d1eab6acc90e22"
+RPM_NAME = "ghc-commutative-semigroups-doc-0.1.0.1-1.3.noarch.rpm"
+RPM_HASH = "964b295f8049bea3b05641eadb5f34a426621c4f3c23d3ba8797d73803b8c42ee221500d52d73281dba2588a1dbcc69f1d918bed9c3dbb7b4cb0964ede066e98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-commutative-semigroups-doc"

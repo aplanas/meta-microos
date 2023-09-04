@@ -4,25 +4,25 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.15"
 
-RPM_NAME = "ghc-uuid-devel-1.3.15-4.6.aarch64.rpm"
-RPM_HASH = "f11d3fa3dbd407fbd760177dd8ee731bf89d32c21688c7c52faf400e8df0b7f0636282341c6834f5f52e741b73f5800fc2fb951159de96f3ec42c89cc4e242f7"
+RPM_NAME = "ghc-uuid-devel-1.3.15-4.9.aarch64.rpm"
+RPM_HASH = "dbd940500a8ae82c9717be3e3801af62500ef264c6f1c7211e6391035e07bc6d552e90dbd77ec4819f0fe27adcc79c2464e88f0c05dfd8fe20d25609e1ce659e"
 
-RPROVIDES:${PN} += "ghc-devel-uuid-1.3.15-LYRljjihV0KIEewDtLdQ17 \
+RPROVIDES:${PN} += "ghc-devel-uuid-1.3.15-G28WsYmWYhECkJy6K1fo5U \
 ghc-uuid-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-binary-0.8.9.1 \
-ghc-devel-bytestring-0.11.4.0 \
-ghc-devel-cryptohash-md5-0.11.101.0-1tswcJp9v68CZlxGZzmcPV \
-ghc-devel-cryptohash-sha1-0.11.101.0-5MfQC56IvYq9IpSDMpmdHb \
-ghc-devel-entropy-0.4.1.10-HkaMHQZP8nyRj15panvtP \
-ghc-devel-network-info-0.2.1-G9nMDkAKQecAEHIupCmq9I \
-ghc-devel-random-1.2.1.1-I0wUgAAbf0g3qHR3e8uT0o \
+ghc-devel-bytestring-0.11.5.1 \
+ghc-devel-cryptohash-md5-0.11.101.0-DA2NKKN1mDy6fcPl6be7xQ \
+ghc-devel-cryptohash-sha1-0.11.101.0-6Awf3EmibUqDJxbZJLf3j4 \
+ghc-devel-entropy-0.4.1.10-J8gEYIp8YzV1E0Yqy7gqyc \
+ghc-devel-network-info-0.2.1-EA7QwxKMOIgJxpSbEh9J66 \
+ghc-devel-random-1.2.1.1-DaR3VtSJjyj4XXOpfKJ29k \
 ghc-devel-text-2.0.2 \
 ghc-devel-time-1.12.2 \
-ghc-devel-uuid-types-1.0.5-LsoYQ81hhMAHUqibNrLXkM \
+ghc-devel-uuid-types-1.0.5-34Qd5N8tYIyGW5LtrFWnkV \
 ghc-uuid"
 
 inherit rpm

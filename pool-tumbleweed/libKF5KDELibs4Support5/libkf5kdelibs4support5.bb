@@ -15,10 +15,10 @@ location as KDELibs4Support, although it may be sufficient to set the \
 KDEDIRS environment variable correctly."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "libKF5KDELibs4Support5-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "e9ad4f68011811f76b73ddf6fbee326a92a8a859fe54910e552a3091babc7857fbfc53353116749be5d7375b7d57b3954c2bb81a1b7627f905e3c381cb91fedd"
+RPM_NAME = "libKF5KDELibs4Support5-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "9aa5854548be25e1de5fa1bb64984eaa82d3e76b5f3c50fda977b5caf80066ddb609e2bb33994675cefd3aecb69f48d3dfeb7d04a9f6be29af7a34acbf036cd3"
 
 RPROVIDES:${PN} += "libKF5KDELibs4Support.so.5 \
 libKF5KDELibs4Support5"

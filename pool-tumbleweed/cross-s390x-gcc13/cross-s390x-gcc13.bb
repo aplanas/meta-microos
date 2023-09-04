@@ -5,10 +5,10 @@ Note this is only useful for building freestanding things like the \
 kernel since it fails to include target libraries and headers."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7597"
+PV = "13.2.1+git7683"
 
-RPM_NAME = "cross-s390x-gcc13-13.1.1+git7597-1.1.aarch64.rpm"
-RPM_HASH = "f89563db0c96b64be6fcc297be13671958e09b140fa4c56f6acf81b9aeedc0224acb94eb90fd80d6bf669fb0c72b6fe1a7081d961032b799cbb4760cf0b5d11f"
+RPM_NAME = "cross-s390x-gcc13-13.2.1+git7683-1.1.aarch64.rpm"
+RPM_HASH = "4c8005ab57460f90a565a168e2f8fc2c41b6eaf19c11d3fd1621b89ddaf9344f155306dbacec9c106d0d7d9227733972f864d72dea515b3d84b231810b43a6ab"
 
 RPROVIDES:${PN} += "cross-s390x-gcc13"
 

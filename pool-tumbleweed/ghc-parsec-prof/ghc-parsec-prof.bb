@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.16.1"
 
-RPM_NAME = "ghc-parsec-prof-3.1.16.1-3.2.aarch64.rpm"
-RPM_HASH = "93b278e2b33bd4d236c3a469af15a92f152270590e037f4ccdb3d41226fb8cf6a7d422285cf36dc0e8107becc0806cc236d6e51d27d5caaf5ee414b28acaf99e"
+RPM_NAME = "ghc-parsec-prof-3.1.16.1-1.1.aarch64.rpm"
+RPM_HASH = "84e7d3ef41fa512de8b30847fbf9ae21983e1d5d8d38840c2937e4e3a6ca8430c479b257f1d6807f0b0a5a39aa0d474aa1b6ce936ca6b59613186a37ba338f61"
 
 RPROVIDES:${PN} += "ghc-parsec-prof \
 ghc-prof-parsec-3.1.16.1"
 
 RDEPENDS:${PN} += "ghc-parsec-devel \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-bytestring-0.11.4.0 \
+ghc-prof-base-4.17.2.0 \
+ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-mtl-2.2.2 \
 ghc-prof-text-2.0.2"
 

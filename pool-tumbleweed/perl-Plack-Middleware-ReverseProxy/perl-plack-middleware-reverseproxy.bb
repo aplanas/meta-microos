@@ -6,14 +6,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.16"
 
-RPM_NAME = "perl-Plack-Middleware-ReverseProxy-0.16-1.9.noarch.rpm"
-RPM_HASH = "12001284e858cc24fb90046a95c9046739222ed510cc78ff561c85c6cb0f5b8b203e9bf9df31b49d2f2bfb1d7a864dcb1f77ca6b3a0063ba0fc7a724d0ca1994"
+RPM_NAME = "perl-Plack-Middleware-ReverseProxy-0.16-1.10.noarch.rpm"
+RPM_HASH = "cc79b83a955a3d472a7f4cec881d3e7227d38cc61123f8f75ca6dc49a27984ecce25e4c7036cd3327a7c8c9dd588a2b424f8c7f23da41b360388174fa6eabec6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Plack--Middleware--ReverseProxy \
 perl-Plack-Middleware-ReverseProxy"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Plack \
 perl-Plack--Middleware \
 perl-Plack--Request \

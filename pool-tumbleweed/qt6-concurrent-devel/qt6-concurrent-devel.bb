@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "qt6-concurrent-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "0afb342bc7d3fc1d000b6019b5663381b2d9733dd7cc48de4b24f30eb323087d38423b4ca1ad141377c0b1e786dcd67f052249bacda7dc92c57045a76279fdcc"
+RPM_NAME = "qt6-concurrent-devel-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "97328d589278f5e18efea8baaac57c140056853cf76e289993a8f3207b0a65174a09a9296da1f35c3e1e453e6a5ddef574ccbcd7adfa87e74c6c2bf4bebf6518"
 
 RPROVIDES:${PN} += "cmake-Qt6Concurrent \
 pkgconfig-Qt6Concurrent \

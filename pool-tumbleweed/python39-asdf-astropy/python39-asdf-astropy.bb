@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.0"
 
-RPM_NAME = "python39-asdf-astropy-0.4.0-1.3.noarch.rpm"
-RPM_HASH = "7d01f47faf33506ec1aa6cc095ff970eb98483ff6b65333109c1d11e3dbed3b2a9f1f026692a3bf073ed87ea5213add69976d9d65e99c6201146ac7926463e98"
+RPM_NAME = "python39-asdf-astropy-0.4.0-1.4.noarch.rpm"
+RPM_HASH = "94c46e847910454cbb40d9c1f299d9ba40914de8b8973098d7209c196315449cfeb1bf03cfec3d1579f70b71f2e90152aa8e320acc461410183b0e21e733c20b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-asdf-astropy \

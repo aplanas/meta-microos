@@ -4,14 +4,14 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.8.7"
 
-RPM_NAME = "LaTeXML-0.8.7-1.3.noarch.rpm"
-RPM_HASH = "0ccb29a2ffc7e0e95858bc03e9c623f3e38221e00b23a03ffdaafe63b19679655a777e3c7f1f35aad6bce5b267e436f146cb43a08887a560fc5b2e2d5d74700d"
+RPM_NAME = "LaTeXML-0.8.7-1.4.noarch.rpm"
+RPM_HASH = "c989aa46ec93e289da54267203babc4b35378a8cd53e6cf63eefae3cfa55308ad604ce702983b668779e75a6a227e5a050a58a5cd46dfb30d14d6ec728588b53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "LaTeXML"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Archive--Zip \
 perl-DB-File \
 perl-File--Which \

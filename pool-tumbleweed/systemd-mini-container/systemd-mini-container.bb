@@ -10,10 +10,10 @@ To activate this NSS module, you will need to include it in /etc/nsswitch.conf, 
 see nss-mymachines(8) manpage for more details."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "253.7"
+PV = "253.8"
 
-RPM_NAME = "systemd-mini-container-253.7-2.1.aarch64.rpm"
-RPM_HASH = "7dca94e0b54107aad3787a6fe570a1b2a043df8de939e8520a9b3157aeba148f3c546993cbfd4e08190d1f1c84899e89b5ff3a9193b76799d71c243eed605fc9"
+RPM_NAME = "systemd-mini-container-253.8-1.1.aarch64.rpm"
+RPM_HASH = "f035e6318e68d5c95707b87d203e298a41d692c4379bc26a1b3275c341b305566387cc611866c5e0daf14125e8944e13e4b093ac7d7d884938b5be142d743929"
 
 RPROVIDES:${PN} += "nss-mymachines \
 systemd-/usr/bin/systemd-nspawn \

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.1.1.3"
 
-RPM_NAME = "ghc-setenv-doc-0.1.1.3-12.2.noarch.rpm"
-RPM_HASH = "714bdacb06dcfc565a23954b71a10049b41c709f2abf67b24102b6961ce4deb698f715cb478e5681585a96ade4cd635d970adb7bf96e96737bceb28c5f7bf312"
+RPM_NAME = "ghc-setenv-doc-0.1.1.3-12.3.noarch.rpm"
+RPM_HASH = "18bc3b09cadb85962e2d0f6ff56ade26f54b22f7759adf7a209943051fb5e3ab43c715ad28eeeb6c1e3414b261c0dcbf6acbeffd43979a9171f60d2811cadaef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-setenv-doc"

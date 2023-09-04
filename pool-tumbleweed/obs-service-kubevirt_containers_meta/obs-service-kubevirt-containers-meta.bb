@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "obs-service-kubevirt_containers_meta-1.0.0-3.1.aarch64.rpm"
-RPM_HASH = "ed5c40b40a89daeddd8a7bcc00c81482810cf1b2e36afb7c4b846eedd9e27265beb0015d224f3d419549e036c2f6854e14db8c5cff56f738a31de1f81d89b77a"
+RPM_NAME = "obs-service-kubevirt_containers_meta-1.0.0-6.1.aarch64.rpm"
+RPM_HASH = "0cb8aaac0d4bbdf9b8cce4b208cb1d2b0b5d7ca3e663b07bdacbc8f91871f63c78290829bf7aa67cf9a5bfa34fc9f942a217b208aa676314b2dc29a414a14e4f"
 
 RPROVIDES:${PN} += "obs-service-kubevirt-containers-meta"
 

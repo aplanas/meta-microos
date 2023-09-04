@@ -4,10 +4,10 @@ is designed to be non-blocking and extensible, allowing for custom \
 validation."
 LICENSE = "ISC"
 
-PV = "1.3.2"
+PV = "1.3.5"
 
-RPM_NAME = "python39-Cerberus-1.3.2-6.5.noarch.rpm"
-RPM_HASH = "b09cf5f5d720e6a633ef262a5a887b4354d7e04db5a1ae78c0f246367a62e38d26b53905a620eee95459fba7f2398686aa54b430632a93ee2f1d2ed68fe63526"
+RPM_NAME = "python39-Cerberus-1.3.5-2.1.noarch.rpm"
+RPM_HASH = "d77beb4ca6e742a8e4a5c2b2fd3209ddfbe5e8408c6cc737e0d06b05b7eaf1b1800d0fa70aade513619a2be7d17b2c592cc9869879437095cc4b8181ad027f40"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cerberus \

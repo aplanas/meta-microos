@@ -4,10 +4,10 @@ derivatives (e-pTeX, upTeX, e-upTeX, and ApTeX). Both LaTeX and \
 plain TeX are supported."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.208.0.0.2svn46153"
+PV = "2023.209.0.0.2svn46153"
 
-RPM_NAME = "texlive-ifxptex-2023.208.0.0.2svn46153-53.1.noarch.rpm"
-RPM_HASH = "b4144a62436a53b139d4f842d1ba748ee8e09c2627d995d40ed18536307f1ba65d7692a950c602315392ddf6ec68798f49a2b5790193be4b15a346a4a918ebcd"
+RPM_NAME = "texlive-ifxptex-2023.209.0.0.2svn46153-54.1.noarch.rpm"
+RPM_HASH = "69618cf9fc78170cf6a1f36edf8fca6d07584fb8ffdfb9ff992a706869c3e5f0310f421323fc0ec1f06392ba9a652a4006c802ff21cc2aa26a414b6b6ca113be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ifxptex.sty \

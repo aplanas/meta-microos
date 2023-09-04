@@ -9,10 +9,10 @@ To avoid upgrades for each iteration of helm, the helmfile executable \
 delegates to helm - as a result, helm must be installed."
 LICENSE = "MIT"
 
-PV = "0.155.0"
+PV = "0.155.1"
 
-RPM_NAME = "helmfile-0.155.0-1.1.aarch64.rpm"
-RPM_HASH = "6a5713bbaa5868d5e565b056d2c6226d93fd09aff48d3c6c170d1c5ce0e2679cc797e3ff2b8de6d2d5cc1efb2c606753e1ab239da1e9f2225f3ca03146f9694a"
+RPM_NAME = "helmfile-0.155.1-1.1.aarch64.rpm"
+RPM_HASH = "6b8b0743ece4d2ca0543267976fb1262ea16cf4aaefd4dfcfe51f6028196c51e09e67cf2abe929a7067b6e496eff5b236831a61d44d91d86f3842337ecc852f6"
 
 RPROVIDES:${PN} += "helmfile"
 

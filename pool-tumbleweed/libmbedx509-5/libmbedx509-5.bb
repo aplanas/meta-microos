@@ -4,10 +4,10 @@ and write X.509 certificates, read/write Certificate Signing Requests \
 and read Certificate Revocation Lists."
 LICENSE = "Apache-2.0"
 
-PV = "3.4.0"
+PV = "3.4.1"
 
-RPM_NAME = "libmbedx509-5-3.4.0-3.1.aarch64.rpm"
-RPM_HASH = "d91d2c93033b3c785bf1effddd024c07e08d1a3e1980a4646c637270932c3a308a19ecf01157c1117176a8fc2812a02604cb97b684e34d6bb4cb3901c633d61e"
+RPM_NAME = "libmbedx509-5-3.4.1-1.1.aarch64.rpm"
+RPM_HASH = "e679a406d2e6dc09bccf11d10ca67a7210a8eeb16fa6f18918d53b58097ebee57fd1c6145a5c4e3a32bb81f7c526b319c90b2240eeb82356ecff4bfca9cdf9f7"
 
 RPROVIDES:${PN} += "libmbedx509-5 \
 libmbedx509.so.5"

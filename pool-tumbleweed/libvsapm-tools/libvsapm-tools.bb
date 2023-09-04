@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains the utility programs from libvsapm to \
 inspect Apple Partition Map partition tables."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20210626"
+PV = "20230506"
 
-RPM_NAME = "libvsapm-tools-20210626-4.9.aarch64.rpm"
-RPM_HASH = "8f290b520448159a2a9ed8067a1b50173daf2357ee8778b225183cb2d639973225e91085f7b8192d30650638f2cb187ef2858dd6aaa524e64e732bdc94b32b56"
+RPM_NAME = "libvsapm-tools-20230506-1.1.aarch64.rpm"
+RPM_HASH = "69549ea8ac5c9f6afbb130bf5ca6948909dd81582e229ae8edbbea1526e66fef4a65b3c7e5896528bb965345b235608fea6c42c344acdc331997d1c1afa018e9"
 
 RPROVIDES:${PN} += "libvsapm-tools"
 

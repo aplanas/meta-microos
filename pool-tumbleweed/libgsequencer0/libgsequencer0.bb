@@ -3,21 +3,21 @@ DESCRIPTION = "Advanced Gtk+ Sequencer is an audio sequencer application. \
 This subpackage contains part of its library set."
 LICENSE = "AGPL-3.0-or-later & GPL-3.0-or-later & GFDL-1.3-only"
 
-PV = "5.4.0"
+PV = "6.0.1"
 
-RPM_NAME = "libgsequencer0-5.4.0-1.1.aarch64.rpm"
-RPM_HASH = "9ce565bf66691ed692e73a29af7d76b31049cf73fc8133bf1615093c63e1053af64e2c7d572f919a579194c73280022c5eab9679cc846f8cc2d35005dc810784"
+RPM_NAME = "libgsequencer0-6.0.1-1.1.aarch64.rpm"
+RPM_HASH = "37b2fab9bd899ff8a58e13bbba35195068362bc7275e90eb5f7755914e0ae0ed4388c5e5d53d1f32087448d3f0cd4fc01120e8ddf2537ef537c7a40a7a794051"
 
 RPROVIDES:${PN} += "libgsequencer.so.0 \
 libgsequencer0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libags-audio.so.5 \
-libags-gui.so.5 \
-libags-server.so.5 \
-libags-thread.so.5 \
-libags.so.5 \
+libags-audio.so.6 \
+libags-gui.so.6 \
+libags-server.so.6 \
+libags-thread.so.6 \
+libags.so.6 \
 libc.so.6 \
 libcairo.so.2 \
 libgio-2.0.so.0 \

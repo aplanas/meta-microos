@@ -11,14 +11,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.88"
 
-RPM_NAME = "perl-Archive-Extract-0.88-1.10.noarch.rpm"
-RPM_HASH = "7b2beb73aaba05ae3281c9a5d9ec5e38bd46113637ee9f4c06c891ff82d008f61e82ab866ce2505e3278745cbdc6352a4215ed4f915a156b6b2f2bb02207847b"
+RPM_NAME = "perl-Archive-Extract-0.88-1.11.noarch.rpm"
+RPM_HASH = "78e3baaeabbdc9e38341b0911c89d133fa4ee3357629adab2e8c0d52b651365b020eb17ece03373e2ad06279d90eae627d0af3ed26b54ea458063b8aca99fa0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Archive--Extract \
 perl-Archive-Extract"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-IPC--Cmd \
 perl-Locale--Maketext--Simple \
 perl-Module--Load--Conditional \

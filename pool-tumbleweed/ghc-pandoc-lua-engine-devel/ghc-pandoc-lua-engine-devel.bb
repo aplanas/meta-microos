@@ -5,37 +5,37 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.0.1"
 
-RPM_NAME = "ghc-pandoc-lua-engine-devel-0.2.0.1-1.7.aarch64.rpm"
-RPM_HASH = "c1a08d5f21df2054d0d4c4bc6cb947503ddbae0d64a09a582b56a0d84aa2c5d5555c5615524878c6ca822f7a005d3f78b8e4a148ec3819b886b8fd1b891de9bf"
+RPM_NAME = "ghc-pandoc-lua-engine-devel-0.2.0.1-1.15.aarch64.rpm"
+RPM_HASH = "2497b2eb75bd031e482464710e0fcf0338b607d75c958a2f82ec2fe4e05350e659a6e4b72197108ebcea1be53991e0ae2e13258ea85fcedbc9097b796d48dcc0"
 
-RPROVIDES:${PN} += "ghc-devel-pandoc-lua-engine-0.2.0.1-2RA8DHDCMU13RV6aHXQ7Uf \
+RPROVIDES:${PN} += "ghc-devel-pandoc-lua-engine-0.2.0.1-KlIscABuyrG9bqaJmdAXlQ \
 ghc-pandoc-lua-engine-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-SHA-1.6.4.4-CTRZ9m1gmyY35Z2xnCckJW \
-ghc-devel-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0 \
-ghc-devel-citeproc-0.8.1-IdWRS5bkx4mHz8SxZquXUQ \
+ghc-devel-SHA-1.6.4.4-ECOkYIcPN6aC9icBjFCZ1l \
+ghc-devel-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1 \
+ghc-devel-citeproc-0.8.1-D6MAOBfduqd1r1TVF002aA \
 ghc-devel-containers-0.6.7 \
-ghc-devel-data-default-0.7.1.1-5iNQUD7GKkTDiLEyJaqXSy \
-ghc-devel-doclayout-0.4.0.1-9Y8Rw4EdBjz2IhzjzOiBy0 \
-ghc-devel-doctemplates-0.11-JIB0NPJebEE1gzCrfsk8Xp \
+ghc-devel-data-default-0.7.1.1-4TeAZDN81Uu1IorgFaPMOc \
+ghc-devel-doclayout-0.4.0.1-4D8TPYFDHuI6AadIlSPotc \
+ghc-devel-doctemplates-0.11-5YDqCtEHp1aBKjLF8JwQH7 \
 ghc-devel-exceptions-0.10.5 \
-ghc-devel-hslua-2.3.0-AU21dADSMqd8jVkw5fw6gb \
-ghc-devel-hslua-module-doclayout-1.1.0-whScExHkOx9DJU69TzJBc \
-ghc-devel-hslua-module-path-1.1.0-H35lL8Cos84Ew14x3WsMMD \
-ghc-devel-hslua-module-system-1.1.0.1-7243M7wFNHXL9pjhXYmDQK \
-ghc-devel-hslua-module-text-1.1.0.1-EvPw7u7E7fn9ZAp58nb6qh \
-ghc-devel-hslua-module-version-1.1.0-LnOsxVbcWQY3m2SquoHReg \
-ghc-devel-hslua-module-zip-1.1.0-HbdBiDu9SYHDsbypcn78hx \
-ghc-devel-hslua-repl-0.1.1-Cn1WzYftAVL4Hlxy0N0ea1 \
-ghc-devel-lpeg-1.0.4-IadFjeA522fGKCuUXCvVP9 \
+ghc-devel-hslua-2.3.0-IFweDrinoAduGRRaqkwGX \
+ghc-devel-hslua-module-doclayout-1.1.0-7JiUl1Tpojd4AzUWHDI8Pj \
+ghc-devel-hslua-module-path-1.1.0-3XIGPd4cIDuFY6K1e1WFz9 \
+ghc-devel-hslua-module-system-1.1.0.1-7cwTC3xiKRBJkCLVU1z04u \
+ghc-devel-hslua-module-text-1.1.0.1-3IzHe65h4nzA5y3IIyP0nc \
+ghc-devel-hslua-module-version-1.1.0-C6IULHIw2X5B1pQoolTNUq \
+ghc-devel-hslua-module-zip-1.1.0-Fw4HFTouxng8yMIzubiVJd \
+ghc-devel-hslua-repl-0.1.1-AT3e5G0H4So5vj4IgGLSDC \
+ghc-devel-lpeg-1.0.4-DiPCMqCZ1gDFL4TQ30W98B \
 ghc-devel-mtl-2.2.2 \
-ghc-devel-pandoc-3.1.3-55OY79jb6yp7kweb38lcUZ \
-ghc-devel-pandoc-lua-marshal-0.2.2-FczgTsDU3sCHicuhmGSmSB \
-ghc-devel-pandoc-types-1.23.0.1-EcvZluXpPb0J10kJC4UfRg \
+ghc-devel-pandoc-3.1.3-DH3GNUoUN8j8vzRMH3Lho2 \
+ghc-devel-pandoc-lua-marshal-0.2.2-D6YUzx6tqXTDbJ9vWDLs3T \
+ghc-devel-pandoc-types-1.23.1-8yEOjBSLsT62OPTXI0FZpc \
 ghc-devel-parsec-3.1.16.1 \
 ghc-devel-text-2.0.2 \
 ghc-pandoc-lua-engine"

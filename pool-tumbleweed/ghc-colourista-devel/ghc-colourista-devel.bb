@@ -4,18 +4,18 @@ LICENSE = "MPL-2.0"
 
 PV = "0.1.0.2"
 
-RPM_NAME = "ghc-colourista-devel-0.1.0.2-1.6.aarch64.rpm"
-RPM_HASH = "f51fdf02c2503a85bc0d23736f9849d9cab44fdd78722710b204f3355d0af6ce249764a89835deb3387ac8c9af31b70111fde7ae7bbf4b4f7fb18776cf864a36"
+RPM_NAME = "ghc-colourista-devel-0.1.0.2-2.2.aarch64.rpm"
+RPM_HASH = "dc1b38c06cf25ee7696997ef0164cd619e00b4c68af71103209c5d50d8df09df3757335d814e3d13abe31e6a36097e7e16f87f6bcbb2236cf9b3e18113c143ca"
 
 RPROVIDES:${PN} += "ghc-colourista-devel \
-ghc-devel-colourista-0.1.0.2-5hJOPOBvzIt9IdOCkudaU3"
+ghc-devel-colourista-0.1.0.2-19lLFYWP0ZEDfSw3obIpeF"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-colourista \
 ghc-compiler \
-ghc-devel-ansi-terminal-0.11.5-5x0MoHxm5r6DDoyv5djCW3 \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0 \
+ghc-devel-ansi-terminal-0.11.5-69CZC4XdNryJo9zHbgfvJ3 \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1 \
 ghc-devel-text-2.0.2"
 
 inherit rpm

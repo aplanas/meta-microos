@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.284"
 
-RPM_NAME = "perl-Web-MREST-CLI-0.284-1.5.noarch.rpm"
-RPM_HASH = "9d486f870af7af4c78348420ba69c2ade6a5dd6bed41c06912777682e179f3230f03b374e81e4628c3baf4dac3eaf7be89c76bbe34982ad742fd62030f222220"
+RPM_NAME = "perl-Web-MREST-CLI-0.284-1.6.noarch.rpm"
+RPM_HASH = "4ae0f25105006afa551bcd1f2bae8a59925d5bc4b183a5179d3b0c607df9d1d9d3d80a6f85d7f50afedf49a430e7c914e684ed1863835baaeb5058a54e114748"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Web--MREST--CLI \
@@ -15,7 +15,7 @@ perl-Web--MREST--CLI--Parser \
 perl-Web-MREST-CLI"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-App--CELL \
 perl-File--HomeDir \
 perl-File--ShareDir \

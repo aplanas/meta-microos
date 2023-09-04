@@ -5,10 +5,10 @@ The LC3 is an low latency audio codec. \
 This package provides the shared library of liblc3."
 LICENSE = "Apache-2.0"
 
-PV = "1.0.3"
+PV = "1.0.4"
 
-RPM_NAME = "liblc3-1-1.0.3-1.1.aarch64.rpm"
-RPM_HASH = "43dd7e8fc656faa84f220f992ef4f7d6cb911b51ab535cfff7181d79dcfdcef59cc6819932c24843914025917a230f1e6e6294e768d80a790217db8afc0738bc"
+RPM_NAME = "liblc3-1-1.0.4-1.1.aarch64.rpm"
+RPM_HASH = "3f245fd7df175dad7d6c924903ac60c32121591807c78a1012af266fe5525fec37925538255e79ec63903fabdf040520fe2e9440e403165b5493cbaa9886f560"
 
 RPROVIDES:${PN} += "liblc3-1 \
 liblc3.so.1"

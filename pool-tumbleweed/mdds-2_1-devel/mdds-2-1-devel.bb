@@ -4,10 +4,10 @@ algorithms.  All data structures are available as C++ templates, hence this is a
 header-only library, with no shared library to link against."
 LICENSE = "MIT"
 
-PV = "2.1.0"
+PV = "2.1.1"
 
-RPM_NAME = "mdds-2_1-devel-2.1.0-1.1.noarch.rpm"
-RPM_HASH = "be6a26733ec266dca60ec6a69f4edfbc41cd49293d47d9d17a77b4db1a6cf4cb86c80f7c213dacd79a09e0adc3df79993ace9a33189f4b2d490a8a76764c7254"
+RPM_NAME = "mdds-2_1-devel-2.1.1-1.1.noarch.rpm"
+RPM_HASH = "e855649b232972a42e2eacb066dbe838ea18cc550ddc48d35eead5574a481da06d0de6764d95377eca64bcdc2840b27314ee7e480af135280ea3e31e02456503"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mdds-2-1-devel \

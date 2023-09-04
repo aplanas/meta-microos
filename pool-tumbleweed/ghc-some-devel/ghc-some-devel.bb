@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.5"
 
-RPM_NAME = "ghc-some-devel-1.0.5-1.6.aarch64.rpm"
-RPM_HASH = "0937f08642879cf6f6d80d7496c1760c3782981c1da5eb0993713ed668a1568a3917adb76988a36ff7980c1114353764949dc80e3c1f688361ad6f2ee48f8ed2"
+RPM_NAME = "ghc-some-devel-1.0.5-1.8.aarch64.rpm"
+RPM_HASH = "e5768ac96148122146035561f9d433f21bb57177bf4a047bf2d5633633b32dc6a97645e535e3b56f05a80f9fbbb3120925ba524f376bd463fd776d4e202d7cb2"
 
-RPROVIDES:${PN} += "ghc-devel-some-1.0.5-3dwCpkSImpx8T8axxRPR3Z \
+RPROVIDES:${PN} += "ghc-devel-some-1.0.5-EryUniFNYOB2ktd7SoyKUW \
 ghc-some-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-deepseq-1.4.8.0 \
 ghc-some"
 

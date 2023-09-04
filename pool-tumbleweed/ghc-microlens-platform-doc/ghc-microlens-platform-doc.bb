@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.3.3"
 
-RPM_NAME = "ghc-microlens-platform-doc-0.4.3.3-2.4.noarch.rpm"
-RPM_HASH = "6c3469e46ad53ada7577f9e9f83d4efdc00303bc42ac8759daee02ddfa86bd4ce4ef1057d8afb23483b516016a440a3959650ecc4cfbe14e9916377f87c1ef1e"
+RPM_NAME = "ghc-microlens-platform-doc-0.4.3.3-2.6.noarch.rpm"
+RPM_HASH = "9327ebc3061c7bb2519442a94ba05400081ac6852f6675aab278d8fc5c9cbe156b5e3c427aeb30ef7a919b157852214f3d1a394ae6af65cdda6bdecbc7b247e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-microlens-platform-doc"

@@ -2,10 +2,10 @@ SUMMARY = "International Tag Set for GTK+ 4"
 DESCRIPTION = "This package enhances gettext with an International Tag Set for GTK+ 4"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.10.4"
+PV = "4.12.0"
 
-RPM_NAME = "gettext-its-gtk4-4.10.4-1.2.aarch64.rpm"
-RPM_HASH = "521687988c278ad154e913fe7eb104cad9418c5a937c03db371a10878334f94ba8218b1262c9753614643772b550aa0086b0c3fa088eff8e6539bab012f379f6"
+RPM_NAME = "gettext-its-gtk4-4.12.0-2.1.aarch64.rpm"
+RPM_HASH = "aa71a19880d08b0a4f1673d97e6f56984340cd6eef4f716cebba98ed0f3f58ebcd1d5ee4ec4a4a8b5c94795018ca1cdb2e6f0ffb8bb769907233130639211baa"
 
 RPROVIDES:${PN} += "gettext-its-gtk3 \
 gettext-its-gtk4"

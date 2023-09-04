@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the libraries that make it easier to use so
 Network Manager functionality from applications that use glib."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.42.8"
+PV = "1.44.0"
 
-RPM_NAME = "libnm0-1.42.8-1.1.aarch64.rpm"
-RPM_HASH = "6fa5023f35e806d080ef914df068bb6c886676caf126818701ea3dfe63533d4bb906a6835e752fee1453694a5ee081624c4b8670f9b77de4ed924fa47808871c"
+RPM_NAME = "libnm0-1.44.0-1.1.aarch64.rpm"
+RPM_HASH = "d0dba7919afab4f6b87263cbf609e92a97bebdf3af40fc1000ffd7ca7431e0bd8caf28ac6c8f3e2135c96b7d3e6421972022b322c060e66f78a787816595976d"
 
 RPROVIDES:${PN} += "libnm.so.0 \
 libnm0"

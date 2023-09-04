@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-import-iostat2pcp-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "b706a38356e694db10db3c484c6bc238040a501e98c08be576ef9e8f6a5e40541b4e0f7cded01d6ad81ce37e5599b2559675ca805fde98e1128df5e6eb79ebb2"
+RPM_NAME = "pcp-import-iostat2pcp-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "f80daa01c5dcf94cce54a2a4d2009700bcc4eff936a22b856e4a3a532acbce0fc5e6655a79842fc76602588d27ec05756a7fa226b18286cfff00f9c0d754a3e5"
 
 RPROVIDES:${PN} += "pcp-import-iostat2pcp"
 

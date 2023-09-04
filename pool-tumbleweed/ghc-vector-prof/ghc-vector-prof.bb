@@ -4,16 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.13.0.0"
 
-RPM_NAME = "ghc-vector-prof-0.13.0.0-1.6.aarch64.rpm"
-RPM_HASH = "7c9f537607ace29e9316522ace8db276dd287ea39ff6031a40c6fa98d70be73923f9ecf4c5c7c99030e039ac11577265ec261996488ca689778cedc5526bf070"
+RPM_NAME = "ghc-vector-prof-0.13.0.0-3.2.aarch64.rpm"
+RPM_HASH = "ce3199eb17f0f636a98db4453b54c38dbdcec37a3882f74d38164634e559a936cb779de735a7744a2ae9292d41913dbbe08aef9cdd38f27462a9e24d6f1dff10"
 
-RPROVIDES:${PN} += "ghc-prof-vector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp \
+RPROVIDES:${PN} += "ghc-prof-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
 ghc-vector-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
 ghc-prof-deepseq-1.4.8.0 \
-ghc-prof-primitive-0.7.4.0-AeB0oysC3TAJw9tDpuX8hq \
-ghc-prof-vector-stream-0.1.0.0-C5Yyq3DPEhXAQSqkM8V92s \
+ghc-prof-primitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx \
+ghc-prof-vector-stream-0.1.0.0-8LsAqgetBjY3tBdh3HDYEB \
 ghc-vector-devel"
 
 inherit rpm

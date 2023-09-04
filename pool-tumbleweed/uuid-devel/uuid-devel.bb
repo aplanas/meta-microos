@@ -21,8 +21,8 @@ LICENSE = "MIT"
 
 PV = "1.6.2"
 
-RPM_NAME = "uuid-devel-1.6.2-19.46.aarch64.rpm"
-RPM_HASH = "74d777a5434b25114c4a0eb28bbca2213dbbc7bb12688e7e10a947e0e124f3ff5e2b7d242fbb602ba4778fe9b3e3c5062da02b75519af84f203378e353b8f312"
+RPM_NAME = "uuid-devel-1.6.2-19.47.aarch64.rpm"
+RPM_HASH = "20af17bb437541b4ccf3ea1f4cc52a95b6d2176e15464a0641d2c9cac8d0df4a8565c2bad57389163b3b6920adb72417fb59625c2e347f47109c98913b3309a3"
 
 RPROVIDES:${PN} += "pkgconfig-ossp-uuid \
 uuid-devel"

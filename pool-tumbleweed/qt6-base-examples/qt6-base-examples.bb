@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "qt6-base-examples-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "8ef2989a4d616d9113120c127f48ade1319bb4eef961852ebf2ffccb92faeff86f02da0a4363854bac161bf379aaf3d2aa04fc79a814b7726225fbea5b6f4db1"
+RPM_NAME = "qt6-base-examples-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "811ccefb596390f53b75eb6097d73ea591d0ed1ca6161a1e52832073629775031a686d3345259784d9057a95ae181ed1ca912538a4b105a4711e1ac1f4e09a4b"
 
 RPROVIDES:${PN} += "libechoplugin.so \
 libpnp-extrafilters.so \

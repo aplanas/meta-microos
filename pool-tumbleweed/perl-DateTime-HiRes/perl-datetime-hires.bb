@@ -5,14 +5,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.04"
 
-RPM_NAME = "perl-DateTime-HiRes-0.04-1.2.noarch.rpm"
-RPM_HASH = "965c9fb831e0176817712fefcf028961d0ad207e713c3d34dde7f6cbd914292ba01e462b3e2616a0bc1d84c0508d04e1b999a2743f6b8793dfac4ab375fd00c4"
+RPM_NAME = "perl-DateTime-HiRes-0.04-1.3.noarch.rpm"
+RPM_HASH = "94fcffb17bb0fca292ccda9ce134199ceb2ff6a71fc8b5e61f8cbe6ea62c719c1ac7cd4b05507452e22e666483eefb5633b611acdd3f44ac0d177ed46d1400b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DateTime--HiRes \
 perl-DateTime-HiRes"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-DateTime"
 
 inherit rpm

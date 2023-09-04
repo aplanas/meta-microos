@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.4.1"
 
-RPM_NAME = "ghc-hslua-cli-doc-1.4.1-1.2.noarch.rpm"
-RPM_HASH = "6cbf39ec5c25024882c019a007f78eb701f70e85aa81815c6a857c5796323bf727fea3f9f787000d46f854d80641241969600244cb1a7c48874557ada066cad3"
+RPM_NAME = "ghc-hslua-cli-doc-1.4.1-1.3.noarch.rpm"
+RPM_HASH = "511fa9fd5822304b86a79c99581e4b83b7b2b6bd0bab7d5c5218bf8c3cc23a8ff32c5454ceae38fc922dd1de97a0dba2e466bcfe104e0dcda5636f4c34d96f10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-hslua-cli-doc"

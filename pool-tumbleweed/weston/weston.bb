@@ -11,10 +11,10 @@ Xorg server and can pull X clients into the Wayland desktop and act \
 as a X window manager."
 LICENSE = "CC-BY-SA-3.0 & MIT"
 
-PV = "12.0.1"
+PV = "12.0.2"
 
-RPM_NAME = "weston-12.0.1-1.2.aarch64.rpm"
-RPM_HASH = "2a1d2f00656696260c7da6d094518d66b6ab77fb09f7d7055c0d47693b7fcba2e683e8f619280d91cf8f5b265f083164fac6f7ca5815a082130bb38cb5665451"
+RPM_NAME = "weston-12.0.2-1.1.aarch64.rpm"
+RPM_HASH = "2d49eab9b20456db455d34e6da6705a35021bbf0761b1a8e59707d0619e35881d01a38f267eda07eb902ef29d9f3ddd86fe4b7c1130775917d3671d935abcbf4"
 
 RPROVIDES:${PN} += "libexec-weston.so.0 \
 weston"

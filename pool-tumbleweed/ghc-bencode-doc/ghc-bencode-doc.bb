@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.1.1"
 
-RPM_NAME = "ghc-bencode-doc-0.6.1.1-4.6.noarch.rpm"
-RPM_HASH = "f6f8501ee5208c9cdbf72f627d6e18189a33ad59b27334cf16081fb87b6ee2f49b0526852cc7d063214cc413e9d6a9d538026114c10acc897505780cc506fa74"
+RPM_NAME = "ghc-bencode-doc-0.6.1.1-4.8.noarch.rpm"
+RPM_HASH = "1a2f92163c9914ff1d71850f9b89023ecf76f89450035b4f872163b3d35d8542cf3f06d0761d7e9869f85c0f00e2d23dae3ab66f58817ec3e987bc64237dfbbc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-bencode-doc"

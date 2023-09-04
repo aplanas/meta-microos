@@ -18,8 +18,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.400001"
 
-RPM_NAME = "perl-Dancer2-0.400001-1.2.noarch.rpm"
-RPM_HASH = "aba51aa56177f286fec0daaba186b09d5089b35ff5310218d1c415055e03892e5dd11cf18cc007216ac9d3a4e2d7475118c170bac6c233d2f339124f13941ee8"
+RPM_NAME = "perl-Dancer2-0.400001-1.3.noarch.rpm"
+RPM_HASH = "560b37e80ce6f2f10440029220187264832c28821b43c46b4968fa447bf538c6a975c26c9f3e907659762ad8a4390ac8d444d2587f16e51a8d45d821de813e0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Dancer2 \
@@ -81,7 +81,7 @@ perl-Dancer2--Template--Tiny \
 perl-Dancer2--Test"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-CLI--Osprey \
 perl-Clone \
 perl-Config--Any \

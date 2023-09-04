@@ -14,14 +14,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.26"
 
-RPM_NAME = "perl-Unicode-Normalize-1.26-1.20.aarch64.rpm"
-RPM_HASH = "c3732b786e998c954d098e44d8079e9d35392763950589edd6ac6df2bb411b129fb4cefecf4437769cead0291690724069d49dd9e6f334cadc3afce122326cfa"
+RPM_NAME = "perl-Unicode-Normalize-1.26-1.21.aarch64.rpm"
+RPM_HASH = "497ad9dd5c00b1e7a03d7adfaaba516782963b78c95974c381981c9c0297b62fe87656af1a5d17280c0304e8368def24f6c259083ba970cdc2f5090cc7e9ea55"
 
 RPROVIDES:${PN} += "perl-Unicode--Normalize \
 perl-Unicode-Normalize"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

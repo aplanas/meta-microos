@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221023"
 
-RPM_NAME = "python311-libmodi-20221023-3.12.aarch64.rpm"
-RPM_HASH = "81cada9921d0df5516225446a595223515e507b4cf5584692bf298d0064a75b24772bf0f2161125394d5813695fd9cc2554baaf38e8efd755bb7fb388d45fb96"
+RPM_NAME = "python311-libmodi-20221023-4.1.aarch64.rpm"
+RPM_HASH = "edce9b1adfd9e5cf08ee0c11835ea0c80b69a036d37f428190f7a53b92ad198f3e8dcaa837bcf3acfee3e0fe3f86816ec162fa2daf22390f89a130905f3992d9"
 
 RPROVIDES:${PN} += "python3-libmodi \
 python311-libmodi"

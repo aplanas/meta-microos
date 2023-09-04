@@ -3,10 +3,10 @@ DESCRIPTION = "Basic package for the GNU Emacs editor.  For a documentation see 
 This package requires emacs-x11 and/or emacs-nox to have the GNU Emacs editor its self."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "28.2"
+PV = "29.1"
 
-RPM_NAME = "emacs-28.2-4.3.aarch64.rpm"
-RPM_HASH = "dd6c09a29932446395331b86abf8d3fe142ef96458fc701ca15fedf4b20eae8e4258b936d541858426d0ecd85982e1d87735b1f28284844cc0aa3d4ffabab5ac"
+RPM_NAME = "emacs-29.1-3.1.aarch64.rpm"
+RPM_HASH = "48d7e4a0e8ff6b27f183377fd64ff7633dd672072d42616dbab5881606424e5d3cfdcd9552b30fa9a37b9da9486b73f3449f9201f450885fc6629d93bb5b51df"
 
 RPROVIDES:${PN} += "config-emacs \
 emacs \

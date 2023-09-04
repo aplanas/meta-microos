@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | BSD-3-Clause"
 
 PV = "1.4.2"
 
-RPM_NAME = "subunit-filters-1.4.2-3.1.noarch.rpm"
-RPM_HASH = "838e2cd16e5331c025305c610c59a344bf1c609c935b45b7c299036cdee348afdf70c64cb5fc595f1c0cc9ee43dc8dcd32d73af59f0be46bb579bde68a9ae1c5"
+RPM_NAME = "subunit-filters-1.4.2-3.2.noarch.rpm"
+RPM_HASH = "90ec4c57ab99c5d06b14607e84e21500052843f2c1bd340472f1b5f3e7cef780389c8cb8722c0f73f2fb5aec69ae38180c13e1f58d8542f575b12b319edbbd9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "subunit-filters"

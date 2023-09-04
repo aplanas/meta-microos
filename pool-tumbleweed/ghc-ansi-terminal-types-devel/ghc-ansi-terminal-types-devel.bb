@@ -5,16 +5,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.11.5"
 
-RPM_NAME = "ghc-ansi-terminal-types-devel-0.11.5-1.2.aarch64.rpm"
-RPM_HASH = "817e55ab1ffb8a6d6c68850fdc119f94650817a8a880155421f0152ecc9d90dbd8b63c69e89afdccebf1a9e6c81a334e4a36f533743c12a24fd3c551067830e7"
+RPM_NAME = "ghc-ansi-terminal-types-devel-0.11.5-1.3.aarch64.rpm"
+RPM_HASH = "61b5fa315087c47ecadaa5b9df38a454315cfd07b19a4be9522820c4ab17cc474b32e356da0e711007b3170ad3a13ed911d7238e40e1e2eb68260620e63a3ab6"
 
 RPROVIDES:${PN} += "ghc-ansi-terminal-types-devel \
-ghc-devel-ansi-terminal-types-0.11.5-9ffXWswmNhoANlpnF2SnhR"
+ghc-devel-ansi-terminal-types-0.11.5-1ECcaJ3QBZ1LkDeP7l0nlp"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-ansi-terminal-types \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-colour-2.3.6-7jQe2xj5Lsa5MbX38iH7Ln"
+ghc-devel-base-4.17.2.0 \
+ghc-devel-colour-2.3.6-GBcey48GJNAK3398XtiZDq"
 
 inherit rpm

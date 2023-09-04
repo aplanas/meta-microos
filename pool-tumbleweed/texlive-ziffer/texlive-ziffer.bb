@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.2.1svn32279"
 
-RPM_NAME = "texlive-ziffer-2023.209.2.1svn32279-53.1.noarch.rpm"
-RPM_HASH = "ab6c80b9a231936b3530795e43a04691bc7c55efd08bd4d81548e8a9d95542d8803ddde4c58d8cc22b284a0d90918a39dd794181b4fff186f26ff959cbbc411e"
+RPM_NAME = "texlive-ziffer-2023.209.2.1svn32279-53.2.noarch.rpm"
+RPM_HASH = "ae094ad32857073c28b81a1247fd16fae6afaffccfa9aa1d350bbb6e974ce3d19412e7fd30f170cad7220e2cf7ccf39acac726293f2952cb4db73462ebb8b458"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ziffer.sty \

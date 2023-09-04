@@ -4,10 +4,10 @@ readers. libfprint is the component which does the work of talking to \
 fingerprint reading devices, and processing fingerprint data."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.94.5+tod1"
+PV = "1.94.6+tod1"
 
-RPM_NAME = "libfprint-2-tod1-1.94.5+tod1-1.4.aarch64.rpm"
-RPM_HASH = "67e6a7c0b9f998e702ebb642e2c9bc8b9f6bdc152913821c1564119025f89b9764229b99cb3c9e7105e6bd13f662db3f33caaa749a50702728bdf4509c5fcac6"
+RPM_NAME = "libfprint-2-tod1-1.94.6+tod1-1.1.aarch64.rpm"
+RPM_HASH = "cf45e099bf71264fd67c0b7ca55788ed5de7c877ffd09a73e1a7117a236019139c070020fcce19a8adb83303748a8b80e52ec4ab4465482c6eee440ffcaff695"
 
 RPROVIDES:${PN} += "libfprint-2-tod.so.1 \
 libfprint-2-tod1 \

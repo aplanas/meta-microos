@@ -4,8 +4,8 @@ LICENSE = "(Apache-2.0 | MIT) & Unicode-DFS-2016 & (Apache-2.0 | BSL-1.0) & (Apa
 
 PV = "1.14.0"
 
-RPM_NAME = "just-bash-completion-1.14.0-1.2.noarch.rpm"
-RPM_HASH = "02c50fb1bdcb8bf88bf922124bb5589b38ad6f16263ad014adf0e1f3f0d1de7186f75812fbdf9e5155eacb2b1c04e235994df2ec9da66846216fa36c87c7fb92"
+RPM_NAME = "just-bash-completion-1.14.0-2.1.noarch.rpm"
+RPM_HASH = "753e8389cce128e6c75cb3a6bc299c15dac8f634c9d48f6039189a413fcfc9af87d009246b0eb849b91f24745908cec961a236f6102a822bd15384b80786b550"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "just-bash-completion"

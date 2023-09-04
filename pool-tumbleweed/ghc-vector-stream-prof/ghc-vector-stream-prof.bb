@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0.0"
 
-RPM_NAME = "ghc-vector-stream-prof-0.1.0.0-2.2.aarch64.rpm"
-RPM_HASH = "4722150966247d2c0ef000d93c3f9ead1aa00b417d7f73c5150ca78d2a8a90d4fbb084b49111a179b565220062279eae429990b6b4c20b4269169c7350bbe4c0"
+RPM_NAME = "ghc-vector-stream-prof-0.1.0.0-3.1.aarch64.rpm"
+RPM_HASH = "a32b33cbe206cbf2a86eeeb68d2f64dd5485aa1ba0eed5bae575917feb9af56ef5938c9aa77da7f7d12d5c7a778fab2a2e6e0f56bd2838a310f4ff135850fa4f"
 
-RPROVIDES:${PN} += "ghc-prof-vector-stream-0.1.0.0-C5Yyq3DPEhXAQSqkM8V92s \
+RPROVIDES:${PN} += "ghc-prof-vector-stream-0.1.0.0-8LsAqgetBjY3tBdh3HDYEB \
 ghc-vector-stream-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
-ghc-prof-ghc-prim-0.9.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
+ghc-prof-ghc-prim-0.9.1 \
 ghc-vector-stream-devel"
 
 inherit rpm

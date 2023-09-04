@@ -11,8 +11,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.2svn42635"
 
-RPM_NAME = "texlive-historische-zeitschrift-2023.209.1.2svn42635-54.1.noarch.rpm"
-RPM_HASH = "9199b7dcc966d998afd6186ed5ea1970266c9d024fac13a338f5bffa00f4ac173581abc01bf820cee5a9f5dedeb26c3dc0c290db38090618df909d7926e926c8"
+RPM_NAME = "texlive-historische-zeitschrift-2023.209.1.2svn42635-54.2.noarch.rpm"
+RPM_HASH = "db8d5a91314344da7dff65121ff9fb992cf3640f37f6866901cc2e269fe9fc7340a51f9177b374ea65488e78083de291ab5289c9f63b3852966320ae9a56973e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-historische-zeitschrift.bbx \

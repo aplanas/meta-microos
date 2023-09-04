@@ -7,10 +7,10 @@ most interesting parts useful for audits, like: \
      - Software availability"
 LICENSE = "GPL-3.0-only"
 
-PV = "3.0.8"
+PV = "3.0.9"
 
-RPM_NAME = "lynis-3.0.8-1.4.noarch.rpm"
-RPM_HASH = "fdf74cd0bb4d57eedc0319208c9946a5ec704a6f8c967a3af2733e0e305c3c2b42df7ff0ad4140eb59c3b57a0dc67181a0c403201f8e8e686b9c8eed4f38e2c7"
+RPM_NAME = "lynis-3.0.9-1.1.noarch.rpm"
+RPM_HASH = "4c4155efca58a1372b05e1eb47ceef1a87ee541675c232ccac2243abd587b428aad8053556b360236fd2bc07a44a53c3e077c799beb61f757c27b8686dfc30a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-lynis \

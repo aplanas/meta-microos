@@ -5,14 +5,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.18.0"
 
-RPM_NAME = "perl-CPAN-Meta-Check-0.18.0-1.1.noarch.rpm"
-RPM_HASH = "627b226bb07adf10aa6c2cbc92454be0e5f869f8ab84eb75de51cfbdc6519a7cfde4fbd84d5760e9c1a0c002a315bbe8a85488f60f1eb8f69f5e0b9d161e0028"
+RPM_NAME = "perl-CPAN-Meta-Check-0.18.0-1.2.noarch.rpm"
+RPM_HASH = "99ab65903e07dee243eb2108f137b2dcda8c77e08d87f106e8ef619a8f456a0be467e29b0f52982760c9dd2ce5beac052d7df795bcc14b42ce086658893ec695"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CPAN--Meta--Check \
 perl-CPAN-Meta-Check"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-CPAN--Meta--Prereqs \
 perl-CPAN--Meta--Requirements \
 perl-Module--Metadata"

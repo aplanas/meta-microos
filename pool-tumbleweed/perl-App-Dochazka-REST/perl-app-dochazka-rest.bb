@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.559"
 
-RPM_NAME = "perl-App-Dochazka-REST-0.559-1.3.noarch.rpm"
-RPM_HASH = "72a5fa310dd3c2461a2c0cdb37513eb5947f87f76226f7995d0bfd2e957799923c99839815531ce067e463e372131991c9dfe891502141606de3dc9bc1316ce1"
+RPM_NAME = "perl-App-Dochazka-REST-0.559-1.4.noarch.rpm"
+RPM_HASH = "d3ba8ee680a218957c6934e402028dfb295aa6385256396d7b53d1ae34f20a5b8308bb31c804c71f90da7ea7f1434d88e89466c27a071df1905fb5295d0251cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-perl-App-Dochazka-REST \
@@ -48,7 +48,7 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
 /usr/sbin/groupadd \
 /usr/sbin/useradd \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-App--CELL \
 perl-App--Dochazka--Common \
 perl-Authen--Passphrase--SaltedDigest \

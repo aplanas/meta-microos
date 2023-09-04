@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.0.6"
 
-RPM_NAME = "jupyter-calysto-1.0.6-2.14.noarch.rpm"
-RPM_HASH = "1a4cad7e7ca8aae1f05a85fb6c7a0aec707e3ee906b0022e164527f992fbea9e1ccdbe7063fd9d94a4937694eaedec0b7e7b7b9c5e0b40ef8a98309894277d26"
+RPM_NAME = "jupyter-calysto-1.0.6-2.15.noarch.rpm"
+RPM_HASH = "9b118a6e5feefda05bad76d8519867cc56b0088f3ecde76709bf1be7ebcd544ab5cc3b9d8d660114c890f5dce015e103346b80cce0300668df155f60093895a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-calysto"

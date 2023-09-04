@@ -7,14 +7,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.07"
 
-RPM_NAME = "perl-Test-ClassAPI-1.07-1.20.noarch.rpm"
-RPM_HASH = "ef854cd77c52ce838888c51b87cd5356e367e9e9e1cd3acadbf8af6a84a72600465a1b6c813dfd62e819c37627ae665656bdaf5685779edfd2cc13725b0bb43b"
+RPM_NAME = "perl-Test-ClassAPI-1.07-1.21.noarch.rpm"
+RPM_HASH = "7ea9c232687ceb4906a0dcb571df3cbb2231a30e33c27b99132799d19c58c9b6cca93d65ae1723c8423b4ac766a30451622bf756a66fa9d781ecb2ad4c2c5594"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--ClassAPI \
 perl-Test-ClassAPI"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Class--Inspector \
 perl-Config--Tiny \
 perl-Params--Util"

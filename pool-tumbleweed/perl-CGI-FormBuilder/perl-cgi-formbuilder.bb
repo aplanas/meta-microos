@@ -27,8 +27,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "3.10"
 
-RPM_NAME = "perl-CGI-FormBuilder-3.10-1.24.noarch.rpm"
-RPM_HASH = "949015b58a2bf9995804d0bdf07714ec6909ef0eac53da9f2ee8e1ffab5509d5bfc885a6cec6b075ed9989137e44bb377cc5b9c3626f601b8f02d157604f2e32"
+RPM_NAME = "perl-CGI-FormBuilder-3.10-1.25.noarch.rpm"
+RPM_HASH = "5daecca2808d75297210d84902e6556f51c54957b18c9391e13975718f0cc9494aa2ca0609046c95f3155f59cd2dc05c3fb275e9685b1de6b08add05df3728e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CGI--FormBuilder \
@@ -71,7 +71,7 @@ perl-CGI--FormBuilder--Test \
 perl-CGI--FormBuilder--Util \
 perl-CGI-FormBuilder"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-CGI"
 
 inherit rpm

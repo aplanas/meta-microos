@@ -5,10 +5,10 @@ now. Functionality was verified on Oracle 10g and module is useful \
 for production work."
 LICENSE = "MIT"
 
-PV = "4.4.0+git0.eb5513d"
+PV = "4.5.0+git8.b3ad258"
 
-RPM_NAME = "postgresql12-orafce-4.4.0+git0.eb5513d-1.1.aarch64.rpm"
-RPM_HASH = "1de84ac51ef4c59603a93d810470ad895c620cec1c52a2ef3dea6125457e614df6f454e2a55e86536254aa3884dbb97d5e9cf36f3a245e67e16faf6637ddede3"
+RPM_NAME = "postgresql12-orafce-4.5.0+git8.b3ad258-1.2.aarch64.rpm"
+RPM_HASH = "8864c71487bf24eb5fbb6af38ab0b51c407b5aeb934338897d3eecdc97505182e0ac180433edb57c25c5b1bb3344ad0c86ab1cc976cc5d5b951e87a92cee19d1"
 
 RPROVIDES:${PN} += "orafce \
 postgresql12-orafce"

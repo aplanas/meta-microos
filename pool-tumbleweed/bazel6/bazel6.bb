@@ -4,10 +4,10 @@ C++ and Go as programing languages. It also has a support for Android and iOS \
 as mobile operating systems."
 LICENSE = "Apache-2.0"
 
-PV = "6.2.1"
+PV = "6.3.1"
 
-RPM_NAME = "bazel6-6.2.1-1.1.aarch64.rpm"
-RPM_HASH = "3bcb98dab31625923cc28e4fa7081fe38fca640b1622db0bcdce7e26ab975e24a4a1f9e3016bbf81d35c31b04d25e6be5f3c3f467e47c2c9c8275836262cf21d"
+RPM_NAME = "bazel6-6.3.1-1.1.aarch64.rpm"
+RPM_HASH = "534e19086997f4e81ed5b50c1307bde2a2ca09e7d8087e95a5a92d36d1b6e57167c33c0eeb35b517d4c0f715afe74fbd0afa1f2405fe49f2568a4e9e1e42812b"
 
 RPROVIDES:${PN} += "bazel \
 bazel6"

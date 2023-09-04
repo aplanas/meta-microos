@@ -2,10 +2,10 @@ SUMMARY = "Bash completion for wl-clipboard"
 DESCRIPTION = "Bash command line completion support for wl-clipboard."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.1.0"
+PV = "2.2.0"
 
-RPM_NAME = "wl-clipboard-bash-completion-2.1.0-1.7.noarch.rpm"
-RPM_HASH = "ebfd3f601035ef4c588b168df5deae5cb986b968c7abbc9cc9b4225d56a48f75c82d8977c56e049e5f5fdaf2be096d581f42641c626ed1a85e2ec2fb80bf6e9f"
+RPM_NAME = "wl-clipboard-bash-completion-2.2.0-1.1.noarch.rpm"
+RPM_HASH = "3110a1403fcebdd965ce3d63360f30bf02dd2e145c76fbbc6c1ca926c1092c6b0dc9893623456d0ea748350b10c64436003eda2dc4dcaff94c8b6787d9cbd6f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wl-clipboard-bash-completion"

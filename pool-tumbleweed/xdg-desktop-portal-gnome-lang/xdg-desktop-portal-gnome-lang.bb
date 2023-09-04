@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xdg-desktop-portal-gnome"
 DESCRIPTION = "Provides translations for the 'xdg-desktop-portal-gnome' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "44.1"
+PV = "44.2"
 
-RPM_NAME = "xdg-desktop-portal-gnome-lang-44.1-1.2.noarch.rpm"
-RPM_HASH = "481e09cb1653f9dbfc4011c3303968ddffab74b36172d57d8c73b5ea22df9ac7aa26fbde31c39f9f35cdc0f06c3546226c6f7a19cdf9dfac83f0be6a276ad740"
+RPM_NAME = "xdg-desktop-portal-gnome-lang-44.2-1.1.noarch.rpm"
+RPM_HASH = "d9cdc22f694fd18abb35fefd62cd352aea5dcbb19f6863c20154ba52371112b01289a568506642082782d6caf20a0148bacb6ce93ae86df96a0b9e69a380917c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xdg-desktop-portal-gnome-be \

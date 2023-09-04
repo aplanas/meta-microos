@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.3.1bsvn15878"
 
-RPM_NAME = "texlive-qtree-doc-2023.209.3.1bsvn15878-54.1.noarch.rpm"
-RPM_HASH = "abdbbe1953868f3ecb727e30ae4838a4e038dea553c92fb4be9392ea31cc3f4f2ed17d692aa4e9cf8a32bb9839e20a486bd890f3601fff29f976393ee44f1120"
+RPM_NAME = "texlive-qtree-doc-2023.209.3.1bsvn15878-54.2.noarch.rpm"
+RPM_HASH = "570c401a1f093211fea901c6f40c698df6d5c6e2b69374061e8f4f83cfd3c1848bc69dea08b85b4b76ca2d7e71e4e5c1a90ed5a027561af674fd9d7bcbf6bd46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-qtree-doc-en \

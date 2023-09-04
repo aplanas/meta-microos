@@ -2,10 +2,10 @@ SUMMARY = "Standard C++ Library Locales"
 DESCRIPTION = "The standard C++ library locale data."
 LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
-PV = "13.1.1+git7597"
+PV = "13.2.1+git7683"
 
-RPM_NAME = "libstdc++6-locale-13.1.1+git7597-1.1.aarch64.rpm"
-RPM_HASH = "07a283221bddc11974021f6083c292942d0115cb104f62a754c6d290b94d8f3d06197bfe07123b2ddd243f5871dfdf871ebd9a9f10ba5fb9815cc3a38a227e90"
+RPM_NAME = "libstdc++6-locale-13.2.1+git7683-1.1.aarch64.rpm"
+RPM_HASH = "9a7eb7701484b6054189be3f2a608cf853fdd868f04104fa7727d138e851c2b375b34031261dd303f5411c704967126bb809a87a34101373e3a0eda337479c70"
 
 RPROVIDES:${PN} += "libstdc++6-locale \
 locale-libstdc++6-de \

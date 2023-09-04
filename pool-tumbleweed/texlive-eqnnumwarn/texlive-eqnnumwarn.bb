@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn45511"
 
-RPM_NAME = "texlive-eqnnumwarn-2023.209.1.0svn45511-54.1.noarch.rpm"
-RPM_HASH = "354d8799698c5a3334167c39f1b8fe81651d6718ae3ef4e4bc4f427e695b9c2d0bd2dbcede104818fd575f2258088c3bb92b5da74fd3eef70c445e1a72c9349a"
+RPM_NAME = "texlive-eqnnumwarn-2023.209.1.0svn45511-54.2.noarch.rpm"
+RPM_HASH = "4406cc688c7cd5e2735cabf7d85502fdf889e0245e3fdf709a7195b14588945241a1a73905c8285cc7c5f149fc760ded894775992cf20945ca6ba1a4d2b53730"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eqnnumwarn.sty \

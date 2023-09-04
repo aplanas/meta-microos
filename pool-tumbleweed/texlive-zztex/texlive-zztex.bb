@@ -11,8 +11,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.17.7svn55862"
 
-RPM_NAME = "texlive-zztex-2023.209.17.7svn55862-53.1.noarch.rpm"
-RPM_HASH = "f2602289144ab478efe81fff37b063cbff3e9e540e396635cc83a5e098577b098a21e72b04c377ab5fed7d77ec00ee6f326047ae13bb91c076c212e6e2ce7c2b"
+RPM_NAME = "texlive-zztex-2023.209.17.7svn55862-53.2.noarch.rpm"
+RPM_HASH = "720039e8bc867b175a4b2ac79dc36b2c86b46f57beeb37e4180d21a4b1c92bc23ec1da496580e8ac74dddf2254834bd22016a8c3a5d18e0dce8924b23ca446b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zzart.tex \

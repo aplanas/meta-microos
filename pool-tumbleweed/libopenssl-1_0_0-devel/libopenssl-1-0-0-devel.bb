@@ -5,8 +5,8 @@ LICENSE = "OpenSSL"
 
 PV = "1.0.2u"
 
-RPM_NAME = "libopenssl-1_0_0-devel-1.0.2u-21.1.aarch64.rpm"
-RPM_HASH = "2abc987b0b32502d01fa0f5531c3e4340dbb139495787169815c22e7e6667543cdaef1f2d5248f5bf46e6d87a7c7371c3e82ea2d493cda0d810bcd2161fa378c"
+RPM_NAME = "libopenssl-1_0_0-devel-1.0.2u-22.1.aarch64.rpm"
+RPM_HASH = "c7fd4fef7361c3d2c9add6df254511ba4987d7b5f223aef630629562de078971f8147efbde01301bfef588024ade8706a31d06e9df69d6a988e7951d36c72dbd"
 
 RPROVIDES:${PN} += "libopenssl-1-0-0-devel \
 pkgconfig-libcrypto \

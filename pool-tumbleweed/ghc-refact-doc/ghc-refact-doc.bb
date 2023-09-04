@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.0.2"
 
-RPM_NAME = "ghc-refact-doc-0.3.0.2-4.2.noarch.rpm"
-RPM_HASH = "850d462452ada7f7643b765244dfce81c757ddc8641214457e8432a4cfe2ea089ac45a0a90223de5269a75d7f998f0aea1e3c4fca322e93f984276508251ad01"
+RPM_NAME = "ghc-refact-doc-0.3.0.2-4.3.noarch.rpm"
+RPM_HASH = "8b5ae88af408a54b86e6b803ab5d237f58985ea087ae8a5b807f182261a2aaf9c35281f3330e303f06c5126d9b47d7cef79cbddcf076acd1f64a5521455f3a4c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-refact-doc"

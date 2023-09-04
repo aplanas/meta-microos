@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-import-collectl2pcp-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "49c6c07bdd6efef4ded7d68493404320b7de6e40e6860cccc390d8c24833bd08e80df6c2b7d417560a1caf91969587ed62b527631403db7778fc12964689d509"
+RPM_NAME = "pcp-import-collectl2pcp-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "9cc786c5d876a6353c18ae424b63b881b843008eb69d31236e7a0dfd38fd1c366090becfc8dd3a7ceb64c64ad7644db2e12feba7a3273149e9a2c3c25c92a66a"
 
 RPROVIDES:${PN} += "pcp-import-collectl2pcp"
 

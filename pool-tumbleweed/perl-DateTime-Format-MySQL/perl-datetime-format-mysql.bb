@@ -5,16 +5,16 @@ order to create DateTime objects, and it can take a DateTime object and \
 produce a string representing it in the MySQL format."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.0701"
+PV = "0.0800"
 
-RPM_NAME = "perl-DateTime-Format-MySQL-0.0701-1.10.noarch.rpm"
-RPM_HASH = "6deafacc193414c27f55eb1033f5e9fa05a2f0fce6e77204fe67b85e1a3e22985897d18f6cad974fbe98f80af9896794f4765ece3267b867b35194b08400da9c"
+RPM_NAME = "perl-DateTime-Format-MySQL-0.0800-1.1.noarch.rpm"
+RPM_HASH = "ba9ad0f8f8c213316b837d9b5487e36abd391d28830a584b3c92d6108fcc39890457f66ec0ca425740f410ecc85ad79aedc7536fc216701516b1d8706286389d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DateTime--Format--MySQL \
 perl-DateTime-Format-MySQL"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-DateTime \
 perl-DateTime--Format--Builder"
 

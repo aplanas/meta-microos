@@ -4,15 +4,15 @@ LICENSE = "MIT"
 
 PV = "2.3.6"
 
-RPM_NAME = "ghc-colour-devel-2.3.6-2.6.aarch64.rpm"
-RPM_HASH = "d9f6addfc234b523f9cef3cefc5031f6d82f570674f0c0f0ac387ba3083b827527611ab3c66b541ea124169a95ca8f1cd3c1c086421ce03bdaaedc0b717d96bf"
+RPM_NAME = "ghc-colour-devel-2.3.6-2.8.aarch64.rpm"
+RPM_HASH = "89b6b5b2c195280a5db077acf0d0a85634c27ab13a3df5126eb62b658460a892cbda5ebf0f91e2e932b22b1be1f0143c1a93a9e79d7e9a27f88ad7c0eb58881c"
 
 RPROVIDES:${PN} += "ghc-colour-devel \
-ghc-devel-colour-2.3.6-7jQe2xj5Lsa5MbX38iH7Ln"
+ghc-devel-colour-2.3.6-GBcey48GJNAK3398XtiZDq"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-colour \
 ghc-compiler \
-ghc-devel-base-4.17.1.0"
+ghc-devel-base-4.17.2.0"
 
 inherit rpm

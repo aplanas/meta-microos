@@ -2,21 +2,18 @@ SUMMARY = "A unified interface to key/value stores, including Redis, Memcached,"
 DESCRIPTION = "A unified interface to key/value stores."
 LICENSE = "MIT"
 
-PV = "1.5.2"
+PV = "1.6.0"
 
-RPM_NAME = "ruby3.2-rubygem-moneta-1.5.2-1.3.aarch64.rpm"
-RPM_HASH = "2495836fe1540d133b87308a18f2e63df64a105ff44bf1f012d4688e74c18ea36125ce7cfa8cae2b33e9965affab86b5ec3d939e4471f93097cd5a6ca5e989dc"
+RPM_NAME = "ruby3.2-rubygem-moneta-1.6.0-1.1.aarch64.rpm"
+RPM_HASH = "da466f3f955c7e1528c0ed83145333489e184107f599b5c2e958760b3d439c250409f48b545511bd5eb883345cd03ab8127fb129f4c48d3c98e97fa79ecf0c18"
 
 RPROVIDES:${PN} += "ruby3.2-rubygem-moneta \
 rubygem-moneta \
 rubygem-ruby-3.2.0-moneta \
 rubygem-ruby-3.2.0-moneta-1 \
-rubygem-ruby-3.2.0-moneta-1.5 \
-rubygem-ruby-3.2.0-moneta-1.5.2"
+rubygem-ruby-3.2.0-moneta-1.6 \
+rubygem-ruby-3.2.0-moneta-1.6.0"
 
-RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/ruby.ruby3.2 \
-/usr/bin/sh \
-ruby-abi"
+RDEPENDS:${PN} += "ruby-abi"
 
 inherit rpm

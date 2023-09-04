@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kinit"
 DESCRIPTION = "Provides translations for the 'kinit' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kinit-lang-5.108.0-1.1.noarch.rpm"
-RPM_HASH = "a032d0530cd671c331c067a6903f3da298033c46b1cbf4487c25aa896854ef61a26b79b8843bad077538916212e62322c63f8627a01eb7fe66334305ec16e348"
+RPM_NAME = "kinit-lang-5.109.0-1.1.noarch.rpm"
+RPM_HASH = "c4f7593084231046f9c59b9506f1437731706aefb07fa6c928eb95d86abf2e082a42f03b37a6f57b8c5c2c7301681bd98f1ce1246f89495bea15a208f5927044"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kinit-lang \

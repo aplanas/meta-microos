@@ -5,13 +5,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.15"
 
-RPM_NAME = "perl-Class-Trigger-0.15-1.14.noarch.rpm"
-RPM_HASH = "676c173ca3fc8d6cb23e630112ee1f86f848eb68d3abb58f90f6ea47e831bf6b4bc0e71c45e1f25700e32d476871ef2710c666910c4d33a6aa00e4b8098d8ad1"
+RPM_NAME = "perl-Class-Trigger-0.15-1.15.noarch.rpm"
+RPM_HASH = "c1d90b028c722af0dea74b2a8d5b297df8ff37bef9d9f2d1a6a6a114cbe33e05029b61a497543aa8d54daee7e8ecb91857a4ef644292e32c2709069ad09eca98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Trigger \
 perl-Class-Trigger"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

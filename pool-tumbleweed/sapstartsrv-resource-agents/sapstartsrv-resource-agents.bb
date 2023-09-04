@@ -10,10 +10,10 @@ Authors: \
     Xabier Arbulu"
 LICENSE = "GPL-2.0"
 
-PV = "0.9.2+git.1684336720.d2ebd49"
+PV = "0.9.3+git.1691394819.48fa0c6"
 
-RPM_NAME = "sapstartsrv-resource-agents-0.9.2+git.1684336720.d2ebd49-1.2.noarch.rpm"
-RPM_HASH = "49eec7f537535034bf106851f8d4d05467c734f652b963f01a1c416eb38799364b29e61a9690c05873a52cdb5e5bd51b3324f07ec8b8c514057bcbb5cbde7f29"
+RPM_NAME = "sapstartsrv-resource-agents-0.9.3+git.1691394819.48fa0c6-1.1.noarch.rpm"
+RPM_HASH = "631b2cabbb1f5f777ad6f4868219e2d470be40a08e4022ea4766650ab0080d029e7c65fe1843ff7502615466bd6ca047c2b5dc5a5dbc0384969a189fc7a4c53a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sapstartsrv-resource-agents"

@@ -6,10 +6,10 @@ This subsystem utilizes the Performance Monitoring Unit (PMU) / hardware \
 counters of the underlying cpu architecture (if supported)."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.6"
+PV = "6.4.11"
 
-RPM_NAME = "perf-6.4.6-80.12.aarch64.rpm"
-RPM_HASH = "1f010aca08edf87adeaf557cd707473d562de36843ca01c0aa0635d4855f9391f2bf0323f0b4b93fc251f1198fe2cb37a47f26cc03847047bac8417d1f460697"
+RPM_NAME = "perf-6.4.11-81.1.aarch64.rpm"
+RPM_HASH = "71da6d960f0ce737f7ceef865a5f2427ea7e1d53540fdde49f2f6ca62245594742b94242c2996c0581430bdf917f38ca4aff5486b2178845203d4831040319f5"
 
 RPROVIDES:${PN} += "perf \
 perl-Perf--Trace--Context \
@@ -23,7 +23,6 @@ libbabeltrace-ctf.so.1 \
 libc.so.6 \
 libcap.so.2 \
 libcrypto.so.3 \
-libdebuginfod.so.1 \
 libdw.so.1 \
 libelf.so.1 \
 liblzma.so.5 \
@@ -40,6 +39,6 @@ libunwind.so.8 \
 libz.so.1 \
 libzstd.so.1 \
 perl \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

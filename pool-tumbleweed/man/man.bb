@@ -3,14 +3,14 @@ DESCRIPTION = "A program for displaying man pages on the screen or sending them 
 printer (using groff)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.10.2"
+PV = "2.11.2"
 
-RPM_NAME = "man-2.10.2-2.1.aarch64.rpm"
-RPM_HASH = "51ed85aff1d5e22c69d65edf42276acbd1c59d0973313dfeae163673f5981ab00064245b934da1a77771e3ac05016238bc2d39446392bd61d6316dec33da6a2f"
+RPM_NAME = "man-2.11.2-1.1.aarch64.rpm"
+RPM_HASH = "a8e0b1013ae8bf059a839efefee1bb9127ed3a9ec2b309a2d0784fcf20f20244e4893e9fb207a67146c4acd3cfbb00b557fd0050bf74f357ee4157043a653111"
 
 RPROVIDES:${PN} += "config-man \
-libman-2.10.2.so \
-libmandb-2.10.2.so \
+libman-2.11.2.so \
+libmandb-2.11.2.so \
 man \
 man-db"
 

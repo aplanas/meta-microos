@@ -2,10 +2,10 @@ SUMMARY = "Imlib 2 - plugin filters"
 DESCRIPTION = "This package has the basic set of plugin filters that come with Imlib2."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.11.1"
+PV = "1.12.0"
 
-RPM_NAME = "imlib2-filters-1.11.1-2.1.aarch64.rpm"
-RPM_HASH = "65dc7dd7d5fc1bdfd3364d15a9b74747737410f0dc6c5ce1df60b2f230f647f61de92bea00612b4d41ff2822920b3d29bd6a195f0ff6762997fafbb7da2b7269"
+RPM_NAME = "imlib2-filters-1.12.0-1.1.aarch64.rpm"
+RPM_HASH = "1511be3aef794b2019674c494b2a3e5fe92b21e3aefff69d6194c2bd16e3d2e4102faa8ffe569b5010ef17cc990150c03ae683ccb7f7a3c6a863709fb0b80f07"
 
 RPROVIDES:${PN} += "imlib2-filters"
 

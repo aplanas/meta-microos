@@ -7,7 +7,6 @@ fast path operations. \
  \
 Device-specific plug-in ibverbs userspace drivers are included: \
  \
-- libcxgb3: Chelsio T3 iWARP HCA \
 - libcxgb4: Chelsio T4 iWARP HCA \
 - libefa: Amazon Elastic Fabric Adapter \
 - libhfi1: Intel Omni-Path HFI \
@@ -28,12 +27,11 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "47.0"
 
-RPM_NAME = "libibverbs-47.0-1.1.aarch64.rpm"
-RPM_HASH = "32a57521f25fa8b106fcccf9ca3928259c21f6d77b4347936554dfdf7913bdec1fdf622097434d2f6d2efe4c795f5ad3f4ae417dc486d816debccb9464fcde6a"
+RPM_NAME = "libibverbs-47.0-2.2.aarch64.rpm"
+RPM_HASH = "64184dd0e07184d5d35396f47dd519e8a3cb0efe0f38e4b6c854578b76913cba80b7656fc3ef4529d454a10d09fe65b8137f3a449a6a4268a58c82904f2ab8e1"
 
 RPROVIDES:${PN} += "config-libibverbs \
 libbnxt-re-rdmav34.so \
-libcxgb3-rdmav34.so \
 libcxgb4-rdmav34.so \
 liberdma-rdmav34.so \
 libhfi1verbs-rdmav34.so \

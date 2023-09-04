@@ -4,10 +4,10 @@ beautifully and automatically, and has a friendly syntax for its input \
 files."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.24.1"
+PV = "2.24.2"
 
-RPM_NAME = "lilypond-2.24.1-2.4.aarch64.rpm"
-RPM_HASH = "28d4fd858b0dd8b92b2fde9434cdc89c36be4523f3940b0f78f78961d96a16d40bbf1c992b0f7c0366e06441a4c646afbc89c101b309187ca7eb8692c9154dba"
+RPM_NAME = "lilypond-2.24.2-1.1.aarch64.rpm"
+RPM_HASH = "984ab9e0a776cdab669f7556f9675799822b9c105ecb43bd3a8a4651856c1be5345cb0b9279647c17eb5d978f1d7d278f8d51507d06f235f0a0fb98238e5187d"
 
 RPROVIDES:${PN} += "lilypond"
 

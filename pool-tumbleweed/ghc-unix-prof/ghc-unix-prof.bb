@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.7.3"
 
-RPM_NAME = "ghc-unix-prof-2.7.3-3.2.aarch64.rpm"
-RPM_HASH = "793d8155effce367b4da0cae4576ab284ec923afa0414a878df73629c5fc984f577b15cb8bcc10c2bfb5adb7a27901621cc1d4e999c3a4ab1611ff86c6df4f0e"
+RPM_NAME = "ghc-unix-prof-2.7.3-1.1.aarch64.rpm"
+RPM_HASH = "c9b485eb2bfa12b0050a7d3b03a75ab4044577f2e599f154c15806ccecc0a142f80b1e0a0e33a8ad6a3ffbe78d66d5d67c27edb95106ad26327613bcac5637e2"
 
 RPROVIDES:${PN} += "ghc-prof-unix-2.7.3 \
 ghc-unix-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
-ghc-prof-bytestring-0.11.4.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
+ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-time-1.12.2 \
 ghc-unix-devel"
 

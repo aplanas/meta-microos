@@ -2,10 +2,10 @@ SUMMARY = "Library for KDE's Plasma Activities support"
 DESCRIPTION = "Kactivities provides an API for using and interacting with the Plasma Activities Manager."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "libKF5ActivitiesStats1-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "2db04c3b49ba60ffa2a75ddffc2a12f4152008de1b8c93f13506d45e527370b225939cae9b5f6ab0328587d1bdc1ea5dd7b1ee589226f9d56f9fb0b733a00f40"
+RPM_NAME = "libKF5ActivitiesStats1-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "bee91cf748d029abf9da47b043c169dfadcdc469cd66892a4363a3912e05d9c6ace825432caef8505123c082177c6c2c18ac0477cdfc6efebe42ad022f184060"
 
 RPROVIDES:${PN} += "libKF5ActivitiesStats.so.1 \
 libKF5ActivitiesStats1"

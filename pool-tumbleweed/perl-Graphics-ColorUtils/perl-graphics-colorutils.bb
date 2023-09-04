@@ -29,13 +29,13 @@ LICENSE = "GPL-1.0-or-later | Artistic-1.0"
 
 PV = "0.17"
 
-RPM_NAME = "perl-Graphics-ColorUtils-0.17-1.16.noarch.rpm"
-RPM_HASH = "bd972fa0a78bc0997eea9708345d36e9363ea3edaf28ef7bf22e4328957fb073903558ed2f51c4a811ba8627673759c77e194033cdc94e07db47eb27a265df2a"
+RPM_NAME = "perl-Graphics-ColorUtils-0.17-1.17.noarch.rpm"
+RPM_HASH = "33773f09630fbb3e82b5abe31e6ac8ea37e20cd6dfad15825626b5a212363b2ac2454904e32df2ed635c41f4bc1ab2eb4a6c7ee4b067836480a21821b68c35ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Graphics--ColorUtils \
 perl-Graphics-ColorUtils"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

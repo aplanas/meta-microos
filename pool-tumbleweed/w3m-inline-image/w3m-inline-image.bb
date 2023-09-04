@@ -7,8 +7,8 @@ LICENSE = "ISC"
 
 PV = "0.5.3+git20230121"
 
-RPM_NAME = "w3m-inline-image-0.5.3+git20230121-1.1.aarch64.rpm"
-RPM_HASH = "5f25ba1fcccfe1232b0746405d27574832fec72bc94d6af012147ffc50fb0cb149ea38432a8fc735a04360d865c78a116e279fba3408e292789d15232c9bbc2e"
+RPM_NAME = "w3m-inline-image-0.5.3+git20230121-2.1.aarch64.rpm"
+RPM_HASH = "30c257b7b041f3a800d5b9b7d92f129b0b94919a61f99ed188f0f30e6086062b159f714900e54f5a14c1d4c5e42c939d96cc0f31ccefe7dfe1cee3e1b9841ef3"
 
 RPROVIDES:${PN} += "w3m-/usr/lib64/w3m/w3mimgdisplay \
 w3m-inline-image"

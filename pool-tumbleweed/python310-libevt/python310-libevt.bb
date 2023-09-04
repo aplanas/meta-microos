@@ -6,8 +6,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20221022"
 
-RPM_NAME = "python310-libevt-20221022-3.12.aarch64.rpm"
-RPM_HASH = "f3bfbe0110b94dedb15e4e48109ce3ebd576fe050907f93f8f8f067c45edc57d9445d880d50c06c5134f2b7c5a25e3ac043d4922e617482e1ec0f7b0abfc82b7"
+RPM_NAME = "python310-libevt-20221022-4.1.aarch64.rpm"
+RPM_HASH = "ff79ea5a739ec1b46702ae022a931df4fa3247a3450e259418ded1d65c382eafdc36c3da6e88b547b3329d0f3e4783da0dd2f1bcc66eac24f598207b5db22e2b"
 
 RPROVIDES:${PN} += "python310-libevt"
 

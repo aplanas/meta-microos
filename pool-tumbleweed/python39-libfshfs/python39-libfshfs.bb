@@ -24,8 +24,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20220831"
 
-RPM_NAME = "python39-libfshfs-20220831-3.14.aarch64.rpm"
-RPM_HASH = "76752ee2b4d6ec4afe27f4d15e50aa70a89bdc53fa556a320ea35ec6adad76f17d1dce0beb90252ae8c806d63859c2894b4693a9a82e628157a702c6941002d2"
+RPM_NAME = "python39-libfshfs-20220831-4.1.aarch64.rpm"
+RPM_HASH = "e2ec0c1cea32d067dd2dafcd1c67183a1a380bfc794fe491215cf4b2b9b1fa0b03e8668d4edc185c2793e42db37406fdafa6bfcf50a7725f1bff9d3e11a98847"
 
 RPROVIDES:${PN} += "python39-libfshfs"
 

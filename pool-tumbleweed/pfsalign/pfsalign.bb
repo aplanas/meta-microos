@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.2.0"
 
-RPM_NAME = "pfsalign-2.2.0-3.15.aarch64.rpm"
-RPM_HASH = "46be061b73d80e39e1585d17fb1fc003f9b69d4b6e8108adcebf34ebaf8923eacbb82975d90dfdf4945946d3cf55fef45092f2b81c2767f26542f59f5b09c56f"
+RPM_NAME = "pfsalign-2.2.0-3.16.aarch64.rpm"
+RPM_HASH = "a790707426e0d44be3e40f422ab5680b82de8fcf9b24c136ee70bf6c3c1ab66be45e11a633b97c6d3d02c2f34fbd2160754fdea4348a8c8a72b4018ef2bd76bc"
 
 RPROVIDES:${PN} += "pfsalign"
 

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.17.2"
 
-RPM_NAME = "zola-bash-completion-0.17.2-2.2.noarch.rpm"
-RPM_HASH = "097f4761c79620ae837b30cb3cd2bc7ed196886a70800d0980c9976ca5dd41a8dfd43faf99ac2b50592845f84ee5acedefaad5a6696e6b0055b376c93a5a62ec"
+RPM_NAME = "zola-bash-completion-0.17.2-3.1.noarch.rpm"
+RPM_HASH = "77ccc4fd8dc8d817dfb579bf2402ec2356907a03f6a022924ec65091af5a257c49729517aad644ad0724e3d8c089c186bf7dba8e73b290192d401836b10c1579"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zola-bash-completion"

@@ -4,13 +4,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.1.5"
 
-RPM_NAME = "ghc-terminfo-prof-0.4.1.5-3.2.aarch64.rpm"
-RPM_HASH = "71dc8b39cde11c607b7eefaa4d8c20ea87f39fb2206c951c6f27fa1f7fdaee80092aaeac1d3445e7559a5536ceebcd12bc23720232be7779986e21874d9a718a"
+RPM_NAME = "ghc-terminfo-prof-0.4.1.5-1.1.aarch64.rpm"
+RPM_HASH = "f8a25a383a75a45cf7868d23217723b563a49dfb2f45a3f33d66a40764b99d65eea51c7e4c96ac434da36fdce28c5e02735ffe49def89a61e7c12a913dddb724"
 
 RPROVIDES:${PN} += "ghc-prof-terminfo-0.4.1.5 \
 ghc-terminfo-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
 ghc-terminfo-devel"
 
 inherit rpm

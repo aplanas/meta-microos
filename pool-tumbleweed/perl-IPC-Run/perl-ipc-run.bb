@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "20220807.0"
 
-RPM_NAME = "perl-IPC-Run-20220807.0-1.3.noarch.rpm"
-RPM_HASH = "0ffb7a80d2e0d1a98aabb54252512733512bd645329c91ec07958ccf69235763734d826eec991a3b27500238e5288dd2cfde1a9235ff415f873a372fa8b1cdec"
+RPM_NAME = "perl-IPC-Run-20220807.0-1.4.noarch.rpm"
+RPM_HASH = "c98d7f6685026c0f25307652e478f95dfbee3609665a8ba812c9ef252b606f495020bba7bb2af39e9f1563809e1ee1affe40722376dfc7735200c2df7dd79009"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IPC--Run \
@@ -24,7 +24,7 @@ perl-IPC--Run--Win32Process \
 perl-IPC--Run--Win32Pump \
 perl-IPC-Run"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-IO--Pty"
 
 inherit rpm

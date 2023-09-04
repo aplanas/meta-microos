@@ -6,8 +6,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20221030"
 
-RPM_NAME = "python311-libvshadow-20221030-3.7.aarch64.rpm"
-RPM_HASH = "d0802cff733ef664609f7668c1aaab077f374f2298a291232c48424851f918b89ced7688f7e30517d3f8ea23ddea10fec0e79df74aa076f1dac4ea80c5928de2"
+RPM_NAME = "python311-libvshadow-20221030-4.1.aarch64.rpm"
+RPM_HASH = "6e88c086e3b6df760c463c5eef37cabd02ae7b85a9ec48d656818069c237a851f92be84b36efd49055a924003dc48eeb9d0b83c438bbac40c5a80c1b5b98d0b2"
 
 RPROVIDES:${PN} += "python3-libvshadow \
 python311-libvshadow"

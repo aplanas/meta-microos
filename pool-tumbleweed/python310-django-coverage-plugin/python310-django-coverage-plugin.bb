@@ -2,10 +2,10 @@ SUMMARY = "Django template coveragepy plugin"
 DESCRIPTION = "Django template coverage.py plugin"
 LICENSE = "Apache-2.0"
 
-PV = "3.0.0"
+PV = "3.1.0"
 
-RPM_NAME = "python310-django-coverage-plugin-3.0.0-2.3.noarch.rpm"
-RPM_HASH = "e927818cc572aead7a029c72156eee3ec9f368b7ed3c38a65ad362eabc1f484932b89393d9d586a5a1f1e1d710c313f638801eb4ee19e74972bed126cd804c86"
+RPM_NAME = "python310-django-coverage-plugin-3.1.0-1.1.noarch.rpm"
+RPM_HASH = "342bfd3c26dab4f6aebf827d81867fd6cf0ae21d33aa67fd77ccd5c363b9fcf24f9b0603741dfa846f332e64472661c20c4cdf3a87f9843d7f7e4b1f0ddd1fc4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-django-coverage-plugin \

@@ -2,10 +2,10 @@ SUMMARY = "Devel package for poke"
 DESCRIPTION = "Development package for poke."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.2"
+PV = "3.3"
 
-RPM_NAME = "poke-devel-3.2-1.1.aarch64.rpm"
-RPM_HASH = "51d10f874bd7fc48cc620877a9a383fd0fab3fc3adf131989d64bb06b7df93780d0866f635e5b0164a4ca0a3cd767dfb8102feb445c14cbe48fa5e912ec5f3ca"
+RPM_NAME = "poke-devel-3.3-1.1.aarch64.rpm"
+RPM_HASH = "e89bf560dae36250da02b1cf181f485d7376be64fabac6dd0c0a57f6208df4262b88e936c02aa66e10cdf434dd6b737d09e536da3341ae880958dee014b8a391"
 
 RPROVIDES:${PN} += "pkgconfig-poke \
 poke-devel"

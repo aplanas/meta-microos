@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.1"
 
-RPM_NAME = "ghc-hinotify-doc-0.4.1-3.2.noarch.rpm"
-RPM_HASH = "3f0e926636e7948feb2c924869000b250731946e56393d5384af397e16127ba3750a41dca6306862fabef6fe6d3a9a6e53e830f7bf4eb903b7d90bc33d2c9a85"
+RPM_NAME = "ghc-hinotify-doc-0.4.1-3.4.noarch.rpm"
+RPM_HASH = "7711037a9a065909585d30c698f6a3c6cd396c9f6e00fc6c961d9f008b086bf456379184579cd5c272cd2f707f20db02976a250db8c2a450606d403bcdfacd6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-hinotify-doc"

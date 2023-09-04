@@ -7,12 +7,12 @@ and play through the various levels and attempt to rescue as many MIA \
 forward as it sounds, since the MIAs will often be not directly \
 reachable and will require some extra thought. Bob also has to \
 contend with environmental hazards, alien invaders and assimilated Blobs."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "2.00"
 
-RPM_NAME = "blobwars-2.00-2.23.aarch64.rpm"
-RPM_HASH = "89682c01127442775ee91c35313bb3fb723a5ba544ccafbfd9883df8281a513e12240f689f88d889be284962da205bdc59e3f9c8942121ad8ef12dbed2d0c9f1"
+RPM_NAME = "blobwars-2.00-3.1.aarch64.rpm"
+RPM_HASH = "e37813620748ba7722d904b8bed89c0dcc5422dc378d45e3f54b37a4d04984c981b9234ae659c69afb606c108cdf2252c3221d78b6067ef7946dc5f922503eea"
 
 RPROVIDES:${PN} += "blobwars"
 

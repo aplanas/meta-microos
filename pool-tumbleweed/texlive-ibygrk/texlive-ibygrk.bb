@@ -7,10 +7,10 @@ macro packages to use it with Plain TeX or LaTeX, but for use \
 with Babel, see the ibycus-babel package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.208.4.5svn15878"
+PV = "2023.209.4.5svn15878"
 
-RPM_NAME = "texlive-ibygrk-2023.208.4.5svn15878-53.1.noarch.rpm"
-RPM_HASH = "8e066d19e1d9343c8a695f725a3c2aa9de76be19e2d28d8fe463aad918bd9adb1c998abeff446031699e864b20b117f55cdd435566449d97c4cfe35aee866a83"
+RPM_NAME = "texlive-ibygrk-2023.209.4.5svn15878-54.1.noarch.rpm"
+RPM_HASH = "b2c808eead43bb19e6d32a36b08221edb923fbf7066392c0605718215f36515bb93696c50bf76ec6632153fadf61396645854270864e17b9be4729dd2fcc20e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-IbycusHTG.enc \

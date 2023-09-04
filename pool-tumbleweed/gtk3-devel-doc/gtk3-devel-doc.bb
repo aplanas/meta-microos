@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.24.38"
 
-RPM_NAME = "gtk3-devel-doc-3.24.38-1.1.noarch.rpm"
-RPM_HASH = "4d4f67cd54c4793c0f03db0417220fda7d9a2960fed442ab4b509dd181251a3e7a234f08f2b0a50650f2e094e16dd1b7c26f09848b9a3d7960c35b1ef37ee5e8"
+RPM_NAME = "gtk3-devel-doc-3.24.38-2.1.noarch.rpm"
+RPM_HASH = "7f9ad680bec47db0ca73015fd3449d8777bd969ae14b3063c7bc0a1e1d7115078b7fd276f86734903a9254677f35da1af28a3b0154877948fba2dfcd1c08d859"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk3-devel-doc"

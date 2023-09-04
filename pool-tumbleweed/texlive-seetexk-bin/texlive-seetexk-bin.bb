@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn65877"
 
-RPM_NAME = "texlive-seetexk-bin-2023.20230311.svn65877-93.1.aarch64.rpm"
-RPM_HASH = "cfb4665d48fcc741033983dd47fb896485ea9df7bbf5d2cac0987e13186fcdd80d247989d870e5a8f6b2c2d3c8ced87bf65249169fad9867e2e8160605ab8faf"
+RPM_NAME = "texlive-seetexk-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
+RPM_HASH = "1f8835965335fb32d4c76aaf73da089df915f3cb3853a67c3abbf9b3d3a008d75e0f07ac370fc6f04f1f2843bd3ef6995fe4b09af1e229489dcad26a131f0fa4"
 
 RPROVIDES:${PN} += "texlive-seetexk-bin"
 

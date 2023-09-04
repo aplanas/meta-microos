@@ -13,8 +13,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.400002"
 
-RPM_NAME = "perl-CPAN-Changes-0.400002-2.22.noarch.rpm"
-RPM_HASH = "0b11ef2abc88a8575beb420a72922ecebb3835411cd080f836346219e2ca467173f623314e6fffc9f902600c65e01ff34ccefa984d15e562c0638b391316f51c"
+RPM_NAME = "perl-CPAN-Changes-0.400002-2.23.noarch.rpm"
+RPM_HASH = "6145542461a349453dc4f03e1e930044bc42b4d061e4288787b18567309adda60b16d2f053ca8e1b2f6dc90d48090fed3edbb8411ae0f9b86244f260ef73b1dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CPAN--Changes \
@@ -24,6 +24,6 @@ perl-CPAN-Changes \
 perl-Test--CPAN--Changes"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.7.3"
 
-RPM_NAME = "librime1-1.7.3-2.19.aarch64.rpm"
-RPM_HASH = "b6ed941b4bf928a2fd9a2076ca5c5ea8c8b28dd8006ac9cf7cba669342ed36faf7e833ad40fdfd8bbd29189d2a2d4408f14cb6820d00cfeaa02e684a6184e9b4"
+RPM_NAME = "librime1-1.7.3-2.20.aarch64.rpm"
+RPM_HASH = "f90b1a7f803234ecfff9b27e9ba12c97ce76b679f03f9b2685cb834794607048363b28cb3e5de758bccf6d54ddec8ff0bc681144f6ad69dfa0e0dd384e31e2b2"
 
 RPROVIDES:${PN} += "librime.so.1 \
 librime1"
@@ -26,6 +26,6 @@ libm.so.6 \
 libmarisa.so.0 \
 libopencc.so.1.1 \
 libstdc++.so.6 \
-libyaml-cpp.so.0.7"
+libyaml-cpp.so.0.8"
 
 inherit rpm

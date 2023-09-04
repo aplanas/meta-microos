@@ -2,10 +2,10 @@ SUMMARY = "The python pandas[clipboard] extra"
 DESCRIPTION = "This package provides the [clipboard] extra for python-pandas"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.2"
+PV = "2.0.3"
 
-RPM_NAME = "python310-pandas-clipboard-2.0.2-4.1.noarch.rpm"
-RPM_HASH = "a5155183d0cdc69c5e71f8ece9b70af28d6e5f4f73065371bab69abf03e6181b29b0b2af754ac40201d2625a25f904608ead5ab4e6a3c50d7db0e9fe907555fc"
+RPM_NAME = "python310-pandas-clipboard-2.0.3-1.2.noarch.rpm"
+RPM_HASH = "db0c201bc8c0a74907f35d0a57a9ddf364c58903d1d245eb3bffaffe51b7b79d82a069b2632fcfb7dd802767b8e95117bac4264f3c60de0fc70ed9e0b78f87a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python310-pandas-clipboard"

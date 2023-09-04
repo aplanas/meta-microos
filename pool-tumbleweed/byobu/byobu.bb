@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.133"
 
-RPM_NAME = "byobu-5.133-2.13.noarch.rpm"
-RPM_HASH = "74b42446d71133f18a47ad818e22a2c03470eae72068350dbacadf67e5ca012c95cdc9d3a7acca0f751d6cb3b4cc9f74e724fa2a6f9ca5c56620fa448caf21f1"
+RPM_NAME = "byobu-5.133-2.14.noarch.rpm"
+RPM_HASH = "28a764cafff41ac1e4b40da0765ab973bc64a91ed94a9d38e8dee4e356093bff1a5aff8a070b301bc9a45c68314a1c208a4b1c5ea9855046e7af460da3b2ae34"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "byobu \
@@ -22,7 +22,7 @@ coreutils \
 gawk \
 gettext-runtime \
 net-tools \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 python3-newt \
 snack"
 

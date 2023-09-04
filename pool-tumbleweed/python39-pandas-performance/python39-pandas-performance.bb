@@ -5,10 +5,10 @@ It is highly recommended to install this subpackage, as its dependencies \
 provide speed improvements, especially when working with large data sets."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.2"
+PV = "2.0.3"
 
-RPM_NAME = "python39-pandas-performance-2.0.2-4.1.noarch.rpm"
-RPM_HASH = "75d0ce5997c7dc28bdca6c83f3ccc2a08d8f4fa32ff097b2307ee4bbeb59eb2a3029f1398972d0ef32938adc9e2ebf98538ba4a26617b906bc341b9ee3b53db8"
+RPM_NAME = "python39-pandas-performance-2.0.3-1.2.noarch.rpm"
+RPM_HASH = "841c78bb588e0d5dd3d6dad823acbf14e3db134fce49e225f4c05869116ba7f04da1d03b796f5b9b8d9fefddfcb0e3d4818ce78c12b87cf0aafe0fedc240b187"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pandas-performance"

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.21svn61988"
 
-RPM_NAME = "texlive-xsim-doc-2023.209.0.0.21svn61988-53.1.noarch.rpm"
-RPM_HASH = "83894f817a0495bc1db8c40c5347bc381e30e5409627f320834d8877e06b7bc1afe05508e464e2edad49d42bc439f14431cb999ed9237d4bda4331242aa9c104"
+RPM_NAME = "texlive-xsim-doc-2023.209.0.0.21svn61988-53.2.noarch.rpm"
+RPM_HASH = "e1b6eea47beb58ca1ad778b40e7c4220f5dca2c64b81ad687695b419e580acf5b1aa9f9cc5fe9cc8ece163303b05587d5c0538151bba72290e5d523fe7b82dad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xsim-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "PHP interface to libedit, which provides editable command line as
 as PHP interactive mode (php -a)."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.8"
+PV = "8.2.9"
 
-RPM_NAME = "php8-readline-8.2.8-1.1.aarch64.rpm"
-RPM_HASH = "c2e60ca158f2df34daf015e7122f4a24aae675d6a804ab726016dddc157b04fe5dc7b2654aad2b78714a59043cba8c5fd8a65f64f420091846cee6b0da75e365"
+RPM_NAME = "php8-readline-8.2.9-1.1.aarch64.rpm"
+RPM_HASH = "bdc11fdbfe4b09b8ddf07f59a27788b5abadcf13092f526b234a56d803646c07e148836491f588ce2d7bd06a0123561a38a03d140cb0edd81ef62fd8d3066617"
 
 RPROVIDES:${PN} += "config-php8-readline \
 php-readline \

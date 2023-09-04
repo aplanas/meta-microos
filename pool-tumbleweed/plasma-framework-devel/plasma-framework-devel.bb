@@ -2,10 +2,10 @@ SUMMARY = "Plasma library and runtime components"
 DESCRIPTION = "Plasma library and runtime components based upon KF5 and Qt5"
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "plasma-framework-devel-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "b306262cba539a4111a209fa62afbb7636994ecca5bf29f73f956194bcaff2e32e14d2d8b6d428f8f25feea652254ea7fd237cdd723b73bc166d27c17efa4278"
+RPM_NAME = "plasma-framework-devel-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "d55784a0181a112343b0312ea05defb837dba67b0371d34b3b2d07541fc1f6c137cd09eef5f02e615dd8f334b48a1b1b1619262967a5e6206d06b05792d11e74"
 
 RPROVIDES:${PN} += "cmake-KF5Plasma \
 cmake-KF5PlasmaQuick \

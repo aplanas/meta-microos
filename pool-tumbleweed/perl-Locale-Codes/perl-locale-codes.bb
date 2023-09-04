@@ -49,8 +49,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "3.74"
 
-RPM_NAME = "perl-Locale-Codes-3.74-1.1.noarch.rpm"
-RPM_HASH = "dc77af0a7da80b1b65fff4b0e5907b778378e93a03966e94cd2c26185bf72b45253ee151f59c8e87b0e8520c0628ecd76405feaa479293633bb23a230a0f4e47"
+RPM_NAME = "perl-Locale-Codes-3.74-1.2.noarch.rpm"
+RPM_HASH = "b968db843e0ebabedc4e4f51470b7308a03186d5fae5ad6bf144faf948ec7eb7b2da894dc1cf0e7c7c509acbf3662e50aaf241d864b854e729a2327f6cc7984c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Locale--Codes \
@@ -68,6 +68,6 @@ perl-Locale--Language \
 perl-Locale--Script \
 perl-Locale-Codes"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

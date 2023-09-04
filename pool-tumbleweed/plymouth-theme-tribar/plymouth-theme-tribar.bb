@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.02.122+94.4bd41a3"
 
-RPM_NAME = "plymouth-theme-tribar-22.02.122+94.4bd41a3-6.1.noarch.rpm"
-RPM_HASH = "0841d78607195dea5806a024964daa6a1634e47d6206b573952df06d715a648ce245431e9cff523089d54bc85a1e0955c7729c2a29b7e8499c54e8e02b445693"
+RPM_NAME = "plymouth-theme-tribar-22.02.122+94.4bd41a3-9.1.noarch.rpm"
+RPM_HASH = "5ac67af53d75696c27eb093494191719931305db6ec3586884f55c4793f1334e9db2c53fc9d4f58dae504ec19ea5fbcd88fbf49319ee770499079b36d67ca637"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plymouth-theme-tribar"

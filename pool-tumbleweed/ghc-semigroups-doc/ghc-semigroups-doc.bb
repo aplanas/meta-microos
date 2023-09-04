@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.20"
 
-RPM_NAME = "ghc-semigroups-doc-0.20-2.2.noarch.rpm"
-RPM_HASH = "d27518dbeb4cf976ff13b3e56c02390f747675a357f46ea026c1880942d82ce44c42c71e70360dfe9a3fc1d2a4a4ea1f33ab7bb5b4758d5cb4164840a51c28f9"
+RPM_NAME = "ghc-semigroups-doc-0.20-2.3.noarch.rpm"
+RPM_HASH = "4d28449cd3df67225c9c620f904c0115d2d12798275db3e320bad87ee0a4a7d504405b96b7370b6130b48b5da340103bbfe399bf61cc7ae8ad5748ddd409cff6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-semigroups-doc"

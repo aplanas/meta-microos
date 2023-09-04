@@ -14,8 +14,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "2.24"
 
-RPM_NAME = "perl-Class-MethodMaker-2.24-2.32.aarch64.rpm"
-RPM_HASH = "96f90df1576b39f87ac7afb71f7e07ed58c75cc6e5aefc12b7cf4360dbb2c42b7bb749d8b2c8b983e969d526f3bd834745be8a249479ebf9c9ca8acd344d2803"
+RPM_NAME = "perl-Class-MethodMaker-2.24-2.33.aarch64.rpm"
+RPM_HASH = "4e57ecfed3ceff6ad7183b26743f837fc00b71b0153ec139e8ea7dc432e64e2d33cc9ab134041cb62ff85cd9085c6590ab8a0d13db630eeb0aa0de56ad7cef22"
 
 RPROVIDES:${PN} += "perl-Class--MethodMaker \
 perl-Class--MethodMaker--Constants \
@@ -28,6 +28,6 @@ perl-Class--MethodMaker--scalar \
 perl-Class-MethodMaker"
 
 RDEPENDS:${PN} += "libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

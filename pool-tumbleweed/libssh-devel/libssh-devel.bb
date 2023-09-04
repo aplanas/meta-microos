@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.10.5"
 
-RPM_NAME = "libssh-devel-0.10.5-1.2.aarch64.rpm"
-RPM_HASH = "db2fc5e1b0f6059fe01eb3135654fa6a0e3470a7e6303b1eeb4cb58363ad9955d58aecb06602f0a8f8864b53aae7519ee6cfaa925260d613ed03c7cc8899efd6"
+RPM_NAME = "libssh-devel-0.10.5-2.1.aarch64.rpm"
+RPM_HASH = "b8b885a108e6dca9b8f319e03fe4d4de76292e0c6a8141df8cfa2cb2184151035e1f26e48e92d811f132b115d235716c21d3205739d535205ed4024481ee2a12"
 
 RPROVIDES:${PN} += "cmake-libssh \
 libssh-devel \

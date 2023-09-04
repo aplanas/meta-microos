@@ -22,8 +22,8 @@ LICENSE = "AGPL-3.0-only"
 
 PV = "4.8.0"
 
-RPM_NAME = "python311-pelican-4.8.0-2.6.noarch.rpm"
-RPM_HASH = "9272c02b552ba0fc9cb1e44ca164be5c4a2d3f6d52c95e72ff8d57aab1b112e75e0e0c0d27519813ab78637f9a6254232c8874f54a4d949dedb4789ae5ea3cf7"
+RPM_NAME = "python311-pelican-4.8.0-2.7.noarch.rpm"
+RPM_HASH = "a6e9b4abbe827947e035e09d508c0d17e87fd5ac58c48e6d8057efb35f3d21d3955458727b4bdb40c054110124b592df50df6e39c62429378924bec98eaae4cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pelican \

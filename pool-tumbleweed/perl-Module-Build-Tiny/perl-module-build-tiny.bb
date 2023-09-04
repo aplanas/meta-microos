@@ -10,14 +10,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.046"
 
-RPM_NAME = "perl-Module-Build-Tiny-0.046-1.1.noarch.rpm"
-RPM_HASH = "c8cfd7a16dcc68f7ead229b09b0bf426120076d8c8655a2e41a67dcae320e0d206e1dfb5892208196ecb65769f9144686d0917a5e82cd5caa1252434ec940bf8"
+RPM_NAME = "perl-Module-Build-Tiny-0.046-1.2.noarch.rpm"
+RPM_HASH = "8d6b34169e90367d9c43c02c38c345d0814ae2dec0471ba05c1908a8be93b3568e56bb05649eca4cb1d967e26b2af5d08bdc4a562219f2ebb12936c4b1f4adb1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--Build--Tiny \
 perl-Module-Build-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-CPAN--Meta \
 perl-ExtUtils--CBuilder \
 perl-ExtUtils--Config \

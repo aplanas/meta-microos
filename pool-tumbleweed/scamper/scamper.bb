@@ -13,10 +13,10 @@ to the next point in the network, followed by a TTL limited search to \
 infer where the failure appears to occur."
 LICENSE = "GPL-2.0-only"
 
-PV = "20230605"
+PV = "20230614b"
 
-RPM_NAME = "scamper-20230605-1.1.aarch64.rpm"
-RPM_HASH = "8a1793745d41014f706ddeabd53bdea997d349655c14faeb72a9ce13a12501f0a1138ab679f82e059545feb7344ed21a6955ccbba2be8be035a526b224b378ec"
+RPM_NAME = "scamper-20230614b-1.1.aarch64.rpm"
+RPM_HASH = "8b479f9617c76289cef579027afc58b4efb21b97439125c769dd9ddc8d4ed60f11016f7b3a5857b594698b506e4459fa6500b8938eab8c73e95f26450b84c810"
 
 RPROVIDES:${PN} += "scamper"
 

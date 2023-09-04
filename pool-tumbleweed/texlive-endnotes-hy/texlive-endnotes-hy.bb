@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn54758"
 
-RPM_NAME = "texlive-endnotes-hy-2023.209.svn54758-54.1.noarch.rpm"
-RPM_HASH = "c6980a28ad9e0042a16ffc349b6bf20f4b7c09cc30a83a72b129af1fb647be204b196b66e71388a8656f3a7d63d152404c49cf2293fcf142f7af9fc03e94ed47"
+RPM_NAME = "texlive-endnotes-hy-2023.209.svn54758-54.2.noarch.rpm"
+RPM_HASH = "c9467daddc61edbaf1c4bc7a05d6061c5ff7b677233792b0137e913d2b61c9beb6bbb5dfef700682aa5fc59f8e4257c9b006bcf35de20c53b60b75770414141c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-endnotes-hy.sty \

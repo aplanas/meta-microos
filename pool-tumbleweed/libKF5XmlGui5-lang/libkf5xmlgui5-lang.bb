@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5XmlGui5"
 DESCRIPTION = "Provides translations for the 'libKF5XmlGui5' package."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "libKF5XmlGui5-lang-5.108.0-1.1.noarch.rpm"
-RPM_HASH = "b4d666bc5712d3cb7909de0458cb0d762fe8dd4d5a1b678777fe31c827ae099a9d6ac65245cfa4eef3d6390a181deda195cd2a02e440c1296ece51695c396db7"
+RPM_NAME = "libKF5XmlGui5-lang-5.109.0-1.1.noarch.rpm"
+RPM_HASH = "292909c284c460f3468d33614149aee5c29177f470b0607f1653c860d3772aa00198119ba28bec80b611ab72ad74e632f611c76b723d80761f04e42d187825d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5XmlGui5-lang \

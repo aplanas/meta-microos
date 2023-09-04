@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "3.013"
 
-RPM_NAME = "perl-Mail-Message-3.013-1.1.noarch.rpm"
-RPM_HASH = "f4e00304ff922a6acb6949ad1aa1a20e3a90900935718e235ff220d5bc8067e97fafaa7e430c20414ce476b68ad757ac621313fbb8b608c93c7c84da0018a799"
+RPM_NAME = "perl-Mail-Message-3.013-1.2.noarch.rpm"
+RPM_HASH = "2cb55f33233fe0eaf3b625d58286dd09f467bfd9efb7511a522f9b3f9bb804bac6459d383085d65de07575791904e17a6bd951ec1dbcf4c1d675949fcbcf149f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mail--Box--FastScalar \
@@ -64,7 +64,7 @@ perl-Mail--Message--TransferEnc--SevenBit \
 perl-Mail--Reporter \
 perl-Mail-Message"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Date--Format \
 perl-Date--Parse \
 perl-Encode \

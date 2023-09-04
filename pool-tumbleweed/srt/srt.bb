@@ -4,10 +4,10 @@ that optimizes streaming performance across unpredictable networks \
 with secure streams and firewall traversal."
 LICENSE = "MPL-2.0"
 
-PV = "1.5.1"
+PV = "1.5.2"
 
-RPM_NAME = "srt-1.5.1-1.5.aarch64.rpm"
-RPM_HASH = "e5d7ed5452725ca5432f5b87029971f735183784724b7023d853431ae6b9e816d2155e2b19180b0e8908cce719c2440783ed9b401b6811d78c2536e415c31adf"
+RPM_NAME = "srt-1.5.2-1.1.aarch64.rpm"
+RPM_HASH = "5ab3ed70f97e697c1bd5b5dc04d253231458eb881988998a5b1433beb04b831385c4fc6234401267b98f2f6a390e0b261a86d3b7baf6ed5631041edc3431053e"
 
 RPROVIDES:${PN} += "srt"
 

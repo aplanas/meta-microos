@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "5.0"
 
-RPM_NAME = "patterns-microos-desktop-kde-5.0-72.1.aarch64.rpm"
-RPM_HASH = "3280b6a98e4d15269510a1713103c281f935850d749cbbe2d7432c3783f543be2dff10e9a594dcb4098ede60bf1df3c0da63e2c34541acfa4e70cc93e94285c1"
+RPM_NAME = "patterns-microos-desktop-kde-5.0-73.1.aarch64.rpm"
+RPM_HASH = "ab549eae796559d788addc23f230ed96cd2abca4124b8dbdba6ceed796404a5862b3b1b70fa170b1edc5e2a8dcce8066a0bc27ea55cfd4ff37e068a60dd698a4"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

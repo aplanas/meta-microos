@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.42"
 
-RPM_NAME = "perl-MooseX-App-1.42-1.10.noarch.rpm"
-RPM_HASH = "37b1b2a21ea58c38f0e155a7e586f1d879411c7658491f8a3076569246f062183ed07862f054886e0bd769ea9d02b9cbc6650ef2865f6dc878145a2f32e9fb34"
+RPM_NAME = "perl-MooseX-App-1.42-2.1.noarch.rpm"
+RPM_HASH = "fe6dbbf913829a198c1e9dcf2c4b7b86e0ae021a9d193bf4bef9a4dae4701d87bcab1b10ed0490a9856adcf320f0e9b607859f8616c52066674537b107c98ad7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Moose--Meta--Attribute--Custom--Trait--AppDepends \
@@ -68,7 +68,7 @@ perl-MooseX--App--Simple \
 perl-MooseX--App--Utils \
 perl-MooseX-App"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-List--Util \
 perl-Module--Pluggable \
 perl-Moose \

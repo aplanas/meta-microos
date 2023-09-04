@@ -2,10 +2,10 @@ SUMMARY = "Client tools for interacting with Kanidm"
 DESCRIPTION = "Client utilities for interactive with kanidm servers"
 LICENSE = "MPL-2.0"
 
-PV = "1.1.0~beta13~git2.5d1e2f9"
+PV = "1.1.0~beta13~git7.1fb34a9"
 
-RPM_NAME = "kanidm-clients-1.1.0~beta13~git2.5d1e2f9-1.1.aarch64.rpm"
-RPM_HASH = "07a5bd1e2399b97140fc18128df975f29cc6a2423166884756f7bc6668d136c5b14876ccf787a94affb003c2f76ec80f78584437916c7f2a46611255a4035a2f"
+RPM_NAME = "kanidm-clients-1.1.0~beta13~git7.1fb34a9-1.1.aarch64.rpm"
+RPM_HASH = "e491bae0a068a3ee7909c7d67428ae90e9ab084cf66fa1b5e02f69f1d30d8b37a9fdd11b9ec3439cb5d6e52aef9603e428ca34a22fda94952ab39811dd3b449a"
 
 RPROVIDES:${PN} += "bundled-rust-crate-adler \
 bundled-rust-crate-ahash \
@@ -34,6 +34,7 @@ bundled-rust-crate-bytes \
 bundled-rust-crate-cc \
 bundled-rust-crate-cfg-if \
 bundled-rust-crate-checked-int-cast \
+bundled-rust-crate-chrono \
 bundled-rust-crate-clap \
 bundled-rust-crate-clap-builder \
 bundled-rust-crate-clap-complete \
@@ -91,6 +92,7 @@ bundled-rust-crate-httparse \
 bundled-rust-crate-httpdate \
 bundled-rust-crate-hyper \
 bundled-rust-crate-hyper-tls \
+bundled-rust-crate-iana-time-zone \
 bundled-rust-crate-ident-case \
 bundled-rust-crate-idna \
 bundled-rust-crate-image \
@@ -176,6 +178,8 @@ bundled-rust-crate-serde-derive \
 bundled-rust-crate-serde-json \
 bundled-rust-crate-serde-urlencoded \
 bundled-rust-crate-serde-wasm-bindgen \
+bundled-rust-crate-serde-with \
+bundled-rust-crate-serde-with-macros \
 bundled-rust-crate-sha2 \
 bundled-rust-crate-sharded-slab \
 bundled-rust-crate-shell-words \

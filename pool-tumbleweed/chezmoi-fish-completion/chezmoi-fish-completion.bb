@@ -2,10 +2,10 @@ SUMMARY = "Fish completion for chezmoi"
 DESCRIPTION = "Fish command line completion support for chezmoi."
 LICENSE = "MIT"
 
-PV = "2.36.1"
+PV = "2.37.0"
 
-RPM_NAME = "chezmoi-fish-completion-2.36.1-1.1.noarch.rpm"
-RPM_HASH = "5f22fc1a61a755be428f68fd8bef65934d986698333308bfa272974644acc09a9cf71e08875392923bc75ec2bd24d9913b58dc504adc8486551648619fe1d1d8"
+RPM_NAME = "chezmoi-fish-completion-2.37.0-1.1.noarch.rpm"
+RPM_HASH = "1ddede1210d399b905092b78db95ee7fd41aa094603a00b3cd85f405a21b3c1972e8a0d54e3c323f1998881964ed21e956a472033b726aa8315341a29474f04c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "chezmoi-fish-completion"

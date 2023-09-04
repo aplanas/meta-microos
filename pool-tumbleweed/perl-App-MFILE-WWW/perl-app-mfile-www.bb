@@ -23,8 +23,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.176"
 
-RPM_NAME = "perl-App-MFILE-WWW-0.176-1.20.noarch.rpm"
-RPM_HASH = "2c9afabeca80dd9723a9585ac376eae3671c44daf8be4b335838e4da58316ffb12b95d14fbc3b139741c5f3f2700abc77a61faf9529e78bb2b816f2c0c3616df"
+RPM_NAME = "perl-App-MFILE-WWW-0.176-1.21.noarch.rpm"
+RPM_HASH = "e4ccf939a4c09c2d7f36f4ac040fd77d4314f39b097f4ad5b546c5f367f4b0ec3df1634b16a00f643de62d0d8778d0f02b665533c4b2b5d55f6fcebc05c93fc4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-App--MFILE--WWW \
@@ -33,7 +33,7 @@ perl-App--MFILE--WWW--Resource \
 perl-App-MFILE-WWW"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-App--CELL \
 perl-File--ShareDir \
 perl-JSON \

@@ -14,10 +14,10 @@ essentially no configuration, and seamlessly handles complex, real-world \
 use cases - say, common image parsing or file compression libraries."
 LICENSE = "Apache-2.0"
 
-PV = "4.07c"
+PV = "4.08c"
 
-RPM_NAME = "afl-4.07c-1.2.aarch64.rpm"
-RPM_HASH = "1714826c79d12af7008b2b3a3809b6c69de9b045ea01545bb456e4bd5d3dbee11191ce3b2813f70e9df31ae9d83627d66552d844ccbdc48bf0a63d507ba04a7d"
+RPM_NAME = "afl-4.08c-1.1.aarch64.rpm"
+RPM_HASH = "f1967a750e4dd89b1a45f7974476d6c13b16e662f64caea975b87eb8cd45460c1b87e32ae8ce2576766c1c655f0eddb278c5ac21240d198432a6981d00523eae"
 
 RPROVIDES:${PN} += "afl"
 
@@ -25,7 +25,6 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libgcc-s.so.1 \
 libm.so.6 \
 libpython3.11.so.1.0 \
 libstdc++.so.6 \

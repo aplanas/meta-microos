@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-pst-soroban-doc-2023.209.1.0svn15878-54.1.noarch.rpm"
-RPM_HASH = "0c15f1dbe026e32c5d56790b2362bbf806ca2d7f38c955e0ecdeb3a09f73b54f70c0653bef885b45e1adcaffbd684e152f352a4330fc77e647b34fcbe58cc98d"
+RPM_NAME = "texlive-pst-soroban-doc-2023.209.1.0svn15878-54.2.noarch.rpm"
+RPM_HASH = "37d36c50db116945eaec8d24317485b04a771a59736f1b8b25bf61576aa730a5911d3a1430b119f1924228edc17354d12a9da18ef11d8ad1fb90394ebdd8185a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-soroban-doc"

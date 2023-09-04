@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.3svn62864"
 
-RPM_NAME = "texlive-zxjafont-doc-2023.209.1.3svn62864-53.1.noarch.rpm"
-RPM_HASH = "b28b297e9e42fa8e398e5ac318cac29ba9b09c5d82688bbc65bd604404feadd29605c8c0707e0a60ed020450319c322ff4739cafc48d4444f329a3b278ebdfc3"
+RPM_NAME = "texlive-zxjafont-doc-2023.209.1.3svn62864-53.2.noarch.rpm"
+RPM_HASH = "26abbc0d162b5289f44eb49b11b658a5be3fdf68731ee5bec46eccab85a49aa868c324b4e2f6db283e7dad11e78f7367e911e13264e6d8d5573726afe0de691b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-zxjafont-doc-ja;en \

@@ -3,10 +3,10 @@ DESCRIPTION = "The qemu driver plugin for the libvirtd daemon, providing \
 an implementation of the hypervisor driver APIs using QEMU."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.5.0"
+PV = "9.6.0"
 
-RPM_NAME = "libvirt-daemon-driver-qemu-9.5.0-2.1.aarch64.rpm"
-RPM_HASH = "906f94a16544f2e35042f459389541750aca2e1541ce534d2f83234b8346ef527c3a3bf430e2fa6c56590c0aa5f7ee40daae9d2645a3dc19b437f5b156f37e88"
+RPM_NAME = "libvirt-daemon-driver-qemu-9.6.0-2.1.aarch64.rpm"
+RPM_HASH = "33cc4c9b5a57da7e4644fe8b9e68e6303e2266a1e836f56b8756fe2aefd8cef9a498396f10f6bd1377d3294cd95fe3936f24472497df5b552cdb3e43a3d8e146"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-driver-qemu \
 libvirt-daemon-driver-qemu \

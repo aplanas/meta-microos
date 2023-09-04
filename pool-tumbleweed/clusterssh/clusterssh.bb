@@ -6,12 +6,12 @@ active windows. This tool is intended for, but not limited to, \
 cluster administration where the same configuration or commands must \
 be run on each node within the cluster. Performing these commands all \
 at once via this tool ensures all nodes are kept in sync."
-LICENSE = "GPL-1.0-or-later | Artistic-1.0"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "4.16"
 
-RPM_NAME = "clusterssh-4.16-1.14.noarch.rpm"
-RPM_HASH = "65ed2bcc9530409447cfaf751fd6312f8661e5deb4513142cf326062689584eb5c6172e074bba4d60d5acad28481319625945def927313a6845aff73f18f4fb0"
+RPM_NAME = "clusterssh-4.16-2.1.noarch.rpm"
+RPM_HASH = "c931de7b24f8afdca0a97a8f0aa716dacd8a6c73a7c78f338ff30d8a51c71bd7f5841d3bb2d93f13a7f90178aa7267885d743fee9f3b7c72ac97bd4c9a9b06eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clusterssh \
@@ -29,7 +29,7 @@ perl-App--ClusterSSH--Window \
 perl-App--ClusterSSH--Window--Tk"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-CPAN--Changes \
 perl-Carp \
 perl-English \

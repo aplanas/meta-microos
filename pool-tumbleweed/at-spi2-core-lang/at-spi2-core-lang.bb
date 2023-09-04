@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.48.3"
 
-RPM_NAME = "at-spi2-core-lang-2.48.3-1.1.noarch.rpm"
-RPM_HASH = "229982357f186c7731740097cabd0f4a9b9b1438964f5c331d149348f10690bdf8dace3db641accda6972ad901c52939c32d655a9c7a0e8e1e36511e24b2fadb"
+RPM_NAME = "at-spi2-core-lang-2.48.3-2.1.noarch.rpm"
+RPM_HASH = "9844aa74856bbbc7a893b4522c971c411d2a86111fdeddd0372a1bdd1cd7b2fd2932185425d4700b679a0c572197aab52d195c01b5331e8dfef0ae90b9a158c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "at-spi2-core-lang \

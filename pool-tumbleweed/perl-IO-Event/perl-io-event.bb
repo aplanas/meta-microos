@@ -22,8 +22,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.813"
 
-RPM_NAME = "perl-IO-Event-0.813-1.21.noarch.rpm"
-RPM_HASH = "afcff449700591bef68d3d7dac6ac3b95dc7a83a38bad9ab564cadab32316c7f9623d5481f672d7b6eda70a39a2dd9049c47b84794f434416e237f76634edcec"
+RPM_NAME = "perl-IO-Event-0.813-1.22.noarch.rpm"
+RPM_HASH = "101212cb7e9b3797032f048a753d51a645f5e7797933c3a358376298be1d0bc7c5060e6fc083b088b2a52310eab556eb8f8612822f577ab8e02893d323114d5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--Event \
@@ -36,7 +36,7 @@ perl-IO--Event--Socket--UNIX \
 perl-IO--Event--UNIX--Callback \
 perl-IO-Event"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-IO--Handle \
 perl-List--MoreUtils \
 perl-Time--HiRes"

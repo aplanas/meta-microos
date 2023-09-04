@@ -3,10 +3,10 @@ DESCRIPTION = "Building blocks for modern GNOME applications. \
 This package provides the documentation for libadwaita."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.3"
+PV = "1.3.4"
 
-RPM_NAME = "libadwaita-docs-1.3.3-1.1.noarch.rpm"
-RPM_HASH = "950ed0731075230d4139568584ec2dad3140158ed9ece3efeff77f61218cfa5d957953a7b82215983beb78911dc42e93eda9845d45ca92d3ccdfef539c57d39c"
+RPM_NAME = "libadwaita-docs-1.3.4-1.1.noarch.rpm"
+RPM_HASH = "c9fef6996fe425b9b568f27ea83cac5be3a1545e6356ffd46998673c5d8f9c4351bd675eb058505ee95c7138d8bac8fa08296c957c4c7ec168e78aa257a118d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libadwaita-docs"

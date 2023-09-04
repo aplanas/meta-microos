@@ -9,13 +9,13 @@ LICENSE = "Apache-2.0"
 
 PV = "0.48"
 
-RPM_NAME = "perl-Capture-Tiny-0.48-1.18.noarch.rpm"
-RPM_HASH = "8e8225a6e709fecb48a5e24143f0fbdc57e7691cc3d432499c0b41667dad5feb3218775df422b7efbac5dae3a33c729f40223c9d1e73d08329c40f92c73a639c"
+RPM_NAME = "perl-Capture-Tiny-0.48-1.19.noarch.rpm"
+RPM_HASH = "0cd2ee6ffb69b7bfbe90a3c1427e27408869d0a1cf5554cc4208c9129a1042088754a1eb3a86e8a2be9a3cda60eb3093eb75aa40fe3b810541aff3eb58f32f25"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Capture--Tiny \
 perl-Capture-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

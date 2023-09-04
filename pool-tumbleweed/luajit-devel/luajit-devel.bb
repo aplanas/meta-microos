@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1.0~beta3+git.1669107176.46aa45d"
 
-RPM_NAME = "luajit-devel-2.1.0~beta3+git.1669107176.46aa45d-2.4.aarch64.rpm"
-RPM_HASH = "cf81487b70b22bd81270fc423a1ca6803f5c1fbf6a736287179a5359e85ccdc902f3973e87013665506c71d08252923bf3a5eb4fb827d897a7408894b11f6840"
+RPM_NAME = "luajit-devel-2.1.0~beta3+git.1669107176.46aa45d-3.1.aarch64.rpm"
+RPM_HASH = "d6656dc6e0ab4ff82c0f8c850478dca21926132e4ec3624905aa4b07389ce4537de258063af5ed0768c8432acb8025ea943a822c87c4e5ae4dcf73111f8a6faf"
 
 RPROVIDES:${PN} += "libluajit-devel \
 luajit-devel \

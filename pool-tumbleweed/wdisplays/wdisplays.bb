@@ -6,10 +6,10 @@ This program can perform adjustment of display settings in \
 kiosks, digital signage, and other elaborate multi-monitor setups."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.1"
+PV = "1.1.1"
 
-RPM_NAME = "wdisplays-1.1-1.1.aarch64.rpm"
-RPM_HASH = "943c494c87af7f7b55e5fe57f2a57eba50de72a5ef0cf8624af54ea7ebbb950049240d1cd101c0196199e54bbc15bf9be358688d2743cdbcea48517a4c3e145f"
+RPM_NAME = "wdisplays-1.1.1-1.1.aarch64.rpm"
+RPM_HASH = "43bd6a7e55d86098d6f266fd202432c16330e3e47590cc4c2b4e305fb8fc779c2a106595a854c433542074807bb6bf1c1d1fefc9fccc4a46a3ecc5a3f24eddc3"
 
 RPROVIDES:${PN} += "wdisplays"
 

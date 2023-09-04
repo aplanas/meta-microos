@@ -5,16 +5,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.2.1.13"
 
-RPM_NAME = "ghc-filepath-bytestring-devel-1.4.2.1.13-1.3.aarch64.rpm"
-RPM_HASH = "972a015009b118ad2510dd5c2cf9ae8efb25b3cc527328936691caeaacef7bd84ec7c4af98e9ced8dfe928b93103a22b231c3b47682f4a42b2313cef6e7ef23c"
+RPM_NAME = "ghc-filepath-bytestring-devel-1.4.2.1.13-1.5.aarch64.rpm"
+RPM_HASH = "a47e05ad514b09cd3f1e9f496aecc10295778f220c9fff21dd4f5f9f687a57d4cb2f8f87c33eda47adc1ccb56984fecd081d8c7efdcdbc64c4d38a9d688fac01"
 
-RPROVIDES:${PN} += "ghc-devel-filepath-bytestring-1.4.2.1.13-1FmfoCrfLITG59KaBERpzO \
+RPROVIDES:${PN} += "ghc-devel-filepath-bytestring-1.4.2.1.13-KgttGjs0pYw2aEgCzIFOnB \
 ghc-filepath-bytestring-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0 \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1 \
 ghc-devel-unix-2.7.3 \
 ghc-filepath-bytestring"
 

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.39.1"
 
-RPM_NAME = "libmount-devel-static-2.39.1-1.1.aarch64.rpm"
-RPM_HASH = "9a3be7a000e510ac96c0a02918a98ea4525f7cd240349b38ac47e217b5e7f11858c497689444e57328ac4e41415b65fad1f5a6df668c589d9f773fcf5fa4990a"
+RPM_NAME = "libmount-devel-static-2.39.1-3.1.aarch64.rpm"
+RPM_HASH = "d1c2d938c86eb64b3b8f91f1589f899b5810b26665e466c2c117151a9192eb2103d35680340559bfea01c8d34a7e2b31f7518f6a24777506aade321f4273caf6"
 
 RPROVIDES:${PN} += "libmount-devel-static"
 

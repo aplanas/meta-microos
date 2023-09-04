@@ -6,10 +6,10 @@ via the system message bus. Some operations (such as suspending the \
 system) are restricted using PolicyKit."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.90.1"
+PV = "1.90.2"
 
-RPM_NAME = "upower-1.90.1-1.1.aarch64.rpm"
-RPM_HASH = "dc6fa761a2f671379688f68e26e53c885263d8c6861cc9c3617c85faee2c99b3d2c608b0834df25a6c6e16e04f9f6c397a4ad4747b48e456af489d4a8ed3157b"
+RPM_NAME = "upower-1.90.2-1.1.aarch64.rpm"
+RPM_HASH = "c545c496f2caaaccea2dfc849cae7fb85a19d02351e4a28793ca634d7c4792cc883ff04e5ee1b032c25f91ba9b8d92cef7bafb913db5cbedb770053d44451536"
 
 RPROVIDES:${PN} += "config-upower \
 upower"

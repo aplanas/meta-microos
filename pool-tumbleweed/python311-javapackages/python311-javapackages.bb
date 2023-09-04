@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "6.1.0"
 
-RPM_NAME = "python311-javapackages-6.1.0-3.2.noarch.rpm"
-RPM_HASH = "7a3ead9c6d18d2d6c3abf5b5f368d9c14923a5db09fa7c3ad28aa28457dfc4de52872c9ed88cf94483ddd9c5fd26b135a4764a0fc0d2cc8d3c04d584a22bc2c8"
+RPM_NAME = "python311-javapackages-6.1.0-4.1.noarch.rpm"
+RPM_HASH = "f9577936ffc6bda77547a284b6de1a3bb8238d7eee15464d81999daf4aac742e2d0e905f74accfcf51d25462061e91b9b56e5f0af87b200cc1b9ef732d142932"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-javapackages \

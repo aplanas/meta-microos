@@ -5,10 +5,10 @@ cleaning up malformed and faulty HTML. In addition, JTidy provides a \
 DOM parser for real-world HTML."
 LICENSE = "BSD-3-Clause"
 
-PV = "8.0"
+PV = "1.0.4"
 
-RPM_NAME = "jtidy-scripts-8.0-30.7.noarch.rpm"
-RPM_HASH = "310bc9afae5df1cd4f76c1857bf003af3094729d9a8666dce95fbaccec57c305e8bcc4debb4a5a7f43f8f7c7f55f4e804bcae4c40baad3ef6339fdd256bc8717"
+RPM_NAME = "jtidy-scripts-1.0.4-1.1.noarch.rpm"
+RPM_HASH = "c7bb0869591a56572dec055e516dba70602a4d1cdce33fe0bc17180acfb49f91e1a29b824d7f92b5d2f6cd6f704397d3858f1dc1393e0ec5653b5190f54b7dca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jtidy-scripts"

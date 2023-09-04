@@ -5,8 +5,8 @@ LICENSE = "Python-2.0"
 
 PV = "2.7.18"
 
-RPM_NAME = "python-gdbm-2.7.18-36.1.aarch64.rpm"
-RPM_HASH = "f2e2344c2e35feb4cb63f1a1290dc21321848b3ab57ac1cb65342fff0593f81432fa3fd0a5a8939bfc9eccdc50ca159fa223824ffc89865fea232fbf4fe2b098"
+RPM_NAME = "python-gdbm-2.7.18-37.1.aarch64.rpm"
+RPM_HASH = "9fb5f7ff2df94cc40999c051c33807607392755694095f30591f93ea3c436faf5e5ba34aa9535f0e1e9139f0071f2ff7df87c0db0472439dc1b2a70249cb3795"
 
 RPROVIDES:${PN} += "pygdmod \
 python-dbm \

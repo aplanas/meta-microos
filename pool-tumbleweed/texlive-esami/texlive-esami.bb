@@ -11,8 +11,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.2.7svn61596"
 
-RPM_NAME = "texlive-esami-2023.209.2.7svn61596-54.1.noarch.rpm"
-RPM_HASH = "c031da90b847985fa9ab1eb880e69fde6880aef29f2674d0e175dbbc3814c9529d8c601c9473fcf66922fd8910a6746ad502e1bf99bbfa606c8a4f505ac1410d"
+RPM_NAME = "texlive-esami-2023.209.2.7svn61596-54.2.noarch.rpm"
+RPM_HASH = "6c95538f3478bcc86b2a9656f241f795bbc54f97e09ea81130f9f9fb3316b1bd8e45e554946d06dfaa62693e2e482418fcd8844dbaef1c6abe26ffcdc2091f96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-esami.sty \

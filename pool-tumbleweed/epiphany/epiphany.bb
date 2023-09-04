@@ -3,10 +3,10 @@ DESCRIPTION = "Epiphany is a Web browser for the GNOME Desktop. Its principles a
 simplicity and standards compliance."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "44.5"
+PV = "44.6"
 
-RPM_NAME = "epiphany-44.5-1.1.aarch64.rpm"
-RPM_HASH = "f73081b17e9e6ee7ed32ac9a8abb36c00dc8ff2f1ed7fb99ac09fb1d63569ad7db385e358bcb8b2c954131f0c1684675359c8c86e10eeb55f7c2efc15b16f9a6"
+RPM_NAME = "epiphany-44.6-1.1.aarch64.rpm"
+RPM_HASH = "46f21477985652aec981608977f1eeedc032a587ce8cff43615030711bcbd5a6bb775bd997b449ee462cfedec3ceeb99a143f6b824829dc709736102e7219614"
 
 RPROVIDES:${PN} += "epiphany \
 libephymain.so \

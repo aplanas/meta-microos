@@ -6,14 +6,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.55"
 
-RPM_NAME = "perl-Class-ReturnValue-0.55-15.21.noarch.rpm"
-RPM_HASH = "237e9f914a1d323b95dc04b4e6e20511c5a23d94035cb602ad736fd4ddf509dee736c524c6c190eaf8ee46f50091836ae2ac11a828640dc8119fdf127e24b415"
+RPM_NAME = "perl-Class-ReturnValue-0.55-15.22.noarch.rpm"
+RPM_HASH = "14dbf8325cc84d18ff67c79a4e1e00dafefafcff67ae36119c02d832838decfeba6230f1f0b559824fdc292d6f3a6d3872c66139c4fbcb12e8c01a19384add63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--ReturnValue \
 perl-Class-ReturnValue"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Devel--StackTrace"
 
 inherit rpm

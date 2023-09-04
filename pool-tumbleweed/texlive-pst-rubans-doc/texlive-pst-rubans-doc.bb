@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.2svn23464"
 
-RPM_NAME = "texlive-pst-rubans-doc-2023.209.1.2svn23464-54.1.noarch.rpm"
-RPM_HASH = "64c6a92046f1c3479369d43c5bf5f253608f4ba8595befc677fbf9c1bdd14bb97111d99d31a348859fe9aa1211750a326471ce6bfa454fbc49b9b68f6ac025e1"
+RPM_NAME = "texlive-pst-rubans-doc-2023.209.1.2svn23464-54.2.noarch.rpm"
+RPM_HASH = "234eecf5faf0c017489eba53d6cada62f85c6a5deaf6ce5162a20d85e7083b33dfc5450a23e480adbfd7263066c163e150ae3d3140c2590cf9d46bf631f3d608"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-rubans-doc"

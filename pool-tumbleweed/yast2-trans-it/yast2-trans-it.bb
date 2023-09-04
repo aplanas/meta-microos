@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Italian Translations"
 DESCRIPTION = "YaST2 - translations for Italian."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230729.64eca7e0a1"
+PV = "84.87.20230818.ea489402e5"
 
-RPM_NAME = "yast2-trans-it-84.87.20230729.64eca7e0a1-1.1.noarch.rpm"
-RPM_HASH = "d93703d96ca076cd54ff7b0dd1494ac3d35a4b55c1678801ec01db3c06b33b4a50537c02961ef69d31ed331900c057291e8b55d719009afc06df75bab552a44d"
+RPM_NAME = "yast2-trans-it-84.87.20230818.ea489402e5-1.1.noarch.rpm"
+RPM_HASH = "1eeb3e522584e7c407171ec3ca25d5cd61907a7253d164fb284d94beefb996395d18e4473cbb3e4a12d09aff15619487b805a2834a32a2cb10af8cd4f8df1a21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-it \

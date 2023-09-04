@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop applications that require these."
 LICENSE = "Apache-2.0"
 
-PV = "3.1.1"
+PV = "3.1.2"
 
-RPM_NAME = "libopenssl-devel-3.1.1-2.1.noarch.rpm"
-RPM_HASH = "1f53cd7245089ea8bd2270d8aefde452d6024e9ecb74b55e8e40f0aaa94466669cb7108f59c9e5ecb4d747d2af7407ab715f4e9f706c67e6b06ae1fdcfadb674"
+RPM_NAME = "libopenssl-devel-3.1.2-1.1.noarch.rpm"
+RPM_HASH = "bdda55115d0ee67331473b3843dc0c7722a79f85288c26f27eb93c6e8f9474a6324dafe5cc5ca79f8efaf42f5049228c78b3cbfa12c5c7e288a456c583101c1a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libopenssl-devel \

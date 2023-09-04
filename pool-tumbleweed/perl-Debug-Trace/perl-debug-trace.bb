@@ -19,13 +19,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.05"
 
-RPM_NAME = "perl-Debug-Trace-0.05-3.27.noarch.rpm"
-RPM_HASH = "acbcb91aef49bce40672c73d7807affb9e14ed25832633bab9d56d7862eade0cfbabd71b90c771291f89541ffdaa1a0e685f3dd2bdb06c3d193d0d0541a9b7e8"
+RPM_NAME = "perl-Debug-Trace-0.05-3.28.noarch.rpm"
+RPM_HASH = "291dd877bef3611bb088b97d027c098a0d61ed7962541e70eb38604bfa592df4c7002dda95786d161eea37a4e882dd4b282a0841d29c55d55719ac07929e2c18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Debug--Trace \
 perl-Debug-Trace"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

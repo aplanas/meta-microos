@@ -2,10 +2,10 @@ SUMMARY = "Ethercodes Data for arpwatch"
 DESCRIPTION = "Fetch OUI and company ID data from IEEE.org prepared for arpwatch."
 LICENSE = "BSD-3-Clause"
 
-PV = "20230420"
+PV = "20230808"
 
-RPM_NAME = "arpwatch-ethercodes-20230420-1.1.noarch.rpm"
-RPM_HASH = "5e2375fdf5409a687c7d0dcd86d1fd16b8f62e5ad7d04c52c1b7e93f52dee7018f2cf3af1dfbf045c79fd9a50f3d38d5c549f2432f2a1cb9fb07121285155feb"
+RPM_NAME = "arpwatch-ethercodes-20230808-1.1.noarch.rpm"
+RPM_HASH = "778ce1270f7f08ce480f4472abeb4c164532d2805ebbd3d72248e7f1cec577b8557e5b221faa3e487280370167da3b963e1ff46d25197ee000b0a487a1f8c89f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arpwatch-ethercodes"

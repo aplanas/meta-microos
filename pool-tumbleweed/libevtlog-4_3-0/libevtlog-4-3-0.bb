@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.3.1"
 
-RPM_NAME = "libevtlog-4_3-0-4.3.1-1.1.aarch64.rpm"
-RPM_HASH = "3f33b6d12a44438a66801562e1f56c9d613d90247c6edd6f98e4e9cf8ba660fd4f1f079aa405262a36cb53cbc92fde5efecfa4a7143e82aa72d2eebdc4635e8a"
+RPM_NAME = "libevtlog-4_3-0-4.3.1-1.2.aarch64.rpm"
+RPM_HASH = "82d427f265ad3b75928b499ad5a447db759374a041fe7c2ed13261a602682c370a64a12bd85151fd4acd08786b821d2fd9a1c46b0f57c289b5c49e8ce3b9bf99"
 
 RPROVIDES:${PN} += "libevtlog-4-3-0 \
 libevtlog-4.3.so.0"

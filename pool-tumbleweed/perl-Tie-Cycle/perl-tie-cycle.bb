@@ -18,13 +18,13 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.227"
 
-RPM_NAME = "perl-Tie-Cycle-1.227-1.8.noarch.rpm"
-RPM_HASH = "1db034302800c2e985c83bac26ff853ec4bc033eec9fc61123c72c8b072e9e898664bc41acfea0fc4fd5026f252bde1a5b325f47029ba419845e94c78d812730"
+RPM_NAME = "perl-Tie-Cycle-1.227-1.9.noarch.rpm"
+RPM_HASH = "55f3c5d510c6a6d638cb264bc719d85fba342545ae452fdcfbae097a7cb4709480634fad363c7c44e4fd3298ebd80283ff99a615f911b7c623cd321bb064fb2e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Tie--Cycle \
 perl-Tie-Cycle"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

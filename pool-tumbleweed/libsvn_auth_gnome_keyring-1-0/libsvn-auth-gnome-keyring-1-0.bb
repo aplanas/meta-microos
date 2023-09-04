@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.14.2"
 
-RPM_NAME = "libsvn_auth_gnome_keyring-1-0-1.14.2-6.1.aarch64.rpm"
-RPM_HASH = "c18bb4046a02150c1d8dd55b76ab87a06165599b2b29a095bcef8af005943ae39431a9d72e0748ed474b14763b3bdf21df9e9ecafe0ca2fc1191b7ac30b7c249"
+RPM_NAME = "libsvn_auth_gnome_keyring-1-0-1.14.2-6.2.aarch64.rpm"
+RPM_HASH = "a7412b07596386952bc780bab20f4638a6121687a75101d06b14f76ccfa5e55ab5db30e5153078b44deaae4d958166b886c4d75da0491d13b509a6ae00062b6f"
 
 RPROVIDES:${PN} += "libsvn-auth-gnome-keyring-1-0 \
 libsvn-auth-gnome-keyring-1.so.0"

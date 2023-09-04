@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides scripts to translate IETF index files to \
 BibTeX files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.0.0svn41332"
+PV = "2023.209.1.0.0svn41332"
 
-RPM_NAME = "texlive-ietfbibs-2023.208.1.0.0svn41332-53.1.noarch.rpm"
-RPM_HASH = "ddb718704d78234ec1759589fb8d223caaf544246926e7af1380daacc0629b0abe0e533a2ed10e6795f114f3d3db142690c8049559fb17bca6ae2828227e14c6"
+RPM_NAME = "texlive-ietfbibs-2023.209.1.0.0svn41332-54.1.noarch.rpm"
+RPM_HASH = "1b4a26cf76143c651553932892558dcaeb74c7b6dc6bf63f51c7ccfd0e3f1b01f8eb49232ae27b7217e09295d676605b044ce37b96d0a58efa9c80547d5165fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ietfbibs"

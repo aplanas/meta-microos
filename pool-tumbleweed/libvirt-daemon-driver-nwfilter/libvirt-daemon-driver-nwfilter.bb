@@ -4,10 +4,10 @@ an implementation of the firewall APIs using the ebtables, \
 iptables and ip6tables capabilities"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.5.0"
+PV = "9.6.0"
 
-RPM_NAME = "libvirt-daemon-driver-nwfilter-9.5.0-2.1.aarch64.rpm"
-RPM_HASH = "1e396d6215769df9f7081c7b2dbb140f9ddbcd43bd34635600594eeac7c19416660eb314054e9455e76fea71c8ef2e86c65b88f0efb8a91d7d56351977dcceb4"
+RPM_NAME = "libvirt-daemon-driver-nwfilter-9.6.0-2.1.aarch64.rpm"
+RPM_HASH = "57951d0013fddd9b9cd9b126c76ad804c516ae73c93f3b9c47474a113eba639c28eaffbac479bcac024b82527370f6a9e504a0943f100783aa3fbaa74d29d77f"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-driver-nwfilter \
 libvirt-daemon-driver-nwfilter \

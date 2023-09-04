@@ -7,13 +7,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.09"
 
-RPM_NAME = "perl-Crypt-SaltedHash-0.09-5.27.noarch.rpm"
-RPM_HASH = "1e359f31cf21d7d34dfb6ec9530e9a614334a0e523ee2416ec7c4ef6160defc3293b40139bc555fe0b2fd1d36bc8e871b533f7e436b6e566487705100d346e4c"
+RPM_NAME = "perl-Crypt-SaltedHash-0.09-5.28.noarch.rpm"
+RPM_HASH = "8148ec85addebc4a007b345cae46e9ecab28cfd7d10f42e91a8e46a970dcd82ffa360b00f4aac034ba33c9d89a2675d4373fff3b5f5a76a2f800e374b63dd6ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Crypt--SaltedHash \
 perl-Crypt-SaltedHash"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

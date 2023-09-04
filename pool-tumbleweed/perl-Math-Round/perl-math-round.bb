@@ -6,14 +6,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.07"
 
-RPM_NAME = "perl-Math-Round-0.07-1.27.noarch.rpm"
-RPM_HASH = "b87e014435b4f611c4c875dcf3d49dcccb67d7913ff943c386074b7f71ce199eccedb935e90e49d870bf6c1b2232dc628fa9e58a5adc66fc7427490a9b6188fb"
+RPM_NAME = "perl-Math-Round-0.07-1.28.noarch.rpm"
+RPM_HASH = "94c585f7334581cca764a163dd323bb37822e20b30aa19f3319fbfbc9de85f4c810481ccaf6bbe1765deacafe2061ae49c1572290a3433175463427f0da3635f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Math--Round \
 perl-Math-Round"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-AutoLoader"
 
 inherit rpm

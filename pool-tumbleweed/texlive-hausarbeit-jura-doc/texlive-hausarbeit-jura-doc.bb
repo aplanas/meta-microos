@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.2.1.0svn56070"
 
-RPM_NAME = "texlive-hausarbeit-jura-doc-2023.209.2.1.0svn56070-54.1.noarch.rpm"
-RPM_HASH = "983e64f53ecd121022dc66827571cbf5c4227172859c9d4d789a6677cf238c50472148ec41592fc63e5b5237f57710c4831502e47e43deac3ff450b8df4901d7"
+RPM_NAME = "texlive-hausarbeit-jura-doc-2023.209.2.1.0svn56070-54.2.noarch.rpm"
+RPM_HASH = "0ef0adfcbb7dcd2df3ff4e8d9a3b77781ab171f72362ebe19892fea324f5e19f173402345f1c1969485bcf79b215032bd09189fc008e1912371077ff75781cee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-hausarbeit-jura-doc-de \

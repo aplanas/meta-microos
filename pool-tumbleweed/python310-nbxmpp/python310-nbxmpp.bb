@@ -5,10 +5,10 @@ This library is initialy a fork of xmpppy one, but using \
 non-blocking sockets."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.3.1"
+PV = "4.3.2"
 
-RPM_NAME = "python310-nbxmpp-4.3.1-1.2.noarch.rpm"
-RPM_HASH = "5b2da683b6fe30177cd1db52ccd709de6b4f2e2ed4106ee80ca5872191ebf2647394f275fb99f7de57847dc1cab9af92b4e456c1c6d749424e6bf674ef0404a0"
+RPM_NAME = "python310-nbxmpp-4.3.2-1.1.noarch.rpm"
+RPM_HASH = "dc8daf2f150395bf719700762074c306e373a5dce3829cfea94f14d08aea37396f216972f2459c5abe66f1429271321b6af2094df8630b848e1d297fa0bd808d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-nbxmpp \

@@ -4,21 +4,21 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.13.4"
 
-RPM_NAME = "ghc-constraints-prof-0.13.4-2.6.aarch64.rpm"
-RPM_HASH = "ffaa8fbd3c4e2646b869f6944dc6e3e97a1655740681a17af3f96587243b6115e9a22812c42bfb4ad7f751799c1d97e8493820bb24e0c036cbe7e37997c42d34"
+RPM_NAME = "ghc-constraints-prof-0.13.4-3.2.aarch64.rpm"
+RPM_HASH = "cf1c1cd261e79c1882120ba2e6b0b26a19419c3ef99341bf55c4798b0196d27ad5b78fb1c90d8a5049de956e1bb40b98a6527209be70cb8a3dcf1e6596446164"
 
 RPROVIDES:${PN} += "ghc-constraints-prof \
-ghc-prof-constraints-0.13.4-8c0InBhz3htJzug27IqVE7"
+ghc-prof-constraints-0.13.4-7HFJx00f7ri8MCLIfNZmvk"
 
 RDEPENDS:${PN} += "ghc-constraints-devel \
-ghc-prof-base-4.17.1.0 \
+ghc-prof-base-4.17.2.0 \
 ghc-prof-binary-0.8.9.1 \
 ghc-prof-deepseq-1.4.8.0 \
-ghc-prof-ghc-prim-0.9.0 \
-ghc-prof-hashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt \
+ghc-prof-ghc-prim-0.9.1 \
+ghc-prof-hashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP \
 ghc-prof-mtl-2.2.2 \
 ghc-prof-transformers-0.5.6.2 \
-ghc-prof-transformers-compat-0.7.2-7jAnhjvxTABIymoNGHTOwd \
-ghc-prof-type-equality-1-FqVAbwBXnIKCXHvrA6xdY8"
+ghc-prof-transformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM \
+ghc-prof-type-equality-1-GeDZojRKCH6645jDbV5JLU"
 
 inherit rpm

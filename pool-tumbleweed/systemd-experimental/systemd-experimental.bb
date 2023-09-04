@@ -16,10 +16,10 @@ Currently this package contains: repart, oomd, measure, pcrphase and ukify. \
 Have fun (at your own risk)."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "253.7"
+PV = "253.8"
 
-RPM_NAME = "systemd-experimental-253.7-2.1.aarch64.rpm"
-RPM_HASH = "569839bc2cca8dde0ef93d23bc0e04f6e2aaeb28b3705522e019268fee380766ff0b291dc433634ca6ec27ae16478062b7777e8be34cd111ee24b70aa63bbe7b"
+RPM_NAME = "systemd-experimental-253.8-1.2.aarch64.rpm"
+RPM_HASH = "f340c457c4145790f45a6cf1377ab41806931ca3da41e13375e53eebb36464cf724f65c2626c1fa3f9b4ad4abf4fe28550ff27c225c4cc8f64644f4705ee8d28"
 
 RPROVIDES:${PN} += "config-systemd-experimental \
 systemd-experimental"

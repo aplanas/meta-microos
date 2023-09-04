@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn24061"
 
-RPM_NAME = "texlive-ctanify-bin-2023.20230311.svn24061-93.1.aarch64.rpm"
-RPM_HASH = "88362df6dbe3f7513a7eaf756c93d50c41cadab3f7e3bf044812b5eb85707bfa7b7660091a868d77549595b965f6fd371cdfc2dc43b6d7985b249cb573f36a8a"
+RPM_NAME = "texlive-ctanify-bin-2023.20230311.svn24061-93.2.aarch64.rpm"
+RPM_HASH = "b4ffdafa9890dc84ce3c88a9805dc27e717f4ce46cccd1ff2ce09a290d12f095275b2401ec3a2a3e1a656a4b23199bbdc7306402babc06d997e4eff476c2c297"
 
 RPROVIDES:${PN} += "texlive-ctanify-bin"
 

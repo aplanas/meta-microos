@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.2.12svn65528"
 
-RPM_NAME = "texlive-embedfile-doc-2023.209.2.12svn65528-54.1.noarch.rpm"
-RPM_HASH = "f396b69343c13c5053ed31c469616e69835fc90ae0f3b18fda5267082c97f25ab4b66cab476f38fa57f4b9ddf9c73c695eabad9990d93a219a2ce720cd05f88e"
+RPM_NAME = "texlive-embedfile-doc-2023.209.2.12svn65528-54.2.noarch.rpm"
+RPM_HASH = "3b9379fd696aea10257f920df3d62c39c4c2bb02e3ab1a7a342b4ad4f75369b71929a3b0230953cd3529eb02eeaf174bae5d3db1c9dc21399ce350924ce4bfc9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-embedfile-doc"

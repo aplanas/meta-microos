@@ -6,10 +6,10 @@ For reading lzma files/buffers, see the companion module \
 IO::Uncompress::UnLzma."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.093"
+PV = "2.204"
 
-RPM_NAME = "perl-IO-Compress-Lzma-2.093-1.12.noarch.rpm"
-RPM_HASH = "c35355d33f0ab6da0e3060eb0c28c11ae3e5b6073336faf607d9076b83cc1003fdeb0d7afe2f2f812759bb2e88e478d8bc3a72088faebf3920ec67d273a86ad5"
+RPM_NAME = "perl-IO-Compress-Lzma-2.204-1.1.noarch.rpm"
+RPM_HASH = "760ca314a52cd77801a14ab89d714a0494eb2e5dff7e84163437c4eaa5973f72a0ffef79dd10c03116998097b03466419a7d9486cbd6517c18cab3571f4a9520"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--Compress--Adapter--Lzip \
@@ -26,7 +26,7 @@ perl-IO--Uncompress--UnLzma \
 perl-IO--Uncompress--UnXz \
 perl-IO-Compress-Lzma"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Compress--Raw--Lzma \
 perl-IO--Compress--Base \
 perl-IO--Uncompress--Base"

@@ -3,10 +3,10 @@ DESCRIPTION = "This can automatically setup openQA - either directly on your sys
 or within a systemd-nspawn container."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1690803816.e47aebd"
+PV = "4.6.1692951551.c933949"
 
-RPM_NAME = "openQA-bootstrap-4.6.1690803816.e47aebd-1.1.aarch64.rpm"
-RPM_HASH = "fdd8bf6cec1765b192eb85edb9abb1f245cccad4885f026198919ef8d2b7f7eabfd833146b78c9b7a115894d9f51c0450c2b6d18a0328aab29dc80d4c2fa0a3a"
+RPM_NAME = "openQA-bootstrap-4.6.1692951551.c933949-1.1.aarch64.rpm"
+RPM_HASH = "2007ada98b23abd9c9fa437fa61c66c7ef0df5f105d9550534f2bb13d752977d3774f93ee00c5161f50e0abd74d71c0bdc187afe48b3be77bef4d503e805f670"
 
 RPROVIDES:${PN} += "openQA-bootstrap"
 

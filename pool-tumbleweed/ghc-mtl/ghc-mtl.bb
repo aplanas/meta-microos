@@ -4,16 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.2"
 
-RPM_NAME = "ghc-mtl-2.2.2-3.2.aarch64.rpm"
-RPM_HASH = "873ecedfe8803ec7f74fddfe34b5a789a8f3b204e9247350d282e5124a59f2b5c26039e8504c32697e19e1475569808bee666b5609a42e8faf7886b790a4957a"
+RPM_NAME = "ghc-mtl-2.2.2-1.1.aarch64.rpm"
+RPM_HASH = "9ddb7bf327f7a2d5525e3cfd3424d32d5d4e9e2f5f2e881b0157d1cc5b293ebe3027a8568bfd6f888a7c2467fc2d7c6c66efabcb71e8b8247e31120970cb0496"
 
 RPROVIDES:${PN} += "ghc-mtl \
-libHSmtl-2.2.2-ghc9.4.5.so"
+libHSmtl-2.2.2-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
-libHStransformers-0.5.6.2-ghc9.4.5.so \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
+libHStransformers-0.5.6.2-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

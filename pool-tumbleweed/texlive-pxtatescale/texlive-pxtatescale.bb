@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.4svn63967"
 
-RPM_NAME = "texlive-pxtatescale-2023.209.0.0.4svn63967-54.1.noarch.rpm"
-RPM_HASH = "7018f62088d2225048d9b12c06d9522008d3a5bb096412440f998b0f1b7a9be2d8a680a07cd9a232238058d4d3872e9da9641c23d5454af7be3c720cf34dcb24"
+RPM_NAME = "texlive-pxtatescale-2023.209.0.0.4svn63967-54.2.noarch.rpm"
+RPM_HASH = "7ecb10ceb9e582c414497912fb79672017c1e6118cf4785bb09fe1cebc58ad89c31edd83ee1f31fcf681dbfd41b28b57facee396f3a401425ec6fc7b978882a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pxtatescale.sty \

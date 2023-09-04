@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.2asvn28770"
 
-RPM_NAME = "texlive-xpicture-2023.209.1.2asvn28770-53.1.noarch.rpm"
-RPM_HASH = "59b02f64a1e83cba6c89f92d14eec8ea5d858f1d5bf9ee5eaac404c3cb3c41b84fdf4cf56e2b2e6a9fb0a38a040cef8d6491aa6a6c635febcb0baa11bf72aa84"
+RPM_NAME = "texlive-xpicture-2023.209.1.2asvn28770-53.2.noarch.rpm"
+RPM_HASH = "2d3ca902dd59e382bb0d3f1754211040ddab6ee7904a5629ac2de3054db52d2b9434aa4dd4ae64c63206307d9b9524bd599004366af4be411cb26c2348a5b42f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xpicture.sty \

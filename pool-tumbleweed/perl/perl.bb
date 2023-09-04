@@ -11,15 +11,14 @@ Some of the modules available on CPAN can be found in the 'perl' \
 series."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "5.36.1"
+PV = "5.38.0"
 
-RPM_NAME = "perl-5.36.1-1.3.aarch64.rpm"
-RPM_HASH = "d6c646195a1c28d2156e8e01e04beea1e7ee79765dc0b27af529172f475d394fb96c91fbfea9af638be4a8608a0206b0475639fd87863d423bc3aa070a073b0a"
+RPM_NAME = "perl-5.38.0-1.1.aarch64.rpm"
+RPM_HASH = "67d92240b72346972dcc464f80713eb57d74ef035612f372fc197329765175f44527a8050e333ae34362b502893a986a58e6162ce523e9978f219873783385c1"
 
 RPROVIDES:${PN} += "libperl.so \
 perl \
-perl--MODULE-COMPAT-5.36.0 \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl--charnames \
 perl-500 \
 perl-AnyDBM-File \
@@ -302,8 +301,6 @@ perl-Math--Trig \
 perl-Memoize \
 perl-Memoize--AnyDBM-File \
 perl-Memoize--Expire \
-perl-Memoize--ExpireFile \
-perl-Memoize--ExpireTest \
 perl-Memoize--NDBM-File \
 perl-Memoize--SDBM-File \
 perl-Memoize--Storable \
@@ -623,6 +620,7 @@ perl-overload--numbers \
 perl-perlfaq \
 perl-sigtrap \
 perl-sort \
+perl-stable \
 perl-subs \
 perl-threads \
 perl-threads--shared \

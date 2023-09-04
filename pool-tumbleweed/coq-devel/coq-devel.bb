@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "8.17.1"
 
-RPM_NAME = "coq-devel-8.17.1-1.1.aarch64.rpm"
-RPM_HASH = "44c07358676ae501abe2a92725cd02832e2ec7dbd979655025555dee1f3f438e6b155f8ce0cca50d4032f7dbe8c73601c4aa475e7ec1aa0eb353f30c8c3807e6"
+RPM_NAME = "coq-devel-8.17.1-1.2.aarch64.rpm"
+RPM_HASH = "faf5cdca54273cee3f044482971b180655f17bf1ff86bc718a05d3d4a7d86b49ed654bf59e83928f7dd77843fa97acab456d0dac12c144c117d46aa099f499b8"
 
 RPROVIDES:${PN} += "coq-devel \
 ocaml-Abbreviation \

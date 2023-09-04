@@ -13,15 +13,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.034"
 
-RPM_NAME = "perl-Crypt-JWT-0.034-1.9.noarch.rpm"
-RPM_HASH = "c1f333dfb77435364419939c071e8c5b36b9cefd8931640c49d1ce3cd586a34df6795232465e691663d1b715d282b164074e335de7516710b328bc9c6222d997"
+RPM_NAME = "perl-Crypt-JWT-0.034-1.10.noarch.rpm"
+RPM_HASH = "2d2550b169f5cd83147e786c0a623eabb16755fed3090be7be135738ce33935d482fddba2cf898e6905fa7c8245868a94871da464adb455bfac5b0d23b5bfb72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Crypt--JWT \
 perl-Crypt--KeyWrap \
 perl-Crypt-JWT"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Compress--Raw--Zlib \
 perl-CryptX \
 perl-JSON"

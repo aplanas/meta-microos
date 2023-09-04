@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.5esvn46393"
 
-RPM_NAME = "texlive-pstool-doc-2023.209.1.5esvn46393-54.1.noarch.rpm"
-RPM_HASH = "8b4d1f47a3489b2ae3b4d470a143bfec987322dc88bd8d2cffd614e310e13c6321b4421e0ef7b4dd76d534786c879118b4e360b600c481df536aacc3d76decc5"
+RPM_NAME = "texlive-pstool-doc-2023.209.1.5esvn46393-54.2.noarch.rpm"
+RPM_HASH = "0310c12d6e044cdf83b8eeb1d2541f6b5c91568c0cf8dcbdbadb2a995314e4dd4392e0be60ef5a11d590998589cc9d763faeef6e8758952612894cfa262bb343"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pstool-doc"

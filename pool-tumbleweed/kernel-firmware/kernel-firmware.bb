@@ -4,10 +4,10 @@ drivers.  This package is provided only for compatibility with older kernels \
 that do not support the compressed format."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230724"
+PV = "20230814"
 
-RPM_NAME = "kernel-firmware-20230724-1.1.noarch.rpm"
-RPM_HASH = "672eba312994b9cd49f93445abe6c381a4f32e56611a52b4e8134c68a1e79d8087e905ba8471833651770e7782499c89d197df6438ac7e5d7aa8addc6cba3794"
+RPM_NAME = "kernel-firmware-20230814-1.1.noarch.rpm"
+RPM_HASH = "7c650ee34ebeb3237a9a2f8fbac1267e65b7c093688fc36cf6509d417680ac95598071ae648709e04f046a68129a8a60744d7fdb6e599d78f180214ee04290ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "3-model-a-plus.txt) \
@@ -949,6 +949,27 @@ firmware-carl9170-1.fw \
 firmware-cavium/cnn55xx-ae.fw \
 firmware-cavium/cnn55xx-se.fw \
 firmware-cbfw-3.2.5.1.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10280cbd-spkid0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10280cbd-spkid1.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10280cbd.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10280cbe-spkid0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10280cbe-spkid1.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10280cbe.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10280cbf-spkid0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10280cbf-spkid1.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10280cbf.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10280cc1-spkid0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10280cc1-spkid1.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10280cc1.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10280cc2-spkid0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10280cc2-spkid1.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10280cc2.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10280cc3-spkid0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10280cc3-spkid1.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10280cc3.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10280cc4-spkid0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10280cc4-spkid1.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-10280cc4.wmfw \
 firmware-cirrus/cs35l41-dsp1-spk-cali-103c896e-l0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-103c896e-r0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-103c896e.wmfw \
@@ -1020,6 +1041,20 @@ firmware-cirrus/cs35l41-dsp1-spk-cali-103c8b8f-r1.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-103c8b92.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-103c8c26.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-103c8c26.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-cali-103c8c46.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-103c8c46.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-cali-103c8c47.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-103c8c47.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-cali-103c8c48.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-103c8c48.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-cali-103c8c49.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-103c8c49.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-cali-103c8c70.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-103c8c70.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-cali-103c8c71.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-103c8c71.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-cali-103c8c72.bin \
+firmware-cirrus/cs35l41-dsp1-spk-cali-103c8c72.wmfw \
 firmware-cirrus/cs35l41-dsp1-spk-cali-104312af-spkid0-l0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-104312af-spkid0-r0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-104312af-spkid1-l0.bin \
@@ -1193,6 +1228,27 @@ firmware-cirrus/cs35l41-dsp1-spk-cali-17aa3847.wmfw \
 firmware-cirrus/cs35l41-dsp1-spk-cali-17aa3855-spkid0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-17aa3855-spkid1.bin \
 firmware-cirrus/cs35l41-dsp1-spk-cali-17aa3855.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10280cbd-spkid0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10280cbd-spkid1.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10280cbd.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10280cbe-spkid0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10280cbe-spkid1.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10280cbe.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10280cbf-spkid0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10280cbf-spkid1.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10280cbf.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10280cc1-spkid0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10280cc1-spkid1.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10280cc1.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10280cc2-spkid0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10280cc2-spkid1.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10280cc2.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10280cc3-spkid0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10280cc3-spkid1.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10280cc3.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10280cc4-spkid0.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10280cc4-spkid1.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-10280cc4.wmfw \
 firmware-cirrus/cs35l41-dsp1-spk-prot-103c896e-l0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-prot-103c896e-r0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-prot-103c896e.wmfw \
@@ -1266,6 +1322,20 @@ firmware-cirrus/cs35l41-dsp1-spk-prot-103c8b92.bin \
 firmware-cirrus/cs35l41-dsp1-spk-prot-103c8b92.wmfw \
 firmware-cirrus/cs35l41-dsp1-spk-prot-103c8c26.bin \
 firmware-cirrus/cs35l41-dsp1-spk-prot-103c8c26.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-prot-103c8c46.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-103c8c46.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-prot-103c8c47.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-103c8c47.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-prot-103c8c48.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-103c8c48.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-prot-103c8c49.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-103c8c49.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-prot-103c8c70.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-103c8c70.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-prot-103c8c71.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-103c8c71.wmfw \
+firmware-cirrus/cs35l41-dsp1-spk-prot-103c8c72.bin \
+firmware-cirrus/cs35l41-dsp1-spk-prot-103c8c72.wmfw \
 firmware-cirrus/cs35l41-dsp1-spk-prot-104312af-spkid0-l0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-prot-104312af-spkid0-r0.bin \
 firmware-cirrus/cs35l41-dsp1-spk-prot-104312af-spkid1-l0.bin \
@@ -1450,6 +1520,7 @@ firmware-cirrus/cs35l41/v6.47.0/halo-cspl-RAM-revB2-29.49.0.wmfw \
 firmware-cirrus/cs35l41/v6.61.1/halo-cspl-RAM-revB2-29.63.1.wmfw \
 firmware-cirrus/cs35l41/v6.63.0/halo-cspl-RAM-revB2-29.65.0.wmfw \
 firmware-cirrus/cs35l41/v6.78.0/halo-cspl-RAM-revB2-29.80.0.wmfw \
+firmware-cirrus/cs35l41/v6.83.0/halo-cspl-RAM-revB2-29.85.0.wmfw \
 firmware-cis/3CCFEM556.cis \
 firmware-cis/3CXEM556.cis \
 firmware-cis/COMpad2.cis \
@@ -1494,15 +1565,15 @@ firmware-cxgb4/configs/t6-config-hashfilter.txt \
 firmware-cxgb4/t4-config.txt \
 firmware-cxgb4/t4fw-1.14.4.0.bin \
 firmware-cxgb4/t4fw-1.15.37.0.bin \
-firmware-cxgb4/t4fw-1.27.3.0.bin \
+firmware-cxgb4/t4fw-1.27.4.0.bin \
 firmware-cxgb4/t4fw.bin \
 firmware-cxgb4/t5-config.txt \
 firmware-cxgb4/t5fw-1.14.4.0.bin \
 firmware-cxgb4/t5fw-1.15.37.0.bin \
-firmware-cxgb4/t5fw-1.27.3.0.bin \
+firmware-cxgb4/t5fw-1.27.4.0.bin \
 firmware-cxgb4/t5fw.bin \
 firmware-cxgb4/t6-config.txt \
-firmware-cxgb4/t6fw-1.27.3.0.bin \
+firmware-cxgb4/t6fw-1.27.4.0.bin \
 firmware-cxgb4/t6fw.bin \
 firmware-cypress/cyfmac43012-sdio.bin \
 firmware-cypress/cyfmac43012-sdio.clm-blob \
@@ -1824,6 +1895,7 @@ firmware-intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq \
 firmware-intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq \
 firmware-intel/ibt-hw-37.8.bseq \
 firmware-intel/ice/ddp-comms/ice-comms-1.3.40.0.pkg \
+firmware-intel/ice/ddp-lag/ice-lag-1.3.1.0.pkg \
 firmware-intel/ice/ddp-wireless-edge/ice-wireless-edge-1.3.10.0.pkg \
 firmware-intel/ice/ddp/ice-1.3.30.0.pkg \
 firmware-intel/ice/ddp/ice.pkg \
@@ -2096,6 +2168,7 @@ firmware-mellanox/mlxsw-spectrum-13.2010.1406.mfa2 \
 firmware-mellanox/mlxsw-spectrum-13.2010.1502.mfa2 \
 firmware-mellanox/mlxsw-spectrum-13.2010.3020.mfa2 \
 firmware-mellanox/mlxsw-spectrum-13.2010.3146.mfa2 \
+firmware-mellanox/mlxsw-spectrum-13.2012.1012.mfa2 \
 firmware-mellanox/mlxsw-spectrum2-29.2000.2308.mfa2 \
 firmware-mellanox/mlxsw-spectrum2-29.2000.2714.mfa2 \
 firmware-mellanox/mlxsw-spectrum2-29.2007.1168.mfa2 \
@@ -2114,6 +2187,7 @@ firmware-mellanox/mlxsw-spectrum2-29.2010.1406.mfa2 \
 firmware-mellanox/mlxsw-spectrum2-29.2010.1502.mfa2 \
 firmware-mellanox/mlxsw-spectrum2-29.2010.3020.mfa2 \
 firmware-mellanox/mlxsw-spectrum2-29.2010.3146.mfa2 \
+firmware-mellanox/mlxsw-spectrum2-29.2012.1012.mfa2 \
 firmware-mellanox/mlxsw-spectrum3-30.2007.1168.mfa2 \
 firmware-mellanox/mlxsw-spectrum3-30.2008.1036.mfa2 \
 firmware-mellanox/mlxsw-spectrum3-30.2008.1310.mfa2 \
@@ -2130,6 +2204,8 @@ firmware-mellanox/mlxsw-spectrum3-30.2010.1406.mfa2 \
 firmware-mellanox/mlxsw-spectrum3-30.2010.1502.mfa2 \
 firmware-mellanox/mlxsw-spectrum3-30.2010.3020.mfa2 \
 firmware-mellanox/mlxsw-spectrum3-30.2010.3146.mfa2 \
+firmware-mellanox/mlxsw-spectrum3-30.2012.1012.mfa2 \
+firmware-mellanox/mlxsw-spectrum4-34.2012.1012.mfa2 \
 firmware-meson/vdec/g12a-h264.bin \
 firmware-meson/vdec/g12a-hevc-mmu.bin \
 firmware-meson/vdec/g12a-vp9.bin \
@@ -2836,6 +2912,9 @@ firmware-qcom/sc8280xp/LENOVO/21BX/qcadsp8280.mbn \
 firmware-qcom/sc8280xp/LENOVO/21BX/qccdsp8280.mbn \
 firmware-qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn \
 firmware-qcom/sc8280xp/LENOVO/21BX/qcslpi8280.mbn \
+firmware-qcom/sdm845/Thundercomm/db845c/slpi.mbn \
+firmware-qcom/sdm845/Thundercomm/db845c/slpir.jsn \
+firmware-qcom/sdm845/Thundercomm/db845c/slpius.jsn \
 firmware-qcom/sdm845/a630-zap.mbn \
 firmware-qcom/sdm845/adsp.mbn \
 firmware-qcom/sdm845/adspr.jsn \
@@ -3203,6 +3282,7 @@ firmware-rtl-bt/rtl8852au-fw.bin \
 firmware-rtl-bt/rtl8852bu-config.bin \
 firmware-rtl-bt/rtl8852bu-fw.bin \
 firmware-rtl-bt/rtl8852cu-config.bin \
+firmware-rtl-bt/rtl8852cu-fw-v2.bin \
 firmware-rtl-bt/rtl8852cu-fw.bin \
 firmware-rtl-nic/rtl8105e-1.fw \
 firmware-rtl-nic/rtl8106e-1.fw \

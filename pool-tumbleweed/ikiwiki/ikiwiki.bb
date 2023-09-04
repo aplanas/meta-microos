@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & BSD-2-Clause"
 
 PV = "3.20200202.3"
 
-RPM_NAME = "ikiwiki-3.20200202.3-2.14.noarch.rpm"
-RPM_HASH = "5a32b30d1bb92b069b716b0baa0f0b126dd8c82cdfd58473b304de9573085048250d74a37e583606522b0d964e309bcda1af79b7bb1b014ac47746b2df5589e5"
+RPM_NAME = "ikiwiki-3.20200202.3-2.15.noarch.rpm"
+RPM_HASH = "b3b77daca5aefb958265a0db3e453e6eb1211e3b6d3299f20fdb13675ba98f76fbcdf8fc7af5647136c7d12aa14daff087b4e4d0d29d6238c21973be563bde1a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-ikiwiki \
@@ -149,7 +149,7 @@ perl-IkiWiki--SuccessReason"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/sh \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Authen--Passphrase \
 perl-CGI \
 perl-CGI--FormBuilder \

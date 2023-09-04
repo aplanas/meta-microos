@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.12.0"
 
-RPM_NAME = "libspdlog1_12-1.12.0-1.1.aarch64.rpm"
-RPM_HASH = "aa43d758ff3c0fd85fbcad161debbeffd53381114f887015b7f31136eb5e436819a393d54bcce5da1d0c4bc272c5dc7d5a983e1190b4af51a4e5c72bf8e55225"
+RPM_NAME = "libspdlog1_12-1.12.0-2.1.aarch64.rpm"
+RPM_HASH = "a764d994f617f73375316da36c5ead711ceefb9ce6edd5c86ffa54b396c63e122ed6d735a476d10e792b2a47b9191d42d4717d5950f6b2e557debf25ebeed12c"
 
 RPROVIDES:${PN} += "libspdlog.so.1.12 \
 libspdlog1-12"

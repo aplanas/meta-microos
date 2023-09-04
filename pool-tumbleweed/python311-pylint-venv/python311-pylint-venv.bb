@@ -2,10 +2,10 @@ SUMMARY = "Use the same Pylint installation with different virtual environments"
 DESCRIPTION = "pylint-venv provides a Pylint init-hook to use the same Pylint installation with different virtual environments."
 LICENSE = "MIT"
 
-PV = "2.3.0"
+PV = "3.0.2"
 
-RPM_NAME = "python311-pylint-venv-2.3.0-1.5.noarch.rpm"
-RPM_HASH = "53b2ab63af1d098763c489a52b772b4d92d6c13bb76e0c31413b8a0e700b1a939e0356c91df5cc9d5a576805470c55427bb5caf65a4cee18afd7cc74e480bc0d"
+RPM_NAME = "python311-pylint-venv-3.0.2-1.1.noarch.rpm"
+RPM_HASH = "140097d7adc4892a3ca46d3f101a28bebf40d07d144e4b17ae32f71d6dda6b2c309417b20ad5be885a4141385807d7a3940b1213aab8e7031e8935b87e30b4a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pylint-venv \

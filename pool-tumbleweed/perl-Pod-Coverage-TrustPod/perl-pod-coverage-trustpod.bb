@@ -59,14 +59,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.100006"
 
-RPM_NAME = "perl-Pod-Coverage-TrustPod-0.100006-1.3.noarch.rpm"
-RPM_HASH = "b4069191a8d36b52b92a00b425ec03fbba80ee9602cb5b924d48f6ca288c2a11c4c5e40177b43d8880d83f9ed2ee8e673533ef90c085f06ac8f6b4a8039a0013"
+RPM_NAME = "perl-Pod-Coverage-TrustPod-0.100006-1.4.noarch.rpm"
+RPM_HASH = "a6b0aeb258a5c693abfe98fe06482b2ba2f3fe89416eec793744555c68cad0a5e0fbdde55437ea07a6b084cf5df813f4628454975bf7eff9913d6889433a9e8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Pod--Coverage--TrustPod \
 perl-Pod-Coverage-TrustPod"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Pod--Coverage--CountParents \
 perl-Pod--Eventual--Simple \
 perl-Pod--Find"

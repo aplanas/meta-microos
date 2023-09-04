@@ -40,8 +40,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.083"
 
-RPM_NAME = "perl-IO-Socket-SSL-2.083-1.2.noarch.rpm"
-RPM_HASH = "03dd18e2a70f08037dc9f19df0cd0d56b163032a9e9bc559569150d246b6b15abef3d2b3b6b1cd1eb7e661c3f6bee5cbb542eb5133ae70cc7eddea63ea289882"
+RPM_NAME = "perl-IO-Socket-SSL-2.083-1.3.noarch.rpm"
+RPM_HASH = "1901409cfde91067c7b4afe8a890d3db1c669dc6b0ca778f20f1e982ce9b2c5451dae7d7104a97affc92ec2eafece6fe32b84a6192ca0a0d571014764f634731"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--Socket--SSL \
@@ -56,7 +56,7 @@ perl-IO--Socket--SSL--Trace \
 perl-IO--Socket--SSL--Utils \
 perl-IO-Socket-SSL"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Net--SSLeay"
 
 inherit rpm

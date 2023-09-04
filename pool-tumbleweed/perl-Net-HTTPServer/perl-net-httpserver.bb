@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.0+"
 
 PV = "1.1.1"
 
-RPM_NAME = "perl-Net-HTTPServer-1.1.1-27.27.noarch.rpm"
-RPM_HASH = "781f061d987d2e43aaec33abaf04fcdeff7e6f024c0c39ff5787f2ee716a43e01dec3167a3765b907a97d40020afd9be45fdd6bd83cadcb8af7ed98ed7efb9ba"
+RPM_NAME = "perl-Net-HTTPServer-1.1.1-27.28.noarch.rpm"
+RPM_HASH = "1c107663fb64100b4d9a992330076f9d58f914a5b789b5f4a798ecf451c2d9779e2ba79215855b53f426a1f10d0a59f67677d03d2da449ae8ed010eadc9e4244"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--HTTPServer \
@@ -17,7 +17,7 @@ perl-Net--HTTPServer--Response \
 perl-Net--HTTPServer--Session \
 perl-Net-HTTPServer"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-URI"
 
 inherit rpm

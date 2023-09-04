@@ -6,10 +6,10 @@ setup. It supports pam_mount style plain EHD2/OpenSSL images and LUKS \
 and transparent use of the OS's crypto layer."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.19"
+PV = "2.20"
 
-RPM_NAME = "libcryptmount-devel-2.19-2.4.aarch64.rpm"
-RPM_HASH = "882488844679300f7e26f84668f8ee957214a8135100227d2cadbd20a4c3a7495265ca7318bb498eef938da9cbb1c0ca71f5256b5690b10074324c6a3d3b2f52"
+RPM_NAME = "libcryptmount-devel-2.20-1.1.aarch64.rpm"
+RPM_HASH = "98eaf391a6226fb3be541881de06d260287b636cb9c49d6a739b5a6deb76b2db0c522e4aed1ab32598314d64930caca6434a9e97a7a811c6f34997ddab609ae7"
 
 RPROVIDES:${PN} += "libcryptmount-devel \
 pkgconfig-libcryptmount"

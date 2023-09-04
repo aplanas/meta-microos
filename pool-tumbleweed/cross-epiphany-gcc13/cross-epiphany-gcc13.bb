@@ -2,10 +2,10 @@ SUMMARY = "The GNU Compiler Collection targeting epiphany"
 DESCRIPTION = "The GNU Compiler Collection as a cross-compiler targeting epiphany."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7597"
+PV = "13.2.1+git7683"
 
-RPM_NAME = "cross-epiphany-gcc13-13.1.1+git7597-1.1.aarch64.rpm"
-RPM_HASH = "8d1be21fd30eef6f5cd6015c519790fbb5587a63ac49d9bf77f8fe37a3c64ce53670944da879dedc9c44d8eb97d496f2c1c5d691b0824b47d2f8b708d7bae81e"
+RPM_NAME = "cross-epiphany-gcc13-13.2.1+git7683-1.1.aarch64.rpm"
+RPM_HASH = "9a37f66e0100073b5bbc0ff2879fb4cb8fa21b32afbbc6581a7421b0154b6267f99907975ac418ed16deaaffbcb9c797384c674a4807e169135ce19d069d10e6"
 
 RPROVIDES:${PN} += "cross-epiphany-gcc13 \
 epiphany-elf-gcc"

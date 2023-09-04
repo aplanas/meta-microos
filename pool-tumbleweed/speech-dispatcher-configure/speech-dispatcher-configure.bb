@@ -12,10 +12,10 @@ This package contains spd-conf, a configuration tool for Speech \
 Dispatcher."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.11.4"
+PV = "0.11.5"
 
-RPM_NAME = "speech-dispatcher-configure-0.11.4-2.1.aarch64.rpm"
-RPM_HASH = "fc973b95187d993b2e963feb866af39b43b0d49a59e71ade6000c25ea92c9fa644f7e4120da193ffb9922c0cfbe5b57364bf1ed137c390b9bbc9c453cfae55ee"
+RPM_NAME = "speech-dispatcher-configure-0.11.5-1.1.aarch64.rpm"
+RPM_HASH = "5d744c947b88b232eb1cb7c17954f75a50747c433750f66b6ac5e6fa6eff32c8721237cfa07cc329744c1b093ac6b8f86959046ad263fe4e77688f13a47fdcb2"
 
 RPROVIDES:${PN} += "speech-dispatcher-configure"
 

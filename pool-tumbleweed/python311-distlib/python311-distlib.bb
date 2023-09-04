@@ -2,10 +2,10 @@ SUMMARY = "Distribution utilities"
 DESCRIPTION = "Python distribution utilities."
 LICENSE = "Python-2.0"
 
-PV = "0.3.6"
+PV = "0.3.7"
 
-RPM_NAME = "python311-distlib-0.3.6-2.3.noarch.rpm"
-RPM_HASH = "b635036cbd249e6a92e3f8ef1d7e1740249220cdfcc2675415296fe494a1be27e47610b300a36eb1961a132f6034f44a7d31ba9e21f795b27034dea00dfa8019"
+RPM_NAME = "python311-distlib-0.3.7-1.1.noarch.rpm"
+RPM_HASH = "1a82db02bb6d4988fb087d367119a20c88fb4463aa21b90fee003067fedc166775af512028c8f394052fe4a5d23d763d05b8228a5f039e7752c7e1c2615b0e8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-distlib \

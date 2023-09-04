@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.2"
 
-RPM_NAME = "ghc-Decimal-doc-0.5.2-2.2.noarch.rpm"
-RPM_HASH = "f6d51a59a34881f2e61567280cf582a5e2f9928fb216d4b075ce7385b39c7709762a41c5ac1f7404be13b32e398e76a1cf114d25e549a0bd66b55f7ab2ac4cc2"
+RPM_NAME = "ghc-Decimal-doc-0.5.2-2.3.noarch.rpm"
+RPM_HASH = "34a03a6a951cf9cdb09ae24b821e0f1a8863f149bf10813aefc50894fd69b3256c48872c0e751e071c96e51e161b08fbb65e32bb6c76ce2bdf52dbb396124eeb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-Decimal-doc"

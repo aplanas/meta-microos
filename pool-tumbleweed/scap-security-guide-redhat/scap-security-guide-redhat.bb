@@ -9,10 +9,10 @@ files to run a compliance test on various Redhat products, CentOS, Oracle Linux,
 Note that the included profiles are community supplied and not officially supported by SUSE.."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.1.68"
+PV = "0.1.69"
 
-RPM_NAME = "scap-security-guide-redhat-0.1.68-2.1.noarch.rpm"
-RPM_HASH = "4dee5e575a00fc661f082c4c7c1be6e6afc1432a14f1e6a07d30e44107273c523be68ef901481163cd441abd1a7a642cf6c1bd9614fc3b005de9899ab1b60a0b"
+RPM_NAME = "scap-security-guide-redhat-0.1.69-1.1.noarch.rpm"
+RPM_HASH = "10f04cf34bcd907451ded3c5577477dd7ad472d3e944e1a57874dba697cd2db5c2cf449e89c8509cedd9a622bf4744776b2bb8840d6d8b6dbe4f587d763c4d6f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "scap-security-guide-redhat"

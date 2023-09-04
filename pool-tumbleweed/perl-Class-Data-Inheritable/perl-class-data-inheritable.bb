@@ -49,13 +49,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.09"
 
-RPM_NAME = "perl-Class-Data-Inheritable-0.09-1.10.noarch.rpm"
-RPM_HASH = "f22d66d72045a0ffb7a4b390b68d36ecc1a8f1cfaff589a73757eb538a887149fc47bb0468e138ba155300d2a4b46a647f01956b7dc1dd90aa5c28b49e77e7c2"
+RPM_NAME = "perl-Class-Data-Inheritable-0.09-1.11.noarch.rpm"
+RPM_HASH = "210497fdd718351cfb2ad0db7aa0db7f11d9bd58e592b2c4a82ed7c0be0b08499a86065efbc952e0e1850f9a47ec409f39661308eab750b64e872f0a7cdeca4f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Data--Inheritable \
 perl-Class-Data-Inheritable"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

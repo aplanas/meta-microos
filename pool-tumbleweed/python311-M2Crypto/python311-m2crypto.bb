@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "0.39.0"
 
-RPM_NAME = "python311-M2Crypto-0.39.0-1.1.aarch64.rpm"
-RPM_HASH = "423a513fdd0baa9b1c1fe6c425f9264fe8e633feb2da7a3f45c38842797369d28fe83ca7c4517d7f326f3ca2065ff113fa7ad43c30f4d476407e111091258b7f"
+RPM_NAME = "python311-M2Crypto-0.39.0-2.1.aarch64.rpm"
+RPM_HASH = "4f77dedbccedcfb68fc53e7643b6cda48661a93c62943bd2516a6bb3e47ebdd4fe8c1aab4696b87deb4101f24d2f1670a7f7b6a5375a6fd31edf9c0c6aad40f8"
 
 RPROVIDES:${PN} += "python3-M2Crypto \
 python3.11dist-m2crypto \

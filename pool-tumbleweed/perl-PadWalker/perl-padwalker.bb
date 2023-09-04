@@ -13,13 +13,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.5"
 
-RPM_NAME = "perl-PadWalker-2.5-1.16.aarch64.rpm"
-RPM_HASH = "f0c17b25c7e039b14c37d63d54a882a3532a95a944de63915ddc7ec36f82b35ee2a6f4b8aed728d526e98b17ea0fdae34f3749ebfa6d3087b4643f71e2121f1e"
+RPM_NAME = "perl-PadWalker-2.5-1.17.aarch64.rpm"
+RPM_HASH = "35f2bf534387d28d16f71a6397d5c8fd93d54aaf5df3cb927bfc092fa616bda5b51d60e20d5a4484b8c0d0c5b731980825ad040a7dea85a6fef154ddc22a620d"
 
 RPROVIDES:${PN} += "perl-PadWalker"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

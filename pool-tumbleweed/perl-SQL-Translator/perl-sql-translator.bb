@@ -18,8 +18,8 @@ LICENSE = "(Artistic-1.0 | GPL-1.0-or-later) & GPL-2.0-only"
 
 PV = "1.63"
 
-RPM_NAME = "perl-SQL-Translator-1.63-1.2.noarch.rpm"
-RPM_HASH = "5e21fee7664db4941c43ea96c35bbb12b0f35dac06f733a9a57a3e444888b074ff556b4e1eeacad4bf7e962d9ae515345bbbeec221e5eac81f3b77ae52944b66"
+RPM_NAME = "perl-SQL-Translator-1.63-1.3.noarch.rpm"
+RPM_HASH = "f718700b78deaac8ff6412e86b81e401a79aa26bed5470191d2f198044cca1c367172002cffe734858dfa448c1e9a9aaa2d46ac8ca88826d0347db5f984e1031"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Parse--RecDescent--SQL--Translator--Parser--DB2--Grammar \
@@ -106,7 +106,7 @@ perl-SQL-Translator \
 perl-Test--SQL--Translator"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Carp--Clan \
 perl-DBI \
 perl-Digest--SHA \

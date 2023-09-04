@@ -8,8 +8,8 @@ LICENSE = "GFDL-1.1-or-later & LGPL-3.0-or-later & GFDL-1.3-or-later"
 
 PV = "20230318"
 
-RPM_NAME = "libesedb-devel-20230318-1.6.aarch64.rpm"
-RPM_HASH = "cfc505047b71ac4905168c23242d5687469de9af670583d78679401cb0f221168bc93a2165c7ca2669d0ddba2c907417df4b600dd77eef00a84bd0b4f00d6f02"
+RPM_NAME = "libesedb-devel-20230318-2.1.aarch64.rpm"
+RPM_HASH = "1277d7906ea4ba2b91ece8019ba6dc59a9762e13ae7f871589d4275bc975c6474901c632d94eec549dd995d7ffa6abc2ce07c2e2a4130b6ad057e3a377cb6000"
 
 RPROVIDES:${PN} += "libesedb-devel \
 pkgconfig-libesedb"

@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.57"
 
-RPM_NAME = "apache2-manual-2.4.57-1.1.noarch.rpm"
-RPM_HASH = "eefc862ed6ed1ddf65429938cd6180d16915781f909d12153182e36d587a3f018b74304d65471b057feb5d542de3a5e49dd65c29b16ca469ba365748671d1f43"
+RPM_NAME = "apache2-manual-2.4.57-2.1.noarch.rpm"
+RPM_HASH = "b91b8017fe16e0367280d8743ebee86580d4872ae43d726bdf22ec252f5184730addadc22d19347f5b0e51cb3a98f1e9a02647805bfef311baa9ec8a9d786e94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache2-doc \

@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.1asvn15878"
 
-RPM_NAME = "texlive-ecltree-2023.209.1.1asvn15878-54.1.noarch.rpm"
-RPM_HASH = "8089d6b941094b154e031f14aa6c3b6199edf09a5dfa505fa409c1a8f0b4244abde890a9de2fe495ffaccbd5d1d51ca30586150a287e4932df95d6b352ae94fd"
+RPM_NAME = "texlive-ecltree-2023.209.1.1asvn15878-54.2.noarch.rpm"
+RPM_HASH = "8e22e5b8d6dd504615fcbf04c454775ea20107644bfccccb352c9e2a507a9ad8cb7b0d52b1409f9723d572465051d146a2379e511938b999536aa59ef3cb1bf4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ecltree.sty \

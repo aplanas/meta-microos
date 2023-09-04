@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-eijkhout-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "31df6518861840869582943c89facc8e7adc363c8200524ade03231cd7850d9ed8b953b3f4790ece15d3c737510260c1b93d9f65cba28e2043639e08aee145aa"
+RPM_NAME = "texlive-eijkhout-2023.209.svn15878-54.2.noarch.rpm"
+RPM_HASH = "e779b35b092fd6460f35632d0c7f3bbd6cad3e4988800d216783f5103867a7df2ac3e6acee4ad09f7991f31efeb2c27d80b1ff5cbb32dabdbdac11ec0717a8e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-CD-labeler-test.tex \

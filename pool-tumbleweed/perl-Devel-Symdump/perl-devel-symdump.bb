@@ -4,15 +4,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "2.18"
 
-RPM_NAME = "perl-Devel-Symdump-2.18-1.24.noarch.rpm"
-RPM_HASH = "abc6f6b550c9d1373252db5ff8506e30d6a6e10dbc978b3428d58ae196b31e857c2f2cc8cd98f414577af83bd49f3699c0b75b751745eabf140c594c3beda039"
+RPM_NAME = "perl-Devel-Symdump-2.18-1.25.noarch.rpm"
+RPM_HASH = "139bada861c503691f93aae44f6b475475ae2a31c6ea616c6a3d5d734e4c1ba5851e5a9b372a26ba2f46e285dabc795f6cb1d4936b7595ace0aaeea4bbd8a622"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--Symdump \
 perl-Devel--Symdump--Export \
 perl-Devel-Symdump"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Compress--Zlib"
 
 inherit rpm

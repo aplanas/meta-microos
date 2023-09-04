@@ -2,44 +2,54 @@ SUMMARY = "CLI command organizer"
 DESCRIPTION = "Command organizer tool to hoard all your precious commands."
 LICENSE = "MIT"
 
-PV = "1.3.1~0"
+PV = "v.1.4.2~0"
 
-RPM_NAME = "hoard-1.3.1~0-1.4.aarch64.rpm"
-RPM_HASH = "de04425baa9d293615504b16de80035246e50f9a9b88cb7d1b40086fccb21d83f69c810abbae9eabaa2a9f48b06bde6c9a308122a814f2f1771f39c16c845bbe"
+RPM_NAME = "hoard-v.1.4.2~0-1.1.aarch64.rpm"
+RPM_HASH = "9da07535c0af0671d8c781929b4e5e854fc3cc5bc55581914067a967ce3b8be976b95e8918f980baa9556d5301e502ed334bdaedf54918cf7057544ed6c446dd"
 
-RPROVIDES:${PN} += "bundled-rust-crate-anyhow \
+RPROVIDES:${PN} += "bundled-rust-crate-adler \
+bundled-rust-crate-anstream \
+bundled-rust-crate-anstyle \
+bundled-rust-crate-anstyle-parse \
+bundled-rust-crate-anstyle-query \
+bundled-rust-crate-anyhow \
 bundled-rust-crate-array-tool \
-bundled-rust-crate-atty \
 bundled-rust-crate-autocfg \
 bundled-rust-crate-base64 \
 bundled-rust-crate-bitflags \
-bundled-rust-crate-bstr \
 bundled-rust-crate-bytes \
 bundled-rust-crate-cassowary \
 bundled-rust-crate-cc \
 bundled-rust-crate-cfg-if \
+bundled-rust-crate-chatgpt-blocking-rs \
 bundled-rust-crate-chrono \
 bundled-rust-crate-clap \
+bundled-rust-crate-clap-builder \
 bundled-rust-crate-clap-derive \
 bundled-rust-crate-clap-lex \
+bundled-rust-crate-colorchoice \
 bundled-rust-crate-colored \
 bundled-rust-crate-console \
+bundled-rust-crate-crc32fast \
 bundled-rust-crate-crossbeam-channel \
 bundled-rust-crate-crossbeam-utils \
 bundled-rust-crate-crossterm \
 bundled-rust-crate-csv \
 bundled-rust-crate-csv-core \
+bundled-rust-crate-deranged \
 bundled-rust-crate-dialoguer \
 bundled-rust-crate-dirs \
 bundled-rust-crate-dirs-next \
 bundled-rust-crate-dirs-sys \
 bundled-rust-crate-dirs-sys-next \
+bundled-rust-crate-dotenv \
 bundled-rust-crate-encode-unicode \
 bundled-rust-crate-encoding-rs \
 bundled-rust-crate-enum-iterator \
 bundled-rust-crate-enum-iterator-derive \
 bundled-rust-crate-eyre \
 bundled-rust-crate-fastrand \
+bundled-rust-crate-flate2 \
 bundled-rust-crate-fnv \
 bundled-rust-crate-foreign-types \
 bundled-rust-crate-foreign-types-shared \
@@ -65,7 +75,7 @@ bundled-rust-crate-iana-time-zone \
 bundled-rust-crate-idna \
 bundled-rust-crate-indenter \
 bundled-rust-crate-indexmap \
-bundled-rust-crate-io-lifetimes \
+bundled-rust-crate-indoc \
 bundled-rust-crate-ipnet \
 bundled-rust-crate-is-terminal \
 bundled-rust-crate-itoa \
@@ -77,10 +87,10 @@ bundled-rust-crate-lock-api \
 bundled-rust-crate-log \
 bundled-rust-crate-memchr \
 bundled-rust-crate-mime \
+bundled-rust-crate-miniz-oxide \
 bundled-rust-crate-mio \
 bundled-rust-crate-native-tls \
 bundled-rust-crate-num-cpus \
-bundled-rust-crate-num-integer \
 bundled-rust-crate-num-threads \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-numtoa \
@@ -89,28 +99,29 @@ bundled-rust-crate-openssl \
 bundled-rust-crate-openssl-macros \
 bundled-rust-crate-openssl-probe \
 bundled-rust-crate-openssl-sys \
-bundled-rust-crate-os-str-bytes \
 bundled-rust-crate-parking-lot \
 bundled-rust-crate-parking-lot-core \
+bundled-rust-crate-paste \
 bundled-rust-crate-percent-encoding \
 bundled-rust-crate-pin-project-lite \
 bundled-rust-crate-pin-utils \
 bundled-rust-crate-pkg-config \
 bundled-rust-crate-ppv-lite86 \
 bundled-rust-crate-prettytable-rs \
-bundled-rust-crate-proc-macro-error \
-bundled-rust-crate-proc-macro-error-attr \
 bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-quote \
 bundled-rust-crate-rand \
 bundled-rust-crate-rand-chacha \
 bundled-rust-crate-rand-core \
-bundled-rust-crate-regex-automata \
-bundled-rust-crate-remove-dir-all \
+bundled-rust-crate-ratatui \
 bundled-rust-crate-reqwest \
+bundled-rust-crate-ring \
 bundled-rust-crate-rustix \
+bundled-rust-crate-rustls \
+bundled-rust-crate-rustls-webpki \
 bundled-rust-crate-ryu \
 bundled-rust-crate-scopeguard \
+bundled-rust-crate-sct \
 bundled-rust-crate-serde \
 bundled-rust-crate-serde-derive \
 bundled-rust-crate-serde-json \
@@ -124,11 +135,11 @@ bundled-rust-crate-simple-logger \
 bundled-rust-crate-slab \
 bundled-rust-crate-smallvec \
 bundled-rust-crate-socket2 \
+bundled-rust-crate-spin \
 bundled-rust-crate-strsim \
 bundled-rust-crate-syn \
 bundled-rust-crate-tempfile \
 bundled-rust-crate-term \
-bundled-rust-crate-termcolor \
 bundled-rust-crate-termion \
 bundled-rust-crate-thiserror \
 bundled-rust-crate-thiserror-impl \
@@ -145,22 +156,27 @@ bundled-rust-crate-tower-service \
 bundled-rust-crate-tracing \
 bundled-rust-crate-tracing-core \
 bundled-rust-crate-try-lock \
-bundled-rust-crate-tui \
 bundled-rust-crate-unicode-bidi \
 bundled-rust-crate-unicode-ident \
 bundled-rust-crate-unicode-normalization \
 bundled-rust-crate-unicode-segmentation \
 bundled-rust-crate-unicode-width \
+bundled-rust-crate-untrusted \
+bundled-rust-crate-ureq \
 bundled-rust-crate-url \
-bundled-rust-crate-version-check \
+bundled-rust-crate-utf8parse \
+bundled-rust-crate-vcpkg \
 bundled-rust-crate-want \
+bundled-rust-crate-webpki-roots \
 bundled-rust-crate-yaml-rust \
 bundled-rust-crate-zeroize \
 hoard"
 
-RDEPENDS:${PN} += "libc.so.6 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 libcrypto.so.3 \
 libgcc-s.so.1 \
+libm.so.6 \
 libssl.so.3"
 
 inherit rpm

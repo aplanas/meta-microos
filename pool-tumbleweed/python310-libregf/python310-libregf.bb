@@ -5,8 +5,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20230319"
 
-RPM_NAME = "python310-libregf-20230319-1.6.aarch64.rpm"
-RPM_HASH = "d5f7f6a86c8eb4e5b6bbc4f84b9803d8c5607069e0844e77d7a3e7eadc61964ddf81643e5a91712da6d0a90aef67e4bf21809fad087d7929856f686be8281b59"
+RPM_NAME = "python310-libregf-20230319-2.1.aarch64.rpm"
+RPM_HASH = "37323eddf987d4eb5bee69b2b6feaf484d9db9bbb5e3b33b10b7308a4792e7ef76c2d3511f3f65db08a987d20fc2582d8d56b583eec54d992b8fd61b230daefc"
 
 RPROVIDES:${PN} += "python310-libregf"
 

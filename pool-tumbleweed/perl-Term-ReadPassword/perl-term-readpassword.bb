@@ -15,12 +15,12 @@ LICENSE = "Artistic-1.0"
 
 PV = "0.11"
 
-RPM_NAME = "perl-Term-ReadPassword-0.11-69.30.aarch64.rpm"
-RPM_HASH = "c08a186d9bae5bd4f285dd8d4d8c4f3f5ee27afa059458ec0637fab152cc5cad97aee96f6785c1bb3b82cd794f07fcaffc5e17d29c0bfdef50978c1340147fd3"
+RPM_NAME = "perl-Term-ReadPassword-0.11-69.31.aarch64.rpm"
+RPM_HASH = "35576ecd162bcadbdf259a6fce4951448a681401298b8c8eedc176bedfc61c2d88def3ff7102a88c27e7c4fc02d4149b67000266c60d3b3879b5b9971384d6ca"
 
 RPROVIDES:${PN} += "perl-Term--ReadPassword \
 perl-Term-ReadPassword"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

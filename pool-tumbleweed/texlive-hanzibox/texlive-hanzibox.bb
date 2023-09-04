@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.2.3.0svn63062"
 
-RPM_NAME = "texlive-hanzibox-2023.209.2.3.0svn63062-54.1.noarch.rpm"
-RPM_HASH = "0c8ae6f08f7c6dc3f7bf011ec62f7c4bd004d257c702b07140a0eff017a190cd40ef823553eb8221bac82d9c5b0662ab99f27f4ea37e537b87164f477b23561e"
+RPM_NAME = "texlive-hanzibox-2023.209.2.3.0svn63062-54.2.noarch.rpm"
+RPM_HASH = "923866dbccb14bcad7f48e2270d61a2d23d10af483e98aa0badcb991fa26cf4194dad71ee8367a7c5917028283002e78c047673fc514599824b6f0dd5c369cd4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hanzibox.sty \

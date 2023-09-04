@@ -9,16 +9,16 @@ LICENSE = "MIT"
 
 PV = "1.0.3.1"
 
-RPM_NAME = "ghc-integer-logarithms-1.0.3.1-6.5.aarch64.rpm"
-RPM_HASH = "dd185b25cd4e3d94f141d20408c8a3c717b843975de86e601cce60706ac14245274cd18c3ac5c8ed20c7e55b7341121f125b70490e4b386afc1983b0f2f6728e"
+RPM_NAME = "ghc-integer-logarithms-1.0.3.1-6.6.aarch64.rpm"
+RPM_HASH = "13e9fca28394bec51071cf53390c511b41630bd435a32f43450c3b7aca221d09a997fb8c662c6073c44f4628dbe03f0c748b227d8235e7c2a8cb2507c2c18354"
 
 RPROVIDES:${PN} += "ghc-integer-logarithms \
-libHSinteger-logarithms-1.0.3.1-Hm9v2fsfG1DA5soPSLssZu-ghc9.4.5.so"
+libHSinteger-logarithms-1.0.3.1-8hVItVgdqFg1uL8b0gbVZO-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
-libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
+libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

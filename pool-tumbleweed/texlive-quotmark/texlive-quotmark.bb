@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-quotmark-2023.209.1.0svn15878-54.1.noarch.rpm"
-RPM_HASH = "8d1fcea99de4a5a0b7f46930dcb5cd4838b3e140eef4b4ec48ba0ddb296d894e0af8957310840eb16c0111dde280892d1f7824903e5986dec28d3ab6642a14d5"
+RPM_NAME = "texlive-quotmark-2023.209.1.0svn15878-54.2.noarch.rpm"
+RPM_HASH = "8edaddd9aa27179cabb2dc403f8e18602b4109ae400076a2990cfb6e2afdf3649143246cf4820fa8655423b0460e473e0c0adbfa9df36fd6b4d8de52183d4403"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-quotmark-UKenglish.def \

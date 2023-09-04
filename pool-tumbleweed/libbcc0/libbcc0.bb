@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.26.0"
 
-RPM_NAME = "libbcc0-0.26.0-2.11.aarch64.rpm"
-RPM_HASH = "61458cd8492c8bb14007419144c973097ad07df397c224538032014ac1a5338bdae3f33d43acdd65172c9584d5ddc82b3de22f69ad04478ea974f397e3d20311"
+RPM_NAME = "libbcc0-0.26.0-2.12.aarch64.rpm"
+RPM_HASH = "640c74fecd1c40fb50d438bddb98424abfe6d2696457dd36a6e630d2f89df3cb613a1c531290a1b1a398c9cfdf9d571aea5f4476d5bc4494e711ba17ab263645"
 
 RPROVIDES:${PN} += "libbcc-bpf.so.0 \
 libbcc.so.0 \

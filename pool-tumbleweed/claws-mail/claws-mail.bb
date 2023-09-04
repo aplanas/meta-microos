@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.1.1"
 
-RPM_NAME = "claws-mail-4.1.1-2.6.aarch64.rpm"
-RPM_HASH = "5d02b2400c9e4a9da12a6611314d9cc55cb009733b0f3f016d49702d544214519b2293ce441060806cb7c537d79fefc8fa1d16e39828a68af1270786baae539a"
+RPM_NAME = "claws-mail-4.1.1-2.7.aarch64.rpm"
+RPM_HASH = "82b8a7f1fc8220c79972891307629aaeac534094e85e74bdb05209eea2c0e8635b910946c80f3b4afab7796afb8fb1f3a95c941e98390f0cd893ee0d8518268e"
 
 RPROVIDES:${PN} += "claws-mail \
 claws-mail-extra-plugins \

@@ -45,13 +45,13 @@ LICENSE = "GPL-2.0+ | Artistic-1.0"
 
 PV = "0.3"
 
-RPM_NAME = "perl-Getopt-Tabular-0.3-1.27.noarch.rpm"
-RPM_HASH = "9d92d16a1de6762314cfa134b3d6c38f964e3e35daa1bd93eaf3a3d9e9f4086ce1936089a59510ca8bb0d81868c3e2f5d27509d29221a57f971086298884ef09"
+RPM_NAME = "perl-Getopt-Tabular-0.3-1.28.noarch.rpm"
+RPM_HASH = "5ebe29a2d863023d4241e6a6b9e595bc8b9458ce122f26edd72ca7e342bd9d6e6afdd8031a72ffa28ff4c837c14f10d0945ca1984e3174e60d4e5883e75236f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Getopt--Tabular \
 perl-Getopt-Tabular"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

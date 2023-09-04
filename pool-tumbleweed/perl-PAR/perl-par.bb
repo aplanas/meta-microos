@@ -38,8 +38,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.018"
 
-RPM_NAME = "perl-PAR-1.018-1.3.noarch.rpm"
-RPM_HASH = "7f98fc6eef537f81ae2ce52402c6257ba34ff743a2ab8791d5e6264ea338d99596caf02546d22b2dfe74ffeae8c20e1326faf84938f7c24e4c5425e989e19744"
+RPM_NAME = "perl-PAR-1.018-1.4.noarch.rpm"
+RPM_HASH = "9be7b6d886a17ab7f2f721db44762476d840df9d373a751655532399cde7a53cfb0a71ab325610fe8f6c7f2c49b107f3120cdff7496b2e5fdaacb666cbbf5f93"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-PAR \
@@ -47,7 +47,7 @@ perl-PAR--Heavy \
 perl-PAR--SetupProgname \
 perl-PAR--SetupTemp"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Archive--Zip \
 perl-AutoLoader \
 perl-Compress--Zlib \

@@ -5,8 +5,8 @@ LICENSE = "GFDL-1.3-only & LGPL-3.0-or-later"
 
 PV = "20221101"
 
-RPM_NAME = "python311-libevtx-20221101-3.11.aarch64.rpm"
-RPM_HASH = "bc9d7dd6584dcbdec3d372109efd0c6de0e1901a9343dfb528baf1c58d8af6377421f088a77b991eba5b3e91450669bb34c3bc61a8441ae7a4e2fe4bb2e9fe3e"
+RPM_NAME = "python311-libevtx-20221101-4.1.aarch64.rpm"
+RPM_HASH = "b18ab3bdf60ce4d8dfbd961afd93ac82584c4ec981bfc336a21e00c1c77023cafadec18ab0cd59215994ac02f2bb5d4ff66616e5dab9ef3c4a555fa5d20e8353"
 
 RPROVIDES:${PN} += "python3-libevtx \
 python311-libevtx"

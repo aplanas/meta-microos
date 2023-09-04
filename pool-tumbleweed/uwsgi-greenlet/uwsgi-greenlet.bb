@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
 PV = "2.0.21"
 
-RPM_NAME = "uwsgi-greenlet-2.0.21-3.1.aarch64.rpm"
-RPM_HASH = "1cd766e8d754ea3dcc5a72c5cbe15676c99d6e891772689e9c9a919fd66d722dee97ffc3cee8809aa7b65fb2a2c8e5138dd29d468366de91f9ba5654b3086dd2"
+RPM_NAME = "uwsgi-greenlet-2.0.21-3.2.aarch64.rpm"
+RPM_HASH = "3735d3c8f2a810b9a419e74ffce7024c97a7d37c3fec394628937279adad666382cd9a346ef6cea7690ee9321c8290e4c62ab2e51faffcdc0961f8a26b1d8f71"
 
 RPROVIDES:${PN} += "uwsgi-greenlet"
 

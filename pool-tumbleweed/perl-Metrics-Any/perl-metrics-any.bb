@@ -23,8 +23,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.100.0"
 
-RPM_NAME = "perl-Metrics-Any-0.100.0-1.1.noarch.rpm"
-RPM_HASH = "c957bda92a7b0d57802d4e6a247306c7f735187d3cb4886fb19e0fa9c8d5fdde0bf913776142e762c0b2a1876379753fb6788239f02998a36b6eadf52ccc0754"
+RPM_NAME = "perl-Metrics-Any-0.100.0-1.2.noarch.rpm"
+RPM_HASH = "43cd4dba08d1bb7fa5e2d4ed623f7fe120da968f30df770d63fc48bcd058638d7e92695c83a22a128c33500cb2fbc9d29573794f86135fa6ae7902f7977fb2f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Metrics--Any \
@@ -38,7 +38,7 @@ perl-Metrics--Any--AdapterBase--Stored \
 perl-Metrics--Any--Collector \
 perl-Metrics-Any"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-List--Util"
 
 inherit rpm

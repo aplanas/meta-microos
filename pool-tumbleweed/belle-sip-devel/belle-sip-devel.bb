@@ -6,10 +6,10 @@ This package contains header files and development libraries needed \
 to develop applications using the belle-sip library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.73"
+PV = "5.2.98"
 
-RPM_NAME = "belle-sip-devel-5.2.73-1.1.aarch64.rpm"
-RPM_HASH = "e537eeb20a067785175279155ae69c884329c0139172e25c891600dbcc304daadf763a58ab23847e29b803aa5719f3126c8abb3d289145e9e0fcfe7081a74a33"
+RPM_NAME = "belle-sip-devel-5.2.98-1.1.aarch64.rpm"
+RPM_HASH = "67a41e824edd6dffb1ff89fce94fe3e42394eb958cb70391f0d0847d224769a04323634f3609aa0dcd8cbdaa89388f16b969831a9093c3a593d0134ccee957b5"
 
 RPROVIDES:${PN} += "belle-sip-devel \
 cmake-BelleSIP \

@@ -5,10 +5,10 @@ and don't hyphenate words that have different hyphenations \
 according to their meaning."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.1svn58609"
+PV = "2023.209.1.1svn58609"
 
-RPM_NAME = "texlive-hyphen-dutch-2023.208.1.1svn58609-53.1.noarch.rpm"
-RPM_HASH = "5911abe15764bd0b42f5e2b2c5f2fdb33a98753a43b0f4f3cd7b2ca15a520eb17f2e0f2430fc8081fc3bcbd59e4f27d345bbd3ed0be41970083b86ba4f5512aa"
+RPM_NAME = "texlive-hyphen-dutch-2023.209.1.1svn58609-54.1.noarch.rpm"
+RPM_HASH = "52f1845732a1696b6727ba70dab8de1e044904d961cda6826c1888bd5a2434b89962648fddea30ddd229e207fa1f1827626b0833217e437fdce0d5922c89ee16"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-nl.ec.tex \

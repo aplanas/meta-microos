@@ -5,10 +5,10 @@ Note this is only useful for building freestanding things like the \
 kernel since it fails to include target libraries and headers."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7597"
+PV = "13.2.1+git7683"
 
-RPM_NAME = "cross-sparc64-gcc13-13.1.1+git7597-1.1.aarch64.rpm"
-RPM_HASH = "5bd21c04bfe2cb23b407493fd8335a763ead19729fd23c0824cfd06c267efaccb8ee961750ba2b2459eaea3413c8d80004d9601e2bd241b10d60f5b3b51b289b"
+RPM_NAME = "cross-sparc64-gcc13-13.2.1+git7683-1.1.aarch64.rpm"
+RPM_HASH = "55bd4969640ef2b43db66a5463d6f406ae779cc5fc1f9301ca0194c2d3d8e1cdf6813d8bcfd23ed3c8a6be578885482049a861a2d1ed1eb2d7ebefb4dbcdee42"
 
 RPROVIDES:${PN} += "cross-sparc64-gcc13"
 

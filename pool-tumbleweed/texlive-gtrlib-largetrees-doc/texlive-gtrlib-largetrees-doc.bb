@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.2bsvn49062"
 
-RPM_NAME = "texlive-gtrlib-largetrees-doc-2023.209.1.2bsvn49062-54.1.noarch.rpm"
-RPM_HASH = "42770f988a98b2e7ddee1b275895f5bdeff56dd6826a918de767e6eba3c0a8779d19a8b838f73dfb1c06614fa367789e25d35c6a53289e348ef418d2b06853e1"
+RPM_NAME = "texlive-gtrlib-largetrees-doc-2023.209.1.2bsvn49062-54.2.noarch.rpm"
+RPM_HASH = "bbf6413b43b2e9bbb40fb6d272c4ced13d02c3032cc640bfab995be65d26a0844357cfb7cb691f70516fc4f02892a7f48ec2d0126a3aff006e3fdd9c90553fed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gtrlib-largetrees-doc"

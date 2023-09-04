@@ -7,10 +7,10 @@ hyphenation is completely different from US English, so has its \
 own set of patterns."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn58609"
+PV = "2023.209.svn58609"
 
-RPM_NAME = "texlive-hyphen-english-2023.208.svn58609-53.1.noarch.rpm"
-RPM_HASH = "18b5c224acbfd841ca2d805e13fb0583b4e43c9ea76e12bcc9ad95ebe9bf1dac3bd726f229c7297455534bd426df8074ca107d53554df3a5a3af31b4d6a12055"
+RPM_NAME = "texlive-hyphen-english-2023.209.svn58609-54.1.noarch.rpm"
+RPM_HASH = "1536461648409ebd7d617440b0dfc12cb49c4b6fc7be9b6a77c4d08ecc489d9b1cf51d07741217772b20a9791d2960026a5e6a5296ee9f452bae386ca1b6dd07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-en-gb.tex \

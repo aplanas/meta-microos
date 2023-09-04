@@ -4,19 +4,19 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.8.3"
 
-RPM_NAME = "ghc-cereal-devel-0.5.8.3-2.6.aarch64.rpm"
-RPM_HASH = "3bfea7aaabf0f9876a286a71acacd562b9781894bcfff8beda56950e0f79ba8ee6293d7ddeec3a2cff5aee80750b56c6be04814f22674a5166e8e3c8f80c403a"
+RPM_NAME = "ghc-cereal-devel-0.5.8.3-2.8.aarch64.rpm"
+RPM_HASH = "d4299fdd799c66a30602719e280d35d9ee5f9c9ed8c3ecad809e4688799abdc14bd97252d90d9188891c6379bf3be64152de00f17114ec459a9dc260ac75d960"
 
 RPROVIDES:${PN} += "ghc-cereal-devel \
-ghc-devel-cereal-0.5.8.3-LNsxCTyOF85AKtb4iLTs8f"
+ghc-devel-cereal-0.5.8.3-BmWUcZuhGTnIupxReuIO3I"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-cereal \
 ghc-compiler \
 ghc-devel-array-0.5.4.0 \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0 \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1 \
 ghc-devel-containers-0.6.7 \
-ghc-devel-ghc-prim-0.9.0"
+ghc-devel-ghc-prim-0.9.1"
 
 inherit rpm

@@ -2,13 +2,25 @@ SUMMARY = "Library and tools to access the Apple Partition Map volume system for
 DESCRIPTION = "libvsapm is a library to access the Apple Partition Map (APM) volume \
 system format. \
  \
-Part of the libyal family of libraries."
+Part of the libyal family of libraries. \
+ \
+The Apple Partition Map (APM) is used on Motorola based Macintosh computers. On Intel based Macintosh computers the GUID Partition Table (GPT) is used. \
+ \
+The APM is supported by: \
+    Apple Unix (A/UX) \
+    Mac OS \
+    Mac OS X \
+ \
+The APM consists of: \
+    the drive descriptor \
+    partition map entry of type Apple_partition_map \
+    zero partition map entries"
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20210626"
+PV = "20230506"
 
-RPM_NAME = "python311-libvsapm-20210626-4.9.aarch64.rpm"
-RPM_HASH = "7cd1c814677253959517464a5c4d0379d81977f7c803386f000df745aa75cd23f973bdc2cff4b3073ff00f1d7890fb39e58c690adc113593f004b0ac440322be"
+RPM_NAME = "python311-libvsapm-20230506-1.1.aarch64.rpm"
+RPM_HASH = "87e5a738862a2de61abe6e49a0992e0713ac6753e67f49794e0df95d17674374d1fe6774b628894566e49ece28767a096901cf655df4e41f41ea27018b99cfff"
 
 RPROVIDES:${PN} += "python3-libvsapm \
 python311-libvsapm"

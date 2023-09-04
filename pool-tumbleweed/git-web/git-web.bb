@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.41.0"
 
-RPM_NAME = "git-web-2.41.0-1.2.aarch64.rpm"
-RPM_HASH = "7ec8c4ed8c503a56774ffe31f38a4188be452c8ce4145486d8d9874e9d91a7093d4a1601ce5f7667dd9cab9c708e498aa6d82dd2299fbab1040776df3e9a0726"
+RPM_NAME = "git-web-2.41.0-1.3.aarch64.rpm"
+RPM_HASH = "2ee34f49fc4cd02301d93912301a391c4fdc26cdf00c798eb33f5ddd9592fa9e5e6f738aa652c40055c4c8638c7f623061153f52357d8412d10c033e8cd325d2"
 
 RPROVIDES:${PN} += "config-git-web \
 git-web"

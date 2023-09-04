@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.6"
 
-RPM_NAME = "ghc-singleton-bool-doc-0.1.6-4.2.noarch.rpm"
-RPM_HASH = "4eb5ef1a8360bac51a32cb2e0d436a12752cc0f77acf7fff33c974c2d523e51c0bd973c521f7ed075a57be6a9630ac13453efa8087268183928f0ceb40599f96"
+RPM_NAME = "ghc-singleton-bool-doc-0.1.6-4.4.noarch.rpm"
+RPM_HASH = "067f8ef115625ed57b308989f5185410f7857d3a57a2ca45c404f291de4f7a9ce0dd9bbeeaa808ecefd3d59c45b877311ff1f8c7904ed6ba56d4835a960de7d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-singleton-bool-doc"

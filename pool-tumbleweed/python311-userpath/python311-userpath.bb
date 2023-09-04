@@ -1,12 +1,12 @@
 SUMMARY = "Tool for adding locations to the user PATH"
 DESCRIPTION = "Cross-platform tool for adding locations to the user PATH, \
 with no elevated privileges required."
-LICENSE = "Apache-2.0 | MIT"
+LICENSE = "MIT"
 
-PV = "1.7.0"
+PV = "1.9.0"
 
-RPM_NAME = "python311-userpath-1.7.0-1.9.noarch.rpm"
-RPM_HASH = "6d68c2e5507273051646c7dad5fdde1dad5c5ddda60c77d4c7d6be2056132c008fc68aa9e6a1a785635e0fdf3df8868a7643ea52d05eb5220ced415abe631ae9"
+RPM_NAME = "python311-userpath-1.9.0-1.1.noarch.rpm"
+RPM_HASH = "0bc6dc51593bb9edddb89157c25c9098d78300f2087bf97c3d80c3b32d58c4ad74c135aed02317b92aa126eab39a4951eb2af9eda2ecaab75c83de84d28369e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-userpath \

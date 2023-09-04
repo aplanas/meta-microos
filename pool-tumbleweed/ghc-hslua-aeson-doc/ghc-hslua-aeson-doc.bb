@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.3.0.1"
 
-RPM_NAME = "ghc-hslua-aeson-doc-2.3.0.1-1.3.noarch.rpm"
-RPM_HASH = "a3bc726aa9af3da61d492b713a812dd4531a572ac40d5060d1633546a1b441979724703e1b01a3ab914541b8198d2ebcf46dfb9ffdd3f91ed6d07f93982b622d"
+RPM_NAME = "ghc-hslua-aeson-doc-2.3.0.1-1.6.noarch.rpm"
+RPM_HASH = "8fb71846514efa54b1a386137e33fbb0deba64f9087d8b2154d5fe9903139eae6ac4885cefae238215a6409b1bf93b23c35bc3009f86c1fe9b69379598f15460"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-hslua-aeson-doc"

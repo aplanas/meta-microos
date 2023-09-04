@@ -12,10 +12,10 @@ grommunio-web. The grommunio appliance ships these essentials and has a \
 ready-to-run installation of Gromox."
 LICENSE = "AGPL-3.0-or-later & GPL-2.0-only & GPL-3.0-or-later"
 
-PV = "2.10"
+PV = "2.11"
 
-RPM_NAME = "gromox-2.10-1.3.aarch64.rpm"
-RPM_HASH = "9f154811f95c668b693a040a4de398014c655240159864d9837df0ea3e513c42e3cc8ab91a410eb6b7e7e5cfa5160751d9fffed679b8865bab31aa64b29447df"
+RPM_NAME = "gromox-2.11-1.1.aarch64.rpm"
+RPM_HASH = "9ec0c79fc5b5e5f5bbabb3c376f51a5fb5b83e65e13a965a1b8121f8df88baa14799eade7c5e11749603e03202156560b4b2f498c39e16ee329f80f083ec9af8"
 
 RPROVIDES:${PN} += "bundled-tzcode \
 gromox \

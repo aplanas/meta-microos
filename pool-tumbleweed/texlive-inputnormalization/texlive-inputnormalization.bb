@@ -5,10 +5,10 @@ input before it's read by TeX. It is based on XeTeX's \
 LuaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.2svn59850"
+PV = "2023.209.0.0.2svn59850"
 
-RPM_NAME = "texlive-inputnormalization-2023.208.0.0.2svn59850-53.1.noarch.rpm"
-RPM_HASH = "e19adcb158aaa5804d80f463c974e9e029d0ebb4e99bdf50766b68a873df2cfcd91d70f1f14000384daa5e73692adcdc3511ff7668ec0ebd7515bf43e4d94dd0"
+RPM_NAME = "texlive-inputnormalization-2023.209.0.0.2svn59850-54.1.noarch.rpm"
+RPM_HASH = "3d718819d0a7bc1d33c39c3b787236886a0d93f3c3fba4c2a432e916e2b47aa45b3da3db218869048b96a98128d071a1f2cfb73961dd69775fd33e7e3ba25a80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-inputnormalization.sty \

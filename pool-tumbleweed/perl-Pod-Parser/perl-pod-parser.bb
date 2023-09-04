@@ -15,8 +15,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.66"
 
-RPM_NAME = "perl-Pod-Parser-1.66-1.2.noarch.rpm"
-RPM_HASH = "2f195853b07456e18281e6e9119fc77ca8404422199a7f862e128b336bee28a058ecbec4d2be6218208759cffdcfd86db12ecda89622c738dcb379c837b9bfd9"
+RPM_NAME = "perl-Pod-Parser-1.66-1.3.noarch.rpm"
+RPM_HASH = "c8d52eefb490b372bbfb3904c4f5e64d3141eadccff28f5790339fbb5eb3b8a6cb519d49f3af80ef46e29e37e6cb621e4737c87348981e519303cc63acca34d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Pod--Cache \
@@ -36,6 +36,6 @@ perl-Pod--Select \
 perl-Pod-Parser"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

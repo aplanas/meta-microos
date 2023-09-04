@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.2"
 
-RPM_NAME = "xdg-menu-0.2-217.16.noarch.rpm"
-RPM_HASH = "c7bc1eacc8696c2791cf1bd76ff2d8510018d51c497287636588385b52cd1203b146e4c5597c4b94341bce79252a8cac0ec0d75dce174f06235eaf5d8d9f70e7"
+RPM_NAME = "xdg-menu-0.2-218.1.noarch.rpm"
+RPM_HASH = "f95ba73c58bc62a572d4759ded95d2e0e6a1f60d3f0c22c925df193877e5675e1ca36cdb4c1591c1d7e5d4c43ce53d07a39de59b1feba46cd2efeb06052e2556"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xdg-menu"

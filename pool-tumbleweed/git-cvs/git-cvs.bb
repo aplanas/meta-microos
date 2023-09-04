@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.41.0"
 
-RPM_NAME = "git-cvs-2.41.0-1.2.aarch64.rpm"
-RPM_HASH = "4744ac41bdc3732efd35351d24206dcf8ecbf0854f5402402082fe3e22bf94dfd43621fa5b6a2ab171f3699fdf9981b9ef1d027d2faed05fd0d6eca679285b80"
+RPM_NAME = "git-cvs-2.41.0-1.3.aarch64.rpm"
+RPM_HASH = "fd8c273d7fb7957cb7d3d57975c0a7fa067d8b0d364d48b164aca9cc5b8d4c89d53d11aba6c4a74f469757d1d4a05e8f8669fe7d7a2b2cf45627e032d450fb04"
 
 RPROVIDES:${PN} += "git-cvs"
 

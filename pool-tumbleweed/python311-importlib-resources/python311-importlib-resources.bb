@@ -10,10 +10,10 @@ reading resources included in packages easier, with more stable and \
 consistent semantics."
 LICENSE = "Apache-2.0"
 
-PV = "5.12.0"
+PV = "6.0.1"
 
-RPM_NAME = "python311-importlib-resources-5.12.0-1.3.noarch.rpm"
-RPM_HASH = "660d6d09d409b400d971b69093553d8e37a889948f251b802e1e30fc3c83b768a2e2714849bc2a63a03597c7ff41b41e3d39099e3114d7fc80d0988aedc1e682"
+RPM_NAME = "python311-importlib-resources-6.0.1-1.1.noarch.rpm"
+RPM_HASH = "7b4f4d382f1c4fab58bc955b4e0a7e1e098a65524688e1f5ba4e36ff1cc2fec7cf734c7ab4f9892d7116bff360231118cdc1b6c4b9b4ede6aab181778899535f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-importlib-resources \

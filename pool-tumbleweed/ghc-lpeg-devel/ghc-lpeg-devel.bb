@@ -4,16 +4,16 @@ LICENSE = "MIT"
 
 PV = "1.0.4"
 
-RPM_NAME = "ghc-lpeg-devel-1.0.4-1.4.aarch64.rpm"
-RPM_HASH = "c81bea43116d56bfcd5d6ad082c29a9cd77f9a429e71188d3c71fb1283ffd41705f58071f8e73d8027bdb2050f9997da5664f19cb32b9b69adc36e5c9c3d8edf"
+RPM_NAME = "ghc-lpeg-devel-1.0.4-1.5.aarch64.rpm"
+RPM_HASH = "20f42fe288e8cb79f255d4c0c7a999f2186185ca9b25a2252f2109ec43f4bf8b723b476a6710d52440eb849855e4f89fcc7c8a625a3883e55ff06f3bc95374cf"
 
-RPROVIDES:${PN} += "ghc-devel-lpeg-1.0.4-IadFjeA522fGKCuUXCvVP9 \
+RPROVIDES:${PN} += "ghc-devel-lpeg-1.0.4-DiPCMqCZ1gDFL4TQ30W98B \
 ghc-lpeg-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-lua-2.3.1-16mGxirchUh4T3oJJYdFzu \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-lua-2.3.1-IuAZ4Y3Pnt2ACNXikcgl6h \
 ghc-lpeg"
 
 inherit rpm

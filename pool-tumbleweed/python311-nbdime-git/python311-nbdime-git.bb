@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.2.1"
 
-RPM_NAME = "python311-nbdime-git-3.2.1-14.1.noarch.rpm"
-RPM_HASH = "dfd8494abac61335d7c116f7d7dab93e3948fc410622e2b2a3ed7b888591fef61c37b094b971b3c548ded0f2feac144bb689ec119d519090852edbc11001160d"
+RPM_NAME = "python311-nbdime-git-3.2.1-15.1.noarch.rpm"
+RPM_HASH = "b5b77785f86becfb076f16d85a4468e89b88abff9cb649ed808dbca091e369cd3874c8c7cdd235e8615caee7e91708f7d9558d109308fd7a91d91f5f5379b38d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-nbdime-git \

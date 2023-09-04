@@ -5,10 +5,10 @@ generating random sequences, performing text manipulations such as macro \
 replacement, accessing user information and many more."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "libKF5CoreAddons5-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "e3fb1a8c13dfb3ace36e29883d08344b6f6ea7ec62c2a3c9635b9ad383655ce3a5e1ddd7c3ae750347f1d532f9eaa36384b4524273f6d0a0fc544c5b988099b4"
+RPM_NAME = "libKF5CoreAddons5-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "c728daa8bdab0d9fd0d3071892a319b90db5c8b064aee8ca0c729a4d34562664576e11ce33d5a40f0e8ce868191bd417d0925ba8bf3aafa71927032361d17775"
 
 RPROVIDES:${PN} += "libKF5CoreAddons.so.5 \
 libKF5CoreAddons5"

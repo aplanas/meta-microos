@@ -3,10 +3,10 @@ DESCRIPTION = "Baloo is a framework for searching and managing metadata. This \
 package contains aditional command line utilities. Development files."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-3.0-only"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "baloo5-devel-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "d02f5aab87467b590ef22cbe5aee780da3ec100a91009359171a8566b35f1f598a1c1bc334f815c177ce1c5c2bb3f737be219b023db73f94a1b8405bbfb2fd9f"
+RPM_NAME = "baloo5-devel-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "cb62924d37ca1b59879fbb6b81f730b6e65c877533045e13cc428d3e506fdf30f8144399c838a9a61728d7aeecb92dd424227084e80df3442e4d421432791ab2"
 
 RPROVIDES:${PN} += "baloo5-devel \
 cmake-KF5Baloo \

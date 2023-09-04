@@ -6,10 +6,10 @@ This package contains a library that can other apps use to utilize the mpv \
 features."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.36.0+git.20230723.60a26324"
+PV = "0.36.0+git20230826.83c0e980"
 
-RPM_NAME = "libmpv2-0.36.0+git.20230723.60a26324-1.2.aarch64.rpm"
-RPM_HASH = "80558c58582e59959e812c7fd86076d10a430f6defea54838776251c96515bca0ad4f4779385bae609adc790b6fb83eb96e7a563c0b64127ad445cfa48822019"
+RPM_NAME = "libmpv2-0.36.0+git20230826.83c0e980-1.1.aarch64.rpm"
+RPM_HASH = "9cb7d7d094e7ca7f9639038714cee87af726e933c21acd369e5a40235ad24896a8c7a0ce9637425721b3f7c90fb1b365ccdc43785653b498cb0d98afec1c97b4"
 
 RPROVIDES:${PN} += "libmpv.so.2 \
 libmpv2"
@@ -19,7 +19,6 @@ ld-linux-aarch64.so.1 \
 libEGL.so.1 \
 libX11.so.6 \
 libXext.so.6 \
-libXinerama.so.1 \
 libXpresent.so.1 \
 libXrandr.so.2 \
 libXss.so.1 \

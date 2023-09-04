@@ -25,8 +25,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-2.1-only"
 
 PV = "12.2.0"
 
-RPM_NAME = "open-vm-tools-12.2.0-5.1.aarch64.rpm"
-RPM_HASH = "d0c0dbe0bf0176c43f07f1c4d5566b5522c66a054e6628c8b8e4e2d1ec83bbffa3a723ea94b515b43b7b807e07d75572c56ab20f6f35e85962b2ddf0f23f15c5"
+RPM_NAME = "open-vm-tools-12.2.0-5.2.aarch64.rpm"
+RPM_HASH = "b395a150665de1692ee2ec329de07f6276a6f951b6aaba8b302050ba17f608bec4991bc9209515ac5bfe486fe8a49f39948c89ea2ddd13a4f0d15689d9f5479a"
 
 RPROVIDES:${PN} += "config-open-vm-tools \
 libappInfo.so \

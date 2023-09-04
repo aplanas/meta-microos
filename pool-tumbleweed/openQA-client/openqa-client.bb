@@ -3,10 +3,10 @@ DESCRIPTION = "Tools and support files for openQA client script. Client script i
 a convenient helper for interacting with openQA webui REST API."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1690803816.e47aebd"
+PV = "4.6.1692951551.c933949"
 
-RPM_NAME = "openQA-client-4.6.1690803816.e47aebd-1.1.aarch64.rpm"
-RPM_HASH = "93b844ed66bbb87551c3093eb6698c8a749142ebf658ade5559527b7a50ef32213a26d392d402a06a09b4ff864eb4366bcb77b584af085d9c6f906c85b32bdce"
+RPM_NAME = "openQA-client-4.6.1692951551.c933949-1.1.aarch64.rpm"
+RPM_HASH = "43370b752b9a13436c0d71b7aa84e7ccc15edae3fc8d6f7439537c0c7bab279052e08920b8ec068dc48d111256ac32301202798a7e4c25a09b9b28d4b28be11d"
 
 RPROVIDES:${PN} += "openQA-client \
 perl-OpenQA--Client \

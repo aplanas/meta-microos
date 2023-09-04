@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.25"
 
-RPM_NAME = "perl-HTTP-Entity-Parser-0.25-1.12.noarch.rpm"
-RPM_HASH = "b68774ba18a2225bb8f0818e0b20ae2131eaad1e647aa43dc05f09f3d12d8f410522d5b45743851fb72b71cb66939077251f5752ee724faa9c61d6997285c836"
+RPM_NAME = "perl-HTTP-Entity-Parser-0.25-1.13.noarch.rpm"
+RPM_HASH = "9244567a1eb36888ca6b171cbe288187d7aec2a57bf74e3a9e35e20454c62042014f87ef6cb24fffafb200b2dbda396182b044704e4c56aca412eccbc922d9ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Entity--Parser \
@@ -19,7 +19,7 @@ perl-HTTP--Entity--Parser--OctetStream \
 perl-HTTP--Entity--Parser--UrlEncoded \
 perl-HTTP-Entity-Parser"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-HTTP--MultiPartParser \
 perl-Hash--MultiValue \
 perl-JSON--MaybeXS \

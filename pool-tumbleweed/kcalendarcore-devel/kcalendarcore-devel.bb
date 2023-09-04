@@ -5,10 +5,10 @@ scheduling standard iTIP. This package contains the headers necessary to \
 develop applications making use of KCalendarCore."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kcalendarcore-devel-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "6828ae7d0e407936b77223130fba36d9a0b83d639930a440d83445a39d8fde0ffb5f32ef74e20ac503f6f504e2d09db9d0de980fd1dd596eba785babdec53359"
+RPM_NAME = "kcalendarcore-devel-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "60bdbb22db59440e37995dd4d6b311877a81d2c98ffca13fbd71e99f002ac61273b2f1ed20c86ff1bb30d4594d3c323326ed4e075f9d91b8a2d7dbd3b6c36139"
 
 RPROVIDES:${PN} += "cmake-KF5CalendarCore \
 kcalcore-devel \

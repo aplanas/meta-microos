@@ -5,10 +5,10 @@ signed integers, rational numbers, and floating-point numbers. \
 This package contains C++ bindings for the GNU MP Library."
 LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
-PV = "6.2.1"
+PV = "6.3.0"
 
-RPM_NAME = "libgmpxx4-6.2.1-4.16.aarch64.rpm"
-RPM_HASH = "ac5e6c5085d110b2158b8641421b5ca0079fe9e709a15920ea16c4a8ec85bb7b26880ef929357c6388988b2cc1a789ba6bd40b09309b84e60cce8f21109c03fd"
+RPM_NAME = "libgmpxx4-6.3.0-1.1.aarch64.rpm"
+RPM_HASH = "e281026502e01150dee2fdab9deda0ae80157f40cd347d7c2783c2fe70064aada4fd5e95b36ece9a64f6be2280d42316f134d22e83290548e1a029277cd0e083"
 
 RPROVIDES:${PN} += "libgmpxx.so.4 \
 libgmpxx4"

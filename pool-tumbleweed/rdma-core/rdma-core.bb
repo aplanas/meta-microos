@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "47.0"
 
-RPM_NAME = "rdma-core-47.0-1.1.aarch64.rpm"
-RPM_HASH = "6e25af92fd38f844d88ffdace6da9de7dd822cf7fb9b160e36832a83f83e6e19fe4063aa0be972e22dda23490e0643b71eadb89e2f1a7f054639699b6452367e"
+RPM_NAME = "rdma-core-47.0-2.2.aarch64.rpm"
+RPM_HASH = "f60cbf8d11a40328c57ffd77153feabf731ad8a464bc64740797955f51fa1060a9a04bd2c58c7d7d51eaa165ccd28594ecbfec5a81396228d419c443f0debaec"
 
 RPROVIDES:${PN} += "config-rdma-core \
 ofed \

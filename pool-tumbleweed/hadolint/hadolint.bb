@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.12.0"
 
-RPM_NAME = "hadolint-2.12.0-1.9.aarch64.rpm"
-RPM_HASH = "e549924f7b9db2045e7c58f8d16dfff0e5c41b8836680a01ec5849eb2a8356742d1943fbd09230a5c5727a3ab5453e504fee37dfc98b3cd72ce25df145244bcd"
+RPM_NAME = "hadolint-2.12.0-1.14.aarch64.rpm"
+RPM_HASH = "4aaad78fa7be1d3ee1eaddf048dad6ad0ed8105b639323e81e002805a499fbe6d48853ae221d498c1693cec57062f12a2e6ac2521b09f3a6c3c3ff60262d2e3a"
 
 RPROVIDES:${PN} += "hadolint"
 

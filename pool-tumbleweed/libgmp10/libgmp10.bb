@@ -3,10 +3,10 @@ DESCRIPTION = "GMP is a library for arbitrary precision arithmetic, operating on
 signed integers, rational numbers, and floating-point numbers."
 LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
-PV = "6.2.1"
+PV = "6.3.0"
 
-RPM_NAME = "libgmp10-6.2.1-4.16.aarch64.rpm"
-RPM_HASH = "41552563c79f841e095ff55752402f1deaa96d14f6709e2e076d6097113f029461f2dd67d4f1360d5cb61e3c3338e038a31364e0a81aacdedc1069e38ff29a57"
+RPM_NAME = "libgmp10-6.3.0-1.1.aarch64.rpm"
+RPM_HASH = "a8357bb5bcffb5633a625137e347a04ebd597bb4ba0751b0155f6af0d3b2ba32e89aa14eca0c17142c54a27becd2758b9158c3de186adf4acde81008e6af2905"
 
 RPROVIDES:${PN} += "libgmp.so.10 \
 libgmp10"

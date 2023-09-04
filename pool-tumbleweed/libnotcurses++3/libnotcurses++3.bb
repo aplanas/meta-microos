@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.9"
 
-RPM_NAME = "libnotcurses++3-3.0.9-1.7.aarch64.rpm"
-RPM_HASH = "ca530c6b1755f1bd9fc617c2ea9938d97bf33bd599de49370b6f839479278b6ca45fbeba36f0e219495421b96079c4f98b6d87be29f8c80fb658c2ce3af56b1a"
+RPM_NAME = "libnotcurses++3-3.0.9-1.8.aarch64.rpm"
+RPM_HASH = "304e6935b045e6b4090cf7a09e8754f3e370076f31fbfaadee2e5127da5635ae59354fa8481f37ff1fa485b503ebd8edf2fbd021b942b265fdb13e9bd4399938"
 
 RPROVIDES:${PN} += "libnotcurses++.so.3 \
 libnotcurses++3"

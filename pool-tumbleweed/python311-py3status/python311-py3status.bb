@@ -12,10 +12,10 @@ py3status has a standalone mode allowing to bypass i3status when you need \
 a py3status-modules-only i3bar."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.51"
+PV = "3.52"
 
-RPM_NAME = "python311-py3status-3.51-1.1.noarch.rpm"
-RPM_HASH = "6ef8f1437df5317acc0c74e480e82c11d1f4cfc777ff516be228403111035bb1dc04b567ceb43c9227fca76b58992f5759205a6d39ea2ec38b0583888025188d"
+RPM_NAME = "python311-py3status-3.52-1.1.noarch.rpm"
+RPM_HASH = "4d27bfe7c7f33408b0370e500a03409e4c98bd9dc3dc8573771325b3ece53776143b985a88d7a6b240742e453c191b6131c01484fe394d826b43a6c2c2cb9a7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "py3status \

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.6.13"
 
-RPM_NAME = "gitolite-3.6.13-1.1.noarch.rpm"
-RPM_HASH = "17fbcc4591f8d346bfec39368904fefe2fcad356658726772954df8891a12de50d76e9b7e775da2e65935d791f8828b04af9ec700a12a2cc0ea6ee5ec6fbbc15"
+RPM_NAME = "gitolite-3.6.13-1.2.noarch.rpm"
+RPM_HASH = "aefc3edd43896617588b17abd2965cdeff332ccead9f86946e01a1b4479d1ba9a92795903f727aae407b990f7948c8224c64d45b83271cfe6029f2afd5000171"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-gitolite \
@@ -44,7 +44,7 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 /usr/bin/sh \
 git \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 user-nginx \
 user-wwwrun"
 

@@ -5,10 +5,10 @@ This package provides the GObject Introspection bindings for the \
 libgweather library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.2.0"
+PV = "4.3.2"
 
-RPM_NAME = "typelib-1_0-GWeather-4_0-4.2.0-2.2.aarch64.rpm"
-RPM_HASH = "b3b210e5e45bb3cf70c06ca8827be55153697f2fabea77b198c35a41f951f7138d2c66c81da76c25f0de1908dbb72b091c58f0572f99eda045e6d984737f780f"
+RPM_NAME = "typelib-1_0-GWeather-4_0-4.3.2-1.1.aarch64.rpm"
+RPM_HASH = "be4ce4cebc6af8dc1915169f5f086f11e8e15b441bcc4d1438cdf1f44326ecbeb422a8afb8c1d820d58b31b38201cbc612abf7e509630d5009a3fdcb90153525"
 
 RPROVIDES:${PN} += "typelib-1-0-GWeather-4-0 \
 typelib-GWeather"

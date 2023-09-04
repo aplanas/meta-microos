@@ -11,10 +11,10 @@ There are also basic facilities for discrete fourier transform, \
 basic linear algebra and random number generation."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.24.2"
+PV = "1.25.2"
 
-RPM_NAME = "python311-numpy-1.24.2-4.1.aarch64.rpm"
-RPM_HASH = "da1125c00002e96d6184546df6310297fe7f1c3d6515af98c59c4588449b3a9c77a71403324c8248823411adac0eb272b9bc28edc6acfffc4776b3501981ad0f"
+RPM_NAME = "python311-numpy-1.25.2-1.1.aarch64.rpm"
+RPM_HASH = "6bde6adacf9dc726c28f1149afbd1a0dc87a237a5c3be9e5889a999de05b677876e751974dfae5fd0590f399c2dd0b8389526b98616f4c5ff07cb50e2603359d"
 
 RPROVIDES:${PN} += "python3-numpy \
 python3.11dist-numpy \
@@ -28,6 +28,7 @@ ld-linux-aarch64.so.1 \
 libblas.so.3 \
 libc.so.6 \
 libcblas.so.3 \
+libgcc-s.so.1 \
 liblapack.so.3 \
 libm.so.6 \
 python-abi"

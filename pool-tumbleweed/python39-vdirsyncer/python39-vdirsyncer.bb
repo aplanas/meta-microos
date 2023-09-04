@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.19.0"
 
-RPM_NAME = "python39-vdirsyncer-0.19.0-2.3.noarch.rpm"
-RPM_HASH = "6dc1c5abb04a2f09325592a30971c9862b0472484c80cad991b2ea1a8397e8af7cdf287dfae90b2a5d230026d215ef81fd1bf162b368b7b57c985d7bab71c93d"
+RPM_NAME = "python39-vdirsyncer-0.19.0-3.1.noarch.rpm"
+RPM_HASH = "40843357be4bcc4b94b81fb26e52f7794072d33ad02bb4655b9922e10b18d8a14309f9251d44f3d37e8d768347b7317ef5f083072409ca79ad6fcf5f530cf042"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-vdirsyncer \
@@ -19,6 +19,7 @@ vdirsyncer"
 RDEPENDS:${PN} += "/usr/bin/python3.9 \
 /usr/bin/sh \
 python-abi \
+python39-aiohttp \
 python39-aiostream \
 python39-atomicwrites \
 python39-click \

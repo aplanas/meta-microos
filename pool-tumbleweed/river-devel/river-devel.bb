@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.2.4+g953"
 
-RPM_NAME = "river-devel-0.2.4+g953-1.1.noarch.rpm"
-RPM_HASH = "ce34440d4bde77ad9af229d87a967b3a75cc7746625a039ebda5484120d507e3ea3c69ab57a2467381965394c0c25044c96878ae48d42703c6e156925d67d81e"
+RPM_NAME = "river-devel-0.2.4+g953-2.1.noarch.rpm"
+RPM_HASH = "38af17d54332811a933b31d8dea5a65c9fd43c9e3178080323ba5180c0e8a327ee4f86245ea6fdc4816c519fe2a886ea8731e444db5cc2c2a4aea8053db8cb28"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig-river-protocols \

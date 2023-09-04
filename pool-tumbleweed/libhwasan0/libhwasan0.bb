@@ -3,10 +3,10 @@ DESCRIPTION = "The runtime library needed to run programs compiled with the \
 -fsanitize=hwaddress option of the GNU Compiler Collection (GCC)."
 LICENSE = "MIT"
 
-PV = "13.1.1+git7597"
+PV = "13.2.1+git7683"
 
-RPM_NAME = "libhwasan0-13.1.1+git7597-1.1.aarch64.rpm"
-RPM_HASH = "3a9c7b26e0b36fbf19682d826328ca426237bdae8c8e6d57b2671d81d3cd81a68c3ed6e4f008f62e285bae6f9d9e838e3b83edc249a5a07624a1264ac91cee3e"
+RPM_NAME = "libhwasan0-13.2.1+git7683-1.1.aarch64.rpm"
+RPM_HASH = "092db32dc226190557f9424b69046e846c4697a119997b8b9f501d6d99be087c95a1d4884b0d58900cf697c1f94b9d85924c043df72fc47f96b1dee1e0ac64e9"
 
 RPROVIDES:${PN} += "libhwasan.so.0 \
 libhwasan0"

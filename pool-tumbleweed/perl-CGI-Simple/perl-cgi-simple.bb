@@ -16,8 +16,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.280"
 
-RPM_NAME = "perl-CGI-Simple-1.280-1.8.noarch.rpm"
-RPM_HASH = "136aea498e2d865fb20999e6f23af4ac8618c5111ac6b5f8bd443abb9dcca9609bdb0818882b7f2e3f2c046773669e90e92342f91486680f500234ae2201c7c7"
+RPM_NAME = "perl-CGI-Simple-1.280-1.9.noarch.rpm"
+RPM_HASH = "a397c677c4687aef011252aca0a63df8e387178a6eba98f30e413a077693205eab07e8d7b9b53f616e6bf48c6be9082e630ba76e060f7ff11eb8f065a58be2a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CGI--Simple \
@@ -26,6 +26,6 @@ perl-CGI--Simple--Standard \
 perl-CGI--Simple--Util \
 perl-CGI-Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

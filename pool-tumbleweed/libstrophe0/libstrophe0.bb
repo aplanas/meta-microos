@@ -2,10 +2,10 @@ SUMMARY = "A XMPP library for C"
 DESCRIPTION = "The libstrophe library is a XMPP library written in C."
 LICENSE = "GPL-3.0-or-later | MIT"
 
-PV = "0.12.2"
+PV = "0.12.3"
 
-RPM_NAME = "libstrophe0-0.12.2-1.5.aarch64.rpm"
-RPM_HASH = "be63de842f20dd51b74555d3f94643bdb8fba204d7f337986f92be743ebcdcc6c57ca07d1175c1ddabce412e52fdb176e9414cf654fc387a1a6cda316403b494"
+RPM_NAME = "libstrophe0-0.12.3-1.1.aarch64.rpm"
+RPM_HASH = "d4473bd67983b184b8b4f1b2e10933abf965015de12b5bb746a367f74a27ff4e6f9ce2a44097a34c9c3a42cc6c8dec45b75d8cda9396efe8ccd74a1e54b9e0e8"
 
 RPROVIDES:${PN} += "libstrophe.so.0 \
 libstrophe0"

@@ -2,10 +2,10 @@ SUMMARY = "Libzhuyin Wrapper for Fcitx5"
 DESCRIPTION = "Libzhuyin Wrapper for Fcitx5."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.0.12"
+PV = "5.1.0"
 
-RPM_NAME = "fcitx5-zhuyin-5.0.12-1.4.aarch64.rpm"
-RPM_HASH = "d02308ae425ea565e8d8791735919d23e1a983b07832dd1d6521148f005700d4e8014b5a0fa47943c02ed6b874a81cf0700a44ba0f498cf9fe01a8db39eb56ab"
+RPM_NAME = "fcitx5-zhuyin-5.1.0-1.1.aarch64.rpm"
+RPM_HASH = "d985b0371b092c5200bd4432912ce73ff1668a87114b3d4efb8761be3e6e5fc4d9415c4474bc3d7e6784cb10dd19c49e772877d7c97080d4d1bb43c9ee0ed2ef"
 
 RPROVIDES:${PN} += "fcitx-zhuyin \
 fcitx5-zhuyin"

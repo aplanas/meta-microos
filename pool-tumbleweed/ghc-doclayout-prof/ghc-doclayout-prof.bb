@@ -4,18 +4,18 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.0.1"
 
-RPM_NAME = "ghc-doclayout-prof-0.4.0.1-1.2.aarch64.rpm"
-RPM_HASH = "468fa60ce195b4cb94dfebbee2c6627e966ca268052e607b4220ac77fe8d0736fa114492dffb286d97cb104c2edf49c52f5af9f126c821b5e17b0743569c0499"
+RPM_NAME = "ghc-doclayout-prof-0.4.0.1-1.4.aarch64.rpm"
+RPM_HASH = "f55dc52fe4fb1c5566bdc6d53fbe8e80fd7b45b74319fb4d05c0e19ea223d0c248cf274109a6caeeba544c1f1e81904e529fa12124bae4343b84c1eed3d78d75"
 
 RPROVIDES:${PN} += "ghc-doclayout-prof \
-ghc-prof-doclayout-0.4.0.1-9Y8Rw4EdBjz2IhzjzOiBy0"
+ghc-prof-doclayout-0.4.0.1-4D8TPYFDHuI6AadIlSPotc"
 
 RDEPENDS:${PN} += "ghc-doclayout-devel \
-ghc-prof-base-4.17.1.0 \
+ghc-prof-base-4.17.2.0 \
 ghc-prof-containers-0.6.7 \
-ghc-prof-emojis-0.1.2-Gz9J6Rv977iEZp4TYp7wAm \
+ghc-prof-emojis-0.1.3-7wpttN9DVlcBjh9pp4W5jK \
 ghc-prof-mtl-2.2.2 \
-ghc-prof-safe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds \
+ghc-prof-safe-0.3.19-9uHvZjuyLiR13wOGSONZxX \
 ghc-prof-text-2.0.2"
 
 inherit rpm

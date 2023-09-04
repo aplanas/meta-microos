@@ -4,24 +4,24 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.2.1"
 
-RPM_NAME = "ghc-feed-prof-1.3.2.1-3.2.aarch64.rpm"
-RPM_HASH = "e1fdf329c246f83231d50400bc679ac16d18be315c9fef060d662b148c63d1cfa447f9a2309e34b8979e66b4626e25d7781bf6513d2d390c9cf6999dbdc925b9"
+RPM_NAME = "ghc-feed-prof-1.3.2.1-4.3.aarch64.rpm"
+RPM_HASH = "b54be3e8190c56e06fac174001c7d514d4cf4b2c77c7420e8e07e30a84be2e99961da62feca5e0c2191c92493e9d762ba2d573620c9c839227b31fb98e1379de"
 
 RPROVIDES:${PN} += "ghc-feed-prof \
-ghc-prof-feed-1.3.2.1-3FVRlo91Va99mkl0BpW5LE"
+ghc-prof-feed-1.3.2.1-BjaO6WIBq79DkKCt2cylSO"
 
 RDEPENDS:${PN} += "ghc-feed-devel \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-base-compat-0.13.0-Cvz3167VMpo6rdOohSlum3 \
-ghc-prof-bytestring-0.11.4.0 \
-ghc-prof-old-locale-1.0.0.7-B5o2Qz0CVVSCB1XGw7OfzR \
-ghc-prof-old-time-1.1.0.3-6MrxIvEBZcaI0p7TDiYNU1 \
-ghc-prof-safe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds \
+ghc-prof-base-4.17.2.0 \
+ghc-prof-base-compat-0.13.0-ASw4phAd2I0LrTJ4o8lXb1 \
+ghc-prof-bytestring-0.11.5.1 \
+ghc-prof-old-locale-1.0.0.7-GoDuSK2NybfD0MMe75QkJk \
+ghc-prof-old-time-1.1.0.3-EO4BkAubfN4CLCS9qF8OKw \
+ghc-prof-safe-0.3.19-9uHvZjuyLiR13wOGSONZxX \
 ghc-prof-text-2.0.2 \
 ghc-prof-time-1.12.2 \
-ghc-prof-time-locale-compat-0.1.1.5-4KOdffkWEDD5CJkcMekvXY \
-ghc-prof-utf8-string-1.0.2-3yyxPCwARUwDt9ZNWn320Q \
-ghc-prof-xml-conduit-1.9.1.3-JDYavYDcwLN29rDQLTOOon \
-ghc-prof-xml-types-0.3.8-7guWdy0cJxZLf8pjB1j9Fb"
+ghc-prof-time-locale-compat-0.1.1.5-9kgo2YphD9418bVnFGy98u \
+ghc-prof-utf8-string-1.0.2-26mnfHz4IgtDU2rLQciXDs \
+ghc-prof-xml-conduit-1.9.1.3-DDoR4rlzTH6QSHmFsTVd9 \
+ghc-prof-xml-types-0.3.8-8dFL1RqlGPRJfvDIVn7kl6"
 
 inherit rpm

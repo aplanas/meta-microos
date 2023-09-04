@@ -3,13 +3,13 @@ DESCRIPTION = " \
 This is an LV2 port (by Hannes Braun) of the Airwindows plugins \
 originally developed by Chris Johnson. \
  \
-Right now, only 95 plugins (out of 350) have been ported to LV2."
+Right now, only 111 plugins (out of 358) have been ported to LV2."
 LICENSE = "MIT"
 
-PV = "20.0"
+PV = "22.0"
 
-RPM_NAME = "lv2-airwindows-20.0-1.1.aarch64.rpm"
-RPM_HASH = "debcd602b318b765643d22d35482cc87f2c52c151b53c3e680753d5e905f0e59892cc716389cd658bfb68cf8b8aa728347c5488b281338440d941b65f776a50d"
+RPM_NAME = "lv2-airwindows-22.0-1.1.aarch64.rpm"
+RPM_HASH = "75662a2925d5a95810f019cf5b27b82e8e8b17fb093231a35129d02d2d1d822ef488add8d9a2cf3dade22d0372235a6d9b1da88e252a8dc924e147ed492fe0f5"
 
 RPROVIDES:${PN} += "lv2-airwindows"
 

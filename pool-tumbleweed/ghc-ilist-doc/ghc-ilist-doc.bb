@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.4.0.1"
 
-RPM_NAME = "ghc-ilist-doc-0.4.0.1-1.2.noarch.rpm"
-RPM_HASH = "922d0c42962e45965894edf3de7a097276a5118439536c307da489d368fd77b85b0a50224001418d08956522d5a3cc4a2136d11adcc2f5ba20fb45af170d2a26"
+RPM_NAME = "ghc-ilist-doc-0.4.0.1-2.1.noarch.rpm"
+RPM_HASH = "5fa20a7f2af84c62e4aec8d37f07f89039c5f18b1235bf4ecdd28b530e578537be8cb282d361912f87def1742c55f73235c83734c16f4610550cb91ddc7e12a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-ilist-doc"

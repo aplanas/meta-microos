@@ -23,14 +23,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.0002"
 
-RPM_NAME = "perl-Net-Netmask-2.0002-1.3.noarch.rpm"
-RPM_HASH = "a65b1a782e85516bb72a91b0d71b4efeb5d69841279d9735b5468a3869479953cc53aae34ca8d280e4c673ff70fb5e6a564feb45886d33a71ff7afb09e02b81b"
+RPM_NAME = "perl-Net-Netmask-2.0002-1.4.noarch.rpm"
+RPM_HASH = "f3d794bd619f739f97570f98821972a2975a59c75b284ff2d3b38a4b42b9acfe1f81e2ff9f853c046239cb83bd81bdc39957df64e9e2c49e1da48b565d386822"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--Netmask \
 perl-Net-Netmask"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Math--BigInt"
 
 inherit rpm

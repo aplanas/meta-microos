@@ -16,15 +16,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.06"
 
-RPM_NAME = "perl-B-Hooks-OP-PPAddr-0.06-1.31.aarch64.rpm"
-RPM_HASH = "4ba933efaf456cae9aa1241d34f37083cde456e7b7b5d1d424ef6626ac3b45d52a58d2059a191b0b7f295bd400c98d8e2fa6f79a7815fb5e54768299e57cd2ed"
+RPM_NAME = "perl-B-Hooks-OP-PPAddr-0.06-1.32.aarch64.rpm"
+RPM_HASH = "4ad2af2c89eed0820cdbe2b7d89cdf7d900fab7c657a352be7256615ef6ff6485ecb716c18f2afd85601fb3cc280fb5b7336e266da10d0d0562b30440325b42a"
 
 RPROVIDES:${PN} += "perl-B--Hooks--OP--PPAddr \
 perl-B--Hooks--OP--PPAddr--Install--Files \
 perl-B-Hooks-OP-PPAddr"
 
 RDEPENDS:${PN} += "libc.so.6 \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-parent"
 
 inherit rpm

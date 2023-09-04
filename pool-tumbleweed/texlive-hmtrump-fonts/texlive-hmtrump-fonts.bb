@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.2asvn54512"
 
-RPM_NAME = "texlive-hmtrump-fonts-2023.209.1.2asvn54512-54.1.noarch.rpm"
-RPM_HASH = "701fdcc1f96ad2ca88bf1e2ecb31f429307598984eddbf6bb145d4a66add6194262ad576291ad8770150cceb17b0742eabf498413df46240286767dc3e3531bf"
+RPM_NAME = "texlive-hmtrump-fonts-2023.209.1.2asvn54512-54.2.noarch.rpm"
+RPM_HASH = "5217ed21da36fc86aa41c589d20d2ad4ba5c801d926dc91b787351c3c2df5187034a83b1679a4a93bbbba9e4133c5c73caf2af8bc44a8054de3f78c59b6865de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=fj \

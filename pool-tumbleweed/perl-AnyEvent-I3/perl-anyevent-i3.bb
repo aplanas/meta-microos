@@ -4,14 +4,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.17"
 
-RPM_NAME = "perl-AnyEvent-I3-0.17-1.25.noarch.rpm"
-RPM_HASH = "7009819ac1bde43b04dcb82718bfa86b5985339ab1c409dab45a9f6f317684c0ad1a81897e3c49645a5f54bc49e9650fc736f359caeabfdc3137a11061b478a1"
+RPM_NAME = "perl-AnyEvent-I3-0.17-1.26.noarch.rpm"
+RPM_HASH = "699f4ad751d3d1b4735c5beb7bba37e5d23ff5873aed0827e23a08fdb5afd347f543d0085d4dde9cc35dd7aa8ce362383073fa0fd2a87a0340eda1320de7d132"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-AnyEvent--I3 \
 perl-AnyEvent-I3"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-AnyEvent \
 perl-AnyEvent--Handle \
 perl-AnyEvent--Socket \

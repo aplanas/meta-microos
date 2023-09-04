@@ -11,13 +11,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.02"
 
-RPM_NAME = "perl-Regexp-Trie-0.02-1.10.noarch.rpm"
-RPM_HASH = "95b99022031347b17b50ff47b35302c00ace74c70cc05e20d14e01021574a2fa6829e1c11551b5184636327185aa53a9b7abfdb2d5edb2fc487909d886db0788"
+RPM_NAME = "perl-Regexp-Trie-0.02-1.11.noarch.rpm"
+RPM_HASH = "87f3145b8ed9ee9cff38de9d33577baea3dd7b71e48f8b8a8600678577e980c2b7d9312f17910b11af44af45bc799913fe12d0036ee61cf242fd29044b205b0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Regexp--Trie \
 perl-Regexp-Trie"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

@@ -57,14 +57,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.17"
 
-RPM_NAME = "perl-IPC-ShareLite-0.17-1.39.aarch64.rpm"
-RPM_HASH = "0e6caeefb3d9d8901683a93237d999b9e422e3738ead8ca67ede9cc12fc0a5861b5dda8c667449ef4563c2c956f82d84ae98fe3a54bd856fe4b831bcb1c95817"
+RPM_NAME = "perl-IPC-ShareLite-0.17-1.40.aarch64.rpm"
+RPM_HASH = "2f0bffacc55db5f3f9e8d39c621133fdfd8ae95edede11db59e24302cd8bf0eef6dd6ec820dae7498e83c878fe6203d2b1555d2de189b5067e0bf5cdf9f534d5"
 
 RPROVIDES:${PN} += "perl-IPC--ShareLite \
 perl-IPC-ShareLite"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

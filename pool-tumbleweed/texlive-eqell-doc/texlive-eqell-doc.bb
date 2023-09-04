@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.svn22931"
 
-RPM_NAME = "texlive-eqell-doc-2023.209.svn22931-54.1.noarch.rpm"
-RPM_HASH = "ae77d287faedd20d7591e78f0993c72f01dffb5b1b74f2ae6350b37ee2410e43fd1bf121b72794f942b76271ba44676c86867bd5ed6c3f7a2ab24db4b449e940"
+RPM_NAME = "texlive-eqell-doc-2023.209.svn22931-54.2.noarch.rpm"
+RPM_HASH = "beae05c847b1b143ea1778bc5a32c6ad6b7addafbb78b46a3b1047b0e54679792feae6deaa996172a06e3bdb5716283ed8dc17174180e9802ed32dfbd6e9da1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eqell-doc"

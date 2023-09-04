@@ -5,19 +5,19 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "ghc-hslua-module-path-devel-1.1.0-1.2.aarch64.rpm"
-RPM_HASH = "3ae47ae7b378e092a060844c3b1ff7a2b0eb29517e2bd8cee593a41c25cd7ce26d572d51550b4a7d00de329adac55cc2adb48756a6205492fccc4d4302b11ab0"
+RPM_NAME = "ghc-hslua-module-path-devel-1.1.0-1.3.aarch64.rpm"
+RPM_HASH = "c60e418732cd94aedc6b2f881ce4f7c7d3972b0bab3a60929d9399d10ea97e16d606a6379f2901f4e9b744b4c943729afb3aec68d1bbb96c72ed7357bbd1417d"
 
-RPROVIDES:${PN} += "ghc-devel-hslua-module-path-1.1.0-H35lL8Cos84Ew14x3WsMMD \
+RPROVIDES:${PN} += "ghc-devel-hslua-module-path-1.1.0-3XIGPd4cIDuFY6K1e1WFz9 \
 ghc-hslua-module-path-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-filepath-1.4.2.2 \
-ghc-devel-hslua-core-2.3.1-S0Tmk0QBS1InOMEfkNHVC \
-ghc-devel-hslua-marshalling-2.3.0-1lHdh994uwdEmrYudOnEBq \
-ghc-devel-hslua-packaging-2.3.0-G1L5YnYzXF0JtyxtKuFgZ4 \
+ghc-devel-hslua-core-2.3.1-H6EUAt4RUpl9ClgBncvABk \
+ghc-devel-hslua-marshalling-2.3.0-7mBSxD4mqSw36NR9RXD4Dj \
+ghc-devel-hslua-packaging-2.3.0-4zNLfL9evW33fw96RBrzdD \
 ghc-devel-text-2.0.2 \
 ghc-hslua-module-path"
 

@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.33"
 
-RPM_NAME = "perl-Mojo-IOLoop-ReadWriteProcess-0.33-1.3.noarch.rpm"
-RPM_HASH = "0099df7259af69bb3dbd587a9fe27efb175dbeb9f0df5cba7307717df8b29465b23fd9b63aad5b0a4e7ffb80c07253d281fcd43df2546e3a6c400f1eeeff4f2d"
+RPM_NAME = "perl-Mojo-IOLoop-ReadWriteProcess-0.33-1.4.noarch.rpm"
+RPM_HASH = "18d6507d6a1945e31c509c38e6a8302504084d3df06ceba1fee13f567e37b1e8e7370cee215e44dc66e3064ee8cb61d70b9928239ba5d0c48d2fe50d34cb4f8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojo--IOLoop--ReadWriteProcess \
@@ -37,7 +37,7 @@ perl-Mojo--IOLoop--ReadWriteProcess--Shared--Memory \
 perl-Mojo--IOLoop--ReadWriteProcess--Shared--Semaphore \
 perl-Mojo-IOLoop-ReadWriteProcess"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-IPC--SharedMem \
 perl-Mojolicious"
 

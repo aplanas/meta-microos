@@ -2,10 +2,10 @@ SUMMARY = "Zsh completion for wl-clipboard"
 DESCRIPTION = "Zsh command line completion support for wl-clipboard."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.1.0"
+PV = "2.2.0"
 
-RPM_NAME = "wl-clipboard-zsh-completion-2.1.0-1.7.noarch.rpm"
-RPM_HASH = "137916c3cc74ea500349228899b2a2f3833623970202c7f330866b8473614044dc6c8e459c2e8934ddaa5c50137d6acf569dc374cb0b1d4b9ac1598cca668d64"
+RPM_NAME = "wl-clipboard-zsh-completion-2.2.0-1.1.noarch.rpm"
+RPM_HASH = "953d067541422cef61a83d936c847b8bddd125bef9b493557f5354507c44ed9c333c6115b3ded56aee6043037eda9c5833ee8e3685a62f4a71f029dba30d1ac7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wl-clipboard-zsh-completion"

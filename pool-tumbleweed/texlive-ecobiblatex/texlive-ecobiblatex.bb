@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn39233"
 
-RPM_NAME = "texlive-ecobiblatex-2023.209.1.0svn39233-54.1.noarch.rpm"
-RPM_HASH = "1ad04aae249dae32781396cc31a1885f82e5684acc00093a68fa8c1f896b98218d665bec80eb1258774552dfd814fe637bdeefbc8b2332989a1e4c7ee547915d"
+RPM_NAME = "texlive-ecobiblatex-2023.209.1.0svn39233-54.2.noarch.rpm"
+RPM_HASH = "060a6cc5c7da5297401cb5e704289a93b92c4d556da27ec029980a7c0101396a8d50a9bc145b67472d82ff2899f8befd81db7b56a78db5eb60b6c29d0aae849a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ecobiblatex.bbx \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "3.2.1"
 
-RPM_NAME = "freeradius-server-libs-3.2.1-1.6.aarch64.rpm"
-RPM_HASH = "9297305c032192ecc2060f7d8355507025c8b398eecf4e3bcc3bc86dfdb6eb5cc0ff002672187f3bf0f39b0284bbc149d230ea11e19003ba1d05f103f4808fe5"
+RPM_NAME = "freeradius-server-libs-3.2.1-1.7.aarch64.rpm"
+RPM_HASH = "2cfe702ffd2082c027e90adfff8595fc194f2651b8700ecde2aa3d176a44cbbef152e4f97514d2c3496b4508f7c1ad50d2edb4cb8f15b022f6e5b7284535252e"
 
 RPROVIDES:${PN} += "freeradius-server-libs \
 libfreeradius-dhcp.so \

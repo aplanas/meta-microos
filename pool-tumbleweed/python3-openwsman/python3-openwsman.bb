@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
 PV = "2.7.2"
 
-RPM_NAME = "python3-openwsman-2.7.2-2.8.aarch64.rpm"
-RPM_HASH = "df2189f53cc4a2a034ad635a8849cbd5f6e9da9e34f87f0fa7a78b0fb2a0094e1692a2401e7213fd4b9d91eb9e134ed25d36e302cdafccab30f94cd5aa55484d"
+RPM_NAME = "python3-openwsman-2.7.2-2.9.aarch64.rpm"
+RPM_HASH = "ebf7ea803e5fe1bb7f55bc4eda2d37cbd4f286aeb73fd86e19785a1baa5e3ebd41f0729d5af218c242c258d1066b7c0ec7ff5a3769ad0aba15a7c62e731cac68"
 
 RPROVIDES:${PN} += "openwsman-python \
 python3-openwsman"

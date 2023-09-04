@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-export-pcp2spark-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "1e36ef25a47f8dd9e5a277e81c96c12505244a296fef45f99915db31042df5452ca786924cfdf4bdd645e78ab51f17c3e57f6a525d4e95db91e26a157a6995a5"
+RPM_NAME = "pcp-export-pcp2spark-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "53a026d87b5c9e954dd33c488c5a6a969275bb06c1a4a8eed8608ca2b2a6149dca0fbda0e4d65cf8d362b79d26712ad5821b8b2786af1c44095db839eaf59ab2"
 
 RPROVIDES:${PN} += "pcp-export-pcp2spark"
 

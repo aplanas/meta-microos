@@ -6,10 +6,10 @@ specifies system-wide and per-user libpaper size catalogues, which can be \
 can also be used directly (see libpaperspecs(5))."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.1.0"
+PV = "2.1.1"
 
-RPM_NAME = "libpaper-2.1.0-1.1.aarch64.rpm"
-RPM_HASH = "9ef5c0dcd925d820240f38ddd574d00cb39d804251e97932c822b2fa74f2da6baf9a0c057f3fea6a47fc1e9f5ae2b0d5ffa8c545ac4af1a5889d8c7cec4ddd90"
+RPM_NAME = "libpaper-2.1.1-1.1.aarch64.rpm"
+RPM_HASH = "4e9ac0234751f219946c623ee3a637a9b2db97595591d280827158278459a3874a951c2af73212ee18f753a55e16d6ddcd38c4a0e31ea99ea93c6b63c069ba4a"
 
 RPROVIDES:${PN} += "config-libpaper \
 libpaper \

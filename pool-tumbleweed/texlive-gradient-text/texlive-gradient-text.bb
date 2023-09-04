@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.2svn65567"
 
-RPM_NAME = "texlive-gradient-text-2023.209.1.2svn65567-54.1.noarch.rpm"
-RPM_HASH = "5f788e841fc3c2a49c0b10223fb3187f1de8440fd6d9f8abec130410d4b41877018890f99dd90590ed17dca3194dfc19945e92d9e65ab6b0d7168a763ee25b71"
+RPM_NAME = "texlive-gradient-text-2023.209.1.2svn65567-54.2.noarch.rpm"
+RPM_HASH = "b27c4880227e2d44ad06c77b7af3c9855211f0aad4e4379c6f5c6a7eea678b5b87b35e54c9cf4e6210005dc790dff56ee311b85333c21521e6f8c2fdbe106bd9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gradient-text.sty \

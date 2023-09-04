@@ -6,10 +6,10 @@ per invoice. Can be used as a replacement for invoice in most \
 cases."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.208.svn46364"
+PV = "2023.209.svn46364"
 
-RPM_NAME = "texlive-invoice2-2023.208.svn46364-53.1.noarch.rpm"
-RPM_HASH = "4ca17ef49b0f1ae450f9f69bc0fd0724a53e55d855b26ba88c5b0f089d11ac27a0e9df5d97c9626fb47ea2d8816f70597d8c09934669525fd879c0940029f20f"
+RPM_NAME = "texlive-invoice2-2023.209.svn46364-54.1.noarch.rpm"
+RPM_HASH = "817490550dbd5c69b7eca2138bdfe9b49524c50308b69e67b666024311f6008f33ce433ca2f6842b11b20c5bc6c77a39f3c994191c0d19b5c84815f0a475e8bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-invoice2.sty \

@@ -30,13 +30,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.14"
 
-RPM_NAME = "perl-Filesys-Notify-Simple-0.14-1.15.noarch.rpm"
-RPM_HASH = "9771d17b3dad0c792e2dde66d9c77e0f43df61d44fd912a0bef5b82e7c5d44d0b64f2b429edc45d061d34758de15388a0722408197107baeaf7a6274e4a6d9f6"
+RPM_NAME = "perl-Filesys-Notify-Simple-0.14-1.16.noarch.rpm"
+RPM_HASH = "570f4db885e5719bc8c150e3a459147529e2e7c14ec5615260eff0824a4997ad49b5c13d2068fb8dc2bdb64b543b00d80fc31fe9c3b4a2604c1424f225a2d8a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Filesys--Notify--Simple \
 perl-Filesys-Notify-Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

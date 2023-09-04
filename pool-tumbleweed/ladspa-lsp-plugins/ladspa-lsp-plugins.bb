@@ -8,10 +8,10 @@ the GNU/Linux platform. \
 This is the LADSPA version of the plugins."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.2.8"
+PV = "1.2.10"
 
-RPM_NAME = "ladspa-lsp-plugins-1.2.8-1.1.aarch64.rpm"
-RPM_HASH = "0ce4d4a0a48b390b04d342451989f30221ec6b7f04c2efd37b70237292c1c74c0888c70d0629bf5232d621ac58eb1448a988283961c9f6b0d8ec1f652527890f"
+RPM_NAME = "ladspa-lsp-plugins-1.2.10-1.1.aarch64.rpm"
+RPM_HASH = "88bf45d79a465baa3381030856bcecb1d36ebf9b70ea89f960e9e50c24fa5e4ebefa77840bfed76223c99ada22447c46788faad5ea8e5338f67ef5c89c2b642e"
 
 RPROVIDES:${PN} += "ladspa-lsp-plugins"
 

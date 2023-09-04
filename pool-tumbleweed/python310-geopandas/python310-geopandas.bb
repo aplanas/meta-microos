@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.13.2"
 
-RPM_NAME = "python310-geopandas-0.13.2-1.1.noarch.rpm"
-RPM_HASH = "9949b67f51be308cb6cb5e9926ec9fdf6039dca524eeaa1ee9ced87c45ba974a4ac6ccd1f81124fe36f1483d3030362f2894e404981117d80725311e43bb018e"
+RPM_NAME = "python310-geopandas-0.13.2-1.2.noarch.rpm"
+RPM_HASH = "5899b760208b1c47865b75dc1f175b139c151cd51aff6cb76ce72dde31d6c2227fa720cff6b1db317c96c64f9f8e9da13b8d12c47860ab8647abf38208d325ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-geopandas \

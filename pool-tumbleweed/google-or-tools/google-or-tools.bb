@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "9.6"
 
-RPM_NAME = "google-or-tools-9.6-2.1.aarch64.rpm"
-RPM_HASH = "8f04f9993c6ccdf6a6d4f3514c1539ab439761ba2fb7f07b3801883421af8083f54aa2b152396295ae2201c2e9012b1964de9008ef8202020ccdf9baf8f29c96"
+RPM_NAME = "google-or-tools-9.6-3.1.aarch64.rpm"
+RPM_HASH = "cc835b638e216be70c87eec0b3471e32354483b0f96c1b6476756a33029bc6848ded5368e79401a709088ca169550dbc61571868d4d1a1be8464b3cb3fc05f4e"
 
 RPROVIDES:${PN} += "google-or-tools"
 

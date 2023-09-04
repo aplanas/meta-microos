@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.50.1"
 
-RPM_NAME = "libguestfs-rsync-1.50.1-4.1.aarch64.rpm"
-RPM_HASH = "ca61c93fe4ed3d5649a33459022ab7275c5e8663f352681338ab775546bfc7c22c5f48a7422011f8df68e4f08ae80939b322b9a8fd43c0ecab5099f62a920fb3"
+RPM_NAME = "libguestfs-rsync-1.50.1-4.2.aarch64.rpm"
+RPM_HASH = "b84191df606bd878d43dabbfea127b224942a304f56572da687fc6e9e600a38e7fb63296ba157b26b95d4fa2c75a5e2b900355483459840a864f2a3cb6d766d8"
 
 RPROVIDES:${PN} += "libguestfs-rsync"
 

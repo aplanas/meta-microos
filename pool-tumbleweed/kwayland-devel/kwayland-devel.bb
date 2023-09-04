@@ -2,10 +2,10 @@ SUMMARY = "KDE Wayland library: Build Environment"
 DESCRIPTION = "KWayland provides a Qt-style Client and Server library wrapper for the Wayland libraries."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kwayland-devel-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "64a24747c7a82aa04e46afe6454d112bdd36811731774357b4572b8699a68671712c1e83d0c20f88578cd091c833cfb1107bbd5d1dfdb72e1f454f2fdbd6ad24"
+RPM_NAME = "kwayland-devel-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "9d3e82d24383f8d64e45ec65bcdf3ec6324068dcae87ae558f117ec3a5c0c77ed53d947e7574551d02933f6b1f8258607925ea0be9eb61fa834a6f31e022d83a"
 
 RPROVIDES:${PN} += "cmake-KF5Wayland \
 kwayland-devel \

@@ -29,8 +29,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.014"
 
-RPM_NAME = "perl-Net-Server-2.014-1.2.noarch.rpm"
-RPM_HASH = "7a134dbdd138b5844461a1cb5fb25148e0fed94af9754fa8d41b65b00c3de4eda62adfbb9a39e4757e0efcbde943bbc2918c638dae8f5672bf787f8a433aa40b"
+RPM_NAME = "perl-Net-Server-2.014-1.3.noarch.rpm"
+RPM_HASH = "8c5b565204996de6004975b253fa8061ae24a1e8b93ec13b08e06024e4e3587cb842634d6874ec7f8f02d9eddbdde33579e318dd6659bb8886955774face2978"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--Server \
@@ -61,6 +61,6 @@ perl-Net--Server--TiedHandle \
 perl-Net-Server"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

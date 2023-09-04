@@ -11,8 +11,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.60"
 
-RPM_NAME = "perl-HTML-Stream-1.60-1.20.noarch.rpm"
-RPM_HASH = "1a9f0c6aa4ff361386424990d6c9fed18892f61ad9607d2bcc0bd0bf80c3c1b2ca04714939ed4f67c7ac65d92cae1ea4c9d2565d0767ea4818e76c55302447f2"
+RPM_NAME = "perl-HTML-Stream-1.60-1.21.noarch.rpm"
+RPM_HASH = "af073ac398ece5426c2bf317b27868bc96346b04b3a70b6b22459e73730906ce177c9308409a0dd579497de21942566377f367e0bff54b8b6ced74a54a5d9a6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTML--Stream \
@@ -20,6 +20,6 @@ perl-HTML--Stream--FileHandle \
 perl-HTML--Stream--Latin1 \
 perl-HTML-Stream"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

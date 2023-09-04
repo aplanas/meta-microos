@@ -3,10 +3,10 @@ DESCRIPTION = "Use this product converter to create product builds for openSUSE 
 SLE 15."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.5.5"
+PV = "1.5.6"
 
-RPM_NAME = "obs-service-product_converter-1.5.5-1.1.noarch.rpm"
-RPM_HASH = "f9eb9487b25ced17fdb163c72bf4d9493029cc68f08ef6abb977bc6837c171859d0137a93e76b963a1772a77c1b6107de68b95a3a1d6a34d0bee773f6de57532"
+RPM_NAME = "obs-service-product_converter-1.5.6-1.1.noarch.rpm"
+RPM_HASH = "4a1f39431d2a7826ddc8eb7ea5bbbefd1e06691590eb60e7f7613cc610dcfadcd0bdd5cc8eb689b36fc721b02f5567674966381ed3758adace9fe00379208187"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-product-converter \

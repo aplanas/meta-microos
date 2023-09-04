@@ -21,15 +21,15 @@ LICENSE = "GFDL-1.2-only & GPL-2.0-or-later"
 
 PV = "3.21.0"
 
-RPM_NAME = "valgrind-3.21.0-1.1.aarch64.rpm"
-RPM_HASH = "1790ff4bbb0a0511197f2fc81e267c08f69fbcd0344a98233c8bf825af1a7898e1d710be6f175ba426af044f1fb839da4e261e7df017fb9df8303725e94871e5"
+RPM_NAME = "valgrind-3.21.0-2.1.aarch64.rpm"
+RPM_HASH = "e4bafe58e96c5bdb8c765d90850d4f9b231c3931988a9cb19f06a7f63054e765a7f7b60c8727ce771913e48057351bcb6397049bc5a7ca2dc6988ef8dc3435e9"
 
 RPROVIDES:${PN} += "callgrind \
 valgrind"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "-glibc >= 2.38 with glibc < 2.39 \
+/usr/bin/env \
 /usr/bin/perl \
-glibc \
 libc.so.6"
 
 inherit rpm

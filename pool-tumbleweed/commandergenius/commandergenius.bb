@@ -1,14 +1,14 @@
-SUMMARY = "An open clone of the Commander Keen engines"
+SUMMARY = "A clone of the Commander Keen engines"
 DESCRIPTION = "Commander Genius is a software piece that interprets the Commander \
 Keen Vorticon (1-3) and Galaxy (3½-6) series. \
  \
 It has 4-player cooperative mode and six difficulty modes."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.4.0"
+PV = "3.4.9"
 
-RPM_NAME = "commandergenius-3.4.0-1.1.aarch64.rpm"
-RPM_HASH = "f443a692ebd09cfc97478e05cadcafbed62ed83e42daa360ad7c21e27661032c29f73d40952d75ffc4cf90ff6941d9acb6261c4bc01496e03b5c4f108f1e5ccb"
+RPM_NAME = "commandergenius-3.4.9-1.1.aarch64.rpm"
+RPM_HASH = "87fd08aeabe7046ecd7209c2fdbcc26149ba48f8d8e99ef46855cffb732954cc58d598e9aec93b85f649b563b627405f7b97d082aab0df3fa5b93def1a4bb82c"
 
 RPROVIDES:${PN} += "commandergenius"
 

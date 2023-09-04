@@ -6,13 +6,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.08"
 
-RPM_NAME = "perl-Class-Accessor-Lite-0.08-2.21.noarch.rpm"
-RPM_HASH = "0c8f3bf0d089276c5e632a1c66c22d42e76f3cb5b73304a19c20cacc316d08450c09b96b90cb98b82f6cb35cced69d54378e9e5045b899337ebb6e4a94290536"
+RPM_NAME = "perl-Class-Accessor-Lite-0.08-2.22.noarch.rpm"
+RPM_HASH = "8d0058bf89c30826bc022268e564d3e059dd1bdeeddf23965f9395c30ac647259e1cdfafc1ed9f0422890a898df7fce0eeaf586592089882b237792c15cfb21f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Accessor--Lite \
 perl-Class-Accessor-Lite"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

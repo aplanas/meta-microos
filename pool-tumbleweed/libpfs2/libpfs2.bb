@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.2.0"
 
-RPM_NAME = "libpfs2-2.2.0-3.15.aarch64.rpm"
-RPM_HASH = "c7b937bc289564070c6c36d28d5ab83e31611e387e6daf8d79a33d8a1c82b35fbfa50180d420f0b76a155b102abfdc4ed8b3291ed92cd070fa539a5612cafb15"
+RPM_NAME = "libpfs2-2.2.0-3.16.aarch64.rpm"
+RPM_HASH = "60af240168a445ce15f243ba76f9763c5152aea6a661d6535ff7e685aa425d3d73f8655626fc1284b784efd4e780aae7b77303045c2c2bf7e3dc68ff84f0e764"
 
 RPROVIDES:${PN} += "libpfs.so.2 \
 libpfs2"

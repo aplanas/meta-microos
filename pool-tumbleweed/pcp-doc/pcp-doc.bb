@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0+ & CC-BY-SA-3.0"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-doc-5.2.5-3.7.noarch.rpm"
-RPM_HASH = "013c5833a4d4889af70449aa446af9cec36a9582c912b0c467e00a488cf7b6dbdc845bcb44fa7adbae83f5a6e2d521add930b5f2c0058c1c87b45d6311f1ef9a"
+RPM_NAME = "pcp-doc-5.2.5-3.8.noarch.rpm"
+RPM_HASH = "6dd7e9f324032af7af8402d33f7633ca883a5a566653ec54de7a47ff338628eef0b0943851ed00f0183fd4d387178cb79982ddb501dd4e5f09836959e6f17e31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-doc"

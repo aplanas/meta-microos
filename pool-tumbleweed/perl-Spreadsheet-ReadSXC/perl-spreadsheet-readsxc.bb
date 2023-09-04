@@ -74,10 +74,10 @@ data referenced by the original return value, so you had to derefence it \
 before making another call. Thanks to H. Merijn Brand for fixing this."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.37"
+PV = "0.380.0"
 
-RPM_NAME = "perl-Spreadsheet-ReadSXC-0.37-1.9.noarch.rpm"
-RPM_HASH = "49eb5b4fb9780693efb2ec6dfaaeda81ff69bd4cff9e6edf7d74a141221f25f0775830977adef6f54797b9c096d4b6ff2e6d772b67107144d125e5871deeeec4"
+RPM_NAME = "perl-Spreadsheet-ReadSXC-0.380.0-1.1.noarch.rpm"
+RPM_HASH = "3bc8c001b5f8cb6f46e39855ad7b25bcd5413dfaf77e0d2891f9083982670e40daf5f08aba19c3627a12e3062d7858743a7f8f18815a4e0ba534d0d175253584"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Spreadsheet--ParseODS \
@@ -89,7 +89,7 @@ perl-Spreadsheet--ParseODS--Worksheet \
 perl-Spreadsheet--ReadSXC \
 perl-Spreadsheet-ReadSXC"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Archive--Zip \
 perl-Moo \
 perl-PerlIO--gzip \

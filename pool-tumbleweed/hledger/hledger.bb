@@ -12,8 +12,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.28"
 
-RPM_NAME = "hledger-1.28-3.2.aarch64.rpm"
-RPM_HASH = "ac3619c65f78ca1e6d7ba26415fd13eb5aff42f370a36c023384a830ddd48a4a4f0605f48130b032ea2589ca839dcfdec253f779f3163d09d6687baee09a3dbf"
+RPM_NAME = "hledger-1.28-3.8.aarch64.rpm"
+RPM_HASH = "81e0c96e2ac2d56d052ac8cbe9672f45008b135d82512efb18190c7889e0143eda8759b93a2f115b68f5ab7f2504943aafcc4caf4f506a1aa80aeed8bd52ecdb"
 
 RPROVIDES:${PN} += "hledger"
 

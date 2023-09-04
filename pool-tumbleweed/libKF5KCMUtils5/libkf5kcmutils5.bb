@@ -3,10 +3,10 @@ DESCRIPTION = "KCMUtils provides various classes to work with KCModules. KCModul
 created with the KConfigWidgets framework."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "libKF5KCMUtils5-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "2f19c6cc11bf4b78505f7ab8b1e8db0d2cbc05ed083c7152979eadef1a188db4ddc39713900c38d52788a59029ba05b9546ec9266d23aa4e9238da2a6617773b"
+RPM_NAME = "libKF5KCMUtils5-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "dee84c7debe140f1ce859aeeb07abe7f9d5824c6c8b5355130e58e40feabad7be2144684d0df714ad2f99c3848f0f3cde06e28c8e14e93cbdf10a54add7f7b0d"
 
 RPROVIDES:${PN} += "libKF5KCMUtils.so.5 \
 libKF5KCMUtils5"

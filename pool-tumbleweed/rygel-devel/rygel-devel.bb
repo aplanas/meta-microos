@@ -5,10 +5,10 @@ pictures, and control of media player on your home network. \
 This package provides development files for rygel."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "0.42.3"
+PV = "0.42.4"
 
-RPM_NAME = "rygel-devel-0.42.3-2.1.aarch64.rpm"
-RPM_HASH = "cd28cecbd50b5ba17e2b60b0d202c17386973662a6aa6a839008feae6f4e5ea43c9b132fc6cff170c224cbb04073a92b19f7d625063ccd54096c4bf0ba29df6e"
+RPM_NAME = "rygel-devel-0.42.4-1.1.aarch64.rpm"
+RPM_HASH = "0c9d18840d24450aa409d77a9d5e13a7e0cf28838706c1b2fd60de256f75a21ffc454b5131ad9e9610f039ca95f7c7f85798b49c5a0df4dd276dbbe9949433af"
 
 RPROVIDES:${PN} += "pkgconfig-rygel-core-2.8 \
 pkgconfig-rygel-renderer-2.8 \

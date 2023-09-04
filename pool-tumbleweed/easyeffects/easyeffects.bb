@@ -3,15 +3,16 @@ DESCRIPTION = "Easyeffects is a limiter, compressor, reverberation, stereo equal
 effects for pipewire applications."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "7.0.3"
+PV = "7.0.6"
 
-RPM_NAME = "easyeffects-7.0.3-1.2.aarch64.rpm"
-RPM_HASH = "6c165f5059da60125aac0a6273a55849067071cade7f33156fbb44a61b9421554968190d4cd50a15bd7900943605271e26c5c685236c402bfaeb3d4412733ad2"
+RPM_NAME = "easyeffects-7.0.6-1.1.aarch64.rpm"
+RPM_HASH = "366c019b79893e77272a04030fc3a1170ec70a3cba63209715cdf375b284bf215568d22cb4dabd2bd1e3091f0fa1d685149c6f6332a2c97f3e852369c1b696d9"
 
 RPROVIDES:${PN} += "easyeffects"
 
 RDEPENDS:${PN} += "dconf \
 ld-linux-aarch64.so.1 \
+libSoundTouch.so.1 \
 libadwaita-1.so.0 \
 libbs2b.so.0 \
 libc.so.6 \
@@ -32,7 +33,6 @@ libm.so.6 \
 libpango-1.0.so.0 \
 libpipewire-0.3.so.0 \
 librnnoise.so.0 \
-librubberband.so.2 \
 libsamplerate.so.0 \
 libsigc-3.0.so.0 \
 libsndfile.so.1 \

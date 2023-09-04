@@ -32,13 +32,13 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.12"
 
-RPM_NAME = "perl-Devel-Trace-0.12-1.24.noarch.rpm"
-RPM_HASH = "f66132298d6c758a91c63fbdd497cb4bf0eff41c941b23c1d88a31257a73d802690429bb227ea8093e1fb5a816048eebc9f8b3136a11da08ee5023e9209c51e9"
+RPM_NAME = "perl-Devel-Trace-0.12-1.25.noarch.rpm"
+RPM_HASH = "8b4727a784fa8120a7c5f778132954c485403f33816fced3d640c070a37cbff379f8c1477b5ced414a59ebf86d94e14f7941b641b564aa2fb3d77e674ba7d1a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--Trace \
 perl-Devel-Trace"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

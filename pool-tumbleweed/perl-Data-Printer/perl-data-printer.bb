@@ -19,10 +19,10 @@ Whenever you type 'use Data::Printer' or 'use DDP', we export two functions \
 to your namespace:"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.001000"
+PV = "1.001001"
 
-RPM_NAME = "perl-Data-Printer-1.001000-1.3.noarch.rpm"
-RPM_HASH = "a8acdefef2d7f7d43761fa3aeadc6d3641779e187f519a5143d8441526332c63c497acea7de20e8592738e0edd74858f59e3ca6d7ef3756cfc6f044b2912261b"
+RPM_NAME = "perl-Data-Printer-1.001001-1.2.noarch.rpm"
+RPM_HASH = "aeca52fcf91a5d5d82fb7f074c07b2f82f8f3630e344fcfad8516be03661912fc0e631b662ed79df08e5d43f73afa844df2ab249236e901c23c5cf511b6918f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DDP \
@@ -40,6 +40,7 @@ perl-Data--Printer--Filter--FORMAT \
 perl-Data--Printer--Filter--GLOB \
 perl-Data--Printer--Filter--GenericClass \
 perl-Data--Printer--Filter--HASH \
+perl-Data--Printer--Filter--OBJECT \
 perl-Data--Printer--Filter--REF \
 perl-Data--Printer--Filter--Regexp \
 perl-Data--Printer--Filter--SCALAR \
@@ -56,7 +57,7 @@ perl-Data--Printer--Theme--Monokai \
 perl-Data--Printer--Theme--Solarized \
 perl-Data-Printer"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-version"
 
 inherit rpm

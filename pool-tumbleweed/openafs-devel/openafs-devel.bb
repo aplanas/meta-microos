@@ -13,8 +13,8 @@ LICENSE = "IPL-1.0"
 
 PV = "1.8.10"
 
-RPM_NAME = "openafs-devel-1.8.10-1.4.aarch64.rpm"
-RPM_HASH = "b17ae9889b17329046a0f185c5c9a27db1fca0139be6e9c5dff89e602e557a80e70c35df5c7659df5c2f4c5ed2c9019dd01141bebbec68b622f864c2b7262cc1"
+RPM_NAME = "openafs-devel-1.8.10-1.7.aarch64.rpm"
+RPM_HASH = "6bee682deac112844e94d7cacac4dd7dcf3b369915ba4fe8c166389fd8100c94e2ad4689a97bcc877b95c3bccae5ffc2695f560cc02604254b5103def650452f"
 
 RPROVIDES:${PN} += "openafs-devel \
 perl-AFS--ukernel \

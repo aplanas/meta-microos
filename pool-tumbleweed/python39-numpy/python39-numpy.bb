@@ -11,22 +11,24 @@ There are also basic facilities for discrete fourier transform, \
 basic linear algebra and random number generation."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.24.2"
+PV = "1.25.2"
 
-RPM_NAME = "python39-numpy-1.24.2-4.1.aarch64.rpm"
-RPM_HASH = "2f993b0d059130dc8ef8986f13886a9d64129ad11c6bb489355396dc3c82f1a5eee61f60ac3463cc02ab272ead9d681d11ee1021509ba779239ab7d0e5b11530"
+RPM_NAME = "python39-numpy-1.25.2-1.1.aarch64.rpm"
+RPM_HASH = "d534be7acdbd1f46a09988f2d566b58b70bcf903c17e7779781e43cc1653b126a785280309ece95ccbcde94abd412f982f6ad57b29347089bc045ac47cf86cf0"
 
 RPROVIDES:${PN} += "python3.9dist-numpy \
 python39-numpy \
 python3dist-numpy"
 
-RDEPENDS:${PN} += "/usr/bin/python3.9 \
+RDEPENDS:${PN} += "/usr/bin/python3.11 \
+/usr/bin/python3.9 \
 /usr/bin/sh \
 alts \
 ld-linux-aarch64.so.1 \
 libblas.so.3 \
 libc.so.6 \
 libcblas.so.3 \
+libgcc-s.so.1 \
 liblapack.so.3 \
 libm.so.6 \
 python-abi"

@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.2.1.1svn57544"
 
-RPM_NAME = "texlive-ebproof-2023.209.2.1.1svn57544-54.1.noarch.rpm"
-RPM_HASH = "dc4f90e92cb6609d6409326a1407801f7b1cd5375fda0e7ca16ee732fea0cf33b5994f1e9ba18569e8849ef9df06bde0c5d4e66cf51635a0564b88670d1f3d6d"
+RPM_NAME = "texlive-ebproof-2023.209.2.1.1svn57544-54.2.noarch.rpm"
+RPM_HASH = "229ad4dd3a8dfeb0175e7e6cf0abec7632a504420aca171da2397957e709f29596028396bfeccb91c7db03bc6c85378e3c60ed38a61861df112b28a369318353"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ebproof.sty \

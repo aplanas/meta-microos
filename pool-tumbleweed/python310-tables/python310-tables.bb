@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.0"
 
-RPM_NAME = "python310-tables-3.8.0-2.3.aarch64.rpm"
-RPM_HASH = "02c6622d95f1a2d8e46d55e5bfdc1773189396728a9f50addc79129a48d6f19ff8fe7fadb7b35af651301e76fda73ee02a86fbcc662615b3a6a3dca53eec42da"
+RPM_NAME = "python310-tables-3.8.0-4.1.aarch64.rpm"
+RPM_HASH = "717b2912c740be451e4d3dbaccdbfe3a18c48784bdaf0cc125c3e872bda3fc355e2d5e5e668e1e9abc01c68ea11558d0d8326f9a7f87f82d7df5ac8b340ac5b1"
 
 RPROVIDES:${PN} += "python3.10dist-tables \
 python310-tables \

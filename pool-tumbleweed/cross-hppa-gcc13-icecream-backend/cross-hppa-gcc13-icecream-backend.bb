@@ -2,10 +2,10 @@ SUMMARY = "Icecream backend for the GNU C Compiler"
 DESCRIPTION = "This package contains the icecream environment for the GNU C Compiler"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7597"
+PV = "13.2.1+git7683"
 
-RPM_NAME = "cross-hppa-gcc13-icecream-backend-13.1.1+git7597-1.1.aarch64.rpm"
-RPM_HASH = "934f0b0adcc3f0a84100832c604f38dfd7c2292d00b81ae1049f8971234546153843fc73377b44d3f7d2d8503ce5630f2b3b86515c9f8259b0a676b945839b95"
+RPM_NAME = "cross-hppa-gcc13-icecream-backend-13.2.1+git7683-1.1.aarch64.rpm"
+RPM_HASH = "e7013a5d32dcfee7fe4ac54bba0d1ba6cc4a21a87ffa5266fdb5d5c91c07b377a98b8a04d528798b966b4a33760ffb127230bc3fe5e2d320276d987800389029"
 
 RPROVIDES:${PN} += "cross-hppa-gcc13-icecream-backend"
 

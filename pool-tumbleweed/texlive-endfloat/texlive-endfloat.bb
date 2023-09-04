@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.2.7svn57090"
 
-RPM_NAME = "texlive-endfloat-2023.209.2.7svn57090-54.1.noarch.rpm"
-RPM_HASH = "1c1a55e806c2e077e455ec7b5aa80265658abed2a14da3a73c8224dfe46a4668e31c308dd4eb05b28abce2518cb448d412c03c20bd8143078d58d75e811f1482"
+RPM_NAME = "texlive-endfloat-2023.209.2.7svn57090-54.2.noarch.rpm"
+RPM_HASH = "4b3fc0a84606b0f6700eec2cb8c08905cfc70e60f1e3fed83a2a23821c3cf805e85c72fc9d7edb8e54f5b66a24422fbc4c3aa0b4656cc6f5a1fb44fcc107d3b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-endfloat.sty \

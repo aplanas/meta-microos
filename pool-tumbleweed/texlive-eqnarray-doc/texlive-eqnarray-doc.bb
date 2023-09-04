@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.1.3svn20641"
 
-RPM_NAME = "texlive-eqnarray-doc-2023.209.1.3svn20641-54.1.noarch.rpm"
-RPM_HASH = "f79173f171a2d3446fcbe8966f4be853e695ee1743198e15804901fd841062e2ca5f97d9a51b89f090b8ccd2175793a6073984f47e203fd4bb770ce3de340cba"
+RPM_NAME = "texlive-eqnarray-doc-2023.209.1.3svn20641-54.2.noarch.rpm"
+RPM_HASH = "1b52b5fea1476dc11ba625ca66234a6c5c56c9bac1fab97cb1d1f39cd6ccd6a05c2bd23a29a818d8f3b0c5d71ad7512915ce04a8634c17c82af9066735301d73"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eqnarray-doc"

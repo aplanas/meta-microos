@@ -2,10 +2,10 @@ SUMMARY = "TIFF document support for Xreader"
 DESCRIPTION = "A plugin for Xreader to read TIFF documents."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
-PV = "3.4.5"
+PV = "3.8.2"
 
-RPM_NAME = "xreader-plugin-tiffdocument-3.4.5-1.5.aarch64.rpm"
-RPM_HASH = "53473b6f005b41bf5a0331a2ef7a4c5213f30db5316fc6c3c8f02cdee098d08ca78b82a80611f7a7582a15f85ec243fd4505c7e6eeafee730121ac77c3549f8a"
+RPM_NAME = "xreader-plugin-tiffdocument-3.8.2-1.1.aarch64.rpm"
+RPM_HASH = "59f2d16139495fca23e7b224775fa87b1d7aa173fe39658a2de7d8d990817aaa9971104c17f7a8ab25234a1b39dae1d0ef4b92fd95e200869053cc9f41ff359a"
 
 RPROVIDES:${PN} += "libtiffdocument.so \
 xreader-plugin-tiffdocument"

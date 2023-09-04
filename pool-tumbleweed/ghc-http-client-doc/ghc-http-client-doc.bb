@@ -2,10 +2,10 @@ SUMMARY = "Haskell http-client library documentation"
 DESCRIPTION = "This package provides the Haskell http-client library documentation."
 LICENSE = "MIT"
 
-PV = "0.7.13.1"
+PV = "0.7.14"
 
-RPM_NAME = "ghc-http-client-doc-0.7.13.1-3.7.noarch.rpm"
-RPM_HASH = "b93c5391764d9b08b710211027d3c9d71a5f3298df1bc1ea49a6a2ac812e96f21679d187643dee8d117ea950f209c34c879c4ee23779b3f506fed014460fad0a"
+RPM_NAME = "ghc-http-client-doc-0.7.14-1.1.noarch.rpm"
+RPM_HASH = "7fe8bb7108f27251dfc25c0a78a56fa1c6c6f64121591a14f881ff5ca4b163206c57116aad12fefce482a2c1ac4f655161501bdda464be6911943e5073e96c27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-http-client-doc"

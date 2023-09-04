@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause
 
 PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "ceph-base-16.2.13.66+g54799ee0666-3.1.aarch64.rpm"
-RPM_HASH = "1c0d58e766797bcfa37bfe95d96d4e56cec1ab4643b530abef9df97563f4cb8ef080edd218b45e3a971eb0d6ce00df4837fdeec84aff3c10ead1cc9ae2bbd6fd"
+RPM_NAME = "ceph-base-16.2.13.66+g54799ee0666-4.1.aarch64.rpm"
+RPM_HASH = "9a268c6588b05151ee50c2f49639f592ea7a56a2d14b4f7c5f73635430156140618c0f6a33d1eab2c971779d212f058d4f3435bbbc2826864907da88428be2df"
 
 RPROVIDES:${PN} += "ceph-base \
 ceph-test-/usr/bin/ceph-kvstore-tool \

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.003svn24649"
 
-RPM_NAME = "texlive-punknova-doc-2023.209.1.003svn24649-54.1.noarch.rpm"
-RPM_HASH = "221b2113527f1bc31f25d666803621b31a5db87efb5270ec415b041ef11079e1dd6046d4db6c843f2cdf845c11f422be91aa491641a89721235bb197f3854dbd"
+RPM_NAME = "texlive-punknova-doc-2023.209.1.003svn24649-54.2.noarch.rpm"
+RPM_HASH = "c491928128869b810cb1f9a932edda512fbaf118c016fe4dfe15acbcd5d1711fddd54cc53b9a08333c1657b5dc3870f46e8f0a009971d5306ef6cd8952bdd0ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-punknova-doc"

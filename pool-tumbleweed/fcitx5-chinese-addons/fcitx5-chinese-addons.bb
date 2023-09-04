@@ -2,10 +2,10 @@ SUMMARY = "Pinyin and Table IM support for fcitx5"
 DESCRIPTION = "This provides pinyin and table input method support for fcitx5."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "5.0.17"
+PV = "5.1.0"
 
-RPM_NAME = "fcitx5-chinese-addons-5.0.17-1.1.aarch64.rpm"
-RPM_HASH = "c31d44029a9d632fd4718107cb8b371de01c0584a64cdc19ca8927dba13aace8729bfb50263ac54ef483b2b41e7cbd9e13a8f658b4e4be1c4b803d7c8eb1751b"
+RPM_NAME = "fcitx5-chinese-addons-5.1.0-1.1.aarch64.rpm"
+RPM_HASH = "ed576a91644730a180c6f2d9dbbcaa6bae702133ef2ff9ee349165a61a916ac15861ed08a106680a301a17e6b22174ce5115bb878ff2921c6a3c179053da2062"
 
 RPROVIDES:${PN} += "fcitx-cloudpinyin \
 fcitx-googlepinyin \
@@ -24,6 +24,7 @@ fcitx-table-cn-ziran \
 fcitx5-chinese-addons \
 libchttrans.so \
 libcloudpinyin.so \
+libcustomphraseeditor.so \
 libfullwidth.so \
 libpinyin.so \
 libpinyinhelper.so \
@@ -33,10 +34,14 @@ libtable.so"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libFcitx5Config.so.6 \
 libFcitx5Core.so.7 \
+libFcitx5Qt5WidgetsAddons.so.2 \
 libFcitx5Utils.so.2 \
 libIMECore.so.0 \
 libIMEPinyin.so.0 \
 libIMETable.so.0 \
+libQt5Core.so.5 \
+libQt5Gui.so.5 \
+libQt5Widgets.so.5 \
 libboost-iostreams.so.1.82.0 \
 libc.so.6 \
 libcurl.so.4 \

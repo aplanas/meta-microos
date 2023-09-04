@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.48.3"
 
-RPM_NAME = "libatk-bridge-2_0-0-2.48.3-1.1.aarch64.rpm"
-RPM_HASH = "f57c0c8dd24ca84f09e9d0facc11cf749bdf31b2a64d6916a5d60591008c7a32c89e938ceca3f941af3ec2e0d72f184813e40013cf91eb557acfadac12237ac8"
+RPM_NAME = "libatk-bridge-2_0-0-2.48.3-2.1.aarch64.rpm"
+RPM_HASH = "4f966543b01e68f758b3f904ed6adefe781acbddebd9bb797afff6f93b23af8beda4901b568a37e460d4b0559b18160ba210d0976f7cb49755291b920357017c"
 
 RPROVIDES:${PN} += "libatk-bridge-2-0-0 \
 libatk-bridge-2.0.so.0"

@@ -2,10 +2,10 @@ SUMMARY = "Libskk input method engine for Fcitx5"
 DESCRIPTION = "fcitx-skk is an input method engine for Fcitx, which uses libskk as its backend."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.0.15"
+PV = "5.1.0"
 
-RPM_NAME = "fcitx5-skk-5.0.15-1.2.aarch64.rpm"
-RPM_HASH = "bc69188794991ace17aa68a12a2b8b9d823f610ecd764b31ab9216e193eca80ac1301a2f8009ef96f68ea75cd7ca0e687f3b35e19ea0969081b00ab517854432"
+RPM_NAME = "fcitx5-skk-5.1.0-1.1.aarch64.rpm"
+RPM_HASH = "0f8e80256d6f581c6bc7a756804613cbf8801c190271fab4841437962b4da7a73a7e19e400629c524bd39bb8901f9e10568c5b423238709f749f1a350c003c6e"
 
 RPROVIDES:${PN} += "fcitx-skk \
 fcitx5-skk \

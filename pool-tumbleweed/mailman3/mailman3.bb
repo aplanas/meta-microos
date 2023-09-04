@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.3.8"
 
-RPM_NAME = "mailman3-3.3.8-3.1.noarch.rpm"
-RPM_HASH = "cba6db0be52e3f83405271ef84fb1e07a8beb0103c0bd1573230ad2916640221c0b80a5b38acda601fe3ff3a3ed87320162c56eeb54045eea808d61de003931d"
+RPM_NAME = "mailman3-3.3.8-4.1.noarch.rpm"
+RPM_HASH = "1f55eeb5ac06b1510c8d03339a7eed3960224b5c18bffa3cd87587256f3aa813ee3daa9acf7696692e77172bfcd835abb197306ec9542edddbda39ae3eec1eda"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-mailman3 \
@@ -36,6 +36,7 @@ python311-gunicorn \
 python311-importlib-resources \
 python311-lazr.config \
 python311-passlib \
+python311-psycopg2 \
 python311-python-dateutil \
 python311-requests \
 python311-setuptools \

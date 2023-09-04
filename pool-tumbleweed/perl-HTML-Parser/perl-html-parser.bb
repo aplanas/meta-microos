@@ -21,8 +21,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "3.81"
 
-RPM_NAME = "perl-HTML-Parser-3.81-1.4.aarch64.rpm"
-RPM_HASH = "714ec9190c2cba796631165cce6b40e3559b4e4ffca389d4511fea30c3d4b667665634fb88feb341e5054d2616f49cc300e2538cfa641c004431fcbaf4de94ed"
+RPM_NAME = "perl-HTML-Parser-3.81-1.5.aarch64.rpm"
+RPM_HASH = "027e81dea3953142f93497aa0ed2ee412e9276413088c932299a0c354b9ac6fcac3edcada58200c79fbdcca5fbb9730095e7a8ee017af86de5fc00edb4dcf3ca"
 
 RPROVIDES:${PN} += "perl-HTML--Entities \
 perl-HTML--Filter \
@@ -35,7 +35,7 @@ perl-HTML-Parser"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-HTML--Tagset \
 perl-HTTP--Headers \
 perl-URI \

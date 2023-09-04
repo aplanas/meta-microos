@@ -4,10 +4,10 @@ streaming and processing. It is written in pure C and based upon the \
 oRTP library."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "5.2.73"
+PV = "5.2.98"
 
-RPM_NAME = "mediastreamer2-5.2.73-1.1.aarch64.rpm"
-RPM_HASH = "a08bf6d2a74c5aabda4f14f92cd8ba0f12d6cf0adc02f44a86cd82a6d9b8b77986dc5b1e4ce7e8ff7e599463e4cf863afadf0217350e8eb1d6b619307918e46b"
+RPM_NAME = "mediastreamer2-5.2.98-1.1.aarch64.rpm"
+RPM_HASH = "a6711a8df95eb607a8c1acc82c400fc825e16026510406a47925f0379fc90e8bf1e204f76e6a2266874b2dbc68e1fba82ffbc988452ac8d7c098fe8f744adbda"
 
 RPROVIDES:${PN} += "mediastreamer2"
 

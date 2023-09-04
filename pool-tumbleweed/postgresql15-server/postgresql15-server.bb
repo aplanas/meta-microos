@@ -9,10 +9,10 @@ PostgreSQL server, which will in turn allow you to create and maintain \
 PostgreSQL databases."
 LICENSE = "PostgreSQL"
 
-PV = "15.3"
+PV = "15.4"
 
-RPM_NAME = "postgresql15-server-15.3-1.5.aarch64.rpm"
-RPM_HASH = "8c9a489d5c6760acb98e1ce83bf1de00085820c4dae1b4611a0716880f75000ff3f7782900989889e0ef5ba7dd620e452417cfccd79dfc7151a6e8a24dc33ad7"
+RPM_NAME = "postgresql15-server-15.4-1.1.aarch64.rpm"
+RPM_HASH = "e82d9e828f45eda964a7849743741eed93eed657a47880238c9312fe9b69446c22f2ac8a5487f56146c1a0fc5956e7fda46579fe3d7074cc680d53d0cdf1a6bd"
 
 RPROVIDES:${PN} += "libpqwalreceiver.so \
 postgresql-server-implementation \

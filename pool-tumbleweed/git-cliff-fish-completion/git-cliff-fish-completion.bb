@@ -4,8 +4,8 @@ LICENSE = "(Apache-2.0 | MIT) & Unicode-DFS-2016 & (0BSD | MIT | Apache-2.0) & (
 
 PV = "1.2.0"
 
-RPM_NAME = "git-cliff-fish-completion-1.2.0-1.2.noarch.rpm"
-RPM_HASH = "5d7832bb12cf9209e372e52d9dc40a3bb8895ff8a0c663d2472d21dd51cdb44737515753b77bc2e1505c45fb343a102d67db131fe44c446c95b2d41543d4a9ae"
+RPM_NAME = "git-cliff-fish-completion-1.2.0-2.1.noarch.rpm"
+RPM_HASH = "337c73f4b396b0ddeb6d622d08dd4287660826ad388c65bd956482806f4c84833107f12e88fc85efcded27eef0a80c50c66ea6457f9d069deab6586dccd020fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-cliff-fish-completion"

@@ -5,8 +5,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.49.3"
 
-RPM_NAME = "graphviz-php-2.49.3-6.8.aarch64.rpm"
-RPM_HASH = "f174e858d38ed6492367f3a023a3724ebdc493db1ce621a2ee4c1fa6b9bd6d1c4803d0c4ceeb1df4299f03979ee7507d957aa10366ecd2fb0d1e9c226a36bb03"
+RPM_NAME = "graphviz-php-2.49.3-6.9.aarch64.rpm"
+RPM_HASH = "dee53b492be163b4fa1920d2efa690904af4ede546756f9d1a65ae8d5f358d2525fd335dd912edf8f5dd49e3c247613d1cd432a68ea0b0bb1cdb6714ba092f32"
 
 RPROVIDES:${PN} += "config-graphviz-php \
 graphviz-php \

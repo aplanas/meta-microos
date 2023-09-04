@@ -3,10 +3,10 @@ DESCRIPTION = "The storage driver backend adding implementation of the storage A
 volumes using libiscsi direct connection."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.5.0"
+PV = "9.6.0"
 
-RPM_NAME = "libvirt-daemon-driver-storage-iscsi-direct-9.5.0-2.1.aarch64.rpm"
-RPM_HASH = "7197633c29b50862b107abac1c7c7bd906a7e6e103ba3595a09f136b53a72719492621af1f2efe8ea54d3e1a24c667d9bc8422f2363631ed3946a0e075a95795"
+RPM_NAME = "libvirt-daemon-driver-storage-iscsi-direct-9.6.0-2.1.aarch64.rpm"
+RPM_HASH = "22e8b794bb22b5e42156407ee7611c2ec6bf8e08bb66e3c9ac49df9578173d2f20babbd84b574bf3c2cb165b5fcae602b5bdcbe038139bc4118509b98e7c45f2"
 
 RPROVIDES:${PN} += "libvirt-daemon-driver-storage-iscsi-direct \
 libvirt-storage-backend-iscsi-direct.so"

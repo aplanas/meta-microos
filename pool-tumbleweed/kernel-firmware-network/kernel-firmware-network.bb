@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 various network drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230724"
+PV = "20230814"
 
-RPM_NAME = "kernel-firmware-network-20230724-1.1.noarch.rpm"
-RPM_HASH = "bd1b0b78e1035c4df68b5c1ab0a7aede5bf881dc27d75f21a7ea969f232e7c1c3caec8aed0510ad9d5735b26fce353da749047e2526ea19f26b9c0ea6a9808b3"
+RPM_NAME = "kernel-firmware-network-20230814-1.1.noarch.rpm"
+RPM_HASH = "5fd13074d83446b362b5d4032b6fe35c81a7d92d36460825aeb347daeb0bb62b705c1650c5dc79ac8f3910ba1729660c3453acce0654c1fe07c4ca4b7ff15d13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-3com/typhoon.bin \
@@ -25,6 +25,7 @@ firmware-e100/d101m-ucode.bin \
 firmware-e100/d101s-ucode.bin \
 firmware-e100/d102e-ucode.bin \
 firmware-intel/ice/ddp-comms/ice-comms-1.3.40.0.pkg \
+firmware-intel/ice/ddp-lag/ice-lag-1.3.1.0.pkg \
 firmware-intel/ice/ddp-wireless-edge/ice-wireless-edge-1.3.10.0.pkg \
 firmware-intel/ice/ddp/ice-1.3.30.0.pkg \
 firmware-intel/ice/ddp/ice.pkg \

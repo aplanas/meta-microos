@@ -4,20 +4,20 @@ LICENSE = "MIT"
 
 PV = "1.4.1"
 
-RPM_NAME = "ghc-hslua-cli-devel-1.4.1-1.2.aarch64.rpm"
-RPM_HASH = "75d84ae89da341d9b3f93d45ae481a86ff254f4f656b383ce36b17be5d00cf297b1cf8cbc7d4b672f70c70a458772dfa48cfc66f3b304db6a26377067d483ad9"
+RPM_NAME = "ghc-hslua-cli-devel-1.4.1-1.3.aarch64.rpm"
+RPM_HASH = "c39618f8db91845b0fd2bf0f955608ad8f6b1e1c7119a7e4af9a3f47f6f63b1cb90200b52e79a41dd6776b2fb4eb3f25ac551237892ae12fb8d89bfb41ba247e"
 
-RPROVIDES:${PN} += "ghc-devel-hslua-cli-1.4.1-EEaz0ST6ErtHZSjIcYe3Kp \
+RPROVIDES:${PN} += "ghc-devel-hslua-cli-1.4.1-3ALOS2CE98w5DVmGh3IYfg \
 ghc-hslua-cli-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0 \
-ghc-devel-hslua-core-2.3.1-S0Tmk0QBS1InOMEfkNHVC \
-ghc-devel-hslua-marshalling-2.3.0-1lHdh994uwdEmrYudOnEBq \
-ghc-devel-hslua-repl-0.1.1-Cn1WzYftAVL4Hlxy0N0ea1 \
-ghc-devel-lua-2.3.1-16mGxirchUh4T3oJJYdFzu \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1 \
+ghc-devel-hslua-core-2.3.1-H6EUAt4RUpl9ClgBncvABk \
+ghc-devel-hslua-marshalling-2.3.0-7mBSxD4mqSw36NR9RXD4Dj \
+ghc-devel-hslua-repl-0.1.1-AT3e5G0H4So5vj4IgGLSDC \
+ghc-devel-lua-2.3.1-IuAZ4Y3Pnt2ACNXikcgl6h \
 ghc-devel-text-2.0.2 \
 ghc-devel-unix-2.7.3 \
 ghc-hslua-cli"

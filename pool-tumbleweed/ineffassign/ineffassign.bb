@@ -4,10 +4,10 @@ its analysis. (For example, assignments to struct fields are never marked as \
 ineffectual.) It should, however, never give any false positives."
 LICENSE = "MIT"
 
-PV = "0.0.0+git20210225.2e10b26"
+PV = "0.0.0+git20230610.0e73809"
 
-RPM_NAME = "ineffassign-0.0.0+git20210225.2e10b26-1.13.aarch64.rpm"
-RPM_HASH = "34de2d4f46248dc51f1d0a6f33fc6fdd4765f86b24750d090536ed481776f82f02301b72c291534f381310637b61892460a78fcab989e7e64333be4b8ae1bf18"
+RPM_NAME = "ineffassign-0.0.0+git20230610.0e73809-1.1.aarch64.rpm"
+RPM_HASH = "3426c9dbd66765594ca83e62c5063dd27953537fc765aa6d9c99cfa8e3a7676d0f6fb78618130486ae09aa13fe22c1362bc873a9ae58efb1e228e6c800356389"
 
 RPROVIDES:${PN} += "ineffassign"
 

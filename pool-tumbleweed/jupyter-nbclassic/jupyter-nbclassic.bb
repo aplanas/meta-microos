@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.0"
 
-RPM_NAME = "jupyter-nbclassic-1.0.0-1.4.noarch.rpm"
-RPM_HASH = "7b46e17b648f68080d3428e8458092b5e0d422881e246f6fca53e03796c8fd7452f7c17bf03b82abdc70ffe3515450b94d69a8a37c9b0255637e0dee8f0012ca"
+RPM_NAME = "jupyter-nbclassic-1.0.0-2.1.noarch.rpm"
+RPM_HASH = "5538716147a5ce3ec0d476bc52afed1dcb0dba4229d5fe701f77b4b07c85e46749becbf07f62d7a7f67e1faa99fa7edffeec83a5dd53319391802806d760118a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-nbclassic"

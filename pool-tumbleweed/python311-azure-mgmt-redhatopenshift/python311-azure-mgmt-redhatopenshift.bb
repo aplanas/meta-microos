@@ -4,10 +4,10 @@ DESCRIPTION = "This is the Microsoft Azure Red Hat Openshift Management Client L
 This package has been tested with Python 2.7, 3.5, 3.6, 3.7 and 3.8."
 LICENSE = "MIT"
 
-PV = "1.2.0"
+PV = "1.3.0"
 
-RPM_NAME = "python311-azure-mgmt-redhatopenshift-1.2.0-1.4.noarch.rpm"
-RPM_HASH = "d68d067ba586ad2848248eeec944da1822cbb58be1b51a0afca4b8445cf622666a3811f94c2e73132745d926ec3167b9234937b673931e7aaeb6c91430720498"
+RPM_NAME = "python311-azure-mgmt-redhatopenshift-1.3.0-1.1.noarch.rpm"
+RPM_HASH = "1ae1d6de42b0822d4bb6991532f3423b3dd2db74202bce51203c560b3390dfe474090d39737d9a46c7293a0e5b48007d917e492bc11b86f4104dbbf33b0f095c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-redhatopenshift \
@@ -20,6 +20,6 @@ python311-azure-common \
 python311-azure-mgmt-core \
 python311-azure-mgmt-nspkg \
 python311-azure-nspkg \
-python311-msrest"
+python311-isodate"
 
 inherit rpm

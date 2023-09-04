@@ -83,8 +83,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.5001"
 
-RPM_NAME = "perl-Test-LectroTest-0.5001-1.18.noarch.rpm"
-RPM_HASH = "f928b1dff5bb2dcf37ce637c784790eeef934560c069bfeee8127ce91ad3c70de62b1c62a7e6c0e222d8f95a8443a35029377a83d9dd908c1ddc30b404fc8b1f"
+RPM_NAME = "perl-Test-LectroTest-0.5001-1.19.noarch.rpm"
+RPM_HASH = "abba719b067f8d0266a01aedb1dc905d61334e41645b6478d4f67231cc6308741d1e1f722a9d7f70309e57048454c138c33a341de61949f3168209d687f77ba5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--LectroTest \
@@ -97,6 +97,6 @@ perl-Test--LectroTest--TestRunner--results \
 perl-Test--LectroTest--TestRunner--testcontroller \
 perl-Test-LectroTest"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

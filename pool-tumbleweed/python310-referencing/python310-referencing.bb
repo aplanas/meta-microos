@@ -2,10 +2,10 @@ SUMMARY = "JSON Referencing + Python"
 DESCRIPTION = "JSON Referencing + Python"
 LICENSE = "MIT"
 
-PV = "0.30.0"
+PV = "0.30.2"
 
-RPM_NAME = "python310-referencing-0.30.0-1.1.noarch.rpm"
-RPM_HASH = "ece796b8c73ce7ac4c71631d4e4b6443cf4619e78fe1c1c2162d22cf7dcab43e1dc32259b3673fb887446061abc45d4c1e1dae3e407e8a0eed73071fa1dff441"
+RPM_NAME = "python310-referencing-0.30.2-1.1.noarch.rpm"
+RPM_HASH = "5aeec1340b626606e9723b50db2774a913f90260b1d599fab992409a4b6ac67919946aed6a0581f9e7fd223122948299f9150b12ed0ee420881b9f4caac0e2c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-referencing \

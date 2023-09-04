@@ -11,10 +11,10 @@ mips, sparc, and xtensa. (The term 'extra' is juxtapositioned against more \
 popular QEMU packages which are dedicated to a single architecture.)"
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.3"
+PV = "8.0.4"
 
-RPM_NAME = "qemu-extra-8.0.3-2.1.aarch64.rpm"
-RPM_HASH = "41b54fed037c35acdd18d46717bf226dca3892d34dab14454a3ceae93a1b47e5d80e98c99d224e6e307dd9edfcbbc9a3b8f554c835509d850f2dfb3a69e9a9d6"
+RPM_NAME = "qemu-extra-8.0.4-1.1.aarch64.rpm"
+RPM_HASH = "6f7aeada5948563bd24b08a250c8d2b5093457835e3482f4549d16b4f73d1263657f4c7c5a6eff73256002c9c85c570020c2438097cf731413ca320a6ecb4544"
 
 RPROVIDES:${PN} += "qemu-extra"
 

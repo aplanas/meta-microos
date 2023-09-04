@@ -11,8 +11,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn19082"
 
-RPM_NAME = "texlive-rlepsf-2023.209.svn19082-54.1.noarch.rpm"
-RPM_HASH = "d8c53167abfd0331f2abf1e49c09f42ec0ee35b1f842d40f62cd53c8e3074636283804a3568a19dafa96ce7a433de6808c55d5c335a5d2c6589d7ceaead52780"
+RPM_NAME = "texlive-rlepsf-2023.209.svn19082-54.2.noarch.rpm"
+RPM_HASH = "aa084e90bc6e327edcbec46b0aa1b0e8276d55ab3cbcd3058d88fa37ca941c81fe02d5131d70e0cdb8559309d5b159b9349da2071e00af5f879aa122dc702f98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rlepsf.tex \

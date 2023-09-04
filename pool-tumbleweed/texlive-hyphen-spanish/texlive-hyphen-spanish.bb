@@ -2,10 +2,10 @@ SUMMARY = "Spanish hyphenation patterns"
 DESCRIPTION = "Hyphenation patterns for Spanish in T1/EC and UTF-8 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.5.0svn58652"
+PV = "2023.209.5.0svn58652"
 
-RPM_NAME = "texlive-hyphen-spanish-2023.208.5.0svn58652-53.1.noarch.rpm"
-RPM_HASH = "83ef4685be7f97d3439a1497db064e83b25d2c54e92a5dc40cb10d01fb6edad61691999e7b1bb15a728250299163ffd2398ab14a227e3482a71dc98fac58bc52"
+RPM_NAME = "texlive-hyphen-spanish-2023.209.5.0svn58652-54.1.noarch.rpm"
+RPM_HASH = "a912b2340502b556b840b9d6a37f471ab59ed5f517be073699155888724ade8ffe9172b8efcfadd534dc0b92429e90914ba025090056187c68238f3562de9c66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-es.ec.tex \

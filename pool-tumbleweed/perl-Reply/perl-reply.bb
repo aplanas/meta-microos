@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.42"
 
-RPM_NAME = "perl-Reply-0.42-1.13.noarch.rpm"
-RPM_HASH = "b276e9a85523f34ad362f6472a022a6b96356b2ade5aca92b78628c6e18fc479129cdedb8bb6c57b330f0d9f16397532593d3d0d7600735e07ed79aa1fe3d830"
+RPM_NAME = "perl-Reply-0.42-1.14.noarch.rpm"
+RPM_HASH = "115ba474ada555bca26a4cf330440cf45203f4e736d686e1f69526977abe13cf845e19f433e522de7f751a0d233990190f016a258e4546d2a882a8159f4a0353"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Reply \
@@ -46,7 +46,7 @@ perl-Reply--Plugin--Timer \
 perl-Reply--Util"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Config--INI--Reader--Ordered \
 perl-Devel--LexAlias \
 perl-Eval--Closure \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.21.22"
 
-RPM_NAME = "dpkg-lang-1.21.22-1.1.noarch.rpm"
-RPM_HASH = "b29b3ccc6f7acf9ede26104920e3406f9eef908db9b3bd5c89f1bf143e2d845f62b7c730b25774ea9c67f9a55f9fdbfdfc839f8de43403631426817c0c03ad68"
+RPM_NAME = "dpkg-lang-1.21.22-1.2.noarch.rpm"
+RPM_HASH = "56362965073226561fe92c7f6e7d1e96db1126d1a314f80058b413d62e4eff1f709a95c20123faa3776a1e9ebfb6d5e431db9fd8251972b42c89f74e087594fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dpkg-lang \

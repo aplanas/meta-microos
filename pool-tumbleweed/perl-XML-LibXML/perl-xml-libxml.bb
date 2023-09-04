@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.0209"
 
-RPM_NAME = "perl-XML-LibXML-2.0209-1.1.aarch64.rpm"
-RPM_HASH = "6cd185cfa8577cc3cc4538c7505ab22d01f52dff639ecf3965eebed886c0959f51b969561a429c45fd3904c4f5f6e19f22fa61f2699f8758975916296a55b9a1"
+RPM_NAME = "perl-XML-LibXML-2.0209-1.2.aarch64.rpm"
+RPM_HASH = "2a97c3af4ceef2fc8b012912aeac424afb991f39ef9817564ec39cc6344ee0bcc07ab4127dc075af87437fb7528f3b77473a67255f635a386c8dbc1b62239c12"
 
 RPROVIDES:${PN} += "perl-XML--LibXML \
 perl-XML--LibXML---SAXParser \
@@ -53,7 +53,7 @@ perl-XML-LibXML-Common"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libxml2.so.2 \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-XML--NamespaceSupport \
 perl-XML--SAX \
 perl-XML--SAX--Base \

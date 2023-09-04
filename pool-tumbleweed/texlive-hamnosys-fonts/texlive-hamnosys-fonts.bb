@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0.3svn61941"
 
-RPM_NAME = "texlive-hamnosys-fonts-2023.209.1.0.3svn61941-54.1.noarch.rpm"
-RPM_HASH = "dc61eeb34c4a2525dc31cbb239658238e638b6d8d388788d6f8f203e9ed9c49eef876e4665b0994c9aa29da370dd5ed01aa058c048a97ae56690615c6fb89b68"
+RPM_NAME = "texlive-hamnosys-fonts-2023.209.1.0.3svn61941-54.2.noarch.rpm"
+RPM_HASH = "90e89892554138ed44169096968820f4466509453ed4573f3b2a81bcddec78ce006cf6d65feb0bca49005837a6ad7860a650660bd6f995a59cc1254085d9fecf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-hamnosysunicode \

@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "python39-polib-1.1.1-1.9.noarch.rpm"
-RPM_HASH = "332c52caac9873e8c658f1dfb39c14244aa381022cd271c01fdebb2076b2c9e58d78a1bb0300955a12d79cae9642d6fc46c0407608be4b7f41b51f2a49ea1f36"
+RPM_NAME = "python39-polib-1.1.1-2.1.noarch.rpm"
+RPM_HASH = "92d97db27dcf383274d54a941113da6be9a55f617a5cfb5d2ff7955b426ceec26b792ac7c450344d2b2ba17aca52f75af6bcf22c481333e038ea30f44f6dc08a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-polib \

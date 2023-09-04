@@ -47,8 +47,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.26"
 
-RPM_NAME = "perl-MooseX-NonMoose-0.26-3.26.noarch.rpm"
-RPM_HASH = "a2152019544ce49ca159d9d24ffb244673353b409ac9f8dbbd5ea5c2d90da139d4f7dd1a176cd1d6e881abcdfd9e1f17ce24c1f0e27117d49a47653a0ed4066d"
+RPM_NAME = "perl-MooseX-NonMoose-0.26-3.27.noarch.rpm"
+RPM_HASH = "31f8a407cae6c8646632745f16b73cc672d0e4a5d126869d0361193b79258d4fc6ac09a651ce94db878169d6ece1b7614117aab970dd855ebab6f80d0ca40108"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--NonMoose \
@@ -57,7 +57,7 @@ perl-MooseX--NonMoose--Meta--Role--Class \
 perl-MooseX--NonMoose--Meta--Role--Constructor \
 perl-MooseX-NonMoose"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-List--MoreUtils \
 perl-Module--Runtime \
 perl-Moose--Exporter \

@@ -6,17 +6,16 @@ create PDF, PNG, or text output, and include that output \
 automatically into the main LaTeX document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.33svn65670"
+PV = "2023.209.0.0.33svn65670"
 
-RPM_NAME = "texlive-hvextern-2023.208.0.0.33svn65670-53.1.noarch.rpm"
-RPM_HASH = "36b69d940295dbf25fda1a470bbbb8f73f3bbec417fa518b83ed9aed54e4481607d0856150f06ac549e1bd998003f175c53a5ece4cce413c48efcd37ca4a60ed"
+RPM_NAME = "texlive-hvextern-2023.209.0.0.33svn65670-54.1.noarch.rpm"
+RPM_HASH = "48e8431e1bea5cebda8d66ee8f99f511d6f3ff5532b56e4ef70d57c7abade78b1e7ec22e54d222c3e6a1798e9d7f0a786a173f4d2adfc08af2d0d05a6ffc8220"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hvextern.sty \
 texlive-hvextern"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-/usr/bin/texlua \
 coreutils \
 ed \
 findutils \

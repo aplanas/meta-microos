@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.4.0svn55558"
 
-RPM_NAME = "texlive-wtref-doc-2023.209.0.0.4.0svn55558-53.1.noarch.rpm"
-RPM_HASH = "080c53b7327128862c0207e477883cd01ba7ec9b8c863461aa71d2dff1934b2bfe035cba5a9d3ceaf45fd1c18d77cef82bac63b9fcf2e81cd1f2dfcebd4c5ff4"
+RPM_NAME = "texlive-wtref-doc-2023.209.0.0.4.0svn55558-53.2.noarch.rpm"
+RPM_HASH = "99f17fd6b0be2e6dd04b51147371a526e9800770e9579086d130ceac905bc5e1e2b5f4f05cef5dd47e21860dfa75894285beccde57d5b3861dc18dcae8134903"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-wtref-doc-ja \

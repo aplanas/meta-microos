@@ -14,8 +14,8 @@ LICENSE = "PostgreSQL"
 
 PV = "14.8"
 
-RPM_NAME = "postgresql14-plpython-14.8-1.5.aarch64.rpm"
-RPM_HASH = "1f30b3abb02ff30e7868744190885ec53f66cde7410e63bf731eae7320d5fc9d81d57fbc6ecb7bb444a41dac835e278d946e57ba1f96b47dbee218682307fe7a"
+RPM_NAME = "postgresql14-plpython-14.8-1.6.aarch64.rpm"
+RPM_HASH = "b74c8d38179496fd137cc6af6f0562c6c94fbd6df5978878e438e698173470d1a5480a6332fa79bacb5610f573c243a46c5b1ec3f0a7d9825ab57499d1dcd703"
 
 RPROVIDES:${PN} += "postgresql-plpython-implementation \
 postgresql14-plpython"

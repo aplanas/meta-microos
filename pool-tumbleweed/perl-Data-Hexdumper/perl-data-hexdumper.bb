@@ -11,14 +11,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "3.0001"
 
-RPM_NAME = "perl-Data-Hexdumper-3.0001-1.3.noarch.rpm"
-RPM_HASH = "82b2e9ff6963475b6840da46442f6c4a861a7d6b2a79f84f2b9b0c5aa035d559b34b35ff60748065e4420bcabf13bda7ccd252affdd4ace51c41200f3f61eb9b"
+RPM_NAME = "perl-Data-Hexdumper-3.0001-1.4.noarch.rpm"
+RPM_HASH = "07f2cc51474d1fe1a25c214f1e4fe64bea75c29f241d29a8e13ba953d5cb0d642f741e69d42c3aae06e830164416102ae91c399b3a0d1d860477bb774bb04a33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--Hexdumper \
 perl-Data-Hexdumper"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Test--More"
 
 inherit rpm

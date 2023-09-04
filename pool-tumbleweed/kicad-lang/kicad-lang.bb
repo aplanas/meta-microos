@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kicad"
 DESCRIPTION = "Provides translations for the 'kicad' package."
 LICENSE = "AGPL-3.0-or-later & GPL-3.0-or-later"
 
-PV = "7.0.5"
+PV = "7.0.6"
 
-RPM_NAME = "kicad-lang-7.0.5-1.2.noarch.rpm"
-RPM_HASH = "a172f4a4d6a01294f3ab9dbe684aadc7da57ceaad0163c2021d525f3a8d24d1e9140083db16d4294aa9edf6b96ee5001c0f597d7c2584a527ee642b6a55c77cb"
+RPM_NAME = "kicad-lang-7.0.6-1.1.noarch.rpm"
+RPM_HASH = "cf6545ed38bdcc35b4bcd49dc6c0d8e216388b0de803381718ed31417f6bcb211e78e1a25e6fb55539f52aa687a7cdfb3d84da17a201c9e902ce2b920092c919"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kicad-lang \

@@ -2,10 +2,10 @@ SUMMARY = "Qt5 IM module for Fcitx5"
 DESCRIPTION = "Qt5 IM module for Fcitx5."
 LICENSE = "BSD-3-Clause & LGPL-2.1-or-later"
 
-PV = "5.0.17"
+PV = "5.1.0"
 
-RPM_NAME = "fcitx5-qt5-5.0.17-1.4.aarch64.rpm"
-RPM_HASH = "fc0348da931e5b46733519b7d9220cc5456dabc3d24ea51fe39b9ddd0f971fa5627900ede3852af23f0d39d0fc0c68f7cd80a4de4e622ace8b4b319bad0510a7"
+RPM_NAME = "fcitx5-qt5-5.1.0-1.1.aarch64.rpm"
+RPM_HASH = "2955b04045ad5dfdc83e711eb97af4b765e3f33162d2519c9ecaa0db767308ec80702ed7337eebada56b1a22e0ba729f965b8536f22f7f649501a62e036afff5"
 
 RPROVIDES:${PN} += "fcitx-qt5 \
 fcitx5-qt5 \

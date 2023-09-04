@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "1.3.23"
 
-RPM_NAME = "ocaml-hivex-devel-1.3.23-2.5.aarch64.rpm"
-RPM_HASH = "033bb30a4deea8b6d5340d3d4dc59437246c314026560c16deb0973084593c33429be3a52f4de52b1edb3e9a57576c3277437360cecf4eb61dcdabc50039a34e"
+RPM_NAME = "ocaml-hivex-devel-1.3.23-2.6.aarch64.rpm"
+RPM_HASH = "880ece1022a57d87a72502494dfc7e5075319ee54e38097141de8ec9e47979de24012572992bda05fa98d4db492e43dd2c8e9e2480b44f3b47167a5ae56af089"
 
 RPROVIDES:${PN} += "ocaml-Hivex \
 ocaml-hivex-devel \

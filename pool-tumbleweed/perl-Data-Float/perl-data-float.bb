@@ -8,14 +8,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.013"
 
-RPM_NAME = "perl-Data-Float-0.013-1.21.noarch.rpm"
-RPM_HASH = "eaf4a145520b98022cd4a1bc2ffc3d9b84df74288d8f3271ac677f504fb9e190ed8ff8a40526926acd65295ec68923aa54575b96e16591c30b361070036f2404"
+RPM_NAME = "perl-Data-Float-0.013-1.22.noarch.rpm"
+RPM_HASH = "d5f4ab2979c5e70533ee7ce36eddf49ac14f8707a13b1fef1885da598294268cd89a47556b768b60c858521c31fb963c81ff409f519ae1666a7dc2ae6d533586"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--Float \
 perl-Data-Float"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-parent"
 
 inherit rpm

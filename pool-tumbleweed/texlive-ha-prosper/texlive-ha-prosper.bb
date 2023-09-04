@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.4.21svn59651"
 
-RPM_NAME = "texlive-ha-prosper-2023.209.4.21svn59651-54.1.noarch.rpm"
-RPM_HASH = "218e73b180e01eb58ac44cfd7f7a7bd1a045f873847cbf1561572df008151a08f6206c1d8e59735b10d9d85e0b620dadabe6b72da49003f24891a4767bca3a9e"
+RPM_NAME = "texlive-ha-prosper-2023.209.4.21svn59651-54.2.noarch.rpm"
+RPM_HASH = "6725c0d655506473eb6fbe2ba3fb119fd8f229ced33d192c2e93f3fd276d4250daeb9001ec9b81c0871bee7dd0b817f976d290fe658f3d5ad7149c85fa38023b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-HA-prosper.cfg \

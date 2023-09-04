@@ -16,10 +16,10 @@ contact information, links to research groups) are available from the \
 Haskell home page at <http://www.haskell.org/>."
 LICENSE = "BSD-3-Clause"
 
-PV = "9.4.5"
+PV = "9.4.6"
 
-RPM_NAME = "ghc-9.4.5-3.2.aarch64.rpm"
-RPM_HASH = "cbbee223ac1818dd0324a6343834c0d88f2da41854d799fb60112fb87f1c7711fea043148790c031151980c430a3f373cedfdb2898038fdb6253d479ecce49e1"
+RPM_NAME = "ghc-9.4.6-1.1.aarch64.rpm"
+RPM_HASH = "40ee669f49d8f0cb30c9e9cc5f3e50a714c720bbb1d104702c2d78907052f633f9c2f04d2cb22539cb6bcc7538135d329d18f6f0393984172690daceff2fcbd3"
 
 RPROVIDES:${PN} += "ghc"
 

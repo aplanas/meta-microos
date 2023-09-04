@@ -4,18 +4,18 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.7.12"
 
-RPM_NAME = "ghc-iproute-prof-1.7.12-2.7.aarch64.rpm"
-RPM_HASH = "8d1b1fdcc66d9acc7666ec494d442644870d56fc80c22c910b2dfb55320f782648072bb69dc2b5a10cea9f729f662fe1e9513f08309d7924884d939d16a3426b"
+RPM_NAME = "ghc-iproute-prof-1.7.12-2.9.aarch64.rpm"
+RPM_HASH = "fd4af2b8e45069e62c751029a9c541dc2f212e61ea21984778ce299f65e45766316388f3e9e2bd78194b670c229468a4ce37f12a568c3a4fbd9285108a5d5084"
 
 RPROVIDES:${PN} += "ghc-iproute-prof \
-ghc-prof-iproute-1.7.12-IhoklPQYItb8qGu1G3vmcD"
+ghc-prof-iproute-1.7.12-A34D1N9dJmL5ps3agDCHa7"
 
 RDEPENDS:${PN} += "ghc-iproute-devel \
-ghc-prof-appar-0.1.8-JYpyJYPkUOgKorqU8WSWRv \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-byteorder-1.0.4-3C2mbNH4DNU4EJIfEbmhBl \
-ghc-prof-bytestring-0.11.4.0 \
+ghc-prof-appar-0.1.8-1lWb1vtDAvc6rz1D87iAo \
+ghc-prof-base-4.17.2.0 \
+ghc-prof-byteorder-1.0.4-HgduUBa2I8KG54Jejj0SY0 \
+ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-containers-0.6.7 \
-ghc-prof-network-3.1.4.0-FvtFepOtuCUH79FCWyNxIc"
+ghc-prof-network-3.1.4.0-5p1NVWLTlrvDdAAI1mskSs"
 
 inherit rpm

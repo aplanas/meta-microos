@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "3.2.1"
 
-RPM_NAME = "ruby-packaging-helpers-3.2.1-1.1.noarch.rpm"
-RPM_HASH = "d94a2060148389ac84abe0c818b92e38a63505f7cfd7ed9517baade3132f3ccb74fb08f9aae33a52c901d868203699d006b6a7a558d42f3f10fd76f1e6f3d214"
+RPM_NAME = "ruby-packaging-helpers-3.2.1-2.1.noarch.rpm"
+RPM_HASH = "87c2deb564146bfd893723fbd95d0238cbfd36dbe1b58667d9b43d6a8e10d4e49e9c0ca94dc0b999a0d10b2f8ffbec6cc53973159fbd0611536c8990485ef287"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ruby-packaging-helpers"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.2.4svn60593"
 
-RPM_NAME = "texlive-xmpincl-doc-2023.209.2.4svn60593-53.1.noarch.rpm"
-RPM_HASH = "e3c4d8f48d26f690e22053ff0f581834c3c6298ce79b67ee638100b81200eaf9b843cfeaafc6c6443fb46f8214f8b4affcdf50e3de9717f61982c0c86aa6d39a"
+RPM_NAME = "texlive-xmpincl-doc-2023.209.2.4svn60593-53.2.noarch.rpm"
+RPM_HASH = "6c0b3474b5e44dedaa72228f379be0639b54f78a6af7ed032383bbbb0f84c7372e7a04aa427c551b4286094d7fa766b48579440d6745b68cde8e14fc8db65b94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xmpincl-doc"

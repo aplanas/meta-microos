@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn43191"
 
-RPM_NAME = "texlive-pythonhighlight-doc-2023.209.svn43191-54.1.noarch.rpm"
-RPM_HASH = "b76da3af5669d61e786bee50a4b9f473d1ac103ef47eafd90355b0a985804b0e3490dd7082dafd6e3a534eda51f1f482e9c7c75da12c5bf4148fb59787ab84e2"
+RPM_NAME = "texlive-pythonhighlight-doc-2023.209.svn43191-54.2.noarch.rpm"
+RPM_HASH = "1d49bc5a72536c3eb824d897b39319f1ba89954d5b7f55de1cd6b4565da71d7d01e2396433135df623a1a8d521324eb55161e2585204a4d44513dbbab94f4794"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pythonhighlight-doc"

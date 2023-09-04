@@ -4,8 +4,8 @@ LICENSE = "GFDL-1.3-or-later"
 
 PV = "6.5.2"
 
-RPM_NAME = "qt6-webengine-docs-qch-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "60b8116146fbd9766b905103d7362b1676bcc96a8df04622b1408619b8784d058b0c84d2f17bb7e1e98eeb39d5dc1e98600fa9376ed9410e858aec6b19c34ad7"
+RPM_NAME = "qt6-webengine-docs-qch-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "301e088289c4d67ec4df8b542c12995a5ed202d1f279c48ab19f1ab0f4218a258931badc6fa3574582fdfd7e0de5d9b79a91d5ee2b3df762d7a491a4e8e491de"
 
 RPROVIDES:${PN} += "qt6-webengine-docs-qch"
 

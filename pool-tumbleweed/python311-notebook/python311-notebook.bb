@@ -5,10 +5,10 @@ interactive computing. \
 This package provides the python interface."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.5.4"
+PV = "7.0.2"
 
-RPM_NAME = "python311-notebook-6.5.4-1.2.noarch.rpm"
-RPM_HASH = "48f8979298a1c82ac7c6ca10761fdf6a592f9fb3a294d6cf55e5d0d81b0322dc6321b4c0f624735508c82f8d272f6e13717ed96ba97506e7c6675f000f886ef9"
+RPM_NAME = "python311-notebook-7.0.2-1.1.noarch.rpm"
+RPM_HASH = "a9ac93d0d69702a4f74355bd17e8bce9e790131cf9230024e024fd1424893effb30624249c297afa0ae4e7e01329295f71fffa957812766ea64bf97ba7d95ba5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jupyter-notebook \
@@ -18,26 +18,15 @@ python311-jupyter-notebook \
 python311-notebook \
 python3dist-notebook"
 
-RDEPENDS:${PN} += "-python311-jupyter-client >= 5.3.4 with python311-jupyter-client < 8 \
+RDEPENDS:${PN} += "-python311-jupyter-server >= 2.4 with python311-jupyter-server < 3 \
+-python311-jupyterlab >= 4.0.2 with python311-jupyterlab < 5 \
+-python311-jupyterlab-server >= 2.22.1 with python311-jupyterlab-server < 3 \
+-python311-notebook-shim >= 0.2 with python311-notebook-shim < 0.3 \
 /usr/bin/python3.11 \
 /usr/bin/sh \
 alts \
 jupyter-notebook \
 python-abi \
-python311-Jinja2 \
-python311-Send2Trash \
-python311-argon2-cffi \
-python311-ipykernel \
-python311-ipython-genutils \
-python311-jupyter-core \
-python311-nbclassic \
-python311-nbconvert \
-python311-nbformat \
-python311-nest-asyncio \
-python311-prometheus-client \
-python311-pyzmq \
-python311-terminado \
-python311-tornado \
-python311-traitlets"
+python311-tornado"
 
 inherit rpm

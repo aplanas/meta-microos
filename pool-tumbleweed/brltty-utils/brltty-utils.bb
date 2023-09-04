@@ -7,10 +7,10 @@ complete screen review functionality. \
 This package contain various utilities related to BRLTTY."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "6.5"
+PV = "6.6"
 
-RPM_NAME = "brltty-utils-6.5-3.1.aarch64.rpm"
-RPM_HASH = "aa4f0056a6278710d813efdbe74e0417c5e3e0b55c85e87966223fd151e04f71f80912657ec70869c1ca12d58c0b0dfc4685a5834356a858326efb597022f47f"
+RPM_NAME = "brltty-utils-6.6-1.1.aarch64.rpm"
+RPM_HASH = "8d4a70b3cdcb436a31a1e4fe9e6f7df1b1317dca5bc4edea5aa53d21da514f3adc41e9a6d127cc3df09f75a742b297c9f64ba154029a21e54121922ddead16b4"
 
 RPROVIDES:${PN} += "brltty-utils"
 

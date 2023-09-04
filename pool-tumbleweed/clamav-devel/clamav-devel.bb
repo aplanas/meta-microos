@@ -6,10 +6,10 @@ This subpackage contains header files for developing applications \
 that want to make use of libclamav."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.103.8"
+PV = "0.103.9"
 
-RPM_NAME = "clamav-devel-0.103.8-1.4.aarch64.rpm"
-RPM_HASH = "7132edb47aee390899d7fb0f38db3283bafd6cb708ade7c5a2acdcf0dac6bc0ff96cbe65c0d494c8fdd06302e70ff7f25b44a7735b9a8f4d69941171b347e39e"
+RPM_NAME = "clamav-devel-0.103.9-1.1.aarch64.rpm"
+RPM_HASH = "e8c2f741c1e5b2a0fa395455f3c0de7ac6053e0b965077a5fd8e6946a651200f5e5a7aa210f54bce56102759bb35e1f0b395fd457581bebdc7df28f09b893f85"
 
 RPROVIDES:${PN} += "clamav-devel \
 pkgconfig-libclamav"

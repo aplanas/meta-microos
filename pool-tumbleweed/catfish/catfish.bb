@@ -4,10 +4,10 @@ DESCRIPTION = "Catfish is a GTK+ search utility written in python. Its search is
 zeitgeist."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.16.4"
+PV = "4.18.0"
 
-RPM_NAME = "catfish-4.16.4-1.4.noarch.rpm"
-RPM_HASH = "e62c82899649c2cc9956c14bbbf0b27f442050b97540e8ad21739d6d63468e9056c7acf2fbb377c4c6aa67c05296db84eb61bca07c6667bdaffb8450d9eac5b2"
+RPM_NAME = "catfish-4.18.0-1.1.noarch.rpm"
+RPM_HASH = "5744d8c663e64f929f199532bb8e3457385e4547ef96381e94afbad27d5627a126266000df489e9240e411099f218ab9377be83984dc675ac7758036837736ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "catfish \

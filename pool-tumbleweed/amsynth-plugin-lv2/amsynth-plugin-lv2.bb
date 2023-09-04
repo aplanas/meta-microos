@@ -24,8 +24,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.13.2"
 
-RPM_NAME = "amsynth-plugin-lv2-1.13.2-1.6.aarch64.rpm"
-RPM_HASH = "20d84d00172adbca683d7b2a13f085b09681ebfd24235daf1b225afb46b823406325bc39477570cb52928b76a5fa1d9d8a69ad6199de92d6dcbcab98a1289802"
+RPM_NAME = "amsynth-plugin-lv2-1.13.2-1.7.aarch64.rpm"
+RPM_HASH = "1ebbe210bf2f3bec6dd530986d08db4b42381582cc554c9156e0cf6e68fe20bf50f9013c8957db580313360a5109c86ee6afa602cffbab35eda9323479fcae76"
 
 RPROVIDES:${PN} += "amsynth-plugin-lv2"
 

@@ -16,14 +16,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.003"
 
-RPM_NAME = "perl-Plack-Middleware-LogErrors-0.003-1.17.noarch.rpm"
-RPM_HASH = "489b941d36e5c3ef94209dc20e71a666e94f9b34697a126f54596973bfbc719640474c7c96dc4d5005c7d37009f734a6644e7941eceab9b40a8476e450d89ae1"
+RPM_NAME = "perl-Plack-Middleware-LogErrors-0.003-1.18.noarch.rpm"
+RPM_HASH = "0cacb9fb8cff46d271178e1ffbbc9ae607db40e51d101b9b36f0f38835ead53716d9031d13dfd5841e1ca951f096120e2c3bafdce632ef4fba2c0a3ee5674a7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Plack--Middleware--LogErrors \
 perl-Plack-Middleware-LogErrors"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Plack--Middleware \
 perl-Plack--Util--Accessor \
 perl-parent"

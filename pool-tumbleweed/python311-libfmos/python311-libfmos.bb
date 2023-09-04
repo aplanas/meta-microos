@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230707"
 
-RPM_NAME = "python311-libfmos-20230707-1.1.aarch64.rpm"
-RPM_HASH = "50a8b093a083098d4e4e0621536d31801a527291ec469cef7e59c36d1c651b52f47fd820debfa20ffe05b107b52f98cd0be21227ed1bc8c0c026fb98bcf2ecfd"
+RPM_NAME = "python311-libfmos-20230707-2.1.aarch64.rpm"
+RPM_HASH = "dffa824e7d84ad0ee2552bb76f7e99e8c982d4b2ea9dafe6813cd080d3eb4f61050c3518723c3879dbb62cd22cc6a570f1af3cbbb282241740f5e1fe940fdc32"
 
 RPROVIDES:${PN} += "python3-libfmos \
 python311-libfmos"

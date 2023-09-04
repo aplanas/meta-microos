@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.10.7"
 
-RPM_NAME = "openmpi1-libs-1.10.7-7.6.aarch64.rpm"
-RPM_HASH = "5a7d9e2ce803d05c53ba1d3ce3c04d3ceaab4a371294757275c1372494a712b7be9cc2c09a8f0f85496cce86287a4b9d021d6d881f192570d8637f0bd0a2efa8"
+RPM_NAME = "openmpi1-libs-1.10.7-8.1.aarch64.rpm"
+RPM_HASH = "7fc56158b4e20d35dfb96f91102c0d1aac544e3d85a26661220520efa65036c9102d37cdfaaee619241531dbc416a25ad4259baf24e153d99e2c811ad1bc3603"
 
 RPROVIDES:${PN} += "libmca-common-sm.so.4 \
 libmca-common-verbs.so.7 \
@@ -42,6 +42,7 @@ openmpi1-libs"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
+libfabric.so.1 \
 libgcc-s.so.1 \
 libibverbs.so.1 \
 libm.so.6 \

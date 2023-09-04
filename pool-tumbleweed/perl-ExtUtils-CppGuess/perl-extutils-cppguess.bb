@@ -8,13 +8,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.26"
 
-RPM_NAME = "perl-ExtUtils-CppGuess-0.26-1.7.aarch64.rpm"
-RPM_HASH = "9aea80b2f35423675e5fd0651c6096cfd0bf239fedbaa8c1980f941147cac961ba9b31d3ebb294761615c566dc14809f9e9a57ed63698bcaf9fa38a0d247e57b"
+RPM_NAME = "perl-ExtUtils-CppGuess-0.26-1.8.aarch64.rpm"
+RPM_HASH = "8c0d57749432ae99c92f0c4c2287a60e4113d78705c9e7f6cdb87f467fb5663ed3f642ff75d23adfe27883415a275e87b5a92d486cb3ddd42a36f0650fc46801"
 
 RPROVIDES:${PN} += "perl-ExtUtils--CppGuess \
 perl-ExtUtils-CppGuess"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Capture--Tiny \
 perl-ExtUtils--ParseXS"
 

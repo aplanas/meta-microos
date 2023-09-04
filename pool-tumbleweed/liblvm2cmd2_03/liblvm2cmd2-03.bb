@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.03.16"
 
-RPM_NAME = "liblvm2cmd2_03-2.03.16-7.1.aarch64.rpm"
-RPM_HASH = "781612317a16a6036118e10ed04d331e15fa81c2c26826c571e4bdbc693781361b6610d2131aa39f3ad989da889205ade7ad65e95cbf74889ae3122e8c2f9e36"
+RPM_NAME = "liblvm2cmd2_03-2.03.16-8.1.aarch64.rpm"
+RPM_HASH = "276cf17682c48a6cd09f8c361a1ee28a01b8ca11fca6a71225fff4e3af6691fb131f6fd8a468d3c8a278827c5e7dd2812efefdd4969b7ea07d497c75b13c6def"
 
 RPROVIDES:${PN} += "liblvm2cmd.so.2.03 \
 liblvm2cmd2-03"

@@ -5,8 +5,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.209.1.0svn40207"
 
-RPM_NAME = "texlive-yinit-otf-2023.209.1.0svn40207-53.1.noarch.rpm"
-RPM_HASH = "fd76e9f44cfaec0dcc4e3c2d40441025f499711a8dc3b280f7d38a90f5dc1d9e445b0778f31b456ad5f5af6b37b22a6eec46191073de37d099dd27cff4792685"
+RPM_NAME = "texlive-yinit-otf-2023.209.1.0svn40207-53.2.noarch.rpm"
+RPM_HASH = "18e56b98c173dc1fb7eba4fb095b35c69c4c24a73d2103e2f9c2538156e778e1a47eb960b4a6a85b9e64c48b6635abd4dcc49de51071793a4277b2fd93a1eafa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yinit-otf"

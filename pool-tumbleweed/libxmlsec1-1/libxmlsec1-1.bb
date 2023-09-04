@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.2.37"
 
-RPM_NAME = "libxmlsec1-1-1.2.37-2.3.aarch64.rpm"
-RPM_HASH = "c82a4801f9939fe983e56862c6b9a9ea3f83214bd95d9270cea66fc5e14c1c9bb910ee166eb697be1ff898aee7ff47935de697ad537e16c5388133905c63d2e1"
+RPM_NAME = "libxmlsec1-1-1.2.37-3.1.aarch64.rpm"
+RPM_HASH = "ed75b62ff25fbb06de37a83d9be8fb9dd6fd2ec48f2ce5dd95f6be627cc7c14d77eec786b30c6083684c1aa8f1a156b8bc963cc457105063f6e47de7435dceb5"
 
 RPROVIDES:${PN} += "libxmlsec1-1 \
 libxmlsec1.so.1"

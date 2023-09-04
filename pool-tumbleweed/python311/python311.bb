@@ -15,8 +15,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.11.4"
 
-RPM_NAME = "python311-3.11.4-1.1.aarch64.rpm"
-RPM_HASH = "d8f801afc7a66c1cc0b883117484bf6c0038e2630d05eddc0655c0aa3bb0c517b637f90450110d0db868cfa1c7acde7f4c728c605bad7d188aa8cda59d599eb5"
+RPM_NAME = "python311-3.11.4-3.1.aarch64.rpm"
+RPM_HASH = "9024fdc2d8df95df0d44b8851dd713b1ccb154e7b14f4f1c47e233bef5122a07db6b57602fac57a8423f5e2f566bde64ec1a1f223ceaf7d17ebb6c355217ac2b"
 
 RPROVIDES:${PN} += "python3 \
 python3-readline \

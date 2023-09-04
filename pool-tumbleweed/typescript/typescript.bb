@@ -5,10 +5,10 @@ for large-scale JavaScript applications for any browser, for any host, on any \
 OS. TypeScript compiles to readable, standards-based JavaScript."
 LICENSE = "Apache-2.0"
 
-PV = "4.2.4"
+PV = "5.2.2"
 
-RPM_NAME = "typescript-4.2.4-1.10.noarch.rpm"
-RPM_HASH = "fdf9f4a2aef4e7951a0f2dc4a4a2039232dfd32781f03d47233b1236a3fa80f36e341790442864540b293c113869b1f30051d34ffb7dfa67adf31ea30c7cbc78"
+RPM_NAME = "typescript-5.2.2-1.1.noarch.rpm"
+RPM_HASH = "6545ddcb02639d5aef3a0c92f84e68387e5eb596afe88259f4ae9bc9b3bd94910f1729724b0a3750601e9b29184a0dffac5d74b5715da49b49a5e2b60e954904"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "npm-typescript \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.33"
 
-RPM_NAME = "python311-python-xlib-0.33-1.2.noarch.rpm"
-RPM_HASH = "6e538c79ae7aa13ac4f90eb8cb5a1d2286ded2bc49a92a309aa988a3c0255504a7044a75a860f55367ddd16d52bea3e95e2480eeaa52244d77754333e7ee308d"
+RPM_NAME = "python311-python-xlib-0.33-2.1.noarch.rpm"
+RPM_HASH = "537808d660342af9d7bacc7528f836d08191a7160ff50d06486c582c8389d4c368106fb0144de828a41deef4f84a9784067b66fe42297ac5cd1c4dd6c085906b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-xlib \

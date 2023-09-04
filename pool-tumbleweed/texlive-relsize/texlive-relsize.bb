@@ -6,8 +6,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.209.4.1svn30707"
 
-RPM_NAME = "texlive-relsize-2023.209.4.1svn30707-54.1.noarch.rpm"
-RPM_HASH = "912548de645fabda465ecade660552314076deb804b850ee65e9d6e65b3e2fc472ab330d2cd7f66602d0f3b8b7d3e25ed73361e73254bae7cb84ad33f0dbfc8f"
+RPM_NAME = "texlive-relsize-2023.209.4.1svn30707-54.2.noarch.rpm"
+RPM_HASH = "a65486c1ffd2920af1193b846ea778ff5a3ca5ce53fb95ba1aa5374437e9cad1fa1ea5d501aa8fd4433ae45fa8929a9da594bedbdf3640c524e886a066aa6646"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-relsize.sty \

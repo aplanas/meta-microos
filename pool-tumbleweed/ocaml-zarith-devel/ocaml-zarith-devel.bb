@@ -3,10 +3,10 @@ DESCRIPTION = "The ocaml-zarith-devel package contains libraries and signature f
 developing applications that use ocaml-zarith."
 LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
-PV = "1.12"
+PV = "1.13"
 
-RPM_NAME = "ocaml-zarith-devel-1.12-1.16.aarch64.rpm"
-RPM_HASH = "e30a5ea9ee39985dcca06dfe02a668588a049f9831b9f441b60fd8af227f38de20b11feb512ad6eafaf562199ddebbc17719c77fbd7a763b7e062849fb55ca6a"
+RPM_NAME = "ocaml-zarith-devel-1.13-1.1.aarch64.rpm"
+RPM_HASH = "f7527b56a5a456cad4eb64745c6d2b03d042bc353d5e8b7e4082b72cd2be23a9058fc508bd7ac755867b59ed135b8e16f0881f22b29e15cd60c8fcaadce66e61"
 
 RPROVIDES:${PN} += "ocaml-Big-int-Z \
 ocaml-Q \
@@ -44,6 +44,7 @@ ocaml-Primitive \
 ocaml-Shape \
 ocaml-Stdlib \
 ocaml-Stdlib--Buffer \
+ocaml-Stdlib--Bytes \
 ocaml-Stdlib--Callback \
 ocaml-Stdlib--Digest \
 ocaml-Stdlib--Either \
@@ -55,8 +56,10 @@ ocaml-Stdlib--Lazy \
 ocaml-Stdlib--Lexing \
 ocaml-Stdlib--List \
 ocaml-Stdlib--Map \
+ocaml-Stdlib--Nativeint \
 ocaml-Stdlib--Obj \
 ocaml-Stdlib--Printf \
+ocaml-Stdlib--Random \
 ocaml-Stdlib--Seq \
 ocaml-Stdlib--Set \
 ocaml-Stdlib--String \
@@ -71,12 +74,15 @@ ocaml-zarith \
 ocamlfind-compiler-libs.toplevel \
 ocamlx-Stdlib \
 ocamlx-Stdlib--Buffer \
+ocamlx-Stdlib--Bytes \
 ocamlx-Stdlib--Callback \
 ocamlx-Stdlib--Format \
 ocamlx-Stdlib--Int64 \
 ocamlx-Stdlib--Lexing \
 ocamlx-Stdlib--List \
+ocamlx-Stdlib--Nativeint \
 ocamlx-Stdlib--Printf \
+ocamlx-Stdlib--Random \
 ocamlx-Stdlib--String \
 ocamlx-Stdlib--Sys \
 ocamlx-Toploop"

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.3.5"
 
-RPM_NAME = "python311-OSMPythonTools-0.3.5-2.3.noarch.rpm"
-RPM_HASH = "7e8da17b2d8bf127c2717dccd04217ee25fdef947627733ddb204b0c0e4003eed6e1e3a55b345b9c535872ec143f42bfe3f2364c0b44e7c993ed454afd1b2612"
+RPM_NAME = "python311-OSMPythonTools-0.3.5-2.4.noarch.rpm"
+RPM_HASH = "43be6d5c9b41ed06922aea543a1e054d82a40db80baa09f0023f11aa47c79f2a8ef7ade273f93ad2c6bba22952005cbe4bc29fcaa9a6f8f099436c0b0740ead5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-OSMPythonTools \

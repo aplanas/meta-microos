@@ -4,10 +4,10 @@ it invokes ghostscript for conversion, it should only be used in trusted \
 environments."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kimageformats-eps-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "769bdb3d660227e9ad4604e1468a77cefb148b29c64174dec6b93d77df33c2eb1967b7e792b59c8bb0d28f8fea2798643bce81b6c92589dc4cf0b41305d5dc1c"
+RPM_NAME = "kimageformats-eps-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "66f5011c7953e562fd21186ba4326da191a65b79ae35a1fdc797a88932dce16aab5e490458ba0c817a52d9417481eb7531b506737769de7cb099a2d0f4553572"
 
 RPROVIDES:${PN} += "kimageformats-eps"
 

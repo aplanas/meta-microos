@@ -5,10 +5,10 @@ Clients like the GNS3 GUI controls the server using a JSON-RPC API over Websocke
 You will need the new GNS3 GUI (gns3-gui repository) to control the server."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.2.38"
+PV = "2.2.42"
 
-RPM_NAME = "gns3-server-2.2.38-1.2.noarch.rpm"
-RPM_HASH = "0863b9397f48775acdf92a6b624f2f7554616cb53a2a2311ac2041f6033c905db038005dd32a04e3ea5ebbb17e0b6d8b192ff0aa69635aaa929e55c65ba519c7"
+RPM_NAME = "gns3-server-2.2.42-1.1.noarch.rpm"
+RPM_HASH = "0f9fd3ad15bcc64f91d346244f746ae3e733ffef32968ceca3c335dfcfdc6dc4182350af8cad8f622b72553923b6d4bc743e5efc61db2c4cc7e40ab31f198e88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gns3-server \

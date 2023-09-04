@@ -19,15 +19,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.4.2"
 
-RPM_NAME = "ghc-base-unicode-symbols-0.2.4.2-1.2.aarch64.rpm"
-RPM_HASH = "f76f050e45e89acf62e6af9b454b37689771ec42a0f0658fca264578da4bdcc1a348a9e42f4f5b14b922578085e0e9a7af990fc7d794752697d573a95ea7885f"
+RPM_NAME = "ghc-base-unicode-symbols-0.2.4.2-1.3.aarch64.rpm"
+RPM_HASH = "bd154150564171d1448799a666536314c756921f40cd6b51bec6908bb4597f8093f70504bb86bb771b4b88e504c97bc737271d64152c7ce6d31bf4a603d77710"
 
 RPROVIDES:${PN} += "ghc-base-unicode-symbols \
-libHSbase-unicode-symbols-0.2.4.2-2uW4hd16ZmNBkWsH22htOC-ghc9.4.5.so"
+libHSbase-unicode-symbols-0.2.4.2-AsBlETXXS2UHsp6FZL7O0P-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

@@ -2,10 +2,10 @@ SUMMARY = "Baum braille chardev support for QEMU"
 DESCRIPTION = "This package contains a module for baum braille chardev support for QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.3"
+PV = "8.0.4"
 
-RPM_NAME = "qemu-chardev-baum-8.0.3-2.1.aarch64.rpm"
-RPM_HASH = "96353da0049d0b8d02bb02c16d2953bac6f66f793edf7963e02f659676a18d11134b66e4bc4ad3221d9f991e1fd42a7334fe2c486d35639c52e8e31b60589068"
+RPM_NAME = "qemu-chardev-baum-8.0.4-1.1.aarch64.rpm"
+RPM_HASH = "2ee0c1f174ac630542e7f6128d74c66010a2bd5a4f460ea33cb1ceddbc95995ba6a423b62355831f3fc1c6adc38e43745aef980d725e11998d307262143f8fcb"
 
 RPROVIDES:${PN} += "qemu-chardev-baum"
 

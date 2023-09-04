@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-conf-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "3b0389f1181336da0b1fb8f7b37754b0d431ea172a7d18775d37d0aacb65b1d1866adc4da8e412cd13532fb95be9de070b7dc4de0557d265adc204ff3814a792"
+RPM_NAME = "pcp-conf-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "60fdff0f8c54c3b7ab00518c35e905fa247fe20504256eec1678c637ea6b9dfc5544c7e33470fc413fe6348cd6afb45e18fc6c7566aa94a9373cf122e4956e30"
 
 RPROVIDES:${PN} += "config-pcp-conf \
 pcp-conf"

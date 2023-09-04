@@ -4,16 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.14.8"
 
-RPM_NAME = "ghc-tagsoup-devel-0.14.8-6.6.aarch64.rpm"
-RPM_HASH = "ef2c1e1cad76cc2bc58f4c06b8ef91d83d6c390091cce862e13a5f59792e80497b5081b2e72b0084f035250e458368a30f1b0f7489a20494b5d666f72ea9e49b"
+RPM_NAME = "ghc-tagsoup-devel-0.14.8-6.8.aarch64.rpm"
+RPM_HASH = "9db7b894d7b48935577b0ec6bc7c07af5918fbffeca313c6ae7e67f8cb1a295e0cf06fec07727316f989772d9143c7933a99b990f8730126eb6ba62a4ff736ef"
 
-RPROVIDES:${PN} += "ghc-devel-tagsoup-0.14.8-KqOLe3dJpuA4KsHZJW2cTn \
+RPROVIDES:${PN} += "ghc-devel-tagsoup-0.14.8-FUMcGuRz5feAeL2vCCRpAn \
 ghc-tagsoup-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0 \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1 \
 ghc-devel-containers-0.6.7 \
 ghc-devel-text-2.0.2 \
 ghc-tagsoup"

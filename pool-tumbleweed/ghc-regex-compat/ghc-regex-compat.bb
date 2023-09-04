@@ -7,26 +7,26 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.95.2.1"
 
-RPM_NAME = "ghc-regex-compat-0.95.2.1-4.2.aarch64.rpm"
-RPM_HASH = "6288f4d7bd40e306ab170f36ccd5ae137902a238943739ac392d7d431f74c704d2d94b11ea96943b42687842fb8cc09f360b150edf73cc22d1ef3974d990e3ad"
+RPM_NAME = "ghc-regex-compat-0.95.2.1-4.3.aarch64.rpm"
+RPM_HASH = "2aff1c7dd0289a5ed5918f71ebf9f9c084f7bd8415b167fa9ea4042f131756d284ede42483c3c55cd65fe0018ccd68047632b7871b00ecc7791332a4a2b3086a"
 
 RPROVIDES:${PN} += "ghc-regex-compat \
-libHSregex-compat-0.95.2.1-9I4JwtnoxVY9Cu5lIL0XLJ-ghc9.4.5.so"
+libHSregex-compat-0.95.2.1-L593ugdrX2dLr3iiylKH00-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
-libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSbinary-0.8.9.1-ghc9.4.5.so \
-libHSbytestring-0.11.4.0-ghc9.4.5.so \
-libHScontainers-0.6.7-ghc9.4.5.so \
-libHSdeepseq-1.4.8.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-boot-th-9.4.5-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
-libHSpretty-1.1.3.6-ghc9.4.5.so \
-libHSregex-base-0.94.0.2-8EhYuxSr6UD5zE7cP6wrkq-ghc9.4.5.so \
-libHSregex-posix-0.96.0.1-Db56rsDUom23lFxliY5wt1-ghc9.4.5.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
-libHStext-2.0.2-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
+libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSbinary-0.8.9.1-ghc9.4.6.so \
+libHSbytestring-0.11.5.1-ghc9.4.6.so \
+libHScontainers-0.6.7-ghc9.4.6.so \
+libHSdeepseq-1.4.8.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-boot-th-9.4.6-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
+libHSpretty-1.1.3.6-ghc9.4.6.so \
+libHSregex-base-0.94.0.2-Ac50cWDKNd7Gyvsho1Lmae-ghc9.4.6.so \
+libHSregex-posix-0.96.0.1-HPjTUAiEjSWDym26QwChO7-ghc9.4.6.so \
+libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
+libHStext-2.0.2-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

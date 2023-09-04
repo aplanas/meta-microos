@@ -14,10 +14,10 @@ For building PostgreSQL server extensions, see the \
 postgresql13-server-devel package."
 LICENSE = "PostgreSQL"
 
-PV = "13.11"
+PV = "13.12"
 
-RPM_NAME = "postgresql13-devel-13.11-1.5.aarch64.rpm"
-RPM_HASH = "74a94d6ffc2c21d8b731be6352160ff7c765dc65c087b66c330295568fd916fbba7f1c7eb4f72ad2d123314d1c8306b23aac59e53b1e8e667ee7e90ea393595d"
+RPM_NAME = "postgresql13-devel-13.12-1.1.aarch64.rpm"
+RPM_HASH = "00934f7cf97c4ec7e5aa68edfecba2b747ce3a2c9486775ad9f78ea5595042fca90ea3afa0050ed5e6479cb499e2f4da6a70ea064b6a614df578c7fcd8dcec5c"
 
 RPROVIDES:${PN} += "pkgconfig-libecpg \
 pkgconfig-libecpg-compat \

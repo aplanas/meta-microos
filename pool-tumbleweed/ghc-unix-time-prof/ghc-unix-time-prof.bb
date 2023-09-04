@@ -4,16 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.10"
 
-RPM_NAME = "ghc-unix-time-prof-0.4.10-1.1.aarch64.rpm"
-RPM_HASH = "d3223957de2c8b102a034633cd7539fc2d4bf99367f0c32d3e60dd730ce2f08d6ad53db6ed3a1edf235e2ab70cd2fb8f6b3be1a15d599b5b58b9d22983424edb"
+RPM_NAME = "ghc-unix-time-prof-0.4.10-1.3.aarch64.rpm"
+RPM_HASH = "6cde898a0ae226fae2ab43deee25ae50cefc0be1c3771b3ba3bec44588e75bde0e97ee8e992cfe5b20eba06fe8a96f46c022f89e188cf6c503b05391122cdc19"
 
-RPROVIDES:${PN} += "ghc-prof-unix-time-0.4.10-LpZG5YAXe572FFFZnKOLQq \
+RPROVIDES:${PN} += "ghc-prof-unix-time-0.4.10-fuTENic3zHIuWAM5F0fYB \
 ghc-unix-time-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
 ghc-prof-binary-0.8.9.1 \
-ghc-prof-bytestring-0.11.4.0 \
-ghc-prof-old-time-1.1.0.3-6MrxIvEBZcaI0p7TDiYNU1 \
+ghc-prof-bytestring-0.11.5.1 \
+ghc-prof-old-time-1.1.0.3-EO4BkAubfN4CLCS9qF8OKw \
 ghc-unix-time-devel"
 
 inherit rpm

@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230320"
 
-RPM_NAME = "python310-libsmraw-20230320-1.8.aarch64.rpm"
-RPM_HASH = "1161ae2ce55bbd772aa90f84e89ebe050f76cef83d81b730924dbb87aeaf137ddf64eaba0b80a7ca0e9d987df798b7f4de810629b692eafb2a36a344db1ff620"
+RPM_NAME = "python310-libsmraw-20230320-2.1.aarch64.rpm"
+RPM_HASH = "fcb462306f690904c12117c8030afe49db041c11a77f0b6ea8d2747e3b9ff7ff730817e5c9c4ff59a2e421fb07d835b709915f216a3355ab922dc9ecc26ee57b"
 
 RPROVIDES:${PN} += "python310-libsmraw"
 

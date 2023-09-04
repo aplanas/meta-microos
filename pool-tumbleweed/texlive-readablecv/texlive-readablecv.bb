@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.3.0svn61719"
 
-RPM_NAME = "texlive-readablecv-2023.209.3.0svn61719-54.1.noarch.rpm"
-RPM_HASH = "f9e19ba5da56e37e011fcd0a5b4834a9f9ae11dacea92b63d0c31a93ca1a13fd34a22feb9304182d1f0e3dffa13341f5839e679096b9e5fce24c245d7edfae63"
+RPM_NAME = "texlive-readablecv-2023.209.3.0svn61719-54.2.noarch.rpm"
+RPM_HASH = "c8245ca203e82c0dec5453eb98771a5ae086a0406a57b51589b6accd68e5b3c59f33c26ccc19952d9f67d4fad4bd8ad152d6ac30a4aa0452312669e239ec1726"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ReadableCV.cls \

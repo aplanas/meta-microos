@@ -11,10 +11,10 @@ ignored, whereas each piece of data coming from the braille terminal is \
 sent to the application, rather than to brltty."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "6.5"
+PV = "6.6"
 
-RPM_NAME = "python3-brlapi-6.5-3.1.aarch64.rpm"
-RPM_HASH = "1c042ff18c8b3b6c747c78f74a641462dd1aab2201077bd652ac64918e1c8f58c788b2a23822aa123a9d1834c6afec5bea12372134d5dbfdbcf4ac774b395349"
+RPM_NAME = "python3-brlapi-6.6-1.1.aarch64.rpm"
+RPM_HASH = "80692a42701b567f3ac515b241b2461a2696ce20471b71aa585f8e6e9828505ef83c147d4e94864028c5d3025e8aaaf401b3dea75188edab3282c366a07773f9"
 
 RPROVIDES:${PN} += "python3-brlapi \
 python3.11dist-brlapi \

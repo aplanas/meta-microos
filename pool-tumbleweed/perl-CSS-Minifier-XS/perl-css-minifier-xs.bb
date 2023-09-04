@@ -8,14 +8,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.13"
 
-RPM_NAME = "perl-CSS-Minifier-XS-0.13-1.11.aarch64.rpm"
-RPM_HASH = "d785e985e204d55b387157e411c01eea679daafd577ac2e3878dedfdb47f20580afbd5d77b58a52c177e5b7b583a63a1bcf2ed19501a9aecb2f2406c8a41a99f"
+RPM_NAME = "perl-CSS-Minifier-XS-0.13-1.12.aarch64.rpm"
+RPM_HASH = "2555f31ae760be7f36192c21563df350f47a759c6efa0af9e6daa0412a3c7329954ab10005a8140208b7f60ca7790cbe283ceb8f03962f893eff4ac707c6ebb0"
 
 RPROVIDES:${PN} += "perl-CSS--Minifier--XS \
 perl-CSS-Minifier-XS"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

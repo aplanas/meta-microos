@@ -9,10 +9,10 @@ with high speed connections as well as 28k modems. \
 This package contains a library."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "5.2.50"
+PV = "5.2.98"
 
-RPM_NAME = "liblinphone10-5.2.50-1.3.aarch64.rpm"
-RPM_HASH = "240e9b091455cb9579e2b2c75a41d902725bcef2de3aa4ff9cae100e1468dcbddc51a39bc2a4e396a499679c18b4aecc74b2b96380d91f5c6cabfccfd91a34f0"
+RPM_NAME = "liblinphone10-5.2.98-1.1.aarch64.rpm"
+RPM_HASH = "cb640ea0f9226bfaff33f4000f5459b86e3a88c0765cb4a0637916fe5cc0ab59848fcc423ee987b967efabf4bbb4d78c34fd182284b4c91bec85d49bb122150b"
 
 RPROVIDES:${PN} += "liblinphone \
 liblinphone.so.10 \

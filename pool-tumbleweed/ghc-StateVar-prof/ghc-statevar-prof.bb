@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.2"
 
-RPM_NAME = "ghc-StateVar-prof-1.2.2-2.2.aarch64.rpm"
-RPM_HASH = "a07afa8b0407e46e878e4313d77c06a6dc9a8d1731a33e5515d9ae05c165f42751d68576100cd08c2ae4e3a1c8f659265f93f8c4504202fb45e0a6a8d3c6ebc4"
+RPM_NAME = "ghc-StateVar-prof-1.2.2-2.3.aarch64.rpm"
+RPM_HASH = "ddb8ce9ccac1a9d6ad9e9eb393174edefe39372c0895b461406c9f3733ce3d4223d8495be83c68f52ee8b8183c9c5750b0b07dd19d1daabe8373197273b572ab"
 
 RPROVIDES:${PN} += "ghc-StateVar-prof \
-ghc-prof-StateVar-1.2.2-GlWluWgK8kgE7IUHzo2idN"
+ghc-prof-StateVar-1.2.2-8Hv9klK7mv0HId52XsoM7J"
 
 RDEPENDS:${PN} += "ghc-StateVar-devel \
-ghc-prof-base-4.17.1.0 \
+ghc-prof-base-4.17.2.0 \
 ghc-prof-stm-2.5.1.0 \
 ghc-prof-transformers-0.5.6.2"
 

@@ -2,10 +2,10 @@ SUMMARY = "Development files for libXISF"
 DESCRIPTION = "This package contains all the needed development files to use libXISF."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.2.8"
+PV = "0.2.9"
 
-RPM_NAME = "libXISF-devel-0.2.8-1.1.aarch64.rpm"
-RPM_HASH = "43956213b74bb89d75e32e4a29e5911e2ec911568b3173198dc67ac174641673c28c1de322ddbf943c6be184371c1fba55a5211ae5f23f1736b7e97c7e54548f"
+RPM_NAME = "libXISF-devel-0.2.9-1.1.aarch64.rpm"
+RPM_HASH = "a15b5f083b5090eed0f7a68abcfa01e39e19e90f60a8e0a5f1393d55a34b7e12eb0b69b1c2558ae992b17ae5d9dde91fda31e0cfea4fb719a4bbad057e117cd8"
 
 RPROVIDES:${PN} += "libXISF-devel \
 pkgconfig-libxisf"

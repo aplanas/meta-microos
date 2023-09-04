@@ -1,11 +1,11 @@
 SUMMARY = "Examples for the qt6-declarative module"
 DESCRIPTION = "Examples for the qt6-declarative module."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "qt6-declarative-examples-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "d6aa8c4d523158261d7de4293fed18069bdf1e8f40f8ff8f7482fa59f25eb2b1a01d1cb076c293e98eb261c716974903cbc19d6105537d0420976119c0eae815"
+RPM_NAME = "qt6-declarative-examples-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "5b827d0a62682e02860c41f6310d0887b86d3ccf729a7638a7195b7614c6e659eb836332688763b25b39e20fb36975d9ca8168d2fc741aea33df0a8123cb678f"
 
 RPROVIDES:${PN} += "libMyStyle.so \
 libaffectors-shared.so \

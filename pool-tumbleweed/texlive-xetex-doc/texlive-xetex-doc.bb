@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn66203"
 
-RPM_NAME = "texlive-xetex-doc-2023.209.svn66203-53.1.noarch.rpm"
-RPM_HASH = "a38b1bad7e996a7362a5163b77d476d8a28fe8ec3847a0233d1964582b0777f9ff12bd52f57c0eb880f461c094734aca7a9e9cecdfaef0de720f63bfb4ab556e"
+RPM_NAME = "texlive-xetex-doc-2023.209.svn66203-53.2.noarch.rpm"
+RPM_HASH = "4a307ea769174831e06cdb291e89e5f83ae178d06803d913afeb132a6cca26669d21a6ecacc0a457251bd7dd1a26a7fe73cbb52bca8bfad1a27e73752eaa9135"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-xelatex-unsafe.1 \

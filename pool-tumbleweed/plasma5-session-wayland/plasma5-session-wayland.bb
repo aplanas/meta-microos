@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.27.7"
 
-RPM_NAME = "plasma5-session-wayland-5.27.7-1.1.aarch64.rpm"
-RPM_HASH = "9147d69af8e6b2c88113ad758b3fbb4f44ac709195cdae0a5d75df42aac1723fcc6787fbd560384d713de11be8a0234f310761649b6e72844f726bb15c6fb9ed"
+RPM_NAME = "plasma5-session-wayland-5.27.7-3.1.aarch64.rpm"
+RPM_HASH = "50dd62138f6298ff922b9212670af63f44a98c8764658c2460a8ea6fccdc5af506cc40383bc4201f6e2ad9dc30780cf8503248e584d3411a074b170c2628c5db"
 
 RPROVIDES:${PN} += "plasma5-session-wayland"
 

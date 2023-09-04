@@ -6,10 +6,10 @@ and anything that can be done with the power of CSS. \
 are in the range U+F000..U+F23A.)"
 LICENSE = "OFL-1.1"
 
-PV = "6.4.0"
+PV = "6.4.2"
 
-RPM_NAME = "fontawesome-fonts-6.4.0-1.1.noarch.rpm"
-RPM_HASH = "77a2e88018196e3468235319babdea0709919991e60f9b1b4042c141874fa517841bfc69efc2760eee48a7e60a1a021767b463615c9b8c4080f6a4d5f9035390"
+RPM_NAME = "fontawesome-fonts-6.4.2-1.1.noarch.rpm"
+RPM_HASH = "3ce91755ec66a96cfe37a31db9ba175b411df5f18c94953e39217cd7476de51f0c54bc92e77636dafce0015c63383c0bdbc81802ddfe56f0396d99e6cd217a2b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fontawesome-fonts"

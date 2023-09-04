@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.1.3svn56926"
 
-RPM_NAME = "texlive-quotchap-2023.209.1.3svn56926-54.1.noarch.rpm"
-RPM_HASH = "d17cab37db763a5f1a9d36b42570165207198470da93b0dfd1b694f7146af8155b6383d57a2b4915f1c1d6ccfa018a64426509fcb906df805409952d3ce69fc9"
+RPM_NAME = "texlive-quotchap-2023.209.1.3svn56926-54.2.noarch.rpm"
+RPM_HASH = "5703f0e14eac80b0f7671ea3d8dc976f6887c0b0080542a1a22880e3b894dd0d173b49ae4e7afdb10af04968548dd0d21d30eea85cdd1552c3ce78bf86ae992d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-quotchap.sty \

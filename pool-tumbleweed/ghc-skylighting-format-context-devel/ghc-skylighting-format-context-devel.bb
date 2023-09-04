@@ -5,17 +5,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0.2"
 
-RPM_NAME = "ghc-skylighting-format-context-devel-0.1.0.2-1.6.aarch64.rpm"
-RPM_HASH = "64929e757469fe7ac589801995542888b307259702772ec5fe68686c2018018239ba41219dbe306fca5aae86420e80a4a8a937eb29b9cf3bcdc7b7c66c90f6ed"
+RPM_NAME = "ghc-skylighting-format-context-devel-0.1.0.2-1.10.aarch64.rpm"
+RPM_HASH = "8612b8e715e1642035197636cc3ab24eb0b5c5ec4bb505dc4926206975900d4d8cbb8ace974a3d9d8888c59e652e443f514a6e4bdf01b2f63ad4c44bc00858b7"
 
-RPROVIDES:${PN} += "ghc-devel-skylighting-format-context-0.1.0.2-I1BZIYXYOqlBramxRueIsx \
+RPROVIDES:${PN} += "ghc-devel-skylighting-format-context-0.1.0.2-DKquH4NR4zs5BA4tBpnI9m \
 ghc-skylighting-format-context-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-containers-0.6.7 \
-ghc-devel-skylighting-core-0.13.4.1-6Bsu3Qo0E1u1DqUSYo1bSc \
+ghc-devel-skylighting-core-0.13.4.1-Hz9bNgtQKIrCLRLiqtSBj1 \
 ghc-devel-text-2.0.2 \
 ghc-skylighting-format-context"
 

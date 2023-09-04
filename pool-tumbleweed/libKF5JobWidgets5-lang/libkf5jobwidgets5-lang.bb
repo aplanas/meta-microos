@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKF5JobWidgets5"
 DESCRIPTION = "Provides translations for the 'libKF5JobWidgets5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "libKF5JobWidgets5-lang-5.108.0-1.1.noarch.rpm"
-RPM_HASH = "74340f9e7695590315111a6c4b88b6812baea1e82058a2a0cfbf507360c7863ad542cf481c642b18ac1c75d31c1657b14cd8b6c91896c022c028c3eb42ddfa63"
+RPM_NAME = "libKF5JobWidgets5-lang-5.109.0-1.1.noarch.rpm"
+RPM_HASH = "c15e5708549d606ed5902671089190c0b376c5e7a6b237d876ccf45b6565b8e7a600b35a7706a157f5ae3f15e433833a23ac7588bf0dd18c74a078aeae51a342"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKF5JobWidgets5-lang \

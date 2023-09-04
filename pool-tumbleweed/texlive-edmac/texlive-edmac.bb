@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.3.17svn61719"
 
-RPM_NAME = "texlive-edmac-2023.209.3.17svn61719-54.1.noarch.rpm"
-RPM_HASH = "965c6b7eb46c175f8e83338b4ce7ce091e1c9482194bca3ea3f42da3b2afc9602118c19779617bb2d705fc4ebd91fecadc5a4f44aed30a83e9ef5ae40dd5511b"
+RPM_NAME = "texlive-edmac-2023.209.3.17svn61719-54.2.noarch.rpm"
+RPM_HASH = "f530f4fe906894af7eb1f24ed83f369d6f524661d3190bc692f815a904778327aaffef4849a3f3263630620f4e4a89829d7a10ac6b69d64d60da8f1305a44a64"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-edmac.tex \

@@ -5,20 +5,20 @@ LICENSE = "MIT"
 
 PV = "2.0.4"
 
-RPM_NAME = "ghc-cassava-megaparsec-devel-2.0.4-3.3.aarch64.rpm"
-RPM_HASH = "373ea58386d9a0df312e969a2f5e2cfc75f408e4e7c4ae0b514660b1c833bf3b1c1c0fa3427b183732c7f6a9e389d2a852d1d849d5c6dda811f3e811a744ed1d"
+RPM_NAME = "ghc-cassava-megaparsec-devel-2.0.4-3.5.aarch64.rpm"
+RPM_HASH = "b13f6182b012e6913d12b2f9270041970169cad27cc1e94f0c5432f60d1c72e9dfa9e8eced42aeb3f3e34b3ced45d4984a30bc43def081686895b46b86ad6890"
 
 RPROVIDES:${PN} += "ghc-cassava-megaparsec-devel \
-ghc-devel-cassava-megaparsec-2.0.4-HU3QoIYvAPIHgP080eBDPM"
+ghc-devel-cassava-megaparsec-2.0.4-C7KekE0MHcyFXF3lsApNgX"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-cassava-megaparsec \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0 \
-ghc-devel-cassava-0.5.3.0-6nKMpykUjDPH1yduUJ1iAD \
-ghc-devel-megaparsec-9.3.1-Lptmv1Cc41nKt1ZYt8kXVr \
-ghc-devel-unordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E \
-ghc-devel-vector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp"
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1 \
+ghc-devel-cassava-0.5.3.0-3BxMB2hl3TbBsSJkTsXVLP \
+ghc-devel-megaparsec-9.3.1-Jdwz39dpTDz8anub3eLd49 \
+ghc-devel-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
+ghc-devel-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku"
 
 inherit rpm

@@ -18,15 +18,15 @@ LICENSE = "MIT"
 
 PV = "1.7.4"
 
-RPM_NAME = "python39-python-lsp-server-1.7.4-1.1.noarch.rpm"
-RPM_HASH = "b5b206476101aa1986718a5d881fb2ff2d41f9651dbe0ef51e577c4902e92583a72ba00b90ad0948d5c99140e2a5864b93fa2024361a4a07e7801b89a0848092"
+RPM_NAME = "python39-python-lsp-server-1.7.4-2.1.noarch.rpm"
+RPM_HASH = "c011612df4e81b4969ed8720c8003f1d13f9b86d9302b4840dfe022f970242e4dcf5afad058e2cf6f40b1ba5ed5df22939b3bab5074d296c9b5e4d160db7f55f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-python-lsp-server \
 python39-python-lsp-server \
 python3dist-python-lsp-server"
 
-RDEPENDS:${PN} += "-python39-jedi >= 0.17.2 with python39-jedi < 0.19.0 \
+RDEPENDS:${PN} += "-python39-jedi >= 0.17.2 with python39-jedi < 0.20 \
 /usr/bin/python3.9 \
 /usr/bin/sh \
 python-abi \

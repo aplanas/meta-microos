@@ -2,10 +2,10 @@ SUMMARY = "Multi-vendor library to simplify Paramiko SSH connections to network 
 DESCRIPTION = "Multi-vendor library to simplify Paramiko SSH connections to network devices."
 LICENSE = "MIT"
 
-PV = "4.1.2"
+PV = "4.2.0"
 
-RPM_NAME = "python311-netmiko-4.1.2-2.1.noarch.rpm"
-RPM_HASH = "aa35ab0ccdca35606f0d35c1152f3de482ef99c7aa450088a78ab9a6359b38b05b200ebf2fad5f8bc4995ef120c58d99ab4f0a63475891555588c9f907b21185"
+RPM_NAME = "python311-netmiko-4.2.0-1.1.noarch.rpm"
+RPM_HASH = "ca1aaafb418a92dc592893cfe6cb21ab481710b7c1060e4f50336416367fe0356158ccf87303466240ffcb86308cafbef110b73bd6457a5558cb68c2719cebc7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-netmiko \

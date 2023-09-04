@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.94svn65346"
 
-RPM_NAME = "texlive-pst-plot-2023.209.1.94svn65346-54.1.noarch.rpm"
-RPM_HASH = "26c7fa1cca4802ceedca3342b58cbba5f8c7cd9c7325411a78010bbb177ba1d62e5b2a3d8dfee55537079c9190d401ec1f4b6bfa024eb1b76400e11155499963"
+RPM_NAME = "texlive-pst-plot-2023.209.1.94svn65346-54.2.noarch.rpm"
+RPM_HASH = "98da34d79864cc0f2a5168d720284d198636bfbbabc27d9b1ecacc225cbf30d51cb4f0d8d8ed6546a10df1e93a9ceb62c07ddbace1f3c6de5a37297776f80e10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-plot.sty \

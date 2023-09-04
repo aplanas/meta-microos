@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.1.0.1svn65251"
 
-RPM_NAME = "texlive-hereapplies-2023.209.1.0.1svn65251-54.1.noarch.rpm"
-RPM_HASH = "05f7dda429eaef8ab19abab53551a2aa4d9ce1f8deef9593a9aa01cd2c8bfd2f687ffbc97781c3cc7fb44f6d97b9d81be80f16ebd875676623a2e81024813a14"
+RPM_NAME = "texlive-hereapplies-2023.209.1.0.1svn65251-54.2.noarch.rpm"
+RPM_HASH = "65e808ea5dc1e5f7399bc215149868b362cdd89ae975912757538a647b537bfa58ccc4e36596d06463bfcfefa36a1f4ee67e2041470a6235b3741b9ecc7bbd88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hereapplies.sty \

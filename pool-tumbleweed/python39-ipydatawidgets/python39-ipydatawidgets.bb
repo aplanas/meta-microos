@@ -5,10 +5,10 @@ datasets across different widgets, and different packages. \
 This package provides the python interface."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.3.2"
+PV = "4.3.5"
 
-RPM_NAME = "python39-ipydatawidgets-4.3.2-9.4.noarch.rpm"
-RPM_HASH = "fb1d500104d6d8e8b9b1a0dedf32a8a606fbca2bcd1485bb62f67b001f27bbb59a74dc9bdb16b298d05cc8271111d19532a52b4ab7b6d986ed08530ead27ebfa"
+RPM_NAME = "python39-ipydatawidgets-4.3.5-10.1.noarch.rpm"
+RPM_HASH = "2e6385ee5ac1a0610874655d1bd5a321b8e87ace5cd75789d41ba65eddbdd5ae774d9abc527298017590b31359d8e4ce6a781fa1ed155e562c72723e8ec46105"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ipydatawidgets \

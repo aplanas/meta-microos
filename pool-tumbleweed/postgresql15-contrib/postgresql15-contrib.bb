@@ -12,10 +12,10 @@ Documentation for the modules contained in this package can be found in \
 /usr/share/doc/packages/postgresql/contrib."
 LICENSE = "PostgreSQL"
 
-PV = "15.3"
+PV = "15.4"
 
-RPM_NAME = "postgresql15-contrib-15.3-1.5.aarch64.rpm"
-RPM_HASH = "4b4f38aa82ab9e19dfa618a4fd4939bc6771fd510724568cb73752d6b11f83bcfe9913ef60010f06c12b3e85eea7cf9f9b2c15e2f692e4ec46960c2fbbc6d84c"
+RPM_NAME = "postgresql15-contrib-15.4-1.1.aarch64.rpm"
+RPM_HASH = "741ecd2b26d678b245a31c83a065cae5c72f2921e1173d4f62837e472b3219d568f5d209b6ad084855973abfa89ac072c4c2132b03171e43b68fd9a95c0c84c4"
 
 RPROVIDES:${PN} += "postgresql-contrib-implementation \
 postgresql15-contrib"

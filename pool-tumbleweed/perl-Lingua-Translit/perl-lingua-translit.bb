@@ -30,8 +30,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.29"
 
-RPM_NAME = "perl-Lingua-Translit-0.29-1.5.noarch.rpm"
-RPM_HASH = "c7e5b17cde9a72a4a3a750e3aa5ca527e858f7e9c09e27f612afd4157e2440fdce8f964c6c4073a1039e17275be32639bc4ef12f25ff11083bd893321508a283"
+RPM_NAME = "perl-Lingua-Translit-0.29-1.6.noarch.rpm"
+RPM_HASH = "e12ea6be01b7accd1ffa50c34123f0c0c83224933554864ab3cf91f3fc627a3a98f5e7dbba61dd92148f8c8957e808c5f101140cf65742b85a2dd14c41113ba1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Lingua--Translit \
@@ -39,6 +39,6 @@ perl-Lingua--Translit--Tables \
 perl-Lingua-Translit"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

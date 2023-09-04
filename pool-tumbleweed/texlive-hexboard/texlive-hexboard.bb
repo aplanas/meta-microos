@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn62102"
 
-RPM_NAME = "texlive-hexboard-2023.209.1.0svn62102-54.1.noarch.rpm"
-RPM_HASH = "f7fca61ca99e5dfd741850df98ef0912ab7926d6185eb9b5eb59b56a9ca32c37168d186e75c87f45030576a060af0802f8e42a40a603edfb2f9d41a65ffb2268"
+RPM_NAME = "texlive-hexboard-2023.209.1.0svn62102-54.2.noarch.rpm"
+RPM_HASH = "000f39d33fab5a9601da4ed7583e12d41ebb33e87f78014f9695e3f6168fcc79af298d14166b7b1aee7a7e8eae40b622359b763ecae4a00ac09e2950cfaf9e99"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hexboard.sty \

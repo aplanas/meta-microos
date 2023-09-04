@@ -6,13 +6,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.11"
 
-RPM_NAME = "perl-Text-Glob-0.11-1.24.noarch.rpm"
-RPM_HASH = "43f1af31c5d370610b637cc604d99ffdc211b1318deb28f1f167b3a33c70d481072b9fcbcb412c8a0e41cd1664ab1aafa333eb7767df65fdf8f11a0b56fe7d08"
+RPM_NAME = "perl-Text-Glob-0.11-1.25.noarch.rpm"
+RPM_HASH = "1de3f1a820c36d3a90a9287db8900923e06e6932c43ca9e876efdaa8d0fc075eaf30af34628d7df42bba4f5943d9ab70fd15e6597eefca8657a4a8f62af75a8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--Glob \
 perl-Text-Glob"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

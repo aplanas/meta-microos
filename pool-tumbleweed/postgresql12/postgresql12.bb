@@ -11,10 +11,10 @@ HTML documentation for PostgreSQL can be found in the postgresql-docs \
 package."
 LICENSE = "PostgreSQL"
 
-PV = "12.15"
+PV = "12.16"
 
-RPM_NAME = "postgresql12-12.15-1.5.aarch64.rpm"
-RPM_HASH = "1791d8ced060eaaca4a446291f463d55223b8cf80b97da02b702968873a1584cb19907a8cb5e8e9e01b5aefb8b0403b5bc843b25dcfbe21cdbbf752bc4844ee5"
+RPM_NAME = "postgresql12-12.16-1.1.aarch64.rpm"
+RPM_HASH = "2ed72dbeb5fd1aaefcc18924bde7f2b831bd37265cfa8c207c8faa06379e30f9ee9d95644179e61058f3d4bdb62dfcf4efc86d73771aa4b102994ff13f96f55f"
 
 RPROVIDES:${PN} += "postgresql \
 postgresql-implementation \

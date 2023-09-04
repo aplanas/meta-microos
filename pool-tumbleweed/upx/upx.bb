@@ -6,10 +6,10 @@ temporary file, the latter of which does not support setuid programs, \
 or the proper name in argv[0]."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.0.2"
+PV = "4.1.0"
 
-RPM_NAME = "upx-4.0.2-1.4.aarch64.rpm"
-RPM_HASH = "25e7ffa39a3eead64de8d506ef1428a6c3896008c47c29d1a4e9fbdbf312c1b559bafb124fc535a8218b848da1d1c034447be503e04a4a12a29a054ea7425ca4"
+RPM_NAME = "upx-4.1.0-1.1.aarch64.rpm"
+RPM_HASH = "d360ec270607a81b236c295a0b2a9a6776554e97c434be7641ffb6c2430a6107d6f6031b20a453a515197469c86adbcbe96c8a76d006d5d37ca05ad2c658a3a9"
 
 RPROVIDES:${PN} += "upx"
 

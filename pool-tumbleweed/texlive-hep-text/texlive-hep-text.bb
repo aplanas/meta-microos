@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.1svn64906"
 
-RPM_NAME = "texlive-hep-text-2023.209.1.1svn64906-54.1.noarch.rpm"
-RPM_HASH = "81a390acb266d513f614a17daa77a03b4e02215af0dbd8aedefa03728effcf6302fb753f044b74b17c30e616efe80f32ee972dde8fb69e5817284d2066d54b18"
+RPM_NAME = "texlive-hep-text-2023.209.1.1svn64906-54.2.noarch.rpm"
+RPM_HASH = "7c924176e86392e5fc3f915c067acb489723cd748062c088e65cf043bc00d45ad6c4f75616834b724cc09325f2ac23241286d759f517bed67183d81fecdb9d14"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hep-text.sty \

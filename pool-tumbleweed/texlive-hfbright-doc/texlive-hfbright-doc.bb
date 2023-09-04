@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn29349"
 
-RPM_NAME = "texlive-hfbright-doc-2023.209.svn29349-54.1.noarch.rpm"
-RPM_HASH = "62f0b065b4adc98932bc2816343ffd6d564979c3c1092d20e2a7e70a4c80dfcfc41957c753c24350b9961952af3000edff06b3ad2554cc39a847cfe64bb89cd1"
+RPM_NAME = "texlive-hfbright-doc-2023.209.svn29349-54.2.noarch.rpm"
+RPM_HASH = "d6721f5837b5280aec6bdd77a4b781edc1e31f078456d384d0c96a444a16d314011974a5cf24a56bfe23ddf823c052331cc334b2935dbeba1b4ff5c1742ee21d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hfbright-doc"

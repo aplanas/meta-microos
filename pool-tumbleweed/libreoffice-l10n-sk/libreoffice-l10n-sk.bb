@@ -2,10 +2,10 @@ SUMMARY = "Slovak localization files for LibreOffice"
 DESCRIPTION = "Provides Slovak translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-l10n-sk-7.5.4.2-1.5.noarch.rpm"
-RPM_HASH = "0c62d24b3132dac2116358833d00707757768156e92ae33d98de6520e1553b0bc82d24d823d6d6841af87890f1d07f5f09516ee2e74dcad4f8e2432954bfed87"
+RPM_NAME = "libreoffice-l10n-sk-7.6.0.3-1.1.noarch.rpm"
+RPM_HASH = "ffcfbd25dcfe73d2d71542e620a74c28f51af840f853645330613900a9e7a7405306643cccdb2eeffeede1da5561be90a5b5d6a9166bca7dbd801075bb5f16b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-sk \

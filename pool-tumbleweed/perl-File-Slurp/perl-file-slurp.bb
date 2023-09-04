@@ -7,13 +7,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "9999.32"
 
-RPM_NAME = "perl-File-Slurp-9999.32-1.14.noarch.rpm"
-RPM_HASH = "ee0b7b1e011e18172412a15e0b4c92ccd67da8ab86007e02b93387f25634ae101ab4099781ce18c7626b6f47828964c871f9784e4a823318b15ccaef0778afbc"
+RPM_NAME = "perl-File-Slurp-9999.32-1.15.noarch.rpm"
+RPM_HASH = "0d570098fb492024ebcd5a66f8b7b1b9518a51d4a61a1f4523e3691bee2eae6d238abfcc4a270233c6a1ea21a3a60612c0a6bece34c3646e45495a0deb86ae06"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Slurp \
 perl-File-Slurp"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

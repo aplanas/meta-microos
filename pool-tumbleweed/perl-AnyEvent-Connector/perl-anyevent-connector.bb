@@ -5,15 +5,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.03"
 
-RPM_NAME = "perl-AnyEvent-Connector-0.03-1.13.noarch.rpm"
-RPM_HASH = "5a97539756bc6aa2c1e7c7e2a3fdf9603294457c192503b64b6c9d1e5504c93df07233f66bbb6c01c6556a74a4f721d5bee06bdd658620eecd49ea6e1203f01f"
+RPM_NAME = "perl-AnyEvent-Connector-0.03-1.14.noarch.rpm"
+RPM_HASH = "14bf2225ff2be1c6e4b5fac0129782f645285a34ec8449566f72d7f3df322c6d776c32ab37b86a9f4029ac3b10060222cfb884c60ae1d0327847cca6fde00d2b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-AnyEvent--Connector \
 perl-AnyEvent--Connector--Proxy--http \
 perl-AnyEvent-Connector"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-AnyEvent--Handle \
 perl-AnyEvent--Socket \
 perl-URI \

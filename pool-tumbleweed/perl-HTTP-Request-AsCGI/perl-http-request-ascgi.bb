@@ -5,14 +5,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.2"
 
-RPM_NAME = "perl-HTTP-Request-AsCGI-1.2-13.25.noarch.rpm"
-RPM_HASH = "11561f6a8b15cb9ad391e34b43ae55d3790d27dad3a88d65689d75ab25c8def4a1e5defd7b2bca43bc1017de8fb3eddfc1139b95492144fc77d35af4a46d5fac"
+RPM_NAME = "perl-HTTP-Request-AsCGI-1.2-13.26.noarch.rpm"
+RPM_HASH = "d2211f9c9717d7b6e63a19726ff9707fd65b01fd202c1edf64867571e5bb7475af8277a64f618e91131142303c82791788ab344f13962d8c94a3f0de93f60214"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Request--AsCGI \
 perl-HTTP-Request-AsCGI"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Carp \
 perl-Class--Accessor \
 perl-HTTP--Request \

@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230109"
 
-RPM_NAME = "libsigscan-devel-20230109-1.6.aarch64.rpm"
-RPM_HASH = "0debbb5e5731ba925c66a20a1ca29ec66d5c06f1d9e0b82682275417470952d1db8d408fd95b57163b2ef38d2103116e34395ad143752378029ee31f7f13518f"
+RPM_NAME = "libsigscan-devel-20230109-2.1.aarch64.rpm"
+RPM_HASH = "7069263cb201f0523b8e1a02e4b9da00b0428267bb08e50958cbc5ef2c787fed2af88c419f1949324e1a37ccdef4c5af0e49c07af240fcfec23ec35882c41777"
 
 RPROVIDES:${PN} += "libsigscan-devel \
 pkgconfig-libsigscan"

@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.06"
 
-RPM_NAME = "perl-MooseX-Clone-0.06-1.25.noarch.rpm"
-RPM_HASH = "6f7e6605536efcc04729428c8d96b9041b8b4cdbf8f62a7e8ff23cd5e08018b169ee1e862b1db160c6e9b7f9bd1bcc464c51d89a986c0ae6423ea010b5309292"
+RPM_NAME = "perl-MooseX-Clone-0.06-1.26.noarch.rpm"
+RPM_HASH = "d221f1c13bee1592b38ea64cfab7ffc8147507034178a68567acfe2daff4eb7eb41bb0b724ac68a330026b9529d7942ba2bf023fc0542e5d05ab54c124ba1fb0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Clone \
@@ -24,7 +24,7 @@ perl-MooseX--Clone--Meta--Attribute--Trait--NoClone \
 perl-MooseX--Clone--Meta--Attribute--Trait--StorableClone \
 perl-MooseX-Clone"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Data--Visitor \
 perl-Data--Visitor--Callback \
 perl-Hash--Util--FieldHash--Compat \

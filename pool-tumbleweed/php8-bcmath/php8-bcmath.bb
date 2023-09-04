@@ -3,10 +3,10 @@ DESCRIPTION = "Binary Calculator which supports numbers of any size and precisio
 represented as strings."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.8"
+PV = "8.2.9"
 
-RPM_NAME = "php8-bcmath-8.2.8-1.1.aarch64.rpm"
-RPM_HASH = "d635fd1c6774aefac29093965a306cdbbd199d20d74569e52ac4fdb4c7b152f3f1f2a8083e27969515e85d9202f3550dd9d459c5c0c90336cb9bd82ea2de366c"
+RPM_NAME = "php8-bcmath-8.2.9-1.1.aarch64.rpm"
+RPM_HASH = "5fc762b8a3730aaf3effb38fbbca642b31bff69956b4b958408fac8e3e65aec3cd1d145dc312c6bf4f5ee604319d77bbaf0d0af8ea81b5debff55e74e7804438"
 
 RPROVIDES:${PN} += "config-php8-bcmath \
 php-bcmath \

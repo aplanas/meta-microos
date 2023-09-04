@@ -5,18 +5,18 @@ LICENSE = "MIT"
 
 PV = "2.3.0"
 
-RPM_NAME = "ghc-hslua-marshalling-devel-2.3.0-1.6.aarch64.rpm"
-RPM_HASH = "69628ee84f919796159b5ec6cdac96eb2f57fd57cfe5b1c54bf953cd31e1e83ad3f4bec5f9623bc528a7d122dff067d017ab033fd9807349f03272016fcaa26c"
+RPM_NAME = "ghc-hslua-marshalling-devel-2.3.0-1.8.aarch64.rpm"
+RPM_HASH = "f947898434acac8e108d94ec21ff83b58d63874f256b3386540cb1fb97cceb3a1c3331b0bf5f9a77f7c5a9e5d55628a52404f0117b04b36395530347733d0221"
 
-RPROVIDES:${PN} += "ghc-devel-hslua-marshalling-2.3.0-1lHdh994uwdEmrYudOnEBq \
+RPROVIDES:${PN} += "ghc-devel-hslua-marshalling-2.3.0-7mBSxD4mqSw36NR9RXD4Dj \
 ghc-hslua-marshalling-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0 \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1 \
 ghc-devel-containers-0.6.7 \
-ghc-devel-hslua-core-2.3.1-S0Tmk0QBS1InOMEfkNHVC \
+ghc-devel-hslua-core-2.3.1-H6EUAt4RUpl9ClgBncvABk \
 ghc-devel-mtl-2.2.2 \
 ghc-devel-text-2.0.2 \
 ghc-hslua-marshalling"

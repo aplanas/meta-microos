@@ -8,14 +8,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.0014"
 
-RPM_NAME = "perl-MooseX-Object-Pluggable-0.0014-1.25.noarch.rpm"
-RPM_HASH = "56a74fe2c753c24a5979bd7e4ba39fd9b256a2d0f2ddfedbd2c21024aa4bc39ccd2d5fafc35f10aad2db66b8e31e372761383578a7aa35e141a0573b346ac9ff"
+RPM_NAME = "perl-MooseX-Object-Pluggable-0.0014-1.26.noarch.rpm"
+RPM_HASH = "f4e207ee516736aac34f7c0a014e00402f790239cb242b2c1e8909812b54dc9feb6fee984be89ff96c7d5985f1dfe515ea5a04592200dcf83cda4dcdd24a0bb7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Object--Pluggable \
 perl-MooseX-Object-Pluggable"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Module--Pluggable--Object \
 perl-Module--Runtime \
 perl-Moose--Role \

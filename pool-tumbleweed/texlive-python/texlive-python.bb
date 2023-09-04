@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.0.0.22svn60162"
 
-RPM_NAME = "texlive-python-2023.209.0.0.22svn60162-54.1.noarch.rpm"
-RPM_HASH = "fea3bc5a56d81d0be9cab3511e7bc8b95fc85984cbef780c340f19c1def819ba915625ea58c52245e86ec659491a43dac6b0fe44ccfddc5f3d8d6f544359afcb"
+RPM_NAME = "texlive-python-2023.209.0.0.22svn60162-54.2.noarch.rpm"
+RPM_HASH = "fce71844ab64c850c1b3a3115f4e3669a739d31bedc373c6be64e4bf50b3dac154b79bda5f59ba407d53dcb80dc82891fdf2c9e062bdd88b0da947ce1bd6bd88"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-python.sty \

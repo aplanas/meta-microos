@@ -8,8 +8,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "3.001"
 
-RPM_NAME = "perl-Mojo-DOM58-3.001-1.10.noarch.rpm"
-RPM_HASH = "8eb5e55d0b3c012109bbca6d2fcc095c053a5f3af824d50ab20f93aad8e0e93f463c1d4c8e6faaa50660c3cef10c9797cd62e6f1928bc6a44e13549305a3600a"
+RPM_NAME = "perl-Mojo-DOM58-3.001-1.11.noarch.rpm"
+RPM_HASH = "95144e4628c3a3107c705b973dce134e6823df6252a67fd5502b0b9107aa91f497a60878e3604e3f8727cc13a36157f5a2e84d9055d5c2bd943f69947a734833"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojo--DOM58 \
@@ -19,6 +19,6 @@ perl-Mojo--DOM58---HTML \
 perl-Mojo--DOM58--Entities \
 perl-Mojo-DOM58"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

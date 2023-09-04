@@ -10,14 +10,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.15"
 
-RPM_NAME = "perl-JavaScript-Minifier-XS-0.15-1.10.aarch64.rpm"
-RPM_HASH = "4cc6a26c2d387bbd2689195944e0ffd7f0e889c7858cf0e6c0edada63a70bc08ff44f58a8a77c57372f7b1b8bba2d40e1ed41c3d836e9eb1e5bcfbdba7ce5a26"
+RPM_NAME = "perl-JavaScript-Minifier-XS-0.15-1.11.aarch64.rpm"
+RPM_HASH = "e8f35381e2259c8c578f1525a2f9c3038fba2e214d810431cdd8b2319c34759707f6963a2776ef4f0c0f20df24bcefea73a6526ddfe00812ca64f18bc5cf456a"
 
 RPROVIDES:${PN} += "perl-JavaScript--Minifier--XS \
 perl-JavaScript-Minifier-XS"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

@@ -16,8 +16,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.11.1"
 
-RPM_NAME = "python310-PyPDF2-2.11.1-1.4.noarch.rpm"
-RPM_HASH = "b55f6dedf1e4be033bedf1115bd7728c3ca791995d91e316a92627648e1ad69ab98060c9bcfbb0bbee34094738fc87caf4afe5027c189da008e1af6560f74fec"
+RPM_NAME = "python310-PyPDF2-2.11.1-2.1.noarch.rpm"
+RPM_HASH = "57fd36b8e233a15712d2198e2569fcce7b2948afcfcffb77fa413ba7e26c20c4ad0ca59e94d27938b1341335e3b77e2cce490906d734f3c1d9bec10b46637eba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-pypdf2 \

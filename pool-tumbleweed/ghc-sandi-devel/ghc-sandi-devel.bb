@@ -4,17 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5"
 
-RPM_NAME = "ghc-sandi-devel-0.5-5.7.aarch64.rpm"
-RPM_HASH = "f2e60e93ae7f0bd459c38acb4e57ca1de1ce7a90f8739228d8524acbdee15ace5dc272cdc678f54e1bcd18e4c41a3e04f1d0a3502b1cecc4d89c9d7e8494821e"
+RPM_NAME = "ghc-sandi-devel-0.5-5.11.aarch64.rpm"
+RPM_HASH = "8f7e1bae947b7fb32a60523a555ed0cfdba9494ec9321e55e6458dfcb30d0ecdc83ef41586d18ad01eea64364157704c4a13eee0962285b60a860fdd0c3a41e8"
 
-RPROVIDES:${PN} += "ghc-devel-sandi-0.5-YnddZGVezcGXuCMoeOLq4 \
+RPROVIDES:${PN} += "ghc-devel-sandi-0.5-4V55ws6mOby4WWuCXz9My4 \
 ghc-sandi-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0 \
-ghc-devel-conduit-1.3.5-EjJ71P6EbmSGTrvJLquwgr \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1 \
+ghc-devel-conduit-1.3.5-3TRUhNB8WbY2vxuXe2VjBX \
 ghc-devel-exceptions-0.10.5 \
 ghc-sandi"
 

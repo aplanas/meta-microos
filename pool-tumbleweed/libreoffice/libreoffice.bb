@@ -26,10 +26,10 @@ example: \
 - libreoffice-l10n-it"
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-7.5.4.2-1.5.aarch64.rpm"
-RPM_HASH = "b486c3a3edffc9740f133f04b1cbfad23255c867424b62161450a99cc46c8a955bf5f0df49474cb1ce006ee0e28d0496a3e2bef0c01aca55c210bce6f4ff9ae3"
+RPM_NAME = "libreoffice-7.6.0.3-1.1.aarch64.rpm"
+RPM_HASH = "7dc2c731dd01d45d7701461b6f674b73d1a1bf151d2d141fdbc1f5a86e1acd989d2b889f4fffc9115692ae4657f1d0ae89d645aac62446a568c55d684cc1f162"
 
 RPROVIDES:${PN} += "config-libreoffice \
 libLanguageToollo.so \
@@ -60,7 +60,6 @@ libdict-zh.so \
 libdlgprovlo.so \
 libembobj.so \
 libemboleobj.so \
-libexpwraplo.so \
 libfilelo.so \
 libflatlo.so \
 libgcc3-uno.so \
@@ -215,8 +214,8 @@ libnss3.so \
 libnumbertext-1.0.so.0 \
 libodfgen-0.1.so.1 \
 libopenjp2.so.7 \
-liborcus-0.17.so.0 \
-liborcus-parser-0.17.so.0 \
+liborcus-0.18.so.0 \
+liborcus-parser-0.18.so.0 \
 libpagemaker-0.0.so.0 \
 libplc4.so \
 libpng16.so.16 \

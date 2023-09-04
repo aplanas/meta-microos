@@ -11,10 +11,10 @@ tricky aspects of the speech subsystem. \
 This package contains the espeak module."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.11.4"
+PV = "0.11.5"
 
-RPM_NAME = "speech-dispatcher-module-espeak-0.11.4-2.1.aarch64.rpm"
-RPM_HASH = "02721c2005d5ca7f6fe4e5d11b30dca848e196c34c0d832b45231dd09cd28b3ad15131d6b9f1f0d495e4de0a1dce95dfdc3e3108c370bfdd99c07229d4216ad1"
+RPM_NAME = "speech-dispatcher-module-espeak-0.11.5-1.1.aarch64.rpm"
+RPM_HASH = "f3b7b7ad1d0f0c84c691829b53f922430093904ff17403c5a252d3d88c5ce8f2468ee0cd4c004ac8e92e7228585a246cdc8366fbaddb06bc4ead7ca343edfe03"
 
 RPROVIDES:${PN} += "config-speech-dispatcher-module-espeak \
 speech-dispatcher-module-espeak"

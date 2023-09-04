@@ -2,10 +2,10 @@ SUMMARY = "Open vSwitch device plugin for NetworkManager"
 DESCRIPTION = "This package contains NetworkManager support for Open vSwitch bridges."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.42.8"
+PV = "1.44.0"
 
-RPM_NAME = "NetworkManager-ovs-1.42.8-1.1.aarch64.rpm"
-RPM_HASH = "f05adfab6cb611269d143a24a6cb89d933d5eb524e990ed5bcaf24ca5a2ee56c524cee855e04d6011a8b6394f62a43c049b7564f37aa271072c1280ea7499e66"
+RPM_NAME = "NetworkManager-ovs-1.44.0-1.1.aarch64.rpm"
+RPM_HASH = "b4b5d6732561e45ee72a5aa259892eb661c25ad6bd54e1ed4f44fd6235472a5f392180a50ed769749b186138989ce726e159f6bc20a181875f2498f74b8ce24c"
 
 RPROVIDES:${PN} += "NetworkManager-ovs \
 libnm-device-plugin-ovs.so"

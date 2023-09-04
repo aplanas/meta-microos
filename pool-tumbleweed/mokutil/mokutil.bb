@@ -5,13 +5,12 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.6.0"
 
-RPM_NAME = "mokutil-0.6.0-1.4.aarch64.rpm"
-RPM_HASH = "e8eaa034365aa94e04cef1a57618451f3b88063cdfdde2f9a5b907002ffc898f656ec33f43a8fa9bbc9cb80bff51cdf86baa2fe09c1df22b1ac8b441ec177f86"
+RPM_NAME = "mokutil-0.6.0-2.1.aarch64.rpm"
+RPM_HASH = "79d7906ea5bb92e1518aa14c2559671a0ed5611de96803d10fa4f294c1b7c531736f9755358d1266e5f0d6071f115e270fc9da905374b7fbecc6188dadfd76a5"
 
 RPROVIDES:${PN} += "mokutil"
 
-RDEPENDS:${PN} += "/usr/bin/perl \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypt.so.1 \
 libcrypto.so.3 \

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.2.37"
 
-RPM_NAME = "xmlsec1-gnutls-devel-1.2.37-2.3.aarch64.rpm"
-RPM_HASH = "07dbd0fcd920fa67f0c71864b9820b719622701682a414487651f44946d98e3e244521b4f3c50dc506bf5bed725ade427e5f06e771a241f4947f70e31a1ede16"
+RPM_NAME = "xmlsec1-gnutls-devel-1.2.37-3.1.aarch64.rpm"
+RPM_HASH = "a33b067e86fa104f73a161777e5813e5c212dc712686c822389a022e2cc26c420f34da5b43d5a613d3b80e4e8d9b837251c06b452ce923d49896475d58103969"
 
 RPROVIDES:${PN} += "pkgconfig-xmlsec1-gnutls \
 xmlsec1-gnutls-devel"

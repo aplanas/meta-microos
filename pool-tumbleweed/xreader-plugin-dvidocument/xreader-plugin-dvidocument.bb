@@ -2,10 +2,10 @@ SUMMARY = "DVI document support for Xreader"
 DESCRIPTION = "A plugin for Xreader to read DVI documents."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
-PV = "3.4.5"
+PV = "3.8.2"
 
-RPM_NAME = "xreader-plugin-dvidocument-3.4.5-1.5.aarch64.rpm"
-RPM_HASH = "d715d4f8c51137b9f797237de0736996086ce8ae7d2660d3a7cb5de731c30475b92780170c21d14a8ec5eb2a9c87e63a9f4a18834767f141a226131e7ad6fe57"
+RPM_NAME = "xreader-plugin-dvidocument-3.8.2-1.1.aarch64.rpm"
+RPM_HASH = "ff0a206cc1076edb1f043964612e11a4cefad0b36d160b02da783d5e2be812d0dbc10b0a83906b4ff659971149100be9d5175a5f585d0dba0e249b3fada6739d"
 
 RPROVIDES:${PN} += "libdvidocument.so \
 xreader-plugin-dvidocument"

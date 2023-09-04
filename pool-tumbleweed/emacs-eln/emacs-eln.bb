@@ -8,10 +8,10 @@ Compiler Collection (GCC) infrastructure. Generated executables are stored \
 as binary files and can be loaded and unloaded dynamically."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "28.2"
+PV = "29.1"
 
-RPM_NAME = "emacs-eln-28.2-4.3.aarch64.rpm"
-RPM_HASH = "ed02a2296193f2149a9834f91c7f7edb732a64cc06aacd1066f6138f4068ad82825519e34c12972663258f4e07300751b071c48bd80ae539ea83fede205db332"
+RPM_NAME = "emacs-eln-29.1-3.1.aarch64.rpm"
+RPM_HASH = "a070dd5027ff42d0065b41258883bcfaf22c208c3484886da0b28f5aaefb97a17b87d888f4efccfa631cf6d3c626c089ff873ad89261cb112779d71c415da916"
 
 RPROVIDES:${PN} += "emacs-eln"
 

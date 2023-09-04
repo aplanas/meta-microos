@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.005_bsvn19705"
 
-RPM_NAME = "texlive-electrum-fonts-2023.209.1.005_bsvn19705-54.1.noarch.rpm"
-RPM_HASH = "1e1783f80d9709f35853e65d9e910bb5b92e364d14f8dcb5368f12ac3d21f92ad0d60387efc71191d88a51eb650d52bf4d80977f381cb9f8b4f29911510f62b6"
+RPM_NAME = "texlive-electrum-fonts-2023.209.1.005_bsvn19705-54.2.noarch.rpm"
+RPM_HASH = "4a70462abeb2ca3098f3be7dfd3a1a9a360a84b7214bf31b0f2baa42e3f5f1ca1a49abd3067fccbe7ef6cdac1574f83d82c518b6727610dcafbf62818bcd806e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

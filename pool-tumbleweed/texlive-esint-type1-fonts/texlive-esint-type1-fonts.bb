@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-esint-type1-fonts-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "e1961874d853a66191f5322edc817f8e6e13f25d6f14d31d356e3977171064772a37c19d72cc2041789bd1db2d87918b02fce1c2127509b7cba50fb23f45369a"
+RPM_NAME = "texlive-esint-type1-fonts-2023.209.svn15878-54.2.noarch.rpm"
+RPM_HASH = "a09a9cede62f39c9c0fca0424810783d160f878952edb32abb813694e6ed2fb82220164288c0e549eccc6a8b60611dd23d777bb15292cfe97209739e569b45c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

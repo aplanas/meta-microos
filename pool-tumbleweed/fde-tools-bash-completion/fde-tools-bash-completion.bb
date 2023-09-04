@@ -2,10 +2,10 @@ SUMMARY = "Bash completion for fde-tools"
 DESCRIPTION = "Bash shell completions for fde-tools"
 LICENSE = "GPL-2.0-only"
 
-PV = "0.6.6"
+PV = "0.6.8"
 
-RPM_NAME = "fde-tools-bash-completion-0.6.6-2.1.noarch.rpm"
-RPM_HASH = "5c7d67839ec5173e9ed5c57f55cd6cf00e7ee11708f00706b27120a6e84a36fc5064115425b5d633bc635a7a5edc477f8c8e0ed601a24f423e60d6d048603ed5"
+RPM_NAME = "fde-tools-bash-completion-0.6.8-1.1.noarch.rpm"
+RPM_HASH = "d687e3a23c0b7bfbf19235c13fe8b10268d7b4ad28bd9ca3bb4b7332a6ff6be212d671272fb701ac4b35c23afcce363e4b96125c9fb56280218a99d13ac4f49d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fde-tools-bash-completion"

@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.00012"
 
-RPM_NAME = "perl-Crypt-DH-GMP-0.00012-4.30.aarch64.rpm"
-RPM_HASH = "b37929975cfc666d163f91e477f571b7e798a249b967137995f95f4b27f188bc90bf22f1b68c51e8142c441023e6b997a0fcc3f5cf3ee7308da8045466158b9d"
+RPM_NAME = "perl-Crypt-DH-GMP-0.00012-4.31.aarch64.rpm"
+RPM_HASH = "83393ca94c65a380d57fc9231e9aa2c9b1308584185cd0bf821b2d2a7e6c83a69877554b8bb512e548a599413831f38184ca007aa37ddfaedde290f9f6fc5bd9"
 
 RPROVIDES:${PN} += "perl-Crypt--DH--GMP \
 perl-Crypt--DH--GMP--Compat \
@@ -15,6 +15,6 @@ perl-Crypt-DH-GMP"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgmp.so.10 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

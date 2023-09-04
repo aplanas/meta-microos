@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.0"
 
-RPM_NAME = "python310-scikit-learn-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "df9eced7c3f5c43727d2758e8d8eb47bac42a15cbd2694479f50e19800e49bbc3d712c68437aab3df0e0bae7f6eb420462d31cf8aa8d458cd225517ab9aa756d"
+RPM_NAME = "python310-scikit-learn-1.3.0-3.1.aarch64.rpm"
+RPM_HASH = "f9246e95aeae9b741a2dbd1d5b04d94a0be599c7456fa6a2b2956760ccde61c0aed7abc4a5159062f30c3fe387563def2161549882a360d3aadeea59635daa42"
 
 RPROVIDES:${PN} += "python3.10dist-scikit-learn \
 python310-scikit-learn \

@@ -4,16 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.8.0"
 
-RPM_NAME = "ghc-deepseq-1.4.8.0-3.2.aarch64.rpm"
-RPM_HASH = "a4474b965a4ba13732f96dff00f77c27aff0dadf21d9b7cb76c3261e528157b4085b085151a6c18cc5cb8522af8e621dfb8a2901cc10f2ba11f878c1160e9f44"
+RPM_NAME = "ghc-deepseq-1.4.8.0-1.1.aarch64.rpm"
+RPM_HASH = "19b41a02fc00a2f36dad6535cf8612d885585cb45e0c7bbc0e72f89cfc0eb2a0fc8371a8f3c212f0cd6e95a9b19772f40d2afa76aaf8034479f39e5c154a405a"
 
 RPROVIDES:${PN} += "ghc-deepseq \
-libHSdeepseq-1.4.8.0-ghc9.4.5.so"
+libHSdeepseq-1.4.8.0-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
-libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
+RDEPENDS:${PN} += "/sbin/ldconfig \
+libHSarray-0.5.4.0-ghc9.4.6.so \
+libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

@@ -46,12 +46,12 @@ LICENSE = "GPL-1.0-or-later | Artistic-1.0"
 
 PV = "3.75"
 
-RPM_NAME = "perl-common-sense-3.75-1.14.aarch64.rpm"
-RPM_HASH = "787307ae8e61ff713e1bbe01768ebab3fbcd591c232afe12cf0422f7320aae47a29714398e1fe6b7500eb7695947c50e373d2ceab21f3646c9ae08c21cb7e1e5"
+RPM_NAME = "perl-common-sense-3.75-1.15.aarch64.rpm"
+RPM_HASH = "046c09fdad2db383506c641c97aa5a986f55b0e925abec0429054064dc23d4add30244c98b253d6f57e66be739d718c6d9d633960a6f8d2680c8e2b61f408d62"
 
 RPROVIDES:${PN} += "perl-common--sense \
 perl-common-sense"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

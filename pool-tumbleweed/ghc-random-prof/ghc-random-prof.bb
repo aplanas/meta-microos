@@ -4,17 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1.1"
 
-RPM_NAME = "ghc-random-prof-1.2.1.1-2.2.aarch64.rpm"
-RPM_HASH = "3ffdf37270556f16ced17e6e0672c10a7bad4f92de27f075bc4323823edb6131d21d1a8f3c4cebdcf097ae775f169033d5de588851c63a5a8eb13db310f49039"
+RPM_NAME = "ghc-random-prof-1.2.1.1-2.3.aarch64.rpm"
+RPM_HASH = "d923a0348d78c1f6bd3ae7a139288c7209786c5ab9ff1e0fc28410f49d41427378fe5fef363af7c1afacbd95826998b410a32865af64824d50321509c227a86f"
 
-RPROVIDES:${PN} += "ghc-prof-random-1.2.1.1-I0wUgAAbf0g3qHR3e8uT0o \
+RPROVIDES:${PN} += "ghc-prof-random-1.2.1.1-DaR3VtSJjyj4XXOpfKJ29k \
 ghc-random-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
-ghc-prof-bytestring-0.11.4.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
+ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-deepseq-1.4.8.0 \
 ghc-prof-mtl-2.2.2 \
-ghc-prof-splitmix-0.1.0.4-7e8CibdlMRLAGh7KO5VlFe \
+ghc-prof-splitmix-0.1.0.4-2jzLu9hw0mWH5mdbN14y0O \
 ghc-random-devel"
 
 inherit rpm

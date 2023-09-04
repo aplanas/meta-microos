@@ -2,10 +2,10 @@ SUMMARY = "GHC manual"
 DESCRIPTION = "This package provides the User Guide and Haddock manual."
 LICENSE = "BSD-3-Clause"
 
-PV = "9.4.5"
+PV = "9.4.6"
 
-RPM_NAME = "ghc-manual-9.4.5-3.2.noarch.rpm"
-RPM_HASH = "1ce26a266f49b5993b6be417646e842df64f4baf8123155bb7b6e5ba1d18a47110db5d1bb082f410763aa16808498d757611a53f647dcfee2f42fd3e89e10dec"
+RPM_NAME = "ghc-manual-9.4.6-1.1.noarch.rpm"
+RPM_HASH = "16560d9b5acd12cf1f10fb3ec273098e09ae5a233d436cbd69c0b592d2a1b69a92d7eaeea89994dd9720e0c93f96da9875005e88db30071a586f70f3ce3f193e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-manual"

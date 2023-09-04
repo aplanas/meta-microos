@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn54074"
 
-RPM_NAME = "texlive-glyphlist-2023.209.svn54074-54.1.noarch.rpm"
-RPM_HASH = "c5aa9332bb0e7be6b89b2dcd0c14ab2e7a84b5671ff8acfa529c0526d38464cf1c781e04c69ed3fb691a43c2e36f8816863fa975ad874e8c0e7e82eeb3dbfa74"
+RPM_NAME = "texlive-glyphlist-2023.209.svn54074-54.2.noarch.rpm"
+RPM_HASH = "baaabfea1c055042cd061800f0d534f8b20a7c94083e22b8573ab5656dbe40ca72d9842670adefab7c5ed346d1cad45f7801790b23d0ccba1c289358a1796f9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-glyphlist"

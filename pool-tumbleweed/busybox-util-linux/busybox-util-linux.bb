@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.36.1"
 
-RPM_NAME = "busybox-util-linux-1.36.1-27.1.noarch.rpm"
-RPM_HASH = "886204d3d1e232ed7cc3207fa0ed7a413f302ee3200359228f2a6b12ebf6e1b7c489190478cf7ce55d20cfc2a228a4b3c494aefa79061c47cb32513b1ac46097"
+RPM_NAME = "busybox-util-linux-1.36.1-28.1.noarch.rpm"
+RPM_HASH = "a4867f2e64eddb3ced67c8c7eccc5ec3d974ce4bf747a855c080f8c1f0e2857e59ca35a47c6975040a89ce01277029f515f1a5553186aec21c94d34cc54f6052"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/usr/bin/kill \

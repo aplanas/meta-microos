@@ -3,10 +3,10 @@ DESCRIPTION = "This RPM contains the header files and development tools for the 
 libraries."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "8.13"
+PV = "8.14"
 
-RPM_NAME = "wine-devel-8.13-1.2.aarch64.rpm"
-RPM_HASH = "fd78ebfff5fc517414aa502f589454fb61c76e76077ab04bdc1f517f68b855ccf4eacc5002f24166396bec42418f91bae36782986ce8eda9ec7349eacb70345c"
+RPM_NAME = "wine-devel-8.14-1.2.aarch64.rpm"
+RPM_HASH = "ce819472f78e5ee975d299269115f9a5be5776436929ea7cd0253e5fd297b09cf27c2fbe1c5401bb296cd14713f2982c39de1f71b04fc7e2560ef8b6332bf4a9"
 
 RPROVIDES:${PN} += "wine-devel"
 

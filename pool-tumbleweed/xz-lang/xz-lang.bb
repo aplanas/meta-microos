@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xz"
 DESCRIPTION = "Provides translations for the 'xz' package."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later & LGPL-2.1-or-later & SUSE-Public-Domain"
 
-PV = "5.4.3"
+PV = "5.4.4"
 
-RPM_NAME = "xz-lang-5.4.3-1.3.noarch.rpm"
-RPM_HASH = "edfe25a1b1c85c31b73e27b8f4ae783da65db3f5d64bfa95a44605223fcb7c9c0bd0eb7f82a0d6734dede715fd7f1e7c84c25fcf5ee0b3b8f8d95ed2cb70510c"
+RPM_NAME = "xz-lang-5.4.4-2.1.noarch.rpm"
+RPM_HASH = "5bc17adf90b4655a40192826c760a5bcee5a1dd0f8f8b259b912be8c75329d11e779f8a6afb294779dc46cafd05ce7b6211667acd2ebceca440d39306969c3d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xz-ca \

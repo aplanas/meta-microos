@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.2.4"
 
-RPM_NAME = "ghc-async-doc-2.2.4-4.2.noarch.rpm"
-RPM_HASH = "af10bff734acccadd524fa8133a0572ae780ed638a6b0685e74a27a802ec1575433c0e018f16ff9aa59380120114a5ce3542016e91d81aacfe6e03b885dd1eb5"
+RPM_NAME = "ghc-async-doc-2.2.4-4.4.noarch.rpm"
+RPM_HASH = "d8af71e77359c8e9017d6d60b11fb2a85f51c1ef2b988bf0c8559c196c6b251f0f7cd02842bb8765c9cb042045ebb5a0e065a8135f6d96119aa5bcf436d1abb3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-async-doc"

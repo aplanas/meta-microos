@@ -10,10 +10,10 @@ mount call, such as encrypted volumes. This includes SMB/CIFS, FUSE, \
 dm-crypt and LUKS."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.19"
+PV = "2.20"
 
-RPM_NAME = "pam_mount-2.19-2.4.aarch64.rpm"
-RPM_HASH = "92c70d54428be854a31474b18867042bd05c0dcf39e0893262893fb4da7eb5ccd23bdff68e7e2dcd381819e266ad8a3e72079e487d1bd6de39d0b05737283a4c"
+RPM_NAME = "pam_mount-2.20-1.1.aarch64.rpm"
+RPM_HASH = "25e8efae9214ecda41b6062e424a374dd0fa2ba45d68293581b3a9d8455ec83314084515bbcdc52a3446f53381d8141653d38eb60df7b7e21c13b03baf418f68"
 
 RPROVIDES:${PN} += "config-pam-mount \
 pam-mount"

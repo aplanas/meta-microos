@@ -4,10 +4,10 @@ with name [azure-cosmos](https://pypi.python.org/pypi/azure-cosmos/). For docume
 see the Microsoft Azure [link](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-sdk-python)."
 LICENSE = "MIT"
 
-PV = "4.4.0"
+PV = "4.5.0"
 
-RPM_NAME = "python311-azure-cosmos-4.4.0-1.2.noarch.rpm"
-RPM_HASH = "ceeb2201bab83ff24ad579f8fdc210639639623b23c279ae65b3bd4f2af02267cbfd9e3f7761bf9bd6e0b64af64a1e5587347447a533118f1b9ee92fea6388f8"
+RPM_NAME = "python311-azure-cosmos-4.5.0-1.1.noarch.rpm"
+RPM_HASH = "b5791b275c7e720d4ce9c1f72546ccfb33e8a9f3ff3c0c04fe98306dc4ba1240aea532b14c252f2078ee12059123d1bd9c60133a121cbc93ab7f50da47b4d5e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-cosmos \

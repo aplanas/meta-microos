@@ -34,14 +34,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.707"
 
-RPM_NAME = "perl-CGI-Ajax-0.707-15.27.noarch.rpm"
-RPM_HASH = "c3ba989711abb2b7659a5d8194b862aeefd6759abb76efa6cd24ca96a01d968bf8242715abe8a4c887c6fd2821f210c3cca78dd3c93d960ff87869ec0aff07ec"
+RPM_NAME = "perl-CGI-Ajax-0.707-15.28.noarch.rpm"
+RPM_HASH = "0eacaa1bb2e30ef8d703505b7ec04bb4cb577b5e1e895ec7c79d86a93e00af6d8db2f73fdeb563fbdc38463cf36f1cf67e5db0066017b98a3b6055934c3e7211"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CGI--Ajax \
 perl-CGI-Ajax"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-CGI \
 perl-Class--Accessor"
 

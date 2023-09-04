@@ -7,10 +7,10 @@ management. \
 This package contains the Qt 6 bindings."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.21.0"
+PV = "1.22.0"
 
-RPM_NAME = "libqgpgmeqt6-15-1.21.0-1.1.aarch64.rpm"
-RPM_HASH = "340ead49c35964c8693e230d66927f20c8764fa84104ada66cd3198c508e540beb0b4d9328fafda9fd2d1b70a3f5f65edf4a9e4e09575c8478649e33b9996235"
+RPM_NAME = "libqgpgmeqt6-15-1.22.0-1.1.aarch64.rpm"
+RPM_HASH = "845a01adf9e0b30e09060403643390151fd07f2024d20514a2edbff5207760feda3d3e048e83ac7fef3844e10f50bcf519ce0a248d2b1b6aeb31089f66969c53"
 
 RPROVIDES:${PN} += "libqgpgmeqt6-15 \
 libqgpgmeqt6.so.15"

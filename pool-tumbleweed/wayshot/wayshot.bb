@@ -4,8 +4,8 @@ LICENSE = "(0BSD | MIT | Apache-2.0) & (Apache-2.0 | MIT) & (Apache-2.0 | MIT) &
 
 PV = "1.3.0"
 
-RPM_NAME = "wayshot-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "7598176d72e5bd1fb25b5d28b95f303c5bbf9d995459d805204495ec050db619eeab13b5609f6c251f28e4ae6da4e0f43bcdfb2152a7f8f0742abb297d4b686b"
+RPM_NAME = "wayshot-1.3.0-3.1.aarch64.rpm"
+RPM_HASH = "31348691838663245fdc2e02b5e8df2c47c416b5d6bcb9be6a31085f5cd0d45051ec4f3b5b582f666ca77d63b511ec854ffa215165abe5dca0c8dd12c941d538"
 
 RPROVIDES:${PN} += "bundled-rust-crate-adler \
 bundled-rust-crate-atty \

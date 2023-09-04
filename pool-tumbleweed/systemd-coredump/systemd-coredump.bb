@@ -4,10 +4,10 @@ DESCRIPTION = "Systemd tools to store and manage coredumps. \
 Visit https://systemd.io/COREDUMP for more details."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "253.7"
+PV = "253.8"
 
-RPM_NAME = "systemd-coredump-253.7-2.1.aarch64.rpm"
-RPM_HASH = "e081fe30ea22646bec5fe2bb4c3030241ce0ff0096157193f4ba65b8025a9f717d57831f588bdd8855d043c9e5d627996fc634c831cd65de2f4110dc5d770038"
+RPM_NAME = "systemd-coredump-253.8-1.2.aarch64.rpm"
+RPM_HASH = "1e4019e52efbde558a6238d002024f7ffa32acbfdcb91bf773dfec08d3dc0c95f3a9104b6cce203730b525626d8017833136b3a7db0493c0b6b0623fe57a34f2"
 
 RPROVIDES:${PN} += "config-systemd-coredump \
 systemd-/usr/bin/coredumpctl \

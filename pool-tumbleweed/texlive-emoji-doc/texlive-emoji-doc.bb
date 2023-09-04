@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.2.2svn59961"
 
-RPM_NAME = "texlive-emoji-doc-2023.209.0.0.2.2svn59961-54.1.noarch.rpm"
-RPM_HASH = "31e433d5b15268c24f36e6a3bcdedf68bfdde5acc25b62f83a4cc0aec349c9f73d5521c83b2f494ad6428b76a25f879b4798bc199adae87ce8e39b90f5271196"
+RPM_NAME = "texlive-emoji-doc-2023.209.0.0.2.2svn59961-54.2.noarch.rpm"
+RPM_HASH = "1c90e748353d7da401f559bdd8e111885a5f2e40a49a2cb0afce630d3540c3f0bf0e94549e83b667525fb0b1624472a7b21f39960dd47dfe5841f32bedbf11ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-emoji-doc"

@@ -4,10 +4,10 @@ is based on well known scripting languages such as Netscape's JavaScript and \
 Microsoft's JScript."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "libKF5JS5-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "30ff39442a87e417cbeeea925fbbaad1b999136defc78a03e405e680588410224594fd85c5c4824834edd5230a0f08ca9428e9e70b60a2552340382a6580891a"
+RPM_NAME = "libKF5JS5-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "8f1d06385ba522c4ee626b79face2ef55de1bf62b64b2d541bf514416aaf7d43227de5159f6b363f655950069f5a377cfa4a2075cf57f5f88da99044decaaec6"
 
 RPROVIDES:${PN} += "libKF5JS.so.5 \
 libKF5JS5"

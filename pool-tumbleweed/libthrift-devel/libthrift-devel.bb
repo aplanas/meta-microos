@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.17.0"
 
-RPM_NAME = "libthrift-devel-0.17.0-1.9.aarch64.rpm"
-RPM_HASH = "2c66a7b62abbd31456d90cd0f983c3c86007952f1ea263ccca58ca038cea8aac39e6f1f1a4269d438082779a82cc630a92b97b024d7fce2c8d2957bcab2991ca"
+RPM_NAME = "libthrift-devel-0.17.0-1.10.aarch64.rpm"
+RPM_HASH = "aa406bb61332a892fc8be3b137ce8a843bf732d799517fdd44db0a66ea75d1d078c25e2a2b1956d7530f697d75868c94a2cd20fe79ada42b55627e9478b57e21"
 
 RPROVIDES:${PN} += "libthrift-devel \
 pkgconfig-thrift \

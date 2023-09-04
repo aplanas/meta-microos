@@ -19,15 +19,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.3.5"
 
-RPM_NAME = "ghc-split-0.2.3.5-2.2.aarch64.rpm"
-RPM_HASH = "e466de6e6be01cc1a790a675ff22e4e671e67e2bd1aabef6b37a9508f82626a917a1079ce3446bbdffefdd772324c27e16f6bcbf8f985624973f019a9ba5eaa9"
+RPM_NAME = "ghc-split-0.2.3.5-2.3.aarch64.rpm"
+RPM_HASH = "05d7169a75e6e3e69745e6f9ce056ac6fac9790f6610f7a88500505e6630cc718a984da17f3faed178753f5df10dba32900e8ae65ab012e3ad801271e5ef670a"
 
 RPROVIDES:${PN} += "ghc-split \
-libHSsplit-0.2.3.5-u3oGLAiW7JJbxIffWSCWf-ghc9.4.5.so"
+libHSsplit-0.2.3.5-J6pekuQs6yKFxqDJQyglHu-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

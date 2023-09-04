@@ -3,10 +3,10 @@ DESCRIPTION = "PHP functions for checking whether a character or string falls in
 certain character class according to the current locale."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.8"
+PV = "8.2.9"
 
-RPM_NAME = "php8-ctype-8.2.8-1.1.aarch64.rpm"
-RPM_HASH = "45de6d7f1b1b1d8584ac70af3d7e93dcf167d7b38fe050c46c06cce1f1dc06ca1ca81cc24a1f562818f7087e222728439345e91d5c5756c1b6dfd07303043c31"
+RPM_NAME = "php8-ctype-8.2.9-1.1.aarch64.rpm"
+RPM_HASH = "d29fb2dd9f3a1513759bed86734b830bf5cc9d790696bd2e2adaceb7b541ea9c6b1630750bb092d307ca657e99dfa0467854bc1dfbe813f88d312e3b06832e72"
 
 RPROVIDES:${PN} += "config-php8-ctype \
 php-ctype \

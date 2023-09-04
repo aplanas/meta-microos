@@ -3,12 +3,16 @@ DESCRIPTION = "A simple, terminal-based Erlang dashboard. \
 erldash connects to an Erlang node using the dynamic node name feature (since OTP-23) to collect metrics."
 LICENSE = "MIT"
 
-PV = "0.1.2~0"
+PV = "0.1.3~0"
 
-RPM_NAME = "erldash-0.1.2~0-1.3.aarch64.rpm"
-RPM_HASH = "957d05d968a25ad978aac7f05940c45643e63586b2fa81aa9ced5f5050ec0637f993a7afa50382febeb95f5aab4170de08993ab307a88c5547cc817d0e3049f3"
+RPM_NAME = "erldash-0.1.3~0-1.1.aarch64.rpm"
+RPM_HASH = "799f1cadd84b869928b69600f0d0b5780f7003e53a4385d1aafad6d825771e00793a2479741a627262ea60f98fc5a1bc46934766e2b51450a4da64c45248744d"
 
 RPROVIDES:${PN} += "bundled-rust-crate-adler32 \
+bundled-rust-crate-anstream \
+bundled-rust-crate-anstyle \
+bundled-rust-crate-anstyle-parse \
+bundled-rust-crate-anstyle-query \
 bundled-rust-crate-anyhow \
 bundled-rust-crate-async-channel \
 bundled-rust-crate-async-executor \
@@ -19,20 +23,22 @@ bundled-rust-crate-async-net \
 bundled-rust-crate-async-process \
 bundled-rust-crate-async-task \
 bundled-rust-crate-atomic-waker \
-bundled-rust-crate-atty \
 bundled-rust-crate-autocfg \
 bundled-rust-crate-bitflags \
 bundled-rust-crate-blocking \
 bundled-rust-crate-byteorder \
-bundled-rust-crate-cache-padded \
 bundled-rust-crate-cassowary \
 bundled-rust-crate-cfg-if \
 bundled-rust-crate-clap \
+bundled-rust-crate-clap-builder \
 bundled-rust-crate-clap-derive \
 bundled-rust-crate-clap-lex \
+bundled-rust-crate-colorchoice \
 bundled-rust-crate-concurrent-queue \
 bundled-rust-crate-crc32fast \
+bundled-rust-crate-crossbeam-utils \
 bundled-rust-crate-crossterm \
+bundled-rust-crate-deranged \
 bundled-rust-crate-dirs \
 bundled-rust-crate-dirs-sys \
 bundled-rust-crate-eetf \
@@ -52,13 +58,14 @@ bundled-rust-crate-futures-sink \
 bundled-rust-crate-futures-task \
 bundled-rust-crate-futures-util \
 bundled-rust-crate-getrandom \
-bundled-rust-crate-hashbrown \
 bundled-rust-crate-heck \
-bundled-rust-crate-indexmap \
+bundled-rust-crate-io-lifetimes \
+bundled-rust-crate-is-terminal \
 bundled-rust-crate-itoa \
 bundled-rust-crate-libc \
 bundled-rust-crate-libflate \
 bundled-rust-crate-libflate-lz77 \
+bundled-rust-crate-linux-raw-sys \
 bundled-rust-crate-lock-api \
 bundled-rust-crate-log \
 bundled-rust-crate-md5 \
@@ -73,8 +80,8 @@ bundled-rust-crate-num-rational \
 bundled-rust-crate-num-threads \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-once-cell \
+bundled-rust-crate-option-ext \
 bundled-rust-crate-ordered-float \
-bundled-rust-crate-os-str-bytes \
 bundled-rust-crate-parking \
 bundled-rust-crate-parking-lot \
 bundled-rust-crate-parking-lot-core \
@@ -82,14 +89,13 @@ bundled-rust-crate-pin-project-lite \
 bundled-rust-crate-pin-utils \
 bundled-rust-crate-polling \
 bundled-rust-crate-ppv-lite86 \
-bundled-rust-crate-proc-macro-error \
-bundled-rust-crate-proc-macro-error-attr \
 bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-quote \
 bundled-rust-crate-rand \
 bundled-rust-crate-rand-chacha \
 bundled-rust-crate-rand-core \
 bundled-rust-crate-rle-decode-fast \
+bundled-rust-crate-rustix \
 bundled-rust-crate-scopeguard \
 bundled-rust-crate-serde \
 bundled-rust-crate-signal-hook \
@@ -103,7 +109,6 @@ bundled-rust-crate-socket2 \
 bundled-rust-crate-strsim \
 bundled-rust-crate-syn \
 bundled-rust-crate-termcolor \
-bundled-rust-crate-textwrap \
 bundled-rust-crate-thiserror \
 bundled-rust-crate-thiserror-impl \
 bundled-rust-crate-time \
@@ -113,7 +118,7 @@ bundled-rust-crate-tui \
 bundled-rust-crate-unicode-ident \
 bundled-rust-crate-unicode-segmentation \
 bundled-rust-crate-unicode-width \
-bundled-rust-crate-version-check \
+bundled-rust-crate-utf8parse \
 bundled-rust-crate-waker-fn \
 erldash"
 

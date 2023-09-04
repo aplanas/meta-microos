@@ -4,10 +4,10 @@ DESCRIPTION = "The OpenJDK 17 runtime environment without audio and video suppor
 Supported architectures are ppc64le, s390x and x86_64"
 LICENSE = "Apache-1.1 & Apache-2.0 & EPL-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
 
-PV = "17.0.6.0"
+PV = "17.0.8.0"
 
-RPM_NAME = "java-17-openj9-headless-17.0.6.0-2.3.aarch64.rpm"
-RPM_HASH = "16320a45688033135d8c81bc1918e2ddaafdc037c30f135d00a0d499fb00d6f663132ab56d616ec53bd411e87cf69f914511474b0b0b0b1e726dd8d3ab24e717"
+RPM_NAME = "java-17-openj9-headless-17.0.8.0-2.1.aarch64.rpm"
+RPM_HASH = "16e24b5a4f4c07bbc84a4c62b51eaaef009b54a1994955a91f76c5dc4be981982574ab3f29a65cdb1c2d6bfda8328c24977cfee7f2b7d4cbefbe929f1289d774"
 
 RPROVIDES:${PN} += "config-java-17-openj9-headless \
 jaas \
@@ -41,6 +41,7 @@ libinstrument.so \
 libj2gss.so \
 libj2pcsc.so \
 libj2pkcs11.so \
+libj9criu29.so \
 libj9dmp29.so \
 libj9gc-full29.so \
 libj9gc29.so \

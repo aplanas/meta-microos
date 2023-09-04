@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for kcontacts, a Qt5 library to access \
 address books."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kcontacts-devel-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "1d4934f29f0e3fa2fa66382364a9840c2d994118fac60325842bf9230965ba1cd11685cace9352511dc69b8bab467c6dda9dcfcaf0cac3195350191a1302b42e"
+RPM_NAME = "kcontacts-devel-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "f2e5f30f41e27f447820bc299ddc748680808ba90e1a19c1364b50dee05ce5d61345300e7bb2b4e0b8a100395ac6a9f3a0f8d99fc1b1f5035684484b4f0defa3"
 
 RPROVIDES:${PN} += "cmake-KF5Contacts \
 kcontacts-devel \

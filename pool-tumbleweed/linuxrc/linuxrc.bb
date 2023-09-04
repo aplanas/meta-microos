@@ -2,10 +2,10 @@ SUMMARY = "SUSE Installation Program"
 DESCRIPTION = "SUSE installation program."
 LICENSE = "GPL-3.0+"
 
-PV = "9.0"
+PV = "9.1"
 
-RPM_NAME = "linuxrc-9.0-1.1.aarch64.rpm"
-RPM_HASH = "873271dc8902d9c90dee9d16c455a0f143b916b8f357cfeccc95b08f3cff55048e4bf082964ae8f4cf369b112c8c33942ae722f22ccca4e6fb978eaec8eba78d"
+RPM_NAME = "linuxrc-9.1-1.1.aarch64.rpm"
+RPM_HASH = "8fa061057a4f10b009ca1c8690c3ac3acad6a2e7ce09aa74dc2392909fee1e33fd81d25758a58f4b1a4c670af30f27407b01fa3559d5cd7942c9067b37f5ad65"
 
 RPROVIDES:${PN} += "linuxrc"
 

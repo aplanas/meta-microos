@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.005"
 
-RPM_NAME = "perl-YAML-PP-LibYAML-0.005-1.13.noarch.rpm"
-RPM_HASH = "bb9c7decb8617a2a575110d00cb796395d33be3ad65b9a2cbfc7d84a347c34027ab246f05e2e30e53da9f80f5066b3e5eef9ade519b42803a1400fe01f288f03"
+RPM_NAME = "perl-YAML-PP-LibYAML-0.005-1.14.noarch.rpm"
+RPM_HASH = "55efa212d2aa413d96a2b1a5b1d656e385300176890533407ccec8464daa83565f4a65c548df43a07460a49dc552a326b0dcac0e1d5e60e247eeea36d090a38d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-YAML--PP--LibYAML \
@@ -15,7 +15,7 @@ perl-YAML--PP--LibYAML--Emitter \
 perl-YAML--PP--LibYAML--Parser \
 perl-YAML-PP-LibYAML"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-YAML--LibYAML--API \
 perl-YAML--LibYAML--API--XS \
 perl-YAML--PP \

@@ -10,10 +10,10 @@ a header.  Rspamd is designed to process hundreds of messages per second \
 simultaneously and has a number of features available."
 LICENSE = "Apache-2.0"
 
-PV = "3.5"
+PV = "3.6"
 
-RPM_NAME = "rspamd-3.5-1.2.aarch64.rpm"
-RPM_HASH = "cb610e1442df157040ddd12d058d0aea356cd68ca7f8bf0717f2df2681ff407633f3637bd06fa7570c370adf917733b5519eee077928710c7bfab772e8bd285b"
+RPM_NAME = "rspamd-3.6-1.1.aarch64.rpm"
+RPM_HASH = "d71358daa33182e32416596167f6d9d4840353e9dcf91763ca2e883afd8da9df482c5bdcf6d91ee43dab27ca4fb0238e505844c0f5ac056af3591b12966dfe4b"
 
 RPROVIDES:${PN} += "config-rspamd \
 librspamd-actrie.so \

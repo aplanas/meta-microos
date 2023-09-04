@@ -6,13 +6,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.45"
 
-RPM_NAME = "perl-File-Copy-Recursive-0.45-1.16.noarch.rpm"
-RPM_HASH = "fcafc260cf3a669e2924126d5f423bf5dc006f98af9ed07a6a14e2424225dda0780d418f9056ce655d5935b33d17e81ea5da71791e20581f825967b0434585cd"
+RPM_NAME = "perl-File-Copy-Recursive-0.45-1.17.noarch.rpm"
+RPM_HASH = "4f8081f7786114cf02990ce14cf4cbf94f0af979afd2ab253f968eef1bd460ca5424f957071a649bb58611375ad47b4033b39184d4d6372ca72e480e6a2bacf4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Copy--Recursive \
 perl-File-Copy-Recursive"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

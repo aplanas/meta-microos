@@ -3,10 +3,10 @@ DESCRIPTION = "KMediaPlayer builds on the KParts framework to provide a common i
 KParts that can play media files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "libKF5MediaPlayer5-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "f081bd7fee7c3d35d6eae3dd5cfd38f987b39333db6368d61beaba312d8b318a83566ee8868ce859e35bc95a391276c111dbaeada5772bb2893921c6f11c769b"
+RPM_NAME = "libKF5MediaPlayer5-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "70e08cfd76b350ac9e7f6d7426cd3310b28a85d6d1b8dc4e359ffae0628f84d29c02c424f8aa71c33854ff4f565d199d8646eaaeb512e8001b1b1456355e3fef"
 
 RPROVIDES:${PN} += "libKF5MediaPlayer.so.5 \
 libKF5MediaPlayer5"

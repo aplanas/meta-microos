@@ -2,10 +2,10 @@ SUMMARY = "Unikey engine support for Fcitx5"
 DESCRIPTION = "Chewing Wrapper for Fcitx5."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "5.0.11"
+PV = "5.1.0"
 
-RPM_NAME = "fcitx5-unikey-5.0.11-2.4.aarch64.rpm"
-RPM_HASH = "ea972d10d32245ebf48f50945a6beb0eef5842bd88af59c413659973a1979b7c6e06acdaff7e5d04737b58b4a8d7498c27271a86b1cb5fe5082f740908d26109"
+RPM_NAME = "fcitx5-unikey-5.1.0-1.1.aarch64.rpm"
+RPM_HASH = "ceb2d031f66f515ee00c364eaf234b536af8dc4f74e13f4ef4ec2d9e2373e3a966da06c15628426973794520e57e759ef12a477007ad33790c7e64231268d271"
 
 RPROVIDES:${PN} += "fcitx-unikey \
 fcitx5-unikey \

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.8.8.2"
 
-RPM_NAME = "ghc-base-orphans-doc-0.8.8.2-1.2.noarch.rpm"
-RPM_HASH = "f28f1efde6e1d61a91a9b5353f7dc0b2b9adc1ba5e79289682dd52b4ec8f5ab5f82997dda29ab18f12837dbe287ce8909ef6b7059ef8a82c4a45e9f2e75b9eb0"
+RPM_NAME = "ghc-base-orphans-doc-0.8.8.2-1.3.noarch.rpm"
+RPM_HASH = "7a003660d67ca3937fbf38222cecbb5ec53c754e624747351b21783a91cc27a83e37a353d0c803800555b3a6d13158ff48cc13f1a1d2fe9f04c8a6de0457781c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-base-orphans-doc"

@@ -7,14 +7,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.24"
 
-RPM_NAME = "perl-Test-CleanNamespaces-0.24-1.18.noarch.rpm"
-RPM_HASH = "bf77039dc791b47fe4afc802a9ff68865d76b831f3ba17ef29de0b6bd80e921eaffc868c5b9511b473f7b92a7ead8aac2458e6662aba99dc2c1d8add857c2de0"
+RPM_NAME = "perl-Test-CleanNamespaces-0.24-1.19.noarch.rpm"
+RPM_HASH = "c99d575c2411302432a0d98fef7b913c28102e87942c223125ee59e782c684fa898dc91c4cfecfb29c3d2a3d18dc71f99dfee49b258ef5cb1042aac0ce2bbccc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--CleanNamespaces \
 perl-Test-CleanNamespaces"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Module--Runtime \
 perl-Package--Stash \
 perl-Role--Tiny \

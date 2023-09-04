@@ -3,10 +3,10 @@ DESCRIPTION = "A library that provides access to all contacts and the people who
 Development files for kpeople5."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kpeople5-devel-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "31504292862168154d0a7dff296dfcd41d0ebe1c1c0a515bd9fc17aaa4b6a1d1c5696375e1d7c4d040679b04004f4cff9f99f717628ff74f156871cbcae92a04"
+RPM_NAME = "kpeople5-devel-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "62423a8b7fe17f129592218f98c8401ade94fb67ae103b0541588b8d4cc52eb911b1c8352714076d134629344706252c817252a84f42a9e6eb722420a54ef8f6"
 
 RPROVIDES:${PN} += "cmake-KF5People \
 kpeople5-devel"

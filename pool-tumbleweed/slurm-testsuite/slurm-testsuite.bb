@@ -12,8 +12,8 @@ LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "23.02.2"
 
-RPM_NAME = "slurm-testsuite-23.02.2-1.3.aarch64.rpm"
-RPM_HASH = "eb0cf1bf406391bce84935240a858515ba803fa9f953a21c292e96176b18e082c05e98f31ba8e2e911520eafa15f6d15cb3a32945a6fc3e8fdc6fe9c56a5d837"
+RPM_NAME = "slurm-testsuite-23.02.2-1.4.aarch64.rpm"
+RPM_HASH = "6140e066ca2c61d7b42e4743c2df1de55d5407fb0082a2a7fc07d49620ec8703eb066effaba27c29c2673acfb7717bbaaf898eb8e642b685ff3c385c91027137"
 
 RPROVIDES:${PN} += "config-slurm-testsuite \
 slurm-testsuite"

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.10.2"
 
-RPM_NAME = "ghc-tasty-quickcheck-doc-0.10.2-2.3.noarch.rpm"
-RPM_HASH = "88240ec9dc7321e7be93bf2cb48e464d005bd96ed2c860eb04114a0fd89c7cfa2fc8bcf4a97f007cf6ca35aac0ba9a5527b7be89526b25cd61a249e6eac486e3"
+RPM_NAME = "ghc-tasty-quickcheck-doc-0.10.2-2.5.noarch.rpm"
+RPM_HASH = "f89740dd93e1600a2f314256c0753ad2e5e073a407953d33e95fcfa9f407015c69490234563f227d9956c3dc2a7ec0437059e3c3d58a1ffaac8dd1f795a9d0cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-tasty-quickcheck-doc"

@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 QuickWidgets library"
 DESCRIPTION = "The Qt 6 QuickWidgets library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "libQt6QuickWidgets6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "51861137319c61f593b3bc63247f69dc6eb9be9e053654aa71548cc0e1f32e9f5a615ed11c9e15f018e9bee7250eb7c17083850c5ea59b64c62e1c8ef9b2598b"
+RPM_NAME = "libQt6QuickWidgets6-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "1d57ee3621828c4061e41d7ef45b7ee73d0b2091888a81ba66653d7c89f9cf4de077fd129a33bdfd45a680a8d77646e37970978604ce511f41915a95a1f958a7"
 
 RPROVIDES:${PN} += "libQt6QuickWidgets.so.6 \
 libQt6QuickWidgets6"

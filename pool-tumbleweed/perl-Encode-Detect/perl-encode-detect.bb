@@ -14,8 +14,8 @@ LICENSE = "MPL-1.1"
 
 PV = "1.01"
 
-RPM_NAME = "perl-Encode-Detect-1.01-21.37.aarch64.rpm"
-RPM_HASH = "a8ca4f91587322369f4e0afc09dbfd23d67a1425be7b1b073854f080eb5e085b3e5211d594f122237ae2304908d832859149df214e3caac668f6d45a7b3441e7"
+RPM_NAME = "perl-Encode-Detect-1.01-21.38.aarch64.rpm"
+RPM_HASH = "6ba70151e43620f6dd974283c389686a8c83f44c5ecb78364ff577dcbae5c22db723cb59be62ea1a961a9c79db81fbc22c7e2c8a4bc482100c62fe879ed649fd"
 
 RPROVIDES:${PN} += "perl-Encode--Detect \
 perl-Encode--Detect--Detector \
@@ -25,6 +25,6 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

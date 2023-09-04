@@ -315,8 +315,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "6.44"
 
-RPM_NAME = "perl-HTTP-Message-6.44-1.3.noarch.rpm"
-RPM_HASH = "2bfdc393655597c3e68e62c1c6aeb33972d85a47e44bbe9d0365ba0cec8400da72bccf8d110f8539689a8859de6a8abcd8ae149669a8d7b0e7dbfc38142d02ae"
+RPM_NAME = "perl-HTTP-Message-6.44-1.4.noarch.rpm"
+RPM_HASH = "dee24e569b0e1b47626db2e32a36d9b4f67be16dc8f4b93d0b3be475b6a777b160e72c6d75962e83c5504d8200eb32bddcc5f504cdcd54c9200086a35c2ae281"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Config \
@@ -331,7 +331,7 @@ perl-HTTP--Response \
 perl-HTTP--Status \
 perl-HTTP-Message"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Clone \
 perl-Compress--Raw--Bzip2 \
 perl-Compress--Raw--Zlib \

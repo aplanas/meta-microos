@@ -25,14 +25,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.07"
 
-RPM_NAME = "perl-Devel-Caller-2.07-1.2.aarch64.rpm"
-RPM_HASH = "3833971f65dd02cce23cf8feb0227004e1d059ea04fa220aa41e13b0f52e754d950e836f6a4b931441a3e8a3065b26d6dc946ad6b65f21ae27e08a011a61c9e1"
+RPM_NAME = "perl-Devel-Caller-2.07-1.3.aarch64.rpm"
+RPM_HASH = "3d48ae25908dda403e90dbc7df9abab5ebaea07c926cba6f0ce13e207f849e8fdb5e93bf72a1c2dd94f568e4370df9a2bde28f1a732cbbd5881aac186a0f4833"
 
 RPROVIDES:${PN} += "perl-DB \
 perl-Devel--Caller \
 perl-Devel-Caller"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-PadWalker"
 
 inherit rpm

@@ -5,14 +5,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.001002"
 
-RPM_NAME = "perl-WWW-PAUSE-CleanUpHomeDir-1.001002-1.24.noarch.rpm"
-RPM_HASH = "024da3466fffaae37a72cc673e90fde82a480c2b0a62137b0bfe7960689817cf02e78d4b76b5b94360ab66a0262ddac795e194f855e89cee95fd4c30855ec4bd"
+RPM_NAME = "perl-WWW-PAUSE-CleanUpHomeDir-1.001002-1.25.noarch.rpm"
+RPM_HASH = "bb021055646b7d9ce8324c30709cddcc238775dee2be491695c83d7278e0f09dc384eebcdb24163f90068f3c24ef1858cab8e84b6aa1f262a3c449599d843db8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-WWW--PAUSE--CleanUpHomeDir \
 perl-WWW-PAUSE-CleanUpHomeDir"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Class--Accessor--Grouped \
 perl-Devel--TakeHashArgs \
 perl-HTML--TokeParser--Simple \

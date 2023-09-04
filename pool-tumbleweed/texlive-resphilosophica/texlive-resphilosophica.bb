@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.35svn50935"
 
-RPM_NAME = "texlive-resphilosophica-2023.209.1.35svn50935-54.1.noarch.rpm"
-RPM_HASH = "0fc598b16a70b8d79b2cc77febb5075f7ce73db4c9be039ac7473bdcba531960f19b458d207810dd3c4dda4b2dc1bc30d19c71c05cf70eb281dcbc781fc0b1af"
+RPM_NAME = "texlive-resphilosophica-2023.209.1.35svn50935-54.2.noarch.rpm"
+RPM_HASH = "bc6479faaee2551206f71036ce1c2ed71a220e9aa8a19107b6b842e042ab057fe31b7b6773f748bf4d025fa4fd5f2090b093b7cc88fa150f3b3339662ba5249f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-resphilosophica.cls \

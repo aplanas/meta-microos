@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2023.209.svn64072"
 
-RPM_NAME = "texlive-ptex-base-2023.209.svn64072-54.1.noarch.rpm"
-RPM_HASH = "30c64c62dea4a1b797cd952bfe532601a535393f4cec703c37c3b6fcd46e169aa13e1ead97e8208ef2c255d4ffdf4ff5d127efb665ffe827981978a6e15c18cd"
+RPM_NAME = "texlive-ptex-base-2023.209.svn64072-54.2.noarch.rpm"
+RPM_HASH = "a65b329176651477ed1122e887c10662da5c11306425b9e812124849daffb9401674049fab07745934c7fab6f8bb0e2f1f8e43a1fbe95d70bbf91ed9bbaac7bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ascii-jplain.tex \

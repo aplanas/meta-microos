@@ -5,10 +5,10 @@ pictures, and control of media player on your home network. \
 This package provides the core library of rygel."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "0.42.3"
+PV = "0.42.4"
 
-RPM_NAME = "librygel-core-2_8-0-0.42.3-2.1.aarch64.rpm"
-RPM_HASH = "bb7ecf3d705222ea34ce4e66e386fbba25b71bc63ae393985d887a55bb290ff78d609d27779c73b5745b866ea4be85c010affe658919da9e004560c12bd48884"
+RPM_NAME = "librygel-core-2_8-0-0.42.4-1.1.aarch64.rpm"
+RPM_HASH = "540779fcee7b2572d24e401c2509e9621bb7264afb16d5620099b6bb348fbe7952880ca8a42c7917f80103d36c6789fb5892262a7ffc25037f5aa1175734440d"
 
 RPROVIDES:${PN} += "librygel-core-2-8-0 \
 librygel-core-2.8.so.0"

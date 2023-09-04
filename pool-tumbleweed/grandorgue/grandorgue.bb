@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.12.2"
 
-RPM_NAME = "grandorgue-3.12.2-1.1.aarch64.rpm"
-RPM_HASH = "0a283758005f1183918b9ce0b44cd67b2f59774c7399e763b90d5771ff9dad0d476b4e293b0acbfccba408f11c9e2942f959b0c6940ee5b92cf080fe64e684ea"
+RPM_NAME = "grandorgue-3.12.2-1.2.aarch64.rpm"
+RPM_HASH = "c34640322572421ac1760d86e8056093312e118b146bd976ef335a3132c87d10c9fb24f38e21f587e51290961872c60d66f64a211a751d805cc8fd71b95af90a"
 
 RPROVIDES:${PN} += "grandorgue \
 libGrandOrgueCore.so.3.12.2 \
@@ -25,7 +25,7 @@ libwavpack.so.1 \
 libwx-baseu-suse.so.9.0.0 \
 libwx-gtk3u-core-suse.so.9.0.0 \
 libwx-gtk3u-html-suse.so.9.0.0 \
-libyaml-cpp.so.0.7 \
+libyaml-cpp.so.0.8 \
 libz.so.1 \
 libzita-convolver.so.4"
 

@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0"
 
-RPM_NAME = "ghc-parsec-numbers-prof-0.1.0-7.2.aarch64.rpm"
-RPM_HASH = "4a43ac4f49e756ee9b7675e420ac2083601a5079e7cf68882558d5d5db507e415a5613397aa3ec67b67943e29c41ebf00ef961f6496f499db14dc51cf5be831e"
+RPM_NAME = "ghc-parsec-numbers-prof-0.1.0-7.3.aarch64.rpm"
+RPM_HASH = "c340201597f4976f50ca4dab2bed2e695c43402c018249279458cc0ff456ad247a81ca46f863240553fb121b5fb9bd0e8e6c1006735609102b428b8a73b759ca"
 
 RPROVIDES:${PN} += "ghc-parsec-numbers-prof \
-ghc-prof-parsec-numbers-0.1.0-EpxP3vMK5SifJrb3FqKTJ"
+ghc-prof-parsec-numbers-0.1.0-JmfSOl7TbABbRzQTrD74l"
 
 RDEPENDS:${PN} += "ghc-parsec-numbers-devel \
-ghc-prof-base-4.17.1.0 \
+ghc-prof-base-4.17.2.0 \
 ghc-prof-parsec-3.1.16.1"
 
 inherit rpm

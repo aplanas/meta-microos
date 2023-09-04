@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & (Apache-2.0 | BSL-1.0) & (Apache-2.0 | MIT) & (Apache-2.
 
 PV = "0.4.2"
 
-RPM_NAME = "leftwm-0.4.2-1.1.aarch64.rpm"
-RPM_HASH = "83b1a71f3b7535ad919bc10116a78be4538093abd64e751d6e4fd95f1ad140afb18cd566cc209be86d6f2f0bc83952422f7813005c150ba24f99f0c9e8bf7bb0"
+RPM_NAME = "leftwm-0.4.2-2.1.aarch64.rpm"
+RPM_HASH = "f2a913d63cc616b3de560ca0df6500a150dfabdcb2b6f8bdf74a9813e16a5bac05538a75f2658e6e25d34248cbb593a7c07bf40cd71a9863b779328c1c82192c"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-anstream \

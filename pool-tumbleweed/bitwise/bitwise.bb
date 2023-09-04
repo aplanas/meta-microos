@@ -1,4 +1,4 @@
-SUMMARY = "Interactive bitwise operation in ncurses"
+SUMMARY = "Interactive bit-wise operation in ncurses"
 DESCRIPTION = "Bitwise is a multi base interactive calculator supporting dynamic base \
 conversion and bit manipulation. It's a handy tool for low level \
 hackers, kernel developers and device drivers developers. \
@@ -9,10 +9,10 @@ Some of the features include: \
  * Bitwise operations such as NOT, OR, AND, XOR, and shifts."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.43"
+PV = "0.50"
 
-RPM_NAME = "bitwise-0.43-1.8.aarch64.rpm"
-RPM_HASH = "29c01a7bdb51196a8f2454afbf84c6db7029988d0c6d32426663c315a0037b70045cfcdd77e1c0e467dae9ae4b957fda3acc9122d0df77410db58ad7932659d1"
+RPM_NAME = "bitwise-0.50-1.1.aarch64.rpm"
+RPM_HASH = "a77163f8be1fe0ec120dadb4d73aa3b3d2fe3cef91fbfb4586173eb7f34ccb2404d0cebe2555b85f332698f3ddca558faaa22ea63147eb74451262d808834a02"
 
 RPROVIDES:${PN} += "bitwise"
 

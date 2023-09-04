@@ -7,10 +7,10 @@ to be freely implementable by all StAX implementations same way \
 as StAX, but without going through a formal JCP process."
 LICENSE = "BSD-2-Clause"
 
-PV = "4.0.0"
+PV = "4.2.1"
 
-RPM_NAME = "stax2-api-4.0.0-3.11.noarch.rpm"
-RPM_HASH = "23298b883919d2a64d18850eaac4bc5b35e099904c2354cd58268e365fbfbae59f1f89dd7cad88eaa5b05f0caf18c8985165c4d3c0ae0ac0cdcdeac9528517c1"
+RPM_NAME = "stax2-api-4.2.1-1.1.noarch.rpm"
+RPM_HASH = "896e2cf24a809e2d7e952ae0b36ed473505444172a6c61af36f7289ebebaf6e47a0cf507c71f5d7a0d1b8d0dc4698b824e7051d90d6e0ce30f48b044999aaba6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.woodstox-stax2-api \

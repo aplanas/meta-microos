@@ -23,10 +23,10 @@ one to easily test and debug one's UPnP devices and control points: \
     MediaServers."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.12.0"
+PV = "0.12.1"
 
-RPM_NAME = "gupnp-tools-0.12.0-2.1.aarch64.rpm"
-RPM_HASH = "3517fd6a019b75e781e7920fa0fde00babb6e4d92d7c42a4b49a07ab9e05dfd3dd6aa238704ce70035ec37dbef43805901318767d00b067b41172637508e9c93"
+RPM_NAME = "gupnp-tools-0.12.1-1.1.aarch64.rpm"
+RPM_HASH = "72eeaabf0a33ff65710313d8717f52d328b9b29dd8535ea0ca18b74eb93865fa46e248a23ab7302ac1a5943b488316147444657ccab8c492c0dc8541a3d08847"
 
 RPROVIDES:${PN} += "gupnp-tools"
 

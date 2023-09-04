@@ -2,10 +2,10 @@ SUMMARY = "Translations for package spyder"
 DESCRIPTION = "Provides translations for the 'spyder' package."
 LICENSE = "MIT"
 
-PV = "5.4.3"
+PV = "5.4.4"
 
-RPM_NAME = "spyder-lang-5.4.3-1.2.noarch.rpm"
-RPM_HASH = "e1ef556043736a9cf1e94dfe542d1168bfd55073958a18f377b0bb1ab3f1153ded7f15bda6a5d7ae1f0ab1f1b875604e2e086b62cd89e1560ad82a405af358f6"
+RPM_NAME = "spyder-lang-5.4.4-1.1.noarch.rpm"
+RPM_HASH = "a912e06205e16a16c6e07bada71514a4b654fcc4cf753459cf95d17f9880c137c80e9553a164434ece21bd01c2a72756031a761ca4b60a538738c4bf48ee335b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-spyder-de \

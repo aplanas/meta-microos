@@ -21,14 +21,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.002"
 
-RPM_NAME = "perl-Term-Size-Any-0.002-1.11.noarch.rpm"
-RPM_HASH = "2245c0eae57350366fbeddbdac0be4e8f0ae1ee009f400142c1f1c9a7a8976b80dc394889169f489541ef9d51254724a691d94cd0dbd7b923751faff08b654ca"
+RPM_NAME = "perl-Term-Size-Any-0.002-1.12.noarch.rpm"
+RPM_HASH = "92c86506c19b019503455ab707c8f9bfa0de60bc8804f1db31967b74cf45c23678e3b3c7b86643a4c4086a7609dc6b5d89cbb0e77df3057895aca52920199403"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Term--Size--Any \
 perl-Term-Size-Any"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Devel--Hide \
 perl-Module--Load--Conditional \
 perl-Term--Size--Perl"

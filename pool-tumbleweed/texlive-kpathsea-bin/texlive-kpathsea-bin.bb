@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn65877"
 
-RPM_NAME = "texlive-kpathsea-bin-2023.20230311.svn65877-93.1.aarch64.rpm"
-RPM_HASH = "5b01c3b74a6773f952fedb31f9333a2749c7c3f7c3ccba289de46a184dc62e54c3ae8aa62e66ffc4ca0b9539b190a45aef766d2980400b1127bfc336be19890b"
+RPM_NAME = "texlive-kpathsea-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
+RPM_HASH = "6e57795d864ea88591adb3e3746b5effcdee878e511e665f5aec230dffafd7c7cf6b9978a40bba3a6e8d021b46818e530832071c8fee509ff31bf3f70fb19b4b"
 
 RPROVIDES:${PN} += "texlive-kpathsea-bin"
 

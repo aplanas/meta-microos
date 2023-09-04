@@ -78,8 +78,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.078"
 
-RPM_NAME = "perl-CryptX-0.078-1.2.aarch64.rpm"
-RPM_HASH = "1dcf0a6d2df5dc1d7dd81ecff3606f07ada29268d208e674a7c04c56bfa660373a1506e766fea1019644ba6868bd6c6566f93afb7120893296db2b85440a14cd"
+RPM_NAME = "perl-CryptX-0.078-1.3.aarch64.rpm"
+RPM_HASH = "4675bd9f788e83e3f465c726d034dece6abf6121a596ff5b617d9746336c18c47d964daecbbcf1a8c10a22c6affdc94ec5d8c7eb0f3531375fa2d1dbf1097463"
 
 RPROVIDES:${PN} += "perl-Crypt--AuthEnc \
 perl-Crypt--AuthEnc--CCM \
@@ -193,6 +193,6 @@ perl-Math--BigInt--LTM"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

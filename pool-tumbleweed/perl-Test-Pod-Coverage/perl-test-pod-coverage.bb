@@ -58,14 +58,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.10"
 
-RPM_NAME = "perl-Test-Pod-Coverage-1.10-3.27.noarch.rpm"
-RPM_HASH = "da3962a49078a94b0de218e8e65e540e82be69229e24ba932de0d6fc715e156398d26c4a80c5dba34d4ca0efc348bbcbae970865a8331286b29eaf8b669825e1"
+RPM_NAME = "perl-Test-Pod-Coverage-1.10-3.28.noarch.rpm"
+RPM_HASH = "c502fd326f6252f83df023f78977a75f8727462b11bfb5c6af6596ec6fe830358f1b815baf9b12971786efb1dabb8d6461e27e73ebcc752a4958fc4f3d9accff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Pod--Coverage \
 perl-Test-Pod-Coverage"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Pod--Coverage"
 
 inherit rpm

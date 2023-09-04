@@ -4,19 +4,19 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.14.1"
 
-RPM_NAME = "ghc-microlens-ghc-devel-0.4.14.1-2.2.aarch64.rpm"
-RPM_HASH = "5416cd35849debc8037952f8a869dd048574ca05c4dd34a24e59e025d9678e6baa0ae39890078abae14cbbf0deb866b0fc23c83202987abeef69bd2bc2fa975f"
+RPM_NAME = "ghc-microlens-ghc-devel-0.4.14.1-2.3.aarch64.rpm"
+RPM_HASH = "37d22c397a627b63395c849eb0f94de66d34c57fb8657f9a5504d628fb5028caf926664e675ff9824a2c7fa65c76a32b9b20ba5d443d1b66cb14cf901d904946"
 
-RPROVIDES:${PN} += "ghc-devel-microlens-ghc-0.4.14.1-4Q8SZXKkgj872LFERorIGB \
+RPROVIDES:${PN} += "ghc-devel-microlens-ghc-0.4.14.1-JKvcbzfcB6d2jcW7Wili89 \
 ghc-microlens-ghc-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-array-0.5.4.0 \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0 \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1 \
 ghc-devel-containers-0.6.7 \
-ghc-devel-microlens-0.4.13.1-ARwI8t2x86cAxRs56XPcG1 \
+ghc-devel-microlens-0.4.13.1-4XtL5z7DHHC7UZaR6xNDY3 \
 ghc-devel-transformers-0.5.6.2 \
 ghc-microlens-ghc"
 

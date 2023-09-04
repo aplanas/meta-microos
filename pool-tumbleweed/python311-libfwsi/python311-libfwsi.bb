@@ -5,8 +5,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20230710"
 
-RPM_NAME = "python311-libfwsi-20230710-1.1.aarch64.rpm"
-RPM_HASH = "10442f2a4aecdd7cfac1206d08ba25f608d12087e2c27454763b7bc2a2ec1ce2b29244a853960b8434081e98760a0bbc021db66fb5508f068f083d111d64cb86"
+RPM_NAME = "python311-libfwsi-20230710-2.1.aarch64.rpm"
+RPM_HASH = "0c85aab6397589e98a3ab295b1742091dc77a51fb90b70223a75af7b481c11db610f09edbe3b6c8edb0c5d3be3b6da329d8f541fa0c5e1bf01490fa09405cfa4"
 
 RPROVIDES:${PN} += "python3-libfwsi \
 python311-libfwsi"

@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "qt6-sql-sqlite-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "3453a3a8c7358bc2836f62ec5dda1cbfc1c0d084dbd2309bc9762f7450024bf96fa2d9a869c0e43ecea77606eaa568fa1fa72ce1c12edc37c876a6fc6a2823d9"
+RPM_NAME = "qt6-sql-sqlite-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "1faa2d2c7b8643b9d07b8c7857cf2c4b5ccb00f68cc1eef4c6e756068a87b2b5dec7dbbfbaeba495e1c6179e31b6d1f18f86cf30ac78d324bd9c4186480cfc7f"
 
 RPROVIDES:${PN} += "libqsqlite.so \
 qt6-sql-sqlite"

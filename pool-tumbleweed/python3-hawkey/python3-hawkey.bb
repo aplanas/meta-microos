@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the Python 3 bindings for libdnf through \
 the hawkey interface."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.70.1"
+PV = "0.70.2"
 
-RPM_NAME = "python3-hawkey-0.70.1-1.2.aarch64.rpm"
-RPM_HASH = "31a4216373d21681983b8e271ee3ca1dbcb1711fc8a15f8655c3b946a77e117376131a6632bbb81c7b01b963d1f49674f08d8ce676d96dea16055cd7262fdc21"
+RPM_NAME = "python3-hawkey-0.70.2-1.1.aarch64.rpm"
+RPM_HASH = "002bbab0583948073f84ee63833f59878169fc4f9d6649313856f7a2e192da6c03a5f72e9723a65105ebea89a4fe70ec062a0f573a74ee963673fb1394c03348"
 
 RPROVIDES:${PN} += "python3-hawkey"
 

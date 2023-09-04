@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1.0~beta3+git.1669107176.46aa45d"
 
-RPM_NAME = "libluajit-5_1-2-2.1.0~beta3+git.1669107176.46aa45d-2.4.aarch64.rpm"
-RPM_HASH = "feaf21b8a350f846d137e4f159ac2edcecf6f1d608d26eb0ac65c59ae1b3ea5db00e6d3a73993efd0abf46125eeae4ef8448cf2abb808089be13524490f7e852"
+RPM_NAME = "libluajit-5_1-2-2.1.0~beta3+git.1669107176.46aa45d-3.1.aarch64.rpm"
+RPM_HASH = "a360d5722bc8a71bb0fdbafa839d828af3b371a8afcb0007d1cd2dc7fd2240daa114cc0e22c431895e16122143cd763a59d97f3f56f3c76904b3fb30a61bc456"
 
 RPROVIDES:${PN} += "libluajit-5-1-2 \
 libluajit-5.1.so.2 \

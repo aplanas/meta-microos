@@ -4,10 +4,10 @@ DESCRIPTION = "This is the Microsoft Azure Synapse Artifacts Client Library. \
 This package has been tested with Python 2.7, 3.5, 3.6, 3.7 and 3.8."
 LICENSE = "MIT"
 
-PV = "0.16.0"
+PV = "0.17.0"
 
-RPM_NAME = "python311-azure-synapse-artifacts-0.16.0-1.3.noarch.rpm"
-RPM_HASH = "7e16949e10dd6b94170500fac59a49808e314cebd4aab418f9692d6a2ece14b905886597328cdaba5000316be79d3263acc7243ae98fc37aa66103d8761c5ec7"
+RPM_NAME = "python311-azure-synapse-artifacts-0.17.0-1.1.noarch.rpm"
+RPM_HASH = "a0e2be9a5efaea98dcc4de99b44ed8b3a4a131c53d3690fc09a55d1fd51152b041c23660f40d8cd4224f9b9b02cd2188795009fe047dd730c125fb7df9d33a07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-synapse \
@@ -21,6 +21,6 @@ RDEPENDS:${PN} += "python-abi \
 python311-azure-core \
 python311-azure-nspkg \
 python311-azure-synapse-nspkg \
-python311-msrest"
+python311-isodate"
 
 inherit rpm

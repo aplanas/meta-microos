@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "2022.07.20"
 
-RPM_NAME = "fixmath-devel-2022.07.20-5.2.noarch.rpm"
-RPM_HASH = "71f03a29db324272e503f562f6c9574299eaaf97c881de814dab16e33a01f65aa098d92ba46eaddf57b0aa44e5b0ab4cb7322ab80f97af2cb75bb656e1da43aa"
+RPM_NAME = "fixmath-devel-2022.07.20-6.1.noarch.rpm"
+RPM_HASH = "f74077c57816fef5fad69a5ea0993fd7738570c5c62b22576f07e1ab9da8a0dfcc47b48a6ca00877c373cb0bc2a0d51ecc057a0f99554e9c871e10417f99321d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fixmath-devel"

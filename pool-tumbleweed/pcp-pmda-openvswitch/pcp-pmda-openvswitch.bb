@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-openvswitch-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "0f288681f551c9bb9aa7a4be8b3bb816212286eb58bb2be71199d0a4090af515fa865038e19ad3960809c104e77613faf5528a91370e8faa000a185bc5136418"
+RPM_NAME = "pcp-pmda-openvswitch-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "c0695f686c848d0775a9206666ae2412c036ab8621fb209fa3c23cc7d37bcf519f69f01e800c927163122ea0f540299da19d423e92b623fc67bd2873dea33090"
 
 RPROVIDES:${PN} += "pcp-pmda-openvswitch"
 

@@ -16,8 +16,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.3.2.0svn64300"
 
-RPM_NAME = "texlive-xgreek-2023.209.3.2.0svn64300-53.1.noarch.rpm"
-RPM_HASH = "d7e2b325814ea05d35cf2f6841050580baa6b097c675c6d335cf559bf688ab8a7e21d49f9f16ca01b6d5ed181a894b3f9a3116dae18c43b48dcac3e61dade948"
+RPM_NAME = "texlive-xgreek-2023.209.3.2.0svn64300-53.2.noarch.rpm"
+RPM_HASH = "7a055f142201a7ed02df272a3071726eea70c6e7d09503857ce276f27df2c00b6f61093c7adbccf69c4ba0efebc03ed7d7c33ab290a32fdf42130b93d6f3db5f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xelistings.sty \

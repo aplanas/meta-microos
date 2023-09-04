@@ -30,13 +30,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.3"
 
-RPM_NAME = "perl-File-Tail-1.3-1.27.noarch.rpm"
-RPM_HASH = "06f7421423205d16ffef66c9daee58bad8afa89ce538fab6bb44da509b0dd7355a162f6e41ce73e870d4f80f3f8523df0579c4be7c107fabcb08c7d377aae9ee"
+RPM_NAME = "perl-File-Tail-1.3-1.28.noarch.rpm"
+RPM_HASH = "b2e36523e9f93e97b03ef7cc7b4e822162dd71f2f3bc07d27621cc0f64e68e0291adb1cacc0c70427b1cb07c92ad6803eab87d5638de77c9a37ea3dfb2bb4b69"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Tail \
 perl-File-Tail"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later | BSD-2-Clause"
 
 PV = "0.2.6"
 
-RPM_NAME = "python3-marisa-0.2.6-1.23.aarch64.rpm"
-RPM_HASH = "e13282489b774a84bcfd3e34c73317ff1762c9b3dc0f3df8ed5739e797ea3b7e224018ed0a2b3a52a9fc3083c2419a397896349ac5b5ee911dc7c9a560cd87f5"
+RPM_NAME = "python3-marisa-0.2.6-1.24.aarch64.rpm"
+RPM_HASH = "8aa15fd738942e3c65505fc51462ad5b09ab26e742b922159e795ad439b209dec896b5f3b7025c0d0d64b7c6c83b545cb2d957a141c28bf7ad8cb98019d036d7"
 
 RPROVIDES:${PN} += "python3-marisa \
 python3.11dist-marisa \

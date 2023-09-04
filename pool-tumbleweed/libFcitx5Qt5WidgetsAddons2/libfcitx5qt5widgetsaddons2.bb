@@ -2,10 +2,10 @@ SUMMARY = "Qt5 Widgets Addons library for Fcitx5"
 DESCRIPTION = "This package provides Qt5 Widgets Addons library for Fcitx5."
 LICENSE = "BSD-3-Clause & LGPL-2.1-or-later"
 
-PV = "5.0.17"
+PV = "5.1.0"
 
-RPM_NAME = "libFcitx5Qt5WidgetsAddons2-5.0.17-1.4.aarch64.rpm"
-RPM_HASH = "a312ae1168826674fa687665c4b8907bc22d0d9572cead25ef4ca2b53cac75603b61d88b84fc6269667c2cfac9ee8914c27c7c3e75817b94ba5b581f693c9b55"
+RPM_NAME = "libFcitx5Qt5WidgetsAddons2-5.1.0-1.1.aarch64.rpm"
+RPM_HASH = "dc91f5444ef64ba4852f838510dced64a7fb6cd0204c33728c258c48e6accc482cb790e31c25d5e26c7c22a23bdc1e26ef14d9182cf5e589b91035d1964534a5"
 
 RPROVIDES:${PN} += "libFcitx5Qt5WidgetsAddons.so.2 \
 libFcitx5Qt5WidgetsAddons2"

@@ -4,10 +4,10 @@ several languages and/or dialects, and to select them or switch \
 between them while typesetting."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.208.1.0svn15878"
+PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-hyplain-2023.208.1.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "7ff3174776524170ce0f31c22a7ee70bfbca6ddafeae7241efeebcd938b93b0ca0ada964d43d6b4575429db21422916df1533706c2d319b68fae59b3a6fb7a1d"
+RPM_NAME = "texlive-hyplain-2023.209.1.0svn15878-54.1.noarch.rpm"
+RPM_HASH = "a52fa2063d6f077c2f747824324ef562cf61812d8312b34d9e8c746bb7cdd233efbb50561d189d445fdb3f2df062acdd868a00a42749f23f7fac4651f4dc7517"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hylang.tex \

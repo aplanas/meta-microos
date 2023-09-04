@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.0.betasvn38932"
 
-RPM_NAME = "texlive-gitlog-2023.209.0.0.0.betasvn38932-54.1.noarch.rpm"
-RPM_HASH = "90b881ead51c519290c77f1dc84718d0c978ca21b8f6779ca8c95376a0e6d288b5e11be9337cac0de7d78ba946e5f498911d9e84485a972e6a401d5ae0db6fe4"
+RPM_NAME = "texlive-gitlog-2023.209.0.0.0.betasvn38932-54.2.noarch.rpm"
+RPM_HASH = "a6a4e7ce82aca162cd70b32d5572d142c30ca94ef12051c3ed87eae01652adf229b1bd20397324ac30cf20791f552ff852366382473ae66a2378159de0c67c2b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gitlog.bbx \

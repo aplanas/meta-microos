@@ -5,10 +5,10 @@ the private key and other crypto material, without user intervention.  svrcore \
 uses the facilities provided by NSS."
 LICENSE = "MPL-2.0"
 
-PV = "2.4.0~git18.37ec5cd"
+PV = "2.4.0~git74.4297d88"
 
-RPM_NAME = "libsvrcore0-2.4.0~git18.37ec5cd-1.3.aarch64.rpm"
-RPM_HASH = "008aeb5551924069275aa45dd620c03bfcd06c48cc7eb8ca5cf9f2a35f6ade094f8e6088d0b7cd58a4d4a531dd708bd87ce7e41c09c4695aeb433bec82ada365"
+RPM_NAME = "libsvrcore0-2.4.0~git74.4297d88-1.1.aarch64.rpm"
+RPM_HASH = "0a3af1fad0a2e408994b78d99879a1cbfb9fe05721a9ac3e9a952f3e74434a425514361c5a8897a3b251de07b51ae8e8817196c34c86c38b5720a928c0a2a966"
 
 RPROVIDES:${PN} += "libsvrcore.so.0 \
 libsvrcore0"

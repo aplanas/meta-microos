@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.3.0"
 
-RPM_NAME = "ghc-cassava-doc-0.5.3.0-3.1.noarch.rpm"
-RPM_HASH = "8ac47715605d9165573648b32417591eda0a1f6020d91891836fa63a77e14b1eac31402f6b6b0ced581373b600bee52e58dc952edb5856100fec8bcb3f03d1bc"
+RPM_NAME = "ghc-cassava-doc-0.5.3.0-4.3.noarch.rpm"
+RPM_HASH = "2b749d913adf8466135a83f7101a6145f86cdd31d931a5d1108035b4e5bed4ffe6d9bee438151ff02b8521c1185b64d00ab0ee9e918da2bb2e1d05fcfb46f7c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-cassava-doc"

@@ -15,12 +15,12 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.46"
 
-RPM_NAME = "perl-Clone-0.46-1.3.aarch64.rpm"
-RPM_HASH = "a8cd24726298b213873d54883c9423fb5416bd7d21ef344a29e54489b13560298adf8c8fb385838a484da71117ccb239d4f095736b3ddab7283cd7a1d12b9327"
+RPM_NAME = "perl-Clone-0.46-1.4.aarch64.rpm"
+RPM_HASH = "3e5e6eef3f3f73742ce7fd760ef774bb3d3f9f57f0a91fde2eb11741b2c56b87085365e7eb8b097457c5a262bf8addea5e8f0471e63eefadb178a86c659995b0"
 
 RPROVIDES:${PN} += "perl-Clone"
 
 RDEPENDS:${PN} += "libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

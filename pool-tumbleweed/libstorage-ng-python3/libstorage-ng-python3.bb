@@ -2,10 +2,10 @@ SUMMARY = "Python bindings for libstorage-ng"
 DESCRIPTION = "This package contains Python bindings for libstorage-ng."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.5.133"
+PV = "4.5.136"
 
-RPM_NAME = "libstorage-ng-python3-4.5.133-1.1.aarch64.rpm"
-RPM_HASH = "4547942db2ffcacf6a2a129a67105b928ed1810a3e3af3154cf84d7ebf21163c1a1ee652c96d7a18d8eb77db79b12e686786b51dfcf2e4dd241ca9118ef64186"
+RPM_NAME = "libstorage-ng-python3-4.5.136-1.1.aarch64.rpm"
+RPM_HASH = "1ac679a2bb8adc54fb157a34c85618cc5b558c35b51d9fb6eb13c3056aadee1c164d4cc9927b6f9a6281b1934002b0569d523099c238a212eddb28c607e5e629"
 
 RPROVIDES:${PN} += "libstorage-ng-python3"
 

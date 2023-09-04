@@ -3,10 +3,10 @@ DESCRIPTION = "Xournal++ is a hand note taking software. \
 It supports pen input, e.g. Wacom tablets."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1.3"
+PV = "1.2.0"
 
-RPM_NAME = "xournalpp-1.1.3-2.2.aarch64.rpm"
-RPM_HASH = "49d87a175155a91bcae512df23f301b436839e1fd4867a920921ab0abaa6bf724be000709825712a7a0727d1960b199a72386a7540a1a8abaecc18549e88976e"
+RPM_NAME = "xournalpp-1.2.0-1.1.aarch64.rpm"
+RPM_HASH = "89e6b07ffcdc8457983bbaa65e1548155a3f6ef39d64b297dd7abb0ddfeff12a4ef6d3fef390e76e6275925a97c4e121155425abd7d7e32f3e36ec3f1ee3ae1e"
 
 RPROVIDES:${PN} += "xournalpp"
 
@@ -22,6 +22,7 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
+libgtksourceview-4.so.0 \
 liblua5.4.so.5 \
 libm.so.6 \
 libpango-1.0.so.0 \

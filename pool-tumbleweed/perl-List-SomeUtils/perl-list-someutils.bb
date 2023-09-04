@@ -11,15 +11,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.59"
 
-RPM_NAME = "perl-List-SomeUtils-0.59-1.3.noarch.rpm"
-RPM_HASH = "6e907079562707ad5b224ca541222cd123158097d2d563ccae59935a1a09c4a703377d97de15e3ffa492890743c279ab3cf33ba636d8eb6356a32871271bf1a5"
+RPM_NAME = "perl-List-SomeUtils-0.59-1.4.noarch.rpm"
+RPM_HASH = "4e5fe63f2d6f8e35df4ded2b6e702552c7536f872f20768ad9a06c78945a0cad9d87a9db39ada982e8368034b491b4eca178cf2cf23620357e3bb95d87cbae95"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-List--SomeUtils \
 perl-List--SomeUtils--PP \
 perl-List-SomeUtils"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-List--SomeUtils--XS \
 perl-Module--Implementation"
 

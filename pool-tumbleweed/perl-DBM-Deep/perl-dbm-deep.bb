@@ -1,4 +1,4 @@
-SUMMARY = "Pure Perl Multi-Level Hash/Array Dbm That Supports Transactions"
+SUMMARY = "Pure perl multi-level hash/array DBM that supports transactions"
 DESCRIPTION = "A unique flat-file database module, written in pure perl. True multi-level \
 hash/array support (unlike MLDBM, which is faked), hybrid OO / tie() \
 interface, cross-platform FTPable files, ACID transactions, and is quite \
@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.0016"
 
-RPM_NAME = "perl-DBM-Deep-2.0016-1.18.noarch.rpm"
-RPM_HASH = "06567d06c877eccf860ae7fb6144b7488f743350b8bcdaf6266edc5f952f2e8747235d7b1690b474b236421c8c5ad6a6e9645e83cffe52a61d170395af42f707"
+RPM_NAME = "perl-DBM-Deep-2.0016-2.1.noarch.rpm"
+RPM_HASH = "81da0bf5095c3a5007a9fee0bde8443f116f23cd8f8b7bdc2880773d869077671b580ce0ec6aa6d5fcdb36d0b1dce2300ea8f9c534038d11e618728fbafedb98"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DBM--Deep \
@@ -43,6 +43,6 @@ perl-DBM--Deep--Storage--DBI \
 perl-DBM--Deep--Storage--File \
 perl-DBM-Deep"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

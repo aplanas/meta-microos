@@ -5,10 +5,10 @@ pictures, and control of media player on your home network. \
 This package provides the renderer library of rygel."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "0.42.3"
+PV = "0.42.4"
 
-RPM_NAME = "librygel-renderer-2_8-0-0.42.3-2.1.aarch64.rpm"
-RPM_HASH = "66b01f7daf96e5fbe91985fec03e71218d1b4d6f4ea8a9741316ed1d3b601bf53cdbbf885d657c1a3debd96eedd04f28aff7d10c9529b7872d7ad533b17017c6"
+RPM_NAME = "librygel-renderer-2_8-0-0.42.4-1.1.aarch64.rpm"
+RPM_HASH = "b4c775eaa5cdcf0f97e6c5508ee0a2411745a7da58ca67c93134ad23aa0dd57ae51eca78155a10ea09ef52b5161e96fa83b9a329f6656e863488f4f99bcd17dc"
 
 RPROVIDES:${PN} += "librygel-renderer-2-8-0 \
 librygel-renderer-2.8.so.0"

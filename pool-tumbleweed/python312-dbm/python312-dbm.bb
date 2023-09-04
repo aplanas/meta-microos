@@ -3,10 +3,10 @@ DESCRIPTION = "An easy to use interface for Unix DBM databases, and more specifi
 the GNU implementation GDBM."
 LICENSE = "Python-2.0"
 
-PV = "3.12.0b4"
+PV = "3.12.0rc1"
 
-RPM_NAME = "python312-dbm-3.12.0b4-1.1.aarch64.rpm"
-RPM_HASH = "525ee1664a5eeb260fd73cad9e6594a5edbd2a3a1a7544ea922a9673a00beedbba0b391228ca129548a320c936e20d776fbed41c00e8f59013ab39b617995350"
+RPM_NAME = "python312-dbm-3.12.0rc1-2.1.aarch64.rpm"
+RPM_HASH = "e84ca450f415443623e7f3caa25b1bae2402253f9c023b88ece4b87ef7a27ff32724d7307c19eecdef2d14087d4544d94ac647d431fd209f09fb670c870e880f"
 
 RPROVIDES:${PN} += "python312-dbm"
 

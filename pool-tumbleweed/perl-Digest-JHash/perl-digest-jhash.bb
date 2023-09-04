@@ -12,14 +12,14 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.10"
 
-RPM_NAME = "perl-Digest-JHash-0.10-1.33.aarch64.rpm"
-RPM_HASH = "0689220e9986993efdaa6d723a57fa175481464356c8d6b6fc9147a9fd3165b4ea879fed365137632ca40738b38e7705e336c3752408609a49b4a6fd65798330"
+RPM_NAME = "perl-Digest-JHash-0.10-1.34.aarch64.rpm"
+RPM_HASH = "0022062bc64497ab7916ca31574a9f3f283df2deb8881dba37266e0af44e6c7c5ba1102819682639d338d9de789a2cf9f815dcf7ae32f10a295c433231138651"
 
 RPROVIDES:${PN} += "perl-Digest--JHash \
 perl-Digest-JHash"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

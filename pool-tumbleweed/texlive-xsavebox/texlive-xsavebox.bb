@@ -13,8 +13,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.18svn64049"
 
-RPM_NAME = "texlive-xsavebox-2023.209.0.0.18svn64049-53.1.noarch.rpm"
-RPM_HASH = "3a8d91058462397f4b7545a65b4127cf9144b6e619b6e7c56af331a9f5ec2fdd7b49d84d1f7c8e135cb425146a8f8956591d0d3af150c092fb21a0fc1947f6ef"
+RPM_NAME = "texlive-xsavebox-2023.209.0.0.18svn64049-53.2.noarch.rpm"
+RPM_HASH = "5c5b2108606eeb01255bb3f5ca953208ee8d4da17cc336103cceaa4d1724bae1341fb10fe6144376ccc9df1a4b6fede84338ed1fb7b20bda52199cf1927d9964"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xsavebox.sty \

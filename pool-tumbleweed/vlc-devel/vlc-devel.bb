@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.0.18"
 
-RPM_NAME = "vlc-devel-3.0.18-8.1.aarch64.rpm"
-RPM_HASH = "feec0c0163938ecd14c36e27d636948b63a51ca0ba9777f9ff673886f4ec4e9a968f4fd3971405b6ca1e25249533f4a9c6cea034bbbac8f9ddea5ad75dcdaf5d"
+RPM_NAME = "vlc-devel-3.0.18-9.1.aarch64.rpm"
+RPM_HASH = "029a8cf27cb10d8e20ac1f301b325df0de4ad631d236d18c3ac32e0366110c84a1c858907b717517b9fcd4e0dd2706ca6059a43d46c16fb90ff71f47a0ff8ac7"
 
 RPROVIDES:${PN} += "pkgconfig-libvlc \
 pkgconfig-vlc-plugin \

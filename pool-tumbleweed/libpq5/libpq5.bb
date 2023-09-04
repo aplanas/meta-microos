@@ -9,10 +9,10 @@ This package provides the client library that most PostgreSQL client \
 program or language bindings are using."
 LICENSE = "PostgreSQL"
 
-PV = "15.3"
+PV = "15.4"
 
-RPM_NAME = "libpq5-15.3-1.5.aarch64.rpm"
-RPM_HASH = "f93d0626c57e058c74df6ff680640f7a27c1e6e851c54b7e2aacdf3bcfa428d9e25b26e072265be5e45730ce74b47e66921b0c94391692c7be8367ce13b7c8ee"
+RPM_NAME = "libpq5-15.4-1.1.aarch64.rpm"
+RPM_HASH = "df5ca85c2b217d29b0635281c7da126d09128454bc2a95f9e36c15961b281294b5a0f4d3bde3c4148ee35eae78863f05aeddd22365556984699e559d8a691fdb"
 
 RPROVIDES:${PN} += "libpq.so.5 \
 libpq5 \

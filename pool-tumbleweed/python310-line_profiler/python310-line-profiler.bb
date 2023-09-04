@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.0.3"
 
-RPM_NAME = "python310-line_profiler-4.0.3-1.3.aarch64.rpm"
-RPM_HASH = "f81459ce14a02d99ed41303758c969fc32eca9aaacc2c24619db7f0d633c4d3df3262ee79a92733c69f746e7f76eaf476ab65e11dd6f01ba882f1f2ad71e7779"
+RPM_NAME = "python310-line_profiler-4.0.3-2.1.aarch64.rpm"
+RPM_HASH = "23dbca3d58f4626e4c2e4bc8966cefa7ea74471cca344d0d249127f53ae598db5c540ad8d8b59d25a0a57c89d3856adbd56032805004d8c525958e95dac7913f"
 
 RPROVIDES:${PN} += "python3.10dist-line-profiler \
 python310-line-profiler \

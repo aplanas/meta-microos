@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.6.1svn65855"
 
-RPM_NAME = "texlive-pyluatex-doc-2023.209.0.0.6.1svn65855-54.1.noarch.rpm"
-RPM_HASH = "f59be79c6759f0090e39b254a65c8c72c664f8bbbd7feebc8c574d432536cfd2eac32e90687e1b3f0974952f830f47bfac780a6f3ff331fd08b7c56ae081a789"
+RPM_NAME = "texlive-pyluatex-doc-2023.209.0.0.6.1svn65855-54.2.noarch.rpm"
+RPM_HASH = "460b03346790415fcb31477cf810918dfa20c762203511ef3e05318de8cbf4a8d71d8b4516905fae6eaa39bd0382bb6e3f7e789cb8f2c9033892ce5ed23b9454"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pyluatex-doc"

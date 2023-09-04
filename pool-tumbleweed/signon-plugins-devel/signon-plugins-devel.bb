@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the development files necessary for creatin
 the Single Sign On Framework."
 LICENSE = "LGPL-2.0-only"
 
-PV = "8.60"
+PV = "8.61"
 
-RPM_NAME = "signon-plugins-devel-8.60-2.19.aarch64.rpm"
-RPM_HASH = "20bc442bb7a31dcd36898d5c3a25a52bf1df1bd948a373b8dc88e5e3af50ad75cfe128d781c11d7a0146877d8894a398e1a51ca1b22586714cf2ecffb447b808"
+RPM_NAME = "signon-plugins-devel-8.61-1.1.aarch64.rpm"
+RPM_HASH = "eeb91d682627061b7673da52bc1fd3dedfef00ece3de0e94db5da531b633430f3cc12979b1ea409720544a4ff4fe85b992e1eb6a3d3541519fd02cf1c1dfae4b"
 
 RPROVIDES:${PN} += "pkgconfig-signon-plugins \
 pkgconfig-signon-plugins-common \

@@ -7,10 +7,10 @@ This package contains files that allow use of sonnet with \
 QtQuick based applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "sonnet-imports-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "fbc2d50bd7be35e203e1e1836f8c3814f7118bb2d82efbd5d5194749cb8936a817c083a59d9fcf3ee467fc59aab34a59d69a965425a37756e7891b7cdcdf4ed4"
+RPM_NAME = "sonnet-imports-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "572760120192540edfb7a61c4f3eb318eafb401fa4f79a7eeb1f06fe91e3a85939dafee1f3c94bbf2d3d059b155dc99d126d78c22c281c08ae1f58a337afae76"
 
 RPROVIDES:${PN} += "libsonnetquickplugin.so \
 qt5qmlimport-org.kde.sonnet.1 \

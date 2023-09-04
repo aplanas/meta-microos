@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn65877"
 
-RPM_NAME = "texlive-metapost-bin-2023.20230311.svn65877-93.1.aarch64.rpm"
-RPM_HASH = "4a9c943306dac444afea37c15b1e1e999e8284f5d86dfc0d0e060f8a6d8371025fbaf7b585d16d12506894dab06419677637cb2e3e42dddeca51060dc14214a1"
+RPM_NAME = "texlive-metapost-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
+RPM_HASH = "69f7f64e9a8d40bbaf393a86a3fda239399d0ec226fcc33367ead6b8cdb28f052e9ccb507e908803ee8bd1ced00d82db7db6cc3f421ac24754ff20f9c9f7a2c8"
 
 RPROVIDES:${PN} += "texlive-metapost-bin"
 

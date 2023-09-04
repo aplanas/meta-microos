@@ -9,10 +9,10 @@ This package contains development headers and other ancillary files for the \
 libscamperctrl library."
 LICENSE = "GPL-2.0-only"
 
-PV = "20230605"
+PV = "20230614b"
 
-RPM_NAME = "libscamperctrl-devel-20230605-1.1.aarch64.rpm"
-RPM_HASH = "c8335607d6967d7d815e4c81bb6157d4543c9eabec692aaaf244a38d907efc12fa47f825475fd7c3f356cbdd59263a16724cf8168eb42852c3804b45e2c1680a"
+RPM_NAME = "libscamperctrl-devel-20230614b-1.1.aarch64.rpm"
+RPM_HASH = "0ef80474d7a20292c9b50b477f06d17b16ccc3e3d8094e756344cd3bd8bb71dc1c88b327cc889a9d4c9c28f92aa9cf00278f08da440e80ec824fbadf5de63f81"
 
 RPROVIDES:${PN} += "libscamperctrl-devel"
 

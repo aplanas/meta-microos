@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.5svn51432"
 
-RPM_NAME = "texlive-xskak-doc-2023.209.1.5svn51432-53.1.noarch.rpm"
-RPM_HASH = "f1578c955c641d186e29094219af4b4373a9bf823d8dac636934ff4c041a06b7eef52b3a88ee15ac95a3e637377bcefa99f09bb61a249b83c46dbaa9e31e6222"
+RPM_NAME = "texlive-xskak-doc-2023.209.1.5svn51432-53.2.noarch.rpm"
+RPM_HASH = "6f76b3e9cda81a590bfe20beb6d68da19d7f2910ab17e2c63ce6f098bb46cd3c3716aa0c8f99f587263ca8eba83fdb865964e7cc56ef35750486b88420e308ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xskak-doc"

@@ -4,18 +4,18 @@ LICENSE = "MIT"
 
 PV = "0.10.2"
 
-RPM_NAME = "ghc-tasty-quickcheck-prof-0.10.2-2.3.aarch64.rpm"
-RPM_HASH = "c2cbe6f8ffc2b8bea8a66bb2af414d04f7258ed82e44d4c26fb7efdfae2100f4da1797d2791524ea2b858d380b1c0e22b45bd634829f311e483c77342905ef5e"
+RPM_NAME = "ghc-tasty-quickcheck-prof-0.10.2-2.5.aarch64.rpm"
+RPM_HASH = "132ad998eac2688acbd480cd216b2ded43df3841dae223fb9641364d2517d3012564ddfcc7ed0c8f5058a3b63f840a1dc5c8ae1fda17738953c74a974e287006"
 
-RPROVIDES:${PN} += "ghc-prof-tasty-quickcheck-0.10.2-9BXtwYsGN94LXf5I8sMsq \
+RPROVIDES:${PN} += "ghc-prof-tasty-quickcheck-0.10.2-2UFPyzLXBXCItwO8bufmfg \
 ghc-tasty-quickcheck-prof"
 
-RDEPENDS:${PN} += "ghc-prof-QuickCheck-2.14.3-6dq2izV8oSq1BobaDA598X \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-optparse-applicative-0.18.1.0-EzAv0xKPJOa274kXT9Znff \
-ghc-prof-random-1.2.1.1-I0wUgAAbf0g3qHR3e8uT0o \
-ghc-prof-tagged-0.8.7-CYOhX22Df3PFW5V1S0dOJa \
-ghc-prof-tasty-1.4.3-18zApXOtbThAhmaMCCQRWB \
+RDEPENDS:${PN} += "ghc-prof-QuickCheck-2.14.3-EdzpnPTYr1uH7EoNAOpgI8 \
+ghc-prof-base-4.17.2.0 \
+ghc-prof-optparse-applicative-0.18.1.0-7FhZIXYdOMtK1gl2fqKmzm \
+ghc-prof-random-1.2.1.1-DaR3VtSJjyj4XXOpfKJ29k \
+ghc-prof-tagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax \
+ghc-prof-tasty-1.4.3-EvDBAB3nA5D6U1ANfXkHR \
 ghc-tasty-quickcheck-devel"
 
 inherit rpm

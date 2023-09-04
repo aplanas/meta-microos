@@ -3,10 +3,10 @@ DESCRIPTION = "A terminal server, capable of accepting connection from rdesktop 
 Microsoft's own terminal server / remote desktop clients."
 LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
-PV = "0.9.20"
+PV = "0.9.22.1"
 
-RPM_NAME = "xrdp-0.9.20-8.1.aarch64.rpm"
-RPM_HASH = "9c0a9e9ec3711c2a0cc93e4134c019e8a9d0fd59ba89f7a37f7079c09ce13cbc66b95c6cbd841c4122bcf244638dbed603852c7fa206a7074536b639f8ee4ae6"
+RPM_NAME = "xrdp-0.9.22.1-1.1.aarch64.rpm"
+RPM_HASH = "401629cb5d7350e531de817868309277c289a7e1572a4fb66d1fa5dce59ab99bb547fd69ee718bb8f9bf8680bbb3114e6273d5b18e6af3a065b3a2f8f7876018"
 
 RPROVIDES:${PN} += "config-xrdp \
 libcommon.so.0 \

@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage provides the packagekit plugin used by \
 the GNOME software store."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.3"
+PV = "44.4"
 
-RPM_NAME = "gnome-software-plugin-packagekit-44.3-1.1.aarch64.rpm"
-RPM_HASH = "746e87345c5a511ad0a9fd56718dc8ba11c2b8f5562fdb0b38bca655f4a034d7b37136535da7fbb34208e716d87af8b2fe96fa9b23ca0491b078e8a42b4cc0f9"
+RPM_NAME = "gnome-software-plugin-packagekit-44.4-1.1.aarch64.rpm"
+RPM_HASH = "25d03a992727493f33e2be27ff933ae535a630c7dcc5e360aaa07b2cfa7304328a62b9fa404be1f3a0e0fab75c88ca012e87b73fc07992add5ea92ff7e9cd746"
 
 RPROVIDES:${PN} += "gnome-software-plugin-packagekit \
 libgs-plugin-appstream.so \

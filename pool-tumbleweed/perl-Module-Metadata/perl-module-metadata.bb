@@ -7,14 +7,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.000038"
 
-RPM_NAME = "perl-Module-Metadata-1.000038-1.2.noarch.rpm"
-RPM_HASH = "11dfce22b819378a5ed088c6bee39974cde7a90a3b517652d0794ab7aa8a1757b96c7a475cbbf1fce88a4f28b02fb6ba578c37d1e4983ae85a803683aa81a41b"
+RPM_NAME = "perl-Module-Metadata-1.000038-1.3.noarch.rpm"
+RPM_HASH = "cdc9e12745a1646ed1081944f630515cea50c2c72e12200b48ab1e2b703acf161c5415975e66cf4075a1e54448af22880347db57d67c5abc3dfc8d9c51033d3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--Metadata \
 perl-Module-Metadata"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-version"
 
 inherit rpm

@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.5svn36435"
 
-RPM_NAME = "texlive-xcookybooky-2023.209.1.5svn36435-53.1.noarch.rpm"
-RPM_HASH = "fb542f511cb4b58dc690ac8b1a6efe76eb90050e228631924daa1d39c8ec71d82619ac62ed388a9d1973316a4123ba5cec0d9b1c4e1412d10fbd92cc33b98547"
+RPM_NAME = "texlive-xcookybooky-2023.209.1.5svn36435-53.2.noarch.rpm"
+RPM_HASH = "69e4f3cf7d8150e488c7e18ee5aeee06b3c86943567a612b25093d209cc46466a4dacf2e69bf6b974cce352a7e606b03e046e43c144cd8ad380eb8024fe15243"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xcookybooky.cfg \

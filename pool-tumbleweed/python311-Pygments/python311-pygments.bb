@@ -11,10 +11,10 @@ source code. Highlights are: \
  * highlights Brainfuck"
 LICENSE = "BSD-2-Clause"
 
-PV = "2.15.1"
+PV = "2.16.1"
 
-RPM_NAME = "python311-Pygments-2.15.1-2.3.noarch.rpm"
-RPM_HASH = "e6e9547b132c9e5e6e86ac8ddf1c46c6c8429f1b027cc25d4663ff7da280b22682bd469b21882cd1236713b8c574a0bc239709f62a3bf8dee96d8d98e20e4113"
+RPM_NAME = "python311-Pygments-2.16.1-1.1.noarch.rpm"
+RPM_HASH = "7d89fd92e5b6efb3a64fce869eeeab713443b3eeca77990433f70a527c2b5785adc93d13cd1f51d3316700003fc6da3cc6ef62324febfa0822bd1fe9b24039dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Pygments \

@@ -13,14 +13,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.006"
 
-RPM_NAME = "perl-HTTP-Thin-0.006-3.27.noarch.rpm"
-RPM_HASH = "3a91accae3617eda37bf3c14d2cb241e6918d19ab6f868aff961e4d28dd81846ef072bc8a24dceab7a95c4d81c9cc6bea52fba4bc8b08c6148d4b5285ee00dcb"
+RPM_NAME = "perl-HTTP-Thin-0.006-3.28.noarch.rpm"
+RPM_HASH = "d53446d5cacc8e3e9dfcc982dad6e7c4534953444474a78ccfe753004699881a281538973e5a5d012e60e4fff32c77941ecf02e03b9b1e3657de5d8624cfdf10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Thin \
 perl-HTTP-Thin"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Class--Method--Modifiers \
 perl-HTTP--Response \
 perl-HTTP--Tiny \

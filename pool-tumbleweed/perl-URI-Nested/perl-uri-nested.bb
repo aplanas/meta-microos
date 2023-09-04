@@ -4,14 +4,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.10"
 
-RPM_NAME = "perl-URI-Nested-0.10-1.23.noarch.rpm"
-RPM_HASH = "4c089ebf7325eebc204c6dc78c2e67d69613f481c8f53286885a6f0a5d363b4440ee1e68ccdf62e0d4a2249584fdd0725ae454af8f9b1846870cd29273d5b8a1"
+RPM_NAME = "perl-URI-Nested-0.10-1.24.noarch.rpm"
+RPM_HASH = "c603e59376a8dc1db41d5ea03efb20c44657598c3bd4bf779a1a96d755b66ec85b2558b19594784d0ac624b2177c4d8cdc93b8dea8837a4530a1e68870a42056"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-URI--Nested \
 perl-URI-Nested"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-URI"
 
 inherit rpm

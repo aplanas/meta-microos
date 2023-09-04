@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.91svn19440"
 
-RPM_NAME = "texlive-ptptex-2023.209.0.0.91svn19440-54.1.noarch.rpm"
-RPM_HASH = "8f40c19630a27d8c8ae64fb0b9246c8c8b8053fc25244ff447eaa58047cd36e4deeb1e127094fbd0e423935f046268c63f33198db163c54f7dc174ad9def68eb"
+RPM_NAME = "texlive-ptptex-2023.209.0.0.91svn19440-54.2.noarch.rpm"
+RPM_HASH = "a9f2c46be4c173a0908d41ed3792a7132d8a8fb96c1ae198cf0fbea933fe7069ab92cf1f3de05c4bc0011cc3207cfbee6f22cb7f20871d9efe147e23be4d0ef2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ptp-prep.clo \

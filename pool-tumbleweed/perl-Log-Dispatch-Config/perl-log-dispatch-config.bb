@@ -7,8 +7,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.04"
 
-RPM_NAME = "perl-Log-Dispatch-Config-1.04-9.26.noarch.rpm"
-RPM_HASH = "07e2e01b6b7e40406d72fd44c6b56540fcade23eeb1d0ee6aac4997970dbe9d8965b13ee5cbb0abdff70b95d895fc2179d12a9f740f5dadaf805efe7b93f4245"
+RPM_NAME = "perl-Log-Dispatch-Config-1.04-9.27.noarch.rpm"
+RPM_HASH = "754a064de05d2e6d13aa7191d9fb6934c3f14411d6d82c3448f37565e8773657405b7c342de1900be50199278c098783d378045b9f4d5e27aeb20265209eead9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Log--Dispatch--Config \
@@ -16,7 +16,7 @@ perl-Log--Dispatch--Configurator \
 perl-Log--Dispatch--Configurator--AppConfig \
 perl-Log-Dispatch-Config"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-AppConfig \
 perl-File--Temp \
 perl-IO--Scalar \

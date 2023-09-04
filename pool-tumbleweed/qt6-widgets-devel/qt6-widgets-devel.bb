@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "qt6-widgets-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "953829722dd9e6a78330d72d9a87c9f2f7096694ba5fab75d7de4e31d67a5c450f94060737adb4f194e1d94430d16573a8bdaf5b7e968466d03fbd325ab48b60"
+RPM_NAME = "qt6-widgets-devel-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "2a36a2031309c63af803d4d28595bef76f8757c1bc5d075fe40241a3c017aaf52b1f9c6195cbee49b3fcc4bd815ba27931bf1410a8406bcb79639ebcedbb970b"
 
 RPROVIDES:${PN} += "cmake-Qt6Widgets \
 cmake-Qt6WidgetsTools \

@@ -10,12 +10,12 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.24"
 
-RPM_NAME = "perl-XSLoader-0.24-1.27.aarch64.rpm"
-RPM_HASH = "c806677b008ac1a13a41d0cb47c9d075705884fd7425cea23d7eb7acb8d52c574ee4d3f733796adee70df159e18ea5a241598d58e5f22c4f1a6b8dc212dd9bc6"
+RPM_NAME = "perl-XSLoader-0.24-1.28.aarch64.rpm"
+RPM_HASH = "7142587baebc41ba8ae7e6c53e48aa2e9035460c55b3694ea67fe4b39dade3447403f6637a820adb27666e07a10d9292fb954641b7f91982b180358c057b6d00"
 
 RPROVIDES:${PN} += "perl-DynaLoader \
 perl-XSLoader"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

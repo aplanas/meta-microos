@@ -7,10 +7,10 @@ socketPath is specified, the Unix domain socket will bind or listen to the given
 path."
 LICENSE = "LGPL-3.0-only"
 
-PV = "2.1.4"
+PV = "2.2.1"
 
-RPM_NAME = "ip2unix-2.1.4-4.2.aarch64.rpm"
-RPM_HASH = "070ed1ada1df6de19545d88aca09badfc9c4c00b5e2e96a1f5dae4b7f2370e8adc4b3d60673db2812b82f23a52ab53a887578fb7aeb81028324418d5d162ce35"
+RPM_NAME = "ip2unix-2.2.1-1.1.aarch64.rpm"
+RPM_HASH = "91673daa0030ea039e89da883d5bc7de8740cb434c651638f12e0e5a07ffcf86767d7eaa5ea947d044adab80fa77e0e9a7f233e2f06d8f232768673a6845b4cb"
 
 RPROVIDES:${PN} += "ip2unix \
 libip2unix.so"
@@ -19,6 +19,6 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \
-libyaml-cpp.so.0.7"
+libyaml-cpp.so.0.8"
 
 inherit rpm

@@ -4,23 +4,23 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.2"
 
-RPM_NAME = "ghc-witherable-devel-0.4.2-4.3.aarch64.rpm"
-RPM_HASH = "e4dc2f9964efd3dc73bd0aea7b4e2af3e4edbd045de4c81c61dfd890513c495e0b274c1f1e96ba4279354810cb7ed61e5a8f6096b6531c6bcce0d534b2616638"
+RPM_NAME = "ghc-witherable-devel-0.4.2-4.6.aarch64.rpm"
+RPM_HASH = "22d85a01caf9824ae713d366e4a97d94f50addc56a3bb299ace207df26b9425fa0837a76cabd119ee70b4b4328ffb8c48e4b6a9a54eb545efbc121258260d2d7"
 
-RPROVIDES:${PN} += "ghc-devel-witherable-0.4.2-JTGjjCVsQ4I7ks3qsHWAEH \
+RPROVIDES:${PN} += "ghc-devel-witherable-0.4.2-4so4KYid1UG9PchOfa6Iqw \
 ghc-witherable-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-base-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8 \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-base-orphans-0.8.8.2-Ace67bhQsJ1lQVihVIKZ5 \
 ghc-devel-containers-0.6.7 \
-ghc-devel-hashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt \
-ghc-devel-indexed-traversable-0.1.2.1-1XiSi5jKFt6BqKufaNXxBs \
-ghc-devel-indexed-traversable-instances-0.1.1.2-5OovVMCdJKzAImUo6B0vBJ \
+ghc-devel-hashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP \
+ghc-devel-indexed-traversable-0.1.2.1-4MWkBnFErvq3PVvZRvlACO \
+ghc-devel-indexed-traversable-instances-0.1.1.2-4xmEkkFhOqh6ApH5IPswPQ \
 ghc-devel-transformers-0.5.6.2 \
-ghc-devel-unordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E \
-ghc-devel-vector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp \
+ghc-devel-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
+ghc-devel-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
 ghc-witherable"
 
 inherit rpm

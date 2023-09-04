@@ -37,15 +37,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.34"
 
-RPM_NAME = "perl-Data-Hierarchy-0.34-131.27.noarch.rpm"
-RPM_HASH = "5edf67e8ef025615fd91a8e12ee5d74a0406d0553e07385ed6969ed830bff046b82642f345a2c93427787cc445b9d0b96675a00c53998d2d037e3a184d2e9934"
+RPM_NAME = "perl-Data-Hierarchy-0.34-131.28.noarch.rpm"
+RPM_HASH = "bd85d1c9bdb8b3bd4f64caa8323a7d815ea927cb224d3bc68e5d8783e5eb4be760f1c6371caf8272a0d125ec3c2e592f48723356c7b637e48a40b48cc68305a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--Hierarchy \
 perl-Data--Hierarchy--Relative \
 perl-Data-Hierarchy"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Test--Exception"
 
 inherit rpm

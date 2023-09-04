@@ -5,10 +5,10 @@ library, and the POSIX thread library. A system is not functional \
 without these libraries."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-2.1-or-later-with-GCC-exception-2.0"
 
-PV = "2.37"
+PV = "2.38"
 
-RPM_NAME = "glibc-2.37-5.1.aarch64.rpm"
-RPM_HASH = "356a1b5e5a282e49e8851a6a0524782036b23590da2ec8d0e72915a94a7a85b384abc4c3e965e2ef783bb5dfab76e51d581f339745955b0c0083f9f664469cd4"
+RPM_NAME = "glibc-2.38-1.1.aarch64.rpm"
+RPM_HASH = "9b9c92680b87df0083e65fc7bf39bc44da3fe782a5fb87d757fb494f4034fa311cc967f37bacdfde94a2892e88831c7a319caed3e2d119c450a6d4b4ae4260b2"
 
 RPROVIDES:${PN} += "/sbin/ldconfig \
 config-glibc \
@@ -20,6 +20,7 @@ libc-malloc-debug.so.0 \
 libc.so.6 \
 libdl.so.2 \
 libm.so.6 \
+libmvec.so.1 \
 libnsl.so.1 \
 libnss-compat.so.2 \
 libnss-db.so.2 \

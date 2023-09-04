@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0"
 
-RPM_NAME = "ghc-parsec-numbers-devel-0.1.0-7.2.aarch64.rpm"
-RPM_HASH = "e85ed6f6aa229c9e16e2a3a25e20377f7aec3d51be16e028e31091e818288652aea9a61915ae423bc0b2d95efdc11379e51f78976f200657eef3798b36028bf4"
+RPM_NAME = "ghc-parsec-numbers-devel-0.1.0-7.3.aarch64.rpm"
+RPM_HASH = "2790791fb41f4d8f69543371869e2a64f95b59c1d3e08f198a2f058ce7b71f64002b831177748c409d81fa96c01414fd129f094697bfc15990fe5a7d3b4a9726"
 
-RPROVIDES:${PN} += "ghc-devel-parsec-numbers-0.1.0-EpxP3vMK5SifJrb3FqKTJ \
+RPROVIDES:${PN} += "ghc-devel-parsec-numbers-0.1.0-JmfSOl7TbABbRzQTrD74l \
 ghc-parsec-numbers-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-parsec-3.1.16.1 \
 ghc-parsec-numbers"
 

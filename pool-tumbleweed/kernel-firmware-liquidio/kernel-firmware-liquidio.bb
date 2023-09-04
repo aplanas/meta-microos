@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Cavium LiquidIO driver."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230724"
+PV = "20230814"
 
-RPM_NAME = "kernel-firmware-liquidio-20230724-1.1.noarch.rpm"
-RPM_HASH = "32715564108cef9255c671af91635e0bb2a47ad81ddde18d198fdbe50dd49658eed5ddc6a864f2b9e5343488e08314d8bc4c2f8afe576d6f3942ca9215b9294e"
+RPM_NAME = "kernel-firmware-liquidio-20230814-1.1.noarch.rpm"
+RPM_HASH = "c4234adf963401359405b7f8de0a443a2a2d0abed4e1654c161690dbbad8eeb22f9f6a84ddedc29d67e5dfd3a13adfe422e63c302764873cea88785796f36dce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-liquidio/lio-210nv-nic.bin \

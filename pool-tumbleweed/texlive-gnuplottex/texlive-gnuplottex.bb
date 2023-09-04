@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.0.0.9.5svn54758"
 
-RPM_NAME = "texlive-gnuplottex-2023.209.0.0.9.5svn54758-54.1.noarch.rpm"
-RPM_HASH = "b4a757732b2a43bf54773b61d63a6c916af69f6a56088587f365218d51c03d6582c4662c950062ea900afbfb7ab3374a3e0991708edf5d0c013b2aad79309fce"
+RPM_NAME = "texlive-gnuplottex-2023.209.0.0.9.5svn54758-54.2.noarch.rpm"
+RPM_HASH = "d152d6c8b1bd5cf0bae654c0b5a1da073758ff9eb4670f300c312971f9ea670a709b06fe2eda22073e39ff2ad394d678ba40b346b424cc964ea0c26b94e5bd73"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gnuplottex.sty \

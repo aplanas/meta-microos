@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.03"
 
-RPM_NAME = "perl-Declare-Constraints-Simple-0.03-16.21.noarch.rpm"
-RPM_HASH = "c92cd19d90b5817f0405b15612ce8e8a0e02ae89ef97a5609890e40643dd31c3401d8d961a185e65e1727174dc36583c679c2a1405afcebee3eeea5b0ba06f47"
+RPM_NAME = "perl-Declare-Constraints-Simple-0.03-16.22.noarch.rpm"
+RPM_HASH = "cb0c0262abe4189587e2f0c190e5c462919e1d9ccd4e35abf3aaaf60713dd86c49b3ccd97486923ac27d2734d70103698a15b4ab79ed03fd883f199ab5f134b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Declare--Constraints--Simple \
@@ -25,7 +25,7 @@ perl-Declare--Constraints--Simple--Library--Scalar \
 perl-Declare--Constraints--Simple--Result \
 perl-Declare-Constraints-Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Carp--Clan \
 perl-Class--Inspector \
 perl-aliased"

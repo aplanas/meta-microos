@@ -48,8 +48,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.008001"
 
-RPM_NAME = "perl-Log-Contextual-0.008001-1.19.noarch.rpm"
-RPM_HASH = "6b5227d7cb32e524dd7f791733c371e179af597fc93908217590779034a1e2621332f94376f952d0bc28e80a575ff806aed5c2ba9a6ab233605e0f676c9fb36c"
+RPM_NAME = "perl-Log-Contextual-0.008001-1.20.noarch.rpm"
+RPM_HASH = "3b151038eab209651c1990a4125cbdc86e85636a4bda81aedc4de78d42e876d6a04b163d82942da993d3e195274f422001bf74babda3f382c9c0bd4f1298ac6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Log--Contextual \
@@ -65,7 +65,7 @@ perl-Log--Contextual--TeeLogger \
 perl-Log--Contextual--WarnLogger \
 perl-Log-Contextual"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Data--Dumper--Concise \
 perl-Exporter--Declare \
 perl-Moo"

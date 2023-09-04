@@ -3,10 +3,10 @@ DESCRIPTION = "libimobiledevice is a software library that talks the protocols t
 iOS devices. It does not depend on any existing libraries from Apple."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.3.0+179git.20230430"
+PV = "1.3.0+190git.20230705"
 
-RPM_NAME = "imobiledevice-tools-1.3.0+179git.20230430-1.2.aarch64.rpm"
-RPM_HASH = "161bc51feb64288c98a724b675872dc92d1afcc4a3a5715161bbd52f5e8318477256ece6f7fa2afdd1fec08a93d3d35512964c771f19371efccc1c256d78ebef"
+RPM_NAME = "imobiledevice-tools-1.3.0+190git.20230705-1.1.aarch64.rpm"
+RPM_HASH = "0949f68ed918d26ee6348a0e8b157f72cced3721ef1535564768aff1d7d28f6c5001eec5cea9858ba2065605ee1a16d294b04cdf5ba07feaf1f3e8b8e33e75bf"
 
 RPROVIDES:${PN} += "imobiledevice-tools \
 libimobiledevice-tools"

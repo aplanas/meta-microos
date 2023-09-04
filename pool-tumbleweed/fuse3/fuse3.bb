@@ -8,10 +8,10 @@ FUSE file systems are typically implemented as a standalone \
 applications in their own right and are packaged separately."
 LICENSE = "BSD-2-Clause & GPL-2.0-only & LGPL-2.1-only"
 
-PV = "3.15.1"
+PV = "3.16.1"
 
-RPM_NAME = "fuse3-3.15.1-1.1.aarch64.rpm"
-RPM_HASH = "58cd1431cf2ed29dfd2988cbb9d4096108411f282d62d351c19f21a3f1e437812d1416042cb0d3ebee52b9b1b85246c77075b5c493bbb1d389cc227b9d68be5f"
+RPM_NAME = "fuse3-3.16.1-1.1.aarch64.rpm"
+RPM_HASH = "01cdf1ffa63ee64ba96fbc8e5a40f5c8e8268417a038ef0b69c8d1c31d52f326b1ee8f528fd86d61408a7075fce7de492870f4e68659c84f7506c3e691d6f6f4"
 
 RPROVIDES:${PN} += "config-fuse3 \
 fuse3"

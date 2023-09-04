@@ -6,15 +6,16 @@ This subpackage contains the Texas Instruments CC2540 BTLE capture \
 helper."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2022_08_R1"
+PV = "2023_07_R1"
 
-RPM_NAME = "kismet-capture-ti-cc2540-2022_08_R1-2.5.aarch64.rpm"
-RPM_HASH = "b9422de246c12da7bd0337bb07fca8035f507219ab30cd77f55943ba0bb4c32841701b4a70ec73672a49fc03e416210e6292a1587a24ac4d78b64933ebe2bb5c"
+RPM_NAME = "kismet-capture-ti-cc2540-2023_07_R1-1.1.aarch64.rpm"
+RPM_HASH = "16f2e270d6ef37a14d1a345355458bcd76fc8bc84ae4f1af8de19b8043aa5e2eb948a7fe79963423aca2d66c8b854cade85e14de070cecb1916571c6cce2b10d"
 
 RPROVIDES:${PN} += "kismet-capture-ti-cc2540"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
+libcap.so.2 \
 libprotobuf-c.so.1 \
 libusb-1.0.so.0 \
 libwebsockets.so.19"

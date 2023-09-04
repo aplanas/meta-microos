@@ -12,13 +12,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "3.38"
 
-RPM_NAME = "perl-HTTP-BrowserDetect-3.38-1.2.noarch.rpm"
-RPM_HASH = "2aa8cbeb6d8cf6c25e4b3505557ec43541971ccb7a4eeaf07e181854d76db9a7ddb211ad93e48a3aff3414bc4907c537763223115e1b541f74f65641a93d664d"
+RPM_NAME = "perl-HTTP-BrowserDetect-3.38-1.3.noarch.rpm"
+RPM_HASH = "4fe903216e493215e8ad97789cef46bbaf43d1c91222b0071cb91b6994478af5de3c68790e8ac96fe9f504ad2f1bd9972b2b3d2c541f4ac68451d5568e35f0b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--BrowserDetect \
 perl-HTTP-BrowserDetect"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

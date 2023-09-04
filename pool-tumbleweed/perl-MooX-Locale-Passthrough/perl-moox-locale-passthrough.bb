@@ -9,14 +9,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.001"
 
-RPM_NAME = "perl-MooX-Locale-Passthrough-0.001-1.13.noarch.rpm"
-RPM_HASH = "5ecb7071bbd12386dfc0849d4c6311f4b3e656992b43421d2e72bfd1ea52fd69f8a0ce5346c5e17158bad6a030b97b362bd4a70611d8cfe07b558ba4d6942767"
+RPM_NAME = "perl-MooX-Locale-Passthrough-0.001-1.14.noarch.rpm"
+RPM_HASH = "b47ae0a469e94643973e554c9574f6d092fe659760932e0b89816597cbf497e4e5d8056d09282d99de30c51361012aa76fb950c9e8487ade18a866c275dbac2a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooX--Locale--Passthrough \
 perl-MooX-Locale-Passthrough"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Moo"
 
 inherit rpm

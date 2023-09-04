@@ -12,8 +12,8 @@ LICENSE = "MPL-2.0-no-copyleft-exception"
 
 PV = "2.18.8"
 
-RPM_NAME = "dlt-daemon-2.18.8-4.5.aarch64.rpm"
-RPM_HASH = "08f763db34485cd6a5dc6d70f2092d6b6de7a27906a02e15670db39f6ea1540a42733bbf539434b2f8d4bbaa193123cf800e4e3606249dedf1a8588dcccfc73c"
+RPM_NAME = "dlt-daemon-2.18.8-4.6.aarch64.rpm"
+RPM_HASH = "e497d014c4fac161c89a07696979713c23657ea1756871de1e303a917ad9548b9fb50624640947a6f9c7f59a103f17d74c46816438156a6d145bdb498c10c985"
 
 RPROVIDES:${PN} += "config-dlt-daemon \
 dlt-daemon"

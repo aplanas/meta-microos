@@ -4,10 +4,10 @@ Scintilla, it has grown to be a generally useful editor with facilities for \
 building and running programs."
 LICENSE = "MIT"
 
-PV = "5.3.6"
+PV = "5.3.7"
 
-RPM_NAME = "scite-5.3.6-1.1.aarch64.rpm"
-RPM_HASH = "9fd528049ae881aff6ea32a970f774c987f2a98a380873c37f080f67265fe6547f094256e36fda42b755a35db2bb2382057e96374cdebb8d13004c9d3bbb5cb3"
+RPM_NAME = "scite-5.3.7-1.1.aarch64.rpm"
+RPM_HASH = "cd0e55cc1677ddc2b4b0913210a846c95d81a25ba180a85b23243291e87408711e5c7aa856ad26bdb83076bf1fa7966d774e05a3b8bf9a53769b43e7d7bffcf9"
 
 RPROVIDES:${PN} += "liblexilla.so \
 scite"

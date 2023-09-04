@@ -6,10 +6,10 @@ It supports multiple layouts, fancy effects, has a very flexible IPC \
 model allowing for a lot of customization, and more."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.27.2"
+PV = "0.28.0"
 
-RPM_NAME = "hyprland-0.27.2-1.1.aarch64.rpm"
-RPM_HASH = "fbbd22574adb9cf4fb42cf5a422d07457db953a066fa18c8e2b91573968d720d4fec4616e74f4c9f6730011fc2173b08d63c316f592ab09b4f2c14d8de8e7264"
+RPM_NAME = "hyprland-0.28.0-1.1.aarch64.rpm"
+RPM_HASH = "95c9cc0104a7f9dacf552d1eef49c1283902e373b98bdd76c5ed904481fcee5a21c4a1ca5125c3353d19ee36132a29ca002e328c30143784d9b194978af2b620"
 
 RPROVIDES:${PN} += "hyprland"
 

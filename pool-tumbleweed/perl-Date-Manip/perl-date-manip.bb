@@ -82,8 +82,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "6.92"
 
-RPM_NAME = "perl-Date-Manip-6.92-1.1.noarch.rpm"
-RPM_HASH = "3c02a4f6422a2608b639f7986b832778a15912ab94c57bcfffe1db399b80d2849351d1f1e0c2036f0ea3511ab5d6cb0cc5fd856d92bc1aa41d1980a852a4ce87"
+RPM_NAME = "perl-Date-Manip-6.92-1.2.noarch.rpm"
+RPM_HASH = "e82b88d6750c7aca158b6b34184e67ba542309415ccee7e579b0cf67baef6d3b15d9df4844bc643c02fb5fbd066c87a72e6f67a9af22fd4ab750c13d71cab0c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Date--Manip \
@@ -119,6 +119,6 @@ perl-Date--Manip--Zones \
 perl-Date-Manip"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

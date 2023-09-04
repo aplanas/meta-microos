@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-iitem"
 DESCRIPTION = "This package includes the documentation for texlive-iitem"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.0svn29613"
+PV = "2023.209.1.0svn29613"
 
-RPM_NAME = "texlive-iitem-doc-2023.208.1.0svn29613-53.1.noarch.rpm"
-RPM_HASH = "530451872300006209de355d9ac21fa60cc2c54f76ab565161d9211c6ec0b848ed9535ff61847723cedd1ef7b2fbe2c830cd4fe6424f1f65a92111624067bc54"
+RPM_NAME = "texlive-iitem-doc-2023.209.1.0svn29613-54.1.noarch.rpm"
+RPM_HASH = "66a33514bc8fcf54f44a1613be3880aa844f20e3bd427fdef8084dce9ce862f7fadc63af379df356016cd9510ae63563da0a9a3266ac4fe9d4a493bdfa977b4a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-iitem-doc"

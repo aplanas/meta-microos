@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3006.0"
 
-RPM_NAME = "salt-syndic-3006.0-1.4.aarch64.rpm"
-RPM_HASH = "a5cb05b0250a342bda1cb15bc4775403518d1c61ba23dde741397df0d1297a08e1577aa01f384e8aafd6f9978ffe8ad1220dc4c8f785cebb851fac91d9868003"
+RPM_NAME = "salt-syndic-3006.0-2.1.aarch64.rpm"
+RPM_HASH = "e3156c96d7bc38c2ee337de8975515894b680aa66891ae08c7a7fb652c7cb6d4e8e85acf0cbb333dd008e7df739fcdd850baa7b395363cc576bc22e9a67f3d42"
 
 RPROVIDES:${PN} += "salt-syndic"
 

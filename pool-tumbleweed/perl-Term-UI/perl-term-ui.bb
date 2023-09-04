@@ -11,15 +11,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.50"
 
-RPM_NAME = "perl-Term-UI-0.50-1.10.noarch.rpm"
-RPM_HASH = "79dc736d3c8ffd985994695cdb49f5f77d20aa0fb39dcaa63562408e5db830f3b02e56d050b36a9b4092a4fb65e7ebd873108a47552af0038efd1c354c4e9f55"
+RPM_NAME = "perl-Term-UI-0.50-1.11.noarch.rpm"
+RPM_HASH = "214cebfa560adf26a702e8791bc34fe742609a0f6a6415da29835150d4ee792c47d80d267f01dc15a7798522428059b39a081dd3964c6e4bc11c0eaf53ca09bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Term--UI \
 perl-Term--UI--History \
 perl-Term-UI"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Locale--Maketext--Simple \
 perl-Log--Message--Simple \
 perl-Params--Check \

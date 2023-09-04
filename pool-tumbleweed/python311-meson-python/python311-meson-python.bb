@@ -2,10 +2,10 @@ SUMMARY = "Meson Python build backend (PEP 517)"
 DESCRIPTION = "Python build backend (PEP 517) for Meson projects."
 LICENSE = "MIT"
 
-PV = "0.12.1"
+PV = "0.13.2"
 
-RPM_NAME = "python311-meson-python-0.12.1-2.2.noarch.rpm"
-RPM_HASH = "7c7dc5e8dc301beedc1ddf0d691a119ee9dc84231075da5c53abcc6d482a1202e560f744a521d8bd4982747ce2080861e5a3437c7c49c01279fdf29220d1b041"
+RPM_NAME = "python311-meson-python-0.13.2-1.1.noarch.rpm"
+RPM_HASH = "d7a8a3f2d88858f0312f19a3a0d13578421c1e6804012710910a50d9913621ab3715e23a7b8a99fff718c9a46e1e27bcaea3619334266c051c33e8d2a324b074"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-meson-python \

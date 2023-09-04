@@ -69,13 +69,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "2.17"
 
-RPM_NAME = "perl-Switch-2.17-1.28.noarch.rpm"
-RPM_HASH = "1821ebb2c6467980dee84784b7ae1f173c81a566af68dcee232c0afbb1b0f76b8dfae565ae2f5cce87169713808e2bd21f7dc5ee48c1d790f88d2fdde5e9fa7f"
+RPM_NAME = "perl-Switch-2.17-1.29.noarch.rpm"
+RPM_HASH = "cc79c97b4207829c0396b4a6889f2e840d10e9256d417094b9c695df6918d8a1ddeb7b9f6632addf98fd80d01e3c3738393248905888d284366de669b29b331b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Switch"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Text--Balanced"
 
 inherit rpm

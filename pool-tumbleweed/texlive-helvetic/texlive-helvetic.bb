@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.svn61719"
 
-RPM_NAME = "texlive-helvetic-2023.209.svn61719-54.1.noarch.rpm"
-RPM_HASH = "0becf401c08168516edb6e51d1e08c3fa269df9fc46ee66658fe27975fc8d6439c81ff883a6120e3f82689b47a8ff2e0e59dac6be809afe18b04a96eae32c35a"
+RPM_NAME = "texlive-helvetic-2023.209.svn61719-54.2.noarch.rpm"
+RPM_HASH = "c6bfa8e6a8d414c02902aaf40c35a320056da43b3ef065aa082ead26db8621de888e0d595ff6d2adedde28cbcff732987c4c6dbc608b8c467453f7a23ef9c784"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-8ruhv.fd \

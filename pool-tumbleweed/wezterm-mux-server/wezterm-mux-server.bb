@@ -4,8 +4,8 @@ LICENSE = "(Apache-2.0 | MIT) & BSD-3-Clause & (0BSD | MIT | Apache-2.0) & (Apac
 
 PV = "20230712.072601.f4abf8fd"
 
-RPM_NAME = "wezterm-mux-server-20230712.072601.f4abf8fd-1.1.aarch64.rpm"
-RPM_HASH = "f05aa5426fdde3d37ca370cc2ec681909f801e1d7da97f6a24e6c125cb6b86d690d6abc3cb882e6bedb9641c1899912653843a78c0b371ef078bb6a4109ca168"
+RPM_NAME = "wezterm-mux-server-20230712.072601.f4abf8fd-3.1.aarch64.rpm"
+RPM_HASH = "d579061302a5e933d59623b9a0516fe83eb33fe8d005c97e9c383b8b4a6b9b2570e870b7418af2c892380d65513bf5fa00dde11f5b84519544a0a1cab327ddd4"
 
 RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
 bundled-rust-crate-adler \
@@ -345,8 +345,10 @@ wezterm-mux-server"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
+libcrypto.so.3 \
 libgcc-s.so.1 \
 libm.so.6 \
+libssl.so.3 \
 libz.so.1"
 
 inherit rpm

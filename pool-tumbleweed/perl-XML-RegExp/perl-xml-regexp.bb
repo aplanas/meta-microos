@@ -13,13 +13,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.04"
 
-RPM_NAME = "perl-XML-RegExp-0.04-9.27.noarch.rpm"
-RPM_HASH = "7cdc310a171cdf594c4642aeea0d2434b6ef39980cbbe0042631b27c01d361e77b1166c3832d7a7c0ba8b64faff5faa5a90cefd58b21c584ca5e26ed8d73e6b8"
+RPM_NAME = "perl-XML-RegExp-0.04-9.28.noarch.rpm"
+RPM_HASH = "aea0bf67175c40325447507e1fcfaca71d54a3f247ca48376cdaf41917c9106cbf18537b8aba2859a64e3299d8aa73d9f4175a9e8167ab87f881c75dcff72daf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--RegExp \
 perl-XML-RegExp"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

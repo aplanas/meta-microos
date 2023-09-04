@@ -3,10 +3,10 @@ DESCRIPTION = "Network filter configuration files for the libvirt daemon, used f
 cleaning guest network traffic."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.5.0"
+PV = "9.6.0"
 
-RPM_NAME = "libvirt-daemon-config-nwfilter-9.5.0-2.1.aarch64.rpm"
-RPM_HASH = "90e520ca53155cb3de8b3d4adc42c783077fd8a330e7e559684c072c3535c8f13b95a2d2eb56c89db8c44fca4dcee3e98375520728cd481f55c6ff76292045bf"
+RPM_NAME = "libvirt-daemon-config-nwfilter-9.6.0-2.1.aarch64.rpm"
+RPM_HASH = "c490de844ddb802bdfd1b75b449b752860feb8f1aa2f478820ea29f3c1ebd585460019d191b124b4b0aa9e776b5d92076e2eab5d4e71626128fa6e0adef33dd0"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-config-nwfilter \
 libvirt-daemon-config-nwfilter"

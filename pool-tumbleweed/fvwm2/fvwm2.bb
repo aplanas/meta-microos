@@ -6,10 +6,10 @@ set, to be extremely customizable and extendible, and to be very \
 compatible with the Motif Window Manager (mwm)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.6.9"
+PV = "2.7.0"
 
-RPM_NAME = "fvwm2-2.6.9-4.2.aarch64.rpm"
-RPM_HASH = "a187b5a64c65517e5e3ffd872e431dd83b04edd62ee017ba859c1d9f45092d0dcf6225fa8c7a4aa97c40c84609d77ed2f371df49de116f1df9c31901b3a6eeff"
+RPM_NAME = "fvwm2-2.7.0-1.1.aarch64.rpm"
+RPM_HASH = "0b2af0473219ca816cbcc9a03765069efe14699cd97d330e6374db67defdd2ef081e1f4b71993b1142a36f0889fcc54932e973a4fbbbeb61e2811b08ca718e33"
 
 RPROVIDES:${PN} += "config-fvwm2 \
 fvwm \
@@ -31,7 +31,6 @@ perl-FVWM--Tracker--PageInfo \
 perl-FVWM--Tracker--Scheduler \
 perl-FVWM--Tracker--WindowList \
 perl-FVWM--Window \
-perl-FvwmCommand \
 perl-General--FileSystem \
 perl-General--Parse \
 windowmanager \

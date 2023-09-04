@@ -2,10 +2,10 @@ SUMMARY = "Translations for package opensuse-welcome"
 DESCRIPTION = "Provides translations for the 'opensuse-welcome' package."
 LICENSE = "GPL-3.0-or-later & MIT"
 
-PV = "0.1.9+git.0.66be0d8"
+PV = "0.1.9+git.35.4b9444a"
 
-RPM_NAME = "opensuse-welcome-lang-0.1.9+git.0.66be0d8-1.2.noarch.rpm"
-RPM_HASH = "3fb5637d245f0611afea2b4e3685d23768f3c87382445e77265497a8e2324821ef175a670591f357d247d3695a79ed237f0e879be51c0ce0d2fe79e3cde398de"
+RPM_NAME = "opensuse-welcome-lang-0.1.9+git.35.4b9444a-1.1.noarch.rpm"
+RPM_HASH = "e80c6138d0606ce6d42533802d73f66529645233614bfb26c297c27f52021f51db8c68813fa723d3e890d6dec791317c956053e9d77c17ba1355469e69ea91fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "opensuse-welcome-lang \

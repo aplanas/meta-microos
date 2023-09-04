@@ -7,8 +7,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20221103"
 
-RPM_NAME = "libluksde-devel-20221103-3.12.aarch64.rpm"
-RPM_HASH = "306f5ef5060129832cd61abf63c3e5487425fa6259f1666122dfe3bf0070474f1b1110d224a43c85cec3805264812da71f6a34205c150ebb5b2e5c86cda6e1bf"
+RPM_NAME = "libluksde-devel-20221103-4.1.aarch64.rpm"
+RPM_HASH = "d0c89c6ba5efe1909b8858dd17777768ebf55af92037ffc7e66f172a5fd8d3c269f81528754ae11437ece75dc884528855bc04dfb533d5f5bb0093d4f1c0d679"
 
 RPROVIDES:${PN} += "libluksde-devel \
 pkgconfig-libluksde"

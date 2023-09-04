@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.9asvn66064"
 
-RPM_NAME = "texlive-pxchfon-doc-2023.209.1.9asvn66064-54.1.noarch.rpm"
-RPM_HASH = "c68b328944b3fba7d72492e7b9c9c32d19fedc95c3015d3b4e52d04d169a89b1414d2f9fb36521ff6eff9b6b48fb771328d979b9e2b5673b6f989f653d259bd5"
+RPM_NAME = "texlive-pxchfon-doc-2023.209.1.9asvn66064-54.2.noarch.rpm"
+RPM_HASH = "e22e94e3255202797a353654018c54c33a07f089f1111a613c6172f105d9ebb9adb1c3cb125e1ceb145261208ff2d8135f7113600a934387a024d78e9191a8d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pxchfon-doc-ja \

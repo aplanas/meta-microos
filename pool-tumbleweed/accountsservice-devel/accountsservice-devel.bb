@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "23.13.9"
 
-RPM_NAME = "accountsservice-devel-23.13.9-3.1.aarch64.rpm"
-RPM_HASH = "53797409f008607161321a8bf158746cbbe5c08c9946d25029a9808aa68604ef05525afcfff9e987bc09b9cabf095b58292593ac88cbad5b6dc02b3896033062"
+RPM_NAME = "accountsservice-devel-23.13.9-4.1.aarch64.rpm"
+RPM_HASH = "5acfe0ba25d29811ddf7d51dd5449eb030d8646102d8acaa18749cc84d26be709fe02872bf198c9c5bb6f96904d74c57c93d2c8b3e3d391a6c9e3644dcda1849"
 
 RPROVIDES:${PN} += "accountsservice-devel \
 pkgconfig-accountsservice"

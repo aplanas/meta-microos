@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.903"
 
-RPM_NAME = "perl-Mail-Sender-0.903-1.24.noarch.rpm"
-RPM_HASH = "aa7de1bb1d82d8168ea4809cfb6cb9c79cb0b18498b94deb1ab8d590bc6863642f52919c41f248f8f0ee90ae9b3c74ee1f13cc6dcb2b80ad48c8867d7a5eca8b"
+RPM_NAME = "perl-Mail-Sender-0.903-1.25.noarch.rpm"
+RPM_HASH = "ed9f9cfa97d3e36d7c0306add7854b13337b8f2428cea8271ce830dc02e04799e3e39d95e24ad14a58d5d7324b52b2e9a7113ab3489037ff0addf3932b0d91bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mail--Sender \
@@ -17,6 +17,6 @@ perl-Mail--Sender--CType--Ext \
 perl-Mail--Sender--CType--Win32 \
 perl-Mail-Sender"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

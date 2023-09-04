@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221025"
 
-RPM_NAME = "libvslvm-tools-20221025-4.1.aarch64.rpm"
-RPM_HASH = "e8908dd79ae8e213cddb58de4815bc19573fbf384585a23fd976f5af974cdaf0dcfa3ad7702f052c0f585f76b6ac360ba4a4c7831aabb17b32beff4f6cffae68"
+RPM_NAME = "libvslvm-tools-20221025-5.1.aarch64.rpm"
+RPM_HASH = "b0f4083e4e0a6d2c748454483d9fc25c97e0c90c0401b366aed0d366c616107322988af1f3b8845b2ff84ca8877e29a0595d4d738eafc8a5bb5d83a67451ee7c"
 
 RPROVIDES:${PN} += "libvslvm-tools"
 

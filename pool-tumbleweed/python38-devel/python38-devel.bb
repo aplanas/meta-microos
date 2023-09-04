@@ -12,8 +12,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.8.17"
 
-RPM_NAME = "python38-devel-3.8.17-1.2.aarch64.rpm"
-RPM_HASH = "f97f042bf9f63070c304e4916cd1fd600a06a8b683d5f49efb6aaf579c590beadf06fa600ec61ec9f2dec2a9fe522f5c3b8faddf1ce42b74cca536ec2b75d960"
+RPM_NAME = "python38-devel-3.8.17-2.1.aarch64.rpm"
+RPM_HASH = "14fa2b7380e3917badf9af619eace6e82df7542a42137febbbee72f6604773d5b2d60d84be595d36c59f7ecbe4d83998162b8555b60c583f0b6d35a9db9f6f11"
 
 RPROVIDES:${PN} += "pkgconfig-python-3.8 \
 pkgconfig-python-3.8-embed \

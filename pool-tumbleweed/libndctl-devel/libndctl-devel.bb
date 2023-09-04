@@ -8,10 +8,10 @@ The ndctl-devel package contains libraries and header files for \
 developing applications that use ndctl."
 LICENSE = "LGPL-2.1-only"
 
-PV = "76"
+PV = "78"
 
-RPM_NAME = "libndctl-devel-76-1.4.aarch64.rpm"
-RPM_HASH = "8db6d1994c75cab922cf70678f9e0858f1913c71682cd46581c503d84b9a12dfa9b019773b225a59ac56beaf6d61bb17b9ab5baae7345b45110a2e9c4f8179eb"
+RPM_NAME = "libndctl-devel-78-1.1.aarch64.rpm"
+RPM_HASH = "fe7791107e16219d8b9f6076df072e5b0cc2c50bc83530aa9f7bee649341da5351fb6248b3d4a68fcdac34438c13dc8db903ab712822941cd8f229a96408c18d"
 
 RPROVIDES:${PN} += "libndctl-devel \
 pkgconfig-libcxl \

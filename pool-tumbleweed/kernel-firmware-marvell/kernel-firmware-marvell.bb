@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Marvell network drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230724"
+PV = "20230814"
 
-RPM_NAME = "kernel-firmware-marvell-20230724-1.1.noarch.rpm"
-RPM_HASH = "1e7184c654807c17e6f9a96beb6250525e1d56b0e4775c018d714ef891d0340a8ba6413beb6bfa921275c7f57230b74fd1901204de943d1874a1458139c0788f"
+RPM_NAME = "kernel-firmware-marvell-20230814-1.1.noarch.rpm"
+RPM_HASH = "d18ff7540b9c709882340cd6e94d490630fec654dbf69ebe9ce3d24934ae50361b6e98922e2f31b3c1123f94802a60c9256da0d9200a2ad392498f9eb1ac294b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-lbtf-usb.bin \

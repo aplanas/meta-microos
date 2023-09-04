@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.46"
 
-RPM_NAME = "ghc-xmobar-doc-0.46-2.6.noarch.rpm"
-RPM_HASH = "bdafe35ddbcc25604d0bf3760ae496b0f82089cafcaa12ba2ca330e7f7f2afe8ca2f2674d75265f044c2292ef7a2d59f36c25caffa54fd229729c3786bd54b3c"
+RPM_NAME = "ghc-xmobar-doc-0.46-2.11.noarch.rpm"
+RPM_HASH = "33ee6749d7f00f5eb753e5038480dce3a5f9a5526fb180bc80789e37f3128d766ea895b304269b9128e4cb8312ccd71c55c8659fef97a88092933fea8b6a90f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-xmobar-doc"

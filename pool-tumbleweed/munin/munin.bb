@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.0.72"
 
-RPM_NAME = "munin-2.0.72-3.2.noarch.rpm"
-RPM_HASH = "76e3845b08040206bf14b541de8cb7feaf6bbc2a369b4c2aaf61bdfa75e4c9b74fd9943d6371720a8aafbd755a7e79861d9f28ba58fe2108f673989c2fdc1bf9"
+RPM_NAME = "munin-2.0.72-3.3.noarch.rpm"
+RPM_HASH = "ee986dec5709642f2facf1fa800412065667d25c5818898d11039403ce13afeee4a775f0b10ed274e3b510080b8285b162afd23d37f7e4774e3ec542940b1d2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-munin \

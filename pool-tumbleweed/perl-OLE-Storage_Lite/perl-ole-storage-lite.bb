@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.22"
 
-RPM_NAME = "perl-OLE-Storage_Lite-0.22-1.2.noarch.rpm"
-RPM_HASH = "f472a51247bfc0baccc2a3864741f72f9ede245295b83a08159cbfd0bce39529888444b15dd8ec791e0960b12f7f249196700396917b366ee3dd14df44045988"
+RPM_NAME = "perl-OLE-Storage_Lite-0.22-1.3.noarch.rpm"
+RPM_HASH = "5740dc5bcbc62fc69c9c98d261c999a3ff337d2d35d9a0d76d8f584bc71766532a68301394bfa5dfae9ba538ff91af56a7630dd5cce7c474e23f0e1e1b9ebd5c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-OLE--Storage-Lite \
@@ -19,6 +19,6 @@ perl-OLE--Storage-Lite--PPS--File \
 perl-OLE--Storage-Lite--PPS--Root \
 perl-OLE-Storage-Lite"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

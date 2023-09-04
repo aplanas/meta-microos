@@ -7,10 +7,10 @@ Features: \
  * print and export your document to PDF"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.7.3"
+PV = "0.8.0"
 
-RPM_NAME = "molsketch-0.7.3-1.4.aarch64.rpm"
-RPM_HASH = "af21f734bcd5cef4b8aedc97f927f853ad68fbaaacb607006041cb8c76cbb2f6762bcb17bf01046a8219eae215d5e8bfbb1d4fb1f561ba3a69cc580c781d9b85"
+RPM_NAME = "molsketch-0.8.0-1.1.aarch64.rpm"
+RPM_HASH = "3440cb5103b326d440c61a48859abfb23952b214076ad5fb2eaafbdfc2d9f24f845970943dc0a3af19e683415d7b04d00f1e02a5a8614228c0ff82f0dad70ba3"
 
 RPROVIDES:${PN} += "libmolsketch.so \
 libobabeliface.so \

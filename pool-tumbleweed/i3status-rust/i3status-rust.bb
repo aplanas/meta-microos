@@ -5,10 +5,10 @@ information (time, battery status, volume, etc) on the i3 bar. It is also \
 compatible with sway."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.31.8"
+PV = "0.31.9"
 
-RPM_NAME = "i3status-rust-0.31.8-1.1.aarch64.rpm"
-RPM_HASH = "8bc822d88673829217ba3c5dad0fcee93f99f4ebf663b1ee0b65d1c5ee609b4c349a2c28df6ebbb054eaa8d8cdf5b2cb625ca414c307a615ae4792db1326747a"
+RPM_NAME = "i3status-rust-0.31.9-1.1.aarch64.rpm"
+RPM_HASH = "032d088e9dd3d76d17bf5a513353e3bf15cd0f30513f1714db7bf18a17163b1251712a461eb7c03e96dd358b2dbe875c5a107a37ae3cb7e7fb74df6681bb05bc"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-anstream \
@@ -49,6 +49,7 @@ bundled-rust-crate-crypto-common \
 bundled-rust-crate-darling \
 bundled-rust-crate-darling-core \
 bundled-rust-crate-darling-macro \
+bundled-rust-crate-deranged \
 bundled-rust-crate-derivative \
 bundled-rust-crate-digest \
 bundled-rust-crate-dirs \
@@ -150,6 +151,7 @@ bundled-rust-crate-rand \
 bundled-rust-crate-rand-chacha \
 bundled-rust-crate-rand-core \
 bundled-rust-crate-regex \
+bundled-rust-crate-regex-automata \
 bundled-rust-crate-regex-syntax \
 bundled-rust-crate-reqwest \
 bundled-rust-crate-rustix \

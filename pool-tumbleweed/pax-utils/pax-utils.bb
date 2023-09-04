@@ -5,13 +5,13 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.7"
 
-RPM_NAME = "pax-utils-1.3.7-1.4.aarch64.rpm"
-RPM_HASH = "d7286804134e6be2e64eed9e2e2cbef4f7c5455b2d3a198f3bb3c7ba155e303437c48590655f20a367858c4e6e0586e52ded5db390963fd3d623a70286ee027a"
+RPM_NAME = "pax-utils-1.3.7-2.1.aarch64.rpm"
+RPM_HASH = "a18b3f86dedfbccfd01465137c8c713312cc48a3f2d3fefec44ed22c44aad951d8770d19c5d9abfb49c53800efe8db102ebd35f5fd85187f3168dde023595925"
 
 RPROVIDES:${PN} += "pax-utils"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/env \
+/usr/bin/python3 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcap.so.2"

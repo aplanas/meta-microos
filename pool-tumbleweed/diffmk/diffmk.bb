@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0"
 
-RPM_NAME = "diffmk-1.0-161.27.noarch.rpm"
-RPM_HASH = "c3088d8fb32753ebb59d3b6d29e2ceb362882113d1be6b08120486544f1f5da7a64d48b411402d5edb3d36a1414a5ab0a009fc7ac486984cc560d417830eb360"
+RPM_NAME = "diffmk-1.0-161.28.noarch.rpm"
+RPM_HASH = "bfd798d95b810865be8bd6db5f9b714b11d9ebb168a31630fafcaab6f4118f44b46108f0c4a159406d25f85e2a6a46eaa7cf4df7de5ad6a13a6fff5763a0b40f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "diffmk \

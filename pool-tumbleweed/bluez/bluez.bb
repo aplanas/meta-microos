@@ -2,10 +2,10 @@ SUMMARY = "Bluetooth Stack for Linux"
 DESCRIPTION = "BlueZ provides support for the core Bluetooth layers and protocols."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.66"
+PV = "5.68"
 
-RPM_NAME = "bluez-5.66-1.8.aarch64.rpm"
-RPM_HASH = "9448ff3d9cc6979360a445e5ce0bb67c0b10bce9505745be8143ea9f753f73d9b77f0ce74fabe28e863b10b859193f1dfe0177c762096fd920c6e434560af2cb"
+RPM_NAME = "bluez-5.68-4.1.aarch64.rpm"
+RPM_HASH = "bdd90ac46b75b7f75cf3bbca7cce4fc7782ccf3dde5473fb23163c338a5509c1d332a847ab47102fba5995be3cecd5b3176e6f27daa6571acb312cc56929dc61"
 
 RPROVIDES:${PN} += "bluez \
 bluez-audio \

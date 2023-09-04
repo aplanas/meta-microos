@@ -22,8 +22,8 @@ LICENSE = "MIT"
 
 PV = "0.6.3"
 
-RPM_NAME = "python310-ipyvolume-0.6.3-1.2.noarch.rpm"
-RPM_HASH = "5620300261906f8701fd858d2c2e39ca859fdbfba838e47e42d695b4fb6eb44bb9687106325b7a78ebcd21058c5d6b348b60ec45292fa87b99fc1f9b8f6eaa01"
+RPM_NAME = "python310-ipyvolume-0.6.3-2.1.noarch.rpm"
+RPM_HASH = "1a9b092ed01c85a20a0d75f67b550c422d9aa5a939f7dfd6ea202a5890b22a9cf7b123b46d3a5bfc3b82e40114566d596984d9350771c70a9ee1bf38a647818c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-ipyvolume \

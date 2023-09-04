@@ -12,8 +12,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.203"
 
-RPM_NAME = "perl-MooseX-SetOnce-0.203-1.3.noarch.rpm"
-RPM_HASH = "bf49bb917d7792e9e2ce79a373af14486dd8fccb741db60dac533a700da2566f9bce86ad451e56ab35a4af87b6b4d93951def57665a176cd6cc878fadc815c6e"
+RPM_NAME = "perl-MooseX-SetOnce-0.203-1.4.noarch.rpm"
+RPM_HASH = "bf538a232a2973c4275a1fbf04252959c3eb9b0c5b75a151b87de63db1d784fb9686ade1bd6e6e7d7b7a8c5b4f9659a72ae1060e2bde5e0c61d86102cd4078c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Moose--Meta--Attribute--Custom--Trait--SetOnce \
@@ -22,7 +22,7 @@ perl-MooseX--SetOnce--Accessor \
 perl-MooseX--SetOnce--Attribute \
 perl-MooseX-SetOnce"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Moose--Role"
 
 inherit rpm

@@ -5,10 +5,10 @@ are not essential but recommend for use. \
 makedb: A program to create a database for nss"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.37"
+PV = "2.38"
 
-RPM_NAME = "glibc-extra-2.37-5.1.aarch64.rpm"
-RPM_HASH = "745ba1c03c1892dd3f809e316ba70778034c11d2cac1cd3f03247352d931095b9001bc103fd52cd4ca8f4c4b3dc84575c336ea615e542c9924fb14138aee031a"
+RPM_NAME = "glibc-extra-2.38-1.1.aarch64.rpm"
+RPM_HASH = "7982ab0f4a89921c875d601e4791f672c05f636653b4122046d83db6342e1015edc7854dbef688a24e3e19a5415a977a8f5f85935a9d61069c8aee5bc36012d8"
 
 RPROVIDES:${PN} += "glibc-extra"
 

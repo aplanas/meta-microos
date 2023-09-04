@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.98svn24288"
 
-RPM_NAME = "texlive-gmverb-2023.209.0.0.98svn24288-54.1.noarch.rpm"
-RPM_HASH = "52830ac5ba8f786fab6055b0bd296d6d24d93e9f0e7c86f787a4a65659f111702dde38a732c9623c9d3d4aa98baa6970455f5804bcc15082792fe59d1f332b4d"
+RPM_NAME = "texlive-gmverb-2023.209.0.0.98svn24288-54.2.noarch.rpm"
+RPM_HASH = "272379c9ce966f3dc7843eeeae5d1a299ebbe90b4dd8ce872393c4eeb0f1cbb3ee2506d53f094662c474decef18cffd8bf96d501e744606d35d732298810aeae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gmverb.sty \

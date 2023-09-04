@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.5svn54080"
 
-RPM_NAME = "texlive-xcntperchap-2023.209.0.0.5svn54080-53.1.noarch.rpm"
-RPM_HASH = "638808c75b9fd723f1582e4c72ab16cdd02ff03abdcc66d4ec110c4be98f04ea332f234df751109ec4793c3aa5f45896353287de5b4951162f9f6a271b2ab2a5"
+RPM_NAME = "texlive-xcntperchap-2023.209.0.0.5svn54080-53.2.noarch.rpm"
+RPM_HASH = "e74970efb477cc9b5bd39d7fb6241b3cee036c8c85d41ef1a175b6632473b994d7124b71db295a4d7bfc854f2a67cda19b5801591fdb503e2477e0b68c3b8cb0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xcntperchap.sty \

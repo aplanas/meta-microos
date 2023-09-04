@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.016"
 
-RPM_NAME = "perl-Term-Table-0.016-1.8.noarch.rpm"
-RPM_HASH = "4c7d27184ecec2a0bf01fbed91bc0d976c77f6149f9fbe76ab19ede2ce1a89cb63e9ba0cc0684309f62b238270a716b46db213229a4621eaef0f6dd61820e358"
+RPM_NAME = "perl-Term-Table-0.016-1.9.noarch.rpm"
+RPM_HASH = "7b7c8d9903fa3571964007f2498b01e4385a135507e2a3eea0d2708ba73108964855e7f0116cfa1562bbf0875fb7820ff00905c9350c7c64c8ccc25e98cde1cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Term--Table \
@@ -18,7 +18,7 @@ perl-Term--Table--Spacer \
 perl-Term--Table--Util \
 perl-Term-Table"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Importer"
 
 inherit rpm

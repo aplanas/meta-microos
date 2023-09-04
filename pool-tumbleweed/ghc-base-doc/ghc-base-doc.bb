@@ -2,10 +2,10 @@ SUMMARY = "Haskell base library documentation"
 DESCRIPTION = "This package provides the Haskell base library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.17.1.0"
+PV = "4.17.2.0"
 
-RPM_NAME = "ghc-base-doc-4.17.1.0-3.2.noarch.rpm"
-RPM_HASH = "9727ea17a1b73bbf9013c0025843f877994d167b8d4e1f5202a5fee130f2fb9c4d0f411fa070f5b34a55fc7e36ca31508fb2ebedb9a9d854ef1b031345d81020"
+RPM_NAME = "ghc-base-doc-4.17.2.0-1.1.noarch.rpm"
+RPM_HASH = "47d40f6b3500ce0a550ec773252eababf6c1afa21551d8bdd0e6f6a93eb8399f5eefea0e6f58990f21f733301e5440b813eea269a61c56333078f152df1cd5cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-base-doc"

@@ -6,14 +6,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.22"
 
-RPM_NAME = "perl-HTTP-Headers-Fast-0.22-1.16.noarch.rpm"
-RPM_HASH = "6ab218978be6764ad854e29166d00ae17c522c213dead6fc5f7aaac0ccccce1de957f2f9befab41bc46938887914d4ab8827dbf43e60c5a05f39a91277ce8068"
+RPM_NAME = "perl-HTTP-Headers-Fast-0.22-1.17.noarch.rpm"
+RPM_HASH = "e7298b4a77f5cdc5e3031cd4e13eb1a93784b73888a7c232fcac4689785ca50ec8ad34158aa2a680fcf8477bbca97be425fc49316eeee7522c688878905ab5c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Headers--Fast \
 perl-HTTP-Headers-Fast"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-HTTP--Date"
 
 inherit rpm

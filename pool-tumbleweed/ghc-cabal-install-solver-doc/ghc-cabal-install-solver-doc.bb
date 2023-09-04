@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.8.1.0"
 
-RPM_NAME = "ghc-cabal-install-solver-doc-3.8.1.0-1.6.noarch.rpm"
-RPM_HASH = "c05bff15195606ca74a9a8f4711196141dc9f192ac0e7712763793f2452221c6e7774217d9de826171dbe5425615f8fd0d6799b9c1d1cb3896673fa03e393ce9"
+RPM_NAME = "ghc-cabal-install-solver-doc-3.8.1.0-1.8.noarch.rpm"
+RPM_HASH = "a2662164a6bbde1262f4f3bc2fb24820784505941bded5e6e5734aee3185e0db372e0a2d7d63ff0acf3c23d5c00a60ab494b9bf859894a3f59b8db35e1e81d00"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-cabal-install-solver-doc"

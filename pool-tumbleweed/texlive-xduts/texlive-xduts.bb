@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.6.1.2.0svn66472"
 
-RPM_NAME = "texlive-xduts-2023.209.6.1.2.0svn66472-53.1.noarch.rpm"
-RPM_HASH = "b6b511ad93d06c9c5b418923e0d41da54cd3114fe3aa331b456a095bc17b0641680faf7b684ad123e5be0226739e47b58bd9ddf4a322c7dff2871c55a60fcda9"
+RPM_NAME = "texlive-xduts-2023.209.6.1.2.0svn66472-53.2.noarch.rpm"
+RPM_HASH = "117eda64c2aeee1231d4aa728c28cdbd1ef00137044e4e8dbcca56a026bffe68c0ab70d0f0f323a47664b2ffb53fed9556c7515c9fa429b6d4a603f649ccbe85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xdufont.sty \

@@ -5,15 +5,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.0.7"
 
-RPM_NAME = "ghc-old-locale-1.0.0.7-13.2.aarch64.rpm"
-RPM_HASH = "600d4bde0483bd06c3edbace115445b9e6094425729b9c4e0af011d3f1c0e02ffc34ee10e4a8c05ea2463679eb768e59956ff4c046e5359a06f42d6b8886f5ea"
+RPM_NAME = "ghc-old-locale-1.0.0.7-13.3.aarch64.rpm"
+RPM_HASH = "31d531d1d7eb70583290295a39f547396dda4583f6294ba98f6b51923b5c27413267eb8318fca22c911d14c086628fafb7d78d07ae2788d70ecb35a51809a094"
 
 RPROVIDES:${PN} += "ghc-old-locale \
-libHSold-locale-1.0.0.7-B5o2Qz0CVVSCB1XGw7OfzR-ghc9.4.5.so"
+libHSold-locale-1.0.0.7-GoDuSK2NybfD0MMe75QkJk-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

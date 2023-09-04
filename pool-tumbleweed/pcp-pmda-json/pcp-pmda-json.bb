@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-json-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "012d0bc96ae662a06d529f38c9c9919ae45c901386e936a43c0cc4b93b199936cf5ece2bff4b9fbb0facd735096e512803d1bbb077051e6fdc0cb3eb6685c179"
+RPM_NAME = "pcp-pmda-json-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "fa067ab581c8173eec419e3ecf461f30296fbcc1cb8c15ed0cae08ffec344e1d34930d63dcc2c4cc1869c5436766f1d0ad08e39ff4c47b6bf3bbbc2a24f20332"
 
 RPROVIDES:${PN} += "config-pcp-pmda-json \
 pcp-pmda-json"

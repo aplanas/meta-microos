@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.888"
 
-RPM_NAME = "perl-MCE-1.888-1.1.noarch.rpm"
-RPM_HASH = "4359a930329458702111a7000036108907c535a36ee3e8c80ef3a195d3d4cb717cce389b9f0ae6fb1739630330a046c6f0072d9c744d2b351dfe25bd6278e518"
+RPM_NAME = "perl-MCE-1.888-1.2.noarch.rpm"
+RPM_HASH = "af1e1962253b1b8e323b074343b4bf3c129ec9f951883fd540c2b5bcedd3d5186676a9b87d625ee81596937837db901b9e81e91028baf13ff103082f69b1d9a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MCE \
@@ -47,6 +47,6 @@ perl-MCE--Stream \
 perl-MCE--Subs \
 perl-MCE--Util"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

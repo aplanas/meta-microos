@@ -5,30 +5,30 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.5.1"
 
-RPM_NAME = "ghc-postgresql-simple-devel-0.6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "f288eaf63830fae77926b5249d3448a652b6f3f0575dcbe32f35621a854585979d31203dd4084e5960797d3d33afcab8c4d7419dd5cc5a82a328aacf86ce4620"
+RPM_NAME = "ghc-postgresql-simple-devel-0.6.5.1-1.4.aarch64.rpm"
+RPM_HASH = "143ff01a9a6108c55c2838894571873e21f51271efb74b2c7b40fb4958c4a2c1b1c4c13488bbc67d3b40dea820e12f1d54af60c435c4cbf0bb59b0ff0e692824"
 
-RPROVIDES:${PN} += "ghc-devel-postgresql-simple-0.6.5.1-1Mr3UW7Sqm2LauK5jyfZE3 \
+RPROVIDES:${PN} += "ghc-devel-postgresql-simple-0.6.5.1-1VNm6CFaKplLWGwA33lD3u \
 ghc-postgresql-simple-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-Only-0.1-ETd5YCT0TwGLbN8rgpgTS8 \
-ghc-devel-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov \
-ghc-devel-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0 \
-ghc-devel-case-insensitive-1.2.1.0-AumZoR4Lds63HJj8OQwHY3 \
+ghc-devel-Only-0.1-qCrN026ulaL2ZFxnlcrV1 \
+ghc-devel-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
+ghc-devel-attoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3 \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1 \
+ghc-devel-case-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9 \
 ghc-devel-containers-0.6.7 \
-ghc-devel-hashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt \
-ghc-devel-postgresql-libpq-0.9.5.0-EniLDQI99PgI2VDyTYHGox \
-ghc-devel-scientific-0.3.7.0-D5F2vql7x79Dy9hx72OES1 \
+ghc-devel-hashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP \
+ghc-devel-postgresql-libpq-0.9.5.0-LAEYJt6pIENHmjvWelVvQG \
+ghc-devel-scientific-0.3.7.0-2FbzCTQ2hp2GeCo5OsVSzz \
 ghc-devel-template-haskell-2.19.0.0 \
 ghc-devel-text-2.0.2 \
-ghc-devel-time-compat-1.9.6.1-2Pu0F2MmAuC1LEapOv1K82 \
+ghc-devel-time-compat-1.9.6.1-J6qzCGPCWqPGQqFFbCQAYM \
 ghc-devel-transformers-0.5.6.2 \
-ghc-devel-uuid-types-1.0.5-LsoYQ81hhMAHUqibNrLXkM \
-ghc-devel-vector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp \
+ghc-devel-uuid-types-1.0.5-34Qd5N8tYIyGW5LtrFWnkV \
+ghc-devel-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
 ghc-postgresql-simple"
 
 inherit rpm

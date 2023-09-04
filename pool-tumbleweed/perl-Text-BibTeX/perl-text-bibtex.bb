@@ -1,4 +1,4 @@
-SUMMARY = "Interface to Read and Parse BibTeX Files"
+SUMMARY = "Interface to read and parse BibTeX files"
 DESCRIPTION = "The 'Text::BibTeX' module serves mainly as a high-level introduction to the \
 'Text::BibTeX' library, for both code and documentation purposes. The code \
 loads the two fundamental modules for processing BibTeX files \
@@ -21,10 +21,10 @@ names in the rest of this manual page (and in most of the other manual \
 pages in the library)."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.88"
+PV = "0.890.0"
 
-RPM_NAME = "perl-Text-BibTeX-0.88-1.22.aarch64.rpm"
-RPM_HASH = "ece146ef0c2ef0e0a4dd6a9a766bfa9f2a4f6549d1ccf471505ce12edebbc21ec30e20af4fcebcbce37a5b9184d24aa37bfd859bc45613afce5614513e334597"
+RPM_NAME = "perl-Text-BibTeX-0.890.0-1.1.aarch64.rpm"
+RPM_HASH = "afc963e93be8d2384aa25db052fd9b1ea4239d3a2f22e6ed01a2ad8729434d4b7684624dcfdda78db6a5a81e9a942745fdbba9fcf89952d77aee61930ccabe56"
 
 RPROVIDES:${PN} += "perl-Text--BibTeX \
 perl-Text--BibTeX--BibEntry \
@@ -44,9 +44,7 @@ perl-Text-BibTeX"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbtparse.so \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1 \
-perl-Encode \
-perl-Scalar--Util \
-perl-Unicode--Normalize"
+perl--MODULE-COMPAT-5.38.0 \
+perl-Scalar--Util"
 
 inherit rpm

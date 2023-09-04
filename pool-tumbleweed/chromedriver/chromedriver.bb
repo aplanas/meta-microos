@@ -2,10 +2,10 @@ SUMMARY = "WebDriver for Google Chrome/Chromium"
 DESCRIPTION = "WebDriver is an open source tool for automated testing of webapps across many browsers. It provides capabilities for navigating to web pages, user input, JavaScript execution, and more. ChromeDriver is a standalone server which implements WebDriver's wire protocol for Chromium. It is being developed by members of the Chromium and WebDriver teams."
 LICENSE = "BSD-3-Clause"
 
-PV = "115.0.5790.102"
+PV = "116.0.5845.110"
 
-RPM_NAME = "chromedriver-115.0.5790.102-1.1.aarch64.rpm"
-RPM_HASH = "12dc77e646bff0e2642b66ef94999636a386e1b83b499c69de8b030a556200a68c5177e6709b5755b18416829e8226b560d5fedc7910c86c6f4ea14a2c4f1c67"
+RPM_NAME = "chromedriver-116.0.5845.110-1.1.aarch64.rpm"
+RPM_HASH = "616945fa1fbad550dfc5f425a081c048692914758903fb212f93908a50498c381d16c0681105467071f3ed7aead682837f90415536b9cc43499edbcc34024947"
 
 RPROVIDES:${PN} += "chromedriver"
 
@@ -22,7 +22,7 @@ libminizip.so.1 \
 libnspr4.so \
 libnss3.so \
 libnssutil3.so \
-libre2.so.10 \
+libre2.so.11 \
 libstdc++.so.6 \
 libxcb.so.1 \
 libz.so.1"

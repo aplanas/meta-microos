@@ -9,14 +9,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.05"
 
-RPM_NAME = "perl-Lingua-EN-Number-IsOrdinal-0.05-1.27.noarch.rpm"
-RPM_HASH = "73c58bb6aaad96205985da3f41867da8436b1cded20b4cdd0f75abba8c4aa2bdeef07bef1f2859cb48e3736040ca300dbbc7d96ff52331d7acbb4a3c1428d23d"
+RPM_NAME = "perl-Lingua-EN-Number-IsOrdinal-0.05-1.28.noarch.rpm"
+RPM_HASH = "e0e256a40261fb9156a5282f5cd0a443bc75a2b6d39b8bc8e2d5c5cc8c4637be09a329060947dacf2d269a357ab394b0fbb466adf74b4b56b97277ae78d37eb0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Lingua--EN--Number--IsOrdinal \
 perl-Lingua-EN-Number-IsOrdinal"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Lingua--EN--FindNumber"
 
 inherit rpm

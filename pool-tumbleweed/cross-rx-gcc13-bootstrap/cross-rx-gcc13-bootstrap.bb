@@ -9,10 +9,10 @@ This is a package that is necessary for bootstrapping another package \
 only, it is not intended for any other use."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7597"
+PV = "13.2.1+git7683"
 
-RPM_NAME = "cross-rx-gcc13-bootstrap-13.1.1+git7597-1.1.aarch64.rpm"
-RPM_HASH = "7f82b97b768bf9744a84670ebcc084e47f199d667be4210c31835a28028fdba6867b021d18073457738ced2387d0e3bec7209b7953fd3b93acddf57efb217ecc"
+RPM_NAME = "cross-rx-gcc13-bootstrap-13.2.1+git7683-1.1.aarch64.rpm"
+RPM_HASH = "ff7bb4d71f90c05770ded641629f26869ac0f12dc4a114d367f2d06d923e15104c0fd3c47a6b5ba9556470b9ffca5e28d07e1bc6a2150434441089aed6c331ff"
 
 RPROVIDES:${PN} += "cross-rx-gcc13-bootstrap \
 rx-elf-gcc"

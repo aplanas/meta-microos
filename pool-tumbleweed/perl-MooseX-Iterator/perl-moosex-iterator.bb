@@ -27,8 +27,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.11"
 
-RPM_NAME = "perl-MooseX-Iterator-0.11-10.20.noarch.rpm"
-RPM_HASH = "14f79ef1cacd77413f00895657819cbc7b872b7a7b990169e9c5c3238d07b534be94218505ecf73f97f61e6abdeda92a84095d1161469927279ba6ab2499f3ea"
+RPM_NAME = "perl-MooseX-Iterator-0.11-10.21.noarch.rpm"
+RPM_HASH = "26e0d8b04a0b36c79978da2bf374886fdc3d7e3b6e9f72827d69d6e3d3b36f2d97655e19f3818d986be50c1b0d9d9362a765bdbdc2d874597ab11b605a64d32e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Moose--Meta--Attribute--Custom--Iterable \
@@ -39,7 +39,7 @@ perl-MooseX--Iterator--Meta--Iterable \
 perl-MooseX--Iterator--Role \
 perl-MooseX-Iterator"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Moose"
 
 inherit rpm

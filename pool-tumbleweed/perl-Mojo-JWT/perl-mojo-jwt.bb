@@ -14,14 +14,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.09"
 
-RPM_NAME = "perl-Mojo-JWT-0.09-1.3.noarch.rpm"
-RPM_HASH = "cf6cb9050dde2c308ad6bf8d77b40c6be5c13cd0f2b2ab490dd142fc8fe9151a7298353ddd7da57e2b5766a6661691414d886b7230ed1b92e8eec755936598b4"
+RPM_NAME = "perl-Mojo-JWT-0.09-1.4.noarch.rpm"
+RPM_HASH = "047bc7d6ec4518fd7de0a8a2cf531a4c02533469064d33ca4d85da3b29599af2fcfc5cf3fd1838ae4ab2cb6711d3838af41398537dd70a03671f689ec71cd304"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojo--JWT \
 perl-Mojo-JWT"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Digest--SHA \
 perl-MIME--Base64 \
 perl-Mojolicious"

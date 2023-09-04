@@ -15,14 +15,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.11"
 
-RPM_NAME = "perl-ExtUtils-CChecker-0.11-1.10.noarch.rpm"
-RPM_HASH = "987fb7b9fba735c5b5a19529ef6bae049cad8aca949bde384bc884d5f374dc604b9e7ba3ebe05c30057e1a81c11883a39f58005e6c0212ff421a0278cbaf64fb"
+RPM_NAME = "perl-ExtUtils-CChecker-0.11-1.11.noarch.rpm"
+RPM_HASH = "73e13c42a3255ec850b8fb4b3d497b1831c63166b407f1fe8ddbdf4ef36ef93b886f439c2639bcf53d1ff34bf7c3645bf13490e799b8837339123d2f7605d38e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-ExtUtils--CChecker \
 perl-ExtUtils-CChecker"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-ExtUtils--CBuilder"
 
 inherit rpm

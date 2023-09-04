@@ -4,10 +4,10 @@ ownership, special files - for filesystems that do not have such, e.g. vfat. It 
 can be seen as a contemporary equivalent of the UMSDOS fs."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3"
+PV = "1.4"
 
-RPM_NAME = "posixovl-1.3-1.17.aarch64.rpm"
-RPM_HASH = "55df24a3c2af14a6655648a2258b008c3ede01ea763ea19ae4628ac778e964055dd76facf881d6bfdfefe5578bc39781a9a733f84b57da289a3045106180f0a2"
+RPM_NAME = "posixovl-1.4-1.1.aarch64.rpm"
+RPM_HASH = "a79bc742e585a83ef5a80c5358a868ec77f395bcca6d2b4b19de45f47044c498980a12a104fb7f747ab612d25b90c8870469e2d5f05b680b61390e037e68d09c"
 
 RPROVIDES:${PN} += "posixovl"
 

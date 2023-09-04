@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn66204"
 
-RPM_NAME = "texlive-graphics-2023.209.svn66204-54.1.noarch.rpm"
-RPM_HASH = "40dea6a4f8810c3d38c9035e98b52c0e61691e08b25b69703a1664d819a9a973322b2b85826f916f7dfad49cdea0c69af3f7cb335471fb03b6c7d7a10b0d0f59"
+RPM_NAME = "texlive-graphics-2023.209.svn66204-54.2.noarch.rpm"
+RPM_HASH = "f9ed8676be19fa23df41a6db2c32146efa9134a00c65b7d6607ecb5704b552a63014eedb267087e8953a035be770d833e9cb309c6dad60f822f4d6063ca812c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-color.sty \

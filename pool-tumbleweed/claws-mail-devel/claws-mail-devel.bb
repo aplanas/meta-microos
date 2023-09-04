@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.1.1"
 
-RPM_NAME = "claws-mail-devel-4.1.1-2.6.aarch64.rpm"
-RPM_HASH = "8edd312f27cf7211d13d24a910b6ea47509b83b5d537b2f521812e67952a763c62b4bacd5fe2b3394ca74271da58e66c430a17c6832fdd797421c270c0c9a5ae"
+RPM_NAME = "claws-mail-devel-4.1.1-2.7.aarch64.rpm"
+RPM_HASH = "d1c90e1dccf9f1958188a1a7aedec87b3b44fe287a744d2dfcd778170b8b19114e637420cee722fb432468f4d2082d2ae582b03ae4ed4779a6c92af1e7e829d4"
 
 RPROVIDES:${PN} += "claws-mail-/usr/include/claws-mail/main.h \
 claws-mail-devel \

@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.05"
 
-RPM_NAME = "perl-App-Rad-1.05-1.24.noarch.rpm"
-RPM_HASH = "d5f24b7e0b7db36c6ccac99dcadc362dbc86c5e704f4504cfc4f8cd6789df9a591fa0e2b7a74b339aed9b5d132e6ed7bf34bd602c37827c669c3d6ccdab34bd3"
+RPM_NAME = "perl-App-Rad-1.05-1.25.noarch.rpm"
+RPM_HASH = "df5a23951caeeb54092ac15328b4192d05bcd3bdfe9a616ab2d0c0e9db3d0e6643311ff29538bac4052f63b9db5823f26f0ef9a9686bc4a901664e78fe33c108"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-App--Rad \
@@ -21,7 +21,7 @@ perl-App--Rad--Help \
 perl-App--Rad--Include \
 perl-App-Rad"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Getopt--Long"
 
 inherit rpm

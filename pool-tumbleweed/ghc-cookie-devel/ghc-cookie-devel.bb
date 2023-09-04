@@ -4,18 +4,18 @@ LICENSE = "MIT"
 
 PV = "0.4.6"
 
-RPM_NAME = "ghc-cookie-devel-0.4.6-2.2.aarch64.rpm"
-RPM_HASH = "2d7df69ac652f1e9b395031058cb0c4788065e0856f065ed43941ed3847c5a2c5241e0544c7fb9fa48a3449ad7daa6e18083c943252646c9ede3d9643d4d91c4"
+RPM_NAME = "ghc-cookie-devel-0.4.6-2.3.aarch64.rpm"
+RPM_HASH = "61c4befe9696c2439f2a736336c6e612e5c16088b6886dcba1150115f4654fd9df20d6e92655601c5827ef1876ff7fccc9ce7af8e55984489b4f7c3df5183948"
 
 RPROVIDES:${PN} += "ghc-cookie-devel \
-ghc-devel-cookie-0.4.6-Dg4BNZOQbFj7M1J2IgDFKE"
+ghc-devel-cookie-0.4.6-7v2XoXnZEAdFFWtj85fg3L"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-cookie \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0 \
-ghc-devel-data-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1 \
+ghc-devel-data-default-class-0.1.2.0-HWomeRk5e2p3WGQsDTnuAN \
 ghc-devel-deepseq-1.4.8.0 \
 ghc-devel-text-2.0.2 \
 ghc-devel-time-1.12.2"

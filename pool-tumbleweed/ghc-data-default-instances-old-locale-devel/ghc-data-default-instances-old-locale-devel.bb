@@ -5,17 +5,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.1"
 
-RPM_NAME = "ghc-data-default-instances-old-locale-devel-0.0.1-11.2.aarch64.rpm"
-RPM_HASH = "a7fdaef7eec1cdb80fd45cc8f48d988eca9c3d3a570f49c2dd0e0a68f2ef0b4e9c09efa958e048d8d5143a9863257fd13eb5354b5d16843e5c818b6cf31ae582"
+RPM_NAME = "ghc-data-default-instances-old-locale-devel-0.0.1-11.3.aarch64.rpm"
+RPM_HASH = "695d3819d6f1901464262395d38d4a30cdb0de39dcb948b664467d8e1fa6005f3bc655b4f9e88dff18d3eb4a00d87c06d352ae9c9e90a811499df0e9dff0cdc7"
 
 RPROVIDES:${PN} += "ghc-data-default-instances-old-locale-devel \
-ghc-devel-data-default-instances-old-locale-0.0.1-7AZu0A9Np87C6EgyuU2uGo"
+ghc-devel-data-default-instances-old-locale-0.0.1-JPGD6DG1zci1Efipgkh66I"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-data-default-instances-old-locale \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-data-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ \
-ghc-devel-old-locale-1.0.0.7-B5o2Qz0CVVSCB1XGw7OfzR"
+ghc-devel-base-4.17.2.0 \
+ghc-devel-data-default-class-0.1.2.0-HWomeRk5e2p3WGQsDTnuAN \
+ghc-devel-old-locale-1.0.0.7-GoDuSK2NybfD0MMe75QkJk"
 
 inherit rpm

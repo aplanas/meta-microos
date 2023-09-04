@@ -15,8 +15,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn65883"
 
-RPM_NAME = "texlive-hitex-2023.209.svn65883-54.1.noarch.rpm"
-RPM_HASH = "24eee809b2488af9d31138c91cf829ee39c33ec8427903a2ff351204bd780266221b1060ad19174580b69b7aaff1e3f97ba9229b57b9906ac4e594d29be8dcc4"
+RPM_NAME = "texlive-hitex-2023.209.svn65883-54.2.noarch.rpm"
+RPM_HASH = "3d732b19d476d647436f436bcfcc324ae67877c6bc6692ff10d760179877bbbc900902e56c4acba9dc2e1cd5a90e0562cea1e5595b3e2a9f37f992acdc1da52e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hiltxpage.tex \

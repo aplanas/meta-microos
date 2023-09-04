@@ -5,10 +5,10 @@ details in footnotes. The footnote details include 'op. cit.' \
 and 'ibid.' contractions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn22018"
+PV = "2023.209.svn22018"
 
-RPM_NAME = "texlive-inlinebib-2023.208.svn22018-53.1.noarch.rpm"
-RPM_HASH = "f599280f395f17fa8bc826fad59fa2c3146d4432b6f0372cea138e85f67b46ea4fa61632e274b82fddaa801941f19623daeceeae7bf28173847cb549b3facea4"
+RPM_NAME = "texlive-inlinebib-2023.209.svn22018-54.1.noarch.rpm"
+RPM_HASH = "c07126eeadb5be84614b5d8cc9e813e647caa2d88a12bc31ca833e00c2df49c7677897d3bd385c1e58e30a5f3e4829fe102991cddb2c4e22905f04f039153cae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-inlinebib.sty \

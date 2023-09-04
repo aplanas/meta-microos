@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.24.38"
 
-RPM_NAME = "gtk3-devel-3.24.38-1.1.aarch64.rpm"
-RPM_HASH = "bbd843654afd8371a75bdc1a1b0d1b6c3864261e48c0a1051960d80a8bc7f1ddbb2eebe681b93c13ebf015a7fbc289a13833ccdfb22f0217fdb544073829bf2f"
+RPM_NAME = "gtk3-devel-3.24.38-2.1.aarch64.rpm"
+RPM_HASH = "6a45ae544739a680226a9c7ea6bb289b78d3ef50cde11dcf75b86218da904a4f50fc60194fc64e50a7b572763c37c7261929e57e7412c60ecb6a63dca9c0510b"
 
 RPROVIDES:${PN} += "gtk3-devel \
 pkgconfig-gail-3.0 \

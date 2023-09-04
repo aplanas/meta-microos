@@ -4,8 +4,8 @@ LICENSE = "(Apache-2.0 | MIT) & BSD-3-Clause & (0BSD | MIT | Apache-2.0) & (Apac
 
 PV = "20230712.072601.f4abf8fd"
 
-RPM_NAME = "wezterm-bash-completion-20230712.072601.f4abf8fd-1.1.noarch.rpm"
-RPM_HASH = "94abd6e72ef548a3230b8db39e1ff9d68fc77c622f1a6972d133142603b8034e05b480543a126eeb9944b8f0f0f607f2501b134c102a907f8dd6254d2637baa5"
+RPM_NAME = "wezterm-bash-completion-20230712.072601.f4abf8fd-3.1.noarch.rpm"
+RPM_HASH = "ffc4caad4db68e0a610cfd0527224cc5249163e98461282827aadd9a76480c34b0cb3587b24df335eb52e4ca71aa64056c5e789116b5e7042b1aad04cb49af70"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wezterm-bash-completion"

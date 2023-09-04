@@ -13,8 +13,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "6.030"
 
-RPM_NAME = "perl-Dist-Zilla-6.030-1.2.noarch.rpm"
-RPM_HASH = "810112949bc176fb102ff87bfd0273530e703f0e53827a1942272d322dc5a6dd31cd3116f92ecc4668f75ae9ee65f19f31812ff9ce9878a70ed3b5c06d1a594f"
+RPM_NAME = "perl-Dist-Zilla-6.030-1.3.noarch.rpm"
+RPM_HASH = "1f5f4d52d3ca4f076fc65bd1d8aabbe7598b14956e62d2a9f42466934e697bfc4c07fdff6e86ad9089184de3df10012053c75a11fd31203f6152bf53847297b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Dist--Zilla \
@@ -163,7 +163,7 @@ perl-Dist-Zilla \
 perl-Test--DZil"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-App--Cmd--Command--version \
 perl-App--Cmd--Setup \
 perl-App--Cmd--Tester \

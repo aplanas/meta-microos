@@ -2,10 +2,10 @@ SUMMARY = "Plasma framework - core libraries"
 DESCRIPTION = "This package contains the core libraries needed by the Plasma framework."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "libKF5Plasma5-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "71b1ddbdc5a2fae15018cdb54b18b81c4a5e2cb1741434735d7c5b75c48c17157845972a49cd661ba4a88cab185202f6935f887faba9a829eee3c8aacf21721e"
+RPM_NAME = "libKF5Plasma5-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "59b6bd677aa42073e97bb296b282163c42dc2444d91dad04ff25d3efabc18d5f02dd27de60c22f1c41189ed253fc154bc5bd4f0aec204a682eba3e53ebcc9ceb"
 
 RPROVIDES:${PN} += "libKF5Plasma.so.5 \
 libKF5Plasma5 \

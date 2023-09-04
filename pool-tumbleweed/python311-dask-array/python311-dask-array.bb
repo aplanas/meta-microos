@@ -18,8 +18,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2023.5.1"
 
-RPM_NAME = "python311-dask-array-2023.5.1-2.4.noarch.rpm"
-RPM_HASH = "aa6caab1354cca0c7b3acd201c9f0b1978ed1086a424f32884e258598904a16489c95ab8bcc9a74a16898a97155c54fbf8193965fdbfcb705dd4b2c012dc029c"
+RPM_NAME = "python311-dask-array-2023.5.1-2.5.noarch.rpm"
+RPM_HASH = "b0ca88223d44dec29bfe7d95f5074557f2ba7e6413cfd896b9ca3066783b628ad6fa75d957ad44dcb8e85300ae2772211d4091ce805e4618de1ce252605ad185"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-dask-array \

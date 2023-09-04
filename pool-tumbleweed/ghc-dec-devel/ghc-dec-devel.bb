@@ -4,16 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.5"
 
-RPM_NAME = "ghc-dec-devel-0.0.5-2.2.aarch64.rpm"
-RPM_HASH = "04ff076333383b926b2bb23b937779721b0c0ed37908691dd0b01e5989a9d94bf57a65206fcdb4584770168cbfcdf3b8a766eb732977a048b9eb6ce8d84ac2bb"
+RPM_NAME = "ghc-dec-devel-0.0.5-2.4.aarch64.rpm"
+RPM_HASH = "96a7a080044bcee7e71b58c87fd336f3a27a04b514fb4b367761332c950d1929c1d0afd24b91189637cdee0e57670fabe474f70b1c2e857607162132b0616873"
 
 RPROVIDES:${PN} += "ghc-dec-devel \
-ghc-devel-dec-0.0.5-4k85S2UkQTWCpK3j0IuOFm"
+ghc-devel-dec-0.0.5-3eH9is9HBV5IuOX3KX0Ah7"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-dec \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-boring-0.2.1-J8lJX6Vz53r2bssyBwOtpl"
+ghc-devel-base-4.17.2.0 \
+ghc-devel-boring-0.2.1-8UoR96J8uAp13B13xTdCnI"
 
 inherit rpm

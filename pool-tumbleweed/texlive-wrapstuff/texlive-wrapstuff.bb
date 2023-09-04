@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.3svn64058"
 
-RPM_NAME = "texlive-wrapstuff-2023.209.0.0.3svn64058-53.1.noarch.rpm"
-RPM_HASH = "43a7d8f991aef36ead482270b6cab84959c7bc69e274be5107e6df74215e6da52ea636a5b42bb513bc47ed01a4251001be1f8ad40457a9065374fb5801fd4e59"
+RPM_NAME = "texlive-wrapstuff-2023.209.0.0.3svn64058-53.2.noarch.rpm"
+RPM_HASH = "9252a8a5340fb4cf99f67c015404da68e6a92156151e5b222128758657775ca7fee15fd7dd05faa8f2ef7fec5cc51125f80a8fdc3e76e95c588abd1249968fa1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-wrapstuff.sty \

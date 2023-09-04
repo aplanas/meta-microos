@@ -2,10 +2,10 @@ SUMMARY = "Development files for numpy applications"
 DESCRIPTION = "This package contains files for developing applications using numpy."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.24.2"
+PV = "1.25.2"
 
-RPM_NAME = "python310-numpy-devel-1.24.2-4.1.aarch64.rpm"
-RPM_HASH = "b737fdd6ef2c9c65f2b681315151326b563cea63c9c6f3b8c3620765179ec865f6686868401084d159303f1889d29e7d971a5789d68915693e9820833c3fbf9a"
+RPM_NAME = "python310-numpy-devel-1.25.2-1.1.aarch64.rpm"
+RPM_HASH = "eba3eaa2bb0c6677835cf2f5de6fb291694c68b6e3367e32bd846d89fcc6ba0098cb9c080cc9c014b4e6b477c3c218ff049e0d80bba02dce6fe488e697e97291"
 
 RPROVIDES:${PN} += "python310-numpy-devel"
 

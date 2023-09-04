@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.41.0"
 
-RPM_NAME = "git-arch-2.41.0-1.2.aarch64.rpm"
-RPM_HASH = "cea2b358554ca8ee20b4886149eefcc234d195c51d665dfc6990570e250ecbcc17ff344e7352a84acef953d3d2532f8a0df5ad2688cf4f943db2d8063cc8fcbf"
+RPM_NAME = "git-arch-2.41.0-1.3.aarch64.rpm"
+RPM_HASH = "2d76c3d7973cc44b61eac4620b492a9db105f12254941978ab945aa6fac46e34113d585cf3d21b1d1be90dbf978672f7280c0b269430a58ca79cb05c97d2bed6"
 
 RPROVIDES:${PN} += "git-arch"
 

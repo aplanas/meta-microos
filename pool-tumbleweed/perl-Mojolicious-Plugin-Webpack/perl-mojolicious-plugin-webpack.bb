@@ -15,8 +15,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "1.02"
 
-RPM_NAME = "perl-Mojolicious-Plugin-Webpack-1.02-1.3.noarch.rpm"
-RPM_HASH = "35464e97392f9492b7fb27d08a4437b886c37b749c6ef8b6235f422320c25f132ad7be519c45974ee74a0278786735ca1c61caa00599c59b899e63df355c85a8"
+RPM_NAME = "perl-Mojolicious-Plugin-Webpack-1.02-1.4.noarch.rpm"
+RPM_HASH = "4099d3a4e176967561d78b558d41cee5a5b361d9268bdc2a72b0ab7320d32cdae7c3e14c81b48ca7b223c3134e066a711de73bdef3f25889891b068f788aa513"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojo--Alien--npm \
@@ -26,7 +26,7 @@ perl-Mojolicious--Command--Author--webpack \
 perl-Mojolicious--Plugin--Webpack \
 perl-Mojolicious-Plugin-Webpack"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-File--chdir \
 perl-Mojolicious"
 

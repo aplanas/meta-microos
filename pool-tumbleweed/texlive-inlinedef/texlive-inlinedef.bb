@@ -12,10 +12,10 @@ variables, then ending the group with \
 \\expandafter\\endgroup\\macro."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.0svn15878"
+PV = "2023.209.1.0svn15878"
 
-RPM_NAME = "texlive-inlinedef-2023.208.1.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "6389f879ce0c1eba8afa684c770552e4318b9faea8c959f8146954c624c7bc012fda135620c2d2d334f6af247ed661abda17e7c574aeb09da71f39754abcc680"
+RPM_NAME = "texlive-inlinedef-2023.209.1.0svn15878-54.1.noarch.rpm"
+RPM_HASH = "6c30753b2bfa41c96204120750f4b14cb4e1e050a9427b37f93aeed367926fdcb406152ee3bbf726bddbe6131561933aa7b11fedf19b045a42d53d36659bfe86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-inlinedef.sty \

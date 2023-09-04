@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.18.0"
 
-RPM_NAME = "python311-rpm-4.18.0-5.2.aarch64.rpm"
-RPM_HASH = "449c4a0875b8e745681f47b0296a1b237bd60aa6b8cef6cfd8f9b9c19cac7315f6422a48e079b9cebd600de034554e49ca2a52028d864be8124590cbfc13df36"
+RPM_NAME = "python311-rpm-4.18.0-6.1.aarch64.rpm"
+RPM_HASH = "8729ae0cdaa61424ab364b1f6f5436805c01c20d2e08cc0fdb3587cf86a60e1053d161d6dabdc702ebf7516e1b56237c0e3c7b169b9eaeb0af53911aba94dca8"
 
 RPROVIDES:${PN} += "python3-rpm \
 python3.11dist-rpm \

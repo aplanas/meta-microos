@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.5.0"
 
-RPM_NAME = "python39-httptools-0.5.0-2.3.aarch64.rpm"
-RPM_HASH = "be0da281cd6dec76e3e91a7baefd7ad656994a3e45ed84752ffeffcf9acb5ec2784a0688f682250a33d1da8be9a3b22bdaa22d3890943400d3fa11c32a6630c1"
+RPM_NAME = "python39-httptools-0.5.0-3.1.aarch64.rpm"
+RPM_HASH = "44b9a75fabdfbdb363a799861a64bbdb280aae2993b5600cafdee034916800e0197030a2781d34b89c66eb87ed902914aeecf66b464e506f4e00fbcb23712be8"
 
 RPROVIDES:${PN} += "python3.9dist-httptools \
 python39-httptools \

@@ -2,10 +2,10 @@ SUMMARY = "Flexible evolution of Mercurial history"
 DESCRIPTION = "Flexible evolution of Mercurial history."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "11.0.1"
+PV = "11.0.2"
 
-RPM_NAME = "mercurial-extension-hg-evolve-11.0.1-1.2.noarch.rpm"
-RPM_HASH = "06281a24749581867258192904126b31c58179e38ec8df2662a00ac747fc3e5a712bffaca33706b5afb0a7ec0934e1f37b96339c0d6dd01a3b7f014325c6c1c9"
+RPM_NAME = "mercurial-extension-hg-evolve-11.0.2-1.1.noarch.rpm"
+RPM_HASH = "93e8699a7d6f86d200445adacac1e33b14ae0a93345753517e8159ab99ef780f7d4290da517ab0ca5210791b6820d21e6a100fb12f9114cb06aed32f6ef39359"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mercurial-extension-hg-evolve \

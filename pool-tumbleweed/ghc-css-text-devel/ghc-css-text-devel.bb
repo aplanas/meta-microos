@@ -4,17 +4,17 @@ LICENSE = "MIT"
 
 PV = "0.1.3.0"
 
-RPM_NAME = "ghc-css-text-devel-0.1.3.0-4.6.aarch64.rpm"
-RPM_HASH = "354536b8aba4ba57d90a0ddcb25c4d9ec7128be828974e4b6add8ad861a07163958caf82852bc3b5e0b45b632642d1ac0402a14e7402be18c5dd511dfeaadf13"
+RPM_NAME = "ghc-css-text-devel-0.1.3.0-4.9.aarch64.rpm"
+RPM_HASH = "b26ba85c68abba0f2c9e41f4e32e333e4c8d57a64068ffc6bb9d8f4fba8faa6c386e964c8793563fef31442b227935860bea824609b306530d59cef11ef0cb8f"
 
 RPROVIDES:${PN} += "ghc-css-text-devel \
-ghc-devel-css-text-0.1.3.0-21S5OjTqOp19taDQmfqmQs"
+ghc-devel-css-text-0.1.3.0-8klVmv0TGJS6WEADR2StQO"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-css-text \
-ghc-devel-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-attoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-text-2.0.2"
 
 inherit rpm

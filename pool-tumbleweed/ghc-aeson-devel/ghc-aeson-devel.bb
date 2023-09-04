@@ -4,45 +4,45 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.2.1"
 
-RPM_NAME = "ghc-aeson-devel-2.1.2.1-1.6.aarch64.rpm"
-RPM_HASH = "b780bb2fb255de19a3639fa00907908b8dda7259f693f4082aa27616298abd62221efefd2bac468ce6804ce0d99de47d0ca582b77d7bf255bea79d0926e13f71"
+RPM_NAME = "ghc-aeson-devel-2.1.2.1-3.1.aarch64.rpm"
+RPM_HASH = "8f3040287c00e7bd14c9bff6181eebba3a0ea1920002dca706bba86d5c4532075812cd1e870a7734ddd8d47e70f16ddd1a9bad0ae7ab6a52b8cc370f7d196d0d"
 
 RPROVIDES:${PN} += "ghc-aeson-devel \
-ghc-devel-aeson-2.1.2.1-HkN6OtqTngQ9De3CKBnfov"
+ghc-devel-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-aeson \
 ghc-compiler \
-ghc-devel-OneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV \
-ghc-devel-QuickCheck-2.14.3-6dq2izV8oSq1BobaDA598X \
-ghc-devel-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-base-compat-batteries-0.13.0-KDp9q4HxJ7BLLDYSknS7AR \
-ghc-devel-bytestring-0.11.4.0 \
+ghc-devel-OneTuple-0.4.1.1-5m1ALA0bqJEAQoyOrWBAgI \
+ghc-devel-QuickCheck-2.14.3-EdzpnPTYr1uH7EoNAOpgI8 \
+ghc-devel-attoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3 \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-base-compat-batteries-0.13.0-1Ph1BfbK1cK5KUnlnKWiGW \
+ghc-devel-bytestring-0.11.5.1 \
 ghc-devel-containers-0.6.7 \
-ghc-devel-data-fix-0.3.2-LdyR2jsAdh33KJZuVTGWPw \
+ghc-devel-data-fix-0.3.2-Hesv2p3MUF3H2yKikhD4Es \
 ghc-devel-deepseq-1.4.8.0 \
-ghc-devel-dlist-1.0-BmTLN13CmmLQvuHz7BjP9 \
+ghc-devel-dlist-1.0-9arrzQ6gBJAKO2k1FjXdTZ \
 ghc-devel-exceptions-0.10.5 \
-ghc-devel-generically-0.1.1-9IDkuVjdBOA27Mdybf3GBx \
-ghc-devel-ghc-prim-0.9.0 \
-ghc-devel-hashable-1.4.2.0-FFBRhuY0w4YLmuLEs5uQAt \
-ghc-devel-indexed-traversable-0.1.2.1-1XiSi5jKFt6BqKufaNXxBs \
-ghc-devel-primitive-0.7.4.0-AeB0oysC3TAJw9tDpuX8hq \
-ghc-devel-scientific-0.3.7.0-D5F2vql7x79Dy9hx72OES1 \
-ghc-devel-semialign-1.3-D9a6dNA89ZHcaXKxWN9Am \
-ghc-devel-strict-0.5-BMGWBclA5sg312fCUlbuTw \
-ghc-devel-tagged-0.8.7-CYOhX22Df3PFW5V1S0dOJa \
+ghc-devel-generically-0.1.1-CmULdC2547fBrHCkT48ujn \
+ghc-devel-ghc-prim-0.9.1 \
+ghc-devel-hashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP \
+ghc-devel-indexed-traversable-0.1.2.1-4MWkBnFErvq3PVvZRvlACO \
+ghc-devel-primitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx \
+ghc-devel-scientific-0.3.7.0-2FbzCTQ2hp2GeCo5OsVSzz \
+ghc-devel-semialign-1.3-6anmyujTzjW8JKdJGWMlmE \
+ghc-devel-strict-0.5-430Uicv2DUP1jZqwf2ycOP \
+ghc-devel-tagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax \
 ghc-devel-template-haskell-2.19.0.0 \
 ghc-devel-text-2.0.2 \
-ghc-devel-text-short-0.1.5-82jy4M6AvoMDwlCMY2Ykx2 \
-ghc-devel-th-abstraction-0.4.5.0-8bY5lBPMorfFW3yG6gFNZT \
-ghc-devel-these-1.2-3gvRWs9hjHpLbWG1JfTveA \
+ghc-devel-text-short-0.1.5-1JafpcPTh6A5I5aikDr3ez \
+ghc-devel-th-abstraction-0.4.5.0-CynkUuS8OuAKbGjDnje1Fs \
+ghc-devel-these-1.2-5fSFdT8DGhg7GQONqvd4MR \
 ghc-devel-time-1.12.2 \
-ghc-devel-time-compat-1.9.6.1-2Pu0F2MmAuC1LEapOv1K82 \
-ghc-devel-unordered-containers-0.2.19.1-KblUXVJ0SvRCcK89PoBx7E \
-ghc-devel-uuid-types-1.0.5-LsoYQ81hhMAHUqibNrLXkM \
-ghc-devel-vector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp \
-ghc-devel-witherable-0.4.2-JTGjjCVsQ4I7ks3qsHWAEH"
+ghc-devel-time-compat-1.9.6.1-J6qzCGPCWqPGQqFFbCQAYM \
+ghc-devel-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
+ghc-devel-uuid-types-1.0.5-34Qd5N8tYIyGW5LtrFWnkV \
+ghc-devel-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
+ghc-devel-witherable-0.4.2-4so4KYid1UG9PchOfa6Iqw"
 
 inherit rpm

@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.10.3"
 
-RPM_NAME = "ghc-X11-prof-1.10.3-2.6.aarch64.rpm"
-RPM_HASH = "51a4ea4f19ed0730789a20fad56d9171c21d945ee65ebc06adb0f7c933b5806bd6b437d45ec2a46512de7240c875daba92bb5062d9bad4d90b010a28e0526cfe"
+RPM_NAME = "ghc-X11-prof-1.10.3-2.8.aarch64.rpm"
+RPM_HASH = "ab7f8fe4d65a8b41f528e9364b7463355722a831ce08fe6354e4b47675b8aea1b48b851f4b4d2eacf3ded117f5a79f520d39333efbddf37db0c3693d5454e06f"
 
 RPROVIDES:${PN} += "ghc-X11-prof \
-ghc-prof-X11-1.10.3-5dCbs7YG84pBbMQ87MYXiX"
+ghc-prof-X11-1.10.3-1a2wZgfFAzXBkfyYtNRHp4"
 
 RDEPENDS:${PN} += "ghc-X11-devel \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-data-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ"
+ghc-prof-base-4.17.2.0 \
+ghc-prof-data-default-class-0.1.2.0-HWomeRk5e2p3WGQsDTnuAN"
 
 inherit rpm

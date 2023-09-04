@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.2.62"
 
-RPM_NAME = "calamares-branding-upstream-3.2.62-1.1.noarch.rpm"
-RPM_HASH = "08a34a90eff35c514a0ae1a149ee029f39e3a647788bbdc686628efd0397fb96d2bc7c01e6225a112233d1b4aed701a4dae9cca93a33c48b7d91b9f754213d3a"
+RPM_NAME = "calamares-branding-upstream-3.2.62-1.2.noarch.rpm"
+RPM_HASH = "874c3b56e8645a0b4b07c60797e271ff5bef54b50e321d4265d36ea6e84bf9fcacdaed67ab941e40f5917195789677faf6aa816e305eb8bccaa78aa18b2a591e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "calamares-branding \

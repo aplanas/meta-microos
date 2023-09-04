@@ -5,10 +5,10 @@ etymological rules, while the newer ones (fi-x-school) \
 implements the simpler rules taught at Finnish school."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.208.svn58652"
+PV = "2023.209.svn58652"
 
-RPM_NAME = "texlive-hyphen-finnish-2023.208.svn58652-53.1.noarch.rpm"
-RPM_HASH = "ed062f70bf002a68a5f0077a9670d48b883de9cd78caf35c68b40cb9474d5981080f74c258ccac5c10c339f1bf2cd5448471b653bf30e8ecf22c0a88d70cfbc9"
+RPM_NAME = "texlive-hyphen-finnish-2023.209.svn58652-54.1.noarch.rpm"
+RPM_HASH = "def5fc7a7a1c459852b061542fa1f1688a84ab54ed7b16032f4b0067476284d1c2fd26f754cfb03aac26fcb1ed73785da7f1bc62f371595d3b42651fd2ea4d31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-fi-x-school.ec.tex \

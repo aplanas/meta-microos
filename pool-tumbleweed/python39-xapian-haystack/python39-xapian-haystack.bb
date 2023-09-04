@@ -2,10 +2,10 @@ SUMMARY = "Backend of Django-Haystack for the Xapian search engine"
 DESCRIPTION = "Xapian-haystack is a backend of Django-Haystack for the Xapian search engine."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.1.1"
+PV = "3.1.0"
 
-RPM_NAME = "python39-xapian-haystack-2.1.1-2.1.noarch.rpm"
-RPM_HASH = "730d704796685d0bf3dc1508585d2ceca4fcc519d6b712fabfc4c4eebbb2d7a7768f724fc52df28423f44f2118f7684ffc1dc1832ae0493379bd2e7e6dc70de3"
+RPM_NAME = "python39-xapian-haystack-3.1.0-1.1.noarch.rpm"
+RPM_HASH = "d736b538256ea08bfac86d808691fa5b91221b964625fd8839b31a94c5daa2089bd03d3fd0ce54eda2180a013d0ac56f2b53725cad88b8ca6a010880d4539722"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-xapian-haystack \
@@ -14,6 +14,7 @@ python3dist-xapian-haystack"
 
 RDEPENDS:${PN} += "python-abi \
 python39-Django \
-python39-django-haystack"
+python39-django-haystack \
+python39-filelock"
 
 inherit rpm

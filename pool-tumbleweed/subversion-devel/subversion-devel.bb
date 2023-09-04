@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.14.2"
 
-RPM_NAME = "subversion-devel-1.14.2-6.1.aarch64.rpm"
-RPM_HASH = "43e61df161aca4f7646cc27758b7bb890813541a9ee8fe9ddd53a81ddb2ddace5e0342404254babab329126d73a69591ba685ef372b88be7544db19ac8c01b46"
+RPM_NAME = "subversion-devel-1.14.2-6.2.aarch64.rpm"
+RPM_HASH = "07fc541ff4a35359b6be6994d611a6901875c2ccad8965f4c655ef164304471fe1aca86efe7ed0c287a82924552ad6d3370a4e0fcc64b26288e11e2008836196"
 
 RPROVIDES:${PN} += "pkgconfig-libsvn-auth-gnome-keyring \
 pkgconfig-libsvn-auth-kwallet \

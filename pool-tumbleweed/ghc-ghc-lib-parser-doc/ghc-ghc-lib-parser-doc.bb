@@ -2,10 +2,10 @@ SUMMARY = "Haskell ghc-lib-parser library documentation"
 DESCRIPTION = "This package provides the Haskell ghc-lib-parser library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "9.4.5.20230430"
+PV = "9.4.6.20230808"
 
-RPM_NAME = "ghc-ghc-lib-parser-doc-9.4.5.20230430-1.3.noarch.rpm"
-RPM_HASH = "0384448f6f72e2392fe31a2b0684af0e006fbd5f4dba546e085cdb6c8b972ca7c84b3608acb37166a18ff1340dc4cd1f55e17546aa3dbd2977039d002b79714f"
+RPM_NAME = "ghc-ghc-lib-parser-doc-9.4.6.20230808-1.2.noarch.rpm"
+RPM_HASH = "4d43144894d8a82bcf04f9c39c1ae80e87184c3ccf5a9d4423990f33dc4a8a540792550437a824651600a8b5df5a0fc3ae1294ef7ec00b87408ea4c3d1c78bb9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-ghc-lib-parser-doc"

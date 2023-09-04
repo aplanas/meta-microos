@@ -3,10 +3,10 @@ DESCRIPTION = "Xreader is a document viewer capable of displaying multiple and \
 single page document formats like PDF and Postscript."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
-PV = "3.4.5"
+PV = "3.8.2"
 
-RPM_NAME = "libxreaderview3-3.4.5-1.5.aarch64.rpm"
-RPM_HASH = "99bc0bd90a5d3fa8d5bb8798797d92bf58c8eaa26676c9ccf6dec23da0b22b06e56b7323e433c30cea44886aad71df57289949b2b375bdcf9cc73bf6661267ed"
+RPM_NAME = "libxreaderview3-3.8.2-1.1.aarch64.rpm"
+RPM_HASH = "033fc9d9dada31b862a32cd63a6304d40ec68f2a831751021d15fdd68e6f8473529c78de08101319275df20d5853ea3fc7d554aec5695d15b6e22ba7f8c55332"
 
 RPROVIDES:${PN} += "libxreaderview.so.3 \
 libxreaderview3"

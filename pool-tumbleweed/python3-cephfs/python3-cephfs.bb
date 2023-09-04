@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause
 
 PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "python3-cephfs-16.2.13.66+g54799ee0666-3.1.aarch64.rpm"
-RPM_HASH = "e37c19d01c64a889810936d0485980457d1d4ccd010b9dd30a2d8cb022bc400e3bf5c815dd7abc6358a12f98644306a24051f3184e099efcfa4a9fb9a998e955"
+RPM_NAME = "python3-cephfs-16.2.13.66+g54799ee0666-4.1.aarch64.rpm"
+RPM_HASH = "d60913f8ffcdab5ff2d918ef3bbabb9242a6c033dfdbf89672f2dc643408e64810db1bb4321ede3b94c09ef49506efd7747b913f94b7889ac78a8d88f071c2c5"
 
 RPROVIDES:${PN} += "python-cephfs \
 python3-cephfs \

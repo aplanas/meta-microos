@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only"
 
 PV = "2.7.2"
 
-RPM_NAME = "libwsman_clientpp-devel-2.7.2-2.8.aarch64.rpm"
-RPM_HASH = "f984d7288430f8753e141ec6706d4d5878b7fc9f5ac7a1e320b568563a329365d8aaeb94227cfc076c4ba538a97e13082ac80c357103791e07393579c0b701ec"
+RPM_NAME = "libwsman_clientpp-devel-2.7.2-2.9.aarch64.rpm"
+RPM_HASH = "e423aecabd5719fbc912943c16007220aa1f09c5fb8116972ee3b72ca8607c3df4722af9ac0bc3b3e9358fea05c1fc6cd20892f158579f19c5cd5c4bc14d3293"
 
 RPROVIDES:${PN} += "libwsman-clientpp-devel"
 

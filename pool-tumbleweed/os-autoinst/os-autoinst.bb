@@ -8,10 +8,10 @@ to test firefox and openoffice operation on top of a newly \
 installed OS."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1690540437.6c17e24"
+PV = "4.6.1692873408.b5fd97a"
 
-RPM_NAME = "os-autoinst-4.6.1690540437.6c17e24-1.1.aarch64.rpm"
-RPM_HASH = "1a75e6fb26fb788aff074a42d88cb15846a36bbbf8c9c3b9c37ca5b5ed83c12cc39f70ce3acfa4ff1f66ca112c0b70f65bcdc4a0c03637388a439af569127377"
+RPM_NAME = "os-autoinst-4.6.1692873408.b5fd97a-1.1.aarch64.rpm"
+RPM_HASH = "6ebea254df8d6b9d8f7d98488b551ca1e60fade6539d8889e4d1c11319d35796e332bf911a9a191cc84c5359d6c5bf56b0fa9897de05e3a99e2f39aac821c61b"
 
 RPROVIDES:${PN} += "os-autoinst \
 perl-OpenQA--Benchmark--Stopwatch \
@@ -91,7 +91,8 @@ perl-testapi \
 perl-tinycv \
 perl-tinycv--Image"
 
-RDEPENDS:${PN} += "/usr/bin/getent \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/getent \
 /usr/bin/perl \
 /usr/sbin/useradd \
 git-core \
@@ -109,7 +110,7 @@ libsndfile.so.1 \
 libstdc++.so.6 \
 libtheoradec.so.1 \
 libtheoraenc.so.1 \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-B--Deparse \
 perl-Carp \
 perl-Carp--Always \

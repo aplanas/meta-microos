@@ -2,10 +2,10 @@ SUMMARY = "Advanced Intrusion Detection Environment"
 DESCRIPTION = "AIDE is an intrusion detection system that checks file integrity."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.18.5"
+PV = "0.18.6"
 
-RPM_NAME = "aide-0.18.5-1.1.aarch64.rpm"
-RPM_HASH = "fc08c9e5c4af0c0757a603008eb27838ed5f03bffadfb9646e41554b8f192e203ba79efdd0ba579fff5d8c68d0cc6f8d8143ef7919cf05fe2d48da992b0a8d46"
+RPM_NAME = "aide-0.18.6-1.1.aarch64.rpm"
+RPM_HASH = "bcbbf143165fb2679333eb698e11fc99ab5ce1da9cfc6e80b9400d764d68ad420130c27b1c1fa1038d9586db8eeebff5158e49187528ac7811f4375152cd1980"
 
 RPROVIDES:${PN} += "aide \
 config-aide"

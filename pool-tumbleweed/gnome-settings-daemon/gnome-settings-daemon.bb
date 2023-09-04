@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-only"
 
 PV = "44.1"
 
-RPM_NAME = "gnome-settings-daemon-44.1-1.1.aarch64.rpm"
-RPM_HASH = "2d6bc8011e62d36d312d2a1db4d99d85022fc9ca817a4e9f8ecbd11570bfab577356d29bc742cc7527e02483890523cdac19a96e2c65283707b4152ed0e3fc42"
+RPM_NAME = "gnome-settings-daemon-44.1-2.1.aarch64.rpm"
+RPM_HASH = "fd65fa29d3ed3520a8034baf3a4ae5a85209e7967f4a6f6d6151b82ac606aeccb142d75f6df7506b051f277591e3f0d9805765d42d878458f6d61e50065bbefc"
 
 RPROVIDES:${PN} += "gnome-settings-daemon \
 libgsd.so"

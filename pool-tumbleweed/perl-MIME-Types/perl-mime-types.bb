@@ -15,8 +15,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.24"
 
-RPM_NAME = "perl-MIME-Types-2.24-1.3.noarch.rpm"
-RPM_HASH = "3ea8a0afa2826c21d15f9a26d0bbe081a8b763a33c5b9b26f1b2f88f6ca134cb3b247178b3915972d515ae32d8b4bc8a13d9889c2facfa39cf79fa38d68879ae"
+RPM_NAME = "perl-MIME-Types-2.24-1.4.noarch.rpm"
+RPM_HASH = "f12a2dd9ed90cd260840af3a09c8a70457814edb3b33bd1cf609ef425563aa5df9ed177fc3ad311ab230c0ddfaefa455472881b0444646376e0372dd141b225b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MIME--Type \
@@ -24,6 +24,6 @@ perl-MIME--Types \
 perl-MIME-Types \
 perl-MojoX--MIME--Types"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

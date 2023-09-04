@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.1.10"
 
-RPM_NAME = "ghc-entropy-prof-0.4.1.10-3.3.aarch64.rpm"
-RPM_HASH = "ced3ef3993a94fb37f2870aa3a9055e165bea2c4e23b8d160edeaca3c22c795c200a12ffc5faf9409751c7fa2854111a720ff11f5409103428ca42d793eb401b"
+RPM_NAME = "ghc-entropy-prof-0.4.1.10-3.4.aarch64.rpm"
+RPM_HASH = "3db88733e039bfd89c92bc5fcc51c60148effc7d1745ae8d85aca6c736b234f468e8d2c6eaca7eacc0c5cb1955277be6552eeec25fd62ca18e79030141d39906"
 
 RPROVIDES:${PN} += "ghc-entropy-prof \
-ghc-prof-entropy-0.4.1.10-HkaMHQZP8nyRj15panvtP"
+ghc-prof-entropy-0.4.1.10-J8gEYIp8YzV1E0Yqy7gqyc"
 
 RDEPENDS:${PN} += "ghc-entropy-devel \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-bytestring-0.11.4.0 \
+ghc-prof-base-4.17.2.0 \
+ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-unix-2.7.3"
 
 inherit rpm

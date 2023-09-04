@@ -4,10 +4,10 @@ images in HTML. It supports setting different themes for emoticons coming \
 from different providers. Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kemoticons-devel-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "32212bc6d725194b81da3ab01a0d2a6db57c94ff7eb2dc5c9f8b866407ea25e354f10983343ec8794a1d23578be9fc0f1d6b37a0dd9262ed9ddbd1e6a5d1ce08"
+RPM_NAME = "kemoticons-devel-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "de2c393ee3359cea560adc035f627236ae381618ffcf71e8965a7dd60bad763d76c31060b89ba7c116292281979064a3d26067310b6b7115869d454ea14c86cb"
 
 RPROVIDES:${PN} += "cmake-KF5Emoticons \
 kemoticons-devel"

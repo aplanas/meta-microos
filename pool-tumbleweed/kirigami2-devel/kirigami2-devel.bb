@@ -3,10 +3,10 @@ DESCRIPTION = "QtQuick plugins to build user interfaces based on the KDE UX guid
 Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kirigami2-devel-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "e44111536b782e923909a1f061dca245bdb264bb24417827fa95c556ea22ed7ed3d68889ce307b7fdc7c6058a51d75b6c2f168ff4c39b669ea1f1d93e6d11e00"
+RPM_NAME = "kirigami2-devel-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "1c18e7ccc8535913226f5970d720dd014955dc9db209c5faae3937e345ca6c05a0f07a415eacf75e1f2717de2d669f96a34c33b14e348ac0175242e6fd7597ff"
 
 RPROVIDES:${PN} += "cmake-KF5Kirigami2 \
 kirigami2-devel"

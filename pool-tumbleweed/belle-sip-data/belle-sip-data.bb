@@ -5,10 +5,10 @@ object-oriented API. \
 This package contains data files such as belr grammar."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.73"
+PV = "5.2.98"
 
-RPM_NAME = "belle-sip-data-5.2.73-1.1.noarch.rpm"
-RPM_HASH = "82fef99a7c97597eb4c320375e7555d9f2adaffd185f361beb7f946978f61d31c0514db2c40ff0226ec40ffde69823f5494ab7e5f06d59bee991e43cb6597245"
+RPM_NAME = "belle-sip-data-5.2.98-1.1.noarch.rpm"
+RPM_HASH = "527894bba70a5cd9c6474290834f560294a86d3f776364f61245bffca6fa7e438e78783bd950200ba47f237062aabe1af2efaf28c5a382646e081baa761c002e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "belle-sip-data"

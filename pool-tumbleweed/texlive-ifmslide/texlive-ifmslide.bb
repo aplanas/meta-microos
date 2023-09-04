@@ -7,10 +7,10 @@ rewritten for compatibility with texpower and seminar. The \
 manual describes all functions and provides a sample."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.47svn20727"
+PV = "2023.209.0.0.47svn20727"
 
-RPM_NAME = "texlive-ifmslide-2023.208.0.0.47svn20727-53.1.noarch.rpm"
-RPM_HASH = "0ba74fd9fa01df65f3d41996f7830fde63053e7df04b6ee6a2bccc6f532f2ad2ca679d0759d63d384b476d1a43e978643bf071747cb27cb87382b3065315ed25"
+RPM_NAME = "texlive-ifmslide-2023.209.0.0.47svn20727-54.1.noarch.rpm"
+RPM_HASH = "0f571eca79f2d496d2630a29ad24a100304177a981014f89b406b8fcbd439fca35139f7e8dcda710fa62c8b00593526b24d63a73516e84dcca1c37ded89129d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ifmslide.cfg \

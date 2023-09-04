@@ -6,14 +6,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.73"
 
-RPM_NAME = "perl-IO-Socket-INET6-2.73-1.3.noarch.rpm"
-RPM_HASH = "4efe7252d1a4c37d193f30afa3922a73814623b66dd31489e5c59db89ba31f2e00a9e5c6024df666c6be2945f3e89f113f1fe3b0508bd96a98b89242a6c2fe94"
+RPM_NAME = "perl-IO-Socket-INET6-2.73-1.4.noarch.rpm"
+RPM_HASH = "c6a4711b40365080585bd13efb3aec84641fc9351c50eb0785141bd632e2e257f4721b5518083a0e2afe5119840c536f5c43f166f037477c749478641f1768ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--Socket--INET6 \
 perl-IO-Socket-INET6"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Socket6"
 
 inherit rpm

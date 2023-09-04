@@ -2,10 +2,10 @@ SUMMARY = "Sanlock lock manager plugin for QEMU driver"
 DESCRIPTION = "Includes the Sanlock lock manager plugin for the QEMU driver"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.5.0"
+PV = "9.6.0"
 
-RPM_NAME = "libvirt-daemon-plugin-sanlock-9.5.0-2.1.aarch64.rpm"
-RPM_HASH = "5155bd9540ab024281837f00e7c0e45bd22c3117eca2e0aced81b8f733f8ac1bff39f1caf452b5b6b707b4d65c0b38a687fc81e91005085e49e3eafe85cf8991"
+RPM_NAME = "libvirt-daemon-plugin-sanlock-9.6.0-2.1.aarch64.rpm"
+RPM_HASH = "f2db3ad17d74e7e38cdbb99186f7d4b1561959a405c1aa2f2fdaec14c1899139723d35e0564840e4c2fbae0ffe65e425f3a58ee59d176b14b1f139a34b1494e7"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-plugin-sanlock \
 libvirt-daemon-plugin-sanlock \

@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-ibarra"
 DESCRIPTION = "The  separated fonts package for texlive-ibarra"
 LICENSE = "OFL-1.1"
 
-PV = "2023.208.svn64567"
+PV = "2023.209.svn64567"
 
-RPM_NAME = "texlive-ibarra-fonts-2023.208.svn64567-53.1.noarch.rpm"
-RPM_HASH = "3d08d04c71b7f93b096ed414c6957a39fc20c0924e934a73bad1df1007a54f9576350c5d8b2f3dfd91cc7f88b9fede609c5036af583cba3c39056e7631f96680"
+RPM_NAME = "texlive-ibarra-fonts-2023.209.svn64567-54.1.noarch.rpm"
+RPM_HASH = "b78efb55f97e5bea3a986ecea13c01483c9597401c3c7850cbdedc4df89ff92b52cc3da92453ad04e2da65fbc73f77ba6ff2f5680c27267e1b105635aad35533"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-ibarra-fonts \

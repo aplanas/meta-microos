@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn57757"
 
-RPM_NAME = "texlive-hindawi-latex-template-2023.209.1.0svn57757-54.1.noarch.rpm"
-RPM_HASH = "efaed9b5823a6c5784ef8af9e7b39ccd45ddc11217fcf2861a71b8ad8ead1ce6a4e6c3f0acded249c7340df2f4d39eec5d3733e1e4f9db18ad48b5ec9b42d630"
+RPM_NAME = "texlive-hindawi-latex-template-2023.209.1.0svn57757-54.2.noarch.rpm"
+RPM_HASH = "43dfd01880e0c3ea90cf7ae8f63028c99fde4115cb8e868cca4c32119473582d0d332e3197605e9825b144667fedba1d2b3a5a576fb556a71ab5b3de06d184eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hindawi-latex-template"

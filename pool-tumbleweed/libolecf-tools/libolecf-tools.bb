@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221024"
 
-RPM_NAME = "libolecf-tools-20221024-3.9.aarch64.rpm"
-RPM_HASH = "819ad84dafc9d17ee3f70c58efd88ef5a618ac0bf3f4a6b41c01f10baee83430668010c705fb735270185c2e752125b2c9949a33d056cf86ee424fdc1e6f2129"
+RPM_NAME = "libolecf-tools-20221024-4.1.aarch64.rpm"
+RPM_HASH = "0ad2ec2c0dd210b6a219ef62bc7dbc37bc47a5d4905bfbcde11291c01a72635529bdd22acc1909964beca16cb20a06a911bcdda15f6285ef85b5b002a8ef6af7"
 
 RPROVIDES:${PN} += "libolecf-tools"
 

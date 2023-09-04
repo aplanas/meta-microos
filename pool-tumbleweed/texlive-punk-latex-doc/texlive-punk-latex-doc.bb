@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.1.1svn27389"
 
-RPM_NAME = "texlive-punk-latex-doc-2023.209.1.1svn27389-54.1.noarch.rpm"
-RPM_HASH = "17dff3da2f5ab8f1d17d01ebbec8a544b10b0bb72d175fcb4bfde563e99e92298675f98b274ea603cfda72d8a15840254d1bc067c47bb6e771689acb94386d44"
+RPM_NAME = "texlive-punk-latex-doc-2023.209.1.1svn27389-54.2.noarch.rpm"
+RPM_HASH = "1c2d425925922b18035dbd68aa9cdb86bacdfb43de1feb438b92d84e2eea8e8b097b055802411178ab7504d202dc829c66af3e52166da9093865b79b85974c46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-punk-latex-doc"

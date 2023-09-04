@@ -1,4 +1,4 @@
-SUMMARY = "OpenMPI runtime libraries for OpenMPI  version 4.1.4"
+SUMMARY = "OpenMPI runtime libraries for OpenMPI  version 4.1.5"
 DESCRIPTION = "OpenMPI is an implementation of the Message Passing Interface, a \
 standardized API typically used for parallel and/or distributed \
 computing. OpenMPI is the merged result of four prior implementations \
@@ -14,10 +14,10 @@ This package provides the Open MPI/OpenSHMEM version 4 \
 shared libraries."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.1.4"
+PV = "4.1.5"
 
-RPM_NAME = "openmpi4-libs-4.1.4-2.4.aarch64.rpm"
-RPM_HASH = "63b6ccf100ff7e0b498e52cb823f2941b5195f0ffb9d1fa93125dbad12d4e07149f761e3f2a1cee238404fdd67fb6b48dc58be8625d61e3f64a9b481c0e8fd29"
+RPM_NAME = "openmpi4-libs-4.1.5-2.1.aarch64.rpm"
+RPM_HASH = "b1aecbf7311999171f96941ddf1db008f0841828ed38457eda64038f266ae523c0d7778e43e7f5f13bfe87d490a82b843679d6b375f978544429a0b53b85e765"
 
 RPROVIDES:${PN} += "libmca-common-dstore.so.1 \
 libmca-common-monitoring.so.50 \

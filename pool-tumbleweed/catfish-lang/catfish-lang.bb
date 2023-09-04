@@ -2,10 +2,10 @@ SUMMARY = "Translations for package catfish"
 DESCRIPTION = "Provides translations for the 'catfish' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.16.4"
+PV = "4.18.0"
 
-RPM_NAME = "catfish-lang-4.16.4-1.4.noarch.rpm"
-RPM_HASH = "55a2038261b45a4f59b77a6d71d050ae26108cfeaf9995b9903b6f719d502ee43349a7b18adb2eca25a8ae125053604c1dd3e3d9917eb1a6204a84259e4fbc81"
+RPM_NAME = "catfish-lang-4.18.0-1.1.noarch.rpm"
+RPM_HASH = "6ce277c55829e7dea931e9d4206939ff39f2b36513570f4e27653d625b4b575835f95cfc36a6e38447abd79bae9060668f0e76f6440a8605d9c526e6ed8715d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "catfish-lang \
@@ -20,6 +20,7 @@ locale-catfish-da \
 locale-catfish-de \
 locale-catfish-el \
 locale-catfish-en-AU \
+locale-catfish-en-GB \
 locale-catfish-eo \
 locale-catfish-es \
 locale-catfish-et \
@@ -34,6 +35,7 @@ locale-catfish-id \
 locale-catfish-is \
 locale-catfish-it \
 locale-catfish-ja \
+locale-catfish-kk \
 locale-catfish-ko \
 locale-catfish-lt \
 locale-catfish-lv \

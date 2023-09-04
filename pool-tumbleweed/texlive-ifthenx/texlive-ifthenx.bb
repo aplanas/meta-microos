@@ -6,10 +6,10 @@ facilities; the two may be loaded in the same document, as long \
 as xifthen is loaded first."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.1asvn25819"
+PV = "2023.209.0.0.1asvn25819"
 
-RPM_NAME = "texlive-ifthenx-2023.208.0.0.1asvn25819-53.1.noarch.rpm"
-RPM_HASH = "8e11a1e0e4bbbc70dde192d86073148dbe9edb2b2146453628dd8008713a9d0367c2fb5170ad3116126e597e8289b2754f39badd47b473f2d1eab686abde6455"
+RPM_NAME = "texlive-ifthenx-2023.209.0.0.1asvn25819-54.1.noarch.rpm"
+RPM_HASH = "b936ada339b20a068d18d84bbc4476e2d62d06daa6b1ab24482dbfce435bf6846cc4b243bc0d74af164e7aaeb5dc9236b50a964c1277e31c8a38ffac46831667"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ifthenx.sty \

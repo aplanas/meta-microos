@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0"
 
-RPM_NAME = "ghc-dlist-doc-1.0-3.2.noarch.rpm"
-RPM_HASH = "bb88d9228a2da53271c0d4698b8cba05b372d08213172bdd3bed0aebaa9b30855d537f1e3796ffc0a59a92de8f75fa5d7ee81556dc7ffe21b3a92c53ef77df32"
+RPM_NAME = "ghc-dlist-doc-1.0-3.3.noarch.rpm"
+RPM_HASH = "a29ff577ff2e55fa276ca1c2d66df26e785b13179782602e913dce33e4879dd0e3fc87605c6beefcdd4455d795cacbad82045ef52e95a5799724250e1bd683c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-dlist-doc"

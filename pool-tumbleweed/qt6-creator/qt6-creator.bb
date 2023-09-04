@@ -3,10 +3,10 @@ DESCRIPTION = "Qt Creator is an integrated development environment (IDE) designe
 facilitate development with the Qt application framework."
 LICENSE = "BSD-3-Clause & GPL-3.0-only & GPL-3.0-with-Qt-Company-Qt-exception-1.1 & (LGPL-2.1-only | LGPL-3.0-only) & LGPL-3.0-only"
 
-PV = "11.0.0"
+PV = "11.0.2"
 
-RPM_NAME = "qt6-creator-11.0.0-1.2.aarch64.rpm"
-RPM_HASH = "f120b3e33e67728d545bee0bb2c4c3fced25bc3a02834b4a64c487882ce5581e7cf3100572a857f5768fc7f87f9a3829f083e996bdfe2ef6631c187a44ad55da"
+RPM_NAME = "qt6-creator-11.0.2-2.1.aarch64.rpm"
+RPM_HASH = "89414c456769e994f8d31ba976d18065b276f3076f62cb17c8fd06e154de0edfdd6ac6f702b7ca47464c54667fbd73f22b09bb0335b9406a963edcf8713f55cb"
 
 RPROVIDES:${PN} += "libAdvancedDockingSystem.so.11 \
 libAggregation.so.11 \
@@ -142,7 +142,7 @@ libelf.so.1 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
-libyaml-cpp.so.0.7 \
+libyaml-cpp.so.0.8 \
 libzstd.so.1 \
 qt6-sql-sqlite \
 qt6qmlimport-Qt.labs.platform.1 \

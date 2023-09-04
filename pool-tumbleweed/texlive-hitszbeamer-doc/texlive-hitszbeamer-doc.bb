@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0.0svn54381"
 
-RPM_NAME = "texlive-hitszbeamer-doc-2023.209.1.0.0svn54381-54.1.noarch.rpm"
-RPM_HASH = "e3e6823d0a4406a307166cd12c03dc3f208c5cd305cee8acb2c2e2f11b2390e97b87ce6154194741d9ede92d184a4468ac0ce6991b22fccb6f6e387ac5b0cbab"
+RPM_NAME = "texlive-hitszbeamer-doc-2023.209.1.0.0svn54381-54.2.noarch.rpm"
+RPM_HASH = "9f82a771b9383bbbf4ce9aca5d71dad5d0ff9e1de7aed04023794d645ee746299ef408e009f0dd4b1495dfd9d2ab59f0104cc86736093a2559496b3c0dfc6590"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-hitszbeamer-doc-zh \

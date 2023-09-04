@@ -4,15 +4,15 @@ LICENSE = "MIT"
 
 PV = "0.1.2"
 
-RPM_NAME = "ghc-typst-symbols-devel-0.1.2-1.1.aarch64.rpm"
-RPM_HASH = "e4833b7f296488d58dd7b8868f1fd8e3a686b4ca74b4d9797721c3896d0938cb3c55dac42d0fc0adc9c97661e3ee0704287da704e9d2ae204943c0d5989cf7b8"
+RPM_NAME = "ghc-typst-symbols-devel-0.1.2-1.3.aarch64.rpm"
+RPM_HASH = "0f5c9fa9ac4f4be4d39c11398018e978ba8892354824a4313db23079a39a48ce47bda8d79a4ca2506085d5497aec147020838d748d41785ac3f532391922a3e2"
 
-RPROVIDES:${PN} += "ghc-devel-typst-symbols-0.1.2-6B3ZvJm94WZ4qfFjRZShld \
+RPROVIDES:${PN} += "ghc-devel-typst-symbols-0.1.2-3u6ALqSoiYt5j197EL0vRB \
 ghc-typst-symbols-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-text-2.0.2 \
 ghc-typst-symbols"
 

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & CPL-1.0"
 
 PV = "1.0.4"
 
-RPM_NAME = "cmpi-bindings-py3wbem-1.0.4-1.4.aarch64.rpm"
-RPM_HASH = "0af0375877ce7cd020630935f1967bb6a612f64e361ccae23e480ac2c8503c568406819bf32bec49cb76c8e5ba49f42bdaa97591d08daae452c9cd6bcbcb01a7"
+RPM_NAME = "cmpi-bindings-py3wbem-1.0.4-1.5.aarch64.rpm"
+RPM_HASH = "60d9283e26af107081c32e435d94dcef93bf32f15df03632429076030719cd3e9785e2b937d985239b5f5480a51b7fb385f2f1ed1fb791e1a1ef80d84fff6abc"
 
 RPROVIDES:${PN} += "cmpi-bindings \
 cmpi-bindings-py3wbem \

@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.2.0svn64586"
 
-RPM_NAME = "texlive-yb-book-2023.209.0.0.2.0svn64586-53.1.noarch.rpm"
-RPM_HASH = "e738bef2db19a66e623baacf7d89497305e52b5b5b53fb385ada94344e8cbd62ebbbec372db96df192b4631b6c2dd9f3c333a841cfe299b05c7b91395d4ab786"
+RPM_NAME = "texlive-yb-book-2023.209.0.0.2.0svn64586-53.2.noarch.rpm"
+RPM_HASH = "70396138d42c74eb44832690a57d58b7e35b683339219d928c6674289e0e1b9cc8e2d6f48d153f1c4151487d9aab0c3ffa34d20b7d7e103a1490b5d1c2ef7f0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-yb-book.cls \

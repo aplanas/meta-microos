@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.5.3"
 
-RPM_NAME = "ghc-silently-devel-1.2.5.3-2.2.aarch64.rpm"
-RPM_HASH = "6fbd0ebed9e4a4c2dd6cebabfc2d13f32592c4062f2e68ae665f786daf9cd4010c86e5f4fc57cf209a543299e02efd5933dea28b13ed8443873456dababeb474"
+RPM_NAME = "ghc-silently-devel-1.2.5.3-2.3.aarch64.rpm"
+RPM_HASH = "a6a6bc373384dab5eeb676da8d324cb8f7aff94ed1cfbb63b094d2eaed747114facff608b1a837de24a8c7edfbe572f97f5cb30f603540d48c961e0f71150481"
 
-RPROVIDES:${PN} += "ghc-devel-silently-1.2.5.3-HiTtkArMijI9DvRcUmgkYR \
+RPROVIDES:${PN} += "ghc-devel-silently-1.2.5.3-DooEMl8ysOU4ZpgKypCRy8 \
 ghc-silently-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-deepseq-1.4.8.0 \
 ghc-devel-directory-1.3.7.1 \
 ghc-silently"

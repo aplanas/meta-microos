@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "47.0"
 
-RPM_NAME = "infiniband-diags-47.0-1.1.aarch64.rpm"
-RPM_HASH = "885e60e0ab57d0c35717d192541ea3c2d39fb470ab1f4721f70128b4ad0627d415a438c6e1dc1455bd4695ab06f32bd03f4cc31e49f1c49ae309f5886e1cbb8a"
+RPM_NAME = "infiniband-diags-47.0-2.2.aarch64.rpm"
+RPM_HASH = "a08aba8e46e4f3e8e77983a4bc27e6a8489bde009a8064e354d4afffea7a92a94109e7623e9f1a0edb8ebcf71612966bda8c4ddb5e1a305cee7fea728322df2b"
 
 RPROVIDES:${PN} += "config-infiniband-diags \
 infiniband-diags"

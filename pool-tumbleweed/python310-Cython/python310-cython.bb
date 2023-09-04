@@ -9,13 +9,14 @@ functions and declaring C types on variables and class attributes. This \
 allows the compiler to generate very efficient C code from Cython code."
 LICENSE = "Apache-2.0"
 
-PV = "0.29.36"
+PV = "3.0.0"
 
-RPM_NAME = "python310-Cython-0.29.36-1.1.aarch64.rpm"
-RPM_HASH = "7d928e94b5c80ac82f9f3406848d249a4013a667edff2d4608903acc49dff5885751a8ec3fa507a8364f154f9475e96be936dc8316172cfeb85841918f49bd87"
+RPM_NAME = "python310-Cython-3.0.0-1.1.aarch64.rpm"
+RPM_HASH = "656e38ef65d78ea7bd508ca1c9d0ff37146ab840598c5aee052aef504007bc92f972ef79f3ccf0d1ae8c98555168379d6f946182b9791a25bddc4eef713b4bba"
 
 RPROVIDES:${PN} += "python3.10dist-cython \
 python310-Cython \
+python310-Cython3 \
 python3dist-cython"
 
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
@@ -24,7 +25,6 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 python-abi \
 python310-devel \
-python310-xml \
 update-alternatives"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Fcitx5 Pinyin dictionary manager library"
 DESCRIPTION = "Fcitx5 Pinyin dictionary manager library."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "5.0.17"
+PV = "5.1.0"
 
-RPM_NAME = "fcitx5-pinyindictmanager-5.0.17-1.1.aarch64.rpm"
-RPM_HASH = "0447901f86bde39d1ec0d66c64696dbdb3f601982416a4e1752468415fadf3cb0f92cc83880fcab0260e268e624a2043c1767e2f684d8a1706a461a33aaa62be"
+RPM_NAME = "fcitx5-pinyindictmanager-5.1.0-1.1.aarch64.rpm"
+RPM_HASH = "2a0e1275249ad9a6007b1d418da01503d298532eaf2b651813644e2a9e287a19c91f7454259bfa57cf970cd8d8260aadd9824735f0b43cc542055b3400c5db63"
 
 RPROVIDES:${PN} += "fcitx5-pinyindictmanager \
 libpinyindictmanager.so"

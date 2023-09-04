@@ -17,34 +17,34 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.1"
 
-RPM_NAME = "ghc-cprng-aes-0.6.1-5.1.aarch64.rpm"
-RPM_HASH = "a74f701f3cc55090644734467780f0fcca4f8d14e64df263d67a9e2c2f886c9e15e2da87f1802cad92ed1b77b3b5fff08397faead61b67c81a31cf076f879c9d"
+RPM_NAME = "ghc-cprng-aes-0.6.1-5.2.aarch64.rpm"
+RPM_HASH = "d8536376c2dbda16486f1b54186dfb7847f36e8254188f51f9575241ee2f65155a2eb35a7201ebb20f567c56cb7032c9d70c3cfc2e6adadf0898339d40f2dd08"
 
 RPROVIDES:${PN} += "ghc-cprng-aes \
-libHScprng-aes-0.6.1-57mLrS8iLhhDpycOALP7vk-ghc9.4.5.so"
+libHScprng-aes-0.6.1-AH5syEkNtcCLtLNSEwAncX-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.5.so \
-libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSbasement-0.0.16-J8UFRjmsTYU7wBgfpjdWQn-ghc9.4.5.so \
-libHSbyteable-0.1.1-KSaZugJOm4ALb4WyX9cufg-ghc9.4.5.so \
-libHSbytestring-0.11.4.0-ghc9.4.5.so \
-libHScipher-aes-0.2.11-AUtsAMArdsjvHtn454bNK-ghc9.4.5.so \
-libHScrypto-cipher-types-0.0.9-9ncnLpjReeQDgkKFRi4kUz-ghc9.4.5.so \
-libHScrypto-random-0.0.9-60vlsiR41hHGmZ9VjOCRvw-ghc9.4.5.so \
-libHSdeepseq-1.4.8.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-boot-th-9.4.5-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
-libHSmemory-0.18.0-8CsggfkyXReDSMbRoae4Yp-ghc9.4.5.so \
-libHSpretty-1.1.3.6-ghc9.4.5.so \
-libHSprimitive-0.7.4.0-AeB0oysC3TAJw9tDpuX8hq-ghc9.4.5.so \
-libHSsecuremem-0.1.10-14D6arGPELi9Mzd7V4Fyfu-ghc9.4.5.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.5.so \
-libHStime-1.12.2-ghc9.4.5.so \
-libHStransformers-0.5.6.2-ghc9.4.5.so \
-libHSunix-2.7.3-ghc9.4.5.so \
-libHSvector-0.13.0.0-AbjrQrWxuFpAjIHk3G7xsp-ghc9.4.5.so \
-libHSvector-stream-0.1.0.0-C5Yyq3DPEhXAQSqkM8V92s-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
+libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSbasement-0.0.16-JDtFhm6hoERETf7Hqk4dh9-ghc9.4.6.so \
+libHSbyteable-0.1.1-D4ZAyAuZ5dZDp71hQtTs5r-ghc9.4.6.so \
+libHSbytestring-0.11.5.1-ghc9.4.6.so \
+libHScipher-aes-0.2.11-J6Bfrfqg5Tl79OIpP67OVG-ghc9.4.6.so \
+libHScrypto-cipher-types-0.0.9-6FlBjXMHauN3ENUNZLdeKl-ghc9.4.6.so \
+libHScrypto-random-0.0.9-EARwXMpyWawUPhdi0weks-ghc9.4.6.so \
+libHSdeepseq-1.4.8.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-boot-th-9.4.6-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
+libHSmemory-0.18.0-6jbQrbksm9m3FIftlSlmf1-ghc9.4.6.so \
+libHSpretty-1.1.3.6-ghc9.4.6.so \
+libHSprimitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx-ghc9.4.6.so \
+libHSsecuremem-0.1.10-HwgHwfqNrQFCVsnPOu3Pz4-ghc9.4.6.so \
+libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
+libHStime-1.12.2-ghc9.4.6.so \
+libHStransformers-0.5.6.2-ghc9.4.6.so \
+libHSunix-2.7.3-ghc9.4.6.so \
+libHSvector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku-ghc9.4.6.so \
+libHSvector-stream-0.1.0.0-8LsAqgetBjY3tBdh3HDYEB-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

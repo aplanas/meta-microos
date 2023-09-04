@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "5.0"
 
-RPM_NAME = "patterns-microos-basesystem-5.0-72.1.aarch64.rpm"
-RPM_HASH = "634cda4927f1c2709707ea8ff3910ef8d7fa95e1ac9ef9c6683d8101730517adf7494eaeeef8d04322bf472ec126a1a82f15f3d2c006ffb8c43d415594c19b8f"
+RPM_NAME = "patterns-microos-basesystem-5.0-73.1.aarch64.rpm"
+RPM_HASH = "e7b31eb6b184b93ee771d7cddda9c8f8212214cc72cc2c4bab4c98250979aad4ba5893c84958cd61d2352d0adf51114eb6134254b3fd64c32adb3c0031e713e7"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-icon- \

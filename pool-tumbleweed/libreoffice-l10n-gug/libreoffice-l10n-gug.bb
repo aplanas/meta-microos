@@ -2,10 +2,10 @@ SUMMARY = "Paraguayan_Guaraní localization files for LibreOffice"
 DESCRIPTION = "Provides Paraguayan_Guaraní translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-l10n-gug-7.5.4.2-1.5.noarch.rpm"
-RPM_HASH = "75756592cffaef1847ce042540c18d55d40466f36bf36cd3960d57c570f8b81cf4eb97f204c4d0e9ce93eb535fb640512d9dbe4f7cfdb5d80286e1e1e9b072a1"
+RPM_NAME = "libreoffice-l10n-gug-7.6.0.3-1.1.noarch.rpm"
+RPM_HASH = "cc5cf4e5b1f449392c36df01144ede53f9b41218343564504dd59629be192f7d6d70d9c6a159686f6c074eeaa1f4db5212394595be2568ed2006ea5ba5089f8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-gug \

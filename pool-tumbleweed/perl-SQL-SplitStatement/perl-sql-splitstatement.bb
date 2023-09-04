@@ -31,8 +31,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.00023"
 
-RPM_NAME = "perl-SQL-SplitStatement-1.00023-1.10.noarch.rpm"
-RPM_HASH = "212012165d3827ad9436fff20ad8c4a3fdec486bbca395b25543f12d669571e458ff884918ef5c6da7401b6524db8e81085ecbc5d8d1b207dd23a040c31e545c"
+RPM_NAME = "perl-SQL-SplitStatement-1.00023-1.11.noarch.rpm"
+RPM_HASH = "0866d7c14ec4dc2b4cae401921d112a3a5c4cf5760d17c90bd162c3396e0c29f37dd30fb7686be3dc69e30fccb936cb6a028a25b821cce72829908c80452258f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-SQL--SplitStatement \
@@ -40,7 +40,7 @@ perl-SQL--SplitStatement--Tokenizer \
 perl-SQL-SplitStatement"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Class--Accessor--Fast \
 perl-List--MoreUtils \
 perl-Regexp--Common"

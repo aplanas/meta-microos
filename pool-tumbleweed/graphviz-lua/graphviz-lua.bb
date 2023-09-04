@@ -5,8 +5,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.49.3"
 
-RPM_NAME = "graphviz-lua-2.49.3-6.8.aarch64.rpm"
-RPM_HASH = "cae80ad3e7a7eeb3ef808756cf8937564ca3a2678eba747da57eaa0c8b0c973d4e3fa8455b86e8e43cff536eac9d34a35873974246451fe6240e1448e067da15"
+RPM_NAME = "graphviz-lua-2.49.3-6.9.aarch64.rpm"
+RPM_HASH = "a50a65be111de7af6162166e7273bbc8d04c49d029dc28ea93249bad44b4dad496fb216ec146251b4b875fbbc6c24bdfe79d17ceb73c5bebf2bfd1a66f4e1464"
 
 RPROVIDES:${PN} += "graphviz-lua \
 libgv-lua.so"

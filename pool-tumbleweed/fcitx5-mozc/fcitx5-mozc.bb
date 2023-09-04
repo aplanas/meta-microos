@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & BSD-3-Clause & SUSE-Public-Domain"
 
 PV = "2.29.5111.102"
 
-RPM_NAME = "fcitx5-mozc-2.29.5111.102-1.1.aarch64.rpm"
-RPM_HASH = "0708c83a0d6b1a97c697f23f66dcf5a125e72a354bcd1aec3f31285712b4c574b41686579f239ce4bea3052394fd4e6256520b2748ced84b05e3fcdacbe9ee4f"
+RPM_NAME = "fcitx5-mozc-2.29.5111.102-2.1.aarch64.rpm"
+RPM_HASH = "624087c6691527c6a9be93c7fea39c67bf1a61a8957b60b20200d3af5382b4066e7f17e627e24f978debcc3dfc2f3c0248682447c04509a416bbcbee4461c1a8"
 
 RPROVIDES:${PN} += "fcitx5-mozc \
 locale-fcitx5-ja"

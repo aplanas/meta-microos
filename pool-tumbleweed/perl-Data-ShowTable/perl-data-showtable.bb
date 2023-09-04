@@ -36,14 +36,14 @@ LICENSE = "GPL-2.0+"
 
 PV = "4.6"
 
-RPM_NAME = "perl-Data-ShowTable-4.6-3.27.noarch.rpm"
-RPM_HASH = "80d09929460e9623c44998189c9944d29a43205a5533aae0e0f0c00d214978076916eb24eea46652d2f0c7e3c6602ffcbee1315574a8910b83d76fededb8b5dd"
+RPM_NAME = "perl-Data-ShowTable-4.6-3.28.noarch.rpm"
+RPM_HASH = "ba4e3b0b12311c178398b271ecb16803c5dc2e4ebe7dbfe48e33ddcfc4777f38d15d73328ab2b82ff0403d5eb0136c9e89520a06a18840d6be26ba20638e938e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--ShowTable \
 perl-Data-ShowTable"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

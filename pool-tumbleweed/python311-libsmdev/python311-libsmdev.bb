@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221028"
 
-RPM_NAME = "python311-libsmdev-20221028-2.12.aarch64.rpm"
-RPM_HASH = "3d92f18db8e7d1138413db99045e5fb4a476aad24eb6afc23d69ed132a18cc33c63949a464f246babce3fbe267c3147324207339f6cf87f5d011fd4fc01e7b30"
+RPM_NAME = "python311-libsmdev-20221028-3.1.aarch64.rpm"
+RPM_HASH = "7912f810f6138dbabe07170f8f8e3f08496afdb6c8d081ecce0b93180866d0c986c83bfb80eb76211a2ac3a44af5227a8e0fcde7398d0301391722c74d8344cd"
 
 RPROVIDES:${PN} += "python3-libsmdev \
 python311-libsmdev"

@@ -16,13 +16,13 @@ LICENSE = "Artistic-1.0 | GPL-2.0+"
 
 PV = "0.12"
 
-RPM_NAME = "perl-Data-Uniqid-0.12-1.24.noarch.rpm"
-RPM_HASH = "02c12cc229c6d6caa63f584120db6bd4410d6aa34b7035296ca136e225e7cd1e0bb26d6903e897869844ac6467b0593e7e91c79f73fc36ac702ca7633214b89a"
+RPM_NAME = "perl-Data-Uniqid-0.12-1.25.noarch.rpm"
+RPM_HASH = "97eac382e5740b128a9ec46c6c8708f710255feeb74a241a5d5aadae1758a31ac2d7ac253cf7b72cf54572a0b0d1af92dd27255840f11f788bea1620d9101d37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--Uniqid \
 perl-Data-Uniqid"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

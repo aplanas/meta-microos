@@ -1,16 +1,16 @@
-SUMMARY = "Dependency package for libopenmpi_4_1_4-gnu-hpc"
+SUMMARY = "Dependency package for libopenmpi_4_1_5-gnu-hpc"
 DESCRIPTION = "openmpi: An implementation of MPI/SHMEM (Version 4) \
-The package libopenmpi4-gnu-hpc provides the dependency to get binary package libopenmpi_4_1_4-gnu-hpc. \
-When this package gets updated it installs the latest version of openmpi_4_1_4-gnu-hpc."
+The package libopenmpi4-gnu-hpc provides the dependency to get binary package libopenmpi_4_1_5-gnu-hpc. \
+When this package gets updated it installs the latest version of openmpi_4_1_5-gnu-hpc."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.1.4"
+PV = "4.1.5"
 
-RPM_NAME = "libopenmpi4-gnu-hpc-4.1.4-2.3.aarch64.rpm"
-RPM_HASH = "563221d9f5c18ffe4d13b906b5e48facf9e8a1b472fd026f0d3059d46c04964bbaa312b10d92ddad33cc1e61de2bac3962314d4040aa4deb82937450e7f873b3"
+RPM_NAME = "libopenmpi4-gnu-hpc-4.1.5-2.1.aarch64.rpm"
+RPM_HASH = "9db8d65b847926f0719394305ed9ce19674c277d33916e8dd13e936719a8ee4a3518c692ab2c67f45fa8f2d9736bb3d13d12912a7270bb1a172d76233642be81"
 
 RPROVIDES:${PN} += "libopenmpi4-gnu-hpc"
 
-RDEPENDS:${PN} += "libopenmpi-4-1-4-gnu-hpc"
+RDEPENDS:${PN} += "libopenmpi-4-1-5-gnu-hpc"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "The 'commons-compiler' API, including the 'IExpressionEvaluator',
 'IScriptEvaluator', 'IClassBodyEvaluator' and 'ISimpleCompiler' interfaces."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.1.6"
+PV = "3.1.10"
 
-RPM_NAME = "commons-compiler-3.1.6-1.11.noarch.rpm"
-RPM_HASH = "b10f6bf3a2f212940beb6c8f097e466725e8e5756963a4a30f4ee16f1e20d0317a768d326e0155041510f0130b850cab46161130f3d4901c26a72da3ee80ce5a"
+RPM_NAME = "commons-compiler-3.1.10-1.1.noarch.rpm"
+RPM_HASH = "36d7ecb87d7e17a7a80fbdd6e0bcc13b7dc9a70338204a74c6b3afbb94d0462db54c2be19b1b9126ec679a2af5c494760c5dd41fdead32132183842fc52ccccf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "commons-compiler \

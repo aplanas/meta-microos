@@ -2,10 +2,10 @@ SUMMARY = "Development files for fcitx5-qt"
 DESCRIPTION = "This package provides development files for fcitx5-qt."
 LICENSE = "BSD-3-Clause & LGPL-2.1-or-later"
 
-PV = "5.0.17"
+PV = "5.1.0"
 
-RPM_NAME = "fcitx5-qt-devel-5.0.17-1.4.aarch64.rpm"
-RPM_HASH = "bd40be7edff32fb61fcb5f6c7c9460dcef21e17435366b020b1e674c115ecac6c7578eecdbd2e57b15ed85073f99aa182f393362471a317d03172532421ce490"
+RPM_NAME = "fcitx5-qt-devel-5.1.0-1.1.aarch64.rpm"
+RPM_HASH = "88515919764186a6fc010ba4f2820cc7d7f28aece17188de397f068316aa756126e18a25c19321cf469d49141a60f10aac65b38678971dc0c672cf449a5bad26"
 
 RPROVIDES:${PN} += "cmake-Fcitx5Qt5DBusAddons \
 cmake-Fcitx5Qt5WidgetsAddons \

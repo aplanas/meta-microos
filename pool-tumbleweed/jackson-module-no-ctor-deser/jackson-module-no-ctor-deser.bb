@@ -6,10 +6,10 @@ to force instantiation that by-passes all constructors (it is the mechanism used
 JDK serialization system)."
 LICENSE = "Apache-2.0"
 
-PV = "2.13.3"
+PV = "2.15.2"
 
-RPM_NAME = "jackson-module-no-ctor-deser-2.13.3-1.8.noarch.rpm"
-RPM_HASH = "dbff7492af7e24b72c0a26fe8e0d97f91919c26173c607909d27de38db683a5f1a2c147585ce22acc83ae79e4f1609f3554f067042f84fdbe130ce3a7f89cd8b"
+RPM_NAME = "jackson-module-no-ctor-deser-2.15.2-1.1.noarch.rpm"
+RPM_HASH = "963e10e95ced14dd7d7026a45d3104a86cdc7ac9322dc4a147f80b94b9c94743075dea4807b63c0e578ba64b43fc78a1cb29424fed922d7adb82995e59a909b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-module-no-ctor-deser \

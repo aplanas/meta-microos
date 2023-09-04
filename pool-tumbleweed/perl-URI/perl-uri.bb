@@ -31,8 +31,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "5.19"
 
-RPM_NAME = "perl-URI-5.19-1.2.noarch.rpm"
-RPM_HASH = "8edd04a96be7d737e1d7f07e86941941901a18c9142f2b63f441653f271cab36c613234d7916a3f79e30b6579f41fdd1e1f4cf1f00b1c88272596962a889666a"
+RPM_NAME = "perl-URI-5.19-1.3.noarch.rpm"
+RPM_HASH = "175c366d4c28b6c50a69ef5aaec7147cd1843ed3062a44301669e77bac8b7567866bd85927840994fb6302d86ce5c0611dd510ab62f8c2d36b3d9e3ce7d6ec67"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-URI \
@@ -90,7 +90,7 @@ perl-URI--urn \
 perl-URI--urn--isbn \
 perl-URI--urn--oid"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-parent"
 
 inherit rpm

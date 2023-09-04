@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "5.0"
 
-RPM_NAME = "patterns-microos-selinux-5.0-72.1.aarch64.rpm"
-RPM_HASH = "811ad6491af46b3481e0cf4a66fcc2b85440f95fe7f156678dbe193ecd24124a7a6607695020c6b5607ab34d1b86cff4af010c0635d50905eecb1699f36d2140"
+RPM_NAME = "patterns-microos-selinux-5.0-73.1.aarch64.rpm"
+RPM_HASH = "f144d3b6fb6d84233efef89eac98a48b80d67f305bdb835f891b6502999c3f1e9d4999e0ea78936e266e9b5036a123b0e6539f0b49d84ff2aae3fa97d2a4a890"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

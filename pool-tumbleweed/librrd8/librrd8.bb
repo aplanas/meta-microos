@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "librrd8-1.8.0-3.4.aarch64.rpm"
-RPM_HASH = "fcabfd51407b8edbaae91cc73c548818411525fa22c93a5b50d78279f7189e659048e79631c661c37b808bd436598f3d6ec45042ddc1ce3a833ec19aa43875d0"
+RPM_NAME = "librrd8-1.8.0-3.5.aarch64.rpm"
+RPM_HASH = "c3451fcca70dfe32efd1a83b5b49179f90c575535cc827a14a9b9e16b509d071303ee69e028f2f08719e8041646d3dcbd3a3d4b9bcf8c0b89f770337b0e60104"
 
 RPROVIDES:${PN} += "librrd.so.8 \
 librrd8"

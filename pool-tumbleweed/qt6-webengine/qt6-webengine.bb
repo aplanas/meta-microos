@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "qt6-webengine-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "3f9d6220a8bdadfb7f20d9711f48d0db68b19f6136bb2d56243114a8acd64d5377e1be9aa53a5901e2ac72fcc4b948e58266beff402c358ef151c616a2b0a7dd"
+RPM_NAME = "qt6-webengine-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "4248be7e835c53ae39cd0fe675389fcec2ca0e977e15d6104eaf0a083d434cba405c4785675727e1a8a596dc273eefdd3865b60ec2056b92d8e12a72f77264fc"
 
 RPROVIDES:${PN} += "libqwebengineview.so \
 qt6-webengine"

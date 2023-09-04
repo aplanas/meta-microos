@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.7.12"
 
-RPM_NAME = "nginx-module-njs-0.7.12-1.3.aarch64.rpm"
-RPM_HASH = "c554a8930f1e22f2630a4ddf658d8d805e374b955a227eb21024a608b91e8aa513f239319e86d44135112143a6a55fe16f1f1da150de38775987d95d7ff3728e"
+RPM_NAME = "nginx-module-njs-0.7.12-1.4.aarch64.rpm"
+RPM_HASH = "80c483118c2d326dabc9a6a441d0190febc9b09767ddfe57277da881eaad9d88a35f7d50f417000a297eea407053b0afbfd0b8df6231b5b03bcb128c35f37110"
 
 RPROVIDES:${PN} += "nginx-module-njs"
 

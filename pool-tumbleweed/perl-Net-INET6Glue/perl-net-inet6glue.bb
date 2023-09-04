@@ -24,8 +24,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.604"
 
-RPM_NAME = "perl-Net-INET6Glue-0.604-1.11.noarch.rpm"
-RPM_HASH = "599cde87d3610fb51f4dc5e150d82a78eab243b740248f44e28017f1e1d6f9eb26a07b44f54a04b91ebf2660aff799b8b9f24277a611e0ce9663e3c4f8c96fc4"
+RPM_NAME = "perl-Net-INET6Glue-0.604-1.12.noarch.rpm"
+RPM_HASH = "3fb40bc610a02b34f2d07361954f07d23d73622d40e0bf93edf14c4ba9cb500b15ffc4831871944ff7adee31b124bb4a84b8cf226090b18e1f3c57a58e5e163e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--INET6Glue \
@@ -33,7 +33,7 @@ perl-Net--INET6Glue--FTP \
 perl-Net--INET6Glue--INET-is-INET6 \
 perl-Net-INET6Glue"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-IO--Socket--IP"
 
 inherit rpm

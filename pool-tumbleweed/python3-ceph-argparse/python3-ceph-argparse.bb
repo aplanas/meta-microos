@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause
 
 PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "python3-ceph-argparse-16.2.13.66+g54799ee0666-3.1.aarch64.rpm"
-RPM_HASH = "41317e6d848ec60da405a5708d96122def67a8d5ff41de519d25f3401c913df6fc0ab7be4b1fe75030d3f6cf96769a565a81f08e7871adebcf2e44f1b79b150b"
+RPM_NAME = "python3-ceph-argparse-16.2.13.66+g54799ee0666-4.1.aarch64.rpm"
+RPM_HASH = "3956f1248e15af3ee29f15af13746d76f00a7c93b90cae0c9374f666a740e35bf18d9e44a88167f5499421eec23bc7b3411f808851b9a2dda8113ee39db1e13a"
 
 RPROVIDES:${PN} += "python3-ceph-argparse"
 

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.1svn28847"
 
-RPM_NAME = "texlive-xetex-tibetan-doc-2023.209.0.0.1svn28847-53.1.noarch.rpm"
-RPM_HASH = "2d3826198f08d35306dbdf1486a93ad0ef92620c53583f8b4ddf93b6083f7b2aa1b6d2eaf31899cc164ee5d889d3ce4b3ba95c2985d2ccafded8dab10124d867"
+RPM_NAME = "texlive-xetex-tibetan-doc-2023.209.0.0.1svn28847-53.2.noarch.rpm"
+RPM_HASH = "88d05147fa71baa95d18c9711071e9d696a78c323888261e9562aaf33b28374fee6c2b97f19892b3746ce71fe38b84de392503db8d3894fe19fa2a6437828ff5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xetex-tibetan-doc"

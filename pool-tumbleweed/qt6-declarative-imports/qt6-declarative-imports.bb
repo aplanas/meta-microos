@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 Declarative QML files and plugins"
 DESCRIPTION = "QML files and plugins from the Qt 6 Declarative module."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "qt6-declarative-imports-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "67cc3e720361fd6da0a9466dc0a4a4b2f09189f78c888bf0882d7785f88244973fe210eea37f65ec4572794a62c37a66d16c347e542701b90848182bdb893a8f"
+RPM_NAME = "qt6-declarative-imports-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "04552eecb1da3c68d1620df5e81729d8d37429a564b3e46379abdf3580454bda5f092ea438101bf333c72d002583cffe6c0a7a4a665ea12e10a0354a593a8323"
 
 RPROVIDES:${PN} += "libeffectsplugin.so \
 liblabsanimationplugin.so \

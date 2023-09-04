@@ -10,14 +10,14 @@ LICENSE = "Artistic-1.0"
 
 PV = "0.04"
 
-RPM_NAME = "perl-Text-CharWidth-0.04-100.37.aarch64.rpm"
-RPM_HASH = "b7a29ddc31829b95efada46ee83917aa51979a78f4623037580373a182700ee346187bc2282805be7ddd26a3b59875e7bb69c4c9b01c02b4b9ad49ee39b92fe9"
+RPM_NAME = "perl-Text-CharWidth-0.04-100.38.aarch64.rpm"
+RPM_HASH = "31694e1af85df97d5548817966ce4f2bab0a439843978fc6c6b749d5ac9364138a2e7f4f819aeaafa7b1bf0804caa3247118495ea5f472bd7853e349edf5c042"
 
 RPROVIDES:${PN} += "perl-Text--CharWidth \
 perl-Text-CharWidth"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

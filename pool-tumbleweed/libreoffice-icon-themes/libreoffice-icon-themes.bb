@@ -2,10 +2,10 @@ SUMMARY = "LibreOffice Icon Themes"
 DESCRIPTION = "This package provides all of the LibreOffice icon themes."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-icon-themes-7.5.4.2-1.5.noarch.rpm"
-RPM_HASH = "7d3a384741873a2c286e50f156ae23b974856f4cc215bf03fe27413b67644fa0e65ba14b362e00478e44feba778abe43b06c8738187b61cfb8fc1204ef452e9d"
+RPM_NAME = "libreoffice-icon-themes-7.6.0.3-1.1.noarch.rpm"
+RPM_HASH = "cad20d40b6af3374510df62a456a47ebb21dc792e4ee7f7f73f904fa64739829613f03274fa01ca9a6b4f32b7342ef70f73b504d000529184f5678e943a46038"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-icon-theme-breeze \

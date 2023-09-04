@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.0.0"
 
-RPM_NAME = "ghc-timerep-prof-2.1.0.0-1.8.aarch64.rpm"
-RPM_HASH = "2043eb9fd712355dd0cf19ea6d91b761ae4b3b27cebf63a71c1c3f6254dd2f5e4b85f11a4fc782634a3fdec82b697b81c2e71381484a59f3f0cb40c12cad8e9a"
+RPM_NAME = "ghc-timerep-prof-2.1.0.0-1.11.aarch64.rpm"
+RPM_HASH = "68b05d262839e635cfb2a3aef5cf5bd997838c243885fc78102cd9a6ec842c6812b7b3e218de2a34c5db229c5ea09a5d46b7b68258017660e1d10a5c89d6c11e"
 
-RPROVIDES:${PN} += "ghc-prof-timerep-2.1.0.0-I3sgV342xF22sEKbdw3Ltk \
+RPROVIDES:${PN} += "ghc-prof-timerep-2.1.0.0-7Ytum8O35f0BaW4NCEYMdH \
 ghc-timerep-prof"
 
-RDEPENDS:${PN} += "ghc-prof-attoparsec-0.14.4-21v4nlnPs0qLZ5R1FIK9u3 \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-monoid-subclasses-1.2.3-3ZmDzuybbdXkWlfa352KR \
+RDEPENDS:${PN} += "ghc-prof-attoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3 \
+ghc-prof-base-4.17.2.0 \
+ghc-prof-monoid-subclasses-1.2.3-5taTwF7VZKRLlaKR3bOBXt \
 ghc-prof-text-2.0.2 \
 ghc-prof-time-1.12.2 \
 ghc-timerep-devel"

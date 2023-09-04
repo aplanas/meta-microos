@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.01svn49316"
 
-RPM_NAME = "texlive-pst-venn-2023.209.0.0.01svn49316-54.1.noarch.rpm"
-RPM_HASH = "bed6a4fb2795ac492a9d7f166364c17817db5bba7035c83837f92d5b61b34dbe76973a9481d890282accafc7ecc36fab137c041318d7bf7784e522559f45c82e"
+RPM_NAME = "texlive-pst-venn-2023.209.0.0.01svn49316-54.2.noarch.rpm"
+RPM_HASH = "37760d781207b3e3de90a1e2d2e650e3ffe0248101e7164c79a186bea73846284084c1ea9033e68fddf839ca89625c27ded8dccf143cc2a1aeeee875f5e7ede5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-venn.sty \

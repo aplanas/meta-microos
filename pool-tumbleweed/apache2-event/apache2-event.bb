@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.4.57"
 
-RPM_NAME = "apache2-event-2.4.57-1.2.aarch64.rpm"
-RPM_HASH = "d7fd1ae5262ac22fba184b813f2039dd797f20435e1a8eb4c3e241fcde4d60a29e17c14cbffbebc8632dfb7ea5031048d7cb7e3a1f382f3319b5c4c1f71672ce"
+RPM_NAME = "apache2-event-2.4.57-2.1.aarch64.rpm"
+RPM_HASH = "0b825c9bc04c5df6947c2761ba795c8f0d8875297c48a825b7e954410fd4910d0e0bfa7f4b653a87f8c98704132a4360fda11df13f8df94ea447d635e1c46b9a"
 
 RPROVIDES:${PN} += "apache2-MPM \
 apache2-event"
@@ -26,6 +26,8 @@ libbrotlienc.so.1 \
 libc.so.6 \
 libcrypt.so.1 \
 libcrypto.so.3 \
+libcurl.so.4 \
+libjansson.so.4 \
 liblber.so.2 \
 libldap.so.2 \
 liblua5.4.so.5 \

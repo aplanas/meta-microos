@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "qt6-webenginecore-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "dffbdb9dff46f9b9970b42e6c24022681523530c495bdb2fc96a561a6c2ab487cfa878d729f7a816f5af04aba6f908aa2c1a21d824d974584e0fa744696f874d"
+RPM_NAME = "qt6-webenginecore-devel-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "c627f2e7a15633151438208c85f7b71e001bd39c69f9a23ca1d3b05449596d228478aeba5ce1bd813cc3a34970bd7a45c43f92d1971846915c34a6177ac11b1a"
 
 RPROVIDES:${PN} += "cmake-Qt6WebEngineCore \
 cmake-Qt6WebEngineCoreTools \

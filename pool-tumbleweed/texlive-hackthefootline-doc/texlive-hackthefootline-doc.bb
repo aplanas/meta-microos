@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn46494"
 
-RPM_NAME = "texlive-hackthefootline-doc-2023.209.svn46494-54.1.noarch.rpm"
-RPM_HASH = "aa5c6e8ff3d85ac53732996fc415c735d53c729390a18202d80c7369b34a736876591843696d7758cacb97c6f8fc9b83da47c8129b6c62c2d326e3e67440a7e9"
+RPM_NAME = "texlive-hackthefootline-doc-2023.209.svn46494-54.2.noarch.rpm"
+RPM_HASH = "9c69e083d577b977a06c3c29dfb22ce88d14f843dfc5f0a9b359a14f9213a9b6183e3f1dd7d546560fef9596269e5e6db4095257c9be941b3708fcf585b7741c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hackthefootline-doc"

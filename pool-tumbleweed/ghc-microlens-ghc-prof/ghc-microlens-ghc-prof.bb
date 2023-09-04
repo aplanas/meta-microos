@@ -4,18 +4,18 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.14.1"
 
-RPM_NAME = "ghc-microlens-ghc-prof-0.4.14.1-2.2.aarch64.rpm"
-RPM_HASH = "7d97aefa23789f13d087b1c203a4e1317958d150adc16afa967959d72ec0059b0d08f6f535ed62d8143fdd1b944064e5f2e249b0f8568e66c6b947ecafcff92c"
+RPM_NAME = "ghc-microlens-ghc-prof-0.4.14.1-2.3.aarch64.rpm"
+RPM_HASH = "7159492b394d55c1861c2e37be5edfebd1b5b3ce252368fb9e3e40c4cd97f316c5be72c430c58b42138bc0f230d716aa8bde60779c85247a776c67e4db2fef68"
 
 RPROVIDES:${PN} += "ghc-microlens-ghc-prof \
-ghc-prof-microlens-ghc-0.4.14.1-4Q8SZXKkgj872LFERorIGB"
+ghc-prof-microlens-ghc-0.4.14.1-JKvcbzfcB6d2jcW7Wili89"
 
 RDEPENDS:${PN} += "ghc-microlens-ghc-devel \
 ghc-prof-array-0.5.4.0 \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-bytestring-0.11.4.0 \
+ghc-prof-base-4.17.2.0 \
+ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-containers-0.6.7 \
-ghc-prof-microlens-0.4.13.1-ARwI8t2x86cAxRs56XPcG1 \
+ghc-prof-microlens-0.4.13.1-4XtL5z7DHHC7UZaR6xNDY3 \
 ghc-prof-transformers-0.5.6.2"
 
 inherit rpm

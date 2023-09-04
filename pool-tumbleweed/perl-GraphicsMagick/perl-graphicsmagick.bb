@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "1.3.40"
 
-RPM_NAME = "perl-GraphicsMagick-1.3.40-2.4.aarch64.rpm"
-RPM_HASH = "392c9084efd093770b6c08c8c9ae5227ab3738f2bc958fc9468bfb6fdb900814d3e990a81b5b479b0df3f5940dd24052b66b7637fb922ce5675df924089472e0"
+RPM_NAME = "perl-GraphicsMagick-1.3.40-3.1.aarch64.rpm"
+RPM_HASH = "90898ff5ddfe32eb8dea608e9a064f95f951a52b7fa541a9015f30b48090495b04b417f9a514896c75a303b8f130ddef5d729009b99a0df9d316da49cf27282c"
 
 RPROVIDES:${PN} += "perl-Graphics--Magick \
 perl-GraphicsMagick"

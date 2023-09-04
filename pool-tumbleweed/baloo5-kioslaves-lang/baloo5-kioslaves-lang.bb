@@ -2,10 +2,10 @@ SUMMARY = "Translations for package baloo5-kioslaves"
 DESCRIPTION = "Provides translations for the 'baloo5-kioslaves' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-3.0-only"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "baloo5-kioslaves-lang-5.108.0-1.1.noarch.rpm"
-RPM_HASH = "b43933e62872c8829ecac12343a63767f9a7260beae61bbb3024fad9a89be237fd8b3c24b259d7821e05b7da8d1cc6a90e95c909ee2f95869b080adcd32f9ac2"
+RPM_NAME = "baloo5-kioslaves-lang-5.109.0-1.1.noarch.rpm"
+RPM_HASH = "8cc7e70ea7999dc27c6f76a676c453e7f61712f9d4ca0ae1d9df75db885f7b0620f427f1fb448f6eb857ba3ff1f3a108a7ccae487519f87c67fd7179d907ffca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "baloo5-kioslaves-lang \

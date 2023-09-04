@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "9.6"
 
-RPM_NAME = "libortools9-9.6-2.1.aarch64.rpm"
-RPM_HASH = "fd34776f07113e9e941cfd7aad6492ae6e612e3b9dfb26eca120fd71e5725850d6c24becba6dd50931a332431d8c2a3536822a8aab26f7636545e2c8c0339626"
+RPM_NAME = "libortools9-9.6-3.1.aarch64.rpm"
+RPM_HASH = "5f9065851d753fc1e4b37c06979aaa5df25c8ec271f2b69041648995bebd987ab5728182d278e70b42e84dc7fae940cf5e9b358efe80c4bdfecab03374c1d428"
 
 RPROVIDES:${PN} += "libortools.so.9 \
 libortools9"
@@ -48,7 +48,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libprotobuf.so.23.4.0 \
-libre2.so.10 \
+libre2.so.11 \
 libstdc++.so.6 \
 libz.so.1"
 

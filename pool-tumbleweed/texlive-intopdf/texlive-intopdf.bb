@@ -3,10 +3,10 @@ DESCRIPTION = "The package allows to embed non-PDF files (e.g., BibTeX) into \
 PDF with a hyperlink."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.4.1svn63987"
+PV = "2023.209.0.0.4.1svn63987"
 
-RPM_NAME = "texlive-intopdf-2023.208.0.0.4.1svn63987-53.1.noarch.rpm"
-RPM_HASH = "1a8ddedc7327d273c5a7ddc8ac1dd15b69548fa447881c45d033f450016c323ad2ec5def26637ed5e49fdd7efe03b9621210f3033ddce03e64fa703b58034fee"
+RPM_NAME = "texlive-intopdf-2023.209.0.0.4.1svn63987-54.1.noarch.rpm"
+RPM_HASH = "3062aa22811a13528980576959a17937324bffdea61ab16acf119521c56d584b95fbdd68d3d32cc7cdc926766d1bab5433bf0b697c742b63a273f3ae50848e04"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-intopdf.sty \

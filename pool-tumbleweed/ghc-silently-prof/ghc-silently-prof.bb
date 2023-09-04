@@ -4,13 +4,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.5.3"
 
-RPM_NAME = "ghc-silently-prof-1.2.5.3-2.2.aarch64.rpm"
-RPM_HASH = "2c1894f6e4cf4ab6067ddff9586c4d6393462c67da1ed505bff149a8f4c2b0c3f159de7e67e4c5c0a1c426ab99dc0b81bd69abed3359f363e6ca28ac75c6af95"
+RPM_NAME = "ghc-silently-prof-1.2.5.3-2.3.aarch64.rpm"
+RPM_HASH = "26959e6788d7ddae32753f0da9f9d30cdfea9a74ab15c1051bdffdcf5fcb55a1a6037accb4793f28042fc0cf798d20d174fb2cadb08de32a235a0f394d456fff"
 
-RPROVIDES:${PN} += "ghc-prof-silently-1.2.5.3-HiTtkArMijI9DvRcUmgkYR \
+RPROVIDES:${PN} += "ghc-prof-silently-1.2.5.3-DooEMl8ysOU4ZpgKypCRy8 \
 ghc-silently-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
 ghc-prof-deepseq-1.4.8.0 \
 ghc-prof-directory-1.3.7.1 \
 ghc-silently-devel"

@@ -10,8 +10,8 @@ LICENSE = "Python-2.0"
 
 PV = "2.7.18"
 
-RPM_NAME = "python-2.7.18-36.1.aarch64.rpm"
-RPM_HASH = "40be7685e7f63ee0edc95dfc5026b4f15e2cf3e01c68b975c50a4ad564a1a114e7d72e8fbdc830663823a5dfe3db0fb41cccad9f2f00cd5f8ba717c0fe50da34"
+RPM_NAME = "python-2.7.18-37.1.aarch64.rpm"
+RPM_HASH = "bffb6bb9115e2b87ee73a1f765288be9bd079912565ed83c55b42a3d5a5958101e26569efe06023184a191068672fee91f0e4e6e4980b409f05b241ca41ea6df"
 
 RPROVIDES:${PN} += "python \
 python2 \

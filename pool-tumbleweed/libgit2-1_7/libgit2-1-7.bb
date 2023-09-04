@@ -5,10 +5,10 @@ you to write native speed custom Git applications in any language \
 with bindings."
 LICENSE = "GPL-2.0-only-with-GCC-exception-2.0"
 
-PV = "1.7.0"
+PV = "1.7.1"
 
-RPM_NAME = "libgit2-1_7-1.7.0-1.1.aarch64.rpm"
-RPM_HASH = "c12be8400ca8b6e45155698271c5593188a7c9c7e596faa511e0bed95a44f077d2335e282aec475d39239cda909929fba9154b1c6ae87a0307c8391b46348b72"
+RPM_NAME = "libgit2-1_7-1.7.1-1.1.aarch64.rpm"
+RPM_HASH = "9e89b08cadf1d84cff46e1ddeca1c8aa5616e215004c4c8b31f0f387f8a1d567c0666cde792b86ff1e17cf84ec8cfce277366a8a826f7cf53f9b2201c5e8a674"
 
 RPROVIDES:${PN} += "libgit2-1-7 \
 libgit2.so.1.7"

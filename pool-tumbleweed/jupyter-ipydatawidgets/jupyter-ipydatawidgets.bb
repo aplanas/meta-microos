@@ -7,14 +7,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.5.2"
 
-RPM_NAME = "jupyter-ipydatawidgets-5.5.2-9.4.noarch.rpm"
-RPM_HASH = "e74f4229d0090277826ba494eec4759bd4d3c0cbffa76f88560e2c6ba982b26b4a34bd4b6d45651093b48a7770eca25f04ed4a35f157e238f83f30936c4eb1e5"
+RPM_NAME = "jupyter-ipydatawidgets-5.5.2-10.1.noarch.rpm"
+RPM_HASH = "97a17966985607d9284728569571c5129387a885d4b3b8b2cb22954381e3730cdb2c1869db75eaf5e314f56b21abeaacb01d27bdcd5d583e97250bb0d6f3cffb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-datawidgets \
 jupyter-ipydatawidgets"
 
-RDEPENDS:${PN} += "jupyter-notebook \
-python3-ipydatawidgets"
+RDEPENDS:${PN} += "python3dist-ipydatawidgets"
 
 inherit rpm

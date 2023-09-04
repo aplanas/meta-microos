@@ -5,10 +5,10 @@ system format. \
 Part of the libyal family of libraries."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20210626"
+PV = "20230506"
 
-RPM_NAME = "libvsapm1-20210626-4.9.aarch64.rpm"
-RPM_HASH = "256444045c1d727e9f1b5c82cd9a1ebdecdf86a80f84bad469d6560195223fb5a5eb6a093cce89412b0b5134ce8cedd012d53c58489069a7bfaf29d64dd5e434"
+RPM_NAME = "libvsapm1-20230506-1.1.aarch64.rpm"
+RPM_HASH = "f4079b22accddf82117dfd39761eb6afd510adc68294a7b3ea2d65bfdc3e362625a83c1d6292467c2ca4a9fce59a5fafeb68ad62aa7c09449c190202772132bf"
 
 RPROVIDES:${PN} += "libvsapm.so.1 \
 libvsapm1"

@@ -12,8 +12,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.01"
 
-RPM_NAME = "perl-Class-Accessor-Chained-0.01-13.30.aarch64.rpm"
-RPM_HASH = "c249e2c8f350377ec7fd1d89571f4759fbc8f4dc60be6507be3480df10689f672c80f22c6fa67415e0853a80813a433d7b1f46ca1c4b15883225f6434a1df690"
+RPM_NAME = "perl-Class-Accessor-Chained-0.01-13.31.aarch64.rpm"
+RPM_HASH = "e2b7095887ccc798275634d4a99f772bfc1d5a9a888a32de4676c497d4e5d521e2b6f4878e0f4fcdf2d63544baee0ba80d7257c811cea39a100f55fa4290d0ba"
 
 RPROVIDES:${PN} += "Class-Accessor-Chained \
 Class-Accessor-Chained-Fast \
@@ -21,7 +21,7 @@ perl-Class--Accessor--Chained \
 perl-Class--Accessor--Chained--Fast \
 perl-Class-Accessor-Chained"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Class--Accessor"
 
 inherit rpm

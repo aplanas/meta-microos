@@ -4,14 +4,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.100603"
 
-RPM_NAME = "perl-String-Truncate-1.100603-1.3.noarch.rpm"
-RPM_HASH = "0778f7d83418d4c6d3f4c292e1bfdd300ea61b8440c3588a245163e1bc3429b5bc7fe914b011f3ec9e77c546e765fe975f38b3eec8911cec7d1300d910b3dfdd"
+RPM_NAME = "perl-String-Truncate-1.100603-1.4.noarch.rpm"
+RPM_HASH = "cf518bd025c8e479a15390be957322ac8e37854e9de9c63a3356e893ba8cec5f24cfdbf08fd2dab797b836bdabf7dcc0af9c7b109f35819cc0f4702530eb4175"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-String--Truncate \
 perl-String-Truncate"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Sub--Exporter \
 perl-Sub--Exporter--Util \
 perl-Sub--Install"

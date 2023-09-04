@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "libQt6Network6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "0b2f610731e6dd8ffddc1192d61e84f4f88bbceaababb6f8b37ee3191c3d951d5ddd7897cee20ca3f296eab5b29ad7e67659dcb6f7398372399cf85bd56b5762"
+RPM_NAME = "libQt6Network6-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "6fa64b2379a955160f94f304d34b2f93fad6a254a16607b84f3215e16df51d3797f4d9dc004e27dcb37c834dd69d71de6dc26c3aebb03a197ff177199afdce87"
 
 RPROVIDES:${PN} += "libQt6Network.so.6 \
 libQt6Network6"

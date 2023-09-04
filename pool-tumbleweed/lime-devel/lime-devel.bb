@@ -9,10 +9,10 @@ development tools necessary for compiling and linking applications \
 which will use lime."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.73"
+PV = "5.2.98"
 
-RPM_NAME = "lime-devel-5.2.73-1.1.aarch64.rpm"
-RPM_HASH = "de38e25ab61eb565e519af9bd027a7e4993aeed4563b1c698fb44404cacc5a02245cec783639b451d7fe27381d3e98d2d0eee5cdc1fd8fcd04b714b22c130f05"
+RPM_NAME = "lime-devel-5.2.98-1.1.aarch64.rpm"
+RPM_HASH = "ee539df883fdcd5bd54977b78f027383b309ade175995a6182bca52f1807fcfba264ae241f5e5ed042a42db7acfd67da3ca966c92aa2cb829a40750485dce22e"
 
 RPROVIDES:${PN} += "lime-devel"
 

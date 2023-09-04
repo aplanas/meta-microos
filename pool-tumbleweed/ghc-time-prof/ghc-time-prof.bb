@@ -4,13 +4,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.12.2"
 
-RPM_NAME = "ghc-time-prof-1.12.2-3.2.aarch64.rpm"
-RPM_HASH = "d5cd012af88bd9dc83d28b2307f1ee16d8cbf4bdcaad5f61534a0cd171ae609d99689cf2863e6fa2bf5d785caf6bc71f83600e44bef3ad54ef5a09deb030763a"
+RPM_NAME = "ghc-time-prof-1.12.2-1.1.aarch64.rpm"
+RPM_HASH = "58ea4d9cd31578d106c86122a1949bcf4c8b5af82dcdd86de25835e373400cdf431fc1337001a19f67cd562a8d26078fc0aa9981833e15124b57d3f227cef541"
 
 RPROVIDES:${PN} += "ghc-prof-time-1.12.2 \
 ghc-time-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
 ghc-prof-deepseq-1.4.8.0 \
 ghc-time-devel"
 

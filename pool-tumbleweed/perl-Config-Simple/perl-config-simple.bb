@@ -10,13 +10,13 @@ LICENSE = "Artistic-1.0"
 
 PV = "4.59"
 
-RPM_NAME = "perl-Config-Simple-4.59-19.30.aarch64.rpm"
-RPM_HASH = "9c260cf47a14d8685a43e0038bd726f56a86c693d208eeb6aa4283411c9f1ec58001ec113de16d5ca8a1ef64fb3c0d7792e4edef1a289a9bcfecc1893d8fab49"
+RPM_NAME = "perl-Config-Simple-4.59-19.31.aarch64.rpm"
+RPM_HASH = "d0c2c83305975744c0bdded471a491e093c0825a5f6b0b198a36958f258d2ecf82e128506df8c098a005749ee24aa7024e88f51a3acecc718d2cb885598a82ce"
 
 RPROVIDES:${PN} += "perl-Config--Simple \
 perl-Config-Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-AutoLoader"
 
 inherit rpm

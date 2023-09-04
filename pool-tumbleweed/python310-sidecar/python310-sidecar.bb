@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.2"
 
-RPM_NAME = "python310-sidecar-0.5.2-5.5.noarch.rpm"
-RPM_HASH = "f40126fdd945eeb4bd57efcdd35986ebbf18898bcd3f88ffff0a2edcfbe0842a2cdeb29c7a15c1e2da2fe773ccbbbf9f3751b4dceb47fb0b33e9c01029d225de"
+RPM_NAME = "python310-sidecar-0.5.2-6.1.noarch.rpm"
+RPM_HASH = "47e29ed81c28ed04eb6e9834a476fd96cdfb2f6a0f6b0e4a49b081e4676d76d029c4c52123722c4da120f06abed0f7b6761fc5784e8bb61bdeca21dbcbf867d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-sidecar \

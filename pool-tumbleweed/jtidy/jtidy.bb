@@ -5,22 +5,21 @@ cleaning up malformed and faulty HTML. In addition, JTidy provides a \
 DOM parser for real-world HTML."
 LICENSE = "BSD-3-Clause"
 
-PV = "8.0"
+PV = "1.0.4"
 
-RPM_NAME = "jtidy-8.0-30.7.noarch.rpm"
-RPM_HASH = "0d8ef298d876427d7ad0c5660200fedf3cac944516e0947ada3a05a848b6f1e9391d929e318adc53a509f8f2aedf6ad17b1d7906f5dec22eea759cbca945a9d7"
+RPM_NAME = "jtidy-1.0.4-1.1.noarch.rpm"
+RPM_HASH = "7dfe19a8e5812acb42841c8e408cbab14774aa4770c978bf54d30b6f8f0b344eb32801a8f1f3ca49f64660cb609b73fb87f90fe801620adcefb5be5c4c71ac77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-jtidy \
 jtidy \
-mvn-jtidy-jtidy \
-mvn-jtidy-jtidy-pom- \
+mvn-com.github.jtidy-jtidy \
+mvn-com.github.jtidy-jtidy-pom- \
 mvn-net.sf.jtidy-jtidy \
 mvn-net.sf.jtidy-jtidy-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-xerces-dom3-xml-apis \
 xerces-j2 \
 xml-commons-apis"
 

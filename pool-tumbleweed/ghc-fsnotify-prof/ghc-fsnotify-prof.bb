@@ -4,25 +4,25 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.1.0"
 
-RPM_NAME = "ghc-fsnotify-prof-0.4.1.0-2.7.aarch64.rpm"
-RPM_HASH = "7ffa49f2afe2a83d064751a289eefd91e8918324393e966007a4594872a1c4c7ee48c499ca46f351f2686cabd8d841dd4c1797229d9e45c7fa8212c90cf99720"
+RPM_NAME = "ghc-fsnotify-prof-0.4.1.0-2.10.aarch64.rpm"
+RPM_HASH = "e86361d6f07790b5aa3f250152dd633fc2591618e30669e0b74b044e6b38460c6d849cd2d0bb3e5b573284f1fc0aee8ef5678a98195b15d6087fe6f9d3cb6926"
 
 RPROVIDES:${PN} += "ghc-fsnotify-prof \
-ghc-prof-fsnotify-0.4.1.0-J4WSFHZY5VQ2Gkw2wp8qhw"
+ghc-prof-fsnotify-0.4.1.0-DXk16Cfx5AnBy7sgJP2ZHN"
 
 RDEPENDS:${PN} += "ghc-fsnotify-devel \
-ghc-prof-async-2.2.4-Is3H7ZPNMkM5reIoCaqYrF \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-bytestring-0.11.4.0 \
+ghc-prof-async-2.2.4-LcXCzTmy8C6G7Wa774EctI \
+ghc-prof-base-4.17.2.0 \
+ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-containers-0.6.7 \
 ghc-prof-directory-1.3.7.1 \
 ghc-prof-filepath-1.4.2.2 \
-ghc-prof-hinotify-0.4.1-8EvWCUqnZLR2V2Cj5bSrk3 \
-ghc-prof-monad-control-1.0.3.1-YXA6op7GEFFtfFxLr4pzX \
-ghc-prof-safe-exceptions-0.1.7.4-8XVKrMBchTjCLhdcvBwBNb \
+ghc-prof-hinotify-0.4.1-JFQ6DOM0mgyCikOfj8YmfP \
+ghc-prof-monad-control-1.0.3.1-CVPvK8bh5F0Gvv9Wu0W98B \
+ghc-prof-safe-exceptions-0.1.7.4-AmShSL4jn3220svzMELB6r \
 ghc-prof-text-2.0.2 \
 ghc-prof-time-1.12.2 \
 ghc-prof-unix-2.7.3 \
-ghc-prof-unix-compat-0.6-79KxxZMmklx25hsmeEnenN"
+ghc-prof-unix-compat-0.6-IJaiJvo5DQ6Elf7LVlEGei"
 
 inherit rpm

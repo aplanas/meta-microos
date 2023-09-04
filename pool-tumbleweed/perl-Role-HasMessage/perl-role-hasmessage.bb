@@ -7,15 +7,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.007"
 
-RPM_NAME = "perl-Role-HasMessage-0.007-1.3.noarch.rpm"
-RPM_HASH = "b9f8382944a3a5386e1f6eb73c766291579f965614b825f49123f2d86d519d7f64fd910c623c129eed483018c5a0110437a03bfaa2d06e12cc5c06dfc5a06f46"
+RPM_NAME = "perl-Role-HasMessage-0.007-1.4.noarch.rpm"
+RPM_HASH = "aea33d205af70d28a30b1a17f9013f143182ad804a7eded834ffbcda965fe678f49a0163b3aa660465318fd016a45c28a77a09db355ca190e2b70e040ae4230e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Role--HasMessage \
 perl-Role--HasMessage--Errf \
 perl-Role-HasMessage"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Moose--Role \
 perl-MooseX--Role--Parameterized \
 perl-String--Errf \

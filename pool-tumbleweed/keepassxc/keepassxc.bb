@@ -4,10 +4,10 @@ are locked with a master key/password or a key disk. The databases \
 are encrypted using AES and Twofish."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "2.7.5"
+PV = "2.7.6"
 
-RPM_NAME = "keepassxc-2.7.5-1.2.aarch64.rpm"
-RPM_HASH = "5a635469fcf433439db77e8cb69c1e6cb5a550d6afca5fc63aa20b942cb6169493908421adf83e05259f753ef35edc9114c012e39e80bee718844ed93d670a09"
+RPM_NAME = "keepassxc-2.7.6-1.1.aarch64.rpm"
+RPM_HASH = "db2591f48ced428ec6c1c8b83dd9590f87db07bec05beeeba3a3942e34019d95625fc8a86500a24391d9a5ba5f1ac7f4a60a68222f35609e935cb24d1395a654"
 
 RPROVIDES:${PN} += "keepassx \
 keepassxc \

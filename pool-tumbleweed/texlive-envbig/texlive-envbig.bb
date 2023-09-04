@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-envbig-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "5d46a7a07244e5883c5418ddc07f7a774805d179fd369a936cc88c933e53ec2b9b16d5bacceaea37751a196ec5191799075c92a65dab80bfd12e7403fe82301e"
+RPM_NAME = "texlive-envbig-2023.209.svn15878-54.2.noarch.rpm"
+RPM_HASH = "1a05a350cd5270597233b9edaf8865bfb287981b2bcb8678030a45b985f7e3e2a390c1b9c8800a5b0fdaedeca87fb1b1689f5feab43e67b2c6fb77df4b26b3bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-envbig.sty \

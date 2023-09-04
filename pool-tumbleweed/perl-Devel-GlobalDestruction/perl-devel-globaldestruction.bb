@@ -12,14 +12,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.14"
 
-RPM_NAME = "perl-Devel-GlobalDestruction-0.14-1.24.noarch.rpm"
-RPM_HASH = "866f9a4b23b131d44270b631e8242bafdcc64a2415e98fa8f9adbde5aa1ef974b87268cef7edbef0f0cf99336c53232c0c49367abb406fc7d47af7077efbc8f8"
+RPM_NAME = "perl-Devel-GlobalDestruction-0.14-1.25.noarch.rpm"
+RPM_HASH = "b91c0da9193910e25fb9bdecf30c4ce5f25a1689eb63a0d348ece49424c1ebc869a177b0f05177bd113c713edbe9ed121a0edb11e38875dc7636eed48f1825b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--GlobalDestruction \
 perl-Devel-GlobalDestruction"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Sub--Exporter--Progressive"
 
 inherit rpm

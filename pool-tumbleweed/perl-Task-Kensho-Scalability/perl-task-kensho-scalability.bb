@@ -33,14 +33,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.41"
 
-RPM_NAME = "perl-Task-Kensho-Scalability-0.41-1.10.noarch.rpm"
-RPM_HASH = "d41b6052b926f5f8c07d4a09aeed8c1dcad7193d358344425fa02c35ffe4c7938a03c30b6fd3ec5d54d9cb363b8af9ad341fb09c1cc017d1867a8645e4a42b51"
+RPM_NAME = "perl-Task-Kensho-Scalability-0.41-1.11.noarch.rpm"
+RPM_HASH = "735b0ccd6826e61ab873d56ac90bfb962166d31fd64a4b1afe8918b901844f064cb94e83377bbb16a921c00ab25b2ed9d64d57e54f7540f5c62de04a9dcc85c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Task--Kensho--Scalability \
 perl-Task-Kensho-Scalability"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-CHI \
 perl-Redis"
 

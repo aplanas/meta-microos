@@ -9,8 +9,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "4.01043"
 
-RPM_NAME = "perl-Net-Twitter-4.01043-1.19.noarch.rpm"
-RPM_HASH = "7348d824ec7cad04534445cb357edd0d1ec57f89b80d5c070772ccd7c5e165a5d7c92008d273dc6ce22630fd79b0a0db5e1a1adf74fc93ca785076cb96f67650"
+RPM_NAME = "perl-Net-Twitter-4.01043-1.20.noarch.rpm"
+RPM_HASH = "7b3510926d732f07fd0e0fbbd737c70cd98a509a80e0b725c69fbb28b1a408468ca6ae5bf008e56a5b8029596004bc5831ba3bb5dd0839addd2335e0ab133812"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--Identica \
@@ -43,7 +43,7 @@ perl-Net--Twitter--Types \
 perl-Net--Twitter--WrappedResult \
 perl-Net-Twitter"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Carp--Clan \
 perl-Class--Load \
 perl-Data--Visitor--Callback \

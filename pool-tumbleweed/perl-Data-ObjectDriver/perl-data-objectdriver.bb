@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.22"
 
-RPM_NAME = "perl-Data-ObjectDriver-0.22-1.2.noarch.rpm"
-RPM_HASH = "8792e87bc93e133054219729fcb5154e8f0a91e811233b7f8a5d685fffb943d8ae6989be8df7ab1943a5ea250a44135dc305278cb995feeba6984a8a4ec99e69"
+RPM_NAME = "perl-Data-ObjectDriver-0.22-1.3.noarch.rpm"
+RPM_HASH = "18109c705d72ea553d3a1272d42a35cd7f582392c98969d6277939ce35f9087ef01d6e14867ca1f1f20fd8cc65f2c51f1da947d9ab44581c06c08315616407d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--ObjectDriver \
@@ -44,7 +44,7 @@ perl-Data--ObjectDriver--SQL \
 perl-Data--ObjectDriver--SQL--Oracle \
 perl-Data-ObjectDriver"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Class--Accessor--Fast \
 perl-Class--Data--Inheritable \
 perl-Class--Trigger \

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn66511"
 
-RPM_NAME = "texlive-luahbtex-bin-2023.20230311.svn66511-93.1.aarch64.rpm"
-RPM_HASH = "4d4d1a74279466cc361034b21b0adc692d218267a1a4d0ed5e051681280c29d99e2bacd122d4140dcd04bb2d25c00f0a59499934b0205c587127f6c3aefaff01"
+RPM_NAME = "texlive-luahbtex-bin-2023.20230311.svn66511-93.2.aarch64.rpm"
+RPM_HASH = "15db93e61ffe3f3328d41adf1356cc14b67f71b1cba97514ad27baefdaa4c1f52da7760e25def344d42f85dac51cf413b83dc9ea61c32d6e9838a59754cac847"
 
 RPROVIDES:${PN} += "texlive-luahbtex-bin"
 

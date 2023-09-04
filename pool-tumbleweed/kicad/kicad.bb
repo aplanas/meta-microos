@@ -10,10 +10,10 @@ KiCad includes a project manager and four main independent software tools: \
 - Cvpcb: footprint selector for components association."
 LICENSE = "AGPL-3.0-or-later & GPL-3.0-or-later"
 
-PV = "7.0.5"
+PV = "7.0.6"
 
-RPM_NAME = "kicad-7.0.5-1.2.aarch64.rpm"
-RPM_HASH = "6197417d60843b81d2aa569f910558a2686435f990c18ac57b6688c4dc4d6a57c288658bea71744a1c9b23adfd60d8811329f6059e61277799665ac0765ea4f0"
+RPM_NAME = "kicad-7.0.6-1.1.aarch64.rpm"
+RPM_HASH = "08b773c318b67b149b597172921f305e0c5506e07c9abbe68b30c859b280ce96ed423b462c9d2b0325c21b19b2032b69c152a664754fb66dd155cb41e3779ca5"
 
 RPROVIDES:${PN} += "kicad \
 libkicad-3dsg.so.2.0.0 \

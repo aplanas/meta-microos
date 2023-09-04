@@ -2,10 +2,10 @@ SUMMARY = "Translations for package pix"
 DESCRIPTION = "Provides translations for the 'pix' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.8.0"
+PV = "3.0.2"
 
-RPM_NAME = "pix-lang-2.8.0-1.12.noarch.rpm"
-RPM_HASH = "4f9e27bae039f3d1b9b3766337694971e1717045e020e76b016744ce5fbaa3ae2acd62db03f8d6ddcd524a0434f067ee0087d7c8f64c069315329c222b62ceb8"
+RPM_NAME = "pix-lang-3.0.2-1.1.noarch.rpm"
+RPM_HASH = "ff1bf9c81b35bb2a90512a6dc2dc85d82f2e8a8f90b2676332735529fdb378625ed95458ee0f31df7d6cb90ad95fc37d44135fb66216610b6c9570632d898416"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pix-af \

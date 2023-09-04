@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.13"
 
-RPM_NAME = "ghc-uniplate-doc-1.6.13-4.6.noarch.rpm"
-RPM_HASH = "b7562bc8733ea58abac1b72aae6d47c6d7e0be0c2666945caf2fb69bd5ae871d8833fc9455a57debad10e72ed8bac3d06c50e04cd1fd02a731e567cdf0b5759f"
+RPM_NAME = "ghc-uniplate-doc-1.6.13-4.10.noarch.rpm"
+RPM_HASH = "c67979d2b98386fc69bfcd9a42d5ae1ba7b8fb68246ec3bea96fd0ae9e3759aa2a14409230b12e48ddc3aa61826a6bdc833f43d21b7344d1200675f04f7aedaa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-uniplate-doc"

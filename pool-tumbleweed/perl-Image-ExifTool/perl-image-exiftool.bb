@@ -7,10 +7,10 @@ Pentax/Asahi, Phase One, Reconyx, Ricoh, Samsung, Sanyo, Sigma/Foveon and \
 Sony."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "12.64"
+PV = "12.65"
 
-RPM_NAME = "perl-Image-ExifTool-12.64-1.1.noarch.rpm"
-RPM_HASH = "a96fb6cb88e0cbe596b81e30ef1d07d0c0564bd9dfc302fd1f623af1271f40f8f9388bb2ef2960bc8d51b9a036744573ee78cc70f9b5b4fe81fb3947207d591f"
+RPM_NAME = "perl-Image-ExifTool-12.65-1.1.noarch.rpm"
+RPM_HASH = "6f78dce0513fa9ccf1c2b31a9d8041deab935335ac1604c9f765978ac7e9e69f99e0dc37c89571b71d1b9e7f77ae9360ce2c39cb33897d2ca515bf3aed9f831e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Image--ExifTool \
@@ -191,7 +191,7 @@ perl-Image--ExifTool--ZISRAW \
 perl-Image--ExifTool--iWork \
 perl-Image-ExifTool"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-File--RandomAccess"
 
 inherit rpm

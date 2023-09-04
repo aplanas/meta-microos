@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.27.7"
 
-RPM_NAME = "plasma5-workspace-devel-5.27.7-1.1.aarch64.rpm"
-RPM_HASH = "03f3df11853c0e00331b051d752976da6ec801f778a643fd1c0aa0c51f2fcf61e3b768db1869584027dccd9643450540a4d6c8216ca481992300ad7e7b475230"
+RPM_NAME = "plasma5-workspace-devel-5.27.7-3.1.aarch64.rpm"
+RPM_HASH = "ad3ed06c614ddb77bf49d5981baaf3206a347fcbc04049b15baf86ed6b27a969f723a76548191dc03f4bb62961ce0f534a5897793dd533c9786b2deaff35a7ea"
 
 RPROVIDES:${PN} += "cmake-KRunnerAppDBusInterface \
 cmake-KSMServerDBusInterface \

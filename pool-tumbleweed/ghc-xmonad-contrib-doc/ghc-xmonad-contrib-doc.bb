@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.17.1"
 
-RPM_NAME = "ghc-xmonad-contrib-doc-0.17.1-3.7.noarch.rpm"
-RPM_HASH = "a67cb7a0b113b400536377205fd6f195bc09ef7b97dd3e08c37a1bdb66d0d39d98646de710691b0b506c2b93dafabc2bea4a9ac0dcad637bd5cd30722eb6287d"
+RPM_NAME = "ghc-xmonad-contrib-doc-0.17.1-3.9.noarch.rpm"
+RPM_HASH = "421a73e5fe34328e3e7656e325a3666460c80e98060e017c77f9074ef16032914000df1d9d283b26ff9088ddbe633e4336be5d4f42ae5099c8b0cf409ea3d282"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-xmonad-contrib-doc"

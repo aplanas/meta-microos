@@ -2,10 +2,10 @@ SUMMARY = "Configuration tool for fcitx5"
 DESCRIPTION = "Configuration tool for fcitx5"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.0.17"
+PV = "5.1.0"
 
-RPM_NAME = "fcitx5-configtool-5.0.17-1.2.aarch64.rpm"
-RPM_HASH = "e012fd84cc4fc8d95464bf2b47620e9ade5e143fd07b0933996009575f0514f1c7ac805801bfca95c748609438d7aea5d8a39d81613bcaa5686e9b2264a4f373"
+RPM_NAME = "fcitx5-configtool-5.1.0-1.1.aarch64.rpm"
+RPM_HASH = "62887480c686b260a300a879bee75541e6115699435c65bfa5ab798185987785ae84b46da5a84f66e4b85099a33fe9ee29885809344d255868513e7dad5fb287"
 
 RPROVIDES:${PN} += "fcitx-config-gtk3 \
 fcitx5-configtool \

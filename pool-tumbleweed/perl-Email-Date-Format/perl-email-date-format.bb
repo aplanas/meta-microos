@@ -6,14 +6,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.008"
 
-RPM_NAME = "perl-Email-Date-Format-1.008-1.2.noarch.rpm"
-RPM_HASH = "560950d86a6bcf7a0da33a498365e9a1312ca180c1236732fafb2db17781b53ae854d3f903bae9d6f0eaedb83f31e04b111c355ccbfedd119cf824f6910e4fc9"
+RPM_NAME = "perl-Email-Date-Format-1.008-1.3.noarch.rpm"
+RPM_HASH = "0dc9d0a0cbeac4f85aa053e0f7efd497a15975467f01c3eb0a3d950fd0841220ffb26e16af8550de73dea2201163e65ff954338be122887e94fc1901ca858369"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Email--Date--Format \
 perl-Email-Date-Format"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Time--Local"
 
 inherit rpm

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.5"
 
-RPM_NAME = "libsemanage-conf-3.5-1.9.aarch64.rpm"
-RPM_HASH = "734d1ab0f69b9861a9da0b9324a6374199993f57403b182c3319ba3944783912946795517e3e5ca37802ee5c9c0d80c84b49c2c537659a8ce7c22b88482989b2"
+RPM_NAME = "libsemanage-conf-3.5-2.1.aarch64.rpm"
+RPM_HASH = "60551e26e3bc2b015b07a31e406a7514ddba1b3b058f282ce1c04e1339e71dbc7bdd47c58145ed21f83e6361816f5beea00f2085288152bdb5b33a94cb282219"
 
 RPROVIDES:${PN} += "config-libsemanage-conf \
 libsemanage-conf"

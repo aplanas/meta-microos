@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.3"
 
-RPM_NAME = "ghc-zip-archive-doc-0.4.3-1.2.noarch.rpm"
-RPM_HASH = "0a4b89ff90f88b9758c485365b8c78993e1869bf6f7eaa7c730cc1f7e3e8e973645317cd9b80c9f1b4b2de543887f230a01a82c1ca3d2284b801d95524b43e96"
+RPM_NAME = "ghc-zip-archive-doc-0.4.3-1.3.noarch.rpm"
+RPM_HASH = "2b33e2647e04ca051f6c1712836ad4d60544a8e8a27d17343ed4ffe6fe6b6ca760b151774f03cb1c59e24f3c0e1c483ba20c06fd15036ebeaaab9bd3cf35c391"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-zip-archive-doc"

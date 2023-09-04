@@ -4,15 +4,15 @@ LICENSE = "MIT"
 
 PV = "1.0.9"
 
-RPM_NAME = "ghc-isocline-prof-1.0.9-1.6.aarch64.rpm"
-RPM_HASH = "42ea02153281b190c536e0178ecfa85c6e9a780037f161882201ed79e262c29f004268fc5ae4420f2b05f35fd0ba98d532643dfb3aaf772adfa196b1ff39c81f"
+RPM_NAME = "ghc-isocline-prof-1.0.9-1.8.aarch64.rpm"
+RPM_HASH = "180c2abf1c2a21a7a07246fe688a3e758f4486b024e3aaa5fc041b6dee1de410331aacd04b469b05a2d9e33cc4a415b02a147b13098c21326d3b45b6d676bfab"
 
 RPROVIDES:${PN} += "ghc-isocline-prof \
-ghc-prof-isocline-1.0.9-7x8dFWbXh69GJxYhigSqXG"
+ghc-prof-isocline-1.0.9-5gDpTZgmtmsDJNf9j9fI7b"
 
 RDEPENDS:${PN} += "ghc-isocline-devel \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-bytestring-0.11.4.0 \
+ghc-prof-base-4.17.2.0 \
+ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-text-2.0.2"
 
 inherit rpm

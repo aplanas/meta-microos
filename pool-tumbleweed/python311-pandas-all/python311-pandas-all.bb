@@ -11,10 +11,10 @@ because they are not available as openSUSE RPM packages: \
 You can install them directly through `pip3 install --user`, if needed."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.2"
+PV = "2.0.3"
 
-RPM_NAME = "python311-pandas-all-2.0.2-4.1.noarch.rpm"
-RPM_HASH = "ff7b3dfead958187b48f7db277f81faa92c294af9b82c91aedf83045c0c3877e9545e118d78afd1a3e36179973bc323a73ff10e642e11fe7a748b84daa4749da"
+RPM_NAME = "python311-pandas-all-2.0.3-1.2.noarch.rpm"
+RPM_HASH = "a7274c387f4cf7abb8429a6548bc9ef342695309566571e47f40b3b027eaba61af78e39e5f3977e9c206b8845d0520164da481ffcbc8c3accb43452d69aa5818"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pandas-all \

@@ -22,13 +22,13 @@ LICENSE = "Apache-2.0"
 
 PV = "1.01"
 
-RPM_NAME = "perl-Test-MockRandom-1.01-1.23.noarch.rpm"
-RPM_HASH = "f2d77324f2ad1a6abc92ac90ce5ef0f395f65a56ed36d5368c00a24924868f95cf865e91c634d9a0011466fae5ecdf71a192ff4b688b99d70e0f2ffa7f36e0a8"
+RPM_NAME = "perl-Test-MockRandom-1.01-1.24.noarch.rpm"
+RPM_HASH = "1dbd232f5a34b1e0d71d9360c49b8789c47efbf13c1b75a083f690163641a7c681cdafad670424be583f81a591968efbc54005dfe2c7784c2052550bc9502763"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--MockRandom \
 perl-Test-MockRandom"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

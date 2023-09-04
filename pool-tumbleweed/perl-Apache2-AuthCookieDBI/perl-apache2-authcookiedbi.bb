@@ -47,15 +47,15 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.19"
 
-RPM_NAME = "perl-Apache2-AuthCookieDBI-2.19-1.15.noarch.rpm"
-RPM_HASH = "e2db8ec76104fc1afcc6034a6b54869020bfb778165b98ee17cfa28d75d58c598db8478b7daac44bcbfdd19619c289fcf51c7f31fcd4e2a31ab26a4a1f777282"
+RPM_NAME = "perl-Apache2-AuthCookieDBI-2.19-1.16.noarch.rpm"
+RPM_HASH = "a0c732620beec75b0b59ef0570c9cfdad8322c523cf2adf01962ee5aca6fd44336cbefbbd4b514110ebd168908611fa05ea27ddd09bd8c098e2911d67673837a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Apache2--AuthCookieDBI \
 perl-Apache2-4--AuthCookieDBI \
 perl-Apache2-AuthCookieDBI"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Apache2--AuthCookie \
 perl-Apache2--Const \
 perl-Apache2--RequestRec \

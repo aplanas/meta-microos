@@ -18,15 +18,15 @@ LICENSE = "MIT"
 
 PV = "1.7.4"
 
-RPM_NAME = "python310-python-lsp-server-1.7.4-1.1.noarch.rpm"
-RPM_HASH = "2192b215a787c6e6f21414b6d12d18db5f575ee8ce87a72d8405cf5e85720f88b53a0ef88800be6d885ddbc564bbc3bc902d093b222779b04c9a2081a5982ad5"
+RPM_NAME = "python310-python-lsp-server-1.7.4-2.1.noarch.rpm"
+RPM_HASH = "c72eca4d5410f71760c8bba024eb0f4727e8ef376899d1de4d090558087a175552461c00680b6f01929ebb0f94af3c4d755cab371a53fb75cdd27590528c932d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-python-lsp-server \
 python310-python-lsp-server \
 python3dist-python-lsp-server"
 
-RDEPENDS:${PN} += "-python310-jedi >= 0.17.2 with python310-jedi < 0.19.0 \
+RDEPENDS:${PN} += "-python310-jedi >= 0.17.2 with python310-jedi < 0.20 \
 /usr/bin/python3.10 \
 /usr/bin/sh \
 python-abi \

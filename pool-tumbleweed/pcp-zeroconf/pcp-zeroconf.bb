@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-zeroconf-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "8f552a3a5a02399f401cd6b4972a7207a1ad678d17acb88c4537c2bf6e30e697897c410ec0ab8c2b2cd7f1480c12f9173cb8877bf8feb3295c8c53d2534fcf4b"
+RPM_NAME = "pcp-zeroconf-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "1ecc85f665906c70e70046ca761ea532ca292ce59100c1829a0a7538f4f84bff259947d85fd328cdcd7eff3c636b79ce03324589d5d91569a740aa795d204315"
 
 RPROVIDES:${PN} += "config-pcp-zeroconf \
 pcp-zeroconf"

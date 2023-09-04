@@ -7,8 +7,8 @@ LICENSE = "Apache-1.0"
 
 PV = "2023.209.svn64350"
 
-RPM_NAME = "texlive-roboto-2023.209.svn64350-54.1.noarch.rpm"
-RPM_HASH = "57481e6e2ecaf2c33e785f1722c1aee5ad4bd743cf6267898373b0f9dafce3afea57f66037d509d4886859f2e151ed09631d0d894387643db804f2040a698f87"
+RPM_NAME = "texlive-roboto-2023.209.svn64350-54.2.noarch.rpm"
+RPM_HASH = "c8f82471b3334cbb889d0de916f281a2d31124c98e99fee7a26f08dbbc9108dcd99e08b5a38652cd9d5c38f171e57b6c7e9d607f2113e33385ebd628ff5f7fac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LGRRoboto-LF.fd \

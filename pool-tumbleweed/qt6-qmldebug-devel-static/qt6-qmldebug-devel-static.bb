@@ -1,12 +1,12 @@
 SUMMARY = "Qt6 QmlDebug static library"
 DESCRIPTION = "The Qt6 QmlDebug static library. \
 This library does not have any ABI or API guarantees."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "qt6-qmldebug-devel-static-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "36b6f8fb0473720e78d8d776c9cf7b5b663e163a8aa471cbb0a7b7e73032ba5446fcbf2ca7e2b33fbdec8c57efcc744b7033bb33de4ca90974ded4e9df0fa7f2"
+RPM_NAME = "qt6-qmldebug-devel-static-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "4762d40a3ff9d24a989629af42a756a9e9685481ed01e0a1a34011c84208d7e4e600b92f8635b88155ec4ecd1897c6b65d8fec9962b37400d10a5747436ba42d"
 
 RPROVIDES:${PN} += "cmake-Qt6QmlDebugPrivate \
 qt6-qmldebug-devel-static \

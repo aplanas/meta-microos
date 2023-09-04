@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "15.0"
 
-RPM_NAME = "gtk4-branding-openSUSE-15.0-2.23.noarch.rpm"
-RPM_HASH = "93e619ced266035b43adc58162c49106704bb47478bdff6f0407db77b3ff873cb458965ecdaf8460478dd423b53d6c37c85c08ecb2c5fc568522e670cab8a478"
+RPM_NAME = "gtk4-branding-openSUSE-15.0-2.25.noarch.rpm"
+RPM_HASH = "fa74562995f69f12fa20b4c062d4e69fe0afe39d90c4f1d1636ab5108dae44f382939b88bc6227abe60a86d1d2283c74b79b86536c5f3ddcc2ffae50573ef318"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk4-branding \

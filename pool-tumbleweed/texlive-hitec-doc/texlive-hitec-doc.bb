@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.0betasvn15878"
 
-RPM_NAME = "texlive-hitec-doc-2023.209.0.0.0betasvn15878-54.1.noarch.rpm"
-RPM_HASH = "2ef2c5a9d5b21ffdc5d43f9d1094668931012a2dda696b50651352dd0aaef1a657375cb6fcedf5add4d6e375fc9f916524543a11f90c9660396793a123e51deb"
+RPM_NAME = "texlive-hitec-doc-2023.209.0.0.0betasvn15878-54.2.noarch.rpm"
+RPM_HASH = "18461b5546dc77e456e3850cfd083fca7e7be28e823ce2185f168d80c43f866a0eb2bff076b34d679306575e6cd17ae2f1814673c61a7ae56094ba3f332739d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hitec-doc"

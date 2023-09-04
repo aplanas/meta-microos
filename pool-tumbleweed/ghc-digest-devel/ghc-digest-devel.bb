@@ -4,16 +4,16 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.0.1.7"
 
-RPM_NAME = "ghc-digest-devel-0.0.1.7-1.6.aarch64.rpm"
-RPM_HASH = "03d94c9a0f8413da9f008d29f469e021b7ad517f40e24d301398db4dd311a2168a636dc4ddd3d73b4575c1d9a024a0291013090c0f583b42ff0cd077158038f6"
+RPM_NAME = "ghc-digest-devel-0.0.1.7-1.8.aarch64.rpm"
+RPM_HASH = "8c96cf55a8870b1ef1442172a57c5c11c7b992cf2721b6f3fcb27cf96f3e3758e6e6345b6624cc3c452e1f571069141b56f9534f9b8f5430ff7c6af1f595cada"
 
-RPROVIDES:${PN} += "ghc-devel-digest-0.0.1.7-CCCN8814sFy3HuiyT8t94G \
+RPROVIDES:${PN} += "ghc-devel-digest-0.0.1.7-x22LVSWrXSB7L6QfE4JoE \
 ghc-digest-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0 \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1 \
 ghc-digest \
 pkgconfig \
 pkgconfig-zlib"

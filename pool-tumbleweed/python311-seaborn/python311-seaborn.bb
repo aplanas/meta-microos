@@ -24,8 +24,8 @@ LICENSE = "BSD-2-Clause & BSD-3-Clause & MIT"
 
 PV = "0.12.2"
 
-RPM_NAME = "python311-seaborn-0.12.2-1.5.noarch.rpm"
-RPM_HASH = "28e8ed40d0b850bed6f49760af07ec4fc376687bc86f5827ae7a9d3ba54d112734444142c38ce1434ba29c060290f695c43b19b6e36d0ce31787067c65217f8c"
+RPM_NAME = "python311-seaborn-0.12.2-2.1.noarch.rpm"
+RPM_HASH = "275eaa83f8e765a7e8904518b526b8fad48ab53bc794f00fbcbefcf92a4ea1f8490a18105aa450b8a02013341a90ec5c2d7b9d61ffa961fd1e8500e7c2b5faa2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-seaborn \

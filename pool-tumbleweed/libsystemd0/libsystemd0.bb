@@ -20,10 +20,10 @@ DESCRIPTION = "This library provides several of the systemd C APIs: \
   user status information on the local system."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "253.7"
+PV = "253.8"
 
-RPM_NAME = "libsystemd0-253.7-2.1.aarch64.rpm"
-RPM_HASH = "aec7f8d79175642ba94a17aa8d63a046f1433cb5f40ce4dd93f4e56cd76bcc6a86c8984482a30ec7ab67fa029b2a8ed3848219aa4981e04cde20130d367aba92"
+RPM_NAME = "libsystemd0-253.8-1.2.aarch64.rpm"
+RPM_HASH = "413f8657c4e81a85b0327da7d897cfe8c04fceb8f9a0f550e5de65a6286290070d54c7c56191fe9f58fa1859d89706b9995f08d0839483091d4b69c9e037b447"
 
 RPROVIDES:${PN} += "libsystemd.so.0 \
 libsystemd0"

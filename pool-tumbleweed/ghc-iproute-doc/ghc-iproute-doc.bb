@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.7.12"
 
-RPM_NAME = "ghc-iproute-doc-1.7.12-2.7.noarch.rpm"
-RPM_HASH = "325cf4ed50a3eb794223dd030f49c207022d964ac1ee13d1a66d83f1be5ab6a50230a2c8d80985ba09dd7e3554234eb2079f2fdd17f3a7ed9d38f50d2606ed3a"
+RPM_NAME = "ghc-iproute-doc-1.7.12-2.9.noarch.rpm"
+RPM_HASH = "4fec35864501717ba60c8636ad797424dee7a76c596156e2dfc5cbac3b233e12cdd7cb989a743dea6c2b444ed402892771660d6daeaba5d2d5ba8786aff0a480"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-iproute-doc"

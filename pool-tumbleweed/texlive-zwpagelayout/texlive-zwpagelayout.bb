@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.4esvn63074"
 
-RPM_NAME = "texlive-zwpagelayout-2023.209.1.4esvn63074-53.1.noarch.rpm"
-RPM_HASH = "3a18f38520839eed6e7aa4bfd360b847e1ec4a865d5863c8baee1baa265b993271f1a9329a655cf5cdde0934198b54da10cbadc20a11256ddc8804adb72bc142"
+RPM_NAME = "texlive-zwpagelayout-2023.209.1.4esvn63074-53.2.noarch.rpm"
+RPM_HASH = "43f8df6ac8a061ad5b419c471c706bc60b5fd697ba9132ac1759ddc277138765016fa38607bc5f3a9a561f4a6a4e1ed56968efaa51ce2fffdd4a702c412d3abb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zwpagelayout.sty \

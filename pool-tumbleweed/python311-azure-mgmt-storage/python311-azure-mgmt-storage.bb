@@ -7,10 +7,10 @@ replace the old Azure Service Management (ASM). \
 This package has been tested with Python 2.7, 3.5, 3.6, 3.7 and 3.8."
 LICENSE = "MIT"
 
-PV = "21.0.0"
+PV = "21.1.0"
 
-RPM_NAME = "python311-azure-mgmt-storage-21.0.0-1.4.noarch.rpm"
-RPM_HASH = "04eda929094775dc6a79e576b43826163c6b54ed01bdfeb599c0cd8d483faa09cc613eae5fdb09489774c5f73a9d2aa0767cd916b74d9cc948f1511f68b2a0f6"
+RPM_NAME = "python311-azure-mgmt-storage-21.1.0-1.1.noarch.rpm"
+RPM_HASH = "9e1ea48a330ef486a89deba1daccf606f441faf29d2becfa9abd1e4d46a026ec6fdca94468afc9735194b0ddc65d21794046637e85989985433795514746f4fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-storage \
@@ -23,6 +23,6 @@ python311-azure-common \
 python311-azure-mgmt-core \
 python311-azure-mgmt-nspkg \
 python311-azure-nspkg \
-python311-msrest"
+python311-isodate"
 
 inherit rpm

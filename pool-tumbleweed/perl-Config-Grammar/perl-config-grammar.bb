@@ -22,8 +22,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.13"
 
-RPM_NAME = "perl-Config-Grammar-1.13-1.16.noarch.rpm"
-RPM_HASH = "a9b9172e8a70be0f3f654437aecead19c1ddcc61e31513f172d6efe4e8f71c767f846469df217217f97bf141a72fa5656561b2f75e060dfa930918eb2b49a920"
+RPM_NAME = "perl-Config-Grammar-1.13-1.17.noarch.rpm"
+RPM_HASH = "89864366aaf16566bcbc8169f7a13f02d45c9f06536c94d0c67053cdec5048584ca792a3a5ad5e9203f3390140b25553ee08d128dcf9aad8d387e5cc78bbd92a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Config--Grammar \
@@ -31,6 +31,6 @@ perl-Config--Grammar--Document \
 perl-Config--Grammar--Dynamic \
 perl-Config-Grammar"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

@@ -15,8 +15,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "2.14"
 
-RPM_NAME = "perl-Mojolicious-Plugin-AssetPack-2.14-1.2.noarch.rpm"
-RPM_HASH = "fb0ffdb5a3e41e94417251d1847cb71a6a2e9458105a2ab900af5296b4773314f94a6b93ab79c7a8aa50160b2b03394789d0d3c145ac858cf582f78f3b79a305"
+RPM_NAME = "perl-Mojolicious-Plugin-AssetPack-2.14-1.3.noarch.rpm"
+RPM_HASH = "9090a50cfa2776f59ee5988531d1ccc6811be363f3bdd6fcf751116c10b896b833be397e6371d3c5c243f4d802f8db8bc9b0768bd4b6379559a679d962ba17fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojolicious--Plugin--AssetPack \
@@ -42,7 +42,7 @@ perl-Mojolicious--Plugin--AssetPack--Util \
 perl-Mojolicious--Plugin--AssetPack--Util---chdir \
 perl-Mojolicious-Plugin-AssetPack"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-File--Which \
 perl-IPC--Run3 \
 perl-Mojolicious"

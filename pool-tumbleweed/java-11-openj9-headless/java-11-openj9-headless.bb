@@ -4,10 +4,10 @@ DESCRIPTION = "The OpenJDK 11 runtime environment without audio and video suppor
 Supported architectures are ppc64le, s390x and x86_64"
 LICENSE = "Apache-1.1 & Apache-2.0 & EPL-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
 
-PV = "11.0.18.0"
+PV = "11.0.20.1"
 
-RPM_NAME = "java-11-openj9-headless-11.0.18.0-2.3.aarch64.rpm"
-RPM_HASH = "70bb1e147a6a7082240a2614a258bfbdf48a5f03bba3454861dbe5b398aaa81fadee3676cfd6b5000d0f18207a3de5e701522b82cd7986d84e0d37eeb5a121c2"
+RPM_NAME = "java-11-openj9-headless-11.0.20.1-1.1.aarch64.rpm"
+RPM_HASH = "b8badb0b589c9f4e5cab4c7064d327133f1b0e82562397e1929b2b53b750a1b7bc22113b11b5df1400ca7a9cbe3f95ac834c9285b75c4e251914a5987e7dab46"
 
 RPROVIDES:${PN} += "config-java-11-openj9-headless \
 jaas \
@@ -41,6 +41,7 @@ libinstrument.so \
 libj2gss.so \
 libj2pcsc.so \
 libj2pkcs11.so \
+libj9criu29.so \
 libj9dmp29.so \
 libj9gc-full29.so \
 libj9gc29.so \

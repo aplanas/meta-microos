@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only-with-GCC-exception-3.1 & GPL-3.0-or-later & LGPL-2.1-or-
 
 PV = "13.2"
 
-RPM_NAME = "gdb-13.2-1.1.aarch64.rpm"
-RPM_HASH = "ad926bbd93e55de0784c4e6e757f70d7f01f89bb316eb94494032b8d5f39eb6b42e239316202996d640473d92ae2db61f05f0dbd1cd211ac279b49f5e922b601"
+RPM_NAME = "gdb-13.2-2.1.aarch64.rpm"
+RPM_HASH = "bf36b0c86483e7a41186bd1398a0aced31a7fb7cd5c891301feb7d3f0e4d66174a321a95d2898cd7e22312dad886cfcb51846ca25de49e897c8446e6ca275465"
 
 RPROVIDES:${PN} += "config-gdb \
 gdb"

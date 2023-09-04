@@ -5,10 +5,10 @@ schemes. Migration commands are provided for make packages \
 using this mechanism compatible with each others."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.2svn36312"
+PV = "2023.209.0.0.2svn36312"
 
-RPM_NAME = "texlive-interchar-2023.208.0.0.2svn36312-53.1.noarch.rpm"
-RPM_HASH = "4d37536fbe6ffcce9f9ae80f5d119841b0530afc6102ad5ce80d9cd009c1c51336e90c968c1537221f60ad69237ea270f114e30aae2498d9bc968cae9d5f59ef"
+RPM_NAME = "texlive-interchar-2023.209.0.0.2svn36312-54.1.noarch.rpm"
+RPM_HASH = "f8b5ed15b5dd55aeda82e98ff62415d9c81e69b96ecb5652637de91716bdde12f931a78a444b189423591a240c00d9b587c9533b4dd2b56499ad168e48ed314c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-interchar.sty \

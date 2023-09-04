@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.12.2"
 
-RPM_NAME = "grandorgue-demo-3.12.2-1.1.noarch.rpm"
-RPM_HASH = "8df83199a0b0fa7659bfeb4f3bfa65da7e73955087edf86e2274a27da77086a9db2f2e167a3d0e53b0e1a371a4ecc36fafdd324248463b7e2d9ccb71db36f8e8"
+RPM_NAME = "grandorgue-demo-3.12.2-1.2.noarch.rpm"
+RPM_HASH = "7b91d375512a9ed0c14bf3c051268c0efd7630545faf40647489ff6689e563130396776fa7c01ac60929128d96886aa998b68e90901b79da3c64ff829665aead"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grandorgue-demo"

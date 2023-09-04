@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.13.10.0"
 
-RPM_NAME = "gtk2hs-buildtools-0.13.10.0-1.3.aarch64.rpm"
-RPM_HASH = "e4804132d38d9b405a034d7e747b325b05ee9e1ac64c6c8e2444be4c993b70fdb86341fc9c70519c7ed13e00b47d284d4ce8f478a54a2c56ed15bbfd949b724b"
+RPM_NAME = "gtk2hs-buildtools-0.13.10.0-1.6.aarch64.rpm"
+RPM_HASH = "9f59af93629101eb93d0e129a793e37e915472fe6a3fa13e96cb3885a7a5140034c7e9cd8e175eeead8f3289ff0d1075af3675631ff00893a72dce7a202bc1bf"
 
 RPROVIDES:${PN} += "gtk2hs-buildtools"
 

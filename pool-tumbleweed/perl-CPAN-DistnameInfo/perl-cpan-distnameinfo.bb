@@ -59,13 +59,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.12"
 
-RPM_NAME = "perl-CPAN-DistnameInfo-0.12-13.27.noarch.rpm"
-RPM_HASH = "7b29aac9d2ec2271fdde05b8c39050aeedc0057906fc4d5875f2dae0fac3db8359cdef893d1dcb00a6fa53d35db54cacf7de70fb08b17cb08b4f562292c22b5d"
+RPM_NAME = "perl-CPAN-DistnameInfo-0.12-13.28.noarch.rpm"
+RPM_HASH = "0303f097a41cdaf0748b79d77c61dee368bbfba6888769c8d58ccfd0df5be596720bc5b5b1bb5bc5998b4d13aae8f3e9cc5fa651e2b27e33b0e747b97dfe473e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CPAN--DistnameInfo \
 perl-CPAN-DistnameInfo"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

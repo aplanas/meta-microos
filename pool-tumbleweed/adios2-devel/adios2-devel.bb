@@ -6,10 +6,10 @@ This package contains all files needed to create projects that use the \
 serial version of ADIOS2."
 LICENSE = "Apache-2.0"
 
-PV = "2.9.0"
+PV = "2.9.1"
 
-RPM_NAME = "adios2-devel-2.9.0-1.1.aarch64.rpm"
-RPM_HASH = "2656b1a900bd0e154d35ca4c7b4462a7cdc003e1b19d12fc796777c69dda480fb5c8b376f9df7fe70b225d731635b0488d2535beb431c7c6e54a7b544904c483"
+RPM_NAME = "adios2-devel-2.9.1-1.1.aarch64.rpm"
+RPM_HASH = "a3ecc96ee4de207e8380092901c8aafc74b800aa920372d7b43a908445db406a0c5afd2b42e5a66f1b7bd7ed8c89cd73e2d6973b482aa695ace12636a1b28b57"
 
 RPROVIDES:${PN} += "adios2-devel \
 cmake-FindPkg \

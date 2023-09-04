@@ -4,10 +4,10 @@ Geronimo Gil for the publication of Don Quixote for the Real \
 Academia de la Lengua in 1780. Joaquin Ibarra was the printer."
 LICENSE = "OFL-1.1"
 
-PV = "2023.208.svn64567"
+PV = "2023.209.svn64567"
 
-RPM_NAME = "texlive-ibarra-2023.208.svn64567-53.1.noarch.rpm"
-RPM_HASH = "a9930f91173018772a4e94bc12ff78da589f0a85cf08d4ba2f900e20b192cfa65d05b9f96a90bc08a831c6463f54ed3eb4e658c191b02d94cf983f11567557c6"
+RPM_NAME = "texlive-ibarra-2023.209.svn64567-54.1.noarch.rpm"
+RPM_HASH = "822b42d3a480560a40c3fc7e8f4058f25d5ef14eb16f335a33fc08b59bca59b47ee73e40afdb48a8197d8d38b85fac4b61181ed5ae352c1fca7eb714c4480367"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-IbarraRealNova-Bold-lf-ly1--base.tfm \

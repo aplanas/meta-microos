@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.1"
 
-RPM_NAME = "libgdm1-44.1-2.1.aarch64.rpm"
-RPM_HASH = "43ac80ff3e346740d6f5a0f980e0c0152e942ced13fd85c41ffb0a3bc1070fed9bcf05ab22706c92e50c4a80699a74430d1c13ddebdcd615b23295cfcf1fe6b7"
+RPM_NAME = "libgdm1-44.1-3.1.aarch64.rpm"
+RPM_HASH = "0bad4a6d10cb46a24756b306a8f6b22627ec09b425cc4442761ecc0fceaae58bc04f3813f6f1e75e76d2e346a861349d4cfd0469cde610d3251c14f5974b7770"
 
 RPROVIDES:${PN} += "libgdm.so.1 \
 libgdm1"

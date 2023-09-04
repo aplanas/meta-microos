@@ -14,8 +14,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.5svn20318"
 
-RPM_NAME = "texlive-refstyle-2023.209.0.0.5svn20318-54.1.noarch.rpm"
-RPM_HASH = "59463c1b76cbe7d45d6b5b44ea9ab97ae1a1be1d2e2ee0f414aa0284f30eef77edbdb5fac4b3ebf9f392ceafb07c1b7bc1ab625f1e820bf00ebae4a028c7264d"
+RPM_NAME = "texlive-refstyle-2023.209.0.0.5svn20318-54.2.noarch.rpm"
+RPM_HASH = "5aec0cce4b197a7bc82bb0963bdb7f67f24173a750a26bd4c41f2749fbda4ab4ceaf162035d529329a970f479d7d64a93d876d521b6ff96791fd4b375936c9ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-refstyle.cfg \

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.2"
 
-RPM_NAME = "jupyter-sidecar-jupyterlab-0.6.2-5.5.noarch.rpm"
-RPM_HASH = "04a48dc2b24dafbfb085fad52a95e4b69d4b85ceff96349fe5ae36e06d35d21b6adfc71f4ed7f04fa2d7f9a7a16fc2efd8c94a508d7d835765f549b92486cae0"
+RPM_NAME = "jupyter-sidecar-jupyterlab-0.6.2-6.1.noarch.rpm"
+RPM_HASH = "513c7ef7f518bb5a316dfdb0d2f35072050e3fe2dacb4e8d4177a2d3c919f23bd1583aedca911e131bdc46af30937dd8549ecd0f8629e15cb396ab98162ea98e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-sidecar-jupyterlab"

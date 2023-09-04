@@ -5,10 +5,10 @@ functionalities. Weston's own reference compositor also makes use of \
 this."
 LICENSE = "CC-BY-SA-3.0 & MIT"
 
-PV = "12.0.1"
+PV = "12.0.2"
 
-RPM_NAME = "libweston-12-0-12.0.1-1.2.aarch64.rpm"
-RPM_HASH = "455390c9c97007578d60c139f1fda19e0a13fbb340dd09c46948b25a6a9e11ff4ac45add71b1a7dd64ed9f825f6bf76d04d41da2540fabe5773977aa8063c5d8"
+RPM_NAME = "libweston-12-0-12.0.2-1.1.aarch64.rpm"
+RPM_HASH = "5fa4a608fc9558810370ebb18ece300e1ded74294b9e0de6432c46ef77485f30e3fee1674e3bd54f4b83569396499250ccb996f69cf301170620c87d0582afa0"
 
 RPROVIDES:${PN} += "libweston-12-0 \
 libweston-12.so.0"

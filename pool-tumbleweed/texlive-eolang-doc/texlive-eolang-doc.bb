@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.12.1svn66274"
 
-RPM_NAME = "texlive-eolang-doc-2023.209.0.0.12.1svn66274-54.1.noarch.rpm"
-RPM_HASH = "5b65b8a0457f3bb7b2cee7f0d58f7b78a00415566362a273706ac326e6c8c8f44d490fbf760e5a402802745480b2de458541113e9dc998c0e237f44bd155be48"
+RPM_NAME = "texlive-eolang-doc-2023.209.0.0.12.1svn66274-54.2.noarch.rpm"
+RPM_HASH = "3de5e70bfd6426ad186cfeffe0a07b58e0d3f70e4cdcd8b7a2bea450535cf4116218a49092a35ccd8b847b6f35d4354ebc9b11169fec07caeb085b9053546dd4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eolang-doc"

@@ -2,12 +2,12 @@ SUMMARY = "A blocking, shuffling and lossless compression library"
 DESCRIPTION = "Blosc is a metacompressor (using actual algorithms like BloscLZ, LZ4, \
 LZ4HC, Snappy or Zlib) for binary data, with a focus on reducing \
 memory bus activity."
-LICENSE = "MIT & BSD-3-Clause & BSD-2-Clause"
+LICENSE = "BSD-2-Clause & BSD-3-Clause & MIT"
 
-PV = "1.21.1"
+PV = "1.21.4"
 
-RPM_NAME = "libblosc1-1.21.1-1.11.aarch64.rpm"
-RPM_HASH = "1f0c18640cc6d782e7aa0ff4e376fd4f6561f839e311c9882232f7c57f3f790995e36c3b02e058fb15ebc85c6bddff97b3a641b4ffe4debcb7d004a68b568d81"
+RPM_NAME = "libblosc1-1.21.4-1.1.aarch64.rpm"
+RPM_HASH = "d4f44852418583d0ada1f55ca29e7a3ac7fa44170a0c0b0db797504a3d5c3843d14f2b5f19adb997f3c7bc45a5d3822d88509b9580e48a03e097c8acfd6432c0"
 
 RPROVIDES:${PN} += "libblosc.so.1 \
 libblosc1"

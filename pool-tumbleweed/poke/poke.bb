@@ -5,10 +5,10 @@ procedural, interactive programming language designed to describe data \
 structures and to operate on them."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.2"
+PV = "3.3"
 
-RPM_NAME = "poke-3.2-1.1.aarch64.rpm"
-RPM_HASH = "07ee92ad7de063ccb900c9ba51d4f32666240558e042b48ff332fdf8a89188d3d9a0bd7261bdf96dd281e74a737c7b56b90fee589e14d9b9413c5123c6a8d66a"
+RPM_NAME = "poke-3.3-1.1.aarch64.rpm"
+RPM_HASH = "26349935447aee54288a77246e46a2b6edc5e137b0bc90e0a73462e0ae661c78fe09c0088018e70587b0a888b72493ef9206150b13402ff36834496a7fbe0158"
 
 RPROVIDES:${PN} += "poke"
 

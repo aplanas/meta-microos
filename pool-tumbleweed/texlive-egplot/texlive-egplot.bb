@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.1.02asvn20617"
 
-RPM_NAME = "texlive-egplot-2023.209.1.02asvn20617-54.1.noarch.rpm"
-RPM_HASH = "cbebd11c5fb439298bff7ca93cc56707ca776eabb60ffea7e3656b957435b449156c5ab4e68b1284fd33ee362f9a9e914d801298f425aadce4e0e60b25678e2f"
+RPM_NAME = "texlive-egplot-2023.209.1.02asvn20617-54.2.noarch.rpm"
+RPM_HASH = "a608e635ce23d23cc7a2cd69d14d56f0e0d256210365cc6f1d3ebbbabec3bee6d789658ba9a4d70fe2c8478b9b18600057bfcebff4131c9b9fb0215898e658ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-egplot.sty \

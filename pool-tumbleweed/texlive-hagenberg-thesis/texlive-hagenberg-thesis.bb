@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn65819"
 
-RPM_NAME = "texlive-hagenberg-thesis-2023.209.svn65819-54.1.noarch.rpm"
-RPM_HASH = "9f303d4925166cfb70d42168ec411fad10bafd44ff059f50bf55d6ff0555ee494cc7baa2ad64da69e4d8625de558c5ab6fcf4b1045e594a20e455dc00b89de4d"
+RPM_NAME = "texlive-hagenberg-thesis-2023.209.svn65819-54.2.noarch.rpm"
+RPM_HASH = "4391d1d503cad62da15edcc0bc6dd0ee6eb32f31b9f61710c776a7a2683416bc99da1cb9240cb8a638a5c0952f3dcbfa9a940505b3489fba9a357b883692f759"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hgb.sty \

@@ -5,10 +5,10 @@ by some modern PDF readers. Currently, only pdfTeX is \
 supported."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.1svn48147"
+PV = "2023.209.0.0.1svn48147"
 
-RPM_NAME = "texlive-hyperbar-2023.208.0.0.1svn48147-53.1.noarch.rpm"
-RPM_HASH = "cab6f78790d2273acf8f72d37190833cf4199c6698027167f678079f110f3e33884e6d97242ad87cc33dc46f60c3aea289cb1405238ad2b83df06014f41e3d22"
+RPM_NAME = "texlive-hyperbar-2023.209.0.0.1svn48147-54.1.noarch.rpm"
+RPM_HASH = "e68f4b3b29ec7cb75821fedbcdf9c977f1612a2783fdaec0ff8277c52f244b82488aeb48f615bf5caf1da70e5886e6195e6cde70a7867d98eda08a935acf8fc1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyperbar.sty \

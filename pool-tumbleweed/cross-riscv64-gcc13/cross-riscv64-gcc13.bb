@@ -2,10 +2,10 @@ SUMMARY = "The GNU Compiler Collection targeting riscv64"
 DESCRIPTION = "The GNU Compiler Collection as a cross-compiler targeting riscv64."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "13.1.1+git7597"
+PV = "13.2.1+git7683"
 
-RPM_NAME = "cross-riscv64-gcc13-13.1.1+git7597-1.1.aarch64.rpm"
-RPM_HASH = "e977cb46ce2f4914d3868ddd882533d84a29705c6de962a0984c27e1b091e01c5707024b7becf390e62ae68c2aecda997eed5ba688fa4f5c727c026ab7a5206e"
+RPM_NAME = "cross-riscv64-gcc13-13.2.1+git7683-1.1.aarch64.rpm"
+RPM_HASH = "652d6402062809b7fc33ca8ae50dc615897cbc9a5dffcc37562e8b32c8a4c76e6650237a045eba1593819212f746b992aadec7504523452d554f6e6c8de6f3f7"
 
 RPROVIDES:${PN} += "cross-riscv64-gcc13 \
 riscv64-suse-linux-gcc"

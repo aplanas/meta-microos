@@ -16,8 +16,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.1.1.2svn41378"
 
-RPM_NAME = "texlive-hook-pre-commit-pkg-2023.209.1.1.2svn41378-54.1.noarch.rpm"
-RPM_HASH = "6b4520f7d46f655a528dbb8c7342f6cc0d5bc13d673a68353705b9ab7d44115ad53cc683968a3e2ec883a063ea394b07d8777f24513f5370d527a6bf40f43e2c"
+RPM_NAME = "texlive-hook-pre-commit-pkg-2023.209.1.1.2svn41378-54.2.noarch.rpm"
+RPM_HASH = "39281b64f4e878fe19c768b79e4619d38f0323ad0ca5c9ae302c2b4a856189f242f117e0d14f357329b03f6ea4be7e7c53cf7400ac875faa031645d15884e658"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hook-pre-commit-pkg"

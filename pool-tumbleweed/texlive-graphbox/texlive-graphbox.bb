@@ -11,8 +11,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.1svn46360"
 
-RPM_NAME = "texlive-graphbox-2023.209.1.1svn46360-54.1.noarch.rpm"
-RPM_HASH = "5f51ca34f77f648107975d7bfcf1fe1a7ca8c684ee99df04f541accff1864d8205ff5a750f20b10775e90ea25ca5a87d3b35afabc3be8b1407e56759f198b296"
+RPM_NAME = "texlive-graphbox-2023.209.1.1svn46360-54.2.noarch.rpm"
+RPM_HASH = "33f06fbb4a219c71af6e3150b5c57182cee260395aceacdfc5ae2b30b001020c8974b7426ffc5b120170dbf165323f8d2553c31e3919c6ade3bcecd073bb26c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-graphbox.sty \

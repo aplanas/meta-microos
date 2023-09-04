@@ -6,10 +6,10 @@ which it only displays the most important information and the 'Advanced View' \
 in which all information and all control elements are available."
 LICENSE = "GPL-3.0-or-later | LGPL-3.0-or-later"
 
-PV = "7.22.2"
+PV = "7.24.1"
 
-RPM_NAME = "boinc-manager-7.22.2-1.1.aarch64.rpm"
-RPM_HASH = "0797de569dbf52c92195381605bff8b7562267160e54cd4921a3bbdc24bccb76dc159db0f06d11d90530137a2826f2383ad442e519f072da4189da634634f1d9"
+RPM_NAME = "boinc-manager-7.24.1-1.1.aarch64.rpm"
+RPM_HASH = "ae485cc7c175ffd34b0fc73d09e8459c2ca556336199f330a06b1f8376355b8884a4dc2e7fc9ece91c3d53a7bc207c9e423f3e76ce2fa2f3e891c2e4f9e6efd1"
 
 RPROVIDES:${PN} += "boinc-manager"
 
@@ -25,11 +25,10 @@ libgtk-x11-2.0.so.0 \
 libm.so.6 \
 libnotify.so.4 \
 libstdc++.so.6 \
-libwx-baseu-net-suse.so.3.0.5 \
-libwx-baseu-suse.so.3.0.5 \
-libwx-gtk2u-adv-suse.so.3.0.5 \
-libwx-gtk2u-core-suse.so.3.0.5 \
-libwx-gtk2u-html-suse.so.3.0.5 \
+libwx-baseu-net-suse.so.9.0.0 \
+libwx-baseu-suse.so.9.0.0 \
+libwx-gtk2u-core-suse.so.9.0.0 \
+libwx-gtk2u-html-suse.so.9.0.0 \
 libxcb.so.1"
 
 inherit rpm

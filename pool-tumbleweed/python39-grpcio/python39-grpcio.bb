@@ -4,10 +4,10 @@ and server applications to communicate, and enables the building of \
 connected systems."
 LICENSE = "Apache-2.0"
 
-PV = "1.56.0"
+PV = "1.56.2"
 
-RPM_NAME = "python39-grpcio-1.56.0-2.2.aarch64.rpm"
-RPM_HASH = "f37db2111fab4c616400a336b24a6593f222f9486ef88206c7fff754c9e3f661e3f51888cf7b865aa75b8f54068aace9213e39a7b54418eb87bedf49c5bb050d"
+RPM_NAME = "python39-grpcio-1.56.2-1.1.aarch64.rpm"
+RPM_HASH = "12c7c6827e35df7eca95d07ee59d123f677b99f291e05f48590d2dee58f290c9e78ebbaf54845944c5f7b5704645c9dcb08eef69d26fd717d63acabdb32267d8"
 
 RPROVIDES:${PN} += "python3.9dist-grpcio \
 python39-grpcio \
@@ -15,6 +15,25 @@ python3dist-grpcio"
 
 RDEPENDS:${PN} += "ca-certificates \
 ld-linux-aarch64.so.1 \
+libabsl-cord.so.2301.0.0 \
+libabsl-cordz-info.so.2301.0.0 \
+libabsl-flags-internal.so.2301.0.0 \
+libabsl-flags-marshalling.so.2301.0.0 \
+libabsl-flags-reflection.so.2301.0.0 \
+libabsl-hash.so.2301.0.0 \
+libabsl-random-internal-pool-urbg.so.2301.0.0 \
+libabsl-random-internal-randen-hwaes-impl.so.2301.0.0 \
+libabsl-random-internal-randen-slow.so.2301.0.0 \
+libabsl-random-internal-randen.so.2301.0.0 \
+libabsl-raw-hash-set.so.2301.0.0 \
+libabsl-spinlock-wait.so.2301.0.0 \
+libabsl-status.so.2301.0.0 \
+libabsl-statusor.so.2301.0.0 \
+libabsl-str-format-internal.so.2301.0.0 \
+libabsl-strings.so.2301.0.0 \
+libabsl-synchronization.so.2301.0.0 \
+libabsl-time-zone.so.2301.0.0 \
+libabsl-time.so.2301.0.0 \
 libc.so.6 \
 libcares.so.2 \
 libcrypto.so.3 \

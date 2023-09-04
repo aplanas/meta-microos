@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 LabsSettings library - Development files"
 DESCRIPTION = "Development files for the Qt 6 LabsSettings library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "qt6-labssettings-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "d3ec37b40f0db11d06a2a6f89fd3f8495a04d639cd83acd898c107f8a39de08245ecb85c01d21a292115c1a3df667a705ce5b6c0a043b7d40180bf6d2ae4b38b"
+RPM_NAME = "qt6-labssettings-devel-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "73e056f0d5d8e479b2f7226c6d1af6f36b89521846a388997a18e23f3d10b604028d2d07eaffab9e0d0dbdaf5fa8926e9c179e55cd84dd67fab2f327fb3c1871"
 
 RPROVIDES:${PN} += "cmake-Qt6LabsSettings \
 pkgconfig-Qt6LabsSettings \

@@ -6,10 +6,10 @@ This package used to be called ``pep8`` but was renamed to ``pycodestyle`` \
 to reduce confusion."
 LICENSE = "MIT"
 
-PV = "2.10.0"
+PV = "2.11.0"
 
-RPM_NAME = "python310-pycodestyle-2.10.0-6.1.noarch.rpm"
-RPM_HASH = "5fb9f2dcfa0eda6894e641fae1d56b76d91b6e2b2013e87c2077ce18ccce26db670b0bcb5cb72b1a6730de42dac54b2a0482be3a13916f6971db07b68e28fba1"
+RPM_NAME = "python310-pycodestyle-2.11.0-1.1.noarch.rpm"
+RPM_HASH = "5df8f222e9b5ee1d478ed96211bc5da8738ca564fa976722de4f564f42ed892a5d14abb77c3f4e2d1440910d5da491b15b0daeaf8769130a485de7d502986f84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-pycodestyle \

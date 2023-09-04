@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3000.2.2.1"
 
-RPM_NAME = "ghc-xhtml-doc-3000.2.2.1-3.2.noarch.rpm"
-RPM_HASH = "02e633feb1582bba21b9820e533727425c93fea8c30528bdc3b77462ee35bf6a1c71de79487fd6cdaf0fa914bc0336b3b1e14d4798ad9cd7b94e9f66ad7d4f32"
+RPM_NAME = "ghc-xhtml-doc-3000.2.2.1-1.1.noarch.rpm"
+RPM_HASH = "067efc1ac968533ca706e76758253b3c46c51664379626470f786dc410ef7badf189a1a26bfa443a39e20c32a2627a151a42d87594031ad80a54d104310827dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-xhtml-doc"

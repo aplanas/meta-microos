@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230320"
 
-RPM_NAME = "libsmraw-devel-20230320-1.8.aarch64.rpm"
-RPM_HASH = "2cd53fd6686ece2c544fed95712e2ab98a02aea7100cf1d2a1651633f7299c9cae07772bc3d3bf5f295ca27c13a74b52918a6c4b9674a1ae38be5de4c510d1d7"
+RPM_NAME = "libsmraw-devel-20230320-2.1.aarch64.rpm"
+RPM_HASH = "4f8031c8a10339abc84708adf11e8aa0157902776b1edd6bdcfc020d659f649843fa79eef8fa6fa9b29de5879284dc1ef2106a606a41c0c47848be1e47891c47"
 
 RPROVIDES:${PN} += "libsmraw-devel \
 pkgconfig-libsmraw"

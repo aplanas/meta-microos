@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.4.34asvn61719"
 
-RPM_NAME = "texlive-pst-solides3d-doc-2023.209.4.34asvn61719-54.1.noarch.rpm"
-RPM_HASH = "2189fe165e68830d01382332d78b98fefd3b7a14ace5a7018591d7b6e3607bd26b96648a4caf14ab5d2c5035dbef6669bc346b4228887c18ae23e95efc72b8bc"
+RPM_NAME = "texlive-pst-solides3d-doc-2023.209.4.34asvn61719-54.2.noarch.rpm"
+RPM_HASH = "a13e0e58c40000fb5476419ea162e29ec12f091e49728901b8c4133ebde758ac25c37db7fee06f3ccb876439affedd473ac826da85a9cd4d0116e103f803c417"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pst-solides3d-doc-en \

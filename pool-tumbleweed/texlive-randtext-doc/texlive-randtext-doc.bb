@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-randtext-doc-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "5e25d8da2c8d172fb5e3f3ac0fecb70895ac33812a2b0da1dde6f099db86a9685a19b00aefcf10f4c1ad06e5b1cf633cdd6d4b7aa349c628a780e5b31702bf87"
+RPM_NAME = "texlive-randtext-doc-2023.209.svn15878-54.2.noarch.rpm"
+RPM_HASH = "355fb9014d92999eaa9420fdfa155aeab60c0b1a053af0c09f3b066b499cac707497f8d22f99e49aa2cb24aff404bac541b96cd0db895b6ecf4dc6258df2cf89"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-randtext-doc"

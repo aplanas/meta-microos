@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.5.18"
 
-RPM_NAME = "whois-bash-completion-5.5.18-1.1.aarch64.rpm"
-RPM_HASH = "285838767ecb8aa2bee3f7cca011280625259842d995eedd6e2708bdaa7846a6249a4464068f8e6109c37bde71f6900fab471b7212ee6a6359fe91775c02fe30"
+RPM_NAME = "whois-bash-completion-5.5.18-1.2.aarch64.rpm"
+RPM_HASH = "e8f9391e3e278ba3ea45afafdb2eb9bee5ef6a031b479fda26043a10b8a8729d2ac385c39cdb2a432b569d065f8560482ec80459ff2cb38da15067c843f46167"
 
 RPROVIDES:${PN} += "whois-bash-completion"
 

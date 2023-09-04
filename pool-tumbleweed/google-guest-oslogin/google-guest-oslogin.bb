@@ -2,10 +2,10 @@ SUMMARY = "Google Cloud Guest OS Login"
 DESCRIPTION = "Google Cloud Guest OS Login"
 LICENSE = "Apache-2.0"
 
-PV = "20230502.00"
+PV = "20230808.00"
 
-RPM_NAME = "google-guest-oslogin-20230502.00-1.2.aarch64.rpm"
-RPM_HASH = "f1cfabc95efebaaa930730a2b691d558c33f4db299ce6c45c02c6f8bac38c930f764fbc85da5e55289a9836746967429578293f5d7c5a98c754428f949f1a7dc"
+RPM_NAME = "google-guest-oslogin-20230808.00-1.1.aarch64.rpm"
+RPM_HASH = "3eadae455597f0f2c8fa89cdadae87456d73c2c8ac012b80e62b9f114752bc23b9712cd65b06553ca0f313258fb8f271167cd3df3a1129a506f88b44996a4f72"
 
 RPROVIDES:${PN} += "google-compute-engine-oslogin \
 google-guest-oslogin \

@@ -4,17 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.1"
 
-RPM_NAME = "ghc-fdo-notify-devel-0.3.1-4.4.aarch64.rpm"
-RPM_HASH = "12e1013257f491e483ecc5b42599c7aca9c829e04e27a77990b3e6fc90b04067034b2efa715f41cc88a9b22b7693140512a46540c1a13bc15303729c2e8c9a2f"
+RPM_NAME = "ghc-fdo-notify-devel-0.3.1-4.9.aarch64.rpm"
+RPM_HASH = "cac42adbf6f15c8de4a296f4cb9e427981fcb9c088f0d12c9da8ab59d7ad8ba6c2c1a58e917eeeda55a27e5482c12d66e715769baf335bd304b29b878bbc4e4e"
 
-RPROVIDES:${PN} += "ghc-devel-fdo-notify-0.3.1-1qiCdZWvxesDRRkG7YS65R \
+RPROVIDES:${PN} += "ghc-devel-fdo-notify-0.3.1-LNbhlfz8W8WFAdKkUx9okE \
 ghc-fdo-notify-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-containers-0.6.7 \
-ghc-devel-dbus-1.2.29-JhRn6zoUbJw4eAvR7pzqTU \
+ghc-devel-dbus-1.2.29-AAIySIFW0zz7mxLdRwt0V6 \
 ghc-fdo-notify"
 
 inherit rpm

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.27.7"
 
-RPM_NAME = "plasma5-session-5.27.7-1.1.noarch.rpm"
-RPM_HASH = "3862373154329f12c3feda0203f9a5975ac93ec5c952904b49b39bffd25040cae21754b4855987bf26aeb3e7b77adc6930e89d66b2fed317c88db4752065ae66"
+RPM_NAME = "plasma5-session-5.27.7-3.1.noarch.rpm"
+RPM_HASH = "05a5e48fdc351d8e9e7ccb98fd002213cdcf41609c5f03634294083d33df641566f75559001dd3a5f9563d73738ef0e6da025e0f8daa5762405d6f73f703a5ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdebase4-session \

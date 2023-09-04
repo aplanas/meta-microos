@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1.0beta3"
 
-RPM_NAME = "libtexluajit2-2.1.0beta3-93.1.aarch64.rpm"
-RPM_HASH = "bfcbf9899046c5a62b2243aeb51e25f6d21c0e8c899db7aa0eaf5c332cba187f1c3b503071d130a5c4d232cf44fa2a8017ae82127725f6bafee07fa2c013c63e"
+RPM_NAME = "libtexluajit2-2.1.0beta3-93.2.aarch64.rpm"
+RPM_HASH = "257547285cda258052ad73ec57a580d2f72538b22945b2d8dba060768f00d62ca2a47854012578ba3b6184a1ac2f188e20e2528277aa4c9425dc4d418f5b1279"
 
 RPROVIDES:${PN} += "libtexluajit.so.2 \
 libtexluajit2"

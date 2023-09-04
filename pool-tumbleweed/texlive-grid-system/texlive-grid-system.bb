@@ -6,8 +6,8 @@ LICENSE = "Apache-1.0"
 
 PV = "2023.209.0.0.3.0svn32981"
 
-RPM_NAME = "texlive-grid-system-2023.209.0.0.3.0svn32981-54.1.noarch.rpm"
-RPM_HASH = "fb7ca1606b2ad283e70ab0e230f8dc9e40f09cfe8bcbe86f6030cbc22b495292784758548409623c64be0f2114c4de53e16ea59434b0928aff51e1f0c3d08ac8"
+RPM_NAME = "texlive-grid-system-2023.209.0.0.3.0svn32981-54.2.noarch.rpm"
+RPM_HASH = "a3b2a52684d62bacd5158a998fe0175652122d1a06908261e113bf824341569f306d064d7330cd79776d9346e204ed45a6606d53369fa8cff9672bec93f8e59a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-grid-system.sty \

@@ -8,14 +8,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.02"
 
-RPM_NAME = "perl-Module-Build-Prereqs-FromCPANfile-0.02-1.12.noarch.rpm"
-RPM_HASH = "a837a37487b96ef9623e591340214e8f2c13968357034ee8f508ba40990401903a21f7f27b4bb7f42198f271b2db9db61b962b043ee08f1e1099ae450f4033ef"
+RPM_NAME = "perl-Module-Build-Prereqs-FromCPANfile-0.02-1.13.noarch.rpm"
+RPM_HASH = "81f53ebbbbbc084141b31435117fffaf0e01fde724ec3f65dbf7631c640a62687cfb1dbc2f73b314fe9699bb7a49d1f4b3c9cb9f0a5b8a63b2efed79ff40f208"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--Build--Prereqs--FromCPANfile \
 perl-Module-Build-Prereqs-FromCPANfile"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-CPAN--Meta--Prereqs \
 perl-Module--CPANfile \
 perl-version"

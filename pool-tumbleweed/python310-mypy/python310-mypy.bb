@@ -10,10 +10,10 @@ Mypy's type system features type inference, gradual typing, generics \
 and union types."
 LICENSE = "MIT"
 
-PV = "1.4.1"
+PV = "1.5.0"
 
-RPM_NAME = "python310-mypy-1.4.1-1.1.noarch.rpm"
-RPM_HASH = "7b204b6d1227ffbe2b572fe892090c18948bd77167452e435911c489ac780898f11e8b46360aabf4bc0d8a668b105442dc43846fbf3c3f2c5c7b3126d424cb5e"
+RPM_NAME = "python310-mypy-1.5.0-1.1.noarch.rpm"
+RPM_HASH = "666b3612c955ad6ec54fad647c1f885b5ed1c7c3d0ff0d75d454d8ce38d454aef6d3945df36980591fa9cc844986546f00ef7f467935d0128770bf3da2d14cb4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-mypy \

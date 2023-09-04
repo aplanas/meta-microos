@@ -6,10 +6,10 @@ compete against the best in international tournaments, design your \
 own maps, or run your own server."
 LICENSE = "Apache-2.0 & CC-BY-SA-3.0 & Zlib & MIT & SUSE-Public-Domain"
 
-PV = "17.1.1"
+PV = "17.2"
 
-RPM_NAME = "ddnet-17.1.1-1.1.aarch64.rpm"
-RPM_HASH = "ebe10d5ccb0c1586b758bc6352e71b6d211de9365afef5d68a9b694ada4915e35a3ed06c97ae194797449224aaede7fdbd5be178a85bf6c72f3e43d7dc62bb18"
+RPM_NAME = "ddnet-17.2-1.1.aarch64.rpm"
+RPM_HASH = "be4f44b8bc7bd011cd247cdb32eaafa69d5bff56ca920f1e83e87bc5e0b0edd4c42257ab5620997307586e954c5a34fa78b878a6bd64f67159c23dc24261ee80"
 
 RPROVIDES:${PN} += "ddnet \
 libantibot.so"

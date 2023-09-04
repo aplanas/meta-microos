@@ -4,10 +4,10 @@ DESCRIPTION = "This is the Microsoft Azure Appcontainers Management Client Libra
 This package has been tested with Python 3.6+."
 LICENSE = "MIT"
 
-PV = "2.0.0"
+PV = "3.0.0"
 
-RPM_NAME = "python310-azure-mgmt-appcontainers-2.0.0-1.3.noarch.rpm"
-RPM_HASH = "eac58980b0be1069afb19bbad9c43d55f6d207575d1870132d7235d6083ce39a8fe2eea8191f4ff4933853c61a90435ff97dd0fba48d2fc9ab1543118d505456"
+RPM_NAME = "python310-azure-mgmt-appcontainers-3.0.0-1.1.noarch.rpm"
+RPM_HASH = "9aa763a8a769e8e7885abaa0ffd792939d9861f3322274833bea7e5469f0a78c6327d43cde155f72f65774aa127363b67a382662aea5a397590fbe64d7823d33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-azure-mgmt-appcontainers \
@@ -19,6 +19,6 @@ python310-azure-common \
 python310-azure-mgmt-core \
 python310-azure-mgmt-nspkg \
 python310-azure-nspkg \
-python310-msrest"
+python310-isodate"
 
 inherit rpm

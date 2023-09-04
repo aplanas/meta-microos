@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.0.1"
 
-RPM_NAME = "ghc-pandoc-lua-engine-doc-0.2.0.1-1.7.noarch.rpm"
-RPM_HASH = "a2f0e9da04729534547bc8183957b8d7e5f08eb12664b4964e56ddfbe9c267bd60da1c0989df2d142da469470d1af0de37c705d0a8e1f579e9e451e0132b2040"
+RPM_NAME = "ghc-pandoc-lua-engine-doc-0.2.0.1-1.15.noarch.rpm"
+RPM_HASH = "d329d1775105b355da3b14961b5b57c2b416ec1b9d1a61a9181d2b333f9f9f1499e91d76d7eae4008323e24a87eab26fde7a40c501b184a16adb9d1ca7bd7628"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-pandoc-lua-engine-doc"

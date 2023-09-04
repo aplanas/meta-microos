@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains python 3.9 bindings for Threading Building 
 (TBB)."
 LICENSE = "Apache-2.0"
 
-PV = "2021.9.0"
+PV = "2021.10.0"
 
-RPM_NAME = "python39-tbb-2021.9.0-1.1.aarch64.rpm"
-RPM_HASH = "53b6865ce2676c1162eb58ba7ec894dc2bc05de73d3569007da693a58631ada14cd7f226a5a70daa48dd11883044c2573f9df53b14905724da505f3f0f29e617"
+RPM_NAME = "python39-tbb-2021.10.0-1.1.aarch64.rpm"
+RPM_HASH = "72ec22a69a1494fc1310c10f89dafa0a03f992da5dbf43c17156374199cc0b486dab3436baefe4c183f6076b3be98aa5c299ec210e91ad0fd37c53eea895f33f"
 
 RPROVIDES:${PN} += "python3.9dist-tbb \
 python39-tbb \

@@ -2,10 +2,10 @@ SUMMARY = "The Rust package manager"
 DESCRIPTION = "Cargo downloads dependencies of Rust projects and compiles it."
 LICENSE = "Apache-2.0 | MIT"
 
-PV = "1.71.0"
+PV = "1.71.1"
 
-RPM_NAME = "cargo1.71-1.71.0-1.1.aarch64.rpm"
-RPM_HASH = "df33f3bf1eac54a106fee0a6166035adbc4fe27b4a77d884e8ab9d8d3d915978ccba13d4942e686235bbe21a6b4ac04cfcccbb3632889fa5285976ea869030e4"
+RPM_NAME = "cargo1.71-1.71.1-1.1.aarch64.rpm"
+RPM_HASH = "c7ed07e0e660273a3717dca894a85fdc20baf198d9c8aef8b4ecd4e801a3a68e4653928ef2c2b8d91071429454fe6fbede2e8da8e087e8f58e53b15b3cf04199"
 
 RPROVIDES:${PN} += "cargo-vendor \
 cargo1.71 \

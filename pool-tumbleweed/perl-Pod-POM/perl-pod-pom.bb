@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "2.01"
 
-RPM_NAME = "perl-Pod-POM-2.01-1.26.noarch.rpm"
-RPM_HASH = "6e289f80371c614f29d6625170134238053eb9c0fa25751d3083be6ded48660a11e19edea0b9fc2546f07f194d9e24734d4e07c671451309c4c1ed9e9f9bdc83"
+RPM_NAME = "perl-Pod-POM-2.01-1.27.noarch.rpm"
+RPM_HASH = "2e1e69d86cad9355b98b89060210c97ac7072bc0520c2ab071d9c6154a9c91bea1b482578f6bd375a2ebb58441f3bc999e22203015a98e594e00d361e3eb32e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Pod--POM \
@@ -41,7 +41,7 @@ perl-Pod--POM--View--Text \
 perl-Pod-POM"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-parent"
 
 inherit rpm

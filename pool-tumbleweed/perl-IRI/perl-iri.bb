@@ -7,13 +7,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.011"
 
-RPM_NAME = "perl-IRI-0.011-1.14.noarch.rpm"
-RPM_HASH = "c1801428489a76ab7e6208a7363a7bf31e81e413d137e4d2fe320c9e064eba98fb4ca65a5cd37a2166fcbd5659de3392ef9fe03be77e5b92159ec7ae4730dd7c"
+RPM_NAME = "perl-IRI-0.011-1.15.noarch.rpm"
+RPM_HASH = "989fdbac8c7834a1533f11cd84e4ab6032aa55f06f9793369a189174b5918402b1403198b0cd1e3f9ad5be7a5f5fe3ca54a5118c1b4b6b11db836b4f817ad1be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IRI"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Moo \
 perl-MooX--HandlesVia \
 perl-Type--Tiny"

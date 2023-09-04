@@ -24,8 +24,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.08"
 
-RPM_NAME = "perl-File-Comments-0.08-10.13.aarch64.rpm"
-RPM_HASH = "03051505aa62dcb2bf53b939c5caab59bc4796eb5ac1706439c420d52867594fc89341125258f3c7087e724990e613fb98d0a8aba0050045062cb3e7179dc33c"
+RPM_NAME = "perl-File-Comments-0.08-10.14.aarch64.rpm"
+RPM_HASH = "17d552b8be6d83263db7eb3830aa3d79ad151f47de857c6bb18044786d5669af6628a9a958ea8ef9cb3993c1dd70954b1070b30ca23c792400c0bd541546df8e"
 
 RPROVIDES:${PN} += "perl-File--Comments \
 perl-File--Comments--Plugin \
@@ -42,7 +42,7 @@ perl-File--Comments--Target \
 perl-File-Comments \
 perl-PodExtractor"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Archive--Tar \
 perl-HTML--TokeParser \
 perl-HTML--TreeBuilder \

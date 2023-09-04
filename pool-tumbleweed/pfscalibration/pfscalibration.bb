@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.2.0"
 
-RPM_NAME = "pfscalibration-2.2.0-3.15.aarch64.rpm"
-RPM_HASH = "c32e65ca060b2540620fef0ebf6cd34f7aaf119d2cc01f4b3f9cb6ad5f58736228f0e643cab08748e642140ce110a0e8453692e86c89ff6b017482bac6d881fa"
+RPM_NAME = "pfscalibration-2.2.0-3.16.aarch64.rpm"
+RPM_HASH = "a68ffcf23e87c064cdd744b6391c13cde44bedf3939edb78d4df0dcfc2a63249afdb83c9dda4fcb331f8040c942607067dbd51568167ec6c912cff0f7f543f0c"
 
 RPROVIDES:${PN} += "pfscalibration"
 
@@ -24,6 +24,6 @@ libm.so.6 \
 libpfs.so.2 \
 libstdc++.so.6 \
 perl \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

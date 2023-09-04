@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn32630"
 
-RPM_NAME = "texlive-graphicxbox-2023.209.1.0svn32630-54.1.noarch.rpm"
-RPM_HASH = "774c500524f7e24d933390839ca3991060137e0d998e8dfeef8614b5c9700bc7720c2dbf17afcdb4f896804d6271164eb0994235c35c2676451f636ee142fc26"
+RPM_NAME = "texlive-graphicxbox-2023.209.1.0svn32630-54.2.noarch.rpm"
+RPM_HASH = "c37c0ce38baa31d142b9762fff7bce1cc42f98961f78693699bfd393da6d9dd4bfd26263fbdeca3b766beeeadf6355644dddb2b9b42cb1ba2c8412c261d7c67e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-graphicxbox.sty \

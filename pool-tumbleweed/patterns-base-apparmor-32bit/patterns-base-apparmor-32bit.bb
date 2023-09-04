@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20200505"
 
-RPM_NAME = "patterns-base-apparmor-32bit-20200505-41.1.aarch64.rpm"
-RPM_HASH = "7155ddfca2b30ac721073c1f158a50e253e6e88716b702be084b5fe4de8d71cdaea18cfa467ce00fdf0e59853f3cffe97bb685eca1521bf67f8fa816a3a37a10"
+RPM_NAME = "patterns-base-apparmor-32bit-20200505-42.1.aarch64.rpm"
+RPM_HASH = "88f17e7ff094e2dbb5a805843042a3df9df83d2ed2ad2e21bc386d8664a60a681e455929db313adb468fac6c38b7c339fc7e114eef5a6db63ea3dbec0a4601ee"
 
 RPROVIDES:${PN} += "pattern- \
 patterns-base-apparmor-32bit"

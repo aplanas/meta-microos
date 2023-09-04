@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.24.12svn45418"
 
-RPM_NAME = "texlive-eledmac-doc-2023.209.1.24.12svn45418-54.1.noarch.rpm"
-RPM_HASH = "d31709ce71bc9984778f2b9b08f1e430e5e0db9132bd01cf76ee5741c992a18f1a55ed1058fe28b7dac0f115aecc8dff62f13e4948fb51f72327b2ae46e007b1"
+RPM_NAME = "texlive-eledmac-doc-2023.209.1.24.12svn45418-54.2.noarch.rpm"
+RPM_HASH = "60c9fa56a1d76f451916c68c066523eb04d664d9cc7c290be6e89154e4e753975aea1f3d3d387d2bee1b8e079c1cf722046ce2f9bddae7453e1f58dd0a9f76df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eledmac-doc"

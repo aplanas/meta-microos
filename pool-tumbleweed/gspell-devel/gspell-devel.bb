@@ -6,10 +6,10 @@ This package provides the files necessary for developing software using \
 gspell."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.12.1"
+PV = "1.12.2"
 
-RPM_NAME = "gspell-devel-1.12.1-1.2.aarch64.rpm"
-RPM_HASH = "4e2e3738508118db84a62f42e772bd741b96d1cb6667f2de20299d84716dec18512ccaf636292f39bdaeac56b38efdf997f1a578878f4e9af4e3bb83aa28cda6"
+RPM_NAME = "gspell-devel-1.12.2-1.1.aarch64.rpm"
+RPM_HASH = "aeb51c81c44a7fd9d5e6dc7fd340186cd4878208896e107489705dceb6444c959a81a8b86e8c72f609c4cbbaec1458c8288a7382718a3dd66c3acf049127fac1"
 
 RPROVIDES:${PN} += "gspell-devel \
 pkgconfig-gspell-1"

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "5.0"
 
-RPM_NAME = "patterns-microos-onlyDVD-5.0-72.1.aarch64.rpm"
-RPM_HASH = "d4e6a90b620034cfb02576ce8539ac24726f8c851edf40cfae580f09f15e9844efc48608e4b2a09d9b26562f7a99af625ab5b827a43daceec62469d778de39e1"
+RPM_NAME = "patterns-microos-onlyDVD-5.0-73.1.aarch64.rpm"
+RPM_HASH = "d2f50f9a894a5ed1bfb83a1a2e021285fbb5ba96aa2864c97dda7589f10249fe483b8d5c1c0a650f0b3f19b9a42adaa7a7a7aec56d68b25d5d7368e0c510d62a"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

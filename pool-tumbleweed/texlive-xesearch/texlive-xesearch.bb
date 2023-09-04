@@ -11,8 +11,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.2svn51908"
 
-RPM_NAME = "texlive-xesearch-2023.209.0.0.2svn51908-53.1.noarch.rpm"
-RPM_HASH = "4ba202d4a337978e9ab9140f7a8050d6dbe22ba1e6c7464aeba903a397a718b9b7281d197695477525fcedc919d6b4539afe424f25cacde0030600d9ae5e9bd7"
+RPM_NAME = "texlive-xesearch-2023.209.0.0.2svn51908-53.2.noarch.rpm"
+RPM_HASH = "ec337f370bc922f4b26617b6f98df5ff528aa5cd85fc9a35799cb915faafe58c38409cc0e6c499fb20d6d73042a7068619082a506be18d44a973edbffa5bfd4a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-t-xesearch.tex \

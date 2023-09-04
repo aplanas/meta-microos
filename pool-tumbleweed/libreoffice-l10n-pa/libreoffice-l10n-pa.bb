@@ -2,10 +2,10 @@ SUMMARY = "Punjabi localization files for LibreOffice"
 DESCRIPTION = "Provides Punjabi translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-l10n-pa-7.5.4.2-1.5.noarch.rpm"
-RPM_HASH = "fc734480a8f4878cc65c020487dfa44b3e149054205b6a2f7edfe9e9166e59d1dd05e491803d8032d6cd9266b51bd319bc2598e42ddce870524995e7ec7db821"
+RPM_NAME = "libreoffice-l10n-pa-7.6.0.3-1.1.noarch.rpm"
+RPM_HASH = "be5e327ee84e8bdc240d60e04b2fd205a8504ebd3592782c895fdc67972f7dc592c9956e226bfb8ad1ce8ddd7cbfbd2e0c6b7a4ee87f5e30d12e5fd38548bb0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-pa \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.0.0.20svn56172"
 
-RPM_NAME = "texlive-pst2pdf-doc-2023.209.0.0.20svn56172-54.1.noarch.rpm"
-RPM_HASH = "853bc5a9f91ad3d6f8e244d11e75c5c4d97ad024b481f9d126333474f26bed8e879927a66c611c3ca57b0e7f93875786517baf62f86fa2fdd21ead0b1ae36ef8"
+RPM_NAME = "texlive-pst2pdf-doc-2023.209.0.0.20svn56172-54.2.noarch.rpm"
+RPM_HASH = "4ef7118b40735f060eef289717de83efff846d8604717434127f8b06b3038763be00409d5e6a00f2e2f5df4939798100ae4aa6f334c0df4bb20498865e9d25a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst2pdf-doc"

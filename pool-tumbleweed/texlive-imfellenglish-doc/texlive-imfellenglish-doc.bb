@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-imfellenglish"
 DESCRIPTION = "This package includes the documentation for texlive-imfellenglish"
 LICENSE = "OFL-1.1"
 
-PV = "2023.208.svn64568"
+PV = "2023.209.svn64568"
 
-RPM_NAME = "texlive-imfellenglish-doc-2023.208.svn64568-53.1.noarch.rpm"
-RPM_HASH = "d1d702b2fc858ae55ce4eb641e21243fb216294360e212b3633cf5d270d65200dc7b2a68c1df313baa8695a0e6d3b422138d1e27a28e3727a282add39554be15"
+RPM_NAME = "texlive-imfellenglish-doc-2023.209.svn64568-54.1.noarch.rpm"
+RPM_HASH = "6e8408011a54d4f7786c02fd476ead6ede8859e9eb72c57547309a5864c505d242e28e7f4a4ba39a9dbb9a91ba562f0a5d50f82d6c1ca1863f0d0a3ab35fe986"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-imfellenglish-doc"

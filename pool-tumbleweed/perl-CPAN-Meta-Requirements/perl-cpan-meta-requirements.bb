@@ -11,15 +11,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.143000"
 
-RPM_NAME = "perl-CPAN-Meta-Requirements-2.143000-1.1.noarch.rpm"
-RPM_HASH = "3eeb57bdad641ccab7a37989a33d9ee0d6d76b553723feb6e3a8f9c675ca8962302b38109e0d3df0675c43b287d24bcd6ec4df2dd04904ed23bc3f6a0f534d6e"
+RPM_NAME = "perl-CPAN-Meta-Requirements-2.143000-1.2.noarch.rpm"
+RPM_HASH = "6e834043691909baf309818be0e4768d86015ca38fda1be1b16ce85f2144fd7fdb1773a9597427ecdc103136378cbd8471cb67538bd159e697729d07f221337f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CPAN--Meta--Requirements \
 perl-CPAN--Meta--Requirements--Range \
 perl-CPAN-Meta-Requirements"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-version"
 
 inherit rpm

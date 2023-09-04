@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn31137"
 
-RPM_NAME = "texlive-ribbonproofs-doc-2023.209.1.0svn31137-54.1.noarch.rpm"
-RPM_HASH = "4dbf15f961a8000332b50624db961868476b0b354cf42e399f6c9440c081a3db2a452bb08ed8d8e81fc50cf47c1a1c7a348c2b291350b584f670f42ab1e298d9"
+RPM_NAME = "texlive-ribbonproofs-doc-2023.209.1.0svn31137-54.2.noarch.rpm"
+RPM_HASH = "54de1ae7222b714779f339a47fe2023ed4199fa15e6816cb24925eb41c1f2e5d7e4452bbfc20987742c0425b511560ff6a7e2dabdc46ec9a1fda18d8fbb716bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ribbonproofs-doc"

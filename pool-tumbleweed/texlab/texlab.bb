@@ -3,10 +3,10 @@ DESCRIPTION = "Cross-platform implementation of the Language Server Protocol pro
 The server may be used with any editor that implements the Language Server Protocol."
 LICENSE = "( 0BSD | MIT | Apache-2.0 ) & ( Apache-2.0 | BSL-1.0 ) & ( Apache-2.0 | MIT ) & ( Apache-2.0 | Apache-2.0 | MIT ) & ( CC0-1.0 | Artistic-2.0 ) & ( MIT | Apache-2.0 | Zlib ) & ( MIT | Zlib | Apache-2.0 ) & ( Unlicense | MIT ) & ( Zlib | Apache-2.0 | MIT ) & Apache-2.0 & BSD-3-Clause & GPL-3.0 & GPL-3.0+ & ISC & MIT & MPL-2.0 & MPL-2.0+ & GPL-3.0"
 
-PV = "5.7.0"
+PV = "5.9.2"
 
-RPM_NAME = "texlab-5.7.0-1.1.aarch64.rpm"
-RPM_HASH = "8821fe52db2fe51bb0177af62ea8881ae438e9fbfa2099a48b90dd0f9543b3188329adb3c2a4e9792354830a3fdae150bc7b2e6251caf4227ede97ebb444d4d4"
+RPM_NAME = "texlab-5.9.2-1.1.aarch64.rpm"
+RPM_HASH = "730917c89a428aa9620b9125bf7d319afde57b6a51c2597f7427b434fe25c5c970032fd7a2c1509a105182d6e8028b3b784087ee9cff37386a0b1b50dbeb4413"
 
 RPROVIDES:${PN} += "bundled-rust-crate-adler \
 bundled-rust-crate-aho-corasick \
@@ -18,6 +18,7 @@ bundled-rust-crate-anyhow \
 bundled-rust-crate-autocfg \
 bundled-rust-crate-base-db \
 bundled-rust-crate-beef \
+bundled-rust-crate-bibtex-utils \
 bundled-rust-crate-bitflags \
 bundled-rust-crate-bstr \
 bundled-rust-crate-cfg-if \
@@ -29,10 +30,15 @@ bundled-rust-crate-clap-derive \
 bundled-rust-crate-clap-lex \
 bundled-rust-crate-colorchoice \
 bundled-rust-crate-commands \
+bundled-rust-crate-completion-data \
 bundled-rust-crate-countme \
 bundled-rust-crate-crc32fast \
 bundled-rust-crate-crossbeam-channel \
+bundled-rust-crate-crossbeam-deque \
+bundled-rust-crate-crossbeam-epoch \
 bundled-rust-crate-crossbeam-utils \
+bundled-rust-crate-definition \
+bundled-rust-crate-diagnostics \
 bundled-rust-crate-dirs \
 bundled-rust-crate-dirs-sys \
 bundled-rust-crate-distro \
@@ -41,18 +47,20 @@ bundled-rust-crate-encoding-rs \
 bundled-rust-crate-encoding-rs-io \
 bundled-rust-crate-fastrand \
 bundled-rust-crate-fern \
+bundled-rust-crate-file-id \
 bundled-rust-crate-filetime \
 bundled-rust-crate-flate2 \
 bundled-rust-crate-fnv \
+bundled-rust-crate-folding \
 bundled-rust-crate-form-urlencoded \
 bundled-rust-crate-fuzzy-matcher \
 bundled-rust-crate-hashbrown \
 bundled-rust-crate-heck \
+bundled-rust-crate-hover \
 bundled-rust-crate-human-name \
 bundled-rust-crate-idna \
 bundled-rust-crate-inotify \
 bundled-rust-crate-inotify-sys \
-bundled-rust-crate-io-lifetimes \
 bundled-rust-crate-is-terminal \
 bundled-rust-crate-isocountry \
 bundled-rust-crate-itertools \
@@ -73,6 +81,7 @@ bundled-rust-crate-memoffset \
 bundled-rust-crate-miniz-oxide \
 bundled-rust-crate-mio \
 bundled-rust-crate-notify \
+bundled-rust-crate-notify-debouncer-full \
 bundled-rust-crate-num-cpus \
 bundled-rust-crate-num-traits \
 bundled-rust-crate-once-cell \
@@ -89,6 +98,9 @@ bundled-rust-crate-proc-macro2 \
 bundled-rust-crate-quote \
 bundled-rust-crate-rand \
 bundled-rust-crate-rand-core \
+bundled-rust-crate-rayon \
+bundled-rust-crate-rayon-core \
+bundled-rust-crate-references \
 bundled-rust-crate-regex \
 bundled-rust-crate-regex-automata \
 bundled-rust-crate-regex-syntax \
@@ -106,7 +118,6 @@ bundled-rust-crate-serde-repr \
 bundled-rust-crate-siphasher \
 bundled-rust-crate-smallstr \
 bundled-rust-crate-smallvec \
-bundled-rust-crate-smol-str \
 bundled-rust-crate-strsim \
 bundled-rust-crate-symbols \
 bundled-rust-crate-syn \

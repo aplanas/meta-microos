@@ -4,14 +4,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.19"
 
-RPM_NAME = "perl-Alien-Libxml2-0.19-1.3.aarch64.rpm"
-RPM_HASH = "3360e206a6a7fcb95f7db2bd540a4b71236d6bd485ad83cd0255b87c50a97681ed7f2801c734444d97e975db1618442d0fcc26aaba7ab8384ac604a3c0998966"
+RPM_NAME = "perl-Alien-Libxml2-0.19-1.4.aarch64.rpm"
+RPM_HASH = "cc904fedb35a86ed69ffcfa8bc5d6306ad0721f9ea01e20e94b43a3d80bf1c96140f14e5fd0e976ba713fded51abaf5d1ae93ebf6f4d0d30500765ddfa82d230"
 
 RPROVIDES:${PN} += "perl-Alien--Libxml2 \
 perl-Alien--Libxml2--Install--Files \
 perl-Alien-Libxml2"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Alien--Base"
 
 inherit rpm

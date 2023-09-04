@@ -12,8 +12,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "3.005"
 
-RPM_NAME = "perl-Mail-Transport-3.005-1.12.noarch.rpm"
-RPM_HASH = "63139037aacde56bc71e2ca2f9d80ee3d54ac305d4257815cdbdbb72c04045aa2036b1d51c495fdacddf489fcae2b9edbf4ec27d21ac27cbbf34786f762ee187"
+RPM_NAME = "perl-Mail-Transport-3.005-1.13.noarch.rpm"
+RPM_HASH = "40058fb6e0bc07292ecac521600afc3fd0f941971c141a5e2585e5367545b7b1fec794a8a2b1fbbe53ff3386838727b66284d57f6f492f657954a920a9973a7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mail--Transport \
@@ -26,7 +26,7 @@ perl-Mail--Transport--Send \
 perl-Mail--Transport--Sendmail \
 perl-Mail-Transport"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Mail--Reporter"
 
 inherit rpm

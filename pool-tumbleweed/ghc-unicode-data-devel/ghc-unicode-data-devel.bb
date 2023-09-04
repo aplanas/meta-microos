@@ -4,15 +4,15 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.0.1"
 
-RPM_NAME = "ghc-unicode-data-devel-0.4.0.1-3.6.aarch64.rpm"
-RPM_HASH = "99f49a4a3dbb54f5905970a1b327f08189b4cb257169d487ee2605180a789c283caaa533f200f32bd06669da06d8c6ae417d5ae2d2b2af15ee61af4c69ef173b"
+RPM_NAME = "ghc-unicode-data-devel-0.4.0.1-3.8.aarch64.rpm"
+RPM_HASH = "bce16920833caf7ec59c7d6daa263c8ca4b7d66b67c3f2fce13597a7ceebce6ad63f565c0186599cebd00d15e130739495e90f28e417d9c5e35c928281930b56"
 
-RPROVIDES:${PN} += "ghc-devel-unicode-data-0.4.0.1-IPznodd4J0BGoSZPR6u4lO \
+RPROVIDES:${PN} += "ghc-devel-unicode-data-0.4.0.1-DXmKFuEq71jAHQO9x7NPr \
 ghc-unicode-data-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-unicode-data"
 
 inherit rpm

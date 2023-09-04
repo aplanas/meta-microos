@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1"
 
-RPM_NAME = "ghc-magic-doc-1.1-4.6.noarch.rpm"
-RPM_HASH = "56440b6c45e2cdf3ba7ce9c31e387f8c8b99470304bec544454ce6527aae067f0bb276733f7bfd60d33d3aed1c232cc4453a52641fab157d935760b0f6a53ff3"
+RPM_NAME = "ghc-magic-doc-1.1-4.8.noarch.rpm"
+RPM_HASH = "5d3dcaa0ed58c01497179494488db18b598fa42d22075f3a23e7181e68e040d239f3a681d5b83543f2eebf8837d7e8d6e6b351434feb12c6feda5ff80a47dc6d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-magic-doc"

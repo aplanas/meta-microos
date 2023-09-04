@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.0.0.9"
 
-RPM_NAME = "ghc-stm-chans-doc-3.0.0.9-1.6.noarch.rpm"
-RPM_HASH = "5c73695492fe1475c38c5fcbcf7be6031d9d2d8823ec6052e51244fdeeec1c9ecf75e52cb039db9b43e91b1057dde6993f8cbc393e53a93a08a468b700d6f4c7"
+RPM_NAME = "ghc-stm-chans-doc-3.0.0.9-1.8.noarch.rpm"
+RPM_HASH = "dca0d02db65d034e3614d34b92a6b9eadb89e43477e1cb0aff72c99387512a757687315d1a9a93d7f9fc343677ae941c0afe952f89e02ec4bab073f74e7b73ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-stm-chans-doc"

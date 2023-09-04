@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-qobitree-doc-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "dda48b1348d8ff5f8b25df2f1e2216fad405a8b09882b68e51ec826d3a57603c52a56a955cc25359fb47ae049e840bb03568edb80c8935f785d8bbab1b69b0fa"
+RPM_NAME = "texlive-qobitree-doc-2023.209.svn15878-54.2.noarch.rpm"
+RPM_HASH = "c463ba60d3669ead1d5cfff0b7005c8c6399b9aac25cff84dc15a9de1118c1f07c63d20643db4752c40c471cc17b6cf5163261eae68a62b13534f1977cfaed96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-qobitree-doc"

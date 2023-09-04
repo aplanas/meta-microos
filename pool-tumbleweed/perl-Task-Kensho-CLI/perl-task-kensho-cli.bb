@@ -33,14 +33,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.41"
 
-RPM_NAME = "perl-Task-Kensho-CLI-0.41-1.10.noarch.rpm"
-RPM_HASH = "cc23a5af86689ffc94afd7695102fccbaee7759cdf4e58772d82d672e46cfdee77fc2ff1cc17379d2d93a71e7ab1f8bdea154f81ac7da0ad1be469788c0a57a3"
+RPM_NAME = "perl-Task-Kensho-CLI-0.41-1.11.noarch.rpm"
+RPM_HASH = "05773fb3ccff517dd31791a221a6a91804e09866bc078e664b931c1ec3d7c8aa50b48910a75e25147f9375deef181bdd1d145d64b9d131589767550326c4c4f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Task--Kensho--CLI \
 perl-Task-Kensho-CLI"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-App--Ack \
 perl-App--Nopaste \
 perl-Module--CoreList \

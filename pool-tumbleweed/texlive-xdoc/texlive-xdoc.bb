@@ -29,8 +29,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.prot2.5svn15878"
 
-RPM_NAME = "texlive-xdoc-2023.209.prot2.5svn15878-53.1.noarch.rpm"
-RPM_HASH = "b67c0992b5da69f8d572f9211ae6770273272a73f7ab6385ff21ccda023b80347d0d5bc57241b6375b7be848034b1fba3eafcac0d14f5d7fcf251f03c87e1a1b"
+RPM_NAME = "texlive-xdoc-2023.209.prot2.5svn15878-53.2.noarch.rpm"
+RPM_HASH = "94d757e6fb8713d7a6f2ff73d8373f9b01b39afb926521b11006146e5e904a0cf79b050781c8a8ccf938ef9e79dd693a3db7c3daeb0c5de2b3e11dce42ea7d92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-docidx2e.sty \

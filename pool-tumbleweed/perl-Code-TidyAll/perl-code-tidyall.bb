@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.83"
 
-RPM_NAME = "perl-Code-TidyAll-0.83-1.3.noarch.rpm"
-RPM_HASH = "f4803a20df73c57f8ac01ab40833f6b21ae2c4921ba1f6035dfa65bc0942c9a3740328b90a8534d6210574fd86a65e06e9dbfeedb9174119f72b88d70e65b23f"
+RPM_NAME = "perl-Code-TidyAll-0.83-1.4.noarch.rpm"
+RPM_HASH = "195132b322e39ad7054c2c7de63effae6efebaa8b2678dd7277ac134d45ca514e50f8a9aed9a6f505912bd6574009996d8980fc985317cf984ec090bd3517cb5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Code--TidyAll \
@@ -49,7 +49,7 @@ perl-Code-TidyAll \
 perl-Test--Code--TidyAll"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-Capture--Tiny \
 perl-Config--INI--Reader \
 perl-Date--Format \

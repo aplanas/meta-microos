@@ -5,12 +5,12 @@ LICENSE = "Artistic-1.0"
 
 PV = "1.06"
 
-RPM_NAME = "perl-Text-DelimMatch-1.06-10.30.aarch64.rpm"
-RPM_HASH = "a3a6ddd9f1a1926d6ef242ac6b1da6c002e7129925fdee4eeb69a01ac954a8d43faad7008a215cab26801e90ca5c94c324a3b786d368e5cf83ac55ffb5181946"
+RPM_NAME = "perl-Text-DelimMatch-1.06-10.31.aarch64.rpm"
+RPM_HASH = "27d4558a03d2aaac79d14416a007158e65006122ad7259414a963f84cecaffbec18588e5cf4dba878a08b2ed8c8e16f45e6c6bd3e6ccd95f18c966d79a4866a0"
 
 RPROVIDES:${PN} += "perl-Text--DelimMatch \
 perl-Text-DelimMatch"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

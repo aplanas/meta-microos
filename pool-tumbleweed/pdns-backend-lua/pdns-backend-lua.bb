@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.8.0"
 
-RPM_NAME = "pdns-backend-lua-4.8.0-1.1.aarch64.rpm"
-RPM_HASH = "f13ce513345fa7e5d0bfdfb96b97fc8e1dc7813a916436a22a24fa10f10452d93f331feab7c2d9e5eb29be6cd4ebf94a535c520841ff3e68a075dbdd6fdc8745"
+RPM_NAME = "pdns-backend-lua-4.8.0-1.2.aarch64.rpm"
+RPM_HASH = "8cf484f227419005927cf1221e65015ebf6df9cbb22e5e4135b03d6e0a34d10fa9e48c10a812352cd61bd6b4e38f74d4b2b5f3b6aae03060ea55ef032156802d"
 
 RPROVIDES:${PN} += "liblua2backend.so \
 pdns-backend-lua"

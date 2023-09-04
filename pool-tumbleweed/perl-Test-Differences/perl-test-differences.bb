@@ -44,14 +44,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.700.0"
 
-RPM_NAME = "perl-Test-Differences-0.700.0-1.1.noarch.rpm"
-RPM_HASH = "65cac8a9b0d909adc61db29eb125b9e9ad9d580b60451d302b7fb2dcbe503eb069b5e0c0591db4379e9f466eeb3db0dbc80c4ee7893f8c7becabf656aaa43305"
+RPM_NAME = "perl-Test-Differences-0.700.0-1.2.noarch.rpm"
+RPM_HASH = "1c5e90038dcadc3096bb29713ee571261e66b72e54eb625d56a29888fe0ad97f794006464b6dfab0b88e1a0d5ee3f970afa85be3ff1b9bfcd5b747d32a04c367"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Differences \
 perl-Test-Differences"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Capture--Tiny \
 perl-Data--Dumper \
 perl-Test--More \

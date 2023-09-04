@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.15"
 
-RPM_NAME = "glassfish-fastinfoset-1.2.15-4.5.noarch.rpm"
-RPM_HASH = "0ff3db45141dd1e7563225dca9c7ea5e3ae6763d4133e6ffa1b3c475e121c00cca8fa8924a517c92735049aefabbb8bb6887c69f55477e5b3ea7634d9ee51bcb"
+RPM_NAME = "glassfish-fastinfoset-1.2.15-5.1.noarch.rpm"
+RPM_HASH = "013046210069942b75dfec9932529e2bc3060777a4877d59f0183441f3ed5b5004f75c0d748a99b35db9e22c95461245af541abc5bfea124203991eff13aa018"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-fastinfoset \

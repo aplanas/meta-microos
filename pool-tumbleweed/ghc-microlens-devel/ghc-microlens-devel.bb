@@ -4,15 +4,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.13.1"
 
-RPM_NAME = "ghc-microlens-devel-0.4.13.1-2.2.aarch64.rpm"
-RPM_HASH = "c88a0dcbfa7408d470e14bc13554fd562b718c3dd7cfeeb13179f7dceec540a109f87142c0cfd3a4dfee94c1a51ab4d2f2bf4c284183d350dd192f3a50a89d8b"
+RPM_NAME = "ghc-microlens-devel-0.4.13.1-2.3.aarch64.rpm"
+RPM_HASH = "0ab916345af0de3f2615908f09da2b154b4957e20375e329c446965f9c517de2a239d62e149f722c1cafcf0ae4232ed0140b666d223e2bb890ff49956f58184f"
 
-RPROVIDES:${PN} += "ghc-devel-microlens-0.4.13.1-ARwI8t2x86cAxRs56XPcG1 \
+RPROVIDES:${PN} += "ghc-devel-microlens-0.4.13.1-4XtL5z7DHHC7UZaR6xNDY3 \
 ghc-microlens-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-microlens"
 
 inherit rpm

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "42.1"
 
-RPM_NAME = "epiphany-branding-openSUSE-42.1-8.52.noarch.rpm"
-RPM_HASH = "1f975bba3dd83472ec9adc09104cd6766e0e3af7bd6abd0b862adcb299acce9397ac0185bda8dad7e91cd4e17ccf27cf7c7d425d88c5c4ba406aa9c055b1900e"
+RPM_NAME = "epiphany-branding-openSUSE-42.1-8.53.noarch.rpm"
+RPM_HASH = "680d411fdce62e12f0730fa98f11db7e514d5abec15db90d14841ad1aba840e8cbc25d68f5e2a90a8d2dba27bb2e743b908365f343d8c7ff1ff5e73ce422c4a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "epiphany-branding \

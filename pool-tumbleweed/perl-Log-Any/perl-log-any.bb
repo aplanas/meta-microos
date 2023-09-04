@@ -40,8 +40,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.716"
 
-RPM_NAME = "perl-Log-Any-1.716-1.1.noarch.rpm"
-RPM_HASH = "568c28236f0809a174525c3383dba3e8ac20f2da6a7f090ca753e0cf0b0ec8db01f1027d0fdf910edcc0d66b2e236a8b57d47a8591660e57e4cf64ac9d3d9232"
+RPM_NAME = "perl-Log-Any-1.716-1.2.noarch.rpm"
+RPM_HASH = "2171635126f2264c114c8464dd8ba61f36d5ced8cd9f8e27136168eb000f51c9cf6090569778719c4eb4736de8d4fea9ffc56a1660f60213794c290abc9a838a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Log--Any \
@@ -64,6 +64,6 @@ perl-Log--Any--Proxy--WithStackTrace \
 perl-Log--Any--Test \
 perl-Log-Any"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

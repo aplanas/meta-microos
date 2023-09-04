@@ -7,8 +7,8 @@ LICENSE = "OpenSSL"
 
 PV = "1.0.2u"
 
-RPM_NAME = "libopenssl1_0_0-1.0.2u-21.1.aarch64.rpm"
-RPM_HASH = "92410a65b74f360fd4177a86e243aefb6046f83af56cd9b0bbc4bd60b8d0373a52d1e1bb7d9e584e68b11c981f29cfbbd5d785fa35fe4533b0c4c104ed17d2ef"
+RPM_NAME = "libopenssl1_0_0-1.0.2u-22.1.aarch64.rpm"
+RPM_HASH = "4d2f5180beb1c7fa987ad31e413e6ee6dbfe63a9ae4325d8bc07eed6c5588f2e9ee7fe491c6d76b74f63b4d4ab124f5d991cbb61ac7f00462ac45e898b4b921f"
 
 RPROVIDES:${PN} += "libcrypto.so.1.0.0 \
 libgost.so \

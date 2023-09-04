@@ -13,14 +13,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.16"
 
-RPM_NAME = "perl-Data-Structure-Util-0.16-1.30.aarch64.rpm"
-RPM_HASH = "7516f4c96fcac2ab07e1d7fdf1203a3298efbfd26a1b4d588f5c2562154f4ffdeaf21faf623e4d2809e20c90894d174736314bf87170fd8920f4074bef51f8c3"
+RPM_NAME = "perl-Data-Structure-Util-0.16-1.31.aarch64.rpm"
+RPM_HASH = "53e0ddb9799187104a16524572a058102246995e0d2bd797bd95e9e068e9a15a457b29de9c6db1657f4bf26923aa007f1a84ad8f80617670ee6f64d59fc406b0"
 
 RPROVIDES:${PN} += "perl-Data--Structure--Util \
 perl-Data-Structure-Util"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

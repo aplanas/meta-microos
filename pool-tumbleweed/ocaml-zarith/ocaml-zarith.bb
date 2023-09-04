@@ -2,10 +2,10 @@ SUMMARY = "Arbitrary precision integers"
 DESCRIPTION = "The Zarith library implements arithmetic and logical operations over arbitrary-precision integers and rational numbers."
 LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
-PV = "1.12"
+PV = "1.13"
 
-RPM_NAME = "ocaml-zarith-1.12-1.16.aarch64.rpm"
-RPM_HASH = "085cbe87fcab411c9d6ad73de20b6235a908d29456236098a428d401ff1cfb88d1e6a3f94bfe590bf191d31e5420929db370ded85b24bfb088e374564ad14d90"
+RPM_NAME = "ocaml-zarith-1.13-1.1.aarch64.rpm"
+RPM_HASH = "126446dc3d0766b5619e69e063180ad99ad26e109c0ab5e418f91669d8a4354b24c6510613cf17ee325d32cbd828782fb3e5c994fd76752a19faed11ad80c253"
 
 RPROVIDES:${PN} += "ocaml-zarith"
 

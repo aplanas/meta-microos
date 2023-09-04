@@ -12,14 +12,14 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.05"
 
-RPM_NAME = "perl-Readonly-XS-1.05-23.38.aarch64.rpm"
-RPM_HASH = "e61510e5a741a3bc0d3c2aec4ba1ea984b503fd30c5b30bbc787733c001058cda4e8b6b53b9da2d47a9cba32b2516ab99927cab0e0fd0c35b1bbe03eb1f773b0"
+RPM_NAME = "perl-Readonly-XS-1.05-23.39.aarch64.rpm"
+RPM_HASH = "9e8d0f1203a33430011ac3b48f7c0f7f87f174fec5926df199bec6c68a80a2380da310b5109353ab8cd16973139bcd91f1d7332826068a4455f47857516a8232"
 
 RPROVIDES:${PN} += "Readonly-XS \
 perl-Readonly--XS \
 perl-Readonly-XS"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Readonly"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.8.2svn58390"
 
-RPM_NAME = "texlive-econlipsum-doc-2023.209.0.0.8.2svn58390-54.1.noarch.rpm"
-RPM_HASH = "28751ad0aa17e7931d5cb8acfeac96bff4f7fb25ff0d43a73db34bc08b0f31bce44eed25347dc18c9f39faf9ed143f522da6454b5ec3592570c7c741f2ec1844"
+RPM_NAME = "texlive-econlipsum-doc-2023.209.0.0.8.2svn58390-54.2.noarch.rpm"
+RPM_HASH = "79e0d65acebee1316bf3b1b05dc02d9ed02c636ac7a0fdec778e861849a0ca95cc6e41f4c77305c67cf5f4045f59c9764b2dd351f7144cfdc89595c52ac23115"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-econlipsum-doc"

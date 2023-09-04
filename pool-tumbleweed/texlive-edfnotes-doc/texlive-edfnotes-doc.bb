@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.6bsvn21540"
 
-RPM_NAME = "texlive-edfnotes-doc-2023.209.0.0.6bsvn21540-54.1.noarch.rpm"
-RPM_HASH = "493efb22b6ed4adc09a21443ba5d42908547894c47c30f3d5d5dbec521a4cae2ede37773eb906d1e798a3fb11261e4b3ff6321644d7e672c8d1562c413eaed10"
+RPM_NAME = "texlive-edfnotes-doc-2023.209.0.0.6bsvn21540-54.2.noarch.rpm"
+RPM_HASH = "ba7e0d01d50264ef5f6f7f8150b9da0539d1b4f695d346554f2ad7c3d6edcf1070253ae1db4c6e14ca709661c8d2a718c8c5fa4457348481e8f349676dd1629c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-edfnotes-doc"

@@ -6,8 +6,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.11.4"
 
-RPM_NAME = "python311-doc-3.11.4-1.1.aarch64.rpm"
-RPM_HASH = "38ace694250c4f31bc6b92549699d3fcd105088a2f19762129d56eb9ecc6692259317a7d420f17e3ddee7d4a6110da3bbd80cb2b7cd117df78a2ef27c2d12841"
+RPM_NAME = "python311-doc-3.11.4-3.1.aarch64.rpm"
+RPM_HASH = "78770bcdc4ba9b4a804b0984d63a249e510b1a32c6f918cfddb626c5588fc1367d8caddc621adca81627d5d80a47646ac011127bc1aeb980335a1a530097e969"
 
 RPROVIDES:${PN} += "python3-doc \
 python311-doc"

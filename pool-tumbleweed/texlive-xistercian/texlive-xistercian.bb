@@ -10,8 +10,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.2svn61366"
 
-RPM_NAME = "texlive-xistercian-2023.209.1.2svn61366-53.1.noarch.rpm"
-RPM_HASH = "e5bf63fffda8a6c9556834a662cfe6adc17e88ac39abdc4b62a591b3d80c3b17d128cf56dc97ec2fdaf5c2a62d6c86a5ffbf9dc81edfe09a0c516f89aed579f2"
+RPM_NAME = "texlive-xistercian-2023.209.1.2svn61366-53.2.noarch.rpm"
+RPM_HASH = "fb3e7c1bb66f2571c80133af7612ccc06a062e2b9ee691537b9ac183b959e887dfcde6f312c432e57d3f8bae681688dc689334ed71922977ef123810bca813f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xistercian.sty \

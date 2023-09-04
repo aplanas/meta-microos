@@ -4,15 +4,15 @@ LICENSE = "MIT"
 
 PV = "2.9.4.1"
 
-RPM_NAME = "ghc-js-chart-devel-2.9.4.1-2.2.aarch64.rpm"
-RPM_HASH = "d41a16af1b4f2bd9aa5dbd278a3cd1a91bc09b3d495904517b1c309864bf0be9599830414983ef9be5e945d8e6470a0c19d18e009e492e503fbfafeeb1cf727f"
+RPM_NAME = "ghc-js-chart-devel-2.9.4.1-2.3.aarch64.rpm"
+RPM_HASH = "e9b7212297ba49fb6c2c71fc8d8de4510900627b8e5a6a5037b801a56cec319d2f58929ab6264abd1c1c48e163e5ac1efdbdce066487a355e1fb5c70b5a886d8"
 
-RPROVIDES:${PN} += "ghc-devel-js-chart-2.9.4.1-3Q5pmv83RztDkZZL9zv96d \
+RPROVIDES:${PN} += "ghc-devel-js-chart-2.9.4.1-JVxU4FDcB7p8n92cFFYHGl \
 ghc-js-chart-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-js-chart"
 
 inherit rpm

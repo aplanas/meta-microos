@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-only"
 
 PV = "44.1"
 
-RPM_NAME = "gnome-settings-daemon-devel-44.1-1.1.aarch64.rpm"
-RPM_HASH = "59b68d30532c14d7112e1f150749a524b219ca6dcb579192f765c60960e4399f88dcabe19728ae56d868988616411cd0848baa3e220c85df00634836773840cd"
+RPM_NAME = "gnome-settings-daemon-devel-44.1-2.1.aarch64.rpm"
+RPM_HASH = "0bd4318c08e578170acd8325665f6baf1306702a4ac3d494da2b73a1994b5983d80984880ef9497c3877cb4cfc1876b7a52dc589dfce0c3221d32b6311b5c617"
 
 RPROVIDES:${PN} += "gnome-settings-daemon-devel \
 pkgconfig-gnome-settings-daemon"

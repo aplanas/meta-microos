@@ -7,15 +7,15 @@ LICENSE = "Artistic-1.0"
 
 PV = "1.04"
 
-RPM_NAME = "perl-HTTPS-Daemon-1.04-70.30.aarch64.rpm"
-RPM_HASH = "a8e1cb16ae04a6d448220e2cc65b7710e06bf034cb1561b15391f05b8c6f1f6abfceb36b45a1d053c6382de77e4119c217b709c1fa0b2dd3e4dc1769b7e47f92"
+RPM_NAME = "perl-HTTPS-Daemon-1.04-70.31.aarch64.rpm"
+RPM_HASH = "09873f699951cb00747baef26d58613236a4907d0b2d58832e67df0ae81dfb8e0cac6aff273b8ff43094739d1bc5f41bd982e7bf1b49dae7fba0b5020e158983"
 
 RPROVIDES:${PN} += "perl-HTTP--Daemon--ClientConn--SSL \
 perl-HTTP--Daemon--SSL \
 perl-HTTP--Daemon--SSL--DummyDaemon \
 perl-HTTPS-Daemon"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-IO-Socket-SSL \
 perl-libwww-perl"
 

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-import-ganglia2pcp-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "2533839751fb43ce57c53f79e033d39d777500e517aca3918ed46a0622b915e55b1d6120a3d46fd3267e177c47bc56dfddae4aab06594898356f267ecedd71c0"
+RPM_NAME = "pcp-import-ganglia2pcp-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "29ab37be6d370c82ca3f92c7e8b07c450fa12f72a96183774e716b02ade760e0665b0c357ef60b6c0428268ad69c220106d19186822f54f556e1693e0fb57e8f"
 
 RPROVIDES:${PN} += "pcp-import-ganglia2pcp"
 

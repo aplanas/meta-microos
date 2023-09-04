@@ -24,18 +24,18 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0.4"
 
-RPM_NAME = "ghc-splitmix-0.1.0.4-4.6.aarch64.rpm"
-RPM_HASH = "a057faaa6e74bacedac6c08b7da8e2fd42f0d21be49c5f1a44cca39a8a98afd64494aab5a49918cb0ca656d195944557d1e5b66e495cf2a595862151faf203e1"
+RPM_NAME = "ghc-splitmix-0.1.0.4-4.8.aarch64.rpm"
+RPM_HASH = "f835042a4eb05cdbbd90f6d1bbae1a89ddd2d01423ac1a5ed6996c4401bda02557a5e37527f898489118a0918329ebb93e51e328f601b387ad4e070d0fef888c"
 
 RPROVIDES:${PN} += "ghc-splitmix \
-libHSsplitmix-0.1.0.4-7e8CibdlMRLAGh7KO5VlFe-ghc9.4.5.so"
+libHSsplitmix-0.1.0.4-2jzLu9hw0mWH5mdbN14y0O-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libHSarray-0.5.4.0-ghc9.4.5.so \
-libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSdeepseq-1.4.8.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
+libHSarray-0.5.4.0-ghc9.4.6.so \
+libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSdeepseq-1.4.8.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

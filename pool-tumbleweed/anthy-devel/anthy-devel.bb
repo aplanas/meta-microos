@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "9100h"
 
-RPM_NAME = "anthy-devel-9100h-41.10.aarch64.rpm"
-RPM_HASH = "90fd6a6f91611ff8e640adcb35b2ee262aadfc050deb512891664efcfe4a3cd1c9dc7d4b50281ccd1c5f69511399e55d66e7b3bd40b85183cacb6f4fa1c17fe6"
+RPM_NAME = "anthy-devel-9100h-42.1.aarch64.rpm"
+RPM_HASH = "c7e0776d92e9fdf92c967e9f34bfcc9dc671f65eadb0a0827addc496d9578ce5a34fcd94b4971a83c7685cdbeda7694cd3fe130945c468a479b52b899bba5f95"
 
 RPROVIDES:${PN} += "anthy-devel \
 pkgconfig-anthy"

@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package blobwars"
 DESCRIPTION = "Provides translations for the 'blobwars' package."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "2.00"
 
-RPM_NAME = "blobwars-lang-2.00-2.23.noarch.rpm"
-RPM_HASH = "65c6346acd3ee76a16c397b8bbc4eb4e916f637ff85acdf1307ff72af91873d68413b7f72fd170b29887215ddd0dbe0d593eb7f001be9914774f15c5accfef3f"
+RPM_NAME = "blobwars-lang-2.00-3.1.noarch.rpm"
+RPM_HASH = "0044cdacd191f7df420cf89b28157ac8800bd281d4ae019c333b0c6dbcdcc3d20487793f7e5ea67ecd7ea283d7a4ebfd5a5ee3df5548adb68a5507da5686b9bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blobwars-lang \

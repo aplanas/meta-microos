@@ -49,8 +49,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.19"
 
-RPM_NAME = "perl-Class-XSAccessor-1.19-3.38.aarch64.rpm"
-RPM_HASH = "f49d99096d488d95ed50947e5fe1a98ae07265c0040deb5bd4a0cbd7e3fdab64cace232657812caf975ccb109383d2a70de0fb5ea301797d72445ee5865d89ce"
+RPM_NAME = "perl-Class-XSAccessor-1.19-3.39.aarch64.rpm"
+RPM_HASH = "39c9768bfab4541cb9142b12162d51e18d1a68cd81a0c7b8dc64f5ad9b05d1a5309fe1e38b19f155ad0f3a1a5498e470de3c6f2b89587abb2a4eb1f8bd1860ad"
 
 RPROVIDES:${PN} += "perl-Class--XSAccessor \
 perl-Class--XSAccessor--Array \
@@ -58,6 +58,6 @@ perl-Class-XSAccessor"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

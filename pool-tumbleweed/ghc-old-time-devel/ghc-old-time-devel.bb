@@ -4,16 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.0.3"
 
-RPM_NAME = "ghc-old-time-devel-1.1.0.3-13.3.aarch64.rpm"
-RPM_HASH = "f529f4df42cc02c92216d507c2920f625a8da6929361e5969eafafe2aae8c2ed986fce463ea4be44804286d6b788f28e32835418f3444415bf38ae5fdffb46f4"
+RPM_NAME = "ghc-old-time-devel-1.1.0.3-13.4.aarch64.rpm"
+RPM_HASH = "e2c5a0d2dd484451325d6dc811dd43069486f5a0ce0c670936a8b2b4d53b063f2e89c03bdcc614429228bcc682b99b8e570e7af12742976d18e1ec742dd93a13"
 
-RPROVIDES:${PN} += "ghc-devel-old-time-1.1.0.3-6MrxIvEBZcaI0p7TDiYNU1 \
+RPROVIDES:${PN} += "ghc-devel-old-time-1.1.0.3-EO4BkAubfN4CLCS9qF8OKw \
 ghc-old-time-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-old-locale-1.0.0.7-B5o2Qz0CVVSCB1XGw7OfzR \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-old-locale-1.0.0.7-GoDuSK2NybfD0MMe75QkJk \
 ghc-old-time"
 
 inherit rpm

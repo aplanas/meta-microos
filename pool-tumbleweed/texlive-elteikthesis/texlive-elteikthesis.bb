@@ -7,8 +7,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.2.3svn63186"
 
-RPM_NAME = "texlive-elteikthesis-2023.209.2.3svn63186-54.1.noarch.rpm"
-RPM_HASH = "ddb83e66408c961d6e654bc2f1245fc56f021c033e05bf1c8603e10900af78fc1497d4497512b3d4dc0f4e7200d9224a325ea12f0dd59a1b5343e9d814221afb"
+RPM_NAME = "texlive-elteikthesis-2023.209.2.3svn63186-54.2.noarch.rpm"
+RPM_HASH = "0576d3d1b4560e4fb985941b4dcdbcdc25e859c9d60840ae316c307ca2969c891a1b0b7f0e37107dcaf2ed2c9d30afefccfeb2ed801ce6597ccce13e3b876e2a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-elteikthesis.cls \

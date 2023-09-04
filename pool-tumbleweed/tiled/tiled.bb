@@ -5,10 +5,10 @@ Breakout clone. Tiled is written in C++, using the Qt application \
 framework."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.10.1"
+PV = "1.10.2"
 
-RPM_NAME = "tiled-1.10.1-1.2.aarch64.rpm"
-RPM_HASH = "c782569c0b7aa1b80f0b55f564fa31d36cd429f74506439dab3806160d5aaa2c83d313b8152a28d9eefbe95ceb458130bd769f1de9f5a756e187d0ff73afe32a"
+RPM_NAME = "tiled-1.10.2-1.1.aarch64.rpm"
+RPM_HASH = "b404116e5e5da36333ad33f2b13e133144b90fc31bb4709584a3fd41efab78e6db039e99ca58f3eae369b6d8b8e7a8d4967a2420c22cfcedb5b815340edab3d8"
 
 RPROVIDES:${PN} += "libcsv.so \
 libdefold.so \

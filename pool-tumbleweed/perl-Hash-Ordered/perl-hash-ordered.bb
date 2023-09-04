@@ -12,13 +12,13 @@ LICENSE = "Apache-2.0"
 
 PV = "0.014"
 
-RPM_NAME = "perl-Hash-Ordered-0.014-1.2.noarch.rpm"
-RPM_HASH = "9ce67d0ac420aba95a790ee60d3904ac1931a2b624f3f6f2dd95cb9beda85de050e39785605a210d57a6893a80a1704a8188f8db23c3891c7715b66cd031490a"
+RPM_NAME = "perl-Hash-Ordered-0.014-1.3.noarch.rpm"
+RPM_HASH = "05f235d717123bb177cd63bc1c63dcdca2168b1c1e1e3aa7190d940f3413ac80a79ebec774726200677ab1b1e73a5fdd81ec3d024c6ae86d65a225f17d4091af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Hash--Ordered \
 perl-Hash-Ordered"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

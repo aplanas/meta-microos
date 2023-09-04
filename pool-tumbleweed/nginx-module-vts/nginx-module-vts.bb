@@ -7,8 +7,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.2.2"
 
-RPM_NAME = "nginx-module-vts-0.2.2-1.1.aarch64.rpm"
-RPM_HASH = "376118ac412fbc17f0ed1b0c8300b032950f60b41b3a67adfc32d608bdc3af26f544eb07f5cc6b2e9794ff78c853363eb045df16368585da18abd414991853e5"
+RPM_NAME = "nginx-module-vts-0.2.2-1.2.aarch64.rpm"
+RPM_HASH = "abab72261a62cd4460a7a4ea073fb00c0985d20a85be385631829a7aaf9f3b222976b697ccb5535cf48dba8a5164ad236f232596721baf239b24b3d505b8b50e"
 
 RPROVIDES:${PN} += "nginx-module-vts"
 

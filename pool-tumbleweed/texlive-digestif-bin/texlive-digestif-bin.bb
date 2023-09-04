@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn65210"
 
-RPM_NAME = "texlive-digestif-bin-2023.20230311.svn65210-93.1.aarch64.rpm"
-RPM_HASH = "08638a67fcbd88feb0cc7d812564117b14309dbb3fcc06bd430f7694fb7c4754027ab0811b3da82b52e7b5533bd2c8745b19a24e26c709192498c7824cdba81a"
+RPM_NAME = "texlive-digestif-bin-2023.20230311.svn65210-93.2.aarch64.rpm"
+RPM_HASH = "e9354da9088f9219d7c71cadd41a76e6fe1c7db374ad28fe1dbf07be29104193ff54b87c856393ca8ccdeed08bce38e153be8fc6230e1b7baef98ce0311519c8"
 
 RPROVIDES:${PN} += "texlive-digestif-bin"
 

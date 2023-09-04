@@ -5,10 +5,10 @@ connections like ssh or slogin onto systems without those terminfo database \
 entries."
 LICENSE = "MIT"
 
-PV = "6.4.20230715"
+PV = "6.4.20230812"
 
-RPM_NAME = "terminfo-iterm-6.4.20230715-17.1.aarch64.rpm"
-RPM_HASH = "46626c1d7ae29e7faa2423b60155c77f6ac1ee2b1410ddf335756a06e658bead808646451d8c7c4b1fddf82cb6f125abbd75d0bed7a3d8f7b43e63b2c168e33e"
+RPM_NAME = "terminfo-iterm-6.4.20230812-18.1.aarch64.rpm"
+RPM_HASH = "1d713a561d27240b2d8cc8b18be981f585812fb3cdcce9055e73587097e39ea6484388aca4fe50bb3a31599649b7c851ace51ae7e96706390516a6f83e9dbd37"
 
 RPROVIDES:${PN} += "terminfo-/usr/share/terminfo/i/iTerm.app \
 terminfo-iterm"

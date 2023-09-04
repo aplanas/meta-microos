@@ -2,10 +2,10 @@ SUMMARY = "ATSC A/52 stream decoder library"
 DESCRIPTION = "liba52 is a library for decoding ATSC A/52 streams."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.7.5+svn613"
+PV = "0.8.0"
 
-RPM_NAME = "a52dec-0.7.5+svn613-3.17.aarch64.rpm"
-RPM_HASH = "58798a18df28d03498ffe082dec7d23226a0430a7eb5fb783c38a582b27964c5b7f9ca148271e405857c9542aa1430ea4185881bcbcfc75ee418c54ff56f10a1"
+RPM_NAME = "a52dec-0.8.0-1.1.aarch64.rpm"
+RPM_HASH = "a370be5c74fc0acd80eb1323c3e05bea254078b0b27be0c983abcc79293cd000b2befd07dd0283b9f761d42fa745848ebdd0de4398f41ba9a1a8aefd7a2d10c4"
 
 RPROVIDES:${PN} += "a52 \
 a52dec"

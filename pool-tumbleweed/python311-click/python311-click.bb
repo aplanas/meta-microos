@@ -5,10 +5,10 @@ Line Interface Creation Kit'. It is configurable, and comes with \
 defaults out of the box."
 LICENSE = "BSD-3-Clause"
 
-PV = "8.1.3"
+PV = "8.1.6"
 
-RPM_NAME = "python311-click-8.1.3-4.3.noarch.rpm"
-RPM_HASH = "d8c71d9287463bc91f2aebde4a4405e50d91084345a0683224cb9dd18b764b110a021e9c51312f499b823a5c921e6599f86b0920cd071ea7deb6c0733950961e"
+RPM_NAME = "python311-click-8.1.6-1.1.noarch.rpm"
+RPM_HASH = "46744de6810d8cd6f9f5722aa44d6aca784383b9188345f42b64c4c3dc1237f815bbe7911cc5cc7089a41c36d35f6fa5ddf436b135b0cb1a605f2a95b9551d33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-click \

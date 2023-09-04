@@ -2,10 +2,10 @@ SUMMARY = "Python library that converts cron expressions into human readable str
 DESCRIPTION = "A Python library that converts cron expressions into human readable strings."
 LICENSE = "MIT"
 
-PV = "1.2.32"
+PV = "1.4"
 
-RPM_NAME = "python310-cron-descriptor-1.2.32-1.5.noarch.rpm"
-RPM_HASH = "9bd02a7989dd037e7153734f44fc06ff1a38e59ac5b1ef95b59d85c8444af7796b4bbf95715847ff948efbbcde2ea362c3ce7affab88c52565609b1f424691e9"
+RPM_NAME = "python310-cron-descriptor-1.4-1.1.noarch.rpm"
+RPM_HASH = "f838f9b0f003c967e5157c3145c3e988190ca148db6a3251db912692eb9de64d9b84235612edf4ed229aaeffe1124ff9d8582183a389d56c59a2778c71dfc68f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-cron-descriptor \

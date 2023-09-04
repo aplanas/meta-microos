@@ -33,14 +33,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.41"
 
-RPM_NAME = "perl-Task-Kensho-Async-0.41-1.10.noarch.rpm"
-RPM_HASH = "fe4152bb0f0002192ab94df253a24584c2eac3f0a13b22c498e7676be149f006a21a84329dac6e46188ea6ae09f3b8b1183059934bdc0ef163fb7bb23716b4f3"
+RPM_NAME = "perl-Task-Kensho-Async-0.41-1.11.noarch.rpm"
+RPM_HASH = "8f24aa64c10d0924d3ebb87d33a13de40ba1f3d663fb11d69077ae13ceac5dadfb2c819e714f055263ed4f7fb36a9d9ea9d628b0e58754f0278376a891f10d2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Task--Kensho--Async \
 perl-Task-Kensho-Async"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Future \
 perl-IO--Async \
 perl-MCE \

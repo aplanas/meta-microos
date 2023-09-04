@@ -2,10 +2,10 @@ SUMMARY = "CMake modules"
 DESCRIPTION = "Extra modules and scripts for CMake."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "extra-cmake-modules-5.108.0-1.1.noarch.rpm"
-RPM_HASH = "df92a8a21e7ecc2adc31906d6b28c9d123a053b5cc81baea51e243c43cf17591968c89fdb03b029d11b9178150dbd34d0c5b5ff76904cba65a9ac30e7b1e7308"
+RPM_NAME = "extra-cmake-modules-5.109.0-1.1.noarch.rpm"
+RPM_HASH = "bd08fe18206182815ce32d81d346e855c1499930b5dfeaafdf607d1e819f4f3e653edfe5fd86e83508845e24ecfe056cac1a1b8ae3e6cc59f1887b58bc00ea97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "extra-cmake-modules \

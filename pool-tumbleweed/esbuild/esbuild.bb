@@ -4,10 +4,10 @@ DESCRIPTION = "esbuild is a JavaScript bundler and minifier. \
 %{gopkg}"
 LICENSE = "MIT"
 
-PV = "0.18.12"
+PV = "0.19.1"
 
-RPM_NAME = "esbuild-0.18.12-1.1.aarch64.rpm"
-RPM_HASH = "5112498c804d5f30e40baeb26db03488c11e2576b67ad539f9af5935a985d6a606d1049395febc9185f847ea0c6d3c5e2d2dbccd79315fb013e4f5c851177abf"
+RPM_NAME = "esbuild-0.19.1-1.1.aarch64.rpm"
+RPM_HASH = "e36ca069d51c3b8b1414e9a8f75f7650d8ba125b5ac0db49c4b981447c1558d8b9d50c38672c3ecdd9b96e3b9212cbdae5cc92f83bf50dc61c0b0d4bb0bf75ad"
 
 RPROVIDES:${PN} += "esbuild"
 

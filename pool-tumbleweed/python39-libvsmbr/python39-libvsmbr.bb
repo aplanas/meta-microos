@@ -6,8 +6,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20210509"
 
-RPM_NAME = "python39-libvsmbr-20210509-4.9.aarch64.rpm"
-RPM_HASH = "eb3a563e7bd8bde47828ae91dd283d11a489534b31b55c5de3015ec8dd4d64d4cc624afbbc3ee654ae99fdb00d67becfa3bb84b0a3e22cc076197f2d2954f330"
+RPM_NAME = "python39-libvsmbr-20210509-5.1.aarch64.rpm"
+RPM_HASH = "021cb8122265e6470ca624e70885fac79ec1e8b42c85168218d4086f5190921f153bd85c9a87ba67f15488af9a5fcfa45cf595507baa5475029c8d5f3867ecc5"
 
 RPROVIDES:${PN} += "python39-libvsmbr"
 

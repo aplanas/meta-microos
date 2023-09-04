@@ -9,10 +9,10 @@ It is uses a modular implementation. It has many interesting features: \
 * Device and service level security support"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.66"
+PV = "5.68"
 
-RPM_NAME = "libbluetooth3-5.66-1.8.aarch64.rpm"
-RPM_HASH = "bf11c81df942ddd8c25c31cfb337361ad9c07296562eb2deeb7d88b9e870accecc08676dc14abe699c10705d74ed10d80079890fa98a8e5f1ae0dcd662839b36"
+RPM_NAME = "libbluetooth3-5.68-4.1.aarch64.rpm"
+RPM_HASH = "f581fdcde00af586e0854ef3b2ec4d0b5172bbad2fca7939321a65bc419170bf9c9cf83e9671baaf71d1330157f866f66adaa39e40fb503d96c62dd8ac76f5ec"
 
 RPROVIDES:${PN} += "bluez-libs \
 libbluetooth.so.3 \

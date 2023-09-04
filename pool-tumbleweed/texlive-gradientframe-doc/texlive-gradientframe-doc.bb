@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.2svn21387"
 
-RPM_NAME = "texlive-gradientframe-doc-2023.209.0.0.2svn21387-54.1.noarch.rpm"
-RPM_HASH = "fd7958491c1d6f8619934bd3ce482bf4e8ba2cb20430ca851550f90363e608fb0d66d3b7b96355b02d731c75be8f96c5fef299628b030f4b3a9945370446da12"
+RPM_NAME = "texlive-gradientframe-doc-2023.209.0.0.2svn21387-54.2.noarch.rpm"
+RPM_HASH = "614c8f83a803958f04c4bf9b23759d767ca6638584022602637c7791a56a0a9c335b77f6449e546760c4576898ba1c52349ebaafffb9481c281f6e752bd03e0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gradientframe-doc"

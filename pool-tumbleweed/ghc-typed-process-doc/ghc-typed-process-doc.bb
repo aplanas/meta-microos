@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.2.11.0"
 
-RPM_NAME = "ghc-typed-process-doc-0.2.11.0-1.6.noarch.rpm"
-RPM_HASH = "b6c66a1eb75787b59fcb50cc699576d2366ab17f89d981d2577b6a0454ce329b80a234abd9029ae18829fc570ef887e9032ac27c2d81952a38fca90abde76ddb"
+RPM_NAME = "ghc-typed-process-doc-0.2.11.0-1.9.noarch.rpm"
+RPM_HASH = "a40ac6aa054380f8a6898fb2e0969b10692fe3f1aaa998adc6d7a48009e3267758b5dfffd1eb4ce1cf7f64dd59d3b1a34010c37b29e0d8a7e8ea9fd7916d09ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-typed-process-doc"

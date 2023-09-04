@@ -12,10 +12,10 @@ PyYAML is applicable for a broad range of tasks from complex \
 configuration files to object serialization and persistance."
 LICENSE = "MIT"
 
-PV = "6.0"
+PV = "6.0.1"
 
-RPM_NAME = "python311-PyYAML-6.0-5.3.aarch64.rpm"
-RPM_HASH = "904f697ce57dd1ce6dc13232409f85cf6233ca0d73e8910d921b1a5882d707b770fd4c8460d14e02adf092245b7efd6059eedebde37fa569682c247765b0a46b"
+RPM_NAME = "python311-PyYAML-6.0.1-1.1.aarch64.rpm"
+RPM_HASH = "5ae58b9a7385bbea878f72e809bf9ac536010a6b328017cb4674917bed32b7ca19532929a8f47483ad3183efc6690e561e87d1dcc6df523b6939fec2caab8a67"
 
 RPROVIDES:${PN} += "python3-PyYAML \
 python3.11dist-pyyaml \

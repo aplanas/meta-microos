@@ -21,10 +21,10 @@ representation to accurately convey the data at every location, with no \
 saturation, overplotting, or underplotting issues."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.15.0"
+PV = "0.15.1"
 
-RPM_NAME = "python310-datashader-0.15.0-1.3.noarch.rpm"
-RPM_HASH = "51bc11d3fbd4119c1e057fb0fc1119c82b9ae4c939cb68f43944e43b97027bcb3e6682ab9f2b9672dace7ae26a58a57d6d5e5b127544eace3451d1bc372c2bfe"
+RPM_NAME = "python310-datashader-0.15.1-1.1.noarch.rpm"
+RPM_HASH = "8b77128d16bb2f6b3162638ebaec0310e8c194abccec2ec1cd8557fb37407beb6c81be03105295eda96aba39fb818cf5969501d85aff969df15e8eec5bed35b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-datashader \

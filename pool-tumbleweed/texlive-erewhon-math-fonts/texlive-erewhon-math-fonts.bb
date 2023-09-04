@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.209.0.0.56svn65684"
 
-RPM_NAME = "texlive-erewhon-math-fonts-2023.209.0.0.56svn65684-54.1.noarch.rpm"
-RPM_HASH = "e7035bc98d4aedb30516fd56c423a432120fe3d3000cfa54e2c3275ea7eb2637553e8847b28158a43182e31f4182a746454f219da1ea6105f26ce790bce5ef35"
+RPM_NAME = "texlive-erewhon-math-fonts-2023.209.0.0.56svn65684-54.2.noarch.rpm"
+RPM_HASH = "3ea729391577fe5f392abebb1d8d740b771dfe1cff1f1bcc74270c8cd68b8f29a3176d35751ab29990a7cbd263c21c83170b4b714ab0c86d03a171a69cd8df8b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=fj \

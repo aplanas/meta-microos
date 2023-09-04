@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "8.1.0"
 
-RPM_NAME = "digikam-plugins-8.1.0-1.1.aarch64.rpm"
-RPM_HASH = "f4c3c9cdac54af7de5943b133dcaf1ed8c4c046b11b9f0d86fa468bbffb67908c22ab2f8eb0ee07e81b3d002f539b14b41c11cf4d3b13663d24a4d31d245d63c"
+RPM_NAME = "digikam-plugins-8.1.0-2.1.aarch64.rpm"
+RPM_HASH = "fcac154ca85f65b9723032d9723bf73491d471e6560a8bfd4eba4841f480ebcda8303322db430b8f87d65f7ebad469e8507f561cf85ac314a7354b4ec8aac959"
 
 RPROVIDES:${PN} += "digikam-plugins"
 

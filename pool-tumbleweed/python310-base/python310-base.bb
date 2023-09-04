@@ -12,8 +12,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.10.12"
 
-RPM_NAME = "python310-base-3.10.12-2.1.aarch64.rpm"
-RPM_HASH = "e54dc5d5961ba1a78bd00f5b2bf2629988485c0bd40fbc92665a1f561f377176e14b5c50125063ffbc5ebc91f4a1f143564a708bd9771a83843da66e11ce39ee"
+RPM_NAME = "python310-base-3.10.12-3.1.aarch64.rpm"
+RPM_HASH = "a721e065985047eb091c5b326a9f99acf61df1beb5b3c98a8ff56605906498951da8fc495d4c7db68bb687f81d3b7b49aa591072d287618279b0cea68a27284b"
 
 RPROVIDES:${PN} += "python-abi \
 python310-asyncio \

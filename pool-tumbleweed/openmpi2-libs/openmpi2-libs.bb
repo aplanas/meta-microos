@@ -15,10 +15,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.6"
 
-RPM_NAME = "openmpi2-libs-2.1.6-14.4.aarch64.rpm"
-RPM_HASH = "0ef81f403e7a563b4db58173a39cf213205519e4d4d234c4a7f5bfd8fc2755763c0ea11a8dc6f4f9db16e7a3220352ee1d30b04ff96ebeb07190561659ebedbc"
+RPM_NAME = "openmpi2-libs-2.1.6-15.1.aarch64.rpm"
+RPM_HASH = "2ce6105da384f72f906670ef5753f600a566787bd2baacf610769864a35762ed6fd429dc7775a750cdc511c2e32147d6820c2e0b137a5ef2ecf8531fd4f0f002"
 
-RPROVIDES:${PN} += "libmca-common-sm.so.20 \
+RPROVIDES:${PN} += "libmca-common-libfabric.so.20 \
+libmca-common-sm.so.20 \
 libmca-common-verbs.so.20 \
 libmpi-mpifh.so.20 \
 libmpi-usempi-ignore-tkr.so.20 \
@@ -34,6 +35,7 @@ openmpi2-libs"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
+libfabric.so.1 \
 libibverbs.so.1 \
 libm.so.6 \
 librdmacm.so.1 \

@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.12"
 
-RPM_NAME = "ghc-hourglass-prof-0.2.12-7.6.aarch64.rpm"
-RPM_HASH = "5d28836aa76094819737fcf4823445320760f1e8e4dbdba501c37540edd364aa0aee5928a9ab1650845126ccfbbb83e4b197303a6e70b114ff15ad9959c89e9a"
+RPM_NAME = "ghc-hourglass-prof-0.2.12-7.8.aarch64.rpm"
+RPM_HASH = "c6316e26038a6dc9ef69e5694a080439c08d55394b2b8c45f99e96b311ddfef3ff048f1fa85cd05a3b3f2093a0237a5de461561b43499312bef92d3a9a81ab3b"
 
 RPROVIDES:${PN} += "ghc-hourglass-prof \
-ghc-prof-hourglass-0.2.12-3PFbUFQLMNb8Ad2s9SU5p3"
+ghc-prof-hourglass-0.2.12-DDTIHdRSu369xxYEqSFzho"
 
 RDEPENDS:${PN} += "ghc-hourglass-devel \
-ghc-prof-base-4.17.1.0 \
+ghc-prof-base-4.17.2.0 \
 ghc-prof-deepseq-1.4.8.0"
 
 inherit rpm

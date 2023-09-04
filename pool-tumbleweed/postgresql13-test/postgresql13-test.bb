@@ -4,10 +4,10 @@ tests for the PostgreSQL database management system, including \
 regression tests and benchmarks."
 LICENSE = "PostgreSQL"
 
-PV = "13.11"
+PV = "13.12"
 
-RPM_NAME = "postgresql13-test-13.11-1.5.aarch64.rpm"
-RPM_HASH = "fe0c7b00b3609f7991bfee3bb8c9715cffaed7995e90ea9d7006d6c1dbcadbd6a76d950c711551b66ef10d1581760d39a139425badf074eaa179b65459596238"
+RPM_NAME = "postgresql13-test-13.12-1.1.aarch64.rpm"
+RPM_HASH = "08cb7ec55aaa336b2478c7681cf87a9e744d1ae3a5607981b49adb7b0516b975f8f68f9fca0d158facebb4ad73de604e0f7fb62dc5ae3e60db5d912bcad4ce9b"
 
 RPROVIDES:${PN} += "postgresql-test-implementation \
 postgresql13-test"

@@ -12,10 +12,10 @@ Documentation for the modules contained in this package can be found in \
 /usr/share/doc/packages/postgresql/contrib."
 LICENSE = "PostgreSQL"
 
-PV = "11.20"
+PV = "11.21"
 
-RPM_NAME = "postgresql11-contrib-11.20-1.5.aarch64.rpm"
-RPM_HASH = "880b09eaab6228d385b09671d2f831aed0a334cdf7ed60712dc1ae55af017146093fbf01270a65ad261ba3352491692bedcb24f489339773a93f6a011b64a68f"
+RPM_NAME = "postgresql11-contrib-11.21-1.1.aarch64.rpm"
+RPM_HASH = "0d324216c8b1cc0d170c7f5f0fec7d1f1aa815503af53be4a2d341ccde8fd517b4cb5d42c5b12733a91f3749e644b657a821d7c8ed79720577c116df83e9e12c"
 
 RPROVIDES:${PN} += "postgresql-contrib-implementation \
 postgresql11-contrib"

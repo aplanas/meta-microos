@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.6.1.0"
 
-RPM_NAME = "ghc-hpc-prof-0.6.1.0-3.2.aarch64.rpm"
-RPM_HASH = "008ab2019dfaee81bd7e5ef3bb316bf918b1c8cba8f2cd1d629c04c4a290cb1f98ad260de95d171d75212835c2bf2bb032506dc41f31b333a151c59969eae15f"
+RPM_NAME = "ghc-hpc-prof-0.6.1.0-1.1.aarch64.rpm"
+RPM_HASH = "769f2440f261650aa301ed469e60c62e404b49c559b20446e1efa4d91ca19a84b3bab2860300ceb44095ced27454cbb5fec5de1530f8c3efb1af861b5254077f"
 
 RPROVIDES:${PN} += "ghc-hpc-prof \
 ghc-prof-hpc-0.6.1.0"
 
 RDEPENDS:${PN} += "ghc-hpc-devel \
-ghc-prof-base-4.17.1.0 \
+ghc-prof-base-4.17.2.0 \
 ghc-prof-containers-0.6.7 \
 ghc-prof-deepseq-1.4.8.0 \
 ghc-prof-directory-1.3.7.1 \

@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2023.5.1"
 
-RPM_NAME = "python39-dask-diagnostics-2023.5.1-2.4.noarch.rpm"
-RPM_HASH = "7701121f4d0f3b18692b7b8e187cd6f22e731489938dcea464a6379884c0c5254151eb71dda7fd957763306b46fca60fab8022eb031d3a43f733e62188357e86"
+RPM_NAME = "python39-dask-diagnostics-2023.5.1-2.5.noarch.rpm"
+RPM_HASH = "f96edaa3185a418ddc35329f0b58aaff95eb9f7eebda758b5121c0265ebf9cd1e4d5b21bc5b9906d53e466897e79ef33b5e41da80abc9ac1d8a2c8673794aa59"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-dask-diagnostics"

@@ -7,10 +7,10 @@ replace the old Azure Service Management (ASM). \
 This package has been tested with Python 2.7, 3.4, 3.5, 3.6 and 3.7."
 LICENSE = "MIT"
 
-PV = "3.0.0"
+PV = "4.0.0"
 
-RPM_NAME = "python39-azure-mgmt-authorization-3.0.0-1.4.noarch.rpm"
-RPM_HASH = "2d5067f70f9fdcb711eb796a70cc66f1cd1c2bfb915d6686cd3e6f7b10f09518204fe48b85e2debe6251708d7db91608e0b05170ccd1653d5901c0c09ea8955e"
+RPM_NAME = "python39-azure-mgmt-authorization-4.0.0-1.1.noarch.rpm"
+RPM_HASH = "deb52d435883e8475989280e07262871abc2f46bd1cbf08e3bac5d0ba98aa5ecd680292b550948117e0f8ab1a349a2d3cd91d4dab8bbc1b7f7aa5e4f1e14a868"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-mgmt-authorization \
@@ -21,6 +21,6 @@ RDEPENDS:${PN} += "python-abi \
 python39-azure-common \
 python39-azure-mgmt-core \
 python39-azure-nspkg \
-python39-msrest"
+python39-isodate"
 
 inherit rpm

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.4.18"
 
-RPM_NAME = "libproxy1-config-kde-0.4.18-2.3.aarch64.rpm"
-RPM_HASH = "b057372b5b6104bbd24fda9ce025eea4fb15094229dfae6da99fef45495b3ee7f583644e4ac93a02887de9a5a03aa6b628531a8fba123574c9044ff585676a82"
+RPM_NAME = "libproxy1-config-kde-0.4.18-2.4.aarch64.rpm"
+RPM_HASH = "a84a202d7ea1f604a119453f52b178ee8c7836a7de25547be0267e20f5abbb7e8fd2fdff3dc12019cd2dca362ec7b1342b861d4417a1692cc33dfed4b7a1b3ec"
 
 RPROVIDES:${PN} += "libproxy-kde \
 libproxy1-config-kde"

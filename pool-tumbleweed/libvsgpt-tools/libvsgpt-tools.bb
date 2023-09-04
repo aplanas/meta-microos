@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221029"
 
-RPM_NAME = "libvsgpt-tools-20221029-3.9.aarch64.rpm"
-RPM_HASH = "2375b064424d5f037b9cdd649089cb2b1e0ab61c5e9e870f4a5134eb2f787e4c12c00d43ca78ce3b22eaefcea7002ed206cdf7f232b67ba5c2749d8adea3b253"
+RPM_NAME = "libvsgpt-tools-20221029-4.1.aarch64.rpm"
+RPM_HASH = "49cc892c65f3cf87254056280151b23d3fea5c4338c511a9c803e11104c06e7ad5693543ff42bf9c5f39de7ec771d0f608f9a11e1ecc66c3046164c7d4031abb"
 
 RPROVIDES:${PN} += "libvsgpt-tools"
 

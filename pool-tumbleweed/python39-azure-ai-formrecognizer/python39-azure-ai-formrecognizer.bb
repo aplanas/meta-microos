@@ -10,10 +10,10 @@ functionalities: \
  * Prebuilt receipt model - Recognize data from USA sales receipts using a prebuilt model."
 LICENSE = "MIT"
 
-PV = "3.2.1"
+PV = "3.3.0"
 
-RPM_NAME = "python39-azure-ai-formrecognizer-3.2.1-1.3.noarch.rpm"
-RPM_HASH = "63f3ce9b760588424171cb16fc10ff2239bf7282e45e2896e4d252be365f011b64b6ca9e4a0fbcef42f6e6fb15ce7d55221efbcd1d5adb6729c24d32b877f1a0"
+RPM_NAME = "python39-azure-ai-formrecognizer-3.3.0-1.1.noarch.rpm"
+RPM_HASH = "8363d0a79ed4b929873dfdba0b77c2153a6848bbf994326f6686d3c0cd7cea150cd1e165c2af3ceb8e42546a51a96b6f8c79819289306afb6326cef3e87bee94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-azure-ai-formrecognizer \

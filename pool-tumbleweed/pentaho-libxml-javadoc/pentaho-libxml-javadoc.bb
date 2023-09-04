@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for pentaho-libxml"
 DESCRIPTION = "Javadoc for pentaho-libxml."
 LICENSE = "LGPL-2.0-only"
 
-PV = "1.1.3"
+PV = "1.1.6"
 
-RPM_NAME = "pentaho-libxml-javadoc-1.1.3-6.7.noarch.rpm"
-RPM_HASH = "ddfe747f45b74271276150d79774cf7cb2fc431c2f082b794c71b4f2e4d27fc1ddab8a375ff85f620e10df160fe349f24f7784a8a6591097e91a600bc95ef68d"
+RPM_NAME = "pentaho-libxml-javadoc-1.1.6-1.1.noarch.rpm"
+RPM_HASH = "6af5ce3f3439eefc79f24214874ec89892abd6af3ce5e1c5ff0c0493e882f7fd95870ec215ca1bef4517f0e904dc382845cfb2bd3e097eecdc28fd78faa92511"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pentaho-libxml-javadoc"

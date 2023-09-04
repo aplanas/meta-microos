@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "9.30"
 
-RPM_NAME = "rxvt-unicode-9.30-2.4.aarch64.rpm"
-RPM_HASH = "5bf0fdc94ccd7eace4d6cbe01cc56dab0f678d8189429d2cbd40a26d995fcbbac99bf85e4c7d8ffa58d724f7d9e96bb986f5831076948bff38aae9a9ae58adc4"
+RPM_NAME = "rxvt-unicode-9.30-2.5.aarch64.rpm"
+RPM_HASH = "34b1457eb959bd9748c7001640df20a44d9fb1073aa78021cea65bfc02884c7de4bd09065d177212786162d113af75cac90c43d4b82255f5b1799eeb349cdebf"
 
 RPROVIDES:${PN} += "locale-xorg-x11-ja;ko;zh \
 perl-urxvt \

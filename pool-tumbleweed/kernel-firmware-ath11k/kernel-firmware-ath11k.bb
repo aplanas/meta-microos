@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Atheros Qualcomm WiFi drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230724"
+PV = "20230814"
 
-RPM_NAME = "kernel-firmware-ath11k-20230724-1.1.noarch.rpm"
-RPM_HASH = "17a2b7eab3bf15056173898a7a75a8e0ad8bde3bc3202090426b0ce32e927ec52c75bce460fd78aad0474d7d8a0c568c1ec9d0b122ff5003a14f60d52cba5798"
+RPM_NAME = "kernel-firmware-ath11k-20230814-1.1.noarch.rpm"
+RPM_HASH = "56326a41846d6238e6faf58457c56803c635aeba8422d3c61817410cbf9f63fa04963f3dda561dc7d1848da2e64f9d613f93b30822efdc953c1d92f645e460f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-ath11k/IPQ5018/hw1.0/Notice.txt \

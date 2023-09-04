@@ -12,8 +12,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.11.4"
 
-RPM_NAME = "python311-devel-3.11.4-1.2.aarch64.rpm"
-RPM_HASH = "08f3ddc19947474be355d1b9f4bf9885c90792b86f440080154ce9d7014748a3f2e09fe4c19318ec21eabf39dc00a7ea344dbacabb5cc56e4410375581f4a4a4"
+RPM_NAME = "python311-devel-3.11.4-3.1.aarch64.rpm"
+RPM_HASH = "81e3e5b3907a7e3fde5344af26397f5a77288b8726fba70cad8eb79bc3e5c53a94ee6e42a9c17543bb5827e46bb9109efaddc89b5ae7fda0efe83335bdfb05b9"
 
 RPROVIDES:${PN} += "libpython3.so \
 pkgconfig-python-3.11 \

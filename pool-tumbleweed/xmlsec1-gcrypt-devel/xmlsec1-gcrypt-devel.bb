@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.2.37"
 
-RPM_NAME = "xmlsec1-gcrypt-devel-1.2.37-2.3.aarch64.rpm"
-RPM_HASH = "f525e9012f63295b6d3b71ac3d68f9f1c9e32f7f034bc9620d0378a155684f3481ddb0322ce250f7b0f387942329b52c757f74219372c2e7e558d0d0bbbc4e12"
+RPM_NAME = "xmlsec1-gcrypt-devel-1.2.37-3.1.aarch64.rpm"
+RPM_HASH = "ca87452f1fad288c65d77478794ce02d9b540c963c9021ae8039cef9ef0ef5f1335125a25d1da67a740a43d6c83f5a9045ffdeb99c5f31463651d3b1e7d3b2b3"
 
 RPROVIDES:${PN} += "pkgconfig-xmlsec1-gcrypt \
 xmlsec1-gcrypt-devel"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-terminal"
 DESCRIPTION = "Provides translations for the 'xfce4-terminal' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0.4"
+PV = "1.1.0"
 
-RPM_NAME = "xfce4-terminal-lang-1.0.4-1.4.noarch.rpm"
-RPM_HASH = "d8c1eb06211bec99cc816a45a0974666a086a4e222df6a956dfc6f127c60120ddf21e29a63c1422eb6066e10f21571dc06260061be89ac00d0a7ce1ddbb761ed"
+RPM_NAME = "xfce4-terminal-lang-1.1.0-1.1.noarch.rpm"
+RPM_HASH = "de9cdeae4d8940b101cb83f0af2ac0cdd1c1da6eb802c358a15e30c0e4249ba96ede8142216f4a1a956270c4a03d6746832343e388df9070982f9c220b67f6ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-terminal-ar \

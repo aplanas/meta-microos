@@ -2,10 +2,10 @@ SUMMARY = "Dzongkha localization files for LibreOffice"
 DESCRIPTION = "Provides Dzongkha translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-l10n-dz-7.5.4.2-1.5.noarch.rpm"
-RPM_HASH = "70f3ac00049003e9d57744bd3ac6d85fde7027e803dddb3f20be6948c318710f659d329b97ac379955d239ab83f9f9ea0ae993b0bcf4a02487b74bfe686c0e48"
+RPM_NAME = "libreoffice-l10n-dz-7.6.0.3-1.1.noarch.rpm"
+RPM_HASH = "30fca950be04c45508ff1d380de76dcb991168d59a050af1b7fd18f885d580ee7eb689b9e1f8e5c393bcb0c00763b09cfa472bc2e2d8b54e31b14e4249d712f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-dz \

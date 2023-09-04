@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python311-pipx-1.2.0-1.3.noarch.rpm"
-RPM_HASH = "cccf7251ffe7840a66594aa0cbb4b4c0161aec8655118587d9511bf6e984148e4a490bdb3a96d5cee535295a0b896e0ff764bf38b2a414d808c98de5960d3ac9"
+RPM_NAME = "python311-pipx-1.2.0-2.1.noarch.rpm"
+RPM_HASH = "ab894a227bd5ccbd3007a2ba3acb9a361347a92c166c0d5de17f4f5aad1a8d7187ecc4e1accb893b686d55263608b90ea5f4a6e28e06893c8a38fe59ec289454"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pipx \

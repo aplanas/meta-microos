@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.2.6.0svn48400"
 
-RPM_NAME = "texlive-qcircuit-doc-2023.209.2.6.0svn48400-54.1.noarch.rpm"
-RPM_HASH = "78a85f0084f52cd445d0aa722001bb5331ec3c9f74d2cf15f856bb5c1fca68d71ff106b974b6a333e984a273bf2e21462e7e38810357210c0b5f7de8e49b190e"
+RPM_NAME = "texlive-qcircuit-doc-2023.209.2.6.0svn48400-54.2.noarch.rpm"
+RPM_HASH = "a151a87192648831b59416ebbb7be62073542a36b96db7ca20540d571e92b592f0a2bf7fa024b8c18474eb7c3960b12f44b3df327b855444518a9efcae9f1d60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-qcircuit-doc"

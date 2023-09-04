@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.209.svn28628"
 
-RPM_NAME = "texlive-go-doc-2023.209.svn28628-54.1.noarch.rpm"
-RPM_HASH = "c4d0643bb351ff5aff7c58afe167d0799f2c550c0a600063b9d23ccd4c2f6f11dbec887688e851c8092dfd43f96ce484d6025c8bf1b40dceecb81b46c719f40d"
+RPM_NAME = "texlive-go-doc-2023.209.svn28628-54.2.noarch.rpm"
+RPM_HASH = "9a941cefc9176dc0b25f6996e306fa1dc3d6d48bd7b2e1cc08eb3e8247365277f268eb8d96e347d3e8337b2782f4a170505ffa343814881368b98e087c1419f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-go-doc"

@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.01svn24305"
 
-RPM_NAME = "texlive-repeatindex-2023.209.0.0.01svn24305-54.1.noarch.rpm"
-RPM_HASH = "6fe612f36643ce6641df7c46b38b143c9a57b0776f505c75910da2dbd52df7153f1a7c4452c6431dc4d83ac615ab0426bca47f4261f200e125cf3fcc2dc00de2"
+RPM_NAME = "texlive-repeatindex-2023.209.0.0.01svn24305-54.2.noarch.rpm"
+RPM_HASH = "d7cf73ee5f7ab7656767eb0e25bc6fb93cd6ea71f000b84246c901161c27e3ba68b824606fb360e799a63a6582375d2753385c60c5693a128fcc3f1fd97e90b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-repeatindex.sty \

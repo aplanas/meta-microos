@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.2.0"
 
-RPM_NAME = "pfstools-exr-2.2.0-3.15.aarch64.rpm"
-RPM_HASH = "2e58fda45e6a07ff11fc080a1a7fbecb77e49529d9d04347269c73e0a8839bcfde3d7caeef86a01e63916b830fa9a32f7f36232565dc8704e8784a57d2767601"
+RPM_NAME = "pfstools-exr-2.2.0-3.16.aarch64.rpm"
+RPM_HASH = "8787c12522fe9778890b63a7953a7fba5e710a310df61e006a2082b7877d3a9b9dec9dce53f81f2b19c2c86478d18b6e9d4d913455721e15da6613710ec7c7c0"
 
 RPROVIDES:${PN} += "pfstools-exr"
 

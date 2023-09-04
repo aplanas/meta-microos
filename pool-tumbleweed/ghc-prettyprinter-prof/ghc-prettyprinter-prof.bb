@@ -4,14 +4,14 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.7.1"
 
-RPM_NAME = "ghc-prettyprinter-prof-1.7.1-2.2.aarch64.rpm"
-RPM_HASH = "38ed5f3fa17badd9c80e96538f29d55a6aed5f8aed3aa9aa22cdb6e26e9bf2f7e0662a2392fef621c878a1a3c13fdec29bf920f161629c160e5b7c634195427e"
+RPM_NAME = "ghc-prettyprinter-prof-1.7.1-2.3.aarch64.rpm"
+RPM_HASH = "0f522901f5ff209aa75ce6faf3f54b8f2a50dcc74a1fa4b0c8d1bfc38b1e0ee9d9e95384151c7ebb41b2e356e46a9e1004aa42978f6a11f016af4c771db9c061"
 
 RPROVIDES:${PN} += "ghc-prettyprinter-prof \
-ghc-prof-prettyprinter-1.7.1-1jjh6iCiPNl8MgeqtPsio2"
+ghc-prof-prettyprinter-1.7.1-2SxWyEsMZJMFYq1EQglPJB"
 
 RDEPENDS:${PN} += "ghc-prettyprinter-devel \
-ghc-prof-base-4.17.1.0 \
+ghc-prof-base-4.17.2.0 \
 ghc-prof-text-2.0.2"
 
 inherit rpm

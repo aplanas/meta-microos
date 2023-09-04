@@ -5,8 +5,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn36348"
 
-RPM_NAME = "texlive-havannah-2023.209.svn36348-54.1.noarch.rpm"
-RPM_HASH = "e83fbfad346b6aa08dcf88fd89ce6bba20fb479d6d3eae7b07d22e637400f0ffe8bfd0ce14d76c09623b27c2b6bd6056a82c26423a337b720257baa69194ae41"
+RPM_NAME = "texlive-havannah-2023.209.svn36348-54.2.noarch.rpm"
+RPM_HASH = "74667c0d9d2ba0d6b77560bdf857746f9bc682e0c408c347b45205656ccd6517befa4a1d9328ddff333f82ac894a424676ed20d1af9ebdeee043b89a66763dce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-havannah.sty \

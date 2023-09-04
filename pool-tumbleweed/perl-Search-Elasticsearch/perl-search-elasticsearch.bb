@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "8.00"
 
-RPM_NAME = "perl-Search-Elasticsearch-8.00-1.3.noarch.rpm"
-RPM_HASH = "b617598a4ea10e79aabc51b74c2cb14675f50c8f9cc63c0d31d3f18f270ed9fab1148dd4576534dcf728ce45be90283742deed1e28b4ce803621eecf9bc63a2f"
+RPM_NAME = "perl-Search-Elasticsearch-8.00-1.4.noarch.rpm"
+RPM_HASH = "0d94ca706c1ba1f2e6afd712493af970a21de77ddfce1db5e41715b4d0c1a80b97231d87180e60aeaf01f62e692afd6588fac19c39dad93c894edf3d249a7bff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Search--Elasticsearch \
@@ -81,7 +81,7 @@ perl-Search--Elasticsearch--Transport \
 perl-Search--Elasticsearch--Util \
 perl-Search-Elasticsearch"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Any--URI--Escape \
 perl-Devel--GlobalDestruction \
 perl-HTTP--Headers \

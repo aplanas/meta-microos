@@ -9,10 +9,10 @@ devices directly nor to handle concurrent access, sound output and other \
 tricky aspects of the speech subsystem."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.11.4"
+PV = "0.11.5"
 
-RPM_NAME = "libspeechd2-0.11.4-2.1.aarch64.rpm"
-RPM_HASH = "e10d98fbab49606d9d4f7955c19803aa00ebbf49f59e08ad7bceb5a482d61da873fbe6290bc339fe1472f6eff33f38632c47f6ae008ba735beaab4d888ee5c1f"
+RPM_NAME = "libspeechd2-0.11.5-1.1.aarch64.rpm"
+RPM_HASH = "5bf9e0f967b1cca702a95b76644f25d37816b804b4505f2da26a2616e2e79157d95b1511766ed7b67cbb5fde5eece19613d7bed80786ec29371f6e456b48ecfb"
 
 RPROVIDES:${PN} += "libspeechd.so.2 \
 libspeechd2"

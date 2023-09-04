@@ -19,14 +19,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.09"
 
-RPM_NAME = "perl-Term-Terminfo-0.09-1.14.aarch64.rpm"
-RPM_HASH = "971f482d700c45e27d5b9de9ca0514c4ebf597ea7154a2c6816989a9cdea0f9654fdf242480e4c2d3703a16a1cabc277fdda8181ae4804bfd9079e24b063289f"
+RPM_NAME = "perl-Term-Terminfo-0.09-1.15.aarch64.rpm"
+RPM_HASH = "e7f0ee32d8cba9454313a7c27985af6e27a0391e8d5dadf250b070fe8107af9b62808085ad95c4296052bed60beca9995fb0a9af1ca52e76e9af9e022a7796f0"
 
 RPROVIDES:${PN} += "perl-Term--Terminfo \
 perl-Term-Terminfo"
 
 RDEPENDS:${PN} += "libc.so.6 \
 libtinfo.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

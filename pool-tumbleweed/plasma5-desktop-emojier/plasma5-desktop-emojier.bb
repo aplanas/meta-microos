@@ -2,10 +2,10 @@ SUMMARY = "Selection window for emoji text input"
 DESCRIPTION = "Press Meta+. to open an emoji selection window."
 LICENSE = "GPL-2.0-only"
 
-PV = "5.27.7"
+PV = "5.27.7.1"
 
-RPM_NAME = "plasma5-desktop-emojier-5.27.7-1.1.aarch64.rpm"
-RPM_HASH = "c5ac4dcf6e57fc7b53e4442a28ebb2711a03b18739959f1a7b89bc0d49b32d619ab2fd445e6f2c0dc921d0a606436bdc88a8164e2353f1cb9f422178e9c5b0ac"
+RPM_NAME = "plasma5-desktop-emojier-5.27.7.1-1.1.aarch64.rpm"
+RPM_HASH = "69e24dc2e0006c4c7285b9ca8f0ccd08c21bef791a113079e95081afdf0ed4ba5d2c1102ba1ced4f564782bedce63263650168be285b73765b315558b5fe86cf"
 
 RPROVIDES:${PN} += "plasma5-desktop-emojier"
 

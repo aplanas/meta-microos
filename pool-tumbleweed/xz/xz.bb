@@ -12,16 +12,15 @@ DESCRIPTION = "The xz command is a program for compressing files. \
 * Very similar command line interface to what gzip and bzip2 have."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later & LGPL-2.1-or-later & SUSE-Public-Domain"
 
-PV = "5.4.3"
+PV = "5.4.4"
 
-RPM_NAME = "xz-5.4.3-1.3.aarch64.rpm"
-RPM_HASH = "9da1f2ced78e297eca0253adb224ed249ceb03ea300c60e178a04dc4d0e69f385818121c480e243ec04ba588cdde25ef66fab0962f81f77d86f99b793e56ae1c"
+RPM_NAME = "xz-5.4.4-2.1.aarch64.rpm"
+RPM_HASH = "2e9c2b3cddc4e285920e4fda19b702acd386324559e8ac182121ed56101641e50ea443c7597a00b0e794b00463648c3242d2aa5cbe7e41bf8aaa7592e1720173"
 
 RPROVIDES:${PN} += "lzma \
 xz"
 
-RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 liblzma.so.5"

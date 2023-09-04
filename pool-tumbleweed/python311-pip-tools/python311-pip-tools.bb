@@ -2,10 +2,10 @@ SUMMARY = "Tool to keep pinned dependencies up to date"
 DESCRIPTION = "pip-tools keeps pinned dependencies inside a project up to date."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.13.0"
+PV = "7.3.0"
 
-RPM_NAME = "python311-pip-tools-6.13.0-1.1.noarch.rpm"
-RPM_HASH = "73c53b8581b5b26970060956c91fc1c9384b2343952ae362cded8050b3698fc2cbff4272ffb94f74c253485ce65328240fd42ed5868e01aeb185bc1cdd29c25d"
+RPM_NAME = "python311-pip-tools-7.3.0-1.1.noarch.rpm"
+RPM_HASH = "de53be60ba31585ad1cfb306f8697e1d54d0c891482f8647db4bc3945ad517bab5586958f493659a5cbc623e2674a83ac3e682e19a32088e4132c5accfe00792"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pip-tools \
@@ -20,6 +20,7 @@ python311-build \
 python311-click \
 python311-pip \
 python311-setuptools \
+python311-tomli-w \
 python311-wheel"
 
 inherit rpm

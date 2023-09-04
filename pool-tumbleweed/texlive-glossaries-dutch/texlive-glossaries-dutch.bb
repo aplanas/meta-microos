@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.1svn35685"
 
-RPM_NAME = "texlive-glossaries-dutch-2023.209.1.1svn35685-54.1.noarch.rpm"
-RPM_HASH = "3a67dc47821c394b03262e41d755948f32aaa803731ca41980eb3bebe64ba89348840d9a51515302a6fbe26c185b3aa6f3f9193c304b9793191e5bde02549905"
+RPM_NAME = "texlive-glossaries-dutch-2023.209.1.1svn35685-54.2.noarch.rpm"
+RPM_HASH = "4e7bee7015367762a59fb240f0586440671c59145c6ed22f6819cfe4b2c6fd25d5b8b00a3b9f83ccf787111030d45ac63958a5ad355658a704716b8cd48cba96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-glossaries-dutch.ldf \

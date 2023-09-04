@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "3.3.6"
 
-RPM_NAME = "ghc-warp-tls-doc-3.3.6-1.8.noarch.rpm"
-RPM_HASH = "f9a641ee58b26520baad3d2612a9dfe64038d9b7d127b26e334802495567dfa3692795c3ec65f0ef1df0b6a20a7fc48e03b8dc5cf14dfb2addcceb39847fc91b"
+RPM_NAME = "ghc-warp-tls-doc-3.3.6-2.4.noarch.rpm"
+RPM_HASH = "60c1f5f353e5cb162d1afaf7fc4710b1d396d6db86843a30d16dbb0bfd8c71832687c50517436e242d22d58c3ab74ff085537d037fc74669d80c22906f18b1b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-warp-tls-doc"

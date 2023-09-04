@@ -2,10 +2,10 @@ SUMMARY = "Malayalam localization files for LibreOffice"
 DESCRIPTION = "Provides Malayalam translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-l10n-ml-7.5.4.2-1.5.noarch.rpm"
-RPM_HASH = "b405b1c5337b93848fbe24070946fd817b31134538711024b5a12b7db4c294dd637a211df22c96708f9281754e654f4d7834f3a20f0ebd39f0ca491376b907cf"
+RPM_NAME = "libreoffice-l10n-ml-7.6.0.3-1.1.noarch.rpm"
+RPM_HASH = "7d21038ffd2f44118d05f6fbed560dcab5a859e32a743ab1ffeb6ac8150e1b7036bfdd99be80ec42e858921669e801ffe82f13adaa20970c50dfa1bd7b7f271a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-ml \

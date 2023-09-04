@@ -36,13 +36,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.905"
 
-RPM_NAME = "perl-Lingua-EN-Inflect-1.905-1.12.noarch.rpm"
-RPM_HASH = "15605a1fa1b0eae36b36ef3f6e353c6a61ceda38f7a09d647a40677123b7ed72cebb13dfb602dd943aba045debe45a43650947ad4c8d2fa497df6a74c73d15d6"
+RPM_NAME = "perl-Lingua-EN-Inflect-1.905-1.13.noarch.rpm"
+RPM_HASH = "c8a92e0a09a067a1d1839d5c1f401618d15ccc50b8c4ef5982c2d4327fc409a804f9e7894e5c8b20fefcc3fe21cb370866c40395cc21ba580689bac95e638c5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Lingua--EN--Inflect \
 perl-Lingua-EN-Inflect"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

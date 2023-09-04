@@ -6,8 +6,8 @@ LICENSE = "PostgreSQL"
 
 PV = "14.8"
 
-RPM_NAME = "postgresql14-test-14.8-1.5.aarch64.rpm"
-RPM_HASH = "23ece8ea949b637273a1f6550b21ee58b8390766eb8149d202ac832fcae34602867043f9062f2f565cc23c3fef6352a9faf171f9b32a5e3efbb946418665aaeb"
+RPM_NAME = "postgresql14-test-14.8-1.6.aarch64.rpm"
+RPM_HASH = "531c738c22e5d09bf7e39eaa75ed22bf660e82be8ab8ab5fb765f4070e5bd73ae8142f80bfe2c548b271569676349159541c22d66ce27cc1aa970bab102f4ec1"
 
 RPROVIDES:${PN} += "postgresql-test-implementation \
 postgresql14-test"

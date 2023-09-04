@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.209.1.092svn51362"
 
-RPM_NAME = "texlive-heuristica-doc-2023.209.1.092svn51362-54.1.noarch.rpm"
-RPM_HASH = "83a115abc44a3d30b619e27537084dda20d49eaf38e74c58eb04f69f8c3b9f2b66bc017594943f025e20f401ba8ebd92f691f06231e6d1470327d1388d7dbcae"
+RPM_NAME = "texlive-heuristica-doc-2023.209.1.092svn51362-54.2.noarch.rpm"
+RPM_HASH = "66ce4e16bb19e7e000dd8d2c3b40c9e6f43025c4c74179dc26831fb5a4bccd0fd6263bf78bbe3d1063f114a2a591bfea6317d738b305d34c04c3540c8387ebb3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-heuristica-doc"

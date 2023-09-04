@@ -9,8 +9,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.209.svn17055"
 
-RPM_NAME = "texlive-xetex-pstricks-2023.209.svn17055-53.1.noarch.rpm"
-RPM_HASH = "820fb850d3a99afb7afa9ba1a9d1198cab9b5005f0f61d2021404102f140b1dbe162c896dd3b20a815b6e31f6507db50f586f6aa61e5d67514551d36eb3c829f"
+RPM_NAME = "texlive-xetex-pstricks-2023.209.svn17055-53.2.noarch.rpm"
+RPM_HASH = "ec79cef5b2b11713176c06ef9b7d96fe5090c842eff483aad7c40f8847935f62aa02b3c402c07ffcf209047725f0128dc13c77a9ecd3ddcc571bd3fe3fe93ad9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xetex-pstricks"

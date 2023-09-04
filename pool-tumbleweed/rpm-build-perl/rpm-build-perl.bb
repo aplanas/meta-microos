@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.18.0"
 
-RPM_NAME = "rpm-build-perl-4.18.0-5.3.aarch64.rpm"
-RPM_HASH = "4d0b91ca3d8a94b31f4584fbcd8b44dc60d8891548fa0eab56e14797d34059edc9afb2967d08f678c0167bc1f18cc5bb74158a2c694815f8a3f77f9fd97b20f1"
+RPM_NAME = "rpm-build-perl-4.18.0-6.1.aarch64.rpm"
+RPM_HASH = "5755c00435c6b0fa1e61f1f5da49dd95d1615587944e6c2b2e4f3bee98f29140831b148f154fa306419c466da102632f01902e65242090a9ed5b0ec08de0ad54"
 
 RPROVIDES:${PN} += "rpm-build-perl"
 

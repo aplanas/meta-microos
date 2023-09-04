@@ -3,10 +3,10 @@ DESCRIPTION = "Profanity is a console-based XMPP client written in C using ncurs
 and inspired by Irssi."
 LICENSE = "SUSE-GPL-3.0+-with-openssl-exception"
 
-PV = "0.13.1"
+PV = "0.14.0"
 
-RPM_NAME = "profanity-0.13.1-1.6.aarch64.rpm"
-RPM_HASH = "08ea915e00653f83cb054fe22c2749b7b4fe0b49b4742d3f0fa827982a502816e5874cc7a66b6be15efa3047cf8fddabd136efe594b09b3dd5c10e98c8489b34"
+RPM_NAME = "profanity-0.14.0-2.1.aarch64.rpm"
+RPM_HASH = "9f8d18fc47e0d7e633d6c87cc75808baa8dc01661337d856a6884a4e0f87e29e11355ad4b521c283096e80bf88047d615d7be3267de4f401d72179a1fc93b279"
 
 RPROVIDES:${PN} += "libprofanity.so.0 \
 profanity"

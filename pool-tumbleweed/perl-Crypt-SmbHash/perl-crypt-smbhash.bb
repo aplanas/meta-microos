@@ -5,14 +5,14 @@ LICENSE = "Artistic-1.0 | GPL-2.0-or-later"
 
 PV = "0.12"
 
-RPM_NAME = "perl-Crypt-SmbHash-0.12-159.16.noarch.rpm"
-RPM_HASH = "2eeaea59c9430223d4636922ccda7c3772089d131a7d104225cd7c58fc3eb894e76727788fec3eed2f317555a1ec7de6401d05c3b4fb5045ae90ba4452167dee"
+RPM_NAME = "perl-Crypt-SmbHash-0.12-159.17.noarch.rpm"
+RPM_HASH = "19e5c65eb54b3664f84a87f460f317c08b92e076b3d8d033a081848342c10ac5c2236f5e8234e0a8f9639ee133516449c5725d0bbf4af2bef9b249019248151d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Crypt--SmbHash \
 perl-Crypt-SmbHash"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Digest-MD4"
 
 inherit rpm

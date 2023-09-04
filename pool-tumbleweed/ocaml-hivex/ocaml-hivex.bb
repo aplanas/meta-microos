@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
 PV = "1.3.23"
 
-RPM_NAME = "ocaml-hivex-1.3.23-2.5.aarch64.rpm"
-RPM_HASH = "18c061f56c1297a9b85d6feca8a3bdceb6c12540c4add5541ec205330ac2a6dff103c0974daed31a6abe6a38f5da9a4526c03ef0cfac4ba24289a1061d75ddef"
+RPM_NAME = "ocaml-hivex-1.3.23-2.6.aarch64.rpm"
+RPM_HASH = "8e5649ed81535c485642dadedb4c438ddf9616ec1ef318c7195944eac75d793af2a0f3ee173b14db6e3c03bc318bf33f033d1be981a8f9c5221d71fcd50ba08c"
 
 RPROVIDES:${PN} += "ocaml-hivex"
 

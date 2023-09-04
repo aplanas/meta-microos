@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.2.0svn47546"
 
-RPM_NAME = "texlive-xellipsis-doc-2023.209.2.0svn47546-53.1.noarch.rpm"
-RPM_HASH = "d46a765b4bb0ed61fba02a7fd1e860f3a3c8996b0f15b24d20acb1b7609cf40fc7781d861860a08f389d26cece381117adee6d383e2d6b8f93891216372cec43"
+RPM_NAME = "texlive-xellipsis-doc-2023.209.2.0svn47546-53.2.noarch.rpm"
+RPM_HASH = "d9a2423d58eb05e1577c5e557ccec542946af0a620f2d1a39aa79281c76f821534600279622240cbb0045a420469c208d8d16b0f040959ffb6605314a5b1eebc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xellipsis-doc"

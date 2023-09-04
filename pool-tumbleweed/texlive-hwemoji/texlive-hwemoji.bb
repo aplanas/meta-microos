@@ -6,10 +6,10 @@ tag sequences. Emojis are displayed through Twemoji digital \
 assets, as licensed under the CC-BY 4.0."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.0svn65001"
+PV = "2023.209.1.0svn65001"
 
-RPM_NAME = "texlive-hwemoji-2023.208.1.0svn65001-53.1.noarch.rpm"
-RPM_HASH = "d34ef03e2deb7063c2487ba7743196e9750166febbbbceb788780a79f71559cec6de9d649b88f90b137605f80bbb3f2b6be50af1db08708ec7a338eea40739b2"
+RPM_NAME = "texlive-hwemoji-2023.209.1.0svn65001-54.1.noarch.rpm"
+RPM_HASH = "e693c9a7a7f722efe3798ed6224207665a921f2dbceeeeb84a8eddc38bb17a80c7499e55fe2c6228a0e82a4b5a4a04e64ab2bfb3e1969372a28c71fb12713112"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hwemoji.sty \

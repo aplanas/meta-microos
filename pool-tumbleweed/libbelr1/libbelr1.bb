@@ -3,10 +3,10 @@ DESCRIPTION = "Belr parses input formatted according to a language defined by an
 ABNF grammar, such as the protocols standardised at IETF."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.51"
+PV = "5.2.98"
 
-RPM_NAME = "libbelr1-5.2.51-1.2.aarch64.rpm"
-RPM_HASH = "19908b68fbd0396bd115245ee03ad29a65c81b2665ed581f02da6ad385066dd7f8f9141bbc852188c2dcb00c72ed3b2936509926a6adf99cac6ae68956a38d87"
+RPM_NAME = "libbelr1-5.2.98-1.1.aarch64.rpm"
+RPM_HASH = "f8a00fe3e6234bdb19f1638809d9755557cd0f5f7aff6f31fa26499fd541ee9da74167cd307703f9becf9634cfec3cafcf0165a13c7de4faa32efdeabc44827a"
 
 RPROVIDES:${PN} += "libbelr.so.1 \
 libbelr1"

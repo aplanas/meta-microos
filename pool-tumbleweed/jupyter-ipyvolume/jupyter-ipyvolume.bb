@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.6.3"
 
-RPM_NAME = "jupyter-ipyvolume-0.6.3-1.2.noarch.rpm"
-RPM_HASH = "492c3921226daa9ea5bf3a9a85765d8c8c4f92182b7414a2696f397e50b68671847543ab6292e6e0080c9afe04fa44be891b556e2974a16425fc2a1d50f551c1"
+RPM_NAME = "jupyter-ipyvolume-0.6.3-2.1.noarch.rpm"
+RPM_HASH = "65e2dec49e70b77591e93c21ef858a69ec57f8b1fb1139e84461863ff77c8a697380dad990aeb0641e3e856d5314401048ef2d97aaf6f925a6ea9d0b40c38c9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-ipyvolume"

@@ -4,19 +4,19 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.3.1"
 
-RPM_NAME = "ghc-monad-control-devel-1.0.3.1-2.2.aarch64.rpm"
-RPM_HASH = "0338bd627dd6b77f0c0b31c5840f41b73dc839638cfd182c5e11e4c50748d94c3385149f0c26c91303379b5bf9d095b60f7ae6136004aa5d2838b62550481755"
+RPM_NAME = "ghc-monad-control-devel-1.0.3.1-2.3.aarch64.rpm"
+RPM_HASH = "e2b71ff390b09cf90138521c9296afd89c70b4fad02537813243d9dab4a3981e20b5da011082602803db0e0bd3ca906277aae7979cd4007872138ad64f305523"
 
-RPROVIDES:${PN} += "ghc-devel-monad-control-1.0.3.1-YXA6op7GEFFtfFxLr4pzX \
+RPROVIDES:${PN} += "ghc-devel-monad-control-1.0.3.1-CVPvK8bh5F0Gvv9Wu0W98B \
 ghc-monad-control-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-stm-2.5.1.0 \
 ghc-devel-transformers-0.5.6.2 \
-ghc-devel-transformers-base-0.4.6-AlF1op8b8qY6wTtsY0MGEp \
-ghc-devel-transformers-compat-0.7.2-7jAnhjvxTABIymoNGHTOwd \
+ghc-devel-transformers-base-0.4.6-FmWhyTNhU3u3qYTd28DG44 \
+ghc-devel-transformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM \
 ghc-monad-control"
 
 inherit rpm

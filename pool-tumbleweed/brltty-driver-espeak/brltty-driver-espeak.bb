@@ -7,10 +7,10 @@ complete screen review functionality. \
 This package contains the eSpeak speech driver."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "6.5"
+PV = "6.6"
 
-RPM_NAME = "brltty-driver-espeak-6.5-3.1.aarch64.rpm"
-RPM_HASH = "c997dc8eccd5e993c80df05389448fc442835cb4c488a5982450efe1960938942e9ca7f70539643cb79369e14aebb817cee89d1f2cb579983d6e1ba26bed969e"
+RPM_NAME = "brltty-driver-espeak-6.6-1.1.aarch64.rpm"
+RPM_HASH = "3444552778f81435f9b4dbdefc5a7547556adf855feacf213146f97231de9ede0a26f1c19765d1d5f7147d41e3c23709f1fa0b8bec041192a231fe4724e57934"
 
 RPROVIDES:${PN} += "brltty-driver-espeak \
 libbrlttyses.so"

@@ -7,8 +7,8 @@ LICENSE = "OLDAP-2.8"
 
 PV = "2.6.4"
 
-RPM_NAME = "openldap2-2.6.4-2.1.aarch64.rpm"
-RPM_HASH = "70fd3a11e19239678bc62f8e567887105ca1ec642fb745f0c81e3583264d92b096b3d058cc12b11bf54ae4c5bce68b19859acc6e67dc20e46f8f54c2a66bfb11"
+RPM_NAME = "openldap2-2.6.4-2.2.aarch64.rpm"
+RPM_HASH = "fee805164de9c5f8b42abd13ee79530581d85988d8d4152b64d7efc7053478d305e60ee473d8d5b920c03f08cf1271e85787ed6a6a3b852f245d671c0b72b88b"
 
 RPROVIDES:${PN} += "config-openldap2 \
 group-ldap \

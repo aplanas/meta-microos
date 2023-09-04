@@ -6,8 +6,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "3.14"
 
-RPM_NAME = "perl-Furl-3.14-1.10.noarch.rpm"
-RPM_HASH = "f633eb8a894b13f7126abd05bf335970a11683bce05ed34dbfd02fa882158d9306b3f679929dd36960a0c7c7815aca84348e1389cd88154c05805a0dc94381c6"
+RPM_NAME = "perl-Furl-3.14-1.11.noarch.rpm"
+RPM_HASH = "41bd3831239578dbfc2c11d8fee9f7af6aebdde1da4fbf001aceb67d431546cc9a3558ccce1b3e7293448b9c35ecd5d4947dba0e73644897c2ff8b13a0c26091"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Furl \
@@ -18,7 +18,7 @@ perl-Furl--Request \
 perl-Furl--Response \
 perl-Furl--ZlibStream"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Class--Accessor--Lite \
 perl-HTTP--Parser--XS"
 

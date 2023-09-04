@@ -4,8 +4,8 @@ LICENSE = "(Apache-2.0 | BSL-1.0) & (Apache-2.0 | MIT) & (Apache-2.0 | Apache-2.
 
 PV = "13.0.0.alpha.0+git14"
 
-RPM_NAME = "tokei-13.0.0.alpha.0+git14-1.1.aarch64.rpm"
-RPM_HASH = "117a4160af55a399c73363de6b293575e1424f82673f404da504def946dc329c39aefa63880849468eee1b4033b023ad2dd41fa067b6d262a499d30e6496d405"
+RPM_NAME = "tokei-13.0.0.alpha.0+git14-2.1.aarch64.rpm"
+RPM_HASH = "8bfae17ddafa7c8846ca85fd378b5cdddb5a8d15991592cbf0efb615d519a7f5262fe8e2cfd137c3a522655a81c1a1a017cdf684169af4abdcb588c34c540730"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-arbitrary \

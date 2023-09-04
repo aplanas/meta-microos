@@ -19,8 +19,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "6.10"
 
-RPM_NAME = "perl-HTTP-Cookies-6.10-1.11.noarch.rpm"
-RPM_HASH = "f84475c4c297b7e3b9173c4262394435137c197c8f22673deeda7b8f84dddd16ea544652f0dafccdf65f7dd89659fb125b4b620b4a43d9a9b4d7f53ace5b7b3a"
+RPM_NAME = "perl-HTTP-Cookies-6.10-1.12.noarch.rpm"
+RPM_HASH = "7b219319c145074bef9c8fb449e19c5ba81b0cca8512cbf0b0ad57f81c94c9e3e0a3186b5e788f40186affbb818ac7f0a4e9814e31688b00df132684f4efa2e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Cookies \
@@ -28,7 +28,7 @@ perl-HTTP--Cookies--Microsoft \
 perl-HTTP--Cookies--Netscape \
 perl-HTTP-Cookies"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-HTTP--Date \
 perl-HTTP--Headers--Util \
 perl-HTTP--Request"

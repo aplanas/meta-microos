@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.0.17995"
 
-RPM_NAME = "nintendo-gamecube-wiimote-udev-rules-5.0.17995-3.3.noarch.rpm"
-RPM_HASH = "8a4f2c3d206f2ae57302b2a0d5889a431531d94effcfaaaa4abf4ea2f5c98525e83482dd8a759676c1246c5940bf767396b6fb3bd04149293f83efc357ea3dd6"
+RPM_NAME = "nintendo-gamecube-wiimote-udev-rules-5.0.17995-4.1.noarch.rpm"
+RPM_HASH = "7a6eba761f83b31b1322d052d75e51b95f4792e8361e049bf25faa1921f73328ee8f8843db5c8047323c4aed791219a13ce664e199f9a55bc3b7f3952282d9e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nintendo-gamecube-wiimote-udev-rules"

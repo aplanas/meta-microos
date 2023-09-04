@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3006.0"
 
-RPM_NAME = "salt-master-3006.0-1.4.aarch64.rpm"
-RPM_HASH = "a9e03d330b57f765a10a6de86088e596364611849e719e05e3002ba1179f87fd9fb008000d745be6d5e9b906ea5c33febaaa09c62502fc6f89ce4b1c6e32d7cd"
+RPM_NAME = "salt-master-3006.0-2.1.aarch64.rpm"
+RPM_HASH = "484c2b03f61983ffafbfc8699a22f9d9bd8ad63be40f83b2a07eef7c73df8fe3bdbccccaba9a4cd7e320b289172c2cb2106b16cc5bfb796bff3eab403fdbfe0b"
 
 RPROVIDES:${PN} += "config-salt-master \
 salt-master"

@@ -3,10 +3,10 @@ DESCRIPTION = "A plugin for Flake8 that provides specializations for type hintin
 files. Especially interesting for linting typeshed."
 LICENSE = "MIT"
 
-PV = "23.1.2"
+PV = "23.6.0"
 
-RPM_NAME = "python311-flake8-pyi-23.1.2-1.4.noarch.rpm"
-RPM_HASH = "79c9fcbca6d4fc2a377ac3ed56ee4752ba71a8cc4082dfb9f8d42b16fc47f35c8c436ca6f7f132270721a5f48d2788deddb22515f1a4b4b5e22ec33e5f2b7348"
+RPM_NAME = "python311-flake8-pyi-23.6.0-1.1.noarch.rpm"
+RPM_HASH = "da6911e45014854cf866093a8879ef20bc879ce22740fbb8b16db314583599bceb900e91995ea2c940a94837671e6e4b45d65e44f4961dfd75db382b7303b3d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-flake8-pyi \

@@ -5,10 +5,10 @@ via Jinja templates. \
 This package provides the python interface."
 LICENSE = "BSD-3-Clause & MIT"
 
-PV = "7.6.0"
+PV = "7.7.3"
 
-RPM_NAME = "python310-nbconvert-7.6.0-1.2.noarch.rpm"
-RPM_HASH = "28ebcc289d6db39379edcf02f598ce289ecf88044dd4d0e1e1dd8ca84b2ef7728ae94904a59fd2a913cc4f64367e2df9747232f75ff1e61acb0142f7b1724530"
+RPM_NAME = "python310-nbconvert-7.7.3-2.1.noarch.rpm"
+RPM_HASH = "a5c97b3dce16dc489640c84a0c6dc7e35aaee4096f0c2951e38dabc61efd5d07143999c0f8d8f1302bc7fabe144d4d50e03dc6e511663af38035e749feb7511a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-nbconvert \

@@ -4,19 +4,19 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.0.1"
 
-RPM_NAME = "ghc-doclayout-devel-0.4.0.1-1.2.aarch64.rpm"
-RPM_HASH = "2c71dbae65544e9855be80df8527d2f728657b61df986948c30c71eb483e0afac5cf20d437f7b5b2233da6bcba968bbadbe91c06cb0e6351e73df2eb7f309e2e"
+RPM_NAME = "ghc-doclayout-devel-0.4.0.1-1.4.aarch64.rpm"
+RPM_HASH = "a0173528c49bfdf87707d777ff95158de1ff8bdaa2855666e5d57f2d53ac7cc7868bc56bb51602b79d53ff5dd2d89e80b7dd8de73168bb2885fcbfa6117ac63a"
 
-RPROVIDES:${PN} += "ghc-devel-doclayout-0.4.0.1-9Y8Rw4EdBjz2IhzjzOiBy0 \
+RPROVIDES:${PN} += "ghc-devel-doclayout-0.4.0.1-4D8TPYFDHuI6AadIlSPotc \
 ghc-doclayout-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-containers-0.6.7 \
-ghc-devel-emojis-0.1.2-Gz9J6Rv977iEZp4TYp7wAm \
+ghc-devel-emojis-0.1.3-7wpttN9DVlcBjh9pp4W5jK \
 ghc-devel-mtl-2.2.2 \
-ghc-devel-safe-0.3.19-3Ab0OpSRliCKMhc0t4Nhds \
+ghc-devel-safe-0.3.19-9uHvZjuyLiR13wOGSONZxX \
 ghc-devel-text-2.0.2 \
 ghc-doclayout"
 

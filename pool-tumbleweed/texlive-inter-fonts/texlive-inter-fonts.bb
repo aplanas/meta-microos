@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-inter"
 DESCRIPTION = "The  separated fonts package for texlive-inter"
 LICENSE = "OFL-1.1"
 
-PV = "2023.208.svn58892"
+PV = "2023.209.svn58892"
 
-RPM_NAME = "texlive-inter-fonts-2023.208.svn58892-53.1.noarch.rpm"
-RPM_HASH = "b3096f7343b055eba8b7765fbbc0a1c1dd453ced21e32d1455f5fdca362302e8243287a7007583de1049a921151306fc4ef2d4feb57f8609b13f2e9b4711f68b"
+RPM_NAME = "texlive-inter-fonts-2023.209.svn58892-54.1.noarch.rpm"
+RPM_HASH = "db459dc2db5b7546bc271784aef8d52b16b7960df6117c2df111b4e4d7b83e11e0adfdd45bf2b01435af3afde05a0022a941d4f63dfce05cdbeed5874d808774"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-inter-fonts \

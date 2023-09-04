@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.1svn15878"
 
-RPM_NAME = "texlive-erdc-2023.209.1.1svn15878-54.1.noarch.rpm"
-RPM_HASH = "03ed7b1977f4d191099197517c3ed6e7d7cdb4cee509641e4d88a6128f2f5e9381f61e1a33ef3c64bfb6b083487aab6e5f1e879f78da59fa39447f6b391ef33d"
+RPM_NAME = "texlive-erdc-2023.209.1.1svn15878-54.2.noarch.rpm"
+RPM_HASH = "27f491afb7aa3147d47c51bcec32b5ed1290570b6b4decec84f95eac18813ccfae1d594e9713382a3aa346e14ca473fcba0407e30501ee9493bb6db7ba77d51e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-erdc.cls \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mc"
 DESCRIPTION = "Provides translations for the 'mc' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.8.29"
+PV = "4.8.30"
 
-RPM_NAME = "mc-lang-4.8.29-2.2.noarch.rpm"
-RPM_HASH = "d3aa39b87b8945c84507381fc23f269608f239634875199df40d1f6d89c6c4cbb369f03816f994fb24bb5402387a00b8f5a886d2125854b01a58896baeea13b0"
+RPM_NAME = "mc-lang-4.8.30-1.1.noarch.rpm"
+RPM_HASH = "e95fe09c8d8872dc28b55e30b227a76281176ee876be544606b2aec55daa74c0021a988833aba4de7382b631452dbd99e3c836fcdb93f83ab0ef9e8c145984ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mc-af \

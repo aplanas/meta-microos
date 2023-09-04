@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.48.3"
 
-RPM_NAME = "libatspi0-2.48.3-1.1.aarch64.rpm"
-RPM_HASH = "5e040e9b3c2496b68f42fc2b4e51d5993a3ad047d9cade53829dd0ebfc432aac4c76fc0b7248180e6ad99a2a5b8fca70beb909bb4d96ed3bdddf87b93c322325"
+RPM_NAME = "libatspi0-2.48.3-2.1.aarch64.rpm"
+RPM_HASH = "5b479412db55f1457e836e4ccbc573d2f9601441cbd5ed4fd0d9a9793afa06294690a8ad7363113fe502e7b26d6db6bb24ae13ba4c15fa5d41644e8feb09c0de"
 
 RPROVIDES:${PN} += "libatspi.so.0 \
 libatspi0"

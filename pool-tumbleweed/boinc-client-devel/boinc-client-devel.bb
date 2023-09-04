@@ -2,10 +2,10 @@ SUMMARY = "Development files for libboinc"
 DESCRIPTION = "This package contains development files for libboinc."
 LICENSE = "GPL-3.0-or-later | LGPL-3.0-or-later"
 
-PV = "7.22.2"
+PV = "7.24.1"
 
-RPM_NAME = "boinc-client-devel-7.22.2-1.1.aarch64.rpm"
-RPM_HASH = "182206b0cd23ffaed3dccef76cc9fc36aa9473988b83ea89c7e3adcefd8a3776eeac867efc89018d4d51612771aa0acfef183d62a9b30f873f511cc20d441dfa"
+RPM_NAME = "boinc-client-devel-7.24.1-1.1.aarch64.rpm"
+RPM_HASH = "e6e39fadb1eb0e588ae6510fa2243a4892ed521e44c99479d8b703d46b1ecc5e6d22a1fe1516664af0cc91f5565a67bcc47a0fe7f1116a8222b3613c6a9d2cc2"
 
 RPROVIDES:${PN} += "boinc-client-devel \
 libboinc-devel \

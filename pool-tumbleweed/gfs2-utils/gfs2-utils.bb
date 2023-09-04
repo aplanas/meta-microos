@@ -4,10 +4,10 @@ checking, modifying, and correcting any inconsistencies in GFS2 \
 file systems."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "3.4.1"
+PV = "3.5.1"
 
-RPM_NAME = "gfs2-utils-3.4.1-1.9.aarch64.rpm"
-RPM_HASH = "119e0cd186187c62d94acafd936a2cf8366ca71d5f14a9d1b45bfe15b20909ed330f8ec3bd4f6bf73aa1c0850bbfe49a7e9d3f9ce15b8c13d356c865ad099642"
+RPM_NAME = "gfs2-utils-3.5.1-1.1.aarch64.rpm"
+RPM_HASH = "942e259c929bcf400bf765b8eb4a5d07c75328cf4fbd872229bc7db770913ed71257c465e638d7ea0469a5687c480144b5418ca27810a71315a3fbe25971ce0e"
 
 RPROVIDES:${PN} += "gfs2-utils"
 

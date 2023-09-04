@@ -10,8 +10,8 @@ LICENSE = "Python-2.0"
 
 PV = "3.9.17"
 
-RPM_NAME = "libpython3_9-1_0-3.9.17-3.1.aarch64.rpm"
-RPM_HASH = "4268d1e939e7dfff3ba02ff0e086f47dfd3edab85c6fd2ea8f2751f2d404af8750b34d544de00ff7c9de5a7b712c85c646b37e2660ad0d859886b06630c1b256"
+RPM_NAME = "libpython3_9-1_0-3.9.17-4.1.aarch64.rpm"
+RPM_HASH = "800021b68e4f7ab94eb8b9cb47c689efa3217b2bf06e2f0a70931953e114205781f5424f2d7f6d84d0bde0af955387852e66cbf22acfe25b514a9fc45aea1069"
 
 RPROVIDES:${PN} += "libpython3-9-1-0 \
 libpython3.9.so.1.0"

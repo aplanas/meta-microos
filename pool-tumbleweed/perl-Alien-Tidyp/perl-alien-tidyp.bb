@@ -4,15 +4,15 @@ LICENSE = "Artistic-1.0 | GPL-2.0+"
 
 PV = "1.4.7"
 
-RPM_NAME = "perl-Alien-Tidyp-1.4.7-8.29.noarch.rpm"
-RPM_HASH = "43b7b70027fcad880551868edacef6479eb54b9b173279cd4d8d0a42383151d16636da76de7dc295d6298c15f9d0445c2994c042d721d045dc0eca15b7d11b4b"
+RPM_NAME = "perl-Alien-Tidyp-1.4.7-8.30.noarch.rpm"
+RPM_HASH = "d4fd751a8c3c24f567d04e40ab56b926b14431ea8623803c34e2d452da9a87a05063158721dafc25fec962a86eac11d37931e463ca2fea79b6889c82f9eaf2a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Alien--Tidyp \
 perl-Alien--Tidyp--ConfigData \
 perl-Alien-Tidyp"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-File--ShareDir"
 
 inherit rpm

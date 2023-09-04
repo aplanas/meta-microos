@@ -2,10 +2,10 @@ SUMMARY = "Galician hyphenation patterns"
 DESCRIPTION = "Hyphenation patterns for Galician in T1/EC and UTF-8 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn58652"
+PV = "2023.209.svn58652"
 
-RPM_NAME = "texlive-hyphen-galician-2023.208.svn58652-53.1.noarch.rpm"
-RPM_HASH = "8adb209043bec2fd7e9952f9934f0af3696ab2019c122667a1fdcae51a3cd28a76d46b7fc964c8e9f9639407f5e0146aaa5671bf2b19c8f30581e3f90919c4a1"
+RPM_NAME = "texlive-hyphen-galician-2023.209.svn58652-54.1.noarch.rpm"
+RPM_HASH = "aa313b4180dd21d296d533d755b74a550d9a5a400f530d7d7018b6c715ed45341d4ebd28506323c8d9dcc9f5f2c5558bd930a84e4794468df0f03777ad23dd52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-gl.ec.tex \

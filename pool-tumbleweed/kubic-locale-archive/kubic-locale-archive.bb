@@ -4,10 +4,10 @@ en_US.UTF-8 locale for very minimal systems only supporting \
 english as locale."
 LICENSE = "GPL-2.0+ & MIT & LGPL-2.1+"
 
-PV = "2.37"
+PV = "2.38"
 
-RPM_NAME = "kubic-locale-archive-2.37-3.16.noarch.rpm"
-RPM_HASH = "36fb06b69a036af1d1c5a8d7b1ba5c89fb3f56479efad4942580c9e44173062ba54d658693f8a3ca13876c18899dee0d3e6ee54cf97240ec693ef7bc5a341123"
+RPM_NAME = "kubic-locale-archive-2.38-3.17.noarch.rpm"
+RPM_HASH = "6465f914dbd8f3fff80ea6baf9f3b1ac705f2ecf4901691a886eeb959b19633981b3071014d9123eebd210f3f31b72bd8f075d73a940fa3014aebff5718f35f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kubic-locale-archive"

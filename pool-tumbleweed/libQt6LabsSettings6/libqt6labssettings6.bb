@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 LabsSettings library"
 DESCRIPTION = "The Qt 6 LabsSettings library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
 PV = "6.5.2"
 
-RPM_NAME = "libQt6LabsSettings6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "40de37f278a733601d2400eaa27f78a39669af14438955b165d5ccef0446ba87a2cba83041f8b4a9d03ea0c709b4ae4898874afb36f9eff71f18ced2592105a2"
+RPM_NAME = "libQt6LabsSettings6-6.5.2-2.1.aarch64.rpm"
+RPM_HASH = "8af7503c479cde8f948b0a08b507d8697cecf7a9764cc858adaa8ed457f54ea4e4fb31be508c38bf7bde82244d6406d1858dc73d21fba6291b80e5ddc59cb37e"
 
 RPROVIDES:${PN} += "libQt6LabsSettings.so.6 \
 libQt6LabsSettings6"

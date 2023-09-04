@@ -7,15 +7,14 @@ from the ground up using modern technologies and borrowing some ideas from \
 graphical systems such as InDesign."
 LICENSE = "MIT"
 
-PV = "0.14.10"
+PV = "0.14.11"
 
-RPM_NAME = "sile-0.14.10-1.1.aarch64.rpm"
-RPM_HASH = "74d0acd3bff2a51cff9610cdca6a59d57a9fe05ca2c02ca4c323eea82bc825cac40fa177b4b8f656bc98a638c6d397de665f240576800389c17137c53f977713"
+RPM_NAME = "sile-0.14.11-1.1.aarch64.rpm"
+RPM_HASH = "6a1d918ef4fdd4a1769fa657d2ee8b0230e0f1e225121967c9097ab83bc3504f43d9a318778a00a7012519b615cd448c35eb390f1ef403b22effaafb66cb4444"
 
 RPROVIDES:${PN} += "sile"
 
-RDEPENDS:${PN} += "/usr/bin/lua \
-fontconfig \
+RDEPENDS:${PN} += "fontconfig \
 freetype2 \
 git-core \
 glibc \

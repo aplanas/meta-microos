@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.5.3"
 
-RPM_NAME = "python310-Logbook-1.5.3-4.1.aarch64.rpm"
-RPM_HASH = "b2627002284bd6a4b28c8346164b2c4ddd044337f72465a154c60f5e78e28d3ab9676365a380e65d079830d51cf3dc15ee4d42448f540ef15219b461b10db555"
+RPM_NAME = "python310-Logbook-1.5.3-5.1.aarch64.rpm"
+RPM_HASH = "e80f5fdbf09080897273db64e2811be9cc0af96bd0e29aac135688c5233a7f61cdb94cc6aa82498ab41afe13a48c02f00b78182a79f0d84372b53afae4e1b143"
 
 RPROVIDES:${PN} += "python3.10dist-logbook \
 python310-Logbook \

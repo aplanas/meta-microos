@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.39.1"
 
-RPM_NAME = "util-linux-tty-tools-2.39.1-1.1.aarch64.rpm"
-RPM_HASH = "a8c278bb531affacc0a693f328c12aa7bf92b7637ec035f6a79a58e3801b06cffbb49c54a6114a9690dea49b2b8c600aba49a492349c5346c21e18940596154f"
+RPM_NAME = "util-linux-tty-tools-2.39.1-3.1.aarch64.rpm"
+RPM_HASH = "b0fde6cbd0a0cd89e9ee29239e63cdcc38e696e24a7c4f1b8e08491895f9453fe5df19c1e67d0b7a9075fe09cfabf79b49294702b0af27ea8bba6a682b513411"
 
 RPROVIDES:${PN} += "util-linux-/usr/bin/mesg \
 util-linux-/usr/bin/wall \

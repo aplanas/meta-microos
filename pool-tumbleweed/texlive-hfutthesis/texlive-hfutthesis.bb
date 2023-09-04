@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0.4svn64025"
 
-RPM_NAME = "texlive-hfutthesis-2023.209.1.0.4svn64025-54.1.noarch.rpm"
-RPM_HASH = "0794718a51e43fbce921d6bd450c51d2d1a57fc31daeab46b37547252b192e1e61e2eb90504c89d1dc5a188496510ca27bc994d70cb753a5f1d4551c8112755b"
+RPM_NAME = "texlive-hfutthesis-2023.209.1.0.4svn64025-54.2.noarch.rpm"
+RPM_HASH = "cded3f69e16c1e22a9423eea98b1d3d551bee2c8d52bca1b74bf56acd4c22e6ee646d02a19e9485512e4f3da12ffb09556d8a3fb25cee6e116b4fc24842858cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hfutthesis.cls \

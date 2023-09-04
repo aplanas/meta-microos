@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for jackson-modules-base"
 DESCRIPTION = "This package contains API documentation for jackson-modules-base."
 LICENSE = "Apache-2.0"
 
-PV = "2.13.3"
+PV = "2.15.2"
 
-RPM_NAME = "jackson-modules-base-javadoc-2.13.3-1.8.noarch.rpm"
-RPM_HASH = "134dfa5a997f06fb091b8ea55ca72384eab0785a17a7ebe77d743a572e11848aee0d7030058263e496ad6567af1092494e5e7f3065d42e03ce41d30a5520ca0e"
+RPM_NAME = "jackson-modules-base-javadoc-2.15.2-1.1.noarch.rpm"
+RPM_HASH = "16a1b70de1efb0fb18a4aeac53b0d4bb61d462628970fd928aea2cc38e0324b892c4f0a2c4019e45722ce8900cd618c2ae61747ee7f7bf4ba4a28eb1bbf04534"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-modules-base-javadoc"

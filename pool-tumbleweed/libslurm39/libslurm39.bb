@@ -5,8 +5,8 @@ LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "23.02.2"
 
-RPM_NAME = "libslurm39-23.02.2-1.3.aarch64.rpm"
-RPM_HASH = "bd661343041ea5bf7db92ffe80fb40a3c99e49de896fa1d22c31207b25af0d89cd666642523f7d2d9b770003e0df8e7e45858f358bd93873231bcebd988b62be"
+RPM_NAME = "libslurm39-23.02.2-1.4.aarch64.rpm"
+RPM_HASH = "fd53e4e89b9e80fa2bbfc89cfd6c0bba6a8a34b68bd3fc5a27fb3d8fd836350bd4084b26eb2e3d39381c29c6de7fa1abbb679c68d54497923adf5c926bf5aecb"
 
 RPROVIDES:${PN} += "libslurm \
 libslurm.so.39 \

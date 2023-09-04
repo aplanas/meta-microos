@@ -7,10 +7,10 @@ SIP-based Web phones. With several codecs available, it can be used \
 with high speed connections as well as 28k modems."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "5.2.50"
+PV = "5.2.98"
 
-RPM_NAME = "liblinphone-devel-5.2.50-1.3.aarch64.rpm"
-RPM_HASH = "a654e832d08500f11b8b3866e99abfd46bce6de173a811f02baed38c28e35005c4617884130590e608f7759b24900dadccc15a049473323173bac8284a586721"
+RPM_NAME = "liblinphone-devel-5.2.98-1.1.aarch64.rpm"
+RPM_HASH = "6a318bdff0334c29f1e109f1253418e93790ef6ffc285ae7cc3e50023a4d631e204a5deb35e36b615f193108a5bb28566c46bf16b1271c255bbccd0f27570e71"
 
 RPROVIDES:${PN} += "liblinphone-devel \
 linphone-devel \

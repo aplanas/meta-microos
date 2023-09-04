@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.001"
 
-RPM_NAME = "perl-Mail-SPF-Test-1.001-8.25.noarch.rpm"
-RPM_HASH = "c3b68f043a3d704a23358529e5e548e8cf9f23232fe76ace4a9c73e772f1f8af85ce9851ec8cf922ecbb5f1b0f4afcc29d83e1102d2ffccabfd53a3be5af0458"
+RPM_NAME = "perl-Mail-SPF-Test-1.001-8.26.noarch.rpm"
+RPM_HASH = "ec743dd4dc8516d8aa88794bfe9d2458741c6c6b87f8f366c21aee260a531ad08bdcf77fcac1a200c50fe1dd84042160c8d5596744f0d3b1a84c35c88ce05356"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mail--SPF--Test \
@@ -15,7 +15,7 @@ perl-Mail--SPF--Test--Case \
 perl-Mail--SPF--Test--Scenario \
 perl-Mail-SPF-Test"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Net--DNS \
 perl-NetAddr--IP \
 perl-YAML \

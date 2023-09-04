@@ -2,10 +2,10 @@ SUMMARY = "Library to get online weather information"
 DESCRIPTION = "This is a library to download weather information from online sources."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.2.0"
+PV = "4.3.2"
 
-RPM_NAME = "libgweather-4-0-4.2.0-2.2.aarch64.rpm"
-RPM_HASH = "fc45c361af8dc529a6ec96499c496e24f633012ee53465265a5ddafe274997c120b9db55ade985edf167926b2febbbdcb704c36246e289bf05236563aeadaa4b"
+RPM_NAME = "libgweather-4-0-4.3.2-1.1.aarch64.rpm"
+RPM_HASH = "0a68c0169e2dba97d2b14938cdc1ba7d002cc3fe9c88288943ad6b8519c30a875618e7d06a14e4c555f2902215699b808fd3fa0898f10542276d77236adb8935"
 
 RPROVIDES:${PN} += "libgweather-4-0 \
 libgweather-4.so.0"

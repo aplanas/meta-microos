@@ -11,8 +11,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "0.72"
 
-RPM_NAME = "perl-Crypt-SSLeay-0.72-4.22.aarch64.rpm"
-RPM_HASH = "bec206bd0f4198075149510dcf62d52bd22b8df945d31b74cdd3914724784d395647a8bc232a7edfc8dc8211f7e9e2b5a1c8f09d4e684a62edfb2b8a959a449a"
+RPM_NAME = "perl-Crypt-SSLeay-0.72-4.23.aarch64.rpm"
+RPM_HASH = "f3a030db9182ee54cc1fec956976695da0c93f5ac002fd3726edc0546265312ba615cab3acb577c64f56379d05aeccbcce09b0d695eeb5ac756573f82618cd09"
 
 RPROVIDES:${PN} += "perl-Crypt--SSLeay \
 perl-Crypt--SSLeay--CTX \
@@ -30,7 +30,7 @@ libc.so.6 \
 libcrypto.so.3 \
 libssl.so.3 \
 openssl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-LWP--Protocol--https"
 
 inherit rpm

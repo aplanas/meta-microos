@@ -2,10 +2,10 @@ SUMMARY = "Go documentation"
 DESCRIPTION = "Go examples and documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.20.6"
+PV = "1.20.7"
 
-RPM_NAME = "go1.20-doc-1.20.6-1.1.aarch64.rpm"
-RPM_HASH = "98974ccd5331c80080a219196c511439b2ad8fa24bb9c0ec14481c19f1bc318e1ce9e9ff9f31e5d5626b8321bf1cc0997be5d550d78b966a1bd40a4ba0d6ee73"
+RPM_NAME = "go1.20-doc-1.20.7-1.1.aarch64.rpm"
+RPM_HASH = "be8f37d367baa035f8039017aa930fb5a1c296d1a2fdcafa02e8e84255b699507869b99e034f0643d74f71b58a4bcc8143409353284d67155eb6288ea6770f5c"
 
 RPROVIDES:${PN} += "go-doc \
 go1.20-doc"

@@ -5,10 +5,10 @@ runs in secure, hardware-based trusted execution environments, also known as enc
 It is built on Microsoft Research's Confidential Consortium Framework."
 LICENSE = "MIT"
 
-PV = "1.1.0"
+PV = "1.1.1"
 
-RPM_NAME = "python311-azure-confidentialledger-1.1.0-1.2.noarch.rpm"
-RPM_HASH = "d94c6edcd3df14d219f075d74d7209f72efc11b06afc88fcfa016fcce914550004f878f7e3abd3f14db2da4480c0704620335c4aefba13440976365ac1503235"
+RPM_NAME = "python311-azure-confidentialledger-1.1.1-1.1.noarch.rpm"
+RPM_HASH = "98763bb6a3e63639aaa227ed7258186a501f8a3cc4bfd323e7a6feeb13361aaf4a6f7ed7c05c613de32f6082e18735d7ca85d5bded37f4879780ef5217b17c2b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-confidentialledger \

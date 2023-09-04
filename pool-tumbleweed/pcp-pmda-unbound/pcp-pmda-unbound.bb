@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-unbound-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "f5572c55ba121fd8c8eecbf189bf2303e6cacf610452158538f20374da32608e59801db311f5ec64bf6020ec1f6ba5d6d2501a67a65e84dec10832325b3b3088"
+RPM_NAME = "pcp-pmda-unbound-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "fe6938c2cf94458a33d319af09ee88dfdaaeecbcdb29955c61afb3173db50f2784195bf20b7c8b7d792277743ce9b937c757acfa49bd1d6f2df76b96c1ba6e33"
 
 RPROVIDES:${PN} += "pcp-pmda-unbound"
 

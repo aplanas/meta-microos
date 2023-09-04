@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0-no-copyleft-exception"
 
 PV = "2.18.8"
 
-RPM_NAME = "dlt-tools-2.18.8-4.5.aarch64.rpm"
-RPM_HASH = "2b492272a5c65824735de9491925e85c16fb77ff57a501303467e8e8a0e3235020f2fdd66556f5ac31dba41b5fea0a57d61fd47555631bbdfae7d1f4b4833541"
+RPM_NAME = "dlt-tools-2.18.8-4.6.aarch64.rpm"
+RPM_HASH = "8de5eddea10a344e68633ccb02d7b0d498c21f662ba02523a7bcb204bd20253d9ad0e4ec6ad0a57a735247787e77fa73cbc5f5a9048211df21e40f70eb4fcddc"
 
 RPROVIDES:${PN} += "config-dlt-tools \
 dlt-tools"

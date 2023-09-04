@@ -4,19 +4,19 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.1.1"
 
-RPM_NAME = "ghc-optics-core-devel-0.4.1.1-1.2.aarch64.rpm"
-RPM_HASH = "4a4339f6ba633764fe7741c4dbb762e7d37723addf126910e398c813ec9f183f7a71eca064851768438c103cfa086a61a4762dfde2184deaddb1d933f6a68dc4"
+RPM_NAME = "ghc-optics-core-devel-0.4.1.1-1.4.aarch64.rpm"
+RPM_HASH = "be725558a8c7def2154c3a6d761cfde47195f3807a579c4eda9b9012b05ffdba0df8a6dcfd9cbaa286887b151f3a8804871058f1aa3523fb9187205ff5553013"
 
-RPROVIDES:${PN} += "ghc-devel-optics-core-0.4.1.1-JC1QypotRRZA0HNSE7diFW \
+RPROVIDES:${PN} += "ghc-devel-optics-core-0.4.1.1-GFxq3hBCaeZX1WvuRPRZs \
 ghc-optics-core-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-array-0.5.4.0 \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-containers-0.6.7 \
-ghc-devel-indexed-profunctors-0.1.1.1-6bLFHbFbToS4H5mdmvIfka \
-ghc-devel-indexed-traversable-0.1.2.1-1XiSi5jKFt6BqKufaNXxBs \
+ghc-devel-indexed-profunctors-0.1.1.1-8VFnw8ahpDVCAreg6vEIe9 \
+ghc-devel-indexed-traversable-0.1.2.1-4MWkBnFErvq3PVvZRvlACO \
 ghc-devel-transformers-0.5.6.2 \
 ghc-optics-core"
 

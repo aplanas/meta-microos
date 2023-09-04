@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.209.svn54512"
 
-RPM_NAME = "texlive-qualitype-fonts-2023.209.svn54512-54.1.noarch.rpm"
-RPM_HASH = "edc962eb38f4a9ff87b29116003e8dd5e4939ff8ee95d05206fd9054d268acb887a2ee4c9e718f2e2289909a241a68114667623c42f8d190fbc9450c3a83f13a"
+RPM_NAME = "texlive-qualitype-fonts-2023.209.svn54512-54.2.noarch.rpm"
+RPM_HASH = "b490de4fa35f026337c2b3bc663362264f19fe2061b95a57accbc1e1209527c3821b32634ba41fe6969e3dcbc5847fb31a024998d5954b3666ffbdf9bed22fc6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \

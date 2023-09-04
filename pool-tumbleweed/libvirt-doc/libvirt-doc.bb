@@ -3,10 +3,10 @@ DESCRIPTION = "The API reference for the libvirt C library, and a \
 copy of the libvirt.org website documentation."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.5.0"
+PV = "9.6.0"
 
-RPM_NAME = "libvirt-doc-9.5.0-2.1.noarch.rpm"
-RPM_HASH = "221405eabc82343f60766a68e94a8085987043e344cd92802f3e9580d2a1895bd3977ffa672468c11bc58ec42ba8596894f7de2df2a8dd9fc92950ad4f904633"
+RPM_NAME = "libvirt-doc-9.6.0-2.1.noarch.rpm"
+RPM_HASH = "2c4f43b176538de851aa80606ba62c453c53f1a4e784d652d4d4cc33db29e7785e9049344ceae725690d89b8f85b30357de02796785798ff6d650b6d0a58ec06"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libvirt-doc"

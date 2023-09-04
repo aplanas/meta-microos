@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.0.31"
 
-RPM_NAME = "OpenIPMI-2.0.31-5.13.aarch64.rpm"
-RPM_HASH = "2aa33dae7ea44712f38bdccbdc971fb3339bb9b23e300f915c3f3d30707798bc2ab4640f5e6b3d850b93f73be245a9cbdbf53a396a16eacbfa35cc1e38014ed8"
+RPM_NAME = "OpenIPMI-2.0.31-5.14.aarch64.rpm"
+RPM_HASH = "35b425e0e984daa91449e9e07f0762b1dc71795107064f01bbc4f7cd133a397c30d37fe831852648d87bca158b9b693701983b35f390659b5e84ab9931fc97b9"
 
 RPROVIDES:${PN} += "OpenIPMI \
 config-OpenIPMI \
@@ -70,6 +70,6 @@ libm.so.6 \
 libnetsnmp.so.40 \
 libpopt.so.0 \
 libreadline.so.8 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

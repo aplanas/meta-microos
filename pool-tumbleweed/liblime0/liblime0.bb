@@ -13,10 +13,10 @@ LIME offers two major security benefits to instant messaging users: \
     compromised in the future."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.73"
+PV = "5.2.98"
 
-RPM_NAME = "liblime0-5.2.73-1.1.aarch64.rpm"
-RPM_HASH = "1a41420f176fe1be4284615ca8930ec8f6b6d82769db9b1920e0306bcb6fb284228b6905a31aab6c57db0bff5c575f682ce77166c54fc7b7bb98219ee829e157"
+RPM_NAME = "liblime0-5.2.98-1.1.aarch64.rpm"
+RPM_HASH = "ca19b337b34c22cfee49e9a10d10e1e7fd88b286c8cc0f704661210985dedba06fddc31ea3d01dd18e36f413a7e4f493b3610da52512114e8b53d9f853ef34b9"
 
 RPROVIDES:${PN} += "liblime.so.0 \
 liblime0"

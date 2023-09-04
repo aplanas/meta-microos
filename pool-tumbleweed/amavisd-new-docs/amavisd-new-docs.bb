@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.13.0"
 
-RPM_NAME = "amavisd-new-docs-2.13.0-2.2.noarch.rpm"
-RPM_HASH = "0c1b3bbe33d98eb109907c3eab9ae295499f628ab348095d82bd23e184b5f6f8b7c0cbc07850868a40899d3343de970cd27c377d4229ae2fe053fb662baf00e1"
+RPM_NAME = "amavisd-new-docs-2.13.0-3.1.noarch.rpm"
+RPM_HASH = "90e4a5dbb48a0f7d29701c9cf147205f65f875edef0825784a791d5d2b518fcc82b59421c6b97191355be27a51352f2c85c356b0821a3d1d6dda1a1e6dda651b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "amavisd-new-docs"

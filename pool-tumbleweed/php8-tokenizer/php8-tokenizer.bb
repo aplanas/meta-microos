@@ -5,10 +5,10 @@ own PHP source analyzing or modification tools without having to deal \
 with the language specification at the lexical level."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.8"
+PV = "8.2.9"
 
-RPM_NAME = "php8-tokenizer-8.2.8-1.1.aarch64.rpm"
-RPM_HASH = "b644430bc363786fea918837887aa02ffc7a176698b4a3c4c82aae4a59ab1a20db6d0558f7d7b734e3f55ed9938c559e326e88db6eaf083ae812b70c35224bab"
+RPM_NAME = "php8-tokenizer-8.2.9-1.1.aarch64.rpm"
+RPM_HASH = "b9775b71551fd3509eed1b910f5b90e4ea38e6b3cacd428309741bbc0fb3d6504ea8f65a129b1b9aeddf8a2e09f7c903f750622528d5ccb91812fe3d07ab6213"
 
 RPROVIDES:${PN} += "config-php8-tokenizer \
 php-tokenizer \

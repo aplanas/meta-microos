@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.5.2"
 
-RPM_NAME = "ghc-vector-binary-instances-doc-0.2.5.2-6.1.noarch.rpm"
-RPM_HASH = "d35872b37ba7319dee143d91d0b928537cb2d6543a68ec1a768e49e9878dcd8b931928b1eea71d4a1da4c06bef27d69c9b1104df76c649ed5d519d82d52de002"
+RPM_NAME = "ghc-vector-binary-instances-doc-0.2.5.2-6.2.noarch.rpm"
+RPM_HASH = "7796cd2e3dd2204aa4e7fb8c7713c85e95dd469909739c1186c16b1ffc93e51ef1d2c07b71d2d684c629a04eb41017a226be4752a5bdcf690a18241ae5e5faa4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-vector-binary-instances-doc"

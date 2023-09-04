@@ -9,10 +9,10 @@ virtualization. \
 This package provides arm emulation."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.3"
+PV = "8.0.4"
 
-RPM_NAME = "qemu-arm-8.0.3-2.1.aarch64.rpm"
-RPM_HASH = "7376c3e304f3b714be9de942401b724fca964c1d9584f66ea9df92f5f325df34a3a91afca5045338bd058984777e34b144fa9628dc71a3a819467ca2816666df"
+RPM_NAME = "qemu-arm-8.0.4-1.1.aarch64.rpm"
+RPM_HASH = "efd8e18f4e6e351824195038129986d717414f079c453a915af394230b0c1e753b91531243767bfc368e12e616ba972660fb7e664f4175d1ba03c8104cd7156b"
 
 RPROVIDES:${PN} += "qemu-arm"
 

@@ -4,10 +4,10 @@ be read online with GNU Emacs. They describe Emacs and some of its \
 modes."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "28.2"
+PV = "29.1"
 
-RPM_NAME = "emacs-info-28.2-4.3.noarch.rpm"
-RPM_HASH = "63687e5a923304d595686faa3246259c5ee5d3feb467c294af86b8dcab02150235c502f7c578092a79e6efbae0d317cc02f6c8d2facfb4a32571c62bd0b348a6"
+RPM_NAME = "emacs-info-29.1-3.1.noarch.rpm"
+RPM_HASH = "9f5eca9b606269da353096a235a0ef6edfd905a77eda704e92f5e74767a80854bcace651816539fceabd01adcf7831152add1b7a51701c92471cf5d64f31f7ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "emacs-info"

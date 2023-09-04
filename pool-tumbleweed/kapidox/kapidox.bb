@@ -3,10 +3,10 @@ DESCRIPTION = "The kapidox framework enables the generation of API documentation
 Doxygen-formatted codde comments in a standard format and style."
 LICENSE = "BSD-2-Clause"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kapidox-5.108.0-1.1.noarch.rpm"
-RPM_HASH = "8ee97c068f4b382008e9d34cf355a30c4a3ad0409ce1975274f0cd520ece920a58b4cccf6bc26723f47070320f92df591ab0adfba59932d6a7fa7a06f50b9ee9"
+RPM_NAME = "kapidox-5.109.0-1.1.noarch.rpm"
+RPM_HASH = "8b5e1e2372c91ee33540950047a5d392665040a58d2dcf01442de6eed6eec4a40efe43b6ce2d10280f760ffeb41e9b042eafc8e95938f526d800db4584b0c292"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kapidox \

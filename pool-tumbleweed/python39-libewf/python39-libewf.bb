@@ -8,8 +8,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20230212"
 
-RPM_NAME = "python39-libewf-20230212-2.8.aarch64.rpm"
-RPM_HASH = "c40d0dbf5eb5d67779ff8328e8b030070c403d3deb0c02aae9c4a0ebde79bb56b5a25444b519518023e36cac42d29017089b6faaa33ac4d35443dc04e8736c25"
+RPM_NAME = "python39-libewf-20230212-3.1.aarch64.rpm"
+RPM_HASH = "43b08cb1f92f5c47eaf968536b2dcb625784a1d80098c616c282f593c984af88c6ab5a9900ca4f3210d4e5135818ad52c05cf8fa7f61e78b5d9291d4a7bfd0d0"
 
 RPROVIDES:${PN} += "python39-libewf"
 

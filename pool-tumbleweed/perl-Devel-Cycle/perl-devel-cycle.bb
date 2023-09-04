@@ -6,13 +6,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.12"
 
-RPM_NAME = "perl-Devel-Cycle-1.12-1.27.noarch.rpm"
-RPM_HASH = "a994ba5c6509ab891877510149eede4b88c7a8d14b38d3a67bb6a95cb9c8a0c6f8715c8b5395428807e05263170cfbde797d68f399455dbd91f1606018281fdf"
+RPM_NAME = "perl-Devel-Cycle-1.12-1.28.noarch.rpm"
+RPM_HASH = "38460ece790636b163e213aa56b3e67f30812973a86c059f8785200bd315bcdf058bb513e1bbfbd87673dc867d6f770aeb4e4e098e8b056e666425a37f1f7b90"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--Cycle \
 perl-Devel-Cycle"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

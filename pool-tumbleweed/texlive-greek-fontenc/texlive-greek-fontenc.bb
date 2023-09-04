@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.2.2.1svn66513"
 
-RPM_NAME = "texlive-greek-fontenc-2023.209.2.2.1svn66513-54.1.noarch.rpm"
-RPM_HASH = "01260d3e50f5bd2e58ea5ce4a8e1c9b9237b7a23a8d9a7d26ed2d5a0d930f4b6027f4ee3d76ddb491f6ccbd35ca31d53c6c2c523b92b575e7c075b77db45819b"
+RPM_NAME = "texlive-greek-fontenc-2023.209.2.2.1svn66513-54.2.noarch.rpm"
+RPM_HASH = "132fbf0a81036dd62bb87f924cf6cfb21d7bbb2fd882b28e8bb708d3b4f59c762c609adccd1a84337a95785de802c5f5a09eb89ec06505388718ae0d67ab5c9e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-alphabeta-lgr.def \

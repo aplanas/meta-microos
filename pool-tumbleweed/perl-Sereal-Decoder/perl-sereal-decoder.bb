@@ -22,8 +22,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "5.004"
 
-RPM_NAME = "perl-Sereal-Decoder-5.004-1.2.aarch64.rpm"
-RPM_HASH = "f845796dd8e40eeb132d93374ff57c5561090b5c64d308b44c2ef6f91a8cc377378ec3b6a179a863632faf7a3ada53c904c849277fa104f1c6f834675c769b15"
+RPM_NAME = "perl-Sereal-Decoder-5.004-1.3.aarch64.rpm"
+RPM_HASH = "1896d4add5426ebc7a8adc2ba6007eb0439d8cdd3cd9f9866277b21d27331acfc9a7b4ae102f28bdfec27bdd99b8a5b528fab56db75291b34a47f798fca8e432"
 
 RPROVIDES:${PN} += "perl-Sereal--Decoder \
 perl-Sereal--Decoder--Constants \
@@ -32,6 +32,6 @@ perl-Sereal-Decoder"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

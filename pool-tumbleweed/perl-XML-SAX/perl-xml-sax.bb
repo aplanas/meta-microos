@@ -6,8 +6,8 @@ LICENSE = "GPL-1.0-or-later | Artistic-1.0"
 
 PV = "1.02"
 
-RPM_NAME = "perl-XML-SAX-1.02-1.16.noarch.rpm"
-RPM_HASH = "31ed160122eede52e7a0ce1ce75f5e8f8e89a064ce0d5085f0fa199d2a4dba273c7a45bc8ce5a943b7cc5766372c90f23ffb56b79504cea8b16659928f0050db"
+RPM_NAME = "perl-XML-SAX-1.02-1.17.noarch.rpm"
+RPM_HASH = "f598d481e3e958f0d5b2399c4e9d21f91546008dad835a79962a7f2c6cac55260dffd77917de0d41272511246a853b9553a55286655fb359cbe68e647b3a9f69"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--SAX \
@@ -24,7 +24,7 @@ perl-XML--SAX--PurePerl--Reader--URI \
 perl-XML-SAX"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-XML--NamespaceSupport \
 perl-XML--SAX--Base"
 

@@ -17,14 +17,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.6"
 
-RPM_NAME = "openmpi_2_1_6-gnu-hpc-devel-2.1.6-14.4.aarch64.rpm"
-RPM_HASH = "ccd43c595099226eb096e952f185f07f211d6e23e03e527ba99cba2a5b9c2a437f4f9d72f6e3ea2e0256bedb8bfcdada38ea140b424ab46be36e54a64b501500"
+RPM_NAME = "openmpi_2_1_6-gnu-hpc-devel-2.1.6-15.1.aarch64.rpm"
+RPM_HASH = "65ba369090179d177ea211626d4ec66a61c1949e870d7e001c999c136e9ceabf690dcd8e5ced656efc55dc9d5684eccb3d2b0828c6054ed38e1d888a79b70909"
 
 RPROVIDES:${PN} += "openmpi-2-1-6-gnu-hpc-devel"
 
 RDEPENDS:${PN} += "gnu-compilers-hpc-devel \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
+libfabric.so.1 \
 libibumad-devel \
 libibverbs-devel \
 libibverbs.so.1 \

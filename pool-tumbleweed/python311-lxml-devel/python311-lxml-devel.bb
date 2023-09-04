@@ -7,10 +7,10 @@ RelaxNG, XML Schema, XSLT and C14N. \
 This package contains header files needed to use lxml's C API."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
-PV = "4.9.2"
+PV = "4.9.3"
 
-RPM_NAME = "python311-lxml-devel-4.9.2-8.1.aarch64.rpm"
-RPM_HASH = "9179dbc8dfe3615fae46013083d7e92b9781c375e43f71f95c08551e1d57e95a41198e5cc9174bfe1d73122aa911bb149f3485c5d95f76bff09c4c8c086b00fb"
+RPM_NAME = "python311-lxml-devel-4.9.3-1.1.aarch64.rpm"
+RPM_HASH = "8d494ff2adc0d1eea22e828d58f3ea288db82f7eacba66499a4dc8bdc53f27acda25f6146a111c765a7ca04150eec54c887233fd2836295b0993953ec2a2de10"
 
 RPROVIDES:${PN} += "python3-lxml-devel \
 python311-lxml-devel"

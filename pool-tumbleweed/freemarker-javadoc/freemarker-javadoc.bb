@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.3.31"
 
-RPM_NAME = "freemarker-javadoc-2.3.31-3.1.noarch.rpm"
-RPM_HASH = "4a6883e758cc05ce3253c5d6969240b0d8db0aee25ef3913ea2c25b3c60c7a6fd15cf943c7fab6aa26e489b79132a11ab3e35e127aa7227afff3f259e347762d"
+RPM_NAME = "freemarker-javadoc-2.3.31-4.1.noarch.rpm"
+RPM_HASH = "d73bf88e70d594b4e24e096775fa62f483bc3b1895ea6f243344f977554116719236567ac0666a30cb8498238e16472795fd0d012a249c0bee571377f02d0c8d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "freemarker-javadoc"

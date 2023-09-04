@@ -6,17 +6,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.10.3"
 
-RPM_NAME = "ghc-X11-1.10.3-2.6.aarch64.rpm"
-RPM_HASH = "4f06d333773b41851704e551ca98a2e9fe28596cd32a176f37dfeb0a46d74fe6d49d7494f70a20bca4edbd2002e8ed6b8c41265373c1a1f01954b978417cd529"
+RPM_NAME = "ghc-X11-1.10.3-2.8.aarch64.rpm"
+RPM_HASH = "73337cb1d6a679e10034b17883537a19dbb72e4f944e4510f868756020405ba20d9412049a776ba5ed6cc8e1c12bf33ab7a1ba417719bfbbedd72759e10b1d3b"
 
 RPROVIDES:${PN} += "ghc-X11 \
-libHSX11-1.10.3-5dCbs7YG84pBbMQ87MYXiX-ghc9.4.5.so"
+libHSX11-1.10.3-1a2wZgfFAzXBkfyYtNRHp4-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSdata-default-class-0.1.2.0-2LD1I8dZmn7BW4dkzEwdGZ-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
+libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSdata-default-class-0.1.2.0-HWomeRk5e2p3WGQsDTnuAN-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
 libX11.so.6 \
 libXext.so.6 \
 libXinerama.so.1 \

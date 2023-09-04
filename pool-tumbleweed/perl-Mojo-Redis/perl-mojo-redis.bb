@@ -18,8 +18,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "3.29"
 
-RPM_NAME = "perl-Mojo-Redis-3.29-1.8.noarch.rpm"
-RPM_HASH = "0048c8dd2dc0e034c48fbbf61f2484d388b77cd4d776f7d29f99065afb29765955e100942393b96884088ce9a393542149382474f7cab30f4ea155b482e1a94f"
+RPM_NAME = "perl-Mojo-Redis-3.29-1.9.noarch.rpm"
+RPM_HASH = "75470ad1e2a50b6faca001742983f6b596b5a91c890e56e311c70fd30a7f460b6e041e7fa3aa0673db4ef87558fbb448dbaf8d7a935aa9a4584289ff05dd7d5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojo--Redis \
@@ -31,7 +31,7 @@ perl-Mojo--Redis--Database \
 perl-Mojo--Redis--PubSub \
 perl-Mojo-Redis"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Mojolicious \
 perl-Protocol--Redis--Faster"
 

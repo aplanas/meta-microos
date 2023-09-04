@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.8.0"
 
-RPM_NAME = "pdns-backend-lmdb-4.8.0-1.1.aarch64.rpm"
-RPM_HASH = "963ed0fd64befd142da86aae95cded7c6978fe300ea09aef1973976c322d43ce912eb09b7511c5410bde0b7b70ae9190a952c5b455198eda948c616d143d7fa0"
+RPM_NAME = "pdns-backend-lmdb-4.8.0-1.2.aarch64.rpm"
+RPM_HASH = "c4d224df7be4591421079c756299bdda884e6115b4e4ed3eb0013d8ee285ac4f01743d47f137c166ed43b7446f3b53acb140afbd7f67231baa2a156016950589"
 
 RPROVIDES:${PN} += "liblmdbbackend.so \
 pdns-backend-lmdb"

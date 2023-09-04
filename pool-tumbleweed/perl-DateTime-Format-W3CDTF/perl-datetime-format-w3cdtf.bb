@@ -9,14 +9,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.08"
 
-RPM_NAME = "perl-DateTime-Format-W3CDTF-0.08-1.12.noarch.rpm"
-RPM_HASH = "cb9f78107c1258679d949d4a7907277585283061e029f7f779c294de1f8c184f20aa21a47d2d4c206c2ef3192eda77ed04d91d0a45a10d1e12a24e41a5143308"
+RPM_NAME = "perl-DateTime-Format-W3CDTF-0.08-1.13.noarch.rpm"
+RPM_HASH = "0aa1c5b5818535490f168138b65c93625d27ff538c5eb7e3c24087511537b471a271953fb1a32c22faa76db2f12a5916c5f5b05c7fc912f18322d4727a11c714"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DateTime--Format--W3CDTF \
 perl-DateTime-Format-W3CDTF"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-DateTime"
 
 inherit rpm

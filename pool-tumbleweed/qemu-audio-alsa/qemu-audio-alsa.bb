@@ -2,10 +2,10 @@ SUMMARY = "ALSA based audio support for QEMU"
 DESCRIPTION = "This package contains a module for ALSA based audio support for QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.3"
+PV = "8.0.4"
 
-RPM_NAME = "qemu-audio-alsa-8.0.3-2.1.aarch64.rpm"
-RPM_HASH = "23b4fd7ce0a2e485eea4113ca4e3624e6d6f86e435511d45ab16e85418a863b09207ef93db97268c8ab4568f3bc7679da7c7bf0eb830698e5b5e642be37cf86e"
+RPM_NAME = "qemu-audio-alsa-8.0.4-1.1.aarch64.rpm"
+RPM_HASH = "7ce754f884a0f3b8deabc3ea7759c2101bfb1c5ecd74fe3983ad2a06d253db31a8da28077657e631148e09b8025f4c5227dc507ea58dc9c56ece0b9c2d7fa921"
 
 RPROVIDES:${PN} += "qemu-audio-alsa"
 

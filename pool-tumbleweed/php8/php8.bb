@@ -8,10 +8,10 @@ must be installed in order to use PHP. Additionally, extension \
 modules and server modules (e.g. for Apache) may be installed."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.8"
+PV = "8.2.9"
 
-RPM_NAME = "php8-8.2.8-1.1.aarch64.rpm"
-RPM_HASH = "d4c1616b05e20ecbb056142db249282f782cfc3a6c4ee144fa02a2de9e5d240ea824c50d2163fc774b9fb37b9c31ab29ea5bbdb8afa23f02845f80a970e0d8a7"
+RPM_NAME = "php8-8.2.9-1.1.aarch64.rpm"
+RPM_HASH = "cac4480922167c82b926c9b511669f8be26b941318efe59bf2f93893cc3d58afff98eb3248fc23ffd5f55bf2c6e9a112adc6a435b9d4b84d756b9c5685eedf24"
 
 RPROVIDES:${PN} += "php \
 php-api \

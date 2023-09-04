@@ -10,14 +10,14 @@ LICENSE = "Apache-2.0"
 
 PV = "0.008"
 
-RPM_NAME = "perl-Test-FailWarnings-0.008-3.27.noarch.rpm"
-RPM_HASH = "5eae3614551c3c2239839e31ee4c5934b12814377ced440488f29ef904fa7606cc302aa3237674fb53c48f58b657fa0a62c85129a186b40ae437995341cabf13"
+RPM_NAME = "perl-Test-FailWarnings-0.008-3.28.noarch.rpm"
+RPM_HASH = "6069bfd3050bb15ee3bbc4a3cc5b8bfcdd8a9ddd840be7a021f589e02bea713e773a4b649ac537160b654804e9b4f587a28efc4d55a6c6e7e24e438c2b22d045"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--FailWarnings \
 perl-Test-FailWarnings"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Test--More"
 
 inherit rpm

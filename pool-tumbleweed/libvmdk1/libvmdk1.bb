@@ -21,8 +21,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20221124"
 
-RPM_NAME = "libvmdk1-20221124-3.11.aarch64.rpm"
-RPM_HASH = "eaeba3cb4ae96b017055f97f1e34d8e02202abacb04018ffa26764144e41ac692eec44c5391b88ffce8d7b42eb47b90bb39e0d875c0b5769c971d511f471ed2d"
+RPM_NAME = "libvmdk1-20221124-4.1.aarch64.rpm"
+RPM_HASH = "a145ba226ccc0c9fcc1e9195c4ac692b64578c893a828d26d832e69a4449fb98c470b54ca44cf5976dcdbc873d78298b5fda951400df3aff32ccfba94c3c1101"
 
 RPROVIDES:${PN} += "libvmdk.so.1 \
 libvmdk1"

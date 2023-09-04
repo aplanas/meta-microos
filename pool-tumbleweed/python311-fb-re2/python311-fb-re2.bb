@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.7"
 
-RPM_NAME = "python311-fb-re2-1.0.7-2.15.aarch64.rpm"
-RPM_HASH = "d27343f6d4bfcb47c864b6b879e509258f5281e94359161bfd8a5dba846d64aaeda1cad5173535417248043a67ddf2a49cb43af29e47e8d67104a99189354008"
+RPM_NAME = "python311-fb-re2-1.0.7-3.1.aarch64.rpm"
+RPM_HASH = "ac28d63f196bc6b20408687d31c10cb2c6793284861f27865dc10136e15ef27fa31706d8e7eca09f3a4a3b45cb4eb04cd77dd56cb77db6f54e9ceff6c55b5b88"
 
 RPROVIDES:${PN} += "python3-fb-re2 \
 python3.11dist-fb-re2 \
@@ -15,7 +15,7 @@ python3dist-fb-re2"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libre2.so.10 \
+libre2.so.11 \
 libstdc++.so.6 \
 python-abi"
 

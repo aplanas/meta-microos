@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn32150"
 
-RPM_NAME = "texlive-latexindent-bin-2023.20230311.svn32150-93.1.aarch64.rpm"
-RPM_HASH = "6ba0b68506297cce0c84869365370469aecaefdb8078f9219e0c4d3951b2e044a04b136f3943a3958d526193c6209d0a7636706f3fac0925f2e673f8edd8b920"
+RPM_NAME = "texlive-latexindent-bin-2023.20230311.svn32150-93.2.aarch64.rpm"
+RPM_HASH = "d8d9fdc39c31d571a31c56e24ee5f39b01c304f52039a16035ec564c2dc1ade4968ea611ba8a94cfcaee25533ffbcdd06f075d2d8d16502240cd6ac054f48bc4"
 
 RPROVIDES:${PN} += "texlive-latexindent-bin"
 

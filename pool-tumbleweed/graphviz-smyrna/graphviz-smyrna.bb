@@ -4,15 +4,15 @@ LICENSE = "EPL-1.0"
 
 PV = "2.49.3"
 
-RPM_NAME = "graphviz-smyrna-2.49.3-6.8.aarch64.rpm"
-RPM_HASH = "668ce03dc9644d89ed73641d6072eb7cd4f8b5f64b2b415e2b5a5f13b08d38b7e0889b087e8db3a27eb31de5bcb50cfd208199683433b037c0b7d2772272a33d"
+RPM_NAME = "graphviz-smyrna-2.49.3-6.9.aarch64.rpm"
+RPM_HASH = "db20011d7e5e38ae362d6939d1285846d6ec58443f284908a5f69e84713098b6035ff8b625d23e6d5986ca0e2ced35685e40ff03ee7fb93f044ac1e44963c50b"
 
 RPROVIDES:${PN} += "graphviz-smyrna"
 
 RDEPENDS:${PN} += "graphviz \
 ld-linux-aarch64.so.1 \
-libGL.so.1 \
 libGLU.so.1 \
+libOpenGL.so.0 \
 libc.so.6 \
 libcairo.so.2 \
 libcdt.so.5 \

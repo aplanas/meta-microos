@@ -2,10 +2,10 @@ SUMMARY = "A JupyterLab extension for Jupyter/IPython widgets"
 DESCRIPTION = "A JupyterLab 3.0 extension for Jupyter/IPython widgets"
 LICENSE = "BSD-3-Clause"
 
-PV = "3.0.7"
+PV = "3.0.8"
 
-RPM_NAME = "python39-jupyterlab-widgets-3.0.7-1.3.noarch.rpm"
-RPM_HASH = "b87c715afa28559040422ae364833ef3a703f4b50c71f1de81d78512d933e54c4b823362708478db9fcbddb9bfc686c58c67263886598238c45ad9abc7e525c6"
+RPM_NAME = "python39-jupyterlab-widgets-3.0.8-1.1.noarch.rpm"
+RPM_HASH = "1ea0d9ef42a04320b893573816ab76f465a1cccdb7b46130f5807dbb6182973c69cdd6dedef729e0b91136d01c5145730e2d3f217207af0ce535a3e919226221"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jupyterlab-widgets \

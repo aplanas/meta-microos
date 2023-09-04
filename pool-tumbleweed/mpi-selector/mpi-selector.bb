@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.3"
 
-RPM_NAME = "mpi-selector-1.0.3-14.1.noarch.rpm"
-RPM_HASH = "6bdd98dba0fa397c221e4044090e75db6eec0e1469a4207bab7054657f5aa9a300f1767a53ffbcd0740419de04b24067999bcd2375c7a1d4928c68a343a99f98"
+RPM_NAME = "mpi-selector-1.0.3-14.2.noarch.rpm"
+RPM_HASH = "2dc04fbe63dc6c0bcac6d9280c6d6981949fee87e4f4b10e9194b4bd1a2a81ca6005ef61128e0c6a3863b4b1ba99fd01aa6149da79af6ed792fc4de961bcd2c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-mpi-selector \
@@ -19,6 +19,6 @@ mpi-selector"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/sh \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

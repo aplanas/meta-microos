@@ -2,10 +2,10 @@ SUMMARY = "Translations for package qtkeychain-qt6"
 DESCRIPTION = "Provides translations for the 'qtkeychain-qt6' package."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.13.2"
+PV = "0.14.1"
 
-RPM_NAME = "qtkeychain-qt6-lang-0.13.2-4.2.noarch.rpm"
-RPM_HASH = "9fde411db2cd2059518db40fe0066e9f2b0793f12b0fe3725f41c722e7fd2bfc5f172a4f17dc54abe2ddfa538193127772a9cf8c0efd2ec7b27cf5d601833c33"
+RPM_NAME = "qtkeychain-qt6-lang-0.14.1-1.1.noarch.rpm"
+RPM_HASH = "624c95055e5505c2ac2ac3f5a04e213efeb57a7e46501a9fb824c8ed665bd64667eaef41d7676b0a3a6cf37a0f3bb749d0b16ee3d68bef7887a36c1d21265020"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qtkeychain-qt6-lang \

@@ -4,14 +4,14 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.0.1.7"
 
-RPM_NAME = "ghc-digest-prof-0.0.1.7-1.6.aarch64.rpm"
-RPM_HASH = "2721a58bdbf06e6c2b97111ba31e6d9fac48515920d8ebb79ea8223fbcc4d7118ff7d33795870cf4aa95a54810874eb596af942d37bbbf4709917f65ce4a7033"
+RPM_NAME = "ghc-digest-prof-0.0.1.7-1.8.aarch64.rpm"
+RPM_HASH = "322190e56bcb998911007004a45ab40d0fa14e3c3e02f3596be619604fd4eaa9fce8e872abbc802863ce76a9c9a35bddf2c97f9902545a2bc19475a51cffc61d"
 
 RPROVIDES:${PN} += "ghc-digest-prof \
-ghc-prof-digest-0.0.1.7-CCCN8814sFy3HuiyT8t94G"
+ghc-prof-digest-0.0.1.7-x22LVSWrXSB7L6QfE4JoE"
 
 RDEPENDS:${PN} += "ghc-digest-devel \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-bytestring-0.11.4.0"
+ghc-prof-base-4.17.2.0 \
+ghc-prof-bytestring-0.11.5.1"
 
 inherit rpm

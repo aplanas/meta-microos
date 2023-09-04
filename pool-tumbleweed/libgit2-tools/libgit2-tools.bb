@@ -2,10 +2,10 @@ SUMMARY = "A Git command-line interface based on libgit2"
 DESCRIPTION = "This package contains a git cli based on libgit2."
 LICENSE = "GPL-2.0-only-with-GCC-exception-2.0"
 
-PV = "1.7.0"
+PV = "1.7.1"
 
-RPM_NAME = "libgit2-tools-1.7.0-1.1.aarch64.rpm"
-RPM_HASH = "0d17955e0657c28633c0cdf80f85f47bd9d1553e96c8c21c39a8c087294ddf302e067e400e46fb4df606c98194be3085784fe2bdce6454b8a0621deeeea190a8"
+RPM_NAME = "libgit2-tools-1.7.1-1.1.aarch64.rpm"
+RPM_HASH = "f663f7ff442b06e6a3032a19b226e4c3e65026e0aa6ba6b92825010802ca440e8c48ffeae848456ee189f4d72ab6ccfc35843cd99e9ac35e09a4e482ba0c3923"
 
 RPROVIDES:${PN} += "libgit2-tools"
 

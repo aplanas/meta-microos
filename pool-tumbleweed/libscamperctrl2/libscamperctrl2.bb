@@ -9,10 +9,10 @@ This package contains thee library that provides functions to interact \
 with a collection of scamper instances."
 LICENSE = "GPL-2.0-only"
 
-PV = "20230605"
+PV = "20230614b"
 
-RPM_NAME = "libscamperctrl2-20230605-1.1.aarch64.rpm"
-RPM_HASH = "9f67c5b4d43cbe18b262617e57161346f050c1edf5c505ac739d1ad2cdbb9dac6fd54091308c161e58bbc556a18ee3aaaaaf6bcd409bf7f47ed967ef846530a1"
+RPM_NAME = "libscamperctrl2-20230614b-1.1.aarch64.rpm"
+RPM_HASH = "95792a1a69296aaaf9154376c36709b8627da4d05aa15abd11003818bc00aaef1822ef0448656b91877d6a85ebb51ee2860912de786851ac3697b3d54e2cdf54"
 
 RPROVIDES:${PN} += "libscamperctrl.so.2 \
 libscamperctrl2"

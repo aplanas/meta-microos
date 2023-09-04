@@ -4,22 +4,22 @@ LICENSE = "BSD-2-Clause"
 
 PV = "5.5.15"
 
-RPM_NAME = "ghc-bifunctors-devel-5.5.15-1.6.aarch64.rpm"
-RPM_HASH = "a593fac69dcde19f16c538b1286af327b4abe232a1959f3e221c6f072e3d771fce954b968bbdb48e3994d91ff62600b46fbf55f1a2783dc9fecd7505f1ce9231"
+RPM_NAME = "ghc-bifunctors-devel-5.5.15-1.9.aarch64.rpm"
+RPM_HASH = "7b69b167dd1f8161a6944804c0a3253bfbfba7d905c663146d31be6dd1cf10bd5bb5d207384f742cf53f9b9de551b1b39a0298c7ff028cc2a13d94e8b2463110"
 
 RPROVIDES:${PN} += "ghc-bifunctors-devel \
-ghc-devel-bifunctors-5.5.15-7mn3oj93MLM2f6K5DVlnRL"
+ghc-devel-bifunctors-5.5.15-KUw4gCd9iBfLph9IFStYJY"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-bifunctors \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-base-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8 \
-ghc-devel-comonad-5.0.8-9UnH7KDg5138z3eBCPM7y4 \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-base-orphans-0.8.8.2-Ace67bhQsJ1lQVihVIKZ5 \
+ghc-devel-comonad-5.0.8-56nFbOwllOwBl7FMfSy83E \
 ghc-devel-containers-0.6.7 \
-ghc-devel-tagged-0.8.7-CYOhX22Df3PFW5V1S0dOJa \
+ghc-devel-tagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax \
 ghc-devel-template-haskell-2.19.0.0 \
-ghc-devel-th-abstraction-0.4.5.0-8bY5lBPMorfFW3yG6gFNZT \
+ghc-devel-th-abstraction-0.4.5.0-CynkUuS8OuAKbGjDnje1Fs \
 ghc-devel-transformers-0.5.6.2"
 
 inherit rpm

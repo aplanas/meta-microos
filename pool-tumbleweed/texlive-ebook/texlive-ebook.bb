@@ -7,8 +7,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.209.svn29466"
 
-RPM_NAME = "texlive-ebook-2023.209.svn29466-54.1.noarch.rpm"
-RPM_HASH = "2a953216cb6d27d237d5925a3038df89b834cec8ecf8dbfa96608663673e4dd0ef5d900e4a84d9d0ab05b597f85abb5a2368d12cda83fa1ad79a2d5dcdf5521c"
+RPM_NAME = "texlive-ebook-2023.209.svn29466-54.2.noarch.rpm"
+RPM_HASH = "b2751e6f3163f28414f0f62aa4a3ca068d040481e63df0f9f9d40ce45c577e54baa88b7fe72294eb00ac740e4639c5196afc9488ae61421ec5a4b0da8f1dcbcb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ebook.sty \

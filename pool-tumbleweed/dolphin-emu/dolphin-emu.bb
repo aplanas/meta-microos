@@ -8,12 +8,13 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.0.17995"
 
-RPM_NAME = "dolphin-emu-5.0.17995-3.3.aarch64.rpm"
-RPM_HASH = "71268d2d429dfc04726b7f7e6adf26323aea5c584fefe0e4059cebd2af39c9ae27349dfed26017e86ea86e8f326bceb6202edd3c6fbfd24a7099c483c405b8e9"
+RPM_NAME = "dolphin-emu-5.0.17995-4.1.aarch64.rpm"
+RPM_HASH = "31e72716ca2bbfb3748ec78aa43b6a222d7a1b60542a875ac1b853b38fc464e0c08032ae5941ef7884a9b8da0f120ef6f3cbd69013cac41d7d425de15ed84c51"
 
 RPROVIDES:${PN} += "dolphin-emu"
 
-RDEPENDS:${PN} += "libEGL.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libEGL.so.1 \
 libGLX.so.0 \
 libOpenGL.so.0 \
 libQt5Core.so.5 \

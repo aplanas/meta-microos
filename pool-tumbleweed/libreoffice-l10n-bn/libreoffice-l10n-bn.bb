@@ -2,10 +2,10 @@ SUMMARY = "Bengali localization files for LibreOffice"
 DESCRIPTION = "Provides Bengali translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-l10n-bn-7.5.4.2-1.5.noarch.rpm"
-RPM_HASH = "fc0d5e56d65a48dafe495e4b4c43c1e0a52feb09bf031e7d9cd8e587c42615a68fe5db117b7ff6aef9638f43ce03420ea6686fc0358b6268be6fad97674d477d"
+RPM_NAME = "libreoffice-l10n-bn-7.6.0.3-1.1.noarch.rpm"
+RPM_HASH = "ced8aa9b6ff79fde498b9778e586dc5e084e34992b3a69c30e145dfa1889c01d10aed9d41989a3e89559af0dc10d0f5a0444d620c53168a5a3cde6407eaf4428"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-bn \

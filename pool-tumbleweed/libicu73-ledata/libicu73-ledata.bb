@@ -11,8 +11,8 @@ LICENSE = "ICU"
 
 PV = "73.2"
 
-RPM_NAME = "libicu73-ledata-73.2-1.1.noarch.rpm"
-RPM_HASH = "3f75920505dbf4df2ce0bc58ee7b750670cb5b387d440268b4065a7b69e47bf08504b6f065c60bf0d00afe8172d23478cd96322bfe153fd010cdf37e3a4e6bc8"
+RPM_NAME = "libicu73-ledata-73.2-2.1.noarch.rpm"
+RPM_HASH = "5870ae9c00ede4b78ffb8959dda9bb07fe26196a4fab21ef4cddf245a4bfc4cc0116e5bf81396120206c8bb4b9c20de0c69556200db010ff5cd0b3d10b62570a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libicu73-ledata"

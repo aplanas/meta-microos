@@ -2,15 +2,16 @@ SUMMARY = "A JupyterLab extension for Jupyter/IPython widgets - Jupyter JS files
 DESCRIPTION = "A JupyterLab 3.0 extension for Jupyter/IPython widgets - Jupyterlab-manager JS files"
 LICENSE = "BSD-3-Clause"
 
-PV = "3.0.7"
+PV = "3.0.8"
 
-RPM_NAME = "jupyter-jupyterlab-widgets-3.0.7-1.3.noarch.rpm"
-RPM_HASH = "43e1d344d301e30d8f82692b56502152380d8d4503fd6f9473833bba48c386ffaea0eddc5bb43e18f7044fed0f60334feecd9eba435520b7e1c3ae8fd7e331c0"
+RPM_NAME = "jupyter-jupyterlab-widgets-3.0.8-1.1.noarch.rpm"
+RPM_HASH = "da43ad3a674bfc546e63b22491e2c446ab2acb0adfa2e3815b5820767652a449b9c96cb5dfb136f3dd7e10cbc31d2c768cac6e8081d9e89edf820d6c0109884c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyter-widgets-jupyterlab-manager \
 jupyter-jupyterlab-widgets"
 
-RDEPENDS:${PN} += "jupyter-jupyterlab-filesystem"
+RDEPENDS:${PN} += "jupyter-jupyterlab-filesystem \
+python3dist-jupyterlab-widgets"
 
 inherit rpm

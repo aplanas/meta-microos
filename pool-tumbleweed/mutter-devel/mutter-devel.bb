@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.3"
 
-RPM_NAME = "mutter-devel-44.3-1.1.aarch64.rpm"
-RPM_HASH = "6454f389bb6d0c4112873c0218c54de2ffeb9df68b4f07f18e912952415b12bbaec9700a80e6039821d597e8b5f11aaf3ea07d443aad9badb1f7db3f415d332d"
+RPM_NAME = "mutter-devel-44.3-3.1.aarch64.rpm"
+RPM_HASH = "9aa78013f3184b67c1985e631cd384ee80464f26ff5ac4c199c9512072e70545ad36d1a647ee4e073315b86826b90625d6238a4e5f0e151983447b26fdb935a4"
 
 RPROVIDES:${PN} += "mutter-devel \
 pkgconfig-libmutter-12 \

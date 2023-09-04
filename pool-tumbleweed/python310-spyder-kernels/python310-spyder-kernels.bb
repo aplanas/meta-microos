@@ -9,17 +9,17 @@ file-based execution of Python code in different environments, \
 all inside the IDE."
 LICENSE = "MIT"
 
-PV = "2.4.3"
+PV = "2.4.4"
 
-RPM_NAME = "python310-spyder-kernels-2.4.3-2.3.noarch.rpm"
-RPM_HASH = "540ab457008dd87b22dad63ab58fb15551be76c5a98850a73199b4cfac2ded6fef2d29a0d4971917e196d7fe58ba2e837bcd24525a25b6bcc89d13f087885602"
+RPM_NAME = "python310-spyder-kernels-2.4.4-1.1.noarch.rpm"
+RPM_HASH = "0f1c5cc03c1e74bdfed8f2512e68b6ddd037f20dbe5f02d09d49a0e10dff8795acbbba658b847ca58fda00cd527a9591f6837099089fcc720aef1b64c36db5c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-spyder-kernels \
 python310-spyder-kernels \
 python3dist-spyder-kernels"
 
-RDEPENDS:${PN} += "-python310-ipykernel >= 6.16.1 with python310-ipykernel < 7 \
+RDEPENDS:${PN} += "-python310-ipykernel >= 6.23.2 with python310-ipykernel < 7 \
 -python310-ipython >= 7.31.1 with python310-ipython < 9 \
 -python310-jupyter-client >= 7.4.9 with python310-jupyter-client < 9 \
 python-abi \

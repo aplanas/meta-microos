@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7.2"
 
-RPM_NAME = "ghc-transformers-compat-prof-0.7.2-2.6.aarch64.rpm"
-RPM_HASH = "77b386eb41f94320a3d5aa68fc3f4b5a502ce4ee2f9c5068c59bcab80fb9a0ffca180f5c9351d5edd9f12aa12594adca244bf437fc0c6bc0598cce6e3d7a7ec7"
+RPM_NAME = "ghc-transformers-compat-prof-0.7.2-2.8.aarch64.rpm"
+RPM_HASH = "ed8cfcebcf5ac8882f60bbedaca1bea8883f558d55812f4438594148794d3583a0a78961ce4bb0e7ca78cb2aa715e4357ac815fc9ffff936bdd8121f916f8b26"
 
-RPROVIDES:${PN} += "ghc-prof-transformers-compat-0.7.2-7jAnhjvxTABIymoNGHTOwd \
+RPROVIDES:${PN} += "ghc-prof-transformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM \
 ghc-transformers-compat-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
-ghc-prof-ghc-prim-0.9.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
+ghc-prof-ghc-prim-0.9.1 \
 ghc-prof-transformers-0.5.6.2 \
 ghc-transformers-compat-devel"
 

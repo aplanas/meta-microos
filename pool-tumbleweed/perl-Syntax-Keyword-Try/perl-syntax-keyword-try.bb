@@ -18,8 +18,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.290.0"
 
-RPM_NAME = "perl-Syntax-Keyword-Try-0.290.0-1.1.aarch64.rpm"
-RPM_HASH = "a885d7ec3dbd9e846851073650499c5aa3935f35ae989151eb68015bf249621b66e6e4995bd324e7f7356e4ec9b42988ba323ae970c115fd37ff8bf6f4e53766"
+RPM_NAME = "perl-Syntax-Keyword-Try-0.290.0-1.2.aarch64.rpm"
+RPM_HASH = "2a32ea5c427fc0637d7f6f2001396fcd2257f0d7976c596994fb451d5fa935b71b676cb151d386fe23ee2037b7ae98cd6b74fdd066f3af86b392311a46c50a68"
 
 RPROVIDES:${PN} += "perl-Syntax--Keyword--Try \
 perl-Syntax--Keyword--Try--Deparse \
@@ -27,7 +27,7 @@ perl-Syntax-Keyword-Try"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-XS--Parse--Keyword"
 
 inherit rpm

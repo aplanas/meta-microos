@@ -16,17 +16,17 @@ Numba is a mechanism for producing machine code from Python syntax and typed \
 data structures such as those that exist in NumPy."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.57.0"
+PV = "0.57.1"
 
-RPM_NAME = "python310-numba-0.57.0-1.3.aarch64.rpm"
-RPM_HASH = "2488ece3d5db48b62e84813f89cb92272235dff3678c4bd750b55853c0c5d0736d8a8dd3c7fd64c9f0c2d41e669d8924df68fcb6c178d20c59599d35d0cd6578"
+RPM_NAME = "python310-numba-0.57.1-2.1.aarch64.rpm"
+RPM_HASH = "eda8b303467f51a066104c826ff726d84055461098a542bc9142d4bed6854af09a3eda7d2354549961688ed4b9ba0ab491c3398bee46abd55b4ce8de05363945"
 
 RPROVIDES:${PN} += "python3.10dist-numba \
 python310-numba \
 python3dist-numba"
 
 RDEPENDS:${PN} += "-python310-llvmlite >= 0.40 with python310-llvmlite < 0.41 \
--python310-numpy >= 1.21 with python310-numpy < 1.25 \
+-python310-numpy >= 1.21 with python310-numpy < 1.26 \
 /usr/bin/python3.10 \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \

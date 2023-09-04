@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.9"
 
-RPM_NAME = "ghc-isocline-doc-1.0.9-1.6.noarch.rpm"
-RPM_HASH = "8a3fc86ab066acf5524141159a67dce67151eefced3d9754ca44d835067ac12f6148420a98f2a6c37fcaec3415f0529b479e2e09565538e5f913ec7e9e10f4a0"
+RPM_NAME = "ghc-isocline-doc-1.0.9-1.8.noarch.rpm"
+RPM_HASH = "798d9bfe857fd02e5290d13313cf8e709d9b35f56a9a520c1ec5ecc8c993ba34f84a9290f2e8abebd074675e8e874734882b6894891e69942e0118a20b22231c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-isocline-doc"

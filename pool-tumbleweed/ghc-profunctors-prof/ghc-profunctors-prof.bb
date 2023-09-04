@@ -4,19 +4,19 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.6.2"
 
-RPM_NAME = "ghc-profunctors-prof-5.6.2-4.6.aarch64.rpm"
-RPM_HASH = "7dc611aa804e632c1e96a3a6e9153e05d2ae05b5cd2e603bdb210225016eee8aaa3189df3e149235b72c8be8755c35b281f689000b0cd72374f62be00f9de80e"
+RPM_NAME = "ghc-profunctors-prof-5.6.2-4.9.aarch64.rpm"
+RPM_HASH = "e1453c7fb7a11a890023bef6720b0519e1f66f7e7afd0200a51b320d9cb9ea8bb9d3f4664557d9b660fa8de463efcf3e3a9745226bacfdecee50c7f9bc93998f"
 
-RPROVIDES:${PN} += "ghc-prof-profunctors-5.6.2-BxPEMLImcM1AGaSfWljpGV \
+RPROVIDES:${PN} += "ghc-prof-profunctors-5.6.2-GfNUFxHNpLn859duquR0iv \
 ghc-profunctors-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.1.0 \
-ghc-prof-base-orphans-0.8.8.2-Hl8yFKsRlc4HPNXP65SlX8 \
-ghc-prof-bifunctors-5.5.15-7mn3oj93MLM2f6K5DVlnRL \
-ghc-prof-comonad-5.0.8-9UnH7KDg5138z3eBCPM7y4 \
-ghc-prof-contravariant-1.5.5-K71YSUvfKnA5wfNaE05Lao \
-ghc-prof-distributive-0.6.2.1-GisXwtVaDTaDcC79Nunm79 \
-ghc-prof-tagged-0.8.7-CYOhX22Df3PFW5V1S0dOJa \
+RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
+ghc-prof-base-orphans-0.8.8.2-Ace67bhQsJ1lQVihVIKZ5 \
+ghc-prof-bifunctors-5.5.15-KUw4gCd9iBfLph9IFStYJY \
+ghc-prof-comonad-5.0.8-56nFbOwllOwBl7FMfSy83E \
+ghc-prof-contravariant-1.5.5-35YFLB0uIuz5cknUjKLNnT \
+ghc-prof-distributive-0.6.2.1-7gHlNDSCz3vFkde299iroS \
+ghc-prof-tagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax \
 ghc-prof-transformers-0.5.6.2 \
 ghc-profunctors-devel"
 

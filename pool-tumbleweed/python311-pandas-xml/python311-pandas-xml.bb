@@ -2,10 +2,10 @@ SUMMARY = "The python pandas[xml] extra"
 DESCRIPTION = "This package provides the [xml] extra for python-pandas"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.2"
+PV = "2.0.3"
 
-RPM_NAME = "python311-pandas-xml-2.0.2-4.1.noarch.rpm"
-RPM_HASH = "6b814ea38ec6f206e55822bbc0d05f6d35e42ffd071da86edf8691da6d5f6672cf9b0285831e3c12cf31888e75bfd3ec30a064c49e89a93201f70238019e0180"
+RPM_NAME = "python311-pandas-xml-2.0.3-1.2.noarch.rpm"
+RPM_HASH = "e860fbbd5ce49cef516d70027b68d34eb4f945067f776871d2d77595a07a978ddb090dcd18d9962e6c1976c5b56166c970672b6a7f41ccfb6315bb9f7e52b7cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pandas-xml \

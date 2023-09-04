@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.19.0"
 
-RPM_NAME = "python310-vdirsyncer-0.19.0-2.3.noarch.rpm"
-RPM_HASH = "51f595e3647a3093f9059505375a2928412257f046a2a6e5f30526ca6e04bdc58c577970d28cf749bd72cc363a4a7f46172d01c8496638c9d2b7383139cbddb5"
+RPM_NAME = "python310-vdirsyncer-0.19.0-3.1.noarch.rpm"
+RPM_HASH = "e34b57e53fe461cdd2d939848ce1f626b3587432310fbe3bede4570c38008b83ce2bc7a628a7f00e14ff851c93f40ac52d19d35abdaaa089b51add7f717ee08d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-vdirsyncer \
@@ -19,6 +19,7 @@ vdirsyncer"
 RDEPENDS:${PN} += "/usr/bin/python3.10 \
 /usr/bin/sh \
 python-abi \
+python310-aiohttp \
 python310-aiostream \
 python310-atomicwrites \
 python310-click \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.svn66203"
 
-RPM_NAME = "texlive-dvipdfmx-doc-2023.209.svn66203-54.1.noarch.rpm"
-RPM_HASH = "e9b962d248a79fc9b7226cf5a428d5a9b8f9b2d09fee5de7c2e761965f344202e64306ffa95e20cb3db4c99063edaa2bca04d3e49cc4e88030103173dd65f1b5"
+RPM_NAME = "texlive-dvipdfmx-doc-2023.209.svn66203-54.2.noarch.rpm"
+RPM_HASH = "c6ba3fd061e826e7c926dae774d8ab84b6993f95471c4e787c743ef0ab672b49ee7931df9b040e55a55940c01ff02e280b539b48222992198e818b56b4c12323"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-dvipdfm.1 \

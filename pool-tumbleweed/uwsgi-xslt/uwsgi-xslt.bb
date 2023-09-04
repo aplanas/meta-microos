@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
 PV = "2.0.21"
 
-RPM_NAME = "uwsgi-xslt-2.0.21-3.1.aarch64.rpm"
-RPM_HASH = "112f8e97b2a76f0ff6faadddb653fc809e8b3af25f0a6cd1d95715eaafc837dbf9dc708fba4a2f917804c108310e8189c02fbb3047aa9912b07604a3228c63b9"
+RPM_NAME = "uwsgi-xslt-2.0.21-3.2.aarch64.rpm"
+RPM_HASH = "4df0c945bc336be9e171654987e1653248f64a1d44335b94337608c631e32735b073f4bea878fae357c2f064745b505b75f284531f2cc5b8a685c103db0da162"
 
 RPROVIDES:${PN} += "uwsgi-xslt"
 

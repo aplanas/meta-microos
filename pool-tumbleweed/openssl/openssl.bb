@@ -8,10 +8,10 @@ communicate, plan, and develop the OpenSSL toolkit and its related \
 documentation."
 LICENSE = "Apache-2.0"
 
-PV = "3.1.1"
+PV = "3.1.2"
 
-RPM_NAME = "openssl-3.1.1-2.1.noarch.rpm"
-RPM_HASH = "7d72059bbd6547a0e3edd1431fba03f1ebc6df28d4156e98f02a53d976cf1347340dbcd6b7fb310fca38c52ba2d16fd846241d790d8a2127b714916e0698f418"
+RPM_NAME = "openssl-3.1.2-1.1.noarch.rpm"
+RPM_HASH = "6f2d38e34c3fa27a6bf2850d20effed2f7cedf1430fe063c3694edf3c944f452736f1243818a6467428881afb59e4d2a9f67dd361854efbe662b233451718c85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openssl \

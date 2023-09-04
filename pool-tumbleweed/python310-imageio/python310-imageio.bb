@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.31.1"
 
-RPM_NAME = "python310-imageio-2.31.1-1.1.noarch.rpm"
-RPM_HASH = "e45c1328ed0bf37b61bb1a471503db48b33bbab87c67683de7adb79666679c2d17219cc98936f1897d2ba644a0cd6773e517e6b727a860be724fa1c96d9e288f"
+RPM_NAME = "python310-imageio-2.31.1-2.1.noarch.rpm"
+RPM_HASH = "034e76f7b6f777cb0f16dabdf0d2f394a8b897c09a6975161cfa969a2a7dd05a63eca32ca2b3beb577e7906ffee31cd2635bb7c1dc7363b0e84933d7c0352c4b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-imageio \

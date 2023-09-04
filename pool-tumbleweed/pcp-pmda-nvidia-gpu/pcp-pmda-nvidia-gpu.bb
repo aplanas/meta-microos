@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-nvidia-gpu-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "f36905329294487010790b987aa2d1ec729b252902313d7da5e1669bc5923985106e9387564e6964c8a87eb7fa8595d45b6d0004eb42c71881fb4db3105189df"
+RPM_NAME = "pcp-pmda-nvidia-gpu-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "817425babf93287a2b61708a7396b0ff4d046fdc5c64aa0aabc6937aff86bdd55489cb5fc3679e46b820f3936761263b47ebe0fa3b611ef903d6673debe3185e"
 
 RPROVIDES:${PN} += "pcp-pmda-nvidia-gpu"
 

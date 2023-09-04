@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.24.38"
 
-RPM_NAME = "gtk3-tools-3.24.38-1.1.aarch64.rpm"
-RPM_HASH = "0fc6f9ab7f69be8e57d12cebf66453babb724bc8e78229f93582cd0306e9632442adb5e893ec9dca96ef2dc51315d5c2d3a6b6d3d92781ec4b090e86a7b5e8f0"
+RPM_NAME = "gtk3-tools-3.24.38-2.1.aarch64.rpm"
+RPM_HASH = "5d92c78664f262ce6c31f0314ac49a90832de5a7b54d2740fbaeed0dff4db0395fd314d22dce875c3acd18e07d6b25903a0fa8e41a3dad9924f281f61586d84b"
 
 RPROVIDES:${PN} += "gtk3-tools"
 

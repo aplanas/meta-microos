@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.2"
 
-RPM_NAME = "ghc-libyaml-doc-0.1.2-6.7.noarch.rpm"
-RPM_HASH = "e704308b13b694b5d6c4253725cabe6e4863d5cf4a6d06a644f8c0f82449b70ce4391db96de952147750f6a1716271c1ff378bddc5911b97d3ee04b728a19d34"
+RPM_NAME = "ghc-libyaml-doc-0.1.2-6.11.noarch.rpm"
+RPM_HASH = "a16640be461df8df087e004c317a6af2659cc8b61007dcf7a2da5ed9aa0a33a5c17a1e2d87a1d2afdee0da10075f63bea3ea4c072970275808e0b36fde3148fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-libyaml-doc"

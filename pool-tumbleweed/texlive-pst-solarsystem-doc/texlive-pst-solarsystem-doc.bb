@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.13svn45097"
 
-RPM_NAME = "texlive-pst-solarsystem-doc-2023.209.0.0.13svn45097-54.1.noarch.rpm"
-RPM_HASH = "1eda988e8d56d4e23a0fe53344c76b3607f402c0454f62148ee2d6ce40550f1ea34ae904efd9aa42b895b3a3813b25268d0483e8acf848c1cb994bf1158a409a"
+RPM_NAME = "texlive-pst-solarsystem-doc-2023.209.0.0.13svn45097-54.2.noarch.rpm"
+RPM_HASH = "9d8a688aacaf8120ede372c2e54f3d4271df7dc6d82ebb78401172dc01a120111851a2c61e2379c43200ef8809190e0dd5c79ca60c209e97bc31600a014a7f58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-solarsystem-doc"

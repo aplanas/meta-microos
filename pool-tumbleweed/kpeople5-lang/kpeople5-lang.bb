@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kpeople5"
 DESCRIPTION = "Provides translations for the 'kpeople5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kpeople5-lang-5.108.0-1.1.noarch.rpm"
-RPM_HASH = "0e0e5c677c43d104ecfd00dbf8381a79aa57bbfc081c986b073a83f05e4f781515ca5266c3afbaa82dcb280c40970df12f6dd38a3b6787c8289c9ce3c1228f0d"
+RPM_NAME = "kpeople5-lang-5.109.0-1.1.noarch.rpm"
+RPM_HASH = "4dcdea8ceee70069a82bf1efa370003bba79249266fae58731fd84f21d4bb53d042bd9df3bac0a7e650e8cb6795ad204805e8bb34fdf4945c4599e42ff056157"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kpeople5-lang \
@@ -21,6 +21,7 @@ locale-kpeople5-da \
 locale-kpeople5-de \
 locale-kpeople5-el \
 locale-kpeople5-en-GB \
+locale-kpeople5-eo \
 locale-kpeople5-es \
 locale-kpeople5-et \
 locale-kpeople5-eu \

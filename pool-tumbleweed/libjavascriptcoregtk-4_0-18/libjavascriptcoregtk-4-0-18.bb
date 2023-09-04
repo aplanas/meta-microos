@@ -8,10 +8,10 @@ also supports DOM, XMLHttpRequest, XSLT, CSS, Javascript/ECMAscript and \
 more."
 LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
-PV = "2.40.4"
+PV = "2.40.5"
 
-RPM_NAME = "libjavascriptcoregtk-4_0-18-2.40.4-1.1.aarch64.rpm"
-RPM_HASH = "9b9ddabf2ffbaeb4116a31c54f63ebfbd1efbf0b0f086b03332804453ce63f5389664e39342886afd24fd76c8c9efde12b586d12d345196c27b2d82155a6c558"
+RPM_NAME = "libjavascriptcoregtk-4_0-18-2.40.5-1.1.aarch64.rpm"
+RPM_HASH = "337f8183b0f583db54766092d686d1bdd1a6fffd1215c3b79360ec49b9d1d7e1f932f518f3ba97e12bc1460298891da8f85f8d07adc5d1dc24256f832ed9c6a7"
 
 RPROVIDES:${PN} += "libjavascriptcoregtk-4-0-18 \
 libjavascriptcoregtk-4.0.so.18"

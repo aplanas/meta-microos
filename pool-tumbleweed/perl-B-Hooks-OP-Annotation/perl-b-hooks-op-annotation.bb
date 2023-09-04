@@ -45,15 +45,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.44"
 
-RPM_NAME = "perl-B-Hooks-OP-Annotation-0.44-3.38.aarch64.rpm"
-RPM_HASH = "83475acb0ecf4e1920482721f6b6c7a6d193ae3fe8d8c215159844ad5dd49b4d10dfa103efe36a1d0633ee4d0d0ba73bc51d041f80f042dc61adcb83e59de7ab"
+RPM_NAME = "perl-B-Hooks-OP-Annotation-0.44-3.39.aarch64.rpm"
+RPM_HASH = "770e635087212466e6d4578a8089dd14899395f74cee305a2c080decdc70b00cb859361f62a9c0cf8ab55c4a0a4f8d8264c3a0c603689b5db454550d7ee6726b"
 
 RPROVIDES:${PN} += "perl-B--Hooks--OP--Annotation \
 perl-B--Hooks--OP--Annotation--Install--Files \
 perl-B-Hooks-OP-Annotation"
 
 RDEPENDS:${PN} += "libc.so.6 \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-ExtUtils--Depends"
 
 inherit rpm

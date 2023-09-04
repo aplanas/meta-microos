@@ -11,10 +11,10 @@ optional type hints and type inference, to ensure that calls to Java \
 can avoid reflection."
 LICENSE = "EPL-1.0"
 
-PV = "1.11.1.1342"
+PV = "1.11.1.1413"
 
-RPM_NAME = "clojure-1.11.1.1342-1.1.noarch.rpm"
-RPM_HASH = "895fcffef5e2fae8d3e78d1a4d301f9ad69f79e9d897cfc4a54d8fbe3010857f59bd06edd2e56cff2ec6af5fd286e2623aabb4454a8a4032ceede7be69bf790e"
+RPM_NAME = "clojure-1.11.1.1413-1.1.noarch.rpm"
+RPM_HASH = "5cd3df5a15ccc868e7b3f912ddbd5411bcdd56a779bca3b5d58e5cf742a536231a663effa680c76b89b25d588d3e321ad246c0994d1be770ace0f880a3af802b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "clojure"

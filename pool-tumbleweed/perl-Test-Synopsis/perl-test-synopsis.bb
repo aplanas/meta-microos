@@ -29,14 +29,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.17"
 
-RPM_NAME = "perl-Test-Synopsis-0.17-1.8.noarch.rpm"
-RPM_HASH = "9ef12b438a571923e798598ea72e50c9531d982192ea500921324f233e3bf02e5f878236ebe29b3697c124316c40825cd1881b29c0c9423985f19eaa31c1c3ed"
+RPM_NAME = "perl-Test-Synopsis-0.17-1.9.noarch.rpm"
+RPM_HASH = "b3e4eb7a7347eb10eeae7d32b0b1d6fe4991318baf69a55c6960f1e00ecb16602444f8cf377631beb554c0138f1634bf72ab2f9f9d7748d631c9cba08d8ae243"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Synopsis \
 perl-Test-Synopsis"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Pod--Simple \
 perl-parent"
 

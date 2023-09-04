@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.20230311.svn51944"
 
-RPM_NAME = "texlive-clojure-pamphlet-bin-2023.20230311.svn51944-93.1.aarch64.rpm"
-RPM_HASH = "f1db6b26ce9fcd6e24d2ea6d014efad60d8b48c00ad1dcf8e6138ad805f60da47e30543dfe40e0b18ff4f8785d362eb61edc579077ded876eb089be6e1b425aa"
+RPM_NAME = "texlive-clojure-pamphlet-bin-2023.20230311.svn51944-93.2.aarch64.rpm"
+RPM_HASH = "dee7d037e362b1a1515ae58e4af298a80ea61be4c5cea125a0608590282ba01cf62c6b297c0e79be6e3b178f3f0c80f58ca1d34fbd5dec3be4f4b37fc12a05ea"
 
 RPROVIDES:${PN} += "texlive-clojure-pamphlet-bin"
 

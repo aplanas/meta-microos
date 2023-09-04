@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.36.1"
 
-RPM_NAME = "busybox-sed-1.36.1-27.1.noarch.rpm"
-RPM_HASH = "835c8fbf73b9dfeb3ca4f7e0f3d1767e6a21a3946fe59ca2bad506ff671458371e3dbc51eeac710b5f728dbc30e0f44d549d41a0f766087e7df280a0bfaa12ca"
+RPM_NAME = "busybox-sed-1.36.1-28.1.noarch.rpm"
+RPM_HASH = "4644c296d879c8c16338921e29d6b0db8d4c5243bbe3927d1c70bc7354d8108eda1d79fe2d6f5107d2596ae07bf7a347c2d6c57ce13087a94c9ea6fd2bd838f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/usr/bin/sed \

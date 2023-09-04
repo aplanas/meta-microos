@@ -7,10 +7,10 @@ prints information on specific address types (e.g. type, scope, \
 interface ID, etc.)."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.4.21"
+PV = "2.4.22"
 
-RPM_NAME = "subnetcalc-2.4.21-1.3.aarch64.rpm"
-RPM_HASH = "3bdb80ad60f6f8f60e6835ad12e41b4f2b3a78e76972fcf0e0e4c4ecc36f94ac8fa6f7471eeb5ee13f6bbe31302ab2290ee622cf46575342f57c8dae6bab2dc8"
+RPM_NAME = "subnetcalc-2.4.22-1.1.aarch64.rpm"
+RPM_HASH = "e975e8d0e3f822e83334464f3ea90ed96e8af4de4834d7261b9852a25cfaf6aa174f49fa703ee97e7bd3c8424482a2f3e5f72d9188f0f95f106d4864c4478492"
 
 RPROVIDES:${PN} += "subnetcalc"
 

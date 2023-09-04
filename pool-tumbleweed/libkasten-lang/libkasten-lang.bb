@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libkasten"
 DESCRIPTION = "Provides translations for the 'libkasten' package."
 LICENSE = "GFDL-1.2-only & GPL-2.0-only"
 
-PV = "0.26.12"
+PV = "0.26.13"
 
-RPM_NAME = "libkasten-lang-0.26.12-1.1.noarch.rpm"
-RPM_HASH = "bfae7f188627288cd6dea467d88d5cef2ea877415c8a18db8747adff8389700acda283ae0e39d7f12bddbeadc0aacce2f6be670d98f070bff4e064689af467a8"
+RPM_NAME = "libkasten-lang-0.26.13-1.1.noarch.rpm"
+RPM_HASH = "3c77fd569206fa9d08da6d5061e6591bbd7d3236a51dc5eb7f906122314702986f5e1eecd3b0b7ac4353e21ce9f1404b5dc1f0c3fc4efaa4b3f0a89164efc60d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libkasten-lang \

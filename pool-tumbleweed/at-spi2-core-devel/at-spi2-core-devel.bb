@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.48.3"
 
-RPM_NAME = "at-spi2-core-devel-2.48.3-1.1.aarch64.rpm"
-RPM_HASH = "d7269364359befa0759ea1a5fa176498c0c4c8ff89cbdd38b76e0f1bf791b3a5dcacf9073f3308e3da50cb6f4a31068d0ea3a38ba2fd3eef949280efcd675978"
+RPM_NAME = "at-spi2-core-devel-2.48.3-2.1.aarch64.rpm"
+RPM_HASH = "2fab1bb54eb5cdf373d5c8ddf8b98b2a9a3b11f9185d5c714d6532cab87c7652adee5282e54c4faa2806a9345254ebc74a79a5d668a87b6f41219135f7f1e0db"
 
 RPROVIDES:${PN} += "at-spi2-core-devel \
 pkgconfig-atk \

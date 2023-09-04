@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.6.0"
 
-RPM_NAME = "yast2-core-devel-4.6.0-1.4.aarch64.rpm"
-RPM_HASH = "c4a204d8f3026d58a3559b2b856a017ee5a737cf3ccf959e6ba26399d7b514d9d62d8ab3e3520b4c4560461f0c5b85b69e6f27c810965ef983461dda7351893b"
+RPM_NAME = "yast2-core-devel-4.6.0-1.5.aarch64.rpm"
+RPM_HASH = "eec154d234bd3cc4ede6772d93a9d84069890785d02c11abd06db17a45fdcd458be829990bdb6101ca5967afacda1104aac83b09f4d93088ca6e14a6de30f617"
 
 RPROVIDES:${PN} += "liby2util-devel \
 pkgconfig-yast2-core \

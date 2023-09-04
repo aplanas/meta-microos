@@ -2,15 +2,14 @@ SUMMARY = "Translations for package labplot-kf5"
 DESCRIPTION = "Provides translations for the 'labplot-kf5' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.10.0"
+PV = "2.10.1"
 
-RPM_NAME = "labplot-kf5-lang-2.10.0-1.1.noarch.rpm"
-RPM_HASH = "dd737c64ec62b5299f9907cc60187a536352cab227845aa163a4f1c45d1609810784a7305bf0e86883edfbcfb43a919bf70a7af1bec5b07ff3041eee9eb9b56e"
+RPM_NAME = "labplot-kf5-lang-2.10.1-1.1.noarch.rpm"
+RPM_HASH = "cf4dfd7cdbf77c6bf1615b523fd254a109e9171b9a632d4da1952b4b9eafd19cadf115ce2982861b5177e9ea07c527f50b7a627b0d24f7b7f8206bb7e7af78a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "labplot-kf5-lang \
 labplot-kf5-lang-all \
-locale-labplot-kf5-ar \
 locale-labplot-kf5-bs \
 locale-labplot-kf5-ca \
 locale-labplot-kf5-ca@valencia \
@@ -25,8 +24,11 @@ locale-labplot-kf5-fi \
 locale-labplot-kf5-fr \
 locale-labplot-kf5-gl \
 locale-labplot-kf5-hu \
+locale-labplot-kf5-ia \
 locale-labplot-kf5-it \
+locale-labplot-kf5-ja \
 locale-labplot-kf5-ka \
+locale-labplot-kf5-lt \
 locale-labplot-kf5-nds \
 locale-labplot-kf5-nl \
 locale-labplot-kf5-pl \

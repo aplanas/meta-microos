@@ -9,10 +9,10 @@ expressions, or it can be passed one or more files to run similar to \
 invoking a Perl or Python script."
 LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
-PV = "2.40.4"
+PV = "2.40.5"
 
-RPM_NAME = "webkit-jsc-4.1-2.40.4-1.1.aarch64.rpm"
-RPM_HASH = "34f7539e92830d1ae4e8f39fff6c45ecf70316ef6c40b8a57100bd53e709491984440adb6f316c31b499fd82b1565c0cc94091d6e45e6e977f9018f40e6b6d98"
+RPM_NAME = "webkit-jsc-4.1-2.40.5-1.1.aarch64.rpm"
+RPM_HASH = "8783e04ea643ba4262d9af57592392ad01e595667bf1b2b1243a9aafb191a2e86b2e193dae3f209cbd564c197d8ea4f3a779cf11e488409a7b396d75ab5bb684"
 
 RPROVIDES:${PN} += "webkit-jsc-4.1"
 

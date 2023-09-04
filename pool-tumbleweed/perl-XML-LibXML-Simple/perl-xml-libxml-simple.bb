@@ -11,14 +11,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.01"
 
-RPM_NAME = "perl-XML-LibXML-Simple-1.01-1.14.noarch.rpm"
-RPM_HASH = "87db5b22c4e613d8d5b12d197c25b08325ac8a68bca7478585d5a6cbec5d8c346fb74fd73168c708c41831d67363e848531c0efd31c59d719eb0ce2853ebd1a7"
+RPM_NAME = "perl-XML-LibXML-Simple-1.01-1.15.noarch.rpm"
+RPM_HASH = "7182aee007e2286223e5eb850e78ee38446badfb4a435af6281a9de06d455e80ab3a0cc7712c505e07cd79586e967ac26f2c16d345f020a048aaa5f3131e1a78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--LibXML--Simple \
 perl-XML-LibXML-Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-XML--LibXML"
 
 inherit rpm

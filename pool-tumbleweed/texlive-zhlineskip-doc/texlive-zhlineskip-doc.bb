@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0esvn51142"
 
-RPM_NAME = "texlive-zhlineskip-doc-2023.209.1.0esvn51142-53.1.noarch.rpm"
-RPM_HASH = "836ff1a86b3f4ca44a9948d5fd1e07d8dd93c65fa1361e6be5803c42f0e1d98616d8086e79dc1f13c948ec20650ca77ce28c317d1c4490dbbf78d5a914669db5"
+RPM_NAME = "texlive-zhlineskip-doc-2023.209.1.0esvn51142-53.2.noarch.rpm"
+RPM_HASH = "b92b7219bdf0c529ce7f59b94af139a23c903495d54e0c0e0dd15adfc88102980d7c58ac824f509d2adc7f215518bfe262d5ec19c6d6f11946645ef9831ba751"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-zhlineskip-doc-zh \

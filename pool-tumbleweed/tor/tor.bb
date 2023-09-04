@@ -22,10 +22,10 @@ strength of the anonymity provided. Tor is not presently suitable \
 for high-stakes anonymity."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.7.14"
+PV = "0.4.8.4"
 
-RPM_NAME = "tor-0.4.7.14-1.1.aarch64.rpm"
-RPM_HASH = "ebc82c125da9858689c6c1c78d26302ad5b0f49198dd194254fb4474bb11548811cb74b6c94f4de8dcae1b7f28ba575b05d0bc1732ad68b36d8629f12d33cd18"
+RPM_NAME = "tor-0.4.8.4-1.1.aarch64.rpm"
+RPM_HASH = "47bc646cd3088cc0d1f08d0d411ea8341bdfe26fadd05f14a67064b7e71e86e45fa67f028cca3ee49589da05b8612e47fd65e3e2b9eca6f978562343d7cd7b89"
 
 RPROVIDES:${PN} += "config-tor \
 tor"

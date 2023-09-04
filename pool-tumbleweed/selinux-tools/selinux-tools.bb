@@ -10,8 +10,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "3.5"
 
-RPM_NAME = "selinux-tools-3.5-3.2.aarch64.rpm"
-RPM_HASH = "05e3cf7dbc71e686d28436cf902b695015806798fddf60078f635530e9f942151d5fa1421f644e07ec7d512edf726f2305e271719c0dcf2631f55dd7d36f07ea"
+RPM_NAME = "selinux-tools-3.5-4.1.aarch64.rpm"
+RPM_HASH = "34fa4faf76386d947a622147d600ac054ebab2f9cb08caf9e593823bef8baf96b822a945b0da4b9aa4c3b9f3e03e05b5c7226f57b3809b078690db6363bdeda7"
 
 RPROVIDES:${PN} += "libselinux-utils \
 selinux-tools"

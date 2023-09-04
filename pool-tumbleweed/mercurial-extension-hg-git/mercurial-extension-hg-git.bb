@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.2"
 
-RPM_NAME = "mercurial-extension-hg-git-1.0.2-1.2.noarch.rpm"
-RPM_HASH = "af5096708625de46cddeb2232691907cd111f484d0fdcfe3eed3c71e9337187b40ea3bf8f76e6f87755acd86a824d7b30c77f09d3df03e36cba41f7525025c0f"
+RPM_NAME = "mercurial-extension-hg-git-1.0.2-2.1.noarch.rpm"
+RPM_HASH = "1791da8d9c8daaae7797ab233d384841e1a4d9cdeed8ed7171105f9d23fd191f7370316e4abc170d017054694d859a8c554dc06549dd4966f3877374593e9c90"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mercurial-extension-hg-git \

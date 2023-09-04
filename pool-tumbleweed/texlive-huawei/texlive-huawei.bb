@@ -3,10 +3,10 @@ DESCRIPTION = "This unofficial package provides a class for creating documents \
 for people working with Huawei Technologies Co., Ltd."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.15.0svn65264"
+PV = "2023.209.0.0.15.0svn65264"
 
-RPM_NAME = "texlive-huawei-2023.208.0.0.15.0svn65264-53.1.noarch.rpm"
-RPM_HASH = "91212e8392a01314a4c47e3f2ac6cbfb9859ed7745391a9eb02ad2f2870e3ec0a4934f5ec823287619b2c5d4cb237b1154d16d3b17d15119e89666500f87b9bd"
+RPM_NAME = "texlive-huawei-2023.209.0.0.15.0svn65264-54.1.noarch.rpm"
+RPM_HASH = "6ca44ffbcdec70d1174f921a2c191ff19b4079e0d19e6885a0c92cab6944c0cd832b5b95099cdf7a5a369e2093cf30c0079c62c31c4f835283c59f2b005c9fe3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-huawei.cls \

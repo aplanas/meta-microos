@@ -4,10 +4,10 @@ layer. Currently the GnuTLS library implements the proposed standards \
 of the IETF's TLS working group."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.8.0"
+PV = "3.8.1"
 
-RPM_NAME = "libgnutlsxx30-3.8.0-4.2.aarch64.rpm"
-RPM_HASH = "c87b48bf2dafbb338ec9368d3d4dacbcd8b69b4a28f15ab468a0c34a3e53f7ae76733e5168ca42269774349a98ac2118825bd0c178f8a994f010fa1ffaa5d588"
+RPM_NAME = "libgnutlsxx30-3.8.1-1.1.aarch64.rpm"
+RPM_HASH = "b88bcb6211473e92b930959c872ba1f340f0f576a96d7ae8c54ff8ef94b3a5c1380a2fe6a13feb957d7bb1f4556d70615bbcd44f1cd0e9e23f397b397b209fb3"
 
 RPROVIDES:${PN} += "libgnutlsxx.so.30 \
 libgnutlsxx30"

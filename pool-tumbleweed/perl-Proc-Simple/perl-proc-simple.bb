@@ -52,13 +52,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.32"
 
-RPM_NAME = "perl-Proc-Simple-1.32-1.26.noarch.rpm"
-RPM_HASH = "497dbc46cde5c12c6f890b7d0c5d9be0d7deaef0dee93bc519dcd6eefbc85e042fb92cd59b3fbfc8dee09169c4af9fd7ac02eb00e8cd4c60ca43843b4e422b60"
+RPM_NAME = "perl-Proc-Simple-1.32-1.27.noarch.rpm"
+RPM_HASH = "404a1570a85904a420cb72498cbab2c73017c14f103c41bf4168fb3aef319c4905eb4a7322e92fbd32f708440dc75ac750504080c4a2a7ce5c378b7686d803fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Proc--Simple \
 perl-Proc-Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

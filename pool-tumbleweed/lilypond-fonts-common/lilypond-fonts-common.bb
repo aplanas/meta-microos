@@ -5,10 +5,10 @@ files. \
 This contains the directory common to all lilypond fonts."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.24.1"
+PV = "2.24.2"
 
-RPM_NAME = "lilypond-fonts-common-2.24.1-2.4.noarch.rpm"
-RPM_HASH = "004ca8b3c3c44df5d5e1628c8cac88c09483f70b726d56daa7284c07e235933d25a25fbad65f22dd905d7c5e39a8400e48bbe91acc5b6d576291e26d4e6073b7"
+RPM_NAME = "lilypond-fonts-common-2.24.2-1.1.noarch.rpm"
+RPM_HASH = "832cc692c7d6aef7542c88c86e8118c76756487f741f25ff8317477f8778c99c4af17986e28abf71da16486f5f6b488f39c4454c358cd5257ccd5298fad4f3f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lilypond-fonts-common"

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause
 
 PV = "16.2.13.66+g54799ee0666"
 
-RPM_NAME = "ceph-mgr-modules-core-16.2.13.66+g54799ee0666-3.1.noarch.rpm"
-RPM_HASH = "9db8bc634b9f7399947aee3459512fa777ea12f425c2982cf764a4a6164e16527660304a1f88993a719f1cc768096bcc35335d3e5973e78a196127bb20dd8864"
+RPM_NAME = "ceph-mgr-modules-core-16.2.13.66+g54799ee0666-4.1.noarch.rpm"
+RPM_HASH = "79a93801cfb6daab1ef84854f9bdf35169eb80f1d8e5b44df0447e37d857cac4b3d61aa7754e196b52215876ea97a16c7ce366138d14210abef6db785709a66f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ceph-mgr-modules-core"

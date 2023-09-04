@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.209.20210625.0svn65953"
 
-RPM_NAME = "texlive-ptex-fontmaps-doc-2023.209.20210625.0svn65953-54.1.noarch.rpm"
-RPM_HASH = "9277cca54d4d807b4d6558722a683b9df1e016fdb51a7e19002585f177496011b6d195ac612472f525a076f5aeb1b8c9ba746640605ea78c63fd70b0494f600e"
+RPM_NAME = "texlive-ptex-fontmaps-doc-2023.209.20210625.0svn65953-54.2.noarch.rpm"
+RPM_HASH = "d610bfb915e4d420104289f8df3e1acaf1cca1012e5091fc96f1d065a686725008e1851684adb764b5f847d0c745e55dcd418183f1f64d83fd6eda3d7b7866c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ptex-fontmaps-doc"

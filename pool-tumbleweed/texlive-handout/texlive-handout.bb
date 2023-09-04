@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.6.0svn43962"
 
-RPM_NAME = "texlive-handout-2023.209.1.6.0svn43962-54.1.noarch.rpm"
-RPM_HASH = "c174c990f37de67d3a531b624cc6efef1cabf037b4c2f9b2429dc2b27fc595c1df17ec3ed2c21b80aaa016ce99e2b25840b1fdfe9999bc093d168de3140d88fa"
+RPM_NAME = "texlive-handout-2023.209.1.6.0svn43962-54.2.noarch.rpm"
+RPM_HASH = "a70fb9e6654d5a6ae041cb329a2a20d0dce112463b0de95b53fcfe242bdedc7a88b59b4a0cd8bbba85182e65fb50dd54c70730051d5c7d4f2f6620adb509e403"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-handout.sty \

@@ -6,8 +6,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "2023.209.svn13293"
 
-RPM_NAME = "texlive-hands-2023.209.svn13293-54.1.noarch.rpm"
-RPM_HASH = "3eef007aa2aed7c4508f1e362fc6ecea7568650ebb6414895b2b0e8e15d66f3bdebdd4318362bb0cc5a0d4f0799b2a365c02c67f88da4ed64fc750404f5dd79c"
+RPM_NAME = "texlive-hands-2023.209.svn13293-54.2.noarch.rpm"
+RPM_HASH = "a701a247379a95c9da8c5263b939344cf069fd98dd81899ea331f1272a4f67267796d1639acc916dd99fb01df44d4d65d357a7b818c8c3d360545b2c2e9717c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hands.tfm \

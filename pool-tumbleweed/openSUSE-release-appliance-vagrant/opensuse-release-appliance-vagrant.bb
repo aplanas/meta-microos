@@ -2,10 +2,10 @@ SUMMARY = "openSUSE Tumbleweed"
 DESCRIPTION = "openSUSE Tumbleweed is the rolling distribution by the openSUSE.org project."
 LICENSE = "BSD-3-Clause"
 
-PV = "20230802"
+PV = "20230828"
 
-RPM_NAME = "openSUSE-release-appliance-vagrant-20230802-1758.1.aarch64.rpm"
-RPM_HASH = "9cd88ac28c680bdd639f7b77a8aab06ca3966ff265c38b727e3ee8bfc99fbe5b2b871db713544cc6f15d89f556aa0259928997b9a2f1d7f3b7c6b034a7180f76"
+RPM_NAME = "openSUSE-release-appliance-vagrant-20230828-1789.1.aarch64.rpm"
+RPM_HASH = "c40c15ca1373655dcaaaef19c053764ae1cbad6db2913c05e9bf2364e8831431084033aad1d52ea61ef0e9ed53158d5538febc69266007c45298b57f577a736c"
 
 RPROVIDES:${PN} += "flavor-appliance-vagrant \
 openSUSE-release-appliance-vagrant \

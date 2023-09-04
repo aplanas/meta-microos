@@ -8,13 +8,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.17"
 
-RPM_NAME = "perl-Test-UseAllModules-0.17-1.27.noarch.rpm"
-RPM_HASH = "7800036c4bad8365ded87208105f310ed5a8d6b0dd7bde9275a6dccc31d68c20c9fbeeda0095a645aca5052d4e3af39cfc9e2fade96e31f18bf6ff5e37e2af54"
+RPM_NAME = "perl-Test-UseAllModules-0.17-1.28.noarch.rpm"
+RPM_HASH = "e24decf4fef5036e3319bd7382c548eb7fb6ac6e1d48541dc5ec45b668be2c7e83bd342e270f25a74d83aae82c261f5b7652cbe2343b1dc8d7d1bab31614e5e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--UseAllModules \
 perl-Test-UseAllModules"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

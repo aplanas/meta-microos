@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.3.8.9svn61719"
 
-RPM_NAME = "texlive-xypic-2023.209.3.8.9svn61719-53.1.noarch.rpm"
-RPM_HASH = "554a6d6039d9fa37a0cc991ed6a7d5adae31da95c2b2b20466ee2256776cf8db4d2cf91cfebc25cdca4667795da05105eb469a244588dada8fc67319d2f22352"
+RPM_NAME = "texlive-xypic-2023.209.3.8.9svn61719-53.2.noarch.rpm"
+RPM_HASH = "e3006f153f0a36e1e6140795b3124044af6c2a2be7d56f75b0b86ca094514802a2daeab166ca397d131136154078f422f5d0c30551d1ac70d745d3c889357f2c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-movie.cls \

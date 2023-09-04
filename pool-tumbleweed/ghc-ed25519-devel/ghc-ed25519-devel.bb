@@ -4,17 +4,17 @@ LICENSE = "MIT"
 
 PV = "0.0.5.0"
 
-RPM_NAME = "ghc-ed25519-devel-0.0.5.0-16.3.aarch64.rpm"
-RPM_HASH = "c64c57afe0b88d6ac9529c2322e7b5f1e2381b8e4576ad2756677364d31101588acf18ec4ae9781842558b5b43be167f0e04501921260e5d8fb9cf7201f6c477"
+RPM_NAME = "ghc-ed25519-devel-0.0.5.0-16.4.aarch64.rpm"
+RPM_HASH = "cd7ce3f7530dc1e0e16f1c3fb2c60f4814af66599857f5f794043c3688e8e676aeffcef6474f0b1d250848375b667bfbcd331d5a196f58018ad7c8e396917deb"
 
-RPROVIDES:${PN} += "ghc-devel-ed25519-0.0.5.0-EkN6WeFwHLH4dNF4Xthto8 \
+RPROVIDES:${PN} += "ghc-devel-ed25519-0.0.5.0-5X6chYMa5zJHtTD7kmYRr0 \
 ghc-ed25519-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-bytestring-0.11.4.0 \
-ghc-devel-ghc-prim-0.9.0 \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-bytestring-0.11.5.1 \
+ghc-devel-ghc-prim-0.9.1 \
 ghc-ed25519"
 
 inherit rpm

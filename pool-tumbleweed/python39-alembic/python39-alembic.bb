@@ -12,10 +12,10 @@ offers the following functionality: \
 * Allows the scripts to execute in some sequential manner."
 LICENSE = "MIT"
 
-PV = "1.10.4"
+PV = "1.11.2"
 
-RPM_NAME = "python39-alembic-1.10.4-2.3.noarch.rpm"
-RPM_HASH = "52952da6b0b82bfa9efb37fa9b1f5400275d97b98b1dac54fee8d0c9ffce3880d91f6aaf7eb4a2eee36ca633f7b6791812e4703d8c4d3a2d6bdc9769518d236d"
+RPM_NAME = "python39-alembic-1.11.2-1.1.noarch.rpm"
+RPM_HASH = "aedb9ff761eee38199e88bc5041d6d51d46ec5321c26358cf1eee31dc20874ae98d7da7f4e91524f3014d2735d36bc39b360eeb15229c89a73f3a17b06639d36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-alembic \

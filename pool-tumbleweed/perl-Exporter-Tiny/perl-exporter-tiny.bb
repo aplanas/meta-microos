@@ -24,14 +24,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.006002"
 
-RPM_NAME = "perl-Exporter-Tiny-1.006002-1.2.noarch.rpm"
-RPM_HASH = "6ee4e616bbbf706be98d1144ae903634e8c8ba2a41c2d0e17b2c9f511564f30fa41e6bd70c2ed44ea0180de50a6f860461c8f4a16afbc70698a743018883a4f5"
+RPM_NAME = "perl-Exporter-Tiny-1.006002-1.3.noarch.rpm"
+RPM_HASH = "203470baf93d7e801dc2654d9b2d87a975697f0fe38d7656275819ce926c281141b69b59027a3d46c5e479f3fe261a41dba6ccbfbc506291e0507cbb226ec490"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Exporter--Shiny \
 perl-Exporter--Tiny \
 perl-Exporter-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "SocketIO integration for Flask applications"
 DESCRIPTION = "Socket.IO integration for Flask applications."
 LICENSE = "MIT"
 
-PV = "5.3.4"
+PV = "5.3.5"
 
-RPM_NAME = "python310-Flask-SocketIO-5.3.4-1.1.noarch.rpm"
-RPM_HASH = "71dadda72c0e756393dedfb5fb408ba995ccdea42475a0ca32727a123d7eade9ae07642eace4ae042e963ecc9f887c9deef2152f4dd59b6259a2af5f031bfca4"
+RPM_NAME = "python310-Flask-SocketIO-5.3.5-1.1.noarch.rpm"
+RPM_HASH = "cab1954efb07465a5d1369b030e8a74ae026dd477678596ab3575b066ad6978c4cfdbff2979557d3363f17e5a432d0913cd4426ff94b514d26aedd48bf8795ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-flask-socketio \

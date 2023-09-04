@@ -7,10 +7,10 @@ complete screen review functionality. \
 This package contains the libbraille braille driver."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "6.5"
+PV = "6.6"
 
-RPM_NAME = "brltty-driver-libbraille-6.5-3.1.aarch64.rpm"
-RPM_HASH = "e0a29f703bd8e71cd479a519cee5237e9275e2527a70e2aff2d31b0d0fd045e924f40ab1035249a7f34475071b7da946818f9e497a44b3c283269e69aa64994b"
+RPM_NAME = "brltty-driver-libbraille-6.6-1.1.aarch64.rpm"
+RPM_HASH = "691e4659f912313ac42102a02a5bc724398db612d2e227c2f0531cb74c725261cc39be924ce24828d44e68493c83a451c03c313b67892143ab4dbe18df41263a"
 
 RPROVIDES:${PN} += "brltty-driver-libbraille \
 libbrlttyblb.so"

@@ -11,8 +11,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.00svn63116"
 
-RPM_NAME = "texlive-xduthesis-2023.209.1.00svn63116-53.1.noarch.rpm"
-RPM_HASH = "69cd282eef656cf42f32a1638ca87dcbd0b1eedba308984b5c4bbe23400fd21588793334ba1facfc345f01975614a92d1ed08cc3d53e3311d8e199a6b4dba3ad"
+RPM_NAME = "texlive-xduthesis-2023.209.1.00svn63116-53.2.noarch.rpm"
+RPM_HASH = "6eac1c47e4bc20e342bc09fe6c6ed7a207ed1492ca155d5919d0b4317faf63c4c56ef3b192d8ccaa3e5e046c183ed704e4eb050dcae7184429643b3e714c7456"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xduthesis.cfg \

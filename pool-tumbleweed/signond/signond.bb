@@ -2,10 +2,10 @@ SUMMARY = "Single Sign On Framework"
 DESCRIPTION = "Framework that provides credential storage and authentication service."
 LICENSE = "LGPL-2.0-only"
 
-PV = "8.60"
+PV = "8.61"
 
-RPM_NAME = "signond-8.60-2.19.aarch64.rpm"
-RPM_HASH = "4d6f5a060c6ceed040f5e1b775b45b06f29b2006b9faae49dbbf3dd5dd0406bf84f097aec00edfa14038189c8424f313f8dbe08a15bb9925440c773da50183f4"
+RPM_NAME = "signond-8.61-1.1.aarch64.rpm"
+RPM_HASH = "d556302fcb9f7f7b6ab96505f82b66b02759bf11827484dd1ec153e2bb48a36886e4f2f8a70ef45c18ed0949d7d913389a67d3970db0d838e7f7cf99a991860d"
 
 RPROVIDES:${PN} += "config-signond \
 signond"

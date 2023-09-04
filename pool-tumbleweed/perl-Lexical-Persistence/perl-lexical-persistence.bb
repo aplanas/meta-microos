@@ -184,14 +184,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.023"
 
-RPM_NAME = "perl-Lexical-Persistence-1.023-3.27.noarch.rpm"
-RPM_HASH = "e34d2bc78d94eaf6f1e61ab5d125e4400118925e45f0d3805d8018e16e169a0bd6b5c8ca65b55d4994243fb505ae687c1559e9c667d81008e19ca9aea5224624"
+RPM_NAME = "perl-Lexical-Persistence-1.023-3.28.noarch.rpm"
+RPM_HASH = "f5a2bd66bc1efbad3c727486b7276b1b3447860aaea9df1d5d099290f06b1486ab71ad2ed60f8f322f043f8f7b9dd2b00a597949fbece11c1a806891d01a539f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Lexical--Persistence \
 perl-Lexical-Persistence"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Devel--LexAlias \
 perl-PadWalker"
 

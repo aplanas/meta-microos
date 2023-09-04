@@ -4,10 +4,10 @@ NetworkManager in cloud setups. Currently only EC2 is supported. \
 This tool is still experimental."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.42.8"
+PV = "1.44.0"
 
-RPM_NAME = "NetworkManager-cloud-setup-1.42.8-1.1.aarch64.rpm"
-RPM_HASH = "a818f7de38c81cab6d6348c79f7e995e13ed5f69ac899031345dbddf63497dc0e77e538c65080c148e5d2b4f3d1e64b971a35f7e559f4516500dae543e0df415"
+RPM_NAME = "NetworkManager-cloud-setup-1.44.0-1.1.aarch64.rpm"
+RPM_HASH = "d8b261c32d110a527586e6c1fd440e3b9d418eb258fa2559ff734884844fa9744d76f00b60dc6cb577bf2531b53df20296ddcd8f1bb6c4faf5004463623e795d"
 
 RPROVIDES:${PN} += "NetworkManager-cloud-setup"
 
@@ -18,6 +18,7 @@ libc.so.6 \
 libcurl.so.4 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
+libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
 libnm.so.0 \
 libnm0"

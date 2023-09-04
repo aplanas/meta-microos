@@ -4,10 +4,10 @@ to create the HTML, PDF, and EPUB versions of SUSE documentation. These \
 stylesheets are based on the original DocBook XSLT 1.0 stylesheets."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "2.92.1"
+PV = "2.92.5"
 
-RPM_NAME = "suse-xsl-stylesheets-2.92.1-1.1.noarch.rpm"
-RPM_HASH = "f62c158411651bac128c0356e4e736f5c9cb8305efb1fc62b86b7c6b6dbda49301999058f6a0b890402e613666d8e91d97efac68665b199ebe0baf028a8ff53f"
+RPM_NAME = "suse-xsl-stylesheets-2.92.5-1.1.noarch.rpm"
+RPM_HASH = "ef5a0f1dc4db9cf32b2b5fd071f6ccfc8a2a19295b30ac4ca0e2d29da30300cc29d7b70cdf8e6afe16cc9f2d20425498bcbcc13607414eec2246814086235ef9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-suse-xsl-stylesheets \

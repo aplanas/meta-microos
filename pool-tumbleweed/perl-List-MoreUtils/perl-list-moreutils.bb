@@ -11,15 +11,15 @@ LICENSE = "Apache-2.0"
 
 PV = "0.430"
 
-RPM_NAME = "perl-List-MoreUtils-0.430-1.13.noarch.rpm"
-RPM_HASH = "c6248d56a53a1c322ef3157abea8b8d1114b8261c44d840f8807706d2a48f28c3f29faa46e62d611c059d84b8fc69c981ecc783683340a20a5946a2b576dcd48"
+RPM_NAME = "perl-List-MoreUtils-0.430-1.14.noarch.rpm"
+RPM_HASH = "d8d62344538187e4dfae858bde88406fff0ce5f6d7e973ff5f9d553543da1cbe8778a76220121575adb7b68c51e45fd7ba9e6fb28a35b04a15b60c797cf3209a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-List--MoreUtils \
 perl-List--MoreUtils--PP \
 perl-List-MoreUtils"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Exporter--Tiny \
 perl-List--MoreUtils--XS"
 

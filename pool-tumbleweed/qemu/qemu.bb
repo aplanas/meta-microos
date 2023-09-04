@@ -9,10 +9,10 @@ virtualization. \
 This package acts as an umbrella package to the other QEMU sub-packages."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.3"
+PV = "8.0.4"
 
-RPM_NAME = "qemu-8.0.3-2.1.aarch64.rpm"
-RPM_HASH = "41ada644a9ae450f0dd91e3b74d73b496d0b9e7256d16bade6bd968e3c5fc9b0cf0ca43409714ed9191b7fed2416322ddc2d3276bbbda248afaf03930014b566"
+RPM_NAME = "qemu-8.0.4-1.1.aarch64.rpm"
+RPM_HASH = "0254255bb09f26c3a26f4ed995d9ff472bf6b6e1a2c22feb7f3b8a66bd18569a2235e29dd19c1d9207844a56c934cfb1c30460ccb261a8cb463bc0b8056207c6"
 
 RPROVIDES:${PN} += "qemu"
 

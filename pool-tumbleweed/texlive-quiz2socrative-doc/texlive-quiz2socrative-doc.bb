@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn52276"
 
-RPM_NAME = "texlive-quiz2socrative-doc-2023.209.1.0svn52276-54.1.noarch.rpm"
-RPM_HASH = "06c25fb85844021803d1f899188c612e8886155428aa66b42b8afedd5f468435b3e78403c79ee012dde6708da1c7a1e7d311bfeebd9b8a9956a570a8cdaadf3f"
+RPM_NAME = "texlive-quiz2socrative-doc-2023.209.1.0svn52276-54.2.noarch.rpm"
+RPM_HASH = "83a17fa8e03f142eec65cd45ad825d03ed7ff1f585370550b72825a87677260497c69f2aca16f1aa7e5b4316c76319b3ab6fc49cb6527686e8611d2d6d231321"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-quiz2socrative-doc-it \

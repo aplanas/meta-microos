@@ -11,10 +11,10 @@ Xpra is usable over reasonably slow links and does its best to adapt to changing
 network bandwidth constraints."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later & LGPL-3.0-or-later & MIT"
 
-PV = "5.0+git20230617.2a908f54"
+PV = "6.0+git20230821.3093d53d"
 
-RPM_NAME = "xpra-5.0+git20230617.2a908f54-1.2.aarch64.rpm"
-RPM_HASH = "bfcd83edac553435a377423240d53548b5246631d51f35ff9b5aff186c86f73454e1658168d1b5522e5967e4277c336eb04071d66c32a3fe682e313b171535bf"
+RPM_NAME = "xpra-6.0+git20230821.3093d53d-1.1.aarch64.rpm"
+RPM_HASH = "ab323a315546776cf3cd8ceb61020754631daaf2e5e886bb293dabf4afd5f219050d94d577f6179b4e77f40438a24e9bcf9b844e20ce180c6d8bfbd71a6d772a"
 
 RPROVIDES:${PN} += "config-xpra \
 python3.11dist-xpra \
@@ -41,9 +41,6 @@ libXfixes.so.3 \
 libXi.so.6 \
 libXrandr.so.2 \
 libXtst.so.6 \
-libavcodec.so.59 \
-libavformat.so.59 \
-libavutil.so.57 \
 libbrotlidec.so.1 \
 libbrotlienc.so.1 \
 libc.so.6 \
@@ -55,7 +52,6 @@ libpam-misc.so.0 \
 libpam.so.0 \
 libprocps.so.8 \
 libqrencode.so.4 \
-libswscale.so.6 \
 libsystemd.so.0 \
 libturbojpeg.so.0 \
 libvpx.so.8 \
@@ -69,8 +65,6 @@ python3-cairo \
 python3-dbus-python \
 python3-gobject-Gdk \
 python3-gst \
-python3-lz4 \
-python3-opencv \
 python3-pycups \
 python3-rencode \
 shared-mime-info \
@@ -84,6 +78,7 @@ typelib-GdkX11 \
 typelib-Gio \
 typelib-Gst \
 typelib-Gtk \
+typelib-NM \
 typelib-Notify \
 typelib-Pango \
 typelib-PangoCairo \

@@ -4,18 +4,18 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.2.1"
 
-RPM_NAME = "ghc-edit-distance-devel-0.2.2.1-13.6.aarch64.rpm"
-RPM_HASH = "2a95ba7cd143869923c283b887fe8e961d8d4625278de4d6cc1ed70c018389b0a0f99b3befc572f09b7aeb12858a161005099a85546d2b07a488ef3091f29f53"
+RPM_NAME = "ghc-edit-distance-devel-0.2.2.1-13.8.aarch64.rpm"
+RPM_HASH = "79af9ac582f75a74023a2797a560e358ee2aa16ffa45e1fb0f4d7190f8cc58a0881098c8a40a46afa353e6a0daaa0ba7a0d457d7606a42d208d59c5304a8a8d0"
 
-RPROVIDES:${PN} += "ghc-devel-edit-distance-0.2.2.1-6sqaVuKvJlk4f2SjC0p5nu \
+RPROVIDES:${PN} += "ghc-devel-edit-distance-0.2.2.1-ITBK6JvlsOE36MkOzN30LX \
 ghc-edit-distance-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-array-0.5.4.0 \
-ghc-devel-base-4.17.1.0 \
+ghc-devel-base-4.17.2.0 \
 ghc-devel-containers-0.6.7 \
-ghc-devel-random-1.2.1.1-I0wUgAAbf0g3qHR3e8uT0o \
+ghc-devel-random-1.2.1.1-DaR3VtSJjyj4XXOpfKJ29k \
 ghc-edit-distance"
 
 inherit rpm

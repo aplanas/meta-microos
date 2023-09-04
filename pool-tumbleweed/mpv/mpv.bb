@@ -3,10 +3,10 @@ DESCRIPTION = "mpv is a movie player based on MPlayer and mplayer2. It supports 
 of video file formats, audio and video codecs, and subtitle types."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.36.0+git.20230723.60a26324"
+PV = "0.36.0+git20230826.83c0e980"
 
-RPM_NAME = "mpv-0.36.0+git.20230723.60a26324-1.2.aarch64.rpm"
-RPM_HASH = "1e24fd56436a194501ca7ed1ad7e8476e81f9d43de9105142cc8b87c214a424763e220f7a6ed0b1d70f8f78c79957c5f0aa8e06529d18533c9562df729d461e0"
+RPM_NAME = "mpv-0.36.0+git20230826.83c0e980-1.1.aarch64.rpm"
+RPM_HASH = "afe2c7ff1859dbb87063c900abfe4d90528d14cb81d3a0e888be25437ef1833f22b2789faeee17a8646ed99c7ed06799bf0b37114598bc4a852ea3031013ce0d"
 
 RPROVIDES:${PN} += "config-mpv \
 mplayer2 \
@@ -17,7 +17,6 @@ ld-linux-aarch64.so.1 \
 libEGL.so.1 \
 libX11.so.6 \
 libXext.so.6 \
-libXinerama.so.1 \
 libXpresent.so.1 \
 libXrandr.so.2 \
 libXss.so.1 \

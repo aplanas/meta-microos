@@ -5,8 +5,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2023.209.0.0.0.1svn57359"
 
-RPM_NAME = "texlive-gudea-2023.209.0.0.0.1svn57359-54.1.noarch.rpm"
-RPM_HASH = "381d183fdc58dbf8847b7cc109bfe1d92d76dcdb92cc235f42ed966190e8ab0e74084869c2e99393243d9bfa1e27765b039cba0f54242e593cb3249b2ccea29a"
+RPM_NAME = "texlive-gudea-2023.209.0.0.0.1svn57359-54.2.noarch.rpm"
+RPM_HASH = "2aa9b4a5a773b912d0eec04ce147b610cc4506610d77d3a65f46b6a748fe6bd2a73d3f249927cb56a114fe0baf363ebf0f03a77beae6692a2f34ddbdcc3f75c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Gudea-Bold-tlf-ly1--base.tfm \

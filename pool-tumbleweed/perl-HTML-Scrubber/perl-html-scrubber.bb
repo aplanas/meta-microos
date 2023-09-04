@@ -9,14 +9,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.19"
 
-RPM_NAME = "perl-HTML-Scrubber-0.19-1.16.noarch.rpm"
-RPM_HASH = "f960f4e0ed50e62529975c6f4c407fc8bd06f47815d5a95dc36c40db308ec200b2efe06ee4925a39a75abde377cd4bff4202799376d26be3c372949cdab33856"
+RPM_NAME = "perl-HTML-Scrubber-0.19-1.17.noarch.rpm"
+RPM_HASH = "1ad239c50a359f10e9d1a447c657b83aad15cc914fc7309b60ca20f2cadc7189293321b18e605bc14da1e8c27eafc1e1bf695e50542c0224b6145cf10baf6242"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTML--Scrubber \
 perl-HTML-Scrubber"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-HTML--Entities \
 perl-HTML--Parser \
 perl-List--Util"

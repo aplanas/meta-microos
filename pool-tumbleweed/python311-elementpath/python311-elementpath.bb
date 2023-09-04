@@ -4,10 +4,10 @@ data structures, both for the standard ElementTree library and for the \
 `lxml.etree <http://lxml.de>`_ library."
 LICENSE = "MIT"
 
-PV = "4.1.4"
+PV = "4.1.5"
 
-RPM_NAME = "python311-elementpath-4.1.4-1.1.noarch.rpm"
-RPM_HASH = "98e3b1686ec47ce47c862150ed01a4f929d9b8b947381b29d9d8d34ec1e986e74878aaee32b4b6eb87c2c54f4d98b6ec7f2305aa802838de136c79b0f52f758b"
+RPM_NAME = "python311-elementpath-4.1.5-1.1.noarch.rpm"
+RPM_HASH = "467e8aece4db3cb19dce067402ef3b1ce281ecbf90055130129dfec7a157c36a55466770e8d8370db4710e40728a3aa69aa84ee7eee21fe9d80e03f4d78b1e16"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-elementpath \

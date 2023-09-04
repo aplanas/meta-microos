@@ -4,17 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.1.1"
 
-RPM_NAME = "ghc-OneTuple-devel-0.4.1.1-1.2.aarch64.rpm"
-RPM_HASH = "f61ff8720890683b6c0f80cdf1f1dc2c7ef21aaf65cf9d88feb3bd209371c0534463563fb41d14da7f4ed515ca79704ea7d458f808419f35c5136938c3196cf3"
+RPM_NAME = "ghc-OneTuple-devel-0.4.1.1-1.4.aarch64.rpm"
+RPM_HASH = "ca4b6d53f0a9bc758a2f442e23667fbff2403c47b19783b39969af691c54d2b3d0e36b1adf1e73051e3f05a9233bb428afa77323b14a45fec5aa4ab8f30ccbb1"
 
 RPROVIDES:${PN} += "ghc-OneTuple-devel \
-ghc-devel-OneTuple-0.4.1.1-Fgk8ylTtnzLBSBvZAI1OoV"
+ghc-devel-OneTuple-0.4.1.1-5m1ALA0bqJEAQoyOrWBAgI"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-OneTuple \
 ghc-compiler \
-ghc-devel-base-4.17.1.0 \
-ghc-devel-ghc-prim-0.9.0 \
+ghc-devel-base-4.17.2.0 \
+ghc-devel-ghc-prim-0.9.1 \
 ghc-devel-template-haskell-2.19.0.0"
 
 inherit rpm

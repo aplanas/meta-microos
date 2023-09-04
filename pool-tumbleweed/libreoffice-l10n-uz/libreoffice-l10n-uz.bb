@@ -2,10 +2,10 @@ SUMMARY = "Uzbek localization files for LibreOffice"
 DESCRIPTION = "Provides Uzbek translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-l10n-uz-7.5.4.2-1.5.noarch.rpm"
-RPM_HASH = "da859e69a84bf699ef8a39dce7e1609077c158698e2ff70b97e17c90ff43c4afb7ae06a652329b14b898e162524aeb43d500b64eba8fa9566a5494ae2f82aea4"
+RPM_NAME = "libreoffice-l10n-uz-7.6.0.3-1.1.noarch.rpm"
+RPM_HASH = "01b6a174bade8fe3635000f126f6f47feb89234788dd7cf07171ec3e603284ef8c9c5749d1c91836c63447b63664900c696c0372165f13a70b4fd7d702e1a8fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-uz \

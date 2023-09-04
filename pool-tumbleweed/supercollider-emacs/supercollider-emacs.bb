@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.13.0"
 
-RPM_NAME = "supercollider-emacs-3.13.0-1.3.aarch64.rpm"
-RPM_HASH = "4a213aef90435a8d7888686427172f9bc291f1c4ea29f51ebd0f521c7c4bf8fd0789e5d92a628e0f2e170f5267bb77459193b389afa4e4a0ca7cb42fc171270c"
+RPM_NAME = "supercollider-emacs-3.13.0-1.4.aarch64.rpm"
+RPM_HASH = "d982c82a48be7e6fd86c757534369194880aa3cca8554e9ae30355c4007e49253eadf449c7439510c05c052ce73260dbc4890df9c57e1fc32b0974b60d2a02fb"
 
 RPROVIDES:${PN} += "supercollider-emacs"
 

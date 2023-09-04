@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Japanese Translations"
 DESCRIPTION = "YaST2 - Japanese translations."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230729.64eca7e0a1"
+PV = "84.87.20230818.ea489402e5"
 
-RPM_NAME = "yast2-trans-ja-84.87.20230729.64eca7e0a1-1.1.noarch.rpm"
-RPM_HASH = "c0ec0f2a5b10cd37d11784ebc87779c23b0e7e3b6b296e3a0bedd827d1feaa452d5dd0e5a5e9befae3b0707f9b739797339d05e2b587975ec5ddf16cd6300218"
+RPM_NAME = "yast2-trans-ja-84.87.20230818.ea489402e5-1.1.noarch.rpm"
+RPM_HASH = "317d7cb8ba39fda7a44ab1a68c7d5ac078818952ccc4880373b385e43453c331a3fe6246d30b2f91becf00da64c12cd941851573023fcc4089009930cb7e3a6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-ja \

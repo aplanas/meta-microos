@@ -12,8 +12,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.0.0.1615230250.adb97235b"
 
-RPM_NAME = "openxcom-1.0.0.1615230250.adb97235b-1.11.aarch64.rpm"
-RPM_HASH = "e55f4cb66436ca0edc254365bb8c1949bcdd8fe70a9e50767366ef999b039ab97e3ca72ea7348160c10dc6b12387937a5c3dac93986c70971cac8dc3032d3c35"
+RPM_NAME = "openxcom-1.0.0.1615230250.adb97235b-1.12.aarch64.rpm"
+RPM_HASH = "c5cc4904bed3ce037d60109b0d9b23361125e95f7ed4088b363a3147e8dbb999515e24c0250334d34e687bc1cf115df9639d11c202b35d0cbd7adb27f1d84cdb"
 
 RPROVIDES:${PN} += "openxcom"
 
@@ -27,6 +27,6 @@ libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
-libyaml-cpp.so.0.7"
+libyaml-cpp.so.0.8"
 
 inherit rpm

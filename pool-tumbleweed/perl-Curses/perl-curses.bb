@@ -9,8 +9,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.44"
 
-RPM_NAME = "perl-Curses-1.44-1.3.aarch64.rpm"
-RPM_HASH = "1e932bce3ac6d4533fb13fd3a19e5344eb3f375719c9520ee1f3b9e780d83714fbef604b421ce17975866471f97a13b45f3bd9ef80ab1b54099fca4f5afc1b72"
+RPM_NAME = "perl-Curses-1.44-1.4.aarch64.rpm"
+RPM_HASH = "16bd96559270ce986e125f564fa6ffc6b19784240e6835304773814db5a0bc7c3b4bc4d13c629a0b59825e8698f0175a87f667dd70c9803d7e86bad5cc2fed8c"
 
 RPROVIDES:${PN} += "perl-Curses \
 perl-Curses--Field \
@@ -28,6 +28,6 @@ libmenu.so.5 \
 libncursesw.so.5 \
 libpanel.so.5 \
 libtinfo.so.5 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

@@ -9,10 +9,10 @@ There are known issues with accessibility on, so please do not install \
 this package unless you really need to."
 LICENSE = "Apache-1.1 & Apache-2.0 & EPL-2.0 & GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-only-with-Classpath-exception-2.0 & LGPL-2.0-only & MPL-1.0 & MPL-1.1 & SUSE-Public-Domain & W3C"
 
-PV = "1.8.0.362"
+PV = "1.8.0.382"
 
-RPM_NAME = "java-1_8_0-openj9-accessibility-1.8.0.362-2.3.aarch64.rpm"
-RPM_HASH = "ea221cd146c720ca37d3352d85aec6fc13a26800e5c6ab225e8edb72e38f83837702ac9ecbd6ec2251da0f0c577d65136c51e88c9410b9f29afcdcca2e79762c"
+RPM_NAME = "java-1_8_0-openj9-accessibility-1.8.0.382-1.1.aarch64.rpm"
+RPM_HASH = "6b7f317104e7bde4843e57464303fe008496a403d83bd9716d9d7610bda9fd1ad1dde435cae17386f4f0f5032b634bb823ad0e8ef9df712c40f98350eba297aa"
 
 RPROVIDES:${PN} += "config-java-1-8-0-openj9-accessibility \
 java-1-8-0-openj9-accessibility"

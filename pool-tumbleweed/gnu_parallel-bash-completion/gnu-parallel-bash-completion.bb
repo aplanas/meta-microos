@@ -4,10 +4,10 @@ or more computers. \
 This subpackage contains the bash completion for Parallel."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20230722"
+PV = "20230822"
 
-RPM_NAME = "gnu_parallel-bash-completion-20230722-1.1.noarch.rpm"
-RPM_HASH = "7d65dcac1246751307669a0397e025363857cbead5cd05585f99145b11f5e30ae86d8931820f88c8b976e2f638f6558eff0373cabee84698a8bc4c37b98be0d5"
+RPM_NAME = "gnu_parallel-bash-completion-20230822-1.1.noarch.rpm"
+RPM_HASH = "e3d4ece52eba15abfe81c90021e4bd6668b8fb5d1119304033a55ce747ed33e457809eda5abe10930bfc766b9cff299d663f712b5c8eb09c79c855cd11b5595f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu-parallel-bash-completion"

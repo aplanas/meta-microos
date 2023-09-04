@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.7.2"
 
-RPM_NAME = "python39-pyxattr-0.7.2-1.15.aarch64.rpm"
-RPM_HASH = "6d5d284443331aa78ace136f1765d68ba5a47f55a692a4777a42fd404fad31612d21b310871a70d6961a0752d8c166b8f7ce001f3b1a98cf72ede2379f735cf5"
+RPM_NAME = "python39-pyxattr-0.7.2-2.1.aarch64.rpm"
+RPM_HASH = "47cbbf4a5d9a6ee5ee2146edac1febf55122bb3c299fe7dcd33b4ac4dcf1e6ba80f1613aaead25b46632285fae9188cd9f3995c994cc678401cce14b6f346418"
 
 RPROVIDES:${PN} += "python3.9dist-pyxattr \
 python39-pyxattr \

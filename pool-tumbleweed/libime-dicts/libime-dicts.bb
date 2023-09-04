@@ -2,10 +2,10 @@ SUMMARY = "Dictionary files for libime"
 DESCRIPTION = "This package provides dictionary files for libime."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.0.17"
+PV = "1.1.1"
 
-RPM_NAME = "libime-dicts-1.0.17-1.3.aarch64.rpm"
-RPM_HASH = "282455b1d29520e8b3601fbab440224f2a9293e5797c3ec69583b4520a83ac085d0872d4c263cdd553cb5ff82b37621900bbbf0c015cfbfa6a2b0f6d91ea86e5"
+RPM_NAME = "libime-dicts-1.1.1-1.1.aarch64.rpm"
+RPM_HASH = "95dfea77bf1ad759f784f67b26f0491aa8e3b8d733d1df39e440a40710cb0b0c14cfb1c30a916f3f8ee061218975587a2cc4aa0f05c4e5aac7f2e481aad7ce43"
 
 RPROVIDES:${PN} += "libime-dicts"
 

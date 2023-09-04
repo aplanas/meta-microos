@@ -2,10 +2,10 @@ SUMMARY = "PipeWire media server ALSA support"
 DESCRIPTION = "This package contains an ALSA plugin for the PipeWire media server."
 LICENSE = "MIT"
 
-PV = "0.3.76"
+PV = "0.3.77"
 
-RPM_NAME = "pipewire-alsa-0.3.76-1.1.aarch64.rpm"
-RPM_HASH = "f7199b91c2f176cf7454d443fecb970fd7ae2b971c5367ce3941feb6738535e04c8bd0a896cc9dd85251bc252c60761f39db0ee39f7689f778fa672e1df92a95"
+RPM_NAME = "pipewire-alsa-0.3.77-2.1.aarch64.rpm"
+RPM_HASH = "cdac1dfaecfbee982f52306653d5faf4e8d520ed545f202a2cc6299689633d85f2d4d3eff9253cf99dc9a77bf87b3c97d352c7f3660e08787b719d7dc5c4eb66"
 
 RPROVIDES:${PN} += "config-pipewire-alsa \
 libasound-module-ctl-pipewire.so \

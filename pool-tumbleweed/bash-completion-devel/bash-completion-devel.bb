@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.11"
 
-RPM_NAME = "bash-completion-devel-2.11-7.1.noarch.rpm"
-RPM_HASH = "f40bf2e796eedb1dfd81924a8ea66f1e2904ef36ef53e535f45453b6a1333bd79b1d12e09dbf709cf538a506d66fe894b7fb097cbbfa6a3dfb54d75fd0d92e83"
+RPM_NAME = "bash-completion-devel-2.11-8.1.noarch.rpm"
+RPM_HASH = "4b02e0bdcdaa3ae0efb53da8ea987e5bb6511dbacb531fe4022c2f53477df7e84ab917b58bb4bb096fa9ce50b0b0b7a938919d0514c8cba4eb9c247da4ade7a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bash-completion-/usr/share/pkgconfig/bash-completion.pc \

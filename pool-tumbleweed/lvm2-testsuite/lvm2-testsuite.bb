@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "2.03.16"
 
-RPM_NAME = "lvm2-testsuite-2.03.16-7.1.aarch64.rpm"
-RPM_HASH = "084638366ce1af2ebe1f3032eeaee95babd988f5e362f5b6f0b5b6600043d5edf85e5287179d0d62685870cf08f278ac80b98268b90e287747648c58727829f2"
+RPM_NAME = "lvm2-testsuite-2.03.16-8.1.aarch64.rpm"
+RPM_HASH = "e27a07bda0cb1dfa07c66409c9dac6c9e53037ba2cd504b80caf9931e1b10e464fcd4e34e4fde0b41ead524bc181df07283f0374a7a5fc27866afdb31283f380"
 
 RPROVIDES:${PN} += "lvm2-testsuite"
 

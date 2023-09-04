@@ -6,8 +6,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.4.2svn55475"
 
-RPM_NAME = "texlive-xetex-itrans-2023.209.4.2svn55475-53.1.noarch.rpm"
-RPM_HASH = "149ec78bfaef2467c4320c1763c2cd27b933f7dd4a1d5b319bbbbbafedc49065273bbde9dfb0c484f8f82ea349b473e3cca9bce1cb232d014d062797aac8095e"
+RPM_NAME = "texlive-xetex-itrans-2023.209.4.2svn55475-53.2.noarch.rpm"
+RPM_HASH = "f8d88a61a90de3d782f6328bc585c78cd3762aa627d9425352ac557a4166f5aa9c724a27c4c44e6ee5ed043d5585aa1867a1ded6b805f5532af5debace4a63b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-brh-kan.map \

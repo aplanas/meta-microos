@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2023.209.svn15878"
 
-RPM_NAME = "texlive-recycle-fonts-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "e41da8859bb66ffb623c375ed40e6359ef3287ab1bde06882606f52be098ec98f31e559429f86979839f55e9a63c97a248a32e8a8e8b6a9ffcb395c7b770da0d"
+RPM_NAME = "texlive-recycle-fonts-2023.209.svn15878-54.2.noarch.rpm"
+RPM_HASH = "35a594391d5dde212fcae376d3cc98f7e0cbb523cc64ce20d0ffaee8c3364e032684c351a47d0ae8a4b504f73720ee30cb43bb362297b3a03f0e64c8ca5add9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-recycle \

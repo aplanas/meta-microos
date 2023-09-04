@@ -5,10 +5,10 @@ have to read the entire input file before starting. It is possible to \
 start an editor at any time from within less."
 LICENSE = "BSD-2-Clause | GPL-3.0-or-later"
 
-PV = "633"
+PV = "643"
 
-RPM_NAME = "less-633-2.2.aarch64.rpm"
-RPM_HASH = "7175199c2062880e3e90da56a27f4c84261ed1c1086075dfeb15ce10d64f96e7cd8d1a136ecd63c136c164b6aecd6f0d0338af3eeab5827b5d1b93b91b0d8181"
+RPM_NAME = "less-643-1.1.aarch64.rpm"
+RPM_HASH = "9d814e4d93fd6517f04182e467d8634302c5cb99d1b94ec102bace96fc6ad6241bdeab1ff4dc2a03062490d4125266e3797e77f8c1af101f4610ccfccf9bfd81"
 
 RPROVIDES:${PN} += "less"
 

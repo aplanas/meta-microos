@@ -6,10 +6,10 @@ gvisor-tap-vsock brings a configurable DNS server and \
 dynamic port forwarding."
 LICENSE = "Apache-2.0"
 
-PV = "0.6.2"
+PV = "0.7.0"
 
-RPM_NAME = "gvisor-tap-vsock-0.6.2-1.1.aarch64.rpm"
-RPM_HASH = "bdb407cf69477e72115c977604869ff19da9f07c4e43f7943c70d9aab434238fb38db36e2aa3c3a3a92b6b3e49952491acd8a416e3b5c6b22b287652b1cb6cd0"
+RPM_NAME = "gvisor-tap-vsock-0.7.0-1.1.aarch64.rpm"
+RPM_HASH = "04f5f945bf62b6e75af78266e1e85f5545258c8af071b680f68a7a7d58827866c2aa67a8e32b95cff77e98b6a455d4d60de3391e609a92cf91f449add1280c98"
 
 RPROVIDES:${PN} += "gvisor-tap-vsock \
 gvproxy"

@@ -6,10 +6,10 @@ This package provides a standalone MediaRenderer plugin, based on the \
 GStreamer playbin3 element."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "0.42.3"
+PV = "0.42.4"
 
-RPM_NAME = "rygel-plugin-gstreamer-renderer-0.42.3-2.1.aarch64.rpm"
-RPM_HASH = "f6ec38d0544d7f783e4d13c37a78a797fe6315a41a4da44f5e18b1153b60f4ddfb7c8c323b140160c0700595a1ef6362224ca1a2631b55378ef9f75e7afd95e2"
+RPM_NAME = "rygel-plugin-gstreamer-renderer-0.42.4-1.1.aarch64.rpm"
+RPM_HASH = "9116fcdcb6ae8b10b0d5088bef26439f319a057c4f242b3d4305d90f261efa65573d0ef18f42bb5659f9119e15de66f15ce92065e0720b74fb77b54583076fe2"
 
 RPROVIDES:${PN} += "librygel-playbin.so \
 rygel-plugin-gstreamer-renderer"

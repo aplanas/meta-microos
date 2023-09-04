@@ -8,10 +8,10 @@ set didn't fit into EC encoding, so support for Ottoman Turkish \
 had to be dropped to keep compatibility with 8-bit engines."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn58652"
+PV = "2023.209.svn58652"
 
-RPM_NAME = "texlive-hyphen-turkish-2023.208.svn58652-53.1.noarch.rpm"
-RPM_HASH = "9a4c38915d0f3eabd6d2fa68608d56bd1a6afd1dbf9abf0e2aa39863fd34410c0d89fd9376b610e79b123d864c4b156f4faf418aa2436ac83ddc2dcdab9c9625"
+RPM_NAME = "texlive-hyphen-turkish-2023.209.svn58652-54.1.noarch.rpm"
+RPM_HASH = "ddf24a8a9492f6d3993e2f429c3c5dd591cc1b4a5a2a6d2985e53c1aa8bbdef58510cee28a7b9dca4e610ce7f012da076714163ba9a3891683ce517ce674befa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-tr.ec.tex \

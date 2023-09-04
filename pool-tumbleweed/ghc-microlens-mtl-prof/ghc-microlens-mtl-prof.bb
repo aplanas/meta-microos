@@ -4,17 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.0.3"
 
-RPM_NAME = "ghc-microlens-mtl-prof-0.2.0.3-2.2.aarch64.rpm"
-RPM_HASH = "a3c6e560fdb2f10aab56ef52db321d5ba9059a610b4bc7b0fbb72e23c8909b228ba139d65a8dbdf32083b7b6c99a0f1d2473d25edacd8dfdb7af99f2ced4f99d"
+RPM_NAME = "ghc-microlens-mtl-prof-0.2.0.3-2.3.aarch64.rpm"
+RPM_HASH = "8500b056a63a4c780cd1730733a8982acda6dca0e44ca190e7de9b8e847a5a2ad18edbb63f56710b5faafc7d96ab207c7b0e56fd965fb1abe4557dbb7a081979"
 
 RPROVIDES:${PN} += "ghc-microlens-mtl-prof \
-ghc-prof-microlens-mtl-0.2.0.3-50s7aKrmu33tjGZvdN4FV"
+ghc-prof-microlens-mtl-0.2.0.3-Lyey6r2oahMEeZXe0uSI9h"
 
 RDEPENDS:${PN} += "ghc-microlens-mtl-devel \
-ghc-prof-base-4.17.1.0 \
-ghc-prof-microlens-0.4.13.1-ARwI8t2x86cAxRs56XPcG1 \
+ghc-prof-base-4.17.2.0 \
+ghc-prof-microlens-0.4.13.1-4XtL5z7DHHC7UZaR6xNDY3 \
 ghc-prof-mtl-2.2.2 \
 ghc-prof-transformers-0.5.6.2 \
-ghc-prof-transformers-compat-0.7.2-7jAnhjvxTABIymoNGHTOwd"
+ghc-prof-transformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM"
 
 inherit rpm

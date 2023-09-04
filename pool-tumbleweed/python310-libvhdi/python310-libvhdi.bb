@@ -15,8 +15,8 @@ LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
 PV = "20221124"
 
-RPM_NAME = "python310-libvhdi-20221124-3.11.aarch64.rpm"
-RPM_HASH = "29dd633efc57b7842aa09aacbc8e1ceecadeed3191b773dd4c41c74c94f9b12b05e4b1a93cfa5bbef87e03682a683f690ac083a8479ef694514a93b92073c649"
+RPM_NAME = "python310-libvhdi-20221124-4.1.aarch64.rpm"
+RPM_HASH = "26cf9be50dad82f780d1491cd38f0b180a8711a0404e7d78f4ed337dbd43753a30a185c0f0fc09477d99dd9c0a1db23fc7e2bc2ff3a679b2c930ba06f9516515"
 
 RPROVIDES:${PN} += "python310-libvhdi"
 

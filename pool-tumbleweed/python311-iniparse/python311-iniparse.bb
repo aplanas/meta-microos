@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.5"
 
-RPM_NAME = "python311-iniparse-0.5-4.5.noarch.rpm"
-RPM_HASH = "fc4b8c70b652593d82863261f2ba4eff9503b302142a6eb6c603903fa20ef86eb5a8f72f29da6c4f7961199417fed91073977ff0f5000d66c7d7a2b12685b86e"
+RPM_NAME = "python311-iniparse-0.5-5.1.noarch.rpm"
+RPM_HASH = "6b814e975338fc4df0c6a65fbf9d67272f768258ff113f1f65f67d3a5498f83461527c8d140fafe53ab987998d230a6f0f718769947ddf1dc37b4bffd2f6ccf7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-iniparse \

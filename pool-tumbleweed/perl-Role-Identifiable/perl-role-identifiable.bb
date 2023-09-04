@@ -9,8 +9,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.009"
 
-RPM_NAME = "perl-Role-Identifiable-0.009-1.3.noarch.rpm"
-RPM_HASH = "9a47d0a13235d2c0110881f681fbc7cdfe39f9159f908c62e69c180dcd0f728e271d5bc2ee9e2cf9d0ba192891a5a700f57235de8c32adebbf44af0e4c471a3e"
+RPM_NAME = "perl-Role-Identifiable-0.009-1.4.noarch.rpm"
+RPM_HASH = "dc502da74b0476dd2aba7eff967e886204940f477ea28b978903e0e9933ac5e5c8b05e59973ff4abedd4e1560e633a40de1fee2f50b8fb77176848bd0ba63365"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Role--Identifiable \
@@ -18,7 +18,7 @@ perl-Role--Identifiable--HasIdent \
 perl-Role--Identifiable--HasTags \
 perl-Role-Identifiable"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Moose--Role \
 perl-Moose--Util--TypeConstraints"
 

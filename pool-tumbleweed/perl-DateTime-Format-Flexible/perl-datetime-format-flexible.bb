@@ -9,8 +9,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.34"
 
-RPM_NAME = "perl-DateTime-Format-Flexible-0.34-1.10.noarch.rpm"
-RPM_HASH = "d1bccfcd04e00c64286543a0436faec6caed45d0b9be303336b72b6e33193905d8475c4b28e53e59b387916fbca2103a57d91ac447f7b18604bd882e0eded5e3"
+RPM_NAME = "perl-DateTime-Format-Flexible-0.34-1.11.noarch.rpm"
+RPM_HASH = "9c3ff1241a9a685455937b208e62038d772bedecb9877d46d7adb86a84dba401c3577892e9199edc408d46b3fc3d1c434f8fb8ee1b7c3a49396f4c2c6bc7bc2b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DateTime--Format--Flexible \
@@ -20,7 +20,7 @@ perl-DateTime--Format--Flexible--lang--en \
 perl-DateTime--Format--Flexible--lang--es \
 perl-DateTime-Format-Flexible"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-DateTime \
 perl-DateTime--Format--Builder \
 perl-DateTime--TimeZone \

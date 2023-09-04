@@ -5,8 +5,8 @@ LICENSE = "Artistic-2.0"
 
 PV = "3.7.0"
 
-RPM_NAME = "perl-App-Ack-3.7.0-1.2.noarch.rpm"
-RPM_HASH = "dba43046e3378e0c3f98f02915dc81195854cddfb78eab1c9d53b45740b73e3ef4bbc0d6510734f6b5685db992551bd4f170bfb67a0d7b0c2b3b7cf2a12186c8"
+RPM_NAME = "perl-App-Ack-3.7.0-1.3.noarch.rpm"
+RPM_HASH = "acfb48cb665805e53a3353eb5f3e23e2a76069de0ddaf7f35b1c78efc4313f24493adb012bd9cf834e7fc9aca0a06e971e1cda13e58182b42ec0b3df1654c1c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-App--Ack \

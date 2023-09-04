@@ -5,8 +5,8 @@ LICENSE = "Python-2.0"
 
 PV = "2.7.18"
 
-RPM_NAME = "python-xml-2.7.18-36.1.aarch64.rpm"
-RPM_HASH = "f0fedc213bbc5104413ecf19a39e55e74adb2e723d52cdf089a0845bd141f1cd875251030832ef49df10185b099ffe17a976ad3318866e5bab0a356cea9d707d"
+RPM_NAME = "python-xml-2.7.18-37.1.aarch64.rpm"
+RPM_HASH = "e5ebdf3d5aac859a37f609ffffce2bcbe85ac662d70325aed6352ef93bdd0dda86f09faef64b3e221088d61f8b5de8e2a33cc2d2abcc876325ad0110c9c40e8a"
 
 RPROVIDES:${PN} += "python-xml \
 python2-xml \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides several components required to support Full
 Encryption."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.6.6"
+PV = "0.6.8"
 
-RPM_NAME = "fde-tools-0.6.6-2.1.aarch64.rpm"
-RPM_HASH = "e326bdb85d16361328895e1c7bbf125ef82817780f6190f870d4962bddbed98376d9105be25a7bd8d1e22824ea59da0558c9f27ee92ac649d02ed68ce3603958"
+RPM_NAME = "fde-tools-0.6.8-1.1.aarch64.rpm"
+RPM_HASH = "99e030db2305e489bac431f12294e7a3e27dc17f7914557ddf59eedda2145b3a38e0fc6078092f2d98be15b53440def657168c4557ab268dca816df4a52ec07b"
 
 RPROVIDES:${PN} += "fde-tools \
 libcryptsetup-token-grub-tpm2.so"
@@ -20,6 +20,7 @@ libcryptsetup.so.12 \
 libfido2.so.1 \
 libjson-c.so.5 \
 mokutil \
-pcr-oracle"
+pcr-oracle \
+util-linux-systemd"
 
 inherit rpm

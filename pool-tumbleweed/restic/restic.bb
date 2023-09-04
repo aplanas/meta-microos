@@ -3,10 +3,10 @@ DESCRIPTION = "restic is a backup program. It supports verification, encryption,
 snapshots and deduplication."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.15.2"
+PV = "0.16.0"
 
-RPM_NAME = "restic-0.15.2-1.3.aarch64.rpm"
-RPM_HASH = "ebceda8436f1e29cba697d0787602ebb792c01e5d52a813255cd0767d738bce7925e155d3fd0213cda23f2833ebe888d2df5a2e872ee845c94e0d1a0866b1c91"
+RPM_NAME = "restic-0.16.0-1.1.aarch64.rpm"
+RPM_HASH = "1cb5de6281c93e4c1119de1ef39c02a88ec9c4c6933748d911e5f888d8bc8b082b8a6c7d3ccebf076beb64e24e6b53bdb2da9972be569132dd4d228b3b3d1656"
 
 RPROVIDES:${PN} += "restic"
 

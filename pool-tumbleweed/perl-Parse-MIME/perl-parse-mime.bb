@@ -7,13 +7,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.006"
 
-RPM_NAME = "perl-Parse-MIME-1.006-1.3.noarch.rpm"
-RPM_HASH = "47524a59270cd159fd4dcdd2972380872122493e42f6f66c5ff30a2fd8fa89e2e03d21146b932d2a6b6eb02e7edac9b2a4b5f8ffb38d7955d45f5cebaf468d57"
+RPM_NAME = "perl-Parse-MIME-1.006-1.4.noarch.rpm"
+RPM_HASH = "125e63fea69812db80f02fc89d1e7acd89a978d7c11cec02e0cb337cd1f4cd161716ff65505fc76f2b1c9bfba84ec7e16e7e7671407bb49be8dedaeed524fe78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Parse--MIME \
 perl-Parse-MIME"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

@@ -9,10 +9,10 @@ devices directly nor to handle concurrent access, sound output and other \
 tricky aspects of the speech subsystem."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.11.4"
+PV = "0.11.5"
 
-RPM_NAME = "python3-speechd-0.11.4-2.1.aarch64.rpm"
-RPM_HASH = "a9635d61d22b4260cd4cea2c39f9d3cc8fd313034b2b7413dd159c17453572bd97d2c4c5dd5c13f82b0bbd6fcad2827311cf6e7ddcb8e81cc3fb10f87598ffeb"
+RPM_NAME = "python3-speechd-0.11.5-1.1.aarch64.rpm"
+RPM_HASH = "b438e776b6834422361d2ca2dd47c310a1076987f84ea2b403dd9b9ede80c6c86f6b59268926dd4598be7e4746886718b7d65dfd82720c06e6cf00b2dec9a909"
 
 RPROVIDES:${PN} += "python3-speechd"
 

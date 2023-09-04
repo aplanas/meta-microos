@@ -2,10 +2,10 @@ SUMMARY = "Swedish localization files for LibreOffice"
 DESCRIPTION = "Provides Swedish translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.5.4.2"
+PV = "7.6.0.3"
 
-RPM_NAME = "libreoffice-l10n-sv-7.5.4.2-1.5.noarch.rpm"
-RPM_HASH = "9a952020f95dd6133616f77f91e7ad3dabb140c782ee5e9477530bc9f90e2b959877c797a8c603201c2fb8e66c4c587cac4d6ac9dbb6ca305e338c3447940c96"
+RPM_NAME = "libreoffice-l10n-sv-7.6.0.3-1.1.noarch.rpm"
+RPM_HASH = "e5b8deb31795f4ecbe9bd3b13678992053163892bdf7d7bb41788f92adb0410ad33c8606df845be18f18672ee080b946eff576274bee5bfd4b6fb5c93b895081"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-sv \

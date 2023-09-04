@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later & MPL-2.0"
 
 PV = "0.0.3"
 
-RPM_NAME = "librvngabw-0_0-0-0.0.3-1.4.aarch64.rpm"
-RPM_HASH = "c4fc62a4c3cf8d27d8ce0cb233ec02964237ef71050e4b92fa79a1c432e99c6cba97eabbbf0a6d78f0db7471548fc624f8faee54e87e3c020413465cb7fcd61a"
+RPM_NAME = "librvngabw-0_0-0-0.0.3-2.1.aarch64.rpm"
+RPM_HASH = "234562371032148ecd1ae53999def5c8614168dd376670777c367bc04f28c08c8dfc8aa9e56c9d688c23e6bcebd186ab2e8191dad5826f093777d62e118c2351"
 
 RPROVIDES:${PN} += "librvngabw-0-0-0 \
 librvngabw-0.0.so.0"

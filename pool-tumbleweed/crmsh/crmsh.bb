@@ -5,10 +5,10 @@ configuration, management and troubleshooting of Pacemaker-based \
 clusters, by providing a powerful and intuitive set of features."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.5.0+20230725.5d35bb6c"
+PV = "4.5.0+20230809.ddb17a0b"
 
-RPM_NAME = "crmsh-4.5.0+20230725.5d35bb6c-1.1.noarch.rpm"
-RPM_HASH = "f29c90414766b9410e57f16381e8bd2fa49c5d688cfbdee4d6ec0237735e66910112c84857627ecd150bc40f55f2cbfb5723c0fda134333c7ff9d8f004e22d80"
+RPM_NAME = "crmsh-4.5.0+20230809.ddb17a0b-1.1.noarch.rpm"
+RPM_HASH = "e9d93ca2b1bb23d2497560d08630d9298cd3e92d5c8bfe4e28f0e8823d42227b568ecd9a34393e6fa4f2db6cdbe6eaf35a7927cfa4fe412dc1df923ab6b54091"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-crmsh \

@@ -7,10 +7,10 @@ replace the old Azure Service Management (ASM). \
 This package has been tested with Python 2.7, 3.5, 3.6, 3.7 and 3.8."
 LICENSE = "MIT"
 
-PV = "24.0.0"
+PV = "26.0.0"
 
-RPM_NAME = "python311-azure-mgmt-containerservice-24.0.0-1.1.noarch.rpm"
-RPM_HASH = "2355724fd69d9fbe3c123643112217b5f9809d6178db5c1433bd89b191042575ed87cd04a7ba39f7fa81c7a9130d00478cf9826504a6941a33503c6a4e089399"
+RPM_NAME = "python311-azure-mgmt-containerservice-26.0.0-1.1.noarch.rpm"
+RPM_HASH = "c069e40e2d7176a057bcfedc85772a7a408200a8791ad307816e5801efcad456ea73a81938b3ce70f6108362be717aadf4e6fcdc90f864de77fd12f10d28bd9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-azure-mgmt-containerservice \

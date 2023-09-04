@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.4.1.5"
 
-RPM_NAME = "ghc-terminfo-doc-0.4.1.5-3.2.noarch.rpm"
-RPM_HASH = "6489721e83f23ca0233bc731cdf03924330c0a98404ca18628e4f25ecb346fd8cf50c8ab622bebeb24fb6777c64993ff29b92bb3a02dabb30e9702bf2d49f371"
+RPM_NAME = "ghc-terminfo-doc-0.4.1.5-1.1.noarch.rpm"
+RPM_HASH = "fbfb6e3ce27f55387cf5e4320843156640b529a4545c8fe757a085019b247fee4438b1e97e328e081564befbc03404aae3e52c23eb57791283ad13b1f85c2025"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-terminfo-doc"

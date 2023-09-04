@@ -2,10 +2,10 @@ SUMMARY = "Terminal IRC client written in Rust"
 DESCRIPTION = "A terminal IRC client written in Rust."
 LICENSE = "(Apache-2.0 | BSL-1.0) & (Apache-2.0 | ISC | MIT) & (Apache-2.0 | MIT) & (Apache-2.0 | Apache-2.0-with-LLVM-exception | MIT) & (Apache-2.0 | MIT | BSD-2-Clause) & (MIT | Unlicense) & Apache-2.0 & BSD-2-Clause & BSD-3-Clause & CC0-1.0 & ISC & MIT & MIT"
 
-PV = "0.10.0+git14"
+PV = "0.11.0+git7"
 
-RPM_NAME = "tiny-0.10.0+git14-2.2.aarch64.rpm"
-RPM_HASH = "ca96aa364dde9fbd0e103200c44c8472f9f7fb43938fd0faf684182261afbf438a83ffd28ecbffffc247856924500f9928030f7a166754372c1d23ddcbd72c13"
+RPM_NAME = "tiny-0.11.0+git7-2.1.aarch64.rpm"
+RPM_HASH = "4d6b6b95d67e09abf29b1142e2ebff6c347056509b22ec7d13d8192f1269b8a1da5bb96276ef16aed3b778b00f492489af38dac485afea1b968725242d9685d8"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-async-broadcast \
@@ -41,6 +41,7 @@ bundled-rust-crate-dirs-sys \
 bundled-rust-crate-enumflags2 \
 bundled-rust-crate-enumflags2-derive \
 bundled-rust-crate-env-logger \
+bundled-rust-crate-equivalent \
 bundled-rust-crate-event-listener \
 bundled-rust-crate-fastrand \
 bundled-rust-crate-futures-core \
@@ -87,6 +88,7 @@ bundled-rust-crate-rand \
 bundled-rust-crate-rand-chacha \
 bundled-rust-crate-rand-core \
 bundled-rust-crate-regex \
+bundled-rust-crate-regex-automata \
 bundled-rust-crate-regex-syntax \
 bundled-rust-crate-ring \
 bundled-rust-crate-rustc-tools-util \
@@ -101,6 +103,7 @@ bundled-rust-crate-serde-derive \
 bundled-rust-crate-serde-repr \
 bundled-rust-crate-serde-yaml \
 bundled-rust-crate-sha1 \
+bundled-rust-crate-shell-words \
 bundled-rust-crate-signal-hook-registry \
 bundled-rust-crate-slab \
 bundled-rust-crate-socket2 \

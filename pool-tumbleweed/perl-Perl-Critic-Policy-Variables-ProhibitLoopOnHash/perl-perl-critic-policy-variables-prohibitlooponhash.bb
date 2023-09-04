@@ -19,14 +19,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.008"
 
-RPM_NAME = "perl-Perl-Critic-Policy-Variables-ProhibitLoopOnHash-0.008-1.16.noarch.rpm"
-RPM_HASH = "25718503133d464aa621c9b2cdbe553b590faf57e674731c0b195af7426fb3afc817fa8424f446ae9f6eb15320f912de80e4687f7f86c7fcb8d5040f6cb8ad87"
+RPM_NAME = "perl-Perl-Critic-Policy-Variables-ProhibitLoopOnHash-0.008-1.17.noarch.rpm"
+RPM_HASH = "2dc6619796b7cfb169bd23b4138cb5dc8805942f62ae594e854170fe225a6c68e714fab2a83b3ed61ba73b0d051eed319da04e9086e0378d1103d4d166ab02fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Perl--Critic--Policy--Variables--ProhibitLoopOnHash \
 perl-Perl-Critic-Policy-Variables-ProhibitLoopOnHash"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-List--Util \
 perl-Perl--Critic \
 perl-parent"

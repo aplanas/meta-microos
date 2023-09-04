@@ -4,10 +4,10 @@ services. With this tool, multiple AWS services can be controlled \
 from the command line and automated through scripts."
 LICENSE = "Apache-2.0"
 
-PV = "1.27.163"
+PV = "1.29.27"
 
-RPM_NAME = "aws-cli-1.27.163-1.1.noarch.rpm"
-RPM_HASH = "ecc8ddb819ff7c211f4f7d352f911431910bf51f2ff50d8a36bace9a347343c7f22b69925c4cff048418693e787bfc6b789444ddac5af469069469c476f001e9"
+RPM_NAME = "aws-cli-1.29.27-1.1.noarch.rpm"
+RPM_HASH = "79cdaa2afabfbf2a334a10034770da7ecccf382c9ed1c3c1f344701fdf0e10c9adf50af69612a3242b133d158afac8d921de3d9a7a88858a9f60d08d6a570dc0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-cli \

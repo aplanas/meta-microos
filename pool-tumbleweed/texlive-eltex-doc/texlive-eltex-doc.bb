@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.2.0svn15878"
 
-RPM_NAME = "texlive-eltex-doc-2023.209.2.0svn15878-54.1.noarch.rpm"
-RPM_HASH = "0ba47fd6f87e78b613f10b6a34e1a66f4511dfa0f71df2355f492f10e2869e723205a29b297c5beb4159ece1f0857c98b745568dec2a31cdaf7d7f2b626dcdde"
+RPM_NAME = "texlive-eltex-doc-2023.209.2.0svn15878-54.2.noarch.rpm"
+RPM_HASH = "c2fad8f0e8695994d486376459e4f559e442d3920a0230cd2654125c2dce936868bc7ac3ba2eca82bd9646cea6ea107892ddaa84d0414b194000ff9a767d22ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-eltex-doc-en;cs \

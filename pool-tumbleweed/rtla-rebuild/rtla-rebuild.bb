@@ -5,10 +5,10 @@ kernel-default is rebuilt in OBS. \
 There is no reason to install this package."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.6"
+PV = "6.4.11"
 
-RPM_NAME = "rtla-rebuild-6.4.6-5.10.aarch64.rpm"
-RPM_HASH = "39d83d255dbb69ef60808dfada7af3ad05691f7a3be172deb83a9f5bf3adb960c0ca55692c04054d1cf977b32f0d1d14fb864c9b86fbb7c5bde3166c666c4a28"
+RPM_NAME = "rtla-rebuild-6.4.11-5.13.aarch64.rpm"
+RPM_HASH = "47a0735aa8fa955581c4b74e30b94895ef867768e4ca29e58f10cbd93bbb227403eb97d0f1b4fa7eb6ca8c79d10a20ad4fbc7d6a5d33efb6621e5e218edd5090"
 
 RPROVIDES:${PN} += "rtla-rebuild"
 

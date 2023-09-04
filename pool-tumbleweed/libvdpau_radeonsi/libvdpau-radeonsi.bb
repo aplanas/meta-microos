@@ -2,10 +2,10 @@ SUMMARY = "VDPAU state tracker for radeonsi"
 DESCRIPTION = "This package contains the VDPAU state tracker for radeonsi."
 LICENSE = "MIT"
 
-PV = "23.1.4"
+PV = "23.1.5"
 
-RPM_NAME = "libvdpau_radeonsi-23.1.4-354.1.aarch64.rpm"
-RPM_HASH = "adc7344e250b10c45731d5bf5c61c85cb6c92a20ad06eca13ec5956078336d3a122ae97adbfcde12d60560812366722d1f56b5ed5684d251f39e0bf88e8dcd7f"
+RPM_NAME = "libvdpau_radeonsi-23.1.5-355.1.aarch64.rpm"
+RPM_HASH = "02977ec731cc42f889791d4219869257da389e019ea32f1d629a5b39d6037b21472f3d4444858ec6ba6fe5c629906c7e8c6c5199494e7c25fde116a5fd74bc12"
 
 RPROVIDES:${PN} += "libvdpau-gallium.so.1.0.0 \
 libvdpau-radeonsi"

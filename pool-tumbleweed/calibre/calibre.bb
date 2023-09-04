@@ -6,10 +6,10 @@ metadata for books. It can download newspapers and convert them \
 into ebooks for convenient reading."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.21.0"
+PV = "6.25.0"
 
-RPM_NAME = "calibre-6.21.0-1.2.aarch64.rpm"
-RPM_HASH = "786a33f20015fe6666a7ab3e398dc7183c190370e943eede21a13844c39e7386e589b9ec0bdea42dd9613d608fce9a319e93aa494066d6e1a35e456708f071ef"
+RPM_NAME = "calibre-6.25.0-1.1.aarch64.rpm"
+RPM_HASH = "76f2d9303707ee92a3ad3c5b947072792a832a11fdb435c06e007c1dfc312f7403ab4e15b0c66d739c8e75e842ecd8c61e307a25cdd9546f68de5ea482148108"
 
 RPROVIDES:${PN} += "calibre \
 libheadless.so \
@@ -17,11 +17,12 @@ libmtp.so \
 libusb.so"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/python3 \
+/usr/bin/python3.11 \
 bzip2 \
 chmlib \
 expat \
 findutils \
+ld-linux-aarch64.so.1 \
 libQt6Core.so.6 \
 libQt6Gui.so.6 \
 libQt6Widgets.so.6 \
@@ -38,8 +39,9 @@ libm.so.6 \
 libmtp.so.9 \
 libmtp9 \
 libpng16-16 \
-libpodofo.so.0.9.8 \
+libpodofo.so.2 \
 libpython3.11.so.1.0 \
+libsqlite3-0 \
 libstdc++.so.6 \
 libstemmer.so.0d \
 libuchardet.so.0 \

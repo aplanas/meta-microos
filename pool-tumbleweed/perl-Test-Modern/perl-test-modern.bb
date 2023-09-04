@@ -17,14 +17,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.013"
 
-RPM_NAME = "perl-Test-Modern-0.013-1.12.noarch.rpm"
-RPM_HASH = "acee7a8b8af27fbf0222e5ae74e7dca472fc9c294aeca38d7c49e54ae97dda481c792f1706cddaa28c326385274318975cd0f3c1b1f57f8f571b5e38d5cf0c8e"
+RPM_NAME = "perl-Test-Modern-0.013-1.13.noarch.rpm"
+RPM_HASH = "bb3b2f2a2cd779fcd0c49823652a71cc4611c0f0628f8deb6f53568efa2a65d07dcd075606bcc195c67691e81bc6e0c44f666b19138333e5894b86b3cc3adb35"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Modern \
 perl-Test-Modern"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Exporter--Tiny \
 perl-Import--Into \
 perl-Module--Runtime \

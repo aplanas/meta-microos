@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "9.28.0"
 
-RPM_NAME = "dcraw-lang-9.28.0-2.8.noarch.rpm"
-RPM_HASH = "4d01228bc728577bf893ebaefe852e7e00ea6eda2aa006137a32dcc07c3d6a402a98e3fcaf9a81c693d868249fed338f105f2abd2beafac09f6413dea452356d"
+RPM_NAME = "dcraw-lang-9.28.0-3.1.noarch.rpm"
+RPM_HASH = "0f29b6121e0fbb604ca75fe625307fb39cab92fa7feb3ce4c56dfa4843feea81981b998a9ee280ea58a7a1bce6bc039059e72353986e95194e1f1a09a1c6b473"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dcraw-lang \

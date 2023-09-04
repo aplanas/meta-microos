@@ -7,14 +7,14 @@ LICENSE = "Artistic-2.0"
 
 PV = "5.0.7"
 
-RPM_NAME = "perl-Minion-Backend-SQLite-5.0.7-1.3.noarch.rpm"
-RPM_HASH = "5511bb08d15b5734f01985e22cedc7b81ad1d29d5168b761f3bf6382251310a3f213e35afe7ed42caf2e66aa33bd074486522218dd306db7b220d64a74c4a106"
+RPM_NAME = "perl-Minion-Backend-SQLite-5.0.7-1.4.noarch.rpm"
+RPM_HASH = "6f2262e95df585eeebbb321c8cba48f51f11e18ab7e21324d080a2adb2da5aeab141049c4a7637a36a06f69e7b8700b6e769eba026093c6ca2681115d83e821d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Minion--Backend--SQLite \
 perl-Minion-Backend-SQLite"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Minion \
 perl-Mojo--SQLite \
 perl-Mojolicious"

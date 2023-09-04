@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn64487"
 
-RPM_NAME = "texlive-graphics-def-doc-2023.209.svn64487-54.1.noarch.rpm"
-RPM_HASH = "50ff6a225f22e15930c5552e36dfa2adf15afcd134de423c701d6ab413ff5ce64209e84c05657db36ee7ac81898c4b246202953a81be3cb694530d27f7d5c69c"
+RPM_NAME = "texlive-graphics-def-doc-2023.209.svn64487-54.2.noarch.rpm"
+RPM_HASH = "ec911f7519ed29f4e905453868b16556343d33b5f8271d136e7fbb53b3a20af088ddb349b61c85e9f51372893834a77928dea143cfcdbce8cb33900a5eacd43b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-graphics-def-doc"

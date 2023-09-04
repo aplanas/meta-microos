@@ -9,10 +9,10 @@ parsed), it will validate this input and generate a PEP 643-compliant metadata \
 file (e.g. `PKG-INFO`)."
 LICENSE = "MIT"
 
-PV = "0.6.1"
+PV = "0.7.1"
 
-RPM_NAME = "python39-pyproject-metadata-0.6.1-3.3.noarch.rpm"
-RPM_HASH = "a7e31a26eff58c66f58447637598a98b02e1480f31d474c77e075e4840d2df36642650f85fd8dfc8ff608a78c2bdc8725d69851a14866676b1b9fec8c5cbd3bd"
+RPM_NAME = "python39-pyproject-metadata-0.7.1-1.1.noarch.rpm"
+RPM_HASH = "438a64c2fa16dd64eea7c62161775dba0b7c26629324d48d941ec50a4f5929d8d45f1e94bb404313a3694505625244a5d17d67d9d1d370c60fa4cd8aa5a755e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyproject-metadata \

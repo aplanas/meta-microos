@@ -1,12 +1,12 @@
 SUMMARY = "Configuration file for keylime"
 DESCRIPTION = "Subpackage of keylime for the shared configuration files for the agent \
 and the server components."
-LICENSE = "Apache-2.0 & MIT"
+LICENSE = "Apache-2.0 & MIT & BSD-3-Clause"
 
-PV = "7.3.0"
+PV = "7.4.0"
 
-RPM_NAME = "keylime-config-7.3.0-1.1.noarch.rpm"
-RPM_HASH = "d91c33bca90ba3a804aa79317a22eb77d54b7e9f078d20c24871abddb2c79180003ef479c215cfda96283ae1751650586cec6e2487c5c452e5c77f8b34692c07"
+RPM_NAME = "keylime-config-7.4.0-1.1.noarch.rpm"
+RPM_HASH = "a4f3ea0b529dbd2e6a64d835d557eca1ee2c6fab45d211130aeb3c9b700f4b1ec738013a4faa6c203047b558bf002f44c5e6dd451174450cb1e4c36da4128ec9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keylime-config"

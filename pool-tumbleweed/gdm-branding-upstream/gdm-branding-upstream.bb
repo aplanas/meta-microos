@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.1"
 
-RPM_NAME = "gdm-branding-upstream-44.1-2.1.noarch.rpm"
-RPM_HASH = "ef2a5febc378995946683a02f2832085f33a0c77820bdf26062ce9a75b7bf58015b863de97d2178de0e64fbc7ec831d72d356114591809ea79f16ad6b474c2ff"
+RPM_NAME = "gdm-branding-upstream-44.1-3.1.noarch.rpm"
+RPM_HASH = "17f4a29ece5a941299ac57c40de26675732e8dfc1bd8c02e0712f45cefa1d4c405c27ff0d1732280acbae9b34e223608b8c5b04c184fa70a28760c021aac34b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-gdm-branding-upstream \

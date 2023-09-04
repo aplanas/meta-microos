@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.14.3"
 
-RPM_NAME = "ghc-QuickCheck-doc-2.14.3-1.3.noarch.rpm"
-RPM_HASH = "822f8db37fe89d721985fcb114b8f4a0fbc11f12615038d4c2fd1847b06c001417ad05be9e2fd40493bef821411bd4f174fa04cb197aff13acecf76dcc67e420"
+RPM_NAME = "ghc-QuickCheck-doc-2.14.3-1.5.noarch.rpm"
+RPM_HASH = "43ec867aa4995866fd9224de35f513ba5aacbbb71f4b510bd3b38aa4b8c97eb49669e143406e5f790c8976e623a5a54530c279a9d3b561e5b2b2443f7f6afe0f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-QuickCheck-doc"

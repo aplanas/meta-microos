@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.1svn29660"
 
-RPM_NAME = "texlive-xecolor-doc-2023.209.0.0.1svn29660-53.1.noarch.rpm"
-RPM_HASH = "8c8bf10fbcdf27e739d3791c5b7f8c0fe0a4792d0944a53ca82a80cbe3c1787805de9853e56e191df3476284347015da42a1e2a7fab0fe16c30d46d1273ace4b"
+RPM_NAME = "texlive-xecolor-doc-2023.209.0.0.1svn29660-53.2.noarch.rpm"
+RPM_HASH = "ae3bcb9dc94d9809f73e89f4ae676211e2bf454bc08d9713c9c3eaa23f6b1e9a52f2e2169892f0132b4208b54307a5295c909d22c9cf48708462d1c453f2b52e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xecolor-doc"

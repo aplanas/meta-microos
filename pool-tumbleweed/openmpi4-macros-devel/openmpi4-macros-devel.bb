@@ -1,11 +1,11 @@
-SUMMARY = "Macros for openMPI version 4.1.4"
-DESCRIPTION = "Macros for building RPM packages for OpenMPI version 4.1.4."
+SUMMARY = "Macros for openMPI version 4.1.5"
+DESCRIPTION = "Macros for building RPM packages for OpenMPI version 4.1.5."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.1.4"
+PV = "4.1.5"
 
-RPM_NAME = "openmpi4-macros-devel-4.1.4-2.4.aarch64.rpm"
-RPM_HASH = "ccf7fbc5e27234acbda7a3cbaaa21e893b35f23ad4779e4bf8ffb68bad1c3577c92c9527920a48c52f689d342265110cad92527425dcfa118936c6b0f5999cbd"
+RPM_NAME = "openmpi4-macros-devel-4.1.5-2.1.aarch64.rpm"
+RPM_HASH = "6676e64902632a6cdb54839ab31827985f17fc470f318b95a851e1dad2589f02da2b59c39b0cde59c084e967f6b6d3e730b8a5b95343af4dd22bea746e6a7871"
 
 RPROVIDES:${PN} += "openmpi-macros-devel \
 openmpi-macros-provider \

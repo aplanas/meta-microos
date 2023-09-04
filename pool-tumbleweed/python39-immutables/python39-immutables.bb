@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.19"
 
-RPM_NAME = "python39-immutables-0.19-3.1.aarch64.rpm"
-RPM_HASH = "983082b798a05159e54f95008974c8c905f8ec659a59f96a384f7fb027a9175bb6edb8d290a2193caa8c04b931a711a679e2a00a761fb884e90a73cb48ee1a61"
+RPM_NAME = "python39-immutables-0.19-4.1.aarch64.rpm"
+RPM_HASH = "781afeaa241232b158328d3aca06229f294ce94f72e9b7aca8ff12dcbb027f2c15b00c4b9d50653a4516049525ac602be80d0e3a5a74582de0ec60f24dbe148e"
 
 RPROVIDES:${PN} += "python3.9dist-immutables \
 python39-immutables \

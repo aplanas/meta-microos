@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.0svn54080"
 
-RPM_NAME = "texlive-xechangebar-doc-2023.209.1.0svn54080-53.1.noarch.rpm"
-RPM_HASH = "c903100ac162fb77ca911aa164cd666957c229ce8760deb9ebb40fced4e0cd5af74f4a0537452d8a5b1850a2edc2c9d5d03fa60b62b1a4b61c2bd8037edc2777"
+RPM_NAME = "texlive-xechangebar-doc-2023.209.1.0svn54080-53.2.noarch.rpm"
+RPM_HASH = "528d3258e331dc584941aa1a624a779ef49ae4fb72668193dbdcc023a95f148ba24bcc6dcd7d3942ff1a633cb3946ca5f68a045611f5fb9788893f21959b8af4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xechangebar-doc"

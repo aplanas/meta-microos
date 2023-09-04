@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.39.1"
 
-RPM_NAME = "libblkid-devel-static-2.39.1-1.1.aarch64.rpm"
-RPM_HASH = "4e2383a49490506ab5dea1469aa19a042a38e8a43595a5411d50b6cdad9bbfac8f0e83253c886ab5010e75d5225552eecc0c440716c66833495f48501ebf8b4e"
+RPM_NAME = "libblkid-devel-static-2.39.1-3.1.aarch64.rpm"
+RPM_HASH = "a2dc752c519a24563b858ad682be8daf93c80403687750e782e4679b55eeb15a9862537af8bb1b3656d1459a05face6dfd9022aaa15d3afb507937f722b3ead1"
 
 RPROVIDES:${PN} += "libblkid-devel-static"
 

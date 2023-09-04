@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.13.10.0"
 
-RPM_NAME = "ghc-glib-doc-0.13.10.0-1.3.noarch.rpm"
-RPM_HASH = "210955b20d18b1a1aa49ed3bd3495f337ed351c94c6f73a76475854cf5126e417d1792a16f1f5fa88ed7c23359fd49e76c2b8aea8962b27692c6dc8f6ffcc2d4"
+RPM_NAME = "ghc-glib-doc-0.13.10.0-1.6.noarch.rpm"
+RPM_HASH = "b7bbc8dfdadd27367096426a474d7beaa8ba9d457c0b0b9e2ec269cff15df11f1665cf69056ebbf580716d7f455a7a3638a9a2782b3e31443a341a3da54f5869"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-glib-doc"

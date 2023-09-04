@@ -5,10 +5,10 @@ kernel modules is generated as well, but further kernel modules can be \
 loaded during build when installing the kernel package."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.6"
+PV = "6.4.11"
 
-RPM_NAME = "kernel-obs-build-6.4.6-1.1.aarch64.rpm"
-RPM_HASH = "ee6984b3123999e4178bde36596abc7c63ccd1536c50ee7955778c4a054b328faa9062910204cf18313007c02d353a1fd6eba577ca333b5d01cf534c73426bd1"
+RPM_NAME = "kernel-obs-build-6.4.11-1.2.aarch64.rpm"
+RPM_HASH = "81b15cb71a64cb12308b878caf4514ff5f4499ba07d9467082d0d0fa3ea1b922211360296fa43c8ffce40ebdbb04ac0f035a84313ec852a9060c6726493f2eae"
 
 RPROVIDES:${PN} += "kernel-obs-build"
 

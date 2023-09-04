@@ -11,10 +11,10 @@ This package includes the following console tools: \
   sediff          Semantic policy difference tool"
 LICENSE = "GPL-2.0-only"
 
-PV = "4.4.2"
+PV = "4.4.3"
 
-RPM_NAME = "setools-console-4.4.2-2.1.aarch64.rpm"
-RPM_HASH = "e391bf4c1e6a5ab12a2d273c828e2679c78ef9cf01ea5bc745db46863f2b6f60aa8cd4e62f59ee1d89382be85805d1e6fa21207c1d1be708ea9af67be639a9f9"
+RPM_NAME = "setools-console-4.4.3-1.1.aarch64.rpm"
+RPM_HASH = "3bd17879adfc3a3c586c3f8f3fe64cfb2f79d0c299af09d45eeb5da16e39827bc049c06d7979530f17212e6c0979d7dc9dc0483dc1c99bbd351ad178c3bc6803"
 
 RPROVIDES:${PN} += "setools-console"
 

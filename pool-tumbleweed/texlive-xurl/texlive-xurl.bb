@@ -8,8 +8,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.0.0.10svn61553"
 
-RPM_NAME = "texlive-xurl-2023.209.0.0.10svn61553-53.1.noarch.rpm"
-RPM_HASH = "f0c1e7f378b7152622cf5c7b459bd8e1be5e002381f79ec16f52bfb223f1a6ceed017072a1c3108ca6ad34c7b5a027836848bc59e10a82d8b78b95709e99d5ef"
+RPM_NAME = "texlive-xurl-2023.209.0.0.10svn61553-53.2.noarch.rpm"
+RPM_HASH = "20afd63b5cc3f72f9d860834b4ea7e88c452b545162bff4eb98516d457e6f1ba2f72a7d9fc3b2d4df8a123b1ad580abf5ef5d5ee3e781ef3be5531e5c294c671"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xurl.sty \

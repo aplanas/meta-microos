@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.2.5"
 
-RPM_NAME = "pcp-pmda-docker-5.2.5-3.7.aarch64.rpm"
-RPM_HASH = "d197425be58391bf2546268f17d6401a9b4574409e02ca92ec874b95f5929a89ae08acd3c8e201053bf96766ceaaabccf6283e45efc93ccb86548e7b6ff0622a"
+RPM_NAME = "pcp-pmda-docker-5.2.5-3.8.aarch64.rpm"
+RPM_HASH = "ce3508c509727b225ecdcd5b4822b8a035b0ffa456554a5327357a9f36e45826ce93018f4556525fc5d965aa3206fd412225454948f8c6c949f0e37f4f8cafd1"
 
 RPROVIDES:${PN} += "pcp-pmda-docker"
 

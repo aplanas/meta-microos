@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.6.2"
 
-RPM_NAME = "ghc-profunctors-doc-5.6.2-4.6.noarch.rpm"
-RPM_HASH = "8a24014564836d13d2d630ed3527d2becfd3d04362c95dec1a94233431461ab27df71d05b111345854d7c373c3b6537ee7f4a161855ab0fd98fa582f1782e628"
+RPM_NAME = "ghc-profunctors-doc-5.6.2-4.9.noarch.rpm"
+RPM_HASH = "ab55d3e82383bdfc5b5382d4ba87f6c8fd1fbdc431658fdecffc089ef65c27eeadd9358128c4c72ff435e8043091d6f24add6a5fe5a5852f3f190186fd6fa1aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-profunctors-doc"

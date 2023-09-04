@@ -9,10 +9,10 @@ devices directly nor to handle concurrent access, sound output and other \
 tricky aspects of the speech subsystem."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.11.4"
+PV = "0.11.5"
 
-RPM_NAME = "speech-dispatcher-0.11.4-2.1.aarch64.rpm"
-RPM_HASH = "e8c10d409de103139dd65083371c6e984f0761abe43ff38d4e98f4b4124cd1593381c3379b61001fd82c5167fd47d24d3f320b507ff268c373b2c6b9f9d54bc6"
+RPM_NAME = "speech-dispatcher-0.11.5-1.1.aarch64.rpm"
+RPM_HASH = "faf038e50d4f59ca58f7e9ffde61476f1b14628958d40cfef31ee4c0a48b4b86349b16ed6f3300b41c157bfe798d6b07e2df971eb8a387dbb25a38a1fe247abf"
 
 RPROVIDES:${PN} += "config-speech-dispatcher \
 speech-dispatcher \

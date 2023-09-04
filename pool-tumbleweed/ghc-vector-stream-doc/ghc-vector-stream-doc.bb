@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0.0"
 
-RPM_NAME = "ghc-vector-stream-doc-0.1.0.0-2.2.noarch.rpm"
-RPM_HASH = "8bf0518430e57e360b24f10462998dc9230241a54960875439361fd9b02767aefdc983959071a1d5f779546398054a72197ee6851d6fe2fac987f975ccdf9905"
+RPM_NAME = "ghc-vector-stream-doc-0.1.0.0-3.1.noarch.rpm"
+RPM_HASH = "753bebf55e5afc8176589d6ac81394a29c1e02caaac441e4c1d8fd56373a7f2e11b8ca5005367651ed800f4213f034ffada8b7ba8e0042da2134cb532c9fdf1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-vector-stream-doc"

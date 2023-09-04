@@ -11,14 +11,14 @@ LICENSE = "Artistic-1.0"
 
 PV = "1.1"
 
-RPM_NAME = "perl-Unix-Syslog-1.1-20.38.aarch64.rpm"
-RPM_HASH = "7147b821c224037c5e3bafc39ad2d4dfeb2ad968c0422b2f208878c84b917ca3d015b3891ef69b6d233e586ed136b3d9c6bdaf4ae5f612d6c2a3fe85340cead2"
+RPM_NAME = "perl-Unix-Syslog-1.1-20.39.aarch64.rpm"
+RPM_HASH = "6d47cac4b6f2e8eeb1a144329e7f328ed690c1b992219751769b6a9cac6007804a651e083178c6ad652d5715d142829fc8dd44b1312934077539b71c35766c98"
 
 RPROVIDES:${PN} += "perl-Unix--Syslog \
 perl-Unix-Syslog"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

@@ -14,13 +14,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.32"
 
-RPM_NAME = "perl-PerlIO-via-Timeout-0.32-1.25.noarch.rpm"
-RPM_HASH = "6b4875f00bcc090b783996027fb46f5045cb278db7bc68c04b1fd55ce2dbb5783f554eebec84f89e513adb24f485b1361b167a16442d3c142c740c71e727ce7c"
+RPM_NAME = "perl-PerlIO-via-Timeout-0.32-1.26.noarch.rpm"
+RPM_HASH = "57cb8f9f15b5055f6e938871faa02aa95562d91d89612b01054b72ba69920d86e9c6540741d644ed80e8c7b57bab124d97374fa71e1284b1e64f53797b54bb40"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-PerlIO--via--Timeout \
 perl-PerlIO-via-Timeout"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

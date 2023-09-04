@@ -5,10 +5,10 @@ This package contains header files and development libraries needed \
 to develop applications using the belcard library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.16"
+PV = "5.2.98"
 
-RPM_NAME = "belcard-devel-5.2.16-1.4.aarch64.rpm"
-RPM_HASH = "25df09531f21e891445514b9cef3ec7a2166f19042f86b7927afb82415f31b1d0514436d68893bdad9c23f2089136c2b75ced953c6028ad99470e27a667f9a5f"
+RPM_NAME = "belcard-devel-5.2.98-1.1.aarch64.rpm"
+RPM_HASH = "c1d157766260ac7ecdb3806ba04af6578206b7bd0ae448dfc14c691fa6aec4642f31504e11d01ee6b3c681c44607e999604372c31ccb9912717de3ac3d551d3e"
 
 RPROVIDES:${PN} += "belcard-devel \
 pkgconfig-belcard"

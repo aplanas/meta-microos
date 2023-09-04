@@ -21,8 +21,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.17"
 
-RPM_NAME = "perl-WWW-Mechanize-2.17-1.2.noarch.rpm"
-RPM_HASH = "a2863c353e5b9b28762dc478d8e1e13d9a6f33de866d4c23bdea9056d9a361ab9ef02945ace87a4c6724808b610fed4cacf1a6f7257a6db3aea565ea0f68c9c6"
+RPM_NAME = "perl-WWW-Mechanize-2.17-1.3.noarch.rpm"
+RPM_HASH = "b8f1e29e4291d29c950a74786850c0c10687a22df0c5a94e318c6259707da6e907e46deba3b0fb16f8d9ceadaf3f7e5343b4bce0898768689e9623aff8663970"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-WWW--Mechanize \
@@ -31,7 +31,7 @@ perl-WWW--Mechanize--Link \
 perl-WWW-Mechanize"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.36.1 \
+perl--MODULE-COMPAT-5.38.0 \
 perl-HTML--Form \
 perl-HTML--HeadParser \
 perl-HTML--TokeParser \

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 & BSD-3-Clause & SUSE-Public-Domain"
 
 PV = "2.29.5111.102"
 
-RPM_NAME = "mozc-gui-tools-2.29.5111.102-1.1.aarch64.rpm"
-RPM_HASH = "1793dada54dc6c26c65b961dd269391a27ff403050b776f1066a2b82023bcd372fb9a5c6d18f781f82c1b58b566e1e3c7f35302a152284057086e9c3baf4d208"
+RPM_NAME = "mozc-gui-tools-2.29.5111.102-2.1.aarch64.rpm"
+RPM_HASH = "c3e48ebbe1eb08dcbc362a2b583a8da958bbaa553174170797c79154729e5579bb08431a9fc5aabfb6959cbb350f93e15703ba719641a34f8648392a69ad36aa"
 
 RPROVIDES:${PN} += "mozc-gui-tools"
 

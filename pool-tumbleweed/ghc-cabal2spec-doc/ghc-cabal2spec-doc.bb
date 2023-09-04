@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.7.0"
 
-RPM_NAME = "ghc-cabal2spec-doc-2.7.0-1.4.noarch.rpm"
-RPM_HASH = "8df7cc0da3c6c8119ba6e6fff532db3225b751e68f4bf5fc67c95cbbe8a8aa2e39117a2ab0fbf36c4919d911d5cfcdeadd91972de5be8d14a0e5ffcbfe41207e"
+RPM_NAME = "ghc-cabal2spec-doc-2.7.0-1.5.noarch.rpm"
+RPM_HASH = "bbfbbbd9246f7747ac60dfcd78e5f7501b72d85018a0ec7cc69d12e6a854858778968908256902c4b4c7984defd8ad629be0f79af93984351dd4e9b042cce862"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-cabal2spec-doc"

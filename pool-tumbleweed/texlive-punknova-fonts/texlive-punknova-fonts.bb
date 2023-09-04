@@ -4,8 +4,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.1.003svn24649"
 
-RPM_NAME = "texlive-punknova-fonts-2023.209.1.003svn24649-54.1.noarch.rpm"
-RPM_HASH = "1d956b27f977d05dd8edb819fa95e4df6956f5bd55f21e00c01cbad248615bc945d6daaf4474613ae16ccecbcd588838d9c832f2d395f67f3a80eb9ea426598c"
+RPM_NAME = "texlive-punknova-fonts-2023.209.1.003svn24649-54.2.noarch.rpm"
+RPM_HASH = "bfaa053a4cf6e84338364976577491578e1c31b34017b4acd6beef95194cd90b7d19eef12e4f3d6dbe20b501b800cc2e65e12cda359cc7d5ccd87513533c3dcd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=fj \

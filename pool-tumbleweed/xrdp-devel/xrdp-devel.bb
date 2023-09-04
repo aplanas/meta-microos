@@ -2,10 +2,10 @@ SUMMARY = "Development files for xrdp"
 DESCRIPTION = "This package contains the development headers for xrdp."
 LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
-PV = "0.9.20"
+PV = "0.9.22.1"
 
-RPM_NAME = "xrdp-devel-0.9.20-8.1.aarch64.rpm"
-RPM_HASH = "088cdfe3817aa3c5018aab80ef6031bde5348fd4facb27fc51b85e907c5b8fa02ee8760494c32b70f05dda372a65a91860f8c797c0e20e7ecc50d8fb7d4362cc"
+RPM_NAME = "xrdp-devel-0.9.22.1-1.1.aarch64.rpm"
+RPM_HASH = "06f1959c762340895ca6a71e71a0fca5b04426ab8b8de27f8a998a2bb152f62d04851235199447532f69191ad822bacedb391bb87e531cf2d075f71af113a9a9"
 
 RPROVIDES:${PN} += "pkgconfig-libpainter \
 pkgconfig-rfxcodec \

@@ -31,8 +31,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.17"
 
-RPM_NAME = "perl-IO-Tty-1.17-1.3.aarch64.rpm"
-RPM_HASH = "4c1c6b93c585cc43fdb56cffa62e7e0f9162fdc17fbb2d15ca0fcecb2ed92d6594873e81587faf00ce13e3ac8673a1efab7c6f0e2bed691ab765a5ad44ed0ece"
+RPM_NAME = "perl-IO-Tty-1.17-1.4.aarch64.rpm"
+RPM_HASH = "3b89dd47fc8ef916a79217d33c78de2c3827161433408f14b4c29f6bf4fbca36265546680c0554c3c173448c5057d909d87f35443dae75bf8ee2285910807fd2"
 
 RPROVIDES:${PN} += "perl-IO--Pty \
 perl-IO--Tty \
@@ -41,6 +41,6 @@ perl-IO-Tty"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.36.1"
+perl--MODULE-COMPAT-5.38.0"
 
 inherit rpm

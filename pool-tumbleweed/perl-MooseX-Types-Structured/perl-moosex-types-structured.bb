@@ -16,14 +16,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.36"
 
-RPM_NAME = "perl-MooseX-Types-Structured-0.36-1.21.noarch.rpm"
-RPM_HASH = "843fd56e7ae809fc589e22ef88b9ab1b37c3045fe263c2a41bef766e6a42d733db21d587073f4e6a33f52e0f84746b92e65213dd28d1e2ca536d42c7f3a5e0e8"
+RPM_NAME = "perl-MooseX-Types-Structured-0.36-1.22.noarch.rpm"
+RPM_HASH = "0c0a301e981aaae5c1c8b381640284591bae8571491be9a4c980162d601b8da4621b7021d48a5279e095c69994fee5741fa22fbd1cb12ab91feb0f62c607dbea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Types--Structured \
 perl-MooseX-Types-Structured"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Devel--PartialDump \
 perl-Moose \
 perl-Moose--Meta--TypeCoercion \

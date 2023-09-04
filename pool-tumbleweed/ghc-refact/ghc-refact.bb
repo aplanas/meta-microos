@@ -6,15 +6,15 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.0.2"
 
-RPM_NAME = "ghc-refact-0.3.0.2-4.2.aarch64.rpm"
-RPM_HASH = "89b9b25537b8c88ca22a5e06528a04733af5b6484d5fcf64ed0691de00cb62dffa2cbd3ff74e662733034067f0ede4ea0d653d9af4213fd021fe2ad1c5236aad"
+RPM_NAME = "ghc-refact-0.3.0.2-4.3.aarch64.rpm"
+RPM_HASH = "c3607afa3410d8b2e5c4195e1f81d269a2b8065f85f080744a6693ceb483f6ddc32c6e872405fa196818b1aea2c5336e85ee4a82e69bb79578b0c2180405f174"
 
 RPROVIDES:${PN} += "ghc-refact \
-libHSrefact-0.3.0.2-4ZnrxSKFCNFLIgjtpZGW26-ghc9.4.5.so"
+libHSrefact-0.3.0.2-BDNu2wr6P751Tb9dT06Yg8-ghc9.4.6.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.1.0-ghc9.4.5.so \
-libHSghc-bignum-1.3-ghc9.4.5.so \
-libHSghc-prim-0.9.0-ghc9.4.5.so \
+RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
+libHSghc-bignum-1.3-ghc9.4.6.so \
+libHSghc-prim-0.9.1-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

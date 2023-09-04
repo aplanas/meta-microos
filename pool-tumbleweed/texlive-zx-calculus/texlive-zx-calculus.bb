@@ -9,8 +9,8 @@ LICENSE = "LPPL-1.0"
 
 PV = "2023.209.svn60838"
 
-RPM_NAME = "texlive-zx-calculus-2023.209.svn60838-53.1.noarch.rpm"
-RPM_HASH = "8aea563c3e2b54be5e5689e92248cfc89d9e8b94a30eb3743e99482630086c06ceba2031adadb018143221de3fc678c109eb64db6790a66640d4911f388fa971"
+RPM_NAME = "texlive-zx-calculus-2023.209.svn60838-53.2.noarch.rpm"
+RPM_HASH = "b766d7a2b92aef3bd9cb14686c7b586f9026a88a596a6640dfde584ef9b90285fd57260ec91389d724fc567ad1289363a2e76a9561d0f1444ea7f592c928e33d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzlibraryzx-calculus.code.tex \

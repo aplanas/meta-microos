@@ -5,10 +5,10 @@ first boot of an appliance. The tools are not meant to be used \
 outside of the scope of kiwi appliance building."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "9.24.61"
+PV = "9.25.12"
 
-RPM_NAME = "kiwi-tools-9.24.61-1.2.aarch64.rpm"
-RPM_HASH = "4c55cd01ba3eea2306c2eed2e5eebfce5c8bc12ea8e47df540d710d0d0aaf0f498220db0d9822e9e2d67354ab1a7f562cceba9c15ce87d2631d549a49fd9a428"
+RPM_NAME = "kiwi-tools-9.25.12-1.1.aarch64.rpm"
+RPM_HASH = "c59be77bdba4c97bebb2d0cbb387e3d0a18953736f22b4326ec5c31021db5d5938074d67e509972ab5a85684f59780d0ba266f44300b4cc2b2ab77bc9b575439"
 
 RPROVIDES:${PN} += "kiwi-tools"
 

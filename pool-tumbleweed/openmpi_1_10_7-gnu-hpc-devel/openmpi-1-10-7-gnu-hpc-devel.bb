@@ -17,8 +17,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.10.7"
 
-RPM_NAME = "openmpi_1_10_7-gnu-hpc-devel-1.10.7-7.6.aarch64.rpm"
-RPM_HASH = "4f3dc125019fe6ffd8301fcf78569bb0d907d7406e59795f63d0b5c886a288aefd4ffd3f7af7539221bab089dab59774e5918c20eff92165038a8729dbc92946"
+RPM_NAME = "openmpi_1_10_7-gnu-hpc-devel-1.10.7-8.1.aarch64.rpm"
+RPM_HASH = "ac4a366dc7485152d0d511791968f25953aac3d4ccd1a4f4693b4d7fe59832293328b5fb2deae903f749422d9b02a0ed15d4529837285ce42f3d32f524ff14a8"
 
 RPROVIDES:${PN} += "openmpi-1-10-7-gnu-hpc-devel"
 
@@ -26,6 +26,7 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 gnu-compilers-hpc-devel \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
+libfabric.so.1 \
 libgcc-s.so.1 \
 libgomp.so.1 \
 libibumad-devel \

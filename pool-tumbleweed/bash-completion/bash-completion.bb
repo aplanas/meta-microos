@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.11"
 
-RPM_NAME = "bash-completion-2.11-7.1.noarch.rpm"
-RPM_HASH = "29cad3b075a579473cdd5485bd3b54f702938142419dd31fb984e5b87c0fc642bb645a4633ca11ebc4481c53fa1647d7d8310318f0170394f3c21b58b30a8fa0"
+RPM_NAME = "bash-completion-2.11-8.1.noarch.rpm"
+RPM_HASH = "e522eeee4049dcc8cc172d09e1d7200cd4b7d089de77f61250a28e27aa1140e60b1c761db5daf0b9fdcb61cd6c37d0d922a9191b9baf1094456b34d023852300"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bash-completion \

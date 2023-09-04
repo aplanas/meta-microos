@@ -13,10 +13,10 @@ This package provides the PipeWire replacement development files \
 for libjack."
 LICENSE = "MIT"
 
-PV = "0.3.76"
+PV = "0.3.77"
 
-RPM_NAME = "pipewire-libjack-0_3-devel-0.3.76-1.1.aarch64.rpm"
-RPM_HASH = "338d2d608143943e295ce0a7a16be7c8a5f386e9f347b09919d75c1f2e496fae99342c993de73a03bc3fb5ade2e701e63cb2ee0e9335693e9012dde7e68be53b"
+RPM_NAME = "pipewire-libjack-0_3-devel-0.3.77-2.1.aarch64.rpm"
+RPM_HASH = "2cac34de4b89a687e24bb5c44e6f2c2b6fa6aa6142d6578de2398f2f563e40d508c28c5ac6ae8c3f188ff5007e11a64a248d754620f70176f6b4370317819085"
 
 RPROVIDES:${PN} += "pipewire-libjack-0-3-devel \
 pkgconfig-jack"

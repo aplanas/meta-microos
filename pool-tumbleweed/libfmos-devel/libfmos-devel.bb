@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20230707"
 
-RPM_NAME = "libfmos-devel-20230707-1.1.aarch64.rpm"
-RPM_HASH = "136a37da00faa6f7da333df588cf90c82ec342edfe7909f928b4d2c85fdb6a4d4bc32674c2b7ccc14c3016948a894993d6ddbde57019e9b2532353f789782f7d"
+RPM_NAME = "libfmos-devel-20230707-2.1.aarch64.rpm"
+RPM_HASH = "d907d8de2a053fa070985bfce02cd51cf4a78926d1b92f76dc589cf3cbc4ee72f463fb4deb3b11147bcb5b8256781fe83571a36efa8fc5cdbee6b212289ee265"
 
 RPROVIDES:${PN} += "libfmos-devel \
 pkgconfig-libfmos"

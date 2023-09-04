@@ -5,8 +5,8 @@ LICENSE = "EPL-1.0"
 
 PV = "2.49.3"
 
-RPM_NAME = "graphviz-perl-2.49.3-6.8.aarch64.rpm"
-RPM_HASH = "b7bbdf4eca89bf5ba0af624c15f17b51c9e67dc1108e7c9f516fcd04a09b2e31d5ce7953322bcd16c2bb1b3034eeb43d3b17f8eef7aea8e38e5446abf851b359"
+RPM_NAME = "graphviz-perl-2.49.3-6.9.aarch64.rpm"
+RPM_HASH = "64a180f96ef8c48d8da233fa15533a4a170972f120f96a1843fb1a2c288e77f6d68a3d1dbe81d1b35d97fcaa02f12a8c2edb7dfd2c028355f6ff4043282931fe"
 
 RPROVIDES:${PN} += "graphviz-perl \
 libgv-perl.so \

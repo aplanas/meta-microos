@@ -164,15 +164,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.430000"
 
-RPM_NAME = "perl-Test-Exception-0.430000-1.26.noarch.rpm"
-RPM_HASH = "03efb82b58542de3ff776b98fda9d53225aae9eb67b1f1d1922475df8f80f747d4bb18300684c5e30855bafb94cc151ecfe3f093cf8988825445470f3caeb880"
+RPM_NAME = "perl-Test-Exception-0.430000-1.27.noarch.rpm"
+RPM_HASH = "98282d1357675ecd6364b5cf3d9f44d50b68c3c5e691a74edb01ab8dafdb690cf55f3f02b4b04e0a056f138080b8798d5289fb6844702e30ecd90ebcfc2ecb08"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DB \
 perl-Test--Exception \
 perl-Test-Exception"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Sub--Uplevel \
 perl-Test--Builder \
 perl-Test--Builder--Tester"

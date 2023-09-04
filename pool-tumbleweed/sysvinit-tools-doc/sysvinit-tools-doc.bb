@@ -3,10 +3,10 @@ DESCRIPTION = "Documentation of helper tools from sysvinit that support booting,
 to startpar and killproc."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.07"
+PV = "3.08"
 
-RPM_NAME = "sysvinit-tools-doc-3.07-1.1.noarch.rpm"
-RPM_HASH = "5919f7d330844fcabbb0f4a932e9f79c215e0ec82547ef86eeb7bf6486738f32656ba4aaa23e08ccb6caa5e5037617e3c7e5901651d6e3e4bfdbee206c60a2ef"
+RPM_NAME = "sysvinit-tools-doc-3.08-1.1.noarch.rpm"
+RPM_HASH = "8525ad1cd25481bc84da598cead0134ad65eaeccea4a6ad8a265fc029c9e0751b2d90e30690f72200fa6543c278c429987e0b55ab2da1e0ca5ca71e36e755f8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sysvinit-tools-doc"

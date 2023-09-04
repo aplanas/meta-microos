@@ -9,14 +9,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.20"
 
-RPM_NAME = "perl-Text-Reform-1.20-24.25.noarch.rpm"
-RPM_HASH = "5f60967d97ef4b807c0598431869cdaba0849d3280c0d4e9bc1d3f9e16a4d178a6cb74741e629561633b838a09e6a918a2cc22ea312ebe007b7ddf35485a919b"
+RPM_NAME = "perl-Text-Reform-1.20-24.26.noarch.rpm"
+RPM_HASH = "bfceb344a9df69dc264991cf2a024fc1dce544843246c0d92bb3362880e1b610cca72668aba5ca6b63fa0fcdfc3d123b52c3d4e1bf63de9a0b7ac0c20d45cff9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Text--Reform \
 perl-Text-Reform"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.36.1 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
 perl-Exporter"
 
 inherit rpm

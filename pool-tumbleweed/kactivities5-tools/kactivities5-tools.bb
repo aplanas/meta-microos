@@ -2,10 +2,10 @@ SUMMARY = "Command-line tools for Plasma Activity management"
 DESCRIPTION = "This package provides command-line tools to manipulate Plasma Activities."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.108.0"
+PV = "5.109.0"
 
-RPM_NAME = "kactivities5-tools-5.108.0-1.1.aarch64.rpm"
-RPM_HASH = "7bd8abf0bbf40d90c0f2a379f1116a7faea0b72c6af3aedf9a37adff9cdaf45d14a47c90b11b649ff2741b9a540a5c3ae40b03bafa5458ca738ba9f04c062363"
+RPM_NAME = "kactivities5-tools-5.109.0-1.1.aarch64.rpm"
+RPM_HASH = "016851904ab79f15753b759ed6af51d4a58fe73b7cf7c9a438ea0747ab0e7435b823b6cc79a45386c30b1f470a4ed485c8626a01e8a34f0f4018695d653b391f"
 
 RPROVIDES:${PN} += "kactivities5-tools"
 
