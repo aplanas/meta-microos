@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "13.2.1+git7683"
 
-RPM_NAME = "libasan8-13.2.1+git7683-1.1.aarch64.rpm"
-RPM_HASH = "8ebdff48796f0aa2603cba72b9e077524cc82c1474f645611a541fa6e5086f02e3f1fbd3f5a01e260860f8cc793c8cb19c16855693ad2cc70546c38aa1b634f6"
+RPM_NAME = "libasan8-13.2.1+git7683-2.1.aarch64.rpm"
+RPM_HASH = "de07b609d32ef12a59f4389789970406dc68fa20b7d9c503cffac3a819fa2ec83cc0b93aec2dffcaa91d4befe17ae664dcccb2cc29e0b0f99a150e50ed3755ce"
 
 RPROVIDES:${PN} += "libasan.so.8 \
 libasan8"

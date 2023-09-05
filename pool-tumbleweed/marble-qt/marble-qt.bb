@@ -2,10 +2,10 @@ SUMMARY = "Qt Frontend for Marble"
 DESCRIPTION = "The Qt frontend for the Marble map viewer"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "marble-qt-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "be79f5f716426ebb7ab5cae326b94be0e71ae8f72fc348482393d504f71c26c22e6dbf1558152aedb6a4f200eeecfec73785d9f46bbe7fa545dd3c2f23ecb073"
+RPM_NAME = "marble-qt-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "8109799c4f976ba57245aad6cd7183a8f74b582c56e9065df1feef9c9435ebb9d2f4addf32e1e7fc44b140d74a505e874cdf05cabb6ee85de46b99890a957b8d"
 
 RPROVIDES:${PN} += "marble-frontend \
 marble-qt"

@@ -7,10 +7,10 @@ Xkb extends the ability to control the keyboard \
 over what is offered by the X Window System core protocol."
 LICENSE = "MIT"
 
-PV = "1.15"
+PV = "1.16"
 
-RPM_NAME = "libxcb-xkb1-1.15-2.3.aarch64.rpm"
-RPM_HASH = "50977f855bef978421ce31a04367e0023b73e0a92b90ab67dcb338bd2ebf4cd33c97832c62771f327abca3a772076de8eb3074550c70587b97dfb3da773ef013"
+RPM_NAME = "libxcb-xkb1-1.16-1.1.aarch64.rpm"
+RPM_HASH = "e51e5f9580b254d7d5e242073a480ae841e923f60c49ab18c3e4c733268de15c60be3024c7a6722d01107b019f4264dbdc1ad8e140876a9c4d3a8e2a6b01d81c"
 
 RPROVIDES:${PN} += "libxcb-xkb.so.1 \
 libxcb-xkb1"

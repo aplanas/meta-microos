@@ -7,10 +7,10 @@ source code, the project will serve as a base from which extensions and \
 improvements to the original game can be made."
 LICENSE = "MIT"
 
-PV = "0.66"
+PV = "0.67"
 
-RPM_NAME = "CorsixTH-0.66-1.8.aarch64.rpm"
-RPM_HASH = "c003054b204c052dd6f64db3c3476d40695ed591fb8dcde68255fd3258ef358d9ec55edb8966545cf2b6d484eeb3d8a016e4b06318505544e494d7e1e7487b14"
+RPM_NAME = "CorsixTH-0.67-1.1.aarch64.rpm"
+RPM_HASH = "6b598769ec6de84970031437bc8df4f8b14d6d130d2708cfd9dcfb377a1b0da9ed0f1490aa9c245bd34f62a972868368e00b1cd9ba1c13f6085088815aa553e6"
 
 RPROVIDES:${PN} += "CorsixTH"
 

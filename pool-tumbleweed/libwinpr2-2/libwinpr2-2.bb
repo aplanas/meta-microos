@@ -4,10 +4,10 @@ environments. When on Windows, the original native API is being used instead of 
 the equivalent WinPR implementation, without having to modify the code using it."
 LICENSE = "Apache-2.0"
 
-PV = "2.10.0"
+PV = "2.11.0"
 
-RPM_NAME = "libwinpr2-2-2.10.0-3.2.aarch64.rpm"
-RPM_HASH = "f9d35213164f819f5b3005beb3577b18918b917bbc2d121c1281c27f2aeb5ff49731aefb816e2b077e11a4abb58377ab0e26129e41566cfd14124221af4ed727"
+RPM_NAME = "libwinpr2-2-2.11.0-1.1.aarch64.rpm"
+RPM_HASH = "b9714133a72aba7992b1c24beb4f7bdbebeb33e21cfa3124d3bf125dde0267db4511caddfad7e819111a34ae63bb293ec36fd7643d03f641c30b5e4372c9281c"
 
 RPROVIDES:${PN} += "libwinpr-tools2.so.2 \
 libwinpr2 \

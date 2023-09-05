@@ -3,10 +3,10 @@ DESCRIPTION = "Wiretap, part of the Wireshark project, is a library that allows 
 and write several packet capture file formats."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "4.0.7"
+PV = "4.0.8"
 
-RPM_NAME = "libwiretap13-4.0.7-2.1.aarch64.rpm"
-RPM_HASH = "1b7dce0eee5d525633f90619a8b324c0cb55b9da90efab24f63dc36f8e3795c796230cce0c98b2d5991bc4817a41a8a5d57c1a6266ba16ad7dbf117122bc3d33"
+RPM_NAME = "libwiretap13-4.0.8-2.1.aarch64.rpm"
+RPM_HASH = "1c2b83d7cad70d7099d095f269c4882c294780e045fad67105a707345de3fbb15112bb1508e5e980bcc01369b7b107b25f35d3a50d4c04511f9996b964d37544"
 
 RPROVIDES:${PN} += "libwiretap.so.13 \
 libwiretap13"

@@ -10,10 +10,10 @@ Its main features are: \
 - Full system integration: e.g. inhibit system suspend while listening"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kasts-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "074af4056eb50eadc19dc5f8754f5103af3b9bf56909b126988ffabc4e9cbf3b2f34b74a7245ebffdda40457a66e958d9475e100d7a1f82ef1718ab6f9e6f72b"
+RPM_NAME = "kasts-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "c177613ab9f35734fc06f6f69d3e6937c6c64eb4a9462334d0488e436999ab64b5f16445f8cf45f1503c83ec0b368e0d54977d1530f491a79c7ad28c0247f575"
 
 RPROVIDES:${PN} += "kasts \
 libKMediaSession.so \

@@ -2,10 +2,10 @@ SUMMARY = "Framework for searching and managing PIM metadata"
 DESCRIPTION = "AkonadiSearch is a framework for searching and managing PIM metadata"
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-3.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "akonadi-search-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "e1809e82edaabb8824c5d314dfe27dc54926eaae0148b9d8d7667ef275c57e2d64f016162750ec54ba00969cfb4b5d151aa458ad464e2ab51add2427b88275a9"
+RPM_NAME = "akonadi-search-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "9158804993d659ec1d085b2ee21d0d9c3a2d1fe7aa3affb09f7c3b03441242777bef5d155df1ec308fabab49c82b0e431d1fc12972a8885188e0bea9086cab8d"
 
 RPROVIDES:${PN} += "akonadi-search"
 

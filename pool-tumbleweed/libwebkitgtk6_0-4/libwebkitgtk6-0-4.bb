@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
 PV = "2.40.5"
 
-RPM_NAME = "libwebkitgtk6_0-4-2.40.5-1.1.aarch64.rpm"
-RPM_HASH = "4c6fe8c96893aa39a6a2439b9d3dd861d6a276ef0c5bd7aa096904ef69ad9d1aa0ac207e502625c363f892d90e096b27e460561e00d16b894c5acc832ef50118"
+RPM_NAME = "libwebkitgtk6_0-4-2.40.5-2.1.aarch64.rpm"
+RPM_HASH = "e06bb999b709fa606af218feb794e08edd80e5c1bc93c512bd6ae52d7339e3b940820ec7256f434f6ec1819abe8eb67e5e81665c1fbb1c0a31b64550ed3d17e3"
 
 RPROVIDES:${PN} += "WebKitGTK-6.0 \
 libwebkit2gtk4 \
@@ -25,7 +25,7 @@ libWPEBackend-fdo-1.0.so.1 \
 libX11.so.6 \
 libXcomposite.so.1 \
 libXdamage.so.1 \
-libavif.so.15 \
+libavif.so.16 \
 libc.so.6 \
 libcairo.so.2 \
 libdrm.so.2 \

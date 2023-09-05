@@ -2,10 +2,10 @@ SUMMARY = "Translations for package marble"
 DESCRIPTION = "Provides translations for the 'marble' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "marble-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "4efd52f2869ad3f31f2c1adab3f5af1d286960d4b9fc4a7716b87d87b431de7fd0ca0688d15fd5c421ed4ead33e460db0c15ee0a518e76e01d984e1a9df4966b"
+RPM_NAME = "marble-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "2a7188556570944d1704a4d049bb7e168e8fb36bd1bbc12a2dfe40e4b62165ef108ff971a8775700920cfbd88c0d6a0918d30e8dd384b07d43df02af4a7c7f5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-marble-ar \

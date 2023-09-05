@@ -4,10 +4,10 @@ applications to fetch and submit audio CD \
 information over the Internet."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKF5Cddb5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "ed19a225037a79af7c281867eab4ce19a763e61e1b42339fd62e8256c3eee91885d4d0f4822d23dd113e84a701920b6bf42e376b8505fcbb13a620dc83aab9fd"
+RPM_NAME = "libKF5Cddb5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "5491758671a6cb5a9b8b8b7728b04c20429c84a1f941928fa9356899ad369480d84f4ad6516fd59b234ece4d9dfd94d084eb3f7ba80354749647999650e7887c"
 
 RPROVIDES:${PN} += "libKF5Cddb.so.5 \
 libKF5Cddb5"

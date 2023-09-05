@@ -3,10 +3,10 @@ DESCRIPTION = "Tokodon is a Mastodon client. It allows you to interact with the 
 community."
 LICENSE = "GPL-3.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "tokodon-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "123218b0c001ca949aec3d7f26a38b19cc8d28fe3ba40abeb612da6462be6319ba2a11d66c9745b639c7dbb1e65a5476dfdea47129c1dac86e12e0d804f833ff"
+RPM_NAME = "tokodon-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "8ce5b25a9a6782d644f5815e30b0bdc6286994ad73aa455a5556870420150cf58b64f6c3bad2c3e1049bf6fa4597d6513a7100e13498aee1ef4c5020ea4da158"
 
 RPROVIDES:${PN} += "tokodon"
 
@@ -33,10 +33,13 @@ libQt5QuickControls2.so.5 \
 libQt5WebSockets.so.5 \
 libQt5Widgets.so.5 \
 libc.so.6 \
+libgcc-s.so.1 \
 libm.so.6 \
+libmpv.so.2 \
 libqt5-qtgraphicaleffects \
 libqt5-qtquickcontrols \
 libqt5-qtquickcontrols2 \
+libqt5keychain.so.1 \
 libstdc++.so.6 \
 sonnet-imports"
 

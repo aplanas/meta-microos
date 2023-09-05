@@ -4,10 +4,10 @@ drivers.  This package is provided only for compatibility with older kernels \
 that do not support the compressed format."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230814"
+PV = "20230829"
 
-RPM_NAME = "kernel-firmware-20230814-1.1.noarch.rpm"
-RPM_HASH = "7c650ee34ebeb3237a9a2f8fbac1267e65b7c093688fc36cf6509d417680ac95598071ae648709e04f046a68129a8a60744d7fdb6e599d78f180214ee04290ca"
+RPM_NAME = "kernel-firmware-20230829-1.1.noarch.rpm"
+RPM_HASH = "a207b3b6eb14b457f79231ae6f7a51908a80e298abbb4502f2e03cfab700f3bf37ea7ed6f1082846301ea3f21db6e93db30821f816e1e23105b8533e4ab9669d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "3-model-a-plus.txt) \
@@ -87,6 +87,7 @@ firmware-agere-sta-fw.bin \
 firmware-amd/amd-sev-fam17h-model0xh.sbin \
 firmware-amd/amd-sev-fam17h-model3xh.sbin \
 firmware-amd/amd-sev-fam19h-model0xh.sbin \
+firmware-amd/amd-sev-fam19h-model1xh.sbin \
 firmware-amdgpu/aldebaran-mec.bin \
 firmware-amdgpu/aldebaran-mec2.bin \
 firmware-amdgpu/aldebaran-rlc.bin \
@@ -1749,6 +1750,7 @@ firmware-i915/kbl-huc-4.0.0.bin \
 firmware-i915/kbl-huc-ver02-00-1810.bin \
 firmware-i915/mtl-dmc-ver2-10.bin \
 firmware-i915/mtl-dmc.bin \
+firmware-i915/mtl-gsc-1.bin \
 firmware-i915/mtl-guc-70.bin \
 firmware-i915/mtl-huc-gsc.bin \
 firmware-i915/rkl-dmc-ver2-02.bin \
@@ -3356,7 +3358,6 @@ firmware-rtlwifi/rtl8821aefw-29.bin \
 firmware-rtlwifi/rtl8821aefw-wowlan.bin \
 firmware-rtlwifi/rtl8821aefw.bin \
 firmware-rtlwifi/rtl8822befw.bin \
-firmware-rtw88/README \
 firmware-rtw88/rtw8723d-fw.bin \
 firmware-rtw88/rtw8821c-fw.bin \
 firmware-rtw88/rtw8822b-fw.bin \

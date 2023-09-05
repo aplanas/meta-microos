@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "20.5.1"
 
-RPM_NAME = "npm20-20.5.1-1.1.aarch64.rpm"
-RPM_HASH = "dbbb7f9d4e8e8b890b9372c03cc71b2c7ceb329bebe6ef0bf9be8316f25ff36381f8bba1299befa569ff2b0cf049c0878500783c58aeb57fb09f8bbae7d3ecbb"
+RPM_NAME = "npm20-20.5.1-2.1.aarch64.rpm"
+RPM_HASH = "d27cd2cf26b3879e9ac288636f2024ff4681774ced7bfb1484cefe117fbcaf74a757001ff5fad3dbf73bfa6d5c92dc11c5b76afe65a86b060c4e81f6cf1c8031"
 
 RPROVIDES:${PN} += "bundled-node-abbrev \
 bundled-node-abort-controller \

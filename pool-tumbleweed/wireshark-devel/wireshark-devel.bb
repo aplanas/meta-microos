@@ -3,10 +3,10 @@ DESCRIPTION = "Wireshark is a network protocol analyzer. It allows examining dat
 from a live network or from a capture file on disk."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "4.0.7"
+PV = "4.0.8"
 
-RPM_NAME = "wireshark-devel-4.0.7-2.1.aarch64.rpm"
-RPM_HASH = "05a44c0b32605cbe7600cd9d7de7b74bd61780bd3f5ab3c9fdf06141f1e27c65026dea48187a88403084f5330f85e5544a7f7b9fdafecec413ef4ed2fcc4e48f"
+RPM_NAME = "wireshark-devel-4.0.8-2.1.aarch64.rpm"
+RPM_HASH = "fdb7f6511238b849e69c36e1dcc607a6a23a5da42a2e1dc6559ab21c555967aa2d49a71944c7852203898c697a49aba594e0b4b9f77063abfca848a34cb1346e"
 
 RPROVIDES:${PN} += "ethereal-devel \
 pkgconfig-wireshark \

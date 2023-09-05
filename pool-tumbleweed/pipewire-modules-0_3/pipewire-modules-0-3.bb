@@ -10,10 +10,10 @@ The framework is used to build a modular daemon that can be configured to: \
    such as the gnome-shell screencast API."
 LICENSE = "MIT"
 
-PV = "0.3.77"
+PV = "0.3.79"
 
-RPM_NAME = "pipewire-modules-0_3-0.3.77-2.1.aarch64.rpm"
-RPM_HASH = "0a9f27dd1af4c86a8f51c5df07331c767ebf304b2bef55bd16183d182aaa6d1bc92788d6bedbd5cd79779f761f11a073ef5ef64d32205164af24c2e83dc7bf84"
+RPM_NAME = "pipewire-modules-0_3-0.3.79-1.2.aarch64.rpm"
+RPM_HASH = "773a424b3d7e910871d0630b774f38ed9675f0b91c92d4e04549abb8b4f8042db00c6829fd338c82ed09f183c5c2505748ca3ba8863900c7246158805e7db2c2"
 
 RPROVIDES:${PN} += "libpipewire-module-access.so \
 libpipewire-module-adapter.so \

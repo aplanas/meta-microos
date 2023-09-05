@@ -2,10 +2,10 @@ SUMMARY = "The backend to Jupyter web applications - test requirements"
 DESCRIPTION = "Metapackage for the jupyter_server[test] requirement specifier"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.6.0"
+PV = "2.7.2"
 
-RPM_NAME = "python310-jupyter-server-test-2.6.0-1.5.noarch.rpm"
-RPM_HASH = "0ecfdbef818108022951eda101a4d5115bdfee6318b592cf06d6b12b8562d314375e05dc19aad694af07751e00afe1dd2e295f172c1e0d9d99a37cea66e8244b"
+RPM_NAME = "python310-jupyter-server-test-2.7.2-1.1.noarch.rpm"
+RPM_HASH = "a364d3b495dacf2754246c68e52ed79297a040f65ce463392c982be400b439862f91f2e3014722c63af9668d3c77a82a4a184fdf7ec1e7b956ca6abdbde78873"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python310-jupyter-server-test"

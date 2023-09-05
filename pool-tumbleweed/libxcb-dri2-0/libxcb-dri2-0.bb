@@ -4,10 +4,10 @@ featuring a small footprint, latency hiding, direct access to the \
 protocol, improved threading support, and extensibility."
 LICENSE = "MIT"
 
-PV = "1.15"
+PV = "1.16"
 
-RPM_NAME = "libxcb-dri2-0-1.15-2.3.aarch64.rpm"
-RPM_HASH = "2b8320f8bc2b478a5322047749fd99fdd7ea895dafc5e294e03de1ac535e6dabafccf3cd7e4a809392971cb75718eacc3b8edc780cc1263b9547d643d85c4623"
+RPM_NAME = "libxcb-dri2-0-1.16-1.1.aarch64.rpm"
+RPM_HASH = "e087443e2f4b78c34e1d042f07604a6723e3e9d419a413ef2c7606df73dbfe5fd70c44819634be45931454a032f7417268cde124fc239ab2397504ccc72d03c4"
 
 RPROVIDES:${PN} += "libxcb-dri2-0 \
 libxcb-dri2.so.0"

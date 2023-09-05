@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.3"
 
-RPM_NAME = "mutter-lang-44.3-3.1.noarch.rpm"
-RPM_HASH = "49da23db3e4b563138a83f0aa0295e395d24c1c35a81527258e2802df60cef40a0a4c6bce374250c4f23a32ebe69da276ae4a743df7a10bdcdda23195875b884"
+RPM_NAME = "mutter-lang-44.3-4.1.noarch.rpm"
+RPM_HASH = "e3668bfb6574116d58ecbea2c859c5334dc26c39ce5c4e181c9e6ed494b080c266d30f4b6e9755fef079181a054926ab784b05504864ffbb6c83a4a095ce3737"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mutter-ar \

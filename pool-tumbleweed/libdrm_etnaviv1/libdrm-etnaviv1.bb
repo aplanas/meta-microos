@@ -6,10 +6,10 @@ This package provides userspace interface to kernel DRM services \
 for Vivante chips."
 LICENSE = "MIT"
 
-PV = "2.4.115"
+PV = "2.4.116"
 
-RPM_NAME = "libdrm_etnaviv1-2.4.115-2.4.aarch64.rpm"
-RPM_HASH = "93abaa0c11fdc8b588e327210ee3a424fbd803ccc28fc596d5b40ff7efa9c2b88619a33e8a863653c536c9e06591b0006649428c331ab6ed0eeec9bf0e594002"
+RPM_NAME = "libdrm_etnaviv1-2.4.116-1.1.aarch64.rpm"
+RPM_HASH = "e154ebccafeffaedae97aefefd6e6544f3ee8e427dd3bd28520b94d2c54909d85ed23f26ae73c56cc2d51e175e357bcdc4dcba5a287f969974ec5c235ff065c8"
 
 RPROVIDES:${PN} += "libdrm-etnaviv.so.1 \
 libdrm-etnaviv1"

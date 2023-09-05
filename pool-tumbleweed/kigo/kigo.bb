@@ -2,10 +2,10 @@ SUMMARY = "Traditional Chinese Boardgame by KDE"
 DESCRIPTION = "Traditional Chinese Boardgame."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kigo-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "317e36f7fffe9a54ab72fd9ffd45569453166fb8a52fa94aa426efd52d684648c05ea8072d90474755610a3b5aaefdf0b1278395af387095a5dcc1d5fd5fcdbd"
+RPM_NAME = "kigo-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "6e4f52b8198abf97b289e546e1a0fae3c35bb63a0eed05a46577c05a4a8614a480e2e44477c7285a0a7e6ff054f544d3da78fc1bb6abab72f88e9459005541d2"
 
 RPROVIDES:${PN} += "kigo \
 kigo5"

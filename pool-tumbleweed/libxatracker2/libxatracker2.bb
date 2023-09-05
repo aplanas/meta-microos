@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "libxatracker2-1.0.0-355.1.aarch64.rpm"
-RPM_HASH = "b36e208bf73f8d9c6fc53f6052a5cfa57c2614e7a313b02162ac1317391275c3e444e656d4586a4096f32a971d6ba52af1ddefa02565ae44eb35bc2c42ddac29"
+RPM_NAME = "libxatracker2-1.0.0-356.1.aarch64.rpm"
+RPM_HASH = "bbfd45f69b9c29b41e70b54da0152e9a71034f7e548be9b82f879ee53c8123d60fcc45d5d19336c858acc3181d8a8c359474ff6c948f9d5b68fe578ebc1948e2"
 
 RPROVIDES:${PN} += "libxatracker.so.2 \
 libxatracker2"

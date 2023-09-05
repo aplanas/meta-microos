@@ -2,10 +2,10 @@ SUMMARY = "Maildir indexer and searcher"
 DESCRIPTION = "Set of utilities to index and search Maildirs. Upstream name is mu."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.10.6"
+PV = "1.10.7"
 
-RPM_NAME = "maildir-utils-1.10.6-1.1.aarch64.rpm"
-RPM_HASH = "af64cb897a292a1ea187cbd8d07af2425bb2f276d0102bedb9bd58bd2d6f409bd88dbf223f869910d9e3d6c45f86286948fbadfee73aa6d1472d283ab486cc68"
+RPM_NAME = "maildir-utils-1.10.7-1.1.aarch64.rpm"
+RPM_HASH = "ee76cc49a81822898b4fc251404ead93fbfaa70a9bcce56cffa3cf03ec0d31cdf290ebb80f0f072348bc8053d6b943977dae32ed931c8bd1f3e33fd01d1aa607"
 
 RPROVIDES:${PN} += "maildir-utils"
 

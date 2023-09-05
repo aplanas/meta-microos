@@ -2,10 +2,10 @@ SUMMARY = "Removable Media Utility"
 DESCRIPTION = "This utility allows you to manage removable media."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kwikdisk-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "c20aac8e5030829f2e3e502ba616ef8dfd09315eef868d05c8c22b158cb8a41b9e929e513baf6323c10319dc6e82627e0656285c6dbbb9b6ee852e7370c9d928"
+RPM_NAME = "kwikdisk-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "13ab6c44eb2c6a6f364682c9cc573ef027120c8729e3d90d09c0923fbb00defee6bb59e98aa3208362e2585eca173bb9dfe56e85ab8d69bd19b741925ede9e32"
 
 RPROVIDES:${PN} += "kwikdisk"
 

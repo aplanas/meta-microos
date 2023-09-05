@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.6.0"
 
-RPM_NAME = "libvirt-daemon-driver-storage-scsi-9.6.0-2.1.aarch64.rpm"
-RPM_HASH = "d7b5b6b516df5ff105e53c3cb518e7d4ec35cc40d0dff4b7ccfa9a49de58231a25f1ebe494cdf1f89e19e3caf31564ee56cb6d024a49b1062b0fc51cc7bceb3d"
+RPM_NAME = "libvirt-daemon-driver-storage-scsi-9.6.0-3.1.aarch64.rpm"
+RPM_HASH = "da26fcbe28a04eca7df3d44ffd70ccad6ca2571d19719abf5eee68a9770bc2e9941010767d7b99efab06853b3db724e19c0750a5849f5279fd56371a3c6ac382"
 
 RPROVIDES:${PN} += "libvirt-daemon-driver-storage-scsi \
 libvirt-storage-backend-scsi.so"

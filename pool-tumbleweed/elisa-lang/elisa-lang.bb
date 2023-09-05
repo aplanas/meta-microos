@@ -2,10 +2,10 @@ SUMMARY = "Translations for package elisa"
 DESCRIPTION = "Provides translations for the 'elisa' package."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "elisa-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "be88a8f2a6e6d312eeeb0d529a81cd7c24da6fa0e174283408045c3c511fb4e8d2430c13f876fcaa443d52743ab1cc692d283b159a57767a6cadc0b67ef6ff12"
+RPM_NAME = "elisa-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "53b7b65ef978c2de72816509831b975d78f4b9c941d58e7784bc8cb58feaab3341aecaea9cd53a8bf4b5347c37238252f9d9131f78eadb45355a2ed6074e2fed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "elisa-lang \

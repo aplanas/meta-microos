@@ -7,10 +7,10 @@ level. Each level gets a harder by increasing the speed of the plane and the \
 height of the buildings."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "bomber-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "9c6f5555841e40b1abd45e04347f7fc68a8657cfbdca35678f6ea6c50aa7aae297c511a9b359bf358497e3aac7396695d194bc5e4cc880900391ca5284a12c96"
+RPM_NAME = "bomber-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "de94e77c7a2cf6aca168c0a10c8f9d0ca17f46aecd33d48a91ed9321ad50980b8803e30c40add549933d24eff65d025ef0de14dc5e9a5ce8115e38f5e55d6bca"
 
 RPROVIDES:${PN} += "bomber \
 bomber5"

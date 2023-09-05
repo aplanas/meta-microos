@@ -7,10 +7,10 @@ GBM is intended to be used as a native platform for EGL on drm or \
 openwfd."
 LICENSE = "MIT"
 
-PV = "23.1.5"
+PV = "23.1.6"
 
-RPM_NAME = "libgbm1-23.1.5-355.1.aarch64.rpm"
-RPM_HASH = "dcf21ed75e6bd45394d85a4da430003ea28bf110dcf8b18cffed691a1bbabd1d238a82792b2bac76a47ef3187ddca623fa356184951e564b9f8657183f1dc106"
+RPM_NAME = "libgbm1-23.1.6-356.1.aarch64.rpm"
+RPM_HASH = "a577ff0bf127a28e224ce811034e52b59b1c9d31a652ed79116591906bc41102fc3e9e280857750d6caac33f50bb512a1ac640bd174e362828e7591fff694267"
 
 RPROVIDES:${PN} += "libgbm.so.1 \
 libgbm1"

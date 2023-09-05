@@ -3,10 +3,10 @@ DESCRIPTION = "The KDE scanner library provides an API and widgets for using \
 scanners and other imaging devices supported by SANE."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKF5Sane5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "21de71f644b5c4833554c09d3413def81d1d22a9e80d93c7efc0365f8fdb3a54abd5f53cc5d047852112df102a8fdc21a820703cdd8522ab331271af8d701bbd"
+RPM_NAME = "libKF5Sane5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "56226e0cc9c06209a4a2728b03338163d02d7576d8467b6096fd190b3fc97bdafe8d449feb1fff8e7a8446a7b1db46bc4adabecd61934a1420e8769ac35de96c"
 
 RPROVIDES:${PN} += "libKF5Sane.so.5 \
 libKF5Sane5 \

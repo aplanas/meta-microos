@@ -8,10 +8,10 @@ Authors: \
     http://www.powerdns.com"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.8.4"
+PV = "4.9.1"
 
-RPM_NAME = "pdns-recursor-4.8.4-1.3.aarch64.rpm"
-RPM_HASH = "261cadf9e5d9e38fc65e63973bf7453b6ecda5f590cf7741017ea56f614fea220d2ca77eca2f3075a8b1a1dc527a8ad303a04f735e42abf865ad8fef3ec910d8"
+RPM_NAME = "pdns-recursor-4.9.1-1.1.aarch64.rpm"
+RPM_HASH = "bd89925c227be644425c43a69c26341d461b68978c01737ef21a1f0b7c00f9a73b6cb9e21b1f9680206c03076f4ce2b981794daafab013916aad3a471be8204d"
 
 RPROVIDES:${PN} += "bundled-json11 \
 bundled-luawrapper \
@@ -32,6 +32,7 @@ libm.so.6 \
 libnetsnmp.so.40 \
 libnetsnmpagent.so.40 \
 libsodium.so.23 \
+libssl.so.3 \
 libstdc++.so.6 \
 libsystemd.so.0 \
 pdns-common \

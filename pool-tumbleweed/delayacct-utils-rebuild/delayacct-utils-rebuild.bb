@@ -5,10 +5,10 @@ kernel-default is rebuilt in OBS. \
 There is no reason to install this package."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.11"
+PV = "6.4.12"
 
-RPM_NAME = "delayacct-utils-rebuild-6.4.11-31.67.aarch64.rpm"
-RPM_HASH = "1cf28f2f431e29b9683802962461ae336763b02a67cd8ca5b648f62107f0e8fc0c16d27e3e939426e0dc7f9988818220a0456714b17fd929871a92fd41074e15"
+RPM_NAME = "delayacct-utils-rebuild-6.4.12-31.68.aarch64.rpm"
+RPM_HASH = "7e1c6920ee7da1be2e1c105c12b5d8f7e3b5a3f66b2876706ddc8f22e95ac5239e2e55edcf392d293a49441ebbc23c391dbd7a535dc9f9c25fefd7d0be5bf9da"
 
 RPROVIDES:${PN} += "delayacct-utils-rebuild"
 

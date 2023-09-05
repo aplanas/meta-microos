@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-maps"
 DESCRIPTION = "Provides translations for the 'gnome-maps' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.3"
+PV = "44.4"
 
-RPM_NAME = "gnome-maps-lang-44.3-1.1.noarch.rpm"
-RPM_HASH = "8ea21e2da17e3da5f58016dd1cf75215eb7c436d9b78d609f1c58370e966a47808299064d148ef2bf73cbb4c0501e0ac89c7869646aa5485623f41162d7f7a6c"
+RPM_NAME = "gnome-maps-lang-44.4-1.1.noarch.rpm"
+RPM_HASH = "8c7635d363ad360c78de6c692e9f6525f0b2acb78f72e727253fdad1c0cfedad59f60265006aab87619500197702014329874207e96838cfcb43160fd1bf091c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-maps-lang \

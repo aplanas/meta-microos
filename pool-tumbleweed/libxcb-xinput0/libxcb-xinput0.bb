@@ -7,10 +7,10 @@ Xinput is an extension to the X Window System intended to replace \
 core input processing."
 LICENSE = "MIT"
 
-PV = "1.15"
+PV = "1.16"
 
-RPM_NAME = "libxcb-xinput0-1.15-2.3.aarch64.rpm"
-RPM_HASH = "f807849df19be96eb74c9735a63a8495ffb915ae637d7e4ecea5184dd63d1fdc8d8601bb3aeee323a7f14756aa468659e124650946430dd79d685a5f0ab93712"
+RPM_NAME = "libxcb-xinput0-1.16-1.1.aarch64.rpm"
+RPM_HASH = "0cf5e54e9a98bc034dd572fa3d7def2627b38a81a6f6c17e683418b070eebfafa7c74713651639117699cfe92938c30dfa3ed36ffd5b2bb8a6db57e398b018bc"
 
 RPROVIDES:${PN} += "libxcb-xinput.so.0 \
 libxcb-xinput0"

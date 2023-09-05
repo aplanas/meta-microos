@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & MIT & LGPL-2.1-or-later"
 
 PV = "2.38"
 
-RPM_NAME = "glibc-locale-base-2.38-1.1.aarch64.rpm"
-RPM_HASH = "d6873e5fa96b156709e81b6443e827193f817abc262da1fb8e8a5d45848997351f2dd30309407a165aaa075b8f3409e293d717a1d632ae8d1300712b2a868c9a"
+RPM_NAME = "glibc-locale-base-2.38-2.1.aarch64.rpm"
+RPM_HASH = "421bfa3133321cbdbb1f19e750d4f9c43d00c3197bae89170504ddc789534522975b1f8db1fab9ba43eeb61e3184f7fc6337d7c825dc8e06fa375482ce76a05e"
 
 RPROVIDES:${PN} += "glibc-locale-base \
 libCNS.so \

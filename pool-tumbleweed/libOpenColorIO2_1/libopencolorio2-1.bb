@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.2"
 
-RPM_NAME = "libOpenColorIO2_1-2.1.2-3.2.aarch64.rpm"
-RPM_HASH = "71deaf252bbbd861ef2657305dc60fe741a2b6cd0bd5953e3d9d1ac7af9fe34ff597b9df0b21f35313d8b2ed1581450bd7fa6cbb09a3d5f0923503764f84d4d9"
+RPM_NAME = "libOpenColorIO2_1-2.1.2-4.1.aarch64.rpm"
+RPM_HASH = "b5fc2a7d0d09ac901572d83e70062999abf4182e8574cb57c168634af29c61cd244dd20989cb35350d84b6c7e9a732496b0d6d47a1c236f465ccb901771174d2"
 
 RPROVIDES:${PN} += "libOpenColorIO.so.2.1 \
 libOpenColorIO2-1"
@@ -23,7 +23,7 @@ libgcc-s.so.1 \
 libm.so.6 \
 libpystring.so.0.0 \
 libstdc++.so.6 \
-libyaml-cpp.so.0.7 \
-libyaml-cpp0-7"
+libyaml-cpp.so.0.8 \
+libyaml-cpp0-8"
 
 inherit rpm

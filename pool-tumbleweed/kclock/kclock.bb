@@ -2,10 +2,10 @@ SUMMARY = "Clock application for Plasma"
 DESCRIPTION = "A clock application for Plasma."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kclock-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "b29b7185272c7b337abf22e2a72fa1fc0c1c3c6dbbde6343a70f8258e94bfd34b0f99185ddc96daf01025fdf45966a62fb848e884d40eb6a83283ce1f77098ed"
+RPM_NAME = "kclock-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "cd9d92573b226f07b5e7952c7ef8ab5fc3d9e9045676517a4354c38bb92318701f42972e7b833a92a8a979bc4f768222e09a9c3bc8d7d8f6fdaefb758b1ccb85"
 
 RPROVIDES:${PN} += "kclock"
 

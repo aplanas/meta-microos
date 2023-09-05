@@ -7,10 +7,10 @@ execution metrics, a stress verification on memory and compute operations and \
 considerably more stress mechanisms."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.15.06"
+PV = "0.16.04"
 
-RPM_NAME = "stress-ng-0.15.06-1.3.aarch64.rpm"
-RPM_HASH = "fa089f74d16ce0332097d3f7e630aa2952395a07ef34c592faabc137451916bbfd7974f5611ebf25144e7128b196fc09f058546a9b4e5888ad2b16d30cd1a81c"
+RPM_NAME = "stress-ng-0.16.04-1.1.aarch64.rpm"
+RPM_HASH = "c4039650fac66aa0487444feda1cc5db911e60d63e126b5fab7b6027bd4b21c841f1b171fd1e9a79d29efdfde433de033035a84af122a6b0bb10e3a7d9072b7f"
 
 RPROVIDES:${PN} += "stress-ng"
 

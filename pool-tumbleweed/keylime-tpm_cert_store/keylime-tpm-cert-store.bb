@@ -2,10 +2,10 @@ SUMMARY = "Certify store for the TPM"
 DESCRIPTION = "Subpackage of keylime for storing the TPM certificates."
 LICENSE = "Apache-2.0 & MIT & BSD-3-Clause"
 
-PV = "7.4.0"
+PV = "7.5.0"
 
-RPM_NAME = "keylime-tpm_cert_store-7.4.0-1.1.noarch.rpm"
-RPM_HASH = "da5e996153cdc1765f850df583ef6faba4eb6a0f0fe103e6f21d88a2958260bfede69ce06895c9229014019892c75e62315b52a818bfde22e289872b816499cb"
+RPM_NAME = "keylime-tpm_cert_store-7.5.0-1.1.noarch.rpm"
+RPM_HASH = "e04780be75cc14d37fbd10a0148ccbe95956f44f0b17a963e4c9c5d401dacea0851eb9437ef26a5be3f2323100146cc4e3a7f9586902e018ac5abfaabf953458"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-keylime \

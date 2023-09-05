@@ -5,10 +5,10 @@ figures and concepts using the computer. Serve as a WYSIWYG tool for \
 drawing mathematical figures and including them in other documents."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kig-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "3520d4821dcacfab1d05a217550fd08a52e8ee4759db8a025905a97bc465950f638d75145bd693b9b7a43df7b941541ee173d60a56c9543c5ae5cf8a532dbf20"
+RPM_NAME = "kig-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "7c44fd9891bb0404b4df2eb844f95ef2f705de64ee95e687e0d0d4b0c125eeae452570532bd4db99990c1bef6910dc6915f21ad939c9ada60094de00a1f2c059"
 
 RPROVIDES:${PN} += "kig \
 kig5"

@@ -6,10 +6,10 @@ software is usable serves primarily to validate the accuracy of the \
 documentation."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.257"
+PV = "0.258"
 
-RPM_NAME = "mame-0.257-1.1.aarch64.rpm"
-RPM_HASH = "2b3122a543d6be47c028628094de2cb41340b4e75c232013c2d9743f9ca0b3e609106940316fcea6237e8f25d6b8707b2a0016bf0b7db30a4020f926bd2640f4"
+RPM_NAME = "mame-0.258-1.1.aarch64.rpm"
+RPM_HASH = "fafada35840d9c9fb603447eb8f14e36eb4b2dd46ba350bc77bea486e0d9865110c5a0104a44711d66242b3c9a24e0a9b063bc2c7e0206ca675fd19cfd6cc2ff"
 
 RPROVIDES:${PN} += "config-mame \
 mame"

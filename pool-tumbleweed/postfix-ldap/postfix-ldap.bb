@@ -5,8 +5,8 @@ LICENSE = "IPL-1.0 | EPL-2.0"
 
 PV = "3.8.1"
 
-RPM_NAME = "postfix-ldap-3.8.1-1.1.aarch64.rpm"
-RPM_HASH = "ca2f4d62223f0a65fab4eef6a869f21a60e8434915805face1b90a2d73d49c438b6921465852cfb337fbd6126133378a2f01a702e4ca2c9619ae43334135cb29"
+RPM_NAME = "postfix-ldap-3.8.1-2.1.aarch64.rpm"
+RPM_HASH = "dde487767f0c43e61d0bd086a99bbee11b8ce903ae7e75df0cf4703e58471d1d14f571fc28e519d3c5c38ef55d6fa21314e5550f31f41cc4d14f651dda088b95"
 
 RPROVIDES:${PN} += "config-postfix-ldap \
 postfix-/usr/lib/postfix/postfix-ldap.so \

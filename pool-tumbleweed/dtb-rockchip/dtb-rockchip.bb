@@ -2,10 +2,10 @@ SUMMARY = "Rockchip based arm64 systems"
 DESCRIPTION = "Device Tree files for Rockchip based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.11"
+PV = "6.4.12"
 
-RPM_NAME = "dtb-rockchip-6.4.11-1.2.aarch64.rpm"
-RPM_HASH = "09bc3894372938dcb0b1ad9b08221e80684b67251137445a348b9ed6a54dc187062e2e620406f8e9482f7847450968a24247d561ba541e95ef86001421b0d1ad"
+RPM_NAME = "dtb-rockchip-6.4.12-1.1.aarch64.rpm"
+RPM_HASH = "a14ae7f04e91ebff52b626c1e582b90ecfb12f2e4e9bb1afc6f92dceadddf913aa37875ba2c66713c8218e854beaa09b49e9d493deaabf5be422b65d86f265b5"
 
 RPROVIDES:${PN} += "dtb-rockchip \
 multiversion-dtb"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libkcompactdisc"
 DESCRIPTION = "Provides translations for the 'libkcompactdisc' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libkcompactdisc-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "f72326c601809b677d3cc791a9798aa73d6e7aee765e270a32b681cded02e6fa3c8f024b8835c5630f8d7d8d55872fb03b7b87bb9e88a30324548a43d00dfcf8"
+RPM_NAME = "libkcompactdisc-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "0f79b0652098ad65ae3fa9a0c5b6a1f5f49189aa92e406b1fdc7fb5201a1cbfaae629faf8f2d84b96062cea0bc0f8ad91d0ae1c338da1ec42eef70d951ba7242"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libkcompactdisc-lang \

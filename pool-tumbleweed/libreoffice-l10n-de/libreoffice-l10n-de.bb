@@ -2,10 +2,10 @@ SUMMARY = "German localization files for LibreOffice"
 DESCRIPTION = "Provides German translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.0.3"
+PV = "7.6.1.1"
 
-RPM_NAME = "libreoffice-l10n-de-7.6.0.3-1.1.noarch.rpm"
-RPM_HASH = "50b4531a1fc5c9759954ae94415e9e47b602aaa7b2ead358058f5027686d151e24ecd85a70bf14d339a5e65683b6725cc952245fb3ecfedd777cfb2c92f11b03"
+RPM_NAME = "libreoffice-l10n-de-7.6.1.1-1.1.noarch.rpm"
+RPM_HASH = "e81d37fba1794cd9639bee21871c8cf698e76d38e2a225c1b43adcbc6362c699ede4882172c027cbc1d3236e8eb3be68ff0f22ddcc3184e7b0f53d479563e1a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-de \

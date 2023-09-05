@@ -2,10 +2,10 @@ SUMMARY = "Dynamic menu library inspired by dmenu"
 DESCRIPTION = "Library for Bemenu, dynamic menu inspired by dmenu."
 LICENSE = "MIT"
 
-PV = "0.6.15"
+PV = "0.6.16"
 
-RPM_NAME = "libbemenu0-0.6.15-1.2.aarch64.rpm"
-RPM_HASH = "ab7a8f11ab6a9b6d5e73750a8e0ee6747b5131a3768844866d7f33506e6c69e0426b73af83a6801a2880942d6863bfb95f037b778170255cfbe2c9c8923e28e7"
+RPM_NAME = "libbemenu0-0.6.16-1.1.aarch64.rpm"
+RPM_HASH = "703277c3bfe0f7c81a459a054ac3b0aa14f1fa45b9356459a97a7cd3fb57e4add7a6ffa2d14e0a51363d677ae0185096127d65f687bf807306dde101332674d2"
 
 RPROVIDES:${PN} += "libbemenu.so.0 \
 libbemenu0"

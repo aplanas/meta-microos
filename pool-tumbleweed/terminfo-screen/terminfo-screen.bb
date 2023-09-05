@@ -5,10 +5,10 @@ connections like ssh or slogin onto systems without those terminfo database \
 entries."
 LICENSE = "MIT"
 
-PV = "6.4.20230812"
+PV = "6.4.20230819"
 
-RPM_NAME = "terminfo-screen-6.4.20230812-18.1.aarch64.rpm"
-RPM_HASH = "8bbeab71fca89b37eb81ceedba0185fed72de3116f8478a6511b8081b5b2644458670fc759dc1dec795a6e05ec81587ad7dee01a4ef1da20eaf49ae2b33dbadc"
+RPM_NAME = "terminfo-screen-6.4.20230819-19.1.aarch64.rpm"
+RPM_HASH = "5a2a9261947e5a5a02f92b7dd0669f1ce521388ff2f6ec3aa1612f02c1c99112b10e43032fdcacef0fd844f8ffd943d99bda1a7261ee8999b8a913d3747f9449"
 
 RPROVIDES:${PN} += "terminfo-/usr/share/terminfo/s/screen.konsole \
 terminfo-screen"

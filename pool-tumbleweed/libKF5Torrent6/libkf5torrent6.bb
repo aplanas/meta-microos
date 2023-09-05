@@ -2,10 +2,10 @@ SUMMARY = "Torrent Downloading Library"
 DESCRIPTION = "libktorrent is a torrent downloading library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKF5Torrent6-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "b95593e2e7776e8b06a3a38beb5fb51765e61256df2e6401ade1f3e4a3c07a076bf63e18724382d730afcccf0e620493d7a8d9a34bd80389bbd1fc752ae1b013"
+RPM_NAME = "libKF5Torrent6-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "26f9747cf3bb5173e054603bd845bd8686c1491b5e2c8af36b10d4005b3e5bc210ed3c412f80fc61e681ff8e7b10e968d9ff07fe05979fefdeee1b17d4bf74a3"
 
 RPROVIDES:${PN} += "libKF5Torrent.so.6 \
 libKF5Torrent6 \

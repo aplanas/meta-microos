@@ -9,8 +9,8 @@ LICENSE = "MIT & MPL-2.0"
 
 PV = "4.66.1"
 
-RPM_NAME = "python-tqdm-bash-completion-4.66.1-1.1.noarch.rpm"
-RPM_HASH = "b70817c3311502ea052f32af83d75e326a268311d3c21acb6a3d604b80185120fb34da75794c60c10f6be2af2b489c01ccfcbd9de5e3b65e84dd0fedf82e9aae"
+RPM_NAME = "python-tqdm-bash-completion-4.66.1-2.1.noarch.rpm"
+RPM_HASH = "38428212c052c13f3ef31b436357949f2d9646b36d3668cce87a6b2a423fdce24a0b1163b8b96557b677d55955bb75d71f925a61d92b19933635dad463d00c21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-tqdm-bash-completion"

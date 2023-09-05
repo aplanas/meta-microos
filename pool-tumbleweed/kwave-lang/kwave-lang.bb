@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kwave"
 DESCRIPTION = "Provides translations for the 'kwave' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kwave-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "872d46c624b0bbc4079a9f3c8dd5cf430c24e2b43b3ec26f26ddedef5cb5a0d9e1de17e59616d60f18e359a5aa7c6659aa5f8255957f7dbb92a649e49384e412"
+RPM_NAME = "kwave-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "a284ab3dcdb9dd1a8647db8eed5d547ef1d5cbe3682ceeb78f7fa8a6a7be1adb22f15138c6b607e180335811ece3a8bf2528ad43bba766a0d34245e34307058c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kwave-lang \

@@ -9,10 +9,10 @@ display may have one or more video adaptors, each of which has one or \
 more ports through which independent video streams pass."
 LICENSE = "MIT"
 
-PV = "1.15"
+PV = "1.16"
 
-RPM_NAME = "libxcb-xv0-1.15-2.3.aarch64.rpm"
-RPM_HASH = "4e5f6a7580043cf99ba7bb059e2afc050d4a43324e6dea4b81871f2ae9fe921a510436ddc5c7562fc0d70e095665f74ae26f5ac96f2682fe8204bfac9bc9cbad"
+RPM_NAME = "libxcb-xv0-1.16-1.1.aarch64.rpm"
+RPM_HASH = "0fd75f79623682f65e6d3f998b00baf9f5628473ecf02b4c67d308393d0c175f5e82ca7b47d156f121257db668f0fb47eb703b92bd3ed039f74f2be89500f3b6"
 
 RPROVIDES:${PN} += "libxcb-xv.so.0 \
 libxcb-xv0"

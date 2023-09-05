@@ -4,10 +4,10 @@ featuring a small footprint, latency hiding, direct access to the \
 protocol, improved threading support, and extensibility."
 LICENSE = "MIT"
 
-PV = "1.15"
+PV = "1.16"
 
-RPM_NAME = "libxcb-dpms0-1.15-2.3.aarch64.rpm"
-RPM_HASH = "9f59773d8c730d26dbe426d472163a513f88095473be444c3830df974b47312eb704ea79d5ffa0665c9356f833716a0b5006a30eb5c1282ed18f6706331717d4"
+RPM_NAME = "libxcb-dpms0-1.16-1.1.aarch64.rpm"
+RPM_HASH = "d2dfb2af05d065e2b033759c1d6018fc77115031c8d025945549d016beb0344f560f2f509c9e88d2ba7447ba6e17ef200a611e09dcd4f9ecc3c02cd9667b6110"
 
 RPROVIDES:${PN} += "libxcb-dpms.so.0 \
 libxcb-dpms0"

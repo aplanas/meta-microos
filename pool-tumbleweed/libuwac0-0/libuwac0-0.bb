@@ -3,10 +3,10 @@ DESCRIPTION = "Using wayland as a client (uwac) is a library to provide common \
 functionality for wayland clients."
 LICENSE = "Apache-2.0"
 
-PV = "2.10.0"
+PV = "2.11.0"
 
-RPM_NAME = "libuwac0-0-2.10.0-3.2.aarch64.rpm"
-RPM_HASH = "4e011d2559db349df67d306fd8879b56b8898df1088e27574079196b7ada941b9046f320dba17077c29d9d8375a6e584526a187455bf758af48f7292613450e4"
+RPM_NAME = "libuwac0-0-2.11.0-1.1.aarch64.rpm"
+RPM_HASH = "6ca5e4ce04745f908abd453ec87091f071a39d36f2c49fac9ae6f7bd732c037c844070c9b396887c41524b313d2be439559921a9408e1b9ff5ce02e260b6dd47"
 
 RPROVIDES:${PN} += "libuwac0-0 \
 libuwac0.so.0"

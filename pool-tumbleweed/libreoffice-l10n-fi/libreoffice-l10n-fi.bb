@@ -2,10 +2,10 @@ SUMMARY = "Finnish localization files for LibreOffice"
 DESCRIPTION = "Provides Finnish translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.0.3"
+PV = "7.6.1.1"
 
-RPM_NAME = "libreoffice-l10n-fi-7.6.0.3-1.1.noarch.rpm"
-RPM_HASH = "ff105502951bf20626b66851e1f1a20a56fc9a2039f3adb97c2380ca89a12ebe6044b922289a5fa044596329be371a31255902e41e7773e4e286a2e6d33a1e24"
+RPM_NAME = "libreoffice-l10n-fi-7.6.1.1-1.1.noarch.rpm"
+RPM_HASH = "78f772eebca2b8e461d2344aeb53cba9ff1266d9e88e051f84f0239609baaa321e44a2022d0e4c1663cf966be4e7f1597fa098b75a162900857b18d888b0d8bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-fi \

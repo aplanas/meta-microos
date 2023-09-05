@@ -2,10 +2,10 @@ SUMMARY = "Shared library for Budgie raven plugins"
 DESCRIPTION = "Shared library for budgie raven plugins to link against."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "10.7.2+0"
+PV = "10.8+0"
 
-RPM_NAME = "libbudgie-raven-plugin0-10.7.2+0-1.2.aarch64.rpm"
-RPM_HASH = "e488ec2d2ba9e1ca0dc3b5d15fb68abe3a35b577af01831964fd28a4730b59b4886a6d90fff9c96c6d986125c7872336ea9f8c4d5606d88fa1d5cf19ed69a567"
+RPM_NAME = "libbudgie-raven-plugin0-10.8+0-1.1.aarch64.rpm"
+RPM_HASH = "7c5c8f7b22355a94e0d623239024d7b22265f12815bfbe794e4c932c1fc361b630c7e20cb4b52d8deb7bc83e722a3800f246b47df7bb1500896c4bb05a590381"
 
 RPROVIDES:${PN} += "libbudgie-raven-plugin.so.0 \
 libbudgie-raven-plugin0"

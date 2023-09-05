@@ -2,10 +2,10 @@ SUMMARY = "Translations for package konsole"
 DESCRIPTION = "Provides translations for the 'konsole-part' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "konsole-part-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "e3ce80bc82f95ebcec853f224ebc5dc1ba170c34c2edf161b7ce6b11be9f74230f7eda657789c98d495e5269fc66f525e7c3bedde691a9abb2cdfe48eeb7a4c9"
+RPM_NAME = "konsole-part-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "59b93047617eefa5017f95a5b3e387e95ef8502ccc44959f37c5b8f2d7f914146dead643349bbbd60b000767139c31156ac54711874e2f6c11a8964e3ffbeca5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "konsole-lang \

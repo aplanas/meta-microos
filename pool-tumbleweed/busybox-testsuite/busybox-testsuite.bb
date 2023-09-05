@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.36.1"
 
-RPM_NAME = "busybox-testsuite-1.36.1-1.1.aarch64.rpm"
-RPM_HASH = "ccc54bab78072d7578549f69691eb9a71d64e864813fa7ddde6f0551cf3497ad60fe91d2759dc412acc3853259d1f4e68274b02fdfa96ad5a7bdc3c62b421f48"
+RPM_NAME = "busybox-testsuite-1.36.1-2.1.aarch64.rpm"
+RPM_HASH = "0626228b715b917ab7d47bacd2835a1437f06ccb02559795e965d3d1b4b4875973d104495313c54fd4ecfcd631411487d5c766265715cbe8ea92256a18bd7427"
 
 RPROVIDES:${PN} += "busybox-testsuite"
 

@@ -2,10 +2,10 @@ SUMMARY = "A Network Traffic Analyser - Qt UI"
 DESCRIPTION = "This package contains the Qt based UI for Wireshark."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "4.0.7"
+PV = "4.0.8"
 
-RPM_NAME = "wireshark-ui-qt-4.0.7-2.1.aarch64.rpm"
-RPM_HASH = "460facd364cf0ff15ae76a885c5199bbb4302d8f497c6588d91b0f2901a6bfc2c9c927a6bfd8da4376dfea4ec07e5b9bd110b7c63c521aea5639793acb72cb2f"
+RPM_NAME = "wireshark-ui-qt-4.0.8-2.1.aarch64.rpm"
+RPM_HASH = "c2c883ccdf3bb827aab3b1e1f59fb95b7fb3913612d969caffdcb6adebeeac97f58fc3bb1655df61c15efee3f7b41ae90e174eddd7cf20ca0bd789d638389473"
 
 RPROVIDES:${PN} += "wireshark-ui \
 wireshark-ui-gtk \

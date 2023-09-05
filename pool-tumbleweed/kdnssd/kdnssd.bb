@@ -3,10 +3,10 @@ DESCRIPTION = "This package adds Zeroconf support to KIO, allowing the use of th
 in all applications that are using KIO."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kdnssd-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "98a45569d1bd7495bd5e24b9247806b6e0c49f8c96c7ba925948c1da53fc95d58be0897f90aaadc01aa888c553e9741de91641ed3721b2dbb07eb28e99f6aee0"
+RPM_NAME = "kdnssd-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "2e514a12969c8c9dc25bac82f7a6eb5283955162dd0eea174c40dda007f4d31fdc825b70d4bcd6e3ced228dd70e56eb3c99ab34656e91db65d269549a92b6316"
 
 RPROVIDES:${PN} += "kdnssd"
 

@@ -21,21 +21,21 @@ much better information about what is wrong with your code than the \
 standard JVM message."
 LICENSE = "Apache-2.0"
 
-PV = "5.2"
+PV = "6.7.0"
 
-RPM_NAME = "bcel-5.2-37.3.noarch.rpm"
-RPM_HASH = "2dc585c5c30f76c99534b0fed4ada08d0184ee8be9bf03a06b7496637bd3fb37c497d0c7da9cbdf792290ba8874ed55237eec0653cfa49489b1f28a3e1854b5b"
+RPM_NAME = "bcel-6.7.0-1.1.noarch.rpm"
+RPM_HASH = "a21770668f4d5645851c85abefb43efc27fbfd8c07711e79b8c23bce24d9c4d90a73042257ed7aac63f35bc6a13d403663b56683ea7ebbd16531bd1c85775aeb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bcel \
 mvn-bcel-bcel \
 mvn-bcel-bcel-pom- \
 mvn-org.apache.bcel-bcel \
-mvn-org.apache.bcel-bcel-pom-"
+mvn-org.apache.bcel-bcel-pom- \
+osgi-org.apache.bcel"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-jakarta-regexp-jakarta-regexp \
-regexp"
+mvn-org.apache.commons-commons-lang3"
 
 inherit rpm

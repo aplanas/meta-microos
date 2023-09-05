@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the library which is required by the KDE ed
 applications."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKEduVocDocument5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "35c35f59c8834f84c335595a67e2bb7c15a6f045f7faf281fef2dfa70f4449b17a9166d1f9e847a8087a2b7685de63e8ceaccf7b0884ea50bf3e9248739ddfca"
+RPM_NAME = "libKEduVocDocument5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "60790ed75b369bd2277ad748310e3fd2ede184137f098064ad4e9b02b99d749d160905f371800efbac6558b4ed5e702f1ce9873ca6b359bd94c48613fd18a7ec"
 
 RPROVIDES:${PN} += "libKEduVocDocument.so.5 \
 libKEduVocDocument5 \

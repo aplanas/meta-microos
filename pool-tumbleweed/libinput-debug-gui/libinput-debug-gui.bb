@@ -3,10 +3,10 @@ DESCRIPTION = "This tool allows graphical libinput debugging. It visualizes \
 all events processed by libinput."
 LICENSE = "MIT"
 
-PV = "1.23.0"
+PV = "1.24.0"
 
-RPM_NAME = "libinput-debug-gui-1.23.0-1.2.aarch64.rpm"
-RPM_HASH = "81f1559ea2dd8dd0bb625628b178157cbc2736795f6e123d5c405a89518322b973c4dbc2bedd1c6340a94fbb33d3007ec8841ae226bedf47c6875d7480cde17a"
+RPM_NAME = "libinput-debug-gui-1.24.0-1.1.aarch64.rpm"
+RPM_HASH = "b2f6052be7b9d46848c10643a4fe4e22bfd8982aef738646483d742f52e4ce878229246fc472585bd28efb839c36de56f22966d84edba3210c7d10d18b6a1ee6"
 
 RPROVIDES:${PN} += "libinput-debug-gui"
 

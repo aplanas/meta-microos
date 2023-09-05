@@ -3,10 +3,10 @@ DESCRIPTION = "Tools for importing Subversion repositories to the Git version co
 system."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.41.0"
+PV = "2.42.0"
 
-RPM_NAME = "git-svn-2.41.0-1.3.aarch64.rpm"
-RPM_HASH = "1d2d2ce33d82246dcfe7c7a83f08cf0e43d77a1d1662d23bd616b6ced5af3ea09f338e1faf4fd779184e46eef6f04c3df08395e93a203c4c5b13a2772cffd816"
+RPM_NAME = "git-svn-2.42.0-1.1.aarch64.rpm"
+RPM_HASH = "55a9045033a19da2e1cb9a41f736e3912c14d6566a4af19aade7f0c424aaa0b7c29e6ac6fcdbb65a8148e5efe49255b4ecc6e4fa7bc768979dad1ec83b64a43f"
 
 RPROVIDES:${PN} += "git-svn"
 

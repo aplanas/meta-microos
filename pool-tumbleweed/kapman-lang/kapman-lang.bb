@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kapman"
 DESCRIPTION = "Provides translations for the 'kapman' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kapman-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "a367b36b6d61b01253e92929fffcd7ca93f5ad35e10ec49bcc6d38f65200ffccb849de1ec0943dfe229dc6dc04ac7cfc4dcdbe602410a8b0c58ef463d6b46929"
+RPM_NAME = "kapman-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "8ca4948888ab09faaa1041ffa1234a4e8d66988230eb6578ddeffc7ecd4ed969ee57a7fa73376849f56d20145748d78c7fa64291bf222b09f78ebc9f539aa7a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kapman-lang \

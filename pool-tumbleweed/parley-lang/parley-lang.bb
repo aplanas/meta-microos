@@ -2,10 +2,10 @@ SUMMARY = "Translations for package parley"
 DESCRIPTION = "Provides translations for the 'parley' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "parley-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "9c84462dc89abe99778cfbe74f172a2d4aabec92ba8345949fc4fc7a41fa9036d0436abea4f65d9e7b02af520a6873dd6c9242e1a273909eb58366e0bb4d0d9b"
+RPM_NAME = "parley-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "03c149171d1e2163f87d5a5328710f97b579c05ffa1d300d1defb504cd8cff63bbe108c6646545becfbb4b6e85425b3f092a0cacb3098422879ee57328f6ca4d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-parley-af \

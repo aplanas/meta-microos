@@ -2,10 +2,10 @@ SUMMARY = "ZSH completion for dolphin"
 DESCRIPTION = "ZSH command line completion support for dolphin."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "dolphin-zsh-completion-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "04ace11691f082c05bfc958c801afedb2c6e159401a4e2c00e5122b43dd8427036ae95d94d5a384ab9f8af983f7dca6a39fd2f719772778a718cafe3298caadc"
+RPM_NAME = "dolphin-zsh-completion-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "ca70c730165372a94f52a3032efbea260de7168839802bdea1610e6174f1ab554d416afee3a7dee86f9fa9260eb3f68c96f64eb33234dcf50e93cfb68a2f3d02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dolphin-zsh-completion"

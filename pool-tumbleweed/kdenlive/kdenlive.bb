@@ -6,10 +6,10 @@ designed to answer all needs, from basic video editing to semi-professional \
 work."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kdenlive-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "7070958b81733e37b95753a3e1917ff6393c1ded7b035577ed82c37a07280136e04bdc3079f76c835631d41f9b1709c3ece1d2d0f2e4d733bc210ac401c2a990"
+RPM_NAME = "kdenlive-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "b564ed00f43fa914700bc671b5ba718e48cabd0bdfc021c6908137ca88c742712c6a07724a2de05d3a8661f36ba10fd419b8e20f65000a0fbed32a2d9ecd4b5c"
 
 RPROVIDES:${PN} += "kdenlive \
 kdenlive5"

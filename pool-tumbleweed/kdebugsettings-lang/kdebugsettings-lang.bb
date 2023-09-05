@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kdebugsettings"
 DESCRIPTION = "Provides translations for the 'kdebugsettings' package."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kdebugsettings-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "b2f3b6a69ce498b78eb5751f6ebf88f78b78d1a640cba4254c788385ac4393ae5576d0866f832085add2c8414dd60415b7d1721d45a4d378b885ca4cbc09598f"
+RPM_NAME = "kdebugsettings-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "a7b9b76264116733b8678576580e1aa01a768e2fa2fd494a43268ef9ab84ab7f5fe3f331214f0dcf933becf4b2f01ed16b2df89e482f49c1712048287612f699"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdebugsettings-lang \

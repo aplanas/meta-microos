@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains header files and pkg-config files needed fo
 with the LibBytesize library."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.8"
+PV = "2.9"
 
-RPM_NAME = "libbytesize-devel-2.8-1.2.aarch64.rpm"
-RPM_HASH = "c91b0cf88eb194f8011759c66fa5c330c3c913dc1de2e72b262554cdf7ef132f00bab78f5903936d7ebbe3c0756c4b7b452760f9eee63f74c0f99544f9704a29"
+RPM_NAME = "libbytesize-devel-2.9-1.1.aarch64.rpm"
+RPM_HASH = "fbe11bddd2c77b4954ee3cffa57236303af2108a26aa603fd589616d9ef1229b7612f47f23132ab32eb805a4c6ca043c17b4d576f5f8b879b0d000388e4ccf08"
 
 RPROVIDES:${PN} += "libbytesize-devel \
 pkgconfig-bytesize"

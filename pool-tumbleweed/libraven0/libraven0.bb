@@ -2,10 +2,10 @@ SUMMARY = "Shared library for Raven"
 DESCRIPTION = "Budgie Desktop Notification Center."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "10.7.2+0"
+PV = "10.8+0"
 
-RPM_NAME = "libraven0-10.7.2+0-1.2.aarch64.rpm"
-RPM_HASH = "9110eee3a6a172d957dea1c47e3ad0f4c9b861a7a649f00df9b53c1e8c75bdf22031eabb7690018ddfb3c3af4ed99272c8fcd375d012e50bf7e5570044b67c75"
+RPM_NAME = "libraven0-10.8+0-1.1.aarch64.rpm"
+RPM_HASH = "64e9a34b847bca498f5788f44fc4f4d8b0d0e99cab9185488501bfda22bf7b4ef34aace45caab46bab13647b97b00de374c4afd9e5908c32cb8ea0f66d49811e"
 
 RPROVIDES:${PN} += "libraven.so.0 \
 libraven0"

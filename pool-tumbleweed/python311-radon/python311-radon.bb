@@ -8,10 +8,10 @@ Radon can compute: \
 * Maintainability Index (the one used in Visual Studio)"
 LICENSE = "MIT"
 
-PV = "5.1.0"
+PV = "6.0.1"
 
-RPM_NAME = "python311-radon-5.1.0-2.3.noarch.rpm"
-RPM_HASH = "e4498f3c3891a7dd5e9f785d950bf9702366c46e904871403ac2759e916dc0e44dc8b2a7a4d5387fd4092ae0f3c9707ba3d08a3ed2f472eb18799f0d0173f380"
+RPM_NAME = "python311-radon-6.0.1-1.1.noarch.rpm"
+RPM_HASH = "efe4e3d31dfce3f1df770daaf96b4c222dd713624b491c16ec3d0125b4000c1cc9a7a1828185fc489def73e5d0761d88f3356550c8e14fb8a8485f3623e4b5a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-radon \
@@ -23,7 +23,6 @@ RDEPENDS:${PN} += "/usr/bin/python3.11 \
 /usr/bin/sh \
 python-abi \
 python311-colorama \
-python311-future \
 python311-mando \
 update-alternatives"
 

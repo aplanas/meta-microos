@@ -2,10 +2,10 @@ SUMMARY = "Google APIs Python Client"
 DESCRIPTION = "Google APIs Client Library for Python"
 LICENSE = "Apache-2.0"
 
-PV = "2.93.0"
+PV = "2.97.0"
 
-RPM_NAME = "python311-google-api-python-client-2.93.0-1.1.noarch.rpm"
-RPM_HASH = "e06e0f37f6476e07baea87258a87f8429ee85c9d7bd5324fe37d26a3136e1028a6b62da907a45c229e64a305294a5bcf76f3a9e3e501b6a54fabe9a3356a2210"
+RPM_NAME = "python311-google-api-python-client-2.97.0-1.1.noarch.rpm"
+RPM_HASH = "9d500f42e74dad34b654235b8ada5fdb7a703a198b2790952949d6aa8f7f70218993b15045e5edc97499e224f9e9ec2f3c4f024c6a1f661342a772522dc0828c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-api-python-client \

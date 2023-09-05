@@ -9,10 +9,10 @@ details. It is controlled by ``lens'' definitions that describe the \
 file format and the transformation into a tree."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.13.0"
+PV = "1.14.1"
 
-RPM_NAME = "libaugeas0-1.13.0-2.2.aarch64.rpm"
-RPM_HASH = "22bd44ad11b191233c9dbf13b1dd591dbb6559f0455afb143634cba4237bbe9d8d94fe689ebbfbc9bb1b5e28e7876e0c1f0278460f162690c9f5042db5418fa3"
+RPM_NAME = "libaugeas0-1.14.1-1.1.aarch64.rpm"
+RPM_HASH = "a972bebc89ba8b29e6629483a1f5ed64e2367dff1afe17adc36dc67e2e72e08906e91a33bcb3a963a114033a39c104ad3aba8707e68f5c5ef94fcc7319e16f98"
 
 RPROVIDES:${PN} += "libaugeas.so.0 \
 libaugeas0"

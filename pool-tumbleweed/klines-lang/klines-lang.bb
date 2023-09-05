@@ -2,10 +2,10 @@ SUMMARY = "Translations for package klines"
 DESCRIPTION = "Provides translations for the 'klines' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "klines-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "a24c6bfe3203f898d69d4cdd24779e7204053abb6e3353e365f0cf8087f63dcf0f0f47eb9a0b1f89595bfc7e318fbfed2f49044260998835d89ab8b1f3017a86"
+RPM_NAME = "klines-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "fd648a18dfe36e23399a0a255601a3133c638a63ea081b6665c4d43e183ce6149d8c84a0777c5f763f47a87262f6d1cffd50b5df3e3e6b9d1458a34e71bb4f08"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "klines-lang \

@@ -16,10 +16,10 @@ These packages are not needed to create the dump and can be installed \
 after a crash dump has occured."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.9.5"
+PV = "1.9.6"
 
-RPM_NAME = "kdump-1.9.5-2.1.aarch64.rpm"
-RPM_HASH = "e5e9b28b51e5e5fcc3665e5831335aa06225ddaec9c69e06523f6f1447f0a787d53009844f1712254236d04229443f2df6a7c5d9465fc699a07b40a9e4421e06"
+RPM_NAME = "kdump-1.9.6-1.1.aarch64.rpm"
+RPM_HASH = "2502cfde691bd6f7a618f7090e1e246c0d560e9d4dea980637eb324f8b4b0f8a32e7822f141bd4bc6195e3eb67b2faa92f4d9d873220c5d283efa4ca6bd589d3"
 
 RPROVIDES:${PN} += "kdump \
 kexec-tools-/etc/init.d/kdump"
@@ -34,7 +34,6 @@ dracut \
 fillup \
 kexec-tools \
 ld-linux-aarch64.so.1 \
-libblkid.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \

@@ -2,10 +2,10 @@ SUMMARY = "Account wizard for KMail"
 DESCRIPTION = "An application which assists you with the configuration of accounts in KMail."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kmail-account-wizard-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "ac60bd9c697a79531a4f75c34fb861eb49444b5604ee083b6caa52ad9e152564ab0871235001c2e3a4c915c953569eb3f7d05fb2e5b8c86ea002cc887c20c96f"
+RPM_NAME = "kmail-account-wizard-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "ea2869579f0a61ae9acbc5ce27029d7df0006b6d42fbb2c4b6d5a02c9a1e666684591cf079c1bd159cffea3b4305b7f19c002c52af11051a71b11bef88ae2007"
 
 RPROVIDES:${PN} += "kmail-account-wizard"
 
@@ -21,7 +21,6 @@ libKF5KIOCore.so.5 \
 libKF5KrossCore.so.5 \
 libKF5NewStuffCore.so.5 \
 libKF5Notifications.so.5 \
-libKF5PimCommon.so.5 \
 libKF5Wallet.so.5 \
 libKF5WidgetsAddons.so.5 \
 libKF5XmlGui.so.5 \
@@ -33,8 +32,8 @@ libKPim5Ldap.so.5 \
 libKPim5Libkdepim.so.5 \
 libKPim5Libkleo.so.5 \
 libKPim5MailTransport.so.5 \
-libKPim5MailTransportAkonadi.so.5 \
 libKPim5Mime.so.5 \
+libKPim5PimCommon.so.5 \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \
 libQt5Gui.so.5 \

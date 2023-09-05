@@ -3,10 +3,10 @@ DESCRIPTION = "redfishtool is a commandline tool that implements the client side
 of the Redfish RESTful API for Data Center Hardware Management."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.1.5"
+PV = "1.1.8"
 
-RPM_NAME = "redfishtool-1.1.5-2.1.noarch.rpm"
-RPM_HASH = "c260a26a15dc8a90bbafa855240e11d56d7b1bb592a441d51693e6a0d8d6b0649aa6bce228a8c23d234be21ad919dd90d2b1f8a290f47e554944bbbf570bd20c"
+RPM_NAME = "redfishtool-1.1.8-1.1.noarch.rpm"
+RPM_HASH = "519ddc40aae08c592c707227a94dc4752c00453d9dae5781e8e7f9a6752b336a78dad5ab7c939f9bb749201ea38028be82af19bde5ef832640150de3c7ac47fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist-redfishtool \
@@ -15,7 +15,7 @@ redfishtool"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
 python-abi \
-python3-dateutils \
+python3-dateutil \
 python3-requests"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Development files for the KDE CD drive library"
 DESCRIPTION = "This package contains the development headers for libkcompactdisc."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libkcompactdisc-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "2594b1c6db1a6d6a19d242e3ff70b39f1de0370df780493f4788f933c6f153c5f23623bc8338bdf5f1b43bb6ddbd631a21ea9e9ac636f152dc081cecadb1b98f"
+RPM_NAME = "libkcompactdisc-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "c7bd556d9106fc2e03146dad659c67475c66c4bae167faacac6bf63b751b1db9e7ad44cf3ca28aaf0be41b6a7ad985984d48d78ba012f1b4f0ee0dd3ae22954a"
 
 RPROVIDES:${PN} += "cmake-KF5CompactDisc \
 libkcompactdisc-devel"

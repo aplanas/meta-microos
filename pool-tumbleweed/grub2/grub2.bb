@@ -7,10 +7,10 @@ computer architectures and hardware devices. \
 This package includes user space utlities to manage GRUB on your system."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.06"
+PV = "2.12~rc1"
 
-RPM_NAME = "grub2-2.06-55.1.aarch64.rpm"
-RPM_HASH = "d67788299ffd1f48ab008cc45b5a58b90d767b8d83c6fd42be83123a2e83570df93bec996721f492b29b3e5301c5ddda3a386cf8985eff1cd3e65b8591acad6f"
+RPM_NAME = "grub2-2.12~rc1-1.1.aarch64.rpm"
+RPM_HASH = "c2ab34ca975905a3de99ffdc357f4aa62f74be628db36e8bc0ebaf6216d2013a5c3dc79dda231d72f3160a85ec479e26347a7bc0f9f3991c5b65eec37cb00bce"
 
 RPROVIDES:${PN} += "config-grub2 \
 grub2"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.2.1"
 
-RPM_NAME = "calligra-gemini-3.2.1-7.21.aarch64.rpm"
-RPM_HASH = "dac60339bfa8f4d3f27f277a0f84279cb6685b2dda8b0069a49b6abcbbfccc5727621e4226a2a70043dd57a19399e34ce92bef9b86d63323d71a2b8d66d1e368"
+RPM_NAME = "calligra-gemini-3.2.1-7.22.aarch64.rpm"
+RPM_HASH = "2ac92d4d1153f8a79d030c9dd6e17aea860bea391dfea0cbab5eeffb931ab73a804d4d210185ffa856c95ad26a7633a36de431f68874be5e08f89e101cfa346d"
 
 RPROVIDES:${PN} += "calligra-gemini \
 libcalligrageminidropboxplugin.so \

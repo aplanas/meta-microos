@@ -9,10 +9,10 @@ public key. This works fine for small installations but may have \
 security implications, see README.SUSE."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.3.1"
+PV = "0.5.0"
 
-RPM_NAME = "pam_p11-0.3.1-3.2.aarch64.rpm"
-RPM_HASH = "408d692f373bbbb4bca0f94c3bfb8e2ae0721629461ae917029f7cd8046d4b93885999f7baa480e5fc04d442983c253f6283d42627a025fa9ed1860d53da858b"
+RPM_NAME = "pam_p11-0.5.0-1.1.aarch64.rpm"
+RPM_HASH = "95d3777620ab29c69752da8aa0c68ac7de8c7244b7938a3853a2c6abed62632dad2ac5b5911870e5a9f41f39f24984d20650d3a4f31d7242332bfa1b7fe6ad72"
 
 RPROVIDES:${PN} += "pam-p11"
 

@@ -2,10 +2,10 @@ SUMMARY = "Video player built with Qt/QML on top of libmpv"
 DESCRIPTION = "haruna is a video player built with Qt/QML on top of libmpv."
 LICENSE = "CC-BY-4.0 & GPL-3.0-or-later & WTFPL"
 
-PV = "0.12.0"
+PV = "0.12.1"
 
-RPM_NAME = "haruna-0.12.0-1.1.aarch64.rpm"
-RPM_HASH = "4ed9990b8fe34005c985d37a49406d6ba42c4ed02700d12a4e7457b7e38bd63ca30d54184fa62207324422aea683316dadeb6bce363362c9a11456f7edf3fc25"
+RPM_NAME = "haruna-0.12.1-1.1.aarch64.rpm"
+RPM_HASH = "7654633ed6da1e9af415d87b99012628c50a510d156e038111fe4abd350f82ec323e0b811b3f1949f5c16553b9c6eb5dff33a00d3ebe3121977d52511b8fd502"
 
 RPROVIDES:${PN} += "haruna"
 

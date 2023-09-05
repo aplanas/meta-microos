@@ -4,10 +4,10 @@ IEEE 1003.1 (POSIX.1) standards document which are not accessible \
 through other means."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.9"
+PV = "8.2.10"
 
-RPM_NAME = "php8-posix-8.2.9-1.1.aarch64.rpm"
-RPM_HASH = "6fbb2699e7bde3960a4514d551470e8b73986c712d12a1bb708d4dbd03abdbcb45d6ec67b17bce5854d4480ea23ba9da3e5ac0bac8657ad4163054f4494d71cd"
+RPM_NAME = "php8-posix-8.2.10-1.1.aarch64.rpm"
+RPM_HASH = "a66bdc4ed02daffba57796e066451d2608490c84408c9f94964185dc2d9988e04c8476f5544fc222a3ee7b1b22c83e9a21f2d20c67e7aaa45054f6ab6c7fc2cd"
 
 RPROVIDES:${PN} += "config-php8-posix \
 php-posix \

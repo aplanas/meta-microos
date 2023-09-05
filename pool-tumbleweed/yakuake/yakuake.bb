@@ -2,10 +2,10 @@ SUMMARY = "Drop-down terminal emulator based on Konsole technologies"
 DESCRIPTION = "Yakuake is a Drop-down terminal emulator based on Konsole technologies."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "yakuake-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "a46f587a096d3027542f4c2ee80746ad43debb8ceaa961300f5026d4a77b824c6f3d9b83cb531a4481f1f55daa7883687f787f86e747f5de87c81bbae3e810d6"
+RPM_NAME = "yakuake-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "927558318514f61f6babe82e171269503bdf1b2a862440bab314710378e201b4d95a2967765aa2493920d465270da31b7ab8c23b8104a15c737833bce823b182"
 
 RPROVIDES:${PN} += "yakuake"
 
@@ -22,12 +22,11 @@ libKF5GlobalAccel.so.5 \
 libKF5I18n.so.5 \
 libKF5IconThemes.so.5 \
 libKF5KIOCore.so.5 \
-libKF5NewStuff.so.5 \
 libKF5NewStuffCore.so.5 \
+libKF5NewStuffWidgets.so.5 \
 libKF5Notifications.so.5 \
 libKF5NotifyConfig.so.5 \
 libKF5Parts.so.5 \
-libKF5Service.so.5 \
 libKF5WaylandClient.so.5 \
 libKF5WidgetsAddons.so.5 \
 libKF5WindowSystem.so.5 \

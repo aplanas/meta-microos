@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kio_audiocd"
 DESCRIPTION = "Provides translations for the 'kio_audiocd' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kio_audiocd-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "e42ef3ea6ec18e7dc4da936da42987fd5829ef5f98342345d7ad0ab015832a329fcded93a9a88aa0311238fb722082d2289950264819a851d8b850214e8e3476"
+RPM_NAME = "kio_audiocd-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "029fbd7cf73c80a8903495055bf6cc267820b349953daf52e796c3308bea3d098be6d2cec17a63af46828b1cb53e0a28bffa547008b3ee406ee0649447ad29f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kio-audiocd-lang \

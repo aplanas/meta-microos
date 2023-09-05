@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & MIT"
 
 PV = "5.68"
 
-RPM_NAME = "bluez-test-5.68-4.1.aarch64.rpm"
-RPM_HASH = "cb4dbcbbbccb05820e467a004a90e114bbdbff95c747584684f4dd215de5394fa014202ed89dc21ffaba84b89edd33197053c32193bfa6eaa207431e483dbbd0"
+RPM_NAME = "bluez-test-5.68-4.2.aarch64.rpm"
+RPM_HASH = "6491a497c7017ee496a357561409df1e1258bdf5247d8e26d35cb79da742dd7e4bfb2b24d3a0e1b3d1a040aa704ee37f0eac3e7fd3075a1e1f8badfd498c45d4"
 
 RPROVIDES:${PN} += "bluez-test"
 

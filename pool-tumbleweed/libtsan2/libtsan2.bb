@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "13.2.1+git7683"
 
-RPM_NAME = "libtsan2-13.2.1+git7683-1.1.aarch64.rpm"
-RPM_HASH = "741f3d6c527377368f1da3d8606954b5e1e787e9db735de9ff7e5293a03c3d92753dc77fe0308d51b2f6907d1ef7cd723413374b0f0cc94113d374d34b1d6e2e"
+RPM_NAME = "libtsan2-13.2.1+git7683-2.1.aarch64.rpm"
+RPM_HASH = "90a7bc95180aa6a4e9cbcf45095949f5e3a987f788e7f61c94b1e27c21c4e4ce3ea27b57b36c75fa0dafcbf3bc6e499975f96259b2a82a2dc4cf5de01d0b0f2a"
 
 RPROVIDES:${PN} += "libtsan.so.2 \
 libtsan2"

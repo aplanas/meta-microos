@@ -2,10 +2,10 @@ SUMMARY = "Firewalld service file for keylime"
 DESCRIPTION = "Subpackage of keylime for the firewalld XML service file."
 LICENSE = "Apache-2.0 & MIT & BSD-3-Clause"
 
-PV = "7.4.0"
+PV = "7.5.0"
 
-RPM_NAME = "keylime-firewalld-7.4.0-1.1.noarch.rpm"
-RPM_HASH = "026d9849c9d2bf1c708ad5f34080b668c80c921b21eaed1467a3b6dbe66f34bb98ceae365d9e812654d472e389ac4a73d921ffd893d15a0060347f3d38925479"
+RPM_NAME = "keylime-firewalld-7.5.0-1.1.noarch.rpm"
+RPM_HASH = "97d2f1abb01b82c9fe73c54a12be275ed286565a3faba21964d408f86cb1f8a5f3bab38df7ac6d667d750ab615ecd0439e1733321df0c473513da353a36f6c3c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keylime-firewalld"

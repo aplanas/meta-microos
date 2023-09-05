@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the libksieve library, which is used to sup
 the Sieve server-side mail filtering protocol in KDE PIM applications."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libksieve5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "d3cba6314cdab258b62f47d942c7e53b60c2ae53a696c899cadd8498b5142975483158234537a0f78e7e386206c4aa6434a0155f8641304544143a794bbe1a78"
+RPM_NAME = "libksieve5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "dbee59cf4a751543d0d4c617bd24c5ca934e2295318147d47e48d8737bc1a16b11768e3815336181c719708d2ecaffe8ebe3249c37abd3754631f832e949df4b"
 
 RPROVIDES:${PN} += "libKPim5KManageSieve.so.5 \
 libKPim5KSieve.so.5 \
@@ -25,7 +25,6 @@ libKF5IconThemes.so.5 \
 libKF5KIOCore.so.5 \
 libKF5KIOGui.so.5 \
 libKF5KIOWidgets.so.5 \
-libKF5PimCommon.so.5 \
 libKF5SonnetUi.so.5 \
 libKF5SyntaxHighlighting.so.5 \
 libKF5TextEditTextToSpeech.so.1 \
@@ -33,6 +32,7 @@ libKF5WidgetsAddons.so.5 \
 libKPim5IdentityManagement.so.5 \
 libKPim5Libkdepim.so.5 \
 libKPim5Mime.so.5 \
+libKPim5PimCommon.so.5 \
 libKPim5TextEdit.so.5 \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \

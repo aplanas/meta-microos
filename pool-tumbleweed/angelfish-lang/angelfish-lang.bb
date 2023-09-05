@@ -2,10 +2,10 @@ SUMMARY = "Translations for package angelfish"
 DESCRIPTION = "Provides translations for the 'angelfish' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "angelfish-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "2084711f578c181098437cc1a4594bcccbb3f4479a2432ffd4471170ca7b3291f024a446affeb9497c17d1ac0e2c0238aec0b514b29867d504072ae47ed60917"
+RPM_NAME = "angelfish-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "0b5b354b7763c86a3d11de74767551b1a524515002c2223f239bf3e9a0b1efa1377e7864f7cc8e3e4dfdeff77dbba48ca811bd837de7649e91b84d40f2540804"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "angelfish-lang \

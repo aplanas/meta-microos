@@ -12,10 +12,10 @@ better when multiple modules are compressed together, since \
 compressor's dictionary can find better cross module commonality."
 LICENSE = "BSD-3-Clause"
 
-PV = "12.2.0"
+PV = "12.3.1+sdk261"
 
-RPM_NAME = "glslang-devel-12.2.0-1.1.aarch64.rpm"
-RPM_HASH = "e43a5195dcd6865c81edce6cc32f432d4412ce36a735d65fb676bb0e66900be399bd11ab7c7c8f1194e0885c72bc12f427f4c5125743104222d4985ce69d0961"
+RPM_NAME = "glslang-devel-12.3.1+sdk261-1.1.aarch64.rpm"
+RPM_HASH = "1bd84e4d5a3145bf70ef31699bdfc52e8ec486ae013bec4daac840e74c4497b0cfe7d944963c76905416aa13af1bec91cb40c0f7661f7e5491a48ed287f72fb4"
 
 RPROVIDES:${PN} += "cmake-glslang \
 glslang-devel"

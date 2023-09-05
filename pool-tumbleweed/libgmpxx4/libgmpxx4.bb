@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
 PV = "6.3.0"
 
-RPM_NAME = "libgmpxx4-6.3.0-1.1.aarch64.rpm"
-RPM_HASH = "e281026502e01150dee2fdab9deda0ae80157f40cd347d7c2783c2fe70064aada4fd5e95b36ece9a64f6be2280d42316f134d22e83290548e1a029277cd0e083"
+RPM_NAME = "libgmpxx4-6.3.0-2.1.aarch64.rpm"
+RPM_HASH = "482b1440769f64ddba81438d5730cd3a13f95fb99cf2e8f6f4cd386e232437b0e547acacfae5b053f847ba17f9c8cb0fc05ba0327e1071736639a1a4f585835b"
 
 RPROVIDES:${PN} += "libgmpxx.so.4 \
 libgmpxx4"

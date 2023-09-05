@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "2.20.0"
 
-RPM_NAME = "libHYPRE-gnu-mpich-hpc-2.20.0-1.24.aarch64.rpm"
-RPM_HASH = "e753cebf9dce4ed8f8ca702ccb404405fab23e633bef4f95171cd5b3af1bac9f4d553faf12c49b81b55e08cd247bc075609a6e8702875036ffd4853be1fea775"
+RPM_NAME = "libHYPRE-gnu-mpich-hpc-2.20.0-1.25.aarch64.rpm"
+RPM_HASH = "52a6ed64d227dc94c2c4809b45afd733ce293e2cf0e0f3f803ea044a501001fd4c793900ef35948a8904b8b680cc6872302bad91c1b9fe172abc8ceee67afd93"
 
 RPROVIDES:${PN} += "libHYPRE-gnu-mpich-hpc"
 

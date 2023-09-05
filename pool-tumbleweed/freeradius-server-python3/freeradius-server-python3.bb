@@ -2,10 +2,10 @@ SUMMARY = "Python3 support for freeradius"
 DESCRIPTION = "FreeRADIUS plugin providing Python3 support."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
-PV = "3.2.1"
+PV = "3.2.3"
 
-RPM_NAME = "freeradius-server-python3-3.2.1-1.7.aarch64.rpm"
-RPM_HASH = "dc3df744e6a5a6161284f2969e56d2c06fe06a3077ed316bf7c6d700e4eaafa388815dc6dab5af9ea48f7d95b504dcc5d6d4354fea25f29ac7d425f1f2093985"
+RPM_NAME = "freeradius-server-python3-3.2.3-1.1.aarch64.rpm"
+RPM_HASH = "930b5dbb10ab3114f059a0829e0db8afb6369f06e209af8da0f1a8af5c628928f45849aceafe5be8002259d070b1f6c505dcbd9344ff161619bcb3207eca76aa"
 
 RPROVIDES:${PN} += "freeradius-server-python3"
 

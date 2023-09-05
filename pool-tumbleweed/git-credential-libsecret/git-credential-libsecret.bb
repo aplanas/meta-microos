@@ -3,10 +3,10 @@ DESCRIPTION = "A Git credential backend which uses libsecret API to acces keyrin
 kwallet or GNOME keyring."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.41.0"
+PV = "2.42.0"
 
-RPM_NAME = "git-credential-libsecret-2.41.0-1.3.aarch64.rpm"
-RPM_HASH = "baffbc4092135695acb2836ac299b9b9c0459ecdbc1c624fe7210354ed2b7c7a3efaabf476f90fd624557c12aed6c21b1efa82314dae8aa9300948bfc27dc177"
+RPM_NAME = "git-credential-libsecret-2.42.0-1.1.aarch64.rpm"
+RPM_HASH = "9e8c068b9ecbbe36689c03d333b1e90c18713782a2c6826c198fb96a0b82a40d7dd75d844058c937548b9f760e86a9afe5ca20dd5b2643fcdda91da1285a9a71"
 
 RPROVIDES:${PN} += "git-credential-libsecret"
 

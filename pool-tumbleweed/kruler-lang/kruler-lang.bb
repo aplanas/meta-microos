@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kruler"
 DESCRIPTION = "Provides translations for the 'kruler' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kruler-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "f3bbfef0168be987f0d0e67d446df225209723fb3cda8211ccabcf9513a7a99fd3e5ffd5841789c63b251385c21fdc0b5f35bffb2a125ffdc993a68a4d5057e4"
+RPM_NAME = "kruler-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "c6c2a067fa1e5e658a53172142d7e4bd05f448c06a1d91410d09b203913b72785733d202416ab1061a1a0ba48114dbe1074c30ba23adf27e3be2907bba4c6485"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kruler-lang \

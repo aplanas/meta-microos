@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.5.28"
 
-RPM_NAME = "libdjvulibre-devel-3.5.28-5.1.aarch64.rpm"
-RPM_HASH = "9c39f9a5a10b39a866723e131592ae05f730547a5895f339ac2896bac0bcb50d939dc9d64e095afe38b0c6e57cdde9918b7707e41c6e59ca81dffbc05ba4838b"
+RPM_NAME = "libdjvulibre-devel-3.5.28-6.1.aarch64.rpm"
+RPM_HASH = "935b05c4bb6724bd7a24afcd0bdd885856cb2ae8b3b153b993352c8b5bcdf87ee7472d31addc7e639c9bf96f8637cbd8083b5a61f74a6f5839fd363966fafa57"
 
 RPROVIDES:${PN} += "libdjvulibre-devel \
 pkgconfig-ddjvuapi"

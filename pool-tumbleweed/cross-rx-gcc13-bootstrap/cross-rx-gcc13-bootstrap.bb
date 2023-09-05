@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "13.2.1+git7683"
 
-RPM_NAME = "cross-rx-gcc13-bootstrap-13.2.1+git7683-1.1.aarch64.rpm"
-RPM_HASH = "ff7bb4d71f90c05770ded641629f26869ac0f12dc4a114d367f2d06d923e15104c0fd3c47a6b5ba9556470b9ffca5e28d07e1bc6a2150434441089aed6c331ff"
+RPM_NAME = "cross-rx-gcc13-bootstrap-13.2.1+git7683-2.1.aarch64.rpm"
+RPM_HASH = "705abe07a35e20579afec98dbadda2d03bbb1cc898f905702a65e157b6d30303624a3647ee91899f577d0b470c73fe4c143eba8dfad599be4a194fdfb66c7060"
 
 RPROVIDES:${PN} += "cross-rx-gcc13-bootstrap \
 rx-elf-gcc"

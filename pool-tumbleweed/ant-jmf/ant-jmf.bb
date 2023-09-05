@@ -4,10 +4,10 @@ DESCRIPTION = "Apache Ant is a Java-based build tool. \
 This package contains optional jmf tasks for Apache Ant."
 LICENSE = "Apache-2.0"
 
-PV = "1.10.13"
+PV = "1.10.14"
 
-RPM_NAME = "ant-jmf-1.10.13-2.1.noarch.rpm"
-RPM_HASH = "9a48b2b19bcb1774677c30dc520e500f2147902cf75cbe4a4e21c22d57260937042fa0a16273e9a564f8b7f7492cf7c0b79a784605b5eab1843aa4bc53312776"
+RPM_NAME = "ant-jmf-1.10.14-1.1.noarch.rpm"
+RPM_HASH = "697493263c1718af74d0e634c90a20fd4057aecacc8f8881caea3ac3e596704af26686653a6ef0532832881a3c8953adc7ff6101f0c3308ec16607f124b6e57b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-jmf \

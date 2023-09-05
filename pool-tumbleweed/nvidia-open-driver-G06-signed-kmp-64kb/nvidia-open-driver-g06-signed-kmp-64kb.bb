@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the open-source NVIDIA kernel module driver
 for GeForce RTX 2000 series and newer GPUs."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "535.86.05_k6.4.11_1"
+PV = "535.86.05_k6.4.12_1"
 
-RPM_NAME = "nvidia-open-driver-G06-signed-kmp-64kb-535.86.05_k6.4.11_1-3.4.aarch64.rpm"
-RPM_HASH = "fea4ee46401df61e2ba8a391981d8a5c97eb2cd15c6cf41ee50fa7174a6e657ecdae36422ee89b0b6d0367d8974b345a8f77535733c0278971d9e48207ed7bdd"
+RPM_NAME = "nvidia-open-driver-G06-signed-kmp-64kb-535.86.05_k6.4.12_1-3.5.aarch64.rpm"
+RPM_HASH = "29daaecd92fd99e61e275c79b60e37810ddd5edebc690952c6826e2d2e5a088488b88cb75346a891d7cd00e282601ef7a59669169c8baf42d8e36eab42e6a546"
 
 RPROVIDES:${PN} += "config-nvidia-open-driver-G06-signed-kmp-64kb \
 kmod-nvidia-drm.ko \
@@ -17,7 +17,7 @@ kmod-nvidia.ko \
 multiversion-kernel \
 nvidia-open-driver-G06-signed-kmp \
 nvidia-open-driver-G06-signed-kmp-64kb \
-nvidia-open-driver-G06-signed-kmp-64kb-k6.4.11-1"
+nvidia-open-driver-G06-signed-kmp-64kb-k6.4.12-1"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \

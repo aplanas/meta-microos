@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2"
 
-RPM_NAME = "geronimo-interceptor-3_0-api-1.2-36.12.noarch.rpm"
-RPM_HASH = "1290ee22d12810569688392c6401038c14064ac12efaba711ea8db6744b431bcc350834cd706cad5401e9e460403d2e560fb03790b2ad2966fa8a8d736968303"
+RPM_NAME = "geronimo-interceptor-3_0-api-1.2-37.1.noarch.rpm"
+RPM_HASH = "e2a600ccdaa099874aaeb00e0c05c5d998e415a988914c785d818c64194f9ae9f97e73f98ee5b0f4b615c1a7081fbc22032ea518ea36faffb64a80acc041bb77"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "geronimo-interceptor-3-0-api \

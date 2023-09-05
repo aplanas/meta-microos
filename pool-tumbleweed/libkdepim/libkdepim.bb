@@ -2,10 +2,10 @@ SUMMARY = "Base package of kdepim"
 DESCRIPTION = "This package contains the libkdepim library."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libkdepim-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "a00f51d5d8f85c100e0f778d18a5baca86cd63a0e48d65f916ce57fccff0abae734ed8eaf38f44e3e552d73c57644b27a5688bc82c8c0dce55371d2adc0fafef"
+RPM_NAME = "libkdepim-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "3311de3e6d51cab3ef8659d85d6852ab09da444ffe59d686a1cb536fcf08bb5d045e2082bdbe609fcf16e761eeb102fd371f8bec6b42fdef29e96f45edc656e5"
 
 RPROVIDES:${PN} += "libkdepim"
 

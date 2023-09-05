@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2.3"
 
-RPM_NAME = "flatpak-builder-1.2.3-2.4.aarch64.rpm"
-RPM_HASH = "5378a48d0859d801982e7850cb38c42b1a74e22eb8c5a0e514b6453274804dd4ee3e5ea1258543081fa8580023cef562d3dbdc22c9bd69481164201f2037dc56"
+RPM_NAME = "flatpak-builder-1.2.3-3.1.aarch64.rpm"
+RPM_HASH = "566f4b2972c1a73695f0da7bbdc624352fbc064e5e577db9bd65c00c82742cc4c76d14d4ed82516534c45db2c3123a77c1d3274f88e088474c6ef5503dbc4645"
 
 RPROVIDES:${PN} += "flatpak-builder"
 

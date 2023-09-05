@@ -3,10 +3,10 @@ DESCRIPTION = "Blosc is a high performance compressor optimized for binary data 
 (i.e. floating point numbers, integers and booleans)."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & MIT"
 
-PV = "2.9.1"
+PV = "2.10.2"
 
-RPM_NAME = "libblosc2-2-2.9.1-2.1.aarch64.rpm"
-RPM_HASH = "b266f2efb9352997aa5d398a19a5132baa5870f8e2530c6814a7bf9be7fdcf261bcd5496d077dec38591b1e81a35ca55fc3ceb3ed8ae93e5215af97baa096e88"
+RPM_NAME = "libblosc2-2-2.10.2-1.1.aarch64.rpm"
+RPM_HASH = "457b340c924006d46079151372ca8860f53cbf0b7ee89b5e7a679cdcc3f06c529575dc7fc7407472a4bdc4acf7c6d34382c83ffc3b372a07aeb8a19e6d2fe015"
 
 RPROVIDES:${PN} += "libblosc2-2 \
 libblosc2.so.2"

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Nvidia Tegra and graphics drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230814"
+PV = "20230829"
 
-RPM_NAME = "kernel-firmware-nvidia-20230814-1.1.noarch.rpm"
-RPM_HASH = "e0e2825d0662d38c21f8eaff9a5e5371e19bc69cd0c820ffda7bac9cf26963a8e16fbd088cc74bcec2259f87df302f4069ffc65b744bd8aa549ebd8aeb047188"
+RPM_NAME = "kernel-firmware-nvidia-20230829-1.1.noarch.rpm"
+RPM_HASH = "49b0cb7308e90ba0806cb5da0c57e2a860f4eef76cfa7c4eddaf93ccc1f1b97361f0404e0277457ddecad2de1159a3c50e147da284f8c7bf526809ba7e64abeb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-nvidia/ga102/acr/ucode-ahesasc.bin \

@@ -2,10 +2,10 @@ SUMMARY = "Finite automaton library for Augeas"
 DESCRIPTION = "Component library for the Augeas configuration parser."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.13.0"
+PV = "1.14.1"
 
-RPM_NAME = "libfa1-1.13.0-2.2.aarch64.rpm"
-RPM_HASH = "5d9fb2bb7e466ea882a3ab211322ad0dd6c6e11a0d050747637e5d088912852585e99a928b910ac19df901e69f07be74ef16a75ab6f0bfdfc72b5320421e2be4"
+RPM_NAME = "libfa1-1.14.1-1.1.aarch64.rpm"
+RPM_HASH = "7ad52986aa7bf79fa020c72c3b1afd4d44b47951d5b9afdff6ddc9232dc9dd75289f8370466f7ffe659cbf00ada68d8361489c692a8507b039e5a6643d826e5f"
 
 RPROVIDES:${PN} += "libfa.so.1 \
 libfa1"

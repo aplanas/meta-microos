@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kamera"
 DESCRIPTION = "Provides translations for the 'kamera' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kamera-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "6cfdc75e21faa35878671cc5564821e4aa0de0e9e1c6b2b99117b484288d6cba644b25bc90b780bb8c04f2256e5cabd6f4bad17ed8dc228e5ceb15fd55c7f413"
+RPM_NAME = "kamera-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "085b1dbb7bb9c26a0e5ea1d0657ec00404e1d803fa84a90758eed35bd01c2a8911ca58acc7b429679e64253b94cf92a67a8f5fb1b9b8d2c2e9e712ff6026a8fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kamera-lang \

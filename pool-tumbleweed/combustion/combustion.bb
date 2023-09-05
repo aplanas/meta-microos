@@ -9,16 +9,15 @@ new system snapshot. On success, the system will directly boot into that new \
 snapshot, so that no reboot is needed."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1+git0"
+PV = "1.2+git2"
 
-RPM_NAME = "combustion-1.1+git0-1.1.noarch.rpm"
-RPM_HASH = "58f6e0da0ed63a6dc3dfb6360a1c03d79040d8a6a4f83525ae092cdd9b4c96e8411e3c0edfbc3a7ef31e0dc1a886668d186442caa570fbd433f4eec530125100"
+RPM_NAME = "combustion-1.2+git2-1.1.noarch.rpm"
+RPM_HASH = "20897e73035c3115bb4757bd65abd10f6ccc877ad23aa8c5095eef406fed94d9f15f6ba7a78b30813d10284d99f0c223f23b647cce28e4b2030a29d31175debe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "combustion"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/sh \
-ignition-dracut-grub2"
+/usr/bin/sh"
 
 inherit rpm

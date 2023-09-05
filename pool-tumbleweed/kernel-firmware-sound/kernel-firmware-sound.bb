@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 various sound drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230814"
+PV = "20230829"
 
-RPM_NAME = "kernel-firmware-sound-20230814-1.1.noarch.rpm"
-RPM_HASH = "2275b0055aad07e6432f07470888b2c9107e176ffac036f77b0101323aa58381dffee2b239699f6dfdafde3198c619c3db18f016c57a94358bf1939c79bf60c5"
+RPM_NAME = "kernel-firmware-sound-20230829-1.1.noarch.rpm"
+RPM_HASH = "b16c3bfd4e6d0dedda3a2bf292aee5b4e6132ba0778c3acb421ec0d53b644789308ec1bb176554b0ebf95767cf4d0b552f836b364494e593f46f35ab3bdcfec0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-cirrus/cs35l41-dsp1-spk-cali-10280cbd-spkid0.bin \

@@ -3,10 +3,10 @@ DESCRIPTION = "The KDE Compact Disc library provides an API for applications usi
 the KDE Platform to interface with the CD drives for audio CDs."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKF5CompactDisc5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "41462623cd841a6d87e48a67772d687278e57b6211bef3f7f62a7086c9dd1225f60ba28b59f165c8db08fc92016862770642d64df69a4381bd574216d75b64a6"
+RPM_NAME = "libKF5CompactDisc5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "e987087ac8438e00efe42bfd2e3c35c6da3ed8ab04af355a9dd2f13bcc16654879544b36c329f59e2abf4f694f4f6d7f5e76890fa249bbf1cceca76ccb6f1c70"
 
 RPROVIDES:${PN} += "libKF5CompactDisc.so.5 \
 libKF5CompactDisc5 \

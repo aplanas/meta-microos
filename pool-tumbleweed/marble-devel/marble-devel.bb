@@ -2,10 +2,10 @@ SUMMARY = "Generic map viewer: Build Environment"
 DESCRIPTION = "Development headers and libraries for Marble."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "marble-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "caec8f125f6de58c558517325d78d8e189c0c5a43bc0d0b36c30b357a8e216691fdcd638d3e237635b1f203773f049d852a2072ed55d7ec4bb611e2deb65419c"
+RPM_NAME = "marble-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "770183eec9e8d464a22859e9a677672fb3dddb7bb599fc10a8b927720290b786d653bde8736e251a1b5bfa17efc9e10586164cdc8d5aae55c9ebea73bced8e62"
 
 RPROVIDES:${PN} += "cmake-Astro \
 cmake-Marble \

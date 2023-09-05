@@ -8,8 +8,8 @@ LICENSE = "AGPL-3.0-only"
 
 PV = "2.6.0"
 
-RPM_NAME = "PrusaSlicer-2.6.0-1.1.aarch64.rpm"
-RPM_HASH = "4212e3eb515b8b8e5f7fa44d3c28d1e35e9ba32d814f6913678dc0aa7e47502abcce9a17aa416d7c0cdaafcce538eef5bf6dbf713147b4e1602897461178b50f"
+RPM_NAME = "PrusaSlicer-2.6.0-2.1.aarch64.rpm"
+RPM_HASH = "e7a400e7e24f954bd49d5808e95001fd0b655638aba06fa6f2e2076d64ae2ad2e25874b445eceb4fcca244e2700e8c1bda090b8dbaf176f50c8c43f0accdb0b3"
 
 RPROVIDES:${PN} += "PrusaSlicer"
 

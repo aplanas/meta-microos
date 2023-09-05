@@ -2,10 +2,10 @@ SUMMARY = "Python bindings of evas"
 DESCRIPTION = "Python bindings of the Enlightenment Foundation Libraries (efl)."
 LICENSE = "GPL-3.0-only & LGPL-3.0-only"
 
-PV = "1.25.0"
+PV = "1.26.0"
 
-RPM_NAME = "python39-efl-1.25.0-2.6.aarch64.rpm"
-RPM_HASH = "bbf3be2fa63d4a4d3bad98cf32221a2656734da0a174cb6b8e66466f71b56aae9625f6eb446cd8fabc2757d4d82403392bfaacfc6d84eeea027d77a7eeb0337a"
+RPM_NAME = "python39-efl-1.26.0-2.1.aarch64.rpm"
+RPM_HASH = "87c46a10f6b6cf838ec8e7a80c09bcc1384cd1db02519e69368bee72d595f6e07937ddecf48b865cfb6195756dd1d192d0ccd544ccf2ddc3e84ae43d464bfc45"
 
 RPROVIDES:${PN} += "python3.9dist-python-efl \
 python39-efl \

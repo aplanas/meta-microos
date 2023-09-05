@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
 PV = "13.2.1+git7683"
 
-RPM_NAME = "libatomic1-13.2.1+git7683-1.1.aarch64.rpm"
-RPM_HASH = "03b6abee27110c7f4873e2790f85371409891386330897101ee3711e4c719684375ed0c7f4505ea75dff39d678d66c7d4fd2aff6712a4dc4515bfee903ef1938"
+RPM_NAME = "libatomic1-13.2.1+git7683-2.1.aarch64.rpm"
+RPM_HASH = "b7218140797258382976f7949b0d1b7d26365703557aea8fd7a5819656b0bcfa65eb3596a624e7a7411d0d4af9349af806768a7db351c1dfdaa2a0a2ea95e883"
 
 RPROVIDES:${PN} += "libatomic.so.1 \
 libatomic1"

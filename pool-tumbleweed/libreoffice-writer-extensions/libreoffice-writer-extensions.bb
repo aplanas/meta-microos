@@ -4,10 +4,10 @@ DESCRIPTION = "This package provides extensions for LibreOffice Writer: \
 - MediaWiki Publisher"
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.0.3"
+PV = "7.6.1.1"
 
-RPM_NAME = "libreoffice-writer-extensions-7.6.0.3-1.1.aarch64.rpm"
-RPM_HASH = "2c521490a5cc666d1808ad50757dff9c29773e0600b684ba8ebfad3575ec1549c77b4e79f568adf8a558fc0d95fd4bb52d69968d2e7d22769776d80c33d35da4"
+RPM_NAME = "libreoffice-writer-extensions-7.6.1.1-1.1.aarch64.rpm"
+RPM_HASH = "f36951f6d4f5a134c6e6cef8176a9a05d23519226420da37818d5aa75be6327ad79e226ea69c55f33608de5b31b6f25ede06015605383c60a368ab1fd5fcba70"
 
 RPROVIDES:${PN} += "libreoffice-writer-extensions"
 

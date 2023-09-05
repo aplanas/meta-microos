@@ -4,8 +4,8 @@ LICENSE = "BSL-1.0"
 
 PV = "13.2.1+git7683"
 
-RPM_NAME = "libgdruntime4-13.2.1+git7683-1.1.aarch64.rpm"
-RPM_HASH = "43e4e19ab89aaea355f05dfe2e8b11a19889ec08a356f43b7c2d54fd07bf31e45457718a13e24538a6c13e74d503b3a19766b59b1ce4b24675162b5139f7b899"
+RPM_NAME = "libgdruntime4-13.2.1+git7683-2.1.aarch64.rpm"
+RPM_HASH = "2f025329938c60a0b641cbf32bddaa5486eb979f6af0e6bfc66bd1cdaa91af4892b09226236ea7d4a48470e6fff8035891a73c6348101e905e9195c0d0c4cedc"
 
 RPROVIDES:${PN} += "libgdruntime.so.4 \
 libgdruntime4"

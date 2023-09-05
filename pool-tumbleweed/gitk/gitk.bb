@@ -7,10 +7,10 @@ A simple Tk based graphical interface for common Git operations is \
 found in the package git-gui."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.41.0"
+PV = "2.42.0"
 
-RPM_NAME = "gitk-2.41.0-1.3.aarch64.rpm"
-RPM_HASH = "e12e4db7649e3a0b88bbabbe9d5e2ec2c54770231776107fcfc380c63f9dd20eecd4920e1b67aa9c9ca539d8bf70858a3cfed89d8bb3df4d47c7de7a44985d6a"
+RPM_NAME = "gitk-2.42.0-1.1.aarch64.rpm"
+RPM_HASH = "340367169c2fc0984c526b73aa5ccc5c4d1e1e71ca370ebd166cbde45eea9296ba3ebde0003a0c4ed5e6c98dd87bb48267ab2d01ef6b09cca4ddd33790315565"
 
 RPROVIDES:${PN} += "gitk"
 

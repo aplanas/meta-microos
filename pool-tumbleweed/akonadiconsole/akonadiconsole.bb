@@ -4,10 +4,10 @@ Akonadi. This utility exposes Akonadi internals, and can be useful \
 for debugging."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "akonadiconsole-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "af7b94b236f605039f3d59950d343cec51477824bf3530cf0fd37187eeeaeef5a13954a1930bfbc321b1db50a358feb33035d71df7f8198957565d816eac0b15"
+RPM_NAME = "akonadiconsole-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "6a372ebb7073edba8bcaa1c88a735c82f620f45749ca3e2f8924b5628a7833138468d80ec4d3a4c63b8c854bea8f99f2605b05c15c0572088859179df8f1c8c3"
 
 RPROVIDES:${PN} += "akonadiconsole \
 libakonadiconsole.so.5"
@@ -27,7 +27,6 @@ libKF5ItemModels.so.5 \
 libKF5TextWidgets.so.5 \
 libKF5WidgetsAddons.so.5 \
 libKF5XmlGui.so.5 \
-libKPim5AkonadiContact.so.5 \
 libKPim5AkonadiCore.so.5 \
 libKPim5AkonadiPrivate.so.5 \
 libKPim5AkonadiSearchCore.so.5 \
@@ -35,6 +34,7 @@ libKPim5AkonadiSearchXapian.so.5 \
 libKPim5AkonadiWidgets.so.5 \
 libKPim5AkonadiXml.so.5 \
 libKPim5CalendarSupport.so.5 \
+libKPim5ContactEditor.so.5 \
 libKPim5Libkdepim.so.5 \
 libKPim5MessageViewer.so.5 \
 libKPim5Mime.so.5 \

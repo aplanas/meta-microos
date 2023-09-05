@@ -13,8 +13,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
 PV = "2.40.5"
 
-RPM_NAME = "typelib-1_0-JavaScriptCore-6_0-2.40.5-1.1.aarch64.rpm"
-RPM_HASH = "b5ad45841c4b45430164ba46a0e4cf10f94abb8e1d0253cf33d93dcc5596fa342af68cc7a52eec269a410b6713c38e4a0f2d35331bfd6ae5b75e4c6042e22125"
+RPM_NAME = "typelib-1_0-JavaScriptCore-6_0-2.40.5-2.1.aarch64.rpm"
+RPM_HASH = "e599338470cef725e207a67b7b1aa97583623de16546b618439b486a7f61c2493e9bb67597cfa76df8369e6a2b85a1d78715145f109e00c1bde80ed9f918a0f7"
 
 RPROVIDES:${PN} += "typelib-1-0-JavaScriptCore-6-0 \
 typelib-JavaScriptCore"

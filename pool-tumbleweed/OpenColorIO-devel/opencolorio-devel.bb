@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.2"
 
-RPM_NAME = "OpenColorIO-devel-2.1.2-3.2.aarch64.rpm"
-RPM_HASH = "d463f6d87b95ca01ad7b29f7fee1a58cbd3e3dc42f95b3fe37a0e06f5941e14018fea46f0bf2a100612da98af346de6564534e4ade489e771a5c8b02033fcb23"
+RPM_NAME = "OpenColorIO-devel-2.1.2-4.1.aarch64.rpm"
+RPM_HASH = "89071c2a2dc3a25f29c86d5a329e798c4568cfa6b0d80603b2540fea72f33e8c4292e4d8fc8eb949277220a0464e2812953af0f120cb8d8510169896de604bb8"
 
 RPROVIDES:${PN} += "OpenColorIO-devel \
 cmake-OpenColorIO \

@@ -2,10 +2,10 @@ SUMMARY = "Danish localization files for LibreOffice"
 DESCRIPTION = "Provides Danish translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.0.3"
+PV = "7.6.1.1"
 
-RPM_NAME = "libreoffice-l10n-da-7.6.0.3-1.1.noarch.rpm"
-RPM_HASH = "f8a5a8ce54af75469ed365fe4fd23427e926c2569c6689d645b09af5679a044858e8f42cabdcbf905d6068d47a4c7fb2b1aac2c2b26a6d31267ed6a2afc156a5"
+RPM_NAME = "libreoffice-l10n-da-7.6.1.1-1.1.noarch.rpm"
+RPM_HASH = "665ebba4c829c4c42aae55281e0fa51685bfec773bfba28ff8c22d8bee8965660b4ab28af568c34fd8ba88add658eb91c34b0392cd4fdcff6732bd821961d1a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-da \

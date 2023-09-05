@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ksystemlog"
 DESCRIPTION = "Provides translations for the 'ksystemlog' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "ksystemlog-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "574dfde37980a7c4aa7a7953d87d68bc6ebe6dde278ccbab5fb2f837006a7b79f0124e2d413823100d5bb51cff4437a9002e5ddf96a17f36ff0461f7d0fbefbf"
+RPM_NAME = "ksystemlog-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "e3ef190ff70fd6d99d6ee4122e8cb40e871439ccd75975c8e7eb831c94baa8ff3b070c7a37f53ced156a6667207893048f75c8775f3c1c7eb425dd67ba7fa6e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ksystemlog-lang \

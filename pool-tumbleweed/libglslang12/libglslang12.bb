@@ -4,10 +4,10 @@ languages. It implements a strict interpretation of the \
 specifications for these languages."
 LICENSE = "BSD-3-Clause"
 
-PV = "12.2.0"
+PV = "12.3.1+sdk261"
 
-RPM_NAME = "libglslang12-12.2.0-1.1.aarch64.rpm"
-RPM_HASH = "cfea908116a4d18ec3fbe8d77db97ce1ab29dbd56cf5d4c1ce9df5bbe0a1e7459436fa1a799c3a85a05f55abdefdf575ddd5385d225fa89e004743bb3e465b4f"
+RPM_NAME = "libglslang12-12.3.1+sdk261-1.1.aarch64.rpm"
+RPM_HASH = "ae49f93d49c269692fb12669b8cf9625b63f92ff0b627561349eed95bd86c607c4b27e285a7a71307f8dca3666c88dc456d2783592974b2254ca50d51d0831c3"
 
 RPROVIDES:${PN} += "libHLSL.so.12 \
 libSPIRV.so.12 \

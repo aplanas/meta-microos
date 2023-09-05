@@ -2,10 +2,10 @@ SUMMARY = "KDE KIO-Slave to browse Perl documentation"
 DESCRIPTION = "This KDE KIO slave allows to browse the Perl documentation."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kio_perldoc-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "acf33cc48b81ea8563b2c7ee21cca200670dba2022a6985b269d91d11f07cd32bdbd6d01e9e0ea3967ed6f177697cd74ce2ff57924f6228a22226696ba1c3536"
+RPM_NAME = "kio_perldoc-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "a70f739debfec33c6c3b7eefcc502cc1ac4b95a7f31565096730f5242be2e75d3484179a0e64e10ff38be8fc6805a39b4804cd8e36876c62f4907f2482c9ba4e"
 
 RPROVIDES:${PN} += "kdesdk-kioslaves \
 kio-perldoc"

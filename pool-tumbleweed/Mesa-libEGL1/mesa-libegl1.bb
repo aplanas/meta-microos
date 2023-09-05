@@ -10,10 +10,10 @@ provides drivers to provide hardware-accelerated OpenGL|ES and OpenVG \
 support."
 LICENSE = "MIT"
 
-PV = "23.1.5"
+PV = "23.1.6"
 
-RPM_NAME = "Mesa-libEGL1-23.1.5-355.1.aarch64.rpm"
-RPM_HASH = "652373847889e25870210d461f8606b10a0fb1cdd3a323fee244b9f004a721ffe7963f9b22ef7e9356c065e605829bd3d397c7b064c45b7e0ff2965beb7ffa7d"
+RPM_NAME = "Mesa-libEGL1-23.1.6-356.1.aarch64.rpm"
+RPM_HASH = "cd63a02be2352a29b3290ec3a0d4a0e15e6ba75dc358dc66003bb6f425c25d8ceea5faea3e2ef824de9c39c455fc33748fbce26072e4edaf8d3272a28e025083"
 
 RPROVIDES:${PN} += "Mesa-libEGL1 \
 libEGL-mesa.so.0"

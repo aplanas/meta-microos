@@ -4,10 +4,10 @@ DESCRIPTION = "Highway is a C++ library that provides portable SIMD/vector intri
 Development files for Highway."
 LICENSE = "Apache-2.0"
 
-PV = "1.0.4"
+PV = "1.0.5"
 
-RPM_NAME = "highway-devel-1.0.4-4.1.aarch64.rpm"
-RPM_HASH = "1a6e0a4ed2f8cd2551b3c803034b15d9256634a19e4001e257131f03f2eb7c216d26f2f047e8049cec7dedb739c4137f8bcfed6730f26b5e297a087306823ce0"
+RPM_NAME = "highway-devel-1.0.5-1.1.aarch64.rpm"
+RPM_HASH = "ebede6ba7b3627fecc65e50bbdedc7c664147b86bc7b9d05de4a37f855859a32811240edf6476991650fdae2a52e8c87505469fa27af269db4c34fd8d32341f8"
 
 RPROVIDES:${PN} += "cmake-hwy \
 highway-devel \

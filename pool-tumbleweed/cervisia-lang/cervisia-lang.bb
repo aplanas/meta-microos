@@ -2,10 +2,10 @@ SUMMARY = "Translations for package cervisia"
 DESCRIPTION = "Provides translations for the 'cervisia' package."
 LICENSE = "GPL-2.0-only & GFDL-1.2-only & LGPL-2.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "cervisia-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "fe9277ce8201d6a5e09117cfe99a246cd14bcaf30e5bcaa4f1b01651c79feeec5bf61e164448252b87b3bab154cc1bc44c62cebd98f93fdbff429f05ec9d3ab6"
+RPM_NAME = "cervisia-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "ca165e95289b19ee3fe70d043965283614df734a8c842334ab6a3eab088b3274943f9805650820c73d4925a61fb66969f2060ec30b92ba3c3c6f4e9ee5510933"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cervisia-lang \

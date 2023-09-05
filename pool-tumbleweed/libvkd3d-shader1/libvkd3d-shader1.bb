@@ -4,15 +4,15 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.8"
 
-RPM_NAME = "libvkd3d-shader1-1.8-1.1.aarch64.rpm"
-RPM_HASH = "8be699978c2226e9cbeff745742359e5faf9c8b6745c53b5be0a0b398d66b990920eaeb93b3b31f54e083a61926178be4b02e03671ecdd5852ab56948a9a1a65"
+RPM_NAME = "libvkd3d-shader1-1.8-1.2.aarch64.rpm"
+RPM_HASH = "03fbc7dafbd33abb3e0348ad5cc1c4db80e2737de026f40572e649b54de2bda9ddb9487f6232ad931102a884d44c99e4aea097945410ae01b9f22ebfdf52cae8"
 
 RPROVIDES:${PN} += "libvkd3d-shader.so.1 \
 libvkd3d-shader1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libSPIRV-Tools-shared-2023.3~rc1.so \
+libSPIRV-Tools-shared-2023.4~rc2.so \
 libc.so.6"
 
 inherit rpm

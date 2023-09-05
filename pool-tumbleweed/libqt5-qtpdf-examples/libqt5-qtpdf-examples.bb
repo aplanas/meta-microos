@@ -2,10 +2,10 @@ SUMMARY = "Qt5 PDF examples"
 DESCRIPTION = "Examples for the libqt5-qtpdf module."
 LICENSE = "LGPL-3.0-only | GPL-2.0-only | GPL-3.0-only"
 
-PV = "5.15.14"
+PV = "5.15.15"
 
-RPM_NAME = "libqt5-qtpdf-examples-5.15.14-2.1.aarch64.rpm"
-RPM_HASH = "3a6f051bdf5c1bbecafa1736420a3af5e841a3c252b6b45e68891b2a2a72ba0292940bac28b2cef8c3a5ef5cf9c197b398cb92d11d954c7cac589b78697dd88b"
+RPM_NAME = "libqt5-qtpdf-examples-5.15.15-1.1.aarch64.rpm"
+RPM_HASH = "4a28aeccecb23f160c03a3c76be58cf96412e0980c163b646525dfdc089b5e0a8db26083b048d5ee87b50f442245e5e0110be123ce6ac9d79ae4acf921d84951"
 
 RPROVIDES:${PN} += "libqt5-qtpdf-examples"
 

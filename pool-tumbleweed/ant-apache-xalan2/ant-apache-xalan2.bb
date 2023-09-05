@@ -2,10 +2,10 @@ SUMMARY = "Optional apache xalan2 tasks for ant"
 DESCRIPTION = "Optional apache xalan2 tasks for ant-antlr."
 LICENSE = "Apache-2.0"
 
-PV = "1.10.13"
+PV = "1.10.14"
 
-RPM_NAME = "ant-apache-xalan2-1.10.13-2.2.noarch.rpm"
-RPM_HASH = "a14d325dc4e6c451dae2362456b54320b0d8bf558a413a416ae1a5123acc8cb3108c8879ec2e9cfba0a0ea04d7d472d832ad140e105f7014e5104e6406886949"
+RPM_NAME = "ant-apache-xalan2-1.10.14-1.1.noarch.rpm"
+RPM_HASH = "d875f4530e5bb80a3c97b423e5ab9cd6c1d82bd6a33b30bcb402cc3dfa7dcef23f6cc5b777704554fb51721ca8df5e377e241ea974fc58dabdb80c36abd1a4b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-apache-xalan2 \
@@ -17,6 +17,7 @@ RDEPENDS:${PN} += "ant \
 java-headless \
 javapackages-filesystem \
 mvn-org.apache.ant-ant \
+mvn-xalan-serializer \
 mvn-xalan-xalan \
 regexp"
 

@@ -2,10 +2,10 @@ SUMMARY = "Bodo localization files for LibreOffice"
 DESCRIPTION = "Provides Bodo translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.0.3"
+PV = "7.6.1.1"
 
-RPM_NAME = "libreoffice-l10n-brx-7.6.0.3-1.1.noarch.rpm"
-RPM_HASH = "45bd64e17e2723e9bbfb52c6862c3ecc7ef09aabbb4851a9d59f5c26132589b31832bf742e942bf8b579c3da75c351a07946bca2ff3ddcf51ac7fa61b2eeddc9"
+RPM_NAME = "libreoffice-l10n-brx-7.6.1.1-1.1.noarch.rpm"
+RPM_HASH = "8db2c2d75fa24c3433e8739b3432a2edd20bf00d4ce77ce4ab4a92ac1cb1b1849aa9aeb3b27d77b5bd90d793de3ce5bfbf90d3d375b2e36ab4af171f87ff58b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-brx \

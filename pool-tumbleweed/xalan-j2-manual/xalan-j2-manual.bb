@@ -8,10 +8,10 @@ a servlet, or as a module in other program. \
 This package contains the manual for Xalan."
 LICENSE = "Apache-2.0"
 
-PV = "2.7.2"
+PV = "2.7.3"
 
-RPM_NAME = "xalan-j2-manual-2.7.2-12.7.noarch.rpm"
-RPM_HASH = "0829a708eff38a10a2eb983b0e90fe4b7664071bea4665a48bba63962995eebf272eb1e4b55a35d8a3091174f7b7bb8dc64b8e0f07d2d487f6fb9bcf29135012"
+RPM_NAME = "xalan-j2-manual-2.7.3-1.1.noarch.rpm"
+RPM_HASH = "3916227220a9fc5dc2c8c7a05b7045106813ba0e5251951beec3bc8e595d7d845e3c96b7afdab992f45601dff2a6fc93884dc3f59b22f1e9fab40cf5ff37edb3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xalan-j2-manual"

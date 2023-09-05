@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2"
 
-RPM_NAME = "geronimo-ejb-3_0-api-1.2-36.12.noarch.rpm"
-RPM_HASH = "34d9f38e9d3620aaba93629f8c9ef319f40eeaf2ab86adba5a7675e15e8fb8aa481ebe675dca68f408c05f502616c7c03eae6269d1728e2cbeafd64f6f217548"
+RPM_NAME = "geronimo-ejb-3_0-api-1.2-37.1.noarch.rpm"
+RPM_HASH = "4a7c748b2fe45bb0adfe4a96a110185849b2c4e333c6382380bf4aa5af03034be5e073bb63a8a9ce48c99d645c6d81c50fde04ec1f9fd9db9ddf7687a797b228"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ejb \

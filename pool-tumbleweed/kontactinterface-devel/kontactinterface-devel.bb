@@ -3,13 +3,12 @@ DESCRIPTION = "This package contains necessary include files and libraries neede
 to develop KDE PIM applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kontactinterface-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "6ecd75f5d0f3b2cc02bc8a4a24dfbe11eb93a1a684c621e07243ccc06aad95e3bd950a171685ebbc8eaab149d5e4d92a9400d5c4edb8ff5fee41a50bc56ab446"
+RPM_NAME = "kontactinterface-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "ae919091a831f11afb294a7e684da02c4bf68d74e97adc9d1d4d37431cf8f673b173a48d92e9cde2b91483cab8677bd59eaf7efd4bb059bcbc9df942cbedcdad"
 
-RPROVIDES:${PN} += "cmake-KF5KontactInterface \
-cmake-KPim5KontactInterface \
+RPROVIDES:${PN} += "cmake-KPim5KontactInterface \
 kontactinterface-devel"
 
 RDEPENDS:${PN} += "cmake-KF5Parts \

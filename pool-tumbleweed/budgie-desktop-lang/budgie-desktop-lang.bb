@@ -2,10 +2,10 @@ SUMMARY = "Translations for package budgie-desktop"
 DESCRIPTION = "Provides translations for the 'budgie-desktop' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "10.7.2+0"
+PV = "10.8+0"
 
-RPM_NAME = "budgie-desktop-lang-10.7.2+0-1.2.noarch.rpm"
-RPM_HASH = "08324997f6a56f92369cc57fe1487bf6adc66cda46fc672de78fb34d5668da45010b80f0697c9492bac77024d516c33461876e1a368784be9902a440143189a4"
+RPM_NAME = "budgie-desktop-lang-10.8+0-1.1.noarch.rpm"
+RPM_HASH = "b9f0b7bab22ee1e952087d62a6d4b21efe8e0b631265ce138932a436c2c15b70161dfa915b513f4b8446c46dec129b1a0cbfdfd6735bd5c6e3173e1b8a592af0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "budgie-desktop-lang \
@@ -32,6 +32,7 @@ locale-budgie-desktop-es-AR \
 locale-budgie-desktop-es-CL \
 locale-budgie-desktop-es-MX \
 locale-budgie-desktop-es-PE \
+locale-budgie-desktop-et \
 locale-budgie-desktop-eu \
 locale-budgie-desktop-fi \
 locale-budgie-desktop-fr \

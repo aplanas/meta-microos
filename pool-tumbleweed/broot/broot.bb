@@ -1,12 +1,12 @@
 SUMMARY = "A better way to navigate directories"
 DESCRIPTION = "A better way to navigate directories. \
 Tree-like commandline directory navigator written in Rust."
-LICENSE = "MIT"
+LICENSE = "GPL-2.0-only & MIT & MPL-2.0"
 
 PV = "1.22.1"
 
-RPM_NAME = "broot-1.22.1-1.1.aarch64.rpm"
-RPM_HASH = "72e066d53bad6fa576b0831e4890be35a76125f7216f386ab41b2e93ab0e31012182e6f692d5301d6f3323c2e7af9099ef763fb905f6e0b43d964c1a2d9d300c"
+RPM_NAME = "broot-1.22.1-2.1.aarch64.rpm"
+RPM_HASH = "0bc6a7c98f8adb12d0d902609bd284d5bb2633c901f489d93a9c6d5d7a4b31bfd6a43865fb3cf2667d460a6688eed5b1be5c3c452b5d4c8de6e3875a68276273"
 
 RPROVIDES:${PN} += "broot \
 bundled-rust-crate-adler \

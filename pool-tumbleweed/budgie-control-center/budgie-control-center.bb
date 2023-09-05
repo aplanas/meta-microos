@@ -2,10 +2,10 @@ SUMMARY = "Fork of GNOME Control Center for Budgie 10"
 DESCRIPTION = "Fork of GNOME Control Center for Budgie 10"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.0+0"
+PV = "1.3.0+0"
 
-RPM_NAME = "budgie-control-center-1.2.0+0-1.4.aarch64.rpm"
-RPM_HASH = "47f7077ee9e0bbc05edb407058c3bbee6011644f75dd5297e2386b9aef10c0fc803e473f43b46e56111308bc9e22b4bfcc2138745e4229507dc86020b3d2a1c9"
+RPM_NAME = "budgie-control-center-1.3.0+0-1.1.aarch64.rpm"
+RPM_HASH = "8ca9b5c3e9b9dbef0468a43a6cefaad5d0c57284b5403e83f02d70f5ab827b38f536ba45400a4af724dfa960a0af96204a090acd6a65d79a134e56533008fa11"
 
 RPROVIDES:${PN} += "budgie-control-center"
 

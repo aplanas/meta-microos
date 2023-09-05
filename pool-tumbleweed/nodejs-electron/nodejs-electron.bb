@@ -2,10 +2,10 @@ SUMMARY = "Build cross platform desktop apps with JavaScript, HTML, and CSS"
 DESCRIPTION = "Nodejs application: Build cross platform desktop apps with JavaScript, HTML, and CSS"
 LICENSE = "AFL-2.0 & Apache-2.0 & blessing & BSD-2-Clause & BSD-3-Clause & BSD-Protection & BSD-Source-Code & bzip2-1.0.6 & IJG & ISC & LGPL-2.0-or-later & LGPL-2.1-or-later & MIT & MIT-CMU & MIT-open-group & (MPL-1.1 | GPL-2.0-or-later | LGPL-2.1-or-later) & MPL-2.0 & OpenSSL & SGI-B-2.0 & SUSE-Public-Domain & X11"
 
-PV = "22.3.21"
+PV = "22.3.23"
 
-RPM_NAME = "nodejs-electron-22.3.21-1.1.aarch64.rpm"
-RPM_HASH = "4a12abf9fba41f0ab9cace04149e505e47753e7c375659946746da62c8f257d0476fd8231dbdb37603b93e52b0185abec99e361c78e7411bc8c1fb538b07c88a"
+RPM_NAME = "nodejs-electron-22.3.23-1.1.aarch64.rpm"
+RPM_HASH = "b25c10e9bdb21ff3a74339dcd4a077337a7c5f8d386285d29a9320aeadd3587ce4fd558ff49b38ec925811037d338bbe428f4e49fcff9594f8c8e1bc7384599d"
 
 RPROVIDES:${PN} += "electron \
 electron-abi \
@@ -18,8 +18,8 @@ hicolor-icon-theme \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \
 libLLVM.so.16 \
-libSPIRV-Tools-2023.3~rc1.so \
-libSPIRV-Tools-opt-2023.3~rc1.so \
+libSPIRV-Tools-2023.4~rc2.so \
+libSPIRV-Tools-opt-2023.4~rc2.so \
 libX11.so.6 \
 libXNVCtrl.so.0 \
 libXcomposite.so.1 \
@@ -45,7 +45,7 @@ libatk-bridge-2.0.so.0 \
 libatspi.so.0 \
 libavcodec.so.60 \
 libavformat.so.60 \
-libavif.so.15 \
+libavif.so.16 \
 libavutil.so.58 \
 libbrotlidec.so.1 \
 libbrotlienc.so.1 \

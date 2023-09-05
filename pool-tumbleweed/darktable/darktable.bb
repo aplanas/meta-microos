@@ -4,16 +4,15 @@ digital negatives in a database and can show them through a zoomable \
 lighttable. It also enables developing raw images and enhance them."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.4.1"
+PV = "4.4.2"
 
-RPM_NAME = "darktable-4.4.1-1.1.aarch64.rpm"
-RPM_HASH = "87b820321d7d704ea1d24d73cee4b017facb2c80fc7ee63933f2c775a44cbd3630b4e4ede6e94507bba5d1043aae20bfa8fe85272f6652ef7c190aef670901c7"
+RPM_NAME = "darktable-4.4.2-1.1.aarch64.rpm"
+RPM_HASH = "a5a340a053c38e9caeb014ab359a70d86ec3f8dc28e9010e250d550582590f37e4161a15bb171b5c2353e90ed5b3b061c7c03ec1e77d2be4db63ae9f0e540686"
 
 RPROVIDES:${PN} += "darktable \
 darktable-docs \
 libashift.so \
 libatrous.so \
-libavif.so \
 libbackgroundjobs.so \
 libbasecurve.so \
 libbasicadj.so \
@@ -178,7 +177,6 @@ libOpenEXR-3-1.so.30 \
 libSDL2-2.0.so.0 \
 libX11.so.6 \
 libXrandr.so.2 \
-libavif.so.15 \
 libc.so.6 \
 libcairo.so.2 \
 libcolord-gtk.so.1 \

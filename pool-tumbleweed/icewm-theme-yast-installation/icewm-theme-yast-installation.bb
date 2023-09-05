@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & CC-BY-SA-3.0 & GPL-2.0-or-later"
 
 PV = "84.87.20230227"
 
-RPM_NAME = "icewm-theme-yast-installation-84.87.20230227-1.1.noarch.rpm"
-RPM_HASH = "2efd9a2fa55be62daff4073cc2adeefcd5b9c847a70757bf92b7aca46ef42e73175b8da926b633f114b4b866dbe6642c62b7f0de98d8b88d440c0eed04a44cf7"
+RPM_NAME = "icewm-theme-yast-installation-84.87.20230227-2.1.noarch.rpm"
+RPM_HASH = "defc751b97c9342a81790e752902cc4b2d832e7ea59bd04b347fe2934fc616382ea0b653f918a195664b006e34d5749895b6207706b21f995f98411f59fe5a2e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-icewm-theme-yast-installation \

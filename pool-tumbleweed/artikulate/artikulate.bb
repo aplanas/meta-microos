@@ -2,10 +2,10 @@ SUMMARY = "Pronunciation Self-Teaching"
 DESCRIPTION = "Improve your pronunciation by listening to native speakers."
 LICENSE = "LGPL-3.0-or-later & GPL-2.0-only & BSD-3-Clause"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "artikulate-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "b8a8201cf7e0cc098ec158e67a578f0148e7e30a1dfd1ab9f98f45d1b4ac466bcd90ecb6400c70d29c33a2acbf39a39b437945b6cbe4576cc1ba35bbf829c141"
+RPM_NAME = "artikulate-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "ebcf3f8f4d4fefea632b5d837ef2f5398faca0619277a638ec1ed9b947d3f38238dedd30f6b0df59a3207e2215aba45aad9bd7bd57d77844631f8ff65a7be4f1"
 
 RPROVIDES:${PN} += "artikulate \
 artikulate5 \

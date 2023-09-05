@@ -4,10 +4,10 @@ designed to be used within a real-time processing context, to be \
 fast, and to provide high-quality sample rate conversion."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.8.0"
+PV = "1.11.2"
 
-RPM_NAME = "libzita-resampler1-1.8.0-1.10.aarch64.rpm"
-RPM_HASH = "08be185ea791b1d6264f106eeffc3fd6bc1b1754feaf0c8fd2074f71d53e83577177b3c39993ea361d10245756ca3536be22b77d2bb146e9972658355f444fd6"
+RPM_NAME = "libzita-resampler1-1.11.2-1.1.aarch64.rpm"
+RPM_HASH = "ef92fad911930481c7c9457f2c45a485171cb69214e046fec444bbccec3931b0637fa55632dace1336b41064457524804bcbde680f61b9a9b8973c6b3b10f985"
 
 RPROVIDES:${PN} += "libzita-resampler.so.1 \
 libzita-resampler1"

@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.7.1"
 
-RPM_NAME = "python311-recommonmark-0.7.1-3.3.noarch.rpm"
-RPM_HASH = "e7c018bf2908c8fc30d562f9530179a9550b702b7854d9ccf3f81953125ec47b62c48333e19d6d32a9e3f3492afed22e4ff2738200ed74d359781b601f7e0ef1"
+RPM_NAME = "python311-recommonmark-0.7.1-4.1.noarch.rpm"
+RPM_HASH = "3fadb5aa6eabb2e1c09e20285cd079922078d4f0ca4d71373aa0e00bcd0b9039e5d0b87a909472171b396496ddaac2e06a3fe7857df0457248aa3ccec7e2b8b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-reCommonMark \

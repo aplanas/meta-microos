@@ -2,10 +2,10 @@ SUMMARY = "Unsupported modules for arm64-efi"
 DESCRIPTION = "Unsupported modules for grub2-arm64-efi"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.06"
+PV = "2.12~rc1"
 
-RPM_NAME = "grub2-arm64-efi-extras-2.06-55.1.noarch.rpm"
-RPM_HASH = "649e100a8b9f110aa94d730285a17765f58bd14941f424d73510aeae6616aff5137eace2472914d0ecc94428dd0364e9c1ae0eabedde18aec93452ccc4c783fd"
+RPM_NAME = "grub2-arm64-efi-extras-2.12~rc1-1.1.noarch.rpm"
+RPM_HASH = "bacbf0bf247a15ed89385b9895847becbc204c29df5615e9a5263c125197da44c10b4031396fc559fc4c852d35f6eb32a39fc3aa3dfa92e7d45d27bfca238e8b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grub2-arm64-efi-/usr/share/grub2/arm64-efi/zfs.mod \

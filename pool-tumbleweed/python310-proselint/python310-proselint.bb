@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.13.0"
 
-RPM_NAME = "python310-proselint-0.13.0-2.6.noarch.rpm"
-RPM_HASH = "b428f61505aff8611bafc16a1994cc4598d84e8c3383acc926195d38f7144526f878b7a363b958e54d5727a2bbddefdb1d02a0b69c64140dde2e21c76ab7d582"
+RPM_NAME = "python310-proselint-0.13.0-3.1.noarch.rpm"
+RPM_HASH = "75738d1a3a24ea43dd078544c25d08772430103b85370593e132dd42024917623dd1422bb9decb2de0d776980eb4edf6cf2304ec5a4d54e1a976d548ee85480d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-proselint \
@@ -22,7 +22,6 @@ RDEPENDS:${PN} += "/usr/bin/python3.10 \
 python-abi \
 python310-click \
 python310-dbm \
-python310-future \
 update-alternatives"
 
 inherit rpm

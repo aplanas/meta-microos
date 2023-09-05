@@ -7,10 +7,10 @@ those levels, offering a blend of the advantages (and disadvantages) \
 of both."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "2023.2"
+PV = "2023.6"
 
-RPM_NAME = "libostree-devel-2023.2-2.2.aarch64.rpm"
-RPM_HASH = "66d53dec99db8239bbc8cdc90a10221aed93d86263c3917f9695bdb964061f137826c6c52d3687f0db4a58226d992ebd0f2ded5c5dd260a54fbd6d0f10f5e8e6"
+RPM_NAME = "libostree-devel-2023.6-1.1.aarch64.rpm"
+RPM_HASH = "4959c48485729d85ba02baaccc0f5ea6626d3d33d95311c21f5d602011f9736960bbbbf929ad515ddee8f3cb2b03054f6cf230f61036d01533dc9b5469802dd9"
 
 RPROVIDES:${PN} += "libostree-devel \
 ostree-devel \

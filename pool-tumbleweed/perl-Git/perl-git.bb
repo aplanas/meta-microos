@@ -6,10 +6,10 @@ full access to internals. \
 This package provides the Perl interface to the Git version control system."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.41.0"
+PV = "2.42.0"
 
-RPM_NAME = "perl-Git-2.41.0-1.3.aarch64.rpm"
-RPM_HASH = "b90b8c23f77d17ad381ea6db22ced608f731ed5772a76d6e8c3bebdce0b2ff47651ee7103c3d052646e0a9fdfc1e9cd706d4ee69e8c8bb700b03d2fd845bb6c6"
+RPM_NAME = "perl-Git-2.42.0-1.1.aarch64.rpm"
+RPM_HASH = "e19638154d789beef14a0c3aa1c88acaa6ce13c51015674d2b2073cda30756f6d44cd70c2ef214d6c735ba432dadea5cb39d5ba3273796f540d2e5e9157010b9"
 
 RPROVIDES:${PN} += "git-core-/usr/lib/perl5/vendor-perl/5.38.0/Git \
 perl-Git \

@@ -3,13 +3,12 @@ DESCRIPTION = "This package contains necessary include files and libraries neede
 to develop applications wanting to use kcalutils."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kcalutils-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "c1fc9503a9cf326735cf3505437720a69e8ada573797493212ba573e0fa0c22cf3114aa3a98fa998d382fc2fe53fe956d180f63f4ff74b7d5ae58e11e50295ba"
+RPM_NAME = "kcalutils-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "adc61d5bc966ca40e11a5f2b3074bcdee01d75a81b243d8d52abb0e527b4628cdb32c20fb4dd8c858084954ced8e1683728a51bfe3fc9d9eefaf49a18b7e285d"
 
-RPROVIDES:${PN} += "cmake-KF5CalendarUtils \
-cmake-KPim5CalendarUtils \
+RPROVIDES:${PN} += "cmake-KPim5CalendarUtils \
 kcalutils-devel \
 kcalutils5-devel"
 

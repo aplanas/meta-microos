@@ -3,13 +3,12 @@ DESCRIPTION = "This package contains necessary include files and libraries neede
 to develop KDE PIM applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "ktnef-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "09cc539188e5db947a6a84945c8ae750cdefe6106965708992b4d79a3279aefdd9d91585e8c1a0a4366a31ba2fcb43f0d14388c12b75405609d54f0bfb6c1cf6"
+RPM_NAME = "ktnef-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "e74573a049587013bf5eb627e7cb09842824ea5ab4d0acd55e04b9a5a5543cd8b313a72e6c987c64adf674a2425711687dda3e78fb4c037ab8840f0fed814f73"
 
-RPROVIDES:${PN} += "cmake-KF5Tnef \
-cmake-KPim5Tnef \
+RPROVIDES:${PN} += "cmake-KPim5Tnef \
 ktnef-devel"
 
 RDEPENDS:${PN} += "cmake-KF5CalendarCore \

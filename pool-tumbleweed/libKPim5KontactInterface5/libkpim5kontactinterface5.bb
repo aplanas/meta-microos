@@ -2,10 +2,10 @@ SUMMARY = "KDE PIM Libraries: Interface to Contacts"
 DESCRIPTION = "This package provides the interface to contacts for KDE PIM applications"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKPim5KontactInterface5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "57ba3486eacc7e3fc3cef5d8095ceedf0e472d88838ad4758db45abf881b59c29b43d621fcdd1a9ccdb2f392595073c0453980d110f16f273d148ceb4f503b7f"
+RPM_NAME = "libKPim5KontactInterface5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "1538a90b2cf00c6139f2030bec0ca9be90f841d01883595b37c72749b37ddc8f9a8467ef2e913fbf4ea6e907136c641293f4273a9f5e75afacdeaf8489c4feca"
 
 RPROVIDES:${PN} += "kontactinterface \
 libKPim5KontactInterface.so.5 \

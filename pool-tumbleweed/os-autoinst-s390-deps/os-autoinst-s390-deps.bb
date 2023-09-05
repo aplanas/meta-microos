@@ -2,10 +2,10 @@ SUMMARY = "Convenience package providing os-autoinst + s390 worker jumphost deps
 DESCRIPTION = "Convenience package providing os-autoinst + s390 worker jumphost dependencies."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1692873408.b5fd97a"
+PV = "4.6.1693332527.fb060dc"
 
-RPM_NAME = "os-autoinst-s390-deps-4.6.1692873408.b5fd97a-1.1.aarch64.rpm"
-RPM_HASH = "ff681771df5ce48cb39b278517847398e55ee4f92533f6884d9b48e1860c352f40ea5c8e9f9d767124c21efe4c7bffc24739ce57cb8ff069e88dedd10b1fcb6c"
+RPM_NAME = "os-autoinst-s390-deps-4.6.1693332527.fb060dc-1.1.aarch64.rpm"
+RPM_HASH = "62cb2b7930f095d32a1d0a706c04edc35c7fb2c7c139fab257003652d3135bb92e29f649a4eba9a2bfb64a34a65a34ec0bf48c6c2f32eacb1756df1e2940bcc1"
 
 RPROVIDES:${PN} += "os-autoinst-s390-deps"
 

@@ -6,10 +6,10 @@ computations with exact rounding (also called correct rounding). It is \
 based on the GMP multiple-precision library."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "4.2.0"
+PV = "4.2.1"
 
-RPM_NAME = "mpfr-devel-4.2.0-3.2.aarch64.rpm"
-RPM_HASH = "ce93535eb11bac8cc6e7bf0c72d498d923eba2b161e28d2616860ae0ebebdf999edcbc30bcf10ecf454c849b418ac835fc10af4640d9b67b3cb269ab72bea442"
+RPM_NAME = "mpfr-devel-4.2.1-1.1.aarch64.rpm"
+RPM_HASH = "0e8f652d4a7797233fae25586814eb156555f642cb462712b02174fa8c2cf6d0c32410544e1bc056e3baecc4502a300b684c39976ad972cbe5160c3047f891c0"
 
 RPROVIDES:${PN} += "mpfr-devel \
 pkgconfig-mpfr"

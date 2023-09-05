@@ -2,10 +2,10 @@ SUMMARY = "Headers and development library for libsuperlu6"
 DESCRIPTION = "SuperLU headers and libraries files needed for development %{with_hpc:(HPC variant)}"
 LICENSE = "BSD-3-Clause"
 
-PV = "6.0.0"
+PV = "6.0.1"
 
-RPM_NAME = "superlu-devel-6.0.0-2.1.aarch64.rpm"
-RPM_HASH = "5a1a446d8cc89d30912d0daf6720d4375f449591364163b5ff72b631eb01b4cd125356a01841d8f4525664c7eb52995de949773f5edde162805d38426309abd8"
+RPM_NAME = "superlu-devel-6.0.1-1.1.aarch64.rpm"
+RPM_HASH = "2750eb2eb77cc3257229098f5bf4a2982636af12c2da46b8b8792b2c9e599ac6dda5eccd4ffcfd31861c8eb1f1d9831f11675fbb610932bd051538a5289a9079"
 
 RPROVIDES:${PN} += "cmake-superlu \
 pkgconfig-superlu \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.2.1"
 
-RPM_NAME = "calligra-extras-okular-3.2.1-7.21.aarch64.rpm"
-RPM_HASH = "bc90dd39f85b81253883e191f97b977d39a4afae7cfb648f0bcbccff7ced4285d969738bcff0dd4b3df9226a454e40129db86597de6661199ea8e617ee460622"
+RPM_NAME = "calligra-extras-okular-3.2.1-7.22.aarch64.rpm"
+RPM_HASH = "b71416a43fa1cbb1a2465ab7da60229062545c9b34baa3360dfefdd36d4c2fd2ee9517aa706877642a7e558f712bc1538f3cbbe7b611cf6d03de94d2b70a7cbe"
 
 RPROVIDES:${PN} += "calligra-extras-okular \
 libkookularGenerator-odp.so.17 \
@@ -16,7 +16,7 @@ calligra \
 ld-linux-aarch64.so.1 \
 libKF5CoreAddons.so.5 \
 libKF5I18n.so.5 \
-libOkular5Core.so.10 \
+libOkular5Core.so.11 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \
 libQt5Xml.so.5 \

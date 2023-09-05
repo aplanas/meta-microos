@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
 PV = "3.1.6"
 
-RPM_NAME = "pam_apparmor-3.1.6-2.2.aarch64.rpm"
-RPM_HASH = "e797c423aabafeec9d8b4b5531e99338afeb34050b877ee4e02c0c2ed085fc1eb09eb4e526e802954330d16e3959b49370bc9808e430bc829aa1cf8ed75d7cc2"
+RPM_NAME = "pam_apparmor-3.1.6-4.1.aarch64.rpm"
+RPM_HASH = "86f388cc41781f409b773a13ad7b100eb06b25402bd576bca6d1b5d3ee73041a7e995fa428acae1a5824e0ad2c5a9ca3f943dd41816e0a4a654874f13875b147"
 
 RPROVIDES:${PN} += "pam-apparmor"
 

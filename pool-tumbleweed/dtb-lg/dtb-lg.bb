@@ -2,10 +2,10 @@ SUMMARY = "LG based arm64 systems"
 DESCRIPTION = "Device Tree files for LG based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.11"
+PV = "6.4.12"
 
-RPM_NAME = "dtb-lg-6.4.11-1.2.aarch64.rpm"
-RPM_HASH = "d8b556786ec200310d515d4b47005ae78a8500fe546bc1bf7c405ee7737d38a57ba8245d4e9fd42573608129b0ba4a774ec169cfaabb373339af2327d96cd13e"
+RPM_NAME = "dtb-lg-6.4.12-1.1.aarch64.rpm"
+RPM_HASH = "9c537d376850f01d4cb5ae7987a088b528a77b5c7ea7fe444356071faf2a21132cfd55e7c3b014b41cffe17de6ff1217beecbb46e80a1442899ee001ba3fa312"
 
 RPROVIDES:${PN} += "dtb-lg \
 multiversion-dtb"

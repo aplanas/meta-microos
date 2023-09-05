@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kontrast"
 DESCRIPTION = "Provides translations for the 'kontrast' package."
 LICENSE = "GPL-3.0-or-later & CC0-1.0"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kontrast-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "e4023e6e33eb4d34e652cf47666dbd09a52837341102f7307f56156ae0fc6739da63ab0982dc240f6c203e1e4a2f3f721f3f7903387910b15291816d2058faa6"
+RPM_NAME = "kontrast-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "5bef296211735131cedafe8775e521f5a79d99323ad4d0a6be76e4e2e42ba2c9d2b964536111770bee0a79a99e287cd1e73857f4da59603c53e11f30ce8d1266"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kontrast-lang \

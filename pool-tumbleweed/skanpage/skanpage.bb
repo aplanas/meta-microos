@@ -9,19 +9,21 @@ Features: \
 - Saving to multi-page PDF documents and image files"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "skanpage-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "82b5df8df6346b9698f9afbe5c04bed1095e0e2b7b476f198796491bbd1f64b5bd3a52d3bb1a55f157d2bab452e314056587cb76f26bb0b9fb42cb9902baabfe"
+RPM_NAME = "skanpage-23.08.0-2.1.aarch64.rpm"
+RPM_HASH = "0e977606382a5278d15d219c5b8555ccfe550b76f601cd947280d038ed4a5088cfda21f53480725ca345bebf33d09e96c9629dd4fdaf4a6ab8c25d371ed0364a"
 
 RPROVIDES:${PN} += "skanpage"
 
 RDEPENDS:${PN} += "kirigami2 \
+kquickimageeditor-imports \
 libKF5ConfigCore.so.5 \
 libKF5ConfigGui.so.5 \
 libKF5CoreAddons.so.5 \
 libKF5Crash.so.5 \
 libKF5I18n.so.5 \
+libKF5XmlGui.so.5 \
 libKSaneCore.so.1 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \

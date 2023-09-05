@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libkomparediff2"
 DESCRIPTION = "Provides translations for the 'libkomparediff2' package."
 LICENSE = "(GPL-2.0-or-later & LGPL-2.0-or-later) & BSD-2-Clause"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libkomparediff2-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "e7f6210bda2841b9dc9e314780b5325ae153ec7a37d414200153f5dba85d12b4a9879c805dfdbd185d85adb3bbf6ed8ef1e973bfc97f05017fb90c33aa66e542"
+RPM_NAME = "libkomparediff2-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "e108976c1df5726b13e06ab768ed53f4837008028a9bf32c14a2d6ce66dd25066af37bb8deaebe8c57de2c8e23c5a58ce55d90f79c265336b0a68f5f722f5e1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libkomparediff2-lang \

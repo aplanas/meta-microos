@@ -2,10 +2,10 @@ SUMMARY = "Git tools for sending email"
 DESCRIPTION = "Email interface for the GIT version control system."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.41.0"
+PV = "2.42.0"
 
-RPM_NAME = "git-email-2.41.0-1.3.aarch64.rpm"
-RPM_HASH = "c85c49ab290337f293041d28752a76d6cfb5b6c2f2057a4e615fad33284d8c8b58ecc3f2f746760fcc20bb14bc44a9a7f833a3392135f891b348f66bc021a077"
+RPM_NAME = "git-email-2.42.0-1.1.aarch64.rpm"
+RPM_HASH = "18231959cf08a0cc292e9cd2895a7ecf682b1361030ae390893514ffdf17112b047bdca47285366c9ee7f5d5ced209c3a9b72529c795b544e897ead7ee0f3bd1"
 
 RPROVIDES:${PN} += "git-email"
 

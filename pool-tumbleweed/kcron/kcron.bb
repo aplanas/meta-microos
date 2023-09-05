@@ -2,10 +2,10 @@ SUMMARY = "Cron job configuration tool"
 DESCRIPTION = "KCron allows you to change your cron jobs setup."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kcron-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "0863a9c7e7677eaee26fbf27b635e5ed2e50b7860ce4d1c9fdfba2b2f03a71cc3802f056702ccb68ac16bde9fccc6f5b5115b6465792c27fd9d303fa24c66bb7"
+RPM_NAME = "kcron-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "d4f31866b56e74ffe4203586cab1afb5f25066963e78fa2684e870d4789778e48ed265b85320a14b91dbab3d9eea1a5b8d1cc481a11062db7fa3b4b78bc283e5"
 
 RPROVIDES:${PN} += "kcron \
 kcron5"

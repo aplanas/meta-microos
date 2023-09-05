@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kbreakout"
 DESCRIPTION = "Provides translations for the 'kbreakout' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kbreakout-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "5daa3d2b24c4af3c3acf751222bc71f2563fc87befc76565b42e2040bc253cd05a1122871960d6780495c78c7c69f8dc864b3d2f381cd6924501a9fa382ba297"
+RPM_NAME = "kbreakout-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "adf7289221c68bc4b1baa5e9ab1e221b6ece76f59a70e22a573aa15c3996cb9e7c98818f02003a81060271eef8cc77de21c046ec5478fa154678f27588a0555c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kbreakout-lang \

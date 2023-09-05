@@ -4,10 +4,10 @@ Nouveau's 3D acceleration to work. It is packaged separately \
 since it is still experimental."
 LICENSE = "MIT"
 
-PV = "23.1.5"
+PV = "23.1.6"
 
-RPM_NAME = "Mesa-dri-nouveau-23.1.5-355.1.aarch64.rpm"
-RPM_HASH = "de5d42ccb8bb82bebffdf05d3d61d2d8b96d775b24dd78056cc6fafa894cefb92bc7e35ba9a3b581fd75f24485d380108e5fc57e15cdec19f9a0c629413fd69b"
+RPM_NAME = "Mesa-dri-nouveau-23.1.6-356.1.aarch64.rpm"
+RPM_HASH = "6246ce014789b2a1b6aec44aff3ac94171e26bc2c1f77acba9b9b22ff47735b3ff0ae356273c67d39119d9478ea89ae85945e65b811b0932207370f2a846ccd2"
 
 RPROVIDES:${PN} += "Mesa-dri-nouveau \
 libgallium-dri.so"

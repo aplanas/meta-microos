@@ -2,13 +2,12 @@ SUMMARY = "Development package for baloo5"
 DESCRIPTION = "Development files for the AkonadiSearch library."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-3.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "akonadi-search-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "95eac702ba3b08c65b4d7661dca6c90e27b4b6245c6ea901dae66ae714c0b15c5f804e90505e34076c832fb2f68400ef6616d023cdfe2f8892e97c0b0a068530"
+RPM_NAME = "akonadi-search-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "7a6630f51f16555eb72edf9cb8b80bc20d74d9b4715b5de2f8f61843a0952e74963b18babd17ed07593dd21482a9db2494efccec7ee2471b53cfd8c188768e7a"
 
 RPROVIDES:${PN} += "akonadi-search-devel \
-cmake-KF5AkonadiSearch \
 cmake-KPim5AkonadiSearch"
 
 RDEPENDS:${PN} += "cmake-KF5CalendarCore \

@@ -4,10 +4,10 @@ Consortium (OGC) web service (hence OWS) interface standards, and their \
 related content models."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.28.1"
+PV = "0.29.2"
 
-RPM_NAME = "python310-OWSLib-0.28.1-1.4.noarch.rpm"
-RPM_HASH = "757194b9de63838136ba44f89e8ff38c2594e033e80236e47cd5300d40fd933137b0abf796568606162afeb76e2eafe528751ffb6fcd21f5fd545534bb23c30f"
+RPM_NAME = "python310-OWSLib-0.29.2-1.1.noarch.rpm"
+RPM_HASH = "1683d4eb4e5cad37d5a2f4296d3107b4cd92ff79be949b677a57b45d7dbe9e085505746ed2b152048d65dd47af29f7e771acf59003b3ed8b3c980c5a650d9849"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-owslib \

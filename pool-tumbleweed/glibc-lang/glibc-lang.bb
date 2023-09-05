@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-2.1-or-later-with-GCC-exc
 
 PV = "2.38"
 
-RPM_NAME = "glibc-lang-2.38-1.1.noarch.rpm"
-RPM_HASH = "009d624a8d4800c131a197aea15b7bd130f4637367901f77b91dea2f32e8c9f050120ad5829f395f1614ff708cf12910ae85a86dc9a689853b5ab42153b2df38"
+RPM_NAME = "glibc-lang-2.38-2.1.noarch.rpm"
+RPM_HASH = "2bb470aff2c50af5b20dffe2efaad9f4a6c825d8e4cd089055c8af7be90184077991e39b508b309a19b3fa5e8b4ec55a90bd2905baeb233f1bae2e46b0a8de7c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glibc-lang \

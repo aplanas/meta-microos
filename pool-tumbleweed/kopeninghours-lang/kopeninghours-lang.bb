@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kopeninghours"
 DESCRIPTION = "Provides translations for the 'kopeninghours' package."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kopeninghours-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "56ad13c8c87293718691a01da01319ff52ff95331d47f27bb9d157073758bef1185555a3a43fdc6fcb931d92672aa0450759184fb5ab74ecc88a7c415b2e0c9e"
+RPM_NAME = "kopeninghours-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "908de39bee10104ed4826d5df00d1a31c887024e9bb608a153146de0dc2334659f20a0f2b11c778c360dc7fbd72bfcbe200305d68d7403f4f13e2065bc8d8086"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kopeninghours-lang \

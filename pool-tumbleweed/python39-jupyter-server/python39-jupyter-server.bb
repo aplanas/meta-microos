@@ -5,10 +5,10 @@ explanatory text. The Notebook has support for multiple programming \
 languages, sharing, and interactive widgets."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.6.0"
+PV = "2.7.2"
 
-RPM_NAME = "python39-jupyter-server-2.6.0-1.5.noarch.rpm"
-RPM_HASH = "2046ed7c58a0f20ee901065b9d26f20596976291adf22c7461cda5e059846f60f85dcf5681cfdc971dc9fceb8f236f2cab17b4d9f33c9335db6e03015f9de62e"
+RPM_NAME = "python39-jupyter-server-2.7.2-1.1.noarch.rpm"
+RPM_HASH = "5159d1f146fae859f24c9b589a27169157241e8a6c76e8ace228b63a561c02e1efda98a8cb586708b3425d40f6bd8b871e9f335483e47ebdc5c218ca41ad8292"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-jupyter-server \

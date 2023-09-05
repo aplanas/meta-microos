@@ -8,10 +8,10 @@ dynamically change X screens, so as to resize, to change the \
 orientation and layout of the root window of a screen."
 LICENSE = "MIT"
 
-PV = "1.15"
+PV = "1.16"
 
-RPM_NAME = "libxcb-randr0-1.15-2.3.aarch64.rpm"
-RPM_HASH = "b7ee1e3efc165dd62158fb329af490a498f74dd26150f7bfa9c27389198fea31eb8174ef87daa64ccb9eb5b5aa4bad0154f166966da965419105ea026bd30419"
+RPM_NAME = "libxcb-randr0-1.16-1.1.aarch64.rpm"
+RPM_HASH = "f9c94af6cf8a6d2fb68aaa1ced286289145fe521fd698ab826159b0ee4c3b56d0b5726c5ebfd5d6d8132cae23819ddac2bf966d10860169c8ae280b76f64f9f8"
 
 RPROVIDES:${PN} += "libxcb-randr.so.0 \
 libxcb-randr0"

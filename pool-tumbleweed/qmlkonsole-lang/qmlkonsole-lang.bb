@@ -2,10 +2,10 @@ SUMMARY = "Translations for package qmlkonsole"
 DESCRIPTION = "Provides translations for the 'qmlkonsole' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "qmlkonsole-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "c513aa5a4f9c1fa8eead36b89aa8e0d1a901336c0e9a19fcf006119a14ca123ff08d08e07b7dd9decb28163180544b77566a49dd92f0b7ad0e17dcc8699eb487"
+RPM_NAME = "qmlkonsole-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "d75ac4aa5338a0cf0c649635dd3603e8a951611f0c208774948e2ce30a5179c64dc1ff509ea7070085b4ba9aaebd15800d33b4a6319df145bd8ced5265055286"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-qmlkonsole-ca \

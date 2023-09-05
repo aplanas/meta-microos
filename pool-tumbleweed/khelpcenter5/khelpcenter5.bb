@@ -2,10 +2,10 @@ SUMMARY = "KDE Documentation Application"
 DESCRIPTION = "Application to show KDE Applications' documentation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "khelpcenter5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "5077185141bdd1dd6674dbe2b6a4de6ebc0b34dc6d978bd4fccb48e045d44ee2b7d22c0dec4fd949ed77065b49e52712d8d813a0d337163dda22947911075b04"
+RPM_NAME = "khelpcenter5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "37e041f6b29775b53574154cdfcce3fb0f60f32aec1a55089da3c051a4486d359130b5c46f50963c630c3966ae332f0547e6e595b425fa93fd4432c8c6eb9d7a"
 
 RPROVIDES:${PN} += "khelpcenter5 \
 suse-help-viewer"

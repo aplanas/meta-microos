@@ -2,10 +2,10 @@ SUMMARY = "Cloud Key Management Service (KMS) API API client library"
 DESCRIPTION = "Cloud Key Management Service (KMS) API API client library"
 LICENSE = "Apache-2.0"
 
-PV = "2.18.0"
+PV = "2.19.1"
 
-RPM_NAME = "python311-google-cloud-kms-2.18.0-1.1.noarch.rpm"
-RPM_HASH = "a12007e8fbabd9cf4f209013b1160b64c9b84030ecd0479690744bd837c3b6b1e78976da60454d5d2dd9254523896a29fb3a9b57535f013cdb0567bc5478e900"
+RPM_NAME = "python311-google-cloud-kms-2.19.1-1.1.noarch.rpm"
+RPM_HASH = "94aa5bb3c95d2ebe1e94850bdb5f4936749879f47dad5689fff95b4d407f154653464a50ebb9bb082c2fbfcedca0641c09bfefd0994567093d49edb0896e47c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-google-cloud-kms \

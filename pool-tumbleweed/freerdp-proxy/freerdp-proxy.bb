@@ -4,10 +4,10 @@ channels allowed for all connections passing through. \
 It allows monitoring of the running sessions."
 LICENSE = "Apache-2.0"
 
-PV = "2.10.0"
+PV = "2.11.0"
 
-RPM_NAME = "freerdp-proxy-2.10.0-3.2.aarch64.rpm"
-RPM_HASH = "13ad3cfe5a9d2a5de7d68d961fa2ec73fb131cf939a2a37cee149a312b3bcb13632f3669c884f83b921a0f172aa87d75e666642931babc21e5f042cb7138b028"
+RPM_NAME = "freerdp-proxy-2.11.0-1.1.aarch64.rpm"
+RPM_HASH = "87fe72eafcbfed7eda4949640482a3a4c81b8fc06681740b45935e106bf9af19412b9da07316f26fe6cd8868c28741dc749d91476e3168f1f348ff115b33e4e0"
 
 RPROVIDES:${PN} += "freerdp-proxy"
 

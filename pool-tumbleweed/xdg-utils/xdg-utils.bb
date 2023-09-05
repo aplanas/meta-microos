@@ -16,10 +16,10 @@ This means that: \
    environment."
 LICENSE = "MIT"
 
-PV = "1.1.3+20210805"
+PV = "1.1.3+20230830"
 
-RPM_NAME = "xdg-utils-1.1.3+20210805-2.3.noarch.rpm"
-RPM_HASH = "933af97ffaafea17b97bff35983061af341363efac74ce6c478f948fdd7085467e7068760e35513a84f2d2142f14f366dfddccbb8c80268854a9dcab7b8c185f"
+RPM_NAME = "xdg-utils-1.1.3+20230830-1.1.noarch.rpm"
+RPM_HASH = "4d1f9b3f2bcb4be070e6a91e2d4e7be64b702fade5d2c403eddfa1e8f8612f4b3a46c5e8d242536127d0cfcd37db1f2d46f4ede7339f72079318b1b2919e2ea8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xdg-utils"

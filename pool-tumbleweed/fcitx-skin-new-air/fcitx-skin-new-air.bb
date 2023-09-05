@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2.9.9"
 
-RPM_NAME = "fcitx-skin-new-air-4.2.9.9-1.6.noarch.rpm"
-RPM_HASH = "f242c8a2ce4df1b6a2410c3737b5d02ccee0708bb10885cc20ff52780a4fc6f5742d7292f03f321484272648552d749f2001be7b27cd6f2cc01e7a5d8027fb44"
+RPM_NAME = "fcitx-skin-new-air-4.2.9.9-2.1.noarch.rpm"
+RPM_HASH = "d0369ab8040f3837321b60a6f4dc4690861d6213e8e56ca698fbcdba326a1a3496f7ddbd8dce933189066a597b9b0032f99f8d7097bc357ebece88ccf3a09a2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fcitx-skin-new-air"

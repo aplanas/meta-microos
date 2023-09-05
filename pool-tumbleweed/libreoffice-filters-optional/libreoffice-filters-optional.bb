@@ -8,10 +8,10 @@ LibreOffice: \
 - XHTML"
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.0.3"
+PV = "7.6.1.1"
 
-RPM_NAME = "libreoffice-filters-optional-7.6.0.3-1.1.aarch64.rpm"
-RPM_HASH = "066fdf4841c47db0c213fb001f9362d1d23ece451baaa9be0582c3011cc0969b5dbdc11beb7eb0ea68bd4f12a1aa3974a3473359dbd2a836298191728ff59e2f"
+RPM_NAME = "libreoffice-filters-optional-7.6.1.1-1.1.aarch64.rpm"
+RPM_HASH = "20aa2ce096d945b2f729876eba2600ff466478f116a990920db917658721fe7d9273dcb6ffc51413c4e4aaff2d6351981d19cd8cc081ec93d9bbca516098edb3"
 
 RPROVIDES:${PN} += "libreoffice-filters-optional"
 

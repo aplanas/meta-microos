@@ -2,10 +2,10 @@ SUMMARY = "Incidenceeditor Library"
 DESCRIPTION = "The IncidenceEditor library for KDE PIM applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKPim5IncidenceEditor5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "99f3805ecbcce62ac5c7b54bd577d89fe482877170ed0793a9adbe04b207ff4d4a87d68119198d67f8c8025cac5c8bb0230f7d2b9c92fd3e7a6d4b8972f3374b"
+RPM_NAME = "libKPim5IncidenceEditor5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "6cd438cefd88f48560d70aaea5fbc4de520463e3df5c05513d1c7ac7a962155d39c7451fde97cf2407d51f33117a1be88740df27627ba03034823f79ae2eb393"
 
 RPROVIDES:${PN} += "libKPim5IncidenceEditor.so.5 \
 libKPim5IncidenceEditor5"
@@ -28,7 +28,6 @@ libKF5JobWidgets.so.5 \
 libKF5KIOCore.so.5 \
 libKF5KIOGui.so.5 \
 libKF5KIOWidgets.so.5 \
-libKF5PimCommonAkonadi.so.5 \
 libKF5TextWidgets.so.5 \
 libKF5WidgetsAddons.so.5 \
 libKF5XmlGui.so.5 \
@@ -44,8 +43,8 @@ libKPim5EventViews.so.5 \
 libKPim5IdentityManagement.so.5 \
 libKPim5Ldap.so.5 \
 libKPim5Libkdepim.so.5 \
-libKPim5MailTransportAkonadi.so.5 \
 libKPim5Mime.so.5 \
+libKPim5PimCommonAkonadi.so.5 \
 libKPim5TextEdit.so.5 \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \

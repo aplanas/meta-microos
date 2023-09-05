@@ -2,10 +2,10 @@ SUMMARY = "Renesas based arm64 systems"
 DESCRIPTION = "Device Tree files for Renesas based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.11"
+PV = "6.4.12"
 
-RPM_NAME = "dtb-renesas-6.4.11-1.2.aarch64.rpm"
-RPM_HASH = "9c2895ae06be408d1c096f3a0068e8e6596b23989eb329f2ee815b552f3ff1d55fe1b932910379ada1542808f2009c9f192fd0e3b6dacfc809883032ee83243c"
+RPM_NAME = "dtb-renesas-6.4.12-1.1.aarch64.rpm"
+RPM_HASH = "442d6c68b970cb5f16b8073ebad7ef142f5c20da0abe81600b230e6c64d82708b941116704a9d85e486c0b00dfd1bc86b99f4a8626fa04001ebb19780dedc52e"
 
 RPROVIDES:${PN} += "dtb-renesas \
 multiversion-dtb"

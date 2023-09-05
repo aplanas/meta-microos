@@ -2,10 +2,10 @@ SUMMARY = "Breakout-like game by KDE"
 DESCRIPTION = "KBreakout is the KDE version of a Breakout-like game."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kbreakout-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "fb46e7ec20bd8a04c3e8686018ad115d69033d75bdfb7a6a2274e1616fe8f5f8632cf17cf102675706ddfc49bfa0806cafe89fac7daa9785d00912b3d1d56ac5"
+RPM_NAME = "kbreakout-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "1f137753d20de5580fe7b00d6749e6052c51ca9d547f6214a722235ac60571b6946937e835d166831d11b4098a795163f8392540f955ca71b8aa3accdbe0a8ca"
 
 RPROVIDES:${PN} += "kbreakout \
 kbreakout5"

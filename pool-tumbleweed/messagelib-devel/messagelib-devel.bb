@@ -2,10 +2,10 @@ SUMMARY = "Library for messages"
 DESCRIPTION = "This package contains source headers for messagelib."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "messagelib-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "d408a8624a7a361b0a41073972c30a02b21f406330b9aea9c1b5db84e877cf586d812b0db759d45799c17e2a53775c0ec2a619e545f62583671b8566f99a1f83"
+RPM_NAME = "messagelib-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "bdfa04b98289646bb4e0b422a24a6c8e49e99e88474354df00d2cbb2c95081791fddd47f01754552703bafb763640292390b7cc986a1c586b20a087073d67456"
 
 RPROVIDES:${PN} += "cmake-KPim5MessageComposer \
 cmake-KPim5MessageCore \
@@ -18,11 +18,11 @@ messagelib-devel"
 
 RDEPENDS:${PN} += "cmake-KF5Contacts \
 cmake-KF5Libkleo \
-cmake-KF5PimCommon \
 cmake-KPim5Akonadi \
 cmake-KPim5AkonadiMime \
 cmake-KPim5IdentityManagement \
 cmake-KPim5Mime \
+cmake-KPim5PimCommon \
 cmake-Qt5WebEngineWidgets \
 messagelib"
 

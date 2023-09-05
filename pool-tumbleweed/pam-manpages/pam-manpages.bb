@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later | BSD-3-Clause"
 
 PV = "1.5.3"
 
-RPM_NAME = "pam-manpages-1.5.3-2.1.noarch.rpm"
-RPM_HASH = "dfbcb28a69f34cda38a73a615ddf2ab818b0f73f9d7178ac8013c5ba70abb75aec74195d89fd076591bfb1c48b2aa57d8c3d5d05042de4bbb397b694f9d420b9"
+RPM_NAME = "pam-manpages-1.5.3-3.1.noarch.rpm"
+RPM_HASH = "ed3854194398aa759972b99671d1a90ef4dfcd7a9f70fcc537c7dc81911fdd9ad84a9c2375515cd037e5b1f396702bd1e1f16bf94b19530a5d71a3ae8c49a134"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pam-//usr/share/man/man8/PAM.8.gz \

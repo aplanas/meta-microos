@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kwalletmanager5"
 DESCRIPTION = "Provides translations for the 'kwalletmanager5' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kwalletmanager5-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "1b9eb3fec882302b5440e34145a0a0924e40e75db8d4c12c273cb63fdd8ff8db1dc44dce1d5035dbeac7f7c3cb88f62253bdd740345857fefc00f34f7c634c97"
+RPM_NAME = "kwalletmanager5-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "5e97e2470b24768e9374dc916bb41279951fc32b1a51a486713e5173de5eb8ec34037412630534323dcbaafd7fbcadc63be33f4c8ca103794007275e9808e46d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kwalletmanager5-lang \

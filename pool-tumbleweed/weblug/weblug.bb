@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.4"
 
-RPM_NAME = "weblug-0.4-1.1.aarch64.rpm"
-RPM_HASH = "aab5cd5c6d8d3ef9fc78eaccda880d31b650e5c52557888ca643a41915dedc4df89a280cfa45aff9997deaa5099a36a5a98804378f18f7d2e18b971b13b9e080"
+RPM_NAME = "weblug-0.4-2.1.aarch64.rpm"
+RPM_HASH = "65c94dff91d4ceec5f1d622c8382115ee503a5fe367f960fafb79f8f1e15c5974fc5a8c70cf226dd37d492797f9e6382a138828882d2abb5460fdd83253f2b45"
 
 RPROVIDES:${PN} += "config-weblug \
 weblug"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kalgebra"
 DESCRIPTION = "Provides translations for the 'kalgebra' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kalgebra-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "d6e93a8848940897798cecc0c0bfbee6a04aa55199516155611e2aefb5a404c98264e3fffd043b81c3085204747fde9376a167d530965d3cdf6bc0b0e5a5e6fa"
+RPM_NAME = "kalgebra-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "4908f0120366667496794bae96c3c513d64740f8fcde2d6576bff97f1b10c6400d2258be4ea623aa8256734abeabc25a2cf613689a3396daf048630923e8256a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kalgebra-lang \

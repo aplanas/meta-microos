@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kde-inotify-survey"
 DESCRIPTION = "Provides translations for the 'kde-inotify-survey' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kde-inotify-survey-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "424ad2f400693a156470644dcf181fff85923a9b1ec6ef1da0a249fb153cf7eef8f69ab960ea45619884e0031c11049be1896d1c06996eed41b683b58bb9fa20"
+RPM_NAME = "kde-inotify-survey-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "1329282c499e03144bf83cd2d815e7596e67a5f4589facb32d01d758f8622cbfdec790ce9cb24ea6ec28a3c64db3794f35a0e765fbfacf72181a1a5f404e9b31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kde-inotify-survey-lang \

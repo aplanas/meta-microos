@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.02.122+94.4bd41a3"
 
-RPM_NAME = "libply-boot-client5-22.02.122+94.4bd41a3-9.1.aarch64.rpm"
-RPM_HASH = "09f26279addd81fe88dcb259ba09a71605be372a62086d2bbd54fd0d158b5d2b49f32ee1238074d6452ad4e2c76128ff7f2dd3757248e175ee173a891f100c43"
+RPM_NAME = "libply-boot-client5-22.02.122+94.4bd41a3-10.1.aarch64.rpm"
+RPM_HASH = "6173789c575c5dc428a71b358f92efc9fdc7e01040c2545a314a299bacd0f189b4bb9ae630914f7b158ad3aeeff5b4ddf1e80c7a83cfb62dd1a3ae4c5f19a50b"
 
 RPROVIDES:${PN} += "libply-boot-client.so.5 \
 libply-boot-client5"

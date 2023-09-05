@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "13.2.1+git7683"
 
-RPM_NAME = "gcc13-13.2.1+git7683-1.1.aarch64.rpm"
-RPM_HASH = "bfd7bfcac21ee26f220dd54b75424582beb88dd073ce8a99a3a91f21f64727661bf01495587b4dfa8e8ca7d694ff079a2cf6f93652b13cf19838553b7cd8923b"
+RPM_NAME = "gcc13-13.2.1+git7683-2.1.aarch64.rpm"
+RPM_HASH = "9474a60b72bf5e09264fca9144571cf9f4bba3c4ca527eca4b5d589e6dfecd9d5d92ad075920b3fb38ad1fa77bfab871bfac80b41046f0ef3dbc3fd53c22e349"
 
 RPROVIDES:${PN} += "gcc13 \
 liblto-plugin.so"

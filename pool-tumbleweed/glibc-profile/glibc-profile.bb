@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-2.1-or-later-with-GCC-exc
 
 PV = "2.38"
 
-RPM_NAME = "glibc-profile-2.38-1.1.aarch64.rpm"
-RPM_HASH = "28fc42abe2dcf373d36f6f45c422964692b81634da1992b9b393be02e40c820a56fe8c160c3e0c1028603323b5203a4d2214cd044c1120b7165d786e8ab959a1"
+RPM_NAME = "glibc-profile-2.38-2.1.aarch64.rpm"
+RPM_HASH = "30679566f74beb4f89d9bc56fdac1e5196a2f98263e0f57cc08ec9b02ddf9a1582ba8fce67f40654fe657fcdcfcaada9800832b08db0cd3ff831a4175be21382"
 
 RPROVIDES:${PN} += "glibc-profile"
 

@@ -2,10 +2,10 @@ SUMMARY = "Job-based library to send email through an SMTP server"
 DESCRIPTION = "KSMTP is a job based library to send email through an SMTP server."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "ksmtp-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "cd63df8fe114b72f21cf0ffaa8ee02c6570ea9fc8e9781724b366beee28142f542583dc8075781f2318e238b0273b8699090b5f2b9701e7f8f82b3bd9188e6e2"
+RPM_NAME = "ksmtp-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "bc027e61da9de191ac98a061985e1bf2c20bbccb5f50c3b211bc47817df64bf955dc8c58ab06269dd1aea9cb090ecaf1e56a664338823825c26ce5ddb641045b"
 
 RPROVIDES:${PN} += "ksmtp"
 

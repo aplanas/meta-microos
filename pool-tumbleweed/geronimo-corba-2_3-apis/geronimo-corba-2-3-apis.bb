@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2"
 
-RPM_NAME = "geronimo-corba-2_3-apis-1.2-36.12.noarch.rpm"
-RPM_HASH = "583392536716266d1d3654165e6690f06ad7baedbaffd73f57aecbf479d04bb6e02896677f51dc5aeaf1c70add74aec87a34984a4959f8cc9d5d566763e19caf"
+RPM_NAME = "geronimo-corba-2_3-apis-1.2-37.1.noarch.rpm"
+RPM_HASH = "95dfd0344477aa679e0f9a03f87b32abe80dd7cd84c6eb89f12a8a085acf28ec395a38a196d54c77c528756d27298763d51fe0e1e8e607eb08aeafd1bc16fab9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "corba-2-3-apis \
@@ -17,7 +17,6 @@ mvn-org.apache.geronimo.specs-geronimo-corba-2.3-spec-pom-"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 java-headless \
-javapackages-filesystem \
-mvn-logkit-logkit"
+javapackages-filesystem"
 
 inherit rpm

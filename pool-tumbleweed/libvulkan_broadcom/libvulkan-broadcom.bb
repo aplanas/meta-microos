@@ -2,10 +2,10 @@ SUMMARY = "Mesa vulkan driver for Broadcom"
 DESCRIPTION = "This package contains the Vulkan parts for Mesa."
 LICENSE = "MIT"
 
-PV = "23.1.5"
+PV = "23.1.6"
 
-RPM_NAME = "libvulkan_broadcom-23.1.5-355.1.aarch64.rpm"
-RPM_HASH = "7fb2583ec496c8fa38d123114987b09aca7a850b6416c03ac19ce99a54fceb684a3d3d97ad3e29c669006ab50d194659b6bb5d9d5f47c6d25a88911d5762b44a"
+RPM_NAME = "libvulkan_broadcom-23.1.6-356.1.aarch64.rpm"
+RPM_HASH = "bc69a6397642cc11e64f82bbd0ce714aae72fdb92da18f48e40c8499a966e7e69739d245cd8c65b686dcc99f691678e753a35fbfb2d637d8b5c7682d2e449f68"
 
 RPROVIDES:${PN} += "libvulkan-broadcom \
 libvulkan-broadcom.so"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package korganizer"
 DESCRIPTION = "Provides translations for the 'korganizer' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "korganizer-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "0baedb18d6b3d96a95196ba7c2d6e4eacff29cc164fdd77221552755d18fe35d623a98b994ad440c9554d88ed2cd925b5cb2d9df83a2595d99f523ea8e2bedb9"
+RPM_NAME = "korganizer-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "99980e93cd46f7ab91720723fcad340579f9308833cd21404fb7d1c3f4768c14121693294b39d56c6aedadfaef97650c15fa33a51d306340344bb8e56b79af7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "korganizer-lang \

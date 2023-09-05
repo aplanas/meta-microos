@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.23.13"
 
-RPM_NAME = "mpd-0.23.13-1.3.aarch64.rpm"
-RPM_HASH = "7c47e57d2be17367149e5837e816d37de1a227bdfaf922608df7c0de475a15b009d0d7a3b6c5b641841b1c1cb5547f592b64040b8e32a82f50ba3aa55cd4cc24"
+RPM_NAME = "mpd-0.23.13-2.1.aarch64.rpm"
+RPM_HASH = "79bca55418017cded5c57b5f94c613f1986c94da3e2e9b2225d8e0c21cdd82ef185a46af62c195dc3fe22a95ba0e4e6c97c36860dab675364852d0a1d5d7ed2e"
 
 RPROVIDES:${PN} += "config-mpd \
 mpd"
@@ -38,7 +38,6 @@ libc.so.6 \
 libcdio-cdda.so.2 \
 libcdio-paranoia.so.2 \
 libcdio.so.19 \
-libchromaprint.so.1 \
 libcurl.so.4 \
 libdbus-1.so.3 \
 libexpat.so.1 \

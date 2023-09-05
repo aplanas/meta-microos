@@ -2,14 +2,15 @@ SUMMARY = "Translations for package itinerary"
 DESCRIPTION = "Provides translations for the 'itinerary' package."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "itinerary-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "5728affcc469902eeeaeffed50d0f46f9694abbe7cd996db1d040d84d3437e0c4615baa4df00695e096882ea49fd4ba1c401a49b41842923003db551b0b281f7"
+RPM_NAME = "itinerary-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "157266dcdbeeb6f2185afc5afcbfe5fdd7f966863805077c89ec2ac0f390e6df5dd0b405ffbb364adfa0c8f35a325d5fe6fc9d6633826717f8220cf7834e7d70"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "itinerary-lang \
 itinerary-lang-all \
+locale-itinerary-ar \
 locale-itinerary-ca \
 locale-itinerary-ca@valencia \
 locale-itinerary-cs \

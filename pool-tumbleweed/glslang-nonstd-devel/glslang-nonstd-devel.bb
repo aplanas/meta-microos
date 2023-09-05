@@ -7,10 +7,10 @@ This package contains additional headers that are not officially installed, \
 but which some downstream packages rely on."
 LICENSE = "BSD-3-Clause"
 
-PV = "12.2.0"
+PV = "12.3.1+sdk261"
 
-RPM_NAME = "glslang-nonstd-devel-12.2.0-1.1.noarch.rpm"
-RPM_HASH = "733a4004a9ccc0f0569d33149ebdfced7b77f27145f18e0344831f8707d21f80e614230041f01c48347184dfe8509d0892b6707a47899eb7a4f3859b414b81f5"
+RPM_NAME = "glslang-nonstd-devel-12.3.1+sdk261-1.1.noarch.rpm"
+RPM_HASH = "a1bc7460f9fd9148a9f363c3728134f5d4b338e71abe60aba35f7db45299ca4c996c73e4c86f9a6ecbeb7ddf633e2039222c4f9804f759102a2a7e7c070f84d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glslang-nonstd-devel"

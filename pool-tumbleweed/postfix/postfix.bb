@@ -4,8 +4,8 @@ LICENSE = "IPL-1.0 | EPL-2.0"
 
 PV = "3.8.1"
 
-RPM_NAME = "postfix-3.8.1-1.1.aarch64.rpm"
-RPM_HASH = "e9dd2e4f812b4beef3242766287e9990c8dbc26df025be30f985f971780cab216d8fc9e8343d3fa717cd820e012ba04f9979efc21399543f681d15cf2eb19a60"
+RPM_NAME = "postfix-3.8.1-2.1.aarch64.rpm"
+RPM_HASH = "f023c3206701aaadbde91e23ad87306ad9d3083e7aeb14ba1a01fd94491d1aafc73b9d13e58ae06c931c16331a6b0666368c682da6b25864f01d37789859234a"
 
 RPROVIDES:${PN} += "config-postfix \
 group-maildrop \

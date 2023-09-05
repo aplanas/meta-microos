@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kpartloader"
 DESCRIPTION = "Provides translations for the 'kpartloader' package."
 LICENSE = "GPL-2.0-only & GFDL-1.2-only & LGPL-2.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kpartloader-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "4d7b74f43f5ce821b38213db3b17e525c607b6599982465fffb350e3b987b797d25d34c244eef0f19f638d8040b367e30b3298129ead5280196de5cc60cceae4"
+RPM_NAME = "kpartloader-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "3c040d11802eb0cd1e5cc475851ac3344dd6b10ab618d66040d8c5f272f62f478bb940378b36cf71bfd1060f84bb59526c5b17db7beeaf2ec751ea653044ba60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kpartloader-lang \
@@ -30,6 +30,7 @@ locale-kpartloader-ga \
 locale-kpartloader-gl \
 locale-kpartloader-hr \
 locale-kpartloader-hu \
+locale-kpartloader-ia \
 locale-kpartloader-id \
 locale-kpartloader-it \
 locale-kpartloader-ja \

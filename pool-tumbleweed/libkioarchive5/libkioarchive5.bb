@@ -4,10 +4,10 @@ available as a library in its own right so that support for other \
 archive formats can be built outside the kio-extras source tree."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libkioarchive5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "f3b516f6d729ffc69a40cf54f02eadf1d88d4b857b95469e21f4df31f35c1b5f08f59716b79e519500b8c50b0687992a8258c93e64a5eed17ecb42eedb47ca56"
+RPM_NAME = "libkioarchive5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "4d78f5d30761b6aa8a2756d694cd90421d185ae91de252f2fc15ae0d79068e035e5eaec94fb55879bfdbef9cb48870482f0c606cd4c5c2be2cb3b7a781e919d1"
 
 RPROVIDES:${PN} += "libkioarchive.so.5 \
 libkioarchive5"

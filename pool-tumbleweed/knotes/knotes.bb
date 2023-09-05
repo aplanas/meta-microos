@@ -2,10 +2,10 @@ SUMMARY = "Popup Notes"
 DESCRIPTION = "KNotes is a note taking application by KDE."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "knotes-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "4364ee1cf7536f6bb9b2ba1d8ae2bd37f80f28f45f6945a5cf3f471b9424d0b9434817c72709156b993523e384899469ad13d314f3582f1ced51daac30985f37"
+RPM_NAME = "knotes-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "84c329b98f9eae3bd04fabf21c0b3cbb4878ee5de9a0352aade580f9be379422ead7628e8b05a5226724ff54d253fe7d9e22dd718a11f88e83444591729b1b81"
 
 RPROVIDES:${PN} += "knotes \
 knotes5 \
@@ -35,9 +35,8 @@ libKF5NewStuffCore.so.5 \
 libKF5Notifications.so.5 \
 libKF5NotifyConfig.so.5 \
 libKF5Parts.so.5 \
-libKF5PimCommon.so.5 \
-libKF5PimCommonAkonadi.so.5 \
-libKF5TextAutoCorrection.so.1 \
+libKF5TextAddonsWidgets.so.1 \
+libKF5TextAutoCorrectionCore.so.1 \
 libKF5TextWidgets.so.5 \
 libKF5WidgetsAddons.so.5 \
 libKF5WindowSystem.so.5 \
@@ -52,6 +51,8 @@ libKPim5CalendarUtils.so.5 \
 libKPim5GrantleeTheme.so.5 \
 libKPim5KontactInterface.so.5 \
 libKPim5Mime.so.5 \
+libKPim5PimCommon.so.5 \
+libKPim5PimCommonAkonadi.so.5 \
 libKPim5TextEdit.so.5 \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \

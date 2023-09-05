@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.38"
 
-RPM_NAME = "glibc-utils-2.38-1.1.aarch64.rpm"
-RPM_HASH = "0b1c1bb64e073aa947dc65e73e3233f0c6fd31170344e18b2cb4b2aa465f788d3fd3a9943ce243910e8c77ac95beab42081b883b3e4110c2402e651c9da58837"
+RPM_NAME = "glibc-utils-2.38-2.1.aarch64.rpm"
+RPM_HASH = "f80e3bbd3976ffe1006820207a9b7ddcb93ef33b4a6935ad3254a22b0143b1730c740bdab537b00c485cd24d9b95ee8d0c1825142caa98be118b3d94b013afde"
 
 RPROVIDES:${PN} += "glibc-utils \
 libmemusage.so \

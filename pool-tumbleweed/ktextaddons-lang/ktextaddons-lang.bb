@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ktextaddons"
 DESCRIPTION = "Provides translations for the 'ktextaddons' package."
 LICENSE = "LGPL-2.0-or-later & GPL-2.0-or-later"
 
-PV = "1.1.0"
+PV = "1.4.1"
 
-RPM_NAME = "ktextaddons-lang-1.1.0-1.1.noarch.rpm"
-RPM_HASH = "8aa3128fc7bad042ee086bf8e7063781b97bea614ea74d27cc8e8eed3905b87251132bb56df62578acdeed85ed9287a548cb2e7673892a37650c31bbe3622951"
+RPM_NAME = "ktextaddons-lang-1.4.1-1.1.noarch.rpm"
+RPM_HASH = "1a06155c09bb2e52df3046163bad694c038779313f2ef645e0b343c27a2de245aa2770be9b7fcabcbc1d05cf94f1094b11d2912f01fef16f6cdb78390b085206"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ktextaddons-lang \
@@ -27,9 +27,12 @@ locale-ktextaddons-fr \
 locale-ktextaddons-gl \
 locale-ktextaddons-ia \
 locale-ktextaddons-it \
+locale-ktextaddons-ja \
 locale-ktextaddons-ka \
 locale-ktextaddons-ko \
+locale-ktextaddons-lt \
 locale-ktextaddons-nl \
+locale-ktextaddons-nn \
 locale-ktextaddons-pl \
 locale-ktextaddons-pt \
 locale-ktextaddons-pt-BR \
@@ -38,7 +41,9 @@ locale-ktextaddons-sk \
 locale-ktextaddons-sl \
 locale-ktextaddons-sv \
 locale-ktextaddons-tr \
-locale-ktextaddons-uk"
+locale-ktextaddons-uk \
+locale-ktextaddons-zh-CN \
+locale-ktextaddons-zh-TW"
 
 RDEPENDS:${PN} += "ktextaddons"
 

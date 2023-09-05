@@ -2,10 +2,10 @@ SUMMARY = "Translations for package yakuake"
 DESCRIPTION = "Provides translations for the 'yakuake' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "yakuake-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "242c5a019fc0061eb0f6fd49390808422ae6b5b35b13335b0baae06a77a78bab33db079a097c96e1511611533d5f1ef7f43432ddf4fbf87469429c5548bac08b"
+RPM_NAME = "yakuake-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "828ddfddef1ddb01b72efce2bc42d54ef42c7d5c9e13a57ecfef5605601ceab8a5ffb682725d9cec8f0ae23c47ccbfcd256e4171e46f11a17637e569f52c7186"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yakuake-ar \

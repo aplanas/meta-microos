@@ -2,10 +2,10 @@ SUMMARY = "ZSH completion for kdeconnect-kde"
 DESCRIPTION = "ZSH command line completion support for kdeconnect-kde."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kdeconnect-kde-zsh-completion-23.04.3-2.1.noarch.rpm"
-RPM_HASH = "5b563fbdb9eef26db64c4933b4d6e2dd5b126272559d62d90bf984c162c319f421295461d14120bf3ca01108c939a3eb6b42b660434f88083115eb765ae1cb5b"
+RPM_NAME = "kdeconnect-kde-zsh-completion-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "79f563bb78a38be178671af9f1a20325d3365abfcb12a3883b8def596bdebe1773723fce2d19d3d26805e5fe06a5a9fe07a3da618cff1e278d14cfacb16298b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdeconnect-kde-zsh-completion"

@@ -3,10 +3,10 @@ DESCRIPTION = "Timer utility by KDE where the user can select a particular type 
 and be reminded when the associated hardcoded time is over."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kteatime-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "8e4828177d093592681b66b720e12230041ca87914f4c59c7cfe7e27836f9f7e25386adc4c355aa21809b6f9236ea93ae0105b272e790efff5aa0937452e37c4"
+RPM_NAME = "kteatime-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "f9ddc670d18a3b40075b21d59ee846685d1be23447d8f2f310b79be7cc48406b31f3b0a4454302d3b127b4cbc2811b8ab9e84ba9a6b54d8318f937ea1d50969c"
 
 RPROVIDES:${PN} += "kteatime \
 kteatime5"
@@ -16,8 +16,8 @@ libKF5ConfigCore.so.5 \
 libKF5ConfigWidgets.so.5 \
 libKF5CoreAddons.so.5 \
 libKF5Crash.so.5 \
+libKF5GuiAddons.so.5 \
 libKF5I18n.so.5 \
-libKF5IconThemes.so.5 \
 libKF5Notifications.so.5 \
 libKF5NotifyConfig.so.5 \
 libKF5TextWidgets.so.5 \

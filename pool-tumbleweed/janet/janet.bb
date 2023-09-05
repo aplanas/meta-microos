@@ -6,10 +6,10 @@ Janet scripting can be added to an application by embedding a single \
 C source file and a single header."
 LICENSE = "MIT"
 
-PV = "1.28.0"
+PV = "1.30.0"
 
-RPM_NAME = "janet-1.28.0-2.1.aarch64.rpm"
-RPM_HASH = "b0a43c737a8f07946d8d3791dbea26adb6613cb3f353bd74ecccfbdd0270bece00cc543615ebdc4109d0ad30a877c180f94f33ad649d56039ebf2dfe35967d4c"
+RPM_NAME = "janet-1.30.0-1.1.aarch64.rpm"
+RPM_HASH = "1bda5ce6be5f1cdcc8f077bb21c13e62f7bfe4a94f479e1f31aa23ba790e1cc7e6b3ed5d8db9a500605b189f0396603fa57dc0f76cfb4053d5823259e8947281"
 
 RPROVIDES:${PN} += "janet"
 

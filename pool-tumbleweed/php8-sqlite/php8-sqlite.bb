@@ -14,10 +14,10 @@ This package includes sqlite and pdo_sqlite modules for sqlite version \
 2 and 3 respectively."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.9"
+PV = "8.2.10"
 
-RPM_NAME = "php8-sqlite-8.2.9-1.1.aarch64.rpm"
-RPM_HASH = "370ed1266be9c3518ad42a080c003afb37e0bfb92846dde2ef31a9d5e537f1a4f99e92a7360d7368e980271347c977a1a34cfc7f90cb27961a50b10907b35f7e"
+RPM_NAME = "php8-sqlite-8.2.10-1.1.aarch64.rpm"
+RPM_HASH = "85e387509b946b15678c93cfac973edd2f823b62e131ae63a7b4703addc4c8fb995c53732816f0e91ba9020c0a62534e5ac8bcef1dd20f26086ff1075fcb30c4"
 
 RPROVIDES:${PN} += "config-php8-sqlite \
 php-pdo-sqlite \

@@ -5,10 +5,10 @@ The apache2 configuration contained in this package installs a virtual \
 directory /git/ that calls the cgi script."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.41.0"
+PV = "2.42.0"
 
-RPM_NAME = "git-web-2.41.0-1.3.aarch64.rpm"
-RPM_HASH = "2ee34f49fc4cd02301d93912301a391c4fdc26cdf00c798eb33f5ddd9592fa9e5e6f738aa652c40055c4c8638c7f623061153f52357d8412d10c033e8cd325d2"
+RPM_NAME = "git-web-2.42.0-1.1.aarch64.rpm"
+RPM_HASH = "b4df7b07b2d9017cf3c5eb7a58c03407f6e23e9eb063a729ec750ff4ba24582eadb1fdc894f2c6a53adbc7a9d4c3a88520bfe497e93227a146e7cce7a06b18b4"
 
 RPROVIDES:${PN} += "config-git-web \
 git-web"

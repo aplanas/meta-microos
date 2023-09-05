@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.6.2"
 
-RPM_NAME = "python311-cftime-1.6.2-1.7.aarch64.rpm"
-RPM_HASH = "0b260b43026872de5af47eeaafa46763aa9cfa9dfa886d6cc95f0a3992b67c87c224ea5c9192b2472a1cc17d21cab1813351361a5db86d613be1c1c24cae39cc"
+RPM_NAME = "python311-cftime-1.6.2-2.1.aarch64.rpm"
+RPM_HASH = "caadaa7cfe6f7c543eb823162378529160778ea95c51e9546fdf576567c284cc7e5d8db346f6f4bcbdeba7adbd41409c133ab51d1e9892d65b91f9a328d88d34"
 
 RPROVIDES:${PN} += "python3-cftime \
 python3.11dist-cftime \

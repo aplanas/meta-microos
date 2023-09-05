@@ -2,10 +2,10 @@ SUMMARY = "Allwinner based arm64 systems"
 DESCRIPTION = "Device Tree files for Allwinner based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.11"
+PV = "6.4.12"
 
-RPM_NAME = "dtb-allwinner-6.4.11-1.2.aarch64.rpm"
-RPM_HASH = "83063683e3548a97964e32db14ffcb53082733dd21362436fc32f0b0eacd32678e3bfffb947e750f54140363509005e060a57239b9892a7d33bdc609c67bdbdd"
+RPM_NAME = "dtb-allwinner-6.4.12-1.1.aarch64.rpm"
+RPM_HASH = "765d4201e18e780845d97433f1d17e3edb189ec0a375272a957441f98c15d718d289bfe6ef6e862ac8ba78fe4b154b0873490eff776baed5afe3b64f1bed4779"
 
 RPROVIDES:${PN} += "dtb-allwinner \
 multiversion-dtb"

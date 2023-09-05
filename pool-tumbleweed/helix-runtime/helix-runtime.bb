@@ -7,8 +7,8 @@ LICENSE = "(Apache-2.0 | MIT) & BSD-3-Clause & (Apache-2.0 | BSL-1.0) & (Apache-
 
 PV = "23.05"
 
-RPM_NAME = "helix-runtime-23.05-2.1.aarch64.rpm"
-RPM_HASH = "fee82f9bcce8125a2129639befa9e8a93228b91287f2f02151044a40129393596fa6c3796407ab8af1f0f8f16376a37283c1f19447530346c0b92155a9ac1a19"
+RPM_NAME = "helix-runtime-23.05-3.1.aarch64.rpm"
+RPM_HASH = "fa514c558f6817e7cc6ec76ea346c71e1ab3c4d112010d4051842d1c1e0abab6390c7baf792983e6073b9340903c2871b383312219dab20b40a214414f27e523"
 
 RPROVIDES:${PN} += "helix-runtime"
 

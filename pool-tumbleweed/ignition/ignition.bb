@@ -10,16 +10,16 @@ LICENSE = "Apache-2.0"
 
 PV = "2.16.2"
 
-RPM_NAME = "ignition-2.16.2-1.1.aarch64.rpm"
-RPM_HASH = "8490367c96f6a9ebd60c915181299fe49120354176c739b877e2d4bcc9f9b336a707ac379440abfbb366973b5b6f829d37e61d5d4a5d8757f405fbd7e3ad0974"
+RPM_NAME = "ignition-2.16.2-2.1.aarch64.rpm"
+RPM_HASH = "4073d87d4b22231be1370e16c1c8b41af7cf44a04b9aac18b54610db321852b9a1b9922c9cb3fb689d8b17d25b64d4bc95666f5985384a8cabe0a13b7dc4b41c"
 
 RPROVIDES:${PN} += "ignition \
 ignition-dracut"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
+combustion \
 dracut \
-ignition-dracut-grub2 \
 libblkid.so.1 \
 libc.so.6"
 

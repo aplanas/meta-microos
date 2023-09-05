@@ -4,10 +4,10 @@ DESCRIPTION = "Apache Ant is a Java-based build tool. \
 This package contains optional commons logging tasks for Apache Ant."
 LICENSE = "Apache-2.0"
 
-PV = "1.10.13"
+PV = "1.10.14"
 
-RPM_NAME = "ant-commons-logging-1.10.13-2.2.noarch.rpm"
-RPM_HASH = "f9b226cc6998788a6f59786f397192f08af849e91699f5492cd2108fc508c8676217739477e1af31b64745ffcac27a40104285738fb5c2f85b1e41fe0dc400cc"
+RPM_NAME = "ant-commons-logging-1.10.14-1.1.noarch.rpm"
+RPM_HASH = "e434e2cde5602deafb8c92d8845e5c84dce026119a1a64ab367a95c88aec0afbe2bb86f4f6bb06a0e9ac09509de19e386caf6a6a5bd575953574cc3514b84ddc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-commons-logging \

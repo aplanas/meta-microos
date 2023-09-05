@@ -11,10 +11,10 @@ libsndfile library. The output file type is either WAV, WAVEX, CAF, \
 AIFF or FLAC."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.8.0"
+PV = "1.11.2"
 
-RPM_NAME = "zita-resampler-tools-1.8.0-1.10.aarch64.rpm"
-RPM_HASH = "9c1d5786cddb6590a5c00e6e32d5598ad27fbddedd5517aa4b77389a89fd77bae0c34e203b8220e8b9793cd06c9f50a125470e96990188141887efb2508407cb"
+RPM_NAME = "zita-resampler-tools-1.11.2-1.1.aarch64.rpm"
+RPM_HASH = "5ebbf7808272dc41c9f7c7aa6ced13d4146b3a54af2dbc9cffbf4a39b4bc9cd7e0c02e93df58163ef158d93b8fdbf91c952b99e9d52dfbc36f9d2bfc08785d87"
 
 RPROVIDES:${PN} += "zita-resampler-tools \
 zresample \

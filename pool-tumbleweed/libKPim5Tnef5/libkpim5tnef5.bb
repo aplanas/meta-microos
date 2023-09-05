@@ -2,10 +2,10 @@ SUMMARY = "TNEF Support"
 DESCRIPTION = "This package contains the TNEF support library for KDE PIM applications"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKPim5Tnef5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "b96682e00dfd6b57205b34fb6eb3a98fe714689bddd541a4c58116a37fb843fcc9ae3227ad24da2295271c7811844f45d69adc655ace3ed64ba1b5694b2e8984"
+RPM_NAME = "libKPim5Tnef5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "170fd3f820aedf7e4ba80a52cda4bea0d58cd95ca152baa84d29d8dfbd74b392bc5e59ea7ac781e1b229a90b92549a1015214014dc82abfaff01b73f82fa1534"
 
 RPROVIDES:${PN} += "libKPim5Tnef.so.5 \
 libKPim5Tnef5"

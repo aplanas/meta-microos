@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.0"
 
-RPM_NAME = "jupyter-threejs-jupyterlab-2.4.0-7.9.noarch.rpm"
-RPM_HASH = "5d3a0aef992f33292cf3c424d6b536a01391b93227e26bd9bd59c4315246fbd34b1e5ade0843b9294bfe81c214015e123c923b178e0df8ebffdb4af69a1c81fe"
+RPM_NAME = "jupyter-threejs-jupyterlab-2.4.0-9.1.noarch.rpm"
+RPM_HASH = "8d5a4ddd5faee67d61506aecffd2d7fb9ee78293e9d9a6e0da8888d6685c64dc09adfd25bc5d36dca53334d8c2f02153b6a54202eba7168909756692aa4d2f33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-pythreejs-jupyterlab \
@@ -16,6 +16,6 @@ jupyter-threejs-jupyterlab"
 
 RDEPENDS:${PN} += "jupyter-ipydatawidgets-jupyterlab \
 jupyter-jupyterlab \
-python3-pythreejs"
+python3dist-pythreejs"
 
 inherit rpm

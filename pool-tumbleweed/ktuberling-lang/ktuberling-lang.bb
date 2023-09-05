@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ktuberling"
 DESCRIPTION = "Provides translations for the 'ktuberling' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "ktuberling-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "7e9ec1176c85a9ebfe0da6d253453664ade0c3fc220d5c3315356bde121e3b28b7efa013a6db4dd5e9e367bf0a826c795366cf80b3f9fa4c67efa8dd015c0b54"
+RPM_NAME = "ktuberling-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "b6729989372db2afcd79f3c3c654f73c199080f969729f0fa6521c925adde8cc46cc4e76212e1f4f1330ebb4f93968699331b090929a4e3bf5a261d05271f29a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ktuberling-lang \

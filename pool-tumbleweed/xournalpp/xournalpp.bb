@@ -3,10 +3,10 @@ DESCRIPTION = "Xournal++ is a hand note taking software. \
 It supports pen input, e.g. Wacom tablets."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.0"
+PV = "1.2.1"
 
-RPM_NAME = "xournalpp-1.2.0-1.1.aarch64.rpm"
-RPM_HASH = "89e6b07ffcdc8457983bbaa65e1548155a3f6ef39d64b297dd7abb0ddfeff12a4ef6d3fef390e76e6275925a97c4e121155425abd7d7e32f3e36ec3f1ee3ae1e"
+RPM_NAME = "xournalpp-1.2.1-1.1.aarch64.rpm"
+RPM_HASH = "6a0dcf73c85bcbe1a8b0a705ffdd9335b606db8fb1f8190aebda9f1770ff0bf36c80209e2210ac139c1283ec8607f519394034a50af1d10df8ccc5d3a97419fc"
 
 RPROVIDES:${PN} += "xournalpp"
 

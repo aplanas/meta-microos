@@ -2,10 +2,10 @@ SUMMARY = "Translations for package lokalize"
 DESCRIPTION = "Provides translations for the 'lokalize' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "lokalize-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "9a6569276049db8bf44555742b33885fe01c1d3909f3981635d833b01348c09b1ccd86f3c762807a5e99b429e918ca0cfbf1114eb9c240e29c895e7fa0cdd88f"
+RPM_NAME = "lokalize-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "bc2af181853322ea655351e2db9fa4c9bca1b299927438e08bacd85560848fcab922e1c1c59b8fda436b9eecdd174027362a1c67921037bc15fbcfd4e88fd70d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-lokalize-ar \

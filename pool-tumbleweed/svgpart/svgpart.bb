@@ -2,10 +2,10 @@ SUMMARY = "SVG viewer component"
 DESCRIPTION = "An SVG viewer component (KPart)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "svgpart-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "04bf71a8c95a7310bee8eed33306b8075b1832de50896caf89f27602215141a99d2d15dec2c1175ca84a002af650389c7b1de700c2a268fc12d79d3a90cb597c"
+RPM_NAME = "svgpart-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "1a8d4f7019e6dc0319c1d6792051d82d608691761b809d64bc7f6f1a9319d0bb8497c684152205ea20dacd038ded807b7c77485b36437be9cb663c7d1d76a9e3"
 
 RPROVIDES:${PN} += "svgpart"
 

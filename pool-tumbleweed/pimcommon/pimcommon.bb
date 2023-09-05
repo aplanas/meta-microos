@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the pimcommon library, used by several KDE 
 applications."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "pimcommon-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "c852cd4d947629aabee03a707a33f9bc76364f280c887c211e81f6985943dbba556883f328a1d628589aa337cbbd78a53e812a859e77a4ebf729306bba15965b"
+RPM_NAME = "pimcommon-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "fca781a566f22ab69ced67a54c918ba63f922ba66d4ede416899b9d383b1033350261a31d6c84867fd05e514d4ca6592eed8211822b30928ee541d5ddb6a80c6"
 
 RPROVIDES:${PN} += "pimcommon"
 

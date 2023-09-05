@@ -7,10 +7,10 @@ The X Fixes extension provides applications with work-arounds for \
 various limitations in the core protocol."
 LICENSE = "MIT"
 
-PV = "1.15"
+PV = "1.16"
 
-RPM_NAME = "libxcb-xfixes0-1.15-2.3.aarch64.rpm"
-RPM_HASH = "5baa648a5cb0b6465d7ae31332dfd006c37ad21e2d0882dc4c62e0f95087ea1d5477c4ad5df5c303c1a915fd61ec613fc1d95e913ac703cea46a803ca68478e6"
+RPM_NAME = "libxcb-xfixes0-1.16-1.1.aarch64.rpm"
+RPM_HASH = "21bdfb3984e19ebd87c72c9929075d7fc564a699dd2c15fbcc5377f2f980b23b55cec9daace2c0ee28de53017fdf069e066a8ccd26fb62981b3cddc7cb3c7128"
 
 RPROVIDES:${PN} += "libxcb-xfixes.so.0 \
 libxcb-xfixes0"

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2"
 
-RPM_NAME = "geronimo-jsp-2_0-api-1.2-36.12.noarch.rpm"
-RPM_HASH = "e68f8298ad3192223098313cd8e25605e63635549a04d4c14391c33c4d22407b7deaa137e8a469ecefa4f040ec96c9b7f712281a3f67e1c98991dc24a56b3851"
+RPM_NAME = "geronimo-jsp-2_0-api-1.2-37.1.noarch.rpm"
+RPM_HASH = "40ec644f7c69cd77c409ec5a949421e19a48f5bd0fdd057f3628807c4cc7e73c4e7cf794b68ba790dfbd1c21d8a5aaf4c8716a38df55bc9b99f6b911a1b6cc79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "geronimo-jsp-2-0-api \

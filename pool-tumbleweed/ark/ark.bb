@@ -2,10 +2,10 @@ SUMMARY = "KDE Archiver Tool"
 DESCRIPTION = "This is a KDE application to work with compressed archives."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "ark-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "1ae4e5668baaebd9e3014d68c0269b0dacbe5090115421fc767a1030a9264c992f03e1d675228404d69f233963a21583424f34a95afc61c9d349a0e7ea0301ff"
+RPM_NAME = "ark-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "bbfe6d5599fa46e97b78994cb671faa8b37ecf012cbe4b1f8d8973e2ccd75aaad4a27c9e1a0701f455b308f3398732a75b2589a42c8a3463e90f4239323fcf1b"
 
 RPROVIDES:${PN} += "ark"
 
@@ -24,6 +24,7 @@ libKF5KIOWidgets.so.5 \
 libKF5Parts.so.5 \
 libKF5Service.so.5 \
 libKF5WidgetsAddons.so.5 \
+libKF5WindowSystem.so.5 \
 libKF5XmlGui.so.5 \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \

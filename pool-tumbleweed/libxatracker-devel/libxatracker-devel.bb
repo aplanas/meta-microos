@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "libxatracker-devel-1.0.0-355.1.aarch64.rpm"
-RPM_HASH = "3615b80b4a2297e19726194eebf56abd5152e881c873a1953d8b499774c71c1a9922c1135ff1598363fdcf6ca87e449877e0f0ddd44031dc9c18983aa23d6bc6"
+RPM_NAME = "libxatracker-devel-1.0.0-356.1.aarch64.rpm"
+RPM_HASH = "dbc488748c6cc7a12dd1b272feaa0d802158f2d8c6fa656e2874cc84f276946aa9a7e3c4db5af0516ba613a61c5be39eee5bc2526d894861904916925498abaf"
 
 RPROVIDES:${PN} += "libxatracker-devel \
 pkgconfig-xatracker"

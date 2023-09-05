@@ -27,10 +27,10 @@ You can invoke wine by entering 'wine program.exe'. Configure it by \
 running 'winecfg'."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "8.14"
+PV = "8.15"
 
-RPM_NAME = "wine-8.14-1.2.aarch64.rpm"
-RPM_HASH = "cb5cd51badb0b7d5bda7e3adb35c0e25b7d29f2464acd33566f323dd0efd61970d4e7dd49731e111c2141f75c3fa20241f050958f5407d302db42d25733f9fa8"
+RPM_NAME = "wine-8.15-1.2.aarch64.rpm"
+RPM_HASH = "465eedfb73b850c708f5a0a6f07b87213542c76a1542cf0af6c350e8c6287a0961fdd235632bba19928a51732f86e649e56d3cf498e8f1d5d1d1c02e91d797f1"
 
 RPROVIDES:${PN} += "bundled-FAudio \
 bundled-jpeg \

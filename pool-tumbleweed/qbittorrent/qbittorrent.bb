@@ -6,10 +6,10 @@ It has a streaming-like function to let users download and play video \
 files, supports Unicode and has a bandwith scheduler."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.5.4"
+PV = "4.5.5"
 
-RPM_NAME = "qbittorrent-4.5.4-1.1.aarch64.rpm"
-RPM_HASH = "a80c738b46cfd28c881218c26f89f8bf8e441a9f075fd51c1878762c31f6e44d1308a1d46232f7cdd5a2fc179221ce2ccc536ce228d0e05a5f7a52b7aee34dc5"
+RPM_NAME = "qbittorrent-4.5.5-1.1.aarch64.rpm"
+RPM_HASH = "33c83d2a2f22428ced9e921b5c7316d3abcbd9b09570cbcb257ba73a18d63d1e124537f20e3d88f25183cd6b758b2e24fc95717b62a75cc5dbcda561b4b0260a"
 
 RPROVIDES:${PN} += "qbittorrent"
 

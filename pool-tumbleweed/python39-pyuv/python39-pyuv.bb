@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.4.0"
 
-RPM_NAME = "python39-pyuv-1.4.0-6.1.aarch64.rpm"
-RPM_HASH = "b9b45873eecad6c123dd20b6078eb755f08368003c40b9077105262d3e1ab2cfd83fe603bcfa7718966851b7aa0b9d467cedadfdefa2ea44cee8164ba5b23456"
+RPM_NAME = "python39-pyuv-1.4.0-7.1.aarch64.rpm"
+RPM_HASH = "7b81ba0f4b87998721ea6c3049c6da9d0ac2f5f41d852fd61f8bec05c96bd461e2191b3e7321760e2afdaa11050093ee8e5d964d67f6de4c43e4470d8891caee"
 
 RPROVIDES:${PN} += "python3.9dist-pyuv \
 python39-pyuv \

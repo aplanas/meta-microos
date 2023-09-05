@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.02.122+94.4bd41a3"
 
-RPM_NAME = "plymouth-plugin-space-flares-22.02.122+94.4bd41a3-9.1.aarch64.rpm"
-RPM_HASH = "98442ca87fa2ee4491ac046a33dbd50959b63aee3c992efdef9a380c99c039f053a25acf063694511b4d127e307a922b30e80c2b2d08c7b725f7d10d21270377"
+RPM_NAME = "plymouth-plugin-space-flares-22.02.122+94.4bd41a3-10.1.aarch64.rpm"
+RPM_HASH = "8ac7603b41321542922c73779b7d2fd48a163fd999accecf0c9370c04d0ff4d80e7d2b51f7593d7fff82bdab2239867fa86708dc8b3a00327973d65865f0421b"
 
 RPROVIDES:${PN} += "plymouth-plugin-space-flares"
 

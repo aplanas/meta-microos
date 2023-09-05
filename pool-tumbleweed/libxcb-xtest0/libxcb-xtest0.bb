@@ -9,10 +9,10 @@ This extension is not intended to support general journaling and \
 playback of user actions."
 LICENSE = "MIT"
 
-PV = "1.15"
+PV = "1.16"
 
-RPM_NAME = "libxcb-xtest0-1.15-2.3.aarch64.rpm"
-RPM_HASH = "27c114fc04fae5f0f3e151d1edcb52ecae90bd607508513211639144012ca622e8c2bfd5c7e7cc3c531bd25e0162cf1c7bfba0635cb1507aebfc31578b1ce09b"
+RPM_NAME = "libxcb-xtest0-1.16-1.1.aarch64.rpm"
+RPM_HASH = "33b0f8824052e0fea0a585bb5f9a933269cb29dcdd840113c721d86bf0ce311138639bec7746a7542075f06b92beb4144f9d12b1d0e1170883e3009311879c1a"
 
 RPROVIDES:${PN} += "libxcb-xtest.so.0 \
 libxcb-xtest0"

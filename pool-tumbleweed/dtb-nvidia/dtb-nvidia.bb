@@ -2,10 +2,10 @@ SUMMARY = "Nvidia based arm64 systems"
 DESCRIPTION = "Device Tree files for Nvidia based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.11"
+PV = "6.4.12"
 
-RPM_NAME = "dtb-nvidia-6.4.11-1.2.aarch64.rpm"
-RPM_HASH = "0cd2c126c383cc767f647d8bae5e88de4188fc448a9a3cba61423eefa800c389a154cd1b9da7a92a2d03762197581265f16e7f982997d98e8c6afd5af4a38cd1"
+RPM_NAME = "dtb-nvidia-6.4.12-1.1.aarch64.rpm"
+RPM_HASH = "ab6152a54f874f28dfcd71f012663aef49d5e911c8dfad3b1aa0f6ed1199551a0004e371b60f63ac05f55b5a7e9e418c248d818bb6d22f603a940ec1e4fc9e13"
 
 RPROVIDES:${PN} += "dtb-nvidia \
 multiversion-dtb"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kaccounts-providers"
 DESCRIPTION = "Provides translations for the 'kaccounts-providers' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kaccounts-providers-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "bc1136ac4d56fa57031f02fe2964ca763fdd5eb7f61d5b3c990c1e081912191efd84346fb3a4e6697ce02794435391071dfea4dfb7475be133390dae05940b8d"
+RPM_NAME = "kaccounts-providers-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "68dbae04b184c2001bffcd077dbfb4015ab060b9a8e726051bc6fd48d021c54d9d42b76102202283eaf211f3f2f47b565647cf145620b0793788f213f2d5a220"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kaccounts-providers-lang \

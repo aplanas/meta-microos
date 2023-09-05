@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.02.122+94.4bd41a3"
 
-RPM_NAME = "plymouth-theme-script-22.02.122+94.4bd41a3-9.1.noarch.rpm"
-RPM_HASH = "c8aa658e2de81adb4726a77ca2884154667d9736317fdbc5a47763e9c114e4b6e1eedfbb6ce95f628ebd00e5ad2c36b9418a726f83ad6ca91cecf8089a4c04f1"
+RPM_NAME = "plymouth-theme-script-22.02.122+94.4bd41a3-10.1.noarch.rpm"
+RPM_HASH = "d8eaa8fe00426ff92a1440cd370c4ceeb3f8ce7439d368ec51455471acd2e9b57e20fdd1d4fa181eb880b6489b4b32495ac2fba7e99e2e456b93364409329771"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plymouth-theme-script"

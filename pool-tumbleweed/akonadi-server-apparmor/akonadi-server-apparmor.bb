@@ -2,10 +2,10 @@ SUMMARY = "AppArmor profiles for Akonadi"
 DESCRIPTION = "This package contains AppArmor profiles for Akonadi."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "akonadi-server-apparmor-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "cfa7a4dac11a778aa3d4ab69ca0042842bc067f91e68e4aceeaa12a47cd2d864bac3c6c5962ec49e424b81914119d93184b5b7efab024bf5d610a65e61f1af4a"
+RPM_NAME = "akonadi-server-apparmor-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "e4a6291737709dd45b92a70855aa29f6e5f904409cfc77e95f5dd5122735e7d7f53745e2b26a6cf2a1b3e1da1efe852c8fac0a2fbdb3f37b71971881fc767bbf"
 
 RPROVIDES:${PN} += "akonadi-server-apparmor \
 config-akonadi-server-apparmor"

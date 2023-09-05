@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Mellanox Spectrum switch driver."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230814"
+PV = "20230829"
 
-RPM_NAME = "kernel-firmware-mellanox-20230814-1.1.noarch.rpm"
-RPM_HASH = "78ec695ffb4b4328caf565afc1228400548cfb99ea70072e588dd8c7a401b967dc794927be0697e624ca376604f01e1cce6952d788af985c71dfd74669ee1427"
+RPM_NAME = "kernel-firmware-mellanox-20230829-1.1.noarch.rpm"
+RPM_HASH = "a004c33d6192e88e04003ed52e79c5ceca14de0142f0ebff86e2abbda2b4f0ae023f6dd4f996af046076b3b521bbda7c5a171501558fc3a88ec52ef2d102042d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-mellanox/lc-ini-bundle-2010-1006.bin \

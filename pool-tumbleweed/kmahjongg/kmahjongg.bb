@@ -4,10 +4,10 @@ same name. In the game you have to empty a game board filled with piece \
 by removing pieces of the same type."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kmahjongg-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "3ca9e2bbd78299753dd5c6bba6a0f1babae9ef26ea13f0b9cb5dd7bda1ded498ed5b84aefe5301232594545fb880959fa1d3f62b19ea1379e870e0c0c285b79c"
+RPM_NAME = "kmahjongg-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "a436d8ff610e86c048c2b88eb9883f7cd789ed66dfb709620bb3ba1344cd7756df6916604209e46fec4d3a735ef938cdbeda72698a018d470171c97e2d847064"
 
 RPROVIDES:${PN} += "kmahjongg \
 kmahjongg5"

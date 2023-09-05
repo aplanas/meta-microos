@@ -2,13 +2,12 @@ SUMMARY = "Development package for libksieve"
 DESCRIPTION = "This package contains development headers of libksieve."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libksieve-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "994a2b2f5937399755876310d231af42d169495ec909743b94d761848fd3f65798f7bcbdfb628114bed9b7db23716202e15cccfa07dcd1192ed62d2d0fb08fa6"
+RPM_NAME = "libksieve-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "ae48e5d97677a72e7e7c04ba2aa9039971ab722c0a2e5802809d55f1b453abfc1dd134b112ffee5197db5bd92df375b4782acc0f34047b9c8cd2e3c96bf355ed"
 
-RPROVIDES:${PN} += "cmake-KF5LibKSieve \
-cmake-KPim5LibKSieve \
+RPROVIDES:${PN} += "cmake-KPim5LibKSieve \
 libksieve-devel"
 
 RDEPENDS:${PN} += "libksieve5"

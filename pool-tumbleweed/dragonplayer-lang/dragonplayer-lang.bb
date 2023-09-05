@@ -2,10 +2,10 @@ SUMMARY = "Translations for package dragonplayer"
 DESCRIPTION = "Provides translations for the 'dragonplayer' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "dragonplayer-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "81d63681b0b48254de5aee649cfa83fa4cf9f9fb7f54a5761e117a8cff67388c2c563d65f7267d88c05a1214884a521604759938ea8095fcacb9468dbb35fca4"
+RPM_NAME = "dragonplayer-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "b81cce87ad15783c9bca3fc4a5b8abc299391c6a1189e31f58aaf4c5b581ad776f37ae1071f726c7667c30e9df3ad4742e4481c92909d1f23f3d59e3501480ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dragonplayer-lang \

@@ -7,8 +7,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "20220925"
 
-RPM_NAME = "libfsfat1-20220925-3.12.aarch64.rpm"
-RPM_HASH = "0ec7fb678a6ac3ad700d8bb43c56714dc6eb4c142085954d5bd87dcfe3fa866f3947f6cfce13932b779bdd7a2508e98c94becede41952dc1bf7e790349491582"
+RPM_NAME = "libfsfat1-20220925-4.2.aarch64.rpm"
+RPM_HASH = "bf50c2a0dab75e5532a4fd8bf371f41deef3765c3c85db373ff0f2cde86ab703963c9db3bba91a4da40e963c527e68c93e98fcafe7699859ca2b6c4118248d8a"
 
 RPROVIDES:${PN} += "libfsfat.so.1 \
 libfsfat1"

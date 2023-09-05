@@ -7,15 +7,16 @@ This package contains the development headers for the library found \
 in libxcb1."
 LICENSE = "MIT"
 
-PV = "1.15"
+PV = "1.16"
 
-RPM_NAME = "libxcb-devel-1.15-2.3.aarch64.rpm"
-RPM_HASH = "2d4f62e885460c8c3c8950e838296f387ae399b786d032f8a1e636a52f236bde678777211e47e13f5373f0323c29fdabe2472e12417877c08d4cc0971dc588fc"
+RPM_NAME = "libxcb-devel-1.16-1.1.aarch64.rpm"
+RPM_HASH = "6f21229463d342d80cdf1e3bfcb754c978632eace77718bd194a52fd5b264646eb7a955bc3ac8b0e77e284d288746c700a0c1e85650b9a4794a176db09769802"
 
 RPROVIDES:${PN} += "libxcb-devel \
 pkgconfig-xcb \
 pkgconfig-xcb-composite \
 pkgconfig-xcb-damage \
+pkgconfig-xcb-dbe \
 pkgconfig-xcb-dpms \
 pkgconfig-xcb-dri2 \
 pkgconfig-xcb-dri3 \

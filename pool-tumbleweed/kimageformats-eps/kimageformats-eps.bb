@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "5.109.0"
 
-RPM_NAME = "kimageformats-eps-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "66f5011c7953e562fd21186ba4326da191a65b79ae35a1fdc797a88932dce16aab5e490458ba0c817a52d9417481eb7531b506737769de7cb099a2d0f4553572"
+RPM_NAME = "kimageformats-eps-5.109.0-2.1.aarch64.rpm"
+RPM_HASH = "215406a68a726ae76596fc68c0b1352737c9e6df273e6980f1036314c6c5bafcdc5cfd0b08a169e490deb87512900cfe36bac5efd30f53544a4e684bd9ed31db"
 
 RPROVIDES:${PN} += "kimageformats-eps"
 

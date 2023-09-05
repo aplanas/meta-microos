@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides several components required to support Full
 Encryption."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.6.8"
+PV = "0.6.9"
 
-RPM_NAME = "fde-tools-0.6.8-1.1.aarch64.rpm"
-RPM_HASH = "99e030db2305e489bac431f12294e7a3e27dc17f7914557ddf59eedda2145b3a38e0fc6078092f2d98be15b53440def657168c4557ab268dca816df4a52ec07b"
+RPM_NAME = "fde-tools-0.6.9-1.1.aarch64.rpm"
+RPM_HASH = "e9caec265aaa4fa6433dda760e85bff1c41d99f5fbdf4d1b51a1b60e5d368f363d1f00c12ceab5c23cdfa79568464f5a23f293407358da9b350f621f7940b76b"
 
 RPROVIDES:${PN} += "fde-tools \
 libcryptsetup-token-grub-tpm2.so"

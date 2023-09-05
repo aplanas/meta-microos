@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
 PV = "2.40.5"
 
-RPM_NAME = "libjavascriptcoregtk-4_1-0-2.40.5-1.1.aarch64.rpm"
-RPM_HASH = "77f4842ee9f39b777fac3f44d0fcf7d781b0d84e1ae918646f62d8fe88838c269b4c46d5547a2df29b507590bc7344f64cfa3c9ec959064a3e5c0ab0f6a97a39"
+RPM_NAME = "libjavascriptcoregtk-4_1-0-2.40.5-2.1.aarch64.rpm"
+RPM_HASH = "bbe3289481c9786de54f2f1b882a26526494e84021418d4b50fe6ae187f8d4b919aa350e676abd0d3fa9d2d7da6f1b54bfbc8cfe1dd5d75f816abf1e9a63176f"
 
 RPROVIDES:${PN} += "libjavascriptcoregtk-4-1-0 \
 libjavascriptcoregtk-4.1.so.0"

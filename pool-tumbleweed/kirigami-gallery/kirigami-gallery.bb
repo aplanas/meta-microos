@@ -5,10 +5,10 @@ components and links to the corresponding HIG pages and \
 code examples on cgit"
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kirigami-gallery-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "fa1dbfe7d35770c6af1694832e047bcd7cde653466eab6f518c96d1fca86533fc86403be030bd9eee6c88d3d3aa24651f4fd48298f6942ea57fbab544c2e20a2"
+RPM_NAME = "kirigami-gallery-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "79055c7858d606bc14032b1111d3cd4050aa0924f6271aff727174126f2a8c70c39b07dcd70dd1c3194d616db590b6b72b1c4db359f68eece0a78ad3f7e0cba8"
 
 RPROVIDES:${PN} += "kirigami-gallery"
 

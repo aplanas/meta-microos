@@ -5,10 +5,10 @@ validator, and is used in the standalone tools whilst also enabling \
 integration into other code bases directly."
 LICENSE = "Apache-2.0"
 
-PV = "2023.3~rc1"
+PV = "2023.4~rc2"
 
-RPM_NAME = "spirv-tools-devel-2023.3~rc1-1.1.aarch64.rpm"
-RPM_HASH = "98a0825f9ceee904ccf1312b79f16a5eb378a67a0b81977dd7f571b129fb28ac8f0b6605b1e9796a760cc80088007c35e1eaeabbc92a888dbaf62448d61cf07b"
+RPM_NAME = "spirv-tools-devel-2023.4~rc2-1.1.aarch64.rpm"
+RPM_HASH = "7f30e9b3879562414883ad44ebddc9e86a66be3af2cff3fd7c5eb2a39710d542faea1a251202c3ec1e6887dd2695b8607f426533df0ccfbb617efe393594e3f9"
 
 RPROVIDES:${PN} += "cmake-SPIRV-Tools \
 cmake-SPIRV-Tools-diff \
@@ -22,6 +22,6 @@ pkgconfig-SPIRV-Tools-shared \
 spirv-tools-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libSPIRV-Tools-2023-3-rc1"
+libSPIRV-Tools-2023-4-rc2"
 
 inherit rpm

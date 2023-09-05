@@ -16,10 +16,10 @@ libzypp provides functionality for a package manager: \
     facilities for programs with an user interface."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "17.31.19"
+PV = "17.31.20"
 
-RPM_NAME = "libzypp-17.31.19-1.2.aarch64.rpm"
-RPM_HASH = "fad250127db6c97d9e643adfbea69238ebe75d2d1e30b8846d4f3ce5c3d8cfa844a7c70d84720034635a9c85a4baeaf8f4e4c44b228e490397483d8540b4161d"
+RPM_NAME = "libzypp-17.31.20-1.1.aarch64.rpm"
+RPM_HASH = "6e722ff59f7c167f56f0b078fcfade7ee02154f367f352e0589b3d0bdfc893a0a05c54b194617b3ee3fff6baad5123c28f2b6f1f84d73384b2947148e1d72d69"
 
 RPROVIDES:${PN} += "config-libzypp \
 libzypp \

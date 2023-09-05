@@ -10,8 +10,8 @@ LICENSE = "IPL-1.0"
 
 PV = "1.8.10"
 
-RPM_NAME = "openafs-kernel-source-1.8.10-1.7.noarch.rpm"
-RPM_HASH = "52dd59dc4f9a5dbea9aa1262ac69e7ef9693d9d96d9fc825800a27beed56efa291cdf73406f91b269f5c02cda076e89bbee8234a615e7d68b5457ce55b4acf10"
+RPM_NAME = "openafs-kernel-source-1.8.10-1.8.noarch.rpm"
+RPM_HASH = "f958b8d3d3031ac3a1e031737a5ec436e84792f9465fb454ba757e2f8efd93c38009cc45bae075c78608b8d887e4d354562ae301d520dc46552b1b950b4dae3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openafs-kernel \

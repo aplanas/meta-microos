@@ -9,10 +9,10 @@ conference venue, location information and link to OpenStreetMap \
 can also be added."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kongress-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "4d305957f7c65b6b620ee0100b8399513e3a351fd301f8ab71c8a4e9abd272c1984fbec8e8946b6f99bc4085ad3c4d33e1a3507778a03a0ec82f71090523bdc4"
+RPM_NAME = "kongress-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "6095863783ab20998c9a316d2cbd7c6cf04e45eee3c990c5a60667d8338ab4d64a12147a9776443c5b0a13ac8ab8163dc1d084af417ae0fdbd535cc8e877e82b"
 
 RPROVIDES:${PN} += "kongress"
 

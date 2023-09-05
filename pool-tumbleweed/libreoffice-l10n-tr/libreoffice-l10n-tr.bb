@@ -2,10 +2,10 @@ SUMMARY = "Turkish localization files for LibreOffice"
 DESCRIPTION = "Provides Turkish translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.0.3"
+PV = "7.6.1.1"
 
-RPM_NAME = "libreoffice-l10n-tr-7.6.0.3-1.1.noarch.rpm"
-RPM_HASH = "71edbf3820fc3293916a6bc231bde622e3298c4af6181168bf99844b28b0bf01b79f9eb6fbc8c34334c16a5166d79a91a88d819fb31a01f9914045bb12abe7d7"
+RPM_NAME = "libreoffice-l10n-tr-7.6.1.1-1.1.noarch.rpm"
+RPM_HASH = "406012852815a29baf171f86437f99da350eac38467c5390528cf92389e2a01dcdf5ce81e89d7466bb00eed684534df4326c51a3a72db0a3b3eb6afd963c20fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-tr \

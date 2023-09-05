@@ -4,10 +4,10 @@ OpenStreetMaps and satellite imagery from Mapbox. You can also get directions \
 for your journeys, whether on foot, by bike, or by car."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.3"
+PV = "44.4"
 
-RPM_NAME = "gnome-maps-44.3-1.1.aarch64.rpm"
-RPM_HASH = "72b47ce32af34b454649bfc4a18fcc781b1317cf10aa55c31cbb45934503af2b87ae0fd611a2a04071c7208aea1b82ba053dd4d74531e99401abe9ade0ec9065"
+RPM_NAME = "gnome-maps-44.4-1.1.aarch64.rpm"
+RPM_HASH = "5677766b5c6a4fb6811f4cfd2be4b3513cba18f2d156859e950c20ad46499a81bc6456bd750e444c60609bb5b4d8d29c30f2becb893e8cc0e9e292752854899f"
 
 RPROVIDES:${PN} += "gnome-maps \
 libgnome-maps.so.0 \

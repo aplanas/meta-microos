@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-2.1-only"
 
 PV = "12.2.0"
 
-RPM_NAME = "libvmtools-devel-12.2.0-5.2.aarch64.rpm"
-RPM_HASH = "564b498d62e8cbe2f252ed8b8f6ffa8d278dc19d0668942a3635b5165696800e4dc3a3b65c394b794a1f747fa8f41d454bcac1e55dcf236347587f5c40aef714"
+RPM_NAME = "libvmtools-devel-12.2.0-6.1.aarch64.rpm"
+RPM_HASH = "d862c4a68a326000af185a90f30518043d42540ea18135d6abb0de62bfb4871f3667701d75985da34304287646a2b337600e50f22d6ff2e9c2375731815fa30f"
 
 RPROVIDES:${PN} += "libvmtools-devel \
 pkgconfig-libDeployPkg \

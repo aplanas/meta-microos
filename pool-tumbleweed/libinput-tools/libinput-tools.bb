@@ -3,10 +3,10 @@ DESCRIPTION = "This tool lists the locally recognised devices and their respecti
 configuration options and configuration defaults."
 LICENSE = "MIT"
 
-PV = "1.23.0"
+PV = "1.24.0"
 
-RPM_NAME = "libinput-tools-1.23.0-1.2.aarch64.rpm"
-RPM_HASH = "5bc282ebbecd4c2d1d01ee0c28e44990c3c9c0fad55412b8b3853bcd642345b2241114d92e1544966bfd0243ee4e071493a227ebe931b4e829b0f691c2df640a"
+RPM_NAME = "libinput-tools-1.24.0-1.1.aarch64.rpm"
+RPM_HASH = "d84a12b54ff8c4f18aa172fbd2fae33f60421fb5c4698b8445e19c528bcf36e561d5d2ac09111f5ea5b0f4c5e94eeb53a6da8ed2663a51f7a5904a56248d95d3"
 
 RPROVIDES:${PN} += "libinput-tools"
 

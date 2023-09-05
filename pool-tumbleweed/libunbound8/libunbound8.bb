@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.17.1"
 
-RPM_NAME = "libunbound8-1.17.1-1.5.aarch64.rpm"
-RPM_HASH = "00e9bc12c90e42d43cc606e0879aa15dba7db0f89eb046ba17087d5d186e409a95218f4392ad66144c6b8d31fe45d1a11a2556ad34b7b48c36aeb3658033ddcb"
+RPM_NAME = "libunbound8-1.17.1-2.1.aarch64.rpm"
+RPM_HASH = "3a45773c6a70f478e09aa88303756e6d60b2691e3c7561637e8b26954edb2d6068b0fdbd422416d3e051a76d53c51dedae222893286eecf34191eb6e2465ac1c"
 
 RPROVIDES:${PN} += "libunbound.so.8 \
 libunbound8"

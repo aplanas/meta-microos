@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt5 PDF library"
 DESCRIPTION = "You need this package if you want to compile programs with Qt PDF."
 LICENSE = "LGPL-3.0-only | GPL-2.0-only | GPL-3.0-only"
 
-PV = "5.15.14"
+PV = "5.15.15"
 
-RPM_NAME = "libqt5-qtpdf-devel-5.15.14-2.1.aarch64.rpm"
-RPM_HASH = "599ea7ddb8b47892eb5516204b442ad1bda1e31515ea5b9542319a0f55122cab4f8b08775b73399bbb77e6a9afeab4b568ba75aade25a042648a91c585b7b1a6"
+RPM_NAME = "libqt5-qtpdf-devel-5.15.15-1.1.aarch64.rpm"
+RPM_HASH = "b626fded720096f0ebc32491785903e1aacf0fa8c16dbe9df6294fb0ecc8aa7c035ef782cb5edc101ace1a182174e3664ba9df65e21f167e0e29f3e0f6e90254"
 
 RPROVIDES:${PN} += "cmake-Qt5Pdf \
 cmake-Qt5PdfWidgets \

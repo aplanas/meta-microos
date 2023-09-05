@@ -5,10 +5,10 @@ Industrial Light & Magic for use in computer imaging applications. \
 This package contains shared library libOpenEXRCore"
 LICENSE = "BSD-3-Clause"
 
-PV = "3.1.9"
+PV = "3.1.11"
 
-RPM_NAME = "libOpenEXRCore-3_1-30-3.1.9-2.1.aarch64.rpm"
-RPM_HASH = "043b9ae804b755088782b26a362d612559d00ccb0d0cb5f4aca3aee49c078ca85a931d699497da715f3b8c1264a28deb45894626aefc4f17711a5897c30d1ae0"
+RPM_NAME = "libOpenEXRCore-3_1-30-3.1.11-1.1.aarch64.rpm"
+RPM_HASH = "f62e080630f42f5773a15db76860f4dd93e6d3b7f383ca465dac222b34101b321b5dbae90b2153f64aeef41b50ebd1a9a17496c4180e3f85c594977dfbc78401"
 
 RPROVIDES:${PN} += "libOpenEXRCore-3-1-30 \
 libOpenEXRCore-3-1.so.30"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKPim5SMTP5"
 DESCRIPTION = "Provides translations for the 'libKPim5SMTP5' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKPim5SMTP5-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "7b42d0bca262ea378027a3529e2c48abee5420eaef0a147399170a2d306f268c66b22b938a07dcfb015b60d3caae4b67f59c4ee0c55186699d29f1f414db817a"
+RPM_NAME = "libKPim5SMTP5-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "fa9fe92df99b371b1f52c7c3e11b7e3e1539b506ad99faec51e0e5b949384215083c1547475f9c7f83342c98ec9fd33c9b6126d0fbf67ad2ceebba491568f578"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKPim5SMTP5-lang \

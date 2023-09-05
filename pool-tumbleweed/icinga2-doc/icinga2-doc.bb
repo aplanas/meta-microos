@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.13.8"
 
-RPM_NAME = "icinga2-doc-2.13.8-1.1.aarch64.rpm"
-RPM_HASH = "e40798e0916c26164b56b1aa0c4ce7d513f0d630cffaaf8e68ca1639db768e772a17f16004d63ee1ddf9b50da2a2427066d013dfea29b0bb425fea628d83ae80"
+RPM_NAME = "icinga2-doc-2.13.8-2.1.aarch64.rpm"
+RPM_HASH = "8b98d1a86606c012682a2c0fdde385141ad52ba0966dcdb75469bcabbb3c6472219c8ec6040ac2e9cccee49031b3b4f7420fb63a8b341f2c36f22ab6cb158296"
 
 RPROVIDES:${PN} += "icinga2-doc"
 

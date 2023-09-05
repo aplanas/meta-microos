@@ -2,10 +2,10 @@ SUMMARY = "Library for wireshark utilities"
 DESCRIPTION = "The libwsutil library provides utility functions for libwireshark."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "4.0.7"
+PV = "4.0.8"
 
-RPM_NAME = "libwsutil14-4.0.7-2.1.aarch64.rpm"
-RPM_HASH = "ac168c1f3f166d7ada006381b266799370ae897b9a8393d317054810be2fbccdc48084c62deaf2cf6bc6b6b9d47a60e9b628b1ba1d862daf01b134931c4dfbc8"
+RPM_NAME = "libwsutil14-4.0.8-2.1.aarch64.rpm"
+RPM_HASH = "04653a610e3fc32e3f0a5c3d1c4289693e8398760033eab5dcf146517954fe8a98b46297191db207c391e92c9295ffd7e95cc2c9e2799b229a079702a1fdabba"
 
 RPROVIDES:${PN} += "libwsutil.so.14 \
 libwsutil14"

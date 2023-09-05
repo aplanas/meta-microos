@@ -6,10 +6,10 @@ This package provides userspace interface to kernel DRM services \
 for Nvidia Tegra chips."
 LICENSE = "MIT"
 
-PV = "2.4.115"
+PV = "2.4.116"
 
-RPM_NAME = "libdrm_tegra0-2.4.115-2.4.aarch64.rpm"
-RPM_HASH = "b77e71503e912a423592eb8436b8fc70295edcd9bdf670e8d4549e97cb4a45b45316c9ec1b5e74059eff383890e0b6855238bae421cad5d152b76718484c7102"
+RPM_NAME = "libdrm_tegra0-2.4.116-1.1.aarch64.rpm"
+RPM_HASH = "ebbcd3d86046c5ded312a0db13787d03e55881c7a253a34b822858ec52fa23e1397c8c009e398193d0e7b45666b3728fac7e606b906f7c0574ab4c4f4a9b366c"
 
 RPROVIDES:${PN} += "libdrm-tegra.so.0 \
 libdrm-tegra0"

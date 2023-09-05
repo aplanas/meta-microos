@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kirigami-gallery"
 DESCRIPTION = "Provides translations for the 'kirigami-gallery' package."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kirigami-gallery-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "bb4a50029837f769e746aa5a72b68757b0946139d4d31aa0272916afe2d82dc4388cbfab1926fb3c9cefd539b35117b6d4f1accb104a9b982e0f198f43fb862b"
+RPM_NAME = "kirigami-gallery-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "983a04414e245a7a1d1cdd141172ec434683093e3dcbc4c8fbf4f1d6254df448c8af9884635f0e724f2995a06216e6e29767ac075ed3493d576314272f2f9b47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kirigami-gallery-lang \

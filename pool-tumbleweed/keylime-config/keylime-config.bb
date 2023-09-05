@@ -3,10 +3,10 @@ DESCRIPTION = "Subpackage of keylime for the shared configuration files for the 
 and the server components."
 LICENSE = "Apache-2.0 & MIT & BSD-3-Clause"
 
-PV = "7.4.0"
+PV = "7.5.0"
 
-RPM_NAME = "keylime-config-7.4.0-1.1.noarch.rpm"
-RPM_HASH = "a4f3ea0b529dbd2e6a64d835d557eca1ee2c6fab45d211130aeb3c9b700f4b1ec738013a4faa6c203047b558bf002f44c5e6dd451174450cb1e4c36da4128ec9"
+RPM_NAME = "keylime-config-7.5.0-1.1.noarch.rpm"
+RPM_HASH = "eb164f4557faa0d1c901eaa730b2cfe989f30d22848f8daac5d21a94862bd5e0d73a285f5c0e431e13237937c3ae51ad15aaed65c8e27d194aff448d3715206a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keylime-config"

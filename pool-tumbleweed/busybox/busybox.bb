@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.36.1"
 
-RPM_NAME = "busybox-1.36.1-1.1.aarch64.rpm"
-RPM_HASH = "57d552e5eaba1a356136f0b1d1295e8cee0ee7270340727b030ab02a93bd5e0e93416750a45024f30bbead2be1fcda95a12218b7a8dd0dae03512b6391d38aad"
+RPM_NAME = "busybox-1.36.1-2.1.aarch64.rpm"
+RPM_HASH = "845703ffdaa8bb90b338f940866a4d0a3a6fdb8316cfe38213299fb7b5c9eac043dbf1edbfd32d9ab63885ba3d654c6c5c8ecda1dfecf1abb77a922146da68e4"
 
 RPROVIDES:${PN} += "busybox \
 config-busybox \

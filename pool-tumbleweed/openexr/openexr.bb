@@ -12,10 +12,10 @@ contains a set of utilities to work with this format. \
 * exrmultiview, combine two or more images into one multi-view"
 LICENSE = "BSD-3-Clause"
 
-PV = "3.1.9"
+PV = "3.1.11"
 
-RPM_NAME = "openexr-3.1.9-2.1.aarch64.rpm"
-RPM_HASH = "8012cce93c9f51537580d5f7573ee93c76e0912910cad72f07ccf3fff09bf1883018a403e0f03107831fef225de7f741c7c43011a340ad4ca74b9f9a6a62fba7"
+RPM_NAME = "openexr-3.1.11-1.1.aarch64.rpm"
+RPM_HASH = "bb62c7176452e7d65cd53b676c7f37eb1eaa12a79bd2fd188e2849c5b20522e849cb33b79b9a5e383253bbe52233a0ae3af36315ec82ffad38a51f869766f5ca"
 
 RPROVIDES:${PN} += "OpenEXR \
 openexr"

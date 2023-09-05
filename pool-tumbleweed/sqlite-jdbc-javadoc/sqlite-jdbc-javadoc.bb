@@ -2,10 +2,10 @@ SUMMARY = "API documentation for sqlite-jdbc"
 DESCRIPTION = "API documentation for sqlite-jdbc."
 LICENSE = "Apache-2.0"
 
-PV = "3.42.0.0"
+PV = "3.43.0.0"
 
-RPM_NAME = "sqlite-jdbc-javadoc-3.42.0.0-1.2.noarch.rpm"
-RPM_HASH = "4bc8ec3fa757c6ffad4f56b9480e35d86f6d99d5f036c50affb92e7c3c433b66394cd6e9488a5c41a50b989a85bc8289df65036f69fb564c1d18cac574a38f91"
+RPM_NAME = "sqlite-jdbc-javadoc-3.43.0.0-1.1.noarch.rpm"
+RPM_HASH = "ef6014c87ecee9c2b13bad002980d586c4f84b8a402bf81c8cd9b8202a388d3dadc51c27a9abc6db020926f1438d8f66749b59a8334f34bc4e7321ef70065075"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sqlite-jdbc-javadoc"

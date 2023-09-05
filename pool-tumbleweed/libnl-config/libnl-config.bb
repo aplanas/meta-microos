@@ -5,10 +5,10 @@ the same; in particular \
 - aliases for locations within a packet (ip6.dst => byte offset)"
 LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
-PV = "3.7.0"
+PV = "3.8.0"
 
-RPM_NAME = "libnl-config-3.7.0-1.5.noarch.rpm"
-RPM_HASH = "ba1a1a3fdbc78b1292d02192ca4ca5578a65d4c78bf66ae581f302033bba9a56326dded590f10e1c5a9a96e68e318170ce08d4c0c600ee38195d8464964bab22"
+RPM_NAME = "libnl-config-3.8.0-1.1.noarch.rpm"
+RPM_HASH = "e36ca62dfacd02133e15fd7eacbc381b2357ab889dd8367f4c37e60a1778c416f22d361cd8cdfdc0e595f233e499a9dce6702bacfab1bd95f6b18c2d6eaa250f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-libnl-config \

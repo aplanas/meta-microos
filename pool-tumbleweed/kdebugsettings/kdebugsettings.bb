@@ -3,14 +3,15 @@ DESCRIPTION = "This program allows to tune the debug output of KDE applications,
 from verbose to completely silent."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kdebugsettings-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "5308c5e31041092f6046e73f87e02587dd1361d97b479bdbfa3915514fe60882ef1cec2fe38b796010d0ea913036f534cdeaa7db5840f3ebd60b5d5a97062ac3"
+RPM_NAME = "kdebugsettings-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "57c4dfab4ccf0220022b98a38e50db466445f2f64290fd7b980e1022ba6e6276ed1c3be0701ca9ee1bd84c13ecea3da5805d55aebc020671feba9c5f47e744a4"
 
 RPROVIDES:${PN} += "kdebugsettings \
 kdebugsettings5 \
-libkdebugsettings.so.5"
+libkdebugsettings.so.5 \
+libkdebugsettingscore.so.5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
@@ -20,7 +21,6 @@ libKF5ConfigGui.so.5 \
 libKF5CoreAddons.so.5 \
 libKF5DBusAddons.so.5 \
 libKF5I18n.so.5 \
-libKF5ItemViews.so.5 \
 libKF5WidgetsAddons.so.5 \
 libKF5XmlGui.so.5 \
 libQt5Core.so.5 \

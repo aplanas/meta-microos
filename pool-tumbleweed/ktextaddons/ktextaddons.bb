@@ -3,16 +3,17 @@ DESCRIPTION = "KTextAddons provides libraries to work with texts, such as gramma
 text to speech, or translations."
 LICENSE = "LGPL-2.0-or-later & GPL-2.0-or-later"
 
-PV = "1.1.0"
+PV = "1.4.1"
 
-RPM_NAME = "ktextaddons-1.1.0-1.1.aarch64.rpm"
-RPM_HASH = "cbade21e68b61c91a01385303c9744b894245094a1cad2798184f96ffa52e7c2a23a1a701019aa7af67149e143b136dbede945abd310ef416ea3d5f6555103ad"
+RPM_NAME = "ktextaddons-1.4.1-1.1.aarch64.rpm"
+RPM_HASH = "efbd69f3df5dfe79bb9681778026a9e285c7c8edfc4c57dd33a53d69a57245a5bed4ea1734fbc6f25a536013b9f90257db2cc1afeafb6dabffe28ce98f689a19"
 
 RPROVIDES:${PN} += "ktextaddons"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libKF5ConfigCore.so.5 \
 libKF5I18n.so.5 \
+libKF5TextAddonsWidgets.so.1 \
 libKF5TextTranslator.so.1 \
 libQt5Core.so.5 \
 libQt5Network.so.5 \

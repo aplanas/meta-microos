@@ -1,19 +1,17 @@
-SUMMARY = "XML, XPath and XSLT library for Java"
-DESCRIPTION = "dom4j is an easy to use Open Source XML, XPath and XSLT framework for \
-Java using the Java Collections Framework. dom4j allows you to read, \
+SUMMARY = "Open Source XML framework for Java - demo"
+DESCRIPTION = "dom4j is an Open Source XML framework for Java. dom4j allows you to read, \
 write, navigate, create and modify XML documents. dom4j integrates with \
-DOM, SAX and JAXP and is seamlessly integrated with full XPath support."
-LICENSE = "Apache-1.1"
+DOM and SAX and is seamlessly integrated with full XPath support."
+LICENSE = "BSD-3-Clause"
 
-PV = "1.6.1"
+PV = "2.1.4"
 
-RPM_NAME = "dom4j-demo-1.6.1-37.1.noarch.rpm"
-RPM_HASH = "18e8b681e65157d63cd911b0ddc5bb86f67cb555f59ef4aa63f6e82c6418322a67b2abb0b002e544e77e670d3cef77b9943b3ee4b35d6075cd70750d2e25643d"
+RPM_NAME = "dom4j-demo-2.1.4-1.1.noarch.rpm"
+RPM_HASH = "e90f7033399c174f938eb09d54b17f273ea6f34f0dcf4966c52bbf2282fd64aa6df350223774631eda04656223edea458eebc220adebd87e10ff1d63d75181d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dom4j-demo"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-dom4j"
+RDEPENDS:${PN} += "dom4j"
 
 inherit rpm

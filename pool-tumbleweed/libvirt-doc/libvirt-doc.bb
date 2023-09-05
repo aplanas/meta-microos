@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.6.0"
 
-RPM_NAME = "libvirt-doc-9.6.0-2.1.noarch.rpm"
-RPM_HASH = "2c4f43b176538de851aa80606ba62c453c53f1a4e784d652d4d4cc33db29e7785e9049344ceae725690d89b8f85b30357de02796785798ff6d650b6d0a58ec06"
+RPM_NAME = "libvirt-doc-9.6.0-3.1.noarch.rpm"
+RPM_HASH = "00b0310da566b0e56999e60103a840cd0fa4abca575994e950c5edfe58f02c877dbf2d155b9a53b32ffadb1821c6668d2a3d66404567687fbf5b4f6f73dbaacf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libvirt-doc"

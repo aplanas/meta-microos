@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kbounce"
 DESCRIPTION = "Provides translations for the 'kbounce' package."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kbounce-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "3a8efa64db579ddb90d83795aaf2dbf112d2fd01f43120f2ec133880aea037ffc734333c83fcddf85b3bdda27654457e042f56888896d2b29f8bddd7f3fb8ec5"
+RPM_NAME = "kbounce-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "62d2c2aeb074be12345575cdc29c87767bde841dc352aa3cc1d3eb63406c428231fbe0c013617a8a8b8b196e67671f7fff691d296ae506a25c04fa689a41aba3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kbounce-lang \

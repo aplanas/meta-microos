@@ -2,10 +2,10 @@ SUMMARY = "Development package for the KDEPIM Calendarsupport library"
 DESCRIPTION = "The development package for the calendarsupport libraries"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "calendarsupport-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "c3efa1d54b7db43bd6d1f9d708e6ebae3819b9d90ece6945292436bc49f7c4346ed9493b0f0322026b186d759b941726cc780f2f64e293dd28476619bc112ad8"
+RPM_NAME = "calendarsupport-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "ce7b6223d362035d0a1a75a423fd1bdde1b9f6285f0db57b5739a1f91c4c5b2becd0712a98482c28fd4acaeb31e07d358564a8597c5fc7bf36707bfcb68d258c"
 
 RPROVIDES:${PN} += "calendarsupport-devel \
 cmake-KF5CalendarSupport \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the core library to handle multiple email i
 associated settings."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKPim5IdentityManagement5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "e247bb2d45a981c796fc736d9fc09694e00f4bfb8148b6d68a679e418f5d6c5d97397ad926f790dc906d8d36b882a76bdd56d377fe21d41608c5c87fe739e19a"
+RPM_NAME = "libKPim5IdentityManagement5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "105937e497ebbb837907cfb825c44e26d27d9657c9be4f1958dabb2b3746ea0126d3621ef14c77fc2aa8a499b0bcf760096f8da388ad3fc090182233a3eb6066"
 
 RPROVIDES:${PN} += "libKPim5IdentityManagement.so.5 \
 libKPim5IdentityManagement5"

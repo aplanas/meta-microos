@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
 PV = "1.5.6"
 
-RPM_NAME = "libisofs-devel-1.5.6-1.1.aarch64.rpm"
-RPM_HASH = "aa887990959659913ee4743c8d658f727fd1e6434bdb818a631bd7167a8bad87e846196add34707727e54addcf26a0382a427c44baf02977e5fc8cda4294d09b"
+RPM_NAME = "libisofs-devel-1.5.6-2.1.aarch64.rpm"
+RPM_HASH = "490ef2abebed0672e2a9852bf74d9eacd477235d8d96d273f3e3cf244903312af6cf76f60a98a87e6fece35e38dfc2c5680580f3c2f1316aa08bab7512f0dcbd"
 
 RPROVIDES:${PN} += "libisofs-devel \
 pkgconfig-libisofs-1"

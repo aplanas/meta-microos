@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the development files needed in order to us
 kdevelop5-plugin-php API."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kdevelop5-plugin-php-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "cb97a1550e04b1116c824418dfbe5b68a0de56be58083573dddeca1b0283f035968bcabd5993840764fe2852f2de438a225853eb7a06e592a02483741bfbb45d"
+RPM_NAME = "kdevelop5-plugin-php-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "91d59364263588894fdb2fe1b4e8010c31636587741aadb53479bfddb164683b3f3ae869a4f2b9705be8cfc51002bc6e0243422cf3a60e6abf288cdefb96b245"
 
 RPROVIDES:${PN} += "cmake-KDevPHP \
 kdevelop5-plugin-php-devel"

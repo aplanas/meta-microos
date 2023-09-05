@@ -5,10 +5,10 @@ Industrial Light & Magic for use in computer imaging applications. \
 This package contains shared library libIlmThread"
 LICENSE = "BSD-3-Clause"
 
-PV = "3.1.9"
+PV = "3.1.11"
 
-RPM_NAME = "libIlmThread-3_1-30-3.1.9-2.1.aarch64.rpm"
-RPM_HASH = "865988c8e1149e1a24911a6970bbae782b32c9bf201b4f8d917fa2c5fbeab14c4061cc6a8c5acd46aa8685ee7082c6770493cd61513b89f65d12946bfe382757"
+RPM_NAME = "libIlmThread-3_1-30-3.1.11-1.1.aarch64.rpm"
+RPM_HASH = "8fda9e4ac3192463383ea8cc5ac7e9562f4cf3d59bf7a9c474c869a46d5328609fab37f4696b238ab9a345057f64dd965df7a4645f4cbb5727c67743570fd7d2"
 
 RPROVIDES:${PN} += "libIlmThread-3-1-30 \
 libIlmThread-3-1.so.30"

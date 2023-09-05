@@ -3,10 +3,10 @@ DESCRIPTION = "The libreofficekit-devel package contains libraries and header fi
 developing applications that use libreofficekit."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.0.3"
+PV = "7.6.1.1"
 
-RPM_NAME = "libreofficekit-devel-7.6.0.3-1.1.aarch64.rpm"
-RPM_HASH = "30a6dbc0c23f8c073c554aead29d0bad984de096ea7b06f2e75b1ede55bd41691365bd249fe3d73f002c624df4f50a8066c72111488737fcb28148422bd484f8"
+RPM_NAME = "libreofficekit-devel-7.6.1.1-1.1.aarch64.rpm"
+RPM_HASH = "5cbc014306850b39e02878d10352072ad4c8fd869498dc3fa10cdfb75830fb16eafbc4711b228762c8cb114dff579007510be849a01b87c777f394a19044508c"
 
 RPROVIDES:${PN} += "libreofficekit-devel"
 

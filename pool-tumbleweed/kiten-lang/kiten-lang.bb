@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kiten"
 DESCRIPTION = "Provides translations for the 'kiten' package."
 LICENSE = "GPL-2.0-or-later & CC-BY-SA-3.0 & CC-BY-SA-4.0"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kiten-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "442627459a910274892253aca37d0fac62b96446746b3ce8c492014f2d73e83b8529e08c4e65c7361e8b17d6798f6285120c834df89383fb9ed0c5366a5a11a3"
+RPM_NAME = "kiten-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "5f1d79c0ed4b580240b13e65a4b5fa163c0199a0fd80c45c6096479eaf355c28c9dd2a74bb7dcb64a2820a461397c3ca659615b31f18fcdf16a251fe1cea8a4c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kiten-lang \

@@ -6,10 +6,10 @@ limited and only supports listing cameras in the system and selecting a camera \
 to interact with."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.0.4"
+PV = "0.1.0"
 
-RPM_NAME = "libcamera-tools-0.0.4-2.5.aarch64.rpm"
-RPM_HASH = "2f9dcba3990c8c94e6c66209605f64876ea3061ec690139af8931948fa063156fb7b607907f97ada2b8a86dd9eee582110eed360f28d0b6ed657f3d1fdf3befe"
+RPM_NAME = "libcamera-tools-0.1.0-1.1.aarch64.rpm"
+RPM_HASH = "9c090d22ad0a5b32f35c8ed90c43da2d16fb7541b6af46927b89ae7d1b3b2b499a9a53d6079c9396d6ece8cc7edaf92c9138e3eeddc6897de73fd0aab897e079"
 
 RPROVIDES:${PN} += "libcamera-tools"
 
@@ -18,8 +18,8 @@ libQt5Core.so.5 \
 libQt5Gui.so.5 \
 libQt5Widgets.so.5 \
 libc.so.6 \
-libcamera-base.so.0.0.4 \
-libcamera.so.0.0.4 \
+libcamera-base.so.0.1 \
+libcamera.so.0.1 \
 libdrm.so.2 \
 libevent-2.1.so.7 \
 libevent-pthreads-2.1.so.7 \

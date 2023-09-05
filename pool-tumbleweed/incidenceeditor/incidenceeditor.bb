@@ -2,10 +2,10 @@ SUMMARY = "Incidenceeditor library"
 DESCRIPTION = "This package contains the incidenceeditor library."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "incidenceeditor-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "abf235503b0e35c80deee3f8b44b011409322a0370dcecf0d272de1055761404e051dd6d610503619831d75b7f7071c72acb700a11c9d52ca3e239c4e595ec1a"
+RPM_NAME = "incidenceeditor-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "54c064ed9ba6268491138fd105728bedb0687b671f687194bf05f22ea35b15e7629c01e8f3721839b33d96aa5002b61323dba1d23192b55e031d9d60469c195e"
 
 RPROVIDES:${PN} += "incidenceeditor"
 

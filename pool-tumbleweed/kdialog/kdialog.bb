@@ -2,10 +2,10 @@ SUMMARY = "KDE version of xdialog"
 DESCRIPTION = "KDialog can be used to show nice dialog boxes from shell scripts."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kdialog-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "1e5ace405673ca1a10cb6627b291595ad4c0c891925c6aaf7014471b73131a6932646217123e9ef32139bfcfcf7079db80600785c672c934a9c4eda226f42e5d"
+RPM_NAME = "kdialog-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "5dbb0d140b3a0c3afb3a88643f03985c10a1c18010535129669285f36b9bbc458657b0b9731c50bc3ca87977de592e1bb4212808ff3c405d9c1c39ec26d76847"
 
 RPROVIDES:${PN} += "kdialog"
 

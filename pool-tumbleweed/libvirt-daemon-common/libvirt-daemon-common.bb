@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.6.0"
 
-RPM_NAME = "libvirt-daemon-common-9.6.0-2.1.aarch64.rpm"
-RPM_HASH = "f8755e904ce76ea09eadb9f3453429bf9fe967e733419dc5eee1975a01cad20f41cf6d6b400512d4e11fad1494e62d0762136bc4bbfb79321b1f9301a41c2f9a"
+RPM_NAME = "libvirt-daemon-common-9.6.0-3.1.aarch64.rpm"
+RPM_HASH = "75240b828491c9b368b7a2b4be335d712a5e3a95143f36459db27949c91937185b04777bded9518abd2363e38226c579b63a8a491cfc9fb3080f8d2cae730102"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-common \
 libvirt-admin \

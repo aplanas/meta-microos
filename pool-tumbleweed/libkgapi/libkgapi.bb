@@ -3,10 +3,10 @@ DESCRIPTION = "An extension for accessing some Google services, such as Google C
 Google Contacts and Google tasks."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libkgapi-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "fa6e72e6964fe5115912e68e6d8357fb7e92be0f8c62e466552c0fe13514f83a6f94ea379cda7b4f17580d681c6254ed354201f556812f55e1686499b58218bf"
+RPM_NAME = "libkgapi-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "f5c4227eb387a0bdb5d7d6fe3b6e7341b1ec882919a334c09c692fa352eb5f3814b97308d3c039f787375eefb4afe8bd66ac080142e59c8f4e63e76e9791d55a"
 
 RPROVIDES:${PN} += "libkgapi"
 

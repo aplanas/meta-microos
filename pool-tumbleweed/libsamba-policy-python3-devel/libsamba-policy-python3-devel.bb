@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains libraries and header files for developin
 applications that want to make use of libsamba-policy."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.5+git.313.c8e274c7852"
+PV = "4.18.6+git.320.cfda27bacb"
 
-RPM_NAME = "libsamba-policy-python3-devel-4.18.5+git.313.c8e274c7852-1.1.aarch64.rpm"
-RPM_HASH = "bd6423ac2be4b208ef14bce4605cb6ec27ab723945151cf088b856581324c1eb118d1c0cb5227a67b5d28ea0f4888c60d9ea2fdddf94717ab6315a91e4d2896c"
+RPM_NAME = "libsamba-policy-python3-devel-4.18.6+git.320.cfda27bacb-1.1.aarch64.rpm"
+RPM_HASH = "c98bc444fe69892667db42e866fa42a10faafbc9212169316601b6864be13cde32caf0a3119a4da4a39ae9cc974cfa3a653d60d5204687c65e8c266085b7da6d"
 
 RPROVIDES:${PN} += "libsamba-policy-python3-devel \
 pkgconfig-samba-policy.cpython-311-aarch64-linux-gnu"

@@ -4,10 +4,10 @@ and services across the KDE desktop, including: Google, \
 Facebook, Owncloud, IMAP, Jabber and others."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kaccounts-integration-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "2c22c2f3946292695152dff15dccf840cf3afc37b782d461e1e1d6bee0456b698691b10407657eb3134dc2df2f431a8bbf231a852570bd928f85d23710a97de5"
+RPM_NAME = "kaccounts-integration-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "516b4e8c75bd13968a79db28bef5e9d3a78563b1d1a49f1b6df23b4b9f80373f2c858b43a7dd1b891c52255ca8d6aa20f5ec37382b382a49903bce866c977682"
 
 RPROVIDES:${PN} += "kaccounts-integration \
 libkaccountsdeclarativeplugin.so \

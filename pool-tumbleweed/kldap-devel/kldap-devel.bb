@@ -3,13 +3,12 @@ DESCRIPTION = "This package contains necessary include files and libraries neede
 to develop KDE PIM applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kldap-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "1a4a24ff55ab20a2ffb52661e1cb4583eb637a615d3cd680a1b37fa165901ae6043f99ca16a3926a49f925ce22c46e47bd6ebb34625589d0d8b8ecbdec267504"
+RPM_NAME = "kldap-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "e24ce65ec27cfa0541a6f28300d06d0223733fcd6bd3d7121ccec6d098af177492d49346900c7983d57b628e9ffc92a7335cdc05101d4d16a1ffa13b87f7977c"
 
-RPROVIDES:${PN} += "cmake-KF5Ldap \
-cmake-KPim5Ldap \
+RPROVIDES:${PN} += "cmake-KPim5Ldap \
 kldap-devel"
 
 RDEPENDS:${PN} += "cmake-KF5CoreAddons \

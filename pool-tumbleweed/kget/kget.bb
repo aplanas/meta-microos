@@ -2,10 +2,10 @@ SUMMARY = "Download Manager"
 DESCRIPTION = "An advanced download manager by KDE"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kget-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "e2286309bcd4b5cd26a775fffe161e2eb519ff2c98b46deed7d2c30276ea22715533ed97b75ecb8afed54fd9d20f6a3c401097c8eb20c065d8c69b48c5286b32"
+RPM_NAME = "kget-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "8db061890c1541b16a167a294ac9a2e25b02a132ab181c11d6ddfe65c33f4e18fa85679007f378ed3c9fa0976a24826e9b716a8d11793794b5c39b4ca386f2f3"
 
 RPROVIDES:${PN} += "kget \
 kget5 \

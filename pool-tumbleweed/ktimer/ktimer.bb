@@ -2,10 +2,10 @@ SUMMARY = "Countdown Launcher"
 DESCRIPTION = "Countdown launching tool by KDE"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "ktimer-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "bafb7a819c58e2b6b23d0efeda8e45bea5da8cf7f20e5c8db91070faca28e7c1a73f78e111f1f8042e517f692e790b740ba0a37bfbb70fdb779a589bb39ca78e"
+RPM_NAME = "ktimer-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "7c9b7bc1c25171f2c609b6cfcbd210197c2471473fb7682eb5da275a6a471b270c6bee3bcc6947808afd7b730da6f868d183ea839140713f925df52e8400dfd7"
 
 RPROVIDES:${PN} += "ktimer \
 ktimer5"

@@ -3,10 +3,10 @@ DESCRIPTION = "KMines is the classical Minesweeper game where you have to find m
 by logical deduction."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kmines-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "afba66d6feb74f49d4a8c151af9f17af7a25d06432b7ee3f7ac471c01b97c93c39ced966dc0939a09d2fb962e40195137cd9a5650cce98a1bf08e73a408c2dcb"
+RPM_NAME = "kmines-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "60b80eb0c207617c005283e34da41a5b8cbffa276e667d7c19e36b2cbb7a716f9e607ad16087a72a7fca5c160ab73caca6b2c36c8091318a027f46d9b26bc7dd"
 
 RPROVIDES:${PN} += "kmines \
 kmines5"

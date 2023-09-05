@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.09.20221229"
 
-RPM_NAME = "tack-1.09.20221229-18.1.aarch64.rpm"
-RPM_HASH = "c0b147cff49336f6ebfc90e1669d944cdd5034b3fcc5f968ab4918e63174747fab509a7df7bee15f42882b28303d5adc99ac084a225e763a602c2534da70c8e4"
+RPM_NAME = "tack-1.09.20221229-19.1.aarch64.rpm"
+RPM_HASH = "0af431cdf28e74e922ecff98b0b3084c3ce64efc1cc71071eb97d69796a170033be1b057d17f395f4300d86aacbef51fe2dfee86362cd285852c0f4a61fc6dc2"
 
 RPROVIDES:${PN} += "ncurses-devel-/usr/bin/tack \
 tack"

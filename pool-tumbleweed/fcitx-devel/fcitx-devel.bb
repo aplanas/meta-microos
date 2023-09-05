@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2.9.9"
 
-RPM_NAME = "fcitx-devel-4.2.9.9-1.6.aarch64.rpm"
-RPM_HASH = "a4ef0ecc3ec48726dceddd4e9ed5b7e9ffe37fc090f99e4c2f4f7b7e10a670445404d7876b35515fcf354c91802160d431c939a74c1d90d4328fd2a6fccd50dd"
+RPM_NAME = "fcitx-devel-4.2.9.9-2.1.aarch64.rpm"
+RPM_HASH = "dcdf8817603b7e02662a4be9076f1300680ecef3eea966625598d8c94c4f380adc90600fd764a84c813bdfcf39b11c463e5be2baa77f4d550770289047d4edc4"
 
 RPROVIDES:${PN} += "cmake-Fcitx \
 fcitx-devel \

@@ -8,10 +8,10 @@ powerful journal database reader, we aim to do a clear split between \
 reuseable library and application logic."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kjournald-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "feb1640e17a16216b4e5c7bc34426d04a7eca71d8da3bc03d503675bbf6fbd57136d53126beada4dccc5592896e053509a226c661e642920381c4bf04c2ee0e0"
+RPM_NAME = "kjournald-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "f9c4803013bcb31d9146324e0866dc3f5e107e54cb74d574fcc40cc32649a239c11a990edb514c92af0c86d8b0c277a4707dc36b4a0f0c6559b48a7f769a1535"
 
 RPROVIDES:${PN} += "kjournald \
 libkjournald.so.23"

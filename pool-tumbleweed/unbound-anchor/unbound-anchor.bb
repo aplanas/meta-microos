@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.17.1"
 
-RPM_NAME = "unbound-anchor-1.17.1-1.5.aarch64.rpm"
-RPM_HASH = "59344b2c25a16e9691c10d90aa350cc9608ed5831358bb489e17973dec62a2c678caebd82845cac25cd6a975b4633efb778db491704d1fb3d14fa2ccb28a8404"
+RPM_NAME = "unbound-anchor-1.17.1-2.1.aarch64.rpm"
+RPM_HASH = "a3ed7d2b866787e95784bc5f63ca143a89c0764eeeb8703599f5942ea7e797268f91b797bacfa9077495fa1ae35d2727e468283bc3f2d9a1935b5a547bfaa6e2"
 
 RPROVIDES:${PN} += "config-unbound-anchor \
 group-unbound \

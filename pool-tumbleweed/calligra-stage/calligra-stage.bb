@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.2.1"
 
-RPM_NAME = "calligra-stage-3.2.1-7.21.aarch64.rpm"
-RPM_HASH = "6deaab48361029705fa299c358419405004f50b797f72db0c7c3593efea5ccf66a166ae27cf2735b0e797345caf29051c2e09bb790520663c4ec859bba7ac4e1"
+RPM_NAME = "calligra-stage-3.2.1-7.22.aarch64.rpm"
+RPM_HASH = "e38ea16f7b7d730ece3b73f0c507eb894b2d07639b71b0a272e438e41b86418bfb9258b5b99280fcbb1acb98edf433e4c29b9b214bca12561c09b2d705db95d1"
 
 RPROVIDES:${PN} += "calligra-stage \
 libcalligrastageprivate.so.17 \

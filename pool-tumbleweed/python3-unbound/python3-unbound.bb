@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.17.1"
 
-RPM_NAME = "python3-unbound-1.17.1-1.5.aarch64.rpm"
-RPM_HASH = "e565f61b8a0a5875979b8d4af025a1f9c7a9a4a67958c5fb0ca5d23ee6e4092900928fb421eb8ef4f09beac09bd379d8ae339ea9a8f41f9c73343169ea1640f2"
+RPM_NAME = "python3-unbound-1.17.1-2.1.aarch64.rpm"
+RPM_HASH = "a20e221746467efedb863400ca39c0ef87fc58a0b23ca2a499c99712a6fdf14ec62ebbfcaceb3482a395edcf8dde0172f7b8f21e1bce0bc563f6fdeb9995d1f6"
 
 RPROVIDES:${PN} += "python3-unbound \
 unbound-python"

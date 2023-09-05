@@ -4,10 +4,10 @@ align five game pieces of the same colour in one line to remove them \
 from the game board. Similar to tetris you fight new pieces appearing."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "klines-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "1c69637d5659ee493611fc68615bf24c14a77ee2bded7dccba74d42c3f8ee564ccec1a7122cf37387a2b5d0998498808a18f89bef63577ed35becd12171116d1"
+RPM_NAME = "klines-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "873a099fc351c4230b359831261a0fb83ad7c669286a105d0d59d9d947a4e3e3f93a5d91da3b042f74f42dfd9f0197e645ee8c60ea8d81367360c775f9eefccc"
 
 RPROVIDES:${PN} += "klines \
 klines5"

@@ -4,10 +4,10 @@ libraries for re2. If you would like to develop programs using re2, \
 you will need to install re2-devel."
 LICENSE = "BSD-3-Clause"
 
-PV = "20230801"
+PV = "20230901"
 
-RPM_NAME = "re2-devel-20230801-55.1.aarch64.rpm"
-RPM_HASH = "a95c190e119245b57a2034e753ce9f89d37818e24334991d2203c18b15d367f8a137245a3aebc9695deccb151b3735a740f38f1effa11b90d627785c12e5fb9c"
+RPM_NAME = "re2-devel-20230901-56.1.aarch64.rpm"
+RPM_HASH = "6b776098a17c325bc5fa588c8000867cafd379c4773508257b18114b95051aada966394a3e62955fbb2ebb67b96b1dad76a1c3d1c67cbab1358c61866e01bab8"
 
 RPROVIDES:${PN} += "cmake-re2 \
 pkgconfig-re2 \

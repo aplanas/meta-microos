@@ -13,10 +13,10 @@ modules: \
   classes to render and interact with web content"
 LICENSE = "LGPL-3.0-only | GPL-2.0-only | GPL-3.0-only"
 
-PV = "5.15.14"
+PV = "5.15.15"
 
-RPM_NAME = "libqt5-qtwebengine-5.15.14-2.1.aarch64.rpm"
-RPM_HASH = "f20d42120b5c06596ee21845260b3f2d9310aceb08f58f2faa5a47935b348cf143f08da62ac4bf61260f3f915b3b7ecbf12f7150386fa981b1cf98add4b76f08"
+RPM_NAME = "libqt5-qtwebengine-5.15.15-1.1.aarch64.rpm"
+RPM_HASH = "dff43c1bf59a4519c97a4cbf869efb8f3ea225f73b3304b04b03f2d2408fb1591a601b955526f48704bab1838d0f155c57531665ec7df1008687d3014d8f707d"
 
 RPROVIDES:${PN} += "libQt5WebEngine.so.5 \
 libQt5WebEngineCore.so.5 \

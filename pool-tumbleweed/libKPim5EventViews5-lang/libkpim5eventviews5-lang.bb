@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libKPim5EventViews5"
 DESCRIPTION = "Provides translations for the 'libKPim5EventViews5' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKPim5EventViews5-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "be08ad32be2d9beb53de1b9cbedd206233c33ac3e0b8d8e124ea8edf739e19493f495581c537a313309e67c5c76797905cf2b8f7749343472192d71e79852f83"
+RPM_NAME = "libKPim5EventViews5-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "1660c8519b3052148387a83873d27d2d9e493b680d994bf76e56b126101c6fcff42444fdf3a409969e45441a46347a64eb75805a5cc58d0627ccf5403ae9368a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libKPim5EventViews5-lang \

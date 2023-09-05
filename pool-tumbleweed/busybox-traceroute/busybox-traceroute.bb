@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.36.1"
 
-RPM_NAME = "busybox-traceroute-1.36.1-28.1.noarch.rpm"
-RPM_HASH = "10929e2fc9868c4e0e4afce56e99ef52c044b082f737bff8c033b3546e3ecf02657569da64a332b6930c037d624022c77134d962213a21a03563430116ca1322"
+RPM_NAME = "busybox-traceroute-1.36.1-29.1.noarch.rpm"
+RPM_HASH = "63f1aff49b3dca939b56299e0d02d97c12b752f7d123d9a782b544f0681ef2a01a42a9ee4fca744fa534089e4e603271cf6cdb1efb9a4625ebfde402d62b23bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-traceroute"

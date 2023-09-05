@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
 PV = "2.40.5"
 
-RPM_NAME = "webkit2gtk4-devel-2.40.5-1.1.aarch64.rpm"
-RPM_HASH = "c2b8c20258f6f0d4cef1fcc19609d14949d5924d5ba7fdc9725e49e15bff5706def5b44ecb96955bd398f5b64ae521c1bc052cc3b09b827111010537d1f29386"
+RPM_NAME = "webkit2gtk4-devel-2.40.5-2.1.aarch64.rpm"
+RPM_HASH = "3d66d6dbe9f358850b6b88324afde80308af92c6728fe8c3967534d520cac7e8bd99918b2d73555f131994ba240817b382de7194b6cd377e595eb1f3236fb412"
 
 RPROVIDES:${PN} += "pkgconfig-javascriptcoregtk-6.0 \
 pkgconfig-webkitgtk-6.0 \

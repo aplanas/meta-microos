@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
 PV = "3.1.6"
 
-RPM_NAME = "perl-apparmor-3.1.6-2.2.aarch64.rpm"
-RPM_HASH = "db03625caa8e434be67f878dbf655688a48268f33e9016919f94a414e10f30538f24b60a81dc2f5f5aaf42aa0c370c0f8786999dce8808b0c6652f23a482d98f"
+RPM_NAME = "perl-apparmor-3.1.6-4.1.aarch64.rpm"
+RPM_HASH = "dd780d03c060f470b8f2ebb56a60367092ff3b758888d156ba593f92eaea691de72762ca082b0e28762398d6e10464bec6d96049a56e84c2447b2fc85e94a47d"
 
 RPROVIDES:${PN} += "perl-LibAppArmor \
 perl-LibAppArmor--aa-log-record \

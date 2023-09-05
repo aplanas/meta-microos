@@ -7,10 +7,10 @@ This package provides header files needed to compile client programs using the \
 Qore library."
 LICENSE = "GPL-2.0-or-later | LGPL-2.0-or-later | MIT"
 
-PV = "1.16.1"
+PV = "1.18.1"
 
-RPM_NAME = "qore-devel-1.16.1-1.1.aarch64.rpm"
-RPM_HASH = "3f0727a33dc4cee6a06d272cf4691b3c685babb2b0b72c718f15ab3f566f30a36186468551d89e25957890aba2bb7ae7cdb0a3b56ed67f0c150b9ab670b2d6b2"
+RPM_NAME = "qore-devel-1.18.1-1.1.aarch64.rpm"
+RPM_HASH = "2644172faad41d1a82a18ee72fa0ec64194fc9b6509696af2a662b9c05de2dc1568541919958e9cd5278a71d708bee3b0ed525cf8444f4f7c4bf2ba4f66a04da"
 
 RPROVIDES:${PN} += "pkgconfig-qore \
 qore-devel"

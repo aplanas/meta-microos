@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains scripts for automatically configuring netwo
 in Amazon EC2 with full support for hotplug."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.7"
+PV = "1.8"
 
-RPM_NAME = "cloud-netconfig-ec2-1.7-1.3.noarch.rpm"
-RPM_HASH = "e476646dafcb5b8eabf27da7cd322334d37396e6ed540fdac777a4450321949b787a3d477db9862df674fe095588b241fed0c22c46505ce5a39bd1bcc3e361ed"
+RPM_NAME = "cloud-netconfig-ec2-1.8-1.1.noarch.rpm"
+RPM_HASH = "196513a2329a8c6c804914cfc2827ca38b19f9ee1f2079f3f038c57e38f33ddf45a3e86ee1a5c34aeaf121fd90c221c60dfd831f3b8d9ac255264ed0f9207e0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cloud-netconfig \
@@ -16,7 +16,6 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
 curl \
 sysconfig-netconfig \
-systemd \
 udev"
 
 inherit rpm

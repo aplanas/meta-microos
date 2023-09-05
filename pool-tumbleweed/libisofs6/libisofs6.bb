@@ -17,8 +17,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
 PV = "1.5.6"
 
-RPM_NAME = "libisofs6-1.5.6-1.1.aarch64.rpm"
-RPM_HASH = "0788118192e8beccaf2bd54a8d11bfe71008d157118cf869924bfae3d5678587c5911c8de7b581e6df94f80b927feef27f9d2a910bad1947c2efc0231d455e11"
+RPM_NAME = "libisofs6-1.5.6-2.1.aarch64.rpm"
+RPM_HASH = "7bf68f6a29037961df34ffb30dce210c5f9dc9d4d88a4b98aff01460215deaaa8e602b7939ee7dfcdaf32b1b244ef3ef54eab716245b5d433141f73aaca81336"
 
 RPROVIDES:${PN} += "libisofs.so.6 \
 libisofs6"

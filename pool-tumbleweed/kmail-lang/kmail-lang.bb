@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kmail"
 DESCRIPTION = "Provides translations for the 'kmail' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kmail-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "8c9d022d10cd8cd2016a00db470f8c15dfaa8e99d64d78efb18cd793b9b41fe79ded54cb9716ecff86dacd1ef37cbadbc6fe57d41c4f9ba36e9986b8cb11459c"
+RPM_NAME = "kmail-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "bb5e5ddb98011dce53286caea5e44ef122ac9c14677e9d8b38779b7657cb7345c681761d222a566608b4f5a31ff4afc92e1d658453dbd7c4af40dcc96ddcb661"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kmail-lang \

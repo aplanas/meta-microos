@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 Marvell Prestera ASIC driver."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230814"
+PV = "20230829"
 
-RPM_NAME = "kernel-firmware-prestera-20230814-1.1.noarch.rpm"
-RPM_HASH = "2261b6f575abbcb251b14e7c14ad482d7b7cea776ab8fa119a475052dbabfaf4b3a9008749bd8c2b512012ddf9c103219fdb3edc9afe66fb313309f4eb97058a"
+RPM_NAME = "kernel-firmware-prestera-20230829-1.1.noarch.rpm"
+RPM_HASH = "3581c2700084240e0854bb969be71eb906aae942c0c5f43d0c8d38011568939d5ee7d4f24b1ded086e460b46f7d140b59d7db15095b8688de256cd317dac57dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-mrvl/prestera/mvsw-prestera-fw-arm64-v4.1.img \

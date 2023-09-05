@@ -2,13 +2,12 @@ SUMMARY = "Development package for libgravatar"
 DESCRIPTION = "The development package for the libgravatar library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libgravatar-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "fde9f5a06cb128ed8cd047bc9bf4b72f671e675bfefa02a9be4fb7d75a5ef5ff173da5d6c10b77e483bfebcae5a7a931300b5365a50bab554f73f544a6d40392"
+RPM_NAME = "libgravatar-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "9b0d722a71be3d4748826b677cb449c63cc26d09c24aa2a0af70e3242662c9e62cdd5bfd85e559b50ba2093620dbfd549fb46455a112d960e2341d3ce45f53fd"
 
-RPROVIDES:${PN} += "cmake-KF5Gravatar \
-cmake-KPim5Gravatar \
+RPROVIDES:${PN} += "cmake-KPim5Gravatar \
 libgravatar-devel"
 
 RDEPENDS:${PN} += "libKPim5Gravatar5"

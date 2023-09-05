@@ -4,10 +4,10 @@ and Maxima: Cantor. Cantor offers a worksheet as a nice GUI for all \
 those backends and is not targeted to kids but to scientists."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "cantor-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "9b706f982c4a64c081844257de17a09daeb7e615fd748a70688c30036ebfdb8008d4ae4fbcf8bc98f68c6bd9f429bec6f171b1366a2a37689f58a2511df3d535"
+RPM_NAME = "cantor-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "3165537c38119a3e904541acedc91d5a48f7a98953227251221c44578c49cea7972589f319529adce1f9a67d810c3f2c3c007f5935c9b5b543dddd2e6389faea"
 
 RPROVIDES:${PN} += "cantor-devel \
 cmake-Cantor"

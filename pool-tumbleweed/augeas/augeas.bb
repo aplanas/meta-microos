@@ -7,10 +7,10 @@ details. It is controlled by ``lens'' definitions that describe the \
 file format and the transformation into a tree."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.13.0"
+PV = "1.14.1"
 
-RPM_NAME = "augeas-1.13.0-2.2.aarch64.rpm"
-RPM_HASH = "fc37ad583d15c5ffe0cba42ef4a00c56ef7bb289ad1209f928903a86f028a62b257983562924295044da0ab340448abbc2cb150c18aa277168d98e79bc79b14b"
+RPM_NAME = "augeas-1.14.1-1.1.aarch64.rpm"
+RPM_HASH = "49ececbd4fb9c2ff7bf26bb8b210f0e7ea649f57611d6109bb627bc59b14c003c2a4e139ec7887942cf972db90d533105fd03db8de53d2d860523a321c9effc8"
 
 RPROVIDES:${PN} += "augeas"
 

@@ -2,10 +2,10 @@ SUMMARY = "Marathi localization files for LibreOffice"
 DESCRIPTION = "Provides Marathi translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.0.3"
+PV = "7.6.1.1"
 
-RPM_NAME = "libreoffice-l10n-mr-7.6.0.3-1.1.noarch.rpm"
-RPM_HASH = "331bac354a6783b20347a93ab09dcfab28e19d5d8c5494d4090537d1e1ab754f0aa6b190a9fc1f2706476114357a64fad99e1ced5ad9d0e429b12b5a58b77cc3"
+RPM_NAME = "libreoffice-l10n-mr-7.6.1.1-1.1.noarch.rpm"
+RPM_HASH = "5199ad70bfc7c97064f4b260e0d4871942a44c50686bfc7d9f827e4945cea3181c246cedbf28f40cfd34b70b7a4eb0351f0263749f4ccf2a83a2085136075d2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-mr \

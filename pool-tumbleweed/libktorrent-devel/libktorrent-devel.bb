@@ -2,10 +2,10 @@ SUMMARY = "Development files for libktorrent"
 DESCRIPTION = "This package includes the necessary files for development using libktorrent."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libktorrent-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "6fc6458bfedc25f5d1192013087b5ff0329a5b25e8e229b934b157bbe3b55b3ca85d4cbf75e31a7e6cf4a0fb2ea6432928241973ff2ddbf11a9e76cf7c97a5ef"
+RPM_NAME = "libktorrent-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "3e27f596c28be2c9eae4ffb85e591462f7494d2510d728921105acee6ca45595c48dd6d6ca3963aa0aaabf3d051bf5444bdf2dbb02ccdd1708da9f8077ce2a8f"
 
 RPROVIDES:${PN} += "cmake-KF5Torrent \
 libktorrent-devel"

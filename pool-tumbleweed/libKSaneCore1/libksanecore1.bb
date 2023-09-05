@@ -2,10 +2,10 @@ SUMMARY = "Qt interface for the SANE library for scanner hardware"
 DESCRIPTION = "KSaneCore is a Qt-based interface for SANE library to control scanner hardware."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKSaneCore1-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "cf4d80d1aeb79d75c76d30fabc99d2c29a4dacf85d54933aa9dc1c64a8a767ad4ec85057b8e5b917acccdeff4d271829dec1cc9994071e410f8d83279f933a76"
+RPM_NAME = "libKSaneCore1-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "1b8ecf490f6cc9e0f3eb8aa0109642edc929722d1ef286fd6665f1082df2e7b628c07a0836aafbb2ee7a86f0c19a3e036131404069c5dcb05f7477094e633a1a"
 
 RPROVIDES:${PN} += "ksanecore \
 libKSaneCore.so.1 \

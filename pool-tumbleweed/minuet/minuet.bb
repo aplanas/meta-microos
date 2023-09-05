@@ -10,10 +10,10 @@ changes, which makes Minuet a valuable tool for both novice and \
 experienced musicians."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "minuet-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "10cdaa773fe84a85ef5e3e9f5c054c8570eb4cced9639ecbc981a25c599e3b1df9695c68a975f42fc9833d7dd3873565ffe95d73227c381db1273f375bab98ca"
+RPM_NAME = "minuet-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "58b2a9eaceab8e6ec01e095a3f234c35b01ea31474d38f926e902ad94520deca9cb976996e2fe253304a9d5dd835b13f9c1565f8570309e8e0871cdf43cc8155"
 
 RPROVIDES:${PN} += "libminuetinterfaces.so.0.3.0 \
 minuet"

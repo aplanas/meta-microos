@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kgeography"
 DESCRIPTION = "Provides translations for the 'kgeography' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kgeography-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "141047244651c396aebc2a9ee3a4ac43c4b8dad9404042564bb12f6be062cb0ae85b91e27ed0a59b57afde6ec23cb07eecf857b31a701a31d125a97fa7faa66c"
+RPM_NAME = "kgeography-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "687682ec243f1e4f5e7126ab49990b01e410baba8baf11e9c27ecab054a0001dafc463fb96118330eb6ff626218161fe27f57f71670b03f219707475d07f1e36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kgeography-lang \

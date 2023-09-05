@@ -1,11 +1,11 @@
 SUMMARY = "OSGi Core API"
-DESCRIPTION = "OSGi Core Release 7, Interfaces and Classes for use in compiling bundles."
+DESCRIPTION = "OSGi Core Release 8, Interfaces and Classes for use in compiling bundles."
 LICENSE = "Apache-2.0"
 
-PV = "7.0.0"
+PV = "8.0.0"
 
-RPM_NAME = "osgi-core-7.0.0-3.5.noarch.rpm"
-RPM_HASH = "85d7e715707c1629ccbbac43ceb9e82f2760783cb852239dd701048f1e9f34ecb8ea07af576cbffa5bb367b07e1d89dda9a2a1e63b3d91fa9f65543f98dd5c39"
+RPM_NAME = "osgi-core-8.0.0-1.1.noarch.rpm"
+RPM_HASH = "5481321f6c5a9255b94f7252dc06867807f2808bf7923789731177625ec4782e1ae6395a0c4851b2fdbea9baf14081f6f10bf0d3e70d1509a12861720a212749"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.osgi-osgi.core \

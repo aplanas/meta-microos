@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kipi-plugins"
 DESCRIPTION = "Provides translations for the 'kipi-plugins' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kipi-plugins-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "ea0f2d20b5e7585f6d2e01bd2c80a12b53f4e85f722ca42aa9fc1abfe5f4aa6dacc32a802dfdd87585e2cc4a3ab0aec0c3b49af2e5fe1b6ceb531ee8ca7f7788"
+RPM_NAME = "kipi-plugins-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "038b5f4dbb14344dbf4bae1427438b71dce6e29a594ddb935ac6f252b8e86d998e716172569125461d51d9957a0d03d9e00032e183cbcf082154db8da9d6e173"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kipi-plugins-lang \

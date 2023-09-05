@@ -9,10 +9,10 @@ programs to offload portions of the video decoding process to the GPU \
 video-hardware."
 LICENSE = "MIT"
 
-PV = "1.15"
+PV = "1.16"
 
-RPM_NAME = "libxcb-xvmc0-1.15-2.3.aarch64.rpm"
-RPM_HASH = "4ba18e26e84aee50d2701e342dd0429b64f753f33c79e8fc5eb0a2a49cf062f78d1572ed3a7f646fee0b08b2d4fef43151aedc93deee3ab6ebd991ae77d13a1f"
+RPM_NAME = "libxcb-xvmc0-1.16-1.1.aarch64.rpm"
+RPM_HASH = "428c379b28166c16a032b0b02c68f484857dd58a7d092a07b9fba62a9f173dd6417d81d576dc9110fa3537c01555d58be78eff34579c5abdcd2bdd46f1f02f20"
 
 RPROVIDES:${PN} += "libxcb-xvmc.so.0 \
 libxcb-xvmc0"

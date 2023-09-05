@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.2.1"
 
-RPM_NAME = "python39-sievelib-1.2.1-1.15.noarch.rpm"
-RPM_HASH = "fd77d8ca90e41e89d69662e9002318ed50f1d4dbdfbc893385eb9fffed103c7dc4378d3fd358b0330cd21660aab9a5fd4e752bb6fec321cdb093ee0d3919b073"
+RPM_NAME = "python39-sievelib-1.2.1-2.1.noarch.rpm"
+RPM_HASH = "c52fbe557d6a94e562abfb21574d738e453ca6e4a7c4de182bb8531d00f01d8735f21aaa48cdabb05e0d9b87cd0ff63ea4ad6847b96b43f06b1389c858f3cabc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sievelib \

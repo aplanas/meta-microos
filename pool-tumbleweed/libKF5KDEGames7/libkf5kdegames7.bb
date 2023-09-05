@@ -2,10 +2,10 @@ SUMMARY = "Library for KDE Games"
 DESCRIPTION = "This package contains the KDE games library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKF5KDEGames7-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "5db2b2d59fa9a7514b2cbf84a9b3e95af4033debe73a840b9ad9f4d50634ffd20ec714371319ae876b268eda25fcf136f38ab0a2f5419047acd282d4beca04b2"
+RPM_NAME = "libKF5KDEGames7-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "f6c379e580ecb00b38ce449461855f5e018f454ea16ea79c03dfa98bc0f9aed5451c18be8192157a3ff628bc6078fe118e06baa71c07f80976bb10cecbac5274"
 
 RPROVIDES:${PN} += "libKF5KDEGames.so.7 \
 libKF5KDEGames7 \

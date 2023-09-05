@@ -2,10 +2,10 @@ SUMMARY = "Translations for package pim-sieve-editor"
 DESCRIPTION = "Provides translations for the 'pim-sieve-editor' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "pim-sieve-editor-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "dbd8822614fd790b7200eee372dcf17511aa8ba694d9996a9c2d5a2eaff36b5576bc58dad434d8e9b0a773cfaafbf4051d15b1f128b7317563a045aecb839520"
+RPM_NAME = "pim-sieve-editor-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "cf6ac6020382f47ed990d539883ae7388fe076bfb28607f660c4c190840f33f940df0fb4704516e2725b2fdb83ae1487c302c41f7d4cda4288ed04e46e52ed6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pim-sieve-editor-ar \
@@ -18,6 +18,7 @@ locale-pim-sieve-editor-cs \
 locale-pim-sieve-editor-da \
 locale-pim-sieve-editor-de \
 locale-pim-sieve-editor-en-GB \
+locale-pim-sieve-editor-eo \
 locale-pim-sieve-editor-es \
 locale-pim-sieve-editor-et \
 locale-pim-sieve-editor-eu \

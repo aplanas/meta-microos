@@ -2,10 +2,10 @@ SUMMARY = "KDE PIM libraries MIME Support"
 DESCRIPTION = "This package provides MIME support for KDE PIM applications"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKPim5Mime5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "2cffd3e89a9752c82e2b91b8b5b9f68dcac0cc7247314aef594bef12e7fbacfb09dab604ace239caec51811532549f4bc2595a9075e555f0a55b25fff5be7643"
+RPM_NAME = "libKPim5Mime5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "6870dc488ddb0e2476ed38a0cd3edd86cd158362660fdf401d9aac75b9ed4b1560d74533afd26a6d377a728b478996067fcc180c9814d4de228ca6c174f92384"
 
 RPROVIDES:${PN} += "libKPim5Mime.so.5 \
 libKPim5Mime5"

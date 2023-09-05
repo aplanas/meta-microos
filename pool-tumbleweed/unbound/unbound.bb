@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.17.1"
 
-RPM_NAME = "unbound-1.17.1-1.5.aarch64.rpm"
-RPM_HASH = "c944f0c00f3667f90a8f4f60ba2a85610a6fb9fb9b81c0437755840d6a3c6299c24a180d4605a3ec5e3533f15463cd6f3326ed97cfe3a76504c60b98d338f9b6"
+RPM_NAME = "unbound-1.17.1-2.1.aarch64.rpm"
+RPM_HASH = "4bded387dcfb477e5633e0e16433cc5a86a76891b25fa1bd22d33c4696f92e54eedb2276fbc2d4fcce5a0908eeceeece64cbe7c4de29f82a7428c636971a7656"
 
 RPROVIDES:${PN} += "config-unbound \
 unbound"

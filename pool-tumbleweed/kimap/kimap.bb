@@ -3,10 +3,10 @@ DESCRIPTION = "KIMAP provides libraries to interface and communicate with \
 IMAP mail servers."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kimap-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "6bb58a0a9c76e34b7c5a526dba5e936c2c871ef01d9cbb21b07c52802f80b93e521100abb97be3f2d2f0e10b8e09806c0ff3331867dac0ba444de9e47d176194"
+RPM_NAME = "kimap-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "4bf3e4a9cc2c16ba098bed6b9cd4140cabaab389099ce78aa34b4ee4da7a620e5fb6c37acc1cf2352855e63af71b623327f9665352545d9d6d731686094d25ac"
 
 RPROVIDES:${PN} += "kimap"
 

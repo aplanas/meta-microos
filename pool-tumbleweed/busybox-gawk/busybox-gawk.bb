@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.36.1"
 
-RPM_NAME = "busybox-gawk-1.36.1-28.1.noarch.rpm"
-RPM_HASH = "78ee9b7d8b98d52df2cc5b28173b949970d43edfa3a503f5f36fe772d96258e8d5ade19ff61fa58e1a8e53685f0784ac242c2dca599198d8c4a9bf9598082ba6"
+RPM_NAME = "busybox-gawk-1.36.1-29.1.noarch.rpm"
+RPM_HASH = "76196a0ecd2d32db3a64438cc53279a426ba20ea2ee88b55a3b9605245f1103e2bdb4c1ed409b34af0aa2493d87c955d5728f68ae96faeefcd8cd382aba780f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/usr/bin/awk \

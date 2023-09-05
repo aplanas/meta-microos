@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.6"
 
-RPM_NAME = "libburn4-1.5.6-1.1.aarch64.rpm"
-RPM_HASH = "a5c7ec65896f5a1035757d4226137359eb6f7172d356c89cc3ff7103b1eac38c753742a0cb726aecceba7243a402d64fba769092ecdbf0aa0a9e255995832245"
+RPM_NAME = "libburn4-1.5.6-2.1.aarch64.rpm"
+RPM_HASH = "9cb5e596472ef437fbb4c5a75ff7c13f814d0ba4e660f62a920427f48270a21959a6c19d2cbf90edce5e0f971e6cf8f7f45825b9153f3c9ef4455d67899fc237"
 
 RPROVIDES:${PN} += "libburn.so.4 \
 libburn4"

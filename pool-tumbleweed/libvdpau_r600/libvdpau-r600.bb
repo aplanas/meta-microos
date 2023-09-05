@@ -2,10 +2,10 @@ SUMMARY = "VDPAU state tracker for R600"
 DESCRIPTION = "This package contains the VDPAU state tracker for R600."
 LICENSE = "MIT"
 
-PV = "23.1.5"
+PV = "23.1.6"
 
-RPM_NAME = "libvdpau_r600-23.1.5-355.1.aarch64.rpm"
-RPM_HASH = "250c3a2921029f82107ec9dce380ea6a8cf066896ba07a8210e474326f85075c6df3dad0c66efd8fdc775d443d3a63ef0d7cc4a1e99492f8900fdc1869855290"
+RPM_NAME = "libvdpau_r600-23.1.6-356.1.aarch64.rpm"
+RPM_HASH = "0ecb1ba08e0cf4d9d21881d53659a958863f02e50590282d9aebc41b19bcc12f5f21efb724bb93c7c7428ac194ebc5e736e10448f561dcbce742b3efcd59ebac"
 
 RPROVIDES:${PN} += "libvdpau-gallium.so.1.0.0 \
 libvdpau-r600"

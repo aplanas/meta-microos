@@ -2,10 +2,10 @@ SUMMARY = "Translations for package akregator"
 DESCRIPTION = "Provides translations for the 'akregator' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "akregator-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "3b6287af0704050e2bd4d5e1c4319e5ad106cdbe3cb0d7f022d8863461ea7331d295882401e45fe4d5d1adad4b245fe542969aaf527de9a4dca0902c49ffed61"
+RPM_NAME = "akregator-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "0dc3ead0af4d623c44980b626ea72e58cdb77192d33471eaa10ea5816bbdf7217c13214252c7945111177ae0de8189bbf550f2c86b1d69b657d724882c11a66e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "akregator-lang \

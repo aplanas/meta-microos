@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.0.0"
 
-RPM_NAME = "python311-arabic-reshaper-3.0.0-1.5.noarch.rpm"
-RPM_HASH = "9911a34b26bcb047a9bbd5293990446183cac46476a49fc28c04d1f9de32ebfc614be2b282b188f35ba28be4ad188892980110de8ed4cc63691667f070b9ddef"
+RPM_NAME = "python311-arabic-reshaper-3.0.0-2.1.noarch.rpm"
+RPM_HASH = "fe8479c8f9c276313af7b59adfc38c58cd31c56ca613f2db95b5badeb061a6f099d16da1876738dbaddde479daa2e1f980f23913d369e46256e4b5930899b8fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-arabic-reshaper \
@@ -14,7 +14,6 @@ python3.11dist-arabic-reshaper \
 python311-arabic-reshaper \
 python3dist-arabic-reshaper"
 
-RDEPENDS:${PN} += "python-abi \
-python311-future"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

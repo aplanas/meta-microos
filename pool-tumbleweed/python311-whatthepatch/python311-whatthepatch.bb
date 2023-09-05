@@ -2,10 +2,10 @@ SUMMARY = "A patch parsing and application library"
 DESCRIPTION = "A patch parsing and application library."
 LICENSE = "MIT"
 
-PV = "1.0.3"
+PV = "1.0.5"
 
-RPM_NAME = "python311-whatthepatch-1.0.3-1.6.noarch.rpm"
-RPM_HASH = "a5766fa550a9eac7c217ba1dfaffc6b44c92da8969e1e69f67f72d1b6cf4a786cc42ff81acb84c433a678130a4bc31fc2a31d0164835d8ca8bcee00f278fa79f"
+RPM_NAME = "python311-whatthepatch-1.0.5-1.1.noarch.rpm"
+RPM_HASH = "40cdc7a4f8b340f7614936c4e3770e0cc58b029dbc7519a65a16aba73c971253f258f1fd00e0595db9b58276f7537066277dd854e66023d1743f1dd67623ac08"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-whatthepatch \

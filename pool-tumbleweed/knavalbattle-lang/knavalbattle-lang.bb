@@ -2,10 +2,10 @@ SUMMARY = "Translations for package knavalbattle"
 DESCRIPTION = "Provides translations for the 'knavalbattle' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "knavalbattle-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "038dcb03cfb47949461a07e7562b846900a76ba97ef81ca1a8bfeb4ddd3654fb3a214cb55833be8e8a38c4988bf7903be2b5d98d9960062a62794519c462dc0c"
+RPM_NAME = "knavalbattle-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "7b44d29e4b20dd00f028db9ca289e97d246e993312af1c8c56900c656366b0ea7df13e6a04b6db758c264f6399a028bc6639c458fd08059f2ff1cd8090397900"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "knavalbattle-lang \

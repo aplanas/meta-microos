@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "13.2.1+git7683"
 
-RPM_NAME = "cross-hppa-gcc13-icecream-backend-13.2.1+git7683-1.1.aarch64.rpm"
-RPM_HASH = "e7013a5d32dcfee7fe4ac54bba0d1ba6cc4a21a87ffa5266fdb5d5c91c07b377a98b8a04d528798b966b4a33760ffb127230bc3fe5e2d320276d987800389029"
+RPM_NAME = "cross-hppa-gcc13-icecream-backend-13.2.1+git7683-2.1.aarch64.rpm"
+RPM_HASH = "75778b4f68b8d7297f38959d3aaf1af4bc0fe1059e42d0331ce6cdf654f10345116af15a385d4b72b50413c25e7e2864f1438b909c13eb955d7c85f17a7d1ef1"
 
 RPROVIDES:${PN} += "cross-hppa-gcc13-icecream-backend"
 

@@ -5,10 +5,10 @@ kernel-default is rebuilt in OBS. \
 There is no reason to install this package."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.11"
+PV = "6.4.12"
 
-RPM_NAME = "cpupower-rebuild-6.4.11-4.22.aarch64.rpm"
-RPM_HASH = "40d0e2f1f2b53c61e4a1d78d4876c54e2310aa3dcb11d5781a69902e50d1b4dc488a780c4d58c5a72c22327ff31343e572eae535184f403688dc9a24bc81be7c"
+RPM_NAME = "cpupower-rebuild-6.4.12-4.23.aarch64.rpm"
+RPM_HASH = "87353ee91d4e931b763ffb2806b0f678d82534e1d3293b67044b8dcfeb9e2c9dfa4cd1e15a2a6cba8c4609a1b21e3a64f1c26f60181ca93f355d70a51b04b8c2"
 
 RPROVIDES:${PN} += "cpupower-rebuild"
 

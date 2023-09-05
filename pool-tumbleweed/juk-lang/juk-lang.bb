@@ -2,10 +2,10 @@ SUMMARY = "Translations for package juk"
 DESCRIPTION = "Provides translations for the 'juk' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "juk-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "459259370657c37c24c13aa180c4605d26389add192f85d6c316ea255e7354b412ba4117e7fe6c565cae61b5c2deee2c7ba8642bc3d966c97be7747b3aa2cd77"
+RPM_NAME = "juk-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "e7bcbca7f48db4dd766ce5f4d36d65cabcbc99c925869bdb98e2d28691e867e201020f9b05efa46c941f1625b2c27d354c60652e9173fc5e31763e8e8b0514d2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "juk-lang \

@@ -2,10 +2,10 @@ SUMMARY = "Ukrainian localization files for LibreOffice"
 DESCRIPTION = "Provides Ukrainian translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.0.3"
+PV = "7.6.1.1"
 
-RPM_NAME = "libreoffice-l10n-uk-7.6.0.3-1.1.noarch.rpm"
-RPM_HASH = "3d1ed5503c2e65ad38b5951ee0abaecbce77fa9e18fd3007748f1f1ac5f873ddc3129fe533fe83eafa0d3d8e565928a3d948b7a2bbde3fa155dcb5f28f961d12"
+RPM_NAME = "libreoffice-l10n-uk-7.6.1.1-1.1.noarch.rpm"
+RPM_HASH = "7442eb5dc8d5b38c53ba54463af84e5293f2d44134d88e5182f7b4f86c94d57991132272eb911f32ee0c56df0707746f49dcf36830ca4403e7483efea45955ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-uk \

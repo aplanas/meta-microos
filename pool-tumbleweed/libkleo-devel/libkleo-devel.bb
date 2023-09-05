@@ -2,10 +2,10 @@ SUMMARY = "Development package for libkleo"
 DESCRIPTION = "The development package for the libkleo libraries."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libkleo-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "acd4476c91d68433f16e96756e33bf32928048ff9429b7953deea00e656bd01bfc25dc820f76231e59d4a956c86d9abdb02b9ab7d8c441847ae9ce6eec95dff5"
+RPM_NAME = "libkleo-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "8d05b117859b532e07a128730953c21e155942e55201c1432acb69ff350b6d4562a253f84701973085374ee23697bda230c22ad7a627e50ee76cd546b0f21d81"
 
 RPROVIDES:${PN} += "cmake-KF5Libkleo \
 cmake-KPim5Libkleo \

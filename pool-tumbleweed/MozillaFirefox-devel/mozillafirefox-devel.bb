@@ -2,10 +2,10 @@ SUMMARY = "Devel package for Firefox"
 DESCRIPTION = "Development files for Firefox to make packaging of addons easier."
 LICENSE = "MPL-2.0"
 
-PV = "116.0.3"
+PV = "117.0"
 
-RPM_NAME = "MozillaFirefox-devel-116.0.3-1.1.noarch.rpm"
-RPM_HASH = "1b841cb3fc7ae325cb46493dabc5af8080172b3eea3473955cac374de946b2a1ce9edbfa90d94b2f6d5c3808b3a4474bbb0d0e29c016413580e446b033f19089"
+RPM_NAME = "MozillaFirefox-devel-117.0-1.1.noarch.rpm"
+RPM_HASH = "fcff6716988a8ee7c266559630983caf7c74b28d4138a96a7cf030473ee7afa72be76d0f8393d9122d9d70ddf10bbffc25136bc3c7e3434fb429b90984ba6f04"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "MozillaFirefox-devel \

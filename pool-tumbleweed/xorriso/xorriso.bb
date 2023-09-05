@@ -7,10 +7,10 @@ filesystem objects. \
 Vice versa xorriso is able to restore file objects from ISO 9660 filesystems."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.5.4"
+PV = "1.5.6"
 
-RPM_NAME = "xorriso-1.5.4-1.11.aarch64.rpm"
-RPM_HASH = "9e3a25f7c4e2bd9008073b5e639d64fb43337f9bcd04464b916be8d5f8340e6d511578c20910d6a573257b74458a22234123e66023484522093d15d81528ddcc"
+RPM_NAME = "xorriso-1.5.6-1.1.aarch64.rpm"
+RPM_HASH = "947e5be1ec0028a53bc216f0797a45055ccc3311808099cb4ceeae5fffd83b452cb562b0ebd0e779715fcd5d87838910967a80ffb0aa77227b81f97fd8e75b7a"
 
 RPROVIDES:${PN} += "libburnia-tools \
 libburnia-tools-x11 \

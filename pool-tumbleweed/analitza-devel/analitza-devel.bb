@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for Analitza. The Analitza library lets develop
 add mathematical features to programs."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "analitza-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "f6fe877a9baef88770f6d52e38e7c799ad23c9c5a56dd2cc1de11e67237888811deb87c43b490fcabb5c5786a0dbe42a32ce307536facdfdbc3e2fc7e333f69a"
+RPM_NAME = "analitza-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "65664017758c0fd6eca284b6c391d14fe62100df3ab41b217e7a036751ff95900845e2f5381e6357832824a7733397c8e24e4f426eb1a3e91007712ea925892b"
 
 RPROVIDES:${PN} += "analitza-devel \
 cmake-Analitza5"

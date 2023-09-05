@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.36.1"
 
-RPM_NAME = "busybox-telnet-1.36.1-28.1.noarch.rpm"
-RPM_HASH = "1efa8f6a2f815cd81b0ccebc7a34f8744f197c10aebe1e3ebd649ab4e6298a335b4f98aa46680b8b3ba26c3b1f94b84f471eb4e642e305c6a36ccbb093b21f0f"
+RPM_NAME = "busybox-telnet-1.36.1-29.1.noarch.rpm"
+RPM_HASH = "b62f27a8887cbd4b3b5e5640489f94c1adc606064153280d8ed6a6f9cbc2ebf1addfbfcb20637f915825838d616009ab10b5ce9f7dc2ee9c51ed712545286591"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-telnet"

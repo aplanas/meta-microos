@@ -4,10 +4,10 @@ commonly used for hotel and flight reservations. This package contains the \
 library itself."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKPim5PkPass5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "e0dc3b5e0f48e2f100571bf9e0db5ade899d67558fba8299d3cee42b12876935c030490129398f503205ecd870a5a5a474e84e6ad29c8f0c109689f9d238a899"
+RPM_NAME = "libKPim5PkPass5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "667f42b92dab31d919b3cd7390c921af5390e3c1cb5bb18dd9ac7e8620e74a8db6303cdceaf64dfd97da688cde8b280c20dab2bf86e99c6199b1045f2fcdd152"
 
 RPROVIDES:${PN} += "libKPim5PkPass.so.5 \
 libKPim5PkPass5"

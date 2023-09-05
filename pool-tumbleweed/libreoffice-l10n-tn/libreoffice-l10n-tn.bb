@@ -2,10 +2,10 @@ SUMMARY = "Tswana localization files for LibreOffice"
 DESCRIPTION = "Provides Tswana translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.0.3"
+PV = "7.6.1.1"
 
-RPM_NAME = "libreoffice-l10n-tn-7.6.0.3-1.1.noarch.rpm"
-RPM_HASH = "b9c09f5c444ac3bec1a222add49af8a61bf347dd29b3990469474e691a1d2082e5097d5e7ea37c0fecc99ca4846732820c2775f53afc0b8d9e482fa8ca436eb0"
+RPM_NAME = "libreoffice-l10n-tn-7.6.1.1-1.1.noarch.rpm"
+RPM_HASH = "a8cf4e331143a9385c4e877a352cd408bccfa773658723ef8f6c0db347d7784e198863e5ef1e6246661ae02e285b70aeea1bfe496ef68c4cbc748503983cac05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-tn \

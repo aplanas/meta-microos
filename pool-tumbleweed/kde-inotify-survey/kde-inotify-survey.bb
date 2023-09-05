@@ -3,10 +3,10 @@ DESCRIPTION = "Tooling for monitoring inotify limits and informing the user \
 when they have been or are about to be reached."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kde-inotify-survey-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "a7e57aa3e0b350f9c0e2f1c79d09947a6868392916143969aded5a95621806868b737469826c39102f75b12ea5a94519bc54cf23e8d0868c43097fe0fb4ff48d"
+RPM_NAME = "kde-inotify-survey-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "93d592bb0e670cb8dd3ee3cc339057113cc11f25780bf76d317a6dd2740385dfc6555dc1dc40c70deb955e155b1be0e5e69a916266ea963e5a58328ef91556ee"
 
 RPROVIDES:${PN} += "kde-inotify-survey"
 

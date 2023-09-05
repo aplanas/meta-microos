@@ -13,10 +13,10 @@ and easily into existing styles of testing that you are used to, with absolutely
 familiarity with Haskell or functional programming needed."
 LICENSE = "MPL-2.0"
 
-PV = "6.82.4"
+PV = "6.82.7"
 
-RPM_NAME = "python311-hypothesis-6.82.4-1.1.noarch.rpm"
-RPM_HASH = "850ac5b47986254dc9ef59304940c7d0572a766cbee5eaf4583de24e9846fcbdf22e4be9f319d0086bee861ee43846e5c9ae3d106e381aa7da7d41d5096f0558"
+RPM_NAME = "python311-hypothesis-6.82.7-1.1.noarch.rpm"
+RPM_HASH = "2c5046264f4576233bf24634eb4441ca2a3589b85bd77e96a506caecb4ff66e506f3f3bbef5991f1e335666f30b295725292235e9191de3234ce98b7cf957b48"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-hypothesis \

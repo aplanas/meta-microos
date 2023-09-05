@@ -2,10 +2,10 @@ SUMMARY = "Tools for managing print jobs and printers"
 DESCRIPTION = "kde-print-manager provides tools for managing print jobs and printers."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kde-print-manager-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "1dcc5dfdca7176e247e8544339ef76d919e0ab3c84afbd26ac658d15668f2b94c2ab31972e1ffcd04253a7b860cd11f54a5780182f3c215ecf692962b33ebf1a"
+RPM_NAME = "kde-print-manager-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "3b7586c2defc221ea24a428705f1319e4cb43b3be4036a12f77941690a7b1cb23b74410210c97844b36b9ec724010b9237c2f246c80135e7e866009147b2e520"
 
 RPROVIDES:${PN} += "dbus-com.redhat.NewPrinterNotification \
 kde-print-manager \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "298"
 
-RPM_NAME = "cockpit-selinux-298-1.1.noarch.rpm"
-RPM_HASH = "63b3599500074183ee8359755b05d8a9e742250d625246c5fae4feefb5f20d6c51744c5bad7761c1d1dd5fa39d912ee4894550e2bfc7a142c8e28aa54ca75a22"
+RPM_NAME = "cockpit-selinux-298-2.1.noarch.rpm"
+RPM_HASH = "9bc4694fd68f4bc555f742793cebc05e544ba6b63402a1d4eb81da62180f8414c8a7686debdd0d1e7339d44aee74e8aca15cfe23b45ed26f13758635e8fdf66a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cockpit-selinux"

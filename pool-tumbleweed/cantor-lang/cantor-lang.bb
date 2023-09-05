@@ -2,10 +2,10 @@ SUMMARY = "Translations for package cantor"
 DESCRIPTION = "Provides translations for the 'cantor' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "cantor-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "f786897b542dd8291e3b623f7016512b6d116781cbeb438a890d6e59900fa7338ba6f6d0c50eb4d69431a2d8644a640a7ee033f591e641fb979deec7eab074b5"
+RPM_NAME = "cantor-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "7724c098df8527303c6d00dd73715c15ddab80e237d6e56dad16bbe1ebd9173993b289d3b5a7eb4b6b18988054e45be2be399289dcd731e87b66ff45c37fb8b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cantor-lang \

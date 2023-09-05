@@ -7,10 +7,10 @@ those levels, offering a blend of the advantages (and disadvantages) \
 of both."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "2023.2"
+PV = "2023.6"
 
-RPM_NAME = "typelib-1_0-OSTree-1_0-2023.2-2.2.aarch64.rpm"
-RPM_HASH = "bd12cba5382cb0820ddd6a904aeeca5b59f0f355d5305f3fac6b9e76b2ed89db9dba127b952274a9b73fae5e6b04f2b8690773fcd6e0a85973835bd70204858e"
+RPM_NAME = "typelib-1_0-OSTree-1_0-2023.6-1.1.aarch64.rpm"
+RPM_HASH = "47f203c90f40ebae3fff2bbd93abaaa521514055787880bdb47f226b8ba7f47b2dd60b659847e72d09eb7420ec997bd50053c510793017e23650ed00df300e1a"
 
 RPROVIDES:${PN} += "typelib-1-0-OSTree-1-0 \
 typelib-OSTree"

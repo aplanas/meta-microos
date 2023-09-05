@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kblackbox"
 DESCRIPTION = "Provides translations for the 'kblackbox' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kblackbox-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "12a6f243f17f91c55a13753cf03f10b25d9dfe812c276497364f5e2f196caae7d6cdb77f3aa9dbaa593843f701a2e41d5fecd6ab986b391ae9182405f4ddf4b8"
+RPM_NAME = "kblackbox-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "7d285f716bb74756616f00994c40ffdad8b336de764a392e56581b622a157e25da97d5ce77b3edb45cbb29fbecfaf06e84add6041047073596d18af5f626a746"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kblackbox-lang \

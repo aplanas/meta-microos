@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.2.1"
 
-RPM_NAME = "calligra-extras-dolphin-3.2.1-7.21.aarch64.rpm"
-RPM_HASH = "420c694661f88b1cbc5175f1c7ee9576e7f5fade501492a7078e9954cc1e8e315e083f9cb9846aac71f5fff26568ec8f54a03a591138e497ed1e608b86a70b67"
+RPM_NAME = "calligra-extras-dolphin-3.2.1-7.22.aarch64.rpm"
+RPM_HASH = "09ea9f040e2dcd4b74295959ba3b6c25dadbfee05fe927bd86d588782506f2a37b144be9748e40052642c09722395239ecb492b7aff5bd9a465980b7156c7ba3"
 
 RPROVIDES:${PN} += "calligra-extras-dolphin"
 

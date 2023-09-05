@@ -5,10 +5,10 @@ Gruber’s website at http://www.daringfireball.net. ghostwriter \
 provides a relaxing, distraction-free writing environment."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "ghostwriter-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "969ead132ef34985e8386e53aed698330ffcb6f733ca5407d2a13df1d5824b2f388542749cf15a42e3656adb9e4a0b0e8947d855cae4ce98b7cec13bce626f65"
+RPM_NAME = "ghostwriter-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "978ed13848c3d4e97eab4f3f82e60b832f0b037e6c7bd1e5bfeb86591a7ad090cf1355080d2814cb01e225749e5ffd5abb7bcf19323ffc615f6b15b7ee05e672"
 
 RPROVIDES:${PN} += "ghostwriter"
 

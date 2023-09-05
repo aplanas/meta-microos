@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "6.3"
 
-RPM_NAME = "python-btrfsutil-6.3-2.2.aarch64.rpm"
-RPM_HASH = "53440429d4796295adc0c33c5053103ede78d323510ee6ce218088eff3a129083f6ca46dff82b6d2f68bcc2046b9211fd4bf1c7c554902177eab8872da1b0fb3"
+RPM_NAME = "python-btrfsutil-6.3-3.1.aarch64.rpm"
+RPM_HASH = "5da0230485d7a8a91c513678d54cfad3e63f621cdff2cafe2a63816bfe4585a8fd55484756ec0326b3b30e1baa29bfe4a768ee0d2e381180009e606a9852eff3"
 
 RPROVIDES:${PN} += "python-btrfsutil \
 python3.11dist-btrfsutil \

@@ -2,10 +2,10 @@ SUMMARY = "KDE WebEngine web browser component"
 DESCRIPTION = "This package contains a HTML rendering engine for Konqueror that is based on QtWebEngine."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "webenginepart-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "2cbe6195c02f6501728f03730c9e11c83e4cf91a18dccbf24b48a52dfa5ec0fca583d6d1b569ac89d22611d93c9f34bd8be0201446e3c53d76ac35076710c904"
+RPM_NAME = "webenginepart-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "5ab639c8dec793b9a29e14e21572f94b1ee5c4765e9a7b294c4236c0f74cbf7576158b456e4483e5f780e969e1e67912e57f66e17dfd8959e4a8d507bdc0cb78"
 
 RPROVIDES:${PN} += "libkwebenginepart.so \
 webenginepart"

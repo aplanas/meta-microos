@@ -4,10 +4,10 @@ finding packages, so packages that were made easy_installable should be \
 pip-installable as well."
 LICENSE = "MIT"
 
-PV = "23.1.2"
+PV = "23.2.1"
 
-RPM_NAME = "python310-pip-wheel-23.1.2-2.3.noarch.rpm"
-RPM_HASH = "4c4476a11433367dca91f64ca0f9125a180840e932848073891644fbcec0d71f8c37e69a407cebb13ff88a442ed12f35c10eb7a592f5c06b3389061906253ce9"
+RPM_NAME = "python310-pip-wheel-23.2.1-1.1.noarch.rpm"
+RPM_HASH = "61277053a6dcbdd0abd57f44d05a9ed177e632a989c5662fbe41f4c8235e5f93716b18f3524b70cd47dae1754557fa2ac40a5c6f6d28341c07474197b96af7fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python310-pip-wheel"

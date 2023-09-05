@@ -2,10 +2,10 @@ SUMMARY = "Translations for package picmi"
 DESCRIPTION = "Provides translations for the 'picmi' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "picmi-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "602a60c63a5df57bf77af1aac74e0089bd258c8b05f42a65cca1abd4fa4b27f1f26e5509a6c1703a5780a87eb77ddc8542cdbde1cf2d5146c21cbd00cf604ce2"
+RPM_NAME = "picmi-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "bdb77ea66e543a24dfcc3378db93a79f8af497898acf48d4ae2b2e6b5fa20d0de09cc8711a2277f4c84fcaf24231f26dfa8c8a53171ab2402f15731b2349e2ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-picmi-bs \

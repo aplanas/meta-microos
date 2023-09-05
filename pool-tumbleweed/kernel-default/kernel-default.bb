@@ -2,26 +2,26 @@ SUMMARY = "The Standard Kernel"
 DESCRIPTION = "The standard kernel for both uniprocessor and multiprocessor systems. \
  \
  \
-Source Timestamp: 2023-08-17 04:57:43 +0000 \
-GIT Revision: 2a5b3f66898e9ecfa282f4399923c9546d3bc54d \
+Source Timestamp: 2023-08-25 08:26:31 +0000 \
+GIT Revision: f5aa89b3e95322c79e43c459f5b6862dec51fc5f \
 GIT Branch: stable"
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.11"
+PV = "6.4.12"
 
-RPM_NAME = "kernel-default-6.4.11-1.2.aarch64.rpm"
-RPM_HASH = "e80cb9bf16bac99b04b92acdc8d9b64f196be27dcab7cb808ec9e03fbdfc1c5b137351e71fafdb5e94c7d8414fb57eafe836459757065a4bee8d210b0f37efef"
+RPM_NAME = "kernel-default-6.4.12-1.1.aarch64.rpm"
+RPM_HASH = "ead6894d5093eee10806c46cf80bccf66e8efc90132431a8e0af59474286d45398c71ecdd6fc89405843c30c32b5b907e799ddf661a8d8440a67baeeb4dfe9e4"
 
 RPROVIDES:${PN} += "kernel \
 kernel-base \
 kernel-default \
-kernel-default-6.4.11-1 \
+kernel-default-6.4.12-1 \
 kernel-default-aarch64 \
-kernel-default-base-srchash-2a5b3f66898e9ecfa282f4399923c9546d3bc54d \
-kernel-default-srchash-2a5b3f66898e9ecfa282f4399923c9546d3bc54d \
+kernel-default-base-srchash-f5aa89b3e95322c79e43c459f5b6862dec51fc5f \
+kernel-default-srchash-f5aa89b3e95322c79e43c459f5b6862dec51fc5f \
 kernel-preempt \
 kernel-preempt-aarch64 \
-kernel-srchash-2a5b3f66898e9ecfa282f4399923c9546d3bc54d \
+kernel-srchash-f5aa89b3e95322c79e43c459f5b6862dec51fc5f \
 kernel-uname-r \
 kmod-3c59x.ko \
 kmod-3w-9xxx.ko \

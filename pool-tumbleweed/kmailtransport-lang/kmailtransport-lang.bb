@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kmailtransport"
 DESCRIPTION = "Provides translations for the 'kmailtransport' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kmailtransport-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "1f438b13864bf338212696fca4544da93131142f62d294de89a3c2fe1fc29b7eaec70d55e626ee2185ed599e100d09fea4520929690e359e764edbb7beb77f57"
+RPM_NAME = "kmailtransport-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "724f18eb858245d93af8d3dd0a0c220fd458d0dc9bba789f7f9f9c4a0158293e24b54e13804dc6f8fa27cffd050749000736028a641344a1162d7502143b996b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kmailtransport-lang \

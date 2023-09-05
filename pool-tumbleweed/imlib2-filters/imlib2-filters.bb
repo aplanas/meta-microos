@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.12.0"
 
-RPM_NAME = "imlib2-filters-1.12.0-1.1.aarch64.rpm"
-RPM_HASH = "1511be3aef794b2019674c494b2a3e5fe92b21e3aefff69d6194c2bd16e3d2e4102faa8ffe569b5010ef17cc990150c03ae683ccb7f7a3c6a863709fb0b80f07"
+RPM_NAME = "imlib2-filters-1.12.0-2.1.aarch64.rpm"
+RPM_HASH = "134a404e8369685de2de7d0d3939d59ae38d8aa1ed46c3a572bcfbe6d819c9c3fc5770e68fbc765173764ff04cdce9980ff1b0675a796408206347dcd7c882b8"
 
 RPROVIDES:${PN} += "imlib2-filters"
 

@@ -6,8 +6,8 @@ LICENSE = "IPL-1.0 | EPL-2.0"
 
 PV = "3.8.1"
 
-RPM_NAME = "postfix-bdb-lmdb-3.8.1-1.1.aarch64.rpm"
-RPM_HASH = "fa499fc27b5e9a1e9053ab1f6125483834dcd002885317ecb2151ef49435eea1a98e650d1fc3a1d4c38bc91e4e82839c78d15622c3cd4ea684f75f60206d81e4"
+RPM_NAME = "postfix-bdb-lmdb-3.8.1-2.1.aarch64.rpm"
+RPM_HASH = "0f8c022947df2dc61bfa85c2bbfa195409d2295c505717cb41ff57850ca1346437bdb9c61bfa385a2c4738ca32b98ab16ec2205224b4a0dc34527bb2fa0aaa6a"
 
 RPROVIDES:${PN} += "postfix-bdb-lmdb \
 postfix-lmdb"

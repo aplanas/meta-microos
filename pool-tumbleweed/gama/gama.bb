@@ -14,10 +14,10 @@ global coordinate systems is supported only partly as a gama-g3 \
 program."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.24"
+PV = "2.25"
 
-RPM_NAME = "gama-2.24-1.4.aarch64.rpm"
-RPM_HASH = "b3e07375836c8581abd25fd099b0e30f7ffe1dac6228831881aa943bb2754fcb77debb5bd2ff768a0fb306312879590c35d43aa47066f59f4a827e369965c689"
+RPM_NAME = "gama-2.25-1.1.aarch64.rpm"
+RPM_HASH = "3fa491433f314cae1f826255ffae2c419c602331e42dd38e9c210be6353cf21c04abb19014571855ff25fdc78a0633f349d3dbe5354cd8c37d8963b344decab1"
 
 RPROVIDES:${PN} += "gama"
 

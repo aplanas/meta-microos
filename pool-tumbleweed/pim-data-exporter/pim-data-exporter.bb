@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains utlities needed by KDE PIM applications to 
 for backup and archival."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "pim-data-exporter-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "846ebbda3e5d4c8ea0111c26e67ed6b19428f9b8881f9f9c7175ceb1e0365380ed6cbea1ee92c6adc7c593789fe93cf5f0e99119ac273454198ba8e813d3c2bb"
+RPM_NAME = "pim-data-exporter-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "2e4b6f52edcca7a5e1ba8c383f596b02047cb875b1cab6fa14b0c16d8984fb9d157ea5b0181a18173dc73f0e3e5f83dfcd422c931e9505fac5fa2ea9fe14acfc"
 
 RPROVIDES:${PN} += "libpimdataexporterprivate.so.5 \
 pim-data-exporter"
@@ -29,8 +29,6 @@ libKF5KIOCore.so.5 \
 libKF5KIOFileWidgets.so.5 \
 libKF5KIOGui.so.5 \
 libKF5Notifications.so.5 \
-libKF5PimCommon.so.5 \
-libKF5PimCommonAkonadi.so.5 \
 libKF5WidgetsAddons.so.5 \
 libKF5XmlGui.so.5 \
 libKPim5AkonadiCore.so.5 \
@@ -41,6 +39,8 @@ libKPim5IdentityManagement.so.5 \
 libKPim5MailCommon.so.5 \
 libKPim5MailTransport.so.5 \
 libKPim5Mime.so.5 \
+libKPim5PimCommon.so.5 \
+libKPim5PimCommonAkonadi.so.5 \
 libKPim5TextEdit.so.5 \
 libKUserFeedbackCore.so.1 \
 libKUserFeedbackWidgets.so.1 \

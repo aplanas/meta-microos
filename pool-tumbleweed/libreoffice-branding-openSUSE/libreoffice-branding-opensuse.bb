@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "84.87.20230227"
 
-RPM_NAME = "libreoffice-branding-openSUSE-84.87.20230227-1.1.noarch.rpm"
-RPM_HASH = "0965fad2f8024f7f7e74b987a5ccc1143d3377454c9186affbd9dbba90518f17be159dc22222126c75f94477dc6427502da8b7459eb2387d3c7cb8850990b1c8"
+RPM_NAME = "libreoffice-branding-openSUSE-84.87.20230227-2.1.noarch.rpm"
+RPM_HASH = "f11ddc75866dbbb5f0b89e2b7b190459b1ea7e69d2dec23b385cd70577163c6baf0414f517904b6fdc3e693bfba652d3ca6523e1160e287169569e07979f58ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-branding \

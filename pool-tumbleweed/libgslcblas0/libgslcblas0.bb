@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.7.1"
 
-RPM_NAME = "libgslcblas0-2.7.1-1.4.aarch64.rpm"
-RPM_HASH = "5a5483c546c51a19cf30021795f29805c4caac23eac831eb0922daa89c7ba39af71211a258b067a0a9aa3c87f4b957b49ae1b7f4631c3adf811f443570f433aa"
+RPM_NAME = "libgslcblas0-2.7.1-2.1.aarch64.rpm"
+RPM_HASH = "468ffeb753be8a5fd5f9b9c152223c39b83a98a32a8d2ef2161c46ebe2a6c4331ba5ca753417198fc7ee363caf90134ece996f17790c55683bff90e1f165a6d7"
 
 RPROVIDES:${PN} += "libgslcblas.so.0 \
 libgslcblas0"

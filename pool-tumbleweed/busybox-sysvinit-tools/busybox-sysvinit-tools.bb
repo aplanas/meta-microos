@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.36.1"
 
-RPM_NAME = "busybox-sysvinit-tools-1.36.1-28.1.noarch.rpm"
-RPM_HASH = "ee6776e618b590376f0dd606e468bd4aeaf38abfed3d75f55fe38e5638d1518c1c30d14203db66c6922efe19320757444df839e1d85f64b4479aad120ea1fbf1"
+RPM_NAME = "busybox-sysvinit-tools-1.36.1-29.1.noarch.rpm"
+RPM_HASH = "1bf9e59b6d4ba3c0bb2c85133c3a3e22f60ea53b77764284e8210297cd6e47f82c195cdf595616429d7ca37695e550edaa726980e98cc74a43036252149872ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-sysvinit-tools"

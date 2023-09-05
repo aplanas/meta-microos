@@ -2,10 +2,10 @@ SUMMARY = "Generic map viewer"
 DESCRIPTION = "Marble is a viewer of map data."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "marble-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "c224611d26a884b02c958fd3eeef9a43f2bc8f37d8df60be3c176dc5fef4cf32a353b4c8db90e0a01f16fc4866e585500d0cc21df4c6b36be82f73db94f25bfa"
+RPM_NAME = "marble-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "b08da383486a8469e747e43f5fd347238a8af6615765a74b8eef2d77fd886c06360c54edb3a97613a45633e56d1d1526143514e73a57f0a62809474b28879ce8"
 
 RPROVIDES:${PN} += "libmarble-part.so \
 libmarbledeclarative.so \
@@ -49,7 +49,7 @@ libm.so.6 \
 libmarblewidget-qt5-28 \
 libmarblewidget-qt5.so.28 \
 libphonon4qt5.so.4 \
-libprotobuf-3.21.12.so \
+libprotobuf.so.23.4.0 \
 libshp.so.2 \
 libstdc++.so.6 \
 libz.so.1 \

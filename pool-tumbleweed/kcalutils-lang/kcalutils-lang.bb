@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kcalutils"
 DESCRIPTION = "Provides translations for the 'kcalutils' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kcalutils-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "b5f68e1aaa73610fdf484b5037b76034d1823d963903d2f7feb61db62121c8c7055b8520f74584087040470492a6b61358576d557376ce07eb6329c3d868ace8"
+RPM_NAME = "kcalutils-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "b1d4297ebb13faf3bb4453d5fde322cc90ad2ecd8b11a08869b897c76f91adbadda9cb0d36c64df3070ec03f83404533b3a5ef0dc7fbde04a4da65431357a32a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kcalutils-lang \

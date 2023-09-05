@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kaccounts-integration"
 DESCRIPTION = "Provides translations for the 'kaccounts-integration' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kaccounts-integration-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "08df8c5fe93bd79dbe1827585d889e4e306e34a6834ea3821a4a848ee15b687ca0cff1a4641fc026030b84306afcc5c916c157ef265ea3f013295ea45be51449"
+RPM_NAME = "kaccounts-integration-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "e15953bda636e7acbed23a209b1c3abce4f5e7f53e579f50272f0fc533e6ab1550a80c8d7c7c19df0aa7a619810487e89fc3d948afb478e5d7c605ced04e2f6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kaccounts-integration-lang \

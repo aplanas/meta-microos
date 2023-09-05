@@ -3,10 +3,10 @@ DESCRIPTION = "Tools for importing GNU Arch repositories to the GIT version cont
 system."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.41.0"
+PV = "2.42.0"
 
-RPM_NAME = "git-arch-2.41.0-1.3.aarch64.rpm"
-RPM_HASH = "2d76c3d7973cc44b61eac4620b492a9db105f12254941978ab945aa6fac46e34113d585cf3d21b1d1be90dbf978672f7280c0b269430a58ca79cb05c97d2bed6"
+RPM_NAME = "git-arch-2.42.0-1.1.aarch64.rpm"
+RPM_HASH = "bece0c0a33c088f71bbfecb726cee413dc0826448851577bdaa8e91df89f02e52e12f54d13b0bfbba522609db9c99ebebe39d8c763dfaa6806c5866c710a5444"
 
 RPROVIDES:${PN} += "git-arch"
 

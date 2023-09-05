@@ -5,10 +5,10 @@ through its public API. Changes made through the API are written back \
 to the initially read files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.13.0"
+PV = "1.14.1"
 
-RPM_NAME = "augeas-devel-1.13.0-2.2.aarch64.rpm"
-RPM_HASH = "6c25a9cb79fedf95f41cbd8b584b9cc58c13cc7d8708b5ce4d5a8910057127adb205925a26923e77f437496cdb5ff45434b38a64e73cf922999a9257f6019962"
+RPM_NAME = "augeas-devel-1.14.1-1.1.aarch64.rpm"
+RPM_HASH = "fb6f3f322af5b4bdd42d5cbdde4f3965caff6a8d7710b099a4d5fb40c24bd8cfe7528b220ee2c497504d48028969c321e485b5751c176b657fa8645f95301028"
 
 RPROVIDES:${PN} += "augeas-devel \
 pkgconfig-augeas"

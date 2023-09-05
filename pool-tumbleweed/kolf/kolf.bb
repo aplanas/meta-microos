@@ -2,10 +2,10 @@ SUMMARY = "Miniature golf game"
 DESCRIPTION = "Kolf is a miniature golf game by KDE."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kolf-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "2ac1825f829f40fc14bf3e23f6e187e6f4bdec6952a7f3bef9c78c6688ea027a4bdf9cdc0406fea8aa2219c7c22280a9794f8b15a3a22a06d80d212cc911d6d9"
+RPM_NAME = "kolf-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "f9c96b5fa2d858c42054567d61352c4c2bed88d1b68fa82e2067feb16286f61f0a168b9ced7a597abd54ba2f6e0d0179898a3e7e5dc95c5a36aa3a401d39c3fc"
 
 RPROVIDES:${PN} += "kolf"
 

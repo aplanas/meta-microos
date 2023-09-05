@@ -6,10 +6,10 @@ This package provides userspace interface to kernel DRM services \
 for Qualcomm Adreno chips."
 LICENSE = "MIT"
 
-PV = "2.4.115"
+PV = "2.4.116"
 
-RPM_NAME = "libdrm_freedreno1-2.4.115-2.4.aarch64.rpm"
-RPM_HASH = "62ce46285d0d470481de48564ed681b9c3a762733018ff16c2c7c07aa5ebb75d1285acfe382d1b0e3d09d4041708f7b2b566d2a22b61984315da2c6c15253173"
+RPM_NAME = "libdrm_freedreno1-2.4.116-1.1.aarch64.rpm"
+RPM_HASH = "16b0ffb4d0ca8d2a123dfe9e99d545d3ab050e65b10a949f44a88096ad05f7687fa65ed7c6733721ab2cb873c829b8497aae19b11bf246f712419f56ed1ba435"
 
 RPROVIDES:${PN} += "libdrm-freedreno.so.1 \
 libdrm-freedreno1"

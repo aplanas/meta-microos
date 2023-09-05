@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kfourinline"
 DESCRIPTION = "Provides translations for the 'kfourinline' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kfourinline-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "f05c4a92cbe24db81d529c14c785f5b8bc604740c113bca130758445f4c52a75a75814f9cec613795da1ca4354f426333c9d31c5f09e0214f53a138af7b6a3d6"
+RPM_NAME = "kfourinline-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "1d6370e628b1b0ae976ceda65caae740ddbdc06f3195e8be6edf2d66876e9243b2105ce90cb3ca1bcb36a0b6122e21a8456d4811709d4cf7e4bf4daf0a75fd5c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kfourinline-lang \

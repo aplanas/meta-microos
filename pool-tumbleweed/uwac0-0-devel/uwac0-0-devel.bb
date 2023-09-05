@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains header files for developing applications th
 use the uwac library."
 LICENSE = "Apache-2.0"
 
-PV = "2.10.0"
+PV = "2.11.0"
 
-RPM_NAME = "uwac0-0-devel-2.10.0-3.2.aarch64.rpm"
-RPM_HASH = "6f47c76fb480155e2711d6b4994c1de5156c5f3f1a619ad28f84f520cbb39c6730ec1b50c0e24baee6c6f20e13604cc27a3e288d61d6b30120449f95d67aa197"
+RPM_NAME = "uwac0-0-devel-2.11.0-1.1.aarch64.rpm"
+RPM_HASH = "d8ca1e2fe745f4bc0523f4874727a237ea21bf895fd55fa43c03050928f5c210a92aa74b64cbe3b6e0894ab17655bccf1d9eb20e00835c2ddb3a3c8ee5b1c4c9"
 
 RPROVIDES:${PN} += "cmake-uwac \
 libuwac0-devel \

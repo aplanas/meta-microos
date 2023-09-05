@@ -2,10 +2,10 @@ SUMMARY = "KDE I/O Slave for Audio CDs"
 DESCRIPTION = "This package contains an KIO slave to access audio CDs."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kio_audiocd-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "965ccad9052ff08a9a56bf8fbf8713cf51a021d8022ce770241f9ce667803a1a118fb735ead7e97179760f7466046bbfb9bbc6dffc466e37d4291ab6f30c1c65"
+RPM_NAME = "kio_audiocd-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "a67c3ee4746f2179d607c056ff00040d0da4690feb4ab08086a6e3770d5a091712df5522aeda5bee22bd87fd5bf06b2464d175963a06a4b880cd1af973c65e93"
 
 RPROVIDES:${PN} += "kio-audiocd \
 libaudiocd-encoder-flac.so \

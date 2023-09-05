@@ -2,10 +2,10 @@ SUMMARY = "SysV Semaphore support for PHP"
 DESCRIPTION = "PHP interface for System V semaphores."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.9"
+PV = "8.2.10"
 
-RPM_NAME = "php8-sysvsem-8.2.9-1.1.aarch64.rpm"
-RPM_HASH = "0f16b648f32fc3545d8166c0f7d0302047e1a75c7ddb778c85f85bad4c5201f1ab652fd097f110b65baeb04c147c8725574933a7d3fe3502096dfe165b03f30f"
+RPM_NAME = "php8-sysvsem-8.2.10-1.1.aarch64.rpm"
+RPM_HASH = "cacb66710feb16ceefd6f1d8aad211f4bfed4ade89c39be8cb9edbd87846d734e105509b47cf7c07fdb3e6431f4d1b389cdb923c35f493bf08a7765ca1cc4f73"
 
 RPROVIDES:${PN} += "config-php8-sysvsem \
 php-sysvsem \

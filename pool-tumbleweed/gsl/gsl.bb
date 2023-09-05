@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.7.1"
 
-RPM_NAME = "gsl-2.7.1-1.4.aarch64.rpm"
-RPM_HASH = "817fa172311f5a9d2816235fe254a558261db6228b5ca2bf69b0db621d8d6f9ab6993a4bcbf8dd37c101af0dd75e3edf7b85826e500a7bce1cf8897cf4a4f1e4"
+RPM_NAME = "gsl-2.7.1-2.1.aarch64.rpm"
+RPM_HASH = "1c0cd3081d8e8f51ea001cacff050261a2ef0c7ce31269cee90d40776dd6b9a6fba60af150a061755d69dbd4d28d724e2c1231e6bada42bfa08778fc110354bf"
 
 RPROVIDES:${PN} += "gsl"
 

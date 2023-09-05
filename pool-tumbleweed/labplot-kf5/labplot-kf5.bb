@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.10.1"
 
-RPM_NAME = "labplot-kf5-2.10.1-1.1.aarch64.rpm"
-RPM_HASH = "7f36c2bd5fc0024abc2a697b2ef138945509dcdeef365724b1fbfeca1be4113a36ac0a32f2f6d8e05b9f66d12629e1dcd662edb33df1a510727938bdf845d10a"
+RPM_NAME = "labplot-kf5-2.10.1-2.1.aarch64.rpm"
+RPM_HASH = "34e99bf2c5ebdd6032fe416fe7b5635f239d83321a063b5ce064ca92c92271ee1c18070511124a198259676fc821d4c3ae2e187de06eca65f045dd5d4dc12dc8"
 
 RPROVIDES:${PN} += "labplot \
 labplot-kf5"
@@ -54,6 +54,7 @@ liblz4.so.1 \
 libm.so.6 \
 libmatio.so.11 \
 libnetcdf.so.19 \
+liborigin.so.3 \
 libpoppler-qt5.so.1 \
 libstdc++.so.6 \
 libz.so.1"

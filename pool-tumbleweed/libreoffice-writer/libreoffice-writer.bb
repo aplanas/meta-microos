@@ -3,10 +3,10 @@ DESCRIPTION = "This module allows you to create and edit text and graphics in le
 reports, documents and Web pages by using LibreOffice office suite."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.0.3"
+PV = "7.6.1.1"
 
-RPM_NAME = "libreoffice-writer-7.6.0.3-1.1.aarch64.rpm"
-RPM_HASH = "549d1eff3fc8bf74092d165fbb46aedca52188772e52f7f1c6872357775abdfa14378c7795997458ee2eaaada1a860218754768d2a7657661b9c44b6d96f207e"
+RPM_NAME = "libreoffice-writer-7.6.1.1-1.1.aarch64.rpm"
+RPM_HASH = "7656e776b5bd153e8888339e8c63711ceac14b3151d5070a8b9284c01c0364b21fbe6ab90dd22fd5cb973fce2de5a4ee2e438916b0a23e6c6e49466f30b63b11"
 
 RPROVIDES:${PN} += "libhwplo.so \
 liblwpftlo.so \

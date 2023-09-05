@@ -3,10 +3,10 @@ DESCRIPTION = "The samba-gpupdate package provides the samba-gpupdate tool for a
 Group Policies on a Samba client."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.5+git.313.c8e274c7852"
+PV = "4.18.6+git.320.cfda27bacb"
 
-RPM_NAME = "samba-gpupdate-4.18.5+git.313.c8e274c7852-1.1.aarch64.rpm"
-RPM_HASH = "f53bf9f2febcf0b1ba283497ceb7bab8727ff1e2a446e5b92429c92dbf237ce727718f5a42a791755280d7e82c268a776ca869c4d475a277e7360f0ad0531652"
+RPM_NAME = "samba-gpupdate-4.18.6+git.320.cfda27bacb-1.1.aarch64.rpm"
+RPM_HASH = "32163f6736ce6da495857d7aefba0bd66dd0149fdd19d9060e3c0344f988e7d5e64fb2d0fd2043a65cbb7f55df4db927e3656805cf3ae2449aa69ce641537845"
 
 RPROVIDES:${PN} += "samba-gpupdate"
 

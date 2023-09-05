@@ -2,10 +2,10 @@ SUMMARY = "Translations for package killbots"
 DESCRIPTION = "Provides translations for the 'killbots' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "killbots-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "0fc23dc2bc965da1666e87e4f8d7f48b06aae253ec1b5dbbf978296202277a032bae249d43a1db1f88c0f2ae8243f90a3a852919778002d6f8aa475d7d9d6a08"
+RPM_NAME = "killbots-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "de13d0e82d9b964fc2300429b8c503ca88929dc737de3da1896802a61a2ddcc61a3d921b386c3f6f27e360feccd23de24e68c4f8331cedd411687e1e6aa491cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "killbots-lang \

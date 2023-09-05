@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kmail-account-wizard"
 DESCRIPTION = "Provides translations for the 'kmail-account-wizard' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kmail-account-wizard-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "b62033a3b43889c529eb49fd3ae84e641faeac52a783308d61f205145c1c1286b4c6ad94e29d562c5f715875f8d344c3fe8e1b7f6d0adeb8f642eff84afc7fc4"
+RPM_NAME = "kmail-account-wizard-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "98f3c254c2f020cf7bdfd65508c2822fe06043766177b53b4c6206cb12b56d0f1aeb7d9530544224419bfef9a515837d45b176e9929bc55419daec78cc431528"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kmail-account-wizard-lang \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libkleo"
 DESCRIPTION = "Provides translations for the 'libkleo' package."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libkleo-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "ab1aa498e7485bfbe422673a9e50897f768b9ae244560037bfff86422c555694269a3eac1d17a248cbba87e19986027ffc22e3d03be62f53db7c0ebcab2be3f0"
+RPM_NAME = "libkleo-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "e3d7e5e0f76c2e805cb537ab825808c00a3431100659de21d14234a71870dcd791712849c1e6d5491d9e9acd0df91fb8a45c7c7b8f607d3af3680984439980a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libkleo-lang \

@@ -4,10 +4,10 @@ It helps you organize and reduce the cognitive pressure of what one has to do in
 job and personal life. You will never forget anything anymore."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "zanshin-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "c4df4b3d5301173bfd3e9932cd713f513568494d67936d5f2ec83d1a19ed0d9d910882a0222efe30b494c8bd13e3516c7e4458e43199f36e52f3e5b9f46f6078"
+RPM_NAME = "zanshin-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "7664841ba4a07a1359c8014431f19a09d53020fef22c8519a72abe3b90a9a623208e17b6481e38ee3853063e46ef81aaa4c69d9f1e398fbe632fb312bb47db9e"
 
 RPROVIDES:${PN} += "zanshin"
 

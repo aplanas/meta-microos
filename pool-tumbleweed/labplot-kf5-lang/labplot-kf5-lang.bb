@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.10.1"
 
-RPM_NAME = "labplot-kf5-lang-2.10.1-1.1.noarch.rpm"
-RPM_HASH = "cf4dfd7cdbf77c6bf1615b523fd254a109e9171b9a632d4da1952b4b9eafd19cadf115ce2982861b5177e9ea07c527f50b7a627b0d24f7b7f8206bb7e7af78a2"
+RPM_NAME = "labplot-kf5-lang-2.10.1-2.1.noarch.rpm"
+RPM_HASH = "3615836e299430d6268604ac037c4be4ba03bf0a080d640e56fb10e1455555588716231b8537af5e652889045aca52a905f2ba011c32c30c78c4909c565e4c37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "labplot-kf5-lang \

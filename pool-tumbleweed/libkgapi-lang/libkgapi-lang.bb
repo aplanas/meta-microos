@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libkgapi"
 DESCRIPTION = "Provides translations for the 'libkgapi' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libkgapi-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "43cb7da1a90a5777a930637ae1e5caaaca453e5c734e7a5a150df8c5c2a4fb9e2c2d3e0de571f280a20895dbe85b1ed09f6092dd8ec2967376396f80dda3b492"
+RPM_NAME = "libkgapi-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "9aab3b13a2495b78e41d145b991bbb55baedc98f07252c88d031b0d8a54edb820bc3fa9523ee8c0eccbd8645ee8eb11cf05818da13ab9cf7814ba54dc70fb319"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libkgapi-lang \

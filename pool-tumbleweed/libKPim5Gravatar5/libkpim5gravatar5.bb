@@ -3,10 +3,10 @@ DESCRIPTION = "libgravatar adds support for downloading and displaying gravatars
 applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKPim5Gravatar5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "60e6a6bcebb6e892acb7bff6574d26293b389ff6e9fc7f14de06ed792b42fc6f5131c0b187443dbdfe17cfbf672148ca88b4a572686e31f997d05b3c4cb53007"
+RPM_NAME = "libKPim5Gravatar5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "99c7a09fcd880bde576fcdef6da898d6b848f2cf7764f98398aeb66fcd3e2fa3bbd88a63e29f5a793d434f967f1bed1397c0d045ae27818c06a921a78669f218"
 
 RPROVIDES:${PN} += "libKPim5Gravatar.so.5 \
 libKPim5Gravatar5"
@@ -15,10 +15,11 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libKF5ConfigCore.so.5 \
 libKF5ConfigGui.so.5 \
+libKF5ConfigWidgets.so.5 \
 libKF5I18n.so.5 \
-libKF5PimCommon.so.5 \
 libKF5TextWidgets.so.5 \
 libKF5WidgetsAddons.so.5 \
+libKPim5PimCommon.so.5 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \
 libQt5Network.so.5 \

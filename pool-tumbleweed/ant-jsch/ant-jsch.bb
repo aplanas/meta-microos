@@ -4,10 +4,10 @@ DESCRIPTION = "Apache Ant is a Java-based build tool. \
 This package contains optional jsch tasks for Apache Ant."
 LICENSE = "Apache-2.0"
 
-PV = "1.10.13"
+PV = "1.10.14"
 
-RPM_NAME = "ant-jsch-1.10.13-2.2.noarch.rpm"
-RPM_HASH = "9ed59e667e3bb12d406a0e3015ae4698f1e369e82ca2b902ca764874b7612eec1a0c27a4acf1d2d02842b37ab5d8d8fe937b29887618044a2dab445f63109837"
+RPM_NAME = "ant-jsch-1.10.14-1.1.noarch.rpm"
+RPM_HASH = "2c268aab9f10b3b52ed308178f4e00efcb1e77943c742ddda75f278d3730a6b1393568c9a9d2969314c631f042755561268a3fe45f1baecde9caf48140378588"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-jsch \

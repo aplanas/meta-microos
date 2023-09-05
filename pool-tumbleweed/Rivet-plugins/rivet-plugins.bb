@@ -9,12 +9,12 @@ high-energy collider experiments is preserved for comparison to and \
 development of future theory models. \
  \
 This package provides all the analysis plugins for Rivet."
-LICENSE = "GPL-2.0-only"
+LICENSE = "GPL-2.0-only & Apache-2.0 & MPL-2.0 & LPPL-1.3a & BSL-1.0"
 
 PV = "3.1.8"
 
-RPM_NAME = "Rivet-plugins-3.1.8-1.2.aarch64.rpm"
-RPM_HASH = "253a42468a4729e81617acdc655b1c6de995f0e476c22bc3746155637f7e3d59612aa6caf12496e13ba0bb2f1a087e9611b570a34abea45721323b02ac3a42d3"
+RPM_NAME = "Rivet-plugins-3.1.8-2.1.aarch64.rpm"
+RPM_HASH = "76aef047c65d08c93b96364a1d7bbd5392e64405a2fbd0a1e37a8ad23efb5b1695eb9cce3ad997d246f2819df3c7bc8d103dc4a02dd629d025d887170e091bb0"
 
 RPROVIDES:${PN} += "Rivet-plugins \
 config-Rivet-plugins"

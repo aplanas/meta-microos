@@ -2,13 +2,12 @@ SUMMARY = "WebDriver for Google Chrome/Chromium"
 DESCRIPTION = "WebDriver is an open source tool for automated testing of webapps across many browsers. It provides capabilities for navigating to web pages, user input, JavaScript execution, and more. ChromeDriver is a standalone server which implements WebDriver's wire protocol for Chromium. It is being developed by members of the Chromium and WebDriver teams."
 LICENSE = "BSD-3-Clause"
 
-PV = "116.0.5845.96"
+PV = "116.0.5845.110"
 
-RPM_NAME = "ungoogled-chromium-chromedriver-116.0.5845.96-1.1.aarch64.rpm"
-RPM_HASH = "14da3afbd14a0af99ecd2fea94ffa7b9088cf612dbe19eb661c47cfd3f1b7fee8a048aad52a61d512926c35b4943683413dbe95ab1b664dd7163de09bceec1bb"
+RPM_NAME = "ungoogled-chromium-chromedriver-116.0.5845.110-1.1.aarch64.rpm"
+RPM_HASH = "948e1805810246b1727aba19befeacd84370fb817a1d7dfcaf6a3c9281b06c6f2c449da527f800439439172872240b12e3a3cbd86aa5622c88205fb464d39d8c"
 
-RPROVIDES:${PN} += "chromedriver \
-ungoogled-chromium-chromedriver"
+RPROVIDES:${PN} += "ungoogled-chromium-chromedriver"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libatomic.so.1 \

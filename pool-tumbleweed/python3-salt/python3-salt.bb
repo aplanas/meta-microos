@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3006.0"
 
-RPM_NAME = "python3-salt-3006.0-2.1.aarch64.rpm"
-RPM_HASH = "4a5604668c2017cda65ed46be659a95ff744bdcbdac166d7f190013e961d360cd7bb812d13c30f084316b11c3d285ea24694148faa7e82424a51466eb8cb1f57"
+RPM_NAME = "python3-salt-3006.0-4.1.aarch64.rpm"
+RPM_HASH = "b166aebc6c109d89dfa8c8162ccff76edda23cb00b82e2bee1fc736cb827b30e8b394776deeab615b5273be36f292da09ed2f19a78c13bacc7cad8cfdae6c76b"
 
 RPROVIDES:${PN} += "bundled-python3-tornado \
 python3-salt \

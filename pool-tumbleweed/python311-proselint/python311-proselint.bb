@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.13.0"
 
-RPM_NAME = "python311-proselint-0.13.0-2.6.noarch.rpm"
-RPM_HASH = "193b78e0a230697f4d32302710f922d615bdecab5686db973f80b46351d9840918e22501e15f270e2b1ce6f6f9d0f2e40d60f8b1ac2ea90524b92ba3c7fd4af9"
+RPM_NAME = "python311-proselint-0.13.0-3.1.noarch.rpm"
+RPM_HASH = "b296746db8fbaaa7f6544b0db98846f3b8c2473f0d371d4fe8459d9a0abece20560daec7e9b37f3ce0c124d0d5ccaa10807742f6ef50a65e6c8a8dc696935fec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-proselint \
@@ -23,7 +23,6 @@ RDEPENDS:${PN} += "/usr/bin/python3.11 \
 python-abi \
 python311-click \
 python311-dbm \
-python311-future \
 update-alternatives"
 
 inherit rpm

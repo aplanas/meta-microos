@@ -2,10 +2,10 @@ SUMMARY = "Shared library for Budgie plugins"
 DESCRIPTION = "Shared library for budgie plugins to link against."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "10.7.2+0"
+PV = "10.8+0"
 
-RPM_NAME = "libbudgie-plugin0-10.7.2+0-1.2.aarch64.rpm"
-RPM_HASH = "7a615408cc1c4990f43e222d907fc2d929c52d183845bae4bc58357d8f06a6c94511eca271af17d7d4dbd786d98c8a1103afdf86bfbafd47e083149836ea646b"
+RPM_NAME = "libbudgie-plugin0-10.8+0-1.1.aarch64.rpm"
+RPM_HASH = "f88ed55fefa2f0b83db363e5b41ac8feac5b0c40f31d2f675d4e30d3003b7248b155d9f46d129fcb68beefa0cc24e14f6ca1027f805bb7bc458e658b49b8b05e"
 
 RPROVIDES:${PN} += "libbudgie-plugin.so.0 \
 libbudgie-plugin0"

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.13.8"
 
-RPM_NAME = "icinga2-ido-mysql-2.13.8-1.1.aarch64.rpm"
-RPM_HASH = "447227712a8e25431f799a2ccb7a36a3f374d0cff635a9e403a19768279170a3e9ddf4c8feead5cc57dc882b1a0c59964f1d6fea584720df9fe2d330db09d984"
+RPM_NAME = "icinga2-ido-mysql-2.13.8-2.1.aarch64.rpm"
+RPM_HASH = "43d6099498ff577be1a4609de0419af24f93ccd16325bc4d9f8800cc66b3af8126fde12ccdcd097396d8252e132112f10fcb8f56d68f177de91ffd4247909d5a"
 
 RPROVIDES:${PN} += "config-icinga2-ido-mysql \
 icinga2-ido-mysql \

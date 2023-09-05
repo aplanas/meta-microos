@@ -2,10 +2,10 @@ SUMMARY = "Personal Organizer"
 DESCRIPTION = "KOrganizer is a calendar application by KDE."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "korganizer-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "5ea24e0c031197f555b0bc98659e2247837cef41b6994fd0e3cd36972644fab234afa243c30515c94dcb10c5d36fa685850d15c0f7031fd163c0fa0c1854a78d"
+RPM_NAME = "korganizer-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "024a0cc559dc7a42efaeee725b75f120474c37e563cd897882289ef312150d184c31bf98d81791b2760776c78ec5c2bdc2725f62dca5bd9ed420dca269cbf4eb"
 
 RPROVIDES:${PN} += "korganizer \
 korganizer5 \
@@ -39,20 +39,17 @@ libKF5KIOGui.so.5 \
 libKF5KIOWidgets.so.5 \
 libKF5NewStuffCore.so.5 \
 libKF5NewStuffWidgets.so.5 \
-libKF5Notifications.so.5 \
 libKF5Parts.so.5 \
-libKF5PimCommon.so.5 \
-libKF5PimCommonAkonadi.so.5 \
 libKF5WidgetsAddons.so.5 \
 libKF5WindowSystem.so.5 \
 libKF5XmlGui.so.5 \
 libKPim5AkonadiCalendar.so.5 \
-libKPim5AkonadiContact.so.5 \
 libKPim5AkonadiCore.so.5 \
 libKPim5AkonadiNotes.so.5 \
 libKPim5AkonadiWidgets.so.5 \
 libKPim5CalendarSupport.so.5 \
 libKPim5CalendarUtils.so.5 \
+libKPim5ContactEditor.so.5 \
 libKPim5EventViews.so.5 \
 libKPim5IdentityManagement.so.5 \
 libKPim5IncidenceEditor.so.5 \
@@ -60,6 +57,8 @@ libKPim5KontactInterface.so.5 \
 libKPim5Libkdepim.so.5 \
 libKPim5MailTransport.so.5 \
 libKPim5Mime.so.5 \
+libKPim5PimCommon.so.5 \
+libKPim5PimCommonAkonadi.so.5 \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \
 libQt5Gui.so.5 \

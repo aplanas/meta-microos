@@ -2,10 +2,10 @@ SUMMARY = "Development package for libkomparediff2"
 DESCRIPTION = "Development package for libkomparediff2."
 LICENSE = "(GPL-2.0-or-later & LGPL-2.0-or-later) & BSD-2-Clause"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libkomparediff2-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "31435cff8c8db58731c2dda49264746b2e674974dd1f8ffa6f4fa56d69fb7e19fc0339ab1a73d339c086e035886971b5548df6b1fa9623f9364a3b2b731419b5"
+RPM_NAME = "libkomparediff2-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "85894406c9e6e58e1a5aead419c59c3a13612b864fb8c42998dc112fdd283a76f6691979b1da030c1be82abd1e4184a6592df0e66a381afc2bd5c43477a344ac"
 
 RPROVIDES:${PN} += "cmake-LibKompareDiff2 \
 libkomparediff2-devel \

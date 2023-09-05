@@ -2,10 +2,10 @@ SUMMARY = "Graphical Interface for highlight"
 DESCRIPTION = "This package provides graphical interface for highlight."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.7"
+PV = "4.8"
 
-RPM_NAME = "highlight-gui-4.7-1.1.aarch64.rpm"
-RPM_HASH = "14bf59f04e71b00a1e283cefcff25ddb70fcdc07e3f9a8f4953958242c7960be799617fc59fdb9d0314c8563afe344f1f11d124f24f30cccfc4122d49d38cb12"
+RPM_NAME = "highlight-gui-4.8-1.1.aarch64.rpm"
+RPM_HASH = "1a0cc65b0f0bd156a92b149debb8bc5617e4fddaa8e09cdfda0e215e4e3ba28a4909bdce8380289bbcc720b4740133fc46d388339a59b576e1eeb66fdc14662e"
 
 RPROVIDES:${PN} += "highlight-gui"
 

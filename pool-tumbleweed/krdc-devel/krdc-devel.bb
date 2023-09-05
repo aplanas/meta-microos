@@ -2,10 +2,10 @@ SUMMARY = "Development files for krdc"
 DESCRIPTION = "Development libraries and headers needed to build software using krdc"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "krdc-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "10917021df19b5e9a37fdf7b7aef207b342a3946c8c449f623e1a97c2e2c40f046ae1317bd76242a2d9f47e846f730d3d841ee6f9811c2db7e90504f06661546"
+RPM_NAME = "krdc-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "bb28500059c91ba1dbeb7934c03b25532fe8e7fb64022af3383a3cbf5713474d8755a5299aa8a0d5b06ff8202982cb03af2bf390ed421061aaae46e48ebd95e7"
 
 RPROVIDES:${PN} += "krdc-devel"
 

@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "2.3.3"
 
-RPM_NAME = "gd-2.3.3-3.4.aarch64.rpm"
-RPM_HASH = "9fb2045fc69920d4777c6260c52cf5c8d6af97ad00a8ca32801cacb1e1a72cbca60d6b45cb18924c053b4bce96a30db8afff0c4f9f2484ee31eaa3fb59819c39"
+RPM_NAME = "gd-2.3.3-3.5.aarch64.rpm"
+RPM_HASH = "357f0b7fe6a7bcd019ed300537786fa63caf1288d44aaf7fe1c00f61aa44cfd4dfa116121f7bad722925bdb5fb048c83c737c9936154b72c81039f51d7918cc7"
 
 RPROVIDES:${PN} += "gd \
 gdlib"

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop KDE PIM applications."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libkgapi-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "c2242b681d7d2cbfb8c3f258d973dbbb1ff4ee26f25fc7d37732f34719b554dc9c3a7d166c27988dbc9cb9994fd8ad787ac007630fc1c38e4fb09c58b8d10c31"
+RPM_NAME = "libkgapi-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "9621c20f7c40509d14328528f1e97419ca2ca72dec510cbe1507927ff2b10c952feae8deb97115b7e1efc26b4a47988fd824961448f83e3450c0eb11a6288aa5"
 
 RPROVIDES:${PN} += "cmake-KPim5GAPI \
 cmake-KPimGAPI \

@@ -3,10 +3,10 @@ DESCRIPTION = "Vala is an object-oriented programming language with a self-hosti
 compiler that generates C code and uses the GObject system."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.56.12"
+PV = "0.56.13"
 
-RPM_NAME = "vala-0.56.12-1.1.aarch64.rpm"
-RPM_HASH = "b28104a83d31bab950a714d870a4b4c1f92f7fd957267d3074d5ebd6662699a6d3bbb78236e059831a206625574a271bb73450a92b404a15b6443fdaa66f994b"
+RPM_NAME = "vala-0.56.13-1.1.aarch64.rpm"
+RPM_HASH = "a7db25113536312a6522fe2202156e33a58a7dbd56f5054b94434dfb617a9230258674a057a66431d801e833fe3a2960fdf52a008f9013fbc16d385584c6960e"
 
 RPROVIDES:${PN} += "libvalaccodegen.so \
 pkgconfig-vapigen \

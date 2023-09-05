@@ -2,10 +2,10 @@ SUMMARY = "Akonadi Private Server library"
 DESCRIPTION = "This package includes the Private Akonadi library for Akonadi, the KDE PIM storage service."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKPim5AkonadiPrivate5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "f75679842548024c6ea69672b77b56c3cbe8bc929d2f6499f5b5028283846b7aba1cf0d2a4d885c5588c39700013d6a727a8d22fd7d08fa2e2c8c8457d5338c7"
+RPM_NAME = "libKPim5AkonadiPrivate5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "53936bf2b72ffb3d4b07755a882fc116c9e2be29c40c5a4fd66c37e1f1a9e6042b082f29eee2fd6b90ac3b37ab1f2f88cddaa361b6a63623fbeeefefa1db9366"
 
 RPROVIDES:${PN} += "libKPim5AkonadiPrivate.so.5 \
 libKPim5AkonadiPrivate5"

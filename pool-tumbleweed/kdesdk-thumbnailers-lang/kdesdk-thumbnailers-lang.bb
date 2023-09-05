@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kdesdk-thumbnailers"
 DESCRIPTION = "Provides translations for the 'kdesdk-thumbnailers' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kdesdk-thumbnailers-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "cadb3bf835e335698df0897cd0609e50cf78e8bb827c7d50c6c8bbd81c30121dff53a5f31eb6fda8687a61e815807957b7a06f6455acfd47b4fd8ed528d7e845"
+RPM_NAME = "kdesdk-thumbnailers-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "9fdfc3cafa10ddbea07f95565ab14c46085ea3e3b7cba0828da6d8ca81dca3c179434c03d41aacaa315ac07b7df75bbc819698f2767a191af04afbbca96a83fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdesdk-thumbnailers-lang \
@@ -20,6 +20,7 @@ locale-kdesdk-thumbnailers-da \
 locale-kdesdk-thumbnailers-de \
 locale-kdesdk-thumbnailers-el \
 locale-kdesdk-thumbnailers-en-GB \
+locale-kdesdk-thumbnailers-eo \
 locale-kdesdk-thumbnailers-es \
 locale-kdesdk-thumbnailers-et \
 locale-kdesdk-thumbnailers-eu \

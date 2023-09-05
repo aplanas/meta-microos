@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2"
 
-RPM_NAME = "geronimo-servlet-2_4-api-1.2-36.12.noarch.rpm"
-RPM_HASH = "e20fec7ad062a7cd942bdee64e0932800251b9d2f26a040d681dc5c6e3ca758c787384a4a869252a92b9531d4caa197e97564408475f3d055a006dcb95824bf2"
+RPM_NAME = "geronimo-servlet-2_4-api-1.2-37.1.noarch.rpm"
+RPM_HASH = "fd2e5e7911d3fb840a15420fc0055fc98120ba466bbae2ca48477c7b4913a46e05e32932c7d337ad1540a54317960c671aa44ff64ed097fa56fe5d8191feeda5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "geronimo-servlet-2-4-api \

@@ -5,10 +5,10 @@ from Vala source code. \
 This package contains the libvaladoc development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.56.12"
+PV = "0.56.13"
 
-RPM_NAME = "libvaladoc-0_56-devel-0.56.12-1.1.aarch64.rpm"
-RPM_HASH = "c7895c9f4042c49beb09ec6a806f0f095e087610e36c5254ea1faf696a6b981b70c05876a4a58c571d6073b81cf04d8c9a7f8535d63bb16db5ed849c728360bf"
+RPM_NAME = "libvaladoc-0_56-devel-0.56.13-1.1.aarch64.rpm"
+RPM_HASH = "d21bd1f574e46c8583a553edf1a9370381cf79ee4504f2f2c1613280c03cb3506cfcade6410077dfc81f0c632dcb038120e56aa76039c0cab9cbe03e821b7175"
 
 RPROVIDES:${PN} += "libvaladoc-0-56-devel \
 libvaladoc-devel \

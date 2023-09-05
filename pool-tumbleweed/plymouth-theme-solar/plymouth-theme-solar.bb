@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.02.122+94.4bd41a3"
 
-RPM_NAME = "plymouth-theme-solar-22.02.122+94.4bd41a3-9.1.noarch.rpm"
-RPM_HASH = "37bef14fa4bc5a76bfd9da940fd380824d51ae9d80305e642f601ab782528956a7bf648a62835dfd8f2d784835b0cab82d807002971db151d9a3c2951a959eaf"
+RPM_NAME = "plymouth-theme-solar-22.02.122+94.4bd41a3-10.1.noarch.rpm"
+RPM_HASH = "5233654f48e4ad5ca507ffe092e06ed94784796ff6104aab349e8ed8d7a747a6b668fcb08f1acb7a75761bfc4228ebaeb954e3b63762e7c4081749c6cda383c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plymouth-theme-solar"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package akonadi-search"
 DESCRIPTION = "Provides translations for the 'akonadi-search' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-3.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "akonadi-search-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "6df4ba6b2aa81a57408a8d7b3216d6d0d943bf6e56133b50e84cf155bc983290469130fc7ffdc6fc78a36dad0cc19d8ae64ca02e111fa065b4177cd04199eab1"
+RPM_NAME = "akonadi-search-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "6d85549308c0393929f878ae52501862b8aec494691abd65a8bdd63a8c1ab740ed494dea3e6e52131e68fdabecd31c24a264b3dda265c6a57ab5035cf6abb516"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "akonadi-search-lang \

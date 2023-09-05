@@ -3,10 +3,10 @@ DESCRIPTION = "PHP functions for work with arbitrary-length integers using the G
 library."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.9"
+PV = "8.2.10"
 
-RPM_NAME = "php8-gmp-8.2.9-1.1.aarch64.rpm"
-RPM_HASH = "8962927c842aa36bcef39a9c194d606aa84f95f54f868b1fa8040f3b0745ac4036f57fb114263d60a964665e72d514f942b80a405ba39b4a52bc531c61ef2ddd"
+RPM_NAME = "php8-gmp-8.2.10-1.1.aarch64.rpm"
+RPM_HASH = "0ef9a44ce87c1d44cf31ec8e1fe211b411bcf9e8ec43db66d78d8e798495961ea1ad087ddfeb7c145815838ac7a3c7f214e9d7a1ab36cac570401e1cbd4e12da"
 
 RPROVIDES:${PN} += "config-php8-gmp \
 php-gmp \

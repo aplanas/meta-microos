@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-2.1-or-later-with-GCC-exc
 
 PV = "2.38"
 
-RPM_NAME = "glibc-2.38-1.1.aarch64.rpm"
-RPM_HASH = "9b9c92680b87df0083e65fc7bf39bc44da3fe782a5fb87d757fb494f4034fa311cc967f37bacdfde94a2892e88831c7a319caed3e2d119c450a6d4b4ae4260b2"
+RPM_NAME = "glibc-2.38-2.1.aarch64.rpm"
+RPM_HASH = "cbcd8efecd334f420c25bd4c4b2cbe11da2b92d70754534c98da8b38d6aad1cb63eb82fbfc404da4273dcbba30f6e2e13ff40a252625bb8cf589b6681bbdf09a"
 
 RPROVIDES:${PN} += "/sbin/ldconfig \
 config-glibc \

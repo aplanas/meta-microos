@@ -18,10 +18,10 @@ Some of its features include: \
 This package provides plugins for extending PipeWire SPA's functionality."
 LICENSE = "MIT"
 
-PV = "0.3.77"
+PV = "0.3.79"
 
-RPM_NAME = "pipewire-spa-plugins-0_2-0.3.77-2.1.aarch64.rpm"
-RPM_HASH = "486c7c9cfc14f023fa53f2a394375123292020bfd6d979e9a0c9b9ac4b906bc5cc48d7c9e072a8cc3508072062a6fa01cf9b9439936a7a6012ef19e6b71ddd36"
+RPM_NAME = "pipewire-spa-plugins-0_2-0.3.79-1.2.aarch64.rpm"
+RPM_HASH = "941a0c38afff140b5d1016176d15426d77aaf7d255999e44bd7fd8ade20b335906c6b1e6c600d78d76230842c924850970472225f68af4abfde895c6803deb05"
 
 RPROVIDES:${PN} += "libspa-aec-null.so \
 libspa-aec-webrtc.so \
@@ -54,8 +54,8 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libasound.so.2 \
 libbluetooth.so.3 \
 libc.so.6 \
-libcamera-base.so.0.0.4 \
-libcamera.so.0.0.4 \
+libcamera-base.so.0.1 \
+libcamera.so.0.1 \
 libdbus-1.so.3 \
 libfdk-aac.so.2 \
 libgcc-s.so.1 \

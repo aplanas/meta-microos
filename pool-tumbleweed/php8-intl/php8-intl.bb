@@ -5,10 +5,10 @@ Algorithm) conformant collation as well as date, time, number and \
 currency formatting in their scripts."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.9"
+PV = "8.2.10"
 
-RPM_NAME = "php8-intl-8.2.9-1.1.aarch64.rpm"
-RPM_HASH = "3ae116f068106fbc7396c2816229430f68b4857a539ba9565be5775765ed1abf66b2b6cf5ffc0aa213735e718a9d267edda7c3f26b4f8b47e489243e6049b1e5"
+RPM_NAME = "php8-intl-8.2.10-1.1.aarch64.rpm"
+RPM_HASH = "836ab9d3bc0921f2d5c4eb94e0196c64d5a411cd914b6590a38f4763b7b234824f63ad9283591f867e003bc83c538e90507baa2ae115f981388863389729745e"
 
 RPROVIDES:${PN} += "config-php8-intl \
 php-intl \

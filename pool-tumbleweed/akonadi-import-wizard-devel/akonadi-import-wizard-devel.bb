@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains development headers to build new import plu
 KDE PIM applications."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "akonadi-import-wizard-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "97709bc346ef97507e4a326262af1b904348269b06c6f9e5478a42cb3b6067134a0d30592c7dd466838841eb43d7a5c50154b703b9c408e61b2646adf82cc427"
+RPM_NAME = "akonadi-import-wizard-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "8e659aa2ce5c601f18d1e7a8f6d3ba5d51b9638c7e17661d25229ed39684efc006a2162cd5c6c7b9b25f361eba1efd1f4fa4c37b69f1f25ea808a4467e22bb80"
 
 RPROVIDES:${PN} += "akonadi-import-wizard-devel \
 cmake-KPim5ImportWizard \

@@ -3,10 +3,10 @@ DESCRIPTION = "Include files and libraries needed to build programs that use the
 library."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kopeninghours-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "eac4b728f65e68ece8346e225813bebbe81c9734a2b2a86b06aeefd48b05e5c8269c3001a4abfd136e5fd13aa0a5ca1e05c5f41421b38f6aaaa57d081a581bc5"
+RPM_NAME = "kopeninghours-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "b4c68da25290acacf6e2b33fa3639152dcd8300aea953a551c169f41fdc57a83df444666302f7d31106789008be709827fa1cd939d61153cb859ba9a07e4c126"
 
 RPROVIDES:${PN} += "cmake-KOpeningHours \
 kopeninghours-devel"

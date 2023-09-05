@@ -6,10 +6,10 @@ that have a look at the example archive sites and some of the other \
 resources available in the links section."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.9"
+PV = "8.2.10"
 
-RPM_NAME = "php8-embed-8.2.9-1.1.aarch64.rpm"
-RPM_HASH = "90f6b2ff1e41e7115a240a293ae1dc2b672feda33dbb6b08790e36e501b9bdbf886afcdfeabfdd27ddcdf51820b11ad86d744f881cc7b076182634c6206539d7"
+RPM_NAME = "php8-embed-8.2.10-1.1.aarch64.rpm"
+RPM_HASH = "36118aeb5b89f78a5cbba6aeefa58c29bebd188ad290ef3faeb706b5e2b35402fd8b262c1c17bd546b7e2ca36a095ce28a69737fab6f3b06aec8fd3970262d88"
 
 RPROVIDES:${PN} += "libphp.so \
 php-sapi \

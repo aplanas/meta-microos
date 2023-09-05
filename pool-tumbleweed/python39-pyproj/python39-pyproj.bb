@@ -22,8 +22,8 @@ LICENSE = "SUSE-Public-Domain & X11"
 
 PV = "3.6.0"
 
-RPM_NAME = "python39-pyproj-3.6.0-1.3.aarch64.rpm"
-RPM_HASH = "0b9ecff4046cc31403d4e509c69d268e57c098b4214dd6001f19ba188a451fbe2f16471f07ef87529f388f5fc2fcd94b6051705762d5c23283d8e56980892b9c"
+RPM_NAME = "python39-pyproj-3.6.0-2.1.aarch64.rpm"
+RPM_HASH = "aaac4a0113d43d62ee6daf90be1991e5ccf019901edcde974c834f1b21f133d4441b699f3ac790f8f343c1145e8e1bb2e6ed60dfdca30ff17c4e2743a53b8cb1"
 
 RPROVIDES:${PN} += "python3.9dist-pyproj \
 python39-pyproj \

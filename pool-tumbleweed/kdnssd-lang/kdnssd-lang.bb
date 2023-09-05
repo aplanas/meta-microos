@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kdnssd"
 DESCRIPTION = "Provides translations for the 'kdnssd' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kdnssd-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "d13782892b37e493aa696d76c5e932c928287786e75c7c930ef04171378a129ece18bb4b9246dbfbb38b1a48e293bace47168385926090ec2100e90999ef2ec1"
+RPM_NAME = "kdnssd-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "413dc6bb3d23382e3f3e269736beaefa78ac207eec1d15ba445a4ec9835d0d2b2f955b8424c20c03d8316b0b24bd748d3bfe9379b3ca313f60c6626bb47a5188"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdnssd-lang \

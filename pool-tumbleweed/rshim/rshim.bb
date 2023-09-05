@@ -4,10 +4,10 @@ interface. It provides ways to push boot stream, debug the target or login \
 via the virtual console or network interface."
 LICENSE = "GPL-2.0 | BSD-3-Clause"
 
-PV = "2.0.7.0"
+PV = "2.0.9.0"
 
-RPM_NAME = "rshim-2.0.7.0-1.1.aarch64.rpm"
-RPM_HASH = "89b5e277a3b0dd95ecef15e2daf9ddc318f0d1c80bac8a38a248220761486b5497b79b5e395c59eda18c7aeeecae15ef34bdd460a949d2b839ca9fd746687954"
+RPM_NAME = "rshim-2.0.9.0-1.1.aarch64.rpm"
+RPM_HASH = "5a20e381bea0c6e7162c98fbc8b9f883eee8c12a868ab90ae6345e41700cc4999b48127fd3169183a04d3e93946972a95f6226f779a086792597005dd69b07a9"
 
 RPROVIDES:${PN} += "rshim"
 

@@ -2,10 +2,10 @@ SUMMARY = "Akonadi calendar integration - serializer plugin"
 DESCRIPTION = "This package provides plugins required by PIM applications to read and write calendar data."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "akonadi-plugin-calendar-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "9da440b7dc802ff34ba02f603ef9c3627ac66a7f6bbe7869d2afc1c0ca56954e044c71805922b646842e77e8f784d74702684256f991a7ca8fabe42b8c393b5a"
+RPM_NAME = "akonadi-plugin-calendar-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "f3d70b7533de711e7685d3636b03ff2ec97be333d57587c41ce8e880d1959b1548567e22d07733b412db7c797e52a2b67efedeae95ef948c95466721cc51b187"
 
 RPROVIDES:${PN} += "akonadi-plugin-calendar \
 libakonadicalendarplugin.so"

@@ -7,10 +7,10 @@ work the same way. Option availability and meanings differ between the two \
 programs."
 LICENSE = "MIT"
 
-PV = "1.21.3"
+PV = "1.27.3"
 
-RPM_NAME = "jdupes-1.21.3-1.4.aarch64.rpm"
-RPM_HASH = "3a0272a2421b6600d7092aef2e1d669c9106f9240a342b5c1f6d471c6b25fb2e76cfb8be5c9d27e0104ee8f9caa03ed9883b1c11043f60e785c3810b150a750b"
+RPM_NAME = "jdupes-1.27.3-1.1.aarch64.rpm"
+RPM_HASH = "df70cf060fa5273803616c2eb897e1815d8806e277db1b03015aa0217552ca51456035b3867aee88ee64f6d0bdbbd18f2fa1e47d69a0526d8189bc3a6706680b"
 
 RPROVIDES:${PN} += "jdupes \
 rpm-macro-fdupes \
@@ -20,6 +20,7 @@ rpm-macro-suse-symlink-dupes"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
+libjodycode.so.3 \
 libstdc++.so.6"
 
 inherit rpm

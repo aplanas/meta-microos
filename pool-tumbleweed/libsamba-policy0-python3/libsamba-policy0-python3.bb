@@ -2,10 +2,10 @@ SUMMARY = "Active Directory Group Policy library"
 DESCRIPTION = "This subpackage contains the python3 library for policy management."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.5+git.313.c8e274c7852"
+PV = "4.18.6+git.320.cfda27bacb"
 
-RPM_NAME = "libsamba-policy0-python3-4.18.5+git.313.c8e274c7852-1.1.aarch64.rpm"
-RPM_HASH = "2fc09a0494a8ee40575c3609dc5b1cae0ed9b00de766229e7eb008a56e77a8f6b169e67d9e9ca0075247b547ecac7751cf61d255a51ded5bfc81f98d8e8ae42e"
+RPM_NAME = "libsamba-policy0-python3-4.18.6+git.320.cfda27bacb-1.1.aarch64.rpm"
+RPM_HASH = "7627f711f76418f4c2ef7fe70175cb2d776f27215f350ad60dcf067e445f55e8fb26b9285146afc893ae45190998ffe5fc6f5d1c6b069674c7ff7c22c790397f"
 
 RPROVIDES:${PN} += "libsamba-policy.cpython-311-aarch64-linux-gnu.so.0 \
 libsamba-policy0-python3"

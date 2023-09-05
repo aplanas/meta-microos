@@ -3,10 +3,10 @@ DESCRIPTION = "samba-test provides testing tools for both the server and client 
 packages of Samba."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.5+git.313.c8e274c7852"
+PV = "4.18.6+git.320.cfda27bacb"
 
-RPM_NAME = "samba-test-4.18.5+git.313.c8e274c7852-1.1.aarch64.rpm"
-RPM_HASH = "ca7d13d0732289611748d95c912eae95da9edcb1cc4e5a9dda355961b7982dc01a18026743cbd1e4b62da7705a82f1396bca33fd300449c977414a637b7da4ee"
+RPM_NAME = "samba-test-4.18.6+git.320.cfda27bacb-1.1.aarch64.rpm"
+RPM_HASH = "0561dbca6049e1c79a2f60e05c911bf278e190486496df6faaf1934535be374a3e0f1facf4c00adbf10d288d42d4ef4422048324d19f4d5c333f63029f8dde39"
 
 RPROVIDES:${PN} += "samba-test"
 

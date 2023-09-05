@@ -4,10 +4,10 @@ game. The goal of the game is to expand your interstellar empire across \
 the galaxy."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "konquest-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "31cd9033e16ef397021a36b63f26a2f35182d26512c4dc191ebea89f5875a4ed7daaeafd477d14466e66f8c595acd854cb78d807a8f487cee4e35517e5137282"
+RPM_NAME = "konquest-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "0e7a049fbf8b5d3cf2f16553b57574a9e7442c26eb2f7c9d3dd66d07c029f1ad2d82f13add7e681cd4e2f4386ed6b86de311a710adc63ecfe08039ff46787460"
 
 RPROVIDES:${PN} += "konquest \
 konquest5"

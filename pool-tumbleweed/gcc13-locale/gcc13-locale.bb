@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "13.2.1+git7683"
 
-RPM_NAME = "gcc13-locale-13.2.1+git7683-1.1.aarch64.rpm"
-RPM_HASH = "2c27372581fa5caa678e30a1137798cc926e4a60173d3492b01bbce27f05d06761fde4df15cbc1054b9ac4cd67461d8c0cacd29c6e716f8ef58e612070e167af"
+RPM_NAME = "gcc13-locale-13.2.1+git7683-2.1.aarch64.rpm"
+RPM_HASH = "e64a5d9081e8861e2aee329010dc3c3696286adcbb1f501c48f176691740ef116c834cabd07f4537bc3d4927e263e7fa2c9c3a09c1c1cefd153bcec668631862"
 
 RPROVIDES:${PN} += "gcc13-locale \
 locale-gcc13-be \

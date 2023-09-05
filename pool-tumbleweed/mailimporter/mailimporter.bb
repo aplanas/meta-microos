@@ -4,10 +4,10 @@ for importing mail from different formats into Mail User Agents such as \
 KMail or Kontact."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "mailimporter-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "a65d8828a92524fb175eb41ecd66f395aaca79b6b2fb2a2167965fd1db196f49810b232ee68786b3ee64869b42a102ee15938024093f3f8ce8736af8c04043a9"
+RPM_NAME = "mailimporter-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "3c08ff5f8c01c7d1546fd003b8904a994d4c63a96132582eea0dbb17e046c73894d26a6e0300646e29e336643ddb82c4de77989a2c8193526a1c1bb8ec4eb0d4"
 
 RPROVIDES:${PN} += "mailimporter"
 

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package neochat"
 DESCRIPTION = "Provides translations for the 'neochat' package."
 LICENSE = "GPL-3.0-or-later & GPL-3.0-only & BSD-2-Clause"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "neochat-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "56446981bde95c6ff74bf658532185bcbd811a08fc99796647e5d69f41c6089f2ef8e3bb95a26ee48cdcabe701d8d3de5f2745f734d8170fc28c91f9ffa63411"
+RPM_NAME = "neochat-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "b5bd0163496af458e53bcb74977aeca42918bcfc36e5003d251c85727e06ba6ad2654690bed0816a678386fec2a7300b0547d1ffa25fcda2a1c9ee008f537e42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-neochat-ar \

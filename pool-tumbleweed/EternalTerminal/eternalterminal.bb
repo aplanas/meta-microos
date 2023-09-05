@@ -3,10 +3,10 @@ DESCRIPTION = "Eternal Terminal (ET) is a remote shell that automatically reconn
 interrupting the session."
 LICENSE = "Apache-2.0"
 
-PV = "6.2.4"
+PV = "6.2.8"
 
-RPM_NAME = "EternalTerminal-6.2.4-3.2.aarch64.rpm"
-RPM_HASH = "1353ef749c2057a669efd7f9dea4324338e81e8627ad57a639a6bc9b8b40a5d26602dde47ae2e5b562e3c6408fc1b11ab8e8bb2284f3be77d79c460c9279a53c"
+RPM_NAME = "EternalTerminal-6.2.8-1.1.aarch64.rpm"
+RPM_HASH = "6e5a4e89f0b8418482f998b71d47c49ff9c1e6d0517955f68bc6d90a9920b8fab87776040451f0c2bbd08517fb01690487d04f5fbc48c337856dac66d822606f"
 
 RPROVIDES:${PN} += "EternalTerminal \
 config-EternalTerminal"
@@ -17,7 +17,7 @@ libc.so.6 \
 libcrypto.so.1.1 \
 libcurl.so.4 \
 libgcc-s.so.1 \
-libprotobuf-lite-3.21.12.so \
+libprotobuf.so.23.4.0 \
 libsodium.so.23 \
 libssl.so.1.1 \
 libstdc++.so.6 \

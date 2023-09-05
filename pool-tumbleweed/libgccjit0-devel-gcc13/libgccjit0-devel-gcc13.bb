@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "13.2.1+git7683"
 
-RPM_NAME = "libgccjit0-devel-gcc13-13.2.1+git7683-1.1.aarch64.rpm"
-RPM_HASH = "8cdc8f8128f34ccf162ab8f0b30a4945e57492524395e6e8e4910d51409f6207a7d93e638697f6f67ae39ed2f95199909a7b2f092c88aecc946daafd57d92d47"
+RPM_NAME = "libgccjit0-devel-gcc13-13.2.1+git7683-2.1.aarch64.rpm"
+RPM_HASH = "03657cc97511b488c2ec9dd5630fb525e37b2f3039a13122d771076739a7f31d3e1b2e1ef00dc3ddafb039731225d9a5b4fd9f66cb54afbb25d23e8739f8f29a"
 
 RPROVIDES:${PN} += "libgccjit0-devel \
 libgccjit0-devel-gcc13"

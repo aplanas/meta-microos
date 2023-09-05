@@ -4,15 +4,15 @@ Janet scripting can be added to an application by embedding a single \
 C source file and a single header."
 LICENSE = "MIT"
 
-PV = "1.28.0"
+PV = "1.30.0"
 
-RPM_NAME = "janet-devel-1.28.0-2.1.aarch64.rpm"
-RPM_HASH = "951e73359f8a2b1b72b00ba4baad115d8e1da3e72180f1ef52b653924675037955e9d50f897a406ed4b48f3cab6f60e5bf5934199bd59bfb0212dde1bbaf92a0"
+RPM_NAME = "janet-devel-1.30.0-1.1.aarch64.rpm"
+RPM_HASH = "c1e6c058e9810c5f329d0f6f2dd64f94c296bee56edaea49cdfc59e14e34c1ad74d4ac3b3309bb60051ad9f52f2a0257401308b65bda33f21660bc4b1add1c25"
 
 RPROVIDES:${PN} += "janet-devel \
 pkgconfig-janet"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libjanet1-28"
+libjanet1-30"
 
 inherit rpm

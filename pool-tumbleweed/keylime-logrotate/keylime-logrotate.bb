@@ -2,10 +2,10 @@ SUMMARY = "Logrotate for Keylime servies"
 DESCRIPTION = "Subpackage of keylime for logrotate for Keylime services"
 LICENSE = "Apache-2.0 & MIT & BSD-3-Clause"
 
-PV = "7.4.0"
+PV = "7.5.0"
 
-RPM_NAME = "keylime-logrotate-7.4.0-1.1.noarch.rpm"
-RPM_HASH = "59f3ea9ee173843a2845d4bc5d700d3227d49959548f75d17a16fff6ef7fc79808ff670a55d95cd8db7d01514b7bc0cb656d9f4106f217009be337d108c7d48c"
+RPM_NAME = "keylime-logrotate-7.5.0-1.1.noarch.rpm"
+RPM_HASH = "fc74d23ec252ca4864a7b3949cb786aa92b575ee334c4ef638870535e709387c12d76472d5f06bb4fc6bd97b531aa36880e6dee7959ad83a0f6f692f5e350533"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keylime-logrotate"

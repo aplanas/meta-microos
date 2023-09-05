@@ -2,21 +2,21 @@ SUMMARY = "Development package for mailcommon"
 DESCRIPTION = "This package contains the development headers for the mailcommon library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "mailcommon-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "d35279a3c4be64812ba083f7f7ddece31cdec6b3256875f6f5d63baf68ee993f603aadfd5a095da42b9ceedd9f74d77a7a4fb51bbe63f052e8c0d44b39213999"
+RPM_NAME = "mailcommon-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "4067a7f8a7df7ec8797a3824d52060fd6aa835cf599c7949ea5677f884355b04ddd291c1e301d041378c21bd07eae072ab9da61794c08dce3e741ea8d4da5b2f"
 
 RPROVIDES:${PN} += "cmake-KF5MailCommon \
 cmake-KPim5MailCommon \
 mailcommon-devel"
 
 RDEPENDS:${PN} += "cmake-KF5Completion \
-cmake-KF5PimCommon \
 cmake-KPim5Akonadi \
 cmake-KPim5AkonadiMime \
 cmake-KPim5Libkdepim \
 cmake-KPim5MessageCore \
+cmake-KPim5PimCommon \
 ld-linux-aarch64.so.1 \
 libKPim5MailCommon.so.5 \
 libKPim5MailCommon5 \

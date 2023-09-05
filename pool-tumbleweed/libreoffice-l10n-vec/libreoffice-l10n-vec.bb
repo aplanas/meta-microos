@@ -2,10 +2,10 @@ SUMMARY = "Venetian localization files for LibreOffice"
 DESCRIPTION = "Provides Venetian translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.0.3"
+PV = "7.6.1.1"
 
-RPM_NAME = "libreoffice-l10n-vec-7.6.0.3-1.1.noarch.rpm"
-RPM_HASH = "32c66be20a2eb39ae24c07e93086f5c3d4b38aad589b7e75a245493bd90311795a4a0a166c9663043676c2abb60cf1e2cae87efc451695f58725b28b7950d962"
+RPM_NAME = "libreoffice-l10n-vec-7.6.1.1-1.1.noarch.rpm"
+RPM_HASH = "4b7f6bea03a8470bd09a63e0b0808266c63d4c810c37f6ccd497f26e1435b210b3d8db0f08494c086af1b3e9de55436335a05d74e1dfa7b0bd96c28ee1fc4c7b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-vec \

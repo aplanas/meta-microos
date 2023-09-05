@@ -14,10 +14,10 @@ API of python-blosc, so the former can be used as a drop-in replacement \
 for the later."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.2.2"
+PV = "2.2.6"
 
-RPM_NAME = "python311-blosc2-2.2.2-1.2.aarch64.rpm"
-RPM_HASH = "1e242e0a7529032ed99ffad3d1f56cbd5e4aa8fe5fdcd7350799c122d36b2740124c1b1b36f9c628391af78b31cb932046e6990ed80a3f0abdac876fd23d7c93"
+RPM_NAME = "python311-blosc2-2.2.6-1.1.aarch64.rpm"
+RPM_HASH = "d46a929fc4b94fa53f361fbce3e0878c2d18d80d6510ff434100d2f5ecb4b6967b956fef9935b998ff97027dea8a135935d2e4ea6a0dba8244a292e7584b5718"
 
 RPROVIDES:${PN} += "python3-blosc2 \
 python3.11dist-blosc2 \
@@ -31,7 +31,6 @@ python-abi \
 python311-msgpack \
 python311-ndindex \
 python311-numpy \
-python311-py-cpuinfo \
-python311-rich"
+python311-py-cpuinfo"
 
 inherit rpm

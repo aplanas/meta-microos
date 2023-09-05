@@ -2,10 +2,10 @@ SUMMARY = "Viewer for email attachments in TNEF format"
 DESCRIPTION = "KTNEF is a viewer for email attachments in the TNEF format."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "ktnef-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "843a142b908983eaa0deed1c6f0d81a353383d2c2b6c9ae0e075db8086b5c645d4cee5d5e6ad8983e7d1cf37a553c516dce98a7efe54e49a1a0bdb08fbe4b25b"
+RPM_NAME = "ktnef-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "e6ab8f87af63d15cfe0df410899bdbb6c8ef86bcb6ac98d87338a5a16e0d92077b900e353d7c10779eace6f623387292907941fa8e649fe2eb710d10757b791b"
 
 RPROVIDES:${PN} += "ktnef \
 ktnef5"

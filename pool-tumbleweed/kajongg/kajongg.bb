@@ -2,10 +2,10 @@ SUMMARY = "4 Player Mahjongg game"
 DESCRIPTION = "Kajongg is a version of the four player Mahjongg tile game."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kajongg-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "2de47909c13b2e0cb81b46b194e5245d6e488d8bc529f14d4aafae986efdfce982839aafe7b2754087838d1183bf2b59aea6a41a32a51929cbff61a85413457a"
+RPM_NAME = "kajongg-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "9b846d9c1bce72f1745620e6fcdf5f50a2b20ddcea24d0def0a97a64dba54a31cfd7ac957c05bd5e47c8b89d55a62fdca37431d64525e14a3ff5e59ea042f439"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kajongg"

@@ -1,18 +1,18 @@
-SUMMARY = "Dependency package for superlu_6_0_0-gnu-hpc-devel"
+SUMMARY = "Dependency package for superlu_6_0_1-gnu-hpc-devel"
 DESCRIPTION = "superlu: A general purpose library for the direct solution of linear equations \
-The package superlu-gnu-hpc-devel provides the dependency to get binary package superlu_6_0_0-gnu-hpc-devel. \
-When this package gets updated it installs the latest version of superlu_6_0_0-gnu-hpc."
+The package superlu-gnu-hpc-devel provides the dependency to get binary package superlu_6_0_1-gnu-hpc-devel. \
+When this package gets updated it installs the latest version of superlu_6_0_1-gnu-hpc."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.0.0"
+PV = "6.0.1"
 
-RPM_NAME = "superlu-gnu-hpc-devel-6.0.0-2.1.noarch.rpm"
-RPM_HASH = "906dfc0eeb3bdc1b2b992578e29d8b60278c2f2c97fdd5e3b9f66efbe0ebfcdad6cd595b851d91a6ad340fb19c15ea53f4e268cabc98a27de16e54e18dd34b79"
+RPM_NAME = "superlu-gnu-hpc-devel-6.0.1-1.1.noarch.rpm"
+RPM_HASH = "3ad550bb8abf1ee40d743d7b9627d473c1c63a0fbbc16500ee9c6030a1fb5892f2f892422f046eb162a699f6875c548d309ca968927a5e300660632fe2209e3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "superlu-gnu-hpc-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-superlu-6-0-0-gnu-hpc-devel"
+superlu-6-0-1-gnu-hpc-devel"
 
 inherit rpm

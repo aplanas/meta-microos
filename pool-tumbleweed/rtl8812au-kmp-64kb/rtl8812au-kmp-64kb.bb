@@ -8,16 +8,16 @@ The previous sources were obtained from https://github.com/morrownr/8812au-20210
 https://github.com/maurossi/rtl8812au/ ."
 LICENSE = "GPL-2.0-only"
 
-PV = "5.13.6+git20230722.b5f4e6e_k6.4.11_1"
+PV = "5.13.6+git20230722.b5f4e6e_k6.4.12_1"
 
-RPM_NAME = "rtl8812au-kmp-64kb-5.13.6+git20230722.b5f4e6e_k6.4.11_1-1.3.aarch64.rpm"
-RPM_HASH = "80a0a063f619d2f305983c31776f51c984078a1dbf4fd8a2b6ea65166d53e59df0cbfc11c6e50ea93611a18708c96005259da01afe7da28cb895c6eda212fede"
+RPM_NAME = "rtl8812au-kmp-64kb-5.13.6+git20230722.b5f4e6e_k6.4.12_1-1.4.aarch64.rpm"
+RPM_HASH = "208777230c4528e2dc1e53a33fc098960d28db86bb4b62f7a36639c271fe7f2cb4421e68038997fa707a615f3d7db11ec8ce33283274fe19f390ac18b052f606"
 
 RPROVIDES:${PN} += "kmod-8812au.ko \
 multiversion-kernel \
 rtl8812au-kmp \
 rtl8812au-kmp-64kb \
-rtl8812au-kmp-64kb-k6.4.11-1"
+rtl8812au-kmp-64kb-k6.4.12-1"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \

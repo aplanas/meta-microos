@@ -7,13 +7,13 @@ want to install Rust for a development environment, you should install \
 'rustup' instead."
 LICENSE = "Apache-2.0 | MIT"
 
-PV = "1.71.0"
+PV = "1.72.0"
 
-RPM_NAME = "rust-1.71.0-1.1.aarch64.rpm"
-RPM_HASH = "f2b9c2530c4c17c1ad96a6ada18ce9efdbaa4c914611e0707debd476da633c6233e0078ae9cd33a688c3b5098735a5132c055345afd3b810fbbe1777af86f17b"
+RPM_NAME = "rust-1.72.0-1.1.aarch64.rpm"
+RPM_HASH = "7b158cd23aaf84478ba0256d5b480ea7645bb03396849a7c75bd81220d10511cfc04f3ea7d13cfd8f08db7e494cec7b58ca3c8f22ed1014b4d64f25d0fc3628c"
 
 RPROVIDES:${PN} += "rust"
 
-RDEPENDS:${PN} += "rust1.71"
+RDEPENDS:${PN} += "rust1.72"
 
 inherit rpm

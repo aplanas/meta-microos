@@ -10,8 +10,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.4.4"
 
-RPM_NAME = "python311-img2pdf-0.4.4-1.1.noarch.rpm"
-RPM_HASH = "b39fe974af39ba0d2c87e5a1fab81b3cfb27a4c65bd00a4acf8d72c193747dffb79eddb08f942be5c17da683f49586cc438f5953fdd463a811805e8ed63a435b"
+RPM_NAME = "python311-img2pdf-0.4.4-2.1.noarch.rpm"
+RPM_HASH = "4ec33227cb8aff222211c0fe832f157eeee2e07326880b31a14d2d79aced7aeb637f726142bcfb5021c3206b80b17e14706c7530aa026fadd07aa3b9ac0fabf7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "img2pdf \

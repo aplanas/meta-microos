@@ -1,12 +1,12 @@
 SUMMARY = "Calculator with history display, keyboard-oriented"
 DESCRIPTION = "A keyboard-oriented desktop scientific calculator which shows results in a \
 scrollable display."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "0.12"
 
-RPM_NAME = "speedcrunch-0.12-1.33.aarch64.rpm"
-RPM_HASH = "b42917c733293901feb22b985dc70004fdf6148f1bd1566ea8c44bfa420408fae14ae9407b89cb0e58e33a211691bfd09045596023b89fe6934eebf13259de4f"
+RPM_NAME = "speedcrunch-0.12-2.1.aarch64.rpm"
+RPM_HASH = "f7fa4b548f3fb64cf010fde9e30ac323476b97409b98a6f40f25e027df75f2e35abfc22541d74dcfa0bbc4ba4558bd411298e43c1f394df3467e6e4ecd9bad75"
 
 RPROVIDES:${PN} += "speedcrunch"
 

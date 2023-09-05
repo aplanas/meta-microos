@@ -2,10 +2,10 @@ SUMMARY = "Electron development headers"
 DESCRIPTION = "Development headers for Electron projects."
 LICENSE = "AFL-2.0 & Apache-2.0 & blessing & BSD-2-Clause & BSD-3-Clause & BSD-Protection & BSD-Source-Code & bzip2-1.0.6 & IJG & ISC & LGPL-2.0-or-later & LGPL-2.1-or-later & MIT & MIT-CMU & MIT-open-group & (MPL-1.1 | GPL-2.0-or-later | LGPL-2.1-or-later) & MPL-2.0 & OpenSSL & SGI-B-2.0 & SUSE-Public-Domain & X11"
 
-PV = "22.3.21"
+PV = "22.3.23"
 
-RPM_NAME = "nodejs-electron-devel-22.3.21-1.1.aarch64.rpm"
-RPM_HASH = "4a49f15b4cf4ab7ea4abff7f4302fa39cf958ac357d605aaf409b3b3ff058f1b5e74b6b9b5fdd1befd1fe3eaacd82d5a39c40d762d864e759c243768d3c62889"
+RPM_NAME = "nodejs-electron-devel-22.3.23-1.1.aarch64.rpm"
+RPM_HASH = "0fe63d2e8bc14bdca8799d57e331742357c15fe9f3e93cf8fb3abd5ed13b411649cb62374b5346679aef609efb2af2731fa3786c58d8ad2ac80cc2ed635557ab"
 
 RPROVIDES:${PN} += "nodejs-electron-devel \
 rpm-macro-electron-req"

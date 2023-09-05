@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
 PV = "3.1.6"
 
-RPM_NAME = "ruby-apparmor-3.1.6-2.2.aarch64.rpm"
-RPM_HASH = "a106b96b0bac36de0a9aee6b2323df66ca86dfcc014b92943f226882770659145eb0158e37cf30259cfe9344097a9992c81d04a79f69673e9f489994789dcd34"
+RPM_NAME = "ruby-apparmor-3.1.6-4.1.aarch64.rpm"
+RPM_HASH = "49d4fcd3cdc0d975bfe502ab171d77513744c249b6a79a5676a37824756a48e8324191f7fc4ebb0d380dd725cada373bae8110db82c97320b25c3d283e11011f"
 
 RPROVIDES:${PN} += "ruby-apparmor \
 ruby-libapparmor"

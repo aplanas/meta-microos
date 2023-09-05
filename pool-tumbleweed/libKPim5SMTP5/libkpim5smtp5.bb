@@ -3,10 +3,10 @@ DESCRIPTION = "KSMTP is a job based library to send email through an SMTP server
 package contains the KSMTP library itself."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKPim5SMTP5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "19f0fd6acfad4820601b2c264463222688abc7206e2281d890f66389e52bcb4dad637e139e2523bbb0b8d83d5df795602e819db9eb5d1b37bb0c32000e128ef2"
+RPM_NAME = "libKPim5SMTP5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "d87362f22489966d42d588f40acc42e02b3a4b4871ada59dc85dda9bc1cf3954790f9cc856fefa3c57780d0be01061474d3205d25de862641103ac5f87ebea98"
 
 RPROVIDES:${PN} += "libKPim5SMTP.so.5 \
 libKPim5SMTP5"

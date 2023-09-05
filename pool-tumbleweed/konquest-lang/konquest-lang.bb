@@ -2,10 +2,10 @@ SUMMARY = "Translations for package konquest"
 DESCRIPTION = "Provides translations for the 'konquest' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "konquest-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "58cca9f29c1677bb0e472891389a7be6b22473c5662a3d0a768009ee4672dd4a759391765e5066c0303630bb1815771b8380e5a86ab4bd2bfe856a15e876bced"
+RPM_NAME = "konquest-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "410f5592aa2d97f1e01ed962a20aeffef9de54dde53ce015c463171435c80d0cf9abb433959ec36439c4df8547ef7a30e5fdd06d50f42efebbc3cfdd46009399"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "konquest-lang \

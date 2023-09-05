@@ -8,10 +8,10 @@ the next level, and the player and ghost speeds increase. The game ends when you
 have lost all your lives."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kapman-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "50101dfd1d24264680143341b3d0af6814fb80b862bcf22186a6c8305384021b641544fe41cf1bdd4d76b9f1b4fb7a91903ee86f16ff65c6dd8bf01d34c996e1"
+RPM_NAME = "kapman-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "89bba565689465d15f66386ed1d5c0f5f443f7e1c02515986e5c2b7548f7d4cc1292b3e53ef96b8389c1a0a36e84420121b863c9b7bb03074ad5255e8092c03e"
 
 RPROVIDES:${PN} += "kapman \
 kapman5"

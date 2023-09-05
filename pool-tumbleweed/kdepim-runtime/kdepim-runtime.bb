@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the Akonadi resources, agents and plugins n
 use PIM applications."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kdepim-runtime-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "fd3cc3d1bfb9f6492b68be66fcab40b8759dfffbca660dc71bd6eb70b53582428773d735a2afe53ae41c98e162bad40f929655132e244424db84246662c278c1"
+RPM_NAME = "kdepim-runtime-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "0b64aec49c498068d8019a0a4d1193179bdd3f545c8d231b871ae522e595c7f7c7e9f0d4b5481e332a2ffab2c6cec23c51521b362d438e93999e1ef37ee09d81"
 
 RPROVIDES:${PN} += "kdepim-runtime \
 kio-pimlibs \
@@ -59,9 +59,9 @@ libKPim5IdentityManagementWidgets.so.5 \
 libKPim5Ldap.so.5 \
 libKPim5Libkdepim.so.5 \
 libKPim5MailTransport.so.5 \
-libKPim5MailTransportAkonadi.so.5 \
 libKPim5Mbox.so.5 \
 libKPim5Mime.so.5 \
+libKPim5TextEdit.so.5 \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \
 libQt5Gui.so.5 \

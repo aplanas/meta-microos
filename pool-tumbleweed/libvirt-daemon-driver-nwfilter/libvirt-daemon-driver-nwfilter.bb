@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.6.0"
 
-RPM_NAME = "libvirt-daemon-driver-nwfilter-9.6.0-2.1.aarch64.rpm"
-RPM_HASH = "57951d0013fddd9b9cd9b126c76ad804c516ae73c93f3b9c47474a113eba639c28eaffbac479bcac024b82527370f6a9e504a0943f100783aa3fbaa74d29d77f"
+RPM_NAME = "libvirt-daemon-driver-nwfilter-9.6.0-3.1.aarch64.rpm"
+RPM_HASH = "1c814718f4b636084dedc3af8d7eb6d2e70ac2b67df992c8f7b7998a78dc8c8e123c274b3dd277932ef662020e21b80236c401e96019eaf1a104ea82edf4d039"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-driver-nwfilter \
 libvirt-daemon-driver-nwfilter \

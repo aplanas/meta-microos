@@ -2,10 +2,10 @@ SUMMARY = "Akonadi Agent base library"
 DESCRIPTION = "This package provides the basic GUI widgets for Akonadi, the KDE PIM storage service."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKPim5AkonadiWidgets5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "233fba156f84c747c5da785f15eda4194397c29b4d2e8fbbeaa96885b76fda99d42da7cf11440561a4b7cb2d51ff8f266cba3bb07e89de74d0d90d1ca997c69c"
+RPM_NAME = "libKPim5AkonadiWidgets5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "912bfa07050799ce7f084c624492de992eeac2c4e38ebda9255c104a39b671ebc7d25e265bb078bbdad40786685c786bda3d6a84cd1797581122c884f87adfe8"
 
 RPROVIDES:${PN} += "libKPim5AkonadiWidgets.so.5 \
 libKPim5AkonadiWidgets5"

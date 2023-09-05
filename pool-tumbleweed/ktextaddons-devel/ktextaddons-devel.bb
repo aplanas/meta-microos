@@ -2,23 +2,33 @@ SUMMARY = "Development files for ktextaddons, a library for handling texts"
 DESCRIPTION = "This package provides development files to use ktextaddons in other applications."
 LICENSE = "LGPL-2.0-or-later & GPL-2.0-or-later"
 
-PV = "1.1.0"
+PV = "1.4.1"
 
-RPM_NAME = "ktextaddons-devel-1.1.0-1.1.aarch64.rpm"
-RPM_HASH = "c3f0cd0968b7d90a88e5d0f847af5ef3576a62309c5da579b9602297a2a241b744f59ced144cffa510ec93d435cdfc3ddb47ba50d2e50e2cfd74106126abf4f2"
+RPM_NAME = "ktextaddons-devel-1.4.1-1.1.aarch64.rpm"
+RPM_HASH = "990ee9b220e848cd706e7d026eb91b57c5a14b044630514cf279a54954d080686bbf2ae30e1fbdee68ed587d443670278be01211abf24ad27e291a4370b786bb"
 
-RPROVIDES:${PN} += "cmake-KF5TextAutoCorrection \
+RPROVIDES:${PN} += "cmake-KF5TextAddonsWidgets \
+cmake-KF5TextAutoCorrectionCore \
+cmake-KF5TextAutoCorrectionWidgets \
 cmake-KF5TextEditTextToSpeech \
+cmake-KF5TextEmoticonsCore \
+cmake-KF5TextEmoticonsWidgets \
 cmake-KF5TextGrammarCheck \
 cmake-KF5TextTranslator \
+cmake-KF5TextUtils \
 ktextaddons-devel"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5TextAutoCorrection1 \
+libKF5TextAddonsWidgets1 \
+libKF5TextAutoCorrectionCore1 \
+libKF5TextAutoCorrectionWidgets1 \
 libKF5TextEditTextToSpeech1 \
+libKF5TextEmoticonsCore1 \
+libKF5TextEmoticonsWidgets1 \
 libKF5TextGrammarCheck1 \
 libKF5TextTranslator.so.1 \
 libKF5TextTranslator1 \
+libKF5TextUtils1 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \
 libc.so.6 \

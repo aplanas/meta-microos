@@ -2,10 +2,10 @@ SUMMARY = "Translations for package k3b"
 DESCRIPTION = "Provides translations for the 'k3b' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "k3b-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "76fb1554cf0878d3797f0404ceed49099e715999d86b42f4b3a9938e29e6dc7dbf87073403a25cebd3d97e993964d21bddd0bda3536d91cac35d658c955c1096"
+RPM_NAME = "k3b-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "7c7079e0efff4a8d9fdc78bd829a884575f043147f8927972df9dc2cc265c8491ac832680c4bea56c8d93079e8d7b538a9c5a4f0813441afbb06a1369a0f63b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "k3b-lang \

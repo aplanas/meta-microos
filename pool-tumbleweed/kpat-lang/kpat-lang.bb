@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kpat"
 DESCRIPTION = "Provides translations for the 'kpat' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kpat-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "e3dc0f3fc3f9c5388ef385a9e56db440683c519670ada06ca487d1e8bc89bcceb31108af15b65df16cbc383741fd458059cd0f8a540b983fbb1e8a726a871522"
+RPM_NAME = "kpat-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "98d18131bfee2e4c33e848f3ed3e48aa9f5774c1450e694e9c4a12e95d88774ceaa2868a103221848b7a0e4e83d8db8e4cb1503548938a0786020c38953d04e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kpat-lang \

@@ -6,10 +6,10 @@ preparing technical documents. \
 This package contains the Iosevka Slab typeface (monospace, slab-serif)."
 LICENSE = "OFL-1.1"
 
-PV = "25.1.1"
+PV = "26.1.0"
 
-RPM_NAME = "iosevka-slab-fonts-25.1.1-1.1.noarch.rpm"
-RPM_HASH = "28316df0d457588fb483bddd5fdf7d3414bab5c1923e91c8c10cd6d1bfac5bdba4e2bcc515ae429c6341369b395eafbbb821b6c07f95bc89728d34851b99eed7"
+RPM_NAME = "iosevka-slab-fonts-26.1.0-1.1.noarch.rpm"
+RPM_HASH = "41fae311ad49aaf7c944309e26dd817456dd25acab159b7f1fc57eb5ec648f2b89670f8a49901d1a1db54965728dcc4d5e3962b976fa791e1a2c274e5cd5aab6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-slab-fonts"

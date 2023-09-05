@@ -7,10 +7,10 @@ also includes fonts from the kbd_fonts.tar.gz package (by Paul \
 Gortmaker) on Sunsite."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "2.6.1"
+PV = "2.6.2"
 
-RPM_NAME = "kbd-2.6.1-1.1.aarch64.rpm"
-RPM_HASH = "7579125a391c63cb0dc42c02612c4cf539641b48f725f3326e12c166aa985d55b8a27c5c79c25700033394066694cf07155e1fa37669e734f8d880c245f31a17"
+RPM_NAME = "kbd-2.6.2-1.1.aarch64.rpm"
+RPM_HASH = "21986237c848d305c874cd2dfe73ef0b836a0184ba4e95906bb2bd2a017190bc39f49a5f0c2e2212cee32d146c252c2ba310c51d7089276f7f4740130d141def"
 
 RPROVIDES:${PN} += "kbd \
 vlock"

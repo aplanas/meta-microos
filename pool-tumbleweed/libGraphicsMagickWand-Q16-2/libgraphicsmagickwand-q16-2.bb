@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "1.3.40"
 
-RPM_NAME = "libGraphicsMagickWand-Q16-2-1.3.40-3.1.aarch64.rpm"
-RPM_HASH = "e39a522ea6439b68e5e2e6aa732d60278fb71ea350e4ce56e12443c0c04b29a4d2322f3021a1df6eb3aebd79f5ac17ec4a5e89b690eb09ab9673e90d9e963382"
+RPM_NAME = "libGraphicsMagickWand-Q16-2-1.3.40-4.1.aarch64.rpm"
+RPM_HASH = "1fa7bbd4293697905c5b8926a8e3e23b58142004c26d2947dc6de307f7f2165519565ee6af006b2aa6984fa4d0117c9cd70f59c8fa925719670da1e41aba079c"
 
 RPROVIDES:${PN} += "libGraphicsMagickWand-Q16-2 \
 libGraphicsMagickWand-Q16.so.2"

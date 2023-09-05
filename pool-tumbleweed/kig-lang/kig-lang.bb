@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kig"
 DESCRIPTION = "Provides translations for the 'kig' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kig-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "d625ba2baea9f0803e1fb4c64c876c4b8fa5449c502b9131d6bc39845709daa9dd3fd72b5af0c2363145a37174edfdaa2636e771ca3fe92d32eb60549dac67bf"
+RPM_NAME = "kig-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "b48badff77d4bbce429d6b11cc78e0948777bd1066417c57257d3ac152588e7c54f8057533a5287f26b6b52c985d62f58b39ce458046f4ba590480b17b86160c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kig-lang \

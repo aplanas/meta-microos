@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.7.1"
 
-RPM_NAME = "gsl_2_7_1-gnu-hpc-examples-2.7.1-1.4.noarch.rpm"
-RPM_HASH = "cf11e2d1d253cfa7c4078323a7a87003da07943a1e7d732308be71aa479079ffd3d639bfbd6b13563ae6291fbfbe619ad19a2c496e8c40bc746a3c1e017ec836"
+RPM_NAME = "gsl_2_7_1-gnu-hpc-examples-2.7.1-2.1.noarch.rpm"
+RPM_HASH = "46a20df649c7acd951e8a3340909229b66317a65267742dd6288590533667354d36886b879fdb540af22d9cc2796c090409d406d173dbf9a090110c5adea81dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gsl-2-7-1-gnu-hpc-examples"

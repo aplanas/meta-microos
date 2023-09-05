@@ -2,10 +2,10 @@ SUMMARY = "GTK3 Desktop Environment"
 DESCRIPTION = "Budgie Desktop is the flagship desktop for the Solus Operating System."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "10.7.2+0"
+PV = "10.8+0"
 
-RPM_NAME = "budgie-desktop-10.7.2+0-1.2.aarch64.rpm"
-RPM_HASH = "d8fcbd9b80fed3419e45ac665d8b8c11430005694221dfc44278de5e1d7607f26f2a3e57bff5d359b4a51cd9e54a5ea6d630f19d81739cfc5fa404e300e46761"
+RPM_NAME = "budgie-desktop-10.8+0-1.1.aarch64.rpm"
+RPM_HASH = "5be6e02519eb1b74da546642523dd9120ddface93080845ef92d5ed476b267cb853e255f9daffd90745529e013449f2112d62e0752c9c439b210d4af7102bdd5"
 
 RPROVIDES:${PN} += "budgie-desktop \
 libbudgiemenuapplet.so \
@@ -29,12 +29,14 @@ libshowdesktopapplet.so \
 libspacerapplet.so \
 libstatusapplet.so \
 libtasklistapplet.so \
+libtrashapplet.so \
 libtrayapplet.so \
 libuserindicator.so \
 libworkspacesapplet.so"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 NetworkManager-applet \
+budgie-backgrounds \
 budgie-control-center \
 budgie-desktop-branding \
 budgie-desktop-view \
@@ -45,8 +47,6 @@ gnome-settings-daemon \
 ibus \
 ld-linux-aarch64.so.1 \
 libGLESv2.so.2 \
-libX11.so.6 \
-libXcomposite.so.1 \
 libasound.so.2 \
 libbudgie-appindexer.so.0 \
 libbudgie-appindexer0 \
@@ -76,9 +76,9 @@ libgstreamer-1.0.so.0 \
 libgtk-3.so.0 \
 libibus-1.0.so.5 \
 libm.so.6 \
-libmutter-12.so.0 \
-libmutter-clutter-12.so.0 \
-libmutter-cogl-12.so.0 \
+libmagpie-0.so.0 \
+libmagpie-clutter-0.so.0 \
+libmagpie-cogl-0.so.0 \
 libnotify.so.4 \
 libpango-1.0.so.0 \
 libpeas-1.0.so.0 \

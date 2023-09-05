@@ -5,10 +5,10 @@ other projects. \
 Main kpmcore library."
 LICENSE = "GPL-3.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libkpmcore12-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "fee4252e160ce5ccbd89f4ec0559131b0c84fc368245c5eaebbef76df14ecd43700d20483330fd1b9a4ff61b44c348ba0570b866b8662187b10cd9cde52443b2"
+RPM_NAME = "libkpmcore12-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "225ecf03cf4f56ee2cb1267a9f818a5db637d40f806d1e3f52b422e7349716b6916475dc1216c00ef3fe50a922d98eecd7bf9c2ac12c0af3157fe4c9e5819e43"
 
 RPROVIDES:${PN} += "libkpmcore.so.12 \
 libkpmcore12"

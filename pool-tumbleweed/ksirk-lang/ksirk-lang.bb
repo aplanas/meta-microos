@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ksirk"
 DESCRIPTION = "Provides translations for the 'ksirk' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "ksirk-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "00788ae1e331f60560108b1381c38dc3ede70f0b3ec31d15a805e63eea51c4a887298ecc68436d4941438a0cd5ea269484f4dc5715e55e61f4068851e46ef958"
+RPM_NAME = "ksirk-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "dee6f738e9c8af1c11e601cebe8f8215d1bffb71ffcf3727b6047e7bac37fd20166aa2bf735d8f0c4d18fc910d25a398edd30ea7a865b892027b724b862ed790"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ksirk-lang \

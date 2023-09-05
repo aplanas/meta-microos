@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "1.6.0"
 
-RPM_NAME = "libliquid-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "4ee66d75027e2f1c976e55a56c64a051b10ecd96fd48eb779e3f59ef5e4ec5846861454be22eb16f19056fb9aa1b698fbe0435353d7efe1df7ee466e9c8b7ef3"
+RPM_NAME = "libliquid-1.6.0-2.1.aarch64.rpm"
+RPM_HASH = "441506c97bcc30e7d5aa2df2b0f7061ff6aaab7856f13ee3af13ff4f5c879d0178535d89c4464d2abac041aab5ccfadb4ad7b3b9597f0f5e2c982e03246f4232"
 
 RPROVIDES:${PN} += "libliquid \
 libliquid.so"

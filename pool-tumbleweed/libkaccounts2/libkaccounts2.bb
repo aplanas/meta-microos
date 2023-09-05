@@ -4,10 +4,10 @@ and services across the KDE desktop, including: Google, \
 Facebook, Owncloud, IMAP, Jabber and others."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libkaccounts2-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "4b8be7ff0b947e571bedbdc06e3c53aecdd18d8b629960d1f0991e4d1583a7b2f3998fbe66a8320965726245e17bc312285e1047494e854655b1a44352a0fbf1"
+RPM_NAME = "libkaccounts2-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "c5b87884b6edd5f2edafd1d942c5e796056bd9c030b0eaea6df3daa65b3a8dd762bae5d3bec0250b617b97871bd64629de619402436b11d73f9ac2befadca828"
 
 RPROVIDES:${PN} += "libkaccounts.so.2 \
 libkaccounts2"

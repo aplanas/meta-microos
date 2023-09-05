@@ -2,10 +2,10 @@ SUMMARY = "Perl support for freeradius"
 DESCRIPTION = "FreeRADIUS plugin providing Perl support."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
-PV = "3.2.1"
+PV = "3.2.3"
 
-RPM_NAME = "freeradius-server-perl-3.2.1-1.7.aarch64.rpm"
-RPM_HASH = "df02c7be94974e755a45b8dbc767f263b677bbf06344f1188fbae53c88b0dd558859bad329a4695bfb0731d7927016c8550a9f22993b229fc6627d93ed6d14cb"
+RPM_NAME = "freeradius-server-perl-3.2.3-1.1.aarch64.rpm"
+RPM_HASH = "15012ca9763049ea6de64ec45384d3fed7e10830e2e1b516d03527f38d1e2b4e929cbf112011794affc47cf89a7664d85a52cea0497f19645fe264d0fab68149"
 
 RPROVIDES:${PN} += "config-freeradius-server-perl \
 freeradius-server-perl"

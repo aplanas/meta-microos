@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kfind"
 DESCRIPTION = "Provides translations for the 'kfind' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kfind-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "fa1eab62524fcea10f7e9d3f350d451769582ba6b9e81491e3740ca830cd0973f7abd82b8addfd3f6d27e7e0ac440130528826e587bfc6de7a025970773ed256"
+RPM_NAME = "kfind-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "5c9d81869fe7e5915d41a771f6f4e40440badc76840ae6d3ba5dd0db262639df8e75c247ad0eb4150750ab2d699d346301bcc4a75d091c15776f2701d5ea1b47"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kfind-lang \

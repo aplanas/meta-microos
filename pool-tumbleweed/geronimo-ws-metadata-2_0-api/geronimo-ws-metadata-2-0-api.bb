@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2"
 
-RPM_NAME = "geronimo-ws-metadata-2_0-api-1.2-36.12.noarch.rpm"
-RPM_HASH = "c6130fe97c3247a92575462f54418bafd7456569b17081be2b83eafada64b89eb05e13bbf2ddb1005c8d8f776425055e11b525d7dbab1398d94e6b16ae8ae452"
+RPM_NAME = "geronimo-ws-metadata-2_0-api-1.2-37.1.noarch.rpm"
+RPM_HASH = "0c128432e443526000bc8fb74b534337b2546b7c8f08decddec62a3c75b0a1b4410fc3ac8b27fbc910c0efbdc2aa3712dcf9054ea20d6f741ad16a7d7f07400d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "geronimo-ws-metadata-2-0-api \

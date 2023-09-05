@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.6.0"
 
-RPM_NAME = "wireshark-plugin-libvirt-9.6.0-2.1.aarch64.rpm"
-RPM_HASH = "a17364f5d4d26338c1642422728f1ce18a554a02f299462b89dd47bed03153a18b9f0bffd7b57a28eb63ccfac904f587eef0e14a8e4f8601f575241b6a4f7ee6"
+RPM_NAME = "wireshark-plugin-libvirt-9.6.0-3.1.aarch64.rpm"
+RPM_HASH = "7a8596671e6671ddbe5a986ba264d8b545990e497c74fe0299db86315cf89fa1838733b9fe4b58168fca05937be576311beae0fa834c1a99c753400b3397c2b9"
 
 RPROVIDES:${PN} += "libvirt.so \
 wireshark-plugin-libvirt"

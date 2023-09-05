@@ -2,10 +2,10 @@ SUMMARY = "Translations for package knights"
 DESCRIPTION = "Provides translations for the 'knights' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "knights-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "fcc1d23c04e13dcfc337f7dd6f3b136a7d5c1afa42c3c52c2a988865c74eca97721178124e280cb4dc182699427957d0041106cff3873d70cb7ee63cce9c9e2f"
+RPM_NAME = "knights-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "37c2c4e6bad20099f48cb26fcc5528cebb01bf7497fb1cd1396130f304a3bb450849b0353c7ec479302f671d86d4a73663ac7acdd25b360815da87b09052bbe3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "knights-lang \

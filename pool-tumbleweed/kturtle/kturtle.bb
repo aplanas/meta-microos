@@ -2,10 +2,10 @@ SUMMARY = "Logo Programming Environment"
 DESCRIPTION = "KTurtle is an educational Logo programming environment."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kturtle-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "5b5924955031ad807ee3fab4877fddc1c71bb57de27ab08b468212b8b07fcde3cb4ce767ee4dab621fb1e3b410328ccaceb61ca2af5fc377a15ff6a715ede905"
+RPM_NAME = "kturtle-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "510f1b4a8f57848021764b605ccceedc270280462dbdf46acfcdd2a1cad4a7273f2eb6e2697b1003359c16b8e54c217c1ef5c9e4e05c406c92713f55a727da7d"
 
 RPROVIDES:${PN} += "config-kturtle \
 kturtle \

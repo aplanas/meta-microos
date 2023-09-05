@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2.9.9"
 
-RPM_NAME = "fcitx-branding-openSUSE-4.2.9.9-1.6.noarch.rpm"
-RPM_HASH = "83bab3755624d31eaa373191bdfa70abfd0ab9b8f1d5fc10d15eb244d4774081887065d8d28679988a289c8fc9c36c62c13cf5ac1de3b6d3ce7bd1214eabf2df"
+RPM_NAME = "fcitx-branding-openSUSE-4.2.9.9-2.1.noarch.rpm"
+RPM_HASH = "e372f955eac055d828600d0a90db6f8ed12a6207c6c3b629650ae7c7407dfb7c4dd9319bf1c330c614d6e5ff23753d00f31a19f7033b55bd8d0ca47ad1d269b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fcitx-branding \

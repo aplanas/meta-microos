@@ -7,8 +7,8 @@ LICENSE = "MIT & MPL-2.0"
 
 PV = "4.66.1"
 
-RPM_NAME = "python311-tqdm-4.66.1-1.1.noarch.rpm"
-RPM_HASH = "07bd42ab086152b75c4acbea17ec6a068e5c21d2d81cc9be9a7be78961d3655c1f63609e2c84b84551521dfd1a7422daebe637f312ada3b9698b0c716246658d"
+RPM_NAME = "python311-tqdm-4.66.1-2.1.noarch.rpm"
+RPM_HASH = "789d0c6687f15aa07b8712e57855f55ee2d65caac52e6dde3bfbcf363e8c72089b07369de46044ab47fe36b949c923356849b1ab5041cc30fa06fa51f27491eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tqdm \

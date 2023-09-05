@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains scripts for automatically configuring netwo
 in Microsoft Azure with full support for hotplug."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.7"
+PV = "1.8"
 
-RPM_NAME = "cloud-netconfig-azure-1.7-1.3.noarch.rpm"
-RPM_HASH = "28421fda86ba78526f363f0a82e8b2ab2ae56be5fba01b57038ed9264f1e52583b01d4aec1c3838f60882299d3f230a7e0d2ebf1517ce377e8c095ee9a81dd97"
+RPM_NAME = "cloud-netconfig-azure-1.8-1.1.noarch.rpm"
+RPM_HASH = "cb66bab924ce0b6075ff15023281c18a2aecdc284a46aeb866cf9977f38c595afa61d81bdaa15b8777471ebe0e8aba3936e472fce400c310e10a8414de9bd3fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cloud-netconfig \
@@ -16,7 +16,6 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
 curl \
 sysconfig-netconfig \
-systemd \
 udev"
 
 inherit rpm

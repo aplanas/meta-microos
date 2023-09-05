@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later | BSD-3-Clause"
 
 PV = "1.5.3"
 
-RPM_NAME = "pam-userdb-1.5.3-2.1.aarch64.rpm"
-RPM_HASH = "b8006dcfa8042edd16057470ba1a1cf004b478368a71f2a93fa27731ef0cecd63bd75c442c18e7f734968ad5d64d706df853c4e859af65fcd43b16e714d46be6"
+RPM_NAME = "pam-userdb-1.5.3-3.1.aarch64.rpm"
+RPM_HASH = "52b949c788a5a03fef1cf61f530ce87a22b9244e6ce1948de0f44fc453e27a3db967163d21c4da0e62af9b23b0cc27af2e1c44d85661605c8e16c00820464ee9"
 
 RPROVIDES:${PN} += "pam-extra-/usr/lib64/security/pam-userdb.so \
 pam-userdb"

@@ -9,10 +9,10 @@ deep hierarchies of protocols. The library provides a set of tools \
 as examples of what can be done within the context of this library."
 LICENSE = "Apache-1.1"
 
-PV = "0.10.0"
+PV = "0.11.0"
 
-RPM_NAME = "python311-impacket-0.10.0-1.3.noarch.rpm"
-RPM_HASH = "9e7ba47f1da427f6e8fed81f04ac9605a806903f6d3e9fe3b71ee49c5e6b8c3f40f41370b718ada7423634370fbd0173519ae05c625e8f3f693aa521ba0d65be"
+RPM_NAME = "python311-impacket-0.11.0-1.1.noarch.rpm"
+RPM_HASH = "88919420688234798ed21e1778512d892ca21653d86a91d2359f02e3c1630a3fa90d8dfcb80921a3b8e0ce6977ad9944c3d6097b95f08f349072361d1753f398"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-impacket \
@@ -24,7 +24,7 @@ RDEPENDS:${PN} += "/usr/bin/python3.11 \
 /usr/bin/sh \
 python-abi \
 python311-Flask \
-python311-chardet \
+python311-charset-normalizer \
 python311-future \
 python311-ldap3 \
 python311-ldapdomaindump \

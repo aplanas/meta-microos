@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides libraries needed for the correct parsing of
 messages."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "akonadi-mime-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "d294b328417aa55d4f26f43d8b77c3aca71c45f46e8efac58e59f702835d92c105c8e81b3e0ffb7eb4e3d63ab9fd72c57a17b5228623a10f7b3d9748ca21dfc9"
+RPM_NAME = "akonadi-mime-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "41b85550c30fc9e3df5a5c0c9ee2d006ad2118a7585d613f6224f6d3614bb3bd1631c2fbbd57630e72a45768ca7a78cf9b6a12970cb968dc268552494a66bc7e"
 
 RPROVIDES:${PN} += "akonadi-mime"
 

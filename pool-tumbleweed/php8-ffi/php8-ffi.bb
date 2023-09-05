@@ -5,10 +5,10 @@ without having to have deep knowledge of the Zend extension API, and \
 without having to learn a third 'intermediate' language."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.9"
+PV = "8.2.10"
 
-RPM_NAME = "php8-ffi-8.2.9-1.1.aarch64.rpm"
-RPM_HASH = "1561e4e0470ed39705d6807173288240c3cea7302545b9619113eff114b72635dcbad02b5e0765dbabd50ac424570aa7132969c7a2463a99267e7e1e07b2b21d"
+RPM_NAME = "php8-ffi-8.2.10-1.1.aarch64.rpm"
+RPM_HASH = "f05aa2fba30dcd4968905140940232306cc64caf288a84b36ffb8d3db170a1c53e82f3704c8bd1b389b3cb08a102a0a0be10785c2f291412009fd0c0bdcd771b"
 
 RPROVIDES:${PN} += "config-php8-ffi \
 php-ffi \

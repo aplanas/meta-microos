@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kde-print-manager"
 DESCRIPTION = "Provides translations for the 'kde-print-manager' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kde-print-manager-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "08991cdf387bc3691628509ca5e1b59c869a779b9421b84dc1cbfec6d4e14801a231294e11d998bf33fe04a65101485201e06743e4b1e3b84c88a94c2c1a1f79"
+RPM_NAME = "kde-print-manager-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "e37844a4b26bc6cfa67b147dea0bc6d7b2e95ff8deffb8ba2d87b4a8fc8692640f45b988b9c52172f7d9b370e15516241397e6b00d007d4f3b086c0476eea8e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kde-print-manager-lang \

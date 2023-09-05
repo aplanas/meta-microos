@@ -7,10 +7,10 @@ typically used by graphics drivers such as the Mesa DRI and X \
 drivers."
 LICENSE = "MIT"
 
-PV = "2.4.115"
+PV = "2.4.116"
 
-RPM_NAME = "libdrm2-2.4.115-2.4.aarch64.rpm"
-RPM_HASH = "587d4e78f1a1316643f178b358445e61ce5c8a9676849ca38d412d29b5faf68c2ce2f69e277cca8c4653a6a8d8fdb5aae777de562e5030f60d804c8380d92eda"
+RPM_NAME = "libdrm2-2.4.116-1.1.aarch64.rpm"
+RPM_HASH = "3dce86542fcb8c79bb67806ff22ba225b00a0a051df4c48045c28720eec7b949dd091a4930b5e5ba6827b3d154757d0ef3482e2cd29f08ba580ffdae3409eedd"
 
 RPROVIDES:${PN} += "libdrm.so.2 \
 libdrm2"

@@ -2,10 +2,10 @@ SUMMARY = "Header files for the girara library"
 DESCRIPTION = "Header files for the girara user interface library."
 LICENSE = "Zlib"
 
-PV = "0.3.9"
+PV = "0.4.0"
 
-RPM_NAME = "girara-devel-0.3.9-1.3.aarch64.rpm"
-RPM_HASH = "cd32f3717b0f52458278a59de2171211e2de066fa2d5a71c2f231b41cd0537cf66c5510a90bbdc933b20c726b66b0103c0a0ff450d68a68612dbcba66e6cea4a"
+RPM_NAME = "girara-devel-0.4.0-1.1.aarch64.rpm"
+RPM_HASH = "33622707a9d01f629e7ac5ca080702f078fbbce01eaf3aa99195f07a450a34e2f38878b98169240256877e074bcc7b2200930395105bcb31b594ad44cecec757"
 
 RPROVIDES:${PN} += "girara-devel \
 pkgconfig-girara-gtk3"

@@ -4,10 +4,10 @@ via the Remote Desktop Protocol (RDP) following the Microsoft Open \
 Specifications."
 LICENSE = "Apache-2.0"
 
-PV = "2.10.0"
+PV = "2.11.0"
 
-RPM_NAME = "freerdp-server-2.10.0-3.2.aarch64.rpm"
-RPM_HASH = "31cafe00057187c58bd3f27aeceb65eaf9c0d62388e303e61514b1191cc95b6f3e3abc7466bfb3a4e2725d635af290b8b7a1bd65db8bcf10c6538997781e3561"
+RPM_NAME = "freerdp-server-2.11.0-1.1.aarch64.rpm"
+RPM_HASH = "023412367dc47432f6910ab4687789f95ecd2a12c874eb93b2c180a0095c78f13150955248c3ed24b006b0c33b1e745658ae3ad13c581037d3e789d38dad2639"
 
 RPROVIDES:${PN} += "freerdp-server"
 

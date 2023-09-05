@@ -6,10 +6,10 @@ full access to internals. \
 These are the core tools with minimal dependencies."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.41.0"
+PV = "2.42.0"
 
-RPM_NAME = "git-core-2.41.0-1.3.aarch64.rpm"
-RPM_HASH = "054503d25e790a5b33cfc8554d3c260489579981e6e5c4784d2348e87377b3fbb5f81691ecad5b62aa1b3adaac420ab149cad8382f433ad2fb613dbb90e7b5f7"
+RPM_NAME = "git-core-2.42.0-1.1.aarch64.rpm"
+RPM_HASH = "36aef593f38479b2d5baf2f8f4b9736bddd344af5863cd54f87c405d407ae806553aa258468f4949d74e7e627cecf17565bb5e02c0a63f43dfe963839c529151"
 
 RPROVIDES:${PN} += "git-core"
 

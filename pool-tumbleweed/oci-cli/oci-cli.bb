@@ -6,10 +6,10 @@ Some of these, such as the ability to run scripts, extend the Console's \
 functionality."
 LICENSE = "Apache-2.0"
 
-PV = "3.30.0"
+PV = "3.30.2"
 
-RPM_NAME = "oci-cli-3.30.0-1.1.noarch.rpm"
-RPM_HASH = "78d8f5872f0c3be25e22fb6d25619836be9c4cf1f7510061d777e240061a69bf04e6165f9a2b0417ddb5c11a9d030cacd4ac0686942f53fcd0f2f91ddf90a72d"
+RPM_NAME = "oci-cli-3.30.2-1.1.noarch.rpm"
+RPM_HASH = "eb6a2cc6b28698568e3a5bd1b44afc00b09435fe228ffc9b2d854365b9bf410d4068b705b549d85bb09127e7eae20ae33fe37944a829306915d8c09ca6039ee6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "oci-cli \

@@ -2,10 +2,10 @@ SUMMARY = "Micro-compositor optimized for running video games on Wayland"
 DESCRIPTION = "gamescope is a micro-compositor optimized for running video games on Wayland"
 LICENSE = "BSD-2-Clause"
 
-PV = "3.12.3+git1.77d9432"
+PV = "3.12.5+git0.a8471d8"
 
-RPM_NAME = "gamescope-3.12.3+git1.77d9432-1.1.aarch64.rpm"
-RPM_HASH = "02c42e99d8bb5055ddf6821979682be6e299425f18e3d5b80422f16b1f22caa9bd6e4f485c60870e391e3fa8f400ce842296dc15d3bec796e065cad93c869703"
+RPM_NAME = "gamescope-3.12.5+git0.a8471d8-1.1.aarch64.rpm"
+RPM_HASH = "5344846229e3f4f71a869f06ce612d60777b398c7bc7062baccca0a089f05e1429967961f9550014b4fa59431b98d9ed6a2ec613af74c687541e3fdefd81f438"
 
 RPROVIDES:${PN} += "gamescope \
 libVkLayer-FROG-gamescope-wsi.so"

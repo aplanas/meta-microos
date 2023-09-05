@@ -2,10 +2,10 @@ SUMMARY = "Audio recording application"
 DESCRIPTION = "Recorder is a simple, cross-platform audio recording application."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "krecorder-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "1aa32307f164268d277441099cb3de192cc4aecc2510e610eb824aa2a9567221cae5f63fd47248ba175372260683294315702850180b1e82a36b15f9db052297"
+RPM_NAME = "krecorder-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "fd81e048b2a942cf2e4330ad9f94bac437834e542636b05f3b4cd4425bd3e17ce23b5f12bc2f6e935d687fadb94f5d7ca2a7ee9d95fe37f0f23669770c10522f"
 
 RPROVIDES:${PN} += "krecorder"
 

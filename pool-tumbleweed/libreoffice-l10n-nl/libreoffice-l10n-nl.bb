@@ -2,10 +2,10 @@ SUMMARY = "Dutch localization files for LibreOffice"
 DESCRIPTION = "Provides Dutch translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.0.3"
+PV = "7.6.1.1"
 
-RPM_NAME = "libreoffice-l10n-nl-7.6.0.3-1.1.noarch.rpm"
-RPM_HASH = "47323a066809d53c64c127764ecc856e947c71670ee637b6cef981750fc29dcb2efa994f52666163a2d51c8e0eb3ac60004db2aebf1e66ff45ac5e0bc3888060"
+RPM_NAME = "libreoffice-l10n-nl-7.6.1.1-1.1.noarch.rpm"
+RPM_HASH = "eb579cad445b52868bb8954b9bd0b7a6a1bf9a78ce56280a357fb0987fdf1a1ae31c51cc548b4652f48cd0426a13b27734001a74f29081849f6b1c784e187eef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-nl \

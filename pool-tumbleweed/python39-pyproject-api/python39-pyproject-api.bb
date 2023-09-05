@@ -3,10 +3,10 @@ DESCRIPTION = "pyproject-api aims to abstract away interaction with \
 pyproject.toml style projects in a flexible way."
 LICENSE = "MIT"
 
-PV = "1.5.1"
+PV = "1.5.4"
 
-RPM_NAME = "python39-pyproject-api-1.5.1-1.3.noarch.rpm"
-RPM_HASH = "473f7f03fc2ced5e2c2eb5aa71fb02e438747cb4c385cd508f560a308cce3b4b19e18ee67fb4d9319f51095de7477616ba10249b4515146ebd5772c04cd3685f"
+RPM_NAME = "python39-pyproject-api-1.5.4-1.1.noarch.rpm"
+RPM_HASH = "2673447fc476ad30bccdcb7aaf8474b8b80af09c8d44aa689ceb1bf1406d9654b162a49b07fb5d4bf751c6a600756222c632c122fd42e2ac9cc4682f015d5643"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pyproject-api \

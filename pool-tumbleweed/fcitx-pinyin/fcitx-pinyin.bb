@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.2.9.9"
 
-RPM_NAME = "fcitx-pinyin-4.2.9.9-1.6.aarch64.rpm"
-RPM_HASH = "7070b991daf6151b3b61c7a863ddb935ecdd1676e07b3063a4634174f067bf08bb1384a93076efe9acb8f910d7fbc30601b7cd854e47d6be02388582b1187fbf"
+RPM_NAME = "fcitx-pinyin-4.2.9.9-2.1.aarch64.rpm"
+RPM_HASH = "3c3d8865e456cdecf9029bbe25383c12939ec6836e4f5696d299e4be88c6ca741349e7e4bbe0aedc5d56665dc9d57e673bc7b8197313fa9a18b99318f8b192c9"
 
 RPROVIDES:${PN} += "fcitx-pinyin"
 

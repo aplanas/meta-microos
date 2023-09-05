@@ -2,10 +2,10 @@ SUMMARY = "Nepali localization files for LibreOffice"
 DESCRIPTION = "Provides Nepali translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.0.3"
+PV = "7.6.1.1"
 
-RPM_NAME = "libreoffice-l10n-ne-7.6.0.3-1.1.noarch.rpm"
-RPM_HASH = "20252fdfc1de0037e2d0d7cf6b15df0b4a7c9b1608bbbd218ae52ca5ad1b6f2b00e357b6e26f3613cd6899ca8f71a2eea538e208f8f2c450be5eaa21d2d5356f"
+RPM_NAME = "libreoffice-l10n-ne-7.6.1.1-1.1.noarch.rpm"
+RPM_HASH = "a5535866090519cc583d717a5591b5ed85b6330928ffe31dc32ac6c9e6785b4b99f666604bb283491ea2ae47cee15e4613ccb58d319bb408dfbca37ed96b9b46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-ne \

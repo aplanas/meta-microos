@@ -7,10 +7,10 @@ This subpackage contains the manual pages and documentation for \
 libxcb."
 LICENSE = "MIT"
 
-PV = "1.15"
+PV = "1.16"
 
-RPM_NAME = "libxcb-devel-doc-1.15-2.3.noarch.rpm"
-RPM_HASH = "fe15ceefac62b82510315e661c68d2ea8132ca97c8ccb18eb541ce36f955b50ab726fabdcda3bdc7c70a8f8131726a66f1b1a24a35deeca7612a99a1c24b0e32"
+RPM_NAME = "libxcb-devel-doc-1.16-1.1.noarch.rpm"
+RPM_HASH = "6d9b74524409c32443b742412fe1492bb87959daf915a6eab0112ad6ea986b12761aa8173574a5c0dbdace10bc98afdd686d616eba768fec52d1c33e06e2c730"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libxcb-devel-doc"

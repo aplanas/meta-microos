@@ -6,10 +6,10 @@ to the laws of physics. Every property of bodies/forces in the \
 experiment may be changed, even during simulation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "step-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "117e01f76f33e274e95c5b6820202c188bc420a0d56743f4dea3ffd04067ca13d75b1719f24984db54899b0e1c5e693d1f3ab61fb0847d94ca1fc8d94d80421b"
+RPM_NAME = "step-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "37b1ebebff8a9346d1e445023b8f9259e245e515390d8b3abbc9abd6584a53ade932f46316c8e62be7dcfc31118ae65001922f920b37264819d10af7d3e6521a"
 
 RPROVIDES:${PN} += "step \
 step5"

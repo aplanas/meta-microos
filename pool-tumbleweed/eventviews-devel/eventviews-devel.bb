@@ -2,13 +2,12 @@ SUMMARY = "Library for messages"
 DESCRIPTION = "The development package for the eventviews libraries"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "eventviews-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "7ac86327cb2570b814775485208ab0b16d19aec2376a6cb8a51170f08e11137a1c598c0d798630e1fd70a80a3bd360796adf9e3845dd3e142dd7ebb9d0411954"
+RPM_NAME = "eventviews-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "a192125492ee43934db450490472f943b32ac51249a72197a91cea77b252f64576f049f35c589a0c5b95809af71c10a67c04775fc7717c2423040a41ae5f2ab0"
 
-RPROVIDES:${PN} += "cmake-KF5EventViews \
-cmake-KPim5EventViews \
+RPROVIDES:${PN} += "cmake-KPim5EventViews \
 eventviews-devel"
 
 RDEPENDS:${PN} += "cmake-KF5CalendarCore \

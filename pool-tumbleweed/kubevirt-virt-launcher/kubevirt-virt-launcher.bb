@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "kubevirt-virt-launcher-1.0.0-6.1.aarch64.rpm"
-RPM_HASH = "2a8fbbc47d46fdfc1a7112f92d4848b4ecf3191fbf49737c1e290958c79b4296215b0b7e45c78ab9193cfc6d0ed69d80136b9bcda3cfb61bccc04651f5044609"
+RPM_NAME = "kubevirt-virt-launcher-1.0.0-7.1.aarch64.rpm"
+RPM_HASH = "11404cac209e8f3bd813d688f1f53fc181b30bfeec468c5e805e4a8a181879ec942add7370939415ea5d930a0a1d32df5e550552ff4d7ad22e2ac8cefc2df301"
 
 RPROVIDES:${PN} += "kubevirt-virt-launcher"
 

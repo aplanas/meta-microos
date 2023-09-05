@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kpmcore"
 DESCRIPTION = "Provides translations for the 'kpmcore' package."
 LICENSE = "GPL-3.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kpmcore-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "87376a0836c3ddf8c6953ad91adafdbf48dc7eb6a2a4f38b2743cdb4090f677a40e821e06d70802e8c7148684852e7c956448349ba27eb132f9b09e3c490db1f"
+RPM_NAME = "kpmcore-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "87964b0f2266af5a0cfbc68b85a7db10bd381a8d15099f4837be025553c78760a0ac8565be249c69b2d5f45af2f8ed0e40d6c2b6de8cd732279d8cb2bd9b74ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kpmcore-lang \

@@ -2,10 +2,10 @@ SUMMARY = "Development Files for libburn"
 DESCRIPTION = "Development files for developing applications using libisoburn."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.5.4"
+PV = "1.5.6"
 
-RPM_NAME = "libisoburn-devel-1.5.4-1.11.aarch64.rpm"
-RPM_HASH = "005effe6486ddcc0bfb359e1b767ef0635ca699f81083067027529de08419d0d5db156d4f2c05b687848ad98cc8cb06947c48246b221a8c4657db0ba92aec2c1"
+RPM_NAME = "libisoburn-devel-1.5.6-1.1.aarch64.rpm"
+RPM_HASH = "f8c2c214fd2728f3b583c99bff76e0663f4c74e5482735f2ee78057514f6ee226afab8cfd8f81145818f1842fb7febb9df94655869b5b0c4fd805bca82352272"
 
 RPROVIDES:${PN} += "libburnia-devel \
 libisoburn-devel \

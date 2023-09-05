@@ -4,10 +4,10 @@ following the Microsoft Open Specifications. This package provides the \
 wayland-based client application."
 LICENSE = "Apache-2.0"
 
-PV = "2.10.0"
+PV = "2.11.0"
 
-RPM_NAME = "freerdp-wayland-2.10.0-3.2.aarch64.rpm"
-RPM_HASH = "930753d5e60c6edf82e077c9de9a784afec96e992f66b4e0f5c18d692fde2dca6b486ce5f9cfd53585e93ee898789d568bd6fca026acb0cfd8f6fd33f6cf155e"
+RPM_NAME = "freerdp-wayland-2.11.0-1.1.aarch64.rpm"
+RPM_HASH = "c000ebec1eb9cff377c9a8e9d7b3b3bb15b77548b07e3b3c25f6d95091eae55762001b9f284dfe0511b4731bab90b2702e268f8631d6f9d9162ffca95598b78e"
 
 RPROVIDES:${PN} += "freerdp-wayland"
 

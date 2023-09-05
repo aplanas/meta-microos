@@ -10,16 +10,12 @@ LICENSE = "Saxpath"
 
 PV = "2.0.6.1"
 
-RPM_NAME = "jdom2-2.0.6.1-1.7.noarch.rpm"
-RPM_HASH = "e229007d153d2a57f6d444ea9151790ed3a15381e829fd3d0c219c2dced2256456a721c6b0fb5308646822eba3be9ad3a54d3b5ed28bb611cdbb5510c363d2c3"
+RPM_NAME = "jdom2-2.0.6.1-2.1.noarch.rpm"
+RPM_HASH = "1b99f8497266c5bdd7972b8afea5b9dc873fd163b15378baadbfe49b10b66ceb582673c170e7c46ef4eb45da2ab279246a31582a86c49a0c35cdf9cb411119cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jdom2 \
 mvn-org.jdom-jdom2 \
-mvn-org.jdom-jdom2-contrib \
-mvn-org.jdom-jdom2-contrib-pom- \
-mvn-org.jdom-jdom2-junit \
-mvn-org.jdom-jdom2-junit-pom- \
 mvn-org.jdom-jdom2-pom-"
 
 RDEPENDS:${PN} += "java-headless \

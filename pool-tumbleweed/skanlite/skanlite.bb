@@ -2,10 +2,10 @@ SUMMARY = "Image Scanner Application"
 DESCRIPTION = "Skanlite is an image scanner application by KDE."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "skanlite-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "ac5cf929877c3a4a3103ed3028297badf4cc550707a1c86510e220fcb206a807ba0903e7e8cf64bf13256a3f3ea1186ce9a4c7e9fae63dcdcd303389683e2887"
+RPM_NAME = "skanlite-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "018d5f497675b8d40f9f1dbab16a4c622b4e90d85c8ad95145140bf43daffebe61940f607c9a30612524f4d4c7d31cf9e6a2fefedcd742d9f0fc6da68dce9050"
 
 RPROVIDES:${PN} += "skanlite"
 

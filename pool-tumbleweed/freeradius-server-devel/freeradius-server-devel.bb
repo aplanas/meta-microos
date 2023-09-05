@@ -2,10 +2,10 @@ SUMMARY = "FreeRADIUS Development Files"
 DESCRIPTION = "FreeRADIUS header files for development."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
-PV = "3.2.1"
+PV = "3.2.3"
 
-RPM_NAME = "freeradius-server-devel-3.2.1-1.7.aarch64.rpm"
-RPM_HASH = "93587750692a45394ec8b2d5e93a942da2373fb8a7df9bb2364d9fed48fc59aecf33a05fd14e3553a7e401f2f0a5f48b24530ca1f64e26d7120e0f112482a03f"
+RPM_NAME = "freeradius-server-devel-3.2.3-1.1.aarch64.rpm"
+RPM_HASH = "b91cd175041d32abe780c9fac0de135479c9e2b586c25c8d6ce6fc05b558c9d2eac8bd4357b6ae57f7bd7b57b3fe377a916f5c4eaf0c8dc5a2f8cd8ebc447550"
 
 RPROVIDES:${PN} += "freeradius-server-devel"
 

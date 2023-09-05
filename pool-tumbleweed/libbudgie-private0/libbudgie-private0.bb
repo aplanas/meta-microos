@@ -2,10 +2,10 @@ SUMMARY = "Private library for Budgie"
 DESCRIPTION = "Private library for Budgie desktop to link against."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "10.7.2+0"
+PV = "10.8+0"
 
-RPM_NAME = "libbudgie-private0-10.7.2+0-1.2.aarch64.rpm"
-RPM_HASH = "2a24696d17914b48faaf7b862c7b36b303944217d7dc1f8ece4bc61ac966432d0b423b5853b7900548d551b5491f07291fad3e5ecbd7a1913410971bd248d993"
+RPM_NAME = "libbudgie-private0-10.8+0-1.1.aarch64.rpm"
+RPM_HASH = "a8219f0ea1b047187b5e5eb28f603c4c692a3ee5ad4b8b028a69e2ea5d339e8e53f87899f43cdb5857c789d79742039cf311d634268f47556b2f30a7284ea741"
 
 RPROVIDES:${PN} += "libbudgie-private.so.0 \
 libbudgie-private0"

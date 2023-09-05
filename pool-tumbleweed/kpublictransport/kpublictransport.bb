@@ -3,10 +3,10 @@ DESCRIPTION = "A library for access realtime public transport data and for perfo
 ransport journey queries. QML imports."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kpublictransport-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "31c078ee58ba5d1fbf17a7ed70dd6ff1c88521a22e55a606e7e74cb67b906422cc276146f7bea884f06d7ebc272e0f9e0b3c3e2e62b2f2ae4b0fab333dd0a61e"
+RPM_NAME = "kpublictransport-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "679c39f744cefe252bff9a883267edb4f853669cbc4cc91f7126786c5f81d58c09ac56a0db191f1ac92f072c0b386a1035a3e6759e0d930ebf1831fdc1b1fafd"
 
 RPROVIDES:${PN} += "kpublictransport \
 libkpublictransportonboardqmlplugin.so \

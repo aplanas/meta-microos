@@ -5,10 +5,10 @@ remained young at heart. Eyes, mouths, mustache, and other parts of \
 face and goodies can be attached onto a potato-like guy."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "ktuberling-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "7efe7f09a83b8440aae6d38b6c2b56de04a419c4b72943988d6082ae0582af31695d58d87741ae67f63f438871766befbaea8ca821c3ae532a931d66a8248c82"
+RPM_NAME = "ktuberling-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "241a428301ffff740daeaf29218768ad9047a6848a7a66c2f735e2a73dd86e25b15773ccf771340a2dbc3969237185c7343ad0b5ff51efdce1aaac7ed9230312"
 
 RPROVIDES:${PN} += "ktuberling \
 ktuberling5"

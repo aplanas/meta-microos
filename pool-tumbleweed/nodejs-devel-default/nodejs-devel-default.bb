@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "6.0"
 
-RPM_NAME = "nodejs-devel-default-6.0-1.1.aarch64.rpm"
-RPM_HASH = "027859f434220f5f7db51afd880431ec88f0395a6a0de1760f285383ce600fd232bda017635f13dada6b792d7a3231832ffed7da26de8eb8c4c8633a20cf0885"
+RPM_NAME = "nodejs-devel-default-6.0-2.1.aarch64.rpm"
+RPM_HASH = "bdc9b9c3dabfe83ad2e3af7049430c14927a7c5e2f24e04860bb4a7937b8c99a7b242a9a67de0d1c581072d2df2a37b40ee1d3be5766771bfdb85da89b211dd1"
 
 RPROVIDES:${PN} += "nodejs-devel \
 nodejs-devel-default"

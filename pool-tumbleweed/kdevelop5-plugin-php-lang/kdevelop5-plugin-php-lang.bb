@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kdevelop5-plugin-php"
 DESCRIPTION = "Provides translations to the package kdevelop5-plugin-php"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kdevelop5-plugin-php-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "03888c0531b1182be661a23febfb750b55c0a8f94cd4d82ef249f4b61d1714c40dd3ed4981a3910ed4cf7d108b3adfdc87504a31d1ac0084776662c574c0ac95"
+RPM_NAME = "kdevelop5-plugin-php-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "62af9c385ffdd22637fe2e0e4d5c63413c4be0660a0901830b7faa5425b05cb672d048da72c4fc8362acd94b4e93c35359bd9259631af5ca16c9376ea281d4f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdevelop5-plugin-php-lang \

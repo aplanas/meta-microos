@@ -4,10 +4,10 @@ bytecode in shared memory, thereby removing the need for PHP to load \
 and parse scripts on each request."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.9"
+PV = "8.2.10"
 
-RPM_NAME = "php8-opcache-8.2.9-1.1.aarch64.rpm"
-RPM_HASH = "66b588166541bb0a4d0b624d9a71644dc874e81b3191a34edeb8e7359c6dd40da664916cb0f7d2322f9a37856d4cabe5817cf4a0247c6137f60fa6291a6c3d15"
+RPM_NAME = "php8-opcache-8.2.10-1.1.aarch64.rpm"
+RPM_HASH = "85535080e47cbc58e3f7f789c96244416a188140830923838c7918cb5d193320292b88997d1bc5c7ab8916e71add5b6394c439abed07f5c1beb3a5985cd207a0"
 
 RPROVIDES:${PN} += "config-php8-opcache \
 php-opcache \

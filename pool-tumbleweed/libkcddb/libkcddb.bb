@@ -4,10 +4,10 @@ applications to fetch and submit audio CD \
 information over the Internet."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libkcddb-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "69281018b6ae9ce09bc901f74317fec916b43b2c686832a8446e153a6ebfe4ea8a9e87d75cd777a2c6855c66a05b5385f3b67b3c6490c4296a141c61ac91150f"
+RPM_NAME = "libkcddb-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "e15b93d7fc160c56b4bc13305b2f20234158a481d1305db88ff0c95834b0dddb3e385a5e82f41f7fa8b94444492c6c8c056d15d15256cf8525e1747904571e7b"
 
 RPROVIDES:${PN} += "libkcddb \
 libkcddb16 \

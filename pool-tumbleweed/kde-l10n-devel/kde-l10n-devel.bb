@@ -3,10 +3,10 @@ DESCRIPTION = "This is a collection of tools that facilitate translating DocBook
 files using Gettext message files (PO files)."
 LICENSE = "GPL-2.0-only & GFDL-1.2-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kde-l10n-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "4421cafd3df417e9e6de4c1edc6b4ae1554165301ef5fb7e9ef82afa88e66ae774422fb06dc3c82b6af349a984a850f0e37aaf8139d1917134e5f9f7acf0a42f"
+RPM_NAME = "kde-l10n-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "53971668ce798fcc767d75ebc1000251a4c719544849ff35858ddee40ae141c59568ac487125a9642a3e10757088922c019174343a4eb802a9d9cf70db84af1b"
 
 RPROVIDES:${PN} += "kde-l10n-devel \
 kde4-l10n-devel \

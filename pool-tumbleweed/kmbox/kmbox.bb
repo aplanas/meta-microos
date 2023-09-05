@@ -2,10 +2,10 @@ SUMMARY = "KDE PIM Libraries: Mailbox functionality"
 DESCRIPTION = "This package contains the basic packages for KDE PIM applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kmbox-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "06c3ecd93da7f6661290d2cafe812469b0cae98ee45c19260da413296c39da7a9801ea89365271fc89eb179b354d9dc8b42042511a1c1cd9ee7c12ce5ecbe568"
+RPM_NAME = "kmbox-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "c8b20f8e8a5dd6b3a270f66c983446e79e793007974fab47a26ef0c3850380149afb5d8e701b7548c99ebdff76f88d5f553cbc36fef3eedfb4ac73d2e020cfd1"
 
 RPROVIDES:${PN} += "kmbox"
 

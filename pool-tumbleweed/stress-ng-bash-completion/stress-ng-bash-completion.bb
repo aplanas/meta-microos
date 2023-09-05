@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for stress-ng"
 DESCRIPTION = "Bash completion script for stress-ng."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.15.06"
+PV = "0.16.04"
 
-RPM_NAME = "stress-ng-bash-completion-0.15.06-1.3.noarch.rpm"
-RPM_HASH = "79d3a6d25dfaf2d9aa7f6a4bf406d97e1a15b9fd73ff0434ec8419981282f8de2d4ab975f18f2a5105f0f51e7382965fe69189e3217fab69dd21b2c92e80f70c"
+RPM_NAME = "stress-ng-bash-completion-0.16.04-1.1.noarch.rpm"
+RPM_HASH = "a7d884efa5bbfe5f1e8f85078b7ca179abddfce12ead6aac75b0b2902d506f6957c6b0e495d0d8e81b272877025418d1587e0963bace937062608cbbcb69584f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "stress-ng-bash-completion"

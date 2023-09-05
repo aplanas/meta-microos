@@ -3,10 +3,10 @@ DESCRIPTION = "This plugin checks the hardware health and various interface metr
 network components like switches and routers."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "10.12.1.8"
+PV = "11.0.1"
 
-RPM_NAME = "monitoring-plugins-nwc_health-10.12.1.8-1.1.noarch.rpm"
-RPM_HASH = "ffe8a86eb84990f874149774bc9f4444afb7d9768be5a6e55613d3b819a2245b28f0c035085184b8bd6c57502a9d7f51b1d5944fd6e2b550a4ec4a7e2973e7af"
+RPM_NAME = "monitoring-plugins-nwc_health-11.0.1-1.1.noarch.rpm"
+RPM_HASH = "273298305cb81531570b2346148dcedf2fad317ec0c1a2858a6ccd71c2475e3e1a5a1e17cf190c8e85d83f692af453c2bf30295fad9d1770933590db5cdcd49f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-nwc-health \

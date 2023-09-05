@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2023.4"
 
-RPM_NAME = "shaderc-devel-2023.4-1.1.aarch64.rpm"
-RPM_HASH = "18e60ca496c2849122359a23f58df7595f33db6341794432d0c704e0e61549797ff93b551ef8e3b888271a60887160a0e78e2480fb13ca80f38ef83eaa5601ec"
+RPM_NAME = "shaderc-devel-2023.4-1.2.aarch64.rpm"
+RPM_HASH = "9779b7368da321fbdcc1547a2a15c4b15d294273b89f9db3567fc96ad656bb927cb4132339fb8910aa5bfb1ef3a4a6580bfb45439ac88d7e44de4c8b0c2ebfc9"
 
 RPROVIDES:${PN} += "pkgconfig-shaderc \
 shaderc-devel"

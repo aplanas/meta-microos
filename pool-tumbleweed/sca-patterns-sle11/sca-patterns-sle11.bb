@@ -5,10 +5,10 @@ issues relating to all versions of SLE11 \
 See /usr/share/doc/packages/sca-patterns-base/COPYING.GPLv2"
 LICENSE = "GPL-2.0-only"
 
-PV = "1.5.2"
+PV = "1.5.3"
 
-RPM_NAME = "sca-patterns-sle11-1.5.2-1.2.noarch.rpm"
-RPM_HASH = "427ef99c0010fe3fa3d14a25c41063a30cecba10781b97cf01b70d16a9b8ba68dfe268980b03a03f3aaa0aa4b9ed35a2040cc6b80dd00348e4b67b76ee462b13"
+RPM_NAME = "sca-patterns-sle11-1.5.3-1.1.noarch.rpm"
+RPM_HASH = "fd1f1f06114ca805edb58fe3ddb26074efbacaa9f5b863874bea13d6f42a142ca179b16ab5aa22e7e477f4e76f6c3a30b0ed8a178e464f770da2bd6a3ac53381"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sca-patterns-sle11"

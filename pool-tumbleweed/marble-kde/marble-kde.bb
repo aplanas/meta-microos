@@ -2,10 +2,10 @@ SUMMARY = "The KDE optimized frontend for Marble and several Plasmoids/Wallpaper
 DESCRIPTION = "The KDE frontend for the Marble map viewer. It also includes several plasmoids and wallpapers for Plasma"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "marble-kde-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "f437bc4c116b6ddaba6eb1383757fc6c8f8c2ad5d7fe9490622a1f2ed3fada553237a29a4f45fd79b08af6e4ecb230a92161e1ed38dc82ad83f3c386abee6128"
+RPM_NAME = "marble-kde-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "8d8a212590b53573b8f18b031cd17b5f49fa9e385a50f163a5223940285a436831a1088e5ec9fdac7cfd367326ccb0c793bbadd6416095cc20d323f19ffb4f9b"
 
 RPROVIDES:${PN} += "marble-frontend \
 marble-kde"

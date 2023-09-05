@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kdiamond"
 DESCRIPTION = "Provides translations for the 'kdiamond' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kdiamond-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "c371e4574132ae2bed5e16852ffda8305759843fc0e564e3d95b782bc121ad5a69dc5b82ee027569f4113fb0dbeae8a651eef3a29ec68e14afe0f263e53bcc7c"
+RPM_NAME = "kdiamond-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "69e89143db287299658f09bd13585e8d3643dfdac02900520ced0d6d0b31d3ee239b313857d1214c4d0cdc0ace34cf8e854fdcb6b1c7826e6394dc1098923dd0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdiamond-lang \

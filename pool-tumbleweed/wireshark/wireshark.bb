@@ -7,10 +7,10 @@ including a rich display filter language and the ability to view the \
 reconstructed stream of a TCP session."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "4.0.7"
+PV = "4.0.8"
 
-RPM_NAME = "wireshark-4.0.7-2.1.aarch64.rpm"
-RPM_HASH = "be2e2bc9d3f381ad26a74dd33c7daacecff7f13ed9c9d1e849b877bfa400349755e775af0418711506ab70ba991a4f3e33a61d584d34457197f8e12e7594f9fb"
+RPM_NAME = "wireshark-4.0.8-2.1.aarch64.rpm"
+RPM_HASH = "95b342cdfa5d42f4f4ea6bf043a4e541b89a4c49205ff73cf8e3a17648c3d51c97406974b4221039c1c1a428b308876b3eed118d41d58f8b913f75b46d4eb387"
 
 RPROVIDES:${PN} += "ethereal \
 group-wireshark \

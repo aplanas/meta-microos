@@ -4,10 +4,10 @@ DESCRIPTION = "Apache Ant is a Java-based build tool. \
 This package contains optional apache regexp tasks for Apache Ant."
 LICENSE = "Apache-2.0"
 
-PV = "1.10.13"
+PV = "1.10.14"
 
-RPM_NAME = "ant-apache-regexp-1.10.13-2.2.noarch.rpm"
-RPM_HASH = "80b1ff2db0db07c7b455f1e2d0fb5fa66dda6edad78deb396f5b01bbe7eaf34baee143ee543452402f9afe02a8818bdaf2bba7db9531d1ac87a97ddad42e133d"
+RPM_NAME = "ant-apache-regexp-1.10.14-1.1.noarch.rpm"
+RPM_HASH = "89b091454ca9cae249da1c82a0fae0490576ef1974ca1c7a91524fe16d758b1a6e751ef29276c2f34a2ba9369f82e455924c7d5134347d1d706b93e39d4b9dca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-apache-regexp \

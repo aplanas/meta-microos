@@ -2,10 +2,10 @@ SUMMARY = "Translations for package partitionmanager"
 DESCRIPTION = "Provides translations for the 'partitionmanager' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "partitionmanager-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "c66074741f50fc04024bd8947b32deaef1e5186ed4b419eaa9e40f9e19cacf11208fa464eb189f8a02436d8ed957ff14c82448ffa50267cc9f5dae563abd83fd"
+RPM_NAME = "partitionmanager-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "428309f149a2e98aaa8d95186cf30e330379183114f68e66f9b5a50ead4179f2d8e22b3268168bd3a36ead5f6252e726b59a54b8abf2589b0ba2984c4e746b0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-partitionmanager-ar \

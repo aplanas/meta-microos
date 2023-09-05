@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kalarm"
 DESCRIPTION = "Provides translations for the 'kalarm' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kalarm-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "e7811531704e1c7ec2f8852fd957313b7d287c5ba80d1acf07a00ca716469b6f98c4586e63fc6498fdbf93c7fcbafb503f5a8ac94bfaaab4547ad8a661cbc032"
+RPM_NAME = "kalarm-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "a9787a1a83c2cb08f954ffbea622dcea75cf7716971f771936a7d2f47875a7b0bfa4cbfea96aed835d8047e17ba78252abda7617e5dacba8c475b698f707f1be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kalarm-lang \

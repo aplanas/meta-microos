@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kongress"
 DESCRIPTION = "Provides translations for the 'kongress' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kongress-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "32b41b0f66c29c0cf55f2fd847c96e069aee1c427ab61a388f3dbd9f2da46104ece55d3aa4fd3f378f0fb48f1f1f3c8f0da0cf36dad16084dc3967bfc4e1264a"
+RPM_NAME = "kongress-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "9f8b2c003941eeb0284b3a5f1f9c32e1c6cee13aeef4b8898d602613d362d202495f9c051d23a9f4f5097a0eee329b9857f59e293b5ced8102abb91233bc9832"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kongress-lang \
@@ -17,8 +17,10 @@ locale-kongress-da \
 locale-kongress-de \
 locale-kongress-el \
 locale-kongress-en-GB \
+locale-kongress-eo \
 locale-kongress-es \
 locale-kongress-et \
+locale-kongress-eu \
 locale-kongress-fi \
 locale-kongress-fr \
 locale-kongress-gl \

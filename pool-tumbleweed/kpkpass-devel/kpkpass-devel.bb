@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to build programs that use the kpkpass library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kpkpass-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "667b81326ce093b332f05f9e1325ad7d966bdee968d33ce946bbf70b335b4da0d3070fca088de8c9e2e377205ed3fa61845b9fe7ae8cd457f9f0f4a0a1310422"
+RPM_NAME = "kpkpass-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "98e864a06a4bc6eea9c97ca0e9b37e0848fd86ea8861c9e102d4c61af2507e135e9c232a236ed6dfdbb3ecc12b776d4fe3ab3e3ea38f88ff69a227e5cdf6e0f4"
 
 RPROVIDES:${PN} += "cmake-KPim5PkPass \
 cmake-KPimPkPass \

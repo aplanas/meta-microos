@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.2"
 
-RPM_NAME = "python3-OpenColorIO-2.1.2-3.2.aarch64.rpm"
-RPM_HASH = "82a48dbeead9bd94cbef5c562e60b3d6527c8dde83bd1515483563352891bdf2ddf4619d8019a4ad99cf8f8ccd0cb90900f9ac757d6905c8be4797d33c67d32f"
+RPM_NAME = "python3-OpenColorIO-2.1.2-4.1.aarch64.rpm"
+RPM_HASH = "7b930d104ee1dafcdc14912090850b8b7176afe2aa8036fcfa25cbaf63cd52f85d15108ae2ad78c295c05472180358a589689e2231de747e8468a58f1b466f28"
 
 RPROVIDES:${PN} += "python-OpenColorIO \
 python3-OpenColorIO"

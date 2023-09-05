@@ -2,10 +2,10 @@ SUMMARY = "Translations for package akonadi-contact"
 DESCRIPTION = "Provides translations for the 'akonadi-contact' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "akonadi-contact-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "e265244ac21cab714efd547154adb1a9919eca75eea9ecab806273ea2e843c3df7a1b18f3e7139f46addcdc05e07d7fb7c6c931e9b7bff67d86a240f700ebcb4"
+RPM_NAME = "akonadi-contact-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "1c51415b11e673af23501a351d0a238ffd3d874f90444ae10c4129328423e3246aa185736893156320fe882c921238fc93119bca4f790d91caf29310098f99b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "akonadi-contact-lang \
@@ -60,7 +60,6 @@ locale-akonadi-contact-sr@ijekavian \
 locale-akonadi-contact-sr@ijekavianlatin \
 locale-akonadi-contact-sr@latin \
 locale-akonadi-contact-sv \
-locale-akonadi-contact-th \
 locale-akonadi-contact-tr \
 locale-akonadi-contact-ug \
 locale-akonadi-contact-uk \

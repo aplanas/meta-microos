@@ -3,10 +3,10 @@ DESCRIPTION = "KAlgebra is a math expression solver and plotter. This package in
 a QtQuick based version for use in mobile (phone, tablet) environments."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kalgebra-mobile-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "12912aa99c6be18c2dd79e66ea35d574748f6133cfd7582dc723e93ee7428984667df01032d15806ed17f15c65eede05928254930a1cfbeafd461405436d0e26"
+RPM_NAME = "kalgebra-mobile-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "4ad1db6dee7e547d0d5d4f9facc40666a200eed9df1894c7464b540b5c326087d4489886e68190b31a1c9b6aae83faded6d1c1659bf1c0fad8714fc22871c77e"
 
 RPROVIDES:${PN} += "kalgebra-mobile"
 

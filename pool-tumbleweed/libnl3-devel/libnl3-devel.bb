@@ -3,10 +3,10 @@ DESCRIPTION = "The libnl suite is a collection of libraries providing APIs to \
 Netlink protocol based Linux kernel interfaces."
 LICENSE = "LGPL-2.1-only"
 
-PV = "3.7.0"
+PV = "3.8.0"
 
-RPM_NAME = "libnl3-devel-3.7.0-1.5.aarch64.rpm"
-RPM_HASH = "393da3aee2fb885e846bca5956bdc1f05151f57a97d1bf5a22d6f6022ed1e74810d04a8e7ed94e4967e6ebb02223ce1cd36dfacb3258a7c6f1164d5f17d5f9e1"
+RPM_NAME = "libnl3-devel-3.8.0-1.1.aarch64.rpm"
+RPM_HASH = "7c1b948222ae8ff960811e8c54baac5bc7c1bde4947860401e5effaec0d5b00070edda27cab37ec72ee297f64fdba1c26b735df468ee75196beaef5c8580d8a0"
 
 RPROVIDES:${PN} += "libnl-devel \
 libnl3-devel \

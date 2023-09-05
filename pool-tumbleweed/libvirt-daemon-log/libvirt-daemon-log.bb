@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.6.0"
 
-RPM_NAME = "libvirt-daemon-log-9.6.0-2.1.aarch64.rpm"
-RPM_HASH = "f3a81ab6ceb8c939ddcdbe606041bb09feb46501f4faaaeb786c1ed9bd579540845350af7e5ee6297bca9e1344620d595f6e17ab376625100785174bcbce2f62"
+RPM_NAME = "libvirt-daemon-log-9.6.0-3.1.aarch64.rpm"
+RPM_HASH = "6f5c2a8d4ee9e297bebb54b052e00a5de2d4f02483441ab4b1d2ec1f1b61f0de5278a9005baf98d4b812e8acea9a5e06eaf305e5fa24ba1db95b6a97ca0b21a4"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-log \
 libvirt-daemon-log"

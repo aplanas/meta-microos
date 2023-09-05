@@ -2,10 +2,10 @@ SUMMARY = "Galician localization files for LibreOffice"
 DESCRIPTION = "Provides Galician translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.0.3"
+PV = "7.6.1.1"
 
-RPM_NAME = "libreoffice-l10n-gl-7.6.0.3-1.1.noarch.rpm"
-RPM_HASH = "1e29151c8d38ebf5a33fb14352aebb9c4ca71219976c4ec4878a863d9b0acdd600b37c28fcf0ffcc7e259a864b94347c121a5a97b30b217080a3b5cdc016fb03"
+RPM_NAME = "libreoffice-l10n-gl-7.6.1.1-1.1.noarch.rpm"
+RPM_HASH = "3a5ab2c09000c9d4f50b97b5f649b1d864e44c4d54ced7cef78661328465abedaaecdde7776cee4f9b8d1fc1a01423870f3905d5022976b53d5a1dce69d13e5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-gl \

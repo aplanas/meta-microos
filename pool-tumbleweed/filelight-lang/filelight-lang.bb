@@ -2,10 +2,10 @@ SUMMARY = "Translations for package filelight"
 DESCRIPTION = "Provides translations for the 'filelight' package."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "filelight-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "d7e500e678fb54fe2aab7cc309e043f06f5aaa76898900f5f8ff42b68e1c593abd7029056aa51a9f7b487659696d76be70fe1d3dd54ca76c7c8e83abe9ed730a"
+RPM_NAME = "filelight-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "175d6df20609f02828bd9df4ba4b2a98dfa4dc6e9261a5c3a0e613355ff87982ec54d70830cb0eca5b35de79f2b66621e1494e11526938dd56162e6eed98516b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "filelight-lang \

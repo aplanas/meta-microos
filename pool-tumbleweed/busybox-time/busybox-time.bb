@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.36.1"
 
-RPM_NAME = "busybox-time-1.36.1-28.1.noarch.rpm"
-RPM_HASH = "997cf47aac6fac0b5053da6adbd8d437a8e0106dba3134ec4a9e14151bdf2dd7e2bcaa3038685a88ace7bd4adec9e7fcfc58293881e876d71d274857040bce0f"
+RPM_NAME = "busybox-time-1.36.1-29.1.noarch.rpm"
+RPM_HASH = "78483bea97adadaad2cbb57a49446e1cb657fd8bafe22038eb75258995f62fdd4bcbb0b935ffdecc1896141a7762fcc0f8d1d3c64d78ccc65677cfaf739cb09a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-time"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kiriki"
 DESCRIPTION = "Provides translations for the 'kiriki' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kiriki-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "32b5394629fdfa2f07e31573a131d0d4e6343f0fa45455a05b01781ddb59c2b7730081c594d3b852c18e6f5fae7c560645187036c5dbbc2b7bb61f9b1a47a730"
+RPM_NAME = "kiriki-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "60d34cbb952fc3c254d7eb477552b936bb3b38ab203ec4535c438ed9822e70dc1ad6852f8bb5834a2637f7bd99b161c399dc5c741464ba70fe62a78dba34ee6c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kiriki-lang \

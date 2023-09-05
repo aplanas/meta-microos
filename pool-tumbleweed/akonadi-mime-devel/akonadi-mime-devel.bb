@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains development headers needed to use MIME mess
 in KDE PIM applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "akonadi-mime-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "2da5030e3be9d974661d3305de0e43bd96af9890b9786cecac6a7e0f046ef670dc702eae1ca95b6fa9197c4960dbe19201fe19345ac17a349ac36c09442f0dc9"
+RPM_NAME = "akonadi-mime-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "352cd52840b60eee9d5bf518e4ada060333a1e73fa4b6a67d27511bb749c6559f64a0280c9bc9c8be37f9d93489a876a3744d1b71e71055f3fa47db13b3bf93e"
 
 RPROVIDES:${PN} += "akonadi-mime-devel \
 cmake-KF5AkonadiMime \

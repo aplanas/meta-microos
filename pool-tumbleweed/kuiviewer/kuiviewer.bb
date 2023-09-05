@@ -2,10 +2,10 @@ SUMMARY = "UI Files Viewer"
 DESCRIPTION = "Displays Qt Designer UI files"
 LICENSE = "GPL-2.0-only & GFDL-1.2-only & LGPL-2.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kuiviewer-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "affa933511e5df5da0fc10417dbe446397063e2d42f7be038616a01aac027c80ed1ab0ac1050bf34fc811f5d21cec8055acc1ec149ed9d971a0a4cf48ad0e3f2"
+RPM_NAME = "kuiviewer-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "268bd4e6001f8a32d34a113e354646c0e148d67bdfff1c15316d645733bcdb1ad114e9d5ccaef5d6868dd9ee7a1d5f71169c4c26709ac1b3378f8bcabf112192"
 
 RPROVIDES:${PN} += "kuiviewer"
 
@@ -17,7 +17,6 @@ libKF5CoreAddons.so.5 \
 libKF5I18n.so.5 \
 libKF5KIOWidgets.so.5 \
 libKF5Parts.so.5 \
-libKF5Service.so.5 \
 libKF5WidgetsAddons.so.5 \
 libKF5XmlGui.so.5 \
 libQt5Core.so.5 \

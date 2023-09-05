@@ -2,10 +2,10 @@ SUMMARY = "Screen sharing using the VNC/RFB protocol"
 DESCRIPTION = "VNC-compatible server to share KDE desktops."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "krfb-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "2880a665eb141338b472d7340d54001f1ab8d07bdfc976cee6b82e94c570c51dc03376bc831abcb4f1ccdc156e4d5aaf49319f32d0230d6b258408ee6254c758"
+RPM_NAME = "krfb-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "bf45d44a7addfbb4f78ba001238a6ce68172d0753cb011ba9f2056a51966ff761bdb1ee7faf48d668b99a4762ba93b2338e3ddcddb2cc43614ecd101507f669c"
 
 RPROVIDES:${PN} += "krfb \
 libkrfbprivate.so.5.0"

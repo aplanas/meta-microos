@@ -6,8 +6,8 @@ LICENSE = "IPL-1.0 | EPL-2.0"
 
 PV = "3.8.1"
 
-RPM_NAME = "postfix-postgresql-3.8.1-1.1.aarch64.rpm"
-RPM_HASH = "247ec9b949d10d4e221fdb471b3ffcd41809fd1281064e4871cde674e32b873056e9d74dce5441a88b90e10d81966fa6e39779016e36ed2d4a920fda32b5df63"
+RPM_NAME = "postfix-postgresql-3.8.1-2.1.aarch64.rpm"
+RPM_HASH = "f340fa6657e673559ae20625dc33e0e648a807dcd884b2726f32bc5c4af507d6f539f1fbee59d1859878e6c0cdec4e24e32e84ee71304110f777d05e9bc539d3"
 
 RPROVIDES:${PN} += "postfix-postgresql"
 

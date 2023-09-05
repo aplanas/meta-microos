@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains compressed kernel firmware files for \
 various platform drivers."
 LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
 
-PV = "20230814"
+PV = "20230829"
 
-RPM_NAME = "kernel-firmware-platform-20230814-1.1.noarch.rpm"
-RPM_HASH = "39154f48da8dc18eac31462378a494658cf8e5f20cb63622fabab91fd14ed7d4d5c061792684933bd8ead947b3c4016e7c99c8de26b8611009a6f3b31bd2f712"
+RPM_NAME = "kernel-firmware-platform-20230829-1.1.noarch.rpm"
+RPM_HASH = "25329ce73d407e79647da48eb49a2cd7b31d3253b2c1bf79b193e751e81fb3f2330f23e22cc9d964592b0f3f519a7ccb390a76941b50c31d53b8eca733adb141"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-advansys/3550.bin \
@@ -16,6 +16,7 @@ firmware-advansys/mcode.bin \
 firmware-amd/amd-sev-fam17h-model0xh.sbin \
 firmware-amd/amd-sev-fam17h-model3xh.sbin \
 firmware-amd/amd-sev-fam19h-model0xh.sbin \
+firmware-amd/amd-sev-fam19h-model1xh.sbin \
 firmware-amphion/vpu/vpu-fw-imx8-dec.bin \
 firmware-amphion/vpu/vpu-fw-imx8-enc.bin \
 firmware-ast-dp501-fw.bin \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package krecorder"
 DESCRIPTION = "Provides translations for the 'krecorder' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "krecorder-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "50920ecf187682981c1ff16fe47240676b997834c8b20d550ba15050bc1d2048af2765951c7b56cf0befd19ade91082798ff041cedc80474910c157428498bae"
+RPM_NAME = "krecorder-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "7f680c2c15cba78c338d85b68e9c4bb1e153efd19b7dadccbe43d36a56c9ac2aff7a4784b64b735144a46d360347d9cf0111741c8558670c9c0ebc160e8755d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "krecorder-lang \
@@ -18,6 +18,7 @@ locale-krecorder-de \
 locale-krecorder-el \
 locale-krecorder-en-GB \
 locale-krecorder-es \
+locale-krecorder-eu \
 locale-krecorder-fi \
 locale-krecorder-fr \
 locale-krecorder-gl \

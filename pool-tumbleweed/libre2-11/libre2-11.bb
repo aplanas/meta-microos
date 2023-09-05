@@ -12,10 +12,10 @@ searches run in time linear in the size of the input, at the expense of some \
 missing features (e.g. back references and generalized assertions)."
 LICENSE = "BSD-3-Clause"
 
-PV = "20230801"
+PV = "20230901"
 
-RPM_NAME = "libre2-11-20230801-55.1.aarch64.rpm"
-RPM_HASH = "e345e0d7de83619699d263800a3749e3caca3dd2b7ddd3aff8b6e2e174425f4d22ff05e8c188befa0fc6b227e05612d4ac44c1d91fd00c6ef0f93ecece7468da"
+RPM_NAME = "libre2-11-20230901-56.1.aarch64.rpm"
+RPM_HASH = "191bd0a27dd7d744c7402ff7e1930c73fcd8b524e5d52f0487dd1a572ba64ec8bf14298c7db0fbfd974abb47c4d7c4034966f5e7fcd49b8a94b9f6ce8aea5217"
 
 RPROVIDES:${PN} += "libre2-11 \
 libre2.so.11"

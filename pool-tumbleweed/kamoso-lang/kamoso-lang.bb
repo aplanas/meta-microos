@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kamoso"
 DESCRIPTION = "Provides translations for the 'kamoso' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kamoso-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "01a4000488ab1769dc185f765e96138f9556a460d7baa2c99e85ba38c0b0c53c58620584d8fab50aba70c49aaccef5f005117c8ef68381908f20969d7f426d0f"
+RPM_NAME = "kamoso-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "cb206f18a1b6be04c91637f13f913526a20c222b219539e2767d3c8f8175b89749ab1322147aa296443169bd9b0b72c8347cb8d61f9b875623b8df8f18e46c0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kamoso-lang \

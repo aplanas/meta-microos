@@ -8,8 +8,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.12.0"
 
-RPM_NAME = "libImlib2-1-1.12.0-1.1.aarch64.rpm"
-RPM_HASH = "8cdc6dc08b3bc559f3615ef09e08f12d4e9c61148dff8bc64cfb1a854c6ac485894b6ba87a3c68fb9a2a35ee6fa78d9d6da27028cbec121478298a7831ede484"
+RPM_NAME = "libImlib2-1-1.12.0-2.1.aarch64.rpm"
+RPM_HASH = "12c8c81cd9d754f7d9c95342b6ec5a0af40fd821dea12dd54d72ffd812ae2f6142630934d5acc089d85446adbe57f280afeec53feb87490c5d5fa47d17a0bb47"
 
 RPROVIDES:${PN} += "libImlib2-1 \
 libImlib2.so.1"

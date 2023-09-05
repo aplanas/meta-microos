@@ -2,10 +2,10 @@ SUMMARY = "Translations for package khangman"
 DESCRIPTION = "Provides translations for the 'khangman' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "khangman-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "d33a55b4b282b899e313dd0aa958be9ea8cf13fea5c5faf80f396a0f19225e3aa381e6e5ddaf3d9fbd502e58af3ffa3607dca9459221f831b9cca9f1c7a8bca1"
+RPM_NAME = "khangman-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "af0d339d1be5f24f70baa053b2ecf5374f74c77b677c7d5da8a8324fbd02970f6a3c8ca73e06d1bb506750231b1f1a13fa40645f5c309c627c5fd627c20085d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "khangman-lang \

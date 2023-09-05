@@ -3,10 +3,10 @@ DESCRIPTION = "Libkexiv2 is a wrapper around Exiv2 library to manipulate picture
 metadata."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libkexiv2-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "f2a46b03fc381b808b92b2346da8f7168fcdcd9a52ce5f949b2a3823ea881b93743f6ddec69cdcc6ebc11da8ecc97b39cbae0785b9dde43d37bb879709a49a9a"
+RPM_NAME = "libkexiv2-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "51f24beaf0b873e0699fc8f22c2ec10faa2f658c61a4881c7ec81ddeee149d547b0e408ca63bfc368c7621d400d3f84115aac45467189118f8e395886df0536d"
 
 RPROVIDES:${PN} += "cmake-KF5KExiv2 \
 libkexiv2-devel \

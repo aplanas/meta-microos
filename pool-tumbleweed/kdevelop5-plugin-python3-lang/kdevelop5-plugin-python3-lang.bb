@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kdevelop5-plugin-python3"
 DESCRIPTION = "Provides translations to the package kdevelop5-plugin-python3"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kdevelop5-plugin-python3-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "7c4f9ced95c881f82ff5c79fba8fee03b2217a295e5d05193a800de97e2c6172a662e4c8a95e2ea923bb3f94faba54888043041e64305e081d72bdef10d3329a"
+RPM_NAME = "kdevelop5-plugin-python3-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "438d8ef86fdb43774c716a95b382eee2967056c5bf7d9629308bdcc7cf6c2d64547ed5625d4c3a28d99e9e1cb265623e72b9ccc6427e76088c0247436bfa5762"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdevelop5-plugin-python3-lang \

@@ -5,10 +5,10 @@ or files from the backup. It can save to both local files or remote locations. \
 Although GUI based, it also offers an automated, GUI-less mode."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kbackup-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "e011e523eca5fdae60f9f694ff40525a5c41c2fc097c5efd3d1e6df4f57f9f9cf6a8859ff80d2180ee2a7deae13668eaf7afafcf77d808f1d0e20a373b857887"
+RPM_NAME = "kbackup-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "53340e46d732a69096ed32050393e6ec568462f6da9ec212e5c9506842763b8aa49895bbb0405744e371b36b7d41f8e94ae99c3a50125e770bb827377bc53bc9"
 
 RPROVIDES:${PN} += "kbackup"
 

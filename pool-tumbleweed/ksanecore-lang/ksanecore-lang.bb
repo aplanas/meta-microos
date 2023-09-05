@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ksanecore"
 DESCRIPTION = "Provides translations for the 'ksanecore' package."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "ksanecore-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "57f9df3cb5825efb3f6ea9f0d0775c90febf57cfe24157b1768ae88255aab5e5055f139042c8c780cc065ba9f4e80527ee5148a200580c6aa4e52dc99c922ff9"
+RPM_NAME = "ksanecore-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "afaea467f072529a5674f38343229489a258094aa4ca1c38989f8f1477c24572d9336134aece07b4a7197933f03b4756744d0050d92b55a02408e7a400a9be7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ksanecore-lang \

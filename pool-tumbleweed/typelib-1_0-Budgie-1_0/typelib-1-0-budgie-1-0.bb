@@ -4,10 +4,10 @@ developing Budgie Applets using interpreted languages, such as Python \
 GObject Introspection bindings."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "10.7.2+0"
+PV = "10.8+0"
 
-RPM_NAME = "typelib-1_0-Budgie-1_0-10.7.2+0-1.2.aarch64.rpm"
-RPM_HASH = "3f25a5b34678545953fce232743a8c29ae0be692d74b9dddef88e94914347f36e7ed3957d4b1cda17dcc6ba921992615bcee5bf5c8f6769aafb14c69882525cf"
+RPM_NAME = "typelib-1_0-Budgie-1_0-10.8+0-1.1.aarch64.rpm"
+RPM_HASH = "58b64bd47fcaba98ea09c73044b7a5b9a30cda1be4aa7aa655e60a934682be6b06318c1fd021ddc415cc27fb3ebb1ac7c743b18d90439a48269be67febe08c6e"
 
 RPROVIDES:${PN} += "typelib-1-0-Budgie-1-0 \
 typelib-Budgie"

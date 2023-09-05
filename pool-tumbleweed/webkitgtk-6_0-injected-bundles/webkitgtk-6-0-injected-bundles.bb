@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
 PV = "2.40.5"
 
-RPM_NAME = "webkitgtk-6_0-injected-bundles-2.40.5-1.1.aarch64.rpm"
-RPM_HASH = "8b2419060d5e20b9c39ba503b2767e3d378e2ac36c7ccd7d5adbbb2ae2ed4cc889079b5bcf55646e8c265b8152adeda85674f0eb41662e5876192014c7e84c23"
+RPM_NAME = "webkitgtk-6_0-injected-bundles-2.40.5-2.1.aarch64.rpm"
+RPM_HASH = "30f43f53a4599ae818f2c05ce22b42d10e3b3f46eaef5d5dac7c90f139f77144baa862672b456aa35b29f9a5f816e4023bb923fbe39468c590ebc9afe2fb0d75"
 
 RPROVIDES:${PN} += "libwebkitgtkinjectedbundle.so \
 webkitgtk-6-0-injected-bundles"

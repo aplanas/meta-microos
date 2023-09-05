@@ -2,10 +2,10 @@ SUMMARY = "Akonadi Xml library"
 DESCRIPTION = "This package includes the Akonadi Xml library for Akonadi, the KDE PIM storage service."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKPim5AkonadiXml5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "1786ac4fc974ad4b748f07806387e5fd48afc02ddbaaaedf98a66060461b418e71efb55db28b44c0e7365ec190b9e00599824bc9970712b476c5dd91dfeb2ea1"
+RPM_NAME = "libKPim5AkonadiXml5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "dff9f62e350c05d3bfa405f9fcaf74054b3f136a13e48ee558cda63266623c34eb1aa111b83821861a1b0efd989febca20719c5977a231517d372882bdfe75f8"
 
 RPROVIDES:${PN} += "libKPim5AkonadiXml.so.5 \
 libKPim5AkonadiXml5"

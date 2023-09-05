@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kdialog"
 DESCRIPTION = "Provides translations for the 'kdialog' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kdialog-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "ca5b0c478d081e672254e9333ce0d6f3efcc261de68de5eeda20d0402a0c0125bd0195c38ce1e2c45a1e2ebdb3d123b92c3216e268b4a4fa650f8932983869a7"
+RPM_NAME = "kdialog-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "92f8744577edc343b0adca593fdb5606532580502e96fdaa855f85a182d9a1a97964cd7e75fa6e2d95c9c72f8b93c48145c308ed036f3b20089689e1da4612c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdialog-lang \

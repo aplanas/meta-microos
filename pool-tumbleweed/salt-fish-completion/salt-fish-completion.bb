@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3006.0"
 
-RPM_NAME = "salt-fish-completion-3006.0-2.1.noarch.rpm"
-RPM_HASH = "cd7dd54fe4b1dd63aa97c4bc127eb7dfbabfa8652996c633c36aedd15c8165921356e8e8c572c9f8965461ee3d09a8b3518001f0df9bc1275ce410845006ae2f"
+RPM_NAME = "salt-fish-completion-3006.0-4.1.noarch.rpm"
+RPM_HASH = "04b00a85ffcec2561ed62a30aa07329532e40ed0c19efad786f136727703976fe0f274c0bb228d8d5baf25d015fa198b3cfede7998e42d0001d15f5d49c84664"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "salt-fish-completion"

@@ -7,10 +7,10 @@ such as an integrated ad blocker. \
 It was previously known as QupZilla."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "falkon-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "a01658a2c22a918780d8c704784b8089ccbf7e3a4023d25b1c3d1897016171518807f69973f91c795a75c46a153ba4b22801fcace5f5dbad201875908373df52"
+RPM_NAME = "falkon-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "858b3b5deb26b8368bc220040b5d4664d8f055a8c6cd2d00758c8f22b67de3196e5ecf8cb564b5c1433b89dd570b6b9ca121cdf580d403f35ec8c8de36d826c5"
 
 RPROVIDES:${PN} += "falkon \
 falkon-gnome-keyring \

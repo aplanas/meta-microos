@@ -2,10 +2,10 @@ SUMMARY = "Georgian localization files for LibreOffice"
 DESCRIPTION = "Provides Georgian translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.0.3"
+PV = "7.6.1.1"
 
-RPM_NAME = "libreoffice-l10n-ka-7.6.0.3-1.1.noarch.rpm"
-RPM_HASH = "0e1d849c661744133a7c21f4107e63e91fab3ac536565f3548bb1c0b0493298843fa480843f5007941c05d73bab59c159e60f6e0e61c77d31cce0a6ce507f532"
+RPM_NAME = "libreoffice-l10n-ka-7.6.1.1-1.1.noarch.rpm"
+RPM_HASH = "ca0962242ca18038a12ef64bbe9d91320f300c8cf2eb0cb4ff4c9fa7ba427e3cdca924ebfcb6bbe2538da8adffa0fbceed9f83df365c36e1049c53c2f5064402"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-ka \

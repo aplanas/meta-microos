@@ -8,10 +8,10 @@ code the user of libinput need to provide the common set of \
 functionality that users expect."
 LICENSE = "MIT"
 
-PV = "1.23.0"
+PV = "1.24.0"
 
-RPM_NAME = "libinput10-1.23.0-1.2.aarch64.rpm"
-RPM_HASH = "545e7f8b998360c8d2253d7e12056805215ad9d25818e1625385f5346ec9807c3e528a804a73ef9cea186c78464baf170eaffe4a1ccb4a335be614cac1d84ec1"
+RPM_NAME = "libinput10-1.24.0-1.1.aarch64.rpm"
+RPM_HASH = "3e2b9203471129bd8a52dc159ece3de997b9e6db7efc8666603ac9fdd5ac2f93bcfc7af288daf43b4bd72d799c19178575081f1a5e13f479cb789d0f33915009"
 
 RPROVIDES:${PN} += "libinput.so.10 \
 libinput10"

@@ -6,10 +6,10 @@ preparing technical documents. \
 This package contains the Iosevka SS13 typeface (monospace, Lucida style)."
 LICENSE = "OFL-1.1"
 
-PV = "25.1.1"
+PV = "26.1.0"
 
-RPM_NAME = "iosevka-ss13-fonts-25.1.1-1.1.noarch.rpm"
-RPM_HASH = "d51c31474b3d7dee0d1d442f87f8ce5e6ca7560f2e716e40ff673170d7b27acefd9839a8a6e1b27ee051fa004e3367ddeb8bbad523a999411db74acc125ed028"
+RPM_NAME = "iosevka-ss13-fonts-26.1.0-1.1.noarch.rpm"
+RPM_HASH = "d474ab9cc447727db627d0112f122f90dc8905bbd8bdc1b09fe8eec3011cefd3203835934ec0abdb432c01436bd5de8fbb315c12d9b90b68854e293fe66dab38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-ss13-fonts"

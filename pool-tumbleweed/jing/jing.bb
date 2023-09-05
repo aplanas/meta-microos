@@ -16,8 +16,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "20220510"
 
-RPM_NAME = "jing-20220510-3.2.noarch.rpm"
-RPM_HASH = "d43b5e03628b853be92a7d92d1a2ec30d2c3031bb32586883abbb93fd1c27295a17e62608cac9d02c818c2a7d2540344f991d0794ded7be757e973bc43ad4d6e"
+RPM_NAME = "jing-20220510-4.1.noarch.rpm"
+RPM_HASH = "b700d240a3eb3d5a1094a6132bbce89480cffc38b10f91719b295e5a71ddfef0e5c7e509317f7f1c82c39d037ee6d418dc14a5a7625399f9c079ec51ae57ca3a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jing \
@@ -31,7 +31,7 @@ javapackages-filesystem \
 jpackage-utils \
 mvn-com.github.relaxng-relaxngDatatype \
 mvn-isorelax-isorelax \
-mvn-net.sf.saxon-saxon \
+mvn-net.sf.saxon-Saxon-HE \
 mvn-xerces-xercesImpl \
 mvn-xml-apis-xml-apis \
 mvn-xml-resolver-xml-resolver"

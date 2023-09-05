@@ -3,10 +3,10 @@ DESCRIPTION = "Multi-platform clone of the classic music making software \
 ProTracker 2.3D."
 LICENSE = "BSD-3-Clause & CC-BY-NC-SA-4.0"
 
-PV = "1.61"
+PV = "1.62"
 
-RPM_NAME = "pt2-clone-1.61-1.1.aarch64.rpm"
-RPM_HASH = "1804c72ac60af3836131b741adaca61bad7318dd25084777dc4ae968aa97237827d650cbd07b1a34f2a6395bcb04f5c2b2df83f1e22e570759cdedaea205f5bc"
+RPM_NAME = "pt2-clone-1.62-1.1.aarch64.rpm"
+RPM_HASH = "0facbb28173cf6d8ed1762f1437b6f699f0bbfba4eab2444c07ee921a5c8942add7fd08c79c843df973b96d10311032859e5dc961491f3e986c979879647a392"
 
 RPROVIDES:${PN} += "pt2-clone"
 

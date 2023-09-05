@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kajongg"
 DESCRIPTION = "Provides translations for the 'kajongg' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kajongg-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "fb0ba90ad4b5c3d462c44be758e5851cdfce3459ae603c5a16a198e9d3b97064ed9ada9773648af8f693b2af1d2483591a7f66642a06e7111aff3e0bc01e2862"
+RPM_NAME = "kajongg-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "2456670bc8d6211211406a6e526036ec2072ae28863c4c1fe66e16e0fa24f2818ba0c4fae056ac98c1237c53b05a713cf6ab43fb29dbf6b720e7900542056adf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kajongg-lang \

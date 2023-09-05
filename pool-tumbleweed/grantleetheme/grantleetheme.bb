@@ -2,10 +2,10 @@ SUMMARY = "Grantlee theme support"
 DESCRIPTION = "the grantleetheme library adds Grantlee theme support for PIM applications."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "grantleetheme-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "bad52855cb4633f0b3ced7744e629bbd8a81358fe95b0e10f3863c7f5a3b1fe9a9739a01ab6c356e3ecf57e203e3700fddffa8a1be1ad13aa7b26e8ffb0b21d8"
+RPM_NAME = "grantleetheme-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "00fda29804e61ab00682cf94a2fc1f055cc398eb26ea29a5419af811962111b382fd2975a775324edc5848d84040acfd359316625d63ac9839e633c9a22eed85"
 
 RPROVIDES:${PN} += "grantleetheme"
 

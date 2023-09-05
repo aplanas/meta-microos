@@ -2,10 +2,10 @@ SUMMARY = "Touch Typing Tutor"
 DESCRIPTION = "A KDE program that helps you to learn and practice touch typing."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "ktouch-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "c0226d9df5d7cab44493a74450bfa566f9f406cab57397243fad4dc9280e9247145f8f359eaa597f526524265a9b9dd67c819404b98a7c88c3eea58603f09f9b"
+RPM_NAME = "ktouch-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "43720dfc3bf5ad26521952cf2b0ba01398f94b5e2f4db9e7e6f77b38791a1f75145dcd92989c6f6330a36e8c7dc69820580f92b60582bfd17696cf84b2a1b658"
 
 RPROVIDES:${PN} += "kde4-ktouch \
 ktouch"

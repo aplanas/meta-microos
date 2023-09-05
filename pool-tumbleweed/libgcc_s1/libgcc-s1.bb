@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
 PV = "13.2.1+git7683"
 
-RPM_NAME = "libgcc_s1-13.2.1+git7683-1.1.aarch64.rpm"
-RPM_HASH = "9b5b3c0cbd1db711efe1d62655dc0c9e1b30bda231919040397770d19a9cf9fc8e7c95c89556b95a41945c11fba0e672cae8bb26bb068609e3d59725c7a3d026"
+RPM_NAME = "libgcc_s1-13.2.1+git7683-2.1.aarch64.rpm"
+RPM_HASH = "3f369a31ea90311a7456aa0fa2a372a5222ca1e07104fa9dacfded11e0aeda8a7fe3e7fe12a8090cc025d0e5281ebd5e80d8738ee2f00f9f4e2ad53361f2c1bf"
 
 RPROVIDES:${PN} += "libgcc-s.so.1 \
 libgcc-s1"

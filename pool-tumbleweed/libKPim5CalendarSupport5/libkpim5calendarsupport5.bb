@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the calendarsupport library, used by KDE PI
 to handle calendaring."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKPim5CalendarSupport5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "940a217460c2d3327b13d46dd17349cbcaa8bf0686bbfd7b472cedb05c92979e716918e6e1077604422a041ab366e7ad3e8d766a63b033d1107f9bf14581fda9"
+RPM_NAME = "libKPim5CalendarSupport5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "0b7cc04df0931028b9d1bb46ad9012c2190416b15f8dd427421b28dc7f4a3677577e0862fb266195e08c03ad6961001a36484a56add91d6a2bf4ef3796d33bc3"
 
 RPROVIDES:${PN} += "libKPim5CalendarSupport.so.5 \
 libKPim5CalendarSupport5"

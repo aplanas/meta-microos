@@ -2,10 +2,10 @@ SUMMARY = "KDE Privacy Utility"
 DESCRIPTION = "Helps clean unwanted traces the user leaves on the system."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "sweeper-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "db267da2f135f368e0867fa1cb921e52f42bebec0c768d31cb2db72156c354ace0fd87e044e6a1b460cecf94a9f93a9f54ad0e929abb3ae18451a81451a0fbf9"
+RPM_NAME = "sweeper-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "6804c789bc93157563910b131b0133e4c7d6ae25bcc6f662d60512f3c6adf820bd3b1b3420a4b06e4b9cba8be9fef2929b76e1cd55981e5cc0603ee902107b2a"
 
 RPROVIDES:${PN} += "sweeper"
 

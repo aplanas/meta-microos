@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "9.6.0"
 
-RPM_NAME = "libvirt-devel-9.6.0-2.1.aarch64.rpm"
-RPM_HASH = "865ebf5e00083f9d3a1a3ce839fb3c29d1d62edd5065027db49323b4bbac66891fd5d268a8fa12f89fe772b527407fb980c8d1ae4fbcedb22fa0ea40aaf0df92"
+RPM_NAME = "libvirt-devel-9.6.0-3.1.aarch64.rpm"
+RPM_HASH = "bc1060c9dfbdbba0c2959ed6887e417078910be330e7fa87e968455efa10b4ced54bda9d967ee0a20588d6e06bf86af9df0edaeb4d36faac92c8011b5b9c2c73"
 
 RPROVIDES:${PN} += "libvirt-devel \
 pkgconfig-libvirt \

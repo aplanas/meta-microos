@@ -2,10 +2,10 @@ SUMMARY = "Translations for package tokodon"
 DESCRIPTION = "Provides translations for the 'tokodon' package."
 LICENSE = "GPL-3.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "tokodon-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "30130ac74944ac47486b93c46cb756557351f1a2968c5d368624692d2519f178f23468fee3414e65df8a10b9d23b2e48790e8499bb25eb1c6bb14f5037ffb240"
+RPM_NAME = "tokodon-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "50f14f736c46e7f4d06ad48958b65af6bf8350095a63ce49535d43203acd29ae33d471c58cbdeac789063a7370f1f1d96bf0e1a1c8ec741233ca35e989a53737"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-tokodon-ca \
@@ -27,6 +27,7 @@ locale-tokodon-ka \
 locale-tokodon-ko \
 locale-tokodon-lt \
 locale-tokodon-nl \
+locale-tokodon-pa \
 locale-tokodon-pl \
 locale-tokodon-pt \
 locale-tokodon-pt-BR \

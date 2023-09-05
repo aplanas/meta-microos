@@ -2,10 +2,10 @@ SUMMARY = "Itinerary and boarding pass management application"
 DESCRIPTION = "Itinerary and boarding pass management application."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "itinerary-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "c70218024d6838a3708f53b674acd82e8d27f18e0a95006fcfa774775cf21c418aece837e64cbedcc3ffeefc3c6bb4eb8494a907670950a2595109da7b4dd87a"
+RPM_NAME = "itinerary-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "f748baea0f144bd408fda7976c6c5138ced5ccc2e0e9091c982496398fb04bbc675c9b3275a1005fdb3e66e06fcb2b7587b25196f6006eefda17808732b929d2"
 
 RPROVIDES:${PN} += "itinerary \
 libSolidExtras.so \

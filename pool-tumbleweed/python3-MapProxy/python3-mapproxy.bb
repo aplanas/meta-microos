@@ -4,10 +4,10 @@ accelerates and transforms data from existing map services and \
 serves any desktop or web GIS client."
 LICENSE = "Apache-2.0"
 
-PV = "1.15.1"
+PV = "1.16.0"
 
-RPM_NAME = "python3-MapProxy-1.15.1-1.3.noarch.rpm"
-RPM_HASH = "b9954f4e03368a480004be376b529e42c5d5d17fc1912cbfa2a78adc9065c606c8aaeb4cd677a3910cb1b82d6885ff60d09cc2e85730e218a321edd0cd42bef3"
+RPM_NAME = "python3-MapProxy-1.16.0-1.1.noarch.rpm"
+RPM_HASH = "aba06be6dc39856de4de1839e93bcf0d2e473af84896ad962b58d50e96bf203be909a56b8a73b20ce6cbbdc528d7c4c98d6804765a53b8ac924b29e4e8f50e53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-MapProxy \

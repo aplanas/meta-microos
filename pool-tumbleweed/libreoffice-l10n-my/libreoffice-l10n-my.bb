@@ -2,10 +2,10 @@ SUMMARY = "Burnese localization files for LibreOffice"
 DESCRIPTION = "Provides Burnese translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.0.3"
+PV = "7.6.1.1"
 
-RPM_NAME = "libreoffice-l10n-my-7.6.0.3-1.1.noarch.rpm"
-RPM_HASH = "06c3511aa5057432518d025f8d51641f2e6553c4b9023847b278a6ef58029ad7307cdc74f091fc4f517dd1d2105f2d4a320ee7204e09374b1992dc1d08b29ecb"
+RPM_NAME = "libreoffice-l10n-my-7.6.1.1-1.1.noarch.rpm"
+RPM_HASH = "0add192756a94f0ae142b9116734f9ef99164245ef56ecdd00f435457502e77addb6f6a406cc490374255cb3c0a822be7c5129d2008df0fdeb0c6b18d8bd19dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-my \

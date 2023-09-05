@@ -4,10 +4,10 @@ clients to view and capture detailed real-time performance metrics for \
 one or more cluster nodes."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.5+git.313.c8e274c7852"
+PV = "4.18.6+git.320.cfda27bacb"
 
-RPM_NAME = "ctdb-pcp-pmda-4.18.5+git.313.c8e274c7852-1.1.aarch64.rpm"
-RPM_HASH = "cc77b591af56ca493aa437aa7bcc1cf66803fe6a7486f06c81fc8c828558de197027c1ce7d6f24c0e39398e4a3a510b7c769aec82f1c3d8525661bb0cedbbd80"
+RPM_NAME = "ctdb-pcp-pmda-4.18.6+git.320.cfda27bacb-1.1.aarch64.rpm"
+RPM_HASH = "0cd76e30b2dea187ad904687bc716373f37321ba3a09496df7f6d4950411a8ea10f40030dcb4181f425ecb5890f18e21a97dd44a08a295e199d4cd7217bf1b3e"
 
 RPROVIDES:${PN} += "ctdb-pcp-pmda"
 

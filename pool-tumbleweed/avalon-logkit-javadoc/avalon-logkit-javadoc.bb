@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1"
 
-RPM_NAME = "avalon-logkit-javadoc-2.1-24.7.noarch.rpm"
-RPM_HASH = "72fe07d8b6cbb8616e0ac7dadedf71db28115b6a12b434424135f1d827e1f59083202f2a207720f855e72e0164598ceddb2293b203dfe8f9e519b0fdd29c3c66"
+RPM_NAME = "avalon-logkit-javadoc-2.1-25.1.noarch.rpm"
+RPM_HASH = "c46ac4a63071aae5708ed96bc74172fcf9f5a8af8bd605a977c39bf0f058330a9947c05864e5bafd2a935502ee8a6ef9fe4bade7021340aca8eeb4a948a9e210"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avalon-logkit-javadoc"

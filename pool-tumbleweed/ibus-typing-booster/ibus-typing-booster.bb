@@ -3,10 +3,10 @@ DESCRIPTION = "Ibus-typing-booster is a context sensitive completion \
 input method to speedup typing."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.23.4"
+PV = "2.24.0"
 
-RPM_NAME = "ibus-typing-booster-2.23.4-1.1.aarch64.rpm"
-RPM_HASH = "c2967353c1622ce730416015fb091ac32eda22d096914fb6bc6b4012eca42e747f315769c7c463975c3f97ccb0abac3cecc15e4b29a1720350d199e77de94f1c"
+RPM_NAME = "ibus-typing-booster-2.24.0-1.1.aarch64.rpm"
+RPM_HASH = "7198bf6ed145e8d176b1d73b4d71bdf1bd1bcba2f917ae4f9f7736885eb61951e0496e86087d74e528a43e8d877e042845b18cefcf3923763529f80775935a0c"
 
 RPROVIDES:${PN} += "ibus-typing-booster"
 

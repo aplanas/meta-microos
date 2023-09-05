@@ -3,10 +3,10 @@ DESCRIPTION = "The samba-libs package contains the libraries needed by samba cli
 programs."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.5+git.313.c8e274c7852"
+PV = "4.18.6+git.320.cfda27bacb"
 
-RPM_NAME = "samba-client-libs-4.18.5+git.313.c8e274c7852-1.1.aarch64.rpm"
-RPM_HASH = "3cf50d9e039859eb1594b73424f995cc6fe4e26832e67d51c9847b51da406bcdac6d752db48e795ceb5ca272f85a24b4a12d2248c2ee824e1cc3eadaa9da2868"
+RPM_NAME = "samba-client-libs-4.18.6+git.320.cfda27bacb-1.1.aarch64.rpm"
+RPM_HASH = "0ce22df28615bde01d2c73be71896faf7a9dc5b1a216c1e989fa1b4d703f34e825205feabf2069eaf6332020eaa90b839e0846c296031eb311642d3faa7df512"
 
 RPROVIDES:${PN} += "libCHARSET3-samba4.so \
 libMESSAGING-SEND-samba4.so \
@@ -24,6 +24,7 @@ libcli-smb-common-samba4.so \
 libcli-spoolss-samba4.so \
 libcliauth-samba4.so \
 libclidns-samba4.so \
+libcluster-samba4.so \
 libcmdline-contexts-samba4.so \
 libcmdline-samba4.so \
 libcommon-auth-samba4.so \
@@ -129,7 +130,6 @@ libacl.so.1 \
 libavahi-client.so.3 \
 libavahi-common.so.3 \
 libc.so.6 \
-libcluster-samba4.so \
 libcom-err.so.2 \
 libgnutls.so.30 \
 libgssapi-krb5.so.2 \

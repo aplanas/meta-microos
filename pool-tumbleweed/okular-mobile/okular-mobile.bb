@@ -4,10 +4,10 @@ many other formats. This contains the UI targeted at mobile devices with a \
 touch screen."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "okular-mobile-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "e8d70e0b769207936669434430fd31c2fa08be1c1bb930c076cd3ea42dec8bfc0c37e40a06e425d2c0e00dab22c18cb10fb66dc2ca0693e163de5b036d9f3c93"
+RPM_NAME = "okular-mobile-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "6ee4976408f5f232357b97df3ed58dfe79e706c591b3b337f321d20a99879386dec7d4038397dd73e95e0645a144d90685cdce3a6f77ab094990ea477f810e43"
 
 RPROVIDES:${PN} += "libokularplugin.so \
 okular-mobile \
@@ -22,7 +22,7 @@ libKF5CoreAddons.so.5 \
 libKF5I18n.so.5 \
 libKF5Service.so.5 \
 libKF5WidgetsAddons.so.5 \
-libOkular5Core.so.10 \
+libOkular5Core.so.11 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \
 libQt5Qml.so.5 \

@@ -9,12 +9,12 @@ high-energy collider experiments is preserved for comparison to and \
 development of future theory models. \
  \
 This package provides the shared libraries for Rivet."
-LICENSE = "GPL-2.0-only"
+LICENSE = "GPL-2.0-only & Apache-2.0 & MPL-2.0 & LPPL-1.3a & BSL-1.0"
 
 PV = "3.1.8"
 
-RPM_NAME = "libRivet-3_1_8-3.1.8-1.2.aarch64.rpm"
-RPM_HASH = "1050fd4129235b20c15fafdd1fc38406fb0e73dfd9951e92b0e5936b78a94ded89921cd4e55fbfbfaaf409267193cb6b879c0cb9bdb57f0b8de8d2681e18e70d"
+RPM_NAME = "libRivet-3_1_8-3.1.8-2.1.aarch64.rpm"
+RPM_HASH = "fa18967c4f27cdb9bc576faeb8dd627d859532ab485c1de74fdfb823f55549f599f030ea63ed86c7fcab1e4f2eb60767d97d7d284412e574cc46fc17c2005f78"
 
 RPROVIDES:${PN} += "libRivet-3-1-8 \
 libRivet-3.1.8.so"

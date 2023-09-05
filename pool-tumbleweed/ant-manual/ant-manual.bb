@@ -4,10 +4,10 @@ DESCRIPTION = "Apache Ant is a Java-based build tool. \
 This package contains the manual for Apache Ant."
 LICENSE = "Apache-2.0"
 
-PV = "1.10.13"
+PV = "1.10.14"
 
-RPM_NAME = "ant-manual-1.10.13-2.2.noarch.rpm"
-RPM_HASH = "af97cc17c1e0c2603d97f44b16158453b2c64a71b749e219ce9dbbaa5a173798f3b04e2643322fc7701535f45c225b32e1256bd13d52e424720c0f66ac3a8b76"
+RPM_NAME = "ant-manual-1.10.14-1.1.noarch.rpm"
+RPM_HASH = "1f52d3bef801656fcccb35db8b84a53c5130997dfb438d1c4338f2b03c65ca78ed8139286d7a517e339450f02d3e8175416f4acf7c43749e980fe2b4430488e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-manual"

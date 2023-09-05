@@ -2,10 +2,10 @@ SUMMARY = "Further Card Decks for KDE Games"
 DESCRIPTION = "This package contains several further card deck set for KDE games."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kdegames-carddecks-other-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "421b179040be503e2eb06d0d4821d29d009310c23bdec7d4ff2f2b6961dd3ebf0fedc852ffa42d6b99c497cae78e2003686f42b2a1cfbfde1329edf3fdc4dda7"
+RPM_NAME = "kdegames-carddecks-other-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "e1489a30562c4f22ab293550167216d15454ad3111aa0d7756a6c0f1237706089dd18b90bf5d00cbcaa1a8d99cd4c654ba9611dfe2599668ba2b68722774eb1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdegames-carddecks-other"

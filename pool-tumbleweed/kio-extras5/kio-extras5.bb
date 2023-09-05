@@ -2,10 +2,10 @@ SUMMARY = "Additional KIO slaves for KDE applications"
 DESCRIPTION = "Additional KIO-slaves for KDE applications."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kio-extras5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "e1ad9aef9e3e05c70317b69872fc68e4151158b6f9c494768bfc9cc4dcfd0bfcacd7ea1a045a2eab93ee2451ba4809c24afcad1fb7fcf9badbc280f722005db4"
+RPM_NAME = "kio-extras5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "5bbfc027b1d78889fbe71533ea63078351a8d20f8b4ddc9f942c56d2a0587ba84cdcb3ba99197ecb3b440ad77625856b87a15964b11d00964a7bf731221e4334"
 
 RPROVIDES:${PN} += "kde-odf-thumbnail \
 kfileaudiopreview \
@@ -26,7 +26,6 @@ libKF5DBusAddons.so.5 \
 libKF5DNSSD.so.5 \
 libKF5GuiAddons.so.5 \
 libKF5I18n.so.5 \
-libKF5KExiv2.so.15.0.0 \
 libKF5KIOCore.so.5 \
 libKF5KIOFileWidgets.so.5 \
 libKF5KIOGui.so.5 \
@@ -45,12 +44,10 @@ libQt5Widgets.so.5 \
 libQt5Xml.so.5 \
 libc.so.6 \
 libgcc-s.so.1 \
-libimobiledevice-1.0.so.6 \
 libkdsoap.so.2 \
 libkioarchive.so.5 \
 libmtp.so.9 \
 libphonon4qt5.so.4 \
-libplist-2.0.so.4 \
 libsmbclient.so.0 \
 libssh.so.4 \
 libstdc++.so.6 \

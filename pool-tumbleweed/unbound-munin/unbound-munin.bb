@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.17.1"
 
-RPM_NAME = "unbound-munin-1.17.1-1.5.noarch.rpm"
-RPM_HASH = "0e00f67843a00ca051ce4dca2684e5074e94ed9feda2a7c1b3909092fefc0b496e232089b2186a0ebcbe038fae79b0ad898041bd45e6162fa7243362ccb62733"
+RPM_NAME = "unbound-munin-1.17.1-2.1.noarch.rpm"
+RPM_HASH = "21709eef1583f8ae79381eb1f78bfee02732d5e3f940af7e203916d960777e72a4c68af1d9bef96e1ab0d6ff22815ff3e959448903796ad3c7c1d61c8c30025c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-unbound-munin \

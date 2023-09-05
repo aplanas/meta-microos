@@ -3,10 +3,10 @@ DESCRIPTION = "SuperLU is an algorithm that uses group theory to optimize LU \
 decomposition of sparse matrices."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.0.0"
+PV = "6.0.1"
 
-RPM_NAME = "libsuperlu6-6.0.0-2.1.aarch64.rpm"
-RPM_HASH = "87691453aaa9db3d8730d1c3e02c68c67f4ee67b6990bfe045c834dd99d6544039ee9e8cf968840dc937cf93ae4c68330894151dc3ef9155fc01c23336332ad6"
+RPM_NAME = "libsuperlu6-6.0.1-1.1.aarch64.rpm"
+RPM_HASH = "e01829e68101281be06f462542e4e901ec79b8d6346168000fe8245dbcea334e79da62c2727c29490e400751024cf2913856bf9b841bbf026f9c9afd63f3d7d2"
 
 RPROVIDES:${PN} += "libsuperlu.so.6 \
 libsuperlu6"

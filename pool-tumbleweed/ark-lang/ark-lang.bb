@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ark"
 DESCRIPTION = "Provides translations for the 'ark' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "ark-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "9209631c1e2e151564550e51d6b10a0d6586f0e0e8cbef235445a1a1c07a6ded4b0205785b2c6c7d9e76dba2b68c7a275c3a0c0f3f6da5a58fa421bd49ac75f3"
+RPM_NAME = "ark-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "90ba01994182e1a6a4cadea4ed4923bd377dae876a4da55c45f37254278beebfaac1ed0824a63d4175e03eb1dc0edf47f44f1144be409be737f206e18e5d1aac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ark-lang \

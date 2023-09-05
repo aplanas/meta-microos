@@ -4,10 +4,10 @@ and create objects used by Python code generators in individual language \
 bindings."
 LICENSE = "X11"
 
-PV = "7.6_1.15.2"
+PV = "7.6_1.16.0"
 
-RPM_NAME = "python3-xcb-proto-devel-7.6_1.15.2-2.2.aarch64.rpm"
-RPM_HASH = "e8955b7bc9d7a1feb54c535db14d4e42dfd9704c36b040c35e1eca942cd30ec00994733f7faf2855ee4f556f8e5ba92a24fb15148a35b010eb59c3ebae745880"
+RPM_NAME = "python3-xcb-proto-devel-7.6_1.16.0-1.1.aarch64.rpm"
+RPM_HASH = "db88bb3a2a215f76ec6d75b450e513438e66ead9fcbe1f448138ffcce554b3ee42cef0fcbc5dbd97938f58e6cdc536e2cf4039145a01afc5f1544d0f0eac0f53"
 
 RPROVIDES:${PN} += "python3-xcb-proto-devel"
 

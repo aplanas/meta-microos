@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains header files for developing applications th
 use the winpr and winpr-tools libraries."
 LICENSE = "Apache-2.0"
 
-PV = "2.10.0"
+PV = "2.11.0"
 
-RPM_NAME = "winpr-devel-2.10.0-3.2.aarch64.rpm"
-RPM_HASH = "f51b219b5b338c3431771bf07afb9eb50d32ae81b5993e48c8b7321f5f9a865aba9a91991500bc00f6e54ba485099bb9c34425b6e0229d01ce34100c4aa5d047"
+RPM_NAME = "winpr-devel-2.11.0-1.1.aarch64.rpm"
+RPM_HASH = "7084b61f31fe9a46bbbfc39029c6ca1284c30a5a1e19c568339627e238f0791f7b0e313cd1e85852f038be99f301ac47c694b59209ec1a5e58b104f942743e7f"
 
 RPROVIDES:${PN} += "cmake-WinPR \
 libwinpr2-devel \

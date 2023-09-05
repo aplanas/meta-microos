@@ -2,10 +2,10 @@ SUMMARY = "Translations for package artikulate"
 DESCRIPTION = "Provides translations for the 'artikulate' package."
 LICENSE = "LGPL-3.0-or-later & GPL-2.0-only & BSD-3-Clause"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "artikulate-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "2176bc8cef6720744c657b5ea50543ca7e6482ffc1ace8eb01a4a831d285c18d7b3e7274af959ee81433a2af73dea0104fba5b86dbfa0db38e128374c746f07c"
+RPM_NAME = "artikulate-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "c30b2fd8c0bdad1522e9eddedc5fe50bc0aab6112741b5b5a2b9e83c9535de51778e7e9d8ddc647abc638326aef505663dc94c0e865fb856cb4cea5eae7222d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "artikulate-lang \

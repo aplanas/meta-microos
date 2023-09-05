@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3006.0"
 
-RPM_NAME = "salt-standalone-formulas-configuration-3006.0-2.1.aarch64.rpm"
-RPM_HASH = "708feae21d3e2943de92c0978ad9a690fc27c631c7aa69930128bfa7c3ee47be3670f0c81c04bfd8761e30c755efbf61f86ce7ca3b742f0ffc3f8515da14633a"
+RPM_NAME = "salt-standalone-formulas-configuration-3006.0-4.1.aarch64.rpm"
+RPM_HASH = "a20a531cd4c71f46f9cd096e50845211b86a746814201add9951d2d1c5ce790790825964f39f7d0cbbac2b81d73805a8096ce109e10ffbb3fd58104d17f4cf91"
 
 RPROVIDES:${PN} += "config-salt-standalone-formulas-configuration \
 salt-formulas-configuration \

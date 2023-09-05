@@ -2,10 +2,10 @@ SUMMARY = "Qt5/KDE Frameworks interface for LibreOffice"
 DESCRIPTION = "This package contains Qt5/KDE Frameworks interface rendering options for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.0.3"
+PV = "7.6.1.1"
 
-RPM_NAME = "libreoffice-qt5-7.6.0.3-1.1.aarch64.rpm"
-RPM_HASH = "73a03743db246b74c43ce92ee1d85569a5f70b8292dca00e802059c0acba4ebfeac00eb30e539bc40471621e2b76ae40340cb660d47a2d0a19d97db7035258fa"
+RPM_NAME = "libreoffice-qt5-7.6.1.1-1.1.aarch64.rpm"
+RPM_HASH = "0677c7debf3748d0bfb641b2a8fecad5a22249786c36912ef9452c4fb06d7787d2827573cc991b947914980234b54232eb4686733fa242e46cca4b8808e9e1e0"
 
 RPROVIDES:${PN} += "libkf5be1lo.so \
 libreoffice-kde4 \

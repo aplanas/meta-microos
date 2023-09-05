@@ -3,10 +3,10 @@ DESCRIPTION = "A library for access realtime public transport data and for perfo
 ransport journey queries."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKPublicTransport1-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "664ce434cc5f4ea2e8febc4167fd49a89585b1239d797c3deaaeee5e0405d16c26e16b2117a89229ff7ef41c6f6b038303e3263ccc9e0d22c164e7bf73703439"
+RPM_NAME = "libKPublicTransport1-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "85fdd3ad12795f83eec80ab0b34bc1cb13f431556616be4ae47a062ad924d9cb47d7d89e3f42ec4ca0a3707543cf5f7097a0bdfa3c858021f0d0993d4642d4df"
 
 RPROVIDES:${PN} += "libKPublicTransport.so.1 \
 libKPublicTransport1"

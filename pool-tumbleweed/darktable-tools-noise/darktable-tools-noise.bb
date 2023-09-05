@@ -6,10 +6,10 @@ lighttable. It also enables developing raw images and enhance them. \
 This package provides the noise profiling tools to add support for new cameras."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.4.1"
+PV = "4.4.2"
 
-RPM_NAME = "darktable-tools-noise-4.4.1-1.1.aarch64.rpm"
-RPM_HASH = "d355a3384d21197c69bf23261abea992684ddeb66a0aae20bb2436f302df85c361553b0a7c244591d5c200fa0f9bed09f89a74052e32c46f6489edfb1c3ca27c"
+RPM_NAME = "darktable-tools-noise-4.4.2-1.1.aarch64.rpm"
+RPM_HASH = "2a55c4db47d32ffd492af04604dd49cd57c7b65131e0aa9ac01327f7e244337e98037164f93b194736bac0a64aead75171f45ecc1463ac80b91f7a54b32f63a8"
 
 RPROVIDES:${PN} += "darktable-tools-noise"
 

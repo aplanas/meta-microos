@@ -7,10 +7,10 @@ The utility offers indentation and reformatting capabilities. \
 It is easily possible to create new language definitions and colour themes."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.7"
+PV = "4.8"
 
-RPM_NAME = "highlight-4.7-1.1.aarch64.rpm"
-RPM_HASH = "52502a48835cffcdb549b08422b328f6160a5b63b2f8f3d506669cb9737773dacc08d3e325c9fb9523877533fff60c88f04d351816534664207ab9dedfc2db61"
+RPM_NAME = "highlight-4.8-1.1.aarch64.rpm"
+RPM_HASH = "fe7f0e89e0ce5f730dd264a4f51b55b3169ed7d921e67634613ee7d82be5512ef12b4b7b090cb7bcf1ec19b84244d86079ee392483d325c4249b0b1e49eb345c"
 
 RPROVIDES:${PN} += "highlight"
 

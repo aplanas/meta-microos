@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "6.3"
 
-RPM_NAME = "btrfsprogs-udev-rules-6.3-2.2.noarch.rpm"
-RPM_HASH = "add61dfe48bee78eae8f231f3d81b44edfd03d510a208e563cc5f78b97f58d1b779380f939d9a173cc3a7f2cee9d83d3a8191298f932bc59f16880efff9228af"
+RPM_NAME = "btrfsprogs-udev-rules-6.3-3.1.noarch.rpm"
+RPM_HASH = "105fd870773410aa09e8a42172b3152df14c1a860fd437a8d5bfc41796adb572d906c50ec1efa62a2e6da4b670fb44401d68e5bcdaead2b442dca34f396b4c3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "btrfsprogs-udev-rules"

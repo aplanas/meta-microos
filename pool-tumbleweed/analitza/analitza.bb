@@ -2,10 +2,10 @@ SUMMARY = "A library to add mathematical features to programs"
 DESCRIPTION = "The Analitza library lets developers add mathematical features to programs."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "analitza-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "faadcf987184d6c21df86cd99517614293ecba39869e09541977eda4f62f56aa5ff04b6d7a80437c08d2c59d7a1af2f72dcabd5097a7d87840d8b1259dc1a13f"
+RPM_NAME = "analitza-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "861262f4babbe195d3ec69fd07e8d36d120ea77d68d7aee9e9d472d2784ccd7b92c3a3e229536bb766fa0d7bedeb1f27834a3dede2c827a5a2437489eae79ccd"
 
 RPROVIDES:${PN} += "analitza \
 analitza5 \

@@ -4,10 +4,10 @@ DESCRIPTION = "Cppreference is a complete online reference for the C and C++ lan
 This package provides the documentation in the devhelp format."
 LICENSE = "CC-BY-SA-3.0"
 
-PV = "20220730"
+PV = "20230810"
 
-RPM_NAME = "cppreference-doc-devhelp-20220730-3.4.noarch.rpm"
-RPM_HASH = "0d53e3b4cd8ffdd724a139c5bb7c1c8664e4b57b4d98802927f82dfe0bf52a18e0d0b29da21975620d208d36c14e00751f0ddf3189c2a3b4ee124f965c18f6da"
+RPM_NAME = "cppreference-doc-devhelp-20230810-1.1.noarch.rpm"
+RPM_HASH = "2f3fa3264458405ab52ec4a08be3e2676f8ce04d74df5fb9d36f664c1e47ff645dac9ab3baeaa5c67a6fbb337e982f3e4fd41a4b3423a450419dc6b2bb89c578"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cppreference-doc-devhelp"

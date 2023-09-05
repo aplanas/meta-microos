@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.68"
 
-RPM_NAME = "bluez-devel-5.68-4.1.aarch64.rpm"
-RPM_HASH = "b2401002ad4243bd0bd829c855e11cf5076e1fd85b3909f83e28ffcd45b9d9d8834fd06d286abcba74586fd3bbcd4aabb43193df58b3a9439df8881078392531"
+RPM_NAME = "bluez-devel-5.68-4.2.aarch64.rpm"
+RPM_HASH = "2bcbb47b14acc0b4a59597d42582bbaba0e03d7dddae91db519a9db7d820369afd6710525e6f438e2f15d611986eccee862c27d48d245f69a0d1b64aa3dd16b4"
 
 RPROVIDES:${PN} += "bluez-devel \
 pkgconfig-bluez"

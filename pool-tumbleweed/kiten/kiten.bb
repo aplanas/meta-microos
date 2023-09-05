@@ -2,10 +2,10 @@ SUMMARY = "Japanese Reference/Study Tool"
 DESCRIPTION = "Kiten is a tool to learn Japanese."
 LICENSE = "GPL-2.0-or-later & CC-BY-SA-3.0 & CC-BY-SA-4.0"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kiten-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "7faa794b06f1222fb40c653cddb19849dd33da43764616341b5b60b2aef676836b238972e4f17a6dbd8cb783e0d4391c9cd61d556f42627687c5f5b5acf98c90"
+RPM_NAME = "kiten-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "29269b8e21a568c0f85eefa52b2dc83135b744a3c333128e3c81744f8c0fc527e89bfe3af9b992d8b1c95bf2e36f73badd948a1e256e9c886819cb702f5b9edb"
 
 RPROVIDES:${PN} += "kiten \
 kiten5 \

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later | BSD-3-Clause"
 
 PV = "1.5.3"
 
-RPM_NAME = "pam-doc-1.5.3-2.1.noarch.rpm"
-RPM_HASH = "b2cc72fe547b0067b292d4b46a070b2426855127a2522e63b60e34edcafa81109928157390f2b9c138fbbb5107c1fecd9c5d6ff1b133ba343d6b66a5f898107b"
+RPM_NAME = "pam-doc-1.5.3-3.1.noarch.rpm"
+RPM_HASH = "64ccd8f1d006f1171dfe6b0e34f3e5e023654faea13109f1c3f857ef63b1ba6a882d40193d429ad5103cc03bf1270d99a20d7da5130a8c4c84627f319fdf41e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pam-doc"

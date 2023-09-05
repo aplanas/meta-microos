@@ -3,10 +3,10 @@ DESCRIPTION = "The libwpe-devel package contains libraries, build data, and \
 header files for developing applications that use libwpe."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.14.0"
+PV = "1.14.1"
 
-RPM_NAME = "libwpe-devel-1.14.0-1.3.aarch64.rpm"
-RPM_HASH = "c5da435beb612b45f8890592f1754ac7eceefe717e18826960d6ccd62d1ab6d57debde7411597f56e25b82eee09a9ead82e30e4c8aba2afc27ef21187d24da09"
+RPM_NAME = "libwpe-devel-1.14.1-1.1.aarch64.rpm"
+RPM_HASH = "c71c1d82d9f26f8714d2a9ef7818def01b19fad2b22919b924864800cecdc9d3ccb3db95cc4b7dfb2c579ce2a9787e5f7858190651cc48f98bedb211dcdd744a"
 
 RPROVIDES:${PN} += "libwpe-devel \
 pkgconfig-wpe-1.0"

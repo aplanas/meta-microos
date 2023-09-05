@@ -2,10 +2,10 @@ SUMMARY = "KDE Accounts Providers"
 DESCRIPTION = "KDE Accounts Providers."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kaccounts-providers-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "34b227d0326da8530c43fc4d8f04fce7667dae24835b6e9e5736222af9ed293a227e93d08324726332860eba1d0635618102ed74cf8f4cd3dc5500170200b039"
+RPM_NAME = "kaccounts-providers-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "818febf73a22dcb37ad835577a1fbf76d0bbb31c16026535e050f4159c2f46dd54ee2dcd03c8086a2ccd9a97ec27638438a1389bbb9a74f0edf76ddb1b77c623"
 
 RPROVIDES:${PN} += "kaccounts-providers"
 

@@ -4,10 +4,10 @@ DESCRIPTION = "Apache Ant is a Java-based build tool. \
 This package contains optional jdepend tasks for Apache Ant."
 LICENSE = "Apache-2.0"
 
-PV = "1.10.13"
+PV = "1.10.14"
 
-RPM_NAME = "ant-jdepend-1.10.13-2.2.noarch.rpm"
-RPM_HASH = "cbfb731a00a481bcc1177b8dda492d6acbf04e9a295511babc3ca9d2d9e410e1f40be3b924a6e8376166e364fa73f23b516a967717bc14132a7ca33f9b5e3862"
+RPM_NAME = "ant-jdepend-1.10.14-1.1.noarch.rpm"
+RPM_HASH = "9d3d5285614f791029afbccc4c6a29db6fdbf92b89fe069df3a0837346bd2f6fa79e42667f588fa97838883d053a65f2af25154ed3acb9f1f46f566c3b1ffcc4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-jdepend \

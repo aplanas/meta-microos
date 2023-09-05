@@ -2,10 +2,10 @@ SUMMARY = "FFmpeg-based thumbnail creator for video files"
 DESCRIPTION = "FFmpeg-based thumbnail creator for video files."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "ffmpegthumbs-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "93a06f068f9f2313b7af9386f4445f4f6130ad1cc09af7fc7cca7a54eee23a15a09d2b9025cbf1ab8747e628c005cadf24e05f9c7c10d3faf74a666745cf718c"
+RPM_NAME = "ffmpegthumbs-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "472ccd38dcd74cd0143f0a5927f32f6327d4724d718e21a2d593c1c44bdefe87007555e527baf95595af4030774dd40868303274769e493c389fc231902fdec0"
 
 RPROVIDES:${PN} += "ffmpegthumbs"
 
@@ -13,7 +13,8 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libKF5ConfigCore.so.5 \
 libKF5ConfigGui.so.5 \
-libKF5KIOWidgets.so.5 \
+libKF5CoreAddons.so.5 \
+libKF5KIOGui.so.5 \
 libQt5Core.so.5 \
 libQt5Gui.so.5 \
 libavcodec.so.60 \

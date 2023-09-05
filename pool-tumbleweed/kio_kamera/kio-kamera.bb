@@ -2,10 +2,10 @@ SUMMARY = "KDE I/O Slave for Cameras"
 DESCRIPTION = "This package contains a KIO slave to access digital cameras."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kio_kamera-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "62a15f235da77873ab30c9afc5bd7e0d56abaa43484ea9b5479213334d2b1ed94379d6cbedc64109c2621f04b0e510121e237ba07f9009b3883911a721250a47"
+RPM_NAME = "kio_kamera-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "93e860672fe628e889b9c6546fb5675793c28f9d2fa22a17036bb12fbcf8436d9fde72283cd311e8f821c269edd37e679ca34245325b0ff53a33eb98e0c28996"
 
 RPROVIDES:${PN} += "kamera \
 kio-kamera"

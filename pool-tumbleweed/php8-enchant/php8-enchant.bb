@@ -6,10 +6,10 @@ individual provider library. Everything should 'just work' for any \
 and every definition of 'just working.'"
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.9"
+PV = "8.2.10"
 
-RPM_NAME = "php8-enchant-8.2.9-1.1.aarch64.rpm"
-RPM_HASH = "5b7d3a8c0977da632a0ab0d0c387b72689cfc0c102fd60e0e71c0a9fb7f47492306de3f12f8212a1ac41e801b45f990dd48a2be5b195d2d286563a1c21d7d69d"
+RPM_NAME = "php8-enchant-8.2.10-1.1.aarch64.rpm"
+RPM_HASH = "878fb6b5e5bc9eb266ebd0d965fa1ce197d09e9ea1a39904801fb951dc8045925638d07c5d6ed0bb54c8d29d3b58016df09d1c11d740ab6c79afd62037b0d8af"
 
 RPROVIDES:${PN} += "config-php8-enchant \
 php-enchant \

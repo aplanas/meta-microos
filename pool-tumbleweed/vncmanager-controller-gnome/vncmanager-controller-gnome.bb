@@ -2,10 +2,11 @@ SUMMARY = "Configuration application for VNC session"
 DESCRIPTION = "This is configuration application to configure sharing and security from inside VNC session."
 LICENSE = "MIT"
 
-PV = "1.0.1"
+PV = "1.0.2"
 
-RPM_NAME = "vncmanager-controller-gnome-1.0.1-6.8.aarch64.rpm"
-RPM_HASH = "534fdf590d1ee7caa59a906a5b0790c8072a5600472c21d4be9ba52b209730f738ebb3fa7762f94b67cd9fb5764594ad4f50d3331d103815ce85a689b46dabb8"
+RPM_NAME = "vncmanager-controller-gnome-1.0.2-1.1.noarch.rpm"
+RPM_HASH = "434b603f84e971bb2d26376057a11457c4d3165a341fb05675bc83e6ccd34af723c1ef08e4a68f1c1ba09925539d90b6ca1f7f7f7fefd79dc9858246e5d7dbbe"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vncmanager-controller-gnome"
 

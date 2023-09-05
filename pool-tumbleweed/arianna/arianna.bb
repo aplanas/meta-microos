@@ -4,10 +4,10 @@ discovers your books automatically, and sorts them by categories, genres and \
 authors."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.1.0"
+PV = "23.08.0"
 
-RPM_NAME = "arianna-1.1.0-1.1.aarch64.rpm"
-RPM_HASH = "e0f6df26832b5b0fa692f07c94121d99cd7871dace21055142727acb0d185b0b3aee114566afba8d6cbc8d2f8f55e4c58def5fcb6e5d3dd11af211aca875e12a"
+RPM_NAME = "arianna-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "0b838ccbf8f827b4856ed13c6425cb9cb283fdeee481bf6b5915bfeb0fbe78e1cb6cc4f7bae7d28db2229f11069936025eb6b32f3e98a0c29b3c1f6a473895c1"
 
 RPROVIDES:${PN} += "arianna"
 

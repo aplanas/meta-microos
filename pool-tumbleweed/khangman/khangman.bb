@@ -2,10 +2,10 @@ SUMMARY = "Hangman Game"
 DESCRIPTION = "Classical hangman game by KDE."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "khangman-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "4e93d957b21d88d9849f63dd0f5d454dc66e6bc9cc3cfe8fad7993fc7450d549418ad9a43c3e1c1435370bb513b4e2ac900606b98568997252f98ff780b3ef24"
+RPM_NAME = "khangman-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "d768d01e091ee22a9b3395f96a3418a51be4317e666b1583056215dced05cab2fc451868edb9f3a1119fdb6d7414c1251bdd4706f0001253f8b67c84948982cd"
 
 RPROVIDES:${PN} += "config-khangman \
 khangman \

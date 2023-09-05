@@ -7,10 +7,10 @@ KDevelop has parser backends for C, C++ and Javascript/QML, \
 with further external plugins supporting e.g. PHP or Python."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kdevelop5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "760d75fed75ea9275e607aab463c5a13ba41294ae97c1eb64383d32cd84a9f4e5e570afd9373b66e1e6eb4f42dd35c238c7e752562d9cb9ca7185cbd6773b458"
+RPM_NAME = "kdevelop5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "3019235adf24a635d21a5be12098cac6def3127a1014f8d213054a83bcdcba633365479a71217b2748f7a03e57123ad98da5cc99cda6d2f59b7ab6bccf65d5c9"
 
 RPROVIDES:${PN} += "cmake-KDevelop \
 kdevelop \
@@ -21,9 +21,9 @@ kdevelop5-plugin-clang-tidy \
 kdevelop5-plugin-cppsupport \
 kdevelop5-plugin-qmake \
 kdevelop5-plugin-qmljs \
-libKDevCMakeCommon.so.511 \
-libKDevClangPrivate.so.511 \
-libKDevCompileAnalyzerCommon.so.511 \
+libKDevCMakeCommon.so.512 \
+libKDevClangPrivate.so.512 \
+libKDevCompileAnalyzerCommon.so.512 \
 libKDevelopSessionsWatch.so \
 libkdevelopdashboarddeclarativeplugin.so \
 libkdevelopsessionsplugin.so \
@@ -34,17 +34,17 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/sh \
 clang16 \
 ld-linux-aarch64.so.1 \
-libKDevPlatformDebugger.so.511 \
-libKDevPlatformDocumentation.so.511 \
-libKDevPlatformInterfaces.so.511 \
-libKDevPlatformLanguage.so.511 \
-libKDevPlatformOutputView.so.511 \
-libKDevPlatformProject.so.511 \
-libKDevPlatformSerialization.so.511 \
-libKDevPlatformShell.so.511 \
-libKDevPlatformSublime.so.511 \
-libKDevPlatformUtil.so.511 \
-libKDevPlatformVcs.so.511 \
+libKDevPlatformDebugger.so.512 \
+libKDevPlatformDocumentation.so.512 \
+libKDevPlatformInterfaces.so.512 \
+libKDevPlatformLanguage.so.512 \
+libKDevPlatformOutputView.so.512 \
+libKDevPlatformProject.so.512 \
+libKDevPlatformSerialization.so.512 \
+libKDevPlatformShell.so.512 \
+libKDevPlatformSublime.so.512 \
+libKDevPlatformUtil.so.512 \
+libKDevPlatformVcs.so.512 \
 libKF5Archive.so.5 \
 libKF5Bookmarks.so.5 \
 libKF5Codecs.so.5 \

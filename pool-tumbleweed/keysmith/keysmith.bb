@@ -2,10 +2,10 @@ SUMMARY = "OTP client"
 DESCRIPTION = "OTP client for Plasma Mobile and Desktop"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "keysmith-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "2118fdadb87b6c681bef8b185cddf0be01cc5066370625b275e58380ae4a779600ea6488cceed439203b6a24da8ce81a9b8b36efb60b1346f47d14c64a3a1178"
+RPM_NAME = "keysmith-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "a81c200af4b2af56ca064273b12e47c697c1e6f30ff2d709877c8e41dc53f454417dd2c85a913aaf68ea2b417661eaaf20150d4f0d0a8689ce98a214f7ad0095"
 
 RPROVIDES:${PN} += "keysmith"
 

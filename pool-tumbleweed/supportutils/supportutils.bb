@@ -3,10 +3,10 @@ DESCRIPTION = "A package containing troubleshooting tools. This package contains
 the following: supportconfig, chkbin, getappcore, analyzevmcore"
 LICENSE = "GPL-2.0-only"
 
-PV = "3.1.25"
+PV = "3.1.26"
 
-RPM_NAME = "supportutils-3.1.25-1.1.noarch.rpm"
-RPM_HASH = "2d4c8919a43bc95fa06319696860decb8f9b500a9493fb46625e7b2d75bbab3a41404ccce2a8e2fc60bcdab9d7229457d7a669b3b20e25a88af3f72fd14f7ba2"
+RPM_NAME = "supportutils-3.1.26-1.1.noarch.rpm"
+RPM_HASH = "8ea6d5dc01f5c8a1428ab7402bb003a942fff1ec24f7cfd534c2310e48dc459b60354ceccdffb3fcf5d62bd74e53ad48b2a83a0b4ecaf5f9bccf36c37a30ad96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "supportconfig-plugin-icommand \

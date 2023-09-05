@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.1"
 
-RPM_NAME = "python39-pythreejs-2.4.1-7.9.noarch.rpm"
-RPM_HASH = "4c9df93431e171e1cb18ff6de20c1271af8475fd29c3deb806309b135b8ac46d4d13372e2b202c7d4cf81528c97590b7ddf2fc4b26cd18569196174494eb1e24"
+RPM_NAME = "python39-pythreejs-2.4.1-9.1.noarch.rpm"
+RPM_HASH = "bc8feab9576399abd1ff50c6607c76766e2391908acc71ac55b3ccb371ded3415843f0045286a0d0eac9f4645ba78b81685f0417391612a752c886cc643214f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pythreejs \

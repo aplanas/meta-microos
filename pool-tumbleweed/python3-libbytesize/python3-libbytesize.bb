@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains Python 3 bindings for LibBytesize making th
 the library from Python 3 easier and more convenient."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.8"
+PV = "2.9"
 
-RPM_NAME = "python3-libbytesize-2.8-1.2.aarch64.rpm"
-RPM_HASH = "41cb3ec5a97cd8f2f250f31b7255b43ac632b2169e942b6637a97bfe43b8b7e5a90d3bd7d646eb00ff3c02753e8e1198ada37077a098c18965f9c2e862f38a5a"
+RPM_NAME = "python3-libbytesize-2.9-1.1.aarch64.rpm"
+RPM_HASH = "042b01d167aabcb7f62f6f81d165e66441c1d349f36cfbed17a5b3b46c863f257e0050579e7f0050fd41560c6423f742541d7b7eb622c4f7f24311bccb6c4085"
 
 RPROVIDES:${PN} += "python3-libbytesize"
 

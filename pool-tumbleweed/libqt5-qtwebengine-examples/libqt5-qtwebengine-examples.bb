@@ -2,10 +2,10 @@ SUMMARY = "Qt5 WebEngine examples"
 DESCRIPTION = "Examples for the libqt5-qtwebengine module."
 LICENSE = "LGPL-3.0-only | GPL-2.0-only | GPL-3.0-only"
 
-PV = "5.15.14"
+PV = "5.15.15"
 
-RPM_NAME = "libqt5-qtwebengine-examples-5.15.14-2.1.aarch64.rpm"
-RPM_HASH = "f63cfc78ad92f86c4c9ee92e662fa383ebf5b726c96caf5f2bd78a80686367a8b9ecb3026b264d8bbf9e8d008aad46fc2616d22b3873fc6984071d6603d18152"
+RPM_NAME = "libqt5-qtwebengine-examples-5.15.15-1.1.aarch64.rpm"
+RPM_HASH = "b3b73711a684c05f240c7146866d33af130af75c3d112b10fabc2932d3cad5f74d1b5a0268e7256102992ce369ca1e6cd9c7fccf035b9d4f9072c03586916121"
 
 RPROVIDES:${PN} += "libqt5-qtwebengine-examples"
 

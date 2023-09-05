@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-2.1-only"
 
 PV = "12.2.0"
 
-RPM_NAME = "open-vm-tools-sdmp-12.2.0-5.2.aarch64.rpm"
-RPM_HASH = "cddb422fe2b68cea63cdafdae0fd04168a27a1844e6d01feda8bf2e936f1f40cceab04f1f01ec2505d35c0b32e1e79a00e438a2b47d244c8e89edf417820ac2e"
+RPM_NAME = "open-vm-tools-sdmp-12.2.0-6.1.aarch64.rpm"
+RPM_HASH = "bf00208b8cd813b4c8eda3004133fc7694b46f3457d0d225ffb5fd549be215461fa4240ce14ca83d4ed3049b5a3ad2810e8cb46e911fd3d382f493609b604c42"
 
 RPROVIDES:${PN} += "libserviceDiscovery.so \
 open-vm-tools-sdmp"

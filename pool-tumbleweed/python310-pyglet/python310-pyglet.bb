@@ -3,10 +3,10 @@ DESCRIPTION = "Pyglet provides an object-oriented programming interface for \
 developing games and other visually-rich applications."
 LICENSE = "BSD-3-Clause & MIT"
 
-PV = "2.0.5"
+PV = "2.0.9"
 
-RPM_NAME = "python310-pyglet-2.0.5-1.2.noarch.rpm"
-RPM_HASH = "f9f771d8729dc3bc0a20c48a17b2c9151fd6621ca57c9bee2c9b5ef4fc11a9c7254880dddc89c00a1875c683ff67fcb58a4dc9ca82db29b33a44a5ca2e887e94"
+RPM_NAME = "python310-pyglet-2.0.9-1.1.noarch.rpm"
+RPM_HASH = "3f8f3de6a4aff7f4a4a982f65b126fba05151830950af683a1b88b999f053b86bbeb474b689c0ecc30df0d5a4d5caaf8ffbdcee2431bb40b45e608524d6708bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-pyglet \
@@ -17,7 +17,6 @@ RDEPENDS:${PN} += "Mesa-dri \
 libxcb-glx0 \
 python-abi \
 python310-Pillow \
-python310-future \
 python310-pypng"
 
 inherit rpm

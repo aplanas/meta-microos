@@ -7,15 +7,17 @@ While some attention is paid to performance, correctness and ease \
 of use take priority."
 LICENSE = "Apache-2.0 | LGPL-2.1-or-later"
 
-PV = "5.5.0"
+PV = "5.13.0"
 
-RPM_NAME = "jna-5.5.0-3.7.aarch64.rpm"
-RPM_HASH = "0a9516540823681d2b2ea79d387375f529f2bbabddddc1bd174dbdce3561d64862ae5c8e655c74385b66c9d5c08f45e77726d7937e3b898452b3d73cf4a3b67c"
+RPM_NAME = "jna-5.13.0-1.1.aarch64.rpm"
+RPM_HASH = "44cd0c48e05311725d0d9d828a47dc11a32c98515954a09e6c49d71eb139820a7448451e14c7b32af0c98edf70e9e568cb9b5b9a92e7929193e1f699675a3f89"
 
 RPROVIDES:${PN} += "jna \
 jna-native \
 libjnidispatch \
 mvn-net.java.dev.jna-jna \
+mvn-net.java.dev.jna-jna-jpms \
+mvn-net.java.dev.jna-jna-jpms-pom- \
 mvn-net.java.dev.jna-jna-pom- \
 osgi-com.sun.jna"
 

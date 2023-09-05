@@ -2,10 +2,10 @@ SUMMARY = "Licensing information for package lttng-modules"
 DESCRIPTION = "This package provides licensing documentation for the lttng kmp packages."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only & MIT"
 
-PV = "2.13.9_k6.4.11_1"
+PV = "2.13.9_k6.4.12_1"
 
-RPM_NAME = "lttng-modules-kmp-64kb-2.13.9_k6.4.11_1-1.14.aarch64.rpm"
-RPM_HASH = "25d8cfb948ddf0dfaeac5b50c52bf35bd116e977c2a1d8d90e25d7b05a7865e548a69307517ccce9255644a9709f95d79ff4dd54db6188b770fc83e97c22caaf"
+RPM_NAME = "lttng-modules-kmp-64kb-2.13.9_k6.4.12_1-1.15.aarch64.rpm"
+RPM_HASH = "d2ba22661fb65ba6adbae9a93868b2714165784018f49dda2a0e748021c867e75d302e3128f37b49c2e4424e9321db9ef7947d082383f45eb7dfb806f200087b"
 
 RPROVIDES:${PN} += "kmod-lttng-clock-plugin-test.ko \
 kmod-lttng-clock.ko \
@@ -56,7 +56,7 @@ kmod-lttng-uprobes.ko \
 kmod-lttng-wrapper.ko \
 lttng-modules-kmp \
 lttng-modules-kmp-64kb \
-lttng-modules-kmp-64kb-k6.4.11-1 \
+lttng-modules-kmp-64kb-k6.4.12-1 \
 multiversion-kernel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

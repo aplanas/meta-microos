@@ -2,10 +2,10 @@ SUMMARY = "Cavium based arm64 systems"
 DESCRIPTION = "Device Tree files for Cavium based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.11"
+PV = "6.4.12"
 
-RPM_NAME = "dtb-cavium-6.4.11-1.2.aarch64.rpm"
-RPM_HASH = "ec55fa22be5708991ec3d3ab6e24f62019ee2bed4e868ac69f1eeeaec35e812e661dbf40756740a98b5e79c7ba53ccbbd6ec65c00ef9f775ceea51e6f75ed7ff"
+RPM_NAME = "dtb-cavium-6.4.12-1.1.aarch64.rpm"
+RPM_HASH = "9655a55ad8e028ff03fa0bb5ee5d26d83fc635cab992f30071cae006e60b492702f33ebe2c5e64738f048efe1151753eff64ca487b0381ba71278c418249fb7c"
 
 RPROVIDES:${PN} += "dtb-cavium \
 dtb-thunder-88xx \

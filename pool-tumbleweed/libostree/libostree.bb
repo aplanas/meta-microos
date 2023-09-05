@@ -7,12 +7,13 @@ those levels, offering a blend of the advantages (and disadvantages) \
 of both."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "2023.2"
+PV = "2023.6"
 
-RPM_NAME = "libostree-2023.2-2.2.aarch64.rpm"
-RPM_HASH = "20e7a7308042cff4f6d30be83c89422f7d6fd6089fe2e7548bb68a06559113a6a6eb4a9f55c8e8878f45cb78c1d47a80365bfdc60371844ba004dad94e125ae9"
+RPM_NAME = "libostree-2023.6-1.1.aarch64.rpm"
+RPM_HASH = "4e6df5cd15cdefb4d12edba9ccbdda5c14273a99f853a01967caa55f2e6d615bb48236c33b6114cf855540630531b444e11a2750f1ca22daf278fa09bed28b42"
 
-RPROVIDES:${PN} += "libostree \
+RPROVIDES:${PN} += "config-libostree \
+libostree \
 ostree"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
@@ -20,11 +21,12 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libarchive.so.13 \
 libc.so.6 \
-libfuse.so.2 \
+libfuse3.so.3 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libostree-1.so.1 \
+libsodium.so.23 \
 libsystemd.so.0"
 
 inherit rpm

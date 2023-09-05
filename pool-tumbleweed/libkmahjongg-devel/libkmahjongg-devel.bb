@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary files and libraries needed to
 develop games that uses Mahjongg tiles."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libkmahjongg-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "2290732195ba2c47da654f7c200ba4352a910235040b51a5318413806fda2c4f0ac51cbbfa502c00ce3bae91a5514a3790445e3dd727c2f3f89de5d68a1bad35"
+RPM_NAME = "libkmahjongg-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "c20919eb521e0024f0e9def050afabf81a838cbad4558d2ccef7106ad6530b338e3fce71c6e313376525de91927890a2e7488a234d9c0dba6ef4591a3fe950f6"
 
 RPROVIDES:${PN} += "cmake-KF5KMahjongglib \
 libkmahjongg-devel \

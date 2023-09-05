@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kapptemplate"
 DESCRIPTION = "Provides translations for the 'kapptemplate' package."
 LICENSE = "GPL-2.0-only & GFDL-1.2-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kapptemplate-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "9659366087b90d5af97cd629e9d66a9d0a15c1d9dbf6e3f4e38c7ed15ddf98536bd6e387e2cb1160cc1f14ce56276af29fd6887847884404b4956714348a8f7f"
+RPM_NAME = "kapptemplate-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "55d984b370bb8bdcac44337dee7b1359193726d660ac951910f28b78d400e5f68aeba76bd179af6f3979fa71cc71c01d875ced3ef0e1093c7e4c8cf4c1d870e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kapptemplate-lang \

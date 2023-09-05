@@ -3,12 +3,12 @@ DESCRIPTION = "Document viewing program; supports document in PDF, PS and \
 many other formats."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "okular-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "2df8d027f6c3b4ea7b8bb2b2a55dee0816b30a2857a751d59bb6144cf27e20046b055834c356263882da2d88371092908226fee83f772c63557ac136eda1defa"
+RPM_NAME = "okular-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "845e0f7dd6b26a7199bbfc553c0c07f08fcbbebc72e970d0004154a0dcf4753a5f64a33f7b7b94af5681ca28b3ee80ad373a7994e4509ef62a8311d91378b98e"
 
-RPROVIDES:${PN} += "libOkular5Core.so.10 \
+RPROVIDES:${PN} += "libOkular5Core.so.11 \
 okular \
 okular5"
 
@@ -26,7 +26,6 @@ libKF5CoreAddons.so.5 \
 libKF5Crash.so.5 \
 libKF5I18n.so.5 \
 libKF5ItemViews.so.5 \
-libKF5JSApi.so.5 \
 libKF5JobWidgets.so.5 \
 libKF5KExiv2.so.15.0.0 \
 libKF5KHtml.so.5 \
@@ -48,6 +47,7 @@ libQt5DBus.so.5 \
 libQt5Gui.so.5 \
 libQt5Network.so.5 \
 libQt5PrintSupport.so.5 \
+libQt5Qml.so.5 \
 libQt5Svg.so.5 \
 libQt5TextToSpeech.so.5 \
 libQt5Widgets.so.5 \

@@ -4,10 +4,10 @@ provides a non-cached, forward-only means of generating streams or \
 files containing XML data."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.9"
+PV = "8.2.10"
 
-RPM_NAME = "php8-xmlwriter-8.2.9-1.1.aarch64.rpm"
-RPM_HASH = "63f9ac37b4a3110fa8818566c71175de86df1eaaad2da521b842268b7380df6a4cced6e45bb3195955f2a46a821873e2f4a5a283cfe88f3308b27cfdd28dfa17"
+RPM_NAME = "php8-xmlwriter-8.2.10-1.1.aarch64.rpm"
+RPM_HASH = "ae3dc5c1742053358a62bb69f797fe247ed8b6285c07322f56e66c9754b8b8856571be1104a1c680037d7529ee12c44faf286fbcbe642919de680c4050904e6c"
 
 RPROVIDES:${PN} += "config-php8-xmlwriter \
 php-xmlwriter \

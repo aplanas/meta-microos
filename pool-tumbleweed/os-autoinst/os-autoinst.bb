@@ -8,10 +8,10 @@ to test firefox and openoffice operation on top of a newly \
 installed OS."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1692873408.b5fd97a"
+PV = "4.6.1693332527.fb060dc"
 
-RPM_NAME = "os-autoinst-4.6.1692873408.b5fd97a-1.1.aarch64.rpm"
-RPM_HASH = "6ebea254df8d6b9d8f7d98488b551ca1e60fade6539d8889e4d1c11319d35796e332bf911a9a191cc84c5359d6c5bf56b0fa9897de05e3a99e2f39aac821c61b"
+RPM_NAME = "os-autoinst-4.6.1693332527.fb060dc-1.1.aarch64.rpm"
+RPM_HASH = "32430266817ac13c09fd37713da50564ed6d6abb4de5e4fb57c7470264158f9ba50e801b706f1f3c2849c699ed6fc125eac70029b249bb7f998088efdb3533ff"
 
 RPROVIDES:${PN} += "os-autoinst \
 perl-OpenQA--Benchmark--Stopwatch \

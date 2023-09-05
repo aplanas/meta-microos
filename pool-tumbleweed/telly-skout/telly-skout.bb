@@ -3,10 +3,10 @@ DESCRIPTION = "Telly Skout is a convergent Kirigami TV guide. It shows the TV pr
 favorite channels from TV Spielfilm or an XMLTV file."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "telly-skout-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "39fd6bb6030dd5f2421dc0af0bad61488c84da74c69e7907d0c75c4593069693f60f37a3c2d4745c4bf9dacae5ad22d32b014bc40328de5201c84912b45b30c2"
+RPM_NAME = "telly-skout-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "9b652bfe9a79068338e242cf579aef239c70bd81dd27ecfea550ee48f53ca39128efb3ba5e9b911251e808e7ffdbd74440c35412d836380efdf9171ab796a991"
 
 RPROVIDES:${PN} += "telly-skout"
 

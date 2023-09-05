@@ -10,10 +10,10 @@ external 'screen saver' client to detect when the alternate image is \
 to be displayed and to provide the graphics."
 LICENSE = "MIT"
 
-PV = "1.15"
+PV = "1.16"
 
-RPM_NAME = "libxcb-screensaver0-1.15-2.3.aarch64.rpm"
-RPM_HASH = "34989dbcd96e65fee62f0abaa2b8ff1423d83513ca9703c15ec6141ad6f84b393eaee1f4598db4609760cb34091e62f3a71ff7854a129a81033831af6e41e54b"
+RPM_NAME = "libxcb-screensaver0-1.16-1.1.aarch64.rpm"
+RPM_HASH = "14b8bba7950f2305e68a33e1c9d3a3364b6de0f7574e94fbe94cfb55624cad3d6b5806f2bb163088f6b77b0491fa4cd157a5c37d0f2366a4a3b17ebdbde95769"
 
 RPROVIDES:${PN} += "libxcb-screensaver.so.0 \
 libxcb-screensaver0"

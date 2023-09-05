@@ -14,15 +14,14 @@ The package requires dependencies necessary for these optional features: \
 - DNSSEC \
 and suggest dependencies necessary for these optional features: \
 - trio \
-- curio \
 This optional feature is not available due to missing dependencies: \
 - wmi"
 LICENSE = "ISC"
 
-PV = "2.3.0"
+PV = "2.4.2"
 
-RPM_NAME = "python310-dnspython-2.3.0-2.3.noarch.rpm"
-RPM_HASH = "222ed6a3f7eef8b5681022410580dbb147cdeb861909838ee686a852b0abbaed0d7f93552ba8967f904e6743792e940c2fd2af0fcc18e347f7833fed24765061"
+RPM_NAME = "python310-dnspython-2.4.2-1.1.noarch.rpm"
+RPM_HASH = "9d58be99e17b71d4e187faf9d55c3fc04f52879e343af6f06f140cf00cedc02c63d9bcc364e8521c719307f7004925b9b71113014c23a9cea273d8d2c56a387c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-dnspython \
@@ -32,8 +31,6 @@ python3dist-dnspython"
 RDEPENDS:${PN} += "python-abi \
 python310-cryptography \
 python310-httpx \
-python310-idna \
-python310-requests \
-python310-requests-toolbelt"
+python310-idna"
 
 inherit rpm

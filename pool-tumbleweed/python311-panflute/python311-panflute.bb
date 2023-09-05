@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.0"
 
-RPM_NAME = "python311-panflute-2.3.0-1.2.noarch.rpm"
-RPM_HASH = "1e4740934b33f880376db24ea8b02564b9a28aebcf374080bea34cf42f1e3a2fda4c52f6b898d4f20a63d838deeb714aec9225417c88191613714962e56170e3"
+RPM_NAME = "python311-panflute-2.3.0-2.1.noarch.rpm"
+RPM_HASH = "bced439bc2fcfc8d7add781b224641cf7019e6b4ee0f4ba8c95286fe035b149feeab5d07ff5a0419cf2a9d2215905b3960630d8f934cb4327b691647194da7af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-panflute \
@@ -18,7 +18,6 @@ RDEPENDS:${PN} += "/usr/bin/python3.11 \
 python-abi \
 python311-PyYAML \
 python311-click \
-python311-future \
 update-alternatives"
 
 inherit rpm

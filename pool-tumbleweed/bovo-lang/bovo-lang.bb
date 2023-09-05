@@ -2,10 +2,10 @@ SUMMARY = "Translations for package bovo"
 DESCRIPTION = "Provides translations for the 'bovo' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "bovo-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "a2c7f0b8b56b955e9658f5b4fa8ac8b59d02cc849688ab67384376daa64b295a520c547de3143825565325b2cf3734d03f9c066356d3f10ac73da6a4d57571b2"
+RPM_NAME = "bovo-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "4150b3bdd7deb2962a979764bac0d94e97bb96f36c3bf3164feef19736fed2dee779c71e2d786dc7ec0eddd04d8830f58af32e8841d0e36edbc1d8091bc56e32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bovo-lang \

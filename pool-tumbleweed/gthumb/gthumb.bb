@@ -5,10 +5,10 @@ add comments to images, organize images in catalogs, print images, view \
 slide shows, set your desktop background, and more."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.12.2"
+PV = "3.12.3"
 
-RPM_NAME = "gthumb-3.12.2-5.1.aarch64.rpm"
-RPM_HASH = "2dd6fa17cab8a344401b6e8c74c0e2dadef3efe0b67812fa9fad1d6e8fc6994c493ffff99196c4e5db22927cd5b217aa24b0aeb7750b0b6ea5a30ca47eec0dfe"
+RPM_NAME = "gthumb-3.12.3-1.1.aarch64.rpm"
+RPM_HASH = "639dd10804af420364f7b652e478a1181441c8f5799eb99a6584030626dc22f53249754bf3ee54fba312a084e7ebbe22d6a46cb93b425d95e6335b9e648bf0cc"
 
 RPROVIDES:${PN} += "gthumb \
 lib23hq.so \

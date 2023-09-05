@@ -2,10 +2,10 @@ SUMMARY = "Translations for package spectacle"
 DESCRIPTION = "Provides translations for the 'spectacle' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "spectacle-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "ec532d1d4f8ca8cbea46648ca2fe22213505e6054819199892abbf717cb39e8a8eebf2531a5b563c6e4bb05f681e611c625fa11cc02d417d7ac473d09cdd9387"
+RPM_NAME = "spectacle-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "18dd7c41cc96e9b135c0c9f4b14076f97ef6adbf64a280858d1bbd2e49a43b895762da3a8b1945fdc3392d8c755a064bd8ac36b27273859ea47e1e91a007bef6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-spectacle-ar \
@@ -18,6 +18,7 @@ locale-spectacle-da \
 locale-spectacle-de \
 locale-spectacle-el \
 locale-spectacle-en-GB \
+locale-spectacle-eo \
 locale-spectacle-es \
 locale-spectacle-et \
 locale-spectacle-eu \

@@ -2,10 +2,10 @@ SUMMARY = "Mesa OpenCL implementation (Clover)"
 DESCRIPTION = "This package contains the Mesa OpenCL implementation or GalliumCompute."
 LICENSE = "MIT"
 
-PV = "23.1.5"
+PV = "23.1.6"
 
-RPM_NAME = "Mesa-libOpenCL-23.1.5-355.1.aarch64.rpm"
-RPM_HASH = "31dfebff86222421b405120c3962b645b153f0e81205aca70ca97fa7147d8c29c674b5648036d67020225ab1c5e4620d3f60aeade7b52f432666190c993317cf"
+RPM_NAME = "Mesa-libOpenCL-23.1.6-356.1.aarch64.rpm"
+RPM_HASH = "35fbe694dc48e850bdf0d3667dd5422f137ed4054ff66c1608eb56157a1ded065c56189fcfa7d9077c973478a74d27feec283f3bc542caa87510b314a1b1bed6"
 
 RPROVIDES:${PN} += "Mesa-libOpenCL \
 libMesaOpenCL.so.1"
@@ -13,8 +13,8 @@ libMesaOpenCL.so.1"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libLLVM.so.16 \
 libLLVMSPIRVLib.so.16 \
-libSPIRV-Tools-2023.3~rc1.so \
-libSPIRV-Tools-link-2023.3~rc1.so \
+libSPIRV-Tools-2023.4~rc2.so \
+libSPIRV-Tools-link-2023.4~rc2.so \
 libc.so.6 \
 libclang-cpp.so.16 \
 libclc-llvm16 \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package umbrello"
 DESCRIPTION = "Provides translations for the 'umbrello' package."
 LICENSE = "GPL-2.0-only & GFDL-1.2-only & GPL-3.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "umbrello-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "6af54e720cd73835abcf11c8c4a2b90bf53966d7cfef5b8df0dd21db65459b9d5ff55a80cac08e44e9a92180bd1af55f0295755eb145ee524f548f28a5ee5b7f"
+RPM_NAME = "umbrello-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "b129021f74438c6f77af63f5e47b711a01566ac6ce32e44963375f465d5d5e6ad25e622a47b74d5ee8c33f0303576952ea4bc8803cf423aac0931891e2d6e735"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-umbrello-ar \

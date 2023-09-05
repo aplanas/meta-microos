@@ -2,10 +2,10 @@ SUMMARY = "A classic falling blocks game"
 DESCRIPTION = "KBlocks is the KDE version of the classic falling blocks game."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kblocks-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "8765d8264536c0e65feb002d31a532e54302ccef1ea2dd00bc9fb39f9fe5ec2426944e93b944e0543a5c7d3eb4916ee1ab0ea18d40b0dd03b515576af729cf9b"
+RPM_NAME = "kblocks-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "435651d04ffdb29a3740d8594c878792db654a00a9f6fa48fda893b170c94768272c456e51fbca92ea27b2de3ae2a27ff7f1878db6f8486d9d29d2572831ec4d"
 
 RPROVIDES:${PN} += "kblocks \
 kblocks5"

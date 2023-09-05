@@ -10,10 +10,10 @@ This package contains the development headers for the library found \
 in libdrm2."
 LICENSE = "MIT"
 
-PV = "2.4.115"
+PV = "2.4.116"
 
-RPM_NAME = "libdrm-devel-2.4.115-2.4.aarch64.rpm"
-RPM_HASH = "0792b905086a4d49af96b8c1ab19f419eef36b560a3eae064c94d99a0d159b4fef655a25ef63a73981c032c77ff7dab61644c09e388d9ae61bfd615c77d9b68b"
+RPM_NAME = "libdrm-devel-2.4.116-1.1.aarch64.rpm"
+RPM_HASH = "2e45c8a582ba2085e9023c45e8e6f124c766f93bb745d21cc26225b9e042dc0e43cb67443d24d3acaa5709d30e93a812125c736abafc651f251297e9b10b12af"
 
 RPROVIDES:${PN} += "libdrm-devel \
 pkgconfig-libdrm \

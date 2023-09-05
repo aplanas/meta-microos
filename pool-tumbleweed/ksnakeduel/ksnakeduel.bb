@@ -2,10 +2,10 @@ SUMMARY = "Simple snake duel game"
 DESCRIPTION = "KSnakeDuel is a simple snake duel game"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "ksnakeduel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "6945248268034c6c74f1d14f2c8808ca31aa7ce8e97de8588c9dd8c2d0c8e6977e5134526a73ef6e6633f058054d4fc940b22563bbcc4b9ffc829f405f070984"
+RPM_NAME = "ksnakeduel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "496596047ff6aa428b2320d0b003c2d3f815678a346c794618d0394dcfbfdafee3ac75a394ccc80bf03c1b82e7060ba64a0fbef9a76e9b0fa997da07ee0f8a3b"
 
 RPROVIDES:${PN} += "ksnakeduel \
 ksnakeduel5"

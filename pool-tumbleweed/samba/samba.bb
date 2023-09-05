@@ -15,10 +15,10 @@ binary packages of the most current Samba version, and a bug reporting \
 how to."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.5+git.313.c8e274c7852"
+PV = "4.18.6+git.320.cfda27bacb"
 
-RPM_NAME = "samba-4.18.5+git.313.c8e274c7852-1.1.aarch64.rpm"
-RPM_HASH = "126a29d417fa455f43cb813639871727da6ce30c88cce70edc4c6fb2f776e80a73fb4b3f4494375e7496436a78993ab623f50cf60c5caca62a8d03e8067dd3bf"
+RPM_NAME = "samba-4.18.6+git.320.cfda27bacb-1.1.aarch64.rpm"
+RPM_HASH = "88c1fbd4588b50621ef9d1abe9c95b28f8178cba9d4e64f79bdacec8f7b69075dddc4c332a33dc07509a0323e218294d8b795bdb83afe1f9f04dd4ea3db30ce3"
 
 RPROVIDES:${PN} += "config-samba \
 group-ntadmin \

@@ -7,10 +7,10 @@ use a network service. \
 FreeRADIUS is a modular RADIUS implementation."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
-PV = "3.2.1"
+PV = "3.2.3"
 
-RPM_NAME = "freeradius-server-3.2.1-1.7.aarch64.rpm"
-RPM_HASH = "a19f2d91c03d3eb42434d61a077cf313f75926b77ea727e1104ed13e4ba44a1621aa03c7f38bcde95a87726946ab4a54e6899f43e17ce493f9e6481b70fbd9ce"
+RPM_NAME = "freeradius-server-3.2.3-1.1.aarch64.rpm"
+RPM_HASH = "4cd367d875d541ca0b6fa9641a74b1990ae247c5f18e2e9e75ef390fbd59edec8430c3866394cdb34b30043b8e31ba075f1cf089ded80bdc637d0ee844ce0285"
 
 RPROVIDES:${PN} += "config-freeradius-server \
 freeradius \
@@ -38,6 +38,7 @@ libodbc.so.2 \
 libpam.so.0 \
 libssl.so.3 \
 libtalloc.so.2 \
+libunbound.so.8 \
 libwbclient.so.0 \
 openssl \
 perl \

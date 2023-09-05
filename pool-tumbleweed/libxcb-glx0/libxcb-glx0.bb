@@ -4,10 +4,10 @@ featuring a small footprint, latency hiding, direct access to the \
 protocol, improved threading support, and extensibility."
 LICENSE = "MIT"
 
-PV = "1.15"
+PV = "1.16"
 
-RPM_NAME = "libxcb-glx0-1.15-2.3.aarch64.rpm"
-RPM_HASH = "bc5adafbceed4a32bd1d29510a522c2f6099ee8410719a18f20f8c6969a33a6973c17b9544e6d8c4e8a97ed3feafd08a1895493f60b5e88e4dcb345d6609beea"
+RPM_NAME = "libxcb-glx0-1.16-1.1.aarch64.rpm"
+RPM_HASH = "45ca95c7de641ebd8b170f2c7b4317b1fa9c6547ba0022a937a4ff60f888eeb829073ddb8aa9a8a13ba41cd3559e936f0ef9c9b3b6f40edc24a29e8d29845e12"
 
 RPROVIDES:${PN} += "libxcb-glx.so.0 \
 libxcb-glx0"

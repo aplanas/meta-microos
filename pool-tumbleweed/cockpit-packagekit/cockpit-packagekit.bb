@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "298"
 
-RPM_NAME = "cockpit-packagekit-298-1.1.noarch.rpm"
-RPM_HASH = "63de832b4d857c25bb476d0295b874c1b10038e2295b551eae2f89cb036cf8a33ccc836e578390391b1d7d38392ec7eba8d1169759241c92856b34f4e86974b5"
+RPM_NAME = "cockpit-packagekit-298-2.1.noarch.rpm"
+RPM_HASH = "c28b40a5b2b14ff62e74f36842a354fb1778c6877928973fa1667e32463ffb84efdbcaf5fc56430b82060b107980f1c90e0f6a0d5e16834232f7ea175d1d1b74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cockpit-packagekit"

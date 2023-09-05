@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-2.1-only"
 
 PV = "12.2.0"
 
-RPM_NAME = "open-vm-tools-containerinfo-12.2.0-5.2.aarch64.rpm"
-RPM_HASH = "01d1215124697d8000197c87f9fc7c7b0947dd2f5130253f1e208dd39ab4464a43f395933fd4c4833b792235946dab377550ff7eb66ae82febc07fd950c344ab"
+RPM_NAME = "open-vm-tools-containerinfo-12.2.0-6.1.aarch64.rpm"
+RPM_HASH = "bfdceacb0551bd2b9ffb824f51b27d44cbbfad523604293e8fc9c3addae7f818f3585a6112a8337f5067e318e9efa865928f063fad20ae0826ef3017963b99c8"
 
 RPROVIDES:${PN} += "libcontainerInfo.so \
 open-vm-tools-containerinfo"

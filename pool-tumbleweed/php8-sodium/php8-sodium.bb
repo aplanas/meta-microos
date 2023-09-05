@@ -3,10 +3,10 @@ DESCRIPTION = "PHP binding to libsodium software library for encryption, decrypt
 signatures, password hashing and more."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.9"
+PV = "8.2.10"
 
-RPM_NAME = "php8-sodium-8.2.9-1.1.aarch64.rpm"
-RPM_HASH = "cdbbc88aaeabd906a4d5add466fe878b58e6dbbce7940a821ad9ca0ed29ff8e8c91c375993714829f2edf5eb52cca5c68b66f41a98189caebeefee74cf535973"
+RPM_NAME = "php8-sodium-8.2.10-1.1.aarch64.rpm"
+RPM_HASH = "1a0af5bcf5fa513a2b31476a89ac5c53db21c4d69724d3a5b84da4c1d9321c9105cce79d04e1da8bd980e63d01a09849588498c099a4609424a88765be9d2862"
 
 RPROVIDES:${PN} += "config-php8-sodium \
 php-sodium \

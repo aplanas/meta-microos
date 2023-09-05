@@ -6,10 +6,10 @@ preparing technical documents. \
 This package contains the Iosevka SS03 typeface (monospace, Consolas style)."
 LICENSE = "OFL-1.1"
 
-PV = "25.1.1"
+PV = "26.1.0"
 
-RPM_NAME = "iosevka-ss03-fonts-25.1.1-1.1.noarch.rpm"
-RPM_HASH = "7fa3f7df4e7b0b2959ccdef95e7901cf51c06e97d788bbf4b0f3ab25c9ee6f7697e4b1e19ab24357234b7ddf57b0e0df318f9e86845f7d9e23b8b9193a79d46c"
+RPM_NAME = "iosevka-ss03-fonts-26.1.0-1.1.noarch.rpm"
+RPM_HASH = "a21bbaa3aff1c6d6d54fc6d3baa30b3274e8e0e6f3ae9bc5c7a27105d9416c1e2a03115bb38001575db5514e22e9a7df483c5619467511988190ad607fe9fd0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-ss03-fonts"

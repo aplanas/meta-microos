@@ -2,10 +2,10 @@ SUMMARY = "Private library for Budgie Menu"
 DESCRIPTION = "Private library for Budgie menu to link against."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "10.7.2+0"
+PV = "10.8+0"
 
-RPM_NAME = "libbudgie-appindexer0-10.7.2+0-1.2.aarch64.rpm"
-RPM_HASH = "fa253aa4102ce64d45a923ea8b6a127810bba022662904311561f56f4e4ec8c0a0426266e116d07acbbdc123d072c41de79c91ab4b3b6f2e994d3ae5e9d532ea"
+RPM_NAME = "libbudgie-appindexer0-10.8+0-1.1.aarch64.rpm"
+RPM_HASH = "f36e0ca314869a707c6b65b5763a6c0b15c6682b3bd6d7277e7542117fb180739d22a3df77daec7affb26660e75e5c818e1f8f42aee14f819d650a708593a734"
 
 RPROVIDES:${PN} += "libbudgie-appindexer.so.0 \
 libbudgie-appindexer0"

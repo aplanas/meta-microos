@@ -1,14 +1,11 @@
-SUMMARY = "A utility for working with sizes in bytes"
-DESCRIPTION = "The LibBytesize is a C library that facilitates work with sizes in \
-bytes, be it parsing the input from users or producing a human-readable \
-representation of a size in bytes. This library takes localization into \
-account. It also provides support for sizes bigger than MAXUINT64."
+SUMMARY = "A libbytesize tool"
+DESCRIPTION = "This package solely contains the bscalc tool."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.8"
+PV = "2.9"
 
-RPM_NAME = "bscalc-2.8-1.2.noarch.rpm"
-RPM_HASH = "16a3de07f137ac27a1bd8cce7bd63ff7c27560fc63f032e9116b9908fb49bba87400630bb2a958c0ee9f528c56b34c0b511009303799032b65fe39e9cda6e439"
+RPM_NAME = "bscalc-2.9-1.1.noarch.rpm"
+RPM_HASH = "7e95bff82547dc7518b97d70dbadf2166ccc3882fda75a93abd48c35509d36a429e455878ab89d45c6b556415013835f14f90970e6d1ba55b581869268bac70c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bscalc"

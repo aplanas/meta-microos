@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains development files necessary for developing 
 based on libfreerdp."
 LICENSE = "Apache-2.0"
 
-PV = "2.10.0"
+PV = "2.11.0"
 
-RPM_NAME = "freerdp-devel-2.10.0-3.2.aarch64.rpm"
-RPM_HASH = "918af6427fc0355ba68b57319dd2edce0619b6da6eca05089471673e6a66256fc2a95a68dae27bbf345b6f52233d7c334c5c09d4e3d0fcf4f9b02a37543a377b"
+RPM_NAME = "freerdp-devel-2.11.0-1.1.aarch64.rpm"
+RPM_HASH = "f2302fb916ea0d7bc02d50b59678350e91333a899341301ea9208e35885f11519a9d6dc86d86a749519198a3374f6942e1710807d760f75a7e0a8442635e4b41"
 
 RPROVIDES:${PN} += "cmake-FreeRDP \
 cmake-FreeRDP-Client \

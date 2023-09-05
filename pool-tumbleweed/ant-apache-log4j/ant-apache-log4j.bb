@@ -4,10 +4,10 @@ DESCRIPTION = "Apache Ant is a Java-based build tool. \
 This package contains optional apache log4j tasks for Apache Ant."
 LICENSE = "Apache-2.0"
 
-PV = "1.10.13"
+PV = "1.10.14"
 
-RPM_NAME = "ant-apache-log4j-1.10.13-2.2.noarch.rpm"
-RPM_HASH = "c52db56d01de83f07f2d3bf91cbb26f9c1692c5d73a9b1f32a920d89827b4abf94e124789b03f75772761a38f1da58a709235965925930b30afbb5691f7ddc0e"
+RPM_NAME = "ant-apache-log4j-1.10.14-1.1.noarch.rpm"
+RPM_HASH = "432c6f2b7f44e5b64433a8fc149256814ecf78f1515c5337d16df09a909e0e7bca8de4eaff5f2cf0b9c556088ad4e7a66a3107cd7b50ee7caf4f1765cd40d3c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-apache-log4j \

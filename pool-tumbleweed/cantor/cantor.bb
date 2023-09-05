@@ -4,17 +4,16 @@ and Maxima: Cantor. Cantor offers a worksheet as a nice GUI for all \
 those backends and is not targeted to kids but to scientists."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "cantor-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "edd6e15ad4f65d4c80eadd1f39e17b4ff059e353c228466fbde92dd96f48f6620efe1319137edd1dd12c59bbed37305daf219fa6e38dfaf2db7e7316dceaf12e"
+RPM_NAME = "cantor-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "fa94d7398bbb2f4233d1276453e6371c579b6f047b343376bb86c03463c6bed450a4e89357b1b3904f9227719bd01316a3bd2022ab5bd96d9d06ea7fa58aadd1"
 
 RPROVIDES:${PN} += "cantor \
 cantor5 \
 libcantor-config.so"
 
-RDEPENDS:${PN} += "/usr/bin/env \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libAnalitza.so.8 \
 libAnalitzaGui.so.8 \
 libKF5Archive.so.5 \
@@ -34,7 +33,6 @@ libKF5NewStuff.so.5 \
 libKF5NewStuffCore.so.5 \
 libKF5NewStuffWidgets.so.5 \
 libKF5Parts.so.5 \
-libKF5Pty.so.5 \
 libKF5SyntaxHighlighting.so.5 \
 libKF5TextEditor.so.5 \
 libKF5TextWidgets.so.5 \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kollision"
 DESCRIPTION = "Provides translations for the 'kollision' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kollision-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "82c35bda1bce21c350b5db654379e6c7d1305b49865889057be4b9731f1b9d9fefc6c1c50905e5967c554d71dada7220546392b5f53e3d54db505c38deef0561"
+RPM_NAME = "kollision-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "d4a00aba47bda992b8d1eaf0c46c5e73b4d678315aba732726fc1fe31dbb2b8911d9ddeac0848c5aaeafce6f5b84717a798a9232f1e7e343e1bb8b04573f5155"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kollision-lang \

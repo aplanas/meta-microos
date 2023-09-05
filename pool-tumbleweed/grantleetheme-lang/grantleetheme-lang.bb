@@ -2,10 +2,10 @@ SUMMARY = "Translations for package grantleetheme"
 DESCRIPTION = "Provides translations for the 'grantleetheme' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "grantleetheme-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "a8658e4d73a999bada1554ed1d0963e73bf9315dd3b355142d2dd9f1771a6834447793e4f8ab9b4296373ba5825ff572952067a735deb7b7039685ef93a3b633"
+RPM_NAME = "grantleetheme-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "62298a78ff6c09a613634cc8b471ecd1faf250818113b62aafbf4fbcd18a5557f8ee42e2503c08f9c09622882672233bb702f189e1cd83ca1e88dc408452aeaa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grantleetheme-lang \
@@ -20,6 +20,7 @@ locale-grantleetheme-da \
 locale-grantleetheme-de \
 locale-grantleetheme-el \
 locale-grantleetheme-en-GB \
+locale-grantleetheme-eo \
 locale-grantleetheme-es \
 locale-grantleetheme-et \
 locale-grantleetheme-eu \

@@ -2,10 +2,10 @@ SUMMARY = "Development files for k3b"
 DESCRIPTION = "This package contain files needed for development with k3b."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "k3b-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "fb969d500a5caceaf34591f64c77c59622788e510444a88d6c2a2cae38b0c46ea5a46e70920840a3f45413e8d11d67a7d8f952189869254ca4ef04fd235400b8"
+RPM_NAME = "k3b-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "7868164b77bf338bd2575951114b514b46ba16bbed7c71f8a8d6e856d757af877a12a6502a211666ab39e46301afd4982db1444e1f478ba0e939af703a1040ab"
 
 RPROVIDES:${PN} += "k3b-devel"
 

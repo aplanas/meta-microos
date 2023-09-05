@@ -7,16 +7,16 @@ https://aomediacodec.github.io/av1-avif/ \
 This package holds the development files for libavif."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.11.1"
+PV = "1.0.0"
 
-RPM_NAME = "libavif-devel-0.11.1-2.2.aarch64.rpm"
-RPM_HASH = "6d323ec9fe9c6e4b00af2e1295e4bd37065cca1603caf1859f1fc2ded819d90c83d1f27bc4ff66a8e1f5f6b7f3e9a36df5cc418f06b66ea74798e2b593783f03"
+RPM_NAME = "libavif-devel-1.0.0-1.1.aarch64.rpm"
+RPM_HASH = "c40e856ae6bcf4bf8b6d948cbbab154282c396979da4f1a6a3dc81f1b400343e9bba59ce4e9dc538c924175017bf43095b10ef789832fa04134c17921f2f3651"
 
 RPROVIDES:${PN} += "cmake-libavif \
 libavif-devel \
 pkgconfig-libavif"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libavif15"
+libavif16"
 
 inherit rpm

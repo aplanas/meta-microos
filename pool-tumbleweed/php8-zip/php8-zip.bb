@@ -3,10 +3,10 @@ DESCRIPTION = "This extension allows to transparently read or write ZIP compress
 archives and the files inside them."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.9"
+PV = "8.2.10"
 
-RPM_NAME = "php8-zip-8.2.9-1.1.aarch64.rpm"
-RPM_HASH = "7050010ae93e33bee5e5a54a6aa530fd3952fd925d2e288ef9f03077b0e8bbc9bf5966cc240ae4c6cb8cedd59e80c2f74b83f45db15aec95ded7cf74fb54e13b"
+RPM_NAME = "php8-zip-8.2.10-1.1.aarch64.rpm"
+RPM_HASH = "ed90f58555aecfd3aeb2b7cee04cc84c547316992d0964d4220f04ba00d2b9a7062607569718cbf134d79a90c3dae77f04e802d4b5c3cf1d70317c0355216140"
 
 RPROVIDES:${PN} += "config-php8-zip \
 php-zip \

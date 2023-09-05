@@ -6,10 +6,10 @@ This package contains all necessary include files and libraries needed \
 to develop applications that require libinput."
 LICENSE = "MIT"
 
-PV = "1.23.0"
+PV = "1.24.0"
 
-RPM_NAME = "libinput-devel-1.23.0-1.2.aarch64.rpm"
-RPM_HASH = "fa26c2540f41e66eb9f2ff8d329a6db28819bfb0f977f2915cd0c70dbb6d13d6b2e1a52a94babbae8e828e6965e4f09ef9dad49da3f4822b7570cfc2c40aa7c9"
+RPM_NAME = "libinput-devel-1.24.0-1.1.aarch64.rpm"
+RPM_HASH = "4ab086aceef2dc12be9393f6ebffaca753434f470a2166eb8024c6ef3d7ce58d08611511f7f1738ece30b04637657eda67b0f6c1563ddd5925b7380e29ec9d28"
 
 RPROVIDES:${PN} += "libinput-devel \
 pkgconfig-libinput"

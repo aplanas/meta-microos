@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kaddressbook"
 DESCRIPTION = "Provides translations for the 'kaddressbook' package."
 LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kaddressbook-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "bc60abb59d9da4bd86b439a5fdb21e7044e08faf348fcf5b227a5afbed304ad91867a1f40872dda3c7b7c71bf9dc81ceb76bacf4b3928f2f118e8908ba14bac0"
+RPM_NAME = "kaddressbook-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "d3711e144742aba8d7b152521daf51a0bf0de1ef56988e630e2a22968ff9609abc00b096c844f5efc04fdcb93e22d286b9b81f2dfe6afdf7440856926cb4f5ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kaddressbook-lang \

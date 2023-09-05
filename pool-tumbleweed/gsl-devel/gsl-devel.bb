@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.7.1"
 
-RPM_NAME = "gsl-devel-2.7.1-1.4.aarch64.rpm"
-RPM_HASH = "2f8232943a58fa0f9634e3bcd087bdb21bc3a4e01016971d86a23a5f70dcade8edcc7b4b27dee4a5fc56212b1496fc9418bb050423c450f1739d8e5750acff1d"
+RPM_NAME = "gsl-devel-2.7.1-2.1.aarch64.rpm"
+RPM_HASH = "1e2c439af21eb14f62e970894fdc090dced7b7d1d776710589519670b9cbb4558af66e05ce116462d25b4835ef9ade0b6fbc6ebb9118a2d93b9a21b8a1d8a585"
 
 RPROVIDES:${PN} += "gsl-devel \
 pkgconfig-gsl"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kturtle"
 DESCRIPTION = "Provides translations for the 'kturtle' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kturtle-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "61564d34e3fbe4852436b952c1a90dd09fb0bd7e567e1a5715b13bd8f5f4ac3f253939bb0aa01ab0216e5e5faca58aee22ec91be7545852beacc6ff0617271ae"
+RPM_NAME = "kturtle-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "77909fba00d12431762d2b8fce98d2dd83d020015afec8f055c1c26c988f73bb75b9a865a28fbd151d450508b149829d7a5edb0ec16774a64253f85a0a1ec73e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kturtle-lang \

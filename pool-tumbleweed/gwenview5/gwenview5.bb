@@ -3,10 +3,10 @@ DESCRIPTION = "Gwenview is an image viewer by KDE. It features a folder tree win
 list window, providing navigation of file hierarchies."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "gwenview5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "7bfd316f13df0ece214bf2f3785e643cc69e1d4bfec9cbe0ae36b96404f204b136258a04b32f2322d3301fc90f69f9b04f4a493a6babf825bdf236d41645980e"
+RPM_NAME = "gwenview5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "efbf85a4775cc01761f4a13e5c64f53b844047cb69dd6708159f837c9b72dc199a0016422580b96c13617ef1cef64824fab08b34bcbafa60904b9bca10d8fd53"
 
 RPROVIDES:${PN} += "gwenview \
 gwenview5 \

@@ -11,10 +11,10 @@ the user interface that is used by zathura and jumanji and other \
 features that those applications share."
 LICENSE = "Zlib"
 
-PV = "0.3.9"
+PV = "0.4.0"
 
-RPM_NAME = "libgirara-gtk3-3-0.3.9-1.3.aarch64.rpm"
-RPM_HASH = "ade663c50c690dca73ffd51961b6076501bc7975ca8b5c8cefa63b55d05d02e4b8eaccf5b1a51d2848351e197058b5fc305f34a25dda961706560877795c1e5d"
+RPM_NAME = "libgirara-gtk3-3-0.4.0-1.1.aarch64.rpm"
+RPM_HASH = "0c9c461d914ce994e7392ffe994f18095c15b56150a74522253b8ec1371b96535e0e8f7e53e30be9ca20b9604f36f3218a5009eb91527b1af866867c972198c1"
 
 RPROVIDES:${PN} += "libgirara-gtk3-3 \
 libgirara-gtk3.so.3"

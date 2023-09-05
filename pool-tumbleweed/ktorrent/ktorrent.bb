@@ -5,10 +5,10 @@ same time and comes with extended features to make it a full-featured client \
 for BitTorrent."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "ktorrent-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "8568280cf425aab72d853fea5b2dfbe0be49199d7894b6de644e2c4608250927a56ce2d331fb3af005d164c060dfc85a0d7696c32d23b51dd0a74dc5081327f6"
+RPM_NAME = "ktorrent-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "0f8d645007860842ac7829403dfeee35eff5dee30c31efc5453bdbc0fc1232d9e105f9f9b2d63cb6c359d0c8e861dc8cc3835f7185ec5acbed87672250fc0c90"
 
 RPROVIDES:${PN} += "ktorrent \
 libktcore.so.16"

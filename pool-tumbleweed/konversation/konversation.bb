@@ -16,10 +16,10 @@ Features: \
  Theme support for nick icons"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "konversation-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "66ba8bb5579762614d6b401da844751a175bfb730ccba0ddcfdd024caded3ef251e3a48bbfef5341a7661f81f6473a3fedfdd522b3f950ddb2da0ac36c1f7d35"
+RPM_NAME = "konversation-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "5b8447b9dbfc920f912e785a0a6e8fa42bb74d57f54b4a8d00bba74d496218ed049b2a27e50160b09f2866567b4a9a85d956406d3db8897128998fad0cd8e598"
 
 RPROVIDES:${PN} += "konversation"
 

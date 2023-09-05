@@ -13,8 +13,8 @@ LICENSE = "IPL-1.0"
 
 PV = "1.8.10"
 
-RPM_NAME = "openafs-1.8.10-1.7.aarch64.rpm"
-RPM_HASH = "339a6ff3258d8e96a73e04755f3b0dd61c95c048bfb1100fec1e947810bad727ac5c5000880da8fbab9c132849cda9b072fd6810073617ba806a211aa73f03e2"
+RPM_NAME = "openafs-1.8.10-1.8.aarch64.rpm"
+RPM_HASH = "617d8b2c0cb3931c42ebf91a885662b90354eac33ce78fde4dc677b002c061baac9eac5f862003508782f8dd5c115c9ade511e826a570d2db1fc5e9f56aecfc9"
 
 RPROVIDES:${PN} += "config-openafs \
 libafshcrypto.so.2 \

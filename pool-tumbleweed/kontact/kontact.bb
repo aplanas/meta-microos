@@ -3,10 +3,10 @@ DESCRIPTION = "Kontact combines the individual applications KMail, KAddressBook 
 KOrganizer as views in one window."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kontact-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "92eb09d3b31b0922efa579467a2245446df3900f9623498ba377a015d97243043fd91be46125bc2d9eabd4d8af03ccdb47d38ffbfd8635e3696fed5cd5c422b4"
+RPM_NAME = "kontact-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "53d8e860043fe0954c6bbe527b8ec1371bd0a12398406db9c174031baa428aa17bda800e16ef3d6ca7b298ac95cf46c6da55e57651dfc836db7563e051c6f59b"
 
 RPROVIDES:${PN} += "kontact \
 kontact5 \
@@ -25,13 +25,13 @@ libKF5JobWidgets.so.5 \
 libKF5KCMUtils.so.5 \
 libKF5KIOGui.so.5 \
 libKF5Parts.so.5 \
-libKF5PimCommon.so.5 \
 libKF5Service.so.5 \
 libKF5WidgetsAddons.so.5 \
 libKF5XmlGui.so.5 \
 libKPim5GrantleeTheme.so.5 \
 libKPim5KontactInterface.so.5 \
 libKPim5Libkdepim.so.5 \
+libKPim5PimCommon.so.5 \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \
 libQt5Gui.so.5 \

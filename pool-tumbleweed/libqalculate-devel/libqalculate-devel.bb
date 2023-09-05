@@ -4,10 +4,10 @@ documentation for libqalculate. If you like to develop programs using libqalcula
 you will need to install libqalculate-devel."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.7.0"
+PV = "4.8.0"
 
-RPM_NAME = "libqalculate-devel-4.7.0-1.1.aarch64.rpm"
-RPM_HASH = "b8c9d71cb24cc7ae6addebc864eb8f8e822c2cd0c5f998145eebc10f558e802188a889a2dd1d370a87fed3b61693fc65681c6433e9e7292e188c80b2e112eea6"
+RPM_NAME = "libqalculate-devel-4.8.0-1.1.aarch64.rpm"
+RPM_HASH = "0a06b38d7f4055142c8035c7c2d31153d92cc9026bc873cbf5db58018a3f554deb5aeff10f691af0410fa8ef2142eea7b74eec68175a57c0edfec044c6172533"
 
 RPROVIDES:${PN} += "libqalculate-devel \
 pkgconfig-libqalculate"

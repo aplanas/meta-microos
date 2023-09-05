@@ -2,10 +2,10 @@ SUMMARY = "A secure and free password manager for all of your devices"
 DESCRIPTION = "Bitwarden is a free and open-source password management service that stores sensitive information such as website credentials in an encrypted vault.  Bitwarden offers a cloud-hosted service as well as the ability to deploy the solution on-premises. This package provides the GUI client."
 LICENSE = "GPL-3.0-only & MIT & (Apache-2.0 | MIT)"
 
-PV = "2023.7.1"
+PV = "2023.8.2"
 
-RPM_NAME = "bitwarden-2023.7.1-1.1.aarch64.rpm"
-RPM_HASH = "03ec200bd1fb8c310230e07281f05e22df0628ae0bb1ae0750b8b0a741b9fa1a7d987d8d43850f8054b53b33338f77690d45803f1d80c4f8467d816665cdd1e4"
+RPM_NAME = "bitwarden-2023.8.2-1.1.aarch64.rpm"
+RPM_HASH = "960a82642687bf27cfa61f3ec82e3844a18a1496388542ebd0afb4b1d37c2b3878116aa1b6663f4c2c74c281726199f4616b54daa89f22827df41d5239b5db59"
 
 RPROVIDES:${PN} += "bitwarden \
 bundled-rust-crate-aes \

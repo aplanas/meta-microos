@@ -15,10 +15,10 @@ web applications in PHP using Kdevelop5. \
     new, throw and some more"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kdevelop5-plugin-php-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "3423b28b840aae2a1d858e39204cdc60cf3fa1f0007f4d009fd026a6fb36833c0aecb2671d4385c5116d8f1608bf58ce2b310adf535893a03d77facd407b9278"
+RPM_NAME = "kdevelop5-plugin-php-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "52dd92440910ef8b4129daaf99d1b97139663be93491733f20f7770b0ab30c9d4b04fa5cfbaedb93fe303692893b7a996e8b4aecf9648da3f8964fcedf7223d1"
 
 RPROVIDES:${PN} += "kdevelop5-plugin-php \
 libkdevphpcompletion.so \
@@ -28,13 +28,13 @@ libkdevphpparser.so"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kdevelop5 \
 ld-linux-aarch64.so.1 \
-libKDevPlatformDocumentation.so.511 \
-libKDevPlatformInterfaces.so.511 \
-libKDevPlatformLanguage.so.511 \
-libKDevPlatformOutputView.so.511 \
-libKDevPlatformProject.so.511 \
-libKDevPlatformSerialization.so.511 \
-libKDevPlatformUtil.so.511 \
+libKDevPlatformDocumentation.so.512 \
+libKDevPlatformInterfaces.so.512 \
+libKDevPlatformLanguage.so.512 \
+libKDevPlatformOutputView.so.512 \
+libKDevPlatformProject.so.512 \
+libKDevPlatformSerialization.so.512 \
+libKDevPlatformUtil.so.512 \
 libKF5ConfigCore.so.5 \
 libKF5ConfigGui.so.5 \
 libKF5ConfigWidgets.so.5 \

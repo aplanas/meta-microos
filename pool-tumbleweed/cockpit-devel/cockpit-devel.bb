@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "298"
 
-RPM_NAME = "cockpit-devel-298-1.1.aarch64.rpm"
-RPM_HASH = "f43fc12db42f95a24f5737ea9fb74bc7c9bf36bea482884667069f1168c45cff8d6ab4c27e3530df4143192d72e1355e8778272b447897749c7583e4d7186dcd"
+RPM_NAME = "cockpit-devel-298-2.1.aarch64.rpm"
+RPM_HASH = "4ebc76645d4da2a5eca93d959e080349e2ee0c5cddabca7c426c9d7066de02f19aa84492bc7aa8dd0e8d99933f1f4c7495ed55d27d6de644fc15e9b4e459d39c"
 
 RPROVIDES:${PN} += "cockpit-devel"
 

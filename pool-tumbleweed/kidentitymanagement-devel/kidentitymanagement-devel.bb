@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains necessary include files and libraries neede
 to develop applications that make use of multiple email identities."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kidentitymanagement-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "6a2b5c9138fcad45b46cc938aa2f83a1ffec9c443dab84d9d4394d7a0ff0ed75417bafc39eaf8097333abdd2b1f7f2b43cadc110e1c7da3dfdfd140d7f1dd29f"
+RPM_NAME = "kidentitymanagement-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "cc20e22afecfc47a3f4c1800be6d12813545febe75a8ab9dd73a53115ea449071f88f4c626522b84cc896d469e7960a38449a2ab31d66b1500695a8499564030"
 
 RPROVIDES:${PN} += "cmake-KF5IdentityManagement \
 cmake-KPim5IdentityManagement \

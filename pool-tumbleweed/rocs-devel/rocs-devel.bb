@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides development files and headers needed \
 to build software using Rocs."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "rocs-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "b9e79b5549bf5cf563c40427b7a8a5485d2f51b80bd45df868c7f3b091508aca7da5cd5b9c8a7e4bedd0c2f82013599ef40992a9f4e0f8048bfba8fac36b4630"
+RPM_NAME = "rocs-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "956ac2fc5c4a02898e65852eb15ca79d69327e6ec6d2189efd6bb983886365637f61073264f8f2243947e39405fa3e9fb77c2a8b03faec7b227f18ee8a83f67f"
 
 RPROVIDES:${PN} += "rocs-devel"
 

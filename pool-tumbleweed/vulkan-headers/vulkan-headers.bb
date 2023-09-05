@@ -7,10 +7,10 @@ This package contains the development headers for packages wanting \
 to make use of Vulkan."
 LICENSE = "Apache-2.0"
 
-PV = "1.3.250.0"
+PV = "1.3.261.0"
 
-RPM_NAME = "vulkan-headers-1.3.250.0-1.1.noarch.rpm"
-RPM_HASH = "bd8e6858f0fdb19d9f55fc0e1c2ebe5e64883184231ce605e0627344753a1fdb499bc6bf61d83295613144f98e2f6c1617ef255feb20b568e21d223587efb31c"
+RPM_NAME = "vulkan-headers-1.3.261.0-1.1.noarch.rpm"
+RPM_HASH = "d0f1a1e230453e01da8e04d907d505415ebed9a5926901e24dec2487f5f2547ac435c9e775e588e967532cd9c98dd0e3270ffac37b943a99899467356a056073"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cmake-VulkanHeaders \

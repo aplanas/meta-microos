@@ -2,10 +2,10 @@ SUMMARY = "Framework for searching and managing metadata"
 DESCRIPTION = "Baloo is a framework for searching and managing metada"
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-3.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "baloo5-widgets-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "c0d145e9936d415418668b6c755e5d374e6fe98d5cfee91cd09f0a0eac5fbf018fd42d75f9eb81304388ca0d3463a9665feba37bd54d73ac36ab27718ee21d94"
+RPM_NAME = "baloo5-widgets-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "a37df4c96d46ca5daed9ace0473257f9480d20c3f6a706cf7400a9a880bea0922123c7285f6f4cd5e17973bbfc36c2db8c0238b1475478c26715af793b62d96c"
 
 RPROVIDES:${PN} += "baloo5-widgets \
 libKF5BalooNaturalQueryParser1 \

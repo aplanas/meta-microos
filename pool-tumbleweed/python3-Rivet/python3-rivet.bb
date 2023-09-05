@@ -9,12 +9,12 @@ high-energy collider experiments is preserved for comparison to and \
 development of future theory models. \
  \
 This package provides the python bindings for Rivet."
-LICENSE = "GPL-2.0-only"
+LICENSE = "GPL-2.0-only & Apache-2.0 & MPL-2.0 & LPPL-1.3a & BSL-1.0"
 
 PV = "3.1.8"
 
-RPM_NAME = "python3-Rivet-3.1.8-1.2.aarch64.rpm"
-RPM_HASH = "4d4d1a157feaf923b777b9c55407c92ffd39195a9af6c647788af9d4feb726f8aa733bb6ea95246752d37b596f1307afc2d444cf4d6ac3ab5d4e59c3d811f241"
+RPM_NAME = "python3-Rivet-3.1.8-2.1.aarch64.rpm"
+RPM_HASH = "557f96d691dfc1e5fea971c6efeb96d3fa961477881dc0b7c9570263b2e37c47c5e0f4154c79e0dfb2961e7228572e68039ba120f856e23c225e58cedfc10a12"
 
 RPROVIDES:${PN} += "python-Rivet \
 python3-Rivet"

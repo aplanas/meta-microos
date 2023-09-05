@@ -3,10 +3,10 @@ DESCRIPTION = "This module allows you to create and edit drawings, flow charts, 
 logos by using LibreOffice office suite."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.0.3"
+PV = "7.6.1.1"
 
-RPM_NAME = "libreoffice-draw-7.6.0.3-1.1.aarch64.rpm"
-RPM_HASH = "0ae80f2ade056773e7167a888fb01bfee32e4c125037ea81a255393f44ced0cd050617ab823704af8502a749f56d8025c0de0859b95627a84fbc53d8df587afd"
+RPM_NAME = "libreoffice-draw-7.6.1.1-1.1.aarch64.rpm"
+RPM_HASH = "b399536025393342c33c7962f4eaadb3d1a92818126aa161dc765599b3818e8139423552571ad57730c9899f83c95c4cef63e231a101d140a4ad826b00131bd1"
 
 RPROVIDES:${PN} += "libpdfimportlo.so \
 libreoffice-draw"

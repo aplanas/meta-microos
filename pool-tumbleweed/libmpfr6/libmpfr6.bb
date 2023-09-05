@@ -4,10 +4,10 @@ computations with exact rounding (also called correct rounding). It is \
 based on the GMP multiple-precision library."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "4.2.0"
+PV = "4.2.1"
 
-RPM_NAME = "libmpfr6-4.2.0-3.2.aarch64.rpm"
-RPM_HASH = "486afee6a4dd6533c6a08247b61e41cdd416f9ef5a73b526cdf12d340a3ed0f92c09ec0dd664dc03aa8654eefbd9c19e030f32af8a8a8952c16aa50abc284d1a"
+RPM_NAME = "libmpfr6-4.2.1-1.1.aarch64.rpm"
+RPM_HASH = "465051583d68cb0a8d53adacbc46e618504d5f2e4d0be207e0c0d5128fa31fb013b7895746b74948d57ac41da025d8006d270f02cea16769d85f3f706d82d86e"
 
 RPROVIDES:${PN} += "libmpfr.so.6 \
 libmpfr6"

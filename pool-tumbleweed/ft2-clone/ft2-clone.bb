@@ -3,10 +3,10 @@ DESCRIPTION = "Multi-platform clone of the classic music making software \
 Fasttracker II. It can load XM, MOD, S3M, STM module files."
 LICENSE = "BSD-3-Clause & CC-BY-NC-SA-4.0"
 
-PV = "1.66"
+PV = "1.69"
 
-RPM_NAME = "ft2-clone-1.66-1.2.aarch64.rpm"
-RPM_HASH = "02e349161acfe9693f5ca0d1c113fe22d808e9cbebd57c544cb70fb658f1e721ddebf1284b4b9dc2e5d8542fe71fc55c70859ea3347b9f4422393617a9870520"
+RPM_NAME = "ft2-clone-1.69-1.1.aarch64.rpm"
+RPM_HASH = "0b6d436b6040a1bdf81fd4f44f6e9ea5bbd49188748ee9d721af829241474c003a59310f020f2ad4dbff91871b50372dc8edb3d298776b8b4700f473f079469b"
 
 RPROVIDES:${PN} += "bundled-rtmidi \
 ft2-clone"

@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.5.28"
 
-RPM_NAME = "libdjvulibre21-3.5.28-5.1.aarch64.rpm"
-RPM_HASH = "042c4e309b305b6f267aff84ba32fddc734a4c4126b6b5d142dd5fb028af84be81db0cb4dbbb7230647f48efdb474bb37e95e19cb940c999ebf0bf6b208aa5f3"
+RPM_NAME = "libdjvulibre21-3.5.28-6.1.aarch64.rpm"
+RPM_HASH = "b8509f824e2cbf38a626a095b3f5b17dfa02a23cf2eb01b6b13e1e0171041250049442afd752ee0afeb9cfabcc7c6b1d83562cf32ba7d9e5d51d95d520e66dcf"
 
 RPROVIDES:${PN} += "libdjvulibre.so.21 \
 libdjvulibre21"

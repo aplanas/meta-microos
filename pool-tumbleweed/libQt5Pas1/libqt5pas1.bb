@@ -1,11 +1,11 @@
 SUMMARY = "Free Pascal interface to Qt5"
-DESCRIPTION = "Library that allows to use Qt5 with Free Pascal"
+DESCRIPTION = "Qt5 bindings for Pascal from Lazarus."
 LICENSE = "LGPL-3.0-only"
 
 PV = "2.2.6"
 
-RPM_NAME = "libQt5Pas1-2.2.6-1.4.aarch64.rpm"
-RPM_HASH = "d25f2e1699c31ee8a415ce8c87beb329a4baaf1114fe4ef7ce069b386044783d10b01065cce45bfae1ce5453fea175bf7f619af476979e13268096905d41080d"
+RPM_NAME = "libQt5Pas1-2.2.6-2.1.aarch64.rpm"
+RPM_HASH = "b3380e999e644b53febe5109599c2d14fc4d3f5154f82e00135a860a1d35d926d6550a5dc5bcb6102b41d732e696315cd4f4bcaf249ba4c26b61e859c4d1e7da"
 
 RPROVIDES:${PN} += "libQt5Pas.so.1 \
 libQt5Pas1"

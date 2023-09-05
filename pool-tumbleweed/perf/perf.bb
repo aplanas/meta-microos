@@ -6,10 +6,10 @@ This subsystem utilizes the Performance Monitoring Unit (PMU) / hardware \
 counters of the underlying cpu architecture (if supported)."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.11"
+PV = "6.4.12"
 
-RPM_NAME = "perf-6.4.11-81.1.aarch64.rpm"
-RPM_HASH = "71da6d960f0ce737f7ceef865a5f2427ea7e1d53540fdde49f2f6ca62245594742b94242c2996c0581430bdf917f38ca4aff5486b2178845203d4831040319f5"
+RPM_NAME = "perf-6.4.12-81.2.aarch64.rpm"
+RPM_HASH = "0c203c1e7639446a6225c49298fcd356a5d1de4e2ab84c5703f974db4c38f51708fadee78252cdb8fb432b11c4328a518e87fa9c8b046228f290ddaff74c21b1"
 
 RPROVIDES:${PN} += "perf \
 perl-Perf--Trace--Context \

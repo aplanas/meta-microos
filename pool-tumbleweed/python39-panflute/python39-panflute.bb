@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.0"
 
-RPM_NAME = "python39-panflute-2.3.0-1.2.noarch.rpm"
-RPM_HASH = "2a3c99d0c59d3582f6793164969c154ccdd7e78954b4a6c639206365c422e69dde6ef8f3217c4497295af2de99aea433b8f3c32bcc7548478a04ab0ec39c94c8"
+RPM_NAME = "python39-panflute-2.3.0-2.1.noarch.rpm"
+RPM_HASH = "c74ff3a31c1a9054ec6c803904daed4eef3c27733dfd73d4d646dc6d3e5818de9dd787b5e84731e7151d53e217063674ab8ee421d344752f88be9f5d6f31a3e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-panflute \
@@ -17,7 +17,6 @@ RDEPENDS:${PN} += "/usr/bin/python3.9 \
 python-abi \
 python39-PyYAML \
 python39-click \
-python39-future \
 update-alternatives"
 
 inherit rpm

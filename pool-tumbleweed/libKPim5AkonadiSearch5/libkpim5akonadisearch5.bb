@@ -3,10 +3,10 @@ DESCRIPTION = "AkonadiSearch is a framework for searching and managing PIM metad
 This package contains the core libraries"
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & LGPL-3.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libKPim5AkonadiSearch5-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "5c0719eba611107dd9ad55f1297b1bd44e9479dc3a696797be0584fe5a86ca395ab7876b75819165c37de87da20e48f7d3487a6f48fd7d33022ee65f2511be65"
+RPM_NAME = "libKPim5AkonadiSearch5-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "7fef1e13facb3d47030c1bfcb733428925daac1be06c2c0dc1f5fd8e3377a928680de6dc6566f364b69d57c654b9d6e0f00ff8a656fe26c1afba765c6ef80d05"
 
 RPROVIDES:${PN} += "libKPim5AkonadiSearch5 \
 libKPim5AkonadiSearchCore.so.5 \

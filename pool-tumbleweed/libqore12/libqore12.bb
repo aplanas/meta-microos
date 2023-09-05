@@ -7,10 +7,10 @@ This package provides the qore library required for all clients using qore \
 functionality."
 LICENSE = "GPL-2.0-or-later | LGPL-2.0-or-later | MIT"
 
-PV = "1.16.1"
+PV = "1.18.1"
 
-RPM_NAME = "libqore12-1.16.1-1.1.aarch64.rpm"
-RPM_HASH = "853f75fea88134fa1b554f5575fab9d3e45976988c96025d282f00474774a6c4d387b4348aa9ef54074510cb7bf341ef49ea35c90d3c78894b35da535c641817"
+RPM_NAME = "libqore12-1.18.1-1.1.aarch64.rpm"
+RPM_HASH = "3b873d554406cdd5b0241eda104bda5ae1f12fdaf8321ab71e008b2553f44f9564d63cbe594f98ccd1d9abd3595194f620da4f89666b0570142a53bc95342b69"
 
 RPROVIDES:${PN} += "libqore.so.12 \
 libqore12 \

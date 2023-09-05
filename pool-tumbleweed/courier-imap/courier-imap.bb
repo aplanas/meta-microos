@@ -26,10 +26,10 @@ version. If you install this version, you must remove it if you later \
 install the entire Courier server."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.4"
+PV = "5.2.5"
 
-RPM_NAME = "courier-imap-5.2.4-1.2.aarch64.rpm"
-RPM_HASH = "3ddd152d666e21d432e6bbba797f02796d6e56a4f91887363c96b7392e8a117715456bcfed6c787d3cdaf255e3e90abb09ad285e7f122b3a8dc1f5148929fe24"
+RPM_NAME = "courier-imap-5.2.5-1.1.aarch64.rpm"
+RPM_HASH = "7e36678b4e74cf2d24685ba580e94bcb18e794c7ee5b3dd9590d25e6fad0def0af8762951d3484d188c94c950124d9ac9f881c8fbc5b9b388c6022ebd70e68f1"
 
 RPROVIDES:${PN} += "config-courier-imap \
 courier-imap"

@@ -2,10 +2,10 @@ SUMMARY = "General Data for KDE Games"
 DESCRIPTION = "This package contains data which is required by KDE games."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libkmahjongg-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "a1f4f1da9dec735793b9e788a36d9cc4feea456ece55304b3bf56b21782c640d47204170f00465897098c1ea0738995729af7027d292e5a21a6c9f5906ea4e99"
+RPM_NAME = "libkmahjongg-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "106d1a6fd14b207778888ec12715899adb196f6107dad49c87ef30d6f0bce6e0a6f5c3c3459da61d33bcaee1399d026d4305a663735253c8718e1cd4469a3c4b"
 
 RPROVIDES:${PN} += "libkmahjongg \
 libkmahjongg-kf5"

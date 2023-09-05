@@ -3,10 +3,10 @@ DESCRIPTION = "The ncurses based test programs, that is a set of tools \
 showing the features of the new curses libraries."
 LICENSE = "MIT"
 
-PV = "6.4.20230812"
+PV = "6.4.20230819"
 
-RPM_NAME = "ncurses-examples-6.4.20230812-18.1.aarch64.rpm"
-RPM_HASH = "6c3ad9f3c8f5bfc1b92f3c9769f0aa82f0038f8a27d511aa40a17bde40ff5e34652583418aa7648ac7e7045cc1f52cf7d98fa4d5f717bf83cb8878345c86bc0c"
+RPM_NAME = "ncurses-examples-6.4.20230819-19.1.aarch64.rpm"
+RPM_HASH = "5a80e5e683d17de571000290ba88fc828d96947dc9b2b220311c07234b88cb326449250b0e0689d7d49532d626b725c60586e9f6dc98353ce4f77e0cc66c0767"
 
 RPROVIDES:${PN} += "ncurses-examples \
 ncurses-tests"

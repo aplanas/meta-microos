@@ -2,10 +2,10 @@ SUMMARY = "Multimedia Player"
 DESCRIPTION = "Dragon Player is a simple video player."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "dragonplayer-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "ef596e799c3ec1a3a79481f3395689731d04f669499b8f511ac8f990606d3332b7e2e2e1b6bee840576c7be1c4a7e15e3f87b80baa6a71f5c0fe90f12570bb88"
+RPM_NAME = "dragonplayer-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "374295bb95264ae97a62d37fcc62fafe3db8b02661988dba44d0bd6d3bf792d91d1de731ded91311e47de7c37a4d4c89d83a6c791b26f89fb25816faaef9b87e"
 
 RPROVIDES:${PN} += "config-dragonplayer \
 dragonplayer \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the scripts to make the porting KDE softwar
 kdelibs and Qt4 to Qt5 and KDE Frameworks 5."
 LICENSE = "GPL-2.0-only & GFDL-1.2-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kdesdk-scripts-kf5-porting-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "9df10085153f5c8a09644754fcf2458d019f7ca4468ce3844658bf542aaca0b12c7ca806660866ecdd0557176a85bd204213f48a69eec522bee2d7753d1322dd"
+RPM_NAME = "kdesdk-scripts-kf5-porting-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "acf2a871014f534ea527b5828c9c1c94e18f8336e2ec271006fd1741dd93302136751b5a3c4fe8c279a07d7787e58796882524294301b25327b93b1641b3ce3e"
 
 RPROVIDES:${PN} += "kdesdk-scripts-kf5-porting \
 kdesdk4-scripts-kf5-porting \

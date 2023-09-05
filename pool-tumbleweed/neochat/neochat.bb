@@ -3,10 +3,10 @@ DESCRIPTION = "Neochat is a client for Matrix, the decentralized communication p
 messaging."
 LICENSE = "GPL-3.0-or-later & GPL-3.0-only & BSD-2-Clause"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "neochat-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "c0d532aa57bf72047e1762bc64531c44dafaf5dc7ae7f860874461ff296dc77d48d6d8d5036842d1d415c11965a13eb4d678dffb0b12c98842af52ffc3eed086"
+RPM_NAME = "neochat-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "2ddc02d5e2cb19981a0a6f2eab657bd7daa4e5f15ad646ea0f78c01381afb8154543541897fda248e4913895c03e93ddafa55070c9fa6a03e44e6f541639ed55"
 
 RPROVIDES:${PN} += "neochat"
 
@@ -24,6 +24,7 @@ libKF5I18n.so.5 \
 libKF5KIOCore.so.5 \
 libKF5KIOGui.so.5 \
 libKF5KIOWidgets.so.5 \
+libKF5Kirigami2.so.5 \
 libKF5Notifications.so.5 \
 libKF5SonnetCore.so.5 \
 libKF5WindowSystem.so.5 \
@@ -36,7 +37,7 @@ libQt5Qml.so.5 \
 libQt5Quick.so.5 \
 libQt5QuickControls2.so.5 \
 libQt5Widgets.so.5 \
-libQuotient.so.0.6 \
+libQuotient.so.0.8 \
 libc.so.6 \
 libcmark.so.0.30.3 \
 libm.so.6 \

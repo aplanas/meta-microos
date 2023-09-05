@@ -3,10 +3,10 @@ DESCRIPTION = "Addons for KDE PIM applications, such as extensions for KMail, ad
 themes, and plugins providing extra or advanced functionality."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kdepim-addons-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "386a0dda6937edae56323a4890266bd92acc963c466032a738c93b6a54f66f0493b3c447e0c1f9eb554fa8621c23ccb32d1fb6d69a71c9a32a06c39d7565b57b"
+RPM_NAME = "kdepim-addons-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "e5f0522dc17e8bddab18bce7cd359027d3f8c295ae52131359b1c3a9a445d73e5e7df5baa5d40f7ceef917779aa1af535e43ce6f1dbe9f1bace88f1f094e2aae"
 
 RPROVIDES:${PN} += "kdepim-addons \
 libadblocklibprivate.so.5 \
@@ -47,8 +47,6 @@ libKF5JobWidgets.so.5 \
 libKF5KIOCore.so.5 \
 libKF5KIOGui.so.5 \
 libKF5KIOWidgets.so.5 \
-libKF5PimCommon.so.5 \
-libKF5PimCommonAkonadi.so.5 \
 libKF5Prison.so.5 \
 libKF5Service.so.5 \
 libKF5SyntaxHighlighting.so.5 \
@@ -66,6 +64,7 @@ libKPim5AkonadiNotes.so.5 \
 libKPim5AkonadiWidgets.so.5 \
 libKPim5CalendarSupport.so.5 \
 libKPim5CalendarUtils.so.5 \
+libKPim5ContactEditor.so.5 \
 libKPim5EventViews.so.5 \
 libKPim5GrantleeTheme.so.5 \
 libKPim5Gravatar.so.5 \
@@ -80,12 +79,13 @@ libKPim5Libkleo.so.5 \
 libKPim5MailCommon.so.5 \
 libKPim5MailImporter.so.5 \
 libKPim5MailTransport.so.5 \
-libKPim5MailTransportAkonadi.so.5 \
 libKPim5MessageComposer.so.5 \
 libKPim5MessageCore.so.5 \
 libKPim5MessageViewer.so.5 \
 libKPim5Mime.so.5 \
 libKPim5MimeTreeParser.so.5 \
+libKPim5PimCommon.so.5 \
+libKPim5PimCommonAkonadi.so.5 \
 libKPim5PkPass.so.5 \
 libKPim5TemplateParser.so.5 \
 libKPim5TextEdit.so.5 \

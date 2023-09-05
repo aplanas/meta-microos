@@ -10,14 +10,14 @@ LICENSE = "Apache-2.0"
 
 PV = "2023.4"
 
-RPM_NAME = "shaderc-2023.4-1.1.aarch64.rpm"
-RPM_HASH = "0cd2166ea9913d2d439a9efd749aa18ef1189dbf10c87cefcaa3392ec1f38adcba4a5f4878c7097651fa455e3622e67191d689d06c0a6495cad1a35639daf0f0"
+RPM_NAME = "shaderc-2023.4-1.2.aarch64.rpm"
+RPM_HASH = "53dba3138671f46c5a88cc9e300fcb3e1c9245326eebb45add8c471aaa294f5baefd8b55d55833ba0a4bdaeaea8f78a131e24247d67091a74632a146a9f17eb0"
 
 RPROVIDES:${PN} += "shaderc"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libSPIRV-Tools-2023.3~rc1.so \
-libSPIRV-Tools-opt-2023.3~rc1.so \
+libSPIRV-Tools-2023.4~rc2.so \
+libSPIRV-Tools-opt-2023.4~rc2.so \
 libSPIRV.so.12 \
 libc.so.6 \
 libgcc-s.so.1 \

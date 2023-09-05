@@ -12,10 +12,10 @@ templates and template meta-programming. \
 This package provides the shared libraries for armadillo."
 LICENSE = "Apache-2.0"
 
-PV = "12.6.1"
+PV = "12.6.2"
 
-RPM_NAME = "libarmadillo12-12.6.1-1.1.aarch64.rpm"
-RPM_HASH = "9b5f4bd16e3ef82dfbf00bb380cded8b535a0e7819261d057fb64d2829eba79c9c4d41970f606caa43c4ad56de6ccafb49ca56418c24c9003eb2c59d0262a4a2"
+RPM_NAME = "libarmadillo12-12.6.2-1.1.aarch64.rpm"
+RPM_HASH = "34433df4514be946c619d7ec3171f54ee79838cc04acdbda9787174c37581272c57e2d45298f76d99779fe7ae41628f689c891b2e4e9ed05a8ccea755e56949b"
 
 RPROVIDES:${PN} += "libarmadillo.so.12 \
 libarmadillo12"

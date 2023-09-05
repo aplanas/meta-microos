@@ -5,10 +5,10 @@ interface, and should be compatible with other middleware based on those \
 interfaces."
 LICENSE = "MIT"
 
-PV = "3.5.2"
+PV = "3.5.3"
 
-RPM_NAME = "python311-Paste-3.5.2-3.3.noarch.rpm"
-RPM_HASH = "641313bed0e041a1ee081f6e359515badf565743ec820533b513c1f662bdee41478aee847417d45f0d174ee8edcd5c24be492612f61722c8955726926925239a"
+RPM_NAME = "python311-Paste-3.5.3-1.1.noarch.rpm"
+RPM_HASH = "53a9241c386d2530c306f88d0425900f0dc2a742ef16436515fcdff1ab8c7453a22c3da0cc6d2d5c083b9f2ae29dbfa1c283877531690017e6bac4c0f5fb37dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Paste \
@@ -17,6 +17,7 @@ python311-Paste \
 python3dist-paste"
 
 RDEPENDS:${PN} += "python-abi \
+python311-setuptools \
 python311-six"
 
 inherit rpm

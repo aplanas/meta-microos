@@ -7,10 +7,10 @@ Konqueror integration for adding news feeds and with an internal \
 browser for news reading."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "akregator-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "8407c2eb1a814cea7ce4f6acb08d4afeaf3d7124f3f089e76f93447796ffdd715965385afd649d6619bd7278ac4893bd7a2a7eda8c7343d6c9b7b2418baa3590"
+RPM_NAME = "akregator-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "588d224472a9144f997349d8560196a30148d95b099d20721f28a37eea1eb453d61b51834d94ea4d69b5c93299436c24c5290aaa4725b9fc84ecf3d3649484d8"
 
 RPROVIDES:${PN} += "akregator \
 akregator5 \
@@ -35,7 +35,6 @@ libKF5KIOWidgets.so.5 \
 libKF5Notifications.so.5 \
 libKF5NotifyConfig.so.5 \
 libKF5Parts.so.5 \
-libKF5PimCommon.so.5 \
 libKF5Syndication.so.5 \
 libKF5TextEditTextToSpeech.so.1 \
 libKF5TextWidgets.so.5 \
@@ -46,6 +45,7 @@ libKPim5KontactInterface.so.5 \
 libKPim5Libkdepim.so.5 \
 libKPim5MessageViewer.so.5 \
 libKPim5MimeTreeParser.so.5 \
+libKPim5PimCommon.so.5 \
 libKPim5TextEdit.so.5 \
 libKPim5WebEngineViewer.so.5 \
 libQt5Core.so.5 \

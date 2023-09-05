@@ -2,10 +2,10 @@ SUMMARY = "Translations for package zanshin"
 DESCRIPTION = "Provides translations for the 'zanshin' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "zanshin-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "e2b64645fcb4948daf6eb295d0699ae7bd75d90907be18df3287594efa3548d4efe9a37a61addec7dbb68e93e51efa88aa39c4389e20298dd976de81a3add6f7"
+RPM_NAME = "zanshin-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "5672331c5d8332ba6f2e51d9161c130890249dd1892ab3b8b9641a1029441f7d296f4fe50dae2693514d7f1ef8d22b777e17782e20b47e517fb12cf4bb6d8af6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-zanshin-bg \

@@ -4,10 +4,10 @@ cursor going forward on the document stream and stopping at each node \
 on the way."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.9"
+PV = "8.2.10"
 
-RPM_NAME = "php8-xmlreader-8.2.9-1.1.aarch64.rpm"
-RPM_HASH = "bd564d8cf26255997e842ef2b1361e2fce7cff1f8bcf6d187b23936b1f22d21c153243d9c0bdc20b57b29f5ebfcfeed03e934e945f44ce3df60702779a5aadcb"
+RPM_NAME = "php8-xmlreader-8.2.10-1.1.aarch64.rpm"
+RPM_HASH = "b80b1dba7471b99f8c5fc7cac3a714c154821fa389ec62069a78540e9f707ea8813fac1f760d4e6bc52a0fb60d2d8e4def6294f30482d46ae7a2cafd5af37e57"
 
 RPROVIDES:${PN} += "config-php8-xmlreader \
 php-xmlreader \

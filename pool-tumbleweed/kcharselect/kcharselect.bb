@@ -2,10 +2,10 @@ SUMMARY = "KDE Character Selector"
 DESCRIPTION = "KCharSelect is the KDE character selector tool."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kcharselect-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "996c65e8adcd4813fdc4ebec5272c721c42779da7fd54a2c862da70905219d2b5e0eb9fa19963bb10e2f5e6b67c8dd8c74b3b7a5cd6f5d803469056e1c23f9a6"
+RPM_NAME = "kcharselect-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "2a96d3a90f4d627dc5c2db288c45206a88ed696df09e6fd1354eaa62aa8063adeff421ffbea9cb4fe2c62d0e43f3832b49e3c4f73c302f07e1a871525251cfe4"
 
 RPROVIDES:${PN} += "kcharselect \
 kcharselect5"

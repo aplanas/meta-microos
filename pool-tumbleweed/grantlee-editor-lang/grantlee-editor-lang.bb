@@ -2,10 +2,10 @@ SUMMARY = "Translations for package grantlee-editor"
 DESCRIPTION = "Provides translations for the 'grantlee-editor' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "grantlee-editor-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "e75741e32a20efd3f7eabb92f498d0772d8895af0885520ec48f9002de32ced7957ba33fcb50a985861975a4bcd5ac2e64a3761e68e7b544242832a63d9e0bbd"
+RPM_NAME = "grantlee-editor-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "f398d3dc7479de882a552054c3d9a81162ee61e1c5e8e8a2936042a211711c7fc5689477ee796a15b5b1abd80969bcbab693db6f9903a62711cdcbe86b27416e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grantlee-editor-lang \

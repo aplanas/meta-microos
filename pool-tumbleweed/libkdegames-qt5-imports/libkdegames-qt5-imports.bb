@@ -2,10 +2,10 @@ SUMMARY = "QML modules for KDE games"
 DESCRIPTION = "This package contains QML modules for KDE games."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libkdegames-qt5-imports-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "02d6ad9f7eab1fb4b41497674b0b262fb2609c4417610296ca2ca6648e1bdcf143a6508fcb21367b03ff65ec40acc2f31fdb4eebbc65ef94d9abf4cee56a6ee4"
+RPM_NAME = "libkdegames-qt5-imports-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "929d2b2620db401c68357eb7cd9e6f7abe086c099282d6fd07e2def09e7be64f65ee26769ab9534f61ecf748cbbe3bbb582cf4ed9c7ab25c03b5e5628b3b4def"
 
 RPROVIDES:${PN} += "libcorebindingsplugin.so \
 libkdegames-qt5-imports \

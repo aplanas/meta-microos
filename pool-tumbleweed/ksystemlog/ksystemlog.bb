@@ -5,10 +5,10 @@ are in their computer. But it is also designed for advanced users, who \
 want to quickly see problems occurring on their server."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "ksystemlog-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "0cbba3cd263a31b5f47994fd6c570e9c87d1692dc40294aa7c739ce279af01d7736447eaefb4b3a58fda826d5e6f5ce39cc2ef7ed09a04cdadc5adb7f630547f"
+RPM_NAME = "ksystemlog-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "11d42f911ae9a5b9f8476357d01def136e2ccf286971561ee49d2efad4d851bbc68cbd1c831b113e4be297162923fce74c6ab54858b73606ac49a755bbbe7f16"
 
 RPROVIDES:${PN} += "ksystemlog \
 ksystemlog5"
@@ -22,7 +22,6 @@ libKF5ConfigWidgets.so.5 \
 libKF5CoreAddons.so.5 \
 libKF5I18n.so.5 \
 libKF5ItemViews.so.5 \
-libKF5KIOCore.so.5 \
 libKF5KIOWidgets.so.5 \
 libKF5TextWidgets.so.5 \
 libKF5WidgetsAddons.so.5 \

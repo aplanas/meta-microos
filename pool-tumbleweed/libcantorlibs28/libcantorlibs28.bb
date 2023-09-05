@@ -2,10 +2,10 @@ SUMMARY = "Shared libraries for Cantor"
 DESCRIPTION = "Shared libraries for package cantor."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libcantorlibs28-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "2399737df072229e2d78c649ad7e300413a05ac3b9a3e2e8a8eb9df9b98fcb40295fa236ac947a6e816e4ecfc5fda6d04a337db7acc6d89379da405217781874"
+RPM_NAME = "libcantorlibs28-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "870d95b6992dfe3b8567df4c7c20add907432f7f870c23aa7e1decac3c78a31328e69e38bc98febdbf0b3d242da0bbd17fc3d8f59f7cd2a01d3d6441bb313ab6"
 
 RPROVIDES:${PN} += "libcantorlibs.so.28 \
 libcantorlibs28"

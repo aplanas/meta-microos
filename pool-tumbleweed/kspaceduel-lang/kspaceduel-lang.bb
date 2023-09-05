@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kspaceduel"
 DESCRIPTION = "Provides translations for the 'kspaceduel' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kspaceduel-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "401e8566831b5297036802f6895d6f3257cad2b49507f74c89a3f2b64b9525e1ef50f0562fa70c9933977912b7d9d8e7f388f027d8df7dcdbde5dd4d7205e33f"
+RPM_NAME = "kspaceduel-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "1087446b3d79e95d28cf4a87ebd97e4e9e709294b5d1a837e6f60bb0c20edc7057ac95aefc7fdfd59bd035bbb3cee55961bb6475f8892eb034458def8ac78180"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kspaceduel-lang \

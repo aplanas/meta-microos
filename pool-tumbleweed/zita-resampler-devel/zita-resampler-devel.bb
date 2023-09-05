@@ -2,10 +2,10 @@ SUMMARY = "Development files for zita-resampler"
 DESCRIPTION = "Development files for zita-resampler including headers and libraries."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.8.0"
+PV = "1.11.2"
 
-RPM_NAME = "zita-resampler-devel-1.8.0-1.10.aarch64.rpm"
-RPM_HASH = "601ca294d3001d70e497a3279074c6b79ab720b968f8aa0360b574bec9141ad068b473298a27d4db503064ad54fb2254ed18b126b830425896d95038dacd9287"
+RPM_NAME = "zita-resampler-devel-1.11.2-1.1.aarch64.rpm"
+RPM_HASH = "ef2d7f53365d383e727da81ca89d7f5af0a8b531ed039220e2db7cd87a67a56efa7de93c4ece550f29bca810c69efa7063057a2d3f904e5f393271432d28eaad"
 
 RPROVIDES:${PN} += "zita-resampler-devel"
 

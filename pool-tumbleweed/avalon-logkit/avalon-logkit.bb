@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1"
 
-RPM_NAME = "avalon-logkit-2.1-24.7.noarch.rpm"
-RPM_HASH = "c2822db7d9be411ae0ae0431d2f6cb39e5168e72522b3d7d745eb8c6b283ee0d01dbb0fe196a725e89f45591c84f491f9c3c9f70907abfde3c30697cdd07db33"
+RPM_NAME = "avalon-logkit-2.1-25.1.noarch.rpm"
+RPM_HASH = "8e07c2eadc6862d9b3115c76ee3adce856223dd8ed716f5b172148cf3bfe5cd7c4c70fdfe14164dea7420010d8a0333c4b417bc1f271f1bc0f23e260c1f902bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avalon-logkit \

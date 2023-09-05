@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.8"
 
-RPM_NAME = "vkd3d-devel-1.8-1.1.aarch64.rpm"
-RPM_HASH = "23ec706dfea62a1d9388a7a90a31ac745d68255a977450da936bb5c707849abeda37e5583f5c774ca73f1ec7403a71557792a9000210c58bc5511e27eacf76f2"
+RPM_NAME = "vkd3d-devel-1.8-1.2.aarch64.rpm"
+RPM_HASH = "2190d91a17ca032d2747991c6071dfb67c8322115d60f2f904c7b787d56661ae6d9615e0993779efc34be376ca845c6e9533b326a20cd5302298944b111f0da8"
 
 RPROVIDES:${PN} += "pkgconfig-libvkd3d \
 pkgconfig-libvkd3d-shader \

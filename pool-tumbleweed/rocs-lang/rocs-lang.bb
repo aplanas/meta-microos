@@ -2,10 +2,10 @@ SUMMARY = "Translations for package rocs"
 DESCRIPTION = "Provides translations for the 'rocs' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "rocs-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "86ed4279a923a1b4359f8f2c17322081a95de34bfd50a71001633450aaf937e5bd438cbc7d4d9e81701821b8f73aef1a8396eb20d17892d6c231e666a9af253b"
+RPM_NAME = "rocs-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "3ca382508d196bf42fbb8c18f3ce2fcffff30b99dc0f4e8556762d3e9075f4c7c0fccaf976a2ab9d7e2c0d4a59826fef2d78bff2197e2c34fc5bfc45fffe2ae9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-rocs-ar \

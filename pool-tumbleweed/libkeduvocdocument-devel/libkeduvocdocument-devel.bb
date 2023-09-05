@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary files and libraries needed to
 develop KDE education applications."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libkeduvocdocument-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "1311a0157d3314b791176d75dc5ac61dfdd642e3e96829376033bf64c5c32fd0d82464d4cda3e2b20351526e4e8456fd8959cd816f617699c5656033cfedae06"
+RPM_NAME = "libkeduvocdocument-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "b0909e306136bebafd58448c6dd583c334fe41492cce762d06addbb74ed7cc079021d449a2888a436a1754e12585253093e126a65d8936d1db8809cdd62af832"
 
 RPROVIDES:${PN} += "cmake-LibKEduVocDocument \
 libkeduvocdocument-devel"

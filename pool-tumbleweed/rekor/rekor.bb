@@ -6,10 +6,10 @@ The Rekor project provides a restful API based server for validation and a trans
 Rekor fulfils the signature transparency role of sigstore's software signing infrastructure. However, Rekor can be run on its own and is designed to be extensible to working with different manifest schemas and PKI tooling."
 LICENSE = "Apache-2.0"
 
-PV = "1.2.1"
+PV = "1.3.0"
 
-RPM_NAME = "rekor-1.2.1-1.2.aarch64.rpm"
-RPM_HASH = "8f7a1f0ca0296fa287c048db079ef1d91277acdd230d2a62827ac5807bfc81cc827074fa6afd48cde3e6dc7d57fdd6a380172970b0b74706184db0f78a8374a1"
+RPM_NAME = "rekor-1.3.0-1.1.aarch64.rpm"
+RPM_HASH = "36e38777d9e5655f5fdea033a53614f0559482499368ceaa496c886251bc252b241619616d5f17c208ed7687bbfcd7f3df32d72acbceb7a8087953d4581fdeec"
 
 RPROVIDES:${PN} += "rekor"
 

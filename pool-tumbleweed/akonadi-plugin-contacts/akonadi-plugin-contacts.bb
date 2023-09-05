@@ -2,10 +2,10 @@ SUMMARY = "Plugins for personal contact handling"
 DESCRIPTION = "This package provides plugins required by PIM applications to read and write contact data."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "akonadi-plugin-contacts-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "80369303d3279e6e234d950dfdc306b6ca947bfa41a93ca667cdd29fe3137dcd9447c4ac583676d9f28eac6cec1337bc8511031f7667efd6d7fb0de55b3bdc67"
+RPM_NAME = "akonadi-plugin-contacts-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "e5c3829c4a411e88b6e6a5323671f58dc25d253da06d8f8e399a242a6ae80ccaacffe81175153e4a0abd9b864618768635c32a24c1505086951efae9d28721b7"
 
 RPROVIDES:${PN} += "akonadi-plugin-contacts"
 

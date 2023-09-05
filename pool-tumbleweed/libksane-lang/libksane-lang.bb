@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libksane"
 DESCRIPTION = "Provides translations for the 'libksane' package."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libksane-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "380b39740637b62d8a8001c003351d484bda1b9e7fe5307336aa8d845c148e3ab8e62dab9e4930da6c226396fa6c49e6c3969e73e4eb0f3022cccfb716ea2b54"
+RPM_NAME = "libksane-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "0c5e73a293c79975dd1c58c4f55cd7adf8feb1b8830604c438ca459fb74d35caad48c52f119d68659c89c0e5442dd1093231b77d5865f403f2e2f616ca81475e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libksane-lang \

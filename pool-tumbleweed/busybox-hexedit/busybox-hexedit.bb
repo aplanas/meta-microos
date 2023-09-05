@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.36.1"
 
-RPM_NAME = "busybox-hexedit-1.36.1-28.1.noarch.rpm"
-RPM_HASH = "8c337ead5315a6d1e0bcdd7f0ac646d7f8cf32e2ce79b101778964c7df0fac1f3f018992b3eb60671d1c002d65d28755d131bd17561b9a7769ffa41a9e906f6c"
+RPM_NAME = "busybox-hexedit-1.36.1-29.1.noarch.rpm"
+RPM_HASH = "822cd860d6bdae31c83498b5ad298636a8a99986fd87561a40525427b01427552e7a72496bd6348ead8075569f1fd35916dcbc577b739acb6095c64b0ea6868e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-hexedit"

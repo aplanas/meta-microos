@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the messagelib library. It is used by KDE P
 display emails."
 LICENSE = "GPL-2.0-only & GPL-3.0-only & LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "messagelib-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "5e0b819484a49d58fb966e198d994237201dcf62ec2253d1e71459cf2dc933013448d8b08ba618e97332e48230fd75a4f79dc1bd5d56bb0805e49dcf48b90f97"
+RPM_NAME = "messagelib-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "5f14e25cdb7fe5f81cb7945e809f6b25f13cdfc7bd09440744fba54255ee335bc8c0385df6fe2d62c3f227c0d66e95fa687f946413d22d189fec3666548d9828"
 
 RPROVIDES:${PN} += "libKPim5MessageComposer.so.5 \
 libKPim5MessageCore.so.5 \
@@ -40,12 +40,10 @@ libKF5KIOFileWidgets.so.5 \
 libKF5KIOGui.so.5 \
 libKF5KIOWidgets.so.5 \
 libKF5Notifications.so.5 \
-libKF5PimCommon.so.5 \
-libKF5PimCommonAkonadi.so.5 \
 libKF5Service.so.5 \
 libKF5SonnetUi.so.5 \
 libKF5SyntaxHighlighting.so.5 \
-libKF5TextAutoCorrection.so.1 \
+libKF5TextAutoCorrectionCore.so.1 \
 libKF5TextEditTextToSpeech.so.1 \
 libKF5TextWidgets.so.5 \
 libKF5WidgetsAddons.so.5 \
@@ -55,6 +53,7 @@ libKPim5AkonadiCore.so.5 \
 libKPim5AkonadiMime.so.5 \
 libKPim5AkonadiSearchPIM.so.5 \
 libKPim5AkonadiWidgets.so.5 \
+libKPim5ContactEditor.so.5 \
 libKPim5GrantleeTheme.so.5 \
 libKPim5Gravatar.so.5 \
 libKPim5IdentityManagement.so.5 \
@@ -62,9 +61,10 @@ libKPim5IdentityManagementWidgets.so.5 \
 libKPim5Libkdepim.so.5 \
 libKPim5Libkleo.so.5 \
 libKPim5MailTransport.so.5 \
-libKPim5MailTransportAkonadi.so.5 \
 libKPim5Mbox.so.5 \
 libKPim5Mime.so.5 \
+libKPim5PimCommon.so.5 \
+libKPim5PimCommonAkonadi.so.5 \
 libKPim5TextEdit.so.5 \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \

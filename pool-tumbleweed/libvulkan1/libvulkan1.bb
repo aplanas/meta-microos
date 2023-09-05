@@ -4,10 +4,10 @@ access to modern GPUs with low overhead and targeting realtime \
 graphics applications such as games and interactive media."
 LICENSE = "Apache-2.0"
 
-PV = "1.3.250.0"
+PV = "1.3.261.0"
 
-RPM_NAME = "libvulkan1-1.3.250.0-1.1.aarch64.rpm"
-RPM_HASH = "9b4ab49a7f36784537e0972f3f4c750e98f99a7812f734c9b868bd610750d23dc799012b461c69ee36e6b0aa515431732be49cb32cfbbadb0cbbb77094d53ce5"
+RPM_NAME = "libvulkan1-1.3.261.0-1.1.aarch64.rpm"
+RPM_HASH = "9249c79689426b6ce5feaa9690019d52c158b29ee139d87c41b256d264c42e05b22710f895a2a8e09cd89933dce5bfb90522b2b76cf23f4394eed2fbc5e0cb9a"
 
 RPROVIDES:${PN} += "libvulkan.so.1 \
 libvulkan1"

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a library to add scan support to KDE \
 applications."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libksane-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "f5e3e822b662714f94d5b460ac30aa6d5fa358268612359368cbc58ff94e3c0681490dd2f18be283e992e888480c75348d00104ca2e743c0c95e4867c459d9e1"
+RPM_NAME = "libksane-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "052dc37d5895a68d2405412153f97cd862b542a063d61107c69401f495fb1ff6680f2b2a8fbef4abb487a3b6cb33066f5d09f5324cfc0d170d78d1afe60f4101"
 
 RPROVIDES:${PN} += "cmake-KF5Sane \
 libksane-devel \

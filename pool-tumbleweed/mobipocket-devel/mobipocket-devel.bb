@@ -5,10 +5,10 @@ This package provides development files for mobipocket \
 library"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "mobipocket-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "1b567676f5f40ff2d36088cb137627e8c29404c5f90d96a50e1cd153375ff403f796ec684edd780c387f660b78a95ec9601a689e9d3166fc8c2fdd9103774b5e"
+RPM_NAME = "mobipocket-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "a0b862d085807b209d11d1a7640c7ceb29519571efce1c0a5d867d4a2ebf726ac6402fbe31052f963fbf755290ec3b9399167518a433eaec5bb90c6f713f3106"
 
 RPROVIDES:${PN} += "cmake-QMobipocket \
 mobipocket-devel"

@@ -4,10 +4,10 @@ read only access to repositories in /srv/git/ that contain the \
 'git-daemon-export-ok' file."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.41.0"
+PV = "2.42.0"
 
-RPM_NAME = "git-daemon-2.41.0-1.3.aarch64.rpm"
-RPM_HASH = "629b2141ef828f5fb62aa5ee3745506c3e29dc1c06dbf31838f6f55e9fb0066d6a975197bfdfdce5f094165132144dac1b3ab3e39260bc8c039b242fbd65de41"
+RPM_NAME = "git-daemon-2.42.0-1.1.aarch64.rpm"
+RPM_HASH = "85238c458bdd33a1ab75315f5a0555d0436084075fa0e099695e2ad3527b0284e7e083c3b0af836790705cf9fc02ad41d78e69a8352a383326a0ae94c4104d28"
 
 RPROVIDES:${PN} += "git-daemon \
 group-git-daemon \

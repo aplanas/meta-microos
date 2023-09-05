@@ -2,10 +2,10 @@ SUMMARY = "Generic map viewer: Shared Library"
 DESCRIPTION = "The shared library for the MarbleWidget shared library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libmarblewidget-qt5-28-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "61814f6a6f25b7cd0793af83e601501e807c886da929cdbf7718d8d194ddf64c62bccff4630edc1dc92b4c585f713e740429dce8d8d372783143e961ea0272e6"
+RPM_NAME = "libmarblewidget-qt5-28-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "f5a11dae2bfd0d0cc6abd8a642e9d68964ea80abfcffc18628fe765cb3befc7045330a3352dd0d280bb29244881b2e1abfdcc4f96c04478253fcd042fe6bafaa"
 
 RPROVIDES:${PN} += "libmarblewidget-qt5-28 \
 libmarblewidget-qt5.so.28"

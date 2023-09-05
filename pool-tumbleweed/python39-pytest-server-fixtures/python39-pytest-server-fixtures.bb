@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.7.0"
 
-RPM_NAME = "python39-pytest-server-fixtures-1.7.0-8.6.noarch.rpm"
-RPM_HASH = "1de3927d0ef38a43e461a9a6b1ba9c6ebfe6eb5419d27466ee894f0f2bbc429f0f50721f8c7588bdf2d0fbdc01c93187e5d82eee6b66e12eb9f6f2c16d306adf"
+RPM_NAME = "python39-pytest-server-fixtures-1.7.0-9.1.noarch.rpm"
+RPM_HASH = "a678f8ceced1865db0d2472e18edb070606423bbf485afb2c651bf92674237802060abe9888eb9a44a593ea71d229c1b8e569acb89e04060d17c08099e707ba3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pytest-server-fixtures \
@@ -15,7 +15,6 @@ python3dist-pytest-server-fixtures"
 RDEPENDS:${PN} += "lsof \
 net-tools-deprecated \
 python-abi \
-python39-future \
 python39-psutil \
 python39-pytest \
 python39-pytest-fixture-config \

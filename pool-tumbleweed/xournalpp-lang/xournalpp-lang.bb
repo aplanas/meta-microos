@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xournalpp"
 DESCRIPTION = "Provides translations for the 'xournalpp' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.0"
+PV = "1.2.1"
 
-RPM_NAME = "xournalpp-lang-1.2.0-1.1.noarch.rpm"
-RPM_HASH = "578ee5e31b9b68cada344cb31a0f3847837c89e3484496c9efab16c5b733ab00565800b83033b0c56bcf57fd0ba84f039fd1563fb1b280d441b8661d0d801b8f"
+RPM_NAME = "xournalpp-lang-1.2.1-1.1.noarch.rpm"
+RPM_HASH = "908710baf071b879f8c2456711b85cdeff5bcf8ff8f4c4961b3d513a34514a28f3b89b7ecdf7d2daf546e7b85ec6929e0126b35224fdf9e68426d65b22c348a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xournalpp-ar \

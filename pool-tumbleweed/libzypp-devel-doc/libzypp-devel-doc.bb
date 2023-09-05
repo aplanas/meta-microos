@@ -2,10 +2,10 @@ SUMMARY = "Developer documentation for libzypp"
 DESCRIPTION = "Developer documentation for libzypp."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "17.31.19"
+PV = "17.31.20"
 
-RPM_NAME = "libzypp-devel-doc-17.31.19-1.2.aarch64.rpm"
-RPM_HASH = "39be4896369113a5ca350697e2bf950a102175c66a80d1dc9088929789abafafb44477f26c21a5bca9d8631df95ce77c288d3f407128ba2866e1258e1749d618"
+RPM_NAME = "libzypp-devel-doc-17.31.20-1.1.aarch64.rpm"
+RPM_HASH = "00376b516057408311ad8c93b3bf543a2b81485f3eea6f9754792aaa7fe176f819be89b83ec3475fb451e9ce58740e498c719d4203135808031fb472df5fd5d2"
 
 RPROVIDES:${PN} += "libzypp-devel-doc"
 

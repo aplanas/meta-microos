@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "6.3"
 
-RPM_NAME = "libbtrfs-devel-6.3-2.2.aarch64.rpm"
-RPM_HASH = "3a3402aa49140a3683eddfe3e43b132709f4ad806916da7ecbba6185a1450b3d3a6bc73bd6b9301e00634cd81a991e28fd5c36f7ec068e848ec63427022afa5e"
+RPM_NAME = "libbtrfs-devel-6.3-3.1.aarch64.rpm"
+RPM_HASH = "a7315e062a74166c6aadf2a695a26f74ad032e37a01ddfb0eecc8d942da97ba5eaa4a7c3612a45b70ac5479466503e48cef4836de761eeb498bb7ccdb1dde4a8"
 
 RPROVIDES:${PN} += "libbtrfs-devel"
 

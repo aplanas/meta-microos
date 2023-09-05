@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.7.1"
 
-RPM_NAME = "gsl-doc-2.7.1-1.4.noarch.rpm"
-RPM_HASH = "53eb635558c4b53763bf187863e056b72b423389c6072c47ed034419f08d152f934ffcf07c815286fbaecc22190de7b082ce05b9dfd0eedd38cdc69f61278df7"
+RPM_NAME = "gsl-doc-2.7.1-2.1.noarch.rpm"
+RPM_HASH = "dba132700ebd3c31aee2160048ea7a6bb869e92ba1db8fdc696d1842b50be92277966a119a3306cd750eb6e1c376e8fcfa2c95cd56ce54d9998692fb270376eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gsl-doc"

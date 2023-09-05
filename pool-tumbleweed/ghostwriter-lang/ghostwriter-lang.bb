@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ghostwriter"
 DESCRIPTION = "Provides translations for the 'ghostwriter' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "ghostwriter-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "5a5521b44aebdac8d9cfedbed94f47aab1ba763f69b045795ec072f2001072fa330de0890798b632aa0a7f1c9c77cd6edb1eddf38f6eb648dbaefd1ad27f5a96"
+RPM_NAME = "ghostwriter-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "1851b8619adce997289db485783ccf8ebbc985a880605bebd12eb6b69b623a869f755fdcab165bf84ddb4a97031b7bf06c0823d0dffe31cb9647118d57280226"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghostwriter-lang \
@@ -24,13 +24,16 @@ locale-ghostwriter-id \
 locale-ghostwriter-it \
 locale-ghostwriter-ja \
 locale-ghostwriter-ka \
+locale-ghostwriter-ko \
 locale-ghostwriter-lt \
 locale-ghostwriter-nl \
 locale-ghostwriter-pl \
 locale-ghostwriter-pt \
+locale-ghostwriter-pt-BR \
 locale-ghostwriter-ru \
 locale-ghostwriter-sk \
 locale-ghostwriter-sl \
+locale-ghostwriter-sv \
 locale-ghostwriter-tr \
 locale-ghostwriter-uk \
 locale-ghostwriter-zh-CN \

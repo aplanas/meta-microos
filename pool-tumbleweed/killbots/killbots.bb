@@ -5,10 +5,10 @@ debris, rendering them inert. The player has to strategically move \
 and can optionally use teleportation to a random location."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "killbots-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "41f49f8db29e19e805b4f8a92320845d726e36634172d45817c8af6c123f9cbc138227b397b5220dc15946677d5a072ce7bdf7f746711a7f3fb48b08acf9cdff"
+RPM_NAME = "killbots-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "5b161ce380638fea34937e4cbd8cbc6eb2ada9d0ad3499764f726585fd9ebb30ec387410c75334ce160baaa7ca6c53070f542b50f463dce63bbcfd728e3775e7"
 
 RPROVIDES:${PN} += "killbots \
 killbots5"

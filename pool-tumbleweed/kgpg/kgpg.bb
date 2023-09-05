@@ -2,10 +2,10 @@ SUMMARY = "Encryption Tool"
 DESCRIPTION = "Kgpg is a simple GUI for gpg"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kgpg-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "bd38d8d89e28ca35326def8056f3c82e73911cada0ce02dc654ab540fcb84273ecd2e96fccadda3321fad4a1b8ef1f48d5b8c10f4e4d01ab82a83510d7b77b19"
+RPM_NAME = "kgpg-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "ac232c67e7ca299747fed629aef1e78973745e558cff0d91e8dcb88a799d27a55224e06b9e5bc73d419926f78a37b3c7c33805eea7c99f435494d3bdcfc71d8a"
 
 RPROVIDES:${PN} += "config-kgpg \
 kgpg"
@@ -35,6 +35,7 @@ libKF5WindowSystem.so.5 \
 libKF5XmlGui.so.5 \
 libKPim5AkonadiContact.so.5 \
 libKPim5AkonadiCore.so.5 \
+libKPim5ContactEditor.so.5 \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \
 libQt5Gui.so.5 \

@@ -3,10 +3,10 @@ DESCRIPTION = "A convergent weather application for Plasma. Has flat and dynamic
 views for showing forecasts and other information."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kweather-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "08a440ce3a98fc738279c06d8ff4e299fc72d97645398ffb5c525c901211035fcc7a223186f2825891f5e6c3192fa49ba33125e6adf54bb587036e7e90621d53"
+RPM_NAME = "kweather-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "68c2bae2fa2ddf33e384924be42c26b847186f09e70424c8296c2cabadaead194c0c5903629f2beb5f8b4b0f2721969bb5bff971d2b32bf2c9c5f7f11296e8c2"
 
 RPROVIDES:${PN} += "kweather"
 

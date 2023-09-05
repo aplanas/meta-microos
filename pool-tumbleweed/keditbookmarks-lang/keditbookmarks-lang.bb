@@ -2,10 +2,10 @@ SUMMARY = "Translations for package keditbookmarks"
 DESCRIPTION = "Provides translations for the 'keditbookmarks' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "keditbookmarks-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "e107cc81a1f9d86780d1954f69cd8386599bc0c7fa84221f761fdde422feb746dbf2293626dbc689ab572582882a4b3345a0254441535471b8d60a5a5e4cb721"
+RPM_NAME = "keditbookmarks-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "6cd9884ff58773a164963166263dc5cb026f83a383b2bf6033aaa5df5c8f0bf43aa557cad8105d0376565c14165bc516bbcd568433dffaeff3473204fe45cc7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keditbookmarks-lang \

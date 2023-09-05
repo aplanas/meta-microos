@@ -3,10 +3,10 @@ DESCRIPTION = "The samba-python3 package contains the Python libraries needed by
 that use SMB, RPC and other Samba provided protocols in Python3 programs."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.5+git.313.c8e274c7852"
+PV = "4.18.6+git.320.cfda27bacb"
 
-RPM_NAME = "samba-python3-4.18.5+git.313.c8e274c7852-1.1.aarch64.rpm"
-RPM_HASH = "09e649cca659018f478ccfca2ba04def0bc20ad4f28a095d698c56b12d7fbae5856fc24e95647c3f5cf39515e9020b28e9a2faaf14071116711b26f1891b16b0"
+RPM_NAME = "samba-python3-4.18.6+git.320.cfda27bacb-1.1.aarch64.rpm"
+RPM_HASH = "1d4455702d6d9da9dd012bca3f2d9b357513bc439c393196b4b41bee2aaa06f1320a99de21d8ea19290d37b7d3c2d764bdb164dd43bce460f7ae5a63e5bf7359"
 
 RPROVIDES:${PN} += "samba-python3"
 
@@ -25,6 +25,7 @@ libcli-smb-common-samba4.so \
 libcliauth-samba4.so \
 libcluster-samba4.so \
 libcmdline-contexts-samba4.so \
+libcmdline-samba4.so \
 libcom-err.so.2 \
 libcommon-auth-samba4.so \
 libdb-glue-samba4.so \

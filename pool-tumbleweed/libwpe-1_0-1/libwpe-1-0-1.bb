@@ -4,10 +4,10 @@ WebKit. \
 This package contains the shared libary of libwpe."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.14.0"
+PV = "1.14.1"
 
-RPM_NAME = "libwpe-1_0-1-1.14.0-1.3.aarch64.rpm"
-RPM_HASH = "ea4b9d3573ad25dbf129815ae0e7d0b1b41dd0ad38bfd2075ed94cd30ebc4f5bcb47772487335b0ad65797b26f459ed1748afcf3cf9087c92ab60efe8768718a"
+RPM_NAME = "libwpe-1_0-1-1.14.1-1.1.aarch64.rpm"
+RPM_HASH = "7d261f1c814a21a6d0143b62035a7b340b0710d15c4598395341466ce6d6a85c0ee75174ae93406149e139c37470aa58fe8bc16d8c8e091900142e1bb2e85ff9"
 
 RPROVIDES:${PN} += "libwpe-1-0-1 \
 libwpe-1.0.so.1"

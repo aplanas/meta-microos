@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.68"
 
-RPM_NAME = "bluez-auto-enable-devices-5.68-4.1.noarch.rpm"
-RPM_HASH = "cd2f3fcc37eb974d02c503dfee38a18b85c5ef80e8758ff4bb7d725f00ccffdeb809d4a5ca479addc4b9122bc66ee9cd6caa70bb8820337670c06cab6be4e7a0"
+RPM_NAME = "bluez-auto-enable-devices-5.68-4.2.noarch.rpm"
+RPM_HASH = "90ed4174ffc713d17c754dbe5f627a0cbd0f3fdd93a21cd70712f6ddbbe9c16c382a5c5b45388131992327617a6f40dea72721e95e449db297c45430c0246c12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bluez-auto-enable-devices \

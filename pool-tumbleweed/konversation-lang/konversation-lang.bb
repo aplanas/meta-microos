@@ -2,10 +2,10 @@ SUMMARY = "Translations for package konversation"
 DESCRIPTION = "Provides translations for the 'konversation' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "konversation-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "e5008086a4e4bb696768d09380f8267354b3b711527dcea69f7c2934818f3a7a49f18e7399a3cd1c5a25a67f2522edb7ae3270eb6ab6eda112ccbaaa7c604845"
+RPM_NAME = "konversation-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "4666406c57d172ca3b880574c3779c53493f9f3724b4048d4c4e9c2f6cef96e71c56453692e43c567f500874328e70e4ef201cf25e46849ed005805310b24861"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "konversation-lang \

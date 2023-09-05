@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.8"
 
-RPM_NAME = "libvkd3d-utils1-1.8-1.1.aarch64.rpm"
-RPM_HASH = "6efda78afaf10347b57c2cda4c58513bc870f2a5b2b480cab0294080c5b16cbddf54e1ba8f0cd5cec89733cdb4dd5850ffd1146758e232a05106e72a7ca8276b"
+RPM_NAME = "libvkd3d-utils1-1.8-1.2.aarch64.rpm"
+RPM_HASH = "9c79b4b9da25fc985ef1f0b26c241f966e3ae0b0de72a9283bcd329055a2ceff7d1ece408220824a2151b7b111d19bffeabb0c4083b42d7c15b753f46f78fbc6"
 
 RPROVIDES:${PN} += "libvkd3d-utils.so.1 \
 libvkd3d-utils1"

@@ -6,10 +6,10 @@ This package provides userspace interface to kernel DRM services \
 for Samsung Exynos chips."
 LICENSE = "MIT"
 
-PV = "2.4.115"
+PV = "2.4.116"
 
-RPM_NAME = "libdrm_exynos1-2.4.115-2.4.aarch64.rpm"
-RPM_HASH = "cec97926e208ac9cb9fa25f51d294e7ecb89877a18c3efe47b0631deed2fd5f57e669c851b9b40e635457a83044291d8decb19178ccf586434b3a4938660d064"
+RPM_NAME = "libdrm_exynos1-2.4.116-1.1.aarch64.rpm"
+RPM_HASH = "0bd02ab4bd174a99a2d726bfed97987b5c56d0b097ff6e4a5197aab459046e6914259abfb06cae2fc08d22de5dbf02661466069f2426d716f8f47ec48373a941"
 
 RPROVIDES:${PN} += "libdrm-exynos.so.1 \
 libdrm-exynos1"

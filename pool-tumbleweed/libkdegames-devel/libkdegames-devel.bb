@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary files and libraries needed to
 develop KDE games."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "libkdegames-devel-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "b15ec2b6f12fd138b52a8f4381a87994c5f9fa53e9ac9bbac99b6c103a1f45788e20a59c9874646e3633b42edb7ea35ee46900ac39952620c097ef5f72df67af"
+RPM_NAME = "libkdegames-devel-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "d96decc56e161819c70a104788f9e5623ed27378cc5679f0218f7a24f3ce5d1a94eedd8f8741f65aa0a39684ae4400d1c9d44e2ae07246e383e087bf915d3d4e"
 
 RPROVIDES:${PN} += "cmake-KF5KDEGames \
 libkdegames-devel \

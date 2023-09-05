@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the libraries and header files needed to \
 develop programs which make use of Samba."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.5+git.313.c8e274c7852"
+PV = "4.18.6+git.320.cfda27bacb"
 
-RPM_NAME = "samba-devel-4.18.5+git.313.c8e274c7852-1.1.aarch64.rpm"
-RPM_HASH = "d288a272eab59c8d755db52b6583b07afab00309d74215e77e276be962464c9c1ab72f918951edce6924264e50e6f8fdcf8a47003f467b523e92c789af3a4143"
+RPM_NAME = "samba-devel-4.18.6+git.320.cfda27bacb-1.1.aarch64.rpm"
+RPM_HASH = "4e32b85c10c02e5d875cd312a2d2067d1ac9d08538e7455a355c54ef920fa7ce11b12a28f85f2035abfc1b1fa3acc1f38b107c37ee12316fbf2246fd800b2e2e"
 
 RPROVIDES:${PN} += "libdcerpc-devel \
 libdcerpc-samr-devel \

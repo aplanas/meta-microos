@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kalk"
 DESCRIPTION = "Provides translations for the 'kalk' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kalk-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "7504d94e9ce322f76451cae74b2158cd2f4d65ec0b7fa392b7f4a019258547a7384abe13658137754fa3e9b33725c590174ee27554b253f53235696b9191c784"
+RPM_NAME = "kalk-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "ffe087dbaa177cc60ff969bf6a769df9857840741596ec592876a8facd6066fe6eca89e3f959698427aee10994eb92c19849e4f6fa2fab5fa0c61ab88904b0b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kalk-lang \

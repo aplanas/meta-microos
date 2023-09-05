@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
 PV = "13.2.1+git7683"
 
-RPM_NAME = "libstdc++6-13.2.1+git7683-1.1.aarch64.rpm"
-RPM_HASH = "74efd241a33b305746edbce65ba791ca4b0b0f56b3832e0b1debfc784a47363d04a5de8b4e941aef311c14c7480b9574f876c81195eee36069a3565915d71f03"
+RPM_NAME = "libstdc++6-13.2.1+git7683-2.1.aarch64.rpm"
+RPM_HASH = "07719e87191ff7cbee42ba6b749ee0021dffa110f4136dfa383b3c8d9601a4919253b46da2ab7605a1cf7b491bdc62d26ef7d3ef17caf23cb39b1a7a737f76c1"
 
 RPROVIDES:${PN} += "libstdc++.so.6 \
 libstdc++6"

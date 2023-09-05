@@ -2,10 +2,10 @@ SUMMARY = "Translations for package step"
 DESCRIPTION = "Provides translations for the 'step' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "step-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "fa7d0cc83d103706577550a6887c40c2e12c42e9574779df30d3d68ebbb67f318241e7b258e8563afbd6c787b1c4f5f1dc4d652343ebbbf193011b852219027c"
+RPM_NAME = "step-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "804aca47a87fd23a5c360649fae8901eaa05f9e5ca4dce02ba4d2b3104f3e3c648af3cb9005c0e4ce01e6ce40f8c29c79d898c0283fe0b3e28b512cecfdc5a65"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-step-ar \

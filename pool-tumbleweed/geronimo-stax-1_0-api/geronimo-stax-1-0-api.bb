@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2"
 
-RPM_NAME = "geronimo-stax-1_0-api-1.2-36.12.noarch.rpm"
-RPM_HASH = "f5715499a97bb836f18e62f94b1a704476248aa0657ccd52aa924ba29ccd9bef728551287d7f9479b29136e55943952b37f75c8a9d7dd52acae56ac002859016"
+RPM_NAME = "geronimo-stax-1_0-api-1.2-37.1.noarch.rpm"
+RPM_HASH = "1b7d483cb941a6a9dd7feb4e66934185ce5736d7e6956dbd3b7a48e79b19872f61a35888bc9b807d73a7e2112c4d5e7bd47c4efbbbc702463a87d852d937c04e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "geronimo-stax-1-0-api \

@@ -1,38 +1,39 @@
 SUMMARY = "FreePascal RAD IDE and Component Library"
-DESCRIPTION = "Lazarus is a Rapid Application Development \
-tool for the FreePascal compiler using the Lazarus component \
-library - LCL. The LCL is included in this package."
+DESCRIPTION = "Lazarus is an IDE to create (graphical and console) applications with \
+Free Pascal, the (L)GPLed Pascal and Object Pascal compiler that runs on \
+Windows, Linux, Mac OS X, FreeBSD and more. \
+ \
+Lazarus is the missing part of the puzzle that will allow you to develop \
+programs for all of the above platforms in a Delphi-like environment. \
+The IDE is a RAD tool that includes a form designer. \
+ \
+Unlike Java's 'write once, run anywhere' motto, Lazarus and Free Pascal \
+strive for 'write once, compile anywhere'. Since the exact same compiler \
+is available on all of the above platforms you don't need to do any recoding \
+to produce identical products for different platforms. \
+ \
+In short, Lazarus is a free RAD tool for Free Pascal using its \
+Lazarus Component Library (LCL)."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only & MPL-1.1"
 
 PV = "2.2.6"
 
-RPM_NAME = "lazarus-2.2.6-1.4.aarch64.rpm"
-RPM_HASH = "c6f78e312d372ab49140fa11ca2bcbca0976941738f59b43c80ec0671ff0ac745f36199e15f0dfff95c449b1fd71912d0f6f729e6a21b071bb87e3de01fd4ebf"
+RPM_NAME = "lazarus-2.2.6-2.1.aarch64.rpm"
+RPM_HASH = "2b8755cb52c61f700b62b1be8da0b64c2b94b69ebfc56b7e8117670d8a77cea05a912068c3d6e1bcfd86770887ba8ae524a832204e8f59d3a0e43c631edf8029"
 
-RPROVIDES:${PN} += "config-lazarus \
-lazarus"
+RPROVIDES:${PN} += "lazarus"
 
-RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/instantfpc \
-/usr/bin/sh \
-binutils \
+RDEPENDS:${PN} += "binutils \
 desktop-file-utils \
 fpc \
 fpc-src \
 gcc \
 gdb \
-libX11.so.6 \
-libatk-1.0.so.0 \
-libc.so.6 \
-libcairo.so.2 \
-libgdk-pixbuf-2.0.so.0 \
-libgdk-x11-2.0.so.0 \
-libglib-2.0.so.0 \
-libgobject-2.0.so.0 \
-libgthread-2.0.so.0 \
-libgtk-x11-2.0.so.0 \
-libpango-1.0.so.0 \
-libpangocairo-1.0.so.0 \
+lazarus-ide \
+lazarus-lcl \
+lazarus-lcl-gtk2 \
+lazarus-lcl-nogui \
+lazarus-tools \
 make \
 pkgconfig-glib-2.0 \
 pkgconfig-gtk+-2.0 \

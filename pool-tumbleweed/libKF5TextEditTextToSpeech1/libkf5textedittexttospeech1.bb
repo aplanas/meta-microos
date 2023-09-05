@@ -2,10 +2,10 @@ SUMMARY = "Text to speech functionality"
 DESCRIPTION = "This package provides a library for text to speech functionality."
 LICENSE = "LGPL-2.0-or-later & GPL-2.0-or-later"
 
-PV = "1.1.0"
+PV = "1.4.1"
 
-RPM_NAME = "libKF5TextEditTextToSpeech1-1.1.0-1.1.aarch64.rpm"
-RPM_HASH = "07a09fe67eafb79585c9d780bde81793e5aac0f98e76fba3b90284ae2d07444e3313e2fd0028ffaa2baef3e4139477db0e774b3bce3bbf8710e22ddff05b144f"
+RPM_NAME = "libKF5TextEditTextToSpeech1-1.4.1-1.1.aarch64.rpm"
+RPM_HASH = "1504120a9c9a70b503514ed847efd92746b73b912e159ebe91fd5f00bf8c33408b4175c37a4552b29b0979bad8a4589417f6f1feb2f7a22ed6482726e1008827"
 
 RPROVIDES:${PN} += "libKF5TextEditTextToSpeech.so.1 \
 libKF5TextEditTextToSpeech1"

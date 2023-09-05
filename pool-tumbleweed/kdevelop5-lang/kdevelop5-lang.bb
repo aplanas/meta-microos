@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kdevelop5"
 DESCRIPTION = "Provides translations for the 'kdevelop' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kdevelop5-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "f874c96deb353af6f459a8dd777f3c0ee107be3a6633fca86e4d8cc63a42387b243535dae1148c71a0c944b30a6d0297e09b5f7d68a9157f26a11da3f75e994c"
+RPM_NAME = "kdevelop5-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "2886c37d9ff39d856ffaf65f599e94763af053cd3b5a2719b02cdb9c0f67330c689deb08070dd091906769be0b29667425fb8e984aba1ef45628475d4f567c66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdevelop5-lang \

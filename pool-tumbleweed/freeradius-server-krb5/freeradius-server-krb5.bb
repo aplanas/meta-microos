@@ -2,10 +2,10 @@ SUMMARY = "Kerberos 5 support for freeradius"
 DESCRIPTION = "FreeRADIUS plugin providing Kerberos 5 authentication support."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
-PV = "3.2.1"
+PV = "3.2.3"
 
-RPM_NAME = "freeradius-server-krb5-3.2.1-1.7.aarch64.rpm"
-RPM_HASH = "10202d8ccc3b0cbaf36563b9f43029b039329733ff07dee665c652b6162d0159be64cf2d3e29442dcedd3816b14fcd064aea6351671600e64bedc289c9ca9d23"
+RPM_NAME = "freeradius-server-krb5-3.2.3-1.1.aarch64.rpm"
+RPM_HASH = "6e1ecba523b90167e5f86c20dbf2a433f29a26250f956907c1f322143655af22c5f86e13c16cb391de82c1e87024ceb56a1d130fb3770d398ae0ec152bd3c816"
 
 RPROVIDES:${PN} += "config-freeradius-server-krb5 \
 freeradius-server-krb5"

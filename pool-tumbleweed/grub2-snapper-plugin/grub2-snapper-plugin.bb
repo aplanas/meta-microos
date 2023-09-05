@@ -2,10 +2,10 @@ SUMMARY = "Grub2's snapper plugin"
 DESCRIPTION = "Grub2's snapper plugin for advanced btrfs snapshot boot menu management"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.06"
+PV = "2.12~rc1"
 
-RPM_NAME = "grub2-snapper-plugin-2.06-55.1.noarch.rpm"
-RPM_HASH = "29a9518a213e2aba8e29b7af514b26f0863588524d5ae8e0d55bdce33292626e17a7a5cf26deadf1afe5ab406d77fdf5ea48a94b611fb1fb34c105a960314ebe"
+RPM_NAME = "grub2-snapper-plugin-2.12~rc1-1.1.noarch.rpm"
+RPM_HASH = "a99f60835386e6805a84e5cfcbfa150a9d15794f1adfc5b055f96f95160d30d06dd4fd04f8fc905c90747883bfe752fadb05005da34e2aee534b7a3c9796d177"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-grub2-snapper-plugin \

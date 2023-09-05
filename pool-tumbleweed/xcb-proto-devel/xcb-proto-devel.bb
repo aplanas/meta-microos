@@ -4,10 +4,10 @@ XML-XCB protocol descriptions that libxcb uses to generate the majority of \
 its code and API."
 LICENSE = "X11"
 
-PV = "7.6_1.15.2"
+PV = "7.6_1.16.0"
 
-RPM_NAME = "xcb-proto-devel-7.6_1.15.2-2.2.aarch64.rpm"
-RPM_HASH = "8c8b0df7f39d8c7d90513d3b9e42371ee018c67be0f6b314c5b8d516c68328037756b9c96da80357bbad96d1cf5b86d4ebb72aacbff518a237d701a42c8b37d8"
+RPM_NAME = "xcb-proto-devel-7.6_1.16.0-1.1.aarch64.rpm"
+RPM_HASH = "daab13cb16ae7d7b41b78741e939a7b7319b54ba518769fa481fcb48004f3d598fa6b7e8eb7ebbbe2031b5045ba3ee82daf8268bfe288c6388e2b819c89d8ef3"
 
 RPROVIDES:${PN} += "pkgconfig-xcb-proto \
 xcb-proto-devel"

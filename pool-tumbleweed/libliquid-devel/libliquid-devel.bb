@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.6.0"
 
-RPM_NAME = "libliquid-devel-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "4d28dbd549dd0fe5fbf02cfb5a458ced8303b1cace6e6d1b028ebad327ce3e4805d4c7b3f1daf556e7f7744b8206de216bf8c56b4284e53ef05e0b0002b5d5b0"
+RPM_NAME = "libliquid-devel-1.6.0-2.1.aarch64.rpm"
+RPM_HASH = "5ffc56ecfeeb3a1cc6357226ded1e68b87965c7915c5469da1f2fe4c7978cb332409febb828d2fc8267e45b5ac806045b890570dbccb9d4e3d7741f99700a57b"
 
 RPROVIDES:${PN} += "libliquid-devel"
 

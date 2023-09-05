@@ -7,10 +7,10 @@ the drawn graph and every change in the graph with the script is \
 reflected on the drawn one."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "rocs-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "39b45ebc7347172fc6727253fe4790e0a0d4655bc34e23a9db3d55780ea32055ddf2581d2849a8f16e0f8f659decc22bc7678f45c63687b771bec550893d379b"
+RPM_NAME = "rocs-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "9c49d6b42a2b80da36e3fd77223dddaf0fdf7e9c63ad26b342f5916045e31a28d961947cc74b84e77176ff88572c759aee7bf655484c12d1a56faf3c3f6673d8"
 
 RPROVIDES:${PN} += "rocs \
 rocs5"

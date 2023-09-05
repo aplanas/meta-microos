@@ -2,10 +2,10 @@ SUMMARY = "Development files for bemenu"
 DESCRIPTION = "Files required for development for Bemenu."
 LICENSE = "MIT"
 
-PV = "0.6.15"
+PV = "0.6.16"
 
-RPM_NAME = "bemenu-devel-0.6.15-1.2.aarch64.rpm"
-RPM_HASH = "c53ead60e732f040782295dc465aff9913f0e8477639f33272300dd549369b2e29b992907c4278e7b3ac8c800d6ab3cded0246057e35f46dbf89e3a41e85cbfb"
+RPM_NAME = "bemenu-devel-0.6.16-1.1.aarch64.rpm"
+RPM_HASH = "2bac69879a8bb5b8253d475c1e96d6f9758ad9fcc099d4117701548e2c448f409996bd4ec6168c903bace68e5616dd5910ad175ff38243bb128d949ad8f852a0"
 
 RPROVIDES:${PN} += "bemenu-devel \
 pkgconfig-bemenu"

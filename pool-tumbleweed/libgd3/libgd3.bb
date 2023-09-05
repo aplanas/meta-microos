@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "2.3.3"
 
-RPM_NAME = "libgd3-2.3.3-3.4.aarch64.rpm"
-RPM_HASH = "62d72eb20dc1e77107f0b0a5c35620aee60bd8f190c493d974ea69c14de3082ac4ec0d41636dd333c6fe93a7385140dec37126ec825e2278c6a7d957739dacf7"
+RPM_NAME = "libgd3-2.3.3-3.5.aarch64.rpm"
+RPM_HASH = "4a94df526dc792a86128fe4c2b218aec228806c7abff99dec5a86461a0983728f4a0230413cbae1282a49433f723bda4cb190689b483aa63865c645f93f8ce3f"
 
 RPROVIDES:${PN} += "libgd.so.3 \
 libgd3"
@@ -16,7 +16,7 @@ libgd3"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libXpm.so.4 \
-libavif.so.15 \
+libavif.so.16 \
 libc.so.6 \
 libfontconfig.so.1 \
 libfreetype.so.6 \

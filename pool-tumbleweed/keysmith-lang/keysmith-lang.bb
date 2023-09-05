@@ -2,10 +2,10 @@ SUMMARY = "Translations for package keysmith"
 DESCRIPTION = "Provides translations for the 'keysmith' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "keysmith-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "574358c31e1de1f2056c2d30986d332fc6f1aa1ef99a0461a1ee1f540e01f1dd687b4f3af10e5b8c7b43cf99a3bbfd3351d5ad5676d2753e8bac977c31d4d3d3"
+RPM_NAME = "keysmith-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "6a545d7c71fc2de4a0f3aa78e2db0b8a46a1c9b31ccd4aeb25fec1e2d5f046083a49015c98812a7d4e1f66ff09c62426bf846df0af6d5f39a1f031c228fd7ed2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "keysmith-lang \

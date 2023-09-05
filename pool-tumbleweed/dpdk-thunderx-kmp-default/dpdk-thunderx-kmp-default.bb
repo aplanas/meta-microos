@@ -1,14 +1,14 @@
 SUMMARY = "DPDK KNI kernel module (thunderx)"
 LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-2.1-only"
 
-PV = "22.11.1_k6.4.11_1"
+PV = "22.11.1_k6.4.12_1"
 
-RPM_NAME = "dpdk-thunderx-kmp-default-22.11.1_k6.4.11_1-2.15.aarch64.rpm"
-RPM_HASH = "bdc522b5526844423827d0c31d02d10eee96a6d1f7b6eb5b012719ed520183b74a49ef7239d5bd62f29ec33ae1b598d1a3147842f2b0dcb5d96043746caf45b2"
+RPM_NAME = "dpdk-thunderx-kmp-default-22.11.1_k6.4.12_1-2.16.aarch64.rpm"
+RPM_HASH = "9fd9d413521625af90486f4b4ff625fbe4514782ffeb2376eccea150453554f4ba256d2d598dec3e7c63a17664787c2825f07db9a45478affbd89b69374e0e5a"
 
 RPROVIDES:${PN} += "dpdk-thunderx-kmp \
 dpdk-thunderx-kmp-default \
-dpdk-thunderx-kmp-default-k6.4.11-1 \
+dpdk-thunderx-kmp-default-k6.4.12-1 \
 kmod-rte-kni.ko \
 multiversion-kernel"
 

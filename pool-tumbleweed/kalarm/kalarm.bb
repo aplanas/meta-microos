@@ -2,10 +2,10 @@ SUMMARY = "Personal Alarm Scheduler"
 DESCRIPTION = "Personal alarm message, command and email scheduler by KDE."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "kalarm-23.04.3-1.1.aarch64.rpm"
-RPM_HASH = "fc8baad9795aa86c3074bcb373d8dbc9b59ad156767cf6bb0de88e434b949acb15ea5a3408543a1a1335e36a72747f36ccda2aecbe288beb2d3ff81fe47dea24"
+RPM_NAME = "kalarm-23.08.0-1.1.aarch64.rpm"
+RPM_HASH = "173dbcdd6bd5de650cc385ff41238df03ef3ea92ae05396cefef5e7d063dcb688fa51a9d2c25c12bf1eb59e5db9d41561094232d1e16faff21d1f328980c0b3c"
 
 RPROVIDES:${PN} += "config-kalarm \
 kalarm \
@@ -50,7 +50,6 @@ libKPim5CalendarUtils.so.5 \
 libKPim5IdentityManagement.so.5 \
 libKPim5IdentityManagementWidgets.so.5 \
 libKPim5MailTransport.so.5 \
-libKPim5MailTransportAkonadi.so.5 \
 libKPim5Mime.so.5 \
 libQt5Core.so.5 \
 libQt5DBus.so.5 \

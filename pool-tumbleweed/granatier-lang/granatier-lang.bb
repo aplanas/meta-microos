@@ -2,10 +2,10 @@ SUMMARY = "Translations for package granatier"
 DESCRIPTION = "Provides translations for the 'granatier' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.04.3"
+PV = "23.08.0"
 
-RPM_NAME = "granatier-lang-23.04.3-1.1.noarch.rpm"
-RPM_HASH = "fafdc00ae4c249beee21f34c588a06c88001b891063ddd9bfd24cb7f2f05606dde1a7315bb3e7f1e708255ce20f5e810287d3c3775d2958a66488780d57bdd34"
+RPM_NAME = "granatier-lang-23.08.0-1.1.noarch.rpm"
+RPM_HASH = "8a6c0919b19a3b92003849d1d89917158c75bcb3642260b6f469a0c3309c7b2e030c89fb9530a26274e302a2654663530a9e1519ebe8aa838da253d63fe89e94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "granatier-lang \
