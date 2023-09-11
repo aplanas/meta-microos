@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "gstreamer-plugins-base-devel-1.22.5-2.1.aarch64.rpm"
-RPM_HASH = "2c365844eb9f5460285a23cb92e90d7618be894952bd08ffd3b2baac8e7b1bf4f4aab22c0b691fdd2ad9be9c7ab847d576f5d02d1da9038ad15e7d12a105d2e7"
+RPM_NAME = "gstreamer-plugins-base-devel-1.22.5-3.1.aarch64.rpm"
+RPM_HASH = "6234f8e232db88df8fb8997c683d54d3ccdbd439921ebdda5e8f4efe4a0656784153a8b082708c80f1f381c4ee7c1bfa629964066294c47e3831cf0204cd291c"
 
 RPROVIDES:${PN} += "gst-plugins-base-devel \
 gstreamer-plugins-base-devel \

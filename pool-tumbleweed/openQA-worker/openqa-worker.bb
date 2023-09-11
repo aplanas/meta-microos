@@ -2,10 +2,10 @@ SUMMARY = "The openQA worker"
 DESCRIPTION = "The openQA worker manages test engine (provided by os-autoinst package)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1692951551.c933949"
+PV = "4.6.1693565748.f367431"
 
-RPM_NAME = "openQA-worker-4.6.1692951551.c933949-1.1.aarch64.rpm"
-RPM_HASH = "a457061807084bd33c8b41bc785739f20d0bb880d4bbf8a83076864b3ad4eab82b62405bdad599643f03ede2148dd0cff3a1c78381f1a65b9b00c9da4256c619"
+RPM_NAME = "openQA-worker-4.6.1693565748.f367431-1.1.aarch64.rpm"
+RPM_HASH = "89f2f9e1d2d857461a7f4cc7362e422406a405736a008a9082c4ea541d5787d349d6c115bc34cb678b0e6f186707d802ab2c706404bd9c11fb0f137b72be1593"
 
 RPROVIDES:${PN} += "config-openQA-worker \
 group--openqa-worker \

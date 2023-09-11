@@ -6,17 +6,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.9.1.2"
 
-RPM_NAME = "ghc-blaze-html-0.9.1.2-9.3.aarch64.rpm"
-RPM_HASH = "e1252ebb64003b2a4919bd1914b75b6794ff1897722ad734f8104e233c9ebe646ee59308278fa32bc02f66afbe8226b684242350a25f100585b675ecc4691871"
+RPM_NAME = "ghc-blaze-html-0.9.1.2-10.1.aarch64.rpm"
+RPM_HASH = "ba20a1410b3e41372298e545d230a17070598523433960442633da215ba32442741f1192e2ad218c75126df530b5df4da5069d7c9f88e7a6a9a3ae48dba61de4"
 
 RPROVIDES:${PN} += "ghc-blaze-html \
-libHSblaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX-ghc9.4.6.so"
+libHSblaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
 libHSbase-4.17.2.0-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
-libHSblaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
+libHSblaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP-ghc9.4.6.so \
 libHSbytestring-0.11.5.1-ghc9.4.6.so \
 libHScontainers-0.6.7-ghc9.4.6.so \
 libHSdeepseq-1.4.8.0-ghc9.4.6.so \

@@ -10,10 +10,10 @@ number of network I/O and serial ports. gensios that stack on \
 other gensios are called filters."
 LICENSE = "Apache-2.0 & GPL-2.0-only & LGPL-2.1-only"
 
-PV = "2.6.1"
+PV = "2.7.5"
 
-RPM_NAME = "libgensio4-2.6.1-1.6.aarch64.rpm"
-RPM_HASH = "58c2683df85c615e16b206ecb93eee6b7dc4cc7eecbcf21d1c743f77205ccfb2b4993121a14fa03a67c27a8b986717884470e45955c3a1a7324b94e1075e38be"
+RPM_NAME = "libgensio6-2.7.5-1.1.aarch64.rpm"
+RPM_HASH = "38cd0c7ea0de4826e60fb9bcffabfbbcd8353ddffcbfb13b208d03ae25e1e28919feb9343ceb3f473c644c1b2998111b984a1d71c887ae92b749899d49424cbc"
 
 RPROVIDES:${PN} += "libgensio-afskmdm.so \
 libgensio-ax25.so \
@@ -43,8 +43,8 @@ libgensio-telnet.so \
 libgensio-trace.so \
 libgensio-udp.so \
 libgensio-xlt.so \
-libgensio.so.4 \
-libgensio4"
+libgensio.so.6 \
+libgensio6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
@@ -52,8 +52,9 @@ libOpenIPMI.so.0 \
 libOpenIPMIutils.so.0 \
 libc.so.6 \
 libcrypto.so.3 \
-libgensiomdns.so.0 \
-libgensioosh.so.0 \
+libgensiomdns.so.6 \
+libgensioosh.so.6 \
+libm.so.6 \
 libssl.so.3"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Protobuf code generator for gRPC"
 DESCRIPTION = "This package provides a python-based Protobuf code generator for gRPC."
 LICENSE = "Apache-2.0"
 
-PV = "1.56.2"
+PV = "1.57.0"
 
-RPM_NAME = "python310-grpcio-tools-1.56.2-1.1.aarch64.rpm"
-RPM_HASH = "82979989c1cfe7ca23f4937abfe87dc7297f67c3a3d06b7862ffd79b657c0a976bc5741891dfbfc93e6f206c3972286e2293ae37967749692ab82645b4ab6aa2"
+RPM_NAME = "python310-grpcio-tools-1.57.0-1.1.aarch64.rpm"
+RPM_HASH = "aef64c829132e38ccd1a3b4d2bcaa83890ac09062a898525c0d8ad2f356c3aad09eb5bd3e7a85cb4f8003b9f3641295413ce1dd8c786572bd99e714faef9b679"
 
 RPROVIDES:${PN} += "python3.10dist-grpcio-tools \
 python310-grpcio-tools \

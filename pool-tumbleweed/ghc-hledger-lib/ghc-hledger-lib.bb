@@ -12,11 +12,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.28"
 
-RPM_NAME = "ghc-hledger-lib-1.28-3.7.aarch64.rpm"
-RPM_HASH = "33aa221e15543d324a2179b49bd5d1fb29bbd775c3f9fce4099256ec89e01d0dcadf6245e629059e722183493b83b31a150f820153a7ed438c404d555d3abdca"
+RPM_NAME = "ghc-hledger-lib-1.28-3.8.aarch64.rpm"
+RPM_HASH = "2f3956b122bf396f5525aa97a558b18683ad85ee6b23357e6eb894735a8fc83382334abb4c2634bde6a4cf18f2290370a00ff6186f9fd741b37e0ec3735f326a"
 
 RPROVIDES:${PN} += "ghc-hledger-lib \
-libHShledger-lib-1.28-54R6ZNBJP1qEEuMb4tYul2-ghc9.4.6.so"
+libHShledger-lib-1.28-Bb3X1scVuGZKsjeiDSJIAh-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSDecimal-0.5.2-7hu5LwisxJT2rqtwM7eQhT-ghc9.4.6.so \
 libHSGlob-0.10.2-96NxBWCYICFFsqKvc9eqpc-ghc9.4.6.so \
@@ -38,8 +38,8 @@ libHSbase-compat-batteries-0.13.0-1Ph1BfbK1cK5KUnlnKWiGW-ghc9.4.6.so \
 libHSbase-orphans-0.8.8.2-Ace67bhQsJ1lQVihVIKZ5-ghc9.4.6.so \
 libHSbifunctors-5.5.15-KUw4gCd9iBfLph9IFStYJY-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
-libHSblaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
+libHSblaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP-ghc9.4.6.so \
 libHSbytestring-0.11.5.1-ghc9.4.6.so \
 libHScall-stack-0.4.0-nQZfFxinEdIa1BWxMyadt-ghc9.4.6.so \
 libHScase-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9-ghc9.4.6.so \

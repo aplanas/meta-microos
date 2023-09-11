@@ -8,16 +8,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7.1.0"
 
-RPM_NAME = "ghc-language-javascript-0.7.1.0-4.8.aarch64.rpm"
-RPM_HASH = "a5b37f0be2fe54eb0b839818e1877cc4fde04006c2f93d73abbea4b9e58f7b3775625de9c219f649cb9d335e97e78d7761a37f6f652283a1dcb07cca061e3f5c"
+RPM_NAME = "ghc-language-javascript-0.7.1.0-4.9.aarch64.rpm"
+RPM_HASH = "89be45eebe3352d79211bdb917731d50d6798c97ed72fb51624837de18d2ff32026f5721e9327e928c8319975241c2d6b6857484a8b73a28afa84baa18f95e2e"
 
 RPROVIDES:${PN} += "ghc-language-javascript \
-libHSlanguage-javascript-0.7.1.0-LEIqziehkytABOWYmhOylg-ghc9.4.6.so"
+libHSlanguage-javascript-0.7.1.0-5tkeoDchqnObRztPRYxz4-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
 libHSbase-4.17.2.0-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
 libHSbytestring-0.11.5.1-ghc9.4.6.so \
 libHScontainers-0.6.7-ghc9.4.6.so \
 libHSdeepseq-1.4.8.0-ghc9.4.6.so \

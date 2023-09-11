@@ -3,10 +3,10 @@ DESCRIPTION = "Advanced Gtk+ Sequencer is an audio sequencer application. \
 This subpackage contains part of its library set."
 LICENSE = "AGPL-3.0-or-later & GPL-3.0-or-later & GFDL-1.3-only"
 
-PV = "6.0.1"
+PV = "6.0.8"
 
-RPM_NAME = "libgsequencer0-6.0.1-1.1.aarch64.rpm"
-RPM_HASH = "37b2fab9bd899ff8a58e13bbba35195068362bc7275e90eb5f7755914e0ae0ed4388c5e5d53d1f32087448d3f0cd4fc01120e8ddf2537ef537c7a40a7a794051"
+RPM_NAME = "libgsequencer0-6.0.8-1.1.aarch64.rpm"
+RPM_HASH = "24b5de292a5e3fe9609fd294001cd6b45ef7941b295f73eb7199ab89ace644c90c0ec9ad5e4ec89e0324dfc51f0b1d2e71ce87a40b7e5206e9f5285903b41a6e"
 
 RPROVIDES:${PN} += "libgsequencer.so.0 \
 libgsequencer0"

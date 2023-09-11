@@ -2,10 +2,10 @@ SUMMARY = "Haskell monoid-subclasses library documentation"
 DESCRIPTION = "This package provides the Haskell monoid-subclasses library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.2.3"
+PV = "1.2.4"
 
-RPM_NAME = "ghc-monoid-subclasses-doc-1.2.3-1.9.noarch.rpm"
-RPM_HASH = "45ff36c8e80de8d1a4f7e4cfdb68d58ab0ffcdbbe32e89807f28de0abeb909e538c3207ac532cf982e2e5595d4c030b8ae0b9d410c08dcd1fe9507ecc4cd15f3"
+RPM_NAME = "ghc-monoid-subclasses-doc-1.2.4-1.1.noarch.rpm"
+RPM_HASH = "49747ef4faa78a57dd8734d0d59fdea3d8eccc12ecd3b7718762e9f022c8a114df8fb37185ee1007452906b7ae97e7f7edbf3ecb67edb86dec9a1a75ce41359d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-monoid-subclasses-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Haskell texmath library documentation"
 DESCRIPTION = "This package provides the Haskell texmath library documentation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.12.8"
+PV = "0.12.8.1"
 
-RPM_NAME = "ghc-texmath-doc-0.12.8-2.1.noarch.rpm"
-RPM_HASH = "c0411073c64f87f132ae738e3a22688aa8c2f57a5b526aec5fb5f8c278d09400c810702eb92982d8fb4530d1c0d050a5a4bce018609ec97996bee2bc87912b4c"
+RPM_NAME = "ghc-texmath-doc-0.12.8.1-1.1.noarch.rpm"
+RPM_HASH = "79b4d630bccb0d6d456266989b39a046346914a0c028f7cd4dc968e74b395ba15ca4f9017123d016a2c279a97d25b32d594db020e8a9e061d59fae3cc57526b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-texmath-doc"

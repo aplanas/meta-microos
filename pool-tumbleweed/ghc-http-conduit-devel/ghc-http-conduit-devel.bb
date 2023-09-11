@@ -4,10 +4,10 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.3.8.2"
 
-RPM_NAME = "ghc-http-conduit-devel-2.3.8.2-2.5.aarch64.rpm"
-RPM_HASH = "da1b9794f4d2cb77126d0e7d450feccbad5c96f08dfa9aaa6837e8bc3a311c1b93b5b45d3a08321368dd8f7a280db74c22777c0d0017b127866ac2a9a5e3a906"
+RPM_NAME = "ghc-http-conduit-devel-2.3.8.2-2.6.aarch64.rpm"
+RPM_HASH = "49b17e9682e5d574a406fc50fc672e134b12e784516fcc377e9db2e60a6419df3e974f8a535b9cd4fe6d0749bf3544986b9588388da58a8392954d6d4ecf80fd"
 
-RPROVIDES:${PN} += "ghc-devel-http-conduit-2.3.8.2-JL53aegdUXo82DAJNh0Sqj \
+RPROVIDES:${PN} += "ghc-devel-http-conduit-2.3.8.2-Aom8RblFK6RqEIyPgp71L \
 ghc-http-conduit-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -18,8 +18,8 @@ ghc-devel-base-4.17.2.0 \
 ghc-devel-bytestring-0.11.5.1 \
 ghc-devel-conduit-1.3.5-3TRUhNB8WbY2vxuXe2VjBX \
 ghc-devel-conduit-extra-1.3.6-370xQw6Laeb4Jkz5zTLBuf \
-ghc-devel-http-client-0.7.14-DEHi4b5z3Pa56fFNKIs9J1 \
-ghc-devel-http-client-tls-0.3.6.1-FlsMdDWaVoFLIhxPfXPqPa \
+ghc-devel-http-client-0.7.14-ElkaPC2YNimBwgzZzglgPe \
+ghc-devel-http-client-tls-0.3.6.1-AsHsMYKW0OIKZ6XVfzITj1 \
 ghc-devel-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
 ghc-devel-mtl-2.2.2 \
 ghc-devel-resourcet-1.2.6-AOipJdCu0ULL3KFWw8x9fP \

@@ -5,11 +5,11 @@ LICENSE = "MIT"
 
 PV = "1.6.0.8"
 
-RPM_NAME = "ghc-yesod-persistent-1.6.0.8-2.16.aarch64.rpm"
-RPM_HASH = "a271b7a62659beee1f1fb57818bd01cbbe61ed1434946f9121ac7c57bc1f25ea01a7fc892deacd7a47d6b86c9c04c4e2289909a42a454262a8c5a5bee1c73e88"
+RPM_NAME = "ghc-yesod-persistent-1.6.0.8-2.17.aarch64.rpm"
+RPM_HASH = "50480b804b3eb17899ffe4d0682b3f60ef91bdb981ce61f91bc87dbdaea4136851439c404b0fd7ca890f0c2248c3baf196bc26347fb3679fad4fd31dec7c2787"
 
 RPROVIDES:${PN} += "ghc-yesod-persistent \
-libHSyesod-persistent-1.6.0.8-93ozWuy4hEy3h1XQtLGAru-ghc9.4.6.so"
+libHSyesod-persistent-1.6.0.8-2wkXYfzUlDeVV1OSzyB0l-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSHUnit-1.6.2.0-3fsauNNRJvI5u5lqiyApf4-ghc9.4.6.so \
 libHSOneTuple-0.4.1.1-5m1ALA0bqJEAQoyOrWBAgI-ghc9.4.6.so \
@@ -38,9 +38,9 @@ libHSbasement-0.0.16-JDtFhm6hoERETf7Hqk4dh9-ghc9.4.6.so \
 libHSbifunctors-5.5.15-KUw4gCd9iBfLph9IFStYJY-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
 libHSbitvec-1.1.5.0-4n2vDaVO5x4GAoTGOlyPxS-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
-libHSblaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX-ghc9.4.6.so \
-libHSblaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
+libHSblaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii-ghc9.4.6.so \
+libHSblaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP-ghc9.4.6.so \
 libHSbsb-http-chunked-0.0.0.4-6Uz6ZfX3tBC2nOluTU0Lnf-ghc9.4.6.so \
 libHSbyteorder-1.0.4-HgduUBa2I8KG54Jejj0SY0-ghc9.4.6.so \
 libHSbytestring-0.11.5.1-ghc9.4.6.so \
@@ -100,7 +100,7 @@ libHSold-time-1.1.0.3-EO4BkAubfN4CLCS9qF8OKw-ghc9.4.6.so \
 libHSparsec-3.1.16.1-ghc9.4.6.so \
 libHSpath-pieces-0.2.1-JEJ6IegDP1FHzqmKWi176n-ghc9.4.6.so \
 libHSpem-0.2.4-F5Ih0vrB4sf5XALvrxfus2-ghc9.4.6.so \
-libHSpersistent-2.14.5.1-HbESoi5D00uF6Q9t3vbKri-ghc9.4.6.so \
+libHSpersistent-2.14.5.1-Gjrp3WYLCFS91AokYH8j1m-ghc9.4.6.so \
 libHSpretty-1.1.3.6-ghc9.4.6.so \
 libHSprimitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx-ghc9.4.6.so \
 libHSprocess-1.6.17.0-ghc9.4.6.so \
@@ -114,7 +114,7 @@ libHSscientific-0.3.7.0-2FbzCTQ2hp2GeCo5OsVSzz-ghc9.4.6.so \
 libHSsemialign-1.3-6anmyujTzjW8JKdJGWMlmE-ghc9.4.6.so \
 libHSsemigroupoids-5.3.7-H606qAbQOgNCZ5aAzkCf0g-ghc9.4.6.so \
 libHSsetenv-0.1.1.3-5X2tG8kGRXiEiTQvekWgx7-ghc9.4.6.so \
-libHSshakespeare-2.0.30-GrImIeltjQZ7T3c163uEiZ-ghc9.4.6.so \
+libHSshakespeare-2.0.30-5XHeuGt8JLJENvL2Ahdhem-ghc9.4.6.so \
 libHSsilently-1.2.5.3-DooEMl8ysOU4ZpgKypCRy8-ghc9.4.6.so \
 libHSsimple-sendfile-0.2.32-Jkz6BAomm8GAcovJHWebTs-ghc9.4.6.so \
 libHSskein-1.0.9.4-HfR9tmKKFFp5G94XUHSnaw-ghc9.4.6.so \
@@ -157,7 +157,7 @@ libHSwarp-3.3.25-9kawobphGNJ1pZTKG2KRtq-ghc9.4.6.so \
 libHSwitherable-0.4.2-4so4KYid1UG9PchOfa6Iqw-ghc9.4.6.so \
 libHSword8-0.1.3-DFPYFbOkkGxAoNpsP1UPBD-ghc9.4.6.so \
 libHSx509-1.7.7-2oKbMm4GXJUL45OKqbcDfn-ghc9.4.6.so \
-libHSyesod-core-1.6.24.4-cvcp8TZ1QYG0IH58f6f1F-ghc9.4.6.so \
+libHSyesod-core-1.6.24.4-1di0EYNbRAz9TOkBiAT5Ab-ghc9.4.6.so \
 libHSzlib-0.6.3.0-ENQBvbHWSlQ4ss0TzRHRuj-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \

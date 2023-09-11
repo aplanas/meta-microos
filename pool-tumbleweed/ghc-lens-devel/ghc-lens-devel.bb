@@ -2,12 +2,12 @@ SUMMARY = "Haskell lens library development files"
 DESCRIPTION = "This package provides the Haskell lens library development files."
 LICENSE = "BSD-2-Clause"
 
-PV = "5.2.2"
+PV = "5.2.3"
 
-RPM_NAME = "ghc-lens-devel-5.2.2-2.4.aarch64.rpm"
-RPM_HASH = "359c5bb25719a61b4c172e132cf4ed215ee405be02475bfc3d305599575d52434a5f0765a8dba90a4a940a96e96cbdddc07781deb0364b665f1e83e5581ddc0f"
+RPM_NAME = "ghc-lens-devel-5.2.3-1.1.aarch64.rpm"
+RPM_HASH = "2316c6e0ec9a08bc1ecc510af16f8f4e99e93713733a4912b6ebacd550159bd7d25f5a478876eae939de509428925d963b8c9dd8b8831d9403615380bb479eb7"
 
-RPROVIDES:${PN} += "ghc-devel-lens-5.2.2-9FQiMfULngUCqLz60VkKPe \
+RPROVIDES:${PN} += "ghc-devel-lens-5.2.3-77wBUrzlfuWHQNAaqkfvdZ \
 ghc-lens-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

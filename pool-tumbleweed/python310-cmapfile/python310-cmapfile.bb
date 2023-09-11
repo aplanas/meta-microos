@@ -2,10 +2,10 @@ SUMMARY = "Write Chimera Map (CMAP) files"
 DESCRIPTION = "Create Chimera MAP files from various file formats containing volume data."
 LICENSE = "BSD-3-Clause"
 
-PV = "2022.9.29"
+PV = "2023.8.30"
 
-RPM_NAME = "python310-cmapfile-2022.9.29-1.6.noarch.rpm"
-RPM_HASH = "b9784c5e58a91764291deec5525b21478e5fde791babae74e02963f8e2404e4ef9d17be9cb002424da3c0ff734469fc32803d852ba81b09fa14b143cee5c9ab0"
+RPM_NAME = "python310-cmapfile-2023.8.30-1.1.noarch.rpm"
+RPM_HASH = "6a31e612ae648df4c50207f3bb0b2dd38cde9a36ab2b9491e8a8363bcfbe2bef3f38aafed32c69927e603824b8483c6b7f1a697bbe1ef9ec305f4eaab1dfb303"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-cmapfile \

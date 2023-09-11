@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.3"
 
-RPM_NAME = "python39-pandas-mysql-2.0.3-1.2.noarch.rpm"
-RPM_HASH = "bbce87d86d8ad6df9a157fed0dc3ae7dba75159cdb167217e795383f8f0173726c06708d3a9da3b5fac13b20ae34ba8c8f9ab9e3142af39a54b80bff9293331d"
+RPM_NAME = "python39-pandas-mysql-2.0.3-1.3.noarch.rpm"
+RPM_HASH = "9426d8a6a8846071c7901b373e7e40f21de5782c874f7755357c2bdf1a553f5fd9537487dd3eebb5216a1f486cf441e92b47154e09e61dd253271ecb486bb029"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pandas-mysql"

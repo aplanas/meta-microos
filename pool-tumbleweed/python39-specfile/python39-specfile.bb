@@ -2,10 +2,10 @@ SUMMARY = "A library for parsing and manipulating RPM spec files"
 DESCRIPTION = "A library for parsing and manipulating RPM spec files."
 LICENSE = "MIT"
 
-PV = "0.20.0"
+PV = "0.22.0"
 
-RPM_NAME = "python39-specfile-0.20.0-1.1.noarch.rpm"
-RPM_HASH = "54c399f536cac72d3c650070da6f48abeaadb21d6685908c15d719d38ad0a7ca1e562e9436b6a3f91852294c57a5c2f063c78d2666e1cea9a869cacb8bc292e0"
+RPM_NAME = "python39-specfile-0.22.0-1.1.noarch.rpm"
+RPM_HASH = "bd2cedf41b809713b866b4681a34ee89d1488a47378fc064a35b053eb1085caca53fe7a26adb0ca2ad14a3cfd53b43d6e22506b396d97b7e00fa6b68b3e16e1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-specfile \
@@ -13,6 +13,9 @@ python39-specfile \
 python3dist-specfile"
 
 RDEPENDS:${PN} += "python-abi \
-python39-rpm"
+python310-typing-extensions \
+python311-typing-extensions \
+python39-rpm \
+python39-typing-extensions"
 
 inherit rpm

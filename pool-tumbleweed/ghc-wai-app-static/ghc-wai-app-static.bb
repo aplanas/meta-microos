@@ -5,11 +5,11 @@ LICENSE = "MIT"
 
 PV = "3.1.7.4"
 
-RPM_NAME = "ghc-wai-app-static-3.1.7.4-2.12.aarch64.rpm"
-RPM_HASH = "fb19c8569806ba3f53c1c2f82bba27bd49c3d07abde0dcd5b6e2e856cea2e482a08d33e9c3468b4e2c1363afb538a829b539839d027b77d96801edd7ed38417f"
+RPM_NAME = "ghc-wai-app-static-3.1.7.4-2.13.aarch64.rpm"
+RPM_HASH = "c53b32134f66e3052a9d09d01a519010d2844a8f90fed4be1e5ecc3d476c49dd037cdd1eda7a9f2ef23fdabce40aafda47d280fdfddddcf92049b672ade44b91"
 
 RPROVIDES:${PN} += "ghc-wai-app-static \
-libHSwai-app-static-3.1.7.4-4gPGtaPPrElL5voDUXdKV2-ghc9.4.6.so"
+libHSwai-app-static-3.1.7.4-GYm23xVACFBKSbu1JkCZl2-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libHSHUnit-1.6.2.0-3fsauNNRJvI5u5lqiyApf4-ghc9.4.6.so \
@@ -37,9 +37,9 @@ libHSbase64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM-ghc9.4.6.so \
 libHSbasement-0.0.16-JDtFhm6hoERETf7Hqk4dh9-ghc9.4.6.so \
 libHSbifunctors-5.5.15-KUw4gCd9iBfLph9IFStYJY-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
-libHSblaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX-ghc9.4.6.so \
-libHSblaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
+libHSblaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii-ghc9.4.6.so \
+libHSblaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP-ghc9.4.6.so \
 libHSbsb-http-chunked-0.0.0.4-6Uz6ZfX3tBC2nOluTU0Lnf-ghc9.4.6.so \
 libHSbyteorder-1.0.4-HgduUBa2I8KG54Jejj0SY0-ghc9.4.6.so \
 libHSbytestring-0.11.5.1-ghc9.4.6.so \

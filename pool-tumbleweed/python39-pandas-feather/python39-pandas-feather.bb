@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.3"
 
-RPM_NAME = "python39-pandas-feather-2.0.3-1.2.noarch.rpm"
-RPM_HASH = "1d73212fbbfe6ea0fb69aafb2f91311abd1135d50bd784af14419574f5a42f8a99c4e26bbbce5b86a9e245497c077f2a859fcaba76dba5bc17c55fec01b23ca1"
+RPM_NAME = "python39-pandas-feather-2.0.3-1.3.noarch.rpm"
+RPM_HASH = "ea82d8aaead893aaa06a37267936725979d03b12390b161cdfb08d1d69fc2bb0d4d04e4094d0df1182c22954410e05745ef03d523ba7bc2e6b5724e8d1e1d706"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pandas-feather"

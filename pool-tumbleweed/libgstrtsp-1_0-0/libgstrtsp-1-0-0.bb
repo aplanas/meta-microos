@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstrtsp-1_0-0-1.22.5-2.1.aarch64.rpm"
-RPM_HASH = "4328aca65076a2ab4e7fe8c553b9694755b1a2ec230c5da57aae2b1a2d2de66c41add2dfafd25fb38c3d51449e9347cb8432088372eeab7750b6fe2ef2290a6d"
+RPM_NAME = "libgstrtsp-1_0-0-1.22.5-3.1.aarch64.rpm"
+RPM_HASH = "4e3f6cd24bc34a0bc57ede501d81ddbf622950828e9c0433229cb1a1e66959b0714d151f80d1d5bf19cf8bcc9607ace04488f10c811863254bb8629222c42ce4"
 
 RPROVIDES:${PN} += "libgstrtsp-1-0-0 \
 libgstrtsp-1.0.so.0"

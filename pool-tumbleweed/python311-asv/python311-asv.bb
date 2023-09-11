@@ -8,10 +8,10 @@ interactive web frontend that requires only a basic static webserver \
 to host."
 LICENSE = "BSD-3-Clause & MIT"
 
-PV = "0.5.1"
+PV = "0.6.0"
 
-RPM_NAME = "python311-asv-0.5.1-1.7.aarch64.rpm"
-RPM_HASH = "0b8f25a867e19c7520e8a93812cf39e21e8b90d98acfe90a84efb39fdb25e95b4a618e912bba03afebd4e0bff7e99a78870ccab50c2107fae05bb28a93e5a0f1"
+RPM_NAME = "python311-asv-0.6.0-1.1.aarch64.rpm"
+RPM_HASH = "2cd13fc4358f5f3d1226520e614d6ed418d84ac45b0a53d158fbdbf4cd68c5b07319b2fa41a536d089816e44a9957d3f080a96a1e49a885fb49bf8c51387be4c"
 
 RPROVIDES:${PN} += "python3-asv \
 python3.11dist-asv \

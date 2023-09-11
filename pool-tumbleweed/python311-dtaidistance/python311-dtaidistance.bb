@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.3.10"
 
-RPM_NAME = "python311-dtaidistance-2.3.10-2.6.aarch64.rpm"
-RPM_HASH = "83f038a36f42e748ce0281ede934fe4ec3639405596c82a7a3200943037094678bbf5717acee48e6c53571cb321e206d8bf00bcc5e5a0e95e9274444169c1bd6"
+RPM_NAME = "python311-dtaidistance-2.3.10-3.1.aarch64.rpm"
+RPM_HASH = "71516b747fb34d212ca9d01651868dec618eb911366cc6b1cb85eee319f6e8935d5b656803b31472e8e880f9997f128363bf1d90d54e0648c089a0b19075e9cc"
 
 RPROVIDES:${PN} += "python3-dtaidistance \
 python3.11dist-dtaidistance \

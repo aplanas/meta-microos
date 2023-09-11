@@ -4,18 +4,18 @@ LICENSE = "MIT"
 
 PV = "0.7.14"
 
-RPM_NAME = "ghc-http-client-prof-0.7.14-1.1.aarch64.rpm"
-RPM_HASH = "5d3f83ae389893050ddb5f2a7bad7ed769baadd2309ce0d030381c852a434bedd5ee7b5a4e4bc8170b096a992aff2d78356d2ebdb57839145bb392344c647ae1"
+RPM_NAME = "ghc-http-client-prof-0.7.14-1.2.aarch64.rpm"
+RPM_HASH = "2ccf786bb88e7a66b6ff8850cb40978248799c1b07f3bdee110700c53af5f257a3919b1cc686ec87b36027f0b356f3aa9355d629ec03a6fac0b7e4153cd88f47"
 
 RPROVIDES:${PN} += "ghc-http-client-prof \
-ghc-prof-http-client-0.7.14-DEHi4b5z3Pa56fFNKIs9J1"
+ghc-prof-http-client-0.7.14-ElkaPC2YNimBwgzZzglgPe"
 
 RDEPENDS:${PN} += "ghc-http-client-devel \
 ghc-prof-array-0.5.4.0 \
 ghc-prof-async-2.2.4-LcXCzTmy8C6G7Wa774EctI \
 ghc-prof-base-4.17.2.0 \
 ghc-prof-base64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM \
-ghc-prof-blaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h \
+ghc-prof-blaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND \
 ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-case-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9 \
 ghc-prof-containers-0.6.7 \

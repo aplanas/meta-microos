@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.23"
 
-RPM_NAME = "ghc-aws-doc-0.23-1.11.noarch.rpm"
-RPM_HASH = "bf5abf5a811eb58381d48b8202bb38a4bc644a954bfb73c4207672709bb7dd2b60d0117756ef0831680ebb4e1edcd592906c4d794ec1a3d80f1b1121daa32717"
+RPM_NAME = "ghc-aws-doc-0.23-1.12.noarch.rpm"
+RPM_HASH = "2e0a2fff984c4417ee2bfcc80cab29ca99d71944d59a827a35b088e3871c39e76693a3584bde0844136891e260db3acc2d40d3cd6a0b3d7ed9c337b3a86730bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-aws-doc"

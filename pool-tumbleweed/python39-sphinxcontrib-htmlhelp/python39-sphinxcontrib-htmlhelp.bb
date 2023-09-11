@@ -2,10 +2,10 @@ SUMMARY = "Sphinx contrib extension to generate html help files"
 DESCRIPTION = "Html help generating extension."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.0.1"
+PV = "2.0.4"
 
-RPM_NAME = "python39-sphinxcontrib-htmlhelp-2.0.1-2.3.noarch.rpm"
-RPM_HASH = "13646df213336993b4d5457746982d74c4ea1129f1d8f29d2841dc29a05282866d6c054b24e6f27654ca0f9e7fc7d7ae013ea136bdc00c0024b0578c8220c7ca"
+RPM_NAME = "python39-sphinxcontrib-htmlhelp-2.0.4-1.1.noarch.rpm"
+RPM_HASH = "bc3b31939b3d46160cbcca512d3f93fdb56928a72b313eda8b3370abe5f8631d7d3390d610594f336805e370ac77872b77c72d33ece911989e6f1d2b103fb052"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinxcontrib-htmlhelp \

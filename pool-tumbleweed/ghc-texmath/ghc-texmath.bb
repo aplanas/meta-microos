@@ -2,13 +2,13 @@ SUMMARY = "Haskell texmath library"
 DESCRIPTION = "This package provides the Haskell texmath shared library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.12.8"
+PV = "0.12.8.1"
 
-RPM_NAME = "ghc-texmath-0.12.8-2.1.aarch64.rpm"
-RPM_HASH = "dfc96a999e7c4311453e93944253a3f63ce3530fe1193271da44cb4bf199ce2ac558b9dcb80c68a9dd44035486b379f328629b2faa99ebfc574252a32596bde5"
+RPM_NAME = "ghc-texmath-0.12.8.1-1.1.aarch64.rpm"
+RPM_HASH = "82f21e207c296152556c5ac0fc46aae77ac795ed2dbce8c0b6f68e6c603355507aa8548cccf5b92b8d6691e56ad8c30a2794b0bcd512b98698ad438d0276794c"
 
 RPROVIDES:${PN} += "ghc-texmath \
-libHStexmath-0.12.8-4XHW2MeUv8XDrGEniW8iCo-ghc9.4.6.so"
+libHStexmath-0.12.8.1-3LxXxmLvAtyApeIh6UJCwI-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-5m1ALA0bqJEAQoyOrWBAgI-ghc9.4.6.so \
 libHSQuickCheck-2.14.3-EdzpnPTYr1uH7EoNAOpgI8-ghc9.4.6.so \
@@ -67,7 +67,7 @@ libHStime-1.12.2-ghc9.4.6.so \
 libHStime-compat-1.9.6.1-J6qzCGPCWqPGQqFFbCQAYM-ghc9.4.6.so \
 libHStransformers-0.5.6.2-ghc9.4.6.so \
 libHStransformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM-ghc9.4.6.so \
-libHStypst-symbols-0.1.2-3u6ALqSoiYt5j197EL0vRB-ghc9.4.6.so \
+libHStypst-symbols-0.1.4-JaoP2leChnCACsgYhrK1kO-ghc9.4.6.so \
 libHSunix-2.7.3-ghc9.4.6.so \
 libHSunordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn-ghc9.4.6.so \
 libHSuuid-types-1.0.5-34Qd5N8tYIyGW5LtrFWnkV-ghc9.4.6.so \

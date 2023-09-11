@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "1.6.1.0"
 
-RPM_NAME = "ghc-yesod-static-devel-1.6.1.0-4.16.aarch64.rpm"
-RPM_HASH = "7e43016264897d4faa72d90de86bf1726b8be02b880104ae20b7405602492abcb194caa6736f8aa25f4e1c0f6512f4279cfee3a00cc0ec44dc50ce812c40eae4"
+RPM_NAME = "ghc-yesod-static-devel-1.6.1.0-4.17.aarch64.rpm"
+RPM_HASH = "da1050245f921f4c9cfe23508a222eb728d5a390757a14e3c752de0289aa5be97330ba63621db391bf0135efca584741e185bea4f5eb0ab7d7ebf520d8003348"
 
-RPROVIDES:${PN} += "ghc-devel-yesod-static-1.6.1.0-8HSSkZYeRvLJRhVmJ2W7Tf \
+RPROVIDES:${PN} += "ghc-devel-yesod-static-1.6.1.0-EfPKBZFI7L9CZHJVHpSVxP \
 ghc-yesod-static-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -16,7 +16,7 @@ ghc-devel-async-2.2.4-LcXCzTmy8C6G7Wa774EctI \
 ghc-devel-attoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3 \
 ghc-devel-base-4.17.2.0 \
 ghc-devel-base64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM \
-ghc-devel-blaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h \
+ghc-devel-blaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND \
 ghc-devel-bytestring-0.11.5.1 \
 ghc-devel-conduit-1.3.5-3TRUhNB8WbY2vxuXe2VjBX \
 ghc-devel-containers-0.6.7 \
@@ -28,7 +28,7 @@ ghc-devel-directory-1.3.7.1 \
 ghc-devel-file-embed-0.0.15.0-DAhwsrlSNND3ZIPejkHOUv \
 ghc-devel-filepath-1.4.2.2 \
 ghc-devel-hashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP \
-ghc-devel-hjsmin-0.2.1-1Nqa77EAma94x2VWIbRoKX \
+ghc-devel-hjsmin-0.2.1-5GDclcDeF3LDFr0332m90w \
 ghc-devel-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
 ghc-devel-memory-0.18.0-6jbQrbksm9m3FIftlSlmf1 \
 ghc-devel-mime-types-0.1.1.0-oV8uh4Pssd1mRIrSbk6Ab \
@@ -39,8 +39,8 @@ ghc-devel-transformers-0.5.6.2 \
 ghc-devel-unix-compat-0.6-IJaiJvo5DQ6Elf7LVlEGei \
 ghc-devel-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
 ghc-devel-wai-3.2.3-JhFX1996sswH7nU4MZQSow \
-ghc-devel-wai-app-static-3.1.7.4-4gPGtaPPrElL5voDUXdKV2 \
-ghc-devel-yesod-core-1.6.24.4-cvcp8TZ1QYG0IH58f6f1F \
+ghc-devel-wai-app-static-3.1.7.4-GYm23xVACFBKSbu1JkCZl2 \
+ghc-devel-yesod-core-1.6.24.4-1di0EYNbRAz9TOkBiAT5Ab \
 ghc-yesod-static"
 
 inherit rpm

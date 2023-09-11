@@ -4,11 +4,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.28"
 
-RPM_NAME = "ghc-hledger-1.28-3.8.aarch64.rpm"
-RPM_HASH = "f638d5c8735526eb0deacfdc6c424c386e18d48e72360f046a6451cfdf9087244a86247b6218c33b4d44076f144554f058e517827fdb5c1d7f4042b5a80e1439"
+RPM_NAME = "ghc-hledger-1.28-3.9.aarch64.rpm"
+RPM_HASH = "0dc6d1a7c1ae7e4006cc532082cf812787812901884da6167c974c71596417c6af2d54ea7486a6a966c04eb156f766ce168f7da342e58488dfb30976afcb0055"
 
 RPROVIDES:${PN} += "ghc-hledger \
-libHShledger-1.28-4j6Av1lDxNh4vKrZ5rOLty-ghc9.4.6.so"
+libHShledger-1.28-BB0TqpU146rHgefpsST3hh-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSDecimal-0.5.2-7hu5LwisxJT2rqtwM7eQhT-ghc9.4.6.so \
 libHSDiff-0.4.1-LhFtxwvuVVqGkTz0Ph6iJg-ghc9.4.6.so \
@@ -31,9 +31,9 @@ libHSbase-compat-batteries-0.13.0-1Ph1BfbK1cK5KUnlnKWiGW-ghc9.4.6.so \
 libHSbase-orphans-0.8.8.2-Ace67bhQsJ1lQVihVIKZ5-ghc9.4.6.so \
 libHSbifunctors-5.5.15-KUw4gCd9iBfLph9IFStYJY-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
-libHSblaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX-ghc9.4.6.so \
-libHSblaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
+libHSblaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii-ghc9.4.6.so \
+libHSblaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP-ghc9.4.6.so \
 libHSbytestring-0.11.5.1-ghc9.4.6.so \
 libHScall-stack-0.4.0-nQZfFxinEdIa1BWxMyadt-ghc9.4.6.so \
 libHScase-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9-ghc9.4.6.so \
@@ -72,12 +72,12 @@ libHSgithash-0.1.7.0-AdGnnqehkm8HwhDMWfn4qF-ghc9.4.6.so \
 libHShashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP-ghc9.4.6.so \
 libHShashtables-1.3.1-1KAEkULYvDmJLM8wOJL96T-ghc9.4.6.so \
 libHShaskeline-0.8.2-ghc9.4.6.so \
-libHShledger-lib-1.28-54R6ZNBJP1qEEuMb4tYul2-ghc9.4.6.so \
+libHShledger-lib-1.28-Bb3X1scVuGZKsjeiDSJIAh-ghc9.4.6.so \
 libHShtml-1.0.1.2-Ei0LKBl3CyAHMF3GZI2hqu-ghc9.4.6.so \
 libHSindexed-traversable-0.1.2.1-4MWkBnFErvq3PVvZRvlACO-ghc9.4.6.so \
 libHSindexed-traversable-instances-0.1.1.2-4xmEkkFhOqh6ApH5IPswPQ-ghc9.4.6.so \
 libHSinteger-logarithms-1.0.3.1-8hVItVgdqFg1uL8b0gbVZO-ghc9.4.6.so \
-libHSlucid-2.11.20230408-F37ejAzYfNaC9F9tMADx3y-ghc9.4.6.so \
+libHSlucid-2.11.20230408-4cKgK8hqgER6myHRF5jLTD-ghc9.4.6.so \
 libHSmath-functions-0.3.4.2-Ke5dPSL1fMD1KAZhy38VGR-ghc9.4.6.so \
 libHSmegaparsec-9.3.1-Jdwz39dpTDz8anub3eLd49-ghc9.4.6.so \
 libHSmicrolens-0.4.13.1-4XtL5z7DHHC7UZaR6xNDY3-ghc9.4.6.so \
@@ -101,7 +101,7 @@ libHSsafe-0.3.19-9uHvZjuyLiR13wOGSONZxX-ghc9.4.6.so \
 libHSscientific-0.3.7.0-2FbzCTQ2hp2GeCo5OsVSzz-ghc9.4.6.so \
 libHSsemialign-1.3-6anmyujTzjW8JKdJGWMlmE-ghc9.4.6.so \
 libHSsemigroupoids-5.3.7-H606qAbQOgNCZ5aAzkCf0g-ghc9.4.6.so \
-libHSshakespeare-2.0.30-GrImIeltjQZ7T3c163uEiZ-ghc9.4.6.so \
+libHSshakespeare-2.0.30-5XHeuGt8JLJENvL2Ahdhem-ghc9.4.6.so \
 libHSsplit-0.2.3.5-J6pekuQs6yKFxqDJQyglHu-ghc9.4.6.so \
 libHSsplitmix-0.1.0.4-2jzLu9hw0mWH5mdbN14y0O-ghc9.4.6.so \
 libHSstm-2.5.1.0-ghc9.4.6.so \

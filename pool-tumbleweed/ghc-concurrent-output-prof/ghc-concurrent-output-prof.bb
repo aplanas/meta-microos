@@ -2,13 +2,13 @@ SUMMARY = "Haskell concurrent-output profiling library"
 DESCRIPTION = "This package provides the Haskell concurrent-output profiling library."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.10.18"
+PV = "1.10.19"
 
-RPM_NAME = "ghc-concurrent-output-prof-1.10.18-1.6.aarch64.rpm"
-RPM_HASH = "1f7c7d13fedcfb3a9a5e30aaf2d7ec9d79fb6743ef82f27b9d1b182d62cade57314e615a7bb7fd1e06790e06f785a7497c6d9be74303b4cd3e6cec98f3453dee"
+RPM_NAME = "ghc-concurrent-output-prof-1.10.19-1.1.aarch64.rpm"
+RPM_HASH = "d9d80efeceebda44cd65770ab7805e3a384f3ef27a76a9c3baf21001e8073cf73aa9a80f3d6886a7bab2d84f448a815058922fa21042e6f1620653f94f7b1296"
 
 RPROVIDES:${PN} += "ghc-concurrent-output-prof \
-ghc-prof-concurrent-output-1.10.18-7mD57bQUyK62aUS02yxnhe"
+ghc-prof-concurrent-output-1.10.19-EkNYg3t67vm7EieVPINblU"
 
 RDEPENDS:${PN} += "ghc-concurrent-output-devel \
 ghc-prof-ansi-terminal-0.11.5-69CZC4XdNryJo9zHbgfvJ3 \

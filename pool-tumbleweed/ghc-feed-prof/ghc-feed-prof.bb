@@ -4,11 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.2.1"
 
-RPM_NAME = "ghc-feed-prof-1.3.2.1-4.3.aarch64.rpm"
-RPM_HASH = "b54be3e8190c56e06fac174001c7d514d4cf4b2c77c7420e8e07e30a84be2e99961da62feca5e0c2191c92493e9d762ba2d573620c9c839227b31fb98e1379de"
+RPM_NAME = "ghc-feed-prof-1.3.2.1-4.4.aarch64.rpm"
+RPM_HASH = "42585744068a08ab57104bcfaf0636dbd1fc8f1c681522d02e61fe4d31e89cdd90b2395895daa31e89fa27fd08da366cd0561addc59e45674bdf6e01484c5a73"
 
 RPROVIDES:${PN} += "ghc-feed-prof \
-ghc-prof-feed-1.3.2.1-BjaO6WIBq79DkKCt2cylSO"
+ghc-prof-feed-1.3.2.1-16TO18BMpDvLQty4vYIIwy"
 
 RDEPENDS:${PN} += "ghc-feed-devel \
 ghc-prof-base-4.17.2.0 \
@@ -21,7 +21,7 @@ ghc-prof-text-2.0.2 \
 ghc-prof-time-1.12.2 \
 ghc-prof-time-locale-compat-0.1.1.5-9kgo2YphD9418bVnFGy98u \
 ghc-prof-utf8-string-1.0.2-26mnfHz4IgtDU2rLQciXDs \
-ghc-prof-xml-conduit-1.9.1.3-DDoR4rlzTH6QSHmFsTVd9 \
+ghc-prof-xml-conduit-1.9.1.3-2cOMN3SNzhLD8DxEiNBrwq \
 ghc-prof-xml-types-0.3.8-8dFL1RqlGPRJfvDIVn7kl6"
 
 inherit rpm

@@ -5,10 +5,10 @@ LICENSE = "MIT"
 
 PV = "0.3.6.1"
 
-RPM_NAME = "ghc-http-client-tls-devel-0.3.6.1-2.7.aarch64.rpm"
-RPM_HASH = "dc0b7ca99ca1b3434b4fd1c4374cef5844c290c8a0a9967129b9909023893231ba84a20cfcf658b3f120697ab1faf919dc5542f0c07c04081eb388a6903d2a39"
+RPM_NAME = "ghc-http-client-tls-devel-0.3.6.1-2.8.aarch64.rpm"
+RPM_HASH = "9ade6859d0d6e5fe177f903d84e1d86b4a4c98cfd650c5ce3984e90e01e46458e524d4aebc21bc951f0810510d44d727594a0f264632d3ccaf73e8950ed6e452"
 
-RPROVIDES:${PN} += "ghc-devel-http-client-tls-0.3.6.1-FlsMdDWaVoFLIhxPfXPqPa \
+RPROVIDES:${PN} += "ghc-devel-http-client-tls-0.3.6.1-AsHsMYKW0OIKZ6XVfzITj1 \
 ghc-http-client-tls-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -21,7 +21,7 @@ ghc-devel-containers-0.6.7 \
 ghc-devel-cryptonite-0.30-LSC76M64GQaFgLGwFfgIgW \
 ghc-devel-data-default-class-0.1.2.0-HWomeRk5e2p3WGQsDTnuAN \
 ghc-devel-exceptions-0.10.5 \
-ghc-devel-http-client-0.7.14-DEHi4b5z3Pa56fFNKIs9J1 \
+ghc-devel-http-client-0.7.14-ElkaPC2YNimBwgzZzglgPe \
 ghc-devel-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
 ghc-devel-memory-0.18.0-6jbQrbksm9m3FIftlSlmf1 \
 ghc-devel-network-3.1.4.0-5p1NVWLTlrvDdAAI1mskSs \

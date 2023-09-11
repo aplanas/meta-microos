@@ -4,11 +4,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.8.1"
 
-RPM_NAME = "ghc-citeproc-devel-0.8.1-2.14.aarch64.rpm"
-RPM_HASH = "80b42e5ab83a0ad6a1e7c85be5ef495c6a6bc015edcfc3d17f5b8b24e25e937379ec97f3ff6f0c7c3a7b1dba1f0a77fdf624b01b6fbee152f6a767aa8f8d2b67"
+RPM_NAME = "ghc-citeproc-devel-0.8.1-2.15.aarch64.rpm"
+RPM_HASH = "7195b32d702f40cfb1f837bdc193205e2682ee51246e741b1be4632c0381aa9c6335907203a81633e04854ac33758d2afdc76d08681e6736485079a7891ae26b"
 
 RPROVIDES:${PN} += "ghc-citeproc-devel \
-ghc-devel-citeproc-0.8.1-D6MAOBfduqd1r1TVF002aA"
+ghc-devel-citeproc-0.8.1-2pX9OkWyX7lDXHT1UDpuWJ"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-citeproc \
@@ -27,9 +27,9 @@ ghc-devel-safe-0.3.19-9uHvZjuyLiR13wOGSONZxX \
 ghc-devel-scientific-0.3.7.0-2FbzCTQ2hp2GeCo5OsVSzz \
 ghc-devel-text-2.0.2 \
 ghc-devel-transformers-0.5.6.2 \
-ghc-devel-unicode-collation-0.1.3.4-DqHFcwJyC4MIpiT6hQTOCQ \
+ghc-devel-unicode-collation-0.1.3.5-IFdGKnlU7nK53rXIDeXQnQ \
 ghc-devel-uniplate-1.6.13-EEjCQACslljIQmS3K29CqX \
 ghc-devel-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
-ghc-devel-xml-conduit-1.9.1.3-DDoR4rlzTH6QSHmFsTVd9"
+ghc-devel-xml-conduit-1.9.1.3-2cOMN3SNzhLD8DxEiNBrwq"
 
 inherit rpm

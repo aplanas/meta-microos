@@ -4,10 +4,10 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.28"
 
-RPM_NAME = "ghc-hledger-lib-devel-1.28-3.7.aarch64.rpm"
-RPM_HASH = "48dfe0d39976cd216bad5868a1e538c43ffcbc2cdfe8bf0989b2856b9779ac5bf7f483f9c92c2274419bfd7004089057a13db957d701dade4f976a90c268a368"
+RPM_NAME = "ghc-hledger-lib-devel-1.28-3.8.aarch64.rpm"
+RPM_HASH = "d0c5e09d4a567ec52818bc0b45bac9cff63fd726c74e12a6871067f72279130df5c9e16d9cdd05f9d20ca51f8dbd7a390fccd41d643fbb42b53c5a8072bb32e8"
 
-RPROVIDES:${PN} += "ghc-devel-hledger-lib-1.28-54R6ZNBJP1qEEuMb4tYul2 \
+RPROVIDES:${PN} += "ghc-devel-hledger-lib-1.28-Bb3X1scVuGZKsjeiDSJIAh \
 ghc-hledger-lib-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -19,7 +19,7 @@ ghc-devel-aeson-pretty-0.8.10-BAp1RojEa5O2Gd1gxmbgJk \
 ghc-devel-ansi-terminal-0.11.5-69CZC4XdNryJo9zHbgfvJ3 \
 ghc-devel-array-0.5.4.0 \
 ghc-devel-base-4.17.2.0 \
-ghc-devel-blaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9 \
+ghc-devel-blaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP \
 ghc-devel-bytestring-0.11.5.1 \
 ghc-devel-call-stack-0.4.0-nQZfFxinEdIa1BWxMyadt \
 ghc-devel-cassava-0.5.3.0-3BxMB2hl3TbBsSJkTsXVLP \

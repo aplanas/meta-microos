@@ -4,10 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0.0"
 
-RPM_NAME = "ghc-typst-devel-0.1.0.0-1.10.aarch64.rpm"
-RPM_HASH = "45d1f0334ba8d020e9efe59b8b1a32674f4feaa891a2a72b925aaef61959e246c6bace9483c6895db8e8d11041335a5781751736726a9ef8e11bf11eacf77d32"
+RPM_NAME = "ghc-typst-devel-0.1.0.0-1.11.aarch64.rpm"
+RPM_HASH = "abddb2a27da7ee5a1abfbadf3bdb12da873eacfbf12e585a07f44c590d26f740dea690183e3ceadc7dc28b34071df985d012648b85b11e040b083c4b5e9f727a"
 
-RPROVIDES:${PN} += "ghc-devel-typst-0.1.0.0-2jeJx4H6IsHkPaNZ5Ucvx \
+RPROVIDES:${PN} += "ghc-devel-typst-0.1.0.0-Fmp2IG7sNnSDScnnN1f3Kg \
 ghc-typst-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -26,9 +26,9 @@ ghc-devel-pretty-1.1.3.6 \
 ghc-devel-regex-tdfa-1.3.2.2-EFtJwrhEkMb99DdZ6mBzLM \
 ghc-devel-scientific-0.3.7.0-2FbzCTQ2hp2GeCo5OsVSzz \
 ghc-devel-text-2.0.2 \
-ghc-devel-typst-symbols-0.1.2-3u6ALqSoiYt5j197EL0vRB \
+ghc-devel-typst-symbols-0.1.4-JaoP2leChnCACsgYhrK1kO \
 ghc-devel-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
-ghc-devel-xml-conduit-1.9.1.3-DDoR4rlzTH6QSHmFsTVd9 \
+ghc-devel-xml-conduit-1.9.1.3-2cOMN3SNzhLD8DxEiNBrwq \
 ghc-devel-yaml-0.11.11.2-A2RJT0EorR9GrZjUq6QELM \
 ghc-typst"
 

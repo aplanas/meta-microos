@@ -2,10 +2,10 @@ SUMMARY = "Haskell concurrent-output library documentation"
 DESCRIPTION = "This package provides the Haskell concurrent-output library documentation."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.10.18"
+PV = "1.10.19"
 
-RPM_NAME = "ghc-concurrent-output-doc-1.10.18-1.6.noarch.rpm"
-RPM_HASH = "a7bb899e509ea98b208f2e807cb2c1572ff83eed071bf1370e32c11fc93a1ef2b3a5816e44938fabf7b35afd15bfe08972961b728f5f636df165ad6ddd014d0e"
+RPM_NAME = "ghc-concurrent-output-doc-1.10.19-1.1.noarch.rpm"
+RPM_HASH = "d3b494d86c8137ce74071f4290927c8ccec265fa72c0f2bdaa7dd862a56c68418f3d5dff2fc9c851450d2c139afdaa96350b3145e073ce1a52093b304500300e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-concurrent-output-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "Annotations for use in compiling OSGi bundles. This package is no
 needed at run-time."
 LICENSE = "Apache-2.0"
 
-PV = "7.0.0"
+PV = "8.1.0"
 
-RPM_NAME = "osgi-annotation-7.0.0-3.5.noarch.rpm"
-RPM_HASH = "bd282e9bd13975b2aafb24dcb72437cfc1ea998b4efbf4ca478f896279029b49b1a598eccf75bf6227916b1375d85da61be94d058883fd0dd6ea7fb50fbe3895"
+RPM_NAME = "osgi-annotation-8.1.0-1.1.noarch.rpm"
+RPM_HASH = "dacf59cf76d7a1dbdc1a64b107c09d0e00624073f6bf845c655522a942a558bcd13e2536df1f5381f7bde4f2a69a9a138e95e35448ba2dea415c1361ea8ad305"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.osgi-org.osgi.annotation \

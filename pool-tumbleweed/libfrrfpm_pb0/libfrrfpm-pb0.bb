@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "8.4"
 
-RPM_NAME = "libfrrfpm_pb0-8.4-4.2.aarch64.rpm"
-RPM_HASH = "c2803c56f1a8362b66fed89949d58108470f0d42ec8fd7de3aa35618fdaafbb72bd6fd94242d25d425457d01ce3c5a09e87e8e2a0520d4c09d2fdd8ead85703e"
+RPM_NAME = "libfrrfpm_pb0-8.4-5.1.aarch64.rpm"
+RPM_HASH = "47e6a23fd8245ec8525194b7429411ea1f0993b94cbb5ad81dc0c1e40321d5dffcdd722a57ff2a11d59635c27fa1b8e6cc0874d182e528d409bc992784d626a5"
 
 RPROVIDES:${PN} += "libfrrfpm-pb.so.0 \
 libfrrfpm-pb0"

@@ -4,10 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.13.4.1"
 
-RPM_NAME = "ghc-skylighting-core-prof-0.13.4.1-1.5.aarch64.rpm"
-RPM_HASH = "a226af959d042fac4f5b4223fa013ca71592914c0378578ce433ba791607c6c5bb7d8b1b5e887bdfe35b30ff9ce992c2ffa0657c751000d1246d8d4affb5da2e"
+RPM_NAME = "ghc-skylighting-core-prof-0.13.4.1-1.6.aarch64.rpm"
+RPM_HASH = "6c34a2c0bdfb59fb05fecabd87b210fe06f7a4169639e74c56f49c46974b76b792c793a8147bed57ade261bf021c0462e836dd1c389434808018f9091b795568"
 
-RPROVIDES:${PN} += "ghc-prof-skylighting-core-0.13.4.1-Hz9bNgtQKIrCLRLiqtSBj1 \
+RPROVIDES:${PN} += "ghc-prof-skylighting-core-0.13.4.1-LOkep7AnSNN7QJDAXr031n \
 ghc-skylighting-core-prof"
 
 RDEPENDS:${PN} += "ghc-prof-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
@@ -26,7 +26,7 @@ ghc-prof-safe-0.3.19-9uHvZjuyLiR13wOGSONZxX \
 ghc-prof-text-2.0.2 \
 ghc-prof-transformers-0.5.6.2 \
 ghc-prof-utf8-string-1.0.2-26mnfHz4IgtDU2rLQciXDs \
-ghc-prof-xml-conduit-1.9.1.3-DDoR4rlzTH6QSHmFsTVd9 \
+ghc-prof-xml-conduit-1.9.1.3-2cOMN3SNzhLD8DxEiNBrwq \
 ghc-skylighting-core-devel"
 
 inherit rpm

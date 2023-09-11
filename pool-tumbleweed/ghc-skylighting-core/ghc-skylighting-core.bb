@@ -10,11 +10,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.13.4.1"
 
-RPM_NAME = "ghc-skylighting-core-0.13.4.1-1.5.aarch64.rpm"
-RPM_HASH = "a1f103aff2368138862b9e4fbca26722eed852605977fc972d18dcf52765a18d6bca94d6aec3909337368e4f4032912668a9bbcf811ab52c81b1ea78bde7b26a"
+RPM_NAME = "ghc-skylighting-core-0.13.4.1-1.6.aarch64.rpm"
+RPM_HASH = "9ce0c61773789f0b43e9521cdeac12bebc47ec6f63a6e1b81548c2783627c6881fbb97e7e3b18fd3d3bb7700ee6b09f8f541c29098823f2faaf2cf2ca757abc9"
 
 RPROVIDES:${PN} += "ghc-skylighting-core \
-libHSskylighting-core-0.13.4.1-Hz9bNgtQKIrCLRLiqtSBj1-ghc9.4.6.so"
+libHSskylighting-core-0.13.4.1-LOkep7AnSNN7QJDAXr031n-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-5m1ALA0bqJEAQoyOrWBAgI-ghc9.4.6.so \
 libHSQuickCheck-2.14.3-EdzpnPTYr1uH7EoNAOpgI8-ghc9.4.6.so \
@@ -33,9 +33,9 @@ libHSbase64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM-ghc9.4.6.so \
 libHSbifunctors-5.5.15-KUw4gCd9iBfLph9IFStYJY-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
 libHSbitvec-1.1.5.0-4n2vDaVO5x4GAoTGOlyPxS-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
-libHSblaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX-ghc9.4.6.so \
-libHSblaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
+libHSblaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii-ghc9.4.6.so \
+libHSblaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP-ghc9.4.6.so \
 libHSbytestring-0.11.5.1-ghc9.4.6.so \
 libHScase-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9-ghc9.4.6.so \
 libHScolour-2.3.6-GBcey48GJNAK3398XtiZDq-ghc9.4.6.so \
@@ -98,7 +98,7 @@ libHSvector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku-ghc9.4.6.so \
 libHSvector-algorithms-0.9.0.1-98Yktb3BX9p4L0Cowik6Gr-ghc9.4.6.so \
 libHSvector-stream-0.1.0.0-8LsAqgetBjY3tBdh3HDYEB-ghc9.4.6.so \
 libHSwitherable-0.4.2-4so4KYid1UG9PchOfa6Iqw-ghc9.4.6.so \
-libHSxml-conduit-1.9.1.3-DDoR4rlzTH6QSHmFsTVd9-ghc9.4.6.so \
+libHSxml-conduit-1.9.1.3-2cOMN3SNzhLD8DxEiNBrwq-ghc9.4.6.so \
 libHSxml-types-0.3.8-8dFL1RqlGPRJfvDIVn7kl6-ghc9.4.6.so \
 libHSzlib-0.6.3.0-ENQBvbHWSlQ4ss0TzRHRuj-ghc9.4.6.so \
 libc.so.6 \

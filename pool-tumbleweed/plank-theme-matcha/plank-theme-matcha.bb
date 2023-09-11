@@ -4,10 +4,10 @@ DESCRIPTION = "Matcha is a flat Design theme for GTK 4, GTK 3, GTK 2 and Gnome-S
 This package contains the Plank themes."
 LICENSE = "GPL-3.0-only"
 
-PV = "20221115"
+PV = "20230403"
 
-RPM_NAME = "plank-theme-matcha-20221115-1.1.noarch.rpm"
-RPM_HASH = "60bbd1d0f70670e39fffc979d8c0280c3264d3dd70e43bd14002b8532022a866b2c69d604b3c999f0f3e290b7b0b920d2e920eb6015c01113e182dc7715f606c"
+RPM_NAME = "plank-theme-matcha-20230403-1.1.noarch.rpm"
+RPM_HASH = "d17203b8f7b62c1e6a900f6f65c690e12647f17c8c7c5fb42d164bb01f87dd8905632074a61ee1770374c396f42853d08227d3b57c31c0460770fa03e83099e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plank-theme-matcha"

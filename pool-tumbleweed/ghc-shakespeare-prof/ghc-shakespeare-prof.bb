@@ -4,16 +4,16 @@ LICENSE = "MIT"
 
 PV = "2.0.30"
 
-RPM_NAME = "ghc-shakespeare-prof-2.0.30-2.10.aarch64.rpm"
-RPM_HASH = "0282669c1757309e4cc6827e355a18fa55e1a463ec96b2293d6cd340629b821200e6efc909c2e775c40c4c5aa97dda611a860b46a65752b80c214bed2180deac"
+RPM_NAME = "ghc-shakespeare-prof-2.0.30-2.11.aarch64.rpm"
+RPM_HASH = "a1e3572c573d9d021f6e767f373c6b8a15ad5ad684c14f64a6aed6491bd5adc6e17dafcccca21329af8ac96c524bbec00a7518c3b18c2008d0a84c4c9b17d925"
 
-RPROVIDES:${PN} += "ghc-prof-shakespeare-2.0.30-GrImIeltjQZ7T3c163uEiZ \
+RPROVIDES:${PN} += "ghc-prof-shakespeare-2.0.30-5XHeuGt8JLJENvL2Ahdhem \
 ghc-shakespeare-prof"
 
 RDEPENDS:${PN} += "ghc-prof-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
 ghc-prof-base-4.17.2.0 \
-ghc-prof-blaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX \
-ghc-prof-blaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9 \
+ghc-prof-blaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii \
+ghc-prof-blaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP \
 ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-containers-0.6.7 \
 ghc-prof-directory-1.3.7.1 \

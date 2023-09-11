@@ -4,10 +4,10 @@ DESCRIPTION = "Matcha is a flat Design theme for GTK 4, GTK 3, GTK 2 and Gnome-S
 This package contains the openbox themes."
 LICENSE = "GPL-3.0-only"
 
-PV = "20221115"
+PV = "20230403"
 
-RPM_NAME = "openbox-theme-matcha-20221115-1.1.noarch.rpm"
-RPM_HASH = "7a1434a4880235fc681d5a8a834c66cd7d41493eab311a4898968a0a7f73d244cec35a95b1b80cad1f85c5236800aa59f4715e66dbc17dbe09d2bcc587b14c02"
+RPM_NAME = "openbox-theme-matcha-20230403-1.1.noarch.rpm"
+RPM_HASH = "a9c1f558e9d942206656f4ae160e0e0f2fd9f1baecb266d3e8b1c0e51bb0d7b3a9d1eaa7a9db4a8b917d4f240bbdb693889653e08252400cf1d9be4dfbf0d5ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openbox-theme-matcha"

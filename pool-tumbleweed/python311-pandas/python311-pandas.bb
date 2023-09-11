@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.3"
 
-RPM_NAME = "python311-pandas-2.0.3-1.2.aarch64.rpm"
-RPM_HASH = "78768995f538c4dd238b04b21cf3e193f83a56821396f3faa438ab2a8f4bc3f1a45753d22f8a607cbec4df7f5298dd56dc8451a140716b56c8bffd04194e7d92"
+RPM_NAME = "python311-pandas-2.0.3-1.3.aarch64.rpm"
+RPM_HASH = "463518215a42f7cb8a57ce286521be525c493d8d1cb29cee83f1f8279d04296c29fb94824834e1aeaf91814d27d075009ab0c8d80666652cabc2ef99c641bcf8"
 
 RPROVIDES:${PN} += "lib.cpython-311-aarch64-linux-gnu.so \
 python3-pandas \

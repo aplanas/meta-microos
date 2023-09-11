@@ -5,11 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.3.6.1"
 
-RPM_NAME = "ghc-http-client-tls-0.3.6.1-2.7.aarch64.rpm"
-RPM_HASH = "cec6668405c9ea2d7f209d348865ae41a89a2128078170803b492cb4b5794630714b210a81987cf00408f31d8482f125463c2110b8e4739e5e29d0761a6f62cf"
+RPM_NAME = "ghc-http-client-tls-0.3.6.1-2.8.aarch64.rpm"
+RPM_HASH = "19734f2915fd301635937c7baa11dba5c752217c8490febd8a7cef8bbf8d858e0dd3002590f946ffa5c3c62c8fd5b7a5c61cd2f5a83432078f5e246bab1faf13"
 
 RPROVIDES:${PN} += "ghc-http-client-tls \
-libHShttp-client-tls-0.3.6.1-FlsMdDWaVoFLIhxPfXPqPa-ghc9.4.6.so"
+libHShttp-client-tls-0.3.6.1-AsHsMYKW0OIKZ6XVfzITj1-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSappar-0.1.8-1lWb1vtDAvc6rz1D87iAo-ghc9.4.6.so \
 libHSarray-0.5.4.0-ghc9.4.6.so \
@@ -21,7 +21,7 @@ libHSbase-4.17.2.0-ghc9.4.6.so \
 libHSbase64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM-ghc9.4.6.so \
 libHSbasement-0.0.16-JDtFhm6hoERETf7Hqk4dh9-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
 libHSbyteorder-1.0.4-HgduUBa2I8KG54Jejj0SY0-ghc9.4.6.so \
 libHSbytestring-0.11.5.1-ghc9.4.6.so \
 libHScase-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9-ghc9.4.6.so \
@@ -40,7 +40,7 @@ libHSghc-boot-th-9.4.6-ghc9.4.6.so \
 libHSghc-prim-0.9.1-ghc9.4.6.so \
 libHShashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP-ghc9.4.6.so \
 libHShourglass-0.2.12-DDTIHdRSu369xxYEqSFzho-ghc9.4.6.so \
-libHShttp-client-0.7.14-DEHi4b5z3Pa56fFNKIs9J1-ghc9.4.6.so \
+libHShttp-client-0.7.14-ElkaPC2YNimBwgzZzglgPe-ghc9.4.6.so \
 libHShttp-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p-ghc9.4.6.so \
 libHSinteger-gmp-1.1-ghc9.4.6.so \
 libHSiproute-1.7.12-A34D1N9dJmL5ps3agDCHa7-ghc9.4.6.so \

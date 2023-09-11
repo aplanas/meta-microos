@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.3.4"
 
-RPM_NAME = "ghc-DAV-doc-1.3.4-4.11.noarch.rpm"
-RPM_HASH = "9462fa9cf3e3e5ec8a42a3cd732cb145fe5d0eb619336ec1608798076397cb029c259aeb7f547a5ae6dbd4b652d2f924ea43940a7b03703b1db335435953f6bf"
+RPM_NAME = "ghc-DAV-doc-1.3.4-4.12.noarch.rpm"
+RPM_HASH = "f661d51941dec9b0e06358a610babe6047ec4c55ccc4a67523b3892339f0e10e7a3c388b9db9e9130bc55323c044ae7d9b9f0a2b509cf20fc1587a6604c3c4ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-DAV-doc"

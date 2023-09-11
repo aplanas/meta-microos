@@ -2,12 +2,12 @@ SUMMARY = "Haskell http-media library development files"
 DESCRIPTION = "This package provides the Haskell http-media library development files."
 LICENSE = "MIT"
 
-PV = "0.8.0.0"
+PV = "0.8.1.0"
 
-RPM_NAME = "ghc-http-media-devel-0.8.0.0-6.9.aarch64.rpm"
-RPM_HASH = "11da7d84dc66aad4fad2553d13cb0213e2cb401b9c38f21d061d7556e972a68e1cec4cd25b35e2c095188ed587e76f9d0bd32b26f1ea4fa494d7aa1dc344b737"
+RPM_NAME = "ghc-http-media-devel-0.8.1.0-1.1.aarch64.rpm"
+RPM_HASH = "b186f33445583c692907de9ec13b63dedf815ce5078da09f45c428f02ed125a48ff0922bf75aa43c499dc990d881d61d12e27450a063ab17d72e1e299d8d1dce"
 
-RPROVIDES:${PN} += "ghc-devel-http-media-0.8.0.0-5rJoZcqaWn0K15WzbWDvFb \
+RPROVIDES:${PN} += "ghc-devel-http-media-0.8.1.0-COFozQnKf3L2ra0cnOflYd \
 ghc-http-media-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

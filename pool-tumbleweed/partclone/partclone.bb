@@ -3,10 +3,10 @@ DESCRIPTION = "A set of file system clone utilities, including \
 ext2/3, reiserfs, reiser4, xfs, hfs+ file systems"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.3.23"
+PV = "0.3.25"
 
-RPM_NAME = "partclone-0.3.23-1.5.aarch64.rpm"
-RPM_HASH = "809c76bffbed76417a35b593cfeaca08142b3324463d1d22be4385cfecb69d4e65a27d6b58f587bdf8957a96deb4b8a9eb9a598f0edd42beb4331a9863d451e4"
+RPM_NAME = "partclone-0.3.25-1.1.aarch64.rpm"
+RPM_HASH = "f9c00f5756c0e32319184f032ea7487ebf234d58a0f0f9e9715143dfae53b320e9c90d702f4307ababd3d56aa0f06357a1d49320c1f9a0597d885517d5d2b8ee"
 
 RPROVIDES:${PN} += "partclone"
 

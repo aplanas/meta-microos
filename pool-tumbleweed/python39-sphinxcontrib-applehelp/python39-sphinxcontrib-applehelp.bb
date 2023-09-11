@@ -2,10 +2,10 @@ SUMMARY = "Sphinx extension which outputs Apple help books"
 DESCRIPTION = "sphinxcontrib-applehelp is a sphinx extension which outputs Apple help books"
 LICENSE = "BSD-2-Clause"
 
-PV = "1.0.4"
+PV = "1.0.7"
 
-RPM_NAME = "python39-sphinxcontrib-applehelp-1.0.4-2.3.noarch.rpm"
-RPM_HASH = "77a7df11e1e999f1ee4cefea31fb26d9aa676942f4f2d11dcb7f29a2da0963f86dac554ef17bc136289fbcc545e30f36e1563e43084fbb9c48f24fcac97249a1"
+RPM_NAME = "python39-sphinxcontrib-applehelp-1.0.7-1.1.noarch.rpm"
+RPM_HASH = "0060ffde0107e01b9916c9ebfa10d5e5c23be09c6da0a87815997a61f7dfaba5fd72d62149672a88af30b70110262da1225f0d764d62f86b1d97033b24303c0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinxcontrib-applehelp \

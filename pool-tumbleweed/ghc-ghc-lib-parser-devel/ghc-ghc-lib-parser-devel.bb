@@ -2,12 +2,12 @@ SUMMARY = "Haskell ghc-lib-parser library development files"
 DESCRIPTION = "This package provides the Haskell ghc-lib-parser library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "9.4.6.20230808"
+PV = "9.4.7.20230826"
 
-RPM_NAME = "ghc-ghc-lib-parser-devel-9.4.6.20230808-1.2.aarch64.rpm"
-RPM_HASH = "bef95e45d74b9c809b0f7b84c551ead99dd29595d62685ea7f26b9a1da0b43ed46d7081fb638645faf3186b98c905da22e53354152a4fe2c93fc9356252d2fe8"
+RPM_NAME = "ghc-ghc-lib-parser-devel-9.4.7.20230826-1.1.aarch64.rpm"
+RPM_HASH = "58a39608f923d69ed6ba8c87a8d086d1cbcb37d55c9b648dab66711066a21a0aca64fda53ca9a1e29d83c6f7bc1f6377dd508498fd5a040395ec4d00b1238a0b"
 
-RPROVIDES:${PN} += "ghc-devel-ghc-lib-parser-9.4.6.20230808-BTkqGaXXohb8duAYJJlTmh \
+RPROVIDES:${PN} += "ghc-devel-ghc-lib-parser-9.4.7.20230826-9jTyF2CzAjoBitf2gKlSVU \
 ghc-ghc-lib-parser-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

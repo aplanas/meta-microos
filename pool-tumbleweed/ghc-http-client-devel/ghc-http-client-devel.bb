@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "0.7.14"
 
-RPM_NAME = "ghc-http-client-devel-0.7.14-1.1.aarch64.rpm"
-RPM_HASH = "b3175e11916803f0d2cb3adccc684559ba1298e19c13d2e6d2a0fe1835c3040997709272e67d8fd5283280399f1e7553850a45bf3681e175444a4bf3b31e6b6d"
+RPM_NAME = "ghc-http-client-devel-0.7.14-1.2.aarch64.rpm"
+RPM_HASH = "eca79807f4620ba113ebc5b04666b4f78ba5beb24dcfa7d1a9a7acaf219ea7cc8b59841464fab4b020f297b2b023916d1db7e133ad7200376ecfac239db729c9"
 
-RPROVIDES:${PN} += "ghc-devel-http-client-0.7.14-DEHi4b5z3Pa56fFNKIs9J1 \
+RPROVIDES:${PN} += "ghc-devel-http-client-0.7.14-ElkaPC2YNimBwgzZzglgPe \
 ghc-http-client-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -16,7 +16,7 @@ ghc-devel-array-0.5.4.0 \
 ghc-devel-async-2.2.4-LcXCzTmy8C6G7Wa774EctI \
 ghc-devel-base-4.17.2.0 \
 ghc-devel-base64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM \
-ghc-devel-blaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h \
+ghc-devel-blaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND \
 ghc-devel-bytestring-0.11.5.1 \
 ghc-devel-case-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9 \
 ghc-devel-containers-0.6.7 \

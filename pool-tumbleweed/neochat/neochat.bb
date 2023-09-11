@@ -1,12 +1,12 @@
 SUMMARY = "A chat client for Matrix, the decentralized communication protocol"
 DESCRIPTION = "Neochat is a client for Matrix, the decentralized communication protocol for instant \
 messaging."
-LICENSE = "GPL-3.0-or-later & GPL-3.0-only & BSD-2-Clause"
+LICENSE = "BSD-2-Clause & GPL-3.0-only & GPL-3.0-or-later"
 
 PV = "23.08.0"
 
-RPM_NAME = "neochat-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "2ddc02d5e2cb19981a0a6f2eab657bd7daa4e5f15ad646ea0f78c01381afb8154543541897fda248e4913895c03e93ddafa55070c9fa6a03e44e6f541639ed55"
+RPM_NAME = "neochat-23.08.0-2.1.aarch64.rpm"
+RPM_HASH = "88542e9cf3939f14c1bc52d074e57bc4109bca9b8acfee23f5a02325fd1767ef448f22ce5a233d71c0182d4c95697b31d6b68637ec6b336d1bf296d904015e72"
 
 RPROVIDES:${PN} += "neochat"
 
@@ -43,6 +43,9 @@ libcmark.so.0.30.3 \
 libm.so.6 \
 libqt5keychain.so.1 \
 libstdc++.so.6 \
+qt5qmlimport-QtLocation.5 \
+qt5qmlimport-QtPositioning.5 \
+qt5qmlimport-org.kde.quickcharts.1 \
 syntax-highlighting-imports"
 
 inherit rpm

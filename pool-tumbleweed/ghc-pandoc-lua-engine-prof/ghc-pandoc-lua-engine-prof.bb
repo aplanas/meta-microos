@@ -4,18 +4,18 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.0.1"
 
-RPM_NAME = "ghc-pandoc-lua-engine-prof-0.2.0.1-1.15.aarch64.rpm"
-RPM_HASH = "3220be58cf8e787102bfef73072662675f6ad17c2e69bbe4790341c81610c1a5c91c432c3b426bb639fbd411f1f77cd0be5cd011fc972aa5ceeb98120312d3a7"
+RPM_NAME = "ghc-pandoc-lua-engine-prof-0.2.0.1-1.16.aarch64.rpm"
+RPM_HASH = "fe55f2e751b5fd0dd0d054001a269cb6bf2782059df4920916b0a1724a087cd6fe795123ee85162298e591d6a08b2b63c2c47353f29dcce6f39b47df8542a6d0"
 
 RPROVIDES:${PN} += "ghc-pandoc-lua-engine-prof \
-ghc-prof-pandoc-lua-engine-0.2.0.1-KlIscABuyrG9bqaJmdAXlQ"
+ghc-prof-pandoc-lua-engine-0.2.0.1-2wuTqykuGYIB5sAAY67reH"
 
 RDEPENDS:${PN} += "ghc-pandoc-lua-engine-devel \
 ghc-prof-SHA-1.6.4.4-ECOkYIcPN6aC9icBjFCZ1l \
 ghc-prof-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
 ghc-prof-base-4.17.2.0 \
 ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-citeproc-0.8.1-D6MAOBfduqd1r1TVF002aA \
+ghc-prof-citeproc-0.8.1-2pX9OkWyX7lDXHT1UDpuWJ \
 ghc-prof-containers-0.6.7 \
 ghc-prof-data-default-0.7.1.1-4TeAZDN81Uu1IorgFaPMOc \
 ghc-prof-doclayout-0.4.0.1-4D8TPYFDHuI6AadIlSPotc \
@@ -31,7 +31,7 @@ ghc-prof-hslua-module-zip-1.1.0-Fw4HFTouxng8yMIzubiVJd \
 ghc-prof-hslua-repl-0.1.1-AT3e5G0H4So5vj4IgGLSDC \
 ghc-prof-lpeg-1.0.4-DiPCMqCZ1gDFL4TQ30W98B \
 ghc-prof-mtl-2.2.2 \
-ghc-prof-pandoc-3.1.3-DH3GNUoUN8j8vzRMH3Lho2 \
+ghc-prof-pandoc-3.1.3-vrz2YBr4KqIJ1o9bFBvzp \
 ghc-prof-pandoc-lua-marshal-0.2.2-D6YUzx6tqXTDbJ9vWDLs3T \
 ghc-prof-pandoc-types-1.23.1-8yEOjBSLsT62OPTXI0FZpc \
 ghc-prof-parsec-3.1.16.1 \

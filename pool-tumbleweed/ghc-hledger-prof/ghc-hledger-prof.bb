@@ -4,11 +4,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.28"
 
-RPM_NAME = "ghc-hledger-prof-1.28-3.8.aarch64.rpm"
-RPM_HASH = "93b6e53bc3cdba22954f2ab9eee01cac4f45e7bfaff6a0ed75a1f98704b825a804d842ddcd37938c481c60a5e8b566b883363c660a77f1703959200104faaad1"
+RPM_NAME = "ghc-hledger-prof-1.28-3.9.aarch64.rpm"
+RPM_HASH = "17a35bebaa3fe13c2172670098d704ae9488bed33d1405c64e388763c38493e5fd626c665e221c01618750d4a88b96910597a21db5903da89f2ce24c42df0db2"
 
 RPROVIDES:${PN} += "ghc-hledger-prof \
-ghc-prof-hledger-1.28-4j6Av1lDxNh4vKrZ5rOLty"
+ghc-prof-hledger-1.28-BB0TqpU146rHgefpsST3hh"
 
 RDEPENDS:${PN} += "ghc-hledger-devel \
 ghc-prof-Decimal-0.5.2-7hu5LwisxJT2rqtwM7eQhT \
@@ -26,8 +26,8 @@ ghc-prof-filepath-1.4.2.2 \
 ghc-prof-githash-0.1.7.0-AdGnnqehkm8HwhDMWfn4qF \
 ghc-prof-hashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP \
 ghc-prof-haskeline-0.8.2 \
-ghc-prof-hledger-lib-1.28-54R6ZNBJP1qEEuMb4tYul2 \
-ghc-prof-lucid-2.11.20230408-F37ejAzYfNaC9F9tMADx3y \
+ghc-prof-hledger-lib-1.28-Bb3X1scVuGZKsjeiDSJIAh \
+ghc-prof-lucid-2.11.20230408-4cKgK8hqgER6myHRF5jLTD \
 ghc-prof-math-functions-0.3.4.2-Ke5dPSL1fMD1KAZhy38VGR \
 ghc-prof-megaparsec-9.3.1-Jdwz39dpTDz8anub3eLd49 \
 ghc-prof-microlens-0.4.13.1-4XtL5z7DHHC7UZaR6xNDY3 \
@@ -35,7 +35,7 @@ ghc-prof-mtl-2.2.2 \
 ghc-prof-process-1.6.17.0 \
 ghc-prof-regex-tdfa-1.3.2.2-EFtJwrhEkMb99DdZ6mBzLM \
 ghc-prof-safe-0.3.19-9uHvZjuyLiR13wOGSONZxX \
-ghc-prof-shakespeare-2.0.30-GrImIeltjQZ7T3c163uEiZ \
+ghc-prof-shakespeare-2.0.30-5XHeuGt8JLJENvL2Ahdhem \
 ghc-prof-split-0.2.3.5-J6pekuQs6yKFxqDJQyglHu \
 ghc-prof-tabular-0.2.2.8-6UpIsHxi6ag26Q8LzRReTM \
 ghc-prof-tasty-1.4.3-EvDBAB3nA5D6U1ANfXkHR \

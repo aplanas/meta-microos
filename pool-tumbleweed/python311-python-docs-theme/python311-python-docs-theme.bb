@@ -2,10 +2,10 @@ SUMMARY = "The Sphinx theme for the CPython docs and related projects"
 DESCRIPTION = "The Sphinx theme for the CPython docs and related projects"
 LICENSE = "Python-2.0"
 
-PV = "2022.1"
+PV = "2023.7"
 
-RPM_NAME = "python311-python-docs-theme-2022.1-1.13.noarch.rpm"
-RPM_HASH = "ef5092659e50339f20373929a98816f1e261343b18ff1a29a14f7d4f3c4fd7f1fe61e71ddc1b76ee7f962ef7cc391e98b23883de672ebfe933982346a6b8da90"
+RPM_NAME = "python311-python-docs-theme-2023.7-1.1.noarch.rpm"
+RPM_HASH = "3c7798fec838b810b1a7a6501d24e94656ac3b968cbc9a452c7e60e321136bb5fc8c90c1ca114abdf5200874cf0268be517ec3a1764b1cb1fb3d1cccce19da3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-python-docs-theme \

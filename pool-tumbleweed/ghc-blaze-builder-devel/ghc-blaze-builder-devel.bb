@@ -2,13 +2,13 @@ SUMMARY = "Haskell blaze-builder library development files"
 DESCRIPTION = "This package provides the Haskell blaze-builder library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.2.2"
+PV = "0.4.2.3"
 
-RPM_NAME = "ghc-blaze-builder-devel-0.4.2.2-3.8.aarch64.rpm"
-RPM_HASH = "aa7ec7856448c73b91124ccbc44a9ea04a1b2c699654dfc8bbda4f7161d18cca0a8dd8faf8b57f2eb24b7a248e40520ba2c0099fd4179689d2f9c2f185c0689e"
+RPM_NAME = "ghc-blaze-builder-devel-0.4.2.3-1.1.aarch64.rpm"
+RPM_HASH = "d17b8d9ce2ab78b8ebdd1468232cdc6ceedf4f44ca7ff2a9fe1077f20ef9fe025ec4005c1ef420cb9b53cf5f5df388f280971ac391e5233c44fda2cf3f53ee2c"
 
 RPROVIDES:${PN} += "ghc-blaze-builder-devel \
-ghc-devel-blaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h"
+ghc-devel-blaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-blaze-builder \

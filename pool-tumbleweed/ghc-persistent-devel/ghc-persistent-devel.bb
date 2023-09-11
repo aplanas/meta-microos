@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "2.14.5.1"
 
-RPM_NAME = "ghc-persistent-devel-2.14.5.1-1.8.aarch64.rpm"
-RPM_HASH = "ea43df4b471e70b80465e0a9950ad0eea4ef57d1fcc52e2899ef497e0facfbdb1af6baa895b29bd75a784782c100f76a2e61d29e92b981452d65d722f6007fd6"
+RPM_NAME = "ghc-persistent-devel-2.14.5.1-1.9.aarch64.rpm"
+RPM_HASH = "618c5d8f7ca09b3070d8b6a389b96bbfaba5ee729a5b71f0cedc81e9b1870821b8619af23f810d3720ab09e14877db1d1c35ce627aeca21a4489c17b0539e39b"
 
-RPROVIDES:${PN} += "ghc-devel-persistent-2.14.5.1-HbESoi5D00uF6Q9t3vbKri \
+RPROVIDES:${PN} += "ghc-devel-persistent-2.14.5.1-Gjrp3WYLCFS91AokYH8j1m \
 ghc-persistent-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -16,7 +16,7 @@ ghc-devel-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
 ghc-devel-attoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3 \
 ghc-devel-base-4.17.2.0 \
 ghc-devel-base64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM \
-ghc-devel-blaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX \
+ghc-devel-blaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii \
 ghc-devel-bytestring-0.11.5.1 \
 ghc-devel-conduit-1.3.5-3TRUhNB8WbY2vxuXe2VjBX \
 ghc-devel-containers-0.6.7 \

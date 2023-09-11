@@ -1,11 +1,11 @@
 SUMMARY = "A git credential helper interfacing with pass"
 DESCRIPTION = "A git credential helper interfacing with pass, the standard unix password manager."
-LICENSE = "LGPL-3.0+"
+LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.2.0"
+PV = "1.4.0"
 
-RPM_NAME = "python311-pass-git-helper-1.2.0-1.6.noarch.rpm"
-RPM_HASH = "e8955a8833fb6af1dc316921cc4e20c9a955d88a098d6ecb1f2f2eb151ff39da3a06f77b1130b262382d348e78aaa208978439e479082344cfeff8f5cc26134e"
+RPM_NAME = "python311-pass-git-helper-1.4.0-1.1.noarch.rpm"
+RPM_HASH = "f206153f53a609609853d3a0c9635f0edbf13ebf3a27b192886197164067a26f354dfc9834eac5eea4701f36337ebfa47c26e31d8b6fef5cec594833f40477df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pass-git-helper \

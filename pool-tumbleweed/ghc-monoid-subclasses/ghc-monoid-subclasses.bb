@@ -3,13 +3,13 @@ DESCRIPTION = "A hierarchy of subclasses of 'Monoid' together with their instanc
 data structures from base, containers, and text packages."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.2.3"
+PV = "1.2.4"
 
-RPM_NAME = "ghc-monoid-subclasses-1.2.3-1.9.aarch64.rpm"
-RPM_HASH = "adb85efd8ac5f0ec257c4cecd34968b13061116d0df9e26b2eac84aa1aa067fcc999ff9abddc228e9f0714c2c90461eb5fa5dbeff68916d0a1ed3797da6a810e"
+RPM_NAME = "ghc-monoid-subclasses-1.2.4-1.1.aarch64.rpm"
+RPM_HASH = "64d253be7aa047a9021bb6e72658bf90be7b4534f1bd9f77d1e2ac197899cd306fb0b7abf0a46e4f3773b2ee1b6dc03cee45c1f3746a0736c5ffee41bc14edf7"
 
 RPROVIDES:${PN} += "ghc-monoid-subclasses \
-libHSmonoid-subclasses-1.2.3-5taTwF7VZKRLlaKR3bOBXt-ghc9.4.6.so"
+libHSmonoid-subclasses-1.2.4-19X6M9mjCjC7gPD9QVvKTU-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
 libHSbase-4.17.2.0-ghc9.4.6.so \

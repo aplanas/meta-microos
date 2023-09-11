@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "2.10.4"
 
-RPM_NAME = "python311-libxml2-2.10.4-2.3.aarch64.rpm"
-RPM_HASH = "e345a18bc49c917a1e168b46272cba7509f4741bcb378ba2e07f9b091ece6d40cd4d907834bc0e47c1877cd41dfa4e0a7d92aa77cc9e473a2034f2df66e6f3e0"
+RPM_NAME = "python311-libxml2-2.10.4-3.1.aarch64.rpm"
+RPM_HASH = "2d6ec3d52f06502274c19ef1df01f3c90a3531d22c1e5050ae52b2d416d46c181002b6111a993dc67f6c96fc733ead43b8cc6d90e0f1d3fe99482a959b08e8af"
 
 RPROVIDES:${PN} += "libxml2-python \
 libxml2mod.cpython-311-aarch64-linux-gnu.so \

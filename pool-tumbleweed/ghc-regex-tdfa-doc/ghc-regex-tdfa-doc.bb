@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.2.2"
 
-RPM_NAME = "ghc-regex-tdfa-doc-1.3.2.2-1.3.noarch.rpm"
-RPM_HASH = "c42a00d50e7f4b8a2f21bb5e0e750369131b8fdacaf4d5264c08b2f17c20eb6e654e1caadda324c7976a7b48ad595ca33d8453ac997527a73d8d85a67dc201a3"
+RPM_NAME = "ghc-regex-tdfa-doc-1.3.2.2-2.1.noarch.rpm"
+RPM_HASH = "dec77a9f36facb12375abae06e0a293d0113daa2a6b81bd74eeca7ce1223259fc4964d07de908b56dc1b71fb80cc7c86102a79baf95f6ed61d898bbc55caa898"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-regex-tdfa-doc"

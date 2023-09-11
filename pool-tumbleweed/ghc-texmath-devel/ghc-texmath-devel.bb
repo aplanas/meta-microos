@@ -2,12 +2,12 @@ SUMMARY = "Haskell texmath library development files"
 DESCRIPTION = "This package provides the Haskell texmath library development files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.12.8"
+PV = "0.12.8.1"
 
-RPM_NAME = "ghc-texmath-devel-0.12.8-2.1.aarch64.rpm"
-RPM_HASH = "64bd02d3f197b2e73b932c44096327f15c31713b03823561aa4586d691f848b5305855c3906c6829dc447d391cfce092d8ed8895c0af562f5b5f1bb38268e554"
+RPM_NAME = "ghc-texmath-devel-0.12.8.1-1.1.aarch64.rpm"
+RPM_HASH = "a4c6855d9f4c995e7401cde55c03fa792a622c39c63cf728bac766db264644cc0132fc612b8585183fc9d4d1e847d441e05910a51049962ebaeec23ac2f2590f"
 
-RPROVIDES:${PN} += "ghc-devel-texmath-0.12.8-4XHW2MeUv8XDrGEniW8iCo \
+RPROVIDES:${PN} += "ghc-devel-texmath-0.12.8.1-3LxXxmLvAtyApeIh6UJCwI \
 ghc-texmath-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -20,7 +20,7 @@ ghc-devel-parsec-3.1.16.1 \
 ghc-devel-split-0.2.3.5-J6pekuQs6yKFxqDJQyglHu \
 ghc-devel-syb-0.7.2.4-URkW17Cd7D7rpu7G0BDIE \
 ghc-devel-text-2.0.2 \
-ghc-devel-typst-symbols-0.1.2-3u6ALqSoiYt5j197EL0vRB \
+ghc-devel-typst-symbols-0.1.4-JaoP2leChnCACsgYhrK1kO \
 ghc-devel-xml-1.3.14-JgZFWdUND2BGObIBmJlnFJ \
 ghc-texmath"
 

@@ -5,11 +5,11 @@ LICENSE = "MIT"
 
 PV = "1.9.1.3"
 
-RPM_NAME = "ghc-xml-conduit-1.9.1.3-1.6.aarch64.rpm"
-RPM_HASH = "17bac2266fdc6b4b90bac00e9b52d17ef5b1bdf20501cd9af311a32b7a9e04babf51d7cf8f6d15c076d489302012ad654c9eaf8bf612b4c62b418b4f5f450a20"
+RPM_NAME = "ghc-xml-conduit-1.9.1.3-1.7.aarch64.rpm"
+RPM_HASH = "a1cc7d01a9f71af6fdc507611ad29461856344af7ae4d88e6bad70e2a8c8178c881edb6a84b66a500ba0db58f567f3b07eb08ee78b9e283eaf2e374e60d2e2fa"
 
 RPROVIDES:${PN} += "ghc-xml-conduit \
-libHSxml-conduit-1.9.1.3-DDoR4rlzTH6QSHmFsTVd9-ghc9.4.6.so"
+libHSxml-conduit-1.9.1.3-2cOMN3SNzhLD8DxEiNBrwq-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
 libHSasync-2.2.4-LcXCzTmy8C6G7Wa774EctI-ghc9.4.6.so \
@@ -18,9 +18,9 @@ libHSattoparsec-0.14.4-LxL1eX1xmPCB2HEhQefy3f-attoparsec-internal-ghc9.4.6.so \
 libHSbase-4.17.2.0-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
 libHSbitvec-1.1.5.0-4n2vDaVO5x4GAoTGOlyPxS-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
-libHSblaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX-ghc9.4.6.so \
-libHSblaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
+libHSblaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii-ghc9.4.6.so \
+libHSblaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP-ghc9.4.6.so \
 libHSbytestring-0.11.5.1-ghc9.4.6.so \
 libHSconduit-1.3.5-3TRUhNB8WbY2vxuXe2VjBX-ghc9.4.6.so \
 libHSconduit-extra-1.3.6-370xQw6Laeb4Jkz5zTLBuf-ghc9.4.6.so \

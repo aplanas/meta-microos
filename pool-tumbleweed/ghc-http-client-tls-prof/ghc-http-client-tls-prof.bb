@@ -4,11 +4,11 @@ LICENSE = "MIT"
 
 PV = "0.3.6.1"
 
-RPM_NAME = "ghc-http-client-tls-prof-0.3.6.1-2.7.aarch64.rpm"
-RPM_HASH = "78489e419025c22fb4d8066c3311f42f34a07fc598cf9b674d8760a9833d5dc7a2eee75b13628f5edd41b0ec44226813fd81007fa7908e2dfdf9280f7a552d91"
+RPM_NAME = "ghc-http-client-tls-prof-0.3.6.1-2.8.aarch64.rpm"
+RPM_HASH = "b0434f95125f5bb12f74cdc8274b808f6f399f6bc65882a964a9e56463318a8082650789bbedba82b38597ff369b67c046690f969cb6810e26b51dd0069e786a"
 
 RPROVIDES:${PN} += "ghc-http-client-tls-prof \
-ghc-prof-http-client-tls-0.3.6.1-FlsMdDWaVoFLIhxPfXPqPa"
+ghc-prof-http-client-tls-0.3.6.1-AsHsMYKW0OIKZ6XVfzITj1"
 
 RDEPENDS:${PN} += "ghc-http-client-tls-devel \
 ghc-prof-base-4.17.2.0 \
@@ -19,7 +19,7 @@ ghc-prof-containers-0.6.7 \
 ghc-prof-cryptonite-0.30-LSC76M64GQaFgLGwFfgIgW \
 ghc-prof-data-default-class-0.1.2.0-HWomeRk5e2p3WGQsDTnuAN \
 ghc-prof-exceptions-0.10.5 \
-ghc-prof-http-client-0.7.14-DEHi4b5z3Pa56fFNKIs9J1 \
+ghc-prof-http-client-0.7.14-ElkaPC2YNimBwgzZzglgPe \
 ghc-prof-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
 ghc-prof-memory-0.18.0-6jbQrbksm9m3FIftlSlmf1 \
 ghc-prof-network-3.1.4.0-5p1NVWLTlrvDdAAI1mskSs \

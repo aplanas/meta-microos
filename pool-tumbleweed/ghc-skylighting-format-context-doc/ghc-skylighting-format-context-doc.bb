@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0.2"
 
-RPM_NAME = "ghc-skylighting-format-context-doc-0.1.0.2-1.10.noarch.rpm"
-RPM_HASH = "23701090b086f189b1f377ffd222ed935b55cd9f841dc6d74e98665cc304d2dc34f2d536e5d03ad939ac8c79f024160105e4fa5e0a294b5a2c82fb6c8fbd1a70"
+RPM_NAME = "ghc-skylighting-format-context-doc-0.1.0.2-1.11.noarch.rpm"
+RPM_HASH = "49c538b036ba35f72c6bb679d9476393c09b3806b6d35be030df55b2bdfa4a7898678cc9c1e5ae9df005a580abcae9055580712db97bbbea2b149bb386e10292"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-skylighting-format-context-doc"

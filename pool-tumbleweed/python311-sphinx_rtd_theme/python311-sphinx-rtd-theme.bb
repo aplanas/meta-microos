@@ -4,10 +4,10 @@ currently in development and includes some rtd variable checks that can be ignor
 if you're just trying to use it on your project outside of that site."
 LICENSE = "Apache-2.0 & MIT & OFL-1.1"
 
-PV = "1.2.0"
+PV = "1.3.0"
 
-RPM_NAME = "python311-sphinx_rtd_theme-1.2.0-1.2.noarch.rpm"
-RPM_HASH = "36962502c7da44cfbd9fd9c0b4c30faf2ebd177953241d8f35602807db54c99df4d0423c2e7b7494e4ae2bfbbd6a4c3a37859dd9509e07cd5d2188aea86ae984"
+RPM_NAME = "python311-sphinx_rtd_theme-1.3.0-1.1.noarch.rpm"
+RPM_HASH = "fb010a5544d5d4bbeb0a9750cc8c47024ca7711ff7da8bc3ec16eb5ac6562700e73218841456f7e603f3d2fde0f929bc81fae04857ea30f85761ace0d2ee39b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sphinx-rtd-theme \

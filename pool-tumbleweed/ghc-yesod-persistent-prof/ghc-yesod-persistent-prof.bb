@@ -4,20 +4,20 @@ LICENSE = "MIT"
 
 PV = "1.6.0.8"
 
-RPM_NAME = "ghc-yesod-persistent-prof-1.6.0.8-2.16.aarch64.rpm"
-RPM_HASH = "0bc65d69dfa14bb79af72599d56f767fb98c102f296ea1ed16b4775e81527031d15501e78bc84b5824206f3cfd88776cb5c3a02314282b086ad439e1a6b65dbd"
+RPM_NAME = "ghc-yesod-persistent-prof-1.6.0.8-2.17.aarch64.rpm"
+RPM_HASH = "b455432740c09ec6b2bff74d5b8f2e6995f995974c252c6276af59bb460a87d3831972464c1c2c6f7b81da7cbf405af0f1ebe76101dfbc11f7f1cda60d8a3fc7"
 
-RPROVIDES:${PN} += "ghc-prof-yesod-persistent-1.6.0.8-93ozWuy4hEy3h1XQtLGAru \
+RPROVIDES:${PN} += "ghc-prof-yesod-persistent-1.6.0.8-2wkXYfzUlDeVV1OSzyB0l \
 ghc-yesod-persistent-prof"
 
 RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-blaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h \
+ghc-prof-blaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND \
 ghc-prof-conduit-1.3.5-3TRUhNB8WbY2vxuXe2VjBX \
-ghc-prof-persistent-2.14.5.1-HbESoi5D00uF6Q9t3vbKri \
+ghc-prof-persistent-2.14.5.1-Gjrp3WYLCFS91AokYH8j1m \
 ghc-prof-resource-pool-0.4.0.0-7uUtnYEtaeP22tTkIEO3ty \
 ghc-prof-resourcet-1.2.6-AOipJdCu0ULL3KFWw8x9fP \
 ghc-prof-transformers-0.5.6.2 \
-ghc-prof-yesod-core-1.6.24.4-cvcp8TZ1QYG0IH58f6f1F \
+ghc-prof-yesod-core-1.6.24.4-1di0EYNbRAz9TOkBiAT5Ab \
 ghc-yesod-persistent-devel"
 
 inherit rpm

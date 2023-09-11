@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.13"
 
-RPM_NAME = "ghc-polyparse-doc-1.13-12.3.noarch.rpm"
-RPM_HASH = "aae597c3949a4c808b5fa58388d305d5da642c8bfdc76c2ad4e549c4e7988341ae85a0e523b218d524a799be7d4e3d0b6ce6cf64bd985f5a7cea938529b9fddb"
+RPM_NAME = "ghc-polyparse-doc-1.13-13.1.noarch.rpm"
+RPM_HASH = "3c5e6f8d580eea1f65423307674c1d97375eb3b11f04d9945d2aa5cbf86b1a0e31fddd6f2c598912cfdcd0ff167b18ddb82d2ced521efe9c64a33dfd56ab9a45"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-polyparse-doc"

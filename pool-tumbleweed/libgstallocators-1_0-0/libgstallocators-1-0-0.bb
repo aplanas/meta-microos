@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstallocators-1_0-0-1.22.5-2.1.aarch64.rpm"
-RPM_HASH = "bbf56024f03f7bc798cd9b20a2c63a26036cfc3bb8b7b68ce45005f8db38a43e24b4955d4897e20a2f211d2dcf428bbb9a20ffd7cff340c688d0a6d584367123"
+RPM_NAME = "libgstallocators-1_0-0-1.22.5-3.1.aarch64.rpm"
+RPM_HASH = "5987f9bff3e8b25a2eaee251613ea9103c69259583053c9ff681cb6ffcacd5628d8176b80a32ef95d79e744b5ddc598f0d74796c4ca89878a83924f9a8c445f4"
 
 RPROVIDES:${PN} += "libgstallocators-1-0-0 \
 libgstallocators-1.0.so.0"

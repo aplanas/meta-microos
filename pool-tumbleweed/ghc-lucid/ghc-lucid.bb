@@ -14,16 +14,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.11.20230408"
 
-RPM_NAME = "ghc-lucid-2.11.20230408-1.5.aarch64.rpm"
-RPM_HASH = "848732956c0bcebe3cadfb59a5adde28825db45de5fcf3b8734290f6037b25de48908c6561e20a5c7f50686c9e53cebeef6162b42d28c2a20b0fff2c2ce94edc"
+RPM_NAME = "ghc-lucid-2.11.20230408-1.6.aarch64.rpm"
+RPM_HASH = "d610c8acb1c6743240f82952c2edaff1b0fd6252338267158008dc164215c17a9ef5fe9544e6b0cd86d7c6eb767b5a70e7cf4ddcf7899d683e8e3bd5c0c73848"
 
 RPROVIDES:${PN} += "ghc-lucid \
-libHSlucid-2.11.20230408-F37ejAzYfNaC9F9tMADx3y-ghc9.4.6.so"
+libHSlucid-2.11.20230408-4cKgK8hqgER6myHRF5jLTD-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
 libHSbase-4.17.2.0-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
 libHSbytestring-0.11.5.1-ghc9.4.6.so \
 libHScontainers-0.6.7-ghc9.4.6.so \
 libHSdeepseq-1.4.8.0-ghc9.4.6.so \

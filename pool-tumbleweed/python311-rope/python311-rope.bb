@@ -13,10 +13,10 @@ DESCRIPTION = "Rope is a python refactoring library. \
   more advanced refactoring operations and options that Jedi does not."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.6.0"
+PV = "1.9.0"
 
-RPM_NAME = "python311-rope-1.6.0-1.6.noarch.rpm"
-RPM_HASH = "5c6c4794c0455079ff15536d93217caeb604df077a3ef749740bb32ca33582c80892da31e2dc4c3dd450539052570b6f255982c204dc0aa9b5973f3560c982e9"
+RPM_NAME = "python311-rope-1.9.0-1.1.noarch.rpm"
+RPM_HASH = "ca250b09af78a345b293c59cc1f81a152bdc2995b520e44ada7dea2805549d6551eb08d7d4cb3bcda286e80afd058b9edec7b7944eb80e0eeeda9d17e7a44126"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-rope \

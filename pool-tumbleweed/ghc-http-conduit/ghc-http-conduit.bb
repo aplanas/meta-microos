@@ -5,11 +5,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.3.8.2"
 
-RPM_NAME = "ghc-http-conduit-2.3.8.2-2.5.aarch64.rpm"
-RPM_HASH = "21799fd886546d21bb1849e54af3ab2f73dc0fe00f7cc1067b27075f82468da53e3e2059fb832af99259e1884bdfc11a445ca4a6f9eeddd92f0f7c8ee1bb7c8b"
+RPM_NAME = "ghc-http-conduit-2.3.8.2-2.6.aarch64.rpm"
+RPM_HASH = "7bce627fe9b04e7bcc69685f6c8f5b58f250ec0aa6af0913a7d8d8d10001a7b08d66788970bacb7e2517f85727f6e5121ffa711f1e3dbb6a77b69a2bbfcec77d"
 
 RPROVIDES:${PN} += "ghc-http-conduit \
-libHShttp-conduit-2.3.8.2-JL53aegdUXo82DAJNh0Sqj-ghc9.4.6.so"
+libHShttp-conduit-2.3.8.2-Aom8RblFK6RqEIyPgp71L-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-5m1ALA0bqJEAQoyOrWBAgI-ghc9.4.6.so \
 libHSQuickCheck-2.14.3-EdzpnPTYr1uH7EoNAOpgI8-ghc9.4.6.so \
@@ -33,7 +33,7 @@ libHSbasement-0.0.16-JDtFhm6hoERETf7Hqk4dh9-ghc9.4.6.so \
 libHSbifunctors-5.5.15-KUw4gCd9iBfLph9IFStYJY-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
 libHSbitvec-1.1.5.0-4n2vDaVO5x4GAoTGOlyPxS-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
 libHSbyteorder-1.0.4-HgduUBa2I8KG54Jejj0SY0-ghc9.4.6.so \
 libHSbytestring-0.11.5.1-ghc9.4.6.so \
 libHScase-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9-ghc9.4.6.so \
@@ -61,8 +61,8 @@ libHSghc-boot-th-9.4.6-ghc9.4.6.so \
 libHSghc-prim-0.9.1-ghc9.4.6.so \
 libHShashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP-ghc9.4.6.so \
 libHShourglass-0.2.12-DDTIHdRSu369xxYEqSFzho-ghc9.4.6.so \
-libHShttp-client-0.7.14-DEHi4b5z3Pa56fFNKIs9J1-ghc9.4.6.so \
-libHShttp-client-tls-0.3.6.1-FlsMdDWaVoFLIhxPfXPqPa-ghc9.4.6.so \
+libHShttp-client-0.7.14-ElkaPC2YNimBwgzZzglgPe-ghc9.4.6.so \
+libHShttp-client-tls-0.3.6.1-AsHsMYKW0OIKZ6XVfzITj1-ghc9.4.6.so \
 libHShttp-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p-ghc9.4.6.so \
 libHSindexed-traversable-0.1.2.1-4MWkBnFErvq3PVvZRvlACO-ghc9.4.6.so \
 libHSindexed-traversable-instances-0.1.1.2-4xmEkkFhOqh6ApH5IPswPQ-ghc9.4.6.so \

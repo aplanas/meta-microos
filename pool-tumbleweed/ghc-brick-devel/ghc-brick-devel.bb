@@ -4,11 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6"
 
-RPM_NAME = "ghc-brick-devel-1.6-2.11.aarch64.rpm"
-RPM_HASH = "2effa63a5f5d60c6e7fd30d5426df8156a4fffee36971b47aff1a45a01526cb50dd9b90c8a8401479c5fdb7e45300b670cd7874f76611ea5f3b04acfb740653f"
+RPM_NAME = "ghc-brick-devel-1.6-2.12.aarch64.rpm"
+RPM_HASH = "d774f59a42fb15c2117f00fdce7c1b19b4078f7376d231e3145ec40f00274c91cb99692b3fdda48fdfda329eb6869b92a7248b4db9f4a5d96b55627bbf15de88"
 
 RPROVIDES:${PN} += "ghc-brick-devel \
-ghc-devel-brick-1.6-LUopW3LKPMoL1gzW5hOxbK"
+ghc-devel-brick-1.6-F5erOer4ZSWDwKz5KL60D9"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-brick \
@@ -34,7 +34,7 @@ ghc-devel-text-2.0.2 \
 ghc-devel-text-zipper-0.12-H7IYZaS5uJc9wNiAP20WIH \
 ghc-devel-unix-2.7.3 \
 ghc-devel-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
-ghc-devel-vty-5.38-4i0JVKKiWtkG17OOXaPYIk \
+ghc-devel-vty-5.38-LhnNmnv8DxxD0eeAip9uJs \
 ghc-devel-word-wrap-0.5-6mKx5HwYguB2E3kl2rrPmY"
 
 inherit rpm

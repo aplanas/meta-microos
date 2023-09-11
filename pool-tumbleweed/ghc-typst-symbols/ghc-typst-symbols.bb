@@ -3,13 +3,13 @@ DESCRIPTION = "This package defines symbol and emoji codes for the typst languag
 (<https://typst.app>)."
 LICENSE = "MIT"
 
-PV = "0.1.2"
+PV = "0.1.4"
 
-RPM_NAME = "ghc-typst-symbols-0.1.2-1.3.aarch64.rpm"
-RPM_HASH = "ed54bdc073b388cb1d657d133895be26919194fdaf984dea842f634c401a516fdef04736c2c52d9f95036825f803b7bae096010314819fc0218e555469b1a3ba"
+RPM_NAME = "ghc-typst-symbols-0.1.4-1.1.aarch64.rpm"
+RPM_HASH = "2de074feda16d999bda2272ae15763dfde716bc922726a9f3db8dd8bef7fa4e2912f157c8bdff231a4e35bb404ca49a9621106b04da46205ab67bdf38b611dca"
 
 RPROVIDES:${PN} += "ghc-typst-symbols \
-libHStypst-symbols-0.1.2-3u6ALqSoiYt5j197EL0vRB-ghc9.4.6.so"
+libHStypst-symbols-0.1.4-JaoP2leChnCACsgYhrK1kO-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
 libHSbase-4.17.2.0-ghc9.4.6.so \

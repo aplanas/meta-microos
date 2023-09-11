@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.3"
 
-RPM_NAME = "python39-pandas-plot-2.0.3-1.2.noarch.rpm"
-RPM_HASH = "045817213951171008e91a4bcf3220c2e9c0958214b55939c3d63896aed6cc7998184ae0bcb880fb33f0e4accd6cffca8aadc345cad13ab8484a27fea600024d"
+RPM_NAME = "python39-pandas-plot-2.0.3-1.3.noarch.rpm"
+RPM_HASH = "672a2ff636be40b43de203b6e0ce129686a45ad7dda078b3139ad4041bc0f2ac0204d5e97234bbe19f536454181344d492e60b11f61b6c1e4ace350f265283ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pandas-plot"

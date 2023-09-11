@@ -4,11 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6"
 
-RPM_NAME = "ghc-brick-prof-1.6-2.11.aarch64.rpm"
-RPM_HASH = "bf25a600772a7723bdd758f20ea5719f890c98e20cdfb6819411576696647d210de422a34fff8ae4689ff3fa124b0b3a425099362de6d2e4bfde91ea0c5c60c6"
+RPM_NAME = "ghc-brick-prof-1.6-2.12.aarch64.rpm"
+RPM_HASH = "d9b1c13e94f28dc6401b9585c01023f13fbd2ec93a4283196f89504a93ff9108492eeda3e31379706587de2c4497347db62ecdacabfdb54d7bfb4692cd599eda"
 
 RPROVIDES:${PN} += "ghc-brick-prof \
-ghc-prof-brick-1.6-LUopW3LKPMoL1gzW5hOxbK"
+ghc-prof-brick-1.6-F5erOer4ZSWDwKz5KL60D9"
 
 RDEPENDS:${PN} += "ghc-brick-devel \
 ghc-prof-base-4.17.2.0 \
@@ -32,7 +32,7 @@ ghc-prof-text-2.0.2 \
 ghc-prof-text-zipper-0.12-H7IYZaS5uJc9wNiAP20WIH \
 ghc-prof-unix-2.7.3 \
 ghc-prof-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
-ghc-prof-vty-5.38-4i0JVKKiWtkG17OOXaPYIk \
+ghc-prof-vty-5.38-LhnNmnv8DxxD0eeAip9uJs \
 ghc-prof-word-wrap-0.5-6mKx5HwYguB2E3kl2rrPmY"
 
 inherit rpm

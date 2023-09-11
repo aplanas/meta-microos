@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the open-source NVIDIA kernel module driver
 for GeForce RTX 2000 series and newer GPUs."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "535.86.05_k6.4.12_1"
+PV = "535.104.05_k6.4.12_1"
 
-RPM_NAME = "nvidia-open-driver-G06-signed-kmp-64kb-535.86.05_k6.4.12_1-3.5.aarch64.rpm"
-RPM_HASH = "29daaecd92fd99e61e275c79b60e37810ddd5edebc690952c6826e2d2e5a088488b88cb75346a891d7cd00e282601ef7a59669169c8baf42d8e36eab42e6a546"
+RPM_NAME = "nvidia-open-driver-G06-signed-kmp-64kb-535.104.05_k6.4.12_1-1.1.aarch64.rpm"
+RPM_HASH = "20c949d43f4bdccb246d90a011b1fda59afa91a7d817741bb157bef00f54ca8b05bf54b240c1c27fb84910887a67d49ba58cd372ee05ca9e436e85ae8d02fb43"
 
 RPROVIDES:${PN} += "config-nvidia-open-driver-G06-signed-kmp-64kb \
 kmod-nvidia-drm.ko \

@@ -4,10 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.46"
 
-RPM_NAME = "ghc-xmobar-prof-0.46-2.11.aarch64.rpm"
-RPM_HASH = "32f85c1311e2c4dd00920bc8c2526e0325edc6811bb1f6b2ac9d5bceb8a805e3dec80229a1593789e9c74ec98b59fa48b121aef50f1c8cb9d2c7b5e9d721954c"
+RPM_NAME = "ghc-xmobar-prof-0.46-2.12.aarch64.rpm"
+RPM_HASH = "bade45d521b30382543ee7a492f0a5a9bdbb315f5ccc1190fd81643c093bfbddcb3622580bd096e45c8298b820f9afca912ab52f39d7ddad946bcb64443cc94b"
 
-RPROVIDES:${PN} += "ghc-prof-xmobar-0.46-4qcZh4L72C9IX6e6EucVCt \
+RPROVIDES:${PN} += "ghc-prof-xmobar-0.46-8q5NgM64WTq64Lf9eNGvQl \
 ghc-xmobar-prof"
 
 RDEPENDS:${PN} += "ghc-prof-X11-1.10.3-1a2wZgfFAzXBkfyYtNRHp4 \
@@ -22,13 +22,13 @@ ghc-prof-cairo-0.13.10.0-B3UP0Vi5jIV99bUcWUsXgu \
 ghc-prof-cereal-0.5.8.3-BmWUcZuhGTnIupxReuIO3I \
 ghc-prof-colour-2.3.6-GBcey48GJNAK3398XtiZDq \
 ghc-prof-containers-0.6.7 \
-ghc-prof-dbus-1.2.29-AAIySIFW0zz7mxLdRwt0V6 \
+ghc-prof-dbus-1.2.29-4DkBnpH77ZuFg2GqtR0zJs \
 ghc-prof-directory-1.3.7.1 \
 ghc-prof-extensible-exceptions-0.1.1.4-1hcTiYLx0LbAr3mhUvVP0e \
 ghc-prof-filepath-1.4.2.2 \
 ghc-prof-hinotify-0.4.1-JFQ6DOM0mgyCikOfj8YmfP \
-ghc-prof-http-client-tls-0.3.6.1-FlsMdDWaVoFLIhxPfXPqPa \
-ghc-prof-http-conduit-2.3.8.2-JL53aegdUXo82DAJNh0Sqj \
+ghc-prof-http-client-tls-0.3.6.1-AsHsMYKW0OIKZ6XVfzITj1 \
+ghc-prof-http-conduit-2.3.8.2-Aom8RblFK6RqEIyPgp71L \
 ghc-prof-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
 ghc-prof-libmpd-0.10.0.0-9S81DJckoXS7PbMAbxHjm1 \
 ghc-prof-mtl-2.2.2 \

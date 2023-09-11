@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstapp-1_0-0-1.22.5-2.1.aarch64.rpm"
-RPM_HASH = "090be4ce9e47e5198f789114ab4e096995a562f4348dbe44190938fdce25b86b2c27f7d3dddce3116b806663b0e9546ef3d2678b8f3fd73a977cf962e3b41579"
+RPM_NAME = "libgstapp-1_0-0-1.22.5-3.1.aarch64.rpm"
+RPM_HASH = "6468c5937dda8be534469054b96daae51ec4f187502556bd4d1d0ade584229482f785f1ba6a80f72e09f9800d676945c625459a370c71e137f7afd062cbc073b"
 
 RPROVIDES:${PN} += "libgstapp-1-0-0 \
 libgstapp-1.0.so.0"

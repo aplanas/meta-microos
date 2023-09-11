@@ -5,10 +5,10 @@ generic image datasets, from 1d scalar signals to 3d+t sequences of \
 multi-spectral volumetric images."
 LICENSE = "CECILL-2.1"
 
-PV = "3.2.6"
+PV = "3.3.0"
 
-RPM_NAME = "gmic-3.2.6-1.1.aarch64.rpm"
-RPM_HASH = "3293e68eb9129fc940bb2ad8c9b2db7978608285ef86f978ab6f3c34690a8ef0aea26e0423409861213999bda9a38a74e0b8ca3db2b6b3ccb20242367acd7b82"
+RPM_NAME = "gmic-3.3.0-1.1.aarch64.rpm"
+RPM_HASH = "e0a9a2891bae8c271159ad24f8de0d767cd63b8d5e2db4a2867d7c22efd4a9ef5bd3c3b113e907725b406dc8380c00309308ef0268b0e7e939fd01930ae84f92"
 
 RPROVIDES:${PN} += "gmic"
 

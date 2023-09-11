@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0"
 
-RPM_NAME = "ghc-dlist-devel-1.0-3.3.aarch64.rpm"
-RPM_HASH = "70e2fb8814fc34c010a0df386cd34d8467017fb37ecd6b3af34ecd41f20d3ecbe53d3c6867fd997fea0f2ee65aa74caa9f1571ab6d97bfb95bfae3a0291f5ba2"
+RPM_NAME = "ghc-dlist-devel-1.0-4.1.aarch64.rpm"
+RPM_HASH = "fa26ae84b291c0fb340f737b1fb2c9581aa3ee2c9c4e6f9391e0abe0089469e07fc1a0f3b47e8bcdf2a522333ebd66919f825ce8c9c435fa269f0c87008ecdd4"
 
 RPROVIDES:${PN} += "ghc-devel-dlist-1.0-9arrzQ6gBJAKO2k1FjXdTZ \
 ghc-dlist-devel"

@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.3"
 
-RPM_NAME = "python310-pandas-excel-2.0.3-1.2.noarch.rpm"
-RPM_HASH = "cc84bf899797cd7665cb33b31cefdb6bf375fe635830041c065b4ae68ee22c15e17b058ea8633eb1cb4d935da4d4ecb17677e6d9f0064d7e48103dda191ed8d8"
+RPM_NAME = "python310-pandas-excel-2.0.3-1.3.noarch.rpm"
+RPM_HASH = "85fe0905d509414c07cf0c14abfdad2ada7c3e2a6aca4492cd67f4b102d88d227a1fd51b6cdc5d3d22ebf27c4e474f3d8ddff3c8b3708d2574006cd241067bf7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python310-pandas-excel"

@@ -10,10 +10,10 @@ number of network I/O and serial ports. gensios that stack on \
 other gensios are called filters."
 LICENSE = "Apache-2.0 & GPL-2.0-only & LGPL-2.1-only"
 
-PV = "2.6.1"
+PV = "2.7.5"
 
-RPM_NAME = "gensio-2.6.1-1.6.aarch64.rpm"
-RPM_HASH = "0b8702e4bcb325bba305081f4ca687821b04d1eae8d1633e96f0b5f9cdd1e4d20213297f9d4cccd2f7811127f3fe2a07fe1465841e4d2210c6395f15e1005411"
+RPM_NAME = "gensio-2.7.5-1.1.aarch64.rpm"
+RPM_HASH = "070da7027520271560d4412fc7a09fe5f95d5cd59a39439fe184128cbfdd10dfc49a6dfb2c0cf4950d9c3d7703aa3c31fa65b0107ba8f8d44b66fe7b9ecef8d0"
 
 RPROVIDES:${PN} += "gensio"
 
@@ -22,8 +22,8 @@ RDEPENDS:${PN} += "/usr/bin/python3 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
-libgensio.so.4 \
-libgensiomdns.so.0 \
-libgensioosh.so.0"
+libgensio.so.6 \
+libgensiomdns.so.6 \
+libgensioosh.so.6"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Pytest plugin for generating HTML reports"
 DESCRIPTION = "A plugin for pytest that generates a HTML report for test results."
 LICENSE = "MPL-2.0"
 
-PV = "4.0.0rc5"
+PV = "4.0.0"
 
-RPM_NAME = "python311-pytest-html-4.0.0rc5-1.1.noarch.rpm"
-RPM_HASH = "6b794460e2bee8a914d2ea0ec362a174b7cfcf566d0e910daa594b2b31265183eca834a708836e00be86131467c6f22bed3982580e5f3058c30defe5f0dd0896"
+RPM_NAME = "python311-pytest-html-4.0.0-1.1.noarch.rpm"
+RPM_HASH = "ee5eca2f5303cc85552ec790689957cd41b992030a6e8a9c6482a77eeef5b67cc33bcdbf32de8e5c8160d27e11448feab0cafda1e35b1e512fc867324612c1aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pytest-html \

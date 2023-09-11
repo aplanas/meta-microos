@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2.10.4"
 
-RPM_NAME = "libxml2-doc-2.10.4-2.1.noarch.rpm"
-RPM_HASH = "44d9cc934f3318901206dbb48f397158667d65e83ac01d3d0a998b73e4beb580fbd3879919a658c6b2597a5d4bbd59dc3f9aa71cc4850f61c9b3c940110956a6"
+RPM_NAME = "libxml2-doc-2.10.4-3.1.noarch.rpm"
+RPM_HASH = "6f7bc3723f9a9f1b4a8e8387c13d20ed2d4f3a4ee30f112bb59e9d6e6ad12e6be7e4f235d3857c16f5583bd014e359310878c1daf4f24831f4f1ad5302fe94aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libxml2-doc"

@@ -4,10 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.19.1"
 
-RPM_NAME = "ghc-servant-devel-0.19.1-3.4.aarch64.rpm"
-RPM_HASH = "19ea8f4a408dd72f952f0d510c05c789ff7cec7c41e44ff275ebd4e7a1570575be607b969e5dea709b8fb658228c1b52b503e5ddfdca645a227978015f68c3c5"
+RPM_NAME = "ghc-servant-devel-0.19.1-3.5.aarch64.rpm"
+RPM_HASH = "d8b352e8b749a17ed59a89106f25c7ab4126b3d7aa24d5b0985b8eb684bd2150abdea8de2b4db3980b93f4082fbc53b8e86a700b1e5aaa89351e0523bc513fed"
 
-RPROVIDES:${PN} += "ghc-devel-servant-0.19.1-3gX0IvlAojJFGwbp2bDTQF \
+RPROVIDES:${PN} += "ghc-devel-servant-0.19.1-3wkqjCY5ZM9IhGFtmRnyia \
 ghc-servant-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -23,7 +23,7 @@ ghc-devel-case-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9 \
 ghc-devel-constraints-0.13.4-7HFJx00f7ri8MCLIfNZmvk \
 ghc-devel-deepseq-1.4.8.0 \
 ghc-devel-http-api-data-0.5-9CvKaE1JZO8KjKgwdog9dy \
-ghc-devel-http-media-0.8.0.0-5rJoZcqaWn0K15WzbWDvFb \
+ghc-devel-http-media-0.8.1.0-COFozQnKf3L2ra0cnOflYd \
 ghc-devel-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
 ghc-devel-mmorph-1.2.0-8vW65Nxa2ivI7uZwSjYXdn \
 ghc-devel-mtl-2.2.2 \

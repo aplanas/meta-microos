@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.16"
 
-RPM_NAME = "lxd-bash-completion-5.16-1.1.noarch.rpm"
-RPM_HASH = "849d1a6ccb889eb21d562ad1b9a8b814c1268fc0447972189b5de30fab8821086f357aff14a83d1c57726fcdce252769d64bcc4d05bf1354b80c25dfdadaece7"
+RPM_NAME = "lxd-bash-completion-5.16-2.1.noarch.rpm"
+RPM_HASH = "bf68a5169bfa8203d911149a84c6e43709ed5745db054b6a1f05f4f6609b21b740439ef266a6a6c68655b62b5597e0449bbc41cbed9206700c9e105d00c4d63b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxd-bash-completion"

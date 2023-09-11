@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.3"
 
-RPM_NAME = "python310-pandas-output_formatting-2.0.3-1.2.noarch.rpm"
-RPM_HASH = "c267dd64c865320039765b615924eb15ba3aba1556284504c46b68d62150ab78f0c6d9989ca49790b676022c926f77fc7b6252f36db0739e81db036cbd22512c"
+RPM_NAME = "python310-pandas-output_formatting-2.0.3-1.3.noarch.rpm"
+RPM_HASH = "c65445520bb9bb95dd3b0bed2d4c21e19faf48c2eb41b82923646ed8a551a65f6e363be0ccd733e4db7a327058d5cd81649b30671d90f8dd5cdf5296237bed1f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python310-pandas-output-formatting"

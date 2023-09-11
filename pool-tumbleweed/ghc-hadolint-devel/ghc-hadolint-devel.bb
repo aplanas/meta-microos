@@ -4,10 +4,10 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.12.0"
 
-RPM_NAME = "ghc-hadolint-devel-2.12.0-1.14.aarch64.rpm"
-RPM_HASH = "5739a559a1ab538c8fc1163cbeb9778549121c39a8f0c38d91a7e1482ebbfe05a297c1a1a002513dee47fa1aee8446200861a4796f66fcade71faf39e4995620"
+RPM_NAME = "ghc-hadolint-devel-2.12.0-1.15.aarch64.rpm"
+RPM_HASH = "94341e8294e6bf8974dd4838be1c12540874569d54cb7e439ee38b37646c708f6afb15fee9b3e660c2781d2a9f86f1c42ba12a8b80993aaefddd974758fd4165"
 
-RPROVIDES:${PN} += "ghc-devel-hadolint-2.12.0-Jp14fQTAAcHDz1DxyNd0kQ \
+RPROVIDES:${PN} += "ghc-devel-hadolint-2.12.0-62A5MRq9SpbFZTKd7vE5be \
 ghc-hadolint-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -42,7 +42,7 @@ ghc-devel-spdx-1.0.0.3-4SEI6zaM8QU9eQO97OlzoR \
 ghc-devel-split-0.2.3.5-J6pekuQs6yKFxqDJQyglHu \
 ghc-devel-text-2.0.2 \
 ghc-devel-time-1.12.2 \
-ghc-devel-timerep-2.1.0.0-7Ytum8O35f0BaW4NCEYMdH \
+ghc-devel-timerep-2.1.0.0-IaSai5sQyvSEzoXHpabvZQ \
 ghc-devel-void-0.7.3-GhXmDKlBHl0LbXoxVMxAU0 \
 ghc-hadolint"
 

@@ -2,10 +2,10 @@ SUMMARY = "Package to read and write statistical data files into pandas"
 DESCRIPTION = "Reads and Writes SAS, SPSS and Stata files into pandas data frames."
 LICENSE = "Apache-2.0"
 
-PV = "1.2.2"
+PV = "1.2.3"
 
-RPM_NAME = "python39-pyreadstat-1.2.2-1.1.aarch64.rpm"
-RPM_HASH = "ddf772ed52e89915c7ea7422ff90397c60aad18606331eedf53ed85541b89fab805f023d1d8f4b0a0f1a89591b5cd455f21679f353546d8c194e1c554e91bf06"
+RPM_NAME = "python39-pyreadstat-1.2.3-1.1.aarch64.rpm"
+RPM_HASH = "6f70d87684cd12d11003871caf75e5d88ca435120aadb3c314b818469e65e22a55d22cadeceb2361388c307dc4b57de8a4fcda0b5a9194d28c9905d718ed0fa6"
 
 RPROVIDES:${PN} += "python3.9dist-pyreadstat \
 python39-pyreadstat \

@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "typelib-1_0-GstVideo-1_0-1.22.5-2.1.aarch64.rpm"
-RPM_HASH = "10271d4350ced524d0bc161580011f7c64220e4c3d52750cd5cf9b7d472db50c203f3be699dcdf2d0410ee96ebb826c73f97b46c0a81305c87d6a9b22ded7494"
+RPM_NAME = "typelib-1_0-GstVideo-1_0-1.22.5-3.1.aarch64.rpm"
+RPM_HASH = "6caa12c4139c51845259108ed75497e6dec8d123120bc43f3f6394f1690c1f8ea3217605af52aa7ec1c1b78fa81faa130ba85e769b0092b7e1edefa00a8fd34c"
 
 RPROVIDES:${PN} += "typelib-1-0-GstVideo-1-0 \
 typelib-GstVideo"

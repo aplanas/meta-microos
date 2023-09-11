@@ -19,11 +19,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6"
 
-RPM_NAME = "ghc-brick-1.6-2.11.aarch64.rpm"
-RPM_HASH = "9be34e52ae7b4f2689a41dfd050f0b74ead1cb3f578eab8fda24fb966656ec27fc72f04591d5240f7cc2fd553f352387607c3e4a11787ccb0a454ede78ed5068"
+RPM_NAME = "ghc-brick-1.6-2.12.aarch64.rpm"
+RPM_HASH = "ada0d446e6d6c806987bd3dc8bfb915b457e019c1b2d309751103721c94c781d1c259f67eb7cec6c59e4cbdf71f96c703c897456c198d63f7b1002b729218fcd"
 
 RPROVIDES:${PN} += "ghc-brick \
-libHSbrick-1.6-LUopW3LKPMoL1gzW5hOxbK-ghc9.4.6.so"
+libHSbrick-1.6-F5erOer4ZSWDwKz5KL60D9-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSStateVar-1.2.2-8Hv9klK7mv0HId52XsoM7J-ghc9.4.6.so \
 libHSansi-terminal-0.11.5-69CZC4XdNryJo9zHbgfvJ3-ghc9.4.6.so \
@@ -32,7 +32,7 @@ libHSarray-0.5.4.0-ghc9.4.6.so \
 libHSbase-4.17.2.0-ghc9.4.6.so \
 libHSbimap-0.5.0-2qQthh2dRFHF2jSbEkPfEn-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
 libHSbytestring-0.11.5.1-ghc9.4.6.so \
 libHScase-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9-ghc9.4.6.so \
 libHScolour-2.3.6-GBcey48GJNAK3398XtiZDq-ghc9.4.6.so \
@@ -73,7 +73,7 @@ libHSunordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn-ghc9.4.6.so \
 libHSutf8-string-1.0.2-26mnfHz4IgtDU2rLQciXDs-ghc9.4.6.so \
 libHSvector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku-ghc9.4.6.so \
 libHSvector-stream-0.1.0.0-8LsAqgetBjY3tBdh3HDYEB-ghc9.4.6.so \
-libHSvty-5.38-4i0JVKKiWtkG17OOXaPYIk-ghc9.4.6.so \
+libHSvty-5.38-LhnNmnv8DxxD0eeAip9uJs-ghc9.4.6.so \
 libHSword-wrap-0.5-6mKx5HwYguB2E3kl2rrPmY-ghc9.4.6.so \
 libc.so.6 \
 libgmp.so.10 \

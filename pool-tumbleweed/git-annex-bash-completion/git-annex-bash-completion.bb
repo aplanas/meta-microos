@@ -2,10 +2,10 @@ SUMMARY = "Bash completion for git-annex"
 DESCRIPTION = "Optional dependency offering bash completion for git-annex"
 LICENSE = "AGPL-3.0-or-later & GPL-3.0-or-later & BSD-2-Clause & MIT & GPL-2.0-only"
 
-PV = "10.20230802"
+PV = "10.20230828"
 
-RPM_NAME = "git-annex-bash-completion-10.20230802-1.1.aarch64.rpm"
-RPM_HASH = "2e4796f7dde9f0d037a3259457d3bc2ca308bd7cd5a126890fa9ee877968883e6e45733a5c194ac2906ac59be78e5ce196dfc7e350b3cfbadd0fcc6af922b088"
+RPM_NAME = "git-annex-bash-completion-10.20230828-1.1.aarch64.rpm"
+RPM_HASH = "d6682a7c89061630cf0e8d6401795f0d949603037efa15033e48acff0953561db015a48652a85b0e7c70642731f0f3571f330d1373cc3223dcb7a6d8cc09539f"
 
 RPROVIDES:${PN} += "git-annex-bash-completion"
 

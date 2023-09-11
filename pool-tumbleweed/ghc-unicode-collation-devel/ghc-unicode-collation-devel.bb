@@ -3,12 +3,12 @@ DESCRIPTION = "This package provides the Haskell unicode-collation library devel
 files."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.1.3.4"
+PV = "0.1.3.5"
 
-RPM_NAME = "ghc-unicode-collation-devel-0.1.3.4-1.9.aarch64.rpm"
-RPM_HASH = "5b799dd7b31ebfcee58d3b6ea9bcd320c35c8efdd86461f86e407fd1e33046e9b03672e7da139c7461f62bebf12c481eae499870f23412134c26788d2099a556"
+RPM_NAME = "ghc-unicode-collation-devel-0.1.3.5-1.1.aarch64.rpm"
+RPM_HASH = "65903639381058a7da79faa745a41920e212ddfbfaac58b7ae4ef4879eb6b417186effffde9a56a33ef0d1a3b924056ba324a9ce1dbbdd6b079a2ecab8286d9c"
 
-RPROVIDES:${PN} += "ghc-devel-unicode-collation-0.1.3.4-DqHFcwJyC4MIpiT6hQTOCQ \
+RPROVIDES:${PN} += "ghc-devel-unicode-collation-0.1.3.5-IFdGKnlU7nK53rXIDeXQnQ \
 ghc-unicode-collation-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

@@ -5,11 +5,11 @@ LICENSE = "MIT"
 
 PV = "2.13.1.1"
 
-RPM_NAME = "ghc-persistent-sqlite-2.13.1.1-2.14.aarch64.rpm"
-RPM_HASH = "678ba0b23eb05af0412a767188d2e62d1755829b1c9be7375dc8c9f740530313f1e1b1cb4c1e859d35535ae51b6f9a034deeaf1cb1bac47596501758dd454a2d"
+RPM_NAME = "ghc-persistent-sqlite-2.13.1.1-2.15.aarch64.rpm"
+RPM_HASH = "2b3d7a5ebaea9135f31a77c361f3c646639bd5df82ed2acfa13490aeb36c49835f6aa444229d7f954ac9b524ef3aed3881ded9cd7b65de4b145ab66554a25b4f"
 
 RPROVIDES:${PN} += "ghc-persistent-sqlite \
-libHSpersistent-sqlite-2.13.1.1-DcSvQbIYTLYJkl0SJ6zlMb-ghc9.4.6.so"
+libHSpersistent-sqlite-2.13.1.1-LFBaiZpqiPx36cLUcGmy9U-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libHSOneTuple-0.4.1.1-5m1ALA0bqJEAQoyOrWBAgI-ghc9.4.6.so \
@@ -31,9 +31,9 @@ libHSbase64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM-ghc9.4.6.so \
 libHSbifunctors-5.5.15-KUw4gCd9iBfLph9IFStYJY-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
 libHSbitvec-1.1.5.0-4n2vDaVO5x4GAoTGOlyPxS-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
-libHSblaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX-ghc9.4.6.so \
-libHSblaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
+libHSblaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii-ghc9.4.6.so \
+libHSblaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP-ghc9.4.6.so \
 libHSbytestring-0.11.5.1-ghc9.4.6.so \
 libHScase-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9-ghc9.4.6.so \
 libHScomonad-5.0.8-56nFbOwllOwBl7FMfSy83E-ghc9.4.6.so \
@@ -76,7 +76,7 @@ libHSnetwork-3.1.4.0-5p1NVWLTlrvDdAAI1mskSs-ghc9.4.6.so \
 libHSold-locale-1.0.0.7-GoDuSK2NybfD0MMe75QkJk-ghc9.4.6.so \
 libHSold-time-1.1.0.3-EO4BkAubfN4CLCS9qF8OKw-ghc9.4.6.so \
 libHSpath-pieces-0.2.1-JEJ6IegDP1FHzqmKWi176n-ghc9.4.6.so \
-libHSpersistent-2.14.5.1-HbESoi5D00uF6Q9t3vbKri-ghc9.4.6.so \
+libHSpersistent-2.14.5.1-Gjrp3WYLCFS91AokYH8j1m-ghc9.4.6.so \
 libHSpretty-1.1.3.6-ghc9.4.6.so \
 libHSprimitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx-ghc9.4.6.so \
 libHSprocess-1.6.17.0-ghc9.4.6.so \

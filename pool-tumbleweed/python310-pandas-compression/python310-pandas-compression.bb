@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.3"
 
-RPM_NAME = "python310-pandas-compression-2.0.3-1.2.noarch.rpm"
-RPM_HASH = "d1ff78de6dcaa68b72f5281bd4ca8ae8966589fccb9ad479f21bc0507d81de42481ad707d9035f942c6a33f53bbf0fbbe6f68ec9c6d11d10ff711e5ce2cfec96"
+RPM_NAME = "python310-pandas-compression-2.0.3-1.3.noarch.rpm"
+RPM_HASH = "ba3d20382e93b08617f978bc55be594a5078d273f96eb817926a0232d54d3b00c5c2f5723fb2f62e896af358de69df4ac9461127cc1e79f91dd9da9942aac16d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python310-pandas-compression"

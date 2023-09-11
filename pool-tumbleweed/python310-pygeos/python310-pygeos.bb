@@ -5,10 +5,10 @@ PyGEOS wraps these operations in NumPy ufuncs providing a performance \
 improvement when operating on arrays of geometries."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.13"
+PV = "0.14"
 
-RPM_NAME = "python310-pygeos-0.13-1.7.aarch64.rpm"
-RPM_HASH = "a73c378c884a4c6c16a3c3fc7036b9514d5b9e36af42370c9c0671f1b64cf03fa8ed36085b241dfef33b803e778c5166df28cd937a0a9af4416e9da08514c7e9"
+RPM_NAME = "python310-pygeos-0.14-1.1.aarch64.rpm"
+RPM_HASH = "ad59fa6ecf2e750722c97d7ac51979c8558504501c6aeef8ec9fb8011c2c0f60c3ea502483b53aee1f29e1da6e05c07a866fd2092e9981d2525ef939e9d5f01b"
 
 RPROVIDES:${PN} += "lib.cpython-310-aarch64-linux-gnu.so \
 python3.10dist-pygeos \

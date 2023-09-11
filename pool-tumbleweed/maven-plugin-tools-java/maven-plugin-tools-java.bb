@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.6.0"
 
-RPM_NAME = "maven-plugin-tools-java-3.6.0-6.1.noarch.rpm"
-RPM_HASH = "8b0799a41d254f77dd7c77a89e921acde8c766521b673b9d6a293aac5a976053cfb8c9d3c4af8329210afe4894798835d5d4c253a90d4532b75823a5527b9139"
+RPM_NAME = "maven-plugin-tools-java-3.6.0-7.1.noarch.rpm"
+RPM_HASH = "a37e3b6f172b7662c6e4fa9de7d61e74f577bd86caa41ed5797552458e83234c1c60397c3a6f5734f4087730ed61849ff349bd9b5795fd149ad6bef013805ab1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-plugin-tools-java \

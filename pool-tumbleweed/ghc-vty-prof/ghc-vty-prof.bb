@@ -4,16 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.38"
 
-RPM_NAME = "ghc-vty-prof-5.38-2.10.aarch64.rpm"
-RPM_HASH = "fa80af745c5818285ec0db8bb3af6aa4f9f22bbf3c112e49690e99bbd30805f153e11b49f968b4286d37ab3fb000246a2046306b764b5813a212717294a64fcd"
+RPM_NAME = "ghc-vty-prof-5.38-2.11.aarch64.rpm"
+RPM_HASH = "974368a9c10f031052ba5d66b900e0bec74470c098a45759ef4517a633f998efe076f8b3d04831d3617d5502a206f8e1c3abb2d2ef5fa364c99dbd7f12dfd25b"
 
-RPROVIDES:${PN} += "ghc-prof-vty-5.38-4i0JVKKiWtkG17OOXaPYIk \
+RPROVIDES:${PN} += "ghc-prof-vty-5.38-LhnNmnv8DxxD0eeAip9uJs \
 ghc-vty-prof"
 
 RDEPENDS:${PN} += "ghc-prof-ansi-terminal-0.11.5-69CZC4XdNryJo9zHbgfvJ3 \
 ghc-prof-base-4.17.2.0 \
 ghc-prof-binary-0.8.9.1 \
-ghc-prof-blaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h \
+ghc-prof-blaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND \
 ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-containers-0.6.7 \
 ghc-prof-deepseq-1.4.8.0 \

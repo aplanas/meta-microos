@@ -84,13 +84,13 @@ common haskell types, a wide array of combinators for working them, and more \
 exotic functionality, (/e.g./ getters, setters, indexed folds, isomorphisms)."
 LICENSE = "BSD-2-Clause"
 
-PV = "5.2.2"
+PV = "5.2.3"
 
-RPM_NAME = "ghc-lens-5.2.2-2.4.aarch64.rpm"
-RPM_HASH = "986c8e8b75523418ecae59691a8a11face18ffa7926966f3d8955a391d2f2a391fbc96ac15956c071a6faccd857601864bf7d210e6aa4606a0b2e950c1988f95"
+RPM_NAME = "ghc-lens-5.2.3-1.1.aarch64.rpm"
+RPM_HASH = "6481b3942b2b0357aadb8a0517b72a8096d866632392bbe1b7b86c7fdacd0375cbf2199f216aa838aee841a9d1fa0179d5bae452889957f296e3a2bc1c51f4f1"
 
 RPROVIDES:${PN} += "ghc-lens \
-libHSlens-5.2.2-9FQiMfULngUCqLz60VkKPe-ghc9.4.6.so"
+libHSlens-5.2.3-77wBUrzlfuWHQNAaqkfvdZ-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-5m1ALA0bqJEAQoyOrWBAgI-ghc9.4.6.so \
 libHSStateVar-1.2.2-8Hv9klK7mv0HId52XsoM7J-ghc9.4.6.so \

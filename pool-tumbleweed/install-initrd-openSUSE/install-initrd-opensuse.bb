@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "17.91"
 
-RPM_NAME = "install-initrd-openSUSE-17.91-1.84.aarch64.rpm"
-RPM_HASH = "5eeca240154df4ed14f1df4efb4e4fa6119cbe76eaca3aeb8474c8065fc4fd52e6eb23c64f05c527bc4c94fb1710657fe3827d5e13322af78956541f34955e86"
+RPM_NAME = "install-initrd-openSUSE-17.91-1.90.aarch64.rpm"
+RPM_HASH = "c2a43bc6f816ce12e82f774fbae8839148e9b2097decd1c4b0c1be09e52b795e6d86b15af1d9a5e4aa760a211b5fc0974d4d1450c03aa60ff5df95ab2550d4cd"
 
 RPROVIDES:${PN} += "install-initrd \
 install-initrd-openSUSE"

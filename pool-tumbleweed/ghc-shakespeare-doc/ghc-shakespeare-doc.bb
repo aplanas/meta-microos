@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.0.30"
 
-RPM_NAME = "ghc-shakespeare-doc-2.0.30-2.10.noarch.rpm"
-RPM_HASH = "9321fe3fc49136f6858e1c735fef81c04f3be4d5bd33deb67e54243b0326a9234fcf42b0c1578f68eac0feb741f9a4a3f480607e65795d88a54410922b8aca75"
+RPM_NAME = "ghc-shakespeare-doc-2.0.30-2.11.noarch.rpm"
+RPM_HASH = "d3fe9898432f33bc7fad030b8c98eea4d4580cc1821bc1485d5f5a1056f6fd29bde6d6a6d341850ebb4255c186feabf3acc079dbe6707c142d5a553d383a95ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-shakespeare-doc"

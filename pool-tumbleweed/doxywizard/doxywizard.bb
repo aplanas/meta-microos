@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "1.9.6"
 
-RPM_NAME = "doxywizard-1.9.6-4.1.aarch64.rpm"
-RPM_HASH = "6963657d274c21c712f1d7ea16d2fc8a34718e6da85a19163047c6251b71eb409491d9059dc5f7127a68ed23b626e2d24fd17068c4f018ed1674871cd58416f7"
+RPM_NAME = "doxywizard-1.9.6-5.1.aarch64.rpm"
+RPM_HASH = "e77208edf295be98b76703754196e93cef7c26c247b48f503b469fdbc2cf77dbdb999af9366c23bc7803d626f867481aa6c54c10bd7b76ff6bbfe17dabb15823"
 
 RPROVIDES:${PN} += "doxywizard"
 

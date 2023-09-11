@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "2.10.4"
 
-RPM_NAME = "libxml2-devel-2.10.4-2.1.aarch64.rpm"
-RPM_HASH = "06be27a84b0d7be88e68749e58ab8a42f626099e4e62b44c785eab9aecc0267460780f84367e6df7818bbef69130d4bfd618ca578c33cb24bb86c4266f4f449d"
+RPM_NAME = "libxml2-devel-2.10.4-3.1.aarch64.rpm"
+RPM_HASH = "a3864e34aaa8f2175ad675c6173706c9e8becb66896546e751aeae197739106e5f7d04c258ef331e0b8bd3eb061e45b9af2ceebc1859b39f19c9d560bebc16fe"
 
 RPROVIDES:${PN} += "libxml2-devel \
 pkgconfig-libxml-2.0"

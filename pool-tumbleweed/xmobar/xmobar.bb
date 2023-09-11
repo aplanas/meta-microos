@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.46"
 
-RPM_NAME = "xmobar-0.46-2.11.aarch64.rpm"
-RPM_HASH = "f07b9ae92526bfd905fb150a782a32bf3ab7bc0b4d3dfdc823f90671560efdf6acc3acf73eb8255c49dd33c3ff56f45100913acdfb6acafaf22132aa6e7409ec"
+RPM_NAME = "xmobar-0.46-2.12.aarch64.rpm"
+RPM_HASH = "9091953e1bec7b747808bd999202ff3195bc876db7c18ef74cbd1ba56aabb81d9a4cb05f37b3be8bfcee6d449a456812cc53d09ae68791d9b3bd4e0d5cd81ec5"
 
 RPROVIDES:${PN} += "xmobar"
 

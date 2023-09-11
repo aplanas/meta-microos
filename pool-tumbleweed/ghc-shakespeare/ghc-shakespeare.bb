@@ -18,11 +18,11 @@ LICENSE = "MIT"
 
 PV = "2.0.30"
 
-RPM_NAME = "ghc-shakespeare-2.0.30-2.10.aarch64.rpm"
-RPM_HASH = "6bf6fad45202c5dac4af0bc8f1efb125c0da2bd1f49638ffe956bd6b14970cdd4f40b98180d8e3444d5ac4ca7e8c3d265a1fdbb01d75c8cf0213fa11a373a83e"
+RPM_NAME = "ghc-shakespeare-2.0.30-2.11.aarch64.rpm"
+RPM_HASH = "f51678a2ffd4ea95c38bd3058b61e6a8c232cc18ea6a53fb056ff4f83f7611c9ec1623f2ee2880db728b53ff3facfb11a099e9649d426c9fc22cd79696397442"
 
 RPROVIDES:${PN} += "ghc-shakespeare \
-libHSshakespeare-2.0.30-GrImIeltjQZ7T3c163uEiZ-ghc9.4.6.so"
+libHSshakespeare-2.0.30-5XHeuGt8JLJENvL2Ahdhem-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-5m1ALA0bqJEAQoyOrWBAgI-ghc9.4.6.so \
 libHSQuickCheck-2.14.3-EdzpnPTYr1uH7EoNAOpgI8-ghc9.4.6.so \
@@ -38,9 +38,9 @@ libHSbase-compat-batteries-0.13.0-1Ph1BfbK1cK5KUnlnKWiGW-ghc9.4.6.so \
 libHSbase-orphans-0.8.8.2-Ace67bhQsJ1lQVihVIKZ5-ghc9.4.6.so \
 libHSbifunctors-5.5.15-KUw4gCd9iBfLph9IFStYJY-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
-libHSblaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX-ghc9.4.6.so \
-libHSblaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
+libHSblaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii-ghc9.4.6.so \
+libHSblaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP-ghc9.4.6.so \
 libHSbytestring-0.11.5.1-ghc9.4.6.so \
 libHScomonad-5.0.8-56nFbOwllOwBl7FMfSy83E-ghc9.4.6.so \
 libHScontainers-0.6.7-ghc9.4.6.so \

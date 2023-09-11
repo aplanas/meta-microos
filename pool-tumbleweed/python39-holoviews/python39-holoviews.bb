@@ -11,10 +11,10 @@ rendered automatically by one of the supported plotting libraries \
 (such as Bokeh or Matplotlib)."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.16.1"
+PV = "1.17.1"
 
-RPM_NAME = "python39-holoviews-1.16.1-1.1.noarch.rpm"
-RPM_HASH = "3f851a0569c17223898baf131e1eafd449756cd659764c9e7a29c568aa9a897e532703d4924e8684b6da859eaed216454e0125aa99d9dabd8e2a35d6bccf5d44"
+RPM_NAME = "python39-holoviews-1.17.1-1.1.noarch.rpm"
+RPM_HASH = "c6f5c02b5b58a803d1e39bb6392270d1063ad21bd8713baea92fa2344fd01fcbbc9ad785adcc0bbceb48a398cf2398427b46177de72c93e67690224a65e73684"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-holoviews \

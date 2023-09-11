@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstaudio-1_0-0-1.22.5-2.1.aarch64.rpm"
-RPM_HASH = "8e7c8f61612d263a4fbaa7cf03bcbfe0e5770b077b9d2c3b2443b15eb592ea3cd4fc5093164196b00e0d02c598bde72490542e948bc3d0e33bf6471120a956f8"
+RPM_NAME = "libgstaudio-1_0-0-1.22.5-3.1.aarch64.rpm"
+RPM_HASH = "00cd7551f4e25c9c9bd2179b995809b268146f64c42551956ef13b7bb9da2c338c8316de871556babd34fff8e333171462cd55381591cc61fe02615d8760f8b9"
 
 RPROVIDES:${PN} += "libgstaudio-1-0-0 \
 libgstaudio-1.0.so.0"

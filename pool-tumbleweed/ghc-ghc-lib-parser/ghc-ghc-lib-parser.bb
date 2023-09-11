@@ -3,13 +3,13 @@ DESCRIPTION = "A package equivalent to the 'ghc' package, but which can be loade
 compiler versions."
 LICENSE = "BSD-3-Clause"
 
-PV = "9.4.6.20230808"
+PV = "9.4.7.20230826"
 
-RPM_NAME = "ghc-ghc-lib-parser-9.4.6.20230808-1.2.aarch64.rpm"
-RPM_HASH = "936516c05bfe3459d9e38eb8b523eb21919a63d0cb8661119a45c70c7b9a9e7de18e4edc517ce6648a51a35d0fec850a0ae40160397206ca742ba8a260015b4b"
+RPM_NAME = "ghc-ghc-lib-parser-9.4.7.20230826-1.1.aarch64.rpm"
+RPM_HASH = "a74cf74b0d5a36fef7c9d76d629b34735c891f1915691d0196056782f658b3e21ee2a60bc246e88690b1bae564dc45486850787282fbc33ef0f729f6c5e2e945"
 
 RPROVIDES:${PN} += "ghc-ghc-lib-parser \
-libHSghc-lib-parser-9.4.6.20230808-BTkqGaXXohb8duAYJJlTmh-ghc9.4.6.so"
+libHSghc-lib-parser-9.4.7.20230826-9jTyF2CzAjoBitf2gKlSVU-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
 libHSbase-4.17.2.0-ghc9.4.6.so \

@@ -2,10 +2,10 @@ SUMMARY = "Shared data files for the various gmic frontends"
 DESCRIPTION = "This package contains shared data files for the various gmic frontends."
 LICENSE = "CECILL-2.1"
 
-PV = "3.2.6"
+PV = "3.3.0"
 
-RPM_NAME = "gmic-data-3.2.6-1.1.noarch.rpm"
-RPM_HASH = "db85261f643a1043f1c11a5c27c1e979129f097c2acc9ea52a536aaa92bbabb76a92f6e452925fe1a5b2281e8067566b98f6ccb735d41eb45dffcd5e8701d865"
+RPM_NAME = "gmic-data-3.3.0-1.1.noarch.rpm"
+RPM_HASH = "dcd655afc5b1028df8bc3b704035c54da55c48cd5a84eb9c5a2eefe9d94778450fd1530b0d5b05f3f81ffa3313da9c2d00800c3e3eebd30dc214d39ca5c3ca39"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gmic-data"

@@ -4,11 +4,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.28"
 
-RPM_NAME = "ghc-hledger-lib-prof-1.28-3.7.aarch64.rpm"
-RPM_HASH = "49eeb5307c42ab1a0926b2a0b60559855a0a5008a0aaf66b1ac6b1ce9df54e9834bae7150a8e92aae85f52b997e375af52441de9c04b8cb80c8b9052a8736fab"
+RPM_NAME = "ghc-hledger-lib-prof-1.28-3.8.aarch64.rpm"
+RPM_HASH = "9a36828969d12d3c8cd9eca43e9c942917a101edc865d1f492d849ce84d84f355eb8bf19daf7c65903eee6e18770970833534cad70e25782ac960166b24d4d67"
 
 RPROVIDES:${PN} += "ghc-hledger-lib-prof \
-ghc-prof-hledger-lib-1.28-54R6ZNBJP1qEEuMb4tYul2"
+ghc-prof-hledger-lib-1.28-Bb3X1scVuGZKsjeiDSJIAh"
 
 RDEPENDS:${PN} += "ghc-hledger-lib-devel \
 ghc-prof-Decimal-0.5.2-7hu5LwisxJT2rqtwM7eQhT \
@@ -18,7 +18,7 @@ ghc-prof-aeson-pretty-0.8.10-BAp1RojEa5O2Gd1gxmbgJk \
 ghc-prof-ansi-terminal-0.11.5-69CZC4XdNryJo9zHbgfvJ3 \
 ghc-prof-array-0.5.4.0 \
 ghc-prof-base-4.17.2.0 \
-ghc-prof-blaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9 \
+ghc-prof-blaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP \
 ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-call-stack-0.4.0-nQZfFxinEdIa1BWxMyadt \
 ghc-prof-cassava-0.5.3.0-3BxMB2hl3TbBsSJkTsXVLP \

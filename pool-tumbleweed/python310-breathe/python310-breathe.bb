@@ -3,10 +3,10 @@ DESCRIPTION = "Breathe is an extension to reStructuredText and Sphinx to be \
 able to read and  render Doxygen xml output."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.34.0"
+PV = "4.35.0"
 
-RPM_NAME = "python310-breathe-4.34.0-6.1.noarch.rpm"
-RPM_HASH = "e94029288e3d2acdc020377a91f215b6b81458adb35aea6f0c48434f1b780af7977b4902d672f15ba006b44ab226a53e1a9f5dbc4edd173eaee0f45ad86340a1"
+RPM_NAME = "python310-breathe-4.35.0-1.1.noarch.rpm"
+RPM_HASH = "913fcea3e287c03c625ed732b4d4943141c7ae5d714e380d21993e195c8ab85db778d785d95e7eeec0ba810860ca8452d6dc7e2fa3cdb4cad81e14e3cb1197ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-breathe \

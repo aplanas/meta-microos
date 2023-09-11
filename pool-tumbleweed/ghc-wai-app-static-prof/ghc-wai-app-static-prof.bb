@@ -4,15 +4,15 @@ LICENSE = "MIT"
 
 PV = "3.1.7.4"
 
-RPM_NAME = "ghc-wai-app-static-prof-3.1.7.4-2.12.aarch64.rpm"
-RPM_HASH = "1232dd9a5c0a4936bdce66e5c2f9bb41bac5a466c1533295e4baee17c1f8d1207ed6b53a11cdedb71eff192590dc8d51639cb9ea83a241e2e94af5cae424f444"
+RPM_NAME = "ghc-wai-app-static-prof-3.1.7.4-2.13.aarch64.rpm"
+RPM_HASH = "73f28ce9c603fc2f9e840afb92d34855945e11120e39bdd7dc441184907c1dcf07ad186190649139050bae833bfcf316562672191340d313ed4e3c1ed6eb781f"
 
-RPROVIDES:${PN} += "ghc-prof-wai-app-static-3.1.7.4-4gPGtaPPrElL5voDUXdKV2 \
+RPROVIDES:${PN} += "ghc-prof-wai-app-static-3.1.7.4-GYm23xVACFBKSbu1JkCZl2 \
 ghc-wai-app-static-prof"
 
 RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-blaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX \
-ghc-prof-blaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9 \
+ghc-prof-blaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii \
+ghc-prof-blaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP \
 ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-containers-0.6.7 \
 ghc-prof-cryptonite-0.30-LSC76M64GQaFgLGwFfgIgW \

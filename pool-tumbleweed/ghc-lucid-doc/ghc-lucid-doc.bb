@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.11.20230408"
 
-RPM_NAME = "ghc-lucid-doc-2.11.20230408-1.5.noarch.rpm"
-RPM_HASH = "8c8b92a42b4c2102f81eab65766bfb1326c69fd65927eccff05ccd3f3f08d2b2842cde1be9e36578381aaeff81db7f3912c04319c4637f2fb56e02517d14eab8"
+RPM_NAME = "ghc-lucid-doc-2.11.20230408-1.6.noarch.rpm"
+RPM_HASH = "b2eae9cd250a8f2da2ebb0bb72cded3bc08994673ecfe7bad27dbdb92112df488ee5e192de8892e74c962d0a55481b6a1ff9233e8435ef55bf87cb66e43790a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-lucid-doc"

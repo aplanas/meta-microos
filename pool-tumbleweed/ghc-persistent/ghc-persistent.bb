@@ -5,11 +5,11 @@ LICENSE = "MIT"
 
 PV = "2.14.5.1"
 
-RPM_NAME = "ghc-persistent-2.14.5.1-1.8.aarch64.rpm"
-RPM_HASH = "ad0380715e7e065efee5ae1ae66ab57d28bc128c0851e19e3aa3e20af1a6a8bfb88f9f13f88090b8402090f1a0b29e668a18b07ffb4e54a77bb16307a44203d6"
+RPM_NAME = "ghc-persistent-2.14.5.1-1.9.aarch64.rpm"
+RPM_HASH = "b6c5201447252b4f9be3964e36d03fa09a427cc712e5022ca4337df47132bfdd1d6b159a6a6bb396274474ce8a57ee204aad57693af1dfb8d76587d6b37737c9"
 
 RPROVIDES:${PN} += "ghc-persistent \
-libHSpersistent-2.14.5.1-HbESoi5D00uF6Q9t3vbKri-ghc9.4.6.so"
+libHSpersistent-2.14.5.1-Gjrp3WYLCFS91AokYH8j1m-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-5m1ALA0bqJEAQoyOrWBAgI-ghc9.4.6.so \
 libHSQuickCheck-2.14.3-EdzpnPTYr1uH7EoNAOpgI8-ghc9.4.6.so \
@@ -30,9 +30,9 @@ libHSbase64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM-ghc9.4.6.so \
 libHSbifunctors-5.5.15-KUw4gCd9iBfLph9IFStYJY-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
 libHSbitvec-1.1.5.0-4n2vDaVO5x4GAoTGOlyPxS-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
-libHSblaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX-ghc9.4.6.so \
-libHSblaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
+libHSblaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii-ghc9.4.6.so \
+libHSblaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP-ghc9.4.6.so \
 libHSbytestring-0.11.5.1-ghc9.4.6.so \
 libHScase-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9-ghc9.4.6.so \
 libHScomonad-5.0.8-56nFbOwllOwBl7FMfSy83E-ghc9.4.6.so \

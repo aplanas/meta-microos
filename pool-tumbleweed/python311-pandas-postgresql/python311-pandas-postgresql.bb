@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.3"
 
-RPM_NAME = "python311-pandas-postgresql-2.0.3-1.2.noarch.rpm"
-RPM_HASH = "fc313579596b6790ac9eeb2d5e8c47c6e7af1cbbea2fa1f5335ca17d723cd2f9d138447b70674e55b5835c6eadd913938861992a07f741deb72b3088c8d05221"
+RPM_NAME = "python311-pandas-postgresql-2.0.3-1.3.noarch.rpm"
+RPM_HASH = "ac66019efcd130efddb7c01227ece3fdacc14bf71c893d6d2bd8472dcec077b868a8ccea7bc2ed5bbf874e94b8d5a679ce221ae5603e2d0a71d4a7e7c4f432ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pandas-postgresql \

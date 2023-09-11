@@ -4,10 +4,10 @@ LICENSE = "MIT"
 
 PV = "1.6.24.4"
 
-RPM_NAME = "ghc-yesod-core-devel-1.6.24.4-1.6.aarch64.rpm"
-RPM_HASH = "32b423f3ae784405d32bdcb05cab863f97bba4460e4cf4546f87238e0452ba4955d57fb8cbc84db4132bd8862ce598f87c635c9aa192666f62c8b7f9abdf0d0d"
+RPM_NAME = "ghc-yesod-core-devel-1.6.24.4-1.7.aarch64.rpm"
+RPM_HASH = "1b49c22c31ac0678ca66a9c71d3cc573d8e67b214a87e0667d379a87af1569f3fb555179e18c42f314aded8eb24de633e1625989b9537b6398752c08e8aa4156"
 
-RPROVIDES:${PN} += "ghc-devel-yesod-core-1.6.24.4-cvcp8TZ1QYG0IH58f6f1F \
+RPROVIDES:${PN} += "ghc-devel-yesod-core-1.6.24.4-1di0EYNbRAz9TOkBiAT5Ab \
 ghc-yesod-core-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -15,8 +15,8 @@ ghc-compiler \
 ghc-devel-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
 ghc-devel-auto-update-0.1.6-KWXusmyBOlPJNN5shLt5Bc \
 ghc-devel-base-4.17.2.0 \
-ghc-devel-blaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX \
-ghc-devel-blaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9 \
+ghc-devel-blaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii \
+ghc-devel-blaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP \
 ghc-devel-bytestring-0.11.5.1 \
 ghc-devel-case-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9 \
 ghc-devel-cereal-0.5.8.3-BmWUcZuhGTnIupxReuIO3I \
@@ -37,7 +37,7 @@ ghc-devel-path-pieces-0.2.1-JEJ6IegDP1FHzqmKWi176n \
 ghc-devel-primitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx \
 ghc-devel-random-1.2.1.1-DaR3VtSJjyj4XXOpfKJ29k \
 ghc-devel-resourcet-1.2.6-AOipJdCu0ULL3KFWw8x9fP \
-ghc-devel-shakespeare-2.0.30-GrImIeltjQZ7T3c163uEiZ \
+ghc-devel-shakespeare-2.0.30-5XHeuGt8JLJENvL2Ahdhem \
 ghc-devel-template-haskell-2.19.0.0 \
 ghc-devel-text-2.0.2 \
 ghc-devel-time-1.12.2 \

@@ -3,13 +3,13 @@ DESCRIPTION = "This package provides the Haskell concurrent-output library devel
 files."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.10.18"
+PV = "1.10.19"
 
-RPM_NAME = "ghc-concurrent-output-devel-1.10.18-1.6.aarch64.rpm"
-RPM_HASH = "de313d511ab259465e6bdc9f428260f901b7e116d76e988a113820f04049e347a176bf7bd3360619f1e5face68d48fe0ca68e3720dc8ebfe1bfbfdfe4cfbcb05"
+RPM_NAME = "ghc-concurrent-output-devel-1.10.19-1.1.aarch64.rpm"
+RPM_HASH = "95ef230bf996aba0eb531ea6163b28ae20f82de451a80befcf4c50e0f593b0022154cdab7af3623659b672de64b0074fead3545cd0d4e146ee6b9692e63f9bae"
 
 RPROVIDES:${PN} += "ghc-concurrent-output-devel \
-ghc-devel-concurrent-output-1.10.18-7mD57bQUyK62aUS02yxnhe"
+ghc-devel-concurrent-output-1.10.19-EkNYg3t67vm7EieVPINblU"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \

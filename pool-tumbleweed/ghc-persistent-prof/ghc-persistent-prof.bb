@@ -4,18 +4,18 @@ LICENSE = "MIT"
 
 PV = "2.14.5.1"
 
-RPM_NAME = "ghc-persistent-prof-2.14.5.1-1.8.aarch64.rpm"
-RPM_HASH = "472572280d4a465e3c3b397fae820c7f4db742dc5f3e4c3ff635cba77abbae963f57efc0f9ccb1f5724415fcbd53f8ed052fd77d4c5af5981c31a83a25430e55"
+RPM_NAME = "ghc-persistent-prof-2.14.5.1-1.9.aarch64.rpm"
+RPM_HASH = "761336e93fbceb38ec297d8579cd5b2b46e3b99b23c9a8e85eb5e66adc7bfe9e55799576e2014319c12330942bb78b4e6b98392d03e7603b8272b6a768227ce2"
 
 RPROVIDES:${PN} += "ghc-persistent-prof \
-ghc-prof-persistent-2.14.5.1-HbESoi5D00uF6Q9t3vbKri"
+ghc-prof-persistent-2.14.5.1-Gjrp3WYLCFS91AokYH8j1m"
 
 RDEPENDS:${PN} += "ghc-persistent-devel \
 ghc-prof-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
 ghc-prof-attoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3 \
 ghc-prof-base-4.17.2.0 \
 ghc-prof-base64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM \
-ghc-prof-blaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX \
+ghc-prof-blaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii \
 ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-conduit-1.3.5-3TRUhNB8WbY2vxuXe2VjBX \
 ghc-prof-containers-0.6.7 \

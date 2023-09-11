@@ -5,10 +5,10 @@ CW, Contestia, DominoEX, Hell, MFSK, MT63, Olivia, Psk, RTTY, Thor, Throb \
 WEFAX, WWV calibration, Frequency Analysis, Tune"
 LICENSE = "GPL-3.0-only"
 
-PV = "4.1.27"
+PV = "4.2.00"
 
-RPM_NAME = "fldigi-4.1.27-1.1.aarch64.rpm"
-RPM_HASH = "6ee3797fed9c1d29a59152e20c96536bab46d4acd467bdfccf681476d773c1447629199a4d7c19f8666e4683e425b47a182f212f902129b2bba027cada5d7eb4"
+RPM_NAME = "fldigi-4.2.00-1.1.aarch64.rpm"
+RPM_HASH = "d2572c865055faccfd3c196f15f985f1d56fc5b28e21f3ba07067d8255aa14fb9d68274888e9cafdc07642f34e0088cc43d99f8e448b95b19ebbbc653bab02e3"
 
 RPROVIDES:${PN} += "fldigi"
 

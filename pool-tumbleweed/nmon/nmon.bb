@@ -22,10 +22,10 @@ important performance information in one go. It can output the data in two ways 
      analysis"
 LICENSE = "GPL-3.0-only"
 
-PV = "16n"
+PV = "16p"
 
-RPM_NAME = "nmon-16n-1.7.aarch64.rpm"
-RPM_HASH = "45dcaba28ea1cfb00aa86576e65cde60ad513fa0bf98c481505c1ca8ccec9280bf6b4b14c8c2b7018a1cb6a95eeae9d60ff6e0b652dea4da81609064b85760c2"
+RPM_NAME = "nmon-16p-1.1.aarch64.rpm"
+RPM_HASH = "068b5cd7767c7ac823937fc9d3dba740642eccbf32beaa19b9abcdaf2fda4e956017b31e7508aac4a0196ba8dd244e562a267c2686a3632d91affba76edf2e40"
 
 RPROVIDES:${PN} += "lmon \
 nmon"

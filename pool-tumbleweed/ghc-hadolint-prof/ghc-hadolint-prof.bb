@@ -4,11 +4,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.12.0"
 
-RPM_NAME = "ghc-hadolint-prof-2.12.0-1.14.aarch64.rpm"
-RPM_HASH = "dd62f47faed0fe7066f81854a2029febeed0b0504c21a222dddfed805bb94739deeb9101129533149fb76025f4d239435a6ea3cdec39a22fd3802570d3498023"
+RPM_NAME = "ghc-hadolint-prof-2.12.0-1.15.aarch64.rpm"
+RPM_HASH = "cbd5c8da2887cb7f75bceb24826c2422a9f6839527edfa567b3fa5382a3def1be6f7dd15a670ff60d1adb17684040b87641c7893748c893fbeed77b8d9654138"
 
 RPROVIDES:${PN} += "ghc-hadolint-prof \
-ghc-prof-hadolint-2.12.0-Jp14fQTAAcHDz1DxyNd0kQ"
+ghc-prof-hadolint-2.12.0-62A5MRq9SpbFZTKd7vE5be"
 
 RDEPENDS:${PN} += "ghc-hadolint-devel \
 ghc-prof-Cabal-3.8.1.0 \
@@ -41,7 +41,7 @@ ghc-prof-spdx-1.0.0.3-4SEI6zaM8QU9eQO97OlzoR \
 ghc-prof-split-0.2.3.5-J6pekuQs6yKFxqDJQyglHu \
 ghc-prof-text-2.0.2 \
 ghc-prof-time-1.12.2 \
-ghc-prof-timerep-2.1.0.0-7Ytum8O35f0BaW4NCEYMdH \
+ghc-prof-timerep-2.1.0.0-IaSai5sQyvSEzoXHpabvZQ \
 ghc-prof-void-0.7.3-GhXmDKlBHl0LbXoxVMxAU0"
 
 inherit rpm

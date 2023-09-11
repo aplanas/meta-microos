@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.2.2"
 
-RPM_NAME = "ghc-regex-tdfa-prof-1.3.2.2-1.3.aarch64.rpm"
-RPM_HASH = "27f8f109eb06a115ef6f6f104a783f0f1a36dda86c4d20b3908c25492949714920c71c30a73b95daf30daa950369b01e07bc035f7f874ad2d31b4a1b477ff4e5"
+RPM_NAME = "ghc-regex-tdfa-prof-1.3.2.2-2.1.aarch64.rpm"
+RPM_HASH = "20d8907b1a90c7e0ba58737d58b328d9a2245d87d97734f95106aa1e40929be587d4f5b61967ce5b6116c72edf9f9f01ddd0b85d6bfc9c4c90512dd4fa1d6aad"
 
 RPROVIDES:${PN} += "ghc-prof-regex-tdfa-1.3.2.2-EFtJwrhEkMb99DdZ6mBzLM \
 ghc-regex-tdfa-prof"

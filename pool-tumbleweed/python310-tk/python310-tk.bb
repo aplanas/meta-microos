@@ -2,10 +2,10 @@ SUMMARY = "TkInter, a Python Tk Interface"
 DESCRIPTION = "Python interface to Tk. Tk is the GUI toolkit that comes with Tcl."
 LICENSE = "Python-2.0"
 
-PV = "3.10.12"
+PV = "3.10.13"
 
-RPM_NAME = "python310-tk-3.10.12-3.1.aarch64.rpm"
-RPM_HASH = "334702f2536763dbd764b08d0a3b9d22d6bd9468e851c1a5c6a5e8091b9ac24dbacba8f3aa3840246a29b02ce8bc340f490dc9cf18a697b18d6a5f971c41fad2"
+RPM_NAME = "python310-tk-3.10.13-1.1.aarch64.rpm"
+RPM_HASH = "0d40915a5dd7738b9e714e558cbf9b2290c49f124d758b956b7d80baa9d4d4c24d41363785d17c2b3f88103af9852562b0a1844a3661e881dbd7306de875ab74"
 
 RPROVIDES:${PN} += "python310-tk"
 

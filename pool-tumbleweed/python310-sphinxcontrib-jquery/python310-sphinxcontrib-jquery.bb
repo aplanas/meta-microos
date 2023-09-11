@@ -4,8 +4,8 @@ LICENSE = "0BSD"
 
 PV = "4.1"
 
-RPM_NAME = "python310-sphinxcontrib-jquery-4.1-1.3.noarch.rpm"
-RPM_HASH = "7357c9882d7322012b7ada8499d62c92ffea0e8dab31a05a19eeed9b4473043f09cebe829c8d66ae061b98163a8a121421e9cd121daa07219d3f5a937e74a8f4"
+RPM_NAME = "python310-sphinxcontrib-jquery-4.1-2.1.noarch.rpm"
+RPM_HASH = "603bea1a4bf6586ef79fb934e843d6cb999632031be7ee40c94dafcd1b7ebdca30f5a4051ac1831a9a58b9a42571f0669ea839b696c24f578a6215fe5f6d01c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-sphinxcontrib-jquery \

@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.38"
 
-RPM_NAME = "ghc-vty-doc-5.38-2.10.noarch.rpm"
-RPM_HASH = "9b17926333f48440802edceda0adc553dc28135301b51a73b49a45b51b08502d4126ace5aaae017014f37d0cef53da98847ebdbe10d7aac77c79953e6d71628d"
+RPM_NAME = "ghc-vty-doc-5.38-2.11.noarch.rpm"
+RPM_HASH = "3dd3d3c459b2943cf50678ef37ac938ed4a9a0dd2710ba18fd68789fd52f177b84f93fe1c527f78382686ac482fc91b185d6757413ac7ec687104bb02d980061"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-vty-doc"

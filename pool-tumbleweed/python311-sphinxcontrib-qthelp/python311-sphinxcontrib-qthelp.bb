@@ -2,10 +2,10 @@ SUMMARY = "Sphinx extension which outputs QtHelp"
 DESCRIPTION = "sphinxcontrib-qthelp is a sphinx extension which outputs QtHelp document."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.0.3"
+PV = "1.0.6"
 
-RPM_NAME = "python311-sphinxcontrib-qthelp-1.0.3-3.2.noarch.rpm"
-RPM_HASH = "8524c8e47bc4466e58f3e14aa0e1b0895f07c48aae395dc30a42d4a983d880d8cd350fc8fab4bfb34bfa6dcbaa945dd4365f0ecf02f4ff6c894f6389b0c7e97e"
+RPM_NAME = "python311-sphinxcontrib-qthelp-1.0.6-1.1.noarch.rpm"
+RPM_HASH = "4c4025e3dcfad1f3648838434f0b15a5346070b3f3a94b134e40532127a324e443a991015b64ea8774965504044a75c64d60acffb1689aae5acadb132386bab0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sphinxcontrib-qthelp \

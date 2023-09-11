@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.3"
 
-RPM_NAME = "python39-pandas-clipboard-2.0.3-1.2.noarch.rpm"
-RPM_HASH = "0681cea4b3b96503f78815cf2bf3b31ba92115801c0b5d455468a443068a3c801489f732d9177194cf67fb67ef211be37110ff82bb70ebf48c74d0a1377e98da"
+RPM_NAME = "python39-pandas-clipboard-2.0.3-1.3.noarch.rpm"
+RPM_HASH = "5757455c62c403ff308e16898c97dc3e22fd849a0011e5726a18610729a2db8be6f6f9eb210e6f7d53702cfff487abdc23cbde44477fb7e48b05fa5731e47109"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pandas-clipboard"

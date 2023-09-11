@@ -2,13 +2,13 @@ SUMMARY = "Haskell pandoc-server profiling library"
 DESCRIPTION = "This package provides the Haskell pandoc-server profiling library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.1.0.2"
+PV = "0.1.0.3"
 
-RPM_NAME = "ghc-pandoc-server-prof-0.1.0.2-1.2.aarch64.rpm"
-RPM_HASH = "62837174e641090d277ca0fba3580ef5309c8b866ceddd14766cac0d0bf0747cf24f65c5f6a6f1f275e4394bdda9af74e8521cf010712427d0c8895b646f3c38"
+RPM_NAME = "ghc-pandoc-server-prof-0.1.0.3-1.1.aarch64.rpm"
+RPM_HASH = "9700315844d4dd40f1e1697927fecb283d9bbd0a233c55ba4591c4fb30170be6e1da52c8b843464cf83064236160b4ef27c13e07c353f5db9b29d2a2355ad018"
 
 RPROVIDES:${PN} += "ghc-pandoc-server-prof \
-ghc-prof-pandoc-server-0.1.0.2-I6Hiy1wFBK737EtmGUgIxB"
+ghc-prof-pandoc-server-0.1.0.3-AhXF1lRMuRZJmknTamhUUB"
 
 RDEPENDS:${PN} += "ghc-pandoc-server-devel \
 ghc-prof-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
@@ -18,12 +18,12 @@ ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-containers-0.6.7 \
 ghc-prof-data-default-0.7.1.1-4TeAZDN81Uu1IorgFaPMOc \
 ghc-prof-doctemplates-0.11-5YDqCtEHp1aBKjLF8JwQH7 \
-ghc-prof-pandoc-3.1.3-DH3GNUoUN8j8vzRMH3Lho2 \
+ghc-prof-pandoc-3.1.3-vrz2YBr4KqIJ1o9bFBvzp \
 ghc-prof-pandoc-types-1.23.1-8yEOjBSLsT62OPTXI0FZpc \
-ghc-prof-servant-server-0.19.2-7444o9ZjHDc4tKFECJOEz2 \
-ghc-prof-skylighting-0.13.4.1-3SOo9dVatPFFF0udKykjgy \
+ghc-prof-servant-server-0.19.2-7mZwAKg13bTKiqPrqXFWN4 \
+ghc-prof-skylighting-0.13.4.1-154hDBm9lstJ5eMNDkHcA5 \
 ghc-prof-text-2.0.2 \
-ghc-prof-unicode-collation-0.1.3.4-DqHFcwJyC4MIpiT6hQTOCQ \
+ghc-prof-unicode-collation-0.1.3.5-IFdGKnlU7nK53rXIDeXQnQ \
 ghc-prof-wai-3.2.3-JhFX1996sswH7nU4MZQSow \
 ghc-prof-wai-cors-0.2.7-J2u6IKYmeDEH7p5Hhrx22i"
 

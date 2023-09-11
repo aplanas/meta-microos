@@ -4,11 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.46"
 
-RPM_NAME = "ghc-xmobar-0.46-2.11.aarch64.rpm"
-RPM_HASH = "e46781bb510b38d8e6abfcb32559b8cb1e03ae4a9e79a8073d7138af62fcc244c4a9767b65afdf595984299f529fe07e17bb6244a7e52ddfe9356c2d3c0c8672"
+RPM_NAME = "ghc-xmobar-0.46-2.12.aarch64.rpm"
+RPM_HASH = "1e1a2c672a72800554a9f65ef4ebfe3eb60aa2bf4af4c63a567953dca43a1b9301a56d1c5c7929a9be904719eccb74a5b34f85ed1108696e4dc2c650f8086a56"
 
 RPROVIDES:${PN} += "ghc-xmobar \
-libHSxmobar-0.46-4qcZh4L72C9IX6e6EucVCt-ghc9.4.6.so"
+libHSxmobar-0.46-8q5NgM64WTq64Lf9eNGvQl-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-5m1ALA0bqJEAQoyOrWBAgI-ghc9.4.6.so \
 libHSQuickCheck-2.14.3-EdzpnPTYr1uH7EoNAOpgI8-ghc9.4.6.so \
@@ -37,9 +37,9 @@ libHSbasement-0.0.16-JDtFhm6hoERETf7Hqk4dh9-ghc9.4.6.so \
 libHSbifunctors-5.5.15-KUw4gCd9iBfLph9IFStYJY-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
 libHSbitvec-1.1.5.0-4n2vDaVO5x4GAoTGOlyPxS-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
-libHSblaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX-ghc9.4.6.so \
-libHSblaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
+libHSblaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii-ghc9.4.6.so \
+libHSblaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP-ghc9.4.6.so \
 libHSbyteorder-1.0.4-HgduUBa2I8KG54Jejj0SY0-ghc9.4.6.so \
 libHSbytestring-0.11.5.1-ghc9.4.6.so \
 libHScairo-0.13.10.0-B3UP0Vi5jIV99bUcWUsXgu-ghc9.4.6.so \
@@ -57,7 +57,7 @@ libHScookie-0.4.6-7v2XoXnZEAdFFWtj85fg3L-ghc9.4.6.so \
 libHScryptonite-0.30-LSC76M64GQaFgLGwFfgIgW-ghc9.4.6.so \
 libHSdata-default-class-0.1.2.0-HWomeRk5e2p3WGQsDTnuAN-ghc9.4.6.so \
 libHSdata-fix-0.3.2-Hesv2p3MUF3H2yKikhD4Es-ghc9.4.6.so \
-libHSdbus-1.2.29-AAIySIFW0zz7mxLdRwt0V6-ghc9.4.6.so \
+libHSdbus-1.2.29-4DkBnpH77ZuFg2GqtR0zJs-ghc9.4.6.so \
 libHSdeepseq-1.4.8.0-ghc9.4.6.so \
 libHSdirectory-1.3.7.1-ghc9.4.6.so \
 libHSdistributive-0.6.2.1-7gHlNDSCz3vFkde299iroS-ghc9.4.6.so \
@@ -75,9 +75,9 @@ libHSglib-0.13.10.0-FwtjszetdFF6KErN1CKeSg-ghc9.4.6.so \
 libHShashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP-ghc9.4.6.so \
 libHShinotify-0.4.1-JFQ6DOM0mgyCikOfj8YmfP-ghc9.4.6.so \
 libHShourglass-0.2.12-DDTIHdRSu369xxYEqSFzho-ghc9.4.6.so \
-libHShttp-client-0.7.14-DEHi4b5z3Pa56fFNKIs9J1-ghc9.4.6.so \
-libHShttp-client-tls-0.3.6.1-FlsMdDWaVoFLIhxPfXPqPa-ghc9.4.6.so \
-libHShttp-conduit-2.3.8.2-JL53aegdUXo82DAJNh0Sqj-ghc9.4.6.so \
+libHShttp-client-0.7.14-ElkaPC2YNimBwgzZzglgPe-ghc9.4.6.so \
+libHShttp-client-tls-0.3.6.1-AsHsMYKW0OIKZ6XVfzITj1-ghc9.4.6.so \
+libHShttp-conduit-2.3.8.2-Aom8RblFK6RqEIyPgp71L-ghc9.4.6.so \
 libHShttp-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p-ghc9.4.6.so \
 libHSindexed-traversable-0.1.2.1-4MWkBnFErvq3PVvZRvlACO-ghc9.4.6.so \
 libHSindexed-traversable-instances-0.1.1.2-4xmEkkFhOqh6ApH5IPswPQ-ghc9.4.6.so \
@@ -86,7 +86,7 @@ libHSinteger-logarithms-1.0.3.1-8hVItVgdqFg1uL8b0gbVZO-ghc9.4.6.so \
 libHSinvariant-0.6.2-1eF4QVqz69AFovgmNz4wk7-ghc9.4.6.so \
 libHSiproute-1.7.12-A34D1N9dJmL5ps3agDCHa7-ghc9.4.6.so \
 libHSkan-extensions-5.2.5-8EOcrvzPSBS2QFPhIHEfWy-ghc9.4.6.so \
-libHSlens-5.2.2-9FQiMfULngUCqLz60VkKPe-ghc9.4.6.so \
+libHSlens-5.2.3-77wBUrzlfuWHQNAaqkfvdZ-ghc9.4.6.so \
 libHSlibmpd-0.10.0.0-9S81DJckoXS7PbMAbxHjm1-ghc9.4.6.so \
 libHSmemory-0.18.0-6jbQrbksm9m3FIftlSlmf1-ghc9.4.6.so \
 libHSmime-types-0.1.1.0-oV8uh4Pssd1mRIrSbk6Ab-ghc9.4.6.so \
@@ -155,7 +155,7 @@ libHSx509-1.7.7-2oKbMm4GXJUL45OKqbcDfn-ghc9.4.6.so \
 libHSx509-store-1.6.9-LlMGA7EC0Rw1u8xijDLJr9-ghc9.4.6.so \
 libHSx509-system-1.6.7-1XvIorlhEdrAudn5lZUzwY-ghc9.4.6.so \
 libHSx509-validation-1.6.12-2BCfCxJkKCuIEN8YGAOqI4-ghc9.4.6.so \
-libHSxml-conduit-1.9.1.3-DDoR4rlzTH6QSHmFsTVd9-ghc9.4.6.so \
+libHSxml-conduit-1.9.1.3-2cOMN3SNzhLD8DxEiNBrwq-ghc9.4.6.so \
 libHSxml-types-0.3.8-8dFL1RqlGPRJfvDIVn7kl6-ghc9.4.6.so \
 libHSzlib-0.6.3.0-ENQBvbHWSlQ4ss0TzRHRuj-ghc9.4.6.so \
 libX11.so.6 \

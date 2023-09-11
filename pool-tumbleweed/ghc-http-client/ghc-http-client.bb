@@ -5,11 +5,11 @@ LICENSE = "MIT"
 
 PV = "0.7.14"
 
-RPM_NAME = "ghc-http-client-0.7.14-1.1.aarch64.rpm"
-RPM_HASH = "b97aface2ee853af843cb283b59ae115493577d934f50fc6a8b4dd44a20c8abfb01bbf59fcbc95758bda8c67aac973d661451c726331b466ec155e12a49d3e2f"
+RPM_NAME = "ghc-http-client-0.7.14-1.2.aarch64.rpm"
+RPM_HASH = "629bd4abf640f425d56350a062fe5129aa0d803a06cb0abc0a85bcff6e5ca9a25b1095fe02d9c97799785d913fd9f0ef59a4e7d19654a2e05e6bed958002008b"
 
 RPROVIDES:${PN} += "ghc-http-client \
-libHShttp-client-0.7.14-DEHi4b5z3Pa56fFNKIs9J1-ghc9.4.6.so"
+libHShttp-client-0.7.14-ElkaPC2YNimBwgzZzglgPe-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSappar-0.1.8-1lWb1vtDAvc6rz1D87iAo-ghc9.4.6.so \
 libHSarray-0.5.4.0-ghc9.4.6.so \
@@ -17,7 +17,7 @@ libHSasync-2.2.4-LcXCzTmy8C6G7Wa774EctI-ghc9.4.6.so \
 libHSbase-4.17.2.0-ghc9.4.6.so \
 libHSbase64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
 libHSbyteorder-1.0.4-HgduUBa2I8KG54Jejj0SY0-ghc9.4.6.so \
 libHSbytestring-0.11.5.1-ghc9.4.6.so \
 libHScase-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9-ghc9.4.6.so \

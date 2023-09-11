@@ -2,10 +2,10 @@ SUMMARY = "GMIC plugin for krita"
 DESCRIPTION = "This is a plugin for krita to provide gmic features."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.2.6"
+PV = "3.3.0"
 
-RPM_NAME = "krita-plugin-gmic-3.2.6-1.1.aarch64.rpm"
-RPM_HASH = "6c5b3cc9749830382777a41c46cfd7d2300a4e652c66d85bbca649e6e9e68b262cc8dca351cac0eb838a861147958e28e8bf95ca775cf41016654903e84d6cca"
+RPM_NAME = "krita-plugin-gmic-3.3.0-1.1.aarch64.rpm"
+RPM_HASH = "6cca2ed172c2a9474e4a165705b1d286191251af68acf306842d967e812ca378d6e3cac4f0d0e1c4253afb92a81fbf28d899fdd8fc3b26c1068a3dd59a3ced0c"
 
 RPROVIDES:${PN} += "krita-plugin-gmic"
 

@@ -4,17 +4,17 @@ LICENSE = "MIT"
 
 PV = "3.1.7.4"
 
-RPM_NAME = "ghc-wai-app-static-devel-3.1.7.4-2.12.aarch64.rpm"
-RPM_HASH = "2bbd1ac4ccd0ce27ffe06395233668a7cca1a38bdaac1352ae48935c9f12ddfe7dba22ef96f312e37d9b4b3231d6bf25d0e6141dd8e42fd9943eb01d3d35d4da"
+RPM_NAME = "ghc-wai-app-static-devel-3.1.7.4-2.13.aarch64.rpm"
+RPM_HASH = "d937306f9949ffa7517a2cf37c24e604a1e0663fd626e68b99860f88b802db7dd7035f8bdda1a8e5a9bc8d8e4adfcc689aa72c0537cb521a31e9cba1a8ef0b14"
 
-RPROVIDES:${PN} += "ghc-devel-wai-app-static-3.1.7.4-4gPGtaPPrElL5voDUXdKV2 \
+RPROVIDES:${PN} += "ghc-devel-wai-app-static-3.1.7.4-GYm23xVACFBKSbu1JkCZl2 \
 ghc-wai-app-static-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-devel-base-4.17.2.0 \
-ghc-devel-blaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX \
-ghc-devel-blaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9 \
+ghc-devel-blaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii \
+ghc-devel-blaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP \
 ghc-devel-bytestring-0.11.5.1 \
 ghc-devel-containers-0.6.7 \
 ghc-devel-cryptonite-0.30-LSC76M64GQaFgLGwFfgIgW \

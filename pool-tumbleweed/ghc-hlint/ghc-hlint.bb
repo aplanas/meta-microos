@@ -4,11 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.5"
 
-RPM_NAME = "ghc-hlint-3.5-1.16.aarch64.rpm"
-RPM_HASH = "dfcd5a4ce2f65a045430b7666a9713444e46d315ff40f9f5cb65edd261d9e6f33d50a36eb280ea247e2ac41a72a76753e8c9a5aa3f4a8100a247f23f364a734c"
+RPM_NAME = "ghc-hlint-3.5-1.17.aarch64.rpm"
+RPM_HASH = "c03d86e95d2c6228cb42408168f00b1153a5acd68387e09432aed93517b88fce98ce2ac46133f0ce44415433671fd05b1a5105c9a53ca0115142affc0f83ecac"
 
 RPROVIDES:${PN} += "ghc-hlint \
-libHShlint-3.5-DZkqPPxDiE9BpYCGyCIup3-ghc9.4.6.so"
+libHShlint-3.5-4RmFhbheUGCL3K3OzJi0Yw-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-5m1ALA0bqJEAQoyOrWBAgI-ghc9.4.6.so \
 libHSQuickCheck-2.14.3-EdzpnPTYr1uH7EoNAOpgI8-ghc9.4.6.so \
@@ -56,8 +56,8 @@ libHSfoldable1-classes-compat-0.1-HnLXxvPXYXbHggM07qAxsy-ghc9.4.6.so \
 libHSgenerically-0.1.1-CmULdC2547fBrHCkT48ujn-ghc9.4.6.so \
 libHSghc-bignum-1.3-ghc9.4.6.so \
 libHSghc-boot-th-9.4.6-ghc9.4.6.so \
-libHSghc-lib-parser-9.4.6.20230808-BTkqGaXXohb8duAYJJlTmh-ghc9.4.6.so \
-libHSghc-lib-parser-ex-9.4.0.0-FnsACeicRjR9lrHyF5i7Lw-ghc9.4.6.so \
+libHSghc-lib-parser-9.4.7.20230826-9jTyF2CzAjoBitf2gKlSVU-ghc9.4.6.so \
+libHSghc-lib-parser-ex-9.4.0.0-5gI0mYE7T3L4MUgurM5BvD-ghc9.4.6.so \
 libHSghc-prim-0.9.1-ghc9.4.6.so \
 libHShashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP-ghc9.4.6.so \
 libHShscolour-1.24.4-LJeKwNXAf207wSFk6wkP8w-ghc9.4.6.so \

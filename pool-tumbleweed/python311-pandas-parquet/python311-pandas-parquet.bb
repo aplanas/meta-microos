@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.3"
 
-RPM_NAME = "python311-pandas-parquet-2.0.3-1.2.noarch.rpm"
-RPM_HASH = "ea53eef21d66228be525689b62557710f749107b2e11f61918b2448d8bb53cf8363b438d5c90693808a0de3f99b04105b9f713c29611e5b60bdfccd11ae8ec52"
+RPM_NAME = "python311-pandas-parquet-2.0.3-1.3.noarch.rpm"
+RPM_HASH = "45eaf976af224b798c3529403ba56a98ef054b83f1cda0f579e1052fec028f83060b781fff75985561674c2404fc3fb942165ac0f70769e2b93bb2822cd41ed5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pandas-parquet \

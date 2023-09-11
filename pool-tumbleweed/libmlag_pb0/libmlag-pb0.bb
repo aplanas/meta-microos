@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "8.4"
 
-RPM_NAME = "libmlag_pb0-8.4-4.2.aarch64.rpm"
-RPM_HASH = "5f91d4f3fc2da5f2a7e82ff2ff14e18c83e7a5e888474f1f147d59bb918da2958164a7933ed5237519dfb1d243435f60bdce39c05cb2ce2082a210e1964a073f"
+RPM_NAME = "libmlag_pb0-8.4-5.1.aarch64.rpm"
+RPM_HASH = "9c05f49b13dc8cea3aca81c8acaf7ba328bce60b878636d58f1bcf48a099f2e8a939bfb9a724e956b7572be8b0afecfef4ddaa5e1253a82f8d0fd5c2226bf8f5"
 
 RPROVIDES:${PN} += "libmlag-pb.so.0 \
 libmlag-pb0"

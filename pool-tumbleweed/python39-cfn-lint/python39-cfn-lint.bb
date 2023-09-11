@@ -4,10 +4,10 @@ spec and additional checks. Includes checking valid values for \
 resource properties and best practices."
 LICENSE = "MIT"
 
-PV = "0.72.10"
+PV = "0.79.8"
 
-RPM_NAME = "python39-cfn-lint-0.72.10-1.7.noarch.rpm"
-RPM_HASH = "64c6aece413daacd218a8e0d1858804858b1740627ea5c24c32f40122ddc2ddc67bd0984f45604b54831e22c140d2ee9774731cd53009a07465006d1f8a82061"
+RPM_NAME = "python39-cfn-lint-0.79.8-1.1.noarch.rpm"
+RPM_HASH = "9219374dbc4033c8f2553013853c0fc3e66fd9b9e118e6b4e3a6ae77444fbb85797c07dc1e43f9c586d197f8346dea7077beb7ea855b8d19b24acfe91c42e075"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cfn-lint \
@@ -26,7 +26,9 @@ python39-jschema-to-python \
 python39-jsonpatch \
 python39-junit-xml \
 python39-networkx \
+python39-regex \
 python39-sarif-om \
+python39-sympy \
 update-alternatives"
 
 inherit rpm

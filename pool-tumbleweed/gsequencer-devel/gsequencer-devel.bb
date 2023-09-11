@@ -2,10 +2,10 @@ SUMMARY = "Advanced Gtk+ Sequencer library development files"
 DESCRIPTION = "Advanced Gtk+ Sequencer library development files."
 LICENSE = "AGPL-3.0-or-later & GPL-3.0-or-later & GFDL-1.3-only"
 
-PV = "6.0.1"
+PV = "6.0.8"
 
-RPM_NAME = "gsequencer-devel-6.0.1-1.1.aarch64.rpm"
-RPM_HASH = "55160c030f1d703521498d95b0142fd5db1ed1fc45f54823f4fbda526d1dc6ebf73eef1cfbf9e4df2f26a0c03062005fe3b17588c016259c6beab0de56b650b2"
+RPM_NAME = "gsequencer-devel-6.0.8-1.1.aarch64.rpm"
+RPM_HASH = "8d1a21e7cd6161c2188ff6021f7865318316bd34606bdd390c6a74b927d0ea934c2c94867959254b595a629cbc06d8ca6f9d9876e0b1603b5590cc60d5ea5251"
 
 RPROVIDES:${PN} += "gsequencer-devel \
 pkgconfig-libags \

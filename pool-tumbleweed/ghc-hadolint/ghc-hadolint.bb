@@ -4,11 +4,11 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.12.0"
 
-RPM_NAME = "ghc-hadolint-2.12.0-1.14.aarch64.rpm"
-RPM_HASH = "36594812bcbd394892e3a402108a5ba347e582a3922bb8b2025886c7a6cd6f01c8445dd5f1037b9ccae79a66647217a8a71bffc9c8ca50972e847cbaf19c4c63"
+RPM_NAME = "ghc-hadolint-2.12.0-1.15.aarch64.rpm"
+RPM_HASH = "3e63a5158f0c5920b1a840d4ade32b2a1be52ef6d50dfe9df9a3d0a7a1b6da77d3fd588770d030bc6bdfc992035c24ce8359a4c4e69035336cbb05c35631dcbe"
 
 RPROVIDES:${PN} += "ghc-hadolint \
-libHShadolint-2.12.0-Jp14fQTAAcHDz1DxyNd0kQ-ghc9.4.6.so"
+libHShadolint-2.12.0-62A5MRq9SpbFZTKd7vE5be-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSCabal-3.8.1.0-ghc9.4.6.so \
 libHSCabal-syntax-3.8.1.0-ghc9.4.6.so \
@@ -71,7 +71,7 @@ libHSinteger-logarithms-1.0.3.1-8hVItVgdqFg1uL8b0gbVZO-ghc9.4.6.so \
 libHSlanguage-docker-11.0.0-2HEqMTVikVZEgpsCXsz3Cq-ghc9.4.6.so \
 libHSmegaparsec-9.3.1-Jdwz39dpTDz8anub3eLd49-ghc9.4.6.so \
 libHSmemory-0.18.0-6jbQrbksm9m3FIftlSlmf1-ghc9.4.6.so \
-libHSmonoid-subclasses-1.2.3-5taTwF7VZKRLlaKR3bOBXt-ghc9.4.6.so \
+libHSmonoid-subclasses-1.2.4-19X6M9mjCjC7gPD9QVvKTU-ghc9.4.6.so \
 libHSmtl-2.2.2-ghc9.4.6.so \
 libHSnetwork-uri-2.6.4.2-3utC1p6H7mg92qIH44jQaM-ghc9.4.6.so \
 libHSold-locale-1.0.0.7-GoDuSK2NybfD0MMe75QkJk-ghc9.4.6.so \
@@ -107,7 +107,7 @@ libHSth-compat-0.1.4-F5a7GnDk5rxHGhOle8BcYS-ghc9.4.6.so \
 libHSthese-1.2-5fSFdT8DGhg7GQONqvd4MR-ghc9.4.6.so \
 libHStime-1.12.2-ghc9.4.6.so \
 libHStime-compat-1.9.6.1-J6qzCGPCWqPGQqFFbCQAYM-ghc9.4.6.so \
-libHStimerep-2.1.0.0-7Ytum8O35f0BaW4NCEYMdH-ghc9.4.6.so \
+libHStimerep-2.1.0.0-IaSai5sQyvSEzoXHpabvZQ-ghc9.4.6.so \
 libHStransformers-0.5.6.2-ghc9.4.6.so \
 libHStransformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM-ghc9.4.6.so \
 libHSunix-2.7.3-ghc9.4.6.so \

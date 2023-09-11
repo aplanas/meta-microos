@@ -2,12 +2,12 @@ SUMMARY = "Haskell unicode-collation profiling library"
 DESCRIPTION = "This package provides the Haskell unicode-collation profiling library."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.1.3.4"
+PV = "0.1.3.5"
 
-RPM_NAME = "ghc-unicode-collation-prof-0.1.3.4-1.9.aarch64.rpm"
-RPM_HASH = "b4b8b1f5ae010a73fcf995836375724c4895f696b4b4bcd606cd20141463efd43ebf9ec7984246870f9a056f77638f64eacbf2f2b77a954855226d00cb09d22e"
+RPM_NAME = "ghc-unicode-collation-prof-0.1.3.5-1.1.aarch64.rpm"
+RPM_HASH = "55506a6d42ef4b58cf4ef4bbf099610f29f0281ec8514d048008906bf44800dc05651f9e8b7afed882ca1ba48380310e0c44396484ab55335f9d4792f9abf390"
 
-RPROVIDES:${PN} += "ghc-prof-unicode-collation-0.1.3.4-DqHFcwJyC4MIpiT6hQTOCQ \
+RPROVIDES:${PN} += "ghc-prof-unicode-collation-0.1.3.5-IFdGKnlU7nK53rXIDeXQnQ \
 ghc-unicode-collation-prof"
 
 RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \

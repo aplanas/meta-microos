@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "9.4.0.0"
 
-RPM_NAME = "ghc-ghc-lib-parser-ex-doc-9.4.0.0-1.11.noarch.rpm"
-RPM_HASH = "c404d0bd7da307b3e2888d340da5e91b6368e6a84cf446d7e9d7f9f1736f1494cc46cddc38d290bf1252038c98ca1f090fe3bd230d8a3c441372dc7082622b8b"
+RPM_NAME = "ghc-ghc-lib-parser-ex-doc-9.4.0.0-1.12.noarch.rpm"
+RPM_HASH = "fe58956a3f39f7bcc0de1dc7c287af6853e5d710f3d2fca1df553cc655c5cc4b8f981453fb754ed25d3f2aab32ae1a79472b3872d6cdb680faf33eaca5bc2925"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-ghc-lib-parser-ex-doc"

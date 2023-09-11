@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.1.1"
 
-RPM_NAME = "ghc-HsYAML-devel-0.2.1.1-5.3.aarch64.rpm"
-RPM_HASH = "80140202dde15d58038a4509fba02c4c1a23e1197b9bb10fd1cc5ea8cff81e030440ddc0738d9a51d3cfe83b3137509649785ef08a285bbab67a40475b174118"
+RPM_NAME = "ghc-HsYAML-devel-0.2.1.1-6.1.aarch64.rpm"
+RPM_HASH = "f53456c8fac47cf35eaa5f6232b63ada23f3aa2abeaf8f3a0bac407d5ad4d5d5416845e516a9b09854714ec15f6fabd91b68e4cd25f5d563a0f1b6f94ef0baa9"
 
 RPROVIDES:${PN} += "ghc-HsYAML-devel \
 ghc-devel-HsYAML-0.2.1.1-LCJxHEstqYgA5FP8nPmMDQ"

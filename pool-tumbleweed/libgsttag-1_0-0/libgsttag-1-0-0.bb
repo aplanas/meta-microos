@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgsttag-1_0-0-1.22.5-2.1.aarch64.rpm"
-RPM_HASH = "4361ca7b145456bfaf3359783076c53558166adfe65531465c25991718c6cac2fbcb4f29c7c2df61e98632d397b22ced63beca962bb795755d40d442de8014b5"
+RPM_NAME = "libgsttag-1_0-0-1.22.5-3.1.aarch64.rpm"
+RPM_HASH = "4a1c68cfdc5b8cfc9485e8222d48f244ed13edc928f48bd7c6002bfe20fbbf90be21a916d9adbb25f600b1868d3ee3f7ce777aad1ba75cf2dde61d7d582b69c3"
 
 RPROVIDES:${PN} += "libgsttag-1-0-0 \
 libgsttag-1.0.so.0"

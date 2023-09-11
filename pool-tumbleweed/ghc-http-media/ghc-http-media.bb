@@ -22,13 +22,13 @@ parseText) > ] \
 The API is agnostic to your choice of server."
 LICENSE = "MIT"
 
-PV = "0.8.0.0"
+PV = "0.8.1.0"
 
-RPM_NAME = "ghc-http-media-0.8.0.0-6.9.aarch64.rpm"
-RPM_HASH = "528c011724af3b9d7c3bb6db7c8c199c16fff16a3e8b6d4fb8a0243078692cc02a2727fee1c3b5010a9db35eb284909acfe3b128127caecfe4aaf60ac194d304"
+RPM_NAME = "ghc-http-media-0.8.1.0-1.1.aarch64.rpm"
+RPM_HASH = "1e6b44da25445d508f2e5ce103e0a83fe1c7df90d429c03a7e61fa8fd98596795c44798ca053c79be6da80cfb8af93f17cf5293cfaedb3e5e7034d666583cd2f"
 
 RPROVIDES:${PN} += "ghc-http-media \
-libHShttp-media-0.8.0.0-5rJoZcqaWn0K15WzbWDvFb-ghc9.4.6.so"
+libHShttp-media-0.8.1.0-COFozQnKf3L2ra0cnOflYd-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
 libHSbase-4.17.2.0-ghc9.4.6.so \

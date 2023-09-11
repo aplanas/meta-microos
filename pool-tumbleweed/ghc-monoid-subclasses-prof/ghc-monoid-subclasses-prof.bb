@@ -2,13 +2,13 @@ SUMMARY = "Haskell monoid-subclasses profiling library"
 DESCRIPTION = "This package provides the Haskell monoid-subclasses profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.2.3"
+PV = "1.2.4"
 
-RPM_NAME = "ghc-monoid-subclasses-prof-1.2.3-1.9.aarch64.rpm"
-RPM_HASH = "56ab179956e19387dee1c05d073dde0ff709f6ab4937964d77f05d5204746538846578763b72ac9cb742c37c5ca4fe2fbf1d855f1bcef7f6654f6fff9f027be8"
+RPM_NAME = "ghc-monoid-subclasses-prof-1.2.4-1.1.aarch64.rpm"
+RPM_HASH = "dadd801d5dcb9c97ad3b5ae35b6e37277229c86b678cd47d0822756867dd1a3d45d7ca9a5ea3abd30b0b215572a6c93c31edf662d790a22ac8e61d04c1455cc4"
 
 RPROVIDES:${PN} += "ghc-monoid-subclasses-prof \
-ghc-prof-monoid-subclasses-1.2.3-5taTwF7VZKRLlaKR3bOBXt"
+ghc-prof-monoid-subclasses-1.2.4-19X6M9mjCjC7gPD9QVvKTU"
 
 RDEPENDS:${PN} += "ghc-monoid-subclasses-devel \
 ghc-prof-base-4.17.2.0 \

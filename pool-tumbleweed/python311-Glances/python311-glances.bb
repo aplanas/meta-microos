@@ -5,10 +5,10 @@ based interface. The information dynamically adapts depending on the \
 size of the user interface."
 LICENSE = "LGPL-3.0-only"
 
-PV = "3.3.1"
+PV = "3.4.0.3"
 
-RPM_NAME = "python311-Glances-3.3.1-2.1.noarch.rpm"
-RPM_HASH = "3f752e9315cb703e085496ae31b44198a08c1877583f4ef90292e16a47f72cfdc7b34121f33e90f42189736c09ad832f15a56b3d78ed14df012527f4a843ab77"
+RPM_NAME = "python311-Glances-3.4.0.3-1.1.noarch.rpm"
+RPM_HASH = "4b17a57cdd918b9a63707441904d4db93ad646f161307b52179c68061fc7ce268a614d81d710bd43204d37eab0958a313f9efc360b8af44955a30da09b8de9bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glances \
@@ -24,7 +24,7 @@ RDEPENDS:${PN} += "/usr/bin/python3.11 \
 python-abi \
 python311-bottle \
 python311-defusedxml \
-python311-future \
+python311-packaging \
 python311-psutil \
 python311-requests \
 python311-ujson \

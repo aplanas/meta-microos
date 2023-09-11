@@ -3,12 +3,12 @@ DESCRIPTION = "This package provides the Haskell monoid-subclasses library devel
 files."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.2.3"
+PV = "1.2.4"
 
-RPM_NAME = "ghc-monoid-subclasses-devel-1.2.3-1.9.aarch64.rpm"
-RPM_HASH = "0740ae505120ccc453e09ce07aec76a40cd900f48621e5953f2db5c8ecaa489127f4d63e0bb0c3a1a9da684079c71e99e6264708f1ed8f8de98486512cc5b974"
+RPM_NAME = "ghc-monoid-subclasses-devel-1.2.4-1.1.aarch64.rpm"
+RPM_HASH = "a12ffe7a42a802d1de6e82d0323712842543cd26b226f23c0c6055a3b2100c0885d6cf35ec5a60a9847e3eb7b7384dd7a6bdd13241d37cae0f713b23c2ba92a6"
 
-RPROVIDES:${PN} += "ghc-devel-monoid-subclasses-1.2.3-5taTwF7VZKRLlaKR3bOBXt \
+RPROVIDES:${PN} += "ghc-devel-monoid-subclasses-1.2.4-19X6M9mjCjC7gPD9QVvKTU \
 ghc-monoid-subclasses-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

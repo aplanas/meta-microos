@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.0.2"
 
-RPM_NAME = "ghc-xml-hamlet-doc-0.5.0.2-2.9.noarch.rpm"
-RPM_HASH = "6b554fd355d061e9bf681ee17c399cf7018edc60ff9f8814a9d9d407c226e141ebc237e8ea6419bc5ed4ecf7c35842152bac8d5acf3001089b2f8754daa8aec9"
+RPM_NAME = "ghc-xml-hamlet-doc-0.5.0.2-2.10.noarch.rpm"
+RPM_HASH = "9b9821638f24050ad9e4f421e92d9654d61cf11b89c6267a6b018c4f363ee3488afa412226a167198d5f90fc587bed0064a1b89872c34516872c1cf8a2dc2d18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-xml-hamlet-doc"

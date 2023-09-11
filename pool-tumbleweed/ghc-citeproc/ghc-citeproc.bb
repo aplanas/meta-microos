@@ -6,11 +6,11 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.8.1"
 
-RPM_NAME = "ghc-citeproc-0.8.1-2.14.aarch64.rpm"
-RPM_HASH = "60fad05f6828403691c626cda867fc74bf031b1e89c820db379524be3cbdff2b6c2dff94cf21851d0de966dad37d375059a9e4db10d11c2fd38cbabae3fbc6be"
+RPM_NAME = "ghc-citeproc-0.8.1-2.15.aarch64.rpm"
+RPM_HASH = "9d72d0655325d8b5d06da60ab719f50019d3675d2cbe8154242bef1e288a6cecc37fc91b108304eef3b47af10a468553d30baf6f9bca7259c20755a5269b2bb0"
 
 RPROVIDES:${PN} += "ghc-citeproc \
-libHSciteproc-0.8.1-D6MAOBfduqd1r1TVF002aA-ghc9.4.6.so"
+libHSciteproc-0.8.1-2pX9OkWyX7lDXHT1UDpuWJ-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-5m1ALA0bqJEAQoyOrWBAgI-ghc9.4.6.so \
 libHSQuickCheck-2.14.3-EdzpnPTYr1uH7EoNAOpgI8-ghc9.4.6.so \
@@ -28,9 +28,9 @@ libHSbase-orphans-0.8.8.2-Ace67bhQsJ1lQVihVIKZ5-ghc9.4.6.so \
 libHSbifunctors-5.5.15-KUw4gCd9iBfLph9IFStYJY-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
 libHSbitvec-1.1.5.0-4n2vDaVO5x4GAoTGOlyPxS-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
-libHSblaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX-ghc9.4.6.so \
-libHSblaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
+libHSblaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii-ghc9.4.6.so \
+libHSblaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP-ghc9.4.6.so \
 libHSbytestring-0.11.5.1-ghc9.4.6.so \
 libHScase-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9-ghc9.4.6.so \
 libHScomonad-5.0.8-56nFbOwllOwBl7FMfSy83E-ghc9.4.6.so \
@@ -94,7 +94,7 @@ libHStime-compat-1.9.6.1-J6qzCGPCWqPGQqFFbCQAYM-ghc9.4.6.so \
 libHStransformers-0.5.6.2-ghc9.4.6.so \
 libHStransformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM-ghc9.4.6.so \
 libHStyped-process-0.2.11.0-D02VU1fccqSD0M6BP6Pfz9-ghc9.4.6.so \
-libHSunicode-collation-0.1.3.4-DqHFcwJyC4MIpiT6hQTOCQ-ghc9.4.6.so \
+libHSunicode-collation-0.1.3.5-IFdGKnlU7nK53rXIDeXQnQ-ghc9.4.6.so \
 libHSuniplate-1.6.13-EEjCQACslljIQmS3K29CqX-ghc9.4.6.so \
 libHSunix-2.7.3-ghc9.4.6.so \
 libHSunliftio-core-0.2.1.0-LP03A4AUPGIIJc7XWMX3ES-ghc9.4.6.so \
@@ -104,7 +104,7 @@ libHSvector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku-ghc9.4.6.so \
 libHSvector-algorithms-0.9.0.1-98Yktb3BX9p4L0Cowik6Gr-ghc9.4.6.so \
 libHSvector-stream-0.1.0.0-8LsAqgetBjY3tBdh3HDYEB-ghc9.4.6.so \
 libHSwitherable-0.4.2-4so4KYid1UG9PchOfa6Iqw-ghc9.4.6.so \
-libHSxml-conduit-1.9.1.3-DDoR4rlzTH6QSHmFsTVd9-ghc9.4.6.so \
+libHSxml-conduit-1.9.1.3-2cOMN3SNzhLD8DxEiNBrwq-ghc9.4.6.so \
 libHSxml-types-0.3.8-8dFL1RqlGPRJfvDIVn7kl6-ghc9.4.6.so \
 libHSzlib-0.6.3.0-ENQBvbHWSlQ4ss0TzRHRuj-ghc9.4.6.so \
 libc.so.6 \

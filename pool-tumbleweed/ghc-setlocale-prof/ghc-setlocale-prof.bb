@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.0.10"
 
-RPM_NAME = "ghc-setlocale-prof-1.0.0.10-4.3.aarch64.rpm"
-RPM_HASH = "87739e6dd3a43c22f0d1b5f86176aa49fe0997200b052aafaa4ff7c0e568f56c0d6953fa2200e67a5c9b30308370160d1d029272fe1d94d5cffd022feb4bb1bc"
+RPM_NAME = "ghc-setlocale-prof-1.0.0.10-5.1.aarch64.rpm"
+RPM_HASH = "d148950b6611fb8b72d25082de64f1e340efce3f1aba0ea44f8121c67495840c626afeff8e65df4e2f5c1742673d8c61ff304a7e5b9831001387b2e4c53bfe02"
 
 RPROVIDES:${PN} += "ghc-prof-setlocale-1.0.0.10-EX0ACS22UctCUxDRUitp1V \
 ghc-setlocale-prof"

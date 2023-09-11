@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.1"
 
-RPM_NAME = "ghc-hjsmin-doc-0.2.1-1.7.noarch.rpm"
-RPM_HASH = "67e914b644f1994eeb90d5056b63647172a4c12128dfc93d270a1a535df3cd4eb665b255a644724dafa60c77cb5d2930a11a2dfffd85dcc74ded20ce974775cd"
+RPM_NAME = "ghc-hjsmin-doc-0.2.1-1.8.noarch.rpm"
+RPM_HASH = "3912fbef8c984dd31fa72b94b479ac047ff3dc03b46430b5df15fda811738d1627be197fcbc265c15569b7ecfd93e93ed7a090c4bf394e44b0d3ad209dd13911"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-hjsmin-doc"

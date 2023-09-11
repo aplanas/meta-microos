@@ -4,10 +4,10 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.19.1"
 
-RPM_NAME = "ghc-servant-prof-0.19.1-3.4.aarch64.rpm"
-RPM_HASH = "8aa0454eccd86bf5d2bc42d2609a371ce24b47f3eb81ff170471c13a8e9bc2545e200e379c2bec33c739822a31f399be93197220c7ce01c9c8a87ce23e0b843a"
+RPM_NAME = "ghc-servant-prof-0.19.1-3.5.aarch64.rpm"
+RPM_HASH = "a674e7d61b4215036a871f89461472099cd5207754ad4c44101fd14616786b074e22c82468aa130e19a77a14c1ea1d3eb36a745978fcd0f7b65692342682ca5a"
 
-RPROVIDES:${PN} += "ghc-prof-servant-0.19.1-3gX0IvlAojJFGwbp2bDTQF \
+RPROVIDES:${PN} += "ghc-prof-servant-0.19.1-3wkqjCY5ZM9IhGFtmRnyia \
 ghc-servant-prof"
 
 RDEPENDS:${PN} += "ghc-prof-QuickCheck-2.14.3-EdzpnPTYr1uH7EoNAOpgI8 \
@@ -21,7 +21,7 @@ ghc-prof-case-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9 \
 ghc-prof-constraints-0.13.4-7HFJx00f7ri8MCLIfNZmvk \
 ghc-prof-deepseq-1.4.8.0 \
 ghc-prof-http-api-data-0.5-9CvKaE1JZO8KjKgwdog9dy \
-ghc-prof-http-media-0.8.0.0-5rJoZcqaWn0K15WzbWDvFb \
+ghc-prof-http-media-0.8.1.0-COFozQnKf3L2ra0cnOflYd \
 ghc-prof-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
 ghc-prof-mmorph-1.2.0-8vW65Nxa2ivI7uZwSjYXdn \
 ghc-prof-mtl-2.2.2 \

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "libgstgl-1_0-0-1.22.5-2.1.aarch64.rpm"
-RPM_HASH = "7544af8e53277f554ad3024ed6ed8dd12a0de5b6f5795aaed9dfb186f46d3356e7be9c3970dc79bdbdda1f6513c35f49d129d43552bc806185629a755a3fb2ab"
+RPM_NAME = "libgstgl-1_0-0-1.22.5-3.1.aarch64.rpm"
+RPM_HASH = "dba314e0b6bbefee8aa0001cd30bd1f7b13e2fd11e67c6fb73ff025ff18702703f855e4be939aca823c4b752e3e5f561a27b02f0bcd057ac7604b5cb5e405c86"
 
 RPROVIDES:${PN} += "libgstgl-1-0-0 \
 libgstgl-1.0.so.0"

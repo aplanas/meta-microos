@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "8.4"
 
-RPM_NAME = "libfrrcares0-8.4-4.2.aarch64.rpm"
-RPM_HASH = "6813c4583ebd5d3ddecf9b2fe7d9465004730b855955c907d853cdf957fc502cdad04aa54a920cff692397c6379c9ff9d29c217216d39e979c2b1cbc40ad0a52"
+RPM_NAME = "libfrrcares0-8.4-5.1.aarch64.rpm"
+RPM_HASH = "7e0ca3e9ee01f527814ed03d786472c82828a136afccb6100a52143c9f19ff094b80f95a2ade6860757026c9dc4fa10294d8c76cf30c545f31912f60d6ecfe10"
 
 RPROVIDES:${PN} += "libfrrcares.so.0 \
 libfrrcares0"

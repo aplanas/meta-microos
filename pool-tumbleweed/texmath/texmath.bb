@@ -20,10 +20,10 @@ Use the 'server' flag to install a web server, 'texmath-server', that exposes a 
 JSON API allowing conversion of individual formulas and batches of formulas."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.12.8"
+PV = "0.12.8.1"
 
-RPM_NAME = "texmath-0.12.8-2.1.aarch64.rpm"
-RPM_HASH = "861501ba6d4c2af552dadf44e2d9575786759ec6b46a15b4721185b402f869c7f9d145fe0ad9ab2da649b8dc83fa1f5f76bab91515887dea9823b10898b4e850"
+RPM_NAME = "texmath-0.12.8.1-1.1.aarch64.rpm"
+RPM_HASH = "58d4ef7b675ddd8f9d9c3e323f59f1d2ae19aa35e5e5a594a407c1080f29b1247836e1fc4872c85a96ced5e51ab52c543f0d336a2604d1b8178b35a4f880f60d"
 
 RPROVIDES:${PN} += "texmath"
 

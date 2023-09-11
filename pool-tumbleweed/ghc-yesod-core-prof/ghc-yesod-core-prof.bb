@@ -4,17 +4,17 @@ LICENSE = "MIT"
 
 PV = "1.6.24.4"
 
-RPM_NAME = "ghc-yesod-core-prof-1.6.24.4-1.6.aarch64.rpm"
-RPM_HASH = "0a44bdd498da977d9e0263789d8659e4381758c5fba2c38f4090a669a5252a52c14e52f0edb0a49bbf1a11db16022225232cbe511c38fa6af14f3a28af41d992"
+RPM_NAME = "ghc-yesod-core-prof-1.6.24.4-1.7.aarch64.rpm"
+RPM_HASH = "d0d316459a1e1bbfb1bad3f7c3d7296a7823356cde409ba407cbd6c02aa06d8c906bf67f5b62d6ac806ca41e4e20ada2faef65468b3ed38e0886ecb4c30aef9c"
 
-RPROVIDES:${PN} += "ghc-prof-yesod-core-1.6.24.4-cvcp8TZ1QYG0IH58f6f1F \
+RPROVIDES:${PN} += "ghc-prof-yesod-core-1.6.24.4-1di0EYNbRAz9TOkBiAT5Ab \
 ghc-yesod-core-prof"
 
 RDEPENDS:${PN} += "ghc-prof-aeson-2.1.2.1-F1kFu5nx3L2A2kaYbyielc \
 ghc-prof-auto-update-0.1.6-KWXusmyBOlPJNN5shLt5Bc \
 ghc-prof-base-4.17.2.0 \
-ghc-prof-blaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX \
-ghc-prof-blaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9 \
+ghc-prof-blaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii \
+ghc-prof-blaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP \
 ghc-prof-bytestring-0.11.5.1 \
 ghc-prof-case-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9 \
 ghc-prof-cereal-0.5.8.3-BmWUcZuhGTnIupxReuIO3I \
@@ -35,7 +35,7 @@ ghc-prof-path-pieces-0.2.1-JEJ6IegDP1FHzqmKWi176n \
 ghc-prof-primitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx \
 ghc-prof-random-1.2.1.1-DaR3VtSJjyj4XXOpfKJ29k \
 ghc-prof-resourcet-1.2.6-AOipJdCu0ULL3KFWw8x9fP \
-ghc-prof-shakespeare-2.0.30-GrImIeltjQZ7T3c163uEiZ \
+ghc-prof-shakespeare-2.0.30-5XHeuGt8JLJENvL2Ahdhem \
 ghc-prof-template-haskell-2.19.0.0 \
 ghc-prof-text-2.0.2 \
 ghc-prof-time-1.12.2 \

@@ -2,10 +2,10 @@ SUMMARY = "Oracle Cloud Infrastructure Python SDK"
 DESCRIPTION = "Python SDK for Oracle Cloud Infrastructure. Python 2.7+ and 3.5+ are supported."
 LICENSE = "Apache-2.0 | UPL-1.0"
 
-PV = "2.110.1"
+PV = "2.111.0"
 
-RPM_NAME = "python39-oci-sdk-2.110.1-1.1.noarch.rpm"
-RPM_HASH = "c4d246617f7d040b342401ff6a586ff6ad05a1de89c28385061f83bfa4e34ab9d34eaa92e6c4bf3c05a8108a828681996147f4ade114b030905d5d8658cfe5dc"
+RPM_NAME = "python39-oci-sdk-2.111.0-1.1.noarch.rpm"
+RPM_HASH = "1636fe167ad516c2aaefd810e865f8cb9bd252ece1d5bdcafa267513ef247901466f60396d927c4c72133ae688f17bae25c1f05d44819faab8b1a170027d63e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-oci \

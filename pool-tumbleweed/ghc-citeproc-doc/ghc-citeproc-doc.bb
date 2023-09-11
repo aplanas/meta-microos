@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.8.1"
 
-RPM_NAME = "ghc-citeproc-doc-0.8.1-2.14.noarch.rpm"
-RPM_HASH = "325ebbe54b1132a6a227a3b6a4e4c52351d407a514475e31996647ba72cb9fa9b73eb4f48a12bbe02e305afbc984bc42bd0cefd71e2757e15d727f8c6ac38e1c"
+RPM_NAME = "ghc-citeproc-doc-0.8.1-2.15.noarch.rpm"
+RPM_HASH = "7cfef1220988e3ddc230976f23d0a79a37734e09899db5b33c99d923d4ce55d176e809cda1e89f11c39e1cbb5483b4e1262e4349cbede533fd33f7b399f54851"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-citeproc-doc"

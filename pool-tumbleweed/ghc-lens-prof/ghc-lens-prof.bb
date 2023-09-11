@@ -2,13 +2,13 @@ SUMMARY = "Haskell lens profiling library"
 DESCRIPTION = "This package provides the Haskell lens profiling library."
 LICENSE = "BSD-2-Clause"
 
-PV = "5.2.2"
+PV = "5.2.3"
 
-RPM_NAME = "ghc-lens-prof-5.2.2-2.4.aarch64.rpm"
-RPM_HASH = "850e28847407d2b8dc520995beb7af9fade5f96fbd968fbdc97684da91ad99448500f4aac8a8873065f384b699df959611c3d2e93fef7fde79de0f8b70795f78"
+RPM_NAME = "ghc-lens-prof-5.2.3-1.1.aarch64.rpm"
+RPM_HASH = "4e8918d4b3e1a3b50161aa4f30f66d2a9f3fcc60b438615be45e7a2609e5d0827e476a96aa6207d0dc19db991b8a9c5bae66b8555cddd5939d7fe91d18ed44b0"
 
 RPROVIDES:${PN} += "ghc-lens-prof \
-ghc-prof-lens-5.2.2-9FQiMfULngUCqLz60VkKPe"
+ghc-prof-lens-5.2.3-77wBUrzlfuWHQNAaqkfvdZ"
 
 RDEPENDS:${PN} += "ghc-lens-devel \
 ghc-prof-array-0.5.4.0 \

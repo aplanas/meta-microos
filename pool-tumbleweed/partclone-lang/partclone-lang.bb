@@ -2,14 +2,16 @@ SUMMARY = "Translations for package partclone"
 DESCRIPTION = "Provides translations for the 'partclone' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.3.23"
+PV = "0.3.25"
 
-RPM_NAME = "partclone-lang-0.3.23-1.5.noarch.rpm"
-RPM_HASH = "7d0ae07335686462f8bb39c956c963165d6ad6de90db631ebe4f764b3a3572444c64a5d0b0aaab9df15a83ced2fb14ddf72c1c50186222a04053e3f6c2bf8ae5"
+RPM_NAME = "partclone-lang-0.3.25-1.1.noarch.rpm"
+RPM_HASH = "ff188355995dfbfd53751c64d1a29e87dcf0971f5197ec9a59e6f7145b473dc1173144ec437787d864d3e9dde18de863ff883fbae0b2e94006ccd6804f39d7cf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale-partclone-fr-FR \
+RPROVIDES:${PN} += "locale-partclone-de \
+locale-partclone-fr-FR \
 locale-partclone-pt-BR \
+locale-partclone-ru \
 locale-partclone-vi \
 locale-partclone-zh-CN \
 locale-partclone-zh-TW \

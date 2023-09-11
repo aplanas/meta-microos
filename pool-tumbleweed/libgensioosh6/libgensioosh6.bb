@@ -3,14 +3,14 @@ DESCRIPTION = "This is gensio (pronounced gen'-see-oh), a framework for giving a
 consistent view of various stream (and packet) I/O types - osh support"
 LICENSE = "Apache-2.0 & GPL-2.0-only & LGPL-2.1-only"
 
-PV = "2.6.1"
+PV = "2.7.5"
 
-RPM_NAME = "libgensioosh0-2.6.1-1.6.aarch64.rpm"
-RPM_HASH = "24805fd7cc741d00ba99e098280982b145365c4fc2c6bf284b35fba3e363644c3dba6311d3537046e98ce167fd3030cbb205aa05dacff896d37fdd8a60d877d3"
+RPM_NAME = "libgensioosh6-2.7.5-1.1.aarch64.rpm"
+RPM_HASH = "5100cf4364c734583512f123926c3825a266ed44c1003ebf070788d5c44ff292f62fcc00819a14be86ea0a339d729f2bd9b65afae959fd5a84bfc920acbf3ee6"
 
-RPROVIDES:${PN} += "libgensioosh.so.0 \
-libgensioosh0 \
-libgensiooshcpp.so.0"
+RPROVIDES:${PN} += "libgensioosh.so.6 \
+libgensioosh6 \
+libgensiooshcpp.so.6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \

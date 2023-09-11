@@ -4,10 +4,10 @@ and server applications to communicate, and enables the building of \
 connected systems."
 LICENSE = "Apache-2.0"
 
-PV = "1.56.2"
+PV = "1.57.0"
 
-RPM_NAME = "python311-grpcio-1.56.2-1.1.aarch64.rpm"
-RPM_HASH = "3b842d22fb00fb0ee2d42b0724245b9977ca7f28ccf0b97b44ec70cdb73f07bbf8ad97f0e2fe89f139fd8c0255ba3e08d67f4c7f3a87f1151e955dc8536cba61"
+RPM_NAME = "python311-grpcio-1.57.0-1.1.aarch64.rpm"
+RPM_HASH = "5fcfcb52e76433651545e21eea93af1f4b737250271a354b4004049c119ad7bc3a2350184b4406a48e315ee042d87eafa4b7394eb1fd516025c0e69ac349425e"
 
 RPROVIDES:${PN} += "python3-grpcio \
 python3.11dist-grpcio \

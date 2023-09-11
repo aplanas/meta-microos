@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the neccessary files that are required to \
 build plugins for hyprland."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.28.0"
+PV = "0.29.1"
 
-RPM_NAME = "hyprland-devel-0.28.0-1.1.aarch64.rpm"
-RPM_HASH = "610acf25f9117043f1d0325b0034309583f69614792a15cf2e2bbbd674342a03234cd63d52bb9aa97f81b0a755cfbab0b93fb870c5bf494c4e328098d75306a0"
+RPM_NAME = "hyprland-devel-0.29.1-1.1.aarch64.rpm"
+RPM_HASH = "2181b6332d3b237bb5ca5d4eb42ff3cfc7aa9551ce1249dee148f009669fbb203ca790944365610fb8ad451b6eadfb0202fbf8b667a96fdcc5258c895223de8b"
 
 RPROVIDES:${PN} += "hyprland-devel \
 pkgconfig-hyprland"

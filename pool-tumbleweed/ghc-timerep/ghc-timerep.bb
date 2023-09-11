@@ -14,11 +14,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.1.0.0"
 
-RPM_NAME = "ghc-timerep-2.1.0.0-1.11.aarch64.rpm"
-RPM_HASH = "74babb0d734965503eb813f9e76b01ebaab1f715e9c46c01ef94525df5012930231cbcb643e7554126619a3ed229dd315b995f54a3060bfd1ae589f15a71b378"
+RPM_NAME = "ghc-timerep-2.1.0.0-1.12.aarch64.rpm"
+RPM_HASH = "b7e274b38f542352be3503f192d191f3f0d1932144d81a2eac90ed352eb392f04fa7e1ca8d0825e18017ba0ab45c008775a21f167aa79e4378e1ce2c1cf25314"
 
 RPROVIDES:${PN} += "ghc-timerep \
-libHStimerep-2.1.0.0-7Ytum8O35f0BaW4NCEYMdH-ghc9.4.6.so"
+libHStimerep-2.1.0.0-IaSai5sQyvSEzoXHpabvZQ-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
 libHSattoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3-ghc9.4.6.so \
@@ -35,7 +35,7 @@ libHSghc-boot-th-9.4.6-ghc9.4.6.so \
 libHSghc-prim-0.9.1-ghc9.4.6.so \
 libHShashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP-ghc9.4.6.so \
 libHSinteger-logarithms-1.0.3.1-8hVItVgdqFg1uL8b0gbVZO-ghc9.4.6.so \
-libHSmonoid-subclasses-1.2.3-5taTwF7VZKRLlaKR3bOBXt-ghc9.4.6.so \
+libHSmonoid-subclasses-1.2.4-19X6M9mjCjC7gPD9QVvKTU-ghc9.4.6.so \
 libHSpretty-1.1.3.6-ghc9.4.6.so \
 libHSprimes-0.2.1.0-Gyap6mKLPxs4D6ga1tuZTq-ghc9.4.6.so \
 libHSprimitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx-ghc9.4.6.so \

@@ -4,10 +4,10 @@ This module also supports reading lease files from the ISC DHCP daemon \
 running in IPv6 mode."
 LICENSE = "MIT"
 
-PV = "0.9.1"
+PV = "0.10.0"
 
-RPM_NAME = "python39-isc_dhcp_leases-0.9.1-3.5.noarch.rpm"
-RPM_HASH = "94ebbf8840ea6306736582dc02c8920cf9949445d318837ba96cc0cf601263f07ad9ae33bc8f8ebc5c353a27c98ecd4d34190d4911e1aaa06b294ef2e62e9bc7"
+RPM_NAME = "python39-isc_dhcp_leases-0.10.0-1.1.noarch.rpm"
+RPM_HASH = "0f1104d7ae2af46cd3d4fddcee3019aef9580ed497ecd484237f2e665486f7a203333adf57afd4c5af14f122930f65516bfa343540bee4baa6feb9c947d44a18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-isc-dhcp-leases \

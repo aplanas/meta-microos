@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.22.5"
 
-RPM_NAME = "typelib-1_0-GstSdp-1_0-1.22.5-2.1.aarch64.rpm"
-RPM_HASH = "9f5e3f779a0eada78284d4e613067ec26757493bf7e633b9cee71cf4bef06d4cbc568eb068ab1d8971c59c18b49dced4a7c51f626e27c74d062fbf8f3d443753"
+RPM_NAME = "typelib-1_0-GstSdp-1_0-1.22.5-3.1.aarch64.rpm"
+RPM_HASH = "eb781942c93d405ea51bd4723c93d9693a2fe9c3c88dc91a67c0a24d8b25ed571cc92b9732a15f92a1fd00a334a44f7d4f2a53c088a810e9598b5201f78ffb27"
 
 RPROVIDES:${PN} += "typelib-1-0-GstSdp-1-0 \
 typelib-GstSdp"

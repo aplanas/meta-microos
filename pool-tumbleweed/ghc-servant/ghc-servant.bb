@@ -10,11 +10,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.19.1"
 
-RPM_NAME = "ghc-servant-0.19.1-3.4.aarch64.rpm"
-RPM_HASH = "3c121b3a825be500eea236bc6159ad69630e51d76cb9160b1c23058ab6a8fa3d2eaa0e4d9f4916fa8719454e65086bdf2c777341dc204854d4e5a33591832238"
+RPM_NAME = "ghc-servant-0.19.1-3.5.aarch64.rpm"
+RPM_HASH = "72a4396053aac33bfde6e2a44b67c138c7b24439c7ada400196ee9028e69829673186f489cdb1cee16e07b2f196fac555a7a5f1207c4fb40f836bdb349538f5d"
 
 RPROVIDES:${PN} += "ghc-servant \
-libHSservant-0.19.1-3gX0IvlAojJFGwbp2bDTQF-ghc9.4.6.so"
+libHSservant-0.19.1-3wkqjCY5ZM9IhGFtmRnyia-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-5m1ALA0bqJEAQoyOrWBAgI-ghc9.4.6.so \
 libHSQuickCheck-2.14.3-EdzpnPTYr1uH7EoNAOpgI8-ghc9.4.6.so \
@@ -54,7 +54,7 @@ libHSghc-boot-th-9.4.6-ghc9.4.6.so \
 libHSghc-prim-0.9.1-ghc9.4.6.so \
 libHShashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP-ghc9.4.6.so \
 libHShttp-api-data-0.5-9CvKaE1JZO8KjKgwdog9dy-ghc9.4.6.so \
-libHShttp-media-0.8.0.0-5rJoZcqaWn0K15WzbWDvFb-ghc9.4.6.so \
+libHShttp-media-0.8.1.0-COFozQnKf3L2ra0cnOflYd-ghc9.4.6.so \
 libHShttp-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p-ghc9.4.6.so \
 libHSindexed-traversable-0.1.2.1-4MWkBnFErvq3PVvZRvlACO-ghc9.4.6.so \
 libHSindexed-traversable-instances-0.1.1.2-4xmEkkFhOqh6ApH5IPswPQ-ghc9.4.6.so \

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "8.4"
 
-RPM_NAME = "libfrrzmq0-8.4-4.2.aarch64.rpm"
-RPM_HASH = "6411108f5eaa88859d851f9ede86a6f92ccdc337fd22dd10dbff87695d4e52c85a5aab4a80cd723d987b6f0c8de7dac92c22f260cbe5b165f3b5c993d3b82be9"
+RPM_NAME = "libfrrzmq0-8.4-5.1.aarch64.rpm"
+RPM_HASH = "7cdfae94bdd547004e882bfd0afe4a2c68e4c04c1219eec98fe9535c851570a74d3fbd47458bdaeb29f5e711eb6006abe7a3fbf894b109a888b1bc8a76133017"
 
 RPROVIDES:${PN} += "libfrrzmq.so.0 \
 libfrrzmq0"

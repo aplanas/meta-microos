@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.3"
 
-RPM_NAME = "python311-pandas-hdf5-2.0.3-1.2.noarch.rpm"
-RPM_HASH = "13912d0e58072bd4d00821bb77c6b4d0c3f46963e54b9a4734aff82c568aebb9cd79929ff426729a7006b647a5d0fe4781dae7b9f73752550ba4e71fbd2ca4ac"
+RPM_NAME = "python311-pandas-hdf5-2.0.3-1.3.noarch.rpm"
+RPM_HASH = "8ff6d4551e4e6104ae66e797033e1862629e9412f33d7c72c5bdc549387d0ab7948c15e31da4ec133a04511cf89995f14d9c56caf0cca317e70c1eddc3e1b65b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pandas-hdf5 \

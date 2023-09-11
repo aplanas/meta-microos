@@ -8,8 +8,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.3.0"
 
-RPM_NAME = "python310-sphinxcontrib-apidoc-0.3.0-2.3.noarch.rpm"
-RPM_HASH = "26c3b85cc339e1a5b74dee09ed057b60246cd60970936fbd0872d31fff4e3cda927d2ae0d7be075a57b0074de63da4b5f9bc7b7f502de4c0943e53796d7fd044"
+RPM_NAME = "python310-sphinxcontrib-apidoc-0.3.0-3.1.noarch.rpm"
+RPM_HASH = "5ea4b7a053d5eca18348eca368d2aa8c05b48217238ae06fb09e33ee3803c8c3fcebb7ccedd931bf41e6d9552d60c2881871685a8adcd14673c117acd04193ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-sphinxcontrib-apidoc \

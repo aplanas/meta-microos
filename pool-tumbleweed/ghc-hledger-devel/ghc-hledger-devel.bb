@@ -4,10 +4,10 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.28"
 
-RPM_NAME = "ghc-hledger-devel-1.28-3.8.aarch64.rpm"
-RPM_HASH = "f4e0d3d9903af7638d149513e5ee26005ef89e9116a022122bebdf5d1e6074f98b38e18c23a8e2066c8f890717f970089821383c6bfe19ba5e3043fc1b9e054c"
+RPM_NAME = "ghc-hledger-devel-1.28-3.9.aarch64.rpm"
+RPM_HASH = "2c87a548c098ee6f548f07a09b04fba192b25372a18516ad82d598de6965d5bdc7f0cbf1a88c747498f77d56439be7a658f100ad6653e43d068b4904b34d9c57"
 
-RPROVIDES:${PN} += "ghc-devel-hledger-1.28-4j6Av1lDxNh4vKrZ5rOLty \
+RPROVIDES:${PN} += "ghc-devel-hledger-1.28-BB0TqpU146rHgefpsST3hh \
 ghc-hledger-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -27,8 +27,8 @@ ghc-devel-filepath-1.4.2.2 \
 ghc-devel-githash-0.1.7.0-AdGnnqehkm8HwhDMWfn4qF \
 ghc-devel-hashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP \
 ghc-devel-haskeline-0.8.2 \
-ghc-devel-hledger-lib-1.28-54R6ZNBJP1qEEuMb4tYul2 \
-ghc-devel-lucid-2.11.20230408-F37ejAzYfNaC9F9tMADx3y \
+ghc-devel-hledger-lib-1.28-Bb3X1scVuGZKsjeiDSJIAh \
+ghc-devel-lucid-2.11.20230408-4cKgK8hqgER6myHRF5jLTD \
 ghc-devel-math-functions-0.3.4.2-Ke5dPSL1fMD1KAZhy38VGR \
 ghc-devel-megaparsec-9.3.1-Jdwz39dpTDz8anub3eLd49 \
 ghc-devel-microlens-0.4.13.1-4XtL5z7DHHC7UZaR6xNDY3 \
@@ -36,7 +36,7 @@ ghc-devel-mtl-2.2.2 \
 ghc-devel-process-1.6.17.0 \
 ghc-devel-regex-tdfa-1.3.2.2-EFtJwrhEkMb99DdZ6mBzLM \
 ghc-devel-safe-0.3.19-9uHvZjuyLiR13wOGSONZxX \
-ghc-devel-shakespeare-2.0.30-GrImIeltjQZ7T3c163uEiZ \
+ghc-devel-shakespeare-2.0.30-5XHeuGt8JLJENvL2Ahdhem \
 ghc-devel-split-0.2.3.5-J6pekuQs6yKFxqDJQyglHu \
 ghc-devel-tabular-0.2.2.8-6UpIsHxi6ag26Q8LzRReTM \
 ghc-devel-tasty-1.4.3-EvDBAB3nA5D6U1ANfXkHR \

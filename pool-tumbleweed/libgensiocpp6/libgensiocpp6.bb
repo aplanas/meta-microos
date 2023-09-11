@@ -10,21 +10,21 @@ number of network I/O and serial ports. gensios that stack on \
 other gensios are called filters."
 LICENSE = "Apache-2.0 & GPL-2.0-only & LGPL-2.1-only"
 
-PV = "2.6.1"
+PV = "2.7.5"
 
-RPM_NAME = "libgensiocpp4-2.6.1-1.6.aarch64.rpm"
-RPM_HASH = "7cf2139aa8a696a7dca11d1b704258dc1575df553bc48cfd28791c56602d9d8b9c5dfb0defb0c12eb3f7543ad55b3863bee825582950bc67922e79e94a390def"
+RPM_NAME = "libgensiocpp6-2.7.5-1.1.aarch64.rpm"
+RPM_HASH = "685efd7b86978850f61c74ccaa5f9dd89d771a5f2ea2e4222d6f8aacc495107bae5ab7f14295dcbf7ec0b11468b41372c45bd76a600db35de03e7fc620875ee7"
 
-RPROVIDES:${PN} += "libgensiocpp.so.4 \
-libgensiocpp4"
+RPROVIDES:${PN} += "libgensiocpp.so.6 \
+libgensiocpp6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libgensio.so.4 \
-libgensioosh.so.0 \
-libgensiooshcpp.so.0 \
+libgensio.so.6 \
+libgensioosh.so.6 \
+libgensiooshcpp.so.6 \
 libstdc++.so.6"
 
 inherit rpm

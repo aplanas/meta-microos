@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.3"
 
-RPM_NAME = "python39-pandas-2.0.3-1.2.aarch64.rpm"
-RPM_HASH = "e4374939553ab465b3cc1f34cdfadbf3874fb375232c4c4396128348be6fcb8e3e02edc9f6ba3b19ee210297444480f8e3cc1cc2bff2850000aeb87a30199f5d"
+RPM_NAME = "python39-pandas-2.0.3-1.3.aarch64.rpm"
+RPM_HASH = "e15131160a93677eed1f3537a42d85a1a4a69a6887a0417e62b82de660f34e905f8c603c769ac2226ed090524225476e1e380ef4b14de7b7d3d1b20ea7e40cb2"
 
 RPROVIDES:${PN} += "lib.cpython-39-aarch64-linux-gnu.so \
 python3.9dist-pandas \

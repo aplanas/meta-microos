@@ -33,11 +33,11 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.29"
 
-RPM_NAME = "ghc-dbus-1.2.29-1.7.aarch64.rpm"
-RPM_HASH = "8c6d00c8e6b9d4515b02e8c119c302ef609a730446c85a197f89ffd5f645ff1aecc3d9c609b70bcf330e042be0377c6f29b81791d5e86511840ad9185c523310"
+RPM_NAME = "ghc-dbus-1.2.29-1.8.aarch64.rpm"
+RPM_HASH = "6742b1073c51071fe2b2e1874110e83f1c44fd8ddc6d167c75342016aa759c6c20a6e7bbddd86efcf2666f2533b10f94b158e2d08ef3900ed7c2a2695117bf24"
 
 RPROVIDES:${PN} += "ghc-dbus \
-libHSdbus-1.2.29-AAIySIFW0zz7mxLdRwt0V6-ghc9.4.6.so"
+libHSdbus-1.2.29-4DkBnpH77ZuFg2GqtR0zJs-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSOneTuple-0.4.1.1-5m1ALA0bqJEAQoyOrWBAgI-ghc9.4.6.so \
 libHSStateVar-1.2.2-8Hv9klK7mv0HId52XsoM7J-ghc9.4.6.so \
@@ -52,9 +52,9 @@ libHSbase-orphans-0.8.8.2-Ace67bhQsJ1lQVihVIKZ5-ghc9.4.6.so \
 libHSbifunctors-5.5.15-KUw4gCd9iBfLph9IFStYJY-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
 libHSbitvec-1.1.5.0-4n2vDaVO5x4GAoTGOlyPxS-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
-libHSblaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX-ghc9.4.6.so \
-libHSblaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
+libHSblaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii-ghc9.4.6.so \
+libHSblaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP-ghc9.4.6.so \
 libHSbytestring-0.11.5.1-ghc9.4.6.so \
 libHScall-stack-0.4.0-nQZfFxinEdIa1BWxMyadt-ghc9.4.6.so \
 libHScereal-0.5.8.3-BmWUcZuhGTnIupxReuIO3I-ghc9.4.6.so \
@@ -80,7 +80,7 @@ libHSindexed-traversable-instances-0.1.1.2-4xmEkkFhOqh6ApH5IPswPQ-ghc9.4.6.so \
 libHSinteger-logarithms-1.0.3.1-8hVItVgdqFg1uL8b0gbVZO-ghc9.4.6.so \
 libHSinvariant-0.6.2-1eF4QVqz69AFovgmNz4wk7-ghc9.4.6.so \
 libHSkan-extensions-5.2.5-8EOcrvzPSBS2QFPhIHEfWy-ghc9.4.6.so \
-libHSlens-5.2.2-9FQiMfULngUCqLz60VkKPe-ghc9.4.6.so \
+libHSlens-5.2.3-77wBUrzlfuWHQNAaqkfvdZ-ghc9.4.6.so \
 libHSmono-traversable-1.0.15.3-LJDObfSqMuwFAwfZMa8qoW-ghc9.4.6.so \
 libHSmtl-2.2.2-ghc9.4.6.so \
 libHSnetwork-3.1.4.0-5p1NVWLTlrvDdAAI1mskSs-ghc9.4.6.so \
@@ -119,7 +119,7 @@ libHSvector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku-ghc9.4.6.so \
 libHSvector-algorithms-0.9.0.1-98Yktb3BX9p4L0Cowik6Gr-ghc9.4.6.so \
 libHSvector-stream-0.1.0.0-8LsAqgetBjY3tBdh3HDYEB-ghc9.4.6.so \
 libHSvoid-0.7.3-GhXmDKlBHl0LbXoxVMxAU0-ghc9.4.6.so \
-libHSxml-conduit-1.9.1.3-DDoR4rlzTH6QSHmFsTVd9-ghc9.4.6.so \
+libHSxml-conduit-1.9.1.3-2cOMN3SNzhLD8DxEiNBrwq-ghc9.4.6.so \
 libHSxml-types-0.3.8-8dFL1RqlGPRJfvDIVn7kl6-ghc9.4.6.so \
 libHSzlib-0.6.3.0-ENQBvbHWSlQ4ss0TzRHRuj-ghc9.4.6.so \
 libc.so.6 \

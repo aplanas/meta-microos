@@ -10,11 +10,11 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.13.4.1"
 
-RPM_NAME = "ghc-skylighting-0.13.4.1-1.5.aarch64.rpm"
-RPM_HASH = "e182a83cb7a3cf210757f0fe94a3e3810761609ed9e2acf317941f247a5698c4daa4c1ba745f96d2232e2d6f0149ee99ce3f87c0d30ca0b7a2e2c8db2cce7d23"
+RPM_NAME = "ghc-skylighting-0.13.4.1-1.6.aarch64.rpm"
+RPM_HASH = "a0c3dc2a0b82af2a07da9f5b5bc01314a11c4479d829d8d3fd5cfbd19d9dc0f89942156a7aa9c27f0f40849ebbb9561b251001a213d719250e39d5678d1f8cdf"
 
 RPROVIDES:${PN} += "ghc-skylighting \
-libHSskylighting-0.13.4.1-3SOo9dVatPFFF0udKykjgy-ghc9.4.6.so"
+libHSskylighting-0.13.4.1-154hDBm9lstJ5eMNDkHcA5-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libHSOneTuple-0.4.1.1-5m1ALA0bqJEAQoyOrWBAgI-ghc9.4.6.so \
@@ -36,9 +36,9 @@ libHSbase64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM-ghc9.4.6.so \
 libHSbifunctors-5.5.15-KUw4gCd9iBfLph9IFStYJY-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
 libHSbitvec-1.1.5.0-4n2vDaVO5x4GAoTGOlyPxS-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
-libHSblaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX-ghc9.4.6.so \
-libHSblaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
+libHSblaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii-ghc9.4.6.so \
+libHSblaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP-ghc9.4.6.so \
 libHSbytestring-0.11.5.1-ghc9.4.6.so \
 libHScase-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9-ghc9.4.6.so \
 libHScolour-2.3.6-GBcey48GJNAK3398XtiZDq-ghc9.4.6.so \
@@ -76,11 +76,11 @@ libHSsafe-0.3.19-9uHvZjuyLiR13wOGSONZxX-ghc9.4.6.so \
 libHSscientific-0.3.7.0-2FbzCTQ2hp2GeCo5OsVSzz-ghc9.4.6.so \
 libHSsemialign-1.3-6anmyujTzjW8JKdJGWMlmE-ghc9.4.6.so \
 libHSsemigroupoids-5.3.7-H606qAbQOgNCZ5aAzkCf0g-ghc9.4.6.so \
-libHSskylighting-core-0.13.4.1-Hz9bNgtQKIrCLRLiqtSBj1-ghc9.4.6.so \
-libHSskylighting-format-ansi-0.1-6YWd7hT12ae6ct6gjoY3vc-ghc9.4.6.so \
-libHSskylighting-format-blaze-html-0.1.1-IxxFYeMhOngAXP1tckorZR-ghc9.4.6.so \
-libHSskylighting-format-context-0.1.0.2-DKquH4NR4zs5BA4tBpnI9m-ghc9.4.6.so \
-libHSskylighting-format-latex-0.1-88rCuL9rp0NWp0m2geBsy-ghc9.4.6.so \
+libHSskylighting-core-0.13.4.1-LOkep7AnSNN7QJDAXr031n-ghc9.4.6.so \
+libHSskylighting-format-ansi-0.1-8FyF1SOujOsEQ3XyvF7m1i-ghc9.4.6.so \
+libHSskylighting-format-blaze-html-0.1.1.1-8h5SzfFcahBGtm6dLTrui7-ghc9.4.6.so \
+libHSskylighting-format-context-0.1.0.2-4E6TECMrJ1JH7PHte3jxUC-ghc9.4.6.so \
+libHSskylighting-format-latex-0.1-8a642fGNkPX9imnZQBlyrP-ghc9.4.6.so \
 libHSsplit-0.2.3.5-J6pekuQs6yKFxqDJQyglHu-ghc9.4.6.so \
 libHSsplitmix-0.1.0.4-2jzLu9hw0mWH5mdbN14y0O-ghc9.4.6.so \
 libHSstm-2.5.1.0-ghc9.4.6.so \
@@ -106,7 +106,7 @@ libHSvector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku-ghc9.4.6.so \
 libHSvector-algorithms-0.9.0.1-98Yktb3BX9p4L0Cowik6Gr-ghc9.4.6.so \
 libHSvector-stream-0.1.0.0-8LsAqgetBjY3tBdh3HDYEB-ghc9.4.6.so \
 libHSwitherable-0.4.2-4so4KYid1UG9PchOfa6Iqw-ghc9.4.6.so \
-libHSxml-conduit-1.9.1.3-DDoR4rlzTH6QSHmFsTVd9-ghc9.4.6.so \
+libHSxml-conduit-1.9.1.3-2cOMN3SNzhLD8DxEiNBrwq-ghc9.4.6.so \
 libHSxml-types-0.3.8-8dFL1RqlGPRJfvDIVn7kl6-ghc9.4.6.so \
 libHSzlib-0.6.3.0-ENQBvbHWSlQ4ss0TzRHRuj-ghc9.4.6.so \
 libc.so.6 \

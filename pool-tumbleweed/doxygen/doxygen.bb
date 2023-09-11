@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
 PV = "1.9.6"
 
-RPM_NAME = "doxygen-1.9.6-4.2.aarch64.rpm"
-RPM_HASH = "193b15074aab713911a20ea922a9ac1f853e2e276e3e5a8577e7a10ad4241989f96de778423ed0caba35b1580a321364e31bf4baf00409d00de72589a3e0326f"
+RPM_NAME = "doxygen-1.9.6-5.1.aarch64.rpm"
+RPM_HASH = "615a935a1c6a490bbaa83e2c29d23de218080ac51ddc85575719ca41d48f10e3234faf503091fddc45fbea70689033863c49cbdb4e7062f602df51d25dfa1cda"
 
 RPROVIDES:${PN} += "doxygen"
 

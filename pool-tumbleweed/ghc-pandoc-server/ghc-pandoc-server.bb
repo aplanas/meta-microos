@@ -3,13 +3,13 @@ DESCRIPTION = "Pandoc-server provides pandoc's document conversion functions in 
 server."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.1.0.2"
+PV = "0.1.0.3"
 
-RPM_NAME = "ghc-pandoc-server-0.1.0.2-1.2.aarch64.rpm"
-RPM_HASH = "fd8cc06d335319c3894cffe6dd1d3173d7348748841b7a02188b16c242db7e90c44d59435c84cc8925b745e3208e282934216cf35c3711c428f47b11a6713409"
+RPM_NAME = "ghc-pandoc-server-0.1.0.3-1.1.aarch64.rpm"
+RPM_HASH = "db6a66de9a0ac384b6d23a9aa5b1444718f34d8412214a214d53057ed033ee7d2be0722b9ac2000fc77c20c9b91cd68544ae5084c55d430ceb58e6f83852cf59"
 
 RPROVIDES:${PN} += "ghc-pandoc-server \
-libHSpandoc-server-0.1.0.2-I6Hiy1wFBK737EtmGUgIxB-ghc9.4.6.so"
+libHSpandoc-server-0.1.0.3-AhXF1lRMuRZJmknTamhUUB-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSGlob-0.10.2-96NxBWCYICFFsqKvc9eqpc-ghc9.4.6.so \
 libHSHUnit-1.6.2.0-3fsauNNRJvI5u5lqiyApf4-ghc9.4.6.so \
@@ -46,9 +46,9 @@ libHSbasement-0.0.16-JDtFhm6hoERETf7Hqk4dh9-ghc9.4.6.so \
 libHSbifunctors-5.5.15-KUw4gCd9iBfLph9IFStYJY-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
 libHSbitvec-1.1.5.0-4n2vDaVO5x4GAoTGOlyPxS-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
-libHSblaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX-ghc9.4.6.so \
-libHSblaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
+libHSblaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii-ghc9.4.6.so \
+libHSblaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP-ghc9.4.6.so \
 libHSboring-0.2.1-8UoR96J8uAp13B13xTdCnI-ghc9.4.6.so \
 libHSbsb-http-chunked-0.0.0.4-6Uz6ZfX3tBC2nOluTU0Lnf-ghc9.4.6.so \
 libHSbyteorder-1.0.4-HgduUBa2I8KG54Jejj0SY0-ghc9.4.6.so \
@@ -57,7 +57,7 @@ libHScall-stack-0.4.0-nQZfFxinEdIa1BWxMyadt-ghc9.4.6.so \
 libHScase-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9-ghc9.4.6.so \
 libHScassava-0.5.3.0-3BxMB2hl3TbBsSJkTsXVLP-ghc9.4.6.so \
 libHScereal-0.5.8.3-BmWUcZuhGTnIupxReuIO3I-ghc9.4.6.so \
-libHSciteproc-0.8.1-D6MAOBfduqd1r1TVF002aA-ghc9.4.6.so \
+libHSciteproc-0.8.1-2pX9OkWyX7lDXHT1UDpuWJ-ghc9.4.6.so \
 libHScolour-2.3.6-GBcey48GJNAK3398XtiZDq-ghc9.4.6.so \
 libHScommonmark-0.2.3-6HyB59I8Umx9O57gNLEHWR-ghc9.4.6.so \
 libHScommonmark-extensions-0.2.3.5-8zB7Un6TRyL3aLmtEaucGr-ghc9.4.6.so \
@@ -102,10 +102,10 @@ libHShashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP-ghc9.4.6.so \
 libHShaskell-lexer-1.1.1-C14Cmw3wUWQ88vb32sfZ2Z-ghc9.4.6.so \
 libHShourglass-0.2.12-DDTIHdRSu369xxYEqSFzho-ghc9.4.6.so \
 libHShttp-api-data-0.5-9CvKaE1JZO8KjKgwdog9dy-ghc9.4.6.so \
-libHShttp-client-0.7.14-DEHi4b5z3Pa56fFNKIs9J1-ghc9.4.6.so \
-libHShttp-client-tls-0.3.6.1-FlsMdDWaVoFLIhxPfXPqPa-ghc9.4.6.so \
+libHShttp-client-0.7.14-ElkaPC2YNimBwgzZzglgPe-ghc9.4.6.so \
+libHShttp-client-tls-0.3.6.1-AsHsMYKW0OIKZ6XVfzITj1-ghc9.4.6.so \
 libHShttp-date-0.0.11-HoNgmNPQQe1ErFjujEoPyv-ghc9.4.6.so \
-libHShttp-media-0.8.0.0-5rJoZcqaWn0K15WzbWDvFb-ghc9.4.6.so \
+libHShttp-media-0.8.1.0-COFozQnKf3L2ra0cnOflYd-ghc9.4.6.so \
 libHShttp-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p-ghc9.4.6.so \
 libHShttp2-3.0.3-41eYSHbDrcoAjUXjlws3pm-ghc9.4.6.so \
 libHSindexed-traversable-0.1.2.1-4MWkBnFErvq3PVvZRvlACO-ghc9.4.6.so \
@@ -129,8 +129,8 @@ libHSold-locale-1.0.0.7-GoDuSK2NybfD0MMe75QkJk-ghc9.4.6.so \
 libHSold-time-1.1.0.3-EO4BkAubfN4CLCS9qF8OKw-ghc9.4.6.so \
 libHSoptparse-applicative-0.18.1.0-7FhZIXYdOMtK1gl2fqKmzm-ghc9.4.6.so \
 libHSordered-containers-0.2.3-2crAZfphMSgLuheOQx40mM-ghc9.4.6.so \
-libHSpandoc-3.1.3-3qp3YNUvImv4Np7s1jfaFL-xml-light-ghc9.4.6.so \
-libHSpandoc-3.1.3-DH3GNUoUN8j8vzRMH3Lho2-ghc9.4.6.so \
+libHSpandoc-3.1.3-7SpHdPApqTYJphV8bknLiB-xml-light-ghc9.4.6.so \
+libHSpandoc-3.1.3-vrz2YBr4KqIJ1o9bFBvzp-ghc9.4.6.so \
 libHSpandoc-types-1.23.1-8yEOjBSLsT62OPTXI0FZpc-ghc9.4.6.so \
 libHSparsec-3.1.16.1-ghc9.4.6.so \
 libHSpem-0.2.4-F5Ih0vrB4sf5XALvrxfus2-ghc9.4.6.so \
@@ -151,16 +151,16 @@ libHSsafe-exceptions-0.1.7.4-AmShSL4jn3220svzMELB6r-ghc9.4.6.so \
 libHSscientific-0.3.7.0-2FbzCTQ2hp2GeCo5OsVSzz-ghc9.4.6.so \
 libHSsemialign-1.3-6anmyujTzjW8JKdJGWMlmE-ghc9.4.6.so \
 libHSsemigroupoids-5.3.7-H606qAbQOgNCZ5aAzkCf0g-ghc9.4.6.so \
-libHSservant-0.19.1-3gX0IvlAojJFGwbp2bDTQF-ghc9.4.6.so \
-libHSservant-server-0.19.2-7444o9ZjHDc4tKFECJOEz2-ghc9.4.6.so \
+libHSservant-0.19.1-3wkqjCY5ZM9IhGFtmRnyia-ghc9.4.6.so \
+libHSservant-server-0.19.2-7mZwAKg13bTKiqPrqXFWN4-ghc9.4.6.so \
 libHSsimple-sendfile-0.2.32-Jkz6BAomm8GAcovJHWebTs-ghc9.4.6.so \
 libHSsingleton-bool-0.1.6-32zI19nhSdNCZbR5BPJbeE-ghc9.4.6.so \
-libHSskylighting-0.13.4.1-3SOo9dVatPFFF0udKykjgy-ghc9.4.6.so \
-libHSskylighting-core-0.13.4.1-Hz9bNgtQKIrCLRLiqtSBj1-ghc9.4.6.so \
-libHSskylighting-format-ansi-0.1-6YWd7hT12ae6ct6gjoY3vc-ghc9.4.6.so \
-libHSskylighting-format-blaze-html-0.1.1-IxxFYeMhOngAXP1tckorZR-ghc9.4.6.so \
-libHSskylighting-format-context-0.1.0.2-DKquH4NR4zs5BA4tBpnI9m-ghc9.4.6.so \
-libHSskylighting-format-latex-0.1-88rCuL9rp0NWp0m2geBsy-ghc9.4.6.so \
+libHSskylighting-0.13.4.1-154hDBm9lstJ5eMNDkHcA5-ghc9.4.6.so \
+libHSskylighting-core-0.13.4.1-LOkep7AnSNN7QJDAXr031n-ghc9.4.6.so \
+libHSskylighting-format-ansi-0.1-8FyF1SOujOsEQ3XyvF7m1i-ghc9.4.6.so \
+libHSskylighting-format-blaze-html-0.1.1.1-8h5SzfFcahBGtm6dLTrui7-ghc9.4.6.so \
+libHSskylighting-format-context-0.1.0.2-4E6TECMrJ1JH7PHte3jxUC-ghc9.4.6.so \
+libHSskylighting-format-latex-0.1-8a642fGNkPX9imnZQBlyrP-ghc9.4.6.so \
 libHSsocks-0.6.1-5RVEIbYAf8qJqchdUVHVHw-ghc9.4.6.so \
 libHSsome-1.0.5-EryUniFNYOB2ktd7SoyKUW-ghc9.4.6.so \
 libHSsop-core-0.5.0.2-4Gqw6OnhbZAJM3BBTi5hGD-ghc9.4.6.so \
@@ -175,7 +175,7 @@ libHStagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax-ghc9.4.6.so \
 libHStagsoup-0.14.8-FUMcGuRz5feAeL2vCCRpAn-ghc9.4.6.so \
 libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
 libHStemporary-1.3-Ezu2TwUgvSS2TpaVIHxXuR-ghc9.4.6.so \
-libHStexmath-0.12.8-4XHW2MeUv8XDrGEniW8iCo-ghc9.4.6.so \
+libHStexmath-0.12.8.1-3LxXxmLvAtyApeIh6UJCwI-ghc9.4.6.so \
 libHStext-2.0.2-ghc9.4.6.so \
 libHStext-conversions-0.3.1.1-HJG9QLMf9pVESk7Lf3iSH7-ghc9.4.6.so \
 libHStext-short-0.1.5-1JafpcPTh6A5I5aikDr3ez-ghc9.4.6.so \
@@ -193,9 +193,9 @@ libHStransformers-base-0.4.6-FmWhyTNhU3u3qYTd28DG44-ghc9.4.6.so \
 libHStransformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM-ghc9.4.6.so \
 libHStype-equality-1-GeDZojRKCH6645jDbV5JLU-ghc9.4.6.so \
 libHStyped-process-0.2.11.0-D02VU1fccqSD0M6BP6Pfz9-ghc9.4.6.so \
-libHStypst-0.1.0.0-2jeJx4H6IsHkPaNZ5Ucvx-ghc9.4.6.so \
-libHStypst-symbols-0.1.2-3u6ALqSoiYt5j197EL0vRB-ghc9.4.6.so \
-libHSunicode-collation-0.1.3.4-DqHFcwJyC4MIpiT6hQTOCQ-ghc9.4.6.so \
+libHStypst-0.1.0.0-Fmp2IG7sNnSDScnnN1f3Kg-ghc9.4.6.so \
+libHStypst-symbols-0.1.4-JaoP2leChnCACsgYhrK1kO-ghc9.4.6.so \
+libHSunicode-collation-0.1.3.5-IFdGKnlU7nK53rXIDeXQnQ-ghc9.4.6.so \
 libHSunicode-data-0.4.0.1-DXmKFuEq71jAHQO9x7NPr-ghc9.4.6.so \
 libHSunicode-transforms-0.4.0.1-64QTLPchVoAx7KWqlUk24-ghc9.4.6.so \
 libHSuniplate-1.6.13-EEjCQACslljIQmS3K29CqX-ghc9.4.6.so \
@@ -212,7 +212,7 @@ libHSvector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku-ghc9.4.6.so \
 libHSvector-algorithms-0.9.0.1-98Yktb3BX9p4L0Cowik6Gr-ghc9.4.6.so \
 libHSvector-stream-0.1.0.0-8LsAqgetBjY3tBdh3HDYEB-ghc9.4.6.so \
 libHSwai-3.2.3-JhFX1996sswH7nU4MZQSow-ghc9.4.6.so \
-libHSwai-app-static-3.1.7.4-4gPGtaPPrElL5voDUXdKV2-ghc9.4.6.so \
+libHSwai-app-static-3.1.7.4-GYm23xVACFBKSbu1JkCZl2-ghc9.4.6.so \
 libHSwai-cors-0.2.7-J2u6IKYmeDEH7p5Hhrx22i-ghc9.4.6.so \
 libHSwai-extra-3.1.13.0-7b9ndOLV0UtHl4QVen1kNF-ghc9.4.6.so \
 libHSwai-logger-2.4.0-9HbB2lkmWIvBhHGAMxm4Zs-ghc9.4.6.so \
@@ -224,7 +224,7 @@ libHSx509-store-1.6.9-LlMGA7EC0Rw1u8xijDLJr9-ghc9.4.6.so \
 libHSx509-system-1.6.7-1XvIorlhEdrAudn5lZUzwY-ghc9.4.6.so \
 libHSx509-validation-1.6.12-2BCfCxJkKCuIEN8YGAOqI4-ghc9.4.6.so \
 libHSxml-1.3.14-JgZFWdUND2BGObIBmJlnFJ-ghc9.4.6.so \
-libHSxml-conduit-1.9.1.3-DDoR4rlzTH6QSHmFsTVd9-ghc9.4.6.so \
+libHSxml-conduit-1.9.1.3-2cOMN3SNzhLD8DxEiNBrwq-ghc9.4.6.so \
 libHSxml-types-0.3.8-8dFL1RqlGPRJfvDIVn7kl6-ghc9.4.6.so \
 libHSyaml-0.11.11.2-A2RJT0EorR9GrZjUq6QELM-ghc9.4.6.so \
 libHSzip-archive-0.4.3-BovVKNnvnsMG9XB1oXeV8K-ghc9.4.6.so \

@@ -12,13 +12,13 @@ drop-in replacement for Data.Binary.Builder, which it improves upon both in \
 speed as well as expressivity."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.2.2"
+PV = "0.4.2.3"
 
-RPM_NAME = "ghc-blaze-builder-0.4.2.2-3.8.aarch64.rpm"
-RPM_HASH = "d9a91eee0deb11e43e3d1d2515383b0f48b786c8e7f514de4362b5e06af02cf61a7d7298b32d6d287e1760306ba96d3d46a1840d484f0cacad2afa85f3270df5"
+RPM_NAME = "ghc-blaze-builder-0.4.2.3-1.1.aarch64.rpm"
+RPM_HASH = "e35593a8eb9ec2a2a3fede798a00257b59ce46a3b9465dd8c72e285af7fed4b2cd7efa28021d8447435aa53e3fbc102fa2cd59fb27784cf52faf9e00c99a786d"
 
 RPROVIDES:${PN} += "ghc-blaze-builder \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so"
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
 libHSbase-4.17.2.0-ghc9.4.6.so \

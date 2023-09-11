@@ -3,10 +3,10 @@ DESCRIPTION = "Advanced Gtk+ Sequencer is an audio sequencer application. \
 This package provides the GObject Introspection bindings for Libags."
 LICENSE = "AGPL-3.0-or-later & GPL-3.0-or-later & GFDL-1.3-only"
 
-PV = "6.0.1"
+PV = "6.0.8"
 
-RPM_NAME = "typelib-1_0-Libags-6_0-6.0.1-1.1.aarch64.rpm"
-RPM_HASH = "baf8cce57d27a47f27b0d931563ddec57f731dd9d64b496460c418b55c0f0c1031f4886e68ca581f551e367997424c4dc5da2f6d6a583ce7de289c5b970d5358"
+RPM_NAME = "typelib-1_0-Libags-6_0-6.0.8-1.1.aarch64.rpm"
+RPM_HASH = "b3bba92ab908cee90e24b0a5338d98fe43813374b73a46f332edf3f1c645619863c21e4e66021542adc6503f5506fd14cdc3975c1bb67b28ec7fe426f3b0fe1e"
 
 RPROVIDES:${PN} += "typelib-1-0-Libags-6-0 \
 typelib-Ags \

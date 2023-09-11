@@ -5,10 +5,10 @@ DiskCache is a disk and file backed cache library, written \
 in pure Python, and compatible with Django."
 LICENSE = "Apache-2.0"
 
-PV = "5.6.1"
+PV = "5.6.3"
 
-RPM_NAME = "python311-diskcache-5.6.1-1.3.noarch.rpm"
-RPM_HASH = "22db0c967873cc74649290619c601a5ca8fa367f2aa046127919919eb220d6ad950f699014d0e3a2370f7c02a936323c68778e47c5358a3b5fa447e04b605c74"
+RPM_NAME = "python311-diskcache-5.6.3-1.1.noarch.rpm"
+RPM_HASH = "c22359a48b584022814b417f25872d4a477f30588caffa95ab0e1c67f795a9f2299ef5cff439a4c7b01ca67496014d5045b1558c3dc7e0b2688286d16fe74737"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-diskcache \

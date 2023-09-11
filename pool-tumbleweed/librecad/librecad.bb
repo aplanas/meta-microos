@@ -3,16 +3,15 @@ DESCRIPTION = "LibreCAD is a Qt Computer-aided design (CAD) software package for
 and drafting."
 LICENSE = "(Apache-2.0 | SUSE-GPL-3.0+-with-font-exception) & GPL-2.0-only"
 
-PV = "2.2.0"
+PV = "2.2.0.2"
 
-RPM_NAME = "librecad-2.2.0-1.4.aarch64.rpm"
-RPM_HASH = "5a18f0f9a7f571653c126706cbf7c18800c80a33002c422c81af3dc7d7aee7616be83d9e3286009000fa1549b4b49cbf1964bb548b1401b43bc349d1afd2d91c"
+RPM_NAME = "librecad-2.2.0.2-1.1.aarch64.rpm"
+RPM_HASH = "87fba25029454e72023fe442662812bb21f13202fe1dbc27848206288050dd7c9b31384a6c842e19235667f0d0f35c556622cf7e487f8c1c90416f82e1ea7189"
 
 RPROVIDES:${PN} += "libalign.so \
 libasciifile.so \
 libdivide.so \
 libgear.so \
-libimportshp.so \
 liblist.so \
 libpicfile.so \
 libplotequation.so \
@@ -33,7 +32,6 @@ libfreetype.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libmuparser.so.2.3.4 \
-libshp.so.2 \
 libstdc++.so.6 \
 shared-mime-info"
 

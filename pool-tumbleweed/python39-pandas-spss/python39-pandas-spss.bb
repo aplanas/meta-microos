@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.3"
 
-RPM_NAME = "python39-pandas-spss-2.0.3-1.2.noarch.rpm"
-RPM_HASH = "d29314b4bcbb082eace00d598279d63175259b878eda9dba7ad5e779ee2905100ca14f2dfcd7384b1d2eacaae5ec785a77c734747d0ea88e1587135b7517bde4"
+RPM_NAME = "python39-pandas-spss-2.0.3-1.3.noarch.rpm"
+RPM_HASH = "c9cf56472ed6086aa1137d46df7eb405e4c7d74949913520dc58de93b1a3791b828db81cb6bf64d0ab4eb1724288583367a8aac63a3ac4a1c54e0a5b6d497548"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pandas-spss"

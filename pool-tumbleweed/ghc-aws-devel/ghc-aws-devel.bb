@@ -4,11 +4,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.23"
 
-RPM_NAME = "ghc-aws-devel-0.23-1.11.aarch64.rpm"
-RPM_HASH = "91098fd92e5fd0e898f59d75d7f95190099189b0ab4d7649a2f56c69d328e782696ef27888334a3435b46e7ae0d45213948ae9de48ab45e262d53f9577326468"
+RPM_NAME = "ghc-aws-devel-0.23-1.12.aarch64.rpm"
+RPM_HASH = "4698c47816e436a874ec6aa3830d7ee876c066246677e3ec0cab3f9bdaa4423a6ff081564665f9db8b1cc7d04f52bd74b286aca786798cfababfa73bb36ca4c8"
 
 RPROVIDES:${PN} += "ghc-aws-devel \
-ghc-devel-aws-0.23-KtW1Qdv58Ot78FTxKP1DMo"
+ghc-devel-aws-0.23-HdeBcdbfKgr4m08UK8ha5W"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-aws \
@@ -18,7 +18,7 @@ ghc-devel-attoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3 \
 ghc-devel-base-4.17.2.0 \
 ghc-devel-base16-bytestring-1.0.2.0-LI31ya5OMpR4awBMr256aJ \
 ghc-devel-base64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM \
-ghc-devel-blaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h \
+ghc-devel-blaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND \
 ghc-devel-byteable-0.1.1-D4ZAyAuZ5dZDp71hQtTs5r \
 ghc-devel-bytestring-0.11.5.1 \
 ghc-devel-case-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9 \
@@ -31,8 +31,8 @@ ghc-devel-data-default-0.7.1.1-4TeAZDN81Uu1IorgFaPMOc \
 ghc-devel-directory-1.3.7.1 \
 ghc-devel-exceptions-0.10.5 \
 ghc-devel-filepath-1.4.2.2 \
-ghc-devel-http-client-tls-0.3.6.1-FlsMdDWaVoFLIhxPfXPqPa \
-ghc-devel-http-conduit-2.3.8.2-JL53aegdUXo82DAJNh0Sqj \
+ghc-devel-http-client-tls-0.3.6.1-AsHsMYKW0OIKZ6XVfzITj1 \
+ghc-devel-http-conduit-2.3.8.2-Aom8RblFK6RqEIyPgp71L \
 ghc-devel-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
 ghc-devel-lifted-base-0.2.3.12-8AMs8PuCeaLKJwoieZv4GI \
 ghc-devel-memory-0.18.0-6jbQrbksm9m3FIftlSlmf1 \
@@ -51,6 +51,6 @@ ghc-devel-transformers-0.5.6.2 \
 ghc-devel-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
 ghc-devel-utf8-string-1.0.2-26mnfHz4IgtDU2rLQciXDs \
 ghc-devel-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku \
-ghc-devel-xml-conduit-1.9.1.3-DDoR4rlzTH6QSHmFsTVd9"
+ghc-devel-xml-conduit-1.9.1.3-2cOMN3SNzhLD8DxEiNBrwq"
 
 inherit rpm

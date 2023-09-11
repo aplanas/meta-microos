@@ -2,13 +2,13 @@ SUMMARY = "Haskell blaze-builder profiling library"
 DESCRIPTION = "This package provides the Haskell blaze-builder profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.2.2"
+PV = "0.4.2.3"
 
-RPM_NAME = "ghc-blaze-builder-prof-0.4.2.2-3.8.aarch64.rpm"
-RPM_HASH = "8d03fc5a13295fdba260a50be3871d2309aace971c69e54b773c7d08abc3347ba6c03c6abb0b0d0de38a5eef71f0a6239bfa1addedccb542b134d0fdcc0641a7"
+RPM_NAME = "ghc-blaze-builder-prof-0.4.2.3-1.1.aarch64.rpm"
+RPM_HASH = "4a12a832a9ecda38d045c68c9ded54cd6c56141b967ece5e23b4e36e9eef7a788a0ec091f4ed01b66aa6a880f62934a359b079a7270d22360dd4406faa753f62"
 
 RPROVIDES:${PN} += "ghc-blaze-builder-prof \
-ghc-prof-blaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h"
+ghc-prof-blaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND"
 
 RDEPENDS:${PN} += "ghc-blaze-builder-devel \
 ghc-prof-base-4.17.2.0 \

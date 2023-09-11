@@ -5,11 +5,11 @@ LICENSE = "MIT"
 
 PV = "1.6.24.4"
 
-RPM_NAME = "ghc-yesod-core-1.6.24.4-1.6.aarch64.rpm"
-RPM_HASH = "b0014ddc2fbc1a417fee0513b5f1dd4080d803522892a48d23d91109a334a7dee91bd21ee4db9f0f258f44484e182ff2cbcf483b9793abc088619526a717e630"
+RPM_NAME = "ghc-yesod-core-1.6.24.4-1.7.aarch64.rpm"
+RPM_HASH = "4a2ec6ddee70a5d04e00ff669169e738e322388c107f30d01a5cfaa588d638befd8a91e896c71083f76071e7a86b021f43be122b5e3fa74fe8b66825dd20f608"
 
 RPROVIDES:${PN} += "ghc-yesod-core \
-libHSyesod-core-1.6.24.4-cvcp8TZ1QYG0IH58f6f1F-ghc9.4.6.so"
+libHSyesod-core-1.6.24.4-1di0EYNbRAz9TOkBiAT5Ab-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSHUnit-1.6.2.0-3fsauNNRJvI5u5lqiyApf4-ghc9.4.6.so \
 libHSOneTuple-0.4.1.1-5m1ALA0bqJEAQoyOrWBAgI-ghc9.4.6.so \
@@ -37,9 +37,9 @@ libHSbasement-0.0.16-JDtFhm6hoERETf7Hqk4dh9-ghc9.4.6.so \
 libHSbifunctors-5.5.15-KUw4gCd9iBfLph9IFStYJY-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
 libHSbitvec-1.1.5.0-4n2vDaVO5x4GAoTGOlyPxS-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
-libHSblaze-html-0.9.1.2-7UiwTnqTAqaHumXjuOqwSX-ghc9.4.6.so \
-libHSblaze-markup-0.8.2.8-FMWPznpLq5tCe2Goi5eAy9-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
+libHSblaze-html-0.9.1.2-5H8nSo5QBpfC5vHZY7C1Ii-ghc9.4.6.so \
+libHSblaze-markup-0.8.2.8-BmGeri7A4mfLP1PbPCfNFP-ghc9.4.6.so \
 libHSbsb-http-chunked-0.0.0.4-6Uz6ZfX3tBC2nOluTU0Lnf-ghc9.4.6.so \
 libHSbyteorder-1.0.4-HgduUBa2I8KG54Jejj0SY0-ghc9.4.6.so \
 libHSbytestring-0.11.5.1-ghc9.4.6.so \
@@ -109,7 +109,7 @@ libHSscientific-0.3.7.0-2FbzCTQ2hp2GeCo5OsVSzz-ghc9.4.6.so \
 libHSsemialign-1.3-6anmyujTzjW8JKdJGWMlmE-ghc9.4.6.so \
 libHSsemigroupoids-5.3.7-H606qAbQOgNCZ5aAzkCf0g-ghc9.4.6.so \
 libHSsetenv-0.1.1.3-5X2tG8kGRXiEiTQvekWgx7-ghc9.4.6.so \
-libHSshakespeare-2.0.30-GrImIeltjQZ7T3c163uEiZ-ghc9.4.6.so \
+libHSshakespeare-2.0.30-5XHeuGt8JLJENvL2Ahdhem-ghc9.4.6.so \
 libHSsimple-sendfile-0.2.32-Jkz6BAomm8GAcovJHWebTs-ghc9.4.6.so \
 libHSskein-1.0.9.4-HfR9tmKKFFp5G94XUHSnaw-ghc9.4.6.so \
 libHSsplit-0.2.3.5-J6pekuQs6yKFxqDJQyglHu-ghc9.4.6.so \

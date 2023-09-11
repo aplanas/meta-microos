@@ -3,10 +3,10 @@ DESCRIPTION = "Advanced Gtk+ Sequencer is an audio sequencer application. \
 This subpackage contains part of its library set."
 LICENSE = "AGPL-3.0-or-later & GPL-3.0-or-later & GFDL-1.3-only"
 
-PV = "6.0.1"
+PV = "6.0.8"
 
-RPM_NAME = "libags6-6.0.1-1.1.aarch64.rpm"
-RPM_HASH = "4f828f7e15ba150b57e7802c55af38bc1b01bfc50aee189e17fc080029348da5c60b2bac1d36e25c46a1eb0e1ab07ce1d384f6648057b2a24ee4f7578054ac46"
+RPM_NAME = "libags6-6.0.8-1.1.aarch64.rpm"
+RPM_HASH = "1391684b881c8d58a4bf1dc8dac8848268e49b855c4ca3c48742f88c2989ce19cece21d24da511a767c5eec8d3d209d178d9b14af2d7ba41b0f821e9824b82c0"
 
 RPROVIDES:${PN} += "libags-audio.so.6 \
 libags-gui.so.6 \

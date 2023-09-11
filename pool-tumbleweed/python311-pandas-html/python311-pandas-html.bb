@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.3"
 
-RPM_NAME = "python311-pandas-html-2.0.3-1.2.noarch.rpm"
-RPM_HASH = "dc1f6157eaa549ba5bae53f5a0f889733b0b12bdc9a06103029eb7d3908979fdafbc619726b1911c9e280016492d7c6f08fffd919d421a824d57e8716d703f0e"
+RPM_NAME = "python311-pandas-html-2.0.3-1.3.noarch.rpm"
+RPM_HASH = "c50b6b7412594656dd1130e279d35d86ebfe01da38820efe1580b4ade27549edf7dc734f55fe82cc0fa7613774d3b0ee7a4034589533380300165ea463c43673"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pandas-html \

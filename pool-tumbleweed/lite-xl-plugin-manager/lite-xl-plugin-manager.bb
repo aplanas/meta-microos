@@ -10,10 +10,10 @@ DESCRIPTION = "* A standalone binary that provides an easy way of installing, an
 * Conforms to SCPS3."
 LICENSE = "MIT"
 
-PV = "1.0.9+git20230818.02b2665"
+PV = "1.0.10+git20230827.2452630"
 
-RPM_NAME = "lite-xl-plugin-manager-1.0.9+git20230818.02b2665-1.1.aarch64.rpm"
-RPM_HASH = "e0e2f642f8e06e1da4475b5a6dbee1cbcaee29a666e137e80d776c022bbec4c19574b21515307367905370a5a1dbdca26a1117c19aac41a66f43102ff7af8d92"
+RPM_NAME = "lite-xl-plugin-manager-1.0.10+git20230827.2452630-1.1.aarch64.rpm"
+RPM_HASH = "146254a860f87b70e44efa9d951b14325c506f6e4879ecd54c4f2eeb62bece7e8aaa9ebc7d5a093fd211f37ac8143de333e11c92c6b6c58f8085fdd23e135420"
 
 RPROVIDES:${PN} += "lite-xl-plugin-manager"
 

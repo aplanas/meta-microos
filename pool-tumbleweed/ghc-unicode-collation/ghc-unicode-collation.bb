@@ -5,13 +5,13 @@ fully-featured or as performant as 'text-icu', but it avoids a dependency on a \
 large C library. Locale-specific tailorings are also provided."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.1.3.4"
+PV = "0.1.3.5"
 
-RPM_NAME = "ghc-unicode-collation-0.1.3.4-1.9.aarch64.rpm"
-RPM_HASH = "f358eab666bbed7978353fd19d9b0f473acf3a5a9d2da774058240d17dd956f98e98ba19c3d0c937cd0fb008de35ba64e63be5fb453b309fd81700e5c9f7b1a3"
+RPM_NAME = "ghc-unicode-collation-0.1.3.5-1.1.aarch64.rpm"
+RPM_HASH = "c8c3b1a986de4c1d6d4d59655a27cdfff3a92a804bc3992de9329489ff14a8254c47d4aa8b7c455a82d7b7ad48916701c082dde752c4387f42a1e1cac2ce0c49"
 
 RPROVIDES:${PN} += "ghc-unicode-collation \
-libHSunicode-collation-0.1.3.4-DqHFcwJyC4MIpiT6hQTOCQ-ghc9.4.6.so"
+libHSunicode-collation-0.1.3.5-IFdGKnlU7nK53rXIDeXQnQ-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
 libHSbase-4.17.2.0-ghc9.4.6.so \

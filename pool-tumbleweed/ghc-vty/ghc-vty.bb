@@ -18,11 +18,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.38"
 
-RPM_NAME = "ghc-vty-5.38-2.10.aarch64.rpm"
-RPM_HASH = "2728f22f6dede63a7137d7add4e42e8eba756fb27d35cbd5856f26d59c96339d6c66f607a44c486a5bbcfb851810ef26e5aea28778d8052957b7fc31ba396bef"
+RPM_NAME = "ghc-vty-5.38-2.11.aarch64.rpm"
+RPM_HASH = "6b846060ab54797eef981e92c81a525961e2db2866e6053138bba4629907373b12aceadbce6bf1479207d64531a64de0c4373cef4082dfba1aeca6cedf1ddc30"
 
 RPROVIDES:${PN} += "ghc-vty \
-libHSvty-5.38-4i0JVKKiWtkG17OOXaPYIk-ghc9.4.6.so"
+libHSvty-5.38-LhnNmnv8DxxD0eeAip9uJs-ghc9.4.6.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libHSansi-terminal-0.11.5-69CZC4XdNryJo9zHbgfvJ3-ghc9.4.6.so \
@@ -30,7 +30,7 @@ libHSansi-terminal-types-0.11.5-1ECcaJ3QBZ1LkDeP7l0nlp-ghc9.4.6.so \
 libHSarray-0.5.4.0-ghc9.4.6.so \
 libHSbase-4.17.2.0-ghc9.4.6.so \
 libHSbinary-0.8.9.1-ghc9.4.6.so \
-libHSblaze-builder-0.4.2.2-8UxXzIHQH0dLJoWXyTpU1h-ghc9.4.6.so \
+libHSblaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND-ghc9.4.6.so \
 libHSbytestring-0.11.5.1-ghc9.4.6.so \
 libHScolour-2.3.6-GBcey48GJNAK3398XtiZDq-ghc9.4.6.so \
 libHScontainers-0.6.7-ghc9.4.6.so \
