@@ -3,10 +3,10 @@ DESCRIPTION = "A GIO-style async APIs for most Flatpak portals. \
 This package contains the introspection files of libportal."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.6"
+PV = "0.7"
 
-RPM_NAME = "typelib-1_0-XdpGtk4-1_0-0.6-1.8.aarch64.rpm"
-RPM_HASH = "8ae9b6e153681ab9df40868d05052e30af59b84ccd5c3004396992203b6b1e293193c5a31f1ef99cd6b6a294bcbe0aac61191f4d9f6fa97814dc72b550847af1"
+RPM_NAME = "typelib-1_0-XdpGtk4-1_0-0.7-1.1.aarch64.rpm"
+RPM_HASH = "17b521ab0c601687d94e45ee7b685755a9a686d48683b27767fb486fa366577e5a5cbfc30b0498e532a5fefaa4a8d6d673a62afcab9025a03ce114c5941616d9"
 
 RPROVIDES:${PN} += "typelib-1-0-XdpGtk4-1-0 \
 typelib-XdpGtk4"

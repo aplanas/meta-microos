@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "python311-django-json-widget-1.1.1-2.1.noarch.rpm"
-RPM_HASH = "be960ec0190345f5a824725faa96565d889029cbd2ab45542ba2a0dd56e1e93034cd144688ca0939d17fac131a01d0f6674c764522d12403a716677bc8173464"
+RPM_NAME = "python311-django-json-widget-1.1.1-3.1.noarch.rpm"
+RPM_HASH = "b63d3ce8cb1533b7170262f3ab7b1bd98b2f2b0864d20acedf6fb0cd2bb3444f7c16b5beb610aa9bb91d6b642dc44b00073aeb2210061ffb6176b52100083c84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-django-json-widget \
@@ -15,7 +15,6 @@ python311-django-json-widget \
 python3dist-django-json-widget"
 
 RDEPENDS:${PN} += "python-abi \
-python311-Django \
-python311-future"
+python311-Django"
 
 inherit rpm

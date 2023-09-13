@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.2"
 
-RPM_NAME = "libsocket_wrapper_noop0-1.4.2-1.1.aarch64.rpm"
-RPM_HASH = "f95ff9af9d25a705b20394e35cb6f452a7e9bc0a8ec6688d073112c61c86d7e276bff4d1d11804a7c33624da359b75ece5f571bc37b896a700ad0c699727bea2"
+RPM_NAME = "libsocket_wrapper_noop0-1.4.2-2.1.aarch64.rpm"
+RPM_HASH = "a0c3525df8e6abf2b6812d6c7c534c72759216cb1d13d0b358adc4c226d2bed253ce67a1ce26be98119eafb3df0886f12db3e7c9223349a28e3f4525aa29880a"
 
 RPROVIDES:${PN} += "libsocket-wrapper-noop.so.0 \
 libsocket-wrapper-noop0"

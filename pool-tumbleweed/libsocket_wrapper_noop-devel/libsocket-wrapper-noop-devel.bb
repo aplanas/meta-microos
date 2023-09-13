@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.2"
 
-RPM_NAME = "libsocket_wrapper_noop-devel-1.4.2-1.1.aarch64.rpm"
-RPM_HASH = "771f39e6792e60e849906b8e199c6a76da49ea7f58770df9871f28bed8009af8b35081f58071634c91e099eaacf72cbeadb1216b9349b477b122bec715fa831c"
+RPM_NAME = "libsocket_wrapper_noop-devel-1.4.2-2.1.aarch64.rpm"
+RPM_HASH = "653d146f83dedbf31590981895022c6c72cd0fb4064246228bf55371b62ab3def61b417d662b64e1a60ec956d2b095d08c494310d27faebd44e5e862e7a63145"
 
 RPROVIDES:${PN} += "cmake-socket-wrapper \
 cmake-socket-wrapper-noop \

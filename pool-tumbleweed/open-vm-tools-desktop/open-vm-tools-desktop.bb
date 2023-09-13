@@ -4,10 +4,10 @@ open-vm-tools that are essential for improved user experience of VMware virtual 
 machines."
 LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-2.1-only"
 
-PV = "12.2.0"
+PV = "12.3.0"
 
-RPM_NAME = "open-vm-tools-desktop-12.2.0-6.1.aarch64.rpm"
-RPM_HASH = "8e3c3d147b8fd8f028ff4f6a22e1c35c454c7c8441455b89b51fd090ca5b8bcecac95eca2c4c7b0fb8b501e4243a0f39d198a75fe6b48c4bdf2e063696489412"
+RPM_NAME = "open-vm-tools-desktop-12.3.0-1.1.aarch64.rpm"
+RPM_HASH = "50ff207e47eafa5b2347cb30b535deab94f6e8d49678349c4f2c5c7ac5ad9268098a4efbe8e5d89eec19531ba82ac34a685c1f643bbb86ea64c8714d7f0827cd"
 
 RPROVIDES:${PN} += "config-open-vm-tools-desktop \
 libdesktopEvents.so \

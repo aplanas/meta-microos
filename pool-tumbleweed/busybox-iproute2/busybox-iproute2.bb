@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.36.1"
 
-RPM_NAME = "busybox-iproute2-1.36.1-29.1.noarch.rpm"
-RPM_HASH = "e85da94f8211a30b58aadc9facf57ab4f86d15dc58f48b6d9e886df1a9d74c041e56b6ab248d4fe4104a5919727159de6b15eefd9d55812bef81efd4b6a36b01"
+RPM_NAME = "busybox-iproute2-1.36.1-30.1.noarch.rpm"
+RPM_HASH = "86ba3a750d44c5ee6230f24e0a163b2a1ea0d26c0071d7fd291d330c2f998c5014a939918a98afc1c7ad84a4020b12835d98cf5459f60384caab9be6cd332846"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/sbin/ifup \

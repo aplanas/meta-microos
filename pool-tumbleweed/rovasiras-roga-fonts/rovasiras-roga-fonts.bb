@@ -3,10 +3,10 @@ DESCRIPTION = "Roga is the ligatureless version of the Kende font. Both are font
 for the Old Hungarian script."
 LICENSE = "OFL-1.1"
 
-PV = "20230614"
+PV = "20230908"
 
-RPM_NAME = "rovasiras-roga-fonts-20230614-1.1.noarch.rpm"
-RPM_HASH = "34d574cc18edd8daed1e9a6abbda0d40a4568ef95ed2094a36ab017cdf8c0be32faf454935053be6621f0a952032445432077bf40b9098400103225c9c3bf9c9"
+RPM_NAME = "rovasiras-roga-fonts-20230908-1.1.noarch.rpm"
+RPM_HASH = "bdb12955d8b29fc4d4036e9280b360e53bc207a45c846d40b5416d45bd4bcf33c17334e5e0e1f60b0fe8b71b7da60b73d44a9d1a7465b6b311905a3fec5502ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rovasiras-roga-fonts"

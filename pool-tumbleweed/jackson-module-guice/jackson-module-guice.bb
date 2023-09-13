@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.15.2"
 
-RPM_NAME = "jackson-module-guice-2.15.2-1.1.noarch.rpm"
-RPM_HASH = "8f9e67ccca44a357b602f4b06a9e1fab5069275b3ec1b73674382667c15a34fbc4f477907a77fe18603b5202a515988e51a42682cd201cca459ef136491a5032"
+RPM_NAME = "jackson-module-guice-2.15.2-2.1.noarch.rpm"
+RPM_HASH = "30250d078fc9dae794327d72b963161729e7017924f504ca245a9a38cd53a840988f2f393bb8b7acc7afb3eee8de9b02c865ad91c9caa81374d8428b54aae8d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-module-guice \

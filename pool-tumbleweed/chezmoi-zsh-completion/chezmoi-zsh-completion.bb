@@ -2,10 +2,10 @@ SUMMARY = "Zsh completion for chezmoi"
 DESCRIPTION = "Zsh command line completion support for chezmoi."
 LICENSE = "MIT"
 
-PV = "2.38.0"
+PV = "2.39.1"
 
-RPM_NAME = "chezmoi-zsh-completion-2.38.0-1.1.noarch.rpm"
-RPM_HASH = "f9b2147b5c25b94af2b3ccbef5de18c3bead10c6845f6780d00ec698bf6831a5be7cccb86ebe74cf422abd217611ddb7bfeed176e684038d7d76d4b51489b950"
+RPM_NAME = "chezmoi-zsh-completion-2.39.1-1.1.noarch.rpm"
+RPM_HASH = "9d1fb608909eea12ff48db260352cfe6dc3b89c0f9982340b49aea6eece4e6c8816daa61ac0bd978632109debf2968542d0163e98fcd89584ceab49177b47283"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "chezmoi-zsh-completion"

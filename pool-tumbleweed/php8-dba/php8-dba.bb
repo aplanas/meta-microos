@@ -8,8 +8,8 @@ LICENSE = "MIT & PHP-3.01"
 
 PV = "8.2.10"
 
-RPM_NAME = "php8-dba-8.2.10-1.1.aarch64.rpm"
-RPM_HASH = "a8de569d4074fcf4f09a7460d2d01faa422788a80edae8e521da0ad3e90be6762f59720d83f4a2046f163813a52f05c09dc52f1bfa74ae6537e6356d0677b5a0"
+RPM_NAME = "php8-dba-8.2.10-2.1.aarch64.rpm"
+RPM_HASH = "8b88bebf8955c4ee66822a4b33d8f424f9bc277bc3c76612274822d61fab1f3bbb52e24e918708f5beb13d3c7de645a7d3ee40ac6c1c65546c8e1c269f858a8a"
 
 RPROVIDES:${PN} += "config-php8-dba \
 php-dba \

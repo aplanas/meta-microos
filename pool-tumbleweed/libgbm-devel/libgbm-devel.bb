@@ -10,10 +10,10 @@ This package provides the development environment for compiling \
 programs against the GBM library."
 LICENSE = "MIT"
 
-PV = "23.1.6"
+PV = "23.1.7"
 
-RPM_NAME = "libgbm-devel-23.1.6-356.1.aarch64.rpm"
-RPM_HASH = "2ff3934f4bde73061ab20ae48f8497178aaa9be3bfe1be8cc4f7eb8015f5c8b011d2a45f1871890e784aa94ca5aff7ea757d95c28f7fdf1e3d7ba9fda06d3fb4"
+RPM_NAME = "libgbm-devel-23.1.7-357.1.aarch64.rpm"
+RPM_HASH = "26954d57fb21cbcbf0d799e4a7ad6c664e05ef7a34f4e7cab4c12526538a41016baa1eb33c86644e05d59b096f4debf1c1e0e5c9efe360b899e6f7554a4e8f0a"
 
 RPROVIDES:${PN} += "libgbm-devel \
 pkgconfig-gbm"

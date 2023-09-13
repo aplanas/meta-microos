@@ -5,10 +5,10 @@ derived from Rsync's wildmatch. Git uses wildmatch for its `gitignore`_ \
 files."
 LICENSE = "MPL-2.0"
 
-PV = "0.11.1"
+PV = "0.11.2"
 
-RPM_NAME = "python311-pathspec-0.11.1-2.3.noarch.rpm"
-RPM_HASH = "cd7857f159fd2381bb9e8990fead69784064a752206d9cd32a0b0a7e0049e0b5f0aba8e121f2c91dad02838dcb452073c18905ab4e2e9122e08e29f2d0630b1d"
+RPM_NAME = "python311-pathspec-0.11.2-1.1.noarch.rpm"
+RPM_HASH = "92c12afe3a5d7ae4b418c5aa09aa97080364a60e82026f9635e6559ee020ec04465ab81d286370cbc7c2a2addcc664d10bcd6544eba7f9a218f2da37030d388c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pathspec \

@@ -5,10 +5,10 @@ Components include machine status, partition management, job \
 management, scheduling and accounting modules."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.2"
+PV = "23.02.4"
 
-RPM_NAME = "slurm-23.02.2-1.4.aarch64.rpm"
-RPM_HASH = "9b7f2e1bc8bb8b975d2cb3fead86957c89b8d28f6d809bdf79114113d42ca903325f8eda8189bde4164ef1de0689e2fe7a98666440320d829821482870bb87e8"
+RPM_NAME = "slurm-23.02.4-2.1.aarch64.rpm"
+RPM_HASH = "5ac0b0e8a69de3cfeefe9e7b91dd3623064a12479625ec663d1e87e307c99e2b1c638971916d3ccc751f9d496526b0d73961ce009caf66ab50b9175c07c7e98b"
 
 RPROVIDES:${PN} += "slurm"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "Provides helper processes that the LDAP and Kerberos back ends ca
 use for Kerberos user or host authentication."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.9.1"
+PV = "2.9.2"
 
-RPM_NAME = "sssd-krb5-common-2.9.1-1.1.aarch64.rpm"
-RPM_HASH = "f3e8ccd186b868dc477261f4b8e7382e8fedf35cb1cb353e82d608fb28f533934d9ed5d56000c214313c9bcfb19acfb9ff90e2a02dc5430aabe2625f7c0ef13a"
+RPM_NAME = "sssd-krb5-common-2.9.2-1.1.aarch64.rpm"
+RPM_HASH = "0d0240edb2f64f0e1ede530bdd69bd671cf26d4d4f1413a05a79d7d932c728ca9b7e7e893421efb2245859e73ac1479f7149647550dff3c36628a88a1e5362ac"
 
 RPROVIDES:${PN} += "libsss-krb5-common.so \
 sssd-krb5-common"

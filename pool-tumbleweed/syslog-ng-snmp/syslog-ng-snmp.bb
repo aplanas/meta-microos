@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.3.1"
 
-RPM_NAME = "syslog-ng-snmp-4.3.1-1.2.aarch64.rpm"
-RPM_HASH = "89d1c059a2730791080eedfd612cfe3c33b999bce260781096c1509bc943b569fefc870a91b2735128f14003e49aff4990058401396a4a993f11d95b309d4224"
+RPM_NAME = "syslog-ng-snmp-4.3.1-1.3.aarch64.rpm"
+RPM_HASH = "69e598b002f4ae5e89bf06b5ce725547a17e4f5b27757daca36f8d6ee8e23c17f73b9205fc006df9de02255b5f186f5aa15d4a60d2c675b29ff4fcc86fe9d90a"
 
 RPROVIDES:${PN} += "syslog-ng-snmp"
 

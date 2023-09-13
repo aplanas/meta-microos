@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.12~rc1"
 
-RPM_NAME = "grub2-snapper-plugin-2.12~rc1-1.1.noarch.rpm"
-RPM_HASH = "a99f60835386e6805a84e5cfcbfa150a9d15794f1adfc5b055f96f95160d30d06dd4fd04f8fc905c90747883bfe752fadb05005da34e2aee534b7a3c9796d177"
+RPM_NAME = "grub2-snapper-plugin-2.12~rc1-2.1.noarch.rpm"
+RPM_HASH = "cd3b4fa2ecf48f75be48c17270df36b2da0873306434858a502a0aad9d717ba0a0efcc2a5dac3d6e45ffa3831481a9a829fe78fe88ece6dd765c87dc2a6c36be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-grub2-snapper-plugin \

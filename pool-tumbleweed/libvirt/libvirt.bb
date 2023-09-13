@@ -7,10 +7,10 @@ Linux instance. The library aims to provide long term stable C API \
 to interact with Linux virtualization technologies."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.6.0"
+PV = "9.7.0"
 
-RPM_NAME = "libvirt-9.6.0-3.1.aarch64.rpm"
-RPM_HASH = "15e5c5d757bdef2165b19c35c3eece16e8ca9f72ad757bf9db9530222157dbd19f9fc3151890d8651692f39b92b79e529d8ae34b389d15bb1170f50cb7b580b1"
+RPM_NAME = "libvirt-9.7.0-1.1.aarch64.rpm"
+RPM_HASH = "e9d2f70b761c3cb4a996ff0c0af2fabb9dee38d651fc2fe5247610a14f95606326b3b1e853be6d506577e74290319c999de38a91734fba9cadbafc4f483cae1a"
 
 RPROVIDES:${PN} += "libvirt"
 

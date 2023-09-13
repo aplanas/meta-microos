@@ -5,8 +5,8 @@ LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.1"
 
-RPM_NAME = "glassfish-websocket-api-1.1-2.11.noarch.rpm"
-RPM_HASH = "04f0e198f71910f9d6f80a0872ea140584f4e21a0c499d0e5178c1e173fa5852e9d1ed8eb6aefc713225283c3fa676eef7d0e2c9c70124398bc1efee9e86ab25"
+RPM_NAME = "glassfish-websocket-api-1.1-3.1.noarch.rpm"
+RPM_HASH = "d7d86a75ff8ca02165e837563bdfa21085d100edd3e37660edc6cf2251b83584b08f481f5facf0e80a01015d2330405456017534c2fe0fb6ea897f461be7d33d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-websocket-api \

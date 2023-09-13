@@ -8,8 +8,8 @@ LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.2"
 
-RPM_NAME = "tiger-types-2.2-4.11.noarch.rpm"
-RPM_HASH = "540812bd33d728da140a799dfaa5d9bc6e3fbd86a7fdfa6fc85a83c273917b2c86b27928e789ae4b8693fee99f395f29383aae99c836b915d2332c1a2986e101"
+RPM_NAME = "tiger-types-2.2-5.1.noarch.rpm"
+RPM_HASH = "6e6e32877e5c0297e4a65b3be7c3886e0af89370a826527b6d8a2716db1c3268230764a035d403b075292b1408f599e88ec327b0c3e6f7b0b90714fb293979dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.jvnet-tiger-types \

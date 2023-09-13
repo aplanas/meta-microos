@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "9.6"
 
-RPM_NAME = "google-or-tools-devel-9.6-3.1.aarch64.rpm"
-RPM_HASH = "d6e5b1708bf9981b41ad0bca7ed774331d80d8c6d89a12717982ace385bf43b4a02230823e8fad72656696955d1e2fca3a4b22530aa2c032ce19b7c555b99718"
+RPM_NAME = "google-or-tools-devel-9.6-3.2.aarch64.rpm"
+RPM_HASH = "e9e7a55b25b03921ea91bb8eeaee6b2a2b5d717717123e6434d3fb44657ea0b1cef7104160ef5a82967af9313e7eae1a1c5d9b2e3aa3fbc780fb70ebdaa7412b"
 
 RPROVIDES:${PN} += "cmake-ortools \
 google-or-tools-devel"

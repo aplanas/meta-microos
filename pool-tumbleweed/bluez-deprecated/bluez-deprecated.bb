@@ -8,10 +8,10 @@ Note that this package will go away before end of 2020, change your code \
 to use the modern tools instead."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.68"
+PV = "5.69"
 
-RPM_NAME = "bluez-deprecated-5.68-4.2.aarch64.rpm"
-RPM_HASH = "35b8782cc5e94097360eb3e0e543c4ebbfbb0938fe9dd83548679dee7c3eb89d914dc7c1eeee03997c3542bc908fbd60912590794ecad76722f35ee7b64fa8c6"
+RPM_NAME = "bluez-deprecated-5.69-1.1.aarch64.rpm"
+RPM_HASH = "5c9c93c61ca089bb9d576eef87d0f718995ee8a5b6147735d9943151eaed0b5e648ad75574a97eeb67ef0d4d8249370b33c5fdaca153afbd26e53023d21b7342"
 
 RPROVIDES:${PN} += "bluez-deprecated"
 

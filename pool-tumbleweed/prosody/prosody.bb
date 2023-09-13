@@ -7,10 +7,10 @@ whilst allowing control over who they connect to, and who they share \
 data with."
 LICENSE = "MIT"
 
-PV = "0.12.3"
+PV = "0.12.4"
 
-RPM_NAME = "prosody-0.12.3-1.3.aarch64.rpm"
-RPM_HASH = "224c59c17d0756b74119233915289a8c2349aa8306a46446dc6d60001da9b48d3f3ec6c5c8db0823feb5bc23ac797dfa8f5a6c12eedd216c263ec3bb692eb472"
+RPM_NAME = "prosody-0.12.4-1.1.aarch64.rpm"
+RPM_HASH = "e8a458a2561d93ceacb29551d3d9041c4feec24299895700ddcb3227a0a259ce5fb71c849fb72371facaff36bb3c7d9a30aba5184b860591b46d9574a0adad43"
 
 RPROVIDES:${PN} += "config-prosody \
 prosody"

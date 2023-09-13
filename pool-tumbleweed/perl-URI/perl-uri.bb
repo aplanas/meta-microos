@@ -29,23 +29,13 @@ components. The methods available for a specific 'URI' object depend on the \
 scheme."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "5.19"
+PV = "5.210.0"
 
-RPM_NAME = "perl-URI-5.19-1.3.noarch.rpm"
-RPM_HASH = "175c366d4c28b6c50a69ef5aaec7147cd1843ed3062a44301669e77bac8b7567866bd85927840994fb6302d86ce5c0611dd510ab62f8c2d36b3d9e3ce7d6ec67"
+RPM_NAME = "perl-URI-5.210.0-1.1.noarch.rpm"
+RPM_HASH = "cf0f1e3a4089abe1e35c771db8d093f2f1f3ca664116dba2ebc0c7e76e891d01bf175f8f080d24e94182534dc12b9b840325a94b7b104d7a16b11fa6d18acadc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-URI \
-perl-URI---foreign \
-perl-URI---generic \
-perl-URI---idna \
-perl-URI---ldap \
-perl-URI---login \
-perl-URI---punycode \
-perl-URI---query \
-perl-URI---segment \
-perl-URI---server \
-perl-URI---userpass \
 perl-URI--Escape \
 perl-URI--Heuristic \
 perl-URI--IRI \
@@ -66,6 +56,8 @@ perl-URI--ftp \
 perl-URI--gopher \
 perl-URI--http \
 perl-URI--https \
+perl-URI--icap \
+perl-URI--icaps \
 perl-URI--ldap \
 perl-URI--ldapi \
 perl-URI--ldaps \

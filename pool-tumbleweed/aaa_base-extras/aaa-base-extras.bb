@@ -3,10 +3,10 @@ DESCRIPTION = "The parts of aaa_base that should be installed by default but are
 strictly required to run a system. (bash completions and convenience hacks)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87+git20230329.b39efbc"
+PV = "84.87+git20230815.cab7b44"
 
-RPM_NAME = "aaa_base-extras-84.87+git20230329.b39efbc-1.2.aarch64.rpm"
-RPM_HASH = "d6b999fcc89eae9de3b2b7adc94718d8d5b16abf86c8af3fc113398c4e22d170df76a1d1cd18e0eb2f98f0e655608d2ad01cdd18bac39ede3c021f312a2f76b7"
+RPM_NAME = "aaa_base-extras-84.87+git20230815.cab7b44-1.1.aarch64.rpm"
+RPM_HASH = "80915dac2ef2b7eae5f996bd5b87f52545bdfda3334b14beff7ee33d3157728c14dd4b5b700a0cb5042751295c7d39ece31e510d4018fc6e8f7dfdef6a371012"
 
 RPROVIDES:${PN} += "aaa-base-/etc/DIR-COLORS \
 aaa-base-extras"

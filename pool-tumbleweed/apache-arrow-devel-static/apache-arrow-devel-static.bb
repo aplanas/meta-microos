@@ -9,10 +9,10 @@ communication. \
 This package provides the static library"
 LICENSE = "Apache-2.0 & BSD-3-Clause & BSD-2-Clause & MIT"
 
-PV = "12.0.1"
+PV = "13.0.0"
 
-RPM_NAME = "apache-arrow-devel-static-12.0.1-1.1.aarch64.rpm"
-RPM_HASH = "8412bfbf3513e384809522d370628f3a8b8d324c88e6bfd3ea869be4e2fea1a78d1fcb36400b55041d1eab9adc124c5e4a50ee7310ed5aacc35f11eaa6655e92"
+RPM_NAME = "apache-arrow-devel-static-13.0.0-1.1.aarch64.rpm"
+RPM_HASH = "46e563f8fc517a5854b45d40a96f81f13eec60a921a3f9e13889e9f9283959085de3a95b8ef6899b9aafcfe3462b9c884ee4312b7bb5d200671d204f798564e4"
 
 RPROVIDES:${PN} += "apache-arrow-devel-static"
 

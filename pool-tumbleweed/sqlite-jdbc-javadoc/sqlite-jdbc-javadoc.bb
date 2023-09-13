@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.43.0.0"
 
-RPM_NAME = "sqlite-jdbc-javadoc-3.43.0.0-1.1.noarch.rpm"
-RPM_HASH = "ef6014c87ecee9c2b13bad002980d586c4f84b8a402bf81c8cd9b8202a388d3dadc51c27a9abc6db020926f1438d8f66749b59a8334f34bc4e7321ef70065075"
+RPM_NAME = "sqlite-jdbc-javadoc-3.43.0.0-2.1.noarch.rpm"
+RPM_HASH = "5189aac6537f441b88f999b787bb8ef86c32463d3964389e5f6df8beaf067b8f859a05953381d2a5a6ff95e53833f234aafba5179d1bdb9ae38ab196a875eda1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sqlite-jdbc-javadoc"

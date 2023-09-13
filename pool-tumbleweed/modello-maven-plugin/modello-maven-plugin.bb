@@ -10,10 +10,10 @@ marshallers/unmarshallers, XSD and documentation. \
 Modello Maven Plugin enables the use of Modello in Maven builds."
 LICENSE = "Apache-2.0 & MIT"
 
-PV = "2.0.0"
+PV = "2.1.2"
 
-RPM_NAME = "modello-maven-plugin-2.0.0-3.2.noarch.rpm"
-RPM_HASH = "3b7880d6652b96531ad2e0c55d60d8998023fde4b43b9b2a8a790cd573a67891ce837ede068b405145040503de0365a58083a2b00f4a43e72bc29a94983cdd7b"
+RPM_NAME = "modello-maven-plugin-2.1.2-1.1.noarch.rpm"
+RPM_HASH = "5c67f7e53569a15190c51c79febad07f7a74f6e65f8b99641ddefe0c23f52a3d15433e72fb5c52deb0be8ff76c61760e010b6581005e829851cc31467eb99f18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "modello-maven-plugin \
@@ -32,6 +32,7 @@ mvn-org.codehaus.modello-modello-plugin-stax \
 mvn-org.codehaus.modello-modello-plugin-xdoc \
 mvn-org.codehaus.modello-modello-plugin-xpp3 \
 mvn-org.codehaus.modello-modello-plugin-xsd \
+mvn-org.codehaus.plexus-plexus-component-annotations \
 mvn-org.codehaus.plexus-plexus-utils \
 mvn-org.sonatype.plexus-plexus-build-api"
 

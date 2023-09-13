@@ -6,10 +6,10 @@ printed, independent alignment of columns (left or right justified or \
 centred) and printing of 'sub-tables' by specifying a row range."
 LICENSE = "BSD-2-Clause"
 
-PV = "3.7.0"
+PV = "3.8.0"
 
-RPM_NAME = "python39-prettytable-3.7.0-1.3.noarch.rpm"
-RPM_HASH = "6f80325f1ba4632db634fc38e083b254dd61dbf0c872ab02a7287142906c93b6c0805d8333731eb6aefe7b4124610b6b92bc55271c677bcab9e8b498f7d997b4"
+RPM_NAME = "python39-prettytable-3.8.0-1.1.noarch.rpm"
+RPM_HASH = "7dfdaf76bf8e73ccb6a2cf28029d39b018b49f8bee39b595fbc634391a3da2da78196de9a4ee8d71f80934c66bfaa62da9d0359e65e46ef1e74443a4c4b77f55"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-prettytable \

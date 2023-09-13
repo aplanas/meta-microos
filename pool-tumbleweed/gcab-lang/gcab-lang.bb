@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gcab"
 DESCRIPTION = "Provides translations for the 'gcab' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.5"
+PV = "1.6"
 
-RPM_NAME = "gcab-lang-1.5-1.6.noarch.rpm"
-RPM_HASH = "ca5973565ab24d963278ca9e357d443793329c2d81497aaf8d9e8d8d5ff7e92a8c348ecdd2fcdd04a4dcb7e10988ecec8368b98563b6a9d6b134c14186e40ec5"
+RPM_NAME = "gcab-lang-1.6-1.1.noarch.rpm"
+RPM_HASH = "2e051ff80072df0086be64741b2dbf91274937608ac4fcbccc64ca9b994e7e72cb0ffae21e76dcbccf02662d402c4779aa2a59662cd56f880813bec66e292d08"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gcab-lang \

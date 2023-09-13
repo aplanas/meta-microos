@@ -10,10 +10,10 @@ implement your own storage mechanisms, the currently available implementations \
 are 'cgit' and pure python, which is the default."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.1.32.1689011721.5d45ce2"
+PV = "3.1.34.1693646983.2a2ae77"
 
-RPM_NAME = "python310-GitPython-3.1.32.1689011721.5d45ce2-1.1.noarch.rpm"
-RPM_HASH = "80c261ef19b2386b291a461537aeb2ace86c429641c3f708f0ac3202a2714939980327a11829694f20f16d1e6ceb743db5d5bc00e6e9c20cab33fc67c3732865"
+RPM_NAME = "python310-GitPython-3.1.34.1693646983.2a2ae77-1.1.noarch.rpm"
+RPM_HASH = "ffb25b49407aa2046bf7632c54403e8f119801f5bfcc16a831530d05976143cef341dae9ead451db54037803b69045048942ce6b177d31475d186214c816a949"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-gitpython \

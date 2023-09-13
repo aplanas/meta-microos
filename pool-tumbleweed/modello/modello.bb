@@ -8,10 +8,10 @@ from the single model, including Java POJOs, XML \
 marshallers/unmarshallers, XSD and documentation."
 LICENSE = "Apache-2.0 & MIT"
 
-PV = "2.0.0"
+PV = "2.1.2"
 
-RPM_NAME = "modello-2.0.0-3.1.noarch.rpm"
-RPM_HASH = "8ebfa6f29d4d4d398f9c10268c1b85c0b2911bd3759df08a90ba9eb4e25fe697fb4805d0567e5a9153d9129d55ed47780688e82c6f4ea12d97383f0ce0f076b1"
+RPM_NAME = "modello-2.1.2-1.1.noarch.rpm"
+RPM_HASH = "db80084108694db624a2c63486d3346d333488fc3d188c80f6cad8eba7a2183b338feacf00af832b2649b0c7a4e47be6d68a83f7f387a5bc3860503f05d9a19b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "modello \
@@ -36,24 +36,19 @@ mvn-org.codehaus.modello-modello-plugin-xml-pom- \
 mvn-org.codehaus.modello-modello-plugin-xpp3 \
 mvn-org.codehaus.modello-modello-plugin-xpp3-pom- \
 mvn-org.codehaus.modello-modello-plugin-xsd \
-mvn-org.codehaus.modello-modello-plugin-xsd-pom- \
-mvn-org.codehaus.modello-modello-plugins-pom- \
-mvn-org.codehaus.modello-modello-pom- \
-mvn-org.codehaus.modello-modello-test \
-mvn-org.codehaus.modello-modello-test-pom-"
+mvn-org.codehaus.modello-modello-plugin-xsd-pom-"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 guava \
 java-headless \
 javapackages-filesystem \
 javapackages-tools \
-mvn-org.codehaus.plexus-plexus-compiler-api \
-mvn-org.codehaus.plexus-plexus-compiler-javac \
+mvn-com.google.inject-guice \
+mvn-org.codehaus.plexus-plexus-component-annotations \
 mvn-org.codehaus.plexus-plexus-utils \
 mvn-org.eclipse.sisu-org.eclipse.sisu.plexus \
 mvn-org.jsoup-jsoup \
 mvn-org.sonatype.plexus-plexus-build-api \
-mvn-org.sonatype.sisu-sisu-guice--no-aop- \
 xbean"
 
 inherit rpm

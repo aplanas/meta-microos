@@ -9,10 +9,10 @@ Praat is configurable and extensible through its own scripting language and has 
 provisions for communicating with other programs."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.3.13"
+PV = "6.3.16"
 
-RPM_NAME = "praat-6.3.13-1.1.aarch64.rpm"
-RPM_HASH = "9b74b8b01930c348c8293923323d17d519c94abd424548f8d1f20db213a3e19e84b551b64c8901482f8c12544cd2ad0c0f4098821aff22e78eff3b50f048c774"
+RPM_NAME = "praat-6.3.16-1.1.aarch64.rpm"
+RPM_HASH = "e90d874044144af3e2ed9d47cac658c66d803747561961486db90658b6892fe62cb343c46befe0aa23228c323eb53b617b3c550173a4bc2c728598d9d2733b8e"
 
 RPROVIDES:${PN} += "praat"
 

@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.34.0"
 
-RPM_NAME = "anjuta-3.34.0-5.7.aarch64.rpm"
-RPM_HASH = "b755e32fac416fc932897873ab5f0578f453ac8387e302e02c5db9636882a3fb5c633c74f85409ed6a9d9dab52d6842f8290ba7ab47164fce9344027ecd7519b"
+RPM_NAME = "anjuta-3.34.0-5.8.aarch64.rpm"
+RPM_HASH = "0d5f1e61eddea63983993230b6c880de48bd8f2023ca90f7aa466a88e7c20ccd23be40bde9adda6ad0fb4bc2c8131d18b07097bae5435472888655f390bf0e6a"
 
 RPROVIDES:${PN} += "anjuta \
 libam-project.so \

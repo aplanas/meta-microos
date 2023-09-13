@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Norwegian Nynorsk"
 DESCRIPTION = "YaST2 - Translations for Norwegian Nynorsk."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230818.ea489402e5"
+PV = "84.87.20230901.be24cb382f"
 
-RPM_NAME = "yast2-trans-nn-84.87.20230818.ea489402e5-1.1.noarch.rpm"
-RPM_HASH = "81d4cacb20ced61c3595a237b5fae74b673d25b1c01c9f05032bb1d9941ad977bc7b32eaa6edf86580addcb64f6673b778257237d20ef36d9422fe2b808cef05"
+RPM_NAME = "yast2-trans-nn-84.87.20230901.be24cb382f-1.1.noarch.rpm"
+RPM_HASH = "cc5969cc1b924c142e983956030d491de5667e27fd8073ea945247da1ec2a19509b1602aa07aba8ee3468d5317edaf18d68b023ef886568a6ec1936fd17337a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-nn \

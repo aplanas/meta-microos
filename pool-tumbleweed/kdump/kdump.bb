@@ -18,8 +18,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.9.6"
 
-RPM_NAME = "kdump-1.9.6-1.1.aarch64.rpm"
-RPM_HASH = "2502cfde691bd6f7a618f7090e1e246c0d560e9d4dea980637eb324f8b4b0f8a32e7822f141bd4bc6195e3eb67b2faa92f4d9d873220c5d283efa4ca6bd589d3"
+RPM_NAME = "kdump-1.9.6-2.1.aarch64.rpm"
+RPM_HASH = "e7141b68c7f57992053eb11ad6df8130873cfd9f201c35a21e8b9dd6e736a8ab80461f1c5a2ba99605a08ad4304a6465c4aa52ea63fa9c9d19767516a3c1a95d"
 
 RPROVIDES:${PN} += "kdump \
 kexec-tools-/etc/init.d/kdump"

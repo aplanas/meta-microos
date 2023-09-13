@@ -4,10 +4,10 @@ Today, most developers try to either run parts of the infrastructure locally or 
 okteto accelerates the development workflow of Kubernetes applications. You write your code locally and okteto detects the changes and instantly updates your Kubernetes applications."
 LICENSE = "Apache-2.0"
 
-PV = "2.18.2"
+PV = "2.19.2"
 
-RPM_NAME = "okteto-2.18.2-1.1.aarch64.rpm"
-RPM_HASH = "9babef40320fe09a49b5d2613bf0d6bf1483d383a7aa203450c8846e75ae06db0793cb3d5e0d503d0b8b984b893da09ec3d031040bad091c5232928d2b81ff0c"
+RPM_NAME = "okteto-2.19.2-1.1.aarch64.rpm"
+RPM_HASH = "ca2855d1ef568bbc1e877105d12fbd365d9638cd9736f5f51438ae1b56b193bfe58a87b3a019c88ecdcd7991d938b409ebbbd90027bfe9f5b0a88c22cb59820a"
 
 RPROVIDES:${PN} += "okteto"
 

@@ -4,10 +4,10 @@ haptic, visual and audio feedback. It offers a library (libfeedback) and \
 GObject introspection bindings to ease using it from applications."
 LICENSE = "GPL-3.0-only & LGPL-2.1-only"
 
-PV = "0.1.0"
+PV = "0.2.1"
 
-RPM_NAME = "feedbackd-0.1.0-2.3.aarch64.rpm"
-RPM_HASH = "6d8b82c048ad05a92d772c553d36f8639a31404f113c8253156f87ab315cf9cbedc5b852be563c86fe25e805ba4a87c50f649a13125a98d99b941730d23c79b1"
+RPM_NAME = "feedbackd-0.2.1-1.1.aarch64.rpm"
+RPM_HASH = "d837ebea293cd0791ffa70f583943ad88d0414e11be31e8af2533dfb742a58858f66738d931b1ffb7a9a099b2a0731981c3188d62cb48a93243a599f74c03321"
 
 RPROVIDES:${PN} += "feedbackd"
 

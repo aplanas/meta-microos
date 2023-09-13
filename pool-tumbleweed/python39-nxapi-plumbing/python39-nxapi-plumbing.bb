@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.5.2"
 
-RPM_NAME = "python39-nxapi-plumbing-0.5.2-1.16.noarch.rpm"
-RPM_HASH = "07e169e08a16af046d3097cf5d1df8a82734d06dac6b34551684f6c4e4153152dff072c3dfd3dcc3ad0a97828912b100eb33a96ebc575a899fa751dc3ee2f3d8"
+RPM_NAME = "python39-nxapi-plumbing-0.5.2-2.1.noarch.rpm"
+RPM_HASH = "1ba0b4aa25fc336d812bac07eb51a73423abcf022f1b2c9cdfcae71ddeb1299b560578339533fee9781ba929ff2b0e2c7285f63c388dbf58665ffabb6de17432"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-nxapi-plumbing \
@@ -13,7 +13,6 @@ python39-nxapi-plumbing \
 python3dist-nxapi-plumbing"
 
 RDEPENDS:${PN} += "python-abi \
-python39-future \
 python39-lxml \
 python39-requests \
 python39-scp \

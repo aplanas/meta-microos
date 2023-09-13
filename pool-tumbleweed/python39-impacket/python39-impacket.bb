@@ -11,8 +11,8 @@ LICENSE = "Apache-1.1"
 
 PV = "0.11.0"
 
-RPM_NAME = "python39-impacket-0.11.0-1.1.noarch.rpm"
-RPM_HASH = "fba14f798fc294a184cceac967fb3c24739366866271767a15d1eaa1fd53eedb8c1aea374b585099f7d773222781dc6400322c9d83068d756ccac7d8d22e41ed"
+RPM_NAME = "python39-impacket-0.11.0-2.1.noarch.rpm"
+RPM_HASH = "f06b0e05b1f7936690d2934180711d56aa91ab425717995d5c2bc2c38746ddbbfc2f7c96d21d4429fec54309c408e980c85d5bbf9ef512088973e6cb0d62ed30"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-impacket \
@@ -24,12 +24,12 @@ RDEPENDS:${PN} += "/usr/bin/python3.9 \
 python-abi \
 python39-Flask \
 python39-charset-normalizer \
-python39-future \
 python39-ldap3 \
 python39-ldapdomaindump \
 python39-pyOpenSSL \
 python39-pyasn1 \
 python39-pycryptodomex \
+python39-setuptools \
 python39-six \
 update-alternatives"
 

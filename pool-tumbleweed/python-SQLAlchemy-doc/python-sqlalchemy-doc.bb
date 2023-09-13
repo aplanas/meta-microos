@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.0.19"
 
-RPM_NAME = "python-SQLAlchemy-doc-2.0.19-2.1.noarch.rpm"
-RPM_HASH = "9ab3b8006ce5e72a360319fd432c8535bd293ea501cd839ce9dded4d84d7c411be20e003c68917f8b89d07491d9d46a73d618eedf3ebf1bd29a07059fbee73b3"
+RPM_NAME = "python-SQLAlchemy-doc-2.0.19-3.1.noarch.rpm"
+RPM_HASH = "295043805054f863c32fff5a84111d243b51c7f793dec80db919babadd652d848f93bf585a567fda885e779160053aae2aefb608f76e7f898bca56de293ef5ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-SQLAlchemy-doc \

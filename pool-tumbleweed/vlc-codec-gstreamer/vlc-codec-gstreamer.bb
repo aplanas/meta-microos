@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.0.18"
 
-RPM_NAME = "vlc-codec-gstreamer-3.0.18-9.1.aarch64.rpm"
-RPM_HASH = "f66cb71a6d9326b6f530cdd291aed29965fba631e16876a53e321ad739dc00bd717aa2222d78d6d71f2ccdafa6fa92c175345e3c4b2238850498f873a97d5d77"
+RPM_NAME = "vlc-codec-gstreamer-3.0.18-9.2.aarch64.rpm"
+RPM_HASH = "6ca7d932c2ffd220d2a67843c024c5c1a59ff4e349e0e2c945479584994c2568fa01416cf5764048e0dd1d14fa15ce4b648b4df5bdd8b13505079bc77654a930"
 
 RPROVIDES:${PN} += "libgstdecode-plugin.so \
 vlc-codec-gstreamer"

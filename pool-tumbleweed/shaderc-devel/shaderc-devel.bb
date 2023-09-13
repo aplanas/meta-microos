@@ -4,10 +4,10 @@ DESCRIPTION = "A compiler library for GLSL/HLSL to SPIR-V. \
 Shaderc wraps around core functionality in glslang and SPIRV-Tools"
 LICENSE = "Apache-2.0"
 
-PV = "2023.4"
+PV = "2023.6"
 
-RPM_NAME = "shaderc-devel-2023.4-1.2.aarch64.rpm"
-RPM_HASH = "9779b7368da321fbdcc1547a2a15c4b15d294273b89f9db3567fc96ad656bb927cb4132339fb8910aa5bfb1ef3a4a6580bfb45439ac88d7e44de4c8b0c2ebfc9"
+RPM_NAME = "shaderc-devel-2023.6-1.1.aarch64.rpm"
+RPM_HASH = "0e8c7e0a2f17328a6246438b0cf3f55b34943c95bb3d5a7adb06b271bb05e1d668fb30fdc67101a98f18c6fd4654796424cc56d6e8a366109cd2f40555dec53c"
 
 RPROVIDES:${PN} += "pkgconfig-shaderc \
 shaderc-devel"

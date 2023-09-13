@@ -9,10 +9,10 @@ communication. \
 This package provides the static library for the Parquet format."
 LICENSE = "Apache-2.0 & BSD-3-Clause & BSD-2-Clause & MIT"
 
-PV = "12.0.1"
+PV = "13.0.0"
 
-RPM_NAME = "apache-parquet-devel-static-12.0.1-1.1.aarch64.rpm"
-RPM_HASH = "0742ccacad4e59c10af24f3b327a75a2e301a8201f33533a1c75e7dac088f9c0eae1b17e9b932b339e441b36b85c97e37938345671bab4ab3915181acc4552c8"
+RPM_NAME = "apache-parquet-devel-static-13.0.0-1.1.aarch64.rpm"
+RPM_HASH = "47a0a3c8c382ef31a2abff57c1cab71e9d1fa165657256a8b17deab8f721405c2d4bde5ac548562025dcee1ef5b376ea51aac01e597ce513a5408f817da17891"
 
 RPROVIDES:${PN} += "apache-parquet-devel-static"
 

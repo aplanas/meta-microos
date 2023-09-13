@@ -2,10 +2,10 @@ SUMMARY = "Translations for package at-spi2-core"
 DESCRIPTION = "Provides translations for the 'at-spi2-core' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.48.3"
+PV = "2.48.4"
 
-RPM_NAME = "at-spi2-core-lang-2.48.3-2.1.noarch.rpm"
-RPM_HASH = "9844aa74856bbbc7a893b4522c971c411d2a86111fdeddd0372a1bdd1cd7b2fd2932185425d4700b679a0c572197aab52d195c01b5331e8dfef0ae90b9a158c9"
+RPM_NAME = "at-spi2-core-lang-2.48.4-1.1.noarch.rpm"
+RPM_HASH = "fc90cb119d0d1aca7d131e1cdb2aae7e69a27b6000fe2c083828dcc8a4dd5af48f280785c44ad82e27d9612a4daf543e5275e169dff80834891a342d27a6be15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "at-spi2-core-lang \

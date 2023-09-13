@@ -4,8 +4,8 @@ LICENSE = "EPL-1.0 | LGPL-2.1-or-later"
 
 PV = "1.2.11"
 
-RPM_NAME = "logback-examples-1.2.11-1.10.noarch.rpm"
-RPM_HASH = "b25faa3c4b2a8d58dc23dc53591c50cb383decedc7faf024b90aeb5e16405370d35446bbb738a779fc228aec22ae56747a9aea084c03a74e45ac0f4f8616e812"
+RPM_NAME = "logback-examples-1.2.11-2.1.noarch.rpm"
+RPM_HASH = "a4e7ac555f175d8cc3bfbea99a19ea5d166301dba9862c2544475c3648d612569fe276f7783d58d968aad1f04392806f7ad6b5e87974cf99a84e91421a039ca3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "logback-examples \

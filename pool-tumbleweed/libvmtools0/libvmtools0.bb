@@ -3,10 +3,10 @@ DESCRIPTION = "This is a shared library used by several Open VM Tools components
 such as vmware-toolbox-cmd and vmtoolsd (and its plugins)."
 LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-2.1-only"
 
-PV = "12.2.0"
+PV = "12.3.0"
 
-RPM_NAME = "libvmtools0-12.2.0-6.1.aarch64.rpm"
-RPM_HASH = "9e8add2c021aba940f089a95e134ed423580a1c7e3120b8083b25c4aca93d8a3b1e65e701357d125aa1f1e4de23859a1e463b01020e473d544bc8ee8254074f1"
+RPM_NAME = "libvmtools0-12.3.0-1.1.aarch64.rpm"
+RPM_HASH = "7a1119327a76ab0c835a06065a94b965fcb425ac621e82c6b319bbdaa520bf4ed668fed8fa8350f12b22c244c36543aa95c6bbdb329803c54e0483bd2e899d07"
 
 RPROVIDES:${PN} += "libDeployPkg.so.0 \
 libguestStoreClient.so.0 \

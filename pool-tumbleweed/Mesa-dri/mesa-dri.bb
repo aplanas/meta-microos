@@ -2,10 +2,10 @@ SUMMARY = "DRI plug-ins for 3D acceleration"
 DESCRIPTION = "This package contains Mesa DRI drivers for 3D acceleration."
 LICENSE = "MIT"
 
-PV = "23.1.6"
+PV = "23.1.7"
 
-RPM_NAME = "Mesa-dri-23.1.6-356.1.aarch64.rpm"
-RPM_HASH = "b54e05de7957a6f6f33704d55e62c2cd6ce3f43a524ad4c8b0b624a16973401d5a3c9abeb3d191e8dfbcf848fadf4011c1d7810a707a1ab4f0c408a2e0cfe33d"
+RPM_NAME = "Mesa-dri-23.1.7-357.1.aarch64.rpm"
+RPM_HASH = "b6d0ca098f0df45de5466a0086f5fbe2d31701a11a634e4bed9b775ffc1a3fb8dc1490ce18bcfcc7a400a9a1802fcfe953d9153f9a23822b864fbcc9f97b378b"
 
 RPROVIDES:${PN} += "Mesa-dri \
 config-Mesa-dri \

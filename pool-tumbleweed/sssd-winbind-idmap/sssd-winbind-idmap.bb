@@ -3,10 +3,10 @@ DESCRIPTION = "The idmap_sss module provides a way for Winbind to call SSSD to m
 UIDs/GIDs and SIDs."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "2.9.1"
+PV = "2.9.2"
 
-RPM_NAME = "sssd-winbind-idmap-2.9.1-1.1.aarch64.rpm"
-RPM_HASH = "4da9fc6a2ed44a98adeb8c9f2e88b4a47517b4a8b7bee591c5b51538e599a293489914af4b4e0a8af680cbfcb460c9b94d8509219990e42759953ab7230a1e84"
+RPM_NAME = "sssd-winbind-idmap-2.9.2-1.1.aarch64.rpm"
+RPM_HASH = "f1b71984772d908387b1cd5c783ada9a01bdd3c104bf425de8c5704997b24501cf5cfaaa5add5e893877d213b67706629f001fbe223a6b99fa4159669a106736"
 
 RPROVIDES:${PN} += "sssd-winbind-idmap"
 

@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "47.0"
 
-RPM_NAME = "rsocket-47.0-2.2.aarch64.rpm"
-RPM_HASH = "596dc1a5ef78bcf6ac0eb5c783c565d325669915e68dbe17117500c8c7c63ae80a232110fdfade3417b1e0712dc567484ac2bfbc18c48e9c0acebda01ce939a0"
+RPM_NAME = "rsocket-47.0-3.1.aarch64.rpm"
+RPM_HASH = "52765105851dcd34185fbdade1d38171e5b91e0e344ae574688567489522748633e60d9b564610969a109e2cec2cfab7679124d56557402f28461511ab4bea54"
 
 RPROVIDES:${PN} += "librspreload.so \
 rsocket"

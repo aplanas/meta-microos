@@ -3,10 +3,10 @@ DESCRIPTION = "Provides the Kerberos back end that the SSSD can utilize authenti
 against a Kerberos server."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.9.1"
+PV = "2.9.2"
 
-RPM_NAME = "sssd-krb5-2.9.1-1.1.aarch64.rpm"
-RPM_HASH = "9595a5951698c54cbbe6461c2ee7772b4985844b12e1bc4c56244564a0ac913a14bd238f934a12e9894e358adf3e0297a466c0ebbcc74667f99ac7fdba42e105"
+RPM_NAME = "sssd-krb5-2.9.2-1.1.aarch64.rpm"
+RPM_HASH = "1a493c171521dddf275423eb7ad301f6be6c1f9a650cf2b9ba4a7a1fcb966c0dec108ff6e4f1fb8de64d8b086c961b421e14a1c1766a289e79462c5da24eaf97"
 
 RPROVIDES:${PN} += "libsss-krb5.so \
 sssd-krb5"

@@ -2,10 +2,10 @@ SUMMARY = "FreeIPA ID mapping library"
 DESCRIPTION = "A utility library for FreeIPA to map Windows SIDs to Unix user/group IDs."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "2.9.1"
+PV = "2.9.2"
 
-RPM_NAME = "libsss_idmap0-2.9.1-1.1.aarch64.rpm"
-RPM_HASH = "74e646397480389aa801944d3f9ea33aaa15415147f3815f7a720924b316c2b1ef736d46e8e34a42e8750eb3605d698be0d63e46f065634adb63adaee816b330"
+RPM_NAME = "libsss_idmap0-2.9.2-1.1.aarch64.rpm"
+RPM_HASH = "581ba53d58e3ad5bcbc4a404b41eeeee4885cb3e35b3ebcaa9f86254d1b448e3ece918c061ea0ea99eae93a0620b6981e67f42341a339a9652fa49fa6ddf478c"
 
 RPROVIDES:${PN} += "libsss-idmap.so.0 \
 libsss-idmap0"

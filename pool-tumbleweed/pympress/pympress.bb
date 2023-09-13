@@ -11,10 +11,10 @@ great features, including: \
 - and much more"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.8.3"
+PV = "1.8.4"
 
-RPM_NAME = "pympress-1.8.3-1.2.noarch.rpm"
-RPM_HASH = "bce632f9f0eb519fd2972b4599b5524b47551733e42e29dd7d7fc69111b3f52db9357e8329da16c1ddd34aacb5ecf09ee07b20c3da5b50c8c7d180b73163acd9"
+RPM_NAME = "pympress-1.8.4-1.1.noarch.rpm"
+RPM_HASH = "fe48e9a68210793c1cd3ac405671c62f77ab19c0d8c5ae298b2556974e17c29a3489a6429ce472fe8d9a55496c8ead984586707b0551ea8ed0e1310967873f46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pympress \

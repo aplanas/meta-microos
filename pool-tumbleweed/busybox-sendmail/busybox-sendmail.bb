@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.36.1"
 
-RPM_NAME = "busybox-sendmail-1.36.1-29.1.noarch.rpm"
-RPM_HASH = "c6e334e9154c2ab0e01a018a830f410f0d2a6480a89d19e376a6d57687020107b9e5550a0e8312b0f552b4f40bd1d7ea76663cd405e71790efccf146632085d2"
+RPM_NAME = "busybox-sendmail-1.36.1-30.1.noarch.rpm"
+RPM_HASH = "06cb7a505f6decbed2fcf22934dd57050cb34a21ab157e08f9976961ce5193fba782ef746985941105eb7970b6566acaa454072d7c51af28acf1fd1008956488"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-sendmail \

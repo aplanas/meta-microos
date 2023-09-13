@@ -3,10 +3,10 @@ DESCRIPTION = "This package includes the Perl API to provide an interface to SLU
 through Perl."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.2"
+PV = "23.02.4"
 
-RPM_NAME = "perl-slurm-23.02.2-1.4.aarch64.rpm"
-RPM_HASH = "38e08f8dae29afd1138e82c324cc3ad1188eb88da91c73c2648c6f4a668337ccb0ca82fe7707162e23703b1a8ab022ebc233b77bc242b8021f8a2af1afed63ae"
+RPM_NAME = "perl-slurm-23.02.4-2.1.aarch64.rpm"
+RPM_HASH = "4fc5a92b84b9a78679908490f3f131c5f87af25432fe7108e37a4060af6e5442b95f9caa975742d2b7ae7a343e86f89dbd19ecc2c47d196a4ee44688c6dccc2d"
 
 RPROVIDES:${PN} += "perl-Slurm \
 perl-Slurm--Bitstr \

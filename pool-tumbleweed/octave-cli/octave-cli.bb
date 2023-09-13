@@ -5,10 +5,10 @@ solution of numeric problems. \
 This package contains the command-line user interface."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "8.2.0"
+PV = "8.3.0"
 
-RPM_NAME = "octave-cli-8.2.0-1.2.aarch64.rpm"
-RPM_HASH = "5a97bb6869ea8f52ca6d825426fc52de07c6ad8b8133f74beeb8baf4100ca00e3b51561d4ecd890a7546f7c09803b17f52f7731147721330668f91e80228189e"
+RPM_NAME = "octave-cli-8.3.0-1.1.aarch64.rpm"
+RPM_HASH = "1c0eb82ec857d2286e5bfe6fc21d2638da9e4fcf8014fdf285ca5d843a8fb285e9189d4aa951be5a26444be400683268535ce62a00c1c5318d0ca18c936502dc"
 
 RPROVIDES:${PN} += "config-octave-cli \
 liboctave.so.10 \

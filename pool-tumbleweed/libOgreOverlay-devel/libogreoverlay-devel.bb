@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "13.5.3"
 
-RPM_NAME = "libOgreOverlay-devel-13.5.3-2.2.aarch64.rpm"
-RPM_HASH = "3345898bbc538fa984ec9c01b4599a7ec6e95e7308944d9dd0c4dcd57d5968ab9ab4bac8d1192951b5e8aadf66a1735aa62571c5eb22ca3bffc41010a7bb61a3"
+RPM_NAME = "libOgreOverlay-devel-13.5.3-2.3.aarch64.rpm"
+RPM_HASH = "7ca6f793a027b3e9259dd0270adb403d1502dc8eb8609f28f91fcc0e07d571771c52a90576741f0a680d19ac7fede755578ddc5ae6aff2b06b466f3927f48b12"
 
 RPROVIDES:${PN} += "libOgreOverlay-devel \
 pkgconfig-OGRE-Overlay"

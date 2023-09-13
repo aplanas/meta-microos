@@ -11,8 +11,8 @@ LICENSE = "Apache-1.1"
 
 PV = "0.11.0"
 
-RPM_NAME = "python311-impacket-0.11.0-1.1.noarch.rpm"
-RPM_HASH = "88919420688234798ed21e1778512d892ca21653d86a91d2359f02e3c1630a3fa90d8dfcb80921a3b8e0ce6977ad9944c3d6097b95f08f349072361d1753f398"
+RPM_NAME = "python311-impacket-0.11.0-2.1.noarch.rpm"
+RPM_HASH = "b7535aa916ceb7b2e4d3ec8ae75cdf90435f6d39014255bc177667ca2597f6b75a5bb7290f2d6cea5535f31b9eba880ec977735e8d8b125db7f8501588ed42ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-impacket \
@@ -25,12 +25,12 @@ RDEPENDS:${PN} += "/usr/bin/python3.11 \
 python-abi \
 python311-Flask \
 python311-charset-normalizer \
-python311-future \
 python311-ldap3 \
 python311-ldapdomaindump \
 python311-pyOpenSSL \
 python311-pyasn1 \
 python311-pycryptodomex \
+python311-setuptools \
 python311-six \
 update-alternatives"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.0.18"
 
-RPM_NAME = "vlc-lang-3.0.18-9.1.noarch.rpm"
-RPM_HASH = "a4bbbc0249528519e544bb53bbb0619227ba9d21ce7aa4c640206c96feafbb7036a942a977db048862128e39c0f79f78b245aaf6f32b293fbc2c4d84665c130a"
+RPM_NAME = "vlc-lang-3.0.18-9.2.noarch.rpm"
+RPM_HASH = "5dfaa2aa2a7f65c9f38cf3bc6644ff3e2e49da41e54fec916ae8e248e2cf45b0e49af085e7d45646e8252f423eb1d3456f7fa91510ac99bb95ba3d0515f86976"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-vlc-af \

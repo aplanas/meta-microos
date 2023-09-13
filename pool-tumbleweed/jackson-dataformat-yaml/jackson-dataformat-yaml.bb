@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.15.2"
 
-RPM_NAME = "jackson-dataformat-yaml-2.15.2-1.1.noarch.rpm"
-RPM_HASH = "0af58b23004e0bb8ab2fe39ff3e4deb7a96e373f3e2206b082a8aadfa2e9c9d6a7bc68167f2fdd151f6c51331b5fab22232bab81fbc41241c1493e97a1f80859"
+RPM_NAME = "jackson-dataformat-yaml-2.15.2-2.1.noarch.rpm"
+RPM_HASH = "aae4ac4de46531918861661a157a4f9e334d815398754bfe936430c180c2b66e41c4e720569d482a10c381bf4896e76ee7f43426aee8cea68ea098aa82ee7bf4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-dataformat-yaml \

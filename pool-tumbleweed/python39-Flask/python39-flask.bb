@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.2"
 
-RPM_NAME = "python39-Flask-2.3.2-1.1.noarch.rpm"
-RPM_HASH = "07376c93c57f7f1687864c4caba1caf9fba0722c34ede8f8c3b0efda1841cc4c59d0a8fb1191b190153cb29f59cbe222aed17a05e9c908f67994928c0402b9fc"
+RPM_NAME = "python39-Flask-2.3.2-2.1.noarch.rpm"
+RPM_HASH = "7d64f61373dadcbf1c3b7457d4ef2c4c6b9b7c360ea54c89ff343b9fd38f5faef9a386c6add5a00ea44c662b4ef9b57ddc044981b47add275cd1266bf7b02e10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-flask \

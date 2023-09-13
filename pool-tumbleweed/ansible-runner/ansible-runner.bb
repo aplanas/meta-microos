@@ -2,10 +2,10 @@ SUMMARY = "Run ansible-playbook inside an execution environment"
 DESCRIPTION = "Consistent Ansible Python API and CLI with container and process isolation runtime capabilities"
 LICENSE = "Apache-2.0"
 
-PV = "2.3.3"
+PV = "2.3.4"
 
-RPM_NAME = "ansible-runner-2.3.3-1.2.noarch.rpm"
-RPM_HASH = "c7233bf21d4cf6444173dd3ff25448da49760a1d8396968a97f1ca919893ac1af591539f83db15e96583aab5fa20a8edf1974223baf6eddef89af4e337418db1"
+RPM_NAME = "ansible-runner-2.3.4-1.1.noarch.rpm"
+RPM_HASH = "54d513c722eed1b7490ec4b3815440090ee139ea4ac2b1b3ba8d63ba008ee315e3c67a0fb1c4b659c0adc260a599214301b4374fc957c6260d7021b71ca624d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansible-runner \

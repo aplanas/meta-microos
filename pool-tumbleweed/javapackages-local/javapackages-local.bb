@@ -2,18 +2,16 @@ SUMMARY = "Non-essential macros and scripts for Java packaging support"
 DESCRIPTION = "This package provides non-essential macros and scripts to support Java packaging."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.1.0"
+PV = "6.2.0"
 
-RPM_NAME = "javapackages-local-6.1.0-4.1.noarch.rpm"
-RPM_HASH = "da65e8b68edc640874c64b5fa3788055ca593c7be1b2e339668b89a0ada4ec1777a7c5cfac89450e99a9dedbed9b7a92e681f9460048146c0ba0721dae5329cf"
+RPM_NAME = "javapackages-local-6.2.0-2.1.noarch.rpm"
+RPM_HASH = "c40a9bd2e8b8320c32178289522d29adca5f2e5d4236f8eeefb93d1364f3821a0c67881ce0d8c7ab9196f78f6867c452261634e56d1afd1af27b9308aef58364"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-javapackages-local \
 javapackages-local \
 rpm-macro-add-maven-depmap \
 rpm-macro-gradle-build \
-rpm-macro-java-remove-annotations \
-rpm-macro-java-remove-imports \
 rpm-macro-javadoc-package \
 rpm-macro-mvn-alias \
 rpm-macro-mvn-artifact \

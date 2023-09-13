@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.36.1"
 
-RPM_NAME = "busybox-sharutils-1.36.1-29.1.noarch.rpm"
-RPM_HASH = "572f18b2cabed854bb2b531dc0fdb73f9e7b8d88d9355b2c88255d722c7247ad95fa5cc0133d2710243bb128cc127fc182091b7e5f1669957f34e9e290ee4ccc"
+RPM_NAME = "busybox-sharutils-1.36.1-30.1.noarch.rpm"
+RPM_HASH = "c35b7184201c0e6582b25765c5e9b292b0a5497f07e914aae285b8c75fcc50e62a78a7f7711d7fca1a860f4a456d8763ce34a211aa0a0a489716b61ba3306add"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-sharutils"

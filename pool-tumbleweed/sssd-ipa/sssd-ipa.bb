@@ -3,10 +3,10 @@ DESCRIPTION = "Provides the IPA back end that the SSSD can utilize to fetch iden
 data from and authenticate against an IPA server."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.9.1"
+PV = "2.9.2"
 
-RPM_NAME = "sssd-ipa-2.9.1-1.1.aarch64.rpm"
-RPM_HASH = "6f2bb9c6fad1bdb04ba9086ffe5353962e049a7a9f29cb2080f6af9ddef7cc3bcc03ae521dbce433408cda4ed8571313ea086dc1291529e30e382cb4b93149f4"
+RPM_NAME = "sssd-ipa-2.9.2-1.1.aarch64.rpm"
+RPM_HASH = "78af97c19d29062ac13bb0310cd255d93fe2af207f579e192a06030168c5ca125bf976b219f4dc0a161db0ac4bbb626e47e894d3fc1ba48246ce539b04c9c38e"
 
 RPROVIDES:${PN} += "libsss-ipa.so \
 sssd-ipa \

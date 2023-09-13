@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.36.1"
 
-RPM_NAME = "busybox-tar-1.36.1-29.1.noarch.rpm"
-RPM_HASH = "4303f9c2a4b02671be359241fe2d2c70d65bbef43603dfd9bcbb04a7adb1bcf272f2bc82ca0c38d684dc97987c8d0beb169eb2d32134fb55129f6fd3fda6339e"
+RPM_NAME = "busybox-tar-1.36.1-30.1.noarch.rpm"
+RPM_HASH = "d823d16e322897eba47ab3553d05aeaba05da4e4dd63ec195bccc31f5a58939ea1e8703934949cc8d5cb2c7cc6872a0ee74956a42601524e5e76d239f77a419c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/usr/bin/tar \

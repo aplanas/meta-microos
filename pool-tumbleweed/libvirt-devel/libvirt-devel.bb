@@ -2,10 +2,10 @@ SUMMARY = "Libraries, includes, etc. to compile with the libvirt library"
 DESCRIPTION = "Include header files & development libraries for the libvirt C library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.6.0"
+PV = "9.7.0"
 
-RPM_NAME = "libvirt-devel-9.6.0-3.1.aarch64.rpm"
-RPM_HASH = "bc1060c9dfbdbba0c2959ed6887e417078910be330e7fa87e968455efa10b4ced54bda9d967ee0a20588d6e06bf86af9df0edaeb4d36faac92c8011b5b9c2c73"
+RPM_NAME = "libvirt-devel-9.7.0-1.1.aarch64.rpm"
+RPM_HASH = "3c3a5283cac4c4a637567d045019e96c651242783e4899841fce1dfea824434c6e09278c84d1bae567e14de4738170759465373a0aed4d465d50b81e05419589"
 
 RPROVIDES:${PN} += "libvirt-devel \
 pkgconfig-libvirt \

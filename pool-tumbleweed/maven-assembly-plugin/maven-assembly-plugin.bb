@@ -3,10 +3,10 @@ DESCRIPTION = "A Maven plugin to create archives of your project's sources, clas
 dependencies etc. from flexible assembly descriptors."
 LICENSE = "Apache-2.0"
 
-PV = "3.3.0"
+PV = "3.6.0"
 
-RPM_NAME = "maven-assembly-plugin-3.3.0-2.9.noarch.rpm"
-RPM_HASH = "8c7e11dc5927ba7feb4441a609bbdd0d38872b5f2e17f9cb5f077c4ae0d1c2d14621631b39e30eb0da5175be84751ea12d31f43387105f8f68a2a60ad725b64e"
+RPM_NAME = "maven-assembly-plugin-3.6.0-1.1.noarch.rpm"
+RPM_HASH = "7bff7a65633bb5f190aa9aecff81da3994d867e1906625bcfc0e6c121d48a652c5e932b8e41a3314e82fd43ff5e6b226f3064f4581658837716c420dbfa76dfb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-assembly-plugin \
@@ -15,18 +15,10 @@ mvn-org.apache.maven.plugins-maven-assembly-plugin-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-commons-codec-commons-codec \
 mvn-commons-io-commons-io \
 mvn-org.apache.maven-maven-archiver \
-mvn-org.apache.maven-maven-artifact \
-mvn-org.apache.maven-maven-core \
-mvn-org.apache.maven-maven-model \
-mvn-org.apache.maven-maven-plugin-api \
-mvn-org.apache.maven.shared-file-management \
-mvn-org.apache.maven.shared-maven-artifact-transfer \
 mvn-org.apache.maven.shared-maven-common-artifact-filters \
 mvn-org.apache.maven.shared-maven-filtering \
-mvn-org.apache.maven.shared-maven-shared-io \
 mvn-org.codehaus.plexus-plexus-archiver \
 mvn-org.codehaus.plexus-plexus-interpolation \
 mvn-org.codehaus.plexus-plexus-io \

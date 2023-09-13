@@ -2,10 +2,10 @@ SUMMARY = "Test suite for libfabric API"
 DESCRIPTION = "Fabtests provides a set of examples that uses libfabric, a fabric software library."
 LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
-PV = "1.18.1"
+PV = "1.19.0"
 
-RPM_NAME = "fabtests-1.18.1-2.1.aarch64.rpm"
-RPM_HASH = "bc71df33142e380024ce9e22ab9244ebbdc23c30f6335f5eaa63d4715c25a0a6898536fceb1b0499c4923102b7f563ae44cb6325075fb5814a12b9b1488eff9f"
+RPM_NAME = "fabtests-1.19.0-1.1.aarch64.rpm"
+RPM_HASH = "ce3d9541e9cb85a304ae866a3eaeec02886f9df179ab9d068258a00d948be5c1eaf65b8bb727a2ae7d6cc178309e7582226b11afbaa7bd2fd69cb6ac0534a15a"
 
 RPROVIDES:${PN} += "fabtests"
 

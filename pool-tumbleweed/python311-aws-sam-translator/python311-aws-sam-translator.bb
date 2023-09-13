@@ -3,10 +3,10 @@ DESCRIPTION = "AWS SAM Translator is a library that transform SAM \
 templates into AWS CloudFormation templates"
 LICENSE = "Apache-2.0"
 
-PV = "1.71.0"
+PV = "1.74.0"
 
-RPM_NAME = "python311-aws-sam-translator-1.71.0-1.1.noarch.rpm"
-RPM_HASH = "4eb464bf5789663f1c4beed3b4c8b5352e63579f7d6b62ecf53cb4772b9b7f696b15e6ff860edf6b05b5a30df3acc115f2d412fb5d8478f564de7aaaa20a9beb"
+RPM_NAME = "python311-aws-sam-translator-1.74.0-1.1.noarch.rpm"
+RPM_HASH = "7671e134a59c9d5181b721fb15772d0b0a65ee88a7a765003519f3f089a2a6885bc152c2d553a2843739ee9e9e976cba3c6819a4ec012ca16d36083e34f7fdc4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-aws-sam-translator \

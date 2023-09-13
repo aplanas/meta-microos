@@ -4,10 +4,10 @@ spec and additional checks. Includes checking valid values for \
 resource properties and best practices."
 LICENSE = "MIT"
 
-PV = "0.79.8"
+PV = "0.79.9"
 
-RPM_NAME = "python39-cfn-lint-0.79.8-1.1.noarch.rpm"
-RPM_HASH = "9219374dbc4033c8f2553013853c0fc3e66fd9b9e118e6b4e3a6ae77444fbb85797c07dc1e43f9c586d197f8346dea7077beb7ea855b8d19b24acfe91c42e075"
+RPM_NAME = "python39-cfn-lint-0.79.9-1.1.noarch.rpm"
+RPM_HASH = "6c2901c577205b301b24ea3a908c7941139964f2fae4f1ed37b0cc986a234897d181bf61701adecb75a12bd86841df9376cc742e65da8fb05f61d319fe6cf9da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cfn-lint \

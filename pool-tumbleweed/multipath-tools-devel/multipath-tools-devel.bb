@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the development libraries for multipath-too
 and libmpathpersist."
 LICENSE = "GPL-2.0-only & LGPL-2.0-or-later"
 
-PV = "0.9.5+68+suse.d1b6a1c"
+PV = "0.9.6+71+suse.f07325e"
 
-RPM_NAME = "multipath-tools-devel-0.9.5+68+suse.d1b6a1c-1.2.aarch64.rpm"
-RPM_HASH = "8c3e5c490534c63d6ddd472b19ff559adc2b03272f5f0cb892b239899474c87cbf22a5116238f657a71217935de6a5eb4b82469a3aae707ec2ef85c1dc3bdac7"
+RPM_NAME = "multipath-tools-devel-0.9.6+71+suse.f07325e-1.1.aarch64.rpm"
+RPM_HASH = "ac74557283b4caa4c7448eb64f7113e63b796a6968c8afab15054258654228a5c3757cb6e208df927c5be735482dab2154894270824669b1955ae4e15d0db012"
 
 RPROVIDES:${PN} += "multipath-tools-devel"
 

@@ -6,8 +6,8 @@ LICENSE = "(Apache-2.0 | MIT) & BSD-3-Clause & (0BSD | MIT | Apache-2.0) & (Apac
 
 PV = "20230712.072601.f4abf8fd"
 
-RPM_NAME = "wezterm-20230712.072601.f4abf8fd-3.1.aarch64.rpm"
-RPM_HASH = "0455dfa00ca7e36b86382e8732a30f512f46862b14b9444694f3f7fd61d11732821cc41f9bb99024d8587fb919c686cc827260ec06a75b7c7127c89e9d7407a8"
+RPM_NAME = "wezterm-20230712.072601.f4abf8fd-4.1.aarch64.rpm"
+RPM_HASH = "feac46c1cde2e4497fc6aa4e6a239367e0316c6aa685d1f08c3885e1f58deb5a2faf755f836b135efbc89936bb6c04f964b7ce43b2e927a8c2f669c291392077"
 
 RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
 bundled-rust-crate-adler \

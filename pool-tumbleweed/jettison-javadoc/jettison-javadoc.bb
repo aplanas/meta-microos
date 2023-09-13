@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.4"
 
-RPM_NAME = "jettison-javadoc-1.5.4-1.2.noarch.rpm"
-RPM_HASH = "8d74327cbf951ad9bcf327f638b1f709a083e718755655b09b439bb9961c001c88a0ee21daff0cab3d29f5809c50f6cd5456a9c49c0bd3182c71a2426fdc470a"
+RPM_NAME = "jettison-javadoc-1.5.4-2.1.noarch.rpm"
+RPM_HASH = "702af744316474d084d46584b1addf21a4b1a09f5b0007286345384b0bc529e25258aecb144cb0d2e513475c82360a2a9b9346b7ac8ed777718773b304396f27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jettison-javadoc"

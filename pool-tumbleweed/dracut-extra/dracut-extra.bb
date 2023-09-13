@@ -3,16 +3,14 @@ DESCRIPTION = "This package contains all modules that are part of dracut upstrea
 but are not normally supported or required."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "059+suse.491.g87f19c22"
+PV = "059+suse.497.ga7feaf12"
 
-RPM_NAME = "dracut-extra-059+suse.491.g87f19c22-1.1.aarch64.rpm"
-RPM_HASH = "8af715b0677e5a868e7ebe39251a13a70c2487fc2199a0026e41d9c04029b641f31b709900d7be2f9a7cd1e3945e5306190538f4b613d5fda45ee3107fe71c90"
+RPM_NAME = "dracut-extra-059+suse.497.ga7feaf12-1.1.aarch64.rpm"
+RPM_HASH = "8c094ee7c2e7624585d38352872d891fd14f55fe78fb0b9c8eda77ceaa4560c567eaf1f88413182e9ea822ebae0ecedead7749f430b998855622715ff1340070"
 
 RPROVIDES:${PN} += "dracut-extra"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-dracut \
-evmctl \
-keyutils"
+dracut"
 
 inherit rpm

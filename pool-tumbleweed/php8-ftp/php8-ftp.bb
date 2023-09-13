@@ -5,8 +5,8 @@ LICENSE = "MIT & PHP-3.01"
 
 PV = "8.2.10"
 
-RPM_NAME = "php8-ftp-8.2.10-1.1.aarch64.rpm"
-RPM_HASH = "0df403c479920ec189e3aefc6092d64c7ad39b94b2bbdb372b1743bcc60a38cbfd3c144584141a4b294fb0417addb0921682063684bd9ce65dc95ee1f99b3626"
+RPM_NAME = "php8-ftp-8.2.10-2.1.aarch64.rpm"
+RPM_HASH = "4f36b00122dd532403af44369a0420cb725668a7a34042afa5cf603f6fb135ed20962abff2dc4e1a40df523f938a3c07b4006b37252e8fa3d3d33b0ed62956cf"
 
 RPROVIDES:${PN} += "config-php8-ftp \
 php-ftp \

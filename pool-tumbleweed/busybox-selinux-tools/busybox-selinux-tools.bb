@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.36.1"
 
-RPM_NAME = "busybox-selinux-tools-1.36.1-29.1.noarch.rpm"
-RPM_HASH = "4f489906b5123e30d08eaaf15ad1d402f07f016f2951017ff1d3f25df2acb003d258619cdb24cbc05656f449af7367e169aa997f0edcc99b5d7d769fce56a350"
+RPM_NAME = "busybox-selinux-tools-1.36.1-30.1.noarch.rpm"
+RPM_HASH = "29dadc34ca66711d6dfe78c3f358ebfac730f392b5a8eea78dfaff9324378203faa161b03a2be7b7c5c76799205209951548d73ffb1aba980fd41d15018f4a19"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-selinux-tools"

@@ -11,8 +11,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "5.2.98"
 
-RPM_NAME = "liblinphone-data-5.2.98-1.1.noarch.rpm"
-RPM_HASH = "0dd2c1abc94eb55f06593d062b40e6148e2ef4f3658e8b89208601782f0a023a9d6d9ac80d6ae35c1363b0138e9e85a53a94e4b565fd6c74a8c44ae8c6004167"
+RPM_NAME = "liblinphone-data-5.2.98-2.1.noarch.rpm"
+RPM_HASH = "2d20c9b7ea356414d16f0d8bf4de325484a593316444f0dc890aa64c975c5a5f623611803c8aafa26005d6d3992f1d7aba9011b3ca808c6d4e972b82f208e24d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "liblinphone-data"

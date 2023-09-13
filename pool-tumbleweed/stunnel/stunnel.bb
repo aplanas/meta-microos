@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.70"
 
-RPM_NAME = "stunnel-5.70-1.1.aarch64.rpm"
-RPM_HASH = "c684fb30e4d0bbd5906358aacb59e6836720c7f01b5dc7787c1b40fb9cf82c2f04f311660ed3f0efbe919b085bcd69e76f29e40dae0f8834799882dda314d09f"
+RPM_NAME = "stunnel-5.70-2.1.aarch64.rpm"
+RPM_HASH = "a7662de8611d0d9fb373d15f6d8075c8a6792e3508a537f7e92cb023e396d548a811d70309c5142c50373e82de5799a4e5b71705184cd3fe1f31893f55ef020c"
 
 RPROVIDES:${PN} += "config-stunnel \
 libstunnel.so \

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "4.18.6"
 
-RPM_NAME = "python311-jsonschema-format-nongpl-4.18.6-1.1.noarch.rpm"
-RPM_HASH = "0d4eb5dfc71c281840b11fb817cd4aa0e1eeac978f3556b7c5add3d181556e12469ad7d3673797fb9c8694a2ee1f49b9c2d30964632b86cf1073a79e6bbacb50"
+RPM_NAME = "python311-jsonschema-format-nongpl-4.18.6-2.1.noarch.rpm"
+RPM_HASH = "59a84c596ccb39a0385d98c3269771df2c2e8c4316f38319613d3d0959fb22284a9fe6af25be30741d3f221ae2f05b84d19a5e8a04f268414d00e2eed699fa39"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-jsonschema-format-nongpl \

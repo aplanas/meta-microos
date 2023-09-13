@@ -2,10 +2,10 @@ SUMMARY = "Multi-core gzip version"
 DESCRIPTION = "A parallel implementation of gzip for modern multi-processor, multi-core machines"
 LICENSE = "Zlib"
 
-PV = "2.7"
+PV = "2.8"
 
-RPM_NAME = "pigz-2.7-1.8.aarch64.rpm"
-RPM_HASH = "db40d9b863314382fa67031e7d44dd55889373d032bae076a030114e63f3aaf08b148629d86df2a927e5ff62802ddf4914722fe3c965305c9815cb186af4c848"
+RPM_NAME = "pigz-2.8-1.1.aarch64.rpm"
+RPM_HASH = "e2bc34bc5e2800bb8cddebde2c026c38b42fcbd04066433d67b24edb3efa7affd5d9ce971747906bb87024af66c9bad69c66b9f7d7223426cac4b693c85da71e"
 
 RPROVIDES:${PN} += "pigz"
 

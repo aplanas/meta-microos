@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Slovene Translations"
 DESCRIPTION = "YaST2 - Translations for Slovene."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230818.ea489402e5"
+PV = "84.87.20230901.be24cb382f"
 
-RPM_NAME = "yast2-trans-sl-84.87.20230818.ea489402e5-1.1.noarch.rpm"
-RPM_HASH = "2475fdd366e7a18fa3ad2276df3b72480205f5e3fed5554a787ae82a1aa066d1558385d726e7ec0b2d3fe4816c989917cfc5f300e2da00122dd47fbfe1f22f50"
+RPM_NAME = "yast2-trans-sl-84.87.20230901.be24cb382f-1.1.noarch.rpm"
+RPM_HASH = "32e21e5a20adeeea8931639e39322b2a2c8977a1428d063ac833743c263447051df54e8cd89a1476eb9f98ac1fb1908f6d868d4d75eed59d91b2fb6196cdc30e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-sl \

@@ -13,10 +13,10 @@ with testrepository. At a high level the basic concepts of operation are shared 
 between the two projects but the actual usage is not exactly the same."
 LICENSE = "Apache-2.0"
 
-PV = "3.2.1"
+PV = "4.0.1"
 
-RPM_NAME = "python39-stestr-3.2.1-2.4.noarch.rpm"
-RPM_HASH = "1268add6e350dd8a67a4d6fdc9c7911b021a324bd44dc81bb0a398b2963afa0a3b5273120f82987f7727448d8326f3b1a2dfac9be0a31eaa99e3d47cfc4a9f13"
+RPM_NAME = "python39-stestr-4.0.1-1.1.noarch.rpm"
+RPM_HASH = "b2b84f97d95e80c02dc0a29e4e16490da6fdc27d343c2082a8f7825ff2e817797ab70b643d17d784c33670910ece84b329ce196098a32bfc32fc4c12e429800e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-stestr \
@@ -26,7 +26,6 @@ python3dist-stestr"
 RDEPENDS:${PN} += "python-abi \
 python39-PyYAML \
 python39-fixtures \
-python39-future \
 python39-pbr \
 python39-python-subunit \
 python39-testtools \

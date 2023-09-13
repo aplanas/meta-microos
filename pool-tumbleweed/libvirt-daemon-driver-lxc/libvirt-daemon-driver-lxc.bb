@@ -4,10 +4,10 @@ an implementation of the hypervisor driver APIs using \
 the Linux kernel"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.6.0"
+PV = "9.7.0"
 
-RPM_NAME = "libvirt-daemon-driver-lxc-9.6.0-3.1.aarch64.rpm"
-RPM_HASH = "0ed5b7fe41d56e2be26ce76617141d0c6ebbfc52ff300a8828f1d73665bb5b13f0e445c40b27de37e718b10a55164a1a393000fc94bfc4dab39dfc1fb74052f3"
+RPM_NAME = "libvirt-daemon-driver-lxc-9.7.0-1.1.aarch64.rpm"
+RPM_HASH = "310ad5e2d74138b19022e6bfadfc5a6c0b4cec22804bbe842f48d3a8455f2f5b2a354830994ac33bcd612707d1bed93605f3c963c75e3f3799213818a40df604"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-driver-lxc \
 libvirt-daemon-driver-lxc \

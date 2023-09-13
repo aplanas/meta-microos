@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "1.3.40"
 
-RPM_NAME = "libGraphicsMagick-Q16-3-1.3.40-4.1.aarch64.rpm"
-RPM_HASH = "ddb63a5b713cd0271f1fe780f984db77c99e5067de01f33054990737ba17885a8a94c595d73ea3037bd65b0fbda05c9e3240ec240eb7b1b8e042f87ebc694035"
+RPM_NAME = "libGraphicsMagick-Q16-3-1.3.40-5.1.aarch64.rpm"
+RPM_HASH = "8a50183fa9f243f85efeabb7ebdbf1c1497faf19fe482a7256a1f6fd365cf487323145de1943e6a14e1f6127c7bbafadce1011e6d1f6e0e16a7a8c0c8c3d146c"
 
 RPROVIDES:${PN} += "libGraphicsMagick-Q16-3 \
 libGraphicsMagick-Q16.so.3"

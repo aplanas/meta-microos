@@ -2,10 +2,10 @@ SUMMARY = "Cockpit PCP integration"
 DESCRIPTION = "Cockpit support for reading PCP metrics and loading PCP archives."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "298"
+PV = "300.1"
 
-RPM_NAME = "cockpit-pcp-298-2.1.aarch64.rpm"
-RPM_HASH = "d030b138d777ea409d7c953e85c393cf2627ecf857702589f85843198b6e1ea175cded2a7771a4f84a99d0bf1349bef8ddf007aef7bd08bfe49b9833c2adfb50"
+RPM_NAME = "cockpit-pcp-300.1-1.1.aarch64.rpm"
+RPM_HASH = "8e9cb4295cdb8b7ad14e982f130a4d7b32c6431a022432d29391c6bd8d9dc0d20554c0d2916ce15d389549450d1fdf3449b358cda1d79715af18d83a84f89811"
 
 RPROVIDES:${PN} += "cockpit-pcp"
 

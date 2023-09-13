@@ -3,10 +3,10 @@ DESCRIPTION = "The freetds-doc package contains the useguide and reference of Fr
 and can be installed even if FreeTDS main package is not installed"
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.3.18"
+PV = "1.3.20"
 
-RPM_NAME = "freetds-doc-1.3.18-1.1.aarch64.rpm"
-RPM_HASH = "4c3a1cb474c50890c80c8b7c73b55a9db5e678c8ec5bd1583f4dddd43d09fb580f41bbc69779ef0e7c13a3e80308588b4abf8ea250f94b1c254ecf0e3f384697"
+RPM_NAME = "freetds-doc-1.3.20-1.1.aarch64.rpm"
+RPM_HASH = "ebb2c5fa5ade9d54613bc8f2601601fe76a019fb489946b32982770311c3a9815766dd814556c6e518589304218ed2e82e7cab25985d470fa7d88b2da6ed92c7"
 
 RPROVIDES:${PN} += "freetds-doc"
 

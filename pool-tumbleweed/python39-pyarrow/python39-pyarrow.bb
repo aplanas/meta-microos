@@ -14,10 +14,10 @@ analytics. Many popular projects use Arrow to ship columnar \
 data efficiently or as the basis for analytic engines."
 LICENSE = "Apache-2.0 & BSD-3-Clause & BSD-2-Clause & MIT"
 
-PV = "12.0.1"
+PV = "13.0.0"
 
-RPM_NAME = "python39-pyarrow-12.0.1-2.1.aarch64.rpm"
-RPM_HASH = "1cc60e88091861cb5b7cc83159a5d2755ca7853eb843a5fac85120c9c291523f27dbb347dc86cf269755836d7a7a6d1e2880988f4b455f30b786e9dd05677a22"
+RPM_NAME = "python39-pyarrow-13.0.0-1.1.aarch64.rpm"
+RPM_HASH = "d6d572b7769e0e3741e58b93542b0ec7c6f620cf5593b8a6e21c2cc91309df510273f4e4911c39eaaaa3b992256a3b8249d0f05b51d9a8f3fa32245f4138ba8c"
 
 RPROVIDES:${PN} += "lib.cpython-39-aarch64-linux-gnu.so \
 libarrow-python.so \
@@ -25,12 +25,12 @@ python3.9dist-pyarrow \
 python39-pyarrow \
 python3dist-pyarrow"
 
-RDEPENDS:${PN} += "libarrow-acero.so.1200 \
-libarrow-dataset.so.1200 \
-libarrow.so.1200 \
+RDEPENDS:${PN} += "libarrow-acero.so.1300 \
+libarrow-dataset.so.1300 \
+libarrow.so.1300 \
 libc.so.6 \
 libgcc-s.so.1 \
-libparquet.so.1200 \
+libparquet.so.1300 \
 libstdc++.so.6 \
 python-abi \
 python39-numpy"

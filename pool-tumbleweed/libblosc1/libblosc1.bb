@@ -4,10 +4,10 @@ LZ4HC, Snappy or Zlib) for binary data, with a focus on reducing \
 memory bus activity."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & MIT"
 
-PV = "1.21.4"
+PV = "1.21.5"
 
-RPM_NAME = "libblosc1-1.21.4-1.1.aarch64.rpm"
-RPM_HASH = "d4f44852418583d0ada1f55ca29e7a3ac7fa44170a0c0b0db797504a3d5c3843d14f2b5f19adb997f3c7bc45a5d3822d88509b9580e48a03e097c8acfd6432c0"
+RPM_NAME = "libblosc1-1.21.5-1.1.aarch64.rpm"
+RPM_HASH = "79cce93c28e255aa07d973c18abb9692fb870ddcef3d36c7d778eb9bd1128f9161dea984d95001657f33a5f06b6948403c7e81d909a9029d639217aefa0998a9"
 
 RPROVIDES:${PN} += "libblosc.so.1 \
 libblosc1"

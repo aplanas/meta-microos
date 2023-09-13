@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.8.9"
 
-RPM_NAME = "google-gson-javadoc-2.8.9-4.9.noarch.rpm"
-RPM_HASH = "b25b27258a30fa941ccfb84775e015ee8956f9bfe43af53f6ad8dfdfcb79f016b3286a672cedf78a4b5c112435a1d5210faab7132250bebfb0ebc8f8a9bfd18b"
+RPM_NAME = "google-gson-javadoc-2.8.9-5.1.noarch.rpm"
+RPM_HASH = "7e9a6cf112fcab94049e4be2cd90dd0173d247865ea48d8115ff7073fe4201e8eb6edfc692e903e619de605459cfd5f8c5b8d3a8337241918723dcb3bc46031c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-gson-javadoc"

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.0~20191021git51cf8f4"
 
-RPM_NAME = "apache-commons-ognl-4.0~20191021git51cf8f4-4.5.noarch.rpm"
-RPM_HASH = "9c364676e03086e0d157c26133bae8a9e36bc147f32d9153c36bbd2e0cc1b3d5f52c898470a747bddb992679e17dccc9c90db9d0fd65883bd99f609f4cc75ab4"
+RPM_NAME = "apache-commons-ognl-4.0~20191021git51cf8f4-5.1.noarch.rpm"
+RPM_HASH = "1fd01703d0c581f053ebb91729b6e89d47be6c23558ed083c9935365095b1259c0962b3d266e7c68f48b74bcc98e8e789ee7ef6b09a5448579eef89d6297f509"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-ognl \

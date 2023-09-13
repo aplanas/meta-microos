@@ -5,10 +5,10 @@ and systemd. Having root on MD, DM, LVM2, LUKS is supported as well as \
 NFS, iSCSI, NBD, FCoE."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "059+suse.491.g87f19c22"
+PV = "059+suse.497.ga7feaf12"
 
-RPM_NAME = "dracut-059+suse.491.g87f19c22-1.1.aarch64.rpm"
-RPM_HASH = "03a0f946dbe9b202202834c52a39fdd0ad95cabfbf7d94a97dd5d390150a11fdb4aedf69601d4af7cfd95fd15807898866b346e2353c1774ed79110c0354037f"
+RPM_NAME = "dracut-059+suse.497.ga7feaf12-1.1.aarch64.rpm"
+RPM_HASH = "c59a894a7d9ed953264e91650502ef6ecddc19f3543435041ce380f7e3ce9fd65c8f5d819eda223f618ed7c112066e15b94504045994dd4697515472e91a22d4"
 
 RPROVIDES:${PN} += "config-dracut \
 dracut \

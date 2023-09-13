@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides overlay icons to visualise the \
 synchronisation state in the Nautilus file manager."
 LICENSE = "GPL-2.0-or-later & LGPL-3.0-or-later"
 
-PV = "3.9.0"
+PV = "3.9.3"
 
-RPM_NAME = "nautilus-extension-nextcloud-3.9.0-3.1.noarch.rpm"
-RPM_HASH = "3a8a3329b36f353b66e196c8e617c54a176e599448fdd8fd26409b6ddcc0f400bc191ed01dfc602a5a06d5211775987e6713f611b5b527d864cc5c29c1b9a7f5"
+RPM_NAME = "nautilus-extension-nextcloud-3.9.3-1.1.noarch.rpm"
+RPM_HASH = "06cf50253c2d1026b46c027567c70d1fde8b5d69240363afab4d9f143468db90fa5e08cc73c482a4ca8dfb42c9508ecf4ebb598cff04c0d561570e2fce00d64b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nautilus-extension-nextcloud"

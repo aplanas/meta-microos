@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
 PV = "2.40.5"
 
-RPM_NAME = "libwebkitgtk6_0-4-2.40.5-2.1.aarch64.rpm"
-RPM_HASH = "e06bb999b709fa606af218feb794e08edd80e5c1bc93c512bd6ae52d7339e3b940820ec7256f434f6ec1819abe8eb67e5e81665c1fbb1c0a31b64550ed3d17e3"
+RPM_NAME = "libwebkitgtk6_0-4-2.40.5-3.1.aarch64.rpm"
+RPM_HASH = "38cb74bf3c72e3d50109fa07bec0dd58e42f5dbb5bb4f9e0ac9ab016797299312fe45ddf8e4a7647d4b743c8a944f1909846d33084dfacb1f96d505c877991f9"
 
 RPROVIDES:${PN} += "WebKitGTK-6.0 \
 libwebkit2gtk4 \

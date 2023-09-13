@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for conftest"
 DESCRIPTION = "Bash command line completion support for conftest."
 LICENSE = "Apache-2.0"
 
-PV = "0.44.1"
+PV = "0.45.0"
 
-RPM_NAME = "conftest-bash-completion-0.44.1-1.1.noarch.rpm"
-RPM_HASH = "dc29f09bceb7b8d673b7983e6d731ca1e4e51c8890f9d6ba7f0cda41460ee3bf2474c5664332c4a881b0d8f5631a3ad8e01985c5e1de3828876982e8344cd5e6"
+RPM_NAME = "conftest-bash-completion-0.45.0-1.1.noarch.rpm"
+RPM_HASH = "0cd318cc49de188ded74453cf29c697fe6b285f93ccfd1542522b612b50cff11c4cbc6a9005f59ada6258ba3372b4cbba0eff31b417c4d4e161c8283f5d75eea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "conftest-bash-completion"

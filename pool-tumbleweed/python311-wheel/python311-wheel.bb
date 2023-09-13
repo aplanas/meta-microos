@@ -10,10 +10,10 @@ preserves enough information to 'Spread' (copy data and scripts to their \
 final locations) at any later time."
 LICENSE = "MIT"
 
-PV = "0.40.0"
+PV = "0.41.2"
 
-RPM_NAME = "python311-wheel-0.40.0-1.3.noarch.rpm"
-RPM_HASH = "41cec2ba81499ad725b3932aad3e2fa1b97c6268b232b9b47bfdc500fb982c6363935ee8423819b27d652f5b7450849c70b0f89b7302a19918826d43bb8824f2"
+RPM_NAME = "python311-wheel-0.41.2-2.1.noarch.rpm"
+RPM_HASH = "1c1bbb5901df1645b51512dde6fd54ac5c3ebec815e99514c8de6cc95e4a783750c3c5c45868e671bf7e6164287e112fc0dbb4b1b3f027a1906390f9ae6166be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-wheel \

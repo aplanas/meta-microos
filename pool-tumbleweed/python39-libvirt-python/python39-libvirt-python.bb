@@ -5,10 +5,10 @@ supplied by the libvirt library to use the virtualization capabilities \
 of recent versions of Linux (v2.6.20+)."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.6.0"
+PV = "9.7.0"
 
-RPM_NAME = "python39-libvirt-python-9.6.0-1.1.aarch64.rpm"
-RPM_HASH = "c95178ba3fbf4bf20c9b851b302a694013954ff4733a7dcfe63685b20809d1a182f57c25fb576bfd50b61584be9cf5665558ba18262495ba6273f9e7dde8ee24"
+RPM_NAME = "python39-libvirt-python-9.7.0-1.1.aarch64.rpm"
+RPM_HASH = "2f65902601155cce2010bbce9ba7269f72ae3b03ee2fe575b58e0e736cc6282e9145f5d4e7b2acf83597214cb479eacabc032f3aa0f7df2386e7c07d13d4f886"
 
 RPROVIDES:${PN} += "libvirtmod-lxc.cpython-39-aarch64-linux-gnu.so \
 libvirtmod-qemu.cpython-39-aarch64-linux-gnu.so \

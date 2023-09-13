@@ -16,8 +16,8 @@ LICENSE = "MIT & PHP-3.01"
 
 PV = "8.2.10"
 
-RPM_NAME = "php8-sqlite-8.2.10-1.1.aarch64.rpm"
-RPM_HASH = "85e387509b946b15678c93cfac973edd2f823b62e131ae63a7b4703addc4c8fb995c53732816f0e91ba9020c0a62534e5ac8bcef1dd20f26086ff1075fcb30c4"
+RPM_NAME = "php8-sqlite-8.2.10-2.1.aarch64.rpm"
+RPM_HASH = "59c9e45b5ec3bd815305dc217b4307c2a15384d921a6669cfcecadc6a969beb0a9ff3da788b983cb0409d6989555257794df42c329c67887f41c3ea2ad436757"
 
 RPROVIDES:${PN} += "config-php8-sqlite \
 php-pdo-sqlite \

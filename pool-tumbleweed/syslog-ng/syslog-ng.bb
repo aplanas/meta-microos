@@ -17,8 +17,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.3.1"
 
-RPM_NAME = "syslog-ng-4.3.1-1.2.aarch64.rpm"
-RPM_HASH = "68e89de8d06799e0fd37af29de2bd52ed3fa01da89c26913d9084c273feed455db1e7a8243da30ee85c881806534d51ccc5ec0768da3bf85ffe7f6aac03484cd"
+RPM_NAME = "syslog-ng-4.3.1-1.3.aarch64.rpm"
+RPM_HASH = "e8bcd8cfef13871e51d6df096b150a66b682e859aab8a1bbca9db01b17cc1d3689db903f1bf2734047e7efae9018cb1de018686f102743aa0f01763ab59c7658"
 
 RPROVIDES:${PN} += "config-syslog-ng \
 libloggen-helper-4.3.so.0 \

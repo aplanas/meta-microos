@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "13.5.3"
 
-RPM_NAME = "libOgreProperty-devel-13.5.3-2.2.aarch64.rpm"
-RPM_HASH = "d0123a4a914035bd5516c48f70caf3a2a77e6e4eddd46ba2950b224fab63190677597b254d4bde75f75af5d7e71473464c5a89c4bfae50e1c5f96034fe297176"
+RPM_NAME = "libOgreProperty-devel-13.5.3-2.3.aarch64.rpm"
+RPM_HASH = "94c176a6222df77037ce38752f7258adaca25c7da646a5c2c93c53bcd9c91aa96eb0c68a83a6a151be1d0d51e1fac28228afba53b81be40e01b27b36d4ee52d1"
 
 RPROVIDES:${PN} += "libOgreProperty-devel \
 pkgconfig-OGRE-Property"

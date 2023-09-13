@@ -3,10 +3,10 @@ DESCRIPTION = "An easy to use interface to the (n)curses CUI library. CUI stands
 Console User Interface."
 LICENSE = "Python-2.0"
 
-PV = "3.11.4"
+PV = "3.11.5"
 
-RPM_NAME = "python311-curses-3.11.4-3.1.aarch64.rpm"
-RPM_HASH = "290599b53f7ebc36d6e2a773ee761f586272a03a79dd0c18edd1f0f65c8b0155f8bee69242d15d6eb0310ec692bc184d4902cc7057bf1c9df8e683b18ebdfe29"
+RPM_NAME = "python311-curses-3.11.5-1.1.aarch64.rpm"
+RPM_HASH = "1f9599fc0de3aee2051100a1550d994d4614c7f4e8976321de17e20ccc15d1c7c69d4f2b6eecab866f299d7265e3ccf3286cfbc88d3dac73e465e80f658e7f66"
 
 RPROVIDES:${PN} += "python3-curses \
 python311-curses"

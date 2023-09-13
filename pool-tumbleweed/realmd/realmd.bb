@@ -13,8 +13,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.17.1"
 
-RPM_NAME = "realmd-0.17.1-1.4.aarch64.rpm"
-RPM_HASH = "366647241ada0b0999284fc5b7bc880444d3b791489f2c0bfeb1a3a623e089b57b8e8d18d70773a0650f7f533b32c60ff923f124b37e844446ff5baa8bc3f9cf"
+RPM_NAME = "realmd-0.17.1-2.1.aarch64.rpm"
+RPM_HASH = "175a9b4ba6142f5e3b617de815c15baa17c3bf7d3c3b34e0bd198ab93f176122d64919eeacca570a977260066ee0dfea1f74d3eefbafc4dc18813eaeff189bda"
 
 RPROVIDES:${PN} += "config-realmd \
 realmd"

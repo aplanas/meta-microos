@@ -5,10 +5,10 @@ you can write your documents with the help of interactive spell checking, \
 syntax highlighting, automatically code completion and more."
 LICENSE = "Apache-2.0 & GPL-2.0-only & GPL-3.0-only & MPL-1.1"
 
-PV = "4.5.2"
+PV = "4.6.3"
 
-RPM_NAME = "texstudio-4.5.2-1.2.aarch64.rpm"
-RPM_HASH = "0160d449a27d246ec195fceaeba145ac1bc9ecf77b2541df9460e98b7fe36affef27810b3186bce9c0924a95d9fd783a35df07a7fc1ec34f7402142c9741f211"
+RPM_NAME = "texstudio-4.6.3-1.1.aarch64.rpm"
+RPM_HASH = "505081e9f8846ac45d0166bae1aca17315360d91020de90b9c9b788b2794866af035f399f19748b05f4180b1cd62d44051f26b33b767e9fd0a4f023991d03028"
 
 RPROVIDES:${PN} += "texstudio"
 

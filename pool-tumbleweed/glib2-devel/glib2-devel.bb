@@ -6,10 +6,10 @@ a main loop abstraction, and so on. \
 This package contains the development files for GLib."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.76.4"
+PV = "2.76.5"
 
-RPM_NAME = "glib2-devel-2.76.4-1.1.aarch64.rpm"
-RPM_HASH = "1ff8016c6d39863e2a98ab06dde26187b45e41e620cf066206f400133d82b84824018e8c7ddc1795b64a4dc0e41e1104ff31beba1c4e9bc49c341e0fedbed013"
+RPM_NAME = "glib2-devel-2.76.5-1.1.aarch64.rpm"
+RPM_HASH = "39f5390c4744ae058028beba57b7969bafddb5ad243127a7126bc8ac1b8ee7357b89b7b6b390f7392e42906b9bd2c218a8feba2d27f2a44ab4d68b728de075de"
 
 RPROVIDES:${PN} += "glib2-devel \
 pkgconfig-gio-2.0 \

@@ -3,10 +3,10 @@ DESCRIPTION = "A collection of ready-made filters to control inclusion/exclusion
 during dependency resolution."
 LICENSE = "Apache-2.0"
 
-PV = "3.0.1"
+PV = "3.3.2"
 
-RPM_NAME = "maven-common-artifact-filters-3.0.1-2.13.noarch.rpm"
-RPM_HASH = "2965e17774e555fe59dac25d6c2349639efc966ad785b21ce64287bb6c1221950cdeadc16ece909cd41c23cdd249deeca2964d596ccd6c425c062305ef069a2e"
+RPM_NAME = "maven-common-artifact-filters-3.3.2-2.1.noarch.rpm"
+RPM_HASH = "4ec22ce932c10227a7d9724bd9651192c07ae703594316315cca5d5ba37edb55e2e2a556dfbb56140b03a4d66244127040ed0ec8f97efd63f27a8c4733a839d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-common-artifact-filters \
@@ -15,10 +15,6 @@ mvn-org.apache.maven.shared-maven-common-artifact-filters-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-org.apache.maven-maven-artifact \
-mvn-org.apache.maven-maven-core \
-mvn-org.apache.maven-maven-model \
-mvn-org.apache.maven-maven-plugin-api \
-mvn-org.apache.maven.shared-maven-shared-utils"
+mvn-org.slf4j-slf4j-api"
 
 inherit rpm

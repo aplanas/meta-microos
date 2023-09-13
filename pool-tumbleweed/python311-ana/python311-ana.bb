@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.06"
 
-RPM_NAME = "python311-ana-0.06-3.5.noarch.rpm"
-RPM_HASH = "0221794b7c7bb7987956034e1d155f3a8fbcc7671232565626c749ef024c5827f64030d30299022708c97bc11d4df09d7f1396429b127818aee2e4915729faac"
+RPM_NAME = "python311-ana-0.06-4.1.noarch.rpm"
+RPM_HASH = "ea4f033ed907b774d53721ee37e6808e77a65ce794b3354e1cd9da1b80ea95cbc3b04979eecbb65286c87c6d32c0f478f7206b60cf8e7a14ff26228065d6c621"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ana \
@@ -13,7 +13,6 @@ python3.11dist-ana \
 python311-ana \
 python3dist-ana"
 
-RDEPENDS:${PN} += "python-abi \
-python311-future"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

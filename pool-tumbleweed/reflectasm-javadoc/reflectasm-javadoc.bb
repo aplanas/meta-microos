@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.11.1"
 
-RPM_NAME = "reflectasm-javadoc-1.11.1-1.4.noarch.rpm"
-RPM_HASH = "fd2613678d79b0273b0e01635e53c87fa5c974b07242f9ed186b7386a100df685820115a260972fe6e81855e1248ba46e857269941782308ba987821ffc1f623"
+RPM_NAME = "reflectasm-javadoc-1.11.1-2.1.noarch.rpm"
+RPM_HASH = "6edeb6339b1c3f9b916d564ce00142d992e5d32037556e5ad122821c1e8d48d81c3d0efb1c408731c01d10afbe29025b2dbe1cd7dd243f0b907c058ceab9b8e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "reflectasm-javadoc"

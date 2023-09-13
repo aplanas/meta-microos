@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.15.2"
 
-RPM_NAME = "jackson-dataformats-text-javadoc-2.15.2-1.1.noarch.rpm"
-RPM_HASH = "d392734ec0a3601459e4e9a9ed04bf837b211a199d219e27d13b18b749c253c254c4c406318a44ad15b2b7a1821300b8818eda7ed96f2f718760251ad3bd5a61"
+RPM_NAME = "jackson-dataformats-text-javadoc-2.15.2-2.1.noarch.rpm"
+RPM_HASH = "097e393cd0b2fd341301210ae555fe91994859f896db2a15c6ab791a53d91da14915613e53ca30dbcc2d4eacc515c23d7cc4f678029be90b1083c8bf0fb83275"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-dataformats-text-javadoc"

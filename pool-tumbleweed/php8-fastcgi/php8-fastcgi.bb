@@ -8,8 +8,8 @@ LICENSE = "MIT & PHP-3.01"
 
 PV = "8.2.10"
 
-RPM_NAME = "php8-fastcgi-8.2.10-1.1.aarch64.rpm"
-RPM_HASH = "5be1240871ba8b1b66fe5056d97da8f8cb2cffbfa100ef12de5f89a7885a6a5da1873aa0b03efc0285d2bb8d590a6141411a1dc2d99609c762054cdf10fbee31"
+RPM_NAME = "php8-fastcgi-8.2.10-2.1.aarch64.rpm"
+RPM_HASH = "2905c1aeb5a5bc732b57271b09eb8f7dafd5baf28eed370a4ddb30f9e323c028482a5c5789c8822d4234601d81258420c2e14fdf938c5ee60e794a9fd153a10c"
 
 RPROVIDES:${PN} += "config-php8-fastcgi \
 php-cgi \

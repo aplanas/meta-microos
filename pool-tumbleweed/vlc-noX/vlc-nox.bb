@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.0.18"
 
-RPM_NAME = "vlc-noX-3.0.18-9.1.aarch64.rpm"
-RPM_HASH = "c500ebe5c73ab71cb53bec34b294e15261f9577a5e85082bfdb5bb06dd4d52f0a3af3b7750e8afccfd1c883942ec4994a5c8eb50d48af294961739bc55d972a6"
+RPM_NAME = "vlc-noX-3.0.18-9.2.aarch64.rpm"
+RPM_HASH = "83f52add77a1b65e08e43e134b17846d20ebab8a93f3a8ec5f28005e89e0b7d0b820f63adc08a9be48691516bc934615400bfbd0f4e742d6270bd326d9ccb106"
 
 RPROVIDES:${PN} += "liba52-plugin.so \
 libaccess-alsa-plugin.so \
@@ -359,8 +359,8 @@ libFLAC.so.12 \
 libUsageEnvironment.so.3 \
 libX11.so.6 \
 liba52.so.0 \
-libabsl-log-internal-check-op.so.2301.0.0 \
-libabsl-log-internal-message.so.2301.0.0 \
+libabsl-log-internal-check-op.so.2308.0.0 \
+libabsl-log-internal-message.so.2308.0.0 \
 libaom.so.3 \
 libarchive.so.13 \
 libasound.so.2 \

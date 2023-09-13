@@ -3,10 +3,10 @@ DESCRIPTION = "Plexus IO is a set of plexus components, which are designed for u
 in I/O operations."
 LICENSE = "Apache-2.0"
 
-PV = "3.2.0"
+PV = "3.4.1"
 
-RPM_NAME = "plexus-io-3.2.0-2.9.noarch.rpm"
-RPM_HASH = "36e4ff2ca41cda4fdac75faa342d084a20f2f23bb0a96eb5dc85d463615fae3b67a2b04fe9ab893bae502581904172537bb915f411eab29a7fa4bd3653568020"
+RPM_NAME = "plexus-io-3.4.1-1.1.noarch.rpm"
+RPM_HASH = "0395c71a3704ce690753490a8e747a724b83b427e0ffa5ced9358d26993def17563979f7b8038f97ff4816993a9d65bb71ba698bdc8c72e370216237db453c13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.plexus-plexus-io \
@@ -16,6 +16,7 @@ plexus-io"
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn-commons-io-commons-io \
+mvn-javax.inject-javax.inject \
 mvn-org.codehaus.plexus-plexus-utils"
 
 inherit rpm

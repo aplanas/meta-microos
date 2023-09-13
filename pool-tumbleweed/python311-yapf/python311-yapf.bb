@@ -9,10 +9,10 @@ limitations, like, code that conforms to the PEP 8 guidelines may not \
 be reformatted."
 LICENSE = "Apache-2.0"
 
-PV = "0.33.0"
+PV = "0.40.1"
 
-RPM_NAME = "python311-yapf-0.33.0-1.3.noarch.rpm"
-RPM_HASH = "135d72c59cad60321165a34c32955f266db4f51d2d786e5e7a5a726415169c16fdbc12fe052b072b01ac08bf16a672d66ede9a98e96cfca1a7ba6009223b918e"
+RPM_NAME = "python311-yapf-0.40.1-1.1.noarch.rpm"
+RPM_HASH = "d42c97686ba47a954fce6721912f2ed8a44f5d9d508d8f8f3aee65cc6e4cdb1b4eb0188f9897871b2ee94bcd97b97334eba5e8b16256c609ef0f9d193256f6ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-yapf \
@@ -23,6 +23,7 @@ python3dist-yapf"
 RDEPENDS:${PN} += "/usr/bin/python3.11 \
 /usr/bin/sh \
 python-abi \
+python311-platformdirs \
 update-alternatives"
 
 inherit rpm

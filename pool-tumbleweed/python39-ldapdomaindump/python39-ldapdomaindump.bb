@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.9.4"
 
-RPM_NAME = "python39-ldapdomaindump-0.9.4-1.6.noarch.rpm"
-RPM_HASH = "d7ee914e7427a8ffca5bc08c53a2e4408a1ef527d587e0657f5369138976c231593d771edaec5c844ae83b9ef3418642aac184edc0c0876391700784eb0424fc"
+RPM_NAME = "python39-ldapdomaindump-0.9.4-2.1.noarch.rpm"
+RPM_HASH = "aa8784f5c9dd4a2b7089dea138532d278711f9bbe1742b2881f8558904e325b8826f4ac4c8084abdb7194b2a1f250e67baa531439086dc4362612717fc258d91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ldapdomaindump \
@@ -16,7 +16,7 @@ RDEPENDS:${PN} += "/usr/bin/python3.9 \
 /usr/bin/sh \
 python-abi \
 python39-dnspython \
-python39-future \
-python39-ldap3"
+python39-ldap3 \
+update-alternatives"
 
 inherit rpm

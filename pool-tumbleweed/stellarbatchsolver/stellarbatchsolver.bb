@@ -3,10 +3,10 @@ DESCRIPTION = "Tool that one could use to automatically solve, extract, and expo
 This program is primarily meant for data reduction, but could also be used as a test for the library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.4"
+PV = "2.5"
 
-RPM_NAME = "stellarbatchsolver-2.4-2.4.aarch64.rpm"
-RPM_HASH = "7b421b6e49bfe9f8dfef14153d5c24bd1f8e20e398a43372aa87d230dddf90f0d18bd3e9bb8a811dbad6c2d840175691b8ae98ce33fbf905609b1650501f7495"
+RPM_NAME = "stellarbatchsolver-2.5-1.1.aarch64.rpm"
+RPM_HASH = "8c897c28d6c5edc70b8c1baf4ecf752a58b8024c938ba85ab4b8ca7f78a2b08258bf11a83e7077a8b6c43b72ccf1ac63a7729b5e3ce8e7db44c51df61a745912"
 
 RPROVIDES:${PN} += "stellarbatchsolver"
 

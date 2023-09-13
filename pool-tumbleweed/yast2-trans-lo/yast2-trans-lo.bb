@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Lao Translations"
 DESCRIPTION = "YaST2 - Translations for Lao."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230818.ea489402e5"
+PV = "84.87.20230901.be24cb382f"
 
-RPM_NAME = "yast2-trans-lo-84.87.20230818.ea489402e5-1.1.noarch.rpm"
-RPM_HASH = "3491bad1af5ff452a5c4d9b8650bd979846e32149d036e35e22c1aff55c6af2264b4fbcc6fd61c5f21b21af4b3de815bbfbf992a41c125cad08e7ae8f7ff9cca"
+RPM_NAME = "yast2-trans-lo-84.87.20230901.be24cb382f-1.1.noarch.rpm"
+RPM_HASH = "343a57300a3827ffaadd92947b16c1eec85b17c2e3f5056bc83c7478d2922b4ce7f5bd55e2081882c2ea6b533ced4a01b48141224c95d7c375140018ba353328"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-lo \

@@ -4,10 +4,10 @@ resolution for a job on a compute node to be serviced through the local \
 slurmstepd process."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.2"
+PV = "23.02.4"
 
-RPM_NAME = "libnss_slurm2-23.02.2-1.4.aarch64.rpm"
-RPM_HASH = "02a154a1b4893a498fc085ff524c825bbef4105ae7a087bfd3584794020163273297101121e7a5925a04cabb328fd32d9d04d229ed1c764cd0879f4595f93372"
+RPM_NAME = "libnss_slurm2-23.02.4-2.1.aarch64.rpm"
+RPM_HASH = "f9d5504c5d9a15e60261fd681dd153fe1ba6f9ae69904044820bdeb2114c4fbfedfaa266fe070f7cc1a539e0d62345e4bb6a2b304fce82176772935be4422dab"
 
 RPROVIDES:${PN} += "config-libnss-slurm2 \
 libnss-slurm.so.2 \

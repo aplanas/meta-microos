@@ -2,10 +2,10 @@ SUMMARY = "Micro subset of unicode data files for linkify-it-py projects"
 DESCRIPTION = "Micro subset of unicode data files for linkify-it-py projects."
 LICENSE = "MIT"
 
-PV = "1.0.1"
+PV = "1.0.2"
 
-RPM_NAME = "python310-uc-micro-py-1.0.1-2.3.noarch.rpm"
-RPM_HASH = "cadfb286a6548b22a209eb44303ebac8ab596a7d761c5e3c5ca89d9069d76e1cd79fadd903a96b74f582d2733952ef06f8fd25b25f3e963776c0a8066fd31fc4"
+RPM_NAME = "python310-uc-micro-py-1.0.2-1.1.noarch.rpm"
+RPM_HASH = "6bfc0dd415d9fd31bc337981cd9c6c6f260831b08d43d1a5a67cb1b217843e04d8f9d755716b5cb502bc8b0d2deb82b06676218f0714d352154bfc0fa267467c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-uc-micro-py \

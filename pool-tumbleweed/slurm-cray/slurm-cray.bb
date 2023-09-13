@@ -3,10 +3,10 @@ DESCRIPTION = "Plugins for specific cray hardware, includes power and knl node m
 Contains also cray specific documentation."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.2"
+PV = "23.02.4"
 
-RPM_NAME = "slurm-cray-23.02.2-1.4.aarch64.rpm"
-RPM_HASH = "9e2b9474d84573583c555e37c4dede42f151d8af3d4e15513f5b439e5d93b8ebf29f74e78d214acbbcc18d1a01fad60d323e12116042c5e4cdd8c308b41712bc"
+RPM_NAME = "slurm-cray-23.02.4-2.1.aarch64.rpm"
+RPM_HASH = "88c6c14d001a23e0ee99c8a912f397c8fa3436a2fb49783342176ac91bccd6827a9bace4feb3f7e3133c1c2b4e4dba4339494a762af629d1ea06cd303a467397"
 
 RPROVIDES:${PN} += "slurm-cray"
 

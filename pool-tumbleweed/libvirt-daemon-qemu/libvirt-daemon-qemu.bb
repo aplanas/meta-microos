@@ -3,10 +3,10 @@ DESCRIPTION = "Server side daemon and driver required to manage the virtualizati
 capabilities of the QEMU emulators"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.6.0"
+PV = "9.7.0"
 
-RPM_NAME = "libvirt-daemon-qemu-9.6.0-3.1.aarch64.rpm"
-RPM_HASH = "6b2bea404204b68510a124f6bac6feace6ced16532340d812cb8df6fd13946d542bdfc3a346c01ab26b5263061e97920360e47fb510575f18c101fbf5f4fe266"
+RPM_NAME = "libvirt-daemon-qemu-9.7.0-1.1.aarch64.rpm"
+RPM_HASH = "aeb6e028f94679c3d23aec2b52d97c894e1ba4c30556a0665dc070d0fb41c331e19e46565cee4f78062e7166260a27540c25a6cd4ed3fae49893437f7368139d"
 
 RPROVIDES:${PN} += "libvirt-daemon-qemu"
 

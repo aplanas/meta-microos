@@ -2,10 +2,10 @@ SUMMARY = "Meta package for dependencies to build JRuby"
 DESCRIPTION = "Meta package for ruby-build dependencies to build JRuby."
 LICENSE = "MIT"
 
-PV = "20230717"
+PV = "20230904"
 
-RPM_NAME = "ruby-build-dependencies-jruby-20230717-1.1.noarch.rpm"
-RPM_HASH = "32c1227f8ba48df6b27351ce71f864e5c75cf4c4d78ce70236835487a4c5987f837a434c0d45ff09610844064efd530747a40385c028b95c2900736378c457de"
+RPM_NAME = "ruby-build-dependencies-jruby-20230904-1.1.noarch.rpm"
+RPM_HASH = "c5818907eebdecfcfa7957257a6f68e5b5432cff926d18bb873f80a1021015a5bad076d6c67a5ca483fa39e334944b246e85373e63a44227b4b8a7f55c42a8fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ruby-build-dependencies-jruby"

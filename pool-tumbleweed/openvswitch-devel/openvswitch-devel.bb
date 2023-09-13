@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.0"
 
-RPM_NAME = "openvswitch-devel-3.1.0-14.3.aarch64.rpm"
-RPM_HASH = "f69fbf1ccbb37f41d91de07be8d820f6e6c68a8af2c9a4d4d4557322ddfe86153d3286d17c14b3fff5c39bccf3bf8aa3b6d0ab68aae3efb41be025b5e41aca77"
+RPM_NAME = "openvswitch-devel-3.1.0-15.1.aarch64.rpm"
+RPM_HASH = "527f73674ba43c395b39353a6508dda71f8cc5e8b45f19af319ec6377c1a52636ec46203fcf77cd2a1aa795766e0a75250fe8ff7f346ff2cb4eed48bfb417174"
 
 RPROVIDES:${PN} += "openvswitch-devel \
 openvswitch-dpdk-devel \

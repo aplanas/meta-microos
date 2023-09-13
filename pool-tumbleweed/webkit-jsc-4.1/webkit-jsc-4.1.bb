@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.0-or-later"
 
 PV = "2.40.5"
 
-RPM_NAME = "webkit-jsc-4.1-2.40.5-2.1.aarch64.rpm"
-RPM_HASH = "2608976d33c6399fd0571d6435b459b02daedf809a9f9bb9ea09ad2125adeb9e393c8a2c83ad9c6ad94506d33a02e23d0767f23a05333675da9af0ef65c07383"
+RPM_NAME = "webkit-jsc-4.1-2.40.5-3.1.aarch64.rpm"
+RPM_HASH = "1c3d83a8263b179e16dfaa91b4862b5e46f632d8466996e9cfdd9cc9a273b0263497352ce79ee9bcd938a3ffecf88f4e369751c2c1a11ec3fe097a1dda601ac9"
 
 RPROVIDES:${PN} += "webkit-jsc-4.1"
 

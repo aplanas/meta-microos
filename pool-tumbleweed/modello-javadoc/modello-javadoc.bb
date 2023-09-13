@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for modello"
 DESCRIPTION = "API documentation for modello."
 LICENSE = "Apache-2.0 & MIT"
 
-PV = "2.0.0"
+PV = "2.1.2"
 
-RPM_NAME = "modello-javadoc-2.0.0-3.1.noarch.rpm"
-RPM_HASH = "b2e1d467f425be74a63a5b0fc9fdc4edbf76a850140f0aa3d59f304d9b28596f2820da0e3827a4a8eab0e2c469c7db9077811d34b9b416956adb2880e31ab5ea"
+RPM_NAME = "modello-javadoc-2.1.2-1.1.noarch.rpm"
+RPM_HASH = "32f012d5eab00b3c1fc63d2588cb7d3e3fe28d75171c47bff63efc4a06aacba73cab1257eab7b0759b5d509103a4110f1b13f25b377f74b2cafd3b05fb223f21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "modello-javadoc"

@@ -2,10 +2,10 @@ SUMMARY = "Cockpit user interface for storage, using udisks"
 DESCRIPTION = "The Cockpit component for managing storage.  This package uses udisks."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "298"
+PV = "300.1"
 
-RPM_NAME = "cockpit-storaged-298-2.1.noarch.rpm"
-RPM_HASH = "a308f1357f5c5f3e00cde2fdad98f11bbc55752c4936e505059e25c20f4e7c5a6cbec429e6b53049ed446376d7a64ef26527fa84482c27655c7bf5967be6c2dd"
+RPM_NAME = "cockpit-storaged-300.1-1.1.noarch.rpm"
+RPM_HASH = "906b37957cfe0e109d5da129e2e70feb010caf3deced7aec109dc687591d2651f290697c685b6b23fbbb8de4d2c5274741a071715ab1c32e77f5eb6455eb2770"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cockpit-storaged"

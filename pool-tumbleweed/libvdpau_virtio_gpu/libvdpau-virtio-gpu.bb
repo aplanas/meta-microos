@@ -2,10 +2,10 @@ SUMMARY = "VDPAU state tracker for VirtIO GPU"
 DESCRIPTION = "This package contains the VDPAU state tracker for VirtIO GPU."
 LICENSE = "MIT"
 
-PV = "23.1.6"
+PV = "23.1.7"
 
-RPM_NAME = "libvdpau_virtio_gpu-23.1.6-356.1.aarch64.rpm"
-RPM_HASH = "3b681a25235fe664e157ffc6f7dd65d16b1fb0d2672be6a5841deb592eda36dadb1f4f2edf6a89794e8aff6d13e122a91034b69dba1f66b8ed3089f629e6c908"
+RPM_NAME = "libvdpau_virtio_gpu-23.1.7-357.1.aarch64.rpm"
+RPM_HASH = "dbdbe0a2b481673d9f28ed1d47c6a9b5eaa8af9e5c51102cb9ba35075b257b9e421e772dcc9129db47a326caca2a209f6d7a59fb729ae65e05f4d1923bc251cd"
 
 RPROVIDES:${PN} += "libvdpau-gallium.so.1.0.0 \
 libvdpau-virtio-gpu"

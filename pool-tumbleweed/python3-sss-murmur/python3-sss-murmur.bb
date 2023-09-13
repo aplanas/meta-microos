@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage provides the python3 module for calculating the \
 Murmur hash version 3."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "2.9.1"
+PV = "2.9.2"
 
-RPM_NAME = "python3-sss-murmur-2.9.1-1.1.aarch64.rpm"
-RPM_HASH = "f0d1be3730414ccfc55f95b694e7cfac8d09617ce89ea0c6b831972906db164ca5f2eec6d3f16849e23c38c71a8bafa2a324ebbbb6a2e135fdcb22cbc9ec1614"
+RPM_NAME = "python3-sss-murmur-2.9.2-1.1.aarch64.rpm"
+RPM_HASH = "bf3ede9c947fe9a1dd7f387e186ee8e52016eb2c62ee1a27e55fd4c6a656209e87004fd1302be618a9e1ea0dbf63bbd44f30a0aa788a14a481b092ebfdebca89"
 
 RPROVIDES:${PN} += "python3-sss-murmur"
 

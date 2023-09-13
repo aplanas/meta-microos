@@ -4,8 +4,8 @@ LICENSE = "(Apache-2.0 | MIT) & Unicode-DFS-2016 & (Apache-2.0 | BSL-1.0) & (Apa
 
 PV = "1.14.0"
 
-RPM_NAME = "just-fish-completion-1.14.0-2.1.noarch.rpm"
-RPM_HASH = "bd568b73b2c3f9afab659cb3c769813e08b8fc14779af4b861f7b1568da2be5b5add70d6b473596ac80939b85f7c7fc571085fc4ca3dca77cb4fb7b932f067c3"
+RPM_NAME = "just-fish-completion-1.14.0-3.1.noarch.rpm"
+RPM_HASH = "a161d68de6881110c1a3fa8c11dd8cbbd32dbd747dbade6a031c70ebcc815f61479cab140c19d96676083ec8901e11d3e0173e41c10d234eb993ffa9ebd8ad59"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "just-fish-completion"

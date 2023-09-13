@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.3.1"
 
-RPM_NAME = "syslog-ng-smtp-4.3.1-1.2.aarch64.rpm"
-RPM_HASH = "268a41a404f0abf939e53614a57f37e0e8f59720875e6c449c33d706597908b047d5c77238aa8ab2b69cd05ab0d5e70aac7f4767bad8c9b7055ae61bc4061545"
+RPM_NAME = "syslog-ng-smtp-4.3.1-1.3.aarch64.rpm"
+RPM_HASH = "b1db8ddc5f168f52db7755819797cbf30ee9726173247febfad6d33148f267f0f68b31430eaf71f4028667de3e8e65c6096e7ebd1838a1c863540a8d937ed7af"
 
 RPROVIDES:${PN} += "syslog-ng-smtp"
 

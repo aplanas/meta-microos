@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.189"
 
-RPM_NAME = "elfutils-lang-0.189-4.1.noarch.rpm"
-RPM_HASH = "760b7c3f82b3501bb8d92a86e54f87052f5e09f3dbf777aa7d82172d3519b6c352fe75ec79628925148a4e6372d3f0cb8bb54cf2a677bb44b72123362482f526"
+RPM_NAME = "elfutils-lang-0.189-5.1.noarch.rpm"
+RPM_HASH = "64dcdf4e6cf4e70478e77f23959daa767396efc94ef7d6876ff79c4879b9bd4d85a1dc37e6739359d2a47ceab6a075449cbc609cef4a192d308b4cf010b2e8a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "elfutils-lang \

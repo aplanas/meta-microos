@@ -4,8 +4,8 @@ LICENSE = "(0BSD | MIT | Apache-2.0) & (Apache-2.0 | MIT) & (Apache-2.0 | MIT) &
 
 PV = "1.3.0"
 
-RPM_NAME = "wayshot-1.3.0-3.1.aarch64.rpm"
-RPM_HASH = "31348691838663245fdc2e02b5e8df2c47c416b5d6bcb9be6a31085f5cd0d45051ec4f3b5b582f666ca77d63b511ec854ffa215165abe5dca0c8dd12c941d538"
+RPM_NAME = "wayshot-1.3.0-4.1.aarch64.rpm"
+RPM_HASH = "e626e6e2b934f07c507e6060e1a2c5a1bbbc2d069a3ceafa7af72134bc85fd8016724304d35d06026cf1ab880b3680ddfc5dfbda2086f8e7a2ce9da9d12a358e"
 
 RPROVIDES:${PN} += "bundled-rust-crate-adler \
 bundled-rust-crate-atty \
@@ -55,7 +55,6 @@ bundled-rust-crate-rustix \
 bundled-rust-crate-scoped-tls \
 bundled-rust-crate-simd-adler32 \
 bundled-rust-crate-smallvec \
-bundled-rust-crate-static-assertions \
 bundled-rust-crate-strsim \
 bundled-rust-crate-termcolor \
 bundled-rust-crate-textwrap \

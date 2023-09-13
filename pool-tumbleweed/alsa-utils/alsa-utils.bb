@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains utility programs supporting ALSA, Advanced 
 Sound Architecture."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.9"
+PV = "1.2.10"
 
-RPM_NAME = "alsa-utils-1.2.9-1.2.aarch64.rpm"
-RPM_HASH = "dc8442b90a24c89c508cd13196f11c5b6840c397c3189a73cf309a9ae011317a7890b5a9801907e1f682c860f93a608df7e7bfd8fbe92e160c12e8437b2d73be"
+RPM_NAME = "alsa-utils-1.2.10-1.1.aarch64.rpm"
+RPM_HASH = "5bc0843af9758921e1eee3804559dd89876e31521c398af5cea4c08abfbe8f543bae5cf97cb99cca408824318d761607dcecdf41b3f3fa87d062a58e0eb693e7"
 
 RPROVIDES:${PN} += "alsa-utils \
 libalsatplg-module-nhlt.so"

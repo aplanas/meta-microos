@@ -33,8 +33,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.2.1"
 
-RPM_NAME = "maven-archetype-3.2.1-1.10.noarch.rpm"
-RPM_HASH = "6064fe41e2fd15851999d92d463b80dfe5e8f8906e2b76edda99f5145a1a00452ab618211b25de188d8bc1efc88cf225815fc757cb538eb51068600472998540"
+RPM_NAME = "maven-archetype-3.2.1-2.1.noarch.rpm"
+RPM_HASH = "7951e806e061fd435553665c796f5328af18007b425252f2fffc77c3ac3ec61d6fa7d3ac867c36a76e509d10973a2e2be4fc28f15e231a618c85ad2ae2a98a32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-archetype \

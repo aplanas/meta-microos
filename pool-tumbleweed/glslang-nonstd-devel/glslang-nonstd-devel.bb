@@ -7,14 +7,14 @@ This package contains additional headers that are not officially installed, \
 but which some downstream packages rely on."
 LICENSE = "BSD-3-Clause"
 
-PV = "12.3.1+sdk261"
+PV = "13.0.0"
 
-RPM_NAME = "glslang-nonstd-devel-12.3.1+sdk261-1.1.noarch.rpm"
-RPM_HASH = "a1bc7460f9fd9148a9f363c3728134f5d4b338e71abe60aba35f7db45299ca4c996c73e4c86f9a6ecbeb7ddf633e2039222c4f9804f759102a2a7e7c070f84d0"
+RPM_NAME = "glslang-nonstd-devel-13.0.0-1.1.noarch.rpm"
+RPM_HASH = "4269fa77bfeb6f369e0504f4862778c78b57bf33e1394a5267af363d5b64b6be0495ea9aeba71fae012bb673f7502915e20a459ad2b9220c8eec122b02e9aecb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glslang-nonstd-devel"
 
-RDEPENDS:${PN} += "libglslang12"
+RDEPENDS:${PN} += "libglslang13"
 
 inherit rpm

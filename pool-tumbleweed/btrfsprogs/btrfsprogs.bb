@@ -2,10 +2,10 @@ SUMMARY = "Utilities for the Btrfs filesystem"
 DESCRIPTION = "Utilities needed to create and maintain btrfs file systems under Linux."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3"
+PV = "6.5"
 
-RPM_NAME = "btrfsprogs-6.3-3.1.aarch64.rpm"
-RPM_HASH = "838ab9ebc9f398044d08e454b7868f1ee95fd050ef6aa379b4ccbeff2244e04d6a046b8a6c2b92ff5cbd9516e0ba1aa74a91d595af1a2b92a9225a4dd75365b1"
+RPM_NAME = "btrfsprogs-6.5-1.1.aarch64.rpm"
+RPM_HASH = "c3f5278718e07159dfa8f3edce2adf0960be7281aa61acc9cceaee96c482d7961ee914d0b18a4a6dfda76e8683517d7d224e0f91e3afc5bb0c86ac2bd9d1b4d7"
 
 RPROVIDES:${PN} += "btrfs-progs \
 btrfs-progs-aarch64 \

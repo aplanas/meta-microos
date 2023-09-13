@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the necessary plugin libraries for the KDE 
 Framework 5 based Dolphin filemanager to display overlay icons."
 LICENSE = "GPL-2.0-only & GPL-3.0-only"
 
-PV = "4.1.0"
+PV = "4.2.0"
 
-RPM_NAME = "owncloud-client-dolphin-4.1.0-1.1.aarch64.rpm"
-RPM_HASH = "40261a88be71efe102a07acd491fcf856f174d5214b0b91140ad8795d13bb7ac49bba32bb3bb6b9f71f07acc8a0bdbee28f56331c51b8cf33c22932f00271bc5"
+RPM_NAME = "owncloud-client-dolphin-4.2.0-1.1.aarch64.rpm"
+RPM_HASH = "a021d7a1b9790a5c022c0d7ab0430540a832ba953fe21dc0c1d5127b361286529e4dbfdc1f3e5cc55b3f9d727bf924d617a7f3e47c725d205ec6d7bc07b67a02"
 
 RPROVIDES:${PN} += "libownclouddolphinpluginhelper.so \
 owncloud-client-dolphin"

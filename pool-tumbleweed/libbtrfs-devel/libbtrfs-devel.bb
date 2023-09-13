@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the libraries and headers files for develop
 build applications to interface with Btrfs."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3"
+PV = "6.5"
 
-RPM_NAME = "libbtrfs-devel-6.3-3.1.aarch64.rpm"
-RPM_HASH = "a7315e062a74166c6aadf2a695a26f74ad032e37a01ddfb0eecc8d942da97ba5eaa4a7c3612a45b70ac5479466503e48cef4836de761eeb498bb7ccdb1dde4a8"
+RPM_NAME = "libbtrfs-devel-6.5-1.1.aarch64.rpm"
+RPM_HASH = "0617f55a5d9fa496d2a777a9c3880c920ea27c8b67b5e159e50f86a1c20fdb3e0a979a54be46e513377c6ca8b7c75c1b24826911c8ab052df216850514e4e434"
 
 RPROVIDES:${PN} += "libbtrfs-devel"
 

@@ -2,10 +2,10 @@ SUMMARY = "Google's open source browser project"
 DESCRIPTION = "Chromium is the open-source project behind Google Chrome. We invite you to join us in our effort to help build a safer, faster, and more stable way for all Internet users to experience the web, and to create a powerful platform for developing a new generation of web applications."
 LICENSE = "BSD-3-Clause & LGPL-2.1-or-later"
 
-PV = "116.0.5845.140"
+PV = "116.0.5845.179"
 
-RPM_NAME = "chromium-116.0.5845.140-1.1.aarch64.rpm"
-RPM_HASH = "9aab0e84e6ef8d088d486b336c794b2690418fe8d9b4c34ececef4a71e62cfeb82df2f79dd3f208d97260b2c5ff4ab9f1439a02c3b936edd1799d68fdfbb8d64"
+RPM_NAME = "chromium-116.0.5845.179-1.1.aarch64.rpm"
+RPM_HASH = "618ce7789b2b911d8591882802b23aad4bf61a4ec4cd3f2650d3952e5752a4acf97f22fcc92d92b62b6606e3eed73a7355437f378e6e517ced3dc42ae8f97fcb"
 
 RPROVIDES:${PN} += "chromium \
 chromium-based-browser \

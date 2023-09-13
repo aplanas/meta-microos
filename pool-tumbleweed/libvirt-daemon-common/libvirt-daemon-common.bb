@@ -2,10 +2,10 @@ SUMMARY = "Files and utilities used by daemons"
 DESCRIPTION = "Miscellaneous files and utilities used by other libvirt daemons"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.6.0"
+PV = "9.7.0"
 
-RPM_NAME = "libvirt-daemon-common-9.6.0-3.1.aarch64.rpm"
-RPM_HASH = "75240b828491c9b368b7a2b4be335d712a5e3a95143f36459db27949c91937185b04777bded9518abd2363e38226c579b63a8a491cfc9fb3080f8d2cae730102"
+RPM_NAME = "libvirt-daemon-common-9.7.0-1.1.aarch64.rpm"
+RPM_HASH = "aca959c0ecfb99384d2e87db2171c154d73cf5914f4cdb24f5f5701eab174ef4a08e8ab7b7a626fb3029f230358ba997d137986a4454e56e933c321ce809cd84"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-common \
 libvirt-admin \

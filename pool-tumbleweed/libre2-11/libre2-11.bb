@@ -14,19 +14,19 @@ LICENSE = "BSD-3-Clause"
 
 PV = "20230901"
 
-RPM_NAME = "libre2-11-20230901-56.1.aarch64.rpm"
-RPM_HASH = "191bd0a27dd7d744c7402ff7e1930c73fcd8b524e5d52f0487dd1a572ba64ec8bf14298c7db0fbfd974abb47c4d7c4034966f5e7fcd49b8a94b9f6ce8aea5217"
+RPM_NAME = "libre2-11-20230901-56.2.aarch64.rpm"
+RPM_HASH = "153ae7fd037c64fba297225491295258ea6275ece02218947406b9507dcc62e6014b54e707dfd03d85e3a668857c5eeb00534df695483a937740621930bd160a"
 
 RPROVIDES:${PN} += "libre2-11 \
 libre2.so.11"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libabsl-hash.so.2301.0.0 \
-libabsl-raw-hash-set.so.2301.0.0 \
-libabsl-spinlock-wait.so.2301.0.0 \
-libabsl-str-format-internal.so.2301.0.0 \
-libabsl-synchronization.so.2301.0.0 \
+libabsl-hash.so.2308.0.0 \
+libabsl-raw-hash-set.so.2308.0.0 \
+libabsl-spinlock-wait.so.2308.0.0 \
+libabsl-str-format-internal.so.2308.0.0 \
+libabsl-synchronization.so.2308.0.0 \
 libc.so.6 \
 libgcc-s.so.1 \
 libicuuc.so.73 \

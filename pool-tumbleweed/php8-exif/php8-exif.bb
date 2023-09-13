@@ -6,8 +6,8 @@ LICENSE = "MIT & PHP-3.01"
 
 PV = "8.2.10"
 
-RPM_NAME = "php8-exif-8.2.10-1.1.aarch64.rpm"
-RPM_HASH = "d1eda9608cd10ade73b897ed1489a51ce630e371a8e5cc85dfa57b129053e41796e51022eb5ad5bac5a31cbed478ac7cad8044e491230d41f949e9dd3a50f4c5"
+RPM_NAME = "php8-exif-8.2.10-2.1.aarch64.rpm"
+RPM_HASH = "cdf9b42f2ac2dfecaa8cfb771f61238038e36789c3e4b021447874444de4b9fee196677ede965a29b7a3b8ebee6c3d303bd4051b59f3cef729ef8cb42db92007"
 
 RPROVIDES:${PN} += "config-php8-exif \
 php-exif \

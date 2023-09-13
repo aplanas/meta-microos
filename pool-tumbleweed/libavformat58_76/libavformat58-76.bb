@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.4.4"
 
-RPM_NAME = "libavformat58_76-4.4.4-2.2.aarch64.rpm"
-RPM_HASH = "9b24644389617347edef491ff79484d6fc5ba3ecfb1e970abfa34e5c558af5338da8cdc8ada3e5085c945a27bbfbde956fdcbffedf74ca49a3d87003c8db2b81"
+RPM_NAME = "libavformat58_76-4.4.4-2.3.aarch64.rpm"
+RPM_HASH = "50396e4332bb005a84c842a61273855e4472568552c911aecce2e8e494e4cf271c63b503af70c65e049ba3da4ef698da5d2a8b09dc92b22be2f5f8d1b01b7b69"
 
 RPROVIDES:${PN} += "libavformat.so.58.76 \
 libavformat58-76"

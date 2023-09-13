@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.4.4"
 
-RPM_NAME = "libavresample4_0-4.4.4-2.2.aarch64.rpm"
-RPM_HASH = "31945a777390aa558b9fb41b5c53c41fe7ad48c72969c56983e2c3d94459558f92907fdedd74dd9795e405a55e3e36ec44fdd306837a2f694d1c5492d35dd166"
+RPM_NAME = "libavresample4_0-4.4.4-2.3.aarch64.rpm"
+RPM_HASH = "73c8966d9002116c8491c37ce0db3363030fb12e4624a2a2849679902f1e958440e30b3437b6e31784f7beb34544c67ae7b21bb0a3b1132d03534ecbfc8d9030"
 
 RPROVIDES:${PN} += "libavresample.so.4.0 \
 libavresample4 \

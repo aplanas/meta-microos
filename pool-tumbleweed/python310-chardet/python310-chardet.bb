@@ -28,10 +28,10 @@ or more files:: \
     someotherfile: ascii with confidence 1.0"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.1.0"
+PV = "5.2.0"
 
-RPM_NAME = "python310-chardet-5.1.0-3.3.noarch.rpm"
-RPM_HASH = "3fa9ee55dfd9a39c3e5e3f31d478280ba03d1b6fddbd25813b8205a81e9a95e93992335999fbc31fdb046c77667de41b1fd6cb54335e7b9ca68dd5604cf7cb0a"
+RPM_NAME = "python310-chardet-5.2.0-1.1.noarch.rpm"
+RPM_HASH = "1124aa1337404d3c5437a21e68f5750878cf992792d57332ea5ad88530562269e499ae820ba49587f166b677364c1bdaedacd1c0965a07522677a0916d8904ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-chardet \

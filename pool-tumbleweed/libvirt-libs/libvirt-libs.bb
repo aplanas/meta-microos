@@ -2,10 +2,10 @@ SUMMARY = "Client side libraries for libvirt"
 DESCRIPTION = "Shared libraries for accessing the libvirt daemon."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.6.0"
+PV = "9.7.0"
 
-RPM_NAME = "libvirt-libs-9.6.0-3.1.aarch64.rpm"
-RPM_HASH = "957cc34f59f28a52d0632aec8a5714432ffe1d97cbe0eae7345a3d0dd61c8ca3ab3aadbe4153847781eee6c97d0bcffa3a72eea60e31b309007bda9fe0970f6d"
+RPM_NAME = "libvirt-libs-9.7.0-1.1.aarch64.rpm"
+RPM_HASH = "0bd399e7cce1a209bb5c3f46d5411c2095b920ca191747d11ea1e7f2540ee5de0eaad5a4126d40d8f1a8b3b81aa8668786566773de4f19ca10abfac6767cfe6b"
 
 RPROVIDES:${PN} += "config-libvirt-libs \
 libvirt-admin.so.0 \

@@ -3,10 +3,10 @@ DESCRIPTION = "Module for handling, querying and manipulating of various files f
 packaging in Linux distributions"
 LICENSE = "BSD-3-Clause"
 
-PV = "6.1.0"
+PV = "6.2.0"
 
-RPM_NAME = "python310-javapackages-6.1.0-4.1.noarch.rpm"
-RPM_HASH = "1a42169f70fe82d1fe412e669e9bc830137d8b00aabf023efc8922371a4f44fa66415fbc72e906ad91390dcc0a7e30b090f45296c62dd03be92678b531ede6d0"
+RPM_NAME = "python310-javapackages-6.2.0-2.1.noarch.rpm"
+RPM_HASH = "c47364ba66f96adb21bab3845b642b31617409c7ed3d9d1482ff245119e85ed4c4499f4a7d86de9ea382fee92ab07e920e35306323eac253a916d6f1d592efad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-javapackages \

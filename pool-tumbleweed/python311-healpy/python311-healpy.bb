@@ -15,10 +15,10 @@ healpy provides utilities to: \
 * compute Auto and Cross Power Spectra from maps and create map realizations from spectra"
 LICENSE = "GPL-2.0-only"
 
-PV = "1.16.2"
+PV = "1.16.5"
 
-RPM_NAME = "python311-healpy-1.16.2-1.3.aarch64.rpm"
-RPM_HASH = "e979aa95f85f1490ab6cc3ab17ac58c7bbc9d338044f60f68b79ab7c09bc6275a3504165fe3e7bc44361131b59828ee6a812d22285ef5dc658c0e5f4349c5822"
+RPM_NAME = "python311-healpy-1.16.5-1.1.aarch64.rpm"
+RPM_HASH = "b8ba40daec5e87112e65375ed38e9cbac336ba403d5dc6b7ca457c1832a25c1a6479caec19efc65ef5629460e6f52aaeb5722635a2a8c3a52a332ed25f2b33d1"
 
 RPROVIDES:${PN} += "python3-healpy \
 python3.11dist-healpy \

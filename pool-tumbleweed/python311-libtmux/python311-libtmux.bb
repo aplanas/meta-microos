@@ -2,10 +2,10 @@ SUMMARY = "Python API / wrapper for tmux"
 DESCRIPTION = "libtmux is a typed python scripting library for tmux. You can use it to command and control tmux servers, sessions, windows, and panes. It is the tool powering tmuxp, a tmux workspace manager."
 LICENSE = "MIT"
 
-PV = "0.22.1"
+PV = "0.23.1"
 
-RPM_NAME = "python311-libtmux-0.22.1-1.3.noarch.rpm"
-RPM_HASH = "6bc429dfd5258bbb5bce166459bb5794681f884db34459482a759bf9de27894f9869cb1f9d0bfb1f36a9dd57892686e3ee53a6c845e2a93370922538cddcc49c"
+RPM_NAME = "python311-libtmux-0.23.1-1.1.noarch.rpm"
+RPM_HASH = "4d440de22209026c4f6818f3598fb52e7b85e674c526b6a30c99b035b326b55468e0ee507dda1114ef13426d714aafff5fba2f579f255573d4353a3b5433d185"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-libtmux \

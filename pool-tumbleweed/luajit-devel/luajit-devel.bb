@@ -2,13 +2,14 @@ SUMMARY = "Devel files for luajit"
 DESCRIPTION = "Devel files for luajit package"
 LICENSE = "MIT"
 
-PV = "2.1.0~beta3+git.1669107176.46aa45d"
+PV = "5.1.2.1.0+git.1693350652.41fb94d"
 
-RPM_NAME = "luajit-devel-2.1.0~beta3+git.1669107176.46aa45d-3.1.aarch64.rpm"
-RPM_HASH = "d6656dc6e0ab4ff82c0f8c850478dca21926132e4ec3624905aa4b07389ce4537de258063af5ed0768c8432acb8025ea943a822c87c4e5ae4dcf73111f8a6faf"
+RPM_NAME = "luajit-devel-5.1.2.1.0+git.1693350652.41fb94d-1.1.aarch64.rpm"
+RPM_HASH = "e8788904046191006873d7ba21bf6387a88cb3ccb436b2cd48ceea25cf1653532698cdd18de8182d7a1d3565b8bf8b6d719469a5d7277a2733c8ec6d65664632"
 
 RPROVIDES:${PN} += "libluajit-devel \
 luajit-devel \
+moonjit-devel \
 pkgconfig-luajit"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

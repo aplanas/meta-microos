@@ -2,10 +2,10 @@ SUMMARY = "A vulnerability scanner for container images and filesystems"
 DESCRIPTION = "A vulnerability scanner for container images and filesystems. Easily install the binary to try it out. Works with Syft, the powerful SBOM (software bill of materials) tool for container images and filesystems."
 LICENSE = "Apache-2.0"
 
-PV = "0.65.1"
+PV = "0.66.0"
 
-RPM_NAME = "grype-0.65.1-1.1.aarch64.rpm"
-RPM_HASH = "61ac82c5c05d232e677dd4c63cf261616056638b5ab9db193e5445cf51b7907e9210b82f4a75e41516c5f75815e0c5b00a0bf01dd46d46dcc5830e012fdb8b29"
+RPM_NAME = "grype-0.66.0-1.1.aarch64.rpm"
+RPM_HASH = "ddfa6241caa5763846b2a0ba3981091af6e92d966cce107fd9172aeed06b3964a2f4ff1b61ad93b5add5bdaf372cd0424dd816cb934b551256fd8a69d668423c"
 
 RPROVIDES:${PN} += "grype"
 

@@ -2,10 +2,10 @@ SUMMARY = "Reports most recent login of users"
 DESCRIPTION = "pam_lastlog2 and lastlog2 are Y2038 safe versions of the old lastlog utility. pam_lastlog2 collects all data in a sqlite3 database and lastlog2 formats and prints the contents. The username, port, and last login time will be printed."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.1.0"
+PV = "1.2.0"
 
-RPM_NAME = "lastlog2-1.1.0-2.2.aarch64.rpm"
-RPM_HASH = "4026a4331c64ba60e3511b8ff0a8612008093bbc050a94b8d63bbd513e64e81f6706573832d3c5273c222914e0a137b1e454cdcf687f9402b978339af71d7ff1"
+RPM_NAME = "lastlog2-1.2.0-1.1.aarch64.rpm"
+RPM_HASH = "a25bb980461462a4eb3fe7d9ca06622773a6f1bfc60099695d6f14ebc68ebc292c6c8ffd6293316a7dc2c389179fa67d3f79cedbebdaac8b335f0ae5e27bb6db"
 
 RPROVIDES:${PN} += "lastlog2"
 

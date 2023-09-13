@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.3.1"
 
-RPM_NAME = "syslog-ng-bpf-4.3.1-1.2.aarch64.rpm"
-RPM_HASH = "d14261b92bdeb3435e14bbada1e77925ddfe26e91ee33f3ea8ffbf5dbfa852ceaac663fe00230c653d90a655f29948a9c46a36dd11e808d4bf4a9e7ca3f8e7c5"
+RPM_NAME = "syslog-ng-bpf-4.3.1-1.3.aarch64.rpm"
+RPM_HASH = "c92f76ba84e41faf3e5f88870550676f1c1d2fe465bdc60fb1e763bd0823072993234b1f0057fa989602ecf4ceff0e4696f49636c96b1a14f381d0034ceed1d5"
 
 RPROVIDES:${PN} += "syslog-ng-bpf"
 

@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.12~rc1"
 
-RPM_NAME = "grub2-2.12~rc1-1.1.aarch64.rpm"
-RPM_HASH = "c2ab34ca975905a3de99ffdc357f4aa62f74be628db36e8bc0ebaf6216d2013a5c3dc79dda231d72f3160a85ec479e26347a7bc0f9f3991c5b65eec37cb00bce"
+RPM_NAME = "grub2-2.12~rc1-2.1.aarch64.rpm"
+RPM_HASH = "a86137e0c7f900de370ae1a0541b0f266c1adf66b6a715057bee376050c3b7fb645d1c4b3d731f8cd4a5ec37b31f7197e179810cc130dea3e8de7858985663af"
 
 RPROVIDES:${PN} += "config-grub2 \
 grub2"

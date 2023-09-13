@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.0.4"
 
-RPM_NAME = "jsonp-1.0.4-3.11.noarch.rpm"
-RPM_HASH = "940bfe2f02004680e1974974071d3a4d5fff917ab2c1a662749209cad0cb951b0754304c1ec94d75bcb7059a15de49e00cb8a1648e34d6b385a17cbb22a88744"
+RPM_NAME = "jsonp-1.0.4-4.1.noarch.rpm"
+RPM_HASH = "97d83bd91b2d303a76da806f4252afe27def10f553c8dfb5c700066c2c777cb4a24d65f827fdff35384d37aa283349d8492808fe29cf0ba497b4e3ee94fd08be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsonp \

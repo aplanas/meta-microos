@@ -2,10 +2,10 @@ SUMMARY = "Object Exchange daemon for sharing content"
 DESCRIPTION = "Object Exchange daemon for sharing content."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.68"
+PV = "5.69"
 
-RPM_NAME = "bluez-obexd-5.68-4.2.aarch64.rpm"
-RPM_HASH = "d2460fdcbb4384c233e4afb57801c5d9aad24182a280beab57ad555ac58100233717687d76949de481b596b79d9befe3f10e1ba4a79600510783a06498a3b958"
+RPM_NAME = "bluez-obexd-5.69-1.1.aarch64.rpm"
+RPM_HASH = "f348c3af6392746c995b5e493c26e8658647c188d5646160d16328297e1438412dee82c2ef63922258e1fc0fd895975759dcca55887759fd3ab52b486232afb5"
 
 RPROVIDES:${PN} += "bluez-obexd"
 

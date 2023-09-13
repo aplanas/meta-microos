@@ -6,10 +6,10 @@ local hard drive. \
 This is its API documentation in HTML format."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.5.30"
+PV = "2.5.31"
 
-RPM_NAME = "libgphoto2-devel-doc-2.5.30-3.1.noarch.rpm"
-RPM_HASH = "81268acf810612b0799e6959c7358e6cee03a1f8dd334a09cc3c05c60073eeb2a8b10a462ffcda1f2e345277833339f8c2878798e89cd27fcdfa5e1745b95453"
+RPM_NAME = "libgphoto2-devel-doc-2.5.31-1.1.noarch.rpm"
+RPM_HASH = "292f7018ff38de83dfc3061d7ea8cd00bab08aee51eb0e107b6566ab86bfa52751e6237edfe3b27f7b8047707d4bc15c2c6a9265791669322bcd180430f0040d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgphoto2-devel-doc"

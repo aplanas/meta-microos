@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3"
 
-RPM_NAME = "indriya-1.3-3.10.noarch.rpm"
-RPM_HASH = "e2ee9260d4723ac15456207ddafdf6356ceb00c91410a94169ef834d62be7f27343ea80446d177effc3cecac77b3b59190099d0d3f67d7fbb95a0d928a1ece6c"
+RPM_NAME = "indriya-1.3-4.1.noarch.rpm"
+RPM_HASH = "0519810b94de16ab22b1342f0e2543e0c91fd99d817494a7c100056ebd651675044ed28416f8dcf10be933804d886d65aea233c6f0c96ef522a30032318cf4cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "indriya \

@@ -15,10 +15,10 @@ flexible and controlled architecture. You can extend ownCloud \
 with plug-ins from the community, or that you build yourself."
 LICENSE = "GPL-2.0-only & GPL-3.0-only"
 
-PV = "4.1.0"
+PV = "4.2.0"
 
-RPM_NAME = "owncloud-client-4.1.0-1.1.aarch64.rpm"
-RPM_HASH = "ef958411e7ca6ab51266160bede7ff8ea4454e9f21d0016b07b5848f606bb27a14a7e627e050cde798e58941bcb6030dbeb3385eec077e78c8957ebc1808cea8"
+RPM_NAME = "owncloud-client-4.2.0-1.1.aarch64.rpm"
+RPM_HASH = "1f29c8bff70155f634aeb7fa6037655955e03670e21be7e07258dbd7c3fbf4b1b890849150a660f2ca516ed28365ef5db3cba9c8f81c4e1b7cef352344b7af4d"
 
 RPROVIDES:${PN} += "config-owncloud-client \
 owncloud-client"

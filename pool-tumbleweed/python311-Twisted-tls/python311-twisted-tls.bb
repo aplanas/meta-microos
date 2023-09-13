@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "22.10.0"
 
-RPM_NAME = "python311-Twisted-tls-22.10.0-7.1.noarch.rpm"
-RPM_HASH = "fb624d649776f6eebaf74a27acd1c0412553385d494fdc269359434f871e66455e88c85b62c57d40b25551ea1f4f063e83dc720369ba1d410876315f7fafae2f"
+RPM_NAME = "python311-Twisted-tls-22.10.0-8.1.noarch.rpm"
+RPM_HASH = "3b04b0b7cc8fd6f53de9aafd3c0be8afcf72195a5536d62e558ad24d9f808874256883a6e5d8f731115f17b4eef2d480c457a4aa1381f4737dfc016392fa72aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Twisted-tls \

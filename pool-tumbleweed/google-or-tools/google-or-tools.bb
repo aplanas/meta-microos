@@ -6,32 +6,32 @@ LICENSE = "Apache-2.0"
 
 PV = "9.6"
 
-RPM_NAME = "google-or-tools-9.6-3.1.aarch64.rpm"
-RPM_HASH = "cc835b638e216be70c87eec0b3471e32354483b0f96c1b6476756a33029bc6848ded5368e79401a709088ca169550dbc61571868d4d1a1be8464b3cb3fc05f4e"
+RPM_NAME = "google-or-tools-9.6-3.2.aarch64.rpm"
+RPM_HASH = "bb4569c232dd502229857bbc40a1f4384099b73bd7eeb309736cb1f1107875e350897cfb3326a423b682b13ecd449240d65e5572f138ea708877e36482eb69fa"
 
 RPROVIDES:${PN} += "google-or-tools"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libabsl-flags-internal.so.2301.0.0 \
-libabsl-flags-marshalling.so.2301.0.0 \
-libabsl-flags-parse.so.2301.0.0 \
-libabsl-flags-reflection.so.2301.0.0 \
-libabsl-flags-usage.so.2301.0.0 \
-libabsl-hash.so.2301.0.0 \
-libabsl-log-flags.so.2301.0.0 \
-libabsl-log-initialize.so.2301.0.0 \
-libabsl-log-internal-check-op.so.2301.0.0 \
-libabsl-log-internal-message.so.2301.0.0 \
-libabsl-log-internal-nullguard.so.2301.0.0 \
-libabsl-random-internal-pool-urbg.so.2301.0.0 \
-libabsl-random-internal-randen-hwaes-impl.so.2301.0.0 \
-libabsl-random-internal-randen-slow.so.2301.0.0 \
-libabsl-random-internal-randen.so.2301.0.0 \
-libabsl-raw-hash-set.so.2301.0.0 \
-libabsl-status.so.2301.0.0 \
-libabsl-str-format-internal.so.2301.0.0 \
-libabsl-strings.so.2301.0.0 \
-libabsl-time.so.2301.0.0 \
+libabsl-flags-internal.so.2308.0.0 \
+libabsl-flags-marshalling.so.2308.0.0 \
+libabsl-flags-parse.so.2308.0.0 \
+libabsl-flags-reflection.so.2308.0.0 \
+libabsl-flags-usage.so.2308.0.0 \
+libabsl-hash.so.2308.0.0 \
+libabsl-log-flags.so.2308.0.0 \
+libabsl-log-initialize.so.2308.0.0 \
+libabsl-log-internal-check-op.so.2308.0.0 \
+libabsl-log-internal-message.so.2308.0.0 \
+libabsl-log-internal-nullguard.so.2308.0.0 \
+libabsl-random-internal-pool-urbg.so.2308.0.0 \
+libabsl-random-internal-randen-hwaes-impl.so.2308.0.0 \
+libabsl-random-internal-randen-slow.so.2308.0.0 \
+libabsl-random-internal-randen.so.2308.0.0 \
+libabsl-raw-hash-set.so.2308.0.0 \
+libabsl-status.so.2308.0.0 \
+libabsl-str-format-internal.so.2308.0.0 \
+libabsl-strings.so.2308.0.0 \
+libabsl-time.so.2308.0.0 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

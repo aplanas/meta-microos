@@ -3,10 +3,10 @@ DESCRIPTION = "Building blocks for modern GNOME applications. \
 This package provides the shared library for libadwaita."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.4"
+PV = "1.3.5"
 
-RPM_NAME = "libadwaita-1-0-1.3.4-1.1.aarch64.rpm"
-RPM_HASH = "f9c74351afa49c06761bba818847042a4d84d91aec1b3b0a3ef21c72cb3af1b55711cc7822ab32ccfb76a93c5b92a272d8cb336ff52ebdb7445724a4e96c703c"
+RPM_NAME = "libadwaita-1-0-1.3.5-1.1.aarch64.rpm"
+RPM_HASH = "96eed0d67b3be5e252959b40bcb03877f7053b73d40bb24687df3096d6b754f21d48afab3aa220e98a69cbdc8bde464b07f23a570638bb8a213b4ac78a36e693"
 
 RPROVIDES:${PN} += "libadwaita \
 libadwaita-1-0 \

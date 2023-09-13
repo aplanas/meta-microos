@@ -2,16 +2,19 @@ SUMMARY = "Translations for package Setzer"
 DESCRIPTION = "Provides translations for the 'Setzer' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "56"
+PV = "57"
 
-RPM_NAME = "Setzer-lang-56-1.1.noarch.rpm"
-RPM_HASH = "41a182cb76dc762a2ca5c244f25a5cf7f7913f2143df2a848db251743434077c78b09cfcd1d8613d8d89cdfcbaa970ec3f9aa58b69262879da393a28bf76dfeb"
+RPM_NAME = "Setzer-lang-57-1.2.noarch.rpm"
+RPM_HASH = "0ed86039d80da885fcb368b829dcd01039b748408aaa3de1e331b9f854b652c2673983270f95426b19366ac31cb64bc0ce1caebc2ce6700e9b86cdda8b0edaf7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Setzer-lang \
 Setzer-lang-all \
 locale-Setzer-de \
-locale-Setzer-it"
+locale-Setzer-es \
+locale-Setzer-it \
+locale-Setzer-pt-BR \
+locale-Setzer-zh-CN"
 
 RDEPENDS:${PN} += "Setzer"
 

@@ -2,10 +2,10 @@ SUMMARY = "Sphinx extension which outputs Devhelp documents"
 DESCRIPTION = "sphinxcontrib-devhelp is a sphinx extension which outputs Devhelp document."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.0.2"
+PV = "1.0.5"
 
-RPM_NAME = "python310-sphinxcontrib-devhelp-1.0.2-2.2.noarch.rpm"
-RPM_HASH = "426ef8a04852625895fb918a632fa18f4b9bca45854eb1a94b61b26fa1f8ffb2ce7ee854da324b7f2b4165a1e6421a99b7b221a0ee0c3ec8d1e3fe3251c63eef"
+RPM_NAME = "python310-sphinxcontrib-devhelp-1.0.5-1.1.noarch.rpm"
+RPM_HASH = "29431edc36a831cc5501f8e21be2a621b86201de281ec8c49bce75546fcac0338a8cffd1ccbb067c9c9ac4f22a70a5dedebb08c24b5fddb5d972429449a94228"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-sphinxcontrib-devhelp \

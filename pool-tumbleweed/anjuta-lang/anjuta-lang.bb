@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.34.0"
 
-RPM_NAME = "anjuta-lang-3.34.0-5.7.noarch.rpm"
-RPM_HASH = "c4f785c696b25926b3d331bd1a76adee2775857066cf0fd9a9a1717c7dfbbad1afa08a29bebcf89df4bc85afbe3a9b6b4670c16c60cb5a03be8c2f9828ca4682"
+RPM_NAME = "anjuta-lang-3.34.0-5.8.noarch.rpm"
+RPM_HASH = "45cd523bb38ae43d77a987dd6ffab3ac6db08245f9f33ccecc234c924bf0612220d9df60c254ede24c43d66a5437d9a7353cc27859966ccad04a4a0493125fc3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "anjuta-lang \

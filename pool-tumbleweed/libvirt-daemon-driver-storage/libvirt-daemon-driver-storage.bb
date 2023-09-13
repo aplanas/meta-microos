@@ -4,10 +4,10 @@ an implementation of the storage APIs using LVM, iSCSI, \
 parted and more."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.6.0"
+PV = "9.7.0"
 
-RPM_NAME = "libvirt-daemon-driver-storage-9.6.0-3.1.aarch64.rpm"
-RPM_HASH = "9d340b22816db1b4d088e3000a5dd7ac0cbddd93bb6dee711c1cc3a7c14c51e306bc4c9e4edf125861bd912e0002427a5e67041f898c8792b58d0a488b5e2c95"
+RPM_NAME = "libvirt-daemon-driver-storage-9.7.0-1.1.aarch64.rpm"
+RPM_HASH = "a456e8ce9c0b1f4d69e51056dd9a9196c6894322b90fbef75fe624ebaf3a559d84175b6d8d72d71c7ff97581d192743965426e0562996e151d31bf896c0fecf6"
 
 RPROVIDES:${PN} += "libvirt-daemon-driver-storage"
 

@@ -9,8 +9,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.7.4"
 
-RPM_NAME = "python-Whoosh-doc-2.7.4-8.3.noarch.rpm"
-RPM_HASH = "49f2051780b7a1b5e5d1e9cb1f094fac7345b25d541ad2cdc5f14de55d4a582665c9faed96eb727554b36538b4c5e70a4ac0729e3e19e8be286ea6de0b322017"
+RPM_NAME = "python-Whoosh-doc-2.7.4-9.1.noarch.rpm"
+RPM_HASH = "22af7800076ff3ffbc64c2d42e0408cbad7ac625ab98deded32a605bf60839a3be3a379ae202e973031333c713ed50e93100664d760a80552bbc8e812b3ca6bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-Whoosh-doc \

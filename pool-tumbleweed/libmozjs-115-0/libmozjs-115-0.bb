@@ -7,10 +7,10 @@ with only mild differences from the published standard. \
 This package contains the JavaScript's library."
 LICENSE = "MPL-2.0"
 
-PV = "115.1.0"
+PV = "115.2.0"
 
-RPM_NAME = "libmozjs-115-0-115.1.0-1.2.aarch64.rpm"
-RPM_HASH = "4ec41a7228c98d58c1bee0343cc7ea1d314ce3a668e28e9d765f38db3583061c212345034d3d2ace410cd073617b214a1b37e4987dd71fcea2b96a61140d511b"
+RPM_NAME = "libmozjs-115-0-115.2.0-1.1.aarch64.rpm"
+RPM_HASH = "fe9daa24221a5b82f542e1f4216350abf1ecdfe0257e8501743fc44827044c0531e4c38494c8eee4486b2c063ac2ade62db9781307119828f65f81c2f494654a"
 
 RPROVIDES:${PN} += "libmozjs-115-0 \
 libmozjs-115.so.0"

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.5.6"
 
-RPM_NAME = "mybatis-javadoc-3.5.6-7.1.noarch.rpm"
-RPM_HASH = "cb951ccc2d04a08ec743d7fb1b5e3d663e8a4698d97b7bda939d3760a51952ae57b9b1af953c459521c42e8766bcb189fb6498d7a0d28d08a6fc15699b3504f4"
+RPM_NAME = "mybatis-javadoc-3.5.6-8.1.noarch.rpm"
+RPM_HASH = "bc32dc4373d5a8ea4c90fb360226b8f7f99dcd365b184eacb106346d59fc18a46561ce2b1e9d9f4c6e428063cc5a0bc5f4d3a608a1f8a681e705d6ac9b711817"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mybatis-javadoc"

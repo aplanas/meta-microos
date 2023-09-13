@@ -6,14 +6,14 @@ LICENSE = "MIT"
 
 PV = "4.1.1"
 
-RPM_NAME = "godot-runner-4.1.1-1.1.aarch64.rpm"
-RPM_HASH = "9857a9ced384bcdd2b0d5c90aac75e2bed0be8f83f7db80848c0dafd108a4d01c4dd2211a1d66afbfbbc14e05fbcc76cb0dccd660598bf0c12e7f25aa12a1407"
+RPM_NAME = "godot-runner-4.1.1-1.2.aarch64.rpm"
+RPM_HASH = "bbf7caeb4ebc296638bc0c54fdd0aabbe1001d36b6c54ed97a0891f637d84fe0cef6399f155fc4f518403e6bc2bf652d2bd6d533260ff1fb80c2c9cef35a069b"
 
 RPROVIDES:${PN} += "godot-runner"
 
 RDEPENDS:${PN} += "ca-certificates \
 ld-linux-aarch64.so.1 \
-libSPIRV.so.12 \
+libSPIRV.so.13 \
 libX11.so.6 \
 libXcursor.so.1 \
 libXext.so.6 \
@@ -30,7 +30,7 @@ libfontconfig.so.1 \
 libfreetype.so.6 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \
-libglslang.so.12 \
+libglslang.so.13 \
 libgraphite2.so.3 \
 libharfbuzz-icu.so.0 \
 libharfbuzz.so.0 \

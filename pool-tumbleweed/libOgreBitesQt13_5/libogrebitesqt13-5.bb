@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "13.5.3"
 
-RPM_NAME = "libOgreBitesQt13_5-13.5.3-2.2.aarch64.rpm"
-RPM_HASH = "ddc287f9f5c554871f9078fdb55e2a1dac1424b8b6659e3874d2abeec05ba55f7dcb527c4c3c615fe460cfc91dfb5992cf755c930d5e6cac678358da9898f441"
+RPM_NAME = "libOgreBitesQt13_5-13.5.3-2.3.aarch64.rpm"
+RPM_HASH = "997ea824aceb437d329da20a961a1ff75c4a4612cc2ae9e27948847e539a69eefe081e795dae9012c1ffce89b2863e7f11e23cf050841ff0f63c7882813a3090"
 
 RPROVIDES:${PN} += "libOgreBitesQt.so.13.5 \
 libOgreBitesQt13-5"

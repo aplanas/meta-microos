@@ -3,10 +3,10 @@ DESCRIPTION = "The 802.11 regulatory domain database is used by CRDA and provide
 frequency ranges for 802.11 wireless drivers."
 LICENSE = "ISC"
 
-PV = "20230721"
+PV = "20230901"
 
-RPM_NAME = "wireless-regdb-20230721-1.1.noarch.rpm"
-RPM_HASH = "7070cbbc30912d822effe4486948e31bfd20771f641e6f02f30bf8623095c777632afb7991846354edc2f6d3418a72f0f853ec44f89af678da76bb4adee53e26"
+RPM_NAME = "wireless-regdb-20230901-1.1.noarch.rpm"
+RPM_HASH = "1ef8272b9c2a2f37e0d5024d7f9816556eba6ef99d719a76eb9915465e80bd52d56732a4fd9301fa05d1f9de0cfdabb319ad1702635f10c0aa7ac8b68babe3d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-regulatory.db \

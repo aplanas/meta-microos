@@ -6,18 +6,18 @@ such as TensorFlow Lite, allowing them to run efficiently – without \
 modification – across Arm Cortex CPUs and Arm Mali GPUs."
 LICENSE = "MIT"
 
-PV = "23.05"
+PV = "23.08"
 
-RPM_NAME = "armnn-opencl-23.05-1.1.aarch64.rpm"
-RPM_HASH = "a3bb78eaf8a107467145dc981f37b5dde127dd810050866b6a0a188fc542f72e02f1bef9a30776f247f4a4c2d04e2f51e9b1e28698a24d99ad411a8bb90fcd07"
+RPM_NAME = "armnn-opencl-23.08-1.1.aarch64.rpm"
+RPM_HASH = "def1421ec0cecd5e1270cb1f171df4d4835c95e07b86a82fe2f3228f307b95b693004cb1399aba6cf15cd988854ecc3977812b6d75e79851e3f6bfa9fac993f2"
 
 RPROVIDES:${PN} += "armnn-opencl"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libarmnn.so.32 \
-libarmnn32-opencl \
-libarmnnSerializer.so.32 \
-libarmnnSerializer32-opencl \
+libarmnn.so.33 \
+libarmnn33-opencl \
+libarmnnSerializer.so.33 \
+libarmnnSerializer33-opencl \
 libarmnnTfLiteParser.so.24 \
 libarmnnTfLiteParser24-opencl \
 libc.so.6 \

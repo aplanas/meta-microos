@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Welsh Translations"
 DESCRIPTION = "YaST2 - Welsh translations."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230818.ea489402e5"
+PV = "84.87.20230901.be24cb382f"
 
-RPM_NAME = "yast2-trans-cy-84.87.20230818.ea489402e5-1.1.noarch.rpm"
-RPM_HASH = "2d1dc42d20f204063393bfec12b34257619d2f0c854cba244e0fcd3d51fec3d3fdae7533f949aeaea6efc8a2feb237d5c3799f22f757aa924a6d5ecb6f7afb61"
+RPM_NAME = "yast2-trans-cy-84.87.20230901.be24cb382f-1.1.noarch.rpm"
+RPM_HASH = "e9665fb7cdd46ed8e4974d7b7dcab5fd864a116aa61399c6c82af82ca0e9262595a024c8339d010cee7b95bfad2c0a0548bc4abada7387b51a6fdbf4a59ebf76"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-cy \

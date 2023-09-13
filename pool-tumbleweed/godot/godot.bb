@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "4.1.1"
 
-RPM_NAME = "godot-4.1.1-1.1.aarch64.rpm"
-RPM_HASH = "d818fdc49e1590b433615f897940040c591b0760555c84f25f95a327bd786c737029f9a440737d268c663c24793cc154bc7b3393d74ba5397886c184ee20915b"
+RPM_NAME = "godot-4.1.1-1.2.aarch64.rpm"
+RPM_HASH = "af49f0f61fb64d3b296e521198cdc0fe70e79e7b2cf779f0ac48871c308e830c90623468d6c6c0a21543392f2e95bb70dbc68f03902288f00777a27d668a3ba8"
 
 RPROVIDES:${PN} += "bundled-FastLZ \
 bundled-FastNoiseLite \
@@ -56,7 +56,7 @@ godot"
 
 RDEPENDS:${PN} += "ca-certificates \
 ld-linux-aarch64.so.1 \
-libSPIRV.so.12 \
+libSPIRV.so.13 \
 libX11.so.6 \
 libXcursor.so.1 \
 libXext.so.6 \
@@ -73,7 +73,7 @@ libfontconfig.so.1 \
 libfreetype.so.6 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \
-libglslang.so.12 \
+libglslang.so.13 \
 libgraphite2.so.3 \
 libharfbuzz-icu.so.0 \
 libharfbuzz.so.0 \

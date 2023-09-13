@@ -6,10 +6,10 @@ Covering a wide range of solutions, and while not every extension is needed \
 by all people, there is usually at least one useful extension for anybody."
 LICENSE = "MIT"
 
-PV = "9.11"
+PV = "10.3"
 
-RPM_NAME = "python311-pymdown-extensions-9.11-1.3.noarch.rpm"
-RPM_HASH = "fb03e05538e1f8be0752043510abd375d52ce898a801fc084d849ee1b3c8816d64530a976b516e3da2f26927053a080c6615e21ac346483f8430e15fee82b67e"
+RPM_NAME = "python311-pymdown-extensions-10.3-1.1.noarch.rpm"
+RPM_HASH = "ae2e6ea5a124bc9514531460dacc0df84a130ae105592bb75ab812ef3bbdd3bebb789f5830a09c42541806a5906165d0bf109bc31869ae28c936e76b5fe7241d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pymdown-extensions \

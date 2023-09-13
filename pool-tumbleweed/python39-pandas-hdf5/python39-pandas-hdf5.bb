@@ -2,10 +2,10 @@ SUMMARY = "The python pandas[hdf5] extra"
 DESCRIPTION = "This package provides the [hdf5] extra for python-pandas"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.3"
+PV = "2.1.0"
 
-RPM_NAME = "python39-pandas-hdf5-2.0.3-1.3.noarch.rpm"
-RPM_HASH = "dbd927b0ba916cfc8387a82dd7ec93351910153de66e667736bec620122df48b2da1156fc13324b35f3e700ce2d87a97edf77cfac51e0cfea6b466646c10f07a"
+RPM_NAME = "python39-pandas-hdf5-2.1.0-1.2.noarch.rpm"
+RPM_HASH = "c6717f315b57ed28e2961614819178f493e8bdf778b2f0eaee309482b40ab21307219926366fbf6606f8ffc04c550cc63010eb4d904f81818409398782da680f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pandas-hdf5"

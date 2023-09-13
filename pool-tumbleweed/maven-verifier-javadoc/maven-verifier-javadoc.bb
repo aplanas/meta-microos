@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6"
 
-RPM_NAME = "maven-verifier-javadoc-1.6-3.13.noarch.rpm"
-RPM_HASH = "07e9b1b764cebf4d855277f44643da20251412bd1d16ce5b619fb83378c56f5fef462f12a96ab0aba979317ad154646e1576563d7cd3e340a66a212acdebde0b"
+RPM_NAME = "maven-verifier-javadoc-1.6-4.1.noarch.rpm"
+RPM_HASH = "d1403632fb841d4bcd61cb52b7348442ebed448639e4b32acc2a9fce1d8763b6fbe0f21f43a96c25c100b1b58fec50ba609c82fe18be9687111c4cc373b9143a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-verifier-javadoc"

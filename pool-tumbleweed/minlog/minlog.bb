@@ -15,19 +15,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.1"
 
-RPM_NAME = "minlog-1.3.1-1.4.noarch.rpm"
-RPM_HASH = "a699ef3a197313ff68d53aec5ddf6a1a238a5a9ae1edcfa4ff580d58a6e127919132e36dc5d8889407699468de662fad0d1a2076d59048d30173ab0c270f3fce"
+RPM_NAME = "minlog-1.3.1-2.1.noarch.rpm"
+RPM_HASH = "0ffac3226dfb6eac8205e4de4d6d6ba5d6b42b58b57313d6bb90d3d8faf87e921624d125fd7c09fbc74919979126a76a2fde0c124bd6d0e2cda1427868973bdb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "minlog \
 mvn-com.esotericsoftware-minlog \
-mvn-com.esotericsoftware-minlog--tests- \
 mvn-com.esotericsoftware-minlog-pom- \
 mvn-com.esotericsoftware.minlog-minlog \
-mvn-com.esotericsoftware.minlog-minlog--tests- \
 mvn-com.esotericsoftware.minlog-minlog-pom- \
 mvn-com.googlecode-minlog \
-mvn-com.googlecode-minlog--tests- \
 mvn-com.googlecode-minlog-pom- \
 osgi-com.esotericsoftware.minlog"
 

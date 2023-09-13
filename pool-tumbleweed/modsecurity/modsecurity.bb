@@ -3,10 +3,10 @@ DESCRIPTION = "ModSecurity is a toolkit for real-time web application monitoring
 access control."
 LICENSE = "BSD-2-Clause"
 
-PV = "3.0.9"
+PV = "3.0.10"
 
-RPM_NAME = "modsecurity-3.0.9-1.2.aarch64.rpm"
-RPM_HASH = "f45d769d83831e407f489b12a58a53c945ee92ca3b3d115df63d1801f4b080090aee88dc0fcda3bd69441a66f5c1ba2dd99520508b56a29f14abe5ef718d2734"
+RPM_NAME = "modsecurity-3.0.10-1.1.aarch64.rpm"
+RPM_HASH = "dc792871834eb26e006a8ce39288576ed28f1e8685c39e1c7b116687c67454641320c9319d171cade2f1e3c5b0766cd5b65686c2d8941a4c32ecb70219737f36"
 
 RPROVIDES:${PN} += "modsecurity"
 

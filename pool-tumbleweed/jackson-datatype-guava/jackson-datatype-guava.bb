@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.15.2"
 
-RPM_NAME = "jackson-datatype-guava-2.15.2-1.1.noarch.rpm"
-RPM_HASH = "3a91f04314819130a7cd41de778b6210d44910140b9d18de85421e9795f065d41ab57473976ad4391a4ae489eded8776c978c2a0bb85bf9d489c0f1361242668"
+RPM_NAME = "jackson-datatype-guava-2.15.2-2.1.noarch.rpm"
+RPM_HASH = "8815588b77033b6fac203b36a5a1f5925f632c1db5b388f81aa4029b1c24a4c03482d193f9f441ad58cd63f0ed5219e20f5a2398517a0034cb5651afa96a96be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-datatype-guava \

@@ -3,10 +3,10 @@ DESCRIPTION = "A GIO-style async APIs for most Flatpak portals. \
 This package contains the shared library of libportal."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.6"
+PV = "0.7"
 
-RPM_NAME = "libportal-gtk4-1-0.6-1.8.aarch64.rpm"
-RPM_HASH = "fe5a00c15dc74fc6944abdff51ad22ee9205234f8ea3b86c64ddd1b8bd069eb69172ae46df405f76a92a21b3f2a003c0ef7cd4f03bded6c63656fb4ccd0195ee"
+RPM_NAME = "libportal-gtk4-1-0.7-1.1.aarch64.rpm"
+RPM_HASH = "98d8334c10c6a35603e2ddffdb776e88ec4faaec31beea10fa48617743d1a50c0c06935beb95b2853af17344596de22f0ea18ba52ebe5a9a7950d2505490690e"
 
 RPROVIDES:${PN} += "libportal-gtk4-1 \
 libportal-gtk4.so.1"

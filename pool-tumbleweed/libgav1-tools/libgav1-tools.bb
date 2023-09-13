@@ -7,14 +7,14 @@ LICENSE = "Apache-2.0"
 
 PV = "0.18.0"
 
-RPM_NAME = "libgav1-tools-0.18.0-2.1.aarch64.rpm"
-RPM_HASH = "3916c76b2b1b90be61f57806ffad0786fd0db0f861c3a26895d60df595dc930f223a65992b6bde084b36f695211b273c825329b01d19985f03f2c7d7a2bab7a3"
+RPM_NAME = "libgav1-tools-0.18.0-2.2.aarch64.rpm"
+RPM_HASH = "afc9169091737032b8f687135eb84c32bf1e04458d68818a7a540f358b3899294c4101e546ab3e14d220db2a42882cb8b1a92c6b07f90e72aa6f03b512a99673"
 
 RPROVIDES:${PN} += "libgav1-tools"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libabsl-strings.so.2301.0.0 \
-libabsl-time.so.2301.0.0 \
+libabsl-strings.so.2308.0.0 \
+libabsl-time.so.2308.0.0 \
 libc.so.6 \
 libgav1.so.1 \
 libgcc-s.so.1 \

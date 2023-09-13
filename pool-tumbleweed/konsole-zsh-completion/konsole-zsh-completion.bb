@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "23.08.0"
 
-RPM_NAME = "konsole-zsh-completion-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "5d67b374a71ab18404815f400d143090c3b9fa127e79b9022e744112ad252a9ecb09cdf411b969d864c8b8561180fb44a089c014d18ecbb0882ea4851a81e557"
+RPM_NAME = "konsole-zsh-completion-23.08.0-2.1.noarch.rpm"
+RPM_HASH = "822335979910197f17acaf0909488409cd18a21221f91162db566fe10787ce3a752158fc5014ef53e7883a74af7149dee94a9fa3bcecd47b20c205a50ddcba3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "konsole-zsh-completion"

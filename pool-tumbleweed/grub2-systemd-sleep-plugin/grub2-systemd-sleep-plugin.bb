@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.12~rc1"
 
-RPM_NAME = "grub2-systemd-sleep-plugin-2.12~rc1-1.1.noarch.rpm"
-RPM_HASH = "f63a5182e8b0fc8ee0d4c436d93c6158c10b4bf499b15c81cb8915966b4524fbd73fa388a4e1d2ee0cde9021077fbee85fc70e7efa2ee21016c840f96f4540b9"
+RPM_NAME = "grub2-systemd-sleep-plugin-2.12~rc1-2.1.noarch.rpm"
+RPM_HASH = "9f3e03d98b7a69f3d05a7cc5259b98c698e93031cfa7042c264cc418999f251c5d98d91777fe15a619338a036434e0e6d89032113dd1d83150d20edd4127376c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grub2-systemd-sleep-plugin"

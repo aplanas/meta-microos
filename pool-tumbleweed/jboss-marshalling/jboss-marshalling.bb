@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0 & LGPL-2.1-or-later"
 
 PV = "1.4.11"
 
-RPM_NAME = "jboss-marshalling-1.4.11-1.21.noarch.rpm"
-RPM_HASH = "141e2951a39842e7ecfe4a2535eebc7dc3cc3752ff1cccd92fc659cdfdad83f35e227728807ac1b8a064327deffa344576b4912fc35a6f5a19b02e7a7727e06f"
+RPM_NAME = "jboss-marshalling-1.4.11-2.1.noarch.rpm"
+RPM_HASH = "d70525ebbfe87eefe2e98cb04d059722629f43fe8404f2b6bcc92e2d93e1857ca5a35ad78d3d1229e385d42288e0ff80a2ccaa2ea7a5a4f99ec953700a532a52"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-marshalling \

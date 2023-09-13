@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "2.7.1"
 
-RPM_NAME = "python39-nlopt-2.7.1-3.15.aarch64.rpm"
-RPM_HASH = "4751b00f75779afcde6a273b2e86b0148453e76009312479ae5eed91a9bb6dcc0316d064e814f7a0b927cd4d589b220c2d2f618f7d4a82c3a67480b34274151a"
+RPM_NAME = "python39-nlopt-2.7.1-3.16.aarch64.rpm"
+RPM_HASH = "afd810bb6aee05308142c923b47840612ce9b7ec97746919bba17f87a96d2ad8b0f20a9a07f29cfb1da4fc9186ee0b4c3082e94c0eeac26ff6fd8b6d5cc36249"
 
 RPROVIDES:${PN} += "python39-nlopt"
 

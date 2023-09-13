@@ -6,10 +6,10 @@ This package contains all necessary include files and libraries needed \
 to develop applications using Octave."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "8.2.0"
+PV = "8.3.0"
 
-RPM_NAME = "octave-devel-8.2.0-1.2.aarch64.rpm"
-RPM_HASH = "fca454a6f6c74d262b11f59651c32061ffff3fe07830f53141eaebf1f1a222e295aae21d1111df22a55b1bb44389a7e368914d15a1976c3e4cad66c7465b2cc6"
+RPM_NAME = "octave-devel-8.3.0-1.1.aarch64.rpm"
+RPM_HASH = "48035b0f3fff11a74bdd4b74a313b90c22edab09b0b1c23ee346e16f3aa4127d4d75506ec2a49f41fcda6193f7ef08b8f95237103821bf63141b6329def78a4b"
 
 RPROVIDES:${PN} += "octave-devel \
 pkgconfig-octave \

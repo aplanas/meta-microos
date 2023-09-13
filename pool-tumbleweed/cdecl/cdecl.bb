@@ -6,10 +6,10 @@ typecasts and C++ as well, and offers command line editing and \
 history."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "14.3"
+PV = "14.4"
 
-RPM_NAME = "cdecl-14.3-1.1.aarch64.rpm"
-RPM_HASH = "3a747310d850a4337af0057f0600bc22c412de1a9721f78d0be1a25aa223c4cbbfa67470fcfecbcad4ab00e92f56954e67758ccbeb47c4bd8f3da75bc7380d2a"
+RPM_NAME = "cdecl-14.4-1.1.aarch64.rpm"
+RPM_HASH = "c40356c7cec5135f6f5fbe4d29d0a7dbbf579ee926a79c50473008810be4ed93587b2cc6e7096d37da7d750c5a315a01aa72a03d3d82ed9df2595e3df57ef6ba"
 
 RPROVIDES:${PN} += "cdecl"
 

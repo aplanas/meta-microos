@@ -6,10 +6,10 @@ project template. \
 Project templates can be in any programming language or markup format."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.2.3"
+PV = "2.3.0"
 
-RPM_NAME = "python311-cookiecutter-2.2.3-1.1.noarch.rpm"
-RPM_HASH = "d942e57d3cf1321ec5c5ce1bd5b296e2b07c0bf16c787e8851d4763a7fd2550437450179a66915105cc1536a57a2bb088cb545a07baaba3b5c40cfcc91d0fadc"
+RPM_NAME = "python311-cookiecutter-2.3.0-1.1.noarch.rpm"
+RPM_HASH = "2efdca9abb72b75a3e394b3dde4377ec5b387ba6d2e50fb36b03637cc23a6123ebcb343288e95e3ff1ace29603741655dcc2f56841d1b1cc44c29678800c5032"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cookiecutter \
@@ -25,13 +25,11 @@ RDEPENDS:${PN} += "-python311-Jinja2 >= 2.7 with python311-Jinja2 < 4 \
 git-core \
 python-abi \
 python311-PyYAML \
+python311-arrow \
 python311-binaryornot \
-python311-future \
-python311-jinja2-time \
-python311-poyo \
 python311-python-slugify \
 python311-requests \
-python311-whichcraft \
+python311-rich \
 update-alternatives"
 
 inherit rpm

@@ -6,8 +6,8 @@ LICENSE = "MIT & PHP-3.01"
 
 PV = "8.2.10"
 
-RPM_NAME = "php8-xmlreader-8.2.10-1.1.aarch64.rpm"
-RPM_HASH = "b80b1dba7471b99f8c5fc7cac3a714c154821fa389ec62069a78540e9f707ea8813fac1f760d4e6bc52a0fb60d2d8e4def6294f30482d46ae7a2cafd5af37e57"
+RPM_NAME = "php8-xmlreader-8.2.10-2.1.aarch64.rpm"
+RPM_HASH = "242efbc95b76beb4e51366b9a56773a814d33bbc9e8cca75fbd2d36ba61e875f4230837d00e1b560f63f035d92cc1edd5a92dc59a055f5f8fb7028b7c48d81d3"
 
 RPROVIDES:${PN} += "config-php8-xmlreader \
 php-xmlreader \

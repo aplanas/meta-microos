@@ -8,8 +8,8 @@ LICENSE = "MIT & PHP-3.01"
 
 PV = "8.2.10"
 
-RPM_NAME = "php8-enchant-8.2.10-1.1.aarch64.rpm"
-RPM_HASH = "878fb6b5e5bc9eb266ebd0d965fa1ce197d09e9ea1a39904801fb951dc8045925638d07c5d6ed0bb54c8d29d3b58016df09d1c11d740ab6c79afd62037b0d8af"
+RPM_NAME = "php8-enchant-8.2.10-2.1.aarch64.rpm"
+RPM_HASH = "8f0ed291cce07156a81489cad934f1cff65c643105aef757e4855946435a75d32b2bf14fd635d7c4e936a59cd780d4ba192a45e6c6063729609975e3830634a6"
 
 RPROVIDES:${PN} += "config-php8-enchant \
 php-enchant \

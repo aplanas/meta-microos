@@ -9,10 +9,10 @@ excisions, Neovim is Vim. It is built for users who want the good \
 parts of Vim, without compromise, and more."
 LICENSE = "Apache-2.0 & Vim"
 
-PV = "0.9.1"
+PV = "0.9.2"
 
-RPM_NAME = "neovim-0.9.1-1.1.aarch64.rpm"
-RPM_HASH = "d2cdd01c305f053491e1729cf1b928077a71704145529234129c6a6b82d6dd99780c5918fcdb1528fb4740216c5ca2f57e9c490e778ae93c42e7e2e6e5887b76"
+RPM_NAME = "neovim-0.9.2-1.1.aarch64.rpm"
+RPM_HASH = "aa031aa95c43c45ac9f09ecb5f7b02d366adf0626cc9a4b36f3b96dc646a7a2036766da7ccac8a6bdd0fc96316ed9093f44ee3f58248930a5f84512c3cef6162"
 
 RPROVIDES:${PN} += "config-neovim \
 neovim"

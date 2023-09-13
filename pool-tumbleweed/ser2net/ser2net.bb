@@ -5,10 +5,10 @@ configure the ports, a control login for modifying port parameters, \
 monitoring ports, and controlling ports."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.3.11"
+PV = "4.5.0"
 
-RPM_NAME = "ser2net-4.3.11-1.4.aarch64.rpm"
-RPM_HASH = "9a5a5fb89021979eb84962eb3a0fdc182bc5307424c056cb5a78673b1e7bd74e1c999cf884927452fb2878addea82ed10ba28308fff670673bfa5c8eb0409a66"
+RPM_NAME = "ser2net-4.5.0-1.1.aarch64.rpm"
+RPM_HASH = "35f3fe6cdb74be1f252dec66cd9d0563df3164af7c18c0cc3ef2086edd5d3fd93c59ab7fd4fc9f078c5f8e3950e08fc7510c20ab38c889ef49be3bdb04f0c7a3"
 
 RPROVIDES:${PN} += "config-ser2net \
 ser2net"

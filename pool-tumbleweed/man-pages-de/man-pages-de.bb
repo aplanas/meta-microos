@@ -2,10 +2,10 @@ SUMMARY = "Translation of man pages in German"
 DESCRIPTION = "This package provides translations of man pages in German."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.19.0"
+PV = "4.20.0"
 
-RPM_NAME = "man-pages-de-4.19.0-1.1.noarch.rpm"
-RPM_HASH = "8d7cd9059ac8c914bc60deec17a34d43aa2c9b34ebf7756084d313cdd3e4140ad61cb8cfa71d2a7b12b9d80b49b45dc1f3444f8fd2ba2d5db805871814e5ba62"
+RPM_NAME = "man-pages-de-4.20.0-1.1.noarch.rpm"
+RPM_HASH = "3df6acd95a3824d34da07dc3afc21c880abe8681c90f8d7f1e5de5b39414ddd00fea4bc08192074e9a4793ec3e5121516a37552cf033eb9f3de6ce380dfc9d9e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-man-pages-de \

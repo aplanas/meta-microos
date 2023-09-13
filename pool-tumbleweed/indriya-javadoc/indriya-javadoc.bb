@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3"
 
-RPM_NAME = "indriya-javadoc-1.3-3.10.noarch.rpm"
-RPM_HASH = "7e03895a5323f7d77fc13dc9b99d91abd67c90aace899559c699d3c9c96ee12137c6effd14debb1d8dc8ec46650f4522ff6b3307a89adb7cef98fe04cc9ae753"
+RPM_NAME = "indriya-javadoc-1.3-4.1.noarch.rpm"
+RPM_HASH = "e12b4befb15a30769c56fc33e0fcc166a54ef0b4271ce7c9ebe7a1ba730fa02c6915ba4b3e1f66c7ca0f8cf037a6d6217afe5c2920faf9ff097892f077ea56c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "indriya-javadoc"

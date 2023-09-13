@@ -6,8 +6,8 @@ LICENSE = "MIT & PHP-3.01"
 
 PV = "8.2.10"
 
-RPM_NAME = "php8-xmlwriter-8.2.10-1.1.aarch64.rpm"
-RPM_HASH = "ae3dc5c1742053358a62bb69f797fe247ed8b6285c07322f56e66c9754b8b8856571be1104a1c680037d7529ee12c44faf286fbcbe642919de680c4050904e6c"
+RPM_NAME = "php8-xmlwriter-8.2.10-2.1.aarch64.rpm"
+RPM_HASH = "f02ca2cee8636c5ab50d0a96c3361a2288f8417f4617ef9752e1f139337ed9aae916524bf774189cf3f653d055675618ef9a338081341f0b4336ec21cae859aa"
 
 RPROVIDES:${PN} += "config-php8-xmlwriter \
 php-xmlwriter \

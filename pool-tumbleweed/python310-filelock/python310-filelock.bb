@@ -4,16 +4,17 @@ independent file lock in Python, which provides a simple way of \
 inter-process communication."
 LICENSE = "Unlicense"
 
-PV = "3.12.2"
+PV = "3.12.3"
 
-RPM_NAME = "python310-filelock-3.12.2-1.1.noarch.rpm"
-RPM_HASH = "7b1721f45cb82839ff0e0aff82de926725f6d8dc1203ee4ff4eb3198abd0c80f70002a5681f13d075ce08e682c77188459fbc26779b73a657b8c8fc16b652cd2"
+RPM_NAME = "python310-filelock-3.12.3-1.1.noarch.rpm"
+RPM_HASH = "45738fcf1809441755ab4121b4087daf5efbae6d26f1dd61f8bc3ab1c210d3289e255a226e84a6697928b0f96972d72fa71ffadfb827e4c3cabf890bc029162d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-filelock \
 python310-filelock \
 python3dist-filelock"
 
-RDEPENDS:${PN} += "python-abi"
+RDEPENDS:${PN} += "python-abi \
+python310-typing-extensions"
 
 inherit rpm

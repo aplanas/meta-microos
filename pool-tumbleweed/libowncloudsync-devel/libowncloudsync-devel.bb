@@ -4,10 +4,10 @@ implements the ownCloud sync algorithm that keeps a local directory \
 in sync with the content on your cloud."
 LICENSE = "GPL-2.0-only & GPL-3.0-only"
 
-PV = "4.1.0"
+PV = "4.2.0"
 
-RPM_NAME = "libowncloudsync-devel-4.1.0-1.1.aarch64.rpm"
-RPM_HASH = "5879638c12350874558d64809316c853560fc6551d99aa289b5ad15428864f62cb5cb2e610f980cb6208cb5c0dc6b571e4c2258799b8c14d14def47ee420474e"
+RPM_NAME = "libowncloudsync-devel-4.2.0-1.1.aarch64.rpm"
+RPM_HASH = "3f27a3e8c281b32e2fc9b736aa06055eab9800b4517fbe6ad6f2ada75a98b43a046278de790c34946e0c03bc8d8ab878b8f7320d63c5064979e5b86cb204d447"
 
 RPROVIDES:${PN} += "cmake-ownCloud \
 libowncloudsync-devel"

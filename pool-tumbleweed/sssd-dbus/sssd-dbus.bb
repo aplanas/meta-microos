@@ -3,10 +3,10 @@ DESCRIPTION = "Provides the D-Bus responder of sssd, called InfoPipe, which allo
 information from sssd to be transmitted over the system bus."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.9.1"
+PV = "2.9.2"
 
-RPM_NAME = "sssd-dbus-2.9.1-1.1.aarch64.rpm"
-RPM_HASH = "6b889a69fc44d744e7262a1f5cc5e5265ffed70b7484436e0630302cb60b7638eea3503cdcba7c43f673e91150600eaf23aadd3388aa61e8c817d20aeaca4bc8"
+RPM_NAME = "sssd-dbus-2.9.2-1.1.aarch64.rpm"
+RPM_HASH = "be09e9a7baf71ca707414dc2213cd6d720a1af41f834f2aea21ea048382b84d15b5ac3e548a258d09f72a4a10692a3a4226a6591cbf4b4695e26988cbad7c0fd"
 
 RPROVIDES:${PN} += "sssd-dbus"
 

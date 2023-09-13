@@ -9,8 +9,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.2.1"
 
-RPM_NAME = "stax2-api-4.2.1-1.1.noarch.rpm"
-RPM_HASH = "896e2cf24a809e2d7e952ae0b36ed473505444172a6c61af36f7289ebebaf6e47a0cf507c71f5d7a0d1b8d0dc4698b824e7051d90d6e0ce30f48b044999aaba6"
+RPM_NAME = "stax2-api-4.2.1-2.1.noarch.rpm"
+RPM_HASH = "d29e7d955985df00799b230a1114f9074b422dbe7924444c32ea71d1fd314a24aa47e1ce2c35d9d88d7a519338fa3430c8df1087cb06770631c6387a3db85a11"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.woodstox-stax2-api \

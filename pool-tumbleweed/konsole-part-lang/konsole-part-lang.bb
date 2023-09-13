@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "23.08.0"
 
-RPM_NAME = "konsole-part-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "59b93047617eefa5017f95a5b3e387e95ef8502ccc44959f37c5b8f2d7f914146dead643349bbbd60b000767139c31156ac54711874e2f6c11a8964e3ffbeca5"
+RPM_NAME = "konsole-part-lang-23.08.0-2.1.noarch.rpm"
+RPM_HASH = "d963289a18b6b7c9e4dda35a6c61ee0eeb44ddcd23e29835ed2a206a80c9e8e945e9fcf6716afbe87c6453aba4a86670cc76a31e19645c9abdb4c7eeadf5fdaf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "konsole-lang \

@@ -6,10 +6,10 @@ solution of numeric problems. \
 This package contains the graphical user interface."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "8.2.0"
+PV = "8.3.0"
 
-RPM_NAME = "octave-8.2.0-1.2.aarch64.rpm"
-RPM_HASH = "1ee9619ff9abe8088839a810a1dca7e11d9c135f76d56211f0fbffd43634a69120cedb91c59fc9fb3ede211e85790d4cb925a72d279f03df539eed8382db98bb"
+RPM_NAME = "octave-8.3.0-1.1.aarch64.rpm"
+RPM_HASH = "27e1f1a8ec8b8ebebe3c5183cfd0da0deb78ed0cd8343f51cc7f8cdd225ef5c286cdf28526a667694a9fe920541c698fd5251ce2a6dd80f5c39d30c265fe6bf6"
 
 RPROVIDES:${PN} += "liboctgui.so.9 \
 octave \

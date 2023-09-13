@@ -7,10 +7,10 @@ removal. \
 This package contains headers for knot."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.2.9"
+PV = "3.3.0"
 
-RPM_NAME = "knot-devel-3.2.9-1.1.aarch64.rpm"
-RPM_HASH = "96d2b69e1bfb832a28bf6092f65d6579b4841962dac8f81769164850c3935e5dac22ad8166c26a795a4399caab79c35ef2963b9caeb7c7eab38fffadebc149ad"
+RPM_NAME = "knot-devel-3.3.0-1.1.aarch64.rpm"
+RPM_HASH = "81ff6eab641402a4a46f2e94a8ace8b838d35666358f26824062dba2c1288e371c9c447ee29afd251d6106341733a5d709380e6bab52739c40007ed116d01cc2"
 
 RPROVIDES:${PN} += "knot-devel \
 pkgconfig-knotd \
@@ -21,7 +21,7 @@ pkgconfig-libzscanner"
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 knot \
 libdnssec9 \
-libknot13 \
+libknot14 \
 libzscanner4 \
 pkgconfig-gnutls"
 

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "23.08.0"
 
-RPM_NAME = "konsole-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "9db99bdafc64dbbeba4149f36b1845f54c42217e01aaebb0df71d5a439ad43ebc076b17d1cb98a5d77ea6d916b43cbaa455945e070a831ada606bc66c2460765"
+RPM_NAME = "konsole-23.08.0-2.1.aarch64.rpm"
+RPM_HASH = "91662103432444ef83676116642f8351a0e2b8a772fae1ef7a6c9c7705192ca5dd5267999a11e6cc5201a01cf8574de3e5ec6a2fefd5c8bdce3e308e467b117b"
 
 RPROVIDES:${PN} += "konsole \
 konsole5 \

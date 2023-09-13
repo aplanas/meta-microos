@@ -6,10 +6,10 @@ hardware based authentication schemes. pam-config can also \
 add/adjust/remove other PAM modules and their options."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.5"
+PV = "2.8"
 
-RPM_NAME = "pam-config-2.5-1.1.aarch64.rpm"
-RPM_HASH = "dfd9c6b12c2fefccb86ca17789766367ed3b038f338531eba10db246e72041a06719676f9a9a66ea0ebcab99ffa3b457222f9c605f72b63caf88c884835309ab"
+RPM_NAME = "pam-config-2.8-1.1.aarch64.rpm"
+RPM_HASH = "e13d14af2a0993855e66be3d87d49e7ab081a17a9164be8eb2d8b5d905f766f3bbfa894845334e5c7b266d38a633724fef3047cc1b71756058d93ba95569b9d1"
 
 RPROVIDES:${PN} += "config-pam-config \
 pam-config"

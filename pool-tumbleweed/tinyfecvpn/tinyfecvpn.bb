@@ -3,10 +3,10 @@ DESCRIPTION = "A VPN designed for lossy links, with build-in support for Forward
 Correction (FEC). This can improve network quality on high-latency lossy links."
 LICENSE = "MIT"
 
-PV = "20210116.0"
+PV = "20230206.0"
 
-RPM_NAME = "tinyfecvpn-20210116.0-1.11.aarch64.rpm"
-RPM_HASH = "12844dce4dc3d0961dc802e72833aa3a4f2e859d0114c7fbac7f87b3f35fa8a142f65e7c29b8582dd05e150dcfe2fbcd09d38de45e023cba8509709388486f03"
+RPM_NAME = "tinyfecvpn-20230206.0-1.1.aarch64.rpm"
+RPM_HASH = "be727b65ac4d31e47f8a4d0b8cfc3aea7eccd79ee1a2d16a0288ede48fd749460e29451ae9333af4c01427dfc90796e024b69c8e9ea18d6afc699993d8cc22ea"
 
 RPROVIDES:${PN} += "tinyfecvpn"
 

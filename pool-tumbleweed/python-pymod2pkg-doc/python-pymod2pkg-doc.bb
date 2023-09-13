@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.26.0"
 
-RPM_NAME = "python-pymod2pkg-doc-0.26.0-1.11.noarch.rpm"
-RPM_HASH = "71178d64b81abd763bde66df42b1bbe401c1fc8b344b678270cdc21bcd128acbbb7cca4e351cf7931253cd5d1ab8bc32e7983ae51b96826dbdde0c039cc61b2e"
+RPM_NAME = "python-pymod2pkg-doc-0.26.0-2.1.noarch.rpm"
+RPM_HASH = "240c2899cc37a48892c28672963b876da78508de717a941cecaf9f569e2447ee2bbdf8e84f6f430bcba0ea3796c3256c6f9625bc96e7f0012c899ce6c16e43a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-pymod2pkg-doc"

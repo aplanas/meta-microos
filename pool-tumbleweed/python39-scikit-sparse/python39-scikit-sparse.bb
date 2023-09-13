@@ -9,10 +9,10 @@ There is a wrapper for the CHOLMOD library for sparse Cholesky \
 decomposition."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.4.5"
+PV = "0.4.12"
 
-RPM_NAME = "python39-scikit-sparse-0.4.5-1.14.aarch64.rpm"
-RPM_HASH = "13576884e5c4b8a83b69e519dc1dae2dbd6d6febae0c9075cd3793a60c2604a010305eeeebdb5c84aede9ff8fad9cf1eb6adfaf0a4231ddf72d936312259ab59"
+RPM_NAME = "python39-scikit-sparse-0.4.12-1.1.aarch64.rpm"
+RPM_HASH = "c77e7e5eefd065bb7f351205e3dc2d18cb7c335d837af540028e8675159340032c11d1a058fbdd1b6b26373659304de45ee264216ad4a44d541d5cf0645d2ad3"
 
 RPROVIDES:${PN} += "python3.9dist-scikit-sparse \
 python39-scikit-sparse \

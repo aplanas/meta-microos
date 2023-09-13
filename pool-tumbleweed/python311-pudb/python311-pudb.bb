@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "2022.1.3"
 
-RPM_NAME = "python311-pudb-2022.1.3-1.6.noarch.rpm"
-RPM_HASH = "34be879c6affc877becf31f63241766428fe0bef1c66f4e14277da411b1402289c0c05e3f6b3518a2ba6b8d0be396d4db5f0157c7f81ecf46af067b6b5b2547d"
+RPM_NAME = "python311-pudb-2022.1.3-2.1.noarch.rpm"
+RPM_HASH = "395ca07f51b40f1331f4c85ac2e7bb4c63e46cc1601dfdd96f4e82dd1a050d7ab5a96b2fcfa61c5f8a7967149151fec88b6028c5cdbd3cb6c85efe46c07c5b21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pudb \
@@ -19,7 +19,10 @@ RDEPENDS:${PN} += "/usr/bin/python3.11 \
 /usr/bin/sh \
 python-abi \
 python311-Pygments \
+python311-jedi \
+python311-packaging \
 python311-urwid \
+python311-urwid-readline \
 update-alternatives"
 
 inherit rpm

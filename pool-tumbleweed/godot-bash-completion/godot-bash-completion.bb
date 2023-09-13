@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "4.1.1"
 
-RPM_NAME = "godot-bash-completion-4.1.1-1.1.noarch.rpm"
-RPM_HASH = "c3c894793004e404188ce8afe7d1a716d3144daf2016543019ec51739b43b6777466ae54610a90ae5ddfa5d98a55857bcd5815f7e1d68d10e3d3e21258cb52aa"
+RPM_NAME = "godot-bash-completion-4.1.1-1.2.noarch.rpm"
+RPM_HASH = "3254959419a9246fc19be41f5a67a78529446f2eccd3537c10a18d4cf2becbe81c235ae0a5315d4174059a2d070123e6c35d9efd12b60d3ce362ef9b02c4954e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "godot-bash-completion"

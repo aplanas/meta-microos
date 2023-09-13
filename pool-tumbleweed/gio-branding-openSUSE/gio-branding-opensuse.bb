@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "42.1"
 
-RPM_NAME = "gio-branding-openSUSE-42.1-20.4.noarch.rpm"
-RPM_HASH = "529c9ff8cb515fb233b8bf9311325e0e492849be38697903b36eb057a1fd0fd46e2a31251b551b58a40c8343b247bb1ba03332e1b8f959a10db16c412657660d"
+RPM_NAME = "gio-branding-openSUSE-42.1-20.5.noarch.rpm"
+RPM_HASH = "e0d985adbd7eee66de4fda87932577e4efa2d8398fd4f021c43b3910dab7f2de58eb5430d3e38ba9c102c8b5b2df0a344db2c75ed24a8c09cfee3dbf13298984"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-gio-branding-openSUSE \

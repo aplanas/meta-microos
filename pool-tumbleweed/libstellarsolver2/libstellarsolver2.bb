@@ -3,10 +3,10 @@ DESCRIPTION = "An Astrometric Plate Solver for Mac, Linux, and Windows, \
 built on Astrometry.net and SEP (sextractor), runtime library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.4"
+PV = "2.5"
 
-RPM_NAME = "libstellarsolver2-2.4-2.4.aarch64.rpm"
-RPM_HASH = "ef97570c46f64e12e0818e087dcc5bd9e19cff8dd45975f949db52a601abaef848496f09bb19ede8e7dd61b6642e94969536004ee6085845becf48f5d4f72a4b"
+RPM_NAME = "libstellarsolver2-2.5-1.1.aarch64.rpm"
+RPM_HASH = "87e584e401453ca89501749b5ad6a05608826ea43bd6ad03805004d05bf8e38d5cb923597165c83e68eeb767ccaaf41b1bf363ebed68a975573d54950d687c7f"
 
 RPROVIDES:${PN} += "libstellarsolver.so.2 \
 libstellarsolver2"

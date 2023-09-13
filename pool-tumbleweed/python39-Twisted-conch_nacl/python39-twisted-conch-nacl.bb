@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "22.10.0"
 
-RPM_NAME = "python39-Twisted-conch_nacl-22.10.0-7.1.noarch.rpm"
-RPM_HASH = "b02bb3a85312b2ee28fdfae8c2e87de9b1dd7702ad5411bda16d40192ef5bfae0bee8fbd9385da1c8af77870e2bfdae31cf762012162fe5051444816d299b4b8"
+RPM_NAME = "python39-Twisted-conch_nacl-22.10.0-8.1.noarch.rpm"
+RPM_HASH = "7e3e99e5f28d348b7fa2818be145bd6ba6462a69f740de6cf605ae59450a5cdf7cbbb115c3f8a9e7f8873946142901387118056a58ce14ad6a04cd34ce84a43e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-Twisted-conch-nacl"

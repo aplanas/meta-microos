@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.4.2"
 
-RPM_NAME = "socket_wrapper-1.4.2-1.1.aarch64.rpm"
-RPM_HASH = "a8afc8f65ecb9d8720a24a5fedb9140069940917daf2fc18e973194d9ba2872fc5a7d859302ec74ea36ed5061523aaf270b1b529f8de66b795b3f074cb3ed055"
+RPM_NAME = "socket_wrapper-1.4.2-2.1.aarch64.rpm"
+RPM_HASH = "c18a98cf802e5e3ff64e2ac4c45a6282383ae8fb34cc3f69c8bd1658f52cf4d45d282c51c9b0f8116520376d2f1974bf9dbf36182b4b82794e82f7f7704c9b4d"
 
 RPROVIDES:${PN} += "cmake-socket-wrapper \
 cmake-socket-wrapper-noop \

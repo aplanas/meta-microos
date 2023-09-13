@@ -4,10 +4,10 @@ one-man project of shoot ’em up games set in an isolated world full of \
 Japanese folklore."
 LICENSE = "MIT"
 
-PV = "1.3.2"
+PV = "1.4"
 
-RPM_NAME = "taisei-data-1.3.2-2.13.noarch.rpm"
-RPM_HASH = "5f39f22fd244c56b0edffe21c9fdedaf6b6985acf86e12473a602ff0bdf66b6dee098f6895de10770fc113e58bad8aa418770b93fe5cb67b6281ba8d903cf209"
+RPM_NAME = "taisei-data-1.4-1.1.noarch.rpm"
+RPM_HASH = "4eca6a41bcfb7eff5b85dd950aa3d827033432afd9001d42bf0c0e5cc09adc5e5917a772d707a22f299420e80e91898f45a1f579651856038422f1a5f68a29a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "taisei-data"

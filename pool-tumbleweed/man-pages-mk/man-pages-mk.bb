@@ -2,10 +2,10 @@ SUMMARY = "Translation of man pages in Macedonian"
 DESCRIPTION = "This package provides translations of man pages in Macedonian."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.19.0"
+PV = "4.20.0"
 
-RPM_NAME = "man-pages-mk-4.19.0-1.1.noarch.rpm"
-RPM_HASH = "22fe9e91eb7af80fcac5bacee225165bb13fad74c87b7d8cd5c507453d44da6fb6e01b49131c7c91ba259b92442deefbdeb84d832b4c6e2c8d634b38018425e8"
+RPM_NAME = "man-pages-mk-4.20.0-1.1.noarch.rpm"
+RPM_HASH = "8d3d3ba19bc8e297ad29aef84fe0aca3ebe1d7384d488525339e1f22925723133d2dbbd3e391c7b4c83987f911db89bbd045f4926668581791fa2c5bab151a27"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-man-pages-mk \

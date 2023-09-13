@@ -8,10 +8,10 @@ support for those accustomed to creating traffic graphs with MRTG as \
 well."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.24"
+PV = "1.2.25"
 
-RPM_NAME = "cacti-1.2.24-1.2.noarch.rpm"
-RPM_HASH = "ccf3fa81845a1859194d6a7b3a4c2da549cfc4a0b97e631fe38432cdf880dcca0680ef335b43f5528e94f3aa44c6b5a1b72b210e1ff37c70c474af5a1a65939c"
+RPM_NAME = "cacti-1.2.25-2.1.noarch.rpm"
+RPM_HASH = "68b679f1282024238d9092c35854de4ad12f6433eaa856303af9afe9c11a15a606df87081634d16809ed02fae5ce8fcfa1fdefe708eed0d39262fa4f80425c94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cacti \

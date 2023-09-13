@@ -15,8 +15,8 @@ LICENSE = "Apache-2.0 & BSD-3-Clause & SUSE-Public-Domain"
 
 PV = "3.10.6"
 
-RPM_NAME = "netty3-3.10.6-14.11.noarch.rpm"
-RPM_HASH = "00c17f683f78c1f2bb9d00182b3dfd9eacd817e1153be985453700bab50bc8fc9156e8d9ba529935963f369353b362f93180eee2a8e5ead0f4ff4f5f8c23066b"
+RPM_NAME = "netty3-3.10.6-15.1.noarch.rpm"
+RPM_HASH = "ad4b80ab8dd2b800e3a27b8464e6d9d70e319fbcfb93dad40db6db369c4d18a928ea3cbc9153f91ad331379bd59aec9d718604fb1e01056392df29fe1397edc3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-io.netty-netty \

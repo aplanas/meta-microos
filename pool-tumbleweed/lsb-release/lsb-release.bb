@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.2"
 
-RPM_NAME = "lsb-release-3.2-2.1.noarch.rpm"
-RPM_HASH = "b0474e34675f29c5a5474ee68a10edbbe979df7a97869b6e0b02b4ee58432eda6cb182e1eea330bab11b6b43847b6c366aad225a5e77a0ba7d386cf6a803f6f9"
+RPM_NAME = "lsb-release-3.2-3.1.noarch.rpm"
+RPM_HASH = "a410fd38ec81d22e2c33bea2036ce8c07e0cdec49004c9672d33d016ed2bf4c6c5d80e0e268328841d78769bc7df25a9ba61dfc95becd3cce6b4f1d595167f5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lsb-release"

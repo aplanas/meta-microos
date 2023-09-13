@@ -5,10 +5,10 @@ the Nextcloud Server with your computer. \
 This package provides Nextcloud's command-line sync utility."
 LICENSE = "GPL-2.0-or-later & LGPL-3.0-or-later"
 
-PV = "3.9.0"
+PV = "3.9.3"
 
-RPM_NAME = "nextcloud-cli-3.9.0-3.1.aarch64.rpm"
-RPM_HASH = "2b630b4ace51a3f77e1243184845955abd27f251cab50ab64d8dac536beec083b3b707c35c2ef14bc28fe5a45d52be108eb0172805c50d5c0eecb8f586108e83"
+RPM_NAME = "nextcloud-cli-3.9.3-1.1.aarch64.rpm"
+RPM_HASH = "69aaf5b9c81a7e96a61cf78d8263638d825c7fa4e8ab0a1c94c7057e1f614643db51f75f35da8262732ce50047ce057a93c6a89cdefc55ad11fcfb1e7b2d53ee"
 
 RPROVIDES:${PN} += "config-nextcloud-cli \
 nextcloud-cli"

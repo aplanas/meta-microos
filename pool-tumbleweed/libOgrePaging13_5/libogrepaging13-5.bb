@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "13.5.3"
 
-RPM_NAME = "libOgrePaging13_5-13.5.3-2.2.aarch64.rpm"
-RPM_HASH = "633fe85050125243109a2638c4d0ce3c9dfbac4dc758671106a874f0146e2b4f95dc3f8bf5dc0bb90d099ada00faa49341ced28d2d1fbdee74c4825a64afb02b"
+RPM_NAME = "libOgrePaging13_5-13.5.3-2.3.aarch64.rpm"
+RPM_HASH = "9000a1ba30e980a997e09c0ff63b98f8bae0e4dd95ea2e07cc6d26ae1d1fdd23aac86e4f74d0c8acb53c6376d8f11a017b632af706247c0031a33999835a3beb"
 
 RPROVIDES:${PN} += "libOgrePaging.so.13.5 \
 libOgrePaging13-5"

@@ -2,10 +2,10 @@ SUMMARY = "Vulkan layer to select Vulkan devices provided by Mesa"
 DESCRIPTION = "This package contains the VK_MESA_device_select Vulkan layer"
 LICENSE = "MIT"
 
-PV = "23.1.6"
+PV = "23.1.7"
 
-RPM_NAME = "Mesa-vulkan-device-select-23.1.6-356.1.aarch64.rpm"
-RPM_HASH = "165f853b447c0a247d7eff8c4dd1dc09941ed548c02705183ba1db6358bb47ed87ff2b20953c773f6f03d4c9f7a416c0d797ec7996f57330630cfd1639a5e5b9"
+RPM_NAME = "Mesa-vulkan-device-select-23.1.7-357.1.aarch64.rpm"
+RPM_HASH = "955b040decb94ba3a02f38677dcdc69c583c7499a2d4071fa168b9bd8d87f67ebe76574b748ff7d0789e5c4bb72e5ae35243b02f9049a896f30b63ee80357db2"
 
 RPROVIDES:${PN} += "Mesa-vulkan-device-select \
 libVkLayer-MESA-device-select.so"

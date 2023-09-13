@@ -24,8 +24,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "13.5.3"
 
-RPM_NAME = "libOgreRTShaderSystem13_5-13.5.3-2.2.aarch64.rpm"
-RPM_HASH = "21d4e49ba6deed0c994432586735101f1a8661b3c28fbe27cff188eda485940fe59e0a191d382e504046cb12ae670dde294e17518781de5eb6497108e3669d5e"
+RPM_NAME = "libOgreRTShaderSystem13_5-13.5.3-2.3.aarch64.rpm"
+RPM_HASH = "9c7c74445fe74341c843bbe9e483aa63f1b87489f98f3a6f1626783b104df409bd6dc68ac4bc790af855979cbb1548b8d8411fe4e565a41fba2b218f6bd67803"
 
 RPROVIDES:${PN} += "libOgreRTShaderSystem.so.13.5 \
 libOgreRTShaderSystem13-5"

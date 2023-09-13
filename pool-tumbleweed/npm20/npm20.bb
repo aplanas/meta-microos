@@ -3,10 +3,10 @@ DESCRIPTION = "A package manager for Node.js that allows developers to install a
 publish packages to a package registry."
 LICENSE = "MIT"
 
-PV = "20.5.1"
+PV = "20.6.0"
 
-RPM_NAME = "npm20-20.5.1-2.1.aarch64.rpm"
-RPM_HASH = "d27cd2cf26b3879e9ac288636f2024ff4681774ced7bfb1484cefe117fbcaf74a757001ff5fad3dbf73bfa6d5c92dc11c5b76afe65a86b060c4e81f6cf1c8031"
+RPM_NAME = "npm20-20.6.0-2.1.aarch64.rpm"
+RPM_HASH = "6d230829902bdd1beff9219cb5df76ef622f96d61cda5e4f5225c6e53cd850cc2bed3aae4e9b1891919e351036964d933f3a133e64769703023d8432487152cf"
 
 RPROVIDES:${PN} += "bundled-node-abbrev \
 bundled-node-abort-controller \

@@ -5,10 +5,10 @@ implementation and can operate non-stop during zone addition or \
 removal."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.2.9"
+PV = "3.3.0"
 
-RPM_NAME = "knot-3.2.9-1.1.aarch64.rpm"
-RPM_HASH = "3011f59e5103f3def5458f591bace62b537c981d1af9766af0111509986597204c470837a596acbe49c1138207712c8442b318cc203110278a6fa6a83133d408"
+RPM_NAME = "knot-3.3.0-1.1.aarch64.rpm"
+RPM_HASH = "850cb47e8c2665b72bfe88853a03060909664a30e3ad5fb62c84042b5a204e09d117504241ebbed9faa9701896777df0d5b7396d92b98779dd5cef7cc6fabc02"
 
 RPROVIDES:${PN} += "config-knot \
 group-knot \
@@ -24,7 +24,7 @@ libedit.so.0 \
 libfstrm.so.0 \
 libgnutls.so.30 \
 libidn2.so.0 \
-libknot.so.13 \
+libknot.so.14 \
 liblmdb-0.9.30.so \
 libmaxminddb.so.0 \
 libprotobuf-c.so.1 \

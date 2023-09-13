@@ -7,14 +7,15 @@ because they are not available as openSUSE RPM packages: \
   * pandas-gbq \
   * pyxlsb \
   * s3fs \
+  * dataframe-api-compat \
  \
 You can install them directly through `pip3 install --user`, if needed."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.3"
+PV = "2.1.0"
 
-RPM_NAME = "python310-pandas-all-2.0.3-1.3.noarch.rpm"
-RPM_HASH = "d38ab09ad2c45b1593a8b0d32b53f39c259c5e908ccdb856dce8d5c95f337f91f94ea91edb80092b7736a21630d638e48880a21fc8386f0e1dd0e722668130d7"
+RPM_NAME = "python310-pandas-all-2.1.0-1.2.noarch.rpm"
+RPM_HASH = "26514ca8e0063dde93359bdd6c39f0700f8ca050fe08080fd9f9b204a70254254828b213017f0049db509731b0ce9f1f2f2b725fa406fa44ad6abb6936ae7abd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python310-pandas-all"
@@ -28,7 +29,6 @@ python310-SQLAlchemy \
 python310-XlsxWriter \
 python310-beautifulsoup4 \
 python310-blosc \
-python310-brotlipy \
 python310-fastparquet \
 python310-fsspec \
 python310-gcsfs \
@@ -47,7 +47,6 @@ python310-pyreadstat \
 python310-pytest \
 python310-pytest-asyncio \
 python310-pytest-xdist \
-python310-python-snappy \
 python310-scipy \
 python310-tables \
 python310-tabulate \

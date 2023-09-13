@@ -11,10 +11,10 @@ DESCRIPTION = "An alternate regex implementation. It differs from 're' in that \
   default."
 LICENSE = "Apache-2.0"
 
-PV = "2023.5.5"
+PV = "2023.8.8"
 
-RPM_NAME = "python39-regex-2023.5.5-1.2.aarch64.rpm"
-RPM_HASH = "628a0df4803bcb1b4ed9032691261effcfc8b028a0ac382d9fc62b4d09a6a7247a366ac5ffd1412df5230dc2197a2c0ce224d56f8e823a31d5bac1140730393d"
+RPM_NAME = "python39-regex-2023.8.8-1.1.aarch64.rpm"
+RPM_HASH = "369d7fe25dc50de394671ea6867932e07501193848d95818c2f4aa63a81cfec595167047d3423cf87786accf00724200d592f58ff6d431fb58a4ada5f5f81e60"
 
 RPROVIDES:${PN} += "python3.9dist-regex \
 python39-regex \

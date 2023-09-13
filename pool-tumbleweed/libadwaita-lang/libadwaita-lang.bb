@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libadwaita"
 DESCRIPTION = "Provides translations for the 'libadwaita' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.4"
+PV = "1.3.5"
 
-RPM_NAME = "libadwaita-lang-1.3.4-1.1.noarch.rpm"
-RPM_HASH = "d51cb81245d645840d5c077033ddb0481a36bafdba53df8d29d2797f059de35da2f1245d566b55ceef5b5ae94d230e369567ac70c5f96b0aa5daf3e1813c09f9"
+RPM_NAME = "libadwaita-lang-1.3.5-1.1.noarch.rpm"
+RPM_HASH = "d136ae7c3fc6c73632e1257693a661e05774d08d6e04531e7831b0b6113456f17b5392790836667b6dc17e9617b28f320d466e0a107ad077eb752c754270a472"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libadwaita-lang \

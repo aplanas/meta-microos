@@ -3,10 +3,10 @@ DESCRIPTION = "PHP files shared between grommunio-web, grommunio-sync and other 
 applications from the groupware suite."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "1.1.0.70e984f"
+PV = "1.2.0.0db2832"
 
-RPM_NAME = "mapi-header-php-1.1.0.70e984f-1.1.noarch.rpm"
-RPM_HASH = "f8371959dda212b9fe02512b452f6de40ee76d015286c9fc7b3a638437ef0f818617b0e99b9da139f917c0f0a46765a393f05be7cabf9fda68ddf4987c12d593"
+RPM_NAME = "mapi-header-php-1.2.0.0db2832-1.1.noarch.rpm"
+RPM_HASH = "fb819a247a64066646ee0378885a3e1a56cc08b38f48c324ea366986728c82d09e1a0c887148c9732342d4b7968b1bc7f41af737c49653a8f1421074b89b98a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mapi-header-php"

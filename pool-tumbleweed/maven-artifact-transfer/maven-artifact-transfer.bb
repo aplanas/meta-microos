@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.13.1"
 
-RPM_NAME = "maven-artifact-transfer-0.13.1-1.9.noarch.rpm"
-RPM_HASH = "c907652cb9d5b83d9f7f7b73003b54b5f12955291995d06f8664ebc73fd6cfdb576d126164162bc4fe103b83bc5ec71341b2e805d6d0097fc39b9a657baca495"
+RPM_NAME = "maven-artifact-transfer-0.13.1-2.1.noarch.rpm"
+RPM_HASH = "53d15aa44df82e31cbadb67209506fadda5a70339eeafc89aa721469b11dd3192844b3195756c4bc406a1802dc58ad5770841b0897ac99dae4905b79ca0ccc26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-artifact-transfer \

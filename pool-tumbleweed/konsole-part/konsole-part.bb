@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "23.08.0"
 
-RPM_NAME = "konsole-part-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "a1621cc7c82852672eb991bb9276496d440dd647b4fe01359c39ec5c37d0168fd6d11d4e6a4b22addb5919e3ead055a8bc2bd8bb33133e9fe56233cdc1127273"
+RPM_NAME = "konsole-part-23.08.0-2.1.aarch64.rpm"
+RPM_HASH = "bdace273a907a0fa50d3acf5cdf066e1d1d3d010290c5aa26d5c01770bd545fac13982db20c5c88c26a819fe2fcb15c2d82ae2793b9053d01f8a85bc2a1e26f9"
 
 RPROVIDES:${PN} += "konsole-part \
 libkonsoleprivate.so.1"

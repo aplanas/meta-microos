@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.15.2"
 
-RPM_NAME = "jackson-module-paranamer-2.15.2-1.1.noarch.rpm"
-RPM_HASH = "ace83968b384049a545ec19048b29eb932c283d76438bb1240e1df033ae89a9e8713f8049266d5a90d1e1e50ae3277febb9783c9e6766986dee0a53254a82a4d"
+RPM_NAME = "jackson-module-paranamer-2.15.2-2.1.noarch.rpm"
+RPM_HASH = "6c7a54540392e84fbd02791ec29febbd9394033314d09c0d1caf6b190591b1c104a0f55e7f86646634826d969af156ca8a6a7769060601fb0c870a7048a2423a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-module-paranamer \

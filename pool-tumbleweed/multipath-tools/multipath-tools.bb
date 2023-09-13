@@ -7,10 +7,10 @@ the necessary changes to the multipath maps to ensure continuous \
 availability of the map devices."
 LICENSE = "GPL-2.0-only & GPL-3.0-or-later"
 
-PV = "0.9.5+68+suse.d1b6a1c"
+PV = "0.9.6+71+suse.f07325e"
 
-RPM_NAME = "multipath-tools-0.9.5+68+suse.d1b6a1c-1.2.aarch64.rpm"
-RPM_HASH = "d6e432fbb22dda839a8e84231be0a5d3f7d7334cbc682d8347c5a7cc72424bc41d49987f22421848f393aa8a5ebaf3aa698fab03c5fdb072ff75400dabe2850e"
+RPM_NAME = "multipath-tools-0.9.6+71+suse.f07325e-1.1.aarch64.rpm"
+RPM_HASH = "28c1b2bcd31761f003e3b41fda7a0a02ac8a7a26e827a2c9f26a7e0e7a3df06fd9bbef7a68aa1c8aeff504c5f68b9bbcc59b7c6eb3a30544d469e8bc3a10f9d3"
 
 RPROVIDES:${PN} += "multipath-tools"
 

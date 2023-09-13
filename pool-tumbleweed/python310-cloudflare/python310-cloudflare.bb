@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.11.7"
 
-RPM_NAME = "python310-cloudflare-2.11.7-1.1.noarch.rpm"
-RPM_HASH = "251cd033dcaa6f1491af54f6c45f0ef4af490a397ba74febb2e77afdce2930741e3ec6bb18c2b69d93fa55abb9afac1e5c8e60ad2d00be1e0433d00c389aa20c"
+RPM_NAME = "python310-cloudflare-2.11.7-2.1.noarch.rpm"
+RPM_HASH = "4ce0e9cb644b42b0d744b10fd0d2b2363f3d2ad877a04a1a622903daaf9c2ee2f08174e4ba6bff0c9b8942a8835a81476a88b2d3156aa0bd3b12c500d6df9c60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-cloudflare \
@@ -17,7 +17,6 @@ RDEPENDS:${PN} += "/usr/bin/python3.10 \
 python-abi \
 python310-PyYAML \
 python310-beautifulsoup4 \
-python310-future \
 python310-jsonlines \
 python310-requests \
 update-alternatives"

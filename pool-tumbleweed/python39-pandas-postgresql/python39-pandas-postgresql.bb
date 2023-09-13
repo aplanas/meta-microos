@@ -2,10 +2,10 @@ SUMMARY = "The python pandas[postgresql] extra"
 DESCRIPTION = "This package provides the [postgresql] extra for python-pandas"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.3"
+PV = "2.1.0"
 
-RPM_NAME = "python39-pandas-postgresql-2.0.3-1.3.noarch.rpm"
-RPM_HASH = "236039bb2089c4a68e067b7df28ba689d33a575154a1a935c48ef4487dd322891948f36ad56df5a8fa8db685d7891521a62913c846d90eda8982c75bfa082de6"
+RPM_NAME = "python39-pandas-postgresql-2.1.0-1.2.noarch.rpm"
+RPM_HASH = "4ac8c36b6228fac707eeb75ed55b6ae5c0c7a713985dd4bb13ca67c9797ab7b084a4f37e078ead8878cdafaf4ebe18f840222d881255f31a835d36d94318361f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pandas-postgresql"

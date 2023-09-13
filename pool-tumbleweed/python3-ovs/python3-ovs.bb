@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.0"
 
-RPM_NAME = "python3-ovs-3.1.0-14.3.aarch64.rpm"
-RPM_HASH = "288da13377465835e4a1ca05c8cdd408645aa92301f7169e767cf804db4aeada0c473377a6d2472f6e2b5e215b519287a7570a558faea5212dc6e7c02ada458c"
+RPM_NAME = "python3-ovs-3.1.0-15.1.aarch64.rpm"
+RPM_HASH = "bb13ae76e72a677e729963fe7a3048b049edcaccfe99846c419be523f656c3753098bb800f84078a92427fa82bebe51311d0e16c56ef38926b41e82b210084df"
 
 RPROVIDES:${PN} += "python3-openvswitch \
 python3-ovs \

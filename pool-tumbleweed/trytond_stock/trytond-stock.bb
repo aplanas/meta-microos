@@ -5,10 +5,10 @@ locations, shipments for product arrivals and departures and \
 inventory to control and update stock levels."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.0.20"
+PV = "6.0.21"
 
-RPM_NAME = "trytond_stock-6.0.20-1.1.noarch.rpm"
-RPM_HASH = "22c31697dca4dbe32dc3f8f1c4be813afc86d8270cc2e13996fb4580e635a30a6c0e537316c77731a876eb12cb2760e6905d1905a11bd0477bcce4ff0a5415cf"
+RPM_NAME = "trytond_stock-6.0.21-1.1.noarch.rpm"
+RPM_HASH = "0c8604d4121b33b223311eb526fb2d111986c12c436a94776bcaf641cd3df3e4db18fef955c85fa9f065b1c85f4128fed254f973224d9267ad9a6c439b71e5ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist-trytond-stock \

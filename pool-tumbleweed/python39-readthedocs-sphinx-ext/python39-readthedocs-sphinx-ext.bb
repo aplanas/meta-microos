@@ -4,10 +4,10 @@ Some of them require Read the Docs features, \
 others are just code that we ship and enable during builds on Read the Docs."
 LICENSE = "MIT"
 
-PV = "2.2.0"
+PV = "2.2.2"
 
-RPM_NAME = "python39-readthedocs-sphinx-ext-2.2.0-2.3.noarch.rpm"
-RPM_HASH = "ec746aa126585e32f917d9fc4917d3a1a0f53c4b276a3c77020f3b797e7bca4fd8281ab0e96361d8e05ddeff4d392ac671ee43f5d4e5ad9a2ce4451fe43d41fa"
+RPM_NAME = "python39-readthedocs-sphinx-ext-2.2.2-1.1.noarch.rpm"
+RPM_HASH = "9e15dadd96fe2c9d8c11f5019b65854c14b818aaef4b8ece1f94fea881dbec0d2ac469ee498f3bd98091d8f82d16ca97ac2ff5106ff35f2977b543a1537a8941"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-readthedocs-sphinx-ext \

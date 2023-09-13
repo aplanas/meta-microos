@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "4.3.1"
 
-RPM_NAME = "syslog-ng-mqtt-4.3.1-1.2.aarch64.rpm"
-RPM_HASH = "7e79b95c43877433c8884a05c66dc1dbf3500d4184856f212c020f1310f3767d2e3ce9e34ad37089f76184fc09e3216ebfb09514e333b55bc68e9982bee08d39"
+RPM_NAME = "syslog-ng-mqtt-4.3.1-1.3.aarch64.rpm"
+RPM_HASH = "492433132aebac31b6e6dd26d43f73a1428d9c8dd88a1a7759f0a64f7fa00624ad2ce3664530b3f2cddc088836d1d5dbd9e7ef795bf6229471690b2b122f3614"
 
 RPROVIDES:${PN} += "syslog-ng-mqtt"
 

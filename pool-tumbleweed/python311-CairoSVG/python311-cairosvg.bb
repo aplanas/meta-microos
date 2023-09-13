@@ -5,10 +5,10 @@ PostScript and PNG files. \
 For further information, please visit the CairoSVG website, http://www.cairosvg.org."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "2.7.0"
+PV = "2.7.1"
 
-RPM_NAME = "python311-CairoSVG-2.7.0-1.2.noarch.rpm"
-RPM_HASH = "c03217668d9d4666c69449d1f551005732d27d11238576393b84c3d4aa18c37d3c047dd094dde03c57269b74a2c0a9333de92a7bbf394a105bfca20942f18e61"
+RPM_NAME = "python311-CairoSVG-2.7.1-1.1.noarch.rpm"
+RPM_HASH = "cc0365432a0d965a549133d5499951a84effdf7545bcd186575ea96d50cc8cac9a280fcdc0d29d522dd0db00f728bf75e4d39cc8ef0aa297161f7996ec3ce1e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-CairoSVG \

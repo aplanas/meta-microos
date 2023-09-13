@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.0"
 
-RPM_NAME = "openvswitch-pki-3.1.0-14.3.aarch64.rpm"
-RPM_HASH = "24490038ee9be2b892db3eae5280b83e1a0e2e33798560ae60768c7ec3d8062bde1a0ad22b09ef0d9a7fe00d007dab586c0418b77fcd85632526542fd054d587"
+RPM_NAME = "openvswitch-pki-3.1.0-15.1.aarch64.rpm"
+RPM_HASH = "afe1e185900ab8fef52bab19a80501ec5c8ff77289762e0572604e939c7bc4ca9eb29eb86b7485c83ced0ad3ddbe4b070bdc7c9a2baaa4218703ab07033885e2"
 
 RPROVIDES:${PN} += "openvswitch-dpdk-pki \
 openvswitch-pki"

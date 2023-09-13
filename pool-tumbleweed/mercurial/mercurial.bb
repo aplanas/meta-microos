@@ -3,10 +3,10 @@ DESCRIPTION = "Mercurial is a fast, lightweight source control management system
 designed for efficient handling of very large distributed projects."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.5.1"
+PV = "6.5.2"
 
-RPM_NAME = "mercurial-6.5.1-1.1.aarch64.rpm"
-RPM_HASH = "fbd0db7e1db776f3b0976262e5f380902556c1805fc91aa432168ffa966daa90d36a6c85a12065e780593d66f8be32065c554efb98c107fded8f0fd57264cc65"
+RPM_NAME = "mercurial-6.5.2-1.1.aarch64.rpm"
+RPM_HASH = "7b38d7ccf9f8d60e80c720cf2398d362060c65f7abb5c64c419e6871b4f388728faf8a5614202d56fc592cf4fa3670a226d5f97d3afbf13ee569cdf6eeb74b50"
 
 RPROVIDES:${PN} += "config-mercurial \
 hg \

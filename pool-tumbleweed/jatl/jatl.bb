@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.2.2"
 
-RPM_NAME = "jatl-0.2.2-3.11.noarch.rpm"
-RPM_HASH = "bba3c55a9143a29577c2ab2f09018ea8c65784de73c5c7ffb627b1c5d00a7848217b02287c4a716648f2bdac963c651b58125de74a052cd5dc9ff39eec3fc9b9"
+RPM_NAME = "jatl-0.2.2-4.1.noarch.rpm"
+RPM_HASH = "64b634d37d0662aab04c5e22628adcce44fb34fcff68347dca176508c3e4e10b0125a12305fd10ac2ca56ce73154d915399d40aac801c0c060614e51f4fd99ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jatl \

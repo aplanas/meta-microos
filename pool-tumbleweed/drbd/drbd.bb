@@ -4,10 +4,10 @@ device over the network to another machine. Think of it as networked \
 raid 1. It is a building block for setting up clusters."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "9.0.30~1+git.8e9c0812"
+PV = "9.1.16"
 
-RPM_NAME = "drbd-9.0.30~1+git.8e9c0812-8.24.aarch64.rpm"
-RPM_HASH = "a9d2c36ba82872e818041e6a547dc7c79a31a18cf0a6e3e946bf75a943fda57ca085d509e18dc6c4276f78ba397a8874ae67682af01a6d09ec686712eb2a9b63"
+RPM_NAME = "drbd-9.1.16-1.1.aarch64.rpm"
+RPM_HASH = "76550889ba5a163c51a9d59a3cbe87de0ef880d6fd6fd7c19887672692fcf0c0dfe3b57391d62bcb04cf50af8c80dc71558c7f1dc4189e4a1202abdd9c7fcdab"
 
 RPROVIDES:${PN} += "drbd"
 

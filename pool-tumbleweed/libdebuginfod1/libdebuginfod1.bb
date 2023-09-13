@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
 PV = "0.189"
 
-RPM_NAME = "libdebuginfod1-0.189-4.1.aarch64.rpm"
-RPM_HASH = "3562ce188245773c71f7636059ff38117b7c410005966bc8757abfa667a47435f6ab17f5805ad98e9988c0007aa685313065d2d75bbe7db10905c08bfcb7b7f9"
+RPM_NAME = "libdebuginfod1-0.189-5.1.aarch64.rpm"
+RPM_HASH = "0e5176a7a59b26ac1edc41e2ae26da87254769014bf38fdfc08221603cbf3bac9e56cf04ccbc012d63d7ffb134f89c033fb17381e0bfcdd7736da61c2112d1be"
 
 RPROVIDES:${PN} += "libdebuginfod.so.1 \
 libdebuginfod1"

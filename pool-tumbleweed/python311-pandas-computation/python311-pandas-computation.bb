@@ -2,10 +2,10 @@ SUMMARY = "The python pandas[computation] extra"
 DESCRIPTION = "This package provides the [computation] extra for python-pandas"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.3"
+PV = "2.1.0"
 
-RPM_NAME = "python311-pandas-computation-2.0.3-1.3.noarch.rpm"
-RPM_HASH = "7482a165bf4a9e44f4734c3cf17e8e8d429c182ae416e47cf3f2c3f88b5e743be58dca198005fcb7bf87d954094b6ddad0dff30a918e844c719bcefd0071e50c"
+RPM_NAME = "python311-pandas-computation-2.1.0-1.2.noarch.rpm"
+RPM_HASH = "71e144611ed846f0e472ebfea7d751b1fee0868b677db843f7bdc1cb3ebc3ffa1c721d3937b92712dd45910d3fac5b5590be9e97b0ccf637189aded9f2847334"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pandas-computation \

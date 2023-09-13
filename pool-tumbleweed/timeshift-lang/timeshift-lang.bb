@@ -2,10 +2,10 @@ SUMMARY = "Translations for package timeshift"
 DESCRIPTION = "Provides translations for the 'timeshift' package."
 LICENSE = "GPL-3.0-only"
 
-PV = "22.11.2"
+PV = "23.07.1"
 
-RPM_NAME = "timeshift-lang-22.11.2-1.4.noarch.rpm"
-RPM_HASH = "2962fda17abbf7ee60a4b2d0d58f0f94ca1ed03188b2fc8eecc084e857e7c7befdd4e8057a648d377629d1c9ac73917a297391dc9a12e09879cbff0a5032221e"
+RPM_NAME = "timeshift-lang-23.07.1-1.1.noarch.rpm"
+RPM_HASH = "fa44b6da4724fe2707b4243f4e5c88bbe5ebb021cc1b118e555fa330dc527796ba3ada94cf9a694be68d784c62ba7da80e34ef2be6df68bc3027f5bf0301bad3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-timeshift-ar \
@@ -22,6 +22,7 @@ locale-timeshift-et \
 locale-timeshift-eu \
 locale-timeshift-fi \
 locale-timeshift-fr \
+locale-timeshift-fr-CA \
 locale-timeshift-he \
 locale-timeshift-hi \
 locale-timeshift-hr \
@@ -31,6 +32,7 @@ locale-timeshift-id \
 locale-timeshift-is \
 locale-timeshift-it \
 locale-timeshift-ja \
+locale-timeshift-ka \
 locale-timeshift-ko \
 locale-timeshift-lt \
 locale-timeshift-nb \

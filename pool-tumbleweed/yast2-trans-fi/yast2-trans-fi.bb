@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Finnish Translations"
 DESCRIPTION = "YaST2 - Finnish translations."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230818.ea489402e5"
+PV = "84.87.20230901.be24cb382f"
 
-RPM_NAME = "yast2-trans-fi-84.87.20230818.ea489402e5-1.1.noarch.rpm"
-RPM_HASH = "e8cb161173e7e0d1734e92d05b51800ea5520569712cc238858387e6cecb20c5be87db6960436bf8e46f9773b0e46abe75a0f93a2078784bbefd6a0d17764311"
+RPM_NAME = "yast2-trans-fi-84.87.20230901.be24cb382f-1.1.noarch.rpm"
+RPM_HASH = "b7be35167d1fd402b21fc9109af8fd33666bf7ab3505dd7125ef19b2a06c9be0e665a6c6e8e366417d9defe4b299d229b6a6c34ee15437071ec82ca55cc5de4a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-fi \

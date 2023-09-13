@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.8.6"
 
-RPM_NAME = "crun-1.8.6-1.1.aarch64.rpm"
-RPM_HASH = "5f18a371d2a6cc74e320b4941ee81b3ae2035af25055de8d219cd65daf8fb4afccadadcb9f77e6ff485f33db1689c56efa8ead66fc5a0bc46e6285113f125a2d"
+RPM_NAME = "crun-1.8.6-2.1.aarch64.rpm"
+RPM_HASH = "81dbae1f66fdeee9eeb85516b30208a92e866dfe36fa46c72b88d5ab1ade6f687b967b6222e522b8b85497e7f847015e299b262677edc6f05761f7da9ec74dba"
 
 RPROVIDES:${PN} += "crun"
 

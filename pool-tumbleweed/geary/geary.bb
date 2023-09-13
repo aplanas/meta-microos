@@ -5,16 +5,16 @@ Its interface is based on conversations, so entire discussion \
 may be read without having to navigate between messages."
 LICENSE = "BSD-2-Clause & CC-BY-3.0 & LGPL-2.1-or-later"
 
-PV = "44.0"
+PV = "44.1"
 
-RPM_NAME = "geary-44.0-1.1.aarch64.rpm"
-RPM_HASH = "e67751d195ce7a70f195712741078993ca5604f6bb948a9260d7e5dee7f58687a4f3aedef5d35522c1cbdb0e556fdd3b6783d49bbebca0e668aecea1074dc170"
+RPM_NAME = "geary-44.1-1.1.aarch64.rpm"
+RPM_HASH = "a3a18fa3dd1b568ec835ac5d5a5572fc0002a2d520761f3c08a8bdcc5d69048624ca991cbb8ff7c3d8fa55a1a84c4accaa4e44d6fb8c15139e31736cb4c21447"
 
 RPROVIDES:${PN} += "geary \
 libdesktop-notifications.so \
 libemail-templates.so \
 libfolder-highlight.so \
-libgeary-client-44.0.so \
+libgeary-client-44.1.so \
 libgeary-web-process.so \
 libmail-merge.so \
 libnotification-badge.so \

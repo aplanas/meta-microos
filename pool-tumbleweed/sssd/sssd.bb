@@ -6,10 +6,10 @@ account sources. It is also the basis to provide client auditing and policy \
 services for projects like FreeIPA."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "2.9.1"
+PV = "2.9.2"
 
-RPM_NAME = "sssd-2.9.1-1.1.aarch64.rpm"
-RPM_HASH = "67158f7c6159c6583feedb13a928b693eedace6b83ab8d61103309ee2e5ebf940622586c059c8fa640124ac802c20377c1af4dcb573a356d7e3b3634e66342f8"
+RPM_NAME = "sssd-2.9.2-1.1.aarch64.rpm"
+RPM_HASH = "669fd754ada0e91a2eafe913adfd6ca2952bc0d749e828b391a8d827b426a6f394bec17b90d91679700f868298258a35ef91f4d9bffa6de48134367f8310ede3"
 
 RPROVIDES:${PN} += "config-sssd \
 libifp-iface-sync.so \

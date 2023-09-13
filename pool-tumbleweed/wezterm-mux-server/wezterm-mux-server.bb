@@ -4,8 +4,8 @@ LICENSE = "(Apache-2.0 | MIT) & BSD-3-Clause & (0BSD | MIT | Apache-2.0) & (Apac
 
 PV = "20230712.072601.f4abf8fd"
 
-RPM_NAME = "wezterm-mux-server-20230712.072601.f4abf8fd-3.1.aarch64.rpm"
-RPM_HASH = "d579061302a5e933d59623b9a0516fe83eb33fe8d005c97e9c383b8b4a6b9b2570e870b7418af2c892380d65513bf5fa00dde11f5b84519544a0a1cab327ddd4"
+RPM_NAME = "wezterm-mux-server-20230712.072601.f4abf8fd-4.1.aarch64.rpm"
+RPM_HASH = "4403fbfdd92e466d454b6a2c9578025fa89f213cb6a6f7bd7188edb86533796fc407e06955b76997c879c9a9754096a82858ca7c10730904c656ee6c3e7ca232"
 
 RPROVIDES:${PN} += "bundled-rust-crate-addr2line \
 bundled-rust-crate-adler \

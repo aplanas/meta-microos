@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.4"
 
-RPM_NAME = "jboss-logmanager-2.0.4-1.21.noarch.rpm"
-RPM_HASH = "dfa63bbf4e03a802dd466f46f800d499fe6189d37d3a0c7cb0d2bd053f7a56e902d34ef3e125a140606bd2b8c82ea2f266fe2de06c647bf17497063e4cf856c3"
+RPM_NAME = "jboss-logmanager-2.0.4-2.1.noarch.rpm"
+RPM_HASH = "29a490b0ec5eb7836340fee6c48c80b63852d24771b06dab78b5f72b086fb114318a4b3c28d0a8fef97a5c44be2eb8060175740e10b96bda71c5487f2c14de3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-logmanager \

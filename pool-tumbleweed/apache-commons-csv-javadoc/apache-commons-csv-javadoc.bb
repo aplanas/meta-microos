@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.10.0"
 
-RPM_NAME = "apache-commons-csv-javadoc-1.10.0-1.2.noarch.rpm"
-RPM_HASH = "a3a0fa9bb08725c7022fcf8154f312088952eed2766f6db13e081e9900f6e30be91aba9bd69f096ca1f52441862a1338ac7561b9a6ba7b1149b85d805e8d4f48"
+RPM_NAME = "apache-commons-csv-javadoc-1.10.0-2.1.noarch.rpm"
+RPM_HASH = "9ec9b865e6c15832ef2ef4841a4c066051990981ef964805df32d4d031d9e1aae4ba25894a400a2c2677f5aebe6fae6d255e5da3472080cea018a29f7cf80ac2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-csv-javadoc"

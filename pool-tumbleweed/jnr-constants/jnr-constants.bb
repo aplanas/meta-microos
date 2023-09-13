@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.10.4"
 
-RPM_NAME = "jnr-constants-0.10.4-1.2.noarch.rpm"
-RPM_HASH = "ca0dc1edfe596e7ddfc25f4f976380efb4bbb7fae4699257188129a7a8c35146a7c142a2e2f4558dc230c6c664718dbc0bd35eb96f6e4c920bfb93255e70b6fa"
+RPM_NAME = "jnr-constants-0.10.4-2.1.noarch.rpm"
+RPM_HASH = "e23934eb7da26cfe261215e39a064b424638dc97b7b48186fd51706bf49d1ee7749592b7feeba3943f412cd72e26bd5d09f7961ebf3bf889ebb9e1c203296808"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jnr-constants \

@@ -6,10 +6,10 @@ Authors: \
     Bernhard M. Wiedemann <bernhard+aptitude4zypp lsmod de>"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.14.62"
+PV = "1.14.64"
 
-RPM_NAME = "zypper-aptitude-1.14.62-1.1.noarch.rpm"
-RPM_HASH = "06848fac1003339c8045df29946cfaeaa0ba6afa85a8de53a011c0194260c2106fc3578f110e35d97d29bd5d3e9a7268ad9b0e7eaaf6a0ec49e2c97488e24437"
+RPM_NAME = "zypper-aptitude-1.14.64-1.1.noarch.rpm"
+RPM_HASH = "acc05f939bb791ec31db766a40720aeb93d7cd45f9185aa399e865058ae9fcd11f482b7a494840e8363ebf34a2ae85d517ef64f3611ac892c978c52e25103e38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-zypper-aptitude \

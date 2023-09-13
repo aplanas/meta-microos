@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-or-later"
 
 PV = "4.9.3"
 
-RPM_NAME = "python310-lxml-devel-4.9.3-1.1.aarch64.rpm"
-RPM_HASH = "7ff6ddb9629748fe54822ed663e80704a4ae32631d7d0655b4fe88f4719ba1741f443a021b3694e3f1f614156d88d4d10780a04db79a7e0ca40fdba3fb1862bd"
+RPM_NAME = "python310-lxml-devel-4.9.3-2.1.aarch64.rpm"
+RPM_HASH = "bf8f7e2770670f55194cdfdb9b754658e05126b71481f680ef0e4f48aecf171f190b0337ccd3d8b8b654e39fed71c71f5eaa0eeb2c404e2aa2cb3931341b147d"
 
 RPROVIDES:${PN} += "python310-lxml-devel"
 

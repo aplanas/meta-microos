@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "47.0"
 
-RPM_NAME = "libibumad3-47.0-2.2.aarch64.rpm"
-RPM_HASH = "e4f45199b4edfaac304f288da11d151002d4756e0cc98b85daa272e374c015c9610b3e32d5719de5682cbbe152a5511adc0d9793ce979531fb0bc2d19cdce80f"
+RPM_NAME = "libibumad3-47.0-3.1.aarch64.rpm"
+RPM_HASH = "46d03e92c8d2ee4b7046af6b9d227411f268f5878296c717c176421d28ba5ded3000e359dc6ad8f1137b4df53dce1c8bab1fcace4381f493c31c32497e8be677"
 
 RPROVIDES:${PN} += "libibumad.so.3 \
 libibumad3"

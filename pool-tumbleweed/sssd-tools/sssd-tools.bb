@@ -3,10 +3,10 @@ DESCRIPTION = "The packages contains commandline tools for managing users and gr
 the 'local' id provider of the System Security Services Daemon (sssd)."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "2.9.1"
+PV = "2.9.2"
 
-RPM_NAME = "sssd-tools-2.9.1-1.1.aarch64.rpm"
-RPM_HASH = "eecded6fe3fedaf148537a2210221289eb6032993a031073e50ea2df04d6c69dfcaf07ca1b388460ff1e74cb708cdc1b216dc74ed54d73768d0551b8c3d18666"
+RPM_NAME = "sssd-tools-2.9.2-1.1.aarch64.rpm"
+RPM_HASH = "5f1b44b95333a36cff436ff0896552dd958b850be84880abe54ce2e75d2fc4c159d4e783316e01135b7fa6509b95f84dad5f741d9a51bd678d588482a5c8d60b"
 
 RPROVIDES:${PN} += "sssd-tools"
 

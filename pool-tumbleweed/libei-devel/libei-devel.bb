@@ -2,10 +2,10 @@ SUMMARY = "Header files for libei, a library for emulated input under Wayland"
 DESCRIPTION = "libei is a library for Emulated Input, targeting the Wayland stack."
 LICENSE = "MIT"
 
-PV = "1.0.0"
+PV = "1.1.0"
 
-RPM_NAME = "libei-devel-1.0.0-1.1.aarch64.rpm"
-RPM_HASH = "2bb6f6b66237cdcb4254acd941b5af590bb84446c7ce334fff87b6cf6dba0387bc92894474d218cbb14f23c8db43eed39a8fe3b14b5b9b517415db2b71778007"
+RPM_NAME = "libei-devel-1.1.0-1.1.aarch64.rpm"
+RPM_HASH = "b29b505610082c78f75f0194c441f43e5347ab0f075a4485289582201c07f3ce0d9b9b825987f508432b6dd3c2e128c3510249a3d6a7a858eb869b10be913871"
 
 RPROVIDES:${PN} += "libei-devel \
 pkgconfig-libei-1.0 \

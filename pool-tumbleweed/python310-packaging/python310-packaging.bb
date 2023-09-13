@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0 & BSD-2-Clause"
 
 PV = "23.1"
 
-RPM_NAME = "python310-packaging-23.1-2.4.noarch.rpm"
-RPM_HASH = "14e38f43b355ffc1416122adf34b584b7280383b75dfcca062b8b65de3e4d1e955b63804372139bcdd56660ffdaef541922a1dfc6a00f334abe276227be2406d"
+RPM_NAME = "python310-packaging-23.1-3.1.noarch.rpm"
+RPM_HASH = "d33ab3690880dc54ef87c46011eacd23b7b4ddf78db30f1ba0e2e5f680e0d2310cf954924f18a8946bacc961c920ba82c8bc15d5033e674da61b9287c45b3d18"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-packaging \

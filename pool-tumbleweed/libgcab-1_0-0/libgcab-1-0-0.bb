@@ -7,10 +7,10 @@ It supports creation of archives with simple MSZIP compression. \
 This package provides a system library to access cab files"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.5"
+PV = "1.6"
 
-RPM_NAME = "libgcab-1_0-0-1.5-1.6.aarch64.rpm"
-RPM_HASH = "2e70998f9c8502ba7b0744f52aa7c133b091d946bc4d9b1b8c9736e2f8e34a47ceb18f71ebf3f6eb974daa68b0f4383395afbe4bb708520cab0200e18babdd3b"
+RPM_NAME = "libgcab-1_0-0-1.6-1.1.aarch64.rpm"
+RPM_HASH = "ebece7add3908ad7507d020d7f39db28153db50a257a013571d32f7c620c1e33d9e12e720a536137c2044b387b863ad81a43af500e627820b7a2204657306343"
 
 RPROVIDES:${PN} += "libgcab-1-0-0 \
 libgcab-1.0.so.0"

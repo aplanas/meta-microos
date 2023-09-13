@@ -13,10 +13,10 @@ with testrepository. At a high level the basic concepts of operation are shared 
 between the two projects but the actual usage is not exactly the same."
 LICENSE = "Apache-2.0"
 
-PV = "3.2.1"
+PV = "4.0.1"
 
-RPM_NAME = "python311-stestr-3.2.1-2.4.noarch.rpm"
-RPM_HASH = "ec96a5487ffc820eceb7214b4b0363fac76dd6026b0756d7fcf07e48260ab0e6ef9d2d82a165259d0495c3f3776c3a4245c581e015e25724b9f1d4ff0bdd54cc"
+RPM_NAME = "python311-stestr-4.0.1-1.1.noarch.rpm"
+RPM_HASH = "c479f1a98511568f1bb9e1ab90465d1f8dcbf571e5c5877d290ce92e487a0a67d81b29a63896c18e1a15daf0c11f5c11cfa304c0cdaaf8f8a595321ebd575ce1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-stestr \
@@ -30,7 +30,6 @@ python3-cliff \
 python311-PyYAML \
 python311-dbm \
 python311-fixtures \
-python311-future \
 python311-pbr \
 python311-python-subunit \
 python311-testtools \

@@ -12,10 +12,10 @@ Our vision is that all cloud native applications should be easy for developers, 
 We use GitOps tools throughout. Today Weave GitOps defaults are Flux, Kustomize, Helm, Sops and Kubernetes CAPI. If you use Flux already then you can easily add Weave GitOps to create a platform management overlay."
 LICENSE = "MPL-2.0"
 
-PV = "0.29.0"
+PV = "0.31.2"
 
-RPM_NAME = "weave-gitops-0.29.0-1.1.aarch64.rpm"
-RPM_HASH = "10944775966a9f404c701fc2dc1667d1bf9a03e950056301e57dc181ac5ea19c777e4997f2c7b4705a745c43cb63090e2a2acfd588ca4a78bf8c8227fd1aeb49"
+RPM_NAME = "weave-gitops-0.31.2-1.1.aarch64.rpm"
+RPM_HASH = "52fbd2ada170a9b5ff44435f1fd6e5a147845b32e2f3e821b096a0fde4ac5ee973500e3e146efad57bcdff5283c48bf2822df6e8e514032faca633401b63cc0b"
 
 RPROVIDES:${PN} += "weave-gitops"
 

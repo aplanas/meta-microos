@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.7"
 
-RPM_NAME = "python311-uncertainties-3.1.7-1.6.noarch.rpm"
-RPM_HASH = "719805ed8908d759216a169d8f410d1d97ba68f541efbef0cf01030992b7974261b9729fdf7e816a17579039913877218071559f551aea700f11357ebd9d5cb1"
+RPM_NAME = "python311-uncertainties-3.1.7-2.1.noarch.rpm"
+RPM_HASH = "973dcb6d86b380f154c2cd54a9f5e11d97f90d4e122d6e3a70ffcb588535a3177ec6b4b2858251b5805a0d1f5ce6915d00d0e6d6aba9cdd6009dae66d354c012"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-uncertainties \
@@ -15,7 +15,6 @@ python3.11dist-uncertainties \
 python311-uncertainties \
 python3dist-uncertainties"
 
-RDEPENDS:${PN} += "python-abi \
-python311-future"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

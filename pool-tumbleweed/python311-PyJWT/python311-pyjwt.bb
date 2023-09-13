@@ -2,10 +2,10 @@ SUMMARY = "JSON Web Token implementation in Python"
 DESCRIPTION = "A Python implementation of JSON Web Token draft 01."
 LICENSE = "MIT"
 
-PV = "2.7.0"
+PV = "2.8.0"
 
-RPM_NAME = "python311-PyJWT-2.7.0-1.3.noarch.rpm"
-RPM_HASH = "3d706359faa01e60395ada39f184800f6bcc104ea4eff47e6dd4b1056b06cd4dc79649d22efb57b078968f00828bc8f852ca49ed644fea378f093664be707406"
+RPM_NAME = "python311-PyJWT-2.8.0-1.1.noarch.rpm"
+RPM_HASH = "e9a4742b3a6141f2ccf5cd96933ef3eea5495100fa82950018d8345d36802c22b92b049b69e3699de88801021b2fec3b498abd34281173b6989672d3ab667394"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyJWT \

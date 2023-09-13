@@ -13,10 +13,10 @@ or by running \
 gphoto2 --list-cameras"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.5.30"
+PV = "2.5.31"
 
-RPM_NAME = "libgphoto2-6-2.5.30-3.1.aarch64.rpm"
-RPM_HASH = "1cd436e2ef9291bdc747daa2096b3eab8ff5bf5f70ee4f0b17da4f6d5c44d4dc2139f387c8852d89308d39c7a1e37f99e1795e9dd5287593c9664310c1f85873"
+RPM_NAME = "libgphoto2-6-2.5.31-1.1.aarch64.rpm"
+RPM_HASH = "54855c8412a47115e1180960879e0416b85278de991b8d7e4fa89b1f01b1b8b6fd235394299d03d23bb826219dec0f3e5b9a3fd6781cfa30f813784a7b02e277"
 
 RPROVIDES:${PN} += "libgphoto2-6 \
 libgphoto2.so.6"

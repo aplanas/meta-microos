@@ -3,10 +3,10 @@ DESCRIPTION = "Zero-runtime-dependency package acting as bridge between Node pro
 and their package managers."
 LICENSE = "MIT"
 
-PV = "20.5.1"
+PV = "20.6.0"
 
-RPM_NAME = "corepack20-20.5.1-2.1.aarch64.rpm"
-RPM_HASH = "52990ec66aff940eb74e877380b45fc8780be0ef727f494029129317966836c0d98ecbd6dfb0d73a8d519c08cbe705595cbf3fbc917f8bdfaebbf989da04abdf"
+RPM_NAME = "corepack20-20.6.0-2.1.aarch64.rpm"
+RPM_HASH = "b0f9f286ba106e2875cef97963ee933a96479b8b249d226b0d89315ec92cb4cfff372a790162125c9fcbcda4fff5c18bfce53b5353b1e3812b65e18faea93d0d"
 
 RPROVIDES:${PN} += "corepack20"
 

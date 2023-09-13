@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.2"
 
-RPM_NAME = "python39-Jinja2-3.1.2-3.3.aarch64.rpm"
-RPM_HASH = "0c28bd2eec0bf619e22131e453443c7d3fcb540937814fd8c078b925a16debeade66978fc5c2f05a8b0a73e7cfa5ca81112a617157d689a39e7c127285230457"
+RPM_NAME = "python39-Jinja2-3.1.2-4.1.aarch64.rpm"
+RPM_HASH = "cd5c162a81bd20a0872e927a79c01a2d927e0e018a2ac9a0890a3a413ca849add4c8e989df2daf738a8b38287c7a471b493b55c1584b6f6e1803885d57798c88"
 
 RPROVIDES:${PN} += "python3.9dist-jinja2 \
 python39-Jinja2 \

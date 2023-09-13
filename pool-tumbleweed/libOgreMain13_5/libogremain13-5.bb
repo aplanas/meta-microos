@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "13.5.3"
 
-RPM_NAME = "libOgreMain13_5-13.5.3-2.2.aarch64.rpm"
-RPM_HASH = "e1c26f558b1a545532f589095d1b3a842bf81fbf0f13e9cee1a33ba4ed5049771e1f7cb670c3c9fda632df86af566db74f99df3613e023903b721c3c868c58a0"
+RPM_NAME = "libOgreMain13_5-13.5.3-2.3.aarch64.rpm"
+RPM_HASH = "ab159bd5ef96fd1a9c863a7136aaa462b0303256be0305baff8b12ba94e74c8b93c78b8ce35bb44430feb5decaab5da298266104f7de17f43fc9dfeba9a844b2"
 
 RPROVIDES:${PN} += "libOgreMain.so.13.5 \
 libOgreMain13-5"

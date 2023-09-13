@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "23.4"
 
-RPM_NAME = "protobuf-java-23.4-6.1.aarch64.rpm"
-RPM_HASH = "94ab6ffb9b3431d691fb7655932fa15b5279e07f09557e27503d8d5f2f2af55a346be547bcbf7afc56f01af04a87b7307dec35e6b6d6bb94952a186446a7d53f"
+RPM_NAME = "protobuf-java-23.4-6.2.aarch64.rpm"
+RPM_HASH = "c11b9c6cc18d247b248723badcb11af8f115c1068502ff5746f40ed66e27dd3fb6985159e83a5080c1b2c965ce25cdae63d62afe7004057bff5de65f032283df"
 
 RPROVIDES:${PN} += "mvn-com.google.protobuf-protobuf-bom-pom- \
 mvn-com.google.protobuf-protobuf-java \

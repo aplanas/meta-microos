@@ -7,8 +7,8 @@ LICENSE = "MIT & PHP-3.01"
 
 PV = "8.2.10"
 
-RPM_NAME = "php8-tokenizer-8.2.10-1.1.aarch64.rpm"
-RPM_HASH = "07f7713918578eba3cea1c9ce8118b11d45e026018538c1e121f71c0a2cc743e84530bfface450a77cfb36b85d173ea3c8485aa1c641a0b9dcfb4dc7560a726d"
+RPM_NAME = "php8-tokenizer-8.2.10-2.1.aarch64.rpm"
+RPM_HASH = "0a16773db4b3219bc67a532802c5397da68de38d58704020d9d7b60fce5f5918b37c7014935631e843f0121ff0d8603c507b2c39ed58c1bdf58aa867c7e59c58"
 
 RPROVIDES:${PN} += "config-php8-tokenizer \
 php-tokenizer \

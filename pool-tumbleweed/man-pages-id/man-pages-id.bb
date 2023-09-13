@@ -2,10 +2,10 @@ SUMMARY = "Translation of man pages in Indonesian"
 DESCRIPTION = "This package provides translations of man pages in Indonesian."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.19.0"
+PV = "4.20.0"
 
-RPM_NAME = "man-pages-id-4.19.0-1.1.noarch.rpm"
-RPM_HASH = "b21a7d8f11f4342e58bb49568737046acd82c61120a6a693212db84566852a7ade1dfab14da2e526e7c8aa7a112995901a495cc903d12e70d08b503f31bfc903"
+RPM_NAME = "man-pages-id-4.20.0-1.1.noarch.rpm"
+RPM_HASH = "54349e352daaee975b749266357b8ad54550a6a282b384a70d593771ba1d5478b7a5b9d5a7a41f52a11e453a95f9f4a44510a77287e8743e007dc84b7b4d6954"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-man-pages-id \

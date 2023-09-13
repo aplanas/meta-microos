@@ -2,12 +2,12 @@ SUMMARY = "WebViewer plugin for Orthanc"
 DESCRIPTION = "WebViewer plugin for Orthanc"
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "1.14"
+PV = "1.15"
 
-RPM_NAME = "orthanc-dicomweb-1.14-1.1.aarch64.rpm"
-RPM_HASH = "cae99c4be6a8420e1781249420dfd8bc4afaa8fbf7fa49da615d6457ce230c30e0aec71413e7ec235737560c37adfe1d113dd272bcfb7846760db9cc09171c2d"
+RPM_NAME = "orthanc-dicomweb-1.15-1.1.aarch64.rpm"
+RPM_HASH = "1487cb446fd7576edaed3b76ba883d7ae5bfc748bbec8992cbab1ba3161191e98c38e4791c7547c9c1b880ebbe6538b9ffbe859dc7ab8c09174cfac9328ed5df"
 
-RPROVIDES:${PN} += "libOrthancDicomWeb.so.1.14 \
+RPROVIDES:${PN} += "libOrthancDicomWeb.so.1.15 \
 orthanc-dicomweb"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
@@ -22,6 +22,7 @@ libjsoncpp.so.25 \
 libm.so.6 \
 libpugixml.so.1 \
 libstdc++.so.6 \
+libz.so.1 \
 orthanc"
 
 inherit rpm

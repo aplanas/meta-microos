@@ -5,10 +5,10 @@ access control. \
 This subpackage holds the development headers for the library."
 LICENSE = "BSD-2-Clause"
 
-PV = "3.0.9"
+PV = "3.0.10"
 
-RPM_NAME = "modsecurity-devel-3.0.9-1.2.aarch64.rpm"
-RPM_HASH = "a105ec875ed7c157a0360c1287b2c4ba8e070957f259ce42181a91f8371fb25eb27ffc87d162b2f84af40cc1e97a70cb3a1bcdb61fb2a2cdacf7838e40a59288"
+RPM_NAME = "modsecurity-devel-3.0.10-1.1.aarch64.rpm"
+RPM_HASH = "d01e32eabd08eb95a90a59702b6168e8d612c24dac3d989b25bb627cb99f5e42f422ffdd49cacf26db2016fb46f7a6f98748f066c4ef40d15a80c011a786dc51"
 
 RPROVIDES:${PN} += "modsecurity-devel \
 pkgconfig-modsecurity"

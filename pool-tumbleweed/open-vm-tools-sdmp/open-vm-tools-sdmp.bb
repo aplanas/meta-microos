@@ -2,10 +2,10 @@ SUMMARY = "Service Discovery Plugin"
 DESCRIPTION = "Service Discovery Plugin"
 LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-2.1-only"
 
-PV = "12.2.0"
+PV = "12.3.0"
 
-RPM_NAME = "open-vm-tools-sdmp-12.2.0-6.1.aarch64.rpm"
-RPM_HASH = "bf00208b8cd813b4c8eda3004133fc7694b46f3457d0d225ffb5fd549be215461fa4240ce14ca83d4ed3049b5a3ad2810e8cb46e911fd3d382f493609b604c42"
+RPM_NAME = "open-vm-tools-sdmp-12.3.0-1.1.aarch64.rpm"
+RPM_HASH = "53a775196d6c5642e256c2b3ecc9de2708f8ba338ded66beda09f5a103fe8bbc27d6ceef1c0cc14e16b68a8d93e3b03c2471f63eb6f8e6250052c6b4f73620d6"
 
 RPROVIDES:${PN} += "libserviceDiscovery.so \
 open-vm-tools-sdmp"

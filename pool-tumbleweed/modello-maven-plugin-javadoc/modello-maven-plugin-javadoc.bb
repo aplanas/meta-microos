@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for modello-maven-plugin"
 DESCRIPTION = "API documentation for modello-maven-plugin."
 LICENSE = "Apache-2.0 & MIT"
 
-PV = "2.0.0"
+PV = "2.1.2"
 
-RPM_NAME = "modello-maven-plugin-javadoc-2.0.0-3.2.noarch.rpm"
-RPM_HASH = "20f442cc366739b341ff5d51ee9abd6185277c473cca7c7743b1cb5c11c64f3ac144a807e87c116f370ecac1c0bdfbc50bd1ef508441f32903fe836e89228c3f"
+RPM_NAME = "modello-maven-plugin-javadoc-2.1.2-1.1.noarch.rpm"
+RPM_HASH = "b40419bf92b9c6ce322cca9d39a3b5245bb27b0c97b254a838fe876db6da5d2e8ee190e906ffce80f85cce4f2adf8c52495ca9e439267f30fdb6c6557b866cac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "modello-maven-plugin-javadoc"

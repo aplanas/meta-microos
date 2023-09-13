@@ -6,8 +6,8 @@ LICENSE = "MIT & PHP-3.01"
 
 PV = "8.2.10"
 
-RPM_NAME = "php8-sockets-8.2.10-1.1.aarch64.rpm"
-RPM_HASH = "06577029e4d5dfaed0d5032ba1d2897c23efaf63a85752cf2da4073dc177fd88241f2753dbbb718a2347e8c95335f14221d162afe4155a9dcf65ff736d9f1221"
+RPM_NAME = "php8-sockets-8.2.10-2.1.aarch64.rpm"
+RPM_HASH = "afa1dfa55c91bd42eba908ce30d3b00a77374551c9c34c7348209abb402a70b3d7536c561907d5e23f1485077f36f5e20bf4d6c899a5c7410a2c5d1dd86e8b12"
 
 RPROVIDES:${PN} += "config-php8-sockets \
 php-sockets \

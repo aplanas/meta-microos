@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2"
 
-RPM_NAME = "uom-lib-assertj-1.2-1.19.noarch.rpm"
-RPM_HASH = "ef63d4ddf0db566a7623a9d212d43f565c6a87396a174edbe76c0de2bad59126db6392180ac48d8056b074719982acca3118ae3c1a9072a4e1a4d0a727367e9a"
+RPM_NAME = "uom-lib-assertj-1.2-2.1.noarch.rpm"
+RPM_HASH = "74e236ac59ff14388d19f79508d2c9bb1e4f7ed74ea337e9d9b03b80d092621d764912bb23ea2de2358f1ad550a2417f018a21c909facdcda4e8de65fabc2043"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-tech.uom.lib-uom-lib-assertj \

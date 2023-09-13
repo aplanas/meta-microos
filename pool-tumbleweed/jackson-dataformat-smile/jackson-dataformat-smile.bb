@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0 & BSD-3-Clause"
 
 PV = "2.15.2"
 
-RPM_NAME = "jackson-dataformat-smile-2.15.2-1.1.noarch.rpm"
-RPM_HASH = "046a261e53f16af80c9d17d8aba87c0649ddd211593f6712adff251b09af05e727dfa98a11743057e3e61417dcc1e67745f4f7d92b80541bc6e05d805b624649"
+RPM_NAME = "jackson-dataformat-smile-2.15.2-2.1.noarch.rpm"
+RPM_HASH = "3dd86389a722730bcfbd9f801f46a3b92a04c19f325827a6ba9e994293b2d14abdece23051dcaf6d35f167283cc4800ac25195ef820c416a06cedd08c6b697e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-dataformat-smile \

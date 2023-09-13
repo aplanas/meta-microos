@@ -5,8 +5,8 @@ LICENSE = "MIT & PHP-3.01"
 
 PV = "8.2.10"
 
-RPM_NAME = "php8-pgsql-8.2.10-1.1.aarch64.rpm"
-RPM_HASH = "2eb8a6e28019e81f09d2e941286a80a519b5327157ba81774a3e4b7a41f0a69fda7fec3fa7ca26b8db50baea6c465f5b7c5ddf1c99e40b2e6a01d03122da4599"
+RPM_NAME = "php8-pgsql-8.2.10-2.1.aarch64.rpm"
+RPM_HASH = "0b979e83ae65e4e27f9ebc00e85227b60f2d18a0fd11f51b94ec615809dbf032f8560ea3df56584202c0f2e156244102ef48203a944336d9a0117605755f3e58"
 
 RPROVIDES:${PN} += "config-php8-pgsql \
 php-any-db \

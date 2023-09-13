@@ -2,10 +2,10 @@ SUMMARY = "The python pandas[output_formatting] extra"
 DESCRIPTION = "This package provides the [output_formatting] extra for python-pandas"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.3"
+PV = "2.1.0"
 
-RPM_NAME = "python310-pandas-output_formatting-2.0.3-1.3.noarch.rpm"
-RPM_HASH = "c65445520bb9bb95dd3b0bed2d4c21e19faf48c2eb41b82923646ed8a551a65f6e363be0ccd733e4db7a327058d5cd81649b30671d90f8dd5cdf5296237bed1f"
+RPM_NAME = "python310-pandas-output_formatting-2.1.0-1.2.noarch.rpm"
+RPM_HASH = "ad584e95b9f44c186a2c24d705aeb9d60a374a0d9126653aaabfb58f29737e07c592b00e4294ba7e79013b5cbab6653f82e2a619ac5c7cf68e1f9af720149458"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python310-pandas-output-formatting"

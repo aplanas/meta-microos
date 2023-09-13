@@ -21,8 +21,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.5.6"
 
-RPM_NAME = "mybatis-3.5.6-7.1.noarch.rpm"
-RPM_HASH = "d791cbd2a2f2949f4fd8ac55a7b79e3676f5c799ddfbe2521b9f6fad701bd42f41119f1dbc626872b6969b256fe4dff8d7786f6d76014c7b1cc9ea9d92c48f6c"
+RPM_NAME = "mybatis-3.5.6-8.1.noarch.rpm"
+RPM_HASH = "02b16dc2d2357fb4e1825fd96ccb519b67715a8ecb25d8f65581cb9ca3043e97f4ff28e472ffff3e8d51525012abc57db157dd70298dc0bb815f7fb512dd08e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-mybatis \

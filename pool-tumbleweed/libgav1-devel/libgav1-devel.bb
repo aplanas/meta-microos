@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.18.0"
 
-RPM_NAME = "libgav1-devel-0.18.0-2.1.aarch64.rpm"
-RPM_HASH = "066fec5aa7ebd597a43a35cfa01f8185139ba121ea3a8cc263e85d99f242e4d27abd512b6f006c3fa766c1cc039c80d50bf30e3ec4beba7d7bd956b59e6be3e6"
+RPM_NAME = "libgav1-devel-0.18.0-2.2.aarch64.rpm"
+RPM_HASH = "ec18419164e0ab3dbe1639ab37d48eb872431913ecdc5663c11446772b0943bf2233c3bdc3b3a81b7711bedba8b24be2450f8bee4f1e32f22bb4f8a3758cd4bb"
 
 RPROVIDES:${PN} += "libgav1-devel \
 pkgconfig-libgav1"

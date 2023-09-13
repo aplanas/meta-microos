@@ -20,8 +20,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.0.8"
 
-RPM_NAME = "python311-configobj-5.0.8-2.1.noarch.rpm"
-RPM_HASH = "d113d288f0f33272da0c10588cac3dfc2d0dcda0c76001cb4817275cc71046915e6dc71927d062d9375c90043f6f09d6a6ccd8d08d9370864188e6795439bab6"
+RPM_NAME = "python311-configobj-5.0.8-3.1.noarch.rpm"
+RPM_HASH = "76fe8add668bbdb65a658b37da45f7f7cfd2ddd9cd16d5893234c068d049ba670f656b7c0ef2e2c7d6b42eb88be12094b5285af4800793ca3501a444051b2931"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-configobj \

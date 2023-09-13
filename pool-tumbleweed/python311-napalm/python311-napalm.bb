@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.1.0"
 
-RPM_NAME = "python311-napalm-4.1.0-1.1.noarch.rpm"
-RPM_HASH = "5b60e70778dfde443e1349a2e2140ad3d0961d7c951adfc78b2785cde51c84023073e48946db2a83c222f3931f74c907c25fa24240af1ad9c61321e6b6d6b46f"
+RPM_NAME = "python311-napalm-4.1.0-2.1.noarch.rpm"
+RPM_HASH = "763093c1eb0e8f75a8987acde684eb0f09c3d141e8d4a153a60bb8cc41e2c7959455ed347bb8774a553bfbaae789c4a2ed423f46469f1bccbf2efc377cfab135"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-napalm \
@@ -20,8 +20,6 @@ python-abi \
 python311-Jinja2 \
 python311-PyYAML \
 python311-cffi \
-python311-ciscoconfparse \
-python311-future \
 python311-junos-eznc \
 python311-lxml \
 python311-ncclient \

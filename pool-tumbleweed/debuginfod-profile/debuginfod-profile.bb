@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.189"
 
-RPM_NAME = "debuginfod-profile-0.189-4.1.aarch64.rpm"
-RPM_HASH = "e753a6401df44722fd1362bae9edecd8f17fc437824c2b08a6ea9baa13f1b114b0c9f14952ab2d97b8bb92aa5d41f11c9113e89b847982e863cec5bafde4a788"
+RPM_NAME = "debuginfod-profile-0.189-5.1.aarch64.rpm"
+RPM_HASH = "f314d2c7ff1e8ea574ff9ef2da78085ce2b6415a169a3de67b5964e6b328f799dce4cec0450d99e8913f62228bee38fa461d7e9ccff4dffffc12724301b0c73c"
 
 RPROVIDES:${PN} += "config-debuginfod-profile \
 debuginfod-profile"

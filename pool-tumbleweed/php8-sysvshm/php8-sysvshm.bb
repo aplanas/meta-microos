@@ -4,8 +4,8 @@ LICENSE = "MIT & PHP-3.01"
 
 PV = "8.2.10"
 
-RPM_NAME = "php8-sysvshm-8.2.10-1.1.aarch64.rpm"
-RPM_HASH = "eedbad11c16d7aa6f9d0307624bc07d0ad9f6386fac5bedba7593a46f8bb029b2b463ab391965a88e6ca9f62ea3424c16567a786977a1cfcdb4a1993ee2855d1"
+RPM_NAME = "php8-sysvshm-8.2.10-2.1.aarch64.rpm"
+RPM_HASH = "3e3f1b18e8aee9719dd5ecff8867060cf389730302a4c26f15687be220e6b399fa4e8c59fccdf48b1decc2e4051faf60c5fd51910b34792cdf0d66b97bd8dea9"
 
 RPROVIDES:${PN} += "config-php8-sysvshm \
 php-sysvshm \

@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.1.3"
 
-RPM_NAME = "python39-textfsm-1.1.3-2.1.noarch.rpm"
-RPM_HASH = "0c3eb8316b775575cbe604f794c22b43df0b2d6e57a4c00dea87a641b8494e6c13cb904a04d7f186d0b3a67c2ed90e7dc8619ed4918c34ecd8ddc9d30ee10477"
+RPM_NAME = "python39-textfsm-1.1.3-3.1.noarch.rpm"
+RPM_HASH = "3e6d79fdbd3ff11c9100e47fbdab9e193b193fbde00502637c8d5e376694039486ee84962950ae8a3fb7f86648d47dfd52e4b0d9fc4170bf2615b4d1ff3a1206"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-textfsm \
@@ -16,7 +16,6 @@ python39-textfsm \
 python3dist-textfsm"
 
 RDEPENDS:${PN} += "python-abi \
-python39-future \
 python39-six"
 
 inherit rpm

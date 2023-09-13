@@ -2,10 +2,10 @@ SUMMARY = "Mesa vulkan driver for LVP"
 DESCRIPTION = "This package contains the Vulkan parts for Mesa."
 LICENSE = "MIT"
 
-PV = "23.1.6"
+PV = "23.1.7"
 
-RPM_NAME = "libvulkan_lvp-23.1.6-356.1.aarch64.rpm"
-RPM_HASH = "cba7a6657e128d32c5feb77f9c9a575cde30fb8ae13f041710cffa2b27476a6c8c83b6faf79257e0c56e59a482e71d32cd9b1b46f5a4f3b33713e79b931f9dd8"
+RPM_NAME = "libvulkan_lvp-23.1.7-357.1.aarch64.rpm"
+RPM_HASH = "c784cc405e5ab25a9aca0a3ab2a11b4cb3d21633fa196b0cc4755569bef6f45b86674ff41b8a963a0a01a9f10e4c8e3c0a028c76b04744f73a7bc172f70600c1"
 
 RPROVIDES:${PN} += "libvulkan-lvp \
 libvulkan-lvp.so"

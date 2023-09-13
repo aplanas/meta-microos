@@ -9,10 +9,10 @@ data structure. \
 This package holds the shared library of rocksdb."
 LICENSE = "(Apache-2.0 | GPL-2.0-only) & BSD-2-Clause"
 
-PV = "8.3.2"
+PV = "8.5.3"
 
-RPM_NAME = "librocksdb8-8.3.2-1.1.aarch64.rpm"
-RPM_HASH = "718a0b47f8894db656adb2c653a3db97ef6f04d4ffb224b7e38f32a5ebbb2b97dd337f413a366e91c382d0bb72b67baa388a792a82d8feb570e946e0a9a6468a"
+RPM_NAME = "librocksdb8-8.5.3-1.1.aarch64.rpm"
+RPM_HASH = "f24a7c4f1bb62f677e366f986fa57d997cd213fbbc866c7959a080b98f10fb77d81db4ec6234e5087cbc80119f8e049787d751e834492839f73adf4d2efcde89"
 
 RPROVIDES:${PN} += "librocksdb.so.8 \
 librocksdb8"

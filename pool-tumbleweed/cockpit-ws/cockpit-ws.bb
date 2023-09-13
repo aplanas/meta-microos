@@ -5,10 +5,10 @@ If sssd-dbus is installed, you can enable client certificate/smart card \
 authentication via sssd/FreeIPA."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "298"
+PV = "300.1"
 
-RPM_NAME = "cockpit-ws-298-2.1.aarch64.rpm"
-RPM_HASH = "1dac31591da85b217074cef4d678ac5d7bf2c9bdcc61773d65ff680f597d102b868d3af08fc41ce815621f07e24bf7135bb58a72f5ab442483a06f6cc4d4ab77"
+RPM_NAME = "cockpit-ws-300.1-1.1.aarch64.rpm"
+RPM_HASH = "c4253a65842038d155dfa499a2157da2a1c58c8d3038ec9a5bd1ec22b3fa0aa8c6b849ff48bb6812ab25e45c71c52088691ec14b300fe0e9c2a6933e30354386"
 
 RPROVIDES:${PN} += "cockpit-ws"
 

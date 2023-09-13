@@ -4,10 +4,10 @@ into HTML. It is designed to be used in Warehouse to render the \
 long_description for packages."
 LICENSE = "Apache-2.0"
 
-PV = "37.3"
+PV = "41.0"
 
-RPM_NAME = "python310-readme_renderer-37.3-3.3.noarch.rpm"
-RPM_HASH = "dee6a66139d2063bb82c3810bc5f2547a91774e48d4f82be52890d100e84d82abd351b884d9556cc37b66d2aa75e4193ad45713259a665c4996f1a2fae5c3382"
+RPM_NAME = "python310-readme_renderer-41.0-1.1.noarch.rpm"
+RPM_HASH = "492954e1b89ed92a87e7bd98143bd1008f8db9855089224e1543decb0387c723f383218186ac081e3f071ee6a315df9352386e90ab46b4d29d9d54779b782d2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-readme-renderer \

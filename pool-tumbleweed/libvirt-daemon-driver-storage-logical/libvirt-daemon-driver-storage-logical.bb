@@ -3,10 +3,10 @@ DESCRIPTION = "The storage driver backend adding implementation of the storage A
 volumes using lvm."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.6.0"
+PV = "9.7.0"
 
-RPM_NAME = "libvirt-daemon-driver-storage-logical-9.6.0-3.1.aarch64.rpm"
-RPM_HASH = "a82b06627a3d3c737d864792b0b4a4863279f7d81702583424ca6b66da9bdce43048489cac2db5a012a62ac53d20f361035952262bb867d5ed59e1fa2b380494"
+RPM_NAME = "libvirt-daemon-driver-storage-logical-9.7.0-1.1.aarch64.rpm"
+RPM_HASH = "fb2dc4cd9c83c20897bbd0841a26f611b18d3fb7e07145a987c97cc8ac37b142198086bb89ad3c673ac38ea28b946555e5e0b03206cffd379686aaa001ba7ea5"
 
 RPROVIDES:${PN} += "libvirt-daemon-driver-storage-logical \
 libvirt-storage-backend-logical.so"

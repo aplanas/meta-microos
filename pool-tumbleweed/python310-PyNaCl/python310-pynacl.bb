@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.0"
 
-RPM_NAME = "python310-PyNaCl-1.5.0-3.3.aarch64.rpm"
-RPM_HASH = "5a91d23f23bafdaf5056a8be5fc6ae9e92044b762224c72cbf016b56cf04f6867b3c6e383b90198bc4d6065efb9ce4c815cfe7433d7f805ce5bd70ecca624634"
+RPM_NAME = "python310-PyNaCl-1.5.0-4.1.aarch64.rpm"
+RPM_HASH = "8cdffa59c8b1633ec5f730f81685400bf3c9a243d1b88e0644324867fec4b3af509f2cea3d21eabad3ac8eccc13ec4904036970b7a8c6f99cb5e4515955a2097"
 
 RPROVIDES:${PN} += "python3.10dist-pynacl \
 python310-PyNaCl \

@@ -10,10 +10,10 @@ This package provides a development environment for building programs \
 using the OpenGL|ES 1.x APIs."
 LICENSE = "MIT"
 
-PV = "23.1.6"
+PV = "23.1.7"
 
-RPM_NAME = "Mesa-libGLESv1_CM-devel-23.1.6-356.1.aarch64.rpm"
-RPM_HASH = "3c38c60582fdb2e9f7f8120bb0157061252568880107f0f00e79800782c44a568b84a669c5d4f966cda6f3081e7e3e0e01c9a9d2c918b5e488d33cb3c76f2cf3"
+RPM_NAME = "Mesa-libGLESv1_CM-devel-23.1.7-357.1.aarch64.rpm"
+RPM_HASH = "04a12a1db2420ab0ebf269d3ca9e6af50f1bb0fb47185ead80dc91ffb2da20c67d39a702bb8d8e9bdcc1dcfdaa1d0e0a2c457d9642c3c33ea6e82f59298e829e"
 
 RPROVIDES:${PN} += "Mesa-libGLESv1-CM-devel \
 pkgconfig-glesv1-cm"

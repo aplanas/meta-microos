@@ -4,10 +4,10 @@ of the installed Python interpreter and standard library. \
 They are a documented part of stdlib, as a module 'test'."
 LICENSE = "Python-2.0"
 
-PV = "3.9.17"
+PV = "3.9.18"
 
-RPM_NAME = "python39-testsuite-3.9.17-4.1.aarch64.rpm"
-RPM_HASH = "59f884394b6a7a4c0857d8f14e64b9793f426cf786e292cbe4a9f6043677abb450733a39fb85742a252c9fb5d5993c45a4208d9e40fc9edd457e4d09242dd764"
+RPM_NAME = "python39-testsuite-3.9.18-1.1.aarch64.rpm"
+RPM_HASH = "d6fed63ef1a8875cc20042e9b799e7c7a8f504c1cbcd0c501361c704ade2a9d5f31c38a409e25230694d9932c91b06721b4f29502e2707869b90840775b98f74"
 
 RPROVIDES:${PN} += "python39-testsuite"
 

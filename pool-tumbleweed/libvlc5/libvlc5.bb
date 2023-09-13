@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.0.18"
 
-RPM_NAME = "libvlc5-3.0.18-9.1.aarch64.rpm"
-RPM_HASH = "eb4be64bd9e3a096a2654eeb20e396382b065cc6695d7cef3b31688e1e64fce7c7bda579169f3b89e5b4e1b80cc01cc300c4b8d018363414aec4f0ce7f065245"
+RPM_NAME = "libvlc5-3.0.18-9.2.aarch64.rpm"
+RPM_HASH = "44ae481909000fce93c149108e3d742b1d824a1aa6155511edaccb37051b4ce2d3c6d18a66397b84ce44f9f9e357c894ce46eb91c5d102a018e71a201cfb4f88"
 
 RPROVIDES:${PN} += "libvlc.so.5 \
 libvlc5"

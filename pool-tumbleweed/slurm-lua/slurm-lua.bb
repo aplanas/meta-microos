@@ -3,10 +3,10 @@ DESCRIPTION = "This package includes the Lua API to provide an interface to SLUR
 through Lua."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.2"
+PV = "23.02.4"
 
-RPM_NAME = "slurm-lua-23.02.2-1.4.aarch64.rpm"
-RPM_HASH = "d82cda601338413772b50c42a6a9f0f50097cc7e8b76b01722b0b378afa4e7dfb8c70306a9d361c12768545246facdb230ea7422c8da9311fb61e4142ee0a5c7"
+RPM_NAME = "slurm-lua-23.02.4-2.1.aarch64.rpm"
+RPM_HASH = "f8670b79183929ac5749b84db035f27f9fc50c1e0c900ebfc1aee5eaf6af4671d512133b1fd239def51317ca097b86941f48a0b18b2f263e175f6216d225b07c"
 
 RPROVIDES:${PN} += "slurm-lua"
 

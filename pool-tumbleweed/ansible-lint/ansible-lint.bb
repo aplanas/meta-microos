@@ -2,10 +2,10 @@ SUMMARY = "Best practices checker for Ansible"
 DESCRIPTION = "Checks playbooks for practices and behavior that could potentially be improved."
 LICENSE = "MIT"
 
-PV = "6.17.2"
+PV = "6.19.0"
 
-RPM_NAME = "ansible-lint-6.17.2-1.1.noarch.rpm"
-RPM_HASH = "c4584cfadf263651bf3f6aa1322cb8d1b824ea8db053cf52166ca03f2cb29104a84a925eafea273bb2ad3c564de378a4793546bb1befbeae13c1d343be3d27f3"
+RPM_NAME = "ansible-lint-6.19.0-1.1.noarch.rpm"
+RPM_HASH = "fdfde366c53d788eb5475308493bc9ac1950666e24f67c03adbebfbc3c8a465fd40d5acff5a92961e8a0033ced40aa2a7e2500ad6405e1f06ef26270b441df3a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansible-lint \
@@ -24,6 +24,7 @@ python3-enrich \
 python3-filelock \
 python3-jsonschema \
 python3-packaging \
+python3-requests \
 python3-rich \
 python3-subprocess-tee \
 python3-tenacity \

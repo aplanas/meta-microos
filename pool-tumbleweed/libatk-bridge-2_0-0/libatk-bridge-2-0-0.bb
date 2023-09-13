@@ -5,10 +5,10 @@ accessibility toolkit. This version is based on dbus. \
 The package contains a ATK/D-Bus bridge library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.48.3"
+PV = "2.48.4"
 
-RPM_NAME = "libatk-bridge-2_0-0-2.48.3-2.1.aarch64.rpm"
-RPM_HASH = "4f966543b01e68f758b3f904ed6adefe781acbddebd9bb797afff6f93b23af8beda4901b568a37e460d4b0559b18160ba210d0976f7cb49755291b920357017c"
+RPM_NAME = "libatk-bridge-2_0-0-2.48.4-1.1.aarch64.rpm"
+RPM_HASH = "b7efd388f827750da9a5f959d383e37f6f1fe163a9020caa74a8fff0e0d352f18db968d1645ba84cdfc2f8b6a3f8a7efc53b3828c29147e408f18d0102447172"
 
 RPROVIDES:${PN} += "libatk-bridge-2-0-0 \
 libatk-bridge-2.0.so.0"

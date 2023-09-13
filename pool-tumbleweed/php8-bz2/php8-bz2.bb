@@ -4,8 +4,8 @@ LICENSE = "MIT & PHP-3.01"
 
 PV = "8.2.10"
 
-RPM_NAME = "php8-bz2-8.2.10-1.1.aarch64.rpm"
-RPM_HASH = "14be90eaf17f46803e70c77bb7b17d6ff1f58f996e13f7fde040bbfed724811d0d0aa6f75198a240a30c8351a62e5a82a12cf533319baa31f451e9e9ac456531"
+RPM_NAME = "php8-bz2-8.2.10-2.1.aarch64.rpm"
+RPM_HASH = "95a357cc127bbb585ee278cfdd6b7d33555a5fa3ed11dd03d83c4a382a1219054e3045ed57f19a64bcf2bf836e22cf8ac975e984ed88de4b840245cb45d077a3"
 
 RPROVIDES:${PN} += "config-php8-bz2 \
 php-bz2 \

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.2"
 
-RPM_NAME = "hyprland-protocols-devel-0.2-3.1.noarch.rpm"
-RPM_HASH = "ec24cdcfd1f8c418a9dbb4191edf1df6658ab507f4393d33ee21b6f8ffee775cd83c7273c741766bc9bb940c9418c2ad1fb8bed3968c511884d79f6c7d687bc1"
+RPM_NAME = "hyprland-protocols-devel-0.2-5.1.noarch.rpm"
+RPM_HASH = "a72f0f62b581ad79161c1090a20d4dc4ea83484dcf9cbfb4e45308319d7dffc78cbf11557723452bd3e320891b7364240a618022ad9548aaa10c48c2491c4e38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hyprland-protocols-devel \

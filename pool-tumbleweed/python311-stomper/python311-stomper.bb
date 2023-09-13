@@ -9,8 +9,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.3"
 
-RPM_NAME = "python311-stomper-0.4.3-2.14.noarch.rpm"
-RPM_HASH = "e23adbeafdd83316b678c25af4fe26077ca0f0bc0760ecd9c41197989309a7063f9b0c470af9939cab9f3e7d584105d8b28e052650e95f56a590ff336ffe8ca9"
+RPM_NAME = "python311-stomper-0.4.3-3.1.noarch.rpm"
+RPM_HASH = "23b967cbe6690e42caa1f8dc2a7e19f79eb632116b25c0f5f4b13a52b30b2c7467246fe0c38cfdd5a95d58360cf2c2008d14acff08cd919dc44131d3f9fdeb1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-stomper \

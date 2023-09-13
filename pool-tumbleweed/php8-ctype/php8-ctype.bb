@@ -5,8 +5,8 @@ LICENSE = "MIT & PHP-3.01"
 
 PV = "8.2.10"
 
-RPM_NAME = "php8-ctype-8.2.10-1.1.aarch64.rpm"
-RPM_HASH = "25f3af130901ce2af9e4313dbd7d2b29df03481b87984f82d319cea0f11b62bf8ce300c237031446d9ba6ee365b5556e790f70ff7c3529b41faf9184db694d0d"
+RPM_NAME = "php8-ctype-8.2.10-2.1.aarch64.rpm"
+RPM_HASH = "133cf3d033083243610d0a7c9a55c7c99936d2a6e18aeb4f1cc19511eada28ad704a5ba0c9144e7ba66901df4523972396247af70b5ae3172d788ca9b2256cec"
 
 RPROVIDES:${PN} += "config-php8-ctype \
 php-ctype \

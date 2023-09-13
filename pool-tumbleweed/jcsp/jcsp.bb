@@ -21,8 +21,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1~rc5"
 
-RPM_NAME = "jcsp-1.1~rc5-3.11.noarch.rpm"
-RPM_HASH = "9edefc54432703d84628cda6d6b4c91a11c9ebf8ccf40a5e78edcae1a6270dcfc35527f19d35e85a3556c17a808aea7e281e78cf6a84c2f5d9af338786653623"
+RPM_NAME = "jcsp-1.1~rc5-4.1.noarch.rpm"
+RPM_HASH = "54a267c82634581fc1513a046b00790ca92b1d78eedb842da6e87df308fbeca9daf3a22751aa56dafc706f9b47eecec61be619aac9d435f2c5a7bb98997aaa32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jcsp \

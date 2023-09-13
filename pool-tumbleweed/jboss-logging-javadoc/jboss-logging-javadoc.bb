@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.4.1"
 
-RPM_NAME = "jboss-logging-javadoc-3.4.1-3.11.noarch.rpm"
-RPM_HASH = "82101361ad7744f0e6d397041816dfeaba7a98b3053154097b1a92624810c72a184d3e4c67bdb42102580d859bb1f27b076fee539b286fd4c71d706e5f3b317d"
+RPM_NAME = "jboss-logging-javadoc-3.4.1-4.1.noarch.rpm"
+RPM_HASH = "1c48a79f3a61d5ba5e3edcdc022ab59666b3c0f2b416ba214bfd3128db039be90f29f92bb6f23d3a4ee130a0be252b04a37668dc3017139826b01da9d704ab80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-logging-javadoc"

@@ -3,10 +3,10 @@ DESCRIPTION = "The libportal-gtk3-devel package contains libraries, build data, 
 header files for developing applications that use libportal."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.6"
+PV = "0.7"
 
-RPM_NAME = "libportal-gtk3-devel-0.6-1.8.aarch64.rpm"
-RPM_HASH = "08fd1f63d60521e8255f5e528deaa96586b80f8757ac8cac18bedaf86649e389b449a570234a5ed86eb5342eb8c95191e918624e34339b46823ac182c324c243"
+RPM_NAME = "libportal-gtk3-devel-0.7-1.1.aarch64.rpm"
+RPM_HASH = "2461bc98e5f0b959299d28c3ad895ab6932e88f117280df1dd52534c1fb6b58efa1d770e830e6c14e4fb3f18fe35c2da070e0a81c705dd92f547742a54a4df58"
 
 RPROVIDES:${PN} += "libportal-gtk3-devel \
 pkgconfig-libportal-gtk3"

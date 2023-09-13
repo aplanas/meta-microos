@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0 | MIT"
 
 PV = "1.2.0"
 
-RPM_NAME = "python311-outcome-1.2.0-3.3.noarch.rpm"
-RPM_HASH = "0e324948408938ba2497fdd7be278ce2f38b44ff3057eaf66b8290d15176f1c2c15ac5c68bb6fc51d29eae04218260e1aba1e570cbbb0ed58b0b66e07b425d91"
+RPM_NAME = "python311-outcome-1.2.0-4.1.noarch.rpm"
+RPM_HASH = "44b850abae4af840674c2457f6ed114ea09e2ce0dd9aaa07e9d067ed59683b39ea6ec20ebf3931705305b5dec0c7fe80fb8bf6c5ef00f85402476270a3ccc262"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-outcome \

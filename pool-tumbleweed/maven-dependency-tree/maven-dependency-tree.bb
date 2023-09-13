@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.0.1"
 
-RPM_NAME = "maven-dependency-tree-3.0.1-3.13.noarch.rpm"
-RPM_HASH = "3c5f1396abd950defb10475c2a04b8b62f8293524876efa8ea2f7b53610d36b5adf19d79f5714c1585dbbc3648df096f796c0263cbb8c0101bf8dbfa4ec9219c"
+RPM_NAME = "maven-dependency-tree-3.0.1-4.1.noarch.rpm"
+RPM_HASH = "d6697942e9767ad3c6edb8bc0c388030846e7db59a85ebf3564cbd5e606a3a2d9f7904d8878ad6a57f02b2cb6f0468dec946efa97b726e0312e25064fb9e3aff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-dependency-tree \

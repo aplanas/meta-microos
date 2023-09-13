@@ -3,10 +3,10 @@ DESCRIPTION = "The libportal-devel package contains libraries, build data, and \
 header files for developing applications that use libportal."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.6"
+PV = "0.7"
 
-RPM_NAME = "libportal-devel-0.6-1.8.aarch64.rpm"
-RPM_HASH = "05a5c9db241bd5e8d6d37f830398281f7b2c41071db282345570afa94e5218e98937e6023a556fff89f1ddbaf4f254e380841f753d9ecff060e704fc890c1916"
+RPM_NAME = "libportal-devel-0.7-1.1.aarch64.rpm"
+RPM_HASH = "a672c5c75883f611c94f09f6f915181d56da3042800b5db0c7a306948073cffa9295a03fcecd2ad55ab9ad61594ee088ff32305c8560cb53c3d3d15538203107"
 
 RPROVIDES:${PN} += "libportal-devel \
 pkgconfig-libportal"

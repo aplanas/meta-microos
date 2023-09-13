@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop applications that require these."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.48.3"
+PV = "2.48.4"
 
-RPM_NAME = "at-spi2-core-devel-2.48.3-2.1.aarch64.rpm"
-RPM_HASH = "2fab1bb54eb5cdf373d5c8ddf8b98b2a9a3b11f9185d5c714d6532cab87c7652adee5282e54c4faa2806a9345254ebc74a79a5d668a87b6f41219135f7f1e0db"
+RPM_NAME = "at-spi2-core-devel-2.48.4-1.1.aarch64.rpm"
+RPM_HASH = "552c11e653c18932bd250e5b49069498bca0793b7f2e5310a603dfd07f61d225a1ae354a0d6ced5c6bdda792de744ef23266b93cc9c1284e086300cb6d5940d9"
 
 RPROVIDES:${PN} += "at-spi2-core-devel \
 pkgconfig-atk \

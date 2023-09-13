@@ -4,10 +4,10 @@ uses an event-driven, non-blocking I/O model. Node.js has a package ecosystem \
 provided by npm."
 LICENSE = "MIT"
 
-PV = "20.5.1"
+PV = "20.6.0"
 
-RPM_NAME = "nodejs20-20.5.1-2.1.aarch64.rpm"
-RPM_HASH = "38d18174e16067551e55d22da2b013f2e56e61c6bf6eae5ac7cc5be2c6dc9e8fcca05fe1141998390cdb91c7b8b374500402d7c746ebbc0cbed8346e2a7438eb"
+RPM_NAME = "nodejs20-20.6.0-2.1.aarch64.rpm"
+RPM_HASH = "b3ed083c2aa87bd577eb8f22c00e67d0f34e5e7754e1f724b95277b8b01dfb4bbee4f5f5b5b2b430465eae8236895e4fb7560cdd33e722c67143205665cc1bab"
 
 RPROVIDES:${PN} += "bundled-ada \
 bundled-base64 \

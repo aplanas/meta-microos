@@ -5,14 +5,14 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.11"
 
-RPM_NAME = "grep-3.11-1.1.aarch64.rpm"
-RPM_HASH = "016d13d34f511556c342a18384f4617b0f91851626a740fb00e84e5dfa554236f3f40a4b023dcbba5d4a271bc34f8c3f9e81de23ec9353000f2277c4afda68c2"
+RPM_NAME = "grep-3.11-2.1.aarch64.rpm"
+RPM_HASH = "c1abf0ccd75cb1d67df3715a58619123b12ad5eb95867586c044c9bd9ac001abeb95777e91d83a1a07c87791efb43a9f05475629163b266867c43a42ff069e31"
 
 RPROVIDES:${PN} += "/usr/bin/grep \
 base-/usr/bin/grep \
 grep"
 
-RDEPENDS:${PN} += "/usr/bin/bash \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpcre2-8.so.0"

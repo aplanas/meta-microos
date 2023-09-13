@@ -2,10 +2,10 @@ SUMMARY = "NetBox API client library"
 DESCRIPTION = "Python API client library for NetBox."
 LICENSE = "Apache-2.0"
 
-PV = "7.1.0"
+PV = "7.2.0"
 
-RPM_NAME = "python310-pynetbox-7.1.0-1.1.noarch.rpm"
-RPM_HASH = "c1c20926e57e2b4dfaf8362e0dfbbcc878491a4b8795a8df1c594b9cb6dbbed8275cfd31f155be2146e553df1d882f89410849f21561705aaeb0081c7d404c8a"
+RPM_NAME = "python310-pynetbox-7.2.0-1.1.noarch.rpm"
+RPM_HASH = "bddcd66b309e932f28269a1164a4a1c5ec361d91ea6fa4402f29fbbda79907aa0e4410a106dbc1c044c8cae6854f1f9f9f34456701630ed0ebd9448c281cbe6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-pynetbox \

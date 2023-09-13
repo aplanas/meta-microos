@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.12.25"
 
-RPM_NAME = "python311-bottle-0.12.25-4.2.noarch.rpm"
-RPM_HASH = "4f23b234234f3bd6234ec5b930fa5a2da7576faa15f5f5aef7a80749354dd5df97285b7b3cf528b99cceed86fab185e282b9080346e4f54e51f2b0deb15bd391"
+RPM_NAME = "python311-bottle-0.12.25-5.1.noarch.rpm"
+RPM_HASH = "01594b376abc0cc561d22e8460fe73eabf3469807b6b53d2862e9182165e651f0dc30572933bac91bc1bdff83a4b5bebade7a68c181fe8198d1290c33af32155"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-bottle \

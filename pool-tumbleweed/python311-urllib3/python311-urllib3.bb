@@ -17,8 +17,8 @@ LICENSE = "MIT"
 
 PV = "2.0.4"
 
-RPM_NAME = "python311-urllib3-2.0.4-1.1.noarch.rpm"
-RPM_HASH = "ac377f5879dfa6e5ff63e92c60acf2f9c405f6735ecc65f67666e063bba70eebbe38e7d451d1f55156515adbc04fca375205b007dc92bea0791eae7582abd299"
+RPM_NAME = "python311-urllib3-2.0.4-2.1.noarch.rpm"
+RPM_HASH = "aacdfedae10398ff289cf91b7c851f95600ab07e9651363dee929e88d0f2fd75bc30f8b6cad77b00be936796cf14a0ce5b0e9d6f93ad43ebe54d529a9c179f7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-urllib3 \

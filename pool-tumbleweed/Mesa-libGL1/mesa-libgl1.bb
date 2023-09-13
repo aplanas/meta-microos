@@ -9,10 +9,10 @@ programs wishing to use OpenGL to do so within a window provided by \
 the X Window System."
 LICENSE = "MIT"
 
-PV = "23.1.6"
+PV = "23.1.7"
 
-RPM_NAME = "Mesa-libGL1-23.1.6-356.1.aarch64.rpm"
-RPM_HASH = "824d142e5e0cb64784a0a003230082abbc35c6562f3417d5b6b3c58eaf6896bc2ce5ae4b658f861a76b6479f1d2665626b334247cc1229919d0768e895f11cfc"
+RPM_NAME = "Mesa-libGL1-23.1.7-357.1.aarch64.rpm"
+RPM_HASH = "82be24ebeba997f1db8f94ca2f73e6966d3d9421724ff738f58669613ce0201f38b461a269895cd2b9b4c4f7d279cea8fdd811feb644e90ba747ece787bd1053"
 
 RPROVIDES:${PN} += "Mesa-libGL1 \
 libGLX-mesa.so.0"

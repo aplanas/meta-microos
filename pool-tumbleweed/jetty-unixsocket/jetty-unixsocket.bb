@@ -14,8 +14,8 @@ LICENSE = "Apache-2.0 | EPL-1.0"
 
 PV = "9.4.51"
 
-RPM_NAME = "jetty-unixsocket-9.4.51-1.2.noarch.rpm"
-RPM_HASH = "85c7151bd39136eafb4be21e9f66d28e975b4f2ff0e8b92cbeddaaf4babf4b92d8f5b4d793e2f7a46ffd7010d582ece61b256f103c17fe1f97c8d4bdba58c3b0"
+RPM_NAME = "jetty-unixsocket-9.4.51-2.1.noarch.rpm"
+RPM_HASH = "98c7b8086585deb7abf3286f10e15b754a1defc355244630a41525a807e1e43821fa38f28ef185345cd573d2c9b333ab256383fe91337a83e41aff74deaef257"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-unixsocket \

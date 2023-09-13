@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.102"
 
-RPM_NAME = "open-isns-0.102-1.5.aarch64.rpm"
-RPM_HASH = "39b328b93629e82413d1f84f5a5c56274f6edaab08692efb9c0b5388eb7851ff88c431df6bebd84b9ab49f351e0319086b0d05f7082039e190c98946abb920d2"
+RPM_NAME = "open-isns-0.102-2.1.aarch64.rpm"
+RPM_HASH = "18a63f4c4337b5f14c774d0107469a83fa45225617dfade54abc57df82db83b509e66ca36ce5bee3c8b4c4ff30a7585248608c0d5e692ea5502e20c1b3e74d6e"
 
 RPROVIDES:${PN} += "config-open-isns \
 libisns.so.0 \
@@ -24,7 +24,6 @@ coreutils \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
-libslp.so.1 \
 systemd"
 
 inherit rpm

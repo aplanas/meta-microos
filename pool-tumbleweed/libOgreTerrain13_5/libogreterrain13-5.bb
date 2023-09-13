@@ -19,8 +19,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "13.5.3"
 
-RPM_NAME = "libOgreTerrain13_5-13.5.3-2.2.aarch64.rpm"
-RPM_HASH = "db869190a0a639a6385e4ec99cbabeb050476fe2ff82e8c9338d394d31efb93b0b6fba8ff5d8405c9119846245f899f1e07c831b34bafc1c47c6187dee0955c8"
+RPM_NAME = "libOgreTerrain13_5-13.5.3-2.3.aarch64.rpm"
+RPM_HASH = "9d8a49fd5b2c31304ea135d138a3ebfb17a75b8c59d1dc76b6b1a89dc9ba0bbe994cf569c6bcfcd8febb5f0851f51b1a799a52fd46c7f6bbb008145b59d4cb3c"
 
 RPROVIDES:${PN} += "libOgreTerrain.so.13.5 \
 libOgreTerrain13-5"

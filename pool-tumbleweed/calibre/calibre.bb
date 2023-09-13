@@ -6,10 +6,10 @@ metadata for books. It can download newspapers and convert them \
 into ebooks for convenient reading."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.25.0"
+PV = "6.26.0"
 
-RPM_NAME = "calibre-6.25.0-1.1.aarch64.rpm"
-RPM_HASH = "76f2d9303707ee92a3ad3c5b947072792a832a11fdb435c06e007c1dfc312f7403ab4e15b0c66d739c8e75e842ecd8c61e307a25cdd9546f68de5ea482148108"
+RPM_NAME = "calibre-6.26.0-1.1.aarch64.rpm"
+RPM_HASH = "61c68121bb2ecbc61dd2b5db80b92aef2e99b834e013aa19299969bc2f5a1496d9cd74a87b44b65b8cb34d185a5ffd8cc454afbfaa793916fc029a22ae273625"
 
 RPROVIDES:${PN} += "calibre \
 libheadless.so \

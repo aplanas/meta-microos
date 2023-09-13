@@ -7,14 +7,15 @@ because they are not available as openSUSE RPM packages: \
   * pandas-gbq \
   * pyxlsb \
   * s3fs \
+  * dataframe-api-compat \
  \
 You can install them directly through `pip3 install --user`, if needed."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.3"
+PV = "2.1.0"
 
-RPM_NAME = "python39-pandas-all-2.0.3-1.3.noarch.rpm"
-RPM_HASH = "9ec865a19ddc68c69fd0aa42b8b392617dc7f94b69ab4dd503aaf95ad46b9eb2ea0c00d0a754d89b953fb49b708a77a94935a211784f2bf9d9ab980a93596731"
+RPM_NAME = "python39-pandas-all-2.1.0-1.2.noarch.rpm"
+RPM_HASH = "07ba43369bb23e8a65dd98615bdcb10eb964f58af14eb52f8c671e3d25709775f13f705e6f946e238239ea89329af795deca9998547b66a2635f99fc1bf0671a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pandas-all"
@@ -28,7 +29,6 @@ python39-SQLAlchemy \
 python39-XlsxWriter \
 python39-beautifulsoup4 \
 python39-blosc \
-python39-brotlipy \
 python39-fastparquet \
 python39-fsspec \
 python39-gcsfs \
@@ -47,7 +47,6 @@ python39-pyreadstat \
 python39-pytest \
 python39-pytest-asyncio \
 python39-pytest-xdist \
-python39-python-snappy \
 python39-scipy \
 python39-tables \
 python39-tabulate \

@@ -2,10 +2,10 @@ SUMMARY = "SLURM plugins (loadable shared objects)"
 DESCRIPTION = "This package contains the SLURM plugins (loadable shared objects)"
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.2"
+PV = "23.02.4"
 
-RPM_NAME = "slurm-plugins-23.02.2-1.4.aarch64.rpm"
-RPM_HASH = "57d212de01dfa928622288d145d99fa22b3a9e279555b684a21286443755becc35121001a132e4fb00b14eafda84688f8456f08bc9b8200e0a3417318350dc5e"
+RPM_NAME = "slurm-plugins-23.02.4-2.1.aarch64.rpm"
+RPM_HASH = "e9d3fda9b04e6fbc0ffde57ff790667dac8283c7a2b6762f28e969d622f2ab1f7414b09271d7e375222993061309fd4abe317a4477beca7f630235e173247c52"
 
 RPROVIDES:${PN} += "config-slurm-plugins \
 libslurm-pmi.so \

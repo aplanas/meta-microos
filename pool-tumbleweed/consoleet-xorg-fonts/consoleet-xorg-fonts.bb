@@ -1,11 +1,12 @@
-SUMMARY = "Vector/OTF versions of the Xorg fixed font"
-DESCRIPTION = "The 8x13, 9x15 and 10x20 monospace bold fonts from Xorg."
-LICENSE = "MIT"
+SUMMARY = "Vector/OTF remakes of Xorg fonts"
+DESCRIPTION = "Vector remakes of the Xorg 'Misc Fixed' fonts (8x13, 9x15, 10x20) and \
+'Sony Fixed' (12x24)."
+LICENSE = "CC-BY-SA-4.0"
 
-PV = "7.6"
+PV = "7.6.1"
 
-RPM_NAME = "consoleet-xorg-fonts-7.6-1.2.noarch.rpm"
-RPM_HASH = "78a0d24a963a2c109db4bdf15b8a84a9d08b62093917c0bb2016a4354538b8a5bde063c3c799bbb3dd31ae14c214e7598d420ee35ea25d2c854376db73753a4e"
+RPM_NAME = "consoleet-xorg-fonts-7.6.1-1.1.noarch.rpm"
+RPM_HASH = "3e887243d1656b24362f154a94abbcac41880ee99d5603f237349a1699ad27a8223932fa20646829e0f2197b84f46df878bef086bafb8ea6d717b4fee52bcfd7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "consoleet-xorg-fonts"

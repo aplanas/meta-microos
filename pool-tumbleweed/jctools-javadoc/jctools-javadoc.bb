@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.3.0"
 
-RPM_NAME = "jctools-javadoc-3.3.0-2.11.noarch.rpm"
-RPM_HASH = "a414fc562bbc8b875a5da0962e3f3ab8d7b38a265b2379d453d29ba1c26eec9d97a287a1d5f242dac6651f006482e8fc7d6603c461d94049730303ed511c8004"
+RPM_NAME = "jctools-javadoc-3.3.0-3.1.noarch.rpm"
+RPM_HASH = "bc9c697830a3969f072c4108ec8d8ff3b5e0cf48bb54e3aa10bc648ca323e78bcaf4f370c57546dd6322231d40f868d1f2326b36f201f58bf3418ca2a8ea91bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jctools-javadoc"

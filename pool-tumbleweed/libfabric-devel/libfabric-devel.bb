@@ -3,10 +3,10 @@ DESCRIPTION = "libfabric provides a user-space API to access high-performance fa
 services, such as RDMA. This package contains the development files."
 LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
-PV = "1.18.1"
+PV = "1.19.0"
 
-RPM_NAME = "libfabric-devel-1.18.1-2.1.aarch64.rpm"
-RPM_HASH = "546f2027ce96eb01876563281089d24798d6a9f1ece49c9d7cb21d2f943fe19737d3adb281b66eca22565d4c69c9fc6717d4c1ef0fd1dc63dbf457bd4dceb2d8"
+RPM_NAME = "libfabric-devel-1.19.0-1.1.aarch64.rpm"
+RPM_HASH = "86477e5cba4de874181732cdca40c146bb43617a8c6e5873cd74d64be9f4960299dc26eb273b735de1e3a2d50a030e7572b62b5b887906c46cbdc3dd2f7c5734"
 
 RPROVIDES:${PN} += "libfabric-devel \
 pkgconfig-libfabric"

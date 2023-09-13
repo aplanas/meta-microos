@@ -2,10 +2,10 @@ SUMMARY = "Translations for package homebank"
 DESCRIPTION = "Provides translations for the 'homebank' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.6.6"
+PV = "5.7"
 
-RPM_NAME = "homebank-lang-5.6.6-1.1.noarch.rpm"
-RPM_HASH = "7736014d911fbccc651d013d0cc8c307c49b2d3c81f710e12455ee9e8971fe23eb46d2728d87a2ffe02198457db9e3659f54a6b5038d4312a3cc15eee90b88c9"
+RPM_NAME = "homebank-lang-5.7-1.1.noarch.rpm"
+RPM_HASH = "743345fce328be443b7cdbf573d67d32502b17eec00ed254aa990bd4dd79ddf5787cb5a97828c7e47f7632793f794aa8fc39b35180cddc3789eac5953c9bf4a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "homebank-lang \

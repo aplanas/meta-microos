@@ -8,8 +8,8 @@ LICENSE = "MIT & PHP-3.01"
 
 PV = "8.2.10"
 
-RPM_NAME = "php8-embed-8.2.10-1.1.aarch64.rpm"
-RPM_HASH = "36118aeb5b89f78a5cbba6aeefa58c29bebd188ad290ef3faeb706b5e2b35402fd8b262c1c17bd546b7e2ca36a095ce28a69737fab6f3b06aec8fd3970262d88"
+RPM_NAME = "php8-embed-8.2.10-2.1.aarch64.rpm"
+RPM_HASH = "23da76c429955d08a0c00eb6e2e00b5cbcf30371fa924c444e1ed03d3ef86b97bf23dd693da3dbd20ca9ffff976ddf7bcd9645fecc04e4634e88027c69f03d8e"
 
 RPROVIDES:${PN} += "libphp.so \
 php-sapi \

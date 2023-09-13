@@ -3,10 +3,10 @@ DESCRIPTION = "AT-SPI is a general interface for applications to make use of the
 accessibility toolkit. This version is based on dbus."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.48.3"
+PV = "2.48.4"
 
-RPM_NAME = "libatspi0-2.48.3-2.1.aarch64.rpm"
-RPM_HASH = "5b479412db55f1457e836e4ccbc573d2f9601441cbd5ed4fd0d9a9793afa06294690a8ad7363113fe502e7b26d6db6bb24ae13ba4c15fa5d41644e8feb09c0de"
+RPM_NAME = "libatspi0-2.48.4-1.1.aarch64.rpm"
+RPM_HASH = "c016b9d93ef12e898d10188e88fa5bb818dd69246cc005e4cd04b31f3f580d9bd75a492fdfa3326bd33a835d5a6ea2becdad1241b541653b0af2867a1d184d20"
 
 RPROVIDES:${PN} += "libatspi.so.0 \
 libatspi0"

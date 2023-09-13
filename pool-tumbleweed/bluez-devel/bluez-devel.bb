@@ -3,10 +3,10 @@ DESCRIPTION = "Files needed to develop applications for the BlueZ Bluetooth prot
 stack."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.68"
+PV = "5.69"
 
-RPM_NAME = "bluez-devel-5.68-4.2.aarch64.rpm"
-RPM_HASH = "2bcbb47b14acc0b4a59597d42582bbaba0e03d7dddae91db519a9db7d820369afd6710525e6f438e2f15d611986eccee862c27d48d245f69a0d1b64aa3dd16b4"
+RPM_NAME = "bluez-devel-5.69-1.1.aarch64.rpm"
+RPM_HASH = "df8a6f754355e52e4d77b8ed588953e340e0ac0f2859d8c201bb636d6339f0f83ca9035660d23e3b4f826e6a5b9703ec7baedee322293c50e0c47487e652effc"
 
 RPROVIDES:${PN} += "bluez-devel \
 pkgconfig-bluez"

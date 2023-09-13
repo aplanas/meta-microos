@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for the Nextcloud Desktop Client synchronisatio
 library."
 LICENSE = "GPL-2.0-or-later & LGPL-3.0-or-later"
 
-PV = "3.9.0"
+PV = "3.9.3"
 
-RPM_NAME = "libnextcloudsync-devel-3.9.0-3.1.aarch64.rpm"
-RPM_HASH = "4e09337e64160eeab19e6b008a463a94ea1583b655c71a9c85679aaf8e1b5c2dbaee5316dabb5e61fe02867adbf7f438108261b4c56bed319617bbae96c1beab"
+RPM_NAME = "libnextcloudsync-devel-3.9.3-1.1.aarch64.rpm"
+RPM_HASH = "ce3a188a941f5de4b020221a9c5eff6e6d9af7363c93be79c4ba39aff38baf70c652fdcbfca5205d0c3fc673dd28dffbdcc7a64c6da942c2ac5edc639756b382"
 
 RPROVIDES:${PN} += "libnextcloudsync-devel"
 

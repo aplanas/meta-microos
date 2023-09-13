@@ -10,10 +10,10 @@ configuration. This test package is meant for internal purposes. \
 Do not run test suite and file bug reports for each failed test!"
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.2"
+PV = "23.02.4"
 
-RPM_NAME = "slurm-testsuite-23.02.2-1.4.aarch64.rpm"
-RPM_HASH = "6140e066ca2c61d7b42e4743c2df1de55d5407fb0082a2a7fc07d49620ec8703eb066effaba27c29c2673acfb7717bbaaf898eb8e642b685ff3c385c91027137"
+RPM_NAME = "slurm-testsuite-23.02.4-2.1.aarch64.rpm"
+RPM_HASH = "ee14671f03f5e404b48df244b53b2badfcb45e0d46c36bb7355acd5db440a758bb25aacbdc7f2f5636eb6c5d86eea3915fe2648bd67e03246d1434d4ef7b13b4"
 
 RPROVIDES:${PN} += "config-slurm-testsuite \
 slurm-testsuite"

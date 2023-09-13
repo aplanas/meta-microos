@@ -2,10 +2,10 @@ SUMMARY = "Mesa Vulkan Overlay layer"
 DESCRIPTION = "This package contains the VK_MESA_Overlay Vulkan layer"
 LICENSE = "MIT"
 
-PV = "23.1.6"
+PV = "23.1.7"
 
-RPM_NAME = "Mesa-vulkan-overlay-23.1.6-356.1.aarch64.rpm"
-RPM_HASH = "7c38dcea13360c394e92d65ae1787dfb6ec18e6866331b9e02b35a738a8d7ab5d00d1b63558bcf1c4c2c67c4b8316e1f5a1c5b75af31c62d4f2a6b5499b3f026"
+RPM_NAME = "Mesa-vulkan-overlay-23.1.7-357.1.aarch64.rpm"
+RPM_HASH = "d702c1cc1e994d87b6c520e712db9c0a49c3c37a7162e48f7bec82c82e11f5611dcff064b2a6beb477c531b1d714afa7f379be958cef946c245caa8ebb08ba4a"
 
 RPROVIDES:${PN} += "Mesa-vulkan-overlay \
 libVkLayer-MESA-overlay.so"

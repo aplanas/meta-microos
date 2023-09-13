@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.36.1"
 
-RPM_NAME = "busybox-iputils-1.36.1-29.1.noarch.rpm"
-RPM_HASH = "08e0190ad86dd9412a9763bb2301bf7bfdfe9a50b27dc694ad6854545fca9baaa99cdf92dbcacdde4968e68194d35fcb743eef3ef82e302f13d1bf62dfcb825b"
+RPM_NAME = "busybox-iputils-1.36.1-30.1.noarch.rpm"
+RPM_HASH = "81a3a95348dbe6ea30af125dc053ad48b79cb4011a4c6a92ae704d4ff9ca379c6df493928aded8082953b80b0d0a36929aadd4484267b6224480e981e72da7ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/usr/bin/ping \

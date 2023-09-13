@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "13.5.3"
 
-RPM_NAME = "ogre-tools-13.5.3-2.2.aarch64.rpm"
-RPM_HASH = "a0c232ab94717848d1fc75faf8e4e6d950bbdca44832a079cb07d3b24c44dd01ec28383b78b0db51648e4ba1332fa35ead6e82069d1aa44a8c8e54fb2b70051b"
+RPM_NAME = "ogre-tools-13.5.3-2.3.aarch64.rpm"
+RPM_HASH = "577de4f36f36ef2cbcd60746c1083009dda4a2173424f430aa9a04a933e172f8cf498f0be610fbc61cf50d83cd7b2da9d75768c1738820ff038b84df429de4eb"
 
 RPROVIDES:${PN} += "ogre-tools"
 

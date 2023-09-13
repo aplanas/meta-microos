@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.4.4"
 
-RPM_NAME = "libpostproc55_9-4.4.4-2.2.aarch64.rpm"
-RPM_HASH = "c4d559a039fa7d8def574e119ac0863d3b182e74d391f4e1236de3857ea8eac303ab66645c8d79d060679360f70d807297ba754e0dc7e8fded34290b356b0d63"
+RPM_NAME = "libpostproc55_9-4.4.4-2.3.aarch64.rpm"
+RPM_HASH = "df53fe7497aad2f9ab1a389df518f06640717fe4bea039dac60b17748fadd593e16caca1078d9a9d8a3999cddc69aed003c0ce33d84f9762ce00ba51151fce63"
 
 RPROVIDES:${PN} += "libpostproc.so.55.9 \
 libpostproc55-9"

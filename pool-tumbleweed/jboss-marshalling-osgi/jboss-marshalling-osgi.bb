@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & LGPL-2.1-or-later"
 
 PV = "1.4.11"
 
-RPM_NAME = "jboss-marshalling-osgi-1.4.11-1.21.noarch.rpm"
-RPM_HASH = "ccc181ec704a7bbecd516cf531f72d06fd610e1619272a48dd1e0e73252de48afc6210c5cc38ab2157615eb13e8ba9501ba8bda9a5b6e45fc0a7207ed4d7f270"
+RPM_NAME = "jboss-marshalling-osgi-1.4.11-2.1.noarch.rpm"
+RPM_HASH = "eb846ce5d10e85bbd0cf9eb94222fb1268dc3ac8ff6bc6f21f5a1a711e667f3af42dd21155ee2f1ca6fac3ef149147df6cc0eaf36a886434b445b6c5a4ec70d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-marshalling-osgi \

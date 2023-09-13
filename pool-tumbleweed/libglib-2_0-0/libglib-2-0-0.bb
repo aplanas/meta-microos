@@ -4,10 +4,10 @@ data types, macros, type conversions, string utilities, file utilities, \
 a main loop abstraction, and so on."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.76.4"
+PV = "2.76.5"
 
-RPM_NAME = "libglib-2_0-0-2.76.4-1.1.aarch64.rpm"
-RPM_HASH = "a9151e3134c8eae2719406562147ee2b1adc4231edf5b895c5d925f2ce460e7e95de3b4828400bb228b6efec2141d47e24fd322c31c59130c237492070f0ea1c"
+RPM_NAME = "libglib-2_0-0-2.76.5-1.1.aarch64.rpm"
+RPM_HASH = "9f66a45ae2b8e61d6cf36f0516edc3b02a70f2d9bd21af8907723c88a02a09fe8dca171cb9cfc838f9e4108e8e1825ce11936ac3cb43ba8d30c12b0ab3d83ad1"
 
 RPROVIDES:${PN} += "glib2 \
 libglib-2-0-0 \

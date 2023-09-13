@@ -3,10 +3,10 @@ DESCRIPTION = "A library for the QUIC network protocol in Python. It features a 
 1.3 implementation, a QUIC stack and an HTTP/3 stack."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.9.20"
+PV = "0.9.21"
 
-RPM_NAME = "python310-aioquic-0.9.20-2.1.aarch64.rpm"
-RPM_HASH = "2169332b559a2b2ca1a587d623c4c8ead2cead51f790763b72b9463b374d508d83a7557f2649b491f2b831c84a5d5ee4b1461866456c373e223c0897829adfc1"
+RPM_NAME = "python310-aioquic-0.9.21-1.1.aarch64.rpm"
+RPM_HASH = "5b2d7fa965d962714355cf7ef19b85271ff48074cf9c724ec92a0ea4c7f8d581e04f4a02f7d353a94eb234f19c325c445e8f0dbdce68d1ec3de04f41d8ec5d54"
 
 RPROVIDES:${PN} += "python3.10dist-aioquic \
 python310-aioquic \

@@ -2,17 +2,21 @@ SUMMARY = "Compatibility shim for Ansible 2.9 and newer"
 DESCRIPTION = "Facilitate working with various versions of Ansible 2.9 and newer."
 LICENSE = "MIT"
 
-PV = "4.1.5"
+PV = "4.1.10"
 
-RPM_NAME = "python3-ansible-compat-4.1.5-1.1.noarch.rpm"
-RPM_HASH = "69b1ac1d6183be8546ad592c6c94bdcc53f8ba6a34c66c30fc2c80f9655bd03a059f8624a3133a81b931f412874532d65a10179bdca31fd151e6690d66e9c4e3"
+RPM_NAME = "python3-ansible-compat-4.1.10-1.1.noarch.rpm"
+RPM_HASH = "e2d9ab9171971a9bd51b2f37ab62129544c450c4329431b8419c6b44c473938ea1836daad0c8e74113186b67738ab578be62f402c1292086df7efdd72343be1a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ansible-compat \
 python3.11dist-ansible-compat \
 python3dist-ansible-compat"
 
-RDEPENDS:${PN} += "python-abi \
+RDEPENDS:${PN} += "ansible-core \
+python-abi \
+python3-PyYAML \
+python3-jsonschema \
+python3-packaging \
 python3-subprocess-tee \
 python3.11dist-ansible-core \
 python3.11dist-jsonschema \

@@ -2,10 +2,10 @@ SUMMARY = "Library for storage management"
 DESCRIPTION = "This package contains libstorage-ng, a library for storage management."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.5.136"
+PV = "4.5.141"
 
-RPM_NAME = "libstorage-ng1-4.5.136-1.1.aarch64.rpm"
-RPM_HASH = "368a330437dd4f593299f2a3332cdba521e6f6d70713756accace669003f57a67d596d350ba8738f0cab83c267485b8fafad58ce4df8c5f520281f1b7889d4d8"
+RPM_NAME = "libstorage-ng1-4.5.141-1.1.aarch64.rpm"
+RPM_HASH = "fc3e0a170081a8c41894e4f69ec3b164aecbfac7c23ca0c3687c6cf1bd73ec175d8c0e9a70bbc068fab4ece25e155992ef03053aae5a779be0806421da38e14f"
 
 RPROVIDES:${PN} += "libstorage-ng.so.1 \
 libstorage-ng1"

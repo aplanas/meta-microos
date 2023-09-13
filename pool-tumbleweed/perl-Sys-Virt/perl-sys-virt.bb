@@ -4,10 +4,10 @@ machine management APIs. This allows machines running within arbitrary \
 virtualization containers to be managed with a consistent API."
 LICENSE = "ClArtistic | GPL-2.0-or-later"
 
-PV = "9.4.0"
+PV = "9.7.0"
 
-RPM_NAME = "perl-Sys-Virt-9.4.0-2.2.aarch64.rpm"
-RPM_HASH = "c99d7c2b8be98d87d39fc1be4e1dc534a0a4a23b06e35bb77b469b23b5932847f5fef07ae5da76d3c1f8924194d11dfa12c364409a590b06401f32f3116091e2"
+RPM_NAME = "perl-Sys-Virt-9.7.0-1.1.aarch64.rpm"
+RPM_HASH = "dc9dcc9c4b04267202978bb86a4343bf357c0a13bb564080c5b6abee1fd22f7700a3b0ea662f132bb969c7f72b53476b75769d00716843ee2be5ca34aeed9b4c"
 
 RPROVIDES:${PN} += "perl-Sys--Virt \
 perl-Sys--Virt--Domain \
@@ -15,6 +15,7 @@ perl-Sys--Virt--DomainCheckpoint \
 perl-Sys--Virt--DomainSnapshot \
 perl-Sys--Virt--Error \
 perl-Sys--Virt--Event \
+perl-Sys--Virt--EventImpl \
 perl-Sys--Virt--Interface \
 perl-Sys--Virt--NWFilter \
 perl-Sys--Virt--NWFilterBinding \

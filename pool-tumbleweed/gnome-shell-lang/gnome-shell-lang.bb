@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-shell"
 DESCRIPTION = "Provides translations for the 'gnome-shell' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later"
 
-PV = "44.3"
+PV = "44.4"
 
-RPM_NAME = "gnome-shell-lang-44.3-1.1.noarch.rpm"
-RPM_HASH = "83bf562c854bdf0dcd48efae439be68c5c4f5a0bbbfb4b092bf7f251b9ec938e69e4bf4c88395f8441ad98091ef3a20b76ca0730033f9957286b2b73c9c4c1dc"
+RPM_NAME = "gnome-shell-lang-44.4-1.1.noarch.rpm"
+RPM_HASH = "4ad6feafe78c52288e7facf582d656bb1e0dfa815cfeec1a24201ec6e1637ad72c0577b6ac2318cc43c00d499f58dc7021f65ebe0214c11b58493bd245fde778"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-lang \

@@ -18,8 +18,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "13.5.3"
 
-RPM_NAME = "libOgreVolume13_5-13.5.3-2.2.aarch64.rpm"
-RPM_HASH = "5288c68e93eb8d771baf59a368622b06271297e82f0dc9c0e32b492a7c5ee0d24f1222b0a821889ab9b0f8faeece3bc9ec30288d81f000069e5a1ad2f89792e6"
+RPM_NAME = "libOgreVolume13_5-13.5.3-2.3.aarch64.rpm"
+RPM_HASH = "7e1cc90d74bf45d5dc9cfb7d9f624cebe605b2273884d2575370edd201caff0926281f618e1bff3beb2634388f0c93416afef888f58c0218e3cbfa11fc32e4c6"
 
 RPROVIDES:${PN} += "libOgreVolume.so.13.5 \
 libOgreVolume13-5"

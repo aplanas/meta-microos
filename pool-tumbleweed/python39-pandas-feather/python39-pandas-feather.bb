@@ -2,10 +2,10 @@ SUMMARY = "The python pandas[feather] extra"
 DESCRIPTION = "This package provides the [feather] extra for python-pandas"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.3"
+PV = "2.1.0"
 
-RPM_NAME = "python39-pandas-feather-2.0.3-1.3.noarch.rpm"
-RPM_HASH = "ea82d8aaead893aaa06a37267936725979d03b12390b161cdfb08d1d69fc2bb0d4d04e4094d0df1182c22954410e05745ef03d523ba7bc2e6b5724e8d1e1d706"
+RPM_NAME = "python39-pandas-feather-2.1.0-1.2.noarch.rpm"
+RPM_HASH = "b14cd7489549f585c7badc98642be8dd1e546779112a21920a0ddafe5742890ac9e515dff17effd50072e67dc2a466d76fa0ec2bef246501c0e829f7f40a4965"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pandas-feather"

@@ -2,10 +2,10 @@ SUMMARY = "Cockpit user interface for networking, using NetworkManager"
 DESCRIPTION = "The Cockpit component for managing networking.  This package uses NetworkManager."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "298"
+PV = "300.1"
 
-RPM_NAME = "cockpit-networkmanager-298-2.1.noarch.rpm"
-RPM_HASH = "319a96dcaa068909a15f8173e27e073599d202c8535560b4f8b647fcc1692f668f92ae50d343abcd7f3f033333bcdc0fbaa3696e3ad1158bf019bc3e18daf771"
+RPM_NAME = "cockpit-networkmanager-300.1-1.1.noarch.rpm"
+RPM_HASH = "2d56e3ef19e53736abe8b987b702bb29e2d1250acb2eb1d9700933f04c555cd9cfb67a8ae4629a2b7a46e24d198523093f4e45adc54f2cfb4bf2667807f9f4eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cockpit-networkmanager"

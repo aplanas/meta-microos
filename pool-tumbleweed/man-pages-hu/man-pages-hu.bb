@@ -2,10 +2,10 @@ SUMMARY = "Translation of man pages in Hungarian"
 DESCRIPTION = "This package provides translations of man pages in Hungarian."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.19.0"
+PV = "4.20.0"
 
-RPM_NAME = "man-pages-hu-4.19.0-1.1.noarch.rpm"
-RPM_HASH = "3df693563b36f1bc39e17549951858d8c33b769577c452a22fd86cb53dc5aaf6ad54691f0eadc88fe9dc6116896f8f4a03a027c15331d3739d1a11c1249d01c3"
+RPM_NAME = "man-pages-hu-4.20.0-1.1.noarch.rpm"
+RPM_HASH = "1a22b8954fbc9786726162eaa5de04bac632040cc0c40e1590359ae9324d1b4d895058f69c15493207feb9d72f6cda73e105ee0aff60428d76c9717260089b38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-man-pages-hu \

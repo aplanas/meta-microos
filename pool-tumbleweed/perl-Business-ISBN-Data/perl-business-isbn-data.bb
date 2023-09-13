@@ -27,10 +27,10 @@ part is historical). If you want to see where the data are from, check \
 '$Business::ISBN::country_data{_source}'."
 LICENSE = "Artistic-2.0"
 
-PV = "20230729.1.0"
+PV = "20230904.1.0"
 
-RPM_NAME = "perl-Business-ISBN-Data-20230729.1.0-1.2.noarch.rpm"
-RPM_HASH = "2a8c4de6babfc8d35749c2983dfe4ef2d7de2f29bbd74da11d060f4d269d6fbbcb6ad6d98a7a7d6f557b8834be9f42456c2570eac3ef6840f0b6d197d6a5c72a"
+RPM_NAME = "perl-Business-ISBN-Data-20230904.1.0-1.1.noarch.rpm"
+RPM_HASH = "a796e070690261cca5f7ce04cbc5ccb0f149270153b66b7f64650da712f40be0708624748ef2c4c488fd963d7d6222372768ffe551a104c27189bad38fac1684"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Business--ISBN--Data \

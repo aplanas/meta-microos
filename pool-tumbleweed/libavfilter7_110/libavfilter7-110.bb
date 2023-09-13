@@ -5,15 +5,15 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.4.4"
 
-RPM_NAME = "libavfilter7_110-4.4.4-2.2.aarch64.rpm"
-RPM_HASH = "4dd33b6a7f4b7f93d7aecb4f8d660497c0d07ad61c967bbcd099f2d1a230c9c6159e21c6c6f072a4ac9bf5a56054c152c3066ae8298910e24f2e06b0bb95ad78"
+RPM_NAME = "libavfilter7_110-4.4.4-2.3.aarch64.rpm"
+RPM_HASH = "07919808dd16f85fdc9a8f863409e3bcc516f893e021913cc6e3b40af23c4a0b52d6417367a55ce2acf2693a6054831afaf4eb27f4b837a291331ad90a4e27d4"
 
 RPROVIDES:${PN} += "libavfilter.so.7.110 \
 libavfilter7-110"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libSPIRV.so.12 \
+libSPIRV.so.13 \
 libass.so.9 \
 libavcodec.so.58.134 \
 libavcodec58-134 \
@@ -28,7 +28,7 @@ libc.so.6 \
 libfontconfig.so.1 \
 libfreetype.so.6 \
 libfribidi.so.0 \
-libglslang.so.12 \
+libglslang.so.13 \
 liblilv-0.so.0 \
 libm.so.6 \
 libmysofa.so.1 \

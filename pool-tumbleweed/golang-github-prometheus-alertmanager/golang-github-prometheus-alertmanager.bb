@@ -5,10 +5,10 @@ them to the correct receiver integration such as email, PagerDuty, or \
 OpsGenie. It also takes care of silencing and inhibition of alerts."
 LICENSE = "Apache-2.0"
 
-PV = "0.25.0"
+PV = "0.26.0"
 
-RPM_NAME = "golang-github-prometheus-alertmanager-0.25.0-2.2.aarch64.rpm"
-RPM_HASH = "b4101a85b5d6b3f0371c46beed82af160d522690de9bcc6e4d29d8ceff3ed3724487113fa9d4c5f38392dd1abfedf81527c203f1b37b11cba9e6de4de59c1f0a"
+RPM_NAME = "golang-github-prometheus-alertmanager-0.26.0-1.1.aarch64.rpm"
+RPM_HASH = "a96faca265b062c76026f51e9b2d24404d903e99b20fb676e1247026852f06ec8e4b1b0d4f2e89e3c63f1583f6a3878559378add245ae9d9c01e50585905e008"
 
 RPROVIDES:${PN} += "config-golang-github-prometheus-alertmanager \
 golang-github-prometheus-alertmanager \

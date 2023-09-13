@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "13.5.3"
 
-RPM_NAME = "ogre-python-13.5.3-2.2.aarch64.rpm"
-RPM_HASH = "ad25267ca3edcb84415141ca0ab787782d18d59f8943da6669f3411d46bfe7c6f77aa9818b9ecc0efa393ab0a5d8c3ce23469127cb858454b60a4f7d0150f66d"
+RPM_NAME = "ogre-python-13.5.3-2.3.aarch64.rpm"
+RPM_HASH = "ce59d5d2aac2587cf46adff6b6dec1875baa651a121dbbb0a330cf99edd958a9a61c06c849f09f410b90fc8ccb7bb2873a6a5a37193ca2b267a79b1653404d9e"
 
 RPROVIDES:${PN} += "ogre-python"
 

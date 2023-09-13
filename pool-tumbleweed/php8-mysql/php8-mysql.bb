@@ -4,8 +4,8 @@ LICENSE = "MIT & PHP-3.01"
 
 PV = "8.2.10"
 
-RPM_NAME = "php8-mysql-8.2.10-1.1.aarch64.rpm"
-RPM_HASH = "e0282b91da0bad67a93a609cefe7cc80b3c80f6ef827825e41350668e9696ad61fb1e9d2e8690f57f47791c3174262cb5c9b7b5a8c16641cd78c7e607ad6c6e3"
+RPM_NAME = "php8-mysql-8.2.10-2.1.aarch64.rpm"
+RPM_HASH = "d8a9fa0cb2dc1e7b709b344e0271ecf3cebf22cc8f66629782194ab2a4ee57975a35c0809e3785c66568458dc1e991df8a62004cba6c45f5ee4ace85f61f1131"
 
 RPROVIDES:${PN} += "config-php8-mysql \
 php-any-db \

@@ -3,14 +3,15 @@ DESCRIPTION = "A fork of xdg-desktop-portal backend for wlroots for Hyprland. It
 other wlroots-based Wayland compositors too with some limitations."
 LICENSE = "MIT"
 
-PV = "0.5.0"
+PV = "1.0.0"
 
-RPM_NAME = "xdg-desktop-portal-hyprland-0.5.0-3.1.aarch64.rpm"
-RPM_HASH = "729a545546a8c7e866f1e0eaa2f6aba0340f97005181b36411b6a239813c4142b8891a0436e204dfb4f9b7953df5246141947aac5eb3ee913f15b9ca85556d5f"
+RPM_NAME = "xdg-desktop-portal-hyprland-1.0.0-5.1.aarch64.rpm"
+RPM_HASH = "24ccfa790ba109477fc2597ee39c8be7dfb17d3b630a0d07d6c3ed694401b8c270cbd8e55705f94fcf85fc1b2e368eabdde309956d6199104a3d6ac19b56c299"
 
 RPROVIDES:${PN} += "xdg-desktop-portal-hyprland"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "/usr/bin/sh \
+ld-linux-aarch64.so.1 \
 libQt6Core.so.6 \
 libQt6Gui.so.6 \
 libQt6Widgets.so.6 \
@@ -18,11 +19,10 @@ libc.so.6 \
 libdrm.so.2 \
 libgbm.so.1 \
 libgcc-s.so.1 \
-libinih.so.0 \
+libm.so.6 \
 libpipewire-0.3.so.0 \
+libsdbus-c++.so.1 \
 libstdc++.so.6 \
-libsystemd.so.0 \
-libuuid.so.1 \
 libwayland-client.so.0 \
 xdg-desktop-portal"
 

@@ -5,10 +5,10 @@ interface. Complex tasks like 2d and 3d plots in publication-ready quality are \
 built out of these primitives."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.15"
+PV = "0.16"
 
-RPM_NAME = "python311-PyX-0.15-2.13.noarch.rpm"
-RPM_HASH = "1f28966581a1ee3863cdcbe59afe4d8f746bc7f9e09f058a3e967f7d750f5fac6a335ba3f3934fe8620b4dcadb86284cf03714c77bb3292e5577ad67947d0cb3"
+RPM_NAME = "python311-PyX-0.16-1.1.noarch.rpm"
+RPM_HASH = "4e601511a65ec0139c2fc192094f1c4b8cc73aaf4027ab6dabf8891c128144759b7cbf24173fd4db2fd52396d1f17fb17eb276ae53f71fb169cec1e8451c1db0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-PyX \

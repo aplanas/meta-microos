@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "jboss-websocket-1.0-api-1.0.0-2.11.noarch.rpm"
-RPM_HASH = "7472046cce0d80cb135e1f08bb5de805cb299276f36f0853cd69f4d7f4d29f73a5ec97c360fa41f6b9e91e0ad941a5161703daa1279dc4047514053f4aaab6f4"
+RPM_NAME = "jboss-websocket-1.0-api-1.0.0-3.1.noarch.rpm"
+RPM_HASH = "54ce2be0975912e8114bd86c1b6a5ab1ab55e7ca191e6c8a5369b66c8bb9fd12b46d57cc74743b16dcafc60f619f1b1f90b33de73f6f0e964e6e1724cc7093a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-websocket-1.0-api \

@@ -2,10 +2,10 @@ SUMMARY = "Translation of man pages in Spanish"
 DESCRIPTION = "This package provides translations of man pages in Spanish."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.19.0"
+PV = "4.20.0"
 
-RPM_NAME = "man-pages-es-4.19.0-1.1.noarch.rpm"
-RPM_HASH = "c21ccf681ece7cf9ea2cbe040485fe25f796285fd2d892876d94886abe6bc50b8f0e8558b090e6cf3d8cfe8a4e4ab17b33b11cf43d26ab526a8637a2c47b6f3b"
+RPM_NAME = "man-pages-es-4.20.0-1.1.noarch.rpm"
+RPM_HASH = "266384a98f9a0f389dfaaa18f446a2c00faf98ba01289419113b02c55ae98d97335e932e13270865ba05705aa364f947923f86e074fab3f86ea0b95b7bce52e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-man-pages-es \

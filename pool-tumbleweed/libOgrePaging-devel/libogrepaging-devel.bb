@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "13.5.3"
 
-RPM_NAME = "libOgrePaging-devel-13.5.3-2.2.aarch64.rpm"
-RPM_HASH = "1c001aecfd6a115b8d1623078c9229197eabd91428a7d3492e91431cfe08860511b247d6ae0a83c8aae1cf42b7ec44b90dea3074971e3e960d981063e861cd6e"
+RPM_NAME = "libOgrePaging-devel-13.5.3-2.3.aarch64.rpm"
+RPM_HASH = "8b29772e2bfce1d1581e778865950ee5ff53e141b7616ee57268f75ef85c26ee6a0a6f6299f1f6831e17aea2e0921300e047693b755f0e94d7e8584923f07b1a"
 
 RPROVIDES:${PN} += "libOgrePaging-devel \
 pkgconfig-OGRE-Paging"

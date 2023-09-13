@@ -2,12 +2,14 @@ SUMMARY = "JIT compiler for Lua language"
 DESCRIPTION = "A Just-In-Time Compiler for Lua language"
 LICENSE = "MIT"
 
-PV = "2.1.0~beta3+git.1669107176.46aa45d"
+PV = "5.1.2.1.0+git.1693350652.41fb94d"
 
-RPM_NAME = "luajit-2.1.0~beta3+git.1669107176.46aa45d-3.1.aarch64.rpm"
-RPM_HASH = "16ee896be89c2eaf1ecb7060e1ef567b1e46351fe8a452e5ccdddcb5e497f67110947a71e13c87b1e3179589a9a2d6ab9b1c86f95aec2d108f95a426843081b8"
+RPM_NAME = "luajit-5.1.2.1.0+git.1693350652.41fb94d-1.1.aarch64.rpm"
+RPM_HASH = "d59a7ca2c12aa121ebba9942537757567510dbc227e72344f61b50dceddbdf65c480220ee15111070398ce7dbcdfc585d62468a63a08dec0797c750ffc539604"
 
-RPROVIDES:${PN} += "luajit"
+RPROVIDES:${PN} += "lua51-luajit \
+luajit \
+moonjit"
 
 RDEPENDS:${PN} += "libc.so.6 \
 libgcc-s.so.1 \

@@ -4,10 +4,10 @@ standard library. \
 This package contains headers and build system files for it."
 LICENSE = "Apache-2.0"
 
-PV = "20230125.3"
+PV = "20230802.0"
 
-RPM_NAME = "abseil-cpp-devel-20230125.3-3.1.aarch64.rpm"
-RPM_HASH = "3676b8f2b1ece63cb46b7962e08164e953bf25ae2bfc5f107c06bb765c80654eb14dc827e64e2d048492b67a4c1d980f451a18e9a727c99f0c98322d162903a3"
+RPM_NAME = "abseil-cpp-devel-20230802.0-1.1.aarch64.rpm"
+RPM_HASH = "a8160522a70cb15c8364d83ce13488ddf081305f8b3b80c583b8adbf3a0ef32e1ce1369db3f32baca56bac96d8e087c52db75ef19ca96835fd553cd79714f38b"
 
 RPROVIDES:${PN} += "abseil-cpp-devel \
 cmake-absl \
@@ -88,6 +88,7 @@ pkgconfig-absl-hash-policy-traits \
 pkgconfig-absl-hashtable-debug \
 pkgconfig-absl-hashtable-debug-hooks \
 pkgconfig-absl-hashtablez-sampler \
+pkgconfig-absl-if-constexpr \
 pkgconfig-absl-inlined-vector \
 pkgconfig-absl-inlined-vector-internal \
 pkgconfig-absl-int128 \
@@ -130,6 +131,7 @@ pkgconfig-absl-node-hash-set \
 pkgconfig-absl-node-slot-policy \
 pkgconfig-absl-non-temporal-arm-intrinsics \
 pkgconfig-absl-non-temporal-memcpy \
+pkgconfig-absl-nullability \
 pkgconfig-absl-numeric \
 pkgconfig-absl-numeric-representation \
 pkgconfig-absl-optional \
@@ -175,6 +177,7 @@ pkgconfig-absl-statusor \
 pkgconfig-absl-str-format \
 pkgconfig-absl-str-format-internal \
 pkgconfig-absl-strerror \
+pkgconfig-absl-string-view \
 pkgconfig-absl-strings \
 pkgconfig-absl-strings-internal \
 pkgconfig-absl-symbolize \
@@ -187,6 +190,6 @@ pkgconfig-absl-utility \
 pkgconfig-absl-variant"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libabsl2301-0-0"
+libabsl2308-0-0"
 
 inherit rpm

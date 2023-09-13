@@ -2,10 +2,10 @@ SUMMARY = "Mesa Direct3D9 state tracker"
 DESCRIPTION = "Mesa Direct3D9 state tracker"
 LICENSE = "MIT"
 
-PV = "23.1.6"
+PV = "23.1.7"
 
-RPM_NAME = "Mesa-libd3d-23.1.6-356.1.aarch64.rpm"
-RPM_HASH = "3b77713177f0f1b2b3a77a7d77e9ad96a871fde805b178f2ba3f56baf308276739c3ac28dfdfe3216dd642f8ac679d94a799d6aa857262f0afb84484dd9dd14c"
+RPM_NAME = "Mesa-libd3d-23.1.7-357.1.aarch64.rpm"
+RPM_HASH = "1d9a0116ec4af9866d45e2b35bb95330d4fcbaedc49d468390234e772b486d5e159850a13d5ef5d02408ab6b9ed2972b3f06637d1435d35500bf4df2b117e746"
 
 RPROVIDES:${PN} += "Mesa-libd3d \
 d3dadapter9.so.1"

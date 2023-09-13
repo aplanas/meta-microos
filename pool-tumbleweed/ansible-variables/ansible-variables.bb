@@ -3,12 +3,12 @@ DESCRIPTION = "The Ansible inventory is a framework for declaring variables in a
 hierarchical manner. There a lot of different places where a variable \
 can be defined. ansible-variables displays where host context \
 variables originate from."
-LICENSE = "GPL-3.0+"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "0.5.0"
+PV = "0.5.1"
 
-RPM_NAME = "ansible-variables-0.5.0-1.2.noarch.rpm"
-RPM_HASH = "5a345854ed646f4c37148204f35e885347186fa0e113dca9381638254b4980a5640f3d21a4d5ccddbb1093eb29cf723998510913d65a866a7f3849d1b3cc1d55"
+RPM_NAME = "ansible-variables-0.5.1-1.1.noarch.rpm"
+RPM_HASH = "f13779c2743d0e8c565ae0a90422336987653be49d9038bfbe56589ed2050e23006f0717d3f1f58e84700854b599142b60a528ec2729e5f9f0074702288cc647"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ansible-variables \

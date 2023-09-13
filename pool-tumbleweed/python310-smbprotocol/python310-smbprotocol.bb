@@ -16,10 +16,10 @@ Features \
 -  Sending of multiple messages in one packet (compounding)"
 LICENSE = "MIT"
 
-PV = "1.10.1"
+PV = "1.11.0"
 
-RPM_NAME = "python310-smbprotocol-1.10.1-1.5.noarch.rpm"
-RPM_HASH = "e0b6adc20954b6cef5ed005fe26fcfbaa7ceced02ddce54675636e4798a1f7df1c9ba71b3737c2027e814f078f572a9a28f57338ac14f190900503655897253c"
+RPM_NAME = "python310-smbprotocol-1.11.0-1.1.noarch.rpm"
+RPM_HASH = "c5b825224bc6544aa667da5182a630f3935ea401b00cdd9ebcbcc2d41ab4c573c0ec8e55f41d1578c3077b668abacec11a4aff262f5a2602f82bf690cb7704b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-smbprotocol \

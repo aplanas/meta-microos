@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.6.1"
 
-RPM_NAME = "apache-commons-math-3.6.1-7.8.noarch.rpm"
-RPM_HASH = "fcde56d2adbd051dad7b141754f7a991c275a1b86c11ca2c8e452e3859202849e32f5f64726daeb3c56fb5851eefda7e2ec40a585f5e61244432e8fbce9a88a2"
+RPM_NAME = "apache-commons-math-3.6.1-8.1.noarch.rpm"
+RPM_HASH = "546c3fe9a85c75503d7718f713fcae3300419c852fec42bdb9ad8de75f9f6cd1e480bb8bbb7f6ca5f655f990aa5f93798ec7aad183219d71fb47c56eb8da7740"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-math \

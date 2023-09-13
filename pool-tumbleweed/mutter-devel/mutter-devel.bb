@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains libraries and header files for developin
 applications that want to make use of the mutter library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.3"
+PV = "44.4"
 
-RPM_NAME = "mutter-devel-44.3-4.1.aarch64.rpm"
-RPM_HASH = "836161ea6dadec3b1e08afe03ebd2c9c151e09ca6472c03c221e965a73adf6d4b0cad4d97e5d9c6da026f269723eee4b8f46d677a2c29241cea4c0a2a025e8f8"
+RPM_NAME = "mutter-devel-44.4-1.1.aarch64.rpm"
+RPM_HASH = "7e421f719d5ced043bbc9083a5a3eb1c3b8318b6b043ecb6836e96495652c82d259a796b1dcb56beb08cb01bf9ae2fef49ed864e15f5746ed0a03286bed1e271"
 
 RPROVIDES:${PN} += "mutter-devel \
 pkgconfig-libmutter-12 \

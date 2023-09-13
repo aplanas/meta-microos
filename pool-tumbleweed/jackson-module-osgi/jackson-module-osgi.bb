@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.15.2"
 
-RPM_NAME = "jackson-module-osgi-2.15.2-1.1.noarch.rpm"
-RPM_HASH = "03c0b3380e700c6fd6412632aaaedf9243bff53c120c3dd3149ccc4941527f5c8d2ae12a34969b16e05badcc1e0e69bff8c6b330f8d396f50f74e55e4c57267d"
+RPM_NAME = "jackson-module-osgi-2.15.2-2.1.noarch.rpm"
+RPM_HASH = "f1bd7dbe105f7cd08afd223b34a78be5fb05dce9ceb7ffe774b6475b2481e8c6467bd5362e72b5728078eb36a73afc59932005c8b9c5124222610d943d285e57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-module-osgi \

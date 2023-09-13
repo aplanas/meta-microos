@@ -10,8 +10,8 @@ LICENSE = "MIT & PHP-3.01"
 
 PV = "8.2.10"
 
-RPM_NAME = "php8-snmp-8.2.10-1.1.aarch64.rpm"
-RPM_HASH = "8bbceb442c37aa4f0aa291477d95e6b2054bb26a63da3259fe40f16403318a621d34e826378b8779aac5bf648e7c5ea2da9d9eb7d1de8187b37ea972b27c9468"
+RPM_NAME = "php8-snmp-8.2.10-2.1.aarch64.rpm"
+RPM_HASH = "97468b8853a83b360bdc76f588ce537d4938155214a31e63b77f2fb820f5206291a674252da8ccf2592c7cde4031dceadc4e6d118ac4083a5739cb96fc55d3fd"
 
 RPROVIDES:${PN} += "config-php8-snmp \
 php-snmp \

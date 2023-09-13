@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.9.5"
 
-RPM_NAME = "python310-psutil-5.9.5-2.1.aarch64.rpm"
-RPM_HASH = "9c739c4463360550fc0357c01b8a5531d65be94817fc9e5ff5453b593dd21c39b964cacd807fd7c66faff111f197d2c0436274338de20217405ee05247d59470"
+RPM_NAME = "python310-psutil-5.9.5-3.1.aarch64.rpm"
+RPM_HASH = "6a894d63f6c8f884bc97ecea53433ddb20a0db1c6e79a635a1bc6772d3dee9503d94f40a63b93d5cd79083835b33a8cff93c4205f2e669b96e7e5a34bc29305d"
 
 RPROVIDES:${PN} += "python3.10dist-psutil \
 python310-psutil \

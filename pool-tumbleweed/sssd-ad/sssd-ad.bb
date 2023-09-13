@@ -4,10 +4,10 @@ fetch identity data from and authenticate against an Active Directory \
 server."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.9.1"
+PV = "2.9.2"
 
-RPM_NAME = "sssd-ad-2.9.1-1.1.aarch64.rpm"
-RPM_HASH = "b55a0ed482dcdcbaa02a32527577969bda3a6dcd7a0d33389e811c5382a7232207166aec60519937587567da363777c3ec2f19a35384f95bb5d13043e64799f8"
+RPM_NAME = "sssd-ad-2.9.2-1.1.aarch64.rpm"
+RPM_HASH = "82855117ece87abcab6a1ac59eaa851d59d96c8e6c0aff674d42f175d49ff4a43a2e24f0b0c4d7edb08cc5a3ba0d7507ebca956dff968540187f5463abecd9b2"
 
 RPROVIDES:${PN} += "libsss-ad.so \
 sssd-ad"

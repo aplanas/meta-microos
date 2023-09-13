@@ -7,10 +7,10 @@ It supports creation of archives with simple MSZIP compression. \
 This package contains the introspection files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.5"
+PV = "1.6"
 
-RPM_NAME = "typelib-1_0-GCab-1_0-1.5-1.6.aarch64.rpm"
-RPM_HASH = "e656bfdc3683493a386d51cab63a621f99b1fd50f3281952bc8b63e8df515426df9912c991c411947e3b2527fec2dfdff46098fa11559da0c312a560ebb4dc5c"
+RPM_NAME = "typelib-1_0-GCab-1_0-1.6-1.1.aarch64.rpm"
+RPM_HASH = "447dc7e909f1c2942ea659888f56b83873c3b5169fb400582fb6bab450e39864c6ca00b30ad14592d609f896b881d0b2fd0b4c6cf067874889cbad78e6153b25"
 
 RPROVIDES:${PN} += "typelib-1-0-GCab-1-0 \
 typelib-GCab"

@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.1.0"
 
-RPM_NAME = "openvswitch-vtep-3.1.0-14.3.aarch64.rpm"
-RPM_HASH = "ffe9264b6703c4fba6f5cac497cc0720e0ed51fd78ffb0082d02ae2a64f3c8857155fc2d3e5a20b34d25cfa8d3d7570a143e437639859c5cb7215bca9c246233"
+RPM_NAME = "openvswitch-vtep-3.1.0-15.1.aarch64.rpm"
+RPM_HASH = "0751f6203458c7df8055b4e8aef78c4c9ce172ef4bd172a0fb6d70535c93da688f88bd2488d8327e91e146919de10b897c3149bcf08bea0599234207fcc152f8"
 
 RPROVIDES:${PN} += "openvswitch-dpdk-vtep \
 openvswitch-vtep"

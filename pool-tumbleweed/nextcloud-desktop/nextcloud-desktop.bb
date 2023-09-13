@@ -9,10 +9,10 @@ the server. Simply copy a file into the directory and the desktop \
 synchronisation client does the rest."
 LICENSE = "GPL-2.0-or-later & LGPL-3.0-or-later"
 
-PV = "3.9.0"
+PV = "3.9.3"
 
-RPM_NAME = "nextcloud-desktop-3.9.0-3.1.aarch64.rpm"
-RPM_HASH = "e2d6755c46a44d179a89c26ff3934b95ae8eecf2d0cc0156f5f4ecedad161814903bbceef257a4fdecaabf9afe08103919a9a8953a34439fcbc2ce669f99caf6"
+RPM_NAME = "nextcloud-desktop-3.9.3-1.1.aarch64.rpm"
+RPM_HASH = "c183c95cdf015504e0d5786598227a6a197f026b22e3e0e9679235be914e650cd3b31de7b98de9cf4ae1479e4e541680a8e6f980291506b0ad5183cc805a8f62"
 
 RPROVIDES:${PN} += "nextcloud-client \
 nextcloud-client-lang \
@@ -34,6 +34,7 @@ libQt5Widgets.so.5 \
 libQt5Xml.so.5 \
 libc.so.6 \
 libcloudproviders.so.0 \
+libcrypto.so.3 \
 libgcc-s.so.1 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \

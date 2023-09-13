@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.15.2"
 
-RPM_NAME = "jackson-jaxrs-providers-2.15.2-1.1.noarch.rpm"
-RPM_HASH = "429c48d1ef5bb23cb2f6dffcd1fbbf64c839de6847a3c34fcc0bc370740cc00a9ea966c64e880d37c10768e31fe154bcdc04dec65f9c166caa73b1077483ce23"
+RPM_NAME = "jackson-jaxrs-providers-2.15.2-2.1.noarch.rpm"
+RPM_HASH = "f77b77d8b0f58631dee747cbb2a5f96725907adea848b13232061a099b2d1776266080e4f4b7680277f1460c10a6eb4392e213ad9e68af10e6577e2cbcf4b3d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-jaxrs-providers \

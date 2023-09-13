@@ -3,10 +3,10 @@ DESCRIPTION = "sphinxcontrib-webuspport provides a Python API to integrate Sphin
 documentation into your Web application."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.2.4"
+PV = "1.2.6"
 
-RPM_NAME = "python39-sphinxcontrib-websupport-1.2.4-4.3.noarch.rpm"
-RPM_HASH = "f079688d19cf876f63e029533530c280a39e5c489e2fdced76d3c8b858a5f68b0001695ba88e60b662c1b58dc8916ba9de1d556dc02148018783b2d15fcfaf5e"
+RPM_NAME = "python39-sphinxcontrib-websupport-1.2.6-1.1.noarch.rpm"
+RPM_HASH = "2655fa2ba46a320e108fd0444315a2689f81dd4bc4cdda46996f3da3daae0d0561469ea6cf556e4e8103525beb05fe8b09f514360af39e7b6e0f168c9005af7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinxcontrib-websupport \

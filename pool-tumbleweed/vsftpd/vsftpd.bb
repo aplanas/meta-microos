@@ -12,8 +12,8 @@ LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
 PV = "3.0.5"
 
-RPM_NAME = "vsftpd-3.0.5-10.1.aarch64.rpm"
-RPM_HASH = "2b11f9a6ef5786b8a7629297cd3101377c8312665278a424192101fe570d023abd01d1cd1d0f7b3c3071c7ccb4153ffcb76f26feea41bfc0057f7abc9427f774"
+RPM_NAME = "vsftpd-3.0.5-11.1.aarch64.rpm"
+RPM_HASH = "4a61a3d49dd5d29f9ac58aca5f4ae0cd225032aa1a8cbab5cbb9f6177ceb91b6302d4290f330a9cbeda5b2e7d10f2945b6253e285b935dde08795a387e739ec3"
 
 RPROVIDES:${PN} += "config-vsftpd \
 ftp-server \

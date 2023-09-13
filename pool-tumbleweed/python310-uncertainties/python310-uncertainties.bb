@@ -6,15 +6,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.7"
 
-RPM_NAME = "python310-uncertainties-3.1.7-1.6.noarch.rpm"
-RPM_HASH = "2b094c255533dcc06b8bd0b72876cbda00b07cc72a686f6454fb3cd7650c69ef59b7b5328e1ae0d3d2c55cab77c9bbc3880867a68aa7da4c383b92d925be1c75"
+RPM_NAME = "python310-uncertainties-3.1.7-2.1.noarch.rpm"
+RPM_HASH = "3135081a69e5fcc222ec82a41025ad4761acb9fd704f6b79ba3b601ec04f7323b9fa41b0a84569a4210ba1b2c739f04e19dc7916f8fe4dc939e0e4f9044a5b80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-uncertainties \
 python310-uncertainties \
 python3dist-uncertainties"
 
-RDEPENDS:${PN} += "python-abi \
-python310-future"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

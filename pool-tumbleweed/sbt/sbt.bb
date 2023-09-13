@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.13.18"
 
-RPM_NAME = "sbt-0.13.18-14.1.noarch.rpm"
-RPM_HASH = "17b3c0c05f6ab84a7f32e45fb5747badddfeaacd153223ce1698c8af45de3e73e556f4651c32b47e42d9aab14c485c6476fe9cbbbb368108a67a33cfc8d0576c"
+RPM_NAME = "sbt-0.13.18-15.1.noarch.rpm"
+RPM_HASH = "a25e39881dca0712fd21f30129f2fce896e1e0e63e79b4a4bfec311464684b1b78bad7eed1ee78d5489066536c688086d4ab935fc7f5204536e645691e98f002"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.scala-sbt-actions \

@@ -11,8 +11,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.4.4"
 
-RPM_NAME = "ffmpeg-4-private-devel-4.4.4-2.2.aarch64.rpm"
-RPM_HASH = "31ddd0a883ec83991a90b7021f9a4f565c859410be99e4cc52b6bb2261813b4ed37355cc15aa0d7d80cfb8374fea8d5879958adf848fd66161ab2e5235345fc1"
+RPM_NAME = "ffmpeg-4-private-devel-4.4.4-2.3.aarch64.rpm"
+RPM_HASH = "6a2cbc02e404f41fff24704aa38ea0611129bb992fa4f879025c3d9dc08bf99e8d1af1a1d88c2b49106145659fa5d5192ea846d64a21520fee4087b676092553"
 
 RPROVIDES:${PN} += "ffmpeg-4-private-devel \
 ffmpeg-private-devel"

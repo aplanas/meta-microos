@@ -5,8 +5,8 @@ LICENSE = "MIT & PHP-3.01"
 
 PV = "8.2.10"
 
-RPM_NAME = "php8-gmp-8.2.10-1.1.aarch64.rpm"
-RPM_HASH = "0ef9a44ce87c1d44cf31ec8e1fe211b411bcf9e8ec43db66d78d8e798495961ea1ad087ddfeb7c145815838ac7a3c7f214e9d7a1ab36cac570401e1cbd4e12da"
+RPM_NAME = "php8-gmp-8.2.10-2.1.aarch64.rpm"
+RPM_HASH = "d87e9c2e06fda99c34607b4c5e83b77a539d1f29652f22a8e26b6ae51f8913d77fcfd8638cc64da16fbf3b7dd9b6ac37acdbaf3a8036ef77ec26e38a0e665041"
 
 RPROVIDES:${PN} += "config-php8-gmp \
 php-gmp \

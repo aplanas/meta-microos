@@ -10,10 +10,10 @@ This also includes the Python distutils, which were in the Python \
 package up to version 2.2.2."
 LICENSE = "Python-2.0"
 
-PV = "3.11.4"
+PV = "3.11.5"
 
-RPM_NAME = "python311-devel-3.11.4-3.1.aarch64.rpm"
-RPM_HASH = "81e3e5b3907a7e3fde5344af26397f5a77288b8726fba70cad8eb79bc3e5c53a94ee6e42a9c17543bb5827e46bb9109efaddc89b5ae7fda0efe83335bdfb05b9"
+RPM_NAME = "python311-devel-3.11.5-1.2.aarch64.rpm"
+RPM_HASH = "4825e677fe8f4c730aa4bcc272e557c8ca8c40193b4159d9ba318b3f7c029592248cd6c817afbce84dfe3076a0fc95272c7f85ef4daead1f4fa019085e8a2a94"
 
 RPROVIDES:${PN} += "libpython3.so \
 pkgconfig-python-3.11 \

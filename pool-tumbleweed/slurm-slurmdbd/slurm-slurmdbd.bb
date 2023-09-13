@@ -2,10 +2,10 @@ SUMMARY = "SLURM database daemon"
 DESCRIPTION = "The SLURM database daemon provides accounting of jobs in a database."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.2"
+PV = "23.02.4"
 
-RPM_NAME = "slurm-slurmdbd-23.02.2-1.4.aarch64.rpm"
-RPM_HASH = "0f168468edbc1c87b5fddff8afcea2b2c142c7607b19269ecf98f4ecb2c75adf0b86cd92b3e6200013f56e5f46c3579d35e1ea926bdb2d2d8ffa5a0651849e5b"
+RPM_NAME = "slurm-slurmdbd-23.02.4-2.1.aarch64.rpm"
+RPM_HASH = "062443795ce25914c666b3c794f18311f7d5d0dd29d06b418c048d3596fcce539efc1700d6f26fc8e37f535300fee108b72822e10098cee4221a335ea02b1c44"
 
 RPROVIDES:${PN} += "config-slurm-slurmdbd \
 slurm-slurmdbd"

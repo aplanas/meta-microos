@@ -2,10 +2,10 @@ SUMMARY = "The python pandas[fss] extra"
 DESCRIPTION = "This package provides the [fss] extra for python-pandas"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.3"
+PV = "2.1.0"
 
-RPM_NAME = "python39-pandas-fss-2.0.3-1.3.noarch.rpm"
-RPM_HASH = "fafdfeedf47b4a5b6dd4acd82b14c3690f71ff50e9616d61082aa9fbfb3a7d29acef4ad47de244981e409105c3c2d76d333ba0a4d332fbea78d6754994fb4609"
+RPM_NAME = "python39-pandas-fss-2.1.0-1.2.noarch.rpm"
+RPM_HASH = "e11c27a0a8223d629a14d9f0953b8db354f5c22ca522f08be47a84d9cd03defc2d2e241b49debb4210e6db7e141214d0057652cae71bad6c15b0a2464276979a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pandas-fss"

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.4.0+git20230818.5cdd21d0"
 
-RPM_NAME = "rpmlint-mini-2.4.0+git20230818.5cdd21d0-12.11.aarch64.rpm"
-RPM_HASH = "b60742ae8bf99779e1ee0ce56c4d58b5c66d00b12a4c1af6cc70eeb657d08643c1cba1f3ba98999d21439aa7d9d47a5f64a462adcb4ed6dedc062d2f5913540b"
+RPM_NAME = "rpmlint-mini-2.4.0+git20230818.5cdd21d0-12.12.aarch64.rpm"
+RPM_HASH = "3b3610bdf640a2320a720aed89a393d16f2bdf451382b3e073ddcb2b256af076bc85a00b626a36afa147c8333b6aea3c896a84e8adadba8f92dc2820d6b0dfe9"
 
 RPROVIDES:${PN} += "rpmlint-mini"
 

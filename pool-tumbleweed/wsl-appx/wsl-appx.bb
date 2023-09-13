@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1"
 
-RPM_NAME = "wsl-appx-1-14.5.aarch64.rpm"
-RPM_HASH = "ffe45de44f3518acca21dce57929806b97bd700e89832b63e36e8398a078c2c09f14710b1cc4d720342cfcc34a103c9db931ffec4a90e584f0be8acf69181ba4"
+RPM_NAME = "wsl-appx-1-14.9.aarch64.rpm"
+RPM_HASH = "c600f127d50c9fdf98899b39ff9ae116509acb87476e949db1922cbe450f7b7f083e7cb9dc0f990a9fd16a6b388c89ba5bea3ec742883d6796d3b4e8c29cf696"
 
 RPROVIDES:${PN} += "wsl-appx"
 

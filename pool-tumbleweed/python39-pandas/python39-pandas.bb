@@ -5,10 +5,10 @@ heterogeneous) and time series data. It is a high-level building \
 block for doing data analysis in Python."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.3"
+PV = "2.1.0"
 
-RPM_NAME = "python39-pandas-2.0.3-1.3.aarch64.rpm"
-RPM_HASH = "e15131160a93677eed1f3537a42d85a1a4a69a6887a0417e62b82de660f34e905f8c603c769ac2226ed090524225476e1e380ef4b14de7b7d3d1b20ea7e40cb2"
+RPM_NAME = "python39-pandas-2.1.0-1.2.aarch64.rpm"
+RPM_HASH = "913b2dcc356afa7576b54129125b953b2071812c40f858e6b993c6c6f0dace59691493b053add2dd2d5677aa8638fe6ab6cbbd98ce65789eb12b59fe31d2c8fb"
 
 RPROVIDES:${PN} += "lib.cpython-39-aarch64-linux-gnu.so \
 python3.9dist-pandas \

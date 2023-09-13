@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & CC-BY-3.0"
 
 PV = "2023.02.01"
 
-RPM_NAME = "dpic-2023.02.01-1.4.aarch64.rpm"
-RPM_HASH = "3ac2fda2ae7db991c2c716a5dbbb22c213a93492b4dda1b2f0ab34f3ebc28472bd7bda2f9838e2c8e2b78c9098f327b45c6f924b427550a199baefb9b0d4c839"
+RPM_NAME = "dpic-2023.02.01-2.1.aarch64.rpm"
+RPM_HASH = "6fb3961dd157b88539a96ae7ecf03512b9da972d4b13358ad1ae496f3afee18cdf8eec9e6d5541c4cb70e80a589419fe71fcfe2293541fcafc390ad0cbea58b9"
 
 RPROVIDES:${PN} += "dpic"
 

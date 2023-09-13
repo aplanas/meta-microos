@@ -3,10 +3,10 @@ DESCRIPTION = "Go runtime race detector libraries. Install this package if you w
 -race option, in order to detect race conditions present in your Go programs."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.21.0"
+PV = "1.21.1"
 
-RPM_NAME = "go1.21-race-1.21.0-1.1.aarch64.rpm"
-RPM_HASH = "14542705cd597723ee47af778ced9bdd509c15298a994989d7eece5ebbeffefc2d42f3cd41e93cf33bb570acf00ba021c1b8145e1d2b8c50047065d58658dcfe"
+RPM_NAME = "go1.21-race-1.21.1-1.1.aarch64.rpm"
+RPM_HASH = "d71f8248641c76933239e6c463fcf581f5ecc535f1dd081671d67acb9bc0bb321db983837f030e391bfe94579e46fd1363af6976218a4086aea3142e1167878c"
 
 RPROVIDES:${PN} += "go1.21-race"
 

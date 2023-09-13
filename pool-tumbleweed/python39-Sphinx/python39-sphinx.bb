@@ -9,10 +9,10 @@ Sphinx uses reStructuredText as its markup language. Sphinx draws from \
 the parsing and translating suite, the Docutils."
 LICENSE = "BSD-2-Clause"
 
-PV = "7.2.4"
+PV = "7.2.5"
 
-RPM_NAME = "python39-Sphinx-7.2.4-1.1.noarch.rpm"
-RPM_HASH = "84d21575b66eb5010b405ffe892ddbb9d6da905e1d24c505f88d5492e9364be5a3f44102f7bd5c980cabc2a85270158b2c42d3e0197cc13bd5154336253f10b0"
+RPM_NAME = "python39-Sphinx-7.2.5-1.1.noarch.rpm"
+RPM_HASH = "022fbc41b32beb2ec4a58c2b624bdca3c6a4a0c167c5f587d59684ac23b12fae803781c9eebc2c35ddbc923d4b0fab610b5f88fc52ff7ee8fa5a375cd8bac310"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-sphinx \

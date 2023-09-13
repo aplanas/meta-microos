@@ -4,8 +4,8 @@ LICENSE = "AFL-2.0 & Apache-2.0 & blessing & BSD-2-Clause & BSD-3-Clause & BSD-P
 
 PV = "22.3.23"
 
-RPM_NAME = "nodejs-electron-22.3.23-1.1.aarch64.rpm"
-RPM_HASH = "b25c10e9bdb21ff3a74339dcd4a077337a7c5f8d386285d29a9320aeadd3587ce4fd558ff49b38ec925811037d338bbe428f4e49fcff9594f8c8e1bc7384599d"
+RPM_NAME = "nodejs-electron-22.3.23-1.2.aarch64.rpm"
+RPM_HASH = "a6c4c9a9910f919fcb338296c6060ec95bf6f4d1f9529281831490773a9d31565a26ae8cb0e5d8615c089282f3d3f58783a2885f6c67bf442fdca7c1943e0245"
 
 RPROVIDES:${PN} += "electron \
 electron-abi \
@@ -28,16 +28,16 @@ libXext.so.6 \
 libXfixes.so.3 \
 libXrandr.so.2 \
 libXtst.so.6 \
-libabsl-hash.so.2301.0.0 \
-libabsl-int128.so.2301.0.0 \
-libabsl-raw-hash-set.so.2301.0.0 \
-libabsl-raw-logging-internal.so.2301.0.0 \
-libabsl-status.so.2301.0.0 \
-libabsl-statusor.so.2301.0.0 \
-libabsl-str-format-internal.so.2301.0.0 \
-libabsl-strings.so.2301.0.0 \
-libabsl-synchronization.so.2301.0.0 \
-libabsl-throw-delegate.so.2301.0.0 \
+libabsl-hash.so.2308.0.0 \
+libabsl-int128.so.2308.0.0 \
+libabsl-raw-hash-set.so.2308.0.0 \
+libabsl-raw-logging-internal.so.2308.0.0 \
+libabsl-status.so.2308.0.0 \
+libabsl-statusor.so.2308.0.0 \
+libabsl-str-format-internal.so.2308.0.0 \
+libabsl-strings.so.2308.0.0 \
+libabsl-synchronization.so.2308.0.0 \
+libabsl-throw-delegate.so.2308.0.0 \
 libaom.so.3 \
 libasound.so.2 \
 libatk-1.0.so.0 \

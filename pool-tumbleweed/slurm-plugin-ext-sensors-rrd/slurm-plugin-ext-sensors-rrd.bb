@@ -4,10 +4,10 @@ using RRD, a tool that creates and manages a linear database for \
 sampling and logging data."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.2"
+PV = "23.02.4"
 
-RPM_NAME = "slurm-plugin-ext-sensors-rrd-23.02.2-1.4.aarch64.rpm"
-RPM_HASH = "369cb2dbd32dfdf9d2d52306a93b9aa172dd19f1f54ea934c55f275eeaa9e718d6e0a5314c23c92753cbd1ff19e6ad24979c643e421503a5e5abd9b8ef212d15"
+RPM_NAME = "slurm-plugin-ext-sensors-rrd-23.02.4-2.1.aarch64.rpm"
+RPM_HASH = "1d5715917a98df002fb55d3aab69cee3b4f9023db68b00ca5e88df9990a24aa15c6b268e0d03d3a5031d777bfc476035b5256f820fd6c237da7c6616e1be5c40"
 
 RPROVIDES:${PN} += "slurm-plugin-ext-sensors-rrd"
 

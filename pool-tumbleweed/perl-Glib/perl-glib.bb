@@ -7,10 +7,10 @@ GObject-based libraries. The SEE ALSO section contains pointers to all \
 sorts of good information."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3293"
+PV = "1.3294"
 
-RPM_NAME = "perl-Glib-1.3293-1.20.aarch64.rpm"
-RPM_HASH = "e5dccc00dbefff7d0640ab9d98f8c6a53169f351bd62f39884d045390f547e544fc1a151ea2bb1bfc971e8951ecd272d1349181dff9e5b523a511b0838bf5fd8"
+RPM_NAME = "perl-Glib-1.3294-1.1.aarch64.rpm"
+RPM_HASH = "f96824ed9c842a0045dc9f63a6b7c43750f9e5a8f9b25e15fee543a6c55bd68cf8c1263e8efa50a518cfb6752162ed13010e0651d975bd25e75b03c0efa54290"
 
 RPROVIDES:${PN} += "perl-Glib \
 perl-Glib--Bytes \

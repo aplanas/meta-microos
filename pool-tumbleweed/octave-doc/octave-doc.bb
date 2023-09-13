@@ -5,10 +5,10 @@ solution of numeric problems. \
 This package contains documentation for Octave."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "8.2.0"
+PV = "8.3.0"
 
-RPM_NAME = "octave-doc-8.2.0-1.2.noarch.rpm"
-RPM_HASH = "5d662cb5e68a1f8215ad427f94a93110a4b9a183ed432bf833b8997f31d2de12bc300b093294a1209d1b5f055f84c36ab23fc389051e9a351fd868ad5dc23209"
+RPM_NAME = "octave-doc-8.3.0-1.1.noarch.rpm"
+RPM_HASH = "dd95ef2499a65e019487b44b19f619735bc6665496f31f4a0ee5d66383d6ada2c741d9b9ec99034fb9a2a402aba511ddfa6ac74b72c6b81221d4b93a3acd40fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-doc"

@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.13.0"
 
-RPM_NAME = "libantlr4-runtime-devel-4.13.0-1.2.aarch64.rpm"
-RPM_HASH = "c7335119defbcf8c2f7a48bd06f75e96d8fc07624518313cc727618934b4f3023841ffe9584f3394ef850adc3fce9e5e9ecb17a8928e561329677b9bcba81b63"
+RPM_NAME = "libantlr4-runtime-devel-4.13.0-2.1.aarch64.rpm"
+RPM_HASH = "0f0e45ce250f4ce293eb3756b96df2814b943f5dd0eb447d98da652bd5dcef38b903b596a3ff26517f1c3ee676470cff0eb5ae3824a839da292887fe26e70e71"
 
 RPROVIDES:${PN} += "libantlr4-runtime-devel"
 

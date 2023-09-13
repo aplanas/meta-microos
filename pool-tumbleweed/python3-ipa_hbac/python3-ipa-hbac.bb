@@ -3,10 +3,10 @@ DESCRIPTION = "The python-ipa_hbac package contains the bindings so that libipa_
 can be used by Python applications."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "2.9.1"
+PV = "2.9.2"
 
-RPM_NAME = "python3-ipa_hbac-2.9.1-1.1.aarch64.rpm"
-RPM_HASH = "6123715ea23f5d24cfe0db63a73faf190f78ce280e9765d244120752d8a0dc60f67851ffe6ed3a4a0ff6054cc99d73a6bba6cb1fdcbde1548ce1dc3dfc63097f"
+RPM_NAME = "python3-ipa_hbac-2.9.2-1.1.aarch64.rpm"
+RPM_HASH = "4e232f99d5a11b1124f5ab742a985298521cea71cf89b25c462f9af0ac6ce425c0391b9385af4a71d512f0d934b19f09daad00a3f0aab2586301b7655bcf3ee2"
 
 RPROVIDES:${PN} += "python3-ipa-hbac"
 

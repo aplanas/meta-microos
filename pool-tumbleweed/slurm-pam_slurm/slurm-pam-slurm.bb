@@ -5,10 +5,10 @@ to root, any user with an SLURM-launched job currently running on the node, \
 or any user who has allocated resources on the node according to the SLURM."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.2"
+PV = "23.02.4"
 
-RPM_NAME = "slurm-pam_slurm-23.02.2-1.4.aarch64.rpm"
-RPM_HASH = "9049c3f7397eee59b51f0d1113e8cc643e216cae6b99187a2fcea6315d590f8d74ebeff04ac852ec77dc3ec1101a5a7315ed8be32b949506b3b454bda9fac146"
+RPM_NAME = "slurm-pam_slurm-23.02.4-2.1.aarch64.rpm"
+RPM_HASH = "7ba18e0833b33fb690a2aeac2fcf8315480e78e3954bca7705518ad7d8a4f0a79714c905dc80903f4a59f77159841d249155d080fa994486c6c569d51136d7d5"
 
 RPROVIDES:${PN} += "slurm-pam-slurm"
 

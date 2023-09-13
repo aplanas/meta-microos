@@ -5,10 +5,10 @@ memory without touching the real disk. The software under test requires \
 no modification to work with pyfakefs."
 LICENSE = "Apache-2.0"
 
-PV = "5.2.2"
+PV = "5.2.4"
 
-RPM_NAME = "python310-pyfakefs-5.2.2-1.2.noarch.rpm"
-RPM_HASH = "55da33399bfd0e784a1a5706af191805dc6d2feca0f4bc10f8f29759b5b8e944d86cb8682d3f2d79e516fdc3d1655f4f3210a317ead57d1e4ff4324e69378fb1"
+RPM_NAME = "python310-pyfakefs-5.2.4-1.1.noarch.rpm"
+RPM_HASH = "b7a66eccb56e56fa1a1008e6c955f9d2d09b9aa6012014eb2d7c0b1e1d022bc8b66b286212acad6804ae93f4d1991d164818500e5de4ead743a6219e8505b8c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-pyfakefs \

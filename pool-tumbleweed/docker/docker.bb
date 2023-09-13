@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0"
 
 PV = "24.0.5_ce"
 
-RPM_NAME = "docker-24.0.5_ce-1.1.aarch64.rpm"
-RPM_HASH = "a3c5994d7b6e06e35c47d7454ea4c40114323dc1408fbf1bc1bb9975064513aa803d30f51c245632067f507c8f7d64e962c25005c2b55ed8e01bf2937ef77ac3"
+RPM_NAME = "docker-24.0.5_ce-2.1.aarch64.rpm"
+RPM_HASH = "da9f74897c3c4595fb529200c5ad292effdc625851ecae3c016d0003a1cf0a7dab350d68662b2c3507e83935e2d6919b6b377e390e33eee6396ddf457b47fec7"
 
 RPROVIDES:${PN} += "config-docker \
 docker \

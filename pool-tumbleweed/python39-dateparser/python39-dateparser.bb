@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.8"
 
-RPM_NAME = "python39-dateparser-1.1.8-2.3.noarch.rpm"
-RPM_HASH = "40b0b9c47d6f192a96c76e55c58a91f50a01f5ee682dd60b6d88d6457a01c674b49915c36743949be5d8018d7985b622ea6e2d5e62f7879fbe23452aa0102baf"
+RPM_NAME = "python39-dateparser-1.1.8-3.1.noarch.rpm"
+RPM_HASH = "8abd00b03ccc3fc19b83211cb19e8fe8beab191dc5e9d78511e01950a0de13e3b1991b815ce6a1007d9e0e4dc0ccdc59018d92928d8bc602f7f92f34ada53377"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-dateparser \

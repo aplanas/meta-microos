@@ -5,10 +5,10 @@ interaction. BAT can be used to test audio quality, stress test features \
 and test audio before and after PM state changes."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.9"
+PV = "1.2.10"
 
-RPM_NAME = "alsabat-1.2.9-1.2.aarch64.rpm"
-RPM_HASH = "b0b64366ca5bd260c85b683509527acf5657c85d8fb791ca01a2c93f4dd418df466de351b565697a4e00e66b727f8711dbd73d9af4d5505f0fe6da42c6824a67"
+RPM_NAME = "alsabat-1.2.10-1.1.aarch64.rpm"
+RPM_HASH = "35ea2e0b42e21c0425ae7d7a00ee3abdb50192ce24c708ac3209e074fbeec7e03e244f4127cc45da641bf2a1cf99a7de8baa98ce6a4b8921f7db16f181f1b039"
 
 RPROVIDES:${PN} += "alsabat"
 

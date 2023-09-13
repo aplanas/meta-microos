@@ -5,10 +5,10 @@ provides a C API for sending commands to a running multipathd \
 instance."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only & LGPL-2.0-or-later"
 
-PV = "0.9.5+68+suse.d1b6a1c"
+PV = "0.9.6+71+suse.f07325e"
 
-RPM_NAME = "libmpath0-0.9.5+68+suse.d1b6a1c-1.2.aarch64.rpm"
-RPM_HASH = "29f1d0f4e4709107e145472d8470f4c6c91fd61457054cec65e06331bcc13ff6ce190d109b5e199ed03ffedae603e2b0db3f11e74662f8cc5151abc1e89be472"
+RPM_NAME = "libmpath0-0.9.6+71+suse.f07325e-1.1.aarch64.rpm"
+RPM_HASH = "30eec6d4b0ed4ada84d7a47a539888259581b2222b3d1c0eed2c65f832738af999f14c1763a4a5468b910b79cd17e0fdaf21a6c3664647ced35108875bb38972"
 
 RPROVIDES:${PN} += "libcheckcciss-tur.so \
 libcheckdirectio.so \

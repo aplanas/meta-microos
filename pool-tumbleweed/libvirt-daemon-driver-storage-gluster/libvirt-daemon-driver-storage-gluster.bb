@@ -3,10 +3,10 @@ DESCRIPTION = "The storage driver backend adding implementation of the storage A
 volumes using libgfapi."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.6.0"
+PV = "9.7.0"
 
-RPM_NAME = "libvirt-daemon-driver-storage-gluster-9.6.0-3.1.aarch64.rpm"
-RPM_HASH = "58339d9393ee5cb7b0dcaf17aaa202b97c3538f26f5ac0298554215b6bdcb1a7dcae3328bed86afffbc917a8c23497600d4a8371043dc396c6acda6d6bf40bd1"
+RPM_NAME = "libvirt-daemon-driver-storage-gluster-9.7.0-1.1.aarch64.rpm"
+RPM_HASH = "f524c4b088bb8aca16b9ba6026651391c69e17072092f6ea1bd4090740201edb80bbe1640ffacb50107eb2d79c7a0a14d50b8476ab4156d5277c0423d7aa49d5"
 
 RPROVIDES:${PN} += "libvirt-daemon-driver-storage-gluster \
 libvirt-storage-backend-gluster.so \

@@ -2,10 +2,10 @@ SUMMARY = "Slurm REST API Interface"
 DESCRIPTION = "This package provides the interface to SLURM via REST API."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.2"
+PV = "23.02.4"
 
-RPM_NAME = "slurm-rest-23.02.2-1.4.aarch64.rpm"
-RPM_HASH = "e5de85314eb2de586d63c060f99053a596592fd6099545a93ab35670d49e4e0509f4503686c357ddd791fd5678805f15526083f2156e933877071a144f3747ea"
+RPM_NAME = "slurm-rest-23.02.4-2.1.aarch64.rpm"
+RPM_HASH = "5166e98bc2f653422967df154bf97185d89e2120c3f7a438a0df3518fca592d8d45b22c4bcae7229427b1acafa10f3706b631b2b1392d4fa102e5342a908770a"
 
 RPROVIDES:${PN} += "slurm-rest"
 

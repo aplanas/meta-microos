@@ -2,10 +2,10 @@ SUMMARY = "Translation of man pages in Norwegian Bokmål"
 DESCRIPTION = "This package provides translations of man pages in Norwegian Bokmål."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.19.0"
+PV = "4.20.0"
 
-RPM_NAME = "man-pages-nb-4.19.0-1.1.noarch.rpm"
-RPM_HASH = "fefb903c62c4fee9c4ca327394a130cefed67610f8219f0aed4bf0029e7da6e3e7cdea502c05f392fa30d0229d2abcec370b613bff76854f445abe3d05cb9b65"
+RPM_NAME = "man-pages-nb-4.20.0-1.1.noarch.rpm"
+RPM_HASH = "2c5dbd86955db6375085e747f368921682a28e59df68f0ddc0165df09584a726de9832e1d7df50062e8dd4a5625d189d0315c7d2183c3d3abaa3c49e68b17a1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-man-pages-nb \

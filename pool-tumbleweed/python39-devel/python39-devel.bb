@@ -10,10 +10,10 @@ This also includes the Python distutils, which were in the Python \
 package up to version 2.2.2."
 LICENSE = "Python-2.0"
 
-PV = "3.9.17"
+PV = "3.9.18"
 
-RPM_NAME = "python39-devel-3.9.17-4.1.aarch64.rpm"
-RPM_HASH = "d62114ff033f648800f8399a258c4c75093017e7be5ff27d9dfb9a3716084652040b1c8e4c0d329c5d73b3ecf8e9be0711242e26922fda54b21c8220d2c42782"
+RPM_NAME = "python39-devel-3.9.18-1.1.aarch64.rpm"
+RPM_HASH = "ce1816c1ea606fc9b751df1a5bcb146f5942d435edfc0906f7a0cdff71961dd492660c0704a04c1430e6013b8a21ccf60e36724dfe0ee19ff57c42ab0645a026"
 
 RPROVIDES:${PN} += "pkgconfig-python-3.9 \
 pkgconfig-python-3.9-embed \

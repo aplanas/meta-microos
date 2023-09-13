@@ -9,17 +9,17 @@ communication. \
 This package provides utilities for working with the Parquet format."
 LICENSE = "Apache-2.0 & BSD-3-Clause & BSD-2-Clause & MIT"
 
-PV = "12.0.1"
+PV = "13.0.0"
 
-RPM_NAME = "apache-parquet-utils-12.0.1-1.1.aarch64.rpm"
-RPM_HASH = "493a5091f84d83c2e8b040530bb12b656ba11d73bc5e0247717582b6ba0e8ebe21e4d8bea2752329cd570ab3d400bb1660df69b7032b653575e6600b31fa5890"
+RPM_NAME = "apache-parquet-utils-13.0.0-1.1.aarch64.rpm"
+RPM_HASH = "ef8a3431158077fbf6ab04f5769ed967d347bd74d4a24684c5db8de36c637563fabda71843aeb98eb230585691b84799433344ffa962b7be1d3daa280a0c504b"
 
 RPROVIDES:${PN} += "apache-parquet-utils"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libparquet.so.1200 \
+libparquet.so.1300 \
 libstdc++.so.6"
 
 inherit rpm

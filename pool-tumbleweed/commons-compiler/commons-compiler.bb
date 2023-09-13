@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "3.1.10"
 
-RPM_NAME = "commons-compiler-3.1.10-1.1.noarch.rpm"
-RPM_HASH = "36d7ecb87d7e17a7a80fbdd6e0bcc13b7dc9a70338204a74c6b3afbb94d0462db54c2be19b1b9126ec679a2af5c494760c5dd41fdead32132183842fc52ccccf"
+RPM_NAME = "commons-compiler-3.1.10-2.1.noarch.rpm"
+RPM_HASH = "fe11b42008684980afa6dcb62c3d59b4fc1e2626e5b4981fe7d957b8dc4114bc1faab83c8928e5fd4b68fadc6c5151a88fbf22f46c94df5283d6c31e30956b25"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "commons-compiler \

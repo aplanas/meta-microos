@@ -4,8 +4,8 @@ LICENSE = "EPL-2.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.5.0"
 
-RPM_NAME = "glassfish-hk2-hk2-2.5.0-2.4.noarch.rpm"
-RPM_HASH = "f044eeefbb6ef8145ee2afad98cb6fbb5f767b1edb04e1d4e57b3a0365892a6c634aeea4a25e538c58dc022bd1b711d585e5037ca56fd39478b65bbaefd052c6"
+RPM_NAME = "glassfish-hk2-hk2-2.5.0-4.1.noarch.rpm"
+RPM_HASH = "01414c1f0805361956bb28158c2c40746527fd18facb868ee02555119260d643a4610042fd5f711dcc4bf2c1b1ce8eaf7d4ff815a66968819127f700ae804eb5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-hk2-hk2 \

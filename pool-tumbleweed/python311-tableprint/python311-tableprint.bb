@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.9.1"
 
-RPM_NAME = "python311-tableprint-0.9.1-3.5.noarch.rpm"
-RPM_HASH = "066ae28748d476229b2bba9bf35a8e317b0b407883ebd449effca5165d199b762452f32347677f6fd3cb7103f070da3b7e3509120166cedc980a4ad310148563"
+RPM_NAME = "python311-tableprint-0.9.1-4.1.noarch.rpm"
+RPM_HASH = "6e1f261b2f0033aadac08d3473237b1817570352aa5e198b2b42b6a05e83e6e9739e0aab683a010d0f5b3cd734b39907fc08ee05478abb55987845fda9af5863"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-tableprint \
@@ -17,7 +17,6 @@ python311-tableprint \
 python3dist-tableprint"
 
 RDEPENDS:${PN} += "python-abi \
-python311-future \
 python311-wcwidth"
 
 inherit rpm

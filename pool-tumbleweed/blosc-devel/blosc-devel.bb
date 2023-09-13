@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides development libraries and headers \
 for libblosc1."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & MIT"
 
-PV = "1.21.4"
+PV = "1.21.5"
 
-RPM_NAME = "blosc-devel-1.21.4-1.1.aarch64.rpm"
-RPM_HASH = "826a6a8d4c7d3eaef50c962ff0e70307ebc111f5565eefe09e485affcab8e0cf4827d2f35f30fd0029bd7372723927fe52e529c4a5459253f2965834d3b9ede3"
+RPM_NAME = "blosc-devel-1.21.5-1.1.aarch64.rpm"
+RPM_HASH = "f70c45d186b2f07bd743f2fb446999e5c156ace7a05e019954897b214fe2f86c7463230cfa9518bb27f1c144edb78cb02ffd8c0a9c9422a895693a1dfed99161"
 
 RPROVIDES:${PN} += "blosc-devel \
 pkgconfig-blosc"

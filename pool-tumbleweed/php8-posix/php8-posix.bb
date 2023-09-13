@@ -6,8 +6,8 @@ LICENSE = "MIT & PHP-3.01"
 
 PV = "8.2.10"
 
-RPM_NAME = "php8-posix-8.2.10-1.1.aarch64.rpm"
-RPM_HASH = "a66bdc4ed02daffba57796e066451d2608490c84408c9f94964185dc2d9988e04c8476f5544fc222a3ee7b1b22c83e9a21f2d20c67e7aaa45054f6ab6c7fc2cd"
+RPM_NAME = "php8-posix-8.2.10-2.1.aarch64.rpm"
+RPM_HASH = "edf8fc4e9bedc3077f0e8d37270774d76c72bd776b603810c8685c19d5839faaeb09c37ca3c3f7b15d41a691aefc55d7b64bd1d1e7bead650caa57d6413fb32f"
 
 RPROVIDES:${PN} += "config-php8-posix \
 php-posix \

@@ -9,10 +9,10 @@ devices, to demodulate raw to sliced VBI data, and to interpret the \
 data of several popular services."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.2.41"
+PV = "0.2.42"
 
-RPM_NAME = "libzvbi-chains0-0.2.41-2.2.aarch64.rpm"
-RPM_HASH = "48c440ce5f415399b213d806c707b62e1afeba9de1c5bb74917e1870c0a48fb4080fb78654d291da754844f9477a7ad0fa9e90959b0a5788e74ab222596af952"
+RPM_NAME = "libzvbi-chains0-0.2.42-1.1.aarch64.rpm"
+RPM_HASH = "3ed35b7a8c2102ee9c81390a6313daa57e6a2da0b2e8ffb5c2b89466941f8a82ac7fd63d11d8c3d7c7302406c5b68419563148d5c6db88cd8304797fa361539b"
 
 RPROVIDES:${PN} += "libzvbi-chains.so.0 \
 libzvbi-chains0"

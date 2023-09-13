@@ -8,10 +8,10 @@ certificates, and other security standards. \
 This package installs the freebl library from NSS."
 LICENSE = "MPL-2.0"
 
-PV = "3.92"
+PV = "3.93"
 
-RPM_NAME = "libfreebl3-3.92-1.1.aarch64.rpm"
-RPM_HASH = "7d87ec2897f2becb74e04326c1accbb4dde8ba1b90d3bed3d4ae10c27b87abee17d138cfcf2d1696e3dad329c5d64479d4d639d274b3fad7a9eb24c9d501298b"
+RPM_NAME = "libfreebl3-3.93-1.1.aarch64.rpm"
+RPM_HASH = "58b85e0dc758952f9d45fdb0e2d1c3b01ea4f59b4a5a5871d525995a6d768f0b4e7b2771b98aacfcf69d6d8a378dff9435a3b4a507c7bf41308cfcd8b5cdc44f"
 
 RPROVIDES:${PN} += "libfreebl3 \
 libfreebl3-hmac \

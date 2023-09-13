@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the [excel] extra for python-pandas. \
 (Except for pyxlsb, which is not available as openSUSE rpm package)"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.3"
+PV = "2.1.0"
 
-RPM_NAME = "python39-pandas-excel-2.0.3-1.3.noarch.rpm"
-RPM_HASH = "9eff91ec88c62eb24803d68775d19d191a9dc6655cda50ed3bb83ad78ff8ed1a2e8e0592375fa6116d13dc62375f3aba2dab34bb42d50ca297a441f409b17bbd"
+RPM_NAME = "python39-pandas-excel-2.1.0-1.2.noarch.rpm"
+RPM_HASH = "0fb22e4069c1838ff4e8a3eb23c339a8f132c586a4b6b05e9a2987e4598b7c9e7f8dc698ef94fdcf4bb8045177704b815e30b3eac83a296fff7d1c666b2ed34c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python39-pandas-excel"

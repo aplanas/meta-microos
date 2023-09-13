@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.2"
 
-RPM_NAME = "python311-pyjwkest-1.4.2-2.11.noarch.rpm"
-RPM_HASH = "24f7cf4ba9c0d5e2f299a75c8a8876145c6dfe1c1a8f3766f918ffcdd6a1b042618dd3bc3f99ed465925ffd5c6f59aac055116cbd57114a0951605fd7bc378dc"
+RPM_NAME = "python311-pyjwkest-1.4.2-3.1.noarch.rpm"
+RPM_HASH = "8a306bb8353073897429ac8caaa76f5746f54b808fc6305ed653e83556b10b14968b226585d7205f2506c64a4e15adf8ccc46b6a4969f516278317491e3940e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pyjwkest \
@@ -19,7 +19,6 @@ python3dist-pyjwkest"
 RDEPENDS:${PN} += "/usr/bin/python3.11 \
 /usr/bin/sh \
 python-abi \
-python311-future \
 python311-pycryptodomex \
 python311-requests \
 python311-six \

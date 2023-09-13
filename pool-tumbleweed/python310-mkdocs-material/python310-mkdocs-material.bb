@@ -2,10 +2,10 @@ SUMMARY = "Material theme for mkdocs"
 DESCRIPTION = "Material theme for mkdocs"
 LICENSE = "MIT"
 
-PV = "9.1.21"
+PV = "9.2.8"
 
-RPM_NAME = "python310-mkdocs-material-9.1.21-1.1.noarch.rpm"
-RPM_HASH = "656cbd8cc5053c9a00e915f5dd92171fb07a51b9cfd5b2baa00a8a40f7e53dfb5e9ddd0612e632bc78b951c2178f58182216533ad6f798af4b830e3f91fefb6d"
+RPM_NAME = "python310-mkdocs-material-9.2.8-1.1.noarch.rpm"
+RPM_HASH = "80fae0e4e7202ba1d7b795355a48007ed3aea1e8550e60f2161fa92f2b3f34a8e84f1b7ddd50ebe3d932df46f69c455d7dd3f4bba84ad16aec91ed7ea03fdc17"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-mkdocs-material \
@@ -13,9 +13,9 @@ python310-mkdocs-material \
 python3dist-mkdocs-material"
 
 RDEPENDS:${PN} += "python-abi \
+python310-Jinja2 \
 python310-Markdown \
 python310-colorama \
-python310-jinja2 \
 python310-mkdocs \
 python310-mkdocs-material-extensions \
 python310-pygments \

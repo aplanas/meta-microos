@@ -3,10 +3,10 @@ DESCRIPTION = "sview is a graphical user interface to get and update state infor
 jobs, partitions, and nodes managed by SLURM."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.2"
+PV = "23.02.4"
 
-RPM_NAME = "slurm-sview-23.02.2-1.4.aarch64.rpm"
-RPM_HASH = "26c26509b546886b56e5d2acc86b8d26a897f7d28ef6ce8ea587b023da1449b9be108bbe93cdf9b00a3f5e555e88e99083114e6f882407e668de10ada2456b27"
+RPM_NAME = "slurm-sview-23.02.4-2.1.aarch64.rpm"
+RPM_HASH = "01e1ccb406d1f44e11ae8631b00baeef07c7aab2ff1fd0b350174e4514d1aac963bf82c9f518556bbe58e6f23ac39ba2d9950f5f3ba9566393fd3cb1db8c81c3"
 
 RPROVIDES:${PN} += "slurm-sview"
 

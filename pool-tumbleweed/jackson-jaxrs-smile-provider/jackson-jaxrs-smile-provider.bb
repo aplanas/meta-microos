@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.15.2"
 
-RPM_NAME = "jackson-jaxrs-smile-provider-2.15.2-1.1.noarch.rpm"
-RPM_HASH = "66dae1e0af461dd9c07d984df227101f8ea6f6b36cecc7592bdd0b199fa9b2ea0756bf1b0e779e7645c11738a28595dc96b730d5aaa5a68214e11ca93dcbd51d"
+RPM_NAME = "jackson-jaxrs-smile-provider-2.15.2-2.1.noarch.rpm"
+RPM_HASH = "1f0f84d12abefa023ff599c341c0d1e9f3f93988044cbffc1e2023e2ad26f1c1b83eea967081ce454a3ca811fe13f1407d77b3888c9ba762c0fd27714df9ed24"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-jaxrs-smile-provider \

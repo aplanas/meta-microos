@@ -6,8 +6,8 @@ LICENSE = "ISC"
 
 PV = "0.7.0"
 
-RPM_NAME = "iodine-0.7.0-10.8.aarch64.rpm"
-RPM_HASH = "d9c4ff57b6b577cb8913bde2add903d688c1340a539c99ba4f32c6540057c633e7f3ae93a80e42978502567c7c2af0b07361a11ae1acb1bc21651766fcfd1a6b"
+RPM_NAME = "iodine-0.7.0-11.1.aarch64.rpm"
+RPM_HASH = "2be9a2506071691abdbad8b7c1ef1b9520239505428ea2e6a35359efbcadeb737d989c435d9802580f3be5c64d0f7fd6e40791ecac30ed2bb262360483ed011d"
 
 RPROVIDES:${PN} += "group-iodined \
 iodine \

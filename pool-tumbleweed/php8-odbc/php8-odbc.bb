@@ -4,8 +4,8 @@ LICENSE = "MIT & PHP-3.01"
 
 PV = "8.2.10"
 
-RPM_NAME = "php8-odbc-8.2.10-1.1.aarch64.rpm"
-RPM_HASH = "f9f052362338f55a7b9a5dd9eb29b9f14abf6c35092cfdfaed80ddb6570007ab8e4c86c69d4e260acb420927b3ff40b041eaa0f004645f2c7e2a0e04a2db1b3b"
+RPM_NAME = "php8-odbc-8.2.10-2.1.aarch64.rpm"
+RPM_HASH = "3fe30e483e8be6629d82dd64c72ec7bd9592b02c413e76916cc5d7e5e219aea3ead4e4e81732dfb2d64cf2f4a6505503a80e96d2c1b7048d4aff4248d0df9f06"
 
 RPROVIDES:${PN} += "config-php8-odbc \
 php-odbc \

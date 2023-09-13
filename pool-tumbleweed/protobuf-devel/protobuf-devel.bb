@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "23.4"
 
-RPM_NAME = "protobuf-devel-23.4-6.1.aarch64.rpm"
-RPM_HASH = "455417a001bb0e8bcbd2ba07b397aa73bc668baad9b4359fda4af7e3f905cd3bbed4df4a29e04b8b88d47b5d4fdfe52828dd7b6dca9b7a9787b3a80500dcfca9"
+RPM_NAME = "protobuf-devel-23.4-6.2.aarch64.rpm"
+RPM_HASH = "df2b8f5442e374c0602042e3e6fb70c3bef0b6fe91494c239fe4b67667d9293d6ad96da02637a8a41d2a06ab81b4c253643b627278fc78c01282d17e9446283f"
 
 RPROVIDES:${PN} += "cmake-protobuf \
 cmake-utf8-range \
@@ -21,7 +21,7 @@ RDEPENDS:${PN} += "/usr/bin/pkg-config \
 abseil-cpp-devel \
 gcc-c++ \
 ld-linux-aarch64.so.1 \
-libabsl-log-initialize.so.2301.0.0 \
+libabsl-log-initialize.so.2308.0.0 \
 libc.so.6 \
 libgcc-s.so.1 \
 libprotobuf-lite23-4-0 \

@@ -15,8 +15,8 @@ LICENSE = "Apache-2.0 | EPL-1.0"
 
 PV = "9.4.51"
 
-RPM_NAME = "jetty-rewrite-9.4.51-1.2.noarch.rpm"
-RPM_HASH = "c954ae9574e6a453f22465951c16fdb703d701463f603c167186f867349e2e3430f86c916cb51c752525ebf98daa36ab5001413121bccef6408ac2c574572bea"
+RPM_NAME = "jetty-rewrite-9.4.51-2.1.noarch.rpm"
+RPM_HASH = "c7745d17397bba75b4086cfa85a0841beba9b171a47ea636b6b6badd9a15b00f3236b694e4e3d88b1e22194eccee8959f57322f123ab60a98ed718e73485d22d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-rewrite \

@@ -6,8 +6,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "47.0"
 
-RPM_NAME = "libibmad5-47.0-2.2.aarch64.rpm"
-RPM_HASH = "4d8c36064439a8ad9b3e72c480e7a00f2c388a5e16e4596d8a3dc5fb7e49c7955ab5c6de157d8a8d57851b0cd8abf3363a51bf28a5c21b9a016abcd1c2a91c97"
+RPM_NAME = "libibmad5-47.0-3.1.aarch64.rpm"
+RPM_HASH = "31e4c5c314a44bb562b86b2b84db91731dd9c353f99c74809d07eb6bb1a3ee19deeeb272ee2956a0a3618fb9be4fc2fc0c803288ae41f980c3ff9e4332c91971"
 
 RPROVIDES:${PN} += "libibmad.so.5 \
 libibmad5"

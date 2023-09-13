@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.1"
 
-RPM_NAME = "minlog-javadoc-1.3.1-1.4.noarch.rpm"
-RPM_HASH = "87d7a01f68c737c1122d7f620b192addd9ec2818c2223e5de38ab0d26188c6e20b9ade37a1cc29f63bf2773792185b8dd9aa308282e0d1c44071351a2f32e18d"
+RPM_NAME = "minlog-javadoc-1.3.1-2.1.noarch.rpm"
+RPM_HASH = "5e89b05035890dcf6887d2af2f240e2be5e408b218adedc1dbb0f7f3ceaf53971f7a2bbbaf8ed433dd2e5742eea7cf08368f09aff762d78d24386c93c67428e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "minlog-javadoc"

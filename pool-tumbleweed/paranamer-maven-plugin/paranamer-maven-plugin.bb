@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.8"
 
-RPM_NAME = "paranamer-maven-plugin-2.8-2.11.noarch.rpm"
-RPM_HASH = "02ed9d3b27cc43957bdc92b4aeb675feef679ad60ff749f5929d13ef68c8128d44d996bb45e905f0bf1bacab0caad0a0498c252763988f6599648062148610a8"
+RPM_NAME = "paranamer-maven-plugin-2.8-3.1.noarch.rpm"
+RPM_HASH = "db1db95dc0fd8a7dcc5c1c68d365ac652b80e8073082bf9b54ff68ca610828f615e81ea0d4655448536a83d8ef75dddac07c8067d94b8ae66c92de175274197c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.thoughtworks.paranamer-paranamer-maven-plugin \

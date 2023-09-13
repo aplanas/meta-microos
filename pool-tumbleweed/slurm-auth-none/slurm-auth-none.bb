@@ -2,10 +2,10 @@ SUMMARY = "SLURM auth NULL implementation (no authentication)"
 DESCRIPTION = "This package cobtains the SLURM NULL authentication module."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.2"
+PV = "23.02.4"
 
-RPM_NAME = "slurm-auth-none-23.02.2-1.4.aarch64.rpm"
-RPM_HASH = "71ce54e73e04c87c9bb199e079ca6ad4486c921cf4396e8758ac56dbbf95f77551958af131e465b09557482006bdea7421a49ec18064943b576676e673401347"
+RPM_NAME = "slurm-auth-none-23.02.4-2.1.aarch64.rpm"
+RPM_HASH = "083f5232387d6dd727322a1dd19495e10721e5e302390bde3fcc670060051dcd69f68f66c85bf879a7dc09a289010947a25d895f3370e5d634255f373a55cb5a"
 
 RPROVIDES:${PN} += "slurm-auth-none"
 

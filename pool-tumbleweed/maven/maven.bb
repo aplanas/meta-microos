@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "3.9.2"
 
-RPM_NAME = "maven-3.9.2-1.1.aarch64.rpm"
-RPM_HASH = "2006c566f76391514e83232a4e371446b3fc36448c2a1d29766d826a6e6c28c97fefb832e1cb97f782b84fb0e72c58e7eaefa9ca44956adc9e06e3d29bfaa0ef"
+RPM_NAME = "maven-3.9.2-2.1.aarch64.rpm"
+RPM_HASH = "d6b2b51b563ac564fc107612f8489f2c28e422c8c97490e56ebd19e03b5803ec60b082bd2202acc3171dabe9cbf47eb13d68c8537aaad890907917ffa28cbfea"
 
 RPROVIDES:${PN} += "maven"
 

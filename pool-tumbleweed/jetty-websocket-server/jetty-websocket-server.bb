@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | EPL-1.0"
 
 PV = "9.4.51"
 
-RPM_NAME = "jetty-websocket-server-9.4.51-1.2.noarch.rpm"
-RPM_HASH = "b9675ddff5a1c19ee785daf2aa2ce418e9bd4d9ba4f3aeabc402f3a96755d85d55a2c7eabd63026a02121ec9847079e7276643b4af3941de377a93301ef2cef8"
+RPM_NAME = "jetty-websocket-server-9.4.51-2.1.noarch.rpm"
+RPM_HASH = "414701cff6c343204a314aa013a8a90537b45e978e1f1936e5790b8e425056fb182be1d1baf7a2695b9d6e9268ccb2063da5d3e73886b496947c505ed2e9d7d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-websocket-server \

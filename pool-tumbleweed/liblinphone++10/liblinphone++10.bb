@@ -11,8 +11,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "5.2.98"
 
-RPM_NAME = "liblinphone++10-5.2.98-1.1.aarch64.rpm"
-RPM_HASH = "f95836566cd2e507a22c628562be181100b994bea19501187e9b803881412f6741652f7f34e4a9e3642d32a67510b26b87dbe7029927f3560f695125a8299392"
+RPM_NAME = "liblinphone++10-5.2.98-2.1.aarch64.rpm"
+RPM_HASH = "63c432c8e83bba5e9c6c1bb6a84f1e821b2c16dc63293e657aff824e9a355a58eaffe7d7b85346f8d54c1255faee95aedf56d34c5c3af4051cee0e3142f090c9"
 
 RPROVIDES:${PN} += "liblinphone++.so.10 \
 liblinphone++10"

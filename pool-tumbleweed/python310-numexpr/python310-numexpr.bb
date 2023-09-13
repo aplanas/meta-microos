@@ -5,10 +5,10 @@ can be accelerated and use less memory than doing the same \
 calculation in Python."
 LICENSE = "MIT"
 
-PV = "2.8.5"
+PV = "2.8.4"
 
-RPM_NAME = "python310-numexpr-2.8.5-1.1.aarch64.rpm"
-RPM_HASH = "47f42318c9d8871f494e76d4bd56470a9765e682e53fb0a8d7b302095fd7fe94b16f7b07097e4200224ab50e984aec3dd516fc5c9a502ac260b281702def4174"
+RPM_NAME = "python310-numexpr-2.8.4-2.1.aarch64.rpm"
+RPM_HASH = "d8a9d28ace320422e5c9cf168db22512d92791eda88b144ab2cf358453cf023bbe08d5201954c1e8bede0535ad53f7733aa2199aaaacff7297cd9a84ab993b9c"
 
 RPROVIDES:${PN} += "python3.10dist-numexpr \
 python310-numexpr \

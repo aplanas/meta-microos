@@ -4,15 +4,14 @@ LICENSE = "Apache-2.0"
 
 PV = "0.2.0"
 
-RPM_NAME = "python39-ffmpeg-python-0.2.0-6.6.noarch.rpm"
-RPM_HASH = "c4d818753992a21307ad09a108a6ed77b3e73c446c05ce963cdbbd5ec55a37bc6d05233c005ab7f82af165b39d994d2873cafa35691cda04ef9baf525195a7fb"
+RPM_NAME = "python39-ffmpeg-python-0.2.0-7.1.noarch.rpm"
+RPM_HASH = "870e5c7aa21bcefcec4480a66bf18b711915b057e6e1674ac742a22a526015e2056081407dca878ac332241e2ab622c9e35262dd6979b15055bf5931f4882719"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-ffmpeg-python \
 python39-ffmpeg-python \
 python3dist-ffmpeg-python"
 
-RDEPENDS:${PN} += "python-abi \
-python39-future"
+RDEPENDS:${PN} += "python-abi"
 
 inherit rpm

@@ -5,10 +5,10 @@ example, a type-based event dispatching system that builds on zope.event \
 can be found in zope.component."
 LICENSE = "ZPL-2.1"
 
-PV = "4.6"
+PV = "5.0"
 
-RPM_NAME = "python39-zope.event-4.6-5.1.noarch.rpm"
-RPM_HASH = "b426a30c5d40e619582cf3f0db70e9c1540ac6cac6094b51946fa01d6ba739443d8ae41eadf3a1e087bf4aba2d5fb2ee4fae61a72a72f7a7e604bf33997873ac"
+RPM_NAME = "python39-zope.event-5.0-1.1.noarch.rpm"
+RPM_HASH = "de36657b4f75b3516cc2ace39101b1ab73ddc90b2cd2d3e5697a20708d9220b97cebef35a774559fcadc842cac2707db622cc344ffd424cebf1589325c1bf660"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-zope.event \

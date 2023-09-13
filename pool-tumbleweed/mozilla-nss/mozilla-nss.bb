@@ -6,10 +6,10 @@ TLS v1.0, v1.1, v1.2, PKCS #5, PKCS #7, PKCS #11, PKCS #12, S/MIME, X.509 v3 \
 certificates, and other security standards."
 LICENSE = "MPL-2.0"
 
-PV = "3.92"
+PV = "3.93"
 
-RPM_NAME = "mozilla-nss-3.92-1.1.aarch64.rpm"
-RPM_HASH = "8058f9f59c217710574d83776184dfa7685ffa206416eb2bcd32971ff7d696d3775da043541806b53d2f4fb7ab4f78a8cf529b7a91047d0cc8088b940f84ffaa"
+RPM_NAME = "mozilla-nss-3.93-1.1.aarch64.rpm"
+RPM_HASH = "6207c9cc99065dd62d0d30173fce058eec7faa6b22b1b8e2e0090fd039873e4fef45f16b8ec1815a048dfffa022d57851d92a8b61e40d0c522c9ee060bc42147"
 
 RPROVIDES:${PN} += "libnss3.so \
 libnssutil3.so \

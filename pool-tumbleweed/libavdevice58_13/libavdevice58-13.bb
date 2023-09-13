@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.4.4"
 
-RPM_NAME = "libavdevice58_13-4.4.4-2.2.aarch64.rpm"
-RPM_HASH = "ac867611fe10e7b955e44c37511a8fad11e3707b8c238fc72e05cc280b67fccf5f8d111d0fe83987c2ce2d586eb1e2a010e0cdec08ac4c1521087a3f90ecd767"
+RPM_NAME = "libavdevice58_13-4.4.4-2.3.aarch64.rpm"
+RPM_HASH = "ecaf23052a9efdf2ce689c9f67a06af264c40c0ee9968a98bc9dc29e889635006858ce77628f4a1aea3eef0ac06d44f09c59130f2807113c0e96a1d99332bf43"
 
 RPROVIDES:${PN} += "libavdevice.so.58.13 \
 libavdevice58-13"

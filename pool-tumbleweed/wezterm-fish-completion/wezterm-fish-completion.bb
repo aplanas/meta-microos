@@ -4,8 +4,8 @@ LICENSE = "(Apache-2.0 | MIT) & BSD-3-Clause & (0BSD | MIT | Apache-2.0) & (Apac
 
 PV = "20230712.072601.f4abf8fd"
 
-RPM_NAME = "wezterm-fish-completion-20230712.072601.f4abf8fd-3.1.noarch.rpm"
-RPM_HASH = "4639eaef66153d35172fc616a3f10d56a3781aa61ba7bc0a50fcf516393f0724589458da1f5e30bd5ed4089e9c6e66e3c066e8a07816bb5712834a18a6f35831"
+RPM_NAME = "wezterm-fish-completion-20230712.072601.f4abf8fd-4.1.noarch.rpm"
+RPM_HASH = "1686e9ca750bec0b13230ba58dc6ddbce9f5439dcb90b287386fb75d5daf1a7b511abefc079c20071c57b6b0cbe32254d257e2c098cca1e45cbebfa912820071"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wezterm-fish-completion"

@@ -12,8 +12,8 @@ LICENSE = "Apache-2.0 | BSD-3-Clause"
 
 PV = "41.0.3"
 
-RPM_NAME = "python311-cryptography-41.0.3-1.1.aarch64.rpm"
-RPM_HASH = "45596e31bbf05f41786c9933205c5bb9892d8885580ee505b2dd4658c603492beb44b6561f37a3618ba742be6e0ae16e9c0e0a32eb03716b0819d9f033500eec"
+RPM_NAME = "python311-cryptography-41.0.3-2.1.aarch64.rpm"
+RPM_HASH = "64cf3cf72f8a43265d6f971d3adb2638e7edf0badc8fbc9366f8ff9bd19887c8d8ebc6e71b97119ba02e7bd729762a71ae5040cc451970eb9c61ea2da869cff3"
 
 RPROVIDES:${PN} += "python3-cryptography \
 python3.11dist-cryptography \

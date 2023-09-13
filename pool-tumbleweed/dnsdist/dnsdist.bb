@@ -7,10 +7,10 @@ dnsdist is dynamic, in the sense that its configuration can be changed at \
 runtime, and that its statistics can be queried from a console-like interface."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.8.0"
+PV = "1.8.1"
 
-RPM_NAME = "dnsdist-1.8.0-2.3.aarch64.rpm"
-RPM_HASH = "01c9584e38d17eb549e4f3f82bb274e02beff3014f35865c3c0ffeb33b6f43f3a5f0680f2c5dc423e37a20d761c1621e3be48b5c85293e9ec56ea71b07afc672"
+RPM_NAME = "dnsdist-1.8.1-1.1.aarch64.rpm"
+RPM_HASH = "eea2a93071b1e005f54c387485e3a68c764ab1cdadea9f21feb4a775a51bfc8f934f92d706436aaa21033150d52f23138438f1e1bd7efba32aca9b47f16a2502"
 
 RPROVIDES:${PN} += "config-dnsdist \
 dnsdist"

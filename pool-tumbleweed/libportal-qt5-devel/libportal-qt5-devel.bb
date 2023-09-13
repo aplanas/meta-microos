@@ -3,10 +3,10 @@ DESCRIPTION = "The libportal-qt5-devel package contains libraries, build data, a
 header files for developing applications that use libportal."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.6"
+PV = "0.7"
 
-RPM_NAME = "libportal-qt5-devel-0.6-1.8.aarch64.rpm"
-RPM_HASH = "820d23d349491773e29fac95654228ed82e30b5cd2c21b5396b4c59e859cba512e864aa81cde52561664fa18169a20b598956e757f9db965d2a67dd256698c62"
+RPM_NAME = "libportal-qt5-devel-0.7-1.1.aarch64.rpm"
+RPM_HASH = "316298fe29c077357c236fda453dca1f27d6a9c8624111b4f11a00f330daf2c4656ce5c8b5cd26c96a2a73a8497eb8c05518eb04a2db53dccdc6a491dd610498"
 
 RPROVIDES:${PN} += "libportal-qt5-devel \
 pkgconfig-libportal-qt5"

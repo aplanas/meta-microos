@@ -2,10 +2,10 @@ SUMMARY = "Ruby bindings for libstorage-ng"
 DESCRIPTION = "This package contains Ruby bindings for libstorage-ng."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.5.136"
+PV = "4.5.141"
 
-RPM_NAME = "libstorage-ng-ruby-4.5.136-1.1.aarch64.rpm"
-RPM_HASH = "cb8a3cc164558295c095acf91a136727e96340b8e3532cf5a9bb3676d3c774f1ee3c78a251026dc8012a1358562275b1d4a1f4d6dfa77d716c786163f667b3ee"
+RPM_NAME = "libstorage-ng-ruby-4.5.141-1.1.aarch64.rpm"
+RPM_HASH = "a1ed11701e394633932da75485d225362bc4a014fce358eb424c1f5fd85fe8573c43932157903a8534c0ce9fd8b96ecf75fe11ca99a2be81d353b4ad0e2bf585"
 
 RPROVIDES:${PN} += "libstorage-ng-ruby"
 

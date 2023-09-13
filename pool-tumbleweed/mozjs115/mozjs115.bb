@@ -4,10 +4,10 @@ JavaScript. It is intended to be embedded in other applications \
 that provide host environments for JavaScript."
 LICENSE = "MPL-2.0"
 
-PV = "115.1.0"
+PV = "115.2.0"
 
-RPM_NAME = "mozjs115-115.1.0-1.2.aarch64.rpm"
-RPM_HASH = "4b55d4b710fea0442aae09c47dff5c2a2328154a25f8dcce4a52f0aaf39b3b23cdfa3df1b55b5cfc5378fa3f065c897b359a2e22dc29b134b6ac33e1d2a7e151"
+RPM_NAME = "mozjs115-115.2.0-1.1.aarch64.rpm"
+RPM_HASH = "39369632df16a23271ce22267b1fec3e71aa0cdb9e71df027f313f1628d46f5a96745392d0f963a97541d88da0195dbe8591f5ef949e40ef105d952bf1ac4668"
 
 RPROVIDES:${PN} += "mozjs115"
 

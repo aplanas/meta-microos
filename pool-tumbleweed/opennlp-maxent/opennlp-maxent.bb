@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.5.3"
 
-RPM_NAME = "opennlp-maxent-1.5.3-3.11.noarch.rpm"
-RPM_HASH = "a9ffb64488b58e68c4b26bebe92da5206abda8bb003a622c0167fe2a678ad8a4dc05cf1f238187a1d8b84939d4b82f9328745a8372a4294ff1e654e99a3a3722"
+RPM_NAME = "opennlp-maxent-1.5.3-4.1.noarch.rpm"
+RPM_HASH = "afdeb3f776215e2f92529d3dcc10d5016d8ed2f3fd9227dc613006e953e90bc22db88cb40de3cc406e867636e5c979ffbe658cb960aef9c95e50cfaabe408f92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.apache.opennlp-opennlp-maxent \

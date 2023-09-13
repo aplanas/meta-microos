@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the python bindings to build applications t
 with Btrfs using libbtrfsutil."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3"
+PV = "6.5"
 
-RPM_NAME = "python-btrfsutil-6.3-3.1.aarch64.rpm"
-RPM_HASH = "5da0230485d7a8a91c513678d54cfad3e63f621cdff2cafe2a63816bfe4585a8fd55484756ec0326b3b30e1baa29bfe4a768ee0d2e381180009e606a9852eff3"
+RPM_NAME = "python-btrfsutil-6.5-1.1.aarch64.rpm"
+RPM_HASH = "9defeb3e5505e9bbd32e5c6ab2cbc0998e2fda927337c7c86276d674d204978a55af2f4bcc438ae660e3a369d6d50b47be08abd0b449c34bea0aebaa1af3c341"
 
 RPROVIDES:${PN} += "python-btrfsutil \
 python3.11dist-btrfsutil \

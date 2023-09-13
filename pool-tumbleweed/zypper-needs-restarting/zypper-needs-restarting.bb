@@ -6,10 +6,10 @@ Authors: \
     Michael Andres <ma@suse.de>"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.14.62"
+PV = "1.14.64"
 
-RPM_NAME = "zypper-needs-restarting-1.14.62-1.1.noarch.rpm"
-RPM_HASH = "1ef85afd97d4070a7f5530ccde42a08cb3dc7d6edcf67653a784e0303b65dc90fe2ec7173a81ca04b966f5dd1272208e318714e26d5c01d9855ace459d1b1536"
+RPM_NAME = "zypper-needs-restarting-1.14.64-1.1.noarch.rpm"
+RPM_HASH = "7f85113b019a6b1a1cc370b954a54074793b91d22498d3f7c668304c856f060a9f4662519634893154e385c7e7d7e6ab57434397516650c2be1ed40d09a990d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zypper-needs-restarting"

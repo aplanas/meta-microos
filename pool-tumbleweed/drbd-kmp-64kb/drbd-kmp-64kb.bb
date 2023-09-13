@@ -4,10 +4,10 @@ that multiple kernel driver versions can be installed, one for each \
 installed kernel."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "9.0.30~1+git.8e9c0812_k6.4.12_1"
+PV = "9.1.16_k6.4.12_1"
 
-RPM_NAME = "drbd-kmp-64kb-9.0.30~1+git.8e9c0812_k6.4.12_1-8.24.aarch64.rpm"
-RPM_HASH = "469b6090c080fd1c478c9d08b96ec50394fbdc94e1b398e6c04d38ba50ae5a76cd84e0779dcc88408899ee670f6f4225b1129112b61818f678c6b446b7e6aee0"
+RPM_NAME = "drbd-kmp-64kb-9.1.16_k6.4.12_1-1.1.aarch64.rpm"
+RPM_HASH = "18e3534a5bab6f8e042859ed0a6ee2895826b90430f2d907c7fc013a83029f8583b374ed7a0709266363efdd374ba5fc69891bfcb223c363247311a64ce19053"
 
 RPROVIDES:${PN} += "drbd-kmp \
 drbd-kmp-64kb \

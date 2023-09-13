@@ -2,10 +2,10 @@ SUMMARY = "Copr cli"
 DESCRIPTION = "CLI tool to run copr."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.105"
+PV = "1.110"
 
-RPM_NAME = "python311-copr-cli-1.105-2.6.noarch.rpm"
-RPM_HASH = "fa9ef4efe4fe2123bcd3a01d95c2d41e9412e3a772b41edd363c6924d36c996b58654840006ef2187b26f34be8193b83f8d543aa9cede2e20778cfb47155e87c"
+RPM_NAME = "python311-copr-cli-1.110-1.1.noarch.rpm"
+RPM_HASH = "483dafca02dd65f68c175990fc2f890ec79583dc02f0fb72ed9ab5b558695a81c46ab5e59563b4addc1f9f084288bc50860c1655434aa94df49860793440445e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-copr-cli \
@@ -18,11 +18,8 @@ RDEPENDS:${PN} += "/usr/bin/python3.11 \
 python-abi \
 python311-Jinja2 \
 python311-copr \
-python311-filelock \
-python311-future \
 python311-humanize \
-python311-requests-gssapi \
-python311-responses \
+python311-setuptools \
 update-alternatives"
 
 inherit rpm

@@ -7,10 +7,10 @@ menu system, debconf, doc-base, etc. Most debian packages use debhelper \
 as part of their build process."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "13.11.4"
+PV = "13.11.5"
 
-RPM_NAME = "debhelper-13.11.4-1.4.noarch.rpm"
-RPM_HASH = "77c3fa06c0969352d2f14fa7c2b6ea82d07a67d211b46a089d32f06d90d9cff75cb0d247b349923ff76e4d6be1ed34a8aec4bf51f8ff01834e5d54a680498c86"
+RPM_NAME = "debhelper-13.11.5-1.1.noarch.rpm"
+RPM_HASH = "fc9e411c2f7092976818fa8aa9d26a0a5d8ea36ed45b36efd7f7d8da467b42a3243741d0845aeed5af73bca2959bb8f9c9fae4a5384ceefa3d518263d344d519"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "deb-/usr/bin/dh-install \

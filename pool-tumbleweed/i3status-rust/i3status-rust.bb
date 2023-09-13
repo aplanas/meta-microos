@@ -5,10 +5,10 @@ information (time, battery status, volume, etc) on the i3 bar. It is also \
 compatible with sway."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.31.9"
+PV = "0.32.1"
 
-RPM_NAME = "i3status-rust-0.31.9-1.1.aarch64.rpm"
-RPM_HASH = "032d088e9dd3d76d17bf5a513353e3bf15cd0f30513f1714db7bf18a17163b1251712a461eb7c03e96dd358b2dbe875c5a107a37ae3cb7e7fb74df6681bb05bc"
+RPM_NAME = "i3status-rust-0.32.1-1.1.aarch64.rpm"
+RPM_HASH = "0d0940b744fbbe9cf4b7ba9f6932ba6384bcf07fdd153e8404b2cd1803f4e97a58e0229268e9c3dc70accde4f48d60ed696880476ce31bb722a7ccef30f26f35"
 
 RPROVIDES:${PN} += "bundled-rust-crate-aho-corasick \
 bundled-rust-crate-anstream \
@@ -41,7 +41,6 @@ bundled-rust-crate-clap-derive \
 bundled-rust-crate-clap-lex \
 bundled-rust-crate-colorchoice \
 bundled-rust-crate-concurrent-queue \
-bundled-rust-crate-convert-case \
 bundled-rust-crate-cpufeatures \
 bundled-rust-crate-crossbeam-channel \
 bundled-rust-crate-crossbeam-utils \
@@ -60,6 +59,7 @@ bundled-rust-crate-enumflags2 \
 bundled-rust-crate-enumflags2-derive \
 bundled-rust-crate-env-logger \
 bundled-rust-crate-equivalent \
+bundled-rust-crate-errno \
 bundled-rust-crate-event-listener \
 bundled-rust-crate-fastrand \
 bundled-rust-crate-filetime \
@@ -207,6 +207,7 @@ bundled-rust-crate-unicode-normalization \
 bundled-rust-crate-unicode-segmentation \
 bundled-rust-crate-url \
 bundled-rust-crate-utf8parse \
+bundled-rust-crate-vcpkg \
 bundled-rust-crate-version-check \
 bundled-rust-crate-waker-fn \
 bundled-rust-crate-walkdir \

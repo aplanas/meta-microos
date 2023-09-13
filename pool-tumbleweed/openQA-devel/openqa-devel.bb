@@ -2,10 +2,10 @@ SUMMARY = "Development package pulling in all build+test dependencies"
 DESCRIPTION = "Development package pulling in all build+test dependencies."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1693565748.f367431"
+PV = "4.6.1694101660.598baea"
 
-RPM_NAME = "openQA-devel-4.6.1693565748.f367431-1.1.aarch64.rpm"
-RPM_HASH = "b84d61de0dca754f457f203e1af04778829ce15b24178c28e03b02fc0bf2b78740069cd5ba8f6348bff2b69deda6a8836c541a7167dd6d356aebc9f6dd61106a"
+RPM_NAME = "openQA-devel-4.6.1694101660.598baea-1.1.aarch64.rpm"
+RPM_HASH = "db1152355671be0201e4842702a438d65de98ec77e6926f37818600f354fa063edec94b815d30c80af49b4d53d1d487b13340f52a408a9af425411ddb211a9d0"
 
 RPROVIDES:${PN} += "openQA-devel"
 

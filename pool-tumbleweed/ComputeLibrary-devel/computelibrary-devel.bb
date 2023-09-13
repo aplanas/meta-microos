@@ -4,17 +4,17 @@ The Compute Library is a collection of low-level functions optimized for Arm CPU
 Devel part, including headers."
 LICENSE = "MIT"
 
-PV = "23.05"
+PV = "23.08"
 
-RPM_NAME = "ComputeLibrary-devel-23.05-1.2.aarch64.rpm"
-RPM_HASH = "297e0380366d5fe565a781cfe553a05413be4aef3bc65a025fc29c08475640074ecf3096572accb924eb3b914170dd67d24c48ff28a0a7328c09d3e45a550d9c"
+RPM_NAME = "ComputeLibrary-devel-23.08-1.1.aarch64.rpm"
+RPM_HASH = "6b93f45b28ef84652fcfc402d904888b8ac79976a618fcc157d8855e4c5e497a1428951ed2ca40a5dd65ef35a4e4167ab05dad99d8bc54b88ecba09e4c7eed5e"
 
 RPROVIDES:${PN} += "ComputeLibrary-devel"
 
 RDEPENDS:${PN} += "ComputeLibrary \
-libarm-compute-core31 \
-libarm-compute-graph31 \
-libarm-compute31 \
+libarm-compute-core32 \
+libarm-compute-graph32 \
+libarm-compute32 \
 stb-devel"
 
 inherit rpm

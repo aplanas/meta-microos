@@ -2,10 +2,10 @@ SUMMARY = "Tools to build a local initramfs"
 DESCRIPTION = "This package contains tools to assemble the local initrd and host configuration."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "059+suse.491.g87f19c22"
+PV = "059+suse.497.ga7feaf12"
 
-RPM_NAME = "dracut-tools-059+suse.491.g87f19c22-1.1.aarch64.rpm"
-RPM_HASH = "f61874efa73d8cdd2c4c7f4f05c6b3a757e584b96070494d38447869f0e0e0cc3ed751ed4d7ec5430163962c0b65db93511d8d444042dddf6b7d1372946b6162"
+RPM_NAME = "dracut-tools-059+suse.497.ga7feaf12-1.1.aarch64.rpm"
+RPM_HASH = "bd5f7f0b4d16908809a003136b7f9d11f55bc66585b7e82ddab5dad32676555933df5594b5f3c9f91b4f433090348cfcd46e8687c787d10e1beb48e3b4453d85"
 
 RPROVIDES:${PN} += "dracut-/usr/bin/dracut-catimages \
 dracut-tools"

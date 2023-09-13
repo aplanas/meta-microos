@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.34.0"
 
-RPM_NAME = "anjuta-devel-3.34.0-5.7.aarch64.rpm"
-RPM_HASH = "a3cacad940f540176473ac2d2480e5e250e9b6846639c2586df82613998670baa0e549de6d4630a5e1c515a68bb7caa6a413203791c95115a32269202e6036cb"
+RPM_NAME = "anjuta-devel-3.34.0-5.8.aarch64.rpm"
+RPM_HASH = "fb6dc61f14d460d5feb68f8cf8be4a89975bc045f504bbc182fab7857c7925ec0957bfb086b3ecbc44bb90e7bacdb2e8cdddce7e11e7c3e00a7f7004f73aeb64"
 
 RPROVIDES:${PN} += "anjuta-devel \
 anjuta-doc \

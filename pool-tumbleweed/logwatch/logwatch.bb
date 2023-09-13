@@ -4,10 +4,10 @@ through system logs for a given period of time and make a report for the \
 desired areas at the desired detail level."
 LICENSE = "MIT"
 
-PV = "7.8"
+PV = "7.9"
 
-RPM_NAME = "logwatch-7.8-2.1.noarch.rpm"
-RPM_HASH = "1146b4d44d0beb1acf3ba4e6ddb16c6453a7a14b414412b4a83490f78c1f40a27da1df123e518785643542dfb3eeb715278e1a8fede23c8d35010e85b19c1634"
+RPM_NAME = "logwatch-7.9-1.1.noarch.rpm"
+RPM_HASH = "004f9d43096c77060a0208c668b5f65ef952db63710aeeb742fd86cb694b384a6b286a9da72532918e03baf80184c42843c04cf384dc989cfcd1a7c6d076b392"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-logwatch \

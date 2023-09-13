@@ -3,10 +3,10 @@ DESCRIPTION = "Setzer is an easy to use yet full-featured LaTeX editor for the G
 desktop, written in Python with Gtk."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "56"
+PV = "57"
 
-RPM_NAME = "Setzer-56-1.1.noarch.rpm"
-RPM_HASH = "b9f9253174fdd1de2d842522c18682c9c3acad3e8c524442cc728ec6fe75047a70bfda7869a796ee25916d70feef655945151331f8860d6e276c6c8a4f57685c"
+RPM_NAME = "Setzer-57-1.2.noarch.rpm"
+RPM_HASH = "5eebd76f9d2079ae2cc2f7b78df3fe65aaa98c1ac2e5e9d300ea71c0b2cdd991ccf0ed9b721cd6775a57fea2e235c777546d252617f7c2de2973acec5ffa8fc4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Setzer"
@@ -17,20 +17,19 @@ python3-bibtexparser \
 python3-cairo \
 python3-gobject-Gdk \
 python3-pexpect \
+typelib-Adw \
 typelib-GLib \
 typelib-GObject \
 typelib-Gdk \
 typelib-GdkPixbuf \
 typelib-Gio \
-typelib-Gspell \
+typelib-Graphene \
 typelib-Gtk \
 typelib-GtkSource \
-typelib-Handy \
 typelib-Pango \
 typelib-PangoCairo \
 typelib-Poppler \
-typelib-WebKit2 \
-typelib-Xdp \
-typelib-cairo"
+typelib-WebKit \
+typelib-Xdp"
 
 inherit rpm

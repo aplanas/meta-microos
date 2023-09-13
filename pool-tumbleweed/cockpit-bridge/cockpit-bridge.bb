@@ -3,10 +3,10 @@ DESCRIPTION = "The Cockpit bridge component installed server side and runs comma
 system on behalf of the web based user interface."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "298"
+PV = "300.1"
 
-RPM_NAME = "cockpit-bridge-298-2.1.aarch64.rpm"
-RPM_HASH = "b697be6e681e85c55d22a61b0cfe5dae7562de478bf3068b185b0196ce8807a1dca3a23bf0c3d1b0d3d4b12a86280c1e252ee72ef110b039e5c20d2ab8f84f1d"
+RPM_NAME = "cockpit-bridge-300.1-1.1.aarch64.rpm"
+RPM_HASH = "b53072f89493144eaa8609886c78ef5df18fdcb5e95b9b126fd39ff97c7260408800bf5be4d3b78d10dd113a089271a47dd8ffd6bee28933ae807aebcb652a4b"
 
 RPROVIDES:${PN} += "cockpit-bridge \
 cockpit-ssh"

@@ -4,10 +4,10 @@ an implementation of the network interface APIs using the \
 netcontrol library"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.6.0"
+PV = "9.7.0"
 
-RPM_NAME = "libvirt-daemon-driver-interface-9.6.0-3.1.aarch64.rpm"
-RPM_HASH = "094d6393e36633cfe1309176d76f15bb647a4b24738a3bedbb7a65fe1066a91de30db18c9e75b9c171f1e893b032d04faa7bf545c863fc85ca8390d533de8b39"
+RPM_NAME = "libvirt-daemon-driver-interface-9.7.0-1.1.aarch64.rpm"
+RPM_HASH = "a280ebe52ff6331aa4f190f8994d70388950d98c9c2a758cc84834ae84c9bc78f60851053ea67259bd63edfef25d05c5e4927e2672ad06ab14ae1db57a9ebc51"
 
 RPROVIDES:${PN} += "config-libvirt-daemon-driver-interface \
 libvirt-daemon-driver-interface \

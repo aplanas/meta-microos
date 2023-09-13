@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.57.0"
 
-RPM_NAME = "python310-grpcio-1.57.0-1.1.aarch64.rpm"
-RPM_HASH = "bd7445c81793321635963296f30ebd6f499fb8a10899024c83463b6f2d09f288d5d36519eab0a361b27db1e45e2e7559fe40da38d092ed8e534c44314455b071"
+RPM_NAME = "python310-grpcio-1.57.0-1.2.aarch64.rpm"
+RPM_HASH = "c37b1efd82f6c29bb319b41dcebafa2a28035215fd23b6707c872770f28f4f498c6b1be05a0a4c3ef3be56ab0f8bb1552d51613eca0e15f6d4cf4f378f26bcc2"
 
 RPROVIDES:${PN} += "python3.10dist-grpcio \
 python310-grpcio \
@@ -15,25 +15,25 @@ python3dist-grpcio"
 
 RDEPENDS:${PN} += "ca-certificates \
 ld-linux-aarch64.so.1 \
-libabsl-cord.so.2301.0.0 \
-libabsl-cordz-info.so.2301.0.0 \
-libabsl-flags-internal.so.2301.0.0 \
-libabsl-flags-marshalling.so.2301.0.0 \
-libabsl-flags-reflection.so.2301.0.0 \
-libabsl-hash.so.2301.0.0 \
-libabsl-random-internal-pool-urbg.so.2301.0.0 \
-libabsl-random-internal-randen-hwaes-impl.so.2301.0.0 \
-libabsl-random-internal-randen-slow.so.2301.0.0 \
-libabsl-random-internal-randen.so.2301.0.0 \
-libabsl-raw-hash-set.so.2301.0.0 \
-libabsl-spinlock-wait.so.2301.0.0 \
-libabsl-status.so.2301.0.0 \
-libabsl-statusor.so.2301.0.0 \
-libabsl-str-format-internal.so.2301.0.0 \
-libabsl-strings.so.2301.0.0 \
-libabsl-synchronization.so.2301.0.0 \
-libabsl-time-zone.so.2301.0.0 \
-libabsl-time.so.2301.0.0 \
+libabsl-cord.so.2308.0.0 \
+libabsl-cordz-info.so.2308.0.0 \
+libabsl-flags-internal.so.2308.0.0 \
+libabsl-flags-marshalling.so.2308.0.0 \
+libabsl-flags-reflection.so.2308.0.0 \
+libabsl-hash.so.2308.0.0 \
+libabsl-random-internal-pool-urbg.so.2308.0.0 \
+libabsl-random-internal-randen-hwaes-impl.so.2308.0.0 \
+libabsl-random-internal-randen-slow.so.2308.0.0 \
+libabsl-random-internal-randen.so.2308.0.0 \
+libabsl-raw-hash-set.so.2308.0.0 \
+libabsl-spinlock-wait.so.2308.0.0 \
+libabsl-status.so.2308.0.0 \
+libabsl-statusor.so.2308.0.0 \
+libabsl-str-format-internal.so.2308.0.0 \
+libabsl-strings.so.2308.0.0 \
+libabsl-synchronization.so.2308.0.0 \
+libabsl-time-zone.so.2308.0.0 \
+libabsl-time.so.2308.0.0 \
 libc.so.6 \
 libcares.so.2 \
 libcrypto.so.3 \

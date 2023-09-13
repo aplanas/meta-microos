@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the development environment required for \
 compiling programs and libraries using the DRI API."
 LICENSE = "MIT"
 
-PV = "23.1.6"
+PV = "23.1.7"
 
-RPM_NAME = "Mesa-dri-devel-23.1.6-356.1.aarch64.rpm"
-RPM_HASH = "7e042a620d39d06df9cc48e868245fe0030306061d987b9a22b4869dfa36e2863b6aa5fc836c33a64a468688c18917d0bf8637f733caabd53dbcab397394e54d"
+RPM_NAME = "Mesa-dri-devel-23.1.7-357.1.aarch64.rpm"
+RPM_HASH = "eb77d470e9aa1124c87de394ab4ccb0d80e4b8594d10a8b751dfb89c581aa9bdc78ed05e701b673d6a269f1f71f9725d11cebcc225c7d4887742bf2153e3cf85"
 
 RPROVIDES:${PN} += "Mesa-dri-devel \
 pkgconfig-dri"

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.15.2"
 
-RPM_NAME = "jackson-module-mrbean-2.15.2-1.1.noarch.rpm"
-RPM_HASH = "a58e6a52ce90c2ac20d14d8c50143048d3d76cf187b702350ecbbd24396bad7d3b6bca7fd1abdcc70f0b0a2b25c9197dc6f5ce364d947dd3156e584f03f11b3f"
+RPM_NAME = "jackson-module-mrbean-2.15.2-2.1.noarch.rpm"
+RPM_HASH = "55907bdb840cdb8155d1d87a5d601a682e679944c3d9ce33c49b4bf44202465efbb4435347d6e7c3fcb37d0800af4a019a252673188e8ff5c8e82833f09dbb0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-module-mrbean \

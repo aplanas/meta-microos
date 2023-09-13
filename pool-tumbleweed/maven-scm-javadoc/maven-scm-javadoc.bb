@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.12.0"
 
-RPM_NAME = "maven-scm-javadoc-1.12.0-3.4.noarch.rpm"
-RPM_HASH = "10f84692f0d8bd1bcf27fdd8ca6e083a5be5fa362328db76636ea345dcd7534fd225b5f126f3a8e81dad3e34085bd2bc16ccc4409239befce6516a29a0929a42"
+RPM_NAME = "maven-scm-javadoc-1.12.0-4.1.noarch.rpm"
+RPM_HASH = "455abc9fbdc6f987c1542821dfd4dbd0002f5eb0b2d44d45eb04d77ee52284596b32c728a68fb8283b34408c4f91cef67644c6badb66bc13f3fd5bd8a7a37351"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-scm-javadoc"

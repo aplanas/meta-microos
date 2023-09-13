@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.4.4"
 
-RPM_NAME = "ffmpeg-4-libswresample-devel-4.4.4-2.2.aarch64.rpm"
-RPM_HASH = "b65478a435a1d4c03f7f17fc85b50ad73bd40b86900ab54f60571064cf0a05a3daeba94c6e50c40cd5ecd08c3fbae41d87d38ab696b1cbef7cba365147a2ce13"
+RPM_NAME = "ffmpeg-4-libswresample-devel-4.4.4-2.3.aarch64.rpm"
+RPM_HASH = "e8841490f39a847efef09e884bb2134fb9495b83d327a2965b6b39a365346426e8ef1d03fe9bc286800ac49fda2ff43db61b773be0a1f1c264d7fc0a0a5fe290"
 
 RPROVIDES:${PN} += "ffmpeg-4-libswresample-devel \
 libswresample-devel \

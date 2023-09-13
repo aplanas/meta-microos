@@ -23,10 +23,10 @@ useful functions like: \
 guests and from guest to guest"
 LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-2.1-only"
 
-PV = "12.2.0"
+PV = "12.3.0"
 
-RPM_NAME = "open-vm-tools-12.2.0-6.1.aarch64.rpm"
-RPM_HASH = "d54603c8a379d50430645ee2b19f6de4e2bd04fd8cca8d99755be65e1f230be8680c2a362dedb8de9a728dd7f07be9cbb2a0ac97eb7b021e28b6ec23471e96a0"
+RPM_NAME = "open-vm-tools-12.3.0-1.1.aarch64.rpm"
+RPM_HASH = "52bb274dd8e3a1b74eabe4654a6ecf2a9914254d2a50b2adc052b1428365725bdfacf149c362ad902288fe2aabb99a90104efda3d699ffc3fea73e466c5a4d08"
 
 RPROVIDES:${PN} += "config-open-vm-tools \
 libappInfo.so \

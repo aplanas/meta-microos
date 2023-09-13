@@ -4,10 +4,10 @@ The tool is written in Go and is cross-compiled for Linux, Windows, MacOS and ev
 How do you say it? Ketchup, as in tomato."
 LICENSE = "MIT"
 
-PV = "0.12.12"
+PV = "0.13.0"
 
-RPM_NAME = "k3sup-0.12.12-1.2.aarch64.rpm"
-RPM_HASH = "c8b792828786d03937c10b45af0acd8db56a6006fcd08a5ae42e8816525bc31213c8efc730f5baee55226af85d0d84d6b9d70bd2df7eb454ebd8ef79e07085a4"
+RPM_NAME = "k3sup-0.13.0-1.1.aarch64.rpm"
+RPM_HASH = "0d5169429ce44871cfa5f8577f4a61c170375d9b126e3b7d41d487e03207fca4c23aea9739d72cf0ce7add6c00b2f18a88239fcaa8b53b244bb8b961bfa08cff"
 
 RPROVIDES:${PN} += "k3sup"
 

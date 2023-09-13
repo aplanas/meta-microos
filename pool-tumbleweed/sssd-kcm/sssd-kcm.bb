@@ -3,10 +3,10 @@ DESCRIPTION = "KCM is a process that stores, tracks and manages Kerberos credent
 caches."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.9.1"
+PV = "2.9.2"
 
-RPM_NAME = "sssd-kcm-2.9.1-1.1.aarch64.rpm"
-RPM_HASH = "7298d29a00a9d0438ff8ba56746a61809f4be3c4e04c7ac7c43d235f4fe3807c2c045b25fe2e04a1f47009e543dc7845e0957243caf48b2f766d9224ad20467a"
+RPM_NAME = "sssd-kcm-2.9.2-1.1.aarch64.rpm"
+RPM_HASH = "8b1f94ac1e5a0b0e271af559bacbb38fe98b71c587e864feee07324972dde3bd344ac0fd891341cd27b1f899ae20ee178c75a0ddd6647ea779692abbb59ef4dd"
 
 RPROVIDES:${PN} += "sssd-kcm"
 

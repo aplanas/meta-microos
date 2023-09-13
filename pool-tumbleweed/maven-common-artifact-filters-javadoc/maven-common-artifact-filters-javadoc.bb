@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for maven-common-artifact-filters"
 DESCRIPTION = "This package contains javadoc for maven-common-artifact-filters."
 LICENSE = "Apache-2.0"
 
-PV = "3.0.1"
+PV = "3.3.2"
 
-RPM_NAME = "maven-common-artifact-filters-javadoc-3.0.1-2.13.noarch.rpm"
-RPM_HASH = "6e785b7c12512a08ccfbdc76f147c0f0dc1b74d66fcf4543740c8e44c7be9cc06e13baf4fdc217e256e7c219afc5544124232184904b9986f009b9bebfaf3953"
+RPM_NAME = "maven-common-artifact-filters-javadoc-3.3.2-2.1.noarch.rpm"
+RPM_HASH = "204a10e061c7587495d43344f7e14c5f67afaade761223956fc32786a1f196b50337fe1ac39d914fd5d5ed23259be74143ffa20ab0f1b83a3e434f201e0de9ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-common-artifact-filters-javadoc"

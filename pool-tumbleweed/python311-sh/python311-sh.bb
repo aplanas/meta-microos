@@ -9,10 +9,10 @@ function: \
 sh is not a collection of system commands implemented in Python."
 LICENSE = "MIT"
 
-PV = "2.0.4"
+PV = "2.0.6"
 
-RPM_NAME = "python311-sh-2.0.4-1.3.noarch.rpm"
-RPM_HASH = "3ff3eef4900e7493b12a62d4e690db3c8b9a01f0c41fc6ad07881ac2c4bbee17b32987178344c1ca3735241cfe83626938d880fc3aaf5da4fae4fa03906848bc"
+RPM_NAME = "python311-sh-2.0.6-1.1.noarch.rpm"
+RPM_HASH = "ef775cce0963d4cb2b4d693524f622cfcf055f071bd1f7d3d745484545925279f635142da30c4c04f7638769907b0d875ee87061e686cd4ac1073141f221735a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-sh \

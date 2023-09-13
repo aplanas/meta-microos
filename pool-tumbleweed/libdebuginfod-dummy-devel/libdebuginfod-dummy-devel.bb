@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
 PV = "0.189"
 
-RPM_NAME = "libdebuginfod-dummy-devel-0.189-4.1.aarch64.rpm"
-RPM_HASH = "887e67c6855b6b092702cfc6684f55a3523a1f5afa4c8a021502660cf32c557476fb5bc73eb7894a9021108a02a8fdbe922b388c66fc96687e2fd9858f77d44a"
+RPM_NAME = "libdebuginfod-dummy-devel-0.189-5.1.aarch64.rpm"
+RPM_HASH = "1e2934af4b15c3869fd039140666733ed5ad7484374b4a1dbdeb92cdeebc9bf06b2ddda8dc77d1ccb4df0bd067de2ec47165de3ffe2f9a10e79721094bc014c5"
 
 RPROVIDES:${PN} += "libdebuginfod-devel \
 libdebuginfod-dummy-devel"

@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.2.0"
 
-RPM_NAME = "python-renderspec-doc-2.2.0-2.3.noarch.rpm"
-RPM_HASH = "658d3922bdada4c2fcfbc769a44ec32537e5f062133f4cb30175a29787560bbfe8009b37b8daaa680c3a01bab052be99b6b92a0c963980a086804e86debba129"
+RPM_NAME = "python-renderspec-doc-2.2.0-3.1.noarch.rpm"
+RPM_HASH = "32af4c60b09aceac0ca411adeeecec3221a2524d2483f51df483a4455eac4dbd5b6d1e40d6421ca630b4bc2f0050e3aed1c1cd7ef1f0a28803f7744344921f9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-renderspec-doc"

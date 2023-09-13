@@ -7,10 +7,10 @@ mechanism for all assistive technologies to discover and interact \
 with applications running on the desktop."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.48.3"
+PV = "2.48.4"
 
-RPM_NAME = "at-spi2-core-2.48.3-2.1.aarch64.rpm"
-RPM_HASH = "2674e6b993c08886136396a71b8c8c772702f65a483b424f54988213d1ba57dee3cdf995348b4220e687720ba03391682056c06bb928936f42df087305eae865"
+RPM_NAME = "at-spi2-core-2.48.4-1.1.aarch64.rpm"
+RPM_HASH = "11429a60a1ced0dbf18c7d913a19878d184d4f0a39b7c8b88be5bbcc5235041bc5ccb2f8b222213a5c68a0306084da01adbbcbeb03191db47b8f7f256483beda"
 
 RPROVIDES:${PN} += "at-spi2-atk-gtk2 \
 at-spi2-core \

@@ -4,10 +4,10 @@ It defines fundamentals for most of accounting needs, such as fiscal year, \
 period, account type, journal, tax code and more."
 LICENSE = "GPL-3.0+"
 
-PV = "6.0.17"
+PV = "6.0.18"
 
-RPM_NAME = "trytond_account-6.0.17-1.2.noarch.rpm"
-RPM_HASH = "3b9afa9ffbdf6a7a404c9483797e822cd94d619e92c022cb3edaf2717809210391563820d5c2cceeb3f7235461231c9a9b0a52333bf5f3e502660e7730166576"
+RPM_NAME = "trytond_account-6.0.18-1.1.noarch.rpm"
+RPM_HASH = "4c258e3368276ca0e75dbcf6177416ffd1b88966199c909cac2ae1c55b6ff1a0fe7583de09831d71d83cf5777ffd1476a5e2330a953edcf6029879682adc74e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.11dist-trytond-account \

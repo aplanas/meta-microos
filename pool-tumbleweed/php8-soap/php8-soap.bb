@@ -7,8 +7,8 @@ LICENSE = "MIT & PHP-3.01"
 
 PV = "8.2.10"
 
-RPM_NAME = "php8-soap-8.2.10-1.1.aarch64.rpm"
-RPM_HASH = "1d9c153bb2de9db9095e486ad43cc72c4c329ff2f74113ef8579e2e1a565455180ab13d6cae1c12c3a67dfdb356384f19dbb005d5786ffc4afb43b3e15f17573"
+RPM_NAME = "php8-soap-8.2.10-2.1.aarch64.rpm"
+RPM_HASH = "f48f9baa11b6e812681f9b8133057637e735d4f358019f87aa6488cde6731e48598be8f5662f681ecedf163e64b9a9206d0cb1a3489a5322ffaa761ffcabded0"
 
 RPROVIDES:${PN} += "config-php8-soap \
 php-soap \

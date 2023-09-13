@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop applications that require ALSA topology."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.2.9"
+PV = "1.2.10"
 
-RPM_NAME = "alsa-topology-devel-1.2.9-1.1.aarch64.rpm"
-RPM_HASH = "7e0f26ddb3d2222d5bf051893e0530c850501dba0be15bdc9288305432f35ab147c43a975791df4bc7b2de89b9e9b186d82ae929f0e1e9aa58e4cc7d82f85022"
+RPM_NAME = "alsa-topology-devel-1.2.10-1.1.aarch64.rpm"
+RPM_HASH = "3cf4b220617f9002c164564fa18e84642c04a5bf05ddcea7effa639c7f9dddd20ee12bf4b4d04f72a7791b1ca9dce2a9947d0af1ee89c19370fa04587276ea3e"
 
 RPROVIDES:${PN} += "alsa-topology-devel \
 pkgconfig-alsa-topology"

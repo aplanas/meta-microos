@@ -7,10 +7,10 @@ used with versions of udev that contain the 'built-in' btrfs command \
 thing."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3"
+PV = "6.5"
 
-RPM_NAME = "btrfsprogs-udev-rules-6.3-3.1.noarch.rpm"
-RPM_HASH = "105fd870773410aa09e8a42172b3152df14c1a860fd437a8d5bfc41796adb572d906c50ec1efa62a2e6da4b670fb44401d68e5bcdaead2b442dca34f396b4c3d"
+RPM_NAME = "btrfsprogs-udev-rules-6.5-1.1.noarch.rpm"
+RPM_HASH = "2d9447de94f1ecca21ee6f5fc51bf9a6c1f8cb3de4830b29317dfde84a4e09fb64413d096bfc8ceb2e144a3e6067cd6ece658169495ed215e290d7c88005aabe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "btrfsprogs-udev-rules"

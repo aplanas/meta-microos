@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.11.7"
 
-RPM_NAME = "python39-cloudflare-2.11.7-1.1.noarch.rpm"
-RPM_HASH = "708d8020a85e94cff4b99bacb2c34c69bc1762a21f6bc9af540a0f3e7d9d540e69abe3f039ba38c66bc226e430161bfbfd6cd405b8e7f8ff36103376c4d2a688"
+RPM_NAME = "python39-cloudflare-2.11.7-2.1.noarch.rpm"
+RPM_HASH = "a5bca788b0666ade38c529695a68d8028843f20d4e2e6a7653bf99587f86a7e113d60ee513bb7eb319eacc3120cdc165707a4e3ec2da9208140f500bb447f752"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-cloudflare \
@@ -17,7 +17,6 @@ RDEPENDS:${PN} += "/usr/bin/python3.9 \
 python-abi \
 python39-PyYAML \
 python39-beautifulsoup4 \
-python39-future \
 python39-jsonlines \
 python39-requests \
 update-alternatives"

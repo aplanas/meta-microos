@@ -9,10 +9,10 @@ UPDATEs. psycopg2 also provide asychronous operations and support \
 for coroutine libraries."
 LICENSE = "LGPL-3.0-or-later & (LGPL-3.0-or-later | ZPL-2.0) & SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "2.9.6"
+PV = "2.9.7"
 
-RPM_NAME = "python310-psycopg2-2.9.6-2.4.aarch64.rpm"
-RPM_HASH = "d15c5c3ff253a1f38d2c3c0c93ba9a05e601b27f2fd604aef5a4e1486a08f570985d6d4e6ef5d73a388ef2c9416a7dbfb0d81fa047f7f1dcf5e31b4d2af58577"
+RPM_NAME = "python310-psycopg2-2.9.7-1.1.aarch64.rpm"
+RPM_HASH = "73048522201e7f9f6f66eb0c2f2f8c68835c126dc581dfc2fb6c5dda0117d65395f0d3278eb1af9718f9363382983736ae1c22cdc46e737a4410ede9e7d381f6"
 
 RPROVIDES:${PN} += "python3.10dist-psycopg2 \
 python310-psycopg2 \

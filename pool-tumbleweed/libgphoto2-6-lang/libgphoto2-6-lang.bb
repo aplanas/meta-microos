@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libgphoto2-6"
 DESCRIPTION = "Provides translations for the 'libgphoto2-6' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.5.30"
+PV = "2.5.31"
 
-RPM_NAME = "libgphoto2-6-lang-2.5.30-3.1.noarch.rpm"
-RPM_HASH = "a66cfea1caf0d33526ae648ec0572d4684e3fb97558a42b562f82ca8329f630c6e7424580021000b6441c416802b613e59f8921979bd4841312fb8c1f73d4ad1"
+RPM_NAME = "libgphoto2-6-lang-2.5.31-1.1.noarch.rpm"
+RPM_HASH = "7b7690d7f0f2ad685f691a54eab2bab20fb9dd83f9e192af78b67a3ba338a321e1f3c99dcaa89a2153e09732251ad52a1467c07d8f8f628e2061e3b1ca79c981"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgphoto2-6-lang \

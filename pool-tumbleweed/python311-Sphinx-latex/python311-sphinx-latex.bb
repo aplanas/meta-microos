@@ -6,10 +6,10 @@ sources). \
 This package contains the LaTeX components for python-Sphinx."
 LICENSE = "BSD-2-Clause"
 
-PV = "7.2.4"
+PV = "7.2.5"
 
-RPM_NAME = "python311-Sphinx-latex-7.2.4-1.1.noarch.rpm"
-RPM_HASH = "193ca8379ba3d52a351c5653217dafb55547d0f0b96e1c165ac67d3630c2012f245812ad6bf3046e3d5d99dc192fb49aed95c6295145d7ba645d95efd06163eb"
+RPM_NAME = "python311-Sphinx-latex-7.2.5-1.1.noarch.rpm"
+RPM_HASH = "bf843e3c544a2a893fd323e844fafb32a259c89c862b81849593d7fd0ce6ba988bcdba2cc41d55e3ca7eb09fc9ba6ce662f1b164e9e1954d9d11d764af97ae74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Sphinx-latex \

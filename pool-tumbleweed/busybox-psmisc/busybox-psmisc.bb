@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.36.1"
 
-RPM_NAME = "busybox-psmisc-1.36.1-29.1.noarch.rpm"
-RPM_HASH = "dc870f452f7aaec642832143b3fda4fd6506b479ba542268de0be7fe312d837d5de3f45d7e2697ef75d97504af5488a9f7bf7a39038f86280a8d21b5592b0752"
+RPM_NAME = "busybox-psmisc-1.36.1-30.1.noarch.rpm"
+RPM_HASH = "c08c76fd989939500818412caf5c4ac5ae73c641e1b266af0b8c52171b33f63e7ede194f36359ae4b7ad37db2513eb7b98b81e4e959aaf800da1880cfca6e83b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "/usr/bin/fuser \

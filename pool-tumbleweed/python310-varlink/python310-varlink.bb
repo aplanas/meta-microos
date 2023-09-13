@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "31.0.0"
 
-RPM_NAME = "python310-varlink-31.0.0-1.8.noarch.rpm"
-RPM_HASH = "b08f2d289ca83797c2176ce62443830a2c59a767ce86a36bb2e552be73e2d3bc823bf890390cb6c79a455302e2da4651008bac1e603298e19f805eb251e48b6e"
+RPM_NAME = "python310-varlink-31.0.0-2.1.noarch.rpm"
+RPM_HASH = "36ef52368433af75f7eec70da6a05bf82b8a021e4efb5f68af483765a01594e7809a4220ed5b706802838ed512a7cf3d245ebd6ea7d710e63db7c3ad95e0a277"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-varlink \
@@ -16,7 +16,6 @@ python310-varlink \
 python3dist-varlink"
 
 RDEPENDS:${PN} += "/usr/bin/env \
-python-abi \
-python310-future"
+python-abi"
 
 inherit rpm

@@ -7,10 +7,10 @@ removal. \
 This package contains a library for a zone record scanner."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.2.9"
+PV = "3.3.0"
 
-RPM_NAME = "libzscanner4-3.2.9-1.1.aarch64.rpm"
-RPM_HASH = "4ebcfa480121a3db9bfe6b4566cb0ecf13af7b5f699161b0900ed79f7859f8afc6419078ba8d7489e65b3fafb8e84c1387a585ab00c20b5ba7c19b6d7d5a5053"
+RPM_NAME = "libzscanner4-3.3.0-1.1.aarch64.rpm"
+RPM_HASH = "7c466320d00e4b8a02073f709000bdafd09328d8d02849bcd3af8318f9b8d069b05bfab03fed6d4f015bf748873ab4641076bd6bda861a4451ed55109159f4a5"
 
 RPROVIDES:${PN} += "libzscanner.so.4 \
 libzscanner4"

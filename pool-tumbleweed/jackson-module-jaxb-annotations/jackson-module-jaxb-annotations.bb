@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.15.2"
 
-RPM_NAME = "jackson-module-jaxb-annotations-2.15.2-1.1.noarch.rpm"
-RPM_HASH = "022878af1acfb5d2e822ec5a54911ce0b596f5e4d9130ee06e2fa5da283cbfd1125ec04bdb7b1d94443df0417c3c7612c7c16db34d79d2261a6e938f8264e291"
+RPM_NAME = "jackson-module-jaxb-annotations-2.15.2-2.1.noarch.rpm"
+RPM_HASH = "a8a9ebcc5ad0e820bf2c57a7467ab9dde87904617e5d0246fbe8fc3061bbd0c922beb67948d6a6cad28e00945ce4497e6939764723655c76d9c9e1209eac7493"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-module-jaxb-annotations \

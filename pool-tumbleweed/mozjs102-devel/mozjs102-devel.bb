@@ -7,10 +7,10 @@ with only mild differences from the published standard. \
 This package contains the header file and tools to develop with JavaScript."
 LICENSE = "MPL-2.0"
 
-PV = "102.14.0"
+PV = "102.15.0"
 
-RPM_NAME = "mozjs102-devel-102.14.0-1.1.aarch64.rpm"
-RPM_HASH = "3e1b895f80d0a1aa98a6312ed68d0eaba698ce88c14e940c07392ddb9a8e4c0a75854c7cf34245b52dec9db60b65230ed5c5a48d5a1169abee9eda36bfd308aa"
+RPM_NAME = "mozjs102-devel-102.15.0-1.1.aarch64.rpm"
+RPM_HASH = "414436ec6e85589af25f5507746491dc84daaa61a71893cec84b868b4c8e1bfcf3d02d8de7585725783f6088bdcdd3107aba60aef28b08d9593451b12c0490bb"
 
 RPROVIDES:${PN} += "mozjs102-devel \
 pkgconfig-mozjs-102"

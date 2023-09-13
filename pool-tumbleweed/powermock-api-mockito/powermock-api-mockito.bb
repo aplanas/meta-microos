@@ -11,8 +11,8 @@ LICENSE = "Apache-2.0 & MIT"
 
 PV = "1.6.5"
 
-RPM_NAME = "powermock-api-mockito-1.6.5-4.11.noarch.rpm"
-RPM_HASH = "263093257a0966d618d3a367f5d2356ed627c3c04ceb6c713e7f8a0401fe98ec572895e5b6cbc1323f398bfcb2ec59eea3889d6618c936039c046f6883dd5344"
+RPM_NAME = "powermock-api-mockito-1.6.5-5.1.noarch.rpm"
+RPM_HASH = "c5844d63db069781ddb830e3ae6b577e18913d6e8682d90910ede4030521f4bfc1e023790c31ea5e5f5f9ef4f025b30b43ca20dc8f0ebf3191a92620abdc2d22"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bundled-mockito \

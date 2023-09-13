@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "22.10.0"
 
-RPM_NAME = "python310-Twisted-http2-22.10.0-7.1.noarch.rpm"
-RPM_HASH = "c687e2b5af4386ecc7a654dd6cde7017f50f2c63a850e9a3099ad6f9a86300252c8e151c0a1e06cd7c3cfa0f20a3d2b6fffa2a8cc7b80fa58b079a7e7f64f86a"
+RPM_NAME = "python310-Twisted-http2-22.10.0-8.1.noarch.rpm"
+RPM_HASH = "1e39d0805be0b025ed363bc55fc66da47ce7f0e915ebde95ea1a7754dc438a344b5d6ae7b3e8139bd3f5c4fe3afc1f48d2e330696cf38f8749687d085fcea74e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python310-Twisted-http2"

@@ -5,6 +5,9 @@ compatibles. Connectivity options include RPC/HTTP (Outlook \
 Anywhere), MAPI/HTTP, IMAP, POP3, an SMTP-speaking LDA, and a PHP \
 module with a Z-MAPI function subset. \
  \
+Import is possible from PST/OST/MSG/CDFV2/TNEF, EML/ICAL/VCF, Kopano, \
+Zarafa, and via imapsync. \
+ \
 Gromox relies on other components to provide a sensibly complete mail \
 system, such as Postfix as a mail transfer agent, and grommunio-admin \
 for user management. A webmail client interface is available with \
@@ -12,10 +15,10 @@ grommunio-web. The grommunio appliance ships these essentials and has a \
 ready-to-run installation of Gromox."
 LICENSE = "AGPL-3.0-or-later & GPL-2.0-only & GPL-3.0-or-later"
 
-PV = "2.11"
+PV = "2.12"
 
-RPM_NAME = "gromox-2.11-1.1.aarch64.rpm"
-RPM_HASH = "9ec0c79fc5b5e5f5bbabb3c376f51a5fb5b83e65e13a965a1b8121f8df88baa14799eade7c5e11749603e03202156560b4b2f498c39e16ee329f80f083ec9af8"
+RPM_NAME = "gromox-2.12-1.1.aarch64.rpm"
+RPM_HASH = "0e4fc969d2486889e6622142508f376c15599ae87ecb6a369c6b64068f7e3796021922e7ec6de932ba8330e7454a04091de8de8b574496c1eb185c2b6fdfb1a6"
 
 RPROVIDES:${PN} += "bundled-tzcode \
 gromox \

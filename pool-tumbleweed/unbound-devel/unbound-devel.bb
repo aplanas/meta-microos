@@ -4,10 +4,10 @@ DESCRIPTION = "Unbound is a validating, recursive, and caching DNS(SEC) resolver
 This package holds the development files to work with libunbound."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.17.1"
+PV = "1.18.0"
 
-RPM_NAME = "unbound-devel-1.17.1-2.1.aarch64.rpm"
-RPM_HASH = "89abd22eafbb06c07f4718368082da5bbb7e32d73e3db68a5174846d9809d1e58ac3b162b3c8a82a8eb80e3b6f18fa1962e395dbdbf34760d5516924a3984061"
+RPM_NAME = "unbound-devel-1.18.0-1.1.aarch64.rpm"
+RPM_HASH = "cadc00c5a1ea73cd0e00237f2884e582b4b3206516a5c5b1416b596e22eefeaf6c71f61fdf1792c290dc2674f4e759547eeaaddd3a98db497e1a01b7980e8b1b"
 
 RPROVIDES:${PN} += "libunbound-devel \
 pkgconfig-libunbound \

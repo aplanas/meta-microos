@@ -11,10 +11,10 @@ Xpra is usable over reasonably slow links and does its best to adapt to changing
 network bandwidth constraints."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later & LGPL-3.0-or-later & MIT"
 
-PV = "6.0+git20230821.3093d53d"
+PV = "6.0+git20230901.77211231"
 
-RPM_NAME = "xpra-6.0+git20230821.3093d53d-1.1.aarch64.rpm"
-RPM_HASH = "ab323a315546776cf3cd8ceb61020754631daaf2e5e886bb293dabf4afd5f219050d94d577f6179b4e77f40438a24e9bcf9b844e20ce180c6d8bfbd71a6d772a"
+RPM_NAME = "xpra-6.0+git20230901.77211231-1.1.aarch64.rpm"
+RPM_HASH = "2f53d3b07185b95cce18284b8a4ff042e12f22a992d5cd4836864df4e3d846b8e1aa1dad9c012cd7d7915a37809d28adb165708e7bb188e6baafd256f09cafcf"
 
 RPROVIDES:${PN} += "config-xpra \
 python3.11dist-xpra \

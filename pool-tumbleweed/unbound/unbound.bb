@@ -10,10 +10,10 @@ DNSSEC (secure DNS) validation and stub-resolvers (that do not run \
 as a server, but are linked into an application) are easily possible."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.17.1"
+PV = "1.18.0"
 
-RPM_NAME = "unbound-1.17.1-2.1.aarch64.rpm"
-RPM_HASH = "4bded387dcfb477e5633e0e16433cc5a86a76891b25fa1bd22d33c4696f92e54eedb2276fbc2d4fcce5a0908eeceeece64cbe7c4de29f82a7428c636971a7656"
+RPM_NAME = "unbound-1.18.0-1.1.aarch64.rpm"
+RPM_HASH = "b95beeb7dde67cc743b9da2761cb44fff8ddb6eeda2e69b2d57460c85f281a7981b4316142eef920ca7c4730676bb32195d22ff01df65a57fff8c9753f375c00"
 
 RPROVIDES:${PN} += "config-unbound \
 unbound"

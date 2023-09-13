@@ -2,10 +2,10 @@ SUMMARY = "The Nextcloud synchronisation library"
 DESCRIPTION = "The Nextcloud Desktop Client synchronisation library."
 LICENSE = "GPL-2.0-or-later & LGPL-3.0-or-later"
 
-PV = "3.9.0"
+PV = "3.9.3"
 
-RPM_NAME = "libnextcloudsync0-3.9.0-3.1.aarch64.rpm"
-RPM_HASH = "91e3ca0f801db6a51c88ecf842917f52418ac3af72dd103e3a1c74600f4e497f115b0e7a969c6a4795ef78fe78cab137d73a9fc4e7667e34efacfb06033c7729"
+RPM_NAME = "libnextcloudsync0-3.9.3-1.1.aarch64.rpm"
+RPM_HASH = "d52a2b7188e746ba336b67ce2ddc3959271bb05d90618f27cf7c0e7efa167c10abd10ab94a37257b14f00a8a546ba0ba572bcd153e72fbf55313b5692c2c55d0"
 
 RPROVIDES:${PN} += "libnextcloud-csync.so.0 \
 libnextcloudsync.so.0 \

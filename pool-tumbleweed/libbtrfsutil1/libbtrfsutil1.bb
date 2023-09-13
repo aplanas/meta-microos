@@ -4,10 +4,10 @@ LGPL unlike libbtrfs.so and can be used by applications to interact with Btrfs \
 filesystems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.3"
+PV = "6.5"
 
-RPM_NAME = "libbtrfsutil1-6.3-3.1.aarch64.rpm"
-RPM_HASH = "3143d9424a7c9efd3e21ddbf4aa88f5944350cdbf097eaad54c86431871c9d56076d1152b59b17a1b84af4506aeaae4aecc737b0f80e49122877e3146561717c"
+RPM_NAME = "libbtrfsutil1-6.5-1.1.aarch64.rpm"
+RPM_HASH = "5a077716c8d7070384bed17863f6d27eda0acd5bbcd176660132f75777170648887ee2ebe20b7d3368fb3186a4adc80a32569b7ffb36dd9a564990884c92813e"
 
 RPROVIDES:${PN} += "libbtrfsutil.so.1 \
 libbtrfsutil1"

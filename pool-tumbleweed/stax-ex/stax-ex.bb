@@ -11,8 +11,8 @@ LICENSE = "CDDL-1.0 | GPL-2.0-only"
 
 PV = "1.8"
 
-RPM_NAME = "stax-ex-1.8-4.5.noarch.rpm"
-RPM_HASH = "e25a75c01090443b1f4fe3e7502265350785096e10478ee7100454ff5e52995ad70233018ad8e8cbb76b9278ad3b39a90415c9614e705ababa587171c7d61b5b"
+RPM_NAME = "stax-ex-1.8-5.1.noarch.rpm"
+RPM_HASH = "a65c330dd9719bb5fdbf48c4d0f06ce0c24bd96a34067c2e635ed0101302f2f5e3059473771991d4045f30e8fe71737bafd066a4ba13f9a12255b51a9ce39460"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.jvnet.staxex-stax-ex \

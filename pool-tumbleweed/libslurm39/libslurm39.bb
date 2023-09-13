@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the library needed to run programs dynamica
 with SLURM."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.2"
+PV = "23.02.4"
 
-RPM_NAME = "libslurm39-23.02.2-1.4.aarch64.rpm"
-RPM_HASH = "fd53e4e89b9e80fa2bbfc89cfd6c0bba6a8a34b68bd3fc5a27fb3d8fd836350bd4084b26eb2e3d39381c29c6de7fa1abbb679c68d54497923adf5c926bf5aecb"
+RPM_NAME = "libslurm39-23.02.4-2.1.aarch64.rpm"
+RPM_HASH = "990cf4fc391e954ac87007f1d26dcff10013b9227024c4481a34d6ef4739b673bc6895a0fb0a94b88c5ae165f94dcef85edc1e18d3184631b073d01964861bee"
 
 RPROVIDES:${PN} += "libslurm \
 libslurm.so.39 \

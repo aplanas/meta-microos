@@ -4,10 +4,10 @@ dispatching all the gl* functions. It is intended to be mainly used by \
 the Mesa-libGLES* packages."
 LICENSE = "MIT"
 
-PV = "23.1.6"
+PV = "23.1.7"
 
-RPM_NAME = "Mesa-libglapi-devel-23.1.6-356.1.aarch64.rpm"
-RPM_HASH = "e82db028ab3bf06f829dc3f79a151dfbc5911fea70b3ade0560bc09c57d36f886a9dceccdd2240673d95e05f5ac5b40607c3abd29fa41cf8c49e7d7cd33f8577"
+RPM_NAME = "Mesa-libglapi-devel-23.1.7-357.1.aarch64.rpm"
+RPM_HASH = "42804d64d4507e474aecbd651f392b31ee47f1b62254b0aae11aca9c6ea0d087f403e0fe385f2b3df8b2be033673cfdd68b72e2415cc2de7582be017b829b14f"
 
 RPROVIDES:${PN} += "Mesa-libglapi-devel"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "openSUSE MicroOS combines the benefits of a rolling OS with a rea
         It inherits the benefits of openSUSE Tumbleweed while redefining the operating system into a small, efficient and reliable distribution."
 LICENSE = "BSD-3-Clause"
 
-PV = "20230904"
+PV = "20230910"
 
-RPM_NAME = "MicroOS-release-appliance-20230904-1803.1.aarch64.rpm"
-RPM_HASH = "86d80a067e78937a25dbdc5755ab39cdb5109cc58bfc5f5770089a639bbf72530baac4e2929f0772b8e4fd2b898b76b09aee41b56e35890312867c9dfc69c073"
+RPM_NAME = "MicroOS-release-appliance-20230910-1810.1.aarch64.rpm"
+RPM_HASH = "5d2df20e0463a6f843a69f142eb85ebc2957f8a7f24f65aafcabcab83b638eab8af98b6770a77a63eff1ac501b069a54ae8d558257a461d5d0908490488bfa23"
 
 RPROVIDES:${PN} += "MicroOS-release-appliance \
 flavor-appliance \

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "3.6.2"
 
-RPM_NAME = "python39-anyio-3.6.2-5.3.noarch.rpm"
-RPM_HASH = "29e311650e239361b3032d7535be7e7a013d2e6c8ca49d1de812c9a5988e5c9e21e917636f8521474bac769a417f35b8c484fd7b7f47b280aba67886ea7bdb63"
+RPM_NAME = "python39-anyio-3.6.2-6.1.noarch.rpm"
+RPM_HASH = "908d43960a37c6fa71571e4585d359ced8290638fd95d0a6eaba9172e92b26a4eb0b4f72ac9eb6f482f77d5b956e724725c59e63256a4af8a4e635555aa52ec5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-anyio \

@@ -7,14 +7,15 @@ because they are not available as openSUSE RPM packages: \
   * pandas-gbq \
   * pyxlsb \
   * s3fs \
+  * dataframe-api-compat \
  \
 You can install them directly through `pip3 install --user`, if needed."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.3"
+PV = "2.1.0"
 
-RPM_NAME = "python311-pandas-all-2.0.3-1.3.noarch.rpm"
-RPM_HASH = "ad96a94054bca044ed9c6267a0ade509c5decdbbbe50398cb63e47b5ac7143981ff3c4c621916513979494d257236e91503525a53a08065ac17c73353358cf98"
+RPM_NAME = "python311-pandas-all-2.1.0-1.2.noarch.rpm"
+RPM_HASH = "0a5911bf6079bacfa73b795b2b76a0befcbfabb1ec15de2a6a5cfe108b8c5c0a7e8d7523f960098e71bbbb6ecaf84c989c0332e233524bfc7851132b15c5ac87"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-pandas-all \
@@ -29,7 +30,6 @@ python311-SQLAlchemy \
 python311-XlsxWriter \
 python311-beautifulsoup4 \
 python311-blosc \
-python311-brotlipy \
 python311-fastparquet \
 python311-fsspec \
 python311-gcsfs \
@@ -48,7 +48,6 @@ python311-pyreadstat \
 python311-pytest \
 python311-pytest-asyncio \
 python311-pytest-xdist \
-python311-python-snappy \
 python311-scipy \
 python311-tables \
 python311-tabulate \

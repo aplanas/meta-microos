@@ -7,10 +7,10 @@ modified version of the Modplug engine, with a number of \
 bugfixes and changes to improve IT playback."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "20221201"
+PV = "20230906"
 
-RPM_NAME = "schismtracker-20221201-1.4.aarch64.rpm"
-RPM_HASH = "2cd0d9021a7914c8ac48c70fa8af1e63e1b7b7ae2d5de6628f8b0946e7bd7b46dec9d209ce5b787931a651adc12ac2d53ec37c86f9fa501c80d0c46d14c7b29b"
+RPM_NAME = "schismtracker-20230906-1.1.aarch64.rpm"
+RPM_HASH = "eca9aecced0da6ce36be0b4d0491295042d8ecb869dd142cca9edd61e31f7d1ee65a7a822998fc9ed59932dd994e3513b35710bc0adac748238967086a36afd7"
 
 RPROVIDES:${PN} += "schismtracker"
 

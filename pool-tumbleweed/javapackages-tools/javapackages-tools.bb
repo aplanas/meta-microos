@@ -2,16 +2,14 @@ SUMMARY = "Macros and scripts for Java packaging support"
 DESCRIPTION = "This package provides macros and scripts to support Java packaging."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.1.0"
+PV = "6.2.0"
 
-RPM_NAME = "javapackages-tools-6.1.0-4.1.aarch64.rpm"
-RPM_HASH = "90bd6b8403693d9a0117b4c971a7490df8392180891d6c886e0bd47b2d7f176d66bb040d715f9774e41822a6a1aabacb8d1b7b291602cdccac04c4f397be581d"
+RPM_NAME = "javapackages-tools-6.2.0-2.1.aarch64.rpm"
+RPM_HASH = "e2b31d0bbcf21f90f1cce1bc6add35ec33f2c867c3c00e6aecd8a8b63199558fb7cb14e7f7218af442ab6362be4511a57ab8bc3e612fb788db55d59cf6cfc9b0"
 
 RPROVIDES:${PN} += "config-javapackages-tools \
 javapackages-tools \
 jpackage-utils \
-mvn-com.sun-tools \
-mvn-sun.jdk-jconsole \
 rpm-macro-ant \
 rpm-macro-jar \
 rpm-macro-java \

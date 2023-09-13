@@ -2,10 +2,10 @@ SUMMARY = "Mesa VA-API implementation"
 DESCRIPTION = "This package contains the Mesa VA-API implementation provided through gallium."
 LICENSE = "MIT"
 
-PV = "23.1.6"
+PV = "23.1.7"
 
-RPM_NAME = "Mesa-libva-23.1.6-356.1.aarch64.rpm"
-RPM_HASH = "1ef47810e434f8c0e1aa5b0f134e4657b9743c3be3176e119d23a58c33504471d5614573021f4f2c99ea6c0a237a03310f4db8a929008c0e320d038bb534a181"
+RPM_NAME = "Mesa-libva-23.1.7-357.1.aarch64.rpm"
+RPM_HASH = "9abd8e6795979b7b681ea677f418d1d9bf102ec0848f85c01e02c49cf459091c45c1e5eb4d86a2aaebd3baff2532cbe697fd62d0a12cb7c87580a0c7db673e54"
 
 RPROVIDES:${PN} += "Mesa-libva \
 libgallium-drv-video.so"

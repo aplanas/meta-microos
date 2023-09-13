@@ -14,10 +14,10 @@ just Mesa or The Mesa 3-D graphics library. \
 * OpenGL is a trademark of Silicon Graphics Incorporated."
 LICENSE = "MIT"
 
-PV = "23.1.6"
+PV = "23.1.7"
 
-RPM_NAME = "Mesa-23.1.6-356.1.aarch64.rpm"
-RPM_HASH = "ce21143f4b2c261a319ec298e370a2e2d694ffb7408232f187385e03198b3ef19cfd3deeea26aa421a15ab93bcab6a47e69c79264a4ffd7def060a5bada6c858"
+RPM_NAME = "Mesa-23.1.7-357.1.aarch64.rpm"
+RPM_HASH = "dd678bcad0ae8153da86f04a8bbcb5821b82e9e25a79ace936464313ad669896a8019c52da1278f11cf1d0be79d5293cc65c4fa72678e7f74924064e072bb477"
 
 RPROVIDES:${PN} += "Mesa \
 Mesa-libIndirectGL1 \

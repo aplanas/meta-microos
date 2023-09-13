@@ -4,10 +4,10 @@ ground for all Elasticsearch-related code in Python; because of this it tries \
 to be opinion-free and very extendable."
 LICENSE = "Apache-2.0"
 
-PV = "7.6.0"
+PV = "8.9.0"
 
-RPM_NAME = "python311-elasticsearch-7.6.0-5.3.noarch.rpm"
-RPM_HASH = "7843c6dab5ae0a92d12ef72b1ade774749cc18c2502242d9e38a187adb615ed2316646856ccfcc8b732a0c66d62db7f9961b5ce1dbb3822630a2e74bf5b1619b"
+RPM_NAME = "python311-elasticsearch-8.9.0-1.1.noarch.rpm"
+RPM_HASH = "0eca276b0bbcbcbcdc4413d1859f1ba4d2fac49c3799d9697efa6d51119e3a2e9f93a4255c0a81ff4113d45fb6371cab7e657a1f84b72f05e1dbf6f277336319"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-elasticsearch \

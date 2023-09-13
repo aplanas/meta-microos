@@ -2,10 +2,10 @@ SUMMARY = "Wrappers for transitition from Torque/PBS to SLURM"
 DESCRIPTION = "Wrapper scripts for aiding migration from Torque/PBS to SLURM."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.2"
+PV = "23.02.4"
 
-RPM_NAME = "slurm-torque-23.02.2-1.4.aarch64.rpm"
-RPM_HASH = "e8047438e07b253ed093644cbc1a36a7758d2379f50c036af35eb9ffa056cd10f452f6a94e0d2bcf2b94c8335215d9dd48900ab1b003045a724d98e97ff2c43f"
+RPM_NAME = "slurm-torque-23.02.4-2.1.aarch64.rpm"
+RPM_HASH = "26041fba0a2b0521e74b3bfd9c559b9eef1d15f007c550aa4460b906d011f8b8acc6c4566ea9afb13fc73f2e38d04c2e8cccb537c2ddc8ee60970930ec67ad69"
 
 RPROVIDES:${PN} += "slurm-torque \
 torque-client"

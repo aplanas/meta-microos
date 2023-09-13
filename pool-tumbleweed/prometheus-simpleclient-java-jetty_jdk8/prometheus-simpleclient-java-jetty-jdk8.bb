@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & CC0-1.0"
 
 PV = "0.8.0"
 
-RPM_NAME = "prometheus-simpleclient-java-jetty_jdk8-0.8.0-6.11.noarch.rpm"
-RPM_HASH = "134f69b02c694e50a1593b432d4a653c76e51f9f880c8f83fd27b601b1ed954974c880463749d39fe77ce2f66c08eadc2778e9f35f5eb7f75f24d5f03e14c181"
+RPM_NAME = "prometheus-simpleclient-java-jetty_jdk8-0.8.0-7.1.noarch.rpm"
+RPM_HASH = "3ee7e9bcf901bfbaf1796cb8bbce7ef3781aec7cfca96f773953e6b9ce283f543421ca15f3c2083ee86e5ddccd6b2172708c26b08bfcd7a313f9e6ef26f94cb3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-io.prometheus-simpleclient-jetty-jdk8 \

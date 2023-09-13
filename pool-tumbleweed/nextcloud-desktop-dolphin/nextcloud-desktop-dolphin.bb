@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the necessary plugin libraries for the \
 Dolphin filemanager to display overlay icons."
 LICENSE = "GPL-2.0-or-later & LGPL-3.0-or-later"
 
-PV = "3.9.0"
+PV = "3.9.3"
 
-RPM_NAME = "nextcloud-desktop-dolphin-3.9.0-3.1.aarch64.rpm"
-RPM_HASH = "9268fdf10dfce0557f3c5f42f302fb78717b7c51721bef9adf82699717ed76a1bd781a9918f92470f7ca2217d7611d2a9de2a56bf14e6ad0fa7785124e006799"
+RPM_NAME = "nextcloud-desktop-dolphin-3.9.3-1.1.aarch64.rpm"
+RPM_HASH = "341343ff4b07a9b6e4f0cbadb2d4f9e0ef49b949ee5d7171e1a67c456e52a6512a142a02a509aff4290bdfc9e904f49671f16236f0160ea2c19452ac076a9891"
 
 RPROVIDES:${PN} += "libnextclouddolphinpluginhelper.so \
 nextcloud-desktop-dolphin"

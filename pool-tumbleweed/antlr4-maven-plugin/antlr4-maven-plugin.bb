@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.13.0"
 
-RPM_NAME = "antlr4-maven-plugin-4.13.0-1.2.noarch.rpm"
-RPM_HASH = "a3aad3457e501cf34c732419db0efc90adbd7856b49adec88e4b10d26943ddf29462d945004b464fcbbdbbdf20a882f92d125dc1d750c21e740e8b2bd92c9fcc"
+RPM_NAME = "antlr4-maven-plugin-4.13.0-2.1.noarch.rpm"
+RPM_HASH = "cd6b4ad26fbc1e51fb162d2b4f0085c07a5a315af7c33d65db5425c3c73fc49f453570ba1b31c9a0d9bf97e5a8a284806ed5c652a7003788cd33b38163ce44fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "antlr4-maven-plugin \

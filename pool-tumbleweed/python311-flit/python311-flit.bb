@@ -2,10 +2,10 @@ SUMMARY = "Simplified packaging of Python modules"
 DESCRIPTION = "Simplified packaging of Python modules"
 LICENSE = "BSD-3-Clause"
 
-PV = "3.8.0"
+PV = "3.9.0"
 
-RPM_NAME = "python311-flit-3.8.0-6.1.noarch.rpm"
-RPM_HASH = "3535ec481ad517ec0cfeac86adc958eba25229957bae33cb04a070004624231456be18449d0c00c13ae34dccaa0825d08d4efaeb3ec1bfb23d5dbdd10f8d9cfb"
+RPM_NAME = "python311-flit-3.9.0-1.1.noarch.rpm"
+RPM_HASH = "1d1a984bcd5ac0587007be55f648ecb28568602a8276e15840abe6edaead0cfde849be0934a95af34339365c90eb71f7d3dff727d7162a2e4ab4cd7e6f5694b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-flit \

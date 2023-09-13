@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Hungarian Translations"
 DESCRIPTION = "YaST2 - Hungarian translations."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230818.ea489402e5"
+PV = "84.87.20230901.be24cb382f"
 
-RPM_NAME = "yast2-trans-hu-84.87.20230818.ea489402e5-1.1.noarch.rpm"
-RPM_HASH = "12bfb6f5f57bd153e83e34b71093c9e9b81b550bcb08994c70a398ac2e46a57699f21495ef2eca273284a3c839235b282273dbd53214cb683d929d83ae7a791d"
+RPM_NAME = "yast2-trans-hu-84.87.20230901.be24cb382f-1.1.noarch.rpm"
+RPM_HASH = "fd83b17ee3efa7fc0ac0fb10fa8632d53299256ee5ebbb71050435baba0900894a9a0544d70165d1a1c64f9eb3fb0b06b4b12b58570412c91ac9e79f13bed4dd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-hu \

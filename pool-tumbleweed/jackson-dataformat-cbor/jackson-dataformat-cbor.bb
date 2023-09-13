@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0 & BSD-3-Clause"
 
 PV = "2.15.2"
 
-RPM_NAME = "jackson-dataformat-cbor-2.15.2-1.1.noarch.rpm"
-RPM_HASH = "aca8949188854299dba562d0686946ba1f0456271cbecb430d760c4bbd2d1d82eaf29d9b8f2025ae228c6f20c0051a5e81c4d3d0b8b37747c701330d39b45998"
+RPM_NAME = "jackson-dataformat-cbor-2.15.2-2.1.noarch.rpm"
+RPM_HASH = "fb7dc0b5b27a15a9b7a6ecdd7ffb71b90d149bf12e1004e290a5e1bf3c6341bccb1ca98fc77dd9a088c18c072d1491aa774dfe825429987a01024a70a724c792"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-dataformat-cbor \

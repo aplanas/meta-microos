@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "17.91"
 
-RPM_NAME = "installation-images-debuginfodeps-MicroOS-17.91-1.88.aarch64.rpm"
-RPM_HASH = "700f0c487f75206af810d20f142550b1f99e7f9d719185feff753a0a4a6c040f0b2e6c65bf201c58a3061b426748337653890aa744129a4fb035597cce7c8482"
+RPM_NAME = "installation-images-debuginfodeps-MicroOS-17.91-1.98.aarch64.rpm"
+RPM_HASH = "6e981d5e2c4e7653288989e951d6c5a23c345f122d4fd45db69bc37e2ae78cf62407083f59c0ffcec1b6b1a459ffdb52a35b16e24f74ce8936a93485379e8a78"
 
 RPROVIDES:${PN} += "debuginfo-build-id \
 installation-images-debuginfodeps \

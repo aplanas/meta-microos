@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.15.2"
 
-RPM_NAME = "jackson-module-afterburner-2.15.2-1.1.noarch.rpm"
-RPM_HASH = "acc9d11c883b582ba0a35f5b8d789ccce3dff08c1992ee2095a7f3adecd78b8d76c0ad2d65c31e13d32e077af81f8673cb3ff7b0e6210ea1be779e8cde453f93"
+RPM_NAME = "jackson-module-afterburner-2.15.2-2.1.noarch.rpm"
+RPM_HASH = "a7ef799cc07ef5687c5a0e9781df429a515642e224a743d67f1dbf7e5506509a678bf40b12c4e089e2edf85b3cb546a5a33300574181bfcdb02b4f9c4587cf86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-module-afterburner \

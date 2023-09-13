@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.9.4"
 
-RPM_NAME = "python311-ldapdomaindump-0.9.4-1.6.noarch.rpm"
-RPM_HASH = "d49f65fdb1bed9f11e56969c3ab2d9e35b31aa5c9c25ab11f392743aef32c0ae831da465092de34a406530ffe2050f4b01977e6ef3b5558ccfbab6852188ffe1"
+RPM_NAME = "python311-ldapdomaindump-0.9.4-2.1.noarch.rpm"
+RPM_HASH = "a1f8f8151c5451184a347cb9a1a5bc231587df6f0cf0cca40f42783cf0892674e58706fa040f85fdb9782528bf0d164f6e24ed046fff8d0ea7fdd519ae40e2cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-ldapdomaindump \
@@ -17,7 +17,7 @@ RDEPENDS:${PN} += "/usr/bin/python3.11 \
 /usr/bin/sh \
 python-abi \
 python311-dnspython \
-python311-future \
-python311-ldap3"
+python311-ldap3 \
+update-alternatives"
 
 inherit rpm

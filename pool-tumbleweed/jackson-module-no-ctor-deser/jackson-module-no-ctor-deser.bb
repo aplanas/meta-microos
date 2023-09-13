@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.15.2"
 
-RPM_NAME = "jackson-module-no-ctor-deser-2.15.2-1.1.noarch.rpm"
-RPM_HASH = "963e10e95ced14dd7d7026a45d3104a86cdc7ac9322dc4a147f80b94b9c94743075dea4807b63c0e578ba64b43fc78a1cb29424fed922d7adb82995e59a909b3"
+RPM_NAME = "jackson-module-no-ctor-deser-2.15.2-2.1.noarch.rpm"
+RPM_HASH = "eb99908e7de620608656f7158415953d1f21453ab77cba48f49fe65f979773daea4198607c8ef86b1aaf45109e0158e25dd5d67ed548b8e3902ce81d3ab4583d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-module-no-ctor-deser \

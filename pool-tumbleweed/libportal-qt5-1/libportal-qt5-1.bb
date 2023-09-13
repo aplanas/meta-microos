@@ -3,10 +3,10 @@ DESCRIPTION = "A GIO-style async APIs for most Flatpak portals. \
 This package contains the shared library of libportal."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.6"
+PV = "0.7"
 
-RPM_NAME = "libportal-qt5-1-0.6-1.8.aarch64.rpm"
-RPM_HASH = "407b1db38eb150b32c243854d07a395ac5aa49c56b1c90a37341b28039fd29ceddc4e8b154e94d31fd6b40eed20b1fdc71dbf6ff028d715c9168101ef7f04875"
+RPM_NAME = "libportal-qt5-1-0.7-1.1.aarch64.rpm"
+RPM_HASH = "beb7de978c0540ae25c6e6a89dfe7d69a855e2af0437b320556b0b4a7371a0eb777fda291d84368b0ad7a8301c94a28466109c6c08a5236701a6d1f29fde02a7"
 
 RPROVIDES:${PN} += "libportal-qt5-1 \
 libportal-qt5.so.1"

@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "22.10.0"
 
-RPM_NAME = "python311-Twisted-serial-22.10.0-7.1.noarch.rpm"
-RPM_HASH = "77717e1e3e255346923216c72ebe201dddeb85c94938e9334e2734510a9d38920444883fe1c80c61e7e8496d9a1ef950255ddba3256bda525320775be2522e18"
+RPM_NAME = "python311-Twisted-serial-22.10.0-8.1.noarch.rpm"
+RPM_HASH = "095ba75883c094a082b75aa8ab0dc95ea82499a1e11ebb688bcf5457a45caf71a9503597e4e914e21f4f523a8d1f42b9c57e1c9e47fc8c3fb13df1b3125f81ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-Twisted-serial \

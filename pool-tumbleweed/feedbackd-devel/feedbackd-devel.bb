@@ -3,10 +3,10 @@ DESCRIPTION = "The feedbackd-devel package contains libraries and header files f
 developing applications that use feedbackd."
 LICENSE = "GPL-3.0-only & LGPL-2.1-only"
 
-PV = "0.1.0"
+PV = "0.2.1"
 
-RPM_NAME = "feedbackd-devel-0.1.0-2.3.aarch64.rpm"
-RPM_HASH = "28e71256b8a8604e5513784863e96d6119182f873dd54a8303853ce72f4c4b6f8d98622e473f5e4b9481a5bf0f15e2bd797ee1f69cf66c5b2c7f944e1e73c2d4"
+RPM_NAME = "feedbackd-devel-0.2.1-1.1.aarch64.rpm"
+RPM_HASH = "43fcf7afada9448204cb2d6b59b751d780c7da82510ed73afd82cd8a186cc15af8e7672c9bacb99b8088a22b48e7703188b4169e97eaef86f583b15eb9a9207c"
 
 RPROVIDES:${PN} += "feedbackd-devel \
 pkgconfig-libfeedback-0.0"
