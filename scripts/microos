@@ -3,6 +3,7 @@
 import argparse
 import fileinput
 import gzip
+import zstandard
 import pathlib
 import re
 import shutil
@@ -57,6 +58,9 @@ def read_and_parse(url):
     with urllib.request.urlopen(url) as resp:
         if url.endswith(".gz"):
             return ET.parse(gzip.open(resp)).getroot()
+        elif url.endswith('.zst'):
+            xml_content = zstandard.ZstdDecompressor().decompress(resp.read())
+            return ET.fromstring(xml_content)
         else:
             return ET.parse(resp).getroot()
 
@@ -351,3 +355,4 @@ if __name__ == "__main__":
     group_packages = generate_group_package_list(args.group)
     unlink_recipes(args.recipes)
     link_recipes(args.recipes, group_packages, args.pool)
+
