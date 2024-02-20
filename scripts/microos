@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Read the MicroOS repository and translate the RPM packages into Yocto packages"""
-import os
 import argparse
 import fileinput
 import gzip
+import zstandard
 import pathlib
 import re
 import shutil
@@ -55,17 +55,14 @@ def update_group(group):
 
 
 def read_and_parse(url):
-    if url.endswith(".zst"):
-        os.system(f"wget -O primary.xml.zst {url} && unzstd --rm primary.xml.zst")
-        parse_result = ET.parse("primary.xml").getroot()
-        os.system("rm -rf primary.xml")
-        return parse_result
-    else:
-        with urllib.request.urlopen(url) as resp:
-            if url.endswith(".gz"):
-                return ET.parse(gzip.open(resp)).getroot()
-            else:
-                return ET.parse(resp).getroot()
+    with urllib.request.urlopen(url) as resp:
+        if url.endswith(".gz"):
+            return ET.parse(gzip.open(resp)).getroot()
+        elif url.endswith('.zst'):
+            xml_content = zstandard.ZstdDecompressor().decompress(resp.read())
+            return ET.fromstring(xml_content)
+        else:
+            return ET.parse(resp).getroot()
 
 
 def primary_xml(url):
